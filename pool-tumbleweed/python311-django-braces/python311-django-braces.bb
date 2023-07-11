@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.15.0"
 
-RPM_NAME = "python311-django-braces-1.15.0-2.5.noarch.rpm"
-RPM_HASH = "61dae6c688f722a861160dd65b8074e25a6dcedefc49d6e45d300c93ff34b0c400a4f156405565df6d0d16ed69c1125701b21a390c3239666c0dad611d88d188"
+RPM_NAME = "python311-django-braces-1.15.0-2.7.noarch.rpm"
+RPM_HASH = "697971a69b0e0626e87986057b31bb2c0ba4a500f9bfed51e1d36cabdd6c273c5945f600575327a15f20c5d8ca801b6b455ee95cf0706c55c5ca4263dfc8f731"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-django-braces \
+RPROVIDES:${PN} += "python3-django-braces \
+python3.11dist-django-braces \
 python311-django-braces \
 python3dist-django-braces"
 

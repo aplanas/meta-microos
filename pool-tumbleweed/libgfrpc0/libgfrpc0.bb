@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only | LGPL-3.0-or-later"
 
 PV = "11.0"
 
-RPM_NAME = "libgfrpc0-11.0-2.1.aarch64.rpm"
-RPM_HASH = "27e12ec9311c5f8a276edd7005d53c38230fc300985b8259d9c523a414fd6c179d25db2a1ba3e5b8ff0b056866e27330e4e72ce234b64f493ff14c2977f3936c"
+RPM_NAME = "libgfrpc0-11.0-3.1.aarch64.rpm"
+RPM_HASH = "392207e2a9ed8249b74d9eb2d2439bdbd90ce4f28ae42a82ddf6b6ebaaf652948a079aea2b55a3e2140cbff226b79382f7b7c851d8f7904aaa9252b0ce94a368"
 
 RPROVIDES:${PN} += "libgfrpc.so.0 \
 libgfrpc0"

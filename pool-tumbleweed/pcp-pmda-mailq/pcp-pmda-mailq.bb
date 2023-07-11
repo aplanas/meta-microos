@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "5.2.5"
 
-RPM_NAME = "pcp-pmda-mailq-5.2.5-3.4.aarch64.rpm"
-RPM_HASH = "e9d96afdf3514a0fd8919fec6fdcbe6261f8dea6c0e1b2f2095218b9df3d7e8c0f7dced6618ed4c432d8cc2975badf14a3e2be5ede1d1ca871613f4fa4527d20"
+RPM_NAME = "pcp-pmda-mailq-5.2.5-3.7.aarch64.rpm"
+RPM_HASH = "c0ae376f1968f17421399a0d9032e9731bdc1c7039a16723a4c105afff08a11d35bcd6f008c89a10d325db0d2d303e875600d385f38b68c05600b99ae4292647"
 
 RPROVIDES:${PN} += "pcp-pmda-mailq"
 

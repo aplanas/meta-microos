@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.3.13"
 
-RPM_NAME = "python39-xmlsec-1.3.13-2.6.aarch64.rpm"
-RPM_HASH = "91c9a5408879a11c83a6422bb524ae12a7a8a3ef457aadc09f6165c461121020dd98efa26b8fdca99bc4116a621844e421218547c96109af9125e8c17ac4eb98"
+RPM_NAME = "python39-xmlsec-1.3.13-2.9.aarch64.rpm"
+RPM_HASH = "d4826c155fe6f1fb5f085c311a04a2b56f1abdaafcc7caeb6959d2160e4fb7c91798c5b299bd40651f5544a96ecc1373454327822c0192ad5d9f6e424e50644f"
 
 RPROVIDES:${PN} += "python3.9dist-xmlsec \
 python39-xmlsec \

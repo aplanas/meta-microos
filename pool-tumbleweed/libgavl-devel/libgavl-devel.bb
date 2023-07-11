@@ -12,8 +12,8 @@ LICENSE = "GPL-3.0+"
 
 PV = "1.4.0rsvn4256"
 
-RPM_NAME = "libgavl-devel-1.4.0rsvn4256-2.30.aarch64.rpm"
-RPM_HASH = "3f455b49b0323c38f28040630097b269d099ca44075a36fce6ae001eb8c721c18878ed5078af5cf3d7ebba5489ca0d2416820101f4a1bd4bf792920a3b0cbbb6"
+RPM_NAME = "libgavl-devel-1.4.0rsvn4256-2.31.aarch64.rpm"
+RPM_HASH = "b4cec64b6802a1c8acd38d31f2ac9ff40d77dbcb63448c731f68bafd0d23ddb4dcf032e484972df127bf547be33a93a727b5fe8a57d5e5b7523d47360d4193aa"
 
 RPROVIDES:${PN} += "libgavl-devel \
 pkgconfig-gavl"

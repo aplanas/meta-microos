@@ -13,12 +13,11 @@ LICENSE = "MIT"
 
 PV = "0.10"
 
-RPM_NAME = "python310-kaitaistruct-0.10-1.3.noarch.rpm"
-RPM_HASH = "5ca2902a80b0c323a1d3984c815c38dfcda5a0d39f775027751de14f21ee51406b775cf9a54e47ed14ef02bfd15d138713547666c4104ec9f8b5919ffc80d109"
+RPM_NAME = "python310-kaitaistruct-0.10-1.5.noarch.rpm"
+RPM_HASH = "6d1f8055f267928d9cb73c369b4337ea0ab6ba205ec5e91ec263002b265c37122e5fb198dd9ff1665839e5180b0463a2a3baadd0cef0193eee4ef9bce28d27cb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-kaitaistruct \
-python3.10dist-kaitaistruct \
+RPROVIDES:${PN} += "python3.10dist-kaitaistruct \
 python310-kaitaistruct \
 python3dist-kaitaistruct"
 

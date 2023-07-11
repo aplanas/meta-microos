@@ -15,8 +15,8 @@ LICENSE = "Artistic-1.0"
 
 PV = "2.0"
 
-RPM_NAME = "perl-Net-Jabber-2.0-189.29.aarch64.rpm"
-RPM_HASH = "b2653c37fa30c9a98db12fbe03dcfd7dde59aa9b5453b02cdd75f45d6114272a8f17a84ec7b8483e1b325d8f7c03de263fa3dac6d8c00c8af20af7a023e757b2"
+RPM_NAME = "perl-Net-Jabber-2.0-189.30.aarch64.rpm"
+RPM_HASH = "ac13bbc2267f96c2705631604652253b56074a5170c1348971c6eaa3cb565747a49e0ecdd6a1f5b75576a38cb4f198b4ef5ca48e6208aab9e62185aed84cbb80"
 
 RPROVIDES:${PN} += "perl-Net--Jabber \
 perl-Net--Jabber--Client \
@@ -39,7 +39,7 @@ perl-Net--Jabber--Stanza \
 perl-Net--Jabber--XDB \
 perl-Net-Jabber"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Authen-SASL \
 perl-Digest-SHA1 \
 perl-Net-XMPP \

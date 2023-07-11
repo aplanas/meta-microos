@@ -7,10 +7,10 @@ knitr such that you can weave your R code with your \
 presentation."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn38828"
+PV = "2023.208.svn38828"
 
-RPM_NAME = "texlive-medstarbeamer-2023.201.svn38828-52.1.noarch.rpm"
-RPM_HASH = "68390c0f30adac1e8180d6b8fd597167f502d2d4d4614ae22e20262ed267ae5a968467efff7f50e08584d476c72daf19fe89d8b87351f46a3e10f1fe14d2667a"
+RPM_NAME = "texlive-medstarbeamer-2023.208.svn38828-53.1.noarch.rpm"
+RPM_HASH = "8caa5e57ca92eb6560b08c0096cf2f4c756f71f00750c563c4474a59e73dde57b755680a99b1582435d38200457aca27e0a02bfc832f6343458bb80644ccecbb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beamercolorthemeMedStarColors.sty \

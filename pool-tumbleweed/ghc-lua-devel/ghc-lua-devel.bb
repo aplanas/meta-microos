@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.3.1"
 
-RPM_NAME = "ghc-lua-devel-2.3.1-1.3.aarch64.rpm"
-RPM_HASH = "5e3f7ece7f9d43b0e885535c441d2471805f12245ab6533b8ca7c85ddd310135491d2a44ddba6cf92b2274cb21014eab42f2580f8dd0df74a614c68ffbd1f6cc"
+RPM_NAME = "ghc-lua-devel-2.3.1-1.6.aarch64.rpm"
+RPM_HASH = "f65f85264974180fa19521e0b6b64371b94727d08e2ef833cf20586e58d619d50ae831f7cbd3620aab80f432c60c6e359f97c9685c798203f9989e41e49dd648"
 
 RPROVIDES:${PN} += "ghc-devel-lua-2.3.1-16mGxirchUh4T3oJJYdFzu \
 ghc-lua-devel"

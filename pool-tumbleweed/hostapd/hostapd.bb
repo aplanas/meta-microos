@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause | GPL-2.0-only"
 
 PV = "2.10"
 
-RPM_NAME = "hostapd-2.10-2.8.aarch64.rpm"
-RPM_HASH = "7887dd7f63309123e860019b3d72393bdbd66cb75d09d5482f9338dbff04a356eb83e26777d21690404dd3cbbfef2c7b96202d6ec485ee71bf034037dd665667"
+RPM_NAME = "hostapd-2.10-2.10.aarch64.rpm"
+RPM_HASH = "033e3333d1110f7a980cb730da288da178f058e43132f42766e005b94bc2bd2041c0adfafc9cb08e77994f4aceeba59751aa26a9900f7b1453ba78f40143e77f"
 
 RPROVIDES:${PN} += "config-hostapd \
 hostapd"

@@ -3,10 +3,10 @@ DESCRIPTION = "samba-ldb-ldap contains the ldb ldap module required by samba-too
 samba-gpupdate."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.18.1+git.298.4ccf830b2a4"
+PV = "4.18.3+git.303.c08b73d523c"
 
-RPM_NAME = "samba-ldb-ldap-4.18.1+git.298.4ccf830b2a4-1.1.aarch64.rpm"
-RPM_HASH = "78c6056717d7e5eb529a0b6e4c4ae61ca6b817692666018ceb70282a57eb530ffddb5e58d009d966184cdc0cb508805fd3ba294f0999e8e7586fd082e9d2090f"
+RPM_NAME = "samba-ldb-ldap-4.18.3+git.303.c08b73d523c-1.2.aarch64.rpm"
+RPM_HASH = "0d4fdd3a1bbf915c5aa6f3fdbaa0eafbb3831667525a44c155d57d672d25d57603357bc489d0e457984f7717dd72bed946fd8d7bc2855c21b7bb691a07f2521a"
 
 RPROVIDES:${PN} += "samba-ldb-ldap"
 

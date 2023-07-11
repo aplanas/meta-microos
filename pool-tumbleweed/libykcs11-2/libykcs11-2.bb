@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.3.1"
 
-RPM_NAME = "libykcs11-2-2.3.1-1.2.aarch64.rpm"
-RPM_HASH = "0580d0bfd0ebc05e52775fff8ea0a3347905f0e8e78e4c043a105555f2f7897bca15f31da991b1dbb3528b4674c19dd6f97f98e712a62a41dc927ba5f4fc0cf3"
+RPM_NAME = "libykcs11-2-2.3.1-1.3.aarch64.rpm"
+RPM_HASH = "7fd09d19ff94ec2a6971130109fb5b10715ebd82f02da4e9d2c35a80ef0efb7778ed8e59f7d4af43f0b25f32e8a21e2a4c94d8ed1ba952043a780fb1efbdab66"
 
 RPROVIDES:${PN} += "libykcs11-2 \
 libykcs11.so.2"

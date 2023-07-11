@@ -4,10 +4,10 @@ libtiff, you will have to add -ljpeg and -lz to include the necessary \
 libjpeg and libz in the linking process."
 LICENSE = "HPND"
 
-PV = "4.5.0"
+PV = "4.5.1"
 
-RPM_NAME = "libtiff6-4.5.0-3.3.aarch64.rpm"
-RPM_HASH = "41d59ab03e6fb991f3cbd36ecb26bcc63bc4c15de5f5d5ba5ce52a3bc75f46327b41a3ac331e316ef22764f0028a56a14a998ddd99482155a93c94c2a923df9e"
+RPM_NAME = "libtiff6-4.5.1-1.1.aarch64.rpm"
+RPM_HASH = "94ef3136cb96e74c7008c26b622792af723088ad89ba2d7fc5234250e9208a7988876d6d2ab5be8f4fada0373611fb842b3ba9e231dda7f2cdd9bb8acf1273ff"
 
 RPROVIDES:${PN} += "libtiff \
 libtiff.so.6 \

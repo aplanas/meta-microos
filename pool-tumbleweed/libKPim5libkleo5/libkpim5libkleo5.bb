@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the libkleo library, a library used by KDE 
 applications to handle cryptographic key and certificate management."
 LICENSE = "GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libKPim5libkleo5-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "88d3c30c9c67145dc9340e04c599298608a3a1bbfe1fb83cd77b137d6712a76c0f397887768ac86b0454d9d1ca232db39bbfa2bdec062a1b6bc4885e5de069c2"
+RPM_NAME = "libKPim5libkleo5-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "6af5eeda8d9e6e6cc00c79333904a0790f8c717b38decbbc61801abe3da3707c9bbbb2d8cfeb5c098cea72177e5975468be3ab3649912cb163cdbba5e9205d1d"
 
 RPROVIDES:${PN} += "libKPim5Libkleo.so.5 \
 libKPim5libkleo5"

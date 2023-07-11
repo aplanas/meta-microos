@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "4.0.12"
 
-RPM_NAME = "muparserx-devel-4.0.12-1.3.aarch64.rpm"
-RPM_HASH = "9470b60ea8e890fd1495d16e18b360a05557892ec29de46c2e84b2728b3886a70f431d0d7254b30cd8b515ce08839a9bdd76838e52ff21cd0dacb3e514cb84c8"
+RPM_NAME = "muparserx-devel-4.0.12-1.4.aarch64.rpm"
+RPM_HASH = "6e18b9bf5f50ff48516575358d7367dc51ae555a5e96591a16a579e632ad8336b1d764bb10764226f0d2468ae208b9e467576656307a8ab10092fb939f34e2ea"
 
 RPROVIDES:${PN} += "cmake-muparserx \
 muparserx-devel \

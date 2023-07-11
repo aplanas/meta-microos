@@ -3,15 +3,16 @@ DESCRIPTION = "The filesystem regression test suite. Contains around 1500+ speci
 userspace and kernelspace for several linux filesystems."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.1.1+git.20220820"
+PV = "1.1.1+git.20230528"
 
-RPM_NAME = "xfstests-1.1.1+git.20220820-1.4.aarch64.rpm"
-RPM_HASH = "19622447cad7c17352ad3285da2c391e186b20d7fce7c2cd5a6f20aa2ecdcd803c71b3a36d5701b0fdf7d6b65667a000c2435a091808507de4adc3c667b80f0d"
+RPM_NAME = "xfstests-1.1.1+git.20230528-1.1.aarch64.rpm"
+RPM_HASH = "9b3f5a0aa5dab2d7b95ccfea602bdf98c9c6ae45fc5d4f62bc10027e8738dfa7d67d37fe9682935a7fb30278453e77653cf5c108dfd5339c78e3c6c6767668e0"
 
 RPROVIDES:${PN} += "xfstests"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
+/usr/bin/python3 \
 /usr/bin/sh \
 acl \
 attr \

@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "1.2.0"
 
-RPM_NAME = "python311-pytest-pretty-1.2.0-1.1.noarch.rpm"
-RPM_HASH = "b8afa90fc206a165a9e9b4054807c55378a414b649b21198a11ead2c6c37cebb2410b2c284774ced145946233fe30ab65768c977919525624a1b198dee08b4f0"
+RPM_NAME = "python311-pytest-pretty-1.2.0-1.3.noarch.rpm"
+RPM_HASH = "06c94c8054dab7edad5f63d9763f49248ee9a9e2dc0845d5f1668c3c1e6f6d40dab7adea89e3ec063351b7734fd7cc88053865ae6d4daa0ff79e4cb3fc01de0d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pytest-pretty \
+RPROVIDES:${PN} += "python3-pytest-pretty \
+python3.11dist-pytest-pretty \
 python311-pytest-pretty \
 python3dist-pytest-pretty"
 

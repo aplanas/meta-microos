@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.24"
 
-RPM_NAME = "python311-catkin-pkg-0.4.24-2.9.noarch.rpm"
-RPM_HASH = "331d29797a8b63aabc280bf4025623bec051f467d5219833a97f1dfab61e067d7c83c1f6e47e89923efec97f65148a30d5a23d5fdafcff19e7ebd7f7734e41df"
+RPM_NAME = "python311-catkin-pkg-0.4.24-2.11.noarch.rpm"
+RPM_HASH = "59931b595d82f77f8c48b3580dfe221b9032c4f4684d67226fa818baa120b2fd7044e383a248dbc5e647b12d9f566bf326e7aacbed5824920f4434d7eb922185"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-catkin-pkg \
+RPROVIDES:${PN} += "python3-catkin-pkg \
+python3.11dist-catkin-pkg \
 python311-catkin-pkg \
 python3dist-catkin-pkg"
 

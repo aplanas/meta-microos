@@ -7,10 +7,11 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20210424"
 
-RPM_NAME = "python311-libexe-20210424-4.6.aarch64.rpm"
-RPM_HASH = "d1f30ff31fd52f5105be96716db733d91e8e21369c18f2b8eba59ecd58f320da31aff2ee4cbd9d831642d7cbe96e476012976e9dee953b4e6a9c921f6c28abe4"
+RPM_NAME = "python311-libexe-20210424-4.9.aarch64.rpm"
+RPM_HASH = "3ec05023e1af1921943caf93c098ffb2272997ba4b9d9ec7bdfe32cbe6447266950d92e2b41e38d8a6c0f4f893ce7b68e213f92bfdc05d25ddfb079ee6bba2c3"
 
-RPROVIDES:${PN} += "python311-libexe"
+RPROVIDES:${PN} += "python3-libexe \
+python311-libexe"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libbfio.so.1 \

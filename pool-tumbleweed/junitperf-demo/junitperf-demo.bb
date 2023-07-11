@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.9.1"
 
-RPM_NAME = "junitperf-demo-1.9.1-26.6.noarch.rpm"
-RPM_HASH = "88b8138d94b7efe5f3a1445cb58f9b57c6b2f146dd0d5c2f2c5c29cc06897e45509e9de87be2d405181a15dad48f282670240faaac5a9145decb01f106376e77"
+RPM_NAME = "junitperf-demo-1.9.1-26.7.noarch.rpm"
+RPM_HASH = "535c427224fc59c7cb4b22c089d4171d367dff041318640e5c7b3da454c6cec4f6b3fca660e36f03591753a29b7375511c7814477581bcb89a611cd7c62a9ebf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "junitperf-demo"

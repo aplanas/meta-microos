@@ -8,10 +8,10 @@ support. \
 This package includes files needed for development with XMLTooling."
 LICENSE = "Apache-2.0"
 
-PV = "3.2.3"
+PV = "3.2.4"
 
-RPM_NAME = "libxmltooling-devel-3.2.3-1.4.aarch64.rpm"
-RPM_HASH = "f28c9c93c6d0a0eb1ee8e1b3c3d09195f0d022188cc8d12c0796ab987f2d33bec7cea4ca6bcaad9e33362f45cc2355b09812e4cb394965290e629b0915c022fc"
+RPM_NAME = "libxmltooling-devel-3.2.4-1.1.aarch64.rpm"
+RPM_HASH = "421ffe1fe27a45db9072ce075e311e3000ff6ef4f8e107eccf4bd9dbf02001ac11576e7276edf595a61aff57b107f077fb3e1e1b6fb05a59f01012db1bdb99ef"
 
 RPROVIDES:${PN} += "libxmltooling-devel \
 pkgconfig-xmltooling \

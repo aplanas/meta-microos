@@ -9,12 +9,11 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.8.0"
 
-RPM_NAME = "python310-dominate-2.8.0-1.1.noarch.rpm"
-RPM_HASH = "345019b579a769a2db6a8753aaa867e35cdca0b63b4720610f0af39583135de3954fa59f513c9516b3f00b3e376559b8e63ade89e7ad3c0ccfe200dff3098445"
+RPM_NAME = "python310-dominate-2.8.0-1.3.noarch.rpm"
+RPM_HASH = "6236064420135a190d2dafc6494eeadf4d5513f8fc86f061134d094c573af579c3b7f8789b49c2dfdfca6f5dd5cb6073a67389bfe71c4c9766650d0a5703aa86"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-dominate \
-python3.10dist-dominate \
+RPROVIDES:${PN} += "python3.10dist-dominate \
 python310-dominate \
 python3dist-dominate"
 

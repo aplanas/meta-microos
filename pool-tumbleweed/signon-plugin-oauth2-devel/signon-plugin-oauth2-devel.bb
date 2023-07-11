@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "0.25"
 
-RPM_NAME = "signon-plugin-oauth2-devel-0.25-1.11.aarch64.rpm"
-RPM_HASH = "b10fe35f73e6d57aecc58cb3ae0529fc4baf28715adbe36242f1c3dfa41eb5b736d78eaf831b8d7836d4f3b55ba4870be6c6c84b9b4119db7c329714a505359a"
+RPM_NAME = "signon-plugin-oauth2-devel-0.25-1.12.aarch64.rpm"
+RPM_HASH = "1a838b4ff08eb31bbcd3973831f906efe230e1251cbc9ed57b1252d6190a8bc61f4e537a263df6c324408eb4fe85400df3ab28142eb458b1831aa3b174452574"
 
 RPROVIDES:${PN} += "pkgconfig-signon-oauth2plugin \
 signon-plugin-oauth2-devel"

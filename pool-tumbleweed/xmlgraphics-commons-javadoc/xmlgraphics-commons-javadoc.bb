@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.8"
 
-RPM_NAME = "xmlgraphics-commons-javadoc-2.8-1.2.noarch.rpm"
-RPM_HASH = "94cedee20b561162575d1b1a88a760b8d8f0e1f74f54542b4239d4ec46368c7d76431002b0d1a6a6c850566d4f117ea991fb6838bee3bca3b5ce29425c7ec212"
+RPM_NAME = "xmlgraphics-commons-javadoc-2.8-1.3.noarch.rpm"
+RPM_HASH = "f172f04e3316edc28bdcdc855b378ad135801847bf155b351f498b741af834c4d977b12029bb72e5d335cf00f47b04cc1cf0bb256916d37fefc06c9bc1559023"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xmlgraphics-commons-javadoc"

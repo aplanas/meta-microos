@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0"
 
 PV = "23.1"
 
-RPM_NAME = "cloud-init-config-suse-23.1-1.3.aarch64.rpm"
-RPM_HASH = "ce473195eb7aa2cadfcc5f34d962935c4860236ff265767384b8f003a7a7a56495c826e6db900e66875bb2921c70e99f78a8e4f19d5f9d8acb60c49169b8136f"
+RPM_NAME = "cloud-init-config-suse-23.1-1.4.aarch64.rpm"
+RPM_HASH = "8fc1f0e5c83a1d8effb86dd7f8e4b74f3e4746305c6cda932d6f04f0a694261c3ea70b01d09bf22ec99474431940b033733424d9405e672c0315977b03e43eab"
 
 RPROVIDES:${PN} += "cloud-init-config \
 cloud-init-config-suse \

@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.18.0"
 
-RPM_NAME = "parole-4.18.0-1.3.aarch64.rpm"
-RPM_HASH = "af8c566dd33b04c20f2bcaa66133b1de0578df6a9cacc39a9c56cb3acb111d522c2dbc55bd9021953efaacccc37df2638a7f8cc7fe2a626ff70fe6b596db99d6"
+RPM_NAME = "parole-4.18.0-1.4.aarch64.rpm"
+RPM_HASH = "58c820d397d236e979268cfd9c3d9544a6ee8ef9a37b755e7ab9451fda4b7fdb10dee0ef75eae20dcc6e39c6f853d17f8831e3bd8f39129a84af65a217449b9c"
 
 RPROVIDES:${PN} += "parole"
 

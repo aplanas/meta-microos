@@ -2,10 +2,10 @@ SUMMARY = "Southern_Sotho localization files for LibreOffice"
 DESCRIPTION = "Provides Southern_Sotho translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.1"
+PV = "7.5.4.2"
 
-RPM_NAME = "libreoffice-l10n-st-7.5.4.1-1.1.noarch.rpm"
-RPM_HASH = "0cc78015a9e48c43969bfb8904b8fd0dc3ff291031eef9e1df6655ed1ecf73ab451d0b63cd2ed0fe15326163fdf49f13f49b661717f47a2dcd70e3a25a65bf1c"
+RPM_NAME = "libreoffice-l10n-st-7.5.4.2-1.3.noarch.rpm"
+RPM_HASH = "af9291b9780f4eecc57068d2365490a82591fa755c0f533a6d910a45e773da891de3c8c7126c87f5597d79f239da8b3290009b876963a922060e685866763c95"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-st \

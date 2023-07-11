@@ -2,10 +2,10 @@ SUMMARY = "Qt5 3D tools"
 DESCRIPTION = "Tools for libqt5-qt3d module."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libqt5-qt3d-tools-5.15.9+kde0-1.1.aarch64.rpm"
-RPM_HASH = "edaf71dfc672b00a3d4ad752de3dd9d2afff9bf4b77248f97ba0aaadd9643fad89a8d1d71b0c3fdd75b37a2ca2bb6f685235efd7bdae68313e5b822edc93f9bd"
+RPM_NAME = "libqt5-qt3d-tools-5.15.10+kde0-1.1.aarch64.rpm"
+RPM_HASH = "2ba64e54c24c6dc8ee2a81b303cbd32850dfdeb8632e12e65ef51b1c3cc64d8b1e168c696efd7054c595bb82dd238856ecb54e923da9c90da71720e46e0d9592"
 
 RPROVIDES:${PN} += "libqt5-qt3d-tools"
 

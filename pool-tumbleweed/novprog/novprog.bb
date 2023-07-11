@@ -6,18 +6,18 @@ are through your daily goal, and your total goal. Mousing over a bar in the \
 graph will show a tooltip with that day's wordcount."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.2.0"
+PV = "3.2.2"
 
-RPM_NAME = "novprog-3.2.0-1.8.aarch64.rpm"
-RPM_HASH = "127d10a3e4d20778f413dcffcbf853bc38c4ecf13d52893b4781e1c64ab9b2fdcc71e7ae831644cc71f5538e4abb076379c471fb88d683e8c378bf4dc7a585c6"
+RPM_NAME = "novprog-3.2.2-1.1.aarch64.rpm"
+RPM_HASH = "25795383dbf00876bf296292c2866aaa82df5a8878081fd1c2163b1ddecd46cc5487ef949c3ace1b6f601a20c988a5d5f79049fa1060598b554d5e1ed6992d10"
 
 RPROVIDES:${PN} += "novprog"
 
 RDEPENDS:${PN} += "hicolor-icon-theme \
 ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6"

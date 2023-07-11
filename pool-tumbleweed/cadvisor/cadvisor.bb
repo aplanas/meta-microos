@@ -11,8 +11,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.46.0"
 
-RPM_NAME = "cadvisor-0.46.0-1.4.aarch64.rpm"
-RPM_HASH = "b98da04cdb3bdf3c75227abbcd53eaeb6ff3f2b65637b661580221bffebbbf23ebeb8cea0d90e6051150f5e0983ff30b3e0e5213589f317c00352655d6fa52a4"
+RPM_NAME = "cadvisor-0.46.0-1.5.aarch64.rpm"
+RPM_HASH = "cf8bac08df927de093d5caaccde8c127954d4b47dc60ec62e5e4941a32f82c2bb5452860eaeec8aae24e8e74cf10b58da1d18dfa7f3a15ffc72ac6261270adb5"
 
 RPROVIDES:${PN} += "cadvisor"
 

@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "2.18.0"
 
-RPM_NAME = "libva-drm2-2.18.0-2.1.aarch64.rpm"
-RPM_HASH = "a6df2d4674a315fe2ffea5eaeff981bce909224377ce2bb68bcd55b78779861b8fe62e1677cae43b888b9724743d42a92898812ae7b73338fedaab2e199531c0"
+RPM_NAME = "libva-drm2-2.18.0-2.2.aarch64.rpm"
+RPM_HASH = "da6f7f0cd7240c8d2ded82703dd987337a916ed083f67aaa7af242e35efd5b3226966643543e10c869fd078c38fd95eb9986c33ef2e8a4b0492f34114bd4cbcf"
 
 RPROVIDES:${PN} += "libva-drm.so.2 \
 libva-drm2"

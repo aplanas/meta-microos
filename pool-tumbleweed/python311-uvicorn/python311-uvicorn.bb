@@ -5,11 +5,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.22.0"
 
-RPM_NAME = "python311-uvicorn-0.22.0-1.1.noarch.rpm"
-RPM_HASH = "baae6683122222128c1ce39230a9ef21977d829be60a990ffc4e32034e469a09911d4099c045908a775c065e87cbbf9e4126b3371ce9a7b9ccc6fd83eef5d886"
+RPM_NAME = "python311-uvicorn-0.22.0-2.1.noarch.rpm"
+RPM_HASH = "ea13a2ef8ef797e88b3980a2abcbf1b39e344c37c927fd14fa8bd48c715706ba2efeef1638e0cf2b95f131dfd43173384b1959953ff265958379295f073f1511"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-uvicorn \
+RPROVIDES:${PN} += "python3-uvicorn \
+python3.11dist-uvicorn \
 python311-uvicorn \
 python3dist-uvicorn"
 

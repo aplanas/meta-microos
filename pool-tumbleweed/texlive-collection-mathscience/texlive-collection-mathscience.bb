@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.208.svn65753"
 
-RPM_NAME = "texlive-collection-mathscience-2023.208.svn65753-58.1.noarch.rpm"
-RPM_HASH = "0c07027f60949d207b9b4511c72516553cc9270c86f3190e734a790f64e8ab3996eef7c0aeecc48c56db1e91b27aef17867c3122a813a0c7bc5aee14f743450e"
+RPM_NAME = "texlive-collection-mathscience-2023.208.svn65753-60.1.noarch.rpm"
+RPM_HASH = "30217701776ca4b5b505ed9a6bcd496483a99e2b189ba0d095b0bef5446a58b9d793c67af13592703890b1208205affa0a625b36ba0cdfde8002b6f5ec45c7b1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-mathscience"

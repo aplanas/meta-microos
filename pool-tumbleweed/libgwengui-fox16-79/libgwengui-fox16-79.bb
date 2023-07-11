@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "5.10.1"
 
-RPM_NAME = "libgwengui-fox16-79-5.10.1-1.4.aarch64.rpm"
-RPM_HASH = "445fdc20ac6a5b6fd6dc12350256fa6581f31ec88c37d309231d10ccef84fb83af2f450c63d7085a3ca4a2f8221add6194b99a7176e69b6aeb059825653cdcdd"
+RPM_NAME = "libgwengui-fox16-79-5.10.1-1.5.aarch64.rpm"
+RPM_HASH = "6c85b35404d637c9d475cd41282ad90075514c243a614711000c5079ebdfbf81b0ab9f4393014471d0c14f45c4c8269a592d87852f8d116b618a68f04789d889"
 
 RPROVIDES:${PN} += "libgwengui-fox16-79 \
 libgwengui-fox16.so.79"

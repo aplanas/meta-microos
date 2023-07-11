@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.1.0"
 
-RPM_NAME = "python39-web_cache-1.1.0-3.12.noarch.rpm"
-RPM_HASH = "10421273eee38c5be6ba407e704ab5e628aa53f88d9c2426cff7309a558de9dc93b438ce5ba20f52467d2e246732f636bfdf6fb107843fd4458e9c2b4180d703"
+RPM_NAME = "python39-web_cache-1.1.0-3.14.noarch.rpm"
+RPM_HASH = "44a963e766960563ca1be2a21aebb38f453a6fdbc26fb822e1f662001a78af8956684e321f75b7dd6cdf616f9bf6219d8d7dbfeb4c70534b918750951093f210"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-web-cache \

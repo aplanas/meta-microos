@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "2.8.0"
 
-RPM_NAME = "python39-pyotp-2.8.0-1.3.noarch.rpm"
-RPM_HASH = "de98fb371a2be01988b88d95edf81afdc8e19830222ad16302412a91c70f2bf97b5de010b889da277918dfde02883bb9fe9fb3c086cd7e5ccd0ed98ac4bfb3ef"
+RPM_NAME = "python39-pyotp-2.8.0-1.5.noarch.rpm"
+RPM_HASH = "e59ff260fe779c2adabce3fdae754168b750051caac0f236e07dd97c3ed08ad492e3bf47a499383eb0186b5393e1888793db581d20bd4f659438cfc59fb04649"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyotp \

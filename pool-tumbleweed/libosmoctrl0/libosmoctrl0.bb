@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.8.0"
 
-RPM_NAME = "libosmoctrl0-1.8.0-1.1.aarch64.rpm"
-RPM_HASH = "6a699f02864e6c34d56ce0766c73b2e08aece01fc659a9b8919fc7676050f29d6710787dcd8df0bc3309990ed24e30e99884ec5fb61480242975924844676044"
+RPM_NAME = "libosmoctrl0-1.8.0-1.2.aarch64.rpm"
+RPM_HASH = "ecac29f559bd2e42ad7dd5b5f52a78e055c81bbe7773af3710a7fe9b02970f21399ca8fbce2582bb8ba9c68c3968b01f07eb71b66b5d27484e24f29c527b5e4e"
 
 RPROVIDES:${PN} += "libosmoctrl.so.0 \
 libosmoctrl0"

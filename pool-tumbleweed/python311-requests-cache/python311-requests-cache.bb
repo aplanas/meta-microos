@@ -14,11 +14,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.0.1"
 
-RPM_NAME = "python311-requests-cache-1.0.1-1.1.noarch.rpm"
-RPM_HASH = "a9ea9b0c21a9f79e591ae221bc5f2efc0b7e022fa18fc3f713e9baa9149855b8a42d154e45e70390936690d441618076444e1532d1ce11421b46bf4622cadfdb"
+RPM_NAME = "python311-requests-cache-1.0.1-1.3.noarch.rpm"
+RPM_HASH = "ffade61df5a0383b687ad038e20cf3956e9b8d0c689939eeee3ed7f48ea80a438c7530616321af8eafbbdfc5ac46d137586220f3ce26528934e6bcabe3835753"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-requests-cache \
+RPROVIDES:${PN} += "python3-requests-cache \
+python3.11dist-requests-cache \
 python311-requests-cache \
 python3dist-requests-cache"
 

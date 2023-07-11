@@ -4,12 +4,11 @@ LICENSE = "ISC"
 
 PV = "1.2.3"
 
-RPM_NAME = "python310-requests-gssapi-1.2.3-1.6.noarch.rpm"
-RPM_HASH = "e0a7f4640f13ab88537d18fc5e47ab39d6c633fc4170ce718f3ba8a34cf5b5f51ba1af0d93c59c75728a27b874ec0a3505b50b419a4591d8da0274570ef65111"
+RPM_NAME = "python310-requests-gssapi-1.2.3-1.8.noarch.rpm"
+RPM_HASH = "8947b15ca861183e00994bf33643c76523a987c2ab3c3f0b6066a51c5cbbf1df89cc28ffbf6c3d1b3983d49bf804068065b22e5fbb0b88d3386068a4393d1d48"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-requests-gssapi \
-python3.10dist-requests-gssapi \
+RPROVIDES:${PN} += "python3.10dist-requests-gssapi \
 python310-requests-gssapi \
 python3dist-requests-gssapi"
 

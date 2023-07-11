@@ -5,10 +5,10 @@ figures and concepts using the computer. Serve as a WYSIWYG tool for \
 drawing mathematical figures and including them in other documents."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kig-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "6e35650cb70b18a15e55819d8a09aff1abda3870942eeebab596cb9ec07a1583443f24b4c046977cc38d19601b64a049a4607daf0b0ed3c7de9c3a059ce7745a"
+RPM_NAME = "kig-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "3520d4821dcacfab1d05a217550fd08a52e8ee4759db8a025905a97bc465950f638d75145bd693b9b7a43df7b941541ee173d60a56c9543c5ae5cf8a532dbf20"
 
 RPROVIDES:${PN} += "kig \
 kig5"
@@ -24,7 +24,6 @@ libKF5Crash.so.5 \
 libKF5I18n.so.5 \
 libKF5IconThemes.so.5 \
 libKF5Parts.so.5 \
-libKF5Service.so.5 \
 libKF5TextEditor.so.5 \
 libKF5WidgetsAddons.so.5 \
 libKF5XmlGui.so.5 \
@@ -39,7 +38,7 @@ libboost-python-py3.so.1.82.0 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libstdc++.so.6"
 
 inherit rpm

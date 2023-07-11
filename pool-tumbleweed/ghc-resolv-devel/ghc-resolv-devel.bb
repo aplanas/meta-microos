@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.1.2.0"
 
-RPM_NAME = "ghc-resolv-devel-0.1.2.0-10.3.aarch64.rpm"
-RPM_HASH = "b0def907ac86f50a3b0e62eae5f104d39f94a1dfb41a1ce25e30dd26033af35583f06d86cfee97172f9d9ed502257cb3953cecae0a13b567906d5bc0b362143d"
+RPM_NAME = "ghc-resolv-devel-0.1.2.0-10.6.aarch64.rpm"
+RPM_HASH = "dd269dae93f6fbd2b0c1c55bdd214caca41a1c24214f9bb07a3b5111f5c76c800ca140a04238dc68a056a7c349218492c8b1aefafdc15b6ddca144f8a05d437e"
 
 RPROVIDES:${PN} += "ghc-devel-resolv-0.1.2.0-AYruoqdjlgt9u8SdYnpGUr \
 ghc-resolv-devel"

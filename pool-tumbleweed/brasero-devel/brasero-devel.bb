@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.12.3"
 
-RPM_NAME = "brasero-devel-3.12.3-2.7.aarch64.rpm"
-RPM_HASH = "587c020309689cae8273a68e41d35ba23d51f7079a9dd2efc12f951f57d6ea726c6dbc657b130d18cd2eef0cd9af31d7f75118cff677a92d4d10ec4197c1f234"
+RPM_NAME = "brasero-devel-3.12.3-2.8.aarch64.rpm"
+RPM_HASH = "d9e778606db8bd7a9532315205ad4a4adcd0898ce7a03934312d2e36b975db1c105ef04310ee78b02e63433840f58a41cb7aa6d7330e0f9a7c9e2f85bdfc89cb"
 
 RPROVIDES:${PN} += "brasero-devel \
 pkgconfig-libbrasero-burn3 \

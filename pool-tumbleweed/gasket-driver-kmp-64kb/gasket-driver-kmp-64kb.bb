@@ -2,14 +2,14 @@ SUMMARY = "Gasket Driver kernel modules"
 DESCRIPTION = "The Linux Kernel Module Package for the Coral Gasket Driver."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.0.18_k6.3.4_1"
+PV = "1.0.18_k6.3.9_1"
 
-RPM_NAME = "gasket-driver-kmp-64kb-1.0.18_k6.3.4_1-1.3.aarch64.rpm"
-RPM_HASH = "8a9764c305cacf6d62625f4ec1d4a42db2525d03b2dfccc1d7d8cc0a7915823ad221a36958203ebed886e8f35d88931517bb2cef4e0bb1168e97a06424914b09"
+RPM_NAME = "gasket-driver-kmp-64kb-1.0.18_k6.3.9_1-1.7.aarch64.rpm"
+RPM_HASH = "a9196026e72143f49fbb8884e26a433e92ddb353ad9df93922d786e1319d63793647d3970937f910ebea384a3161d528d2f2b4928442a2b6f58b5bd9e0602042"
 
 RPROVIDES:${PN} += "gasket-driver-kmp \
 gasket-driver-kmp-64kb \
-gasket-driver-kmp-64kb-k6.3.4-1 \
+gasket-driver-kmp-64kb-k6.3.9-1 \
 kmod-apex.ko \
 kmod-gasket.ko \
 multiversion-kernel"

@@ -10,10 +10,11 @@ LICENSE = "Apache-2.0"
 
 PV = "0.17.0"
 
-RPM_NAME = "python311-thrift-0.17.0-1.6.aarch64.rpm"
-RPM_HASH = "0f5f27c3dfab981c56c1438bf83e6ddc1e994e26c9a1cf48d6a31dafaf1f4cdb200b85b0a9efe6294986a566d084af23c1da7e0244ce31246d7f711a563635d0"
+RPM_NAME = "python311-thrift-0.17.0-1.9.aarch64.rpm"
+RPM_HASH = "96e74634320d5dc5fd492f70b428c9db7cb9c4add8d497d9a505534037ff48ca14fa4fdd4b13ea0e49588ee13cf9421d66170dcfdbb15087d23b335867304cb8"
 
-RPROVIDES:${PN} += "python3.11dist-thrift \
+RPROVIDES:${PN} += "python3-thrift \
+python3.11dist-thrift \
 python311-thrift \
 python3dist-thrift"
 

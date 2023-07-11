@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.2.0"
 
-RPM_NAME = "libgweather4-lang-4.2.0-2.1.noarch.rpm"
-RPM_HASH = "74c4b3313532ca275e50d57ee2a7e360325bada91794aeb3c40744640b1cc70a4f74b0fe34002bb576a2c8ef1e67dcaa040a7c51958be90f54e255a54f22adf8"
+RPM_NAME = "libgweather4-lang-4.2.0-2.2.noarch.rpm"
+RPM_HASH = "0847e3aaf12b14ea2bced2a2cb66af3e9f94d8930f551e249eeb53d9993636d72a427c4a3117b6df55200c73693c634ebf6e1bbcac4ebed9d47bcdecd6700b84"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libgweather4-lang \

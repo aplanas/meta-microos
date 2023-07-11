@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6.3"
 
-RPM_NAME = "python39-jupyter-events-0.6.3-2.2.noarch.rpm"
-RPM_HASH = "4cc587ee37c9b3f0c957bee4fb86577ce41940330172ddc837649d50478f6151b1d25b67ae3af5ca2bd1a35aaba023585ee0f9b6e566917a90e2397dc4bd9777"
+RPM_NAME = "python39-jupyter-events-0.6.3-2.4.noarch.rpm"
+RPM_HASH = "8a4cca6eea53a9c8761b4eda631e1120a173629a67be34f2962a03a88c32b61fc2fa5d6d08eedcb44f6dc51b2e11ced58873b8edec4fb5713d98426e3319a13c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-jupyter-events \

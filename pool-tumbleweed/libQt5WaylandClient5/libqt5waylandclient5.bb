@@ -2,10 +2,10 @@ SUMMARY = "Qt 5 Wayland Addon"
 DESCRIPTION = "Qt is a set of libraries for developing applications."
 LICENSE = "GPL-3.0-or-later & (LGPL-3.0-only | GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.9+kde55"
+PV = "5.15.10+kde51"
 
-RPM_NAME = "libQt5WaylandClient5-5.15.9+kde55-1.1.aarch64.rpm"
-RPM_HASH = "3efdfee2d788392fd8dd7a383de40487cb6f49a8524185ca1220ba377bec7b4df4f2b26dd0c1b593ded915fc5665e9267eab63d7ad71caa3b897f31ea877b512"
+RPM_NAME = "libQt5WaylandClient5-5.15.10+kde51-1.1.aarch64.rpm"
+RPM_HASH = "e99936f2dc52dd97ecd70ea488452ace6e28d2460d1d3be0354617c09736e8492c742263962fe6d2d403c67c125b2a3fa9d4331392dd122dbc31594c3eabe6f5"
 
 RPROVIDES:${PN} += "libQt5WaylandClient.so.5 \
 libQt5WaylandClient5"

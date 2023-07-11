@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only & LGPL-3.0-only"
 
 PV = "1.5.1"
 
-RPM_NAME = "libADLMIDI1-1.5.1-1.3.aarch64.rpm"
-RPM_HASH = "5a2e8ac135fd6a42abb3db383dfc6f88b1b38f6fbfe523cf2949565fbeb220d21596407a89279c557ed8af6a8605297bc97613f78fb3714aa19e88b6cd8a440a"
+RPM_NAME = "libADLMIDI1-1.5.1-1.4.aarch64.rpm"
+RPM_HASH = "ff98cb6b01ddd603a8170c84cee75d9e86dbb1cb1f1bbc486aad0161a180a3fb958fb07fbade83966cd6bdb36bb8aeb38784aafdad1f0768ed89f565b765d8ea"
 
 RPROVIDES:${PN} += "libADLMIDI.so.1 \
 libADLMIDI1"

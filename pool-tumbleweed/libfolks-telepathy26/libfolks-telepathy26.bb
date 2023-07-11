@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.15.6"
 
-RPM_NAME = "libfolks-telepathy26-0.15.6-1.1.aarch64.rpm"
-RPM_HASH = "cbf6d36034539e9e267e17e661967fe8ed550c3887370b0640bd612e7dbbd7a1deb0b3855dc33de095d0f3ed0bb90a8a465efcfb11a90f418c9f059ceb0041c3"
+RPM_NAME = "libfolks-telepathy26-0.15.6-1.2.aarch64.rpm"
+RPM_HASH = "0ea49e52af5f1d745d0d1274271e71ee89abdfb4b4bec7eaddac5a7c0360b8b4c4b980967c6698c0c6914264da302cbad23590c7a491c61e59b9a80d27833cfa"
 
 RPROVIDES:${PN} += "libfolks-telepathy.so.26 \
 libfolks-telepathy26"

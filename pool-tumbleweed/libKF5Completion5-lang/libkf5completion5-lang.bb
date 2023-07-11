@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libKF5Completion5"
 DESCRIPTION = "Provides translations for the 'libKF5Completion5' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "libKF5Completion5-lang-5.106.0-1.1.noarch.rpm"
-RPM_HASH = "168b5fc02c4f1e2e9000b1ae38d6c9640104ab7422831dcfa3e0242053938d7987b2717b74b081a651d453ed8249c83e23bc509800c804c71f9e0446db6306a1"
+RPM_NAME = "libKF5Completion5-lang-5.107.0-1.1.noarch.rpm"
+RPM_HASH = "80b7e107256bcaea892b51f60e8ecff17d22c81c584d1f1d07daf79ca944e1d83a2e1ba0277d5d57aa822c0d1f4f60dfad812c04b26ac292772cab10bf593282"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libKF5Completion5-lang \

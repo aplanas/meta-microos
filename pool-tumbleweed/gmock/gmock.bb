@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.12.1"
 
-RPM_NAME = "gmock-1.12.1-1.3.aarch64.rpm"
-RPM_HASH = "5bab5693e4f84fb55accd05326b5d3ff3d9d9f43ceacea0c6a5a33ede6cc83cea84c6da0a4d8247a13fecff37f5f74e19c99ab154328ac6bd1d9fcfdbf49803e"
+RPM_NAME = "gmock-1.12.1-1.4.aarch64.rpm"
+RPM_HASH = "e29938654a4cc2d47c01ca6eff88c6361444705e91b53a6d1ba3a2062d72688f8466ab41409b03ab2465bcb5aec74e8d1f6413fcfd00c3ea6961c500939ea2cf"
 
 RPROVIDES:${PN} += "cmake-GTest \
 gmock \

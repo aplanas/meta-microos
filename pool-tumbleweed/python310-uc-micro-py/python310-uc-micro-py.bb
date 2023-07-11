@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.0.1"
 
-RPM_NAME = "python310-uc-micro-py-1.0.1-2.1.noarch.rpm"
-RPM_HASH = "c512a7ba162058c5f360fec163db622f377557859005e8eb1a034b7dfebcfa35c6cbc73e5f830031a528a3a6babec4d3ca6313d467d56c03ffff72352bf2b52b"
+RPM_NAME = "python310-uc-micro-py-1.0.1-2.3.noarch.rpm"
+RPM_HASH = "cadfb286a6548b22a209eb44303ebac8ab596a7d761c5e3c5ca89d9069d76e1cd79fadd903a96b74f582d2733952ef06f8fd25b25f3e963776c0a8066fd31fc4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-uc-micro-py \
-python3.10dist-uc-micro-py \
+RPROVIDES:${PN} += "python3.10dist-uc-micro-py \
 python310-uc-micro-py \
 python3dist-uc-micro-py"
 

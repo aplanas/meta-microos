@@ -4,10 +4,10 @@ Django-RQ is a simple app that allows you to configure your queues \
 in django's settings.py and easily use them in your project."
 LICENSE = "MIT"
 
-PV = "2.8.0"
+PV = "2.8.1"
 
-RPM_NAME = "python39-django-rq-2.8.0-1.1.noarch.rpm"
-RPM_HASH = "d117bf4f7d006d991eadc1ba246e02abd154687ebd2894659e8a1ce8bf7353a9150de3aea004529024ce0c788f81130eb724e623dc22c1f0f8d84b9927c46715"
+RPM_NAME = "python39-django-rq-2.8.1-1.3.noarch.rpm"
+RPM_HASH = "16e6d3ab8b6034ccbc112634088d0b6e90f9ac61c55801b387009949d5c451008b10e9bd041b36d32dc8c36c8797f70e4bb76296c17dd3d2322f1429c5054d7f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-django-rq \

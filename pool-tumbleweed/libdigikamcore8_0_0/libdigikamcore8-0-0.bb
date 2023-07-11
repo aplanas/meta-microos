@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "8.0.0"
 
-RPM_NAME = "libdigikamcore8_0_0-8.0.0-3.2.aarch64.rpm"
-RPM_HASH = "f27ed0a3e1283456a675aedaf1d46ed88e9b1349f761e4eccb12d9aefbe5493607052b7c26c025b5ee55da9ce64faa60e859ad586d6cece7858ac26897ff7d82"
+RPM_NAME = "libdigikamcore8_0_0-8.0.0-4.1.aarch64.rpm"
+RPM_HASH = "3404c9e30c9ba69344de9f06535aa9a2c67bf5582cd230e36b6d7333c0d6f9157479a5136d28c1481cc3a54a05861650bded31281b38b4f383f9200cfc26253e"
 
 RPROVIDES:${PN} += "libdigikamcore.so.8.0.0 \
 libdigikamcore8-0-0 \
@@ -52,13 +52,13 @@ libQt5X11Extras.so.5 \
 libQt5Xml.so.5 \
 libX11.so.6 \
 libXext.so.6 \
-libavcodec.so.59 \
-libavdevice.so.59 \
-libavfilter.so.8 \
-libavformat.so.59 \
-libavutil.so.57 \
+libavcodec.so.60 \
+libavdevice.so.60 \
+libavfilter.so.9 \
+libavformat.so.60 \
+libavutil.so.58 \
 libc.so.6 \
-libexiv2.so.27 \
+libexiv2.so.28 \
 libexpat.so.1 \
 libgcc-s.so.1 \
 libgomp.so.1 \
@@ -78,8 +78,8 @@ libopencv-imgproc.so.407 \
 libopencv-ml.so.407 \
 libpng16.so.16 \
 libstdc++.so.6 \
-libswresample.so.4.ff5 \
-libswscale.so.6 \
+libswresample.so.4 \
+libswscale.so.7 \
 libz.so.1"
 
 inherit rpm

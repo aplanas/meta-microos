@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later-with-OCaml-LGPL-linking-exception"
 
 PV = "0.3.0"
 
-RPM_NAME = "ocaml-stdlib-shims-devel-0.3.0-1.11.aarch64.rpm"
-RPM_HASH = "c0a550215c99983e744068e2ab83a67dbc6d54caa47e215db9f0362cc7f0e3ac0bcef1f8b5abf654183af037934574ef6ef6167f1bf6dda1acb2a4bcc18967dc"
+RPM_NAME = "ocaml-stdlib-shims-devel-0.3.0-1.12.aarch64.rpm"
+RPM_HASH = "4be94f80751b2f08cd04b45c6aa0b1d1a001c5409c42359363f03db6855762c04d300c29be4fe59cb8eb53f0515cfc034c358abec3bac870c66f259603375187"
 
 RPROVIDES:${PN} += "ocaml-stdlib-shims-devel \
 ocamlfind-stdlib-shims"

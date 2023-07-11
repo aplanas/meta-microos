@@ -7,8 +7,8 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20221024"
 
-RPM_NAME = "libmsiecf-devel-20221024-3.5.aarch64.rpm"
-RPM_HASH = "293c0c59de4ef77c6d95cb6699b4c1ff71c2381e7351547396beec80907c882385cfa5f7b0679a4841b1ca72e86f27494cad007845075fb32f0e0ddb76ca8b6f"
+RPM_NAME = "libmsiecf-devel-20221024-3.7.aarch64.rpm"
+RPM_HASH = "ee0f9ba5204209d4842f23eb3835de98ee8fd165dc4bf1e7c048ff6f8ea0269224012b2a1620f6b1f4a112b59d9368e6ef9997b362babb28761b31c626b5d911"
 
 RPROVIDES:${PN} += "libmsiecf-devel \
 pkgconfig-libmsiecf"

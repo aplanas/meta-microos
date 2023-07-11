@@ -2,10 +2,10 @@ SUMMARY = "Translations for package poedit"
 DESCRIPTION = "Provides translations for the 'poedit' package."
 LICENSE = "MIT"
 
-PV = "3.3.1"
+PV = "3.3.2"
 
-RPM_NAME = "poedit-lang-3.3.1-1.2.noarch.rpm"
-RPM_HASH = "bdd73804837096accd5ecf8bc06c15827b293f19a1335dc213aea1694515433a22753f3291b9c9cc83808bcefec3f7e5494624cf112d06d8e6371d0769a0483a"
+RPM_NAME = "poedit-lang-3.3.2-1.1.noarch.rpm"
+RPM_HASH = "a57e9aa83a635dea36608bec3221a8772488101b57003c575c2b8c7d261b79a068c23a33e7fe873b12f501033d47410e23d0958d5ba79060afdf2dd3693e840e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-poedit-af \

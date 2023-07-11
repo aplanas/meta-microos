@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "42.1"
 
-RPM_NAME = "gnome-keyring-lang-42.1-2.3.noarch.rpm"
-RPM_HASH = "729e0a87501964a1df7871e1a40beee190f5042132d3cd89f07823f4c13bfdd30297701514aeb0f91b8dbce23f8f0b4fba52a82e617a94cfa22b4e2c0c723975"
+RPM_NAME = "gnome-keyring-lang-42.1-2.4.noarch.rpm"
+RPM_HASH = "b4f1c30a79612d529c10cd3f6c9b5ac50ab897b3e166ea1bf9ed7862a497d25347a341f6ec3e21e521952e0de0b4382eb337e1f1dd8805afb77f0b525c9c2d6e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-keyring-lang \

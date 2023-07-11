@@ -4,12 +4,11 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.22.1"
 
-RPM_NAME = "python310-PyBindGen-0.22.1-1.3.noarch.rpm"
-RPM_HASH = "b0799b466a903e5dc37286eb8858ccf7b7be81d1f2932f36b9003a878444bfe73a6658cd772fb976593f30395b3cf13335c42eaec82994139bf4d63cfecdddb3"
+RPM_NAME = "python310-PyBindGen-0.22.1-1.4.noarch.rpm"
+RPM_HASH = "26b7012669716b61559e1b8cc97d9e2c2c25a561c0ece7a4682166a0c954686e9e9cae37254e6ce9fa000f042ad4a741a82a73099c4028abe7d83ddd5fcaa69e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-PyBindGen \
-python3.10dist-pybindgen \
+RPROVIDES:${PN} += "python3.10dist-pybindgen \
 python310-PyBindGen \
 python3dist-pybindgen"
 

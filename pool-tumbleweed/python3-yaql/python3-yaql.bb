@@ -10,12 +10,12 @@ LICENSE = "Apache-2.0"
 
 PV = "2.0.0"
 
-RPM_NAME = "python3-yaql-2.0.0-2.2.noarch.rpm"
-RPM_HASH = "ecc600c2d9fdb68d019cf57ec9f2a1432ee77a39a7ba7f9e8270ee3e036c153fac93e72a300a2a2bdc62ac6fcbab0ccc538bc9455c250a0ae4f3c8c80ed0126e"
+RPM_NAME = "python3-yaql-2.0.0-2.3.noarch.rpm"
+RPM_HASH = "3e8a1fa6e276f0bdfd75cb9db4b2688fac2467a6b581c09c14fe90b735a20865b6670860d009813175da8e23e71fb7f918ac37b8549a1b9f1568052f2b8478d8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-yaql \
-python3.10dist-yaql \
+python3.11dist-yaql \
 python3dist-yaql"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

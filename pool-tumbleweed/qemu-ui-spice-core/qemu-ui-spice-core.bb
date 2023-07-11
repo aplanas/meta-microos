@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-
 
 PV = "8.0.2"
 
-RPM_NAME = "qemu-ui-spice-core-8.0.2-1.1.aarch64.rpm"
-RPM_HASH = "a8682a81ff0b0c806ba4a0a314d58bcd9f83c20b70e506e329f37974294c8e0e25e6cb363fa73d901d2c1cdb9799af13de95cbaab346cb07e195eca5a638129c"
+RPM_NAME = "qemu-ui-spice-core-8.0.2-2.1.aarch64.rpm"
+RPM_HASH = "0296031692a39dc4c8aec449abed8e787ebeec34ad282f75e91c0bdeb8cc5b9c05cb445d1b409419e45e6c374f23ccdbfbddb0b1124052627568e334a3c9231c"
 
 RPROVIDES:${PN} += "qemu-ui-spice-core"
 

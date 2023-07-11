@@ -4,15 +4,17 @@ LICENSE = "MIT"
 
 PV = "12.7"
 
-RPM_NAME = "python311-telepot-12.7-4.10.noarch.rpm"
-RPM_HASH = "908a360a4cf6194ef77accb644cca554ce4c74d19972ee32b4f71f9970ae6669f2c99517816960ccca9d3e3cba8887cf0fb6157fec1d3442f1ba6cf44446ac7b"
+RPM_NAME = "python311-telepot-12.7-4.12.noarch.rpm"
+RPM_HASH = "89237dcadf2ff2170cff5fcf3fddb95b5198f743926049db719a4bd38e7d6ad4e65c164a638e1e2676d8a5015714ab6dae456cbeb3e513e8773dbdb1429bce51"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-telepot \
+RPROVIDES:${PN} += "python3-telepot \
+python3.11dist-telepot \
 python311-telepot \
 python3dist-telepot"
 
 RDEPENDS:${PN} += "python-abi \
+python3-aiohttp \
 python311-urllib3"
 
 inherit rpm

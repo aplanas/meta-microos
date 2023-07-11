@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0 | BSD-3-Clause"
 
 PV = "4.1.0"
 
-RPM_NAME = "python39-fixtures-4.1.0-1.1.noarch.rpm"
-RPM_HASH = "7957ec2ae871bfc1d65356b438aa87a13500c67fa94e105f7c5bbd9026b762fd5ff64be5cc162ee0c97404bef181fb55752919ea6d50457f7e07343367990812"
+RPM_NAME = "python39-fixtures-4.1.0-1.3.noarch.rpm"
+RPM_HASH = "197de3a991aedae5de46affc438fd530b6249d335d20e5f6a2202c9e7964fe7da7baf7d65b3687f0673b9063beff48c565368020a084bea6053ddbfdd93e82df"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-fixtures \

@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.0"
 
-RPM_NAME = "kraft-1.0-2.1.aarch64.rpm"
-RPM_HASH = "6b5d7ae0a213f420e752a3e76df3b13dbec7ce1f13be229ffa5e135cee061d8a932d7403f15b56a4f7a43d6e897597a5e9a60b57e3c6088fc3ed7c3d06c40535"
+RPM_NAME = "kraft-1.0-2.2.aarch64.rpm"
+RPM_HASH = "7e05cf86b7365a4cac4565fde25cece91da4c0654363d13646ea9201c77862e4dc9084a3aad9015939bf55f8db23f4c0ddf0f6c44800227a83af26c05bd53e8b"
 
 RPROVIDES:${PN} += "kraft"
 

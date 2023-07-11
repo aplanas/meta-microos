@@ -8,8 +8,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.4svn61792"
 
-RPM_NAME = "texlive-elements-2023.201.0.0.4svn61792-53.1.noarch.rpm"
-RPM_HASH = "a6a331f9aa9fa19cc07809bb614395525c675cf35106d45ca8e38870da9b1ab87000b119563e5ecdce3165e5d41745571ddf2765896790db19533b30bf63c18e"
+RPM_NAME = "texlive-elements-2023.201.0.0.4svn61792-53.2.noarch.rpm"
+RPM_HASH = "f9843755f58438538b9c76fbbcbc2c750c36308831fd77939dccecad0bc375bed65b6c9d1655b227dcbf285f3a1fb3a372f829ec072fc5557ee4ac910f4b2b5f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-elements-names-brazil.def \

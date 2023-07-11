@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "20170617"
 
-RPM_NAME = "system-user-qemu-20170617-24.14.noarch.rpm"
-RPM_HASH = "a3e2c0dc833edbc272a40f8c32a5ae962e4348eb289e9e08381bdf3f709df79493854725806cf82bce213711580eebdf3d5ccd9fe4d7efc22d887427116c70fd"
+RPM_NAME = "system-user-qemu-20170617-24.16.noarch.rpm"
+RPM_HASH = "5cb8d4c2a60541d218f4f0501599faabdcb6aeda3cb58dd52a7fe99575a3d500debfbcfba95918486a70c347a250a9c5aa02ba992dc5efa60ebd2bc6e3ad6c67"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "group-qemu \

@@ -79,13 +79,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.0015"
 
-RPM_NAME = "perl-Devel-Hide-0.0015-1.8.noarch.rpm"
-RPM_HASH = "3cfff812767090c666c2470f45ef782c569c68b0ec29aa51ab02d6e2fad82e68a894bf78d820249fa1be7cc97d476e35d96c06c3a198a6f23b8c4f3211bfe74b"
+RPM_NAME = "perl-Devel-Hide-0.0015-1.9.noarch.rpm"
+RPM_HASH = "fad044008a2273ba5f0fcaa6c307cc4735ff57da2e61d5412c0856bf096e0a01b0e1e6619269bf9ed5d981c6f0777d410fe71bf8d743a62082e84b34831a5a86"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Devel--Hide \
 perl-Devel-Hide"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

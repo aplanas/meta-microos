@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.7.0"
 
-RPM_NAME = "libopencv_videoio407-4.7.0-1.6.aarch64.rpm"
-RPM_HASH = "0a490b94295ff62d2e27ff4c6e408b4f1eebf7fd2d7976d95a950b8655c984e317dfe7cf8a85a90fa9d2f3d5aec8222313babf98169aec522db3887a17311f01"
+RPM_NAME = "libopencv_videoio407-4.7.0-1.8.aarch64.rpm"
+RPM_HASH = "7a51f8b220b0388bcc27b443ebd7bde8fed4e25481d8d7c3b91fa07bffd192fdcc9e108984fd5e7869c0776cbce14f4557cb836da1ab150915a00d8afa40a7c3"
 
 RPROVIDES:${PN} += "libopencv-videoio.so.407 \
 libopencv-videoio407"
@@ -16,7 +16,7 @@ libavcodec.so.60 \
 libavformat.so.60 \
 libavutil.so.58 \
 libc.so.6 \
-libdc1394.so.25 \
+libdc1394.so.26 \
 libgcc-s.so.1 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \

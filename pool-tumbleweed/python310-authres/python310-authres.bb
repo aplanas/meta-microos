@@ -4,12 +4,11 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2.0"
 
-RPM_NAME = "python310-authres-1.2.0-1.13.noarch.rpm"
-RPM_HASH = "e42973fd4398e8f9aade9a61cacc0edeebac0676aac67f59350e3d5b0d8d662e53e38998a10b6b85d7ece7934e412c6f4ee849df6b30560d678a4a167a5335a2"
+RPM_NAME = "python310-authres-1.2.0-2.1.noarch.rpm"
+RPM_HASH = "eeba2446f950a517890ad2a413fdf4688933475a61f3100d7ec3c282d97e36feb4f069e39285e6b29a49fec19554add9b5183207042a9e4106fb5868cd20bdb8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-authres \
-python3.10dist-authres \
+RPROVIDES:${PN} += "python3.10dist-authres \
 python310-authres \
 python3dist-authres"
 

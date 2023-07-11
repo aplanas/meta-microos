@@ -6,10 +6,10 @@ higher level functions, such as cadenced supervisory tone detection, \
 and a complete software FAX machine."
 LICENSE = "LGPL-2.1-only"
 
-PV = "3.0.0.g15"
+PV = "3.0.0+g21"
 
-RPM_NAME = "libspandsp3-3.0.0.g15-3.1.aarch64.rpm"
-RPM_HASH = "491169199c8c0336077226ca21833c795cbd4e1d455ced38faf9b29719af6e62c1bd839279c23319963fe93d4673ecc24442d7118b5c51f2bd21cdb69f3367ee"
+RPM_NAME = "libspandsp3-3.0.0+g21-1.1.aarch64.rpm"
+RPM_HASH = "3fa49751df99083ea139150423967f37bf534263ed46a5f1d138ddc2493d24d5ea3e1fccc88df1e70480852f63c1c41d084b1a54665b0a8d33feddca2d536ef1"
 
 RPROVIDES:${PN} += "libspandsp.so.3 \
 libspandsp3"

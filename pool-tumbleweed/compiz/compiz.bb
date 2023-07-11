@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
 PV = "0.8.18"
 
-RPM_NAME = "compiz-0.8.18-2.8.aarch64.rpm"
-RPM_HASH = "faeae3a9feac2c8f415ea09f31a19f83b1675280105f5f1476094447b9e4535aa16a78c5778d93cce1a1ad32d583c4a2ee7317b1cda130c93ba93d939f905d12"
+RPM_NAME = "compiz-0.8.18-2.9.aarch64.rpm"
+RPM_HASH = "b4c31e84f16a61151abbb75c75d50bd655169ed6ba8c74e68e56cac5d6f15b8505a51d849b55d38f62ff406fbdca2a39cd4575f1a13c213927520dc9e8e16310"
 
 RPROVIDES:${PN} += "compiz \
 windowmanager"

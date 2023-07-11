@@ -5,11 +5,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.7.0"
 
-RPM_NAME = "python311-parsel-1.7.0-1.3.noarch.rpm"
-RPM_HASH = "b005aefc0b0e46a586a028640f26be2838580e4d0c4aa85326709475123a3385ae0975aa720fb08ce3164dc928af24edd327aca006ccbe473d403074b82db226"
+RPM_NAME = "python311-parsel-1.7.0-1.5.noarch.rpm"
+RPM_HASH = "188eda780c5afc6e1b59997a4e33c21faa70e4d87ee4e8a7ff2587d67266b4279362d3607d99cec5a59630d1c03569f68f8678519a49f0685acd9a8bc63adc93"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-parsel \
+RPROVIDES:${PN} += "python3-parsel \
+python3.11dist-parsel \
 python311-parsel \
 python3dist-parsel"
 

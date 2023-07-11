@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & CC0-1.0"
 
 PV = "0.8.0"
 
-RPM_NAME = "prometheus-simpleclient-java-logback-0.8.0-6.10.noarch.rpm"
-RPM_HASH = "7076e627ebe14ceef6512dd19d1f143a71407be77c9bb9004b4a1a8d24c694bf53c480bb5028484c65c60976698c6549326c165454dba9617ca48d33686bd698"
+RPM_NAME = "prometheus-simpleclient-java-logback-0.8.0-6.11.noarch.rpm"
+RPM_HASH = "fc696e1c06de3c1b3c70b63a27f03ff0ed2b519b1b5e284d6f5112f050b9d7c0586e671bf2a3ebcbdc4214840cac0fca3df46dab79af74913428d05cdabffa53"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-io.prometheus-simpleclient-logback \

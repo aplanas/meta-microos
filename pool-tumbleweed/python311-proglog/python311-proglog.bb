@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "0.1.10"
 
-RPM_NAME = "python311-proglog-0.1.10-1.1.noarch.rpm"
-RPM_HASH = "469c3adefb290b5fd09a61375efefd900b975e5a2de0b646eceded6d3cdf4139f0b791a6af5a8e61db41c0d50188bfb9fed0df92a858344241b2ddc699dcfba0"
+RPM_NAME = "python311-proglog-0.1.10-1.3.noarch.rpm"
+RPM_HASH = "a286499559bc4d6d93e000378d09fbc4650d425bc4f1d52186dca1195003b556b9b09bc2dccaf10d91d42ea862eed4e32b3825b3f8c3f1e7e83268460cb6097c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-proglog \
+RPROVIDES:${PN} += "python3-proglog \
+python3.11dist-proglog \
 python311-proglog \
 python3dist-proglog"
 

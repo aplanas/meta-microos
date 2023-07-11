@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.17.1"
 
-RPM_NAME = "libunbound8-1.17.1-1.3.aarch64.rpm"
-RPM_HASH = "776cd5cd6c4346c69c09af323cba66c6408c97baf0abcc4db4392b6674f1e055e53dede9cffd8888c93d3a6c234167000aef4694b0d7df9293262e0f6541dfcc"
+RPM_NAME = "libunbound8-1.17.1-1.5.aarch64.rpm"
+RPM_HASH = "00e9bc12c90e42d43cc606e0879aa15dba7db0f89eb046ba17087d5d186e409a95218f4392ad66144c6b8d31fe45d1a11a2556ad34b7b48c36aeb3658033ddcb"
 
 RPROVIDES:${PN} += "libunbound.so.8 \
 libunbound8"
@@ -19,7 +19,7 @@ libcrypto.so.3 \
 libevent-2.1.so.7 \
 libnghttp2.so.14 \
 libprotobuf-c.so.1 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libsodium.so.23 \
 libssl.so.3 \
 unbound-anchor"

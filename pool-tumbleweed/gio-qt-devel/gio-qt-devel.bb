@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.0.11"
 
-RPM_NAME = "gio-qt-devel-0.0.11-1.6.aarch64.rpm"
-RPM_HASH = "5487d958c924896f697c5373a3a03a7a0ec556b4390d0945730614e969a085bda0a06d1ad4228230464761113318b29fbfbb7b76496813c9c624b9752a7b65b6"
+RPM_NAME = "gio-qt-devel-0.0.11-1.7.aarch64.rpm"
+RPM_HASH = "30aa3cce0f4ce9cb47948008c0a34d5fec94950d7dbfb2628439b742e3d484e6f915889e0d00a22d3525a6dbcbb813f4516fded4d1eff85be976990d1bc8608f"
 
 RPROVIDES:${PN} += "gio-qt-devel \
 pkgconfig-gio-qt"

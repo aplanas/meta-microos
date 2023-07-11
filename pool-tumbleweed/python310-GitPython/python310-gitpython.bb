@@ -12,12 +12,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.1.31.1676565040.f253335"
 
-RPM_NAME = "python310-GitPython-3.1.31.1676565040.f253335-1.1.noarch.rpm"
-RPM_HASH = "845b8279d7b3f651fb4fc9225a9e79a1d850f0405d61a100b35fad6f75d078524d8bce6e930f995bf01da4cc449b15ef36612d20a0e20194fc82834edf1a3dee"
+RPM_NAME = "python310-GitPython-3.1.31.1676565040.f253335-1.3.noarch.rpm"
+RPM_HASH = "2eb2557458caeb488bf23aa427decf7bada8db7656ad93c4aa96caee0988184c8c7f163c83080e9da8afe3629d8959bfadf74b0b98d098ef5fcedccee77033df"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-GitPython \
-python3.10dist-gitpython \
+RPROVIDES:${PN} += "python3.10dist-gitpython \
 python310-GitPython \
 python3dist-gitpython"
 

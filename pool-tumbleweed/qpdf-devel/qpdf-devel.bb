@@ -3,10 +3,10 @@ DESCRIPTION = "The qpdf-devel package contains header files and libraries necess
 for developing programs using the qpdf library."
 LICENSE = "Apache-2.0"
 
-PV = "11.3.0"
+PV = "11.4.0"
 
-RPM_NAME = "qpdf-devel-11.3.0-1.3.aarch64.rpm"
-RPM_HASH = "54740a621f3333166ed7ab43a8d5dbe712dae398aca45308229bedd3e68c5f3bc132ffe5e7d0cfd510226747fd657971aebd46512bba6951e4e6f4e06a134996"
+RPM_NAME = "qpdf-devel-11.4.0-1.1.aarch64.rpm"
+RPM_HASH = "60b1b344c003fd26008072f8e5c3cd62d46680b9d5731f5674c49430814da73159bc47d225f28dfb515ad10f23d45c9cfb42230c841644b86d623b14f0b04dad"
 
 RPROVIDES:${PN} += "cmake-qpdf \
 pkgconfig-libqpdf \

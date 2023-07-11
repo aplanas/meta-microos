@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only & MIT"
 
 PV = "5.12.0.134.g4cebbfc"
 
-RPM_NAME = "collectd-plugin-pinba-5.12.0.134.g4cebbfc-1.4.aarch64.rpm"
-RPM_HASH = "b7949375257b3b5532ad96cef87d2a371d2fc4b95c1351b93e79727be4523b60b82fc57682a2314adb4d5e61153ecfde6d75b641d02b9441d749576bb18d274f"
+RPM_NAME = "collectd-plugin-pinba-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
+RPM_HASH = "bb6c60fd06cf3cf4661601eb27aec8007a27d427d8f44182d67df6b8e3c27e8152b4854dd742620712ee1f17a307988c6001b13517264f2d7266b76c7d436d39"
 
 RPROVIDES:${PN} += "collectd-plugin-pinba"
 

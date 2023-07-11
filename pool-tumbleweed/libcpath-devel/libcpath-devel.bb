@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20220108"
 
-RPM_NAME = "libcpath-devel-20220108-4.3.aarch64.rpm"
-RPM_HASH = "83cbb0141e9e2d1cd0ff0548467fdac6f33a6c593971e036d9ff68b58776beaaae8b11f69a1ff075d52bcc7141f267abc933ea11fb56b31dfe092fc4cfeedb27"
+RPM_NAME = "libcpath-devel-20220108-4.5.aarch64.rpm"
+RPM_HASH = "67502f52412b0f5c2b67ebf5c81bd5d8237d8057b412848304ecfb12e1877c7b71acfc7acee632186e24352900e2f13dc2da161f45bb2224f32a2d1d847d16f1"
 
 RPROVIDES:${PN} += "libcpath-devel \
 pkgconfig-libcpath"

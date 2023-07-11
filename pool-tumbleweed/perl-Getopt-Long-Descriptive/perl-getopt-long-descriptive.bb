@@ -9,8 +9,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.111"
 
-RPM_NAME = "perl-Getopt-Long-Descriptive-0.111-1.2.noarch.rpm"
-RPM_HASH = "5674e5c7589ec0cd636e41b6a3dee13f55229b37b956d11a6490c3fc6b14cf30e14651c589bcbd536f657912b7378e2fbf3ecb766cf0d694b870c291a37f352d"
+RPM_NAME = "perl-Getopt-Long-Descriptive-0.111-1.3.noarch.rpm"
+RPM_HASH = "139c88c4325a636ce356ba41a9dcd7866902011a49d9e4ad74364f08696756b1af744fd533256ee9ef19bf9c6aba9561de11440b1a10d145e0093231417b4046"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Getopt--Long--Descriptive \
@@ -18,7 +18,7 @@ perl-Getopt--Long--Descriptive--Opts \
 perl-Getopt--Long--Descriptive--Usage \
 perl-Getopt-Long-Descriptive"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Params--Validate \
 perl-Sub--Exporter \
 perl-Sub--Exporter--Util"

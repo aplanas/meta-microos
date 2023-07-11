@@ -10,8 +10,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.svn64358"
 
-RPM_NAME = "texlive-gofonts-2023.201.svn64358-53.1.noarch.rpm"
-RPM_HASH = "26048b05ac2d7ae9914155805ca5891b4cad632337af0dcf2caef1b4673811826f53b0548c63d9175b608af09a808b595005327af4e2abd13d051bb5d01d3881"
+RPM_NAME = "texlive-gofonts-2023.201.svn64358-53.2.noarch.rpm"
+RPM_HASH = "bb57e3261648010e37f62440ad6852ebef64b557ead7ff22e9dfa2500c58f847b7bb7a4d429eec994cf0886b41e5a676b6eb5d46caa3782e6e957f8ced44643f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Go-Bold-Italic-tlf-lgr--base.tfm \

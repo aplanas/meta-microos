@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.6.13"
 
-RPM_NAME = "libcroco-0.6.13-5.3.aarch64.rpm"
-RPM_HASH = "86acc8bd8e0564a4aa1bf8ed9b8be1162fcf60db2c5fd29169759808ba8799fb8cbf6d8b235436cf1b6e290ff1f0cec8df0b6978d345ca3ff17dc1356734ded6"
+RPM_NAME = "libcroco-0.6.13-5.4.aarch64.rpm"
+RPM_HASH = "70e5de1a66489219dbd06b0e1eb36453b37f2f8fe3926b67774f9baaa727afe24ee4a7e131f7859d9603fd8cf67409a3df89fbbfe99a527f5f9382b75b524179"
 
 RPROVIDES:${PN} += "libcroco"
 

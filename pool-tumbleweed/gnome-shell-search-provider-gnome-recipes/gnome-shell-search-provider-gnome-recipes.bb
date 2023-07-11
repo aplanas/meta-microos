@@ -12,8 +12,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.0.4"
 
-RPM_NAME = "gnome-shell-search-provider-gnome-recipes-2.0.4-1.17.aarch64.rpm"
-RPM_HASH = "629395c9d45f10436b6f3e82bade703b752229879c83a1fab5be5d50c560be50276526318e46e523974ba449ea2ae7ede5cd208079924ab24e107de7410363c4"
+RPM_NAME = "gnome-shell-search-provider-gnome-recipes-2.0.4-1.18.aarch64.rpm"
+RPM_HASH = "2ae1180a83e9ce66ef0e506ebb524972e788ba71655d0e8c9375c3b60963d7c382d647ddc3dbee268b65ff2281e899ff476c05cb3ef8273bbdf571f65f964584"
 
 RPROVIDES:${PN} += "gnome-shell-search-provider-gnome-recipes"
 

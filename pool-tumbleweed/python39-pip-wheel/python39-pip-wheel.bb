@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "23.1.2"
 
-RPM_NAME = "python39-pip-wheel-23.1.2-1.1.noarch.rpm"
-RPM_HASH = "fbd3cca9a330946d1e2d7e85880170dc5e555ccf82d892f20cdef7ea810f5a264160bdf0c4ce093f464fb9427968efd721d0ab03905c19659f1e100bd83e37cb"
+RPM_NAME = "python39-pip-wheel-23.1.2-2.3.noarch.rpm"
+RPM_HASH = "1c00bd9c2b6408649fccb3121bbe5da396a818a84cc9df6e6e1e81a6262b206cb892c0b919351b8d1d99702d2bf1535e57b2172cb76a6d5d1a7e0de272cfbe35"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-pip-wheel"

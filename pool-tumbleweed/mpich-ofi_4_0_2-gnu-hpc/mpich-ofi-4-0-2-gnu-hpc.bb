@@ -15,8 +15,8 @@ LICENSE = "MIT"
 
 PV = "4.0.2"
 
-RPM_NAME = "mpich-ofi_4_0_2-gnu-hpc-4.0.2-3.3.aarch64.rpm"
-RPM_HASH = "09e5d4ecf8aea75807749efdb0f481a450b4210bcadfa8ef5d9b6d97c599ff00586ff79699387e35bfdffe9b1d051f30276dcc0a8b3905f6779c3868ccbc88c2"
+RPM_NAME = "mpich-ofi_4_0_2-gnu-hpc-4.0.2-3.4.aarch64.rpm"
+RPM_HASH = "84ec3bf86e1c76fd1422b323fd57837e549373cdce38385a9a99e53c6d7163c88a387d9a83f1e76fdf4ca5c3f80e0eaaa731d9516e1e89d7a50ae6d5175c53b2"
 
 RPROVIDES:${PN} += "mpi \
 mpich-ofi-4-0-2-gnu-hpc"

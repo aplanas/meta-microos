@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.1.2"
 
-RPM_NAME = "python310-requests-download-0.1.2-2.14.noarch.rpm"
-RPM_HASH = "97a9c54a24069c5e4c267f49994f90d6b28e7db61b60934fbfb9b509b5bfc398fb3f65f59c0fb0ad400355720d2cd0ac3a58a9930c347390df292253ae15273e"
+RPM_NAME = "python310-requests-download-0.1.2-3.1.noarch.rpm"
+RPM_HASH = "928eeeec84611fbe74dc42479edb913ac9359519cf370c9282ffe92d3e8449c0fb13fc447b0e387150236fb2d495589eb5ed17dd113b7db276ba5186f5b6d194"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-requests-download \
-python3.10dist-requests-download \
+RPROVIDES:${PN} += "python3.10dist-requests-download \
 python310-requests-download \
 python3dist-requests-download"
 

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package analitza"
 DESCRIPTION = "Provides translations for the 'analitza' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "analitza-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "f6e6ae0453ebbbab7d029f0e1fde2eb31d6c2781e788e3defdbec3e5470e473390072b8afefff71d790f206172c7b28c1a98c3730edbb43538cb798a7ec726f6"
+RPM_NAME = "analitza-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "70b65593a51a5bc1c63632a2aacba008d03ccf4f971e9eec6f15283f904636480064d6b271cd17627dc9bcc68e6ee129fdb50f5640d2c20ea5a7f277b538d29b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "analitza-lang \

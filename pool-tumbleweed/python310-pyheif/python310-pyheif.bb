@@ -4,11 +4,10 @@ LICENSE = "Apache-2.0"
 
 PV = "0.7.1"
 
-RPM_NAME = "python310-pyheif-0.7.1-2.1.aarch64.rpm"
-RPM_HASH = "87f3ef4b80a1b861aef44745e9837ce4ad10433d489fe79c9227d060f741234f4da6d17dedad21d6affed410efb2bacca75b87b31ac6b21cd14a20162e4f284e"
+RPM_NAME = "python310-pyheif-0.7.1-2.3.aarch64.rpm"
+RPM_HASH = "36e6caef2d3b1925ff75b42b59e7166dc1541ebbffea03bdc77304a6da591f2853b4d1c139acabd397784114a154f22ff49d7c6eeb20f631feb1dc39f2a58dfe"
 
-RPROVIDES:${PN} += "python3-pyheif \
-python3.10dist-pyheif \
+RPROVIDES:${PN} += "python3.10dist-pyheif \
 python310-pyheif \
 python3dist-pyheif"
 

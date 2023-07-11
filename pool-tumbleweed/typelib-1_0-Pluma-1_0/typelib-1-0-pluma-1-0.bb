@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.26.1"
 
-RPM_NAME = "typelib-1_0-Pluma-1_0-1.26.1-1.1.aarch64.rpm"
-RPM_HASH = "993ec50316ec736f0ad5d552a01f98db50ba844954ac1fd52365353e3479e476736af73d5064a5648821dd7749db68fb74fffa5ba259c36a85439fc8414bd519"
+RPM_NAME = "typelib-1_0-Pluma-1_0-1.26.1-1.2.aarch64.rpm"
+RPM_HASH = "2fe0e9ddce36ed50b6d47e81f241dfd123c12ca7e9326c18cb4d8b386804ff15c56b63633c5ec555642289a97e4e7dc65e868c8db35c2d4465d13065fea5e9dc"
 
 RPROVIDES:${PN} += "typelib-1-0-Pluma-1-0 \
 typelib-Pluma"

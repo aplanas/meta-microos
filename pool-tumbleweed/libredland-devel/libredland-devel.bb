@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later & Apache-2.0"
 
 PV = "1.0.17"
 
-RPM_NAME = "libredland-devel-1.0.17-2.20.aarch64.rpm"
-RPM_HASH = "a8dc677edf70f3ad68040262f612cad414a8a1423fa7ec1a4a715cf00ec59b44ff7de7f4398a477e774cf3e2fc944cf161d5dc291bfad69aaef5edcf10c94b1c"
+RPM_NAME = "libredland-devel-1.0.17-2.21.aarch64.rpm"
+RPM_HASH = "5e044a272ae0ff06c574a6de39781361a51d7759cbdda5687e7db054b21a826c493d4c09703869e4a7e81c11b04a7bb2de302df744d8865086a6290d19c1af13"
 
 RPROVIDES:${PN} += "libredland-devel \
 pkgconfig-redland"

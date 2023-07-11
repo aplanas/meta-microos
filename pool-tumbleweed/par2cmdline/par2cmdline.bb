@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.8.1"
 
-RPM_NAME = "par2cmdline-0.8.1-2.11.aarch64.rpm"
-RPM_HASH = "dd1b0d8fe45948eeb26ffc43fa60150729787a96d1ce1177e8d17f9d4af216885b171b6311a4860628de0d304ec9df78edfbc9e58b5627ad940710b76caa9ed4"
+RPM_NAME = "par2cmdline-0.8.1-2.12.aarch64.rpm"
+RPM_HASH = "c9e79996b761e3ef2120eb5ede35d6eec7b3e7c73cf5f6b0bb384da98c01b8c3d8e83ab529fad0fb482e0d20e591edab91389c7eabe78fa6c659efd45003ba0e"
 
 RPROVIDES:${PN} += "par \
 par2 \

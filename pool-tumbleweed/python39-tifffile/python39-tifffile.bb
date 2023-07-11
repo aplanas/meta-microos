@@ -7,8 +7,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2023.4.12"
 
-RPM_NAME = "python39-tifffile-2023.4.12-1.1.noarch.rpm"
-RPM_HASH = "5ab578f1ca42ab5dd1dc14a77094823134ff53da9e5b968e4faa9fcd6453dda565074cc850b3a00f9561bc2743c0a57838cedf09401f7dbc5331c32b14b4083a"
+RPM_NAME = "python39-tifffile-2023.4.12-1.3.noarch.rpm"
+RPM_HASH = "08360ee03c5ff907521bb22ee91e59b75a58f3bae810885b1969d845fdab5022a04741f877eb638f0ab054854fadc5c98a1e584068fa7cf7291d6d80fdc5ff1a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-tifffile \

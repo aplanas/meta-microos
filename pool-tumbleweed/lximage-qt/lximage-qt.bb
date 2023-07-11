@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.3.0"
 
-RPM_NAME = "lximage-qt-1.3.0-1.1.aarch64.rpm"
-RPM_HASH = "742b4fbbae1ab73574c08680476bdfdb719502b7da11f7b4492282a28cd5654495cca6421e68cf85809479a2b18a27b3af22b071ccf8ce2ad1f59f80a5615fd3"
+RPM_NAME = "lximage-qt-1.3.0-1.2.aarch64.rpm"
+RPM_HASH = "a8e183fcb29d90954048dbf9dc5acef1d5f18b69b734aef21b5f5abd0eee577caac5b4353d39fa2477b5205c18768362e425da311fa85e838374be3391571cc0"
 
 RPROVIDES:${PN} += "lximage-qt"
 

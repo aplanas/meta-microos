@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.4.18"
 
-RPM_NAME = "scim-gtk-1.4.18-5.10.aarch64.rpm"
-RPM_HASH = "04ba669e84ea5ffe1ffad20e2ba7715a763b0d4910f0c391bb6d1507e7eeed6a6638954d918caca9e18ae74b1246835fb1cc3f5eec4aefd2b40b9f5a1d816561"
+RPM_NAME = "scim-gtk-1.4.18-5.11.aarch64.rpm"
+RPM_HASH = "65bccbd321305b2816277166a1cd13ece92c6dc85e225c7b23c0faf79afc314908e4704430d315329460cc2f0db5cce32ac7170a7b03ffae707a8e8a119dde5e"
 
 RPROVIDES:${PN} += "scim-gtk"
 

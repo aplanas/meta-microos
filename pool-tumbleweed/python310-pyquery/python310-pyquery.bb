@@ -6,12 +6,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0.0"
 
-RPM_NAME = "python310-pyquery-2.0.0-3.1.noarch.rpm"
-RPM_HASH = "aedaf023c5ded577b642a14d2d4fd21472d5242899d7f053b7fc7540092a8d056058b011fbbb9475f00bf270d9ee50bf3395218b2712f94ba08493ab69871ce0"
+RPM_NAME = "python310-pyquery-2.0.0-3.3.noarch.rpm"
+RPM_HASH = "6c2bafda728f682a12a8bb4fcff92d11c9a794f720663666f6cc6c1e0c9d6c7e55adf769bb67ea641f3de4bc64f1d1b38cab7bc71dad4b9d7d17e8e5557463f3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pyquery \
-python3.10dist-pyquery \
+RPROVIDES:${PN} += "python3.10dist-pyquery \
 python310-pyquery \
 python3dist-pyquery"
 

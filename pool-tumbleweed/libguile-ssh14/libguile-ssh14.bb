@@ -3,10 +3,10 @@ DESCRIPTION = "The shared libraries for guile-ssh, which let you access the SSH 
 Guile."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.16.0"
+PV = "0.16.3"
 
-RPM_NAME = "libguile-ssh14-0.16.0-1.2.aarch64.rpm"
-RPM_HASH = "83f4fe60fb59921e06e9872ae4c0c881a75fc0e0b1fb60943b1500c28d5c47d0d2c05b765fb5497de3876a111e5f29540052963a60700006a3439293dbeec7e1"
+RPM_NAME = "libguile-ssh14-0.16.3-1.1.aarch64.rpm"
+RPM_HASH = "7f44220f893dd7f465f4e7beb9587a5c584c3f6da96701d745d775cf27d80908b4b219e8c5b458c54f259b708f8624ac1afad26ffed6d8a5ab83dafac29af619"
 
 RPROVIDES:${PN} += "libguile-ssh.so.14 \
 libguile-ssh14"

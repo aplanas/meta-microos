@@ -4,10 +4,10 @@ and folders. It runs backup jobs while having visual \
 feedback along the way."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "12.3"
+PV = "12.4"
 
-RPM_NAME = "FreeFileSync-12.3-1.1.aarch64.rpm"
-RPM_HASH = "73f34451b80377af660724c884422a4edc4b80ea7de0285e470e7b59184a33ff55cd670aaa5e71a7e11cc2c4a0fb9abc5afa6c93857fee35ffb5206ac4e3d71f"
+RPM_NAME = "FreeFileSync-12.4-1.1.aarch64.rpm"
+RPM_HASH = "eb6b261bbf9224ed2af935ceb84efe7452db8ec3bc63cf3b6f23f7fc51e56bca6afce254a6c7c262e371b7b057d7a9252e8ca2f352a11e85fd8b2ef2bcca46ae"
 
 RPROVIDES:${PN} += "FreeFileSync"
 

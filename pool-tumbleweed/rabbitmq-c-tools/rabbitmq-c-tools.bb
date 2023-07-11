@@ -7,10 +7,10 @@ amqp-get            Get a message from a queue on an AMQP server \
 amqp-publish        Publish a message on an AMQP server"
 LICENSE = "MIT"
 
-PV = "0.11.0"
+PV = "0.13.0"
 
-RPM_NAME = "rabbitmq-c-tools-0.11.0-3.7.aarch64.rpm"
-RPM_HASH = "a714a2cd976a9c760fde38bd9728685a1f737dc1e9a8fcffd4164144046a89861923f33696d8e19a1d86ab3b512b09a93af9c8500e906f83fb21ff51948a70ff"
+RPM_NAME = "rabbitmq-c-tools-0.13.0-2.1.aarch64.rpm"
+RPM_HASH = "1567e2c64117c7bf5ab0ce085d106ebc32d20f73f3e7708a907472d5ac8095c36cc5589ca641cd8cace2a981094f0068c5e65a4fa1db4cb21d8bdd09a1c610d5"
 
 RPROVIDES:${PN} += "rabbitmq-c-tools"
 

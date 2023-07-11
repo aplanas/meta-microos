@@ -4,12 +4,12 @@ LICENSE = "Apache-2.0"
 
 PV = "2.3.3"
 
-RPM_NAME = "ansible-runner-2.3.3-1.1.noarch.rpm"
-RPM_HASH = "5907bcec71843931fdd08c57f60822a01d645f8bb634ac579bf809a2faefc1c0c0c83cbecbe635784c07daf71fda87e820fd42ce2933d25d37c5f1f7ad35a68a"
+RPM_NAME = "ansible-runner-2.3.3-1.2.noarch.rpm"
+RPM_HASH = "c7233bf21d4cf6444173dd3ff25448da49760a1d8396968a97f1ca919893ac1af591539f83db15e96583aab5fa20a8edf1974223baf6eddef89af4e337418db1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ansible-runner \
-python3.10dist-ansible-runner \
+python3.11dist-ansible-runner \
 python3dist-ansible-runner"
 
 RDEPENDS:${PN} += "/usr/bin/bash \

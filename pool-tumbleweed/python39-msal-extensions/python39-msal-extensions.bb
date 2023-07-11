@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python39-msal-extensions-1.0.0-2.1.noarch.rpm"
-RPM_HASH = "e5491f78505573b1ca83f27552e9bd4dfdf667b8e2d6908d6ac43ee01eb24be5d214fcb97c3889367102c6435bac58ea3236576bfe60c166f428eeb87f32326f"
+RPM_NAME = "python39-msal-extensions-1.0.0-2.3.noarch.rpm"
+RPM_HASH = "7fa7fb14cf85d67d11e10b2a632954f55095db117ba1cbdb308da0818346ee616cc3fb6812f9bd8bc0a600f897e058d68d15af08a0ce27cf83585b2197cd9f75"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-msal-extensions \

@@ -4,8 +4,8 @@ LICENSE = "CC-BY-SA-3.0 & GPL-2.0-or-later"
 
 PV = "4.18.0+git0.9a2f754"
 
-RPM_NAME = "xfce4-panel-branding-openSUSE-4.18.0+git0.9a2f754-1.5.noarch.rpm"
-RPM_HASH = "5a72bd66ab02f1afe54b941a6e411c2f136f2fbc4b40197e6cc56518b98bf35f3083dca405279441429e6ab8f5bb0ab63d214382e8631d4d05dc84e70f9cf356"
+RPM_NAME = "xfce4-panel-branding-openSUSE-4.18.0+git0.9a2f754-1.6.noarch.rpm"
+RPM_HASH = "7ebf8f0729f1a2d2ee9168c7a174a13a5bd1d0dc53bedb5d0a7da22ea7a6c789501b5ab404386c22b1408a10a336ee85c37e11dddb6036d21857cfbd4582074c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-xfce4-panel-branding-openSUSE \

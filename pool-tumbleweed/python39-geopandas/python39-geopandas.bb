@@ -5,18 +5,20 @@ GeoPandas enables you to easily do operations in python that would otherwise \
 require a spatial database such as PostGIS."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.11.1"
+PV = "0.13.2"
 
-RPM_NAME = "python39-geopandas-0.11.1-2.2.noarch.rpm"
-RPM_HASH = "0aab4dcbc8f4bbeaaa77f4a35c60676937909ee94c29f5fab56470fb30f2a75cbe5848cfcc90fe1f5d8a0b3b957e2530ad16428613462d99993000c2d3c86995"
+RPM_NAME = "python39-geopandas-0.13.2-1.1.noarch.rpm"
+RPM_HASH = "ae57a7416fef018f94840e5858d3ef9d83494f221c8e6715d52f97541d8d5c3bfa00ae4da59dca79caea53dab1d0e7bc9ff0fffe4b761d9d498d87d133af7aee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-geopandas \
 python39-geopandas \
 python3dist-geopandas"
 
-RDEPENDS:${PN} += "python-abi \
+RDEPENDS:${PN} += "proj \
+python-abi \
 python39-Fiona \
+python39-packaging \
 python39-pandas \
 python39-pyproj \
 python39-shapely"

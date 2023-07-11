@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "2.3.0"
 
-RPM_NAME = "python311-xmlschema-2.3.0-1.1.noarch.rpm"
-RPM_HASH = "2cd1a1a66e1f8c97e6e3c05fc21fad1ba1a5963faac7ca5b810916fa7c9622ce5d486d92f1ff5d0357e384f480b7a2b1fdbf6007424873fb32479c6cffe31dff"
+RPM_NAME = "python311-xmlschema-2.3.0-1.3.noarch.rpm"
+RPM_HASH = "7075a9c84d7779b3112b8d2c3c68518cf962d5135316f8d347c11bb8f0f999bed448b006f65d9f54e3f6a53d0bd212922f1d9524d187942954ec73b0759a1a3e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-xmlschema \
+RPROVIDES:${PN} += "python3-xmlschema \
+python3.11dist-xmlschema \
 python311-xmlschema \
 python3dist-xmlschema"
 

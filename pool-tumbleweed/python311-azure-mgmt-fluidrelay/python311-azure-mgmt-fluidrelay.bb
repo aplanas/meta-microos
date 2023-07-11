@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "1.0.0.0"
 
-RPM_NAME = "python311-azure-mgmt-fluidrelay-1.0.0.0-1.4.noarch.rpm"
-RPM_HASH = "703f39c41d5ee6cf8b86fb144bc0aa4f36eacc35734503f58e5ceaf3bd245205a90cbfca75b266f1f3b1000cef7bcbb7fec67cca983cd2253c1d1c1dcb7a00c1"
+RPM_NAME = "python311-azure-mgmt-fluidrelay-1.0.0.0-1.5.noarch.rpm"
+RPM_HASH = "92ee8f3b821eeaa40d0fdf1e556234af39e36c5dd408d8b1047e954385aaa196cd32f02072a5ba5334d35f3362dc50c78560f3c62a72093d0ce7f77f85553580"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-fluidrelay \
+RPROVIDES:${PN} += "python3-azure-mgmt-fluidrelay \
+python3.11dist-azure-mgmt-fluidrelay \
 python311-azure-mgmt-fluidrelay \
 python3dist-azure-mgmt-fluidrelay"
 

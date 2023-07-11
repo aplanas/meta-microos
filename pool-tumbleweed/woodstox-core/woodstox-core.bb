@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "6.2.8"
 
-RPM_NAME = "woodstox-core-6.2.8-1.8.noarch.rpm"
-RPM_HASH = "0ddb3e0c17684dfebaace154abeb81eb1538028eca400f5ece9171c5069319741eafc58410e31a58a18f7b4c57723d4951189ac45639a76bfafd533b00d9c8c1"
+RPM_NAME = "woodstox-core-6.2.8-1.9.noarch.rpm"
+RPM_HASH = "d297fc97f1de260d7a55c2ebd3380c7e38975828d3265185e6466be86eda9f32e6b0aa389fde5c176fd4279807067cc9a355f882564d78c9851a0578fb6e70af"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-com.fasterxml.woodstox-woodstox-core \

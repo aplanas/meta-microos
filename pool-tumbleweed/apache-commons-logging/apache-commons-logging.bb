@@ -12,8 +12,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2"
 
-RPM_NAME = "apache-commons-logging-1.2-11.5.noarch.rpm"
-RPM_HASH = "5ff3c6ff00949c3ee6dcd6afd5c25c6882103016cf5c0401ce92254fc78eacc6d44c3312722013162331fc123db114392ccb15bbc8e392f8502e9b32d9d2b2b4"
+RPM_NAME = "apache-commons-logging-1.2-11.6.noarch.rpm"
+RPM_HASH = "53b37d370383d735822d214fe22cb6b6a091187980c886a0e5151c7cb9f6ba0c7d592352afabf30dcdcb8b8f0f5d6224906e8073b18d041c0a44470dec886eb5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-logging \

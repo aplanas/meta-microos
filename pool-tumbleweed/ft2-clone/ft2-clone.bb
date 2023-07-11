@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause & CC-BY-NC-SA-4.0"
 
 PV = "1.66"
 
-RPM_NAME = "ft2-clone-1.66-1.1.aarch64.rpm"
-RPM_HASH = "6626e96f8ac50d6f01ab317036e42b828f14300ac0091064cc3ef69c15efd1045e17da1d11d87a9c80cacca55331bf8288741910d0db9b5c7ecd0689e634c350"
+RPM_NAME = "ft2-clone-1.66-1.2.aarch64.rpm"
+RPM_HASH = "02e349161acfe9693f5ca0d1c113fe22d808e9cbebd57c544cb70fb658f1e721ddebf1284b4b9dc2e5d8542fe71fc55c70859ea3347b9f4422393617a9870520"
 
 RPROVIDES:${PN} += "bundled-rtmidi \
 ft2-clone"

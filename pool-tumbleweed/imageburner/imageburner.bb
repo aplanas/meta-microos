@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.0.2"
 
-RPM_NAME = "imageburner-1.0.2-1.18.aarch64.rpm"
-RPM_HASH = "9b913ff8ae2174986c8b707bd79947785d7be5739a12f0ba24b9d219a6e24ccd123732bc215de39ab182e384bab0acedb2bd65f6d1594fe9a07db5847789abd6"
+RPM_NAME = "imageburner-1.0.2-1.19.aarch64.rpm"
+RPM_HASH = "37eb90a0a9828cfa1603633268f7ec7ba4227a01f2c61e0a406d8e233745927088c717d5ae824bb88c8a51c527e6f6b0de6a2d43599e66d844193a320e0020e4"
 
 RPROVIDES:${PN} += "imageburner"
 

@@ -36,8 +36,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "2.16"
 
-RPM_NAME = "perl-Authen-SASL-2.16-6.21.noarch.rpm"
-RPM_HASH = "b50ffbd0ee8e4cb50981f04b876a7b2230afb8152230ee2fd7dd0d54fafe879edbc3bb9a1ecd32cff3711011f7b65991f9be059fd9a06b9e86a8a91b6b565dea"
+RPM_NAME = "perl-Authen-SASL-2.16-6.22.noarch.rpm"
+RPM_HASH = "abe97808904bb94814be6d8853f28d6a8789caf87a06845fe7c942b0f394a80155571be9d310d983f04c412e454770530ba91bde64ea83b7d1e68851919291de"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Authen--SASL \
@@ -54,7 +54,7 @@ perl-Authen--SASL--Perl--Layer \
 perl-Authen--SASL--Perl--PLAIN \
 perl-Authen-SASL"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Digest--HMAC-MD5"
 
 inherit rpm

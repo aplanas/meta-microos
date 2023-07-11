@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.1.12"
 
-RPM_NAME = "projectM-3.1.12-1.12.aarch64.rpm"
-RPM_HASH = "8f4ca09d9feadb14ffb0bfb722892b604c8e7e2eeb6758caff22bb8470ae9924ce7562894d8ffa9c3cc49c5a4cacbf62d3481ffc2bd5999225d8b4cdabb8eb45"
+RPM_NAME = "projectM-3.1.12-1.13.aarch64.rpm"
+RPM_HASH = "6ba69466677aacd91e3579ead86d8dadf4100eeeb8342e11b4902c19f83c1c3e51d04bab86702371ea533224aa086e1402570a777cc16b0cccb56e67b755a909"
 
 RPROVIDES:${PN} += "projectM \
 projectM-qt5"

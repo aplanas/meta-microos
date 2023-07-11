@@ -2,26 +2,22 @@ SUMMARY = "Upload tool for AVR microcontrollers"
 DESCRIPTION = "avrdude is a tool for AVR microcontrollers and drives many hardware \
 in-system programmers. avrdude allows programming microcontrollers \
 through a USB or parallel port of the computer."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
-PV = "6.3"
+PV = "7.1"
 
-RPM_NAME = "avrdude-6.3-5.7.aarch64.rpm"
-RPM_HASH = "7d3d52970beef39c33600fab7a71f40421bf1a17b00d60ad5d32b66451293c912368a584c85324ffa2eee41285bf544fb3e52daa0f310b5b0f92fea7cff3c111"
+RPM_NAME = "avrdude-7.1-1.1.aarch64.rpm"
+RPM_HASH = "b923ef2bcc8485789dd1c2abce06f1984bf37a98bc402f2d954a9f51adf3f8134adae41e321d088d8179f597252e725370e30fe530bafa53b40905683e0716ba"
 
 RPROVIDES:${PN} += "avr-programmer \
-avrdude \
-config-avrdude"
+avrdude"
 
 RDEPENDS:${PN} += "/sbin/modprobe \
 /usr/bin/sh \
 ld-linux-aarch64.so.1 \
+libavrdude.so.1 \
+libavrdude1 \
 libc.so.6 \
-libelf.so.1 \
-libftdi1.so.2 \
-libm.so.6 \
-libreadline.so.8 \
-libusb-0.1.so.4 \
-libusb-1.0.so.0"
+libreadline.so.8"
 
 inherit rpm

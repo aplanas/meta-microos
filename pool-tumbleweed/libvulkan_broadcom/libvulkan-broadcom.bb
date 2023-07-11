@@ -2,10 +2,10 @@ SUMMARY = "Mesa vulkan driver for Broadcom"
 DESCRIPTION = "This package contains the Vulkan parts for Mesa."
 LICENSE = "MIT"
 
-PV = "23.0.3"
+PV = "23.1.3"
 
-RPM_NAME = "libvulkan_broadcom-23.0.3-349.2.aarch64.rpm"
-RPM_HASH = "1839aaf05d5346b55b5c35d27aa9c5373eff868e777d7cd58bf2a5264ac4265154a2091c39c84e0ca7b19f0de5e167fd4c2758bcf202b4ab7b2651809d51b1dd"
+RPM_NAME = "libvulkan_broadcom-23.1.3-353.1.aarch64.rpm"
+RPM_HASH = "21264df45a1527016c9109bc1bad8bcd5167dd9723f3588cfc42844607adfe6571a645340c00ff06b914b7172a2f9c5e0d8fb53d8c2f40288d693668fd7f2f45"
 
 RPROVIDES:${PN} += "libvulkan-broadcom \
 libvulkan-broadcom.so"
@@ -27,7 +27,6 @@ libxcb-sync.so.1 \
 libxcb-xfixes.so.0 \
 libxcb.so.1 \
 libxshmfence.so.1 \
-libz.so.1 \
-libzstd.so.1"
+libz.so.1"
 
 inherit rpm

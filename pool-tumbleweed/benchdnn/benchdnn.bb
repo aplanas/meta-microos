@@ -10,8 +10,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.0.1"
 
-RPM_NAME = "benchdnn-3.0.1-1.2.aarch64.rpm"
-RPM_HASH = "e35ee24aa9f41ad186ce6f7f64f4af10ce03aa5b80f06b542dd06c1c93ce75eba6b2b6603d0a7ad70937b616c5bcccf547e1165d63932d2855cb6040e480c586"
+RPM_NAME = "benchdnn-3.0.1-1.3.aarch64.rpm"
+RPM_HASH = "b9cd013d3a5a5321ac9104d3aeec007cf179a718b74f1eb31edf6759420d05fca57462fcc3e7ebda0d5d24c474daad428600624da80ae94af45c2264c04d47b6"
 
 RPROVIDES:${PN} += "benchdnn"
 

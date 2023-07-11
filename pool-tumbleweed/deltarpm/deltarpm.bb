@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.6.3"
 
-RPM_NAME = "deltarpm-3.6.3-2.6.aarch64.rpm"
-RPM_HASH = "62e45a81cbdede87cbb036757ae950b0bee4f2c4ef40616dd7f908b2e7ee62e88e709d6bf97d1ccdb186ad23fcdbfdadd79fcd059c3a9a90289813ec93273552"
+RPM_NAME = "deltarpm-3.6.3-2.7.aarch64.rpm"
+RPM_HASH = "fc7a907a0c3279b945b5642e144599abea38fb2d2c67ca02bd165dbf7e4ef2f7962c581672a7ddb361c102329783e32c7ba0e0d1fb6dd52bc32920b94042fe43"
 
 RPROVIDES:${PN} += "deltarpm"
 

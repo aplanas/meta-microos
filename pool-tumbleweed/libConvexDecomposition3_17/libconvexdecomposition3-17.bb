@@ -4,8 +4,8 @@ LICENSE = "Zlib"
 
 PV = "3.17"
 
-RPM_NAME = "libConvexDecomposition3_17-3.17-1.9.aarch64.rpm"
-RPM_HASH = "269ae4cf05209f3140e1d7d85a7a645042c20c779043a2c7b0f3e49035afbe744d5087cc04de159ad05a4df2784f1ab8ff18d71625e5e65887d88a4036c5baca"
+RPM_NAME = "libConvexDecomposition3_17-3.17-1.10.aarch64.rpm"
+RPM_HASH = "62b799ec4cfd12128f6076e5b1a1f1dd392c9e1c7372811576d3da1b2c68d017199310e2a636088fa4d48f50a93b9c6c5f09241dab39793c518eec0234bce3cd"
 
 RPROVIDES:${PN} += "libConvexDecomposition.so.3.17 \
 libConvexDecomposition3-17"

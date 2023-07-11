@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.0"
 
-RPM_NAME = "perl-Net-DBus-1.2.0-1.17.aarch64.rpm"
-RPM_HASH = "ab690c485868cde7e2f3fda1f4ebcc6e3082c677439bbd1a9975e6e823d42ad34c298abd37509c2ab0e0e0a6094a18053a3cac5e05f7691bfe2f8a03da429663"
+RPM_NAME = "perl-Net-DBus-1.2.0-1.18.aarch64.rpm"
+RPM_HASH = "f98962075c59345f126905c86d851afcf04e231f473052c47f7d69bf28e8fbb43468e15cf93717521e519e5b99f37e12d6baedefb8e549b9c6ad6fbf15dffb49"
 
 RPROVIDES:${PN} += "perl-Net--DBus \
 perl-Net--DBus--ASyncReply \
@@ -51,7 +51,7 @@ perl-Net-DBus"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libdbus-1.so.3 \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-XML--Twig"
 
 inherit rpm

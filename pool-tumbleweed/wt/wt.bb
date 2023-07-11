@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "4.8.1"
 
-RPM_NAME = "wt-4.8.1-3.6.aarch64.rpm"
-RPM_HASH = "786e2a9d611b82641f9252768498f670782ca7ca2194cb087ee349cd4599d632c4f3f516c2f9a91aace73379b478506af6b5bd15872e90652c167422bf5d7f96"
+RPM_NAME = "wt-4.8.1-3.8.aarch64.rpm"
+RPM_HASH = "7c552f798946be5ae12dca2f8db77c44e8076bbf0dcd90291a64793cd4aa2c0f98d196dc3c78843e2925f90649f30d928b40233294534f88c975d8061049c3ce"
 
 RPROVIDES:${PN} += "config-wt \
 libwt.so.4.8.1 \
@@ -38,7 +38,7 @@ libfontconfig.so.1 \
 libgcc-s.so.1 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
-libhpdf.so \
+libhpdf.so.2 \
 libm.so.6 \
 libpango-1.0.so.0 \
 libpangoft2-1.0.so.0 \

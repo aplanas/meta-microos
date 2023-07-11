@@ -7,10 +7,10 @@ This subpackage contains the documentation for msmtp, including \
 examples and sample configuration files."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.8.23"
+PV = "1.8.24"
 
-RPM_NAME = "msmtp-doc-1.8.23-1.3.noarch.rpm"
-RPM_HASH = "3a874e391c73b006e9dfce6428fa8e91530f0dd3399f2ccf1624a41c94bb737f344aa9dda7bafbdf79f8646b3d5ea327d94f42fabb65f30a88e3993af5445bab"
+RPM_NAME = "msmtp-doc-1.8.24-1.1.noarch.rpm"
+RPM_HASH = "901dedfc8d3ac40c9fd2066a882cd55256ffdd3eea9ac09931adea26c3e40c03bede78fe0751cc4d6362e7da1f7459edab7b9b7e78261cbdf396241bc481212f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "msmtp-doc"

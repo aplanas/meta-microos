@@ -2,10 +2,10 @@ SUMMARY = "Development package for incidenceeditor"
 DESCRIPTION = "The development package for the incidenceeditor libraries."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "incidenceeditor-devel-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "a9cc9345a20f9ec964ea2f283d4facd5b1d51521154a7ff1d069a4d11277b898ff1c370fea182c146e1a262cacb3795a898ee9fb20beb2cdc3f9b0f86d6ed2b0"
+RPM_NAME = "incidenceeditor-devel-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "fe15211618a9fd47aef7469682150da5111d65a11ce0b6d140a01608eae542e0f7ddd79a517ac06cd2848c00240892762dbaf9a367c2b460b1a5f2f549853c7e"
 
 RPROVIDES:${PN} += "cmake-KF5IncidenceEditor \
 cmake-KPim5IncidenceEditor \

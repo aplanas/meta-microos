@@ -6,10 +6,10 @@ Faddeeva, and Voigt functions. \
 This package contains development headers and libraries for libcerf"
 LICENSE = "MIT"
 
-PV = "2.2"
+PV = "2.3"
 
-RPM_NAME = "libcerf-devel-2.2-1.3.aarch64.rpm"
-RPM_HASH = "6c09ee1ba76f7718cd1e8ce22bfbd2cc7f93e1ad27c1140c96c0abb0831757ee2143824c01b84bc74bf6945e782e34d97ea84d8e174b42b40fbe1c308e916f84"
+RPM_NAME = "libcerf-devel-2.3-1.1.aarch64.rpm"
+RPM_HASH = "4d02aa2c841e3a6cb77a503f9646032911e6fd34f98b876064c48bc57eae841d93dcb9a10ee7bc2fd3900e0d9deb3adae82101f61bd5c5124d326fc25657e4fe"
 
 RPROVIDES:${PN} += "cmake-cerf \
 libcerf-devel \

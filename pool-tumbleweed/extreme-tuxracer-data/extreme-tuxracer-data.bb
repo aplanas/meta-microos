@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.8.2"
 
-RPM_NAME = "extreme-tuxracer-data-0.8.2-1.4.noarch.rpm"
-RPM_HASH = "6e2d46e6e3e48a04d2d8f45ec79960c82142a83b525a888118df873b2867f6ca6d73f73da6afa56d2911bdfb05d16e2cf08d3a559ec7ce31cb958a2e8605fbb8"
+RPM_NAME = "extreme-tuxracer-data-0.8.2-1.6.noarch.rpm"
+RPM_HASH = "c242d2d2577045c25877d44fd66d5f3f1aa64fa615c3d797767fa39c323f098216ec66510ee0aa382b68930c6f0abbcf2e7efc29c08d316ee8b802149495fdbc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "extreme-tuxracer-data"

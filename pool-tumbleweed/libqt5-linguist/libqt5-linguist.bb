@@ -2,10 +2,10 @@ SUMMARY = "Qt 5 Linguist Tools"
 DESCRIPTION = "The Qt 5 Linguist Tools."
 LICENSE = "GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
-PV = "5.15.9+kde1"
+PV = "5.15.10+kde3"
 
-RPM_NAME = "libqt5-linguist-5.15.9+kde1-1.1.aarch64.rpm"
-RPM_HASH = "3f22b758e54a069bf58705206971bd842450b82582de5ff00549b0deac5a37fdb033344363259506485745bd42ab901072c2b0100a90506d693cf6928dcc8eb0"
+RPM_NAME = "libqt5-linguist-5.15.10+kde3-1.1.aarch64.rpm"
+RPM_HASH = "c69eedec3804c2f2a19f10df8ff641d16e6e9b85040c61a933f067110531b2b40af2e29193ea79f0826a9bc4e7ec6fe8478fcb61e61d3e3c6d21cfdee706d1eb"
 
 RPROVIDES:${PN} += "libqt5-linguist"
 

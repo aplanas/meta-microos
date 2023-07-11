@@ -5,23 +5,23 @@ LICENSE = "MIT"
 
 PV = "2.13.1.1"
 
-RPM_NAME = "ghc-persistent-sqlite-devel-2.13.1.1-2.4.aarch64.rpm"
-RPM_HASH = "a12fa0149c1866aeae47b74c9c1e0127233ba889ec5b432c033af06ff53977edd194af09fc3036543a8ba16595d515b05fc3ea0984af24b37b12caaddc3f124e"
+RPM_NAME = "ghc-persistent-sqlite-devel-2.13.1.1-2.7.aarch64.rpm"
+RPM_HASH = "aae62f1ade7ff9fdfb19c7b1a37153fcd5d358d7740adef689dc73376f788274028b3ec75f9dce5b1ef73c87ac2a532abb71122c020a58ad650ffe4ca8f0eaf3"
 
-RPROVIDES:${PN} += "ghc-devel-persistent-sqlite-2.13.1.1-6m8kOitQFXeAVXzn0JSxB5 \
+RPROVIDES:${PN} += "ghc-devel-persistent-sqlite-2.13.1.1-86NT3YIJqhfIXbP1CwbNXp \
 ghc-persistent-sqlite-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP \
+ghc-devel-aeson-2.1.2.1-HkN6OtqTngQ9De3CKBnfov \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-bytestring-0.11.4.0 \
-ghc-devel-conduit-1.3.4.3-dAZVHPSYjL2zQ4RzAuWi2 \
+ghc-devel-conduit-1.3.5-EjJ71P6EbmSGTrvJLquwgr \
 ghc-devel-containers-0.6.7 \
-ghc-devel-microlens-th-0.4.3.12-A1OnPrF7gbKLp2skY17lAG \
-ghc-devel-monad-logger-0.3.39-6zcML8Hf5KyK4tRVcaUTsA \
+ghc-devel-microlens-th-0.4.3.13-4M5tTOX0ioLGTMiKBp6v2C \
+ghc-devel-monad-logger-0.3.40-G052AHl2mRW3aPPonmcvVW \
 ghc-devel-mtl-2.2.2 \
-ghc-devel-persistent-2.14.5.0-52EbT4CA3Ct4CmrnsbaA80 \
+ghc-devel-persistent-2.14.5.0-9uJ7TxdgaWz5Ow6lrik7k2 \
 ghc-devel-resource-pool-0.4.0.0-CALzen0PV047R0s78YnQuW \
 ghc-devel-resourcet-1.2.6-69eF6Rrz9wX13sOJF59GPv \
 ghc-devel-text-2.0.2 \

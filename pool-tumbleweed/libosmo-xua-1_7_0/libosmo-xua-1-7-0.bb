@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.7.0"
 
-RPM_NAME = "libosmo-xua-1_7_0-1.7.0-1.1.aarch64.rpm"
-RPM_HASH = "a6edde43bba93ea7797c51955a29145fee2001bbdef3c1e60b41b1720fc325e45df7a7c45d5ef5f2eb56d3df3bbc6636afe98e166c4f668e5e3242e0d26b0183"
+RPM_NAME = "libosmo-xua-1_7_0-1.7.0-1.2.aarch64.rpm"
+RPM_HASH = "595c75c46c208791f440f7cd74080802c2bc8b3f66687a28d52be3570e6610dad1e2935082e5237217b158da355579051dd488b063a89bcdb294cdea3b558d99"
 
 RPROVIDES:${PN} += "libosmo-xua-1-7-0 \
 libosmo-xua-1.7.0.so"

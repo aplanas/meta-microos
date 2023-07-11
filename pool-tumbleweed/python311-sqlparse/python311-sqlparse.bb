@@ -5,11 +5,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.4"
 
-RPM_NAME = "python311-sqlparse-0.4.4-1.1.noarch.rpm"
-RPM_HASH = "7e19e18ba74979c29ecca04a06c73fbca87c5b9feb5a6a66da0b71683ece71049a2ae544343b741a737c70de4851ecc8e30849a067b4d84660ef85c9f76b8e85"
+RPM_NAME = "python311-sqlparse-0.4.4-2.3.noarch.rpm"
+RPM_HASH = "cc210a8507a7f0538a7f4a1a94911221a441cdae5f0bc6b7294eab9566ddbbe26f20b50c1de80bceb9d6ecc32a5316b23b6111249a20b80a1a8c701bee5b4c5e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-sqlparse \
+RPROVIDES:${PN} += "python3-sqlparse \
+python3.11dist-sqlparse \
 python311-sqlparse \
 python3dist-sqlparse"
 

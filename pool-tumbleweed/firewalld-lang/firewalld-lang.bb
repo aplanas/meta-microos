@@ -2,10 +2,10 @@ SUMMARY = "Translations for package firewalld"
 DESCRIPTION = "Provides translations for the 'firewalld' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.3.2"
+PV = "2.0.0"
 
-RPM_NAME = "firewalld-lang-1.3.2-2.1.noarch.rpm"
-RPM_HASH = "45d45759734dbf3a5647a76fa15ec01809dd4c585f7d9f6300c49393d01ff571f020748fa08f20c306466452460f093fde5a3c9dbf3b112e5b78e16dfb49d444"
+RPM_NAME = "firewalld-lang-2.0.0-1.1.noarch.rpm"
+RPM_HASH = "48e6a93dcf262f49aa7b40a7e3a757072d7ce2da13704fd86284dbf81640bc9c02abb8694d7c183f2727d54005a9a58fa98076f9f3abd7fafd9593dd59338866"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firewalld-lang \

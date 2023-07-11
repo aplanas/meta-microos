@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "0.8.post1"
 
-RPM_NAME = "python310-pyfiglet-0.8.post1-2.13.noarch.rpm"
-RPM_HASH = "3b49259b6735ca10521156276bdbad9e6164ef87604ad7b9e642ed543796a56c70eab05e2b49da2384778a676c243573c90855ef99ed8f34326a949a3e6291be"
+RPM_NAME = "python310-pyfiglet-0.8.post1-2.14.noarch.rpm"
+RPM_HASH = "ad9df1f8b1f8f014ce036d88a59f9d8535c64e11c0dc20b5eb5a3d8547cedd2e82f6c9cef880fdccaef6fadece9539dde3c8be374a55788450cbd49d1f50da39"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pyfiglet \
-python3.10dist-pyfiglet \
+RPROVIDES:${PN} += "python3.10dist-pyfiglet \
 python310-pyfiglet \
 python3dist-pyfiglet"
 

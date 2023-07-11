@@ -6,8 +6,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "3.4.6"
 
-RPM_NAME = "scala-maven-plugin-3.4.6-3.9.noarch.rpm"
-RPM_HASH = "a65f198f7ee7c51954b126636feb69fa2232aabe43531d954af42c82d5e3ba89d3914e388ec33c008f4bb046eef84eb4949f5b2b05fd1dfae2412176d17ba950"
+RPM_NAME = "scala-maven-plugin-3.4.6-3.10.noarch.rpm"
+RPM_HASH = "7ac55fd57d43107d8f59dbd3bedce2e21ccc26b72d3e2722539c4a69f6bb21e468cfa9ac4f930c820412318606186a52459b1d1426a645a7bd784c2876a120dc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-net.alchim31.maven-scala-maven-plugin \

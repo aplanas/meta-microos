@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.4.0"
 
-RPM_NAME = "python3-fastjet-3.4.0-2.8.aarch64.rpm"
-RPM_HASH = "dbb45ded039383390b993391cd672ef91a05611fcdc5e742fb094be935d86356e68f05ff43aa55a75efa2dbe18cbfbd6495e310d03dac4d5f9c37dd26b2efca2"
+RPM_NAME = "python3-fastjet-3.4.0-2.9.aarch64.rpm"
+RPM_HASH = "77bbc8397d29ab182de5cb229b733c3c226df6d7e48ddb44d8bd9608bf5d26ea420befc19e54114156f2d31292d0ee666e918abbe7acc01d2b396bf421514cd8"
 
 RPROVIDES:${PN} += "python3-fastjet"
 

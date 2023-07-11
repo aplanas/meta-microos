@@ -3,10 +3,10 @@ DESCRIPTION = "Provides the LDAP back end that the SSSD can utilize to fetch \
 identity data from and authenticate against an LDAP server."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.9.0"
+PV = "2.9.1"
 
-RPM_NAME = "sssd-ldap-2.9.0-1.1.aarch64.rpm"
-RPM_HASH = "07811acb878d0ed915b66855e2581fb80ca49f996981d73690022050f640869c7f0576bfa36b0fce12825184245b6ea009cfd1bfec5dc76b706e46ef4be61bdf"
+RPM_NAME = "sssd-ldap-2.9.1-1.1.aarch64.rpm"
+RPM_HASH = "7c786a48b99cd3809350ee0da81be06ed030f4ea545768eac9688591967563ded5c274907f30bb5bc799567dd8e0dee86ca2f14a79fee9f97d59778e90b9f72f"
 
 RPROVIDES:${PN} += "libsss-ldap-common.so \
 libsss-ldap.so \

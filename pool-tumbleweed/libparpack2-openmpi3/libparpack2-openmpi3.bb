@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.9.0"
 
-RPM_NAME = "libparpack2-openmpi3-3.9.0-1.3.aarch64.rpm"
-RPM_HASH = "11da8c9abacd6ab4ba1d2e47c4d2a510ac44560c0f8afdf69b5f602c7be439e02fa43acc7bc09b24186198e8d3479c5877abf43ae86e0128b6e3b314591eea0e"
+RPM_NAME = "libparpack2-openmpi3-3.9.0-1.4.aarch64.rpm"
+RPM_HASH = "53bdf55ec39b3358099524010caf653f3807c07264615271962e0320f455d430f9882aad95ecd2c5668d7214f8074aab00164b2be974472c07ed4624b5b869d1"
 
 RPROVIDES:${PN} += "libparpack.so.2 \
 libparpack2-openmpi3"

@@ -3,10 +3,10 @@ DESCRIPTION = "libreoffice-glade contains a catalog of LibreOffice-specific widg
 glade and ui-previewer tool to check the visual appearance of dialogs."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.1"
+PV = "7.5.4.2"
 
-RPM_NAME = "libreoffice-glade-7.5.4.1-1.1.noarch.rpm"
-RPM_HASH = "a3995befaa26b088ce1eb999e43155f9626c8c86ec0596ac47438368ca4507058987f6ac77344ab30608cfac3ae7ed86fbb297e15ee76fa2d84df68d2e953dce"
+RPM_NAME = "libreoffice-glade-7.5.4.2-1.3.noarch.rpm"
+RPM_HASH = "cafe13d67dabacbfb8fdafe49e13918af1069608c30196300713f25a2529ff4f15a4a207f06a02a7c93db4bdac4579d8d749c17d5e380b9fa0ffa0dbed4bff1d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-glade"

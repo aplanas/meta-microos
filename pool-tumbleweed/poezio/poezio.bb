@@ -9,11 +9,11 @@ LICENSE = "MIT"
 
 PV = "0.14"
 
-RPM_NAME = "poezio-0.14-1.3.aarch64.rpm"
-RPM_HASH = "f72f55db5555bad1c64c91939ce21efc8001c4b564fae6bdd69b7c5259a8c854cac0b9f15937fa371c7348aadae6c88ff3fd8b23a27af83e56be8e0b80b0236e"
+RPM_NAME = "poezio-0.14-1.4.aarch64.rpm"
+RPM_HASH = "0ee2ff5a735b884dcc3625b255bdd67c2e1682110ceeffba262b43a1b073719c03ad20bb9cd2163aadbeda00cbc44e227d681e0209d015d5e14d475e89ce18cb"
 
 RPROVIDES:${PN} += "poezio \
-python3.10dist-poezio \
+python3.11dist-poezio \
 python3dist-poezio"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

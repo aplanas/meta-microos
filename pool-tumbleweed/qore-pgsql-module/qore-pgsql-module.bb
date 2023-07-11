@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later | LGPL-2.0-or-later | MIT"
 
 PV = "3.2.0"
 
-RPM_NAME = "qore-pgsql-module-3.2.0-2.3.aarch64.rpm"
-RPM_HASH = "fe7f22bd5b2d08b81669d84828f13e8bf19e0159e5e7381ec9bcd98207e0f9ea7ac9262c952c547c0c16e5f21c04a273deda5bb9aa639d9dd97a3bd8fdde7d40"
+RPM_NAME = "qore-pgsql-module-3.2.0-2.4.aarch64.rpm"
+RPM_HASH = "c38c5c1f2a4d0c8d7ce4bb84111d6c93fb7fc90386be1226f9686a84c028fa18c9781fa539404aa9f44eb4c1a665b9be8f4a583198f32373a8dc4235386c5045"
 
 RPROVIDES:${PN} += "qore-pgsql-module"
 

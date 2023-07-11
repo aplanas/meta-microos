@@ -4,8 +4,8 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "3.0.17"
 
-RPM_NAME = "perl-Class-DBI-3.0.17-5.27.noarch.rpm"
-RPM_HASH = "e488b064668c023de48795d2440052e67b6a0cf0c580f044d7c02e32e535f915ca9800dde31de30bbb87c06de303772f63612c06c92bd11d62364d82b5703430"
+RPM_NAME = "perl-Class-DBI-3.0.17-5.28.noarch.rpm"
+RPM_HASH = "ee4f3aa06bee6ceabb8be376704707a0862a69c8333f3de3efa686cc09d792b677b383628e1f4d60d82d1f2a61fce10529b814ab7ded7a61b465b3f629085fec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Class--DBI \
@@ -28,7 +28,7 @@ perl-Class--DBI--Search--Basic \
 perl-Class--DBI--Test--SQLite \
 perl-Class-DBI"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Class--Accessor \
 perl-Class--Data--Inheritable \
 perl-Class--Trigger \

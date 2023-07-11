@@ -5,8 +5,8 @@ LICENSE = "Zlib"
 
 PV = "1.5.1+git20210305.c5cbd53"
 
-RPM_NAME = "recastnavigation-devel-1.5.1+git20210305.c5cbd53-1.7.aarch64.rpm"
-RPM_HASH = "4f51aae2b3f818b5303697255dd9a28d9ed0744483802bab2379368656d8eb0d28e54f07b38ff59618561d7cdb15af56e2a1627d111e2c0e6549c13792a7a32b"
+RPM_NAME = "recastnavigation-devel-1.5.1+git20210305.c5cbd53-1.8.aarch64.rpm"
+RPM_HASH = "3e8ed1a5a5583b3c8e4ad5bb3cb403448be42040e8bc408daf46039b151c044c9a23e9af3cd6a010a9fb752708c8c6548b2f4fed595b60f69efbb34bedab29cc"
 
 RPROVIDES:${PN} += "pkgconfig-recastnavigation \
 recastnavigation-devel"

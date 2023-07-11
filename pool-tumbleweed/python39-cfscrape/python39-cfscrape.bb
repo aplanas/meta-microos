@@ -19,8 +19,8 @@ LICENSE = "MIT"
 
 PV = "2.1.1"
 
-RPM_NAME = "python39-cfscrape-2.1.1-1.14.noarch.rpm"
-RPM_HASH = "c09278eca4d92369ef892513a05593db9f2c0e4f320df55ad0b281f8717f4e23fc3a484b5389e8655fc247e61174ca2326774f24bc01823c5d0e23620dfe2df6"
+RPM_NAME = "python39-cfscrape-2.1.1-1.16.noarch.rpm"
+RPM_HASH = "e3fe5add0ae57e5c4aede81abb716ab23dc55d588e338d1fe69306fa0fe32c82a70b1a3998d42801b55b3dfae0d2c8226d9d3a9888c9dfd50caf9032c0d6def4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-cfscrape \

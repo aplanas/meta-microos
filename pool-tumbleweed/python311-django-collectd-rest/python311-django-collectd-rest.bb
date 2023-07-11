@@ -5,10 +5,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.2.4"
 
-RPM_NAME = "python311-django-collectd-rest-0.2.4-1.3.aarch64.rpm"
-RPM_HASH = "63ba629f01894da0d7fac3f6c437fcb96ea18cd312e1da168ea052bbdd226da37cc46a00469c35440aaf12f350c89f471ad8efb3dcfa6cc665230074145f3353"
+RPM_NAME = "python311-django-collectd-rest-0.2.4-1.5.aarch64.rpm"
+RPM_HASH = "0e5264326ec46053b530f80c792b9551babace54d8a00a669b4917937bcecf0301f9231c8312cdfa5c7e190a2752fb66cea37fcb2bc42ab2bad25ab6aa26606b"
 
-RPROVIDES:${PN} += "python3.11dist-django-collectd-rest \
+RPROVIDES:${PN} += "python3-django-collectd-rest \
+python3.11dist-django-collectd-rest \
 python311-django-collectd-rest \
 python3dist-django-collectd-rest"
 

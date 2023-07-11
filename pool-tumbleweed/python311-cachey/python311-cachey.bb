@@ -17,11 +17,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.1"
 
-RPM_NAME = "python311-cachey-0.2.1-2.3.noarch.rpm"
-RPM_HASH = "e0220b1f8a6e85441a32577c3342a9efd58f5d978197b4b1bcafd20d16122ccc21da660a9f972d3cf43b1a90e638287a785db0555ce3bc01d079d1540bdffe29"
+RPM_NAME = "python311-cachey-0.2.1-2.5.noarch.rpm"
+RPM_HASH = "1c8e03ecd5f661bcabd65802941db0d16b6f8d643a777e242de74a7fae819630ea01d9deba64836aa5fc39f569f1c4aa8a9b6ca3a577b77da5a1c2747630a0b9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-cachey \
+RPROVIDES:${PN} += "python3-cachey \
+python3.11dist-cachey \
 python311-cachey \
 python3dist-cachey"
 

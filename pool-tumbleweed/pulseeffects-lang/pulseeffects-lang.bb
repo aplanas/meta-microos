@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.8.7"
 
-RPM_NAME = "pulseeffects-lang-4.8.7-1.8.noarch.rpm"
-RPM_HASH = "b70aa1a84caf2d68abae00176ff8e000621d03c6b146525360498fa55270f8743edbf32db8e0900b170da9bc75dab3f837bdd36f550dcce9a4dd93be480494fc"
+RPM_NAME = "pulseeffects-lang-4.8.7-1.9.noarch.rpm"
+RPM_HASH = "23a6e4987be9b89d763ba5ddc2ef4635c008a730ad3857728a0b1ee143f667a7f0b16b75f8081f4b3f7e2539d2dc03a1cd66142464d0822a9dce73f9dfbd13f8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-pulseeffects-cs \

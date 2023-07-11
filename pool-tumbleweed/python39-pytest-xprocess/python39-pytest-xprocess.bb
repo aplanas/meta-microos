@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "0.22.2"
 
-RPM_NAME = "python39-pytest-xprocess-0.22.2-1.1.noarch.rpm"
-RPM_HASH = "336e4077f2e8a2b6a9c99262883849c68c1a53a54cd0756d5164e1d46e1ba27cbebcbda7d17113422b0bc5dc94f00d2c5c22cebc57c2169685026a9c75b51734"
+RPM_NAME = "python39-pytest-xprocess-0.22.2-1.3.noarch.rpm"
+RPM_HASH = "0d23b898eeaeee80b2d47dc2f0b5c25ceb9fe105247fbf93052fe73dfd84e7677134c09f0d845068de3b66d2e4511742666015ed739a2164ed23cee7923d7664"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytest-xprocess \

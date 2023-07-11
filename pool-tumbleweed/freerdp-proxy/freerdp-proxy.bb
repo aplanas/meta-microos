@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.10.0"
 
-RPM_NAME = "freerdp-proxy-2.10.0-3.1.aarch64.rpm"
-RPM_HASH = "333a0bcf985b29f770246befa4261e3f10e42c8b52d05a714c259f6e594f44030013650293efba3f740f558107e779223ec577b851e6849d7bcc54a9a12caada"
+RPM_NAME = "freerdp-proxy-2.10.0-3.2.aarch64.rpm"
+RPM_HASH = "13ad3cfe5a9d2a5de7d68d961fa2ec73fb131cf939a2a37cee149a312b3bcb13632f3669c884f83b921a0f172aa87d75e666642931babc21e5f042cb7138b028"
 
 RPROVIDES:${PN} += "freerdp-proxy"
 

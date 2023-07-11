@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.8.6"
 
-RPM_NAME = "arm-trusted-firmware-a80x0_mcbin-2.8.6-1.1.noarch.rpm"
-RPM_HASH = "a9b6b8fe626cac9312ec994f84549e3f111eccc7bcc8d1ac00ce4582076395ee7133de649c817e6e945324c87a26027f7fe58822c4f46eaeee32ce65d30820e6"
+RPM_NAME = "arm-trusted-firmware-a80x0_mcbin-2.8.6-1.2.noarch.rpm"
+RPM_HASH = "17738b5d0bfeebd36813247a78aa65360ae7dcebaf1b9bfadbf12283a8cb2a7de9ed6b46bcd04387e078c2a9cba08d25f4b3fce7e83c2b45d8c2d81063464b6b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "arm-trusted-firmware-a80x0-mcbin"

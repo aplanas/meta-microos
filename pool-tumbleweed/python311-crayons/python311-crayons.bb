@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "0.4.0"
 
-RPM_NAME = "python311-crayons-0.4.0-3.8.noarch.rpm"
-RPM_HASH = "258614f837d664216c3eecd6234d02c496c4e1461d27d15bfef755516d8d35c75028ff11deab4aae5290b8646cdc07a280b594bd4800b76661211b78e9636237"
+RPM_NAME = "python311-crayons-0.4.0-3.10.noarch.rpm"
+RPM_HASH = "b73fd7b599ecb6a1d65b9390263726f0359cdf1121e5c9acc475012f3d0fc16d0e4a1d21dac3d77bc1e6b801bde8b8c5a158e7e1a2ebbbb7253b1ead4bfc64d9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-crayons \
+RPROVIDES:${PN} += "python3-crayons \
+python3.11dist-crayons \
 python311-crayons \
 python3dist-crayons"
 

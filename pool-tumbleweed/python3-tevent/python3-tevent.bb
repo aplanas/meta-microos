@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.14.1"
 
-RPM_NAME = "python3-tevent-0.14.1-2.1.aarch64.rpm"
-RPM_HASH = "7904929b9fe2d4eae4bfd39ac8817808f856230b5e46b6f0369c5e5fd6f9d03ffed50ebd7e51a60aaa54dcddfe8b9dbae13ee2b2b0971415a60706994496b3ab"
+RPM_NAME = "python3-tevent-0.14.1-2.2.aarch64.rpm"
+RPM_HASH = "e746bc4ad93fe3d44a4c44301f57f871024b95de2b6aded0aa4ec071ccccd0c9c7be8428a915c97898beb72ee8f3596294fb842861bd9ec5d5386f59658897db"
 
 RPROVIDES:${PN} += "python3-tevent"
 

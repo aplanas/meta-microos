@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.3.0"
 
-RPM_NAME = "libgig-devel-4.3.0-1.9.aarch64.rpm"
-RPM_HASH = "a96675588fb58d2e8dff7fb2f76fac11941c72eb41def089c416348f48af49c0591efbabefaaf7d195fa7966c8451b5a7e19979cf50546e6adee4f0cb363fb02"
+RPM_NAME = "libgig-devel-4.3.0-1.10.aarch64.rpm"
+RPM_HASH = "a5b577d7dc451f9a27f93341b37626c563a4abb5624af263364b6009cd37f57494ddf62747f35fb6a4cdf69bebe02ea98cfd5e0f6bfc165ee57221524e5f8d49"
 
 RPROVIDES:${PN} += "libgig-devel \
 pkgconfig-akai \

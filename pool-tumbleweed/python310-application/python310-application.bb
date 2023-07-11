@@ -16,11 +16,10 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.0.3"
 
-RPM_NAME = "python310-application-3.0.3-2.10.aarch64.rpm"
-RPM_HASH = "8b34dc4dc6c09f51233cd4f3b87359a452bd338ac34d4da011c7eaa24f5fa97fd6906faf5b1452792ea8ade4babe4f23213be3be48c1e222c1a249c19555dbb9"
+RPM_NAME = "python310-application-3.0.3-2.11.aarch64.rpm"
+RPM_HASH = "b8f4c48d0bad72861d7d50b359b0bc4b2b0e4579228c8c056709b3ca43dd9d2154b437382b69932c3dd0096bdc7b6a0974062a3130b09e3ec249efd2dc779271"
 
-RPROVIDES:${PN} += "python3-application \
-python3.10dist-python3-application \
+RPROVIDES:${PN} += "python3.10dist-python3-application \
 python310-application \
 python3dist-python3-application"
 

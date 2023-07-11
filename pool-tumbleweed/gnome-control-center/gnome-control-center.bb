@@ -3,10 +3,10 @@ DESCRIPTION = "The control center is GNOME's main interface for configuration of
 various aspects of your desktop."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.2"
+PV = "44.3"
 
-RPM_NAME = "gnome-control-center-44.2-1.1.aarch64.rpm"
-RPM_HASH = "0a94948baf1eb0ea39ec838e7de1a9926e2d9b7f0336a77e99196ba2a6bee13b89ee91f8b26610f9d22a78411d1f627288c2e1f973f33a2117c79db04455d274"
+RPM_NAME = "gnome-control-center-44.3-1.1.aarch64.rpm"
+RPM_HASH = "7706801ea3dfcc87fc1d808066da6359fa5fecec83d9b8cadafe80f3acf920210eaa093426c1c250b7e7cf0054ed964c0b7e66a63dbffc3c214c9107ba5321a8"
 
 RPROVIDES:${PN} += "gnome-control-center"
 

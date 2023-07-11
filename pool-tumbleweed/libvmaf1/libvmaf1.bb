@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause-Patent & BSD-3-Clause"
 
 PV = "2.3.1"
 
-RPM_NAME = "libvmaf1-2.3.1-3.2.aarch64.rpm"
-RPM_HASH = "c8913baec4ab84faa8648bcd04a59025c1e2aa0a2d92c84a3024c7b9aaf35d59de398404c4ec5ae36737be5534695536f83d004127db17e8fe048840cbbaa261"
+RPM_NAME = "libvmaf1-2.3.1-3.3.aarch64.rpm"
+RPM_HASH = "736e831bab77a2e0e1e1b8d92fb41ad0bacb0e7a77603624bb11bbf48cd131ea7b97bbff0a4676100e803b0872e4a142de74c7996c332f236ac97b256d09819e"
 
 RPROVIDES:${PN} += "libvmaf.so.1 \
 libvmaf1"

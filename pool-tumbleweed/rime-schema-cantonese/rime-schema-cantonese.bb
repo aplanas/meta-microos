@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "20230603+git.5fdd2d6"
 
-RPM_NAME = "rime-schema-cantonese-20230603+git.5fdd2d6-1.1.noarch.rpm"
-RPM_HASH = "04d0fa88a5ca79fffd4f4e6914e1b83efbfb635532eddc16684a472224ccabd15d2187290c86b5be9f05aad1aa04a90b0d055afaa1b00f93a026c4ac888c6b8e"
+RPM_NAME = "rime-schema-cantonese-20230603+git.5fdd2d6-1.2.noarch.rpm"
+RPM_HASH = "224f429fba4fb2d29267c1587ae0f8024604bd7020b68e74651e1baa9bfc6a855f614e7ef9f63f2f37e59289f44dc7f5550bd834be28aae4abd4f2f488f5492f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rime-schema-cantonese \

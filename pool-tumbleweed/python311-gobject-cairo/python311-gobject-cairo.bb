@@ -7,10 +7,11 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.44.1"
 
-RPM_NAME = "python311-gobject-cairo-3.44.1-1.2.aarch64.rpm"
-RPM_HASH = "b02cf95598845575602804302ecb78c4b4c5e5d60368a7e4d9e1c42667b8690d62d100833077c537b8f5ffe6de86cde4c4a690b6b37666d51d993a7e8d31d3ed"
+RPM_NAME = "python311-gobject-cairo-3.44.1-2.1.aarch64.rpm"
+RPM_HASH = "5e1e32ae70ca5dfad6c9bfa4e68610f2f8f3839c5bcfcd26d91a7399221d7091bb552959fd5180baafb70375d61904919d8c6def03918a90e9ffa4fc289bb234"
 
-RPROVIDES:${PN} += "python311-gobject-cairo"
+RPROVIDES:${PN} += "python3-gobject-cairo \
+python311-gobject-cairo"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \

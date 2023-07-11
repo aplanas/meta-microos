@@ -4,10 +4,10 @@ developing programs which will manipulate TIFF format image files using \
 the libtiff library."
 LICENSE = "HPND"
 
-PV = "4.5.0"
+PV = "4.5.1"
 
-RPM_NAME = "libtiff-devel-4.5.0-3.3.aarch64.rpm"
-RPM_HASH = "bc54db990f034f1291824ab704047b84710f361b6b6036d0bf93bb3daffac9cc480f4317f89eac3dd7db6833d662c0250b9534dfd28d24e198ebaf26def35ed8"
+RPM_NAME = "libtiff-devel-4.5.1-1.1.aarch64.rpm"
+RPM_HASH = "caeb4bea701d36dff7b69065179fe594e0783fd9776872a8d938e2b2b2556158d183330034e163f6053ad14d407a7be1d662e8a2cdfd349e2d5e3525b9144b66"
 
 RPROVIDES:${PN} += "libtiff-devel \
 pkgconfig-libtiff-4"

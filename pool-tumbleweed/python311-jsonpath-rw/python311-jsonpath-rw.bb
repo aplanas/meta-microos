@@ -10,11 +10,12 @@ LICENSE = "Apache-2.0"
 
 PV = "1.4.0"
 
-RPM_NAME = "python311-jsonpath-rw-1.4.0-6.13.noarch.rpm"
-RPM_HASH = "6673807db01615171fcd1cef2cfb08ca63589daf654b3a71ee342b8c67659194f1eb63f11af3e2e49dda52683766503d6f9e0fae56fd580b78d67382c54e8785"
+RPM_NAME = "python311-jsonpath-rw-1.4.0-6.15.noarch.rpm"
+RPM_HASH = "28bbf9e9de19e79337d0dd536512a3184f274eb6d0c1edb3262ea41a999e89ab60781dd13ed71514e0a5ad5a500d3e77f7ad7f1f8481f2b6c416313d79d7e59e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-jsonpath-rw \
+RPROVIDES:${PN} += "python3-jsonpath-rw \
+python3.11dist-jsonpath-rw \
 python311-jsonpath-rw \
 python3dist-jsonpath-rw"
 

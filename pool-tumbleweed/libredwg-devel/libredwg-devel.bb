@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.12.5"
 
-RPM_NAME = "libredwg-devel-0.12.5-3.4.aarch64.rpm"
-RPM_HASH = "f5d091b4e42b5fb5d6cdc3f5b5552a90ee042793a485f008ba689c5053061d84a7b1477890dcf6307d2a62930dde71018a95434a57979b006c642d5558ebb82e"
+RPM_NAME = "libredwg-devel-0.12.5-3.5.aarch64.rpm"
+RPM_HASH = "2d6bf08065a588dec59b2244882bad3be5d4143041ff9b68a1600ec9b3f4bd3472dff216ccdfb4a22b5e6a1e74a79ab77c23d32ae2f8bad77dcdb8324a27dec0"
 
 RPROVIDES:${PN} += "libredwg-devel \
 pkgconfig-libredwg"

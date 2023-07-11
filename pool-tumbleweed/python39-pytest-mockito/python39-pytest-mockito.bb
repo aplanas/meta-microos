@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "0.0.4"
 
-RPM_NAME = "python39-pytest-mockito-0.0.4-2.7.noarch.rpm"
-RPM_HASH = "fd0c19a837de6a62ea3644caef411c49a3a3129737c4d014e618e208031102344556f6072d122c49acfe0d6a186de5a33708ebb3cc1ea9b3e82f9ac40100030b"
+RPM_NAME = "python39-pytest-mockito-0.0.4-2.9.noarch.rpm"
+RPM_HASH = "f8c30b625ee7d65a539932f5b0b98aad77f29a2439e364a8e6e104d37770088964631afda9f4ef9bd18de50903eaf32950ac1ccfe347e2da79176c4fddbd805c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytest-mockito \

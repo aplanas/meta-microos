@@ -2,13 +2,13 @@ SUMMARY = "Haskell QuickCheck profiling library"
 DESCRIPTION = "This package provides the Haskell QuickCheck profiling library."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.14.2"
+PV = "2.14.3"
 
-RPM_NAME = "ghc-QuickCheck-prof-2.14.2-3.3.aarch64.rpm"
-RPM_HASH = "0f5ce54ab2420e316c567409c02b2777491e75ecc23dfa80289d0c93108c3f3b123e187c2a45309d456c4c0c0b5d21bfce50792d4960e8fe93f9076229adc4c6"
+RPM_NAME = "ghc-QuickCheck-prof-2.14.3-1.3.aarch64.rpm"
+RPM_HASH = "3f9a9b1bf55e14180f03e45536c0fac0ed33960ef1253ad249e4e9b71b6a1d3789936aa6bbc90ccbe5eb7f5c388cea3f5c2c1da786df8fd8bd7a2c71dc9556f5"
 
 RPROVIDES:${PN} += "ghc-QuickCheck-prof \
-ghc-prof-QuickCheck-2.14.2-Ifslnzw9cpLJMSBGXVUlx6"
+ghc-prof-QuickCheck-2.14.3-6dq2izV8oSq1BobaDA598X"
 
 RDEPENDS:${PN} += "ghc-QuickCheck-devel \
 ghc-prof-base-4.17.1.0 \

@@ -4,13 +4,13 @@ backends that allows rendering to Gtk windows, PDF, PS, PNG and SVG documents, \
 amongst others."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.13.8.2"
+PV = "0.13.10.0"
 
-RPM_NAME = "ghc-cairo-0.13.8.2-2.3.aarch64.rpm"
-RPM_HASH = "80421551ebcc68dfc4c6676469ea0ab17e5cdc501bf944a5ad144db8ade3a78eddd2bdc92c02ed7023fd4c85924cd137d719b73ca743eb185642404c44a130dc"
+RPM_NAME = "ghc-cairo-0.13.10.0-1.3.aarch64.rpm"
+RPM_HASH = "fc4b815b2d49a1f46254c40a82a9c8a7d92b13b7804a4c0a73603a00b1f6057c021a70d0ec4843fdd2810a59e77f20e411b00efdc19b843f8c576be612e3d801"
 
 RPROVIDES:${PN} += "ghc-cairo \
-libHScairo-0.13.8.2-84nOBKgVLz3788JDxxB5om-ghc9.4.5.so"
+libHScairo-0.13.10.0-79KHEyza8Yx2ITjvRp5k2b-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
 libHSbase-4.17.1.0-ghc9.4.5.so \

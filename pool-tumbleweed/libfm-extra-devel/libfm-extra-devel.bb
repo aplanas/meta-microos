@@ -5,15 +5,15 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.3.1"
 
-RPM_NAME = "libfm-extra-devel-1.3.1-1.20.aarch64.rpm"
-RPM_HASH = "fb503140f0c6707303152150370468ef682c42cd0b8360254c70697f02610f77bbbfe09071dc4bd5de5b737f9b050cd731691e679d4c11e219ce2e029e8e9773"
+RPM_NAME = "libfm-extra-devel-1.3.1-1.21.aarch64.rpm"
+RPM_HASH = "a608fc24332477b1a22702f6e80b23aa0f2a3eae8259c499687e088783ea7e1679b9d8c81085ed1e7f2b809f77564248f431c94a7961f357dda9ca0d7e353886"
 
 RPROVIDES:${PN} += "libfm-extra-devel \
 pkgconfig-libfm-extra"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libfm-extra4 \
-pkgconf-pkg-config \
+pkg-config \
 pkgconfig-glib-2.0"
 
 inherit rpm

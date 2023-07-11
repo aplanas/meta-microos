@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kalendar"
 DESCRIPTION = "Provides translations for the 'kalendar' package."
 LICENSE = "GPL-3.0-only"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kalendar-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "e2259ec4f5b2d3c0546885d06e2688a9b8bc8496158e9d25ea7ca92e4bdaa27f5f4569ea860c8c277b3c1492a204732ce32009c6805b9fc55aef5f242b16e352"
+RPM_NAME = "kalendar-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "3e8038d4a11a3d5fbe60d9ad3d14908eb6c5f428d30265e3bc5edf7d07d15294eadda747bb86aede4593c5f91f1b1eaf5a61d583a19d4cd30b7885528a27b560"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kalendar-lang \
@@ -22,6 +22,7 @@ locale-kalendar-es \
 locale-kalendar-eu \
 locale-kalendar-fi \
 locale-kalendar-fr \
+locale-kalendar-gl \
 locale-kalendar-hu \
 locale-kalendar-id \
 locale-kalendar-it \

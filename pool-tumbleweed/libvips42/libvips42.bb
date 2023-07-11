@@ -5,10 +5,10 @@ for working with colour, for scientific analysis and for general \
 research and development."
 LICENSE = "LGPL-2.1-only"
 
-PV = "8.13.3"
+PV = "8.14.2"
 
-RPM_NAME = "libvips42-8.13.3-1.5.aarch64.rpm"
-RPM_HASH = "1cdb0b11bdf2c9a0b70e2fba807bb59856fb37ab7649e9110c96505f7a0f51f4526d15104ff81f4e037da4885bfecea8155b2ac3e34e08429875cb53d3dbb421"
+RPM_NAME = "libvips42-8.14.2-1.1.aarch64.rpm"
+RPM_HASH = "e6b30cb1f124cf5be4ae65849294b268c79bf1cd6904c3a4a71579b46edb706a15d3cd33ca230c0d32963ccf5f6804acb17ff870896bed271d386ebdf53831fb"
 
 RPROVIDES:${PN} += "libvips-cpp.so.42 \
 libvips.so.42 \
@@ -48,6 +48,6 @@ libwebp.so.7 \
 libwebpdemux.so.2 \
 libwebpmux.so.3 \
 libz.so.1 \
-vips-modules-8.13"
+vips-modules-8.0"
 
 inherit rpm

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6.7"
 
-RPM_NAME = "ghc-containers-0.6.7-3.1.aarch64.rpm"
-RPM_HASH = "83cf4f3efacfa383a9d01972e5c3f38c50730ead3bdc43a7768e6d1312a4e6867c1e01d20ee12bf7c5f14c10c26767a8fe5ebfa8353f65c583ddde346150ec33"
+RPM_NAME = "ghc-containers-0.6.7-3.2.aarch64.rpm"
+RPM_HASH = "6105fc0b2ee4180e962dbdc8fb5a92fbd1fc49ab27d5c8467e8fadff1375dec03adf0faef4903b1b051b58c7ba6df377c06c50de4ea967b4e88e2c63f155c607"
 
 RPROVIDES:${PN} += "ghc-containers \
 libHScontainers-0.6.7-ghc9.4.5.so"

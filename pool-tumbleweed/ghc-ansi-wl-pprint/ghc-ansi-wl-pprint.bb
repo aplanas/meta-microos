@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6.9"
 
-RPM_NAME = "ghc-ansi-wl-pprint-0.6.9-10.2.aarch64.rpm"
-RPM_HASH = "51f4c864babf7b937efbf26c5733dac7fd327ca517c77522c9e5ce5d927e63d529f27b974be17c86bcb83d76639fa47e92c70ba0d24f6954119c8fcb2c9957fe"
+RPM_NAME = "ghc-ansi-wl-pprint-0.6.9-11.1.aarch64.rpm"
+RPM_HASH = "b06992d871e1a014a107252becfe6174bce0e9f11cd36197781fcd5d6fc73378c1efa0ef34a1b22b99c3f5a961b93ffd9b51d5d2a863d3dba6e08c3f68aed7f1"
 
 RPROVIDES:${PN} += "ghc-ansi-wl-pprint \
 libHSansi-wl-pprint-0.6.9-1uNId4TIZRh7T7KEIBVXZI-ghc9.4.5.so"

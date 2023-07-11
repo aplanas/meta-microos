@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-pahawhhmong-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "e216d000e0a05abc0b412891e800b57386288b1010f36adcd6b33715e7ec1e3afb138d10c2f3fff6abb2125aba80903e1ad89f31f267510c0cd425ef712e2d95"
+RPM_NAME = "noto-sans-pahawhhmong-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "73daedc140cb2ac33c77c68ff8c615e10130a5c1aa29a1de0c7c2f15630d21e685f0428d57557fd2303d49fafed328f6e5ab28ac9e632ebea8d3ddb34664572b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-pahawhhmong \

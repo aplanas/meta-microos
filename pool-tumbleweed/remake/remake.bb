@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.3_1.5"
 
-RPM_NAME = "remake-4.3_1.5-1.10.aarch64.rpm"
-RPM_HASH = "ddcfc361a63c663a89972fe24b2b41f2f497939e7a39bd959d7481c4ca8ee661e80deaa87531872b10ffa5045d4480c33f83b21fc93614945ec211c9666cc090"
+RPM_NAME = "remake-4.3_1.5-1.11.aarch64.rpm"
+RPM_HASH = "6151a6afcb47979b15be2c4e3c1da4fdacd05bc9a6397c3f8eda30370ac8bee7e2b09ea706ba622fbcc0ce5df544474d35ba45900bd1d436d4bf8984cc66210d"
 
 RPROVIDES:${PN} += "remake"
 

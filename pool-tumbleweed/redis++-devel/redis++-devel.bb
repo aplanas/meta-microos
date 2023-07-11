@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.3.8"
 
-RPM_NAME = "redis++-devel-1.3.8-1.1.aarch64.rpm"
-RPM_HASH = "6424dae4eac341e08745e536e65c6d77e118c917750b1f146cb577e5a30cb0617f3ffee49b35d453d70363ede41e495e5b013a2be323c14f5ddb681f5660cc4b"
+RPM_NAME = "redis++-devel-1.3.8-1.2.aarch64.rpm"
+RPM_HASH = "b1e34925469729db69808ebee1d36184bb3539a526104361ce6402a454b0517d0881eacf910451d835ca54e5abf70524e7daee9afd3837879fe4bbfbbb0c98a8"
 
 RPROVIDES:${PN} += "cmake-redis++ \
 pkgconfig-redis++ \

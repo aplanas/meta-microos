@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.2.32"
 
-RPM_NAME = "python310-cron-descriptor-1.2.32-1.3.noarch.rpm"
-RPM_HASH = "c345881cf5c55783d79216cb00b537a072b1c758e2b04f218fee165618d00cf59152a3625918eafc3c92c1ee9593012cbc049772048d6a340f5632d96396171c"
+RPM_NAME = "python310-cron-descriptor-1.2.32-1.5.noarch.rpm"
+RPM_HASH = "9bd02a7989dd037e7153734f44fc06ff1a38e59ac5b1ef95b59d85c8444af7796b4bbf95715847ff948efbbcde2ea362c3ce7affab88c52565609b1f424691e9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-cron-descriptor \
-python3.10dist-cron-descriptor \
+RPROVIDES:${PN} += "python3.10dist-cron-descriptor \
 python310-cron-descriptor \
 python3dist-cron-descriptor"
 

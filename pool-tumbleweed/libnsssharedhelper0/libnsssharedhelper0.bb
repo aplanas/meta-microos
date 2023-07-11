@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "1.0.10"
 
-RPM_NAME = "libnsssharedhelper0-1.0.10-9.26.aarch64.rpm"
-RPM_HASH = "c4d3d257ea5f95108885e34af8d9f7303420ac19fdd1b031635bef168b677167cef72386e9be26e6cd9876180d25b95d719155f8d855b536d49998de18aa892c"
+RPM_NAME = "libnsssharedhelper0-1.0.10-9.27.aarch64.rpm"
+RPM_HASH = "feb2c75a344a4c92ba12a86e353b6ea2b038c3267cb69dad21297786e5b8b0e7588a83408bd60cdb66be453a7f15ce39c3788601be98a9725c6403cd998cdb6d"
 
 RPROVIDES:${PN} += "libnsssharedhelper.so.0 \
 libnsssharedhelper0"

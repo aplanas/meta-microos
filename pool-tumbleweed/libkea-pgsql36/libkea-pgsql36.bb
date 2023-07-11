@@ -4,8 +4,8 @@ LICENSE = "MPL-2.0"
 
 PV = "2.2.0"
 
-RPM_NAME = "libkea-pgsql36-2.2.0-2.4.aarch64.rpm"
-RPM_HASH = "c91936dcc8a1afbd8883cbebaad6a23818f7ab0e62ceb7595b5d356e664f14ffe399e747a799037720d0700a539c70c5177d3263a4c665a784edb9b95c4c232f"
+RPM_NAME = "libkea-pgsql36-2.2.0-2.6.aarch64.rpm"
+RPM_HASH = "25bd45fc50820c96a4e342d4ce720ae357c338bee8c71a892bb9bd27e102eae5887e5559df4495748dab3f6f86d05538976eab9e66f933352a059f9b0327ca86"
 
 RPROVIDES:${PN} += "libkea-pgsql.so.36 \
 libkea-pgsql36"

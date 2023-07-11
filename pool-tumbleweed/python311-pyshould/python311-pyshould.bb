@@ -15,11 +15,12 @@ LICENSE = "MIT"
 
 PV = "0.7.1"
 
-RPM_NAME = "python311-pyshould-0.7.1-6.12.noarch.rpm"
-RPM_HASH = "6f11d0d42a24fe40d59ae0a044ac8fc9da3b221da3465e20430b5870c4298b92c343fcdb0f1fadeba14fca3cc4b2702c06deefcf76a8eb922d93a05d6b4f1f3e"
+RPM_NAME = "python311-pyshould-0.7.1-6.14.noarch.rpm"
+RPM_HASH = "aaf17579ed434711ba752669e8e045040490f94ee75286913d089015758db63e707b1993f4b83fe793db0bf11c8820a5056fd31441f36b344a2caeb621846dcc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pyshould \
+RPROVIDES:${PN} += "python3-pyshould \
+python3.11dist-pyshould \
 python311-pyshould \
 python3dist-pyshould"
 

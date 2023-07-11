@@ -5,10 +5,10 @@ support and minimal dependencies: an X11 lib only. Stalonetray works with \
 virtually any EWMH-compliant window manager."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.8.4"
+PV = "0.8.5"
 
-RPM_NAME = "stalonetray-0.8.4-1.8.aarch64.rpm"
-RPM_HASH = "9f05501a861d5e4b28ea59ed455eb01c7e71b86edea8c18fc633c8788f688ec4a15cfac5bcc60a3ff404749ccf71b967258911e3a50f58c871e2a8e39af98d32"
+RPM_NAME = "stalonetray-0.8.5-1.1.aarch64.rpm"
+RPM_HASH = "05390f6d273c20182746f4c8f69abb29db54d5308f09013fd9f0a22d342c5d5f9234292d1331ff02ba4f8902ce2c97325251710fba918f8c6e2888761c14ab90"
 
 RPROVIDES:${PN} += "stalonetray"
 

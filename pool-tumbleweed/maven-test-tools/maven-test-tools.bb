@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.3.0"
 
-RPM_NAME = "maven-test-tools-3.3.0-5.12.noarch.rpm"
-RPM_HASH = "c4e79dd9e9e3333d60ce5f92451f1ea25a6d40595dd1b5e42202ae49caf4c9dbdd60a1db0910e812d026fd3e2bfcf9af261d11455992582554a1e7db257d35df"
+RPM_NAME = "maven-test-tools-3.3.0-5.13.noarch.rpm"
+RPM_HASH = "57e56e3903b4dd4cbd765b9a7d87569b08a0d713ab07271c5a1b7caa49a78743764e65cfe3b59d3c1d8a2a9bd81f49a1f77fa9a1e45fc5ed7a7ff0e24dbbbdbb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-test-tools \

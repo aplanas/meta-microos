@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.4.1"
 
-RPM_NAME = "shibboleth-sp-devel-3.4.1-1.4.aarch64.rpm"
-RPM_HASH = "f63ef35247ddf5aabe94d5d57358f9fef40bc9c9b0f5c2c8b4600ee40484a39c1b84a65b6c7939798ad828cd2c8a110d5584c581f9ae4ea3e83860ad5951af4b"
+RPM_NAME = "shibboleth-sp-devel-3.4.1-1.5.aarch64.rpm"
+RPM_HASH = "749e5b6973ec3129e66ca477495f09189b1c16ef47523eb1424cd4f50aead40364e2a8fe48395fb227a9a2742bc27c9aa7b645341d98aaddc16e403af829ad56"
 
 RPROVIDES:${PN} += "pkgconfig-shibsp \
 pkgconfig-shibsp-lite \

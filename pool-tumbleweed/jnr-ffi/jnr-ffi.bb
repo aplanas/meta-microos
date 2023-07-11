@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.2.13"
 
-RPM_NAME = "jnr-ffi-2.2.13-1.1.noarch.rpm"
-RPM_HASH = "c48f027d1439416020c9beb0a3d54fac87a0cb30a0ee00cc5020b8ee3c1216f9c63b4f500cafb995aece7053dce3d5c3d3a167b1000d5594a885aa00c798b253"
+RPM_NAME = "jnr-ffi-2.2.13-1.2.noarch.rpm"
+RPM_HASH = "b91900f053bbaf74200296d9aaaca0940676c59ff6aaddf98b0124ab574b3a0e87920dcc100d15da8195692923f3b0bf60e33543e0116f955f194452a2e40a7f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jnr-ffi \

@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "0.11.10"
 
-RPM_NAME = "python39-applicationinsights-0.11.10-1.8.noarch.rpm"
-RPM_HASH = "13c915dd03de6040e45dec2ff923366bd17df36cc6a7fcc239732440568cec12fb6827690319650a5efdcd488b853fc1d197bb491f6195f449214a5195d141fc"
+RPM_NAME = "python39-applicationinsights-0.11.10-1.9.noarch.rpm"
+RPM_HASH = "a1e59f6136e6d650a8323a9ca41b5607713d8724856fde68045c3f776212ec3cc425ac89a3a1ab5ed234bf67f4f9086026f3168996b2a09388f7dc50504d5607"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-applicationinsights \

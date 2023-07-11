@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.12.1"
 
-RPM_NAME = "python39-meson-python-0.12.1-1.2.noarch.rpm"
-RPM_HASH = "cb5a3c0de3ea13dbe78c02b123ec54bb1e153fb971b4f8927445775ea3218c0b38cd3eeb0cce5b3714e0e0df801523a35df8c82e8db6323ed5325dd80c1a2348"
+RPM_NAME = "python39-meson-python-0.12.1-2.2.noarch.rpm"
+RPM_HASH = "920b79079a70a1aeccca2663c3eca165bd5937be1a7738a80db3b8bdf4ef414355c2c01a8dc1415ac49a216e91e4e96b5617314f40e37774e5c44e5991e827c5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-meson-python \

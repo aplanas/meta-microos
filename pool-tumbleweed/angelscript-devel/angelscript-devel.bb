@@ -9,8 +9,8 @@ LICENSE = "Zlib"
 
 PV = "2.35.1"
 
-RPM_NAME = "angelscript-devel-2.35.1-1.8.aarch64.rpm"
-RPM_HASH = "c2ce4c7f113d4512675dacf402ee28771faa11ed37a137119a23ad65bbb364df1ab9e02ae3cc4c7d1e1b06cb6466e0b849366dd199e62a9114c1eae6c36179e9"
+RPM_NAME = "angelscript-devel-2.35.1-1.9.aarch64.rpm"
+RPM_HASH = "987497b2a020653d5a99557d3a88d29cc77a2c1158dfa3f7c271e4cd72def37e8ea34de51871b659d302e105a74312265282b532ec050a73ce1b3b80cbbbd22f"
 
 RPROVIDES:${PN} += "angelscript-devel \
 pkgconfig-angelscript \

@@ -9,8 +9,8 @@ LICENSE = "Zlib"
 
 PV = "1.8.13"
 
-RPM_NAME = "pngcrush-1.8.13-1.26.aarch64.rpm"
-RPM_HASH = "9aa0fde43e2c6fc31b1c3d5b8efdf6d02bf047bec94a263b80821a60cd25d9de5ade0e3e27447791b3b6c8a5dda36883466966f9886d60c7363a152d6db2b506"
+RPM_NAME = "pngcrush-1.8.13-1.27.aarch64.rpm"
+RPM_HASH = "dbfaf09fe6cfcf96a9672f307fb33231b567182297bd766310b98b37709dd0e88948214267b05c2bb58a948ad1cfbf5d428fa02b0f8b9c7c25ec67927c7e8b9e"
 
 RPROVIDES:${PN} += "pngcrush"
 

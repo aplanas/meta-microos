@@ -5,10 +5,10 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.9.4"
 
-RPM_NAME = "urh-2.9.4-1.4.aarch64.rpm"
-RPM_HASH = "eaeb3365c020c7d068431cf97623268f412f0172e6c80002349b90ce9221dc6d463631a9f51e62f2820815870c85c2eaa3ecf3df7e6c51f9af6e3a271559eb74"
+RPM_NAME = "urh-2.9.4-1.5.aarch64.rpm"
+RPM_HASH = "a3400304792364919aabd9744e00b8e3fd42fc0d0c9338567ba21e7755756a121f762294e0bfe3b4a58f1042710bac065f1ce47877283add51e78a3ae76cda45"
 
-RPROVIDES:${PN} += "python3.10dist-urh \
+RPROVIDES:${PN} += "python3.11dist-urh \
 python3dist-urh \
 urh"
 

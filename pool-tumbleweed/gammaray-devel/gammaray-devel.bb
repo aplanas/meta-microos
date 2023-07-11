@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.11.3"
 
-RPM_NAME = "gammaray-devel-2.11.3-2.15.aarch64.rpm"
-RPM_HASH = "4cf1dcf44e09fe82f3a644e9d04c3b9af8f2d8c4d00e96ad88a0218400af184d2c1251362fb0aea89ee8a50e7a62bccde368e5914a12d6b2b1253579480a30dc"
+RPM_NAME = "gammaray-devel-2.11.3-2.16.aarch64.rpm"
+RPM_HASH = "483b44e5e6438ccfa052e8c9e590de538984917d0d58c7c56dec8bd3440f4bf37ea3451a779d4ecac171c0aef2f770cf40636155cc4ad4fca285d206419851e8"
 
 RPROVIDES:${PN} += "cmake-GammaRay \
 gammaray-devel"

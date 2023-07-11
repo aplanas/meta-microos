@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "0.58_rc5"
 
-RPM_NAME = "openlierox-0.58_rc5-4.1.aarch64.rpm"
-RPM_HASH = "c81e8b855aebf408a2a5ee92a6274d98b622f16348c8c4e931cda1d85aa41f30f209b947df68699cc8dc197e36edcde4211f84a9581b2bc3a3df9735b215edbf"
+RPM_NAME = "openlierox-0.58_rc5-4.2.aarch64.rpm"
+RPM_HASH = "4366f15f2523fcfbe318b8885117a0996ff8abd56c336b946fbaa9de863640d1561fa5c41804876059a1ebdd393e07b65c28cf4b7edaed36b83ebb4cba7d42ce"
 
 RPROVIDES:${PN} += "OpenLieroX \
 openlierox"

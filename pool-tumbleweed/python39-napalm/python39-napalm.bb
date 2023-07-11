@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "4.0.0"
 
-RPM_NAME = "python39-napalm-4.0.0-2.4.noarch.rpm"
-RPM_HASH = "714511180addd2d5c9e96c546ce1abc8cc241bc9d813645dbc33e921b1f08ef79091c12d67abccc8c83b3986097af14d7d69eb2aabc6b432ccbe2ba721438520"
+RPM_NAME = "python39-napalm-4.0.0-2.6.noarch.rpm"
+RPM_HASH = "a372bb2398755f0dd0043faf2d19b94b17fa4663f5d69ef0f7165d4ba856e3a7c46f776392eb518101df93091de094fcf83755b84f3b0b7c4a9bc78af59198f3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-napalm \

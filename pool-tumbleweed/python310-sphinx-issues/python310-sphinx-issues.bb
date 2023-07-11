@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "3.0.1"
 
-RPM_NAME = "python310-sphinx-issues-3.0.1-2.1.noarch.rpm"
-RPM_HASH = "e90f40a4a8afbe6b2869d9ef87d86851612b6b2c0d01f4287ebcc29fa4ffd3ab008ed1bb71d028efcf005c522fda39c7e05887176650ec226f2f4f0c81de43c5"
+RPM_NAME = "python310-sphinx-issues-3.0.1-2.3.noarch.rpm"
+RPM_HASH = "523841b114c46f9d1cbe5bc7f8621e135951c83659647e7f259a0b97d117978046199bf08250df5288e42c918fd9e637b4d40bec87239b89554253c56eba1aee"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-sphinx-issues \
-python3.10dist-sphinx-issues \
+RPROVIDES:${PN} += "python3.10dist-sphinx-issues \
 python310-sphinx-issues \
 python3dist-sphinx-issues"
 

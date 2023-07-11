@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "1.4.2"
 
-RPM_NAME = "python310-pydot-1.4.2-2.9.noarch.rpm"
-RPM_HASH = "c5382879434c2e48db2bc9041639cf357a6dd05e258ae7485b609049742d5b0c14d3320c10d50c3dccf30d7095c6dce5222a12f696005bbbaa1d8f1ab8d2b4f8"
+RPM_NAME = "python310-pydot-1.4.2-3.1.noarch.rpm"
+RPM_HASH = "192a6c7d4f5bb46428769e2dfcb97a521a65ffa80391e32eaf04224ec3923c8d554ca19c4cba20ce7b951e4590e0d7975e9ed649204271f32fa9c68990739434"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pydot \
-python3.10dist-pydot \
+RPROVIDES:${PN} += "python3.10dist-pydot \
 python310-pydot \
 python3dist-pydot"
 

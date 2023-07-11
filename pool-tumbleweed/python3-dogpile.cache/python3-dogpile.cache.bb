@@ -6,13 +6,13 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2.1"
 
-RPM_NAME = "python3-dogpile.cache-1.2.1-1.1.noarch.rpm"
-RPM_HASH = "0513835585e61421291ed2ca3c049805840c50dd277cea0f3234dacf537ab109d694a94ae16e6ec18eae7982b74e64dc8666f830ad24e4c2e45e1d0d2bfbd808"
+RPM_NAME = "python3-dogpile.cache-1.2.1-1.2.noarch.rpm"
+RPM_HASH = "8bcf42d9f27d8300ed510f3c751e8e1da987798c506a9c3859721e08ef7091ccd5bd6c5478bf30846603b948bbf0de76d7dc671207aa7fa9a07213e0f5dc3d34"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-dogpile.cache \
 python3-dogpile.core \
-python3.10dist-dogpile.cache \
+python3.11dist-dogpile.cache \
 python3dist-dogpile.cache"
 
 RDEPENDS:${PN} += "python-abi \

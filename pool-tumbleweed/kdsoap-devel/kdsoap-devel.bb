@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "2.1.1"
 
-RPM_NAME = "kdsoap-devel-2.1.1-1.3.aarch64.rpm"
-RPM_HASH = "a1d2d1ba405c8623b9cd1edbbbda6332d7efefe4a548936aed0265883d45719476187f39b0f124b519fcbded4e6072e24430277a313e6878fcad05211cc6a995"
+RPM_NAME = "kdsoap-devel-2.1.1-1.4.aarch64.rpm"
+RPM_HASH = "de91131f1860572ce1be327e2a02f5c40e5aebbebce9e862653792de63f89173c2ddd0ba9067ab79646f52235c1c7c2b71101c55c7e201423c822ac90df00493"
 
 RPROVIDES:${PN} += "cmake-KDSoap \
 kdsoap-devel"

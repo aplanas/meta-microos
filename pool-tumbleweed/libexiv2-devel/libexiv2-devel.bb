@@ -3,20 +3,23 @@ DESCRIPTION = "Exiv2 is a C++ library and a command line utility to access image
 metadata."
 LICENSE = "BSD-3-Clause & GPL-2.0-or-later"
 
-PV = "0.27.6"
+PV = "0.28.0"
 
-RPM_NAME = "libexiv2-devel-0.27.6-3.3.aarch64.rpm"
-RPM_HASH = "e7deaf5f31c8cd26db4b85bcde3a67c0185d328c9e55ec0b88e6e2f87b043e8f31b34f52a7329f9d89d6155cf4a40a4136c8da0aaa5fd305938076dd20073cc2"
+RPM_NAME = "libexiv2-devel-0.28.0-1.1.aarch64.rpm"
+RPM_HASH = "aa07e8240ddce79077caae7cb543f6c1af0808884dac730309f980d5c2104abfe973ac847f2a325e62e5cd87c0b5227fc858c81dfed90a6a01d2a7f5643c5689"
 
 RPROVIDES:${PN} += "cmake-exiv2 \
 libexiv2-devel \
 pkgconfig-exiv2"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libexiv2-27 \
-libexiv2-xmp-static \
+libexiv2-28 \
 libexpat-devel \
 libstdc++-devel \
+pkgconfig-INIReader \
+pkgconfig-expat \
+pkgconfig-libbrotlidec \
+pkgconfig-libcurl \
 pkgconfig-zlib"
 
 inherit rpm

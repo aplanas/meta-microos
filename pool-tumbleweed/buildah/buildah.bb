@@ -12,10 +12,10 @@ DESCRIPTION = "Buildah provides a command line tool which can be used to: \
 - Delete a working container or an image"
 LICENSE = "Apache-2.0"
 
-PV = "1.30.0"
+PV = "1.31.0"
 
-RPM_NAME = "buildah-1.30.0-1.2.aarch64.rpm"
-RPM_HASH = "2b1070a60f6b2bbb6795085d767e5bcf0db0c7c821d596ba4e838f79367ee35c0452199ea680595530c0fb7f1f2e155df175910b0e621117d328e78d81c9cfca"
+RPM_NAME = "buildah-1.31.0-1.1.aarch64.rpm"
+RPM_HASH = "03fd8a8da0f24137865757161b9457bce794cdd1f894e26bf64e3a0a3e2536f4a0c3c50db94a8de6af8e12016d995fcbaf01b10236899fd22a3deb9e74b5f7ea"
 
 RPROVIDES:${PN} += "buildah"
 
@@ -24,7 +24,6 @@ libc.so.6 \
 libcontainers-common \
 libcontainers-image \
 libcontainers-storage \
-libdevmapper.so.1.03 \
 libgpgme.so.11 \
 libseccomp.so.2 \
 runc \

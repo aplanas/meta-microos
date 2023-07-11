@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "3.4.1"
 
-RPM_NAME = "MyGUI-devel-doc-3.4.1-2.1.noarch.rpm"
-RPM_HASH = "2302068070edda82341566858abad99923b3f3d2ac8790e1769753fa5514e21afb4de1b95a575465af9abbc063241d24a99adc86db20dc689fc2a572f67b8b8e"
+RPM_NAME = "MyGUI-devel-doc-3.4.1-2.2.noarch.rpm"
+RPM_HASH = "63323cfa9c28e2a080be5abfcc7efef08bc318d4e1c139bed98047ff5e22699f985724f220d1f2950ff03c3561df022de692e418c9baaa2bb1361085879fd70a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "MyGUI-devel-doc"

@@ -5,10 +5,10 @@ API guarantees. The packages that build against these have to require \
 the exact Qt version."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libqt5-qtsensors-private-headers-devel-5.15.9+kde0-1.1.noarch.rpm"
-RPM_HASH = "99c122916622bcd93c61a50d029958cce1174aa86c14df1449f6e831670fd17859db0d18b738740f3d785fc438f9829f8127fad2b7bf349e78240f118169541e"
+RPM_NAME = "libqt5-qtsensors-private-headers-devel-5.15.10+kde0-1.1.noarch.rpm"
+RPM_HASH = "8bdcd23a6b571245d1b946ca29b11ca5186e6701ab4b682938bc0736c34db5b959fb113f041195e4ea5ed175e518d5d9ddcf54911b030586f6879967c6809387"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libQt5Sensors-private-headers-devel \

@@ -11,11 +11,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.4"
 
-RPM_NAME = "python310-kiwisolver-1.4.4-2.1.aarch64.rpm"
-RPM_HASH = "6d9a4da899b39dd97a05f9301821e890a978e9b9d34b98883331065773d2b0ec2173e094fe2510fd9e2808e30141f8adc19bb030dcc98758341654fd7529e551"
+RPM_NAME = "python310-kiwisolver-1.4.4-2.3.aarch64.rpm"
+RPM_HASH = "db2e99cb54c995d62bc7132fe6d112eff7960d8636dc9640b0fef6d33b363117bc7a12dd3a186c077aea3aec24c4db397ac8eb4fa8026921117037e013d8771b"
 
-RPROVIDES:${PN} += "python3-kiwisolver \
-python3.10dist-kiwisolver \
+RPROVIDES:${PN} += "python3.10dist-kiwisolver \
 python310-kiwisolver \
 python3dist-kiwisolver"
 

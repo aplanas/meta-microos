@@ -8,10 +8,10 @@ and also with a generic plugin which can be used as a fallback for \
 ConnectionManager-Protocol combinations where no plugin exists."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libktpaccountskcminternal9-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "5a256a1846d9b36368d1174b253e3ed23dbeba1b0f4dbb3b1236dec50bc8531457f34e024b9fe5f78606b70ee415d064bf873b2daa266748e9d0b381c42e6a58"
+RPM_NAME = "libktpaccountskcminternal9-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "f842ebe551617ad018bb08a607bd0c5dfcbf9d9beda8e643526e80baf9fe27d4421ea7bd3fab9587de8d924bf05e2ef2525a4c4f1fc61b8477701c509f75a2da"
 
 RPROVIDES:${PN} += "libktpaccountskcminternal.so.9 \
 libktpaccountskcminternal9"

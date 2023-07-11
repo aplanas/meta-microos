@@ -6,10 +6,10 @@ This package provides the GObject Introspection bindings for the \
 client library."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "22.08.8"
+PV = "23.13.9"
 
-RPM_NAME = "typelib-1_0-AccountsService-1_0-22.08.8-2.4.aarch64.rpm"
-RPM_HASH = "1d5ca6af6004241139b6a11b5b6f136fdefdde7e70cd4f0832ed03a26002f0b1480466d5ef1a729be3aa6c61c7626ca1d03d0888c5fe008fa36fc87d79779368"
+RPM_NAME = "typelib-1_0-AccountsService-1_0-23.13.9-3.1.aarch64.rpm"
+RPM_HASH = "16d71ed72ebb3bb77a0f9c88c6df011aeb0fc7b28ca6a9b89e8b16315ab7f289317500a449a28c89257010436892f72c6dba58eff7a74e973d1002f9e1b48bab"
 
 RPROVIDES:${PN} += "typelib-1-0-AccountsService-1-0 \
 typelib-AccountsService"

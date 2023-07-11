@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.9.12"
 
-RPM_NAME = "libunicap-devel-0.9.12-22.14.aarch64.rpm"
-RPM_HASH = "1b1e86f181f98a0129330578a447e896fc47c59f0ad96a43ed2644a9d93a994f910142089dd141cb5dea193ff0a47f9ace2421b1692548bf2a8b28cff63f2eea"
+RPM_NAME = "libunicap-devel-0.9.12-22.15.aarch64.rpm"
+RPM_HASH = "efbe3599d5c47109752b1f29b704cc0c118869fdd69e9c3d664d371d231b4d025f3ca291f8374261f1c75b9028a387a944a9879261ff5b1d4831d444032424c9"
 
 RPROVIDES:${PN} += "libunicap-devel \
 pkgconfig-libunicap"

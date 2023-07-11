@@ -4,15 +4,15 @@ LICENSE = "MIT"
 
 PV = "2.3.0"
 
-RPM_NAME = "python311-promise-2.3.0-3.3.noarch.rpm"
-RPM_HASH = "c237cabf09910c8050be129a3c9adfb3030c2d294b84485bee8a4da80652e72a7d96390443a8fcc95a0e942219931d65ead8f1a130ad215f256e06e09beeab6e"
+RPM_NAME = "python311-promise-2.3.0-4.3.noarch.rpm"
+RPM_HASH = "48dc7b1e9e090ca7b4c76bfb16d4fb6dadb5c8804529cbcbc771ed62c1a7781fec1ea892c9a5e61858e71b0806b25cc5051ccd7d903a22827f0fb8f7ead431c7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-promise \
+RPROVIDES:${PN} += "python3-promise \
+python3.11dist-promise \
 python311-promise \
 python3dist-promise"
 
-RDEPENDS:${PN} += "python-abi \
-python311-six"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

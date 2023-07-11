@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20230108"
 
-RPM_NAME = "libcdata-devel-20230108-1.2.aarch64.rpm"
-RPM_HASH = "c37c64c33e0f6ac71393111e9604a01c81bd5195dff92a2161ce90131cbc7964c04f402c0b40b8850599b60956057236a5e1bab2544bcdea9c199eb7e1c5eb2a"
+RPM_NAME = "libcdata-devel-20230108-1.3.aarch64.rpm"
+RPM_HASH = "79b1db3a575088c1afa5e28b4e4f474bf0a41d89e26cc6328556338857fcd14cc5a00efe993d8e321c6cca4decadff64f10329828504d83ffd2ac1fd46287292"
 
 RPROVIDES:${PN} += "libcdata-devel \
 pkgconfig-libcdata"

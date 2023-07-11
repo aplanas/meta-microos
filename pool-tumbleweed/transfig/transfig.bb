@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "3.2.8b"
 
-RPM_NAME = "transfig-3.2.8b-4.2.aarch64.rpm"
-RPM_HASH = "08f1e9cb0a73a1fdc7a3f449263f4fad5fd3ae32e6b75e74a6347d7d5f09e956cebf28f162b519ae3c155367097ee75c47774624e5165b86fa71b222c4b22d25"
+RPM_NAME = "transfig-3.2.8b-4.3.aarch64.rpm"
+RPM_HASH = "c94e03d546baad51dd7fbe97402900966725da05c57d63eb308db62a041041a35464825ed09d0ff1d79b5573d3eb8bbec5a483736409fd5e0b3bec774decafd8"
 
 RPROVIDES:${PN} += "fig2dev \
 transfig"

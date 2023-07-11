@@ -7,8 +7,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.1svn64900"
 
-RPM_NAME = "texlive-hep-font-2023.201.1.1svn64900-53.1.noarch.rpm"
-RPM_HASH = "741055391847e843d5089b3cfbd4c189ac8a3226bcf5a313c6612efd35e2c54e017a70cd976b06cd3fd1f7f83dc50e743aed45cbaa1f8c326a4ffe616d9c2164"
+RPM_NAME = "texlive-hep-font-2023.201.1.1svn64900-53.2.noarch.rpm"
+RPM_HASH = "3578bcf59a716e7669212773fefa6c323930c7c42a17557adc38e2419d19f9af37bc97d4e10a99355f278605a253cdc2a3d1d55ae69bccdf1bbf51e6c9321e52"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hep-font.sty \

@@ -4,10 +4,11 @@ LICENSE = "ZPL-2.1"
 
 PV = "6.0.1"
 
-RPM_NAME = "python311-zope.i18nmessageid-6.0.1-1.1.aarch64.rpm"
-RPM_HASH = "7289b4c6ce4ad122b35ee913054d7f9b2ecc33a4a99e2a549eb4a3c01dcb1f1826d879f6d5820b7220c837d1bdd177be2d9eaca000b913504435f822cb465ade"
+RPM_NAME = "python311-zope.i18nmessageid-6.0.1-1.3.aarch64.rpm"
+RPM_HASH = "52fb96111aafd52d0e4cfb2ac35fd12c339ddbec9bbd8dede188b0eeeda9439f7ab6bf6ad67897a3a3dff551da0f5e8e5d81f340c9ab0594b510d28e4429bca1"
 
-RPROVIDES:${PN} += "python3.11dist-zope.i18nmessageid \
+RPROVIDES:${PN} += "python3-zope.i18nmessageid \
+python3.11dist-zope.i18nmessageid \
 python311-zope.i18nmessageid \
 python3dist-zope.i18nmessageid"
 

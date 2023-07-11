@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.2.8"
 
-RPM_NAME = "xed-3.2.8-1.3.aarch64.rpm"
-RPM_HASH = "3aae80fe2042799632a0944ff07840dc6c07c78be8ea8e6b6b53b75d1efea1334b6331eb515c9b02581aa131afc8566e77e04e3bad222a98732678c0cd6ac630"
+RPM_NAME = "xed-3.2.8-1.4.aarch64.rpm"
+RPM_HASH = "b0af2d2697e882e2e9c3f20b625332d2c0b98884b689667f26bc9efc8462da936fa4d3f77602914edf68c5627ed1e2caa5c45ecd85a2995bd9391417a0bf0cd5"
 
 RPROVIDES:${PN} += "libdocinfo.so \
 libfilebrowser.so \

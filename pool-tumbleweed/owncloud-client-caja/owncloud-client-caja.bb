@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides overlay icons to visualize the synchronizat
 in the Caja file manager."
 LICENSE = "GPL-2.0-only & GPL-3.0-only"
 
-PV = "3.2.0"
+PV = "4.1.0"
 
-RPM_NAME = "owncloud-client-caja-3.2.0-2.3.aarch64.rpm"
-RPM_HASH = "97a6147d3cd61af068f60baee5f93b097f490791c9c95951b85b16f4a7e2e78bf4663fe068b6c90b506871e89106a087c69b9f7eb307c816dc4b22e304e57e30"
+RPM_NAME = "owncloud-client-caja-4.1.0-1.1.aarch64.rpm"
+RPM_HASH = "5d9bb1bedbd18dcde0f896b59c2f6977d96ea201ea47e583b4f235f08317740126d8e202f7e8aca0d4e27c4cc8ece6867589b090812b9f938912aba2a8fac949"
 
 RPROVIDES:${PN} += "owncloud-client-caja"
 

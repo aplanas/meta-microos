@@ -2,10 +2,10 @@ SUMMARY = "Translations for package katomic"
 DESCRIPTION = "Provides translations for the 'katomic' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "katomic-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "f7f7d4e1a01fed14bb1643693a74e7cb8220a211ff95d5b6fbdc58ed0bd9015f6f05734c8142552fd78107157be6170683c498e31a8e7ef90c4a19318a0cadfb"
+RPM_NAME = "katomic-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "5a4b79ede30ea5de06c6b03b42c771fcdb6e9f74f8fc5805f3254ccc8d9e548934c8d94b69200625db5408f41ba7a4de5eb4fbf1e8e2c8ef447ae1b4773ca51e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "katomic-lang \

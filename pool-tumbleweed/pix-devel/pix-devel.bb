@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.8.0"
 
-RPM_NAME = "pix-devel-2.8.0-1.11.aarch64.rpm"
-RPM_HASH = "0952203f69d1d103b51e5b409644b53c38b97f0091e881cd176ef2fea6249a1701f8c6f9f5c927446abc31968263b4af40358e8aecd975138e78191dc449564b"
+RPM_NAME = "pix-devel-2.8.0-1.12.aarch64.rpm"
+RPM_HASH = "17e5d7a5dea5892b99b3d6e376e8a19bfb2a3acbdbc58439b9a89d3b7ffeb3819b998453cf4c83dfa1b89af8a235f7c7ddfbaf606295843d8f1e2809c9f4ce92"
 
 RPROVIDES:${PN} += "pix-devel \
 pkgconfig-pix-2.8"

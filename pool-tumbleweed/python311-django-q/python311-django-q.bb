@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "1.3.9"
 
-RPM_NAME = "python311-django-q-1.3.9-3.5.noarch.rpm"
-RPM_HASH = "0f91e80ef5c69fc3574f6e58c1c550de0c35df84fe2296564a4d2c2c19ecdb4f80c7042fb6344d80d015ae2bd6dc2ff18bf7625d630535974f1e84fac0dfaf5f"
+RPM_NAME = "python311-django-q-1.3.9-4.1.noarch.rpm"
+RPM_HASH = "0a43c5e43b899d0104f845954b01ecda3ae09de2ce715e93ab1c781bcef48af9a4eda9ce13cc6759a00d9691b611fa8bbb1e10eb4a53b9fbcac5b31cb4bc44dd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-django-q \
+RPROVIDES:${PN} += "python3-django-q \
+python3.11dist-django-q \
 python311-django-q \
 python3dist-django-q"
 

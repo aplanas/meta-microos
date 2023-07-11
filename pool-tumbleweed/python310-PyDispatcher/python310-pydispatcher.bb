@@ -12,12 +12,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0.7"
 
-RPM_NAME = "python310-PyDispatcher-2.0.7-1.1.noarch.rpm"
-RPM_HASH = "c950de0b66a4f2031afc85265c9fc860263f83aca5b9b2512951a2a36ce0e9525448a60cdd8014630f6f42b483d3aadac8a5a30299d8d33b1988e0a5a1712e5f"
+RPM_NAME = "python310-PyDispatcher-2.0.7-1.2.noarch.rpm"
+RPM_HASH = "0469fd822ea9ac79d1a25575af45449f3cdf31f82839a256eb6875d35b469e1ea33cda7134bb1dc5699d750fe872b7b0a4810bd3053c8deabceca3df27e55732"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-PyDispatcher \
-python3.10dist-pydispatcher \
+RPROVIDES:${PN} += "python3.10dist-pydispatcher \
 python310-PyDispatcher \
 python3dist-pydispatcher"
 

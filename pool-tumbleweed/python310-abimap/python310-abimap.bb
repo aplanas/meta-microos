@@ -7,12 +7,11 @@ LICENSE = "MIT"
 
 PV = "0.3.2"
 
-RPM_NAME = "python310-abimap-0.3.2-3.10.noarch.rpm"
-RPM_HASH = "52c94859107b9fbd41256954090c566f61c34a22eb1f8c2b446ea80df438588d8d05e1bc861ebbf47e2d4abdb41b25f62e87ab6aad47bee180969054d6ce8dd6"
+RPM_NAME = "python310-abimap-0.3.2-3.12.noarch.rpm"
+RPM_HASH = "5b22d5a1c6304643897472e0851a3841a0c6bc2d97d2c8db1ed60cdd08a85c63017c1c5ea193bd9dbc020e64b0dcac0b2979abe3bce34d91de7da040cfc62edd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-abimap \
-python3.10dist-abimap \
+RPROVIDES:${PN} += "python3.10dist-abimap \
 python310-abimap \
 python3dist-abimap"
 

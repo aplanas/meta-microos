@@ -13,8 +13,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.1.1"
 
-RPM_NAME = "swig-doc-4.1.1-2.3.noarch.rpm"
-RPM_HASH = "aa6cfda6ad4701f51098944b364d044a4e5df8ac38ec11eed8f71049ca738ce266239d254d619aba849238d68db9e4efb706494430592aa45d09974a4ab2eef4"
+RPM_NAME = "swig-doc-4.1.1-2.4.noarch.rpm"
+RPM_HASH = "a50a4eec9fbc8cecfda9927779647d018b4b7eb9ab2196e2160364f92e8dfb308465fa77e737a9c4ad914b3b07d50f46dab2a7c650d19e6555e3e0cbfe97b13f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "swig-doc"

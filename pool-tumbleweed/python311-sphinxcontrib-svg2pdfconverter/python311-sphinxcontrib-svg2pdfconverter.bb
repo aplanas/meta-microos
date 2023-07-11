@@ -4,11 +4,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.2.2"
 
-RPM_NAME = "python311-sphinxcontrib-svg2pdfconverter-1.2.2-1.1.noarch.rpm"
-RPM_HASH = "fa85f0e8c9ca32b631e3d4464ce34b057280522dfae900fde6179a45087009ddb5d2a7b729693186621aef146d98e04f0974260743e771485e656d007980857b"
+RPM_NAME = "python311-sphinxcontrib-svg2pdfconverter-1.2.2-1.3.noarch.rpm"
+RPM_HASH = "3b53ecf71dca6b80b70075198baebe092405b20ec29c906076cafed0fea32e3cb2e94ca361bd1235eb806d945cda26fab33c287d17a97f3504e2b991bc9a033f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-sphinxcontrib-svg2pdfconverter \
+RPROVIDES:${PN} += "python3-sphinxcontrib-svg2pdfconverter \
+python3.11dist-sphinxcontrib-svg2pdfconverter \
 python311-sphinxcontrib-svg2pdfconverter \
 python3dist-sphinxcontrib-svg2pdfconverter"
 

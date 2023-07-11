@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.5"
 
-RPM_NAME = "libgcab-1_0-0-1.5-1.5.aarch64.rpm"
-RPM_HASH = "e88f41b5bbfd3388d9a18a7be198425ff411225bf2140556389291f24e594ca86b24265be9437206b4fae9caad437e8500a4e330c43b3667ad56810bcb6ae935"
+RPM_NAME = "libgcab-1_0-0-1.5-1.6.aarch64.rpm"
+RPM_HASH = "2e70998f9c8502ba7b0744f52aa7c133b091d946bc4d9b1b8c9736e2f8e34a47ceb18f71ebf3f6eb974daa68b0f4383395afbe4bb708520cab0200e18babdd3b"
 
 RPROVIDES:${PN} += "libgcab-1-0-0 \
 libgcab-1.0.so.0"

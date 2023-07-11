@@ -15,13 +15,11 @@ LICENSE = "MIT"
 
 PV = "0.9.7"
 
-RPM_NAME = "python310-Rtree-0.9.7-1.7.noarch.rpm"
-RPM_HASH = "8f3c58d5a6adc122d781d5fb65631c7ce25ae7c05a572fc93ea5d5514d18160dec1b0af49205cade546a051c052959863be1ce94b417ed29330a205119acefb8"
+RPM_NAME = "python310-Rtree-0.9.7-1.9.noarch.rpm"
+RPM_HASH = "5c90b2af4fe41cff7f50d3dcc15607a0b008f36ad699165286ec0a852ab4fad4ba3200759def6164d84ddb1c282678d3e26c4e65374aa39b7eda151890be64df"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-Rtree \
-python3-rtree \
-python3.10dist-rtree \
+RPROVIDES:${PN} += "python3.10dist-rtree \
 python310-Rtree \
 python310-rtree \
 python3dist-rtree"

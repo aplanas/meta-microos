@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.3"
 
-RPM_NAME = "python39-sphinx-book-theme-0.1.3-1.8.noarch.rpm"
-RPM_HASH = "5c28d9d9accdae1dc1302fd8ad4285fd3a18498a6f909f4081d0f9e0625a49b99164e5253641104c9215b4f062c17666b265bd8c977d47093c6ba891bdba28a8"
+RPM_NAME = "python39-sphinx-book-theme-0.1.3-1.10.noarch.rpm"
+RPM_HASH = "6a4b46cdbe4ecb0ef02aaed3669090ae9038124c44320be30577901d60c32e8ae06caf955cd435e70fa1643279ee4a5b4a4a15f24732cb7d69d8c86ab650d17a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sphinx-book-theme \

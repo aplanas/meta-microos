@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.4.0"
 
-RPM_NAME = "python3-senlinclient-2.4.0-1.5.noarch.rpm"
-RPM_HASH = "17bbf7104b0684ec2dd334ce8944aed5b69906dc7bd672e5613efa1dbe504243c728b872829d3a1c75ecb9cbbb851b6d4c08d5432eea878f55b81e352a8d8e57"
+RPM_NAME = "python3-senlinclient-2.4.0-1.6.noarch.rpm"
+RPM_HASH = "e682c6bbc8f87e3cbd557affaf2ec42e00cdda986c55c5cadb19e510aa02215094a6d5307f4e81a7f8a159b522d498af1f3f08e3820515f18a83541d77b8c806"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-senlinclient \

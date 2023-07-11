@@ -4,13 +4,13 @@ LICENSE = "MIT"
 
 PV = "2.0.30"
 
-RPM_NAME = "ghc-shakespeare-prof-2.0.30-2.3.aarch64.rpm"
-RPM_HASH = "65950145ef82e7334a15380e046c1922653b3a5a8dbf4f5f4bd1ec5f84ec70f84627fb742c2ce873c53ee0b9b2e1461b6469247b1e6b69bf621e725ec3aef33a"
+RPM_NAME = "ghc-shakespeare-prof-2.0.30-2.6.aarch64.rpm"
+RPM_HASH = "0866c6dfebf1fd2549175a89daaf9576a07e8815fcccb8fb5c39b430a48e5c0312c0f4a56d6c9ccd071ceec4b45e36360bf37927e0765edcfd7016581466b7a8"
 
-RPROVIDES:${PN} += "ghc-prof-shakespeare-2.0.30-7fp9544x1BC4UOjjHLrTv0 \
+RPROVIDES:${PN} += "ghc-prof-shakespeare-2.0.30-LXYSf7m1ZbEJtMw9DSE6kj \
 ghc-shakespeare-prof"
 
-RDEPENDS:${PN} += "ghc-prof-aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP \
+RDEPENDS:${PN} += "ghc-prof-aeson-2.1.2.1-HkN6OtqTngQ9De3CKBnfov \
 ghc-prof-base-4.17.1.0 \
 ghc-prof-blaze-html-0.9.1.2-38lyFDueaN76YOL6QIMVAR \
 ghc-prof-blaze-markup-0.8.2.8-1rqnOPcdOmIw0iYwB3Kqc \

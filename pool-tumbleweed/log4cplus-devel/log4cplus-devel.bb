@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.0.8"
 
-RPM_NAME = "log4cplus-devel-2.0.8-1.4.aarch64.rpm"
-RPM_HASH = "dfde4b5ac1c34f4bc89a5786b821e7627533246e4bc72fc6e30d298b45cab8fe7d6f0623ff7eebedce61bdcd9ab4c7760fb3811d3d1f889cf76d5216cac390b8"
+RPM_NAME = "log4cplus-devel-2.0.8-1.5.aarch64.rpm"
+RPM_HASH = "9699e2e3b19ef9919baaf75765a6bc1cfd707464ae4e56c40024e70d52be6c373535b8e278e8860ddd7b300593a05ac61913bd7d17659253361a4966d700cbb7"
 
 RPROVIDES:${PN} += "log4cplus-devel \
 pkgconfig-log4cplus"

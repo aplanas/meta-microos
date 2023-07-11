@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.8.12"
 
-RPM_NAME = "ibus-table-chinese-erbi-1.8.12-1.1.noarch.rpm"
-RPM_HASH = "e829281c33f07f4e723af73c574166fc2f134f03403ac41966e6b0b4781841f47c3510c8f49ff44c445f5e9f1029e7bc19b8604ea736d3cdcc861799f632bfe2"
+RPM_NAME = "ibus-table-chinese-erbi-1.8.12-1.2.noarch.rpm"
+RPM_HASH = "53f649e5f4c0aadbde7adb67ffab36fcdb8fd4b0b1006851b07fe968dac383b67489ffac16376a1f02b3130a592befe66ce0b7bf04c6093f577a40b40b2a327b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ibus-table-chinese-erbi \

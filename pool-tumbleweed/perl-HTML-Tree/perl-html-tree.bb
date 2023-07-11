@@ -35,8 +35,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "5.07"
 
-RPM_NAME = "perl-HTML-Tree-5.07-1.20.noarch.rpm"
-RPM_HASH = "e81be948a94c379d370f05590ff166e7bd1c7f7dbe17955da39830ca9966210ef701c9e07bbaff4c24efa06c0bfcd996891f3736307cee062855141a9d0ec329"
+RPM_NAME = "perl-HTML-Tree-5.07-1.21.noarch.rpm"
+RPM_HASH = "4e4049fd58659e93456dcb48911bc3315798f721c6562ffd2af78f974a6a6b641dad3d433a2384633e97aeb13ddb6d4786396fe1d585887f533e35d80f51d56b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTML--AsSubs \
@@ -48,7 +48,7 @@ perl-HTML--TreeBuilder \
 perl-HTML-Tree"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-HTML--Entities \
 perl-HTML--Parser \
 perl-HTML--Tagset"

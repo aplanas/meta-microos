@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "python310-azure-mgmt-relay-1.1.0-1.8.noarch.rpm"
-RPM_HASH = "9eab16a2036835f0dc47d215794d803dd2d5689da63e88f9bf2ba5fee2cbea51bdba0d355ca5d01fa91b0441401782f7c4d4a1d662c1c90b29f5f18c9b3344df"
+RPM_NAME = "python310-azure-mgmt-relay-1.1.0-1.9.noarch.rpm"
+RPM_HASH = "60a4804547c9a7a34102b73ffdbefdeaa2902ac7f937e743a567b177aab75db4b360e5b3c27bedb3795b03c0c18b4e501b9fe56a6e4f263cf02ce73d2b9dd003"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-relay \
-python3.10dist-azure-mgmt-relay \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-relay \
 python310-azure-mgmt-relay \
 python3dist-azure-mgmt-relay"
 

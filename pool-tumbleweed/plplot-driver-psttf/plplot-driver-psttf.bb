@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "5.15.0"
 
-RPM_NAME = "plplot-driver-psttf-5.15.0-16.2.aarch64.rpm"
-RPM_HASH = "77990709a64c22227e400f89c2b44c22fcd231f16ed09d299ebb18cce0ac0fbd58d1747509c7eff76cc83dea52c11e37a93dea8ade7beb2152829c27dccc0c99"
+RPM_NAME = "plplot-driver-psttf-5.15.0-17.1.aarch64.rpm"
+RPM_HASH = "9eb1bff02941019c4aa8104be8f788c39fff0a1d4b5dc9734a7771d1814cae4f4022be5b7df323365f81703c5055ca79cab2808a29d02bad58fd85006268b91c"
 
 RPROVIDES:${PN} += "plplot-driver-psttf"
 

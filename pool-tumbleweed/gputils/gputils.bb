@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.5.2"
 
-RPM_NAME = "gputils-1.5.2-1.4.aarch64.rpm"
-RPM_HASH = "2bf74cda43109c9b5b52bd386d91df6311f6a830be527646cdf798e9191d9cc129910d9ce5ad3659d8b62ce7897af1892534ca30fa9cf46faa5dcfcae726fddc"
+RPM_NAME = "gputils-1.5.2-1.5.aarch64.rpm"
+RPM_HASH = "62a48b17bc7b714f52113c04972c38febd894c00e36e97dd15c095829a6e1813b7f58df6dafe80d4e0e9c6dc6af5e9ce16724dc08c0aead819d4a703a844e5f9"
 
 RPROVIDES:${PN} += "gputils"
 

@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.0.34"
 
-RPM_NAME = "privoxy-doc-3.0.34-1.3.noarch.rpm"
-RPM_HASH = "49daa10da683553c80b3b4db77ff2eb605c66872537ee3012c93bab4e832088a89616e8f1a800bccfb29100684ade43487473f3861d1ed7db3b96a061e56822a"
+RPM_NAME = "privoxy-doc-3.0.34-1.4.noarch.rpm"
+RPM_HASH = "0c0c4b1ab7846e875cbfc67f8e47f810f7643a56d22324dcb67033fd0eef83881123e25a04702911bf8e6bc8df4a10470019c63bdaa3cf73420d859351eddec5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "privoxy-doc"

@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python39-pyicumessageformat-1.0.0-1.15.noarch.rpm"
-RPM_HASH = "4d07a870299361a0a9a6ab6a0fe53b80623ebd63a4c6ed5bba3eefc39428a768f00866b989641009d53d3ecd0618ef9e2a134322681f64cb2975275d930f4917"
+RPM_NAME = "python39-pyicumessageformat-1.0.0-1.17.noarch.rpm"
+RPM_HASH = "ffb5e848abd453ae16a5ad8de7baaa8466bde786ba7b950ced5b2faec1bb779d9e3ea0ec41fe8f231285bf4a385f2fd360c35b3fc094df03af9fe4466c9f5cc5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyicumessageformat \

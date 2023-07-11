@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.1.2"
 
-RPM_NAME = "mingw32-libmpfr4-3.1.2-2.12.noarch.rpm"
-RPM_HASH = "8cc47e1f6e4c2f86cfadf749fde902af8d0d5508b890c5245b5184cb798df9c1c72003db7c99381a76972e2862bc7131d630d6230560f56a601f8d8bbfcfbf73"
+RPM_NAME = "mingw32-libmpfr4-3.1.2-2.14.noarch.rpm"
+RPM_HASH = "a8e645fa8cc52d5626c3981178164291972eb47e8962ca0982bc6cff6f9b825959a4db2ac260492ced97f0071e7fb69ea2aadee72fb8a74cd917ecdacf1754e7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw32-libmpfr \

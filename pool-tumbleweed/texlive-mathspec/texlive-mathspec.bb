@@ -7,10 +7,10 @@ version is incompatible with earlier versions. The package \
 requires at least version 0.9995 of XeTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2bsvn42773"
+PV = "2023.208.0.0.2bsvn42773"
 
-RPM_NAME = "texlive-mathspec-2023.201.0.0.2bsvn42773-52.1.noarch.rpm"
-RPM_HASH = "87f777bfbc517239b91db16b3bcc12e756275f03d4df0034340bb05bc3b9741954fe6c20dad0259bc6597be3eccef9558908a27de14fb65080fb0dcfa927e6f5"
+RPM_NAME = "texlive-mathspec-2023.208.0.0.2bsvn42773-53.1.noarch.rpm"
+RPM_HASH = "0552dfbb2a6b8169e98eb60396f2a2a15798e0a63dbd3520254a77e3c092956adb09b1e19b08d776711ef30fd88974ac1e9058c3341e2349407a67f28432fd0a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mathspec.sty \

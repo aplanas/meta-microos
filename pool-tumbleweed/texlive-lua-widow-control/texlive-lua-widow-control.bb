@@ -19,10 +19,10 @@ package at the start of your document. To load: Plain LuaTeX: \
 \\usemodule[lua-widow-control] OpTeX: \\load[lua-widow-control]"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.0.0svn65084"
+PV = "2023.208.3.0.0svn65084"
 
-RPM_NAME = "texlive-lua-widow-control-2023.201.3.0.0svn65084-52.1.noarch.rpm"
-RPM_HASH = "3fb7fa0a7821b609742361f51a5d7bd98e5766765731b6d768eb16a814133a99346a20b41806e9ac25c9ebae0a481dbe2020fd5e734e0a84b2aa35c27d5534fe"
+RPM_NAME = "texlive-lua-widow-control-2023.208.3.0.0svn65084-53.1.noarch.rpm"
+RPM_HASH = "49c4d2ae355fb398de5925c50216fd15ae0e43dd3c1d2ff49bd017e1ff5af2096b814db7951deef104e0e8908382ba38811f71ea2cf733045441663f6e348ddc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lua-widow-control-2022-02-22.sty \

@@ -6,8 +6,8 @@ LICENSE = "AGPL-3.0-or-later"
 
 PV = "0.19"
 
-RPM_NAME = "libjbig2dec0-0.19-1.11.aarch64.rpm"
-RPM_HASH = "1fa82b728206e10064759cbf3440ba8dc68afb8cf62de1996d44a231d816987b771ee351ac3de1ab939413b316d4a15a6edee1dc8c0f5e6f4b30f97c1f8d45ba"
+RPM_NAME = "libjbig2dec0-0.19-1.12.aarch64.rpm"
+RPM_HASH = "9645cbe1f39c68a1cb9f306f4401c7e678af0b2ff31ecfe29841a7b8710a7bb6f20fcf97df97530ba24a2cf748ac6587636d43590058a61b29449b2d80bd846b"
 
 RPROVIDES:${PN} += "libjbig2dec.so.0 \
 libjbig2dec0"

@@ -4,10 +4,10 @@ like any other Qt widget, except that it opens an OpenGL display \
 buffer where the OpenGL API can be used to render the contents."
 LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
-PV = "5.15.9+kde154"
+PV = "5.15.10+kde129"
 
-RPM_NAME = "libQt5OpenGL5-5.15.9+kde154-1.2.aarch64.rpm"
-RPM_HASH = "1eb7433f309437f6f6b5066ed21b629c3ee6ce42730a51165b18337cfe6d782375482bcaa4273a822e1a2114e8e7780f93a15020ad9bbdd8f17b859901fce5b8"
+RPM_NAME = "libQt5OpenGL5-5.15.10+kde129-1.1.aarch64.rpm"
+RPM_HASH = "49a41776a29437d43624f037c1e7b1db5ae76001b5c5257a16bcc81e740c708ebd9117c0f7328b7d0930aad80366f8b2d75715b6733b6be0b27c0a6347732f44"
 
 RPROVIDES:${PN} += "libQt5OpenGL.so.5 \
 libQt5OpenGL5"

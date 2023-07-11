@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "7.17"
 
-RPM_NAME = "ipset-devel-7.17-1.2.aarch64.rpm"
-RPM_HASH = "39f854f1fb4e67ade81f52ae8d691af87c8f214fa6f76d1ae4b6dd714fb92a411f2cd88e6f8a786572c83b837bebc58c60740b1425a1c34f97552e05252ec94e"
+RPM_NAME = "ipset-devel-7.17-1.3.aarch64.rpm"
+RPM_HASH = "8114ae7e5835dafb3bc07750339ea283d19e25211bd670726f1741fdec7ad8ab30ad31dce6a5d95cb8b5662be1a8b1bc736b8d56d3db1ec1768f7691610fe981"
 
 RPROVIDES:${PN} += "ipset-devel \
 pkgconfig-libipset"

@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "5.0.1"
 
-RPM_NAME = "python-oslo.concurrency-doc-5.0.1-1.2.noarch.rpm"
-RPM_HASH = "b5e48f6a3db22e5dd049dd17562678513e8e349f69b841df78905f52d5f7b92b8533d32d6630d2a3e29eda363bfe634bb8faa8095b41f1629d7eaa5973bd9fd9"
+RPM_NAME = "python-oslo.concurrency-doc-5.0.1-1.3.noarch.rpm"
+RPM_HASH = "7697872b1a2501b105df62809fbbd415ebce858ab0ff1ebae5715485444507ffeee81578f778c7be07ddb89535576a024ccc2b7a713df2e8f74f1f9371f3335c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-oslo.concurrency-doc"

@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "8.42.3"
 
-RPM_NAME = "framel-devel-8.42.3-1.5.aarch64.rpm"
-RPM_HASH = "7c7442c7df407466f46cd74f5986e56d4a0944ec7dc61c190847029f8b0e653572f385d8538a53b3fecd0e117d597ac1aa0517ff7de6fa1cfd8d7539976d1a1d"
+RPM_NAME = "framel-devel-8.42.3-1.6.aarch64.rpm"
+RPM_HASH = "d0e5824a10f92f26c6e3f8847d76c8584dc2fed03c9840f6ee8fc7aa7a30cc8c8f13113963cde80cdcef0966a4863b6463fc275ca004b3d5d8128c1ae54031b7"
 
 RPROVIDES:${PN} += "framel-devel \
 pkgconfig-framel"

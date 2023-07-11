@@ -7,12 +7,11 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "2.7.0"
 
-RPM_NAME = "python310-CairoSVG-2.7.0-1.1.noarch.rpm"
-RPM_HASH = "3c141ddf0038fff44cc34199599d20eb5832d0adfeeb3973da49c120ac6335ffa114d0252f261649c9590764c889bf65f3db0a7627221a3bab2b55c5a57ef113"
+RPM_NAME = "python310-CairoSVG-2.7.0-1.2.noarch.rpm"
+RPM_HASH = "2c465c10e3c96df282afbca021e0ee2c18fcbc523cf5d5169e60272a1bd16230f7a366b4742d711167c5e10a0b266fa77bcc2a52440b360e4dafca40a69362f2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-CairoSVG \
-python3.10dist-cairosvg \
+RPROVIDES:${PN} += "python3.10dist-cairosvg \
 python310-CairoSVG \
 python3dist-cairosvg"
 

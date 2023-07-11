@@ -4,14 +4,13 @@ DESCRIPTION = "This is the Microsoft Azure Cognitive Services Anomaly Detector C
 This package has been tested with Python 2.7, 3.5, 3.6, 3.7 and 3.8."
 LICENSE = "MIT"
 
-PV = "3.0.0b5"
+PV = "3.0.0b6"
 
-RPM_NAME = "python310-azure-ai-anomalydetector-3.0.0b5-1.3.noarch.rpm"
-RPM_HASH = "8d5532a611a85ea06f8fdce621371e9f0f46643b72ecc1b8d27ac31f58e9e9d75c36984a9c4173a74b784ea0f5dc18edebf6e2970b81de381dda749ea37802e5"
+RPM_NAME = "python310-azure-ai-anomalydetector-3.0.0b6-1.1.noarch.rpm"
+RPM_HASH = "fdb2c90537e6813b1612076e58b3e82a29133e4213d49003bd70b1c923de64fe8c8a0682950f24f3d41c35bcb2984b7fc1059420bb2e302c49451267c2dafd8e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-ai-anomalydetector \
-python3.10dist-azure-ai-anomalydetector \
+RPROVIDES:${PN} += "python3.10dist-azure-ai-anomalydetector \
 python310-azure-ai-anomalydetector \
 python3dist-azure-ai-anomalydetector"
 
@@ -19,6 +18,6 @@ RDEPENDS:${PN} += "python-abi \
 python310-azure-ai-nspkg \
 python310-azure-common \
 python310-azure-core \
-python310-msrest"
+python310-isodate"
 
 inherit rpm

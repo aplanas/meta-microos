@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0 & GPL-3.0-only"
 
 PV = "2.3.2"
 
-RPM_NAME = "python39-python-daemon-2.3.2-2.1.noarch.rpm"
-RPM_HASH = "b7227abd02e802c1e88e276dd6465be3ea55667f19f1bb2b6fb981a8f40cd1fe03e8c75c8fef1e2d83c4672418b28dddf410d182ef58cd2b52cf4b84b24f70d1"
+RPM_NAME = "python39-python-daemon-2.3.2-2.3.noarch.rpm"
+RPM_HASH = "0b6c05a7d8aff5b00aee473ec07e96dd4369850796cfca86801be31d448a704b141b2b30b20e14f7a79948f9707eaf36c2255ed4279dd4b2f6fe9dbabfba7271"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-python-daemon \

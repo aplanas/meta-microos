@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.2.0"
 
-RPM_NAME = "python39-gwyfile-0.2.0-2.9.noarch.rpm"
-RPM_HASH = "02f1923bba1fb6b03156a3665a66dda878fd68b755c52354fcd85530b63849bee92c90b0d06e21fe4f8aeadf7539c8fa19be2440922a343fc74d53159f7ca96d"
+RPM_NAME = "python39-gwyfile-0.2.0-2.11.noarch.rpm"
+RPM_HASH = "afda7c64e2b25cf28b8f484f28b04a8c8ee65d76a359d4299f6f6c3d8706ce55a2108018a32ba6ac69a594d6b42059c35a4934517364a85155267cdaf53a9acd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-gwyfile \

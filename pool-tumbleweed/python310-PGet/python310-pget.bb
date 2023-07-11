@@ -4,12 +4,11 @@ LICENSE = "Apache-2.0"
 
 PV = "0.5.1"
 
-RPM_NAME = "python310-PGet-0.5.1-1.9.noarch.rpm"
-RPM_HASH = "c7afa1230512b1a7d02f0a1d6053a168675b5a48e4b7ba62ae1b4fcc85222dd59eac21a75bd72e674dd85746f104707a65b836ee42a4b1fa2fa80a56986ae816"
+RPM_NAME = "python310-PGet-0.5.1-1.11.noarch.rpm"
+RPM_HASH = "c84c30dc3b52d50ff11d465b4056d1f6083c8eb16fe7bfe9d22d41036af758a53d7b95404562826a434330ad47403f4eb52b839cf48be4ab5bb7b08491d82555"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-PGet \
-python3.10dist-pget \
+RPROVIDES:${PN} += "python3.10dist-pget \
 python310-PGet \
 python3dist-pget"
 

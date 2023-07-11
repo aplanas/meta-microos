@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "gnome-desktop-lang-44.0-1.1.noarch.rpm"
-RPM_HASH = "5e56fa82f0104afff01c344db1c28247ef51627607f11cb12b05a46e6f1bba71fea4a4aa16808eadc63996d98b2a5cda03fd13efd9257a1b6ac3dbd1a37a3e0e"
+RPM_NAME = "gnome-desktop-lang-44.0-1.2.noarch.rpm"
+RPM_HASH = "5ae96a19d5f041c3b18ecabaed70b1f42d0eecb5577fd7010ea746db3abda4aae4f41e8f4d76c6e1c10475706acf20fad43a09f49fc66a92d72e4a68b3aaa604"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-desktop-lang \

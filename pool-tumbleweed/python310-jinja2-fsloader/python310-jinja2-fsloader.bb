@@ -7,12 +7,11 @@ LICENSE = "MIT"
 
 PV = "0.3.0"
 
-RPM_NAME = "python310-jinja2-fsloader-0.3.0-3.6.noarch.rpm"
-RPM_HASH = "9b0706cf5819cacadce59a346b77b67df8bed27a80fdcd0f36dea22a860e4e463eff4bdf9f1b27ed502a278ec82aac66dcc66a9ba041754cd22ec680b54c227b"
+RPM_NAME = "python310-jinja2-fsloader-0.3.0-3.8.noarch.rpm"
+RPM_HASH = "9100ea162c5b8a8e70180aae0d6d1ec123d09b9bcb9eaaac43ecbc569e83cee89fbd115ec0c07c8f2a0bcb31a8bf0213481c28c360c45d0fc5be366e57204dc3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-jinja2-fsloader \
-python3.10dist-jinja2-fsloader \
+RPROVIDES:${PN} += "python3.10dist-jinja2-fsloader \
 python310-jinja2-fsloader \
 python3dist-jinja2-fsloader"
 

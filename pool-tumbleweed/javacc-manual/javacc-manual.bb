@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "7.0.11"
 
-RPM_NAME = "javacc-manual-7.0.11-1.5.noarch.rpm"
-RPM_HASH = "9240e147750c202680c775b6479dd89c4caf381cf87a1253805ecb34a90d8f58a87a9cfaf4faae63c9682af0efe4d8c5a341b9863f3645f768993fcc56932020"
+RPM_NAME = "javacc-manual-7.0.11-1.6.noarch.rpm"
+RPM_HASH = "507a989fd3a9da8c9a10fbfa1580bbc1666c9da4ce7ba53ff067d0b721e3189bc530dcba52f83dcdf08ffdc88fb005536cbcd63fd9aa3026204a214c336756c3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "javacc-manual"

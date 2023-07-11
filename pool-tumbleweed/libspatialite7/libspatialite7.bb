@@ -5,8 +5,8 @@ LICENSE = "MPL-1.1"
 
 PV = "5.0.1"
 
-RPM_NAME = "libspatialite7-5.0.1-2.10.aarch64.rpm"
-RPM_HASH = "948ca1ef4d6ab966d967f391b80b8dc647ba546da049aae0f81a6dc2134aea643833da87e08d5db553a9d37de2e0c91c2ddb0d39841041c6370ff0573caf8b33"
+RPM_NAME = "libspatialite7-5.0.1-2.11.aarch64.rpm"
+RPM_HASH = "a56256c5b4f8e3e133cea196f3c389ec7ad6e91cc0a87fd60ead99c86d39b01c2511e1d63d213d7e930f0aa92a7fcef15e6d99165817b535a4c557a4e81e0b07"
 
 RPROVIDES:${PN} += "libspatialite.so.7 \
 libspatialite7"

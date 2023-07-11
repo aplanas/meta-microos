@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "1.0.0~b1"
 
-RPM_NAME = "python311-azure-mgmt-networkfunction-1.0.0~b1-1.3.noarch.rpm"
-RPM_HASH = "42cc4b7350c1460faf972fa878f9f55c8a0303008a3be0ce999a9cd8e5733867c76b35c4fcaf801a77f7ced224e0c29c758ac90250d9a82c5be1280f74920f33"
+RPM_NAME = "python311-azure-mgmt-networkfunction-1.0.0~b1-1.4.noarch.rpm"
+RPM_HASH = "f35c1eda9a494ffe09883adb80c856015658b9c53cf7fae7407345c0db6fa00828f5d8b4810f9aba437718d4b1ba995d315e50bf545c10292de351aa0aad3f0a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-networkfunction \
+RPROVIDES:${PN} += "python3-azure-mgmt-networkfunction \
+python3.11dist-azure-mgmt-networkfunction \
 python311-azure-mgmt-networkfunction \
 python3dist-azure-mgmt-networkfunction"
 

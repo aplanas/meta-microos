@@ -5,11 +5,12 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.4.7"
 
-RPM_NAME = "python311-libarchive-0.4.7-3.12.noarch.rpm"
-RPM_HASH = "22734866cf1d620078c45cd5f65ce8cc31f7da6f332e2cb2ebf2ce078ac06c0ee05b9c7617e024d4ec5cd130554771c5f924bf7fc7ac36c0d11e6435b62940ed"
+RPM_NAME = "python311-libarchive-0.4.7-3.14.noarch.rpm"
+RPM_HASH = "3d2fe5895ec723cf80eebdd48905aa075e44c90ed61953deafff428696e66d96e8918f9f17e87a9ba52a67b233b4953bedbbe8ed187e3c60313ee2f93c953dce"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-libarchive \
+RPROVIDES:${PN} += "python3-libarchive \
+python3.11dist-libarchive \
 python311-libarchive \
 python3dist-libarchive"
 

@@ -41,8 +41,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.7.3"
 
-RPM_NAME = "ghc-psqueues-0.2.7.3-2.3.aarch64.rpm"
-RPM_HASH = "752df6be6f2ac48502410cd3b893b239b7ed243841a69adc148c9c1b7ee488fde4eb7af5d94de033ec899a7f54a66f1d0824803f5d7bb9dd4b359aae0a2b35af"
+RPM_NAME = "ghc-psqueues-0.2.7.3-2.6.aarch64.rpm"
+RPM_HASH = "6bffbc1b8530e0bf2a787cd06de8303f39655f777bb9b00609db88073849d48246dfe9acbc47662ef09fbb6f5f903b154498eeae8f1e0cc3bf888adc1ed1b2ac"
 
 RPROVIDES:${PN} += "ghc-psqueues \
 libHSpsqueues-0.2.7.3-F3Vf47seRPn11NfFVgsy6O-ghc9.4.5.so"

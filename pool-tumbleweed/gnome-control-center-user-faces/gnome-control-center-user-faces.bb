@@ -2,10 +2,10 @@ SUMMARY = "Login manager user avatars"
 DESCRIPTION = "This package provides user avatars to be used by display managers"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.2"
+PV = "44.3"
 
-RPM_NAME = "gnome-control-center-user-faces-44.2-1.1.noarch.rpm"
-RPM_HASH = "82452113ac98018d895e85c8a9d077eb1d04162171a569882f9d5904a3a48dc9a2b7b3fe3c79ad3306b7708ca1afd2a6e6695fba99b1b3675a416879678d528e"
+RPM_NAME = "gnome-control-center-user-faces-44.3-1.1.noarch.rpm"
+RPM_HASH = "43946e1343d5cdd4714428610bdd86575257facef1805533903e1afbe326fdbedba143eb43aa8ebe3a06354d667fed9d6458e28b9f9eed56899d1ac819527d09"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-control-center-user-faces"

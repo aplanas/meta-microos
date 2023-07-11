@@ -11,11 +11,10 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "0.4.5"
 
-RPM_NAME = "python310-scikit-sparse-0.4.5-1.12.aarch64.rpm"
-RPM_HASH = "1842ea261941e7a15a46ee80d79ee0929c11404a06928c18e9a3b31b6b8ad75c4733a3eabe490fd642bfd20dfaa120703a3a33e27851aa9d25258cf1a5963762"
+RPM_NAME = "python310-scikit-sparse-0.4.5-1.14.aarch64.rpm"
+RPM_HASH = "9b0388d6206026a19f3528c609405d34264fb6116a55f68cdd8e5f35c7d1aacc1e0967d899dd426b54974791292455c2d0941c2bda08f24085184909d408b688"
 
-RPROVIDES:${PN} += "python3-scikit-sparse \
-python3.10dist-scikit-sparse \
+RPROVIDES:${PN} += "python3.10dist-scikit-sparse \
 python310-scikit-sparse \
 python3dist-scikit-sparse"
 

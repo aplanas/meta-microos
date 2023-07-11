@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "2.3.0"
 
-RPM_NAME = "python39-QtPy-test-2.3.0-1.4.noarch.rpm"
-RPM_HASH = "1385c3c65b6672f74a531fb7291345251e2e8d6a00b99d7793604d2442a40f7a58d9f62a704af3c50b9aa8e40bae4e08b5cd904af04535f585bb98faa188e628"
+RPM_NAME = "python39-QtPy-test-2.3.0-2.3.noarch.rpm"
+RPM_HASH = "f37be306455d67236aafbd7b12c0182922aaf7d0d81a5bb4a86f522a2c83c1953080a65c78ea5fb38cb62e10c8e764ac384ed074e2a963fa23f71ef894c8f688"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-QtPy-test"

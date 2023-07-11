@@ -4,8 +4,8 @@ LICENSE = "CC0-1.0 & GPL-3.0-or-later"
 
 PV = "42.beta+60"
 
-RPM_NAME = "gnome-tweaks-lang-42.beta+60-1.1.noarch.rpm"
-RPM_HASH = "6c755ce9007704720f8c455e8a9c14b86aa9902e2247e8c624652b9b691de39ad2b1f2b1eb8965cf7611981135fe720b905090bb552849cc5ef9f87a71ecc16c"
+RPM_NAME = "gnome-tweaks-lang-42.beta+60-1.2.noarch.rpm"
+RPM_HASH = "9c9abfe530cc601184a48e49a4f7c54f7d0a351f6de164f0d7b11a8296368a4573e396f010b3f17e8bb03d2d26cd32d75f619c8eb2c23124569db547a48d8517"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-tweaks-lang \

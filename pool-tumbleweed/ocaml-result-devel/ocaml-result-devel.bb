@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.5"
 
-RPM_NAME = "ocaml-result-devel-1.5-3.6.aarch64.rpm"
-RPM_HASH = "43472a4749f900a89496648b95d767915c9e21bceb29594e7a9d09dce7d2f90784ea02dc1811b9b92748bdd5c9cfc8e8b348110f7d8025e88573106cb9407b80"
+RPM_NAME = "ocaml-result-devel-1.5-3.7.aarch64.rpm"
+RPM_HASH = "7ac778e426da824c58d9c4b30ea35621fa0bcbb78b6847cba8e25e6b1978abec97d1dc8d1864b35523f0726ba4b47f44af1124ab51ce01f72aca167d1a6ffca3"
 
 RPROVIDES:${PN} += "ocaml-Result \
 ocaml-result-devel \

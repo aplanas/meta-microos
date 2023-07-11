@@ -14,8 +14,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.1.49"
 
-RPM_NAME = "python39-python-debian-0.1.49-1.3.noarch.rpm"
-RPM_HASH = "64ccc079044bc29167f0d893fcd8bf4ad70ab1ccbb6c29940293a61f2188fc47277f3086b6acf2967bbd7f1495a36a3720503bba41605dabb9efe810338508f9"
+RPM_NAME = "python39-python-debian-0.1.49-1.4.noarch.rpm"
+RPM_HASH = "3c55707642046ec01a3e9bab808e36574c0043c50edb8ba75e407cb72d5697d197c551e418f478ced4a263ffbbea71efce9c9e868a0a85170f54938fc2da3c7f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-python-debian \

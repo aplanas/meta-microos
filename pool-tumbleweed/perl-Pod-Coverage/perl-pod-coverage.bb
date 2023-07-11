@@ -29,8 +29,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.23"
 
-RPM_NAME = "perl-Pod-Coverage-0.23-6.11.noarch.rpm"
-RPM_HASH = "f4a51a4ebb9f2fa09d3f9dd159a19027e055653734290ff08a9660b3e6f8944713d7268933046961d3e68195cb7e66f6b217e8e37d02b17d356a8f39c8ac128c"
+RPM_NAME = "perl-Pod-Coverage-0.23-6.12.noarch.rpm"
+RPM_HASH = "e26970bb085056234518ec64bd392102269a11582e8066442bf4460cd3e3e73d98e00a892a89eb37b3d76b8b6ca91eb23da9bff78ea817b459fc30117135897c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Pod--Coverage \
@@ -41,7 +41,7 @@ perl-Pod--Coverage--Overloader \
 perl-Pod-Coverage"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-Devel--Symdump \
 perl-Pod--Find \
 perl-Pod--Parser"

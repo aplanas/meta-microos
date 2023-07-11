@@ -2,10 +2,10 @@ SUMMARY = "ID3 and APE metadata support for Audacious"
 DESCRIPTION = "Library from the Audacious audio player."
 LICENSE = "BSD-2-Clause"
 
-PV = "4.3"
+PV = "4.3.1"
 
-RPM_NAME = "libaudtag3-4.3-1.3.aarch64.rpm"
-RPM_HASH = "5215286b1815145d2998b23752c2413507acb3aa37041a8b7f37a1a26d9d2042ba9ead54b138bd8bc04026ee37dfaad8625d562f7727013c97c5429544f4c7c6"
+RPM_NAME = "libaudtag3-4.3.1-1.1.aarch64.rpm"
+RPM_HASH = "7c441a8c55288271aff395d46bccff2974016062d10d41777aa43620d0829be140af7505added027e207a0681d5575bde3c02963026a82ced572f46a728bb6a6"
 
 RPROVIDES:${PN} += "libaudtag.so.3 \
 libaudtag3"

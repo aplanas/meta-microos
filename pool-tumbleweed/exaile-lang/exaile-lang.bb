@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.1.2"
 
-RPM_NAME = "exaile-lang-4.1.2-1.1.noarch.rpm"
-RPM_HASH = "b9bfd851485d6678857246cfd32ac706028ba3d98c1e72b2d65d4e54bb6ae665f53c80851e8b5272fed2d9b9b80bc87f08f1dde6158ef2363e085fca70c48600"
+RPM_NAME = "exaile-lang-4.1.2-1.2.noarch.rpm"
+RPM_HASH = "72ce41800191357a088edb832ff307733ce5ad6dcb07ab4123d0522cac52beff954075d278c5cda419a063362238e4509142055eec46a81e4ed81645017d7612"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "exaile-lang \

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.109"
 
-RPM_NAME = "perl-Cairo-1.109-1.13.aarch64.rpm"
-RPM_HASH = "aed3856e3d3fc23bc7e2b335d47f28ba7fdab719d6a5c065e8a14ee06ec74b8782f7f31f12fa64baf64e206ca4014b8846caca79810f1a86a4e203c3804cb76f"
+RPM_NAME = "perl-Cairo-1.109-1.14.aarch64.rpm"
+RPM_HASH = "a82cfd31631e1af3d288271c3b072f82a6ae992abaa73552e64d1985f45ab1e63c79a933469cc430efcaaf7aa5a5bb8efc9afea91ade6adf4ba40eacc9b3ff35"
 
 RPROVIDES:${PN} += "perl-Cairo \
 perl-Cairo--Install--Files"
@@ -13,7 +13,7 @@ perl-Cairo--Install--Files"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcairo.so.2 \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-ExtUtils--Depends \
 perl-ExtUtils--PkgConfig"
 

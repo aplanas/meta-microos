@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "0.3.12"
 
-RPM_NAME = "hp-drive-guard-0.3.12-25.9.aarch64.rpm"
-RPM_HASH = "49427681c868f7ee79397279e2ad59d99ff2e81e0e4ca656fca78ac7572c3ccfa55e2c3d5766d6584b19e9d31184a6ce75684b9bdde54d1899636719ffc7fb05"
+RPM_NAME = "hp-drive-guard-0.3.12-25.10.aarch64.rpm"
+RPM_HASH = "5751eea5b0f0d29280fed22a50f44dc49b62868de63f917f52eef2e63126a7d70ebaf360a2caede49c04d3b0872b5bf295caa3651a2ff17657a5825f5c453f31"
 
 RPROVIDES:${PN} += "config-hp-drive-guard \
 hp-drive-guard"

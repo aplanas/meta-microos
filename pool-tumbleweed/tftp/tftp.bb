@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.2"
 
-RPM_NAME = "tftp-5.2-26.3.aarch64.rpm"
-RPM_HASH = "e37c1db5a2f2ffb511285d8726a7ea83f9b410c151c7c6734146345653a4aaeda127cebd8ea6c716af164dbccf6881c2c6aa2282943b0ebbf404d54aaa1295d2"
+RPM_NAME = "tftp-5.2-26.4.aarch64.rpm"
+RPM_HASH = "44be75f6c286c3264fb7bd06e66a084b8ee158bd0be9d3a5cf356d9036f44648f8e4bab3bcf3f2ecce1f137c31478fe27bc9e628bf1afb15f0c328dea1d87143"
 
 RPROVIDES:${PN} += "tftp \
 tftp-client \

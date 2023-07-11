@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the files needed to compile programs that u
 fluidsynth library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.3.1"
+PV = "2.3.3"
 
-RPM_NAME = "fluidsynth-devel-2.3.1-2.3.aarch64.rpm"
-RPM_HASH = "cef93b3d8b9e67bb3117221ecfbdbd4bd8921cfac6f95dfce4b5ef5b891c3fab40933fd8cd076ee4ba19f03ade1819ca6115dfff819681929e33528e72af7a0c"
+RPM_NAME = "fluidsynth-devel-2.3.3-1.1.aarch64.rpm"
+RPM_HASH = "62b6b2fa3b2a97e9e74744ae3e972754c355089b7057214865e654d2c8e4960b66304edd2734fed04c5c4e0dffdd190341bf48726a12fb6d014c8d28c9eb0276"
 
 RPROVIDES:${PN} += "cmake-FluidSynth \
 fluidsynth-devel \

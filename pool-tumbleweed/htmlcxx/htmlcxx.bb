@@ -11,8 +11,8 @@ LICENSE = "LGPL-2.0-only & Apache-2.0"
 
 PV = "0.87"
 
-RPM_NAME = "htmlcxx-0.87-2.8.aarch64.rpm"
-RPM_HASH = "e7de0d26efaeecff6cb5b2f7d4abada89e7b8da8e6809f8cb33785df0361eb5b8e88dd0d439d14d643d41c2bfb7f655eb3dd545dd823e32052d87b5b5fa13305"
+RPM_NAME = "htmlcxx-0.87-2.9.aarch64.rpm"
+RPM_HASH = "71f4372eca3379c02dc3f3108dc2f67060a0895319374288969ccade49f74c1a9d5cac55c164a3072b4d064f5639376d274a78ba1b964fee5ed8c81ce0810442"
 
 RPROVIDES:${PN} += "htmlcxx \
 libcss-parser-pp.so.0 \

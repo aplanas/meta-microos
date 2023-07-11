@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
 PV = "1.0.6"
 
-RPM_NAME = "spacefm-1.0.6-3.13.aarch64.rpm"
-RPM_HASH = "bb43e8084d4ae9ee60f57eaae1e11a5db2fb27b337026c0c148f7c2b16d00adf70b4ee7ebf1ef55c78b99dc536433e45e28e3edcda5dbfb275ccdb62e7d8ccbf"
+RPM_NAME = "spacefm-1.0.6-3.14.aarch64.rpm"
+RPM_HASH = "91527ec5e458ba18ed68a9ec65d956317148370d5925523a16954ab0368536281c954eac08f48ad1b552e10e17cbf590f2891b853c99b4cfd29d6c9d16c39933"
 
 RPROVIDES:${PN} += "config-spacefm \
 spacefm"

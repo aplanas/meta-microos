@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.19.0"
 
-RPM_NAME = "python39-glean-1.19.0-1.9.noarch.rpm"
-RPM_HASH = "aa3ca671d34093adfb9e0091620257b331e710347e72eebf1881750d0689b4c7769ae3a52e2223103fb363077a534ede6e8af1fcd06691c2b873f6fee3bef791"
+RPM_NAME = "python39-glean-1.19.0-1.10.noarch.rpm"
+RPM_HASH = "ca630bcde337e5d33ad830c0ed7c33d26a8ea32d1ba9b0797d15455bb8922409ee4bf427e20ceacf05d95cb641e7563977a84c8ff0685e2bfaad271b71ff2906"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-glean \

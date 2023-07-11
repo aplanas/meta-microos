@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later & SUSE-Public-Domain"
 
 PV = "0.3.2"
 
-RPM_NAME = "sdl-asylum-0.3.2-3.19.aarch64.rpm"
-RPM_HASH = "ddf499ce7c516e50686b806185dc4e38cb2a201e1f896e45298281181d5b3e0d82423de6ba3a641e7a59c85ecdb5ad05732df03abf9b041190ac2d6732ce25f9"
+RPM_NAME = "sdl-asylum-0.3.2-3.20.aarch64.rpm"
+RPM_HASH = "a06cf60332dad44f5ab5198342ebac4c81f998c65127d0fda8946597eb94a5c626490bd89edcf68b47d54f32c5f466496c28f4d4de6bae0f28902e1dce0e299d"
 
 RPROVIDES:${PN} += "config-sdl-asylum \
 sdl-asylum"

@@ -13,13 +13,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.9.0"
 
-RPM_NAME = "ShellCheck-0.9.0-2.3.aarch64.rpm"
-RPM_HASH = "8eb3f3d002c9e2fa75bf9fa6434e747c44833797aae47eb9df3ce02b82ced83df591ff5b50282a6b872fbf66f04f90c2f350d2a09372e67412f89a604039a65d"
+RPM_NAME = "ShellCheck-0.9.0-2.6.aarch64.rpm"
+RPM_HASH = "0707cafab87b9ac25f5f2b1a68dd6855c16ac1785b29e87a7e567c17ba962cffd0b5db4f8893e35d5de6679a6fd9eb59218e112aea90b0308988e29942b9820b"
 
 RPROVIDES:${PN} += "ShellCheck"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libatomic.so.1 \
 libc.so.6 \
 libffi.so.8 \
 libgmp.so.10 \

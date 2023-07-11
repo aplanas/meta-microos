@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
 PV = "2.3.1"
 
-RPM_NAME = "monitoring-plugins-pgsql-2.3.1-9.4.aarch64.rpm"
-RPM_HASH = "60d07b4ec6ca3218a4b94d7d149b4691b77ff335295fdad6512c7489d05c26694973697f60e04392417353eecf20a37438973cf9e1af45735324f99a0be59635"
+RPM_NAME = "monitoring-plugins-pgsql-2.3.1-9.5.aarch64.rpm"
+RPM_HASH = "72bb8f86be28e4f459a6909a8465a1b553d808a86a6e5bb17c5ed36717b5d65f1cd2f24bf1c7cf201df23f090601e14769b974b39262ee176d31796f0f5968be"
 
 RPROVIDES:${PN} += "monitoring-plugins-pgsql \
 nagios-plugins-pgsql"

@@ -6,11 +6,10 @@ LICENSE = "SUSE-GPL-2.0-with-FLOSS-exception | GPL-3.0-only | NonFree"
 
 PV = "5.15.9"
 
-RPM_NAME = "python310-qt5-remoteobjects-5.15.9-1.4.aarch64.rpm"
-RPM_HASH = "4a16e83087a2f3375a38429ac85f05dea193cf90fba2f1b3103753539636daad25260012f528c8f40e4b5abb3fa607717269c4d42b7e0a115357240b4fc5209b"
+RPM_NAME = "python310-qt5-remoteobjects-5.15.9-3.1.aarch64.rpm"
+RPM_HASH = "79195a818964fdc1cd78d247c2473be1bb33633e514765a61e0728023ce232ec62c714d2c453d2d3e35b45e1f03c9369a9b06c0b149a5027610d6bc9ba6f3aad"
 
-RPROVIDES:${PN} += "python3-qt5-remoteobjects \
-python310-qt5-remoteobjects"
+RPROVIDES:${PN} += "python310-qt5-remoteobjects"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libQt5Core.so.5 \

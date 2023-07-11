@@ -7,12 +7,11 @@ LICENSE = "MIT"
 
 PV = "0.4.0"
 
-RPM_NAME = "python310-sshtunnel-0.4.0-2.6.noarch.rpm"
-RPM_HASH = "4333cc4794f4ade6e3a82b21a86d2050538d7a6e74cb4c507e3d6b5a99e8dd6f219ba9de5bc7202d5075df772302f0deaff2629c51ac4be73fe26404d066b172"
+RPM_NAME = "python310-sshtunnel-0.4.0-2.8.noarch.rpm"
+RPM_HASH = "9b1c5ba1a40eb853bc52704033a737220c467177566d50ce22b2f16d89023696160f68fc4942e4631da591112b5c2c998e98101a1a3615df2dfd1d5d226a05cf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-sshtunnel \
-python3.10dist-sshtunnel \
+RPROVIDES:${PN} += "python3.10dist-sshtunnel \
 python310-sshtunnel \
 python3dist-sshtunnel"
 

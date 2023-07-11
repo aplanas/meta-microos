@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.12.1"
 
-RPM_NAME = "hello-2.12.1-1.3.aarch64.rpm"
-RPM_HASH = "4343aa58fc9afe5e7eec57d1218f451f38ba0ab0b1e0679c6c959cb08757dc9bd8878a197f0e23008562231421a3b0b5e94a10cdefc8048bee36c7f2085bb209"
+RPM_NAME = "hello-2.12.1-1.4.aarch64.rpm"
+RPM_HASH = "ed9fd14e1794c98401bcfdda3820c519f74ec864a213c24a706111fcf35789f9b4096579a3c4578e09de512b426ce101c99e4a0215ea1b6b1c4aef3f9b54110c"
 
 RPROVIDES:${PN} += "hello \
 mailreader"

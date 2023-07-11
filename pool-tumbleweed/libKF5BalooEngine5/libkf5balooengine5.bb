@@ -3,10 +3,10 @@ DESCRIPTION = "Baloo is a framework for searching and managing metadata. This \
 package contains Baloo's Engine library."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & LGPL-3.0-only"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "libKF5BalooEngine5-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "cefc15c4e4c3dc1e27b4e97ad732ef5d6d0f096ce65c130d97cd2310ff81f880e0ef2259b41dc1dafc5c96d7a758acee2a2f81060e54d9602bacf86996890d0d"
+RPM_NAME = "libKF5BalooEngine5-5.107.0-1.1.aarch64.rpm"
+RPM_HASH = "d7afd4480aee1cce4b9c1bea7d3a4117c2fd1a592fad8a0c249a1c5e784b1231005e3ff7811712241ea278162db221267fa51c5d4526f41f2b310b776fb152ca"
 
 RPROVIDES:${PN} += "libKF5BalooEngine.so.5 \
 libKF5BalooEngine5"

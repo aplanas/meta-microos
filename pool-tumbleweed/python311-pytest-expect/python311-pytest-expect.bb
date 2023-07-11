@@ -11,11 +11,12 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "python311-pytest-expect-1.1.0-4.1.noarch.rpm"
-RPM_HASH = "9c2362d6f3821d086b030fa650730412cbce4c41e61500030ff49f85dc5696abaeff1d01d1ff219b60da5049fab169db34815531980a3005e03505f9c3f846e0"
+RPM_NAME = "python311-pytest-expect-1.1.0-4.2.noarch.rpm"
+RPM_HASH = "3b0387de0dd4f200bababf420e5b36e26fb9e9748f51205a09456b74cad884098c6bbd813a5b3f4d77d89032bdd09eeea900222018629e4bf755eccd8e3f2592"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pytest-expect \
+RPROVIDES:${PN} += "python3-pytest-expect \
+python3.11dist-pytest-expect \
 python311-pytest-expect \
 python3dist-pytest-expect"
 

@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "4.8.1"
 
-RPM_NAME = "wt-devel-4.8.1-3.6.aarch64.rpm"
-RPM_HASH = "b31c9043118e944e7fda65cae0d6840727807515e66b55bc3c92a7e99e1b195719fa5b6c72306b185c3fbd61a6c8c0a57b74e2ece3cf60553ba9831a3790bf85"
+RPM_NAME = "wt-devel-4.8.1-3.8.aarch64.rpm"
+RPM_HASH = "708c17c456e4e7980edbe231bce5fe6eb45c23514c568c55bd97ed3c00e23c8c8a9b642ba4c5b0f0fdc486da1413ef36189274a455f68c2bdddd3d46564de605"
 
 RPROVIDES:${PN} += "cmake-wt \
 wt-devel"

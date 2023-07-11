@@ -10,11 +10,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.2.0"
 
-RPM_NAME = "python311-snowballstemmer-2.2.0-2.1.noarch.rpm"
-RPM_HASH = "3641f5af9bc84d8a7692f3dc0f42f853edae361a0120e38a1c1d7057472854a3b0eb092ca3672b0dcaabfc238ca100669603ef86a04447dd6da3ab9dd80d5c00"
+RPM_NAME = "python311-snowballstemmer-2.2.0-2.2.noarch.rpm"
+RPM_HASH = "eefdd0f4dd1e83f71dafe114c6c95c52ccd557b6dc14cff2958619700f9c0323aa6fe0789817d460d7cdaf0c660f9deb49b18375ff2dcea8cacc81302ea126b3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-snowballstemmer \
+RPROVIDES:${PN} += "python3-snowballstemmer \
+python3.11dist-snowballstemmer \
 python311-snowballstemmer \
 python3dist-snowballstemmer"
 

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "7.5.0+r278197"
 
-RPM_NAME = "gcc7-fortran-7.5.0+r278197-14.3.aarch64.rpm"
-RPM_HASH = "c2b634e3e67eaeed887ae4382a7786ab22ddd1f2006a2c65b3acfd004caee7e8e8d77cb213ba8e9f1badfb833b0b9fd22d549db4ac5622ba0c60d1089f020520"
+RPM_NAME = "gcc7-fortran-7.5.0+r278197-14.6.aarch64.rpm"
+RPM_HASH = "8864871dd4cfe5c5c6b1c5ce688c2afc0225f22c98fce36612b2814415f9f03af81719404343d5954bb4665e03bea81d7786cf3a958a28f83c50c9a388547882"
 
 RPROVIDES:${PN} += "gcc7-fortran"
 

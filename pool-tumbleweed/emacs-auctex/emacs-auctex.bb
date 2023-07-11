@@ -15,8 +15,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "13.1"
 
-RPM_NAME = "emacs-auctex-13.1-2.1.noarch.rpm"
-RPM_HASH = "0e05eaf54f315fb74ead8779d03f43f77544a22e65191e458c4863cb4a1f3a56ec753ec11697bc9b074e15e9249b930d8e80dec2837201f4457efdf78021d3e4"
+RPM_NAME = "emacs-auctex-13.1-2.3.noarch.rpm"
+RPM_HASH = "14d24d0741c5bf48acac619a8eedf6b296e6c8f254bbb37bfa97b00a66a9ed66e19879267df62a3ff1d12c3cbdd8c547ed4287b07121fd1121da4562d50a543e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "auc-tex \

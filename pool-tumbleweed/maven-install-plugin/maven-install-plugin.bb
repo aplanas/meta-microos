@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.1.1"
 
-RPM_NAME = "maven-install-plugin-3.1.1-1.1.noarch.rpm"
-RPM_HASH = "fdd0ab475ea71e4b943c4ff5af80a6927c96f92d162a583ff7f8de5c358740971dc3ba81260e0923a81e73105ca58aa6a7fe48b04f56cd81b73dc24be5d68fe3"
+RPM_NAME = "maven-install-plugin-3.1.1-1.2.noarch.rpm"
+RPM_HASH = "c7cedb6a1cc1f5a13b018163b205a8c3b0b519514d75dd329dca15a5de89e7940b0ea57338f6e541de769f373641bbd059a3eff2b7a424dc301197b64ac2118a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-install-plugin \

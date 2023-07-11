@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.4.6"
 
-RPM_NAME = "libcorosync_common4-2.4.6-1.3.aarch64.rpm"
-RPM_HASH = "c284f86b50a2f2f731b6c2e0fd2dd8b2aeeae2889e920bec9069c61bb520bbaf7b728952f6235cbbe9ea52490837182dddd3bcd0393e852c1063350801bfb816"
+RPM_NAME = "libcorosync_common4-2.4.6-1.4.aarch64.rpm"
+RPM_HASH = "16ccb62f9d75b0bd17527b4e1167b3c0eef0f89be02cbfd1af1808a724aa76b05f52391261f5cf67aebc1206155e7ccbae5fb41d80c43fc13b0a709f5bad5ff9"
 
 RPROVIDES:${PN} += "libcorosync-common.so.4 \
 libcorosync-common4 \

@@ -2,10 +2,10 @@ SUMMARY = "Common Manageability Programming Interface of the Small Footprint CIM
 DESCRIPTION = "Small Footprint CIM Client Library (sfcc) Runtime Libraries"
 LICENSE = "EPL-1.0"
 
-PV = "2.2.8"
+PV = "2.2.9~rc1"
 
-RPM_NAME = "libcmpisfcc1-2.2.8-1.23.aarch64.rpm"
-RPM_HASH = "484362513663ccc5cea11351834f1a830133f92fc4840b8e179af362d4a538291bcde5f1286d5ad876cb65491ecbbdf341b44f835c043d5df651458b85862690"
+RPM_NAME = "libcmpisfcc1-2.2.9~rc1-1.1.aarch64.rpm"
+RPM_HASH = "5cd42ad4ebe958289c8f70659c9758aa8ff559949a690db3e586a69a8af90998dbbe324a79467d71cb709a6eb5d25dc2a99a2654d986eb19ab9de3720f8082ff"
 
 RPROVIDES:${PN} += "libcmpisfcc.so.1 \
 libcmpisfcc1"

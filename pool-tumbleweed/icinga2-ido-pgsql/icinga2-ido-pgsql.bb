@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.13.7"
 
-RPM_NAME = "icinga2-ido-pgsql-2.13.7-1.4.aarch64.rpm"
-RPM_HASH = "55a94bc93cb5b1b3e78930b018f3d3ee7b2aa1e9ce5785aea16f08c567bd6a5721c80c90c28d482edb0d0172a609b3faac4a2ba50044daba7914a4479bb0afdc"
+RPM_NAME = "icinga2-ido-pgsql-2.13.7-1.5.aarch64.rpm"
+RPM_HASH = "3bc1ec6a5e00bf1363a37985b33603de347bb4dc189adb7ad0b26d262b377d290a1079daee642147729abda1215849f6c9cf468296d0be022654e9b134012636"
 
 RPROVIDES:${PN} += "config-icinga2-ido-pgsql \
 icinga2-ido-pgsql \

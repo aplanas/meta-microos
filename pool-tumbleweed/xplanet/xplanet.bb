@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.3.1"
 
-RPM_NAME = "xplanet-1.3.1-4.1.aarch64.rpm"
-RPM_HASH = "a0e600976f469e73ba430c7c76e339507339edfdf7e1f6a30203ac27f27d1a25f2588d4a5c4be300ab6ba1d862cf88ffff8e9c7aa68d0d8c24bb2c7361982b75"
+RPM_NAME = "xplanet-1.3.1-4.2.aarch64.rpm"
+RPM_HASH = "2bf0589b63ebe1053901d83ee68a98b4cd80292b0e42ce79de52e3e6b99a9d6c7a8cbd4c0083e76a7831400780d61b1535c417f228518cedfd0c6d8ef0f623a0"
 
 RPROVIDES:${PN} += "xplanet"
 

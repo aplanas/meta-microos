@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.23.1"
 
-RPM_NAME = "gnome-pomodoro-lang-0.23.1-1.1.noarch.rpm"
-RPM_HASH = "cd460c21b64b51e79d18456895de689d96ab708f1879224f376d30af26894e746f80ce97ae1cc38ca1252dd44d58d497ccff8d6fe90aef5925f648a786c316c2"
+RPM_NAME = "gnome-pomodoro-lang-0.23.1-1.2.noarch.rpm"
+RPM_HASH = "db8a0d781e472f4d0db6511231cbaa46923d88174e53093986f5d57d3b0a39639cd1979d91156a5b7880919dc5d40e6dbec4bfd135ea00f4f0f0c6ea73198c06"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-pomodoro-lang \

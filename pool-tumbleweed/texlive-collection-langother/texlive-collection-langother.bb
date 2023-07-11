@@ -8,8 +8,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.208.svn59564"
 
-RPM_NAME = "texlive-collection-langother-2023.208.svn59564-58.1.noarch.rpm"
-RPM_HASH = "c419874b0aa1b8a9e4c158924fc36185fd1ae74a42df015444865c94129aea2e8dc5e6eb8d8e3cb65fcd28d60954cda9727037c5d8314c2136beea084e85141a"
+RPM_NAME = "texlive-collection-langother-2023.208.svn59564-60.1.noarch.rpm"
+RPM_HASH = "007b8b6bc01fd6b2f015155b5e6e95e60ad247f677ab3087d935d45bd7ecdc5047a199661b77bdeefd00b514528b36e6542b4dc4b52c564fc2c901210b134310"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-langother"

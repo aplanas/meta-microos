@@ -8,10 +8,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.19"
 
-RPM_NAME = "python311-hdf5storage-0.1.19-1.1.aarch64.rpm"
-RPM_HASH = "5ee3f7d57bbeb320afcdc90052f80dcf40328b8cdff767b3f277af27e4b771f02490d7a261dbe313a953454fa82cbd04f1c0cd12f44e518f2284604a4dab746e"
+RPM_NAME = "python311-hdf5storage-0.1.19-1.3.aarch64.rpm"
+RPM_HASH = "79f6680df43dee9b6aab22b4a3d4e0d10b88a922ed79d18d59fbac14708721980607de824768aba1fc51f9226612f43478b467ec29361e83901f959a4200974f"
 
-RPROVIDES:${PN} += "python3.11dist-hdf5storage \
+RPROVIDES:${PN} += "python3-hdf5storage \
+python3.11dist-hdf5storage \
 python311-hdf5storage \
 python3dist-hdf5storage"
 

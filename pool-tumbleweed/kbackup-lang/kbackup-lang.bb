@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kbackup"
 DESCRIPTION = "Provides translations for the 'kbackup' package."
 LICENSE = "GPL-2.0-only"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kbackup-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "83cf8b42bb0ac802e7357ddb82baefc9f7a23374e51e7754048a9823b147b93215250705887c0fa2ec69f71fc6a4d598171b798b61c3b7f543e770fafbd23dba"
+RPM_NAME = "kbackup-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "0184f08c065138c66df4c8db784afa7f99fe343b85c67fe21848456fd67106518e093979ccc2df8648ed6cabeaefdb407f4eaf77eff7fc95b2392aa6caeee17f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kbackup-lang \

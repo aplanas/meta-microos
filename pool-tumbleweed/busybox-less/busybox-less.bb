@@ -2,10 +2,10 @@ SUMMARY = "Busybox applets replacing less"
 DESCRIPTION = "This package contains the symlinks to replace less with busybox."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.36.0"
+PV = "1.36.1"
 
-RPM_NAME = "busybox-less-1.36.0-26.3.noarch.rpm"
-RPM_HASH = "256ed198f46ab5aceca599f4c42baeef9e10643de53302f75dfb3621918771ecfb8e02ab11d8234d338cffd22d4283b450559ce890e2a747d630a067208612fd"
+RPM_NAME = "busybox-less-1.36.1-27.1.noarch.rpm"
+RPM_HASH = "e8257464dfbc4c9994470332888a33d951e1b5f486b062370d15f3f5da955cde9f91475750e4c95e1f3a8618a5560684b4b59e174b928b5c6f37639e103dee60"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "busybox-less"

@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later & SUSE-Public-Domain & MIT"
 
 PV = "2.7.7"
 
-RPM_NAME = "antlr-manual-2.7.7-122.1.noarch.rpm"
-RPM_HASH = "9289f1e400e3c893f4403b368abbd6f76970846a21c42f020f90a8c217adff45267cb18297f9d3768b8816622f9dc1552cb08fe00edcfe8f65fb6b89ea1bf6a2"
+RPM_NAME = "antlr-manual-2.7.7-122.2.noarch.rpm"
+RPM_HASH = "f9069814b5ff34bce1c69a96eeee32e7a635c04eb3e7edad1b38d1980c01dffc3502a21589f236271747b4b6de6f46bb7e1bdf58ac4b1920b3a433ba0ec8058a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "antlr-manual"

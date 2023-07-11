@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "6.02.02"
 
-RPM_NAME = "libbobcat-devel-6.02.02-2.3.aarch64.rpm"
-RPM_HASH = "8a7cdc86464e6da78fc16937bfa2d70fec42a7982c89b0f5cd8154d5955b3a4f86a596c845c2f6997978d1f27803044752493bc2c54b1cd9fdab8ebc214fdbf6"
+RPM_NAME = "libbobcat-devel-6.02.02-2.4.aarch64.rpm"
+RPM_HASH = "1ccfe6032a7cfbbcd515dba5e3977eeddce6dcb4a95a13d81ed110fced325d0c2dcbb0e31acd7c8c84693d1b2e8dcc1ddba35830a12a935a3b113f8dd922aca9"
 
 RPROVIDES:${PN} += "libbobcat-devel"
 

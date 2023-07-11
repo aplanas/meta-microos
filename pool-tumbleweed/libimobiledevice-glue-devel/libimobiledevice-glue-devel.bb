@@ -3,10 +3,10 @@ DESCRIPTION = "The libimobiledevice-glue-devel package contains libraries and he
 developing applications that use libimobiledevice-glue."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0~git.20210925"
+PV = "1.0.0+git3.20230513"
 
-RPM_NAME = "libimobiledevice-glue-devel-0~git.20210925-1.7.aarch64.rpm"
-RPM_HASH = "dff6fcd572819399895fc8ed3eccf7da13d19cffe4d5e42d665fa4cd8dfda9de0f54f205195bf7d789625b6117e1fc2717d047bef93d54f964ed937a6fd90c43"
+RPM_NAME = "libimobiledevice-glue-devel-1.0.0+git3.20230513-1.1.aarch64.rpm"
+RPM_HASH = "dc4d907b7e5a289410700521952c79dc0e06349e9f6eb85bc8a717989344fb137f729ee6cc9f3af61091ac7910f4262d07b93318fab8dd2b476c40de8ca38aa4"
 
 RPROVIDES:${PN} += "libimobiledevice-glue-devel \
 pkgconfig-libimobiledevice-glue-1.0"

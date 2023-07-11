@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.5.4"
 
-RPM_NAME = "python3-lash-0.5.4-2.11.aarch64.rpm"
-RPM_HASH = "d884f7908125d0f0609773ef063a3533bb45e9b846ca562c1d9efa6eb197032cdc26098e051c5fa3c0049b4333eb86951a68fb33eaca357d6c8618fce86c6143"
+RPM_NAME = "python3-lash-0.5.4-2.12.aarch64.rpm"
+RPM_HASH = "a076c5a40eafbf69789f8d66998eef3e8a1f63e06552d5f21da35736b991b87272294878ca45b9ffd12a07a1c9f16f2e2c8f2d9dd59b0d3da8822e70acfbf684"
 
 RPROVIDES:${PN} += "python3-lash"
 

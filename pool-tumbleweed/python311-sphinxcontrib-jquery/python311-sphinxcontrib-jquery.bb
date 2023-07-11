@@ -4,11 +4,12 @@ LICENSE = "0BSD"
 
 PV = "4.1"
 
-RPM_NAME = "python311-sphinxcontrib-jquery-4.1-1.1.noarch.rpm"
-RPM_HASH = "4b96cd7007b119148873964664d8ac5e2488ba5facd587c2316aa8c413ae947c5d4a8f8f7a371131b3b7860b9be20b58343e0c62558e4efdd63ec0dbda38fab6"
+RPM_NAME = "python311-sphinxcontrib-jquery-4.1-1.3.noarch.rpm"
+RPM_HASH = "86d3c60ed0348aac52adc89ef75538bbfd822fa13fc83ed12185dd453272bf194d181488bde91952012df2b6147d640b9fc0070157b08d5206d4c069553d0811"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-sphinxcontrib-jquery \
+RPROVIDES:${PN} += "python3-sphinxcontrib-jquery \
+python3.11dist-sphinxcontrib-jquery \
 python311-sphinxcontrib-jquery \
 python3dist-sphinxcontrib-jquery"
 

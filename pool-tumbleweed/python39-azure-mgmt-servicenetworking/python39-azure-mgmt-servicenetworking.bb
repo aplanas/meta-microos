@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0~b2"
 
-RPM_NAME = "python39-azure-mgmt-servicenetworking-1.0.0~b2-1.1.noarch.rpm"
-RPM_HASH = "0caa42b1940e24f77c048aa161cb39fad80f5635856c4563c14f9d17c824969478502632aff15aa79354fc0c5a4478ee8f62a19a5430b060f1cf1bcac0c49c55"
+RPM_NAME = "python39-azure-mgmt-servicenetworking-1.0.0~b2-1.2.noarch.rpm"
+RPM_HASH = "fc57d8dc3fbbc6bd396aa0d13adbb5af11239a5825e277a746325c119a9118c2ece58f15a85d0826d5dac22a5e51a1ec2867044941ce28358f0a3d6aff160eef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-servicenetworking \

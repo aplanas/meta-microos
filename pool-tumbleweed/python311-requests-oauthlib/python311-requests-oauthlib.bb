@@ -4,11 +4,12 @@ LICENSE = "ISC"
 
 PV = "1.3.1"
 
-RPM_NAME = "python311-requests-oauthlib-1.3.1-3.1.noarch.rpm"
-RPM_HASH = "a1da42f3b29b1c508cad20137e69526f65372b724a75a01be0f60003bc138a5efd9665545d898bbc6333c6368a030b99ad1ef70a3150e1fe8a684e197285e46f"
+RPM_NAME = "python311-requests-oauthlib-1.3.1-3.3.noarch.rpm"
+RPM_HASH = "bdd35064d14a09db8bac10e61aaf884c643c1547bf69e7769d9998919737104c0d9e421cd73dd68e440416cd2da61d103b6bbee6b4adee7db46794719151b80d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-requests-oauthlib \
+RPROVIDES:${PN} += "python3-requests-oauthlib \
+python3.11dist-requests-oauthlib \
 python311-requests-oauthlib \
 python3dist-requests-oauthlib"
 

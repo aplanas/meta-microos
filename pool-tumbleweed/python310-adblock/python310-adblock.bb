@@ -4,11 +4,10 @@ LICENSE = "Apache-2.0 | MIT"
 
 PV = "0.6.0"
 
-RPM_NAME = "python310-adblock-0.6.0-2.2.aarch64.rpm"
-RPM_HASH = "2f38547d7fcdb5a3503d7b4a15347f12fde1c91e0334c0ebd9bc86b32bfb195cece7ec64f57133239845ab100dd6c0272b2cceb310f42bbe839b559f70d6ef20"
+RPM_NAME = "python310-adblock-0.6.0-2.4.aarch64.rpm"
+RPM_HASH = "e69409e3c6ce6568295a303dfa4009cab852c2a12c14d6499fded1f8ba63d4f4bbfacd713311eb8b82716d6a1f7d2bf9cfbe61471c530734165b87474eeb7837"
 
-RPROVIDES:${PN} += "python3-adblock \
-python3.10dist-adblock \
+RPROVIDES:${PN} += "python3.10dist-adblock \
 python310-adblock \
 python3dist-adblock"
 

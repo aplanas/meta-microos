@@ -5,8 +5,8 @@ LICENSE = "AGPL-3.0-or-later & GPL-2.0-or-later"
 
 PV = "1.8.0"
 
-RPM_NAME = "osmo-sgsn-1.8.0-1.11.aarch64.rpm"
-RPM_HASH = "c7fb306db7e4ff6c7010b750d47f06237319f0fe845e350b3ecb993133144c5e68345f059588aec8b5d5183ff079f591e79e89e0b72fddac569a1b1279edbcc8"
+RPM_NAME = "osmo-sgsn-1.8.0-1.12.aarch64.rpm"
+RPM_HASH = "ddb4191e7b21da5f603674e0b4e22f1a6edac9ebe47860acee923da004341fc6ffb38e2f5fa60c4fee08b148d5c126f444dfb7f84e3eaa3022842dc0cb9e61f4"
 
 RPROVIDES:${PN} += "config-osmo-sgsn \
 osmo-sgsn"

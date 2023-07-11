@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "5.1"
 
-RPM_NAME = "update-test-reboot-needed-5.1-1.17.aarch64.rpm"
-RPM_HASH = "be04223121ea2140e5249ccb0c08886bdfe1fd9b6929cb07b345d6d6bdf975d658d667aa994245c4b6c823fb6214ad2b80052bb88ab22ca606f8d4c4f08602ed"
+RPM_NAME = "update-test-reboot-needed-5.1-1.18.aarch64.rpm"
+RPM_HASH = "0c44cfe7643113c4457245c620fae2bd49d4a01f569fd723acb66c88e5fed1f80ca81b3cd4cde28482504759213788b95a30f41aeaf2e0b990818a742e38c78f"
 
 RPROVIDES:${PN} += "update-test-reboot-needed"
 

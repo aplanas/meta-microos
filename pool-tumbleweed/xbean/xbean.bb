@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0"
 
 PV = "4.20"
 
-RPM_NAME = "xbean-4.20-1.6.noarch.rpm"
-RPM_HASH = "56ae1b4242e66976a981779917e6f4e29ed688b800cbde4bb56193d0c0ac14e5c945d694949e8743768dad6e524e87d4533b3e1d4504a61b8a459840db44d78d"
+RPM_NAME = "xbean-4.20-1.7.noarch.rpm"
+RPM_HASH = "6df29125ce5d18ef59c76ebb2dec8f5f82d3cb19d430129b14085df248caeaad2a91d1eafb0f8c739fafca0198b06e0c58964d001447283230d71c1bfdd2cb42"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.apache.xbean-xbean-asm-util \

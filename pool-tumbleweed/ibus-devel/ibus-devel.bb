@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.5.28"
 
-RPM_NAME = "ibus-devel-1.5.28-2.1.aarch64.rpm"
-RPM_HASH = "2df8293573fe0ac64186819c88a86de2c8e28431701cb987a5d3309c86a463b98d0035b2e5660077f1e51a532799fd84b4aec5ee9fb054bf79acd37b651ff14b"
+RPM_NAME = "ibus-devel-1.5.28-2.2.aarch64.rpm"
+RPM_HASH = "3b05d9c99ef015fbdd1832ae3d19c7cc80d56e2e3aefa3b895dc188aff1685a4fa3953bb10e7ab21316e3728dc087450286325f8af89c541a5584f13a91ed1f8"
 
 RPROVIDES:${PN} += "ibus-devel \
 pkgconfig-ibus-1.0"

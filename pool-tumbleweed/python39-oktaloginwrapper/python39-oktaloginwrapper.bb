@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.2.2"
 
-RPM_NAME = "python39-oktaloginwrapper-0.2.2-2.8.noarch.rpm"
-RPM_HASH = "506d9cf05f498a790356f4e3621f48edae6bd6f9dfae3ceb0aa35bf8fcd6bcde018322117e27125059213897dc5f838b6d59029e6491f5714ac8726c5db4a6bc"
+RPM_NAME = "python39-oktaloginwrapper-0.2.2-2.9.noarch.rpm"
+RPM_HASH = "c92019cb9a4e1fd50d2ff679fa636ee3c35cbefaa65e352fb037de0045526bd4e46eacf1a4b60938e81a2be539a5be5c30a4b61dbe364e8744d67e697e53030a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-oktaloginwrapper \

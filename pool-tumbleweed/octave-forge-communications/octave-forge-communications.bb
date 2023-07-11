@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.2.4"
 
-RPM_NAME = "octave-forge-communications-1.2.4-1.8.aarch64.rpm"
-RPM_HASH = "49cc3134318869dbc067e6da6a4488aadad3f4bff6029db110a0a0f1b39792ed122daeaad6e192f14fb80e2d164b391d757a1961dbe077b8b7f79876f23a4c60"
+RPM_NAME = "octave-forge-communications-1.2.4-1.9.aarch64.rpm"
+RPM_HASH = "b74b9405e4a204b5d2fa3ad7b28b9e0e63dbeb57a4b8bcd5baac2477e07f40c74705b2d4c56ae52cc90dcafb946f5a03ba4bee0a59c9d76c3ab6e5a4e15fff37"
 
 RPROVIDES:${PN} += "octave-forge-communications"
 

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-only & GPL-3.0-only & LGPL-2.1-only"
 
 PV = "4.3.1.p3"
 
-RPM_NAME = "libSingular-4_3_1-4.3.1.p3-1.3.aarch64.rpm"
-RPM_HASH = "43e68cd2c7a6251e4caa2310b47118e4a1c0d675ca62966b491b43302d0b13172b8574c81c1e0ad96837362b274a65e4c7f8520e07020989bf628ad329326952"
+RPM_NAME = "libSingular-4_3_1-4.3.1.p3-1.4.aarch64.rpm"
+RPM_HASH = "a247bb8497c422e72f7bd7c63e4c0b746c5264ece7fc53314c009ceb27d531a2c7276d0b224d0f0c569b950b9d3d49e7b6314233aebb9f20d2d6b58d8bdcf935"
 
 RPROVIDES:${PN} += "libSingular-4-3-1 \
 libSingular-4.3.1.p3.so"

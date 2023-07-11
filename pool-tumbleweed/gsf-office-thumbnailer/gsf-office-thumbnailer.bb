@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.14.50"
 
-RPM_NAME = "gsf-office-thumbnailer-1.14.50-1.5.aarch64.rpm"
-RPM_HASH = "a9f1c3fadeb34a6d24b8a3a796e90b6827cc002d87c9864f3a0a127ca78a8473889a247f8d8a8ccbaa06de10a6056a3130f65eecd272fedd27029cb8a183507d"
+RPM_NAME = "gsf-office-thumbnailer-1.14.50-1.6.aarch64.rpm"
+RPM_HASH = "9e263e8057aecb9ada9a58dc1d131c0f74a38b08a92390da48071b259f97a1fc2398f2fdde2f53f72c9cb0e16a786ea38c1a1d2a13615d688a18e0c17e628bbf"
 
 RPROVIDES:${PN} += "gsf-office-thumbnailer"
 

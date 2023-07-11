@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later) & GPL-2.0-only & GP
 
 PV = "6.5.1"
 
-RPM_NAME = "python3-shiboken6-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "e816016dd69c5425b083d2a48a02fda41b0ea1599bd3e315f14644a3c146ef2af1dd8e150804ca08fecdcb09445f20b2b3b4cf483dbe11f89aa8419bb113fefd"
+RPM_NAME = "python3-shiboken6-devel-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "2d24f363fc6a6c9b0e0f46e8c1c55df6bfd9bfa5d38616b25496bf8cc195db7e1e16234e1f6f968b4241b246d993cf52b33dad304ebb388a6c4b4285c46d3ed4"
 
 RPROVIDES:${PN} += "cmake-Shiboken6 \
 cmake-Shiboken6Tools \

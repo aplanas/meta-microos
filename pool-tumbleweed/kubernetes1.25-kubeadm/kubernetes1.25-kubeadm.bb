@@ -3,10 +3,10 @@ DESCRIPTION = "Manage a cluster of Linux containers as a single system to accele
 kubeadm bootstrapping tool"
 LICENSE = "Apache-2.0"
 
-PV = "1.25.9"
+PV = "1.25.11"
 
-RPM_NAME = "kubernetes1.25-kubeadm-1.25.9-1.2.aarch64.rpm"
-RPM_HASH = "37f8024aa50172ad75419ba5d6e3f65d9574110bada8a633d092f7bb4728407bfbecfdefd2801dc65e9206bc0ec872528e97be2910dda277deb9ae6661de9e8b"
+RPM_NAME = "kubernetes1.25-kubeadm-1.25.11-1.1.aarch64.rpm"
+RPM_HASH = "5fc4279d5a5d17414ca302a592a0f298340ff68ece409305613850d34c3766258cac72329ff52bb790f15940f331d17490e2ac0fa9f9a6217a2c53585d8cb543"
 
 RPROVIDES:${PN} += "kubernetes-kubeadm-provider \
 kubernetes1.25-kubeadm"

@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "2.0.0"
 
-RPM_NAME = "python39-azure-mgmt-scheduler-2.0.0-4.11.noarch.rpm"
-RPM_HASH = "15905e1b2c9ae92e690ef2ce89de1fc82cdf6de19309ae0fcc76811b135dd9a07ddbbaab2e19e4561ff281e7559312a23c09a6f9e1d6a9c3b3f14cbe53fa9de1"
+RPM_NAME = "python39-azure-mgmt-scheduler-2.0.0-4.12.noarch.rpm"
+RPM_HASH = "f15ddd893d3e99b4c77799a6753f3021875686eb64acd0381e87f9bfdbf39739635d0225f0cfdc58fbc1dd5c9eb587a30d159ebecdc4487993ffa6f8ff03944b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-scheduler \

@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1+20160610git1f74ea7"
 
-RPM_NAME = "atinject-1+20160610git1f74ea7-2.6.noarch.rpm"
-RPM_HASH = "d6a54c108b0d96505000a8b80d3ba5fb675916dee4ac5ba8403a69451d7b0be412e2ef452bdc01bc57b868118cb4cd92fc6445a0e8e1230c01e4bc51662047e3"
+RPM_NAME = "atinject-1+20160610git1f74ea7-2.7.noarch.rpm"
+RPM_HASH = "74c9d1990279a769ccc9229d596bb452f6f1c53425bc3b154d7363935d34997b45fac86aaa94eae128bb73c6a2fa681ad4d8b5a75ff94589bdaf5c59156a7aeb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "atinject \

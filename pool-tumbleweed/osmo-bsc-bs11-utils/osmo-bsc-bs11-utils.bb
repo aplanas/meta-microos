@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.8.0"
 
-RPM_NAME = "osmo-bsc-bs11-utils-1.8.0-1.11.aarch64.rpm"
-RPM_HASH = "fe6d24a3d44d9b8e0ddcfd95b089c98930455fd10db1deb670255cd237ba7cc1dca77c54d4054a601d1be88ff9d266ca47ab8cca2149abd23b784599091c1f58"
+RPM_NAME = "osmo-bsc-bs11-utils-1.8.0-1.12.aarch64.rpm"
+RPM_HASH = "fbb4694831284798972b7af1babd1a7a9fafd51e7c78453c4ffbe6d9f4327e252255aca255ef937a676f6d14cf982110ae4165bcb442da1b2df5d83e14bfc9f9"
 
 RPROVIDES:${PN} += "osmo-bsc-bs11-utils"
 

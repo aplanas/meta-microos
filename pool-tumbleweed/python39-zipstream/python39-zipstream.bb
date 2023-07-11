@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.1.4"
 
-RPM_NAME = "python39-zipstream-1.1.4-4.12.noarch.rpm"
-RPM_HASH = "7523e2d38fd66fc8ce9a54433c9be13dafde70ad7c8aacfc458a5fa77bb98fb6306ead89f238d82cc3ba05a56b83141e5afb71089f3a3108fb6bb25565f1b884"
+RPM_NAME = "python39-zipstream-1.1.4-4.14.noarch.rpm"
+RPM_HASH = "1fdda0f4f72f900e1b2a2145cac7542967c5c72ad8d26cebd4ffbd33a09214d11d8acf7f7e6371a820d5603c8323c70d5328032974d0185e611deaa3173e713b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-zipstream \

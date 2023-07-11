@@ -7,10 +7,11 @@ LICENSE = "AGPL-3.0-only"
 
 PV = "1.21.1"
 
-RPM_NAME = "python311-PyMuPDF-1.21.1-2.4.aarch64.rpm"
-RPM_HASH = "1a9f8f2160f38c4215514cc4633a90665162ded6f585877a5b844cb8b55ff65942a783c01d458d2e8702f85d871ecde8d4cedfc1382ca8e347ffc91deb015d26"
+RPM_NAME = "python311-PyMuPDF-1.21.1-2.5.aarch64.rpm"
+RPM_HASH = "119733c18034b6f0275025b7d97e53a7c605ca16678881f1fec63ca48bdafa8d9afea78ef648f0e68b9b32280750a4224ee90ef9517f28c5538446e5798c7b26"
 
 RPROVIDES:${PN} += "bundled-mupdf \
+python3-PyMuPDF \
 python3.11dist-pymupdf \
 python311-PyMuPDF \
 python3dist-pymupdf"

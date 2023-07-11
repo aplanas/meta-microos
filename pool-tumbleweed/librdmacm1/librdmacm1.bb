@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause | GPL-2.0-only"
 
 PV = "45.0"
 
-RPM_NAME = "librdmacm1-45.0-1.1.aarch64.rpm"
-RPM_HASH = "c39518040f66bff23c81e12bd5a2fb9f7123ba8b697211ee58325c19d5dd41afb021d0468c103deff64d569482c9d78650288bb6cd81f6562145783fb313d3fa"
+RPM_NAME = "librdmacm1-45.0-1.2.aarch64.rpm"
+RPM_HASH = "cccf43367ea9ee65b673d4426fd8d576e32353f38caf5e32a6ce04f4d5df0a870a399edf08db614c0a26cfadd113aba167968212412d601cc7edf8e5286ce407"
 
 RPROVIDES:${PN} += "librdmacm \
 librdmacm.so.1 \

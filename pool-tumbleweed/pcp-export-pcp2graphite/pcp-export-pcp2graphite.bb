@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "5.2.5"
 
-RPM_NAME = "pcp-export-pcp2graphite-5.2.5-3.4.aarch64.rpm"
-RPM_HASH = "fee335efbfad4f4245f975fb63b64273b468373c69820b0709d368e6a72aefc0e6071039152bf112173a9b25e6062e943f982faf782461b03e1f9abe9031636d"
+RPM_NAME = "pcp-export-pcp2graphite-5.2.5-3.7.aarch64.rpm"
+RPM_HASH = "ffa18624e901348fc0b6cb0b22304590fda6e41b5eee1033ea104c33fa7b3f9d614addd96fa18dceceba4cea641eabb2c89f14ac65bac005baebb97e54520272"
 
 RPROVIDES:${PN} += "pcp-export-pcp2graphite"
 

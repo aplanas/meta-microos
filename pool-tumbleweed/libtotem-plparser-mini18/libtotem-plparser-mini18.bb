@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
 PV = "3.26.6"
 
-RPM_NAME = "libtotem-plparser-mini18-3.26.6-2.8.aarch64.rpm"
-RPM_HASH = "b1f3b43867d975753e7036deb5f3505d9af8c6050ed3f523fa402dfeffc1ca650a547a5fd888aeaecea6b9509ff251e3b39b614ca6496ad847292d077bcd51dc"
+RPM_NAME = "libtotem-plparser-mini18-3.26.6-2.9.aarch64.rpm"
+RPM_HASH = "ca0805dad1b19d5a94fbe842cc1c263c9e3ea602f78ff9d35f8765a570fe2759a5bd6080996b0710bd7079b028651519ea85fd07cd867a34b1c8f0b9be965770"
 
 RPROVIDES:${PN} += "libtotem-plparser-mini.so.18 \
 libtotem-plparser-mini18"

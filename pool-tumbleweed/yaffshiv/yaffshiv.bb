@@ -11,11 +11,11 @@ LICENSE = "MIT"
 
 PV = "0.1+git.20160105"
 
-RPM_NAME = "yaffshiv-0.1+git.20160105-1.9.noarch.rpm"
-RPM_HASH = "00ffb87148b31223ad7bdeffabd14afac50cf15625b6942638f8452b8e27f364f3cfecf22e05e8495aed5be7af51e89b02be5172a87eb6bc58b021b10413ead9"
+RPM_NAME = "yaffshiv-0.1+git.20160105-1.10.noarch.rpm"
+RPM_HASH = "7e8972e56f3fef34eacde30d64191f86c8569a27b26b1a847cebae1c8ada4574665c602b1eb943f453b09de61d4c337e89e23e111de6c9d8bfb7b963b397a95c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-yaffshiv \
+RPROVIDES:${PN} += "python3.11dist-yaffshiv \
 python3dist-yaffshiv \
 yaffshiv"
 

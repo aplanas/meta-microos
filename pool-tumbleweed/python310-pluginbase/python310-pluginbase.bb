@@ -5,12 +5,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.1"
 
-RPM_NAME = "python310-pluginbase-1.0.1-1.8.noarch.rpm"
-RPM_HASH = "81b190ce609b82612cc288a9f5df12769dfbbbf5995e1f743c6df3388678807e4e5d8f111470696db676411fa6feb50d0b4b4f70c2ac8f8a35359cf5fb451b2e"
+RPM_NAME = "python310-pluginbase-1.0.1-1.10.noarch.rpm"
+RPM_HASH = "c9e7ac160ead9d35c5fe3eb92d718f829f9098987e359c18b6d49dd4990de4f5172cf344b9cb90db2f800f3d5471db5df3eae00cadcf24cc34b52754a35919b1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pluginbase \
-python3.10dist-pluginbase \
+RPROVIDES:${PN} += "python3.10dist-pluginbase \
 python310-pluginbase \
 python3dist-pluginbase"
 

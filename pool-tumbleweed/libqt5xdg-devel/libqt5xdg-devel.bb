@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "3.11.0"
 
-RPM_NAME = "libqt5xdg-devel-3.11.0-1.2.aarch64.rpm"
-RPM_HASH = "e2a08a53932ef4e4554c7ffc622e091ad67981f6ba96f32fceda487f33d3c1fb0c30685074f6ebf2a007be684d57aff750cdd26a3696c004d6a9eaa9b346c8a7"
+RPM_NAME = "libqt5xdg-devel-3.11.0-1.3.aarch64.rpm"
+RPM_HASH = "f5a37b0acd58317002f15dd57cc8547bc39117c5fa2c99dd1e9f8a79c87760b3b465b28a223c8da7177f3e10671850e05470a0f2d27892712e98b8dd013a716e"
 
 RPROVIDES:${PN} += "cmake-qt5xdg \
 libqt5xdg-devel \

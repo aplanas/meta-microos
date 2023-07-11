@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "5.1"
 
-RPM_NAME = "update-test-32bit-pkg-5.1-1.17.aarch64.rpm"
-RPM_HASH = "a3ccbc92732bbb79c194c2d67dd9a3bcaa1f88aa0176fbf7463deb7fdcc926d196236b7b8bf68a373e32fb17c465bad147fe61a588b8f60a55d63bcadbb09ea2"
+RPM_NAME = "update-test-32bit-pkg-5.1-1.18.aarch64.rpm"
+RPM_HASH = "5a050ca8e0934e498a84c2313ee302c4ee4de891f2a4fbb4018df204898c2615fee01a9a0af7b3ffa231300757b1dd6459f25935cb1d20e1ed0645edcd0d8c3a"
 
 RPROVIDES:${PN} += "update-test-32bit-pkg"
 

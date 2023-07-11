@@ -20,14 +20,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.25"
 
-RPM_NAME = "perl-AnyEvent-HTTP-2.25-1.13.noarch.rpm"
-RPM_HASH = "961844ae327f478485d9f6c90962c06707e0002f2dcef133734537f8c130baa8763e259dbea407d1e19ca487bbfc2b63ac695f1a745f449cf31adf33872d0dc7"
+RPM_NAME = "perl-AnyEvent-HTTP-2.25-1.14.noarch.rpm"
+RPM_HASH = "833fa7b038b3ccddddc86b13339523cdc2ee2999c6bd47f1583cbef543dc05e06106a6e807440697db9e9ccafd79c3c6e5571af10825ebca92b37de7ae33f325"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-AnyEvent--HTTP \
 perl-AnyEvent-HTTP"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-AnyEvent \
 perl-common--sense"
 

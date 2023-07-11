@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.1.4"
 
-RPM_NAME = "gnu-regexp-1.1.4-293.13.noarch.rpm"
-RPM_HASH = "69c26231eda7f5717d894dfeee0fcc7d0aede26454076bd392a3c9070a9b1d3a6e33330801d13bd5610dc8c572dfa7822afd86fce6574e359f144755482e0a53"
+RPM_NAME = "gnu-regexp-1.1.4-293.14.noarch.rpm"
+RPM_HASH = "a639e822afc87e83e56aa1bb56d3802071742cde4501edfe631c4756989e087cee13a29f6d3687f6db27b7587d5585440f67d5c56f62ba9cf2010193c8cf61da"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnu-regexp"

@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "9.4.0"
 
-RPM_NAME = "libvirt-daemon-driver-qemu-9.4.0-1.1.aarch64.rpm"
-RPM_HASH = "2574fbbb41483c2f46b234a367840fb2854c7d234c383b9da6d4d298a4da1c237e63c7ab2be453ad5bc58aa6447b8b3f55a89e9f3472070b72c248859b05325e"
+RPM_NAME = "libvirt-daemon-driver-qemu-9.4.0-3.1.aarch64.rpm"
+RPM_HASH = "2f3caf1912f3c2b2a2c06312b78ecfc6827ed8810bf5f49e6369c7fcff78925825325d1dd6e5960d45564acc38afe79ab261f0c4b8fcc80b134760043f71ba1a"
 
 RPROVIDES:${PN} += "config-libvirt-daemon-driver-qemu \
 libvirt-daemon-driver-qemu \

@@ -10,8 +10,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.11svn43505"
 
-RPM_NAME = "texlive-revquantum-2023.201.0.0.11svn43505-53.1.noarch.rpm"
-RPM_HASH = "6361ca41288e22b8ce9a13c553fd5d654c67e89c949543ea5fb08fa5f17e1366530551b556a19260c290901e0f5ae489c2f409f5a98209f709bcef5bfea73691"
+RPM_NAME = "texlive-revquantum-2023.201.0.0.11svn43505-53.2.noarch.rpm"
+RPM_HASH = "694f4a3f67ee7aeec1d7497e51662a3c8bcc6f9ae6620a80c8e4d322c4ae37b98f504e4baa2a43f1404253234a8a4b31e4c4ee85cd52a5d1fd4afb1edbf1855b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-revquantum.sty \

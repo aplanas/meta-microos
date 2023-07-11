@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.0.3"
 
-RPM_NAME = "obs-service-compose_kiwi_description-2.0.3-1.1.noarch.rpm"
-RPM_HASH = "e73ed4303f380902e6384480860ad9e6b90bab542b50f6df3c88b9a7ac23dd8ffad461b37cde4e8b2db13322a326430f162c861682df612b3b3b20fb54262712"
+RPM_NAME = "obs-service-compose_kiwi_description-2.0.3-1.2.noarch.rpm"
+RPM_HASH = "496b1e770aefee234e3a1a4e54ed04385a2839ca1e4e0eef4e5509aa26dfc1837a6ce789895bd8c28c980589b188bfaba4f4a792d97ea5bb5b6f876d304ecd92"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "obs-service-compose-kiwi-description"

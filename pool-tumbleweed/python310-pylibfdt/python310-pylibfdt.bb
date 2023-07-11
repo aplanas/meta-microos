@@ -7,11 +7,10 @@ LICENSE = "BSD-2-Clause & GPL-2.0-only"
 
 PV = "1.6.1"
 
-RPM_NAME = "python310-pylibfdt-1.6.1-1.8.aarch64.rpm"
-RPM_HASH = "c563b42af2084160dea82cc98a4572f046aca994223d4ff71f4a9430c8d0691bd6b56fd17bc13eae952266ab83bb68a4fb7b79a6f3f642726d769b4d83d0b387"
+RPM_NAME = "python310-pylibfdt-1.6.1-1.10.aarch64.rpm"
+RPM_HASH = "f468304c64fa052e348731e769fb7a41dc4c92ac8d9b6bc0fc125d1be4752e1fcc75c95f43971ee55a4d5c3f4d48393241b4839c91458b3d7f890fba5596fca4"
 
-RPROVIDES:${PN} += "python3-pylibfdt \
-python3.10dist-pylibfdt \
+RPROVIDES:${PN} += "python3.10dist-pylibfdt \
 python310-pylibfdt \
 python3dist-pylibfdt"
 

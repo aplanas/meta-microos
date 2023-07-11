@@ -8,8 +8,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.0svn53160"
 
-RPM_NAME = "texlive-xecyrmongolian-2023.201.1.0svn53160-52.1.noarch.rpm"
-RPM_HASH = "db8fdda5159a52b0392b568b2d8165237aa843bf39c8d1b59b941275291c108696ede3f92824a17f2d9147aa6b02900aecbd302df378a20deded93db915b7d08"
+RPM_NAME = "texlive-xecyrmongolian-2023.201.1.0svn53160-52.2.noarch.rpm"
+RPM_HASH = "58b4785760f9928a06d23a46ae511ed8efba9edcebebc3c0e0051e7e161c20c3dafc1d2a18191d58e14ffdadc47087df7ae33f532c92e32c9c21e026b6439345"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xecyrmongolian.sty \

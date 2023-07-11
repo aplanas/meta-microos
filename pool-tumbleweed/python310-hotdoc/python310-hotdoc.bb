@@ -10,12 +10,10 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.15"
 
-RPM_NAME = "python310-hotdoc-0.15-1.2.aarch64.rpm"
-RPM_HASH = "e9190e15eb3329d21178f65b76515f9109079525617338238a68387cc39066e609ef23fd4fe7fc4168e2cf718b248366f25050bbe39915d7dca004837d76919d"
+RPM_NAME = "python310-hotdoc-0.15-1.3.aarch64.rpm"
+RPM_HASH = "1ab95287090b4bcb2269185c35c7563223d7e854a9c826e7f5972f2c9cf61f674b55bb8afa30cb85fac4f1aab4147f1bc1554ffef8c5925b146408877f461658"
 
-RPROVIDES:${PN} += "hotdoc \
-python3-hotdoc \
-python3.10dist-hotdoc \
+RPROVIDES:${PN} += "python3.10dist-hotdoc \
 python310-hotdoc \
 python3dist-hotdoc"
 

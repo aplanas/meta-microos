@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.2.1"
 
-RPM_NAME = "python39-pypi-search-1.2.1-1.9.noarch.rpm"
-RPM_HASH = "c8d230a36bec4d6caede86a8cdee6625d937f9ebc8a67bcde9798e404a7aac6202338c46554d5d67264cb1950cc899378ae4103b523ce7559f44456192a08c99"
+RPM_NAME = "python39-pypi-search-1.2.1-2.1.noarch.rpm"
+RPM_HASH = "f400f01aa8ab6d3621b21a8fba00423a580a29a0e2de42834a9e1c9fb2594345a63c6e2cb5dabb5175ee4e68aade744e78705cf5dada5df54c90934ea23fdf63"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pypi-search \

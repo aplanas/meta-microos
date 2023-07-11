@@ -2,10 +2,10 @@ SUMMARY = "Oxygen style"
 DESCRIPTION = "This package contains the libraries of the Oxygen style."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "oxygen5-style-5.27.5-1.1.aarch64.rpm"
-RPM_HASH = "10055bd562dbce7fcc1b1787bca40b9c72d49811742307123f41ec413d9d57ed0ed2b558333fcb40daa014d758e8af4224192ca2c9250c0b7f77ba91c8595f96"
+RPM_NAME = "oxygen5-style-5.27.6-1.1.aarch64.rpm"
+RPM_HASH = "ee86aad2e46f823b6ba93f6b99e9bfb7eaf5f43fe0192fbf10d0953dd209e2a84b6615d04c11b56ad5978ac746265bdcd88c92d2311ace7327144d55fbf443eb"
 
 RPROVIDES:${PN} += "liboxygenstyle5.so.5 \
 liboxygenstyleconfig5.so.5 \

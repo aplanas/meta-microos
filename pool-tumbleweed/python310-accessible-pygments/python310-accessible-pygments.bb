@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.0.4"
 
-RPM_NAME = "python310-accessible-pygments-0.0.4-1.2.noarch.rpm"
-RPM_HASH = "2b8aa1265f4192c58093fef8a26ffb3d1dcdf52bd85f15838bbd50d1ef54ad06d186bbf353efeb63f6cca6340eac3018107e933def10aca87c0ffcc6a43976c5"
+RPM_NAME = "python310-accessible-pygments-0.0.4-1.4.noarch.rpm"
+RPM_HASH = "b3856b00c936f8bc2207bdf7f597260c70f7fe654b857888b40880580c4c1a60117b20bb161645c9d8f063e7591abf931df517c9f0fb11cb8a83eb63fe0692f5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-accessible-pygments \
-python3.10dist-accessible-pygments \
+RPROVIDES:${PN} += "python3.10dist-accessible-pygments \
 python310-accessible-pygments \
 python3dist-accessible-pygments"
 

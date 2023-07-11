@@ -91,15 +91,15 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.53"
 
-RPM_NAME = "perl-File-Finder-0.53-1.23.noarch.rpm"
-RPM_HASH = "60947df4083a42a000b04b5e462c779bbf6a3c5dff522794b9312e78bc4c4993965236fe1098c7b67e2111b742c9ee36ec8bd5defa714140eaee98872d79959c"
+RPM_NAME = "perl-File-Finder-0.53-1.24.noarch.rpm"
+RPM_HASH = "e1d57a35017d5682ff430e198ab34883751a44bbb90fcf4a723eea8dd1347f91096a4c25874f54c96df94d9c1222118c1a5b232beda93c3668d31e390bf15a57"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-File--Finder \
 perl-File--Finder--Steps \
 perl-File-Finder"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Test--More \
 perl-Text--Glob"
 

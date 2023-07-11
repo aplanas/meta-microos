@@ -9,10 +9,10 @@ Remote code is fetched and cached on first execution, and only \
 updated with the --reload flag."
 LICENSE = "MIT"
 
-PV = "1.34.1"
+PV = "1.34.3"
 
-RPM_NAME = "deno-1.34.1-1.1.aarch64.rpm"
-RPM_HASH = "4c00708a895ef4a9e3d00f51c845963cf5b8ad40f916734ea4fae96547c2270d0d86aa49c5008f98d47546e80dafd55ba03fdd7374fbdec884825f2c8c4122ec"
+RPM_NAME = "deno-1.34.3-2.1.aarch64.rpm"
+RPM_HASH = "0a0feeaa9c5764cfa3075b2f039e0163214ad244a813274ce3afb26d419957260f737c586698ac6cd5d546c258b84449253bdece3930050218d1b84821758e86"
 
 RPROVIDES:${PN} += "bundled-rust-crate-Inflector \
 bundled-rust-crate-adler \
@@ -24,6 +24,10 @@ bundled-rust-crate-ahash \
 bundled-rust-crate-aho-corasick \
 bundled-rust-crate-alloc-no-stdlib \
 bundled-rust-crate-alloc-stdlib \
+bundled-rust-crate-anstream \
+bundled-rust-crate-anstyle \
+bundled-rust-crate-anstyle-parse \
+bundled-rust-crate-anstyle-query \
 bundled-rust-crate-anyhow \
 bundled-rust-crate-arrayvec \
 bundled-rust-crate-asn1-rs \
@@ -59,9 +63,11 @@ bundled-rust-crate-cfg-if \
 bundled-rust-crate-chrono \
 bundled-rust-crate-cipher \
 bundled-rust-crate-clap \
+bundled-rust-crate-clap-builder \
 bundled-rust-crate-clap-complete \
 bundled-rust-crate-clap-complete-fig \
 bundled-rust-crate-clap-lex \
+bundled-rust-crate-colorchoice \
 bundled-rust-crate-console-static-text \
 bundled-rust-crate-const-oid \
 bundled-rust-crate-convert-case \
@@ -256,7 +262,6 @@ bundled-rust-crate-opaque-debug \
 bundled-rust-crate-openssl-probe \
 bundled-rust-crate-ordered-float \
 bundled-rust-crate-os-pipe \
-bundled-rust-crate-os-str-bytes \
 bundled-rust-crate-outref \
 bundled-rust-crate-p224 \
 bundled-rust-crate-p256 \
@@ -408,6 +413,7 @@ bundled-rust-crate-tinyvec \
 bundled-rust-crate-tinyvec-macros \
 bundled-rust-crate-tokio \
 bundled-rust-crate-tokio-macros \
+bundled-rust-crate-tokio-metrics \
 bundled-rust-crate-tokio-rustls \
 bundled-rust-crate-tokio-socks \
 bundled-rust-crate-tokio-stream \

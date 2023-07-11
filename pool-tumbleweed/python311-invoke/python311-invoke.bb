@@ -5,11 +5,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.1.2"
 
-RPM_NAME = "python311-invoke-2.1.2-1.1.noarch.rpm"
-RPM_HASH = "7833afe3040ccc2235233c870e72cc5953bd2fe873c9270fd6b1babf9157096671b453004528820490fcc4d3d1785d73c760104d12f3532b493d7a1cf6c3feb3"
+RPM_NAME = "python311-invoke-2.1.2-1.3.noarch.rpm"
+RPM_HASH = "36079ac8dafdac4f75ccd7bd83d0498e8a7f1b47272ff38acf90d4fc10cccd8b47cc56404c1df137fc93695bfcdd2c2f76c058ff34330875e835336f2ec33788"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-invoke \
+RPROVIDES:${PN} += "python3-invoke \
+python3.11dist-invoke \
 python311-invoke \
 python3dist-invoke"
 

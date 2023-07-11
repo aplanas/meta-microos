@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.7.0"
 
-RPM_NAME = "libopencv_aruco407-4.7.0-1.6.aarch64.rpm"
-RPM_HASH = "8ec7a9547d76463fe9a80c8a143430c1fd736cd2dc4a84be5fca7d0ad3b50d4e30b3d976358ea0109a0c8ea6ed9209e877f387e165cf8ba4e273766251811234"
+RPM_NAME = "libopencv_aruco407-4.7.0-1.8.aarch64.rpm"
+RPM_HASH = "4effc8d34c1498a77f47ca9a0f1a6e9468a90915ca94d7fea29744c6f36b3c3f500e149efe5af9d5c1e725f5d2c8b438c633b7b34dc494890c6f6f8719280e57"
 
 RPROVIDES:${PN} += "libopencv-aruco.so.407 \
 libopencv-aruco407"

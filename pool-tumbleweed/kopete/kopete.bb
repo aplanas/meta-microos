@@ -2,10 +2,10 @@ SUMMARY = "Instant Messenger"
 DESCRIPTION = "Kopete is the KDE instant messenger and supports multiple protocols."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kopete-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "b1240814a8bdaa3e7e5a9fe87e3734c73e546ac9907f4b3738ae4fbc411cbd5582bad3dd810d837eb3e3e71da62801d193254a66b10ba34e91ff835330cd7f5f"
+RPM_NAME = "kopete-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "726dbf3b6eec41d74ec9eee47d6e01155e0a387d245964a8591873baa1fbae3da60951f57c1362cfd4619a0f155db5ee2a4dc89411d3613b78911d81dfc4ed2d"
 
 RPROVIDES:${PN} += "kopete \
 libkopete-oscar.so.1 \

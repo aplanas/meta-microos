@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
 PV = "3.26.6"
 
-RPM_NAME = "typelib-1_0-TotemPlParser-1_0-3.26.6-2.8.aarch64.rpm"
-RPM_HASH = "b1f95e1e3b9634c2dfe96b746b326a8001572b60b94b60dc607a6883dfe4a7d6e4cbb14fe4e40c745dd405b840c6c0634b585e88f7c80bef10b2d16ba5f21b2e"
+RPM_NAME = "typelib-1_0-TotemPlParser-1_0-3.26.6-2.9.aarch64.rpm"
+RPM_HASH = "63e15250476ba5ee3beab9fa54d6ca10aa979d5784b2a3f61073fd2812225d1b86780865e5afc8c3349b6543451e626bc2c35ad1e202a7964058f73747d00efb"
 
 RPROVIDES:${PN} += "typelib-1-0-TotemPlParser-1-0 \
 typelib-TotemPlParser"

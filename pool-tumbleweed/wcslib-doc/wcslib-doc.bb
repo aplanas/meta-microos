@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "7.12"
 
-RPM_NAME = "wcslib-doc-7.12-1.6.noarch.rpm"
-RPM_HASH = "60b543275e34fe866deb1d27db6beaaf1a131233559732294f929b2d2842b711f55b9cd197396f3b64cda85324f1a29dd18b2ef63b22891c049ffccabc69e150"
+RPM_NAME = "wcslib-doc-7.12-1.7.noarch.rpm"
+RPM_HASH = "1f3d08b81def9900ef423fef2e501e0b16efd22e39545f7d6104776a5a9cb2846c6fca5e3076870e86e44e1713b73daa2685ff010b29891f9f3cd7ec90ebb32c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libwcs-doc \

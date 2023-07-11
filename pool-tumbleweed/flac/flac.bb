@@ -7,10 +7,10 @@ its original size, and decompresses to an identical copy of the \
 original audio data."
 LICENSE = "BSD-3-Clause & GPL-2.0-or-later & GFDL-1.2-only"
 
-PV = "1.4.2"
+PV = "1.4.3"
 
-RPM_NAME = "flac-1.4.2-2.3.aarch64.rpm"
-RPM_HASH = "45359c7ed13cd58ed40c228fad91e777fe25dcb4d9934affdb2993d79a515bc177f4e82c492726eb0b88cf55c1b9791db7de0e9bc88bedf0dd37ba51939d9574"
+RPM_NAME = "flac-1.4.3-1.1.aarch64.rpm"
+RPM_HASH = "aff2ec17630eef4139414a94d9680049be1c9c0bc067dc069493f2f87649220b422eae1b0271bdc4c8ebe08f4e6162184294b8e318dee6e4610a57ec0db65485"
 
 RPROVIDES:${PN} += "flac"
 

@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later & BSD-2-Clause"
 
 PV = "2.2.3"
 
-RPM_NAME = "octave-forge-linear-algebra-2.2.3-1.13.noarch.rpm"
-RPM_HASH = "201db73df333a53cde20859e18315f51643416596a2d38a08fc33976ddee5b3fb59d28ed026f92447600c4595747643fc19ae04dc4014964be663a848d10bfbc"
+RPM_NAME = "octave-forge-linear-algebra-2.2.3-1.14.noarch.rpm"
+RPM_HASH = "a556545512a2f0dd6fbc7089b2872475dcc617a71bf668aab01f2ceb8ac5c222310425eb198ba371b45d2f46aa3e3c2ab889c4ab49285dc4016cd5e2609477cb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "octave-forge-linear-algebra"

@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "2.28"
 
-RPM_NAME = "libbd_dm2-2.28-1.4.aarch64.rpm"
-RPM_HASH = "3d616c832b40c9630dba2911a338b80686dd4ec15614fc0d0b7185cb0fe7a55cc8285d37d3cba3e0b1b079b6c8a7763b49c23bc32168f8f8d2d4bbe064016211"
+RPM_NAME = "libbd_dm2-2.28-1.6.aarch64.rpm"
+RPM_HASH = "19cb2880fd834c32ec5905f277b38ceb3aac8117ed398d593130b3d60ab2b5238c9f2fda707911b450dab8ab2ba9e5056abeb853eb40f80abab8dbbab9026a51"
 
 RPROVIDES:${PN} += "libbd-dm.so.2 \
 libbd-dm2 \

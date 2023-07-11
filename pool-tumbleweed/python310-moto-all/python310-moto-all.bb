@@ -5,12 +5,11 @@ LICENSE = "Apache-2.0"
 
 PV = "4.1.0"
 
-RPM_NAME = "python310-moto-all-4.1.0-1.5.noarch.rpm"
-RPM_HASH = "2b636dc055d546b73658d70cedc58715be6ae433d0f5dc1b128a16b083d757b835dfda21cbf54d4b357ad2a1929a0a51359d6cd8b99e207a222eaea7571aedd4"
+RPM_NAME = "python310-moto-all-4.1.0-1.7.noarch.rpm"
+RPM_HASH = "75f3a4abe0472f9e39c93914c00bf94222f398b0ae291c07a646b9c179e5675442c08a8adad684a6a98016f5fa0e33379a3294dc3ac2be10ffc6c6963e5c10b8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-moto-all \
-python310-moto-all"
+RPROVIDES:${PN} += "python310-moto-all"
 
 RDEPENDS:${PN} += "python310-PyYAML \
 python310-aws-xray-sdk \

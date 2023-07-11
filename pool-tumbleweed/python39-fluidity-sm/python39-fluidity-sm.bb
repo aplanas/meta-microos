@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "0.2.0"
 
-RPM_NAME = "python39-fluidity-sm-0.2.0-2.1.noarch.rpm"
-RPM_HASH = "f0cb75db58bf776ebf83c585a16acb2f9da85c8bb5d329bb34b5f6a74f20aa777bbc44e7831347d660e1944ebd1526f184ef373b6abdf051e7feba42ad77947a"
+RPM_NAME = "python39-fluidity-sm-0.2.0-2.2.noarch.rpm"
+RPM_HASH = "e2c9753d0b3ebe98a0ad290432639b7fce79ac07897c263be85a8f9da78ffd0475d3bc44d8fe33d2f0484e118d854ed7610e233308525da9cae7461e00f830dd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-fluidity-sm \

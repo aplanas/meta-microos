@@ -5,14 +5,11 @@ LICENSE = "GPL-3.0-only"
 
 PV = "5.15.6"
 
-RPM_NAME = "python310-qt3d-qt5-devel-5.15.6-1.6.aarch64.rpm"
-RPM_HASH = "6d2dd454bcd8c902328551c9bcde73d974c5a5946a0ac190dd6b170f2396224ef41e022cc3c5657c4319f5e81949ca75e46491adb5491d9896685308f787c26e"
+RPM_NAME = "python310-qt3d-qt5-devel-5.15.6-1.8.aarch64.rpm"
+RPM_HASH = "2d6671b8edad6fcf8a848661b3024b0dbb7df1c187be545f1a0230a9518bc4601db9a60e442a3b3bccb377a1466a30ee1584c217294209c4b525645273a13b8a"
 
 RPROVIDES:${PN} += "python-qt3d-qt5-api \
 python-qt3d-qt5-sip \
-python3-qt3d-qt5-api \
-python3-qt3d-qt5-devel \
-python3-qt3d-qt5-sip \
 python310-qt3d-qt5-api \
 python310-qt3d-qt5-devel \
 python310-qt3d-qt5-sip"

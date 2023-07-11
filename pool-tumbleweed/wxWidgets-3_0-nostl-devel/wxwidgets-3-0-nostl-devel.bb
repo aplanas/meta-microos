@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.0.5.1"
 
-RPM_NAME = "wxWidgets-3_0-nostl-devel-3.0.5.1-4.1.aarch64.rpm"
-RPM_HASH = "bb319ba8eb3183f2608d42239ae375abd07d6176d5d9f9b6b5593583b05a85c3e7ec0003ffae40529ab014a7df4810a755e3656e0c8b1b033ebdb8fdbd218b1c"
+RPM_NAME = "wxWidgets-3_0-nostl-devel-3.0.5.1-4.2.aarch64.rpm"
+RPM_HASH = "e0e975fff63eaa836789b4addfa1e0dbfca573241618e35af37a218aed1d3e5390c4f84770eb441d4e6c80355a38cc3b7bd15dde509306eb052772bf3c5c11fc"
 
 RPROVIDES:${PN} += "wxWidgets-3-0-nostl-devel \
 wxWidgets-any-devel"

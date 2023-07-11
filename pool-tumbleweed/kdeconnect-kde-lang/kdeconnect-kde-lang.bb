@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kdeconnect-kde"
 DESCRIPTION = "Provides translations for the 'kdeconnect-kde' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kdeconnect-kde-lang-23.04.1-2.1.noarch.rpm"
-RPM_HASH = "d33002313c96a459e530f291d296a70846f55afbfc6ed6500eb414ca1c2edf3e6a9f0f58522fc28c1d971e70a13e96a57391299c2f899b5bcd117d162aad06e9"
+RPM_NAME = "kdeconnect-kde-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "ba89e1c90c0b019aabbc430be36e4ae761c779ce3bcc36e48298b79039fa5c7606c3fbceec51d15ba5a516cf2a80cfc80ca28a710120d8bf5db3a8e33c8ff4ea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kdeconnect-kde-lang \

@@ -17,8 +17,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.500"
 
-RPM_NAME = "perl-Net-IDN-Encode-2.500-1.18.aarch64.rpm"
-RPM_HASH = "4f4f9fad091ee5759d78822641b8a1974b615332216b6ae8e0cce55b6235e5276e85029c4181fcfea66f999f0accca7bd0a9ccb000995f43b4d9e2ed841d1741"
+RPM_NAME = "perl-Net-IDN-Encode-2.500-1.19.aarch64.rpm"
+RPM_HASH = "8a611a8b4b72a1d31196a4ea6ffcedaa46dfcec90df6a3b83171b32b53f2bb3319002ec79312bd9c4fd04454604b5816cde6fa62f551343c07e359eacd027458"
 
 RPROVIDES:${PN} += "perl-Net--IDN--Encode \
 perl-Net--IDN--Punycode \
@@ -29,6 +29,6 @@ perl-Net-IDN-Encode"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

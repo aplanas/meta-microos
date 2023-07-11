@@ -4,8 +4,8 @@ LICENSE = "Python-2.0"
 
 PV = "0.7.2"
 
-RPM_NAME = "python39-compileall2-0.7.2-1.4.noarch.rpm"
-RPM_HASH = "2d59494baafc06b8ab3e1e48c7af7a6b255f1dc96826c0d3779fbff316587906a7eb3d64b058cf98d672e9f96a1dbe984b12732dd60937c23495e0bb63328be7"
+RPM_NAME = "python39-compileall2-0.7.2-1.6.noarch.rpm"
+RPM_HASH = "9fab511b1b78493fc103899f16f2a843c04dede2e3e05b68c44de429acc896e34c9bfaa4182bb2b25e3d2955e5664739da70ef95712f9cdc88b51ed53e5f975f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-compileall2 \

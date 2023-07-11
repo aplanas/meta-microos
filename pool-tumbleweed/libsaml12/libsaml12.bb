@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.2.1"
 
-RPM_NAME = "libsaml12-3.2.1-1.11.aarch64.rpm"
-RPM_HASH = "48e42ad8ad3f06773b95346f3e0c361874c4cfbd5e0d23ac7427894feea69ef9bff105a374faa94f4d5492d17357f6d2e29b918903dd956f58990ed47a84119a"
+RPM_NAME = "libsaml12-3.2.1-1.12.aarch64.rpm"
+RPM_HASH = "6e8daa2d8ff61e5cf302edcb3cb18044f82515d6b2046b543a2394de3c4a34c31637dd58cda4881456629b89599aed9a0f83f1bb0c53e379ad449e7e523c5df8"
 
 RPROVIDES:${PN} += "libsaml.so.12 \
 libsaml12 \

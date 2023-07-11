@@ -4,18 +4,18 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.8.9"
 
-RPM_NAME = "ghc-aeson-pretty-devel-0.8.9-4.2.aarch64.rpm"
-RPM_HASH = "56cae3e3359674b5eeb9c0632b3c3a7b8a98daf8ea1352452c00a1aee9100475c6f0f4237a901d7e74e07658b22a00b995b3184bd8cfbf0b469ecedd5b67333c"
+RPM_NAME = "ghc-aeson-pretty-devel-0.8.9-4.3.aarch64.rpm"
+RPM_HASH = "020ad4679d31d525f2d32fa8247d4b981b862f24710c6b327fe1bd7018af14db8e90c1741328d43c4f45b739f030906533a7bcac2d3cdb3bd2947181dc27d8bb"
 
 RPROVIDES:${PN} += "ghc-aeson-pretty-devel \
-ghc-devel-aeson-pretty-0.8.9-LUjG36DF6cc5sU1N5Uw0pr"
+ghc-devel-aeson-pretty-0.8.9-ANiMUyahKok8eMC9BUYvO0"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-aeson-pretty \
 ghc-compiler \
-ghc-devel-aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP \
+ghc-devel-aeson-2.1.2.1-HkN6OtqTngQ9De3CKBnfov \
 ghc-devel-base-4.17.1.0 \
-ghc-devel-base-compat-0.12.2-L1DEOlMQJOdFOKsjHoWYov \
+ghc-devel-base-compat-0.13.0-Cvz3167VMpo6rdOohSlum3 \
 ghc-devel-bytestring-0.11.4.0 \
 ghc-devel-scientific-0.3.7.0-D5F2vql7x79Dy9hx72OES1 \
 ghc-devel-text-2.0.2 \

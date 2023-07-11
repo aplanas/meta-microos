@@ -7,8 +7,8 @@ LICENSE = "ISC"
 
 PV = "0.4.5.0"
 
-RPM_NAME = "ghc-th-abstraction-0.4.5.0-2.3.aarch64.rpm"
-RPM_HASH = "b979f2270d1b57828359818df171a74332902aada2ab2b9d01b121512b911b6c28f1eead4060a220a7040b73e660a4fd699fe510dfa947d8481d51f27bd84060"
+RPM_NAME = "ghc-th-abstraction-0.4.5.0-2.6.aarch64.rpm"
+RPM_HASH = "c91986818716e036cbb6195534fbf0965966c4d8d7c5b082f306e399c52a32898882ef6066baef22186708afad2488ec4f581cf1d4f723dd9338cace03a04214"
 
 RPROVIDES:${PN} += "ghc-th-abstraction \
 libHSth-abstraction-0.4.5.0-8bY5lBPMorfFW3yG6gFNZT-ghc9.4.5.so"

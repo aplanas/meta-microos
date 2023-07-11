@@ -19,11 +19,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.28"
 
-RPM_NAME = "urlwatch-2.28-1.1.noarch.rpm"
-RPM_HASH = "5d5726d4eacc990d7d4459951cf59fd074e5a4307fb713ba286c1055f2d85996f519ea5fe535b02e45cae4ed6e990e9063356b7dd62ab30b7553bf43fa3644d8"
+RPM_NAME = "urlwatch-2.28-1.2.noarch.rpm"
+RPM_HASH = "85ffc7f713fa937bca50c4b1d14193be3a4d267ab0d275df8a6530e639e81155e3f44df4a60d760e27c1e43fad6eb559dea48ee0591c6e297c6455be6d16147c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-urlwatch \
+RPROVIDES:${PN} += "python3.11dist-urlwatch \
 python3dist-urlwatch \
 urlwatch"
 

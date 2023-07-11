@@ -7,11 +7,12 @@ LICENSE = "Apache-2.0"
 
 PV = "2.12.0"
 
-RPM_NAME = "python311-aws-xray-sdk-pymongo-2.12.0-1.1.noarch.rpm"
-RPM_HASH = "dd0d943ab2f5d4e6552e1618c50d33be8d58b7f069cba0ddea18deb827ea136b417d13ac09678b7f9e3e49a94b79559bfc685c6f63a1918a100d861c02d7c5b3"
+RPM_NAME = "python311-aws-xray-sdk-pymongo-2.12.0-2.3.noarch.rpm"
+RPM_HASH = "0c83e971f999c639e357d8054c666dd9413d98947339fe38b47f0c5c6e93d5a20a8f0d90630a6d226e7e7b5db356376cae77007b7dee2ae161a4c93d4182d33e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python311-aws-xray-sdk-pymongo"
+RPROVIDES:${PN} += "python3-aws-xray-sdk-pymongo \
+python311-aws-xray-sdk-pymongo"
 
 RDEPENDS:${PN} += "python-abi \
 python311-aws-xray-sdk \

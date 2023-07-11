@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "2.19"
 
-RPM_NAME = "pam_mount-2.19-2.3.aarch64.rpm"
-RPM_HASH = "da5f95d2ddd5e763244f90bc620905696b6fead2c8848243f36fa241fd68a77d3cb8ab0bd6194a294f0ad78c9a9feae57131b8b598b7127743912ea63441d5c9"
+RPM_NAME = "pam_mount-2.19-2.4.aarch64.rpm"
+RPM_HASH = "92c70d54428be854a31474b18867042bd05c0dcf39e0893262893fb4da7eb5ccd23bdff68e7e2dcd381819e266ad8a3e72079e487d1bd6de39d0b05737283a4c"
 
 RPROVIDES:${PN} += "config-pam-mount \
 pam-mount"

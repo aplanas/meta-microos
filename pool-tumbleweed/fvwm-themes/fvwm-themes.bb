@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "0.7.0"
 
-RPM_NAME = "fvwm-themes-0.7.0-41.11.noarch.rpm"
-RPM_HASH = "d37f9a6989836cf4c8ebfbd2f836fe9d60094571e06160e8d22ae0c2c693b915128f056ef7c4672f842c3ce4190658d5871631d19bea74bd0b4bf71a44655b2a"
+RPM_NAME = "fvwm-themes-0.7.0-41.12.noarch.rpm"
+RPM_HASH = "1d04b24928ef6ece3a4c3b75a550033020e8516b8f9420f2f8bc914587e2f1f378d72bbad3f32829d44184f0060ea20c8eb27d39cb337a5b4daa943ec16675df"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fvwm-themes"

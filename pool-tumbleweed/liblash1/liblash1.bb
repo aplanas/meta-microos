@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.5.4"
 
-RPM_NAME = "liblash1-0.5.4-2.11.aarch64.rpm"
-RPM_HASH = "a44f8bd543e38ae5a29673b33ab0f09b8a6d467e6256ee5fa03061cd1d6b70a92e9d3a5f390c58ddfafeb26af293326f7fa9d4c7dadf1a9151e22ce1565e0edc"
+RPM_NAME = "liblash1-0.5.4-2.12.aarch64.rpm"
+RPM_HASH = "f203ef97089d182946b7a4b5129b9a7b1b5b9841727c7b467d67210a5a67a9d26a6b5e10abed6dee9d60b738d4b76575ced2a53f1fc0fc221187e395eebad9d8"
 
 RPROVIDES:${PN} += "liblash.so.1 \
 liblash1"

@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "6.8.0"
 
-RPM_NAME = "libfreecell-solver0-6.8.0-1.3.aarch64.rpm"
-RPM_HASH = "46073fdfb9cf3eb81dd88d05692ddca8e9e865935394c71151105af4d1b4d911f4fb59f868ce0a171131bbfeece0a8113e6e5c153352d5ba74c4e4150054fcb5"
+RPM_NAME = "libfreecell-solver0-6.8.0-1.4.aarch64.rpm"
+RPM_HASH = "ebb7a0efe532072bfa9891f7ee1788add5e82d731426c970648121f66aa7a0ed0ab6a6b492eba992c8d5d4e438e459b2807d4c068b9cd8551d14981aac69f43b"
 
 RPROVIDES:${PN} += "libfreecell-solver.so.0 \
 libfreecell-solver0"

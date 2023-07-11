@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.2.0"
 
-RPM_NAME = "python39-retryrequests-0.2.0-1.3.noarch.rpm"
-RPM_HASH = "2af0add25525458e00d15d07cbb48a21ae8d324a0e3de6461393a24a4dc15a178ff868dba71e7a20c0574256b878f711edf65820133267ac22c768a31e995516"
+RPM_NAME = "python39-retryrequests-0.2.0-1.5.noarch.rpm"
+RPM_HASH = "5c5d51d95b852b6d572bdb4d573c4536de977f732daf673d25b12cef99adaacafb0e3a204048c08e9edd75d90fa205a7b93d3aeed34984f6744225626a2b2612"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-retryrequests \

@@ -12,11 +12,11 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.14.4"
 
-RPM_NAME = "transifex-client-0.14.4-1.4.noarch.rpm"
-RPM_HASH = "d544672a4507079b0e796545d57f051c4a2c00fa091066d0f460a7f2f3231c3394ffc617843a65f2a21dba7f57550e9d94f908d853b09d12321c03585e2ecaf4"
+RPM_NAME = "transifex-client-0.14.4-2.1.noarch.rpm"
+RPM_HASH = "f27b98e966b051d749ac23aed4c32613838a803541c7b4365819fb4b56ae7abcbba1bfa0e6160211474a928ded863395db0d7750046f38b3277f1b323ab58707"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-transifex-client \
+RPROVIDES:${PN} += "python3.11dist-transifex-client \
 python3dist-transifex-client \
 transifex-client"
 

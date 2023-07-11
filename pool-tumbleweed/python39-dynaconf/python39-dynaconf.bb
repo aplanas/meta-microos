@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "3.1.11"
 
-RPM_NAME = "python39-dynaconf-3.1.11-1.4.noarch.rpm"
-RPM_HASH = "065a050058384dda80df3ecc696081575e10f3c91f38d99538ca3c5c0bbbc2a6bf06d9e44a6fd27e32e153f20e32ff529f1702954a59cede05f9ed8942c59ab3"
+RPM_NAME = "python39-dynaconf-3.1.11-1.6.noarch.rpm"
+RPM_HASH = "2273a401fc03f4418f5df5ba8262128a7cfc6897793f05374f7728d40518528e893c0970a0668c5a56d05e8de22cd41fa0a0e252b5b6034f45a3280e5dbf1733"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-dynaconf \

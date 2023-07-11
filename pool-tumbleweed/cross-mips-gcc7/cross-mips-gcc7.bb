@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "7.5.0+r278197"
 
-RPM_NAME = "cross-mips-gcc7-7.5.0+r278197-14.1.aarch64.rpm"
-RPM_HASH = "e4a9869a72564397580c39d58144d4c2433d05bf8af4101a979760a044d91717487551f1076ca4048e0187c82aa5724307c4cae8919e9deb4ef6cc103a1a0763"
+RPM_NAME = "cross-mips-gcc7-7.5.0+r278197-14.2.aarch64.rpm"
+RPM_HASH = "a531ee7abcf43254defabf66cc78c785182ad52b356c3f837bc29fcf70e7be3c28a5906809bfe544b588f200107823c8ce634499b1de95009a7a74e3b4c28c8f"
 
 RPROVIDES:${PN} += "cross-mips-gcc7 \
 liblto-plugin.so.0"

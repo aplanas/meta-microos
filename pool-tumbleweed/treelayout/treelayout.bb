@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.3"
 
-RPM_NAME = "treelayout-1.0.3-3.10.noarch.rpm"
-RPM_HASH = "d8611a4a782b3952215e4bd5eb090e812c333394511a8cad866da99d0c2932049e63641b96547c95280dd165394a0a1b10c3f9f89e6d0f359f6241821f792a90"
+RPM_NAME = "treelayout-1.0.3-3.11.noarch.rpm"
+RPM_HASH = "70f96cec5b8578a2362a137b27c62a0a3126ad4a44732f25398ac11f79d25ea21c3ececf14e14ea7dfb142541ddb02add734e8d7ebd87dfd8787f5618a47eb2e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.abego.treelayout-org.abego.treelayout.core \

@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.8.2"
 
-RPM_NAME = "znc-perl-1.8.2-3.7.aarch64.rpm"
-RPM_HASH = "b7ef3f169d408ec05a627a38c7bbfbdcc32d0cdabe40eb9a1a52d1a291428f75866b2e804d3b5aadb570f0d2582ef9b920d18f21d60d6f0565180815d33aa2ef"
+RPM_NAME = "znc-perl-1.8.2-3.8.aarch64.rpm"
+RPM_HASH = "ca0616eb93f63030029f0d6bae74687c39be34c38550b76d0e8911b4bff75a43d72996c08fba87d6182785b5aa21151ee3f861a5ff171f8347f2859888bd35c1"
 
 RPROVIDES:${PN} += "perl-ZNC \
 perl-ZNC--BufLines \

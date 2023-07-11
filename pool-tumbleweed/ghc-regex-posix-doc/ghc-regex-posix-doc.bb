@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.96.0.1"
 
-RPM_NAME = "ghc-regex-posix-doc-0.96.0.1-3.3.noarch.rpm"
-RPM_HASH = "fb9e193767ad2e486ac2977a789fd714b471369303b370d7d9acb8b8a8a75071a1c883b45d32fa64be4b9ab3e806b1b10d1e6d1b96c56a5132e0cd1cd0183842"
+RPM_NAME = "ghc-regex-posix-doc-0.96.0.1-3.6.noarch.rpm"
+RPM_HASH = "891869d85f36255f27cd67ea5b07d4a62315619c1d9844f000f7621e210bbd6a51630c7874d98fa98d3640ae30a33aef50502f099a2504284c16bac79dc5580e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-regex-posix-doc"

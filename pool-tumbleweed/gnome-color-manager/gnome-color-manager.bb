@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.36.0"
 
-RPM_NAME = "gnome-color-manager-3.36.0-2.9.aarch64.rpm"
-RPM_HASH = "65cc005bbf87d6681e6f956f9e6808fefcf0a8fe2226783e141d74c6acf87be38a317e46284cd53e772161794fd12036be46a9b6c3900c38216d3b9886587965"
+RPM_NAME = "gnome-color-manager-3.36.0-2.10.aarch64.rpm"
+RPM_HASH = "8bd644fbc3e3dedaee36b18379c0faa85dc5d88cfbe88f875404ec48d0bf988d67b8f0f126caedff221a2180385da0868d1fc5ffe159a10e378cb871ab95bf24"
 
 RPROVIDES:${PN} += "gnome-color-manager"
 

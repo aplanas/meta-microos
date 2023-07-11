@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.16.8"
 
-RPM_NAME = "python39-sphinx-jsonschema-1.16.8-1.8.noarch.rpm"
-RPM_HASH = "ca68b98392fbe723a8656a3aa782877fceb7b51c01bdf120854b3f928ed52a4607ba50bc3060d7b09761e556c2f4fa2b69aadf442070082d4944553bffe310fb"
+RPM_NAME = "python39-sphinx-jsonschema-1.16.8-1.10.noarch.rpm"
+RPM_HASH = "7b08da37e0ff52e976b9785ef886b0733646e3ad8533cad3c7f895b1ee068affc933b7c0879e6f86d4fa5db5287ca89e97dd1dae5b1e044897e5ba4e9783086d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sphinx-jsonschema \

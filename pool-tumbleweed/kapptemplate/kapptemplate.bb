@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains templates to start the development of a new
 application/part/plugin."
 LICENSE = "GPL-2.0-only & GFDL-1.2-only"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kapptemplate-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "2d170aa2b1a08d66efe18ea4610e00e98ff2e0534c21958290ee72f2419c5f7f01575ea5a3086225245c00539b09f1db4070959df8c85b9a88bade7aa9fc935d"
+RPM_NAME = "kapptemplate-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "f2f2852e236b60bb2dcf7ab22af75e9d8939c25a2199de560e88afce6d35cc2cf07238b665d51fc010010915d0c5620690192fc955576ce3646f44f3f9099189"
 
 RPROVIDES:${PN} += "kapptemplate \
 kapptemplate5"

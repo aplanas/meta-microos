@@ -21,8 +21,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
 PV = "2.49.92"
 
-RPM_NAME = "clisp-doc-2.49.92-5.4.noarch.rpm"
-RPM_HASH = "0c651c44d49c5cdac8beb046217cb9110eb8aa845c758cf6e1a0cf94733a93a45012d3094b4be242e2eeea7f946382ba6b760da72422a944c907dd97e7b9e37b"
+RPM_NAME = "clisp-doc-2.49.92-5.6.noarch.rpm"
+RPM_HASH = "224c691f6efb90fdba80f046761138e306ee75ab8d50367d711f6a034d8128b7f3b230a45d3a2459f3ad7f918b872b509dd8ba944f69b8256a7bad3702120815"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "clisp-doc"

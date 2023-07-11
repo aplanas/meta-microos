@@ -5,8 +5,8 @@ LICENSE = "EPL-2.0"
 
 PV = "2.0.2"
 
-RPM_NAME = "eclipse-license2-2.0.2-5.5.noarch.rpm"
-RPM_HASH = "e706e8a21115737b6641548a3166d3015cd6e19184180f0406afd5900ed057fcda2e94df3df97dd92f6145c52d8d2416ec25a274886e1180022c32ee59ed8893"
+RPM_NAME = "eclipse-license2-2.0.2-5.6.noarch.rpm"
+RPM_HASH = "ce53b34a7ffb204bc5fda4eae32df1899592bd5e38981b7b37ac37b980b2438e61fd97fb4b30a5d200deb13b8229688e603b0512eee050d16fb9d93d6f454a41"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eclipse-license2 \

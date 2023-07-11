@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.2.4"
 
-RPM_NAME = "ucblogo-6.2.4-1.2.aarch64.rpm"
-RPM_HASH = "3de633b646ee05d99d01d4c85f721ff43f1b45758cb3fde85a1008a5f40d1f71c557ad5dd503c35ac26610d7b48a657a308aeb5e31fd3e61df9e52e0fa5a1909"
+RPM_NAME = "ucblogo-6.2.4-1.3.aarch64.rpm"
+RPM_HASH = "dcc1a53f6d3e0d78bd0335dcf9011de2a334babc13f0d639b31be4699abb2746fea2c5c4739cfab37f32d9aeda8445c92259f20b54e8ad109d54af6b292df415"
 
 RPROVIDES:${PN} += "ucblogo"
 

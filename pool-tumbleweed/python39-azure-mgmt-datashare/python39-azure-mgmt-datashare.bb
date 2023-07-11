@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0.0"
 
-RPM_NAME = "python39-azure-mgmt-datashare-1.0.0.0-1.13.noarch.rpm"
-RPM_HASH = "c52b4a97dc029a3dc8a3171880076a964e473f65f069caf7d901f1ef68befc7e0fe4d16e1a14ba78ee7413372bd24d1ade9aa54968c3652c6a2c7447f38b50b5"
+RPM_NAME = "python39-azure-mgmt-datashare-1.0.0.0-1.14.noarch.rpm"
+RPM_HASH = "bd42146f9b9ed51e554324749c26257a91653537bc7d564faa935c14ef196f401be4c08b91f5f69d5b37f5ddf64a94a17e492866f2318b19dbff5e6149154d3c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-datashare \

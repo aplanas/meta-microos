@@ -19,10 +19,11 @@ LICENSE = "OLDAP-2.8"
 
 PV = "1.4.1"
 
-RPM_NAME = "python311-lmdb-1.4.1-1.1.aarch64.rpm"
-RPM_HASH = "d0786b3078a39d6e197b4a0af70a3ad5109cb660a9bea6c5f0cb742a4a23bfa28e8e93e432b917a82a9ab62b7fc7b2987c85605a9c6c4d3880c950adffbe6d09"
+RPM_NAME = "python311-lmdb-1.4.1-1.3.aarch64.rpm"
+RPM_HASH = "d3dce87b95de743f87385ef41dd20dcdb127d5485e12ae58d129da4c0eee1b5abea946bca5fb73e3cb4d0fdaedcf1fe6918901f0034e38d00a07b4789eea1766"
 
-RPROVIDES:${PN} += "python3.11dist-lmdb \
+RPROVIDES:${PN} += "python3-lmdb \
+python3.11dist-lmdb \
 python311-lmdb \
 python3dist-lmdb"
 

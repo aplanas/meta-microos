@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.1.3.17"
 
-RPM_NAME = "manaplus-lang-2.1.3.17-3.1.noarch.rpm"
-RPM_HASH = "511b18c77e6351e4dc03bcb7b61f53069c4253545870985d3cf82bc580305fc83a581c54737baf3077c700a0f3f3de6b6fd5bbb596e3202e19a6edcef988c37a"
+RPM_NAME = "manaplus-lang-2.1.3.17-3.2.noarch.rpm"
+RPM_HASH = "83db056f85cc52cbe85017dc01f075f2a3c71645d1d3fd117fae15ca5d3fd70c2c0b6db8f9497a0613b730c779b1777dff88a755853b09488d726d26a7812a79"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-manaplus-ca \

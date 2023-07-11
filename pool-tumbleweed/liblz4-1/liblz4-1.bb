@@ -8,8 +8,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.9.4"
 
-RPM_NAME = "liblz4-1-1.9.4-2.3.aarch64.rpm"
-RPM_HASH = "de5ada4acb2f20274943e4b50b174b8ed52a9b9d07b93c8a81bcaaf8d2b8203a48ffb07bbe9fcea60dfe2eafc8f4f8a8e61d432470e46a2534bd98c66845922b"
+RPM_NAME = "liblz4-1-1.9.4-2.4.aarch64.rpm"
+RPM_HASH = "86564515250dca1262a76bed163f8329b01926bef9fa07d0d0dcf6d5b66ed16eff877c1a9690814c3856a45843b8bb77c923c20a3faca946246549b5c5d6d62e"
 
 RPROVIDES:${PN} += "liblz4-1 \
 liblz4.so.1"

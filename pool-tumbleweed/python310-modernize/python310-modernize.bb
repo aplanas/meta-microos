@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause & Python-2.0"
 
 PV = "0.8.0"
 
-RPM_NAME = "python310-modernize-0.8.0-2.9.noarch.rpm"
-RPM_HASH = "943f3caa0e6636db89a45fd2d97131014453f37fe7fc5e357768d723e490eabc78afef5927fe2275e9dd05216d07b990ae29eb6dcac5893e9f909584d9af480b"
+RPM_NAME = "python310-modernize-0.8.0-2.11.noarch.rpm"
+RPM_HASH = "5339b3a3c1ac5b244cd292498dc7b571c9011cf07395fb1a53abb3245dafaa7f4b7463c0a760f7492baa23b80cfc922b9c71d77284b3ac214a4179244d3d68bd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-modernize \
-python3.10dist-modernize \
+RPROVIDES:${PN} += "python3.10dist-modernize \
 python310-modernize \
 python3dist-modernize"
 

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "12.2.0"
 
-RPM_NAME = "mingw64-cross-cpp-bootstrap-12.2.0-2.1.aarch64.rpm"
-RPM_HASH = "df1e06a5787d37e5bf9548e142ad94ea9053b7446c6f7f5c8fe02edf08d41b3ad484d3abaad6239f4b6a2e73fa5cbe1c79b745f3cd94c5f451a2f3fb1b4ec22b"
+RPM_NAME = "mingw64-cross-cpp-bootstrap-12.2.0-3.1.aarch64.rpm"
+RPM_HASH = "35ca3b69bc9a496fcc4adbb372c2cc0a2c146ff71dace318a37254dd3aabcfd2ef4607613349efa605419b88fd841e89158e2194dcb44275b569b48b62942eec"
 
 RPROVIDES:${PN} += "mingw64-cross-cpp-bootstrap"
 

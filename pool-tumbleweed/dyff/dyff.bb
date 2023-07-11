@@ -12,10 +12,10 @@ Input files can be local files (filesystem path), remote files (URI), or the sta
 All orders of keys in hashes are preserved during processing and output to the terminal, most notably in the sub-commands to convert YAML to JSON and vice versa."
 LICENSE = "MIT"
 
-PV = "1.5.7"
+PV = "1.5.8"
 
-RPM_NAME = "dyff-1.5.7-1.2.aarch64.rpm"
-RPM_HASH = "4c8a474165b837ac07a6d2c260f3fcb3fc823cc6dc01a1b2dd4f224a3a7a340d1fad813d5538454787a5d91b37f59bfbd06629b0f7b2d9430d3b7bfb2a775fc6"
+RPM_NAME = "dyff-1.5.8-1.1.aarch64.rpm"
+RPM_HASH = "58ae9c03773191da1eeba5098cb4a3c9969e276a957ebc248758eb361c4b55b56bb65326fdb5184def567f572fca1c253ba2d71fe40cbcfe06c0246dbe32cc13"
 
 RPROVIDES:${PN} += "dyff"
 

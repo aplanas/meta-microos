@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & Python-2.0"
 
 PV = "0.8.0"
 
-RPM_NAME = "python39-modernize-0.8.0-2.9.noarch.rpm"
-RPM_HASH = "ac6d1041bb40f3da608a1c87588541e198cdb864a719100c63bb8fb60d4047db44b441e79af42d3c8a97f6ae0ee1820f55300092ec904e7aa32ee534258a6231"
+RPM_NAME = "python39-modernize-0.8.0-2.11.noarch.rpm"
+RPM_HASH = "449e4c52aa5dd1e91159b96d2757afd80d43bb732de23dc1152de6e1e7ae08167c0353d2ff75b77a60966463224ff8324d34a9c5bd673dda9a5b4d049f0f475c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-modernize \

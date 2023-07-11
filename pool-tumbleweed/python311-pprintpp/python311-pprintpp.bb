@@ -4,11 +4,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.4.0"
 
-RPM_NAME = "python311-pprintpp-0.4.0-6.2.noarch.rpm"
-RPM_HASH = "f63f57aa23243bc8ce2d5a97c7dbe17deb08573342cdc1d379ed824633b09d8c68cd98ae6126ca7728fd40131f72014e304ed132306a3d2c7cc26d3f3bb8108e"
+RPM_NAME = "python311-pprintpp-0.4.0-6.4.noarch.rpm"
+RPM_HASH = "1f5f52f975bdd162c80b5cb4a5649551da5e6039b795bf4993cf138aac38a3a35e64e6f9206ab2e33f3d5ce23637adb3339a1b5e8ccd3ee3bdf4e9bc2955421f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pprintpp \
+RPROVIDES:${PN} += "python3-pprintpp \
+python3.11dist-pprintpp \
 python311-pprintpp \
 python3dist-pprintpp"
 

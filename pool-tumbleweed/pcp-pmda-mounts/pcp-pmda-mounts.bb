@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "5.2.5"
 
-RPM_NAME = "pcp-pmda-mounts-5.2.5-3.4.aarch64.rpm"
-RPM_HASH = "9caa57c49441f2862ec7f2473b3c2c98c478b2e032de277aa5f1f3af25b7dfecf182b7613cdc5c8593f6dc156cea75956bb7bf1adbfe9ec693f3903dc50b8b07"
+RPM_NAME = "pcp-pmda-mounts-5.2.5-3.7.aarch64.rpm"
+RPM_HASH = "8632c136f001d1671dae5cb05958f59c46aa515b6fc81268a88779f94bdab6defb01b1fc61bf2c39833297d3d3eb8c9cfc611ff713682f81fa3f7cb6c5e30900"
 
 RPROVIDES:${PN} += "config-pcp-pmda-mounts \
 pcp-pmda-mounts"

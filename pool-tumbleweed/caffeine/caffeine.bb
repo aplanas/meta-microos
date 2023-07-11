@@ -5,13 +5,13 @@ LICENSE = "GPL-3.0+ & LGPL-3.0+"
 
 PV = "2.8.3"
 
-RPM_NAME = "caffeine-2.8.3-1.19.noarch.rpm"
-RPM_HASH = "eece79e400acbda02ac091068dc95e1e42cade7486c91459b2d8c2d82b9880f36da11be88dd656fc16ac924efc3eaf13dbe69a692be82c18439ed217a07d824c"
+RPM_NAME = "caffeine-2.8.3-1.20.noarch.rpm"
+RPM_HASH = "32bdc414cfcaa8f3a1c417ca21a359b632c94092262db6fb7809cab6bb9e5ee9aa9d921372fdca52ecf3b9af2e8e34a11b802d1d218b721a8c69e6a06bb91714"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "caffeine \
 caffeine-lang \
-python3.10dist-caffeine \
+python3.11dist-caffeine \
 python3dist-caffeine"
 
 RDEPENDS:${PN} += "/usr/bin/perl \

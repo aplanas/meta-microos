@@ -2,10 +2,10 @@ SUMMARY = "Translations for package ghostwriter"
 DESCRIPTION = "Provides translations for the 'ghostwriter' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "ghostwriter-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "4c8fd5903af35f5ccc3642bb014b2955696699675fc68c6abbb9475c62d405b153526ee838e80062b73059f4f4c048ffc203671a59669f3a8f5f90bae48b9deb"
+RPM_NAME = "ghostwriter-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "5a5521b44aebdac8d9cfedbed94f47aab1ba763f69b045795ec072f2001072fa330de0890798b632aa0a7f1c9c77cd6edb1eddf38f6eb648dbaefd1ad27f5a96"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghostwriter-lang \

@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "5.4.3"
 
-RPM_NAME = "spyder-dicom-5.4.3-1.1.noarch.rpm"
-RPM_HASH = "d7dac98a2cc05c73b513a54e357224aaefe4fffd338acb59f9bcb102f7c4879c375d1925f724db93f62a0ca4415785b449e1703dc5a2c0db0e4f3bfef4f6d7f0"
+RPM_NAME = "spyder-dicom-5.4.3-1.2.noarch.rpm"
+RPM_HASH = "1f78cca4b68f3f1c3755451f908b5d39d28229073bc9208e274be1f3e6135b812fbc9373144a3e4d327eb10128a8358a46ee72a263abc83578fe6d76fabd51da"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "spyder-dicom \

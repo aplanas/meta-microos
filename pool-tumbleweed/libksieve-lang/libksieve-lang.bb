@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libksieve"
 DESCRIPTION = "Provides translations for the 'libksieve' package."
 LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libksieve-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "3aabe85396f4c89e33357e7abcdc346ca8e4c3336b5bbdd4b8e0a53195cccecf5425d428a2f3a852898f342c9d9c376a05c65a51f4e6bf6e33999a0664604009"
+RPM_NAME = "libksieve-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "136ba3511d9b79a3e09b8a0e74628e73f29c38ac642c8f96be2c59aa07e0a6edf3d0c28cca7267f8cf3bda89c299c54b2c65466d55912180d19af81856548d2e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libksieve-lang \

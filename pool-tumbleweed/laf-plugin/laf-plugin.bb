@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause & Zlib"
 
 PV = "1.0"
 
-RPM_NAME = "laf-plugin-1.0-7.6.noarch.rpm"
-RPM_HASH = "26fc72958f972c670f594233c3d5217a0354313e35465f1e7121a11e31bbd0d841ef3ecc86091d33b264eae41c7d820b3ba00453ce022ddd03e2af90f115f507"
+RPM_NAME = "laf-plugin-1.0-7.7.noarch.rpm"
+RPM_HASH = "85c396ee720e1db256bfe6c6498885b7b400795e0ad25896167db6277a31820d6ed1b6696873799edc2a1f9e55b53cc280bfc6773e7727805da2ad69b4fe7b9e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "laf-plugin"

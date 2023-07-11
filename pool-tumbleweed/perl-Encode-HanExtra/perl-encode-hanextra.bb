@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "0.23"
 
-RPM_NAME = "perl-Encode-HanExtra-0.23-89.27.aarch64.rpm"
-RPM_HASH = "69d145a6419717569b040630dce8acf1761e6b4248881f07f391f7c6c566a897d4f8ba692489052c748bfd679ae78a226d7bbf32a0d4fce90c4da0058e4ecbe0"
+RPM_NAME = "perl-Encode-HanExtra-0.23-89.28.aarch64.rpm"
+RPM_HASH = "65d39ad43058c22279c53a88f92950c69c4be0d09608c8ebf2243dbbe00b2a4ce966693959f782a5bea0568b9711df43bcfa7fccd8d3d4b45dc5ad588fa4f58d"
 
 RPROVIDES:${PN} += "perl-Encode--HanExtra \
 perl-Encode--TW--Unisys--SOSI1 \
@@ -22,6 +22,6 @@ perl-Encode-HanExtra"
 RDEPENDS:${PN} += "/usr/bin/enc2xs \
 /usr/bin/sh \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

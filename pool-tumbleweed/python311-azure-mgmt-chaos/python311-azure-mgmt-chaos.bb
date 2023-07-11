@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "1.0.0b6"
 
-RPM_NAME = "python311-azure-mgmt-chaos-1.0.0b6-1.3.noarch.rpm"
-RPM_HASH = "ea48f4b0649d4ea2eb30f3a48efb7239ac8d29e381dbbc6aa9efce68a910b3daa6767611167a4932088ae8795bfc09d3437b9eb743252744d9c224bb8e0eb618"
+RPM_NAME = "python311-azure-mgmt-chaos-1.0.0b6-1.4.noarch.rpm"
+RPM_HASH = "8b1d6493c8bedaef11f316ff27d42b88a3a57d9869846534990c99e3c2f45a4b04ef4ac7cbabf35bbea3a2ee6a607047edc392110f93b9295864abd5eeb0f7f7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-chaos \
+RPROVIDES:${PN} += "python3-azure-mgmt-chaos \
+python3.11dist-azure-mgmt-chaos \
 python311-azure-mgmt-chaos \
 python3dist-azure-mgmt-chaos"
 

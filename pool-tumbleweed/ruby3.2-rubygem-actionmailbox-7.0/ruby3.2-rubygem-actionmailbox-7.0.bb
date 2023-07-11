@@ -2,17 +2,17 @@ SUMMARY = "Inbound email handling framework"
 DESCRIPTION = "Receive and process incoming emails in Rails applications."
 LICENSE = "MIT"
 
-PV = "7.0.4.3"
+PV = "7.0.5.1"
 
-RPM_NAME = "ruby3.2-rubygem-actionmailbox-7.0-7.0.4.3-1.1.aarch64.rpm"
-RPM_HASH = "9cdb9c83860ddd44eb2224ea3dd90bc78f65cda92c15f7ec56b705f56f554bdb6f9418038589222c7bf2feb8f7180075200edd7a31cc14b7e5210e432c6bf328"
+RPM_NAME = "ruby3.2-rubygem-actionmailbox-7.0-7.0.5.1-1.1.aarch64.rpm"
+RPM_HASH = "0ed80261836131fbe34b108680e84305d795c834772cdeb3c77a960bf0946b2bf5f5de6f657fc3ca8559c3d4cdebbf6b7827a35836be00fc768a89c22f4c034d"
 
 RPROVIDES:${PN} += "ruby3.2-rubygem-actionmailbox-7.0 \
 rubygem-actionmailbox \
 rubygem-ruby-3.2.0-actionmailbox \
 rubygem-ruby-3.2.0-actionmailbox-7 \
 rubygem-ruby-3.2.0-actionmailbox-7.0 \
-rubygem-ruby-3.2.0-actionmailbox-7.0.4"
+rubygem-ruby-3.2.0-actionmailbox-7.0.5"
 
 RDEPENDS:${PN} += "ruby-abi \
 rubygem-ruby-3.2.0-actionpack \

@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
 PV = "2.3.1"
 
-RPM_NAME = "monitoring-plugins-snmp-2.3.1-9.4.aarch64.rpm"
-RPM_HASH = "9fa0480011c728a63b9d730e57257fa4c51e74a8875d094affd05365c6b552c409b0bf4957b5dda8e344ef04a61f09c46844a3f2816bd2f9696fa7e3c53dbfbd"
+RPM_NAME = "monitoring-plugins-snmp-2.3.1-9.5.aarch64.rpm"
+RPM_HASH = "4b9b1375f7ad415ff197b5d295cdc4f17ffec89efe6f7b4f96303a1aa19e2c61fb92a7c313a3a57f97fbdd7b426c2739a34391a424674b0456fcc0415d79ec97"
 
 RPROVIDES:${PN} += "monitoring-plugins-snmp \
 nagios-plugins-snmp"

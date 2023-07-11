@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "20230517"
 
-RPM_NAME = "neomutt-20230517-1.1.aarch64.rpm"
-RPM_HASH = "dee320ba092eda40e8045392b74af71b5b122392f52c501f7aa5f98eeae6dec9f4d80694f775397462f2b5b17180aa173e8d4f35fa8f2c8804f51f7977598842"
+RPM_NAME = "neomutt-20230517-1.2.aarch64.rpm"
+RPM_HASH = "2fb9ec215ae109eeadecdb89831a3a2e02b6a156e70071a2776dcc1cb55f04fb9983a0327f5cce75c0f6138f8dc4c8f8ce65df850ac55a61fe1b3eef05029f04"
 
 RPROVIDES:${PN} += "config-neomutt \
 neomutt"

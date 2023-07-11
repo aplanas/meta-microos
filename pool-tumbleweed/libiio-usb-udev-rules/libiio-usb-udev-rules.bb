@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.24"
 
-RPM_NAME = "libiio-usb-udev-rules-0.24-1.4.aarch64.rpm"
-RPM_HASH = "74c437fa90029d07b2e04f7a0b91bffe378eeab151a05da6761f855f3d10289b1625a01fc4fe288ebc6a189630b264833e16245fe97b80d8d48319f807213bac"
+RPM_NAME = "libiio-usb-udev-rules-0.24-1.5.aarch64.rpm"
+RPM_HASH = "d0e76e5d0e64ef769200931b772337f3cc58c11f26dcdedbcf9ca421acff16e72f5e16ff8d9587e6666b6df805d6bdf52c67c8a41b6f2b3dc1aa1f87a4a1048b"
 
 RPROVIDES:${PN} += "libiio-usb-udev-rules"
 

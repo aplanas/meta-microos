@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "3.0.0"
 
-RPM_NAME = "python311-django-push-notifications-3.0.0-2.4.noarch.rpm"
-RPM_HASH = "ea7af1d463474d034414788fa7004e0df323b0ac0ad21df462be9f1980b71dfc6a5952997ba4dbe33beb270a523880aea1f01e49fb2d67fa0050391445128249"
+RPM_NAME = "python311-django-push-notifications-3.0.0-2.5.noarch.rpm"
+RPM_HASH = "6a0fff2e787e0fa1998709d178523c7106e9cf17791e1d28f756acdedfc402446fb6b4f95d7b74ac38d604dc160b3a98a973d833aae071752e8a24a3cf2089c3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-django-push-notifications \
+RPROVIDES:${PN} += "python3-django-push-notifications \
+python3.11dist-django-push-notifications \
 python311-django-push-notifications \
 python3dist-django-push-notifications"
 

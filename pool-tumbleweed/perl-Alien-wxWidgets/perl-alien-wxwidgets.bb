@@ -7,15 +7,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.69"
 
-RPM_NAME = "perl-Alien-wxWidgets-0.69-1.16.aarch64.rpm"
-RPM_HASH = "a66cdb5407c798a5f70d83245453506a5f93f420c30a1a5519b6e28313208e4a25b7a122ac7484a777c01a6c7141adcf750116f3faebcd517eadc774a0325c78"
+RPM_NAME = "perl-Alien-wxWidgets-0.69-1.17.aarch64.rpm"
+RPM_HASH = "1803fa2cb704eeb004df5afce339620c2a9ba611059ad987f279689b339a7a1d20ec2c4caaddd9a93fd7ba5e8a735ffe47c5ac9f3552f202a5ec94e624f1138b"
 
 RPROVIDES:${PN} += "perl-Alien--wxWidgets \
 perl-Alien--wxWidgets--Config--gtk2-3-0-5-uni-gcc-3-4 \
 perl-Alien--wxWidgets--Utility \
 perl-Alien-wxWidgets"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Module--Pluggable"
 
 inherit rpm

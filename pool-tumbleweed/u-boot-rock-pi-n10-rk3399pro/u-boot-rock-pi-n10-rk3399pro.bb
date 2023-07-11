@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2023.04"
 
-RPM_NAME = "u-boot-rock-pi-n10-rk3399pro-2023.04-2.1.aarch64.rpm"
-RPM_HASH = "6f8cce205d48aa069b90dc58931f1b8e4466f12d5dda293b573e4bcdf1f72ed2f381bddea1c43cd89f6cf3762394921e03c3f9e6129fae88eaf80b61e13c8112"
+RPM_NAME = "u-boot-rock-pi-n10-rk3399pro-2023.04-2.2.aarch64.rpm"
+RPM_HASH = "5bf916f689ea9c9dfa53d3ecd29421480aaaee77725b24f628af15ca71be8697dfcc4bb726fb87ce2683804c60ee90e97cc7c94fa847c88943e4cde41163cc1f"
 
 RPROVIDES:${PN} += "u-boot-loader \
 u-boot-rock-pi-n10-rk3399pro"

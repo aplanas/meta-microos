@@ -4,8 +4,8 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.10"
 
-RPM_NAME = "perl-Archive-Cpio-0.10-1.23.noarch.rpm"
-RPM_HASH = "68a8043f1ae9280c5b4f243b624aab02f0879abb95ee098bdb32e7a0193c40d564e28b47f01e090d4bad2937c8e0298adff15641017056fb7580aa4813b4b29f"
+RPM_NAME = "perl-Archive-Cpio-0.10-1.24.noarch.rpm"
+RPM_HASH = "8dca3df5bf988a17c2ffbc13b44e52abf9fd225b132430ba0bfa57762b0d83126a4544a2d590c1dd023c7d82bf765078d23fd379d7ffe5ff6b3a64b591ba1138"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Archive--Cpio \
@@ -18,6 +18,6 @@ perl-Archive--Cpio--OldBinary \
 perl-Archive-Cpio"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

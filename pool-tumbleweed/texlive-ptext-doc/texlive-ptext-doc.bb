@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.1svn30171"
 
-RPM_NAME = "texlive-ptext-doc-2023.201.1.1svn30171-53.1.noarch.rpm"
-RPM_HASH = "294a3ec8383f4c9d53e36d6ed4d12974fb9bdd40beda2fc22d036c140cf74e62b3f405593eb6a91476bdc13b5350ff353ed053e6317d61362be34e0448f35576"
+RPM_NAME = "texlive-ptext-doc-2023.201.1.1svn30171-53.2.noarch.rpm"
+RPM_HASH = "e8121a084a698129a196cd095ea7251c0a63e5542f0e8cf0a04bac454a5577597e4dfdb346e58d38f1bb5bb4920d7ce7b150a4eee1be685fa002521886f67015"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-ptext-doc-fa \

@@ -24,13 +24,13 @@ quickcheck-instances> companion package provides instances for types in Haskell 
 Platform packages at the cost of additional dependencies."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.14.2"
+PV = "2.14.3"
 
-RPM_NAME = "ghc-QuickCheck-2.14.2-3.3.aarch64.rpm"
-RPM_HASH = "3751946922f20b519093c11c4b2dab85dc4f10432589bba8bbea84c8f1111c98a0aca1b008c4ddc2fb1c823f89d4171c5965e498fbdc95ba5c8f2fc0fbbe09b9"
+RPM_NAME = "ghc-QuickCheck-2.14.3-1.3.aarch64.rpm"
+RPM_HASH = "284c785e3b451e19ecf746f51b77cfa5998dab96f0a718c8c72deefc62782f34f93b3efc6fb3b63d25907d384e6780153f10b4cb700695fa893b96fa8e21f068"
 
 RPROVIDES:${PN} += "ghc-QuickCheck \
-libHSQuickCheck-2.14.2-Ifslnzw9cpLJMSBGXVUlx6-ghc9.4.5.so"
+libHSQuickCheck-2.14.3-6dq2izV8oSq1BobaDA598X-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
 libHSbase-4.17.1.0-ghc9.4.5.so \

@@ -6,13 +6,14 @@ installed singly or as part of the azure namespace. \
 This package has been tested with Python 2.7, 3.5, 3.6, 3.7 and 3.8"
 LICENSE = "MIT"
 
-PV = "0.1.0b2675288"
+PV = "0.1.0b2840062"
 
-RPM_NAME = "python311-azure-template-0.1.0b2675288-1.1.noarch.rpm"
-RPM_HASH = "5be26b77b3879b54065ba260ba11f8b14c3bf8446ed294d85a17e02a31495de495a0da4c7df4820bd79dbf13d4e78ef4e7a5d573b8ca81db31070a81a20d7bdf"
+RPM_NAME = "python311-azure-template-0.1.0b2840062-1.1.noarch.rpm"
+RPM_HASH = "8d8252eac8ccd76473ecdff0e1358473446cebc36a034a3f199dcf7ae12cb9b8cc8900330d8777ca085d6be489ae5a8010b1aeac7f94786b7349bcf30aab28be"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-template \
+RPROVIDES:${PN} += "python3-azure-template \
+python3.11dist-azure-template \
 python311-azure-template \
 python3dist-azure-template"
 

@@ -18,8 +18,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.1.0"
 
-RPM_NAME = "rubberband-vamp-3.1.0-1.3.aarch64.rpm"
-RPM_HASH = "2b411e76d68a47e0801f237dbc2f272b6cfd06b6cb3b0ff019378b9245a14255a76f68dde31a38023127e5a7114a975d49a0bc3ec4c3a14c3bd087d5d9a0dad6"
+RPM_NAME = "rubberband-vamp-3.1.0-1.4.aarch64.rpm"
+RPM_HASH = "41c01c06e7ab61e0115db936ed755c8e7c774668bb3e9723d0f59cf6cb12584339caa286d1fdca62bf4e8aca4fa21c9017081c498bbd7f08897df85518f0f4e7"
 
 RPROVIDES:${PN} += "rubberband-vamp"
 

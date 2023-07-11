@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.6"
 
-RPM_NAME = "python39-matplotlib-inline-0.1.6-1.3.noarch.rpm"
-RPM_HASH = "8416ef40f15f6ad2b43e432a4a8dc4963f5c24ad4832be22cb92a89b1f0d9ee7b625c3c9fe3116a80fb44d4926d12e782d91de74c2ef4667bd9528b1ab4788ef"
+RPM_NAME = "python39-matplotlib-inline-0.1.6-2.1.noarch.rpm"
+RPM_HASH = "60b53778c5b2def31007af6796123451daa95048203654c83b90ee485699be3e13a899c866e2e397bbb1cf2bfb90603382c9d0fed24b19f365971a6213f3fc50"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-matplotlib-inline \

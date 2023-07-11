@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later | LGPL-3.0-or-later"
 
 PV = "6.2.1"
 
-RPM_NAME = "libgmp10-6.2.1-4.14.aarch64.rpm"
-RPM_HASH = "055f9e308720f7aabaa5f1866c2c7e6dda016c94910738e28d56f4dbcb0746440a9a15c5b5ccf06aad36ce77c3d5b4c06e47b8b1b59575752c9e7fc66aff46fc"
+RPM_NAME = "libgmp10-6.2.1-4.16.aarch64.rpm"
+RPM_HASH = "41552563c79f841e095ff55752402f1deaa96d14f6709e2e076d6097113f029461f2dd67d4f1360d5cb61e3c3338e038a31364e0a81aacdedc1069e38ff29a57"
 
 RPROVIDES:${PN} += "libgmp.so.10 \
 libgmp10"

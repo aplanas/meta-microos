@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.16.0"
 
-RPM_NAME = "compton-conf-0.16.0-2.9.aarch64.rpm"
-RPM_HASH = "4df7f065faf5c7df7c358bf14c6d8293058e6232b9f025a68e05bc15d060e27c56bad2e68ce1bc31c4b031a3ca5b09d2ce85f2d7af768a253445a9bc6cd61e6a"
+RPM_NAME = "compton-conf-0.16.0-2.10.aarch64.rpm"
+RPM_HASH = "7156f1e20b2da2b70f230e03cde5f2491c4111711529aa8e07c317d5c99330540d0eb72d08565f18f4904fdd01add74e53ba219c0b98702e6d7cee1ad52311f2"
 
 RPROVIDES:${PN} += "compton-conf"
 

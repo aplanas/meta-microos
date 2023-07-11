@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.0.35"
 
-RPM_NAME = "openEMS-matlab-0.0.35-5.36.aarch64.rpm"
-RPM_HASH = "1536262b12ca1fdda5df52c313cc5a307f3104392fb2fc1242a39f3305eb08fc6ff99750fe50bfad9edbc2f070f8cc1b8ced0b8b602de9467e1b3cb3278fc281"
+RPM_NAME = "openEMS-matlab-0.0.35-5.37.aarch64.rpm"
+RPM_HASH = "f67973f067a9a001aed50bc877caf8c54dbe4ee26ba5cb0886398c5779132063f34aef37cf85243517a9cd5f8ae53b9819fbca180b0e44219f3df691b4c9032c"
 
 RPROVIDES:${PN} += "openEMS-matlab"
 

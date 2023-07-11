@@ -2,10 +2,10 @@ SUMMARY = "Examples for using PySide2"
 DESCRIPTION = "Examples and Tutorials for the PySide2 bindings for Qt."
 LICENSE = "BSD-3-Clause"
 
-PV = "5.15.9"
+PV = "5.15.10"
 
-RPM_NAME = "python3-pyside2-examples-5.15.9-1.2.noarch.rpm"
-RPM_HASH = "3dfe30b09b260cbb11ec9279229d7642accabbd6b8d3faf4956290b222f818b9138001b4c7d6e3da75b6f88785c4ec69a8ac1d6474dfd2672ab04919d313aa6f"
+RPM_NAME = "python3-pyside2-examples-5.15.10-1.1.noarch.rpm"
+RPM_HASH = "a7baa54339eefb42a5f98d18d3f5b023ffc77af7dd2fcfeb85abc754332015cb93bcd28f912c7ee54ce0ab36d254ede134925ab922b3224e6bad03b6502e6891"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyside2-examples"

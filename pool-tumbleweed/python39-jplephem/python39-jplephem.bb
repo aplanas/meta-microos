@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "2.15"
 
-RPM_NAME = "python39-jplephem-2.15-2.9.noarch.rpm"
-RPM_HASH = "ca73447c5ae6448830fc9fa28b9ba99e246737442d89f5387b47890e7500912704186db9d6e85b20d584406869521afb7fa02ae5cbec26e06b3fcd4bc98007c3"
+RPM_NAME = "python39-jplephem-2.15-2.11.noarch.rpm"
+RPM_HASH = "e2cae4351a0be434c17ac7f011756b58667f784c174200bcc8e248045e8d489344a9d426cf8bb28ae513bf0e3a4b17dd04961765b2640932e37e5bae2739d090"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-jplephem \

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.1.0"
 
-RPM_NAME = "quasiquotes-2.1.0-2.9.aarch64.rpm"
-RPM_HASH = "121f1737919b380b7d9fb8a8d44de14b4e6c14c3fd74428b7f82be867ba480c9cae8828eff6c5f20465173252bcf206523b0ce5c3fbfcd5e6b03e153dddc0252"
+RPM_NAME = "quasiquotes-2.1.0-2.10.aarch64.rpm"
+RPM_HASH = "5908b3c3276ea78488d55d271294dd4aa98e8fb01c7be8ff59b87ce68b53b12d090b6326e6e91239cf99c6b0a928af87af3fe3b0e655f5ee2d38b7c9a143df55"
 
 RPROVIDES:${PN} += "mvn-org.scalamacros-quasiquotes-2.10 \
 mvn-org.scalamacros-quasiquotes-2.10-pom- \

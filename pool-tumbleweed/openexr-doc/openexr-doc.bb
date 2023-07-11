@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.1.7"
 
-RPM_NAME = "openexr-doc-3.1.7-1.1.aarch64.rpm"
-RPM_HASH = "e7b2df46590076d506d011abf1f533ac56733b76df18aecb1ecb9c380e677cc6afaecf14e7c98def43ba594cdfc4f683dbe23bb5c4150bc8dd4f4ec5e725a15b"
+RPM_NAME = "openexr-doc-3.1.7-1.2.aarch64.rpm"
+RPM_HASH = "53cdaa5bc00fbfad1bdd92a5c75dd88e416010ae810f9c544edbb702322f53cee945e39d2d89afde55cb4f79737756bdc4aa70fe6ef23f3fbbb1d7be4ffa6d90"
 
 RPROVIDES:${PN} += "OpenEXR-doc \
 openexr-doc"

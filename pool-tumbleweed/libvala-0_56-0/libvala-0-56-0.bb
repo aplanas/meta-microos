@@ -2,10 +2,10 @@ SUMMARY = "Vala programming language runtime"
 DESCRIPTION = "Runtime library for the Vala programming language."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.56.8"
+PV = "0.56.9"
 
-RPM_NAME = "libvala-0_56-0-0.56.8-1.1.aarch64.rpm"
-RPM_HASH = "a3b445dd1f7792f4ed310fe2982926a00647c1a8a7d41d55e4bc6e4231834d06e471a80b09e9188f2036b386e9546619dd5c1072548c622bc58b918801733b7d"
+RPM_NAME = "libvala-0_56-0-0.56.9-1.1.aarch64.rpm"
+RPM_HASH = "b33f59b287a7f1d8fe802b320c0e5e1d27d3700f6abd1ac6d94a709cfce83f75b4f10fa4e86e6c6c13d19289eaa0c744f6b569a9ccdb16c349e3f4f45d911fc8"
 
 RPROVIDES:${PN} += "libvala-0-56-0 \
 libvala-0.56.so.0"

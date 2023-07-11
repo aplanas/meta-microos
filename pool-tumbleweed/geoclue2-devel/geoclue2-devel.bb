@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.7.0"
 
-RPM_NAME = "geoclue2-devel-2.7.0-1.3.aarch64.rpm"
-RPM_HASH = "a91767e070a92beb42cc079416dab44d6fec9426396c81caa2f2690f603065df5bdda224c5c2c15cf1b7e136f0c4591fb803a61de0ba791254ffa12d783a8d55"
+RPM_NAME = "geoclue2-devel-2.7.0-1.4.aarch64.rpm"
+RPM_HASH = "9d42a2417e1e6d3729e6b5260a6fbdea96bcac672d172034b605f6a786c8d3684d427025eeee5bebc372d935dcf44088f4bc666aa7a6e2c4ff1ab111bf577d19"
 
 RPROVIDES:${PN} += "geoclue2-devel \
 pkgconfig-geoclue-2.0 \

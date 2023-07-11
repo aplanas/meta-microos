@@ -8,8 +8,8 @@ LICENSE = "SUSE-GPL-3.0-with-openssl-exception"
 
 PV = "0.72.0"
 
-RPM_NAME = "courier-authlib-devel-0.72.0-1.4.aarch64.rpm"
-RPM_HASH = "8fb0cf8d45f07fe5053712b9b4f51eb86bbdaa8d41525f837a1673f7b87265ae6d291096228c3c3ab718263250c736ed684b9c58b8fad34be20335f20de52316"
+RPM_NAME = "courier-authlib-devel-0.72.0-1.5.aarch64.rpm"
+RPM_HASH = "30443a41516cd42ae74461f1d04e1b52df6022347a04e995fb375a623e7e9136a5dc0f9a1eae399599221e623bf931f1939f0c820c01b1c3f8ddb22bed37f579"
 
 RPROVIDES:${PN} += "courier-authlib-devel"
 

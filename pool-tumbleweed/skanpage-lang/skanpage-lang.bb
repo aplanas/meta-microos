@@ -2,10 +2,10 @@ SUMMARY = "Translations for package skanpage"
 DESCRIPTION = "Provides translations for the 'skanpage' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "skanpage-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "e9fc35cbdb62d0c1483f939f8da853220224d97184ba95790dc7bfe0047c1050a466d8d5523301520bbebf827e5f29e0fd7363181c6b150c5753eaf2b7526ed5"
+RPM_NAME = "skanpage-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "ee59ee1e04964b29e0652b06ddf5dafd1ed36ab02568932d27905f9faf2f5b2248402818fee1c7a0b6f1ee8ed5375730b11c722adc8f44e4d90ef985bc8c62f6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-skanpage-ar \

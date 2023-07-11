@@ -5,12 +5,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.3.7"
 
-RPM_NAME = "python3-cepces-0.3.7-1.3.noarch.rpm"
-RPM_HASH = "582c09e7bf2fc55d4b9fb53b1596bd581cd2c8b968ee63db27339889182ea4cc982596cf3bd15305bac6689fa440c255d7eb42ebdc31759d19d910ba0c138a32"
+RPM_NAME = "python3-cepces-0.3.7-1.4.noarch.rpm"
+RPM_HASH = "be855d096b12013caf80da6424a50135714d79c4d85abcf9be0095504e5cc9a1d4a888885f3791eee0d3e87ba53e2c5f476b2fcc82f961b75349372bc4467f20"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-cepces \
-python3.10dist-cepces \
+python3.11dist-cepces \
 python3dist-cepces"
 
 RDEPENDS:${PN} += "python-abi \

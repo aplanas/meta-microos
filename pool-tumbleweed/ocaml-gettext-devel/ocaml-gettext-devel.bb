@@ -5,8 +5,8 @@ LICENSE = "SUSE-LGPL-2.0-with-linking-exception"
 
 PV = "0.4.2"
 
-RPM_NAME = "ocaml-gettext-devel-0.4.2-3.11.aarch64.rpm"
-RPM_HASH = "e8aee7e48326f72f8b4ce3a4f234c151ef9e358c85b916140b64a9a62d8a1352dfaeee572c4a99b153715c59170e88d5cdbc06fd1f2b491883ed5f99a33c2278"
+RPM_NAME = "ocaml-gettext-devel-0.4.2-3.12.aarch64.rpm"
+RPM_HASH = "c1b7e7d69b4ca76985ceee40efd213a2cd3f38c203fb7b259b746be4489432422a3d233b7a8ff9f5abba52aa191ffd7949bbbe27e9057d6de36c3ecdc3813278"
 
 RPROVIDES:${PN} += "ocaml-Gettext \
 ocaml-GettextCamomile \

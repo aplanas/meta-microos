@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.26.0"
 
-RPM_NAME = "mate-system-monitor-lang-1.26.0-1.9.noarch.rpm"
-RPM_HASH = "ac05c1214e1ca134a20ba24be421080bce155972ee4c56e85493540833a37e9de23f0bb0ea5deb0a9f3ac13aa84150be9badca348ad23b038b11fe787efc1299"
+RPM_NAME = "mate-system-monitor-lang-1.26.0-1.10.noarch.rpm"
+RPM_HASH = "6ad25cb7a5cc81f3b78b0c4ef0bd060bb591702a2b4e95addf31671eb80fa880ebb0d06813e5f18f06f83189ee40fdd55acb8e76221ec6cb4e0a84c508fb5495"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mate-system-monitor-af \

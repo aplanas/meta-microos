@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.3.2"
 
-RPM_NAME = "libfm-1.3.2-1.12.aarch64.rpm"
-RPM_HASH = "728d5b2def9f6e8b77bed67c143350cbbea078d358dabd761e816e41dccfec5ca4cbc7b69e2145c9fb81b134229878a8aa8e4e0bd018c5d8f95396ed9939dcaf"
+RPM_NAME = "libfm-1.3.2-1.13.aarch64.rpm"
+RPM_HASH = "5a29d1fc198fc0caa0c2b60c7b6f66a3b39895ca95614f7153e8306ec9ecdb93196f2fa101a1a4b8b0af767c62e27a7214e43cfe28dde1ef6fd4c038a530b561"
 
 RPROVIDES:${PN} += "config-libfm \
 libfm"

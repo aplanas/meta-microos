@@ -6,11 +6,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.5.8"
 
-RPM_NAME = "python311-webruntime-0.5.8-1.5.noarch.rpm"
-RPM_HASH = "cc391a2d2ef74890c793e6baefad333fbf9e28876c1fe1e274823f3e56129aed6ef46af7a40af0368686a49bb48e90cb3e6984d9c327b22b52d1b6748dc8b955"
+RPM_NAME = "python311-webruntime-0.5.8-1.7.noarch.rpm"
+RPM_HASH = "2156f1bdafe857d067634d49353d30f79530421cf23b957361445512ef20696cc1a8ad76adc4e0eb5c410b0503b81123fcf59893ae209a3503d660437106604b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-webruntime \
+RPROVIDES:${PN} += "python3-webruntime \
+python3.11dist-webruntime \
 python311-webruntime \
 python3dist-webruntime"
 

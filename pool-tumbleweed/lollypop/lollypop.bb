@@ -20,8 +20,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.4.37"
 
-RPM_NAME = "lollypop-1.4.37-1.2.noarch.rpm"
-RPM_HASH = "dc046bb9f4efca5a492f2d5d34db0da5be1b1caa710820ad4711bb45c537136f399fa66c6552690800c6a643f8ba7d2f7d584bd7553d4122be9348cce41fe809"
+RPM_NAME = "lollypop-1.4.37-1.3.noarch.rpm"
+RPM_HASH = "b5478565051c2450293f8996ddd3a6fb99cf78537753e57538e65c9dfe724db8cb9cbe79f37df09428c866cc13f15278d5a64f6f2a1c34f9a8cb5003d6d93802"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lollypop"

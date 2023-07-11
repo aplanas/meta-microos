@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & LGPL-2.1-or-later & (BSD-3-Clause | LGPL-2.0-only)"
 
 PV = "1.8.8"
 
-RPM_NAME = "uim-gtk2-1.8.8-9.9.aarch64.rpm"
-RPM_HASH = "5f76f956b4d26ce9cb93799260f618dfd8e58f7af3ae6f29c328b8c4844a980d8f84dc4849ac3bf83ed9b561804fde2f2d8c13fcdfd1cba620a31bbf7dae5ae9"
+RPM_NAME = "uim-gtk2-1.8.8-9.10.aarch64.rpm"
+RPM_HASH = "ecba1d68921dad8800f30368923b1d9dbe89abaaafeea3e7521bea8bf8c8ae7bd65404b385bc598b6051e021a60c1bc4cfa995c360a65311ce5665eb3bc480be"
 
 RPROVIDES:${PN} += "uim-gtk2"
 

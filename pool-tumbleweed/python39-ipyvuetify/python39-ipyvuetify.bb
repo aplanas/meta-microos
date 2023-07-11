@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.8.10"
 
-RPM_NAME = "python39-ipyvuetify-1.8.10-2.2.noarch.rpm"
-RPM_HASH = "a01b94597e438452f2ca28442cad15a7eabac6b2ac02eb59585a1b5d4c3ffc573d4257910d40a70bd08445e54dfd73e025bf9d33ea9de7320e402829c6de64dd"
+RPM_NAME = "python39-ipyvuetify-1.8.10-3.1.noarch.rpm"
+RPM_HASH = "dd612ccfadffd760df60530e232b3ca51fe3e33099334d3d9439e677bff67cd47ccd47d1eb490452a439ae049e997f763dace2a6fae5ed827d4a2b74bf864d9f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-ipyvuetify \

@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.8.3"
 
-RPM_NAME = "python39-slixmpp-1.8.3-1.5.aarch64.rpm"
-RPM_HASH = "0425e97e971bda7c31f7259d18be3a38e3d9698e15b6bcb45e2bc608affc9ca8a6274729c030b20da2d4570575341c2c8b755054eb20403ed0a1e5de7863e138"
+RPM_NAME = "python39-slixmpp-1.8.3-1.7.aarch64.rpm"
+RPM_HASH = "fc602f119908a5fbb2d48c530411629624ca0d79b97a813404b8fd83e9d96398e56f8b83e9c4a93463ef014846103476e0d66dc64f3bf29ebdb0c6ac18c5e48e"
 
 RPROVIDES:${PN} += "python3.9dist-slixmpp \
 python39-slixmpp \

@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "16.1"
 
-RPM_NAME = "pulseaudio-module-zeroconf-16.1-3.1.aarch64.rpm"
-RPM_HASH = "0cf43c1aa470b941eec897079759aaa1a402c989dfba42df456b0e2e1a96092e09b3e9d347c72a5090e33fa174899b58360eb1eb57df4ed64e6c5a9847fc77d2"
+RPM_NAME = "pulseaudio-module-zeroconf-16.1-4.1.aarch64.rpm"
+RPM_HASH = "87b59c0252c7f7f6454f2aab4fead29872d464b6bd7456aa25e3996a1be0675b5c835e516cc5fd509113dd5ac582044015ad7f1deff80fd643cc3b5cb40d819e"
 
 RPROVIDES:${PN} += "libavahi-wrap.so \
 libraop.so \

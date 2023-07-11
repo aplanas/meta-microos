@@ -11,10 +11,10 @@ This package provides the GObject Introspection bindings for the GTK+ \
 port of WebKit2."
 LICENSE = "BSD-3-Clause & LGPL-2.0-or-later"
 
-PV = "2.40.2"
+PV = "2.40.3"
 
-RPM_NAME = "typelib-1_0-WebKit2-4_1-2.40.2-1.1.aarch64.rpm"
-RPM_HASH = "97dc27d63b57f9369c9d3b6f0e0b23486b90f0e183ded881610f4a37780cb9bd7380f55f9d3068d9b52f04a2ec8dfea531dc716ba65fe379534c2c2152156a19"
+RPM_NAME = "typelib-1_0-WebKit2-4_1-2.40.3-1.1.aarch64.rpm"
+RPM_HASH = "c002364e93bf2483f345ccb71b40cb4e0eec27b7395b0edbf4c76dffc5e8cc0f915b75a796ca7f16b5b36ad144de3ceebf81e95323226dafe513287f42b7438e"
 
 RPROVIDES:${PN} += "typelib-1-0-WebKit2-4-1 \
 typelib-WebKit2"

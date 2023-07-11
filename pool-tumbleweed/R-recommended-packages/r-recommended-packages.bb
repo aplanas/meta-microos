@@ -2,10 +2,10 @@ SUMMARY = "Metapackage, requires all recommended Packages"
 DESCRIPTION = "Metapackage, Requires: all recommended Packages"
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "4.3.0"
+PV = "4.3.1"
 
-RPM_NAME = "R-recommended-packages-4.3.0-45.2.aarch64.rpm"
-RPM_HASH = "61359b70edcdda297baa99eb28eba9a76c0eddc65fb78bb168434b2d7f2eabfe557ec592d4bc0a1a13a5ab5faaad64e5fb4d996d200f4bf3667b226d9d04ca2a"
+RPM_NAME = "R-recommended-packages-4.3.1-46.1.aarch64.rpm"
+RPM_HASH = "7b230607dbd9fda1a65cdb9efc2da9f5499da6fd32e0789403f9c7cf091cd6a2343837df7fcb2236209b16e56976aa36a285baf1a43e994955481646f8d1eaad"
 
 RPROVIDES:${PN} += "R-recommended-packages"
 

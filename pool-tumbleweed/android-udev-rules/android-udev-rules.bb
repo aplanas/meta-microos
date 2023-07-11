@@ -3,10 +3,10 @@ DESCRIPTION = "These rules refer to 'Run Apps on a Hardware Device - Android Stu
 and include many suggestions from the Archlinux and Github Communities."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "20230303"
+PV = "20230614"
 
-RPM_NAME = "android-udev-rules-20230303-1.1.noarch.rpm"
-RPM_HASH = "7f60a227e7cde3dace6a45bbb05bf12fb7daa493a077a81f915ff24fe3b211f956fb92a3b699c203596eec1cc8d2f132f1a3abdec883949d535a166d0d4d6f71"
+RPM_NAME = "android-udev-rules-20230614-1.1.noarch.rpm"
+RPM_HASH = "37cb9ed0ca0bd7a93f1e0d14726f818655b0f4171bbf9ad807c9481f598b97f72cc65334a5fc7388a98599dc77b03b0360368f20acacbe43e738d068510470d0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "android-tools-udev \

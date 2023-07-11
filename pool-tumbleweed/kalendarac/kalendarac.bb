@@ -2,10 +2,10 @@ SUMMARY = "Reminder daemon client"
 DESCRIPTION = "Kalendarac is a reminder daemon client for calendar events."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kalendarac-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "4accc95fd61e7be1daeaca5993d9c73c466afdce33906d8b7676d51b0bade2f4f8124983bf03bae3a8f29abcdd1d9d6338b9d61f9d01666e7e644f5991fe5837"
+RPM_NAME = "kalendarac-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "f9a63e89b0680879889f25231e1c8fc74c112628a0b163bde50814d0ac7eca8a8e9c431359c59b85aa86a2f2edc4c1aa3470d29e092859952f6fd53c10d37555"
 
 RPROVIDES:${PN} += "kalendarac"
 

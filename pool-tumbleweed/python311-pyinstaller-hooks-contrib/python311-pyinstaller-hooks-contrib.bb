@@ -4,11 +4,12 @@ LICENSE = "Apache-2.0 | GPL-2.0-only"
 
 PV = "2023.0"
 
-RPM_NAME = "python311-pyinstaller-hooks-contrib-2023.0-1.4.noarch.rpm"
-RPM_HASH = "725d792003e906ad16446d9f260005c9affaaf00d67ef6e8fa9d181dd6cee5a7442a0a1acd27b50dbb4ab8f4780f3636b516ccef78650d7e2cf034f8ba6a49d2"
+RPM_NAME = "python311-pyinstaller-hooks-contrib-2023.0-2.2.noarch.rpm"
+RPM_HASH = "4062d3557e5104bd0aa7f9237d0824756dcb9016d33c7070f309986681c67ff9739cbad9774f7482d5f02c519c386d20d5324bb443524429ff2eceddd5b6697e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pyinstaller-hooks-contrib \
+RPROVIDES:${PN} += "python3-pyinstaller-hooks-contrib \
+python3.11dist-pyinstaller-hooks-contrib \
 python311-pyinstaller-hooks-contrib \
 python3dist-pyinstaller-hooks-contrib"
 

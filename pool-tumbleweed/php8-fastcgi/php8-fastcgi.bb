@@ -6,10 +6,10 @@ that have a look at the example archive sites and some of the other \
 resources available in the links section."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.1.19"
+PV = "8.2.7"
 
-RPM_NAME = "php8-fastcgi-8.1.19-2.1.aarch64.rpm"
-RPM_HASH = "19179aae2e691642025efeda55063f96ec87ec3b3e1acb32be8be8da7d4fa69e99c33122fb3d8f838b1f76458d81258183d68756111347506a2c84a4aa29f209"
+RPM_NAME = "php8-fastcgi-8.2.7-1.1.aarch64.rpm"
+RPM_HASH = "346ceecb8d25bd3a851e15ebcf293f7a3b96dd151c45ced81aa3d1a0676613fa1dcdde368d5d0ffc477cf12b3ae8f269e6d361b3d84fcf54e8ae7be3d9af889d"
 
 RPROVIDES:${PN} += "config-php8-fastcgi \
 php-cgi \

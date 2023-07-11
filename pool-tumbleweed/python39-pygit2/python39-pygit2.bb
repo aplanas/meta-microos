@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.11.1"
 
-RPM_NAME = "python39-pygit2-1.11.1-2.2.aarch64.rpm"
-RPM_HASH = "613a15a922488c6234deb309c94ec4b04226971d68e2237e899e7a3e7374c6f71f1a2f20f3c6d9ff4e1238f9c7a61891ea799b5b7c51c188068f30ecce78096b"
+RPM_NAME = "python39-pygit2-1.11.1-2.5.aarch64.rpm"
+RPM_HASH = "c3a6e648dc8e2901bcfcc9d22040faf062c3b15296113a1c951664341deee4be922653c8248fe30a2e3ab4cfa83ece5e820a62c0e68652f81e8df3b377ee5352"
 
 RPROVIDES:${PN} += "python3.9dist-pygit2 \
 python39-pygit2 \

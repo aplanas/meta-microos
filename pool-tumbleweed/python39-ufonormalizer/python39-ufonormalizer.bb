@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6.1"
 
-RPM_NAME = "python39-ufonormalizer-0.6.1-1.7.noarch.rpm"
-RPM_HASH = "fa656f6d310afb9dd44b2c584b99bd48d909bb62c55338612571ccccfdc0fd76c02e5c5e8d508a40bf716dadb49d13b3f29c7e894a09c0fa8d6cf7f6fcae1997"
+RPM_NAME = "python39-ufonormalizer-0.6.1-1.9.noarch.rpm"
+RPM_HASH = "28e80c2cad0460f9c89fd54f03aadcd9388c6406d45680ec08d116c831ea4826eba28632645972c206e968f082e5477f87d3fc2a9505ffb60e533b1ed876ab91"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-ufonormalizer \

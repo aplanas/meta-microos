@@ -6,11 +6,11 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.8.12"
 
-RPM_NAME = "vorta-0.8.12-1.1.noarch.rpm"
-RPM_HASH = "ce5b71af17e3c7ad3e2bf2640ed77d425c341bf5d2ef178206cfdef9a01ddb1a60e032f3be602278bd85edc2546cac0792ec31632576cda45fd6e3a59287a4df"
+RPM_NAME = "vorta-0.8.12-1.2.noarch.rpm"
+RPM_HASH = "185210071220ab8c4e15d3f8805d763c7479259380640cae63196fa2f3595b2a71957cdf0b76597e5352295e0e87b68474d4cb1ec5dce44623c6433f31d7cd4b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-vorta \
+RPROVIDES:${PN} += "python3.11dist-vorta \
 python3dist-vorta \
 vorta"
 

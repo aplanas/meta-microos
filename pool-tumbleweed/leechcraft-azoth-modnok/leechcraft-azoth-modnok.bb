@@ -11,8 +11,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-azoth-modnok-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "a85f19fa9ea80eca18bcea16fe80b3ce7aefec589a316940b87fb78e62900e703400adb0af71d8d058ea7a4a26e1bacabd948a09258687f08d59924c6a37e7bd"
+RPM_NAME = "leechcraft-azoth-modnok-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "8cfce9a21d7bca77acbf96a450965628121f164c90f206ab08b8de4dcd5be7c3c4a3b90056bb5aaba9a9948cf44ebaee354847a2a97609cdd9b1fe71c5a1e286"
 
 RPROVIDES:${PN} += "leechcraft-azoth-modnok \
 libleechcraft-azoth-modnok.so"

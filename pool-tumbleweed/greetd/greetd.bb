@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.9.0"
 
-RPM_NAME = "greetd-0.9.0-1.2.aarch64.rpm"
-RPM_HASH = "fb10be6f53d6ba684a15214e4a4cbc03f687789d3d9e69fc66b53bf3c59e9daec6b3ebdda78c170f7f22c55b4e42036eefedd598e60221e785064197835d529f"
+RPM_NAME = "greetd-0.9.0-1.3.aarch64.rpm"
+RPM_HASH = "c9ba14fe6d2931a2bee899c5333aabad29b8454ef14704072ee70839fd1c1a59a2a857c222b3b7e9a1141c1f25492ccb7570c129e0012374cb97ee3e5e787ef2"
 
 RPROVIDES:${PN} += "bundled-rust-crate-agreety \
 bundled-rust-crate-async-trait \

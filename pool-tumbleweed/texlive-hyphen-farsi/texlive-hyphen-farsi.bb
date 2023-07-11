@@ -2,10 +2,10 @@ SUMMARY = "(No) Persian hyphenation patterns"
 DESCRIPTION = "Prevent hyphenation in Persian."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn54568"
+PV = "2023.208.svn54568"
 
-RPM_NAME = "texlive-hyphen-farsi-2023.201.svn54568-52.1.noarch.rpm"
-RPM_HASH = "1ea99dc8c418919408d4613f7e20225a0777c4def12f27ca70d08cee2c7be2a4153e674e8a349dbcd439eefbbbcdf65b9f8b1d9dbd74ecaaddf98ec0f1ef7b72"
+RPM_NAME = "texlive-hyphen-farsi-2023.208.svn54568-53.1.noarch.rpm"
+RPM_HASH = "23a66ba12f51dc164392b782d99454b8fb3151f2d500471cffbdee6d552995c77b77c5010f97f90a8efa8a3daa5119ee74498b469bd186f70c54144689af44a1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hyphen-farsi"

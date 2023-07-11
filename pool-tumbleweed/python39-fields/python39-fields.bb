@@ -10,8 +10,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "5.0.0"
 
-RPM_NAME = "python39-fields-5.0.0-4.1.noarch.rpm"
-RPM_HASH = "515866ac6e8a395edfd4c0ee12b4b517797efe3c3af29e33dc10350d7327f4c24ee9499f5748b86d3e09e426d8c6ea40e638f74eb8cd07794618e3c3036c8fab"
+RPM_NAME = "python39-fields-5.0.0-4.3.noarch.rpm"
+RPM_HASH = "ad4001c7a4b1e5bae24673791b3ed0f92868a00d8ea83c41bd7a6baa46265993a65fc0f854695428bca26597d1de9e72dc436b74bbf2eced3322263317d43f4b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-fields \

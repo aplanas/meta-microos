@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.2"
 
-RPM_NAME = "python39-pyuca-1.2-4.12.noarch.rpm"
-RPM_HASH = "cc240ebb6fffc57a4480a668d1fa1c31723e737d959a88f01e30a2d65f992c5b537edbe0ade0bfcb946700a907e7a3fcd139adeebf88f0a9500eec017b467d78"
+RPM_NAME = "python39-pyuca-1.2-4.13.noarch.rpm"
+RPM_HASH = "4f41eda175474bef9e8c100502490741e2d7a0d09717702a8d032ec275f3035ae1fd23d774a6805dd7b7a2036c14c0bf550e4812769f3157f5e68ad7f13f3d67"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyuca \

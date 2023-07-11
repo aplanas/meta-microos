@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "1.0.6"
 
-RPM_NAME = "qtmpris-1.0.6-2.7.aarch64.rpm"
-RPM_HASH = "8b1c19009471325510d7085424bd04cf3cdcd0bfde7141f5848287a2c27c823dc591c2e5715b659e1edf55b3a221797672da23691856eea70fac3c521221b53e"
+RPM_NAME = "qtmpris-1.0.6-2.8.aarch64.rpm"
+RPM_HASH = "4c26108b2c7b61b492a9b5b82217621cfe07ab1acb8730bf4c4282299efdd34590762107bfae96c3c9950805486ac0f07b86aa9236cf689afcb3e45b6a3b67b4"
 
 RPROVIDES:${PN} += "libmpris-qt5-qml-plugin.so \
 qt5qmlimport-org.nemomobile.mpris.1 \

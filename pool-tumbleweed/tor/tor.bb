@@ -24,8 +24,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.7.13"
 
-RPM_NAME = "tor-0.4.7.13-2.3.aarch64.rpm"
-RPM_HASH = "0fd4029df7aeadc8d007cdd8f44f20fe63eec1352831790b39ac879a71e5ee68fcb5b1d382badf3adf5cb0391f6a1828e59c7fce977c892e00b980bb5c88e601"
+RPM_NAME = "tor-0.4.7.13-2.4.aarch64.rpm"
+RPM_HASH = "36ceea73a0c3ab92112a69f1107374d990916ef0979db4fb84d189e4aaa6ae5b68cb9d4c8cb7366c46dd445c99d6acaee97ec9f13054f24a3af630d7c29a5bf7"
 
 RPROVIDES:${PN} += "config-tor \
 tor"

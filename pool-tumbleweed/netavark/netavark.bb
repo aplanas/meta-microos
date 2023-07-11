@@ -16,14 +16,15 @@ Its features include: \
 * Support for container DNS resolution via aardvark-dns."
 LICENSE = "Apache-2.0"
 
-PV = "1.6.0"
+PV = "1.7.0"
 
-RPM_NAME = "netavark-1.6.0-1.1.aarch64.rpm"
-RPM_HASH = "6c8ce60deac9887a589c4149f89a03777bb705cfda95129491946a6d6d085dd85a0203e4acc20c8b0769421104369692c0b8c157df20af6fd2127fc1d6406cf6"
+RPM_NAME = "netavark-1.7.0-1.1.aarch64.rpm"
+RPM_HASH = "287e48dc8bf0f2c6db2fe124c9b9c4fadd5220c9325ace907088f3279c05547feb2970db3c2ed2441a218c561ba167474f8515207e65daea5c9ea6590b50378d"
 
 RPROVIDES:${PN} += "netavark"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
+aardvark-dns \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6"

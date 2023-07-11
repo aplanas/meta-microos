@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-2.0-or-later"
 
 PV = "0.21.1"
 
-RPM_NAME = "gettext-runtime-0.21.1-2.1.aarch64.rpm"
-RPM_HASH = "a4e4cb27584dfe51a365aa14106a4f58eae95470f684c9078bd21f9aa2b0854ab03492c75778022fb3cec2e3d0c93ab8a9f67c81f177394795cb0ade8ca4c489"
+RPM_NAME = "gettext-runtime-0.21.1-2.2.aarch64.rpm"
+RPM_HASH = "3c322da68d471dd8135e29205bd7332458827d9984dc1c8a62575aab1a80356c4e64f58f8222e854cb608ee53ef7516a1f3d3a864d75e898e2428c2d8d8b7ac7"
 
 RPROVIDES:${PN} += "gettext \
 gettext-runtime \

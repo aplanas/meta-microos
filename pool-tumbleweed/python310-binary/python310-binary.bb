@@ -4,12 +4,11 @@ LICENSE = "Apache-2.0 | MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python310-binary-1.0.0-2.8.noarch.rpm"
-RPM_HASH = "6083ed16cdb0b2f80c6fe35d87d3523d5e299776b7f61bbad802ed525a58ae68f0c25c4e893da0faaa813a5837ee31d8667bd8849ba127005769e0cc15149e83"
+RPM_NAME = "python310-binary-1.0.0-2.10.noarch.rpm"
+RPM_HASH = "4b786f6bca5dba26f340ddde1ffd5d3cfc9200d015579c8766773713672487c601f7930a15abf3815fa88b00f3828e45dabd57608d7c44696a5eb99ee7054783"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-binary \
-python3.10dist-binary \
+RPROVIDES:${PN} += "python3.10dist-binary \
 python310-binary \
 python3dist-binary"
 

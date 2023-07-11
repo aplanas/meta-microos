@@ -30,10 +30,10 @@ DESCRIPTION = "StrongSwan is an IPsec-based VPN solution for Linux. \
 This package triggers the installation of both, IKEv1 and IKEv2 daemons."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.9.10"
+PV = "5.9.11"
 
-RPM_NAME = "strongswan-5.9.10-2.1.aarch64.rpm"
-RPM_HASH = "7eefc6307a37a9cf490b7578a349b2c67a47b78e795a18fc5f11ba942a77dce9689a528cd82fe0aec3da976026e69520867245f121a51157fbabfd88d0f54b8d"
+RPM_NAME = "strongswan-5.9.11-2.1.aarch64.rpm"
+RPM_HASH = "0f94be9ed2ee053a758fccf2a330d7ec069e692a506d3c156c638c01e26bf31d87c9dee3816fb1e27edc798188623bb3f7c87b937be0a65d67b6ac5b3dff3ab7"
 
 RPROVIDES:${PN} += "strongswan"
 

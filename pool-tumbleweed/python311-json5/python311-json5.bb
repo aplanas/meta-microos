@@ -12,11 +12,12 @@ LICENSE = "Apache-2.0"
 
 PV = "0.9.13"
 
-RPM_NAME = "python311-json5-0.9.13-1.2.noarch.rpm"
-RPM_HASH = "91134a2cfe1ef34372ac4ee00ec932a5b251a7d48088af4620455b424066abc3c1d1916792f03fee6bd077cc28c7a5bfd50d6f37b34da335644ef296ab137523"
+RPM_NAME = "python311-json5-0.9.13-1.4.noarch.rpm"
+RPM_HASH = "25e09c8e2ba9c1652472e3a13d1f85780067ba7dd0c86e5a85623f8f6e3bd1f0e12e9afe289a4c0b9739a094eff4edf708f725b1a43bfe60e87e23ace92e607e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-json5 \
+RPROVIDES:${PN} += "python3-json5 \
+python3.11dist-json5 \
 python311-json5 \
 python3dist-json5"
 

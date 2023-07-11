@@ -14,14 +14,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.017"
 
-RPM_NAME = "perl-Test-Fatal-0.017-1.2.noarch.rpm"
-RPM_HASH = "8d919984ee9d280d386359e6e7f5eacfb724009242c237a739504781cdc4ef14d6624f87d7e5f92c77f203a27b1bd9fabeb5935a93d1495942d3411b4e32977f"
+RPM_NAME = "perl-Test-Fatal-0.017-1.3.noarch.rpm"
+RPM_HASH = "aee0887a87fd332f2a010e62c8f268ff54a507e15172ca0b685923a8fb8b9af62aa00e5a59a3f3bdbd38bb587e8be838da328f7600acf907df7537b9f591f654"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Fatal \
 perl-Test-Fatal"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Try--Tiny"
 
 inherit rpm

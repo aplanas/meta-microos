@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.1"
 
-RPM_NAME = "libquo7-1.3.1-2.9.aarch64.rpm"
-RPM_HASH = "ee64000d21161f6b05ccfe1fc83e7980f84513bf2124e759a5b56d95aafeee7e8e0635a1691f5a233dcdae953a83d026fe4f8d3e451fb7a9bb84a1842a716e78"
+RPM_NAME = "libquo7-1.3.1-2.10.aarch64.rpm"
+RPM_HASH = "178aaf3482f81e51bd873168cfb3c6b9691e174ffeef142ab892064f0b328f69d8f5b7fd4319f1fb636a35adad93c5b7bc37ee5efc6ded648249f324b2a4680a"
 
 RPROVIDES:${PN} += "libquo.so.7 \
 libquo7"

@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0 & GPL-3.0-or-later"
 
 PV = "8.2212.0"
 
-RPM_NAME = "rsyslog-module-omamqp1-8.2212.0-2.4.aarch64.rpm"
-RPM_HASH = "a4cd38451edcaa21a831ddd6a9736fdcb9786c319f522f4510b3d3aef2baeda5d4b0d0ddae037b63fb1b2d6cf47cafc549071af2f5894f5ff6a9df271ee88e99"
+RPM_NAME = "rsyslog-module-omamqp1-8.2212.0-2.5.aarch64.rpm"
+RPM_HASH = "2831ae2824524f2020dc28aeb08b85754dee39189bc499bbfdc15a48b46635a11a408680bc5cce2e95a49e603a99ac88164cc04f29b78dc0199fcdbe265dfb76"
 
 RPROVIDES:${PN} += "rsyslog-module-omamqp1"
 

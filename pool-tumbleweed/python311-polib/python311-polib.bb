@@ -11,11 +11,12 @@ LICENSE = "MIT"
 
 PV = "1.1.1"
 
-RPM_NAME = "python311-polib-1.1.1-1.8.noarch.rpm"
-RPM_HASH = "247fbe5fe905b4dd275642078ebacf96c06216856c2966dec1b72113152eeef783eb08b3647fff011a7b636345dffac4d0fd2cda18350af5bff1543c975412dc"
+RPM_NAME = "python311-polib-1.1.1-1.9.noarch.rpm"
+RPM_HASH = "dbc01d691f38b03784eb43c09bb9ae6c93df100a4068c8d864a76245f45d4faa6f10dcfb50004f49382cfb3c8259ea855fe20f3e84eeeeaea68c314defdc2e44"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-polib \
+RPROVIDES:${PN} += "python3-polib \
+python3.11dist-polib \
 python311-polib \
 python3dist-polib"
 

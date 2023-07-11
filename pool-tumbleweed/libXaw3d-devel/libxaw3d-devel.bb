@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "1.6.4"
 
-RPM_NAME = "libXaw3d-devel-1.6.4-1.3.aarch64.rpm"
-RPM_HASH = "4462e2eb8c7bed41d9867be638edf18418eddaaed70650f72365dcc6d4294460cb9155dfbaa643a419f127b60b3a6bd69a11290a5b0fe34562e59362a834c48b"
+RPM_NAME = "libXaw3d-devel-1.6.4-1.4.aarch64.rpm"
+RPM_HASH = "fb21d8ddc360285932bdea05b37617b2f7b6c39bd24b33abc460720ae4a96d4db3bf9a7fd7f74906e3d825800b2cbcbccc405548d334102f21990fa7adbeb1ee"
 
 RPROVIDES:${PN} += "libXaw3d-devel \
 pkgconfig-xaw3d \

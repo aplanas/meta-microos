@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.9.6.1"
 
-RPM_NAME = "python39-vobject-0.9.6.1-2.19.noarch.rpm"
-RPM_HASH = "b021202ac3458a7134460f3e20c229183f28d3502ff4a8b2d404d4b2c3e37c8cad5cb7705205e82b6b6a02629e5c4a9239824c914de055a60243c92cfde7c3ca"
+RPM_NAME = "python39-vobject-0.9.6.1-3.1.noarch.rpm"
+RPM_HASH = "efd33cf7b8492a495c0d7fc7a4e135b69cd1ffe5c799f5a555255d6b0399a282c487651f306d524cf5739dce79b7de46df29adb3740e7091285f41d8dafec127"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-vobject \

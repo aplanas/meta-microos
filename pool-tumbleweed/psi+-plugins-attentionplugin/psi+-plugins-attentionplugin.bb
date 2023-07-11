@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-or-later"
 
 PV = "1.5.1615+0"
 
-RPM_NAME = "psi+-plugins-attentionplugin-1.5.1615+0-3.1.aarch64.rpm"
-RPM_HASH = "08fd04159b6a0a2f0c1e4317ae8fea11f62cad4861133e135164dd51b69dbd4b18882cbd6f1d705a0e9c11c77578a942aaa7466860902999fa23ef1296eb5142"
+RPM_NAME = "psi+-plugins-attentionplugin-1.5.1615+0-3.2.aarch64.rpm"
+RPM_HASH = "b114f8a148114da35e3025b9f4f5e61385c9346fe28e2146bd6fe9c8a7388ae0faf3fa6211f87a64d8cb70e56c7e89f49fb5e503206f42b9a4acd6dbacd97f9a"
 
 RPROVIDES:${PN} += "libattentionplugin.so \
 psi+-plugins-attentionplugin"

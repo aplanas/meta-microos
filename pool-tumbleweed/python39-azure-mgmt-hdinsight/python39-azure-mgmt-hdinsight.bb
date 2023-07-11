@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "9.0.0"
 
-RPM_NAME = "python39-azure-mgmt-hdinsight-9.0.0-1.8.noarch.rpm"
-RPM_HASH = "bb336853735b03366e90627d470e39ac30c9716e74ae3dfc87e655886b5676d52dd7ddb28817f9707de3de38d95621132e745e5a6bbbd386b10a8cbc72526887"
+RPM_NAME = "python39-azure-mgmt-hdinsight-9.0.0-1.9.noarch.rpm"
+RPM_HASH = "f273f6c5cc99d8bd90f48e54a72ed56183d07664d4d9af6725f4cb8cca485996ec334cbaad07016351ab91ab0a9cc783df93d5b6adc0bbe563569a192e45e73e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-hdinsight \

@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.114.0"
 
-RPM_NAME = "libpolkit-qt5-1-1-0.114.0-2.9.aarch64.rpm"
-RPM_HASH = "0f10b65c4f3aaec8ad745ee52e7a48dcc202e3a763e83fd8fe73c58f87b004ca0bb5e23aff80e11dce10167edd54751ef5d4d59f051cc372af05839af6dfdabd"
+RPM_NAME = "libpolkit-qt5-1-1-0.114.0-2.10.aarch64.rpm"
+RPM_HASH = "97b90f36cbdc1b64386b9649ddcce8e1c602e5eabe793f7accce22af84519a1c9665c09f40de4c05cd37ce8548b7cfa76918b5930a3a7487ee4c19deac599877"
 
 RPROVIDES:${PN} += "libpolkit-qt5-1-1 \
 libpolkit-qt5-agent-1.so.1 \

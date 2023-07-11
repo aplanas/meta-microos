@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0.1"
 
-RPM_NAME = "python39-hepunits-2.0.1-1.11.noarch.rpm"
-RPM_HASH = "7232eb82a1349bca45e13c8f700d6cb37a13f362e3e5f85e9af791dfff47e3131c4b1d085e42226827d4297594d422964e31f8d060e22d070c0a62cf1f3ce1fa"
+RPM_NAME = "python39-hepunits-2.0.1-1.13.noarch.rpm"
+RPM_HASH = "7de0c554e86abfc70f4f152b4079473b9a75a4ca1b4cd7ad284264d9dabcb120334894ffbeedad9cf6619c65ac7cff0a429ad5e823144a298e04173c20590b4b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-hepunits \

@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "8.45"
 
-RPM_NAME = "pcre-devel-8.45-2.6.aarch64.rpm"
-RPM_HASH = "197bb719a02e06e8712714c268562712bcc44ec61c96074a8ec06bb376a8d535140b1ea062d91a94f4d00e4e97fa0ba004f2faddda80290ac318a44a35a5b5e5"
+RPM_NAME = "pcre-devel-8.45-2.7.aarch64.rpm"
+RPM_HASH = "c4cf1fd4ebfa152a030ee3a992ab0ba72149723bbf3812bc34615b8c74583a0fdb9b95adbd8ff33eace108069d85508a9c91d7399eb973263840aaf4fa6123b2"
 
 RPROVIDES:${PN} += "pcre-devel \
 pkgconfig-libpcre \

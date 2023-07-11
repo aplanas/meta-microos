@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "7.4.9"
 
-RPM_NAME = "python39-jupyter-client7-7.4.9-2.1.noarch.rpm"
-RPM_HASH = "fbbcb87409a2e73e1224b7ac032584e3ee4d66cd941e8ca7e2d5a0e71f20c7a8851d0d318d68fb87fdf0ef0b78e723e01a7635292e66ee9d01f4fd0a84507f84"
+RPM_NAME = "python39-jupyter-client7-7.4.9-2.3.noarch.rpm"
+RPM_HASH = "e7863105483419d51656e394942f950510b81ca42061a7f25467c0ae6a51b5c2f3e688f835551bc245671edb17456ee3c693af1d031308c7b061c7496b7bca79"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-jupyter-client \

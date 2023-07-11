@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.0.1"
 
-RPM_NAME = "ghc-alsa-core-devel-0.5.0.1-4.2.aarch64.rpm"
-RPM_HASH = "c8777669c0939c8032cdba498ef365f120445419a3edfe61bee62e00c0a4685a27e385099c5c13e091bbb209f966fd857c0519c03275e04839dcdb84e147b423"
+RPM_NAME = "ghc-alsa-core-devel-0.5.0.1-4.3.aarch64.rpm"
+RPM_HASH = "40061589e56b860858c288310b2cf02c98c8459e9a1d1b67bbf5cf2e0e3059edd89445b6a3201af9400559d17e295a9d4203771ea4e28ede92c65fca01ad17de"
 
 RPROVIDES:${PN} += "ghc-alsa-core-devel \
 ghc-devel-alsa-core-0.5.0.1-JiFJwdvZ0Gx6AeuqXKf7yg"

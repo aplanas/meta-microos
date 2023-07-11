@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0"
 
 PV = "0.4.0"
 
-RPM_NAME = "recordmydesktop-0.4.0-1.9.aarch64.rpm"
-RPM_HASH = "1613f44077da49baa89bf97f94490b1273d736164376ecb1c78294ce0abaaecf76a84e31657578243b9e11b29e596f476407a4c3860fcf02731209e519f7c536"
+RPM_NAME = "recordmydesktop-0.4.0-1.10.aarch64.rpm"
+RPM_HASH = "6b94f5a8083264c9f2d48043a6989c66649fdbeceed8e2ead3a835ba656f2b333824c883d156a6951b330add953f42260ad66539bd9c9efff06b42d417ecadc7"
 
 RPROVIDES:${PN} += "recordmydesktop"
 

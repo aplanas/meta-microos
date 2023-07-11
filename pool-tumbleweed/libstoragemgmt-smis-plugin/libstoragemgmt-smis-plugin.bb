@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.9.8"
 
-RPM_NAME = "libstoragemgmt-smis-plugin-1.9.8-1.1.noarch.rpm"
-RPM_HASH = "98607b3608017d43feaf7d93a6ae816533b8e9f079bde48ba7149e1ea7aa4ce3d4e9472c00bcda00baa656c4807149d3b21224657142e2dcdd0951e07073abfc"
+RPM_NAME = "libstoragemgmt-smis-plugin-1.9.8-1.2.noarch.rpm"
+RPM_HASH = "c3b886d9e5a34402a5557f5877084fe03b8dca6f5870c635cb445b041dca07802711f76fb191648a1fc3ddb9de4b7743ae3e65fc25dec64736a42bccf11adad3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libstoragemgmt-smis-plugin"

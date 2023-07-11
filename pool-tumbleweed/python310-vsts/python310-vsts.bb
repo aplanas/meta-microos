@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.1.25"
 
-RPM_NAME = "python310-vsts-0.1.25-2.14.noarch.rpm"
-RPM_HASH = "7578a35d244df42bd3191afe5957d7904cb17536d3391a5f3171002965c85e8596a64488cd004b18691d0f15cbea59c039c90418b356d50e6580d0590497277a"
+RPM_NAME = "python310-vsts-0.1.25-2.16.noarch.rpm"
+RPM_HASH = "e1e8f97d9c21a9a1080686975c2b2830507629c9479db5513c6539292a51c32b89b1294bbf1dab835c9ebbccc7d327d6c27468adb7f89c89adf13b57303e9fd7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-vsts \
-python3.10dist-vsts \
+RPROVIDES:${PN} += "python3.10dist-vsts \
 python310-vsts \
 python3dist-vsts"
 

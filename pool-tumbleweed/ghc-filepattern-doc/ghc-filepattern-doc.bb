@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.3"
 
-RPM_NAME = "ghc-filepattern-doc-0.1.3-2.4.noarch.rpm"
-RPM_HASH = "1e43083a5c8f34f1a099cb4aed45329141d8dce89dfc22c7caed11cc5b2ab4166cc2a5e739789e9b19796e964edb91d26206520f7d065a272798744a89c33f5b"
+RPM_NAME = "ghc-filepattern-doc-0.1.3-2.7.noarch.rpm"
+RPM_HASH = "016afe51582699b990648e8b707cfc68bea3ae625a3b10f239906ef8645551fd2ec4bd64b93ce3055b525162c9e455f7ebfaf7b04df46477020eeade2e96e698"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-filepattern-doc"

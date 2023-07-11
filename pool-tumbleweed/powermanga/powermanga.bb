@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.93.1"
 
-RPM_NAME = "powermanga-0.93.1-5.3.aarch64.rpm"
-RPM_HASH = "a1d80ec8488b86ec065ea9bfa9b69cab263224b55af59e57d6be8f698aa8b90e1d20965ad1dc70208b329d009b78bb35222e380034f7d058bc6ec46edbb92026"
+RPM_NAME = "powermanga-0.93.1-5.4.aarch64.rpm"
+RPM_HASH = "5ff8c372d5cb7f498a5870e8652f0632906818ae7d0abdc1cdcc2a5a9e396f178df0881c4f9da1e97b01acface3437b3875f59751ce615fcb5cfc460e33d7453"
 
 RPROVIDES:${PN} += "config-powermanga \
 powermanga"

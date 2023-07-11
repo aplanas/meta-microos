@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Xhosa Translations"
 DESCRIPTION = "YaST2 - Translations for Xhosa."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230516.e4ba802a"
+PV = "84.87.20230630.ccfa6add46"
 
-RPM_NAME = "yast2-trans-xh-84.87.20230516.e4ba802a-1.1.noarch.rpm"
-RPM_HASH = "c3a84cae5fb1001810adce8ff84a57a862d7bcddda2d3be7413399cd8563d24def085ad82ee6dcbeca8d9e95ac5c81390708a6efc1413afd9a74e9e5723318a4"
+RPM_NAME = "yast2-trans-xh-84.87.20230630.ccfa6add46-1.1.noarch.rpm"
+RPM_HASH = "c4acf8fb3493146f869259ef74ea4f43c6f377dab2a1fd7aab8558421594f4e9f08442415629dffea50ddf0a369cf45cbd6e799bf63469a2972dfe2fb8de8f05"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-xh \

@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-quickparticles-private-devel-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "6f9a5cc65422a3397bb68b862eca3631329e09ab21a8aaace6cf40d012e2dc0c6371e612433462091d97add8e0effdceac29a3e0abbbce0ba784f24dbbb42c19"
+RPM_NAME = "qt6-quickparticles-private-devel-6.5.1-1.3.aarch64.rpm"
+RPM_HASH = "9ce869d4cd77c14ef6897977af7e03eb73fa4fca02377c4e2a1f886b4cd2c28f98e6c68b6aba79bd52b5f3d7491ab80f7d36a5845398495261d442549ebb482d"
 
 RPROVIDES:${PN} += "cmake-Qt6QuickParticlesPrivate \
 qt6-quickparticles-devel \

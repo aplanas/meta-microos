@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4.1"
 
-RPM_NAME = "xviewer-plugin-map-1.4.1-1.6.aarch64.rpm"
-RPM_HASH = "2fcda3692a409beb1e148e790b0538bf6648b2186a0ae130c76396cde24c362226ef96df090f407c67bd78f455a02d348c3fe4fe4735685fb2cdb88384f61517"
+RPM_NAME = "xviewer-plugin-map-1.4.1-1.7.aarch64.rpm"
+RPM_HASH = "a929a146cc43b3d4aa93c8408010ffa54a6ed23e5d50c6cd9f8c666aa44339b1e62fd8bc3bb942f6c3ca4bbd98159e0421ec656c7e32bd52abdf1c92fe568ef4"
 
 RPROVIDES:${PN} += "libmap.so \
 xviewer-plugin-map \

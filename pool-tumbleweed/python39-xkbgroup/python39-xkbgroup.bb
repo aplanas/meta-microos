@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.2.0"
 
-RPM_NAME = "python39-xkbgroup-0.2.0-3.12.noarch.rpm"
-RPM_HASH = "1e6dc3abd9c3db5f4ed460215358ef7033ba49ac76618faa899e548977e8626cb8ab911da71a32f64165d2a7dd830304dea080398f830252227cf163aeec475f"
+RPM_NAME = "python39-xkbgroup-0.2.0-3.13.noarch.rpm"
+RPM_HASH = "4726017f7cb9b1decf21b1235847f74119bc7349fdf527a9d709b53f57e425d769a83bfd516b251050d8aea00dc03948ab9b3dcd99287e01f87eec197b86d7b1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-xkbgroup \

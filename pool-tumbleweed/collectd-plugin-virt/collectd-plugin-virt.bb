@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only & MIT"
 
 PV = "5.12.0.134.g4cebbfc"
 
-RPM_NAME = "collectd-plugin-virt-5.12.0.134.g4cebbfc-1.4.aarch64.rpm"
-RPM_HASH = "02b2e80e7cc743649eb0faccb9ad6d281bfc65921b53e9acddd8119c1bc89c6b6077078766cdf96ea4d3a1cd4657683c96699cdb44eb8a270e61d7a96b4dba53"
+RPM_NAME = "collectd-plugin-virt-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
+RPM_HASH = "e4cdcbd350b847f9a5526da437f62f832935fe2520d4228bedcd0b2b840015b5045130454336a6a4d3c3cded320fe2fd4a65f49f5ad9ae819f7282ffa7d3e9b6"
 
 RPROVIDES:${PN} += "collectd-plugin-virt"
 

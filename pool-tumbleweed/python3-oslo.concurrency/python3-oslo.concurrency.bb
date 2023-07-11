@@ -8,12 +8,12 @@ LICENSE = "Apache-2.0"
 
 PV = "5.0.1"
 
-RPM_NAME = "python3-oslo.concurrency-5.0.1-1.2.noarch.rpm"
-RPM_HASH = "44fa22848df432d5bb62d8c682a5f8a70203cdbc0a40314fb6d18113288e69bf7630eeef5e4f5485f06b58b37fb801b62b1adc1fc9be9ec43c6b94b91104dbf4"
+RPM_NAME = "python3-oslo.concurrency-5.0.1-1.3.noarch.rpm"
+RPM_HASH = "237caefb85782cec158ad59ba9c90899889fb35432db0ab94f26093dde239c7fb7cc386975257507cc1c82f8dd726fc1508b114991cdbf0be83852372e01927e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-oslo.concurrency \
-python3.10dist-oslo.concurrency \
+python3.11dist-oslo.concurrency \
 python3dist-oslo.concurrency"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

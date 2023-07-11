@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.8.29"
 
-RPM_NAME = "mc-lang-4.8.29-2.1.noarch.rpm"
-RPM_HASH = "0e49ab3e14365f8af4a9ee796e99907cfaa827d02347c40815a6cf3ba3cd42ad91da10d72449f226f63e8f8dd00ff8485622ead7935d658e5e1acecb702f78fa"
+RPM_NAME = "mc-lang-4.8.29-2.2.noarch.rpm"
+RPM_HASH = "d3aa39b87b8945c84507381fc23f269608f239634875199df40d1f6d89c6c4cbb369f03816f994fb24bb5402387a00b8f5a886d2125854b01a58896baeea13b0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mc-af \

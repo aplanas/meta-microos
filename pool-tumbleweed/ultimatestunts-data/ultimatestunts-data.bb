@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.7.7.1"
 
-RPM_NAME = "ultimatestunts-data-0.7.7.1-2.3.noarch.rpm"
-RPM_HASH = "798efc2d640bf91b5f3e1a220cb2595ba4c93a3a76bb29a65c4b929642f3cd515d969bb078fc3539338caa7999d108bbc2dcb5511734057a88504115179ea44b"
+RPM_NAME = "ultimatestunts-data-0.7.7.1-2.4.noarch.rpm"
+RPM_HASH = "f896db7e5b41ee21309541fb504463ce399b8e09a657e5cfcf60d4c840946f6006a186557c8479d418112e757820c52b89fc5817700bb143e369e20ffc5d3206"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ultimatestunts-data"

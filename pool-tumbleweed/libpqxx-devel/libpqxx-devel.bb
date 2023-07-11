@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "6.4.5"
 
-RPM_NAME = "libpqxx-devel-6.4.5-1.19.aarch64.rpm"
-RPM_HASH = "203c889baae3eed384b76b2c1d7504e3782e17c43034919695765dfbcd371609c41f9f40e01d310b20c5c10f2084300c76783e64db19e67343018bfe48150887"
+RPM_NAME = "libpqxx-devel-6.4.5-1.20.aarch64.rpm"
+RPM_HASH = "df0e1f8c2080f0bda88d7cfff7ecc6c8c4f27e31dc98a41ae55142aef2631feefaa2b2c38ece9db442de483b51bbf4c79ff071cf23a73bd7788580b123c55df6"
 
 RPROVIDES:${PN} += "libpqxx-devel \
 pkgconfig-libpqxx"

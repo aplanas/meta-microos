@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0.0"
 
-RPM_NAME = "python39-azure-mgmt-edgeorder-1.0.0.0-1.6.noarch.rpm"
-RPM_HASH = "440dacdaf89729de2d1fc72ac9ab8a3da27971a08f213cf49428331c5646c677460e010ea09c73fb0f51733e57c4fdb083ba35049db41679b99b533f4f66dc03"
+RPM_NAME = "python39-azure-mgmt-edgeorder-1.0.0.0-1.7.noarch.rpm"
+RPM_HASH = "b7407c7e0aa2157ead1a597781e5b001e5cea26c7051caab5affb2a83d280f838111a020194f8e14e674b0f02699d79fbc7d7e1afecb82370fe1824590c1f602"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-edgeorder \

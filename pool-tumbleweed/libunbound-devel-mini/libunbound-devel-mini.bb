@@ -12,8 +12,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.17.1"
 
-RPM_NAME = "libunbound-devel-mini-1.17.1-1.3.aarch64.rpm"
-RPM_HASH = "06ab15cc10eba7578215a5b1156481014d4999f47681906bfd7989661dcb50bed602d6ce4a6198a8ebe1f9eeaad8913340b52e072502daa7f20a549e051f815a"
+RPM_NAME = "libunbound-devel-mini-1.17.1-1.5.aarch64.rpm"
+RPM_HASH = "55b83c0181a9f699d44fce8714848eafc9556f30b038ff61e8937002ddcdb517c5369358e20f866a507c45a0e14cfd601747a4e358623f55399900a6e43049fc"
 
 RPROVIDES:${PN} += "libunbound-devel \
 libunbound-devel-mini \

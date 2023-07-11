@@ -4,8 +4,8 @@ LICENSE = "EPL-1.0"
 
 PV = "2.2.5"
 
-RPM_NAME = "sblim-cim-client2-javadoc-2.2.5-7.3.noarch.rpm"
-RPM_HASH = "8caeb962c43c7506116e7193f13a91b7c99941d014282910a5f7bb7813c6698bf9a5cb8bc638f499ec2e1d5bb269696c6aad40e45098dca40af20cfca77a8a8a"
+RPM_NAME = "sblim-cim-client2-javadoc-2.2.5-7.4.noarch.rpm"
+RPM_HASH = "555316239d3e524aab053fffaa6d8b9bf4835eb0f2ea46bfda824d3d4b9d9c418edc91ee5a65864e082acdab4425ba5656638d846a8ddd894b33ff5b3f953766"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sblim-cim-client2-javadoc"

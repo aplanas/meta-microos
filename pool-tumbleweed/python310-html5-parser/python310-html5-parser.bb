@@ -3,13 +3,12 @@ DESCRIPTION = "A standards compliant, C based HTML 5 parser for Python. It proce
 about thirty times faster than the 'html5lib' pure Python based parser."
 LICENSE = "Apache-2.0"
 
-PV = "0.4.10"
+PV = "0.4.11"
 
-RPM_NAME = "python310-html5-parser-0.4.10-2.10.aarch64.rpm"
-RPM_HASH = "19f963c1dceecf1c6ffde82158515864f44ab1eac00c183b2c02a991a302c5dc119c652230d212b7d22306fb05770f9c2b8a8912b811d5e14156792d3b035c9f"
+RPM_NAME = "python310-html5-parser-0.4.11-1.1.aarch64.rpm"
+RPM_HASH = "c13f24182f9b885a9ec1fd320963d92f67c6474fe63b2c03c3fdf7f7f1d0aed41ce4dceb1157d19a8902215c1bde3adcc18ee7cc9edc262e4fab83fe1f044a77"
 
-RPROVIDES:${PN} += "python3-html5-parser \
-python3.10dist-html5-parser \
+RPROVIDES:${PN} += "python3.10dist-html5-parser \
 python310-html5-parser \
 python3dist-html5-parser"
 

@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.1.5"
 
-RPM_NAME = "gtkpod-devel-2.1.5-6.18.aarch64.rpm"
-RPM_HASH = "b11eb62ade96727f3ae4364edea6ff13718bf1db900c76094c676aca9aedf127a172c736b31ce8b8cb6c899f9be757c2e0d1c899f3e72a6d9806a2cbf3ec3996"
+RPM_NAME = "gtkpod-devel-2.1.5-6.19.aarch64.rpm"
+RPM_HASH = "ec0a1b6d383f3bb6ed5f0901fecdefea94e01087cab48f7a0069aad0195a674626ff0dd02df1b03ecf336a2285e4e1a415e3ece042bdd4eb1e00f6f74e7c74e0"
 
 RPROVIDES:${PN} += "gtkpod-devel \
 pkgconfig-libgtkpod-1.1.0"

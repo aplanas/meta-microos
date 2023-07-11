@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.41"
 
-RPM_NAME = "connman-nmcompat-1.41-4.7.aarch64.rpm"
-RPM_HASH = "0a60536a0cc8cbb2801f07ec5dbcf9a1492911bfc20381d3d27bf7fe1bfbdc391f85f465771f87687b779640ba5a0e72ee4ae0d77b4176070b9a8f462a64cb0c"
+RPM_NAME = "connman-nmcompat-1.41-4.8.aarch64.rpm"
+RPM_HASH = "7a8708996393b6523c34c5c6e15b84baf0ce8fffb2082281180902faa1c32b0753944097943a09312eb405b4f05ed30ab777852009c59e393878e10fd7dab931"
 
 RPROVIDES:${PN} += "connman-nmcompat"
 

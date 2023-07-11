@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.14.2"
 
-RPM_NAME = "subversion-1.14.2-5.3.aarch64.rpm"
-RPM_HASH = "7e58a87e412137e8ad81b925d7015b357250d951322d404fd0a2664cc8d9d904a66f8b09066a8ae0580c3fb1ad9be31c4d9b2a481c60fb7cae54de7b5420c876"
+RPM_NAME = "subversion-1.14.2-6.1.aarch64.rpm"
+RPM_HASH = "bcff5b59c67eab73aa73a61b47fa5a6adfc202a0b1d5327b33ccad3eff2c998a05e4b4fe4a6a3cc2d656f9af64bd867a9123ccac6c78f975aab964a80726efbc"
 
 RPROVIDES:${PN} += "group-svn \
 libsvn-client-1.so.0 \

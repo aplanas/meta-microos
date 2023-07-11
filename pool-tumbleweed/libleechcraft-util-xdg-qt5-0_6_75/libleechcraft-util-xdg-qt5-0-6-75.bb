@@ -5,8 +5,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "libleechcraft-util-xdg-qt5-0_6_75-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "2c8a01411f8a7766c0d510346032f55be4b4d73d5fa8b7e23a1dc9bcb7a480b5233193ccfefac4e71c05d8faf848005e06562fbc2539b4d4abe82a9e089a7700"
+RPM_NAME = "libleechcraft-util-xdg-qt5-0_6_75-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "3e5e123bbcff6c2b039677d514c610f5a967673030a0a69f40d270032aa14c7b4b00c19590ca97f5720b8a374959750591089c6b52f660a8ccd31c5b846b1f2a"
 
 RPROVIDES:${PN} += "libleechcraft-util-xdg-qt5-0-6-75 \
 libleechcraft-util-xdg-qt5.so.0.6.75"

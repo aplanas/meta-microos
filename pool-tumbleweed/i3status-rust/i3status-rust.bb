@@ -5,10 +5,10 @@ information (time, battery status, volume, etc) on the i3 bar. It is also \
 compatible with sway."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.30.7"
+PV = "0.31.8"
 
-RPM_NAME = "i3status-rust-0.30.7-1.1.aarch64.rpm"
-RPM_HASH = "43eadd125d1e47f28b7e213c845ed06d1ba5a908471a2f5115f980371ede99d0b9182df537ee47bb1b4141e70c01c5dbf3b04a19d0360cc8b05568147ef65750"
+RPM_NAME = "i3status-rust-0.31.8-1.1.aarch64.rpm"
+RPM_HASH = "8bc822d88673829217ba3c5dad0fcee93f99f4ebf663b1ee0b65d1c5ee609b4c349a2c28df6ebbb054eaa8d8cdf5b2cb625ca414c307a615ae4792db1326747a"
 
 RPROVIDES:${PN} += "bundled-rust-crate-aho-corasick \
 bundled-rust-crate-anstream \
@@ -23,6 +23,7 @@ bundled-rust-crate-async-pidfd \
 bundled-rust-crate-async-recursion \
 bundled-rust-crate-async-trait \
 bundled-rust-crate-autocfg \
+bundled-rust-crate-backon \
 bundled-rust-crate-base64 \
 bundled-rust-crate-bitflags \
 bundled-rust-crate-block-buffer \
@@ -57,6 +58,7 @@ bundled-rust-crate-encoding-rs \
 bundled-rust-crate-enumflags2 \
 bundled-rust-crate-enumflags2-derive \
 bundled-rust-crate-env-logger \
+bundled-rust-crate-equivalent \
 bundled-rust-crate-event-listener \
 bundled-rust-crate-fastrand \
 bundled-rust-crate-filetime \
@@ -117,13 +119,13 @@ bundled-rust-crate-nom \
 bundled-rust-crate-notify \
 bundled-rust-crate-num-cpus \
 bundled-rust-crate-num-derive \
-bundled-rust-crate-num-integer \
 bundled-rust-crate-num-traits \
 bundled-rust-crate-once-cell \
 bundled-rust-crate-openssl \
 bundled-rust-crate-openssl-macros \
 bundled-rust-crate-openssl-probe \
 bundled-rust-crate-openssl-sys \
+bundled-rust-crate-option-ext \
 bundled-rust-crate-ordered-stream \
 bundled-rust-crate-parking \
 bundled-rust-crate-parse-zoneinfo \
@@ -132,6 +134,8 @@ bundled-rust-crate-phf \
 bundled-rust-crate-phf-codegen \
 bundled-rust-crate-phf-generator \
 bundled-rust-crate-phf-shared \
+bundled-rust-crate-pin-project \
+bundled-rust-crate-pin-project-internal \
 bundled-rust-crate-pin-project-lite \
 bundled-rust-crate-pin-utils \
 bundled-rust-crate-pkg-config \

@@ -19,8 +19,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-azoth-vader-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "8ba773c547a2d5556335ec00e8d9a90013858d7a5ab5783e72975ab9a8688a36e008670c264c4b0abca6bd1277f69ce08cb87129a6d7d427b8b2fde8658fc51e"
+RPM_NAME = "leechcraft-azoth-vader-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "900834c8bd65c9049215d18b657ea85c36aca8e0694422af0f09a7793dd48190e2f0ace5374c45825ac56001bef6ebdddf3505c4782d1e6821569e5b33f0bc81"
 
 RPROVIDES:${PN} += "leechcraft-azoth-protocolplugin \
 leechcraft-azoth-vader \

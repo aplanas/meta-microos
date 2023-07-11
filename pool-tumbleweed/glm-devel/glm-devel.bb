@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only & MIT"
 
 PV = "0.9.9.8"
 
-RPM_NAME = "glm-devel-0.9.9.8-2.7.aarch64.rpm"
-RPM_HASH = "de086ed0e7705a16ee70c47406339588704162ba6d77714629ec1bc45a64e1c48eca8f1daa758a53d3867ae722288168669a72ce5b83a6516284ac799cf09518"
+RPM_NAME = "glm-devel-0.9.9.8-2.8.aarch64.rpm"
+RPM_HASH = "50125471464fae984e83ec2ac46b24a3cc22c1b901c549b3060456c3afaca46354b1a70ea31fcfb1d79182d9bdff3590630a50eca167b82ae02bce8c5626ef09"
 
 RPROVIDES:${PN} += "cmake-glm \
 glm-devel \

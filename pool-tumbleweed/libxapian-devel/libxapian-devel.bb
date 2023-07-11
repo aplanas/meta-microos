@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.4.21"
 
-RPM_NAME = "libxapian-devel-1.4.21-1.3.aarch64.rpm"
-RPM_HASH = "3b5cee9de1002cc9faf06b20947260c4c99f693a78538ba2a2eef5a9c99c755a3e53c2488df595d87782b11ddf83e4c8dce85b9365ed31a96946b77cbb3c0c2e"
+RPM_NAME = "libxapian-devel-1.4.21-1.4.aarch64.rpm"
+RPM_HASH = "c6dc7e12a7e31ddd380c28fbec75bef2af2476eea8b7be2c324369e1555ee2f5817fa546776dd68ec135e71ccd1e71c387d035b43461a05e1757297f8a5e027c"
 
 RPROVIDES:${PN} += "libxapian-devel \
 pkgconfig-xapian-core"

@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "9.24.61"
 
-RPM_NAME = "kiwi-systemdeps-image-validation-9.24.61-1.1.aarch64.rpm"
-RPM_HASH = "656c918de0be7660ef2a21a5b7773328d3d7cc095b5c03729de9e658a30681b86ce2e25457c7746079a4034d0c85ed8f62348e55ac757f702547f6312bdcd105"
+RPM_NAME = "kiwi-systemdeps-image-validation-9.24.61-1.2.aarch64.rpm"
+RPM_HASH = "05f2f62ed2d18aae61f90223ed08596d5b9eb95277ce86f6c699cc0bafcb4016019873fa4aa0fdd53edc9f644f5204ba617303f13ca79ee67a65fc9d8fd04878"
 
 RPROVIDES:${PN} += "kiwi-systemdeps-image-validation"
 

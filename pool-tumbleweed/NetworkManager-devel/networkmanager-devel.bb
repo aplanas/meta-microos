@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains various headers accessing some NetworkManag
 functionality from applications."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.42.6"
+PV = "1.42.8"
 
-RPM_NAME = "NetworkManager-devel-1.42.6-2.1.aarch64.rpm"
-RPM_HASH = "6ee80af85f4d752392a04f166c0dc7872d9edcb2e1bad9d166ccfe647d07bf3bb3b3e03779e7b8214ba45ff128b48c25d821754c04a838961a8ab5cc22419be5"
+RPM_NAME = "NetworkManager-devel-1.42.8-1.1.aarch64.rpm"
+RPM_HASH = "4819edd6fa2e076ff8fd2efd7b8d63d7a0e28ff7baf1d4cb9efdc4c0485f8f85123d316967e172d1b395a5fd686b4b52504009c679bc3b6e606bfc7e118f76d5"
 
 RPROVIDES:${PN} += "NetworkManager-devel \
 NetworkManager-doc \

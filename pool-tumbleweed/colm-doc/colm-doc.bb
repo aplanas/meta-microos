@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "0.14.7"
 
-RPM_NAME = "colm-doc-0.14.7-2.4.noarch.rpm"
-RPM_HASH = "daa3f2a857b1d4b1ce341fae1fef2cca98828a80598bc31a070454c660059a55d27f30780d205abd7188c8e8347b5b346c5f0cea1990dfd3ab5f53ffa888f3bb"
+RPM_NAME = "colm-doc-0.14.7-2.5.noarch.rpm"
+RPM_HASH = "497f4785ccc198a10abaf96df1f7279eba0da30bbacbc8585c866027f2e272e6961509bf5c573ac8ca4d62ac0e679bbde1c288218c08f1fbdaf9ea4912c8ecb0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "colm-doc"

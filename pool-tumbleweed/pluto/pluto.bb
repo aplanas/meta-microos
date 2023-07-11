@@ -2,10 +2,10 @@ SUMMARY = "A cli tool to help discover deprecated apiVersions in Kubernetes"
 DESCRIPTION = "Pluto is a utility to help users find deprecated Kubernetes apiVersions in their code repositories and their helm releases."
 LICENSE = "Apache-2.0"
 
-PV = "5.16.4"
+PV = "5.17.0"
 
-RPM_NAME = "pluto-5.16.4-1.1.aarch64.rpm"
-RPM_HASH = "0d8ece2781a742cae0d42fb0dac00cb3331a6cc0e0aade76cd9759ba3f34d4ad3ed7ccf3c418f2b643065d881cdbeb6aa659f37be24f1095aa36421d84ad2a24"
+RPM_NAME = "pluto-5.17.0-1.1.aarch64.rpm"
+RPM_HASH = "e8f18491c03d2475381acfec48860a80aa7ad72499175e361deff4e1b31e56f079f4343f6764bf945b301788fff5af0817caed59acfac01afaac435fa1d76192"
 
 RPROVIDES:${PN} += "pluto"
 

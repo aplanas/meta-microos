@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0"
 
 PV = "0.54.0"
 
-RPM_NAME = "subtitleeditor-0.54.0-4.16.aarch64.rpm"
-RPM_HASH = "2f98a47b13e56c836b6225ef025aeb32ee16a37ff13d08dc1df3dfaab409c16a7bab5403da1b25ff91784af449fd79c2b80846caf98ec2553cbc29839f1cb307"
+RPM_NAME = "subtitleeditor-0.54.0-4.17.aarch64.rpm"
+RPM_HASH = "54e631161765f875e88c2a63e885322a4ba2f1c613f7e4a8aa9a30c9e89b8cc318415fab19905ac69997f1573b52100820f8cba671c903eaea7141650aec2eca"
 
 RPROVIDES:${PN} += "libabout.so \
 libadjusttime.so \

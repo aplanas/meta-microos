@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "1.0.0.0"
 
-RPM_NAME = "python311-azure-mgmt-dashboard-1.0.0.0-1.3.noarch.rpm"
-RPM_HASH = "3a682f374ecdacaac60bd4f7bb3661913d728978ef70f7e92621959cbaafc7348aaf944d5934931768c405bea3fb537bcfb50c9da4006d6121cbdee0a49f22a1"
+RPM_NAME = "python311-azure-mgmt-dashboard-1.0.0.0-1.4.noarch.rpm"
+RPM_HASH = "4ec0b0bc0e8abf94bb8f9e5e6af084c655b83c66475c98b23a45780598e5c8ff53c9c80b99f796b7ee8f61375b4cd9c9d2197559eb10af3ec667882e8b0ae1ee"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-dashboard \
+RPROVIDES:${PN} += "python3-azure-mgmt-dashboard \
+python3.11dist-azure-mgmt-dashboard \
 python311-azure-mgmt-dashboard \
 python3dist-azure-mgmt-dashboard"
 

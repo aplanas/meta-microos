@@ -12,8 +12,8 @@ LICENSE = "MIT"
 
 PV = "0.4.17"
 
-RPM_NAME = "python39-wptools-0.4.17-4.17.noarch.rpm"
-RPM_HASH = "2ff2c5d74ed5de363ee489909e607293cf9ece3feba4fe67213987b71ef5904236da5621737d0a272ab0b2127c6eecf24c2c1ad4a2c34bd669ade7bdd64cd5f6"
+RPM_NAME = "python39-wptools-0.4.17-4.18.noarch.rpm"
+RPM_HASH = "5bb7d9680fcf98c5c8f1ffc51c21b0c75290c5ca31cc94d0bc1fff3c8b2907fffd94c0a71f787c6a29aac8149442b30db3feb92a4786eb85530a1bca259db168"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-wptools \

@@ -6,8 +6,8 @@ LICENSE = "MPL-2.0"
 
 PV = "1.0.11"
 
-RPM_NAME = "libnumbertext-devel-1.0.11-1.3.aarch64.rpm"
-RPM_HASH = "fa1d40c756b2030dbaf150ef98a32984149b1c480948d0a2c27c5f97b491381b2487dec978ca85ced108bf7f2e8ce879bc344e5ae7d79df48892ae06177042a8"
+RPM_NAME = "libnumbertext-devel-1.0.11-1.4.aarch64.rpm"
+RPM_HASH = "215de46448a467f5f3a2322e29f237651d763ec790d9a3bdff9e46e2bb542157c734ec7a1440282d31016d1206d89f7670ac14ac165113561c843b8af745d73f"
 
 RPROVIDES:${PN} += "libnumbertext-devel \
 pkgconfig-libnumbertext"

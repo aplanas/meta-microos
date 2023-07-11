@@ -14,12 +14,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.1.5"
 
-RPM_NAME = "python310-colour-0.1.5-3.12.noarch.rpm"
-RPM_HASH = "f2dff4b149add9ff36e4c8f31e8e3189b80e187532cb78a8b663767e16d24607aeb5b85ee1bb99f354760bd50c1f730ece6d117ad2d38189b5d94a9eff8df138"
+RPM_NAME = "python310-colour-0.1.5-3.14.noarch.rpm"
+RPM_HASH = "d45ea757cca546405db7727322a063a49e69c9b6451dd11b98406daf62c94c3de6b6b71c5c6787a945ef7417a6a1efc2594b69e2014b1dab2fc835be3a0dcc09"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-colour \
-python3.10dist-colour \
+RPROVIDES:${PN} += "python3.10dist-colour \
 python310-colour \
 python3dist-colour"
 

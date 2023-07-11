@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.9.3"
 
-RPM_NAME = "typelib-1_0-LunarDate-3_0-2.9.3-2.14.aarch64.rpm"
-RPM_HASH = "bbb8c6fbb437664ef06156c37a807b401ce8e9b083f5b3c0fb8567d6c72b1f32a1f7fef9b008107acd1269f875bf7a18744318c35fd675e4605548f16942f9c6"
+RPM_NAME = "typelib-1_0-LunarDate-3_0-2.9.3-2.15.aarch64.rpm"
+RPM_HASH = "ef749d191303ba132a6734b7ad4898959d4df9cda980dcdf948e32af1c1707157f17f78706e7287ea315c2a0c4217a7c2e97fd204e7d1f3b7cb25fba1935b4c0"
 
 RPROVIDES:${PN} += "typelib-1-0-LunarDate-3-0 \
 typelib-LunarDate"

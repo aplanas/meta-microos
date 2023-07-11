@@ -3,10 +3,10 @@ DESCRIPTION = "Konqueror allows you to manage your files and browse the web in a
 unified interface."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "konqueror-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "17eedd0fd255e6d81b5216f2217af26798308f496506351903db53a6fe2b0cd7793450d4ad9ad320cfefda71c33a7e94f8b08d219d0148a2a6ebfcd67e595792"
+RPM_NAME = "konqueror-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "dd02b3ef25910e26231edca2186b2e8e7ad76002f5b8753e096131beb3c450ece553fffb3c599f77bc2b25012f38f382082bcff99511082c0b0bd713e9551707"
 
 RPROVIDES:${PN} += "config-konqueror \
 kde-baseapps-libkonq \

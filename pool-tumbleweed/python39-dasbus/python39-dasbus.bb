@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "1.7"
 
-RPM_NAME = "python39-dasbus-1.7-1.3.noarch.rpm"
-RPM_HASH = "137189a831152216c9439d9ce009adf436ca6e30b886a7a54eb3050a15b04ed49279ab166ec1c9885ece538b5660ece08d0e04e11c9f687b53ef257c990395d0"
+RPM_NAME = "python39-dasbus-1.7-1.4.noarch.rpm"
+RPM_HASH = "8140db99e580a1ded5072acabb7b7e3118792fd525e4532dfc4262739900da7cb062225915ade80e6d0fa6d8798f113ba85ebfdce73cf6edb41dfb4ffb79cd10"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-dasbus \

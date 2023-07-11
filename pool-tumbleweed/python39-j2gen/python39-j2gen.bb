@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.1.0"
 
-RPM_NAME = "python39-j2gen-0.1.0-3.9.noarch.rpm"
-RPM_HASH = "165649e2e24a2e77702793d8a4b3efeaebaaac81a88129401ba045af901fabde316ced107106c314027facb5097dff6a5e9a9066c41b264e0f960904a5b52953"
+RPM_NAME = "python39-j2gen-0.1.0-3.11.noarch.rpm"
+RPM_HASH = "92b1239eb8befa756559be6afb37013c5232003eb2b021d773f31c09efe477712ce3868498384beed9d128561555a3b011bf3cadbaf11586a3fc04d33d03b818"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-j2gen \

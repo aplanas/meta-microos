@@ -5,8 +5,8 @@ LICENSE = "MPL-2.0"
 
 PV = "0.0.4"
 
-RPM_NAME = "libpagemaker-tools-0.0.4-1.29.aarch64.rpm"
-RPM_HASH = "d650af919fdecae9ad4ac37012d78431a5b3e6c52b77359d981fa5a658f51e446de97f12295c7ffdfd4ffb69ecf9d933961f0bf2941563bdad49ad36c9617e11"
+RPM_NAME = "libpagemaker-tools-0.0.4-1.30.aarch64.rpm"
+RPM_HASH = "e5cdef5fa25fb6bb8a71909fb3f44e65d3010fe39dd81c3bc6dca10e7e36a2fe0354d6129146d3cd1aed4065ccf2eb9a2142e9c9d2bb64250bd87ba16309da03"
 
 RPROVIDES:${PN} += "libpagemaker-tools"
 

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-quick3diblbaker-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "196bb2c56a20bce249aa762a94ddf6b4d53d82641a6cebe1dfc0c93ea1249009b7e4b5106aa6a35325d2763572a5e7f2617c1d183f939b9ff781325a589dcb7d"
+RPM_NAME = "qt6-quick3diblbaker-devel-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "34bbc293939932497ae6105c6699bde7a626f89e34dd2aaf9bc428128dc0515075b45349e8671ae83a9aeef7bcf7ef4446df0da0946cd31ea0efe064f7558c48"
 
 RPROVIDES:${PN} += "cmake-Qt6Quick3DIblBaker \
 pkgconfig-Qt6Quick3DIblBaker \

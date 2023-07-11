@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "7.5.0+r278197"
 
-RPM_NAME = "gcc7-objc-7.5.0+r278197-14.3.aarch64.rpm"
-RPM_HASH = "77ffbef4c8d0a0b1fd16bbe6eb346cc1fc2c7d05e6a78dc329e9e7f044f3c0d46192a7d89abe84930354ed0e6ea93ed3fa4ecc76a4f4a081cc6e0125256a5809"
+RPM_NAME = "gcc7-objc-7.5.0+r278197-14.6.aarch64.rpm"
+RPM_HASH = "5ff9650c7a74805281f62f011965d88df46ad3ff3bc8ea05b7cd52a51705a3191e52b03752ef316b84e3fc9c9ca5c793b09e64a3dd0e6f47405e1c15ffd3e0ff"
 
 RPROVIDES:${PN} += "gcc7-objc"
 

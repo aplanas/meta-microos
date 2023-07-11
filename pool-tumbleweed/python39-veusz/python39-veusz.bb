@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later & Python-2.0"
 
 PV = "3.6.2"
 
-RPM_NAME = "python39-veusz-3.6.2-1.1.aarch64.rpm"
-RPM_HASH = "561479afa0a65f89593e77b6af5d32d17fbfb07eeca0389ebf69cd3fe0e213f9a1e7a44d78673f539544463969d1efb3a544fdd7643ee99ff2d76da400dc74e8"
+RPM_NAME = "python39-veusz-3.6.2-1.2.aarch64.rpm"
+RPM_HASH = "2afa689e630e05fcfc9a53847ad5f7ba876d741461832ac9f955e997e4cb61d07f3fc29d8f9bc0ffc5d74484c407a8304172e3bca37c5492863670a105e4eb70"
 
 RPROVIDES:${PN} += "python3.9dist-veusz \
 python39-veusz \

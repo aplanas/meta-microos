@@ -6,8 +6,8 @@ LICENSE = "SUSE-GPL-2.0+-with-openssl-exception"
 
 PV = "2.8.127"
 
-RPM_NAME = "libgsoap-2_8_127-2.8.127-1.1.aarch64.rpm"
-RPM_HASH = "1e8309ed50db0ea9927e52050e0b1a8e86f9d6bcc2254363fabc21faeb91e85fc1b6a72000878fc797f875586a1f92ef8754e719a2b873ad91cf5114ff2d2361"
+RPM_NAME = "libgsoap-2_8_127-2.8.127-1.2.aarch64.rpm"
+RPM_HASH = "13727629de4117372d97521de1a03794e5be078673ee0e9745e451050058279e11554a30f8d07f5cd4d0bdd9ec4c947682dacaa4a44dfef3b27cf662e0f0bb04"
 
 RPROVIDES:${PN} += "libgsoap++-2.8.127.so \
 libgsoap-2-8-127 \

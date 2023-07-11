@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.38"
 
-RPM_NAME = "geany-1.38-3.7.aarch64.rpm"
-RPM_HASH = "76bf28cfee1e19bbbaf72ef2978e47ea90915db1bc0ee4a27b55957de9f0b2896ea3603ca40d824df897cf658f5eb9e5ab74e8fb7dbc72acedfabb5efab43332"
+RPM_NAME = "geany-1.38-3.8.aarch64.rpm"
+RPM_HASH = "f3eb1e4a73396974efa5a6eaeb2a7f2a9193d4a7f09b9f3054908acdcb30a99b55e2d6bcbef84f88c4cb79b4675ce52f1c99c5593bc6d558209d26a89fdf586e"
 
 RPROVIDES:${PN} += "geany"
 

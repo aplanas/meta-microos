@@ -6,8 +6,8 @@ LICENSE = "(GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only) & LGPL-2.1-or-later"
 
 PV = "0.9.1"
 
-RPM_NAME = "QGnomePlatform-qt5-0.9.1-1.1.aarch64.rpm"
-RPM_HASH = "9aa3a530ec3b0cb51f55c4d12484f6970a6ff8fd732b3e8173ef2c9162588b69abb6b88ba33a283cb2fd9377b8ffa4d64d92ae1966a6945efaff8409b0343767"
+RPM_NAME = "QGnomePlatform-qt5-0.9.1-1.2.aarch64.rpm"
+RPM_HASH = "a75ea2283106264258407963d2a56d76a78111958f640e57aa79c0c025922de67501537a1e6d7363ced8f83d33de973ffe5873af869fc6a4a4d6da2ad7d7b2c3"
 
 RPROVIDES:${PN} += "QGnomePlatform \
 QGnomePlatform-qt5 \

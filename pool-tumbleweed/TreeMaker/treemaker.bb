@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "5.0.1"
 
-RPM_NAME = "TreeMaker-5.0.1-1.2.aarch64.rpm"
-RPM_HASH = "4aa7b345c66e3f2debe34c5e79b18883f76d501bfd08e1bf9131a7b17f0e41ce4c4a7da6d0a1563aa48a52cb5e2c8c4218e8faf13d53878fa128add47b56ba8a"
+RPM_NAME = "TreeMaker-5.0.1-1.3.aarch64.rpm"
+RPM_HASH = "e3104a5af5663c8b8ac59fdad825ccdccc7b3e1fd526970cfcef8526a11dccfd680a40271fed13c11d802b644f68bf74ff948c5bb765bbf3570f53c9473d0304"
 
 RPROVIDES:${PN} += "TreeMaker"
 

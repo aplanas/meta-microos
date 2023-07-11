@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-magicnum"
 DESCRIPTION = "This package includes the documentation for texlive-magicnum"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.7svn52983"
+PV = "2023.208.1.7svn52983"
 
-RPM_NAME = "texlive-magicnum-doc-2023.201.1.7svn52983-52.1.noarch.rpm"
-RPM_HASH = "652893cd5402a04e89de06f31808170f1cf698a06cb901718d5423ce29498cb64ae2b55f4c757433adebf8cdbb60596539748236d42df4f0c26b892500d95b0b"
+RPM_NAME = "texlive-magicnum-doc-2023.208.1.7svn52983-53.1.noarch.rpm"
+RPM_HASH = "bf1d8aa88a4477d50b31f432cea7fe2177fb314879b99ab7ba6b04bd30434d4fdd6969bfee70fc4b7763ae02a8952c06336fde0d46c8144c8ad4efab6d5ea6e1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-magicnum-doc"

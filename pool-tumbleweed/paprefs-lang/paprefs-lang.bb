@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2"
 
-RPM_NAME = "paprefs-lang-1.2-1.7.noarch.rpm"
-RPM_HASH = "0e0f808ce58e82cbb46ea2b77d790fff3c924a4014b8905b00d29650478fc6ac43d124557f38d6c339a9ea369f838bdd2db88c61dc2e721c57041523e1cc2bf4"
+RPM_NAME = "paprefs-lang-1.2-1.8.noarch.rpm"
+RPM_HASH = "4a2d608c737dda90fd3e0f48f6afeccf1ef2f93d918873cfefc989fdd672620ed8d8fb1a81f175bcb1d21aba80408ee0a5064a93b320d39b47cd098968ec5ffc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-paprefs-as \

@@ -4,10 +4,10 @@ providing fast incremental saves and global deduplication \
 (among and within files, including virtual machine images)."
 LICENSE = "LGPL-2.0-only"
 
-PV = "0.32"
+PV = "0.32.1"
 
-RPM_NAME = "bup-0.32-2.6.aarch64.rpm"
-RPM_HASH = "21487b5ae25835b2740baa0d2cb8d0b347b6996545f38135bf81335a69ab9c9e70d1662b1d80d1ba50427d20d44014f3dcfe74340102b25958dd10126037e68b"
+RPM_NAME = "bup-0.32.1-1.1.aarch64.rpm"
+RPM_HASH = "3e5ff6f4ccd4afca22dd603ff2a32b9dde59959685d130df2125ae0b178ac90f710c8c0050dce3eb1527db6a4cb04587432acd25ac594b47890c3607e72ff8de"
 
 RPROVIDES:${PN} += "bup"
 

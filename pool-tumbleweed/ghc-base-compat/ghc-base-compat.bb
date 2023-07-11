@@ -25,13 +25,13 @@ which are distinct from anything in 'base-compat-batteries', to allow for \
 easier use in GHCi."
 LICENSE = "MIT"
 
-PV = "0.12.2"
+PV = "0.13.0"
 
-RPM_NAME = "ghc-base-compat-0.12.2-2.3.aarch64.rpm"
-RPM_HASH = "bbe1323746b4baa9a02bf15b8a768c302a5a25661c585c5248b3461f860e49d60978771ef9590bfb6d1cb3da8929d4d7e2f8b5609a9aaa6d9408ec208a177d22"
+RPM_NAME = "ghc-base-compat-0.13.0-1.3.aarch64.rpm"
+RPM_HASH = "33c5a07045d4f8ad9e9a6cd64c16f8f3ea4f979faf56c4d86a0acf756f160d7a64d8c91b62a26e95d27278709bc198957dacd5b92ca49ead5d72d52e16e7cc2c"
 
 RPROVIDES:${PN} += "ghc-base-compat \
-libHSbase-compat-0.12.2-L1DEOlMQJOdFOKsjHoWYov-ghc9.4.5.so"
+libHSbase-compat-0.13.0-Cvz3167VMpo6rdOohSlum3-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
 libHSbase-4.17.1.0-ghc9.4.5.so \

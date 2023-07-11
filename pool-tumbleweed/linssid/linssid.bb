@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "3.6"
 
-RPM_NAME = "linssid-3.6-3.12.aarch64.rpm"
-RPM_HASH = "55aedcc6364607e27e64419344d4e948984adeaeeed0ded86998031af1952d3740c1e732b861414ac57419fba5b9db0dfe56f623d6fef1475259791e6b7bbf0b"
+RPM_NAME = "linssid-3.6-3.13.aarch64.rpm"
+RPM_HASH = "1fb41daaf94fb8faf88647e5af294a1c887fb6f5da7bd27ead443cbccd0cad7241a5feb2d8ed69ecec7cf511ecdb9c44f15c6a11044644833b2f61a29aa14bbb"
 
 RPROVIDES:${PN} += "linssid"
 

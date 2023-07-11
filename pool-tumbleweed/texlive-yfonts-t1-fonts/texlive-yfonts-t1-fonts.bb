@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.0svn36013"
 
-RPM_NAME = "texlive-yfonts-t1-fonts-2023.201.1.0svn36013-52.1.noarch.rpm"
-RPM_HASH = "40a496359ca843ee75f7d6e9f483c0823060bcf2ffc5136d7b0e13ce08d908b40570eafcf33fb1d08d95cba313a727202547710efafb59df7cfdf7dc3c326a81"
+RPM_NAME = "texlive-yfonts-t1-fonts-2023.201.1.0svn36013-52.2.noarch.rpm"
+RPM_HASH = "0760f55f1ce4bf3518b6ed0d28772f359453dd526dfedaf5b1486016ee4fbcdf738c228d04c220440918177424071f00a18253c84f794b82e3a5da9875b9b7b3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

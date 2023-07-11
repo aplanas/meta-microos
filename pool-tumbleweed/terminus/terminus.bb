@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.3.1"
 
-RPM_NAME = "terminus-2.3.1-1.1.aarch64.rpm"
-RPM_HASH = "5407e6e069a24009b86eabb9a1cf65755723e321e543a1e6b24d5db1d339b61fdba0ddde705df7ffc82a5bb084df5ac0e50104d3e5649ee617e1f39bc666e55a"
+RPM_NAME = "terminus-2.3.1-1.2.aarch64.rpm"
+RPM_HASH = "01e0feb664a588a637550ffa452d44eddda2010e773591adb11e0bda33f6e3c49a158f8b7ca7d6f8e49711818c459845045355ebeacec05543dad25202223c52"
 
 RPROVIDES:${PN} += "config-terminus \
 terminus"

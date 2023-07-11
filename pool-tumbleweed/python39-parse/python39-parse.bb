@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.19.0"
 
-RPM_NAME = "python39-parse-1.19.0-1.10.noarch.rpm"
-RPM_HASH = "68d63adc41d8d482a4beeb1cc34b8618a28e41c72dc3cb56fcb186351417931a55b9fef8db2616ba620a9e765f0d78741c62bf2539e5acb7835a1dc0b367126c"
+RPM_NAME = "python39-parse-1.19.0-1.11.noarch.rpm"
+RPM_HASH = "25526b1b49e4cfc06f007b417f6880bd87303a6afd08e84103ad9f544dd9131339d725e89c39d0cdd198857c002042b1e7aa0d8f88a01eaba6f9d90e06c9bfc7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-parse \

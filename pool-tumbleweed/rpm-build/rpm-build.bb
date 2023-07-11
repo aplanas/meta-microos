@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.18.0"
 
-RPM_NAME = "rpm-build-4.18.0-5.1.aarch64.rpm"
-RPM_HASH = "20d6913170fe83be9680c36926709313dde6ae473d8b909b212e8c92e1e7bb1caf6a455fb01f5020866edb351171ee30e65ece5533713b3c67eeb3175109e5cf"
+RPM_NAME = "rpm-build-4.18.0-5.3.aarch64.rpm"
+RPM_HASH = "1baaec46e892de8a408e994edd6789065b925c3f3de3ef8fd02e212a43a372e5397c0cbc2232a82fa0beac1b77d56e11857b93bbf33b54a4af6a094844b52857"
 
 RPROVIDES:${PN} += "rpm-/usr/bin/rpmbuild \
 rpm-build \

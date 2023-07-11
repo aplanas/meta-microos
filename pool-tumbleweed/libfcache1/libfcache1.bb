@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20230115"
 
-RPM_NAME = "libfcache1-20230115-1.2.aarch64.rpm"
-RPM_HASH = "7505aae169c60f4b219b8a89707398f96034059c3fe91a08e24901842cf6c91e4a602c4bdf2dd6dcf5cba9c946e4fc6cbdf7535bccb31b5459e2eb4084cad0b1"
+RPM_NAME = "libfcache1-20230115-1.3.aarch64.rpm"
+RPM_HASH = "1e406c34b9658d361433b74e1d1858f1d9e18e2026025d93e5bc2b5a4056317cc170740187ce64befecb11a4bad82fb3ec238eaba8d3e2f5850378db657e5aa9"
 
 RPROVIDES:${PN} += "libfcache.so.1 \
 libfcache1"

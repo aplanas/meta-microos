@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.33"
 
-RPM_NAME = "perl-libintl-perl-1.33-1.2.aarch64.rpm"
-RPM_HASH = "13aa10414260c3c0b6610f62fff1c2d1212c394eb78a61bc6d4eee2a273d9bc264441042422e1d5896277cc11ad86583e17079beaf6b49173ebe8878bc86de6e"
+RPM_NAME = "perl-libintl-perl-1.33-1.3.aarch64.rpm"
+RPM_HASH = "df1da2b78380b140eb626b39e6be6052e9e0e5dec8a5d7bfc37df08c97d5b866c66aa14fd3cc2174d833db82936a9b122267fe9197bdb4e952ff5cf467ace4eb"
 
 RPROVIDES:${PN} += "perl---TiedTextDomain \
 perl-Locale--Messages \
@@ -162,7 +162,7 @@ perl-libintl-perl"
 
 RDEPENDS:${PN} += "gettext-runtime \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-version"
 
 inherit rpm

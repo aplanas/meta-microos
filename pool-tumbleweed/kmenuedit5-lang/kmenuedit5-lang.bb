@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kmenuedit5"
 DESCRIPTION = "Provides translations for the 'kmenuedit5' package."
 LICENSE = "GPL-2.0-only"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "kmenuedit5-lang-5.27.5-1.1.noarch.rpm"
-RPM_HASH = "7b0b22e68df8cb7dc485cbc0abde0295b255d77183dc9b022d173bb5787c2d0c8d7d54095ea40b369e202082ef5ae1a1bfd9bd67c74ef880c211fc80d6741a85"
+RPM_NAME = "kmenuedit5-lang-5.27.6-1.1.noarch.rpm"
+RPM_HASH = "1c47822609590b26d612c133680bbe2ca3b76e2c2a5d56e859909434096a4e77f38383326e542ea27a68f01565759f9b4126f342eaed2c3fea326ebc27dce5af"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kmenuedit5-lang \

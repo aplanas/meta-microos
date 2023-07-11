@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.1.0"
 
-RPM_NAME = "python39-sphinx-feature-classification-1.1.0-2.10.noarch.rpm"
-RPM_HASH = "d1383494c7fd4d8b60bfe912712412fcdc419ff13b13c7190ba5d79830ece6e9aa2511cebf20c827cbe385f96080f3af220f0b322e94b4e971266ba36cbdbf5e"
+RPM_NAME = "python39-sphinx-feature-classification-1.1.0-3.1.noarch.rpm"
+RPM_HASH = "7d905ee415d016dfa28a6f9937f5516aba0879c39a0c62f8d06e0db2accc6176bec64aab84161457a6d8191c1cfc3658e3d6cfe2af248517d70febdf38de99c1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sphinx-feature-classification \

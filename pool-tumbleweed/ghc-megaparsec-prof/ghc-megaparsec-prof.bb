@@ -2,13 +2,13 @@ SUMMARY = "Haskell megaparsec profiling library"
 DESCRIPTION = "This package provides the Haskell megaparsec profiling library."
 LICENSE = "BSD-2-Clause"
 
-PV = "9.3.0"
+PV = "9.3.1"
 
-RPM_NAME = "ghc-megaparsec-prof-9.3.0-1.3.aarch64.rpm"
-RPM_HASH = "df6b5d24d8b17e9c174c3907198dd087ccad2c724cf4e2497be1ecbfe8eb30b7736ae017bd2a611c86294560afd8019a2bc0025387fd60be7147ec95c6a774f3"
+RPM_NAME = "ghc-megaparsec-prof-9.3.1-1.3.aarch64.rpm"
+RPM_HASH = "82df0ff81e9302483474ae1df09182d9e5330c9f92ae121c77c6ea1332023ee65002ba9097e7cea9cbd971d2ff5ea87f546e95001eb9c78bd27ccf7ff62965de"
 
 RPROVIDES:${PN} += "ghc-megaparsec-prof \
-ghc-prof-megaparsec-9.3.0-9LuWCOgzW7qD3PYWTEm9Pv"
+ghc-prof-megaparsec-9.3.1-Lptmv1Cc41nKt1ZYt8kXVr"
 
 RDEPENDS:${PN} += "ghc-megaparsec-devel \
 ghc-prof-base-4.17.1.0 \

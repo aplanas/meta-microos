@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.5"
 
-RPM_NAME = "iml-devel-1.0.5-5.11.aarch64.rpm"
-RPM_HASH = "2e2582ac1b3019c9de08a918c7f6ea58f297fd118f5385a0e89ea44c094253cc9f8d9e7f82afca0a392f39fe83ef0cef26be4d64701efcc4bebf8cf4b4864a72"
+RPM_NAME = "iml-devel-1.0.5-5.12.aarch64.rpm"
+RPM_HASH = "89a8b0c9e68e9899d62987a083fc9154672b0916f1337c950eb574f19aed33404a39bf4bbedf22a5df04cc1883e8e977dc437941d8e08ab29155b0410eeff175"
 
 RPROVIDES:${PN} += "iml-devel"
 

@@ -49,8 +49,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.28"
 
-RPM_NAME = "perl-Event-1.28-1.12.aarch64.rpm"
-RPM_HASH = "bed6e2271d028fd16b4876ebc229ac6e39437e146bc19667bd227da3bce2a37ce082811467fc00b6a0ae0c653ff7d83de988366c7fd61fc224192cb934855ce7"
+RPM_NAME = "perl-Event-1.28-1.13.aarch64.rpm"
+RPM_HASH = "f93d50e7bad1628e5fe0090388799f409c57cf59441389a3b6c626e5cabc5a43bcf3452ff8275d1133cb5980d17a645492d9d60fb58b97f81ef94c671a2349d8"
 
 RPROVIDES:${PN} += "perl-Event \
 perl-Event--Event--Dataful \
@@ -70,6 +70,6 @@ perl-Event--var"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

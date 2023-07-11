@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
 PV = "1.3.23"
 
-RPM_NAME = "hivex-devel-1.3.23-2.3.aarch64.rpm"
-RPM_HASH = "e6fbd885583add4d25b6b23662e152938516cf7ddad580cc73d5e0a41a762a92f899e2f9b99aac4e1adf7f0e33ea30b98afa2ea408ad9e24a334b303f78e05ff"
+RPM_NAME = "hivex-devel-1.3.23-2.5.aarch64.rpm"
+RPM_HASH = "1f69e76f7da5a3adaefe394b4cfb2051ce696931327c9bc57c33dfb4080065b9a91522e9c674a081e076c24fbc2a0ca822d3a7f8f3fdd9193857149970f92b86"
 
 RPROVIDES:${PN} += "hivex-devel \
 pkgconfig-hivex"

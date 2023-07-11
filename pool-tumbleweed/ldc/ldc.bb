@@ -7,8 +7,8 @@ LICENSE = "Artistic-1.0 & BSD-3-Clause"
 
 PV = "1.32.0"
 
-RPM_NAME = "ldc-1.32.0-1.1.aarch64.rpm"
-RPM_HASH = "a37cad9faefd43b4f4c82477c935b6c7e1afe3aaeabf49744670e8a454af7ee35c706a140f4bc424c5c94ea8ae17ca0f9e1de0ba04de426930d663ec9d506fc8"
+RPM_NAME = "ldc-1.32.0-1.2.aarch64.rpm"
+RPM_HASH = "ed429aec4a924208d4d7ed9e7df605d748381c207c7a7e45fc94360a46683de5ae40132caaa2b9baa7ebf1036b6f34641f68132fe4cd6070bd03fb34b654f5ad"
 
 RPROVIDES:${PN} += "config-ldc \
 ldc"

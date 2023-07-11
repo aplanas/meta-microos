@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the dependencies for Python RPMs to generat
 dependencies automatically."
 LICENSE = "WTFPL"
 
-PV = "20230403.29b58f8"
+PV = "20230609.6fe8111"
 
-RPM_NAME = "python-rpm-generators-20230403.29b58f8-1.1.noarch.rpm"
-RPM_HASH = "714d85d2013f91fb5e2e50103ef949a89f7bfe5044c6b920eaea34d6af7d80860a0fccb792fe5f71b7832cf13ff697cbfff14ec86bd268524d781826d60f127e"
+RPM_NAME = "python-rpm-generators-20230609.6fe8111-2.1.noarch.rpm"
+RPM_HASH = "1f7c846ff361f03b9d5da1c92e708ffd2e12d84db302a15c2dcc14ba13102d31bcf149dc77ef8e993c5a20458a1511f12d056fe11fefeb5b278b8783984bdd2e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-rpm-generators \

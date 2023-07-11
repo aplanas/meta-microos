@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.1.2"
 
-RPM_NAME = "python39-requests-download-0.1.2-2.14.noarch.rpm"
-RPM_HASH = "53504caa4153cb35af4d9cf8bd66218f650ca6f4442aaf24a86a69ea81e0bed14d983452e1ed161af5f84933fbff2f0176f9b83e47951310b3156c39dac0f053"
+RPM_NAME = "python39-requests-download-0.1.2-3.1.noarch.rpm"
+RPM_HASH = "e16b7c7de5b04d2842f200e7ea43218c7e72e288d3bbfdc236b280c9c1f6e7bcd6ce72c962c39c36abd330cb543e18c8975f18bd7404ee4b043abed878b8b12c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-requests-download \

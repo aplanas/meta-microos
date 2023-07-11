@@ -4,10 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.201"
 
-RPM_NAME = "python311-leveldb-0.201-2.11.aarch64.rpm"
-RPM_HASH = "4479b6fe6c0d58830de86607f3e3bbda87de0a96afee072159f3b8bceea682c07636d25ed06932b6b29ac6d6c6d9e10bfb9a24805b149a0bfc5dc9683cc15048"
+RPM_NAME = "python311-leveldb-0.201-2.13.aarch64.rpm"
+RPM_HASH = "7a2464f9326493162da03db3d83bfcdc25361f78a191f3007c2feec780b796b7044aee5c7cdd1326f044bf08c791dde2604880b2475e2ef0e5e630b89b153b83"
 
-RPROVIDES:${PN} += "python3.11dist-leveldb \
+RPROVIDES:${PN} += "python3-leveldb \
+python3.11dist-leveldb \
 python311-leveldb \
 python3dist-leveldb"
 

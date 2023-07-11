@@ -5,11 +5,12 @@ LICENSE = "Apache-2.0"
 
 PV = "0.4.1"
 
-RPM_NAME = "python311-dockerpty-0.4.1-5.3.noarch.rpm"
-RPM_HASH = "3490df946fcc97f3a583b4ee4fcd6a2fa5510b5b0f0c772d292fab7afb9ba3b577c8e2a8a6711ef60da3b02ef646f42f4dbdfa85348a047142afbe21d6265cd9"
+RPM_NAME = "python311-dockerpty-0.4.1-5.5.noarch.rpm"
+RPM_HASH = "e66cbedb3fe7a95d514782eb2dc91f4a1621bafe744bbdd4b58f83407a1187cb605722a0460c2ed6af491e917785dbd024ff7e47cc0a1e567849b80c000272d0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-dockerpty \
+RPROVIDES:${PN} += "python3-dockerpty \
+python3.11dist-dockerpty \
 python311-dockerpty \
 python3dist-dockerpty"
 

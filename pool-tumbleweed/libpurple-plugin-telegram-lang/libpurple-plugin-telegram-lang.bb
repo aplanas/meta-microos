@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.4.7"
 
-RPM_NAME = "libpurple-plugin-telegram-lang-1.4.7-1.11.noarch.rpm"
-RPM_HASH = "3855d7886157c9597beeab5d4f76b38aca05a4db835ebe0dddd02dfef51a6f236876cdba8a30d195158b367bec4460c14b839a2db7d63ed6b4a77dd7934d2d63"
+RPM_NAME = "libpurple-plugin-telegram-lang-1.4.7-1.12.noarch.rpm"
+RPM_HASH = "81af080eec28b70594fa3883851acd459deedb6b45e5de8db30497941d0bbe8f14fdbb01e7873f75a97f1c1bc9cb0dbfc5fa533032589fab5c69b7e4da978ba9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libpurple-plugin-telegram-lang \

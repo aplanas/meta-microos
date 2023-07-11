@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.3.1"
 
-RPM_NAME = "libjaylink-0.3.1-1.2.aarch64.rpm"
-RPM_HASH = "7f43cb68ddfe215fcaba8f1c637bdec11f6e37730c3bfdfeaac1a586a0b221abb66ed610aafbdb0e9abd64725096ca61baaed7fa8a01bbb07220fc7ae3c22bd1"
+RPM_NAME = "libjaylink-0.3.1-1.3.aarch64.rpm"
+RPM_HASH = "1d5587260fd29efdc5cc45def89c33f6d7df6bb0bfa8df3474fb5a885e5ddd5a4cf1f694ca595776a70ebe53bac6fc767779a0e1428a6ce0e46c476a5d2c0fcb"
 
 RPROVIDES:${PN} += "libjaylink \
 libjaylink0-/usr/lib/udev/rules.d/99-libjaylink.rules"

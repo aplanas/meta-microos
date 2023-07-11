@@ -15,8 +15,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "8757949ca0e63aa20ab8edcd5c7e1063528ffca4af23b642eac40aac85c41040fa1fe65d11151c10004c213f152e1e26b24edab68c22536bbe90a9babbf7dc5a"
+RPM_NAME = "leechcraft-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "1dfe67af7b770efe09c4cb4015e60b3185a365f6828ebca12570dedd52f07f187bf1f0493ecfb16b940dfd406538499af1d9075faa490b1fe71ab21737649c6a"
 
 RPROVIDES:${PN} += "leechcraft \
 libleechcraft-util-qt5.so.0.6.75 \

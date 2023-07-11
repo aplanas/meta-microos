@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.1"
 
-RPM_NAME = "python310-Protego-0.2.1-2.3.noarch.rpm"
-RPM_HASH = "0f5555963c9ca70a779ddf0c59bb30b4dc931cd0453d1cf3324b1d8a302cf7fe23bb58c0d41893f5a1602307a3da12b4f46451732ff765f6307ded591b298f27"
+RPM_NAME = "python310-Protego-0.2.1-2.5.noarch.rpm"
+RPM_HASH = "f7ac92f9abb2aa0e6a2e20a7daa8778c23730b748d388909364abc617325a5bbc44e893f4d08c277340e1c8283114491747e582c8e9d485135468fda44407d05"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-Protego \
-python3.10dist-protego \
+RPROVIDES:${PN} += "python3.10dist-protego \
 python310-Protego \
 python3dist-protego"
 

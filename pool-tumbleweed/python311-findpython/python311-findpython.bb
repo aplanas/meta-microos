@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "0.2.5"
 
-RPM_NAME = "python311-findpython-0.2.5-1.1.noarch.rpm"
-RPM_HASH = "30eb48702ba252aa38cdc3aded3c0e34bb0c7f9a9884afc9c6e3e97098c54492585491471c94120e341c497781cb618b45258c2f3c7ef69dcf0e78b1e056e69a"
+RPM_NAME = "python311-findpython-0.2.5-2.1.noarch.rpm"
+RPM_HASH = "426d82dd71748b707ec8cd7dd74be1cc717e5300817156b331ec070c6cc6379e24ade9064c973aa0aace9e0cbc9981a2b17b49f83e972c676063b79565e5a5fe"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-findpython \
+RPROVIDES:${PN} += "python3-findpython \
+python3.11dist-findpython \
 python311-findpython \
 python3dist-findpython"
 

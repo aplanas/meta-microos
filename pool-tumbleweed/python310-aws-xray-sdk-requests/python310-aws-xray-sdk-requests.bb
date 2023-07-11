@@ -7,12 +7,11 @@ LICENSE = "Apache-2.0"
 
 PV = "2.12.0"
 
-RPM_NAME = "python310-aws-xray-sdk-requests-2.12.0-1.1.noarch.rpm"
-RPM_HASH = "03d306392af1362dbf6cd00a113b65c375093e929a524d95d56f664c40e898429bc25ef8e66ab1ff5d890b17620526cee51b63496b5e16be8a8d52d6ef508eab"
+RPM_NAME = "python310-aws-xray-sdk-requests-2.12.0-2.3.noarch.rpm"
+RPM_HASH = "eea94b774f78008a6313224345b19aac320f1c04948a5a3337bc198a6997c14580f9f7f2e68ae0ce9072057e4cc418be5db3b14f5d752476a3d962afbb624371"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-aws-xray-sdk-requests \
-python310-aws-xray-sdk-requests"
+RPROVIDES:${PN} += "python310-aws-xray-sdk-requests"
 
 RDEPENDS:${PN} += "python-abi \
 python310-aws-xray-sdk \

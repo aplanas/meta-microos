@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "8.13.5"
 
-RPM_NAME = "python39-phonenumbers-8.13.5-1.3.noarch.rpm"
-RPM_HASH = "7e35feb0cfb2db4294b2cf7d0496722829e7b02e3d93310247318f810bcbcd05260ecafeb3daaf2b08cb576fc5a82ad70ccc19e5e7645c0d253322a497aea0ff"
+RPM_NAME = "python39-phonenumbers-8.13.5-2.3.noarch.rpm"
+RPM_HASH = "e4c80babcf1599a86e2f83f1625d1b4e5cfda75815dcdba2a11a5380df36a27fd34554bae6f7ae87aef0373ebc48dfc1333db837017065483f86ca31d2f955fc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-phonenumbers \

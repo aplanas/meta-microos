@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.9.19"
 
-RPM_NAME = "pdf2djvu-lang-0.9.19-3.6.noarch.rpm"
-RPM_HASH = "0547f53fa29459e6d78b1ef91a4f5c8cb8e45d70069ad2a382f8fb17dbd2457fc7237bbd342910be69941a89a23ee1c0a459c2131830aca6b93f9920ad0a9ff2"
+RPM_NAME = "pdf2djvu-lang-0.9.19-3.9.noarch.rpm"
+RPM_HASH = "dcf4c5dd9bd374cb2f38e622d074029e88fb0663fe49a3f18a4f559674cf51cba54628f5a0fff6e72babc0131c415d893b9f89ae27462f52287b68884d4110e1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-pdf2djvu-de \

@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.1.0"
 
-RPM_NAME = "python39-django-dj-inmemorystorage-2.1.0-4.6.noarch.rpm"
-RPM_HASH = "fedd56dc4795aa00058abd8b0dffa9ee7990e99a64583b40883c3c19420cd11af02ee548519faf26235b24761fe86dc5c26d3c91ab82f2456df5d294503aa94a"
+RPM_NAME = "python39-django-dj-inmemorystorage-2.1.0-4.8.noarch.rpm"
+RPM_HASH = "a3fce682ac69e6962c89c29faa72d89b12cd0b4b5d11f20d56ae778bb3616a32c181d8012252c9d07976e166b063b89eeeef0dd2af7eb632f2c4616899796a94"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-dj-inmemorystorage \

@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "1.1.4"
 
-RPM_NAME = "xclipboard-1.1.4-1.4.aarch64.rpm"
-RPM_HASH = "8c65dd3f99c2dd274a06bf528a66dee269335948ee6ccffbc21555907f9a509771d781530e31e073ed9c666ae17b1ef627dbeaf8e19b4bdcef8cc845725f997c"
+RPM_NAME = "xclipboard-1.1.4-1.5.aarch64.rpm"
+RPM_HASH = "97a3f583c0b181457d22ee0900af18f9a5679a88460f9d81c3def3d83ba68d6c86b6e355c49f27d75ceb33814e524e0728f9fdf4ba5069780d57c0583a943aea"
 
 RPROVIDES:${PN} += "xclipboard"
 

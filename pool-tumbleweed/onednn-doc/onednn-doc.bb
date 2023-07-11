@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.0.1"
 
-RPM_NAME = "onednn-doc-3.0.1-1.2.noarch.rpm"
-RPM_HASH = "122b0b458a2360f7c32edd5680eece4f81b3513d9ea023ddef49f35dff7e2bd8c6d6a90891414e4f4a18039ceca6e4d1bf648b82a53e708f797ab4a8864d5199"
+RPM_NAME = "onednn-doc-3.0.1-1.3.noarch.rpm"
+RPM_HASH = "ac7bfdfcb1e4f122f1627340b00f49cffd1f10ccca83eafca406d4453f9b9148057be5eadf79534c5ae19c5e191b099a06863cc2f4d80b5e1d0ec014c80936f5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "onednn-doc"

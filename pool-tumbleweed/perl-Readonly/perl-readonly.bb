@@ -4,8 +4,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "2.05"
 
-RPM_NAME = "perl-Readonly-2.05-1.22.noarch.rpm"
-RPM_HASH = "7b53c2c0a64cc5d01b4f1c3d39a7d32488e0b98f8028848196ea0fec4753868f46ed048a880f909553ee1a0d6f94a2e560e8f9a5092ff95f963521dd0f18c7c2"
+RPM_NAME = "perl-Readonly-2.05-1.23.noarch.rpm"
+RPM_HASH = "fe05e03075d00cb71e9aef68d1ed7f158a237e4a0e46a060563fc8e0b48d3e7bbcbb3bd809126df6d937ec3d998005230efa48d5e9c8888aa843f6ff6adf7526"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Readonly \
@@ -13,6 +13,6 @@ perl-Readonly--Array \
 perl-Readonly--Hash \
 perl-Readonly--Scalar"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

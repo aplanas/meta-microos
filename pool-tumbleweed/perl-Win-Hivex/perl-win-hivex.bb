@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
 PV = "1.3.23"
 
-RPM_NAME = "perl-Win-Hivex-1.3.23-2.3.aarch64.rpm"
-RPM_HASH = "2bfcf11cffdb1e633aea73275edbbfba558afd1ea548740401c8480c0a642b48d8d52393ef3e1f48ffd2e1d70ce00da98820b852d464be1b0d2f8c4cf33c8e67"
+RPM_NAME = "perl-Win-Hivex-1.3.23-2.5.aarch64.rpm"
+RPM_HASH = "fad0a670be7074a4928a276e1120acd6b9ef1370422f039ae2eec079cd363757de86937d531a6a7127751455fc3cba5075d26bb01ad2cfffeb31e656ce0f14cf"
 
 RPROVIDES:${PN} += "perl-Win--Hivex \
 perl-Win--Hivex--Regedit \
@@ -17,6 +17,6 @@ ld-linux-aarch64.so.1 \
 libc.so.6 \
 libhivex.so.0 \
 perl \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

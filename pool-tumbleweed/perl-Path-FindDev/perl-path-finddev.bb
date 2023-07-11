@@ -13,15 +13,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.5.3"
 
-RPM_NAME = "perl-Path-FindDev-0.5.3-1.22.noarch.rpm"
-RPM_HASH = "599f055e26638f4372d73b06c8024a122696a611fa7a2f35b6651d3a01d477bdebbd84f712eae2b0ad9cdf1c36d9495b80d8330d117bbf37c0f7b801909e8d5a"
+RPM_NAME = "perl-Path-FindDev-0.5.3-1.23.noarch.rpm"
+RPM_HASH = "39461fed00972b957e9cd9c8d0abca347d4d432937b821b698aadf1213fd16eedf930a7b4d66c984afcbf3956be875866da83728731487f562bb7170fbb43449"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Path--FindDev \
 perl-Path--FindDev--Object \
 perl-Path-FindDev"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Class--Tiny \
 perl-Path--IsDev \
 perl-Path--IsDev--Object \

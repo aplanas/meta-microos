@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.14.0"
 
-RPM_NAME = "wpebackend-fdo-devel-1.14.0-1.2.aarch64.rpm"
-RPM_HASH = "035bcb6c0231ea2b4e231c5c0528558838f711d1b8ed0734fc63ee9c420d8a793dbc9642f855b815d2cd45f6f775b9aa627e9c76339916cbd527dfadb860becd"
+RPM_NAME = "wpebackend-fdo-devel-1.14.0-1.3.aarch64.rpm"
+RPM_HASH = "1c088dd67a71a31d1dcc12b931c4c0a1017c53cabc9ef1fa6016696fbc1f73c3b15adeabbe719f3fb7ed0983c00283aa309e44fbb95f4413e9dbdf7fcf6b0eab"
 
 RPROVIDES:${PN} += "pkgconfig-wpebackend-fdo-1.0 \
 wpebackend-fdo-devel"

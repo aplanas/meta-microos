@@ -12,8 +12,8 @@ LICENSE = "Apache-1.1 & Zlib"
 
 PV = "6.7"
 
-RPM_NAME = "skinlf-demo-6.7-9.2.noarch.rpm"
-RPM_HASH = "df914802e0278b1cfad771a762d194175fa092350fec2e739bb33c60ca987ae56d4e12f3ee641d95d22170b70cd315ece174f1831a4122123001e61a14b44493"
+RPM_NAME = "skinlf-demo-6.7-9.3.noarch.rpm"
+RPM_HASH = "ec9cc8a3720507c6ffebcb4e177383613b2ab5af877264c86db2eb2723a030fde05b237fd13d7b6f002e2fae77713b4278fe04851239b3019c41c6a9f10bb54a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "skinlf-demo"

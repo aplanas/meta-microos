@@ -8,12 +8,11 @@ LICENSE = "MIT"
 
 PV = "2.0.0"
 
-RPM_NAME = "python310-azure-purview-nspkg-2.0.0-1.8.noarch.rpm"
-RPM_HASH = "68326e3ae34420b29511bad6f134b05af172815f63849cd6c6ef7456a4c824e834ba455c07e4ecb546c5a96ffe2f862be5d50f02401c4726db51fc16858c2b81"
+RPM_NAME = "python310-azure-purview-nspkg-2.0.0-1.9.noarch.rpm"
+RPM_HASH = "c72becefca8c025e6f0b2368ef009fbc9b3cbef1e6cd187efa3889eaf368fd72ad88b5237187e6492eeebd58f5a9181935f5830cafebe99267d4be0837d4b1fd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-purview-nspkg \
-python3.10dist-azure-purview-nspkg \
+RPROVIDES:${PN} += "python3.10dist-azure-purview-nspkg \
 python310-azure-purview-nspkg \
 python3dist-azure-purview-nspkg"
 

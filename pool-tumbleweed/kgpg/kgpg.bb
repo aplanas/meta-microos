@@ -2,10 +2,10 @@ SUMMARY = "Encryption Tool"
 DESCRIPTION = "Kgpg is a simple GUI for gpg"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kgpg-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "003229645d21768684d026845150522444b76b53d0ec5a7c460ae6ac85190540fc8da7a4219fc95d0f6e1d97751155769f5ae69558b98a677b62e6df0d34218b"
+RPM_NAME = "kgpg-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "bd38d8d89e28ca35326def8056f3c82e73911cada0ce02dc654ab540fcb84273ecd2e96fccadda3321fad4a1b8ef1f48d5b8c10f4e4d01ab82a83510d7b77b19"
 
 RPROVIDES:${PN} += "config-kgpg \
 kgpg"

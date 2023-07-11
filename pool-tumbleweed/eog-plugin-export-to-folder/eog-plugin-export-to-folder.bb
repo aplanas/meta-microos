@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "eog-plugin-export-to-folder-44.0-1.1.aarch64.rpm"
-RPM_HASH = "44631ee3d01bab5844891a17689907d00dfd9ad43109cf1dd45d7f2aa14f1b57df94540f944275890671b2cdc012edfcb0a5695ee650b79772c2a6b0a422896a"
+RPM_NAME = "eog-plugin-export-to-folder-44.0-1.2.aarch64.rpm"
+RPM_HASH = "8211a0833db1433f761300a19ac79a901776d8bc094880b197b4e88367ba88daeda6c0932010f4c7635f810b7f82a182561a8d0a50b1a2d641af09af5836e887"
 
 RPROVIDES:${PN} += "eog-plugin-export-to-folder \
 eog-plugins-/usr/lib64/eog/plugins/export-to-folder.plugin"

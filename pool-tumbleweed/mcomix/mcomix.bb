@@ -4,12 +4,12 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.1.0"
 
-RPM_NAME = "mcomix-2.1.0-1.2.noarch.rpm"
-RPM_HASH = "a7034cf108c63cb98b82d95a667562b2b3fdfd3d5aef2285dc150e2561e4dc448c0bac45dd402c0e7c5dc37299e60e7397d518f71a42020d288fe49e384bc9e2"
+RPM_NAME = "mcomix-2.1.0-1.3.noarch.rpm"
+RPM_HASH = "31a43cff55943bd5f05038416dfeafbd505f7999e722abebaf238ffca1b1ebd49e02188eba04c786603d996742cbdeeb19a0696bb211ad5856af46855568bbba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mcomix \
-python3.10dist-mcomix \
+python3.11dist-mcomix \
 python3dist-mcomix"
 
 RDEPENDS:${PN} += "/usr/bin/7z \

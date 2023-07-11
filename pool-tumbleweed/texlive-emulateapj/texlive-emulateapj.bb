@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.svn28469"
 
-RPM_NAME = "texlive-emulateapj-2023.201.svn28469-53.1.noarch.rpm"
-RPM_HASH = "d23a00f8e23acd3bf2d03c9d39f16c1f2b34b698b6ddc13ea31eee363bf15db3864c89352ec58e83525575af0320dd58cc1013c6d971bc97b79cdf27d5efbdcf"
+RPM_NAME = "texlive-emulateapj-2023.201.svn28469-53.2.noarch.rpm"
+RPM_HASH = "cf75d4dd688bb4d208f6d5cd1c7020d8554df0662241173cd8632acd11e369199a70732a17de99cfb1864c5c74ae937596a8b9c3cf33be7d8491eab4d9171d29"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-emulateapj.cls \

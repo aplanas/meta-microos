@@ -12,8 +12,8 @@ LICENSE = "MIT"
 
 PV = "2.2.3"
 
-RPM_NAME = "python39-sas7bdat-2.2.3-2.13.noarch.rpm"
-RPM_HASH = "34eda369dc49e3ff78263b1c2d4d46c1e1f892168fd7357cfcaaefb874930d1abf35c66c604ff6f2b3d2296508f5a65260c59b1294aae6925fca57e0e09d34c8"
+RPM_NAME = "python39-sas7bdat-2.2.3-2.14.noarch.rpm"
+RPM_HASH = "871ec9b81cde442943cedb40e57ee3cbd10620fa7fc57cf4606cf3a71c0b883045a4a59d52ac65c0c43c7a4bb9c3039de3db6f861b802522ee274d9c1a7c681c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sas7bdat \

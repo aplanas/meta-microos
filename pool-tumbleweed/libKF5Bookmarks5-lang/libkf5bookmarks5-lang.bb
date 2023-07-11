@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libKF5Bookmarks5"
 DESCRIPTION = "Provides translations for the 'libKF5Bookmarks5' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "libKF5Bookmarks5-lang-5.106.0-1.1.noarch.rpm"
-RPM_HASH = "aa11e400ef3457e58591ca62ab94e01f3efbc11d8ad5430166963398af03328c02653111c3858bf9e52b058c922efb21d4e7751fda8e95857545b0632de3784f"
+RPM_NAME = "libKF5Bookmarks5-lang-5.107.0-1.1.noarch.rpm"
+RPM_HASH = "6774343a191993ab72f9ed27756cc465c4ef516cf02f0c92cee43f9169a8ac5372291bd4032da21814c4ccbc3774f482e942b409e7877847a7d28d3d76f00e3a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libKF5Bookmarks5-lang \

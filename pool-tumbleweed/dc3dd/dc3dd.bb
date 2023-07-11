@@ -17,10 +17,10 @@ were rewritten for dc3dd. \
   extensions"
 LICENSE = "GPL-3.0-only"
 
-PV = "7.2.646"
+PV = "7.3.1"
 
-RPM_NAME = "dc3dd-7.2.646-4.9.aarch64.rpm"
-RPM_HASH = "8967c7f2047c83ebc898ab79f1e5afee4d3f8c6a8e970636175bf0eaeebb8a2cd2ff83099bfb717fb76ce93a2b25efb71e50db9da77c13a4df162557e0d59b4f"
+RPM_NAME = "dc3dd-7.3.1-1.1.aarch64.rpm"
+RPM_HASH = "b4ed013d4c7ffd25cfe1a14cbccbaeb685c2b047ab930985b35446cdc99ec5841b8524d1b93553ff8de610841bb172573b1726f905cc166fecabc459004e1758"
 
 RPROVIDES:${PN} += "dc3dd"
 

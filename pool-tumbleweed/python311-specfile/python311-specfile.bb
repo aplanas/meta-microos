@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.18.0"
 
-RPM_NAME = "python311-specfile-0.18.0-1.1.noarch.rpm"
-RPM_HASH = "b2666e6eb23850d9dc59b2313df627bb2a8fa13b2584c919b97c00cb0587eb3d1cd60c523df9120fa6224cc49bd29f8eff3e4f024bfc4e7f3a34eaf8b67c1870"
+RPM_NAME = "python311-specfile-0.18.0-1.3.noarch.rpm"
+RPM_HASH = "a062d4487066f0a50679db027e487e45fe3b64aabe0087a97d9d126d703b799a879440d7da5a6714b97775a161a7c7b85e524934fa10b03b399ab38fbaddcd08"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-specfile \
+RPROVIDES:${PN} += "python3-specfile \
+python3.11dist-specfile \
 python311-specfile \
 python3dist-specfile"
 

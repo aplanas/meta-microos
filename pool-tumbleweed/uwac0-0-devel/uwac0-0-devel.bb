@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.10.0"
 
-RPM_NAME = "uwac0-0-devel-2.10.0-3.1.aarch64.rpm"
-RPM_HASH = "60bb0e440d31d50681fc71e54511ddc42f4763443d7e6e3e0856bb22df31bebf9f35393220b140e8c374b322cf414b92cbe4ef08fc20cf6cb1f113a6e80b07a2"
+RPM_NAME = "uwac0-0-devel-2.10.0-3.2.aarch64.rpm"
+RPM_HASH = "6f47c76fb480155e2711d6b4994c1de5156c5f3f1a619ad28f84f520cbb39c6730ec1b50c0e24baee6c6f20e13604cc27a3e288d61d6b30120449f95d67aa197"
 
 RPROVIDES:${PN} += "cmake-uwac \
 libuwac0-devel \

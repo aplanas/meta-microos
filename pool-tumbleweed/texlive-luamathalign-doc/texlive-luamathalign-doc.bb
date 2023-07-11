@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-luamathalign"
 DESCRIPTION = "This package includes the documentation for texlive-luamathalign"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3svn63226"
+PV = "2023.208.0.0.3svn63226"
 
-RPM_NAME = "texlive-luamathalign-doc-2023.201.0.0.3svn63226-52.1.noarch.rpm"
-RPM_HASH = "b79917a8fd2ecd791feb9d3683a0f0aef85f6eb67a05491dff0f718e656069faaa838aff0b190baf82a4ec9f821670cd535ef56a51a64b8e9e793d4f5b3de67f"
+RPM_NAME = "texlive-luamathalign-doc-2023.208.0.0.3svn63226-53.1.noarch.rpm"
+RPM_HASH = "fbe2454e3f123c6f2adf5598a249c142b51bf9ad576d00efcdd135a03a4b0917ab24ea08fd98027b07ee36ffddf07d139e83def317bfbc67e9aa48951cbb186d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-luamathalign-doc"

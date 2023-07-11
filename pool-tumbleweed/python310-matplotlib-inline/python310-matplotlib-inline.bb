@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.6"
 
-RPM_NAME = "python310-matplotlib-inline-0.1.6-1.3.noarch.rpm"
-RPM_HASH = "16a2847aca0b0d8319dada0c6312e561976e387b8814d0b22ddf324fdf4206886550fa28e047490fc8ac836cb339076c9eb8147edf8d0f780a6a0de7823a677c"
+RPM_NAME = "python310-matplotlib-inline-0.1.6-2.1.noarch.rpm"
+RPM_HASH = "125ce5b86deb3b51c707c9e728f1278edbfc13fc4f463a3a6b7ec7cde3f7c2c51fd2585a85050ef2933f38cc6b8d7e3e2c23ca4de8c1827b51eee30f039ce42c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-matplotlib-inline \
-python3.10dist-matplotlib-inline \
+RPROVIDES:${PN} += "python3.10dist-matplotlib-inline \
 python310-matplotlib-inline \
 python3dist-matplotlib-inline"
 

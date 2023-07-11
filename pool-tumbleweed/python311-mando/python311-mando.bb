@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "0.7.1"
 
-RPM_NAME = "python311-mando-0.7.1-1.6.noarch.rpm"
-RPM_HASH = "38cb0045eedf794584f69d6a970725ad67bc5dd23436acb3dac5a80e0f60a65fb537cc57668e165846aef17f3e6bf68800dfa844122a90c68ea701cf575f2058"
+RPM_NAME = "python311-mando-0.7.1-2.3.noarch.rpm"
+RPM_HASH = "a82e8cb8267d13726f0ff688b1fc2b06b9d0f6b94511bfba206522b91592f3659c4a7f48f27692c9b912fe85378cadbb896407fe3ef2e8f2cc92a9657f9094e9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-mando \
+RPROVIDES:${PN} += "python3-mando \
+python3.11dist-mando \
 python311-mando \
 python3dist-mando"
 

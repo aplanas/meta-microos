@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides commands for adding formatted index \
 entries; it arises from the author's work on large documents."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2csvn54554"
+PV = "2023.208.0.0.2csvn54554"
 
-RPM_NAME = "texlive-idxcmds-2023.201.0.0.2csvn54554-52.1.noarch.rpm"
-RPM_HASH = "08999c6058cf203cee945c7a4dbe4032f0132fd48f4583cf8346d33909755d47ab67ec91267c31e875cc5f172adfe4575266ac5fd77838d1cfa73df0b6a0bcc5"
+RPM_NAME = "texlive-idxcmds-2023.208.0.0.2csvn54554-53.1.noarch.rpm"
+RPM_HASH = "fc2c44cfedf6711f57e14615a7545c956b123a7ac32b820ec38cee4431490b0bec72cb495ef834bdcee617a3ea8d9b05e6d87ccd1667fbdeb8380a1268d102e3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-idxcmds.sty \

@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.3.0"
 
-RPM_NAME = "lib3ds-1-3-1.3.0-31.8.aarch64.rpm"
-RPM_HASH = "a0c58ee401d8593757f91c3970c3ef0dad9164a43e1b804bf45da43dd0a9a90cac188438904c9db28776e6860240a09cc351f623c63aa6da3cdfabc84dd24b15"
+RPM_NAME = "lib3ds-1-3-1.3.0-31.9.aarch64.rpm"
+RPM_HASH = "62f2b096d85c01801a655133ccfd6fbd561c0a096037c85a0b7833d5cc1f061ebce1425dc567e0aac356fbc8da8c45d33f00f7b525602fa77c1aa61277dc65dc"
 
 RPROVIDES:${PN} += "lib3ds \
 lib3ds-1-3 \

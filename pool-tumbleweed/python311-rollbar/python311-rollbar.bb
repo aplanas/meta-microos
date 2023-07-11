@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.16.3"
 
-RPM_NAME = "python311-rollbar-0.16.3-1.3.noarch.rpm"
-RPM_HASH = "8a49cf0853655dc4acba4922b0c93f0c5964a91c30712e08d81b7bc0bcae3346b6c33adc3d41e0db6d592e576551d2f37be76b3afd9d218c0ceb29cb070f5792"
+RPM_NAME = "python311-rollbar-0.16.3-1.5.noarch.rpm"
+RPM_HASH = "2543745d0baf089ba9134ef5cd2f4095e91a8b4c161aec125958b8394f586e19786a8df186e41845207860e58401906aac81deed13c90b335b8b8cb2e96e3a8c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-rollbar \
+RPROVIDES:${PN} += "python3-rollbar \
+python3.11dist-rollbar \
 python311-rollbar \
 python3dist-rollbar"
 

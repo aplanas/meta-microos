@@ -3,13 +3,12 @@ DESCRIPTION = "Implements a unicode subclass that supports HTML strings. This ca
 safely encode strings for dynamically generated web pages."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.1.2"
+PV = "2.1.3"
 
-RPM_NAME = "python310-MarkupSafe-2.1.2-2.1.aarch64.rpm"
-RPM_HASH = "9fdd0778cae7574bc3b53a4ad2e9f75a075a91f311ed72f838e7999bd3e5147e7120e3fab59b26c329809dc6f95a355f1ac08bb945a7140d040a5d9867af60dc"
+RPM_NAME = "python310-MarkupSafe-2.1.3-1.1.aarch64.rpm"
+RPM_HASH = "7459fb5a5905f931191d75064be52343f8fd0dd680d8a4fba50e84d89d78eed3ea9c6b1bf6f3530311519e50949d55a3969564cfa0003d4df412136ba057a45a"
 
-RPROVIDES:${PN} += "python3-MarkupSafe \
-python3.10dist-markupsafe \
+RPROVIDES:${PN} += "python3.10dist-markupsafe \
 python310-MarkupSafe \
 python3dist-markupsafe"
 

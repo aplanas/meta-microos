@@ -13,8 +13,8 @@ LICENSE = "MIT"
 
 PV = "0.10.0"
 
-RPM_NAME = "python39-stdeb-0.10.0-1.6.noarch.rpm"
-RPM_HASH = "1188b0317fac79e1dc82389d5416eb6d7eac1bee58e8aa36b1030fb985ea5b309034606de2160c4ff59ee1ada96209e3bf03b703c3db196311e9c50052ded715"
+RPM_NAME = "python39-stdeb-0.10.0-1.7.noarch.rpm"
+RPM_HASH = "117b4873ab685851c2941cc0e33d11f90ba08108a89d76619534e96474082d1a8cc6ef30100f8aa29fcbc18b5db169e4a6a1c89df0d9313780ed0c4a94e244f0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-stdeb \

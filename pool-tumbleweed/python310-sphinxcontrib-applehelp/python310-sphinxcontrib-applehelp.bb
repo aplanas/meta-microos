@@ -4,12 +4,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.0.4"
 
-RPM_NAME = "python310-sphinxcontrib-applehelp-1.0.4-2.1.noarch.rpm"
-RPM_HASH = "f62ebcc7d5d9a6a07db4a6b99565b9d45eb010c9f616ea47779db2de16d927b57e2feea739d15d4f22844107bc925ab62b1344adf3d81019cfe9c1e06a3d0997"
+RPM_NAME = "python310-sphinxcontrib-applehelp-1.0.4-2.3.noarch.rpm"
+RPM_HASH = "33d0467270d11cbe5377a600ff082f49f17f53f6b7a40f5c0a82d747e3d15b10a38783c9e876c191aad827a6d01d47b1b8d72ea3557e5ca1d7525479b0e7d402"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-sphinxcontrib-applehelp \
-python3.10dist-sphinxcontrib-applehelp \
+RPROVIDES:${PN} += "python3.10dist-sphinxcontrib-applehelp \
 python310-sphinxcontrib-applehelp \
 python3dist-sphinxcontrib-applehelp"
 

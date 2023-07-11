@@ -5,10 +5,11 @@ LICENSE = "MIT"
 
 PV = "1.11.1"
 
-RPM_NAME = "python311-blosc-1.11.1-1.4.aarch64.rpm"
-RPM_HASH = "473900225225db3c6c50c59aaa3a8ccb9f34ea372ad5dc26d2c724f519eb6c2c9937f3e481978cc489fab67ac2c4504c63b538a1619e9e959cbbb6871acfefbf"
+RPM_NAME = "python311-blosc-1.11.1-2.2.aarch64.rpm"
+RPM_HASH = "7e038208cb599d857b5c4f6df5e4340524f388894b7218d499bd6085a6a3a8afda20f51c3b8f4e073ca58002e6cf5ff68982639f2e01e78411e379ac7707a24f"
 
-RPROVIDES:${PN} += "python3.11dist-blosc \
+RPROVIDES:${PN} += "python3-blosc \
+python3.11dist-blosc \
 python311-blosc \
 python3dist-blosc"
 

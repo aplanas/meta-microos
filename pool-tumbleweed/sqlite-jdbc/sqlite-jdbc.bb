@@ -10,8 +10,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.42.0.0"
 
-RPM_NAME = "sqlite-jdbc-3.42.0.0-1.1.aarch64.rpm"
-RPM_HASH = "f192cffcb1f92030cae3bb5a8847078e3a8b438f18cba4bd3b96ba92a42e95399ef29c79becdfe561851232f6276906c2d55b1c35b4a0824b5a26a1900fadf33"
+RPM_NAME = "sqlite-jdbc-3.42.0.0-1.2.aarch64.rpm"
+RPM_HASH = "77de00120c70631718bf920210368ce9da5f7e5f5905bed1f10521b1b369e72452f0e1103282abc88fbabafdf6abfaab4d0ff58deae94b21c7303e26d1002539"
 
 RPROVIDES:${PN} += "mvn-org.xerial-sqlite-jdbc \
 mvn-org.xerial-sqlite-jdbc-pom- \

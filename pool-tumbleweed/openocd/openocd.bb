@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.12.0"
 
-RPM_NAME = "openocd-0.12.0-2.3.aarch64.rpm"
-RPM_HASH = "99127c985051cc05aa4ad2b5520ad5c38a9cd3cb9c2fe4e2baf00edb7ff651d22b89d3b9c6799d1e7ee6776e23a857761550e8d2ba1e0c8d03bec4eadd85ab2e"
+RPM_NAME = "openocd-0.12.0-2.4.aarch64.rpm"
+RPM_HASH = "fc2646f8a106c2431e17ece525fe59ddbefa624379441de2000911e3e6445aaf99e51669d26481889cdf635ab4c1cd1feb9f24aabd7ad7eda70e96ab1efde72b"
 
 RPROVIDES:${PN} += "openocd"
 

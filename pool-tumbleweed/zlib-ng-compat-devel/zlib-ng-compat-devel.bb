@@ -3,10 +3,10 @@ DESCRIPTION = "The zlib-ng-compat-devel package contains header files for \
 developing application that use zlib-ng-compat."
 LICENSE = "Zlib"
 
-PV = "2.0.7"
+PV = "2.1.2"
 
-RPM_NAME = "zlib-ng-compat-devel-2.0.7-1.1.aarch64.rpm"
-RPM_HASH = "13c25f43153a9188e300307be13b82b55b8b40dd26a3999c375ccf84801d8febef51d3c86bc432518baa19cba59be07b14431a207dd3e51378ff17f50f916c03"
+RPM_NAME = "zlib-ng-compat-devel-2.1.2-2.1.aarch64.rpm"
+RPM_HASH = "02e714a6bdabd82f4013b41e2ab898ac2c9ff37755c996b6f669d9432d82307d4aa156ff4a0ba1b696b1fee98be44f1ed081842359f4e6d45de35524223747cb"
 
 RPROVIDES:${PN} += "pkgconfig-zlib \
 zlib-devel \

@@ -11,11 +11,12 @@ LICENSE = "MIT"
 
 PV = "3.3.0"
 
-RPM_NAME = "python311-python-jose-3.3.0-1.5.noarch.rpm"
-RPM_HASH = "04009757361acb14c18c3b30221d7fe79aa4f0a456135a87d90ec7a156b55a48b5b1fd2a033c3ce985e8065832a99bf7c91fc8ad19e9deb021206c41b698fe6b"
+RPM_NAME = "python311-python-jose-3.3.0-2.2.noarch.rpm"
+RPM_HASH = "4371f80c4b5356ad42d7121ab6ecd3be1f73af78d850dded0b3eb1d209254bb56afbe41261491d461d5ec160b7a9d6abb70af3e3d3b1f7e216e0426c3b173e7d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-python-jose \
+RPROVIDES:${PN} += "python3-python-jose \
+python3.11dist-python-jose \
 python311-python-jose \
 python3dist-python-jose"
 

@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.0.7"
 
-RPM_NAME = "python39-geolib-1.0.7-2.18.noarch.rpm"
-RPM_HASH = "b9e2ed9177bb4bc55a357573323e5231c69e73531266ad05c2e1ed5d9789e8ca21a99de2978c9730c3baa4c6c8239792746501d55760b6e98553b2be333c11fd"
+RPM_NAME = "python39-geolib-1.0.7-2.20.noarch.rpm"
+RPM_HASH = "85620dca69f374b44166b52868e86658e7d3f80282c52a55cf95f49d66604be0cf8b4c9150a7bb63f7a27f2de538d2f9fca9071d172c4c11e1bf664075d69fdc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-geolib \

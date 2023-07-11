@@ -7,8 +7,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.1.1svn63629"
 
-RPM_NAME = "texlive-eqexpl-2023.201.1.1.1svn63629-53.1.noarch.rpm"
-RPM_HASH = "5ab9da7da75296407ad8cb3336b08e7e1b98751f872ed73dc198de4e47445f58509a67e04b86db03d02165d0feded2f5493b675036cd99423bbfa3f157b09e98"
+RPM_NAME = "texlive-eqexpl-2023.201.1.1.1svn63629-53.2.noarch.rpm"
+RPM_HASH = "30165b244f799cfc8de63159c1bef9cefbeca14ed6b1b6e7193dbc5a92c5ee13c6f53c1b0ad86196978758d07d26fa2125b496f3fc88c2ea1e2729ef41c0bc57"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-eqexpl.sty \

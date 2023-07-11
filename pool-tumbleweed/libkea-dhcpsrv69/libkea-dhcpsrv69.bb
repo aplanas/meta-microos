@@ -7,8 +7,8 @@ LICENSE = "MPL-2.0"
 
 PV = "2.2.0"
 
-RPM_NAME = "libkea-dhcpsrv69-2.2.0-2.4.aarch64.rpm"
-RPM_HASH = "d2861aa9b3d9328c9f4b7838a2021d6b32c9b76c879bc7e0d41233e27da1e0191f720b5efb5f498637533c102cdb69605be6a1203f1f1b61123163422a3ca7f1"
+RPM_NAME = "libkea-dhcpsrv69-2.2.0-2.6.aarch64.rpm"
+RPM_HASH = "b8c8db232466f886e42e86fbfa8fec378fe628d39b44e1997f1864317fe5b073c1fee16c5165d394fe3e9b8a9b2533b78bd00bd8d31ff1d25a08fe4c87cc7320"
 
 RPROVIDES:${PN} += "libkea-dhcpsrv.so.69 \
 libkea-dhcpsrv69"

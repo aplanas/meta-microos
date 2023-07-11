@@ -6,8 +6,8 @@ LICENSE = "EPL-2.0 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "2.5.0"
 
-RPM_NAME = "glassfish-hk2-osgi-resource-locator-2.5.0-2.3.noarch.rpm"
-RPM_HASH = "3d1110942b006fa0c5f771bc940cc348b7d4c1425ca2dcd56244c8defa7f648a6fd67867e1d2cf0ecac14dad6bc179a7fad38265fe88afb215f608ac2ed084c4"
+RPM_NAME = "glassfish-hk2-osgi-resource-locator-2.5.0-2.4.noarch.rpm"
+RPM_HASH = "6d07d3cec665a36cebea99c3b6bee96ec56552021bd0d77c51eed872659501eb3aa72f30498c4a66a32b5d462869646e0cd50fc3061392c06835c724d420f73d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-hk2-osgi-resource-locator \

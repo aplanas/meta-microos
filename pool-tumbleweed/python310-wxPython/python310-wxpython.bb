@@ -9,12 +9,10 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.2.0"
 
-RPM_NAME = "python310-wxPython-4.2.0-4.5.aarch64.rpm"
-RPM_HASH = "bce4317651d0972d94594d4fe228aa42a5f4f3afa562ff5bcf102400323e0f6985bdc86581d46abe5a2356e227cd215375a907842f5ff568562f13ce578c3ed3"
+RPM_NAME = "python310-wxPython-4.2.0-4.6.aarch64.rpm"
+RPM_HASH = "94779dde58ac625d8ab4456cc476a11349c30b2113d4433422951a08057ea680bd6a688f94cc0ce1a540e8d257c3a74f4c5b7be79aeea5dba758a2704a0f0c85"
 
-RPROVIDES:${PN} += "python3-wxPython \
-python3-wxWidgets \
-python3.10dist-wxpython \
+RPROVIDES:${PN} += "python3.10dist-wxpython \
 python310-wxPython \
 python310-wxWidgets \
 python3dist-wxpython"

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0"
 
 PV = "2.3.2+svn587"
 
-RPM_NAME = "libvdesnmp-devel-2.3.2+svn587-3.23.aarch64.rpm"
-RPM_HASH = "658421b017ea746c93dc86f0798a9af3a6ed77e6360eec2b11c16ca74372a0f9c94586ec750493b97029f126ad1788c31625d6675adce3dccab7aada058f8931"
+RPM_NAME = "libvdesnmp-devel-2.3.2+svn587-3.24.aarch64.rpm"
+RPM_HASH = "d30cdcc7a47aa64c8185062a15529ef5c673492e99adabf7415362a935beca1eec4ac16c2198d0cbaf5004e4c90cd016d8e7a0c6d440407641286f46acb05ca9"
 
 RPROVIDES:${PN} += "libvdesnmp-devel \
 libvdesnmp0-devel \

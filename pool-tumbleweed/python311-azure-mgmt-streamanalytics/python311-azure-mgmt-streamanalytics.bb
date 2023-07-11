@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "1.0.0.0"
 
-RPM_NAME = "python311-azure-mgmt-streamanalytics-1.0.0.0-1.7.noarch.rpm"
-RPM_HASH = "20eb3f9c04d136ded30b7f0a8ab9032a03492bafef1b500616e19c293d8fbda40d7b2409bfd04eac1935a7ba2d2962151bff43a38e87c57642a5f029fc0ba742"
+RPM_NAME = "python311-azure-mgmt-streamanalytics-1.0.0.0-1.8.noarch.rpm"
+RPM_HASH = "54b0c25cdef8c90fa1c72ce0dde5d3192ad68193b09be7d445b2935a77d24c51e41eef511ea294f204c7bd7f451d3ab961b1ec0e4a3adf5284a337e9f3ad3574"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-streamanalytics \
+RPROVIDES:${PN} += "python3-azure-mgmt-streamanalytics \
+python3.11dist-azure-mgmt-streamanalytics \
 python311-azure-mgmt-streamanalytics \
 python3dist-azure-mgmt-streamanalytics"
 

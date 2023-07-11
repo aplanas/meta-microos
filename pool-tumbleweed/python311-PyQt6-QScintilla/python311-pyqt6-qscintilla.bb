@@ -9,10 +9,12 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.13.4"
 
-RPM_NAME = "python311-PyQt6-QScintilla-2.13.4-1.5.aarch64.rpm"
-RPM_HASH = "45b42c86228806a60caf79cba3c0fffd5d58405d4b2ae33311eb7d4343883ba598ba4868fc1c030db074e71a79973ac1eca79a7a5c90386ec2e390c2a740e122"
+RPM_NAME = "python311-PyQt6-QScintilla-2.13.4-1.6.aarch64.rpm"
+RPM_HASH = "cb409e9ef9810433e2c1ecde0e0187a5aed8d3741f77121c8c0399d625e23445e476ada2edf3e173803361d87c4fe16b4eab0960a49d1489a01c10e96494689c"
 
-RPROVIDES:${PN} += "python3.11dist-pyqt6-qscintilla \
+RPROVIDES:${PN} += "python3-PyQt6-QScintilla \
+python3-qscintilla-qt6 \
+python3.11dist-pyqt6-qscintilla \
 python311-PyQt6-QScintilla \
 python311-qscintilla-qt6 \
 python3dist-pyqt6-qscintilla"

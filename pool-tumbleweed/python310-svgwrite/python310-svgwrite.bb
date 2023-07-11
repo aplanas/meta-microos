@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.4.3"
 
-RPM_NAME = "python310-svgwrite-1.4.3-1.3.noarch.rpm"
-RPM_HASH = "29bf5a40034e562b3bbc4da60de582c499075ac2c2185ffd4e8f27e7fd5c0b78642763f03a5e63638abeedd6c8e7247db7d8417a9cb63cacf38b0ee305fc794a"
+RPM_NAME = "python310-svgwrite-1.4.3-1.5.noarch.rpm"
+RPM_HASH = "7dd87e19901358ed351acf8af40dfe9c0f662d0e4a836a6adb22b8b41198aa4049b7a8f39925186deb3ffeb021bf0cc684ad07445f3b07e771160b10110b3936"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-svgwrite \
-python3.10dist-svgwrite \
+RPROVIDES:${PN} += "python3.10dist-svgwrite \
 python310-svgwrite \
 python3dist-svgwrite"
 

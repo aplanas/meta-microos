@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.2.0~b1"
 
-RPM_NAME = "python39-azure-mgmt-servicelinker-1.2.0~b1-1.3.noarch.rpm"
-RPM_HASH = "487f75a9eedb12d83cba24b26d7f19b7378083a9a5812b26a519ef7fc511e41c9cd12ce261e885d37040beffdb1adc81ab869b369389528f6fc0d727573b3ae6"
+RPM_NAME = "python39-azure-mgmt-servicelinker-1.2.0~b1-1.4.noarch.rpm"
+RPM_HASH = "2ad3f1d716dc75a19e74018f953e0bd9b4a4db5c2af4bf25fee09c361355c4e87c0151cc25d5f77c96cff715776cf7d6fd75940b935472876c5764550d266a30"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-servicelinker \

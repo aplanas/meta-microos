@@ -18,8 +18,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.4.7"
 
-RPM_NAME = "nagios-www-dch-4.4.7-2.4.aarch64.rpm"
-RPM_HASH = "68a3b7dae8f830628eb3e4620c28e2db9fb7181e0712139750daeb6a5011e0e29b49e510eb510def7c4761efb71965168ec5240d7a045659e48e86e213d071e0"
+RPM_NAME = "nagios-www-dch-4.4.7-2.5.aarch64.rpm"
+RPM_HASH = "4864adf77d3a9774a3362b2f5d3b914d0109f399fcc2b78dd9e09bc2ee1bc1f2b1c8a8e591c170f5cc83ad116a4bd096bc30212079214047923f17b06811087c"
 
 RPROVIDES:${PN} += "nagios-www-dch"
 

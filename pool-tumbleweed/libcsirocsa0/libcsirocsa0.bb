@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "5.15.0"
 
-RPM_NAME = "libcsirocsa0-5.15.0-16.2.aarch64.rpm"
-RPM_HASH = "dd6b5d1231afe8173bf859d04596b403c99f63367928ad02930e5cff28780bef72abd75bbbe396e039a874fa5c2fb429c17c6a4cd4507bbd27c31bf4cae18b74"
+RPM_NAME = "libcsirocsa0-5.15.0-17.1.aarch64.rpm"
+RPM_HASH = "bfde684f9b34e5cc7c756546426b1e3c1145bb531b3081ffbd3d03ca35bfa9431e0dff1e34e921ccc1e861b580b70ebc59d52d508929ae50078b49890f02469e"
 
 RPROVIDES:${PN} += "libcsirocsa.so.0 \
 libcsirocsa0"

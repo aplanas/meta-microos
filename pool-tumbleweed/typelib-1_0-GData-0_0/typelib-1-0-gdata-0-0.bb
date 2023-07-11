@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.18.1"
 
-RPM_NAME = "typelib-1_0-GData-0_0-0.18.1-3.3.aarch64.rpm"
-RPM_HASH = "5ccdd0d43dc99f34f74efff2e2bb05ccfffb63773d053a5b706a99cf73fff2a5afc14d8a1305252481bd27cd65989e2a62707f5130adf2a5380a990b9d86e71a"
+RPM_NAME = "typelib-1_0-GData-0_0-0.18.1-3.4.aarch64.rpm"
+RPM_HASH = "452a0bbaa08eb6826c092d9b78c518edf25ba2e003e590b6140df4e66a930375c3bb667cae3afeb5eea3bc9f2eff6c20a22a957e83d2cea21ba54ce3f4cd5cc0"
 
 RPROVIDES:${PN} += "typelib-1-0-GData-0-0 \
 typelib-GData"

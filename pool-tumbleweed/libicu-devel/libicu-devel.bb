@@ -4,10 +4,10 @@ and locale support. \
 This package contains the headers for ICU."
 LICENSE = "ICU"
 
-PV = "73.1"
+PV = "73.2"
 
-RPM_NAME = "libicu-devel-73.1-1.1.aarch64.rpm"
-RPM_HASH = "a61a988ca39f304392b91482c78a84c854300a436a39b99fd01cfed4932b0ce78d0f3e69e64512fe7947028ce7894431d2eab244abfb0c6ae537af8f7890d44a"
+RPM_NAME = "libicu-devel-73.2-1.1.aarch64.rpm"
+RPM_HASH = "3ce1fa2e866d26b7d3715caa964d7b477315a2602671e697f257682c4cb6017d27cebcb9fc81fe133f82b0be20188c0db036ad63495fe4541132444464397670"
 
 RPROVIDES:${PN} += "libicu-devel \
 pkgconfig-icu-i18n \

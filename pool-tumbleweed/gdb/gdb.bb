@@ -4,10 +4,10 @@ Java, and other languages, by executing them in a controlled fashion \
 and printing their data."
 LICENSE = "GPL-3.0-only-with-GCC-exception-3.1 & GPL-3.0-or-later & LGPL-2.1-or-later & LGPL-3.0-or-later"
 
-PV = "12.1"
+PV = "13.2"
 
-RPM_NAME = "gdb-12.1-8.1.aarch64.rpm"
-RPM_HASH = "74fd1b874d96a1522a0be437cfe9f4700432943e8b90fd08e63671225432e61c301a5b075d6e45919e4ed15572ae4e11b6a3cf1b2745c86d46020cdc03e2de7a"
+RPM_NAME = "gdb-13.2-1.1.aarch64.rpm"
+RPM_HASH = "ad926bbd93e55de0784c4e6e757f70d7f01f89bb316eb94494032b8d5f39eb6b42e239316202996d640473d92ae2db61f05f0dbd1cd211ac279b49f5e922b601"
 
 RPROVIDES:${PN} += "config-gdb \
 gdb"
@@ -26,7 +26,7 @@ liblzma.so.5 \
 libm.so.6 \
 libmpfr.so.6 \
 libncursesw.so.6 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libreadline.so.8 \
 libsource-highlight.so.4 \
 libstdc++.so.6 \

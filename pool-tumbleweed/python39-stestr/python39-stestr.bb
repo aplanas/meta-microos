@@ -15,8 +15,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.2.1"
 
-RPM_NAME = "python39-stestr-3.2.1-2.3.noarch.rpm"
-RPM_HASH = "fc2eea07f903e2d73147a8bb15801e4589d0ad12c1a4b01ec74059c10159e01f427ec6cf5dabe4d6d9292056d3eaaa68f4060b3170131e30e905c8240a93280b"
+RPM_NAME = "python39-stestr-3.2.1-2.4.noarch.rpm"
+RPM_HASH = "1268add6e350dd8a67a4d6fdc9c7911b021a324bd44dc81bb0a398b2963afa0a3b5273120f82987f7727448d8326f3b1a2dfac9be0a31eaa99e3d47cfc4a9f13"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-stestr \

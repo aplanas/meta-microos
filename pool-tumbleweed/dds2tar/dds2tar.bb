@@ -1,12 +1,12 @@
 SUMMARY = "DDS2 Tape Streamer Utilities"
 DESCRIPTION = "A tool for quick extraction of individual files from a DDS2 streamer. \
 dds2tar can control data compression for HP DAT streamers."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
 PV = "2.5.2"
 
-RPM_NAME = "dds2tar-2.5.2-1332.21.aarch64.rpm"
-RPM_HASH = "dd1b8bc1f4daffcec5a14a995c7d5b827906ace7e08d0cbf0cf08ac455ab1c176fe50d5eab92d23c1bb1325035d1769bfc1df7c847466c72c926af51abc00a53"
+RPM_NAME = "dds2tar-2.5.2-1333.1.aarch64.rpm"
+RPM_HASH = "281f53da84686680c541f3b6cdbe603cb0b379c05f40407125c68247cf0aeb17689654b588937cb87f6870e3954435ce18fef0e6e9c131a0a21485be94774229"
 
 RPROVIDES:${PN} += "dds2tar"
 

@@ -8,8 +8,8 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20210503"
 
-RPM_NAME = "libodraw-devel-20210503-3.6.aarch64.rpm"
-RPM_HASH = "3a2c81308bec7f08ea294da9770ec7edbd93f275f6ecf2621e513a15b8ebeab6a65b46020fba1ab00825c7d7d0f3646b96a17e1b537bde7129f1edb6249f0978"
+RPM_NAME = "libodraw-devel-20210503-3.8.aarch64.rpm"
+RPM_HASH = "86e818e668d188545a71800b3cb58623757317daf23ba924fdc2ec7008f0209078b0d3b05df732e5dbf162c6819a8c5c65fbc4a59f083d09970974a28ef6993b"
 
 RPROVIDES:${PN} += "libodraw-devel \
 pkgconfig-libodraw"

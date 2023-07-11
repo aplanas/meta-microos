@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "0.2.0.post0"
 
-RPM_NAME = "python39-pastream-0.2.0.post0-4.10.aarch64.rpm"
-RPM_HASH = "ac8607e59b339e7ce5bc86bc2c3b9ffb669584d082ca67f91d3d7565cc3ebd8d4668b61059f4a6d44a6457bef7d0d9e18707d41a28b0daf18925543e50d06e46"
+RPM_NAME = "python39-pastream-0.2.0.post0-4.12.aarch64.rpm"
+RPM_HASH = "0723b6d94c0bedad722c1d8486a94751162f5de9473de8e9e784c03c0f78004d7f2fadff879aa61c6bb7249c88b7ffa68c305eeca60a8440fb101e291c2c471c"
 
 RPROVIDES:${PN} += "python3.9dist-pastream \
 python39-pastream \

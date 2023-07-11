@@ -10,8 +10,8 @@ LICENSE = "Artistic-2.0"
 
 PV = "3.008"
 
-RPM_NAME = "perl-Business-ISBN-3.008-1.1.noarch.rpm"
-RPM_HASH = "0d2a71528fed22f2f33d7976629869d7b918ac0d6633e554c2ff6f564109cbd5c6111c215752ef1a70354a828be67b6579d6fa9a8dd368336a5411fce1979dcb"
+RPM_NAME = "perl-Business-ISBN-3.008-1.2.noarch.rpm"
+RPM_HASH = "ce438684457622f24431b2ce0970604e905360805acf963fe9210c14d9fb96e87dfe33e2c497967904552f6e4f38d512922b1205767f05294c79bec49313bc44"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Business--ISBN \
@@ -19,7 +19,7 @@ perl-Business--ISBN10 \
 perl-Business--ISBN13 \
 perl-Business-ISBN"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Business--ISBN--Data"
 
 inherit rpm

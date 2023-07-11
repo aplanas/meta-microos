@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "5.1.0"
 
-RPM_NAME = "rtaudio-devel-5.1.0-1.15.aarch64.rpm"
-RPM_HASH = "886fe14af9e8360b5148f6d1461d18e6432a9088b70268112adcbfc949e3ecf6b3f7b3b33b0184f681cf70a377ffba3633236d8fd98515dbec29f1dd64a745ef"
+RPM_NAME = "rtaudio-devel-5.1.0-1.16.aarch64.rpm"
+RPM_HASH = "4061cf652de922cd5dfac9c5b0f65f03f18989b9b31645dc543087327bf9e57a2243aea70269e3288ef78226d8786dec9920a1714eeeb7b02278e260b1e19ddb"
 
 RPROVIDES:${PN} += "pkgconfig-rtaudio \
 rtaudio-devel"

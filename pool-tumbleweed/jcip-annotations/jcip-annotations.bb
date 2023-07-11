@@ -5,8 +5,8 @@ LICENSE = "CC-BY-2.5"
 
 PV = "1.0"
 
-RPM_NAME = "jcip-annotations-1.0-21.5.noarch.rpm"
-RPM_HASH = "e83d928c0d0513c12d7a8e955c1451b36df440315e83c195c51a579841ac6d5339531ccf442851433789faf359888f6b301609cec1931050d9232033722a6aa1"
+RPM_NAME = "jcip-annotations-1.0-21.6.noarch.rpm"
+RPM_HASH = "7a86afece31b2c4cc1a956a1e37d6c6d911b54e80fb75307953711cf62ccf45e6511446ebfd28da2fd0f26a9403b303b596f325ff9ad43edfa2af7680e23e4b0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jcip-annotations \

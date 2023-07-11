@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "4.1.0"
 
-RPM_NAME = "gcr-doc-4.1.0-1.1.noarch.rpm"
-RPM_HASH = "433c57c098a046281b92064ccce34170bbbc82b6dc0930a212a244069392ae91975aaef14efc4c151eccdac3a09f03b8a9a5f98a78a06c1945f4e9102a878569"
+RPM_NAME = "gcr-doc-4.1.0-1.2.noarch.rpm"
+RPM_HASH = "5e0b69a0df2c423d8fffd9376e344139d51c182ead6091a98e736aa0dbd4052c6fddc7356d2a848cc752a71bb6d09ce78a998721e1b29abfb5caec4b3c4d2e7f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gcr-doc"

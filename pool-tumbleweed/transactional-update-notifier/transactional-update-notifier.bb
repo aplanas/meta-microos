@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.1.0.2"
 
-RPM_NAME = "transactional-update-notifier-1.1.0.2-1.4.aarch64.rpm"
-RPM_HASH = "b7e8a3b4f4de2597ae3e01e02fe99759748f9c01ff2337c00ca3d9e00bab856d4cb7be3e7da588ce45c1aa48bd35fe05cb9ccd6717b86264f05cd9c654cf4ce9"
+RPM_NAME = "transactional-update-notifier-1.1.0.2-1.5.aarch64.rpm"
+RPM_HASH = "4a728e049a3857236771df780ef5d89f8bc724e35c40e126752db5870acd8b62e043b3a6f2d35ad269c57e3e42598b7c0e5bbde7be4b73ddb9a794650d7236ed"
 
 RPROVIDES:${PN} += "transactional-update-notifier"
 

@@ -5,8 +5,8 @@ LICENSE = "MPL-1.1 | GPL-2.0-or-later | LGPL-2.1-or-later"
 
 PV = "0.5.2"
 
-RPM_NAME = "libcmis-devel-0.5.2-1.24.aarch64.rpm"
-RPM_HASH = "e378ef984ba702061589050240bad1b66aac1e1b3190f863511aee6420bf9b5e0f83401945b4cd9798d145379c11f534fc46ba89a996b69045c04a56f459fbd2"
+RPM_NAME = "libcmis-devel-0.5.2-1.25.aarch64.rpm"
+RPM_HASH = "3613f28de97eae1e65ef2b567abfc891748d0e07e1c32c91dcffeaa1dade73fb4c0a351861a2e4aaabf64e70126e31eae07388bab376efa18014540f6f10b23c"
 
 RPROVIDES:${PN} += "libcmis-devel \
 pkgconfig-libcmis-0.5"

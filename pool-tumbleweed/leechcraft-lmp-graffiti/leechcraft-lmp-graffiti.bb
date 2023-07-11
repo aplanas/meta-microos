@@ -5,8 +5,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-lmp-graffiti-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "b76f4f85f069bf3320d4b68bbdb27f8ce6abb4afa57c1e696b691e3bd852109b85f223564be3c533eff2bb18982ec5eafeb7a0f52f1881c7dfc61d041f45eb65"
+RPM_NAME = "leechcraft-lmp-graffiti-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "d94b05059eedba8c8532ade72243a98492a1941fd82a52625daa1ddb298bf7f47b51356f6fb4c757bea67634c287037021bef542ea8b116203d8df8f77464f58"
 
 RPROVIDES:${PN} += "leechcraft-lmp-graffiti \
 libleechcraft-lmp-graffiti.so"

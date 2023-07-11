@@ -9,11 +9,13 @@ LICENSE = "BSD-3-Clause & MIT"
 
 PV = "4.0.7"
 
-RPM_NAME = "python311-widgetsnbextension-4.0.7-1.1.noarch.rpm"
-RPM_HASH = "2c62e33c08c95e04c50aa8e6ca0b12fee31946b24bde69cad5b59bd19240cbc9bce7f966d3bb80edc8340b99c4f070830cbaeba8773efefb7a3c1cc049219e8a"
+RPM_NAME = "python311-widgetsnbextension-4.0.7-1.2.noarch.rpm"
+RPM_HASH = "5746ab7fd6b3e5f4e807ba497215f6b3bdf640a2bb478678fa203e184453b4000473d80a2f779a05693963820bb026168b989abffae90541fd4caba3725ed885"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-widgetsnbextension \
+RPROVIDES:${PN} += "python3-jupyter-widgetsnbextension \
+python3-widgetsnbextension \
+python3.11dist-widgetsnbextension \
 python311-jupyter-widgetsnbextension \
 python311-widgetsnbextension \
 python3dist-widgetsnbextension"

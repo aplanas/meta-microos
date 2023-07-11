@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.4.0"
 
-RPM_NAME = "libopagent1-1.4.0-2.1.aarch64.rpm"
-RPM_HASH = "1b7ff664b65dca28353238e29e31041d4a72fab4691d6fd79bab9c750c5ed12421eb343d6e5aaac9a16dbaaf5293d58e9a98fa76f0eaeac746fdb8e16f688f2b"
+RPM_NAME = "libopagent1-1.4.0-2.2.aarch64.rpm"
+RPM_HASH = "ef4ce879461cc8f047bcca1b15da856472ca0ea9a41832066b3fae8fc641518dfd4d055d99f9f72ff7c797f38a4b74ec2f4ccc65cbaf0766a490ff67a98c3898"
 
 RPROVIDES:${PN} += "libopagent.so.1 \
 libopagent1"

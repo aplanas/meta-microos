@@ -2,10 +2,10 @@ SUMMARY = "Translations for package ktp-contact-runner"
 DESCRIPTION = "Provides translations for the 'ktp-contact-runner' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "ktp-contact-runner-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "9c52c443eb3dc2c700e7c013431900b0d33367e8698dc4ce2eeeae73d20418a419f4cfdba3b33e201b262f4a8639d28ded2f94265b931a71d34b2cf0f2479973"
+RPM_NAME = "ktp-contact-runner-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "d7caeb1baef20386ece19996ce363c77dac055f87ec1117150f08550259d6c97d122f9ef1f5f15fccebcd990fec13e8072ce265558273afb00a2ff1f84173b99"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ktp-contact-runner-lang \

@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.1.1"
 
-RPM_NAME = "python310-formats-0.1.1-1.14.noarch.rpm"
-RPM_HASH = "154a5b1ffe2c58f12deb98c19f418a7890bbf2492606d109104c44f66c4a1aa0a8a0b6d778637d4282f68030df8e45d85e835bf38331fb99ae31bf299c274602"
+RPM_NAME = "python310-formats-0.1.1-1.15.noarch.rpm"
+RPM_HASH = "17a23cc0bdadcabe9038931e4855b0ebf9960f8d3b33926e7fd49fb4f38ded0488604d72c85b34fbaff31fb0151548f9ebc160327ea04bb8ad63739f4378b00b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-formats \
-python3.10dist-formats \
+RPROVIDES:${PN} += "python3.10dist-formats \
 python310-formats \
 python3dist-formats"
 

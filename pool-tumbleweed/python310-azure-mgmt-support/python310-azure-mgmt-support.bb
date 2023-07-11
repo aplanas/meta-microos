@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "6.0.0.0"
 
-RPM_NAME = "python310-azure-mgmt-support-6.0.0.0-1.8.noarch.rpm"
-RPM_HASH = "768eb53ba436788352341da208ae424b732fee290fafedfe719bf88c674211ee9eb4cf026d551ea83d9e9631f638bfe720b7ecdc40f87a9affcea081f9017dd1"
+RPM_NAME = "python310-azure-mgmt-support-6.0.0.0-1.9.noarch.rpm"
+RPM_HASH = "0adf5a55cc1f9139c895bb93464f3ba4a1cc5a77efd116065ea83e6a1992472ebf40ba89a23be9b8924d02c5feae7161011caf2aaee2143b72f54123238b50f4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-support \
-python3.10dist-azure-mgmt-support \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-support \
 python310-azure-mgmt-support \
 python3dist-azure-mgmt-support"
 

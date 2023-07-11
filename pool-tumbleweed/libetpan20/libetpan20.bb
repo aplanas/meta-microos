@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.9.4"
 
-RPM_NAME = "libetpan20-1.9.4-1.13.aarch64.rpm"
-RPM_HASH = "9294083a1029555ad10bb3874a0fb84c0a9b6362ca37f48ef0cb7c4bca3c6ccce196214d936509be35e9edb3652ea0580d6e799ac80e59462f0c93f6f769121f"
+RPM_NAME = "libetpan20-1.9.4-1.14.aarch64.rpm"
+RPM_HASH = "a69ab1809d20f9950deecdab24a1e768ffc662c946b34850ebe2bb0581d7e8745cdd1fcbe80dde0f9370dc441539ea76ce7676a98efdb41fa0300f3a152ce7c5"
 
 RPROVIDES:${PN} += "libetpan \
 libetpan.so.20 \

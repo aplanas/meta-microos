@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "1.2.0"
 
-RPM_NAME = "python310-pytest-flask-1.2.0-1.1.noarch.rpm"
-RPM_HASH = "a8f7025a0cc0341af658dee3b72c30ad6a5e66daff58bbaf5e0396bca25df76ce3cf215caab457e1ce43d866a3bdd1c4f15741e276c1d7ec248f05e74ba838da"
+RPM_NAME = "python310-pytest-flask-1.2.0-1.3.noarch.rpm"
+RPM_HASH = "452f14f8ecd54c39073dd41a1583089fffcbbab286f3e231efed4cc2526e5536dd669f0069134a5c9628734caee5ff4c8cd99960f90ec38ccc8b7e0fd74bcdd1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pytest-flask \
-python3.10dist-pytest-flask \
+RPROVIDES:${PN} += "python3.10dist-pytest-flask \
 python310-pytest-flask \
 python3dist-pytest-flask"
 

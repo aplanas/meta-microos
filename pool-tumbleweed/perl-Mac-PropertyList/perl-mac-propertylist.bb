@@ -22,8 +22,8 @@ LICENSE = "Artistic-2.0"
 
 PV = "1.504"
 
-RPM_NAME = "perl-Mac-PropertyList-1.504-1.3.noarch.rpm"
-RPM_HASH = "bdbc4475b0ce8a64556c895bee1ee58d01c04ab78b688c0f6f27523df9d3a7fe93a069a44bf0bb2946c428e7cd17b8ba5dbc813c043270ed921a149f0e079056"
+RPM_NAME = "perl-Mac-PropertyList-1.504-1.4.noarch.rpm"
+RPM_HASH = "e9466e452ac6e3f44eaf950be388603634697adefc23b52aec14b9de93ce8cead212edbbac61df8f2f7fd73f9ecee2485a1c25bb1a662f246a21ae29d6a411b7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mac--PropertyList \
@@ -49,7 +49,7 @@ perl-Mac--PropertyList--uid \
 perl-Mac--PropertyList--ustring \
 perl-Mac-PropertyList"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-XML--Entities \
 perl-parent"
 

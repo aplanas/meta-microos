@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.8.6"
 
-RPM_NAME = "translate-toolkit-doc-3.8.6-1.2.noarch.rpm"
-RPM_HASH = "ba7baa6b2fae9c4e75a53fc112f0881ad09e6bf45d5dc40755a8ad5efbcad5d93536044ab18c566a1e5021dd39a254c8a6e799c9526c6ead136de93deb94a369"
+RPM_NAME = "translate-toolkit-doc-3.8.6-1.4.noarch.rpm"
+RPM_HASH = "c22ad6b868d1dc091e31097adcfa4d9de5cfe45e80c516020d430e5c5ba20aa9a52844d94a53574b088a15408ab88dbb2758303a84c1ae7061b353480a78d143"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "translate-toolkit-doc"

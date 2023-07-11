@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0"
 
 PV = "0.54.0"
 
-RPM_NAME = "libsubtitleeditor0-0.54.0-4.16.aarch64.rpm"
-RPM_HASH = "af64ddf708063b6c79036c63056bd9244fc5a56333afee9bcccec5b9ed407da80d82f4982aa96531005760c19b5b4254ce2317df2481420cb178b220b427b4f0"
+RPM_NAME = "libsubtitleeditor0-0.54.0-4.17.aarch64.rpm"
+RPM_HASH = "a236d49cd44a58a72b9ea4e798441e7a2605a5365383fed6aa07978925de63e06ca833811043c893500915073c07b1783bdd1e2cdbcde62b27c42aad1bd8af65"
 
 RPROVIDES:${PN} += "libsubtitleeditor.so.0 \
 libsubtitleeditor0"

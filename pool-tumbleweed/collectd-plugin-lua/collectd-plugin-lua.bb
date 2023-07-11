@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & MIT"
 
 PV = "5.12.0.134.g4cebbfc"
 
-RPM_NAME = "collectd-plugin-lua-5.12.0.134.g4cebbfc-1.4.aarch64.rpm"
-RPM_HASH = "898695bb7344257a288396c93caaf5295d81b4276da9c18d813d80a35e8dce5b724b3c7433804ef5c6a2129f16c49c10d71a99ad87904611559ef5daaf80df4f"
+RPM_NAME = "collectd-plugin-lua-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
+RPM_HASH = "149f17ca7650d8f03fd742afd546054f03e5851c95838c20104af4b912c384ec46cf22b969bbe01eef7c6a957e608fa15d04617216d88b2d515e00148f0314e3"
 
 RPROVIDES:${PN} += "collectd-plugin-lua"
 

@@ -15,15 +15,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.32"
 
-RPM_NAME = "perl-Data-Visitor-0.32-1.1.noarch.rpm"
-RPM_HASH = "39d61c0ab7aecdd2471e393e99b15b1f4d59c57157e7e9000177add4b786dc695ff6c136a7e3593814604f22c0f201bfb1d6df8c474a9bc67af735cd7527af3a"
+RPM_NAME = "perl-Data-Visitor-0.32-1.2.noarch.rpm"
+RPM_HASH = "3199a5ce2d228bf82dbe4c10013f7051d69db80178a132410003d0873db8382f1d435f5b86e56c6b537873ef5433f6f11eb505f0f049c9da2ba5782b178fa893"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Data--Visitor \
 perl-Data--Visitor--Callback \
 perl-Data-Visitor"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Moose \
 perl-Tie--ToObject \
 perl-namespace--clean"

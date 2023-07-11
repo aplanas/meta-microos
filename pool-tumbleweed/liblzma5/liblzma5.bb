@@ -4,8 +4,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "5.4.3"
 
-RPM_NAME = "liblzma5-5.4.3-1.1.aarch64.rpm"
-RPM_HASH = "6b0c32d6fa40f03251bb64da10293909f8e2f149a6e6c398e02137fa1cf70cb941f9c58693db6741608bc475bc25ca8cdfdf4974c5c3ed46cc531008cf9834e7"
+RPM_NAME = "liblzma5-5.4.3-1.3.aarch64.rpm"
+RPM_HASH = "d5b53d67e2541c6d57a0a060a6e5e19458507f6ad77c03d882b23cfdb5fbf956a1f6b0551193d3f8ed7a6375871e6a0b98595fc64714ca16dece3518f246f5e0"
 
 RPROVIDES:${PN} += "liblzma.so.5 \
 liblzma5"

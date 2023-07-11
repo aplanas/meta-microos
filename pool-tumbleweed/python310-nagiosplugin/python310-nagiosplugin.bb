@@ -17,12 +17,11 @@ LICENSE = "ZPL-2.1"
 
 PV = "1.3.3"
 
-RPM_NAME = "python310-nagiosplugin-1.3.3-1.3.noarch.rpm"
-RPM_HASH = "b9fcf91d22744c0925c714178671892a5065983bf9efc99eaf2d8d3fb41f2400c66d602390e4939dd3c90be4466bf04cbbe2f0bc3c851f46482a2deb98acf361"
+RPM_NAME = "python310-nagiosplugin-1.3.3-1.5.noarch.rpm"
+RPM_HASH = "b23ef423fc31eae1500d272919bd607d38c97fe68571282337cb75e3e14472f55def668fcab32e1f7f5a09944e2bb18c34bd750a0e464f01c4e2faaea0925742"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-nagiosplugin \
-python3.10dist-nagiosplugin \
+RPROVIDES:${PN} += "python3.10dist-nagiosplugin \
 python310-nagiosplugin \
 python3dist-nagiosplugin"
 

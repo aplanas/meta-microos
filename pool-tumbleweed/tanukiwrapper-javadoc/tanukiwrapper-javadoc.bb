@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "3.5.35"
 
-RPM_NAME = "tanukiwrapper-javadoc-3.5.35-2.6.aarch64.rpm"
-RPM_HASH = "6ad1a8579a4b21cd81047f27210bcb39f3d0957ae34f73ab26394743097938686c7be14d8fca1ef641d47527328a43872b97efc99d4bdcfe1d2ce80380188e0a"
+RPM_NAME = "tanukiwrapper-javadoc-3.5.35-2.7.aarch64.rpm"
+RPM_HASH = "41821d00f284066af1fb4a41deba1d553dd5ffbdc32c3bb953df004240724b42637ba69a441f7b40ccf23bdec592463252c531f0f19fb1adf1a9fd1060232d64"
 
 RPROVIDES:${PN} += "tanukiwrapper-javadoc"
 

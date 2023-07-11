@@ -5,15 +5,15 @@ LICENSE = "Artistic-2.0"
 
 PV = "0.10"
 
-RPM_NAME = "perl-Class-Load-XS-0.10-1.31.aarch64.rpm"
-RPM_HASH = "eafc1ae6bb3443d7c36c8eb4de7c0bc189b1d8f141c11696802a66db5389ed5e726cb567dee7bd607d1cc0a30014c53590e624e48bc408dce6b3cf4ab893fdd5"
+RPM_NAME = "perl-Class-Load-XS-0.10-1.32.aarch64.rpm"
+RPM_HASH = "bf736dc2cc3e55401f7169307bc3e1d22a586693febf85d3fe2738b0e630af2045695175251823722d64c8ee1d5a5a30e07f68c25be6d26b01f28b51205006df"
 
 RPROVIDES:${PN} += "perl-Class--Load--XS \
 perl-Class-Load-XS"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-Class--Load"
 
 inherit rpm

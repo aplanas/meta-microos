@@ -4,16 +4,13 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.1.18"
 
-RPM_NAME = "python39-orange-canvas-core-0.1.18-1.13.noarch.rpm"
-RPM_HASH = "2987b80b19a989992768417192a3ffbfafb3096741efb71121bc53a0704cc62156a5b04948086d0a3da79f3fa5c4ef9b0c4f713477e217ba53d03cccdcfc4799"
+RPM_NAME = "python39-orange-canvas-core-0.1.18-1.14.noarch.rpm"
+RPM_HASH = "625791f783cd79d913d4cff88006dcb7928697a76322a12a07541169f21b7cdf58cd083a64d06d05e6bccf20d9a3dd187099c3bdd2a43d3b9167ae92bc477431"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist-orange-canvas-core \
-python39-orange-canvas-core \
-python3dist-orange-canvas-core"
+RPROVIDES:${PN} += "python39-orange-canvas-core"
 
-RDEPENDS:${PN} += "python-abi \
-python39-AnyQt \
+RDEPENDS:${PN} += "python39-AnyQt \
 python39-CacheControl \
 python39-commonmark \
 python39-dictdiffer \

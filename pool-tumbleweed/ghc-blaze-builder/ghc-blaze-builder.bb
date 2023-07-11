@@ -14,8 +14,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.2.2"
 
-RPM_NAME = "ghc-blaze-builder-0.4.2.2-3.3.aarch64.rpm"
-RPM_HASH = "f4f2e08e5c6d79a3c86933c0953c49f316a803e129bd3417170c62348e3f33e7d664ea85b98fb5603f94da192a873c1203f68cd64ee90b5f0608db93501f31dc"
+RPM_NAME = "ghc-blaze-builder-0.4.2.2-3.6.aarch64.rpm"
+RPM_HASH = "e6817e97e423558c639ed74a4fece2f4b67f265bd875af4db0d08605771f567f7a50e0bc64de2ccd98efc4659eab6eb39e38e7dd9f90a3750c8b4231d68b53ec"
 
 RPROVIDES:${PN} += "ghc-blaze-builder \
 libHSblaze-builder-0.4.2.2-1GcRIc7N7YHId5Q5gRvlvW-ghc9.4.5.so"

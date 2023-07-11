@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause | GPL-2.0-or-later"
 
 PV = "1.5.7.0.2"
 
-RPM_NAME = "libibdm1-1.5.7.0.2-11.8.aarch64.rpm"
-RPM_HASH = "eaa5ac69e166daa96d7c73a9a1e8c687f1aedf4b5029ae5abe19ebed8a996576ea564d24b4c418081fb40f020a5da1cac75bb22e19033e27ef17b400486539e5"
+RPM_NAME = "libibdm1-1.5.7.0.2-11.9.aarch64.rpm"
+RPM_HASH = "3bb46fb6af3973a67cb465c0599f66037936951b6613771ef785f497423aef032b0c16b389ccfacefca806fae2f4be13dc0126a014ce48dc1cb08ee46e54932b"
 
 RPROVIDES:${PN} += "libibdm.so.1 \
 libibdm1 \

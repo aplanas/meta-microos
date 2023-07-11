@@ -5,8 +5,8 @@ LICENSE = "EPL-1.0 & GPL-2.0-or-later"
 
 PV = "1.17.16"
 
-RPM_NAME = "wesnoth-data-1.17.16-1.1.noarch.rpm"
-RPM_HASH = "dc647ca11ad2f0cb60f46c55305ad6d74ec9cb8d3ef8136f3f7a1a089f5ddcf26863fab0616d91643169ed97b997a04cb08ffcedbead873af31ec43b7c53a5d5"
+RPM_NAME = "wesnoth-data-1.17.16-1.2.noarch.rpm"
+RPM_HASH = "a3458562dbcccd59ae0ca0c10dab50d192def70be594d1d20bfe71aacad297550687028b2779c53ae627ab01ff3a6e53d627af4e76d082be13812851a58ef33d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "wesnoth-data"

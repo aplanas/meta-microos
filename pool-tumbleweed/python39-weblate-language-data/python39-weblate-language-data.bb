@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "2022.9"
 
-RPM_NAME = "python39-weblate-language-data-2022.9-1.3.noarch.rpm"
-RPM_HASH = "bf7c4393c859f1d868765d85fabc41ea506553ed90897a4139deda9e576ec98c3bc1de81c580401083b4cf3109c364f3b97c99b403d3afeb9bbef9e7e2eb8fa2"
+RPM_NAME = "python39-weblate-language-data-2022.9-1.5.noarch.rpm"
+RPM_HASH = "5f21276a223615714a054e226fe0f46e4a97ec80cb5353ada354738b13a2f324db55f712a51ddfc8ff4ac417342e9fbaee5f8bdd9450d2079ffada72b6080e6a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-weblate-language-data \

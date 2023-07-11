@@ -7,12 +7,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.4.1"
 
-RPM_NAME = "python310-pythreejs-2.4.1-7.8.noarch.rpm"
-RPM_HASH = "292fc7e0bb92ac1209d0a659ea93f16fe8e5d7f2093a083d25336a525e5df374bca6f484cdc6a16cfea1d6e4f28b01d1d70dcc823f3c6cc1f44fc2d98107776d"
+RPM_NAME = "python310-pythreejs-2.4.1-7.9.noarch.rpm"
+RPM_HASH = "7f0136e8fce8119ab7d3569ad8f5a4df95317138a0b0ad528e713e1a6687b5a6d27ad4a2380743fb1bf60004a48f17e487570a3f562eb91d5174ad6319ccfc47"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pythreejs \
-python3.10dist-pythreejs \
+RPROVIDES:${PN} += "python3.10dist-pythreejs \
 python310-pythreejs \
 python3dist-pythreejs"
 

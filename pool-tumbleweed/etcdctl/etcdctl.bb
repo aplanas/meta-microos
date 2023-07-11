@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.5.9"
 
-RPM_NAME = "etcdctl-3.5.9-1.1.aarch64.rpm"
-RPM_HASH = "a7c05641c61fc59b8fbaec6aa37f97bcfc79da87b460df1342ea1522e3d28e1556371da8ebe7c54b917c6e97bf2cfa3de4702a448802bf674c24ddf238a33e65"
+RPM_NAME = "etcdctl-3.5.9-1.2.aarch64.rpm"
+RPM_HASH = "4b9ef099d20c35f21773de25191102ff505c38a5df098eaea29a523b882f6baf6e6c75798b754424e14eef91f55d0db830b4fe75f3d9ef3737da9a56b46c6ece"
 
 RPROVIDES:${PN} += "etcdctl"
 

@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.3.0+git19"
 
-RPM_NAME = "wf-recorder-0.3.0+git19-1.5.aarch64.rpm"
-RPM_HASH = "4a394ae8b80842ac42d2f23d3a4350b1ee85c720cca83bf126100eeefc3b067e1557d1a5c68c72602206525bb3e2f63db1f69b3e53edba062102cbad5409aa21"
+RPM_NAME = "wf-recorder-0.3.0+git19-1.6.aarch64.rpm"
+RPM_HASH = "597cf8b531ad4a1a6f5c30cf54ac62c4a589009844961a81dd34fbbfb0868fb0aaeea47c523b5a09e3f0ecd4d0d4b63d35b30a5918fba8718707ab9b91598dd4"
 
 RPROVIDES:${PN} += "wf-recorder"
 

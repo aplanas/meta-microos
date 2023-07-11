@@ -6,8 +6,8 @@ LICENSE = "Python-2.0"
 
 PV = "0.4.27"
 
-RPM_NAME = "python39-python-magic-0.4.27-4.1.noarch.rpm"
-RPM_HASH = "40288d8acdc7ef21d9bc0557a7d7b5379f0dde827cfdb9da175f05025e4ab6f692f69d7362d213b6a62ba2b77593130750c4fd08e83938c068acf0983867c32b"
+RPM_NAME = "python39-python-magic-0.4.27-4.3.noarch.rpm"
+RPM_HASH = "bb95b98482765f3f0e365786e1068e6d00d5c6676d804cdca56d3ce18dbe09d9a9115dbd8d3079701040f2c38b97f84f672e87083db703268acc40dc1110ab7a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-python-magic \

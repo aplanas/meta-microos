@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2023.04"
 
-RPM_NAME = "u-boot-libretech-cc-2023.04-2.1.aarch64.rpm"
-RPM_HASH = "6004ff1f7bcdd8eef2579e30b6d294b811e8018dddfe916dc6f24456c2e1d56b0c7c4ee12a511cdd7af1cc739c3b14ce8f7f7f670a9180b63f378b95c1904619"
+RPM_NAME = "u-boot-libretech-cc-2023.04-2.2.aarch64.rpm"
+RPM_HASH = "60e29edb9f0d1a4e6107066e2005b73ca02e281da84324cfaa9cecd79bd34acf280a5cd5ae7cb9455c2dcd789efe957daf0e8190e71642befb78b25284c84c49"
 
 RPROVIDES:${PN} += "u-boot-libretech-cc \
 u-boot-loader"

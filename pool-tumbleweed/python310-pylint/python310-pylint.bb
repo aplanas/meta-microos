@@ -17,12 +17,11 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.17.4"
 
-RPM_NAME = "python310-pylint-2.17.4-2.1.noarch.rpm"
-RPM_HASH = "fd2158d80bc807145582520d128cab5d995114d7b21de7bf284d1a7dbd45b8cc6fd4f861b48653fd332fa996554e127b13762b6470c061a48ea54c854df26d1d"
+RPM_NAME = "python310-pylint-2.17.4-2.3.noarch.rpm"
+RPM_HASH = "b616566e219aa24a35ed0b42b6bbade207107796502fd4b73776e1c3ebd42063a4639c16aec937492a3f4e744762f8d31e01ac91c23754a8e2a7ca728127c785"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pylint \
-python3.10dist-pylint \
+RPROVIDES:${PN} += "python3.10dist-pylint \
 python310-pylint \
 python3dist-pylint"
 

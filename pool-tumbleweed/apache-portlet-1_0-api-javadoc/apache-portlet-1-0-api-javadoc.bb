@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0"
 
-RPM_NAME = "apache-portlet-1_0-api-javadoc-1.0-113.18.noarch.rpm"
-RPM_HASH = "41eabcdf22664101a6bdd3e015d59f1c76bbcc5ea0fb1b7a719811ed48f810a0c6eea5ff9cc1797ed874ba268dfe8627b895e045bcb1f2fb13991e8b6b495743"
+RPM_NAME = "apache-portlet-1_0-api-javadoc-1.0-113.19.noarch.rpm"
+RPM_HASH = "8be8c8a9f7edcd38493a417be673aca0efd10e6026ccde3a067d7d512f32d6bafb135b62d3e4af7658260172bd9aad552ad583328c18b6be5565408144786658"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-portlet-1-0-api-javadoc"

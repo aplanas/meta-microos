@@ -6,11 +6,10 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20230109"
 
-RPM_NAME = "python310-libsigscan-20230109-1.4.aarch64.rpm"
-RPM_HASH = "4d0d5b92b0826799cddc6ec54c194b700f6273ae64fa62b685b151a937275482844ddf10822ed150044884c0c5ca17443c82df84172b823383e0e14c9ec2f27d"
+RPM_NAME = "python310-libsigscan-20230109-1.6.aarch64.rpm"
+RPM_HASH = "5cf17d9b3658e3127f9276e531a7be72aad55a1b36d00b1758746944f0a7db1a945206c2d232b48f5279a7f1a6124b1b66723e96dfca37957686610a13227c33"
 
-RPROVIDES:${PN} += "python3-libsigscan \
-python310-libsigscan"
+RPROVIDES:${PN} += "python310-libsigscan"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libbfio.so.1 \

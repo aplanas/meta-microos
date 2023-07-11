@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.5.20"
 
-RPM_NAME = "uudeview-0.5.20-260.15.aarch64.rpm"
-RPM_HASH = "d2cfa0f4fdcaf3683c31aa4e54dd9c19e95f5e3011cdb5f02c9c074bd36c2b85b37beef35ee0e08284f85c1f8f40d847f56d28785af9cf67840373f1cf0e3370"
+RPM_NAME = "uudeview-0.5.20-260.16.aarch64.rpm"
+RPM_HASH = "6eaf22035137c8b0e1bf2347787575c994d830fc1315dd1fab236492249ee108e3875edc741477b4ac47f8c1a76a8fd5858a57aecc894f5874673d7a032c9334"
 
 RPROVIDES:${PN} += "sharutils-/usr/bin/uudeview \
 uudeview"

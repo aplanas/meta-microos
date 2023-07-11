@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python311-azure-mgmt-azurestack-1.0.0-1.8.noarch.rpm"
-RPM_HASH = "a5c45662ae29df7b777fec9e8f188ec2d0eae3409b4e5293c41b68128cced900874f7fdfd8d5c402e3412c0b752e5b7c5e62b657cd8ffc894bcfa6237d0e81fb"
+RPM_NAME = "python311-azure-mgmt-azurestack-1.0.0-1.9.noarch.rpm"
+RPM_HASH = "e8f38a3fe96c24404b89437ebf049b958ed67e208fc1f04c7d16aced18217e9a8d9c041094c46aa2468772f5bb0db9f4dbeff752e23cde387333ee60554a672d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-azurestack \
+RPROVIDES:${PN} += "python3-azure-mgmt-azurestack \
+python3.11dist-azure-mgmt-azurestack \
 python311-azure-mgmt-azurestack \
 python3dist-azure-mgmt-azurestack"
 

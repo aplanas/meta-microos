@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.9.0"
 
-RPM_NAME = "blas-devel-3.9.0-9.1.aarch64.rpm"
-RPM_HASH = "8161179feedd39d6220046d4ceefa12d35a6a102cdd15a7490a1ca3d7614ec89ef7480ca5e4b097892c743fad0d2128ae9a509b10f595400ef2fe90dffc2e61e"
+RPM_NAME = "blas-devel-3.9.0-9.2.aarch64.rpm"
+RPM_HASH = "c1cd2e0099ef775ac679e3478bc93b0bac2f261c60b17089a7feb57ff484999b53eb618ea43c256237888442d53a99b67020cf02e63f85175ad220c976402fd3"
 
 RPROVIDES:${PN} += "blas \
 blas-devel"

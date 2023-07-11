@@ -14,10 +14,11 @@ LICENSE = "MIT"
 
 PV = "6.0"
 
-RPM_NAME = "python311-PyYAML-6.0-5.1.aarch64.rpm"
-RPM_HASH = "1951ff057cc4dced5da6003517047b4e306473b8370360ffc6981e9d842a7f00dd3066f1aea3f9104cc8273f76977dd952be16c7cb10af864646786b13394180"
+RPM_NAME = "python311-PyYAML-6.0-5.3.aarch64.rpm"
+RPM_HASH = "904f697ce57dd1ce6dc13232409f85cf6233ca0d73e8910d921b1a5882d707b770fd4c8460d14e02adf092245b7efd6059eedebde37fa569682c247765b0a46b"
 
-RPROVIDES:${PN} += "python3.11dist-pyyaml \
+RPROVIDES:${PN} += "python3-PyYAML \
+python3.11dist-pyyaml \
 python311-PyYAML \
 python3dist-pyyaml"
 

@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "1.6.68"
 
-RPM_NAME = "libGeneratedSaxParser0_3-1.6.68-1.12.aarch64.rpm"
-RPM_HASH = "3e8d9c11ad3ecd0d44c1ae4aba508702c4e8d432de1fd25b189c16f8626c338be500552d5ff17c44e13da8e0709a05c664cf92a5bc8884cbd79131e9036bd1e3"
+RPM_NAME = "libGeneratedSaxParser0_3-1.6.68-1.13.aarch64.rpm"
+RPM_HASH = "66cb0145ee9c913fcc594c384b41f39e3f143373ffd971e8b79c39dfdc6b1320fb2e6724e0244577739f952568dfbdf975fcbdbf429c13cfe260160b3e52c666"
 
 RPROVIDES:${PN} += "libGeneratedSaxParser.so.0.3 \
 libGeneratedSaxParser0-3"

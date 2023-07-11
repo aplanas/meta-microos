@@ -14,13 +14,14 @@ analytics. Many popular projects use Arrow to ship columnar \
 data efficiently or as the basis for analytic engines."
 LICENSE = "Apache-2.0 & BSD-3-Clause & BSD-2-Clause & MIT"
 
-PV = "12.0.0"
+PV = "12.0.1"
 
-RPM_NAME = "python311-pyarrow-12.0.0-1.1.aarch64.rpm"
-RPM_HASH = "ec4fea445e04d6ea08cef388cfda41f76f5ea812ed24fd85b25c27e77a9b87139dc9836205f50b0cfa1a8c330365eff4417bad94dce94cedb3e244186fd76af0"
+RPM_NAME = "python311-pyarrow-12.0.1-1.1.aarch64.rpm"
+RPM_HASH = "0b34dcbfa158dca02f4ca2b3a4742e15981e3de631d93f9b698f3f416bd895aa8819a3e42f1b78b1f5601ab2eba4d5ba98123c56a1d7c36f1f9e7b90a516a71f"
 
 RPROVIDES:${PN} += "lib.cpython-311-aarch64-linux-gnu.so \
 libarrow-python.so \
+python3-pyarrow \
 python3.11dist-pyarrow \
 python311-pyarrow \
 python3dist-pyarrow"

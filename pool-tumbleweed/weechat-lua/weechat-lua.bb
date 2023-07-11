@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.8"
 
-RPM_NAME = "weechat-lua-3.8-1.1.aarch64.rpm"
-RPM_HASH = "795e9e7fc00b7b243ddaf719926f11e2da35c068f2117bf4635cd4b36e7e4a99a30c2da1d9c80ccf911f11cd61dc7c4aff0de107dd1dce2f816886287af2ae14"
+RPM_NAME = "weechat-lua-3.8-1.3.aarch64.rpm"
+RPM_HASH = "f3e721f6cd52a242937e8c53b5bb01e7e8cc025f65f3f87567b401a1c8732d7b98d26da80bdc3307bcf3e9c1f297009a277c4e9854b11d843efc53afbc4c1dd8"
 
 RPROVIDES:${PN} += "weechat-lua"
 

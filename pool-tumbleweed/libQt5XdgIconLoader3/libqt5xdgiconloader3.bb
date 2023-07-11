@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "3.11.0"
 
-RPM_NAME = "libQt5XdgIconLoader3-3.11.0-1.2.aarch64.rpm"
-RPM_HASH = "80c2d6da47eec02d37c2f1d070ae694c1a1024a6942e2d8f465c4f8313c9add8c675042895123d6a4474cdc3e7fb657ca8d3653d0f5ff960853514e6fa9458fa"
+RPM_NAME = "libQt5XdgIconLoader3-3.11.0-1.3.aarch64.rpm"
+RPM_HASH = "c4094cb3deeb95e1edaf819c3fe7fdde3f0f82697dc770240cb34730ab64368772d6157531f8245b6d988e7b440227200cc11b061de5d145b5d5877aa3ad4855"
 
 RPROVIDES:${PN} += "libQt5XdgIconLoader.so.3 \
 libQt5XdgIconLoader3 \

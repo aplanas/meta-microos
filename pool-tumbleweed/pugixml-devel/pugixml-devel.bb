@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.13"
 
-RPM_NAME = "pugixml-devel-1.13-1.3.aarch64.rpm"
-RPM_HASH = "8ac0f4f6dc1bae7a0d6ef3bafe73749f4d5524aa1955c7ef5960e0b904276e8fb755bfb20fccbf8c028977bbca7cd295bf519562cbfe69e31d2e07f28bab3fa8"
+RPM_NAME = "pugixml-devel-1.13-1.4.aarch64.rpm"
+RPM_HASH = "21e11247a9ace0e555d8552affa682f5ddebef0a7f23ad9f9abca3ad25afa4fb3c57b60c777040e34e70db255dffa824801bbf96a09fcdb6439936665291c17a"
 
 RPROVIDES:${PN} += "cmake-pugixml \
 pkgconfig-pugixml \

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.14.3"
 
-RPM_NAME = "libgnt0-2.14.3-1.7.aarch64.rpm"
-RPM_HASH = "7eaa279a3d6809a8b015a7ee80c38a524d1bf51053435d7e636c3f85dd08db6334b413e6491fd90140091b02b33356c0089ed01da5b5c5e98c8398b2cf5c4439"
+RPM_NAME = "libgnt0-2.14.3-1.8.aarch64.rpm"
+RPM_HASH = "36bc232f73f5af4086f2285d6214689ac620bb90c8d57a832cac1c40f17375d38b3669b4baacaceaefd35f9f3d8eef8ec86b613c0ab808e69d8ea77c619b3dda"
 
 RPROVIDES:${PN} += "libgnt.so.0 \
 libgnt0"

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only & MIT"
 
 PV = "5.12.0.134.g4cebbfc"
 
-RPM_NAME = "collectd-plugin-smart-5.12.0.134.g4cebbfc-1.4.aarch64.rpm"
-RPM_HASH = "8a336fcb5e416ba8cdf1b35f058a6e0d2498c953ca3f5538ba93fff1d5499aa774ebd4d062ceca2289a5e9d049db0af01dc15599b4f70e6d8484ef8d68048915"
+RPM_NAME = "collectd-plugin-smart-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
+RPM_HASH = "2f9f04013d9b2808ceee331ac9f09e73ac0dcc23c071f61cb2f03cc013d9139fc439a15de57d1dcb6505b47f2158793a6d8f7ef577436d84af6dfc455fb5603c"
 
 RPROVIDES:${PN} += "collectd-plugin-smart"
 

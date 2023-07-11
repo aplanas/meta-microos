@@ -11,8 +11,8 @@ LICENSE = "BSD-3-Clause | GPL-2.0-only"
 
 PV = "2.69"
 
-RPM_NAME = "libcap-devel-2.69-1.1.aarch64.rpm"
-RPM_HASH = "5e658464f2ad79e58f3a0a144f2e31722aa5aaa3d8f0f3b9b67578265465b2d40c931b5a76fc5ea409e3278eb354f3812f6b9ac0a6082fff362e066ed4505d55"
+RPM_NAME = "libcap-devel-2.69-1.2.aarch64.rpm"
+RPM_HASH = "476377339a1f3cba98e11b95fb2dc42643a6b4bb41ac0e21d0177a20c243df6c355952bf2698d928d2b4f116035f2634bdd7edace8b887f083ec9a51140ccf75"
 
 RPROVIDES:${PN} += "libcap-devel \
 pkgconfig-libcap \

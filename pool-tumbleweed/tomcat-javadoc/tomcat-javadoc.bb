@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "9.0.75"
 
-RPM_NAME = "tomcat-javadoc-9.0.75-1.1.noarch.rpm"
-RPM_HASH = "8a0217873f9fb24d7ab22f1cc46a0acdbde5ce3cfe0ff32340629aef67486e74fd1dd079555563d25ae2326753cfd8a688bdfba7e2b71fbc77eb797c828e7a93"
+RPM_NAME = "tomcat-javadoc-9.0.75-1.2.noarch.rpm"
+RPM_HASH = "e27d9e2d0c23e0070e19b7349b6629b09aa3ab4b3c438440654995f7354b81fdec38e3b4ca7ebb44e30be57eb142fc3208b4d4a8d6e5b494288a402091c6b75e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tomcat-javadoc"

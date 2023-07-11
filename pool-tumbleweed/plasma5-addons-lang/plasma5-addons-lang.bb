@@ -2,10 +2,10 @@ SUMMARY = "Translations for package plasma5-addons"
 DESCRIPTION = "Provides translations for the 'plasma5-addons' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-only & GPL-3.0-only"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "plasma5-addons-lang-5.27.5-1.2.noarch.rpm"
-RPM_HASH = "be557aa38e456550902edf961aafece9fe491ef47f5337eba87c8f08af7f4e4c2e0afe59eebc1143e354987a6c67103e3a45e0fe4ce83f082253dda1e6d703eb"
+RPM_NAME = "plasma5-addons-lang-5.27.6-1.1.noarch.rpm"
+RPM_HASH = "f65f62d4e58e08600d73206734b7eae4b90e57b35408f971537b63726ce4947c6ba94c899067d7e7a46c9b5d01a6e61f6b4be6a5c828942745b556858b86369c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-plasma5-addons-ar \

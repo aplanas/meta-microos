@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.14.1"
 
-RPM_NAME = "python311-authheaders-0.14.1-1.6.noarch.rpm"
-RPM_HASH = "926e4fb5888e6fa30c60401eb99911c31875789577a7c77c4df9061e2267388875c74f90f2ed0cb3d9c4d713ce6114ef9a188d04655bdd78a10ebe512c524c74"
+RPM_NAME = "python311-authheaders-0.14.1-2.3.noarch.rpm"
+RPM_HASH = "378d3ddd3b6c3f9fc2197ed04a9d2fdd2b233e7d62ab51e93d220e2aa7ab4465232ba120b002abafd9063f2bc840efe8c3c770176505ecab956983078317064f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-authheaders \
+RPROVIDES:${PN} += "python3-authheaders \
+python3.11dist-authheaders \
 python311-authheaders \
 python3dist-authheaders"
 

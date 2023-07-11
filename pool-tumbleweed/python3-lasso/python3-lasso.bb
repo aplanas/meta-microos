@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.8.2"
 
-RPM_NAME = "python3-lasso-2.8.2-1.3.aarch64.rpm"
-RPM_HASH = "45a6468044f4596d95f34d56e3fcfdaa4be058c2f71019fdc4a80cacd8480c822d5c3326fa7c3e0465933bc6610f940bce966ea1f19db705b46095c2bd5cc795"
+RPM_NAME = "python3-lasso-2.8.2-1.4.aarch64.rpm"
+RPM_HASH = "0c18fe4d75a4771ea0c1e22c83984af9a597eec18b34ed808e6febe342b7bc1ab647053b2e4683228f1f49ec54733b660dbc1d84f3eecec854a256c56822ee98"
 
 RPROVIDES:${PN} += "python3-lasso"
 

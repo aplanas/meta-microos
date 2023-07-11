@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "0.1.3"
 
-RPM_NAME = "python310-visitor-0.1.3-1.18.noarch.rpm"
-RPM_HASH = "6685ba2f9ca41900b5b5571afd181fabdcd98c38fb175d2219d034363bf21ebb1d4b17fa54700bd813dd68b56578d5e80408b35fbf1cf28c041d4f0cf9f4fea8"
+RPM_NAME = "python310-visitor-0.1.3-1.20.noarch.rpm"
+RPM_HASH = "8ea372f12a52198d98b06935549f5c9016a65a6c73c89cb64a130f794f88938793f1480ef4ff22df78916baeda32979a14c34acbdc8e1f38eed9a2afcdce5e58"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-visitor \
-python3.10dist-visitor \
+RPROVIDES:${PN} += "python3.10dist-visitor \
 python310-visitor \
 python3dist-visitor"
 

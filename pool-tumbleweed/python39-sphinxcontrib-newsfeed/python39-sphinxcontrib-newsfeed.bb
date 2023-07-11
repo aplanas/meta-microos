@@ -10,8 +10,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.1.4"
 
-RPM_NAME = "python39-sphinxcontrib-newsfeed-0.1.4-4.15.noarch.rpm"
-RPM_HASH = "8314d27c26dcab34c1f2bc58e70618c5610600f73dc288d5c8597da0be7ef6478d31d09d8c05d53b8c75b8cef36f2158f7832c17ce32e74a99c8ab74762c0112"
+RPM_NAME = "python39-sphinxcontrib-newsfeed-0.1.4-4.17.noarch.rpm"
+RPM_HASH = "3895f43b6b78a7730f9df6df5f1f8ba48e10950fb2f97d7b290c7b978c13f3595a45fb1518df8a7885b39a04404db5fb2331d8e26efb822efc04c799a7a37d97"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sphinxcontrib-newsfeed \

@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "5.4.33"
 
-RPM_NAME = "deepin-terminal-5.4.33-1.7.aarch64.rpm"
-RPM_HASH = "74ef84e63c5bc3490e6799f69216e704b077bbd37b3084b1bd9a15d39e4ba88bbf7afab43e4025465236f401cd6e531e0b1d5a95481b5e2491938e7943a978a7"
+RPM_NAME = "deepin-terminal-5.4.33-1.8.aarch64.rpm"
+RPM_HASH = "a221551cdd79f160d437a25975dc884f11d19c23762ae379163eb9f58d7dcba780134c80e001af13fbb855cfd49ec869e910f7d200883adb7a0ee82172948c04"
 
 RPROVIDES:${PN} += "deepin-terminal"
 

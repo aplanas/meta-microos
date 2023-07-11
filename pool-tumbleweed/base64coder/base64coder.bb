@@ -8,8 +8,8 @@ LICENSE = "EPL-1.0 | EPL-2.0 | LGPL-2.1-or-later | GPL-2.0-or-later | Apache-2.0
 
 PV = "20101219"
 
-RPM_NAME = "base64coder-20101219-2.15.noarch.rpm"
-RPM_HASH = "6cc53614ee9bb7e0febd4c81d398aa3ef561e95f9c9ba6efc44ad13b5ae6755f8c912430b307a7159f1d28b09cff728a7a452d1d3874829d1a9995971580dc9b"
+RPM_NAME = "base64coder-20101219-2.16.noarch.rpm"
+RPM_HASH = "ccd85cc86b66a469235edfa376b6b244d9ab27ae6ef4829ac6951a06818a3369e3b02362f87153a19160121e6d21c2a7189af5cc20d5da0adbccee387e07e8af"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "base64coder \

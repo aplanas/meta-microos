@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause & LGPL-2.1-or-later"
 
 PV = "0.9.7"
 
-RPM_NAME = "uriparser-0.9.7-1.3.aarch64.rpm"
-RPM_HASH = "29c86258f33fb00d0148be27cde6d5f437cedd85b463d503601cbf82eb0969753c81446430e5da30089e33b83a4749bf3ceaf2dcb100124f40ee2a5385221ad4"
+RPM_NAME = "uriparser-0.9.7-1.4.aarch64.rpm"
+RPM_HASH = "48da0737d10e15007db8755101a96b6a16fb82e04d4138a3105799e8ef02117a58951782e8abf2c8bf3be93c31c4d75babb992535baba7aa16a943b83b70f2c9"
 
 RPROVIDES:${PN} += "uriparse \
 uriparser"

@@ -5,14 +5,14 @@ support memoization, key value storage and interfaces to common caching \
 backends such as Memcached."
 LICENSE = "Apache-2.0"
 
-PV = "3.3.1"
+PV = "3.4.0"
 
-RPM_NAME = "python3-oslo.cache-3.3.1-1.2.noarch.rpm"
-RPM_HASH = "8d94df7cb9c70bf6130ba15b6a363161d36d604389b1e0f2b12d4312976f1052057633e58730b235d1141b06056802fbf2296a42add3aa91601eaf1372ab2e5b"
+RPM_NAME = "python3-oslo.cache-3.4.0-1.1.noarch.rpm"
+RPM_HASH = "8f69ee638fc8b050db7d8c844200d8af363ff7c08d9b26433ac47d9c2f4a4b08c43ebc4362eb79e19c8198dc480bb893dcc41dd759cac77d322f982e8306e344"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-oslo.cache \
-python3.10dist-oslo.cache \
+python3.11dist-oslo.cache \
 python3dist-oslo.cache"
 
 RDEPENDS:${PN} += "python-abi \

@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "2.4.0"
 
-RPM_NAME = "python311-jaraco.envs-2.4.0-3.1.noarch.rpm"
-RPM_HASH = "01537f81c82989be907c66fff31a540f6e930f4fa037f8625456f5c32c725d0e5921714c6cf5c22a1e7cf3d791d258778f8bfb901c6374ec6e49a21edc7a67ee"
+RPM_NAME = "python311-jaraco.envs-2.4.0-3.3.noarch.rpm"
+RPM_HASH = "a88fe07a4e788e6659b90baf7e9eba3584182cbb207c9c7a2bbab83f7bead0078ffae28f50c1a9c20b4708c2f06689ff82e5c8e33279993e3603ea16de4bf8ae"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-jaraco.envs \
+RPROVIDES:${PN} += "python3-jaraco.envs \
+python3.11dist-jaraco.envs \
 python311-jaraco.envs \
 python3dist-jaraco.envs"
 

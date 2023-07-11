@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.1.12"
 
-RPM_NAME = "libevent-devel-2.1.12-3.4.aarch64.rpm"
-RPM_HASH = "260ac62799a2f0153591b4fffdb04770e01d15dfaaf830bb1e812c8ee22b396f4023ee505e0d280cca126db6b5c7d09a716be791f59cca89103d011068712fda"
+RPM_NAME = "libevent-devel-2.1.12-3.5.aarch64.rpm"
+RPM_HASH = "e9913f3e439af7d76b0e06117f6cecf97c3f0c774e74835f0221ec631aa4c84d4611387e228be17987d737dff4ad4066c56da9ceb67421340755801ba64b4284"
 
 RPROVIDES:${PN} += "libevent-/usr/include/event.h \
 libevent-devel \

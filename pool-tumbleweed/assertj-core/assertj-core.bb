@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.8.0"
 
-RPM_NAME = "assertj-core-3.8.0-1.22.noarch.rpm"
-RPM_HASH = "848632958090e7665fb7eb87a40c33ea021e607eb13aa2f44183bfc29c118a076ca34ae9f1382511a8e40e829a310c85114b75ade76f06542cf040766f7a2ba5"
+RPM_NAME = "assertj-core-3.8.0-1.23.noarch.rpm"
+RPM_HASH = "463f3a1811ff2ab1791cd82ddd475fbdf95797a485c653b9744b18ec1cafbb77998ed048a259a13b7124a0916aae2399da380d1446a809a7e1c2fb91a379aa36"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "assertj-core \

@@ -16,15 +16,15 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.06"
 
-RPM_NAME = "perl-Test-NoWarnings-1.06-1.9.noarch.rpm"
-RPM_HASH = "f3f3e65ca89756b30c53dd2ac1366127bb2d62ca2b591ee5fb408232848236a1ceb64dd951caf4969be922300d8a8f985b710034f731fb4b8161c41d86af7a7a"
+RPM_NAME = "perl-Test-NoWarnings-1.06-1.10.noarch.rpm"
+RPM_HASH = "1e7285df77738c4b142aa96af281aebccd59b66582e6b8df6662a38b98cfc957dd976a2c1178602615852ec5322f1de4b7df938b30c47f319f83a0b62640e1ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--NoWarnings \
 perl-Test--NoWarnings--Warning \
 perl-Test-NoWarnings"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Test--Builder"
 
 inherit rpm

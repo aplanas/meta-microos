@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.0"
 
-RPM_NAME = "orthanc-neuro-1.0-1.9.aarch64.rpm"
-RPM_HASH = "17a8fd397adf28fa6a9525ae677732df883f68138849e6fbdc5d7331273bd4dbffa7830428bbed0054613e7fc5f61336e3766bb005ae6a6cdf8674280e158211"
+RPM_NAME = "orthanc-neuro-1.0-1.10.aarch64.rpm"
+RPM_HASH = "59426cb4ae88021b2e5408b71e01c35f959324cf8c65ade00ee76b11f3f51f39c979ae0b8ea76e6b1c0e84d7954c5a9fff9168946bd783e95ef0869817f7e1da"
 
 RPROVIDES:${PN} += "libOrthancNeuro.so.1.0 \
 orthanc-neuro"

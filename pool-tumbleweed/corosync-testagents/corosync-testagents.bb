@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.4.6"
 
-RPM_NAME = "corosync-testagents-2.4.6-1.3.aarch64.rpm"
-RPM_HASH = "505e687a4492f8992ebe2b42a0ee5fe6191bd66e5ceebb21400a90ef1599a431f720192df557438cebefcf2badd14e1d54daf3c84390cb31b294ddb73fed6751"
+RPM_NAME = "corosync-testagents-2.4.6-1.4.aarch64.rpm"
+RPM_HASH = "32c117d67d27012811915be00dc4ebedc9c24cafc5fcc780c61246d7d6cb8545c638a1c185121332ed134f34ffbf75e97502f58a02477a61c5cd7baccd879ee4"
 
 RPROVIDES:${PN} += "corosync-testagents"
 

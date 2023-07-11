@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0 | MIT"
 
 PV = "1.10"
 
-RPM_NAME = "python39-async_generator-1.10-3.1.noarch.rpm"
-RPM_HASH = "01d66b3afc382ad196a12c3b3171b07cb303ca559dc096e191e41eebfc49ec0445e9eaf5dd5efdc9f69b11cb81f6f726795b5df4833e3525b79c9bfba41fb071"
+RPM_NAME = "python39-async_generator-1.10-3.3.noarch.rpm"
+RPM_HASH = "baa51671f8aefef102df1212ae80d52f68881e95193fb15fdc114da2698fe96dbf3a4728b05f99dc9dfa161169614b840be817c1e119380c1a0125b511c95897"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-async-generator \

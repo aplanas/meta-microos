@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.14.12"
 
-RPM_NAME = "libpurple-2.14.12-1.3.aarch64.rpm"
-RPM_HASH = "b539ce42429f90d8e52770e9ad9aabd67b564e072590ec5e02ff24dcdeb636c2c461b0db84ea35f9b67b62b41a172bee5b86d0c2823b4191dae758a01c548532"
+RPM_NAME = "libpurple-2.14.12-1.4.aarch64.rpm"
+RPM_HASH = "10d2e3c6db58794880f445de29f5b96946993eaeb32f5ed11d7f5a934dff9031c5fb0c7639ca8a39ab8ddd422960ae650a7733be1c85f69e253dbc105f8ba33c"
 
 RPROVIDES:${PN} += "libbonjour.so \
 libgg.so \

@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the integrated CA root certificates from th
 Mozilla project."
 LICENSE = "MPL-2.0"
 
-PV = "3.89"
+PV = "3.90"
 
-RPM_NAME = "mozilla-nss-certs-3.89-2.1.aarch64.rpm"
-RPM_HASH = "4cfb9ef9818f88dabdb86be4a070fcf3edaf3b71e0222632bc8594798c36661037d186bd2904d210025dcec401161af010a7e7093d407048f7b96a8efc313e8e"
+RPM_NAME = "mozilla-nss-certs-3.90-1.1.aarch64.rpm"
+RPM_HASH = "ceffffc09a620b25be5639fde1ec8ea40f51b686c8bbcaa91cac8f5b86a92e0bad2b14d856820b9107623f0249bf9819460ad1c5529eec0b4486318f45bd00d7"
 
 RPROVIDES:${PN} += "libnssckbi.so \
 mozilla-nss-certs"

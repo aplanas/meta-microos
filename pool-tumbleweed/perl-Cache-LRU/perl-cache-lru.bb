@@ -5,13 +5,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.04"
 
-RPM_NAME = "perl-Cache-LRU-0.04-2.20.noarch.rpm"
-RPM_HASH = "9e0eaccd6064c12f9293c762931837012ce299886c99da8738c0fe260dde869b0dff5f4abc1d1702ccea9f84ed822386ed6752e6b8d72ffcba133d9302abbc81"
+RPM_NAME = "perl-Cache-LRU-0.04-2.21.noarch.rpm"
+RPM_HASH = "5d0ebb654dc3f3dee693ebb4062e95b8621e66b031e9923f36d6de6dba536dbc22f4378ea40f772bfe74af826cf0de16e2c3cc3ffda918c6b26fc450f4a1394d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Cache--LRU \
 perl-Cache-LRU"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

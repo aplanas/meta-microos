@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.14.0"
 
-RPM_NAME = "python39-asciimatics-1.14.0-1.3.noarch.rpm"
-RPM_HASH = "428afb56a60a4efa3ad69cded637db61dba5a1fb854db568a48cdfbe245bf46e7c07f58c02ee5a14c72837d2e1f28ae3f83c91a50596f0f6a85136bfb593cf8b"
+RPM_NAME = "python39-asciimatics-1.14.0-1.5.noarch.rpm"
+RPM_HASH = "c28e6299836b43d10d5982707ff4bb3da3de06579bb8d67a4b6bc7b1bf8c0d1a357b0ed852a016b85a5b8cb61d5e847c778bc17747d48b0d334572a904fdfdfa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-asciimatics \

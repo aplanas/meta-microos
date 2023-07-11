@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.6.0"
 
-RPM_NAME = "budgie-clockworks-applet-1.6.0-1.1.aarch64.rpm"
-RPM_HASH = "6c0d39368a9f7bc60d7d81f551dcff2b3f057a9eac904337c706cb3c3a6a2c8cceb7f08d8f60d1c4d642401cea891b43b932994cb4511298de6d91014d04d11a"
+RPM_NAME = "budgie-clockworks-applet-1.6.0-1.2.aarch64.rpm"
+RPM_HASH = "1ea9ddb293cf02e19cb6655569e27dbb6c071dca9f36747c0fab8f9df06da3dd802f5571938397c52b5b3134ac43b0c00eac4af540e512249de221545eea9e89"
 
 RPROVIDES:${PN} += "budgie-clockworks-applet"
 

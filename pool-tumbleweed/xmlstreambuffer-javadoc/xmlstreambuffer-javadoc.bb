@@ -4,8 +4,8 @@ LICENSE = "CDDL-1.0 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "1.5.4"
 
-RPM_NAME = "xmlstreambuffer-javadoc-1.5.4-3.4.noarch.rpm"
-RPM_HASH = "e62be5a358010da758fc55d85e6745d6645d739977f5f5aae1caa11119d665a7b121f427a15dc4ccadd111b3b9233d96b7f8e10c77c5d3c28e4c3aa0fadfe800"
+RPM_NAME = "xmlstreambuffer-javadoc-1.5.4-3.5.noarch.rpm"
+RPM_HASH = "44c52ed99552562f5ab7bd035ba3321d1151b672f0310f05a8a2fd250f837b32d57151cc406421b42984547223851c359d9a61787563f5786e49d96aaf7130e5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xmlstreambuffer-javadoc"

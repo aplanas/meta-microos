@@ -2,10 +2,10 @@ SUMMARY = "GrantleeTheme library for KDE PIM applications"
 DESCRIPTION = "The GrantleeTheme library"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libKPim5GrantleeTheme5-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "2f52f008fab3062c08939946e80e58a3f8f32cdc354f8f39819319a152f95895ee7012394218e71ef97d71e3aba35c55e34cdbe808b5d4e3bcf37bfcedd6cd55"
+RPM_NAME = "libKPim5GrantleeTheme5-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "365ae39d704f9ed5faec45f416ab3c07fd816ce2833e88e81b4f8acf1eb5a517df4d710f1b6e9f5311b582242a2d7e29b713dee62cf5e1d5d8073e73515c41b3"
 
 RPROVIDES:${PN} += "libKPim5GrantleeTheme.so.5 \
 libKPim5GrantleeTheme5"

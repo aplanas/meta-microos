@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "1.6"
 
-RPM_NAME = "gramofile-1.6-397.25.aarch64.rpm"
-RPM_HASH = "9cf96c997e9e9aac7fea07a330413e8e5057be97357917a45c767adadc3def2c777860e4e55b7ae13fa6a302bd00945469a999a286e90fb322ce54bf818e69ab"
+RPM_NAME = "gramofile-1.6-397.26.aarch64.rpm"
+RPM_HASH = "06a47718ab7fc0df529d452307f8874775841dc3ffdaf7b730ad72739a730372da8d21c334e840aa9ee7f12bd80c8cde42a90ea066ee73947a5b31f3c4e20724"
 
 RPROVIDES:${PN} += "gramofil \
 gramofile"

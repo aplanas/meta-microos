@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.1.5"
 
-RPM_NAME = "gtkpod-2.1.5-6.18.aarch64.rpm"
-RPM_HASH = "4677a680fd1366f4cc7e985adfdb49eaf429a0d3551dec8377bc91294627eb4e8a1d2994fb3a8afb1a3af26b5b2779e7f5c8043405c8ba8bd1371763b604e106"
+RPM_NAME = "gtkpod-2.1.5-6.19.aarch64.rpm"
+RPM_HASH = "4c7f944dfdb2daa09625c66ab9690efef257abf9f73121834d514285ee759fef65ee6e4bf4505a8afdb9af27774c8e1aa9829a25e8aa251d4aabd4f6d4640f7c"
 
 RPROVIDES:${PN} += "gtkpod \
 libclarity.so \

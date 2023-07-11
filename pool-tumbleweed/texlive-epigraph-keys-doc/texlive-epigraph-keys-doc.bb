@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.0svn61719"
 
-RPM_NAME = "texlive-epigraph-keys-doc-2023.201.1.0svn61719-53.1.noarch.rpm"
-RPM_HASH = "bf53adafe991592bd54af96ded30314227369f377ae95f9b935adf354cf59bfd46f58e42870f9621bb2d703a0c4c934bb618c31653d58329d07bce5333c2b512"
+RPM_NAME = "texlive-epigraph-keys-doc-2023.201.1.0svn61719-53.2.noarch.rpm"
+RPM_HASH = "71023393dd179d5ba30511319cd71bb004d18814b59efab0e919bbcbe9fab947c2a6f5d809035fc00b6d3689afce11844bb38fa1a336cf2ff4e1c8391b2afd19"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-epigraph-keys-doc"

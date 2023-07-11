@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libKF5Codecs5"
 DESCRIPTION = "Provides translations for the 'libKF5Codecs5' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "libKF5Codecs5-lang-5.106.0-1.1.noarch.rpm"
-RPM_HASH = "64629333442d25db49229ef966e3fdda87ccfd7c3a25d0cabf5e27e4cc133db134755f08b77ae0efef0e3aa7d861de064733248f5517f836c1edd98c6fc6905d"
+RPM_NAME = "libKF5Codecs5-lang-5.107.0-1.1.noarch.rpm"
+RPM_HASH = "864d5904a7e02be70bc57f0f93137bc29546b5e0dc00e8e9dab693105a8379ac54c1d744b10c1a7532de21e26e4291540427de49a2bf25045e03e33d3f94ed55"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libKF5Codecs5-lang \

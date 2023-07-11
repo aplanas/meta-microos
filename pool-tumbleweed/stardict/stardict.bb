@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "3.0.6"
 
-RPM_NAME = "stardict-3.0.6-1.15.aarch64.rpm"
-RPM_HASH = "3dcfcb9a0b95bdd69f5419f38deecae1312dc00a97b18a80cbc62a183e836197e16694ef854a377a71ea516845d1db2054dec2f1fe67cd14c0164328f6509bfb"
+RPM_NAME = "stardict-3.0.6-1.16.aarch64.rpm"
+RPM_HASH = "0e557e0fb90c3d05935462e7f9bffd59aff91ffee8c4eb66a3706dcad9d1e3ad427f3d4bce2701ba582f3f3d3941639ecfcaec693a998efa5dcf617c5de72351"
 
 RPROVIDES:${PN} += "stardict"
 

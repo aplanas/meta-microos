@@ -9,11 +9,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.13.2"
 
-RPM_NAME = "python311-xsge_physics-0.13.2-1.7.noarch.rpm"
-RPM_HASH = "5f5d8c3815185d83794d56217241e9010c325e698063b6be87a49abb65060b3416c0cd485e78222363ec16ebe2814f29b6c461db917a1a43655b1d0e17ebe9c1"
+RPM_NAME = "python311-xsge_physics-0.13.2-1.8.noarch.rpm"
+RPM_HASH = "ef87052d4536c9034bc4b061f738758872138bac80a24a9a5c90e9b989af4e7f8d6da1f4c4f52d86f9f1e559ffc82bfd2cc06c62eae2695045406693da3ecb39"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-xsge-physics \
+RPROVIDES:${PN} += "python3-xsge-physics \
+python3.11dist-xsge-physics \
 python311-xsge-physics \
 python3dist-xsge-physics"
 

@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.9.1"
 
-RPM_NAME = "presage-0.9.1-13.1.aarch64.rpm"
-RPM_HASH = "e9ffa279f7647951c405b24b8709bef16cd2b3bd2d866a08acf9eb34c24a6820d9e5c2e2176e50194599fa240f26d4f938e56b94e694cacf8589a80b38bf5ce3"
+RPM_NAME = "presage-0.9.1-13.2.aarch64.rpm"
+RPM_HASH = "91d6e154b9d4157d795e5b3da6079217be222fc1bbefe147e3c679ab2de747feebf07dea1e2a898ce166d77deb01c97fbb3938c0e4a33dad9473cd290ad206b0"
 
 RPROVIDES:${PN} += "presage"
 

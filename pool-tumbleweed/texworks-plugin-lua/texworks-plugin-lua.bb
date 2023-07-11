@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.6.8"
 
-RPM_NAME = "texworks-plugin-lua-0.6.8-1.3.aarch64.rpm"
-RPM_HASH = "5de3eaf3b5682987cde8fe86868ced848568776a3ff1df7e61736c1fa82544b67b924ad9675216d7064808bef0c90f14e33e620430beddf0f397d1ed062a2972"
+RPM_NAME = "texworks-plugin-lua-0.6.8-1.4.aarch64.rpm"
+RPM_HASH = "5c95b695143b5c883fd32fd59d99774775e5dd22ccd71a6e22fb90ea37a880cdc96882668c4cebf1e286d861ed540ce28084aaba71dd52ee7465f8f3b6e972df"
 
 RPROVIDES:${PN} += "libTWLuaPlugin.so \
 texworks-plugin-lua"

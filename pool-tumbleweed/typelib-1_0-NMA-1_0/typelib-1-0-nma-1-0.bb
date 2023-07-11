@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.10.6"
 
-RPM_NAME = "typelib-1_0-NMA-1_0-1.10.6-1.3.aarch64.rpm"
-RPM_HASH = "2fa2b276e61d39f0b948f883c4c6c0d6376c091f3768c57b5f65ea8e5048affd3702957082979cd22f6dc1241b933d213b17e2d8c6ca5485a3ca4b3efeefbe05"
+RPM_NAME = "typelib-1_0-NMA-1_0-1.10.6-1.4.aarch64.rpm"
+RPM_HASH = "cdcf97b3089955805ac8c44e2d98d4db560a96bad02f15c0abba7b3448f74cafd95482b5a37b88c973730c04cc7d07c8d9d3e8e985173c2f684844f5a8376ba7"
 
 RPROVIDES:${PN} += "typelib-1-0-NMA-1-0 \
 typelib-NMA"

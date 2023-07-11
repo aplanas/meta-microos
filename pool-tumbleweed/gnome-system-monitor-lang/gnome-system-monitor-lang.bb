@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "gnome-system-monitor-lang-44.0-1.1.noarch.rpm"
-RPM_HASH = "f6bd97dd232b9b154112a75329d06307db42b234c1096a984f3c0ddd2b05a12bd627b9dd5c16721b19bb910884826d8108395a5d57e07a441fb562a0ac3ff15f"
+RPM_NAME = "gnome-system-monitor-lang-44.0-1.2.noarch.rpm"
+RPM_HASH = "089965fb2c922c1c637fa1b7df56a4ef6c9a05df8fccdac3e80e1de808cd1035ba3568c2b953622d2e90afae1c6236d47eb18bdbfc6c0d9e7dddeb5eea15f0e1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-system-monitor-lang \

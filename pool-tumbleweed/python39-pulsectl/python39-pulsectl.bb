@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "22.3.2"
 
-RPM_NAME = "python39-pulsectl-22.3.2-1.2.noarch.rpm"
-RPM_HASH = "899f1a8d5c1df574450dc8181f10fee0091515fb70498953319699c7777fa12b9a6761b25d154820a10688a4f2fe53b878592acf2f6f0a169701aa3fadb71719"
+RPM_NAME = "python39-pulsectl-22.3.2-1.3.noarch.rpm"
+RPM_HASH = "18531500297e0d763eeb6cea6b6164a03ca4487d63bb14075b9749ddba7f26b1f77441b065a9c3b67abcd35347d60f2a73fc1b26dd2e1999a81fdd41e6e371eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pulsectl \

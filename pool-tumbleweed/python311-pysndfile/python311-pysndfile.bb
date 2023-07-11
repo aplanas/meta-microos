@@ -19,10 +19,11 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "1.4.4"
 
-RPM_NAME = "python311-pysndfile-1.4.4-1.5.aarch64.rpm"
-RPM_HASH = "fb36384e08ce18e54643e54c4b35980a640d0591a86d96706ae09939f18eab086f6247743cc3e93ee5268a670ea69dc894483b30d4fdf402c32e2cf908523a36"
+RPM_NAME = "python311-pysndfile-1.4.4-1.7.aarch64.rpm"
+RPM_HASH = "5a8933cbb9f019c2e0330ddde2d66fb9e43132b4e1d4eb76a1952422e9762c52ee130fb298d364f53c05fec89d5b798330bdb223277c06ac6009e3dd18ca5e12"
 
-RPROVIDES:${PN} += "python3.11dist-pysndfile \
+RPROVIDES:${PN} += "python3-pysndfile \
+python3.11dist-pysndfile \
 python311-pysndfile \
 python3dist-pysndfile"
 

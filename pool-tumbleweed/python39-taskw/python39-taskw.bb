@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.0.0"
 
-RPM_NAME = "python39-taskw-2.0.0-1.3.noarch.rpm"
-RPM_HASH = "e0c40599a15dfadf13977f4c08d9c308bc4733372dd1c7d276328266b0e33aaab72a1437ae95b58bc3175101bbadeac41ddb5e816fa4b1a78be212172400ff65"
+RPM_NAME = "python39-taskw-2.0.0-1.5.noarch.rpm"
+RPM_HASH = "67e76b8dffed18161d6d1c5e4eb615919b0c252088869d199cf3a0a6324d23da4f59ed8071e641833235ee74c95a327b72e8d1a26b2b8cd149221de9e55ab5bb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-taskw \

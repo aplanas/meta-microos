@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "9.24.61"
 
-RPM_NAME = "kiwi-systemdeps-containers-9.24.61-1.1.aarch64.rpm"
-RPM_HASH = "6118e12934f9e7d16d0e1fe95b09664101b44372a38709ddc596b992bcea8bb5a172fffe49a1d89e4308a0fda4a9d4cb59b574542d8f3787d557aa1d919cc7a7"
+RPM_NAME = "kiwi-systemdeps-containers-9.24.61-1.2.aarch64.rpm"
+RPM_HASH = "1016c115aa05b6c7b8d8b9fcb60047345539775792d7d4ed0e14f873757f7362dde88dc8d743d8a0d841fdba7ca8041f31a36fbbe234fdb02c87477510087a65"
 
 RPROVIDES:${PN} += "kiwi-image-docker \
 kiwi-image-docker-requires \

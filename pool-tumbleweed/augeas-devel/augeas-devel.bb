@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.13.0"
 
-RPM_NAME = "augeas-devel-1.13.0-2.1.aarch64.rpm"
-RPM_HASH = "99c93a3498f0573fb3a86db99b62ff2c82343bbca15f8bd2338a2f211f22b0c0278e5b185d24349a7642a111c2cdf56196b4d228d1502757806f980a648b9c4a"
+RPM_NAME = "augeas-devel-1.13.0-2.2.aarch64.rpm"
+RPM_HASH = "6c25a9cb79fedf95f41cbd8b584b9cc58c13cc7d8708b5ce4d5a8910057127adb205925a26923e77f437496cdb5ff45434b38a64e73cf922999a9257f6019962"
 
 RPROVIDES:${PN} += "augeas-devel \
 pkgconfig-augeas"

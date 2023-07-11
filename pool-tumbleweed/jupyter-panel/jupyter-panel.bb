@@ -7,10 +7,10 @@ This package contains the notebook and server extension configuration common \
 to all Python flavors."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.14.4"
+PV = "1.1.1"
 
-RPM_NAME = "jupyter-panel-0.14.4-1.2.noarch.rpm"
-RPM_HASH = "878584d8e3ca061348083aced87df6d5531d8a3941f103cfe1ffb4932d62e071428054b32d13e143f1186de109f1953a020c371cbb89be61a13256098c9f3d17"
+RPM_NAME = "jupyter-panel-1.1.1-1.1.noarch.rpm"
+RPM_HASH = "ecdc72ba7cefe79d3c3d64c974da2504b9e11e403dce88d201e27ecfb5a23c77be935bb3806d11e3bb4abafb8e90566f5157b2b5cca3fb571780a4754bbaf606"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-panel"

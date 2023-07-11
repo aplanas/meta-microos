@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "3.0.0"
 
-RPM_NAME = "python39-azure-cognitiveservices-knowledge-nspkg-3.0.0-4.9.noarch.rpm"
-RPM_HASH = "04f6537bfa9b7be8996b139070879e432782e1ab21cbd570b3ce28b38aa69d08fe12c4628e4dba403ad2d58cc7970db379c8f493f5a8a6394e813e9298f591f0"
+RPM_NAME = "python39-azure-cognitiveservices-knowledge-nspkg-3.0.0-4.10.noarch.rpm"
+RPM_HASH = "c3a4e9596d8012d977ba41f2416e18c3629dc7261ddab020949cd714462f521326b418780f6884c6bf8a388bbbc9d58dab68bc2ed185a79c9c106cd12dc763a6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-cognitiveservices-knowledge-nspkg \

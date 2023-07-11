@@ -4,8 +4,8 @@ LICENSE = "CDDL-1.0"
 
 PV = "2022.10.16"
 
-RPM_NAME = "libscgcmd1_0-2022.10.16-47.3.aarch64.rpm"
-RPM_HASH = "f24e109aa1b78ed160c6dffca2321bd1baea62fbc7efd58d4cbbcd32fa3ebd57a1bbc5f5aebe7c79cb0df9f03c1039ee3c1a2b3bb7c092da25af6d7275fa63da"
+RPM_NAME = "libscgcmd1_0-2022.10.16-47.4.aarch64.rpm"
+RPM_HASH = "c726bc66fa0985d91247d81d9a8d03956ccaf91bd398b9f7ad7f8f0acf8d647645b07be4ba72c8d1a5f85712c0e52f9831dd460d8f449a0447e5fd643030caab"
 
 RPROVIDES:${PN} += "libscgcmd.so.1.0 \
 libscgcmd1-0"

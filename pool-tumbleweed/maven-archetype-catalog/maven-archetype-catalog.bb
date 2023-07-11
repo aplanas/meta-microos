@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.2.1"
 
-RPM_NAME = "maven-archetype-catalog-3.2.1-1.9.noarch.rpm"
-RPM_HASH = "e95f27f1fc86fc680ed2ce848566c5a4864a4966ce85398da2555159e4895b44f5929af25ea884c2e3ec7c1a563918165842a65c5ca9a80854264aed2b8601cc"
+RPM_NAME = "maven-archetype-catalog-3.2.1-1.10.noarch.rpm"
+RPM_HASH = "d83a46ed84ab2fb1aee8f62800e39a7c5b49d6acf10676f21e0d651b5172c0433fdbb34039517c997d3a791d3ed5af5990895d7590908606297798eb801c6721"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-archetype-catalog \

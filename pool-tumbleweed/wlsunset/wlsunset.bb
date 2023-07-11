@@ -2,10 +2,10 @@ SUMMARY = "Day/night gamma adjustments for Wayland compositors"
 DESCRIPTION = "Day/night gamma adjustments for Wayland compositors supporting wlr-gamma-control-unstable-v1"
 LICENSE = "MIT"
 
-PV = "0.2.0"
+PV = "0.3.0"
 
-RPM_NAME = "wlsunset-0.2.0-1.10.aarch64.rpm"
-RPM_HASH = "9da6396ac328ed3cec1aed2156144b04e35cd5b8a111c0c2e17568e1aeef42eea9a528350634e211ff1eec0fcbc85b4f46618fcec64f86849b84840f1991e31f"
+RPM_NAME = "wlsunset-0.3.0-1.1.aarch64.rpm"
+RPM_HASH = "02dc8a83bb374f71f249a3a8432af2ce8fcbbf009a6641d06b9c863b8e197c1f19570f51c6759d0618869274a5b92cff96e408c15ef6a999a07c80b3dc23ad0b"
 
 RPROVIDES:${PN} += "wlsunset"
 

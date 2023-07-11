@@ -5,11 +5,10 @@ LICENSE = "MIT"
 
 PV = "2.9.0"
 
-RPM_NAME = "python310-time-machine-2.9.0-2.1.aarch64.rpm"
-RPM_HASH = "cbb2864532a896bf2e26e5798ae2ccd3ac015f0c323029a07a6f6988040a6c82005e7cdb81f049c13db7fca2af2b0ada01d67b6d2a33ed844ff0bbc862a38374"
+RPM_NAME = "python310-time-machine-2.9.0-3.2.aarch64.rpm"
+RPM_HASH = "31232a7fbd42d0e545e4561672ebfea112079fc614ae8a9fc9d2157820c3761d0b950c348b5be5c275cd3176dfc2d73e3b03bc70e84187823dc0a4745cebf917"
 
-RPROVIDES:${PN} += "python3-time-machine \
-python3.10dist-time-machine \
+RPROVIDES:${PN} += "python3.10dist-time-machine \
 python310-time-machine \
 python3dist-time-machine"
 

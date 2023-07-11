@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.8.2"
 
-RPM_NAME = "znc-python3-1.8.2-3.7.aarch64.rpm"
-RPM_HASH = "b4b558785290d751fa603f79d37250d367236d2a807545db7428fd9cad20f13ad395cd21ba13f8189a5ff05320e179f62161c20d5e9d34768c10ec639d9997d9"
+RPM_NAME = "znc-python3-1.8.2-3.8.aarch64.rpm"
+RPM_HASH = "ab10b0a2530aebf7121b7e74a28defb1a5a3fbf29da7741c1ce35411ce0a41093942b41ebb6104cf1a7cc59d81a2ef0f53dfeb3b8a7b3c91ec3fa0ffaf72603e"
 
 RPROVIDES:${PN} += "znc-python \
 znc-python3"
@@ -17,7 +17,7 @@ znc-python3"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libstdc++.so.6 \
 python3 \
 znc"

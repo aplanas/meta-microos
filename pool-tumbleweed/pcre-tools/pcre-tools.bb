@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "8.45"
 
-RPM_NAME = "pcre-tools-8.45-2.6.aarch64.rpm"
-RPM_HASH = "0df54ef5742e73cbe8bf69ee9bd816173057ee6341e649498cfb7bb22b1d0346e86e404ff0f0b2d2075c2f2b04bce27629648af0a659e4a8f85bf994f06f29d1"
+RPM_NAME = "pcre-tools-8.45-2.7.aarch64.rpm"
+RPM_HASH = "1a3dbfbe3a42eff281cbed1c001d52ac20f6964fb91f47a65eae736c65c23090d3928c04a815698913636100bb1280d8ce07363bbcffc526de8e44c9f40651d7"
 
 RPROVIDES:${PN} += "pcre-tools"
 

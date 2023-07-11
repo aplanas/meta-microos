@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "1.9.4"
 
-RPM_NAME = "libiir-devel-1.9.4-1.3.aarch64.rpm"
-RPM_HASH = "375f9ac0a50b7295e3b952b768513fd3ec36d9de2f947807849111ec0e146427a6f1e350932a61ab92c3806592c95597ab6025a6690e8936cd7bb24007596755"
+RPM_NAME = "libiir-devel-1.9.4-1.4.aarch64.rpm"
+RPM_HASH = "c5e2e2b2cce4b6994c28fc64ff72ddd9cac4603840309f8f167d840eb75cd422a022b0fbb6602e54c36d7f6f3897cdad70d3b6cc2cd8e9dbdd1ccf89a3b4d81d"
 
 RPROVIDES:${PN} += "libiir-devel \
 pkgconfig-iir"

@@ -7,8 +7,8 @@ LICENSE = "Artistic-2.0"
 
 PV = "1.48"
 
-RPM_NAME = "perl-XML-XPath-1.48-1.2.noarch.rpm"
-RPM_HASH = "b665924e9e1eceec6bb3d5d9e78b532064e8cba9090e0770a83b4035167773426a990279319879b2fa9d4ed7338707fe0ca14daaa003c0c6614c40cbe579709f"
+RPM_NAME = "perl-XML-XPath-1.48-1.3.noarch.rpm"
+RPM_HASH = "e13bf8a73e848c15d2e200052af79a04b061205e4847b4fe90d21275c78f154b3fc63500be136d33f005f1dc3bdc7c7a94d996215ab907ffdb19a08482df4212"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-XML--XPath \
@@ -43,7 +43,7 @@ perl-XML--XPath--XMLParser \
 perl-XML-XPath"
 
 RDEPENDS:${PN} += "/usr/bin/env \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-Scalar--Util \
 perl-XML--Parser"
 

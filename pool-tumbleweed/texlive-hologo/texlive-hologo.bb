@@ -7,8 +7,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.15svn61719"
 
-RPM_NAME = "texlive-hologo-2023.201.1.15svn61719-53.1.noarch.rpm"
-RPM_HASH = "d632d5e427846a92c857233a1f3cdbe5fb08ecd2976a29dc068896d6cdcfa9a77e0021b7ac25ebcc2ce14e51f22c45416b3304676803ca1960f802c6bdd52348"
+RPM_NAME = "texlive-hologo-2023.201.1.15svn61719-53.2.noarch.rpm"
+RPM_HASH = "35c8132ec2adf8da65f168bc4fdf02f2f45b03e700613c9c5953dde0608cc50ade703130e6744eead4927f8332dfa2b7d2ecbbaa1c6cc46676321cc861ceff6c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hologo.sty \

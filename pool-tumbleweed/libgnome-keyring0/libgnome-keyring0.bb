@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.12.0"
 
-RPM_NAME = "libgnome-keyring0-3.12.0-9.8.aarch64.rpm"
-RPM_HASH = "16095847df7567aff623e8218357a8934be9504c5a2852cba417b91a3b0636f76a34ba6f49c19d7afa5fb6d743af5fe83d06eb94f9ac00740d534bd304fe3103"
+RPM_NAME = "libgnome-keyring0-3.12.0-9.9.aarch64.rpm"
+RPM_HASH = "997367a2b51bb94aec1a344b2aefd7ad574e1f49a5353b94332cef6f35ce30cc9bb42ddce45aee1d68abb661885e51b173168638ba17113096271db1ebdd3113"
 
 RPROVIDES:${PN} += "libgnome-keyring \
 libgnome-keyring.so.0 \

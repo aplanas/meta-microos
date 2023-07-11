@@ -4,10 +4,10 @@ uses libtorrent-rasterbar. This subpackage contains a command-line \
 version."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.5.3"
+PV = "4.5.4"
 
-RPM_NAME = "qbittorrent-nox-4.5.3-1.1.aarch64.rpm"
-RPM_HASH = "0338bec9884d348d67767c865f6ff020375a76868d8f26df5d4d962081cf7518bcb69a596f955a15f3b0a2f4f336d761739e53346b8b8d00e5a5642ef07be8d9"
+RPM_NAME = "qbittorrent-nox-4.5.4-1.1.aarch64.rpm"
+RPM_HASH = "00b3cbcda81e9875849ea8241760ddd05ab3f1f65312e9219857d6c04e09c1140a824f68ba616b27529b62e327fff80c30da35801953599135d6df9bf3a4485d"
 
 RPROVIDES:${PN} += "qbittorrent-nox"
 

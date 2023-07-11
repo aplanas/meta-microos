@@ -7,8 +7,8 @@ LICENSE = "OFL-1.1"
 
 PV = "2023.201.0.0.36svn65686"
 
-RPM_NAME = "texlive-xcharter-math-2023.201.0.0.36svn65686-52.1.noarch.rpm"
-RPM_HASH = "523d216dc6f27616668e27d81fb72659bb81a3f6ae6d2254ed294d72ac2314d7b2d83190a1474aa35266612b40e39f14277b80b3b9123021c1e9cea885dd474d"
+RPM_NAME = "texlive-xcharter-math-2023.201.0.0.36svn65686-52.2.noarch.rpm"
+RPM_HASH = "ced25fc4c2686af2caa75b3c76d0d826d683468073b79f7b1be0abdbda143dabd6a627313f7c02366cbdec5fc4b0eb3995baad480762323f5b38258cdad328e6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xcharter-otf.sty \

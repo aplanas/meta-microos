@@ -4,8 +4,8 @@ LICENSE = "MPL-2.0"
 
 PV = "0.17.2"
 
-RPM_NAME = "liborcus-tools-0.17.2-3.4.aarch64.rpm"
-RPM_HASH = "545685dead742f3b58ebe35e6a3590d92429bf8e4d9a1bf5546fa1e4bfcd108d9043e2fcee0a500b671b07bbce167b8900b94c407adb4484a2b36b39d0fa79d1"
+RPM_NAME = "liborcus-tools-0.17.2-3.5.aarch64.rpm"
+RPM_HASH = "88d5e0ce4159e20d05190b8026d84df45a96089a4ddae33196b4af9e590e98fa1d8890cfb9633fda5ba5ef30d264d9530d1299c8ec82c655015d7fe5898136a1"
 
 RPROVIDES:${PN} += "liborcus-tools"
 

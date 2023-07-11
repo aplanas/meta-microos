@@ -5,10 +5,10 @@ services, such as printers, to be discovered without any user intervention or \
 centralized infrastructure."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "libKF5DNSSD5-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "da40955ffc05c3181c2ec782ddd647359d0175610957058bc8203b4fb417ddc3e44c55b09ed745ede59bb7912053a9b51c42ed37a89f28e658846764a39c769a"
+RPM_NAME = "libKF5DNSSD5-5.107.0-1.1.aarch64.rpm"
+RPM_HASH = "ee901e42f2439e4dc7ee0b451818a7b4da8b65a1fb0ed95d4f4d77f24dbab042bcc94f5e52df351c1555f7dafc0f4e7fa82f41de25f9a8bc973d597afa7e4a88"
 
 RPROVIDES:${PN} += "libKF5DNSSD.so.5 \
 libKF5DNSSD5"

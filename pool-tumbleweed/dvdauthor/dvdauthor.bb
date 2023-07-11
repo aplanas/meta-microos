@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.7.2"
 
-RPM_NAME = "dvdauthor-0.7.2-3.18.aarch64.rpm"
-RPM_HASH = "40618e5e2fee44611fcbbd53ec907845d24226c196f0f89133cc2c185d890c9b5e5a2a657206ec749bed93f966ba40cc86fd51136bbc10bc57787c435ee903ad"
+RPM_NAME = "dvdauthor-0.7.2-3.19.aarch64.rpm"
+RPM_HASH = "5a0e18e61a8e3f6e5c129e9611e3a7702236be7286ec94ae0b3cc6efc1ab9cbd31b801a99762f4359361741bf9f6ce4e73f60b21511a01e1cec4e406d0efde6c"
 
 RPROVIDES:${PN} += "dvdauthor \
 dvdauthor07"

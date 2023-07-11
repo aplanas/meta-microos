@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "python311-idna_ssl-1.1.0-3.12.noarch.rpm"
-RPM_HASH = "0e3358ea782e661f05aabb1ee7832742a9aaab2158d7537f91bfb17fcf7b7d24eff485c780248a81e1fd3a202aa34e0e62b7440b32c6c1baa2164aa7c864d7ee"
+RPM_NAME = "python311-idna_ssl-1.1.0-4.1.noarch.rpm"
+RPM_HASH = "7a97657044a907ce39b92c01d4b91496d1a0cd18f9a382ae39b32df79338bfa3afd9f1fd71e4095fe3c0762d7364ed3415a45db9a0f02b6995b0213bfee69d25"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-idna-ssl \
+RPROVIDES:${PN} += "python3-idna-ssl \
+python3.11dist-idna-ssl \
 python311-idna-ssl \
 python3dist-idna-ssl"
 

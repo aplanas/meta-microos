@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.10.2"
 
-RPM_NAME = "ibus-libzhuyin-1.10.2-2.3.aarch64.rpm"
-RPM_HASH = "95cabb0c4d8ad0f8384fea2fa180115ba0ec175e40545d45c20326f978e7e0cea662b1bed1a62fde507f070312fe3610b4607a89afa44e3faebf49e61c6d3490"
+RPM_NAME = "ibus-libzhuyin-1.10.2-2.4.aarch64.rpm"
+RPM_HASH = "e03bd6d32c578121c0130c616170c1369a14864e7e9eb985cf5b936ef099e6d0185ebc24e2851e3f4c044e70ee99819f2f8b493949d0009a40864a2b9a3644ec"
 
 RPROVIDES:${PN} += "ibus-libzhuyin \
 locale-ibus-zh-TW;zh-HK"

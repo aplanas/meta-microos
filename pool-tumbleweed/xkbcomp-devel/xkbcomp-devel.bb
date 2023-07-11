@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.4.6"
 
-RPM_NAME = "xkbcomp-devel-1.4.6-1.2.aarch64.rpm"
-RPM_HASH = "263838e446c69a965757b69db89fd800b2aeab9e51c432c9613768f68a23d3633d1588b4fcbdeff858842846bc5edf1e28dc9bee149759643ae8e966bd0f41b7"
+RPM_NAME = "xkbcomp-devel-1.4.6-1.3.aarch64.rpm"
+RPM_HASH = "24756608f6b28ec036166d91d973bf93ae356ae2d1d0c116e7233347377f619997f97df7b842266295becc1e146596db45823fefb36e5b47facfbc0aa2453103"
 
 RPROVIDES:${PN} += "pkgconfig-xkbcomp \
 xkbcomp-devel"

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libKPim5AkonadiNotes5"
 DESCRIPTION = "Provides translations for the 'libKPim5AkonadiNotes5' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libKPim5AkonadiNotes5-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "5ec4e587d993583cf2b7a495a16979f8cbf29d0c009cab01d7692df0ba1cb57bfe00a45a83b518e4b96cb40b285715bcadc9591ab77ead2709445711cdcbbf7e"
+RPM_NAME = "libKPim5AkonadiNotes5-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "f0f57cd754e7a2b6db08ab4c84ee03be1032b349cceff03b3cd14e295f6253c7eec19127ddf0de90534db11f2f5c8fb80e823914cb384439796fc5fba10a9f44"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libKPim5AkonadiNotes5-lang \

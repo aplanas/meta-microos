@@ -5,8 +5,8 @@ LICENSE = "CDDL-1.0 | LGPL-2.1-only"
 
 PV = "2.0.99.2"
 
-RPM_NAME = "ibus-sunpinyin-2.0.99.2-3.7.aarch64.rpm"
-RPM_HASH = "be2eafeae5c77d12227026d77bf8dd8bd4e7cd54c713377188f265344e5b9d1bb5fd26784cddf62b24aa7ea1a9a7011b56bd5dfbaf2cec0644b31fdaad9b693c"
+RPM_NAME = "ibus-sunpinyin-2.0.99.2-3.8.aarch64.rpm"
+RPM_HASH = "467e43e7d3ff2e10de6255dbcc96395f2d139c1ae157542329cfc797e5c7e7b578125cb883d3d2343af69fb684d3ffbc7d092ec45fe5629a676360511c2baea1"
 
 RPROVIDES:${PN} += "ibus-sunpinyin"
 

@@ -4,11 +4,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.0.3"
 
-RPM_NAME = "python311-sphinxcontrib-qthelp-1.0.3-3.1.noarch.rpm"
-RPM_HASH = "37908d4ab4833278900dc7b563e800fe3473f161045642f193ad57e34f47f9ba979c652ffe9b3a1bb5d369fcb2293d8f9be0c6edf9d9f1857bbd56d2a5383503"
+RPM_NAME = "python311-sphinxcontrib-qthelp-1.0.3-3.2.noarch.rpm"
+RPM_HASH = "8524c8e47bc4466e58f3e14aa0e1b0895f07c48aae395dc30a42d4a983d880d8cd350fc8fab4bfb34bfa6dcbaa945dd4365f0ecf02f4ff6c894f6389b0c7e97e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-sphinxcontrib-qthelp \
+RPROVIDES:${PN} += "python3-sphinxcontrib-qthelp \
+python3.11dist-sphinxcontrib-qthelp \
 python311-sphinxcontrib-qthelp \
 python3dist-sphinxcontrib-qthelp"
 

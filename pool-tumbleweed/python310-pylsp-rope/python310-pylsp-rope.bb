@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "0.1.11"
 
-RPM_NAME = "python310-pylsp-rope-0.1.11-1.4.noarch.rpm"
-RPM_HASH = "d085bbc5f687cc34fbf091f08f4c82e42b57c7a394bab8f6f807457425c300ac7d483a7d5bcfaf25a72f0ba4ca0f62cd0de1dfe00938c7cec87083974d3f8a48"
+RPM_NAME = "python310-pylsp-rope-0.1.11-1.6.noarch.rpm"
+RPM_HASH = "fb7e9694a871a2a0b8c81027c90e613689f7bfb6158b1b638419cfeb7db88627db8d7a1d62995362e85b5251e657a9784ae202827c980411685d320729b3a935"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pylsp-rope \
-python3.10dist-pylsp-rope \
+RPROVIDES:${PN} += "python3.10dist-pylsp-rope \
 python310-pylsp-rope \
 python3dist-pylsp-rope"
 

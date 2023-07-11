@@ -6,12 +6,11 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "0.9.7"
 
-RPM_NAME = "python310-pybars3-0.9.7-1.18.noarch.rpm"
-RPM_HASH = "ff8cceb162fa5638d5db7c4b120107d1cca9698a10be0564e83acdff11b260438ccb4a0b163b83bdabd14c9a809899e76a99ab95e0285a72b31e7f900a2791cf"
+RPM_NAME = "python310-pybars3-0.9.7-1.20.noarch.rpm"
+RPM_HASH = "f209e7a7c852eabbe7153fe59e02f6964f7f66bb20794ac572d45f32fb207952d873e502b1f5471af7e97e39136d49b5bc4de3b20fa3c13ebff4f312157d3384"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pybars3 \
-python3.10dist-pybars3 \
+RPROVIDES:${PN} += "python3.10dist-pybars3 \
 python310-pybars3 \
 python3dist-pybars3"
 

@@ -3,10 +3,10 @@ DESCRIPTION = "Jmol is a Java-based viewer for chemical structures in 3D with \
 features for chemicals, crystals, materials and biomolecules."
 LICENSE = "LGPL-2.1-only"
 
-PV = "14.32.73"
+PV = "16.1.13"
 
-RPM_NAME = "jmol-14.32.73-1.2.noarch.rpm"
-RPM_HASH = "ebe13f7960dbf2d57d1b98ab85087fc3fe8e4c34626e918b631675472ed91fae5770e56533b6e3bdf5ea6650a8d7b2546adec40e5525af4229b5d22dbeee805c"
+RPM_NAME = "jmol-16.1.13-1.1.noarch.rpm"
+RPM_HASH = "68c5616810e3fdaafe1ffb0a1fbf09a646bafdc07be7972f47dc23315cf28798d28a24158e5b14208d74aebd2d9598afbfab32fd776449cbc9a35c365399900b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jmol"

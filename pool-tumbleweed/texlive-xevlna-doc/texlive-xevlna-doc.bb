@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.1svn43864"
 
-RPM_NAME = "texlive-xevlna-doc-2023.201.1.1svn43864-52.1.noarch.rpm"
-RPM_HASH = "7292082483df214f31ae5f01d6801d93d7bf7ee2ab505d829ef99087eb0291778719bc5466ca41d11fc6f11817fb5101eb8e8268b73b0ccc83ef6b60bb3dc48d"
+RPM_NAME = "texlive-xevlna-doc-2023.201.1.1svn43864-52.2.noarch.rpm"
+RPM_HASH = "37b306e94850a6f2a915ecd605074798d26c429f36cc99ed2915898f0ee7de9ea1adb34a1eecb3cb742837759a081e58f15f6b902a8b680ed65c04fa9a33cea4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xevlna-doc"

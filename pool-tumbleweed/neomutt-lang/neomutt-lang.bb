@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "20230517"
 
-RPM_NAME = "neomutt-lang-20230517-1.1.noarch.rpm"
-RPM_HASH = "9c39553e4cdc1bcc50bbf2f06cdde3adb4f9673bcc61b62c01ab0ed3cf0f6b776c6a77ec26ff498b87717ec1d7191de0c10073a7c2adfcf45ff76cf627d67583"
+RPM_NAME = "neomutt-lang-20230517-1.2.noarch.rpm"
+RPM_HASH = "061e34e3093eabdfc0639bd884923343812670c745e64ab3c133c1e1da1c9b8eed387f998233f91a3723ace66123be73d8343cb98a409d2405823132e289bacc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-neomutt-bg \

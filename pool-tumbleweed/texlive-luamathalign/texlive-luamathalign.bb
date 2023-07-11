@@ -4,10 +4,10 @@ direcly using & is not possible, especially in nested macros or \
 environments."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3svn63226"
+PV = "2023.208.0.0.3svn63226"
 
-RPM_NAME = "texlive-luamathalign-2023.201.0.0.3svn63226-52.1.noarch.rpm"
-RPM_HASH = "604187ecb27d1de38c75cbfe5f9b083095336be4de3bb34334962adf353ae370e6f7987734178a11d8b2dc06a8db5b71c4463ba7ceab46daf59f87a88ab0f98c"
+RPM_NAME = "texlive-luamathalign-2023.208.0.0.3svn63226-53.1.noarch.rpm"
+RPM_HASH = "c9a2190877c4a2d2ebefc4c5df24c273c6f455b853ed060d611b9247fe2ddf61f83205327c9207ee74947ded4b9093e95cd30592c1d52ffea82914b5bdc5466e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-luamathalign.sty \

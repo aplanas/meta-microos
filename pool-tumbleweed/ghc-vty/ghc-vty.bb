@@ -18,11 +18,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.38"
 
-RPM_NAME = "ghc-vty-5.38-2.4.aarch64.rpm"
-RPM_HASH = "71295e7afa1c005f796e0a24226e0b823cb17623f9dbd7670a7765d449b45b280e7d98ad55e12a29d99bb758bc5b225de68337e15c21c143f30e1688aadea25e"
+RPM_NAME = "ghc-vty-5.38-2.8.aarch64.rpm"
+RPM_HASH = "7650d5a6429a9b337b748c7080728ee2ef08389bc61471bc1a197ad31e23ee9c3b98a57d70f8f72124864453107f600f0196d17da61a8450037213b45d93fd0a"
 
 RPROVIDES:${PN} += "ghc-vty \
-libHSvty-5.38-E9MiSc6Hkm5LKREDrOQCil-ghc9.4.5.so"
+libHSvty-5.38-IuSWPYXCscY5LxGEJl3fAP-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libHSansi-terminal-0.11.5-5x0MoHxm5r6DDoyv5djCW3-ghc9.4.5.so \
@@ -42,7 +42,7 @@ libHSghc-boot-th-9.4.5-ghc9.4.5.so \
 libHSghc-prim-0.9.0-ghc9.4.5.so \
 libHSmicrolens-0.4.13.1-ARwI8t2x86cAxRs56XPcG1-ghc9.4.5.so \
 libHSmicrolens-mtl-0.2.0.3-50s7aKrmu33tjGZvdN4FV-ghc9.4.5.so \
-libHSmicrolens-th-0.4.3.12-A1OnPrF7gbKLp2skY17lAG-ghc9.4.5.so \
+libHSmicrolens-th-0.4.3.13-4M5tTOX0ioLGTMiKBp6v2C-ghc9.4.5.so \
 libHSmtl-2.2.2-ghc9.4.5.so \
 libHSparsec-3.1.16.1-ghc9.4.5.so \
 libHSpretty-1.1.3.6-ghc9.4.5.so \
@@ -59,7 +59,6 @@ libHSunix-2.7.3-ghc9.4.5.so \
 libHSutf8-string-1.0.2-3yyxPCwARUwDt9ZNWn320Q-ghc9.4.5.so \
 libHSvector-0.13.0.0-AbjrQrWxuFpAjIHk3G7xsp-ghc9.4.5.so \
 libHSvector-stream-0.1.0.0-C5Yyq3DPEhXAQSqkM8V92s-ghc9.4.5.so \
-libatomic.so.1 \
 libc.so.6 \
 libffi.so.8 \
 libgmp.so.10 \

@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "2.28"
 
-RPM_NAME = "libbd_fs2-2.28-1.4.aarch64.rpm"
-RPM_HASH = "ec87fe23bd343780cb52f4bef1277b5fa44a198a856c9d3b59d0598f5de93d9c3f1b827b23da591c8b4eb8484fce3a67627eda3df2365f1c8d7124c89d4976e0"
+RPM_NAME = "libbd_fs2-2.28-1.6.aarch64.rpm"
+RPM_HASH = "d79a703209ed14950bcf02ed05ac3182c15079ec112500248a3bf5f222b8d1a16c62b87c4972a6049ad15bed9d33f2e8fbca706a53a05b795dc8140056e31b3e"
 
 RPROVIDES:${PN} += "libbd-fs.so.2 \
 libbd-fs2 \

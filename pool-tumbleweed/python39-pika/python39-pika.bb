@@ -5,10 +5,10 @@ library. Pika was developed primarily for use with RabbitMQ, but \
 should also work with other AMQP 0-9-1 brokers."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.3.1"
+PV = "1.3.2"
 
-RPM_NAME = "python39-pika-1.3.1-1.3.noarch.rpm"
-RPM_HASH = "277c38fd3d3ec90647fdc5a5048d790e0947cf19cf8e97614a934a9f195237fbeda08c58615aade296e8df349c00602b4f8b849da45c1ac9f00f9e9073f7a8b7"
+RPM_NAME = "python39-pika-1.3.2-1.1.noarch.rpm"
+RPM_HASH = "a74de54c670759473b18f9d0e4136cb12a47f6a014cea3a4a57deed4f8ebf93bd3b29e5fcba97671730d36b55394609ce3809ccb0a87b16fd07f90aaa5179008"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pika \

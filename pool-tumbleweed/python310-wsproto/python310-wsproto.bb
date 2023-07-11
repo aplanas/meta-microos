@@ -15,12 +15,11 @@ LICENSE = "MIT"
 
 PV = "1.2.0"
 
-RPM_NAME = "python310-wsproto-1.2.0-3.1.noarch.rpm"
-RPM_HASH = "143aa6375aa8f1f1cacae487049affa06328bbb0d40c235e625cd1fd59cb2ee1e009cd4e86fc91fd4b2acb1bcc48f3ba7491dc0b3c54193a8954a859909bf59d"
+RPM_NAME = "python310-wsproto-1.2.0-3.3.noarch.rpm"
+RPM_HASH = "e1af0f18b53a3c29b6822a3c093b71496ba33c4b5773092cd0c6fe10aa2524922d56eba414835162705f4003e5bad6eee1e5c113c0dec0cb535b2ee44b2b3ec5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-wsproto \
-python3.10dist-wsproto \
+RPROVIDES:${PN} += "python3.10dist-wsproto \
 python310-wsproto \
 python3dist-wsproto"
 

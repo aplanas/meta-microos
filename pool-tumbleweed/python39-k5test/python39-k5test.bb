@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.10.3"
 
-RPM_NAME = "python39-k5test-0.10.3-2.1.noarch.rpm"
-RPM_HASH = "c85496d1ad25ff56f6e35bbf22feaa276273b71fa1e3e6ea58c2b3e4453b1a530f063906b26fc4f380d76e68339bb814fa3d1f4766a17df9ced46d1f357a24ac"
+RPM_NAME = "python39-k5test-0.10.3-2.2.noarch.rpm"
+RPM_HASH = "9ec296506ab74c392d97b0f4eb6c3bc71216b33a7db7dab47d29b81fe1a3643a3af541b95b2e2d0b964ee3653d8a94754e9281ae4d3180cdd4ad9e35dc14a51f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-k5test \

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libKPim5Gravatar5"
 DESCRIPTION = "Provides translations for the 'libKPim5Gravatar5' package."
 LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libKPim5Gravatar5-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "c27f5d12e6fad120aa5e7cb3d21927c6be415d4ddc495a1e1b02c1b90bb945918b32d97c89f6bea073bca1e44bced9200675e54c6e8652ee85018ac64384fea2"
+RPM_NAME = "libKPim5Gravatar5-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "fbcfbc4ad791d6416e354db06a5ad95daf79a9d0ad5fac70dead5f5c52ece66b47db3204fb52c5c46cdb9f51033541ed22fc3d7582487dd8c104ea48575e43f7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libKPim5Gravatar5-lang \

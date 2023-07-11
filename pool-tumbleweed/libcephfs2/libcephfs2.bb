@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1 & LGPL-3.0 & CC-BY-SA-3.0 & GPL-2.0 & BSL-1.0 & BSD-3-Clause
 
 PV = "16.2.13.66+g54799ee0666"
 
-RPM_NAME = "libcephfs2-16.2.13.66+g54799ee0666-2.1.aarch64.rpm"
-RPM_HASH = "6b0a68421f8fbfa31819dbc19549bc91bb8b37d9010dec23b15c655fd6d0f242f7f6b370f40e36ea616975eb5ae819d5fe3e80959f840f5894beacda701b5a19"
+RPM_NAME = "libcephfs2-16.2.13.66+g54799ee0666-3.1.aarch64.rpm"
+RPM_HASH = "de9a76ce03656032443d15866feab89aded1d380d5b74228fbdd42ec498bc348fd063e61ffca42f0b974f1a586e1775c7f32cff959a269db8d2b441a4c750cdd"
 
 RPROVIDES:${PN} += "libcephfs.so.2 \
 libcephfs2"

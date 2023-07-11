@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.12.0"
 
-RPM_NAME = "python310-ndtiff-1.12.0-1.1.noarch.rpm"
-RPM_HASH = "473fac01e0767c3cf353bca634fd54669543dd977c018966380ec3fef6f3589353c151aee9f89fd5c89f15ddfdb6d024c834a3c606122479938c7e477243b6c3"
+RPM_NAME = "python310-ndtiff-1.12.0-1.3.noarch.rpm"
+RPM_HASH = "06051004cb251eade3e8f0063ec14bf622d80682c27e302b602034c91cdc79c1e6fdee7fc588dd00b3bd919f2484eb395a79b85dd8e913e92bf0e40470ffa2ce"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-ndtiff \
-python3.10dist-ndtiff \
+RPROVIDES:${PN} += "python3.10dist-ndtiff \
 python310-ndtiff \
 python3dist-ndtiff"
 

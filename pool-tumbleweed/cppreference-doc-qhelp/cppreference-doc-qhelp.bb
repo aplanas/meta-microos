@@ -6,8 +6,8 @@ LICENSE = "CC-BY-SA-3.0"
 
 PV = "20220730"
 
-RPM_NAME = "cppreference-doc-qhelp-20220730-3.3.noarch.rpm"
-RPM_HASH = "c5b302f3868e361ff7c9d580dd35450768fdbe73d538a5a9ee3ddaf7554610fe3c01ace10ebb1ad7119247898d89ddf6860eee2691639e5a7cc7e85bf16248c2"
+RPM_NAME = "cppreference-doc-qhelp-20220730-3.4.noarch.rpm"
+RPM_HASH = "0d5d29f2486a600f216c5d56b4dc1f1b271ddbc9e3582a429c6d2cf1b7fb8d82e302e15eec6f162758790c04b1312d00de3b0fcc601fc0c4d40003da949dd389"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cppreference-doc-qhelp"

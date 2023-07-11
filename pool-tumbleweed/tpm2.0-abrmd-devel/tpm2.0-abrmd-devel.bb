@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "3.0.0"
 
-RPM_NAME = "tpm2.0-abrmd-devel-3.0.0-2.1.aarch64.rpm"
-RPM_HASH = "cb41df73359e93f716fa43e2aeddfe3c378a0ef79ef8ebec5998a8fea2f54fd567230d881e708901726018b6ffecb2f52fef74459de962e84ac2ba89e5581410"
+RPM_NAME = "tpm2.0-abrmd-devel-3.0.0-2.2.aarch64.rpm"
+RPM_HASH = "4def26eeb8c2fb5b35a82aa3a89855855a63f2a261fb08acde014a3dfa3ef8500243ecbd0be9769a16dc1a6386ed6a3a27a774ef37338ff30b7cb04aa1204eb0"
 
 RPROVIDES:${PN} += "pkgconfig-tss2-tcti-tabrmd \
 tpm2.0-abrmd-devel"

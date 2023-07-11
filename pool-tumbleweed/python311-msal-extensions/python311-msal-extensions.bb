@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python311-msal-extensions-1.0.0-2.1.noarch.rpm"
-RPM_HASH = "580bb554a5e4f3da5f859f44f2beb8d3b42eb795bb7c17ff4b448b3fd80ff12e74bd418b6f475ec41ee56e0af31f201e4e9214f45be7e849bde60e89a4c445e3"
+RPM_NAME = "python311-msal-extensions-1.0.0-2.3.noarch.rpm"
+RPM_HASH = "e7fe3fe444b6177ba7170b1ed8e71ff694db93577411728cf9c1f9b6ab9e083d8d2a72cf4552dd91f21f82747cc0324988bf88819bfe4e39cc57aab7a15ebbf5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-msal-extensions \
+RPROVIDES:${PN} += "python3-msal-extensions \
+python3.11dist-msal-extensions \
 python311-msal-extensions \
 python3dist-msal-extensions"
 

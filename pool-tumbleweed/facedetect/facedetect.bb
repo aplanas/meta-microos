@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.1"
 
-RPM_NAME = "facedetect-0.1-2.8.noarch.rpm"
-RPM_HASH = "0bf9c5a6b50394162c259505434a0e9e514b713f95cf5cdbf3c5c5450e8974a3a6e9953db91ff312fca0eb73d51a27539c18ae54458075fd140400f8265aaa43"
+RPM_NAME = "facedetect-0.1-3.1.noarch.rpm"
+RPM_HASH = "aabd047931d6ad010b0128aa4af7304eec0377ab0a7c5ca4dd9ac47fdf51868007f436c1b1b257c1d92e4dd84a32169e3754c43f5fa5b098f66a0ace8f561405"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "facedetect"

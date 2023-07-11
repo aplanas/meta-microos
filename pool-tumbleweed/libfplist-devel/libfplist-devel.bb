@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20220116"
 
-RPM_NAME = "libfplist-devel-20220116-3.4.aarch64.rpm"
-RPM_HASH = "6126981672b83b543fc04ce1cf8461c980a5e5a01cc42650331f18d3c1497903ac0359774e1dbe6e5c2d00bc4fdbf0fd108638fd0ed5e7a68042409f77c4c01e"
+RPM_NAME = "libfplist-devel-20220116-3.6.aarch64.rpm"
+RPM_HASH = "61de51a750cfa9242713e9cdcf77fd073555e48a19fb8de1716719254f1ec880b856f0ab06d87886fd530275011c5234d43c46156205f3f2ec0969e04b5e4390"
 
 RPROVIDES:${PN} += "libfplist-devel \
 pkgconfig-libfplist"

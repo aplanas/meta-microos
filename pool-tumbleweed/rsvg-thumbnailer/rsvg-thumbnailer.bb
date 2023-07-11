@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "2.56.1"
 
-RPM_NAME = "rsvg-thumbnailer-2.56.1-1.1.noarch.rpm"
-RPM_HASH = "9df6e7b62d0fa9fec033b5cdb36394c39b19f66e6abdd915267e218d5c55933d9dadfe55ea9959be7f35b7da246968cc7fbd5c0de3d53ce0c120061f9fd6ea6d"
+RPM_NAME = "rsvg-thumbnailer-2.56.1-3.1.noarch.rpm"
+RPM_HASH = "e3d425201826a8625b0274c9a92b2b9a6945cb7e2481b03232e6f2e3cd8b998a404df083d9a5f45546a3ebedc7df1ae0d6cf38e715601b402e281801c0fef6eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rsvg-thumbnailer"

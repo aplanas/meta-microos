@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.14.0"
 
-RPM_NAME = "libucm0-1.14.0-1.1.aarch64.rpm"
-RPM_HASH = "a630ffb7caf9dca2b370e7afaedf8ae8398ed344e4178fe2280052c1cedca7a044261e327b88a984f97fea67dbfd58bf2f8289cdd739b4ee8b51c74e7b66c7e3"
+RPM_NAME = "libucm0-1.14.0-1.2.aarch64.rpm"
+RPM_HASH = "07c1b4a41958e0e1beb72561f02f2bc79cdaa10b1f0353c6aefa0220dc2f5fc76a42a39386c04f0979418769d69c9fd5ad4a2f3d646721aeccdda8d4882a8978"
 
 RPROVIDES:${PN} += "libucm.so.0 \
 libucm0"

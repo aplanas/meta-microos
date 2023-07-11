@@ -8,11 +8,12 @@ LICENSE = "MIT"
 
 PV = "1.4"
 
-RPM_NAME = "python311-setuptools_scm_git_archive-1.4-1.1.noarch.rpm"
-RPM_HASH = "191e6c4b779da40b7ac75da51807ad86d6830d63e5f425a9ed2e061a774e01e0f62d241a1aaf3613a23139bb2b28be51fe90a01b3dab98e47c23d2419329b48d"
+RPM_NAME = "python311-setuptools_scm_git_archive-1.4-1.2.noarch.rpm"
+RPM_HASH = "b21bfcd053316ca4d8dacc56b505198ce04479eefbf12a62e39fdc4336311d29d11eef213184912b250fd7dbc56fd6f26bfc491449e0f878622f0f03141fc56a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-setuptools-scm-git-archive \
+RPROVIDES:${PN} += "python3-setuptools-scm-git-archive \
+python3.11dist-setuptools-scm-git-archive \
 python311-setuptools-scm-git-archive \
 python3dist-setuptools-scm-git-archive"
 

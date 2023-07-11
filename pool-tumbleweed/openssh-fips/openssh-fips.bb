@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains hashes that, together with the main openssh
 form the FIPS certifiable crypto module."
 LICENSE = "BSD-2-Clause & MIT"
 
-PV = "8.9p1"
+PV = "9.3p1"
 
-RPM_NAME = "openssh-fips-8.9p1-9.2.aarch64.rpm"
-RPM_HASH = "b103b5b2dcec65eb17db3562bce5ce46ed004a4a348ea0f877afd8be2ad4e2af989c7eb958f528839d1594953d5d846b1812d763b71b69d36e263bbe40d42249"
+RPM_NAME = "openssh-fips-9.3p1-1.2.aarch64.rpm"
+RPM_HASH = "521a3d53c132bf40811f0415bfc4674305f216bfde2ebcf2c2766d34bfcc0988d423a78396a36593f4f2e8b25125404b546d9e1bfdc5aba875a1ec82bc2bcab7"
 
 RPROVIDES:${PN} += "openssh-fips"
 

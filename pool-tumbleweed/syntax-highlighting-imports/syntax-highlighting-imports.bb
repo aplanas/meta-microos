@@ -2,10 +2,10 @@ SUMMARY = "QML components for syntax-highlighting"
 DESCRIPTION = "This package contains QML imports for syntax-highlighting."
 LICENSE = "LGPL-2.1-or-later & GPL-2.0-only & GPL-2.0-or-later & GPL-3.0-only & MIT & BSD-3-Clause & Artistic-1.0"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "syntax-highlighting-imports-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "2d3284131b2de1da952d3cfd644ee2238d20d9b4f9e1d11f09ca1f1c8cff1677c4cd58fafdfa1f1b1c051cbd25ff5a5e345bf3441886a65df2071289f1b55480"
+RPM_NAME = "syntax-highlighting-imports-5.107.0-1.1.aarch64.rpm"
+RPM_HASH = "006944d408637d54bc8ec04a7e43f34da4e57c820a2429bf775dfb54e23a45390391c265b11c5ecbe6f68876a5c43776bb27471bc7dd2457a499c1c8649bf616"
 
 RPROVIDES:${PN} += "libkquicksyntaxhighlightingplugin.so \
 qt5qmlimport-org.kde.syntaxhighlighting.1 \

@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0~alpha11"
 
-RPM_NAME = "plexus-component-factories-pom-1.0~alpha11-1.22.noarch.rpm"
-RPM_HASH = "5126b887868556fbb74903b12e3dd5f2495235a7ae17b4bb7c605aa26e7189366ab269abf57ded2e7b5db4af3ad34166dc1819a5c5f8b327a18ca7723278282f"
+RPM_NAME = "plexus-component-factories-pom-1.0~alpha11-1.23.noarch.rpm"
+RPM_HASH = "2f2e55edc8726054c3351bcab1c3193e052c50c813896ed763de2402ad41192ba2e4e5369368c2602676f177cc7678baf9b679430652d308d86158930c0b976b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.codehaus.plexus-plexus-component-factories-pom- \

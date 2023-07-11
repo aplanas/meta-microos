@@ -8,11 +8,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.6.1"
 
-RPM_NAME = "python311-cpplint-1.6.1-1.1.noarch.rpm"
-RPM_HASH = "347cd35dede9ffe1ae40d3e8df7dd66c6edb55d0115fb15827504604271dc73080d1f997a2701b656458da3ef9649d312b171aa2cb43e94fb7552d7c96669796"
+RPM_NAME = "python311-cpplint-1.6.1-1.3.noarch.rpm"
+RPM_HASH = "cdb36eab6406316486f4130c22ea66af8a5f31314ebdfab694fd953e86effaa1e78c420366169b7b0e4af121c2c198af5f4278920b6132734514c26dc11f1e06"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-cpplint \
+RPROVIDES:${PN} += "python3-cpplint \
+python3.11dist-cpplint \
 python311-cpplint \
 python3dist-cpplint"
 

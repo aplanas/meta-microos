@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "3.0"
 
-RPM_NAME = "libcxxtools-xmlrpc10-3.0-4.5.aarch64.rpm"
-RPM_HASH = "67b386115176c45fd6148b89dec71df55dfbe19265f53e2e4bdef20964132afb069dc459cb11a20d46919df08a190b585208d238b6f735a8576a7883cbd85b19"
+RPM_NAME = "libcxxtools-xmlrpc10-3.0-4.6.aarch64.rpm"
+RPM_HASH = "d22756783becf39822f90f812b902d8f4191c9d4b7c1ee45e276012f7f11bc2ba8d3e6188eb411875b6533164c1e0fa9a5292bba26d842e1136fbdddd0850124"
 
 RPROVIDES:${PN} += "libcxxtools-xmlrpc.so.10 \
 libcxxtools-xmlrpc10"

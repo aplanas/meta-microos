@@ -2,10 +2,10 @@ SUMMARY = "IPMI node detection monitoring daemon"
 DESCRIPTION = "This service detects and monitors IPMI nodes."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.6.10"
+PV = "1.6.11"
 
-RPM_NAME = "freeipmi-ipmidetectd-1.6.10-1.3.aarch64.rpm"
-RPM_HASH = "533cbe6d44e185945005f1f844b2e03693a3703da9ed585d92b717b2c4309dd55a898068f0111a910c26ff0ab7423477930286035a2ebd98eec2413f0dcef17a"
+RPM_NAME = "freeipmi-ipmidetectd-1.6.11-1.1.aarch64.rpm"
+RPM_HASH = "ec5563d0fcae2a99bf04dcb8c6ec2d5bb4860321a3c166856f92ad8ce6a93e9f8e9002a4b5bafeb909f92b528ce980b64766b0fdfa95001df9d27fe6b531f88e"
 
 RPROVIDES:${PN} += "config-freeipmi-ipmidetectd \
 freeipmi-ipmidetectd"

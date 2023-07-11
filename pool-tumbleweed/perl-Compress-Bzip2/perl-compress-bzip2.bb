@@ -19,8 +19,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.28"
 
-RPM_NAME = "perl-Compress-Bzip2-2.28-1.16.aarch64.rpm"
-RPM_HASH = "5f12fa40123e41951145c53802fdc439284099a31a997bedb0182917ad04849f8ea79eecda42b96970c1d557c0724815e1e90e2484625d164d47f7b7d9ba0d4c"
+RPM_NAME = "perl-Compress-Bzip2-2.28-1.17.aarch64.rpm"
+RPM_HASH = "dd8dab985e38d310d02e18c128d86fb23be522ef114c8bc88c3ea64f2f043390b2ee62cffc7669d355473cedfd343701abf9ed43ed0003d6823a2f320bfcdab7"
 
 RPROVIDES:${PN} += "perl-Compress--Bzip2 \
 perl-Compress-Bzip2"
@@ -29,6 +29,6 @@ RDEPENDS:${PN} += "bzip2 \
 ld-linux-aarch64.so.1 \
 libbz2.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

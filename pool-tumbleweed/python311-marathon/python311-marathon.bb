@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.13.0"
 
-RPM_NAME = "python311-marathon-0.13.0-2.6.noarch.rpm"
-RPM_HASH = "4c883707b42f4c05cd8021b7063ef849db556c7aaf2661416a6b68abf47689fadd852b872ca3b43ae86f575f9e1acf7d1b18be07563931733104345a3234b0c2"
+RPM_NAME = "python311-marathon-0.13.0-2.8.noarch.rpm"
+RPM_HASH = "e965c80687bebb7c314336d312fd7c287ebce19942fd71f34d70c2c30b1cff53bd0bf735736c1ebe4f891b55bc906976883b89b3916571ca9ec5f39869843b80"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-marathon \
+RPROVIDES:${PN} += "python3-marathon \
+python3.11dist-marathon \
 python311-marathon \
 python3dist-marathon"
 

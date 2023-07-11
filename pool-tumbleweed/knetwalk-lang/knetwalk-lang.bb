@@ -2,10 +2,10 @@ SUMMARY = "Translations for package knetwalk"
 DESCRIPTION = "Provides translations for the 'knetwalk' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "knetwalk-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "e340299eadd3944e0395a53e19945f01ac18bbc677e611850811fdac699c03b628782143c4a4e27b8a243fd87080b3b89fe8ba007b7ac8f517cea8e62c12bddf"
+RPM_NAME = "knetwalk-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "ff3e9ce59fe3b01f9601ed0aabdd207e5bfc482316f2be12e1ec71e3a22b24f17f418dfbf1d482e742b9a51198dd32cb66347e9fffbe54d4cdf2cec1262c6682"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "knetwalk-lang \

@@ -2,10 +2,10 @@ SUMMARY = "Development files for the Qt 5 Core 3D library"
 DESCRIPTION = "Development files for the Qt 5 Core 3D library."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libQt53DCore-devel-5.15.9+kde0-1.1.aarch64.rpm"
-RPM_HASH = "0868f1b8789240d5080fe0c0da3dc15680d3f16e2b38d40828afcf63c49c0bd938ebb2d8fea6ca47d8ddc9d5a023b742f9a8050473f7abb8346279bdd77eebcb"
+RPM_NAME = "libQt53DCore-devel-5.15.10+kde0-1.1.aarch64.rpm"
+RPM_HASH = "2cd8b86291a2c6aff7f86a8a21a3b72133e0d85e67ba1096a5b3241a1c4ce7a949a3eb584846056a3ac81ae5d23d58d071620094dbd4cd3699b453c74b66c0fa"
 
 RPROVIDES:${PN} += "cmake-Qt53DCore \
 libQt53DCore-devel \

@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "2.28"
 
-RPM_NAME = "libblockdev2-2.28-1.4.aarch64.rpm"
-RPM_HASH = "f9cec9e113baffe26154f008dd9deb3d9c4d70720454bd646cd7f67e1ebe115daaee7a1cac0ee9984a8dc50f333d1d6f97828d8fe3353c346cbef5327d702f67"
+RPM_NAME = "libblockdev2-2.28-1.6.aarch64.rpm"
+RPM_HASH = "ad40c6b7135d5ed8cbd22927fc0198863d7abf58745ceeacc64d1e3a9a5e2735b787b6601e0cb4d69dba4212407d13984911e7649062fdb9fd41112aaab53464"
 
 RPROVIDES:${PN} += "libblockdev.so.2 \
 libblockdev2"

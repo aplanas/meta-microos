@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "gnome-shell-search-provider-gnome-calculator-44.0-1.1.aarch64.rpm"
-RPM_HASH = "83302914555699d5dfd3f087060379173c78b45de143b1df0c07f109771cffb55c96bfa0df89412486b91b9acce2fbcf3cb2489eeec9d680d6b08ba5018ee777"
+RPM_NAME = "gnome-shell-search-provider-gnome-calculator-44.0-1.2.aarch64.rpm"
+RPM_HASH = "8adb1dbdcfd5836098a8070664ee2967692938482dda4b2e846e1a925b1cf3134e91ca7e6fc845bab5e94e0b597bb5cba6d320efc24d15cb3819ec1f158fdec3"
 
 RPROVIDES:${PN} += "gnome-shell-search-provider-gnome-calculator"
 

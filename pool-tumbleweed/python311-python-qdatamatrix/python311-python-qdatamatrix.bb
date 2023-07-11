@@ -5,11 +5,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.1.31"
 
-RPM_NAME = "python311-python-qdatamatrix-0.1.31-1.7.noarch.rpm"
-RPM_HASH = "db86428465f089775359557c86563d9a4e76ee2c62e1d8d35b1a7087d3ea5d078d5c17bb4d83571d07766cd8fa8d9fdf57658dd4318c95fe4c370facfc84793f"
+RPM_NAME = "python311-python-qdatamatrix-0.1.31-1.9.noarch.rpm"
+RPM_HASH = "2e947b6018e58630eb61b472e5c1fd36f0b9195b9bf23a7e178ff8869c5f50ca89cec6b77695063dd16362c0b7642c8a8c90afa6716a5587b0b341f35acc40aa"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-python-qdatamatrix \
+RPROVIDES:${PN} += "python3-python-qdatamatrix \
+python3.11dist-python-qdatamatrix \
 python311-python-qdatamatrix \
 python3dist-python-qdatamatrix"
 

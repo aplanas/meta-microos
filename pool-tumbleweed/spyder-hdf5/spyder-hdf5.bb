@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "5.4.3"
 
-RPM_NAME = "spyder-hdf5-5.4.3-1.1.noarch.rpm"
-RPM_HASH = "dae370844c777980c257b4cbadd777337c6f07eac63039299990e6ef367a577f7365b8b42d84e6f79bdd8a1cdb808f42131dc65bc04ecd7d3ba0bd968fbc3e36"
+RPM_NAME = "spyder-hdf5-5.4.3-1.2.noarch.rpm"
+RPM_HASH = "a7cb783a96a5c5654a50c3b5eff1546bf62d7f832bb93123a049973669418c6c90fad827216593740923c757bedac3cc601151141ea0a6ea8d6b353c8773eeeb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "spyder-hdf5 \

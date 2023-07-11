@@ -15,8 +15,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.3.6"
 
-RPM_NAME = "jpnevulator-2.3.6-1.11.aarch64.rpm"
-RPM_HASH = "35b905ddb2bc420bb7cddf4e15de7f26153dea11c36c316a592fd48c444aeeea7caf1fcba80efb3d079b8b302580b7d57c7447108ad6ae08d08e940e4174f419"
+RPM_NAME = "jpnevulator-2.3.6-1.12.aarch64.rpm"
+RPM_HASH = "86a49aafcf850822dcc44d16e0018518a6329d1884b73aa5cc424aff18686ceedaefa67fa21a24afd070ee54b791f5ab972e1ae1acf294aef6b5903f7e483b36"
 
 RPROVIDES:${PN} += "jpnevulator"
 

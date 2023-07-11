@@ -4,10 +4,10 @@ majority of pieces on the board. This is done by tactically placing \
 ones pieces to turn over the opponents pieces."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kreversi-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "3c1b3f850ad0f1ee721c61f1e5f820cf2c64ab91b442b067f18430e6a0a47f933dcc1a7ed198cd20dbd5db410d212b2c159bb3b64f3a52e96f2f8291039ce7d7"
+RPM_NAME = "kreversi-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "9e8d7049827518fb1f7ee9042665b19156a6661480c28f571099795a6641b6efac90648300e75b6354a997f591a53fb4422bde85048e8e8d3f3e2c407ffb3980"
 
 RPROVIDES:${PN} += "kreversi \
 kreversi5"

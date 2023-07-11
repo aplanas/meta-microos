@@ -14,8 +14,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.5.2"
 
-RPM_NAME = "ghc-vector-binary-instances-0.2.5.2-5.2.aarch64.rpm"
-RPM_HASH = "0975770db53ef354937b379683d28bc171215b414ace4ca2bfb9c58e7ca565b3ad1432f78060047c8962ff9565bbca777c54c74635b53697c184b6cb04dab4ef"
+RPM_NAME = "ghc-vector-binary-instances-0.2.5.2-6.1.aarch64.rpm"
+RPM_HASH = "c8dbd3e4e4817cf3760cf6ed4eef9965a98fc89d2237f988baab82f923c2a005badb6463d63f5999db2bbafe36ad9b59ea95d4e3f47329c35d7120b011ef1b4b"
 
 RPROVIDES:${PN} += "ghc-vector-binary-instances \
 libHSvector-binary-instances-0.2.5.2-KcST7aCBDJmuBtN6ufmU8-ghc9.4.5.so"

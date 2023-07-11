@@ -5,8 +5,8 @@ LICENSE = "Artistic-1.0 & BSD-3-Clause"
 
 PV = "1.32.0"
 
-RPM_NAME = "ldc-runtime-devel-1.32.0-1.1.aarch64.rpm"
-RPM_HASH = "61e44ca3ffb078ea1e96a1b83354dbd8acf0ff2433d5facda7ef8506b281285b968a67bed81430fdbb8ace06bd0e7d640f057cefd5d9d12e40d48be077402a63"
+RPM_NAME = "ldc-runtime-devel-1.32.0-1.2.aarch64.rpm"
+RPM_HASH = "f50e514c7d03ce632176593783d807d75e21e817e7078048eb3dfa5abd01ca17a6a9e56da4c215f105fdb7f890d6003694531a9d29369e6c5d485378493c87ff"
 
 RPROVIDES:${PN} += "ldc-runtime-devel"
 

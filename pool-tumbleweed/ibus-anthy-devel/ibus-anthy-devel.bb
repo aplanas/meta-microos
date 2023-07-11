@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.5.14"
 
-RPM_NAME = "ibus-anthy-devel-1.5.14-1.6.aarch64.rpm"
-RPM_HASH = "ca489495ad09da816af8877fb2cad161f27c539c96b8311fe2db21c60ca8061efb00f210ccb6cfc4ef1dc7a9d77e6486365f936b0992d422605261695edf90d0"
+RPM_NAME = "ibus-anthy-devel-1.5.14-1.7.aarch64.rpm"
+RPM_HASH = "bc26e2bd75a1ce11809a28a3548a408bb6f706b1265fd4de6a88874e585991f1dbe1a2005e8318e2a4ee06578887cfae7c38f0b0e448fc56cf22d79009af49f6"
 
 RPROVIDES:${PN} += "ibus-anthy-devel"
 

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.9.4"
 
-RPM_NAME = "ghc-skein-devel-1.0.9.4-4.2.aarch64.rpm"
-RPM_HASH = "d5f9e5086a1568ecba2e073922bd56d8563047f80aa87f64f0b2169a8c860ce622dc81913d5248332530cbdbe1383ca38d6358618db46bf83eeec636b2277cce"
+RPM_NAME = "ghc-skein-devel-1.0.9.4-4.3.aarch64.rpm"
+RPM_HASH = "369d156591a30d9bcb66ca9a74df8e43715dbb100da7234b9cd7e40abd7c6b6ffe1a3f21c31d8e6329892dbfdf7319de593e062cd066eb7b9f400e3a990f0ca1"
 
 RPROVIDES:${PN} += "ghc-devel-skein-1.0.9.4-C8WZ6GadOdNJdCjx57swFO \
 ghc-skein-devel"

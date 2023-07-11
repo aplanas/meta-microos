@@ -9,11 +9,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "6.2.9"
 
-RPM_NAME = "python310-bsddb3-devel-6.2.9-1.13.aarch64.rpm"
-RPM_HASH = "f806f1247c48fc92a1b09950face4350cb656483052404e49aeba2504ad53aae99413627891fa310d8714c92cd1fd0e4868f20dc942e67d4e404fc68428f3fda"
+RPM_NAME = "python310-bsddb3-devel-6.2.9-1.14.aarch64.rpm"
+RPM_HASH = "d581040e93df3dcdbf0cf11be1d6bff8236fe73de70d863cf2f1af5542ceec42d8ae5151b05e64518a7188ed1ec601a576f38c9ab497adf95c3146298a8ab6b4"
 
-RPROVIDES:${PN} += "python3-bsddb3-devel \
-python310-bsddb3-devel"
+RPROVIDES:${PN} += "python310-bsddb3-devel"
 
 RDEPENDS:${PN} += "python310-bsddb3"
 

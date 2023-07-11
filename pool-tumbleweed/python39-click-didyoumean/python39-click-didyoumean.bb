@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.0.3"
 
-RPM_NAME = "python39-click-didyoumean-0.0.3-4.12.noarch.rpm"
-RPM_HASH = "f677a7e696846b315046560812e99c141fdb20da1e8234def6e819ac699a38d7f678e9cd1d45ba413ae85e8c95f53809fb79ebf3eaae307d69a091bdc506e403"
+RPM_NAME = "python39-click-didyoumean-0.0.3-5.3.noarch.rpm"
+RPM_HASH = "ed6d71d40b62f78ea52bba8bdf3d8c53d59601df6b3e8853f84996a42dcc7c90b3a64c9899facf5b973454312ac8fb35b40c66e46703798b111fdfa86e8213f7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-click-didyoumean \

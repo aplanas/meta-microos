@@ -2,10 +2,10 @@ SUMMARY = "Libraries for LLVM"
 DESCRIPTION = "This package contains the shared libraries needed for LLVM."
 LICENSE = "Apache-2.0-with-LLVM-exception & NCSA"
 
-PV = "16.0.4"
+PV = "16.0.6"
 
-RPM_NAME = "libLLVM16-16.0.4-1.1.aarch64.rpm"
-RPM_HASH = "89f0fb6d990eff839d185a07c1262a3927ed468332207ac28464a635f6649da512d76f14ebaa827f353b7d73b73b3dbf2792fa494398a21c0282bc5d072074ef"
+RPM_NAME = "libLLVM16-16.0.6-1.1.aarch64.rpm"
+RPM_HASH = "54b716e8020089b0c7a1a6dc2c727e4fb1c2005fccb0884214a174c0e30e63e5cd3f3a9879f39b66de1fdc4b24d0e56571099d059d2860b25c45aa747d65f7cb"
 
 RPROVIDES:${PN} += "libLLVM.so.16 \
 libLLVM16 \

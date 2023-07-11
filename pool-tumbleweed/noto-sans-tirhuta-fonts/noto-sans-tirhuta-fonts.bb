@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-tirhuta-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "001dcfd74b55d21dbfe378ba9e2dd82b315d9c741ee4bf3947d0bfe42985530f38d0d8b5dc026f95966667ef9e5e412f241647976ff8ac579db659d8ebd215f2"
+RPM_NAME = "noto-sans-tirhuta-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "c9f7b7de53073355b0ea7bc391d1040c017a07216712fce8fdfb4065fc9d1459539e8be0edc7db73fac5bf032868b9f6ae792180fd2cfb98b0cdee6db1c55268"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-tirhuta \

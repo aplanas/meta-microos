@@ -19,8 +19,8 @@ LICENSE = "OLDAP-2.8"
 
 PV = "1.4.1"
 
-RPM_NAME = "python39-lmdb-1.4.1-1.1.aarch64.rpm"
-RPM_HASH = "68bd933b4f304576987a80286fbbbbfee36e2c61b9808b5fc6cf4fb08eb3ea5fc16d997b3d3b73c969772f16af3686e0e989227fdfca7f7bddc638e0b0ed23d8"
+RPM_NAME = "python39-lmdb-1.4.1-1.3.aarch64.rpm"
+RPM_HASH = "91b1cdc09e9552a219ec862f021462a4a6681df3cb381b2c56886cd415da256ddc4eca5fb90ba5b1649a8c8c1ab9e74eb780319e0e7d812081374401379ce10c"
 
 RPROVIDES:${PN} += "python3.9dist-lmdb \
 python39-lmdb \

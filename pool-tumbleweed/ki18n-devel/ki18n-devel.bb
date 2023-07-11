@@ -6,10 +6,10 @@ and translators can use the familiar Gettext tools and workflows. \
 Development files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "ki18n-devel-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "1efd2ccd8b4bad245d2050891848d5b29125dc5be90bcb563b2336c22d9dace11ea25e3f7e71178ec749f1bb865dcf1e325cee5b4600a79ff6a58b0685fe0fc5"
+RPM_NAME = "ki18n-devel-5.107.0-1.3.aarch64.rpm"
+RPM_HASH = "37c2391cc40f9caa4bd27d5465b4b678b196346622f12142d28fee1fd3d327026d7e030a96856f4082a7b8cefa46a88ffbeaa8275b3ab3cad37d6b12f6fa9c9e"
 
 RPROVIDES:${PN} += "cmake-KF5I18n \
 ki18n-devel"

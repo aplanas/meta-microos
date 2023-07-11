@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.14.4"
 
-RPM_NAME = "libflatpak0-1.14.4-1.2.aarch64.rpm"
-RPM_HASH = "b6c36fc80f94004529c7d77e5810c7b98407046e40393177216788f496bfc84b5db98b73f801ec60b7d7a0a535d3fc62bed78f9b801aac1414b70a9966a2f02a"
+RPM_NAME = "libflatpak0-1.14.4-1.3.aarch64.rpm"
+RPM_HASH = "a1dc1c3b14ae40206c176a1c9a1299e3accc7ca073296bcb2b48cd83a7c30671d60384fca264886aa092f912a9adbb966cf6413917c44c91ec23481524f58edb"
 
 RPROVIDES:${PN} += "libflatpak.so.0 \
 libflatpak0"

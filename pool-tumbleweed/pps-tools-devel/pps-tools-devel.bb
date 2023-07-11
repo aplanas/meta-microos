@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.0.0+git.20211122"
 
-RPM_NAME = "pps-tools-devel-0.0.0+git.20211122-1.2.aarch64.rpm"
-RPM_HASH = "80875cf090d3dd43c95454ebab511b06a8f668523bd60821d9708c6a0c3a2f081f14d88094a5a7690d5edc4913b1bb4a72da9df5248c5fec0c63fc9b6fd85d12"
+RPM_NAME = "pps-tools-devel-0.0.0+git.20211122-1.3.aarch64.rpm"
+RPM_HASH = "62b05b4724f411297059758b090fea63fa7bc7335b979af377af921551a3b46cab7effb0f905f642c8841dcedd9af3bad5d83d60f6685ac735f41d2cbfc89f16"
 
 RPROVIDES:${PN} += "pps-tools-devel"
 

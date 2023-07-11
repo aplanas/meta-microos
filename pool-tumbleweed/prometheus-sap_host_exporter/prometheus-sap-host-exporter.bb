@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.6.0+git.1685628435.48c4099"
 
-RPM_NAME = "prometheus-sap_host_exporter-0.6.0+git.1685628435.48c4099-1.1.aarch64.rpm"
-RPM_HASH = "5d93c1ace8d3633fcad94def838dd9f3de30c9973fae74bdfe54ecefc393a676deaa9029d0d24d06510c196f676ce723f83f7e5bd81a5ce6e093332df94d6f09"
+RPM_NAME = "prometheus-sap_host_exporter-0.6.0+git.1685628435.48c4099-1.2.aarch64.rpm"
+RPM_HASH = "7394836407252464de2d2a7918cb92e593e5a73979d3b4937bb3aca47f40311183e3bddd5aad8a210ef4f70b4b8c33ea7cd61da548c9d21c35dbb65bad086888"
 
 RPROVIDES:${PN} += "config-prometheus-sap-host-exporter \
 prometheus-sap-host-exporter \

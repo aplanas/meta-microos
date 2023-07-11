@@ -2,10 +2,10 @@ SUMMARY = "Emoji input method for IBus framework"
 DESCRIPTION = "ibus-table-emoji provides Emoji input method on IBus Table under IBus framework."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.3.13"
+PV = "1.3.16"
 
-RPM_NAME = "ibus-table-emoji-1.3.13-2.3.noarch.rpm"
-RPM_HASH = "4395775c84b0f7e826bca94ebd2ef474e02e11820bd1c98c53ff6a31f87dd4a0e8dcc6af6e250063b65b54b1e24bbf734ed2382f7201ce93719afc599a4eef8d"
+RPM_NAME = "ibus-table-emoji-1.3.16-1.1.noarch.rpm"
+RPM_HASH = "8d4aee320ed95b0c42ec1849b286a258ffc18f0c1ecc35f4caf6701bb783dcb0e246ce19b4b09975790ef16cfb62673510d72d7dceb4b7f50a92c0925a25aa01"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ibus-table-emoji"

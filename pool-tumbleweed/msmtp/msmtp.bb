@@ -4,10 +4,10 @@ other mail user agents.  It forwards mail to an SMTP server that does \
 the delivery.  msmtp supports multiple accounts."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.8.23"
+PV = "1.8.24"
 
-RPM_NAME = "msmtp-1.8.23-1.3.aarch64.rpm"
-RPM_HASH = "d183db8f5311efb766c33fd1456fd3b469e1a97d6f1c22c21cdc22eb1877d2464843bc66b0fc58e2608ab8d0bc619a9591848fc6d4f784925dfb0879720f866f"
+RPM_NAME = "msmtp-1.8.24-1.1.aarch64.rpm"
+RPM_HASH = "ce71ab1fc177cd0a3f7d804d5dd7e1b329c77a2719996b85b888e678095037aa51478358daf5e099e652f5a9b5ade730be07de0dcb9697e8d54603fa8062fc57"
 
 RPROVIDES:${PN} += "msmtp"
 

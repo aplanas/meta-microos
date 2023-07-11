@@ -2,10 +2,10 @@ SUMMARY = "Development files for the Qt5's Webview library"
 DESCRIPTION = "You need this package if you want to compile programs with QtWebView."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libqt5-qtwebview-devel-5.15.9+kde0-1.1.aarch64.rpm"
-RPM_HASH = "b8cdd7287b6b4daa03f55ef0bb0f48f4b0904bbde395ff9dbc35ac9b1110864694c59cc6200b0fe92ddfb5adba89ba57acc7cf012547e5f2ff5e1f741a1228fe"
+RPM_NAME = "libqt5-qtwebview-devel-5.15.10+kde0-1.1.aarch64.rpm"
+RPM_HASH = "2676ca14455065f7ef157e1a0a8414876bdff5a493ede26aeb111a2e17871a5b024b1fa892c25634db9ca81af736d813ab943ab9479fcf05519a3e642be6132c"
 
 RPROVIDES:${PN} += "cmake-Qt5WebView \
 libqt5-qtwebview-devel \

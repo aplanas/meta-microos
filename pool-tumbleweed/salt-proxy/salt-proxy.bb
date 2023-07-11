@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3006.0"
 
-RPM_NAME = "salt-proxy-3006.0-1.1.aarch64.rpm"
-RPM_HASH = "82ceafa0fef55b4573e0ebf350b8b9aa4bccd60a641b39d2d09e4e3d928319a6ed77f5a62eec58f9aa7a416f2b8dc4b5d94fb2ceb2df933d1d6c32c731a5a941"
+RPM_NAME = "salt-proxy-3006.0-1.4.aarch64.rpm"
+RPM_HASH = "6b76e38c6ea40c80cc22a7870b70725b13094689250d4d5bffd25e05d509a98e92860f3e71b4c6e3851205541c64540e30ee8683b5651876acb61517e847a37d"
 
 RPROVIDES:${PN} += "salt-proxy"
 

@@ -5,8 +5,8 @@ LICENSE = "EPL-2.0"
 
 PV = "5.8.2"
 
-RPM_NAME = "junit5-bom-5.8.2-1.9.noarch.rpm"
-RPM_HASH = "1fa331d2f60127bd4efe3babb819e889a0c7d3231b98739ca1f27612d06d5c1c5e6e2465d6b61f3e417380ad3277058c8cb55ceffa6050f599fd52a5b00c1642"
+RPM_NAME = "junit5-bom-5.8.2-1.10.noarch.rpm"
+RPM_HASH = "6773dda6bc87b2afaadcdc7916f5a352b74f8500d1d3dc9a763283033c79c98dceda2a81f2c2b63b40da0669020f38490adfac9a57d6cdc6da010fafa4b51777"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "junit5-bom \

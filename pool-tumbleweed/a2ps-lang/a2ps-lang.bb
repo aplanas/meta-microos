@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.15"
 
-RPM_NAME = "a2ps-lang-4.15-1.3.noarch.rpm"
-RPM_HASH = "9dd73a92ef4d91cd651e34fb740a44fe1a99fa1e1cff3b515adb39a1f53dc5417e8ba504b0452051b6479def4332409ed1dbb55c051d67ba0eaf94f8b7badb85"
+RPM_NAME = "a2ps-lang-4.15-1.4.noarch.rpm"
+RPM_HASH = "09c8f0895508ffba3898b53c67fd7e2036e865d2af96b88ced62d4dbb2edd9b3aaa07749a61dd39cde6e5b8c243b123ea40b46772d02c9e7071166ab4dd10349"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "a2ps-lang \

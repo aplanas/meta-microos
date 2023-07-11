@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.1.2"
 
-RPM_NAME = "maven-dependency-plugin-3.1.2-1.17.noarch.rpm"
-RPM_HASH = "2e55cb6c8d1a0c81b00f797f9c750af341644312570f37a1b2f2e49409acaf4001dd07f414f8feddc3e5549c8592dd8e2535e8b1312cd5e9a9e777daf2aefb48"
+RPM_NAME = "maven-dependency-plugin-3.1.2-1.18.noarch.rpm"
+RPM_HASH = "507a3fa522c0f849290baf4b77d4ea7d7f49832649e1797f330e6353f486367f5fb1d96bf7cdb8b1e0d448c9fcb484aff43880e01a1a7c8879aa2e825bb86a17"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-dependency-plugin \

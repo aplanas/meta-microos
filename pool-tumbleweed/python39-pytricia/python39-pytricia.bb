@@ -6,8 +6,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.0.2"
 
-RPM_NAME = "python39-pytricia-1.0.2-3.12.aarch64.rpm"
-RPM_HASH = "7c74c2b7ae08e4d88b71f32fa447b4a97136e8bf6b562afc299f474a322c1795d77996551505f432025dabdec87ac4213aec2a4663a31a7d15d7ad665bc311cf"
+RPM_NAME = "python39-pytricia-1.0.2-3.14.aarch64.rpm"
+RPM_HASH = "27bed35d625637692000c6cc455a9764c47793bedf7feda589078fc512d3efbbb0d5db69e8cb3d2bd438324b483cf5bee3e7cb40c731244bfb39e09eed976e09"
 
 RPROVIDES:${PN} += "python3.9dist-pytricia \
 python39-pytricia \

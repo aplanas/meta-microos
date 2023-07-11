@@ -6,12 +6,12 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "10.2.0"
 
-RPM_NAME = "asciidoc-10.2.0-1.4.noarch.rpm"
-RPM_HASH = "24953cb3f23dad5aa27c0c1571b81229626136f7093c1cf827e926268b15a5f081f93846e21dab9b313cf566072ca0a2d62d4204d0013a4a1e8ffe83ecf70e70"
+RPM_NAME = "asciidoc-10.2.0-1.5.noarch.rpm"
+RPM_HASH = "d1f0929c705ec2e822dce7ffb15721d8793d3bb8d384094f0ed05c661d63ad575c89fbbda2fa2fc237a6f68e5a21741a05addd968a5f579b76ce5714cdc806ce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "asciidoc \
-python3.10dist-asciidoc \
+python3.11dist-asciidoc \
 python3dist-asciidoc"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

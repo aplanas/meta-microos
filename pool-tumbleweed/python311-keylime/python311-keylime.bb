@@ -3,13 +3,14 @@ DESCRIPTION = "Keylime is a TPM based highly scalable remote boot attestation \
 and runtime integrity measurement solution."
 LICENSE = "Apache-2.0 & MIT"
 
-PV = "7.0.0"
+PV = "7.2.5"
 
-RPM_NAME = "python311-keylime-7.0.0-2.1.noarch.rpm"
-RPM_HASH = "64296578fbdcc3b1480bf12151c26a0d6ffe9b34c98fd23d04fd8d79ea3a3309f75203538e72d0588111ead37b80f54630a81711e986099578de9446eda1010b"
+RPM_NAME = "python311-keylime-7.2.5-1.3.noarch.rpm"
+RPM_HASH = "2b2155368c6e7afc019e6830bee919a0ff4f345c56d0f2ec709b9316704379b99e86dc417a66fc505c92c2862c1b221427fde52a3bb322b135f50f8a365ac6ff"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-keylime \
+RPROVIDES:${PN} += "python3-keylime \
+python3.11dist-keylime \
 python311-keylime \
 python3dist-keylime"
 

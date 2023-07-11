@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.6.3"
 
-RPM_NAME = "scitokens-cpp-devel-0.6.3-2.1.aarch64.rpm"
-RPM_HASH = "880f177ccfd29af95ccc8e6eb0131c168f227afccdadb43a42144f3d31275f750d79233f2f8a89b5696ea65f992a5e4b72845fdc140d3424ba7e955417032155"
+RPM_NAME = "scitokens-cpp-devel-0.6.3-2.2.aarch64.rpm"
+RPM_HASH = "a1cd5106acc3cea9119e48200bee66257bba6af3a4010fbb55e9ca1ecbc048de54526c80c66cf44f8f683d9aa61bbde143f575bebeb575fa23f23aabffd7f3f1"
 
 RPROVIDES:${PN} += "scitokens-cpp-devel"
 

@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "10.0.0"
 
-RPM_NAME = "python310-azure-mgmt-netapp-10.0.0-1.1.noarch.rpm"
-RPM_HASH = "34d13a6b2d48a0a68b5664af72c6917ab3b88b288b2efb19cc650236099b542422ebbeb7a480133ef790cdff93d4c9b87c27adf7890ed867b43dbce403d4d6f3"
+RPM_NAME = "python310-azure-mgmt-netapp-10.0.0-1.2.noarch.rpm"
+RPM_HASH = "2a17d1f8db21e5478aac419826fb60931cec1e806f7bffb63fb60ad56a31fff97407b74ce13f0a6ca35f2492eb3f583afc0bf1304527c8f80c955d930e2e6e9b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-netapp \
-python3.10dist-azure-mgmt-netapp \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-netapp \
 python310-azure-mgmt-netapp \
 python3dist-azure-mgmt-netapp"
 

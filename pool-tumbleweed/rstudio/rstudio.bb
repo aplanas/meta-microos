@@ -2,10 +2,10 @@ SUMMARY = "RStudio base package"
 DESCRIPTION = "This package provides the common files of RStudio Desktop and RStudio server."
 LICENSE = "AGPL-3.0-only & Apache-2.0 & MPL-1.1 & LGPL-2.1-or-later & GPL-2.0-only & MIT & W3C-20150513 & BSD-3-Clause & (BSL-1.0 | MIT) & GPL-3.0-only & ISC & OFL-1.1 & Zlib & NPL-1.1 & CC-BY-4.0 & EPL-1.0"
 
-PV = "2023.03.0+386"
+PV = "2023.06.0+421"
 
-RPM_NAME = "rstudio-2023.03.0+386-1.2.aarch64.rpm"
-RPM_HASH = "da82155010e351dc3caa13a944635cfc4ce951306b7fd805000250c1908c804609bbc369bb99f76020c9917b573ee08d095c49a5ace7fd22da5c0559b6868fdd"
+RPM_NAME = "rstudio-2023.06.0+421-1.1.aarch64.rpm"
+RPM_HASH = "15802c1807d5159f807edf17b3b7c6ab167c9d9388358d96d59a10cbdd21b686b7bff5b7d1c77fcc6bbba510421d1ccf46f8aee562a248c94061c488135e835f"
 
 RPROVIDES:${PN} += "bundled-ace.js \
 bundled-aopalliance \

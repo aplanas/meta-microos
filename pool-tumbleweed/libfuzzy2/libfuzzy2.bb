@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0 & GPL-2.0+"
 
 PV = "2.14.1"
 
-RPM_NAME = "libfuzzy2-2.14.1-1.23.aarch64.rpm"
-RPM_HASH = "88537e967dff5ff77ff810d06a3499cd357a9b3b8a293f92eba6dfc74d430381a1ebd1eaf612c504030d4b150ed35b0062222960f7ab71a368bd0984e3aa8a37"
+RPM_NAME = "libfuzzy2-2.14.1-1.24.aarch64.rpm"
+RPM_HASH = "646c687efc773923649a57d32d22f65d58f98c1c8921a3270dd188026f7520cc31cf0c622aacda67019209c2b4ac03abd02cd5ce61f87afa0a9ecf4ed7de900c"
 
 RPROVIDES:${PN} += "libfuzzy.so.2 \
 libfuzzy2"

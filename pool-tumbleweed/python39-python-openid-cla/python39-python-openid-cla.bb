@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2"
 
-RPM_NAME = "python39-python-openid-cla-1.2-1.18.noarch.rpm"
-RPM_HASH = "b40e8a3e7dab3e19b230c04163c8b898e2cd286f82cdb3ab33259c40bbd05e76de2c43b6ed022b8315f5f4605fe9a9d544c6c85dd64912465e95ab79ef031bc1"
+RPM_NAME = "python39-python-openid-cla-1.2-1.19.noarch.rpm"
+RPM_HASH = "f356e75da3334a52985ca047de8a746af4756b2dfff2c319157f901644a5f2626dca336e901577348854e612fcd77c28133e030dc3a4bc5b4146235b3d60f3a1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-python-openid-cla \

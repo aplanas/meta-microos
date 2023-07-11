@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0"
 
 PV = "5.5.25"
 
-RPM_NAME = "dtkgui-5.5.25-1.7.aarch64.rpm"
-RPM_HASH = "67d2866ebacaa2a2ca6ddb4d2c19f7326543b600228a3af580b71ba42ea660381c02ecf853cf23b266fb05004b279c455c22fd807680161a5b2e50feb4671fdc"
+RPM_NAME = "dtkgui-5.5.25-1.9.aarch64.rpm"
+RPM_HASH = "7bfbbb0d22a76f9b8e0804b8428cca0e6ef4d10dbdbef31a7bf0d2ebbe08d48c66c83bfef4a4d2570e32b4fee47eca9351c106cd0ddcc1edf233512efde310a6"
 
 RPROVIDES:${PN} += "dtkgui"
 

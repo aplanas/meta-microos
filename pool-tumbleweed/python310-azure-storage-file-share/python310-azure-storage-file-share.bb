@@ -16,12 +16,11 @@ LICENSE = "MIT"
 
 PV = "12.12.0"
 
-RPM_NAME = "python310-azure-storage-file-share-12.12.0-1.2.noarch.rpm"
-RPM_HASH = "3ffef3d30143682a120b77cd09a645c3b41093287167b94441dbed7d065a0c6660ae558a12e9b38aa5c60f8c24953c06feacec026b9c15c3e462f75e907d28a1"
+RPM_NAME = "python310-azure-storage-file-share-12.12.0-1.4.noarch.rpm"
+RPM_HASH = "10633ed1cc7735a74da02ba38fa07c98b70b9e6f795dc816bb10e5d67bb7ed787b74328c1528896843baa011f67a546ae316a6e61e4dc3e1f9b51d21a36056e7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-storage-file-share \
-python3.10dist-azure-storage-file-share \
+RPROVIDES:${PN} += "python3.10dist-azure-storage-file-share \
 python310-azure-storage-file-share \
 python3dist-azure-storage-file-share"
 

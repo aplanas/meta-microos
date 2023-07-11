@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.8.7"
 
-RPM_NAME = "nethogs-0.8.7-1.6.aarch64.rpm"
-RPM_HASH = "db0df1b5e7f73b7ec9e0f33c1d5d6068c7357b78180e8ea1818b51efb69f56673d1f2cd8fe1bb541b6a8a80f00f2d1c76fe8dabe2f74f9ba4757074e78980b87"
+RPM_NAME = "nethogs-0.8.7-1.7.aarch64.rpm"
+RPM_HASH = "68188a0d4edbe4de2d12395b6974cfa864466045bafa178a82f4ccea8f64680816aa6562f5a8a6dc4da696e688ed8dc41998bad384299781b58ba69375efce2e"
 
 RPROVIDES:${PN} += "nethogs"
 

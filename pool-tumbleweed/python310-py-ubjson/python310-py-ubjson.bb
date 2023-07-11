@@ -5,11 +5,10 @@ LICENSE = "Apache-2.0"
 
 PV = "0.16.1"
 
-RPM_NAME = "python310-py-ubjson-0.16.1-1.11.aarch64.rpm"
-RPM_HASH = "3acfbef4b8f563f5edf8a77d2448bbb15395e6de7a4f0eabe7b94ec423cbd9e4bfde89329bd4a22fe1188575c53bed1cab975aeee39cb6b092466e2006c7acbb"
+RPM_NAME = "python310-py-ubjson-0.16.1-1.13.aarch64.rpm"
+RPM_HASH = "d9624cdeddf9e66a86caff9512852611c9ad4856dc73676afd6a036b8f84ae494a4b04647f2661a3a742118e6e473a729fbeeb358fd24830bcf2220cc4b2a0cd"
 
-RPROVIDES:${PN} += "python3-py-ubjson \
-python3.10dist-py-ubjson \
+RPROVIDES:${PN} += "python3.10dist-py-ubjson \
 python310-py-ubjson \
 python3dist-py-ubjson"
 

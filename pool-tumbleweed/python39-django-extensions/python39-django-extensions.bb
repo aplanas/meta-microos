@@ -3,10 +3,10 @@ DESCRIPTION = "Django-extensions bundles several useful \
 additions for Django projects."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.2.1"
+PV = "3.2.3"
 
-RPM_NAME = "python39-django-extensions-3.2.1-2.3.noarch.rpm"
-RPM_HASH = "3c19b08b15569467dd5de0e28271adb77b4fb19069c6f4b0eecc5ea279587857001cfa5c051780544e7c82b725d398b5038ae69943175bd358c01f42cdd983aa"
+RPM_NAME = "python39-django-extensions-3.2.3-2.1.noarch.rpm"
+RPM_HASH = "dcae9ff44188f435aba1dd9e31b91fefa044ed8f91b05ddbd027fa7796109cd399905881440067169610922ef7de7f71f568e4a5eaa5054460d41425b5d6e7ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-django-extensions \

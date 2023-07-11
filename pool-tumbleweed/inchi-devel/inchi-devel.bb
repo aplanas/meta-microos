@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "1.06"
 
-RPM_NAME = "inchi-devel-1.06-2.3.aarch64.rpm"
-RPM_HASH = "3ab68af812deb00b954df92c790af3ee0177c47ae4bfce450850452ff191925f816259b7992b9c04e5e1922e81bd15fbbd6c5379d6fc3febd31830c1d0ade14e"
+RPM_NAME = "inchi-devel-1.06-2.4.aarch64.rpm"
+RPM_HASH = "2108ed85e8046dea1939ee46edd30d33adea26fb71d7414e7a30dd28ec63c6752b32aecbce2b2cdc245734aa8f28ce9baa40f5778489c469b7777353391048b8"
 
 RPROVIDES:${PN} += "inchi-devel"
 

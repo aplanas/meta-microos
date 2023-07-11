@@ -4,8 +4,8 @@ LICENSE = "BSL-1.0"
 
 PV = "1.82.0"
 
-RPM_NAME = "libboost_mpi1_82_0-1.82.0-1.1.aarch64.rpm"
-RPM_HASH = "b636cb4eb4e45001f8bd4f29f0da9b1dd14c028d20f63bb2cda1abf1a84e0f3dd748d2a6d45960c6f3d4eb022e4e969e90e1717148bb8dcf839beaff1383dadd"
+RPM_NAME = "libboost_mpi1_82_0-1.82.0-1.2.aarch64.rpm"
+RPM_HASH = "5c22d5fdf708c9873fbeae207bdcd9f24ba21a8cb6ad1ec037425be8d019e1addd7e0ea9949a7d1677884704b5649b450e88edce4cbc730838432ec7a90965fa"
 
 RPROVIDES:${PN} += "libboost-mpi.so.1.82.0 \
 libboost-mpi1-82-0"

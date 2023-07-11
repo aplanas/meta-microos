@@ -6,14 +6,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "2.28"
 
-RPM_NAME = "perl-CDDB_get-2.28-1.26.noarch.rpm"
-RPM_HASH = "35fe4329360141feaf81f1b42e8a35a5514ecd66995c3450ced5daa2a9ed78c40a4c054b14dca798ad9a761833c9fe359f9305b0eb71f1ad912af52bf014f68c"
+RPM_NAME = "perl-CDDB_get-2.28-1.27.noarch.rpm"
+RPM_HASH = "ace06bc671d8a34602755c870bb9137a4c468cf22709f85692589d798d806da9c07930a456c8df20192cee943fb1491b8cfbe8190d8bdb03941afcb3bb8d3777"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-CDDB-cache \
 perl-CDDB-get"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

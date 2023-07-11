@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.70.1"
 
-RPM_NAME = "python3-libdnf-0.70.1-1.1.aarch64.rpm"
-RPM_HASH = "d964b7ac8f78f3a7a21af3ab8fd6a460288a77ea7f69c75ef053540558fa0121e144025db4193c61d5a70bf6d1fe25af19f41e1bd158e1e78a581df86147cbc5"
+RPM_NAME = "python3-libdnf-0.70.1-1.2.aarch64.rpm"
+RPM_HASH = "e86eb845ba86b496390a0373fea6011dc96895149f49e264855b95996faa1dd60b8fd1d95fe52b7f141a6122a4b8412b6ff14e4aaa659eaa98c828cfd2587bff"
 
 RPROVIDES:${PN} += "python3-libdnf"
 
@@ -14,7 +14,7 @@ libc.so.6 \
 libdnf.so.2 \
 libdnf2 \
 libgcc-s.so.1 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libsmartcols.so.1 \
 libstdc++.so.6 \
 python-abi"

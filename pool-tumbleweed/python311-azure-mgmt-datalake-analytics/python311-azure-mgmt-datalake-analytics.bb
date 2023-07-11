@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "0.6.0"
 
-RPM_NAME = "python311-azure-mgmt-datalake-analytics-0.6.0-4.11.noarch.rpm"
-RPM_HASH = "ab4e5e9ee89b3431fc9b7ac38e12e4dadad87986824c7b2348939ab14835d9e498ffc7318fa8aa67c3d2613403d6a48e262c901e04a61687669854b53e880d10"
+RPM_NAME = "python311-azure-mgmt-datalake-analytics-0.6.0-4.12.noarch.rpm"
+RPM_HASH = "56cf4c9b749b4c75e0c0d9235cf8577a8d6d5805d5bd7db6f0affc6792b52343d53c6ee152ba8a662b6dcfe7e12f646246cd5b128d215345b2d2bcec36ae7ca7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-datalake-analytics \
+RPROVIDES:${PN} += "python3-azure-mgmt-datalake-analytics \
+python3.11dist-azure-mgmt-datalake-analytics \
 python311-azure-mgmt-datalake-analytics \
 python3dist-azure-mgmt-datalake-analytics"
 

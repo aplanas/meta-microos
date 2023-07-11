@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.2.0"
 
-RPM_NAME = "libcpluff0-0.2.0-2.8.aarch64.rpm"
-RPM_HASH = "9dbb2c1d4a044eff66daee133371a7d5961c4ba1b7dc9f876e4b0ecd074f7d4186cc439e6672829763b12f7ad36de9d1490aa4bf20e3ea0b467eb401fe3d6905"
+RPM_NAME = "libcpluff0-0.2.0-2.9.aarch64.rpm"
+RPM_HASH = "bede0c57c0e63a7817c7adabb88181fd7cdbff12e3ad11216659dd9a78574c8c630e67a709b7ad83bb58f37d24f9c220f4aa40d4e7df901d40324a20104828f7"
 
 RPROVIDES:${PN} += "libcpluff.so.0 \
 libcpluff0"

@@ -4,10 +4,11 @@ LICENSE = "MIT"
 
 PV = "6.1.4"
 
-RPM_NAME = "python311-softlayer-6.1.4-1.3.aarch64.rpm"
-RPM_HASH = "5b1690b197f8d3ce9d257a25bb4d5e19c93a56a083da5b38e3c7211c9f765be49ff837f74dd2aa8efeb7e691ff2fb38edfd8fda66f829f92ce2acb262ea15c70"
+RPM_NAME = "python311-softlayer-6.1.4-2.1.aarch64.rpm"
+RPM_HASH = "d7daf8bc7658cb40459e00bfd771c5a32765af786ee2a2fe8deaac7fb68f1de0fbae9cb413aef001bbada3c3906abe46ed2aa56a9ba0bc12808c34f05b4e561b"
 
-RPROVIDES:${PN} += "python3.11dist-softlayer \
+RPROVIDES:${PN} += "python3-softlayer \
+python3.11dist-softlayer \
 python311-softlayer \
 python3dist-softlayer"
 

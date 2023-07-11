@@ -8,11 +8,11 @@ LICENSE = "MIT & GPL-2.0-or-later"
 
 PV = "2.3.0"
 
-RPM_NAME = "mininet-2.3.0-1.2.aarch64.rpm"
-RPM_HASH = "4a931b7a5b30e4d53ed818965b3f504cf1fcbb5d2ae775ed66c62d32091011af720f47640ef754dd64658633e141cf76b66360f7dc9be871c66b1360adf7d368"
+RPM_NAME = "mininet-2.3.0-1.3.aarch64.rpm"
+RPM_HASH = "5715f86897a5dfbb02171a5563c7b294c29d4a3b375f0ba93288a751ed66d815d9bfec1dfd52bc7b692915bcb554a39e3fea8ffb58e19bb586c2bc464716b7a4"
 
 RPROVIDES:${PN} += "mininet \
-python3.10dist-mininet \
+python3.11dist-mininet \
 python3dist-mininet"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

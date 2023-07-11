@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "4.1.0"
 
-RPM_NAME = "python311-zeep-4.1.0-4.7.noarch.rpm"
-RPM_HASH = "d0ffd20ed47857633165011f05756132bfcd46e1ee018cdadd8b7576bc2ce4a550d5eec74587394d0ba9a2764cd7c37e3883ebb20bbb0d8a58ac8193c3f8a42b"
+RPM_NAME = "python311-zeep-4.1.0-4.9.noarch.rpm"
+RPM_HASH = "eeea463f80b105b6cf896383f5013ba88a586ccdd3983752e35900298b039d09250c9bf112a6bc710626d044501d0bedf877b9428fc47951988be08bacce6961"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-zeep \
+RPROVIDES:${PN} += "python3-zeep \
+python3.11dist-zeep \
 python311-zeep \
 python3dist-zeep"
 

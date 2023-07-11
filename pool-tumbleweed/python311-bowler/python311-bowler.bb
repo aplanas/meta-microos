@@ -13,11 +13,12 @@ LICENSE = "MIT"
 
 PV = "0.9.0"
 
-RPM_NAME = "python311-bowler-0.9.0-1.17.noarch.rpm"
-RPM_HASH = "c938a4191389fc24603be268fe076355fa061f680008f937a6d3a5d2ad4fef69c6eed492020f33e3f6b804ff43ce95727a488fbde367bfda5455b698e34a53b5"
+RPM_NAME = "python311-bowler-0.9.0-1.19.noarch.rpm"
+RPM_HASH = "9463ba9c07bc5efcf9b9a68168c6b0de5fd1309dd80e744dc1ca071ba21d3189bc94779ea099c93185d3bf49ec206a6589d69c72b5e76eae5f4f04b492f63ecc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-bowler \
+RPROVIDES:${PN} += "python3-bowler \
+python3.11dist-bowler \
 python311-bowler \
 python3dist-bowler"
 

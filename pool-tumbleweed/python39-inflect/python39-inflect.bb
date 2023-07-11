@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "6.0.4"
 
-RPM_NAME = "python39-inflect-6.0.4-1.1.noarch.rpm"
-RPM_HASH = "b00a1364f652aaccd52b69e6b04479ec47b540e67e8edc3de1f6fb5acaca644d093e96442b783970d96b701ce98f4c851416eae240ded4321b949af03c430a79"
+RPM_NAME = "python39-inflect-6.0.4-1.3.noarch.rpm"
+RPM_HASH = "48b1b06a6a3bf566a8c23831f843205afa0ef856db4af2449b9afd9dd1fccf5510c719d8f60af25d3ae599bcd5442f6b16a49a8156571e2777c18c785a55dc38"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-inflect \

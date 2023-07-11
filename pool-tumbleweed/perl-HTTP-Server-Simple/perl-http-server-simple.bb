@@ -27,8 +27,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.52"
 
-RPM_NAME = "perl-HTTP-Server-Simple-0.52-1.23.noarch.rpm"
-RPM_HASH = "6330a0fd9bbabb5cbb26adee5322bfbc2772ad897fda64c707df595d43aee3ba63b474bbb9b99230edb15c48b70a286841294da2fe741735558414c8cdd13947"
+RPM_NAME = "perl-HTTP-Server-Simple-0.52-1.24.noarch.rpm"
+RPM_HASH = "4e2ff45dca109c9db2c1f207d5adcbb2393c9d3324b094d8fe8fc8cdb0fb07c2c8d23dc2212952179a9c377bfd8c71ecdf3f620a31e447f0ece96c14acfecb03"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTTP--Server--Simple \
@@ -36,7 +36,7 @@ perl-HTTP--Server--Simple--CGI \
 perl-HTTP--Server--Simple--CGI--Environment \
 perl-HTTP-Server-Simple"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-CGI \
 perl-Socket"
 

@@ -2,10 +2,10 @@ SUMMARY = "Development headers for perf"
 DESCRIPTION = "Development headers for perf. This is currently only dlfilter header."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.3.4"
+PV = "6.3.9"
 
-RPM_NAME = "perf-devel-6.3.4-80.3.aarch64.rpm"
-RPM_HASH = "f8b3935c8841beb804cbef6fbbcaec0572f7484ea8e7f4a18f2151c0a425e15361d96d57a0cd7fcb02a6ffec2f650f0a9e4c7ae15bf5067e6c5c3cf720c37306"
+RPM_NAME = "perf-devel-6.3.9-80.8.aarch64.rpm"
+RPM_HASH = "c13ebb43f88972da2f336de19572f1697c3dc5e8065ca65c7f4cbc79434b26c83897585c745141cd17b27275e29dd6a9a6c40f0da09123845eaa7b9c362391a7"
 
 RPROVIDES:${PN} += "perf-devel"
 

@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "1.0~a7"
 
-RPM_NAME = "plexus-resources-1.0~a7-2.6.noarch.rpm"
-RPM_HASH = "f9d8f9e3ede7391c9bb24c03fb4de6b3e13f073ccecc1ab113d98c37b93e7edecca9f8068a57ca1c6b9bd551bb827d3c9fe17eee3b3eb87eaf9bca60adc1daea"
+RPM_NAME = "plexus-resources-1.0~a7-2.7.noarch.rpm"
+RPM_HASH = "35bdb656d13081ad59f80e26016457dfd4d7c35afc6cacd85e08e49ebfd1ea703670b5b6ed801c666c9f92d79efa065052cd17afd6c206df0fd50acc12cb27e5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.codehaus.plexus-plexus-resources \

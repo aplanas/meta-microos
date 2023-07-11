@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.0.0+git.20171206"
 
-RPM_NAME = "xtrx_lms7002m-devel-0.0.0+git.20171206-1.21.aarch64.rpm"
-RPM_HASH = "c462119aafaa0c4385af428356a5df8d0b95dbe450f98e45645534c32b1d53bcc332b66329125deb28a6cac536e6ba5e5668e895961b018d845c4f17f0548f84"
+RPM_NAME = "xtrx_lms7002m-devel-0.0.0+git.20171206-1.22.aarch64.rpm"
+RPM_HASH = "488dd38f233b7f29c3c2de14b2352e22a79ceec671a8dc8725c726f68e59add92ce9db1ceec9dfe9a44bd3a68800361a90db901d4ecf1a9cc05c409307aeab12"
 
 RPROVIDES:${PN} += "xtrx-lms7002m-devel"
 

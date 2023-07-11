@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "5.5.65"
 
-RPM_NAME = "deepin-dock-5.5.65-1.3.aarch64.rpm"
-RPM_HASH = "5cbbe95ee6beb4132c645fce93a70255b707c2db438691ebcd8918be5a07b3240f8bbc9089fdd85bc28430a3f147c2af8c1591185988e71627864c53f44902e4"
+RPM_NAME = "deepin-dock-5.5.65-1.4.aarch64.rpm"
+RPM_HASH = "bb7392e91ed735783296283bab87075618f1aaefa6060a8e33142ee74e25f74cbd0022e466a67c3f2cb2f9af1c66e66833d69087cd8489d5fbea88605bbc5c02"
 
 RPROVIDES:${PN} += "config-deepin-dock \
 deepin-dock \

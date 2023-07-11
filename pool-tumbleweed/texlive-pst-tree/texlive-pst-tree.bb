@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.14svn60421"
 
-RPM_NAME = "texlive-pst-tree-2023.201.1.14svn60421-53.1.noarch.rpm"
-RPM_HASH = "a4bfba47cb67c165d93221926a2ca2935524f38565ebedcdaea15429e545837b21da229b9ce55db0942f3c489236864b7d80f8f992f5e5185ad086e7e3d982b8"
+RPM_NAME = "texlive-pst-tree-2023.201.1.14svn60421-53.2.noarch.rpm"
+RPM_HASH = "e96c63b55f4472cd08ddd7780aba9ad206a568b982044a06bc4dfd764ccbcec48e8251996825eb11ee4baa31f914b40f9863959b73cc4726cfc51250bd9d5ac8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-tree.sty \

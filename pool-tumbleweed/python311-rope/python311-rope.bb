@@ -15,11 +15,12 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.6.0"
 
-RPM_NAME = "python311-rope-1.6.0-1.4.noarch.rpm"
-RPM_HASH = "e230cbd120c94fefd12695f8245680c29ad6bd83904923077b0bee74548eb4d45d73d859296e55f534dc65d4a8f186f66bd583f57a3edd1df652238ff649e852"
+RPM_NAME = "python311-rope-1.6.0-1.6.noarch.rpm"
+RPM_HASH = "5c6c4794c0455079ff15536d93217caeb604df077a3ef749740bb32ca33582c80892da31e2dc4c3dd450539052570b6f255982c204dc0aa9b5973f3560c982e9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-rope \
+RPROVIDES:${PN} += "python3-rope \
+python3.11dist-rope \
 python311-rope \
 python3dist-rope"
 

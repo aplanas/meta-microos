@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.0.18"
 
-RPM_NAME = "vlc-noX-3.0.18-7.1.aarch64.rpm"
-RPM_HASH = "17296b6d9b763c7eea4546a959b344319af95f9c07779dd0e578187b18905613859b20c766008e89436ffc3075b9542bba0a0956fef6b4d662ab47ad20a1854a"
+RPM_NAME = "vlc-noX-3.0.18-7.3.aarch64.rpm"
+RPM_HASH = "18b361455a9164ba0878c0550af5237fe0d574423b257c5d0a2b845431e884de8756eb7ab8009a1ebf619d7dd0d79c6c4d892689a0c0a4a2487197400f7f3350"
 
 RPROVIDES:${PN} += "liba52-plugin.so \
 libaccess-alsa-plugin.so \
@@ -370,7 +370,7 @@ libc.so.6 \
 libcddb.so.2 \
 libdav1d.so.6 \
 libdbus-1.so.3 \
-libdc1394.so.25 \
+libdc1394.so.26 \
 libdvbpsi.so.10 \
 libdvdnav.so.4 \
 libdvdread.so.8 \

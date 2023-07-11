@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & Zlib"
 
 PV = "5.2.8.0"
 
-RPM_NAME = "liballegro_dialog5_2-devel-5.2.8.0-1.3.aarch64.rpm"
-RPM_HASH = "ed505155e7d1f7d1d8301c500f69286bfd179d7c0e8fa07b4a388249684d39090719dcbe2aafa843215cbe4170111b526a21cb62b6f6d761aff0569794167690"
+RPM_NAME = "liballegro_dialog5_2-devel-5.2.8.0-1.4.aarch64.rpm"
+RPM_HASH = "88ebc3db7bc06378a3215241724eabfe0558238ab1a387d1e5eec422e5346dbc8432b3df58b60ca3d572f5818f58af726e44c758db285dc7beebd003efa99fea"
 
 RPROVIDES:${PN} += "liballegro-dialog5-2-devel \
 pkgconfig-allegro-dialog-5"

@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "5.10.1"
 
-RPM_NAME = "libgwenhywfar79-plugins-5.10.1-1.4.aarch64.rpm"
-RPM_HASH = "a1d8ffb2197eadab6f010772e41162ceb463ca987b5695419838fbdf06736b3202f466cb927d7eca67ac90256aa1e98731693d16f0be8dff7b1cfc1ad3b56b20"
+RPM_NAME = "libgwenhywfar79-plugins-5.10.1-1.5.aarch64.rpm"
+RPM_HASH = "18d5b656821ae0cbbf545783179bb8e6304944c6a9643692fe4c5c17c46b9cfed62cf14753ed1fb80c8e482bc41403de64a02b8c8c403894cedbf94a9057ff9c"
 
 RPROVIDES:${PN} += "libgwenhywfar79-plugins"
 

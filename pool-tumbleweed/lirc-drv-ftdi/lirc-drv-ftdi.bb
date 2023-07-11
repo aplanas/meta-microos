@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.10.1"
 
-RPM_NAME = "lirc-drv-ftdi-0.10.1-10.1.aarch64.rpm"
-RPM_HASH = "33df61436a3eca3c6402f01544dee05b2205d641c5accc8276cbeb4cc2ab9062a32b939a71da2ef56e6f8170076a6de362dd88afe65b95f761cad47ef7f77a64"
+RPM_NAME = "lirc-drv-ftdi-0.10.1-10.2.aarch64.rpm"
+RPM_HASH = "328f8663c740b7f552be4b9aa6aeb2dd51f7dcf4d96d9dfaab48f877fdfc0d6f881eec2a2dc28a7158d97664967f2b71fd22502e52c2f33d8ed2d1d04e92c85b"
 
 RPROVIDES:${PN} += "lirc-drv-ftdi"
 

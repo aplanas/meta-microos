@@ -4,13 +4,14 @@ CKEditorWidget utilizing CKEditor with image upload and browsing \
 support included."
 LICENSE = "BSD-3-Clause"
 
-PV = "6.5.1"
+PV = "6.6.1"
 
-RPM_NAME = "python311-django-ckeditor-6.5.1-1.3.noarch.rpm"
-RPM_HASH = "15d6902c125afea455a5a05817bc03e60d324fee9a88cf4aaa6b976ef5f2b0803e0aea850d22fbd3100caae082b183ba72717ab380da5fa74a44bc7f3724c6c4"
+RPM_NAME = "python311-django-ckeditor-6.6.1-1.1.noarch.rpm"
+RPM_HASH = "e3341ba1426251f2a1b647537ae55f901b2b8dccfca414d117fd21e8b0e78be169a67b3d38cc37d857e4ac1ca1a789901a9ae5dbda9ddb06bcaa38c9a865956b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-django-ckeditor \
+RPROVIDES:${PN} += "python3-django-ckeditor \
+python3.11dist-django-ckeditor \
 python311-django-ckeditor \
 python3dist-django-ckeditor"
 

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.18"
 
-RPM_NAME = "ghc-tasty-rerun-doc-1.1.18-6.2.noarch.rpm"
-RPM_HASH = "a20bc04b4dddb4e19d9f4666a8dbed858ed8051edfc51514da63576c1a75309a7b368a4f629caf1844a49bebd94db94aff5a61cf3774394d932edd949129cc39"
+RPM_NAME = "ghc-tasty-rerun-doc-1.1.18-6.3.noarch.rpm"
+RPM_HASH = "999be66082bc141ca835bce7d5967964b459f47cdc84ee1b0756fb20f97fb9711e9dc8820e896df419f9fb466a58a5b13ae02525107ee84d00497bf45bc6ff86"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-tasty-rerun-doc"

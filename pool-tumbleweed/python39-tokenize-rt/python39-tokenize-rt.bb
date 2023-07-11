@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "4.2.1"
 
-RPM_NAME = "python39-tokenize-rt-4.2.1-1.9.noarch.rpm"
-RPM_HASH = "df47942b435c54f50956155b0eadcbab9cc3ca875ea57baecea93878338af50084383828f6cf51edb811b13243bd02d6bf4feb4dc2083cd45f8389bbaf166fe3"
+RPM_NAME = "python39-tokenize-rt-4.2.1-1.11.noarch.rpm"
+RPM_HASH = "85c3b43013bc31a43db5e1b95f250bbd9f095a57ef36c21a5b668d383e3381c0164489fdd2ac4c43b187ccfc10fb68219138f1304a1fc23e69cf8e63fe8e6c1a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-tokenize-rt \

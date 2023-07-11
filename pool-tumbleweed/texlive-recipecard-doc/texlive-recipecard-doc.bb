@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.2.0svn15878"
 
-RPM_NAME = "texlive-recipecard-doc-2023.201.2.0svn15878-53.1.noarch.rpm"
-RPM_HASH = "849f533fdf5fd58819cb6f08ff87bfa8634e5531245ab63f4aff2e3b82e35b4165480f01caa3f26f4193eed7421170e0b92c48d847bf9c5ce3e739fd39675751"
+RPM_NAME = "texlive-recipecard-doc-2023.201.2.0svn15878-53.2.noarch.rpm"
+RPM_HASH = "5840e11e2da4b935446c7b9a0f8ebc8294ad1087b6189cf10a04babd6fe879373ac7eb58bdf2a8af2f81681d9c84b63ff7980811a9c74b5f603e011cc40826e9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-recipecard-doc"

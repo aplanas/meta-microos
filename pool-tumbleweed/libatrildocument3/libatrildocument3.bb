@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.0-only"
 
 PV = "1.26.1"
 
-RPM_NAME = "libatrildocument3-1.26.1-1.1.aarch64.rpm"
-RPM_HASH = "616d2066f3166c0882793b4aec11f9561ff43e158f868cd44278296df2091ae588db807021915ad685ad6f37cab29768ec5848380df578ff0d08ba0394eb573a"
+RPM_NAME = "libatrildocument3-1.26.1-1.2.aarch64.rpm"
+RPM_HASH = "133efb00783f2b99f4d9877872151c9ce8c6d3a14ac485c4be32f81bd655f34cb9964536f2abd70186e4b938367162c0a2f81d223c526b309cd736f43d5db0c3"
 
 RPROVIDES:${PN} += "libatrildocument.so.3 \
 libatrildocument3"

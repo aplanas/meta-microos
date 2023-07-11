@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.9.1"
 
-RPM_NAME = "RigelEngine-0.9.1-2.1.aarch64.rpm"
-RPM_HASH = "5801b730a75c7c61e52985b228361fc97ffbee68e023becbbb14e0e5dc9e9b67f3e1cc0e58beaad19960376b58bb101c838760e35ee4683a11f7e5064df18579"
+RPM_NAME = "RigelEngine-0.9.1-2.2.aarch64.rpm"
+RPM_HASH = "fbbe72e5ffba5d161c38f5e1056c6f3f0c822e94898a80c5b9a0b19b65efb2b33868c9832c30e26ad8ab14eaa4af4d3f49345458d1fe3c389c3421e39c27b421"
 
 RPROVIDES:${PN} += "RigelEngine"
 

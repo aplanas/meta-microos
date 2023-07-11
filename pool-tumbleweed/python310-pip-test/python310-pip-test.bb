@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "23.1.2"
 
-RPM_NAME = "python310-pip-test-23.1.2-1.1.noarch.rpm"
-RPM_HASH = "64303a53eb448ae258fe4b022a53ea6520d4972972b24302d172ed0149144620e6bd833d5908dceb60702445024ccbcb7043d66c33fce2ba918d0953a4d3fb59"
+RPM_NAME = "python310-pip-test-23.1.2-2.3.noarch.rpm"
+RPM_HASH = "8f9c24ee3a6ff47824150c73c40f413c6d60658a26514882b86fd49fc699f0a43f1249f32ec1a0287fff124b1f11eb7c88d9b3fb4896fc3c18b67a9780db4289"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pip-test \
-python310-pip-test"
+RPROVIDES:${PN} += "python310-pip-test"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 alts \

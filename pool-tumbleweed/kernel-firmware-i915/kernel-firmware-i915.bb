@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains compressed kernel firmware files for \
 Intel i915 graphics driver."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230517"
+PV = "20230620"
 
-RPM_NAME = "kernel-firmware-i915-20230517-1.1.noarch.rpm"
-RPM_HASH = "e269bc49c7716009ef72aba6bf81cfb1599eac06f340416f60d3de5cf5769dfc6e23ebe48d87e584fece50f60ee1f62d81e6c086ff802f2ba7db2998b969c5de"
+RPM_NAME = "kernel-firmware-i915-20230620-1.1.noarch.rpm"
+RPM_HASH = "bf2560edd64a9f3b2b5ca62d2d2e420d52caef0a2f3c5ae7a74416926ed7df7beb611c0cc06d10dea8c12f2b0efec870b9798500ba32ff903b429a8617984855"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-i915/adlp-dmc-ver2-09.bin \
@@ -98,6 +98,7 @@ firmware-i915/kbl-huc-ver02-00-1810.bin \
 firmware-i915/mtl-dmc-ver2-10.bin \
 firmware-i915/mtl-dmc.bin \
 firmware-i915/mtl-guc-70.bin \
+firmware-i915/mtl-huc-gsc.bin \
 firmware-i915/rkl-dmc-ver2-02.bin \
 firmware-i915/rkl-dmc-ver2-03.bin \
 firmware-i915/skl-dmc-ver1-23.bin \

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.2.0"
 
-RPM_NAME = "nemo-extension-dropbox-5.2.0-3.4.aarch64.rpm"
-RPM_HASH = "d36a904def73fa95060b3a7fa2ca13c3d5dd5591b5470f59a2698aaf7fc725e7a4b3424486d4398879a7aaceaded04c8ebab8d48999cfe26e00c9e7e00a1ecd2"
+RPM_NAME = "nemo-extension-dropbox-5.2.0-3.6.aarch64.rpm"
+RPM_HASH = "8dc052eed4b9cb1705cebfaaa677d857e4168a5a0312db137c482360571f617e5fbe3b9e62ea94df508788a969f4b63ab3102fcfb773be5472a4cada53b65e2b"
 
 RPROVIDES:${PN} += "libnemo-dropbox.so \
 nemo-dropbox \

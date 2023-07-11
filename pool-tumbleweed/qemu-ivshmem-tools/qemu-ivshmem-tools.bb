@@ -7,8 +7,8 @@ LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-
 
 PV = "8.0.2"
 
-RPM_NAME = "qemu-ivshmem-tools-8.0.2-1.1.aarch64.rpm"
-RPM_HASH = "8aa785400c5bd670012ba47cf9b11664f5c83060f4521ea9f9d108066d9b67b3369cf4703b5eef3d6e860f4d90024a81135bbdd8999c04a7a033884c2b4704b9"
+RPM_NAME = "qemu-ivshmem-tools-8.0.2-2.1.aarch64.rpm"
+RPM_HASH = "a693955d83da8d17ce7917e6dfa8034854cae2a84299516797987e2a79909b3fbada5eceaa0f5a94207846c497be2cb5313316fdcd34dbae1cc87d6365eebf6e"
 
 RPROVIDES:${PN} += "qemu-ivshmem-tools"
 

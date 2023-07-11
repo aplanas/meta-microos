@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & LGPL-2.1-or-later"
 
 PV = "1.3.0"
 
-RPM_NAME = "libfm-qt-data-1.3.0-1.2.noarch.rpm"
-RPM_HASH = "7f576507bf448e9fa633e29ff402c33c9a68af076c4db13a085d7b3c795631ca6fc7705b472d2741d6adb795ee006fc2185bca2847510e038eaf63bdf32fca9a"
+RPM_NAME = "libfm-qt-data-1.3.0-1.4.noarch.rpm"
+RPM_HASH = "81f06dbcf683bc528a245072f301183d498c8ed7f220a53a3029e48ec0f15ce32e3dc922fcaa069ce28af6d1c09a5dcc509cc35643d0b4dbc7d33d39d0d92827"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libfm-qt-data"

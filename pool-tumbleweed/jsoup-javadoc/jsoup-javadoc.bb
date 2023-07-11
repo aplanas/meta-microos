@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.15.3"
 
-RPM_NAME = "jsoup-javadoc-1.15.3-2.2.noarch.rpm"
-RPM_HASH = "e3247f748c1157f9c59e9b98b837aaee46e748e333da65cc375a0830c01f928c87ef41dbdea034f90981dc5ecc817e5715646678cbf657e64f0438be7cc47db4"
+RPM_NAME = "jsoup-javadoc-1.15.3-2.3.noarch.rpm"
+RPM_HASH = "377a879b83e9b0404a22c4997fba7b3a560552f843e9ea37867b9068d1daf83eb82914e5f99ac12b936b77216f97daae08e61097f91fbcdbbc55e03091ad4ec9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jsoup-javadoc"

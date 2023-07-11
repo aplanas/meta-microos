@@ -7,10 +7,10 @@ This package contains the Iosevka Etoile typeface (quasi-proportional, \
 slab-serif)."
 LICENSE = "OFL-1.1"
 
-PV = "24.0.0"
+PV = "24.1.4"
 
-RPM_NAME = "iosevka-etoile-fonts-24.0.0-1.1.noarch.rpm"
-RPM_HASH = "3ab46a2a194dfb5a6a9734bd0d67b157c0f5fef8fee0f20ae041534ef4e30dce1eb161dabe5d3a96c7b3fc6f33991005fd383f7972651f6a8f078ae9dd0d3c7b"
+RPM_NAME = "iosevka-etoile-fonts-24.1.4-1.1.noarch.rpm"
+RPM_HASH = "e0fcd7e40268d2efb2bf8e8211e2ca455fdf048b089c930ef10d6824e691a37784b1496720d2fa0bdb08b7a347f064b4d3edc62d551ca76f73eb15d6e33beeae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "iosevka-etoile-fonts"

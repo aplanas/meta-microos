@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "7.8.0"
 
-RPM_NAME = "libasn1-8-7.8.0-3.1.aarch64.rpm"
-RPM_HASH = "002214c51a0ead89cb6c2544ae9da466fc9c29a9d689e1d77a8db11fabe347645b57b29a5df102a991c23c600fec19ef5ccafa63c472aca7c3a42c7ebb8f15a6"
+RPM_NAME = "libasn1-8-7.8.0-3.2.aarch64.rpm"
+RPM_HASH = "65e7efec75c1606cff6db13c1aa5e08738710fd22cb8d75c0e0a59edb8a70b07d88d333ce5c530bbf34860d70cc8c7f8a8498e87f345de8928cfa67cefa1f0f0"
 
 RPROVIDES:${PN} += "libasn1-8 \
 libasn1.so.8"

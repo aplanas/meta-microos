@@ -4,8 +4,8 @@ LICENSE = "MPL-2.0"
 
 PV = "2.2.0"
 
-RPM_NAME = "libkea-dns++30-2.2.0-2.4.aarch64.rpm"
-RPM_HASH = "20a47b99730425604930e6ff02a9d351e7b75076d0a52583ccfddb7258fab5e86fb936496313e8376c63da2d26004f426f21f4c8b36cfdd598b24047a26b55ec"
+RPM_NAME = "libkea-dns++30-2.2.0-2.6.aarch64.rpm"
+RPM_HASH = "ac002e32b55359135e2666c71f491673a95eb3e67faf4b7c8ab75c1501bdc6ed54d419fbb1a479329a66d8bafae086d46187aee733497c546d0513b550fdd2da"
 
 RPROVIDES:${PN} += "libkea-dns++.so.30 \
 libkea-dns++30"

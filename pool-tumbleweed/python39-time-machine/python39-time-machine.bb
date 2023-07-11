@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "2.9.0"
 
-RPM_NAME = "python39-time-machine-2.9.0-2.1.aarch64.rpm"
-RPM_HASH = "d16f6d04c69070fb78b9a55118330d7b96fbf3ae2970bd9306cbe7d6f9afbd8b9c401c09dc95a4e27ee52558b0d1fc0f86fb772cbe1c1ec1ca6636b4f8947a3e"
+RPM_NAME = "python39-time-machine-2.9.0-3.2.aarch64.rpm"
+RPM_HASH = "b83c1887aea6df2ae1f8d7b07dc3652e5c7642910d9b9769025551e6a9444f6cbc88b77c76a35e243db72e6f68058dde3bcfed2f1dd868e8837e8ae4163095e3"
 
 RPROVIDES:${PN} += "python3.9dist-time-machine \
 python39-time-machine \

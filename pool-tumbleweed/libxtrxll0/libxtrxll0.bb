@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.0.0+git.20201202"
 
-RPM_NAME = "libxtrxll0-0.0.0+git.20201202-2.6.aarch64.rpm"
-RPM_HASH = "ecb7bf9e7d66d3021f7eb872886cbb9505a768550986ccc6dc980b6739b091fdb59d6d90fa5f7d88df4d25bb14c07289c63e702d84347c34fd97363224311cc7"
+RPM_NAME = "libxtrxll0-0.0.0+git.20201202-2.7.aarch64.rpm"
+RPM_HASH = "cd2f303511a449fc4a6ea2ad02a9d557702e5b3fbb36df4e793a5b0686781e4baa9a89ff8b1a26fc5f51fc8b3642ff46dda6c4dd0de10304fc4bfff7ad2e1d08"
 
 RPROVIDES:${PN} += "libxtrxll.so.0 \
 libxtrxll0"

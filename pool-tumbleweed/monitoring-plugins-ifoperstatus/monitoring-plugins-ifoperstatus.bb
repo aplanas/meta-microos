@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
 PV = "2.3.1"
 
-RPM_NAME = "monitoring-plugins-ifoperstatus-2.3.1-9.4.aarch64.rpm"
-RPM_HASH = "a7d6ed62e97b4246233cf294316514796f7e84b107608929967db47a364e5934d41be937d09d1b9607d48508a7c2c42de2671363f5318be7eb8e823325344dbe"
+RPM_NAME = "monitoring-plugins-ifoperstatus-2.3.1-9.5.aarch64.rpm"
+RPM_HASH = "e3dd4b24a38308dbe36a016566a4f02f1fd01c4e0cd7decb2b77d066576f37a8e11ef74b6fd8c7de549e6492a727a7da151a6b43332ea067ed49499d532f66e7"
 
 RPROVIDES:${PN} += "monitoring-plugins-ifoperstatus \
 nagios-plugins-ifoperstatus"

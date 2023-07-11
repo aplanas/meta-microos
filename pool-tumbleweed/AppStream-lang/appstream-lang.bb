@@ -2,10 +2,10 @@ SUMMARY = "Translations for package AppStream"
 DESCRIPTION = "Provides translations for the 'AppStream' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.16.1"
+PV = "0.16.2"
 
-RPM_NAME = "AppStream-lang-0.16.1-3.1.noarch.rpm"
-RPM_HASH = "803211df9532399c7f53904874d02830cf26164d51ff700ec06369b9716e2b5b81404a0672be73ed578ad11606fad60c0f9473342dc80407b88412bfa05b860a"
+RPM_NAME = "AppStream-lang-0.16.2-1.1.noarch.rpm"
+RPM_HASH = "2384f6def4c44bf915a083542f3f149cb82e86916f960128137fbe59060de7d2edbb1f815e41c2a15cf1fa2906818f2e2e33ac115933979919afff9ea7eb0e38"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "AppStream-lang \

@@ -11,8 +11,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.3.1"
 
-RPM_NAME = "python39-requests-ftp-0.3.1-3.15.noarch.rpm"
-RPM_HASH = "698ae617be3364b21ac53731efa8b9fd3010533ce9b229a79a8fe895305505b08502cdc8a07e525536e34b2f7ef4b7ecbede8787ce4911ad34ffa1f50c6cd6a2"
+RPM_NAME = "python39-requests-ftp-0.3.1-3.16.noarch.rpm"
+RPM_HASH = "2780e45e6800152873e70e22926d088ba64da6df3227754104e93ecd39a1f39144d95d41830a29436579db7fa09717e73368fa782a34bd991922fc9110317f75"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-requests-ftp \

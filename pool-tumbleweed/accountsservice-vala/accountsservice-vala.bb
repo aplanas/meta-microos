@@ -5,10 +5,10 @@ querying and manipulating user account information. \
 This package contains the Vala bindings for accountservice."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "22.08.8"
+PV = "23.13.9"
 
-RPM_NAME = "accountsservice-vala-22.08.8-2.4.aarch64.rpm"
-RPM_HASH = "7a2a6401d78262273faa05eeac2d8aaa05cd6bdc0205096f471ef8b25feb3ae9cc0f841e0e9e6dcfd3aa8567ccadeb0e0212710e58458af2f90a9a9ce038ae60"
+RPM_NAME = "accountsservice-vala-23.13.9-3.1.aarch64.rpm"
+RPM_HASH = "22028a9dd80cc032e8d91471b495e84dcb111c7b0e04b7eaf4fa204361776aba9cd17a63797abc4af9b576517e411b967e17a84446a1e8effdef152228cb9d7a"
 
 RPROVIDES:${PN} += "accountsservice-vala"
 

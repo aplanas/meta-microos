@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "0.3.0"
 
-RPM_NAME = "python310-devpi-process-0.3.0-1.1.noarch.rpm"
-RPM_HASH = "927cf4bddbbf1681a4f8d191b87598588cc4ff3a545e627c187c52e125a397d64ce723394fc8e3f62e238d21e771d44ad5b01c65f1fe5260f2fd2acf397dfded"
+RPM_NAME = "python310-devpi-process-0.3.0-1.3.noarch.rpm"
+RPM_HASH = "1dc84fede29c5e730bc8f0f653a53dd22acd278fd7432ca4bbecc59341233e73bdf7d5f288bff4d5abf407a31af33472611be7ad7fb3831dfa33444e2f8e9a8f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-devpi-process \
-python3.10dist-devpi-process \
+RPROVIDES:${PN} += "python3.10dist-devpi-process \
 python310-devpi-process \
 python3dist-devpi-process"
 

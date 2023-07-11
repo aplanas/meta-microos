@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.8.6"
 
-RPM_NAME = "python39-pychm-0.8.6-1.17.aarch64.rpm"
-RPM_HASH = "5d44770a967d7fe7f03cb3ce37222f0eb76a5253deb66ac656a1da92b2ec91fd38c1e48f17fe06623c7e7766bfc98c2219a1095804981eea4998a480cd5122c5"
+RPM_NAME = "python39-pychm-0.8.6-2.1.aarch64.rpm"
+RPM_HASH = "4f808458318f0a1edc58190d94860b51e537d8e15b898de0d1cce30bbbe1d758f1dda3f89a86f95ca3e8e2c33fbb0d1b4885a8a631d64aa6d763d822c679f029"
 
 RPROVIDES:${PN} += "python3.9dist-pychm \
 python39-pychm \

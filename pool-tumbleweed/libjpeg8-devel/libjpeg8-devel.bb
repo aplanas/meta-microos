@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "8.2.2"
 
-RPM_NAME = "libjpeg8-devel-8.2.2-75.1.aarch64.rpm"
-RPM_HASH = "72fe89a24b8df8d3d4cd4a9df020d1926bd04b752433e6197f896a30dbc1eabef49e46f545a47cb5688eacc70238de9fd211fd0af1a8a9ef4f2d747ddb7a6c87"
+RPM_NAME = "libjpeg8-devel-8.2.2-76.1.aarch64.rpm"
+RPM_HASH = "d6973577d3941bbcc605ee243d4d15dec195f2fc063ee645e1c84f9f7f3b06817ad0497a9e69fa254893f59b38b7347a7f271035289f3e5333005ba768676a10"
 
 RPROVIDES:${PN} += "cmake-libjpeg-turbo \
 libjpeg-devel \

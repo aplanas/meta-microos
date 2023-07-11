@@ -8,11 +8,11 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2022_08_R1"
 
-RPM_NAME = "kismet-capture-sdr-rtl433-2022_08_R1-2.3.aarch64.rpm"
-RPM_HASH = "3cd30d72496bc2eb76ce914953a6835e9691c6e0d72d09372e455aa5910f8618a4f1d512c9980368b8721991f48e875d100563e11a87ed08c4a1944af7f5c936"
+RPM_NAME = "kismet-capture-sdr-rtl433-2022_08_R1-2.5.aarch64.rpm"
+RPM_HASH = "351aa98f0911c2a73ee4fa98b1d9e47d7e868a26bf8bf61098d67e179a093fc2fe04545e312d350501c99c6d749cab15b2f27b0c6f4d59a0c9011c31cb7d321f"
 
 RPROVIDES:${PN} += "kismet-capture-sdr-rtl433 \
-python3.10dist-kismetcapturertl433 \
+python3.11dist-kismetcapturertl433 \
 python3dist-kismetcapturertl433"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

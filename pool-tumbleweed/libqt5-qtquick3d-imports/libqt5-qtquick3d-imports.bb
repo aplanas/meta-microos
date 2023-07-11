@@ -2,10 +2,10 @@ SUMMARY = "Qt Development Kit"
 DESCRIPTION = "QML API for Qt Quick 3D."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.15.9+kde1"
+PV = "5.15.10+kde1"
 
-RPM_NAME = "libqt5-qtquick3d-imports-5.15.9+kde1-1.1.aarch64.rpm"
-RPM_HASH = "6094216247a3503e1c3dee85320264f10cdc118885e37c0455f46833323612afe1a13147272fb3558731cf2cf40c0a08d522891eb3abeb33612f27843ee2bb09"
+RPM_NAME = "libqt5-qtquick3d-imports-5.15.10+kde1-1.1.aarch64.rpm"
+RPM_HASH = "f253f1df9c9553699a7491f60873dc49e759de6fd2a674e04bb18893cde24cedf5f4322a1a3e7c72771b8d0b47f0c6938bf76243f21fde961cff3692c7c79ce4"
 
 RPROVIDES:${PN} += "libqquick3dplugin.so \
 libqt5-qtquick3d-imports \

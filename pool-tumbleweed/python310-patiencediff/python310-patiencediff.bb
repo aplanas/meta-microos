@@ -4,11 +4,10 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.2.12"
 
-RPM_NAME = "python310-patiencediff-0.2.12-1.4.aarch64.rpm"
-RPM_HASH = "e919d9058dad3a039d336660a1b8e8f8a0cb421ea1e0dd548fa3796ff3eb2459e52d93c793511495be9144e265efc72856c39a32c5a3d84c95be68fd6df8e774"
+RPM_NAME = "python310-patiencediff-0.2.12-1.6.aarch64.rpm"
+RPM_HASH = "e9ccd29544b614c570111233a0296b7cd68a2198b8ae6de4cac278c5e4afbc01240d77e5f64f2bacbb6633748e8a026b200b9cf58458c1bf1be407a21d0d85c6"
 
-RPROVIDES:${PN} += "python3-patiencediff \
-python3.10dist-patiencediff \
+RPROVIDES:${PN} += "python3.10dist-patiencediff \
 python310-patiencediff \
 python3dist-patiencediff"
 

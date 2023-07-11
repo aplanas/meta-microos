@@ -29,8 +29,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2.1.0"
 
-RPM_NAME = "libscalapack2-openmpi2-2.1.0-9.11.aarch64.rpm"
-RPM_HASH = "46f63cdf99a7124bd7af6add4f928c601f6a6ab148c2ca33bfaa17e40b8e496e5ffa0e7bb60be907cfa81f4f99011bea2453c4805d8ca9ef581365f79cc75eec"
+RPM_NAME = "libscalapack2-openmpi2-2.1.0-9.12.aarch64.rpm"
+RPM_HASH = "cf00ff3654856a38871a8f65c7c67916c5cfc788cc5f88b084f98a4f28a7fdb5b5bd8be76ad446f9e241a9a2754bfed6e864da27beeecc0528baf81f87299ca4"
 
 RPROVIDES:${PN} += "libscalapack.so.2.1.0 \
 libscalapack2-openmpi2 \

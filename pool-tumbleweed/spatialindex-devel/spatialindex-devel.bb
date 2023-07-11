@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.9.3"
 
-RPM_NAME = "spatialindex-devel-1.9.3-2.9.aarch64.rpm"
-RPM_HASH = "a584763af851bd083f936ac41fa2f726cb7da2e4424d95aad2ad25ae930e37f5e8c4b431e8b6a1fcfbcba2ff9120b2706d4f411aaf2db50a0d6dd41a99151cc7"
+RPM_NAME = "spatialindex-devel-1.9.3-2.10.aarch64.rpm"
+RPM_HASH = "5577046c11d8ed673fd69d1f86e63c0d314d435e304a80d71056657e4148bf50e7ad40c6b742160e5f8af27e0b66d7adc8a87dfebd5b2cc0e83756f546a84eb7"
 
 RPROVIDES:${PN} += "libspatialindex-devel \
 pkgconfig-libspatialindex \

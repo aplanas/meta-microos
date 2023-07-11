@@ -7,10 +7,11 @@ LICENSE = "SUSE-GPL-2.0-with-FLOSS-exception | GPL-3.0-only | NonFree"
 
 PV = "5.15.9"
 
-RPM_NAME = "python311-qt5-quick3d-devel-5.15.9-1.4.aarch64.rpm"
-RPM_HASH = "ba752433662af42105135001c12dfad30c060771375f052840a1e33d104a4e126a3381aa66cbee11adccf1b010481dc4771f27837c2135d8d76fee3a0940a976"
+RPM_NAME = "python311-qt5-quick3d-devel-5.15.9-3.1.aarch64.rpm"
+RPM_HASH = "5143d2032580ac852b66709d40d463a285125a505acfb0023058b78d9ba61ea73a332c0bfaab665f6decdae7374b310c428dcc2a38984a97be50a96e8c449038"
 
-RPROVIDES:${PN} += "python311-qt5-quick3d-devel"
+RPROVIDES:${PN} += "python3-qt5-quick3d-devel \
+python311-qt5-quick3d-devel"
 
 RDEPENDS:${PN} += "pkgconfig-Qt5Quick3D \
 python-abi \

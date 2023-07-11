@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & BSD-3-Clause"
 
 PV = "4.0.2"
 
-RPM_NAME = "kryo-javadoc-4.0.2-2.19.noarch.rpm"
-RPM_HASH = "01b78d3a7248e42da587b60f4e8ae57154d05159823d280ad9ffaf97bf19e20c48355ffa633985801d664da361ce188e96261ffe3eade91a6c1c335f52691f94"
+RPM_NAME = "kryo-javadoc-4.0.2-2.20.noarch.rpm"
+RPM_HASH = "d230a8c7ee8491520301cd4dcad3ca723b01e7cc5d60ef70f6ff3faed4fc86434aac93c5d4380d25f3584ff82c67979bc247335df0f42601cdad8bddd11cff46"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kryo-javadoc"

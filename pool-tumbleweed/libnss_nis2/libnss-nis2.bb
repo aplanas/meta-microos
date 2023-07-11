@@ -3,10 +3,10 @@ DESCRIPTION = "The NSS NIS plugin provides NIS support for get*nam() functions f
 glibc. This version is IPv6 capable."
 LICENSE = "LGPL-2.1-only"
 
-PV = "3.1"
+PV = "3.2"
 
-RPM_NAME = "libnss_nis2-3.1-2.8.aarch64.rpm"
-RPM_HASH = "9b94e610b9b1fef2e937e86841a83fe25bdde27439a87b36c191c27e346362809d64f15e59b43f6b33a51aeff6d891efee04d7308de5e8bda5ba04748dafe7bc"
+RPM_NAME = "libnss_nis2-3.2-1.1.aarch64.rpm"
+RPM_HASH = "fbd39ee1caa78776b2dcf7db8d1ac9abe7257e308ec2a94ead835dfea7d35ff8ad7e2c588fd26f54579e26725ddb32795898e349aeca2fd30ff8cd972c98016d"
 
 RPROVIDES:${PN} += "glibc-/lib64/libnss-nis.so.2 \
 libnss-nis.so.2 \

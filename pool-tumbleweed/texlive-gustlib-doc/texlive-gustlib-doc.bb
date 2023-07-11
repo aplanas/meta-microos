@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.svn54074"
 
-RPM_NAME = "texlive-gustlib-doc-2023.201.svn54074-53.1.noarch.rpm"
-RPM_HASH = "90cff749330f21cba4f7397b5106420640d4b85932914fd1f1fe082733f5dbbc1feae9d1f39d016b2fc071d0a7ca733eb9ba7aceaafa29f7b13d94dc900567e3"
+RPM_NAME = "texlive-gustlib-doc-2023.201.svn54074-53.2.noarch.rpm"
+RPM_HASH = "1261695e0087ad5b031fda0cb1075e6170469f9d61b48eec36a607b32a82e356719ceaee379a64a4deffc1eca34400489786dcc4b805d56f0cbb7f4f4d239a3f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gustlib-doc"

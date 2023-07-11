@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.5"
 
-RPM_NAME = "PackageKit-branding-upstream-1.2.5-9.3.noarch.rpm"
-RPM_HASH = "e121c566fbb01c036bde80705f276e2769388485fd26d9c34118622e049c7baba880f9b8ed15e50b7b719251cb0d4ec0769305e560e3bf9e2d0436a26690f8fa"
+RPM_NAME = "PackageKit-branding-upstream-1.2.5-9.4.noarch.rpm"
+RPM_HASH = "a925df3d04a6e4bcdd7797169132e65a50ffcf4220949137e72b09a5f595aafebf894de2d6b4e9c46a507bbebe5758d4db8a009c802055780768958f93b0b6c3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "PackageKit-branding \

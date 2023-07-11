@@ -3,10 +3,10 @@ DESCRIPTION = "VFS functionality for GLib. \
 This package contains all necessary backend files and libraries."
 LICENSE = "GPL-3.0-only & LGPL-2.0-or-later"
 
-PV = "1.50.4"
+PV = "1.50.5"
 
-RPM_NAME = "gvfs-backends-1.50.4-2.1.aarch64.rpm"
-RPM_HASH = "624d00102796bfbf028d59af64d0b8f9eeed2d61df24535e60490438438fe2c4540218de7e5c8ea1e5f4aa88da0b8a588aea9cf5e4a303edb62bd7b182f729f2"
+RPM_NAME = "gvfs-backends-1.50.5-1.1.aarch64.rpm"
+RPM_HASH = "6b5f26c91d7f7efc3d7a622bb931ed3dfb35496e94156000df3809b91f8a2190553cb119b076c20e9ed3a98cbc5034b7c06ced9ad77f97694bf781156c99ca3c"
 
 RPROVIDES:${PN} += "gvfs-backends"
 

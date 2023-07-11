@@ -22,8 +22,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.111016"
 
-RPM_NAME = "perl-CPAN-Mini-1.111016-1.26.noarch.rpm"
-RPM_HASH = "b3f61edf862451ba6c9f0cacb77816dfed404d80d7b278660c5f615f10715d11662b3eab64b3698ac43d373d41cc00d5ef28a661e1969c0c49f3019cb7b3aabb"
+RPM_NAME = "perl-CPAN-Mini-1.111016-1.27.noarch.rpm"
+RPM_HASH = "f8427a830d7079c436e8516dc630e29ef330e4ae5c6ebeff80cd747c64907ae71be435226c556beb9d0eb5f92bf5b443644913bc17feedb598e1e5cd6e43f381"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-CPAN--Mini \
@@ -31,7 +31,7 @@ perl-CPAN--Mini--App \
 perl-CPAN-Mini"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-Compress--Zlib \
 perl-File--HomeDir \
 perl-File--Path \

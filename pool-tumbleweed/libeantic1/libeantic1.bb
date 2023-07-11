@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later & LGPL-3.0-or-later"
 
 PV = "1.3.0"
 
-RPM_NAME = "libeantic1-1.3.0-1.5.aarch64.rpm"
-RPM_HASH = "c8e6af4e5633af9a210e95921f120259c9ab5f89145dcaa69287e2508bbcf63e9042f9236161165f05a986687869483047a800c392e6ceeec4d14dccdccca1cb"
+RPM_NAME = "libeantic1-1.3.0-1.6.aarch64.rpm"
+RPM_HASH = "a139dea119169495a74c2c2e0d8ede3a0eccc1b59401a6a3b3e3982160170b21bbe764e67422a0b7a320a46aeb81d3a64b5a583ade1d4cba8e43ab081a44412f"
 
 RPROVIDES:${PN} += "libeantic.so.1 \
 libeantic1 \

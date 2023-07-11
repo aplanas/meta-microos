@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "6.1.3"
 
-RPM_NAME = "libdvdread8-6.1.3-1.4.aarch64.rpm"
-RPM_HASH = "2e3202aa03926eb4d7f68a8161b8ad5027bef8ee7b47a03da7aff175a9a199f7bed858c17e6ac7c53c3482c649b38996a2a3a537ad768165a83840365aeb15d4"
+RPM_NAME = "libdvdread8-6.1.3-1.5.aarch64.rpm"
+RPM_HASH = "c185c64924293283002ae3ccfa0aec8fe6c88cad267350da31538615c3cc0f11dd06e0797b9aa79d5197e66eccfd64c45ed42a9fe8351ae9c8c361cca120e610"
 
 RPROVIDES:${PN} += "libdvdread \
 libdvdread.so.8 \

@@ -16,11 +16,12 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.0.1"
 
-RPM_NAME = "python311-ligotimegps-2.0.1-3.2.noarch.rpm"
-RPM_HASH = "36822f4278083cc28ca3b6661d8c18471317d71c5e1da1fb1c14078157fa773190bf1234a10338e25eb4968c546f1b2dd8d3cdb38782ce3a2819057d45dba4e8"
+RPM_NAME = "python311-ligotimegps-2.0.1-3.4.noarch.rpm"
+RPM_HASH = "7328ff865141e34d9452a1aaaaad1cddbc36ff43b3223dff54e269317cb3d8753aa8ca77ed4d355406707bb8bb28e9b9df375b73e0f28f66a0ceb41c95c18061"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-ligotimegps \
+RPROVIDES:${PN} += "python3-ligotimegps \
+python3.11dist-ligotimegps \
 python311-ligotimegps \
 python3dist-ligotimegps"
 

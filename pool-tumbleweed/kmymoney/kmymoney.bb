@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
 PV = "5.1.3"
 
-RPM_NAME = "kmymoney-5.1.3-2.10.aarch64.rpm"
-RPM_HASH = "8c2a127d53194feb30a6e542a47ed3ee299b5fbeec77b0ca7d0e0feb93ed662171bdc5bbfbe86a43c091ef2a44c5f198a6caf6bf9f6ed3f32dbdb1dba94b6d96"
+RPM_NAME = "kmymoney-5.1.3-2.12.aarch64.rpm"
+RPM_HASH = "223dedef33f91ae54f6fb79f292772632dfe363ca490638a23a73160a56633a49aeac2bef8f57622ea710cc43087bc9a0ed69a118d7647e817ca3380a6c6b63d"
 
 RPROVIDES:${PN} += "kmymoney \
 kmymoney-doc \
@@ -78,7 +78,7 @@ libgwenhywfar.so.79 \
 libical.so.3 \
 libm.so.6 \
 libofx.so.7 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libsqlcipher-3.41.2.so.0 \
 libstdc++.so.6 \
 qt5qmlimport-QtQuick.2"

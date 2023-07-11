@@ -4,15 +4,15 @@ LICENSE = "MIT"
 
 PV = "0.9.2"
 
-RPM_NAME = "konkretcmpi-python3-0.9.2-14.3.aarch64.rpm"
-RPM_HASH = "1780383601c1778b1ade9716ab4aaac8f16b7579cfbff495adf279595f39e6b90cf3aa456c0fcfd17460a68f3955d1b635bad6aafd8c9f0ab806c7b32e53e9b9"
+RPM_NAME = "konkretcmpi-python3-0.9.2-14.4.aarch64.rpm"
+RPM_HASH = "76097edde8eb184b6abe39568415da43e894fb40c96fd17c98a5684e656f022a6553ec1c43fc2c1d898640eaf50aeeb0199d33f9dbd2c8f4f7d1136a7ce24309"
 
 RPROVIDES:${PN} += "konkretcmpi-python3"
 
 RDEPENDS:${PN} += "libc.so.6 \
 libgcc-s.so.1 \
 libkonkretmof.so.0 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libstdc++.so.6 \
 python-abi \
 python3"

@@ -5,8 +5,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.0svn16369"
 
-RPM_NAME = "texlive-pst-thick-2023.201.1.0svn16369-53.1.noarch.rpm"
-RPM_HASH = "a37efe6be33013b4df854ac71f9b292c0eb9176fa1d9d3e1cf447f194c8828a2052a24083734ff789a51fbd2612742e67c5194ce9cef4eabeb477df3b8ac7a0f"
+RPM_NAME = "texlive-pst-thick-2023.201.1.0svn16369-53.2.noarch.rpm"
+RPM_HASH = "7a397355f616dc7bb8e7e5f78252033bae0c1c8e7431bdec37e608618ce4f35b859509ccbab2cdfc780be4826c1b27150e6e09518bde6cb47b958bf923e28540"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-thick.sty \

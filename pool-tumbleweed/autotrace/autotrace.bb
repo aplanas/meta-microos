@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "0.31.1"
 
-RPM_NAME = "autotrace-0.31.1-646.3.aarch64.rpm"
-RPM_HASH = "7691481a0bc7f2eae012c42206f55b38aa397ad1ae6725032345bb52af8e2d3fd91bd7a30dc17c8ac872f50dfc0ea90de99f89b6472162963e9edd09c4bad42d"
+RPM_NAME = "autotrace-0.31.1-646.4.aarch64.rpm"
+RPM_HASH = "0927f114c842e220a1a599b1e6256ac7f7a341ddd754647d08ad9f2adb346a55ce327ed0fea987609eaf362305770362fc533784ecdb5eb43b37d6f1ce374189"
 
 RPROVIDES:${PN} += "autotrace \
 bitmap-tracing"

@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "1.2.7"
 
-RPM_NAME = "python311-enrich-1.2.7-3.1.noarch.rpm"
-RPM_HASH = "e8c1a824a00b3d4dc411a7da56edc11eaf24a4077d5b27a3fe309f2431370d233d2b831d67dfa6cc691fa3c3c84d9b624f6a1edec558b7fe686af0b865a4e70d"
+RPM_NAME = "python311-enrich-1.2.7-3.3.noarch.rpm"
+RPM_HASH = "f977633a26eed5f95187cbd11b13512c1472b4e711e99b4fa89453f1e9bae2ab84b2dbc90b62eff12c0d1e9f558d8419b32833ec2a223ecb993bb03abf698306"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-enrich \
+RPROVIDES:${PN} += "python3-enrich \
+python3.11dist-enrich \
 python311-enrich \
 python3dist-enrich"
 

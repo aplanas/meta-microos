@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "4.5.0"
 
-RPM_NAME = "python3-keystoneclient-4.5.0-1.5.noarch.rpm"
-RPM_HASH = "4a93ef065b004071dcf47cca59b5c8e746b881020b7cc304673bf1f7cb4814756dd75952efb2d44344598a29e5b6b31a55302088dd893492a5a60211389d356d"
+RPM_NAME = "python3-keystoneclient-4.5.0-1.6.noarch.rpm"
+RPM_HASH = "05038045dc3f6281da0a2d49c34c7ca70089f68bc5118f379f87cba02ee89060a2395e249b65f660199bba75600c1f4c7eef922536e7c369cd6bb5c799248544"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-keystoneclient \

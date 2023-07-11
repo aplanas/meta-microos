@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
 PV = "1.5.0"
 
-RPM_NAME = "tlp-1.5.0-1.3.noarch.rpm"
-RPM_HASH = "669aa7f712b0c32c5b718a9c289d98b19fd73764d859be14694c4c280af8a7fb3bc2f84cca3b40db513926720eee64f1ed4919e5f087010805593fda6be468c5"
+RPM_NAME = "tlp-1.5.0-1.4.noarch.rpm"
+RPM_HASH = "0af13c71eec48a8c99bd5c95567ba1db26da994b9ae29927090a34b6551cc564ec6d8964c3338000d80fba4c5d4e8fa4391007df60ba428d93946b5849637584"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-tlp \

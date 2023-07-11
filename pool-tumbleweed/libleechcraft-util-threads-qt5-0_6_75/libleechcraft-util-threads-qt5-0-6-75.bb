@@ -5,8 +5,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "libleechcraft-util-threads-qt5-0_6_75-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "cbbf3bcf9a725b13841ad30b97c6195aaff442d39adb326d6075a8e5e10e06276a82674a84013cf4831278e19bc259b21d5d6531dfbadb5a228a5b8fc4fa35a6"
+RPM_NAME = "libleechcraft-util-threads-qt5-0_6_75-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "9b90e698c434a2880d744149195b6d692a847284ad12e077ea8c4864d1b96c5ced7ad3ffda34d90a0df12a43aff62d22ba4fe7104a3aadb8442d757aa9076022"
 
 RPROVIDES:${PN} += "libleechcraft-util-threads-qt5-0-6-75 \
 libleechcraft-util-threads-qt5.so.0.6.75"

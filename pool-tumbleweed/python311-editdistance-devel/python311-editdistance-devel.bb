@@ -4,10 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.6.2"
 
-RPM_NAME = "python311-editdistance-devel-0.6.2-1.4.aarch64.rpm"
-RPM_HASH = "520cb15d5838f4bac205297c497e91ee44d77532a67fb3abedd5ed97a85dd59dc1dacce11bf523df33d7798e0a87b60260df1e7752561522eddb2ceb1684ab7a"
+RPM_NAME = "python311-editdistance-devel-0.6.2-1.6.aarch64.rpm"
+RPM_HASH = "de29bf09a9ccfea2d041e312cbf023e71bb41b126dce81bd8320beeddfbc7f295f8a1559f78bcc0157f506e4b5db7abd0a56b2eecc02e81531072ebf85fe07ca"
 
-RPROVIDES:${PN} += "python311-editdistance-devel"
+RPROVIDES:${PN} += "python3-editdistance-devel \
+python311-editdistance-devel"
 
 RDEPENDS:${PN} += "python311-base \
 python311-editdistance"

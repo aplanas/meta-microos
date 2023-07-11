@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.5.0~0"
 
-RPM_NAME = "libstl-thumb-0.5.0~0-2.1.aarch64.rpm"
-RPM_HASH = "8dd19aa2c98749a399c06fa1e51a374ba0700702297e5a14bfc5cf91e59c8acd78c3b67d4a0d5684ebd6d898f7b419fc50efeb8744a09a9e4dddd67d9ccec22c"
+RPM_NAME = "libstl-thumb-0.5.0~0-3.2.aarch64.rpm"
+RPM_HASH = "7665d4d8233fe19d83dc47627250b8bee02c1e56e9999d36c2d0cd6bad4a4d18a382380ad33ba7b052d24d9d7764ad8623f3e49de8e19146e486d6bc18ae26d5"
 
 RPROVIDES:${PN} += "bundled-rust-crate-addr2line \
 bundled-rust-crate-adler \
-bundled-rust-crate-adler32 \
 bundled-rust-crate-approx \
 bundled-rust-crate-atty \
 bundled-rust-crate-autocfg \
@@ -33,12 +32,12 @@ bundled-rust-crate-crossbeam-deque \
 bundled-rust-crate-crossbeam-epoch \
 bundled-rust-crate-crossbeam-utils \
 bundled-rust-crate-cty \
-bundled-rust-crate-deflate \
 bundled-rust-crate-dlib \
 bundled-rust-crate-downcast-rs \
 bundled-rust-crate-either \
 bundled-rust-crate-exr \
 bundled-rust-crate-fastrand \
+bundled-rust-crate-fdeflate \
 bundled-rust-crate-flate2 \
 bundled-rust-crate-float-cmp \
 bundled-rust-crate-flume \
@@ -56,10 +55,11 @@ bundled-rust-crate-glutin-glx-sys \
 bundled-rust-crate-half \
 bundled-rust-crate-hashbrown \
 bundled-rust-crate-heck \
+bundled-rust-crate-iana-time-zone \
 bundled-rust-crate-image \
 bundled-rust-crate-indexmap \
-bundled-rust-crate-inflate \
 bundled-rust-crate-instant \
+bundled-rust-crate-io-lifetimes \
 bundled-rust-crate-itoa \
 bundled-rust-crate-jpeg-decoder \
 bundled-rust-crate-khronos-api \
@@ -67,6 +67,7 @@ bundled-rust-crate-lazy-static \
 bundled-rust-crate-lebe \
 bundled-rust-crate-libc \
 bundled-rust-crate-libloading \
+bundled-rust-crate-linux-raw-sys \
 bundled-rust-crate-lock-api \
 bundled-rust-crate-log \
 bundled-rust-crate-memchr \
@@ -95,20 +96,21 @@ bundled-rust-crate-pin-project-internal \
 bundled-rust-crate-pkg-config \
 bundled-rust-crate-png \
 bundled-rust-crate-proc-macro2 \
+bundled-rust-crate-qoi \
 bundled-rust-crate-quote \
 bundled-rust-crate-raw-window-handle \
 bundled-rust-crate-rayon \
 bundled-rust-crate-rayon-core \
-bundled-rust-crate-remove-dir-all \
 bundled-rust-crate-rustc-demangle \
+bundled-rust-crate-rustix \
 bundled-rust-crate-ryu \
-bundled-rust-crate-scoped-threadpool \
 bundled-rust-crate-scoped-tls \
 bundled-rust-crate-scopeguard \
 bundled-rust-crate-serde \
 bundled-rust-crate-serde-derive \
 bundled-rust-crate-serde-json \
 bundled-rust-crate-shared-library \
+bundled-rust-crate-simd-adler32 \
 bundled-rust-crate-smallvec \
 bundled-rust-crate-smithay-client-toolkit \
 bundled-rust-crate-spin \
@@ -122,9 +124,7 @@ bundled-rust-crate-tempfile \
 bundled-rust-crate-termcolor \
 bundled-rust-crate-textwrap \
 bundled-rust-crate-thread-local \
-bundled-rust-crate-threadpool \
 bundled-rust-crate-tiff \
-bundled-rust-crate-time \
 bundled-rust-crate-toml \
 bundled-rust-crate-unicode-ident \
 bundled-rust-crate-wayland-client \
@@ -139,6 +139,7 @@ bundled-rust-crate-winit \
 bundled-rust-crate-x11-dl \
 bundled-rust-crate-xcursor \
 bundled-rust-crate-xml-rs \
+bundled-rust-crate-zune-inflate \
 libstl-thumb \
 libstl-thumb.so"
 

@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.2.6"
 
-RPM_NAME = "libmirage-devel-3.2.6-1.8.aarch64.rpm"
-RPM_HASH = "543b70f1c064dd9c3fa43855ca1e876e470124a13ffe2476e26a7c1b858072e4303ddf8877281769db111a34a65e9879a826312e8edaf820d7d9383ea320f9f6"
+RPM_NAME = "libmirage-devel-3.2.6-1.9.aarch64.rpm"
+RPM_HASH = "e7cb9c10fe4c221e9665334a2ff3eca1f96f550e355472a0a7c8152bdde12b97711cf9cad96b957b0b72362062ebb35c5ee8563a47f11d964487209de9b34f24"
 
 RPROVIDES:${PN} += "libmirage-devel \
 pkgconfig-libmirage"

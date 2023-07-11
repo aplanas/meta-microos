@@ -36,12 +36,10 @@ LICENSE = "BSD-2-Clause"
 
 PV = "3.18.0"
 
-RPM_NAME = "python310-pycryptodome-3.18.0-1.1.aarch64.rpm"
-RPM_HASH = "35ffe5b979259f83bc5d6fc667d0bdcf159c615c78ce851d5a13fba0ce0c96e548ab079114733d185e43b10cf3703fea136ee5203065a49089c594964a440f09"
+RPM_NAME = "python310-pycryptodome-3.18.0-2.1.aarch64.rpm"
+RPM_HASH = "f418ba734e77b9e6146f776534493a6ca8c6cff65e055e6c8052728ffb40f8e142e84d55a1396686199358e112dbc15096e6c791e5b5bc6ec8f8d73aa9ae8585"
 
-RPROVIDES:${PN} += "python3-pycrypto \
-python3-pycryptodome \
-python3.10dist-pycryptodome \
+RPROVIDES:${PN} += "python3.10dist-pycryptodome \
 python310-pycrypto \
 python310-pycryptodome \
 python3dist-pycryptodome"

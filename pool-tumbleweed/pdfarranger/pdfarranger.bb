@@ -9,12 +9,12 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.9.2"
 
-RPM_NAME = "pdfarranger-1.9.2-1.2.noarch.rpm"
-RPM_HASH = "b95d492f92b759f7647463b80a1aa886a28a7b72dabc0f092f5a3166dae287d4864d7a8daee8b3dc81f3c88efe3057fb18d67f99c2751f2998c5a3676713c772"
+RPM_NAME = "pdfarranger-1.9.2-1.3.noarch.rpm"
+RPM_HASH = "be1b63c6a573d001d6c90d8d07622d5b63711e27b7a16634ecc17ea658f3aaef34e5eb353d77caa71086daa621bf1152cd0e4e6e373bd9d8af832ab35547ca07"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pdfarranger \
-python3.10dist-pdfarranger \
+python3.11dist-pdfarranger \
 python3dist-pdfarranger"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

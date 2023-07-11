@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.6.3"
 
-RPM_NAME = "movit-devel-1.6.3-1.15.aarch64.rpm"
-RPM_HASH = "7fd50c8606014d85041893cbce2f9032da7fd68519206f391ddd9eeff7ccf55d14e1347f526fcba6ea4b65ed3fb85b4ccbe8ac97f0e8bf761b1ea9dab214c298"
+RPM_NAME = "movit-devel-1.6.3-1.16.aarch64.rpm"
+RPM_HASH = "47b6884d8943e9215c5dd3a5db9f6ce09ee2ed249a37ae3516db30885ff123cfedf551bf2fb4d588af434ccd7a92ffd29bb62293c2b34cc5aebbe3c9b32b4879"
 
 RPROVIDES:${PN} += "movit-devel \
 pkgconfig-movit"

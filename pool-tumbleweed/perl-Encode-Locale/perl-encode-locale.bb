@@ -103,13 +103,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.05"
 
-RPM_NAME = "perl-Encode-Locale-1.05-1.26.noarch.rpm"
-RPM_HASH = "f09d12dd240e3ec4db6266058cdc6587bccb27caa0e07a5a68ad6cd9921667566e98195a7a24fcb454f30f677e9d2bae9170279df13fc94561a3d1cf998eec7a"
+RPM_NAME = "perl-Encode-Locale-1.05-1.27.noarch.rpm"
+RPM_HASH = "85ec9bd2f05115586f14b86b20eb31cdbe98e3842e9dd3d5cbad02163c3643b86e98f324f325cdd6a9779a583260dfaf3a950958594088abd335ecb1f5343f9c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Encode--Locale \
 perl-Encode-Locale"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

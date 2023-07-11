@@ -7,14 +7,14 @@ LICENSE = "GPL-3.0"
 
 PV = "0.2.0"
 
-RPM_NAME = "unpack-install-jammer-0.2.0-1.8.noarch.rpm"
-RPM_HASH = "3490cb8d513f01fb6bfeda26461ea1517212b44f889ace56f5dca033bd178d1e9fe066e8a03658149c1c6fc43b54aa5b6369f8f5ee0a8471347664866e0c98b1"
+RPM_NAME = "unpack-install-jammer-0.2.0-1.9.noarch.rpm"
+RPM_HASH = "81b60d19541f2c50638d3304c9893a38a7598400dd08511fe35debd295c5d6294dcf8e16776fed10362603b1713cd67230540e84de3d0deacdba8f3d4c723809"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "unpack-install-jammer"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-Compress-Raw-Lzma \
 perl-Data-Dump \
 perl-File-HomeDir \

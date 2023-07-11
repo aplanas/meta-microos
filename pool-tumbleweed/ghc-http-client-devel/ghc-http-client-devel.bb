@@ -4,10 +4,10 @@ LICENSE = "MIT"
 
 PV = "0.7.13.1"
 
-RPM_NAME = "ghc-http-client-devel-0.7.13.1-3.4.aarch64.rpm"
-RPM_HASH = "d6521dbdd91c979ccf6e1e443b0131ee0d6f5a2219dc8e2a411a0100eb884f7e32a862d41cf456575ac9b42a62fbe6f44df3fda90f26d7b5cd2d01be150d7367"
+RPM_NAME = "ghc-http-client-devel-0.7.13.1-3.7.aarch64.rpm"
+RPM_HASH = "115535f08f5d681249aeba6153733c61c395f4a57fdf5f7f9a4d0fb2c152b140ebaac77ae21e8902866bb6949a81ea554ba95b2291ac0139f3397d51aa7b2a59"
 
-RPROVIDES:${PN} += "ghc-devel-http-client-0.7.13.1-zzcC5JvmJYD0Lc0D9h215 \
+RPROVIDES:${PN} += "ghc-devel-http-client-0.7.13.1-LvoiBjsIce7LUIKGveF6IJ \
 ghc-http-client-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -26,13 +26,13 @@ ghc-devel-exceptions-0.10.5 \
 ghc-devel-filepath-1.4.2.2 \
 ghc-devel-ghc-prim-0.9.0 \
 ghc-devel-http-types-0.12.3-4BrMFwRucoT4fBt8cCVFS6 \
-ghc-devel-iproute-1.7.12-2mj2MFOMRz35bHY4Q7Jvyd \
+ghc-devel-iproute-1.7.12-IhoklPQYItb8qGu1G3vmcD \
 ghc-devel-mime-types-0.1.1.0-IrWGRRDe33Y1D55h7nh7fm \
-ghc-devel-network-3.1.2.8-HNDBp0HF6t0D1fzE2MDtPd \
+ghc-devel-network-3.1.4.0-FvtFepOtuCUH79FCWyNxIc \
 ghc-devel-network-uri-2.6.4.2-4kNQnaE9heqEL1mH8FE5xH \
 ghc-devel-random-1.2.1.1-I0wUgAAbf0g3qHR3e8uT0o \
 ghc-devel-stm-2.5.1.0 \
-ghc-devel-streaming-commons-0.2.2.6-DrPeIbd2d2c3jQtctttO4G \
+ghc-devel-streaming-commons-0.2.2.6-EjKcoRCMdUH4DbzWvGfVlu \
 ghc-devel-text-2.0.2 \
 ghc-devel-time-1.12.2 \
 ghc-devel-transformers-0.5.6.2 \

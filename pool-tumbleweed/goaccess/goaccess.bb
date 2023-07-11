@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.7.2"
 
-RPM_NAME = "goaccess-1.7.2-1.1.aarch64.rpm"
-RPM_HASH = "606089e8fc35c85df6fb15ad7be9d216610d4a538d4e628006f5f55da08706fa02aa5c4306c27a1f2a5708739adf7fde637606f5925a85bb2693bc67f4bd8b2e"
+RPM_NAME = "goaccess-1.7.2-1.2.aarch64.rpm"
+RPM_HASH = "73ca65729677905f45f698bc912c1e59f782bc0a21f08115f79fa6c111aa5c9d2e966add21cf2511c8afc2b02b0680727d7a50e16b5ad758e35c7fe37bcbdf15"
 
 RPROVIDES:${PN} += "config-goaccess \
 goaccess"

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "2.3.1"
 
-RPM_NAME = "acl-2.3.1-2.12.aarch64.rpm"
-RPM_HASH = "f852f0d712a7116cf0e395a4a4b4b90dd5eb7719c23f919da4f06c58ea6cbe5d1080b0d32ecd44b1acc794bbb014968849dd443dfb92c8b9f96edbc6f164b6bb"
+RPM_NAME = "acl-2.3.1-2.13.aarch64.rpm"
+RPM_HASH = "092a31d86341113ba17d5478af5d66b0ffbee65398eb348af9470e94b88e105e64f63f87460391b3a4343ecb4f4fb64da60603adb35ee0755acf4e7cd2702f53"
 
 RPROVIDES:${PN} += "acl"
 

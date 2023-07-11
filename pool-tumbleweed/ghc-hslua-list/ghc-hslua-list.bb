@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.1.1"
 
-RPM_NAME = "ghc-hslua-list-1.1.1-2.3.aarch64.rpm"
-RPM_HASH = "c5c4ef68f97a3e7c9dbc249702e9ab22cf30d6f11ff737caf1d1d55d416ef0a19e8224b5a0a511b5dfc31f142b5f4ba7398a29f165bfeb4c80067c6a860ab9bf"
+RPM_NAME = "ghc-hslua-list-1.1.1-2.4.aarch64.rpm"
+RPM_HASH = "a9b53c82bcdd28df980cf3c306213b69464c3daf0647e034ad42efa9bf70ed66df5ec59ea4abf8b810d0825b82dabab891eb8cc8b75699001d32eb7cf6076276"
 
 RPROVIDES:${PN} += "ghc-hslua-list \
 libHShslua-list-1.1.1-9l63Ku7u96Z6i2wKz0R57A-ghc9.4.5.so"

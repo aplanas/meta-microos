@@ -4,11 +4,12 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.2.6"
 
-RPM_NAME = "python311-kitchen-1.2.6-4.10.noarch.rpm"
-RPM_HASH = "8b3eac1c7a57b4b74bfee1046467dad669ccb39557733c34f75ff895df673c8b6baefc7a70c1727baa20a170eab541fe23d9ffcf09a6b1d42e74c34533e03501"
+RPM_NAME = "python311-kitchen-1.2.6-4.12.noarch.rpm"
+RPM_HASH = "14ae8f19d5b789b25973aa03f7c8db08e6c622cd18d832fdd66d6fb465eb1ee1534cba99ad01113b0f36c532ba40db83002d1ab8bb50cea0d1f5f66c469fc18e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-kitchen \
+RPROVIDES:${PN} += "python3-kitchen \
+python3.11dist-kitchen \
 python311-kitchen \
 python3dist-kitchen"
 

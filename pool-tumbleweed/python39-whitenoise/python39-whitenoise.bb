@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "6.2.0"
 
-RPM_NAME = "python39-whitenoise-6.2.0-1.3.noarch.rpm"
-RPM_HASH = "c13f5ee1e1e146fdfbbcf1d1d16352f35ba9e9b5d7ccdce9030e9b12dc81a0bf9f7209a2dd8789559302405840e34b2cc0b4328b6ff6b859307dd2068fdd7a5c"
+RPM_NAME = "python39-whitenoise-6.2.0-1.5.noarch.rpm"
+RPM_HASH = "f99d0a53c5b739eec22c65120ee12cd4e65808954f5dd44a917ff45003ae1c7511e1ee77d237c0a2d520904eaf1df98a0d164860fbf8fc4827ddc1cec520269d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-whitenoise \

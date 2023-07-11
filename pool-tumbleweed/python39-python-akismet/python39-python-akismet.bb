@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.4.3"
 
-RPM_NAME = "python39-python-akismet-0.4.3-1.3.noarch.rpm"
-RPM_HASH = "88a9917f321915d2fb51937039d7b56fa0ab161c124c75627fb56d23300ab1c1fe4591e658d7d9cb5d2979c4f2bf7b44aa6adff38fef8def095b85b2ad7468d8"
+RPM_NAME = "python39-python-akismet-0.4.3-1.5.noarch.rpm"
+RPM_HASH = "7b652ced3d16c17556558f767d1575c2ffc83707dd362147d518b50e662f709f15be2d5419d01a7fb94213570715ee8dc7cbe7b0dcbdbad00d2a1f16b0fba1ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-python-akismet \

@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.5.5"
 
-RPM_NAME = "python3-pyginac-devel-1.5.5-2.23.aarch64.rpm"
-RPM_HASH = "d5646e5b9abba63b03773b1a1d697705c36faa01bb041e2d6204dd37890626fdc2c06e875b207dfe73996dea8028b22d41a84a0b8aaa55af8efcb8d81b02b525"
+RPM_NAME = "python3-pyginac-devel-1.5.5-2.24.aarch64.rpm"
+RPM_HASH = "e21b68a698e06ff6db0fa8c3ec6b6298f02de3c462727d6a7bf01390ed5f4daaddc7dbd9a58ce35ffd9e53c34dd8c4dfcc8b647fadd9dbea0bc87e55a118d82d"
 
 RPROVIDES:${PN} += "pkgconfig-pyginac \
 python3-pyginac-devel"

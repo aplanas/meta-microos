@@ -19,8 +19,8 @@ LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
 PV = "1.12.55"
 
-RPM_NAME = "gnumeric-doc-1.12.55-1.3.noarch.rpm"
-RPM_HASH = "c192c4d04dc15f97544f33e53743bbdef526393b3c83589bdd694f7a93a7ddeeb616d1695ef3ecbf3a36b90f3308f589db845cd9b7f5bad281070415d0b7229e"
+RPM_NAME = "gnumeric-doc-1.12.55-1.4.noarch.rpm"
+RPM_HASH = "801226628f8f91a3822fc45d19a796b6a9d88bf360484a8718dfb3fa8cfa2468acdbcbb52fc6dae9566b68c75e110c89744fa29434bd48809b80b9d8be4a0bc1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnumeric-doc"

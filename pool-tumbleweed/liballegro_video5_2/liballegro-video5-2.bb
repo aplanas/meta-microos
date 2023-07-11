@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause & Zlib"
 
 PV = "5.2.8.0"
 
-RPM_NAME = "liballegro_video5_2-5.2.8.0-1.3.aarch64.rpm"
-RPM_HASH = "f8fb6459386e1e137aeb5cd3d84895b23f310c66cf317b5150a2b581cc66b39cd26d932f5d5772a56ac270980270daacf36f22aabdaee04cc08b499ee6b3b05c"
+RPM_NAME = "liballegro_video5_2-5.2.8.0-1.4.aarch64.rpm"
+RPM_HASH = "8da4981c4740af401d0f97a0317c4c76ded0eed28e2f89af721f7174380b02837f0359011fe6b273de0ed380b575f29e72e03fadef6e6962b5b27139240ece00"
 
 RPROVIDES:${PN} += "liballegro-video.so.5.2 \
 liballegro-video5-2"

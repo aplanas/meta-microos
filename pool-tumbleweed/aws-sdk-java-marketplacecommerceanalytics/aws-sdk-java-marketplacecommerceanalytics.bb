@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0 & SUSE-Public-Domain"
 
 PV = "1.11.3"
 
-RPM_NAME = "aws-sdk-java-marketplacecommerceanalytics-1.11.3-7.8.noarch.rpm"
-RPM_HASH = "fb4534ad3be23fd53395f3d12c35e11be30fbe635a233db5c39b8ef6bcab9afaffa0b361a73f93f1e78fa0511117ae4ade1d6d50cdac108a3aa6c2d3c490464d"
+RPM_NAME = "aws-sdk-java-marketplacecommerceanalytics-1.11.3-7.9.noarch.rpm"
+RPM_HASH = "15e1e5a776b9d8e0183e186fa87cdac3d03a798fbdf75e669603d47ae5f3e900aca9ba0cebabe66ed50f64a28f13891eb1f19d424873cb9e8876d379bbe7f5e4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-marketplacecommerceanalytics \

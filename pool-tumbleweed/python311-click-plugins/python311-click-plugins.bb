@@ -9,11 +9,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.1"
 
-RPM_NAME = "python311-click-plugins-1.1.1-4.8.noarch.rpm"
-RPM_HASH = "7e7fb38d8aea342964b9c11ee5ee45628ea76d5dc270d3ec8b96444bb901b64ecbc2fc969926aa5a4923a52af4b94aad186c201c312f62929410f5e99720b860"
+RPM_NAME = "python311-click-plugins-1.1.1-5.3.noarch.rpm"
+RPM_HASH = "f29613dfa50f0f62d93c946cef3a60a5e4ee23d52ad15c0da4164d1292bb50d3399999bba3d399807ad76fa440898296667fd80a3b57ca0481e66c9b9de7c794"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-click-plugins \
+RPROVIDES:${PN} += "python3-click-plugins \
+python3.11dist-click-plugins \
 python311-click-plugins \
 python3dist-click-plugins"
 

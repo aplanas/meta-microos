@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.2.51"
 
-RPM_NAME = "libbelr1-5.2.51-1.1.aarch64.rpm"
-RPM_HASH = "21196c9f9e1e685e676bddccec7319ab13f890bc84b6d897adf4183910f1c4dc1df6bf723e840191f553aaf6aeb0ad84c91da88527eed789ff8c433b0da6511a"
+RPM_NAME = "libbelr1-5.2.51-1.2.aarch64.rpm"
+RPM_HASH = "19908b68fbd0396bd115245ee03ad29a65c81b2665ed581f02da6ad385066dd7f8f9141bbc852188c2dcb00c72ed3b2936509926a6adf99cac6ae68956a38d87"
 
 RPROVIDES:${PN} += "libbelr.so.1 \
 libbelr1"

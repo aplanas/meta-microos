@@ -15,12 +15,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.8.1"
 
-RPM_NAME = "pdfposter-0.8.1-1.1.noarch.rpm"
-RPM_HASH = "32315a750f563b71d1c916a23679975dec85805533cf8a508418d832b49155f29f240d404a61b9d6d8126f7b776de5644f28ddedfe08d8eba358a9b870c6ea57"
+RPM_NAME = "pdfposter-0.8.1-1.2.noarch.rpm"
+RPM_HASH = "4163dd72944cc917de036084a73cfa5d4003b0a0d802c26bd80763296555f793f74d7d89bd7f78cd81698a09b8587c0784387ec0dab8130ab95cd8f641acfb8e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pdfposter \
-python3.10dist-pdftools.pdfposter \
+python3.11dist-pdftools.pdfposter \
 python3dist-pdftools.pdfposter"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

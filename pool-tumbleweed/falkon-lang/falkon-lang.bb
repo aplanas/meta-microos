@@ -2,10 +2,10 @@ SUMMARY = "Translations for package falkon"
 DESCRIPTION = "Provides translations for the 'falkon' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "falkon-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "327842eb83c01ee8f254459521a7f0805a5f9f73b85d1243d0631789b200a93f51f7c0761cd7dc780e46c9734bffedafcaf9a51c7ffe4276ddf5e8e3b14b9e79"
+RPM_NAME = "falkon-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "f07fd0edf7f8123d82d60f6a0d86e9626bf22e7434a9e887633c7b6d6ca763446f050bacd5b96b96134804c7e715540bca2b96495e3ba3bdb02a5a8b6b8411cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "falkon-lang \

@@ -3,17 +3,17 @@ DESCRIPTION = "This package contains the kernel module for OpenAFS. For details 
 the openafs package."
 LICENSE = "IPL-1.0"
 
-PV = "1.8.9_k6.3.4_1"
+PV = "1.8.9_k6.3.9_1"
 
-RPM_NAME = "openafs-kmp-default-1.8.9_k6.3.4_1-4.1.aarch64.rpm"
-RPM_HASH = "eeb6062a60d18e9d2104d6c82ae65c0f55b6ade7937e8889359863681256843a6db36acd3837139721a5cf1f0516b1da1b3b713f5ab7a4506d6a60c23d1104db"
+RPM_NAME = "openafs-kmp-default-1.8.9_k6.3.9_1-4.6.aarch64.rpm"
+RPM_HASH = "42a976eb14c43dd34c2fd1ebd8f7dc569ab7c7f8092fa9c82b9cce1aa12b301114fb670ff35c4b77e2b5e017585f0b732bec8f9a6619152718ffb93693050b74"
 
 RPROVIDES:${PN} += "kmod-afspag.ko \
 kmod-libafs.ko \
 multiversion-kernel \
 openafs-kmp \
 openafs-kmp-default \
-openafs-kmp-default-k6.3.4-1"
+openafs-kmp-default-k6.3.9-1"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \

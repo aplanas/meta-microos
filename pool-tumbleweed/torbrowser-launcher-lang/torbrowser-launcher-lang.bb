@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.3.6"
 
-RPM_NAME = "torbrowser-launcher-lang-0.3.6-1.2.noarch.rpm"
-RPM_HASH = "f0422ef6e8b1e20f5ba8b480adcfd2ad49c8e5d5d4082d8fee9077a7f778365dd2c8f6e3add206b3f903cbdc0d5fdb6915037418a9f2b09c91a1fada96bab77d"
+RPM_NAME = "torbrowser-launcher-lang-0.3.6-1.3.noarch.rpm"
+RPM_HASH = "507bbdd96516942405194d8b86cfabb19b12a85f23d9b91663914c3d904c4cdb9768e4006f5b02810789b225928ca67467558708b9a0560586be1c204e428fc4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-torbrowser-launcher-be \

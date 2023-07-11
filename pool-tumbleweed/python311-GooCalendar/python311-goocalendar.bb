@@ -4,11 +4,12 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.8.0"
 
-RPM_NAME = "python311-GooCalendar-0.8.0-1.2.noarch.rpm"
-RPM_HASH = "8f1abd0d297622c414a6a5d2e08591f86e4f1aeb55154501b4456939e72d2e1b33ed53d0c3590fa5e84532d5aa7b661b4b6c18a07b5ba23a2367a191a6e54d9d"
+RPM_NAME = "python311-GooCalendar-0.8.0-1.3.noarch.rpm"
+RPM_HASH = "ab55654ddeb00a707d041d71d4b9650738eeb1ef8a1a3932466eabf1f694d32fb13c33bcb74b343e9b11f3907e7a2bb1754528e6b410fe6bb2233778ddb7c206"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-goocalendar \
+RPROVIDES:${PN} += "python3-GooCalendar \
+python3.11dist-goocalendar \
 python311-GooCalendar \
 python3dist-goocalendar"
 

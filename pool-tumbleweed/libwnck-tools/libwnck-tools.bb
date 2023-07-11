@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "43.0"
 
-RPM_NAME = "libwnck-tools-43.0-3.3.aarch64.rpm"
-RPM_HASH = "d720417800644f4038ad5b5a9876b732e1656ddfe1dbf02f488232ba19295efb84950213aa6997bc14050f35ade3ed54224eee6d79f2c8e7411aea0a6ef8a009"
+RPM_NAME = "libwnck-tools-43.0-3.4.aarch64.rpm"
+RPM_HASH = "cfa04ae04ef0f5492520a8ad694eef48ada3d764b2094f14e923cecb435a7f36bed4dadd6e161eaf5b9c9ee3eace93fac5245bd9ac5bd95ea844a0f354495907"
 
 RPROVIDES:${PN} += "libwnck-tools"
 

@@ -13,11 +13,12 @@ LICENSE = "Apache-2.0"
 
 PV = "8.2.2"
 
-RPM_NAME = "python311-tenacity-8.2.2-1.1.noarch.rpm"
-RPM_HASH = "86f6584a591ddc504402a6770428d3c4eb89e16e3d666011b7f0d9b2a85101d17f757b7673522b8c33daac3c5cf4ce8709d9c76882098cf48dbc2d35f86426f3"
+RPM_NAME = "python311-tenacity-8.2.2-1.3.noarch.rpm"
+RPM_HASH = "a1dd24cea901dee7ed1ccc0896cbce6bdb3fe178651f1ea97360983fe8a961c0b358275676c276867d0c973f85e34729e59a989c7ff7b6509a9313530c20a28a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-tenacity \
+RPROVIDES:${PN} += "python3-tenacity \
+python3.11dist-tenacity \
 python311-tenacity \
 python3dist-tenacity"
 

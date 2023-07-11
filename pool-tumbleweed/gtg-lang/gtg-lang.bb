@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.6"
 
-RPM_NAME = "gtg-lang-0.6-1.4.noarch.rpm"
-RPM_HASH = "5d8146cbfc88d13a22c5505cd79b25dcc391d824a3ef7cbf9ef36324fa16d7d37fea57fe95bab52503928fea1f4a8df64c8f9a564a9a131895891760a7d17be8"
+RPM_NAME = "gtg-lang-0.6-1.5.noarch.rpm"
+RPM_HASH = "da74cabc7f444d133a23bc6983cf7e6b43018603925439de43165c8cf16b4f5db0c90bcc94dab98f23ee65f532e2db707d4bef86337bab0953966719794dd8a2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtg-lang \

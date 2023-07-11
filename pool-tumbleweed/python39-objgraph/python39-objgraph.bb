@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "3.5.0"
 
-RPM_NAME = "python39-objgraph-3.5.0-2.1.noarch.rpm"
-RPM_HASH = "092e4dad1db3ce124320b9cb5afed72bbef4bb25a938c2bde9daecaa5b836554c99da2ee9a2b345d1d25a4e46975bad2541349996c5958bf18311b49dab67e0d"
+RPM_NAME = "python39-objgraph-3.5.0-2.2.noarch.rpm"
+RPM_HASH = "2e55628cc3cb7b263f312478c783325c8c9ee9ef1317b90fbe3c2f7de2b55a304c979892e8afb41fc84b7d98001a97923a4687dacab0b6df6eb650df155e2387"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-objgraph \

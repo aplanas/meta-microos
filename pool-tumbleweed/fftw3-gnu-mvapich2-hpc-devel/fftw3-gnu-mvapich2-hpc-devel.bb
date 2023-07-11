@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.3.10"
 
-RPM_NAME = "fftw3-gnu-mvapich2-hpc-devel-3.3.10-3.6.aarch64.rpm"
-RPM_HASH = "21d85eb1fe57e1650a00b12ff4da63d50a7aa721d642a494ef0cdb3691f1f62f96730fe5fc4b31caf6af1ff2823acf09cf1808508c925f413b635ff2e1b61967"
+RPM_NAME = "fftw3-gnu-mvapich2-hpc-devel-3.3.10-3.7.aarch64.rpm"
+RPM_HASH = "4b2d0e34c4aab97e083cd238f5168cf9e9c9ee22017ca4c2c6a9dbdf2a96df89990bfa6cda7d5a8b7f440c97015b3e6526556d5e6d993d04d83adcc3619c5097"
 
 RPROVIDES:${PN} += "fftw3-gnu-mvapich2-hpc-devel"
 

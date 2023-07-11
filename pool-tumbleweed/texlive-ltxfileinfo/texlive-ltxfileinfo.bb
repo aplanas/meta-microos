@@ -7,10 +7,10 @@ the --star or --color options) check the valididity of the \
 Uwe Luck's readprov.sty."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.2.04svn38663"
+PV = "2023.208.2.04svn38663"
 
-RPM_NAME = "texlive-ltxfileinfo-2023.201.2.04svn38663-52.1.noarch.rpm"
-RPM_HASH = "6112b01c9cf6dc9cfe791fd0e274e33cec3aec760eb2b97a5451d0a597e2b5b490c1bcaa0c7d732e3602d89706f5cc84f67e7847f869948ff9f78fea001b77ad"
+RPM_NAME = "texlive-ltxfileinfo-2023.208.2.04svn38663-53.1.noarch.rpm"
+RPM_HASH = "eca56f6f360c055dbc60dfd3c7e3f9bb30c27567106117e080152fa8538572fcfb0ed1cfdbe740fd58741f4238a4284470af262915973e37fae4f7697ade197e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ltxfileinfo"

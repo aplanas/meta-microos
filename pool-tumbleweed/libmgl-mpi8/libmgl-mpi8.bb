@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "8.0.1"
 
-RPM_NAME = "libmgl-mpi8-8.0.1-3.3.aarch64.rpm"
-RPM_HASH = "795a0cd68befc1b39dcb36a2fbd1137b3d58f0a9107317940a54b868eafc4f9c604fce6c8cdf42e0d6e534c65b296e6625eee0500c3aa42e572acefe1c838b23"
+RPM_NAME = "libmgl-mpi8-8.0.1-4.2.aarch64.rpm"
+RPM_HASH = "4ce753dcbc426d110c2e2467dc610c0d1045bd88938ae16e45876178fe08caa714dafb93e47ed9ab32324fc37b2d6fb1dee23e6989cf88313b71a4e25344bc63"
 
 RPROVIDES:${PN} += "libmgl-mpi.so.8 \
 libmgl-mpi8"

@@ -9,10 +9,10 @@ communication. \
 This package provides the shared library for the Acero streaming execution engine"
 LICENSE = "Apache-2.0 & BSD-3-Clause & BSD-2-Clause & MIT"
 
-PV = "12.0.0"
+PV = "12.0.1"
 
-RPM_NAME = "libarrow_acero1200-12.0.0-1.1.aarch64.rpm"
-RPM_HASH = "c0525026b48cd57a2c4634082721cc358c812ba951494fc97395416b43d38b15fdc8590f7a7d8f267cf7fd96f720d137af612ff60f3af6485fab7385b9d1f272"
+RPM_NAME = "libarrow_acero1200-12.0.1-1.1.aarch64.rpm"
+RPM_HASH = "d78f2f1098cbbbaca76f4051563cdeea7db6f0e6f2bb0d1846e95311109a9acb8faf7201ecacd8c6dbd01fe3007e36e465b761117a250dd95740c7f74589fd79"
 
 RPROVIDES:${PN} += "libarrow-acero.so.1200 \
 libarrow-acero1200"

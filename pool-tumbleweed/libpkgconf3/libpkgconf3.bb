@@ -5,8 +5,8 @@ LICENSE = "ISC"
 
 PV = "1.8.0"
 
-RPM_NAME = "libpkgconf3-1.8.0-2.3.aarch64.rpm"
-RPM_HASH = "3940a879f0c166da7fa5ce8765eec98eddfd91d03a20066d34a37375b69576dc80e2876d5db29c7c03a1de9a964bed5600718d918080b1b6d3ae302ceef32a18"
+RPM_NAME = "libpkgconf3-1.8.0-2.5.aarch64.rpm"
+RPM_HASH = "4e305a31a26b950a4a23671a846e9c562b716ff2afd61370a3de17dc7162a50c0010809fbbea16068b5929b61b31f4d56093d65ced18a2d4acda90ae5657bd87"
 
 RPROVIDES:${PN} += "libpkgconf.so.3 \
 libpkgconf3"

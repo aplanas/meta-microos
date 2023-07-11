@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-imperialaramaic-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "18ac413bd0628ae134dc7e20f872cb6b1646fe09c3f95f5f323cfa5f9292dda23a814a8912ade8670e8010c8a5d499a80d124a3b651784fa41ee674a5edf8c73"
+RPM_NAME = "noto-sans-imperialaramaic-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "9fd64cd66ebd960b6fd761b86dba5f9240ca9d5dd7aa941d935af25a612c4655a2b4b2ecc441adf220a665587abc5c002895935e2ea66765e592a792318217fe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-imperialaramaic \

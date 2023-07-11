@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.201.0.0.22svn60162"
 
-RPM_NAME = "texlive-python-doc-2023.201.0.0.22svn60162-53.1.noarch.rpm"
-RPM_HASH = "ccfa237aae88e8d82c8f9cea85b891ea06332e47687c44b71ae49d21b0f133c07e7b41ebe609c4ea3a9b83593f526715ef1131c06f57394eb4401a6f492db1f9"
+RPM_NAME = "texlive-python-doc-2023.201.0.0.22svn60162-53.2.noarch.rpm"
+RPM_HASH = "2eeab0b29d8c1f4629df90408042cfa7c62df0a5771db919b0b862d3133a13f177079b6b6ef37de97578f7e597180aa6022a8488d225d7347fb493af200053b0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-python-doc"

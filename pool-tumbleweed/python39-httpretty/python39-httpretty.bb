@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.1.4"
 
-RPM_NAME = "python39-httpretty-1.1.4-5.2.noarch.rpm"
-RPM_HASH = "0a5760108fc3fc1b90f4656954de522d7f28a32734596f0c4aa263001dccf5b5004ca0fead783bf5476452e01bc28c71cae24e5c20671b8f3a7a546ce1159933"
+RPM_NAME = "python39-httpretty-1.1.4-7.1.noarch.rpm"
+RPM_HASH = "b554b85e22433832963048433cb2de3044ec737e4983650706c38174a384aca9c0efa83dbf069056dd639963baafc57773245f42bbcde8d1c338307e6cb0f557"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-httpretty \

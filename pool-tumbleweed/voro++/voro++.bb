@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.6"
 
-RPM_NAME = "voro++-0.4.6-1.24.aarch64.rpm"
-RPM_HASH = "8558eead56474c6ae66f3353b31b4bb53fe8b5f920e1f58c05480916fa6a4405e4675ba6f0feb9be10b7a7bb21cd08d35af64b303a025a0d81d39494bf6c2ffc"
+RPM_NAME = "voro++-0.4.6-1.25.aarch64.rpm"
+RPM_HASH = "6d0c2fcf54a412789be43d4a0e3e1171dc4fed4b71f46ea6e078f9ea3482615d19ba4f0acf16bda3fd24dc5af25f7f4501405be77b513a58567a1759c1adc2d3"
 
 RPROVIDES:${PN} += "voro++"
 

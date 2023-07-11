@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
 PV = "2.3.1"
 
-RPM_NAME = "monitoring-plugins-nagios-2.3.1-9.4.aarch64.rpm"
-RPM_HASH = "7649424b03fc0f40961e83cf88a256d16c2d48cf8bbc52b5d9b847976749ed431232bf768bb5538490495705253465892a3ee8aac35f36d4e9481269088f9fd6"
+RPM_NAME = "monitoring-plugins-nagios-2.3.1-9.5.aarch64.rpm"
+RPM_HASH = "2bd33b2d5d9d6dadea9d4918cbafb751dc85c808e27f271aea4c0e7a5ae9630de627c6b80b1237d3ca8f14f2b307ae1abefe1894d265c9f0d2d4e2c802d670bd"
 
 RPROVIDES:${PN} += "monitoring-plugins-nagios \
 nagios-plugins-nagios"

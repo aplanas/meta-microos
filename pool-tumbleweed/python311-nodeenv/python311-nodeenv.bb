@@ -4,11 +4,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.7.0"
 
-RPM_NAME = "python311-nodeenv-1.7.0-1.5.noarch.rpm"
-RPM_HASH = "7c6a720c546087bf658b222dcc6f992544af8af0df28f58ca4fe8aad3e26c384f9636d140f7ae815de0adfab29cc460caafb75696b7b9451ec5dfdd73e19f1a7"
+RPM_NAME = "python311-nodeenv-1.7.0-1.7.noarch.rpm"
+RPM_HASH = "664a49d2066e9a21becb300169d6b501d6964662ab0d3f5bf3e847eac6d4a8fbdfc304ac2e545f3c70da33b215fc7a387a87bd89645bd584d6f746b031f85aa9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-nodeenv \
+RPROVIDES:${PN} += "python3-nodeenv \
+python3.11dist-nodeenv \
 python311-nodeenv \
 python3dist-nodeenv"
 

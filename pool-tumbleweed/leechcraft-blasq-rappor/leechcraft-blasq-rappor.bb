@@ -5,8 +5,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-blasq-rappor-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "314317a001056a3cc5ac19e0f2726c2f98304755c487339a01563d27686ac9b49b6f3170b1c5328eee9abda017d1fdefdbad80e8355507ad9fe643881172a330"
+RPM_NAME = "leechcraft-blasq-rappor-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "3d4fb5a828ee7e54cb7cd0b181634e21da47a07e36dccf8be8eace34e756d27b1547813d6763b29b6707c821d3e5f0c5f53165418992d966f48c4bc0e2b1e927"
 
 RPROVIDES:${PN} += "leechcraft-blasq-rappor \
 leechcraft-blasq-subplugin \

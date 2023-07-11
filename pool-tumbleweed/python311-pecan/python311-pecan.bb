@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.2"
 
-RPM_NAME = "python311-pecan-1.4.2-3.1.noarch.rpm"
-RPM_HASH = "4035389ca6993daefa9e10a7ff6bc972719a761b1ddfef710497fb5c71bb2de4dfb7220d36b16a13b6fa61a582664bac44f993f4028e8bd7446fba84b8342929"
+RPM_NAME = "python311-pecan-1.4.2-3.3.noarch.rpm"
+RPM_HASH = "2db7511ecf3579a110dc2cb83c82fe08ddd459d467670f23bab3f873ea1626ba6ea4156f5a69503f24679b3e4d3c63e90f7b69f59c3dbd55859ea6aede401c58"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pecan \
+RPROVIDES:${PN} += "python3-pecan \
+python3.11dist-pecan \
 python311-pecan \
 python3dist-pecan"
 

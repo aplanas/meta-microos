@@ -7,8 +7,8 @@ LICENSE = "IPL-1.0"
 
 PV = "1.6.3"
 
-RPM_NAME = "wsdl4j-1.6.3-11.6.noarch.rpm"
-RPM_HASH = "23d35d6bfbacb69aa95af0325e88d9871558cee4f856ffd3c7f5ced3d720ee59b6229e0957b1431caa877403a62691ff2761f1a5b6b862555dc945be7b307b37"
+RPM_NAME = "wsdl4j-1.6.3-11.7.noarch.rpm"
+RPM_HASH = "85bad0acd42e3f52fc0c53538b1e85a4cd38d84dc88b58201295781c4d66336684fbc7ad91502f7a704db3f83785a7b13d5302fab2ccdb06204c1bee8d9cf4cf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-axis-axis-wsdl4j \

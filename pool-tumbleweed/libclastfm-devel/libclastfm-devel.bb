@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0+"
 
 PV = "0.5"
 
-RPM_NAME = "libclastfm-devel-0.5-9.26.aarch64.rpm"
-RPM_HASH = "15d18c6a39ded5a3e7d8890ce3ad0a0c620052c81964cf392b693094f498f5de54344b6cd6c68d55597e5e12c9d8f31ab67fc81f92579149d0089b0ea8a97d57"
+RPM_NAME = "libclastfm-devel-0.5-9.27.aarch64.rpm"
+RPM_HASH = "046320ca3171502de7b4df014a732cd4ea6d30eda9ff41893411ed089a0ecc5e59ee073919cef631d52ecb2a932ab2df1654af9655ce394d279d2a9918be7377"
 
 RPROVIDES:${PN} += "libclastfm-devel \
 pkgconfig-libclastfm"

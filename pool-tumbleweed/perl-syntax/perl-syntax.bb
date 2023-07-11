@@ -14,13 +14,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.004"
 
-RPM_NAME = "perl-syntax-0.004-5.25.noarch.rpm"
-RPM_HASH = "65eb3b1462af509b65bf5787d959b141f5522e9b0d9a18b93aa44cd15559925d6bde6683d71cc8dbdbd8ee68e61a4ca66034be6ce346b1a4bb1de48f56d985c8"
+RPM_NAME = "perl-syntax-0.004-5.26.noarch.rpm"
+RPM_HASH = "c73061532c1aa6bf8f070fa55ffb646189ddd415384ac5ea2504b7c7f1a6e81e219932d00295175882064ba982505c7c546d21ad12b4731640e3548f96b77971"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-syntax"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Data--OptList \
 perl-namespace--clean"
 

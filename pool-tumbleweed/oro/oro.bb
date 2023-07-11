@@ -12,8 +12,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.0.8"
 
-RPM_NAME = "oro-2.0.8-297.6.noarch.rpm"
-RPM_HASH = "36b26084acb56ca891d380a4976bc3eb1a82d2f1b92ceadb62f36fd86ab8ea9169a4de48e12b4e153e1f30c1bfb2032d33fd0228cfc40cc82542509e5a87c418"
+RPM_NAME = "oro-2.0.8-297.7.noarch.rpm"
+RPM_HASH = "849093cee98311cfa2dd8e97631c99e8a8689d56df13f010a7e8c9b5d1780a98e417c48b8f4a3bf7a155d908214f4973df8a0aa987f76e5c042831abc1905eb2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jakarta-oro \

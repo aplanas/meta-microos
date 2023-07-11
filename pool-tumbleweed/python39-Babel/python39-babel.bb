@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.12.1"
 
-RPM_NAME = "python39-Babel-2.12.1-1.1.noarch.rpm"
-RPM_HASH = "095538674ef44969300bf142a0f7a527ca8839a6172b33f810e3980ec39885e5d9f427a805cc73e16701f33d2540fb9850dd5bac813a159f5ea8ec0b5d34e6ba"
+RPM_NAME = "python39-Babel-2.12.1-1.3.noarch.rpm"
+RPM_HASH = "bd6354ac3817db0c66e2a4f31da0067e1aa7ca49d4df8b1325dd57a41c02a0d1dd4fa6f7c6518c045a910b76089445034639774ea879a8d3aff38957d5ab3788"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-babel \

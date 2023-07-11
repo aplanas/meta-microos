@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.1"
 
-RPM_NAME = "pinentry-emacs-1.2.1-2.3.aarch64.rpm"
-RPM_HASH = "b7c49bc06c3ae83cb3afd4aaddc931aa7be1b0b263037a2ea42f57fc78f0bbae8a409474b7c81d9c1d6e5b31f0b95a87501615fb61e6b752a02b275663d8ac24"
+RPM_NAME = "pinentry-emacs-1.2.1-3.1.aarch64.rpm"
+RPM_HASH = "1f715d3c0b833f123735465b6fce813e64f3ba113e8d4efe0841e6c380de149b1159139c039e179271d32478f8b7d9b53761072cbde8ea6872e2880ac0b5deb7"
 
 RPROVIDES:${PN} += "pinentry-/usr/bin/pinentry-emacs \
 pinentry-dialog \

@@ -10,8 +10,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "simple-scan-44.0-1.1.aarch64.rpm"
-RPM_HASH = "dc506fbf85f169fc035e13b5afa74606da9bea9ed87037b5ece7038cfd5a39cd0bf242a71f88dc8b040b3b7dcf786a63091d92a4632aa0d21e9b26ac2abff414"
+RPM_NAME = "simple-scan-44.0-1.2.aarch64.rpm"
+RPM_HASH = "240e7bdc6c947d998cbad7db6cce3225d4816d5140fa2ca5370ba897a0926cd48a7ecccb3a65bc485cbf321a62c947f420854b8f58f9147b71091a42395dae49"
 
 RPROVIDES:${PN} += "simple-scan"
 

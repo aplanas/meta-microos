@@ -4,13 +4,14 @@ installs and manages packages in a similar way to npm that \
 doesn't need to create a virtualenv at all!"
 LICENSE = "MIT"
 
-PV = "2.4.9"
+PV = "2.7.4"
 
-RPM_NAME = "python311-pdm-2.4.9-2.1.noarch.rpm"
-RPM_HASH = "0e9b94f1ec49c0121e804a29fcf7e390970eea1bfde2c9e8d5380cb0e6bfcc065f6c23ee0b49f2f5977c69213b3c4ebf37f1e18c3637d12c288108a9eb8885dc"
+RPM_NAME = "python311-pdm-2.7.4-1.1.noarch.rpm"
+RPM_HASH = "50612e8dd6ad5c23b332747c472ec80d1d77a46d8ecadaca54576c5c1b81a6de126a9e7db3b1a74384d134b7e1e5a89f2a8fb12dacef2daca60a75b4fbb07615"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pdm \
+RPROVIDES:${PN} += "python3-pdm \
+python3.11dist-pdm \
 python311-pdm \
 python3dist-pdm"
 
@@ -26,6 +27,7 @@ python311-findpython \
 python311-installer \
 python311-lockfile \
 python311-packaging \
+python311-pdm-backend \
 python311-platformdirs \
 python311-pyproject-hooks \
 python311-python-dotenv \

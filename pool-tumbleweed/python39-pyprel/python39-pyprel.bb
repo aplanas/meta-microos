@@ -10,8 +10,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2018.9.14.1501"
 
-RPM_NAME = "python39-pyprel-2018.9.14.1501-4.9.noarch.rpm"
-RPM_HASH = "8a59637d10972ea063f90638499d268695cc3942eef410b1e3c70686addd1cffc74efacf66e8e88ec3e5389b5c4a4941f3f31a729c9332671b17fbadc77b179b"
+RPM_NAME = "python39-pyprel-2018.9.14.1501-4.11.noarch.rpm"
+RPM_HASH = "7b57f463daf62cce2e67ee79c1beed5f3bbdaee2c4e0929404c7dff17f3191e176343efa934235c56bb5c9d5ec301a3f645a68a25bb6bcd4197c656523463e2d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyprel \

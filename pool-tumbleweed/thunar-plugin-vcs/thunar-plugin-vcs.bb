@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.2.0"
 
-RPM_NAME = "thunar-plugin-vcs-0.2.0-1.23.aarch64.rpm"
-RPM_HASH = "fc6786619908b658c785fc06217235184a84c370d07992644b6871f340bf37af67cca820159c49e5cbe90151fa260e53faa1a5c4a2c3cdf85d038a26643422c9"
+RPM_NAME = "thunar-plugin-vcs-0.2.0-1.24.aarch64.rpm"
+RPM_HASH = "7abf512d06f2d4120cce49be6716d50a10424b2023149c9d5f6aede10287a1c2f89073167ece88689f0297906df0d3f21197f4682c026c678785f083a7e509d4"
 
 RPROVIDES:${PN} += "thunar-plugin-vcs \
 thunar-vcs-plugin"

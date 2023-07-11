@@ -11,8 +11,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.0+git.20230122.93e0090"
 
-RPM_NAME = "nvptx-tools-1.0+git.20230122.93e0090-1.1.aarch64.rpm"
-RPM_HASH = "2fb43f5e60ed6d37b21ffc9053a24dbc0ec9e217e9c32b1dd10a387f97a0eebb35f1ba06595b6d88fb166ae44f126c4cc8d6aa8b429f34cab7f29a4b97789c23"
+RPM_NAME = "nvptx-tools-1.0+git.20230122.93e0090-1.2.aarch64.rpm"
+RPM_HASH = "5c8f6da3c63e818be1504b6a203f840ec4043a96ffe21b967248078891b5d7dd21bb83c21713b1ff04b454b816d828bfeab4cbc2bc7e4515680ae78296d5cf29"
 
 RPROVIDES:${PN} += "nvptx-tools"
 

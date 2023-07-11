@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2.2~git0.4ccc639"
 
-RPM_NAME = "system-group-ne-1.2.2~git0.4ccc639-1.3.aarch64.rpm"
-RPM_HASH = "b47d7a90d678f0fa58913da07b6e3f31844910795d379b71f7c20eb52121946ea3ecac93a28dbf016c03f9cb3152173e12603653c703073412e11f6b8a824402"
+RPM_NAME = "system-group-ne-1.2.2~git0.4ccc639-1.5.aarch64.rpm"
+RPM_HASH = "8111af5da5fdb1479b3d38dcfa69604e499f9b793200473455a296caee6da756112cbc7d77b4c66b2ae7641b19e3579356d1c05998e02073fc8217a4958ef15c"
 
 RPROVIDES:${PN} += "group-ne \
 system-group-ne"

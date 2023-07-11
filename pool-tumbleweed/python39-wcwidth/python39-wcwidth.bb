@@ -14,8 +14,8 @@ LICENSE = "MIT"
 
 PV = "0.2.6"
 
-RPM_NAME = "python39-wcwidth-0.2.6-2.1.noarch.rpm"
-RPM_HASH = "a9d8253f5fdec98e3e61a5460630cc677be7ea90b78d047ccc5d56f1a1ed646759eef72886bdc8a49226c05e7870eaab499d47ddc946d78e79a592c616ffd4f3"
+RPM_NAME = "python39-wcwidth-0.2.6-2.3.noarch.rpm"
+RPM_HASH = "f1a0a6b08c0235ed13186fb710980c9b57165d934c6cad5cfda6a5f961f209d64dc69da554c64f30e58679ac159e005e23f7f62a91f992c87c5f04b3da2ea613"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-wcwidth \

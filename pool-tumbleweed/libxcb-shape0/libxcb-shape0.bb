@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "1.15"
 
-RPM_NAME = "libxcb-shape0-1.15-2.2.aarch64.rpm"
-RPM_HASH = "6085e77b0a1ab7fe139b3ac1708c84d2ff824285257260afe5d1dd816fb2f5b52ebfe53b05bb471631e038e6a8a2e0e6e933a9cc5b93c6eff13360ae2f7671dd"
+RPM_NAME = "libxcb-shape0-1.15-2.3.aarch64.rpm"
+RPM_HASH = "768b06fae9e22d89ebebc018d5f6ddc33d2375798e2ca0feadc40b953a9d0a082fd10731ecce191d0933df22058067e0825d29cb91e0ffbabbc33f9cf457e7a4"
 
 RPROVIDES:${PN} += "libxcb-shape.so.0 \
 libxcb-shape0"

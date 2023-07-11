@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.2.1"
 
-RPM_NAME = "cozy-lang-1.2.1-2.1.noarch.rpm"
-RPM_HASH = "8b10a652264b3dcba84646e0d76ea0fea8c7a62cb9f8146b0cba5cc41062288a4ec6413d9392e187ae30f9b3122cd62e01c99e8e974e518de43f0e87dd8a721e"
+RPM_NAME = "cozy-lang-1.2.1-2.2.noarch.rpm"
+RPM_HASH = "cc32a3bef1b5573e156727f0ec2bf10741366fcec5d80b3d5cb76c6bc560545a82c353efde6f16f85d409aa89bcf9ac213f4f94c7cd4787bd4378a4388aaee36"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cozy-lang \

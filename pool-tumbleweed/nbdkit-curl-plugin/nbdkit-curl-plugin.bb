@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.32.2"
 
-RPM_NAME = "nbdkit-curl-plugin-1.32.2-1.3.aarch64.rpm"
-RPM_HASH = "86844f746cccbafcd9db4a30ca4372f5459b1645ebaca03ef32c448fa36eae9326cce5a94b685b6ed20d5c2ae455c4eb02b7b1e580fac001de7a7d92f69c872d"
+RPM_NAME = "nbdkit-curl-plugin-1.32.2-1.4.aarch64.rpm"
+RPM_HASH = "d9a010e213c0faef0890f32e92866f923442b401a1f58fe1e4562a21861f09b4b282bd6ba91e9f2970d62d38ffc0c56111240c25e4fbee988f28590bb34944ae"
 
 RPROVIDES:${PN} += "nbdkit-curl-plugin"
 

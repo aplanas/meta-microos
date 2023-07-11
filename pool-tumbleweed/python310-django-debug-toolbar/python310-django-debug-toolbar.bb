@@ -21,12 +21,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.6"
 
-RPM_NAME = "python310-django-debug-toolbar-3.6-1.4.noarch.rpm"
-RPM_HASH = "4932e7e7bcb59799b51cb30edd5a322b1ad697be3995c5a32b804d014632aeb4942752bc04d339dfab3a7e44c258b3eb591345c44578bcec7f96336565256f26"
+RPM_NAME = "python310-django-debug-toolbar-3.6-2.1.noarch.rpm"
+RPM_HASH = "46c6bd99b84480dfb28ac82dd3e5922f5a62956ae46d7537b7fff12eba4a2b800e83ce283b5ba4c2ffe683f3156beb0c7e21ae0da8825d28a8c3d46da5eb49d9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-django-debug-toolbar \
-python3.10dist-django-debug-toolbar \
+RPROVIDES:${PN} += "python3.10dist-django-debug-toolbar \
 python310-django-debug-toolbar \
 python3dist-django-debug-toolbar"
 

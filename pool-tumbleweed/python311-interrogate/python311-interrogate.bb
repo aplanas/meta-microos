@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "1.5.0"
 
-RPM_NAME = "python311-interrogate-1.5.0-1.4.noarch.rpm"
-RPM_HASH = "36da6b0bb9d0bd774cf9ba4896a399e9b5e11833446b378836491043c29404f9a452a71facb4658267a0036259eed80d180b0a18230ac75302317b95a6748f81"
+RPM_NAME = "python311-interrogate-1.5.0-1.6.noarch.rpm"
+RPM_HASH = "1d1a1a0be99ae433def7e816d74e56642eff4cdc5b05eb50cbf5c0babb72fca25795ca38ab48ca2339b1b9194d327e92f633dc7cd12b2c91337add2fa43b7f06"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-interrogate \
+RPROVIDES:${PN} += "python3-interrogate \
+python3.11dist-interrogate \
 python311-interrogate \
 python3dist-interrogate"
 

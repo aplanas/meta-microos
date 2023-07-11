@@ -4,10 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.9.8"
 
-RPM_NAME = "python311-imbox-0.9.8-1.12.aarch64.rpm"
-RPM_HASH = "af248c97e3856e93382132e6d92a8aff7083c62e5def425369d69b82354e413cb5b3d7b6d18f32cef35563970bbfe6a33442552e4d80539ace9223a08fd9ea6f"
+RPM_NAME = "python311-imbox-0.9.8-1.14.aarch64.rpm"
+RPM_HASH = "a7478170b24a1f800f7e706115b2f66582126f18d6829c4579a5465dd1d3c84d456b7102fedd16c06773884fd48f7f06a504f26a30d33b1086b477c1ef97691c"
 
-RPROVIDES:${PN} += "python3.11dist-imbox \
+RPROVIDES:${PN} += "python3-imbox \
+python3.11dist-imbox \
 python311-imbox \
 python3dist-imbox"
 

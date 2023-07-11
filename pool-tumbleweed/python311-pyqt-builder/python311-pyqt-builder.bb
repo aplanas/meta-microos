@@ -10,11 +10,13 @@ LICENSE = "GPL-2.0-only | GPL-3.0-only | SUSE-SIP"
 
 PV = "1.15.1"
 
-RPM_NAME = "python311-pyqt-builder-1.15.1-1.1.noarch.rpm"
-RPM_HASH = "146804d9a1777695c5ff9a7b24a582189785e7040f0983a6085adbf4d9031aff61f1aaa54d31f6df6240f944ba525218d89fd0d2bf963f47289fe41a14b3ae90"
+RPM_NAME = "python311-pyqt-builder-1.15.1-2.3.noarch.rpm"
+RPM_HASH = "b13ffe9d662dec7f52bc1c9670e40cd3530d202cb2df8423f3a2969b749ed9299adf84e195fb17405e3803b1be8807e799ca25ea51dad187d02ae16c8260470b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pyqt-builder \
+RPROVIDES:${PN} += "python3-PyQt-builder \
+python3-pyqt-builder \
+python3.11dist-pyqt-builder \
 python311-PyQt-builder \
 python311-pyqt-builder \
 python3dist-pyqt-builder"

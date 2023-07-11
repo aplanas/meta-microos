@@ -11,11 +11,12 @@ LICENSE = "Apache-2.0"
 
 PV = "0.33.0"
 
-RPM_NAME = "python311-yapf-0.33.0-1.1.noarch.rpm"
-RPM_HASH = "fc89f871b2bfc24a654d439b4c98b27b41c89cf3ca56b5625a6984373fda7cc88fa26aa5fd92ea8a24dad5a335f7140c6b44833ae3f3bdcca9ba322a75317d8e"
+RPM_NAME = "python311-yapf-0.33.0-1.3.noarch.rpm"
+RPM_HASH = "135d72c59cad60321165a34c32955f266db4f51d2d786e5e7a5a726415169c16fdbc12fe052b072b01ac08bf16a672d66ede9a98e96cfca1a7ba6009223b918e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-yapf \
+RPROVIDES:${PN} += "python3-yapf \
+python3.11dist-yapf \
 python311-yapf \
 python3dist-yapf"
 

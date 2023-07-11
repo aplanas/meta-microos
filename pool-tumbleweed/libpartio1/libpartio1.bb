@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.14.6"
 
-RPM_NAME = "libpartio1-1.14.6-1.9.aarch64.rpm"
-RPM_HASH = "b51ebe0988a60027f7f0a869be3ef28ea259032f20af6af569746e4b6dbcf118c08b93274fa93f5399b8a20137da1d652dbfd3b9fceb6786ab2542cedbe8d47f"
+RPM_NAME = "libpartio1-1.14.6-1.10.aarch64.rpm"
+RPM_HASH = "db58756ebfbe78ffc6ba99957842ecb5f315576ebdb2839b16a590607e5b14c4fd0cfa432ef9adcb83aa01e2b0a2e7aab615d7c9d62f65ac8dcac6a6c5f07add"
 
 RPROVIDES:${PN} += "libpartio.so.1 \
 libpartio1"

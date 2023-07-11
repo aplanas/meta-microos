@@ -2,10 +2,10 @@ SUMMARY = "Translations for package blender"
 DESCRIPTION = "Provides translations for the 'blender' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.5.0"
+PV = "3.5.1"
 
-RPM_NAME = "blender-lang-3.5.0-1.2.noarch.rpm"
-RPM_HASH = "cb624559c1cf287ecac11579a289e8d27396e676072d32d6e612db49c9a2a553ccf9837a8a6c39625a0face742cdbd17f101a8f2fced4a9e3ba9f77f83c217af"
+RPM_NAME = "blender-lang-3.5.1-1.2.noarch.rpm"
+RPM_HASH = "cd455d5040fc04cb1eac0efd076fa9bbcfe8ee511035bc0d15cd1435ab6dc4798a0b633f2f2da783d9bb4b0cd164bd1eaf1a98d8eae626abb17ba3d36dff93d3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "blender-lang \

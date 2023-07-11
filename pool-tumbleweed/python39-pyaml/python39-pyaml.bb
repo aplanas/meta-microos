@@ -4,8 +4,8 @@ LICENSE = "WTFPL"
 
 PV = "21.10.1"
 
-RPM_NAME = "python39-pyaml-21.10.1-1.8.noarch.rpm"
-RPM_HASH = "1c7a58dbbf350031dad7d4b9ec6f1ac7e31707a1cafb83b8a8bd1a5730dd4587e385bc82e1679bcf395b82acf6fc6abaf62a3dabb252bea65054f7acdc9212ae"
+RPM_NAME = "python39-pyaml-21.10.1-1.10.noarch.rpm"
+RPM_HASH = "e8a4c547c6e6329a49af28bb8152d58e2e239412e62454015b68a29aca546ba016b045300e9e32af3d77e7da72c550b943ee04623d9151d195738cc432cf0285"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyaml \

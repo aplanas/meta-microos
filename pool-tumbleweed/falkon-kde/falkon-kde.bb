@@ -3,10 +3,10 @@ DESCRIPTION = "Plugin for the Falkon browser that allows tighter integration of 
 such as storing passwords in KWallet."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "falkon-kde-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "a73d5cc522b6ee594c7a5d72cc0396112046147d47ec70500a1d6d15aed486829afc0a3412058d280fc5cb6fb2f2bbdbe1060425d3da270874af8b15bf725c63"
+RPM_NAME = "falkon-kde-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "6ed08f6ac21e446c77ac0186bca89bdf68dbc638a7e6be43caae690e6ae0d0b47bbd6c061ffefdd0fae3254cb6de062adc2cb3f02e98dc640a6a9c8e63428cea"
 
 RPROVIDES:${PN} += "falkon-kde \
 falkon-kwallet \

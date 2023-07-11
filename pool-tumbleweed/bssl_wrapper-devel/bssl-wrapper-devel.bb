@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.0.1"
 
-RPM_NAME = "bssl_wrapper-devel-2.0.1-1.9.aarch64.rpm"
-RPM_HASH = "9b05e3eee07237c9bb403dcc957445d9671ebaf539c23cb084e0ba26afda1ec182d4efde5e55ce91f6059378f9b3a2df759e0e55fad6f19758a1eaa385a46af0"
+RPM_NAME = "bssl_wrapper-devel-2.0.1-1.10.aarch64.rpm"
+RPM_HASH = "aead707459d5bb6ea3233bd58863a8672f7db6cc4c7eb53be7adfd1ce97c2a5fd46187d04dc2374d099eb64c04294d7570be404fa7bf45a24d6ffa0193b24215"
 
 RPROVIDES:${PN} += "bssl-wrapper-devel"
 

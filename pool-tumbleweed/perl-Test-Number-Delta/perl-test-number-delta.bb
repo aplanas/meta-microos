@@ -26,13 +26,13 @@ LICENSE = "Apache-2.0"
 
 PV = "1.060000"
 
-RPM_NAME = "perl-Test-Number-Delta-1.060000-1.26.noarch.rpm"
-RPM_HASH = "58e2bfb54934d49d8e87abca99f502655b680a3923033a9d7c07e6db30d92b7e627781514934a38671e56745b5ebc175562f0fd1740a4a23a152e0ac0d620b1d"
+RPM_NAME = "perl-Test-Number-Delta-1.060000-1.27.noarch.rpm"
+RPM_HASH = "594c28779dd89df71784a0294e2ff8e9c33ebf1956b14dfea4a9afed6f8daa65260cb6be96a77b6ddda5c21bd3693773a220a97cfd8cc7bdbec3ade431775078"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Number--Delta \
 perl-Test-Number-Delta"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

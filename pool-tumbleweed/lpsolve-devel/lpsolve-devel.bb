@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.0+"
 
 PV = "5.5.2.0"
 
-RPM_NAME = "lpsolve-devel-5.5.2.0-10.28.aarch64.rpm"
-RPM_HASH = "ab6ac160f8c8f443e0c4b57f8f738ba0a3de9b6f608f533e6f02d6e6d3e1a366ccaf6b4514bd2aa8b9a7b3bfc80e09a57adc5dc9478b3c0d8a207256f5e4c4ad"
+RPM_NAME = "lpsolve-devel-5.5.2.0-10.29.aarch64.rpm"
+RPM_HASH = "76116f5e4b0a5103190d6643c765d8d3014cecfcf6b7025a858cb177dff67c7ff8a87cf24dd8e8b3ce21bcbbfa4202a74b31290226172d904e2be8682a239b8d"
 
 RPROVIDES:${PN} += "lpsolve-devel"
 

@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1 & LGPL-3.0 & CC-BY-SA-3.0 & GPL-2.0 & BSL-1.0 & BSD-3-Clause
 
 PV = "16.2.13.66+g54799ee0666"
 
-RPM_NAME = "libcephfs-devel-16.2.13.66+g54799ee0666-2.1.aarch64.rpm"
-RPM_HASH = "5114f26f8a32c9425c924fbbeb1fad985d37b199a59e38320bf5ded03bb91dfa8fc884beb38ef911e8abcee88bb9ebdc6e175bac39c6d1f8077768563f3ac3dc"
+RPM_NAME = "libcephfs-devel-16.2.13.66+g54799ee0666-3.1.aarch64.rpm"
+RPM_HASH = "88833a4a0de505b84b82fe5a7b2765be6e0eb43e58a922edb8841d3833491a50030e8bdc5b95f042183be894f813362d625d64e0499069f40923349c1c43f8e5"
 
 RPROVIDES:${PN} += "libcephfs-devel \
 libcephfs2-devel"

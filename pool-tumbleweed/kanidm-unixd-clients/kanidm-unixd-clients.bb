@@ -5,8 +5,8 @@ LICENSE = "MPL-2.0"
 
 PV = "1.1.0~alpha12~git0.bcdbb18"
 
-RPM_NAME = "kanidm-unixd-clients-1.1.0~alpha12~git0.bcdbb18-1.1.aarch64.rpm"
-RPM_HASH = "36bfcb271436e047bb5fef90382c4b5f2ef24462405326cb7090017aad5f901cc2bfbe3dcee463214de214601f4199132ad92e7213ff93a594f002cf694639f6"
+RPM_NAME = "kanidm-unixd-clients-1.1.0~alpha12~git0.bcdbb18-1.2.aarch64.rpm"
+RPM_HASH = "16b5ecdc38e1514982240e35abc2f8fd3608e1e6d2fcb97359e4adc8a7869ab370554abbcaefd5410782a422c3f95572a5f7350091f9c0e9d626813834f5f9fb"
 
 RPROVIDES:${PN} += "kanidm-unixd-clients \
 libnss-kanidm.so.2"

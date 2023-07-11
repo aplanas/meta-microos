@@ -11,8 +11,8 @@ LICENSE = "EPL-1.0"
 
 PV = "2.0.15"
 
-RPM_NAME = "mosquitto-2.0.15-1.4.aarch64.rpm"
-RPM_HASH = "9bc2ecf14bda975459d8666443e0f2e202867778e3d5c59bcc97402cae40af1576528e203226f7a8d8e69dcfcfd4522657e5c14c7f5e342f9b97747a2d9865c9"
+RPM_NAME = "mosquitto-2.0.15-1.5.aarch64.rpm"
+RPM_HASH = "975e042ddbd9dfaa6fe66ce5f3690f65abf94bfa402568dd52f5d50353399a85df26eb2759a0ebb16628d025580150d2fab4e8bc73eb2b31a713ecb3ae03c923"
 
 RPROVIDES:${PN} += "config-mosquitto \
 mosquitto"

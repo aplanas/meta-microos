@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.3"
 
-RPM_NAME = "awesome-branding-upstream-4.3-4.13.noarch.rpm"
-RPM_HASH = "e0c988acab85fa62f0497cd51f5def32d301335237df471f8f141110da13950a15a7ed3b0ccd8c9b46f6390b8b32d96b92a61ef90cbe333f67476724315858a7"
+RPM_NAME = "awesome-branding-upstream-4.3-4.14.noarch.rpm"
+RPM_HASH = "307e7b14d5ad00ef70c9889e80e3b6b63b7982b4ac5bbe82c0711a8672f31364a39a5ea295dc6b019de8624e5afbea4dbe43e59be05b21af43751536b271f591"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "awesome-branding \

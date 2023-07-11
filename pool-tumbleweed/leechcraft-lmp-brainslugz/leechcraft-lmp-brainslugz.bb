@@ -5,8 +5,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-lmp-brainslugz-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "b8058f7de89afd729fcd6a6338ba4333169c52ed89256a3fc580da8af5e0ea39c4ef90d772cd1db6fdea6c668da3fcf4905ad7ffcf5cfc8486e3c85bcb0b3328"
+RPM_NAME = "leechcraft-lmp-brainslugz-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "b760460bb65d5a8d1c2f14c09ba330654ed58a3f30f75e9d118d33e927d423e13cc7c10560718746bde428687587d0ff9b253ee08fd12ef6f56d4770ac09a4c7"
 
 RPROVIDES:${PN} += "leechcraft-lmp-brainslugz \
 libleechcraft-lmp-brainslugz.so"

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.0-only"
 
 PV = "3.4.5"
 
-RPM_NAME = "xreader-plugin-comicsdocument-3.4.5-1.4.aarch64.rpm"
-RPM_HASH = "f7a9cb95b61bb2a4daac0bb645ce0fc2ae1b68a9c45111954dff644fd9fe2427e0c99eca83e5e7410c67db86b8e0a8d86c791435c57ee32d7f4f5aa4965238bc"
+RPM_NAME = "xreader-plugin-comicsdocument-3.4.5-1.5.aarch64.rpm"
+RPM_HASH = "236c36ba3f24b2f70cefec1cfabb0f7d63cc5e6a114703e2e0b65b8ee36c8b862b45c9f8ac00d319361a188cd480493a86aa5c0790c68590ef642252839f6222"
 
 RPROVIDES:${PN} += "libcomicsdocument.so \
 xreader-plugin-comicsdocument"

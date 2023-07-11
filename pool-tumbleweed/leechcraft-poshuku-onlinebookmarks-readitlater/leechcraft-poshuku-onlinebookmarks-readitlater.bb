@@ -5,8 +5,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-poshuku-onlinebookmarks-readitlater-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "b4fb2bd0dc3ccdacfd747deab58619eb644eb7ceb9212596ed2f0e9c2675b7d85dcd979028bfe5fad6bf9b55ed46357efaaff134f7f33a0897ef94fb76140f9b"
+RPM_NAME = "leechcraft-poshuku-onlinebookmarks-readitlater-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "e0988fb78eca5a1f7dc3044cb2ec4ae60d87bfe95b61c5ddecb0a09cb170e7587963dc61da14cd90dbef8f56cba92e2dd7cf85bcbe32e20ae83b5be93e72f088"
 
 RPROVIDES:${PN} += "leechcraft-poshuku-onlinebookmarks-readitlater \
 libleechcraft-poshuku-onlinebookmarks-readitlater.so"

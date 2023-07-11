@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.0.2"
 
-RPM_NAME = "ghc-sop-core-devel-0.5.0.2-4.3.aarch64.rpm"
-RPM_HASH = "9b84a5a69e0a808b68856996004ba88d28a9996b290427214c5d9cf780b6c05f1dc590130b8f3e2a01dd217b3013b2ffdbed1f681221fd6af0a299c382212933"
+RPM_NAME = "ghc-sop-core-devel-0.5.0.2-4.6.aarch64.rpm"
+RPM_HASH = "7d2a98abcb33672234135a81beb3ceaa5d089223194763975ad2622bd6750dbf5bf0b29ab56b4819a203d71ad8721eeaad0a38dd3086c745046e49ace0535e4d"
 
 RPROVIDES:${PN} += "ghc-devel-sop-core-0.5.0.2-C2iIEVjE1N8Lg8Q4QDHkLe \
 ghc-sop-core-devel"

@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "5.2.2"
 
-RPM_NAME = "python310-tempora-5.2.2-1.1.noarch.rpm"
-RPM_HASH = "c5c230996c5ba74fec68cb9b8d533ce04f8963dc369f99184a17403222a28817e9ac81fc814282f164ad37a381a236e73aa982600cedbf8583989a516e283948"
+RPM_NAME = "python310-tempora-5.2.2-1.3.noarch.rpm"
+RPM_HASH = "231fc04e60ea758b75f749ee72adaba599f6da8bbe085ea3590a0c4b0014d76a558d4676223ad3c9ef4f2282942a2960ddca4b341f74db95b50b9e06d70c2d43"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-tempora \
-python3.10dist-tempora \
+RPROVIDES:${PN} += "python3.10dist-tempora \
 python310-tempora \
 python3dist-tempora"
 

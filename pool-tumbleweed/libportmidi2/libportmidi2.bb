@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "2.0.4"
 
-RPM_NAME = "libportmidi2-2.0.4-2.3.aarch64.rpm"
-RPM_HASH = "7f5b5ddb9e95b9c63c07c8bf42665287233958a64d96fc21423e907bc7dba56f0d215d447036807958283e56c1f3ff0244129600b5f2cbd48130d3189578ae0c"
+RPM_NAME = "libportmidi2-2.0.4-2.4.aarch64.rpm"
+RPM_HASH = "192811204b19cfd222e60f4bbe5302de0f90a1bcada12d9db506a4d16abbe1ba70ca8fcfa6a752f540953ef7dba9ff88fe556e1b4b2a9bd4297d684559e73212"
 
 RPROVIDES:${PN} += "libportmidi.so.2 \
 libportmidi2"

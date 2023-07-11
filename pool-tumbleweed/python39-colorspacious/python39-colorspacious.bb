@@ -12,8 +12,8 @@ LICENSE = "MIT"
 
 PV = "1.1.2"
 
-RPM_NAME = "python39-colorspacious-1.1.2-2.7.noarch.rpm"
-RPM_HASH = "068b98e6f7d707537c6c8f63b6f1951604bcb2d619077eea3c2c34299beed73a1dfaa7684b456994d92628b75bb6b39de8dbe174cf93581ddf3d0b63705e88d3"
+RPM_NAME = "python39-colorspacious-1.1.2-2.9.noarch.rpm"
+RPM_HASH = "cdc1ddd5e846a44f4e316db042785fd6aa77a89dcd7cb084205454aac4eacd7fa4fbeebf0fdd835b3f174c934297a30adda5bad1de87ce07c478f9972997d958"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-colorspacious \

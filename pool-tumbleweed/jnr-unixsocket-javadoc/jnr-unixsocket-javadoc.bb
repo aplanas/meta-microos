@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.38.19"
 
-RPM_NAME = "jnr-unixsocket-javadoc-0.38.19-1.1.noarch.rpm"
-RPM_HASH = "9ca4dc74e697cfeee04cb0bde9d6ba0a051f361343185635e90d41b69d6c2eff081bbd41efef4de3f958cf391be9b19a69fd2823746f25191fb90a85c7ce32e3"
+RPM_NAME = "jnr-unixsocket-javadoc-0.38.19-1.2.noarch.rpm"
+RPM_HASH = "1a18aaeb545127b0705728ff0351d8a2ce126cc6e0d52a811d4ed49d6d11a120889dbd64f19c504642174072ed0b97aefd619b04e7ab0eedebf81de7295cad50"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jnr-unixsocket-javadoc"

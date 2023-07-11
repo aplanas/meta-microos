@@ -15,8 +15,8 @@ LICENSE = "MIT"
 
 PV = "4.0.2"
 
-RPM_NAME = "mpich-ofi-4.0.2-3.3.aarch64.rpm"
-RPM_HASH = "9f0c96fa2878c7d12ef9616bb7c28e4987a9ddecb0a6ad529847995e190272b9eb2ee383fd71e44a9099dd1ac81a8ee0eaea4d1dfa941e7f98a4876b85c77dff"
+RPM_NAME = "mpich-ofi-4.0.2-3.4.aarch64.rpm"
+RPM_HASH = "c09ac9bc5f2c5c7b658fc53b1e3939418c84f936cf46187c61f1452b1ea22d341b0b8a8ec7a1d6958f0dbdb400c1f89885eedb9dd40fd72e8555f3bf269edd99"
 
 RPROVIDES:${PN} += "libmpi.so.12 \
 libmpicxx.so.12 \

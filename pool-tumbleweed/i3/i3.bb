@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.22"
 
-RPM_NAME = "i3-4.22-1.3.aarch64.rpm"
-RPM_HASH = "cd0dd7d1e4dd2fa2e5363474aa237bc426c8a32742dcff00dbff847a33ab8bea57b6b0faa9cb61997ab9e318c08d1e619a0fdd0df5c1ce080e1e440aca7c16a6"
+RPM_NAME = "i3-4.22-1.4.aarch64.rpm"
+RPM_HASH = "02a84fed05e469e547cb35167d2a65d3988a022d9ca4515694b2a3c8b2de56c7d4aef70b117d406f0f4e0dd776b1faa3bcdedd3cb0ad8f8aaff3b0aec71d806e"
 
 RPROVIDES:${PN} += "config-i3 \
 i3 \

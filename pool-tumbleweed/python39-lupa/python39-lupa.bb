@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.14.1"
 
-RPM_NAME = "python39-lupa-1.14.1-1.5.aarch64.rpm"
-RPM_HASH = "f63ca1a2a4d385e1e37a9289c038085a90ae1f31980966a922b57ab82cd7920b2218642eb32ac2245a92e46e4485a9ee8837b7adc9ae555ee6044bc5cfdc1dc6"
+RPM_NAME = "python39-lupa-1.14.1-2.3.aarch64.rpm"
+RPM_HASH = "eb3893bb1a56f6189fe3705ce849291b8b6d221ff19ec58d8cdf8231fa7e02f6fcef0da5830654d9dce462de63c3416b93405c306a3ecdc6b1ec9182d8134b8d"
 
 RPROVIDES:${PN} += "python3.9dist-lupa \
 python39-lupa \

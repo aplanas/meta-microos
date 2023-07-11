@@ -3,10 +3,10 @@ DESCRIPTION = "firewalld is a firewall service daemon that provides a dynamic cu
 firewall with a D-Bus interface."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.3.2"
+PV = "2.0.0"
 
-RPM_NAME = "firewalld-1.3.2-2.1.noarch.rpm"
-RPM_HASH = "776ed9a8e8652714a8e77002cb97db4691b8e529fc980614f062c1571b3e0e70f97c47ffe677fe8672e222fadbb950f75e3edd68fccd4112e021ae5d8ad1ca4d"
+RPM_NAME = "firewalld-2.0.0-1.1.noarch.rpm"
+RPM_HASH = "54b566a644fcf03306aa46246c08c1faaebd7e20829dcb4cbf062999a9b07220ca514a05584afb6056ae6322bce036909a323aca32f9f991f3d6907ec2ee023b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-firewalld \

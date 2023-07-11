@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.11.20230408"
 
-RPM_NAME = "ghc-lucid-prof-2.11.20230408-1.2.aarch64.rpm"
-RPM_HASH = "f3ac0ff9ed75af560eb9c04a3135401b2574ec78b2a61602f7e266a597b3880b699dc30fa7bd3193f6cf28d5e7029128c3c5ba58606c560b6d9432a84cd3dc87"
+RPM_NAME = "ghc-lucid-prof-2.11.20230408-1.3.aarch64.rpm"
+RPM_HASH = "fcec84e1650b353ddd127fee902f1b00992e42efc05267a7ce07360cdb825245389ba3bbca6f410b1913b30dc62c29cdc1aafea3901a7e9764e7500b7c32a59c"
 
 RPROVIDES:${PN} += "ghc-lucid-prof \
 ghc-prof-lucid-2.11.20230408-4Nhfi0FKLIn9BurrsHVz0w"

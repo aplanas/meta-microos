@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "10.2+2.0.1"
 
-RPM_NAME = "libcdio_cdda2-10.2+2.0.1-1.8.aarch64.rpm"
-RPM_HASH = "bd9f9fbc4e71c23d05a4867d3fab57e59c3b34724091aa98ca0c63f3fb3ab82a63ecd2002bf0079b969ca7a6cdf9173339348d5a23f46db506ec538d358ef737"
+RPM_NAME = "libcdio_cdda2-10.2+2.0.1-1.9.aarch64.rpm"
+RPM_HASH = "8d608efc78a2505de17ceeb05a46636943c43d3d10288e252cff0491c652d1719959421626a4d26d04ddb6edf1ce3168332137de69834baaa3fc726f2258e40a"
 
 RPROVIDES:${PN} += "libcdio-cdda.so.2 \
 libcdio-cdda2"

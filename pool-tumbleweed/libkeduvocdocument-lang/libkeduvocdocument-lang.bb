@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libkeduvocdocument"
 DESCRIPTION = "Provides translations for the 'libkeduvocdocument' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libkeduvocdocument-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "3fa292ed38e5ed037e2dbe8b0c6aa937815ecacda098af40a18704dd4dbf07132d76db57d52424290c4261161737a8451f1080fc3d955276a31c0dd359274863"
+RPM_NAME = "libkeduvocdocument-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "f538ce05fa8e71ddc6495d8df4acd6a8064654a8cc0e91b61e4b6ffe4b0517d1f1705aec8bfd52aea1bd09cf6b0d9486650cc8e51d503c6db1d8377289fd3cf6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libkeduvocdocument-lang \

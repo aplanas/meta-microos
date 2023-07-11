@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "gnome-initial-setup-lang-44.0-2.2.noarch.rpm"
-RPM_HASH = "64292596f9039b6693e194bcbf5412ee2e7980c6052383e80ca450126b9162ffca780e6308a6de39d793641c6f13af02f9ad71117a9f69617bba772431910eb6"
+RPM_NAME = "gnome-initial-setup-lang-44.0-2.3.noarch.rpm"
+RPM_HASH = "0eb49cd14cd0bb9367e86b6a8970462b30b4a82d136ba712bdb894a7f3cf0cbbc20c5291f5b8ca4410fe5e9594e3feea51c7fde53fba79151fb65950c5e39359"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-initial-setup-lang \

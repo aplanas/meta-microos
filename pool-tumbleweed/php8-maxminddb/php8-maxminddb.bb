@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.11.0"
 
-RPM_NAME = "php8-maxminddb-1.11.0-2.4.aarch64.rpm"
-RPM_HASH = "8f8ea77694957fe1639f504cd3e5272d16e76372c3bf544fea7fb38e82f603462d8c83f3e990cd704ee6cddb03d5df6a4101aed6c96fcadfada6f0593f6b367c"
+RPM_NAME = "php8-maxminddb-1.11.0-2.5.aarch64.rpm"
+RPM_HASH = "cda698c5153bde113e94112ad3b5d03ee120ce55efdecf81cef5c5783ad7d7516a83d0b32fcb8cbcce566823815a865946b209da3bfcfb0e9ac0b29bbd18d80d"
 
 RPROVIDES:${PN} += "config-php8-maxminddb \
 php-maxminddb \

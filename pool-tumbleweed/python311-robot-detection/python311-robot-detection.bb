@@ -4,11 +4,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.4.0"
 
-RPM_NAME = "python311-robot-detection-0.4.0-2.8.noarch.rpm"
-RPM_HASH = "07b4dfee367c1e20ce9ae8baa7e7e957fe05faa0a71e7106f6a92f394107dc343e2d7bac5e0a811343e207f93d3382ac8bdd357562a01292a8c3cc244818b994"
+RPM_NAME = "python311-robot-detection-0.4.0-3.1.noarch.rpm"
+RPM_HASH = "733a651e2e34f98a75760f8e9fcc1da8e8d23bd28d611664f397b35afae3dbb70e1c953264b347383addcffd2a93e82aa7c7b86c501336e89153af89a0dab58e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-robot-detection \
+RPROVIDES:${PN} += "python3-robot-detection \
+python3.11dist-robot-detection \
 python311-robot-detection \
 python3dist-robot-detection"
 

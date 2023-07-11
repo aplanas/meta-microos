@@ -14,10 +14,10 @@ samples for each instrument). Human velocity, human time, pitch and \
 swing functions are implemented as well."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.2.0"
+PV = "1.2.1"
 
-RPM_NAME = "hydrogen-1.2.0-1.1.aarch64.rpm"
-RPM_HASH = "1cbf6af82da64898e163ed74ebefaa3cc23177c4940605d269b3bb94ef986fc9fec19403e518be039c2a5c81eb5b0636715aee22c63bb86ff28e5ffc228f4bbb"
+RPM_NAME = "hydrogen-1.2.1-1.1.aarch64.rpm"
+RPM_HASH = "2595473b85a5223807f3a161e20af8fbfe4600a79fcf2ec9c258ac79af11cbdb8ad3bd0f814913a0325fcb268ae149cf388d756b4ee0016d365671450b8fdbbb"
 
 RPROVIDES:${PN} += "hydrogen"
 
@@ -30,7 +30,7 @@ libQt5Widgets.so.5 \
 libQt5Xml.so.5 \
 libc.so.6 \
 libgcc-s.so.1 \
-libhydrogen-core-1.2.0.so \
+libhydrogen-core-1.2.1.so \
 libm.so.6 \
 libstdc++.so.6 \
 rubberband-cli"

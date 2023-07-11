@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.99svn19440"
 
-RPM_NAME = "texlive-easy-doc-2023.201.0.0.99svn19440-53.1.noarch.rpm"
-RPM_HASH = "07630aa2c75f5c63fb7e5c4bbec932e16ec577ce6be1f565f6edf8cd766b1732f5d7e3349b61caa49162d70c3e92ad6ebb7ce5bb84002bcc42de720b61e8dc4a"
+RPM_NAME = "texlive-easy-doc-2023.201.0.0.99svn19440-53.2.noarch.rpm"
+RPM_HASH = "2691d681e2557e4f8360c02a75f64744c11020cfa69f7c78c062d3e0910c056db28e4310152cd859842fac552bac4ac2339a08a7f9814933814a36a85f238b47"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-easy-doc"

@@ -7,12 +7,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.0.1"
 
-RPM_NAME = "python310-WTForms-3.0.1-2.6.noarch.rpm"
-RPM_HASH = "615c0851234c428a9ad946415689d0a81d07fef713e0f86f833721d5393e0a2e483910cd099c6f350569523f86c80aeba3850746830a0279d90aba053426df2e"
+RPM_NAME = "python310-WTForms-3.0.1-2.8.noarch.rpm"
+RPM_HASH = "9d72959b972c4aacbe3b7511d631c5df4bac51a42a806199dad88130b5959bdd6da270a2d67349e60ae56748cc3776ac65690d5354958cadc70c306b20d98045"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-WTForms \
-python3.10dist-wtforms \
+RPROVIDES:${PN} += "python3.10dist-wtforms \
 python310-WTForms \
 python3dist-wtforms"
 

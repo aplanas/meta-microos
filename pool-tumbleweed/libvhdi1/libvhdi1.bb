@@ -15,8 +15,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20221124"
 
-RPM_NAME = "libvhdi1-20221124-3.7.aarch64.rpm"
-RPM_HASH = "e23cfba514d825399fd8d9f6677701bba99bed9c62e4cbfde37a4a65aafe49462c3f319aacc9eb29338ddafa3b5fde10a36aecb8e95aa34406098a9d1f368964"
+RPM_NAME = "libvhdi1-20221124-3.10.aarch64.rpm"
+RPM_HASH = "d8aef976a6156c05445f2c10ebefa32ffbbf629d750a1d274e863e3a34340a4cc70aa2c0729c2a375214fd3e0d76e6633ed8c41067d34f892f1a17203bf98d13"
 
 RPROVIDES:${PN} += "libvhdi.so.1 \
 libvhdi1"

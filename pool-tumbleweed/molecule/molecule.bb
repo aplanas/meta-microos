@@ -7,17 +7,17 @@ systems and distributions, virtualization providers, test frameworks and \
 testing scenarios."
 LICENSE = "MIT"
 
-PV = "5.0.1"
+PV = "5.1.0"
 
-RPM_NAME = "molecule-5.0.1-2.1.noarch.rpm"
-RPM_HASH = "88fd6dec37fc18d56fb7a4d6302b931526399251e1b1d69b2767ecd1ddca4d490c9aa76f9ca9933ce4b8a0c832fbfb10b39f2c64c2ccd9b533556aa7d3cb831c"
+RPM_NAME = "molecule-5.1.0-1.1.noarch.rpm"
+RPM_HASH = "2866f9eb69c7228f2300e84f175ca7476981da6592c9af3fd47ebe1d9229081a831b095fec2f2c3d77ba479239eee2fa6e188367d27ff6fe8abe2ae56423fb72"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "molecule \
-python3.10dist-molecule \
+python3.11dist-molecule \
 python3dist-molecule"
 
-RDEPENDS:${PN} += "/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
 ansible-core \
 python-abi \
 python3-Jinja2 \

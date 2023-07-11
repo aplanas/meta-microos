@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "1.1.0~b3"
 
-RPM_NAME = "python311-azure-mgmt-quota-1.1.0~b3-1.3.noarch.rpm"
-RPM_HASH = "c3c84ebc6cc53d2b761c54ec756da773ac7c81f1687e1084d7f4daba597d0dbd1e1791ef12d987b5bae24b6eca542fe0a7388d16db56b91a80db1b1f7a2a67b9"
+RPM_NAME = "python311-azure-mgmt-quota-1.1.0~b3-1.4.noarch.rpm"
+RPM_HASH = "ac8d07948eec9aa4f1f4f3f77e8f3799c4a4ddc21df669b1b6d9c0fe612a75bb9b936e2a7b1f0f8b7a2f3a7f651357bdb5f2249543b318a79a8fe0cd1ed7c557"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-quota \
+RPROVIDES:${PN} += "python3-azure-mgmt-quota \
+python3.11dist-azure-mgmt-quota \
 python311-azure-mgmt-quota \
 python3dist-azure-mgmt-quota"
 

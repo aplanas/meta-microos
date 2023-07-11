@@ -16,8 +16,8 @@ LICENSE = "GPL-2.0-or-later & LPPL-1.0 & LGPL-2.1-or-later"
 
 PV = "2023.208"
 
-RPM_NAME = "texlive-extratools-2023.208-58.1.noarch.rpm"
-RPM_HASH = "f84a9b4500c3122122839126806d0ce7bdb85b4c2f8fcdef56dc118e58aee8d42d2f75e51aca05942e7f70a15e0bd2a90681ead87ba23d5814dfcc420a8ad3c2"
+RPM_NAME = "texlive-extratools-2023.208-60.1.noarch.rpm"
+RPM_HASH = "531a9684b68af330b2fa16f547b9f662dbc04d9fd1978cf6d37ea08acfec26e05fa8abe3ce89f394de667787edbdd758758564b7fdddaee22445e5c1979e66ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-extratools"

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.3.0"
 
-RPM_NAME = "lxqt-globalkeys-1.3.0-1.1.aarch64.rpm"
-RPM_HASH = "773f55aa4554441c6f239ac88248c14cd5a190bc8185369575f063864c6c666eaa9cadf4720d4a2df9b82db64c0a4b2dfe433156a224cd2af1651829891d8e8a"
+RPM_NAME = "lxqt-globalkeys-1.3.0-1.2.aarch64.rpm"
+RPM_HASH = "bb0d851f74e6acfbb3738f52bca95ff9a16a3e1074acc742634411db0676c363f8beb688a4c67c6e4ed5483509eba91a7ea4d7c17893f7ddab6dfdd34de5b4dd"
 
 RPROVIDES:${PN} += "config-lxqt-globalkeys \
 lxqt-globalkeys \

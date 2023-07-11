@@ -6,20 +6,20 @@ LICENSE = "BSL-1.0 & GPL-3.0-or-later"
 
 PV = "1.0.6"
 
-RPM_NAME = "siril-1.0.6-1.13.aarch64.rpm"
-RPM_HASH = "e09caa596b336aa7a08c78d617890d184a393776b0047d7bae7d6bef3e9e4cf551f8c86f7ed4cb4a8a751e1aacec2178509bbb12cc047746ec5feb5ac6e530c8"
+RPM_NAME = "siril-1.0.6-2.2.aarch64.rpm"
+RPM_HASH = "678bd368d1e654bb5fc314445a9c41e99f3df59970229823da4899fbca014702f9998ba6485aa7d0d92757bb3d11ee5d7f65aa7ee74cdd098279e5da017d3ca0"
 
 RPROVIDES:${PN} += "siril"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libavcodec.so.59 \
-libavformat.so.59 \
-libavutil.so.57 \
+libavcodec.so.60 \
+libavformat.so.60 \
+libavutil.so.58 \
 libc.so.6 \
 libcairo.so.2 \
 libcfitsio.so.10 \
 libconfig.so.11 \
-libexiv2.so.27 \
+libexiv2.so.28 \
 libffms2.so.5 \
 libfftw3f.so.3 \
 libgcc-s.so.1 \
@@ -44,8 +44,8 @@ libpng16.so.16 \
 libraw.so.23 \
 librtprocess.so.0 \
 libstdc++.so.6 \
-libswresample.so.4.ff5 \
-libswscale.so.6 \
+libswresample.so.4 \
+libswscale.so.7 \
 libtiff.so.6 \
 libwcs.so.7"
 

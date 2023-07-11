@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-or-later & GPL-3.0-or-later"
 
 PV = "4.12.0+git30.7fd7c8fa"
 
-RPM_NAME = "resource-agents-4.12.0+git30.7fd7c8fa-1.1.aarch64.rpm"
-RPM_HASH = "0531cebd60d807d00adeaa2bee9320d9fc4339ce7a3a1f12e3301c63d5adcf179d103061c8e28225cb6e955ebfaa52cd8879a692e8fcbd569aef8b555d5a90e4"
+RPM_NAME = "resource-agents-4.12.0+git30.7fd7c8fa-1.2.aarch64.rpm"
+RPM_HASH = "f7537caa58d73fb01f425a4fb00c21a4c267115f07cf9ae65badd8cf801bd57a2826b8c6f8b0a8f15abdb3c1210304e12761b0a51ead05741bbd31922618e5b9"
 
 RPROVIDES:${PN} += "aws-vpc-move-ip \
 config-resource-agents \

@@ -9,13 +9,23 @@ Python is 👍 \
 >> print(emoji.emojize('Python is :thumbsup:', use_aliases=True)) \
 Python is 👍 \
  \
-By default, the language is English (``language='en'``) several further languages are also supported."
+By default, the language is English (``language='en'``). Further supported langauges are: \
+* Spanish ('es') \
+* Portuguese ('pt') \
+* Italian ('it') \
+* French ('fr') \
+* German ('de') \
+* Farsi/Persian ('fa') \
+* Indonesian ('id') \
+* Simplified Chinese ('zh') \
+* Japanese ('ja') \
+* Korean ('ko')"
 LICENSE = "BSD-3-Clause"
 
-PV = "2.4.0"
+PV = "2.6.0"
 
-RPM_NAME = "python39-emoji-2.4.0-1.1.noarch.rpm"
-RPM_HASH = "6e646885456c28506b70cfabc1dabcd1c85ad8bcdafbd2674a6e367601dc4644fc3109c68bfe200f73d6ca2f61c5631b8442b6b6a0a8f0f9c82623e78b0e859d"
+RPM_NAME = "python39-emoji-2.6.0-1.1.noarch.rpm"
+RPM_HASH = "44c3de20427cdac55c473787051969700b8140b16555ab1ea5affb72482c1dad468afb3583978c4cec34933a77eba2ec7272f4de817fd79cc593243d7d3f2acf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-emoji \

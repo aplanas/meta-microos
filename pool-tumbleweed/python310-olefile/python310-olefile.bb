@@ -9,12 +9,11 @@ LICENSE = "BSD-2-Clause & HPND"
 
 PV = "0.46"
 
-RPM_NAME = "python310-olefile-0.46-4.1.noarch.rpm"
-RPM_HASH = "8a28dc4212dc127944717d89c2f94917b08b6fdc0ba708612f5800f6b1a15c495505b2414bf83a0896500e05c9c8009671ef7fa5a9cf69a5b9ddb96a91fe67af"
+RPM_NAME = "python310-olefile-0.46-4.2.noarch.rpm"
+RPM_HASH = "27d8f129fdaf06c0b415418656ae7b66152c98dc6a05fb75ad5e433c3b6bc9fc312590787fcbf6dfc25a569228eae07f18255aafb80e04e2d2c5e42802c36c58"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-olefile \
-python3.10dist-olefile \
+RPROVIDES:${PN} += "python3.10dist-olefile \
 python310-olefile \
 python3dist-olefile"
 

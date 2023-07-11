@@ -5,12 +5,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2022.9.27"
 
-RPM_NAME = "python310-imreg-2022.9.27-1.1.noarch.rpm"
-RPM_HASH = "8ad444e1edacbd6b306ecf5a67d72ecc7608763ca51bf21a9c4c7a6266c39f0b03c4f23a5da3c95c6225aa8af78e70f51942b8ea74427e72c6384a0ca8aed352"
+RPM_NAME = "python310-imreg-2022.9.27-1.3.noarch.rpm"
+RPM_HASH = "1eca49cd6e3fed57a2fa053a855e80957c6b4e6de97b78f6f2b01994b37770d708921cf94906a0fbbe0175aca17acd551d716962084575e42f13e30499286e08"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-imreg \
-python3.10dist-imreg \
+RPROVIDES:${PN} += "python3.10dist-imreg \
 python310-imreg \
 python3dist-imreg"
 

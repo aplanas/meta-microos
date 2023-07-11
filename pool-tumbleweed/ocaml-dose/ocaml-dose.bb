@@ -13,8 +13,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "7.0.0"
 
-RPM_NAME = "ocaml-dose-7.0.0-1.12.aarch64.rpm"
-RPM_HASH = "7424c20b3f5f8b565a842a6a0606abafbd1e5cef3a83881bdff8d0bfbfb45d627c1b86f764252f97050e39a71fc2bec22eb6fab9fc31176b4a6722b56c2f880c"
+RPM_NAME = "ocaml-dose-7.0.0-1.13.aarch64.rpm"
+RPM_HASH = "7ad13730d3318af9aa6afffceaa97451962323bd2df9c7dad97adf961a624e7e6917b7963cc8322d97f3a5002dafa094300a538848b3f70ce61d376af0e0f77a"
 
 RPROVIDES:${PN} += "ocaml-dose"
 

@@ -5,13 +5,14 @@ amount of data inserted, and allow for the storing of data with non-complex acce
 The Azure Data Tables client can be used to access Azure Storage or Cosmos accounts."
 LICENSE = "MIT"
 
-PV = "12.4.2"
+PV = "12.4.3"
 
-RPM_NAME = "python311-azure-data-tables-12.4.2-1.3.noarch.rpm"
-RPM_HASH = "bfc865c908fb8eb0ac8a5a07a108c1d0cda877b79c5c3f4a8fb18fce60bebf21fdec81c71b250a98c18f427f53be669221b78c13e64ba6ebd944a47737edba8b"
+RPM_NAME = "python311-azure-data-tables-12.4.3-1.1.noarch.rpm"
+RPM_HASH = "132ae6b2b6e6997fef2479cf78a07010c6e75ab2c82dd41dfd7b2d9ed306695633284c6268e241bf0174efb3b93c71c65b031e587468fe764d15bf739ffbcfef"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-data-tables \
+RPROVIDES:${PN} += "python3-azure-data-tables \
+python3.11dist-azure-data-tables \
 python311-azure-data-tables \
 python3dist-azure-data-tables"
 
@@ -20,7 +21,6 @@ python311-azure-core \
 python311-azure-data-nspkg \
 python311-azure-nspkg \
 python311-isodate \
-python311-msrest \
 python311-yarl"
 
 inherit rpm

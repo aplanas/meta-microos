@@ -2,10 +2,10 @@ SUMMARY = "Various utility functions for SQLAlchemy"
 DESCRIPTION = "Various utility functions and custom data types for SQLAlchemy."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.38.3"
+PV = "0.41.1"
 
-RPM_NAME = "python39-SQLAlchemy-Utils-0.38.3-1.6.noarch.rpm"
-RPM_HASH = "54062c3be8df723c3ba9e92bd9c7b84e903b46cc3a781862d68a4424fd396d20293f67567d31686dcd86093438e3c7d7f385689491cdfd315dc4be54d910d857"
+RPM_NAME = "python39-SQLAlchemy-Utils-0.41.1-1.3.noarch.rpm"
+RPM_HASH = "e98e767a8a8f42e162886a0b5ae3ce6c7f7451522e111ed30e817e1fe02e00c210f8e77945d0c3fe7d220294ac281fc7b1567293e350db63d530051b2c8ca827"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sqlalchemy-utils \

@@ -9,8 +9,8 @@ LICENSE = "LGPL-3.0+"
 
 PV = "1.3"
 
-RPM_NAME = "libcangjie-data-1.3-1.20.noarch.rpm"
-RPM_HASH = "f3558bbb36c947a953947d91f472be815aefb2d78c221f6ec3519d34f1f9f4c2b854ccdcaa15b2a38dbcb0560ba67fbc7947f9e24cf7ffcd686da6ec93fe56be"
+RPM_NAME = "libcangjie-data-1.3-1.21.noarch.rpm"
+RPM_HASH = "1a694fb4646a6d6a9611fcce07e5379c86f24867c547f0fe092683c13080f1910e7cb292f44c7e67bbd0fc53854fce63eef5f9b85741bd69089d14c67630f7eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libcangjie-data"

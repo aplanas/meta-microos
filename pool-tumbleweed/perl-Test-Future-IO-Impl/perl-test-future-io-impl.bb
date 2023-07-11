@@ -5,14 +5,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.14"
 
-RPM_NAME = "perl-Test-Future-IO-Impl-0.14-1.1.noarch.rpm"
-RPM_HASH = "a7f097d647eb35c2e5227519d40a921271a1c2ad50ad0dab6f6b435de1abaa4ec36d274592f4ff5ef439aab5ba9e4429389fa32121c417fb4724a67d7884fd48"
+RPM_NAME = "perl-Test-Future-IO-Impl-0.14-1.2.noarch.rpm"
+RPM_HASH = "bbd42c61bf55550eb2180c1007f321b1a7d89f99df2d6722b4a511816d6c85b8f89fb5247a1ede156690f57d34db0594b33478a4db0371cb90a87edf888a82d5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Future--IO--Impl \
 perl-Test-Future-IO-Impl"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Test2--V0"
 
 inherit rpm

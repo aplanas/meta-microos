@@ -18,12 +18,11 @@ LICENSE = "MIT"
 
 PV = "0.2.3"
 
-RPM_NAME = "python310-dbus_next-0.2.3-1.10.noarch.rpm"
-RPM_HASH = "fe419f9103abaa916c2d2c50fd5152b84077f124f1fa7bbc9c87d4c5c6e1bf4b06870efce5e37816af30362ff95d3cae804bc3a25585fe221b6f66d450c16401"
+RPM_NAME = "python310-dbus_next-0.2.3-1.11.noarch.rpm"
+RPM_HASH = "d677ddcedd5f054586fae2cda4bc5de5061ba96745c2e61913038ecce471bb8b5055c53de2bf60fcff5fb234b2ee78e3deb62ac83f04b74e36d781a8d95b06c2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-dbus-next \
-python3.10dist-dbus-next \
+RPROVIDES:${PN} += "python3.10dist-dbus-next \
 python310-dbus-next \
 python3dist-dbus-next"
 

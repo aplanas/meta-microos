@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 | LGPL-3.0-or-later"
 
 PV = "1.3.11"
 
-RPM_NAME = "jffi-1.3.11-1.1.aarch64.rpm"
-RPM_HASH = "1cdac3650a437bc5324e2a587fed13a4fbaff582c2e5465029976164d1655b1829dfe9b248b7a6af476d974c191fdb475fa8bd9a12593bea854f830f7bcebcb8"
+RPM_NAME = "jffi-1.3.11-1.2.aarch64.rpm"
+RPM_HASH = "9118adf96e03c4fd06366c387cc3aaadd582b8ec3a9aab30fda49a98d0d64dbc1db804c70337ff9338dcaea158e7950c72c24369474bf38b5887bc04897c6a20"
 
 RPROVIDES:${PN} += "jffi \
 mvn-com.github.jnr-jffi \

@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.10"
 
-RPM_NAME = "dateutils-0.4.10-2.3.aarch64.rpm"
-RPM_HASH = "ad1be1cf4ca261149382546c97a976f0d9fdaf11bf0136514b7262653eadd14e398b26d883a89eada900180b873715eebdffef50d2aed4c0e1fc9aa654b47971"
+RPM_NAME = "dateutils-0.4.10-2.4.aarch64.rpm"
+RPM_HASH = "3bcdc6dcdf788e9c8fcedc48fe31a6c7e78cbfa15f952699239b70c5a4d0b92d23958d5aeb6d020eff2820aa2279c95a06c835f974add9efe22a7e028c1ba5a6"
 
 RPROVIDES:${PN} += "dateutils"
 

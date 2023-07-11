@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.14.0"
 
-RPM_NAME = "kanku-scheduler-0.14.0-1.3.noarch.rpm"
-RPM_HASH = "15caff9f845358f452f0d34c533a4c5016a6bfad778d218778d077b0ea7026f2bd562bdc1cc25854b793dc54615579a5ceb1a50e6764baa5cc5a04ee8f365e19"
+RPM_NAME = "kanku-scheduler-0.14.0-1.5.noarch.rpm"
+RPM_HASH = "9922abcff3a5a1792947ff005ad2f38d531354d0f157ccc5c1f721d2128e69ee1e9a614c4c0a75cbba5fab8babea4e65aa44096737ea5dfdea93699db703a28a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kanku-scheduler \

@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.9.1"
 
-RPM_NAME = "nailgun-0.9.1-3.10.noarch.rpm"
-RPM_HASH = "c7da2df43a355aad61ebbb03c7d227018cb632c3d5f85571498c50b377907d652ff5ba7037f04ae535ed9d463835897a5ddf75b6cea51787a1d1f0305cfb1bda"
+RPM_NAME = "nailgun-0.9.1-3.11.noarch.rpm"
+RPM_HASH = "dcd2049f8a0b026964d295358b63b8a2a0d512ade8c6910eafe0d762de900efafd2cdda93a17b5ed80deb1c829aa6f9c8ef6350be581a3fe62ef8c910a0285bc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-com.martiansoftware-nailgun-all-pom- \

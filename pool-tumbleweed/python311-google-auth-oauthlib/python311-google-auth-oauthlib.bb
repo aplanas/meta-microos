@@ -4,11 +4,12 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.0"
 
-RPM_NAME = "python311-google-auth-oauthlib-1.0.0-2.2.noarch.rpm"
-RPM_HASH = "002abe5fbae1e3fa8635adb3609b476690e6e94037869fb4e69b492cda0759431f9d25b81ffbce682237489222dc5677adc82f57f9d667c9211c101bfa0041b7"
+RPM_NAME = "python311-google-auth-oauthlib-1.0.0-3.1.noarch.rpm"
+RPM_HASH = "d293a14138f67214fb168fe2b5afd706d7035f2131e218712d28237d9a6deb64a58ac00af15506824a5ca51e7a3c2f462619d43b2f07b582ec6bd180aadb055f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-google-auth-oauthlib \
+RPROVIDES:${PN} += "python3-google-auth-oauthlib \
+python3.11dist-google-auth-oauthlib \
 python311-google-auth-oauthlib \
 python3dist-google-auth-oauthlib"
 

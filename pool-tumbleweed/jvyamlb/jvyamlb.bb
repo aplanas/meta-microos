@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.2.5"
 
-RPM_NAME = "jvyamlb-0.2.5-20.6.noarch.rpm"
-RPM_HASH = "1316cf6cd9a040c81316e9e0cbe622d0bd7cb724fbe77a7d568ff9fc6ad3f883dbc21dc13ba319c7bf751217a966fa80e75f8a3e2885080a239ab5e6b7a9ebb8"
+RPM_NAME = "jvyamlb-0.2.5-20.7.noarch.rpm"
+RPM_HASH = "f11040d494a5f8033ef62b0252d1368cded365a38c742858e9cc86ba19eadd3f7d0e86c56e4ed69b59ff0a4e630c35838a9eff554148ef7a100d18be4ab30036"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jvyamlb"

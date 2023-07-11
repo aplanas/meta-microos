@@ -4,12 +4,12 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "11.0.1"
 
-RPM_NAME = "mercurial-extension-hg-evolve-11.0.1-1.1.noarch.rpm"
-RPM_HASH = "9c2bcaa2ce55e3a492874c5771ed47a12e7646e71a469cfd18d76126d6847934b81db933a220f82e84690ae3d127a8e7296540fd6c5d3317ff099f8bbe50a390"
+RPM_NAME = "mercurial-extension-hg-evolve-11.0.1-1.2.noarch.rpm"
+RPM_HASH = "06281a24749581867258192904126b31c58179e38ec8df2662a00ac747fc3e5a712bffaca33706b5afb0a7ec0934e1f37b96339c0d6dd01a3b7f014325c6c1c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mercurial-extension-hg-evolve \
-python3.10dist-hg-evolve \
+python3.11dist-hg-evolve \
 python3dist-hg-evolve"
 
 RDEPENDS:${PN} += "mercurial \

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.1.0"
 
-RPM_NAME = "compton-0.1.0-4.29.aarch64.rpm"
-RPM_HASH = "2e4cd041c6cd97b60b63b5bf22c293ec9ae4449fde044505fecb1ff2c4edeca4b0aae4f95468de1d5013d73176a6bfc8f3e2a3080926eea7d578e049f56fdb5b"
+RPM_NAME = "compton-0.1.0-4.30.aarch64.rpm"
+RPM_HASH = "3a667cdb67d4f333ebb108d073fe52f911f59d1aadfa5fb626ce50f985399fa55aa9a15b326ebf551d78445485f4e17b9fa7913a9c9197c276428a50d1e76530"
 
 RPROVIDES:${PN} += "compton"
 

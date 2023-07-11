@@ -6,14 +6,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.003"
 
-RPM_NAME = "perl-Module-Runtime-Conflicts-0.003-1.22.noarch.rpm"
-RPM_HASH = "cc18c50fc2a73065cc9f98757d1bfb8b2c1d25a1abcc8cca03fa887a8470cc1c433351fcda7f51aca8c440f531f2dd27dff880fc34a698f18d106b244d39e285"
+RPM_NAME = "perl-Module-Runtime-Conflicts-0.003-1.23.noarch.rpm"
+RPM_HASH = "99981d069a4bd9c0d02fd18e92fa5eeaad882e4b027e3daa47008133fa8fd2d595a9a4b0af7f81a52d417b702ce663f02f59128056f803fc883bfa64c885ea74"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Module--Runtime--Conflicts \
 perl-Module-Runtime-Conflicts"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Dist--CheckConflicts \
 perl-Module--Runtime"
 

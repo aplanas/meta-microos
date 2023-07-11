@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause & NTP & BSD-3-Clause & MIT"
 
 PV = "1.2.2"
 
-RPM_NAME = "ntpsec-utils-1.2.2-1.3.aarch64.rpm"
-RPM_HASH = "13adbb9c267662093581d28b2d4bb0a4b3a61b31f26780c096d17555bcb5ba71377ec2f8e7179539f6b496ac042cc57e0b90a3b60ebae18dfcc58b70354109c3"
+RPM_NAME = "ntpsec-utils-1.2.2-1.5.aarch64.rpm"
+RPM_HASH = "c1d10bb74f01a225e1e025750a0f879d78a738c05afa1b5ce9f4fddc28c64bded538dab2e7f1fca964c7ec028397e27e2c9da0818bbae0f81ec8f18f4d461b20"
 
 RPROVIDES:${PN} += "ntpsec-utils"
 

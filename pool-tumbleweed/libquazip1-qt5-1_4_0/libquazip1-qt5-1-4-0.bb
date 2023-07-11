@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later | LGPL-2.1-or-later"
 
 PV = "1.4"
 
-RPM_NAME = "libquazip1-qt5-1_4_0-1.4-2.3.aarch64.rpm"
-RPM_HASH = "c5877af734289ff43bb822528ec17d7d3b82675b8a91129aa387d9a864c42b63cda9a68a529b68677e01e91752d2069a4ab4c92f8f40902b0793462aaf102852"
+RPM_NAME = "libquazip1-qt5-1_4_0-1.4-2.4.aarch64.rpm"
+RPM_HASH = "127414e6620a8baea68465f36268b483fa648e6d3683fd9c9f4ff64c3f724479ee549714a566a500c348c755dcc479d4f63ff25b1e5264f0cc4eccf72d76c2d7"
 
 RPROVIDES:${PN} += "libquazip1 \
 libquazip1-qt5-1-4-0 \

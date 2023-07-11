@@ -13,8 +13,8 @@ LICENSE = "Qhull"
 
 PV = "2020.2"
 
-RPM_NAME = "libqhull_r8_0-2020.2-3.5.aarch64.rpm"
-RPM_HASH = "8bd3a33a6055d26ee4c1791a34505f24dbcaeb0d83b3930780495e0a87ae865dc904e44a72d19b5b6d2d46f9f61bf1ca332b686fa6f561c183cb3abcbe4c1aaf"
+RPM_NAME = "libqhull_r8_0-2020.2-3.6.aarch64.rpm"
+RPM_HASH = "4d0d693fe3248d113fd6358587dfc4ceb146b5c8f2ef1b49c07c92eba0e32d0747c664d6e5f662797d5deb291705dc97f443bd0888d6b12bc55ee82b6f24e42b"
 
 RPROVIDES:${PN} += "libqhull-r.so.8.0 \
 libqhull-r8-0"

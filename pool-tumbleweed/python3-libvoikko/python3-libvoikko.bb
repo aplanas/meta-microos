@@ -7,10 +7,10 @@ This package contains a Python interface to libvoikko. This module \
 can be used to perform various natural language analysis tasks on text."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.3.1"
+PV = "4.3.2"
 
-RPM_NAME = "python3-libvoikko-4.3.1-1.10.noarch.rpm"
-RPM_HASH = "b676972abfb0dcccccb1ba2a0d70283a9f32930c78d851b84294d9fc2ed80a400cde7b52bda3d188684d042acb6be54384dcb1676e56ba7c9b9fa70b3a49416a"
+RPM_NAME = "python3-libvoikko-4.3.2-1.1.noarch.rpm"
+RPM_HASH = "a7e4ad0ad5b81fa60b92a10fee96d4efe6c758714852d8fb22f06c7946c3e413f803f9f3569906f1db9b6d187d22bf5f4008da613b90c17db046192dcf1194ff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-libvoikko"

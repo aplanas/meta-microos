@@ -7,10 +7,10 @@ This package contains header files and development libraries needed to \
 develop programs using the mediastreamer2 library."
 LICENSE = "AGPL-3.0-or-later"
 
-PV = "5.2.49"
+PV = "5.2.73"
 
-RPM_NAME = "mediastreamer2-devel-5.2.49-1.2.aarch64.rpm"
-RPM_HASH = "5bd8b04644158b30c0d66df7ca912016e0276022f4b11ca278b2b3855f6ba522f78fd7e148ba43dd480a742e1bfe933598f4f182089366e1b47762d18f5d5097"
+RPM_NAME = "mediastreamer2-devel-5.2.73-1.1.aarch64.rpm"
+RPM_HASH = "33d32497215b5af00211237edd2478cf82f1ace0bc6aa5f46869413d176f8f5570a9963a2a5242b7f5a4b094aa31fab6903430795d129de96da3997eb8737540"
 
 RPROVIDES:${PN} += "mediastreamer2-devel \
 pkgconfig-mediastreamer"

@@ -8,11 +8,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.6"
 
-RPM_NAME = "python311-jupyter_latex_envs-1.4.6-5.7.noarch.rpm"
-RPM_HASH = "0841a5e90c55e8e2b86ecb6206bf54a8c5cfdbe841d11ab60b2c71154b2c008062b2082032aa5ff02f02a9f320d7b159f59676a1154498994bc8e29c195a5d9b"
+RPM_NAME = "python311-jupyter_latex_envs-1.4.6-5.8.noarch.rpm"
+RPM_HASH = "edeaea3f34ecc30b82ff4974ee4f2ac0672a5e2518ba0f5283f6910729c030fa52ede9aadb8a715a85ffddff6653c8fa3b3025e9a932b1fd67255a83c97e453f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-jupyter-latex-envs \
+RPROVIDES:${PN} += "python3-jupyter-latex-envs \
+python3.11dist-jupyter-latex-envs \
 python311-jupyter-latex-envs \
 python3dist-jupyter-latex-envs"
 

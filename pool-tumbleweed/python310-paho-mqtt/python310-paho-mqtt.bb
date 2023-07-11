@@ -14,12 +14,11 @@ LICENSE = "EPL-1.0"
 
 PV = "1.6.1"
 
-RPM_NAME = "python310-paho-mqtt-1.6.1-2.10.noarch.rpm"
-RPM_HASH = "a2888164fe7c8eda0744028461c1ba0d860195ae5328c0a69abeecaeca743c9d939c8705d0188fac3ff878576a124d2d00446f88110d0d5d1c5502e6c6461a9d"
+RPM_NAME = "python310-paho-mqtt-1.6.1-2.12.noarch.rpm"
+RPM_HASH = "9db15b28a5945476770c7f9d4973b0cd838d96e11dd8d15608de3ea4bc483210ee9ccd57f9baaaebdef7de0619ce2092dea82f08602c12592eb6324adb327b93"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-paho-mqtt \
-python3.10dist-paho-mqtt \
+RPROVIDES:${PN} += "python3.10dist-paho-mqtt \
 python310-paho-mqtt \
 python3dist-paho-mqtt"
 

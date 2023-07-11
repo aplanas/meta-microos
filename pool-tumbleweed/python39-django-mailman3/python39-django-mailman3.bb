@@ -2,10 +2,10 @@ SUMMARY = "Django library to help interaction with Mailman"
 DESCRIPTION = "Django library to help interaction with Mailman."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.3.8"
+PV = "1.3.9"
 
-RPM_NAME = "python39-django-mailman3-1.3.8-1.4.noarch.rpm"
-RPM_HASH = "0368cf5fa8cf105a56c40a50aba2860052e9d66f70b49fca37250aca34d27f37cb9e18080f325972f7ad5217e317648ed2ec46baea895ff9e1dada76d5e3c18c"
+RPM_NAME = "python39-django-mailman3-1.3.9-1.1.noarch.rpm"
+RPM_HASH = "01e0424c39803c84f600d8abfc6e2d2a4503568791efd386170589d6d228fdd199971af87197eacc285830ac28f47c0da6bb3239beb69e72a91a7f1515f8db8f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-django-mailman3 \

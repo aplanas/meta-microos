@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.5.4"
 
-RPM_NAME = "vacuum-im-plugins-dbusnotifications-1.5.4-1.24.aarch64.rpm"
-RPM_HASH = "d9b6da810535157dbf76ea47d987ea3a45e0054d355d392b3ada3f91711561b61ae3e929930648c4ddf7f664012b5de0f41437957c2ea229b6a425c1f12ff5dd"
+RPM_NAME = "vacuum-im-plugins-dbusnotifications-1.5.4-1.25.aarch64.rpm"
+RPM_HASH = "466486f76189094d05d60823b895af2bb8c3017ef5ee0fe09e901cfbfdf5e6c151b9f22b0a7cee68bb567e2dccaa7714634f1ed5a8dd723fa14e9a635670a273"
 
 RPROVIDES:${PN} += "libdbusnotifications.so \
 vacuum-im-plugins-dbusnotifications"

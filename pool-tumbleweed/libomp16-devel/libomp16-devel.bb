@@ -2,10 +2,10 @@ SUMMARY = "MPI plugin for LLVM"
 DESCRIPTION = "This package contains the OpenMP MPI plugin for LLVM."
 LICENSE = "Apache-2.0-with-LLVM-exception & NCSA"
 
-PV = "16.0.4"
+PV = "16.0.6"
 
-RPM_NAME = "libomp16-devel-16.0.4-1.1.aarch64.rpm"
-RPM_HASH = "a1caf4b6d2146f9e0e97c1f0ee0713e7e126e71454fc0b8417985cb86a1ae468819e8a500c89a13a6983171ef680511b842c61eadca67b10d89e3f68ec46f67a"
+RPM_NAME = "libomp16-devel-16.0.6-1.1.aarch64.rpm"
+RPM_HASH = "d348d6fa431099945a45b1d9422da0ec80a23587137814086915b60ef4c5d66d2550afbd694c6fea1dc06a4a68ff7f71633f191ebb74370e8095ae81d7ce99fb"
 
 RPROVIDES:${PN} += "libarcher.so \
 libomp-devel \

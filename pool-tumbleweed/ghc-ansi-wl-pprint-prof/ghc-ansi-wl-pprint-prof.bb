@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6.9"
 
-RPM_NAME = "ghc-ansi-wl-pprint-prof-0.6.9-10.2.aarch64.rpm"
-RPM_HASH = "e4c46d37094eb936c202ddd4538eae8a174bfbb464e7f12ccbfc850f837e9b4de29c7b8b41c4a8d2d7507b228bf38482ba5ffd8f74c5e273bccefbd187705c20"
+RPM_NAME = "ghc-ansi-wl-pprint-prof-0.6.9-11.1.aarch64.rpm"
+RPM_HASH = "a210f3c75f6507d5445aa1d8aacaf80691a9f610111e7641e0b3cf9d7ea9c8336d7cb2c751136b1ed88007cefa7b2ef9b7d81978953157a81f72aea56ffea286"
 
 RPROVIDES:${PN} += "ghc-ansi-wl-pprint-prof \
 ghc-prof-ansi-wl-pprint-0.6.9-1uNId4TIZRh7T7KEIBVXZI"

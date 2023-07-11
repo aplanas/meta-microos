@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.3.1"
 
-RPM_NAME = "python39-ndjson-0.3.1-1.3.noarch.rpm"
-RPM_HASH = "05d1962fc8de944a2477cdacf13c04ebd4a090e2680fc994473c013a9907b9ac844e4543d5e1125b26a81860c30708ed8440c7cd95f9b25ea066c69d02a08b92"
+RPM_NAME = "python39-ndjson-0.3.1-1.5.noarch.rpm"
+RPM_HASH = "bea98f4ce26c2d0810cd140082389ab511c0d642679e16692cd82e80d27a100d61cb774b4a496b99fdb0836879154fd39fc7a010ee80b1f9f6618f3803d55c90"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-ndjson \

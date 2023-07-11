@@ -4,8 +4,8 @@ LICENSE = "SUSE-GPL-2.0-with-openssl-exception | SUSE-GPL-3.0-with-openssl-excep
 
 PV = "4.14"
 
-RPM_NAME = "gnucash-lang-4.14-1.3.noarch.rpm"
-RPM_HASH = "451ad0c0caa3722c31a9349c7a557e5132bc7850cff6af3e978e7320a2e1a316a61f47d383d54a2b0b6379b3b693b29b422d502aba75ee4c393f51aaf9c1a39f"
+RPM_NAME = "gnucash-lang-4.14-1.4.noarch.rpm"
+RPM_HASH = "b4d57ac9ce825b996c494e42540081ba0bc32c6acbfb7f494ab8c029b8f8887f87f19b5f9de45a8edd656a1d55b8a0dd11f3c186d16d62005965d18781cfc575"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnucash-lang \

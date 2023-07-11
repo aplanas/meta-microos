@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.22.2"
 
-RPM_NAME = "openal-soft-makemhr-1.22.2-1.4.aarch64.rpm"
-RPM_HASH = "6c8f558e75be0719151ca1070991c01a583c83a1cc430789ee57cf8ed8ca746073c7351218a868879e7b8b6db034c311a6ccd5499d154a777ed21b4e661cd2e2"
+RPM_NAME = "openal-soft-makemhr-1.22.2-1.5.aarch64.rpm"
+RPM_HASH = "711765e7c559a5da252a6099c9dc3ce13a8d2df0afa126fcdcd98fbcabe853b77a8d1b9fa310aea9894330eb021767fa8313a65c87bbd0f86d57197f29ccbcf4"
 
 RPROVIDES:${PN} += "makehrtf \
 openal-soft-devel-/usr/bin/makehrtf \

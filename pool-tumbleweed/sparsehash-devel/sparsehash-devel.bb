@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0.4"
 
-RPM_NAME = "sparsehash-devel-2.0.4-1.9.aarch64.rpm"
-RPM_HASH = "c6be869c1050ff36f8d14db934b8c7979162ac62b43e74145b10aa4c295b886f42114aeef0b6ac45b9a349e52fafae491b068d0a5d19f7c37f19b21defc5a810"
+RPM_NAME = "sparsehash-devel-2.0.4-1.10.aarch64.rpm"
+RPM_HASH = "1fe2b8ad9eadae827b4639d555b8afba292b71b64b9152fa12d4d6f7de13eb458d5685d9fe221e3d36a1f698e7829aa08fd592ad2ac24754e86e649c9d45748e"
 
 RPROVIDES:${PN} += "pkgconfig-libsparsehash \
 sparsehash-devel"

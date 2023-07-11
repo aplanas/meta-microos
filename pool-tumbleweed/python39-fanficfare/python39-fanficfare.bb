@@ -12,8 +12,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "4.21.0"
 
-RPM_NAME = "python39-fanficfare-4.21.0-2.2.noarch.rpm"
-RPM_HASH = "8b027a2c206fa2cd5734bf82ce11f9940fcd191890d0227dca32b22188e93770f99ab5fdd9ff168dd9c60c894acc90a97a50ab99075e0132b5fa2765d799ce18"
+RPM_NAME = "python39-fanficfare-4.21.0-2.4.noarch.rpm"
+RPM_HASH = "da6c6e93d39894f90a633bd554be8ca906848cf4bce7d67c10fe46187f83cec53900e26b2366f0077f2bfacb973e847601eb5b53b431edc7ec6ea241110dae4d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-fanficfare \

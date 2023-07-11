@@ -4,8 +4,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-eleeminator-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "b810ac17b1089838b90c43dbed6d89804e072684c5ff2ab36be50a73bd64e091d179eda98080c4d23be07e452026333cc003ad4cc798a31375d5f6b1e0bb3c24"
+RPM_NAME = "leechcraft-eleeminator-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "a292638e777c0250f4991bab90bd6d5e7b719efdc47da38c7de37077201587881afbbff00c6a0edf3f96091435f3d5e8fe9afe141649fda0596bc65977f61889"
 
 RPROVIDES:${PN} += "leechcraft-eleeminator \
 libleechcraft-eleeminator.so"

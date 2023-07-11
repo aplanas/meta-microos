@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn64151"
 
-RPM_NAME = "texlive-citation-style-language-bin-2023.20230311.svn64151-91.1.aarch64.rpm"
-RPM_HASH = "83737b66af583f88550db02b903d836a7bc245d5285fd4f5c88d6a733cdd9c310567a020a54366a0a408594d1c927754363952d73cfea0ae34b13e043d73e865"
+RPM_NAME = "texlive-citation-style-language-bin-2023.20230311.svn64151-92.1.aarch64.rpm"
+RPM_HASH = "040e777ce61c0efff952f4c13d16ca365a5d0a4c3eb40b45d94c70b57cfcce397763e35ec65f7b1dfac92f9020d3024d9c63e93eddc2fa4fa460f0e530bc5a86"
 
 RPROVIDES:${PN} += "texlive-citation-style-language-bin"
 

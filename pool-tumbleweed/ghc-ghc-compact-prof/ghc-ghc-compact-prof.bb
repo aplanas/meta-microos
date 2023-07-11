@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.0.0"
 
-RPM_NAME = "ghc-ghc-compact-prof-0.1.0.0-3.1.aarch64.rpm"
-RPM_HASH = "28a2f6ff2112e9f43372e7a33b2dad1db77e3b6281d43569d753bae83b89b3d7d1aa3f274b631e3b7adc8c0e1cfe90f767ca79ea3c5cf311a3b1126346669b2d"
+RPM_NAME = "ghc-ghc-compact-prof-0.1.0.0-3.2.aarch64.rpm"
+RPM_HASH = "9800cb97ee1ea6b1f150b9bb49e98f91db90b014ceb1bfb89d56db4762d8e310072961c4fe6fc80eeb12606e87387e50d7ff4af8292523e17745c3d88bf5384c"
 
 RPROVIDES:${PN} += "ghc-ghc-compact-prof \
 ghc-prof-ghc-compact-0.1.0.0"

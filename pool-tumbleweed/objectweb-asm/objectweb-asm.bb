@@ -12,8 +12,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "9.5"
 
-RPM_NAME = "objectweb-asm-9.5-1.1.noarch.rpm"
-RPM_HASH = "0179b6390d0feb837ade88626cc32ac94d37e047458fb0c15af4b23ec0f03beb73f829d6c7070095d21344e38b8a177f087eb8681db3ce82c665b14022a856de"
+RPM_NAME = "objectweb-asm-9.5-1.2.noarch.rpm"
+RPM_HASH = "3a0c7b7db938a41585a594474e8ad416d13806c8cd57396c227e320d286a1c109f1e87fa15d8ca89ede69eb57af2dacb9affc4dc53c46fec0562511609cd05ba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.ow2.asm-asm \

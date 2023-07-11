@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "3.5.35"
 
-RPM_NAME = "tanukiwrapper-manual-3.5.35-2.6.aarch64.rpm"
-RPM_HASH = "3625689c0f184e1be6acdd2dc323a1f3255541ac4652f43370b3d257785cd890adaffda19c3a6864321ae0aa0ae15ff232088a302bb41e2d24180ac4fca60075"
+RPM_NAME = "tanukiwrapper-manual-3.5.35-2.7.aarch64.rpm"
+RPM_HASH = "8dc01f7736fe16ce265b4fe179a6f53e601c118f0bc2c4def580a0f72dc4afea062049b5f191a8f4ccaef279c8853ab59f0ffaffd72f50601c5987ad04649b67"
 
 RPROVIDES:${PN} += "tanukiwrapper-manual"
 

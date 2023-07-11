@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "2022.1025"
 
-RPM_NAME = "python39-pylint-ignore-2022.1025-3.1.noarch.rpm"
-RPM_HASH = "be854dc94798036b4c17ba9f62ee07d4a220c2f85e59abfce392f6cdc3fe4a61f6d6912ff300fda9a01494b5214d5f9cd2f79b7c43dfc30a1fa3d27564bd1c3f"
+RPM_NAME = "python39-pylint-ignore-2022.1025-3.3.noarch.rpm"
+RPM_HASH = "f0b59cd9e1b89afe813858065279d623b686e1c86268d23b691213ce97ef2fb8c93e4ff422c541c07fbc93041a2b24888fa7aebeaa9a8ab541fccf76bfbf2a53"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pylint-ignore \

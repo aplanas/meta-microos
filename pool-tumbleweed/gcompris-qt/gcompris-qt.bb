@@ -11,10 +11,10 @@ This version is a rewrite of GCompris using the QtQuick \
 technology."
 LICENSE = "AGPL-3.0-or-later"
 
-PV = "3.2"
+PV = "3.3"
 
-RPM_NAME = "gcompris-qt-3.2-1.1.aarch64.rpm"
-RPM_HASH = "54bda48560074ce84bc565c3c0bd1b6b054026908d5c43bd52321119e818b8de5fc3052365110ff39812588a8007d6c7710fa35bd12eb78d42b5fc47de15fbd3"
+RPM_NAME = "gcompris-qt-3.3-1.1.aarch64.rpm"
+RPM_HASH = "f00a429e77e5a64e41a5d5f1aa6d13ed6a86f1b42109d7b98dd60b9aa0bbb38426667f440049531e5bc5a4c3196925d15288df0683d03dd8750b1415e1159eef"
 
 RPROVIDES:${PN} += "gcompris \
 gcompris-qt"

@@ -10,10 +10,10 @@ API proposal' by Franck Portaneri, which he wrote as a proposal for \
 adding BiDi support to Mozilla."
 LICENSE = "LGPL-2.1-only"
 
-PV = "1.0.12"
+PV = "1.0.13"
 
-RPM_NAME = "libfribidi0-1.0.12-1.6.aarch64.rpm"
-RPM_HASH = "3dbbdef618022c3900ec82f47752504ff4b330b69d001c42c6645e81d44a695e07b5601b1f975bf956bdf6bd5a3e91a28aa43f56cfab3b19f45b90273bc54e9e"
+RPM_NAME = "libfribidi0-1.0.13-1.1.aarch64.rpm"
+RPM_HASH = "fed5b12ecc0b03213135ccab27eb4b26a449f26936d2177b029b15eb1990f820b47c58db626538c1eddc5e376da5a69e419fc14c86beff5fabdba4b8a9580174"
 
 RPROVIDES:${PN} += "libfribidi.so.0 \
 libfribidi0"

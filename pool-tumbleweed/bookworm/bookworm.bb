@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.1.2"
 
-RPM_NAME = "bookworm-1.1.2-2.10.aarch64.rpm"
-RPM_HASH = "a89aa74e2378e8866c1f4ae0b9fb86cbb62fc62acc995fbd750981286a22df55fd5f8532ea0bdec3e965cfd91aff0c3206e7a7f92765c6fbe048071a2281ac58"
+RPM_NAME = "bookworm-1.1.2-2.11.aarch64.rpm"
+RPM_HASH = "c7fdaa5709a2a8baac3373b0fb71743003ec959b1a83bdc2f214e95179fb4358792a406592abf58fda66486cf7322de336b8ecbe1085d44a5686463fb4d3344b"
 
 RPROVIDES:${PN} += "bookworm"
 

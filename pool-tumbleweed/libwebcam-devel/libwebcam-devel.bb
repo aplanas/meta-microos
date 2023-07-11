@@ -8,8 +8,8 @@ LICENSE = "LGPL-3.0+"
 
 PV = "0.2.5"
 
-RPM_NAME = "libwebcam-devel-0.2.5-2.12.aarch64.rpm"
-RPM_HASH = "999460074242c27b82f10b8f1ba4d7a797d0463f3a8c7a9f37b715f39527e420c296c13c4f09076a29a4a5950485db5b83418a9ffc6ead83106fe758be8832a9"
+RPM_NAME = "libwebcam-devel-0.2.5-2.13.aarch64.rpm"
+RPM_HASH = "d46599c929f11639401f0fe6278d047c2fac017c44fb6a51a61176f78fe0967e71075f963ba90c43bbe9538371b35898b6139282da9828b93cdc4e4036a199c7"
 
 RPROVIDES:${PN} += "libwebcam-devel \
 pkgconfig-libwebcam"

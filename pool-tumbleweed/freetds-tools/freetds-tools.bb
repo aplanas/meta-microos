@@ -7,10 +7,10 @@ and ODBC. \
 This package provides application to allow users to make use of the protocol."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.3.17"
+PV = "1.3.18"
 
-RPM_NAME = "freetds-tools-1.3.17-1.3.aarch64.rpm"
-RPM_HASH = "57d24170a4216f2fb21a401881fa6d9e172fbff601f626d12dc2b11524a50bca1d0c29851d3a7435865da15787f23257b788ee46586141d9332790d8165a63a9"
+RPM_NAME = "freetds-tools-1.3.18-1.1.aarch64.rpm"
+RPM_HASH = "8ca616f56cd15473719dd0550b4ae01c629711b2f59eb2f1e8c6b8377e7b5e3e117d3bfa98a9f4b5da1b990e0d22723b60a5a1672b2cfd9c402e43dfce5e0aea"
 
 RPROVIDES:${PN} += "freetds-tools"
 

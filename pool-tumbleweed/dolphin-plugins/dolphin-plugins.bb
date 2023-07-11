@@ -4,10 +4,10 @@ DESCRIPTION = "Dolphin file manager specific version control plugins that: \
 - Provide a context menu with version control specific actions"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "dolphin-plugins-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "c3eb041ae2ee37587e610f718734f90c08d922471436ff921a5b51d216f6d2252c453c6bdaa2d548c4dcda1ab65066c048580aaef922215c00c597cd203f033e"
+RPM_NAME = "dolphin-plugins-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "2335458d33464532922b1d3621c18cd5428ee0ad005c1e7063b81969b97b60aa3eec71a3e7fd137526da03168bee98fc3ac8d450f1bcb31e52eabfb68af3173e"
 
 RPROVIDES:${PN} += "dolphin-plugins"
 

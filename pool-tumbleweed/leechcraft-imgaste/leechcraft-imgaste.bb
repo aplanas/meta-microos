@@ -4,8 +4,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-imgaste-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "c7b0f5b5ccd0d5469c8a8676a450fb4745a3b00f80cf9f4abb2c375daf2f6bd60f8faa1c0258684c02368504a8f6cbfa72edbf582a74ebcd9b102dccd5611434"
+RPM_NAME = "leechcraft-imgaste-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "0d5f5741e6045aec25b60ac975ae1122867b5864139a4f30db1c93959fcab837a9f5afef85085cff7a3f5c726af7ed628cf5adea4a7e5ce48e91a95073695229"
 
 RPROVIDES:${PN} += "leechcraft-imgaste \
 libleechcraft-imgaste.so"

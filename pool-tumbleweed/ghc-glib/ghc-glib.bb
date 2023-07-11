@@ -5,13 +5,13 @@ dealing with Unicode. This package only binds as much functionality as required 
 to support the packages that wrap libraries that are themselves based on GLib."
 LICENSE = "LGPL-2.1-only"
 
-PV = "0.13.8.2"
+PV = "0.13.10.0"
 
-RPM_NAME = "ghc-glib-0.13.8.2-2.3.aarch64.rpm"
-RPM_HASH = "66708e95011ec9f19a068da38ca39786777ab7b9c63fca68b51c7878b2f72e421a59fc4e40ed185c1f76426f5f5245484abd8750312c4bbaf090f6fb96bee766"
+RPM_NAME = "ghc-glib-0.13.10.0-1.3.aarch64.rpm"
+RPM_HASH = "77cdd02afc759df1babf43a5b392d2e2937450689d9f45dd6105fccb235be3172dcdc3a17aa0d04ea5c9a947c7a7eebb2c8891c2339d12356fae0c24623a2e32"
 
 RPROVIDES:${PN} += "ghc-glib \
-libHSglib-0.13.8.2-DQyux8etmkJKUbOUWF524Z-ghc9.4.5.so"
+libHSglib-0.13.10.0-3OTFLQKlfVK7JIaqsLt0K-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libHSarray-0.5.4.0-ghc9.4.5.so \

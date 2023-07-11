@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0+"
 
 PV = "1.0.1"
 
-RPM_NAME = "libdocparser1-1.0.1-1.7.aarch64.rpm"
-RPM_HASH = "e1190fced2ae2241ee1f6ded9a445a86113d5507fa42a084a036f1e1425f0cbb3ffb9b7792ffe53393f59b1794427d9c559ed0c910fe0b6c7109e7d444173489"
+RPM_NAME = "libdocparser1-1.0.1-1.8.aarch64.rpm"
+RPM_HASH = "315e22e5a275dec36eadd1accb23c7b988f10cd6230c69026bf6e129bac212099ac36e291a0c51dfc7d379c4d8cd6709432dcced5c08eae54ed97af0fb142ab2"
 
 RPROVIDES:${PN} += "libdocparser.so.1 \
 libdocparser1"

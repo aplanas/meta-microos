@@ -4,10 +4,11 @@ LICENSE = "Apache-2.0"
 
 PV = "0.3.1"
 
-RPM_NAME = "python311-sasl-0.3.1-1.4.aarch64.rpm"
-RPM_HASH = "9dd11d3546f35b2110d08522b82d12c083bec9f9cf7385ecf6046f94a3473d6bc79945da4d34a09d7c86a62ab8888a7c04f97d69c0457ee9f4d6dabdd5006237"
+RPM_NAME = "python311-sasl-0.3.1-1.6.aarch64.rpm"
+RPM_HASH = "f906ee150c15425850cc1e8a6cfebeb37cfb6d9de7a4e8f01cd39741721df121c21a2d03f96820bb0798c111147ed6afb83d5dd61f8cee1f2fd4d2efc1692971"
 
-RPROVIDES:${PN} += "python3.11dist-sasl \
+RPROVIDES:${PN} += "python3-sasl \
+python3.11dist-sasl \
 python311-sasl \
 python3dist-sasl"
 

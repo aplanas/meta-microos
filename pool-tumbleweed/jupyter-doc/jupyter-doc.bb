@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.0"
 
-RPM_NAME = "jupyter-doc-1.0.0-12.1.noarch.rpm"
-RPM_HASH = "48d2369219e61588132e514b4ad3fb63d8bdc5a9ff72e02b53aac550cdf6468393292756eb454d96091f916d74a4bc746d7345f2f54aa2c055470c89c9181978"
+RPM_NAME = "jupyter-doc-1.0.0-12.2.noarch.rpm"
+RPM_HASH = "f550dbaa08f20cda0b6746df5c5a1110f06547d0e331e3c71a13cfbf053e0ba6cda0a786f17a95c61155f9bf653e4e78601650fad3e12caa41dbc79a9201615e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-doc \

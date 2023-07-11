@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.8.2"
 
-RPM_NAME = "jflex-javadoc-1.8.2-5.1.noarch.rpm"
-RPM_HASH = "98227c6d1e1b603e715dcc6bf4788b896aa7264a05bba8ee4ce55996fd68f775422797b3093cfc18833ef2cd33dcdcc89701177102c460d1911afc53e8bbe8e6"
+RPM_NAME = "jflex-javadoc-1.8.2-5.2.noarch.rpm"
+RPM_HASH = "d38ed17c2ecf0dde18b0846328f2e271040aba3dc787b6e5bd11a2fdbb54ff3f541dfb15ab51f68cfe371d1d7a6f20f0d903a9947bf90c120f54187cc64c14ea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jflex-doc \

@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "1.7"
 
-RPM_NAME = "python311-pyLibravatar-1.7-3.12.noarch.rpm"
-RPM_HASH = "8e33f5a798969c282d2d0ee243784b4d337a60cc62e25243486cbdb6136584fd53fb7bc76e1d9e9c9cf583cd09ae6094fb09276bd8baf0d37527c29af6b793f6"
+RPM_NAME = "python311-pyLibravatar-1.7-3.14.noarch.rpm"
+RPM_HASH = "fc0ff351db4b62e6d8559d1124d01198264941e5ada012a16300176cece18b55d2cebed57ce60f536197105bd8aff822a57565aed2cd11f44f734aebdf6c60bd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pylibravatar \
+RPROVIDES:${PN} += "python3-pyLibravatar \
+python3.11dist-pylibravatar \
 python311-pyLibravatar \
 python3dist-pylibravatar"
 

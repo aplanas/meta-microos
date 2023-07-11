@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "2.20.2"
 
-RPM_NAME = "gtk2-engine-clearlooks-2.20.2-19.42.aarch64.rpm"
-RPM_HASH = "6cdec5b9f19a371086f9de9b540d0a745a79876c08748e1df4ebe6fa499a0d83894638a2e8e936c3e84474323b7adc08dd893310d1b0464a0f236c6dbacf8bda"
+RPM_NAME = "gtk2-engine-clearlooks-2.20.2-19.43.aarch64.rpm"
+RPM_HASH = "974d962156f7fc8862e60106e3ce63b122a3b749169bbe348663c385bc7ac034b2f8a81158bcaee00e8235550d7ef6236885f484e0cc3ace49b2fcc01cdaaff2"
 
 RPROVIDES:${PN} += "gtk2-engine-clearlooks \
 libclearlooks.so"

@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.4.8"
 
-RPM_NAME = "python3-tdb-1.4.8-1.1.aarch64.rpm"
-RPM_HASH = "228efe6000e080cb6c8b4e72ff77d8f22a577c92d9b868a5b393301b5cdf6c4ac052421285087cdc6f0c4eebbcc8c86fe98fb3d0737f6b93d59d6fb68391128b"
+RPM_NAME = "python3-tdb-1.4.8-1.2.aarch64.rpm"
+RPM_HASH = "0c9dcc16a07bdc28384e63f8987f3233226bfd21c980dc760209135e1709630b0094f5d7a5b98480d48f816b97bf452c14770e7b71efc556abbc117aeacff4dd"
 
 RPROVIDES:${PN} += "python3-tdb"
 

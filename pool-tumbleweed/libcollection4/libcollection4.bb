@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.7.0"
 
-RPM_NAME = "libcollection4-0.7.0-27.18.aarch64.rpm"
-RPM_HASH = "f2038f51cc99e4d2801acf3f659f1cec5176efa2b64fe81391d56d814ab43259b7f3e8317489840d5083ad68156b216a22c45fe9ee08a5d79fb525b6ce79325f"
+RPM_NAME = "libcollection4-0.7.0-28.1.aarch64.rpm"
+RPM_HASH = "d169ffb5d612a854fb04ccf9cf698423e63bfe6350619a732ff5a1a4ec517333de86cecb2806b5da9a607bc2affa55d183b062a197c766bf4fc85927eb3da392"
 
 RPROVIDES:${PN} += "libcollection.so.4 \
 libcollection4"

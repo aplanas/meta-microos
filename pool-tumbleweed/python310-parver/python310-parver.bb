@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.4"
 
-RPM_NAME = "python310-parver-0.4-1.2.noarch.rpm"
-RPM_HASH = "be13d90689ec55361c482b3474238161da3fbc13acd860b84ab8baae3b6dd1aa7d423962a6913deeecfbdc8923601d7bc328388eeb1fbb1771b87743bee4e06a"
+RPM_NAME = "python310-parver-0.4-1.4.noarch.rpm"
+RPM_HASH = "fd6b49205f5ffbe04b6fa5f3d00c82c02c27228a603371c782971ccc1b0c5073a9889af464289e86bae7a15b70ca70ae85242aa3aa4d8634f619b783917b6ec4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-parver \
-python3.10dist-parver \
+RPROVIDES:${PN} += "python3.10dist-parver \
 python310-parver \
 python3dist-parver"
 

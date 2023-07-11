@@ -4,11 +4,12 @@ LICENSE = "Apache-2.0"
 
 PV = "0.2.0"
 
-RPM_NAME = "python311-ffmpeg-python-0.2.0-6.4.noarch.rpm"
-RPM_HASH = "09c10035007609c2c9c7e4e6be50415591cce92d3ea83977514e4099bbe890b4b7b8b56a51a1f99a55677d626cb0f97b637fb5ea395d5efc411fc952b9528614"
+RPM_NAME = "python311-ffmpeg-python-0.2.0-6.6.noarch.rpm"
+RPM_HASH = "afafee38b7d310256372d3cc3a2a2de90643c963393476c9eb96e910a03bf90e4660579d7ddf01aa885881f601b1e1f657401132dad2f8b8aba2f3fe120eeb61"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-ffmpeg-python \
+RPROVIDES:${PN} += "python3-ffmpeg-python \
+python3.11dist-ffmpeg-python \
 python311-ffmpeg-python \
 python3dist-ffmpeg-python"
 

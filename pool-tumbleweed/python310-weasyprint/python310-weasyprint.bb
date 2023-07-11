@@ -7,15 +7,13 @@ like WebKit or Gecko. The CSS layout engine is written in Python, \
 designed for pagination, and meant to be easy to hack on."
 LICENSE = "BSD-3-Clause"
 
-PV = "56.1"
+PV = "59.0"
 
-RPM_NAME = "python310-weasyprint-56.1-1.4.noarch.rpm"
-RPM_HASH = "600af1e519e400505a3d6d3e842e61895675f5062d182c96ee21393584d31c6df1a865f5cf57da9ae040b3a7731c9b8e4f7cd7c1ff4119e5ebc5053b5f4963a9"
+RPM_NAME = "python310-weasyprint-59.0-2.1.noarch.rpm"
+RPM_HASH = "4a6d888bef69b50b747fa19373f10663b5bd1a2504dd0fd385007ac6847b3238a17231d4c871a0640f1211de2ecf5702cb8a3c1dc811bbe20fea9cf773e22361"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-WeasyPrint \
-python3-weasyprint \
-python3.10dist-weasyprint \
+RPROVIDES:${PN} += "python3.10dist-weasyprint \
 python310-WeasyPrint \
 python310-weasyprint \
 python3dist-weasyprint"

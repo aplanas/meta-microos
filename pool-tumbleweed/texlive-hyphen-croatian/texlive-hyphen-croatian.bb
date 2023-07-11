@@ -2,10 +2,10 @@ SUMMARY = "Croatian hyphenation patterns"
 DESCRIPTION = "Hyphenation patterns for Croatian in T1/EC and UTF-8 encodings."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn58652"
+PV = "2023.208.svn58652"
 
-RPM_NAME = "texlive-hyphen-croatian-2023.201.svn58652-52.1.noarch.rpm"
-RPM_HASH = "f2d2517bc0b1d1e0f9103720a96707e62e090f0bded2bd08543d383ec3150accdf128e4c951c91179263f31c6449c3aa8753d43790d82d408c6025c7a07ceb5a"
+RPM_NAME = "texlive-hyphen-croatian-2023.208.svn58652-53.1.noarch.rpm"
+RPM_HASH = "0ef703576ce7585b9600e6821d3b3e973e9e815f38623f36457656e987c7454a098269daf9fc395f810e80cb59d9dcd061419c0fc2756ca7fc85610e7ff28424"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-hr.ec.tex \

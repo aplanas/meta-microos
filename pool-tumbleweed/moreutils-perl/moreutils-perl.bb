@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.67"
 
-RPM_NAME = "moreutils-perl-0.67-2.2.noarch.rpm"
-RPM_HASH = "68d2d08c2f8adadfd98915d682852f31b08173d1f4d3886a3a7e8a768f973a4d142b99f3f37d61794766dbf5428823b1ec307ac8c9b0e2108e5f007b0c5a836d"
+RPM_NAME = "moreutils-perl-0.67-2.3.noarch.rpm"
+RPM_HASH = "99679411927430460d6a8be97b2f26efc96ff274d0b57913a8ed2a46c39c63b027a992b3300592cb9cb1dbb152b3f117c7525b1d9d24c70f8b44ebf13866443e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "moreutils-/usr/bin/combine \

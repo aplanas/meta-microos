@@ -7,8 +7,8 @@ LICENSE = "AFL-2.1 | GPL-2.0-or-later"
 
 PV = "0.112"
 
-RPM_NAME = "dbus-1-glib-doc-0.112-3.3.noarch.rpm"
-RPM_HASH = "9ca0312f94cfff869f124460ed736c97f974e8cd7fc77f518bf2e6a7a30ad46eba125998b9fb59176f7e1b2a4bcb0058a185a44b070d71d4a92e7f1e0d172a6b"
+RPM_NAME = "dbus-1-glib-doc-0.112-3.4.noarch.rpm"
+RPM_HASH = "ea6a2f2d2b311b8bb94f5902181dca0bb789fc8b5f6ceb3e6eb53ddf449705f4977fe23a4b039396f3a7c240b233cefd36ff339d2df9e00d8d0652282a473924"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dbus-1-glib-doc"

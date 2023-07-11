@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "0.10.5"
 
-RPM_NAME = "python310-khal-0.10.5-3.4.noarch.rpm"
-RPM_HASH = "a9fd8edb87b48ae670aab73736d5a55db0a4029080a1ff1871193d0c31ece288fb471050fff3b676b9c1adbc6c48122153b3313e0e7ce166ce7068357099ca42"
+RPM_NAME = "python310-khal-0.10.5-3.5.noarch.rpm"
+RPM_HASH = "5d552d5efb7b3b2cdcf2c376235bd5154feaec8ece3b7d48a921ddb9a1037f3c902399ddc10318ae373f4923850fc570561f05e35a4789c1fcdfe396f45a7759"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-khal \
-python3.10dist-khal \
+RPROVIDES:${PN} += "python3.10dist-khal \
 python310-khal \
 python3dist-khal"
 

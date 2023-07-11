@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.9"
 
-RPM_NAME = "systemtap-runtime-4.9-1.1.aarch64.rpm"
-RPM_HASH = "658a717da123084bfa2705900684c9a5ff4c42c0928c901b02f868c252b15ccef9b43509801ba18b4516561048a96406bc092cdd60c08995cf828660c99e8af5"
+RPM_NAME = "systemtap-runtime-4.9-1.2.aarch64.rpm"
+RPM_HASH = "5f5ef7d608e31d2d041b42db01ba4d9cef54c76c4feb0ed0989305590d2b609e97627cfca72e253d51e1e30039a9b5ab08b5de46948e5bcc1d4eeeb127d5ce11"
 
 RPROVIDES:${PN} += "systemtap-runtime"
 

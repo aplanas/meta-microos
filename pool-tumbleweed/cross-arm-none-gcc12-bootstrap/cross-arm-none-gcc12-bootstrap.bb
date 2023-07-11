@@ -11,8 +11,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "12.3.0+git1204"
 
-RPM_NAME = "cross-arm-none-gcc12-bootstrap-12.3.0+git1204-1.1.aarch64.rpm"
-RPM_HASH = "f57e895c7886c8a319ec474ef7335446e4a55ad268e65d1b5e78004785e6219f1045d36cba05444f559bd897c0199ca62924c21a0296561fe608393db1abec19"
+RPM_NAME = "cross-arm-none-gcc12-bootstrap-12.3.0+git1204-1.2.aarch64.rpm"
+RPM_HASH = "dd01e879f0582c04c314b0f47b850e31357965009cecfe308c48ac53e527b098c40de76797a61104e7c0d474b0dddb29e4d6791b27a151e58ab58bafa211fc4e"
 
 RPROVIDES:${PN} += "arm-none-eabi-gcc \
 cross-arm-none-gcc12-bootstrap"

@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3.21"
 
-RPM_NAME = "libopenblas_openmp-devel-0.3.21-5.3.aarch64.rpm"
-RPM_HASH = "31dcb5e4142cbe1acb563c1dbaeed44b66f7730246d3b7f53b2b38f86a6b7eaf3871aef14f510e5daa43d93a2e6e307b4a7ab8a230bff8de380767c41d03f858"
+RPM_NAME = "libopenblas_openmp-devel-0.3.21-5.4.aarch64.rpm"
+RPM_HASH = "d1bb44f2142d9732bb8c9d74ef373401d3afc52b4e44b4250389eee121340bb3b6e5372d667506c91e3da6533a7265e0a63b88128f08955a5314f9a03d23408e"
 
 RPROVIDES:${PN} += "libopenblas-openmp-devel \
 openblas-devel \

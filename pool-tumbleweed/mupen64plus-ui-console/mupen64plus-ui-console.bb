@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.5.9"
 
-RPM_NAME = "mupen64plus-ui-console-2.5.9-2.8.aarch64.rpm"
-RPM_HASH = "e5f97e768368c1c9232e02164d37b5df8df0cabf6f7dc43abe9f3fd6fcbd26232473f99ba9a4cda5e534fa15d89cc81d61e6edeae28e1bb918cdfc1fa5508baa"
+RPM_NAME = "mupen64plus-ui-console-2.5.9-2.9.aarch64.rpm"
+RPM_HASH = "8d64eebfc675a720c53d96637c45571f1ebef7b8aeb4ec3f83d77ab513881b05cbb6c77115656966a2dda7a6c82304c3cc2a42431dc2a0995eafa767d137eb1f"
 
 RPROVIDES:${PN} += "mupen64plus-ui-console"
 

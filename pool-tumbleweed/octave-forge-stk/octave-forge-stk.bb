@@ -13,8 +13,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.8.0"
 
-RPM_NAME = "octave-forge-stk-2.8.0-1.2.aarch64.rpm"
-RPM_HASH = "00578ffb8fd5c9a4c0881627197fda6775775e959b64f1b7901b7ba7934a8fab0e76a2743e186ae5627afa924b16f490ed372424da8447a725d153756a71b55f"
+RPM_NAME = "octave-forge-stk-2.8.0-1.3.aarch64.rpm"
+RPM_HASH = "acfcc428cd8e5d1d8f52dc56b8753d29dd1c6f157579b7f320650bf99657418a2db3e3d868bd159346788a68d8408bf2ac5e1bf10a3794d64f3fffdf2ad470f2"
 
 RPROVIDES:${PN} += "octave-forge-stk"
 

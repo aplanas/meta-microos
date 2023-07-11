@@ -2,10 +2,10 @@ SUMMARY = "KDE Archiver Tool"
 DESCRIPTION = "This is a KDE application to work with compressed archives."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libkerfuffle23-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "a0d3ee35fca0a0a52bfca3c5de8c82e03af809e1ca3a44ff057824109ae89dacd9a9b6475ea2f1abdbe636011103ad22d209717ab252b68b93078c6d5210a4cf"
+RPM_NAME = "libkerfuffle23-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "bcd842f6f1da4cac03d122aab8710f50e0b525d87ff654bb04b79ad91e2f595fe7749f27fc0335f3a5d9356ab919eb036c346d84a6d1836becf2acdef600bbec"
 
 RPROVIDES:${PN} += "libkerfuffle.so.23 \
 libkerfuffle23"

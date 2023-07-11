@@ -6,10 +6,10 @@ a data container which gives access to all parameters and results \
 from a single source."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.6.0"
+PV = "0.6.1"
 
-RPM_NAME = "python39-pypet-0.6.0-2.3.noarch.rpm"
-RPM_HASH = "788767bc430da2601b76fa853224317e13d7f5e4b96a4b84efa0857400021f7d0f04bc81c98022a70c9728837f4cd80da1f8afdb13e65cc7948a150faf9a6294"
+RPM_NAME = "python39-pypet-0.6.1-1.1.noarch.rpm"
+RPM_HASH = "c97fc43167d561b1c6f73c12a39f017c4c7c8240cc9b668521e910367f345229be3474c2a2f6e39259b6a22aadd7d48dd5ba7f442fb2685910df51bb5a03f9d4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pypet \

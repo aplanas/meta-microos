@@ -9,10 +9,11 @@ LICENSE = "Apache-2.0"
 
 PV = "1.5.4"
 
-RPM_NAME = "python311-typed-ast-1.5.4-2.1.aarch64.rpm"
-RPM_HASH = "ab45755715001625c65a7268f272c40a96473301e77efb5304d8f93568fa10c1f1652566e32f09194dab0eadcc56203e80b5a21a0ad433119b1442158293d372"
+RPM_NAME = "python311-typed-ast-1.5.4-2.3.aarch64.rpm"
+RPM_HASH = "fa80ba7fe50a10f56f835b1c016d1f83a87c51a80c1324ef2661cd7e4c74fbd0906770fcae924ea37092aed74a28a64c6f8ce6b7da36dfe6448fdecf41738f20"
 
-RPROVIDES:${PN} += "python3.11dist-typed-ast \
+RPROVIDES:${PN} += "python3-typed-ast \
+python3.11dist-typed-ast \
 python311-typed-ast \
 python3dist-typed-ast"
 

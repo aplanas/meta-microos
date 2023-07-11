@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0+"
 
 PV = "0.2.5"
 
-RPM_NAME = "uvcdynctrl-0.2.5-2.12.aarch64.rpm"
-RPM_HASH = "b0c14e55d94ebf250462e1ca787d79ceea409ac2ed212a9236e435f21bdcd6512d9a91144527f1693e4f6ebcfbb4bc9683bc410f89e4ea182b37198fac914e34"
+RPM_NAME = "uvcdynctrl-0.2.5-2.13.aarch64.rpm"
+RPM_HASH = "fb8a61973caaff8980f8608390a366047102a5fda20ec6133afc371ef7da0aece2186fdd90d33f912341c1079017fb7b3d255128fb57ebfedf5be48d3ac22b0d"
 
 RPROVIDES:${PN} += "uvcdynctrl"
 

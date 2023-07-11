@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "5.3.4"
 
-RPM_NAME = "python311-pynamodb-5.3.4-1.2.noarch.rpm"
-RPM_HASH = "c8ec8ca2cac4de35a4789438b468ebcf16cbbf8ba2bf6fd997859f7ab344f557aa52e6ffc4d2df560b6901b5e45feb3274617d881abacdb5e07d2f8b55a64448"
+RPM_NAME = "python311-pynamodb-5.3.4-1.4.noarch.rpm"
+RPM_HASH = "5082b097ecad4daafd474533c261200814b3f8c5a7eb1c671cb87536ec7193936529ff1de724732ccb951dafdc9f1c6a4d5110db6f11de48a00fd1eb92b0d749"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pynamodb \
+RPROVIDES:${PN} += "python3-pynamodb \
+python3.11dist-pynamodb \
 python311-pynamodb \
 python3dist-pynamodb"
 

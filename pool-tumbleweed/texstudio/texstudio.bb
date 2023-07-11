@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-only & GPL-3.0-only & MPL-1.1"
 
 PV = "4.5.2"
 
-RPM_NAME = "texstudio-4.5.2-1.1.aarch64.rpm"
-RPM_HASH = "d06abb402627f5c65a413292efaef152e5230338f9cfb9498f9f341ba6fb527e5c73c5774d51cd86e2fb4375eb1ca9d99bbd8a8b87071e096d8f347502c80b88"
+RPM_NAME = "texstudio-4.5.2-1.2.aarch64.rpm"
+RPM_HASH = "0160d449a27d246ec195fceaeba145ac1bc9ecf77b2541df9460e98b7fe36affef27810b3186bce9c0924a95d9fd783a35df07a7fc1ec34f7402142c9741f211"
 
 RPROVIDES:${PN} += "texstudio"
 

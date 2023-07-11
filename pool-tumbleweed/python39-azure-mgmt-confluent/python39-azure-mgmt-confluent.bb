@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0.0"
 
-RPM_NAME = "python39-azure-mgmt-confluent-1.0.0.0-1.10.noarch.rpm"
-RPM_HASH = "dc16cf88d7108297ffd91a017b5a11b11260a0dbec6d57575d1ed3db8f10e88d4388d7311e55105c05cb6fc979adf0ff9f7b8a479cc1e02c5eb6f3d08fe8d0b1"
+RPM_NAME = "python39-azure-mgmt-confluent-1.0.0.0-1.11.noarch.rpm"
+RPM_HASH = "6abdc467d2872be533ba8cc281a07e4902d4b6dfbfe2762198a2b497e2e368e0cc586faf01709d2b89f741923a095aa70f71ca2dd7b2b783045b45724628f3a3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-confluent \

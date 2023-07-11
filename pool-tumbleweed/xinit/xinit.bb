@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "1.4.2"
 
-RPM_NAME = "xinit-1.4.2-1.2.aarch64.rpm"
-RPM_HASH = "ed1fb0e355554fcf8c1509dfc9ae20f70e782ce728ff2df9ab2b865fbc72e86aac4e2c4eba4fe729d77718c2bfbc016784d95321d0b04680f5a46fece83be1f2"
+RPM_NAME = "xinit-1.4.2-1.3.aarch64.rpm"
+RPM_HASH = "ea20ac371c0e37bc8548759bffac1c73a64dc8b651ff9fc88bf133dc2bcbbe4c0b7efd00edd7118351da75d8cf2db09fde83723f9df387073b7b13f3b52ba567"
 
 RPROVIDES:${PN} += "config-xinit \
 xinit"

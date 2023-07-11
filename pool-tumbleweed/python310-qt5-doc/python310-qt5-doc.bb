@@ -6,13 +6,11 @@ LICENSE = "SUSE-GPL-2.0-with-FLOSS-exception | GPL-3.0-only | NonFree"
 
 PV = "5.15.9"
 
-RPM_NAME = "python310-qt5-doc-5.15.9-1.6.noarch.rpm"
-RPM_HASH = "e3cee3154d80fcf763e63b4a6c095f975e0c49e18a48d124a8f4bec9d995b91d4af22c3ec3e4806beb97cfebe70817da50eb5c63ce741464cc52bcc4b2f447b4"
+RPM_NAME = "python310-qt5-doc-5.15.9-3.1.noarch.rpm"
+RPM_HASH = "3c84104cd05079054853ece667851f0268fba8341e2434162ae97d32d9e299d411f83baa4056c8922fb855f33151b60b5a89dede00cffc3ed474e8c8cda57cf8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-PyQt5-doc \
-python3-qt5-doc \
-python310-PyQt5-doc \
+RPROVIDES:${PN} += "python310-PyQt5-doc \
 python310-qt5-doc"
 
 RDEPENDS:${PN} += ""

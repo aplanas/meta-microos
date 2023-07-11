@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.2.1"
 
-RPM_NAME = "libmplex2-2_2-0-2.2.1-2.5.aarch64.rpm"
-RPM_HASH = "030fe0f412c6c995a4383228dca5090ab69673e43bfd12295332b7a749c8f97db3994d3e7870dbe70bbe93a70cae0f57b7f5dbc8b8bf91b9b8b824d8dab94461"
+RPM_NAME = "libmplex2-2_2-0-2.2.1-2.6.aarch64.rpm"
+RPM_HASH = "e347b7a0b2dbab9ad074a2fb92f9e942abd76df641dd7b7e9800e0c7b0b5083c7f5fe4c20a67e4556f256bbc051ebbc71b1d67fa1150e34de2e1b703b5769cfd"
 
 RPROVIDES:${PN} += "libmplex2-2-2-0 \
 libmplex2-2.2.so.0"

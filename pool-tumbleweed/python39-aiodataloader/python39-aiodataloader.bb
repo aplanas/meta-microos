@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "0.2.1"
 
-RPM_NAME = "python39-aiodataloader-0.2.1-2.6.noarch.rpm"
-RPM_HASH = "71c8a2a908093355ee035a5ae8d5f353ba936a863d29c9437ef4ae7454df1725f4b998e565ca95dd5d0368c62ec8006fdd220338f55f3645db6e15f8ccd8e935"
+RPM_NAME = "python39-aiodataloader-0.2.1-2.8.noarch.rpm"
+RPM_HASH = "da07c8a1438ec3fc56a4cd27c1d6d491e75f31b33c52ee0c353388035ef9a46c97a0c451440165258d742162fd58c283aa9f63025faecf5d7d2631e382123a43"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-aiodataloader \

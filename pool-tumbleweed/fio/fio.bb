@@ -9,10 +9,10 @@ I/O performance information, such as completion and submission latencies \
 (avg/mean/deviation), bandwidth stats, cpu and disk utilization, and more."
 LICENSE = "GPL-2.0-only"
 
-PV = "3.34"
+PV = "3.35"
 
-RPM_NAME = "fio-3.34-2.1.aarch64.rpm"
-RPM_HASH = "334b87324959c3b8ac491243126afcc6fb58de802da6a5f1d9769fff1b60ddc6ec56b4b034f6ca81b9d0e0d076a7fc157b11522eca9d42b32f22129d0ed70cb4"
+RPM_NAME = "fio-3.35-1.1.aarch64.rpm"
+RPM_HASH = "efcb8f8a18c64af8557e53adb19bc732583bf3e5be46157f5f32b6347d98306599af4befb83e9a697b99868ec25b24108015f3b581e81583bc781f589a744bd1"
 
 RPROVIDES:${PN} += "fio"
 

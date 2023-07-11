@@ -8,10 +8,10 @@ and also with a generic plugin which can be used as a fallback for \
 ConnectionManager-Protocol combinations where no plugin exists."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "ktp-accounts-kcm-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "6d44170337296eca5e519886b95835cb9abf1c395338f5602af0ca1e60320f9c770efbc50ab7465f99f24fba4189c8d0db761f1cb162aca915608b9a102d8f2f"
+RPM_NAME = "ktp-accounts-kcm-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "24143a0398941555232beb112ffac861f6a27049734515f275b90a44b2d1151342be311b54e2db9c75aa5beb65517de9b5cb4ed3c4311c15e8348958d16682d1"
 
 RPROVIDES:${PN} += "ktp-accounts-kcm \
 ktp-accounts-kcm5"

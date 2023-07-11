@@ -7,11 +7,12 @@ LICENSE = "NCSA"
 
 PV = "0.6.0"
 
-RPM_NAME = "python311-lit-0.6.0-3.9.noarch.rpm"
-RPM_HASH = "f8b5fc6ffe314a88dc1a57891cc54ab785c0c0108beb26390103bdaef271bbd09757a0c122236c452e83cd6129183f365f232fdaa978e4a5d676134259381734"
+RPM_NAME = "python311-lit-0.6.0-3.10.noarch.rpm"
+RPM_HASH = "0156cde6109467855f6e20edd94742cbdc4052a701719bff842a280116d07ecebbac6223c54cbc5b797ff009937363ab8497b0fe839e27db87451680c4908ef8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lit \
+python3-lit \
 python3.11dist-lit \
 python311-lit \
 python3dist-lit"

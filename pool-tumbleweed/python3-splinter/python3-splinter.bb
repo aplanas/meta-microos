@@ -8,11 +8,11 @@ LICENSE = "MPL-2.0"
 
 PV = "3.0"
 
-RPM_NAME = "python3-splinter-3.0-2.22.aarch64.rpm"
-RPM_HASH = "a4166258d2c260233b501e44e6030631ea3194408ddd40d5aac43b438c0fb4f768c909d13be591556195e5a0aee064eb5eb68c92e310364377c91c638837a740"
+RPM_NAME = "python3-splinter-3.0-2.23.aarch64.rpm"
+RPM_HASH = "b1139eaad0ad1f33428534775fba5267fa930503dde03d0f4f1222719af76cab8655a1cb17fe513bab28b24beb42993be059c4fc16dae1d801af0f2d2109c11e"
 
 RPROVIDES:${PN} += "python3-splinter \
-python3.10dist-splinter \
+python3.11dist-splinter \
 python3dist-splinter"
 
 RDEPENDS:${PN} += "python-abi"

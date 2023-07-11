@@ -6,11 +6,12 @@ LICENSE = "GPL-2.0-only | MPL-1.1 | LGPL-2.1-or-later"
 
 PV = "0.12.6"
 
-RPM_NAME = "python311-tld-0.12.6-2.5.noarch.rpm"
-RPM_HASH = "ee0253aadc2fc3dc774f4abf858f8b59510e45e6740f8daa43787124885f806023ff30490107e13af7efcbfb14979796b2fecb1926a99be7a7e133dbe6aa4cd2"
+RPM_NAME = "python311-tld-0.12.6-2.7.noarch.rpm"
+RPM_HASH = "dba4fe6968a40a39563a7731775abc8dcd3f7f7e04f19359999b646d2ee07c87ea2bc4f7cb3033e721bb7d320aa6d70c637faa13f340fc12994eaf129950f305"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-tld \
+RPROVIDES:${PN} += "python3-tld \
+python3.11dist-tld \
 python311-tld \
 python3dist-tld"
 

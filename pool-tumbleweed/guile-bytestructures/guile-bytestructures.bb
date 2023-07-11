@@ -3,10 +3,10 @@ DESCRIPTION = "This library offers a system imitating the type system of the C p
 language, to be used on bytevectors within Guile."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.0.9"
+PV = "1.0.10"
 
-RPM_NAME = "guile-bytestructures-1.0.9-1.8.aarch64.rpm"
-RPM_HASH = "c7cc5a99e30942b0be8b9401afcf3fafe6b85bef4161fadabf9706caed084934c2e0efea9c2b030bbee0784174d3adf7a3a4ac91ce69d50577299286385a9ecf"
+RPM_NAME = "guile-bytestructures-1.0.10-1.1.aarch64.rpm"
+RPM_HASH = "8f7407a0d920396ea0f19c43e918e327e7fb0a59cf11722a9056816eed951fb3bb3525c1c3b59b6f41142cf9dce65973f4d723da74b08caae671f1dc271607b1"
 
 RPROVIDES:${PN} += "guile-bytestructures"
 

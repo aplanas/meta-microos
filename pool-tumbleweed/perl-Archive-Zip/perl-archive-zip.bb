@@ -22,8 +22,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.68"
 
-RPM_NAME = "perl-Archive-Zip-1.68-1.13.noarch.rpm"
-RPM_HASH = "4d65314109d52554d0d31811ad9792c3ffb8ef6cbc8ecb1471a5735a0365364266058414ebc94d9d05a8e04b88441048c2eaacd11dab5fc0ff0977ee2211a3d9"
+RPM_NAME = "perl-Archive-Zip-1.68-1.14.noarch.rpm"
+RPM_HASH = "8970c07e943406ebcbad188fb8853e84ab55620019a8759631ec1a511441c25e5cb1b3f5076e72d32260b8aa4514a55dddcecf730712b244ada70dea78ee5eea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Archive--Zip \
@@ -41,7 +41,7 @@ perl-Archive--Zip--ZipFileMember \
 perl-Archive-Zip"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-Compress--Raw--Zlib"
 
 inherit rpm

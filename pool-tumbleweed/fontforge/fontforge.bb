@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "20230101"
 
-RPM_NAME = "fontforge-20230101-1.3.aarch64.rpm"
-RPM_HASH = "c58db7b1c44fde83b5c48cf43caf045363c22bcfbacd54e2fa273c8e18af4353e7039f4e05af77b7cfd7a4953072e91f850bf4bd932a07906b51dcb6dbe5730b"
+RPM_NAME = "fontforge-20230101-1.4.aarch64.rpm"
+RPM_HASH = "2da4da150623dfc41431f57b8be8c07768f2ed82d9fd8dfe12b3e5b6364d5b9594f9304faf9ca9061ae649dfe1caf5fd4c24bbefa546815c01e47ae0ab4c5d95"
 
 RPROVIDES:${PN} += "fontforge \
 libfontforge.so.4"
@@ -29,7 +29,7 @@ libm.so.6 \
 libpango-1.0.so.0 \
 libpangocairo-1.0.so.0 \
 libpng16.so.16 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libreadline.so.8 \
 libspiro.so.1 \
 libstdc++.so.6 \

@@ -8,8 +8,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "2.0.1"
 
-RPM_NAME = "libwget-devel-2.0.1-1.5.aarch64.rpm"
-RPM_HASH = "6c713204a133f53de64a6a1c68bab0172384ea8d5f6fe7b4f857c4c39c5eb5d857a17ab648001f59ada83beb8e01c7b15eec186d8f8067fb02ec7fa10496c376"
+RPM_NAME = "libwget-devel-2.0.1-1.6.aarch64.rpm"
+RPM_HASH = "658ab6f46e0f46d9a58536364747ab711721c807bdf294a26896eeb3a8da0b0c0d1629d94d47d62b4d9d15f927015a8beac5018c984a697d36285e8b69a0464a"
 
 RPROVIDES:${PN} += "libwget-devel \
 pkgconfig-libwget"

@@ -6,8 +6,8 @@ LICENSE = "EPL-2.0"
 
 PV = "4.15"
 
-RPM_NAME = "eclipse-jdt-4.15-9.3.noarch.rpm"
-RPM_HASH = "a1ef94a11542e1e01abae0295c83eb3827f0ec8dbd8501092e8be197a389a8177f3d9ff9bfded7627b51f9f97ba8935bf80f5915f3bdd4d3d5e1421bd49255c1"
+RPM_NAME = "eclipse-jdt-4.15-9.4.noarch.rpm"
+RPM_HASH = "62f33abbd9aa213edf2998918c55076eeb014884cd348f39f94a3d3646738b369f71cc2e5797a9dcfcf1a370441e4ec5d6f897fe348a61f20e5cc55949713608"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eclipse \

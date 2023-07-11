@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "ghc-hslua-module-doclayout-doc-1.1.0-1.2.noarch.rpm"
-RPM_HASH = "01e2f042dee6c1d4ea9cd75f3dc39a150832373db832ecf5082d5ce29770cbc04e7d4cf35906f31b31a59963ac17c5b202991a723db5deb979d2a1d261a3cc7e"
+RPM_NAME = "ghc-hslua-module-doclayout-doc-1.1.0-1.3.noarch.rpm"
+RPM_HASH = "15c293451607f7497998283e4da3e57d3f814a8f11ae6837271ec6f510389228b14a9dc221db3b738ae212208a0fc2ff4b88b7f0d32f37c9d8e0ede45f6f74dd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-hslua-module-doclayout-doc"

@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "2.21.0"
 
-RPM_NAME = "python311-pre-commit-2.21.0-1.5.noarch.rpm"
-RPM_HASH = "31ee6f6d91109f618342d1d6e2dcea88ad46582e00b5ae178b6120914dc3a827d1dfe4b3c29edfd3a83c6d2bbb06cc38ec4728a7833f0ca7fdc9f5dfb8ba9f96"
+RPM_NAME = "python311-pre-commit-2.21.0-1.7.noarch.rpm"
+RPM_HASH = "61daa807d8904294b607b3f82e03af3eeffd8f1814164bee2ad9274714165fdbd7941129e4b74812dc08a42488e6439ca8191b7932e6923d8633f72dcbb1712c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pre-commit \
+RPROVIDES:${PN} += "python3-pre-commit \
+python3.11dist-pre-commit \
 python311-pre-commit \
 python3dist-pre-commit"
 

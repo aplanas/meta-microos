@@ -14,8 +14,8 @@ LICENSE = "NCSA"
 
 PV = "0.20"
 
-RPM_NAME = "include-what-you-use-0.20-1.1.aarch64.rpm"
-RPM_HASH = "99f1242fa5c43ec6ad575619d423328977b8ec2ad240646f1fb031f952dd3a2330a87f9e4cfb112a5efcb5ec0cac074f18488be2667eb979e4968b8b6e07541c"
+RPM_NAME = "include-what-you-use-0.20-1.2.aarch64.rpm"
+RPM_HASH = "a7ce50f3d1aafc386228b79f4cb01c7ccf5e36c4f514a1f5091da1c7b14723ffc9e7c17403262483181b73e9557f47af35bd8f888e2e2f021a78611684a59258"
 
 RPROVIDES:${PN} += "include-what-you-use"
 

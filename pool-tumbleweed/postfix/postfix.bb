@@ -2,10 +2,10 @@ SUMMARY = "A fast, secure, and flexible mailer"
 DESCRIPTION = "Postfix aims to be an alternative to the widely-used sendmail program."
 LICENSE = "IPL-1.0 | EPL-2.0"
 
-PV = "3.8.0"
+PV = "3.8.1"
 
-RPM_NAME = "postfix-3.8.0-2.2.aarch64.rpm"
-RPM_HASH = "ef145c4083dacf52f7f090dd7116e1b2378be97137207c8b3ec6bed5bec907d506d26990a6da7201ecff8fa215073f6837b514d1105a36b4c9e1a7d8a873f58b"
+RPM_NAME = "postfix-3.8.1-1.1.aarch64.rpm"
+RPM_HASH = "e9dd2e4f812b4beef3242766287e9990c8dbc26df025be30f985f971780cab216d8fc9e8343d3fa717cd820e012ba04f9979efc21399543f681d15cf2eb19a60"
 
 RPROVIDES:${PN} += "config-postfix \
 group-maildrop \

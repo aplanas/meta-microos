@@ -4,10 +4,10 @@ with the wxWidgets toolkit, providing a graphical approach to \
 editing catalogs over launching vi and editing the file by hand."
 LICENSE = "MIT"
 
-PV = "3.3.1"
+PV = "3.3.2"
 
-RPM_NAME = "poedit-3.3.1-1.2.aarch64.rpm"
-RPM_HASH = "35ed105a1b689384c0b041312dafa614b65d567a05c7386f4894eaa8cf0311e8c46eb1746321a90b50189e271beb62f880a3ccb2848062353a0958f3e8c374ef"
+RPM_NAME = "poedit-3.3.2-1.1.aarch64.rpm"
+RPM_HASH = "7a3634b5b9630016922817d242ac1c0949c8619c89b4a2b128cfa8e728d5a177c526d1f9a459a26050221be77c73480c8020750b6f9e734518ff2e87ec91aeea"
 
 RPROVIDES:${PN} += "poedit"
 

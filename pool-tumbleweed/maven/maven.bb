@@ -4,10 +4,10 @@ concept of a project object model (POM), Maven can manage a project's build, \
 reporting and documentation from a central piece of information."
 LICENSE = "Apache-2.0 & MIT"
 
-PV = "3.9.1"
+PV = "3.9.2"
 
-RPM_NAME = "maven-3.9.1-2.1.aarch64.rpm"
-RPM_HASH = "9eaf571dc8c7a221783a0a1358bc260db4074dab41cb0f377b65102a828311b6190c0cc094f01d65300bb7dc7e8855bf608b917b968458221ee49364a58da5f9"
+RPM_NAME = "maven-3.9.2-1.1.aarch64.rpm"
+RPM_HASH = "2006c566f76391514e83232a4e371446b3fc36448c2a1d29766d826a6e6c28c97fefb832e1cb97f782b84fb0e72c58e7eaefa9ca44956adc9e06e3d29bfaa0ef"
 
 RPROVIDES:${PN} += "maven"
 

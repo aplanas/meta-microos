@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.4.2"
 
-RPM_NAME = "python39-mkdocs-1.4.2-1.2.noarch.rpm"
-RPM_HASH = "a2fc128479a2bf18e5d5f533476761c3e1919e4b142e36b12499b245f3059e3b9eda40397231897dd826dc0a418226f8dd9e54d3cd3b297282bc5c8f17b5881a"
+RPM_NAME = "python39-mkdocs-1.4.2-2.1.noarch.rpm"
+RPM_HASH = "69754b5e70a8814a0183e5a11ef7c03f68558a5eb1ff67e72c98249a69d7c5cdb6e173a6fb7b1779a4028801c9da5bc80570a1c6f8458fbd5b3275c3597f290a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-mkdocs \

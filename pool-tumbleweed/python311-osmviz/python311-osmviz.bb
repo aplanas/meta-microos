@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "python311-osmviz-1.1.0-3.7.noarch.rpm"
-RPM_HASH = "b15e41f9b6030276801eed1d705a9f4c9f6d5c44125cda3a78ad27081b3a25b3a8bcc7cbbb65fe63253211967c69a42a11166b4cd8a69516d9746dbdbdd64d51"
+RPM_NAME = "python311-osmviz-1.1.0-3.8.noarch.rpm"
+RPM_HASH = "d7612f6ed2cd0a9c0d342dfc4fe7586764321d95ee87831f3d53aa9732525843a7e6bf776e1e4dbb910c51dc9d98b64f5b6e35882c4bf4329028a7a34d44eb73"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-osmviz \
+RPROVIDES:${PN} += "python3-osmviz \
+python3.11dist-osmviz \
 python311-osmviz \
 python3dist-osmviz"
 

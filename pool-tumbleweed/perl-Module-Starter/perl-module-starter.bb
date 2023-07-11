@@ -10,8 +10,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.77"
 
-RPM_NAME = "perl-Module-Starter-1.77-1.12.noarch.rpm"
-RPM_HASH = "70a2750064f7dccc43ffccb1aee15236865f231739572a4d592a5eca2d4d83975165fcf2aa411f3e6d66492a9d33180177cd96de6280890581814517e0f3cf95"
+RPM_NAME = "perl-Module-Starter-1.77-1.13.noarch.rpm"
+RPM_HASH = "e610b998f436d1a56da7c6373e5b27f85b954b87f6566729f3e58c7802c916e55762413fb3df30b596b1050ddb32932ac1194b8be5067fdd7bdd4095434874ee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Module--Starter \
@@ -22,7 +22,7 @@ perl-Module--Starter--Simple \
 perl-Module-Starter"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-Module--Runtime \
 perl-Software--License \
 perl-Test--More \

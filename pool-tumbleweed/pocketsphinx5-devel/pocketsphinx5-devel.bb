@@ -9,8 +9,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "5~git20200227.e40da77"
 
-RPM_NAME = "pocketsphinx5-devel-5~git20200227.e40da77-2.3.aarch64.rpm"
-RPM_HASH = "282b65b175f6986ff2e2dcd1201b8762829ec9160c7994af1e4662290bcaa5ab807144410a79acfa7a6facc652fd1699bb8b0d481dd129355901b9483a601eac"
+RPM_NAME = "pocketsphinx5-devel-5~git20200227.e40da77-2.4.aarch64.rpm"
+RPM_HASH = "f4378c87ff1184161ee5f0c3e50b35d8964aa7c84283a95b65acb188bf638a3014a260204ad887a1b74d7d531ed8368553382d52b4bc57ece6dc702aa9aa948d"
 
 RPROVIDES:${PN} += "pkgconfig-pocketsphinx \
 pocketsphinx5-devel"

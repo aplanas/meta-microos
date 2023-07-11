@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.6.4"
 
-RPM_NAME = "libldastoolsal7-2.6.4-1.13.aarch64.rpm"
-RPM_HASH = "519cbb150710a026e3c623e2bb594c77679d6a08d1f96d5e4894f3ee93c0b6e9c12817a2a1d954f592d605ef553112d5b158820f4ffc8dd1d33cee11d8a287f2"
+RPM_NAME = "libldastoolsal7-2.6.4-1.14.aarch64.rpm"
+RPM_HASH = "d19226bf887e4b7b5e2bb6c80952a6e5114d05bfb68c75111f138801ab643cdfd9682518be7a3031faf13d8c4fe48f7e13a7a5f1fb903962e74cd9cfcd65d548"
 
 RPROVIDES:${PN} += "libldastoolsal.so.7 \
 libldastoolsal7"

@@ -13,8 +13,8 @@ LICENSE = "MPL-1.1"
 
 PV = "1.0.2"
 
-RPM_NAME = "dirac-devel-1.0.2-33.27.aarch64.rpm"
-RPM_HASH = "489a5ee079449c2bdc4f25cb72f1a79a20c9d886443f71bd5f4258a26794e73d73fdf72498cb217340f41c9f55839a3cc413f504ba0c270eac5f0e736c13bb35"
+RPM_NAME = "dirac-devel-1.0.2-33.28.aarch64.rpm"
+RPM_HASH = "03e58c5999f2798aec1bf9fb3d80ce5e4ed3ada2745fc1a9e4bf6079cddf1b77ed8d3f56243bd284f865f297e6b8d5fc87098b630a119cb004d0a06a115e10ea"
 
 RPROVIDES:${PN} += "dirac-devel \
 libdirac-devel \

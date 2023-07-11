@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.8.26"
 
-RPM_NAME = "aravis-viewer-0.8.26-1.1.aarch64.rpm"
-RPM_HASH = "8b9b61044f6081726c0690d9c482b31a9c8710a5bbd8e9db9b022cca4ed987d33114d4a503eef8c1a1058ac593e5aec6107f1cae9265c3cd1b82f1b5e71832c1"
+RPM_NAME = "aravis-viewer-0.8.26-1.2.aarch64.rpm"
+RPM_HASH = "2edad50d10ee853f61462ced9c7f682d892505d32b9cfaf6188bd6fcef2841314417b915b2d222036177d1d47824d9b6369876148cc31229bb6f49db1b0d3562"
 
 RPROVIDES:${PN} += "aravis-viewer"
 

@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.6"
 
-RPM_NAME = "python39-jupyter_latex_envs-1.4.6-5.7.noarch.rpm"
-RPM_HASH = "42c769fe753e65bf79d6944dfc429cbae4410c0843d27f92d86a4ed06860976bb5a3d91d854c8398ce2dcac3f6c2ccd451c8340e835579128d950e4fcd00f840"
+RPM_NAME = "python39-jupyter_latex_envs-1.4.6-5.8.noarch.rpm"
+RPM_HASH = "6d284b51f92f47ab9f67fc09a1b6ac061005f530699ae26255d1e911ad52decf0b3c73d4cf2fd7a0a4ffd5e2cc2f34ab41ca2c31d7c0edd940d7c210a437ec62"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-jupyter-latex-envs \

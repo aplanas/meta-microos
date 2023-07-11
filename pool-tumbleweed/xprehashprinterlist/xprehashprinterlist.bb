@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "1.0.1"
 
-RPM_NAME = "xprehashprinterlist-1.0.1-9.26.aarch64.rpm"
-RPM_HASH = "ea37b493a0df19aeffefc192e293e18c9f5523a60279688e996d5122f53799c2d44e330abfd494c719c0e7d86f0e831863382d04d91ebeed0059874817842f0c"
+RPM_NAME = "xprehashprinterlist-1.0.1-9.27.aarch64.rpm"
+RPM_HASH = "f210ff6a85e85bcdb857c1d435e7aaf3ef4264ff741700320c6b896f3c2c5ea066ac0cca0a4842fa9cf433080a0542de8150929e436bd0d370c8f9dbc39f6668"
 
 RPROVIDES:${PN} += "xprehashprinterlist"
 

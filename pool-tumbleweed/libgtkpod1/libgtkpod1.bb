@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.1.5"
 
-RPM_NAME = "libgtkpod1-2.1.5-6.18.aarch64.rpm"
-RPM_HASH = "274d4c429eb5dab2674fc86b6d790b5c6bddce80e89ae2b3cf4d0b87b86d060a1df8d9046383901b9774d8e719656fab9a5aab7306bc16480f31901a2d03ea77"
+RPM_NAME = "libgtkpod1-2.1.5-6.19.aarch64.rpm"
+RPM_HASH = "9e86531b39c249f1b8efe3e0e7e83c04db835df2de289154f2d71491533cabec2bd148f8a46a4ce10501e370744fd0b83984c7612227003135cc0122ac88205a"
 
 RPROVIDES:${PN} += "libgtkpod.so.1 \
 libgtkpod1"

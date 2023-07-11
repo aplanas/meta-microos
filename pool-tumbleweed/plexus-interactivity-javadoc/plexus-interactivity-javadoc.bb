@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.0~alpha6"
 
-RPM_NAME = "plexus-interactivity-javadoc-1.0~alpha6-2.6.noarch.rpm"
-RPM_HASH = "bc8907b605d3581c5bef799a6bf43dc3a893b439ea072c559ad033198bf2e4067f8f62af5f24359235a1cdce2c292986664abd87090e9c6f08ea01e4ed9cb841"
+RPM_NAME = "plexus-interactivity-javadoc-1.0~alpha6-2.7.noarch.rpm"
+RPM_HASH = "f21f174eefeddc783e4769807b4992fb2e5caa60a5a9c0d6de3945bf29d92afadd47991b42fc529e89cc056a3e2425a6a97ca0b3a6a4ea88332f5d5d9f385f91"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "plexus-interactivity-javadoc"

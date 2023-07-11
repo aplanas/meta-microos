@@ -10,8 +10,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.15.0"
 
-RPM_NAME = "ignition-2.15.0-2.4.aarch64.rpm"
-RPM_HASH = "c311f73b9ff82ce4a345d992dc921388d1c477820b7a774ea7fdf2cc039f01edaca1bb633b0c73416550cbca4b88fe3f559c05bf19189d0c28cc9fe25d6467d9"
+RPM_NAME = "ignition-2.15.0-2.5.aarch64.rpm"
+RPM_HASH = "44e5ee7ef46bb50b9f76188c8c1d87da484b3a92c3fae446de9a58d3d5d93ca4c044de7bd2f76e6fd5fbef4f4cde5827ca4d503578cc2020b0f5cd920c916b02"
 
 RPROVIDES:${PN} += "ignition \
 ignition-dracut"

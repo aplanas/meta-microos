@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
 PV = "2.2.0"
 
-RPM_NAME = "kernelshark-2.2.0-1.3.aarch64.rpm"
-RPM_HASH = "b770168c28c841ed7802c2f3e047ae0cafe4445222fa27c8f83ee9623b30ade54653c5d82af37f80727fb48528425b24631197eb3d507c35f197a7febfd63a86"
+RPM_NAME = "kernelshark-2.2.0-1.4.aarch64.rpm"
+RPM_HASH = "908ca197aa3f8dbd82bc47a1d983247cf33f6d5ae9c370665b136600e31f60368af3f9aad8e4817dd544099fa28c7abfdd75d84cf143a41581805b766a224777"
 
 RPROVIDES:${PN} += "kernelshark \
 libkshark-gui.so.2.2.0 \

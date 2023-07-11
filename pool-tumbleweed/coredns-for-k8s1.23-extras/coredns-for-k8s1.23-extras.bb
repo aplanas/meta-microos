@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.8.6"
 
-RPM_NAME = "coredns-for-k8s1.23-extras-1.8.6-1.10.noarch.rpm"
-RPM_HASH = "5c68bb8c5e2ad99e44c1d28e989bfe52de75d1234047dc7de4305cd72f0239e01cfe000021b439ab8ea95719e03a12398d2091afdca08d11a6a2ffb39ba67fad"
+RPM_NAME = "coredns-for-k8s1.23-extras-1.8.6-1.11.noarch.rpm"
+RPM_HASH = "25f5297b7b2a0d9646c36a8d64ffd288617e168c05f0094c20b8a88c87b6e0b10348246158992c26904d7f870097c086eec3e2093d6946d7c4903a905fdbace9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-coredns-for-k8s1.23-extras \

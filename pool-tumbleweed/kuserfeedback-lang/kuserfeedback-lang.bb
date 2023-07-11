@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.2.0"
 
-RPM_NAME = "kuserfeedback-lang-1.2.0-1.14.noarch.rpm"
-RPM_HASH = "e9a23a0d304ba4835c6e2d52d4f1abd4e9e2be7258bcf2344487b9464754fae39868f53f48dac025dcaa94d4a21f2f84f87ca18b1f7478b48d6e19632ef10de7"
+RPM_NAME = "kuserfeedback-lang-1.2.0-1.15.noarch.rpm"
+RPM_HASH = "2a727d66c640e29839d25b97cf57051f909175cb46722b70d257e55938c09ca4a003a0a209432ec92d15a64bf975708031f2dd00433de5e81f067a13394c0a8e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kuserfeedback-lang \

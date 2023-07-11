@@ -23,8 +23,8 @@ LICENSE = "MIT"
 
 PV = "0.2.2a"
 
-RPM_NAME = "python39-pyprimes-0.2.2a-1.20.noarch.rpm"
-RPM_HASH = "59329764a11f5b62a1b6aa3b1b4b9b0218bb560dc291d56ae9fb0e3f688eedcedb8cc2c7c46d7bbd19fbc5f67cca75ff5fdb228286c680d666c7b4a90d4791ce"
+RPM_NAME = "python39-pyprimes-0.2.2a-1.22.noarch.rpm"
+RPM_HASH = "21add5e8726fffca28a5ef0d9372f405df1f45c400f19776a8b5478bd098811c6bf2696ca48de57b6780a5d77ebeef1e5b965bb9b1b019a1dff6d1bc740af7d6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyprimes \

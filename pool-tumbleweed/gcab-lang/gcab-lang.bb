@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.5"
 
-RPM_NAME = "gcab-lang-1.5-1.5.noarch.rpm"
-RPM_HASH = "4e803a35cd602ef036f5062037b03a620ec2f5c91c81d0b54df13e0ee0fb8109dabd52e2b3ce0f6dc764a340939206874b39943e0d1b0683e67bce2f44fdf6fd"
+RPM_NAME = "gcab-lang-1.5-1.6.noarch.rpm"
+RPM_HASH = "ca5973565ab24d963278ca9e357d443793329c2d81497aaf8d9e8d8d5ff7e92a8c348ecdd2fcdd04a4dcb7e10988ecec8368b98563b6a9d6b134c14186e40ec5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gcab-lang \

@@ -2,10 +2,10 @@ SUMMARY = "Bash Completion for kubernetes1.27-client"
 DESCRIPTION = "Bash command line completion support for kubernetes1.27-client"
 LICENSE = "Apache-2.0"
 
-PV = "1.27.1"
+PV = "1.27.3"
 
-RPM_NAME = "kubernetes1.27-client-bash-completion-1.27.1-1.2.noarch.rpm"
-RPM_HASH = "cabf98ca80af70a47d707db5cb6a7d8870d7321f2505fd1491f8a7c5e5d14855ef9d1371e530773210573e7d96a10420b453b4e7b3779de87cddf9fe194aeafb"
+RPM_NAME = "kubernetes1.27-client-bash-completion-1.27.3-1.1.noarch.rpm"
+RPM_HASH = "bdba6d711b18d92986ca83764c02f4088d13ec5f772b21af17152c685e549417858bba30aa503a18b3aaa969f94a997a61cb743f805979722bed8f1a8981a390"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kubernetes-client-bash-completion \

@@ -19,8 +19,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "3.43"
 
-RPM_NAME = "perl-Mail-IMAPClient-3.43-1.10.noarch.rpm"
-RPM_HASH = "b547e72614ae341a26c5e2d79536448757015ded8cf64a2734d77789515f72ae0cb559db454cc8d269480b778eb020a15d0f2f8717b559abcc6237bddf98947d"
+RPM_NAME = "perl-Mail-IMAPClient-3.43-1.11.noarch.rpm"
+RPM_HASH = "83e51d1335bc922d8753a079a9fb5ae452f2f4b44481dd39527a9d146ad8723076a01d6aff55eccd19bdec725049217c901ec10c0b3dff9896616784db8bef24"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mail--IMAPClient \
@@ -35,7 +35,7 @@ perl-Mail-IMAPClient \
 perl-Parse--RecDescent--Mail--IMAPClient--BodyStructure--Parse \
 perl-Parse--RecDescent--Mail--IMAPClient--Thread"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Parse--RecDescent"
 
 inherit rpm

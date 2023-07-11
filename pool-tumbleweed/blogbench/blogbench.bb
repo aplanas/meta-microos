@@ -5,10 +5,10 @@ threads performing random reads, writes, and rewrites in order to get a \
 realistic idea of the scalability and the concurrency a system can handle."
 LICENSE = "ISC"
 
-PV = "1.1"
+PV = "1.2"
 
-RPM_NAME = "blogbench-1.1-4.8.aarch64.rpm"
-RPM_HASH = "33748da99fdaba0beb4da9847521e6c0540a15dd159d73c0b85a6be65923f29887941929b6f339f3501937bdeb58b46c17a69e03ba3e3d6a96f4b734c0f73862"
+RPM_NAME = "blogbench-1.2-1.1.aarch64.rpm"
+RPM_HASH = "9105e24548ca1c4012bf252986077dda605918b2cf9d901624406c9a6f0c7e254820bc1ebefe0db02892b83550c06162e28744b0fa5df8e39b715c72c9235c7a"
 
 RPROVIDES:${PN} += "blogbench"
 

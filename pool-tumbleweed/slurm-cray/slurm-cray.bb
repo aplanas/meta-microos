@@ -5,8 +5,8 @@ LICENSE = "SUSE-GPL-2.0-with-openssl-exception"
 
 PV = "23.02.2"
 
-RPM_NAME = "slurm-cray-23.02.2-1.1.aarch64.rpm"
-RPM_HASH = "01ef5fec5f3cf5222a9363d30ee701add95603846f9575baa5450b840a71b73a8e463864b2cf85909d57a415cea178a1b075c7cb85ce886f574f12fc0dee97c1"
+RPM_NAME = "slurm-cray-23.02.2-1.3.aarch64.rpm"
+RPM_HASH = "3b380489b52a23023973a85d5782bad641d785c1aa4bba6ac8f692337f8a149c2367761c12800659ed0f57026c1a5e5121d040dd9ac31190f4d3efcad23626dc"
 
 RPROVIDES:${PN} += "slurm-cray"
 

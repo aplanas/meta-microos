@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.2.32"
 
-RPM_NAME = "python39-cron-descriptor-1.2.32-1.3.noarch.rpm"
-RPM_HASH = "322f6b152d49402348ea0fd1d9668ab30734a4d9b046dd66841973f0b5cbd59a0008764cf78d6d46d07834581635db011b384938a5a4c081492a54aa0d1fcd14"
+RPM_NAME = "python39-cron-descriptor-1.2.32-1.5.noarch.rpm"
+RPM_HASH = "1d1e0210d59cc105d69a37aa296a1b8a1bb0514ee980d3caaac3a11d6e0920b7c223d3c645a7d8db51de7d803dc975ae4e75da52e3898dc22c3d8de9d12647a2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-cron-descriptor \

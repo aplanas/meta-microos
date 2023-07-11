@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.3"
 
-RPM_NAME = "libconfuse-lang-3.3-2.3.noarch.rpm"
-RPM_HASH = "ba99152f7feb4385cc4106f4ff59b68cf84abc48e5cc4d3aa93ca531f089fba2b75e4853e7a0d3411d6f599c862864f03a65c899a83e885876f778f31d56e5b3"
+RPM_NAME = "libconfuse-lang-3.3-2.4.noarch.rpm"
+RPM_HASH = "2c75a76100a604220201ddddae0e45160524a2c939845678cb211b312262aabae8027a03b559a1468f9e7a9cb5e3d71b4f1fd7260062a77971f68e5d1abe983e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libconfuse-lang \

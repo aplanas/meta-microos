@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gegl-0_4"
 DESCRIPTION = "Provides translations for the 'gegl-0_4' package."
 LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
-PV = "0.4.44"
+PV = "0.4.46"
 
-RPM_NAME = "gegl-0_4-lang-0.4.44-1.2.noarch.rpm"
-RPM_HASH = "3eff809462300cc30fe8655032be5733e393a7f4e2aeafba15c6e938a5ad647af08430c489ec861127c7583cbe6d2afeab3691eca072e2e2e12fb82ff88b7bf6"
+RPM_NAME = "gegl-0_4-lang-0.4.46-1.1.noarch.rpm"
+RPM_HASH = "d26145fea1533e3b783a1e12c2507839ad4c243de5aa6a9f7ef33b11aa35136e37c403f02b1907748ef0456c5f2e25be12179afa85724a118e107e9cbb415881"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gegl-0-4-lang \

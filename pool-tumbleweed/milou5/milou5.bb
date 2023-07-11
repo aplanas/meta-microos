@@ -2,10 +2,10 @@ SUMMARY = "Dedicated search application built on top of Baloo"
 DESCRIPTION = "A dedicated search application built on top of Baloo"
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "milou5-5.27.5-1.1.aarch64.rpm"
-RPM_HASH = "fda35ac00e5f805e98e122fa65de392ea2e077d38512945c9a20dae22c5e5af162af315f0a7413297332879db077bbbbfdb67e8d550d2258c700c863bac35562"
+RPM_NAME = "milou5-5.27.6-1.1.aarch64.rpm"
+RPM_HASH = "93a6913aa6a0396c6baee93ce2eaa7d4312ca63bac299ca0295ec01afb4c69096a8c65bc633dbf073204d4074e5aa36b0f0c8a8258d6544ee8713ef352ff5889"
 
 RPROVIDES:${PN} += "libmilou.so.5 \
 libmilouqmlplugin.so \

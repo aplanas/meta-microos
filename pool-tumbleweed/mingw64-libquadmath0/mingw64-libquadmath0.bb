@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "12.2.0"
 
-RPM_NAME = "mingw64-libquadmath0-12.2.0-2.1.aarch64.rpm"
-RPM_HASH = "da5412a122dfec37ae1de36eb4a314a515203ce3de18930b19b94bbbb6cec06ae7d1d607cbd031eddce1b2cc74c759b4b875fd0671b894bbc17e72d3fa81ef26"
+RPM_NAME = "mingw64-libquadmath0-12.2.0-3.1.aarch64.rpm"
+RPM_HASH = "d7e7ad47df2bd96e4d9019af12a0ca4f1a76aedb094daf2ed31b6f1eaaddcec5f33d97bc115f86f528dc09f348624efd938d74ba9599a38f07c5bde6e67c095a"
 
 RPROVIDES:${PN} += "mingw64-libquadmath-0.dll \
 mingw64-libquadmath0"

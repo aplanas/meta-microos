@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "0.2.1"
 
-RPM_NAME = "python310-evilunit-0.2.1-1.12.noarch.rpm"
-RPM_HASH = "c4b8aaadbd9ce1718e93fdfcbb72d0ddac5fd465d8a704b4a210de8d0862d16e58791f71e20f3680f34e19d616b8eda356619ea952bf13c01089d376766bbab2"
+RPM_NAME = "python310-evilunit-0.2.1-1.14.noarch.rpm"
+RPM_HASH = "82abc208b44294620b2d4004f28b1f7f4b8ef5135cd26c74e79d37bf1de069a0213cf2ea84b2370f58084fb6fba6024d458592cc831332bea2adc8cc24c161fa"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-evilunit \
-python3.10dist-evilunit \
+RPROVIDES:${PN} += "python3.10dist-evilunit \
 python310-evilunit \
 python3dist-evilunit"
 

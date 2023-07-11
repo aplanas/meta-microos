@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.1.6"
 
-RPM_NAME = "libopencore-amrnb0-0.1.6-1.3.aarch64.rpm"
-RPM_HASH = "369b44f611d96e403b294698a9c6e73cbb60ae56d8643525dffdf592e377b96df40c35b9cc93736f76da7243742d6d726572390f7055fdeb920bed378d3b6141"
+RPM_NAME = "libopencore-amrnb0-0.1.6-1.4.aarch64.rpm"
+RPM_HASH = "19f5d0f1a5ac9465f798ef4da5606ab59394bd09b56cb5853bd2a02aabba6a5910c1b5e1ad7f6545e7d16bb0f398b91c35a6630bd0e95bd47a77c1c3ac74a750"
 
 RPROVIDES:${PN} += "libopencore-amrnb.so.0 \
 libopencore-amrnb0"

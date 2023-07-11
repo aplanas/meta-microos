@@ -11,11 +11,14 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.1.2"
 
-RPM_NAME = "python311-suds-1.1.2-1.3.noarch.rpm"
-RPM_HASH = "c462b37dca25743e562bc403e5e8932eb642227a33af7a6d5f2dcadf0d7a3913826b85329112da0e6bff9a458917ec13198568b8cd0632e88abd5ef6714c036f"
+RPM_NAME = "python311-suds-1.1.2-1.5.noarch.rpm"
+RPM_HASH = "f3ad4dcd61f3c5ecb832ee58d5ac63dd56482bdc77c3abd0d5167c3879010c2539deb4e00ab03bf1d22ed460f08b58883226ae4e7e520b8eafa028785808833d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-suds-community \
+RPROVIDES:${PN} += "python3-suds \
+python3-suds-community \
+python3-suds-jurko \
+python3.11dist-suds-community \
 python311-suds \
 python311-suds-community \
 python311-suds-jurko \

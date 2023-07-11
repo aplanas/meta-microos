@@ -10,11 +10,14 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.2"
 
-RPM_NAME = "python311-altair-widgets-0.2.2-3.7.noarch.rpm"
-RPM_HASH = "461a22429dfac575632005a53e51f26f2a94e39360d382d6c3c32d0b26a1fe56238a8a481cef5721ad52d64bd7e8995744f45bbc7b038d0c2350cf0d63ba017b"
+RPM_NAME = "python311-altair-widgets-0.2.2-3.8.noarch.rpm"
+RPM_HASH = "2a482d39aa79e4f6c6220246c780561c90f19ce8a663864af8d73ab11aaa831ac3543f569f86b3af64478ef7715c5d87860389883946c7058e9b641be1e83043"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-altair-widgets \
+RPROVIDES:${PN} += "jupyter-altair-widgets \
+python3-altair-widgets \
+python3-jupyter-altair-widgets \
+python3.11dist-altair-widgets \
 python311-altair-widgets \
 python311-jupyter-altair-widgets \
 python3dist-altair-widgets"

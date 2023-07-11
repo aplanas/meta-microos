@@ -10,8 +10,8 @@ LICENSE = "PHP-3.0"
 
 PV = "8.2"
 
-RPM_NAME = "php8-memcache-8.2-1.2.aarch64.rpm"
-RPM_HASH = "af5268539aa4898217e60b11cea24a713524622f865c6557317fd757efa17f89519a9ac75a94400418276902fb8e44b8ef3863f65bac3d29ae62786384114125"
+RPM_NAME = "php8-memcache-8.2-1.3.aarch64.rpm"
+RPM_HASH = "7475f8bfc28f84d94f8da69aea8ff1d85c6dcaa151825c1511082695bdfefd50bf48907afc0a3a72f4a4f141ee826f1392ead289b0ccc7dc252631df54e61405"
 
 RPROVIDES:${PN} += "config-php8-memcache \
 php8-memcache"

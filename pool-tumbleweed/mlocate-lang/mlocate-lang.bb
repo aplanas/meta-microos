@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.26"
 
-RPM_NAME = "mlocate-lang-0.26-33.1.noarch.rpm"
-RPM_HASH = "5814d6561e88302a39f56b8b7ec0081818c4c3c83616bbd0f92774244502f0edf6ce5ec0229b0c787bec0a40ac1451b73c57c98bcb48a7ae72eec42a70796d1d"
+RPM_NAME = "mlocate-lang-0.26-33.2.noarch.rpm"
+RPM_HASH = "5d990108dbba3a4673e340ab30484b68a0261314b7c3671754afadb6b1ef0a37cc11f28c674ff18fcbc533c9d5995cea83c2416e9dcc356f978230cbe0129eb7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mlocate-ar \

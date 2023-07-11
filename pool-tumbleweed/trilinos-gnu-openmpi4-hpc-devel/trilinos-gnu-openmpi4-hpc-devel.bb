@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "14.0.0"
 
-RPM_NAME = "trilinos-gnu-openmpi4-hpc-devel-14.0.0-1.2.noarch.rpm"
-RPM_HASH = "1e5e33d7e8f250c9cec744d3bf194baf8de499dca5ecbf1688906817972f1bb5cf9db90ebbe705acedb93b4f524433b7ffcfc9df277547fb9b48c11ac149d608"
+RPM_NAME = "trilinos-gnu-openmpi4-hpc-devel-14.0.0-1.3.noarch.rpm"
+RPM_HASH = "f0a83ea560bf6e1b86959ade46d2c31379305da1d63e1f42d293f570a11e6ff343019dba1fedd4382c6012942e3eea356b0d36c249bdb645411be021868d0932"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "trilinos-gnu-openmpi4-hpc \

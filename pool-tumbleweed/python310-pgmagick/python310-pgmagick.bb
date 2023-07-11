@@ -5,11 +5,10 @@ LICENSE = "MIT"
 
 PV = "0.7.4"
 
-RPM_NAME = "python310-pgmagick-0.7.4-3.25.aarch64.rpm"
-RPM_HASH = "c87a3f07e10bc77c9081bcf57b5a9a6ee509c13b5aa0fe7737ceeccd0ae266de4beae6cb044e52fb5993747a2f46b3d7b7433608997bcc04c1b0284b6447cda7"
+RPM_NAME = "python310-pgmagick-0.7.4-3.27.aarch64.rpm"
+RPM_HASH = "74c14ebb1e47b8714005260686597a6b7e2cbd315578fa190415f2571daf9529383685d7182d854a8863dfecf2e3867de8ef57d4f0138b9a16587d8b5f25ce49"
 
-RPROVIDES:${PN} += "python3-pgmagick \
-python3.10dist-pgmagick \
+RPROVIDES:${PN} += "python3.10dist-pgmagick \
 python310-pgmagick \
 python3dist-pgmagick"
 

@@ -7,8 +7,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.1svn15878"
 
-RPM_NAME = "texlive-xargs-2023.201.1.1svn15878-52.1.noarch.rpm"
-RPM_HASH = "b5ac53cc2b7db40eecd37fefca4789a90843900fc48763bd4f9eeca1352019e1932e93fcf1bb62cf9f17eb8378663cc6a268fe66883fd582612337b9b5ae41b2"
+RPM_NAME = "texlive-xargs-2023.201.1.1svn15878-52.2.noarch.rpm"
+RPM_HASH = "e504ceb3251496cb7bba3962b8a7f3dd8444822a91dab4e8c4a502628fed35ef9895709acce992c89300adf59c9a19faf8b57dd0ee51a137a6b86e741326fc63"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xargs.sty \

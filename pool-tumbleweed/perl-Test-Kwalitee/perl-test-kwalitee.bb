@@ -15,15 +15,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.28"
 
-RPM_NAME = "perl-Test-Kwalitee-1.28-1.9.noarch.rpm"
-RPM_HASH = "0a1439773601f5c76c4e9e0f00124b2c65b933399f230cbf22fcb9ef1c71c8f713283a57b7be9ffb8560a85be540a93c01f54862d93c5023c66ea3d1198cc629"
+RPM_NAME = "perl-Test-Kwalitee-1.28-1.10.noarch.rpm"
+RPM_HASH = "0cb8a28b49ad0ec77e4961bf4e748128636c566492407a0cbaa778bbe5743662f92e0758d87d9e8cc570c05d9f1804480d123233392ad7d526f4b6be18c4670a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Kwalitee \
 perl-Test-Kwalitee"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-Module--CPANTS--Analyse \
 perl-Test--Builder \
 perl-parent"

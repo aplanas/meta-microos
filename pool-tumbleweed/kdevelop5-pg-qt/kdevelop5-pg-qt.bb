@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.0-or-later & GPL-2.0-or-later"
 
 PV = "2.2.2"
 
-RPM_NAME = "kdevelop5-pg-qt-2.2.2-1.3.aarch64.rpm"
-RPM_HASH = "37b1d972182e36c1bb839d08f0084e3ea150e2854959aed6388e5a823c811e76403729d802756a74bb02933018a80972069d2e23b28ff26efa8c8d3d1192cca6"
+RPM_NAME = "kdevelop5-pg-qt-2.2.2-1.4.aarch64.rpm"
+RPM_HASH = "ff1c77f1741ce69c7978b302c5aae2f6ae9f5014d320a2c51e7b9a6eff9ff982dbaa50b620a06328fc1b254669aa6f0c9b3c582ed5d8a0ed045567f6f3ec44f4"
 
 RPROVIDES:${PN} += "cmake-KDevelop-PG-Qt \
 kdevelop5-pg-qt"

@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt6QuickEffects6-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "b84ce311a79c4d66b943c934315ea48cea8901dbb0c324eaee44d630db43021b3980a247107a7690f5356fc9d04f2c2cf34a8cccb3dcd598d8e5e563320244f8"
+RPM_NAME = "libQt6QuickEffects6-6.5.1-1.3.aarch64.rpm"
+RPM_HASH = "94bd665b03d8f4764682285199cba680a42c6a382f11da04bad66a930ce6a0a88e98ad9f73c33c3f6ac2a5c566c487abadbbc016b53ea064ce0b47ebfa35866e"
 
 RPROVIDES:${PN} += "libQt6QuickEffects.so.6 \
 libQt6QuickEffects6"

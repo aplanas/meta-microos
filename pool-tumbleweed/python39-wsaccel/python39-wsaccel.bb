@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.6.4"
 
-RPM_NAME = "python39-wsaccel-0.6.4-1.5.aarch64.rpm"
-RPM_HASH = "d98558c5f9ce58f721f8f122f6e365d2a5d733761c2c41602dae2a59317d2f3bdff75a92f0b49f5b88b6555f991b16d0386f63e75209017dce500d6159e61bee"
+RPM_NAME = "python39-wsaccel-0.6.4-1.6.aarch64.rpm"
+RPM_HASH = "1bc4389df68126faf1790966d35e289a1530473c243d7864907ba3fc86cbc3ca2e9b5cd92f6cf0aa18864f9c80e1178374915eaa8575b3dbdbeb2e96bff64d42"
 
 RPROVIDES:${PN} += "python3.9dist-wsaccel \
 python39-wsaccel \

@@ -7,10 +7,12 @@ LICENSE = "GPL-2.0-only"
 
 PV = "3.0.1"
 
-RPM_NAME = "python311-lscsoft-glue-3.0.1-1.4.aarch64.rpm"
-RPM_HASH = "3410080a099f02cabcd25cd606a3eb766a8924696af945777adc4aec07cdf0cdffdaeaddcbe094e4a61c142c34aee98771fb8d91e3039e7710937825e6708297"
+RPM_NAME = "python311-lscsoft-glue-3.0.1-1.6.aarch64.rpm"
+RPM_HASH = "28796102e22688654257266db3ec1775951a2da7713667630607a004e0e7f67eb40119199fe8525ee4f42980c3045f8ba289a028d33bd4c3fe9243672d443ea8"
 
 RPROVIDES:${PN} += "python-glue \
+python3-glue \
+python3-lscsoft-glue \
 python3.11dist-lscsoft-glue \
 python311-glue \
 python311-lscsoft-glue \

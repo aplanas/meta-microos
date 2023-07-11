@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later | MPL-1.1 | LGPL-2.1-or-later"
 
 PV = "0.0.8"
 
-RPM_NAME = "uchardet-0.0.8-1.3.aarch64.rpm"
-RPM_HASH = "0e5da552282d1564cccc9d19f997d989edebf3ebb80054ca0892e3f92f878b14a5b70b2f93e103abc1e649224ebaf2fba74a7653bc495e5ddee392536a057e12"
+RPM_NAME = "uchardet-0.0.8-1.4.aarch64.rpm"
+RPM_HASH = "1e7cd214abaa355408d3f13649e63515d52ba149440866663579c7328d355284c094bb1140178a0e52719f8d53c725131dce2ae0cd1bb1b9e9ec4c7bedf2e6a2"
 
 RPROVIDES:${PN} += "uchardet"
 

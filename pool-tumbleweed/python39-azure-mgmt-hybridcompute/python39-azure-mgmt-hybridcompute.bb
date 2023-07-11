@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "8.0.0"
 
-RPM_NAME = "python39-azure-mgmt-hybridcompute-8.0.0-1.2.noarch.rpm"
-RPM_HASH = "48ab4f5256c0f19c087b8cdb500ee6b82460fed143a3a4dace90c1902a3119f18e0d3acd0b918fbb113b593dd959d5f1f9b9ca6bdf5162a7ff2922db82fa418f"
+RPM_NAME = "python39-azure-mgmt-hybridcompute-8.0.0-1.3.noarch.rpm"
+RPM_HASH = "4cf4a8784ae19eb02cf5931eadc32abec9eb94681d1545a3667428bd89eba60012e68d52f1a444d2bc4693f7f1e0f2c27f82c36b927e3e5e49d9c520df46fcd5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-hybridcompute \

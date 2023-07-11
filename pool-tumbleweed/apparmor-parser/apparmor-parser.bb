@@ -6,10 +6,10 @@ This package is part of a suite of tools that used to be named \
 SubDomain."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.1.4"
+PV = "3.1.6"
 
-RPM_NAME = "apparmor-parser-3.1.4-1.1.aarch64.rpm"
-RPM_HASH = "03500d85a6568a154d5563c2c2d677f17a6f3ab984186d387edba83fb5835dd046b56fa3d5fbeb6d757c0f2871503b2374bb3088e346336378bd1475c7ba7445"
+RPM_NAME = "apparmor-parser-3.1.6-1.1.aarch64.rpm"
+RPM_HASH = "13951bc57afee975f8af94131bfa1eb5634901cfc17c4c7232286e9531d9c925061a03bbfc980368167df7da10375f07c6931320fa49981cc976f770892d7561"
 
 RPROVIDES:${PN} += "apparmor-parser \
 apparmor-parser-CAP-SYSLOG \

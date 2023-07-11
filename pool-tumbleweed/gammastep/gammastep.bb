@@ -14,8 +14,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.0.9"
 
-RPM_NAME = "gammastep-2.0.9-1.2.aarch64.rpm"
-RPM_HASH = "0d721c06975601e0bca999cbc7d4949044678e75e0c36187a73de967e22d89fbec9753359bdd100a3a29c35fbc10668527be11215bdbc58922d433c1f63a45d2"
+RPM_NAME = "gammastep-2.0.9-1.3.aarch64.rpm"
+RPM_HASH = "e9a1d7c79e225e2fbc9b27bbcd7ce0b690efcdcd46df9cd76211c148b39393ebcf15c01b5e5f5bc503acd24250741f89a6e44686a2d47061e8e38b584f0959dc"
 
 RPROVIDES:${PN} += "gammastep"
 

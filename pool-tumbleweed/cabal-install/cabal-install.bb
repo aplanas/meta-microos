@@ -6,13 +6,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.8.1.0"
 
-RPM_NAME = "cabal-install-3.8.1.0-1.3.aarch64.rpm"
-RPM_HASH = "e477ce6dc9429b6907350ff1d4affe93eb874738239f6952e5e536645b0d02b3f8ff89949ddf51544e39cf3bcaeba0074a7805b9bdabb8219d83fe480f309d4b"
+RPM_NAME = "cabal-install-3.8.1.0-1.7.aarch64.rpm"
+RPM_HASH = "c06a16a3567f4859ae1ba559d69b495a37d061ed5e0fcf7989aa302af11e220d34fc0106d826a3cb25e432134fc8250e3ab3c16c0e3b382251598fbd3b11c024"
 
 RPROVIDES:${PN} += "cabal-install"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libatomic.so.1 \
 libc.so.6 \
 libffi.so.8 \
 libgmp.so.10 \

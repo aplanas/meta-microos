@@ -10,10 +10,10 @@ as TeX distributions (TeX Live or MikTeX) come bundled with \
 LuaLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn65400"
+PV = "2023.208.1.0svn65400"
 
-RPM_NAME = "texlive-luamaths-2023.201.1.0svn65400-52.1.noarch.rpm"
-RPM_HASH = "318c9cc5ac285db3c934881e8921645ddfc1433ff548eb931e89213b0af724a39bacd83278431301597a8712c42313c3a67513ae9356043a4a97aae66428a0ca"
+RPM_NAME = "texlive-luamaths-2023.208.1.0svn65400-53.1.noarch.rpm"
+RPM_HASH = "0bb95e8e7c0b3d03138833c5105862e23effa228a5674807aee249fe73824a21555ec5caa18d0d9e8741defffc82c12efec798397471cc77d7dbf733b77eafaa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-luamaths.sty \

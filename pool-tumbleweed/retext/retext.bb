@@ -5,12 +5,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "7.2.3"
 
-RPM_NAME = "retext-7.2.3-1.3.noarch.rpm"
-RPM_HASH = "b4c786d09d1a1142d428888457cc97c33e1576e427e0b233a6ada6e60cd14f383449c18d3e259223581afc161e3ff1c58d6d69f693064b80afd57875b4cbbaf1"
+RPM_NAME = "retext-7.2.3-1.4.noarch.rpm"
+RPM_HASH = "800efbb48c24afe598da433e225c3972c35184d6782786f64f67d200e91aba7abc8c16060a2eba1d1af6000ccf61aae08dacd944926dc1784d07713c23a319cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ReText \
-python3.10dist-retext \
+python3.11dist-retext \
 python3dist-retext \
 retext"
 

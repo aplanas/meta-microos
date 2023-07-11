@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.4.6"
 
-RPM_NAME = "corosync-2.4.6-1.3.aarch64.rpm"
-RPM_HASH = "acac8ae58cf14c43036b517537780572879af9835e0fbf93df6eb429effdd9e0e41ad88ee730788c0a3d8f61b1ba13db1be5d09f4225471bc5a4ca1a51775932"
+RPM_NAME = "corosync-2.4.6-1.4.aarch64.rpm"
+RPM_HASH = "badf5d67639c784a4acf896487437b981bdb9140e472449d533c5a22d69d8633bf6564df071625ad680ca18c9fcee888097a1f7c22afd65e0632782ab971d25f"
 
 RPROVIDES:${PN} += "config-corosync \
 corosync"

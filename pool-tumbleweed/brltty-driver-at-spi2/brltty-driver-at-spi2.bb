@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "6.5"
 
-RPM_NAME = "brltty-driver-at-spi2-6.5-2.4.aarch64.rpm"
-RPM_HASH = "89db2fe6a907335a3b406215f7e9c5c2c92ea03e0026424b483e473d424877baf8f9a3b2e504e6f04074c5f141d9b9c2d4327604a25cc739859567e9434364f9"
+RPM_NAME = "brltty-driver-at-spi2-6.5-3.1.aarch64.rpm"
+RPM_HASH = "3868edce20449ee8eb034223891c800887d4ab47c30eb1b8cde1a2183af0986008b47394f648cc963c382c02b635539071c7b0e78c255b2a542e8267ffc33934"
 
 RPROVIDES:${PN} += "brltty-driver-at-spi2 \
 libbrlttyxa2.so"

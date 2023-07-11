@@ -4,12 +4,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.0.3"
 
-RPM_NAME = "python3-virt-tuner-0.0.3-2.6.noarch.rpm"
-RPM_HASH = "67a0dc29d461e2c71eeb380a252ccbc6401d182bd625e13823468fa081288a78df915d0e6e7dda811cf3ad0cf15ead20b4cb601610ed74d25320e5641e25a995"
+RPM_NAME = "python3-virt-tuner-0.0.3-2.7.noarch.rpm"
+RPM_HASH = "87e6f7f35e12058a4bb3a1d49c4eb1868e96cd40927be3e38752d824a68f28d4eeae3eef76f7ce16d367d737ef02941a3a5fa2f3f847548dbc7e711029de67f1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-virt-tuner \
-python3.10dist-virt-tuner \
+python3.11dist-virt-tuner \
 python3dist-virt-tuner"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

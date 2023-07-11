@@ -8,8 +8,8 @@ LICENSE = "BSD-2-Clause & Apache-2.0"
 
 PV = "0.7.1"
 
-RPM_NAME = "libck0-0.7.1-1.8.aarch64.rpm"
-RPM_HASH = "b814bebc084724fa819b30b6469df6f948f3f59ac544516678e3498566e7d36fa1ee285c1724d272aa9c8a0bc5b06bd0f5778da4e399c2fa104b04d3cbad30b4"
+RPM_NAME = "libck0-0.7.1-1.9.aarch64.rpm"
+RPM_HASH = "f146b9186ec50a5c5542c6d2b04aefd08e8bf573a3f47dd6d2252eb8e8fede235c94362cc53bc19b2d0f7092c057bc52cdd1a040ec1190e004e2be27a9cd963d"
 
 RPROVIDES:${PN} += "libck.so.0 \
 libck0"

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-only"
 
 PV = "2.7.2"
 
-RPM_NAME = "openwsman-server-2.7.2-2.5.aarch64.rpm"
-RPM_HASH = "ecb76395a5301f6e5dce656260b3c7c051153257d3a0b478668f998880a901eee109164d63493711068dee937902c97ee34457a9b908cd07eb1f6379ef499ef4"
+RPM_NAME = "openwsman-server-2.7.2-2.8.aarch64.rpm"
+RPM_HASH = "87d4c4a21ea5feb0990725cf7bfb95fbcd3071bd4174eeed837d01b8bf514811869b0c1814af073d7e8fb14ed0f34fe3e8cef71617e6b46239510e5555802a32"
 
 RPROVIDES:${PN} += "config-openwsman-server \
 libredirect.so.1 \

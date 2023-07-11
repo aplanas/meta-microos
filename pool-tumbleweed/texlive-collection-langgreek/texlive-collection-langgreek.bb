@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.208.svn65038"
 
-RPM_NAME = "texlive-collection-langgreek-2023.208.svn65038-58.1.noarch.rpm"
-RPM_HASH = "84456a7e751aafe62cd03a483dc8bf79962d27596c2517e47a72afa4010e5e0342b323364166f6329a434bbcc192d179565e2e996b1283eb7309e936afd4f045"
+RPM_NAME = "texlive-collection-langgreek-2023.208.svn65038-60.1.noarch.rpm"
+RPM_HASH = "6beb1218492971a13f3dfadccde873a0431d7d73df4da86ef2414cfd6f6aaaa8e9ba3bed9141c3c50d3442bffd3dc83aeecc13f6822acdd3895b5ed2b1371760"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-langgreek"

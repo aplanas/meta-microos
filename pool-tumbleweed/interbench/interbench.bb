@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.31"
 
-RPM_NAME = "interbench-0.31-3.9.aarch64.rpm"
-RPM_HASH = "2fd07ce7a337267026929b338cfd4368d53e93b8df09c35cce78b8f6dd5b1248be1fb769f655b94a60aa051976b9568c7dfdde20fcc4b426f1f712ae8c0f019c"
+RPM_NAME = "interbench-0.31-3.10.aarch64.rpm"
+RPM_HASH = "7602a431e86a839dca3c55b9f83ff7279d8d11bd9ae7b51cf6696ffe423768d30e07dda1c03df676cb3330f814dcccfcd7dffcc3b0c9f885bc6e1a2653bd3c82"
 
 RPROVIDES:${PN} += "interbench"
 

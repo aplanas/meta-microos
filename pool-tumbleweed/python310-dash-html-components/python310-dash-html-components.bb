@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "2.0.0"
 
-RPM_NAME = "python310-dash-html-components-2.0.0-1.5.noarch.rpm"
-RPM_HASH = "5f616705a27bf67fc5ff0b4e0101de0b6258db521bde0f7b0c295195a92f6a63615c0c672ae30cea771656ef9415248c1017e8e66d0f9eac8ad38a98b5ffe4f6"
+RPM_NAME = "python310-dash-html-components-2.0.0-1.6.noarch.rpm"
+RPM_HASH = "d6d31737fddb6b00dd2b0a65caf6904b6dd280a9a7e2a584c161319b8664d031378db78fe26237d8ebca444f4a7386c0f74b3c90f3175c5a1c4de6697603a24e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-dash-html-components \
-python3.10dist-dash-html-components \
+RPROVIDES:${PN} += "python3.10dist-dash-html-components \
 python310-dash-html-components \
 python3dist-dash-html-components"
 

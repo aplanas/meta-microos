@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.7.0"
 
-RPM_NAME = "python39-pytest-git-1.7.0-2.13.noarch.rpm"
-RPM_HASH = "e7163e39af42b653cfa62f798d5b2ef6d1a0d35d33fd4ad38f577e0617a94ff8aabf91617ae93ae8e77c3763deb620cbb66cf2934b74c2fd45766f94340d5a86"
+RPM_NAME = "python39-pytest-git-1.7.0-2.15.noarch.rpm"
+RPM_HASH = "3c68c411560133b30050f2a84efbe2b9f8761afe9c15a2ef1fb8212911c4b4203eeeb33b6b46df132e14bd019dd492fd43c98ec7ef7226947f76e39cbbddf908"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytest-git \

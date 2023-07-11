@@ -7,8 +7,8 @@ LICENSE = "BSD-2-Clause & GPL-3.0-or-later & MIT"
 
 PV = "2.14.0"
 
-RPM_NAME = "octave-forge-image-2.14.0-1.6.aarch64.rpm"
-RPM_HASH = "0b3bf869595ffd9d689223d0bdbfeb3338497e9a2f238c22554e1e9ec4c8b05fcf4997885b27ba176ecc9e40251a451aab35dcf67a25a030ade9fdd94541b95e"
+RPM_NAME = "octave-forge-image-2.14.0-1.7.aarch64.rpm"
+RPM_HASH = "d63ece63c75f5f7c49616c68b57d83df1bc456d8355dfb39025628c2faca7726b01ab14f9e260e9799e5b5d059e6b1a5ea6308d3a820a6b50c9b7f717f89b131"
 
 RPROVIDES:${PN} += "octave-forge-image"
 

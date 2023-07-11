@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "0.2.5"
 
-RPM_NAME = "python310-agate-excel-0.2.5-2.2.noarch.rpm"
-RPM_HASH = "2def82347496a67d1f1ed570ac1a26c4cdc091fb5523f819f17f4134eaf7ec3dc99eb70cfb0add2cce6c46adc50ef215378950e0cb0a5bb89160f5b16281c7e7"
+RPM_NAME = "python310-agate-excel-0.2.5-2.4.noarch.rpm"
+RPM_HASH = "4fc2f76f4e01c0577cbc68dd5aed4916b6d6b928e9de01f05e702a66611fcc205776a74a66937916277564cb155adfb280456228f8c2dae6161978d5b10c8b31"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-agate-excel \
-python3.10dist-agate-excel \
+RPROVIDES:${PN} += "python3.10dist-agate-excel \
 python310-agate-excel \
 python3dist-agate-excel"
 

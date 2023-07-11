@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.5.0"
 
-RPM_NAME = "libt3highlight-utils-0.5.0-1.15.aarch64.rpm"
-RPM_HASH = "5d6e5188c555a935c3348d8259a4dfd7d842bea92fdb43b261ff97f244d10c23c6f5ee86e100abe07624a4880f609989f9ff205414d497e5677325508fecb8c2"
+RPM_NAME = "libt3highlight-utils-0.5.0-1.16.aarch64.rpm"
+RPM_HASH = "e6d3138cd8254ce543e878c172141cf9c984cc3cab602aeb5ccb68118644a7c546beb38d95140d43010b16c896e973a1365b16eebce4b3b13c7ead75f22494d0"
 
 RPROVIDES:${PN} += "libt3highlight-utils"
 

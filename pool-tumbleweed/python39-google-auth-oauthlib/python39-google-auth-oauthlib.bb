@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.0"
 
-RPM_NAME = "python39-google-auth-oauthlib-1.0.0-2.2.noarch.rpm"
-RPM_HASH = "00c7acf78b847a57e4dbccb93a799d66b2a40891803899326fb0e662886483ea8bec6d069c77eab23b2c26bd1f42e3236e270cbdb95f2b7f9cef68d6eef8c90c"
+RPM_NAME = "python39-google-auth-oauthlib-1.0.0-3.1.noarch.rpm"
+RPM_HASH = "ea8a42e2ae3dd7eae8a58628bb9db7a934943ef81d16b4d6dbba1abefdae2b6ecbca202edaf1707122743f5a9645a14ddfefc63262cef4c3b35e6716752cc923"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-google-auth-oauthlib \

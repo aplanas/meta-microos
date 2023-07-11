@@ -2,10 +2,10 @@ SUMMARY = "Qt5 State Chart XML examples"
 DESCRIPTION = "Examples for libqt5-qtscxml module."
 LICENSE = "BSD-3-Clause"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libqt5-qtscxml-examples-5.15.9+kde0-1.1.aarch64.rpm"
-RPM_HASH = "fa867915907bc1d2f62a5fd10a365fedb256bb34c5351cb727f37c3796baaff98f13b1c8b5292e51ff711c8000476ddd55fe4590e2bf924ed1c7e997492db5b4"
+RPM_NAME = "libqt5-qtscxml-examples-5.15.10+kde0-1.1.aarch64.rpm"
+RPM_HASH = "d27a4c4df2fa74b7f053781b36a35d05ab20572fd410af455965be8635f6d278c21c296adc5fb7ebf90d4e7b85094b0f111e5074eeae6c46673045b6be57a127"
 
 RPROVIDES:${PN} += "libqt5-qtscxml-examples"
 

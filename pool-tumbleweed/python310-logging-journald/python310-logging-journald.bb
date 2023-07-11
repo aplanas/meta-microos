@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.6.5"
 
-RPM_NAME = "python310-logging-journald-0.6.5-1.1.noarch.rpm"
-RPM_HASH = "db6f708d55583f6a54e67ddb9e1553c6c679b8866836fab2384cf9d079d77ad76dae49035fab1385d4e10245f099ca801e79cf27f713c42627c289e6b7e325a7"
+RPM_NAME = "python310-logging-journald-0.6.5-1.3.noarch.rpm"
+RPM_HASH = "8c61cb7f5d9e0eca834d4c1467a85842941eec3eaab494f93452f164396f8370f5c6dae0b960d4d6185ab33c59cc267edd3de2f5e69c859eaaf6351e7e066aea"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-logging-journald \
-python3.10dist-logging-journald \
+RPROVIDES:${PN} += "python3.10dist-logging-journald \
 python310-logging-journald \
 python3dist-logging-journald"
 

@@ -4,12 +4,11 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.0.6"
 
-RPM_NAME = "python310-lazr.uri-1.0.6-1.8.noarch.rpm"
-RPM_HASH = "542e94bf246123ac6690fe6c0002027971459eb077f3f4a9cc5e97e063644a0b81ac435c97e72bc36f3074558c42b57bf9dd999c5b6a9af6e8dc149a02f99dcf"
+RPM_NAME = "python310-lazr.uri-1.0.6-1.10.noarch.rpm"
+RPM_HASH = "b7420446acc5b0aed8c77c5f0aeebc55736423d4208a23cae170957b4f1f9594d1ce7b605de8c774ce137070ae86078e5458ccbf6f13da5e5b940ad2ad5de283"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-lazr.uri \
-python3.10dist-lazr.uri \
+RPROVIDES:${PN} += "python3.10dist-lazr.uri \
 python310-lazr.uri \
 python3dist-lazr.uri"
 

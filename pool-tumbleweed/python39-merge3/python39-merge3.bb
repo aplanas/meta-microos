@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.0.12"
 
-RPM_NAME = "python39-merge3-0.0.12-1.3.noarch.rpm"
-RPM_HASH = "44eae1cba6ca6bc8d4dacef04dfb055c6483664d765861c1266ba5ec61387ca416352d9fecbfe0b9b3c63bd3bb14724273c3132947782e99e60d213bb09ad713"
+RPM_NAME = "python39-merge3-0.0.12-1.5.noarch.rpm"
+RPM_HASH = "ad5f241fbd48d17a7dc3e375c4f96dd0dbbf76637e7fcfe68464e054f37761a95e73598e182c7ff3ccbbad947f8c2dfb1caf0a1755c6cdcf35b82a3c056002a9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-merge3 \

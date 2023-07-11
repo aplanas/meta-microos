@@ -2,10 +2,10 @@ SUMMARY = "Development files for the Qt5 widgets library"
 DESCRIPTION = "Development files for the Qt5 widgets library."
 LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
-PV = "5.15.9+kde154"
+PV = "5.15.10+kde129"
 
-RPM_NAME = "libQt5Widgets-devel-5.15.9+kde154-1.2.aarch64.rpm"
-RPM_HASH = "b7d8186a8e3edc991fee21e09ec74b0f9a8b49242bda2297202fbde54980ccc03932bfb69880fcb3791909d2650cde51a6700dd632e3fb5256819d1d972d7e32"
+RPM_NAME = "libQt5Widgets-devel-5.15.10+kde129-1.1.aarch64.rpm"
+RPM_HASH = "b88be1e62398d28f81ec9559f337236888c1f790c6718243a19fbf5270f480a864fa6889ab116cb26222e5d40ef9ced6da47fd8ce112dc81aa167c377dc625d9"
 
 RPROVIDES:${PN} += "cmake-Qt5Widgets \
 libQt5Widgets-devel \

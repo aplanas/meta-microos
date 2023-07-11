@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.11.1"
 
-RPM_NAME = "librpmem1-1.11.1-1.8.aarch64.rpm"
-RPM_HASH = "79ca182b322d68e39a49bb27760ee85147fae13c74de67bd0b2d5c3168ce52b6b7c37cb86e2b213b1f0d642c87524a491b2f0974ef6c0da30b611924d99448f0"
+RPM_NAME = "librpmem1-1.11.1-1.9.aarch64.rpm"
+RPM_HASH = "54cf62aa716ea90551da7f762c605e08ecb4b6f1ef42762358ea2dc09ef3a62fd79663ee7258b037df0edcd091e7efab7e928d6a12bad2329c2b8eb35432307b"
 
 RPROVIDES:${PN} += "librpmem.so.1 \
 librpmem1"

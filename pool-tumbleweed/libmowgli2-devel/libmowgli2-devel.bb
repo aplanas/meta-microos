@@ -11,8 +11,8 @@ LICENSE = "ISC"
 
 PV = "2.1.3"
 
-RPM_NAME = "libmowgli2-devel-2.1.3-2.12.aarch64.rpm"
-RPM_HASH = "380da2cbf00f8b5dc5cd9677d9b39d73edc4fea6c36b3135b2482c66171cd940d000e3726259d74392dab8c01ccbabae3cc01753c896cb2ce8bc234ba352c9dd"
+RPM_NAME = "libmowgli2-devel-2.1.3-2.13.aarch64.rpm"
+RPM_HASH = "bb16c85f3fdc46a93f2a3f7b4621a6e8cf50a7b4c7bd47df29b4bcb60f71b57d5d5ec029ffad12f1d162ea2206b7a1eb0ca62150f50d46cc4af9ef1d275d1d5e"
 
 RPROVIDES:${PN} += "libmowgli2-devel \
 pkgconfig-libmowgli-2"

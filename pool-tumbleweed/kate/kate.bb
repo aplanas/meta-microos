@@ -2,14 +2,14 @@ SUMMARY = "Advanced Text Editor"
 DESCRIPTION = "Kate is an advanced text editor by KDE."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kate-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "7147d5374e0890113776adfbeb2081692dbbb65891631988cfcc9cd7b98a76e950a4c7870812cf976adb8a1e8bcfb6658e8043df6acf3061c001a10121738ce6"
+RPM_NAME = "kate-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "140a5c4bca108bef6a24495f568ec4e4546fd4c26fc773a5683bfa17bda8798d3277e88a4f1a6845a4364618117b0760eba1a3364338b3f60dd61ec05a4a9d55"
 
 RPROVIDES:${PN} += "kate \
 kate5 \
-libkateprivate.so.23.04.1"
+libkateprivate.so.23.04.3"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 kate-plugins \

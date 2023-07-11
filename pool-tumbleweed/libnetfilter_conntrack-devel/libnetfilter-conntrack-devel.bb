@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0.9"
 
-RPM_NAME = "libnetfilter_conntrack-devel-1.0.9-1.6.aarch64.rpm"
-RPM_HASH = "040b29f3618d52b60b0bed716c469f6eb9eea0768bd0aecc3e5f73ac5f841e8a4eeb91c192be8267aa0178fbd7a03b050d272787fcdfa02c108045eec9df8d8d"
+RPM_NAME = "libnetfilter_conntrack-devel-1.0.9-1.7.aarch64.rpm"
+RPM_HASH = "5935a8b107d4f6feda0a0469051de359c278f8e29ecc3d9ec520a67dcc9b68c68b46a561fee23695ad2bcb50a0360b9fb5232cdea03add13c0b443b658ccd920"
 
 RPROVIDES:${PN} += "libnetfilter-conntrack-devel \
 pkgconfig-libnetfilter-conntrack"

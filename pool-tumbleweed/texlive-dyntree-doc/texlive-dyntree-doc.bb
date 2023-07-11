@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2023.201.1.0svn15878"
 
-RPM_NAME = "texlive-dyntree-doc-2023.201.1.0svn15878-53.1.noarch.rpm"
-RPM_HASH = "42eeb739d1e32799dbef806af1509a5111a267891da827498418137de0bf48aedd661bfbf881b9bafdbc229c8fc92fd5f4c139b355bf6a3e9e9885171ff70d59"
+RPM_NAME = "texlive-dyntree-doc-2023.201.1.0svn15878-53.2.noarch.rpm"
+RPM_HASH = "ffb473c534c41491a0317a65bedd74d9150f4c34534ef2649f8dc183f722e6e67c6ef5d0e058caf04c56bc61211840c29efdf770d7605ef95b76819b27f9c567"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dyntree-doc"

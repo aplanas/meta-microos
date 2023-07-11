@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.10"
 
-RPM_NAME = "net-tools-lang-2.10-2.1.noarch.rpm"
-RPM_HASH = "59403d439ad448074f252ff5ae8f8e16cdfad73f4e361feb4d9792ed34927fb42978f1d86fb3a2995561112ebd398c3c9a70ef8e9c2f7d0ea59b4d5165cae73f"
+RPM_NAME = "net-tools-lang-2.10-2.2.noarch.rpm"
+RPM_HASH = "7cc1389fcafe84c8310aa01501ca0f71c47b06c856df26f52291d269e5727283ee822e6fbde3aa12e1526600db2b2a326cb1a6128d6824bbf920151b60429b09"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-net-tools-cs \

@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.2"
 
-RPM_NAME = "littlewizard-1.2.2-17.16.aarch64.rpm"
-RPM_HASH = "6844f70828b12d30b365cd5b11416cd702700f91ee6c2752d55c2ddf3f0fa571ddf2ebd5a0c34115badca3dda144abefa8b4b3ec362e692e157a3887b6a8d1a9"
+RPM_NAME = "littlewizard-1.2.2-17.17.aarch64.rpm"
+RPM_HASH = "ec1f6eb1273497a8879699a431ec6ce4ca104fafc11bc592e99c04d9ea354b885023ca1492039e5e11c5ea5334527c82f46394f16b867045132a4aa07c1e4d87"
 
 RPROVIDES:${PN} += "liblanguage.so.0 \
 liblw.so.0 \

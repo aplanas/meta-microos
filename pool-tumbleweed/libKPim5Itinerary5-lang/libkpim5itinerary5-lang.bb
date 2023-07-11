@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libKPim5Itinerary5"
 DESCRIPTION = "Provides translations for the 'libKPim5Itinerary5' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libKPim5Itinerary5-lang-23.04.1-1.2.noarch.rpm"
-RPM_HASH = "4792caee2323835aaa42e12cd1cc4d83847763a84b5ea6a472ec7237d279eb39e0fed5e4af00cfcc497ed2dd65b0ee3851e5d049a0e04a9edd5307e17819a944"
+RPM_NAME = "libKPim5Itinerary5-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "9d6aca79669f7dade33876ee9c58fdb8b1c6e4ba99baff4984ce88ec2b8b297d5a05cd13724d0f1b0fcc0f74434697158f2fe928fe6de144d0e0d46956a6abaa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libKPim5Itinerary5-lang \

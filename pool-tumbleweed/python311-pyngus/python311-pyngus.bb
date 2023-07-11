@@ -5,11 +5,12 @@ LICENSE = "Apache-2.0"
 
 PV = "2.3.1"
 
-RPM_NAME = "python311-pyngus-2.3.1-1.9.noarch.rpm"
-RPM_HASH = "dd76a7d90144c5394afb18500fec623cc48191eadabddf853035f055368043c3c062b97e422519ce69ceded5b38287febbdcb84af85f0e891004561c4c892474"
+RPM_NAME = "python311-pyngus-2.3.1-1.11.noarch.rpm"
+RPM_HASH = "3a81c475703cf36384862fe55384ea3fd46078c18cb92bc203ac5d85b2e7e9594c2aeb58e74a9c4f8164b241b92675d282826b15a903d52cd5040a77728e585d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pyngus \
+RPROVIDES:${PN} += "python3-pyngus \
+python3.11dist-pyngus \
 python311-pyngus \
 python3dist-pyngus"
 

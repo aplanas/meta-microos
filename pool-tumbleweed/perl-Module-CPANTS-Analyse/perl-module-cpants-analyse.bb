@@ -4,8 +4,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.01"
 
-RPM_NAME = "perl-Module-CPANTS-Analyse-1.01-1.9.noarch.rpm"
-RPM_HASH = "07ba0421697971666dc078367e414255bf7e6cb4c54c420dce458180f0ee68dcbaa1b1f2dff6dd48eb050d841ed5ee5904f32986dd0c29fea6fcba73536fab54"
+RPM_NAME = "perl-Module-CPANTS-Analyse-1.01-1.10.noarch.rpm"
+RPM_HASH = "ea0e6b7c4ae2ec4e6c43a1c6c8a40cdd4425bde7e412f4cc2af912c833bfc5ee6e19547a75a1ab1438d6a993178f64a311284a6e29050389aaa2c96dfe3befb1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Module--CPANTS--Analyse \
@@ -28,7 +28,7 @@ perl-Module--CPANTS--Kwalitee--Uses \
 perl-Module--CPANTS--Kwalitee--Version \
 perl-Module-CPANTS-Analyse"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Archive--Any--Lite \
 perl-Archive--Tar \
 perl-Array--Diff \

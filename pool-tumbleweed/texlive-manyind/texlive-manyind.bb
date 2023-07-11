@@ -7,10 +7,10 @@ one index. In the main file one puts commands like \
 may no longer work."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn49874"
+PV = "2023.208.svn49874"
 
-RPM_NAME = "texlive-manyind-2023.201.svn49874-52.1.noarch.rpm"
-RPM_HASH = "a872c86db3583367897ff6c05b0b4373876056a5f568c0cf84ec2dc2821864307649ebc2244919f7b3d57915d3bd905ea13c27077088d8748fdfffc7808cccf6"
+RPM_NAME = "texlive-manyind-2023.208.svn49874-53.1.noarch.rpm"
+RPM_HASH = "be9aedc427e07bbfba32cda1d4310a1d1127d97340b40454d2c6d31e6447799fb4b6a8441c9d7cc5261627bd6817cc1e8f9dea0969cdb0186bfa37a7bf27211a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-manyind.sty \

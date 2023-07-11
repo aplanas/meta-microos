@@ -4,13 +4,11 @@ LICENSE = "Python-2.0"
 
 PV = "3.5"
 
-RPM_NAME = "python310-pyserial-3.5-3.1.noarch.rpm"
-RPM_HASH = "90be84793d16b0811df75e47df375793b6993d2e518ac6e9a633a4bd9fcf07d1ca3c0bd6f9f5bd7d460999d7e450ed5fbd9981b7c8b928fa5a9c2e868160b7f6"
+RPM_NAME = "python310-pyserial-3.5-3.2.noarch.rpm"
+RPM_HASH = "a32caf55a90fe660c122c3f0e4fb527699f16cc5ff6ea2246a6af1d66a4b488a3099139ea4a72a3e8162103cccbe5fbfcb1647dc8ba44fa59306d8a250ab6ecc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pyserial \
-python3-serial \
-python3.10dist-pyserial \
+RPROVIDES:${PN} += "python3.10dist-pyserial \
 python310-pyserial \
 python310-serial \
 python3dist-pyserial"

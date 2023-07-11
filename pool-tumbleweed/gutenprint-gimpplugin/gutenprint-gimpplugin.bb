@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.3.4"
 
-RPM_NAME = "gutenprint-gimpplugin-5.3.4-1.1.aarch64.rpm"
-RPM_HASH = "b15bdcbb09c7416d203862a150a231415e76877d702957f691992ac396a8a87839f647a2be1d25064db9a1a78c902969aa38114d49620aeda7669253b6fa4927"
+RPM_NAME = "gutenprint-gimpplugin-5.3.4-1.2.aarch64.rpm"
+RPM_HASH = "8155a29d280b2dbe49a1d3f3586190f932de4f5c7e4a35fe8bcc620e3805aa28a7c512001c964ac143fb90c127b7a676085894d7e731602ed1b26987b489f9da"
 
 RPROVIDES:${PN} += "gutenprint-gimpplugin"
 

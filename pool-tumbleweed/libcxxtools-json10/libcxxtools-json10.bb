@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "3.0"
 
-RPM_NAME = "libcxxtools-json10-3.0-4.5.aarch64.rpm"
-RPM_HASH = "cf239fc4f3711eb6948c7dc4aea42a9cbf4bf447d5778d5e72affdcd9c3facce53d02a7a971215792fe7d79622bc796e527318cb8a6020329aed1c1c0a1e470b"
+RPM_NAME = "libcxxtools-json10-3.0-4.6.aarch64.rpm"
+RPM_HASH = "3592735d7db5bc1b9df2764da738a4b8ff6b497ba39dd9d3be81d16043ad7686d627e5392d621428fd963722f1c5ccd686a80832649c0ea9edb82f509062990b"
 
 RPROVIDES:${PN} += "libcxxtools-json.so.10 \
 libcxxtools-json10"

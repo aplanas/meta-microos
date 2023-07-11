@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
 PV = "1.8.0"
 
-RPM_NAME = "tcl-rrdtool-1.8.0-3.1.aarch64.rpm"
-RPM_HASH = "40081ed46452005a5ba29651c6c54425f84963b2f1ea4ff8bf85e176e6a407afe1fd3a7f4086804527213449e5f86a97d5b7ff5ec3aa3aabac3deed7ab740629"
+RPM_NAME = "tcl-rrdtool-1.8.0-3.4.aarch64.rpm"
+RPM_HASH = "41e4b4c7e3294024f8aa13e0d4cda036735f156620e0c4da3640044fc89ac2e62c445ddd9970c78c7f2b326cbd9b6ada261f174777aacb3bbb5d3ac2e5482588"
 
 RPROVIDES:${PN} += "tcl-rrdtool"
 

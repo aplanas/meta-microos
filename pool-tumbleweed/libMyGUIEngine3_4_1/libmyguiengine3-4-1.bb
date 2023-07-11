@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "3.4.1"
 
-RPM_NAME = "libMyGUIEngine3_4_1-3.4.1-2.1.aarch64.rpm"
-RPM_HASH = "7efd19759b8512f96eb8757fd67c4e8825b398cbc35d314729a0bcf1283ff25fe2ac79c9073a00cc1785bb6bea62b0a9c04f66db26d4e420c19bcad44e4e54e3"
+RPM_NAME = "libMyGUIEngine3_4_1-3.4.1-2.2.aarch64.rpm"
+RPM_HASH = "50c92fdf97debef1d0f7ccf026037d8dff268cc8593074de8a18226b32f76c72c7e685d73c45f29e0cfc8ddbdddbc78f2a5440934f516233f446fab9837d0846"
 
 RPROVIDES:${PN} += "libMyGUIEngine.so.3.4.1 \
 libMyGUIEngine3-4-1"

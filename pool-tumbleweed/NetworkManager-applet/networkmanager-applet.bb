@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.32.0"
 
-RPM_NAME = "NetworkManager-applet-1.32.0-1.1.aarch64.rpm"
-RPM_HASH = "8c14fbecf47dc403a79ee312a01aba63906557c7d075b93678dae214b52f5c97f7eb62bad95c1d1e984003cae69c595d9d8f991a7acc2273a103898cecf1fda3"
+RPM_NAME = "NetworkManager-applet-1.32.0-1.2.aarch64.rpm"
+RPM_HASH = "12edde8632b960602e60eb53eb85a06a04af9598d09499b0f14b8140945c82b95b550dfe6adbab2c4a3a01e72b556e2f375d10e6e3e49bd5726f978151d03363"
 
 RPROVIDES:${PN} += "NetworkManager-applet \
 NetworkManager-client \

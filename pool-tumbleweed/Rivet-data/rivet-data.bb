@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "3.1.7"
 
-RPM_NAME = "Rivet-data-3.1.7-1.1.noarch.rpm"
-RPM_HASH = "29c35dc9f948bc818618b26549c6a98655c1c44d6b34acd401c5d62a1e69c1f9e0ada27f5f1db0479f67ced6c4e6a03d886555ec281ec4b4846667255229d1ee"
+RPM_NAME = "Rivet-data-3.1.7-1.2.noarch.rpm"
+RPM_HASH = "a0cd27aadc312295d6f6aa773c87110afa5e4f45d94a634d5bc22ce12efbd40ed3f3e46d58f7cc201e9fb63fb594ac297b48a6d1a39f5a8c1cbdc1cb18be3555"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "Rivet-data"

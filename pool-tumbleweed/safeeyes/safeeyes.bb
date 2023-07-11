@@ -3,13 +3,13 @@ DESCRIPTION = "This utility reminds the user to take breaks whilst they are work
 at the computer in an effort to alleviate eye strain (asthenopia)."
 LICENSE = "GPL-3.0-only"
 
-PV = "2.1.4"
+PV = "2.1.6"
 
-RPM_NAME = "safeeyes-2.1.4-1.2.noarch.rpm"
-RPM_HASH = "14bc33f75814c0bab4e3c7a7643e289e90fb4b690caea80b6bf50986457671dc1cf9c1bd405905db223bf065409b782d42637ee632fdfefeb5fa31d07f4da25f"
+RPM_NAME = "safeeyes-2.1.6-1.1.noarch.rpm"
+RPM_HASH = "5d7313c935e6c151c05aa06e932761ecd50ed3011b99f765a6a206cdcdad4c268288f909f95036c8ff78f351b45d20be689fb9d5bb72e5c65e452858645c6ab1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-safeeyes \
+RPROVIDES:${PN} += "python3.11dist-safeeyes \
 python3dist-safeeyes \
 safeeyes"
 

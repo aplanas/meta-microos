@@ -10,12 +10,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.9"
 
-RPM_NAME = "python310-mpld3-0.5.9-1.3.noarch.rpm"
-RPM_HASH = "8c59be6b8cafff57e344c75e2c71b9e537f462e75127496d674af9ec45b4eaa065e7e5d5bbff51387b22350af7b9f2807dc3d03bdccf8d268d7ba46084ea14a6"
+RPM_NAME = "python310-mpld3-0.5.9-1.5.noarch.rpm"
+RPM_HASH = "9f9a1ea93233f20309c58eb57987e0ce8a52f57ec78d0d716e43aa2b9cbb32cfd383f9fc5496f38705bbba3b98cc1578cbcfcb3d088e59b5c7213b248814c020"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-mpld3 \
-python3.10dist-mpld3 \
+RPROVIDES:${PN} += "python3.10dist-mpld3 \
 python310-mpld3 \
 python3dist-mpld3"
 

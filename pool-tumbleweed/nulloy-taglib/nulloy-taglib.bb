@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.9.5"
 
-RPM_NAME = "nulloy-taglib-0.9.5-1.9.aarch64.rpm"
-RPM_HASH = "a5d4fb8401d7012dbc84a7c71d05c0013bee50a88c2e79c0fb8ca01173bbbdb8f83262ca009a18b54a22b86fae1c00386eaf9807a8f11b62632a251e2c21cfe4"
+RPM_NAME = "nulloy-taglib-0.9.5-1.11.aarch64.rpm"
+RPM_HASH = "c148403046471a2ddbfe5ce9c8edb7b3512adf813e2b3174fe0109d6dd297c4c7a94c844090924d4291f3b1d40b2a0f1a57f2103d6aeb4f8aacb4d79c00a7ed6"
 
 RPROVIDES:${PN} += "libplugin-taglib.so \
 nulloy-taglib"

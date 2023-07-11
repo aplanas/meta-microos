@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "1.1.1"
 
-RPM_NAME = "evieproto-devel-1.1.1-4.19.aarch64.rpm"
-RPM_HASH = "cd5eacf092a2a5a630931c74aa6b5d936091584f9456bfd285444b68a5ec716cecb8565795ad04d48e947320c8addfcfe81e98cacd6e315ee5b6bd6c822324f8"
+RPM_NAME = "evieproto-devel-1.1.1-4.20.aarch64.rpm"
+RPM_HASH = "0e677d015567dd64446c7a23b91b3b0cf1f573149ae4a381dc70932106c00fed484eb711a4a37b57c3b1142bbcd7a335913604d4432bbdede207a1713833d1d6"
 
 RPROVIDES:${PN} += "evieproto-devel \
 pkgconfig-evieproto \

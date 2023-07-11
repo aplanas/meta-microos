@@ -4,11 +4,10 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
 PV = "1.2.7"
 
-RPM_NAME = "python310-alsa-1.2.7-2.4.aarch64.rpm"
-RPM_HASH = "18567981871d2845628de1c29d9fc9b579a435a367764b8d15036d88af2652069d66eca1cf248d4ae9544ab4d6f038b60c6a441e6952b7edd44593863605e86b"
+RPM_NAME = "python310-alsa-1.2.7-2.6.aarch64.rpm"
+RPM_HASH = "4d2e492b678b7560d53896952dedffc6f056236c2bc036429f272939c014b4ff736ae8164de470991aaaacc815d0a1b47d4beaaabfe88bbbbee1f5dfd120c8e8"
 
 RPROVIDES:${PN} += "pyalsa \
-python3-alsa \
 python3.10dist-pyalsa \
 python310-alsa \
 python3dist-pyalsa"

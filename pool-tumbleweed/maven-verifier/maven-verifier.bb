@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.6"
 
-RPM_NAME = "maven-verifier-1.6-3.12.noarch.rpm"
-RPM_HASH = "ad9e68fc3da641aa385fe1d7115d9db659fe0aec25404aa6ac58012a4de015c996d49bed26333c3406ce16a8c30f143752d2be933ac3ed751f2258a6b1fbc56b"
+RPM_NAME = "maven-verifier-1.6-3.13.noarch.rpm"
+RPM_HASH = "71a5e42df55cf2c277ecee074b54baf89b11192f41820f25c793d8690e47cd1f304e59109fac15a72b6776fb35ed709e6c546898b1910e1f11b30ad5d0783fee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-verifier \

@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.5.1"
 
-RPM_NAME = "gnome-podcasts-0.5.1-2.9.aarch64.rpm"
-RPM_HASH = "1a32e392ac7ab68d36551e04a6a15169c65a73b76677b8806bcb09a9dbb9297cd98a960b3d2b1a607b59d0b12bc903f62c5d7bb6aa484ce425e154a3b5005069"
+RPM_NAME = "gnome-podcasts-0.5.1-2.11.aarch64.rpm"
+RPM_HASH = "7983a168a0f9d7dde56e303d068dd8d08e87ea4cc5118d26be83295848dfd5698eca8443ad88489f99e81cc8d99e2407aceb4c4275c0adfbdd2345c7846b7b63"
 
 RPROVIDES:${PN} += "gnome-podcasts"
 

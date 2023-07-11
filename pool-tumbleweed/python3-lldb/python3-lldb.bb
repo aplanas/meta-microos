@@ -6,10 +6,10 @@ python3-lldb that openSUSE currently supports.  Packages that \
 don't require a specific LLDB version should depend on this."
 LICENSE = "Apache-2.0-with-LLVM-exception | NCSA"
 
-PV = "16.0.4"
+PV = "16.0.6"
 
-RPM_NAME = "python3-lldb-16.0.4-1.1.aarch64.rpm"
-RPM_HASH = "c99dd756c4932bfc3749f661582e0cab24bd4b35a870e572c4f410e6ca2b9bcbf456864b24bd6182729a4cbee518243d23cee58a711f6df11336a7766e08131f"
+RPM_NAME = "python3-lldb-16.0.6-1.1.aarch64.rpm"
+RPM_HASH = "8112b47a3e795f4b7d9c2b409f34ea61e7e4b88e11dd5862a3ad1d28c95c1beaa8f66c8f94c78348a97aa18c664438b929b3b43441c05202d5892a7670845ef1"
 
 RPROVIDES:${PN} += "python3-lldb"
 

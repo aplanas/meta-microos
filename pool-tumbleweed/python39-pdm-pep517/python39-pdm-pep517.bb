@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.1.2"
 
-RPM_NAME = "python39-pdm-pep517-1.1.2-1.2.noarch.rpm"
-RPM_HASH = "0d1c3f23a0ce0c2653cba05736e8ad83a9f4d2607124bbd7c774477f1b84f58d4ba9db97f419985badcd592cd89cb66103e021dfedd76966573d0d66569cf335"
+RPM_NAME = "python39-pdm-pep517-1.1.2-2.3.noarch.rpm"
+RPM_HASH = "5731b3bfa7a4de89e9e27f4afecac152dff5128efd27dd562c6fde85dd550e214458c2866835aad8719ff4fe19223c20db68c6b4c5e6098b9024967550abaa1f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pdm-pep517 \

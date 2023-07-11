@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.12"
 
-RPM_NAME = "python39-aeidon-1.12-1.3.noarch.rpm"
-RPM_HASH = "8753a4a1062df37f9bdcf42484681cc519eba2b1e15f53a2309d8df7fe620f57b58b1cc3b83c1d09c36e211cb541fb1d9b83de3ffaef570caf37e22661a0303d"
+RPM_NAME = "python39-aeidon-1.12-1.4.noarch.rpm"
+RPM_HASH = "a614464618317e6990f14babd9d4c30c8b4b8a7019e79abf51a837d55daf2e4c3101af25297d76d867a38119db4e47a51650951f764156156f02839253d178d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-aeidon"

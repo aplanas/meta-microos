@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.5.5"
 
-RPM_NAME = "ghc-contravariant-doc-1.5.5-2.3.noarch.rpm"
-RPM_HASH = "76918646c1a9a61a8a232fc8219297dbac2353bafc278d0bdebfb665ec60e029c1102d877d322b3e009861e8d67b11c6dca0953cbb79d5ce5720bd27797685f2"
+RPM_NAME = "ghc-contravariant-doc-1.5.5-2.6.noarch.rpm"
+RPM_HASH = "d2e2a586218d83ad99579a0f06b23a798168c392318ab017feb65dd95523fd1e406906695bbb2df1ffefb92b474ba85caa6040bc6ca75f24d7b9e64294e95b27"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-contravariant-doc"

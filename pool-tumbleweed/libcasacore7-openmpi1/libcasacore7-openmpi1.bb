@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "3.5.0"
 
-RPM_NAME = "libcasacore7-openmpi1-3.5.0-2.13.aarch64.rpm"
-RPM_HASH = "ff503f5b5baacdb772221ece268294910a70aa17d0e4ca582fb68dc84596a59bd4319596cdd6ddb53d5b158086ca8946d6810942bfbab17382cef94db1829d23"
+RPM_NAME = "libcasacore7-openmpi1-3.5.0-2.14.aarch64.rpm"
+RPM_HASH = "3d931572d854e5152c9d122ff8dcf0e3fc9cfd1554d3fa06b80eeab2762547435df448c75be46fc9f5bbc7ed4a9f64852cd34a045100e1b528313784afd63d85"
 
 RPROVIDES:${PN} += "libcasa-casa.so.7 \
 libcasa-coordinates.so.7 \
@@ -44,7 +44,7 @@ libhdf5.so.200 \
 liblapack.so.3 \
 libm.so.6 \
 libmpi.so.12 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libstdc++.so.6 \
 libwcs.so.7"
 

@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.7.0"
 
-RPM_NAME = "python39-apache-libcloud-3.7.0-2.1.noarch.rpm"
-RPM_HASH = "d582ad302c4cb2efc4c52f5115f52d8e7a57b0a95517f62dd6199bc13422ad38e1757268e297752ee6ccbb770a44aded5acb75bc048cbc7cb54c1a123b49cf27"
+RPM_NAME = "python39-apache-libcloud-3.7.0-3.1.noarch.rpm"
+RPM_HASH = "4bafd8414a2a9828b83b4b3504ef7f5361beb452b8b437236fcc7ed0a2ed586c412552e49c600eabdf58c1da051fb738e6811e2db3c51e8a239c86f45af9e25c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-apache-libcloud \

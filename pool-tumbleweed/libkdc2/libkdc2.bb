@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "7.8.0"
 
-RPM_NAME = "libkdc2-7.8.0-3.1.aarch64.rpm"
-RPM_HASH = "64bd7b47087336308c4c049f9be9ad0445397c58654bdd09e3b4cd9238c2b0fdf3ead1861e431bcd679a81760e03a4eed4fbe86fd20f686cadb32b32c7d5e164"
+RPM_NAME = "libkdc2-7.8.0-3.2.aarch64.rpm"
+RPM_HASH = "b6d844d35142bc0e47f3d99fe1fa729f2aa17bfccf7e73c9cfd628bf227a03ca8c7c8879b451f1ff1efef1143694abb02799671a230b1922c14c56e218ed8b45"
 
 RPROVIDES:${PN} += "libkdc.so.2 \
 libkdc2"

@@ -5,12 +5,11 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.7.16"
 
-RPM_NAME = "python310-dicttoxml-1.7.16-1.3.noarch.rpm"
-RPM_HASH = "8f3f6e7f8826b476922aa20be5430113e7167aa6657479331ef3cf9962c5a911ab94b0dbdd4224ef197149988223ea338a326b7753f6e577a4429ce21ea269b6"
+RPM_NAME = "python310-dicttoxml-1.7.16-1.4.noarch.rpm"
+RPM_HASH = "7a6b073a5bf700c3bc69831e45baa9db7e00042bf169f4dd7be5d6ddc197a3f12f2c91f7fc38a9e22a8e944b741d3bfea8849fb0a723cc52f261431bf988f4d1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-dicttoxml \
-python3.10dist-dicttoxml \
+RPROVIDES:${PN} += "python3.10dist-dicttoxml \
 python310-dicttoxml \
 python3dist-dicttoxml"
 

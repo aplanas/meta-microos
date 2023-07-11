@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.7"
 
-RPM_NAME = "mt-st-1.7-1.1.aarch64.rpm"
-RPM_HASH = "1bf5dca03b9ac3beb64dc0cddf230342c046cc029ffe505acb34ca21fba9a418b22d08fb1d9a9483ef0a9fdf52138a45827919f4ac91a60d41c9cae77e982125"
+RPM_NAME = "mt-st-1.7-1.2.aarch64.rpm"
+RPM_HASH = "7dead4d91b5d4c8013359d88397f9b8a6af947b9dc64d031d54fe2348dc527778843e6d65105ddd9f6a873cdb917bdd371efb9692ae066036a5f9cb86dd9d9e6"
 
 RPROVIDES:${PN} += "config-mt-st \
 mt \

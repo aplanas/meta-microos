@@ -16,10 +16,10 @@ These packages are not needed to create the dump and can be installed \
 after a crash dump has occured."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.0.2+git50.g4b01402"
+PV = "1.9.3"
 
-RPM_NAME = "kdump-1.0.2+git50.g4b01402-1.3.aarch64.rpm"
-RPM_HASH = "36183fb14281b31341156e54f1881a9871475d4ab4ef03bfea1224c41e230406459b471408774f43f493b37d8d15bb6fee673212a7802123612a2d4ffa74fee6"
+RPM_NAME = "kdump-1.9.3-1.1.aarch64.rpm"
+RPM_HASH = "6b4c439dfa4eea9461a1a67aa56dcb87a675aaa5c2a3dcbe1714de7471790087f2b2012c1fb35876efeb239b4524e40010b01c92ec8ea49754626e82da91b4be"
 
 RPROVIDES:${PN} += "kdump \
 kexec-tools-/etc/init.d/kdump"
@@ -30,21 +30,14 @@ RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/sed \
 /usr/bin/sh \
 /usr/bin/touch \
-curl \
 dracut \
 fillup \
 kexec-tools \
 ld-linux-aarch64.so.1 \
 libblkid.so.1 \
 libc.so.6 \
-libcurl.so.4 \
-libelf.so.1 \
-libesmtp.so.6.2.0 \
 libgcc-s.so.1 \
-libmount.so.1 \
 libstdc++.so.6 \
-libz.so.1 \
-makedumpfile \
-openssh"
+makedumpfile"
 
 inherit rpm

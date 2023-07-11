@@ -2,10 +2,10 @@ SUMMARY = "Translations for package akonadiconsole"
 DESCRIPTION = "Provides translations for the 'akonadiconsole' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "akonadiconsole-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "592be7da8f27038549272ba187062cee9a80d299731b2b1e871b02d3c77b3749821de5aa323bc413b1cebab922963e764474e93290b24fe3a6b4ae00e79f2f8c"
+RPM_NAME = "akonadiconsole-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "9ec89a24ccc3930542d72e2be390a4d542f1150e153684a2f0e273ae791a471733f75fa857457934ec9023ab5aa100f66f220d4d318a1bdfbbf528e30a466e55"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "akonadiconsole-lang \

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.5"
 
-RPM_NAME = "python39-odorik-0.5-6.4.noarch.rpm"
-RPM_HASH = "d021bf908f417c6e752e1d5158a0990da2e7f569f5977088c8decaf922a06f7b7412b26d46f30f3d90f201dd93200c702d56a75580f40e681e24fdf6cc03974b"
+RPM_NAME = "python39-odorik-0.5-6.6.noarch.rpm"
+RPM_HASH = "091352b5e3bf91fea8fe644b86fba0b604ccc355d631201be63074e389ecd7db8ca312bab403b1f1f5ba2b4036dabd83ee3c7d8ab381b0eea58261a8eba36b42"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-odorik \

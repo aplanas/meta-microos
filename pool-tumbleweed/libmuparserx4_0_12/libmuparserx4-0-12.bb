@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "4.0.12"
 
-RPM_NAME = "libmuparserx4_0_12-4.0.12-1.3.aarch64.rpm"
-RPM_HASH = "3ab82f30e8838a73f704a7968906479e2544ab5fc43ff8da58b812065cac748f42f13dcaa2be5077f019329de257aa485b3d03d5541b549731c6814e79ba4bc5"
+RPM_NAME = "libmuparserx4_0_12-4.0.12-1.4.aarch64.rpm"
+RPM_HASH = "ac908c3e771328d85ea928309f974fede669a273a834dca483569329b647badd6834052f33226105d9b930e28c1cee297261f58d3e05f40da032b4a70f4cdfbd"
 
 RPROVIDES:${PN} += "libmuparserx.so.4.0.12 \
 libmuparserx4-0-12"

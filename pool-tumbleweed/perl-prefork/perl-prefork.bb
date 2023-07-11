@@ -9,12 +9,12 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.05"
 
-RPM_NAME = "perl-prefork-1.05-1.15.noarch.rpm"
-RPM_HASH = "4ecf76a969839c0810bf38563889b27a951061e16054a24f033692833423bf95d1504119e3dd3cd53ac7a46be5f916eb58c142f5c6bb0617d8f452e20526461c"
+RPM_NAME = "perl-prefork-1.05-1.16.noarch.rpm"
+RPM_HASH = "ca5c9942e1d0b51796b36e29b5b0d0150c09aed664ddfb25606351acf4c2a240efbdf5dc41c9ea4249dd1273967318e1976fa42f92e5aea5997148a0540871f2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-prefork"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

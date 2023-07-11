@@ -10,8 +10,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.2.7"
 
-RPM_NAME = "clap-lsp-plugins-1.2.7-1.1.aarch64.rpm"
-RPM_HASH = "6ce3a29ad519b134a29e64b4bea8a8bda112542aef75301bc6438de2904a8e77bd6520b109a849288a70c7cb01c3f2f54feba82bb56636943806d2f5fd471e2e"
+RPM_NAME = "clap-lsp-plugins-1.2.7-1.2.aarch64.rpm"
+RPM_HASH = "982ef7d5adda7ee53e88861d5acfca7cc0372962f388de189feaad59ff673ea9490f9e30f8add60d2698f16be286b2481b712beea2cadcebd9005b1a6256c01e"
 
 RPROVIDES:${PN} += "clap-lsp-plugins"
 

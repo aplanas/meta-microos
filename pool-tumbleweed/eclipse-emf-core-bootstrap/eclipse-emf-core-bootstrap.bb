@@ -8,8 +8,8 @@ LICENSE = "EPL-2.0"
 
 PV = "2.22.0"
 
-RPM_NAME = "eclipse-emf-core-bootstrap-2.22.0-3.5.aarch64.rpm"
-RPM_HASH = "106c82625b2b06a2d31947af092afa7d6d06abb1712085e6139a4914d0c131c0d93d1df6cc703e55d4084b338d63c556d530b6a9d9f2d3a25af78afe9f24b5cd"
+RPM_NAME = "eclipse-emf-core-bootstrap-2.22.0-3.6.aarch64.rpm"
+RPM_HASH = "c03c3b396e4e6dd798975065e61f604338441ff8905bab8a42ff3a5a91e9a0c96f8ef9458ccab9ff1a885d166db0e6deaa50a1f521074cdf77e571bd73f8ebf7"
 
 RPROVIDES:${PN} += "eclipse-emf-core-bootstrap \
 mvn-org.eclipse.emf-org.eclipse.emf.common \

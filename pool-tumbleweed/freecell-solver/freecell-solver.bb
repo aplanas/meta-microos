@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "6.8.0"
 
-RPM_NAME = "freecell-solver-6.8.0-1.3.aarch64.rpm"
-RPM_HASH = "d4289cdf4f2fba72c0bf43d049c018d09af7210a1a501e55b0ac99de54a4b4c004967084266a772cfeb3b6b5b12f1201f0e8c7a27738b8390bd3068c56cb76d5"
+RPM_NAME = "freecell-solver-6.8.0-1.4.aarch64.rpm"
+RPM_HASH = "ecd5ef5024175757a4d83495a68811924d0b73b8cfe485c79d298c4f059f83f78b3ce33135914f7a5e94325d46228b5ce8aa5b1f7d6c6b551d80982280a6c555"
 
 RPROVIDES:${PN} += "freecell-solver"
 

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.0.8"
 
-RPM_NAME = "kst-devel-2.0.8-14.4.aarch64.rpm"
-RPM_HASH = "26a5bde6927b49fccd9d1bafe57a29f8707bf6f37dab8cb9fd6ffa208f3d65b6f3067a69a251fe08311f30733b04224a1e59e86eea3f1a481bd6956e78e1c506"
+RPM_NAME = "kst-devel-2.0.8-14.5.aarch64.rpm"
+RPM_HASH = "011a4eff94488a5fde9296568d3244b43d7590eb64b4113e58c38902e68f9f8dc9fab13b59c1926ee6861955bbdbc3526cc39467c5171b267b290eebf5262352"
 
 RPROVIDES:${PN} += "kst-devel"
 

@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "6.8.0"
 
-RPM_NAME = "freecell-solver-presets-6.8.0-1.3.noarch.rpm"
-RPM_HASH = "53b467b0ac9801734a551d1940e3e6dc1e1648a2f0dcf90254e12b913d2601778f3beec3beceaf3246e678eee2936d01028b9c219ec25ec39e6b6b460193c5d4"
+RPM_NAME = "freecell-solver-presets-6.8.0-1.4.noarch.rpm"
+RPM_HASH = "79a23477f123f91a32371751d57ebe1b7393c2393cb845784e7addb90c4f0381e6648f3c19d494f2dce7251801157d45de5e361f86ccb9e95bb45b65b03307ea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "freecell-solver-presets"

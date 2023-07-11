@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.0.1"
 
-RPM_NAME = "octave-forge-parallel-4.0.1-3.1.aarch64.rpm"
-RPM_HASH = "7376ab236204d4c4df601c89a41391e37c3d4e1a3b287884ef0d571818f4765ab6007180526690282ddfd9c937c8244db887f049408e5b7081f4b89bddfd1a49"
+RPM_NAME = "octave-forge-parallel-4.0.1-3.2.aarch64.rpm"
+RPM_HASH = "54a66f649ed9d70d11201026080ce0d15409bb19fee6b28e5ad1a6d04742106a7e97e7a691dffed4add17c5fc4420826e88e625a4556be09918f7770e0bbd5e4"
 
 RPROVIDES:${PN} += "octave-forge-parallel"
 

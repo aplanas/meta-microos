@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.6.0"
 
-RPM_NAME = "librtlsdr0-0.6.0-2.8.aarch64.rpm"
-RPM_HASH = "dfdd32e2ccf4a3a8b2f53795945e0e947e036b6e846cfb1c59d405e0921c02089138bcb8010905480532a2e2af72eedfa063894720fd8c1c49abb9f7e3f9e1b3"
+RPM_NAME = "librtlsdr0-0.6.0-2.9.aarch64.rpm"
+RPM_HASH = "1d96229dea65c4134cca3f5530f63d0691fe2b8bcf1d36bad6230f3c128d5b46def374de72a31c9403ce079f7643a68a692ebd33d94ecd81f3a922f6841b2320"
 
 RPROVIDES:${PN} += "librtlsdr.so.0 \
 librtlsdr0"

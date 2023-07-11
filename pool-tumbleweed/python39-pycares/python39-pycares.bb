@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "4.3.0"
 
-RPM_NAME = "python39-pycares-4.3.0-2.1.aarch64.rpm"
-RPM_HASH = "ad44b7a0079474120cd7c3205bfb6bbe951be05e9eb349557c330a87af334bda666ae7218d3401e249c813ae5678371bb27ecc9836d867353dd38766c68d0733"
+RPM_NAME = "python39-pycares-4.3.0-2.3.aarch64.rpm"
+RPM_HASH = "525a996a62c2c25822a753e1f777254ecc8f8396521e6d7d60da3a498f4facc22509067668ef0453f5c9a46891d263ebfa659be63e27f7e650df49c689c487e5"
 
 RPROVIDES:${PN} += "python3.9dist-pycares \
 python39-pycares \

@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-or-later"
 
 PV = "6.06"
 
-RPM_NAME = "xscreensaver-data-extra-6.06-4.3.aarch64.rpm"
-RPM_HASH = "57e1aa8099cbcd3996e73c7301cc79cc20df5c78f81504090d2dcd4aae683f2ba31ccd1894e5b5a1edff4953bd3952bec9c48adb25cc24cb65294643b0dc8dac"
+RPM_NAME = "xscreensaver-data-extra-6.06-4.4.aarch64.rpm"
+RPM_HASH = "a7f9943f914724ed1e0b8a17505557e18639afe3a4c2d673f8fa9e91d5c45f3722665c99179dc0a9c3ef8f4b923ead15b81e80f76884cd987f2b563f0f522941"
 
 RPROVIDES:${PN} += "config-xscreensaver-data-extra \
 xscreensaver-data-extra"

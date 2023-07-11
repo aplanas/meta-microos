@@ -10,10 +10,10 @@ Using Qt Location, one can \
  * and search for places and related images."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.9+kde5"
+PV = "5.15.10+kde4"
 
-RPM_NAME = "libQt5Location5-5.15.9+kde5-1.2.aarch64.rpm"
-RPM_HASH = "7bab5a70dbfdc638155e1db4e1ecca9aa98f22ca8024ec80fe70cdd165dc5e3bca1c1e020f1ea13444d08d1c85691c7654df442afb99c2063cb0662bf10924d5"
+RPM_NAME = "libQt5Location5-5.15.10+kde4-1.1.aarch64.rpm"
+RPM_HASH = "4eb0b76eb234c4322ea7424a027a72a0c8f01542c763e6c81925f0a772d3c783938a2a9b5d544f42e06dbe2b7beecccbedafb80b9ada7c1e55e1f8b3fe07f100"
 
 RPROVIDES:${PN} += "libQt5Location.so.5 \
 libQt5Location5 \

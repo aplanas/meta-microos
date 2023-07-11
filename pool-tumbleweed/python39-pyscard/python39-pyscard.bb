@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "2.0.7"
 
-RPM_NAME = "python39-pyscard-2.0.7-1.1.aarch64.rpm"
-RPM_HASH = "3698dab9d0519fc0df2c1e6cf9f22fcd740032111d00131df0cc35be485f1d0d57a7a661bcea06aea11b00849b47225662394e20af0791d02c44d6c6e453ea9d"
+RPM_NAME = "python39-pyscard-2.0.7-1.3.aarch64.rpm"
+RPM_HASH = "c4b79721b4b03d4f823a06dd8707e24cd52c5b9d1c2b663824a102fd8cf0c344c1803a59ac47980e574d7df09c66b66669c9c70c29cb2996b92d87889cdfbb4f"
 
 RPROVIDES:${PN} += "python3.9dist-pyscard \
 python39-pyscard \

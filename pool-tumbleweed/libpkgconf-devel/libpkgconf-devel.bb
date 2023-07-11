@@ -5,8 +5,8 @@ LICENSE = "ISC"
 
 PV = "1.8.0"
 
-RPM_NAME = "libpkgconf-devel-1.8.0-2.3.aarch64.rpm"
-RPM_HASH = "1832bd51aa0f4a72b4ca69e0972479308c95bcfc5f7d96bfe29b7d1e2b5238df624077a2c2c11b1b16a63c2af6012e1dcaff4a6cc293ee7bf0cdc279f749ab2d"
+RPM_NAME = "libpkgconf-devel-1.8.0-2.5.aarch64.rpm"
+RPM_HASH = "802286adef20855be9fbb779038ec151c3a2f66af58a5d32cb460c654ac1df52a070ace8fcabe0f66802b4ddb232100a3ee29c239584896cdb5368f0a1cd9a73"
 
 RPROVIDES:${PN} += "libpkgconf-devel \
 pkgconfig-libpkgconf"

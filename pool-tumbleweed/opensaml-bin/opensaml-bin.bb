@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.2.1"
 
-RPM_NAME = "opensaml-bin-3.2.1-1.11.aarch64.rpm"
-RPM_HASH = "e5708896b85b9bef65567ba37ebb28e757bfee8ff1eabfda67b354a31d69f26783b0d172f32cfc9795f0709cb04a6e1e0e2eac7586ba476fe63a082f4491c44f"
+RPM_NAME = "opensaml-bin-3.2.1-1.12.aarch64.rpm"
+RPM_HASH = "e57341622ebcbb49daf6af007fb017ae19192759384ab6d5804b2b26f6bd70566f9bd72e17fb2a4a411ef71825c9f81fe26d69696b7dbfa53203e5a82362d2cb"
 
 RPROVIDES:${PN} += "opensaml-bin"
 

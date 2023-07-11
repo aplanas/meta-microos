@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & LGPL-2.1-or-later & (BSD-3-Clause | LGPL-2.0-only)"
 
 PV = "1.8.8"
 
-RPM_NAME = "uim-qt5-1.8.8-9.9.aarch64.rpm"
-RPM_HASH = "3a6a5e1b69dcaabb879789e6770792c358764b1e1efadee4c47dd49807ba6a4f7b2b346981219c8310b20d2ad7ee5100f2e09193710bf30aa1970d384d772abb"
+RPM_NAME = "uim-qt5-1.8.8-9.10.aarch64.rpm"
+RPM_HASH = "7e8f6e8312ec752afd648674aec13c69e4a3f397e09dbc584eba37f521acb3a639ffb5491c1636ac81fb3125a3fb9431544f38c55fb6b5678a6b81349a0de990"
 
 RPROVIDES:${PN} += "libuimplatforminputcontextplugin.so \
 uim-qt5"

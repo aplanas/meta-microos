@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-only-with-GCC-exception-2.0"
 
 PV = "2.0.21"
 
-RPM_NAME = "uwsgi-emperor_zeromq-2.0.21-2.1.aarch64.rpm"
-RPM_HASH = "c97fed1f59b5584b4098e3bb61e580bfd1afca90c81447b6eff3c11063d6acc433a369971e1e1fd9c7eab6e103c42f2ae4c39f1048da37966a928fe3e5ef1c1e"
+RPM_NAME = "uwsgi-emperor_zeromq-2.0.21-3.1.aarch64.rpm"
+RPM_HASH = "7fb3d53c5d8b1c3d1d9c0aedc80f472cf2b4abfb45d9b7744eff18a5e21e169df96250e2d988a9988d92b8b133c3d0e7dc2091d8a91115175b238ae271d700fd"
 
 RPROVIDES:${PN} += "uwsgi-emperor-zeromq"
 

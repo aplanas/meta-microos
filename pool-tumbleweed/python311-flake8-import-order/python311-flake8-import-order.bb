@@ -4,11 +4,12 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "0.18.2"
 
-RPM_NAME = "python311-flake8-import-order-0.18.2-1.4.noarch.rpm"
-RPM_HASH = "2a4baa052d8998b0258acfa8b1d4990f4af1fe4b9c7ecf227b8c28b06da3bc041f83b5d8d2c50e86e9e9eb820ccb05dad60db05121bf43a4c75d43c523a435f6"
+RPM_NAME = "python311-flake8-import-order-0.18.2-1.6.noarch.rpm"
+RPM_HASH = "eaedc4c59af0dcc0f806f486fae81493fe7a162a55cf6ac768787f309d40ffb378ac6ec4a163b16361162e83afe36c2ea9f143dec255401b634fc9a33fb1574f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-flake8-import-order \
+RPROVIDES:${PN} += "python3-flake8-import-order \
+python3.11dist-flake8-import-order \
 python311-flake8-import-order \
 python3dist-flake8-import-order"
 

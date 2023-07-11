@@ -2,10 +2,10 @@ SUMMARY = "Linker for Clang/LLVM"
 DESCRIPTION = "LLD is a linker from the LLVM project. That is a drop-in replacement for system linkers and runs much faster than them. It also provides features that are useful for toolchain developers."
 LICENSE = "Apache-2.0-with-LLVM-exception & NCSA"
 
-PV = "16.0.4"
+PV = "16.0.6"
 
-RPM_NAME = "lld16-16.0.4-1.1.aarch64.rpm"
-RPM_HASH = "546f603c47a0420dfd4ed0a8b9cba9fe2bd3e43de648abe0f610280cc036ef59092d5b347566f6c01804ae95191d8972a75efbe9ec95ae4370e9f96a00275e43"
+RPM_NAME = "lld16-16.0.6-1.1.aarch64.rpm"
+RPM_HASH = "51f3258d379c258900b6d4fb37240f50a150795d08595aac561d90beea38da2978107aea2def52fcc927cb5fb88d41786e2d8849578281f2f30d1d41ec7c656d"
 
 RPROVIDES:${PN} += "lld16"
 

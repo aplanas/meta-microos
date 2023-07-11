@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.0-only"
 
 PV = "3.4.5"
 
-RPM_NAME = "xreader-plugin-dvidocument-3.4.5-1.4.aarch64.rpm"
-RPM_HASH = "657230bc4c5b392c7b30d44c8d63bae99d6a1044b8a031c2c43694219d7e7efd2eeca02d08423d7784ac6fbec0927b84043a58c8ebb8fe11ef18fdf91fdfb3df"
+RPM_NAME = "xreader-plugin-dvidocument-3.4.5-1.5.aarch64.rpm"
+RPM_HASH = "d715d4f8c51137b9f797237de0736996086ce8ae7d2660d3a7cb5de731c30475b92780170c21d14a8ec5eb2a9c87e63a9f4a18834767f141a226131e7ad6fe57"
 
 RPROVIDES:${PN} += "libdvidocument.so \
 xreader-plugin-dvidocument"

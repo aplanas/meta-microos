@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "1.4"
 
-RPM_NAME = "python39-setuptools_scm_git_archive-1.4-1.1.noarch.rpm"
-RPM_HASH = "586adcac9f5694f40ee1d01c95f8e990ea937ad15a809b3730eb9cde2992439f7c3239c0c3d5079c8ed9ae03b9efd4af51e7d82d3620a43613d7a1f62dbe7484"
+RPM_NAME = "python39-setuptools_scm_git_archive-1.4-1.2.noarch.rpm"
+RPM_HASH = "09d564b3689a650efe4f19ac81ac70756d4f091afe51ba94e9c93992326a47d2dd184791b18949807417b0eb233ee1793fd17c401f0e17c5301b40472f048b63"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-setuptools-scm-git-archive \

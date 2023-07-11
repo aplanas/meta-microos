@@ -9,10 +9,10 @@ annotation, and does not show project history. It does however supply \
 menu actions to start a gitk session from within git-gui."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.40.1"
+PV = "2.41.0"
 
-RPM_NAME = "git-gui-2.40.1-1.1.aarch64.rpm"
-RPM_HASH = "0beacc326d40f2af5920e5f2edfbddc9f446b158ccdbaaac8d879c2d4f314359814d14ef0ea4ce700d91db376347321e165431ed4b9b7f58de616a04c74ff9ba"
+RPM_NAME = "git-gui-2.41.0-1.2.aarch64.rpm"
+RPM_HASH = "78489c9e42b6dd44f08cb3ebeb906a5da79c6ad6e29677fbe444e880ad538e1b14c33028003d964692815a023de48b98b009bdf77a7958e95a23232f22f19743"
 
 RPROVIDES:${PN} += "git-gui"
 

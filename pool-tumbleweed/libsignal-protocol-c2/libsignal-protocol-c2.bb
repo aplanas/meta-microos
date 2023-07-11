@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.3.3"
 
-RPM_NAME = "libsignal-protocol-c2-2.3.3-1.13.aarch64.rpm"
-RPM_HASH = "dfba03d1b076c5067b2eeb2b22076ecbb544f2bd0802b29ba94cf2e78d5905cec2a48cb1adb9940f00fbbe9ca01b7c18d0bff78ee191ce6dbef0889696a58274"
+RPM_NAME = "libsignal-protocol-c2-2.3.3-1.14.aarch64.rpm"
+RPM_HASH = "33bfe483a7a4bc68c6493fd226a30527128920a01dea10d80e8b667eba340ddbc893ce2422da62d0c47a9157f3fb9b5eb9c94156d4613e7b9d49f156069a9225"
 
 RPROVIDES:${PN} += "libsignal-protocol-c.so.2 \
 libsignal-protocol-c2"

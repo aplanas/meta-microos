@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "3.1.0"
 
-RPM_NAME = "python39-shinyutils-3.1.0-2.9.noarch.rpm"
-RPM_HASH = "a2ac88dff19ad3179694dfc6b3494ad94828d52f0bfd8dfb8e9970a725f42fcafb4a14117facb81cb0a3c949f75b228d8295174afd40361f07e23dbd3271d8d7"
+RPM_NAME = "python39-shinyutils-3.1.0-2.11.noarch.rpm"
+RPM_HASH = "45bb440d2a2577e8f94e35622750c5de90b8935d3fa98edfaec0419356998f7f445221bc0b348c7a07842e3aa3f167e70a4eb209184d4dbe825581454fc4e3b4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-shinyutils \

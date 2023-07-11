@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0.0"
 
-RPM_NAME = "python39-azure-ai-translation-document-1.0.0.0-1.5.noarch.rpm"
-RPM_HASH = "904d49cb3ac45473e4505a14bd60fd855dc72d0ce90776d37ba34a3af3f35fe83dfb08cbeea06c6c4b07acac7f24558ad78b2fa88e8f74914add327941e6853f"
+RPM_NAME = "python39-azure-ai-translation-document-1.0.0.0-1.6.noarch.rpm"
+RPM_HASH = "5cbb708a134dfbc5d35fde87328d59ea47b92d0c7beaedbfa62a0fdfe9285a95ce969005bd3c2d7ab29775958bd7b394bbace52a50c90825fd302636d90675ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-ai-translation-document \

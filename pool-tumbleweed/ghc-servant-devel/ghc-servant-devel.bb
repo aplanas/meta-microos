@@ -4,25 +4,25 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.19.1"
 
-RPM_NAME = "ghc-servant-devel-0.19.1-2.3.aarch64.rpm"
-RPM_HASH = "b8d893962d132c8d9d24e4bf00949f61e4116f9e2eed42746ca8e6879bef3259b3de19aac1aa355ecdad72a8aae867f5633bac5f31064d4bfa664946c02a62ad"
+RPM_NAME = "ghc-servant-devel-0.19.1-2.6.aarch64.rpm"
+RPM_HASH = "7a29d0710f553fbc782506105ca2c714964da3c90007857ed51db5d4e3f58050cc6b5722300016661476a770ded4db39ccb3faa8514bb93fb6ff6392ef25e293"
 
-RPROVIDES:${PN} += "ghc-devel-servant-0.19.1-CkczWd9pQYqHxItHfQRhzE \
+RPROVIDES:${PN} += "ghc-devel-servant-0.19.1-6G8iD3Z75czL6ryOAXMC67 \
 ghc-servant-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-QuickCheck-2.14.2-Ifslnzw9cpLJMSBGXVUlx6 \
-ghc-devel-aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP \
+ghc-devel-QuickCheck-2.14.3-6dq2izV8oSq1BobaDA598X \
+ghc-devel-aeson-2.1.2.1-HkN6OtqTngQ9De3CKBnfov \
 ghc-devel-attoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3 \
 ghc-devel-base-4.17.1.0 \
-ghc-devel-base-compat-0.12.2-L1DEOlMQJOdFOKsjHoWYov \
+ghc-devel-base-compat-0.13.0-Cvz3167VMpo6rdOohSlum3 \
 ghc-devel-bifunctors-5.5.15-7mn3oj93MLM2f6K5DVlnRL \
 ghc-devel-bytestring-0.11.4.0 \
 ghc-devel-case-insensitive-1.2.1.0-AumZoR4Lds63HJj8OQwHY3 \
 ghc-devel-constraints-0.13.4-8c0InBhz3htJzug27IqVE7 \
 ghc-devel-deepseq-1.4.8.0 \
-ghc-devel-http-api-data-0.5-Ipkpz3wcjEIJthDto7snfd \
+ghc-devel-http-api-data-0.5-V3iAwM0FHG5XKNP6QkA7J \
 ghc-devel-http-media-0.8.0.0-9GHxrTRagkN589CoQuo7sU \
 ghc-devel-http-types-0.12.3-4BrMFwRucoT4fBt8cCVFS6 \
 ghc-devel-mmorph-1.2.0-4Mt4o3YW9h63uaZAnM2RZC \

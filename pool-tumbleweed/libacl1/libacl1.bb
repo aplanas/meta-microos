@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "2.3.1"
 
-RPM_NAME = "libacl1-2.3.1-2.12.aarch64.rpm"
-RPM_HASH = "b0659fc04b3d5df7a8681ad6db59f9e8cc735fcd189f966cd232eb461229fe2ad93337a36a30d6f2795c220986b60ea0bea39c182cdbec213949693b6d6961aa"
+RPM_NAME = "libacl1-2.3.1-2.13.aarch64.rpm"
+RPM_HASH = "614c424af725514d32f6e2cc7c4f3721b10d535b8371224dfa93538c493e085f63d303da97899f0b0d2c262f7ff49bf9ddc715923f7f8972cd6c7ad5b8a40da1"
 
 RPROVIDES:${PN} += "libacl \
 libacl.so.1 \

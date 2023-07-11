@@ -2,10 +2,10 @@ SUMMARY = "Akonadi Agent base library"
 DESCRIPTION = "This package includes the agent library for Akonadi, the KDE PIM storage service."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libKPim5AkonadiAgentBase5-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "bb9c5dfdeb15a60c6b815959a4c97bcb94ef245ff444501d488b3125a47c2fdd05250ada003bbdceb5160c668dff6f262703263595479b32cfbc192535eb5879"
+RPM_NAME = "libKPim5AkonadiAgentBase5-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "498b36d2657b9a8347b47dc54ca7c07068c869e87e4f8f6768e41a4c59b689eb960885045d65f130c03a404b4fed85c7a84612664c526efe1159eb61edaa160f"
 
 RPROVIDES:${PN} += "libKPim5AkonadiAgentBase.so.5 \
 libKPim5AkonadiAgentBase5"

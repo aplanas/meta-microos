@@ -10,8 +10,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.1.2svn44131"
 
-RPM_NAME = "texlive-refenums-2023.201.1.1.2svn44131-53.1.noarch.rpm"
-RPM_HASH = "cef1773c0a30242a73d267fa9a75bb52e2f8bcf58a6d2eb4b882847b3caedd25e7305c93c000ece770245e30aca676a6203c15b2f1112c6d1c1f6a6feface7f8"
+RPM_NAME = "texlive-refenums-2023.201.1.1.2svn44131-53.2.noarch.rpm"
+RPM_HASH = "f238a17c108b32bda1fd29fb0aadacdbdd11761f4bee4cff1ae7a5581e8d7b37a7c96b7887ce39ead971427646ebe3e5529e03b74eda3c2ea244081fdd8cd8b9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-refenums.sty \

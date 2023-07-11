@@ -12,8 +12,8 @@ LICENSE = "MPL-2.0"
 
 PV = "4.4.2.P1"
 
-RPM_NAME = "dhcp-client-4.4.2.P1-14.3.aarch64.rpm"
-RPM_HASH = "55d06c362f2569f9fa6279c49bec55d63ce574ed7756e7cfa88c2a7905e1f70cc19fb00f2d3e3c21c9a64010ff894729cdb6902f5a6f588a8d62894494cef056"
+RPM_NAME = "dhcp-client-4.4.2.P1-14.4.aarch64.rpm"
+RPM_HASH = "c0a3ee721d78a8d97c7cde17f63785553da5e248e0d7963e1d8294d4c6987b6a5001a9eab56025603b6b943751a663fa8af6e98668a59838f509a6c8e6c149fd"
 
 RPROVIDES:${PN} += "config-dhcp-client \
 dhcp-client"

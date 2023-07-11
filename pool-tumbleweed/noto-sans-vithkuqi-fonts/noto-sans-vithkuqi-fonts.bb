@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-vithkuqi-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "2a4b27c8724e5efd0698e1f21b63828ab9993d820e93e81ccab51e6bf31ca8750d89f7bd73a75e1dcaf334c7c9c2e87f748954603fd4d408129bbfe9a9ec19f6"
+RPM_NAME = "noto-sans-vithkuqi-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "13711c536f3a1b8c7816ea2e3407209439f7d1b4dcd5fa724d3767c17efa58f274e8b6cc7306b7e935e7210e02feee0827cabfc4f176f62de40db3688acea68a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-vithkuqi \

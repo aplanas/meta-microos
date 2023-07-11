@@ -4,10 +4,11 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.3"
 
-RPM_NAME = "python311-cangjie-1.3-2.4.aarch64.rpm"
-RPM_HASH = "344b66ebbd896f5d8b10f1e708ab2e39ce15456219e05021b1399f05909a3b931b949d133192bcb02c2629111145491e6f51cfaae0557bdfb03771804ad5f91f"
+RPM_NAME = "python311-cangjie-1.3-2.6.aarch64.rpm"
+RPM_HASH = "45c64d830a54689131638ef59f07349c77476349fa34ee14944ea47e3e8722df86271b9508af014d6b57f5eb4fc476728192a6325e09118d2bc5193b2ee8bba7"
 
-RPROVIDES:${PN} += "python311-cangjie"
+RPROVIDES:${PN} += "python3-cangjie \
+python311-cangjie"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \

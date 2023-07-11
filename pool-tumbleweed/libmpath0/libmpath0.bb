@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-only & LGPL-2.0-or-later"
 
 PV = "0.9.5+68+suse.d1b6a1c"
 
-RPM_NAME = "libmpath0-0.9.5+68+suse.d1b6a1c-1.1.aarch64.rpm"
-RPM_HASH = "ed4e7094af8e797a18287382ee2410af1dc34f27e9dbcb764842b218b9fb451816a5759445432a9981fd0a3f3f225531da60c3bb8fbb2d672a8d2f4c74dd4202"
+RPM_NAME = "libmpath0-0.9.5+68+suse.d1b6a1c-1.2.aarch64.rpm"
+RPM_HASH = "29f1d0f4e4709107e145472d8470f4c6c91fd61457054cec65e06331bcc13ff6ce190d109b5e199ed03ffedae603e2b0db3f11e74662f8cc5151abc1e89be472"
 
 RPROVIDES:${PN} += "libcheckcciss-tur.so \
 libcheckdirectio.so \

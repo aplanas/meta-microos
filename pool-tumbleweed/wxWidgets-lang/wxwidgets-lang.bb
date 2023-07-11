@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.0.5.1"
 
-RPM_NAME = "wxWidgets-lang-3.0.5.1-4.1.noarch.rpm"
-RPM_HASH = "9696d68ea6556731a9bc1b3413416c2bd53b158c1e8d3b5672c043341290e87a8b2fb7693af125b31199f2ca25179b8fb093fc57c15270c837d8331c13b3cbc5"
+RPM_NAME = "wxWidgets-lang-3.0.5.1-4.2.noarch.rpm"
+RPM_HASH = "b001e041f3a0143c8f82d02f9cafd97d9990aa6b1da72d1277cc67e905766cf9ad818501564578da3683b5d560499c70e538f74ab9397b2ab1532e3e3a6bde67"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-wxWidgets-ca \

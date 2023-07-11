@@ -7,8 +7,8 @@ LICENSE = "TCL"
 
 PV = "1.3.9"
 
-RPM_NAME = "tcl-tktray-1.3.9-8.27.aarch64.rpm"
-RPM_HASH = "2ac423bda8a8857bb805a718ca97396d84b035706e605c0fb74420a658467c5aa3dda2423a208480956f784643a142cdbb0dd1caa7abb9e5e4954affe5a0c8f6"
+RPM_NAME = "tcl-tktray-1.3.9-8.28.aarch64.rpm"
+RPM_HASH = "4f02b1ceb7361e8fdd54312c4bcf0a117141e803c0056ceaa0bd328619aa1e13507f974fd73b7bd4b10f1e02530726fad3c7d71e0591fb9801937183b9525c3e"
 
 RPROVIDES:${PN} += "libtktray1.3.9.so \
 tcl-tktray"

@@ -10,8 +10,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.17029"
 
-RPM_NAME = "perl-Error-0.17029-1.13.noarch.rpm"
-RPM_HASH = "371437820837c384775eca219a5164ebdda6db3a32c944d8bb945103a751e1e52d9b218f0c1e18ee2645a83ee3bc5963e1ec16408b99989ad1db55b742fed791"
+RPM_NAME = "perl-Error-0.17029-1.14.noarch.rpm"
+RPM_HASH = "4100fd91139914a0732382ae9d28ccc7738e584aa23dbecd006f8f2b0e48db8a32fae17e50ac25cfec50b8086cbb6c1f67e60591dd48d772d12fb02cc43611fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Error \
@@ -19,6 +19,6 @@ perl-Error--Simple \
 perl-Error--WarnDie \
 perl-Error--subs"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

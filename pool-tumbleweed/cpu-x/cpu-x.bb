@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.5.3"
 
-RPM_NAME = "cpu-x-4.5.3-1.1.aarch64.rpm"
-RPM_HASH = "7049ec82a83bd7afc427061d1b86c3e2cb7a13ddddade8b96bae42ee80fd9edd4b4d66ec3226ba4f461107a109f966f7eb0c018e7e58a84359d9b88ef7335308"
+RPM_NAME = "cpu-x-4.5.3-1.2.aarch64.rpm"
+RPM_HASH = "448bf5f406327aaf3721bebcfba3c73d798c1a93088fcdbd26b3e3ed1f9183b611fee3594498c91eb731af9285a9ac8070955581fe7db7ae6deccc55198c06c4"
 
 RPROVIDES:${PN} += "bundled-bandwidth \
 bundled-dmidecode \

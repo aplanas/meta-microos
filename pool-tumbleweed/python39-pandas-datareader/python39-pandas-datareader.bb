@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.10.0"
 
-RPM_NAME = "python39-pandas-datareader-0.10.0-1.4.noarch.rpm"
-RPM_HASH = "a7e33f425e921f8d41d6139e0aafdc36e9e54ab8976dc10146215ec4bd6ebb33f377112c222493d1cf384a455f7b0b104f570e5f72f74d0dc59a409c6aa32572"
+RPM_NAME = "python39-pandas-datareader-0.10.0-1.6.noarch.rpm"
+RPM_HASH = "1b06cbdcafadb81e8aa4f7b9b324721c84b1202c3a7ac7ce836c0bfd9612e7151ef374aa8846fba8d38968956169f91ddc9988686502870a524ad7bda409ed2b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pandas-datareader \

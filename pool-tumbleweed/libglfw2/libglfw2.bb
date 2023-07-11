@@ -7,8 +7,8 @@ LICENSE = "Zlib"
 
 PV = "2.7.6"
 
-RPM_NAME = "libglfw2-2.7.6-1.27.aarch64.rpm"
-RPM_HASH = "957ce47c31acf94600af9289578010203f615b8b83cda16ed983f9f8cfd4af7d42e4d2cf505beaa5b00610148684303a48e1dab144d423804f6bb446aa56fb61"
+RPM_NAME = "libglfw2-2.7.6-1.28.aarch64.rpm"
+RPM_HASH = "063d5d3bfe579dbcc1186985747f361f5c1a4328fc1cd6b14be2f3c109813d5a270a031420c379cf784ba3db012569b757bd8820c16cda9fed6b2f5ae6b8fea2"
 
 RPROVIDES:${PN} += "libglfw.so.2 \
 libglfw2"

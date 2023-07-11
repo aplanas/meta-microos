@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.2.6"
 
-RPM_NAME = "libmanette-devel-0.2.6-2.10.aarch64.rpm"
-RPM_HASH = "6e6b9617fa034c0805dcc3ece93b23c41953ddcae8e7b90da20393de17df6dfde577e390c1e54916921b0eae82230ebbcb24f683f51eaf47b76030c8de68adab"
+RPM_NAME = "libmanette-devel-0.2.6-2.11.aarch64.rpm"
+RPM_HASH = "224e9c1da36f9e781861e2f5912beb239d3eefb50ab2e620c611b4215f5e22a73ffdbc58b8fbd6636973dfdf68f8e3297256cc4bb3cce0513b6c7519a3444518"
 
 RPROVIDES:${PN} += "libmanette-devel \
 pkgconfig-manette-0.2"

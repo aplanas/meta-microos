@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.5.0"
 
-RPM_NAME = "KEALib-devel-1.5.0-2.3.aarch64.rpm"
-RPM_HASH = "6c4291980594e8c187b2c8d8550dcf141326501cd964de30618fe09fb180a84a31b5d1173ff8cfd7acbd3d873fc294175ae02950dff04da1232aae24346f39bc"
+RPM_NAME = "KEALib-devel-1.5.0-2.4.aarch64.rpm"
+RPM_HASH = "c44f5e5eadf7a597ffb8a3102c70ecfc2692ff8efb05ae453393d50ed4f3fdcecd3beb79b47256894b76519c80c3f2ffa7780db3325da3a768b6de1a2722fcee"
 
 RPROVIDES:${PN} += "KEALib-devel \
 libkea-devel \

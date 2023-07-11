@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only & MIT"
 
 PV = "1.13.1"
 
-RPM_NAME = "tigervnc-1.13.1-3.1.aarch64.rpm"
-RPM_HASH = "9c78385fe45dd53ca694bf6c05da85a8373c6852da2fd6b0638644aa1ee586ec470ac3b6eaec1002d849dfcca14adc25c9177da3f240599612377b8578c52fea"
+RPM_NAME = "tigervnc-1.13.1-3.3.aarch64.rpm"
+RPM_HASH = "9228a9f173ab0578b73ef928d7ba99d27f6b5e0ad0c33b7c07a88f41314b8b3c5210bec2d589de050d2f35f2af32749cd6aaa6258955f2edf30bc4f1b265f152"
 
 RPROVIDES:${PN} += "tigervnc \
 tightvnc \

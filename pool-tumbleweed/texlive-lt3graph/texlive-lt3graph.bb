@@ -3,10 +3,10 @@ DESCRIPTION = "The package defines a 'graph' data structure, for use in \
 documents that are using the experimental LaTeX 3 syntax."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1.9svn45913"
+PV = "2023.208.0.0.1.9svn45913"
 
-RPM_NAME = "texlive-lt3graph-2023.201.0.0.1.9svn45913-52.1.noarch.rpm"
-RPM_HASH = "e7785340ac1bb04b813ac27430658535d43cb3a661a5796618b890924cbd8cfdbe6bfb6c41a6200f1c8be31ef669f55c84fdf8303618dfd249e77d63ed09045a"
+RPM_NAME = "texlive-lt3graph-2023.208.0.0.1.9svn45913-53.1.noarch.rpm"
+RPM_HASH = "d59d187195bbfc14a768265ad0bd5a3b555e99e409e63293051f52ef0bf365ae2996278f64e7a75aaea2a5e67db1b86bd4c1ff8765fb9a8a2f09ef2ade32da7d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lt3graph-dry.sty \

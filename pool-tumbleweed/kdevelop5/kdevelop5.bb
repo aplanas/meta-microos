@@ -7,10 +7,10 @@ KDevelop has parser backends for C, C++ and Javascript/QML, \
 with further external plugins supporting e.g. PHP or Python."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kdevelop5-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "da3b5be3db5d604546e6bfa5670f655b6c22e7be0898d5dea95a96475b1ebc5b0a672dda305b7c42dbb1bddc74a143550670f215212cfcb141939acba548f611"
+RPM_NAME = "kdevelop5-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "760d75fed75ea9275e607aab463c5a13ba41294ae97c1eb64383d32cd84a9f4e5e570afd9373b66e1e6eb4f42dd35c238c7e752562d9cb9ca7185cbd6773b458"
 
 RPROVIDES:${PN} += "cmake-KDevelop \
 kdevelop \

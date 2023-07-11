@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause & LGPL-2.1-or-later"
 
 PV = "0.1.13"
 
-RPM_NAME = "libusb-0_1-4-0.1.13-38.1.aarch64.rpm"
-RPM_HASH = "a8e448fc8aec269f3bee8cee013f9ef2efdae36fb8eb1892dc37f4afcf33da65e2051a15a7adeaaab0ab5d448f095f282ea8b0af8575ceac766d897bada1eb5a"
+RPM_NAME = "libusb-0_1-4-0.1.13-38.2.aarch64.rpm"
+RPM_HASH = "39f5bc14df68c1731ff88d74d946137d37784b6acb34e70d0c12fb444862fccae0667e7dc35cb249e43310fead947d8263d48673d6c043d70e723f3d308d9e86"
 
 RPROVIDES:${PN} += "libusb \
 libusb-0-1-4 \

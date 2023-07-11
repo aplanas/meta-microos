@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1"
 
 PV = "0.4.1"
 
-RPM_NAME = "soapysdr0.8-module-bladerf-0.4.1-2.8.aarch64.rpm"
-RPM_HASH = "6b7de8404782c2385ad4f6a3ae1c746d187c7adb7be8a4195131181f6c2f3a7e0366d2a4352f131e09bdba71d1acfca3c5b0f5c440a084b68809f9a8c38d2d8d"
+RPM_NAME = "soapysdr0.8-module-bladerf-0.4.1-2.9.aarch64.rpm"
+RPM_HASH = "0150d8968cc5e298858c65640e21a05865e513e2114c60ec222e9fa15cdffe0e71f9c80a59a29333032893c2caaad140ca064f05c2b8be047169a859150d4c8a"
 
 RPROVIDES:${PN} += "libbladeRFSupport.so \
 soapysdr0.8-module-bladerf"

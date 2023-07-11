@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt6Core6-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "0ebc983840d79f3472cf6f2183e43bfb4502e02dc911c3e39431af00df95d7dbbf91039f2bdb1a3beb1fb73b5f1fa9967a2049c19ba75fcd17403622f57a67d4"
+RPM_NAME = "libQt6Core6-6.5.1-3.1.aarch64.rpm"
+RPM_HASH = "04ce634b6e9fb9b49aae5b9f078fccdc08134033cee1d3634ece006841b4e0336fdfd4f3cd70567c747057d15677052380b4da93de2090308b2bb03eb8751b24"
 
 RPROVIDES:${PN} += "libQt6Core.so.6 \
 libQt6Core6"

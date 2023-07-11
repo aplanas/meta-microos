@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.5"
 
-RPM_NAME = "ogmtools-1.5-168.7.aarch64.rpm"
-RPM_HASH = "967d3343bb93ce6e1a04a7f3e7cc91ae91f4b0691558e27caf0fa3729bccf96b27db27092db08c5819a3df5de006e65fbaab8cf14d68652f477a1eb7baac57ee"
+RPM_NAME = "ogmtools-1.5-168.8.aarch64.rpm"
+RPM_HASH = "11894c49d9a1dec6f70f39b98ba9283e70cf048f5b0cda7b88e2995f402c70afc209288788a4b9aa2a1f5c1810e67fe4d00afa9f417744da760b566ea4eaa902"
 
 RPROVIDES:${PN} += "ogmtools"
 

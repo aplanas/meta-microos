@@ -9,8 +9,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.14.1"
 
-RPM_NAME = "python39-unicodecsv-0.14.1-2.19.noarch.rpm"
-RPM_HASH = "cc8796c084728fd94180d3b6d104aef6e018215c20d8e95d0b106b331f81c6690dbaa86a9f70d825b8570e5c79ef407b612531888b34fe84432f9629cee530f6"
+RPM_NAME = "python39-unicodecsv-0.14.1-2.21.noarch.rpm"
+RPM_HASH = "cdce63d730ff7234143254dd7b468a0df59ee2195ad02c0fdeff5437deed724eec44bc441c6b8d7c8323eb6813e6cafda5fb70e57b613c43fae911fe5446f0fc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-unicodecsv \

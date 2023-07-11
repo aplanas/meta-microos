@@ -2,10 +2,10 @@ SUMMARY = "OSM indoor map QML component"
 DESCRIPTION = "QML components for KDE Itinerary."
 LICENSE = "LGPL-2.0-or-later & CC0-1.0"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kosmindoormap-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "72159adc6857d5d8db08ea5c3b004530d01ab0248618d36cc6eb06f243144d796065bc60903ca7b6554a105602d170007baaa1bbdaf8883d14f4ec74d1347d35"
+RPM_NAME = "kosmindoormap-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "8dbe893ff2fa39dff91ff38e2d6ac7162446a16c9887eb5f9ed646dde783e99ff3ca76c2bf0293b01746665548e35ae280314d81e8f6d4af724834627373ea1b"
 
 RPROVIDES:${PN} += "kosmindoormap \
 libkosmindoormap-kpublictransport-integration-plugin.so \

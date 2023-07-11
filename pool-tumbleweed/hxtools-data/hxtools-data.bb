@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & WTFPL"
 
 PV = "20230411"
 
-RPM_NAME = "hxtools-data-20230411-1.1.noarch.rpm"
-RPM_HASH = "73564400edd3fac4f233976398a2c0c07eaee9d0cdd1e0e1cae1dcc008d01e19a739205ab3ceedba72fe8cbfc847f010969d37d506a079088e8a3a03560e0894"
+RPM_NAME = "hxtools-data-20230411-1.2.noarch.rpm"
+RPM_HASH = "0180d5cff88f9157b0b1ee3e662223e0474c9f556125a3228c2c51bef24ea391f1146ea6175714fcac7f1d638d4ca77df4d5490b3fa1d923769afe1cb0996639"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-hxtools-data \

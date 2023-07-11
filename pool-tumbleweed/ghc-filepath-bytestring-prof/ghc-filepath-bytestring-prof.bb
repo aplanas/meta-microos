@@ -2,13 +2,13 @@ SUMMARY = "Haskell filepath-bytestring profiling library"
 DESCRIPTION = "This package provides the Haskell filepath-bytestring profiling library."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.4.2.1.12"
+PV = "1.4.2.1.13"
 
-RPM_NAME = "ghc-filepath-bytestring-prof-1.4.2.1.12-1.3.aarch64.rpm"
-RPM_HASH = "44092862b8c1965d7189c336ea123f89c6a650dd2174e54ed22eebce769604befc7a371e56b4a519e4fb53f32248bad1e9726f73c1671b51b157273f66f4c849"
+RPM_NAME = "ghc-filepath-bytestring-prof-1.4.2.1.13-1.3.aarch64.rpm"
+RPM_HASH = "05b154abe094bfbfd0aced5d60ccef1c33e02be7a860c9f9eb5b130c3721e98a4def54217526f2ab992aeeaf39139ad47a687ff9fdc954119c562923bca42361"
 
 RPROVIDES:${PN} += "ghc-filepath-bytestring-prof \
-ghc-prof-filepath-bytestring-1.4.2.1.12-j7n9rVANDcF3su3QaU7xU"
+ghc-prof-filepath-bytestring-1.4.2.1.13-1FmfoCrfLITG59KaBERpzO"
 
 RDEPENDS:${PN} += "ghc-filepath-bytestring-devel \
 ghc-prof-base-4.17.1.0 \

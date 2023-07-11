@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "19"
 
-RPM_NAME = "clevis-19-2.1.aarch64.rpm"
-RPM_HASH = "d5cedbb02366b8a94caf2f59a4a8e119759b195ac8e9dd82bdcb7c605f2f0f88dfbdcdccafe856c27b6857646c783266492d2e920a85237cdcaa4220c3d4bb27"
+RPM_NAME = "clevis-19-2.2.aarch64.rpm"
+RPM_HASH = "be6213924fd695202142dea4ae84cdf7e3b8ccf3107da7031fa8ea5640cb9cb218d873e09219f6eaa4d335ba0ad15c7a5d960dcd8e40381498c9d1e5895451dd"
 
 RPROVIDES:${PN} += "clevis"
 

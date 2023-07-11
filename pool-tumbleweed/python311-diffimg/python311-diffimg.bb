@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.3.0"
 
-RPM_NAME = "python311-diffimg-0.3.0-1.8.noarch.rpm"
-RPM_HASH = "d2ffe3844b23c312bf6256b223a32623b62ada586c6732f50e3301a04b8256fd4e46e7f1ba50015ab0c16a38e29def04610cd0d14587106e2227ff9d5787c50b"
+RPM_NAME = "python311-diffimg-0.3.0-1.9.noarch.rpm"
+RPM_HASH = "209d8646f07b8520553af2aa9e1359ec7aabd099bd171e2669bfb79aa085b9372be707a6d5f5954c1aa243b4db358d61e55b5c279a860879acda0f1d741c1b58"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-diffimg \
+RPROVIDES:${PN} += "python3-diffimg \
+python3.11dist-diffimg \
 python311-diffimg \
 python3dist-diffimg"
 

@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.1svn27671"
 
-RPM_NAME = "texlive-hacm-fonts-2023.201.0.0.1svn27671-53.1.noarch.rpm"
-RPM_HASH = "31bb18d0229f8c73085dc8ea8767b48f924be30ecfd432b5554ee362ced4c196e5cce3fbb087d3f7849ba5b35e72de582e21d318acd288c011163caf970d3d9f"
+RPM_NAME = "texlive-hacm-fonts-2023.201.0.0.1svn27671-53.2.noarch.rpm"
+RPM_HASH = "89b68a9d4de39fb1fed7be7e367db21c9420dbcc76dc5dd732fadffcbd1e1775654362638526b1f449a6f3d29701f984667d9e6225a25daea01761ee59a7d55c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

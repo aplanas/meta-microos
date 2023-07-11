@@ -3,12 +3,13 @@ DESCRIPTION = "Atuin replaces your existing shell history with a SQLite database
 Additionally, it provides optional and fully encrypted synchronisation of your history between machines, via an Atuin server."
 LICENSE = "MIT"
 
-PV = "14.0.1"
+PV = "15.0.0"
 
-RPM_NAME = "atuin-14.0.1-1.1.aarch64.rpm"
-RPM_HASH = "9d5c4bd37baa6562f96521ebfe17207b96d2c39db4bdf5af4f3c7fcc13ed62e76595ac7fd967db01eebef3ca965d84fc787cb40159502e0d24a6e291e43d98c9"
+RPM_NAME = "atuin-15.0.0-1.1.aarch64.rpm"
+RPM_HASH = "f6d5ec55023533c199a3df06adb3cbbd19d43e815c1edadef9a8fa404b4a326cc244a73337231b0c226b93d7a76ef2ff1f2c9d6d15e1871c2370e588327cdac9"
 
 RPROVIDES:${PN} += "atuin \
+bundled-rust-crate-aead \
 bundled-rust-crate-ahash \
 bundled-rust-crate-aho-corasick \
 bundled-rust-crate-anstream \
@@ -16,6 +17,7 @@ bundled-rust-crate-anstyle \
 bundled-rust-crate-anstyle-parse \
 bundled-rust-crate-anstyle-query \
 bundled-rust-crate-anyhow \
+bundled-rust-crate-argon2 \
 bundled-rust-crate-async-trait \
 bundled-rust-crate-atoi \
 bundled-rust-crate-atty \
@@ -27,8 +29,10 @@ bundled-rust-crate-autocfg \
 bundled-rust-crate-axum \
 bundled-rust-crate-axum-core \
 bundled-rust-crate-base64 \
+bundled-rust-crate-base64ct \
 bundled-rust-crate-beef \
 bundled-rust-crate-bitflags \
+bundled-rust-crate-blake2 \
 bundled-rust-crate-block-buffer \
 bundled-rust-crate-byteorder \
 bundled-rust-crate-bytes \
@@ -37,6 +41,7 @@ bundled-rust-crate-cc \
 bundled-rust-crate-cfg-if \
 bundled-rust-crate-chrono \
 bundled-rust-crate-chronoutil \
+bundled-rust-crate-cipher \
 bundled-rust-crate-clap \
 bundled-rust-crate-clap-builder \
 bundled-rust-crate-clap-complete \
@@ -101,6 +106,7 @@ bundled-rust-crate-idna \
 bundled-rust-crate-indenter \
 bundled-rust-crate-indexmap \
 bundled-rust-crate-indicatif \
+bundled-rust-crate-inout \
 bundled-rust-crate-instant \
 bundled-rust-crate-interim \
 bundled-rust-crate-io-lifetimes \
@@ -137,11 +143,13 @@ bundled-rust-crate-num-rational \
 bundled-rust-crate-num-traits \
 bundled-rust-crate-number-prefix \
 bundled-rust-crate-once-cell \
+bundled-rust-crate-opaque-debug \
 bundled-rust-crate-openssl-probe \
 bundled-rust-crate-overload \
 bundled-rust-crate-parking-lot \
 bundled-rust-crate-parking-lot-core \
 bundled-rust-crate-parse-duration \
+bundled-rust-crate-password-hash \
 bundled-rust-crate-paste \
 bundled-rust-crate-pathdiff \
 bundled-rust-crate-pbkdf2 \
@@ -151,6 +159,7 @@ bundled-rust-crate-pin-project-internal \
 bundled-rust-crate-pin-project-lite \
 bundled-rust-crate-pin-utils \
 bundled-rust-crate-pkg-config \
+bundled-rust-crate-poly1305 \
 bundled-rust-crate-portable-atomic \
 bundled-rust-crate-ppv-lite86 \
 bundled-rust-crate-proc-macro2 \
@@ -173,8 +182,10 @@ bundled-rust-crate-rustix \
 bundled-rust-crate-rustls \
 bundled-rust-crate-rustls-native-certs \
 bundled-rust-crate-rustls-pemfile \
+bundled-rust-crate-rustls-webpki \
 bundled-rust-crate-rustversion \
 bundled-rust-crate-ryu \
+bundled-rust-crate-salsa20 \
 bundled-rust-crate-same-file \
 bundled-rust-crate-scopeguard \
 bundled-rust-crate-sct \
@@ -239,6 +250,7 @@ bundled-rust-crate-unicode-ident \
 bundled-rust-crate-unicode-normalization \
 bundled-rust-crate-unicode-segmentation \
 bundled-rust-crate-unicode-width \
+bundled-rust-crate-universal-hash \
 bundled-rust-crate-untrusted \
 bundled-rust-crate-url \
 bundled-rust-crate-urlencoding \
@@ -251,6 +263,7 @@ bundled-rust-crate-want \
 bundled-rust-crate-webpki \
 bundled-rust-crate-webpki-roots \
 bundled-rust-crate-whoami \
+bundled-rust-crate-xsalsa20poly1305 \
 bundled-rust-crate-zeroize \
 bundled-rust-crate-zeroize-derive"
 

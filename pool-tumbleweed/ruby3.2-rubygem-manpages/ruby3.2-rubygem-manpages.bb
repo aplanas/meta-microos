@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.6.1"
 
-RPM_NAME = "ruby3.2-rubygem-manpages-0.6.1-1.16.aarch64.rpm"
-RPM_HASH = "291d0ff572dcc1971ca40b4ab039734229e8b2b12122a7ed0b87c828a8a35c3cb6dc109b830851a2689ce528be0ddd3a25927421fcae3589236c9b3a784b6542"
+RPM_NAME = "ruby3.2-rubygem-manpages-0.6.1-1.17.aarch64.rpm"
+RPM_HASH = "c5a3d74afca67164639c2ebcc2176cc4c2a080c6de8b3410919293c39ee71d42f85a26d36b514946d31e65a9e405b09f24ba14248ebc411391991c62bf346ddf"
 
 RPROVIDES:${PN} += "ruby3.2-rubygem-manpages \
 rubygem-manpages \

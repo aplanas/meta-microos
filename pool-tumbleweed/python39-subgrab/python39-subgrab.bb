@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.0.4"
 
-RPM_NAME = "python39-subgrab-1.0.4-1.17.noarch.rpm"
-RPM_HASH = "cd45d5b14e5efb3b29d445296823d8a849f328b833af9ed40f805306e282c2988682297083acaad2425cd5a804afbe2ea135dfad8f28f4bf15b5cf6d85fbca49"
+RPM_NAME = "python39-subgrab-1.0.4-1.19.noarch.rpm"
+RPM_HASH = "2f8a0248567dcc3c784e46b122892f2afdfe0087cc870905d4cedb35452086cd5005cd6d8a77cb5db0580c9d2f3cb699954ea5f6a0f42be843820be69b601650"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-subgrab \

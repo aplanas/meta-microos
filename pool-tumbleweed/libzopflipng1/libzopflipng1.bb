@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.3"
 
-RPM_NAME = "libzopflipng1-1.0.3-2.1.aarch64.rpm"
-RPM_HASH = "ef1b97fb00c9a0e4d95f16f726b69479e27b511ea1c1324c7507995e9a31481eb6b0e06a19cfddba5dc5124deabccd00a9268a61f82e135921bb94ed1e8a1ead"
+RPM_NAME = "libzopflipng1-1.0.3-2.2.aarch64.rpm"
+RPM_HASH = "f93856fe7e92b570b332eadcc9c2d09ca400997bbf93875976f29e4942bb853cbe2dc5c8cc54f6b2567af8a2a170c8f190229fc27bd6690f2c53f79ad5557bcf"
 
 RPROVIDES:${PN} += "libzopflipng.so.1 \
 libzopflipng1"

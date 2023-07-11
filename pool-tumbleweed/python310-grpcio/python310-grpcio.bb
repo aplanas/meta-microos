@@ -4,13 +4,12 @@ and server applications to communicate, and enables the building of \
 connected systems."
 LICENSE = "Apache-2.0"
 
-PV = "1.54.0"
+PV = "1.56.0"
 
-RPM_NAME = "python310-grpcio-1.54.0-1.1.aarch64.rpm"
-RPM_HASH = "3e27b872f1cf11edc81efd9d89bee7ce739f4882ca09a71b415e98f82908fd53bee3796e321ade32e08da2b1c474708b1dc081f22822db3224268c360b37cdc4"
+RPM_NAME = "python310-grpcio-1.56.0-2.1.aarch64.rpm"
+RPM_HASH = "e149248948dfa032e3d158b024a89916f0bb342e66beb7ef66f5f17eacde6c06c0ad575a8c3f44fbbd9a80982b985504794aea42c038e0d4a0c18f65565f3edd"
 
-RPROVIDES:${PN} += "python3-grpcio \
-python3.10dist-grpcio \
+RPROVIDES:${PN} += "python3.10dist-grpcio \
 python310-grpcio \
 python3dist-grpcio"
 
@@ -24,7 +23,6 @@ libre2.so.10 \
 libssl.so.3 \
 libstdc++.so.6 \
 libz.so.1 \
-python-abi \
-python310-six"
+python-abi"
 
 inherit rpm

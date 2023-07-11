@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "3.48.0"
 
-RPM_NAME = "libgoa-backend-1_0-1-3.48.0-1.1.aarch64.rpm"
-RPM_HASH = "b130e25968c5eadfe109ac04b5b082548ed91266a402265e4d9d98afb981b9827cebe1653dc55319913fc58b503021e72e87e4511c0af4251226fecbd5c2a5f4"
+RPM_NAME = "libgoa-backend-1_0-1-3.48.0-1.2.aarch64.rpm"
+RPM_HASH = "67d2184018c725181addfb2b3cedf6d384aa397821b5f647e1311f68d45e6f3377f986515ec815f62b18d6c5559bf3609d3d5ec150f7b7d8edd701cf47f278db"
 
 RPROVIDES:${PN} += "libgoa-backend-1-0-1 \
 libgoa-backend-1.0.so.1"

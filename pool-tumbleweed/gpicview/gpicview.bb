@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.2.5"
 
-RPM_NAME = "gpicview-0.2.5-2.16.aarch64.rpm"
-RPM_HASH = "7688ba2e9755190ff8a8244847ac03160bc8c14c441aedb9746974bcd0d92353caa0a0bede69fb9068ed4535c814833951667538675b59b27cad732dafdbe703"
+RPM_NAME = "gpicview-0.2.5-2.17.aarch64.rpm"
+RPM_HASH = "1137790fc92fad3b2cbf4f4a4d5a6192daed8135da3d40dd88ef533f44df473a95afc1861d1079f7dc2c91a50e98800485d7a5008dee29dd043b3daa9b5e90c8"
 
 RPROVIDES:${PN} += "gpicview"
 

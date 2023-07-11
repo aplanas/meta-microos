@@ -2,10 +2,10 @@ SUMMARY = "Busybox applets replacing kmod"
 DESCRIPTION = "This package contains the symlinks to replace kmod with busybox."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.36.0"
+PV = "1.36.1"
 
-RPM_NAME = "busybox-kmod-1.36.0-26.3.noarch.rpm"
-RPM_HASH = "3fc30b24ec710c34fc27d6fd73eb8eafffb538155de25ff6f1d6cf71722bcb52b2b521a7b410eedafcb3b82aeac52cc71e4d3400d0d46247a039be92524d6f1b"
+RPM_NAME = "busybox-kmod-1.36.1-27.1.noarch.rpm"
+RPM_HASH = "d949341d7bff8cdeec357233da4616f1e70e501c9d7c5c793f2e89cbb5aba3ee847ea412dd7c2e290a6554f9270c8a478d174286beb07aeeb76b4e3ee9ce8c5e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "/sbin/modprobe \

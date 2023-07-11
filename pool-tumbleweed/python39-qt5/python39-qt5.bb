@@ -4,8 +4,8 @@ LICENSE = "SUSE-GPL-2.0-with-FLOSS-exception | GPL-3.0-only | NonFree"
 
 PV = "5.15.9"
 
-RPM_NAME = "python39-qt5-5.15.9-1.6.aarch64.rpm"
-RPM_HASH = "fe24c5d65513539297ab78433ac66b12af22685fc76db24df1637486360abe58afd32690f47a2aa456635f0a82ac349dd3451aea05a7c20a73124abf8b906391"
+RPM_NAME = "python39-qt5-5.15.9-3.1.aarch64.rpm"
+RPM_HASH = "f7d888798ea78e170337143329444269d257f0145486fcf77c379979660f9248791efec5b2392f504fcb42f85f6d96ded982eb9b89e0c45e69e4028837fe23a1"
 
 RPROVIDES:${PN} += "libpy3.9qt5qmlplugin.so \
 python3.9dist-pyqt5 \

@@ -7,8 +7,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.8"
 
-RPM_NAME = "libpocketsphinx1-0.8-5.15.aarch64.rpm"
-RPM_HASH = "2efe5af7e024cc44f36863bead4559115eccd5e568699befc591f78593591cc091ad1d6145dee9f547832b318551044c811ea208a713a339ffb1a3faa696fc53"
+RPM_NAME = "libpocketsphinx1-0.8-5.16.aarch64.rpm"
+RPM_HASH = "16b848cc118293aeee01b3f574a94f68e32f13a539780e756894d24c28255ea8636d830eae51d9ca07a48fcf5e08f4b16b9670689bc23a6fcd21e2846ed4d7d6"
 
 RPROVIDES:${PN} += "libpocketsphinx.so.1 \
 libpocketsphinx1"

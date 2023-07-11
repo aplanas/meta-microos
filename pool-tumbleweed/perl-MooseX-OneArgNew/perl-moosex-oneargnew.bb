@@ -24,14 +24,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.007"
 
-RPM_NAME = "perl-MooseX-OneArgNew-0.007-1.2.noarch.rpm"
-RPM_HASH = "07233eb4e6507f7a27041ed0209892ee9a0995c6c520b0859b73c40dd9e026035646d1872a99e38df636ea88b336aab245c575ba7bb4a48aebd227521cf4fb9d"
+RPM_NAME = "perl-MooseX-OneArgNew-0.007-1.3.noarch.rpm"
+RPM_HASH = "6a9e4902e91f521197061919109eaa4b9a3a17b30f68d065eb8666c61efff5cd1874c04ad6b92460ecf10b2fd9064a486de66b0a3d74be6dcacfca4260b8a9a5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooseX--OneArgNew \
 perl-MooseX-OneArgNew"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Moose--Util--TypeConstraints \
 perl-MooseX--Role--Parameterized \
 perl-namespace--autoclean"

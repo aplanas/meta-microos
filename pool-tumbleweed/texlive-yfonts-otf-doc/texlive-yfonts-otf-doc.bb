@@ -4,8 +4,8 @@ LICENSE = "OFL-1.1"
 
 PV = "2023.201.0.0.43svn65030"
 
-RPM_NAME = "texlive-yfonts-otf-doc-2023.201.0.0.43svn65030-52.1.noarch.rpm"
-RPM_HASH = "46742a07baefb27967a31226d3be2d7c8e6ec59cb7d6a563a8d3cba81415bb6865cf1d6af85c024074ca98a1e3632788d2d51e64b5803520b0cafecb9c72e114"
+RPM_NAME = "texlive-yfonts-otf-doc-2023.201.0.0.43svn65030-52.2.noarch.rpm"
+RPM_HASH = "670dcb7647ca5225168d14fa1a1c33590e4d25c1dd3143ec1556b2389c7d12e1264b162d3f281bffc9cc58378fa6ead392eec6977496218d62c28c6869522efb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-yfonts-otf-doc"

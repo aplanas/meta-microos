@@ -10,11 +10,12 @@ LICENSE = "BSD-4-Clause & ZPL-2.1 & MIT"
 
 PV = "1.7.0"
 
-RPM_NAME = "python311-colander-1.7.0-5.12.noarch.rpm"
-RPM_HASH = "d449da1868e0a1e73dfb188ff74d03de805fc78109ffd95879c26744f8b09f47b936cd9502cf4f530dc42100a3eda053d0cfdba5a65f4dd5fa379a818ebaa36c"
+RPM_NAME = "python311-colander-1.7.0-5.14.noarch.rpm"
+RPM_HASH = "ab6caba0b3e3b81bd884a96e788d8815f4391824ff98fc7e7c896dbcb1524df79a77534342f9fbcb55568be1612cbcc4455da0b2130e2303b28e8242c5ca54d0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-colander \
+RPROVIDES:${PN} += "python3-colander \
+python3.11dist-colander \
 python311-colander \
 python3dist-colander"
 

@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.40.0"
 
-RPM_NAME = "gsettings-backend-dconf-0.40.0-3.3.aarch64.rpm"
-RPM_HASH = "dd6b650f738b5b35b6a90806ede1e315684dada62b126b58d4b4b47cb5a84548ad2f2d23a34c7e4eeb3b0b2c5cc318251c502536583e7c5450ee051ace06218d"
+RPM_NAME = "gsettings-backend-dconf-0.40.0-3.4.aarch64.rpm"
+RPM_HASH = "62dc2d405cf8445676ac6b34e1869e0acb65defbfe02cf0c198f8703bcaf48d7f35263329bac09535142810aeb9702bb7487b69e3f7e039a8cabf2520185e744"
 
 RPROVIDES:${PN} += "gsettings-backend-dconf \
 libdconfsettings.so"

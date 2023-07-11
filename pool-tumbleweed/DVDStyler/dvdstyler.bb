@@ -31,8 +31,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.2.1"
 
-RPM_NAME = "DVDStyler-3.2.1-2.5.aarch64.rpm"
-RPM_HASH = "a73008c610520015df31d82979720c1e06b962dc3fe741961cc9c51a05b420d29735797b59bd07381cb2a995a3c48a0f50978702d88658a7aa65659cf90219a5"
+RPM_NAME = "DVDStyler-3.2.1-2.6.aarch64.rpm"
+RPM_HASH = "fd91101178122f8d3ec09903a6382fcf4f2b20919f6817cb68aea34122cdd487434c3f02cb497f4887a16996ebc96030072a3c29ab849c68e683442d743492d3"
 
 RPROVIDES:${PN} += "DVDStyler"
 
@@ -40,16 +40,16 @@ RDEPENDS:${PN} += "dvd+rw-tools \
 dvdauthor \
 dvdisaster \
 ld-linux-aarch64.so.1 \
-libavcodec.so.59 \
-libavformat.so.59 \
-libavutil.so.57 \
+libavcodec.so.60 \
+libavformat.so.60 \
+libavutil.so.58 \
 libc.so.6 \
 libdbus-1.so.3 \
 libfontconfig.so.1 \
 libgcc-s.so.1 \
 libm.so.6 \
 libstdc++.so.6 \
-libswscale.so.6 \
+libswscale.so.7 \
 libudev.so.1 \
 libwx-baseu-suse.so.9.0.0 \
 libwx-gtk3u-core-suse.so.9.0.0 \

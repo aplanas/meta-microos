@@ -8,11 +8,12 @@ LICENSE = "MIT"
 
 PV = "0.1.2"
 
-RPM_NAME = "python311-petact-0.1.2-3.13.noarch.rpm"
-RPM_HASH = "ba0518fbb8bcf49c75a177d57ff591a849f25af04f604eb2bb62194c9d533b96287289325f74b646ea5f80c6874d208eee018acb13e12faa924eebb438a80bdf"
+RPM_NAME = "python311-petact-0.1.2-3.14.noarch.rpm"
+RPM_HASH = "15c21585ac97215269e851c85442a675f775c13d8ea9a87f61d40a54c270e84376eaaf2010eb197893371543fd8b696bfb72b39586de904b5f6823eb6be180bb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-petact \
+RPROVIDES:${PN} += "python3-petact \
+python3.11dist-petact \
 python311-petact \
 python3dist-petact"
 

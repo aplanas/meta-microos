@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.10.0"
 
-RPM_NAME = "freerdp-devel-2.10.0-3.1.aarch64.rpm"
-RPM_HASH = "7b556463413a763b49051989f2a65e0b8698e6e08c4b60e33b296ffdced5c4ca21e281d2079d54b2ec4e364fd602430d15c4c1d9828a5e4fc6c62bff26d7f468"
+RPM_NAME = "freerdp-devel-2.10.0-3.2.aarch64.rpm"
+RPM_HASH = "918af6427fc0355ba68b57319dd2edce0619b6da6eca05089471673e6a66256fc2a95a68dae27bbf345b6f52233d7c334c5c09d4e3d0fcf4f9b02a37543a377b"
 
 RPROVIDES:${PN} += "cmake-FreeRDP \
 cmake-FreeRDP-Client \

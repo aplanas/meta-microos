@@ -2,10 +2,10 @@ SUMMARY = "The main library for AppStream"
 DESCRIPTION = "The main library for AppStream."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "0.16.1"
+PV = "0.16.2"
 
-RPM_NAME = "libappstream4-0.16.1-3.1.aarch64.rpm"
-RPM_HASH = "00dc907215e930bf2b8c8b2d38896311661c82bd48f3dceeae76933c5ebfba1d304d2763fbd9340bfd3746de4ebff94123033aacde024b3e69a900d302f0f51d"
+RPM_NAME = "libappstream4-0.16.2-1.1.aarch64.rpm"
+RPM_HASH = "2ee14bde02d6a0f224508e8054a2286f6851ad8a96aded443bd83acbbe67c976bd8a174aa16f1845fae57561f1260b109b55f291f747bfdb88f9b47a52543440"
 
 RPROVIDES:${PN} += "libappstream.so.4 \
 libappstream4"

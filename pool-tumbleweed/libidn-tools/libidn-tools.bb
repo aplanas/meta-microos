@@ -14,8 +14,8 @@ LICENSE = "(GPL-2.0-or-later | LGPL-3.0-or-later) & GPL-3.0-or-later"
 
 PV = "1.41"
 
-RPM_NAME = "libidn-tools-1.41-1.2.aarch64.rpm"
-RPM_HASH = "ac3ddd79d3f3bde00b314fe81d475010f2597e2988517f59110221e8abcf059cce804d95c699691f5aab29a617aff49faed8bf5f351fc1b8315d41a019da6ac8"
+RPM_NAME = "libidn-tools-1.41-1.3.aarch64.rpm"
+RPM_HASH = "1ff9c0d520c6fce7748737d6ab98e0ca06e3c7df529ecdc0bbb633a285d7b670ac12d21db5196a42db083d939c9bbd5a35edf30d1af9bc046c15fa311cb4f38e"
 
 RPROVIDES:${PN} += "libidn-tools"
 

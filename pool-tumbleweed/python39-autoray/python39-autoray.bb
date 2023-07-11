@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.6.3"
 
-RPM_NAME = "python39-autoray-0.6.3-1.1.noarch.rpm"
-RPM_HASH = "19e26eca9aa759e6a403072cf8549b906893566854abc633d0069df021b156ff12f9e78beb83c6247868be0652957bef3446d849aadee3c71b772fa8772b18ed"
+RPM_NAME = "python39-autoray-0.6.3-1.3.noarch.rpm"
+RPM_HASH = "09cb3f9df33d3718b1e9bd2a5b110869ed277054f2d91bb1f601bf374bd1fdbb8621ee17156cbe043eaebee814bdb8f716fded8b402453bebbf8c7cf1f33d8d8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-autoray \

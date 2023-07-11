@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later & MIT"
 
 PV = "5.6.4"
 
-RPM_NAME = "deepin-file-manager-polkit-5.6.4-3.7.noarch.rpm"
-RPM_HASH = "1a83e72637b303359511929e3680536e8e53ccd7ea7b252a3a623d4596efcb2b307ff4df4550e6dfe9c0ed782fcd7a2d60c217957d910554fa11a9fdefc5d791"
+RPM_NAME = "deepin-file-manager-polkit-5.6.4-3.9.noarch.rpm"
+RPM_HASH = "f835515e435678978fe68a93fc847a9f981c53c7d511034386c7499dcabebef47fd697bfda2393696541929b99fc5ca92211675212dea6130d21fe2796e464f5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-file-manager-polkit"

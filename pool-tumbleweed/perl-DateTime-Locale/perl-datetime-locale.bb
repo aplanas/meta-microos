@@ -9,8 +9,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.390000"
 
-RPM_NAME = "perl-DateTime-Locale-1.390000-1.1.noarch.rpm"
-RPM_HASH = "d67b072f740fe2774e92e9708c1e6b4a6b255d986d785b00b15906277ad250939c4b0807e4998e61fd668bd21ddc4dca3be6a8e7f819662a323dc2188e653290"
+RPM_NAME = "perl-DateTime-Locale-1.390000-1.2.noarch.rpm"
+RPM_HASH = "9de5d6262de0b76cb200786d8136502c4271f10a8dd3afb790705ddc75b6d0ba22ca8fb08e1ca8414365f27e916b58ca063658900458cccf6644f13703def469"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DateTime--Locale \
@@ -21,7 +21,7 @@ perl-DateTime--Locale--FromData \
 perl-DateTime--Locale--Util \
 perl-DateTime-Locale"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Dist--CheckConflicts \
 perl-File--ShareDir \
 perl-List--Util \

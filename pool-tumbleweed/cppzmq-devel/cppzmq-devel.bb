@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "4.8.1"
 
-RPM_NAME = "cppzmq-devel-4.8.1-1.5.aarch64.rpm"
-RPM_HASH = "ae38cde23710c3357504341e2e25bd14ffb07f94d6ff0d4a15a15138de10d3be81fa211c2707e61c43285089d8e192dbedde35e81bb422ef2dd2b875cfbdd868"
+RPM_NAME = "cppzmq-devel-4.8.1-1.6.aarch64.rpm"
+RPM_HASH = "5f72b3f7829775181e9942536a1157ca341372e3a3decd838a55b6392f4562d8e926668208aa0801115f93f283f08b40f917d51119a02b9bbe92dd36698553d9"
 
 RPROVIDES:${PN} += "cmake-cppzmq \
 cppzmq-devel"

@@ -4,17 +4,15 @@ DESCRIPTION = "A commercial quality OCR engine originally developed at HP betwee
 open-sourced by HP and UNLV in 2005. From 2007 it is developed by Google."
 LICENSE = "Apache-2.0 & GPL-2.0-or-later"
 
-PV = "5.3.0"
+PV = "5.3.1"
 
-RPM_NAME = "tesseract-ocr-5.3.0-3.4.aarch64.rpm"
-RPM_HASH = "2d49e7132115d1d5cbaf92d005fae83639f723c8fe9e0ebe9eb9ee6c753f50628ed36d52b0cfac4dff71e7596ab14d308d297defcbaabfe8b603f11991e1807a"
+RPM_NAME = "tesseract-ocr-5.3.1-1.1.aarch64.rpm"
+RPM_HASH = "139ecb10b44c3e9ff9cbcce29e1ad23c9ca110a9c8cfa1667071bb5826bbfc65ab68a299c892fdee528ee0b5dad5bdd49a3126573f02a88a2c97193a9fb4a469"
 
-RPROVIDES:${PN} += "libcommon-training.so \
-libpango-training.so \
-libunicharset-training.so \
-tesseract-ocr"
+RPROVIDES:${PN} += "tesseract-ocr"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libOpenCL.so.1 \
 libarchive.so.13 \
 libc.so.6 \
 libcairo.so.2 \
@@ -31,6 +29,6 @@ libm.so.6 \
 libpango-1.0.so.0 \
 libpangocairo-1.0.so.0 \
 libstdc++.so.6 \
-libtesseract.so.5.3.0"
+libtesseract.so.5"
 
 inherit rpm

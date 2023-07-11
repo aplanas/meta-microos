@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "3.1.0"
 
-RPM_NAME = "python39-wheezy.template-3.1.0-1.1.noarch.rpm"
-RPM_HASH = "5edc3a3283bc26d943b6c9e747001be2e8cd9faa3ffa7aaf6d4100e6deeeaff140193e561158f6e809a04ac9a28cedb7d6b10dd2e673ca6ec98e4e066ffee287"
+RPM_NAME = "python39-wheezy.template-3.1.0-1.2.noarch.rpm"
+RPM_HASH = "4b7816d09740ab2d3061b7ff474d5d1736a1d74e523307ceb1a27fc60eff8e12d49289644ce74b34803492451b16f7884254ed69c98aa88d713a4ea3556f89c8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-wheezy.template \

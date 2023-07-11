@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.1.1"
 
-RPM_NAME = "zerofree-1.1.1-1.20.aarch64.rpm"
-RPM_HASH = "aad57a7e29cd9bc4e18b65faca4fdfdc4c2bc80572c575c01456eb790a11fc080161a02ba648912e3a757355b88df5050900d7e5e946f2cc6af3a7969ce7aa73"
+RPM_NAME = "zerofree-1.1.1-1.21.aarch64.rpm"
+RPM_HASH = "0e2866abfc0b62160b69f24780b15306148789fdbdfa82241814cca44a1066c558155b7e628f81b2ba0aee1c475f317a56f3535476ca43c13fecbc5ab16f5ab7"
 
 RPROVIDES:${PN} += "zerofree"
 

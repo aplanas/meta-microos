@@ -9,13 +9,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.11"
 
-RPM_NAME = "perl-Number-Bytes-Human-0.11-1.8.noarch.rpm"
-RPM_HASH = "69fb62e00503b6d53ae1b6a26cb00981e08a65fd136bce58308a7062885ba6b67cfc3ba46d8e246b286aea97bb2893805f986aabcc7484b1439320e4ef2b21d1"
+RPM_NAME = "perl-Number-Bytes-Human-0.11-1.9.noarch.rpm"
+RPM_HASH = "30b570fd8778291d05eedc9179657cc88ebe6830b02276ff3ebaa63747db74b4a4ac2ded3aab6c56ce1cee8ba062f9362a18da1491044a117c5abdc822b65127"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Number--Bytes--Human \
 perl-Number-Bytes-Human"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

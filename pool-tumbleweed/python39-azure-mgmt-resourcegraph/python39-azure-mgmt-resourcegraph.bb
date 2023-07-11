@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "8.0.0"
 
-RPM_NAME = "python39-azure-mgmt-resourcegraph-8.0.0-1.8.noarch.rpm"
-RPM_HASH = "e1d9f3f8d183a1d33ff61442e79e4466a1fcb18d354ae3c2b9b1593ae209fad9b1990a7bd8a885759fc10269e452631c7c35b548566733671e8b9c5183c4c9c1"
+RPM_NAME = "python39-azure-mgmt-resourcegraph-8.0.0-1.9.noarch.rpm"
+RPM_HASH = "03df67688a34cee3f9ddcc10bb1bc2c67804ac5e58b2079b3993a08983b54cdca8fce39da4f2662b3f82eb12995fa2588513ffe4a72947f30d2a4c6a7f398a18"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-resourcegraph \

@@ -17,12 +17,12 @@ LICENSE = "MIT"
 
 PV = "1.0.3"
 
-RPM_NAME = "RBTools-1.0.3-1.6.noarch.rpm"
-RPM_HASH = "c2450e2b16ab733b4dce90a857ec1e96f1e6d37d5ccadc93b0589c4324c9a9dce238861da0d93f5815443317348dee6a16cff72b16c06c187cf748fb25a922a8"
+RPM_NAME = "RBTools-1.0.3-1.7.noarch.rpm"
+RPM_HASH = "060350bdcbc885ee1659432d5f0db2087c805d9137c313fa90dc86d764a0884bfeab9ccf76ac8d5d3e22fcc2d12c06e339ad07990142f960874cb57c0593f8c1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "RBTools \
-python3.10dist-rbtools \
+python3.11dist-rbtools \
 python3dist-rbtools"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

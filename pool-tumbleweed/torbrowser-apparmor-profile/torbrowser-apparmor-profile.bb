@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3.6"
 
-RPM_NAME = "torbrowser-apparmor-profile-0.3.6-1.2.noarch.rpm"
-RPM_HASH = "1b161bea5a960a203990f42797cd539fcd0427cedc044706245ee277f6ced358981ad2a70de25474941752d907e0655659a4078dc0143bdadbe496832585dab5"
+RPM_NAME = "torbrowser-apparmor-profile-0.3.6-1.3.noarch.rpm"
+RPM_HASH = "bc8bfebe4eeff8ef0cbd9958ce5c9925fb244edbbb15f37e0c4113327ec91d9b6c6cf10897c59e96e6fdce5755e1039a73edd776939f351cc28b08822a322e8f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-torbrowser-apparmor-profile \

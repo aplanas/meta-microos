@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.0-only"
 
 PV = "1.26.1"
 
-RPM_NAME = "libcaja-extension1-1.26.1-1.4.aarch64.rpm"
-RPM_HASH = "ac0e2c111de2420409de31dc4345a57ffd6847be359d5b231c30f7d62384f9b4be9b0dbe4ab02dace0e5c70b6f4b8053e3d3c60829f7f50ab822fe2a38794e4a"
+RPM_NAME = "libcaja-extension1-1.26.1-1.5.aarch64.rpm"
+RPM_HASH = "bde177d1147a2298b4730f2bf9d17a0a7a250ac2944d7128cf80a78b46d487adeed9a6911104476227b079e3e66347d64d79ba52d364963b13bf50e2ffada2ce"
 
 RPROVIDES:${PN} += "libcaja-extension.so.1 \
 libcaja-extension1"

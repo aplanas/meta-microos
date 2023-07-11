@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0 | MIT"
 
 PV = "22.1.0"
 
-RPM_NAME = "python39-structlog-22.1.0-2.3.noarch.rpm"
-RPM_HASH = "e93615377194e0a5eda846eb8755d519cff24dd8e2983bfb6baee93220af02d8ff073891097dae9681a428a475664edaf51c84692a0330008d00c7a24c68aa7f"
+RPM_NAME = "python39-structlog-22.1.0-2.5.noarch.rpm"
+RPM_HASH = "f80efad88b43f11e940336c9a8f93a673b3344bac3f777dc04f6a26936d59bcf67d2921bc68fd6f1be916ad5a52277f7f10b1f6fb2a534d393e28af1b9ab52e2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-structlog \

@@ -11,12 +11,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0.1"
 
-RPM_NAME = "python310-ipyevents-2.0.1-5.3.noarch.rpm"
-RPM_HASH = "a8517bad5581fa0e65731f0647255f0ee55fa0da824d40e8060226f5d235ac3dc5d058a6b7464269bf86db29fbf8ca2f46ba1a2e130b3849ec36a14789d92898"
+RPM_NAME = "python310-ipyevents-2.0.1-5.5.noarch.rpm"
+RPM_HASH = "ef3ad147c7ad5ce1b977883658fba9e1ed9a8184dbd6ed92f776f9340a799b4e72032546317c2532d017a5bf0d8b16e1d51fa53d8ec13d0c49465e4bb69bd8b1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-ipyevents \
-python3.10dist-ipyevents \
+RPROVIDES:${PN} += "python3.10dist-ipyevents \
 python310-ipyevents \
 python3dist-ipyevents"
 

@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.0"
 
-RPM_NAME = "hiredis-devel-1.1.0-1.3.aarch64.rpm"
-RPM_HASH = "f9aedbfc73855ea547e33b5204f0ca21904db89f9a3b10ec53efff34cd08f2fa30a0474ae0d3c51c8a152b16897b5e5fffbb0d909c396a3a1009a1aee5d7844f"
+RPM_NAME = "hiredis-devel-1.1.0-1.4.aarch64.rpm"
+RPM_HASH = "a20fd2a1872fe6e46bfe8cfddb7917c6820ad0f4936fc8334876be18114091be47b05f6fa0bc6c54cefb1b0a827cef9bb63d33fb5eb33ea36a03eabaf7adb0eb"
 
 RPROVIDES:${PN} += "hiredis-devel \
 pkgconfig-hiredis \

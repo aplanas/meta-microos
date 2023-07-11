@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.41.0"
 
-RPM_NAME = "gcr3-viewer-3.41.0-3.3.aarch64.rpm"
-RPM_HASH = "d079a674a1faec9e6c082e301a49aaab7fd4b8ced6c1968eb2339f01657841c8babbfbb8520b63ecf2434a138ca0c8aaa6c06ec35e23479683bc442d93c7a891"
+RPM_NAME = "gcr3-viewer-3.41.0-3.4.aarch64.rpm"
+RPM_HASH = "60027f0b392e02543df5efaa63c246af0c196113ef3b1040259ecca4115df9bfc17c512cd9e9208661d2b3c7dc1eb87955df569179ab17fa076b7f53ef9f0389"
 
 RPROVIDES:${PN} += "gcr-viewer \
 gcr3-viewer"

@@ -22,8 +22,8 @@ LICENSE = "CDDL-1.0"
 
 PV = "1.0"
 
-RPM_NAME = "munge-maven-plugin-1.0-2.10.noarch.rpm"
-RPM_HASH = "041fece5ca24647933a7dafa868abd36b23dfe557822754952c57696d27773b947926001f8aa733f70cdc54d63361f357884d8a4bdac45eeb3f01de5c0596321"
+RPM_NAME = "munge-maven-plugin-1.0-2.11.noarch.rpm"
+RPM_HASH = "4b5eecaa9a977258dfa5bb54bc3489483a9d32cef0d7b2b45382c7c920bac615a7a7aa6a4afef205556a88b654aa65033ceb956ee39ec41352597d710043d8ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "munge-maven-plugin \

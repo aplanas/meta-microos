@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "20170617"
 
-RPM_NAME = "system-group-obsolete-20170617-24.14.noarch.rpm"
-RPM_HASH = "50d174ffc87bc2ff3b9ae81553e4a838c710c02b1a3bab3cf0cda9c37d4300c5e3072c3472e45272d0ed37b55f17c034dfab6e41bfe7ae2de096a45eb07d94c7"
+RPM_NAME = "system-group-obsolete-20170617-24.16.noarch.rpm"
+RPM_HASH = "05b441f8aebdf5b97ad74dc60abc67e3d2ee611579cde1f40f9ec95bbd49d0a76164bb66e415e419b6d7aee2d9e8299bfb47938500f16e9ab09bfeddaa5c95a9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "group-console \

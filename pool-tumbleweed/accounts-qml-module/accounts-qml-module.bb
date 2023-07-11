@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.7"
 
-RPM_NAME = "accounts-qml-module-0.7-2.14.aarch64.rpm"
-RPM_HASH = "0f4034141dc05df04d37d785268b5dfbcb134d77f8f01ef9dfab85fa21777f6e46d345e60c8efd1124d1090b5694d7da061fe0815bfb8c904681850fd33f2bf3"
+RPM_NAME = "accounts-qml-module-0.7-2.15.aarch64.rpm"
+RPM_HASH = "e00c0cec7523f85384eb9e4f47f8c659cd199f082843f255aa695faf72d4d939a1a315b3c57d465038e0bb74ce96dd214bdabe8688c7e2fd2f1b6f0a7fcc37a6"
 
 RPROVIDES:${PN} += "accounts-qml-module \
 libAccounts.so \

@@ -2,10 +2,10 @@ SUMMARY = "Qmlglsink plugin for gstreamer-plugins-good"
 DESCRIPTION = "This package provides the qmlglsink output plugin for gstreamer-plugins-good."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.3"
+PV = "1.22.4"
 
-RPM_NAME = "gstreamer-plugins-good-qtqml-1.22.3-1.1.aarch64.rpm"
-RPM_HASH = "c866a91dbbbc2c0b894e8e24823c2923afb0ce11628286271883efa5f4da93df32ec14fec472fea5aa0af20045eab6e41d6213e51de26ba6e0757e5914fb5afe"
+RPM_NAME = "gstreamer-plugins-good-qtqml-1.22.4-1.1.aarch64.rpm"
+RPM_HASH = "adc1ee6a5bfd89a1f60e8c07fc186e0c95906ecb2b798c5aae091467de0aee5e02441fbb7d933f6907b28565ff08f3f007e61b20d655fef83b34f88a79a74845"
 
 RPROVIDES:${PN} += "gstreamer-plugins-good-qtqml \
 gstreamer1 \
@@ -18,6 +18,7 @@ libQt5Core.so.5 \
 libQt5Gui.so.5 \
 libQt5Qml.so.5 \
 libQt5Quick.so.5 \
+libQt5WaylandClient.so.5 \
 libQt5X11Extras.so.5 \
 libc.so.6 \
 libgcc-s.so.1 \

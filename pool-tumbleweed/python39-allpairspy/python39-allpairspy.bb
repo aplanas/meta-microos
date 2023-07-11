@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.5.0"
 
-RPM_NAME = "python39-allpairspy-2.5.0-2.3.noarch.rpm"
-RPM_HASH = "3760584bc1d85c7020785d8fde91b434a796c5e3e2f41ed2234ec02ddc487e5ae450d6f6d4d770123aa07b6b757227d889ffedf748f0181af3ff730fae6a427f"
+RPM_NAME = "python39-allpairspy-2.5.0-2.5.noarch.rpm"
+RPM_HASH = "a6559eb2b7390bcec19470eb07e2ce2f273dd5b989621ebf1e8d8827126b26cf2df6641ad83b6a4764ad9f420fcbf9868c93c2871fce65a81cc435285b30b039"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-allpairspy \

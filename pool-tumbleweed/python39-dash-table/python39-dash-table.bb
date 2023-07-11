@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "5.0.0"
 
-RPM_NAME = "python39-dash-table-5.0.0-1.5.noarch.rpm"
-RPM_HASH = "6962aa6dbae272f63187b75c9f37e022093310f77ef5d4cf08160a75b3caa8f10a191b53af9afd3737fd0bed86ecb85898041815f6f4b5381aedc3f337d29a3c"
+RPM_NAME = "python39-dash-table-5.0.0-1.6.noarch.rpm"
+RPM_HASH = "646418d69f1308b9e203650e46c9f239ff1b6662d06256a32a6239027495c5d9b8edbc67ce4187bff3dce14bf0681b1b38caa091efda52af4f1455024a6648d1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-dash-table \

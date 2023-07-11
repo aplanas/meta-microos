@@ -14,8 +14,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.1.1"
 
-RPM_NAME = "swig-examples-4.1.1-2.3.aarch64.rpm"
-RPM_HASH = "956adf02b9a443ad656925cbfd202ed6c65bfede81df4f3a651827799ee239efd552e9594dc7f7360e6cb3147fc8a49e6bf9e6cf6ae53f630e2443e346a7c454"
+RPM_NAME = "swig-examples-4.1.1-2.4.aarch64.rpm"
+RPM_HASH = "8cf8710743610c08ecd863fd4a24b09cf7ed11941e5fd61966295d916785b50c6f7ceb1197204565a05d93626a679f0954b80fced2ae98a1f4419fbebe8c0e37"
 
 RPROVIDES:${PN} += "swig-examples"
 

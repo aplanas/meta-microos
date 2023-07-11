@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2.1"
 
-RPM_NAME = "python310-akismet-1.2.1-1.4.noarch.rpm"
-RPM_HASH = "4c42693563a3b0a675eb9100a135b6f445599b24b99f21387e0e7fd5c7403fc09f6ddde04d5f2963bfd83e731daf39f6e8505bc58e251434f78938fc71dca72f"
+RPM_NAME = "python310-akismet-1.2.1-1.6.noarch.rpm"
+RPM_HASH = "7601b07103393bfee5338b969446a64df5deac1f12a2864a032af2f84fdbb070fb8c54de93bc1fcbfcb12ce5f7b56a5e50ce92ba504e959c6fc6d97d9e14bed8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-akismet \
-python3.10dist-akismet \
+RPROVIDES:${PN} += "python3.10dist-akismet \
 python310-akismet \
 python3dist-akismet"
 

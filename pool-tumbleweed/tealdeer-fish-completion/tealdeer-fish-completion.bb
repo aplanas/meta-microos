@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 | MIT"
 
 PV = "1.6.1"
 
-RPM_NAME = "tealdeer-fish-completion-1.6.1-2.1.noarch.rpm"
-RPM_HASH = "b2a973ae80137d308a77c8801c770f50bc016098f6c8be41d2f9936fb3c4a8b5ef9343f3f6e777264617fe38a56849d3e87f2b1c087222b637d822b8dca7bd91"
+RPM_NAME = "tealdeer-fish-completion-1.6.1-2.3.noarch.rpm"
+RPM_HASH = "62467954e8824708e1e5f2db923a9afb773802bdfeca8dffa53445ee818cc2f590c1ee3f2e9a5a42dcc155e443f476d568032c8d4a050893b0c3f61b58f3f1f2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tealdeer-fish-completion"

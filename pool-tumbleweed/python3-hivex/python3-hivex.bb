@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
 PV = "1.3.23"
 
-RPM_NAME = "python3-hivex-1.3.23-2.3.aarch64.rpm"
-RPM_HASH = "7b23dc9eac6727f9b4a9849699bc66afbfae3fea2e7c79ba6d1e2d69714bde028c927849bd854005acab48f8479c023c0bef0c77381085ca90b5a0ba860a3df1"
+RPM_NAME = "python3-hivex-1.3.23-2.5.aarch64.rpm"
+RPM_HASH = "35db079fac32bca54b8a27033561d320d941c619acc4ce5dda39a3aac5151423d978b10ffb2f8ed33ffd00c77ce8b4f61c3511d2aa1374908f053f1ad552a58a"
 
 RPROVIDES:${PN} += "libhivexmod.so \
 python-hivex \

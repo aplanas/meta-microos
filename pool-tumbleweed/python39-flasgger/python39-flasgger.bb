@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.9.5"
 
-RPM_NAME = "python39-flasgger-0.9.5-3.1.noarch.rpm"
-RPM_HASH = "3b2f485c22d556f3165255b352f57f1e3230dd2bb97cf522ce823591678784c03e14e0575bed0a0b802a684bb55d1146c042b6e8e25c01445df8486d94e606b2"
+RPM_NAME = "python39-flasgger-0.9.5-3.2.noarch.rpm"
+RPM_HASH = "826a037a453fb8585c236898bdea24de605ceb79367c435daf5755b7b1e6ffc4b2a2052673b077dc1c525ec16d8a344e9925d64542f66ff722d83804e37c45b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-flasgger \

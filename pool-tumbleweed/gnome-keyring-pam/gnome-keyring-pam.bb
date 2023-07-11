@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "42.1"
 
-RPM_NAME = "gnome-keyring-pam-42.1-2.3.aarch64.rpm"
-RPM_HASH = "bcbb7a571bdbbb971a17d3a43bdb49c4ac1d242239c9c77648ccbb7a94abf75b420c5b8c2979878b9d0c1d90954280201ac21e364bb4369e2c004b7d17266527"
+RPM_NAME = "gnome-keyring-pam-42.1-2.4.aarch64.rpm"
+RPM_HASH = "c151c83777ade2ff188cf14af5a34f4fd6a85262b6c9268297b1dec72d266d8be84ee8d632d8fd3fc2294379f9b39794dacef0c429d6988849688f48c9ae5bf4"
 
 RPROVIDES:${PN} += "gnome-keyring-pam \
 pam-keyring"

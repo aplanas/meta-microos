@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-
 
 PV = "8.0.2"
 
-RPM_NAME = "qemu-audio-oss-8.0.2-1.1.aarch64.rpm"
-RPM_HASH = "a0ea3634767d9fce086c3cd16d9d7cd03e3190066e649a1cef4ca67f6c19e3d6d3f258e65a37e557693d6cbae0f7e2fec6bf3a4ef97bf3ae0a67910961f09062"
+RPM_NAME = "qemu-audio-oss-8.0.2-2.1.aarch64.rpm"
+RPM_HASH = "cf0a8772b58d9a53654f19bebd450d9e93b181bafdb667e51947a0ce5740ae631331bd8022dbf18219df9d7565f7609dfeae477cbea3c480fe4bbf7f69dc4683"
 
 RPROVIDES:${PN} += "qemu-audio-oss"
 

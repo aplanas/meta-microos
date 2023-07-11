@@ -8,12 +8,11 @@ LICENSE = "Apache-2.0"
 
 PV = "1.4.5"
 
-RPM_NAME = "python310-Nuitka-1.4.5-2.1.noarch.rpm"
-RPM_HASH = "aabb0483358da0a1478bb0da166156f9d25410118e665df433948c2dd0f248ca709f96845dbdcb7407c480ae93c9852105ff0dd49d35ea2d4925526938f6130b"
+RPM_NAME = "python310-Nuitka-1.4.5-2.2.noarch.rpm"
+RPM_HASH = "069e6a839abfa430e79782012f133dd254563a8980b5c11a40d7a70affd61545a40a04068d44f3c2dd721f245c36844aa6c49dd7f2b52b29ed0c25e4f77f0066"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-Nuitka \
-python3.10dist-nuitka \
+RPROVIDES:${PN} += "python3.10dist-nuitka \
 python310-Nuitka \
 python3dist-nuitka"
 

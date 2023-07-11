@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3.21"
 
-RPM_NAME = "libopenblas_pthreads0-0.3.21-5.3.aarch64.rpm"
-RPM_HASH = "b948e7de9b6b7ebc5a1a7bc75a2bedbbfa8a7890a15481c45d107de10fc4bc46b85034f1b25991afa13652510e6e909072f5fc1274095f996336cce4ff646cdd"
+RPM_NAME = "libopenblas_pthreads0-0.3.21-5.4.aarch64.rpm"
+RPM_HASH = "70ebee8bca45a5f5953355cdcec5b53577ebd12eb2467dbf33a64a9fcdf269094096dd5b24dd693b568a0f1a64ec2663b527cb76ea4bb473f76b303744afbe4f"
 
 RPROVIDES:${PN} += "libopenblas-pthreads0 \
 libopenblas.so.0"

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.4.0"
 
-RPM_NAME = "heaptrack-gui-1.4.0-4.4.aarch64.rpm"
-RPM_HASH = "b187c3da50eec47e3dd722608e42e0a2f96d391aa6534ba19e8d8ab56e04d6344c1ed13f03840f7b38d76c59d4fcc94cd4412fc79bf4b76d5acd07dc77377f4f"
+RPM_NAME = "heaptrack-gui-1.4.0-4.5.aarch64.rpm"
+RPM_HASH = "b63cd99b4617330a053cd0c49e590a5d019b03c985ef323c28a298f455221a1a58d90208e51cd5862e245e532cbfa2c01615693cd8323781d5d353e4a13bdb14"
 
 RPROVIDES:${PN} += "heaptrack-gui"
 

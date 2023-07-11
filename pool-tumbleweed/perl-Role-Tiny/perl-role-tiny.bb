@@ -4,14 +4,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.002004"
 
-RPM_NAME = "perl-Role-Tiny-2.002004-1.10.noarch.rpm"
-RPM_HASH = "27b4759b1fe4b2d45d7ccbe23f64baddf4208cf5f87c31c51d1c01c5fd69e07c3888a162dec1710127bb97ea2dba911592e84dce25a5d0fe506c069498d9583a"
+RPM_NAME = "perl-Role-Tiny-2.002004-1.11.noarch.rpm"
+RPM_HASH = "874e7bba07f66aa9d2b7514e434ba59ebd2387eaa9b7e9fa2c68267e9fabc31bbdaa04cc05a1af087d6d004cd219b81e0a254bf9305720d2764db5b057d0524d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Role--Tiny \
 perl-Role--Tiny--With \
 perl-Role-Tiny"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

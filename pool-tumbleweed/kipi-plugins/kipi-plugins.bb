@@ -3,10 +3,10 @@ DESCRIPTION = "A set of plug-ins for the KDE KIPI interface, used by some KDE im
 applications."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kipi-plugins-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "dddcc008b2a4db25ba78ada45c80f45b4fe941d525c18186ff0354d22cd9e8ee0e13b496a5c31f5a0184faa92d9c5b1ec9be082531170f0e7e99565319bb5056"
+RPM_NAME = "kipi-plugins-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "9dd5a4675fd975912fa8d84b91d7c1e0fe0608b8f1017263e3c52aa98d913522eb39ba6b7bba8ac6c986651d2b5510a82c55bf6053faa5e76b9111a2ca2c7563"
 
 RPROVIDES:${PN} += "kipi-plugin-icons \
 kipi-plugins \

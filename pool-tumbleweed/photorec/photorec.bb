@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "7.1"
 
-RPM_NAME = "photorec-7.1-4.13.aarch64.rpm"
-RPM_HASH = "472fb131ec6ac9eecb0539ab008fb990ab8aac602f5a0ac11e4b2544d104eb3fd73a8c06a8cb6c942e8864ebf760e97e8a106c3ec1c65d44412932b436591d0b"
+RPM_NAME = "photorec-7.1-4.15.aarch64.rpm"
+RPM_HASH = "de0a6b7b406100a9c24f659b588d82ec9794414c20df6650c8faf6d87b87ad363eae7b70c78636c159027aecc939f3c5dd116167bc6f54ac91e22a6b766ffa43"
 
 RPROVIDES:${PN} += "photorec"
 

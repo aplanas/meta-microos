@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python39-azure-schemaregistry-avroencoder-1.0.0-1.3.noarch.rpm"
-RPM_HASH = "1202888d069cddacb2afc6e9419a4b5e189071a12f8a2caaf440254b0c9b6e60fded5ec039d09341d595ad5bfe06eb7285903e91320654568b8b5b086a1a1a58"
+RPM_NAME = "python39-azure-schemaregistry-avroencoder-1.0.0-1.5.noarch.rpm"
+RPM_HASH = "e42b768dda7a14af05ca69a4e6da4a7569b1bf4ff8194e8c6300ea919f848db797a4ab2edfca2c12d698ceef18763c15277d56ad8c3193c0f42e899df03e772a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-schemaregistry-avroencoder \

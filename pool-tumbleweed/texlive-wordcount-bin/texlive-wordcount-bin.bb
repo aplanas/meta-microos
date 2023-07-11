@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn46165"
 
-RPM_NAME = "texlive-wordcount-bin-2023.20230311.svn46165-91.1.aarch64.rpm"
-RPM_HASH = "12482e7ab3f19d475cc72be4787933d9b4700d414a91252a9c01a1159bfd33afbb73a54d90cc662db605e5f83c7a1147041b76f858f6155deb3ff22954f375c3"
+RPM_NAME = "texlive-wordcount-bin-2023.20230311.svn46165-92.1.aarch64.rpm"
+RPM_HASH = "3a4bd00060ec0e8d134c7c7d1ecaa7ee12d56f8021aab33807a0de71c1e3b9df1a03d17892f06f8227a8d4960536b630bed310ad0aef1ef0a7d575cb8e07ffc0"
 
 RPROVIDES:${PN} += "texlive-wordcount-bin"
 

@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4.1"
 
-RPM_NAME = "openbsc-bsc-sccplite-1.4.1-1.10.aarch64.rpm"
-RPM_HASH = "4dff59910ec955bbdcebb130350df89c911576e5c96f071699bf1ab5e4a10aaebfaae06fe99a90c6baeca2f812654cc011829aa2c9bbc01716154d781c0c0059"
+RPM_NAME = "openbsc-bsc-sccplite-1.4.1-1.11.aarch64.rpm"
+RPM_HASH = "d8241ed31b67d1d29876e35870aa1d8805b91df3079de7d0f85742e4822db749f7a16939b50cbaae4259c75cc31fa0be68bd227ffd8c5a0876f03c3ae951b37a"
 
 RPROVIDES:${PN} += "config-openbsc-bsc-sccplite \
 openbsc-bsc-sccplite"

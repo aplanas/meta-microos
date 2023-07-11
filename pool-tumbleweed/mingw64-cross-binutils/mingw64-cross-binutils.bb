@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & GPL-3.0-or-later & LGPL-3.0-or
 
 PV = "2.39"
 
-RPM_NAME = "mingw64-cross-binutils-2.39-4.3.aarch64.rpm"
-RPM_HASH = "200eb10be175601f9aadcf2921c291882608f5a8882fc510cfe954aa431d9c5e9a557edf29dbe419d7600c881eaf76f0df3dc10d9366c5f9070428bb9a53d341"
+RPM_NAME = "mingw64-cross-binutils-2.39-4.4.aarch64.rpm"
+RPM_HASH = "cd7f14806495bba2e20898b15e3274c657c8de5915ef306113547502e96d974dac42e601851b7f0d2dde17f30704805c10fded8a945ec1adbb77405b920b8dec"
 
 RPROVIDES:${PN} += "libdep.so \
 mingw64-cross-binutils"

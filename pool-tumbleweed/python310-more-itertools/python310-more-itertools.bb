@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "9.1.0"
 
-RPM_NAME = "python310-more-itertools-9.1.0-2.1.noarch.rpm"
-RPM_HASH = "a0a75f9cb5183135c2cd2245b0623405fc159548d2feae483706b6f2e002897e35ad5cdeb5b90d4b2b4d77ea5ff2bb4037e2cd21b886a41fb75cc1f4ced504c1"
+RPM_NAME = "python310-more-itertools-9.1.0-2.3.noarch.rpm"
+RPM_HASH = "9a8af825fe66d140d6c2f1a7233e31e230e140af9fc0a7c15ff2d9e749cc7d6a34b40cab81db774ea498bece601308e53f119d795fe13910cb7e56bc5d2defc3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-more-itertools \
-python3.10dist-more-itertools \
+RPROVIDES:${PN} += "python3.10dist-more-itertools \
 python310-more-itertools \
 python3dist-more-itertools"
 

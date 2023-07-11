@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.4.16"
 
-RPM_NAME = "python310-sqlite3-to-mysql-1.4.16-1.5.noarch.rpm"
-RPM_HASH = "6100d6c8c852c737746acfe5b174866bdd59e700d85e3d8774b56f801230f5536e49a9ddf8213020360c8b60d8541cd7c6dabfa413caa2db5a08eb6fcacfdb1e"
+RPM_NAME = "python310-sqlite3-to-mysql-1.4.16-1.6.noarch.rpm"
+RPM_HASH = "ab4374cc9ad9ff11d2888f31be22f59c0fc077ef2cbedb09a507691e7a9a3ca59ad030e70d4dd3a55a29da972bd57a9e165618d4482eabf3561ada99654cb762"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-sqlite3-to-mysql \
-python3.10dist-sqlite3-to-mysql \
+RPROVIDES:${PN} += "python3.10dist-sqlite3-to-mysql \
 python310-sqlite3-to-mysql \
 python3dist-sqlite3-to-mysql"
 

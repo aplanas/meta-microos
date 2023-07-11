@@ -6,8 +6,8 @@ LICENSE = "SUSE-GPL-2.0-with-FLOSS-exception | GPL-3.0-only | NonFree"
 
 PV = "5.15.9"
 
-RPM_NAME = "python39-qt5-remoteobjects-5.15.9-1.4.aarch64.rpm"
-RPM_HASH = "d035236b79bb9131e1be9a30c7772d2b5a687430c3a583dde0839bee6ea5fbd9308ea17ef4dca9fe429110a1880fb5065cd61d2801438e9007be22913c8641fa"
+RPM_NAME = "python39-qt5-remoteobjects-5.15.9-3.1.aarch64.rpm"
+RPM_HASH = "5e8d2acbaf513770e76f698df553493733148c3114c3d576a29ba25a92df11c47cf121a29eafe3093b859d32edae8899cd9b14b23b3d766770839efcd4ea299d"
 
 RPROVIDES:${PN} += "python39-qt5-remoteobjects"
 

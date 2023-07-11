@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.0.3"
 
-RPM_NAME = "python39-swagger-spec-validator-3.0.3-1.3.noarch.rpm"
-RPM_HASH = "722b6485180646c2fa1d0fea98438bdf75ad41a478bc8a626fc1e8647e37b77dfde263d4425374cb29483a438d9f0828385eb768e58960236545e28baf6604cb"
+RPM_NAME = "python39-swagger-spec-validator-3.0.3-1.5.noarch.rpm"
+RPM_HASH = "e8d866382e0d369b732307fae6e85da3667acb040c5ec15793714cc7f55e4427cb01d769e913c72c96db0b2db45ed01085a5ab60c42a006f1b845b207ffff55d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-swagger-spec-validator \

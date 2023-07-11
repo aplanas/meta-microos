@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later | LGPL-3.0-or-later"
 
 PV = "0.5.1+git3.g97c716a"
 
-RPM_NAME = "libkdumpfile-devel-0.5.1+git3.g97c716a-3.1.aarch64.rpm"
-RPM_HASH = "eb38af2b25ea17095d3020b494f201c06c30982192227a9cb74babf93822942bc025d059a42ea5c03f077a73a59c256330d41d145a3a7d3a33be694bfda109d2"
+RPM_NAME = "libkdumpfile-devel-0.5.1+git3.g97c716a-3.2.aarch64.rpm"
+RPM_HASH = "678776031d12440e3c981b6d96aac23e03f666e81187e767dbcb6b6a5842aa6ed2252a2d8015c33741ead85829e9809675f364c3a6484f6f71587244ddd6330a"
 
 RPROVIDES:${PN} += "libkdumpfile-devel \
 pkgconfig-libkdumpfile"

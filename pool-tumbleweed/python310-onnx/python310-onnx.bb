@@ -7,12 +7,10 @@ LICENSE = "MIT"
 
 PV = "1.12.0"
 
-RPM_NAME = "python310-onnx-1.12.0-2.9.aarch64.rpm"
-RPM_HASH = "ffa4562dfaaf0d9c86043f5f4910a0a19f572bac5a502ae68d6e277b7ab27f412fe0e9e1c6f113435e1fa846b61f073a5cf626103643fbf18234c8ba8108a95b"
+RPM_NAME = "python310-onnx-1.12.0-2.10.aarch64.rpm"
+RPM_HASH = "925bbe72ac49003d97027eb1b41ae734ec6b4f14d212f499a9f100834c43010062c2ed0b22945882043a9d962abe28f8f8d105a023741af1626da1dc6a379eb9"
 
-RPROVIDES:${PN} += "python3-onnx \
-python3-onnx-devel \
-python3.10dist-onnx \
+RPROVIDES:${PN} += "python3.10dist-onnx \
 python310-onnx \
 python310-onnx-devel \
 python3dist-onnx"

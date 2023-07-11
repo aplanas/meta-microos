@@ -3,10 +3,10 @@ DESCRIPTION = "The accountsservice server provides a set of D-Bus interfaces for
 querying and manipulating user account information."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "22.08.8"
+PV = "23.13.9"
 
-RPM_NAME = "accountsservice-devel-22.08.8-2.4.aarch64.rpm"
-RPM_HASH = "1dea4a76a941341d25da30d13ba00fb4a635102b952877fe77eb0cdba88e13f6b748ed41853c174043e14b6690157c96a70e37614c75ff7d51e0c713c7f2bb0d"
+RPM_NAME = "accountsservice-devel-23.13.9-3.1.aarch64.rpm"
+RPM_HASH = "53797409f008607161321a8bf158746cbbe5c08c9946d25029a9808aa68604ef05525afcfff9e987bc09b9cabf095b58292593ac88cbad5b6dc02b3896033062"
 
 RPROVIDES:${PN} += "accountsservice-devel \
 pkgconfig-accountsservice"

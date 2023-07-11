@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "1.16.2"
 
-RPM_NAME = "python39-macholib-1.16.2-1.4.noarch.rpm"
-RPM_HASH = "69686de23ffefc5a5e922501526223843d524e5033b33bb45b98532e2bf6757213cffd3b397962ad5b01863ccf49bda006b80d842dcca9a50555c4ecbfaf0c9b"
+RPM_NAME = "python39-macholib-1.16.2-2.3.noarch.rpm"
+RPM_HASH = "da0bc596f230b9d1479b3669b2d7917ad826b517015a48a8be2fa024a822fc715b0674ee38d1b15ccc36a2f61c69259d2a4ddceff2d102053eb1b5b9168933a9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-macholib \

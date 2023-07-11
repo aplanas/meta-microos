@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "gnote-44.0-1.1.aarch64.rpm"
-RPM_HASH = "1c72e8bb575306145030301084c9a93ec6b40827be02f963d0d58d589b1be363e1000e1132bd703e4a5db794ad41a679dc6d309150aa93a69ca76cc536c9ed29"
+RPM_NAME = "gnote-44.0-1.2.aarch64.rpm"
+RPM_HASH = "78921c6e3ac307edecbc447aa8df2120917bd3fb5bb8b2a99a9a4bc5a8ca6c8bf7675518c58347216db8ea871770784d71d401bb8305f934b75182811b3ccbf2"
 
 RPROVIDES:${PN} += "gnote \
 libbacklinks.so \

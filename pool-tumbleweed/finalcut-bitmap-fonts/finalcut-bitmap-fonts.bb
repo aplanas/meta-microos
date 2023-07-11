@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.9.0"
 
-RPM_NAME = "finalcut-bitmap-fonts-0.9.0-1.1.noarch.rpm"
-RPM_HASH = "1a94663868922d38e8d5661565632d886fd453c6648a3bd5857c1ce90540e2039ab0b81323eb4cc49fecc051ee9cbbcde2c022d7a027c8ae4dbae5b004d4a016"
+RPM_NAME = "finalcut-bitmap-fonts-0.9.0-1.2.noarch.rpm"
+RPM_HASH = "b6417d14b4568234829250c3dc58eff0edd4d15340aba17b160a7b3ddbec6667c4b8a3b17ee284a6aa15b6cd352d5ffa0442bd18a17c20c134344425874c8cb5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "finalcut-bitmap-fonts \

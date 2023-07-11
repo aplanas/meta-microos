@@ -2,10 +2,10 @@ SUMMARY = "Color Chooser"
 DESCRIPTION = "This is an color chooser application by KDE."
 LICENSE = "MIT"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kcolorchooser-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "c9c350ed30d7ed1299e63870898b43b9b20965837026edb1315c5997e8baf74913d61dffb5dacb171dc870e15a120c2a8c70be70f51a4849873d2941055783df"
+RPM_NAME = "kcolorchooser-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "e9b44201db99cd03434486886395c213ea9415c6bc49ca5957740cc1ef11aebfa235c41311fb42119733d2fe4368dca3f2c971cfc873a849f8afc89d46760f89"
 
 RPROVIDES:${PN} += "kcolorchooser"
 

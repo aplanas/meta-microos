@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "12.1"
 
-RPM_NAME = "engauge-digitizer-doc-12.1-2.4.noarch.rpm"
-RPM_HASH = "58c34fc41e7e06b2bb9f17d648554d65356ac231c3b2d4f7f177c05f76557b3547d46cfc2761bf6390c130521f44a58b8d0a48b564f15dd165b3f8bafe12adb2"
+RPM_NAME = "engauge-digitizer-doc-12.1-2.5.noarch.rpm"
+RPM_HASH = "fce72bf3197157fd53e184a1b839c27c21bce73f972a905f4049f5fead570d0dd8c6ec225d4dcccf084a0729da2e0db713b49a4e3f330ae4a1e18ad5c57a0135"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "engauge-digitizer-doc"

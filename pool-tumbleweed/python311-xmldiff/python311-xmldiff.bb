@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "2.4"
 
-RPM_NAME = "python311-xmldiff-2.4-4.4.noarch.rpm"
-RPM_HASH = "d99201da41ff219964e52574e9a6a9830a220555ae97223193332432666a6ecba659745e533a71552a1c9b955bdd55e82cd29d359243aea0fad41184f070616e"
+RPM_NAME = "python311-xmldiff-2.4-4.6.noarch.rpm"
+RPM_HASH = "5f9c1e9b3788689e772ba8ce30309ce58f1b471443a7505b50bdccb0848eb05b6ea82eb28ed014dd16388d05c03323efc96ba0237ae32f8972eb79b0a0e8787f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-xmldiff \
+RPROVIDES:${PN} += "python3-xmldiff \
+python3.11dist-xmldiff \
 python311-xmldiff \
 python3dist-xmldiff"
 

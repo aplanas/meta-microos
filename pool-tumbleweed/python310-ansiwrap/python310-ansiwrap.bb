@@ -10,12 +10,11 @@ LICENSE = "Apache-2.0"
 
 PV = "0.8.4"
 
-RPM_NAME = "python310-ansiwrap-0.8.4-2.2.noarch.rpm"
-RPM_HASH = "3e72c755dedbe19ffe773d2dfa0c96f10cff62ee43f4f70979e09ec23f810108c61da30bc10222cf30bec5a962433449a45617fc13fee26f60f2784001bd0df8"
+RPM_NAME = "python310-ansiwrap-0.8.4-2.4.noarch.rpm"
+RPM_HASH = "549e857700cc8b4f0d1381a7ba1a128808be12dc92d0b34ffe31380e146211c54e5b813560d935f4da32b15135f88a073f40d8366771523c8d2ef8f2646c3633"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-ansiwrap \
-python3.10dist-ansiwrap \
+RPROVIDES:${PN} += "python3.10dist-ansiwrap \
 python310-ansiwrap \
 python3dist-ansiwrap"
 

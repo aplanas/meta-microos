@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "41"
 
-RPM_NAME = "libgitg-ext-1_0-0-41-2.8.aarch64.rpm"
-RPM_HASH = "34ea140f74c738bc2ff74c239a01a9078c6715727196413db5cacbb4d21355414a1bce94753716bd53f25830c44c002d1abcda73e752d1ff97f908d1dd607166"
+RPM_NAME = "libgitg-ext-1_0-0-41-2.10.aarch64.rpm"
+RPM_HASH = "8162fb4555b881aa09fd0680c0c3cc23888e35030fdf424f316b8f884ccf757f48ada2ceff743465461b8e90932d35d5c2dce5add05ddb83785279dc1a42a047"
 
 RPROVIDES:${PN} += "libgitg-ext-1-0-0 \
 libgitg-ext-1.0.so.0"

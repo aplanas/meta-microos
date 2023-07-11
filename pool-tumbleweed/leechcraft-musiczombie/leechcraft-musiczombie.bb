@@ -4,8 +4,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-musiczombie-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "ddff9da4c1f8188087b478fa347903e8baf5697403c8c90328647a4d0be46609a5164ed55395ce77f852442fca17bf89187a90895b1baee27d51c6457af9e718"
+RPM_NAME = "leechcraft-musiczombie-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "c34c088df456aeb0cf5a6607f63d738d41e7a31107bf6811306aca9b06fccef065cd42256f38b864307564c5cbc03cbc1bb6e8e86fc90c6c8d20593a68c53e0c"
 
 RPROVIDES:${PN} += "leechcraft-musiczombie \
 libleechcraft-musiczombie.so"

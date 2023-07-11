@@ -4,8 +4,8 @@ LICENSE = "(Apache-2.0 | MIT) & (MIT | Unlicense) & MIT"
 
 PV = "2.0.0~git0.5b3eac1"
 
-RPM_NAME = "treefetch-2.0.0~git0.5b3eac1-3.4.aarch64.rpm"
-RPM_HASH = "5f3059101d47498e05f2d5835fb4d3f52bb409cfa493c3702e185560e0c6fa1e0b364548d92b79b68231ac0fff8b1d94ccec5546b0c2ed1f1eace93ba31f83d6"
+RPM_NAME = "treefetch-2.0.0~git0.5b3eac1-3.5.aarch64.rpm"
+RPM_HASH = "703f1a310b10d26619e021f8bee12ef92f25217a42c979ac10803e59f818cb619cc983071e01721cd8668f89b00b02b7569d126c76558a2ac812f9c3cda7bde8"
 
 RPROVIDES:${PN} += "bundled-rust-crate-aho-corasick \
 bundled-rust-crate-memchr \

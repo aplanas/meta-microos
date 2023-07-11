@@ -9,8 +9,8 @@ LICENSE = "MPL-2.0"
 
 PV = "2.2.0"
 
-RPM_NAME = "libkea-dhcp++54-2.2.0-2.4.aarch64.rpm"
-RPM_HASH = "0a3c7600ffd838da63865c66b345e481b5f85c6e3e54bf16f10f6051501c33ee2ff21eea37ebf810424bcbf6bd447d10b73286b8a17a1b8c2cfe2223e3aa8046"
+RPM_NAME = "libkea-dhcp++54-2.2.0-2.6.aarch64.rpm"
+RPM_HASH = "62c20ce7f357ceb78b4c21bc5e900bd838bf9711f0b106e570aebde2307323b4317878ffabe0a93f26bb10535dc735f939fed05c759c6713fa381ddc40d31ccc"
 
 RPROVIDES:${PN} += "libkea-dhcp++.so.54 \
 libkea-dhcp++54"

@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.4.1"
 
-RPM_NAME = "lightly-style-0.4.1-2.7.aarch64.rpm"
-RPM_HASH = "844a28b70b4fee3086ec7b88d6ccd598fd2122d9a23ede9d9784300cf1dbd1488bb6891a50e0888defaf419b963e282b33c49ea52b127e844518410992a8b4ff"
+RPM_NAME = "lightly-style-0.4.1-2.8.aarch64.rpm"
+RPM_HASH = "b9f4bac08e13514e731a4ca1baa00c888788845fc012c4dcc6152146dd8056cb36fc0f563ad1ca82292644ba87a91da1b96a88d46609e72bc3b573dd69fb8bca"
 
 RPROVIDES:${PN} += "cmake-Lightly \
 lightly-style"

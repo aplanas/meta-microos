@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "3.0.3"
 
-RPM_NAME = "python311-jaraco.stream-3.0.3-2.1.noarch.rpm"
-RPM_HASH = "72b814c394dc68d472c3f0e3591f880d721af709b6e889763fd1b049b8e520e1ec13211db608e787a8038b027c7bcdcc8897595007faacf23a92cbfa310bc147"
+RPM_NAME = "python311-jaraco.stream-3.0.3-2.2.noarch.rpm"
+RPM_HASH = "14da83b9d0179d0355537f76052a56c0651204f8db18001fab2d72d08f3aec7231fd09eb00e2fce38037fb1df5c81d232611b813b40f38f4bedc216963297072"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-jaraco.stream \
+RPROVIDES:${PN} += "python3-jaraco.stream \
+python3.11dist-jaraco.stream \
 python311-jaraco.stream \
 python3dist-jaraco.stream"
 

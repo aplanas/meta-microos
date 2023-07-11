@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "6.0.2"
 
-RPM_NAME = "keybase-client-6.0.2-3.4.aarch64.rpm"
-RPM_HASH = "b412d227a05f03d5ee52124307c9f77aab23385f81b3b39a8d4b9c6807c12083049e181fccdd1e5289dfd4d611a204e09b15aa4c2ba38e7d57c32cfb00f2bc0d"
+RPM_NAME = "keybase-client-6.0.2-3.5.aarch64.rpm"
+RPM_HASH = "819cfe2fc36e195a8576e10ffd00f7a9348324c38fe9b1b3f423f150094cf3da2d20b1b08d66e42fc2c070900353be62f8de9cf119611448dcca10085e85b5eb"
 
 RPROVIDES:${PN} += "keybase-client"
 

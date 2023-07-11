@@ -11,8 +11,8 @@ LICENSE = "LGPL-3.0-or-later & (LGPL-3.0-or-later | ZPL-2.0) & SUSE-GPL-2.0-with
 
 PV = "2.9.6"
 
-RPM_NAME = "python39-psycopg2-2.9.6-2.1.aarch64.rpm"
-RPM_HASH = "8a80905b5f16c878aff6ae549278e4a589e3b408c35d4eb74722f2d24a068d3e4b92ad24f416d56bdc140c3efde11da198bb180aa2990c33243dd51f427b52f0"
+RPM_NAME = "python39-psycopg2-2.9.6-2.4.aarch64.rpm"
+RPM_HASH = "9c5d01c49f591dd2ac36adbd5d2ce4b22ee5b54f04f7e6ffd2037a9f02891c584a54e04640fb9296a4fd212d9a9a5e1a9cc2dd0099031eb981bf990bff323cf9"
 
 RPROVIDES:${PN} += "python3.9dist-psycopg2 \
 python39-psycopg2 \

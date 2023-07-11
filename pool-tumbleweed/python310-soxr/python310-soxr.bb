@@ -4,11 +4,10 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.3.5"
 
-RPM_NAME = "python310-soxr-0.3.5-1.1.aarch64.rpm"
-RPM_HASH = "bbbf744ea3a1cb099d4309baf3acbbe20bc809ae877493109fd5136dc1b09a5140bf0064c73beff38d749047e71eb501fe24d4fef2b16a8591c8095a41a1c94a"
+RPM_NAME = "python310-soxr-0.3.5-1.3.aarch64.rpm"
+RPM_HASH = "2baff30a9a4dea13bab7c47ad4f3c4aecd4b0ca42aaf389f1a2042deec01ce088ad2eb3f0136c9f300a13622e3b11335e25cc52dace789293c66cbd03e9595db"
 
-RPROVIDES:${PN} += "python3-soxr \
-python3.10dist-soxr \
+RPROVIDES:${PN} += "python3.10dist-soxr \
 python310-soxr \
 python3dist-soxr"
 

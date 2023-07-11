@@ -4,10 +4,10 @@ remove users and groups who will be granted permissions through the \
 graphical interface"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.10.0.rc2"
+PV = "0.10.0"
 
-RPM_NAME = "eiciel-0.10.0.rc2-1.3.aarch64.rpm"
-RPM_HASH = "509ab4753aedc723382bd0b5cb90e6aade0f121b8f896fbadb59a06ad203e8c76bc27c479972a3bd3c708814a5f9deaea864dd2c4bbf0ec08539d4948b2f27d3"
+RPM_NAME = "eiciel-0.10.0-1.1.aarch64.rpm"
+RPM_HASH = "ee2ec49da6cd084355d7dea4bafabcf4446e707abff832c52deb8a8450d871c5724501d5ed4f32760811214536e56357709a36917368670bc43b046c482e68d0"
 
 RPROVIDES:${PN} += "eiciel"
 

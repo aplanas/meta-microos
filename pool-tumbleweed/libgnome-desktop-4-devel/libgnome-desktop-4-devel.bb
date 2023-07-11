@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "libgnome-desktop-4-devel-44.0-1.1.aarch64.rpm"
-RPM_HASH = "4e56dac7b25c530737352d67fbf3a039591237d7b3b33239fcfd0c53d5e21432d06d395e90d89bb1bb5148c7c16f9c4d2e082eedce3f1373ef41ff278485e0d9"
+RPM_NAME = "libgnome-desktop-4-devel-44.0-1.2.aarch64.rpm"
+RPM_HASH = "e12f81c83a4b8793cc129eca0f123c8bed6367a4eb7cbc740ac50d61a9d2a9a0ec2c9fdb95cbd4be841efcf6ebf60622bf1441d95d02c910cf7570072d7b8e2c"
 
 RPROVIDES:${PN} += "libgnome-desktop-4-devel \
 pkgconfig-gnome-bg-4 \

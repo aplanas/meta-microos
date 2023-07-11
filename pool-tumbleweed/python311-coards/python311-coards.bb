@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "1.0.5"
 
-RPM_NAME = "python311-coards-1.0.5-2.14.noarch.rpm"
-RPM_HASH = "e227c4b450d67e88e7bfabac15b86e63d1b7e633a4ea4c68217b99b9cca7e302acc246cb38eba132e7ec4f839db87742366b38589236d16aee2f7ff79e10bed4"
+RPM_NAME = "python311-coards-1.0.5-2.15.noarch.rpm"
+RPM_HASH = "3622143816b41b1770223cbe1858adccf9a75dbee3198e668a3eb0e275bd3563ea7df7cc3e012772cc5399bde62ace4c7db668df1f87e446c86e7e13638d0c9d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-coards \
+RPROVIDES:${PN} += "python3-coards \
+python3.11dist-coards \
 python311-coards \
 python3dist-coards"
 

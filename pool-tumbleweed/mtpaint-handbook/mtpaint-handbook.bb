@@ -4,8 +4,8 @@ LICENSE = "GFDL-1.2-only"
 
 PV = "3.50"
 
-RPM_NAME = "mtpaint-handbook-3.50-1.10.noarch.rpm"
-RPM_HASH = "6d389f5b297bb1c823bf0e0672e9c493f6964b717d7e9e907d876dfd07441dfdf564743e43023dfb2b66ceca58df4d581660d306eb2cecfd07246355f118b5bd"
+RPM_NAME = "mtpaint-handbook-3.50-1.11.noarch.rpm"
+RPM_HASH = "05d69c7291ff6c26b6e249947800058ec1b35d5b6d9b3be6b30d6935bb84859ae380720934ff4dc85555a5666eac3408fbea37e1a87f3bf13acab453569a8391"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mtpaint-handbook"

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kontact"
 DESCRIPTION = "Provides translations for the 'kontact' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kontact-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "57ba6f6608e3be2ec27dc9d44b9e47d2913965bfa40f666397975c026e67d23dca4fbcb9836184784952c313260a5f0a7b79a702cd9975ac9da9b00d3a52b23b"
+RPM_NAME = "kontact-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "ed1c74876391a3ce9288bd0692972650dedb11b01fde9b2bee635138259c5bc1df133cbeb7ceb221680e05a71ac964b1479f3564f5e958a6306b3f7c70c8be46"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kontact-lang \

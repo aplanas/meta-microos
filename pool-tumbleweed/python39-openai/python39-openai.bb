@@ -12,8 +12,8 @@ LICENSE = "MIT"
 
 PV = "0.26.2"
 
-RPM_NAME = "python39-openai-0.26.2-1.5.noarch.rpm"
-RPM_HASH = "632b06da68fd622bb505005a48981ba020aa55cebf44feaf2644e92b464be328c420ec35cff27361076d7b7000e27533a45c5a193cebfc9aa1ee104174e041e5"
+RPM_NAME = "python39-openai-0.26.2-1.7.noarch.rpm"
+RPM_HASH = "aa89afa845051f07b446e780cd97e1ce315c16306f5fe535215f9811669db607d768cce070c5fa3e136da6dc932d082233f46a4b83dac20ff8284462caf1fafe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-openai \

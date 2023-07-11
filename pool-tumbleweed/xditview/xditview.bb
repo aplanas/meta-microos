@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.0.6"
 
-RPM_NAME = "xditview-1.0.6-1.2.aarch64.rpm"
-RPM_HASH = "30c2553302abdc18fcb15353479eefc6dc756b553df7789578ab2ac27d2db8b0079b3b3a35fe941e35989fcd9d2c138d3d87a6e9d3106e8412b456a93d11a610"
+RPM_NAME = "xditview-1.0.6-1.3.aarch64.rpm"
+RPM_HASH = "911ba9ee45c4c233da685f32b95532f676ca1531bf38f7fa5da77124f49f464f053d3b4e99fb4132a1d40efc8bb1661a296d99f9bfcdbaeba61dc473a40f59ea"
 
 RPROVIDES:${PN} += "xditview"
 

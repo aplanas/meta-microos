@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "5.15.0"
 
-RPM_NAME = "plplot-driver-cairo-5.15.0-16.2.aarch64.rpm"
-RPM_HASH = "5739c0f4b7fd0f208b070d443e1d57e53422c74324906749107031bee83ebd4b377a70976192febdfa843a12608d4d2a6ad7c3ee008c0cd61351f0898de5d910"
+RPM_NAME = "plplot-driver-cairo-5.15.0-17.1.aarch64.rpm"
+RPM_HASH = "63ab49ca33dddf2c2ca2ce74933d23a798c0aac2122a06558847207e7cfe7f867f275c35e07ce47a71e203e655e389cd3ec28f08d75012d30f35076ac12a1eae"
 
 RPROVIDES:${PN} += "plplot-driver-cairo"
 

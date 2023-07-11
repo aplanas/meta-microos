@@ -5,16 +5,16 @@ via Jinja templates. \
 This package provides the jupyter components."
 LICENSE = "BSD-3-Clause & MIT"
 
-PV = "7.3.1"
+PV = "7.6.0"
 
-RPM_NAME = "jupyter-nbconvert-7.3.1-2.1.noarch.rpm"
-RPM_HASH = "dca58f7e3d70f7885a0c45fbe9e3c60fb89ac9b38399039b1088f0fdaf66e8fbf52e74fb5f291f1e5524ff6af27ba44a56823c06713287e0c34adb605c9165d2"
+RPM_NAME = "jupyter-nbconvert-7.6.0-1.2.noarch.rpm"
+RPM_HASH = "a0ebf42e4e44d2326088ee524ecea2e45163b1b1f651b333e70014afbc2b28a2b95f3fca30057c8d62ded993c476e3de7ae29a6328e8b28ed004e75c98bda9d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-nbconvert"
 
 RDEPENDS:${PN} += "jupyter-ipykernel \
 jupyter-jupyter-core \
-python3-nbconvert"
+python3dist-nbconvert"
 
 inherit rpm

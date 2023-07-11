@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.6"
 
-RPM_NAME = "yaics-0.6-2.9.aarch64.rpm"
-RPM_HASH = "ff81ac402d8b1b83599262a0ea36fb50b9ee2757a135876d4ec235ce2a8cf7818fb12c18611e4893eb7b34e457afb0b6acfec39d30e010b35de169f7c8a5e516"
+RPM_NAME = "yaics-0.6-2.10.aarch64.rpm"
+RPM_HASH = "7164adc722a6cea674e4824ed88637c3faddaae31d4b49d8c5810def04b5494ad1e5fae0b87206968aa76181b459c27fb9a35ab42979ca82144881ed3371bc3e"
 
 RPROVIDES:${PN} += "yaics"
 

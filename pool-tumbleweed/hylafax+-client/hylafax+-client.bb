@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "7.0.7"
 
-RPM_NAME = "hylafax+-client-7.0.7-1.4.aarch64.rpm"
-RPM_HASH = "d8f1d39f195d623307b1163a97c0311f337bd95e437d402902e4d45c82aba083893b65a1ead999a73c4217357bd710b11c4db51701737560ec2686bb22e3fa3c"
+RPM_NAME = "hylafax+-client-7.0.7-1.6.aarch64.rpm"
+RPM_HASH = "8a32556848783a76d0b606d0550d9619e096449f709abde99ff9a0461f881dc27fbd63674d01cd04427d0a4e59bac812dc65dcb0efdfe68688fba2c6addf4e9b"
 
 RPROVIDES:${PN} += "config-hylafax+-client \
 hylafax+-client \

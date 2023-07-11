@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.15.1"
 
-RPM_NAME = "python39-makefun-1.15.1-2.2.noarch.rpm"
-RPM_HASH = "1fa5d0feafc999965c0d85befaf6f04e998e4d10724ccf78ff73ed0a6a69e0aa8a0f96dee961b36601150a26c45df83fec403787a30aa8d79592752cc10a8776"
+RPM_NAME = "python39-makefun-1.15.1-2.4.noarch.rpm"
+RPM_HASH = "13f4dcfaf3162adde82bec0d439b84dfc19982903512a5602d05cf266c6df22e59eb34317bccda1ac42de47b75b278958c8dc3fe16494f658bb32d0f5e30c25f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-makefun \

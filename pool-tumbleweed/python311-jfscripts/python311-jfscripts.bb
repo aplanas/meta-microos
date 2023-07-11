@@ -11,11 +11,12 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "python311-jfscripts-1.1.0-1.4.noarch.rpm"
-RPM_HASH = "abb6fc076ec6a466bdcf3cb0e244a82ac10d87f043be26425d6ab27deedd95cef3de2f14c98dc7381567795bd754d70ce75041a5295e17f5f72f23e2b8eb6bb3"
+RPM_NAME = "python311-jfscripts-1.1.0-1.5.noarch.rpm"
+RPM_HASH = "239aace114b03564b5204964e5cf19a57811862a6e26fcc4930410ae058f1bf2b92f66c6b077ce81dc33122447668747f06651bfb1457a673a9c558f749b47a3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-jfscripts \
+RPROVIDES:${PN} += "python3-jfscripts \
+python3.11dist-jfscripts \
 python311-jfscripts \
 python3dist-jfscripts"
 

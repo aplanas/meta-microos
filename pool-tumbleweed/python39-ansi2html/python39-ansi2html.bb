@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.8.0"
 
-RPM_NAME = "python39-ansi2html-1.8.0-2.1.noarch.rpm"
-RPM_HASH = "f858b11e8be9da257b8671b85b096bc1cce0ab694be5ad006d19ab893c60cf2f07d7faa2d28e9412b5ae31fd9ee58e17aa6858187803012e47f6067800f3b2cf"
+RPM_NAME = "python39-ansi2html-1.8.0-2.3.noarch.rpm"
+RPM_HASH = "85e4007bd374d32d6016afe2ea619001f96273941eb4bee33850ed34d33dda8253b92407512999f709962c5fd6cb006c36f0638e4ebe5a5895f420cfef7f95a2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-ansi2html \

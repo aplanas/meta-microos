@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.6.7"
 
-RPM_NAME = "json4s-core-3.6.7-1.16.noarch.rpm"
-RPM_HASH = "74c459b9b54cca50f568c9490295027036604beca5ce7663f5a67fc8cb6edf4f689b74f85d3f5879972c83db4a09948297b9a265ac2f317d1445847411a59a81"
+RPM_NAME = "json4s-core-3.6.7-1.17.noarch.rpm"
+RPM_HASH = "af57e51d7b76e93152b5dcd3c0abeea7a2f57313c95a12188cc9d1776fec12530cac28c17969459b40cf52cc15072ee3f66d8a4633bf59ee0e76b8e211aa5202"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "json4s-core \

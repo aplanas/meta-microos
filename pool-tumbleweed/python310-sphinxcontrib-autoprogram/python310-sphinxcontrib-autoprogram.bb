@@ -6,12 +6,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.1.8"
 
-RPM_NAME = "python310-sphinxcontrib-autoprogram-0.1.8-2.1.noarch.rpm"
-RPM_HASH = "50e5d603f9fb0e8274bce9e83ffbb99b759e0d26d0f2cb84a0186a975b0f47622946c9af4c333235ef47de48ebccb175259ffe484aa21594ae1f77914f6c62cd"
+RPM_NAME = "python310-sphinxcontrib-autoprogram-0.1.8-2.3.noarch.rpm"
+RPM_HASH = "37376c8df41387ab58bc08c241bc6c345b3fde4865b2b0168c14570d8dbfd76244436084722bcca88610d8090e05226082f8099d89567d3ee961f3c5d673bdb0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-sphinxcontrib-autoprogram \
-python3.10dist-sphinxcontrib-autoprogram \
+RPROVIDES:${PN} += "python3.10dist-sphinxcontrib-autoprogram \
 python310-sphinxcontrib-autoprogram \
 python3dist-sphinxcontrib-autoprogram"
 

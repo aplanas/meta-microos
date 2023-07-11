@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.1"
 
-RPM_NAME = "python39-pytest-responsemock-1.1.1-1.5.noarch.rpm"
-RPM_HASH = "ae0542f86154484885348239d3810986726e6876ac40ad28e55569e7ba484d3ad395a69d7954e9a8d990f4ea387ad88f8d931ba64e613c89b55d284b54ca260c"
+RPM_NAME = "python39-pytest-responsemock-1.1.1-1.7.noarch.rpm"
+RPM_HASH = "0d10387ce09f701fc9156f6656f96ceaf6a74e1071b2f301a5ff1eea9a4dd23a15a2dcbfd437114888a8fd41e419c7aed05e6dba4ca8f98c1a5507f29d9e0261"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytest-responsemock \

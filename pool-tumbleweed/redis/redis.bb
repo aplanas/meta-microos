@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "7.0.11"
 
-RPM_NAME = "redis-7.0.11-2.1.aarch64.rpm"
-RPM_HASH = "7e57a96e092f8305f09348da09ba1bf10ce789f0a1c951aadeac17564c3facf5673b2161da681629bfbcac73e8624eb7f97dbf505e50274141304f1e8e9fbcb5"
+RPM_NAME = "redis-7.0.11-2.2.aarch64.rpm"
+RPM_HASH = "7ded6b9b63e262530d43197936c76c91f227a626bfe53e6f288238358c43aefb701790089b085f62933f23e8d2e3bd93d3094d17a4fa164caf205b103a223b2b"
 
 RPROVIDES:${PN} += "config-redis \
 group-redis \

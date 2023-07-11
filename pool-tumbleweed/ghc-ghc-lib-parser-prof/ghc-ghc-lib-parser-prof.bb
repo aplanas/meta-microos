@@ -2,13 +2,13 @@ SUMMARY = "Haskell ghc-lib-parser profiling library"
 DESCRIPTION = "This package provides the Haskell ghc-lib-parser profiling library."
 LICENSE = "BSD-3-Clause"
 
-PV = "9.4.4.20221225"
+PV = "9.4.5.20230430"
 
-RPM_NAME = "ghc-ghc-lib-parser-prof-9.4.4.20221225-1.3.aarch64.rpm"
-RPM_HASH = "d85fb9859104b3d3190819fea5f13a0bca1c66aa7e421d8f08090f3eacdf96953a58e775bc09ef6cc9b1becc21744438be35a65c34e0caa9c326d252984bfc90"
+RPM_NAME = "ghc-ghc-lib-parser-prof-9.4.5.20230430-1.3.aarch64.rpm"
+RPM_HASH = "7fa41d15a5631223fe1a38f6cf8db917633f4bd791bb6c0eb7c89c6977e9691b71cde696621c956257a50c4b27f66cb689da97e2b0d1798931a0945e380c61ba"
 
 RPROVIDES:${PN} += "ghc-ghc-lib-parser-prof \
-ghc-prof-ghc-lib-parser-9.4.4.20221225-IYLH4ajMYTmJphnJAgaapb"
+ghc-prof-ghc-lib-parser-9.4.5.20230430-3l319oISrwg5O8XOrKFn5M"
 
 RDEPENDS:${PN} += "ghc-ghc-lib-parser-devel \
 ghc-prof-array-0.5.4.0 \

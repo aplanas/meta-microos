@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.3.10"
 
-RPM_NAME = "libfftw3_3_3_10-gnu-openmpi3-hpc-3.3.10-3.4.aarch64.rpm"
-RPM_HASH = "c13503f0f08e1ce8715075e534a08ff096c731704e76430ba450cacab24c166dfefc0f9abf2d8e4b43faa8eee680efe6bd5d7e2f1ae13a4183009465f5951339"
+RPM_NAME = "libfftw3_3_3_10-gnu-openmpi3-hpc-3.3.10-3.5.aarch64.rpm"
+RPM_HASH = "4f86b43863eb6226fa158d6130b55ac5c74e822749e65e5fc5c3006c9f7dc052aabd2f08c195abb92a6a6f0c963275428ee16f0026fea09d2eaa5f40b84ad273"
 
 RPROVIDES:${PN} += "fftw3 \
 libfftw3-3-3-10-gnu-openmpi3-hpc"

@@ -12,13 +12,11 @@ LICENSE = "MIT"
 
 PV = "6.3.0"
 
-RPM_NAME = "python310-pydocstyle-6.3.0-1.4.noarch.rpm"
-RPM_HASH = "ade7d4c04e8553cdf09a91cf6d71eb7af8520fb9db6d0fce797f689da3fca758757351ac7b3c0791bf1cc51e05af56e760da16b819f7e89d4243ffe79913da5c"
+RPM_NAME = "python310-pydocstyle-6.3.0-2.3.noarch.rpm"
+RPM_HASH = "d1db2b9a8cee4e44bcd36e46444d9aec1eea8209ce87240937b15fc651a54ea909ef42f8f1fae05662d031843bd8ca1296db8b7c6ccd02739185ff636041c4b3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pep257 \
-python3-pydocstyle \
-python3.10dist-pydocstyle \
+RPROVIDES:${PN} += "python3.10dist-pydocstyle \
 python310-pep257 \
 python310-pydocstyle \
 python3dist-pydocstyle"

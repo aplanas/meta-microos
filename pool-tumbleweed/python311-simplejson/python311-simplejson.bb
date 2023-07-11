@@ -6,10 +6,11 @@ LICENSE = "AFL-2.1 | MIT"
 
 PV = "3.19.1"
 
-RPM_NAME = "python311-simplejson-3.19.1-1.1.aarch64.rpm"
-RPM_HASH = "1379e41f90eadf48c32a46b1c48f0966333fc9e2652898fce5c9bd9a4151df982f634f66ddfe1af907eb168bc54e954b0bb8a254c79d815fcca183717e7bbb64"
+RPM_NAME = "python311-simplejson-3.19.1-1.3.aarch64.rpm"
+RPM_HASH = "f32fb147b91d6469030735fbcd6393f6687d7e28418fb5a1f6ec2d0317dee0119446e0b3e196c4b9b593433f2ff68452ae793c6d3e8227a19f6763e2c335da02"
 
-RPROVIDES:${PN} += "python3.11dist-simplejson \
+RPROVIDES:${PN} += "python3-simplejson \
+python3.11dist-simplejson \
 python311-simplejson \
 python3dist-simplejson"
 

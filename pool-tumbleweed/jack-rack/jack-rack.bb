@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "1.4.7"
 
-RPM_NAME = "jack-rack-1.4.7-142.1.aarch64.rpm"
-RPM_HASH = "fe5bbed5dfd11c36e68f2f5c761eaf11f4767ca7326b648d0cc614e39afced8dee54fa9be1b99b81bc9e7072cd36f1a8ba42577faa9b13542dea72935379ce6c"
+RPM_NAME = "jack-rack-1.4.7-142.2.aarch64.rpm"
+RPM_HASH = "ec4e5b959b472b84ccbdefee5ca2b4f0a936697dd96409c2faa7a18c738dac0a16a8ca26b63da6386abe63a13f2c3b0a632729b1c9bce9543017af238656e51f"
 
 RPROVIDES:${PN} += "jack-rack"
 

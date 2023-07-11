@@ -6,10 +6,10 @@ to maintain both IKEv1 and IKEv2 using the /etc/ipsec.conf and the \
 /etc/ipsec.secrets files."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.9.10"
+PV = "5.9.11"
 
-RPM_NAME = "strongswan-ipsec-5.9.10-2.1.aarch64.rpm"
-RPM_HASH = "33a9fba47de5170b92f21a9dea99ecff833c1dd8f474522d0a243bf6c96fdd14329bf0d226807f7e3822d671cc6c87338e935a18098de61197db09631c13581f"
+RPM_NAME = "strongswan-ipsec-5.9.11-2.1.aarch64.rpm"
+RPM_HASH = "1c7b56c7b8c7c9d4023af825d8fa8a6b3c9f696128700d1805ad44b1b35a4e21175e5f22bdc68738db3d9e5b70ee0804432cdb6d57953dc59f5722ba54aae8d9"
 
 RPROVIDES:${PN} += "VPN \
 config-strongswan-ipsec \

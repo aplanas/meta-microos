@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "7.0.0"
 
-RPM_NAME = "python310-azure-mgmt-azurestackhci-7.0.0-1.5.noarch.rpm"
-RPM_HASH = "c9387f10e74328ddbfe274f5f2352c502957ffa954046dd012086e8f8d1b25ea9722d06ded4d9d431a4f901a5a86f71441301c37a039ccaa65fd34aeb7ca564b"
+RPM_NAME = "python310-azure-mgmt-azurestackhci-7.0.0-1.6.noarch.rpm"
+RPM_HASH = "fb845dcd0437e62d538e4f2d0b6b98a69c40f2e945ad5364a6e6a98bac2da32fa514b704061f4b98f11de5727babaf6ea4a232600aac6c2c962bb95c31149b2b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-azurestackhci \
-python3.10dist-azure-mgmt-azurestackhci \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-azurestackhci \
 python310-azure-mgmt-azurestackhci \
 python3dist-azure-mgmt-azurestackhci"
 

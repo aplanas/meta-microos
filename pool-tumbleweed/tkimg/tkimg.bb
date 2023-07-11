@@ -6,35 +6,35 @@ The provided format handlers include bmp, gif, ico, jpeg, pcx, png, \
 ppm, ps, sgi, sun, tga, tiff, xbm, and xpm."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.4.13"
+PV = "1.4.14"
 
-RPM_NAME = "tkimg-1.4.13-2.1.aarch64.rpm"
-RPM_HASH = "a370ca409190bdc855cc6f9abdc39cfa835060b99d3e44992d3d65d10d666bab7204f832d427a008f1034907ac9cb680ef938e0e0729f42c3c08b98520e29051"
+RPM_NAME = "tkimg-1.4.14-1.1.aarch64.rpm"
+RPM_HASH = "cbc29f0320f4144ad57ee770bc824fc86e37bcf6d3455df1b52c0de1add8a06a48081d502c748a941a06d0bcfc0d7a1202bba1f296c9c4f03a028e38400d6e12"
 
-RPROVIDES:${PN} += "libjpegtcl9.4.0.so \
-libpngtcl1.6.37.so \
-libtifftcl4.1.0.so \
-libtkimg1.4.13.so \
-libtkimgbmp1.4.13.so \
-libtkimgdted1.4.13.so \
-libtkimgflir1.4.13.so \
-libtkimggif1.4.13.so \
-libtkimgico1.4.13.so \
-libtkimgjpeg1.4.13.so \
-libtkimgpcx1.4.13.so \
-libtkimgpixmap1.4.13.so \
-libtkimgpng1.4.13.so \
-libtkimgppm1.4.13.so \
-libtkimgps1.4.13.so \
-libtkimgraw1.4.13.so \
-libtkimgsgi1.4.13.so \
-libtkimgsun1.4.13.so \
-libtkimgtga1.4.13.so \
-libtkimgtiff1.4.13.so \
-libtkimgwindow1.4.13.so \
-libtkimgxbm1.4.13.so \
-libtkimgxpm1.4.13.so \
-libzlibtcl1.2.11.so \
+RPROVIDES:${PN} += "libjpegtcl9.5.0.so \
+libpngtcl1.6.38.so \
+libtifftcl4.4.0.so \
+libtkimg1.4.14.so \
+libtkimgbmp1.4.14.so \
+libtkimgdted1.4.14.so \
+libtkimgflir1.4.14.so \
+libtkimggif1.4.14.so \
+libtkimgico1.4.14.so \
+libtkimgjpeg1.4.14.so \
+libtkimgpcx1.4.14.so \
+libtkimgpixmap1.4.14.so \
+libtkimgpng1.4.14.so \
+libtkimgppm1.4.14.so \
+libtkimgps1.4.14.so \
+libtkimgraw1.4.14.so \
+libtkimgsgi1.4.14.so \
+libtkimgsun1.4.14.so \
+libtkimgtga1.4.14.so \
+libtkimgtiff1.4.14.so \
+libtkimgwindow1.4.14.so \
+libtkimgxbm1.4.14.so \
+libtkimgxpm1.4.14.so \
+libzlibtcl1.2.13.so \
 tkimg"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \

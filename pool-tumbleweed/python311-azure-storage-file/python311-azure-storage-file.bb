@@ -7,11 +7,12 @@ LICENSE = "MIT"
 
 PV = "2.1.0"
 
-RPM_NAME = "python311-azure-storage-file-2.1.0-2.15.noarch.rpm"
-RPM_HASH = "4011157fc9366a59f9f7c4a870be39225101785ca4255885229ba81f61d1f344061329228b3504733798b1a45dd60bd81959698aae5f5b6d9ef8152855319732"
+RPM_NAME = "python311-azure-storage-file-2.1.0-2.17.noarch.rpm"
+RPM_HASH = "f4127328578aa9af93df6148439f8f998a69513a544adda50f757c0cd550356db05feedaadde397a02afb6ebb989b5e167d0043ae43c64fce4e7f4b8793b0dce"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-storage-file \
+RPROVIDES:${PN} += "python3-azure-storage-file \
+python3.11dist-azure-storage-file \
 python311-azure-storage-file \
 python3dist-azure-storage-file"
 

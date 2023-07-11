@@ -17,8 +17,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.1.0.post0"
 
-RPM_NAME = "python39-pytz-deprecation-shim-0.1.0.post0-4.1.noarch.rpm"
-RPM_HASH = "1fd88cc8bb1f63282484869ba2a8dcee02d92cd29def3bc0933ce95f9ad0c8069ea27dc6530454e7a51f90503f74411dbf0aa1daf2d9319e580cd314f9af9080"
+RPM_NAME = "python39-pytz-deprecation-shim-0.1.0.post0-5.1.noarch.rpm"
+RPM_HASH = "5e8b8a7b49b4ee39adb6b72e15f31101a3cf45963a5fc876ac79fbf446675f7df3513ca7494d6d44fa73210033720a171c5f0045c4bce7cf76dd0ed9dcc631ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytz-deprecation-shim \

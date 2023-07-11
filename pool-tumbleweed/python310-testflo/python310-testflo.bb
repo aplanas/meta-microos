@@ -8,12 +8,11 @@ LICENSE = "Apache-2.0"
 
 PV = "1.4.9"
 
-RPM_NAME = "python310-testflo-1.4.9-2.4.noarch.rpm"
-RPM_HASH = "1dc55b240879c6529ee69ff19abd493820395b273a614dfa8052c1789bce69d9a58499998bed9e8974defe78f8f54eaca8683c9da4081cd5e17bf4c33df66514"
+RPM_NAME = "python310-testflo-1.4.9-2.6.noarch.rpm"
+RPM_HASH = "28ed65de7ffaf649a4aed0bae0f0cc9f256bcc08b7cd53ec213f1b753e14c7e0e70fca3654202c8f311a74c186c4066f2f3e32534541e5eb5998da946268b2bf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-testflo \
-python3.10dist-testflo \
+RPROVIDES:${PN} += "python3.10dist-testflo \
 python310-testflo \
 python3dist-testflo"
 

@@ -6,10 +6,10 @@ architectures, including saturated addition and subtraction, and many \
 arithmetic operations."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.4.33"
+PV = "0.4.34"
 
-RPM_NAME = "orc-0.4.33-1.3.aarch64.rpm"
-RPM_HASH = "e039d0d9f1fa554f9e8cab8b4ed598f51dbb36cd5d31b4db842bfd4a963e694bdc6c3dfd8189ab25120e93961c7e5e254856518db997104d8eec7af571d36b50"
+RPM_NAME = "orc-0.4.34-1.1.aarch64.rpm"
+RPM_HASH = "2d779bf70ee6e92ada4d3cfd6c58c5407857c848df8114230ff4094841df88e4b9a373f0fb503df56752e7f76328bec859659e66b9ee6dc488791be75b60aaaa"
 
 RPROVIDES:${PN} += "orc \
 orc-devel \

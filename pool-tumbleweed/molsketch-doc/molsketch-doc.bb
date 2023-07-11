@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.7.3"
 
-RPM_NAME = "molsketch-doc-0.7.3-1.3.noarch.rpm"
-RPM_HASH = "aa60778eb4d148fae051d0bc3f21ede05dc9a593cd0ff88f8539fe9c8087aec5c7d88b80e4a2a67e7f877c7b9366b1adf53567a1e1204d04adf5d68919d499f7"
+RPM_NAME = "molsketch-doc-0.7.3-1.4.noarch.rpm"
+RPM_HASH = "962500ad802e918c76b785d0310215efd00a18e786ebe51d39a7199567e08580be3231cf0a35ff9451854fd2b5195d9b02c45f0faa36a998d64b398fade52301"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "molsketch-doc"

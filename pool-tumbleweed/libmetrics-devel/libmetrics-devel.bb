@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.1"
 
-RPM_NAME = "libmetrics-devel-1.1-5.6.aarch64.rpm"
-RPM_HASH = "6a3388e6f6332b9240539fecfde60defc3b5d0d4e26b8f1f85c00e0b684e39ebdf359890005ea0d4ffebfb3da2be3abd0083edec8ae766e4235f54dd7848277a"
+RPM_NAME = "libmetrics-devel-1.1-5.7.aarch64.rpm"
+RPM_HASH = "208619577f2e250b2049a4c53ee9912a4298a446429f2a50fb021a648ce87131dbbb595ba1967fd1b8eb13cf8ebeec12fc3a048fe56fbbe620824ce8534e76fb"
 
 RPROVIDES:${PN} += "libmetrics-devel"
 

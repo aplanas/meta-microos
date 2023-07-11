@@ -4,10 +4,10 @@ DESCRIPTION = "This package contains network-related GIO modules for glib. \
 Currently, there is only a proxy module based on libproxy."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.76.0"
+PV = "2.76.1"
 
-RPM_NAME = "glib-networking-2.76.0-1.1.aarch64.rpm"
-RPM_HASH = "dd27160fbda9965f81ce2b0e195c786e1681a67135cf7ce760818be3f682371c1f12d69261ba0ad2f1a09276f8392c50f1cdcc0d8fe79c0d15bb25cb5fb707a3"
+RPM_NAME = "glib-networking-2.76.1-1.1.aarch64.rpm"
+RPM_HASH = "9afa9a93958b8f936869eec355fe8dd866cc9ebd52de579d4c278800746e4722c45fce723646d8ed3ff481247b8d643c0b05ffec928e3c24493e7bd03eeaf38b"
 
 RPROVIDES:${PN} += "glib-networking \
 libgiognomeproxy.so \

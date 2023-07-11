@@ -5,12 +5,11 @@ LICENSE = "Apache-2.0"
 
 PV = "0~20230225"
 
-RPM_NAME = "python310-dfdatetime-0~20230225-1.2.noarch.rpm"
-RPM_HASH = "45c508f99fbab255213ffa3e51d15e86eee4c0b212eecb538bea474103756c8138982a9a1266ab29d67fd78938fd0852ef58e8b5bd259a209dcaf5e98c195e18"
+RPM_NAME = "python310-dfdatetime-0~20230225-1.4.noarch.rpm"
+RPM_HASH = "efe76da4d194fcde881fa7aa6c394e2620e5fac0853af9052e58c5561aa788fc6de9bfc9dc6e68dc3c1e9e0bfcc08263bf23a296b3b8051812f1b8e5e07edf46"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-dfdatetime \
-python3.10dist-dfdatetime \
+RPROVIDES:${PN} += "python3.10dist-dfdatetime \
 python310-dfdatetime \
 python3dist-dfdatetime"
 

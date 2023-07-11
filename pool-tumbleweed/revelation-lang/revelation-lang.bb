@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.5.4"
 
-RPM_NAME = "revelation-lang-0.5.4-2.6.noarch.rpm"
-RPM_HASH = "0e438b1a049cad1543591e1665ddedea10408f7dd4e688840502fa8ce88400e48e9cd4a8ba1a91a67aab1c64f8cc76623f7ca1fbc33d23965f1faf96ed7456c7"
+RPM_NAME = "revelation-lang-0.5.4-2.7.noarch.rpm"
+RPM_HASH = "421c5d52ae94bc0174727523f89a00c058635a6a993ee987a6dede6bebc1e55372e9a6fabe66b03345895129a24692a01fe77d399acba2625d086c5a5f12b903"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-revelation-ca \

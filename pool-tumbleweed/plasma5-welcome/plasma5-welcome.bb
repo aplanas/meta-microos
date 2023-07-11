@@ -2,10 +2,10 @@ SUMMARY = "Onboarding wizard for Plasma"
 DESCRIPTION = "Welcome Center is the perfect introduction to KDE Plasma! It can help you learn how to connect to the internet, install apps, customize the system, and more!"
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "plasma5-welcome-5.27.5-1.1.aarch64.rpm"
-RPM_HASH = "1a559cf844efb922a934c4e3a8ee9d998ab62b03407e94493c75dc824b714aec2189b7df5cd68136fa8d4aa9f074e067f9e6049e7a14d3503a0358d23cde9c61"
+RPM_NAME = "plasma5-welcome-5.27.6-1.1.aarch64.rpm"
+RPM_HASH = "f4eabe321edfdf8131432bbdd2f74c59b7ab46e6d9bf26a94bf6c2d01783a2d3d02dcda4bfa97ed56f84905fe7fdaecbd3ca2f222241a222423d03780bf675e7"
 
 RPROVIDES:${PN} += "plasma5-welcome \
 qt5qmlimport-org.kde.plasma.welcome.1"

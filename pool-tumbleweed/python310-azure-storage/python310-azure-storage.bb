@@ -9,13 +9,11 @@ LICENSE = "Apache-2.0"
 
 PV = "0.36.0"
 
-RPM_NAME = "python310-azure-storage-0.36.0-3.14.noarch.rpm"
-RPM_HASH = "56f2e46f25fb19ac60b3bb01563b19e3e2eb4fa2a862a11c03c89bb76140447f03a8aa63b9a68c171433121490d78411018dae023cd79acc21d1d4c3ae3fa849"
+RPM_NAME = "python310-azure-storage-0.36.0-3.16.noarch.rpm"
+RPM_HASH = "8382750a63d56e1076e294f1209cca66aeb508658fcc0eeaf8fd128180387e276073659fb781993eb17af0078908d88b1e90854d76f72229afc3fd93554347fc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-sdk-storage \
-python3-azure-storage \
-python3.10dist-azure-storage \
+RPROVIDES:${PN} += "python3.10dist-azure-storage \
 python310-azure-sdk-storage \
 python310-azure-storage \
 python3dist-azure-storage"

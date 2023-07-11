@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-or-later"
 
 PV = "0.9.20"
 
-RPM_NAME = "xrdp-devel-0.9.20-7.3.aarch64.rpm"
-RPM_HASH = "936678458eb374a2f28b611200991cd0e0cde2ee76415fc77eb882aa3ba97a2a1baa714b294ae61cab38d606ac200e4ff2641cd0791491ba4aec1fd98692b0cf"
+RPM_NAME = "xrdp-devel-0.9.20-8.1.aarch64.rpm"
+RPM_HASH = "088cdfe3817aa3c5018aab80ef6031bde5348fd4facb27fc51b85e907c5b8fa02ee8760494c32b70f05dda372a65a91860f8c797c0e20e7ecc50d8fb7d4362cc"
 
 RPROVIDES:${PN} += "pkgconfig-libpainter \
 pkgconfig-rfxcodec \

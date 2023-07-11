@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.0.6"
 
-RPM_NAME = "python39-compressed_rtf-1.0.6-1.8.noarch.rpm"
-RPM_HASH = "3cfab0f033ac020db86e6e818c87c71c749a9392ca5c8104005302bfbceb736f6bba88564b2c78099200dac6a212e69e5101297a5bfd9f5b8ef4c06b24edda8e"
+RPM_NAME = "python39-compressed_rtf-1.0.6-1.9.noarch.rpm"
+RPM_HASH = "bfd38bd6a68c039df78f587671968a4333cf5c84864dd0b546558411b1efc8a243dd4b6c5d893c4eb3ce25ba1b5aa83656ad0d82b578c24945713753f1755246"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-compressed-rtf \

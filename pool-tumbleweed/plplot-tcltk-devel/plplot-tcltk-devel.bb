@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "5.15.0"
 
-RPM_NAME = "plplot-tcltk-devel-5.15.0-16.2.aarch64.rpm"
-RPM_HASH = "2748fc4a1ea09f5c315e92d109cf9971b44ef8cc241d0cd9b5d3b28af8dba0c6f52dc806012cd9447774c1c068a1a6958aa13216e85900ed6e128e492ace06c7"
+RPM_NAME = "plplot-tcltk-devel-5.15.0-17.1.aarch64.rpm"
+RPM_HASH = "5730458dd341fed42fe33ee92e925b50fe723dc71330b5d719b7858dcb684e4a0af46fce355bab9c4d10739e7ea8d6dcb09d5ebe8c436433c4b10dbd23b3880d"
 
 RPROVIDES:${PN} += "pkgconfig-plplot-tcl \
 pkgconfig-plplot-tcl-Main \
@@ -25,7 +25,7 @@ libc.so.6 \
 libplplot.so.17 \
 libplplottcltk-Main.so.1 \
 libplplottcltk.so.14 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libtcl8.6.so \
 libtk8.6.so \
 pkgconfig \

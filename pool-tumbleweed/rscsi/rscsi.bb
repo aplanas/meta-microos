@@ -11,8 +11,8 @@ LICENSE = "CDDL-1.0"
 
 PV = "2022.10.16"
 
-RPM_NAME = "rscsi-2022.10.16-47.3.aarch64.rpm"
-RPM_HASH = "3aa31b53e3bc914f7d99c26459da2f6707edf35e46deb4e40442a1acf34fe58c9e3c5f7a11b5774b3db4842a93541e6dfd4a1b7f0d75fb0575a704b3c4d93428"
+RPM_NAME = "rscsi-2022.10.16-47.4.aarch64.rpm"
+RPM_HASH = "51c68ce24dcc6c1c273cd7fc839ee458eac223e010c9fad1e8283593bb3329b501b717709a3c0f4d54dec98255ec75ade64d19ceeac7bad1b4211e37ef4a48f4"
 
 RPROVIDES:${PN} += "cdrecord-/usr/sbin/rscsi \
 config-rscsi \

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kgoldrunner"
 DESCRIPTION = "Provides translations for the 'kgoldrunner' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kgoldrunner-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "c187e88fe3afaf118b6bd6607deda3ad1585083defbc335a91c05ccd1d1bbd7f5ba64388284160e67ba04fc6db286dae3589719f9d609cb44419469e39d4e4eb"
+RPM_NAME = "kgoldrunner-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "8fe5f2d4b8ed7cbaed4e8fbce79e0df148cf2bcb707b751391e2f1badb2f1b9cb3adadce21c172206e3890a12b74d7ce3d32766f83a881cc5aaffed4734aa2db"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kgoldrunner-lang \

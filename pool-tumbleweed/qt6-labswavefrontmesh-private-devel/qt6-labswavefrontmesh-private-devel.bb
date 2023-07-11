@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-labswavefrontmesh-private-devel-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "e827528df90b7707ef1eb725a36f518d8db74d1a39837287e584ea42b3b6aecacfca020300ef08df38c4bc7964e9b2fcb10c006f911c3f31c110162c6a7573ab"
+RPM_NAME = "qt6-labswavefrontmesh-private-devel-6.5.1-1.3.aarch64.rpm"
+RPM_HASH = "fccf737e1c77c168aefa5e0c3ffff5bb9f18d6645b4f5838402a7ac7ff687d1dc3c1faccd1586a66bac7a3b3c669d9c4a1f39927a287406d62fb9ca339027e20"
 
 RPROVIDES:${PN} += "qt6-labswavefrontmesh-private-devel"
 

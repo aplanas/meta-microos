@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
 PV = "1.0.0"
 
-RPM_NAME = "osmo-pcu-1.0.0-1.10.aarch64.rpm"
-RPM_HASH = "23d6aedaaa2e4642b6be671552e67ad267642d007f969688f4d8dbb27e1279f7d6111dfa80a48f7f182e1e205c2dd7ae68fd4448fe612aa0b862df4f74d1d691"
+RPM_NAME = "osmo-pcu-1.0.0-1.11.aarch64.rpm"
+RPM_HASH = "7229a80f50d47633011033669adf2e5ff5cac568349c3b916cd397ac57e135316b3d21f8af685ede9e365a3acba90fe62474da6317756809016c4a37e11aa481"
 
 RPROVIDES:${PN} += "config-osmo-pcu \
 osmo-pcu"

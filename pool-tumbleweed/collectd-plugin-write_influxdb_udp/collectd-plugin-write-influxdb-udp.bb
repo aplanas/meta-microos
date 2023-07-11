@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & MIT"
 
 PV = "5.12.0.134.g4cebbfc"
 
-RPM_NAME = "collectd-plugin-write_influxdb_udp-5.12.0.134.g4cebbfc-1.4.aarch64.rpm"
-RPM_HASH = "0764013b2d6c32a856d77963a57ed7bc2ded82618d50998c03baf83e0ae5e1d09202ea0f310ecaea18de0fd1b06b1dd3ff617ddeea35ce8ba3fa9b177e91cacc"
+RPM_NAME = "collectd-plugin-write_influxdb_udp-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
+RPM_HASH = "f03c74d0f98af244d67bcdbb73e110a936e3406e098f699cd6c1e013a62b528dc6aa6a76ad5ca9b9a2a780db8049d0f34c3070f83dab831b152546e79d0f6085"
 
 RPROVIDES:${PN} += "collectd-plugin-write-influxdb-udp"
 

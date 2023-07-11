@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.14.0"
 
-RPM_NAME = "kanku-urlwrapper-0.14.0-1.3.noarch.rpm"
-RPM_HASH = "955cb4b83ad606b86158d266c1a851c3d6720b0899a362a40f9684c303eac5144becd32009e2473542ff5198f8863c2d4cd673622003e15c8d845def8820d0c7"
+RPM_NAME = "kanku-urlwrapper-0.14.0-1.5.noarch.rpm"
+RPM_HASH = "735b4289426d97a9be9d3423e8ce72da40e9edf3d76e70fe2f866322b4096569352f515f282bad2b1b9c415bcf3576c8bd5c1a86bb7ba5c52c10b9ad6cca28bd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kanku-urlwrapper"

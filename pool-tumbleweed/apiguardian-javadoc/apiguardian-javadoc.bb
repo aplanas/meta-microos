@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.0"
 
-RPM_NAME = "apiguardian-javadoc-1.0.0-2.6.noarch.rpm"
-RPM_HASH = "a3a998218489a6228aea9976c4dc7f442c2bbb311c0a3a32eb82e1ed2f92c4deb924d2dd7efa7379896242ef511acd1abd5868bf4c4a088444b883b1fc0f2b89"
+RPM_NAME = "apiguardian-javadoc-1.0.0-2.7.noarch.rpm"
+RPM_HASH = "562bd04e2405e52825f5ed81e8d8fc3b2a2f08b306363fe988b883f1915ae8c80e353341ed9999691bdf30b69af77c70616d74bead8345119f7d7b0447b6a5ca"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apiguardian-javadoc"

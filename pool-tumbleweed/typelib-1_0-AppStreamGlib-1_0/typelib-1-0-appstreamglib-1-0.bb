@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.8.2"
 
-RPM_NAME = "typelib-1_0-AppStreamGlib-1_0-0.8.2-1.3.aarch64.rpm"
-RPM_HASH = "d434135c5ef12e215a83a65fb902cceae6e523953ede030810a8a7d82d00bd03f6dda8bfb82cf7cd4117bdea3a6f73383665e8612d9aa9768ef7572fac1a4002"
+RPM_NAME = "typelib-1_0-AppStreamGlib-1_0-0.8.2-1.4.aarch64.rpm"
+RPM_HASH = "45bafdbec46da2ac68d1167223824dda03b584fe9a87db5898a25b6ff71687ea085ab14e130b06657a5a85435c90fb2acd722921eb20789dd6df5eaa32fbfc80"
 
 RPROVIDES:${PN} += "typelib-1-0-AppStreamGlib-1-0 \
 typelib-AppStreamGlib"

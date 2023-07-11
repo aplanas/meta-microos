@@ -2,10 +2,10 @@ SUMMARY = "Translations for package akonadi-server"
 DESCRIPTION = "Provides translations for the 'akonadi-server' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "akonadi-server-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "102c6c976c95c3282d82f72f2c5419e60e279c9d5d573700a27b03837521ce524eb89bc948827fae4b4c8f5bb2115b568dee5b04e0e19135eb704588b26f98cf"
+RPM_NAME = "akonadi-server-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "f095054f0c06473adc2ebe8e84edd35328c2073b78b5e30c11fd4426284f576c5edb7ec17dfdedb3f0cf05d305ea1b55040a85831538d6c6ac03dc24cdf35e82"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "akonadi-server-lang \

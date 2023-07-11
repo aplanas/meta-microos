@@ -5,11 +5,12 @@ LICENSE = "Apache-2.0"
 
 PV = "1.11.1"
 
-RPM_NAME = "python311-avro-1.11.1-2.4.noarch.rpm"
-RPM_HASH = "b22e9501703ae11437721aa9e594428957689563100ed8a4f4559ababc5fb6a35f6c7f68d0d6f51340610fb64822eec37e70f0260e9277902b1b961b7297d414"
+RPM_NAME = "python311-avro-1.11.1-2.6.noarch.rpm"
+RPM_HASH = "82f504acbaaf882893c93f38eecdc1a36d5284744db77f008e2d8f0ecf7a2f129032abe0d10e074d801ba5bcbb8c16cc03ec510d8e2426bf9c25ff8e8b0b732b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-avro \
+RPROVIDES:${PN} += "python3-avro \
+python3.11dist-avro \
 python311-avro \
 python3dist-avro"
 

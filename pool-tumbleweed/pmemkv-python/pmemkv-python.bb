@@ -4,12 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0"
 
-RPM_NAME = "pmemkv-python-1.0-2.12.aarch64.rpm"
-RPM_HASH = "a5343a42b2f936cfc0d69cccdd28d017a281ad78aba249fb317e1dd62772dc118f4ea804e880c941e897dcd5301a3c13f6ac5b9ac8e2fcf76eb4efd2f2750f5c"
+RPM_NAME = "pmemkv-python-1.0-2.13.aarch64.rpm"
+RPM_HASH = "23ffea4d3cc030a8718421fa4722efb2032ffd1e1934005213c5d8d4bdc1237789c031d59a158ef7149b98a35c96280e46007219edbc4cdce91bcb8e706db762"
 
 RPROVIDES:${PN} += "pmemkv-python \
-pmemkv-python-1.0-2.12 \
-python3.10dist-pmemkv \
+pmemkv-python-1.0-2.13 \
+python3.11dist-pmemkv \
 python3dist-pmemkv"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \

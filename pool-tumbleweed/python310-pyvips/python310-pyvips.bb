@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "2.2.1"
 
-RPM_NAME = "python310-pyvips-2.2.1-1.3.noarch.rpm"
-RPM_HASH = "6181354acd637cebf0224b13be28c494edfae59a02eea4f3bc591455be170513f937de04e1e933b7c7daf1179d8a3d9e5ff0bd04604c2c00bd359eb0dde6e7f9"
+RPM_NAME = "python310-pyvips-2.2.1-1.5.noarch.rpm"
+RPM_HASH = "72abe93d55afbff63b755f345076d49ead66ad84c2bd7f8dc1544748b2894c65accc0fefbcb8272a95e54a4a946a18b0ebe235fe947cf2c7eb2863e688c085cc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pyvips \
-python3.10dist-pyvips \
+RPROVIDES:${PN} += "python3.10dist-pyvips \
 python310-pyvips \
 python3dist-pyvips"
 

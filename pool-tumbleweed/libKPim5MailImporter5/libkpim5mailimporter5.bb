@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the mailimporter library, used by KDE PIM a
 to import data from other mail formats (such as mbox, Maildir...)."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libKPim5MailImporter5-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "a31c6611076fb2d5b95d88984ddbbff347164aa6bfb87c4e20a9064d16e024f9785b66397549e706d529a19108b4d99ce82f67f35d40cb5abdfecbcf66964367"
+RPM_NAME = "libKPim5MailImporter5-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "936c5d0b01a6cc5b6af9c4e848b388eba08a0c1d50494c226c0622b72a91aef15f7aca0597d7536bd64f4848cf3416a5f9fe6dd76f26931fb569516279bb2a52"
 
 RPROVIDES:${PN} += "libKPim5MailImporter.so.5 \
 libKPim5MailImporter5"

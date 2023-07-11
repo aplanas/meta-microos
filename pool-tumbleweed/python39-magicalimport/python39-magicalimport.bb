@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.9.1"
 
-RPM_NAME = "python39-magicalimport-0.9.1-2.8.noarch.rpm"
-RPM_HASH = "12dd32e8147a13d9fcac6ef208e8ededcfd1c613554529120d1bd7247adf8c627d69be8884e4ef5dae2cd3af97eeb4dab39e27d089b5ff6e2a009e993be42599"
+RPM_NAME = "python39-magicalimport-0.9.1-2.10.noarch.rpm"
+RPM_HASH = "b8cacbfeb6dfccfe78bb474abe7a0b10c9b7a622156a1c53d4ca414bcc255c444abf1ce7e32f24958b73e2e79d574da30ba56c586d31185afb6be26723a582cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-magicalimport \

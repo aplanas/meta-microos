@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "15.0.1"
 
-RPM_NAME = "python39-coloredlogs-15.0.1-4.1.noarch.rpm"
-RPM_HASH = "33ad514dc4544f247de7a950ade69cf49bc25a637142820841728c7a00a8114cdd1076b1faf400849568780292544ca9e9cf530b45888957da97010bef69000a"
+RPM_NAME = "python39-coloredlogs-15.0.1-4.3.noarch.rpm"
+RPM_HASH = "0de17d9e38f7186a586043771002e4c9c9255c28a66d35e993de7703dd82281dcb5a7ac43b45af291f9057ad15c43a1ee1e100b4407b2a8df95a674695ce04b9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-coloredlogs \

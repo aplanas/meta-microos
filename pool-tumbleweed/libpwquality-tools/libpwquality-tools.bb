@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause | GPL-2.0-or-later"
 
 PV = "1.4.5"
 
-RPM_NAME = "libpwquality-tools-1.4.5-1.2.aarch64.rpm"
-RPM_HASH = "53988ca6091aa5aaba4d95bbbbaa8590883b02ad52a1d718be5192db973f71800d107dea84560951548814042631a3c83c6dc76d4700fe541761579f45b2284f"
+RPM_NAME = "libpwquality-tools-1.4.5-1.3.aarch64.rpm"
+RPM_HASH = "254aa7e904b0b1cc7aca63b61faa049bba5ab3a85964eb9996b910bfca3d2903ad59bd6bbb2e544ed85a21a0dfb21f22ccc8e60aa24cab094243a155ca121ea3"
 
 RPROVIDES:${PN} += "libpwquality-tools"
 

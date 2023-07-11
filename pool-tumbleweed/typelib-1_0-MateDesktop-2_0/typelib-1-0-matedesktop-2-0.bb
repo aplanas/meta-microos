@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.26.1"
 
-RPM_NAME = "typelib-1_0-MateDesktop-2_0-1.26.1-1.1.aarch64.rpm"
-RPM_HASH = "9e34329e446cdf3e5c4cbf5d2dc9343078aeec4ce48518038d387a5ae5b08c7036b99a933f5fc37d19fa4bf6dc7b1d0ffc883f287ecbb01120329b90eab39232"
+RPM_NAME = "typelib-1_0-MateDesktop-2_0-1.26.1-1.2.aarch64.rpm"
+RPM_HASH = "856857f5c6a27e79ad917559c6071d0280d0c6b9c77e179be65269762a6c53db08a5aca1d2a585a36b80ce823328c9e44f87c20b7803261db7884181e0442664"
 
 RPROVIDES:${PN} += "typelib-1-0-MateDesktop-2-0 \
 typelib-MateDesktop"

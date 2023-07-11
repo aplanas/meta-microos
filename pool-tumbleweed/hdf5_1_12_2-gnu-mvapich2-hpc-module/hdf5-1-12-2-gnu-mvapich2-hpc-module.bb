@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.12.2"
 
-RPM_NAME = "hdf5_1_12_2-gnu-mvapich2-hpc-module-1.12.2-5.2.aarch64.rpm"
-RPM_HASH = "991186fab5d64025ca8d16d553d46d9b4755706eba9ac716850b9b6704d477b831e0af3ba0141134b58a26e6f0e1efbcc380e9480866399c5a327a01c49b0f50"
+RPM_NAME = "hdf5_1_12_2-gnu-mvapich2-hpc-module-1.12.2-5.3.aarch64.rpm"
+RPM_HASH = "dbf7f060dc8c0183275351ff310db4a5876701462c934f74b20e5f9d04a679c42e0c34033cc0e3e55e783c43c88423f4590facb23afc404fd4074c57c3ff81e1"
 
 RPROVIDES:${PN} += "hdf5-1-12-2-gnu-mvapich2-hpc-module"
 

@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.7.4"
 
-RPM_NAME = "python310-unidiff-0.7.4-1.5.noarch.rpm"
-RPM_HASH = "526d5b8390d888e5ebda3b44b30ca27c7448140c9587b6f3725f35fff5b3f415bcaa4df5567d86c7329351b161698e4e7e2a0330e840f58716d192ea013663bd"
+RPM_NAME = "python310-unidiff-0.7.4-1.7.noarch.rpm"
+RPM_HASH = "6c333a3d8a2308f9de3fc7c426194067eb680058b4c75998961a0008438b67913e09e54994b19ec4d867fa98101e7f5bba5be9e33d08eb2b99b96ccf9cc2f518"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-unidiff \
-python3.10dist-unidiff \
+RPROVIDES:${PN} += "python3.10dist-unidiff \
 python310-unidiff \
 python3dist-unidiff"
 

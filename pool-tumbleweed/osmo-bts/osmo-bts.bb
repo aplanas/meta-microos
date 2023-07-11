@@ -4,8 +4,8 @@ LICENSE = "AGPL-3.0-or-later & GPL-2.0-only"
 
 PV = "1.4.0"
 
-RPM_NAME = "osmo-bts-1.4.0-1.10.aarch64.rpm"
-RPM_HASH = "8971839fb5738729decdaeeda9ae76a00b4fb78dbd708709a05ecc592386d0fe3391aea6209f0394bf7b829918790fc98dd8376c9638357edb4422bbed5c3583"
+RPM_NAME = "osmo-bts-1.4.0-1.11.aarch64.rpm"
+RPM_HASH = "65f18d4b27a3b71016d767e72251cb428c7e2fcc7ad92ab60b6d74e61dbfceff1281b754a41bdf10466913b6263e442c5469322af4869712d8d062f46369a377"
 
 RPROVIDES:${PN} += "config-osmo-bts \
 osmo-bts"

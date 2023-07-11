@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3"
 
-RPM_NAME = "python39-pygments-style-railscasts-0.3-1.17.noarch.rpm"
-RPM_HASH = "e867efacc6fcb6816e391f484555498afac2ac2c9e8a809ca734d949b257e2d6ef3991898332986c4d58373a6af26db2f62133f84146e436943e3a6abefdf83b"
+RPM_NAME = "python39-pygments-style-railscasts-0.3-1.18.noarch.rpm"
+RPM_HASH = "bac9c45e60e8a9001769232eaa81bd035fc3391bdd81fbc5dcf7d37b083170039f4abd1ea9fb049b2b011298eb1c26172bf1ae2799ca641919577e4878ad1b94"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pygments-style-railscasts \

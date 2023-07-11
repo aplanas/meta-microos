@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.4.0"
 
-RPM_NAME = "libcdada-devel-0.4.0-1.6.aarch64.rpm"
-RPM_HASH = "dd508ad89e9922d6caac4ad688601b492954306975d4d60e478e73638dc4f9d0235ef03750e443de940c851cb3e240963b6d79dcd651e2d7252e47f072f7772d"
+RPM_NAME = "libcdada-devel-0.4.0-1.7.aarch64.rpm"
+RPM_HASH = "fcd0bd2d43380ffc6891c64fe069f92d8cc1e950b6ed1300a26e6abeeb65bcbcd5c276296e8a4f3a27fb132cfd500c3a6275bd2528f3c8e10f0ff4cb28c61b58"
 
 RPROVIDES:${PN} += "libcdada-devel"
 

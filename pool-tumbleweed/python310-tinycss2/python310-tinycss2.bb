@@ -10,12 +10,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2.1"
 
-RPM_NAME = "python310-tinycss2-1.2.1-3.1.noarch.rpm"
-RPM_HASH = "8310beef23a3faab1db11db5be7e10624566abe3ecb39e92836747d782414b7f7d589e4bcbcf9354ba42603ce126e1ab74bdc1a198b303e0b8112889d7eefaeb"
+RPM_NAME = "python310-tinycss2-1.2.1-3.3.noarch.rpm"
+RPM_HASH = "7c2c44a55ff04ece84e4536939d498d66929a054e73acd10b741e6f7b8208367c2a59ab99b74376c16fa918cd04138770adcea7947ab9b9b97a80ed16bb13b1e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-tinycss2 \
-python3.10dist-tinycss2 \
+RPROVIDES:${PN} += "python3.10dist-tinycss2 \
 python310-tinycss2 \
 python3dist-tinycss2"
 

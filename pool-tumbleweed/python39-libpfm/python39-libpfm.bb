@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "4.13.0"
 
-RPM_NAME = "python39-libpfm-4.13.0-1.1.aarch64.rpm"
-RPM_HASH = "0763022a6d059d89f5f917b3c97fdaa0885871345b3f75e432ea04bed167f07d868d843205a3e1ff0180727b51bb6f431374057635beb75c2440649a84209590"
+RPM_NAME = "python39-libpfm-4.13.0-1.3.aarch64.rpm"
+RPM_HASH = "641d75986f309034f5aaf9cef9525cbef1f4d76a74dffe4b52d126d2105a319c12337838bfbeb5ddcf90c1e2acbd03ac19c32a3158a36378893dbfd50ba89027"
 
 RPROVIDES:${PN} += "python3.9dist-perfmon \
 python39-libpfm \

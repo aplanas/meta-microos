@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides a proxy translating XEmbed for SNI trays. \
 Can also be used by standalone tray apps."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "xembedsniproxy-5.27.5-2.4.aarch64.rpm"
-RPM_HASH = "1f3b61e582fc237720c879e843505c9a2365d8265ea968d9f1f4b1b3b4d441ec0fbccc1d778001cab43212b536a64e92b24b8ce21cdc6d680d2f0034b9c69079"
+RPM_NAME = "xembedsniproxy-5.27.6-2.1.aarch64.rpm"
+RPM_HASH = "3d7dd453fb07d3c3cdcca5b5a977a43ddc6da63cb2d95a77c73bab61f0152614030b4bf22d97a43dddcbacf92d31325680141f681ce439e6e9a100c611c3a9df"
 
 RPROVIDES:${PN} += "xembed-sni-proxy \
 xembedsniproxy"

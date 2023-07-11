@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "5.5.33"
 
-RPM_NAME = "dtkcore-devel-5.5.33-1.7.aarch64.rpm"
-RPM_HASH = "9e27eeb6c5fba523c2b92f8c65dfa99364dbdf9b2658860f432960f231845c576fccb218d3091ec485a20da52483631b133f08ce1de349756f8f041b639604a2"
+RPM_NAME = "dtkcore-devel-5.5.33-1.9.aarch64.rpm"
+RPM_HASH = "143d95a53888a23a09381b1b1da1ba840f7f817e19f31fc2288cde3ddd50b5b725e1fa5096dfb450ca59a391de61574093b0cbbe57d4ec2122d897872f0a294f"
 
 RPROVIDES:${PN} += "cmake-DtkCMake \
 cmake-DtkCore \

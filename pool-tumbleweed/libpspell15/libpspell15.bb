@@ -7,8 +7,8 @@ LICENSE = "GFDL-1.1-or-later & LGPL-2.1-only & HPND & SUSE-BSD-Mark-Modification
 
 PV = "0.60.8"
 
-RPM_NAME = "libpspell15-0.60.8-5.4.aarch64.rpm"
-RPM_HASH = "bfe78a34c273b9940946bfc581348a51665848b9e7f3f325640169f1364534d1f7aa6e519248b8da8d711241d95c7b2b76cec03c64be371a9dd316b012fb03ec"
+RPM_NAME = "libpspell15-0.60.8-5.5.aarch64.rpm"
+RPM_HASH = "7bbbfae117e168dcebba0f0ade5064e4059e5497ec7fc1057755ba80d3d4942dd18971d2481af185ca26ff898707fc03c996a009b21b5eca8deb63aa7a30058d"
 
 RPROVIDES:${PN} += "libpspell.so.15 \
 libpspell15"

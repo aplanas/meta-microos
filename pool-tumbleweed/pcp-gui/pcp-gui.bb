@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0+ & LGPL-2.0+"
 
 PV = "5.2.5"
 
-RPM_NAME = "pcp-gui-5.2.5-3.4.aarch64.rpm"
-RPM_HASH = "ff9a28d814a86ddbf633ba0c925b0252b00b1ff3221e9551e31fc42847e48a514cc519be5612b1e1b1486197fa17c01962b2f6d91a2f607c140f7332bf589a09"
+RPM_NAME = "pcp-gui-5.2.5-3.7.aarch64.rpm"
+RPM_HASH = "8030dc3e5e0b5e44a4bf30f15f09e50d4767230273953290ee848cf38983ee8d20e5e076cd11c23fca397c0b18e5dec335ff7e7ecc01013388ef81afa63f9c5a"
 
 RPROVIDES:${PN} += "config-pcp-gui \
 pcp-gui"

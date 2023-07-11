@@ -8,8 +8,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "22.9.94"
 
-RPM_NAME = "xmoontool-22.9.94-977.25.aarch64.rpm"
-RPM_HASH = "e38373c6b681e092b2778e5adcb910ebfa4629c3bd272c6ffc39dfa419d69df754bd1ca5cba8be76805482a2f2d3ad9c12cd5c1dd5b90c552c680fe3b1075e02"
+RPM_NAME = "xmoontool-22.9.94-977.26.aarch64.rpm"
+RPM_HASH = "a5c77ee97d912856c76d9324b73c3420d3a61d62aaa87e89eb172d0d5c24f59af42b51137fd7827455937ab32f4913837ad6e95220bdde48c3e86d9634a447b2"
 
 RPROVIDES:${PN} += "moontool \
 xmoontool"

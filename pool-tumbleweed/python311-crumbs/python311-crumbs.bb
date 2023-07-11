@@ -11,11 +11,12 @@ LICENSE = "MIT"
 
 PV = "2.1.1"
 
-RPM_NAME = "python311-crumbs-2.1.1-1.12.noarch.rpm"
-RPM_HASH = "0689b7e5551404fcf459c2630db236f95c2198890ca6b05e91b49a08a06c4562c572e00e345050d6c3b188a88b9d01bcbd863eb65a728742e2cd160703a93c7d"
+RPM_NAME = "python311-crumbs-2.1.1-1.13.noarch.rpm"
+RPM_HASH = "1f310ce828055a51175f98c94690c2c39252340fd299277727b0e3a35b5b596e397e73e9f79450b3f43a7e651850e4d9cf8ca9a88c0ec306f1feb427c11d110e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-crumbs \
+RPROVIDES:${PN} += "python3-crumbs \
+python3.11dist-crumbs \
 python311-crumbs \
 python3dist-crumbs"
 

@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.0-only & MPL-1.1 & MIT"
 
 PV = "1.0.11"
 
-RPM_NAME = "libschroedinger-1_0-0-1.0.11-11.17.aarch64.rpm"
-RPM_HASH = "f2e2989255681e686f652b636ef0f6f1fb9230d3dae3f90d32713e759bf9c3da53e0d5d20d63e26066a32d51f65476734aca1c23b8d1e921e0ac3e0ea02ede53"
+RPM_NAME = "libschroedinger-1_0-0-1.0.11-11.18.aarch64.rpm"
+RPM_HASH = "eb05003c28c8dbd742c5c6dc28c6d05de1ee62a3aa412866dad5e5bdecfb1e57bc8712c1591d06e3385295ebf78ab85e1b87159f9403019ae35b386a14f31e6a"
 
 RPROVIDES:${PN} += "libschroedinger-1-0-0 \
 libschroedinger-1.0.so.0 \

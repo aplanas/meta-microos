@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.0.99.2"
 
-RPM_NAME = "sunpinyin-devel-2.0.99.2-2.2.aarch64.rpm"
-RPM_HASH = "f4167e8e3e57985b3ee16305e823c8af5db54271b1859065a9521e7fb7a943270efee84d313e49b3f3064eaedf72b0200ad0a542efb2c70d3015e2e8c0f011b5"
+RPM_NAME = "sunpinyin-devel-2.0.99.2-2.3.aarch64.rpm"
+RPM_HASH = "88c6d320414294c58d1d336cf925c21ae2cd3dd4e0a7290462a61561898319fbbbca7ac4ad4b84492c88beec8b5d754ea58af30a6ddc80d0baa18f9b2f3574f0"
 
 RPROVIDES:${PN} += "libsunpinyin-devel \
 pkgconfig-sunpinyin-2.0 \

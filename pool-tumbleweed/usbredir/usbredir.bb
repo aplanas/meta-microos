@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "0.13.0"
 
-RPM_NAME = "usbredir-0.13.0-1.4.aarch64.rpm"
-RPM_HASH = "452f65b58046b388f6587df19fcb9929679b26edf06cf3b50ff0299c85706ca9afd0ff1e7646c9b97be7e5d5fbcc2c02e1df23bd7b3352857441836548e7f133"
+RPM_NAME = "usbredir-0.13.0-1.5.aarch64.rpm"
+RPM_HASH = "eeddf9c37a9b6e5d5eb9218f5a711556e35e92fb9872e8f555fff855b0e46d3c1155d93835ed130f788a40c3f702df17a5ba4e05ca271ec7f91a823dc7e33240"
 
 RPROVIDES:${PN} += "usbredir"
 

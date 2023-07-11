@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0.0"
 
-RPM_NAME = "python311-mutmut-2.0.0-4.7.noarch.rpm"
-RPM_HASH = "e25975ba3f29a45a43675c317127b06a307cfd41c9f363c38d4ddf954a359934b4cc4a127948746e8853bbdcbf23e1f96512b817292959214ece0f779004ce5c"
+RPM_NAME = "python311-mutmut-2.0.0-4.9.noarch.rpm"
+RPM_HASH = "c4de674f0a71274c46125568ede75f620a84efb3d2ce898aa5a424c4618bb059fcf812df5df749f59372a3da28b8691cb2b201cccfa930d7ce1d857fff95ab11"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-mutmut \
+RPROVIDES:${PN} += "python3-mutmut \
+python3.11dist-mutmut \
 python311-mutmut \
 python3dist-mutmut"
 

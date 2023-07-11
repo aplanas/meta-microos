@@ -4,14 +4,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.0.3"
 
-RPM_NAME = "perl-Template-Plugin-Filter-ANSIColor-0.0.3-1.11.noarch.rpm"
-RPM_HASH = "3e2ba9bd2bb1a0918e3c0ba486c9ab30a26541da780010625803fd4fe63a0343bdb77be252f82365db93d57a2f6e9d2f48a1ff4cdc4e6fb7ac778f1966d8e8ab"
+RPM_NAME = "perl-Template-Plugin-Filter-ANSIColor-0.0.3-1.12.noarch.rpm"
+RPM_HASH = "3f456b87abd9d48c2ad1d11c5b7d460dda2d8fc6860076c66c2588cbca1c013c7d0e2cc7508998d4da17ee7b74be38041f7f4036920712fea52a1310da021a43"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Template--Plugin--Filter--ANSIColor \
 perl-Template-Plugin-Filter-ANSIColor"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Template \
 perl-Term--ANSIColor \
 perl-Term--Terminfo"

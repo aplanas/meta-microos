@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "4.4.0"
 
-RPM_NAME = "python-mistralclient-doc-4.4.0-2.5.noarch.rpm"
-RPM_HASH = "d7a03dfc5be737554c9412490a716166cf8767ea46977a8883e1b09ed3268658e4add71b0394aefd8f542e540416696ad2bdb6c6f5103d962e711172ffc9fc20"
+RPM_NAME = "python-mistralclient-doc-4.4.0-2.6.noarch.rpm"
+RPM_HASH = "94b6b349e600e8ce81ca348f14047eba20a0749fdf1a070aa0115a9d658b16cbcfb4de104c44523b064e54fa8caf308159a8c8788d211b4f9e5f5656d3d390f1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-mistralclient-doc"

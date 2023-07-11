@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.5.0"
 
-RPM_NAME = "python39-daemonize-2.5.0-3.12.noarch.rpm"
-RPM_HASH = "5c845cafecc4395e1eb4a53c79ddc44fb602a3a639d781c4c0c659f5b1cd510df78afc44ce5e8601d56edb326269c64af871b971b089f4a20a29e302f577b0cd"
+RPM_NAME = "python39-daemonize-2.5.0-4.3.noarch.rpm"
+RPM_HASH = "62055fa1beacb06b2a8f2e9bf8b81c680b39a7110ca94b7e11e10bc4a1a37c5a6154505c2e3d08bc13c1902afe1da34aff3c17f33ba1f6e04b2b6078a5feea80"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-daemonize \

@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20230319"
 
-RPM_NAME = "libregf-tools-20230319-1.2.aarch64.rpm"
-RPM_HASH = "320e537f6b52755e08bd285685264a729e155bb3c0f452e8683044055316bd8acef2b93e332e905f7867f1e98ce0d6c9d8d2eb7df56898628477c7be16d50b21"
+RPM_NAME = "libregf-tools-20230319-1.5.aarch64.rpm"
+RPM_HASH = "6d30b84bb1db5daf5a7baec35a5d0c0d5b4c230b829aa3a8242ad6b6790514383cc39bfbfbbdc8fa34c47b2cf330e5d6acaa7e0cc4ec6ddf469093f280e16688"
 
 RPROVIDES:${PN} += "libregf-tools"
 

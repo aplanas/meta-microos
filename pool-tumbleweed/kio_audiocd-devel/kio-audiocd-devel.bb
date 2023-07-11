@@ -2,10 +2,10 @@ SUMMARY = "Development package for kio_audiocd"
 DESCRIPTION = "This package contains the development files for the audiocd kio slave"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kio_audiocd-devel-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "218d90373bddc288a852c6c2364b6019bfbaeec129b32e5f32f5dc962f97aa7f3e9221cbea4e5f36053566427a52be3560eab8572495b10c89bc868a9fb4e8e2"
+RPM_NAME = "kio_audiocd-devel-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "e62d5882541192d5165d3cd3ea0aa3e8f33c5460dda21635a2b747e86b4b2242e3a3621925d06dc5ffa392cb0ed8ceaeb54f892a5834f431b9bd43b0ef7ecc99"
 
 RPROVIDES:${PN} += "kio-audiocd-devel"
 

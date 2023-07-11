@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-only & LGPL-2.1-or-later"
 
 PV = "5.2.0"
 
-RPM_NAME = "libprelude-devel-bindings-5.2.0-2.14.aarch64.rpm"
-RPM_HASH = "dfde0be84def54f7125d8d6f86d68278462e7aa44a4a8d4c041bf3d78bfb5ccb370985aba34716264f0ca34a400b8a548ae2a4c39e7101d8fe724991d93c0ff1"
+RPM_NAME = "libprelude-devel-bindings-5.2.0-2.16.aarch64.rpm"
+RPM_HASH = "2c491c9c15ab7d06ed1b6be582c8054c438ed7464215e9e3cbe24c32f6683bae1278f2fc9fd8d7e3a9737c78a2449982828cc5c968cf9ef5c4c5d14b29d1c0f0"
 
 RPROVIDES:${PN} += "libprelude-devel-bindings"
 

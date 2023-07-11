@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.2.4"
 
-RPM_NAME = "python39-gphoto2-2.2.4-3.3.aarch64.rpm"
-RPM_HASH = "9e052c0d9e7da38aceae16dccf7a816828bdca9412febe449c08eb7bcbe58803e4dc8911fda6747a45a4422c9723b1accc1d4a99e3042e7fdf005591053a5cd8"
+RPM_NAME = "python39-gphoto2-2.2.4-3.5.aarch64.rpm"
+RPM_HASH = "801a4a5c0e8ae9f1e343cc2a23fc93db17c1e8e1a53af115d4442f367fab77f720547eba2788f8a30ff8c581d9740f134369ef75c2202c97e6eda7ebe8ac6073"
 
 RPROVIDES:${PN} += "python3.9dist-gphoto2 \
 python39-gphoto2 \

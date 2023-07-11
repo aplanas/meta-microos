@@ -38,12 +38,11 @@ LICENSE = "MIT"
 
 PV = "1.0.1"
 
-RPM_NAME = "python310-azure-messaging-webpubsubservice-1.0.1-1.7.noarch.rpm"
-RPM_HASH = "cee3903405f73d0820840acf6109cbae4d65a54003e18b865a45de729f690e0721ea12b8150ec04e06f610981259a78e1665dc3c031a36d5a8d53d7ee7016dc7"
+RPM_NAME = "python310-azure-messaging-webpubsubservice-1.0.1-1.8.noarch.rpm"
+RPM_HASH = "18b9b5aeb499cbcecad5fbb905f8801035219a7221f9a73357bdf54a3c10dad99bc439b3dbaf0465bc0a4664d0cc154cce8e1ef310dcc2051a9ce2e9814d7070"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-messaging-webpubsubservice \
-python3.10dist-azure-messaging-webpubsubservice \
+RPROVIDES:${PN} += "python3.10dist-azure-messaging-webpubsubservice \
 python310-azure-messaging-webpubsubservice \
 python3dist-azure-messaging-webpubsubservice"
 

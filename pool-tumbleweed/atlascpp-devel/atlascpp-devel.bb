@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-only"
 
 PV = "0.6.4"
 
-RPM_NAME = "atlascpp-devel-0.6.4-2.6.aarch64.rpm"
-RPM_HASH = "8704e8816086b44ab94475dd7564ebb42952dd2b7ff9424ac8f4e9ea3f4bc15b0fc0a531112e1b25df7743de682e2789037e8359e1694db94f7e43782b8d9d40"
+RPM_NAME = "atlascpp-devel-0.6.4-2.7.aarch64.rpm"
+RPM_HASH = "17dde0642fea7024b51bfc592809cfbaa2ce56db208b7ec435b6cc19c9dd80e70f19664349925cf9473156d98d7e831756a7965470787c73f0c6b827b779eeac"
 
 RPROVIDES:${PN} += "atlascpp-devel \
 pkgconfig-atlascpp-0.6"

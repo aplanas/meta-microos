@@ -4,8 +4,8 @@ LICENSE = "(GPL-2.0-or-later | LGPL-2.1-or-later | MPL-1.1+) & LGPL-2.1-or-later
 
 PV = "1.7.2"
 
-RPM_NAME = "hunspell-tools-1.7.2-1.3.aarch64.rpm"
-RPM_HASH = "1a6cabf4f08542769a8b4f2230584ee13a8e758cab2e02dc18ebc79d32d7ec4e7ea0936a9a65e0188a0c62c7e9fd91f2877619c6e9cbbf0c690bc75c586019cc"
+RPM_NAME = "hunspell-tools-1.7.2-1.4.aarch64.rpm"
+RPM_HASH = "e7be65392a88483c8d9672d1d870f132db09d8a60b471190862162e9e88f1309189b852f8260ef4bfca3c382a903a1766c104b21601e73c44ac8e43c5f7a5c1b"
 
 RPROVIDES:${PN} += "hunspell-tools"
 

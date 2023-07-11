@@ -4,15 +4,15 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.2.3"
 
-RPM_NAME = "ghc-microstache-devel-1.0.2.3-2.3.aarch64.rpm"
-RPM_HASH = "81f1001fca0e783a4c8dbebc7cb7dba15b2e9737666378a1ff00c6756fac376434f9fea9e5ff2c6a8601b2c1350264408b22873ca9918d4bec8e4a46c52e7c22"
+RPM_NAME = "ghc-microstache-devel-1.0.2.3-3.2.aarch64.rpm"
+RPM_HASH = "a9f6b4e5e475b0652bda5e51d2ef0ceb96266fd567b59ca9eafbd2d2452db262e936b48b4557f3688cb73157c7e7f722b686b93f554f586f258eddd3e3ebfa3c"
 
-RPROVIDES:${PN} += "ghc-devel-microstache-1.0.2.3-AHAKnK06lT6DHccapktUKL \
+RPROVIDES:${PN} += "ghc-devel-microstache-1.0.2.3-HPIMoirZDKg7hPtdxDNWtL \
 ghc-microstache-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP \
+ghc-devel-aeson-2.1.2.1-HkN6OtqTngQ9De3CKBnfov \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-containers-0.6.7 \
 ghc-devel-deepseq-1.4.8.0 \

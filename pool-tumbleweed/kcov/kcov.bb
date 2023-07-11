@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "41"
 
-RPM_NAME = "kcov-41-1.1.aarch64.rpm"
-RPM_HASH = "55b6f07410cfcf87e47b8cd7aec07af5f8a15bc5bb0b8d8891a2aa859dcf1a8eff9a2c52881b2650038c948663aeaaf46ce8db7575a0fbe3ba557f8dca59c1f0"
+RPM_NAME = "kcov-41-1.2.aarch64.rpm"
+RPM_HASH = "19b16e8f6fd623d47c1e73ca03220b2cf885cb71e882e4a2a44fec913f8013b6a2e1497e4a80f3018537766f62b0aa4ebc9d036111a5dcfe6876b5a9e6172440"
 
 RPROVIDES:${PN} += "kcov"
 

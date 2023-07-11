@@ -6,10 +6,11 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20220829"
 
-RPM_NAME = "python311-libfsxfs-20220829-3.8.aarch64.rpm"
-RPM_HASH = "ac7a1a0e540416c4500f65c464b67296f91fcbdfb2b9c193f1e95bb4a1bbffb05531cebf70242b508bcd1b16aa9e8398d706a3bdb391210c196f233e66c509b5"
+RPM_NAME = "python311-libfsxfs-20220829-3.10.aarch64.rpm"
+RPM_HASH = "e3a63761ae6db9c3d96b67654c0905cf6e60cb18dbd894ebbf5074c92e158b1e1feb4ac03c13a55dbde5ecc9beb4dafcd2348b5018658c3afd0801da259cf2cf"
 
-RPROVIDES:${PN} += "python311-libfsxfs"
+RPROVIDES:${PN} += "python3-libfsxfs \
+python311-libfsxfs"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libbfio.so.1 \

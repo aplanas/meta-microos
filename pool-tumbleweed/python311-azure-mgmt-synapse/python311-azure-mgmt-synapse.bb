@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "2.1.0b5"
 
-RPM_NAME = "python311-azure-mgmt-synapse-2.1.0b5-1.3.noarch.rpm"
-RPM_HASH = "d39cec93c71baa47591a6023a8c4e8149a009c07ee0e9e4c9a9005fd43d87aa9c8ffd0fd453e9dfdbdefb561d78b65bef3ebc0f3bd7cb7176f5d933484b0d610"
+RPM_NAME = "python311-azure-mgmt-synapse-2.1.0b5-1.4.noarch.rpm"
+RPM_HASH = "c58bd4ab19d95d7ec8644a60bd5b22f60c139234b016766d377a44f18143048266ffdd71db984845a672ae9c815ef5e351aa0776ee8aa2c30f8c1b40c0c57c17"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-synapse \
+RPROVIDES:${PN} += "python3-azure-mgmt-synapse \
+python3.11dist-azure-mgmt-synapse \
 python311-azure-mgmt-synapse \
 python3dist-azure-mgmt-synapse"
 

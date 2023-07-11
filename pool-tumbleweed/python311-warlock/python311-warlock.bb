@@ -4,11 +4,12 @@ LICENSE = "Apache-2.0"
 
 PV = "2.0.1"
 
-RPM_NAME = "python311-warlock-2.0.1-1.3.noarch.rpm"
-RPM_HASH = "39da635e040bb809fc31837fff79089e3b85f9dcf884ed629394c8dbd266cb1913d624dc9c01cb8443516c842c0a7051dd68705e01284fbaae58d27052e4028a"
+RPM_NAME = "python311-warlock-2.0.1-1.5.noarch.rpm"
+RPM_HASH = "6eed500a50e3cfe90b860fb3badfa02361599c3e602db4f77ad6e800117fa5853132b06355ec303612fd5823245ac6114ea3015d682e231fd5ca242876bd0ad4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-warlock \
+RPROVIDES:${PN} += "python3-warlock \
+python3.11dist-warlock \
 python311-warlock \
 python3dist-warlock"
 

@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.14.4"
 
-RPM_NAME = "flatpak-zsh-completion-1.14.4-1.2.noarch.rpm"
-RPM_HASH = "1bee51342ae928632cc3b2abda197b3dd808a6e6e62a316f112e33225511df4cd63dc2d71eb3bb3981c5f73fd976a7702e32caba4bfaf7e2d7c322ddbea24d0c"
+RPM_NAME = "flatpak-zsh-completion-1.14.4-1.3.noarch.rpm"
+RPM_HASH = "ce13eb306cbea61fb065c3def0c18549bdc03a1813e6d994dac7f86f5a58557573749605345a552062efcde7bde3f752c4e7e4982cfd0f06b3658739493ed525"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "flatpak-zsh-completion"

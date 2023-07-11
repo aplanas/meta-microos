@@ -20,8 +20,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.1.5"
 
-RPM_NAME = "treeline-3.1.5-1.3.noarch.rpm"
-RPM_HASH = "9c42d759992cc2f1e3141095c356dce24da97b235dc0625b53b7fb485372f25f6c1ffcdda9bb639d29eac1dd27433a0a8572cba80d4bdd2a4257f2353fc91087"
+RPM_NAME = "treeline-3.1.5-1.4.noarch.rpm"
+RPM_HASH = "cd23ed4a769980f0fc52bafb684b4b001ea7a371c5d8c51bbb0635a48b086a6a417da926b89bc571d420e48436173a2c64caeca9df345e2fd4296d69ab8ce511"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "treeline"

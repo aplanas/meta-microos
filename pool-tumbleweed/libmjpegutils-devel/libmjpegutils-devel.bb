@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.2.1"
 
-RPM_NAME = "libmjpegutils-devel-2.2.1-2.5.aarch64.rpm"
-RPM_HASH = "3c647645aa973ee3365e1b72eb57a7b967e8e1f50b72f735a5c0d44c0ed516443a67e722ee11406cd31b1d28ebe6ab1638c4e8df625e2f0b7eef5a5f15f1d018"
+RPM_NAME = "libmjpegutils-devel-2.2.1-2.6.aarch64.rpm"
+RPM_HASH = "2e27ed1eee0c535962f1fe9cd17130ba79fca71d6cc6ec793d62cd6890817dd54e1b2f0f6a5ff9c42f09460388f1a383b669b54b8106da3d09109f3bfc817e9a"
 
 RPROVIDES:${PN} += "libmjpegutils-devel \
 mjpegtools-devel \

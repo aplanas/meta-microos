@@ -3,10 +3,10 @@ DESCRIPTION = "You can create an initrd for openSUSE installation. Useful, for e
 up a UML or XEN environment."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "17.87"
+PV = "17.89"
 
-RPM_NAME = "install-initrd-openSUSE-17.87-1.8.aarch64.rpm"
-RPM_HASH = "e99d695eef93a5a1379f71bbaad1e5035c300e5af8fdaa4b87921ee0f63220ac4a898e94a82dd2a28ac0622769e115a2eec601555c84adfbc50d6a173dc968fb"
+RPM_NAME = "install-initrd-openSUSE-17.89-1.31.aarch64.rpm"
+RPM_HASH = "9a6a59c7ff0e2361d4f79dd8542a0cbb4d8689d79d44aa59cd2b1cf67dff23c70db743c45a9cbc492c257870e6d9701c488bc1a88eb636694a95e97dd03896da"
 
 RPROVIDES:${PN} += "install-initrd \
 install-initrd-openSUSE"

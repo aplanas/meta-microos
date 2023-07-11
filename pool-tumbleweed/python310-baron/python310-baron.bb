@@ -8,12 +8,11 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.10.1"
 
-RPM_NAME = "python310-baron-0.10.1-1.7.noarch.rpm"
-RPM_HASH = "6ae1a3d920ec9403e999a65e8c0556c1676e69ac656496a9d7cb579959d3e2313eb432a2e30676d5238be875db38130f696cf2221f565593b6ce5ae565452284"
+RPM_NAME = "python310-baron-0.10.1-1.9.noarch.rpm"
+RPM_HASH = "629504b79cc718b329246718f26ccf8768acb74ff3f1de40265af1a85e96b38b004f26c5bf3ba883f9471895a5a9805b3e858f7fc3b8dec69d0ce91b7f311f17"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-baron \
-python3.10dist-baron \
+RPROVIDES:${PN} += "python3.10dist-baron \
 python310-baron \
 python3dist-baron"
 

@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.4.1"
 
-RPM_NAME = "dkimproxy-1.4.1-15.6.noarch.rpm"
-RPM_HASH = "663da0b36130ce1e255a09803c7a8162112852afce617f746f5baf623ef86123042474471c29e6f5eae6d2185e68c3a2667925ed279eaa8eb80a7177bc7cc9ea"
+RPM_NAME = "dkimproxy-1.4.1-15.7.noarch.rpm"
+RPM_HASH = "17032289e0f8efe8b854622b167b49e59bebdf8971abdd82f6d30f08288076d0c8df49d77dc3bc93a22bbf31022f6afcfe85a8ecf41bf5e7d3f10502353d1d5f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dkimproxy \

@@ -8,10 +8,10 @@ are provided to draw the global mesh, the set of points, or a \
 particular step of the algorithm."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.7svn63875"
+PV = "2023.208.0.0.7svn63875"
 
-RPM_NAME = "texlive-luamesh-2023.201.0.0.7svn63875-52.1.noarch.rpm"
-RPM_HASH = "314944bd4354fc78392d636c68d9f40b28166dac024f4fa24c9ea1edd602032abbc53b364a741c183e5d666aef60869a9bbfe6efd49d6f0578dcec2730c670e0"
+RPM_NAME = "texlive-luamesh-2023.208.0.0.7svn63875-53.1.noarch.rpm"
+RPM_HASH = "164ab51605690d84ed489e31ddd197f75e575722cadc982c753f81a68605839bc8da149373c06d9fda5c401a54f7ed39e4201c5248793c42dd4d1ff2bdfb1225"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-luamesh.sty \

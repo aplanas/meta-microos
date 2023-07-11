@@ -8,8 +8,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.7svn52342"
 
-RPM_NAME = "texlive-esindex-2023.201.1.7svn52342-53.1.noarch.rpm"
-RPM_HASH = "c07ec6c9430fc380221d26e863c2b31dea3259e84da0d723b138834efe0aa7d632ba03e5499a7bfa7fc004480358175991083f7047f2fc4bcbce7aa41f80a60f"
+RPM_NAME = "texlive-esindex-2023.201.1.7svn52342-53.2.noarch.rpm"
+RPM_HASH = "12532c7855709a9e0a02cc9172b7ef31610f57afbecd111f13966ac02bf6cc0748e8425fdd2bec56f4d63be2ee68cedca4f90d69e103a6df5619be6ccb9e434e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-esindex.sty \

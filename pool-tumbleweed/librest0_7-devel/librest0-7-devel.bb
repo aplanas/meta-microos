@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.8.1"
 
-RPM_NAME = "librest0_7-devel-0.8.1-2.3.aarch64.rpm"
-RPM_HASH = "f6f272b102ba82f557b998678481a543048450a747c619e5388c13ae5eafa0aedec8a1ef3cd4a9e3f18631f37158db94bab7b28e04d42dd92936d712ff10a05a"
+RPM_NAME = "librest0_7-devel-0.8.1-2.4.aarch64.rpm"
+RPM_HASH = "a0466848ebf652a617abf1bf62226805c07c332a5248fe0af90c49bbae0097246f605fd5b675c750cda0c67667a196d75a70864257e6651e0e61777e0d5f2109"
 
 RPROVIDES:${PN} += "librest0-7-devel \
 pkgconfig-rest-0.7 \

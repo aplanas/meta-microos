@@ -5,10 +5,10 @@ different carddecks to choose. A computer opponent can play for any of \
 the players."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "lskat-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "69db92991e5ed58ed14e0a12c99cc26e24e1bd4b0534f1dca273d3cb93ea4521111f373b8e35815a2de91e36abea3382b126b491aff728d2e8bd9669937a9850"
+RPM_NAME = "lskat-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "4cf76e5afe044017efaf1e48c8f3f299a0d90f96ecd9c7b11bb0a512222328402a11d85ac1a05fb70ee6cc6bcd0acef8ce726c4d1bba3fe5bca7fbf18b25dffa"
 
 RPROVIDES:${PN} += "lskat \
 lskat5"

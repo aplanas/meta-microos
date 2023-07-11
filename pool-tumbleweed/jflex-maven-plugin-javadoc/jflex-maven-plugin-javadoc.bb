@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.8.2"
 
-RPM_NAME = "jflex-maven-plugin-javadoc-1.8.2-1.7.noarch.rpm"
-RPM_HASH = "ee9c03a629172fdfe99abe3024eef6428ad2a6a3e58ab0d0d730895a2ade688a0d816704b3ddb3d65b6c9541da68c09b0cef89d093da91eec077e8c3992e9242"
+RPM_NAME = "jflex-maven-plugin-javadoc-1.8.2-1.8.noarch.rpm"
+RPM_HASH = "7e4bb65d80e4d362d3f45f781fd63e0aa6ed494b41aed2a9ce2b0d69ecfd5423088726c8ff267ae06ef4538ff2ac796934fc5516836c4d9f9431f9affdab97b0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jflex-maven-plugin-javadoc"

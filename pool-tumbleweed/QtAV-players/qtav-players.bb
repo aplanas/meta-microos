@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later & GPL-3.0-only"
 
 PV = "1.13.0"
 
-RPM_NAME = "QtAV-players-1.13.0-3.25.aarch64.rpm"
-RPM_HASH = "34b95a6a6d6a75e5c244ab6149c179782ddc9870f8f4afe2fa2d434aee88b1922ce6b279a090e85c560ebdeccf9e31610f0019d77d38e6a1416376e9735150e2"
+RPM_NAME = "QtAV-players-1.13.0-3.27.aarch64.rpm"
+RPM_HASH = "e7b465e9e4a676c74d38a89f41a696968475dabde272eefffab03d37d95b7d93787f4d3c4aefc8c8f3ebdcc4894fe81b1f02e5a08b6426cadcac52c2e8a99b75"
 
 RPROVIDES:${PN} += "QtAV-players"
 

@@ -5,10 +5,10 @@ testing frameworks as well as extensions for testing graphical user \
 interfaces."
 LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
-PV = "5.15.9+kde154"
+PV = "5.15.10+kde129"
 
-RPM_NAME = "libQt5Test5-5.15.9+kde154-1.2.aarch64.rpm"
-RPM_HASH = "113fdf4e8fe0ee6bf9b5fed746cf0c09f1c3606a49a1c904bc6b4dc9263ff2b26e7b0db701a0e34cc9e4e3ac878f1f126baea17c3811ee65997c099dc8d8f65d"
+RPM_NAME = "libQt5Test5-5.15.10+kde129-1.1.aarch64.rpm"
+RPM_HASH = "1b5cec3484289da16c1772601fe1a4d38f661901ac629986ff8c57c19ab3edb5683c6cce738e37c272b9f777a9a679547b9367f52409d8c7400274c487ec6e38"
 
 RPROVIDES:${PN} += "libQt5Test.so.5 \
 libQt5Test5"

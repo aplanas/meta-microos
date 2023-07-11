@@ -4,13 +4,13 @@ LICENSE = "Artistic-2.0"
 
 PV = "2.07"
 
-RPM_NAME = "perl-Text-SimpleTable-2.07-1.10.noarch.rpm"
-RPM_HASH = "40c16d3a58b5e4ad863ef42a082283e4e4e2a71e4da6c6c743e76e21e482e15470b33d23f510e4c8d36d803ce062b7a293d5d7cabcec2b35811ab2e837a355e3"
+RPM_NAME = "perl-Text-SimpleTable-2.07-1.11.noarch.rpm"
+RPM_HASH = "dcb22776b2d4e081fd97d1d585609350dc747cf84a35573b33fd2bb7b145983a2014ec9da9ab6f4c9f23d0b7871c3ff2c8da53e7340c84fe4f409bee423333bb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Text--SimpleTable \
 perl-Text-SimpleTable"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

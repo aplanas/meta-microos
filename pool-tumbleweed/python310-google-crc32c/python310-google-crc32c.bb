@@ -4,11 +4,10 @@ LICENSE = "Apache-2.0"
 
 PV = "1.5.0"
 
-RPM_NAME = "python310-google-crc32c-1.5.0-1.4.aarch64.rpm"
-RPM_HASH = "f0bf3764f1f5d7032d2f3ed7ea1f9aa70155e8489ca317758954a33ea41ca9605e9bfa3aa98df6cd6cc28420f34d1fc9ffb0307c99903d9f1b92b3ce5d6ab597"
+RPM_NAME = "python310-google-crc32c-1.5.0-1.6.aarch64.rpm"
+RPM_HASH = "977c573b6f6c3ffbeacbcf46ad4e92ef2f1fec9e8191b87bb4401efc144b179156c31886415607a3a29179f203fb3b3898fc80b6f2724dd66eb2dc078c88c5c5"
 
-RPROVIDES:${PN} += "python3-google-crc32c \
-python3.10dist-google-crc32c \
+RPROVIDES:${PN} += "python3.10dist-google-crc32c \
 python310-google-crc32c \
 python3dist-google-crc32c"
 

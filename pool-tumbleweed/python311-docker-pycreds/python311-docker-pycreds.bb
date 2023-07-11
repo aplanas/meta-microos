@@ -5,11 +5,12 @@ LICENSE = "Apache-2.0"
 
 PV = "0.4.0"
 
-RPM_NAME = "python311-docker-pycreds-0.4.0-2.1.noarch.rpm"
-RPM_HASH = "3296b99991d842b611d4d9c7df15a3d3ad23100f1be732444840c1885a6ed82146961eb2652b4574a3d96bbf123298418f4f5831a07f8bc93c4617e54d4e59b2"
+RPM_NAME = "python311-docker-pycreds-0.4.0-2.3.noarch.rpm"
+RPM_HASH = "a7f5b0d1c7cb09adbc20d2a6917ba0349b2dd12e68ef7f3c748063264c4e9e87156b3bcc73b45925202a63465d080a20f96eb941abe16151f477cf156c6de3cb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-docker-pycreds \
+RPROVIDES:${PN} += "python3-docker-pycreds \
+python3.11dist-docker-pycreds \
 python311-docker-pycreds \
 python3dist-docker-pycreds"
 

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later & MPL-2.0"
 
 PV = "0.3.4"
 
-RPM_NAME = "libwpg-tools-0.3.4-2.1.aarch64.rpm"
-RPM_HASH = "3de6469472e83b00454c97417efd17b99ef74b63f1a35f03157e669b9a46eccca7b74f4bdb9273b4a895ac997bb2dee6ee04d50209849b74e4968edd95da8d6b"
+RPM_NAME = "libwpg-tools-0.3.4-2.2.aarch64.rpm"
+RPM_HASH = "621b0bbccf507ac7863c4dd0d03bc8c15d917d11c981a47c70e78ed6371e481ae25466c1969134595c82643484f6a47194fdd853a2f1f369801465f7a67e07e1"
 
 RPROVIDES:${PN} += "libwpg-tools"
 

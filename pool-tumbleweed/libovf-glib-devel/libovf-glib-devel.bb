@@ -6,10 +6,10 @@ This package provides all the necessary files for development with \
 libovf-glib."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "44.1"
+PV = "44.2"
 
-RPM_NAME = "libovf-glib-devel-44.1-1.1.aarch64.rpm"
-RPM_HASH = "a758b25678627c2bdd444a5a30d93c86bb9c80dfe51732b410263c1992bd566f620ab3509d1ec9b81806474d2cef560387226f0f7435bfd5597ad043c213d792"
+RPM_NAME = "libovf-glib-devel-44.2-1.1.aarch64.rpm"
+RPM_HASH = "c0fff77515ba73765317e3ca2c1123d34692ac472a86f04f68d1e7c4849d30b8b63ee27675db7734610ded562fb88ede774b47540a7439121e45af25850d9d3b"
 
 RPROVIDES:${PN} += "libovf-glib-devel"
 

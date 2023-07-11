@@ -5,10 +5,10 @@ Also, Palapeli features real persistency, i.e. everything you do is saved on \
 your disk immediately."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "palapeli-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "2a053cba912803493806266fc66fc541fb6be1e5cb94bdf9e442fb2bebef8eae5a0c36fe81c683bc5ec4b79a55cbd0b60e88d811f5b43944547b66a8edcfe5c0"
+RPM_NAME = "palapeli-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "2466a81b38ee6f250f6dadb723cab61696e2967bcef266196d142cb528c8089ad06bc319f07b4b7202696542866b11e45cb0e4b5e9bff04ec51a3c5d6fc15a89"
 
 RPROVIDES:${PN} += "libpala.so.0 \
 palapeli"

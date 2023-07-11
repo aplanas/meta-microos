@@ -11,10 +11,10 @@ This package is part of a suite of tools that used to be named \
 SubDomain."
 LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
-PV = "3.1.4"
+PV = "3.1.6"
 
-RPM_NAME = "apparmor-abstractions-3.1.4-1.1.noarch.rpm"
-RPM_HASH = "ed9471f3bebc353c247887b665dc5ae6d949dc7b925c6921e10be1f075a5d2cc56f5948d3c4ab411746e0433e4386d332a77197aa4c68780cff18902bf162fee"
+RPM_NAME = "apparmor-abstractions-3.1.6-1.1.noarch.rpm"
+RPM_HASH = "9692f0c50625165e1941a240317622f53c64b4c4de404824a9c02e42a3f93b0082ca7ff247245a8e0ba84d386b97eee9fbc838f14025fcbfc12cfd5a9c00cccb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apparmor-abstractions \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-hypdvips"
 DESCRIPTION = "This package includes the documentation for texlive-hypdvips"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.03svn53197"
+PV = "2023.208.3.03svn53197"
 
-RPM_NAME = "texlive-hypdvips-doc-2023.201.3.03svn53197-52.1.noarch.rpm"
-RPM_HASH = "3c64f71bc8de8f638b0933e93c0ab9dae1cc0908ed2b212abb3d748c218a1ce282cbe779f2975373bd73d85bd5b69382d35b4a098c246292b7d2b09f0e108a4b"
+RPM_NAME = "texlive-hypdvips-doc-2023.208.3.03svn53197-53.1.noarch.rpm"
+RPM_HASH = "809a62d8feeaaf999502c00b52c4f21b1a18515f9bd1e74688278d1c5cec8592138c7c7908524bdaad8c4763bd5858437cebe2e14a8e0a5acaefd6ecd7cf6168"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hypdvips-doc"

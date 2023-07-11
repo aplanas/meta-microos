@@ -6,10 +6,12 @@ LICENSE = "GPL-3.0-only"
 
 PV = "5.15.5"
 
-RPM_NAME = "python311-qtnetworkauth-qt5-5.15.5-1.14.aarch64.rpm"
-RPM_HASH = "a670bdd98be7d1a65e15aea924481fce4804e8c6b36ee27fcd5b74ab1704711693a730e389502f4b7a510817b8873a0027deb91d259c40678137f3c4778b069c"
+RPM_NAME = "python311-qtnetworkauth-qt5-5.15.5-1.15.aarch64.rpm"
+RPM_HASH = "01a9a45fa087d146e4e35a79fab7d9d0a58ed49a7a64bba510071ffd91823c93df2b1c520ea1309687528e4430637622e587bf638696bd354f210f10f2b09f5f"
 
-RPROVIDES:${PN} += "python3.11dist-pyqtnetworkauth \
+RPROVIDES:${PN} += "python3-PyQtNetworkAuth \
+python3-qtnetworkauth-qt5 \
+python3.11dist-pyqtnetworkauth \
 python311-PyQtNetworkAuth \
 python311-qtnetworkauth-qt5 \
 python3dist-pyqtnetworkauth"

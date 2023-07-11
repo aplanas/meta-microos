@@ -4,10 +4,10 @@ The SPICE server is used to expose a remote machine's display \
 and devices."
 LICENSE = "GPL-2.0-or-later | LGPL-2.1-or-later"
 
-PV = "0.15.1"
+PV = "0.15.2"
 
-RPM_NAME = "libspice-server-devel-0.15.1-1.4.aarch64.rpm"
-RPM_HASH = "50327e6ff0e9d64051433c94b36ae5935b6dab43a74deda826e5bf0464b50b0aae713fce06088d4f0741e03c502a688e10275f24c579ff7e99556bf2d234da48"
+RPM_NAME = "libspice-server-devel-0.15.2-1.1.aarch64.rpm"
+RPM_HASH = "a1b090106702f59ae933edef7c7b32e5be71ba1ee4ec7fc1841eac9047410b2917646b113213fc42198a6da2a91ea3064cd264bd26e18e3ab6552fb173fd0d40"
 
 RPROVIDES:${PN} += "libspice-server-devel \
 pkgconfig-spice-server"

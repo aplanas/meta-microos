@@ -17,8 +17,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "3.52"
 
-RPM_NAME = "perl-XML-Twig-3.52-2.13.noarch.rpm"
-RPM_HASH = "d8fa09529e8efc8e3fd44013da02b84e04fe850f7cc45602b72ea00d9df11bfe38d4a402bc20dc0184eb67ac2946ff20cb0e243bb026963d4b47036bbe88a533"
+RPM_NAME = "perl-XML-Twig-3.52-2.14.noarch.rpm"
+RPM_HASH = "eb1a60aaa9aa21cf81acc1eea596b014f9cdc00fd8f4d244a41f2d6f50743794c8af872a5faffcc68cefc165d32066ca912bc99ea5851424121d51b0cf26dfc4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-XML--Twig \
@@ -35,7 +35,7 @@ perl-XML-Twig"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 expat \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-Encode \
 perl-XML--Parser \
 perl-XML-Parser"

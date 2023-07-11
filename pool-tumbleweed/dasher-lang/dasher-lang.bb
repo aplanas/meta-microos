@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.0.0"
 
-RPM_NAME = "dasher-lang-5.0.0-1.7.noarch.rpm"
-RPM_HASH = "ac186f9939c6688f02884a0bbf8e0156a7433853bff18cf852c0abf6792eec243e5a3808f878fb87e709c5e56eaf199a15febd4efcea292efc33ed121b2d95f5"
+RPM_NAME = "dasher-lang-5.0.0-1.8.noarch.rpm"
+RPM_HASH = "c0902c9f4459b2f1e1b2a58f4ec1d0cb8a4405240ba7cbe3221560892cffcec67d92ba8a998c4ef2d144c535746993ccd35b0222d9dc56148b2b448cf0891f7a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dasher-lang \

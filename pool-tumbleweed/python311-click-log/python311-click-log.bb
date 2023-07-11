@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "0.4.0"
 
-RPM_NAME = "python311-click-log-0.4.0-1.6.noarch.rpm"
-RPM_HASH = "5ab886803176e5ad17509a24fcd4dab0c173ab90263efe449a8baa403ff93444e86480d58cddcfffd89c4e0847ffbeb5e7d1da505fb60efd4cc79b459390d333"
+RPM_NAME = "python311-click-log-0.4.0-1.8.noarch.rpm"
+RPM_HASH = "1bf4318a4f4fcc764fedcf5463a14d29cf0430be3a0687739c480d4adc0e2748c1e254264fc0e711004d0345029f8433bf6306722cfa23193a7e5a1770c8f60b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-click-log \
+RPROVIDES:${PN} += "python3-click-log \
+python3.11dist-click-log \
 python311-click-log \
 python3dist-click-log"
 

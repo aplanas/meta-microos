@@ -7,8 +7,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-secman-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "697607fd6515808602f878bf4187350f9c2373b2a5e3f9fa81095f2816eb73a4c2907451a207ab472d5009694d8635bf38930f646c2eff6dc9b789e54d407f77"
+RPM_NAME = "leechcraft-secman-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "73aa71714df1bb572d084367d8b3a0b28d3331571a7b7951192458f86db57377b22d4f77043e3ca373e220f360cf21893f71783b81b8b173c8752f81e0498deb"
 
 RPROVIDES:${PN} += "leechcraft-secman \
 leechcraft-securestorage \

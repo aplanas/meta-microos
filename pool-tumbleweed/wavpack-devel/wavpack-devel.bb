@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.6.0"
 
-RPM_NAME = "wavpack-devel-5.6.0-1.3.aarch64.rpm"
-RPM_HASH = "14fb8a1f74a37f5d07e95c938bb3754eb6f98de3279f51816e33e602422cf695660ff475a4cd3ea5abac526477481ea72b0f90bb70d2d3ffcafb7495e9fdd159"
+RPM_NAME = "wavpack-devel-5.6.0-1.4.aarch64.rpm"
+RPM_HASH = "e86ff9c3f33cf3a8a4538715a246736f750e67f68b6df81898d331efb15b422a63f9e8bcff846ecc8e6b2b855398641c54774adc1e9c37d48f80da5bcfaf8d2e"
 
 RPROVIDES:${PN} += "pkgconfig-wavpack \
 wavpack-devel"

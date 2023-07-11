@@ -10,12 +10,11 @@ LICENSE = "Apache-2.0"
 
 PV = "1.1.4"
 
-RPM_NAME = "python310-signedjson-1.1.4-2.2.noarch.rpm"
-RPM_HASH = "eb37fffd7bdcd849e12db30356e1ea2c8564e8b6c4a4e2a4061cd293a14b0dc110f815223ef3ebb98e9f5ec2a2133f339d5e84f8a1ac0e8be4b94abe45be4646"
+RPM_NAME = "python310-signedjson-1.1.4-3.3.noarch.rpm"
+RPM_HASH = "6a7f5ac72de4e0a5a4ec3fbde5f628da9ab82d13d2b161dc80688be635f9ed5dc7538a9667ca2b4f628d6ff24c968f3337e7fff75b5d5b0a57eda0c045e596a5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-signedjson \
-python3.10dist-signedjson \
+RPROVIDES:${PN} += "python3.10dist-signedjson \
 python310-signedjson \
 python3dist-signedjson"
 

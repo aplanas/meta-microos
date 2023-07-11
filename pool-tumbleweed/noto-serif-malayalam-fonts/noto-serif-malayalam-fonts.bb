@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-serif-malayalam-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "872fb1a3d270cc0eaecf0e6fb3bc7715a29b882f117c12f80a57dfae9702b80b77b9629ae023489c2ff969b43fc9bba1c9f57710a5fd89a53c0b3873224412ba"
+RPM_NAME = "noto-serif-malayalam-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "d218fccbff6dff3cb07c666545d1391dfb8d5a3ccbec578259d12deabdc0b4b019709f37d0858450abf8487c211cee04408729176f8122d028b4e262dccad1e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-serif-malayalam \

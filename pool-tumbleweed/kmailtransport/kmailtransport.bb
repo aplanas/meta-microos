@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains library to provide mailtransport functional
 KDE PIM applications."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kmailtransport-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "45cbb04530732fbb88c331f236e898e8c98033685421713da00fdbd56372cfa0ef858020dcfb3cc22801e29b04cab7157ca26b219640bfda8f5c299e8c537d24"
+RPM_NAME = "kmailtransport-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "a7cd043690ce04ed46a21a0d1b4ebc73d8bdcf3147ed68e60a26599ea8d5e881bb0d13d0513c9f0035f0297b85fa9a85b0b0f5b1c18aa726d5462c996b2dcf1c"
 
 RPROVIDES:${PN} += "kmailtransport"
 

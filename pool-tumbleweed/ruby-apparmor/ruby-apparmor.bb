@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the ruby interface to AppArmor. It is used 
 applications interfacing with AppArmor."
 LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
-PV = "3.1.4"
+PV = "3.1.6"
 
-RPM_NAME = "ruby-apparmor-3.1.4-1.1.aarch64.rpm"
-RPM_HASH = "f02587b0763dac6c337ed3f2845b192df084e8bf7594be218f7a36badec64672523039eefc379db8e8ede3f026cde3c0dc0fa0f6b5ad4db6f8acef32a3154dfe"
+RPM_NAME = "ruby-apparmor-3.1.6-1.1.aarch64.rpm"
+RPM_HASH = "4acdb92b41ec10f8a00090253404a1bf6cb565e352e84e5ecc2c1b901b8512c1cf27beb444c0374ca2145a9cdc951cbf20a5a40a61d1b8d18aecf1339038e96b"
 
 RPROVIDES:${PN} += "ruby-apparmor \
 ruby-libapparmor"

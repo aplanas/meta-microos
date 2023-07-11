@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause & CC0-1.0 & SUSE-Public-Domain"
 
 PV = "2.10.7"
 
-RPM_NAME = "scala-2.10.7-8.8.aarch64.rpm"
-RPM_HASH = "b7859841a4826979b44e736a0f8c201a11e45297978bc65c334bf3884a837461aae5eca691dcdda2f230bdcf08e86c343974599088557c32c72b1d38006f3133"
+RPM_NAME = "scala-2.10.7-8.9.aarch64.rpm"
+RPM_HASH = "5ad76838b9a235a8028862899e44e35bcbd6d37f3594d2bc012b0d1261995aecb1b512bf931a6fab35f2587af6a8f757b19c843a04e7706c4a0fe798f80fb9b5"
 
 RPROVIDES:${PN} += "mvn-org.scala-lang-scala-compiler \
 mvn-org.scala-lang-scala-compiler-pom- \

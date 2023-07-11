@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-location-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "adb835ceff2d481731ac053463ff21f24d71bdb85b19a07f5af3c5a130f2360d78406d361cac9ea3c1b561ec89dcfcedfbd39ebcabac5ab938b8fe6565af555d"
+RPM_NAME = "qt6-location-devel-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "392a95560d40a96b889087865b7797e0eb183af1fee0ebaf9aa4dd506aa8f04037e2f6b345a333f8d1e3a62c53ea57785a118d45caf073f59eb532aa6f02dbb9"
 
 RPROVIDES:${PN} += "cmake-Qt6Location \
 pkgconfig-Qt6Location \

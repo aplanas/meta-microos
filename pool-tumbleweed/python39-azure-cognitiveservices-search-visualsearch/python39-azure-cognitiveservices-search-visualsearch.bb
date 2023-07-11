@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.2.0"
 
-RPM_NAME = "python39-azure-cognitiveservices-search-visualsearch-0.2.0-3.11.noarch.rpm"
-RPM_HASH = "d5aaba2f18075d62b270231c3e79488a83d8bebfb3ee85d7b197402cc2e796708752692890a7d6cfa93ce0402bbf8289488411436ac23918a8cf8b48853a4c19"
+RPM_NAME = "python39-azure-cognitiveservices-search-visualsearch-0.2.0-3.12.noarch.rpm"
+RPM_HASH = "37b231dd8fcc148770efd01a88abd87a1c4623a201c45b5f3e4345fe92ceb30e78441142d7cf09db0a5b995b03a90af7f45480fc4d72de084c762ed4a38e2077"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-cognitiveservices-search-visualsearch \

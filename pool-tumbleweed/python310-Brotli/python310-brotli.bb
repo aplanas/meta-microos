@@ -10,11 +10,10 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.9"
 
-RPM_NAME = "python310-Brotli-1.0.9-2.1.aarch64.rpm"
-RPM_HASH = "3f18db0739bc20d48cee2a79af5c0afbe612b97ad59af9c157d7a79e9251322fe4a4f8ba88517f02958a7a140ca3dc58743a66e9d33d0fc0891b5b3678bdd030"
+RPM_NAME = "python310-Brotli-1.0.9-2.3.aarch64.rpm"
+RPM_HASH = "2bb4181f57ad98445830718a156d578c83d02ff399efe1fa359ee842d98034baf5789c5ea75882387dbee3169b846f4d836e8e28affad3739579628db5cf72da"
 
-RPROVIDES:${PN} += "python3-Brotli \
-python3.10dist-brotli \
+RPROVIDES:${PN} += "python3.10dist-brotli \
 python310-Brotli \
 python3dist-brotli"
 

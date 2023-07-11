@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.1"
 
-RPM_NAME = "kpeoplevcard-0.1-1.15.aarch64.rpm"
-RPM_HASH = "6ee983bf6ed8fb5493f416bf3d2fc275dcbfc67389097828159be14815661462a20572b15eff9e0e04aaa0f99039b0cdaf2253e930cc57aa5bfe32038b1ce703"
+RPM_NAME = "kpeoplevcard-0.1-1.16.aarch64.rpm"
+RPM_HASH = "9de6031ff786adf7dd1d9958583e62d6deb2697895e2b1d7d5f88146f994a032fc1e30591a3fe6fcdc74731d20e580db17a108a41bcc538db4be802fc71ce83d"
 
 RPROVIDES:${PN} += "kpeoplevcard"
 

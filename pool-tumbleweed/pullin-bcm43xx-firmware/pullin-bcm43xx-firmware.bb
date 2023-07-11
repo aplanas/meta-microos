@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.0"
 
-RPM_NAME = "pullin-bcm43xx-firmware-1.0-4.8.noarch.rpm"
-RPM_HASH = "98165b45f0e3d25aa29f0d7980acca82cb49d0e8fe3b6cb9fa09a0b4a1c8a7b737a59fdb869bda6db00975182b6cf0b750dceee19c63b10b2ba66fcb12ebb36c"
+RPM_NAME = "pullin-bcm43xx-firmware-1.0-4.9.noarch.rpm"
+RPM_HASH = "8dc683dca7cb7a55ebec39bc36bbf09e928818b4e8ca28c605854624adf1562a54bb4109915b2c34c409f452e042bcd7da129357c989a55d30d59ed3fe1bb2fb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pullin-bcm43xx-firmware"

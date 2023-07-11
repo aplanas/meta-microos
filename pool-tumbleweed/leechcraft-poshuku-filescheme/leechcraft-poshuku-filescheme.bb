@@ -6,8 +6,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-poshuku-filescheme-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "2b2aba42fac13360ead860ebc874d2be8b75ea93f683cef050eb545e9f3172269c509d3362054850a9d458af884c14cea5c0af961dbec75db38188e66b8ce154"
+RPM_NAME = "leechcraft-poshuku-filescheme-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "6a8115d5197b273070975c23f50a3eb76f83647a60c0741c48b032f67ec54a5884b609655bed2f62fe543e7d774f2e327ee6eee868598ee307640a5f6103d67c"
 
 RPROVIDES:${PN} += "leechcraft-poshuku-filescheme \
 libleechcraft-poshuku-filescheme.so"

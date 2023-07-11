@@ -8,11 +8,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "11.0.0"
 
-RPM_NAME = "ghc-language-docker-11.0.0-1.3.aarch64.rpm"
-RPM_HASH = "71d07ff2208e4cf47fe6103d2ec4823f43e54df913c087e7e0a4e8f72956f2aa20e2edbc90d32c79b8cef4e139e4f11fa5212a5857d852a510dac6bc4c9b16c8"
+RPM_NAME = "ghc-language-docker-11.0.0-1.7.aarch64.rpm"
+RPM_HASH = "3a5fc41bb14aea13655d019860fa9f935aaf23d46ab42b84cc772da542fcd58ced38305eff8b2a52a3d2efac8fc530708853d392d6a2aac2ef6315439ce7f3c8"
 
 RPROVIDES:${PN} += "ghc-language-docker \
-libHSlanguage-docker-11.0.0-LOoHldD1EPH8sK8xHuKTA9-ghc9.4.5.so"
+libHSlanguage-docker-11.0.0-6yi9Nm1hnNl1NYn66IUrp7-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
 libHSbase-4.17.1.0-ghc9.4.5.so \
@@ -33,7 +33,7 @@ libHSghc-boot-th-9.4.5-ghc9.4.5.so \
 libHSghc-prim-0.9.0-ghc9.4.5.so \
 libHShashable-1.4.2.0-FFBRhuY0w4YLmuLEs5uQAt-ghc9.4.5.so \
 libHSinteger-logarithms-1.0.3.1-Hm9v2fsfG1DA5soPSLssZu-ghc9.4.5.so \
-libHSmegaparsec-9.3.0-9LuWCOgzW7qD3PYWTEm9Pv-ghc9.4.5.so \
+libHSmegaparsec-9.3.1-Lptmv1Cc41nKt1ZYt8kXVr-ghc9.4.5.so \
 libHSmtl-2.2.2-ghc9.4.5.so \
 libHSold-locale-1.0.0.7-B5o2Qz0CVVSCB1XGw7OfzR-ghc9.4.5.so \
 libHSparser-combinators-1.3.0-69OkkuibEVDB76y6u8xJBt-ghc9.4.5.so \

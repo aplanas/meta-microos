@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.0.7"
 
-RPM_NAME = "xgamma-1.0.7-1.2.aarch64.rpm"
-RPM_HASH = "ad297c610fe78ca5facf00e8fa8862ad2eaa762e3ab296894a77f337c99f00ae4faec1f00e8a10a8e267e73cb01c5b2ae9c31951b1b2db79b59009d24ba27173"
+RPM_NAME = "xgamma-1.0.7-1.3.aarch64.rpm"
+RPM_HASH = "6643c4845e17484e7f7efe2b44d8122982536f3efd830bc77f98d9e23a334db3afeab362f500f373c708ffd9f7975db6ec43c73bc524cd9a782ec85e272ac61a"
 
 RPROVIDES:${PN} += "xgamma"
 

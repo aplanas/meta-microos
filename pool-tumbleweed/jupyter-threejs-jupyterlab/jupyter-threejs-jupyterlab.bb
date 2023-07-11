@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.4.0"
 
-RPM_NAME = "jupyter-threejs-jupyterlab-2.4.0-7.8.noarch.rpm"
-RPM_HASH = "2cd7b6585108d9e475c70971540e88cc43b3c2ec31c0e42e6dd14a90e825ead3db2c48d0dd83c03c884dce61112aa9e012a02eb39e1f615510e52d9a4e315ee6"
+RPM_NAME = "jupyter-threejs-jupyterlab-2.4.0-7.9.noarch.rpm"
+RPM_HASH = "5d3a0aef992f33292cf3c424d6b536a01391b93227e26bd9bd59c4315246fbd34b1e5ade0843b9294bfe81c214015e123c923b178e0df8ebffdb4af69a1c81fe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-pythreejs-jupyterlab \

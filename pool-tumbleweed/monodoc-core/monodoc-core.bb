@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "6.12.0"
 
-RPM_NAME = "monodoc-core-6.12.0-5.3.aarch64.rpm"
-RPM_HASH = "7187b8e2bdb40980b4eb2f27c1df9936893c8c55b67da7ffff5cfe840b5973ffa88395090028684f478f3184c28522def136cbc084cff6f2c7819944eb643c93"
+RPM_NAME = "monodoc-core-6.12.0-5.4.aarch64.rpm"
+RPM_HASH = "23bb88d27c4ace7864474bd9ad3631ed0a0d946ee46901b5b017aebab801512dfea02162a91f85bcdbea6282da4beff98a809e2d19679b95dc7bf3e6e67c821e"
 
 RPROVIDES:${PN} += "mono-mdoc \
 mono-mod \

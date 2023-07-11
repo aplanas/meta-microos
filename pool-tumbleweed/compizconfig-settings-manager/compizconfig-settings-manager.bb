@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.8.18"
 
-RPM_NAME = "compizconfig-settings-manager-0.8.18-2.10.noarch.rpm"
-RPM_HASH = "9c98d62f45c72901d11684a0b423d2ae0d36b428bcff265e0ca47c12ca9bd00e89089b4337764d5a11d444d84f773a76c94950fb59fa7f8e66f686c1a44fb8a8"
+RPM_NAME = "compizconfig-settings-manager-0.8.18-2.11.noarch.rpm"
+RPM_HASH = "bb0124d377f048e2691aeb16a26cd92efeb1e1f2a4f7e66c524c7f604340f09dd09279b97719031ffc41cf558ea3830dce8532b670e033f415eba53b37cf2122"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ccsm \

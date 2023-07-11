@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.9.93"
 
-RPM_NAME = "kile-lang-2.9.93-2.21.noarch.rpm"
-RPM_HASH = "f802afa3d96686228013315ef722ed0bd6bbd786407aa16663b41da25faab06091659ea65256e31997bc4f442e47346878f877a8278b2cf22e49e6feb2f9bf11"
+RPM_NAME = "kile-lang-2.9.93-2.22.noarch.rpm"
+RPM_HASH = "5af443fc60ede3a2156ba7253bef0330d1ed5a2d55396bcd2ca6cc9c72ecc88a816ed1ed39cc21a57b9ce3d363917be6ee79a024764cdc0de03d1713bd604df9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kile-lang \

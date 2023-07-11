@@ -7,8 +7,8 @@ LICENSE = "MPL-2.0"
 
 PV = "0.4.0.1"
 
-RPM_NAME = "ghc-semver-0.4.0.1-1.3.aarch64.rpm"
-RPM_HASH = "360854b3f048cca8bb5c01378a654f9cc7ed4c25d7f01227b48344ca1bd48fe0c4875c9f1025b8b99292453b9a06c39367f3f237dbce57d20feaac2a7054ba56"
+RPM_NAME = "ghc-semver-0.4.0.1-1.6.aarch64.rpm"
+RPM_HASH = "96d200a6829e8fa4b9908c28a967f02a442f2430b5a7ef4799f0cd65bead28dc10c31e218935b2a2e467ded8aed117506f142532dd06df425ad1fe1a22437b7c"
 
 RPROVIDES:${PN} += "ghc-semver \
 libHSsemver-0.4.0.1-ExZNCX3NISc5JbXfrvXt6N-ghc9.4.5.so"

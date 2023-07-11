@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "0.9.1"
 
-RPM_NAME = "dataquay-devel-0.9.1-2.22.aarch64.rpm"
-RPM_HASH = "4809e9ca39763affc466dc357ba3343e60ed227f5455f61480c9b185d158eaccebbe6ca66ebc12649fb855291fd503e5ffcaf67221b7ebb836cc3548963d525e"
+RPM_NAME = "dataquay-devel-0.9.1-2.23.aarch64.rpm"
+RPM_HASH = "0a35133e097f99ad68baa6da343fae8e1d2c4f1cdb0999725ab4fddbfcf8e831f60d2cf17d47a0b6750657295b891e567e8a0a85b61bb3065d9a21191d70fc6a"
 
 RPROVIDES:${PN} += "dataquay-devel \
 pkgconfig-dataquay"

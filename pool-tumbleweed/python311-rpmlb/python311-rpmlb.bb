@@ -4,11 +4,12 @@ LICENSE = "GPL-2.0+"
 
 PV = "1.1.1"
 
-RPM_NAME = "python311-rpmlb-1.1.1-1.12.noarch.rpm"
-RPM_HASH = "2f5b96781f16bec800500cce1116229ceeafe1f2d2e713f8583e453f7c72937214bdb87c6119ef83125b219b4dda709b96ac41d67a609ea47e30032611dbce2c"
+RPM_NAME = "python311-rpmlb-1.1.1-1.14.noarch.rpm"
+RPM_HASH = "ee6a7ca98729e8d65b013861015870b1e7ef2736e0a5987e2523d169164dd3968ed2d9b0b8a25920563b6ace187f88739bed7406bef37453e70032bdd5c43ff4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-rpmlb \
+RPROVIDES:${PN} += "python3-rpmlb \
+python3.11dist-rpmlb \
 python311-rpmlb \
 python3dist-rpmlb"
 

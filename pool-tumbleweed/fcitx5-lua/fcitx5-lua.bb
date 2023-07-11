@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "5.0.10"
 
-RPM_NAME = "fcitx5-lua-5.0.10-1.3.aarch64.rpm"
-RPM_HASH = "7dc3f504c033b9eae711ecdbd74a20fdc82e9e3e2715c927833bb496443a054ee6d81c371a6f692fb435a127d25df899a0f0267afb6fd72632beb7d64a9cc61c"
+RPM_NAME = "fcitx5-lua-5.0.10-1.4.aarch64.rpm"
+RPM_HASH = "3ec835c4e3093fece3a26586dfee749b91ff8510496a388dc9e3e3a704094f742f6c405b650011d825d84328bc2020eea9deec7786ced8e16c07c123e990f94d"
 
 RPROVIDES:${PN} += "fcitx5-lua \
 libluaaddonloader.so"

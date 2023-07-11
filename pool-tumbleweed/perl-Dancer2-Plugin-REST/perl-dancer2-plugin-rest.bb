@@ -4,14 +4,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.02"
 
-RPM_NAME = "perl-Dancer2-Plugin-REST-1.02-1.11.noarch.rpm"
-RPM_HASH = "ea778bc6eb2b9f8071aaa438d0bfa7375c06a478a0159671ac8d8913f01966c776d7e287533fe0cdbad495760286b3d046cedc28f345d667c0bb2d1708512175"
+RPM_NAME = "perl-Dancer2-Plugin-REST-1.02-1.12.noarch.rpm"
+RPM_HASH = "4f506085e69446a93f804023ef71befbea29a5ce045009a9cb37f7f8d8ac0189135fe69592560c66191d70849641335e1c7b9b5ca6c57daa796d159565d833d5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Dancer2--Plugin--REST \
 perl-Dancer2-Plugin-REST"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Dancer2 \
 perl-Dancer2--Core--HTTP \
 perl-Dancer2--Plugin \

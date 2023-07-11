@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "6.14.1"
 
-RPM_NAME = "python39-flex-6.14.1-5.1.noarch.rpm"
-RPM_HASH = "ed1557514d4119c6c88738ec4d3b53ea7f41ce0d9aa531389730aded6ce1044568a49c182c12ecd26daa7bc1624ebe4fd4bc88024275ab9910a72c311c5d5492"
+RPM_NAME = "python39-flex-6.14.1-5.3.noarch.rpm"
+RPM_HASH = "6f89b0a3974820db2e21e13408af14602b4d31e15774bbbb15fdc7075ba4e3dc1daa4e195d5f68570a906c8fa861aff32ca2e67ff03664fe0b27ad4fe30e3749"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-flex \

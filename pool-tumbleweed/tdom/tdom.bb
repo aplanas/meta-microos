@@ -6,12 +6,12 @@ memory: for example, the DOM tree of the XML recommendation in XML \
 (160K) needs only about 450K of memory."
 LICENSE = "MPL-2.0"
 
-PV = "0.9.2"
+PV = "0.9.3"
 
-RPM_NAME = "tdom-0.9.2-2.3.aarch64.rpm"
-RPM_HASH = "da7810e32b3b40d118208b4bf792bfaff45a947d81a7d5d25da1455268ab4f384646ea0ead0511e8a2bca22eacffb5233c20e386d9cf932dcad75aa0e6f07a77"
+RPM_NAME = "tdom-0.9.3-1.1.aarch64.rpm"
+RPM_HASH = "8c90508a00a61763caf4de2461c7774eeda2e1ab107f654663d4a317914c6e88634406fb35f7286fc0f6c069cbed765d74efebb824e5d50bd6e2af72c394cbaa"
 
-RPROVIDES:${PN} += "libtdom0.9.2.so \
+RPROVIDES:${PN} += "libtdom0.9.3.so \
 libtnc0.3.0.so \
 tdom"
 

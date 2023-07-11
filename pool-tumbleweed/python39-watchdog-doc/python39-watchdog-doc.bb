@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.0.0"
 
-RPM_NAME = "python39-watchdog-doc-3.0.0-1.2.noarch.rpm"
-RPM_HASH = "d7b189adcf94d098f0076d018250ed36927f81ba3242aab435f08f66d10511d6e050e8d1dc0e73a8753e5fb1a0cd0e704fc97dc84e25987cf699c27815f22222"
+RPM_NAME = "python39-watchdog-doc-3.0.0-2.3.noarch.rpm"
+RPM_HASH = "8a1d3eec9c08336a57b7b7a5bc2d20eab7dbe1126200f748d0bdb1da5091b125808f40dfddfb4643f4fa5bd060a03c789598d7e25763fe7807784af02afdb6d1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-watchdog-doc"

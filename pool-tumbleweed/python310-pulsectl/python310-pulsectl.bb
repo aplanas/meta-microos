@@ -7,12 +7,11 @@ LICENSE = "MIT"
 
 PV = "22.3.2"
 
-RPM_NAME = "python310-pulsectl-22.3.2-1.2.noarch.rpm"
-RPM_HASH = "8dae99e49e1e7154d3ae9b067e3764b6152b8d4041c24cd04493843c3dba5845110063b479f701563b10bdf9b1516e0cab39226bfb486cc99c1eb507815381e7"
+RPM_NAME = "python310-pulsectl-22.3.2-1.3.noarch.rpm"
+RPM_HASH = "f6d3e78c36dbbcf2ee3a9f7465d6e6beeda896e2282298f85ea77a39048c0f7b65b428b56340a91207fbef0008ee77b36596bdc7e74601704a11dfd362c9c404"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pulsectl \
-python3.10dist-pulsectl \
+RPROVIDES:${PN} += "python3.10dist-pulsectl \
 python310-pulsectl \
 python3dist-pulsectl"
 

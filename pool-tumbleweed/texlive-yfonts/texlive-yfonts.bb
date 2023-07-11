@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.4svn50755"
 
-RPM_NAME = "texlive-yfonts-2023.201.1.4svn50755-52.1.noarch.rpm"
-RPM_HASH = "e0903e744f6b0029ef7d5c0c6ffbcdc412237d036dc6c87f27b50ef1cea242fce772b21b71ccfb33a007483bb835f621189856ff69bc1da97bf4f01d797b82aa"
+RPM_NAME = "texlive-yfonts-2023.201.1.4svn50755-52.2.noarch.rpm"
+RPM_HASH = "8cb334356baf7dcee7557dd0ebf9742d320eafc8cbe36247202d2d2fa52990cace43ee36c76fb248b79116c8cefe40adbfd068e6a29bbbd83432f5b905eeb111"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-yfonts.sty \

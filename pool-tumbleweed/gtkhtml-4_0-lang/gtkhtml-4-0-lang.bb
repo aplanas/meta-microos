@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "4.10.0"
 
-RPM_NAME = "gtkhtml-4_0-lang-4.10.0-7.3.noarch.rpm"
-RPM_HASH = "9acf74e03698192f72ce2b185cb4639947f4eaae0136e23062e1fa2b017ce17b1446542580d3765d3e1311ef0c201222c1cf053e4bbf3f786a8ee4edc66f3125"
+RPM_NAME = "gtkhtml-4_0-lang-4.10.0-7.4.noarch.rpm"
+RPM_HASH = "a7d355fc514e273ab6060e3ea79ed10b547aee4751a02dceede0e369545161ac7ee97a579aaf769ef045a4c17eea8ddbb53816e127a5f042db371e9df838e227"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtkhtml-4-0-lang \

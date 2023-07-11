@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.0"
 
-RPM_NAME = "python311-hvac-1.1.0-1.2.noarch.rpm"
-RPM_HASH = "6c0f4780993ed659de45a0d7e02dfd7c8b3f2464b6b8d03617a3e910c157de535acc6080a4e54f37a48af9ab3bdc65f7a120b3bdf9f46c35b472206417088f79"
+RPM_NAME = "python311-hvac-1.1.0-1.4.noarch.rpm"
+RPM_HASH = "485f652d039da9528da9820d7b9028a387ad669e2a08b190bb3e6cb9f8a3cdaa0ce7b3493185e8d5ae61ce080b84425fa834948d6fb3f57541e9c474f48c01a5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-hvac \
+RPROVIDES:${PN} += "python3-hvac \
+python3.11dist-hvac \
 python311-hvac \
 python3dist-hvac"
 

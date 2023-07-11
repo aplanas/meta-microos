@@ -2,10 +2,10 @@ SUMMARY = "Package providing R-grid graphics in R-grid"
 DESCRIPTION = "This package provides R-grid, one of R-core packages."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "4.3.0"
+PV = "4.3.1"
 
-RPM_NAME = "R-grid-4.3.0-45.2.aarch64.rpm"
-RPM_HASH = "190df01a5c2161eed0f639e91b6292358aa5b9d8493e85c68cfc8478fead95b49c5051f269ae311e0a6f3ec31f031552f5ec02acfdc8e47e72d909527f58912b"
+RPM_NAME = "R-grid-4.3.1-46.1.aarch64.rpm"
+RPM_HASH = "8cf4971be8e5b92078f4529797e09b9dc8bec0bdf87b25e8e94cae15a4666ee8a4dd2e97204ba11bb4fe5cf8f9538f22ed568919ea6007e33be9495cfee1d303"
 
 RPROVIDES:${PN} += "R-grid"
 

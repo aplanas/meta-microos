@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.4"
 
-RPM_NAME = "python39-wmctrl-0.4-2.3.noarch.rpm"
-RPM_HASH = "7a0b5f65b0e4fc9a9ce3fc65fb61ef3f40522bad8b74a287224aa07ac7f2bdddf9a1928372f2ceb72c8ef3a3ef646d6ede65815bf5d2b786fb109580e70b5c94"
+RPM_NAME = "python39-wmctrl-0.4-2.4.noarch.rpm"
+RPM_HASH = "5f209df3eaa8f32059960c8e1d21f0044357fc28638bc2b87ce1769dda338647f6c6940ee0be5fcfb93fcfece9f28ed5d980a0840fede994f9d46826b683f528"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-wmctrl \

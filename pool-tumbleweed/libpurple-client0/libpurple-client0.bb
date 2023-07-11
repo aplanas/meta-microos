@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.14.12"
 
-RPM_NAME = "libpurple-client0-2.14.12-1.3.aarch64.rpm"
-RPM_HASH = "118e344370e2fb43727f9a44ba986a61b586332cc1f3bf775b815b1359a680fbc065a75bde9bbb4663cc58e6be95f671bd4aa2d8f65e2ac183448881e1cad774"
+RPM_NAME = "libpurple-client0-2.14.12-1.4.aarch64.rpm"
+RPM_HASH = "b56b497252ad13bd893969d36ac7e4b7cc67cdb1c0fd939a790393165a3bc8a5b2df37bc84bf5321ff871a0504598dfaebcb796a04322d61d587a437df4a6849"
 
 RPROVIDES:${PN} += "libpurple-client.so.0 \
 libpurple-client0"

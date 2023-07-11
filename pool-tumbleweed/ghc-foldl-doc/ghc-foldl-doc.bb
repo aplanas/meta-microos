@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.14"
 
-RPM_NAME = "ghc-foldl-doc-1.4.14-2.3.noarch.rpm"
-RPM_HASH = "60b0c9a8c0adc14740c71f2d46ab3b596005db3576bf60def4625f0a330035d29f822c606e9c4f4073609f64930e1681d67d33cc0ab010ad33fa83f5156b5ba3"
+RPM_NAME = "ghc-foldl-doc-1.4.14-2.6.noarch.rpm"
+RPM_HASH = "0251294d57035541a9f1b1d59d78968e25ec200b2bfffeeb74827f4dedce443106fa9e84deec61361e1e5d14bf655b1454f05620fea40a2d6e9438b2b61df9c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-foldl-doc"

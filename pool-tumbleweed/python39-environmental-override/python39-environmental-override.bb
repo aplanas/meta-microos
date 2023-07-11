@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.1.2"
 
-RPM_NAME = "python39-environmental-override-0.1.2-1.17.noarch.rpm"
-RPM_HASH = "0549cbe01458eb63ba18d17dac4eaced8bce4033ea8aedeecbcfb1131526e66e7619e209ee3d44b92d34f92326ba4f5741c66ba16f9feaf385ef4ae273d34ac6"
+RPM_NAME = "python39-environmental-override-0.1.2-1.18.noarch.rpm"
+RPM_HASH = "cb60ac3cba9afb062e7ff21822c94492061e0bbfc9f4cad36eacf49f577e2971d570be30117437bbe0f5e70f67e6e90a533968fce877ee9c31ec5063408c13a0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-environmental-override \

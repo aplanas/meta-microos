@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.0+git20220603.70601f6"
 
-RPM_NAME = "container-registry-systemd-0.0+git20220603.70601f6-1.3.noarch.rpm"
-RPM_HASH = "351e3773b11a155cca5b630ed55630bd990dd60dddbe8cd20613aa8713b9a00d751dbbfb0621731c5f0f9051c76212e23839a70500735348d63af80917f645e3"
+RPM_NAME = "container-registry-systemd-0.0+git20220603.70601f6-1.4.noarch.rpm"
+RPM_HASH = "3704ceb2737e2c78d3244f1090c47790302b77f0f32afb479679f8f2308e1c77a4612d1c2d815f56e29edad4f0461b3807e194ad3c962602cd41bdfb182f2605"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "container-registry-systemd"

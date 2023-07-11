@@ -4,8 +4,8 @@ LICENSE = "GFDL-1.1-only & GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "43.0"
 
-RPM_NAME = "seahorse-43.0-3.4.aarch64.rpm"
-RPM_HASH = "8aee4d058001a2eed091f3115e877cf45357d88db1cac28ec91a46194c54a6b10e860e0d1af93e10db284dacffb7c80f97d1d4b857754fa7232985a64a2cceb7"
+RPM_NAME = "seahorse-43.0-3.6.aarch64.rpm"
+RPM_HASH = "9fa5e847080bb6ce1cdce8aed6140bf96a6870b1d314c79fc2c1b40191e6590a6d502252e4f6607875ab068ec2c4015bfef5518d82206391f8a4aeb4dbd7eb94"
 
 RPROVIDES:${PN} += "seahorse"
 

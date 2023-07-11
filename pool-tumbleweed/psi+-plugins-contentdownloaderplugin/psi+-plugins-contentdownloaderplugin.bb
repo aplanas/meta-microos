@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-or-later"
 
 PV = "1.5.1615+0"
 
-RPM_NAME = "psi+-plugins-contentdownloaderplugin-1.5.1615+0-3.1.aarch64.rpm"
-RPM_HASH = "dc965e555eac2646459d4c760e2b9b56ffdff9fe891108295fea4c8ee858b9921fcc7de2b5792525aa9f02a51df9dbad039e447d692d3b628bf42651d8264262"
+RPM_NAME = "psi+-plugins-contentdownloaderplugin-1.5.1615+0-3.2.aarch64.rpm"
+RPM_HASH = "6e13ae1bcf8a16186703b124a4014cc87b583e9e8bd3aacfead23ce223da914fff3b2121ac65248e13a4841cfbdccc2703781aa1d0934735541b56958a8493ee"
 
 RPROVIDES:${PN} += "libcontentdownloaderplugin.so \
 psi+-plugins-contentdownloaderplugin"

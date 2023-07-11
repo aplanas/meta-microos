@@ -4,10 +4,10 @@ encoding. They are probably also usable for Malay (Bahasa \
 Melayu)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn58609"
+PV = "2023.208.svn58609"
 
-RPM_NAME = "texlive-hyphen-indonesian-2023.201.svn58609-52.1.noarch.rpm"
-RPM_HASH = "d76334b5f0031d9a5ad23575e65946ddd2d2b8ba206fb766cf68774e46a05ebf65311b89187309574a83233e9875b8cc4220f180598a57b7a592ca5a90028974"
+RPM_NAME = "texlive-hyphen-indonesian-2023.208.svn58609-53.1.noarch.rpm"
+RPM_HASH = "9cc2a1d7ba34a9f34cd648b448203d975abe8703537c1eb56cdf9b737f4d82ae5fef88580e02a680536c262735bce2d237b0caf263e61ab207035e262edec2fb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-id.tex \

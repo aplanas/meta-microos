@@ -12,11 +12,12 @@ LICENSE = "MIT"
 
 PV = "1.2.0"
 
-RPM_NAME = "python311-MechanicalSoup-1.2.0-2.2.noarch.rpm"
-RPM_HASH = "ad0b4b8d04e8ef9a8c376d41cc61782c14c16f25717cea15e818e9d57f0c099805bf03dca346895325a954710050b6f7f898b9a5895cb7f4cdea614820fd9173"
+RPM_NAME = "python311-MechanicalSoup-1.2.0-2.4.noarch.rpm"
+RPM_HASH = "2a4fefcc6f932c63fee68d2bbeb249884d7cb95cd0f36bc3ee125729b19793a9f945fa5ef6f12267aa824d0fee49729559799e8687e3b2d9f5c3e240399a34a0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-mechanicalsoup \
+RPROVIDES:${PN} += "python3-MechanicalSoup \
+python3.11dist-mechanicalsoup \
 python311-MechanicalSoup \
 python3dist-mechanicalsoup"
 

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.0~alpha6"
 
-RPM_NAME = "plexus-interactivity-api-1.0~alpha6-2.6.noarch.rpm"
-RPM_HASH = "e8188f1e72bc406f547a8ab110bfd80bab5707b3202b0a79a3d5ca93df195ae21b176cf133b3f92d98d4bec8033bd3a05782368e6e23edd3e40a53022bcf3030"
+RPM_NAME = "plexus-interactivity-api-1.0~alpha6-2.7.noarch.rpm"
+RPM_HASH = "4b1f31332bc59b767f6db1eb41fde668078237ed0c35944828f68e6d7bd9a781351ebbe6b69571bd3430bd9599126df9e92fbb6d06809f7be3c3e1ea416b2fc7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.codehaus.plexus-plexus-interactivity-api \

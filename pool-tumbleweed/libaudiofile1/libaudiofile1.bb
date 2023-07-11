@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "0.3.6"
 
-RPM_NAME = "libaudiofile1-0.3.6-11.20.aarch64.rpm"
-RPM_HASH = "2f63988958d9089ad55d741e3822e56c1720266f86cb3ab83b6b3db5624a3364380bd2f8d0092d2786608bd32590bdbe34b187019c535fdb8a1f854f31e009db"
+RPM_NAME = "libaudiofile1-0.3.6-11.21.aarch64.rpm"
+RPM_HASH = "8459a11a11dc9614906e5333c62cd6281569666d155a52e34fc36e39c2abd3f171c44c7ca37a6d8f46d5e7ffd5148daf18b3b2741e4dca01a0f4538754a3b009"
 
 RPROVIDES:${PN} += "libaudiofile.so.1 \
 libaudiofile1"

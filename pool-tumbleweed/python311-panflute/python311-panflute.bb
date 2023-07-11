@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.3.0"
 
-RPM_NAME = "python311-panflute-2.3.0-1.1.noarch.rpm"
-RPM_HASH = "b47fe5a9823261e7694a2fef5c193114bb2475f054799c3e5ee9795ca3b17c6d5ac6d7ce78c6555235c304fd3aa822a43d47415cab3feb82afde11a55742ed5d"
+RPM_NAME = "python311-panflute-2.3.0-1.2.noarch.rpm"
+RPM_HASH = "1e4740934b33f880376db24ea8b02564b9a28aebcf374080bea34cf42f1e3a2fda4c52f6b898d4f20a63d838deeb714aec9225417c88191613714962e56170e3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-panflute \
+RPROVIDES:${PN} += "python3-panflute \
+python3.11dist-panflute \
 python311-panflute \
 python3dist-panflute"
 

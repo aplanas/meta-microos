@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "3.0.0"
 
-RPM_NAME = "ocaml-calendar-devel-3.0.0-1.4.aarch64.rpm"
-RPM_HASH = "e32ff7d53eee8fb89e9d5951bf4295868fd3f1c5c03551960ed285bd95876e0fbae38fc2669e1e8583971bfa4523646b2f1e8ea873e522f6f13e02031e36c38a"
+RPM_NAME = "ocaml-calendar-devel-3.0.0-1.5.aarch64.rpm"
+RPM_HASH = "1dc42c22c2c05b3d1e56dad6003139cec72701236de00ce20258815de0b09dc738f82a83a9fdeba839cdcdd67936a1059f49ce59086b174c73abc0114fdb0228"
 
 RPROVIDES:${PN} += "ocaml-CalendarLib \
 ocaml-CalendarLib--Calendar \

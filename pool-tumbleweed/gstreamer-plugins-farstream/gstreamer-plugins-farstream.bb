@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.2.9+5"
 
-RPM_NAME = "gstreamer-plugins-farstream-0.2.9+5-2.3.aarch64.rpm"
-RPM_HASH = "e99400300d46ecc250657c47ce982873d6664d962c98cdf624d86cdebf1b96851bc2c15ede98735e9d6bae4abcc3079a3eec56adcb0b4474291ca8d22c1a2294"
+RPM_NAME = "gstreamer-plugins-farstream-0.2.9+5-2.4.aarch64.rpm"
+RPM_HASH = "b4209d9a3f5ad6619339771b2295471583e239d17d2ab1f844a0c4c1d957e99cd9dbc1647f1a3dd8dfe160165c2880e751fb609b580bafb24eb73cf1dd3fdde9"
 
 RPROVIDES:${PN} += "gstreamer-plugins-farstream \
 libfsrawconference.so \

@@ -5,14 +5,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6.0"
 
-RPM_NAME = "python310-nbsmoke-0.6.0-3.4.noarch.rpm"
-RPM_HASH = "98bfea6bb90895cfc5547fb8821c63e370267a7fa0505a27646bb06899cb6a08b08d35e04c53b1d828e2b4eeb84d6af9e05ac9620d2fa68d1fb72d5dee86abc7"
+RPM_NAME = "python310-nbsmoke-0.6.0-3.5.noarch.rpm"
+RPM_HASH = "f791dbcd0d577ff1d45dd70abad919e451aadaaa729f5c190a53d64b8c1eb011367a2989124b20eec4e72ec656673ac4a2b379eb07bfdf7781f15d95ba81724d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jupyter-nbsmoke \
-python3-jupyter-nbsmoke \
-python3-nbsmoke \
-python3.10dist-nbsmoke \
+RPROVIDES:${PN} += "python3.10dist-nbsmoke \
 python310-jupyter-nbsmoke \
 python310-nbsmoke \
 python3dist-nbsmoke"

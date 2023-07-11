@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & MIT"
 
 PV = "5.12.0.134.g4cebbfc"
 
-RPM_NAME = "collectd-plugin-ubi-5.12.0.134.g4cebbfc-1.4.aarch64.rpm"
-RPM_HASH = "0ac565f48e32a2ccb9c94396b0eb3b42f4050bec931c4b4650e611e484a13207a1cff64b42be1faf0d2de61d2fd7e3ac8ae51c3758411f5d8ac18bae8ad9a5ad"
+RPM_NAME = "collectd-plugin-ubi-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
+RPM_HASH = "c1bbaa25a76bbd9365eeda2154e3a09c5df762b7173319583bd8690e20ef31c98a647ccf8aa84f1af4ec33a743f4004921afa4d3970036574ef0e888b8d44afa"
 
 RPROVIDES:${PN} += "collectd-plugin-ubi"
 

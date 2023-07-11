@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "6.5"
 
-RPM_NAME = "brltty-driver-speech-dispatcher-6.5-2.4.aarch64.rpm"
-RPM_HASH = "7d9afc9856246a1151cea037dd8a900742f67a78febf2ef300ad25c9d68bd03011c050220b1d1ec10c6fde5c2c2f946a0127a10bf482da2346c8f8588f1649ce"
+RPM_NAME = "brltty-driver-speech-dispatcher-6.5-3.1.aarch64.rpm"
+RPM_HASH = "bcd731fd4f24c7d1132050ab2aa148df4172c8fcffa3415589f4d6f1aae51a1c5f9f713cb8b9d6f3f6c40712d3e0f5e6d3a511acb56240874ba711764f1ebc24"
 
 RPROVIDES:${PN} += "brltty-driver-speech-dispatcher \
 libbrlttyssd.so"

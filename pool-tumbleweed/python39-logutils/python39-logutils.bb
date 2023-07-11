@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3.5"
 
-RPM_NAME = "python39-logutils-0.3.5-5.2.noarch.rpm"
-RPM_HASH = "f7f8e04d8b981573b8781e5f76ab457fca391ed240c1f8e3006feaa3f8996399b3ad099c0be0b44d607b319075c6ed2668005be1d6864fe070b99a8f00bc6da1"
+RPM_NAME = "python39-logutils-0.3.5-5.4.noarch.rpm"
+RPM_HASH = "8409f90e24bc5619a87ced4ca2ab78a055d286770c9da7e73d4bb072006c806c3544652a4af0e4387dab460a73f91b01a319c3ccf59bae4c952b8023c09546d1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-logutils \

@@ -14,8 +14,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.5.3r550"
 
-RPM_NAME = "vpnc-0.5.3r550-3.13.aarch64.rpm"
-RPM_HASH = "e77a133a127dcba65a940dff7bf4f7a15da9d063e3215c34182eb99442bd0a92f8544cdcdeb7b39397e7a1be5cd584f6566ac44fd531fa21c237bf04c7e63d41"
+RPM_NAME = "vpnc-0.5.3r550-3.14.aarch64.rpm"
+RPM_HASH = "a28d4b16fb3c04ac5764d3b18ba773d1420f9c0c9de3d407d8467fcb792e276680a42ff3ac1776313d071602019fb33d7f1a2bed7ecb380eeb0626c523f5ff5b"
 
 RPROVIDES:${PN} += "config-vpnc \
 vpnc"

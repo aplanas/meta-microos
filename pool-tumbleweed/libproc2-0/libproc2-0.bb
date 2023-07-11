@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "4.0.3"
 
-RPM_NAME = "libproc2-0-4.0.3-1.3.aarch64.rpm"
-RPM_HASH = "2f2b6f0837d8e8addf8fb3be34cf69f2d9b8b53580c8734af789312b3555aff8aa6185fb11b105163c435847f61713824514573e41c466f4c5ab9431afc15ced"
+RPM_NAME = "libproc2-0-4.0.3-1.4.aarch64.rpm"
+RPM_HASH = "e7c71268831c44f1ea3e58a2fbdc62f2dcefaac084d1fbb3847dfe54432e02a5645f3e3a32719a91fc5695739296a19cb622a0737e1d00fc636e6902fd9b3a11"
 
 RPROVIDES:${PN} += "libproc2-0 \
 libproc2.so.0"

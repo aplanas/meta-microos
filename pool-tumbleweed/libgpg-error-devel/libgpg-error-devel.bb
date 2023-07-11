@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
 PV = "1.47"
 
-RPM_NAME = "libgpg-error-devel-1.47-1.1.aarch64.rpm"
-RPM_HASH = "72ca226c230c127855c685574280b413d6eae34788e8aaacf44cb5c8a2b23b44f6a0cbe3e2c0d20c44d6c67e3a734fb5b99036c56d3e9f2cb8d179a49f00074d"
+RPM_NAME = "libgpg-error-devel-1.47-1.2.aarch64.rpm"
+RPM_HASH = "6a705b194e5bf241484c2e02560166ead4fbde5fb3fa6ca25a1248b243107862b9dc392d2cd81a744bbd5dbe2fc8ec10a06b9b1eee95c483fa205a8637dfd59c"
 
 RPROVIDES:${PN} += "libgpg-error-devel \
 pkgconfig-gpg-error"

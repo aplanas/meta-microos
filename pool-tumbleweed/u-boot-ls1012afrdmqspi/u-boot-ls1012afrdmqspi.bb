@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2023.04"
 
-RPM_NAME = "u-boot-ls1012afrdmqspi-2023.04-2.1.aarch64.rpm"
-RPM_HASH = "184bc66578627e8e3cba3b7cfd48c84bd9eb940b5260bfdddf1fe7b2ff31d196078329939686252c8a09ad6ac5ffd565c9b42ac48ee8e5beee74c09708ce4c16"
+RPM_NAME = "u-boot-ls1012afrdmqspi-2023.04-2.2.aarch64.rpm"
+RPM_HASH = "1fbab2c160b677a019ee2bed02f3fdf57e0646b32798d2f11e6b3a81e348c48518bcc0e6449c4f96949420c11c9de9e63da3478a13f80957ca46abc9d08f9e8a"
 
 RPROVIDES:${PN} += "u-boot-loader \
 u-boot-ls1012afrdmqspi"

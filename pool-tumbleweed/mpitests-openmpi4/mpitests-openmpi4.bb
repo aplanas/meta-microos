@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & CPL-1.0"
 
 PV = "3.2"
 
-RPM_NAME = "mpitests-openmpi4-3.2-11.3.aarch64.rpm"
-RPM_HASH = "f49178636a8bbe54b4ae273c623e64227561e4cba307b37ee4101d3af12d5ff962e6facc65d292ac82d95772461bd663ad40b1b80660f662aae05afcd10576e4"
+RPM_NAME = "mpitests-openmpi4-3.2-11.4.aarch64.rpm"
+RPM_HASH = "fae4c078b10707c44ee828b96f424768ab034ad6b9b4ed3e62361af7c98fab4dd45bc464a1ff5c11cc3fe9dc10cc62e404fd607894bd78cb40ae78dade6c382d"
 
 RPROVIDES:${PN} += "mpitests-openmpi4"
 

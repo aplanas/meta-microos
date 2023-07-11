@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "4.0.6.g26"
 
-RPM_NAME = "canutils-pengutronix-4.0.6.g26-1.10.aarch64.rpm"
-RPM_HASH = "60ca6f2eaa19fe6b18db789081fa1302a382a4b7c379712bf5f443b960a326dc100c58b397481e6597c88c5a0ff806e67d1b303608dbae77c5c83ad7af023c3a"
+RPM_NAME = "canutils-pengutronix-4.0.6.g26-1.11.aarch64.rpm"
+RPM_HASH = "e3c5376ae7d2d8b11165758ad930a8456cebcfad16497b813ca7cf6074ff5cb2f5f153e1b39da50c544aea38c5b10ad642f2b3ff56b1bd6ca689f20a782076ed"
 
 RPROVIDES:${PN} += "canutils-pengutronix"
 

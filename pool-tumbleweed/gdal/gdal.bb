@@ -9,12 +9,12 @@ LICENSE = "BSD-3-Clause & MIT & SUSE-Public-Domain"
 
 PV = "3.6.3"
 
-RPM_NAME = "gdal-3.6.3-2.1.aarch64.rpm"
-RPM_HASH = "6c3d0d69d081247fcbd021dfc9775d92b63cad623f2f38763c75c3fe9f47a97f96ccb945e70e3a0ffa161ecf9419ef31f8fa6b8bd5357dc0ca5df839778ca0a9"
+RPM_NAME = "gdal-3.6.3-2.4.aarch64.rpm"
+RPM_HASH = "e01690d0c22631db56874fae1c2d78136f9b46281399e6467876c754c20dd61d997e678cd16f8fdb8973e752974999330fe982403771614d0199280fa28e7b3d"
 
 RPROVIDES:${PN} += "gdal"
 
-RDEPENDS:${PN} += "/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

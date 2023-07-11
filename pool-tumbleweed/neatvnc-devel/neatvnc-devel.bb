@@ -4,8 +4,8 @@ LICENSE = "ISC"
 
 PV = "0.6.0"
 
-RPM_NAME = "neatvnc-devel-0.6.0-1.4.aarch64.rpm"
-RPM_HASH = "5129944017e2e8439dac453e8cf5a158bb2492f6c96464dcfb8907512b0e1283590ebbefaf309642e0779be9b6bdfab706a047bc8349ed5d6c0e07f7a1faef36"
+RPM_NAME = "neatvnc-devel-0.6.0-1.5.aarch64.rpm"
+RPM_HASH = "998e693cb4e3409208e3504121574869ce91fc115795d81e94e188027544ad4629e99e6a2ca08587854fa6c7858411b69c4ab4e01cbc050bb654b5ff27bb5957"
 
 RPROVIDES:${PN} += "neatvnc-devel \
 pkgconfig-neatvnc"

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "4.6.0"
 
-RPM_NAME = "yast2-transfer-4.6.0-1.2.aarch64.rpm"
-RPM_HASH = "9f2ce1718b632da77d0d68462c9e40a3de9bcb65affbe0ed68de79a264ec04c7e178280b8758e47e63adff39585b85cf1a7f6f788b04d4c76f4bcaeb1897cfc6"
+RPM_NAME = "yast2-transfer-4.6.0-1.3.aarch64.rpm"
+RPM_HASH = "e4133e3257509d450d7618453d1b635858c9a8a34d38acd191a78591180701ba7bdb8c0b92acc0401ee08e3445c7ebdb60060b837bd63fee386a4f8b8c60804f"
 
 RPROVIDES:${PN} += "libpy2ag-curl.so.2 \
 libpy2ag-tftp.so.2 \

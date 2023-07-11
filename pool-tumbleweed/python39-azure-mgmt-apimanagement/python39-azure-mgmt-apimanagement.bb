@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "4.0.0"
 
-RPM_NAME = "python39-azure-mgmt-apimanagement-4.0.0-1.1.noarch.rpm"
-RPM_HASH = "55d9e0c23349764d3d80e19cb9866ea18f06d6abb18b62cdbd066a9933e33349fe9a2b8ca7e3962898a3b43e03849f5b814cb76bf9baac62313626e55e918a67"
+RPM_NAME = "python39-azure-mgmt-apimanagement-4.0.0-1.2.noarch.rpm"
+RPM_HASH = "14287731900c5a6a7fa7954a39796e757e61bde9d869a2a303a1de193b6c3756da14498c3cae7dd4ec7dd73717862f338594a975a70d15c93ef84dc59d69047e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-apimanagement \

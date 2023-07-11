@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.3.6"
 
-RPM_NAME = "ghc-pretty-1.1.3.6-3.1.aarch64.rpm"
-RPM_HASH = "644afa81c7589cde7e43d47d3eb3cbe6914e8773938458e5624fc5cf52f57d3404ac7cd799e9e8167fc38b7b6b6f53407700c8c02cd0253647b3edf3583414da"
+RPM_NAME = "ghc-pretty-1.1.3.6-3.2.aarch64.rpm"
+RPM_HASH = "d32b33974226b28ad00cf3e3bcdbe1aab81696207734ba108a1f1af298773dcf0c205a24eca70da16ddee9ee795c3ab510e9313f14f58870b356c935a6967cb3"
 
 RPROVIDES:${PN} += "ghc-pretty \
 libHSpretty-1.1.3.6-ghc9.4.5.so"

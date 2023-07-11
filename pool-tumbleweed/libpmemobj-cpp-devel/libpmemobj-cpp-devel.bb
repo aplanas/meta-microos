@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.13.0"
 
-RPM_NAME = "libpmemobj-cpp-devel-1.13.0-1.5.aarch64.rpm"
-RPM_HASH = "224163d4e01f606fa08afbadc0662f71412accd3aa3ef00f717aa187504d80b0278dc1f0001f9283c00e342715fb3e9750d8ca867ef799de76811052b16e21e2"
+RPM_NAME = "libpmemobj-cpp-devel-1.13.0-1.6.aarch64.rpm"
+RPM_HASH = "6ff37c2f7f1de5d89cffa0e44c12b06d9834106ce1915ba3238fa9c387fd0cd834a9e102aefd071e2fed9c8da107e0b683eac0861a24093c6e75b357b10a5bcc"
 
 RPROVIDES:${PN} += "libpmemobj++-devel \
 libpmemobj-cpp-devel \

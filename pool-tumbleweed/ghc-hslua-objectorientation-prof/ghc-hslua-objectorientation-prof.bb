@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.3.0"
 
-RPM_NAME = "ghc-hslua-objectorientation-prof-2.3.0-1.2.aarch64.rpm"
-RPM_HASH = "48ed8be2378b67712f2688d0ff66613ef8f9e719562f05c834d2e0e4b018047f1768b7eed7620d97dd34414363de38f954d127d60d3d7b9637949986377fb56c"
+RPM_NAME = "ghc-hslua-objectorientation-prof-2.3.0-1.3.aarch64.rpm"
+RPM_HASH = "1b3543fe2de73cc79e21f74434a0abd92025949d130d7007134fe1761311d4dfbbbc60cab85f6c812dc04f4de4bfe8d2aaae2bcc185419dc0a9453ab3763c27f"
 
 RPROVIDES:${PN} += "ghc-hslua-objectorientation-prof \
 ghc-prof-hslua-objectorientation-2.3.0-7bmusH4WO3b1DlNe7DJ9Sl"

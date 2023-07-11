@@ -5,11 +5,12 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.1.3"
 
-RPM_NAME = "python311-aina-0.1.3-4.9.noarch.rpm"
-RPM_HASH = "781260693e267e748e8fb390d12b93de7d0cb397e3c9171d8c4871be70d594a5ceccfb8dfe068bce195ca5282c9fff06a81adeaf34aeaa6171d7abdc09817e58"
+RPM_NAME = "python311-aina-0.1.3-4.11.noarch.rpm"
+RPM_HASH = "c817b554de8e2668dcf0bf56bf25d1b8600198727dd71a5626490adeedf6cc74275c25b4cf8bdd9d6957bf904b212e78a55ca11758c1ae7160508d38337d4985"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-aina \
+RPROVIDES:${PN} += "python3-aina \
+python3.11dist-aina \
 python311-aina \
 python3dist-aina"
 

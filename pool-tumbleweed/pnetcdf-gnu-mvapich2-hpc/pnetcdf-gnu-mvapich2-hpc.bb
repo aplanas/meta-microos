@@ -6,8 +6,8 @@ LICENSE = "NetCDF"
 
 PV = "1.12.3"
 
-RPM_NAME = "pnetcdf-gnu-mvapich2-hpc-1.12.3-1.3.noarch.rpm"
-RPM_HASH = "c0fb2a4f588d850f145e111ecc1f51bf79232236f3da4a61e9fd995870913988025cfd5f4b4cfd89659e5d8b2483db46b4bf4cb395c35407e209df0511d730eb"
+RPM_NAME = "pnetcdf-gnu-mvapich2-hpc-1.12.3-1.4.noarch.rpm"
+RPM_HASH = "b17b93c366a1e1d8de4a9ba4bc7f3f29805ddf16226ffca620966ce3c1bde42b15c4e3808dd14244798640be255bb5acb0c60101d10a960053b691a3f8c9010f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pnetcdf-gnu-mvapich2-hpc"

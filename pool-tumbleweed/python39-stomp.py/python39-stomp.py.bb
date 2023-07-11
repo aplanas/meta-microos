@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "8.1.0"
 
-RPM_NAME = "python39-stomp.py-8.1.0-1.3.noarch.rpm"
-RPM_HASH = "58f39740087e49bb4a0d3116a69e0d0562050988200a7cc58c07c11fe29d2a372dc06aafd6209cecb4fc19418bc3487af75858238a2a813d4b9177921b0b4150"
+RPM_NAME = "python39-stomp.py-8.1.0-1.4.noarch.rpm"
+RPM_HASH = "34f0761ed5d38c2a8156bba4da9980ae84d4497eb8d0444aa2b2b8afa0f27a5dad3cf10c147da520ff437a45bbb58bd39af2933ff47f51cb49351f7bf2f002d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-stomp-py \

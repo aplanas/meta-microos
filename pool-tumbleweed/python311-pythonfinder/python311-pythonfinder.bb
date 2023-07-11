@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "1.3.1"
 
-RPM_NAME = "python311-pythonfinder-1.3.1-3.4.noarch.rpm"
-RPM_HASH = "3367918e10a8fcc5e9561985ca85ed0cd5d231bf0c60f6960fb59a0da81f0771a0a1fd73502de21fca561dbd670118b75fdac567d15765382b84ad6ca52cf410"
+RPM_NAME = "python311-pythonfinder-1.3.1-3.6.noarch.rpm"
+RPM_HASH = "bf9e73e402d3226834b99992ed292cb71a683d5f22ff8e800d948e0530c4e8dccb22cfa9ce483d24aa1fa9eeb1a4cdd9b65b2101214ac97c24e1e9eb41c42d08"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pythonfinder \
+RPROVIDES:${PN} += "python3-pythonfinder \
+python3.11dist-pythonfinder \
 python311-pythonfinder \
 python3dist-pythonfinder"
 

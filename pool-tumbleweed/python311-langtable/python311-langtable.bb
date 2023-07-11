@@ -8,11 +8,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.0.61"
 
-RPM_NAME = "python311-langtable-0.0.61-2.1.noarch.rpm"
-RPM_HASH = "6a1eb61a8e7bcb8476ebc715d5558399d4f3205a5c4fa4cdc05f9c63f39a10c1ef500c0ec9cc5b5ee0edde0430fbd286ae37a86d519f9e0d379cd344ed4e11e7"
+RPM_NAME = "python311-langtable-0.0.61-2.2.noarch.rpm"
+RPM_HASH = "cac973acba3b7ec0464f2bdca34879db7155a53dd1ac94b15fbc97e7e9ed552dd9176dfa17cf78581fba516fe66484a0cde26d83d416489418503369caadb535"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-langtable \
+RPROVIDES:${PN} += "python3-langtable \
+python3.11dist-langtable \
 python311-langtable \
 python3dist-langtable"
 

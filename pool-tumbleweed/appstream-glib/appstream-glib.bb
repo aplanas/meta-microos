@@ -14,8 +14,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "0.8.2"
 
-RPM_NAME = "appstream-glib-0.8.2-1.3.aarch64.rpm"
-RPM_HASH = "72346c11f9031bb27fbd8de1dcc214a82227aec750afc012082d628469098e0e8c12683f750497b6b72becd9fecfb4911a76ea148bf96faadc459011174d19f6"
+RPM_NAME = "appstream-glib-0.8.2-1.4.aarch64.rpm"
+RPM_HASH = "47dfdac07f05b7cd5b793110e381105977bf7091cb7d7558da20db33bce8faad6551738c3d584a3ebf5bd26740366f44f58f35b317d8121ce3062cf99b367916"
 
 RPROVIDES:${PN} += "appstream-glib \
 libasb-plugin-appdata.so \

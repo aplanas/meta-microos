@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Javanese Translations"
 DESCRIPTION = "YaST2 - Translations for Javanese."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230516.e4ba802a"
+PV = "84.87.20230630.ccfa6add46"
 
-RPM_NAME = "yast2-trans-jv-84.87.20230516.e4ba802a-1.1.noarch.rpm"
-RPM_HASH = "4ca6abe330cd161cdd2c3ec46b134b1038ba4f5d3096b090af02cdf4790336974b65dbeb850efd4a2e47e54355be271102c7d854a3eb77d08694a19bed65c8d9"
+RPM_NAME = "yast2-trans-jv-84.87.20230630.ccfa6add46-1.1.noarch.rpm"
+RPM_HASH = "9727e90b367816a96bdbdebc34f9738920c6dc2c9cc94e9951ca3d2e01ebe253aeeaad9bf154f2e87a4b05cd13fa896fcda36cd57c071535fc0cdeca348e58f0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-jv \

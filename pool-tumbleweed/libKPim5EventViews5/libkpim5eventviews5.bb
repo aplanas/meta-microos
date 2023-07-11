@@ -3,10 +3,10 @@ DESCRIPTION = "This internal library implements a GUI framework for viewing vari
 calendar events in agenda, list, month view or timeline fashion."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libKPim5EventViews5-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "b6a591351eb4daa28b0f15065445d316ad66bf532f22edf8d072721e3ec18c147d4edc0a628a4b48051f1564297283e3559d8914fb59c47bf9f017edaabccda8"
+RPM_NAME = "libKPim5EventViews5-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "2915f693d304838c70d08b937d5d4e0fcacd71c617e1e9bcc7ceb83204c51547ff3979629fad06cea978a02eca2a0a79063dc51771ff445771001f6e4da533ee"
 
 RPROVIDES:${PN} += "libKPim5EventViews.so.5 \
 libKPim5EventViews5"

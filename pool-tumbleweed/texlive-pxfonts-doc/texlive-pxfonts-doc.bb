@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.201.svn15878"
 
-RPM_NAME = "texlive-pxfonts-doc-2023.201.svn15878-53.1.noarch.rpm"
-RPM_HASH = "0fd23892778b0f0a66e0e0249528d25c2b4a8286cfe75c34cada549035aeb71b222c3cfcf739131d5a0c18cd1692114aac6b11619f831dca6a00f67b514c9618"
+RPM_NAME = "texlive-pxfonts-doc-2023.201.svn15878-53.2.noarch.rpm"
+RPM_HASH = "84b39017d120be9f638a91a687577c241b5738575a20fcf39523f72661a15ccf49353fbbafb87b6a0567579d33a84fa869d21dcf3b58d121c4f34bddc80716de"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pxfonts-doc"

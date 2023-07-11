@@ -7,13 +7,11 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "3.3.1"
 
-RPM_NAME = "python310-Glances-3.3.1-1.1.noarch.rpm"
-RPM_HASH = "662b35712aa3b59307cb315a8f770dd7fbc509286886eecb80e052a7f70439f5d0b125fe47213dbe8660add1ceb6566035ca3dc2e94bb3caaec763f9855e8de5"
+RPM_NAME = "python310-Glances-3.3.1-2.1.noarch.rpm"
+RPM_HASH = "23e16d440dbb685c928a86d5f436eb13504e6910931e3a08c7d8f569daee2d56f3c7c07cb1dbce866dd9d7997bc74b76fba7fbe42b384175d4c8b2e1cd7e4368"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glances \
-python3-Glances \
-python3-glances \
 python3.10dist-glances \
 python310-Glances \
 python310-glances \

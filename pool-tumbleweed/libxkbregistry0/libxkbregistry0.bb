@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.5.0"
 
-RPM_NAME = "libxkbregistry0-1.5.0-1.3.aarch64.rpm"
-RPM_HASH = "0d1dbac29c5d97c2fc8b9ac87f8ba45c7324906f3e5a2015e842b8b0949493bd7cc183975a16f37bdb28215bc3b1bfb192abc0ed529a1d04e2d2abf1f5bcfd34"
+RPM_NAME = "libxkbregistry0-1.5.0-1.4.aarch64.rpm"
+RPM_HASH = "dddf98940c4423f792a593995cf94f424091050c4d4f8593d2dc9d80646193f8f6f6f52d3405456e8ce9d2645338e39485b8ee1b6898d8b6c90d4743948c09e2"
 
 RPROVIDES:${PN} += "libxkbregistry.so.0 \
 libxkbregistry0"

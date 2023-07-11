@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & LGPL-2.1-or-later"
 
 PV = "1.3.0"
 
-RPM_NAME = "libfm-qt-devel-1.3.0-1.2.aarch64.rpm"
-RPM_HASH = "9917b3d2d4e34e5951a06d91fd37d64aff838a0a06a4c38bbf8192ab0b9bd3a260383d77d1da6035369ef3b0ccf78f43992fa44c491f7433ff16e2bb116e369e"
+RPM_NAME = "libfm-qt-devel-1.3.0-1.4.aarch64.rpm"
+RPM_HASH = "e9dd0dedaa171bd2e37bb0053bb73924d7e9b760b636cd3114c63859745a66b569f7852cfb0b524a9a18b7b41da44fb236cd18168f29f46844efc21fd14fcd5c"
 
 RPROVIDES:${PN} += "cmake-fm-qt \
 libfm-qt-devel \

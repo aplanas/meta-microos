@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0 & BSD-3-Clause & MIT & BSL-1.0"
 
 PV = "2.3.0"
 
-RPM_NAME = "PDAL-devel-2.3.0-2.15.aarch64.rpm"
-RPM_HASH = "fa35b685a21dd13ae4998a620ee99fb45e6fc83ecb038483e831f20a9ee4562f131e7f7dda527ebf8811acd6387e5e063f0a6d89cca7baab287f3637a4e74b5c"
+RPM_NAME = "PDAL-devel-2.3.0-2.16.aarch64.rpm"
+RPM_HASH = "34769650d689f8bc16c15fe2417e740a0af2c4f409842bc7a40b6a8c4734d68cf944a3d01597ebafeb2f4febe59236304f7fd2ec24ebbde22d6619759acbdce1"
 
 RPROVIDES:${PN} += "PDAL-devel \
 cmake-PDAL \

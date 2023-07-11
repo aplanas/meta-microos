@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.8"
 
-RPM_NAME = "python39-parallax-1.0.8-2.2.noarch.rpm"
-RPM_HASH = "aa0e013052d215790b2867080297214208763ea147d2657f611718ea3952df1d49ebb5dd202e5b41fcc7f1420305a6aba9d454aa541dc2d302dfbea7af7077d2"
+RPM_NAME = "python39-parallax-1.0.8-2.3.noarch.rpm"
+RPM_HASH = "24dd75d3df1af7f7441ee61e0a8c25c7e66862b62863ee3cfd70a5251f0c743e45d19597b97799da51b97d8eac6a54802ce1fb06499febb875f2497852b4bb88"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-parallax \

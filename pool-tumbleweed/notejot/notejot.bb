@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "3.4.9"
 
-RPM_NAME = "notejot-3.4.9-1.7.aarch64.rpm"
-RPM_HASH = "507c2ee024338ecab34af7de609e7fe00fd7f79268a1862dcff6799b10370880c93727e535e25277ae0cf988ca6482e7999c575bc832bb99dc2d9fb31a878cbd"
+RPM_NAME = "notejot-3.4.9-1.8.aarch64.rpm"
+RPM_HASH = "00a058449eca0d872c16f0e2a71af2300fde279d5db1354f2b808a75cebb6983ae4903e38fa1373d210caacd6d9bb52efea4e1c394e9722b44648e1db72f8276"
 
 RPROVIDES:${PN} += "notejot"
 

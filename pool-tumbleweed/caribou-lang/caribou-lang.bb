@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.4.21"
 
-RPM_NAME = "caribou-lang-0.4.21-8.7.noarch.rpm"
-RPM_HASH = "8354864951c0c7562230df688753b0a947e5cfd6b48f897768d2c8addd566f58633f3c06de6f80a10d496af89ed6e803f0a92c0a49cb06472acb40c2941a5e71"
+RPM_NAME = "caribou-lang-0.4.21-8.8.noarch.rpm"
+RPM_HASH = "e35b04d6414b0db2d33cefc842ec4a1dbfb7a4aba57725ed1f327c7f4c921275f1b5a62f99369f549cdce2a6f7738f730fa0fa43b0808e6dd09330e5538ab093"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "caribou-lang \

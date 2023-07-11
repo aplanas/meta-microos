@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.3.0"
 
-RPM_NAME = "python39-cma-3.3.0-1.3.noarch.rpm"
-RPM_HASH = "2aa4f6b4d8116094aca12a2dc408b418d8d129b3ad28891a63d25e79fe0f1685eacb5c3a37d77383d1a8ff0484af5d2acf1a827a1b9145c6a77af72b4e4866d5"
+RPM_NAME = "python39-cma-3.3.0-1.5.noarch.rpm"
+RPM_HASH = "24c5e0af097855e75cfd90b91ec5a28fd42d34c2844f859529702fdf079bda1608e8a288ceb7ce0766ab3181d11bd12f123a6626d4763547162919bccd511f3e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-cma \

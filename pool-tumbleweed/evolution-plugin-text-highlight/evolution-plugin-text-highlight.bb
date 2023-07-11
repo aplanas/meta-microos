@@ -2,10 +2,10 @@ SUMMARY = "Text highlight plugin for the Evolution groupware suite"
 DESCRIPTION = "Adds support to highlight syntax of mails and their attachments."
 LICENSE = "CC-BY-SA-3.0 & LGPL-2.0-only & LGPL-3.0-only & OLDAP-2.8 & GFDL-1.1-only & GFDL-1.3-only"
 
-PV = "3.48.2"
+PV = "3.48.4"
 
-RPM_NAME = "evolution-plugin-text-highlight-3.48.2-1.1.aarch64.rpm"
-RPM_HASH = "ed5dace4d9c5c66570b4159a7b2df3cd4c2e525f3a7b498805ab27ac644c02bf1754c965af29c823801c187f59b04c980581ad306017e0ca6014407e26a09051"
+RPM_NAME = "evolution-plugin-text-highlight-3.48.4-1.1.aarch64.rpm"
+RPM_HASH = "67c9685e907e5081499c6120c7a68daba4c4de70e275999e48bab8ddfa02158489ff881f82ba9ca2b7caa2cedee699f2ed0b75e43641771a04b1f47eda5aeeab"
 
 RPROVIDES:${PN} += "evolution-plugin-text-highlight"
 

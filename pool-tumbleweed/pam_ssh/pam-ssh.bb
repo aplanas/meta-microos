@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.3"
 
-RPM_NAME = "pam_ssh-2.3-4.5.aarch64.rpm"
-RPM_HASH = "ecfcf5c1103b1da9e95f76e58bb285b8be6dcd30aa17457d90bc3e7b582157c77c3f61edac82fc92a32674c7297e8ff8049dd85498256ee2c8aa44d215639f4c"
+RPM_NAME = "pam_ssh-2.3-4.6.aarch64.rpm"
+RPM_HASH = "f5ad617e2279c9a5767d4bf4c0ef0e6c7dbdfc86d3e585eb5e0bde83a890c58d95cdfe3ba167bba1dd3bb7d460ffd69822522601f1cc11673621db17ebd03361"
 
 RPROVIDES:${PN} += "pam-ssh"
 

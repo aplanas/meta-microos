@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.15.2+git0.2e2ca316"
 
-RPM_NAME = "elementary-xfce-icon-theme-0.15.2+git0.2e2ca316-1.11.noarch.rpm"
-RPM_HASH = "0bed57ffd051d87154308b374ca136ff34d0ba739bacd0b9ac518a2d54759e37a3807f35678b17bf2e9ba9b56a2ef538d9ed0c361acda595677ac0d0a30e71d5"
+RPM_NAME = "elementary-xfce-icon-theme-0.15.2+git0.2e2ca316-1.12.noarch.rpm"
+RPM_HASH = "801b2e7bdaa36b0ff1a57058cdc5b59000c77ef919beb3ad4c7bff20173c83b9a23fa790c2d07d2dc061d86ff7072cb3b37aca8236eeadbab54c2f60b2d5e862"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "elementary-xfce-icon-theme"

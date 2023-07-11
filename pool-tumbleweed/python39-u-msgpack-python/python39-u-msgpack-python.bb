@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "2.7.2"
 
-RPM_NAME = "python39-u-msgpack-python-2.7.2-2.1.noarch.rpm"
-RPM_HASH = "deee1de0166a351cac8d9bfc6fa2b948447358bf27c23d8148f80432e9b87a7243deabb734233d493b2c2b802c907e2abb5379d1e93830c4c9eaeec4bd9ffa36"
+RPM_NAME = "python39-u-msgpack-python-2.7.2-2.2.noarch.rpm"
+RPM_HASH = "f8cdaab6295f4339802445e8dd441f95144c6c705d55c3c26bd6dd22151c87405c839fdc3142aa687b3aa1c8363701656575f8df70465a519b0b9c4c2947197c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-u-msgpack-python \

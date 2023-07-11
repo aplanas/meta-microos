@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.3.2+git70"
 
-RPM_NAME = "plasma5-pk-updates-lang-0.3.2+git70-2.6.noarch.rpm"
-RPM_HASH = "ab8e5f1d7f240de65fd2672e0f77502020c4e7840798f3910b04487a9fa7761a2e66f9a1af165037f0e63a7973cbc7e6c2224217d4fab5478aa2af7e4d731259"
+RPM_NAME = "plasma5-pk-updates-lang-0.3.2+git70-2.7.noarch.rpm"
+RPM_HASH = "804f66c4f6ab0c75d1ff64309cac8a5c01290f41907481e98ec7d3631b4e5cfa2c3a3a843aead6fa09ce4e3fb5b5e070755868f4df4f2098a1f634044b23b406"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-plasma5-pk-updates-ast \

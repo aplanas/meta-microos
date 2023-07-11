@@ -20,8 +20,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "21.10.0"
 
-RPM_NAME = "mate-applet-dock-21.10.0-1.6.aarch64.rpm"
-RPM_HASH = "cd0379b6e2ce8fa665d66612fb238062fd1a3f6d6cca09d9956fb69324c0ce10d50626729d8dab1670268662e10902e1eb943c044310a193abe76dce7809f1b5"
+RPM_NAME = "mate-applet-dock-21.10.0-1.7.aarch64.rpm"
+RPM_HASH = "e0170521c6e325b7494d08bbeac7040b65b6839d5e3cb46e127f8002c30b5ca929c76b616db32ee31a5ea2e70a5fbc2bf9b6049d30a70769eb9979727eb42760"
 
 RPROVIDES:${PN} += "mate-applet-dock"
 

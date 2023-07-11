@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.11.1"
 
-RPM_NAME = "reflectasm-1.11.1-1.3.noarch.rpm"
-RPM_HASH = "ff712bf64d03182388b58f83fb7a7830472a9288395a46a30cb14458f1b8188706f50e8ffc6e1b3f9184c640d032559209cc37dc484328b49abd92a6beb3c964"
+RPM_NAME = "reflectasm-1.11.1-1.4.noarch.rpm"
+RPM_HASH = "5771b0e8b41cba506dfffaabdbc98b6733cd69effe5bb600f59de4c8499ea41b3897071548d985dc4ed07f7256a55bead63f9ebba748fbc8c82d77c3b96d5d77"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-com.esotericsoftware-reflectasm \

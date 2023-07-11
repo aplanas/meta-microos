@@ -17,12 +17,12 @@ LICENSE = "MIT"
 
 PV = "4.8.4"
 
-RPM_NAME = "python3-virtualenvwrapper-4.8.4-4.8.noarch.rpm"
-RPM_HASH = "78670a474fcd7b75fbf86e4d59bc769ddf2d6d401531495804ad02955204b0191c671ffc572b5ba640dea5a5200b1495d2a0cdcaf739258c6f8f9f324ba2835b"
+RPM_NAME = "python3-virtualenvwrapper-4.8.4-4.9.noarch.rpm"
+RPM_HASH = "cf0f4a1389dde90ce4a5dc772fb389ac16587d606ea0ddf752fd4487360bff2eb1d0f51b699522ab08f7fd01b46e5f3943d79edf8011ef4036590da310c7fc25"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-virtualenvwrapper \
-python3.10dist-virtualenvwrapper \
+python3.11dist-virtualenvwrapper \
 python3dist-virtualenvwrapper"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.3.6"
 
-RPM_NAME = "libqca-qt6-2-2.3.6-1.1.aarch64.rpm"
-RPM_HASH = "21c9fa7c1337cb2c55494bc8d0b78fb24521105b86d09ce648f5624c45a9ed1a514202a3abb5561e7ba200739642b4e2a8e80cf1b3aa9cb6e27492a154435740"
+RPM_NAME = "libqca-qt6-2-2.3.6-1.2.aarch64.rpm"
+RPM_HASH = "c8a2027089fd610f1b0e19e4e81ae7b8b9b6129440f30ade77eec979f100fa8d6420afd9969874e0c80b46a0f98549934f26b49aa1f997bcbff7a4bc9fc8e95a"
 
 RPROVIDES:${PN} += "libqca-qt6-2 \
 libqca-qt6.so.2"

@@ -22,8 +22,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.7"
 
-RPM_NAME = "velocity-javadoc-1.7-11.6.noarch.rpm"
-RPM_HASH = "34babadb261c8a0f946c3b04314ff2f23a319a3dc4c4369a06f96822b6af0b111d222a855de477e8bdfe00fd1cf1aebd249155829d99e98812ba7a672e66972c"
+RPM_NAME = "velocity-javadoc-1.7-11.7.noarch.rpm"
+RPM_HASH = "fb6cd2aa4da01584f40a26a4afb34fc94e8f7f9626ba8edee19e55f80cd8055021d2bd17b595641d082cb150506953043a97293860f33eb4d1d2e96be231e107"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "velocity-javadoc"

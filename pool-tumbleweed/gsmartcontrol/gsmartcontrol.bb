@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
 PV = "1.1.4"
 
-RPM_NAME = "gsmartcontrol-1.1.4-1.5.aarch64.rpm"
-RPM_HASH = "85ccfedc7345ae8b0b6a8de9c7b36465995e126fa188b370086f103bfc5c1bf61d93d0a1945d9c08e9caee77a0356311b395319b6d8642f7be35058199a52296"
+RPM_NAME = "gsmartcontrol-1.1.4-1.6.aarch64.rpm"
+RPM_HASH = "02bb4a8bf51a0aae9f2fe599dbdd3378a9e2352dff306e14d5b7161021027feb2b7486df2310221fad77e298ea6917157773f899870e2e86ec7b38d42ff45a49"
 
 RPROVIDES:${PN} += "gsmartcontrol"
 

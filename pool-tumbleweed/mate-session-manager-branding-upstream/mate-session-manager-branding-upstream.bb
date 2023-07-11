@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.26.1"
 
-RPM_NAME = "mate-session-manager-branding-upstream-1.26.1-1.1.noarch.rpm"
-RPM_HASH = "764df6153735f6835712137302d2518ee21792f87bcb0b46bfeacb0d58f31b93d508c79aa4869b5f2448e973d69d91aa3bb30f37515555bc2e8a37cf53a4721d"
+RPM_NAME = "mate-session-manager-branding-upstream-1.26.1-2.1.noarch.rpm"
+RPM_HASH = "694bd92f56d2e18773cfbde02dff34109318b4816d210b3c1a1134256b3cc679d87272c74d6f99ef6fd832b5fc85b6b0f9084a2af01dc0362f892c22bc9a586d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-mate-session-manager-branding-upstream \

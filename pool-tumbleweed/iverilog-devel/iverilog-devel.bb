@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "11.0"
 
-RPM_NAME = "iverilog-devel-11.0-1.11.aarch64.rpm"
-RPM_HASH = "b711f81d639b33f4914b67d4581517e4c3a867975885d6321f14b4c7055a64b4b48d694c41cc5b66ef513e672392dc2b151f723e09a01c9a7c3e5d01ee290f9e"
+RPM_NAME = "iverilog-devel-11.0-1.12.aarch64.rpm"
+RPM_HASH = "3a1dd4f7126ba1fe8212d08fe756f7011d11a6b2d1d9ba460edd7da00d3f602eedf99bd557a9f97d764b981a40e12ecf99f8ff512e326126198568fd976dfc69"
 
 RPROVIDES:${PN} += "iverilog-devel"
 

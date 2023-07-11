@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "28.2"
 
-RPM_NAME = "emacs-nox-28.2-4.2.aarch64.rpm"
-RPM_HASH = "72a00e6b56d73f15a3421185ba039c57dfa5e73b32a879b8009248b97a5818f3694948878d8d754a8aaefd0f82bebbaccfe358225d135b2e57331a0509894f0c"
+RPM_NAME = "emacs-nox-28.2-4.3.aarch64.rpm"
+RPM_HASH = "87982cd503e95054811f07cef1d6ee23f65ce8a982ef9e9fe74150d19012acd7688229ea5ef781157af4a083b8eef60b3c43e22e3db257b47b0d98b9dbfacc1a"
 
 RPROVIDES:${PN} += "emacs-nox \
 emacs-program"

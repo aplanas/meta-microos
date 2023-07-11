@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0.0"
 
-RPM_NAME = "python310-azure-mgmt-alertsmanagement-1.0.0.0-1.8.noarch.rpm"
-RPM_HASH = "2ce579f6081dd38abd60da3c2176af7e000d58dcaec3fca690f79a1fd0a3ed1682221b46d939d4958235090ba413330052147a2979c0fd08c7e8ef16d5cc9d98"
+RPM_NAME = "python310-azure-mgmt-alertsmanagement-1.0.0.0-1.9.noarch.rpm"
+RPM_HASH = "88a652f453b384d2f4e021be2a82e669dc20594ce05384da1752fb05e5f58d44d946857d253e6221835242661ae4cb0455369c41dcceff752dad2dc6a433c1d6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-alertsmanagement \
-python3.10dist-azure-mgmt-alertsmanagement \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-alertsmanagement \
 python310-azure-mgmt-alertsmanagement \
 python3dist-azure-mgmt-alertsmanagement"
 

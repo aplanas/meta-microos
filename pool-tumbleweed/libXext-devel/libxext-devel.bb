@@ -14,8 +14,8 @@ LICENSE = "MIT"
 
 PV = "1.3.5"
 
-RPM_NAME = "libXext-devel-1.3.5-1.2.aarch64.rpm"
-RPM_HASH = "80cae16946ceadafcf13b3c14955d4a08f6be5eeb0ecdf9ee70e7f99f98f6abcc35d50cf8e42832a17b0b7210bca355b4d1d9c370972b96d799d11d2a232b192"
+RPM_NAME = "libXext-devel-1.3.5-1.3.aarch64.rpm"
+RPM_HASH = "8655d99f4fb04cbb6120263ab1bec1ee3334e3811b5ceb61ca6e89b43df8f44313114f8b37faff20734871068c1f101e00ba26cf11a8d01ca5ac7aeb3c157c10"
 
 RPROVIDES:${PN} += "libXext-devel \
 pkgconfig-xext \

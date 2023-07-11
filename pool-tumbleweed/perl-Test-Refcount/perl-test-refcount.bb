@@ -16,13 +16,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.10"
 
-RPM_NAME = "perl-Test-Refcount-0.10-1.15.noarch.rpm"
-RPM_HASH = "bb83409e4c42c8baf118c650c32e7b86ea3d5e2db8052ceebe937063cb5deb967e66499e8a57455f7bd8d61c933a9f4a99de19281626652d2ae8daadd30b9e46"
+RPM_NAME = "perl-Test-Refcount-0.10-1.16.noarch.rpm"
+RPM_HASH = "d3b0e23a72c1e5c5073abff5ed70429504ce0f5f3a578c1af317964a96c9cb92ad1ad8a69470595d1b43aa6f5dcb3ab66ee7d9d6903d0828e2e5e69d74abc47e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Refcount \
 perl-Test-Refcount"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

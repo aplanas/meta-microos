@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.9.0"
 
-RPM_NAME = "python310-ufoProcessor-1.9.0-3.8.noarch.rpm"
-RPM_HASH = "2442bd0df641c8512adf4dd1153ff2efc2f2ce607f1454bf423afd98efebbea917e8087e34b10d4aa1268615aa87e4cf27d521c0a2c9bb149efbf4ebaa5b53ba"
+RPM_NAME = "python310-ufoProcessor-1.9.0-3.10.noarch.rpm"
+RPM_HASH = "edb1bd32332725ee3a8247177dc77616172571ba70e299c5cd5f1ff020b078a8a13f644ac5be8d6b0b05c9671c9490a347f938051da7f2aee961dcc9556dc0f0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-ufoProcessor \
-python3.10dist-ufoprocessor \
+RPROVIDES:${PN} += "python3.10dist-ufoprocessor \
 python310-ufoProcessor \
 python3dist-ufoprocessor"
 

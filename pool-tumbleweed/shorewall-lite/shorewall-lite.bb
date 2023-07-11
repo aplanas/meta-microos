@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "5.2.8"
 
-RPM_NAME = "shorewall-lite-5.2.8-4.2.noarch.rpm"
-RPM_HASH = "dd7a71f98195c666db71f9953a407bd7b26831035fffa77c0ab904d21ae3aa0c63b96594b9d419d80dc467c162845898fc6e9a648751b0cdc9e4379954eef18c"
+RPM_NAME = "shorewall-lite-5.2.8-5.1.noarch.rpm"
+RPM_HASH = "c420857f07988b1d96d53f9b68acf59c5c753e410632a70aaa224b04698d84693d9d49cb6f0ae7c6e55e7242a4aae644fc052d779c3a52ace330d73f43e63618"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-shorewall-lite \

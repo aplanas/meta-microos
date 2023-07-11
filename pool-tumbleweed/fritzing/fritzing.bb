@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.9.4"
 
-RPM_NAME = "fritzing-0.9.4-1.24.aarch64.rpm"
-RPM_HASH = "add794b7d756f913fa2edf8f043d20cc55cfcc73702450b0596663b281f91b745094e528d9ea582a0a210af36629e91098507f2f8fa0e4b1372a1f6ad24599a8"
+RPM_NAME = "fritzing-0.9.4-1.25.aarch64.rpm"
+RPM_HASH = "f64432e3c188dbcd173d7318e118eaaeabd1468b5ce5a828f9baab2533549b0f796111cd9dedf1aefbf65470bb32cd073ba09df1fc230de859f9a2a0f5107ce2"
 
 RPROVIDES:${PN} += "fritzing"
 

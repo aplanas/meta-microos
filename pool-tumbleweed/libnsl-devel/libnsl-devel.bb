@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "2.0.0"
 
-RPM_NAME = "libnsl-devel-2.0.0-1.13.aarch64.rpm"
-RPM_HASH = "ec8e4097525dc77b5a45e1c64d2ae53fb5d54d5ac7d813d401b95de1b28866c4a86f60a476359732ddd5d2f4038ce57ccc4a93de7cf1dcb90fbc75ca264ce00c"
+RPM_NAME = "libnsl-devel-2.0.0-1.14.aarch64.rpm"
+RPM_HASH = "96a853d7dcb66b5da6f6c11a9ba67dddc41d0c423b6afbe6c278b89703f7a6bf594a4eb85d3049c00fb09a8870162e379ad714a63f8c8bc317b4f004b81bf843"
 
 RPROVIDES:${PN} += "libnsl-devel \
 pkgconfig-libnsl"

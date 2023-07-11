@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-quick3dspatialaudio-private-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "4e7c9e29df39d4000e684d52ce490ef9aa5af8f1784c90ae12daa977a73797033dc570c7aa35bed97fcd1e25ff198f84c7200280b00b481992ad618c51d77350"
+RPM_NAME = "qt6-quick3dspatialaudio-private-devel-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "825809a375966210aec6cd1904eb199275aebcebc5db6ef53feceefb5bff71836cb1706c2b8a10a03e4a31d76aa4426c265a51ef42dcaf98647c78ccc4e4c886"
 
 RPROVIDES:${PN} += "cmake-Qt6Quick3DSpatialAudioPrivate \
 qt6-quick3dspatialaudio-private-devel"

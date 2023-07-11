@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2"
 
-RPM_NAME = "libnet9-1.2-3.8.aarch64.rpm"
-RPM_HASH = "abbc28d9f841e44883f3771000c36bb0f4d87e89c78f11584ce9524836e800a44dc56aabc7f362a45faf498fbb3a60f752fa270712848cbe806d3e397a85dd0b"
+RPM_NAME = "libnet9-1.2-3.9.aarch64.rpm"
+RPM_HASH = "f55a16a51bc0bd49cb5e5ec25d7040effe02011d206b7bc4c5a10deb3ba901d516e608adf6888e8860bc3c7ac6c34099cbd278474fbebc87198acf322b7024de"
 
 RPROVIDES:${PN} += "libnet.so.9 \
 libnet9"

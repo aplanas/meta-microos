@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.0.0"
 
-RPM_NAME = "python39-vega-4.0.0-2.1.noarch.rpm"
-RPM_HASH = "89ef44213e3ed6f45ac306415e21c37a421d1c0ed79bb2bd5445df6dbcd47e72d22118322b4c2a469d099aeb23b1fb99b234eb9f15c7720e2aae42cc38a1211d"
+RPM_NAME = "python39-vega-4.0.0-2.2.noarch.rpm"
+RPM_HASH = "4437fb26f255bf5c80c00567aa8789517095238f0bca35af451895a1cf454c3341160c6c218f8fcac032a902e423da72b5fb5d3ee13f31b06068c4ba778c9a28"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-vega \

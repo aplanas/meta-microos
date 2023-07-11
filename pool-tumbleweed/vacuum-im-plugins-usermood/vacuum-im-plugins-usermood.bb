@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.0.1"
 
-RPM_NAME = "vacuum-im-plugins-usermood-0.0.1-9.23.aarch64.rpm"
-RPM_HASH = "60effb559f559432d14c86c74b22be1b89841b19e88acf311bd3309c4fbb54d920c71e149112264160225c8277c4d426d974396bff864bda0fa89caa54f5e3ba"
+RPM_NAME = "vacuum-im-plugins-usermood-0.0.1-9.24.aarch64.rpm"
+RPM_HASH = "3f7f91f0870a1974bea3d997bbab65c86955596180838e3c244a34b79dfed01c4b3efb746327b0cc5ad4fdb1165019187bc94b391e45bfbcb1cad68e0e501739"
 
 RPROVIDES:${PN} += "libusermood.so \
 vacuum-im-plugins-usermood"

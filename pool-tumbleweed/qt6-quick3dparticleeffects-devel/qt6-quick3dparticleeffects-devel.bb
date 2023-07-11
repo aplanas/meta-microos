@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-quick3dparticleeffects-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "78db9b2b87435f34d35b63986cefc5cc6083a618fc34242b885b9f7b250c9606c5184fcfe6ee12c79fda738095dd624267faffbe63d882f5a25adb453f09d599"
+RPM_NAME = "qt6-quick3dparticleeffects-devel-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "51b46c45e5ea645a82e54b032fb16f3153ac0a7eb2fe14a400ba4ea9a74a546bde294ad2c30d6f32c07d4b9a8640f5db71d8c43e4b82154aa2ccaa0b8d74b1ca"
 
 RPROVIDES:${PN} += "cmake-Qt6Quick3DParticleEffects \
 pkgconfig-Qt6Quick3DParticleEffects \

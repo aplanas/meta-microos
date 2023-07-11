@@ -2,10 +2,10 @@ SUMMARY = "Sound Mixer"
 DESCRIPTION = "KMix is a fully featured audio mixer by KDE."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kmix-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "4020b72cfd9f7d862b1cbce9749c6688ade13affe2092f3a33ece4896ce2b554d909349a40dd56b61a29ad775b67090b54fe0d7631f5b1105ec76e8a334c3b77"
+RPM_NAME = "kmix-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "8150c9de81a502c1c15ea39fb400f600ca00d47882c670a3448092fd0647901b3204357e206a9cd297df19c355e6e3ddda7c12c59f316eac5f75a252e5dedf5f"
 
 RPROVIDES:${PN} += "config-kmix \
 kmix \

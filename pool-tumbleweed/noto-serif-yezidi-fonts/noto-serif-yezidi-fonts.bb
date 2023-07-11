@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-serif-yezidi-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "584bc9d83bee0c960f2c5999a28e80609f5872d3a41addf92572cc261b0464948bfb0248a91750724c13912e19d0d240fae44cb554b39521051f9942f48f2bbd"
+RPM_NAME = "noto-serif-yezidi-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "84f6936b456eb0fa3ee9e8754ac3140d36984992bc0dc50fa9c4ff4c8b9cb491e8bc48977953d704da550cd054abe051079e7312b867eea9907eee94dc35272a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-serif-yezidi \

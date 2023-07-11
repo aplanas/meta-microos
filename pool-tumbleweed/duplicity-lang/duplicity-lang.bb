@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.2.2"
 
-RPM_NAME = "duplicity-lang-1.2.2-1.2.noarch.rpm"
-RPM_HASH = "c146721703109c8c1ea75334d18303dae97b4e75da855a77cfb327fecdeff71fcb7443077e69470a7e4d376df2bee5b438320445d16e0b5e8248de6c654c866e"
+RPM_NAME = "duplicity-lang-1.2.2-1.3.noarch.rpm"
+RPM_HASH = "c3b9a46c9b755bfc98a668f17855091087048d8a621ba085bd12b55202d47fe428809051b6f49623f85b46b4a9f960899eed5fc3b4f141537d232fc326f98113"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "duplicity-lang \

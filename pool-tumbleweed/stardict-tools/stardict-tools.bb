@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.0.1"
 
-RPM_NAME = "stardict-tools-3.0.1-85.10.aarch64.rpm"
-RPM_HASH = "597301ce5d3df1122b65d1b07c85cd61285eaf5df1f0af0d2e880a058ae886ae5610aa3fa45952cc1f9d8ab4a5a38a272758cfcaba1c45a0035dc4c128e2d0b9"
+RPM_NAME = "stardict-tools-3.0.1-85.11.aarch64.rpm"
+RPM_HASH = "f2544612658dcdb80ee0be635354067199dca59ad81a6c3d22eaa114c3042cc77360d48234e32900c460c71ab054bbff98048e90f6129c918aafbe019c25a2c5"
 
 RPROVIDES:${PN} += "stardict-tools"
 

@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "30.pre9"
 
-RPM_NAME = "wireless-tools-30.pre9-40.7.aarch64.rpm"
-RPM_HASH = "c1d99b8c08da24f7f9d79c93fc4b83d40df6fc9fa7d3a7d60344be23f684e817d025ffef598f58771b00e4a4ecc1d29373786a9fc751d55f7a7fe5b672e5602f"
+RPM_NAME = "wireless-tools-30.pre9-40.8.aarch64.rpm"
+RPM_HASH = "08fe60762daedbf2d6eb439359b976cc5c3b27a140cfebbdeacd60240f962897662330e5b7a0e33923e324f77843de769ae2e48522990cf28f53d28c2dc2a3ba"
 
 RPROVIDES:${PN} += "wireless-tools"
 

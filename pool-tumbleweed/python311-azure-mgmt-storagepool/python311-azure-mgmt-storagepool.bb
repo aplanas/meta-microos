@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python311-azure-mgmt-storagepool-1.0.0-1.8.noarch.rpm"
-RPM_HASH = "f218647916b316d221fd3946fe2b9c70a64373057a046723c56099376d5a140cf11891eab5efb79f10e377887bf706250c16d4b73f8070acc1a053c6fe9b27bd"
+RPM_NAME = "python311-azure-mgmt-storagepool-1.0.0-1.9.noarch.rpm"
+RPM_HASH = "c9f9cdac104a11fc2da6e7c9fddcc71be06c081963896cad44e7ab32fbcb9d17aadcbf56d885749f3b2895265095791e59cd1de3fe03bb48b8e0364a5e48cf74"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-storagepool \
+RPROVIDES:${PN} += "python3-azure-mgmt-storagepool \
+python3.11dist-azure-mgmt-storagepool \
 python311-azure-mgmt-storagepool \
 python3dist-azure-mgmt-storagepool"
 

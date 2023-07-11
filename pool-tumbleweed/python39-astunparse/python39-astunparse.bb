@@ -14,8 +14,8 @@ LICENSE = "BSD-3-Clause & Python-2.0"
 
 PV = "1.6.3"
 
-RPM_NAME = "python39-astunparse-1.6.3-5.1.aarch64.rpm"
-RPM_HASH = "4012fdb3010a25e98fc067fbe79fc77b87b19200063081c31775ec8a00edd0b6d1d84d0ffc502d010113e638fae88e5caa6382650dec1cb58f1d2d7dca43e528"
+RPM_NAME = "python39-astunparse-1.6.3-5.3.aarch64.rpm"
+RPM_HASH = "22089f4557bf45bb508ce8e1cb747c92f8b051cc50dcee5319a26691dc765bf6812d8249402306cb37d55a59c69ad4d5152a7faeab56143699fcce44f13d4f6d"
 
 RPROVIDES:${PN} += "python3.9dist-astunparse \
 python39-astunparse \

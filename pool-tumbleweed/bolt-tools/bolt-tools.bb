@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.9.5"
 
-RPM_NAME = "bolt-tools-0.9.5-1.3.aarch64.rpm"
-RPM_HASH = "3b103134cd2dac4e24ca0d049f7445835d4cc8fd5dbd523e414fc7bb3c80c149338bb85fdf7e94df0a6157f9ba446b9fa58cf532b417d2796fd892b90c11ccd8"
+RPM_NAME = "bolt-tools-0.9.5-1.4.aarch64.rpm"
+RPM_HASH = "ddaa4b73bb8f1d4649274faf608cff1ac5aa6205017829471c6ca2ee2d0107d7ebdeefe629c7bf8ddd143196fdc957f96ec4160551e5a3c37de3667ccc22f2aa"
 
 RPROVIDES:${PN} += "bolt-tools"
 

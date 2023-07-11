@@ -6,8 +6,8 @@ LICENSE = "ISC"
 
 PV = "1.6.1"
 
-RPM_NAME = "libmypaint-gegl0-1.6.1-2.3.aarch64.rpm"
-RPM_HASH = "ab9d23cc38c03804eb9c035027684fd666f332639b2bcfade50fba4bd71c9bacc546edcd9f85a9f136f20b9d6d3c6174ca1653b5b14bb0783d9ffc5cffc11978"
+RPM_NAME = "libmypaint-gegl0-1.6.1-2.4.aarch64.rpm"
+RPM_HASH = "4aacb3802d9fcc430eaba42496b4e48e10175141fcc8219efe4b8521abd4509705c26bc3dc915034daec2f7a11d33837f119bbb00945c29d880e1a7e28a276f5"
 
 RPROVIDES:${PN} += "libmypaint-gegl.so.0 \
 libmypaint-gegl0"

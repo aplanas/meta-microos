@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.7.8"
 
-RPM_NAME = "DevIL-devel-1.7.8-11.11.aarch64.rpm"
-RPM_HASH = "27a377383bada6d32be1f5dbee7a3eea0bdb250b7e6e1f605f02f5dae0966bb1f74966fa7837ae7674af2cdfef56c2a6bfd6fe67046b9a9f12307a3626b1d416"
+RPM_NAME = "DevIL-devel-1.7.8-11.12.aarch64.rpm"
+RPM_HASH = "f0e899362bf76bc80c93c43eea8ccf1d425c9165f78d685184ecf66766f2f4312a727774ccf54c07a85496318b89153ca81f70f559021a6bba5b907d82f16231"
 
 RPROVIDES:${PN} += "DevIL-devel \
 libdevil-devel \

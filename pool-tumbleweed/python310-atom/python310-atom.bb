@@ -7,11 +7,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.10.0"
 
-RPM_NAME = "python310-atom-0.10.0-2.1.aarch64.rpm"
-RPM_HASH = "8e8c72479c808b39185575eac8e6473fa0e3d8cc27e542865a28f7275a14c467c4717d4ef23064f14117295082e8fb0adf75f64057519dff2acef65eb2bffeb3"
+RPM_NAME = "python310-atom-0.10.0-2.3.aarch64.rpm"
+RPM_HASH = "50d1e4bf929c402f82774f765b4ed478d8610c76cb9a6557a527e42518706171edece9362df73a729df3518cef46a2be45936fcb267c22f0619da49a63f90f97"
 
-RPROVIDES:${PN} += "python3-atom \
-python3.10dist-atom \
+RPROVIDES:${PN} += "python3.10dist-atom \
 python310-atom \
 python3dist-atom"
 

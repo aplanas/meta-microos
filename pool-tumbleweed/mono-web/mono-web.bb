@@ -10,8 +10,8 @@ LICENSE = "MIT & MS-PL"
 
 PV = "6.12.0"
 
-RPM_NAME = "mono-web-6.12.0-5.3.aarch64.rpm"
-RPM_HASH = "c89a542af7180ba4d9c1868925c3015debeee5ad5c671563465f8a472f671c5a3dc5eec3fe28b1054b7d1c5a5d1ff2aa8ec3257851dd3e34010de6a2c6de2c08"
+RPM_NAME = "mono-web-6.12.0-5.4.aarch64.rpm"
+RPM_HASH = "e288f6620db4d01a2ae4d6251512f9fb26148be4296ab3bbedf9286a0eb69ac89189495636e37f5853bd3da3f2b278975ca975f43cf76dc84562af8fa2310ccf"
 
 RPROVIDES:${PN} += "config-mono-web \
 mono-Microsoft.Web.Infrastructure \

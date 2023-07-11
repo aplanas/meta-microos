@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.1.0"
 
-RPM_NAME = "python39-tri.struct-4.1.0-1.4.aarch64.rpm"
-RPM_HASH = "86e34d2aa68253d0e0d97ee9f73244cfe9a4e97044c51df804c404d83439e4dde408685c26d8741cf21702789e81875d8563611c9cc8e6a42d82cf1406029a4f"
+RPM_NAME = "python39-tri.struct-4.1.0-1.6.aarch64.rpm"
+RPM_HASH = "7a138f7123f17b0e76a334ab3da67dc774dec5692c1df7c37754a840a8ad4c0d5fe51495b79a14c96c0a4c038054786de9cf3eeed641531d7d3e6507f1a5ecad"
 
 RPROVIDES:${PN} += "python3.9dist-tri.struct \
 python39-tri.struct \

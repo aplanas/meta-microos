@@ -21,15 +21,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "3.2.2"
 
-RPM_NAME = "perl-Test-Compile-3.2.2-1.1.noarch.rpm"
-RPM_HASH = "e3fd741b685c8439d821efb7284256253dbad568c735b80bc1a4e30d03f66687c2889a4f84f1de57efe094e91873b16579ac72e44912f06145aeab616798e02e"
+RPM_NAME = "perl-Test-Compile-3.2.2-1.2.noarch.rpm"
+RPM_HASH = "e3fb8104ade408ee24ce56ffbff588c076c4d4127a10e23dfa62f6c778db03782c614dac4f51ab65de87734ebea6737555259ce3bb296918578a3644a9d2519b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Compile \
 perl-Test--Compile--Internal \
 perl-Test-Compile"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Exporter \
 perl-parent"
 

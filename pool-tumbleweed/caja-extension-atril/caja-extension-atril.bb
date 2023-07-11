@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.0-only"
 
 PV = "1.26.1"
 
-RPM_NAME = "caja-extension-atril-1.26.1-1.1.aarch64.rpm"
-RPM_HASH = "bf1f8a19939c142d95d3850c8590019bbcb1dfe9028450224b93f3ea8ec23e7a0f829fb09bb8776632a2fc4e3b4c76d3852cf3e180a421d8569d1adc6f56f98f"
+RPM_NAME = "caja-extension-atril-1.26.1-1.2.aarch64.rpm"
+RPM_HASH = "01693c4252236c0e20fb804d7e54b6bb12c90ce7b74ef1d266dd5681e7e04bd9325774de1ae77f39e72efda775ff8dc1020af4825b34074b7275a962aa4c413b"
 
 RPROVIDES:${PN} += "atril-caja \
 caja-extension-atril \

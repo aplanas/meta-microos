@@ -3,10 +3,10 @@ DESCRIPTION = "Tio is a simple TTY terminal application which features a straigh
 commandline interface to easily connect to TTY devices for basic input/output."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.5"
+PV = "2.6"
 
-RPM_NAME = "tio-2.5-1.2.aarch64.rpm"
-RPM_HASH = "7fc2ada7eea1229c6aafada45019c5f02a90a774eb2af4ee76dc91511d8965d9c124488903baed65cd4086054abdeef96e8f12e082f30d167d9df031f94bb71f"
+RPM_NAME = "tio-2.6-1.1.aarch64.rpm"
+RPM_HASH = "6dd7f41bc92a5ab51a8ed498f6f12514dc7142744a1500ef73a6f77f2c3274689283baaadc2b2782c305b466967b8d80f49ef674b56af80ccdbc5359942a58e7"
 
 RPROVIDES:${PN} += "tio"
 

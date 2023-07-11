@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "8.0.1"
 
-RPM_NAME = "libmgl8-8.0.1-3.3.aarch64.rpm"
-RPM_HASH = "ed1382458ff1cce88fe4ec60d631b7afd292dbf61571db5ade282396666484f4ceb80bcb3835e59178b91d41506d4db8deb61c3b28d997be2ba69ae60cf316f6"
+RPM_NAME = "libmgl8-8.0.1-4.2.aarch64.rpm"
+RPM_HASH = "f02d72700809600f22f5ad29bf9d1186dd94c531a6131bf16b145de38e76296ddeea37fc931aff0c6a2cf73256a0dbaa0e5bb52acf7c26b19a8c5c8a58928e0a"
 
 RPROVIDES:${PN} += "libmgl.so.8 \
 libmgl8 \
@@ -23,7 +23,7 @@ libgomp.so.1 \
 libgsl.so.27 \
 libgslcblas.so.0 \
 libhdf5.so.200 \
-libhpdf.so \
+libhpdf.so.2 \
 libjpeg.so.8 \
 libltdl.so.7 \
 libm.so.6 \

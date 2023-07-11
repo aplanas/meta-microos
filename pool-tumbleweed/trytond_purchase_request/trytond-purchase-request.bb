@@ -4,11 +4,11 @@ LICENSE = "GPL-3.0-only"
 
 PV = "6.0.4"
 
-RPM_NAME = "trytond_purchase_request-6.0.4-1.1.noarch.rpm"
-RPM_HASH = "f1796bda5b2228150db7cfe6ca1d5de2dbc390e3ed31258432c5496157efba4b57d3ee2116867aa521440642cfc7d448f0e58c24ed75863efc5665cf21b8064d"
+RPM_NAME = "trytond_purchase_request-6.0.4-1.2.noarch.rpm"
+RPM_HASH = "1b530db5c2d136c90d9aac9c59e8c0e81a1fb5f0c8400abbf3585aa03a2a05929cf688d2f824ceebfa9a6fe8cf2f5cc5557f15e84291dd273d4d5a84eda5e1b2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-trytond-purchase-request \
+RPROVIDES:${PN} += "python3.11dist-trytond-purchase-request \
 python3dist-trytond-purchase-request \
 trytond-purchase-request"
 

@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.svn66203"
 
-RPM_NAME = "texlive-dvips-doc-2023.201.svn66203-53.1.noarch.rpm"
-RPM_HASH = "ef9d9f3ce8e8d6f8c5ab17c95aaf307298640be374d8abdd304a7e5999b85ddb36b0303b4ede50b9c711c3059f53ccc16c98b028852058d0fa6463a34546120e"
+RPM_NAME = "texlive-dvips-doc-2023.201.svn66203-53.2.noarch.rpm"
+RPM_HASH = "ad6c9b495d4f7b26fa20dd0b0408a0a3a1e045683155a9ad546097b64fc61396f58f2d768ddcb2d891d86e2df89aece37ec316a4837d217eaa4a1fd4ce624d2f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-afm2tfm.1 \

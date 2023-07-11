@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "3.0.4"
 
-RPM_NAME = "python310-wtf-peewee-3.0.4-1.10.noarch.rpm"
-RPM_HASH = "6c75e5791eca1b9125bdfbf9a33436d453b6382e4b707f7c3efb61d7aa4d40ed0e35b240278e5b932c215e96ecb1f2b6deadd22c0618c1872e8b95fb656344d3"
+RPM_NAME = "python310-wtf-peewee-3.0.4-1.12.noarch.rpm"
+RPM_HASH = "9b582158580ef33d1e3d28fc6dc081d64f1b31296d88cc4b0143d0c57281de694cc46099f034964a9fc5efebaf385cd4f676910fe2ee79329bf301fbf961738d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-wtf-peewee \
-python3.10dist-wtf-peewee \
+RPROVIDES:${PN} += "python3.10dist-wtf-peewee \
 python310-wtf-peewee \
 python3dist-wtf-peewee"
 

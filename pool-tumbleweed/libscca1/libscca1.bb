@@ -6,8 +6,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20221027"
 
-RPM_NAME = "libscca1-20221027-3.7.aarch64.rpm"
-RPM_HASH = "a13b10d1e5310d5fb07c82bfa685985d11234f1f7272a2dcf0090cd919e705f3a88ad594d153abdb7125fe1235c80c7471adb41b1ad040aae5533faec2de465a"
+RPM_NAME = "libscca1-20221027-3.10.aarch64.rpm"
+RPM_HASH = "8bd02504c486b24ab3e9a38a54a1e8e9748d95249815b36105d2bd362780813d315ac7b3ea63bef1367cf2aff46d0de90fb2b3eeb7b9fd1af416f1abd6afaffe"
 
 RPROVIDES:${PN} += "libscca.so.1 \
 libscca1"

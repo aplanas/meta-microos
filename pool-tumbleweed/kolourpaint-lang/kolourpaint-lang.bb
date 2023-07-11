@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kolourpaint"
 DESCRIPTION = "Provides translations for the 'kolourpaint' package."
 LICENSE = "BSD-2-Clause & LGPL-2.1-or-later & GFDL-1.2-or-later & GPL-2.0-only"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kolourpaint-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "39b94f4549216ddeccf18c2f28b1772f569d098df498bb42f3b89c80b52dbdb494be2b5626564ec513b78d463cbaa79a686ea57b023eab4908ed8d77652c0a83"
+RPM_NAME = "kolourpaint-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "573f9c518ed1eaaf5ef63a55e43008ee52852cc46ac3779e7e1222dacd89b2b0e3cdf45fd45ac3f3f9ac064a6e234d09711cb5edda94b31fc9f5c1f1751f1e6f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kolourpaint-lang \

@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains compressed kernel firmware files for \
 Intel wireless drivers."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230517"
+PV = "20230620"
 
-RPM_NAME = "kernel-firmware-iwlwifi-20230517-1.1.noarch.rpm"
-RPM_HASH = "66a3300f6ac04b59080dc5ce98b2f127b7f43088be04c1abe95dce7ece6f58c0f06e3699f23ab18dfed103fa18117c776731caf9ec3ed6caeec562efffea5d5a"
+RPM_NAME = "kernel-firmware-iwlwifi-20230620-1.1.noarch.rpm"
+RPM_HASH = "500d882f74ccca473f1a6195382d574f4141c794f71bd04876651e7f620e28e2a2325f28c15db5a16dd88722709b4a4b65422459bf52bdf659ccaa38812ea17d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-iwlwifi-100-5.ucode \

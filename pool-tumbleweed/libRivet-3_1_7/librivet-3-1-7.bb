@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "3.1.7"
 
-RPM_NAME = "libRivet-3_1_7-3.1.7-1.1.aarch64.rpm"
-RPM_HASH = "2cff8c7df7a410c554764802d1ab63b8ba274a2016ebf6890c58227d8d5eccf0519057f32cccd83dc6b0d68afba725188e8b039aa97b2f2a9db3ae7b1d652028"
+RPM_NAME = "libRivet-3_1_7-3.1.7-1.2.aarch64.rpm"
+RPM_HASH = "746bb60ee07c1da97efbeadf022b65f6c187ffac67a7204f5a815c9234b1f99b6a6bdf5c994164963c3d2a1dae949618b268be394473aa7beee547d56652798f"
 
 RPROVIDES:${PN} += "libRivet-3-1-7 \
 libRivet-3.1.7.so"

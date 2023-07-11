@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0 | MIT"
 
 PV = "1.3.243.0"
 
-RPM_NAME = "libspirv-cross-c-shared0-1.3.243.0-1.1.aarch64.rpm"
-RPM_HASH = "69e42af7d1da6462916708ed5384e02ddb1ee6156eb94bf01b090c8a605f3f4db557a7e379ceada50e9357b3c893cf26474c27d155ef3fcd2367903b5fba3bf5"
+RPM_NAME = "libspirv-cross-c-shared0-1.3.243.0-1.2.aarch64.rpm"
+RPM_HASH = "19e8bf6568bfed89b05bf4cb393efab1ba571a4c0ec4585826d31cd6f975a21902ae664dfe9bca3c786bf6e5bc3ebe3156d967463bba4eb62c7d92c710ad2b26"
 
 RPROVIDES:${PN} += "libspirv-cross-c-shared.so.0 \
 libspirv-cross-c-shared0"

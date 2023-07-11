@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.0.0"
 
-RPM_NAME = "ancient-devel-2.0.0-1.3.aarch64.rpm"
-RPM_HASH = "f78cd1c60983083385dc57d8c8cbbb2ebef95c6de888abec8ce8ff48a49a5499c3fbdcca69c3dff77d0ea0a3bd4a0d2add0920fd77df22f87e9d7564ab3fb6e4"
+RPM_NAME = "ancient-devel-2.0.0-1.4.aarch64.rpm"
+RPM_HASH = "fcaebb82f8edbddd582088c0a8916ea1f3cb1abbbc81388f2d300661690cfe61f0a2cb37291aec3dc21b50ae014c6d3bdb2a35f81640862ce5e7d6dae477deec"
 
 RPROVIDES:${PN} += "ancient-devel \
 pkgconfig-libancient"

@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "2.4.4"
 
-RPM_NAME = "xplayer-devel-2.4.4-1.3.aarch64.rpm"
-RPM_HASH = "4e706dc9990106570ec1a4b522a4af8cf1a39a6a37f0b3ceef088196455a549d54dbe486c4957b61963cf2d941646a591e596b0a202f54365d199b2bb6018ba9"
+RPM_NAME = "xplayer-devel-2.4.4-1.4.aarch64.rpm"
+RPM_HASH = "309346020a6b796f51c18f0181e235ef3daf0c54fa1c5080ea6ae33d41f4496449379d6199810b0f3c3e28c8b901211c861c21950c8848f979f2d1fb4001bb7d"
 
 RPROVIDES:${PN} += "pkgconfig-xplayer \
 xplayer-devel"

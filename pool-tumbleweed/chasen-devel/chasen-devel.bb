@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.4.5"
 
-RPM_NAME = "chasen-devel-2.4.5-2.11.aarch64.rpm"
-RPM_HASH = "b9a2694b04e892f4bbeeee768dda93e3e12330d84e89fe2bcf6909412f1fe6374dba14ccef4fbed222c899ca08d292fe2773cc9435c0e907fdc3d0a6561cc6dd"
+RPM_NAME = "chasen-devel-2.4.5-2.12.aarch64.rpm"
+RPM_HASH = "1aada02eaadabe7c4d83f37804c8f5df1b68969fce396963cbcae71d277c59812c3f3bc3bc48d11bb3b5dc00704939ed269a3c9aa95221a2d63827e4de3f72ca"
 
 RPROVIDES:${PN} += "chasen-devel"
 

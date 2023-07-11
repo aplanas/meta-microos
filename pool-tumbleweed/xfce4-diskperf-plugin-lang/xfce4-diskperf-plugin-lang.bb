@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.7.0"
 
-RPM_NAME = "xfce4-diskperf-plugin-lang-2.7.0-1.7.noarch.rpm"
-RPM_HASH = "40d63d5a5f97e1c529dcd18f1546ff32b0dc3fd4659c72974797ef083ac1897308a82c8be9e6cc6827f31a8ad186414044a8c72314833f43f6a60a1fd47c9dba"
+RPM_NAME = "xfce4-diskperf-plugin-lang-2.7.0-1.8.noarch.rpm"
+RPM_HASH = "1aa84fc6fcae61f794131fee9aa00cc9ac392f41544842730309f8b4ba56cab1a5d0298eebad89b3d09b688c014445844e038976e65d007207191a8c91cab1b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-diskperf-plugin-ar \

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.63.0"
 
-RPM_NAME = "rust-bindgen-0.63.0-1.2.aarch64.rpm"
-RPM_HASH = "f85efdd742c406d354ad66229dad4b4ffaca120f34369b7f23453f5846fd8c7f4e9dca8ca7330e8b5691ff11d45afa945f12988c8aed595341cb82e1f7c86dfe"
+RPM_NAME = "rust-bindgen-0.63.0-1.3.aarch64.rpm"
+RPM_HASH = "5abb7552643a973d32f1d83d390e4573d999b0e6926fd65f6759f38dd36927830919a6a77e1abbb6399d11d3b33f8eedf92e16f077d94b70772b166e8a7a88e9"
 
 RPROVIDES:${PN} += "bundled-rust-crate-aho-corasick \
 bundled-rust-crate-atty \

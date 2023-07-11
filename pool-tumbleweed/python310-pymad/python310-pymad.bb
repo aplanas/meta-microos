@@ -6,11 +6,10 @@ LICENSE = "LGPL-2.0+"
 
 PV = "0.10"
 
-RPM_NAME = "python310-pymad-0.10-1.26.aarch64.rpm"
-RPM_HASH = "5b403b2513ea2d7503ecd17d9e67c576af3c5d600dacc53bbf077f12e3f32cfea62780016fa9fb9b051abea5e67aacf26ef2f74c56689389c6198d15494dbe52"
+RPM_NAME = "python310-pymad-0.10-1.28.aarch64.rpm"
+RPM_HASH = "4d7233d4435c07de8a0326de02e14f9500bc5ffb8484a242e54d8222323bac6c01eb0d86b7cd71deef49de52893e37239f239d893cb6e344db45e289d16b3a60"
 
-RPROVIDES:${PN} += "python3-pymad \
-python3.10dist-pymad \
+RPROVIDES:${PN} += "python3.10dist-pymad \
 python310-pymad \
 python3dist-pymad"
 

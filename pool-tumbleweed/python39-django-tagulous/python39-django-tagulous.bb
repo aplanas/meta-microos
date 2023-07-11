@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.3"
 
-RPM_NAME = "python39-django-tagulous-1.3.3-1.5.noarch.rpm"
-RPM_HASH = "95428ca1887e4a85b53ff32a388877c0afea34619ad36c7de7fc5a4fa834714e859003388d6e95bf1f6d6519b12d5748d33199f11edb991b314de1a0375cb913"
+RPM_NAME = "python39-django-tagulous-1.3.3-1.7.noarch.rpm"
+RPM_HASH = "f377ae6f4320d403fcd8bc79098e94c7eb64164c8ab79725341c815828c91275de4b0219b2856e39fddcaa485532c570a5bb57799d54af65dd590c48604a4006"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-django-tagulous \

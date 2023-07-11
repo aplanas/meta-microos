@@ -5,10 +5,10 @@ processes or computers. \
 You need this package if you want to compile programs with QtRemoteObjects."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libqt5-qtremoteobjects-devel-5.15.9+kde0-1.1.aarch64.rpm"
-RPM_HASH = "cb0ceea7a2fb108b89bc4d02a02aed3104a2e715cb6f377a8da244f21e437748dce85ffc826b9309198a65ab6071b5e650c672fd96030d9036d0b7b6265b2e3c"
+RPM_NAME = "libqt5-qtremoteobjects-devel-5.15.10+kde0-1.1.aarch64.rpm"
+RPM_HASH = "f6d2b3e5fc2df40e8528327921dc2bc21908ff4228bb39cfcd567dd0f0aec0dd19a49a1b8b4ec17b4653f2fc13503bc6bad0c79b4b4e42e45b8588e350da6920"
 
 RPROVIDES:${PN} += "cmake-Qt5RemoteObjects \
 cmake-Qt5RepParser \

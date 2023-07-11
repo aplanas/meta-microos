@@ -4,14 +4,14 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later) & GPL-2.0-only & GP
 
 PV = "6.5.1"
 
-RPM_NAME = "python3-pyside6-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "b4fe4c649702908e81a9530844349a147a138cce9d13d2ac26a54575e83eb434b527c7f4d2a2f244d884284bb1ee41825cbf183218dd3a9a46efe096c7cb7b5b"
+RPM_NAME = "python3-pyside6-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "6e24c5833576273bd6f19af04bd56bf5857def87adf92596e4744d89edaeda738f97ac8c6b5bd2279a3d6a9b074b440fbb9a095df75f2ee9e2b4357767e62c14"
 
 RPROVIDES:${PN} += "libPySidePlugin.so \
 libpyside6.abi3.so.6.5 \
 libpyside6qml.abi3.so.6.5 \
 python3-pyside6 \
-python3.10dist-pyside6 \
+python3.11dist-pyside6 \
 python3dist-pyside6"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
@@ -71,7 +71,7 @@ libQt6Xml.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libshiboken6.abi3.so.6.5 \
 libstdc++.so.6 \
 python-abi"

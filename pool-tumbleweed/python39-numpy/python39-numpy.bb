@@ -13,8 +13,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.24.2"
 
-RPM_NAME = "python39-numpy-1.24.2-3.1.aarch64.rpm"
-RPM_HASH = "8fa7c830aaecab934d231ffcf54a4bfb7925aadbe35c6abcf68ba6e0f64d01f76b63060387506ce981a840c26456422185dbd4d031b1b2628b2c48c0605685bf"
+RPM_NAME = "python39-numpy-1.24.2-4.1.aarch64.rpm"
+RPM_HASH = "2f993b0d059130dc8ef8986f13886a9d64129ad11c6bb489355396dc3c82f1a5eee61f60ac3463cc02ab272ead9d681d11ee1021509ba779239ab7d0e5b11530"
 
 RPROVIDES:${PN} += "python3.9dist-numpy \
 python39-numpy \

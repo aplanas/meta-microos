@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.6.2.0"
 
-RPM_NAME = "ghc-HUnit-prof-1.6.2.0-2.3.aarch64.rpm"
-RPM_HASH = "909681ff60a2eb0abc21b777f2eda7f92e8d13f80bdc9080e97fc728506a603ac20c4cc823058e001cc0eae9828c134ab925b788c31ad2a30b77d400ba9d421a"
+RPM_NAME = "ghc-HUnit-prof-1.6.2.0-2.6.aarch64.rpm"
+RPM_HASH = "4bff007e9e38626b1d992e8f587afb9d2c11ac3bef68aa9bd08598bd3f77c2cb8f0566ce49fb26da43e9ffd8c92bab10ea127d649eb4eb6f096e4446fed5182e"
 
 RPROVIDES:${PN} += "ghc-HUnit-prof \
 ghc-prof-HUnit-1.6.2.0-iqxwhcxJRu7EJOd1Mnwmb"

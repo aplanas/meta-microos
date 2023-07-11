@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2023.04"
 
-RPM_NAME = "u-boot-pinephone-2023.04-2.1.aarch64.rpm"
-RPM_HASH = "796e8c8f1b7db974b9b8aff9b1643f6ea83bda4b0b356cc9471bb8b3d780892493b7d24fa5fef0aa8d398582f8633a765092f115e55e3aaa84fe6cdf4b9eefeb"
+RPM_NAME = "u-boot-pinephone-2023.04-2.2.aarch64.rpm"
+RPM_HASH = "ab46ffe62b2f707b8187f4cc14ec681242d1af3564ceb16e25cd6c5d66aee9060955bc15cafc0111bd3bc11129b8f3eb0e2a8b1d75bfe91d99ce3e4fe34825f8"
 
 RPROVIDES:${PN} += "u-boot-loader \
 u-boot-pinephone"

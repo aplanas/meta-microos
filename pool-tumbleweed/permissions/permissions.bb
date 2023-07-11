@@ -6,10 +6,10 @@ configured in /etc/sysconfig/security. \
 This package does not contain files, it just requires the necessary packages."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1699_20230516"
+PV = "1699_20230602"
 
-RPM_NAME = "permissions-1699_20230516-1.1.aarch64.rpm"
-RPM_HASH = "79f906d0ef8739a9a2966ba7f30de3ac7d47f01cfa8b55a7e999e92582c97581d84b758e0013d342c0dbbe1c43f56fe2f4ddca9c9369f6d04cb1f0a002aa4e2b"
+RPM_NAME = "permissions-1699_20230602-1.3.aarch64.rpm"
+RPM_HASH = "8248aeb75fc59bb1a4b6dfcfe57ee89ae9cd376390d69285ed1db99488a28447a15ec09ae2b504fed227745106940279eef1a04ebc9081e3c31e471fcaa56137"
 
 RPROVIDES:${PN} += "aaa-base-/usr/share/permissions \
 permissions"

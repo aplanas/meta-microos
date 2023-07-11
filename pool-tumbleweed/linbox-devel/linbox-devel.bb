@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.7.0"
 
-RPM_NAME = "linbox-devel-1.7.0-1.7.aarch64.rpm"
-RPM_HASH = "602748c734291027f583eb3b47b8ab896c53853fffc9f9877ff1b72a76cd1d8ed825a8c238b59596b03620f3a4e07eee9146d21fc8a28d50f0c1dc3ee9df1cc9"
+RPM_NAME = "linbox-devel-1.7.0-1.8.aarch64.rpm"
+RPM_HASH = "7b470475b77e327662c1c7b0c9f4870743ddcc728abd78a451fc8de0ff063ee79a203d91f0de81e30bcbd77b31d07094c437774ac3ab6bf321e209eda8badf2f"
 
 RPROVIDES:${PN} += "linbox-devel \
 pkgconfig-linbox"

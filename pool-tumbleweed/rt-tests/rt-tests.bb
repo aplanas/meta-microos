@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.5"
 
-RPM_NAME = "rt-tests-2.5-1.1.aarch64.rpm"
-RPM_HASH = "d52e0b96484a8b52cd3565268945ce257d41a53d3b10aa1a89290ea3da75f0ece228a9b8bc34253937dff4a89a3c07a340a20d8dcdbd05bf8297d8cd1316c434"
+RPM_NAME = "rt-tests-2.5-1.2.aarch64.rpm"
+RPM_HASH = "d805e078e6cf20e8cf454af717faa63a14e9f2a8cbcd77103ed79306e13d002335dc100b9dfa0ca30a78b3b709f935f262e4fff7767bacd48c364966c90d0854"
 
 RPROVIDES:${PN} += "rt-tests"
 

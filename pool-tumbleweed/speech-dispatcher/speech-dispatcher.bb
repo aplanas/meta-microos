@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "0.11.4"
 
-RPM_NAME = "speech-dispatcher-0.11.4-1.3.aarch64.rpm"
-RPM_HASH = "0f166498505feef1680e674c560b86865c08b621be6e7285bcbab599c3e6296e10ab2e3f97cf0ae789d41c34b69644974eaf794897b4debf2935e0ce7f422fb7"
+RPM_NAME = "speech-dispatcher-0.11.4-2.1.aarch64.rpm"
+RPM_HASH = "e8c10d409de103139dd65083371c6e984f0761abe43ff38d4e98f4b4124cd1593381c3379b61001fd82c5167fd47d24d3f320b507ff268c373b2c6b9f9d54bc6"
 
 RPROVIDES:${PN} += "config-speech-dispatcher \
 speech-dispatcher \

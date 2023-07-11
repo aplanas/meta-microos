@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0.0"
 
-RPM_NAME = "python39-azure-mgmt-deviceupdate-1.0.0.0-1.3.noarch.rpm"
-RPM_HASH = "c337e5d920a5d67388102b4eb5a597c41b4832b9ac8fd5ec0bd6240e24fdc8a8aeb8313fa24aa5f181e09dddfa915291b74c82cf7381baf16a547dcbe5108f58"
+RPM_NAME = "python39-azure-mgmt-deviceupdate-1.0.0.0-1.4.noarch.rpm"
+RPM_HASH = "53cb61000739267f87bbc382db7eb05344cf74a613e1a78231ab1eff23e1bfae7397d0f249eb49e4db432d875e445eee9469d66cb5708746114b31a38a8d772b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-deviceupdate \

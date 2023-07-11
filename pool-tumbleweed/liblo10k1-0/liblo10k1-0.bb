@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.1.8p1"
 
-RPM_NAME = "liblo10k1-0-0.1.8p1-24.3.aarch64.rpm"
-RPM_HASH = "f6a1205b30357a4e16cd1ce47b5fa4598fbd8c19792513e1ed949f65ae3bcb3290b36df99ecb24c660facc61cc48993285b2fb52d72ab3ba207fb8c01013bccd"
+RPM_NAME = "liblo10k1-0-0.1.8p1-24.4.aarch64.rpm"
+RPM_HASH = "af96c3efc9ce4da1a211562ce579453759697ee4f50ec36be258e93847149846f5b9f9434fa604bed49e465503fb8158e8313b31ea2d9d358dea5da3695af806"
 
 RPROVIDES:${PN} += "liblo10k1-0 \
 liblo10k1.so.0"

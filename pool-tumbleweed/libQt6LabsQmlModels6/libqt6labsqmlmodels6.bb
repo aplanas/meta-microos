@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt6LabsQmlModels6-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "a3864b713e095ccae81b69829609ae2885b8dd46261c9afc8600918571c77efb2ebc629a28a9712e488089e7357d35aed0c5f488077fb158722c161c5d6dc2dc"
+RPM_NAME = "libQt6LabsQmlModels6-6.5.1-1.3.aarch64.rpm"
+RPM_HASH = "6ad1d920168582fb33d3a6e29483f41e2e7dc26ae68ccaceacf26ad9968fc3bb158f7a0beaf0b981ac614eb8c4abf5495418e248f7d22b1bb0aa116bcad8c318"
 
 RPROVIDES:${PN} += "libQt6LabsQmlModels.so.6 \
 libQt6LabsQmlModels6"

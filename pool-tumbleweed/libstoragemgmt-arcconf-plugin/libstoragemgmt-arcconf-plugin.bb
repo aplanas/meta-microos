@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.9.8"
 
-RPM_NAME = "libstoragemgmt-arcconf-plugin-1.9.8-1.1.noarch.rpm"
-RPM_HASH = "2800514d80bd17a79890ee7d20991ac3cade8ba39bec2f7bbca177c63811bed0cd7b30eef62a4c56820bc52b1e41c017b33ca5f9f4d87a0a3b0bf440ebf68368"
+RPM_NAME = "libstoragemgmt-arcconf-plugin-1.9.8-1.2.noarch.rpm"
+RPM_HASH = "574cd35e49e499b19ea6149515160de91fcda79a436d6c5c9e4125eac915fb7357f5b46d418833aa5b38cb2b11acec8f1e60558aa5bac11d9a83ee86a537cfd1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-libstoragemgmt-arcconf-plugin \

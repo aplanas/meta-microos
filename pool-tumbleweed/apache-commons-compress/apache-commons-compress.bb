@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.21"
 
-RPM_NAME = "apache-commons-compress-1.21-2.6.noarch.rpm"
-RPM_HASH = "8e291727f003d0e826cd36c4a67465f0aedfb6bf30f0e9b4919c688c98ba131ac4cecc66cb239301ae7691f6fdc2f561422aae66d8fe7298cb6d0ba07482dfee"
+RPM_NAME = "apache-commons-compress-1.21-2.7.noarch.rpm"
+RPM_HASH = "609b260ea6dd72559c966aab01399ab6741b2e447a0bd689ac205998c9e3488e2d2c51e310c8c32a21c703fc4ba6a0bcc2f33d6a2664e5cc826c94f0c8fb9c42"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-compress \

@@ -15,8 +15,8 @@ LICENSE = "LGPL-2.1-or-later & GPL-2.0-or-later"
 
 PV = "2.0.2"
 
-RPM_NAME = "libusbmuxd-tools-2.0.2-1.9.aarch64.rpm"
-RPM_HASH = "4ac2322d57af96b1929c78cfb99585aa03cab2beed17d58622ca43d9e822e58a04cbeaea6e7c35faf6464c481f3b40cbe791779dbd331ad5a2f638e7b93a3599"
+RPM_NAME = "libusbmuxd-tools-2.0.2-1.10.aarch64.rpm"
+RPM_HASH = "1247bab4682b395b2d06905be3bfc954451dbc08a7a54b0e96b8f9d338974bbb9f49b66a6db30e11c8f8018033a4355f60f90353862f7c4a51a96faee65eb440"
 
 RPROVIDES:${PN} += "iproxy \
 libusbmuxd-tools"

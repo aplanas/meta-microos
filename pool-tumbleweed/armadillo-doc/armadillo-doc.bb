@@ -6,10 +6,10 @@ as well as a subset of trigonometric and statistics functions. \
 This package provides the documentation for armadillo."
 LICENSE = "Apache-2.0"
 
-PV = "12.2.0"
+PV = "12.4.1"
 
-RPM_NAME = "armadillo-doc-12.2.0-1.1.noarch.rpm"
-RPM_HASH = "76abb0ac08fa89eacbed38b399971c6af2b89fea1d1593d2fa7c5fd5edbc0560124bc0e408b5ede595deaa20559b1605bba2f0e56dcace1cead9ee8cc7309bab"
+RPM_NAME = "armadillo-doc-12.4.1-1.1.noarch.rpm"
+RPM_HASH = "488e9211c03f1086ecefc2f7294e59c6c2bf9a0a7b81f882dd01ec7146af5abd6e62f0f700cad0d992cbe8b79adc4b13aa99564457918748bcdc4571c68cb5f3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "armadillo-doc"

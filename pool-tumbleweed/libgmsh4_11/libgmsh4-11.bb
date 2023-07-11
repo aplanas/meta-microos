@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.11.1"
 
-RPM_NAME = "libgmsh4_11-4.11.1-2.1.aarch64.rpm"
-RPM_HASH = "bc32297f0b04593fb890660c44f01da84953e5089cacd8528c4d18170e02fc29e4b48905b4afdfd7227c132e448bf7d5e2f4794935e7d6041f5425b2ebd4f6be"
+RPM_NAME = "libgmsh4_11-4.11.1-2.2.aarch64.rpm"
+RPM_HASH = "55acfc6393cf918e1c130d1af0b4e93241094dce7f7a35d97f1d447d5def00b2c69eaf6cedbeb8424dc9f3536cfe684381e78701797156ebccad655f1b4f7e2e"
 
 RPROVIDES:${PN} += "libgmsh.so.4.11 \
 libgmsh4-11"

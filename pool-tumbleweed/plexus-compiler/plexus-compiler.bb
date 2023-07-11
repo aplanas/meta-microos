@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0 & MIT"
 
 PV = "2.11.1"
 
-RPM_NAME = "plexus-compiler-2.11.1-3.4.noarch.rpm"
-RPM_HASH = "3ef959a10f8f9f1a179f298854cb9343f13444a08225f98bfe6f3d3fa40317859dcb33745db543bbb74d8a04d60fc5a5d32ef8a057fdfdaa549a8305fb9bc9c4"
+RPM_NAME = "plexus-compiler-2.11.1-3.5.noarch.rpm"
+RPM_HASH = "c36cd2ca64768a69fc2bd4cfe5f27f05eef4f24620d1260a98535094ab1fa82ba0165af192a1dc137c803adaa5a250cd36f060dce6233ac7d7c21e6a42b07a05"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.codehaus.plexus-plexus-compiler-api \

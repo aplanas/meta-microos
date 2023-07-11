@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.1.0"
 
-RPM_NAME = "python39-volatile-2.1.0-1.11.noarch.rpm"
-RPM_HASH = "fd5d79bd5dd02762526779986e4841ebd314c6d945e89ecf68825af12386ac668cc2721b0811278f9db29c22d3b6c1f89d57f2779e7d34c0cfa53a727668311e"
+RPM_NAME = "python39-volatile-2.1.0-1.13.noarch.rpm"
+RPM_HASH = "d297dff8aa4669a44c986b0bb291556dc62ebe0f6d799b62dc379dadc548663d4e896846af58215934600ff25144b6c52c69a90f1a4124a265852ec559b6578a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-volatile \

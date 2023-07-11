@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "7.0.3"
 
-RPM_NAME = "easyeffects-doc-7.0.3-1.1.noarch.rpm"
-RPM_HASH = "f53c3e42fdea5ea5ef7ae929b2ce37c7e5b22e0f8f926f84dabd95063c2221e31ef6443f549253e8ae4b187affcffd3ba0f437d8fda33cca2bc0b15548e44324"
+RPM_NAME = "easyeffects-doc-7.0.3-1.2.noarch.rpm"
+RPM_HASH = "4f5a944b000f81c4cc228fcdf897cf1f0c599c3c7ebe9874232e14de552684abb7b4ac3088a6d431c2eead2b82465ff375fd9df135899263c47a2676eead6251"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "easyeffects-doc"

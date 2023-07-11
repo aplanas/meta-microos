@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "0.33.3"
 
-RPM_NAME = "python39-eventlet-0.33.3-4.1.noarch.rpm"
-RPM_HASH = "840854f482e8f405da71a7e195b06202cfef054eb0068e4c77123d00adbe5f2b528ad11d50b71d35343b8e7aed951e27455cfb64d77e116358f02ae6924f65af"
+RPM_NAME = "python39-eventlet-0.33.3-5.1.noarch.rpm"
+RPM_HASH = "67c0b90207d4dea96ab43cdbe7cc94d6e7ae431ba9ee632482f7192269cc09b7da3634a759a883e1e1957a12937c9e6506dae21cb2267c5b77bc8420ac1b7385"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-eventlet \

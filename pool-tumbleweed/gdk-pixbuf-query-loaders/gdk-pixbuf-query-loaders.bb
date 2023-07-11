@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.42.10"
 
-RPM_NAME = "gdk-pixbuf-query-loaders-2.42.10-1.4.aarch64.rpm"
-RPM_HASH = "01d0ec8e1db536b6676fe7da09fe29743da7d4f02edb54891c7a9dc8aa3f71b88f480e09c4f7d9678bc146c257caf9c12c3f7ef2c0091497650ff5dcb0916165"
+RPM_NAME = "gdk-pixbuf-query-loaders-2.42.10-1.5.aarch64.rpm"
+RPM_HASH = "c653bb81a640730cf89390337540570012741f1311417e08aec72ad80f19927911487f6da2810b0181d6579b60db394b4b1752a470ba3c82bc1fba2f24912fb1"
 
 RPROVIDES:${PN} += "gdk-pixbuf-query-loaders"
 

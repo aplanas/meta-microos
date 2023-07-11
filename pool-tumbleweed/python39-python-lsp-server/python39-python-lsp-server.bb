@@ -16,10 +16,10 @@ will be enabled: \
 - YAPF for code formatting (preferred over autopep8)"
 LICENSE = "MIT"
 
-PV = "1.7.2"
+PV = "1.7.4"
 
-RPM_NAME = "python39-python-lsp-server-1.7.2-2.1.noarch.rpm"
-RPM_HASH = "cd00dcc8e5bafc8f53ae2df52aa82575ff0e7843507edc200b4c91da783bcddf0197742bcf6153c0bfd02f0c4fa91746248e63f6aaab110effe6979da5c672a2"
+RPM_NAME = "python39-python-lsp-server-1.7.4-1.1.noarch.rpm"
+RPM_HASH = "b5b206476101aa1986718a5d881fb2ff2d41f9651dbe0ef51e577c4902e92583a72ba00b90ad0948d5c99140e2a5864b93fa2024361a4a07e7801b89a0848092"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-python-lsp-server \

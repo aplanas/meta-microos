@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.24.1"
 
-RPM_NAME = "v4l-utils-1.24.1-1.3.aarch64.rpm"
-RPM_HASH = "86311ab480b81b4754ad52c7b306805ae812081214321803814fcb6a598383323209be1ad02539319d2976573f41e5527ac95f5be93dd9f44ae12da4188b827a"
+RPM_NAME = "v4l-utils-1.24.1-1.4.aarch64.rpm"
+RPM_HASH = "79bdb8b90730ce2125c2d381f69ab26b81406c4db6b51ade223e8d43eb36c5caaf17edbda3110563e3d488a526be24a69bb1a420cd2ccc682a73d4d6cb96879b"
 
 RPROVIDES:${PN} += "config-v4l-utils \
 v4l-utils"

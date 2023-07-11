@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "4.4.2"
 
-RPM_NAME = "ghc-adjunctions-devel-4.4.2-2.3.aarch64.rpm"
-RPM_HASH = "5cd1fc7ce15a01567dbb51e805f765c6c11759dce444ceebb6aa217869c5f2ffdf5f0129964756e089f385a6b75f0a5d1a4a0ee4cb9afebe903532081abbdedd"
+RPM_NAME = "ghc-adjunctions-devel-4.4.2-2.6.aarch64.rpm"
+RPM_HASH = "27121360151edaf8a544ac4c18d9b0e021feafb52529d00a5415fb8674966d024f93c5fd633836b4fbc0f3011719513f191cf62fc0d71673e704e1a869177f6a"
 
 RPROVIDES:${PN} += "ghc-adjunctions-devel \
 ghc-devel-adjunctions-4.4.2-7RBwcclil4HKBSm6i086HA"

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt6Quick3DParticles6-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "31aa57c988c33a7d745daa70fa727144128c7d19a2697d8417d9e9e2d57e4253787d6db85707feb9c53894e4cc5ddc8b34d026e4eda2e3dc05045676677e93af"
+RPM_NAME = "libQt6Quick3DParticles6-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "9f14d0f544db009e11f37b7cb4328051c64cd4e69825865973dac844f1c06ac4c007ec4dcedeef5ce25590f54a50db1d02895e8bf0062e6c46a303f646c1fdf7"
 
 RPROVIDES:${PN} += "libQt6Quick3DParticles.so.6 \
 libQt6Quick3DParticles6"

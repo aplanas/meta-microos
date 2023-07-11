@@ -5,11 +5,12 @@ LICENSE = "BSD-2-Clause & LGPL-3.0-or-later"
 
 PV = "0.9.0"
 
-RPM_NAME = "python311-feedgen-0.9.0-2.12.noarch.rpm"
-RPM_HASH = "1224157b50fd5ce5e5d3269b997a17ed109fb8cf3d47cc49fe23802053bcf057184f72854424705b20174a773bc4e70930cce20eed2552a7686ec176a5875ba5"
+RPM_NAME = "python311-feedgen-0.9.0-2.14.noarch.rpm"
+RPM_HASH = "527db6879d9fa8654401b1b7449e0223e7b7d8be2367c79f238c6c59b6cdc0641b02a91ff9ffee0ad81ee490cae3caa8db57f5a18cf6b20820da8e424877eb40"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-feedgen \
+RPROVIDES:${PN} += "python3-feedgen \
+python3.11dist-feedgen \
 python311-feedgen \
 python3dist-feedgen"
 

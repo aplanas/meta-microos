@@ -14,8 +14,8 @@ LICENSE = "MIT"
 
 PV = "0.11.0"
 
-RPM_NAME = "python39-netifaces-0.11.0-2.1.aarch64.rpm"
-RPM_HASH = "ca515968a729afb21ba1ffb94fad1ea060b06a9e324ed3676000cb4497217273220bfe81675a9b5c04ac166e941a84e1959d8a565abc4ec012ceb768d92b1b07"
+RPM_NAME = "python39-netifaces-0.11.0-2.3.aarch64.rpm"
+RPM_HASH = "332790de389fcee2cdbd2223ae7a5397c71d940314995be6dfc7e10d427703fa9013d58a5ac61516c642b3b9c1ac5b80c943b6c9295351aebe8a0813f59185e0"
 
 RPROVIDES:${PN} += "python3.9dist-netifaces \
 python39-netifaces \

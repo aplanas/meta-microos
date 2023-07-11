@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "43.0"
 
-RPM_NAME = "dconf-editor-43.0-1.3.aarch64.rpm"
-RPM_HASH = "3ae1f71e584478a2f1141a530a7aa302acaf2da8641ed1ebb38eead1846e2e4f30ae9a26814bf9a04f29ff1b4beb70c10aa97eadb13ddd58285410a54760d59e"
+RPM_NAME = "dconf-editor-43.0-1.4.aarch64.rpm"
+RPM_HASH = "740fbc3479bac1e3bffc9176c1fd7eddd071081005d4dbb78eca130f3869b3baa0039c85df806d91bbd7379fc39e7f9e483ac5e40c335029791959aba9391833"
 
 RPROVIDES:${PN} += "dconf-editor"
 

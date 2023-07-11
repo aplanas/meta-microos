@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.44.0"
 
-RPM_NAME = "libdazzle-lang-3.44.0-1.7.noarch.rpm"
-RPM_HASH = "1efdada9c692bab92934312edb5324a86aebf093e80a579458684e3c1c12df9ef8adacb467108cbf62649f7a78b10db0264f8ec4a193835012e4ee5049c89c4f"
+RPM_NAME = "libdazzle-lang-3.44.0-1.8.noarch.rpm"
+RPM_HASH = "1d1bc08b69cecfc41552022b3961f5f7f3de0781527206091aef7a71483fb353c98f192eed1ef8ecf18ab83f2ed88dbcacbf40ab59af082e69d5a277e59ee586"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libdazzle-lang \

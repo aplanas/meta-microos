@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "4.0~20191021git51cf8f4"
 
-RPM_NAME = "apache-commons-ognl-javadoc-4.0~20191021git51cf8f4-4.4.noarch.rpm"
-RPM_HASH = "2d350a617cfde7ef57360e5df38e550b293ec6e6dff1796a809fd2848c5d037028452e3b05f69628cf24857473720189a05285d894e3f36472384772030d79c0"
+RPM_NAME = "apache-commons-ognl-javadoc-4.0~20191021git51cf8f4-4.5.noarch.rpm"
+RPM_HASH = "cb125c36c440a31d352e7d3c1cea509b0a080937106b93b49d08964e9d79797d47cbbdb74b620b0be113f4cad63d28912d6162039ffd4674d1c5db33323702ba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-ognl-javadoc"

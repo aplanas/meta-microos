@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.2.4"
 
-RPM_NAME = "miniupnpc-2.2.4-1.4.aarch64.rpm"
-RPM_HASH = "ed85395694e7f88e93ecb607e7625fcd705f212a483e8435e9e80b2ff380137cdd1d594f18b193f9f81bb49cc17affb7cc5729decf52972fef623062951260aa"
+RPM_NAME = "miniupnpc-2.2.4-1.6.aarch64.rpm"
+RPM_HASH = "3b2f65972cc2c091688d99c064eb896ba1fcbf48b00bdf7b12cf097d9ac9b5ef6ee6f1accd4af16ed1fdee989a0521fedef2751104fd3dcd33d282df3397f2b4"
 
 RPROVIDES:${PN} += "miniupnpc"
 

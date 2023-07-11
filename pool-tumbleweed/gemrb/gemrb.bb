@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.9.1.1"
 
-RPM_NAME = "gemrb-0.9.1.1-2.3.aarch64.rpm"
-RPM_HASH = "749f97aa12e6e139b442f46af894c347be4c55c50386d6baf718c0f0588954597e6b80ff0469fad61f1170b622cb05b16574029104f75151996d6d12ceae144a"
+RPM_NAME = "gemrb-0.9.1.1-2.4.aarch64.rpm"
+RPM_HASH = "2039343a466925f541c203a6eb6061c33b4267a726236f01aed85cdbaffd76c275dbdc474df3efb2cc34077e9be4a886a63789d96a492f5af9be987ac5381600"
 
 RPROVIDES:${PN} += "config-gemrb \
 gemrb \
@@ -27,7 +27,7 @@ libgcc-s.so.1 \
 libm.so.6 \
 libopenal.so.1 \
 libpng16.so.16 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libstdc++.so.6 \
 libvlc.so.5 \
 libvorbisfile.so.3 \

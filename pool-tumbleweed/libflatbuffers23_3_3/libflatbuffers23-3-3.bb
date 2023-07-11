@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "23.3.3"
 
-RPM_NAME = "libflatbuffers23_3_3-23.3.3-2.1.aarch64.rpm"
-RPM_HASH = "b8842d45d90f0898827df5de93709f91ab6fc2ac7e6bbe91d9cee12086e486df0e0591418ca34d03ef6d1b7f1d98e1596f47fa277f12cc526e20f3afcc8a19ff"
+RPM_NAME = "libflatbuffers23_3_3-23.3.3-2.2.aarch64.rpm"
+RPM_HASH = "e192021d59a5bf1d686e40bad03a14dd359f264043994e561aa0b8893b878551d7f5ae9f45f67c87595dda984184889ee644fdfd9e3113082c87e7f61729a9b0"
 
 RPROVIDES:${PN} += "libflatbuffers \
 libflatbuffers.so.23.3.3 \

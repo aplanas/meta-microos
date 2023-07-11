@@ -2,10 +2,10 @@ SUMMARY = "MySQL output target for ulogd"
 DESCRIPTION = "MySQL output target for ulogd."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.0.7"
+PV = "2.0.8"
 
-RPM_NAME = "ulogd-mysql-2.0.7-6.8.aarch64.rpm"
-RPM_HASH = "3bdee71ffdc8536aa32686c7325e1fc6751df09d1db80d86a20aff588e59b81698586acea44652c1f2d1c5a3d97e272e84f50497b2221d7068ed1af29bec9083"
+RPM_NAME = "ulogd-mysql-2.0.8-1.1.aarch64.rpm"
+RPM_HASH = "88db7618354b3522af1a08c25b3b7387646f36700038e5fa79df18244e8772d6ab1cfd01d3138f988f2be9c5996f058a73021aded74beacacee9402da6d8f17a"
 
 RPROVIDES:${PN} += "ulogd-mysql"
 

@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the Akonadi resources, agents and plugins n
 use PIM applications."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kdepim-runtime-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "de53457eedc3196375596ea71c9a83488e51889d55475e92482287d5e1f69965c0d41f0c589de44d6a6d08b6b0f33380f202722b6875ea423b0e50e335a229de"
+RPM_NAME = "kdepim-runtime-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "fd3cc3d1bfb9f6492b68be66fcab40b8759dfffbca660dc71bd6eb70b53582428773d735a2afe53ae41c98e162bad40f929655132e244424db84246662c278c1"
 
 RPROVIDES:${PN} += "kdepim-runtime \
 kio-pimlibs \

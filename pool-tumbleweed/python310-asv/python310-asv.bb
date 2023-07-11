@@ -10,11 +10,10 @@ LICENSE = "BSD-3-Clause & MIT"
 
 PV = "0.5.1"
 
-RPM_NAME = "python310-asv-0.5.1-1.5.aarch64.rpm"
-RPM_HASH = "2e022af78c058707ca1384b2dacabb278aadcd69f40f29d98c0257d0d6507f43c3d0f086073f787fd2318bc9421ebc3c7e56e79993e3e17d39218c70e46bc875"
+RPM_NAME = "python310-asv-0.5.1-1.7.aarch64.rpm"
+RPM_HASH = "81ebb41c77f268e863ad59775e60a885d33a2a7c6719b44d204b01c51cfdfd70441b738fad80fe45990c33cbe046b53f884f740366c85207d06a3a8390913fd7"
 
-RPROVIDES:${PN} += "python3-asv \
-python3.10dist-asv \
+RPROVIDES:${PN} += "python3.10dist-asv \
 python310-asv \
 python3dist-asv"
 

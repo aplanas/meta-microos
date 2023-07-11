@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0.0"
 
-RPM_NAME = "mcqd-1.0.0-1.10.aarch64.rpm"
-RPM_HASH = "eab9060234035318c77745c731af85b64b197973ad17085ae8409bc9b4ee61ba6f7a18eec9c78f41f0b0e54b19c921eeb084ed985d9696caf27a75fe85adca72"
+RPM_NAME = "mcqd-1.0.0-1.11.aarch64.rpm"
+RPM_HASH = "9ab900c76ecd41c714720fbfe51c59d0ff85602093b5b22b93a8d5aa5896bd6d3c90d2bb60a1e092f9853cac20a8de6d2897cd6bb38bfcf25890ab41ea39829d"
 
 RPROVIDES:${PN} += "mcqd"
 

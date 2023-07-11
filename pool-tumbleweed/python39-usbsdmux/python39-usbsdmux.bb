@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.2.1"
 
-RPM_NAME = "python39-usbsdmux-0.2.1-1.7.aarch64.rpm"
-RPM_HASH = "5aa11c61f1981be7ab5ac74030cebadd3cb5de641e75c51cada3e0d0ea0bd80027eac45f9ad6064875cd4783e3fcc9b8d2b532e35b47d35a6b4432328aa6ce2b"
+RPM_NAME = "python39-usbsdmux-0.2.1-1.9.aarch64.rpm"
+RPM_HASH = "50eca31a8bfb51d01107b51a2513b869c376099b36ac80ab2dfe997ec532dcab0cf63dcf50f3032e7e9c38af551412778953633e67f9342ff3b8332fc671fa1f"
 
 RPROVIDES:${PN} += "python3.9dist-usbsdmux \
 python39-usbsdmux \

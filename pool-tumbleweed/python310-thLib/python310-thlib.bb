@@ -12,12 +12,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.12.2"
 
-RPM_NAME = "python310-thLib-0.12.2-5.8.noarch.rpm"
-RPM_HASH = "5e37340d894ed8179088f4e4f069f83da975f3f85c1b77a4405c581ed2fe1459e60b8c84e5ef96d66069862ad2a532b7a62f605091a00714b1b265a809df7c3f"
+RPM_NAME = "python310-thLib-0.12.2-5.10.noarch.rpm"
+RPM_HASH = "fb53750d94ad0a53ac8f06f8415ceb0dc63795ab8d3d30e48533eb5a16c2d294909824ced0b471b3bf3ffd9a32204314bdfc0a0b15a33e80a7a2c29227625565"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-thLib \
-python3.10dist-thlib \
+RPROVIDES:${PN} += "python3.10dist-thlib \
 python310-thLib \
 python3dist-thlib"
 

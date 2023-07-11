@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.2.0"
 
-RPM_NAME = "kColorPicker-devel-0.2.0-1.5.aarch64.rpm"
-RPM_HASH = "6911b9823614812576a7a7b8cee1c4d6c2ac88ebc889b974f9c059b8211dae465ac34c9a8986e3c0a9df36e73aaf22125573cb499216b5affc1e8a1cd82e6bb1"
+RPM_NAME = "kColorPicker-devel-0.2.0-1.6.aarch64.rpm"
+RPM_HASH = "74bf12cb07f91b2dc54cae0d832b7dcf4e22d093a8dff05a3099483b85caf76bac8f61c61e5f10946c75b71a96c9cbb78f85cb3b9f4f846e1771509577b4705e"
 
 RPROVIDES:${PN} += "cmake-kColorPicker \
 kColorPicker-devel"

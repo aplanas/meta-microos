@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "5.4.33"
 
-RPM_NAME = "deepin-terminal-lang-5.4.33-1.7.noarch.rpm"
-RPM_HASH = "970172034b7b660a16c1ff92a805da800a1fa2945ce473e357e2c83a2776c29ba1f37ee73b34dc33d1bec9426b2e8cca730ed0209771f56fd44af797849edc7f"
+RPM_NAME = "deepin-terminal-lang-5.4.33-1.8.noarch.rpm"
+RPM_HASH = "45ae6691790e9b1a1fcb7a005302acc26352cfb6e2292da3b5483962e3b42182937e4c8f58d5787c5b6464201c348e13dcdfd6e8af600b02a06e63988a1cc0bd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-terminal-lang \

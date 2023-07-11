@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.2.7"
 
-RPM_NAME = "fcitx-unikey-0.2.7-4.7.aarch64.rpm"
-RPM_HASH = "8b0a2fcfa39579e9d805deb9c3b0b783f2020a09718c6b0693481f2de53021dfd866da61c73e3f87c7d2a7e8488700ca44be0b0999d4bc20a5de2f47371f0453"
+RPM_NAME = "fcitx-unikey-0.2.7-4.8.aarch64.rpm"
+RPM_HASH = "8766d125043e863e8a7cba1beb6ad8e0eae6ee91ff882814cc5ce09ca2d312eee6a930d23a3915187f039108981a3f3616dd42f46343fb6fcbf2cbb0841aa075"
 
 RPROVIDES:${PN} += "fcitx-unikey \
 libfcitx-unikey-macro-editor.so"

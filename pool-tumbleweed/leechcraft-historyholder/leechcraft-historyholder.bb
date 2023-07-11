@@ -6,8 +6,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-historyholder-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "c11aaa453340da4308153d6a10018bf05f0eca48ee33e8087ff8edd22a6a65cdfc37250f719aeb1a37388d0a0a4bcff91c63ebb9de3e249b67a2d676a9ee41b9"
+RPM_NAME = "leechcraft-historyholder-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "ea39e049b2a07dee99de8527a306c07b7e345f02622e63718e688b30b67c1fb01fea8cc5c20116eb23f29a45d3d482c0ffc47b7e370b4764a51921c3cafad197"
 
 RPROVIDES:${PN} += "leechcraft-historyholder \
 libleechcraft-historyholder.so"

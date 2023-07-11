@@ -3,10 +3,10 @@ DESCRIPTION = "Kross is a scripting bridge to embed scripting functionality \
 into an application. It supports QtScript as a scripting interpreter backend."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "kross-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "f90b4ad1f61e985ddf7885161620e527874dd5251b00a0cfba034dc255f5096b7ea9da98548394538899f7377304ba75fb665f15d143d8011aa05c53b1f4d7ea"
+RPM_NAME = "kross-5.107.0-1.1.aarch64.rpm"
+RPM_HASH = "7a2b167d503db97735b35b95479e7f7fd0c71c0e5dc22ba3aeda3ee9614b426bb3c65dd7efd173398b63a1fc20e39cd73d343dc4f44beeadc71e960cfe1f0f38"
 
 RPROVIDES:${PN} += "kross \
 libKF5KrossCore.so.5 \

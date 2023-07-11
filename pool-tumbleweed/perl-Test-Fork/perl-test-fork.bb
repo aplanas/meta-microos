@@ -10,13 +10,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.02"
 
-RPM_NAME = "perl-Test-Fork-0.02-1.7.noarch.rpm"
-RPM_HASH = "5780cafc69a03b539bcce9fe7ebf4bae400a6967aa096baa88bc1da5c04ba801847de73bbe8db495aad2764f7185c61b73cfad7cab3a06e193773c55c0d228e1"
+RPM_NAME = "perl-Test-Fork-0.02-1.8.noarch.rpm"
+RPM_HASH = "594124466e45d780f0571da686379d7aa9ce28acc7fb7f1f90c919d854174df6e6c6f6ac299d89a2fac2d506ed0b4e7e2ff6892b1291d213163edd912bb2f26c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Fork \
 perl-Test-Fork"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

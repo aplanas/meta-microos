@@ -4,13 +4,11 @@ LICENSE = "MIT"
 
 PV = "5.0.0"
 
-RPM_NAME = "python310-softlayer-zeep-5.0.0-1.6.noarch.rpm"
-RPM_HASH = "b1f6b2e45c616a79fb0dc4751346384509f2e4cb631623935d8344d49ec937cf7fdf01f2dffd94f1a53013b5aa786d8478ac782970d54526be0f4310175f4487"
+RPM_NAME = "python310-softlayer-zeep-5.0.0-2.1.noarch.rpm"
+RPM_HASH = "fac58fc65ff50348b80567fa3490d289443f13c5bce2474243497b663d7aa948c675b87685da0fba89cb58838203c2afaae13d84475a38b7b7190bd841fd3226"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-softlayer-zeep \
-python3-zeep \
-python3.10dist-softlayer-zeep \
+RPROVIDES:${PN} += "python3.10dist-softlayer-zeep \
 python310-softlayer-zeep \
 python310-zeep \
 python3dist-softlayer-zeep"

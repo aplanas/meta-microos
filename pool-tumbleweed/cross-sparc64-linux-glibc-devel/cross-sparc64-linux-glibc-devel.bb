@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides Linux kernel headers for sparc64, the kerne
 required for compilation of almost all programs."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.3"
+PV = "6.4"
 
-RPM_NAME = "cross-sparc64-linux-glibc-devel-6.3-1.1.noarch.rpm"
-RPM_HASH = "e97f187166c18c369451c4919c5715031fe98dc736e52112c774f6de5edb4f4b96b96f9e5acdee469797022ac4ed47ce8f469a6014b4c4bfe59f97ed040b10ab"
+RPM_NAME = "cross-sparc64-linux-glibc-devel-6.4-1.1.noarch.rpm"
+RPM_HASH = "53f4fc1b808f125c1fb002a7cfd059ac04aace446cf446e21f3c2e144e80b157c0ca9e84c018e72f20069b7e158786091e17f4d651f2ae6b77159738929700c2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cross-sparc64-linux-glibc-devel"

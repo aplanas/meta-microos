@@ -7,11 +7,10 @@ LICENSE = "Zlib"
 
 PV = "3.42.0.0"
 
-RPM_NAME = "python310-apsw-3.42.0.0-1.1.aarch64.rpm"
-RPM_HASH = "ba72c91b61bbf0d4917096a40da7343c2c7f29e1ce572370ebc21e32869540299d53e4331b11e2d11f786c121cad4f6f1e518203a2ebd42ad4bb1f44200885c5"
+RPM_NAME = "python310-apsw-3.42.0.0-2.1.aarch64.rpm"
+RPM_HASH = "9c5a4c8741d779f868a70d07b71ed1394ded24d2721682dc3f64f03d29c8890b3b92b7b06d0c030cabc528a0c6b215997b81bdd693bd2a60023bf8c9ec64eaa9"
 
-RPROVIDES:${PN} += "python3-apsw \
-python3.10dist-apsw \
+RPROVIDES:${PN} += "python3.10dist-apsw \
 python310-apsw \
 python3dist-apsw"
 

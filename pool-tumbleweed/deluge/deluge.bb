@@ -6,12 +6,12 @@ LICENSE = "SUSE-GPL-3.0-with-openssl-exception"
 
 PV = "2.1.1"
 
-RPM_NAME = "deluge-2.1.1-3.3.noarch.rpm"
-RPM_HASH = "0a4eb84ec47da0af6741bfe7bd8f74b7122b6b0b7e7040f296a57fd221d9c29de69a9380057b1db05816167178067316144ae442a2336552fa2324c75f8136b8"
+RPM_NAME = "deluge-2.1.1-3.6.noarch.rpm"
+RPM_HASH = "d96108744f302d3eaf270cc6e70e0c77282fae8d3f21cf823b524185312429bbc9e7b55f788a503b8894af512bcf955069548e61e24389e39b953befaa53b42d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deluge \
-python3.10dist-deluge \
+python3.11dist-deluge \
 python3dist-deluge"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

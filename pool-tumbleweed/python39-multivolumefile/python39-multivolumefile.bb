@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.2.3"
 
-RPM_NAME = "python39-multivolumefile-0.2.3-1.3.noarch.rpm"
-RPM_HASH = "e71a750ae23b35192265d5725e1b34b2ba21927942f9c76088508c85088cb84ddb9f4a2b2ebca17856813a4960bd8bef6924df17e4f35aaa150256623dc71ea5"
+RPM_NAME = "python39-multivolumefile-0.2.3-2.1.noarch.rpm"
+RPM_HASH = "f70b9ce8ffd379b43e38d7be38ec52021928858346d74a660857030c66af0ee06a9099a543616cf6068c3c734612510305a5ef509b51aa5fb55c737e029183f0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-multivolumefile \

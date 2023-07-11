@@ -16,12 +16,11 @@ LICENSE = "Apache-2.0"
 
 PV = "2.4.0"
 
-RPM_NAME = "python310-sortedcontainers-2.4.0-2.1.noarch.rpm"
-RPM_HASH = "e396b80a7150166dcb0066b4afe6574ac4f7a392656bd64c318ad0c574cd7d267d1b15b24f4b288a8f7f08a275256e487cd7be452b7ac4aa3d787fb6e44fdfd3"
+RPM_NAME = "python310-sortedcontainers-2.4.0-2.3.noarch.rpm"
+RPM_HASH = "0c48700eed348cd23d06686d16867ba2193438ded6fc6b47b006dd3c20f79a1371a3d040487ce2404b34b2e910085d08e67c3525e9d70315ff5eb1b6447d45de"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-sortedcontainers \
-python3.10dist-sortedcontainers \
+RPROVIDES:${PN} += "python3.10dist-sortedcontainers \
 python310-sortedcontainers \
 python3dist-sortedcontainers"
 

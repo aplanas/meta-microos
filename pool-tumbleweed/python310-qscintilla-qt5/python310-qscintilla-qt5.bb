@@ -9,12 +9,10 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.13.4"
 
-RPM_NAME = "python310-qscintilla-qt5-2.13.4-1.5.aarch64.rpm"
-RPM_HASH = "542e43c09d78a7a8d41a8645f96cb9ccd96fdf89075254b8dd70dae1d136e874560a5f8cc25edee45ff1befcd5f772dff43e1f8f65de7f173cd55d5d53fd2410"
+RPM_NAME = "python310-qscintilla-qt5-2.13.4-1.6.aarch64.rpm"
+RPM_HASH = "f10fac01fa3d7c34f4e213dc3e19f0c9e30e5d29049c91e63077fa6b0b5104987db36954f51d83f514951c6ec63e2dc7c037b9a558149a54543c5bf7685d3268"
 
-RPROVIDES:${PN} += "python3-qscintilla-qt5 \
-python3-qscintilla-qt5-sip \
-python3.10dist-qscintilla \
+RPROVIDES:${PN} += "python3.10dist-qscintilla \
 python310-qscintilla-qt5 \
 python310-qscintilla-qt5-sip \
 python3dist-qscintilla"

@@ -4,11 +4,12 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.4.18"
 
-RPM_NAME = "python311-md2workflow-plugins-redmine-1.4.18-4.11.noarch.rpm"
-RPM_HASH = "3c49b013b1131d37b5a8c8ba4f9c497aeb90e7d5b0ed0c8534753d2d3dc3ad86285587b218a77eb1fee9152f902860ff7d0fa76c606831dde73aec7c78a594f3"
+RPM_NAME = "python311-md2workflow-plugins-redmine-1.4.18-4.13.noarch.rpm"
+RPM_HASH = "e2977a6cbd1155d5949ad5ba5623f443828400e91d4bb7b5f2c57c340dbbc95b39b0f01403a82f9990cf607260a0ce2209dcaef7eea54c8516bf7d0e28f488e3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python311-md2workflow-plugins-redmine"
+RPROVIDES:${PN} += "python3-md2workflow-plugins-redmine \
+python311-md2workflow-plugins-redmine"
 
 RDEPENDS:${PN} += "python-abi \
 python311-md2workflow \

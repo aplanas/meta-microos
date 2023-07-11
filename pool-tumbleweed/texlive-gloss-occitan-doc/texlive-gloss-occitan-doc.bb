@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.1svn52593"
 
-RPM_NAME = "texlive-gloss-occitan-doc-2023.201.0.0.1svn52593-53.1.noarch.rpm"
-RPM_HASH = "66ce4332f3f80035235dea974ec68274725e51d7cd7a305142adbe2e917587c19b34cf295df2a60f9667b3b1add18e36fb6753464a19aa30d4ecb7c1bf25ba76"
+RPM_NAME = "texlive-gloss-occitan-doc-2023.201.0.0.1svn52593-53.2.noarch.rpm"
+RPM_HASH = "32873585b66932aa021dc909570c091bbf7e4437dfba41e854e91c3260305a246f5b1da262f23dd753ef38b29acac4570723f6404dd5c168a50f91ddb49310ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gloss-occitan-doc"

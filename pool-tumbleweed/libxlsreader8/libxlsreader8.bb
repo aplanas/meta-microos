@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.6.2"
 
-RPM_NAME = "libxlsreader8-1.6.2-3.5.aarch64.rpm"
-RPM_HASH = "d10bd0f8222a36c75336612be6dbc41bdaf70a700c494ac03eeffdcc813a299af581a92affd26cfbedeaa0f67de409ec19a3576400d93272ddfcc1a556171fc3"
+RPM_NAME = "libxlsreader8-1.6.2-3.6.aarch64.rpm"
+RPM_HASH = "55a8f3f5f19046eeb8ee581d9332f44e6feb6a80bf14605346c374cffd7e93b978bdb162763232850ed981584378003d77473ba8aebc813115beacd92793213f"
 
 RPROVIDES:${PN} += "libxlsreader.so.8 \
 libxlsreader8"

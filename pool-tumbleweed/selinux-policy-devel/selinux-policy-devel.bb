@@ -2,10 +2,10 @@ SUMMARY = "SELinux policy devel"
 DESCRIPTION = "SELinux policy development and man page package"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "20230425"
+PV = "20230622"
 
-RPM_NAME = "selinux-policy-devel-20230425-1.1.noarch.rpm"
-RPM_HASH = "04df6df64fcad6b24c13e48081c6deecd95b6f63ffe0bde5e634b888c6963f9c27bac9e3cca079c86a695370db3b03e67d5cd6208a2297b3fd7a6301053abf2e"
+RPM_NAME = "selinux-policy-devel-20230622-1.1.noarch.rpm"
+RPM_HASH = "4afb3b92be3d0658af66e471c786abeb213b4c750dff53c5f0409b9ac8e611252ec037c95d4f1393f309e548199280004ec1de98b6bf14661296e58bb7eb4537"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "selinux-policy-devel"

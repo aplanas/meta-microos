@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.9.7"
 
-RPM_NAME = "python311-pytest-sugar-0.9.7-1.1.noarch.rpm"
-RPM_HASH = "6661131eaaa25c93f3f7d9ea81ca07a8035e5c2927b9a5dcee15b8d9b7e51287965a0230adc0656f956de39ea68b311f13968ea7c899acc1086a9a64cd61394c"
+RPM_NAME = "python311-pytest-sugar-0.9.7-1.3.noarch.rpm"
+RPM_HASH = "14502584bd8ea5c85c2552bc24044248e87890a03016cf578e66e65896d93606d934192f8a73855e275306656143de73c67942d85d065884d9db001ed5223133"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pytest-sugar \
+RPROVIDES:${PN} += "python3-pytest-sugar \
+python3.11dist-pytest-sugar \
 python311-pytest-sugar \
 python3dist-pytest-sugar"
 

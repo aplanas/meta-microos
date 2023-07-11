@@ -7,8 +7,8 @@ LICENSE = "MPL-2.0"
 
 PV = "4.35"
 
-RPM_NAME = "mozilla-nspr-devel-4.35-1.3.aarch64.rpm"
-RPM_HASH = "fa0017d9c795b5eea38b69b219fc073501aae636d529a57f8175134bbb4cabab1fbe43efca2c08acc3866a79a7b401859121d05204662b60ebc537b17eaabf61"
+RPM_NAME = "mozilla-nspr-devel-4.35-1.4.aarch64.rpm"
+RPM_HASH = "6427ac081ea2dd0f4cf6501e04a642c000a365d290e18c393051ee694c76e6ae54f07b6b2be5614dcca282e465304ff79ab05f737884c996eda0a314af19fc4b"
 
 RPROVIDES:${PN} += "mozilla-nspr-devel \
 pkgconfig-nspr"

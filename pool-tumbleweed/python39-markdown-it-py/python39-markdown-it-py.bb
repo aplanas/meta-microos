@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "2.2.0"
 
-RPM_NAME = "python39-markdown-it-py-2.2.0-2.1.noarch.rpm"
-RPM_HASH = "765b5bbff08b28bb96afafd8141bce67d4d37be697bdd135e03a165669cf3a5d78ea520c1675c5f6992d9372be0a735e3e203b81875467a597bf432c275ef43e"
+RPM_NAME = "python39-markdown-it-py-2.2.0-2.3.noarch.rpm"
+RPM_HASH = "84c17e5baf63b95e26d6a76d96788ee217f7087bf0677ccba96d1d5a8762b81404ba931236214029377cdc4985f64d3b3f802eba194bbba6f48e2f784e6094ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-markdown-it-py \

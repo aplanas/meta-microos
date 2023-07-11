@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "6.1.1"
 
-RPM_NAME = "libdvdnav-devel-6.1.1-1.9.aarch64.rpm"
-RPM_HASH = "332118c26f36eb7bdaa759e128aeecd5b59c6acabeaf30ac67f9a952fc51cd3f6dad1e16b76636c1f55066e94e2d3b823011a54db5fb9b2a9335a35348d76e1c"
+RPM_NAME = "libdvdnav-devel-6.1.1-1.10.aarch64.rpm"
+RPM_HASH = "db4fedf5a63ccf01bd74aca4655d9f8e39f01eb93fb124bc1b978ebfffa5edd52ea5662c74e5f56355ebc2783eb69d13033ba12e80f2e7c072a2208b370ace38"
 
 RPROVIDES:${PN} += "libdvdnav-devel \
 pkgconfig-dvdnav"

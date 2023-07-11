@@ -5,11 +5,10 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.5.0"
 
-RPM_NAME = "python310-pylzma-0.5.0-2.11.aarch64.rpm"
-RPM_HASH = "75771459bcfde54cf05bd850444e37e2333e993fa266a58c5fddd98c8e51352e945fda6519b525b9b2f6ef831a466950c7289a9f53008b363db630b010e20237"
+RPM_NAME = "python310-pylzma-0.5.0-2.13.aarch64.rpm"
+RPM_HASH = "7d34c9a385b86cf5182d939c287394c5628902133a62bea0bd2a472aac7d35978300a9279cd0ae37c9b1b858a4f7457ebbcf05fe13db65f65ffdf7afcb52ee31"
 
-RPROVIDES:${PN} += "python3-pylzma \
-python3.10dist-pylzma \
+RPROVIDES:${PN} += "python3.10dist-pylzma \
 python310-pylzma \
 python3dist-pylzma"
 

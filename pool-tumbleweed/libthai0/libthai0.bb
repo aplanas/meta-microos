@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.1.29"
 
-RPM_NAME = "libthai0-0.1.29-1.6.aarch64.rpm"
-RPM_HASH = "969f9c5c31e9f069088a7abef31d93411df5b9a5775b5d6809a31b1602134ecd06ebb2c76fc5a4d0ac691dc99a4a7038c85e2d9c990c1685c0fce004acfaebe0"
+RPM_NAME = "libthai0-0.1.29-1.7.aarch64.rpm"
+RPM_HASH = "1e03b74d2bc2e00395c1d3b1e943860e625e3974807dbc5da2aa64ba5ce321b1e5d5df3e0f8c3e66471ff333b9c9e7347d44d2af33d2791345676b86e9d3f19f"
 
 RPROVIDES:${PN} += "libthai \
 libthai.so.0 \

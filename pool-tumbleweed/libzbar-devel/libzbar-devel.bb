@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "0.23.90"
 
-RPM_NAME = "libzbar-devel-0.23.90-3.1.aarch64.rpm"
-RPM_HASH = "c6f8d3d3a4e69fabe9f3c567c5c9c9cf9946f7264602773c1d59fddb674fa2daf288f00cc42c8fb117fae46f42826f74e8d1c6c9ee56161f9da59b88e251422d"
+RPM_NAME = "libzbar-devel-0.23.90-4.1.aarch64.rpm"
+RPM_HASH = "25c0348690d98e08540262674675102db10fa28a5c154c9d3d4f03c682f0eac7228ac5e5be514ec26aa0f999211f965a9c9d80e403fdb4b30061945c5d34478e"
 
 RPROVIDES:${PN} += "libzbar-devel \
 pkgconfig-zbar"

@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.3.30"
 
-RPM_NAME = "python310-dotmap-1.3.30-1.3.noarch.rpm"
-RPM_HASH = "c55b6b4a73bbc4a62bfb9ab89921b26595490f682bf423d530c2a61433b93b8f337f4e2cef0e49f7d3a76e24d793526a58fdda5525d23ea55cd0a4791ddbbaae"
+RPM_NAME = "python310-dotmap-1.3.30-1.4.noarch.rpm"
+RPM_HASH = "80ced5571ca84cb2058f08558384f7c18f7f3cd4186277931f41d7df5ddb7a546f7b70afc97ad4ac6db8f38fdf195c6712f0aa04b227049368fc03f751eb0241"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-dotmap \
-python3.10dist-dotmap \
+RPROVIDES:${PN} += "python3.10dist-dotmap \
 python310-dotmap \
 python3dist-dotmap"
 

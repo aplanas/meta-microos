@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & GPL-3.0-only"
 
 PV = "0.9.1"
 
-RPM_NAME = "kup-backup-lang-0.9.1-2.5.noarch.rpm"
-RPM_HASH = "fe17dcfa8e726b41b1b49ff77b84634a3a52f71008152741d3eafd15cb80cdca5a50a1cedcfa06f730de4853dd41724757cbdc1e4d58f6e0b29db1ca4ec4fbff"
+RPM_NAME = "kup-backup-lang-0.9.1-2.6.noarch.rpm"
+RPM_HASH = "5de896229010af4fc4e410d3407c84c7b94f0b26d64efef5711e880c0a22e9406d3d5cd03312d8131d9b633b6910293bf425c83b0f5a65b0d0865ec7199971ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kup-backup-lang \

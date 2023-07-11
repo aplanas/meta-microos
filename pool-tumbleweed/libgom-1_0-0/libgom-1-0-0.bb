@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.4"
 
-RPM_NAME = "libgom-1_0-0-0.4-1.15.aarch64.rpm"
-RPM_HASH = "46ef6da3f34c788c737264e9373b590a10c0971d9aed9fd49faa69c08992a575ec6fdfddce9e1183459e0fb2f48cde3d8e14e66ea5948b8fb5a8ef438de88c1d"
+RPM_NAME = "libgom-1_0-0-0.4-1.16.aarch64.rpm"
+RPM_HASH = "fca49dd709a3ec97f998ec61eae33f3dd2e21adb1080c76489ab7ac337d617d56ee69534baf690897ef584f294951b4682a095f74540b249e5c9f733b5329791"
 
 RPROVIDES:${PN} += "libgom-1-0-0 \
 libgom-1.0.so.0"

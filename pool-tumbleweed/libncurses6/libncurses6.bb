@@ -5,10 +5,10 @@ controlling output to the screen and input from the user. \
 This package contains the library built with the version 6 ABI."
 LICENSE = "MIT"
 
-PV = "6.4.20230520"
+PV = "6.4.20230617"
 
-RPM_NAME = "libncurses6-6.4.20230520-13.1.aarch64.rpm"
-RPM_HASH = "e9295f97c0174be22d4e2b58bf962d34e8ff29feef3385a9d549ddb85e213a0f481819d5cabfcfe866b575013df1fb3581217d0d1b4766e81dc04bd5fcc945d3"
+RPM_NAME = "libncurses6-6.4.20230617-15.1.aarch64.rpm"
+RPM_HASH = "470470f92785413ddead1e54cc0172a46fedf370dd8df0f28cad5b2e72e062515acc4ea291c3c56331695e728480615cc9e075956f8b9ab06e058f94508c85b1"
 
 RPROVIDES:${PN} += "libform.so.6 \
 libformw.so.6 \

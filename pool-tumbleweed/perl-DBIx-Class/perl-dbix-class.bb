@@ -34,8 +34,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.082843"
 
-RPM_NAME = "perl-DBIx-Class-0.082843-1.4.noarch.rpm"
-RPM_HASH = "1382047e97ce592846fb1b1ab0a1cc366253fbb5fcaac2a3319dbd7e5ff58f24159959218394e837487a65c8e7bbb59a44d452707832b98ea6bbdf84eaab57e4"
+RPM_NAME = "perl-DBIx-Class-0.082843-1.5.noarch.rpm"
+RPM_HASH = "2806c6d50f46cd79d14acebec5c5f87cbbea049aeb1acac4a959aff69a8f2d10897d3386251a94ba97d39ae356f6cce8a2dfa7153d31eeb7d9e5d05441f23ba2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DB \
@@ -135,7 +135,7 @@ perl-SQL--Translator--Parser--DBIx--Class \
 perl-SQL--Translator--Producer--DBIx--Class--File"
 
 RDEPENDS:${PN} += "/usr/bin/env \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-Class--Accessor--Grouped \
 perl-Class--C3--Componentised \
 perl-Class--Inspector \

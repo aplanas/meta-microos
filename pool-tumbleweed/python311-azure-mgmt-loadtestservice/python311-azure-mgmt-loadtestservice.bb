@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "1.0.0.0"
 
-RPM_NAME = "python311-azure-mgmt-loadtestservice-1.0.0.0-1.3.noarch.rpm"
-RPM_HASH = "07e49877c84e83c0ebacc31fcb66e6c9809a8f397fe11bef01fae570d312ae8645c3d7025696b4fb047fe115117dc40b7137ab2de5f14bb65821ca7e83109038"
+RPM_NAME = "python311-azure-mgmt-loadtestservice-1.0.0.0-1.4.noarch.rpm"
+RPM_HASH = "9b8cf0f63fc1e6e6ebeeb0e952bd3e6dc086402ebef66d929509c857e8fb8c829f807642bbe1061fc0939b749a0ee52d81178af54f6d43cc3f7fb251f19bbaa4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-loadtestservice \
+RPROVIDES:${PN} += "python3-azure-mgmt-loadtestservice \
+python3.11dist-azure-mgmt-loadtestservice \
 python311-azure-mgmt-loadtestservice \
 python3dist-azure-mgmt-loadtestservice"
 

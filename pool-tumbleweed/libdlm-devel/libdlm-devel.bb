@@ -3,10 +3,10 @@ DESCRIPTION = "Libraries and tools that allow applications, particularly filesys
 like OCFS2, to interface with the in-kernel distributed lock manager."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "4.1.0"
+PV = "4.2.0"
 
-RPM_NAME = "libdlm-devel-4.1.0-2.4.aarch64.rpm"
-RPM_HASH = "b373666b5e8438cf80645ccc72b9f784e31245384a82dbffd24d42b91f34cec415afb92f4eeb5a104ecdce039ba5d40048e3587e9421115a532f2c91ec395f83"
+RPM_NAME = "libdlm-devel-4.2.0-1.1.aarch64.rpm"
+RPM_HASH = "bafa67f183a2cb8f76258b701e28de199f05dea4d37f84073e78266a64c9660673c08c814cadf572db52446e3f129a63140311f40218b555e8916ec3f68ffadd"
 
 RPROVIDES:${PN} += "libdlm-devel \
 pkgconfig-libdlm \

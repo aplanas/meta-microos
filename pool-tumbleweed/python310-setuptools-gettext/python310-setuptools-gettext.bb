@@ -4,12 +4,11 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.1.1"
 
-RPM_NAME = "python310-setuptools-gettext-0.1.1-1.3.noarch.rpm"
-RPM_HASH = "898493b4bf52943fd97adad12042379959ec29e32b3b633593015a1925e58940531aa247f6c23cb12a16499d1cbed49f680cca3997c6178f7f986d189a5d4177"
+RPM_NAME = "python310-setuptools-gettext-0.1.1-2.3.noarch.rpm"
+RPM_HASH = "971ec289abb8ce9a80d75e463c4036d6517b42fc3638ce05ea5e1a5b979e67f738b774c4d0e3dda1eed19acbc24e76814f1e9c882dba1f162a5b4cf9b9797da3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-setuptools-gettext \
-python3.10dist-setuptools-gettext \
+RPROVIDES:${PN} += "python3.10dist-setuptools-gettext \
 python310-setuptools-gettext \
 python3dist-setuptools-gettext"
 

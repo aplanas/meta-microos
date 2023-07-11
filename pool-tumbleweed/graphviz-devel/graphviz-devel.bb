@@ -5,8 +5,8 @@ LICENSE = "EPL-1.0"
 
 PV = "2.49.3"
 
-RPM_NAME = "graphviz-devel-2.49.3-6.3.aarch64.rpm"
-RPM_HASH = "3f043f11cabaa1fb45ee4bdb085ea316e0457355de874e3e2c3095bf688409a4d0f1aeee2c19146c261848f57046ed389598a27c57948288ee375b65d4827ebf"
+RPM_NAME = "graphviz-devel-2.49.3-6.4.aarch64.rpm"
+RPM_HASH = "0faf626e29ca9cccb5da34e9eb6a0810de426a5e07a8908d2338ea86c232d31d641ecbce4d100b53d8ee28447b489bf7c872cf75f43907d017780d38ca4b6fbf"
 
 RPROVIDES:${PN} += "graphviz-devel \
 pkgconfig-libcdt \

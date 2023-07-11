@@ -8,8 +8,8 @@ LICENSE = "EPL-2.0"
 
 PV = "4.15"
 
-RPM_NAME = "eclipse-p2-discovery-4.15-9.3.noarch.rpm"
-RPM_HASH = "a327e3db875c907ff226f4cf6675cbbac5762307ab8b5576582a0d8d2ec000899fc179510790481659965f070d71153c0a701de55b9383638c1d1d696013e2e0"
+RPM_NAME = "eclipse-p2-discovery-4.15-9.4.noarch.rpm"
+RPM_HASH = "d4bd2133e49dad151c9d1b290dad54691e66c280e346f1a8c074a4d16e316693bfadd6cb652fe79c80f8212b453867798af9b9c60ed55315add6631a1327f554"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eclipse-p2-discovery \

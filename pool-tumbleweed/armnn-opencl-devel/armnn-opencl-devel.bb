@@ -8,10 +8,10 @@ modification – across Arm Cortex CPUs and Arm Mali GPUs. \
 This package contains the development libraries and headers for armnn."
 LICENSE = "MIT"
 
-PV = "23.02"
+PV = "23.05"
 
-RPM_NAME = "armnn-opencl-devel-23.02-2.1.aarch64.rpm"
-RPM_HASH = "f8ed2b9d658c56068c1ae4082053ac541ad0f05ef9be555e166fc16c793636d6ab9b3568d76ef98c125dfb683a3b9aa622d209ada2c705c1292cf267eff55194"
+RPM_NAME = "armnn-opencl-devel-23.05-1.1.aarch64.rpm"
+RPM_HASH = "3aa7524aedcf7845d91dde75070aca703a633f390a6aa1ca2b8961ab4dceffee099a64cf9376b787af911a16c42d93b89e75d4fcbc9954206fc1fa47abc6258a"
 
 RPROVIDES:${PN} += "armnn-opencl-devel \
 cmake-Armnn"

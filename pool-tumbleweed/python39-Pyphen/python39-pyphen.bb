@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & MPL-1.1"
 
 PV = "0.10.0"
 
-RPM_NAME = "python39-Pyphen-0.10.0-1.10.noarch.rpm"
-RPM_HASH = "88a14fac96e250310d86b3030cdcf9f820018facb80593f4d4289f0fbebd7eb5fcc1f914646733d2c64e936caba02774d52654a23c9c7fb62343bcbee860f69d"
+RPM_NAME = "python39-Pyphen-0.10.0-1.12.noarch.rpm"
+RPM_HASH = "f009ea8ba090304260789b1f6db4f20c2bbdeacab1b37ef4b159dc487c1f4c2b0af863f755f8a3dc169d3899a48afce42090cf4cfd95912bfeca2398c23b0e1a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyphen \

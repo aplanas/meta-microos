@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.0.6"
 
-RPM_NAME = "python310-pyux-0.0.6-1.14.noarch.rpm"
-RPM_HASH = "d8f13461fcd258cd0918e068257b7e4aa72debc8e900052f69915e7e0c888be3ae2f4ee50c667d1be55aa4758edcaf4381684df4dec6ac1408a7607f2aeab262"
+RPM_NAME = "python310-pyux-0.0.6-1.15.noarch.rpm"
+RPM_HASH = "f7f9e1689649a899afae5dde1eb64204d5639d1387618d7d12fe79895c978578abce9b977d46353443346a79510e7066cca7bf972dd58b8aada2587b6d6f8aae"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pyux \
-python3.10dist-pyux \
+RPROVIDES:${PN} += "python3.10dist-pyux \
 python310-pyux \
 python3dist-pyux"
 

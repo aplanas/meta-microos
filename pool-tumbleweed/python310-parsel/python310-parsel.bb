@@ -5,12 +5,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.7.0"
 
-RPM_NAME = "python310-parsel-1.7.0-1.3.noarch.rpm"
-RPM_HASH = "befa40a9d49203393c4fa98370dae1cba55693199527672bf33bc61abc44932a7244081151b0b012b4c463ed7fe9ee6efd1b34cb1700218208fffdf316e9bd24"
+RPM_NAME = "python310-parsel-1.7.0-1.5.noarch.rpm"
+RPM_HASH = "2d47d3e48c7fecbaa2805bcffd3edffc1cc95515b8cb8b25d4ee24b98edbd093fffb45b8746143c750a3cd0bab449524f7fe15a61883362b73856ab4c26a5cce"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-parsel \
-python3.10dist-parsel \
+RPROVIDES:${PN} += "python3.10dist-parsel \
 python310-parsel \
 python3dist-parsel"
 

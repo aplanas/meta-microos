@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.6.1"
 
-RPM_NAME = "libkImageAnnotator0-0.6.1-1.1.aarch64.rpm"
-RPM_HASH = "e5fa260d442449aa6483b2a6920427111b15801ac4da7f5e67f2f2dfca01ec0b28d50a6166808b94f8d0b8396e5333228a48d084233248d02149d7201bea8579"
+RPM_NAME = "libkImageAnnotator0-0.6.1-1.2.aarch64.rpm"
+RPM_HASH = "86a83e8dfcaf6a85345c29aa073b6f58f52022a9572646c496606f7544809fac5efe8c7f9d7c3144851f3b1a4f57a679b16ba2cbee1ebc400cea2d0878bfcc92"
 
 RPROVIDES:${PN} += "libkImageAnnotator.so.0 \
 libkImageAnnotator0"

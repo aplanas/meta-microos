@@ -8,8 +8,8 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "3.7.1"
 
-RPM_NAME = "python39-guessit-3.7.1-1.4.noarch.rpm"
-RPM_HASH = "2e76dbf9e6b13c63b87b8cdf5d22c660de68cd9cc79781431bb7a7d78ba44b7f0baf1227eb14de3c7cb54b197c6a5daed3c2d51aff69b89eb316f61b82fecdbe"
+RPM_NAME = "python39-guessit-3.7.1-1.6.noarch.rpm"
+RPM_HASH = "0d19f5f782e07d36ce5d5731f0bb1ead6763021cff0811ac1142101d06db1770f0811f9344a79af832aa7f80ac804556c226a4108fbb18b52c357d94eb3ab4bd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-guessit \

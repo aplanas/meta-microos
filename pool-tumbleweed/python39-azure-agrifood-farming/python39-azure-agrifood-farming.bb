@@ -16,8 +16,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0b2"
 
-RPM_NAME = "python39-azure-agrifood-farming-1.0.0b2-1.2.noarch.rpm"
-RPM_HASH = "310dfbe8cfc10b78c78ab2573974948cc4ab2c553ae87b05fe3e2f536c2d1c9c87f520f9367001156d795b23cd474d3f2a50ad5e88a97623a9a30c76070b10bb"
+RPM_NAME = "python39-azure-agrifood-farming-1.0.0b2-1.4.noarch.rpm"
+RPM_HASH = "27c2fce7ac55495c20b502f96a7cb95ca75846a8eac562144b2a6fc521aee6c75c426e6570a4ea543eea6a3a2fbe2bbdeb46c9a4e99351ae0a6daae56e40de4e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-agrifood-farming \

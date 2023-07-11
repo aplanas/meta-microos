@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0 & BSD-3-Clause"
 
 PV = "2.1.0"
 
-RPM_NAME = "libceres-devel-2.1.0-1.4.aarch64.rpm"
-RPM_HASH = "f347b57f8bdddd7d4f3a9ddd58f75cd1673a2f81a2af0bea8f07ef9d2e8a3df7c1dcbb7b971ab9a51a6052b979d39f745da179953ffee6f1a4ebf370c86db869"
+RPM_NAME = "libceres-devel-2.1.0-1.5.aarch64.rpm"
+RPM_HASH = "80f7df772340ed4ded1a5a498b71cb3ed7c1fa459a04b0dc45dfcf41a0d70eaae4744b4d99ff5118c69832545361ce9a8ada18cdb768528d91c3447ca6b1c637"
 
 RPROVIDES:${PN} += "cmake-Ceres \
 libceres-devel"

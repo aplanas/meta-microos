@@ -6,10 +6,10 @@ videos. Its plug-in-based architecture means that new data types or \
 processing capabilities can be added simply by installing new plug-ins."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.22.3"
+PV = "1.22.4"
 
-RPM_NAME = "libgstgl-1_0-0-1.22.3-1.1.aarch64.rpm"
-RPM_HASH = "9fd33fe99b13be4cf7de3b321eb9b3fabb494b7eeeb62d1182d49ebd434360f9b48ab9e99af51ac7815d0046411c6e8f4b43949697c25d94d5be8d283745c30f"
+RPM_NAME = "libgstgl-1_0-0-1.22.4-1.1.aarch64.rpm"
+RPM_HASH = "d6683bed4c0342b2f1a45833d68c3f31611ebf4b2dc8ea38ac83496ee46b7b5ae61f4d2aec0c76b4ec2c4068d7bf0f7899939ec7b805fdf3ff96177afd54f974"
 
 RPROVIDES:${PN} += "libgstgl-1-0-0 \
 libgstgl-1.0.so.0"

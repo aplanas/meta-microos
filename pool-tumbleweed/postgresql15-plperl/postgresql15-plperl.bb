@@ -8,8 +8,8 @@ LICENSE = "PostgreSQL"
 
 PV = "15.3"
 
-RPM_NAME = "postgresql15-plperl-15.3-1.2.aarch64.rpm"
-RPM_HASH = "999d83a33a97906707c795fb61b4d2417d43782ea0db4e62d4e5030a4fd5f22949e0fdf40ddd1c4d6e725f9753f158f01c70ae0b04481598c5a3d303fa6497ad"
+RPM_NAME = "postgresql15-plperl-15.3-1.5.aarch64.rpm"
+RPM_HASH = "0863c8ce53d0d7bbb8045a506fbed2f511bb8dfb6a2a694bb722d637067cc8c2c65bbf973506580cbfb01259b44db5cd82065799fa322ae2a3781f06ff7e7e33"
 
 RPROVIDES:${PN} += "postgresql-plperl-implementation \
 postgresql15-plperl"

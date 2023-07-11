@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.2"
 
-RPM_NAME = "python39-fastbencode-0.2-1.5.aarch64.rpm"
-RPM_HASH = "c6593c2abff96474f5f703fe4ffa7c695674ac1beecc907d6d77eef6c40d52a78e81fb174c4d2a10ec9e9f468948ec7868b63b4c1ef29c24cf1e5b2760180761"
+RPM_NAME = "python39-fastbencode-0.2-1.7.aarch64.rpm"
+RPM_HASH = "84aeae0b524704669e59c3fbec6180c881a43e7562a5ae1efa06dc4b624fcd677d14c166c1d54a708df4417f42270435038cef146c8f88435450a1cc44da8522"
 
 RPROVIDES:${PN} += "python3.9dist-fastbencode \
 python39-fastbencode \

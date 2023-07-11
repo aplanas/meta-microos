@@ -4,8 +4,8 @@ LICENSE = "CDDL-1.0 | GPL-2.0-only"
 
 PV = "2.3.0.0"
 
-RPM_NAME = "jemmy-javadoc-2.3.0.0-26.6.noarch.rpm"
-RPM_HASH = "d0d129f1a1cab5cb44da735b51f01bd332eec949ab0363f697ec412ce352e5483f9861af35dcc8c84dff71b871b8f13a1d1bd5aee3a9282a8d97e0ca7c196d50"
+RPM_NAME = "jemmy-javadoc-2.3.0.0-26.7.noarch.rpm"
+RPM_HASH = "7e964d2636efa7bf3b5f1257024cf80800d17898a16d96630ee61ef52d4fdc52d744bb2be3fb220323ec38df7a27a59ff98a328b01fca84bbb2a680d12ae1412"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jemmy-javadoc"

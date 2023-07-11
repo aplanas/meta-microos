@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "8.17.0"
 
-RPM_NAME = "python39-bitstruct-8.17.0-1.1.aarch64.rpm"
-RPM_HASH = "e10d7a943786bf48e138434bedc28635c10308ece3acad95dda14fc24d0cd3bfe61cbbfbdb758ad7e847d72581e03aa89ed4c893c4c0d004e24857d78517e709"
+RPM_NAME = "python39-bitstruct-8.17.0-1.3.aarch64.rpm"
+RPM_HASH = "e4218968db09c190c8a6c95d059e430c6ab706d5cda1c0c395cbf0e649ac84f42ed3acbc2ff447ac79c7e3405fbd7e20be6726a3a308758d79ae9ec847baee7b"
 
 RPROVIDES:${PN} += "python3.9dist-bitstruct \
 python39-bitstruct \

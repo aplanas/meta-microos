@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.8.1"
 
-RPM_NAME = "python39-mizani-0.8.1-1.2.noarch.rpm"
-RPM_HASH = "f9966b3978fcc943b9847f070e3edd652a662de69f4d92d8c7dd7fa732e9731eb910d3e27123152b3d4a0da349c22464180c80e8d22d798a12fdef36cdbfd866"
+RPM_NAME = "python39-mizani-0.8.1-1.4.noarch.rpm"
+RPM_HASH = "2385543cc4430cd4456ede9d59b17408a09ca1ff16be1b4509a21a831efa7a3c7e5be0df5bb35f8ec5b41a51f9c88347670fee99c54a01908093184c25c53341"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-mizani \

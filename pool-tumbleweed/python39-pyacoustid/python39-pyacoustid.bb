@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "1.2.2"
 
-RPM_NAME = "python39-pyacoustid-1.2.2-1.4.noarch.rpm"
-RPM_HASH = "2a624443cf0e7c1ec93065061de96fadb453e63dc31305764e08275623f490a3f3ce7cabf382d278ac9522cf15fc98702a0519b0f6c072ec10383d767f41d59f"
+RPM_NAME = "python39-pyacoustid-1.2.2-1.6.noarch.rpm"
+RPM_HASH = "3b4c01f023d32cf05efdd77abfec6df124e22a45997569c9c7b2cb17b674343b88d9279d57c062270639fb18b7ed0b6ef8e7863c1891d6a5abf192a8af88ce17"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyacoustid \

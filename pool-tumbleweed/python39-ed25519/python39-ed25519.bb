@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.5"
 
-RPM_NAME = "python39-ed25519-1.5-3.11.aarch64.rpm"
-RPM_HASH = "b4696572fcf2bef845055962a48bd1e047644dd2f1cf6b0de3ef264643a1df11b454b59b6e73f48a2dd3b14f6bbfcdaf375876b42aba2105af4832d121c7817e"
+RPM_NAME = "python39-ed25519-1.5-3.13.aarch64.rpm"
+RPM_HASH = "fefe34ba6cf739827813c58fe63362ee45621f6dd508d9db47aeece6fb6d5e1be69339f11ea2416e7f7aababb4f08c9a1a9e7f6cef28b41600ba05bc9c38a42e"
 
 RPROVIDES:${PN} += "python3.9dist-ed25519 \
 python39-ed25519 \

@@ -10,8 +10,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.9.4"
 
-RPM_NAME = "apache-commons-beanutils-javadoc-1.9.4-3.14.noarch.rpm"
-RPM_HASH = "7625fb617792fab912f64b5e25eac083c0a90c4885132b0b26dbf51c3767c7f9df52b60a2c653abb72ffd0a3932fab0f1bdebd7c61bb2790f42c66f09e7a7f81"
+RPM_NAME = "apache-commons-beanutils-javadoc-1.9.4-3.15.noarch.rpm"
+RPM_HASH = "e7ede62bbfa2045b86ca24a783b22165fe3363d3ac0db2bc13d2d5f6cead32a66edb179e4490a12f1d2eabf0ceccf3ce21b9fdf93dcdf4b5f638f30f4eab6265"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-beanutils-javadoc"

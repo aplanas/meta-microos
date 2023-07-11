@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.37"
 
-RPM_NAME = "libnotmuch5-0.37-2.4.aarch64.rpm"
-RPM_HASH = "fd57b761812bd429aee8924ebda8d816adcc851dacca8eee3e4769b69f8c3b406da1f02297f092d6a046c7631170add1052f26d1822648d03f490e4f3ab91f3b"
+RPM_NAME = "libnotmuch5-0.37-2.6.aarch64.rpm"
+RPM_HASH = "11907fad5b258398cbcb20b09c55f941f1fe510df1bbc50598cbacebf6547c4641496ee9e594d999e7b8c2f466c380620e1dd9c5399cede118c4c3a5234eb6c5"
 
 RPROVIDES:${PN} += "libnotmuch.so.5 \
 libnotmuch5"

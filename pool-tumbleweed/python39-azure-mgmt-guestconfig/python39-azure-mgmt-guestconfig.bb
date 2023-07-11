@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0b2"
 
-RPM_NAME = "python39-azure-mgmt-guestconfig-1.0.0b2-1.3.noarch.rpm"
-RPM_HASH = "c3ac9a2fd1b31de8aab28ab10de6426b107ffcc4e81757a0fcca556794c99e9497a93ef2d61cd24c64a83c739a4a248c88f6459389440e0c7e3b6d30c6ef65ec"
+RPM_NAME = "python39-azure-mgmt-guestconfig-1.0.0b2-1.4.noarch.rpm"
+RPM_HASH = "0f76c13dd95ddbce6ff966b72ca8e1e8b3a774df576663b6026fa31d6b66bd66d8a06ca7d4bc6a930ef2037b2ce654f8fdaf695d11eb3a12f81b6e30519e5fa7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-guestconfig \

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.25.1"
 
-RPM_NAME = "python39-pydub-0.25.1-2.3.noarch.rpm"
-RPM_HASH = "fa49479bb3ac1e5d1d8aaad879544e4321aa4effabaeed1f87242541f0a16628bacf35a6c3e5fd0da45c63eb13673ff6e52ab31e9027daf751b33c85744fdc71"
+RPM_NAME = "python39-pydub-0.25.1-2.4.noarch.rpm"
+RPM_HASH = "f8ea3136306d9ccd0ba02087c18b301b7a8ff0cd10106d7c45342f22ffdaed586e4f875f88e6ab404df0cbd340d8fbfca73e97fa00e7e2d2a0f6e25e16b343ee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pydub \

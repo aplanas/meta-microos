@@ -11,8 +11,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "0.38.0"
 
-RPM_NAME = "java-atk-wrapper-0.38.0-3.7.aarch64.rpm"
-RPM_HASH = "2c531a1b3603cd1545006daa2b30c308706adc2f1302ec2f49fa66e0d3f65376061fd754728ed002bbb4008a51baaed405409e8734cbaec5230ff90c4ae58eac"
+RPM_NAME = "java-atk-wrapper-0.38.0-3.8.aarch64.rpm"
+RPM_HASH = "f182552807c99d3e321a2f944ffdcf19103fbbd4fb6b9d2536f2132433484301592ecf78a826058cc00b8132e1599418d20bc4433f776012ce31b930dd5aed63"
 
 RPROVIDES:${PN} += "java-atk-wrapper \
 libatk-wrapper.so"

@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "20230125.3"
 
-RPM_NAME = "abseil-cpp-devel-20230125.3-1.1.aarch64.rpm"
-RPM_HASH = "d44b5f2d086a23b86990909e4c4944cdff926ee4ce6d2d56fc4dd61ee23d30e889d7fce53cc2633a7861c753bd1ee21c066b0ba4468d910e27c2b2f243a19455"
+RPM_NAME = "abseil-cpp-devel-20230125.3-2.1.aarch64.rpm"
+RPM_HASH = "462c34c9429d772b5738962e2d8c8cea87de36736438aa913a6c032f5645f44d5f2d1f871e22a77b75bf4b44d5f2eaf02209344635453b0da651d192dc30e6c4"
 
 RPROVIDES:${PN} += "abseil-cpp-devel \
 cmake-absl \

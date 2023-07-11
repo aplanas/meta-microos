@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.42.10"
 
-RPM_NAME = "libgdk_pixbuf-2_0-0-2.42.10-1.4.aarch64.rpm"
-RPM_HASH = "6a25d87298dbb0652ac82d20775b99148f40e89cd6aa83d899a5977661c7161a6f5ca4b9e305d7c170c7c782cf925c4fb0dbb9e57380df596163cea4f2c9949b"
+RPM_NAME = "libgdk_pixbuf-2_0-0-2.42.10-1.5.aarch64.rpm"
+RPM_HASH = "f7f8ac2b9d586652419ec527c713b467ccb39a6393175c2935aa5de941f56755bc3d73cdde592fac4f1019f6a3aff457a6ec7a7d6bda2286f4965e2e9a5d919e"
 
 RPROVIDES:${PN} += "gdk-pixbuf \
 libgdk-pixbuf-2-0-0 \

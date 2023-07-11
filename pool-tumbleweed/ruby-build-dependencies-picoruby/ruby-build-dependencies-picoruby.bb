@@ -2,10 +2,10 @@ SUMMARY = "Meta package for dependencies to build PicoRuby"
 DESCRIPTION = "Meta package for ruby-build dependencies to build PicoRuby."
 LICENSE = "MIT"
 
-PV = "20230512"
+PV = "20230615"
 
-RPM_NAME = "ruby-build-dependencies-picoruby-20230512-1.1.noarch.rpm"
-RPM_HASH = "9f3c4c4d3b03b35e18b01df9e97064ec08d70df209ceddc5e5886d5c8dc66339ffd22302a9648453d3789b98c718be00d682de42ce0d22e6c799d6d16fb78559"
+RPM_NAME = "ruby-build-dependencies-picoruby-20230615-1.1.noarch.rpm"
+RPM_HASH = "f7c819e23d681e381b80f03c52c830e6f71467dcce73a562efbcaaf066beef1344411fedd9748dd631211f4a53fd23a5c738a1bfcb9d2c483ac02e1cbee109fe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ruby-build-dependencies-picoruby"

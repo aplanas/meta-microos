@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.7.3"
 
-RPM_NAME = "librime1-1.7.3-2.18.aarch64.rpm"
-RPM_HASH = "d45633ed3f7e2fc1295709bcfba3a17bf9122780ada4dea0ddab9d189f1dae7c7ce3f89f059b5887bfab15695ee16472fe0d7bcac93e7c8618672d478d15e9be"
+RPM_NAME = "librime1-1.7.3-2.19.aarch64.rpm"
+RPM_HASH = "b6ed941b4bf928a2fd9a2076ca5c5ea8c8b28dd8006ac9cf7cba669342ed36faf7e833ad40fdfd8bbd29189d2a2d4408f14cb6820d00cfeaa02e684a6184e9b4"
 
 RPROVIDES:${PN} += "librime.so.1 \
 librime1"

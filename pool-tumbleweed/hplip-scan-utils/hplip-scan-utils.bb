@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-or-later & MIT"
 
 PV = "3.22.10"
 
-RPM_NAME = "hplip-scan-utils-3.22.10-2.1.aarch64.rpm"
-RPM_HASH = "0fc7fe8eec4f05e0a3a57b241c790bfb04801483bba985b04744f95c186d4aa96732712b02171c6532f91546971430bde4162edfca5c8710c726a6a6dd6a9d02"
+RPM_NAME = "hplip-scan-utils-3.22.10-2.3.aarch64.rpm"
+RPM_HASH = "436565a1f497d9b10d34e3721ca0e8497308aeb35e9ff8658fe649a06a12fb2184dfd4f53b13d2e7ab0235b8705379011d0466d1ffaca6855fef7571f3e6e9f4"
 
 RPROVIDES:${PN} += "hplip-scan \
 hplip-scan-utils"

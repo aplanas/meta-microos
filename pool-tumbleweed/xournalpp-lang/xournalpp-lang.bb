@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.1.3"
 
-RPM_NAME = "xournalpp-lang-1.1.3-2.1.noarch.rpm"
-RPM_HASH = "ba98933cad48100999e0628d315926191ddc13c7cb79f982f5abdcacfa2276e1a371c41aebb278c8e5af7cd8c2907590cef90c25e3dd71dd78023fa66489ff12"
+RPM_NAME = "xournalpp-lang-1.1.3-2.2.noarch.rpm"
+RPM_HASH = "113bf3703c876e95320ba1005ec5962cd2e76cb99cb8849b0eb7fba8222f5b9e837c751c7be29918fdc2edd0be62e550f31d723a1a01f92a5ded8f1ee1c59988"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xournalpp-ar \

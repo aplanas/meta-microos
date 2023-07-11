@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only & MIT"
 
 PV = "5.12.0.134.g4cebbfc"
 
-RPM_NAME = "collectd-plugin-java-5.12.0.134.g4cebbfc-1.4.aarch64.rpm"
-RPM_HASH = "dd53ecf093aaa6b152e368a6b8369c56ba27ef3ade45eb0fa66282d385070a139f9a3c1f310b4769d473a461bf57207d99d64d0f2c933380e3a7894bcf6954f4"
+RPM_NAME = "collectd-plugin-java-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
+RPM_HASH = "97194679e68f9b2847eb275489a5ba7915b9d0f171649645ad4cada6453c7df7494dd6b3002337fc229833638b6bfb963eb331babaa0027f743ad0e5fd242af0"
 
 RPROVIDES:${PN} += "collectd-plugin-java"
 

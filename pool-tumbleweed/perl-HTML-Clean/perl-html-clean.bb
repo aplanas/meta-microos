@@ -20,14 +20,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.4"
 
-RPM_NAME = "perl-HTML-Clean-1.4-1.15.noarch.rpm"
-RPM_HASH = "b9ca5448814f5f965dd35f3c32c2458f3bdbbd876f8180c24712cdb56a6e114e496d4c87318b948cf627d505381e4b8ed00a9f02bab07d671c093d538a82c2b8"
+RPM_NAME = "perl-HTML-Clean-1.4-1.16.noarch.rpm"
+RPM_HASH = "840f35e56427470d9636a5090de182ea77b5c4875030fa179ae729ce3d2ae3f9e840007c5ec6ca9d3c422dcda84f3650ffda84a3a0fbeb46bcf22d7f20ff3d15"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTML--Clean \
 perl-HTML-Clean"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

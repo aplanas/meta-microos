@@ -5,8 +5,8 @@ LICENSE = "Artistic-1.0"
 
 PV = "0.03"
 
-RPM_NAME = "perl-Encode-JIS2K-0.03-1.23.aarch64.rpm"
-RPM_HASH = "ec927a971fc1ed323d639b63be935fb23f5d98ea9fcd3e68a4d4f089ab85163ef96ede0100a97d3caafca64f0a2d867b27f23f617410344a34347d4c5c8244f1"
+RPM_NAME = "perl-Encode-JIS2K-0.03-1.24.aarch64.rpm"
+RPM_HASH = "3481f263ff750a0f82781af048f08952f46fd1ff1f598bf1675cecdddc566d612ad934cdbbdd60be8bf0c348a104ae19c357f1d08bd479c49f6cd360aedac305"
 
 RPROVIDES:${PN} += "perl-Encode--JIS2K \
 perl-Encode--JIS2K--2022JP3 \
@@ -15,6 +15,6 @@ perl-Encode-JIS2K"
 RDEPENDS:${PN} += "/usr/bin/enc2xs \
 /usr/bin/sh \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

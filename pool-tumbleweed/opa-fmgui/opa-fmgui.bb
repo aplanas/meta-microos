@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause & LGPL-2.0-or-later"
 
 PV = "10.1.0.0.115"
 
-RPM_NAME = "opa-fmgui-10.1.0.0.115-7.6.noarch.rpm"
-RPM_HASH = "fcc4153d31f6fde2a39a114f47a58ca874da12c553d661a5a9124b7ce4c9937172176a712e359922ce4c8533bfb72642a1fca759252caf99d7095d33c853534a"
+RPM_NAME = "opa-fmgui-10.1.0.0.115-7.7.noarch.rpm"
+RPM_HASH = "1cf90bb9152449da998ec60d9878edbe4a95115f5531c6b8377ca0a5955f3ecafaa42e2a6ae63897c6a85617505e3ee6d4c197c6f2dc7f79aa316860314b25a0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-opa-fmgui \

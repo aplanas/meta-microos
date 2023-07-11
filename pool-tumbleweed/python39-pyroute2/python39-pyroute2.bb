@@ -18,8 +18,8 @@ LICENSE = "Apache-2.0 | GPL-2.0-or-later"
 
 PV = "0.7.3"
 
-RPM_NAME = "python39-pyroute2-0.7.3-1.4.noarch.rpm"
-RPM_HASH = "67d90310cb41c01e07e13bc52a9fe8b1e4eb7acecf1672bf2290a229c7af4a46b6469bbea2809557340a33a3e741e3bb670eb2096c1a349108829cf60c94afe7"
+RPM_NAME = "python39-pyroute2-0.7.3-1.6.noarch.rpm"
+RPM_HASH = "3e7fd3e846e69e65150f8db71619f20564521817cb7e0beed465ca6c4c16266fb0f1f7980804c0465b64d3e5c5783f5987d2dc8cd76eb3dde8e8ef7f080a0ff5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyroute2 \

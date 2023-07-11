@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "22.0.0"
 
-RPM_NAME = "python310-txtorcon-22.0.0-2.4.noarch.rpm"
-RPM_HASH = "6c604d12808a8b937aec3277af34d5b2ed811be5c435a8ac6297b53f665e75ebaf3904c1d4ddbb8c078eea2c2d9ce4bd59a98857be83db52d6b809b59bd05c78"
+RPM_NAME = "python310-txtorcon-22.0.0-2.6.noarch.rpm"
+RPM_HASH = "28dc7d39662dd285d6c3631841468fdea306d5df246d344a1e14c7f5e06ce9c3a67b38bd3360562955e45e0d1f5937fbf75cf886856f00be2e890130e59e560a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-txtorcon \
-python3.10dist-txtorcon \
+RPROVIDES:${PN} += "python3.10dist-txtorcon \
 python310-txtorcon \
 python3dist-txtorcon"
 

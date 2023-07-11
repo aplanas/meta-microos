@@ -5,8 +5,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-poshuku-qrd-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "8394287888c8b6115534faa4cff2f44a610a4b697264e2a09e863954c5faa56a42278dd182fe0e20b6ef711fdbdf66e4e4ecce7777fae22b553e1131a31c30f0"
+RPM_NAME = "leechcraft-poshuku-qrd-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "fbe787bd59abf16410f105697ac32eeb7ec33d75201034ecec0ad9fd52e16a420e974327ba2703e25e574590079877c6733b90fdf171a90b96bf8f6c1f35607c"
 
 RPROVIDES:${PN} += "leechcraft-poshuku-qrd \
 libleechcraft-poshuku-qrd.so"

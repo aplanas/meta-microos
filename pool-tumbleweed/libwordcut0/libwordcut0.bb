@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.1b2"
 
-RPM_NAME = "libwordcut0-0.5.1b2-205.7.aarch64.rpm"
-RPM_HASH = "da7a018e740ae5d666d5b1f5022026261f73d1d6c91837a17d93db6250adc9f0f67cb89cbbfee10d163f2cb893b47255ef389afd45d0a9dcf6c0c1bdfc3e9ef3"
+RPM_NAME = "libwordcut0-0.5.1b2-206.1.aarch64.rpm"
+RPM_HASH = "1e676e9443759d5251937c263c48cc490341e5fef6f612b33376a795544434da9abe1e1dabc26efb7bf26b48af9d618fb76b093a8ed3fa48c81ea30f76b24756"
 
 RPROVIDES:${PN} += "libwordcut.so.0 \
 libwordcut0"

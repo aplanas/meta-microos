@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "1.0.0b4"
 
-RPM_NAME = "python311-azure-mgmt-videoanalyzer-1.0.0b4-1.5.noarch.rpm"
-RPM_HASH = "a59f87250d6cd0e28e17b1e6497bedd89c0f6e5c8a7245635bb8ffd470af836ccd3779ff007e786f1b95cdb12417bd10eac52db498c8cb055e138b43731b35dd"
+RPM_NAME = "python311-azure-mgmt-videoanalyzer-1.0.0b4-1.6.noarch.rpm"
+RPM_HASH = "32bcdaf6af4c34d49a1c8f347af6b9001662ce674a2cbfeabade9464671207a2d3ed28c2d57d9528e1f81f361c1cda4ce55797e5e64c29315cc55946b6546432"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-videoanalyzer \
+RPROVIDES:${PN} += "python3-azure-mgmt-videoanalyzer \
+python3.11dist-azure-mgmt-videoanalyzer \
 python311-azure-mgmt-videoanalyzer \
 python3dist-azure-mgmt-videoanalyzer"
 

@@ -2,10 +2,10 @@ SUMMARY = "OneDrive Bash completition"
 DESCRIPTION = "OneDrive shell completions for Bash."
 LICENSE = "GPL-3.0-only"
 
-PV = "2.4.23"
+PV = "2.4.25"
 
-RPM_NAME = "onedrive-completion-bash-2.4.23-1.4.aarch64.rpm"
-RPM_HASH = "ba6a39c7993990fd69911aa46fe59548dbb36bec43dc9c51d84586484797f76e4701f22497921ae5d060f7c7121ed24eecbab04bcaffd7edc5b42c9bb5c69b6c"
+RPM_NAME = "onedrive-completion-bash-2.4.25-1.1.aarch64.rpm"
+RPM_HASH = "8863a1c99b260979a2243701cf8a1ff2ecff60943c4e7a2eab1699561fd270d424be9ee80dffe85b4cbf32f1b9b334b18489497c9ac71c3a67ba06fa7f267a17"
 
 RPROVIDES:${PN} += "onedrive-completion-bash"
 

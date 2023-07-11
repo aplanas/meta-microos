@@ -9,10 +9,10 @@ communication. \
 This package provides utilities for working with the Parquet format."
 LICENSE = "Apache-2.0 & BSD-3-Clause & BSD-2-Clause & MIT"
 
-PV = "12.0.0"
+PV = "12.0.1"
 
-RPM_NAME = "apache-parquet-utils-12.0.0-1.1.aarch64.rpm"
-RPM_HASH = "f9bf3b41cc01157b5aa72d894b6fa4cc72735ba397ec8602440a623a0a57d7f76b4c12c0cdf21c2baf025d90786efe94b49af8c88d9d611dd2ebaad50edc3673"
+RPM_NAME = "apache-parquet-utils-12.0.1-1.1.aarch64.rpm"
+RPM_HASH = "493a5091f84d83c2e8b040530bb12b656ba11d73bc5e0247717582b6ba0e8ebe21e4d8bea2752329cd570ab3d400bb1660df69b7032b653575e6600b31fa5890"
 
 RPROVIDES:${PN} += "apache-parquet-utils"
 

@@ -4,8 +4,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.40"
 
-RPM_NAME = "perl-Mo-0.40-1.24.noarch.rpm"
-RPM_HASH = "f92aadf323090544c271e032253100f2c73315d0061d193262f2e052ac0b762e84f45e1d7b1791ff219f213b38934b72ec45100844240bb7c8e1990b19275fa4"
+RPM_NAME = "perl-Mo-0.40-1.25.noarch.rpm"
+RPM_HASH = "050192821425bef19859e25c0dd0af5a9efc2a9f87daba72f17299f3685f13a62f433fe126540d972e9a5abf521284538ff3b85c25f0c35a68ec542727b3062c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mo \
@@ -28,6 +28,6 @@ perl-Mo--required \
 perl-Mo--xs"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

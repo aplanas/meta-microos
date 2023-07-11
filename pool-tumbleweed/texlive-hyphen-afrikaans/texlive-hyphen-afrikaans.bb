@@ -5,10 +5,10 @@ different author, but the patterns packaged with TeX are \
 considered superior in quality."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn58609"
+PV = "2023.208.svn58609"
 
-RPM_NAME = "texlive-hyphen-afrikaans-2023.201.svn58609-52.1.noarch.rpm"
-RPM_HASH = "24495bbd664b821581d95f73c6f843f0bd90819667f883154912e733e1e21072f2b40a80fdfe2049fe97990fda90babe40c9fd40c2a686a6099cc46069a66cbf"
+RPM_NAME = "texlive-hyphen-afrikaans-2023.208.svn58609-53.1.noarch.rpm"
+RPM_HASH = "5672220acd880a9e4638e610c391b189257a2f956aa0c1d2e93daa27d5edefd81df2df2d1e53f3ea4712ab964972bcf9e1635bc473d1367e9db66ad87e5fae79"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-af.ec.tex \

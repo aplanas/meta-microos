@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "6.2.2301"
 
-RPM_NAME = "netgen-libs-6.2.2301-1.4.aarch64.rpm"
-RPM_HASH = "ca767c3a0504a07c6ac7011ea6bab598d2d0c50998205452b34eeffcc72a723bcd152542cf54b8ffa688d051cf43d940d44c542edd816d5f855e83eea0a43b58"
+RPM_NAME = "netgen-libs-6.2.2301-1.5.aarch64.rpm"
+RPM_HASH = "58596c7648ffdd192dfbbfb587e9cba8afd75a6dcafd2fc97ec778fc67cbf6f7dc4c95a274a26aa775f861b1915c4b6c91aa7da1b69a9014977deeeabc47725c"
 
 RPROVIDES:${PN} += "libngcore.so \
 libnglib.so \
@@ -40,7 +40,7 @@ libTKernel.so.7.7 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libstdc++.so.6 \
 libz.so.1"
 

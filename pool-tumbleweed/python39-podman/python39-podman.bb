@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "4.5.1"
 
-RPM_NAME = "python39-podman-4.5.1-1.1.noarch.rpm"
-RPM_HASH = "fb7361007de893466417fc98dc052044d9a9ef7cb677f5cd88897f8e12041d83894dd6686004dafc6f7971d5cfad00b4168d080fe40dae743c65d2668452f945"
+RPM_NAME = "python39-podman-4.5.1-2.3.noarch.rpm"
+RPM_HASH = "f1a1f8eed937839cf2f3a5553088566093d0952166a280da9088c2366462ca415a6d62a515923ae5aba9609f3bf213451a3ce4dbc3b1699dca4bf42717746238"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-podman \
@@ -13,6 +13,7 @@ python39-podman \
 python3dist-podman"
 
 RDEPENDS:${PN} += "python-abi \
+python39-pytoml \
 python39-pyxdg \
 python39-requests \
 python39-urllib3"

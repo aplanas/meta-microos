@@ -4,8 +4,8 @@ LICENSE = "EPL-1.0 & GPL-2.0-or-later"
 
 PV = "1.17.16"
 
-RPM_NAME = "wesnoth-fslayout-1.17.16-1.1.noarch.rpm"
-RPM_HASH = "d55f3298f04f9b5e7d56585eb279f71819c4d838aabc569058bffc503e9129031686d88a1205b3c371c8e0adf38c668d76318ccad47f578dec22822b08a30bc7"
+RPM_NAME = "wesnoth-fslayout-1.17.16-1.2.noarch.rpm"
+RPM_HASH = "fdccf0afa91fac9fe54dd0e08185b04a2d4e2c5a647dfee76f78589311247cb529996403e7c2197c413866e1227bb7075668606184ca54d8021e5151458cc8de"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "wesnoth-fslayout"

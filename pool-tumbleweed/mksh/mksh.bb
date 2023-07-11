@@ -6,8 +6,8 @@ LICENSE = "MirOS & ISC"
 
 PV = "59c"
 
-RPM_NAME = "mksh-59c-4.3.aarch64.rpm"
-RPM_HASH = "d33630eb8e669223e0ca1531240ebeb81c025e8b102c63835c2f301623c1499843ed9d30943a2d4e1abe6c856b86c422ba8aea738d1e005d7eb9f2fba41c3045"
+RPM_NAME = "mksh-59c-4.4.aarch64.rpm"
+RPM_HASH = "cd9af2850367f548adcebeb0d17cab3a5bc3d9c75a71dcbccc440371b8d6937a13c302d9c4709733d6722d2f9c6c2bc1c83323136b28d8f4ae95faf3b07777ca"
 
 RPROVIDES:${PN} += "/usr/bin/ksh \
 mksh \

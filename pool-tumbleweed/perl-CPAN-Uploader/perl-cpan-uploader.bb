@@ -4,15 +4,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.103018"
 
-RPM_NAME = "perl-CPAN-Uploader-0.103018-1.1.noarch.rpm"
-RPM_HASH = "95321e2fe924f9784cea2bd702076a3c36787bc8aa9772dec7e3a8bb9783f327ea4cd1322e5d5873e9e4ab5fc614a5ef6c8a56e3093426b12b3ee58a6be07108"
+RPM_NAME = "perl-CPAN-Uploader-0.103018-1.2.noarch.rpm"
+RPM_HASH = "a4224fed106f12aacd96f69f33693ad54117449d714ad4d306884ffb27607f39c9f96734e8ce905362d20dec227279c23ddb0d6af4031ba305b501bb289bddde"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-CPAN--Uploader \
 perl-CPAN-Uploader"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-Getopt--Long--Descriptive \
 perl-HTTP--Request--Common \
 perl-HTTP--Status \

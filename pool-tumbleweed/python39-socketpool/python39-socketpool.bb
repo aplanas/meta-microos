@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.5.3"
 
-RPM_NAME = "python39-socketpool-0.5.3-9.10.noarch.rpm"
-RPM_HASH = "b5ed1d6386d00e63b41f3f8fa3c2dc8adfc48f2fb3f80bc877c60db1a4a8ce1c10b90980d76d382fd443efe3239d7107d434790b193919eb7f499589735dff1c"
+RPM_NAME = "python39-socketpool-0.5.3-9.12.noarch.rpm"
+RPM_HASH = "0f9b60c6fca4d1929718f7103c680ea5ebd233f4f235b646da4300f2ee213d5d405e11bd0d1233514ea3097d09bed86f7b2b0a06b628b84e5048c77976ad1264"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-socketpool \

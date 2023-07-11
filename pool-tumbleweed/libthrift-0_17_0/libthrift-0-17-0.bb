@@ -10,8 +10,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.17.0"
 
-RPM_NAME = "libthrift-0_17_0-0.17.0-1.6.aarch64.rpm"
-RPM_HASH = "08446326da180ba615a1dc743abf70869e623df0278a5b22b261aa1b85c8dc8ed648a4a3f8b2e439d619626ab2b6c4a47a7694305afc94785029284f98abbafb"
+RPM_NAME = "libthrift-0_17_0-0.17.0-1.9.aarch64.rpm"
+RPM_HASH = "04baff80f67ef35dab6638c616499987e9e24c95abc34ac96ad981a0ab3afadcac97261e5bba87340f15a78bac2bf335b389c4fffea0b8fcc9cb0cb204b98da1"
 
 RPROVIDES:${PN} += "libthrift-0-17-0 \
 libthrift-0.17.0.so"

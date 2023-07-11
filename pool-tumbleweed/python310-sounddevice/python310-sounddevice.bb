@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "0.4.5"
 
-RPM_NAME = "python310-sounddevice-0.4.5-1.3.noarch.rpm"
-RPM_HASH = "dcc04f34283bb832476941388b43313e326d8f2d899d59700abe6e2289bf9612e448f0e88ea06e22b627dc62f19ef76b2f4f194d0c0794855ff0145c017cc901"
+RPM_NAME = "python310-sounddevice-0.4.5-1.5.noarch.rpm"
+RPM_HASH = "5fa4d488f1fd11bbec23b36dabe7510598a59399225155eb641120f4aaaf870fc3ffb764b359bb48206266caae53dcb77276c3bbcebc7750eda51a13cbc8fe7a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-sounddevice \
-python3.10dist-sounddevice \
+RPROVIDES:${PN} += "python3.10dist-sounddevice \
 python310-sounddevice \
 python3dist-sounddevice"
 

@@ -2,10 +2,10 @@ SUMMARY = "Indonesian localization files for LibreOffice"
 DESCRIPTION = "Provides Indonesian translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.1"
+PV = "7.5.4.2"
 
-RPM_NAME = "libreoffice-l10n-id-7.5.4.1-1.1.noarch.rpm"
-RPM_HASH = "f5fcc534589932dda29658feecc429ab00b42fdd3894083cf5bbc9ccccfb1194c9a3d077d664112f0c2c5231f39cede42934b87e223c49b3abc91d00742002de"
+RPM_NAME = "libreoffice-l10n-id-7.5.4.2-1.3.noarch.rpm"
+RPM_HASH = "40a3d10685329f823607858ae5b8ec981f8af905055ea0dfb73337efb078b0ea98b6fe8ed6177d5fc077216c71d82af24653abd2728b262e23cdb830893ec35f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-id \

@@ -5,8 +5,8 @@ LICENSE = "BSL-1.0"
 
 PV = "1.12.2"
 
-RPM_NAME = "libPocoEncodings92-1.12.2-1.4.aarch64.rpm"
-RPM_HASH = "77ece1ced37c96f1eedc9e6709a6f16298eadabcd9e09659fe05c34daeb64c3e364d948d0fafc009fe831b9870a41efa840c66327d2b4838afa084b791559bb2"
+RPM_NAME = "libPocoEncodings92-1.12.2-1.5.aarch64.rpm"
+RPM_HASH = "9254a2cc910d6f00bdfa1a02cf303a547488a86987f7812601d6d4183e77a03238378ab174f117fab40885c939450d97b7e6f468fc639ce773286bf1c4f6a23c"
 
 RPROVIDES:${PN} += "libPocoEncodings.so.92 \
 libPocoEncodings92 \

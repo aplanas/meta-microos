@@ -10,8 +10,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.3.0.1"
 
-RPM_NAME = "librsb0-1.3.0.1-1.5.aarch64.rpm"
-RPM_HASH = "6532debc39b889ebe45ccad4b56a06f9368c5b6bf2151d7847927924cc121f25f165b5032a8c03baf045bdb80788f557246ea29ab8ace19d00370aa5f0d5fde4"
+RPM_NAME = "librsb0-1.3.0.1-1.6.aarch64.rpm"
+RPM_HASH = "fa6bceecd6cb6fa1b69dd613d1b9748d48a0ca6e33854ea1165c180b042020c2b90a066a59bb5a9046d6ef3ab695e9799fc4787488bcc4971ed25c30ab7f7a74"
 
 RPROVIDES:${PN} += "librsb.so.0 \
 librsb0"

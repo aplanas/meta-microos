@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "1.0"
 
-RPM_NAME = "python39-Trololio-1.0-3.14.noarch.rpm"
-RPM_HASH = "23c836f98360e6ee8a839230b0ee9e652de0fe2024d5d9eb4f63d05f3a1ab83e544035dde8f1da73953c03abb1e43ad23a94cc3360f65d46ce88efe099d16019"
+RPM_NAME = "python39-Trololio-1.0-3.15.noarch.rpm"
+RPM_HASH = "0fdf3fd72bfe2ad80678730f6dcc16670175f5bd1f23c1381a78e735f302841b51b6d045ccd2cfdf414b14e97d3384e5e1f4365c3e90f1f8e44b7730d445f286"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-trololio \

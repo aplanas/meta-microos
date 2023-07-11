@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & MIT"
 
 PV = "1.13.1"
 
-RPM_NAME = "libXvnc1-1.13.1-3.1.aarch64.rpm"
-RPM_HASH = "5f48ef300a80633991161259298cd204f4e38a9a4a8107b53d4a3f95ed0f6cf5f422f3db3234def2a2f4cdff5d0e08f1fe451233fb36076d0be0b81f5cbabffa"
+RPM_NAME = "libXvnc1-1.13.1-3.3.aarch64.rpm"
+RPM_HASH = "cd968b272b85efc7703674d013ca643ef280a81ad5d35237aeb7d6e2d7a8b7fda5992b24b068bba278cfdf3b24ae1cc0b1ef97cfb79fbcb49f9f0f285a046527"
 
 RPROVIDES:${PN} += "libXvnc.so.1 \
 libXvnc1"

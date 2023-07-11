@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0"
 
-RPM_NAME = "purge-kernels-service-0-9.4.noarch.rpm"
-RPM_HASH = "4a7637316f7f3cff3a3a8b068b93c57a5b0698d0653109cd75602472a109cfbc5e45b93532a0b275be5653828258e17790a375eccad5b05f8cb8dd503cbf30ca"
+RPM_NAME = "purge-kernels-service-0-9.5.noarch.rpm"
+RPM_HASH = "1d88e4a0737e0b9b68e707d90e21597b0265a51449c1bb2e4e7d5402b1b36f5678253606afac317542cd4c293576c9599d51feba5bece4f49edc60ba0cc889a2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dracut-/usr/lib/systemd/system/purge-kernels.service \

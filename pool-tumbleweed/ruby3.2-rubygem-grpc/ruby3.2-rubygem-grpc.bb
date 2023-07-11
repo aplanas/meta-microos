@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.55.0"
 
-RPM_NAME = "ruby3.2-rubygem-grpc-1.55.0-1.1.aarch64.rpm"
-RPM_HASH = "7ecb78328f3f70f32f2b9bf800a4e020baeaf95c8b882a7bb9ee13d446e727f545266e24b3b61f9d4416b53c4d9a7c61ac186d6e30275a207f11b6791b299fa3"
+RPM_NAME = "ruby3.2-rubygem-grpc-1.55.0-1.2.aarch64.rpm"
+RPM_HASH = "f115ca3388f4d5090c947ff22a8da961876b1c966b74f7aa36dc3d9830017dfb1d41fee72bba74eaa8ad5485b808cc2919b59d9cdc7fc741c01428228c3e0907"
 
 RPROVIDES:${PN} += "ruby3.2-rubygem-grpc \
 rubygem-grpc \

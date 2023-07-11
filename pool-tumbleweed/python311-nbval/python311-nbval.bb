@@ -14,11 +14,14 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.10.0"
 
-RPM_NAME = "python311-nbval-0.10.0-1.3.noarch.rpm"
-RPM_HASH = "ff5508ea2d41a6b63006239ce679604906669302782f045746fe7559bff2d0ed30ba2db1b97f3da22785ac1b4814e4b51e0878ff7a508652abce9deb778c0915"
+RPM_NAME = "python311-nbval-0.10.0-1.5.noarch.rpm"
+RPM_HASH = "25474be377b6a90a18c2601442755ba8cfda9f8634cf534c95e8bdca66fb451f56dc2c5e99dbbdd79a8d0252220363ca406494bd39fc3ce4c14d4484f8ffdf4f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-nbval \
+RPROVIDES:${PN} += "jupyter-nbval \
+python3-jupyter-nbval \
+python3-nbval \
+python3.11dist-nbval \
 python311-jupyter-nbval \
 python311-nbval \
 python3dist-nbval"

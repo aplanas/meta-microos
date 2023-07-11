@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & MIT"
 
 PV = "10.0.0"
 
-RPM_NAME = "mingw64-winpthreads-devel-10.0.0-1.6.noarch.rpm"
-RPM_HASH = "4be0a1e6a03ed1895e342d495c1b4f222017de629a1914cb7688a4674ff798abb7c2ba64ea5aef3a483b8ed112993bf2de424157c2e5240ba86edb6225dd4588"
+RPM_NAME = "mingw64-winpthreads-devel-10.0.0-1.8.noarch.rpm"
+RPM_HASH = "5f342c72440d02ad8b6ad17fead69b4a2308bec6eac928e72129688c1946814d788e7ea9fe39db8951905bd8c3d226b31a6cc7021036f66281fbc8452805ca78"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw64-lib-pthread \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for coq"
 DESCRIPTION = "HTML reference manual for Coq and full documentation of the standard library."
 LICENSE = "LGPL-2.1-only"
 
-PV = "8.17.0"
+PV = "8.17.1"
 
-RPM_NAME = "coq-doc-8.17.0-1.1.noarch.rpm"
-RPM_HASH = "7bfbad21417fe277b8607b3a82a01e9487d0690f5a75bf7d75fff9b03ec6a0166177b2f37a4459911df50d5c82e4e7a34c7e87b514a877534b927addb59aa5bc"
+RPM_NAME = "coq-doc-8.17.1-1.1.noarch.rpm"
+RPM_HASH = "a9e51b93827a638d6160613c89d9e13e7ed3108b7a30d4f6a049c72fe27d3352a094cfe60568bff50df35d39c13bf9c19015301e8f055d55b5ba3e9116f970d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "coq-doc"

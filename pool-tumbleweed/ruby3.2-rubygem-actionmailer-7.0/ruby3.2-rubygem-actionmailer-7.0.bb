@@ -4,17 +4,17 @@ controller/view pattern. First-class support for multipart email and \
 attachments."
 LICENSE = "MIT"
 
-PV = "7.0.4.3"
+PV = "7.0.5.1"
 
-RPM_NAME = "ruby3.2-rubygem-actionmailer-7.0-7.0.4.3-1.1.aarch64.rpm"
-RPM_HASH = "29e1c534017c39a8e92a08eee287cd976388115abb5a10dbfeefe23027d67a5976036b61253f26fb0ac8c0687d40c5ace3d0dddfdbe82a672641cf7666be9258"
+RPM_NAME = "ruby3.2-rubygem-actionmailer-7.0-7.0.5.1-1.1.aarch64.rpm"
+RPM_HASH = "f6cf83d1e4c73fcd53a2ba31b3bcc0c00d986095770e7f1af8af218989ab9a199f3098c5df451fc7b896bdeaf0c22e6595251ab1c05561b9a1c8559805f52f34"
 
 RPROVIDES:${PN} += "ruby3.2-rubygem-actionmailer-7.0 \
 rubygem-actionmailer \
 rubygem-ruby-3.2.0-actionmailer \
 rubygem-ruby-3.2.0-actionmailer-7 \
 rubygem-ruby-3.2.0-actionmailer-7.0 \
-rubygem-ruby-3.2.0-actionmailer-7.0.4"
+rubygem-ruby-3.2.0-actionmailer-7.0.5"
 
 RDEPENDS:${PN} += "ruby-abi \
 rubygem-ruby-3.2.0-actionpack \

@@ -15,12 +15,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2023.2.7"
 
-RPM_NAME = "python310-pefile-2023.2.7-1.2.noarch.rpm"
-RPM_HASH = "322e8b925c377742bbc7084f8dfbceef9a6b9ba16cd3c1592ee90b9f44111591d3b74a94969929a5613cebac204457436e901acbee4b4a89c97d5b347cc394ae"
+RPM_NAME = "python310-pefile-2023.2.7-2.2.noarch.rpm"
+RPM_HASH = "0624513d807d14d1e92b6918880693fd2f017994b9618c6ff491dda596b3a45539fd7fae91d77d9392072883c1a87d3ecad8b9f3825a1d2f63357c4414046da9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pefile \
-python3.10dist-pefile \
+RPROVIDES:${PN} += "python3.10dist-pefile \
 python310-pefile \
 python3dist-pefile"
 

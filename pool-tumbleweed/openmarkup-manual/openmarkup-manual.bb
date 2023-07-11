@@ -13,8 +13,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.1"
 
-RPM_NAME = "openmarkup-manual-1.1-24.6.noarch.rpm"
-RPM_HASH = "a94bf25553c305e9d582c47ca2cbc85f6795acfd1a9a7585802dcf4a37ca0314293a94c2c90d02bd87f17327ac7ebcb05abea28200a9b9a5e51523dde5ec21bc"
+RPM_NAME = "openmarkup-manual-1.1-24.7.noarch.rpm"
+RPM_HASH = "527c44091a06ade3cf1e2ad0717ecd5148047ef85ce7e0c181d9de45521f5d7478162569dbde1fa0a46ff13808e685bfa7225e11548fc4f7a489762fb9767729"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openmarkup-manual"

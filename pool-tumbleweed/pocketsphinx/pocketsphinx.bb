@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.8"
 
-RPM_NAME = "pocketsphinx-0.8-5.15.aarch64.rpm"
-RPM_HASH = "a42817a278c472f2ed0c5156f2e3321f668bd49e22af58462ab96da40b55ed38d3015effbf8768dedc88a27cffaa9199283bb99250a00f14b02202ee2af55ab0"
+RPM_NAME = "pocketsphinx-0.8-5.16.aarch64.rpm"
+RPM_HASH = "1b27df72c1a176346fa99d77d777a3ea606f70dd26fe9ef242382d296e145b9e3aa917c54619c4a339dedc622652f6f8be89cd9b8bd3d21b750a9fe431d68415"
 
 RPROVIDES:${PN} += "pocketsphinx"
 

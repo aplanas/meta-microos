@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "1.3.5"
 
-RPM_NAME = "libXext6-1.3.5-1.2.aarch64.rpm"
-RPM_HASH = "ec23faca0faff364710a29155cb1d063b58e072553718be6b3ed2dd8b6d82e121d2fe7dc259e872883331cda29f7b845e00463ee8d18c29a3202f090bd1adcf5"
+RPM_NAME = "libXext6-1.3.5-1.3.aarch64.rpm"
+RPM_HASH = "cde0ffa94fa2de472c5626dcae2111fdb575e08fdc5ca718a0e410322f21e2e1f5b3fb545af06f1108147c4aab2304423a996b1508bc7b289724b7b20d8d1857"
 
 RPROVIDES:${PN} += "libXext.so.6 \
 libXext6 \

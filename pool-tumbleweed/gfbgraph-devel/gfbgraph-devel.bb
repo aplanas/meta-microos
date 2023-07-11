@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.2.5"
 
-RPM_NAME = "gfbgraph-devel-0.2.5-1.8.aarch64.rpm"
-RPM_HASH = "9b4fd4a6fd956f827e9eab9f3fae58e3c40b56249dc7b5b8044a9a020af3b793896d24b5008e3f14486a6f0a98c2c657914506cf67a915dc470b168b9224550d"
+RPM_NAME = "gfbgraph-devel-0.2.5-1.9.aarch64.rpm"
+RPM_HASH = "cbc6a2c6a603e6cc10680d803bc8812dbd16d06472d48c42c324ca65a3c331ac229c1e8b42120ee26c3e4f40032991b58bdc00afabd5e3bdb4ddceacf18d6e4a"
 
 RPROVIDES:${PN} += "gfbgraph-devel \
 pkgconfig-libgfbgraph-0.2"

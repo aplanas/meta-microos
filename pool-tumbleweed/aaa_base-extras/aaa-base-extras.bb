@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "84.87+git20230329.b39efbc"
 
-RPM_NAME = "aaa_base-extras-84.87+git20230329.b39efbc-1.1.aarch64.rpm"
-RPM_HASH = "7b012388267d52c6b0b9cd03d4c5a3ebc0a9d9d2923ea0cf38208c358583cc924ab22568546d9669d1e47be9e7149577a7d3067e10a95b17b651c5a258b215b5"
+RPM_NAME = "aaa_base-extras-84.87+git20230329.b39efbc-1.2.aarch64.rpm"
+RPM_HASH = "d6b999fcc89eae9de3b2b7adc94718d8d5b16abf86c8af3fc113398c4e22d170df76a1d1cd18e0eb2f98f0e655608d2ad01cdd18bac39ede3c021f312a2f76b7"
 
 RPROVIDES:${PN} += "aaa-base-/etc/DIR-COLORS \
 aaa-base-extras"

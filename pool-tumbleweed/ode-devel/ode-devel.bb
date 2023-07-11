@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause | LGPL-2.1-or-later"
 
 PV = "0.16.3"
 
-RPM_NAME = "ode-devel-0.16.3-1.3.aarch64.rpm"
-RPM_HASH = "d29dd135a66e152099f7dc5df2200a0e1ab6469d0a189c94f0b73873bda9f423e7d6e18d09f555f73f5b5c54d00725a67f39bfbdcb2e42db6b016c502fdeea98"
+RPM_NAME = "ode-devel-0.16.3-1.4.aarch64.rpm"
+RPM_HASH = "e9a9e494e892b48576320e65080b0910f6a0890a168d23850f65125518eccdb64acf5526d12be349fe95e12aefd40dc4ec412e1c96a024f352e6a5eb4b8ce4b0"
 
 RPROVIDES:${PN} += "libode-devel \
 ode-devel \

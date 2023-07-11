@@ -8,8 +8,8 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20220922"
 
-RPM_NAME = "libfwnt-devel-20220922-2.5.aarch64.rpm"
-RPM_HASH = "5d1b05cd147ff4f1baf6c06b2e91b55aac0045b0fa0020aff69bff3c89bcfc60c1f58ba8aaec67c4dc70ab0a3aeb0feb0b25abf65390d21409d5b8390bdf9c85"
+RPM_NAME = "libfwnt-devel-20220922-2.7.aarch64.rpm"
+RPM_HASH = "9098287d236e81ce2d85a834dd7e1872085dc3ab467043db0e39bf2ce34ad51ca6c3b74c695218a6700fdeaa8fbf02173afa5658629346533a029e4b5a09053e"
 
 RPROVIDES:${PN} += "libfwnt-devel \
 pkgconfig-libfwnt"

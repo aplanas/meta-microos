@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "2.0.2"
 
-RPM_NAME = "python39-linkify-it-py-2.0.2-1.1.noarch.rpm"
-RPM_HASH = "8442464b8d208cf68aea0b34d4283ac2d9c1120a01f9f65d1b4cb546f7baf42c0d40f639ad68a18da3a7700b590a334bfb8f738783b7e54c2637589100674863"
+RPM_NAME = "python39-linkify-it-py-2.0.2-1.3.noarch.rpm"
+RPM_HASH = "885c2647150bcdf261abb6da784d957093dff4e952659b8475883ae4903572690f9031abc99052d2bde0506866497fbcd0d31d802cfa15265da90da27073287d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-linkify-it-py \

@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.10.1"
 
-RPM_NAME = "scala-pickling-0.10.1-2.9.aarch64.rpm"
-RPM_HASH = "eaf9af0b47b9e73b9edd5a991bae4d0627d49c32edad996f516ff10cb7018858d6f8bd084971e6e007feddf2307d1193175303199a917a4ae7e8b63e59742428"
+RPM_NAME = "scala-pickling-0.10.1-2.10.aarch64.rpm"
+RPM_HASH = "1e5375acf523d84aadf1e9c5ec269dcdabdf2b06b9ab3546928e11ce6edc2c37898323afb22a12accb6a02fa7c5840ae95aaecc2f1920325e898bee038aceef1"
 
 RPROVIDES:${PN} += "mvn-org.scala-lang.modules-scala-pickling-2.10 \
 mvn-org.scala-lang.modules-scala-pickling-2.10-pom- \

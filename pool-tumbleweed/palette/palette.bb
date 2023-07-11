@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.0.0"
 
-RPM_NAME = "palette-4.0.0-1.10.aarch64.rpm"
-RPM_HASH = "8ad324afa27c5bdff999e50f7553ffaac93a86c2fe39cf619901e748ebffb353adcf1f7caec6f21ee47877fc8365506c01c39c22f85216f2068313e9b7849de1"
+RPM_NAME = "palette-4.0.0-1.11.aarch64.rpm"
+RPM_HASH = "f2e38df8353722811a3ef4ee2df478676411f89b46086ccee5a2cd1793a1ed17b4d72dd983e8cdc6d6115a8cb07469d100de29b7b2da10e7004344d0ab114c60"
 
 RPROVIDES:${PN} += "palette"
 

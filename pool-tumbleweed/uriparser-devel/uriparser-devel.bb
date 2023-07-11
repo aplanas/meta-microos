@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.9.7"
 
-RPM_NAME = "uriparser-devel-0.9.7-1.3.aarch64.rpm"
-RPM_HASH = "10b1beb634ac30a2612695a896e41bcc032993516e8a4b223faac64cfb44e17d6197edc2cf33d757cc2e6e9e61e745778098ff08f69370367cbe624cb0158aa8"
+RPM_NAME = "uriparser-devel-0.9.7-1.4.aarch64.rpm"
+RPM_HASH = "faf1a5c5f6f5b8aa02bedd5dc76053a9c5415d5c589448c09c37caaeeaf3b2b92b5c9aedd471cb7b4799947f15d8f196add6ecf77c09c3bd0a817d0ec780c025"
 
 RPROVIDES:${PN} += "cmake-uriparser \
 liburiparser-devel \

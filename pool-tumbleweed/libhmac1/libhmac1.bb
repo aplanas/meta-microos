@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20230407"
 
-RPM_NAME = "libhmac1-20230407-1.1.aarch64.rpm"
-RPM_HASH = "753f1b380e01dd8dd1af5c942b30fd303cd738cca6a2ceefc1ae81c849bc2e4896c7d7180dd14f01d27fa1d862845ed7cda7618140feab78897267fb630a6cf0"
+RPM_NAME = "libhmac1-20230407-1.2.aarch64.rpm"
+RPM_HASH = "678d0911805fadaa9051a87c8c45ef0c5f28a154dbc068e3a545a16131eab752561ab40c68ca7fc007f2f5ca19bbc90dec45a923f85d720a01b96af1390fb331"
 
 RPROVIDES:${PN} += "libhmac.so.1 \
 libhmac1"

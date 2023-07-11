@@ -5,8 +5,8 @@ LICENSE = "Zlib"
 
 PV = "0.4.6"
 
-RPM_NAME = "libprotobuf-nanopb0-0.4.6-2.3.aarch64.rpm"
-RPM_HASH = "44a3bcc18a8f2c182a8ef980fd86b14d2f7c2ed3106d8e6648779616e57bc63a99799f31b3be4bdab0bdacd73911ac29eb64596e8eddf568597ed26c6876b61e"
+RPM_NAME = "libprotobuf-nanopb0-0.4.6-2.4.aarch64.rpm"
+RPM_HASH = "bfb15158c8662760c107596b914dcf7bfac7ea8bdd59f9b2bf48d570022144a69db66189db20bed3d079e2165cd2859043d47fafe9e215b255646f3b0c988b70"
 
 RPROVIDES:${PN} += "libprotobuf-nanopb.so.0 \
 libprotobuf-nanopb0"

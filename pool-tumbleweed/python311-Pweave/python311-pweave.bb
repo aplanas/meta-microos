@@ -12,11 +12,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.30.3"
 
-RPM_NAME = "python311-Pweave-0.30.3-6.4.noarch.rpm"
-RPM_HASH = "91570703e1723f6f72d148149b845e7a1d5d45f7bdeb1c2b4db730ce0ef288b86c908559c96951323f8b94f67b3a87a19b9de4d19a8a51f770b40523f0e74ff4"
+RPM_NAME = "python311-Pweave-0.30.3-6.5.noarch.rpm"
+RPM_HASH = "dbc60297f024650b9b3ddfb942dcf2302ec25d002c899724cf2f9ddd786b297b920191e79be47a238e1a206440c8c54e20ce6b4eaa3f0a8e290b181a8883f06f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pweave \
+RPROVIDES:${PN} += "python3-Pweave \
+python3.11dist-pweave \
 python311-Pweave \
 python3dist-pweave"
 

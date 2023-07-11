@@ -3,10 +3,10 @@ DESCRIPTION = "RNP is a set of OpenPGP (RFC4880) tools, an alternative to GnuPG.
 This package contains the files needed to build against librnp."
 LICENSE = "Apache-2.0 & BSD-2-Clause & BSD-3-Clause"
 
-PV = "0.16.2"
+PV = "0.17.0"
 
-RPM_NAME = "rnp-devel-0.16.2-1.5.aarch64.rpm"
-RPM_HASH = "4bf3b49980b5ee077a57bb2480dfc9396e0c2e3dba5510b0ea4ec97a47d457817d58ac60dae2a1be4a9ac2d9ecd3593222a5f5d2e9bae0624cdd85279004deb2"
+RPM_NAME = "rnp-devel-0.17.0-4.1.aarch64.rpm"
+RPM_HASH = "480ac7b4594e81ed8685dcbbbdc49f30a5cc158bef141c8e43d68513f6c4958c20d7a53a6a3feaec34f9d13fce15702d294664b669c79c2dc1362da82afc8955"
 
 RPROVIDES:${PN} += "cmake-rnp \
 pkgconfig-librnp \

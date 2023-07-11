@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4.2"
 
-RPM_NAME = "qloud-1.4.2-1.3.aarch64.rpm"
-RPM_HASH = "a6b9e91a3c68a76290af6c74b54075b3e85bcd9a58f0857bcc7606e7dcf5113e16614cfa7dcba45e37075e46cbc28bf2be84d724665883c9d7e79db9524bfb21"
+RPM_NAME = "qloud-1.4.2-1.4.aarch64.rpm"
+RPM_HASH = "30b67ad4fcba596efff075ac76fffc8af2948ae5436159159426b078ef84234f210b1c50b5676ab4cc230726f1e487ece5cfa44cc6ccd40faf3527de89b0a291"
 
 RPROVIDES:${PN} += "qloud"
 

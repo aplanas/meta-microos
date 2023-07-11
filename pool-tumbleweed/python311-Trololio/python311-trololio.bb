@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "1.0"
 
-RPM_NAME = "python311-Trololio-1.0-3.14.noarch.rpm"
-RPM_HASH = "e227a8f62c8952216773ad554ac97810f2b7487f3d35e2ee19892a57028f03c6a4f1ff79ecc2491c549c4846315df2fde6b1043188747e85316bf7a46da4d1ba"
+RPM_NAME = "python311-Trololio-1.0-3.15.noarch.rpm"
+RPM_HASH = "125654b5a7f320eb08413e9cfdfd64b0032e3ec811fa1248c68c0e2fda43e6bb52ced5461b64c28aa718744854216a4f3dee2312bba94923efb3e6134aed42d8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-trololio \
+RPROVIDES:${PN} += "python3-Trololio \
+python3.11dist-trololio \
 python311-Trololio \
 python3dist-trololio"
 

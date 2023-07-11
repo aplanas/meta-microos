@@ -4,10 +4,10 @@ This is handy for hard-coded screen-saver invocations e.g. in XFCE4, so you can 
 i3lock instead of xlock with them."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.13"
+PV = "2.14.1"
 
-RPM_NAME = "i3lock-xlock-compat-2.13-2.3.aarch64.rpm"
-RPM_HASH = "3defe5bf4510e2ef0665c2c62b7cb9e79f298cd0081761dcb2a3a8f274142077979e459139c030fbc0a3e208decb6d5ffbb3d38821a26ef74766f9be2ef9e3f9"
+RPM_NAME = "i3lock-xlock-compat-2.14.1-1.1.aarch64.rpm"
+RPM_HASH = "cc6d9288d71e1f42163794927bfeb96b931f1a2c2a92d4c79449757fe2694e0abe2b34eae1d27dd1820d24e4836b63aa4f21c5e0dd6869bfa24c52a1ca0e9696"
 
 RPROVIDES:${PN} += "i3lock-xlock-compat"
 

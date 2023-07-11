@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn50419"
 
-RPM_NAME = "texlive-webquiz-bin-2023.20230311.svn50419-91.1.aarch64.rpm"
-RPM_HASH = "8d41235bbc778fadeacac90dbc2c561286c1468f74bfc9b0bc8fb6a5169428fca99981111241f97b0c68a6b245a49fc7e15ec5bab4508d8bfa863b2d29b25f0b"
+RPM_NAME = "texlive-webquiz-bin-2023.20230311.svn50419-92.1.aarch64.rpm"
+RPM_HASH = "571253048b3724cca31405e95d426aeafb063767f2310cee99f55e70de3e8623d6fa38ec5bdcc78e12a7c05fb1bfc30cbdc283edfa8b86a111efa674e27b4776"
 
 RPROVIDES:${PN} += "texlive-webquiz-bin"
 

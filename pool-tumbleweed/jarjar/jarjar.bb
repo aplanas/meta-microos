@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4"
 
-RPM_NAME = "jarjar-1.4-4.11.noarch.rpm"
-RPM_HASH = "3eb549f1b142d033060f2c37feae1e614300ff26f96d82930e56dbc7c63437a0db2479e79b889d69c7a7c16fca6fa4d86a081af38765acc9f9ea39851657a657"
+RPM_NAME = "jarjar-1.4-4.12.noarch.rpm"
+RPM_HASH = "0b1bbb54b4e091a79bdeb5d9abc5d47e31d6de723cce6692ff2eda87658da518e53a435ca654efb8d0f9df86f9cf075a28e50a68de0eee56ea49fdb054939920"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jarjar \

@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt6Quick3DSpatialAudio6-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "524e422f76ebcbe54754d9f6d3ea35fed5ecbe17ee9483cf3fe16508a1719892cd5a063d898b390ae8c77cb724d3db60f4fffe5c3b67210b0a3ce8b3bd908908"
+RPM_NAME = "libQt6Quick3DSpatialAudio6-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "f0df5732493749c11277ff55e8f0945d570ae1e233337644e8a98b6ffec585ee7ac5fc791c1365c1512c55b570510d7ea8c86e56da23501d20b9f811762b823b"
 
 RPROVIDES:${PN} += "libQt6Quick3DSpatialAudio.so.6 \
 libQt6Quick3DSpatialAudio6"

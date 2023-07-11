@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "5.6.2"
 
-RPM_NAME = "clingo-5.6.2-1.3.aarch64.rpm"
-RPM_HASH = "097b08cec76c80f602a7466669454a947b54e2eec04aa3ea4dec0a2aabc3d6ffa356e1b767aad08f4c1cf8f099c086e1fa46186ee8699b0b399a96aaf322bde5"
+RPM_NAME = "clingo-5.6.2-2.1.aarch64.rpm"
+RPM_HASH = "6e94550d6b738b7837fb1c7e17f5b72848c16f16dd5548cd08e495f8d37758ca6d05c0caf8443d614d652729796a7f4faad532e4b6a096670280d3c50e302c6c"
 
 RPROVIDES:${PN} += "clingo"
 
@@ -18,7 +18,7 @@ libclingo.so.4 \
 libgcc-s.so.1 \
 liblua5.4.so.5 \
 libm.so.6 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libstdc++.so.6"
 
 inherit rpm

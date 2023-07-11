@@ -3,10 +3,10 @@ DESCRIPTION = "Hyphenation patterns for Portuguese in T1/EC and UTF-8 \
 encodings."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn58609"
+PV = "2023.208.svn58609"
 
-RPM_NAME = "texlive-hyphen-portuguese-2023.201.svn58609-52.1.noarch.rpm"
-RPM_HASH = "3bbae1ff4abba43e3a89bc2fcc78bfcbd0faabe4c031dcdd989edeea2cb4f76c95930c014729dffbee2335a54002adb90706a4b0a173ead41e72658b18d7faf3"
+RPM_NAME = "texlive-hyphen-portuguese-2023.208.svn58609-53.1.noarch.rpm"
+RPM_HASH = "78f32cd6ae5eace097a2e3327f9463b6fe415c1f7977b9967b77bf54431541618be570478fb92dcc0d16f3a8b65bf2ef4a74251805ab1d7d123445f2678d0aa6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-pt.ec.tex \

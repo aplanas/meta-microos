@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "6.0.0"
 
-RPM_NAME = "libgda-6_0-devel-6.0.0-6.7.aarch64.rpm"
-RPM_HASH = "2a18c40e09b31c5ae716e3678f9bafc46e46a13ddfc10360972d9f4c440c0139383e3b3d1348e68fbd315ad36d8e53c11498ea7788aa381c77b86578af1cdc62"
+RPM_NAME = "libgda-6_0-devel-6.0.0-6.8.aarch64.rpm"
+RPM_HASH = "9235800a70873b400ef0b18da636ecf612a4b400cee43beb9500da424aa16bcafd516f1ab832420338c5bc43f2c79a21e397f881bd073cd07484cdad7a67938f"
 
 RPROVIDES:${PN} += "libgda-6-0-devel \
 libgda-devel \

@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "0.4.0"
 
-RPM_NAME = "python39-ntplib-0.4.0-1.3.noarch.rpm"
-RPM_HASH = "f63170e3506cfedefcfe7a40b80fc5094e9f0245713ee443d221f7c19fba597eb35aa7f986584042d5db1baf9a5c622f228b324bfe3cc2f8932dc3940a1184a4"
+RPM_NAME = "python39-ntplib-0.4.0-1.5.noarch.rpm"
+RPM_HASH = "23376d5745047419f068fcfc68f9fbc26cc579a6c5ff9b173fe5d3bf1518600dcca04990a2fc2fb88cf4649ca846bf88a12ebc26a686e6205f51a2ab23d1d671"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-ntplib \

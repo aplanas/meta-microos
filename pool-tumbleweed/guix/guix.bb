@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.4.0"
 
-RPM_NAME = "guix-1.4.0-1.4.aarch64.rpm"
-RPM_HASH = "7be748ac9fd6c31ecfc844134ddded18df2357a40472a3301cec96b3531ecc502cb01342797d61b0c38b5b22b677a493ab771934f00da6da98d46d687a15c8f8"
+RPM_NAME = "guix-1.4.0-1.5.aarch64.rpm"
+RPM_HASH = "96ffdbec9c3939d1c54b0bd284d64963f58c125c36767e52ed3235030ae982f7cec84c6632effd008db54574f899942f5298f3d9d2ff409ce00c5802a04a8b8f"
 
 RPROVIDES:${PN} += "/usr/libexec/guix/guile \
 guix"

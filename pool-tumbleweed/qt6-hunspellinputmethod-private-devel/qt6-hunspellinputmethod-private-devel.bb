@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-hunspellinputmethod-private-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "a4db4be70fbfbfd22b81e1ad3fc05f85c9c05c169bcb94958637460a98da5ac925d50ebe436ab21bae5f56b069ac115680c8ece099574994ff18dc57fffea720"
+RPM_NAME = "qt6-hunspellinputmethod-private-devel-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "7f441b39d3acd60e01c1bb2343f802ce23363256fb984c69f68be3453c4d38dae3e0930252def26bef36966ed186f37394b706ab07bd865410cbf4aa4126b843"
 
 RPROVIDES:${PN} += "cmake-Qt6HunspellInputMethod \
 qt6-hunspellinputmethod-devel \

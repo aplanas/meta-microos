@@ -4,19 +4,16 @@ LICENSE = "Apache-2.0 & BSD-3-Clause & GPL-3.0-only & MIT"
 
 PV = "6.0.1"
 
-RPM_NAME = "python39-Mathics-6.0.1-1.1.aarch64.rpm"
-RPM_HASH = "ded4de30807b939dd8e5d4b2fa98799c9dcb85e9707860c1266d514cbc3fe38782120cf08dc3d65c3385227226b9e572a064c286b832105e98916d2401a86a23"
+RPM_NAME = "python39-Mathics-6.0.1-1.2.aarch64.rpm"
+RPM_HASH = "21182a02d55890b3cb4fb06981f1b7516e206e2a6e1ccc83c12e164531779d2b51fcdf027249868fd2c5507121c7985eff71a9becdc3571c8dbe53d1afd95c28"
 
-RPROVIDES:${PN} += "python3.9dist-mathics3 \
-python39-Mathics \
-python39-Mathics3 \
-python3dist-mathics3"
+RPROVIDES:${PN} += "python39-Mathics \
+python39-Mathics3"
 
 RDEPENDS:${PN} += "/usr/bin/python3.9 \
 /usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-python-abi \
 python39-Cython \
 python39-Django \
 python39-Mathics-Scanner \

@@ -15,8 +15,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "4.17.1_04"
 
-RPM_NAME = "xen-doc-html-4.17.1_04-1.1.aarch64.rpm"
-RPM_HASH = "e0567d4bda60d4989934c5421cb7e2647be4dbff8197e22df61bcee676a72b08c7be68a2358eefcbfe68b7f5b299d06a2a2c9edefb1570e9302c2641c7845f71"
+RPM_NAME = "xen-doc-html-4.17.1_04-1.2.aarch64.rpm"
+RPM_HASH = "585cad22657fcb7093cacb28939af347252a3d24595d1d98ea1e24f467f26da1910ddbbde55085077ab59588a651c4256dd903a07c443c8e5285fea2e30fc37f"
 
 RPROVIDES:${PN} += "xen-doc-html"
 

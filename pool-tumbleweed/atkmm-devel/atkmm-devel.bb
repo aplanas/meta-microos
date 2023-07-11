@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.36.2"
 
-RPM_NAME = "atkmm-devel-2.36.2-2.3.aarch64.rpm"
-RPM_HASH = "748b41486ed49a302ea7477b47a6757f6a7d40f1fdcde67b256671b535c80ca36b4746c6b5c8716aca2401666147e66e0bab13b16b6d1e17feb1687b9a170f08"
+RPM_NAME = "atkmm-devel-2.36.2-2.4.aarch64.rpm"
+RPM_HASH = "e2a81f81a94bad795c8b7ef47d64c2758727f898a7d6925492a217c78a820ae1005afae5458ed0da0ba774ec5f1ec0315d29f5083d7bac7a038188cc3e094c01"
 
 RPROVIDES:${PN} += "atkmm-devel \
 pkgconfig-atkmm-2.36"

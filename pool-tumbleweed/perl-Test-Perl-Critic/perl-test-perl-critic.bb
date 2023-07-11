@@ -18,14 +18,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.04"
 
-RPM_NAME = "perl-Test-Perl-Critic-1.04-1.15.noarch.rpm"
-RPM_HASH = "f37f784256735c893e1a380cba3df2cbd36411905b29ca57f0c4a257495b8b521c1846e6caf647005c1521398696a5304f25b62cd229e7e4c75d305ace801783"
+RPM_NAME = "perl-Test-Perl-Critic-1.04-1.16.noarch.rpm"
+RPM_HASH = "eb138557405dc942a82915e3ae012ea75c5b1c76edd89e3f688d35ae05e8810662de995f98fdf842862df3e18e634a0b279382b1552583d3fbbf8069e0873970"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Perl--Critic \
 perl-Test-Perl-Critic"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-MCE \
 perl-Perl--Critic \
 perl-Perl--Critic--Utils \

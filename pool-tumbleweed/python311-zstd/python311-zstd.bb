@@ -4,10 +4,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.5.5.1"
 
-RPM_NAME = "python311-zstd-1.5.5.1-1.1.aarch64.rpm"
-RPM_HASH = "7247c0a1efb319f51e8a805863fc6eafea3ffd2f9966ff5362d1f7998c2351b6b8258529f2138e50598175edc8483e30e9511e12ea7f2932cbaf24e731e9e07b"
+RPM_NAME = "python311-zstd-1.5.5.1-1.3.aarch64.rpm"
+RPM_HASH = "0c88c514ffe5f69aa2f4e52be96d8641507c8b060495945aec679ac666b1ad142034fbe99baebb055b432327cd60c1fac1b9fd1e1af86709ef02ebd7742b197e"
 
-RPROVIDES:${PN} += "python3.11dist-zstd \
+RPROVIDES:${PN} += "python3-zstd \
+python3.11dist-zstd \
 python311-zstd \
 python3dist-zstd"
 

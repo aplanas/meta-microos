@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.0.18"
 
-RPM_NAME = "vlc-qt-3.0.18-7.1.aarch64.rpm"
-RPM_HASH = "6275afd3cf81cfccf31bfc0a2e3f6e9577fa839b9410af7d53905956592cc530d7c002d64b8e95c94b3b54b3ffb25ef8cdec1c3909f0c0b2bb2d949bb1aa2365"
+RPM_NAME = "vlc-qt-3.0.18-7.3.aarch64.rpm"
+RPM_HASH = "ff9727033b05567feb7cd2406ded145a004e3b3e05c5edcec261c37393327c3ee1791cd900c5efa5142af9074d8997e76077269f162951021d42b752957053a7"
 
 RPROVIDES:${PN} += "libqt-plugin.so \
 vlc-qt"

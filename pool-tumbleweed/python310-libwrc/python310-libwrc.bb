@@ -4,11 +4,10 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20230318"
 
-RPM_NAME = "python310-libwrc-20230318-1.2.aarch64.rpm"
-RPM_HASH = "a7297c70840b649ca315b4d324181a29cc5d5b2b350c569ea4b269c635f3ef7318c35baf7157174aa4b8318b10a88cf30d298747cda7997c33e043084a89975b"
+RPM_NAME = "python310-libwrc-20230318-1.4.aarch64.rpm"
+RPM_HASH = "5d6aa9ded78e59c372c4093d59c5257b2cd9b38b9e18c55278fadebce17143a6fcab9fcdca62ad9bfd54a0b2256bab464b184957a650dd5ae6bf38e50f3c5113"
 
-RPROVIDES:${PN} += "python3-libwrc \
-python310-libwrc"
+RPROVIDES:${PN} += "python310-libwrc"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libbfio.so.1 \

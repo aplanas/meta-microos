@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "2.8.0"
 
-RPM_NAME = "python310-pyotp-2.8.0-1.3.noarch.rpm"
-RPM_HASH = "eef7248eb7260d3bafdce34d1cad5d39cf298223b4fd94a3a21bb13c594c9853a0ba95e09dfb89131c98d3cfb57d7c7fdc4cd066173ce56bf08d18d0a4e121b9"
+RPM_NAME = "python310-pyotp-2.8.0-1.5.noarch.rpm"
+RPM_HASH = "ea278bea8174a7f9ed93d06ad4c8ac89e7e6b23d1e6299dc490fe5ad737f74cd48a37a4a24ae7fe7d9a203d78bdedca5b752a906dc83dcee64fad6de2d4e424c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pyotp \
-python3.10dist-pyotp \
+RPROVIDES:${PN} += "python3.10dist-pyotp \
 python310-pyotp \
 python3dist-pyotp"
 

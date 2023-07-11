@@ -6,12 +6,12 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.0.1"
 
-RPM_NAME = "koan-3.0.1-2.4.noarch.rpm"
-RPM_HASH = "331f3a23835b0550c67b98af9edc8c7550076eaf1b5b437d2f22d76238168c18836110f68d5be0cc3864ddf3e40bd4f877c52d1b0bd088dd62f8e6900945bd72"
+RPM_NAME = "koan-3.0.1-2.5.noarch.rpm"
+RPM_HASH = "3f9f0e4d0337e69ffc91c9d4c26299587f6ab54e60fa367a626a19166ca7fd736e2c4c4e55756998e162841e7086e63a9923e21de2ce88db253663fee5eb02f5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "koan \
-python3.10dist-koan \
+python3.11dist-koan \
 python3dist-koan"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "5.2.5"
 
-RPM_NAME = "pcp-pmda-netcheck-5.2.5-3.4.aarch64.rpm"
-RPM_HASH = "05a8a87f99a7e733d46e8e7bfb1d1152c3268c034007091ab8d560e2a10089c5a3a54f4d8a0522c6988be1c5c33e9eb89f9bbf25994bc95200f691345d01d212"
+RPM_NAME = "pcp-pmda-netcheck-5.2.5-3.7.aarch64.rpm"
+RPM_HASH = "b54386309f3544788bd2b309a1b796183d97a8819555a646195bf4fbcf68602513d484e9e774f5dd219afdd7d830eb1fd471cc2c607b8fb8c0f391ab0e4ffcc4"
 
 RPROVIDES:${PN} += "pcp-pmda-netcheck"
 

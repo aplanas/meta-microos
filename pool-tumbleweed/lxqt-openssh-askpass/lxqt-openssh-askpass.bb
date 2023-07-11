@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.3.0"
 
-RPM_NAME = "lxqt-openssh-askpass-1.3.0-1.1.aarch64.rpm"
-RPM_HASH = "5a6f261f401c7d2cc9b5e3d91fbea6f6c6e20e180fcd08ce433625087dd447ac69fdf46ea06b6a6037a80f107f6ef068d740d3e86b40cc3d9278e55a4a1b4bba"
+RPM_NAME = "lxqt-openssh-askpass-1.3.0-1.2.aarch64.rpm"
+RPM_HASH = "9649e2649d69a6c5e48008848ad20d0a1198c7321bb0c6f7ef8ff90835f2f468d0317763fc42390e1d6eb431f1bc15fe2cd5e3b427d4ecd8d724f27f259e7ec2"
 
 RPROVIDES:${PN} += "lxqt-openssh-askpass"
 

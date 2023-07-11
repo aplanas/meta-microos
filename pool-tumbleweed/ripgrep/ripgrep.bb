@@ -7,8 +7,8 @@ LICENSE = "MIT & Unlicense"
 
 PV = "13.0.0"
 
-RPM_NAME = "ripgrep-13.0.0-5.3.aarch64.rpm"
-RPM_HASH = "b9af5cde6272ea8365be470e7071c725dbe39fcb3e542f2e5e183bbbb7e9382b751c99f497c3c5e4cfa143fdbc82b236e3b19dd23f331379c89293b797086d3a"
+RPM_NAME = "ripgrep-13.0.0-5.4.aarch64.rpm"
+RPM_HASH = "0e1e93349ff0130049ff212e0ab80aebd9b79cf3f2ccb4a5f8115d830609dec8760a753709dc8cd91e2c1073d66e12b02ee9ac1bd1c447be795555d5979d55a1"
 
 RPROVIDES:${PN} += "ripgrep"
 

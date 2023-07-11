@@ -11,11 +11,11 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.75.1"
 
-RPM_NAME = "zim-0.75.1-2.2.noarch.rpm"
-RPM_HASH = "8f7b67b9cdc396ca33cc091b14d45b940dc1ee68366ae089eccdbd4f924be1284043f12a4918abef0e7bc5f2a7761db73ff9c3ed241614238bbda33c29a3fafb"
+RPM_NAME = "zim-0.75.1-2.3.noarch.rpm"
+RPM_HASH = "d7aa107e173a5959841eca273f750eacc14c3e52f6e92815a8a5a136aa9b22c760cfa79bf596f20cbc60af2e201d02e6da824afa72db48241fe8d8cf2b31187b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-zim \
+RPROVIDES:${PN} += "python3.11dist-zim \
 python3dist-zim \
 zim"
 

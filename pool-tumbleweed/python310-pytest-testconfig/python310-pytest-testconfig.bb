@@ -5,12 +5,11 @@ LICENSE = "Apache-2.0"
 
 PV = "0.2.0"
 
-RPM_NAME = "python310-pytest-testconfig-0.2.0-1.14.noarch.rpm"
-RPM_HASH = "68eaadee8dd17f477a5d5b438f4ed219fbf71df8f2c3afe68b5e47bc3c46c689a1e46c953533b2281046684786e3cdaecaa261bec0228ee4228788cad9466edd"
+RPM_NAME = "python310-pytest-testconfig-0.2.0-1.16.noarch.rpm"
+RPM_HASH = "14f7f53c885336c91c00394a2a39e2241d16e7cb2fb351238dfbb4c935d2620511078181a283542ac761f4878dca1d21209a6bd940933235b5d1d5f887b69da3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pytest-testconfig \
-python3.10dist-pytest-testconfig \
+RPROVIDES:${PN} += "python3.10dist-pytest-testconfig \
 python310-pytest-testconfig \
 python3dist-pytest-testconfig"
 

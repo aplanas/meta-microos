@@ -18,8 +18,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & SUSE-Public-Domain"
 
 PV = "0.95.9"
 
-RPM_NAME = "WindowMaker-0.95.9-2.10.aarch64.rpm"
-RPM_HASH = "285c76ef3605dadef449b547f96161c8fc9322ca9e902642ca314486bccd56eea56fc341d63359352810a2668622879d16790960ddfca27d144a950a11cb1e68"
+RPM_NAME = "WindowMaker-0.95.9-2.11.aarch64.rpm"
+RPM_HASH = "fcff97b1a3c25172b46d6c64a221faa74ed2149481f77f0a106ab6f477f4fabfb9b511de93a20187f2bf12ca73a193636738ba672e9748d8e428167886e05d72"
 
 RPROVIDES:${PN} += "WindowMaker \
 config-WindowMaker \

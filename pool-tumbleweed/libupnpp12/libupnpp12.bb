@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.22.2"
 
-RPM_NAME = "libupnpp12-0.22.2-1.3.aarch64.rpm"
-RPM_HASH = "b22634a20bec549b2c782cbd10ffff8926350d580355b5d61b86d8ff9d9022d76bd810549c1c3306653187d7c469d3a654ca7a816bd0d12c1ddb2c0af2ab9ab0"
+RPM_NAME = "libupnpp12-0.22.2-1.4.aarch64.rpm"
+RPM_HASH = "588ae4a2bc1ed249406e0cacd4c61c2404ac3349172afd3059f35a7999dbf51b80a6cb043b133d3d3a989247d0dc5c90adb632ae1368ebbf945d3f36971873c4"
 
 RPROVIDES:${PN} += "libupnpp.so.12 \
 libupnpp12"

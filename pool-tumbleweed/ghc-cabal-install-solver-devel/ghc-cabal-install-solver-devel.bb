@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.8.1.0"
 
-RPM_NAME = "ghc-cabal-install-solver-devel-3.8.1.0-1.3.aarch64.rpm"
-RPM_HASH = "f0779ec3bb52643a8ac42d70d9546de16fad84a3daf2c61ecde7ee62800541b8c58db03240f7ebee2e405d24f642d9ee2fbab458d59d2bbc3120f1a01874ac0c"
+RPM_NAME = "ghc-cabal-install-solver-devel-3.8.1.0-1.6.aarch64.rpm"
+RPM_HASH = "c970e258c96b61a6ca792d7409c8548d73d4de511edf0d0979e15c788c2c945acb1de56b140bdf24c6d9ae08a408c4b219cc944c0b07b68a82e6b95c6a7b1d1d"
 
 RPROVIDES:${PN} += "ghc-cabal-install-solver-devel \
 ghc-devel-cabal-install-solver-3.8.1.0-IpM66GQ0mvV3BDvTXL2kvp"

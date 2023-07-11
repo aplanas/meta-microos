@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0 & GPL-3.0-or-later"
 
 PV = "5.1.0"
 
-RPM_NAME = "yubioath-desktop-5.1.0-3.1.aarch64.rpm"
-RPM_HASH = "9676427c99c69578d423d3b0ad6af3c412f8331521dc072e10acb901dfb7cf236cb608b0667712ca5b311cbe1c42428470785456523f180b70ee6023365a9df4"
+RPM_NAME = "yubioath-desktop-5.1.0-3.2.aarch64.rpm"
+RPM_HASH = "bf36cc0acfaf94b509638f91ecbac2d931098bc80db9b29b48103dbaf543abefb45e2f99b69719fd1459a4fa37f80a1a50c245e704231c35cf453b25d3fcfc2d"
 
 RPROVIDES:${PN} += "yubioath-desktop"
 

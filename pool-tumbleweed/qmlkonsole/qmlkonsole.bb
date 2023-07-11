@@ -3,10 +3,10 @@ DESCRIPTION = "Terminal application offering additional keyboard buttons useful 
 devices."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "qmlkonsole-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "a7fd181e0c3c93d17f565646017919e8bd31439975c4283260246029d263170ce6af295e781c407209270bee47db37441c8f94fd130d48be58c53b6cba4e21bf"
+RPM_NAME = "qmlkonsole-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "afa31c9b62d5758aae429bcd734fdec86a808c0cab18949a23e82d596cad927829d9f9d1818329b8d1010f6d7a59cd79b47ba3ac6cd8eee70ba00cc43afc11c1"
 
 RPROVIDES:${PN} += "qmlkonsole"
 

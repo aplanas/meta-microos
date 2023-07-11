@@ -10,8 +10,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.4svn45875"
 
-RPM_NAME = "texlive-pst-pdgr-2023.201.0.0.4svn45875-53.1.noarch.rpm"
-RPM_HASH = "0330895ab2a958b2f7ab6495fd7451ad4571e1de2c80ecdb74c7e8a6233600ff0eaa3aea4658d41054f9cfa785746030c5b68120c4110d09d0ce0fe1cb6f7158"
+RPM_NAME = "texlive-pst-pdgr-2023.201.0.0.4svn45875-53.2.noarch.rpm"
+RPM_HASH = "403b297cb8fc247936e448d0804aac883538e0b7ebc5df263bd56663b2b9f532ca9aeea6fc2e646cfef791ecba8a2853acf4c33cf7cc60cdee6427e646d627a3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-pdgr.cfg \

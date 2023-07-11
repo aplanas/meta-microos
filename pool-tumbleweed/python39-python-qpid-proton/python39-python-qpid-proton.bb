@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.38.0"
 
-RPM_NAME = "python39-python-qpid-proton-0.38.0-1.4.aarch64.rpm"
-RPM_HASH = "f0be4245ac1252a39c271198a20cde763da9e3919634ba69de075784674723dd78c7adc8b04aefa19fa492ed0e4536713db22542ffa9af1fba751c144bae18e6"
+RPM_NAME = "python39-python-qpid-proton-0.38.0-1.6.aarch64.rpm"
+RPM_HASH = "c1973c86f1a33b005eecc60c05e338164fbbbac02abda839b32dd4e4c41fdb6103e1826060f4f880ab937cc4ffbf3a738fd134a320b062963e77d2eb8dd1a05e"
 
 RPROVIDES:${PN} += "python3.9dist-python-qpid-proton \
 python39-python-qpid-proton \

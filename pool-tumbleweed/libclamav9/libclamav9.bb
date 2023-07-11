@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.103.8"
 
-RPM_NAME = "libclamav9-0.103.8-1.3.aarch64.rpm"
-RPM_HASH = "a42ecb79d621c972462dca7b8a072bf5aa55ecf7bc007b4ccbc0862324f1413b4ca700ad7c1ea118d41ed3e76192a80ee80ee5f374d8419ca6490fe6ef1413e3"
+RPM_NAME = "libclamav9-0.103.8-1.4.aarch64.rpm"
+RPM_HASH = "7a1d9b3302516561dad33adfffb8679417b56a8e881427f876bb11ad06d61c1faec61a426130a408794854a499a720d874c0127fd7e51700755b2b29248eb114"
 
 RPROVIDES:${PN} += "libclamav.so.9 \
 libclamav9 \

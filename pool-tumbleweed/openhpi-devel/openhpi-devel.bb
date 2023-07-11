@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.8.0.ge4631e8a"
 
-RPM_NAME = "openhpi-devel-3.8.0.ge4631e8a-3.4.aarch64.rpm"
-RPM_HASH = "1226a86042c8d2936d703a44afd9b3f6512ce7f91cb1e2c89a669c25bb399a431853b72c5e3285c0101413e01384806bc10feadf270f022c99a9c25a329b005b"
+RPM_NAME = "openhpi-devel-3.8.0.ge4631e8a-3.5.aarch64.rpm"
+RPM_HASH = "3d4487cab66218acdcd324d012930bf7c495c8e8ab212e3eb9576b22966bc2636c157688498f7f797277c3378f1066269cf0101152ae59db21835c1f2110f0b2"
 
 RPROVIDES:${PN} += "openhpi-devel \
 pkgconfig-openhpi \

@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-rashihebrew-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "bf31f3c1a939c6548ce3d0f6e3e42b809a84d13727a83e7a73dfdaf239e316dd5450b4ec9ee35187e83a9882b28d6a203087a38eb83ba7439a07c681bfa2b603"
+RPM_NAME = "noto-rashihebrew-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "91b490c0687b363e174e202a8f069226a79f0bde0574b478b207e8224b4cf54729fd3e58c2477c9b4d247a080fea99e6eec7ba5d6d7fa6f064b429a07128e181"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-rashihebrew \

@@ -10,12 +10,11 @@ LICENSE = "MIT"
 
 PV = "0.2.0b1"
 
-RPM_NAME = "python310-sphinx-theme-builder-0.2.0b1-1.2.noarch.rpm"
-RPM_HASH = "931dacdfddc9dd0a2934ecbe153b561e24f26b560a33ce2ba3cdb98fb9a505677c4ed3a92bf86c8c3c989bb47c06e5ef062accccfa9ce230be3931e7a1ee7790"
+RPM_NAME = "python310-sphinx-theme-builder-0.2.0b1-1.4.noarch.rpm"
+RPM_HASH = "834b9e7c82d5d2f5d9151c65798093118cd8201506df0c7fc7b2da42e6f67682980c0435cf642e9eee291efdf5c38a4ef5187d9439a2a9a31be3e9368b899017"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-sphinx-theme-builder \
-python3.10dist-sphinx-theme-builder \
+RPROVIDES:${PN} += "python3.10dist-sphinx-theme-builder \
 python310-sphinx-theme-builder \
 python3dist-sphinx-theme-builder"
 

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.13"
 
-RPM_NAME = "ghc-polyparse-devel-1.13-10.3.aarch64.rpm"
-RPM_HASH = "48624255f7346de7759f14a6e8ff421019062139a3ea2baa23ebc7fd4fdc26946a278dbdf273a3402f929a3a7907a95153f749b0e6fa87d77e4a68ae5e969ddc"
+RPM_NAME = "ghc-polyparse-devel-1.13-10.6.aarch64.rpm"
+RPM_HASH = "038e5db890afc040c5c4ccc04c38ca9a0cd1fb7eba25c7ce9efbd06d9c0b062c912232af81ea085698c6716f948b1e6fc7fe46e7cbcce4918099783914c7aec1"
 
 RPROVIDES:${PN} += "ghc-devel-polyparse-1.13-E8FdqtcSqxM3P2njDFrYm8 \
 ghc-polyparse-devel"

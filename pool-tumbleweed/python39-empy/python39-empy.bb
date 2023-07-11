@@ -15,8 +15,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.3.4"
 
-RPM_NAME = "python39-empy-3.3.4-1.19.noarch.rpm"
-RPM_HASH = "52646bdb37b5b30ea6379ce943f3f47db1eab79051f86e5ece6636252a364d03d5e4da14bd12cdaf4bdba75de95aade61ac0ac4e2a67fcd3481683ceca267491"
+RPM_NAME = "python39-empy-3.3.4-1.20.noarch.rpm"
+RPM_HASH = "c95a865ea99bb16e2b6a46af57f59739842c164186a59e81a5f924070112d7bc7860726e9d41e2ccc1ea37e3b5bedae9a3ba477316ef4b035893d109287af549"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-empy \

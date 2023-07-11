@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3"
 
-RPM_NAME = "python39-Flask-RSTPages-0.3-2.16.noarch.rpm"
-RPM_HASH = "701e62ca36c9cafaa7303356782f78e44a5186eaa36bc8a6c734af22e04d80e20115fc63935ec826195f9f45b0462fc2e47b20f2f9dbe935151d5fa68595e2e5"
+RPM_NAME = "python39-Flask-RSTPages-0.3-2.17.noarch.rpm"
+RPM_HASH = "b59163f84db6fa061e8b3b4f3bed6fe27045c132236c984ea0ae6ed0884b6939af83562ed4174ceda4c6f7fad76102f1635b37cd3e949cbf6f6b96b3290b488a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-flask-rstpages \

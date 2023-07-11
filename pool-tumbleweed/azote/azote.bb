@@ -2,14 +2,14 @@ SUMMARY = "Wallpaper manager for Sway, i3 and some other WMs"
 DESCRIPTION = "Azote is a GTK+ 3-based picture browser and a wallpaper setter, as the frontend to the swaybg (Sway/Wayland) and feh (X windows) commands."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.12.0"
+PV = "1.12.2"
 
-RPM_NAME = "azote-1.12.0-1.1.noarch.rpm"
-RPM_HASH = "df4f7aee403133fcd10f1eb5a869546f11ad8af513b9a6de9b3f051c9e8aa826c0f8912ed6bc05139c18607fc62c51f1a3875b805979131f79e628eb2a7f2fe3"
+RPM_NAME = "azote-1.12.2-1.1.noarch.rpm"
+RPM_HASH = "6f7d124ac2b6cc00304a731bdbe58b405d9579915ca9c9c2f4fdd273e8bf9f3144af0617f910860c8726c86db062e365fae4bb2aa29bb9bfd0dcffd8348dd858"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "azote \
-python3.10dist-azote \
+python3.11dist-azote \
 python3dist-azote"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

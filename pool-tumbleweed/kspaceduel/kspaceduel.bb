@@ -5,10 +5,10 @@ that flies around the sun. While doing so both players try not to \
 collide with anything but shoot at the other space ship."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kspaceduel-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "ec72d6684a39ed9d779bf0210028a7b10c5483218ba6fb813551c404bc624b8cff868b58417e309deb8f092d0ae9121786b0d5e1202c95c4b962173da332ad52"
+RPM_NAME = "kspaceduel-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "25ee4e30c328423a5fd8a413c28bca4b41bde9893196c8b81a09723a3b6e77e277d723a2997253c05786527007e94f9fd23bff4ccaba2c8f7e146df97fe2530f"
 
 RPROVIDES:${PN} += "kspaceduel \
 kspaceduel5"

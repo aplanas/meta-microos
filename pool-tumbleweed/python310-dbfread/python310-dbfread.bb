@@ -7,12 +7,11 @@ LICENSE = "MIT"
 
 PV = "2.0.7"
 
-RPM_NAME = "python310-dbfread-2.0.7-4.14.noarch.rpm"
-RPM_HASH = "ae1632ffc7ece58b7d0b54415652538e355e0f4a68b4f916fa6e93f403dad6cb086c49987ccce2b4e13ab9a0f5c36520ce9fcfb409aa15bb385b37e6517ba987"
+RPM_NAME = "python310-dbfread-2.0.7-4.16.noarch.rpm"
+RPM_HASH = "39f94ff641c9d3d2929dcc4a3bce736e25fa1da2cfff7c5c2e2d4f247dab5dc8a433c35a96953aec305c1f845807b56f056816411b19f79f783c5f5bde73faff"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-dbfread \
-python3.10dist-dbfread \
+RPROVIDES:${PN} += "python3.10dist-dbfread \
 python310-dbfread \
 python3dist-dbfread"
 

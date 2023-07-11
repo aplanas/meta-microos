@@ -2,10 +2,10 @@ SUMMARY = "Config Module for the System Firewall"
 DESCRIPTION = "Config Module for the System Firewall"
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "plasma5-firewall-5.27.5-1.1.aarch64.rpm"
-RPM_HASH = "7e635bf0d2b9daecb1b9c50856aaf563bbfad18579a97975641430da84920f5c33e46dfd675c61961fcdbc357274c89121f78dc740f6b59e9a49a194e4eef886"
+RPM_NAME = "plasma5-firewall-5.27.6-1.1.aarch64.rpm"
+RPM_HASH = "8c9fe05956a9bfd5efd8dbcc590d119e1c405379cc94b8a81068d766f4ceb9d66bc3d7083510036f71a3a49844e182421a8c5583744d57c4f97792e731b606c5"
 
 RPROVIDES:${PN} += "libkcm-firewall-core.so \
 plasma5-firewall"

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.20.10"
 
-RPM_NAME = "xml2po-devel-0.20.10-21.5.noarch.rpm"
-RPM_HASH = "5e84f6a5fe21e9666fefc72fc4a1a64afddcb886c331f7fab0858eb99ef1127d438020dc742a246aa01c8d87714597fd6d48cc465ee5e5c0f5b2b6595edbdb41"
+RPM_NAME = "xml2po-devel-0.20.10-21.6.noarch.rpm"
+RPM_HASH = "97be96e94f6626d55f0bee5cad4f34494b6af58a18615a9d69836695113682a0ba8b7770ba6bd5fb0521b455cbd1ee300b2177eabd27a86419d66eafc31d3f2a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pkgconfig-xml2po \

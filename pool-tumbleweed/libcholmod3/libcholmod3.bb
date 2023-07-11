@@ -20,8 +20,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
 PV = "3.0.14"
 
-RPM_NAME = "libcholmod3-3.0.14-49.1.aarch64.rpm"
-RPM_HASH = "f78f1259e83ec45cdac1828a4d1fed1bb471c55d647b0f0a3ba7cb530a8419bc1a4d8bb01b99f3ab9f8d6e0d670d605505f81c80fea1029dcde27a1a69e52fda"
+RPM_NAME = "libcholmod3-3.0.14-49.2.aarch64.rpm"
+RPM_HASH = "963454f5cefcf14400ec824f16e13a86c48109e0a043d06829525d299bc999d76531fe4046ec8037cd73cf8449d13a9491efc5ae2284a9a2e587f5580002e816"
 
 RPROVIDES:${PN} += "libcholmod-3-0-14 \
 libcholmod.so.3 \

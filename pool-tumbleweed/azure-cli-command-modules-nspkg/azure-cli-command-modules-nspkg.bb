@@ -10,12 +10,12 @@ LICENSE = "MIT"
 
 PV = "2.0.3"
 
-RPM_NAME = "azure-cli-command-modules-nspkg-2.0.3-1.10.noarch.rpm"
-RPM_HASH = "b54957e873af8a26a2bb4f642647038ef612124cf37f2d3d81baf1c8ee548a2e90c2c2b959173bd14aaed1202adf0e208d7cb9b868eac7b8b6bba44ea05cf4a0"
+RPM_NAME = "azure-cli-command-modules-nspkg-2.0.3-1.11.noarch.rpm"
+RPM_HASH = "8efabfb6c8d5053321d2f1cdae37209d9f12e7bd91a5321e43011236b75d69b7ebd624593c219d5201bb4020217302785922e07769585be1dec139f8b159953a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "azure-cli-command-modules-nspkg \
-python3.10dist-azure-cli-command-modules-nspkg \
+python3.11dist-azure-cli-command-modules-nspkg \
 python3dist-azure-cli-command-modules-nspkg"
 
 RDEPENDS:${PN} += "azure-cli-nspkg \

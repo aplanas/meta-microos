@@ -4,8 +4,8 @@ LICENSE = "MPL-1.0"
 
 PV = "3.18.8"
 
-RPM_NAME = "libopal-devel-3.18.8-2.9.aarch64.rpm"
-RPM_HASH = "4110163983db904bc590151660be87076a0705ef227e27c5a870786e2ade3efe4101d3caa6808589f7459b4ccce8fed6db0aab90825015a92e4c779ebc3423d0"
+RPM_NAME = "libopal-devel-3.18.8-2.10.aarch64.rpm"
+RPM_HASH = "c47bd539b667c6442a7cb100459ea867b8026fbabdf231d32b838d650b152e6a65aa922d3a815decdbfa84306e456a1959ea82a4e4ec2e6a962b31bb5e945509"
 
 RPROVIDES:${PN} += "libopal-devel \
 opal-devel \

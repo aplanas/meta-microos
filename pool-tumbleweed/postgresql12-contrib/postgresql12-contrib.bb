@@ -14,8 +14,8 @@ LICENSE = "PostgreSQL"
 
 PV = "12.15"
 
-RPM_NAME = "postgresql12-contrib-12.15-1.2.aarch64.rpm"
-RPM_HASH = "b43ccd2132e97d553c69af5477bb0f9739c2cd3e3a5b103414a509de75cdde08a597f448de1d54c8b74074964119eff45fa13a2c9b4783745daecfb2293e376d"
+RPM_NAME = "postgresql12-contrib-12.15-1.5.aarch64.rpm"
+RPM_HASH = "da18bd2ec13f4527904801a799fd8967dcc29e6db27bfc24bfd48366e95ac963dd27e528b067065560536f433fe239f085da085b1444bd1a4c2d57da69223a02"
 
 RPROVIDES:${PN} += "postgresql-contrib-implementation \
 postgresql12-contrib"
@@ -27,7 +27,7 @@ libcrypto.so.3 \
 libm.so.6 \
 libperl.so \
 libpq.so.5 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libselinux.so.1 \
 libssl.so.3 \
 libuuid.so.1 \

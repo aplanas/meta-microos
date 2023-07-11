@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.2.7"
 
-RPM_NAME = "ocaml-ounit-devel-2.2.7-1.1.aarch64.rpm"
-RPM_HASH = "b213660247bfb936a3f3af872e42b36ceebd4d6ab039a6d03334726f5d92de5d2f5a0970a002ff752e722c7c15a7f39ab6bd1fd023749c99bf4ce3f1156f4a71"
+RPM_NAME = "ocaml-ounit-devel-2.2.7-1.2.aarch64.rpm"
+RPM_HASH = "8526f3284351b79efbce709cb36fe3ddf9d1ba18513f3283d4c980f332c969845bbc680b016321a8c616a8ce4a8a5f1953737b32c5cdbf73048b517c335bbdc3"
 
 RPROVIDES:${PN} += "ocaml-OUnit \
 ocaml-OUnit2 \

@@ -15,8 +15,8 @@ LICENSE = "GPL-2.0-only & ISC"
 
 PV = "0.6.8"
 
-RPM_NAME = "python39-pivy-0.6.8-1.4.aarch64.rpm"
-RPM_HASH = "f92ab164f228545bfd28828a0add7c59c1c415dbecd5e61d653fecfd156e86022b44fa155fd7c817676565c46ea7494a2e069337874f4b8cc75d2fb76d87cad2"
+RPM_NAME = "python39-pivy-0.6.8-1.5.aarch64.rpm"
+RPM_HASH = "695fee5d27f1e6d3439306e3e006013bb7057f277e910269b79cb75b7cc04be30210dd3f1fc2a6d2fcbf2623aae705c6311cc369c1279265ebd7f75be240d194"
 
 RPROVIDES:${PN} += "python3.9dist-pivy \
 python39-pivy \

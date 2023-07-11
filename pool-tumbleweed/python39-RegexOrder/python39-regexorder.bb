@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "0.2"
 
-RPM_NAME = "python39-RegexOrder-0.2-4.13.noarch.rpm"
-RPM_HASH = "ad356abdbb36b7278892f173c8055d86b681bac9cf56cd9f91194752a404fdbd0db7d1f15cfed9fc7a87008f54a20aed372db60401719488721489dd057a4653"
+RPM_NAME = "python39-RegexOrder-0.2-4.15.noarch.rpm"
+RPM_HASH = "f357d00118e04861f159271fc78563e7ce61b5b6e05a546cffc1c654f6cfaeb59529e1e87cf187214a4384511c50f6769b8e46fb4e1f8529898af6d926c218df"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-regexorder \

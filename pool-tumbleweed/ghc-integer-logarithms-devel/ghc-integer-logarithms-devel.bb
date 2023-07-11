@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.0.3.1"
 
-RPM_NAME = "ghc-integer-logarithms-devel-1.0.3.1-6.3.aarch64.rpm"
-RPM_HASH = "922f112204e46e5e44ca908d57335d763c91987e1e5363be85ee7baaba26a32d52ed9c0f82ed6ff56176fef3ad32623fcac4e4801c7eda12acf48786baddafca"
+RPM_NAME = "ghc-integer-logarithms-devel-1.0.3.1-6.5.aarch64.rpm"
+RPM_HASH = "a970cb3c7ff5b54208e8e0a08dbf538b0378c2f6ccf1f6f71640605ec01a827f8346148d625882c1c3f7cb6d0915a6adb7fa4ce6953f5cadb9ca629782a78ca2"
 
 RPROVIDES:${PN} += "ghc-devel-integer-logarithms-1.0.3.1-Hm9v2fsfG1DA5soPSLssZu \
 ghc-integer-logarithms-devel"

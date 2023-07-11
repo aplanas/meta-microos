@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python39-azure-mgmt-voiceservices-1.0.0-1.1.noarch.rpm"
-RPM_HASH = "4ea673e63ec43267f9b72c288fc484cef4a7986c202da487faa7bd85b37098d9d4d9ebd9ee0e6a6870df866e281b13aea8d338da0dd66430cad25c090cdb3b40"
+RPM_NAME = "python39-azure-mgmt-voiceservices-1.0.0-1.2.noarch.rpm"
+RPM_HASH = "b3c0e6c0c347905c0a5972996f782027f83892c714f76e98145432e891bf8d201d40bb11d74a2f760f777d927612ae888d05af1313b310aa6ff8b03a84ff946f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-voiceservices \

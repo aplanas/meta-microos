@@ -5,10 +5,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.9.20"
 
-RPM_NAME = "python311-aioquic-0.9.20-1.5.aarch64.rpm"
-RPM_HASH = "6df93464b43416a3081ce799866e95c743673d0aad0e9b81999006d981687b6f610aa50689d6a1b88118fc26c30c6797319bfe51336a9e2dec4bd8126d65db04"
+RPM_NAME = "python311-aioquic-0.9.20-2.1.aarch64.rpm"
+RPM_HASH = "3b85a644bb93f879d4291f440bb21e376bace49714772494aff498ace0eaba994beddb95e6d681820ddf76035ccdd6169fd886aefaa052f4bf103ea3a8cfa150"
 
-RPROVIDES:${PN} += "python3.11dist-aioquic \
+RPROVIDES:${PN} += "python3-aioquic \
+python3.11dist-aioquic \
 python311-aioquic \
 python3dist-aioquic"
 

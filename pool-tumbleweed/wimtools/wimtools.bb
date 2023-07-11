@@ -3,12 +3,12 @@ DESCRIPTION = "Tools to create, extract, modify, and mount files in the Windows 
 (WIM files).  These files are normally created by using the `imagex.exe' utility \
 on Windows, but this package contains an implementation of ImageX called \
 'wimlib-imagex'."
-LICENSE = "CC0-1.0 & GPL-3.0-or-later & LGPL-3.0-or-later"
+LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later & MIT"
 
-PV = "1.13.6"
+PV = "1.14.1"
 
-RPM_NAME = "wimtools-1.13.6-1.4.aarch64.rpm"
-RPM_HASH = "3930e3190b91618636223f9a17643d8df5f8fed8ebfbf17dc1b5aaf22458d681f62c4b6bbcb8b9b38fb575aa59b9d3ee9ad59574ed66011804a7598920ac1e5f"
+RPM_NAME = "wimtools-1.14.1-1.1.aarch64.rpm"
+RPM_HASH = "59c78dd4becfe29c0c2323aafbe8ee7d804de9822ce5c53f1a396377247ddfaf81185c096fdbe03e4230cd9574a614673e1e1f9be4e170c1f13a2bc5ab9e7b37"
 
 RPROVIDES:${PN} += "wimtools"
 

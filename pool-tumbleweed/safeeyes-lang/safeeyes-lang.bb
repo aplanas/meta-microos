@@ -2,10 +2,10 @@ SUMMARY = "Translations for package safeeyes"
 DESCRIPTION = "Provides translations for the 'safeeyes' package."
 LICENSE = "GPL-3.0-only"
 
-PV = "2.1.4"
+PV = "2.1.6"
 
-RPM_NAME = "safeeyes-lang-2.1.4-1.2.noarch.rpm"
-RPM_HASH = "a36dad365e6c0555e312b2c52e3de2645ee4143175f704b2ced77f34c364e27fbaf892ebf21949c896c0d75742266e02ebd8476133e4ad62db1fd80c771b4712"
+RPM_NAME = "safeeyes-lang-2.1.6-1.1.noarch.rpm"
+RPM_HASH = "79a5b2b36c434566fbb0c8c5a108f31b4d945ecc06a9cf21c8a8ce1bae251f60943247f539e6e6b7191729d166f268aa201db0e183d2e03daba8197170422575"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-safeeyes-ar \

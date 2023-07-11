@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.50.0"
 
-RPM_NAME = "csync-0.50.0-11.9.aarch64.rpm"
-RPM_HASH = "6ce793d07fa5357aae1a4459aae7659331387438fdce35aaafefada2253391652c2a2ea8cba1612e3f8ebaacf549d30056c4e979053f81cbb2336d138eace8f6"
+RPM_NAME = "csync-0.50.0-11.10.aarch64.rpm"
+RPM_HASH = "ee1728007f93c8a90ae6f425fed9c056b62a5e6e61ed8a72f0198dc01674fac4a154a7993cb0e9cf4514a9dfafdf01a79b5c856bf9901a00bf0ece11ceff182e"
 
 RPROVIDES:${PN} += "csync"
 

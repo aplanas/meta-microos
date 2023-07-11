@@ -5,10 +5,11 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.44.1"
 
-RPM_NAME = "python311-gobject-devel-3.44.1-1.2.aarch64.rpm"
-RPM_HASH = "69c9bc997d299d3b931111710822cfeeefeaa3e762eae2186194e1d1fb5d32c62047016583e3857b8fb0943827ee92d76430fe412ae07e05e586117390645167"
+RPM_NAME = "python311-gobject-devel-3.44.1-2.1.aarch64.rpm"
+RPM_HASH = "d2b88b615200631803e4e6c6bf52759e553a8d2e46684fb35e35dbb88f74ecafcd0af4820b1871dbc8793e3c9518b4af66d23028eebaa12140c6905c7063d8e6"
 
-RPROVIDES:${PN} += "python311-gobject-devel"
+RPROVIDES:${PN} += "python3-gobject-devel \
+python311-gobject-devel"
 
 RDEPENDS:${PN} += "python311-devel \
 python311-gobject \

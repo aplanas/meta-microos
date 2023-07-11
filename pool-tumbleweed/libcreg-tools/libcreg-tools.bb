@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20210625"
 
-RPM_NAME = "libcreg-tools-20210625-5.7.aarch64.rpm"
-RPM_HASH = "3ef44bd48d23b7abc3575b3027e3af11bc0eb73a1a7d5f271cfe2ce965efb4254e788bbb35d2c822d8c5fe4c5c28ea3ec10ac45d3b964c76cb1952987a81b81b"
+RPM_NAME = "libcreg-tools-20210625-5.9.aarch64.rpm"
+RPM_HASH = "79c6766d4ccae2441aeb0636beedb04c639ed851b4a8dce48aba3572b717feccfa146a55686db833aab9374d7c0e09d1cdbec2e3b849c1ba26ed8679f703cb66"
 
 RPROVIDES:${PN} += "libcreg-tools"
 

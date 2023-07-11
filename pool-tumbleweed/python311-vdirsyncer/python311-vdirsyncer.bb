@@ -7,11 +7,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.19.0"
 
-RPM_NAME = "python311-vdirsyncer-0.19.0-2.1.noarch.rpm"
-RPM_HASH = "787a391381c2365259aa1bf17ac03e6a0ba69752df6f208a5ede7733f47a74edabaa5ead08ddd237be7c3118bcd27f7092bd7d754d29cc0afe52f686a7dd1ae1"
+RPM_NAME = "python311-vdirsyncer-0.19.0-2.3.noarch.rpm"
+RPM_HASH = "4567c63d4a1cf46d0afcb594b89e12d7b554b3b0b0c26e4c9d6dd43908fdf3984281efdad01438125a7f00fb26ceea3f267b24c338d1709f2ca05901ff7b512b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-vdirsyncer \
+RPROVIDES:${PN} += "python3-vdirsyncer \
+python3.11dist-vdirsyncer \
 python311-vdirsyncer \
 python3dist-vdirsyncer \
 vdirsyncer"

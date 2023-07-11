@@ -15,12 +15,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0b4"
 
-RPM_NAME = "python310-azure-media-videoanalyzer-edge-1.0.0b4-1.5.noarch.rpm"
-RPM_HASH = "d766ab04ad66f0235f16de59bec209f221042a50dd438f63f4779d033f91c72f6f4aa55b0fe518eb85324f8b42567e58a8f7369bf7702a7548eda704138ea536"
+RPM_NAME = "python310-azure-media-videoanalyzer-edge-1.0.0b4-1.7.noarch.rpm"
+RPM_HASH = "35ffe583163bd2ccaf0b4a5d325382a00963ad4e1b6569f1fcf8d42c1387f03c3b0d1a9d446b2757735dd6cfc2a8c1c936181d9c28dc039279fee3afaac6f4d5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-media-videoanalyzer-edge \
-python3.10dist-azure-media-videoanalyzer-edge \
+RPROVIDES:${PN} += "python3.10dist-azure-media-videoanalyzer-edge \
 python310-azure-media-videoanalyzer-edge \
 python3dist-azure-media-videoanalyzer-edge"
 

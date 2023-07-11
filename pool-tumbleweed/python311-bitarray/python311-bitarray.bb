@@ -12,12 +12,13 @@ Also, when dealing with compressed data which uses variable bit \
 length encoding, you may find this module useful."
 LICENSE = "Python-2.0"
 
-PV = "2.7.3"
+PV = "2.7.6"
 
-RPM_NAME = "python311-bitarray-2.7.3-1.4.aarch64.rpm"
-RPM_HASH = "606afc031713f383852e653bba1358a50be29f754f27313b96ec3498564127efa8493a67dba36e9e602c1b1cf47316576ed4661e3eaf19e8b57ad6462bbb2dba"
+RPM_NAME = "python311-bitarray-2.7.6-1.1.aarch64.rpm"
+RPM_HASH = "00fc45b738c1ca9e53456dcea423025450c630a712ed4ec712c862da0dfda544eaf5e29117accbbb00fa6b868d35b44042b5f37ada3ad4c71090e1923382ff1e"
 
-RPROVIDES:${PN} += "python3.11dist-bitarray \
+RPROVIDES:${PN} += "python3-bitarray \
+python3.11dist-bitarray \
 python311-bitarray \
 python3dist-bitarray"
 

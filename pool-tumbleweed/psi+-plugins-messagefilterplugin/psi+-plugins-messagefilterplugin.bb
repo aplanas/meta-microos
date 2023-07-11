@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-or-later"
 
 PV = "1.5.1615+0"
 
-RPM_NAME = "psi+-plugins-messagefilterplugin-1.5.1615+0-3.1.aarch64.rpm"
-RPM_HASH = "d52474c6304552875015b545ec073586d8dfbbe0e1e97fd8f70a98aa64e7f297b60b84d71abf2f9a2c1e248fc045915ab4a48596cc41739272ef30f2af39a0d3"
+RPM_NAME = "psi+-plugins-messagefilterplugin-1.5.1615+0-3.2.aarch64.rpm"
+RPM_HASH = "c9b2968ac287ec29019d0704448643353a9671b721d02f340ee4f47ee27f9888cbe47bdc052f25c468398f8db1d288e8d9de69c5df72ec03b2e6a7e64b8312e7"
 
 RPROVIDES:${PN} += "libmessagefilterplugin.so \
 psi+-plugins-messagefilterplugin"

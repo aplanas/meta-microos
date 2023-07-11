@@ -2,10 +2,10 @@ SUMMARY = "Application to excercise fractions"
 DESCRIPTION = "KBruch is an application to learn calculating with fractions."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kbruch-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "210587dcfed30c251bc7dd8a20b4daf17f5110a824ebfbe2e359319a4887844e5ed2eb72b50187d0996b921b8a64cb2161a53837003c36e2ed765e493c7481bd"
+RPM_NAME = "kbruch-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "3c58354d1a1ff99c8fc507c89904a5c97fa0ef332d08cadcd8441b508eab879805262536862f8e371746b1f2a7a39d18ef380d5034e383816f2ec689b18ca0ad"
 
 RPROVIDES:${PN} += "kbruch \
 kbruch5"

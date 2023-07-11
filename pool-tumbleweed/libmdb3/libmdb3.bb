@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0.0"
 
-RPM_NAME = "libmdb3-1.0.0-1.7.aarch64.rpm"
-RPM_HASH = "bfdb227cd85fec8c9bf26c083e1f604f159244a2d1f8b27bf330c5c1198b29738810f3224ddbd6e03ec8e7ed0a5da64d8fd4186d16ecdc1f28e6dc86b3af5902"
+RPM_NAME = "libmdb3-1.0.0-1.8.aarch64.rpm"
+RPM_HASH = "c26ba2a4422083176c47b9bd149e6cf590a72587309b72e9b33732e82c0d092df4ddc40bdc6eb0addc3cb871551a202ef910877f9ff7f0c45d55e6e206c61e48"
 
 RPROVIDES:${PN} += "libmdb.so.3 \
 libmdb3"

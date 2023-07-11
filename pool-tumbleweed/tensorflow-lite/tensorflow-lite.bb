@@ -9,11 +9,11 @@ LICENSE = "Apache-2.0 & BSD-2-Clause & BSD-3-Clause & MIT & MPL-2.0"
 
 PV = "2.10.0"
 
-RPM_NAME = "tensorflow-lite-2.10.0-1.1.aarch64.rpm"
-RPM_HASH = "095e225bad8c6ac3e9b8fcec3214b5285af75524e1a7b06cb06b7c78c2dc51395f86d1dffdb2961b8b9280ad4a1754b87bc4b49e5fc2340845cb1ed663d39bf5"
+RPM_NAME = "tensorflow-lite-2.10.0-2.2.aarch64.rpm"
+RPM_HASH = "ed535d52f7b4344d24301f239664915e39359e62296c45bf3d2dd2b2d2c4af5872719fbbe45e88deb509a33141a59c186a02d335bff444969daf051236444dd2"
 
 RPROVIDES:${PN} += "python3-tflite-runtime \
-python3.10dist-tflite-runtime \
+python3.11dist-tflite-runtime \
 python3dist-tflite-runtime \
 tensorflow-lite \
 tensorflow2-lite"
@@ -22,7 +22,7 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libstdc++.so.6 \
 python-abi \
 python3-numpy"

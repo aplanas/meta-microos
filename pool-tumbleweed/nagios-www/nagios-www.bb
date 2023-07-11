@@ -15,8 +15,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.4.7"
 
-RPM_NAME = "nagios-www-4.4.7-2.4.aarch64.rpm"
-RPM_HASH = "05e25f8f3a2ee47bcbae9fed98206b99abd92ff770c85fcd583309f3da6a46b4a1459a8d6f709fd24224c11bb73ee72303ed9d341be1e3aa0e5e492ef702c7da"
+RPM_NAME = "nagios-www-4.4.7-2.5.aarch64.rpm"
+RPM_HASH = "0701a4d85cde30f0ae3df16e9dd41040573942dc7406a7d9a569566edbc205327053c923f829d38af70293e531ec0ffff99cfdc0d896d58fac553e211e8b4d0e"
 
 RPROVIDES:${PN} += "config-nagios-www \
 monitoring-webfrontend \

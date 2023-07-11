@@ -1,20 +1,18 @@
-SUMMARY = "openSUSE branding for SDDM, a QML-based display manager"
-DESCRIPTION = "SDDM is a display manager for X11. It uses technologies like QtQuick, \
-which in turn gives the designer the ability to create animated user \
-interfaces. \
-This package provides the openSUSE branding for SDDM."
+SUMMARY = "openSUSE branding for SDDM"
+DESCRIPTION = "This package provides the openSUSE branding for SDDM."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.19.0"
+PV = "0.20.0"
 
-RPM_NAME = "sddm-branding-openSUSE-0.19.0-11.1.aarch64.rpm"
-RPM_HASH = "08380fea16feff1db848a1252c2fb55bff74b70fb1689d5eb2673683464cb64a88d0707c4644c06e293a5648dbf7efdf7da32cc0b0c9f0f59be6f5f6ed77493b"
+RPM_NAME = "sddm-branding-openSUSE-0.20.0-2.1.aarch64.rpm"
+RPM_HASH = "01372ce9e3868f77db77191c1334d4fc81f249265956cab5c507c9de122363117f5e4d0d78539b7711d35fc1199a84254b11bfbc35a8041f85a30e603457712f"
 
 RPROVIDES:${PN} += "sddm-branding \
 sddm-branding-openSUSE"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 diffutils \
+kwin5 \
 sddm \
 sddm-theme-openSUSE"
 

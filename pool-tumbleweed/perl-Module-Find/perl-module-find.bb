@@ -10,13 +10,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.16"
 
-RPM_NAME = "perl-Module-Find-0.16-1.2.noarch.rpm"
-RPM_HASH = "08e67538a670db2102bc7473e1fc6b651fa6bf62d6b557f83cfae15a7504f387709ec6ce35237e81db35fa93b417e4fbab803e50458fc1be9bd75ce85fc731df"
+RPM_NAME = "perl-Module-Find-0.16-1.3.noarch.rpm"
+RPM_HASH = "854277a449cff7d4e8146d28ac6c3e2c4bb94b42baf312a90d542838ee6c54ea7d0d6b6e2a8a256ee5763ba0c596f92390753c114609367099aec8b1f2f194a4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Module--Find \
 perl-Module-Find"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

@@ -7,13 +7,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.07"
 
-RPM_NAME = "perl-DateTime-Tiny-1.07-1.17.noarch.rpm"
-RPM_HASH = "cf79e191bc7388e3734e38a6eb653e5c26a23c43680dce5e91727039800757f97092feef712044d261eb7b5c0e472756bca434e073c10db2cefd1a5d324b8170"
+RPM_NAME = "perl-DateTime-Tiny-1.07-1.18.noarch.rpm"
+RPM_HASH = "fd08c5bf706fadce4cd0ec4b25fef6f1a5a244634aa8145603f3d94cd996224b2e5f3ba64ebf11554498186328847b4baf1152d1858ab93229a04e17301659c0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DateTime--Tiny \
 perl-DateTime-Tiny"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

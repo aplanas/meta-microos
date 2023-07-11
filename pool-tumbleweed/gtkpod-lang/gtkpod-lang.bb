@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.1.5"
 
-RPM_NAME = "gtkpod-lang-2.1.5-6.18.noarch.rpm"
-RPM_HASH = "4f6b6d0b08542d5db85c2d22792cb48c1482396000bb4a23ca48ee16c11e1b756e09b8e3ea60ddba90ffa194ffc85171f9698c3ce8064f91f5c774aa830f5eb3"
+RPM_NAME = "gtkpod-lang-2.1.5-6.19.noarch.rpm"
+RPM_HASH = "3556cf63d3768f0f3760f789644a63a61c5e7d771621dc39aaaaf044027caaf0c53d508bbcaa5aae8b19f2ada2fe37eb849e2f0e2c1432475204f05afeb9c520"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtkpod-lang \

@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.10.40"
 
-RPM_NAME = "deepin-editor-5.10.40-1.6.aarch64.rpm"
-RPM_HASH = "2dbf02f4f7a6a40e28cc10a136b98a67869270a5b91dcb2ee8eefe2f89e318c1a498d743d3b1939b2ee9b05a6d53b2245f3e8727602ef7d19243bf60c525cb79"
+RPM_NAME = "deepin-editor-5.10.40-1.7.aarch64.rpm"
+RPM_HASH = "337f0f8bb33101636c94e8262aa4110fae2fcb5b8cd41cc3fdbc25912bf2a481522e5f988509965ed894e7354dfdaac44ad432ff6b27cf556864c1d97aedf1ab"
 
 RPROVIDES:${PN} += "deepin-editor"
 

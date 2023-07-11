@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "44.1"
 
-RPM_NAME = "gnome-connections-44.1-1.1.aarch64.rpm"
-RPM_HASH = "1ed1b50bec122eba8464415b0a5028e35d072eb2a5a25c7f05e6a74e441dd9be6792013bb4cc7622a8b5a0b55cd891690b101808ca0d062ec1b1350255c29afa"
+RPM_NAME = "gnome-connections-44.1-1.3.aarch64.rpm"
+RPM_HASH = "0ebef2eef310f0c94f92c53c3ee746ad9efd45100f886526742839db7cbe24d4c0bb5a169f11ceaf1d5bb5e0985d90857b7d4b3e664e56f4e25a62384f495af0"
 
 RPROVIDES:${PN} += "gnome-connections \
 libgtk-frdp-0.2.so \

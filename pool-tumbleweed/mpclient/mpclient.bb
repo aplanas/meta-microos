@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.34"
 
-RPM_NAME = "mpclient-0.34-1.8.aarch64.rpm"
-RPM_HASH = "5e20007967deb536078afae23ec2695a6a6674e4e2e733925df0697cb7ffafc9e7d6115b379933e25c098c39fefdce14e542d3e93b516e54a1d5c25e01162ae3"
+RPM_NAME = "mpclient-0.34-1.9.aarch64.rpm"
+RPM_HASH = "d6be30dc3e439e3a2000bb6427ba992b36f20892ed32776dcbf749168f1477e62e91246ef59cfc6d1c8acbc2b389be5a81e1e9bf74b81345c2b13f2be72732a1"
 
 RPROVIDES:${PN} += "config-mpclient \
 mpclient"

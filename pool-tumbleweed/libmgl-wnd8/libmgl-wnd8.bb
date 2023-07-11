@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "8.0.1"
 
-RPM_NAME = "libmgl-wnd8-8.0.1-3.3.aarch64.rpm"
-RPM_HASH = "973e620eb75c9a32d437b1cefb87eb04784901a51c07fff23edbd802cb7c1c9112d92d75fef8ebbaef3d8c3f77b42d2d9f08c9da368320f1dc1c122979ba0d91"
+RPM_NAME = "libmgl-wnd8-8.0.1-4.2.aarch64.rpm"
+RPM_HASH = "52ef16aff13a3fe5a7f6fc1c0f988bd6080b0ea70dcd99b8a891fdc567ccf1232bb32ee59dedca34bc7f335dc157682c112dbf40edad13e99479206f5a83f87d"
 
 RPROVIDES:${PN} += "libmgl-wnd.so.8 \
 libmgl-wnd8"

@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.67"
 
-RPM_NAME = "ts-0.67-2.2.noarch.rpm"
-RPM_HASH = "a7da17109baf75a556c9cfe7999951b9e64b57bf936e1ff37e69adf03b67eb80ee0b4b9d873e8315833656f817bbddc696baa3d518cf0bda6f23d145c663091a"
+RPM_NAME = "ts-0.67-2.3.noarch.rpm"
+RPM_HASH = "9f59622a90ad73c176df37490f3802ec04dcd978f17a44269baa64c328aa8f41a82d002c5b9f6def5dfe61ec34205edf25efd3819916e03dc1ecb59e2358ed93"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "moreutils-/usr/bin/ts \

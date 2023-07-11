@@ -17,11 +17,10 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.16.2"
 
-RPM_NAME = "python310-healpy-1.16.2-1.1.aarch64.rpm"
-RPM_HASH = "1aa117a353de66373cf0a2931dbd29ecb16a6049dfdeaa7a7cad1dadec2f51c7c52845fff8d4d47ee2d60260dd1ba770872b8e3f299713b9a11781a48e27adcf"
+RPM_NAME = "python310-healpy-1.16.2-1.3.aarch64.rpm"
+RPM_HASH = "e14e8b653537deefb987247ca361f9edbfbe9e686706c71e91207ae00d2f7ffc3d5d6cf7409afa1459d0faf024f0b5105254df18602337dd3cb28695d5d5f163"
 
-RPROVIDES:${PN} += "python3-healpy \
-python3.10dist-healpy \
+RPROVIDES:${PN} += "python3.10dist-healpy \
 python310-healpy \
 python3dist-healpy"
 

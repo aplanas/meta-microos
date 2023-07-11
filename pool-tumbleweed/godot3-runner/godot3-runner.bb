@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "3.5.2"
 
-RPM_NAME = "godot3-runner-3.5.2-2.1.aarch64.rpm"
-RPM_HASH = "a58855c5ea59a2bd521a03a1f42add18685db6f835a2679ff8e35b7d86e873e61622045f5dbe1982e5ea9dd87b109f7f48ccf6071d9c8f95cf29ec0cd6647de6"
+RPM_NAME = "godot3-runner-3.5.2-2.2.aarch64.rpm"
+RPM_HASH = "185dcdc0d86155abd76b72906a8870d63c60e9bcfa7ff8978a01dcaa2289de2f9eed52e559ca6f74c36b6672057332452a01a119c034928e3ac5b80ae37e5e48"
 
 RPROVIDES:${PN} += "godot3-runner"
 

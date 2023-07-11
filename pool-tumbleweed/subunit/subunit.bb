@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0 | BSD-3-Clause"
 
 PV = "1.4.2"
 
-RPM_NAME = "subunit-1.4.2-2.2.aarch64.rpm"
-RPM_HASH = "0dedef3ba32114c5690268d8dcac348ada0d96c4425f916b802a2a76702ea21cdf4858c71a2e27f730ae17f547ad30d93bcd7e1bf5c455a034906cf28e3ea603"
+RPM_NAME = "subunit-1.4.2-2.4.aarch64.rpm"
+RPM_HASH = "1faaf81e7d41ea6785570e08449fd998a81df628aa3f4441b06ab70a67da1e1efe70124bb562a691e6a61a65edd7242afabf4f1d2cf1337c7af413d19173025b"
 
 RPROVIDES:${PN} += "subunit"
 

@@ -7,10 +7,10 @@ This package contains shared files and the command line interface. \
 For a graphical interface install coq-ide."
 LICENSE = "LGPL-2.1-only"
 
-PV = "8.17.0"
+PV = "8.17.1"
 
-RPM_NAME = "coq-8.17.0-1.1.aarch64.rpm"
-RPM_HASH = "36a01d908b56f51c9916fe3d392a4dc2cb4bd2f44d88671e53ff9454306ae29dabc0cdc493c4e9e868e7d6fabbdd62ecf3d9b4839de481862dd8d03dcbb5a747"
+RPM_NAME = "coq-8.17.1-1.1.aarch64.rpm"
+RPM_HASH = "9407e94dfc9d067fbd5e4ff6e17c2210be1e96df77eb028427d1fea060eb261ca0464cab899b84ade6724666294f26c8714b06f4c0cf17c9fa37cb55bcf9564c"
 
 RPROVIDES:${PN} += "coq"
 

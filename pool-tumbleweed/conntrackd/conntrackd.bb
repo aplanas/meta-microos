@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4.7"
 
-RPM_NAME = "conntrackd-1.4.7-1.3.aarch64.rpm"
-RPM_HASH = "cfcfc6f45b94f021d2e485755feb7e9131456036f02a259328359a73d8133ff316095039365c6ab54c3b4acc8963db24ac450dfaabad6ecb6c6ab322f4382a20"
+RPM_NAME = "conntrackd-1.4.7-1.4.aarch64.rpm"
+RPM_HASH = "e4cd2b318322ff47f117bfc79d899a8aa067422065b59054c6b1437792652ce03628ee62428da0df116f0d70e4f9a88a57f8cd4b147d424bea73d2f2c6e5cd20"
 
 RPROVIDES:${PN} += "conntrack-tools-/usr/sbin/conntrackd \
 conntrackd"

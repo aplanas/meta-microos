@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "1.0.6"
 
-RPM_NAME = "python311-compressed_rtf-1.0.6-1.8.noarch.rpm"
-RPM_HASH = "1bc06646524810be93e6be71d149b74d704e104a278363d3b60d763194a849bc0936fb52a2f19aaeab61aa8e059bdf501247a8c224a86d3a741d8a0b19ae6842"
+RPM_NAME = "python311-compressed_rtf-1.0.6-1.9.noarch.rpm"
+RPM_HASH = "6552434ddc8a40dad774750c004b2ccfcf6747be8e1838e95acc2510b88ecbf05f644f091a7eacfb1a62065f5d0f1888a47158ad207b317b2aec75a4f7df2496"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-compressed-rtf \
+RPROVIDES:${PN} += "python3-compressed-rtf \
+python3.11dist-compressed-rtf \
 python311-compressed-rtf \
 python3dist-compressed-rtf"
 

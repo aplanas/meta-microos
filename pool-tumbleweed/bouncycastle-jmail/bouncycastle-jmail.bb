@@ -6,10 +6,10 @@ Cryptography APIs. The Jakarta Mail API and the Jakarta activation framework \
 will also be needed."
 LICENSE = "MIT"
 
-PV = "1.73"
+PV = "1.74"
 
-RPM_NAME = "bouncycastle-jmail-1.73-1.1.noarch.rpm"
-RPM_HASH = "c5cdeb8501c2c5262dd404541bfdf97b990e5d0cf842800ba97cb96b975322217a7a1626c19d8e96c1db3a7bc95081ab7e5617a1a9e37b363a988862f3125e75"
+RPM_NAME = "bouncycastle-jmail-1.74-1.1.noarch.rpm"
+RPM_HASH = "d914b79bc7ea05de1a7267147ca818a8071b14c105e427ac77ff5ed1db3d1c3ffc80566c2309b36c6961d27ed6e18d6b0901990358ed41bf913ee1dd92973558"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bouncycastle-jmail \
@@ -33,7 +33,6 @@ jakarta-activation \
 jakarta-mail \
 java-headless \
 javapackages-filesystem \
-mvn-com.sun.mail-jakarta.mail \
 mvn-org.bouncycastle-bcpkix-jdk18on \
 mvn-org.bouncycastle-bcprov-jdk18on \
 mvn-org.bouncycastle-bcutil-jdk18on"

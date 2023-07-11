@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.1.5"
 
-RPM_NAME = "python39-audiogrep-0.1.5-2.16.noarch.rpm"
-RPM_HASH = "8fb190a81cca32c2b9433ec26f18f583feef2cbaa3f203a0bf1bc0a8c75c4b5890e339c275d37b3cfd49731be0d0cf471daea5cd872b88cc4f930425c451d8a6"
+RPM_NAME = "python39-audiogrep-0.1.5-2.18.noarch.rpm"
+RPM_HASH = "d1f02fcaed9a93db53a394b43521962872020bff09f7e853288fd88f6d862177b662b6e123cd78cf90d502cd2b44f447351fb29d9fc468c1775eba89f9f5d3ee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-audiogrep \

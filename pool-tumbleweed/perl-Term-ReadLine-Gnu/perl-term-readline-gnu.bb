@@ -12,8 +12,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.45"
 
-RPM_NAME = "perl-Term-ReadLine-Gnu-1.45-1.2.aarch64.rpm"
-RPM_HASH = "dfa356a9e555507e1d0ad5ffc0052f05d43db49d3908d354587dc972a6cf7b38a44989cf91fc82b196a93ddd84ef69f4db9d3f6a942e48027c93ed503f2a493e"
+RPM_NAME = "perl-Term-ReadLine-Gnu-1.45-1.3.aarch64.rpm"
+RPM_HASH = "e1f354f3617a6b20cf99e3968cd71461d193b6f68b21383ce47f951eb77b875e092dfc6d7705cc1e0bdca01ae2f192443a1a6f864e9b37a993fe20bae4b4606f"
 
 RPROVIDES:${PN} += "perl-Term--ReadLine--Gnu \
 perl-Term--ReadLine--Gnu--AU \
@@ -27,6 +27,6 @@ ld-linux-aarch64.so.1 \
 libc.so.6 \
 libreadline.so.8 \
 libtinfo.so.6 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

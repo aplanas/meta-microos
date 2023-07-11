@@ -16,12 +16,11 @@ LICENSE = "ZPL-2.1"
 
 PV = "1.0.1"
 
-RPM_NAME = "python310-zc.customdoctests-1.0.1-2.8.noarch.rpm"
-RPM_HASH = "805b4631fe6b73fa65b864ffe6e6f6924c7e0bf14eb223cc129ae7138f7e4d2811f9507a4647fce51e9c6a764e800b71ed0d548a340bf18d124f669a71ab9e1a"
+RPM_NAME = "python310-zc.customdoctests-1.0.1-2.10.noarch.rpm"
+RPM_HASH = "7a3d5318412b02e9a3d779a6d29d13684485d4c3f42a670243cb59c079d3459b2e3e3c1e5e667eb2b1f9ff0426665eff488a4a57555241daeefc93c9802e629b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-zc.customdoctests \
-python3.10dist-zc.customdoctests \
+RPROVIDES:${PN} += "python3.10dist-zc.customdoctests \
 python310-zc.customdoctests \
 python3dist-zc.customdoctests"
 

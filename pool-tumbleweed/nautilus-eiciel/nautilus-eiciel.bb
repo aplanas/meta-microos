@@ -2,10 +2,10 @@ SUMMARY = "Nautilus ACL viewer and editor extension"
 DESCRIPTION = "A Nautilus extension that allows viewing and editing ACL permissions."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.10.0.rc2"
+PV = "0.10.0"
 
-RPM_NAME = "nautilus-eiciel-0.10.0.rc2-1.3.aarch64.rpm"
-RPM_HASH = "37e8fed40a455c44a9982ea96d31e8f26c9cd40aff2646c087acbb3326b58b8150924a973fda40f7440e8fe8f8e68cd1cf5fa86e9d7f037af14c78520585ea33"
+RPM_NAME = "nautilus-eiciel-0.10.0-1.1.aarch64.rpm"
+RPM_HASH = "7603f2ce9076652bebfec25837e9e38c3820d1df6c6474538ffeb12a7453a5d97bd8db9f24c572ae0de2312a624699155ce659681badb06ed06206610eaada4a"
 
 RPROVIDES:${PN} += "libeiciel-nautilus.so \
 nautilus-eiciel"

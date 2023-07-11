@@ -3,10 +3,10 @@ DESCRIPTION = "virt-v2v-man-pages-uk contains Ukrainian (uk) man pages \
 for virt-v2v."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.0.7"
+PV = "2.2.0"
 
-RPM_NAME = "virt-v2v-man-pages-uk-2.0.7-2.3.noarch.rpm"
-RPM_HASH = "ea7cad7660ec57cb51df6ff86558e7b45a29c165b8089b5e3f46b2a801c041f2dc974812a4dc634e845e9dadb9e11575839057282745acfa1c0c0a0015457301"
+RPM_NAME = "virt-v2v-man-pages-uk-2.2.0-1.1.noarch.rpm"
+RPM_HASH = "f7727a72f9a1f4fcef2e531bf6fac8d004b05b01eedfa9fa03badcc7f016db8228a88c7bc902b53ea030d3ee6448f481211236891c46de8fa04257dbe229da66"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "virt-v2v-man-pages-uk"

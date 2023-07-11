@@ -5,8 +5,8 @@ LICENSE = "(LGPL-2.1-or-later | MPL-1.1) & MIT"
 
 PV = "6.0.5"
 
-RPM_NAME = "libgdiplus0-6.0.5-1.11.aarch64.rpm"
-RPM_HASH = "f1195738aef8dc10568b79ec7ba64a15186c2fcab736e14be2c8402fa2ecfaa0975d7c54151384d33ce07615cad78c45338882eeb15cf01511a21f5df9ebf226"
+RPM_NAME = "libgdiplus0-6.0.5-1.12.aarch64.rpm"
+RPM_HASH = "045dbb4e4416bdbbe2033a17139cfb470ba7110b4e3ffa7d79728f832be9689a887de6b725cd897df8dc91d4d62c7839b8ea19f09a1c67116200c9f76661e245"
 
 RPROVIDES:${PN} += "libgdiplus.so.0 \
 libgdiplus0"

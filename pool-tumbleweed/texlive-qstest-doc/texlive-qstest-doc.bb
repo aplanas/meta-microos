@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.svn15878"
 
-RPM_NAME = "texlive-qstest-doc-2023.201.svn15878-53.1.noarch.rpm"
-RPM_HASH = "90ace280b58e07e12a8d3960cf14fd1dcf021edc8b5c9ea74a4bbd48f971eadd00292eac77f69701b6969488f2a224a2c1052ffaad8f2d05b56f8c9d125c7b01"
+RPM_NAME = "texlive-qstest-doc-2023.201.svn15878-53.2.noarch.rpm"
+RPM_HASH = "6da4beadf1531fefb4571ad7f1a798b70705096f7fed60c762514d70091284fd1a625aabf8b3116fe00cb3b279dc16f233d1288ba98b4f1a7c8e19bbd66760ff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-qstest-doc"

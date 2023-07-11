@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.10.13"
 
-RPM_NAME = "ant-jdepend-1.10.13-2.1.noarch.rpm"
-RPM_HASH = "996e0704c85abb1e5d6095c5ea512fccb40c5bc1bb1c8c01dd9f3ae1eeca71228ec5c8cadeab74a14688fd9510406cdc00d83e938a8003fb9a92a5f9593cff7a"
+RPM_NAME = "ant-jdepend-1.10.13-2.2.noarch.rpm"
+RPM_HASH = "cbfb731a00a481bcc1177b8dda492d6acbf04e9a295511babc3ca9d2d9e410e1f40be3b924a6e8376166e364fa73f23b516a967717bc14132a7ca33f9b5e3862"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-jdepend \

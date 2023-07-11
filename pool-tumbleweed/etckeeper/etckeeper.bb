@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.18.18"
 
-RPM_NAME = "etckeeper-1.18.18-2.2.noarch.rpm"
-RPM_HASH = "c90ed7c881c73275b6e2ded5ed80f41eaa6eb9267173d18474ad50cfe2bd5839cfd0df4ed9ffeddc005b2d640ed3b644c919c6c16b60f13ed3f5116e30c46cd9"
+RPM_NAME = "etckeeper-1.18.18-2.3.noarch.rpm"
+RPM_HASH = "f0c3af088af92ce532a1e81e3dd3c9c1035f66ae971d777b147b5fa8536f0601f30aeb7b1027ce360d1593ac133327405217d587e6929f151482e9789781f9dd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-etckeeper \

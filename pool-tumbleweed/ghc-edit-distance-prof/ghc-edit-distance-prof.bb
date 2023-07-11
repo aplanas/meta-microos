@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.2.1"
 
-RPM_NAME = "ghc-edit-distance-prof-0.2.2.1-13.3.aarch64.rpm"
-RPM_HASH = "4bcc5d4ae3c8cc6413fa96afac41b99ddd58d8947a01445a3674329daae744632bc5287fe4ba20e54d10dda05f0d4e63a8e06b9aa104a20fe4651c5426e3db21"
+RPM_NAME = "ghc-edit-distance-prof-0.2.2.1-13.6.aarch64.rpm"
+RPM_HASH = "cc55b5c6d3ad4fd67ec80f3f1cb647fbcc3750790b7b9ff9cc4a56989fd07d635cafa19f283f0fd78becf040ad22780d94cfae0f082ae9c8478f23eec8d8f168"
 
 RPROVIDES:${PN} += "ghc-edit-distance-prof \
 ghc-prof-edit-distance-0.2.2.1-6sqaVuKvJlk4f2SjC0p5nu"

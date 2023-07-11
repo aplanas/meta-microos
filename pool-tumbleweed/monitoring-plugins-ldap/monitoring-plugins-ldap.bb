@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
 PV = "2.3.1"
 
-RPM_NAME = "monitoring-plugins-ldap-2.3.1-9.4.aarch64.rpm"
-RPM_HASH = "276c98fcd0b8182bc81b3ebdd1339ec611071b38079d4a62aae7e0dee8569f5ef3c06a00839856af2e4670d6af289a80cc77c05b5470480f88d5d56c1ded43e3"
+RPM_NAME = "monitoring-plugins-ldap-2.3.1-9.5.aarch64.rpm"
+RPM_HASH = "4061ac56b3cf38a741abc8ea7cf71132d4d1c55805e48f1e38e445f2d5a85cfff55929e229f7763173b70821f2acbdf499361dbb51e145a4f0b227bc16ab585b"
 
 RPROVIDES:${PN} += "monitoring-plugins-ldap \
 nagios-plugins-ldap"

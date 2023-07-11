@@ -2,10 +2,10 @@ SUMMARY = "Qt 5 Nfc Addon"
 DESCRIPTION = "Qt is a set of libraries for developing applications."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.9+kde5"
+PV = "5.15.10+kde4"
 
-RPM_NAME = "libQt5Nfc5-imports-5.15.9+kde5-1.1.aarch64.rpm"
-RPM_HASH = "547c5243965ee400b65bc597da8f5233315364168a90dcc52824ae31653f038e020008856fc1abf5fae63a719f687f3ec1140a14e8c57394d21fbd8827c3a3bb"
+RPM_NAME = "libQt5Nfc5-imports-5.15.10+kde4-1.1.aarch64.rpm"
+RPM_HASH = "c00cfcf7c3c6e211f999ecfe3e70b35999e3690a8fe79291b559dbc4277e78c51e3ec389fe29c482ab9fa6d5d8fe80a412a875640ed21db3c2f9d9e500392e93"
 
 RPROVIDES:${PN} += "libQt5Nfc5-imports \
 libdeclarative-nfc.so \

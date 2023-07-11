@@ -7,12 +7,11 @@ LICENSE = "MIT"
 
 PV = "1.2.1"
 
-RPM_NAME = "python310-remoto-1.2.1-1.5.noarch.rpm"
-RPM_HASH = "eb582ce979bbdb9bc48812f1553dba05aec94157e3c38d719718b961a28b1ddbc8812898222dbccaa472096606bc33d33b6a0d0b479a5dac1c9d408c1a9b09c8"
+RPM_NAME = "python310-remoto-1.2.1-1.7.noarch.rpm"
+RPM_HASH = "5b65c27715701fb9cc3fcba50e8aae9e7ed5fcf69fc74cac18fd562961c3ea6337a2cb77ca27cf1cd5fcf6ef1ad07bf5c871ddddbccb3acfce2189665cffdfc4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-remoto \
-python3.10dist-remoto \
+RPROVIDES:${PN} += "python3.10dist-remoto \
 python310-remoto \
 python3dist-remoto"
 

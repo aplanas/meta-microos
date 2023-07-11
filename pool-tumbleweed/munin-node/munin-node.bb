@@ -23,8 +23,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.0.72"
 
-RPM_NAME = "munin-node-2.0.72-2.1.noarch.rpm"
-RPM_HASH = "5a6bec231b71e20bb23d27b265c6c645f2b5479e6be6d5ea89e7ed87ec28e575bea26dc31c6ebc8927f068059d77c8dd5a9f8b07e51f3721ef31e3c02d370b4d"
+RPM_NAME = "munin-node-2.0.72-3.2.noarch.rpm"
+RPM_HASH = "e18ff9862592ad215a3268973785db51f3f1b73fb3831de3a907bd2ff88e88f6c37ae6a7be42a925493ebc5c52393694f04cbdc199aefb3ab01fd3928455a285"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-munin-node \
@@ -72,7 +72,6 @@ perl-Net-Server \
 perl-base \
 perl-libwww-perl \
 ps \
-python \
 ruby \
 shadow \
 sysstat \

@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.7"
 
-RPM_NAME = "logtop-0.7-1.16.aarch64.rpm"
-RPM_HASH = "2829b61cbeea0a208dd87972e481fe070b89222f96a0ac9f8dd40fe8a800de41a55bc6a0728dab59898fa2e579e59aca1f6e50ece35a781d4503dbaaa0dce393"
+RPM_NAME = "logtop-0.7-1.17.aarch64.rpm"
+RPM_HASH = "55e1db90a1b95f7bdccdc450dd256956856e19f3c4730bdc160ff802cc5581067cdba3ea3eca3223c4ac5788ef1d876b86a629f395629654c4218af72e0fd59a"
 
 RPROVIDES:${PN} += "logtop"
 

@@ -7,8 +7,8 @@ LICENSE = "AGPL-3.0-or-later"
 
 PV = "1.8.0"
 
-RPM_NAME = "libosmogb14-1.8.0-1.1.aarch64.rpm"
-RPM_HASH = "0f3137ea4331240dd45e9f4ee48634f2e5f6dba9ef196f18c94e15307758f4b5611830ec14a989ae2d97f0525f8847157a16db073600918d01f1ff2692a2bafe"
+RPM_NAME = "libosmogb14-1.8.0-1.2.aarch64.rpm"
+RPM_HASH = "80102d71441e75c6d76bc6c192a5e84f1fae4057dc4bf8c6c2a903eeb0e1971cb7f55e94d068dbc69639a17f3d9eaa3ae85a8cdef6415192bc16553ca7d61c4c"
 
 RPROVIDES:${PN} += "libosmogb.so.14 \
 libosmogb14"

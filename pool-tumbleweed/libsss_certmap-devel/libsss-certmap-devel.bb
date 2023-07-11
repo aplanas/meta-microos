@@ -2,10 +2,10 @@ SUMMARY = "Development files for the FreeIPA certmap library"
 DESCRIPTION = "A utility library for FreeIPA to map certs."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "2.9.0"
+PV = "2.9.1"
 
-RPM_NAME = "libsss_certmap-devel-2.9.0-1.1.aarch64.rpm"
-RPM_HASH = "e1ebc7a382b11787776d775e287a77dc782d6f289fcaa1ad165a43968c51b66cb0d61b2937e8868b9e4e3349f8346a35842c3426dfe8202ced2e01eb44f84497"
+RPM_NAME = "libsss_certmap-devel-2.9.1-1.1.aarch64.rpm"
+RPM_HASH = "e07cdfa967fdddffaf3668d5f5f83652c5b52093446955bf8cb2501c86786ad7aa303a6383991eb3835c1d72ae4017196febe5c681d6730feadadb2c850f0b4f"
 
 RPROVIDES:${PN} += "libsss-certmap-devel \
 pkgconfig-sss-certmap"

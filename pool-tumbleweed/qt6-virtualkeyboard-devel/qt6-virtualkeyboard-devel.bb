@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-virtualkeyboard-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "dabb8dd1028cec43f4d0ddc251b03b4bafce7ce574df6395840234820f864ce27490141a7f29447cc95ebd88503ea19655147a2027ed12bc4cc5f9ae333f2ae6"
+RPM_NAME = "qt6-virtualkeyboard-devel-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "ffb8f5aab1bcca0db5115b7685e54857723fc81e7711aa537fbf79b810218a15618afdb35787d22be8f2ad937c9887ec7fe24cd255cd86aaf5aa2413c2ec06e5"
 
 RPROVIDES:${PN} += "cmake-Qt6VirtualKeyboard \
 pkgconfig-Qt6HunspellInputMethod \

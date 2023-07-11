@@ -6,10 +6,10 @@ support or want to use MlTeX, using native Unicode engines is \
 highly recommended."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn58652"
+PV = "2023.208.svn58652"
 
-RPM_NAME = "texlive-hyphen-esperanto-2023.201.svn58652-52.1.noarch.rpm"
-RPM_HASH = "c668a45409e6cc240b1ec920cb7280f20109f6e9a06652b2c91b0708aad20cc8603fea711015140f7b41e15ca5050ae7ffc9d759fa127dcf433f1aea75a3edd8"
+RPM_NAME = "texlive-hyphen-esperanto-2023.208.svn58652-53.1.noarch.rpm"
+RPM_HASH = "1f379121732ce0deca7c18485015fa2403bb4dddedac10bfc4a4e566ef7fafa13e34605fc5d825f7d61eedfea2261d150d010ecedb593b0c8a41aca91c131b37"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-eo.il3.tex \

@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0-with-LLVM-exception & NCSA"
 
 PV = "14.0.6"
 
-RPM_NAME = "llvm14-polly-devel-14.0.6-9.1.aarch64.rpm"
-RPM_HASH = "553a7a530acbbd10864d2a556ecb4eee91ac58f6aa50a628cbd39a21da08424cb084b3a0e557fe29d2c0bc4c698e1c489be0995928590f240277789cc92a0529"
+RPM_NAME = "llvm14-polly-devel-14.0.6-10.1.aarch64.rpm"
+RPM_HASH = "11c63162b7bdf54a883b3fb5d41926b9fcbe122af4e64f075d63274358d2d626718b93161bc6c27120dcea7e9fdf962ecf8a786a6abcddb791d51c2365ff0dcb"
 
 RPROVIDES:${PN} += "cmake-Polly \
 llvm-polly-devel-provider \

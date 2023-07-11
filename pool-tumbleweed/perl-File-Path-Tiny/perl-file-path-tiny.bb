@@ -53,14 +53,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.0"
 
-RPM_NAME = "perl-File-Path-Tiny-1.0-1.10.noarch.rpm"
-RPM_HASH = "a3868f8da1ffbf451d57e25c5cf04c5957ec7ddbd10d9dd609ac692379201628ad48aeb4b1a4c9f0470b0a94e2c424457633b0a36c8fa3332daab657d63753a5"
+RPM_NAME = "perl-File-Path-Tiny-1.0-1.11.noarch.rpm"
+RPM_HASH = "c4801e85b071f6034917e062cf3f96eb8ce35b939646f1ae28601203f1334866f9a0fe69d5d5a9a2c9c3716ee67ca4157a0bae4938c0467cc5a08dfd16af1852"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-File--Path--Tiny \
 perl-File-Path-Tiny"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Test--Exception"
 
 inherit rpm

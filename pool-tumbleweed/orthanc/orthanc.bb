@@ -14,18 +14,18 @@ users focus on the content of the DICOM files, hiding the complexity \
 of the DICOM format and of the DICOM protocol."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.12.0"
+PV = "1.12.1"
 
-RPM_NAME = "orthanc-1.12.0-1.2.aarch64.rpm"
-RPM_HASH = "a180ab465ebce064a41aadaab27c436b0f2a8dbc5911c3ac06b339e17245e6fef298d455c277b114f0caf3190555584e1d2d5430ae9552dff67a8aca18a6ee90"
+RPM_NAME = "orthanc-1.12.1-1.1.aarch64.rpm"
+RPM_HASH = "71f86063f54ff15fc0188e10a690e67c6b5347d113e7a22089381f7a3f7db578e593bea3be0404ec27fd7ca4aff5911d7fae49678bbcab403a6385b45f4dd3bd"
 
 RPROVIDES:${PN} += "config-orthanc \
-libConnectivityChecks.so.1.12.0 \
-libDelayedDeletion.so.1.12.0 \
-libHousekeeper.so.1.12.0 \
-libModalityWorklists.so.1.12.0 \
-libMultitenantDicom.so.1.12.0 \
-libServeFolders.so.1.12.0 \
+libConnectivityChecks.so.1.12.1 \
+libDelayedDeletion.so.1.12.1 \
+libHousekeeper.so.1.12.1 \
+libModalityWorklists.so.1.12.1 \
+libMultitenantDicom.so.1.12.1 \
+libServeFolders.so.1.12.1 \
 orthanc"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -54,7 +54,7 @@ liblua5.1.so.5 \
 liboflog.so.17 \
 libofstd.so.17 \
 libpng16.so.16 \
-libprotobuf-3.21.12.so \
+libprotobuf.so.23.3.0 \
 libpugixml.so.1 \
 libsqlite3.so.0 \
 libstdc++.so.6 \

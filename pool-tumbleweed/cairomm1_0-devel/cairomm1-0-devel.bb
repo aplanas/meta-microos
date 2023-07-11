@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.12.2"
 
-RPM_NAME = "cairomm1_0-devel-1.12.2-4.3.aarch64.rpm"
-RPM_HASH = "5d36270d316347d76ae36667c6801899310dad7637720495a8e114dc46709356331af890fbe8e4a86d87729422e114ee88b2a8e0cc9c20a1e2c72a45653e47b5"
+RPM_NAME = "cairomm1_0-devel-1.12.2-4.4.aarch64.rpm"
+RPM_HASH = "0cbac3e3ccd72d24903ab9499f7566fc01cde2ee85a9f0ab09f01a865ae5506b938b351f89511175055ab48af2a68e528462e2fe96461f350b5689d97c8aba9c"
 
 RPROVIDES:${PN} += "cairomm1-0-devel \
 pkgconfig-cairomm-1.0 \

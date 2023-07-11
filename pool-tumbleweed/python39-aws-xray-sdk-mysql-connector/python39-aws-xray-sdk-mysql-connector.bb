@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.12.0"
 
-RPM_NAME = "python39-aws-xray-sdk-mysql-connector-2.12.0-1.1.noarch.rpm"
-RPM_HASH = "b387c6314f0ba28a03946cefe9a86fcc7dd2c65d5212d8536f11545524895f523251d264b4edcad4d16a2d1779d61241a9952966c181802b5bc58ecaeea9477c"
+RPM_NAME = "python39-aws-xray-sdk-mysql-connector-2.12.0-2.3.noarch.rpm"
+RPM_HASH = "f4966550e143016cda10675bfa78b8a22f027438c3e9bf1dc746faebe8856787cf94dfd11f0a77731d434e3ac8ca13667a40a9b1479ea7e7d585dc054f3fb3bf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-aws-xray-sdk-mysql-connector"

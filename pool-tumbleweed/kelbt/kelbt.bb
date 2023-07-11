@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.16"
 
-RPM_NAME = "kelbt-0.16-2.11.aarch64.rpm"
-RPM_HASH = "df75b7bb07729a2e0db5459309af521fbd9fccc883621924d6c0a9bc5e7e9c8a2cecba8fcaaecf72bfe59fdf5bfb28c2acac3f9db1c0ba4f9e39e6ddf082f011"
+RPM_NAME = "kelbt-0.16-2.12.aarch64.rpm"
+RPM_HASH = "f02c0712328ffd9af73317adda8bb61e133dfd935101b9e3b00ee8d15ab0cabb1d974d313798e82ce0f8fc8f915cc6167b8f2d9707084eb696a026894f998bf9"
 
 RPROVIDES:${PN} += "kelbt"
 

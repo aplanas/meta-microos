@@ -10,8 +10,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.1.1"
 
-RPM_NAME = "claws-mail-4.1.1-2.3.aarch64.rpm"
-RPM_HASH = "aa53a3b87e54b59c93de7dc928f32d3f85a085cd65b03b8d7e17303997655b98f7e4563208f16ee86167a2458b547d3f3d4436a700ff851e784915b32dccea32"
+RPM_NAME = "claws-mail-4.1.1-2.6.aarch64.rpm"
+RPM_HASH = "5d02b2400c9e4a9da12a6611314d9cc55cb009733b0f3f016d49702d544214519b2293ce441060806cb7c537d79fefc8fa1d16e39828a68af1270786baae539a"
 
 RPROVIDES:${PN} += "claws-mail \
 claws-mail-extra-plugins \
@@ -60,7 +60,7 @@ libpango-1.0.so.0 \
 libpangocairo-1.0.so.0 \
 libperl.so \
 libpoppler-glib.so.8 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 librsvg-2.so.2 \
 libstartup-notification-1.so.0 \
 libwebkit2gtk-4.0.so.37 \

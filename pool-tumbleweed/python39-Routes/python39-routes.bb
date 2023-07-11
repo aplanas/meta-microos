@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.5.1"
 
-RPM_NAME = "python39-Routes-2.5.1-3.3.noarch.rpm"
-RPM_HASH = "ee7a67a844fa66439766d43160eaa6d0d24da7ee61880ac109310634e26f8eda527e47d201743dbbcc615a20ccf22262fd8a15794e18208ddfb678c21dc4b96f"
+RPM_NAME = "python39-Routes-2.5.1-3.5.noarch.rpm"
+RPM_HASH = "8f009363288f3407f3392708a1152413bafca4ca55600fea4075e66f2c20a5f69449a1e7fea90ec00631e711317e4c8cdca0134d2f7f760a3960d88efb3acc93"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-routes \

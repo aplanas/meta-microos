@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.10.0"
 
-RPM_NAME = "gpa-0.10.0-2.16.aarch64.rpm"
-RPM_HASH = "d9a8ded7f4bd6c554f362f5af8b90fedbb49023e1aeeb5f3febf504a93d2f4e1d784ee04f7d793f37a9cabe8212562ba6b856bcb365deb7fbe81717a7259c73b"
+RPM_NAME = "gpa-0.10.0-2.17.aarch64.rpm"
+RPM_HASH = "de91c36a050faf44365a8ce805d54a4156cd6b12dc7f3f476e2b9941b5775ffd89cce66a2d5d8fb3361758f9f2e4070258146468edaed3eafaab0fe84afbff67"
 
 RPROVIDES:${PN} += "gpa"
 

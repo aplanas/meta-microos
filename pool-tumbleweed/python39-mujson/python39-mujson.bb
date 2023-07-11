@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.4"
 
-RPM_NAME = "python39-mujson-1.4-2.15.noarch.rpm"
-RPM_HASH = "460549e9b1e5b35cfb6ef42450d65fbc73207fb8eccc193c3e3ebde3df57dfa2d7ab64611672c17db9d5e0fd4653ced842f3b12fc3ebed9e4b2b72b31141c94d"
+RPM_NAME = "python39-mujson-1.4-2.16.noarch.rpm"
+RPM_HASH = "e44a51728502121e63b568d11b5157f2d2149dfa671a7ddea21ec52b87a44d21caf692a606dc0608c6205c549b44a41df97baf405f4148acec92d2d99f08a589"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-mujson \

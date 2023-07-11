@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt6HunspellInputMethod6-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "bfb721ec2e8f7cf77c0871c3bec330f7000877ba6bab9410792873fa04ae9f2d7c86f2e49d4c9af6e098e823de1b0a4465036ea6adb9eb75f29fa77a9c3c1653"
+RPM_NAME = "libQt6HunspellInputMethod6-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "af361aafae90fe15fd09d40486538605533b8c893e44867822b0f9b412c8895af1b7cd36eb81b75caf7eefb9afcaf249476cf1b152370c2e28d2ad6916a9ac5b"
 
 RPROVIDES:${PN} += "libQt6HunspellInputMethod.so.6 \
 libQt6HunspellInputMethod6"

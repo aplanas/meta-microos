@@ -12,13 +12,13 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
 PV = "2.2.12"
 
-RPM_NAME = "python3-SHERPA-MC-2.2.12-2.12.aarch64.rpm"
-RPM_HASH = "4a7392e5909981949a813be58f6d8efbcb42c3fe070f403c85f9cd78892627d97c5101b8b2c55a9b3f08cde58a26e83fe6767fddaa8e51a50b4e682348bf1a20"
+RPM_NAME = "python3-SHERPA-MC-2.2.12-3.1.aarch64.rpm"
+RPM_HASH = "9553c27059df24aa6bc88605cdc20553822b2363a69387e43ba40aad55388afe3b7ca609468bd53a9c0d350d63c03f616bf5ee46ec33b4a74df7cbf17cf553b3"
 
 RPROVIDES:${PN} += "python-SHERPA-MC \
 python3-SHERPA-MC"
 
-RDEPENDS:${PN} += "/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
 ld-linux-aarch64.so.1 \
 libAhadicDecays.so.0 \
 libAhadicFormation.so.0 \

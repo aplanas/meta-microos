@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "libgcalc-2-1_0_1-44.0-1.1.aarch64.rpm"
-RPM_HASH = "3156f8d654dcbf050b8e2780f06a2d3fecf37b62c3f16e07351877d5ebac609ba6d38f3f7099a945f045bd089c404b6a6bfb07b91ca1c03023419557b3463213"
+RPM_NAME = "libgcalc-2-1_0_1-44.0-1.2.aarch64.rpm"
+RPM_HASH = "e5c6c27e8484cbed9ccaddd303b6f12a014dc5c2b30aab90b66d90b28a84e4d15711307dab2da3a01b4caf24de0f55c0830afaa66e248e8fee30129dfcf4882c"
 
 RPROVIDES:${PN} += "libgcalc-2-1-0-1 \
 libgcalc-2.so.1.0.1"

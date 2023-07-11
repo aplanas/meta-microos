@@ -9,8 +9,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.08svn55654"
 
-RPM_NAME = "texlive-xfakebold-2023.201.0.0.08svn55654-52.1.noarch.rpm"
-RPM_HASH = "314fe76c4af9790decf56e81f843b9f62e0d851ff3784f96f0a5dfab7246f4fdbe8d43972202293c108dd210048a44224d093605123f819c085fcc75a9120db9"
+RPM_NAME = "texlive-xfakebold-2023.201.0.0.08svn55654-52.2.noarch.rpm"
+RPM_HASH = "26240dbdc9af0a860965a8dec780f9aff25cf99b6d19f8fab0c44f68d174172adf9d2478528b2123357bd8420d57e83711c4ad8ab25c27deeade687dff58ec15"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xfakebold.sty \

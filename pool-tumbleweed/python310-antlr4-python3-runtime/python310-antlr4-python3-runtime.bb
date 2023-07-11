@@ -7,12 +7,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.9.3"
 
-RPM_NAME = "python310-antlr4-python3-runtime-4.9.3-1.6.noarch.rpm"
-RPM_HASH = "d33d7bf618f3f89b6fb326a01b4f463f77f0e50e700630eaf9ff31849b6d21d090a561bddb63dac7c128226224b22f97aa2b52e25252dbb0157d6ed7d1d0b762"
+RPM_NAME = "python310-antlr4-python3-runtime-4.9.3-1.7.noarch.rpm"
+RPM_HASH = "3c4f724fab43827a3d7da70188d3d59f0b10961a3cb2ca5f752e6140c942e64fb17c6d0fc4f05c47d45d8591f340c55fa9e0077ecd363438f2bf2821bf52bb8a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-antlr4-python3-runtime \
-python3.10dist-antlr4-python3-runtime \
+RPROVIDES:${PN} += "python3.10dist-antlr4-python3-runtime \
 python310-antlr4-python3-runtime \
 python3dist-antlr4-python3-runtime"
 

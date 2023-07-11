@@ -6,11 +6,10 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20221023"
 
-RPM_NAME = "python310-libmodi-20221023-3.7.aarch64.rpm"
-RPM_HASH = "f8fad1567736854d93ab8b0ee4383fbd2541c78bc4ea6e096969e8247a3c04643843c9482b7cf73d50a3ea4cd2c4be70c63194d58d3582bca86206068af23856"
+RPM_NAME = "python310-libmodi-20221023-3.11.aarch64.rpm"
+RPM_HASH = "b6fc419add7feb8799ad9493ab36e6f3a3b004ddf19d12910abc1d3f8ada9b37c1535f118f7231c88d883b9d46bfcbffcf09652a81e6acff34ae0fd8853c0802"
 
-RPROVIDES:${PN} += "python3-libmodi \
-python310-libmodi"
+RPROVIDES:${PN} += "python310-libmodi"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libbfio.so.1 \

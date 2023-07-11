@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0 & SUSE-Public-Domain"
 
 PV = "1.11.3"
 
-RPM_NAME = "aws-sdk-java-cloudwatchmetrics-1.11.3-7.8.noarch.rpm"
-RPM_HASH = "04f87bc81a92c934725ee157f26423d72b6fa2cb610dfd7c0b22e408b82ac41efde8a1794238f71996ce7aafbb9db208086fa219c43d7f793a5c86b35d63cfac"
+RPM_NAME = "aws-sdk-java-cloudwatchmetrics-1.11.3-7.9.noarch.rpm"
+RPM_HASH = "bb64c675da29a04e445c10742cb14ec34f2ef338de7a61b757faae9ce972febeec986d39a9f438491f4a5a7e54ae68a6c60c0c95fc6604c5379f8187fb656128"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-cloudwatchmetrics \

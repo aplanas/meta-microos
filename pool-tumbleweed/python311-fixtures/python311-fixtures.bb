@@ -8,11 +8,12 @@ LICENSE = "Apache-2.0 | BSD-3-Clause"
 
 PV = "4.1.0"
 
-RPM_NAME = "python311-fixtures-4.1.0-1.1.noarch.rpm"
-RPM_HASH = "ef682395d3bbade158bce3a7f3782cd95008098801ec57867be8a8790b4b5fe97763c35757470e0828e1023a8af22462d72de0cf61fc4755ea2938f41cf1c338"
+RPM_NAME = "python311-fixtures-4.1.0-1.3.noarch.rpm"
+RPM_HASH = "f2b7cb967e20fb355ce87955365afe60c504cddf8a1918458360b78beb95bea4b0c7698f5cadc8fd7a00a9b4d00ac154543af4d7fc77061f336fcd6a5e5edb1f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-fixtures \
+RPROVIDES:${PN} += "python3-fixtures \
+python3.11dist-fixtures \
 python311-fixtures \
 python3dist-fixtures"
 

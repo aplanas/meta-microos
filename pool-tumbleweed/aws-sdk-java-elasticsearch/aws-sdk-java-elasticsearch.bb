@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0 & SUSE-Public-Domain"
 
 PV = "1.11.3"
 
-RPM_NAME = "aws-sdk-java-elasticsearch-1.11.3-7.8.noarch.rpm"
-RPM_HASH = "af84bdd656b0bbfb415e8d7a377097cc2735d2d84b59abe4d4ac40b2e2499df61837ede75d927dd89d72468b5bc1947c6db780d343d82c4bb4c5193a1517511f"
+RPM_NAME = "aws-sdk-java-elasticsearch-1.11.3-7.9.noarch.rpm"
+RPM_HASH = "ea485053e69fd40d56d2a665308ca48a344925a0263511b33dcd98422947223710732bb61b77b5267433c52d14a76f3839cace2c6064a7cc70fa8d2ae5d54d6c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-elasticsearch \

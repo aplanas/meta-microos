@@ -15,8 +15,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.9.0"
 
-RPM_NAME = "atop-daemon-2.9.0-1.1.aarch64.rpm"
-RPM_HASH = "bae2a0ab54ab40e9d68952a6febe4b41b09463b62ddd1b8b32c50886a47abc5a522b312275140279813a588fb09c1c1051c0eb5a66ca4ee15979f90a45594fde"
+RPM_NAME = "atop-daemon-2.9.0-1.2.aarch64.rpm"
+RPM_HASH = "bd54ef3d4b29a53e77b9bbf092cbeaf686fd5d8baf8e80818b8f7966167cc86e74fb967458123de798accffed8dc9e3a08ea07b72ca3dafa88e5ac7512d287a7"
 
 RPROVIDES:${PN} += "atop-daemon \
 config-atop-daemon"

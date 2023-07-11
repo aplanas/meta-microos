@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.8"
 
-RPM_NAME = "spread-sheet-widget-devel-0.8-1.10.aarch64.rpm"
-RPM_HASH = "0feeed7ead2122f38e754290b9c471dd14885686cf4c3f453b55bfb3b4d61a15fb5ff9b5ab9b2469aea8b3009a60b24ee042ec52586d7b31c2d4940c10c80ae2"
+RPM_NAME = "spread-sheet-widget-devel-0.8-1.11.aarch64.rpm"
+RPM_HASH = "5c54b2deafcb4faa88d2a16b7d64402afff0471de3af85a6a6a33d8a58e5de49ee0020fb4c1262c531a66c18700797991034fa7338082c662ec2937149f433dc"
 
 RPROVIDES:${PN} += "pkgconfig-spread-sheet-widget \
 spread-sheet-widget-devel"

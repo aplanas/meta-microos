@@ -7,10 +7,11 @@ LICENSE = "BSD-2-Clause & GPL-2.0-only"
 
 PV = "1.6.1"
 
-RPM_NAME = "python311-pylibfdt-1.6.1-1.8.aarch64.rpm"
-RPM_HASH = "d3ce4cc1d07b44249059b5fd547e150587603193870ece7b3dfe29247ce71004c61cbbdcc19906470d3fb0cd791b0a024983a3b62fae47ebb8d8f11865ae36de"
+RPM_NAME = "python311-pylibfdt-1.6.1-1.10.aarch64.rpm"
+RPM_HASH = "bc1239e095a8013662e8cb01515ee4454194c536179eb1009b84b98369576679eb27c0690a693a097fadd553abfbb0ed4d70ccc52c3d124b4a2e3a76134cb26b"
 
-RPROVIDES:${PN} += "python3.11dist-pylibfdt \
+RPROVIDES:${PN} += "python3-pylibfdt \
+python3.11dist-pylibfdt \
 python311-pylibfdt \
 python3dist-pylibfdt"
 

@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "2.11.1"
 
-RPM_NAME = "ossim-sample-data-2.11.1-1.20.aarch64.rpm"
-RPM_HASH = "6cb0c3634f77150ee936e200132eea1a2d93b5f2d8e123af88ab114f61c49f7ad2511f1149c388852c6c11eafc727dccd7d3af3be1629af3b591fa3f96197632"
+RPM_NAME = "ossim-sample-data-2.11.1-1.21.aarch64.rpm"
+RPM_HASH = "b094c11c8b2e4a23225b861adfb224ae2386ae613f18b5c6a11582a6f627da3d7ea9eb01ed7a1be7e277e3c1a3885d6b5ee4e5dd62a113bc31e46ec3dd160541"
 
 RPROVIDES:${PN} += "ossim-sample-data"
 

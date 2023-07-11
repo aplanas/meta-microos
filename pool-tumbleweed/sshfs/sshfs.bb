@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.7.3"
 
-RPM_NAME = "sshfs-3.7.3-1.4.aarch64.rpm"
-RPM_HASH = "78ff3283814664659f2c0aa7e13f3577e9e4f2cb000ee9556e42a5ddf693b1d3a52b392e8bd6af1e7db8fe593e85537ba3df9e5fcd3996396aa32af2abfb7f74"
+RPM_NAME = "sshfs-3.7.3-1.5.aarch64.rpm"
+RPM_HASH = "27afd851edb41dea74c9ba1114d8ff33d7f7c621a0466385ebbe84e8d901ff81e27d0f3f6f4686d3701a86fa49b0a54fc69b8e1b91441a744ea59d5dea12e18a"
 
 RPROVIDES:${PN} += "sshfs"
 

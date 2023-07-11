@@ -4,8 +4,8 @@ LICENSE = "MPL-2.0"
 
 PV = "0.1.10"
 
-RPM_NAME = "libetonyek-devel-doc-0.1.10-1.11.noarch.rpm"
-RPM_HASH = "f8b4cbd2dd963f01b1d3af5f373644736264df656956e2cc400818719ec00c322f26d2c7e69e1804f769a4912cffaadc5ec4188f7f69572999db93bd2a69916f"
+RPM_NAME = "libetonyek-devel-doc-0.1.10-1.12.noarch.rpm"
+RPM_HASH = "bf25f217b40937162300f29ceec8da6b3936a323b5c2d25a1853e88c154342b9198e032a7bcea99577c07b0c1ddf9b340de8e00af8687f9ba5357f4377612174"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libetonyek-devel-doc"

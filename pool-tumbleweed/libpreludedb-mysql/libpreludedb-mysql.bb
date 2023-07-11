@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-only & GPL-3.0-or-later"
 
 PV = "5.2.0"
 
-RPM_NAME = "libpreludedb-mysql-5.2.0-2.10.aarch64.rpm"
-RPM_HASH = "7bbdbd4f6c97811e078ea240c6afb8f9156fc8c538fc5c742cae1a6a6832af85526f6f3acf617f05e614c3b0f8e0d2bc7976719786adf12e6c888d8c75feaef2"
+RPM_NAME = "libpreludedb-mysql-5.2.0-2.12.aarch64.rpm"
+RPM_HASH = "b29e714cca83e5755ef26ba53a727cf345a3f07ebc57b46f8416808ff56ffce99707c843ff151f0df4dd358ebedcf2413ddce85c6cd4933014bc8374be43f2c6"
 
 RPROVIDES:${PN} += "libpreludedb-mysql"
 

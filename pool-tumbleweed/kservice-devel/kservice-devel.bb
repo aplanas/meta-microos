@@ -4,10 +4,10 @@ be applications or libraries. They can be bound to MIME types or handled by \
 application specific code. Development files"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "kservice-devel-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "839866c1dd748a7782c59f3e8e374a06884456d14ca0a403fa8cb444d0a10a9b691de59d94a12d16092b8217bee481650f4d023074eaa0db741991664e594680"
+RPM_NAME = "kservice-devel-5.107.0-1.1.aarch64.rpm"
+RPM_HASH = "1e289fb1ef0b056de520622b3d34fc83f1c056b3c7bfa63b155a3c806d03b5fac6a574112363015c751b2173968080edbc1f393684a7e75b152619ac37b333be"
 
 RPROVIDES:${PN} += "cmake-KF5Service \
 kservice-devel"

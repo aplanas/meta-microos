@@ -7,11 +7,12 @@ LICENSE = "MIT"
 
 PV = "1.9.0"
 
-RPM_NAME = "python311-onnxconverter-common-1.9.0-2.5.noarch.rpm"
-RPM_HASH = "b41cec4d6c08d26f9437f04cea6e7265748552744e3ce61c959065f8f9909c60ed9b84add96016f53ba4b40e9b435b181f373f8c0e99d98176950698f2a1d390"
+RPM_NAME = "python311-onnxconverter-common-1.9.0-2.7.noarch.rpm"
+RPM_HASH = "8a206618b6318ec8b8288ae45cbc8455893471efe98871095c1fc19069999587c085a1bc79476e3b3a25e7a25f265db5983a83fb4e7f361648375abd3c6a4632"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-onnxconverter-common \
+RPROVIDES:${PN} += "python3-onnxconverter-common \
+python3.11dist-onnxconverter-common \
 python311-onnxconverter-common \
 python3dist-onnxconverter-common"
 

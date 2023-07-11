@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.23.1"
 
-RPM_NAME = "gnome-pomodoro-0.23.1-1.1.aarch64.rpm"
-RPM_HASH = "8b6decb82d4dc38e7c3c435b6d73c76d3d08a0078ad2849121c4ae4025fa84b0a86dfae3560ee91cd643b491888fc04935761982793403e0f854187cb8a89d96"
+RPM_NAME = "gnome-pomodoro-0.23.1-1.2.aarch64.rpm"
+RPM_HASH = "5f3505077c749b07f47480361ee6d74ac1820c2b10d92e84d006baa07900b6990764acee97cc8035c80b8b58ee62e1c2bdb7c2d09548ccf42c730ceff458c786"
 
 RPROVIDES:${PN} += "gnome-pomodoro \
 libactions.so \

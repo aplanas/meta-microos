@@ -11,10 +11,10 @@ an Adobe addition to the PDF specification. It replaces the now \
 obsolete movie15 package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.25svn64047"
+PV = "2023.208.1.25svn64047"
 
-RPM_NAME = "texlive-media9-2023.201.1.25svn64047-52.1.noarch.rpm"
-RPM_HASH = "3ba2173f620eb9b84f5454c2550ccf27dea4d38c6c96ba09347d40ac1c2d0d1a605cf9330e7b425fc8074fdbb2257f20f9a84f9a48a9cf1a73ea221d50dad294"
+RPM_NAME = "texlive-media9-2023.208.1.25svn64047-53.1.noarch.rpm"
+RPM_HASH = "da37059fbb99bb21aea0f8a75f8cd9d4ecb26b44d2233ef14ee53a3189e4049b39739283e0c3ffb409b7ac212df1d25a4d34892435adcb99a774c29a19cbb46f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-media9.sty \

@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.51"
 
-RPM_NAME = "bpfmon-2.51-1.3.aarch64.rpm"
-RPM_HASH = "fe56e1ce46abd918e989f0dec6a11bdc085b989ddbaaf72ded8f3f12414218b50f0c3c8af8e365600332a5a556185f37e5dd566a0dc89ae61b84274f6489a9fc"
+RPM_NAME = "bpfmon-2.51-1.4.aarch64.rpm"
+RPM_HASH = "2aea7b47eb6bd6265d05b3f114182c25fd13a35d52908bfb002ba8500d4d808e2555be369e63c91d096eace8771091f5b082275ca38130022debf92be5fdf5e2"
 
 RPROVIDES:${PN} += "bpfmon"
 

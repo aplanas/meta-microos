@@ -2,13 +2,13 @@ SUMMARY = "Safe, consistent, and easy exception handling"
 DESCRIPTION = "Safe, consistent, and easy exception handling."
 LICENSE = "MIT"
 
-PV = "0.1.7.3"
+PV = "0.1.7.4"
 
-RPM_NAME = "ghc-safe-exceptions-0.1.7.3-2.2.aarch64.rpm"
-RPM_HASH = "1e4048d69cb9effec149a047f20231a2671e5003a17e9318dd5c53730773f7c21cd6ca8b0ab55959fbd5227692edc780e43307ff649f19aeb1c1596ddfb0da1e"
+RPM_NAME = "ghc-safe-exceptions-0.1.7.4-1.1.aarch64.rpm"
+RPM_HASH = "0c01df316af29ed5a4e026eeee2544a1de46aa2004a5d6dfd60d0043f8936470057cb6976d3629d2646cb56dfe3539e49c94aa9dbe6850cb21c63ca9fd7f1b2b"
 
 RPROVIDES:${PN} += "ghc-safe-exceptions \
-libHSsafe-exceptions-0.1.7.3-4ydW60ruqZ4IdMpKf3b6BD-ghc9.4.5.so"
+libHSsafe-exceptions-0.1.7.4-8XVKrMBchTjCLhdcvBwBNb-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
 libHSbase-4.17.1.0-ghc9.4.5.so \

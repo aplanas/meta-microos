@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-serif-nyiakengpuachuehmong-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "2bd0be68439bd57a155c68140457f7800412b21a191567bfe793545438468385a113fdf0aa2539a74eb45c6516969e8a45692517d9aea430a5adbd5c1588dac0"
+RPM_NAME = "noto-serif-nyiakengpuachuehmong-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "364773ddcbd984b319ca9782f477e8246829050b34a6605dc318bef00f1a701fbab4312a253f29ad8734d54a4c9863349c93947a46c39be04a42ca14c4aeebf9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-serif-nyiakengpuachuehmong \

@@ -34,14 +34,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.02"
 
-RPM_NAME = "perl-Test-MockDateTime-0.02-1.12.noarch.rpm"
-RPM_HASH = "a338ef1f90ed2580788741691c62cb20964fc6eb699cfd13ccd3c325eda72a90d65ce10f4647ee86a42d3c4d22cca4474c2899284a2d03cfa88f7af96a4cb308"
+RPM_NAME = "perl-Test-MockDateTime-0.02-1.13.noarch.rpm"
+RPM_HASH = "4905a8b086a1b907ba6bab6070446e1f56bcdb4af365021792b804cf360aca30c4ac7a2c3358f0e50b36fc72ad480592eca2e674cb7eba75d12d97604004c1df"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--MockDateTime \
 perl-Test-MockDateTime"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-DateTime \
 perl-DateTime--Format--DateParse \
 perl-base \

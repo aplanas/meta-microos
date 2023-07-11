@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.1.2"
 
-RPM_NAME = "mandown-0.1.2-1.2.aarch64.rpm"
-RPM_HASH = "c75699a4515152ee26334c8e0864ac37ccc824400e123db38c7de6118ecdcf047b4cf5eacf697261e6d143f287d5fafa3e23b5265547e587865e497baad24f46"
+RPM_NAME = "mandown-0.1.2-1.3.aarch64.rpm"
+RPM_HASH = "1e2ca35a76b356b9dc24a6a934f0ac1676534d66505db6d89c330882e6ee3fec3517efc5f55cd269548d1cff35681de7ac4b3613ac0181e88518e09f9043e8cb"
 
 RPROVIDES:${PN} += "bundled-rust-crate-bitflags \
 bundled-rust-crate-deunicode \

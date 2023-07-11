@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.10.1"
 
-RPM_NAME = "python310-knack-0.10.1-1.3.noarch.rpm"
-RPM_HASH = "626431749525bcc3574d336e5d1bdb1862559cc918d0c89225a5af84f2b58befcd90f9495a913d72b6428963a991e70814ea6923b1f832968a32d60c66ff7551"
+RPM_NAME = "python310-knack-0.10.1-1.5.noarch.rpm"
+RPM_HASH = "930eb4d5ec9d028e33a4bcc0183b4754bebc757a6e8250dbf9e29b56f05fc1e887ef2737b1dd74e2ec721e1d4ecd727c29cba5e726b059aa1e7e85bc332bee0a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-knack \
-python3.10dist-knack \
+RPROVIDES:${PN} += "python3.10dist-knack \
 python310-knack \
 python3dist-knack"
 

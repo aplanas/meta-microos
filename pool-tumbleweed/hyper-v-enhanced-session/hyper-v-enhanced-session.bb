@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.0.1"
 
-RPM_NAME = "hyper-v-enhanced-session-1.0.1-2.3.noarch.rpm"
-RPM_HASH = "bf5153053f895f547227d2b931ac5584103528966b5cb5061d60357e4b93b0bb12ef7e8a99f67b24905325f61d90099b1bcca46f1397ca60471b1db98ef843bf"
+RPM_NAME = "hyper-v-enhanced-session-1.0.1-2.4.noarch.rpm"
+RPM_HASH = "116fb32ca7f239379981f10db83346bf3d3cc7503c2dedc32e3c56e2311479935806c023014cf287406d2dc4cad7c6700588affedfaf944c49426399e8b8bf8b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-hyper-v-enhanced-session \

@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.1.3"
 
-RPM_NAME = "python39-pygame-2.1.3-2.1.aarch64.rpm"
-RPM_HASH = "397ff90ed8bb492d1aedc8bc347e2b4bab54010b588081a23e60fa90b6c95e907efa901b684d05fc1125b14de86b659535133a09feedb5edb141823aaf540875"
+RPM_NAME = "python39-pygame-2.1.3-2.2.aarch64.rpm"
+RPM_HASH = "059770f8f9b4ab5ae6897ba5807ab2f9b7f45e9f7e86094b70bd8aa1c345b588531c7a63b9c45d0e4aadc8c862d7867c3c7b54c295b9c70858856cd6455ffc14"
 
 RPROVIDES:${PN} += "python3.9dist-pygame \
 python39-pygame \

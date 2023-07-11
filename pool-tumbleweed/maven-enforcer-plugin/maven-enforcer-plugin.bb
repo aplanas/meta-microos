@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.4.1"
 
-RPM_NAME = "maven-enforcer-plugin-1.4.1-3.10.noarch.rpm"
-RPM_HASH = "9dd61936a7a2fb36c91387c43bb01fb2c5c9747a6d9305c3643bda8de65258a354789fa9b654edad240fa6cef7248ebecc57cb5aa95c0ba22dc665d6e5f8b871"
+RPM_NAME = "maven-enforcer-plugin-1.4.1-3.11.noarch.rpm"
+RPM_HASH = "20b7a56edbf8a5eb5021d3f5c46666b1c5e754f5ea494873aff52797d79bb205e70de3b782557d4d8c980f670e5fdd52afe369ee6f4b5e69e09554a11a5422d4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-enforcer-plugin \

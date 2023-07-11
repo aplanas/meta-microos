@@ -6,10 +6,10 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.4.1"
 
-RPM_NAME = "sgtk-menu-1.4.1-1.6.aarch64.rpm"
-RPM_HASH = "816cce80a2df57f437a6e68e20725f61bfceea37df8ba9fff923738e8e7a36ace49e825a5139729bdcb5c9fb94f4ddd30276e6dd9da0a161ecb60c47095f39c0"
+RPM_NAME = "sgtk-menu-1.4.1-1.7.aarch64.rpm"
+RPM_HASH = "0f9171af9d4a34dad89a5d223c390352c4aba203d0efef9bbac073b4eeee8118d18e23e5333d7602103c9062101808f79d44d6facf6ab0419de98f744c344e97"
 
-RPROVIDES:${PN} += "python3.10dist-sgtk-menu \
+RPROVIDES:${PN} += "python3.11dist-sgtk-menu \
 python3dist-sgtk-menu \
 sgtk-menu"
 

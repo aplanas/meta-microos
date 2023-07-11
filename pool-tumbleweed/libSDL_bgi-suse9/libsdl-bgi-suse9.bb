@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & Zlib"
 
 PV = "3.0.0"
 
-RPM_NAME = "libSDL_bgi-suse9-3.0.0-1.3.aarch64.rpm"
-RPM_HASH = "846cb90a2168f71b20a888b88f5718cba7b77098f5eafad4712af06cfb8bc44cbd09ba32354119d980da3afcb78120004d3ef5153acf6ce47b0f592f96fce320"
+RPM_NAME = "libSDL_bgi-suse9-3.0.0-1.4.aarch64.rpm"
+RPM_HASH = "e898cc26b0c5185e5f75d54a7fa241ccfc7262380cfceae672d4745e49688ba2ce291835afc2bb5760d17371e23277020457a56db24c0774f6c2cf7235a8eae7"
 
 RPROVIDES:${PN} += "libSDL-bgi-suse9 \
 libSDL-bgi.so.suse9"

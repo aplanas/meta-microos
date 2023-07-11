@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.3"
 
-RPM_NAME = "libKF5PulseAudioQt3-1.3-1.10.aarch64.rpm"
-RPM_HASH = "0119f82735372f21f6a21e786fcf78f1da2ddcf376bfe1280696ee3bd69903d8d52d76abdd428260ae94bd7ab7bc2c2a8a0c5294ff4c3f677cb3b64a2a071f4b"
+RPM_NAME = "libKF5PulseAudioQt3-1.3-1.11.aarch64.rpm"
+RPM_HASH = "492dda7967530033a1dc9db2c8f45e2950b75d906efd804f46892a89fa0f5e3755b5fb118b480c8b730200309a190f991e71bd61b760b4c21ae8cbb2d92a2284"
 
 RPROVIDES:${PN} += "libKF5PulseAudioQt.so.3 \
 libKF5PulseAudioQt3 \

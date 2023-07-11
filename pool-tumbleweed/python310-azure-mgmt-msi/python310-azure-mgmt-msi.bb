@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "7.0.0"
 
-RPM_NAME = "python310-azure-mgmt-msi-7.0.0-1.3.noarch.rpm"
-RPM_HASH = "08479781b8405861029e69bc130c8971a4befba52fa046a89913bb6051323088e1f0dc970566b5194d7656d856515a9b588097a2ce2ee3a37e995ed102b71a3a"
+RPM_NAME = "python310-azure-mgmt-msi-7.0.0-1.4.noarch.rpm"
+RPM_HASH = "8ff6061f3f78d7de911352fc1d2633213475e0461ffff3bf0169ddf55fd5c0f84dca7b8427e6683d50308be9ba97af004a4e4104e599ecc0981c9bd3ba7fc327"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-msi \
-python3.10dist-azure-mgmt-msi \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-msi \
 python310-azure-mgmt-msi \
 python3dist-azure-mgmt-msi"
 

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.34"
 
-RPM_NAME = "pdsh-slurm-2.34-10.2.aarch64.rpm"
-RPM_HASH = "98395b3152be3ea1c0afb4d7fa6aebe363a11c257c974ec7b1ec60104fa4060afb0eea0f199239a0fcdae46df17d4ae4ee35737d68e5780335db586f6974e05b"
+RPM_NAME = "pdsh-slurm-2.34-12.1.aarch64.rpm"
+RPM_HASH = "f8fbbb0aa2fa89c15ae9edc023163292c67d36d2f5d4cff7c8d4269b4768856a397c7b99ed24028208c783239e41a86a44d67328f9861d70f2dac47124108053"
 
 RPROVIDES:${PN} += "pdsh-slurm"
 

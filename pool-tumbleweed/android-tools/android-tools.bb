@@ -5,14 +5,15 @@ LICENSE = "Apache-2.0 & MIT"
 
 PV = "34.0.1"
 
-RPM_NAME = "android-tools-34.0.1-1.1.aarch64.rpm"
-RPM_HASH = "1401190c2d62c77603fa551bce7633ec1c22636deaddb98a6000c49ac640ab863c2c3d261ba145b57d1840a29f5f84d11b8bbe7a5593456a8b373a9cb94babf2"
+RPM_NAME = "android-tools-34.0.1-2.1.aarch64.rpm"
+RPM_HASH = "be70d1c1b1568bbd7c23fe5d4a2c92119d37d7cfc4b7f09d9a97c42ad1c1a56f8287872b32f04366bc8094b950a91a4f4d77969482b662c93fe18b36f322aa17"
 
 RPROVIDES:${PN} += "android-tools \
 android-tools-python3"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 android-udev-rules \
+f2fs-tools \
 ld-linux-aarch64.so.1 \
 libbrotlidec.so.1 \
 libbrotlienc.so.1 \

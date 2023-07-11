@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.3.0"
 
-RPM_NAME = "libdatovka4-0.3.0-1.3.aarch64.rpm"
-RPM_HASH = "e6620930e399df946308bc8a9c20f5724914ae7f507485195071d18c782d2dd81c45a161b6dca99b37daa230a9b37dc3011a8c369db01e09fe4b3b1cb209d543"
+RPM_NAME = "libdatovka4-0.3.0-1.4.aarch64.rpm"
+RPM_HASH = "120a19b6f1c06feee24cde9807f5e83b3d2a6c925635dc77e75043823c42c34ba792bedeeecc20c413cecab8f1e0c18aa0962241b828d58a1423be4729f21d4f"
 
 RPROVIDES:${PN} += "libdatovka.so.4 \
 libdatovka4"

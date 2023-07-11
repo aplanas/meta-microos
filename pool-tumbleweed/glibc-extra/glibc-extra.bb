@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.37"
 
-RPM_NAME = "glibc-extra-2.37-4.1.aarch64.rpm"
-RPM_HASH = "c7ec678f1fd3eaf0bc34c2ad7e31fc054dfc8ed0f7631b7deddc16f20c561f1e91438f3f3c679b7f4e5e4eb8f9394dca503cbbf2e564e72dc2db8b8124a510b1"
+RPM_NAME = "glibc-extra-2.37-4.4.aarch64.rpm"
+RPM_HASH = "ce07e99d95e786a8c5d7d02bbc5ace87e0f32e58414c3515f695d2aff0a6a76effc6e2f7bc62e13a99aa3ef601475d7e2e9646f69714380bcaac1747e9ef0d5b"
 
 RPROVIDES:${PN} += "glibc-extra"
 

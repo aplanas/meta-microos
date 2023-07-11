@@ -16,8 +16,8 @@ LICENSE = "SUSE-GPL-2.0-with-openssl-exception | SUSE-GPL-3.0-with-openssl-excep
 
 PV = "4.14"
 
-RPM_NAME = "gnucash-4.14-1.3.aarch64.rpm"
-RPM_HASH = "7da133571d30d3b92c79117d5a4fa474b6d92b401a26636c43c96822c8fa9446de9e984ebced673026b08b4c819d7f15e625b7a2c50dff2a87dba6d2cee74af2"
+RPM_NAME = "gnucash-4.14-1.4.aarch64.rpm"
+RPM_HASH = "2e94a1f26aad4620c7a833bed5ce9ed7995a63c3acf0ee16fba5b1aac1a612661176f8ba7a54afb642e3156ea0e4ededcde5483b7947f0edb1a4a3db14163468"
 
 RPROVIDES:${PN} += "config-gnucash \
 gnucash \
@@ -77,7 +77,7 @@ libm.so.6 \
 libofx.so.7 \
 libpango-1.0.so.0 \
 libpangocairo-1.0.so.0 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libsecret-1.so.0 \
 libstdc++.so.6 \
 libwebkit2gtk-4.1.so.0 \

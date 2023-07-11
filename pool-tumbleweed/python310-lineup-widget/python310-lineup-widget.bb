@@ -7,12 +7,11 @@ LICENSE = "MIT"
 
 PV = "4.0.0"
 
-RPM_NAME = "python310-lineup-widget-4.0.0-1.8.noarch.rpm"
-RPM_HASH = "c09c414684635f5f09f34a09b0352ae1ac48fb4db16c593b70558f8e2edfd7f8878d7c2503e339d952d65fecafbf7d927db28980536564713278c99445c7583c"
+RPM_NAME = "python310-lineup-widget-4.0.0-1.9.noarch.rpm"
+RPM_HASH = "3e8f2629ea662c03aa81014e07f767a2d1e056a737bfe9c726fbf0909e1fc0ea00defa5572085926033a739b5bcb38e20e023742a2f82bfdf898855198311d87"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-lineup-widget \
-python3.10dist-lineup-widget \
+RPROVIDES:${PN} += "python3.10dist-lineup-widget \
 python310-lineup-widget \
 python3dist-lineup-widget"
 

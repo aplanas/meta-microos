@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.6.3"
 
-RPM_NAME = "python39-pylibmc-1.6.3-2.1.aarch64.rpm"
-RPM_HASH = "06144776082d978c658c3befb4b40f047e351c65b005e8338cb32101216cc1bdeae7340ca29e74547811392f91def278cb6e715e6096701b494d696fa95aa372"
+RPM_NAME = "python39-pylibmc-1.6.3-2.3.aarch64.rpm"
+RPM_HASH = "06df44a1d8892886dbb3ad021b70197d9202b1ef2ec01245128708a811e6f13569bc0edf2ecd073f5d4bea937bee1af3ba6c385ddeb2608a6d1ac39891868c74"
 
 RPROVIDES:${PN} += "python3.9dist-pylibmc \
 python39-pylibmc \

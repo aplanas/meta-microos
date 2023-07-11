@@ -4,8 +4,8 @@ LICENSE = "( Apache-2.0 | MIT ) & MIT & MPL-2.0 & MPL-2.0+"
 
 PV = "0.1.0~0"
 
-RPM_NAME = "crc32csum-0.1.0~0-1.5.aarch64.rpm"
-RPM_HASH = "7d76aad43d85298f59228dd21d2af63e703d87775f00d9b296db84ba30c0b76fce58329f65bb9b257ac772830a4c9f95b9f14158b3cbe9e19604d25575584772"
+RPM_NAME = "crc32csum-0.1.0~0-1.6.aarch64.rpm"
+RPM_HASH = "17957f12359412c5192c4f82e013cf3004eec0e507ebaa87b77703aa1dba88d9c872ccb50953f59161f16107b5db50f1190f3d24cea5e3d4a68ed9ef530ee387"
 
 RPROVIDES:${PN} += "bundled-rust-crate-bitflags \
 bundled-rust-crate-clap \

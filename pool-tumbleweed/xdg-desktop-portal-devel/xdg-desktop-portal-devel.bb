@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.16.0"
 
-RPM_NAME = "xdg-desktop-portal-devel-1.16.0-1.3.aarch64.rpm"
-RPM_HASH = "94c883eda3c8d15c37c9bfb959b426a23e9c02b5063259885d55be5db64ddb716d066ccccca5687c7e7ee78a651c4308de68ea5406efb7af7bbab727f8dcf769"
+RPM_NAME = "xdg-desktop-portal-devel-1.16.0-2.1.aarch64.rpm"
+RPM_HASH = "a416d8cbfddf16d758cf804ac933c20cc3fd393040f7b6c5126a0e95c13133054addd76d0198b1a05fdff9dfc7e6627ecfc53a2d88486e37151660fd8e389f60"
 
 RPROVIDES:${PN} += "pkgconfig-xdg-desktop-portal \
 xdg-desktop-portal-devel"

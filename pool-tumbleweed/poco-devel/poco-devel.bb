@@ -5,8 +5,8 @@ LICENSE = "BSL-1.0"
 
 PV = "1.12.2"
 
-RPM_NAME = "poco-devel-1.12.2-1.4.aarch64.rpm"
-RPM_HASH = "ace6828e3d97589fb2210b9d496ca272e2009d57d638d650f38b1be33c5f4fd9288ac1bef90ae697f0b5f91f6b68111ab7e6e144b18c6f3f8bb2e4ceddd0bb69"
+RPM_NAME = "poco-devel-1.12.2-1.5.aarch64.rpm"
+RPM_HASH = "fd061dd4d20ce8a5c26653ce5448b3438a6041eff8f3dcd71479a425f2d71bc18ca0322b8fc28031586851f5d444ac0210fb1e0e69a33f8e7b6a167dd8cb86b6"
 
 RPROVIDES:${PN} += "cmake-Poco \
 cmake-PocoActiveRecord \

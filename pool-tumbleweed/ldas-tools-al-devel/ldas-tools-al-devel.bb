@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.6.4"
 
-RPM_NAME = "ldas-tools-al-devel-2.6.4-1.13.aarch64.rpm"
-RPM_HASH = "0d321c9aa5dc1092bb7b173a0492965d05ed56801dd1ad40e7a8c6724fe71d9a8365e846e94d7375f66282ffb9b173ce81af590839fab0447fdc654538fca10d"
+RPM_NAME = "ldas-tools-al-devel-2.6.4-1.14.aarch64.rpm"
+RPM_HASH = "631f38624128fd7bc80b8a28438ac89b584225e05e03196255de744b3bf52af9659073848c52615d6568e3e2efb1cfee14be4d46272cc91b04ad5c49b5481c12"
 
 RPROVIDES:${PN} += "ldas-tools-al-devel \
 pkgconfig-ldastoolsal"

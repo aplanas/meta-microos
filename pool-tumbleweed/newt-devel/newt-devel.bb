@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.52.23"
 
-RPM_NAME = "newt-devel-0.52.23-2.1.aarch64.rpm"
-RPM_HASH = "9acdaf568d28cade415d3d492687b6e792d28d55bab8bd6b785babdf7f9a0d79e09251580b2e48e2f16d333b5766fe618f2392abb2cddb8fda0f313fa6788745"
+RPM_NAME = "newt-devel-0.52.23-2.2.aarch64.rpm"
+RPM_HASH = "fb6aec52f6ee350984d8e72f4d1a098483615a00d703866ac18c1f67b45ac3b6466aabb6150021663a38d8e8e2aa91a64919f22a9f689cce3a02c0792cb9793e"
 
 RPROVIDES:${PN} += "newt-devel \
 pkgconfig-libnewt"

@@ -13,8 +13,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-netstoremanager-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "21934fb7380fe758ad6b91c3fead53ddbf0c9d35378247cd0e70bc2633764674d65239d11ffee430ec3215c8d66aa4a6e162a3aabee1dac620dd23ac66a55a1a"
+RPM_NAME = "leechcraft-netstoremanager-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "abc044d8bf14810eef01fe29e8b3b40680424aae8d97936e4a4a1ac94b2f0c5db567d4642e0871456da335999d40946364e98abaaee35ac6a20791e53dd3c2a6"
 
 RPROVIDES:${PN} += "leechcraft-netstoremanager \
 libleechcraft-netstoremanager.so"

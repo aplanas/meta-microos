@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0 & Python-2.0"
 
 PV = "15.0.0"
 
-RPM_NAME = "python39-unicodedata2-15.0.0-1.4.aarch64.rpm"
-RPM_HASH = "96b8069274f34a5a830f36d2c9247b2b3639c5d6affdaa1bbe1c968e6aa96be06bf7552410a3e339f2346d7c97a227a00191ac449969d629261d0972e5155b24"
+RPM_NAME = "python39-unicodedata2-15.0.0-1.6.aarch64.rpm"
+RPM_HASH = "15857e6dbdd3ecae0bef570f5a70e5c61a71feada0ddf24c4a0f9b606c73d0360b670f38f8f4d079d81071e547596c4786c449f5850e13e24ffb5c885166763d"
 
 RPROVIDES:${PN} += "python3.9dist-unicodedata2 \
 python39-unicodedata2 \

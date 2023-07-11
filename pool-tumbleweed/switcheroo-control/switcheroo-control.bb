@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.6"
 
-RPM_NAME = "switcheroo-control-2.6-1.4.aarch64.rpm"
-RPM_HASH = "abaee271f06021052a1f77aa7b2259678a91c38da712020ad214d333395287a8eb4f4315fe32cd9a6d74da794b758dac2700d3c86e59ab62fadf3c06cf09e93e"
+RPM_NAME = "switcheroo-control-2.6-1.5.aarch64.rpm"
+RPM_HASH = "a008ed765ca0d3094901a86aae7a0836bd82389d2ad760b3b84d1bd4d5779e07c7f18bc70226074a1028d94259eaf827ec8a2139c4f59defa16948ab8f99352f"
 
 RPROVIDES:${PN} += "switcheroo-control"
 

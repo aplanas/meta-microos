@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.46.0"
 
-RPM_NAME = "python39-mutagen-1.46.0-1.4.noarch.rpm"
-RPM_HASH = "cbb830cfb3ae6e4f9dfd557a6bb94feaabbb4d364a269fad147f7053453ac26f6b9977f7df48421e652b7db562e1a831804875601024094272dc5d2cc3f2917f"
+RPM_NAME = "python39-mutagen-1.46.0-1.6.noarch.rpm"
+RPM_HASH = "e1fc1f9d7ca0be2064fee802fafc398892d98340329349c53400bdd89dc49c6223340062015176127ead870cf348f64bd71f15855ca55bd1440f19d9bba762a6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-mutagen \

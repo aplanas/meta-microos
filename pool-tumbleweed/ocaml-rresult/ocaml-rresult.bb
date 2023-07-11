@@ -7,8 +7,8 @@ LICENSE = "ISC"
 
 PV = "0.7.0"
 
-RPM_NAME = "ocaml-rresult-0.7.0-1.1.aarch64.rpm"
-RPM_HASH = "9044a6e7c34bf83ad9ca66752decb37fb7089ab157d11eacb2e1d1518f47b3c2afc299db28ed82b8cd904abde621d222dac7503f9c28a42cbb21d611c8945db9"
+RPM_NAME = "ocaml-rresult-0.7.0-1.2.aarch64.rpm"
+RPM_HASH = "3b14b9dd2a5565448f9761dbdbf50062609b39b6522cfffefb7620b8450a860b1163afd42090a39d2a5bcc08fa5985568348fbd9e6f3a72702b13d9f29b653f2"
 
 RPROVIDES:${PN} += "ocaml-rresult"
 

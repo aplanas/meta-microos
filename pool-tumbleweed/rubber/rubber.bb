@@ -11,11 +11,11 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.6.0"
 
-RPM_NAME = "rubber-1.6.0-1.9.noarch.rpm"
-RPM_HASH = "05760c8ff9c28a858c7aeca5e5ed2fe31c63e97e67a9c025338f7505f76dfcb2419255782f024595b1db6f6ebf69ecc5896bf161fa8a20e6b3ab25db02117d9c"
+RPM_NAME = "rubber-1.6.0-1.10.noarch.rpm"
+RPM_HASH = "e477c5b05e421ebd9d812aa7ecd3a1425fb0c531dea3b1931d0d045466cd0dd9c4240cb5846334fb8c7984013926c4a1092cf45e5697dba5805335740f226bdf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-rubber \
+RPROVIDES:${PN} += "python3.11dist-rubber \
 python3dist-rubber \
 rubber"
 

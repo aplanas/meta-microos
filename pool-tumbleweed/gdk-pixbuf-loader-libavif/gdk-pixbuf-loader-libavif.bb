@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.11.1"
 
-RPM_NAME = "gdk-pixbuf-loader-libavif-0.11.1-2.1.aarch64.rpm"
-RPM_HASH = "d5cd4aa236edbc5263360fc6f5931199e5c597131e28d5de04946affb3dd84dcf6aea4a573dd8f692e69aa0f16b6351a0442a05c5c01fd7c784080c4fc5676f9"
+RPM_NAME = "gdk-pixbuf-loader-libavif-0.11.1-2.2.aarch64.rpm"
+RPM_HASH = "d66e55298ee5a88b462e716aa88fa5774d745bb1064961bdf13f3402c6b80c1acd613112de5f186619b298ec7d56a178b3b1b2d87035ed6e7f588abdb1381059"
 
 RPROVIDES:${PN} += "gdk-pixbuf-loader-libavif \
 libpixbufloader-avif.so"

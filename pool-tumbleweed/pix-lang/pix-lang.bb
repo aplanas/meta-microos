@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.8.0"
 
-RPM_NAME = "pix-lang-2.8.0-1.11.noarch.rpm"
-RPM_HASH = "a08d9368bccd33a75b124c72bde7bb42f74a2a768c812d9b54d407f01b928d50773a2f06e18b355a5d5be55e46bf9d4bd4aeee2c68fa0ec2c6b9ba10192c881f"
+RPM_NAME = "pix-lang-2.8.0-1.12.noarch.rpm"
+RPM_HASH = "4f9e27bae039f3d1b9b3766337694971e1717045e020e76b016744ce5fbaa3ae2acd62db03f8d6ddcd524a0434f067ee0087d7c8f64c069315329c222b62ceb8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-pix-af \

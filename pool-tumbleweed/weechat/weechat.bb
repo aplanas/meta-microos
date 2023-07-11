@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.8"
 
-RPM_NAME = "weechat-3.8-1.1.aarch64.rpm"
-RPM_HASH = "943c0b5276e08b00f28755118c95cda7a974bd7fa94202f257ded5271f59dccec4ca1bb5973f9f366fbbe93543850cc5ec946403678b337c574c9af6a564c579"
+RPM_NAME = "weechat-3.8-1.3.aarch64.rpm"
+RPM_HASH = "b157a71adbae6bbed0629232a3208b73ff9243895086d3e58ecc80b0078cdb08cf2e5e0f3dced6ba47ebc105f71fc00c9455606201c050f9f277e77a9d03f23b"
 
 RPROVIDES:${PN} += "weechat"
 

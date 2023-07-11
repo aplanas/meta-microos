@@ -6,13 +6,11 @@ LICENSE = "Apache-2.0"
 
 PV = "2.1.75"
 
-RPM_NAME = "python310-rtslib-fb-2.1.75-3.1.noarch.rpm"
-RPM_HASH = "b7c49f1e6f907e84400096f029ca0e06fdd00845b207ed5057c93ab6386587daa56cdd9f8534d66f6c9434476aa7d63216d9562c74e79976f751f6df9402d48f"
+RPM_NAME = "python310-rtslib-fb-2.1.75-3.3.noarch.rpm"
+RPM_HASH = "be13e7baaa607aec5db6cb00c4bd345266bb7c97a8a5ed98afeca06c5afdba3cad1cc2e74335084e65bd7a1c4b312430c667bf2bbae4004b67eb8ea3ec6d236f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-rtslib \
-python3-rtslib-fb \
-python3.10dist-rtslib-fb \
+RPROVIDES:${PN} += "python3.10dist-rtslib-fb \
 python310-rtslib \
 python310-rtslib-fb \
 python3dist-rtslib-fb"

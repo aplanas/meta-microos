@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & MIT"
 
 PV = "0.7.0"
 
-RPM_NAME = "python39-pytest-jupyter-0.7.0-1.1.noarch.rpm"
-RPM_HASH = "eb7791526254ee271e64542eb3e83a284dc3c2ae75fb16650b8e2605c2747b4ea877c288ad140b83a548a02debb8c681c9cbbf18bef712ab00be7bd3d9ecd0d7"
+RPM_NAME = "python39-pytest-jupyter-0.7.0-1.3.noarch.rpm"
+RPM_HASH = "b499e8feac48f2621fb909c44dbd035521b57d3e545a95107860c811cc93d23a923022744c1360a43cfe998a88165299bd077d623460bd7f593c52066f91f2ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytest-jupyter \

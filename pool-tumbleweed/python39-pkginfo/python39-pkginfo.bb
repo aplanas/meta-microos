@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "1.9.6"
 
-RPM_NAME = "python39-pkginfo-1.9.6-2.1.noarch.rpm"
-RPM_HASH = "d6c7f59cbfee453ace663561bcbc924256ac46851eb7ddc3b37b76328267504a642143531f91b973c240023e1e8b8d982c26ddc753a2268d3dc06786919b62d7"
+RPM_NAME = "python39-pkginfo-1.9.6-2.3.noarch.rpm"
+RPM_HASH = "6e9110b2f24df3f9348b535b4d0dc626e465de0b07e947218b302a83fb3cd7423ab30b61c9972060f47ba31285b876d1bf066b0b843e7487ac816b56fafffdf8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pkginfo \

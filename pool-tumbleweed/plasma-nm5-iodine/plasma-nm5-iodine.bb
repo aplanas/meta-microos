@@ -2,10 +2,10 @@ SUMMARY = "VPN support for plasma-nm5"
 DESCRIPTION = "Iodine (VPN through DNS tunnel) plugin for plasma-nm components."
 LICENSE = "(GPL-2.0-only | GPL-3.0-only) & (LGPL-2.1-only | LGPL-3.0-only)"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "plasma-nm5-iodine-5.27.5-1.1.aarch64.rpm"
-RPM_HASH = "c4b35efa3bc5f2fcd3a7401e17a614aee1a1f9564e043cd3b0739583035ae08d790306e7a0d8fe1e5fd9a6ae091f4cf536da9457f1e404278a79809b2b758c05"
+RPM_NAME = "plasma-nm5-iodine-5.27.6-1.1.aarch64.rpm"
+RPM_HASH = "25fab79516b8599b8d84dd044c4a75824a9d608efd7811f100c4a9cedefe0d5d2a0b0688a4fa9ae8c0351565a55a7a26f461a0d3c1061b28a344cae6f50ab1cf"
 
 RPROVIDES:${PN} += "NetworkManager-iodine-frontend \
 plasma-nm5-iodine"

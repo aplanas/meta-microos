@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.21.1"
 
-RPM_NAME = "libtextstyle0-0.21.1-2.1.aarch64.rpm"
-RPM_HASH = "91ee6a8c47dc01c10264ce987a889a55988e12762e2507d8ac325413dc781e2eac520692adaae4e85166d566a2aecd5a66554dc77873c83fb1b153fade05226b"
+RPM_NAME = "libtextstyle0-0.21.1-2.2.aarch64.rpm"
+RPM_HASH = "b9e304bd71e7c47c87554ecdaa3aa00c3aedf22165643fcde89833ef47cce5a5e3c5e25b75aa7dd977562833ec7abfd0a55d1b3daff6c7892eda6736003df9ad"
 
 RPROVIDES:${PN} += "libtextstyle.so.0 \
 libtextstyle0"

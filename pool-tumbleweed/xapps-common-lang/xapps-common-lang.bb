@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.4.1"
 
-RPM_NAME = "xapps-common-lang-2.4.1-1.3.noarch.rpm"
-RPM_HASH = "4256c84f732556b9c6e789a6d68037d9df7cf2e849af58e735a0f6e33c73e2b617e6581ea50fbfd6b97a49551ba14916ace889becb0a2acc5804a26d3e3fff65"
+RPM_NAME = "xapps-common-lang-2.4.1-1.4.noarch.rpm"
+RPM_HASH = "2561914c96c286475a906f3ac2aca386ebd4643dd4bf16557b64c512ff4b5136fbbf86ff13f4ff3de5cfa384644b402d052c47769c277babb7289e7c40153ace"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xapps-common-af \

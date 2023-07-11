@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.0.2"
 
-RPM_NAME = "python39-kafka-python-2.0.2-4.1.noarch.rpm"
-RPM_HASH = "7731d71dd792a26764876195c1f5b6838612e2b8e2b61e7b71803fcd5685b43be2cba5bb20dd94daa5c981466cb5432f8c15f275a9d84cc19188d956f430e7da"
+RPM_NAME = "python39-kafka-python-2.0.2-4.3.noarch.rpm"
+RPM_HASH = "a1137d22457851fa3383f0a92cc382b929df7e7e5598c023068a33f4dbcf4cad7a305d809701300869e166e324187d6e492468221090ecb38aa8e81b0638d338"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-kafka-python \

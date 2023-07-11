@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-only & GPL-3.0-only & LGPL-2.1-only"
 
 PV = "4.3.1.p3"
 
-RPM_NAME = "libomalloc-4_3_1-4.3.1.p3-1.3.aarch64.rpm"
-RPM_HASH = "4e14911aef317642e2b50a36abe7ed671d932d1a731e1965d68e7672acb94eea6ac4e8238054ca89a65bd51efc128e6f5e988b38519bbe85d4339473ca4d6a49"
+RPM_NAME = "libomalloc-4_3_1-4.3.1.p3-1.4.aarch64.rpm"
+RPM_HASH = "4545b367836c26be991e115731a2100534e8f8076b36125c8c9bba06cefdc0ce5b4f48ed0db23e00a09164823a84ca6e4a44319bf8c3f6421e4a4cfe6c67a015"
 
 RPROVIDES:${PN} += "libomalloc-4-3-1 \
 libomalloc-4.3.1.p3.so"

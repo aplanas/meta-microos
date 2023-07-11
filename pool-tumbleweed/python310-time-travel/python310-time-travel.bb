@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.1.2"
 
-RPM_NAME = "python310-time-travel-1.1.2-3.5.noarch.rpm"
-RPM_HASH = "918336546ff6c550837b1fc4f01999885e3a71ae4626f7499dfa5f6055aaa0da2318b6cfd3290491a77848d84762d718bfbb30e5879a22e8e99d977d7b8688fe"
+RPM_NAME = "python310-time-travel-1.1.2-3.7.noarch.rpm"
+RPM_HASH = "e9d150fb36e1a800fc16224b3d0133604eb8ba0eb8800ef0b13de9ba36b51d5c403641e7c3a6b0c18ed813afddc4e2a03c03fab1b9de1d18e6af5c8922dfd7af"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-time-travel \
-python3.10dist-time-travel \
+RPROVIDES:${PN} += "python3.10dist-time-travel \
 python310-time-travel \
 python3dist-time-travel"
 

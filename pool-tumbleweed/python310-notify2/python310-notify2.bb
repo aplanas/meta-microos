@@ -7,12 +7,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.3.1"
 
-RPM_NAME = "python310-notify2-0.3.1-4.11.noarch.rpm"
-RPM_HASH = "d1d88d95f7724e604a58a21279db950294ce85cc17ba408d8122e725d11f97bc8459841d3cc5be0bce3c25d7096b97e3d92275a1b99227b0052357f04f5bb105"
+RPM_NAME = "python310-notify2-0.3.1-4.13.noarch.rpm"
+RPM_HASH = "2d2d1c10587ac1712c6ab7abd91a78849930981195294f5ff37f46b1c94db30f1c69f3882acc91df5ab03752a32961f86a70a517df4a3389020e156dc9f49996"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-notify2 \
-python3.10dist-notify2 \
+RPROVIDES:${PN} += "python3.10dist-notify2 \
 python310-notify2 \
 python3dist-notify2"
 

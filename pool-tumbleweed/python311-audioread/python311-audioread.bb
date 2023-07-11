@@ -11,11 +11,12 @@ LICENSE = "MIT"
 
 PV = "3.0.0"
 
-RPM_NAME = "python311-audioread-3.0.0-1.4.noarch.rpm"
-RPM_HASH = "6769456d045a018db0b2c81ebabb694fd33f6dbc6c4020a6f6825490614dcd8000ab4734978f0c203077dcb65a38e13ccc1b7305122da086711589fd0a64145e"
+RPM_NAME = "python311-audioread-3.0.0-1.6.noarch.rpm"
+RPM_HASH = "d2dc655e5ac3252dbb70b31490eabb84790812a3c45314fb34bff4186fab93c0f8ea06ad0ccdd4b057dd45604c679b7485eecc7c26f862b94e7f9ae8adbb13c8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-audioread \
+RPROVIDES:${PN} += "python3-audioread \
+python3.11dist-audioread \
 python311-audioread \
 python3dist-audioread"
 

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-location-examples-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "04e3f318ffb7cb0d7b22191c13e215a3d48f9e71010b3839f8fc91f8f6ac611d797f87d4739fbdd0062c55cf0fc67a201335d412d9db9adca4ed5755ffab32d5"
+RPM_NAME = "qt6-location-examples-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "d9b62394ae85f544f006993be89169299ad79f65b58c5f5ea6416363330ef53a86edffad183b69aa5e5602d6685483d4379f1356290d69304f2be13e634586fe"
 
 RPROVIDES:${PN} += "qt6-location-examples"
 

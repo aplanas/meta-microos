@@ -16,8 +16,8 @@ LICENSE = "ZPL-2.1"
 
 PV = "1.0.1"
 
-RPM_NAME = "python39-zc.customdoctests-1.0.1-2.8.noarch.rpm"
-RPM_HASH = "fad3b6db38243add0e3a5dd36411641987af953bbe91753a8995d165b22621d48041467d76754a174e394b9291081aa8b751c4cad98f6a3f0761e85633149638"
+RPM_NAME = "python39-zc.customdoctests-1.0.1-2.10.noarch.rpm"
+RPM_HASH = "3b6b7a85aa4c0367f27374d553cd9763fc420ec3da7f572e810e3ef7926faa4c4f0b3d64e6c4f9bfccd728618b8bff82a88db21293bbb968a143b04ac9208ccb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-zc.customdoctests \

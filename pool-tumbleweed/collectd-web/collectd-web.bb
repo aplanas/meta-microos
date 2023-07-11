@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only & MIT"
 
 PV = "5.12.0.134.g4cebbfc"
 
-RPM_NAME = "collectd-web-5.12.0.134.g4cebbfc-1.4.noarch.rpm"
-RPM_HASH = "bd571cdb9612b9967c0df65f26678d49ff7ca594e1f983f5360e1e7b55ec7b56a6baa963faa1eca7558eaa914e3a94e8c92cb4e29f8fac7a095bef1abb69165d"
+RPM_NAME = "collectd-web-5.12.0.134.g4cebbfc-1.6.noarch.rpm"
+RPM_HASH = "8fe755c17862d2ab4609c5eddfc1451a82e574c9b0dc856cc082cc3eac02468305e6f9d22cb84a18b612d095cac9a562305ff108981230b488a20a078b00b033"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "collectd-web \

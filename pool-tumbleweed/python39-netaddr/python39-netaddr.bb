@@ -18,8 +18,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.8.0"
 
-RPM_NAME = "python39-netaddr-0.8.0-2.11.noarch.rpm"
-RPM_HASH = "ec8022546c64a8df8bd54255989bf93e60715837460917458dc2d15cff437689065e68d6ae7cf78654f05438a288852178aa51a39ea1f0e9b4d210c9d1f7316f"
+RPM_NAME = "python39-netaddr-0.8.0-3.3.noarch.rpm"
+RPM_HASH = "0ce91f76590de5903a9523d958c429b4579bfa15d8ca915b9f84364e98b2c143bad92bd0ea443359ff2edd93f133dfdf9134dd18a9645476046eb0e867d0efdc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-netaddr \

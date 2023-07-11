@@ -7,8 +7,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2023.201.1.0svn21327"
 
-RPM_NAME = "texlive-harpoon-2023.201.1.0svn21327-53.1.noarch.rpm"
-RPM_HASH = "33a62b2b9b91c4184e0c22f0d34fae2b878d188dc42fb53f4e7e5500105d0df0c37ee388eb87ee6e4e60864d3480203deac2d5ca002210477461f6e1456fa737"
+RPM_NAME = "texlive-harpoon-2023.201.1.0svn21327-53.2.noarch.rpm"
+RPM_HASH = "4543a8c5cfd3715a815ed67bcfc2b57c70ef1bd9b363e14ca6d485fd878c6179b3280239a0a2c234175d4b1d10a6d8544c3b6948d8945f103a00cb95b8249a09"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-harpoon.sty \

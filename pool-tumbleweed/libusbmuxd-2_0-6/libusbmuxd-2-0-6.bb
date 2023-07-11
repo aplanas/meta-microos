@@ -11,8 +11,8 @@ LICENSE = "LGPL-2.1-or-later & GPL-2.0-or-later"
 
 PV = "2.0.2"
 
-RPM_NAME = "libusbmuxd-2_0-6-2.0.2-1.9.aarch64.rpm"
-RPM_HASH = "78166f109e1ecccb4253e17d9c698a1f2cc93b94b2c006e4f22826909e72e8b4574258b88fe0b3041046a88a879ca5a9009719359614189523e90e5c0c45dff3"
+RPM_NAME = "libusbmuxd-2_0-6-2.0.2-1.10.aarch64.rpm"
+RPM_HASH = "aa14755c22251c7b1e87c26c3f24017cb006964e23d80992a50b8a084ba2fb18e3bc86414f4d6f5df716f44b8557b391a48b8666c3925a7f8dca67ed5a0c19da"
 
 RPROVIDES:${PN} += "libusbmuxd-2-0-6 \
 libusbmuxd-2.0.so.6 \
@@ -22,6 +22,6 @@ RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
-libplist-2.0.so.3"
+libplist-2.0.so.4"
 
 inherit rpm

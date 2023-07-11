@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "3.0.5"
 
-RPM_NAME = "python311-flask-peewee-3.0.5-1.10.noarch.rpm"
-RPM_HASH = "2ff9910ea71c8e3c8fb807b087f085ce9d4b79c6dc71aabc03e5d575d7f05070f25f49407f24d33905d032f4f8fd304f3f66522cc13df503eabe4e9b85ad313b"
+RPM_NAME = "python311-flask-peewee-3.0.5-1.12.noarch.rpm"
+RPM_HASH = "a84824b6c4775b65d3d685154fa6bf6f564ab9f832fe1a54427591315a490062078b13273a213af5257dca478aeddd1f5b60c23b471085ce44b3a4b4f613f4bd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-flask-peewee \
+RPROVIDES:${PN} += "python3-flask-peewee \
+python3.11dist-flask-peewee \
 python311-flask-peewee \
 python3dist-flask-peewee"
 

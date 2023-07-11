@@ -2,10 +2,10 @@ SUMMARY = "OSM multi-floor indoor map renderer"
 DESCRIPTION = "OSM multi-floor indoor map renderer library."
 LICENSE = "LGPL-2.0-or-later & CC0-1.0"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libKOSMIndoorMap1-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "38f5507822dec49dc5a3b30940979c8d5dbe5213e23125a109fed0a4b65090484c7ed6ff42090d5a75b212a96ed6de4551ef76455b5e77c54530aefc5ea32a2b"
+RPM_NAME = "libKOSMIndoorMap1-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "8d4099b391eea03f7bcde160f86543202a3020c47ff1ff0d0f29fdf3e66cdd083127b212bd28b25824c36cdab99941c001684c70e5876977e8566fc516594753"
 
 RPROVIDES:${PN} += "libKOSMIndoorMap.so.1 \
 libKOSMIndoorMap1"

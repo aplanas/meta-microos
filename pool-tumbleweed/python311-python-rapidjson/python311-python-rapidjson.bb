@@ -7,10 +7,11 @@ LICENSE = "MIT"
 
 PV = "1.9"
 
-RPM_NAME = "python311-python-rapidjson-1.9-1.5.aarch64.rpm"
-RPM_HASH = "a41c3140314288a12ee3dfb379bcca695c2fce9428d2d5a0f8a8a4e1685fa1230fabd7c9a819871d937d4675f926c5d7804e3983eb78b102477bc1f95d8c7fa9"
+RPM_NAME = "python311-python-rapidjson-1.9-1.7.aarch64.rpm"
+RPM_HASH = "b479dc4610550e335586f4d4deb55a8f6df32715afc8fda47ab900c1f3e73a6c5ae7158712ec912acdad77b8bcbeb0bd29b985db9b6b53e112eec9117ce0af83"
 
-RPROVIDES:${PN} += "python3.11dist-python-rapidjson \
+RPROVIDES:${PN} += "python3-python-rapidjson \
+python3.11dist-python-rapidjson \
 python311-python-rapidjson \
 python3dist-python-rapidjson"
 

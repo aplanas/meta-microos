@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0 & MIT"
 
 PV = "1.0~alpha11"
 
-RPM_NAME = "maven-native-1.0~alpha11-4.8.noarch.rpm"
-RPM_HASH = "1459e0c72510beeaa5a736a98ed2e099e3e57e370104ac5c2ab2e84cff96932f9d87ae0b33cdb141b3a2b6db10c677c266ef0ba62159c17298490022c9bf54d1"
+RPM_NAME = "maven-native-1.0~alpha11-4.9.noarch.rpm"
+RPM_HASH = "72cdfffcad806c6b4f65b3d86932f3e7eeda556d5805be7d273867d821e48898d2dbfde8d38cbb61f0bc12b9aa33e6e53f2f521f7200deaa5cf88bbda035dab7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-native \

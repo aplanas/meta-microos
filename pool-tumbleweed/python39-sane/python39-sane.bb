@@ -4,8 +4,8 @@ LICENSE = "NTP"
 
 PV = "2.9.1"
 
-RPM_NAME = "python39-sane-2.9.1-1.11.aarch64.rpm"
-RPM_HASH = "4c1061c7b988f112802fc56f0016c8299b451e6d226eef2f5b05cd6d3f42d73e0a30342ac70a64db19122c8e48242516be6e261368e5fbabf2cd310b4c18436d"
+RPM_NAME = "python39-sane-2.9.1-1.13.aarch64.rpm"
+RPM_HASH = "30d98689ae657195084d1203abf95e88282ce0a1f384fd738ebb6116aee47ed4c9815a3d7994d7bd902ddabb649faa8c4c4eeb4d1967143e534567b25e86ade4"
 
 RPROVIDES:${PN} += "python3.9dist-python-sane \
 python39-sane \

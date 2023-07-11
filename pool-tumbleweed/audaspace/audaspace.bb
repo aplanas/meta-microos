@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.4.0"
 
-RPM_NAME = "audaspace-1.4.0-1.4.aarch64.rpm"
-RPM_HASH = "4eff0aec498ac3f4276fffde7920aa4e8ff582bdefb282f9d6a50646ec8a8205aad99972047f62da263d2d87159c395ed7120b849c2ce6021ff8644ea00f96d7"
+RPM_NAME = "audaspace-1.4.0-1.5.aarch64.rpm"
+RPM_HASH = "0b90d03cc7ec868f75831ea7e4ab3cd961dd1f71c28d7a3d1c021951d9616bdab4992e118d0801e5f566903fc55a42f1f334d0d2758e1c9da1c1977dd1fb0311"
 
 RPROVIDES:${PN} += "audaspace"
 

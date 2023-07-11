@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause & MIT"
 
 PV = "0.8"
 
-RPM_NAME = "libsphinxbase1-0.8-6.6.aarch64.rpm"
-RPM_HASH = "3ad6b1b83c68c731c5b119f989e27bf10896aca8ab3efd3cb5e531689a4816f6e26fa313dbc89f3852ce6b88989dbabd0036e8fd65927ee124f25905bd2bc834"
+RPM_NAME = "libsphinxbase1-0.8-6.7.aarch64.rpm"
+RPM_HASH = "674c50273fe5719ecfe394d99d696ddcfc837f6b0ae494d0ce792a1a41c371cd0e182dc5aecb4c9d6f65749342bcf24dc7013d2d041d0b558533ff48d89b1342"
 
 RPROVIDES:${PN} += "libsphinxbase.so.1 \
 libsphinxbase1"

@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.66"
 
-RPM_NAME = "bluez-deprecated-5.66-1.6.aarch64.rpm"
-RPM_HASH = "12d282c8f2dcf0a822fcdc6ae0e28e55873666f5c7d7bd86130bd3d11afd9b4f1644495097109b24ca37233b18e3745a9525d3730a14832d4c81951aad93ef0c"
+RPM_NAME = "bluez-deprecated-5.66-1.8.aarch64.rpm"
+RPM_HASH = "7a0d54ddc0c1028ff627dd9bdb8226ba5a9838b3c8d8f9196a03ed1867e1f0a57bef9833ec40f420e8e043107a903cc93cfa98889eaee7a51b5828bf52c18177"
 
 RPROVIDES:${PN} += "bluez-deprecated"
 

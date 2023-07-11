@@ -7,12 +7,11 @@ LICENSE = "Apache-2.0"
 
 PV = "0.5.6"
 
-RPM_NAME = "python310-openapi-spec-validator-0.5.6-1.1.noarch.rpm"
-RPM_HASH = "24ef9cc32d199219cb9a828304d41d1b7dbc8115f9d45d45c2d1e24605fe3b7aee45efcb8b3fd407c44cc704f68d5c9661360a489bf3a2c5bfc7ddaee5242178"
+RPM_NAME = "python310-openapi-spec-validator-0.5.6-2.2.noarch.rpm"
+RPM_HASH = "742d0d1cfe6edc102e250ec113b0a8ddeaf5a9c90991eac6031611b3d923fe8e6bf1c5b7187cb99d77cd42cfa6d8e7c8d1cd7221e1d2d83a3241090bcb8c6210"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-openapi-spec-validator \
-python3.10dist-openapi-spec-validator \
+RPROVIDES:${PN} += "python3.10dist-openapi-spec-validator \
 python310-openapi-spec-validator \
 python3dist-openapi-spec-validator"
 

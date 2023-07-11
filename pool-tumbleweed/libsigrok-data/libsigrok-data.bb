@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.5.2"
 
-RPM_NAME = "libsigrok-data-0.5.2-4.12.noarch.rpm"
-RPM_HASH = "5cb1989b68bce824f1ad1a49263eb34c080dd8d4597e2c2907f0b87f819b0a2272aa3643ed56bc8ada9755cf65894a3c2d1cd7905bde66b3270694ab532f78af"
+RPM_NAME = "libsigrok-data-0.5.2-4.13.noarch.rpm"
+RPM_HASH = "7f4865e357896fe0551d1ae26b44d1e47740cc4b4b8d8ba71f329366399b68b5f15d715cf19e01ee6cfe25db54647810672398e7832e2ace6e6d0c7efd114465"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libsigrok-data"

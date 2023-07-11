@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "5.1.0"
 
-RPM_NAME = "libmusicbrainz-devel-5.1.0-1.8.aarch64.rpm"
-RPM_HASH = "cb48b0238dbfddfcf1da75c9e9a0aff5a9ff93ae37b85023ea8348012714bc616c0344a0e0531bd4afd556ce1c1f4b00965b56e0b4fdc03ec523ba6c5e0db63f"
+RPM_NAME = "libmusicbrainz-devel-5.1.0-1.9.aarch64.rpm"
+RPM_HASH = "858c666be120c5e45002c4e17cc430d36d45fa2741b6cdd3fea3c7474bbe370169279439f3363f0a8bd3a0ac5e49aa537df2d80217b9816768ac1cdae74161ea"
 
 RPROVIDES:${PN} += "libmusicbrainz-devel \
 libmusicbrainz5-devel \

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.7.0"
 
-RPM_NAME = "libopencv_face407-4.7.0-1.6.aarch64.rpm"
-RPM_HASH = "ee02cfe8c8204f2bf806e4dfda1ce535e65c324ecc3cf11b4438aceac78a7a78204a34c3fa1e05a3a488044c78ac142d5b3a851c2da064b2867350520fc36b63"
+RPM_NAME = "libopencv_face407-4.7.0-1.8.aarch64.rpm"
+RPM_HASH = "19990f9d9f334d3813efeaccd30cb55be8a188ff436aeace3f0c4e2e1cadc9364a6dee2086b1d47b0cbe0d305ada0c40354de7836bfe9835b8aee0ab3de1369c"
 
 RPROVIDES:${PN} += "libopencv-face.so.407 \
 libopencv-face407"

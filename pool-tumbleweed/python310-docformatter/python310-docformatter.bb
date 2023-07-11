@@ -21,12 +21,11 @@ LICENSE = "MIT"
 
 PV = "1.4"
 
-RPM_NAME = "python310-docformatter-1.4-1.9.noarch.rpm"
-RPM_HASH = "358ce8fd2a7f93fd137993351efe803a7cc6059eeb83acb7a64f1b5c38f2eac547e713835aa759144b75704708b8f15bb98e071b67635d1a715ffd13052cce42"
+RPM_NAME = "python310-docformatter-1.4-1.11.noarch.rpm"
+RPM_HASH = "c4e460b84a74e5aac0bbe4d40db4d5156fbe4397a85cbc5396f201475a4648500868851085b4b9e1b87303788d4eb81961cff7527fb7d1b4b89e1a02b3742eba"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-docformatter \
-python3.10dist-docformatter \
+RPROVIDES:${PN} += "python3.10dist-docformatter \
 python310-docformatter \
 python3dist-docformatter"
 

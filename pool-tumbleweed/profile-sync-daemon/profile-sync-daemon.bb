@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "6.48"
 
-RPM_NAME = "profile-sync-daemon-6.48-1.2.noarch.rpm"
-RPM_HASH = "7e8a8ed18700f99d9324374865a8fe9c63ff325664080714e458b16202da19c160906a80bcbbcacf08653925a38a661f76259b7b9f36766f69b948bbde0aae35"
+RPM_NAME = "profile-sync-daemon-6.48-1.3.noarch.rpm"
+RPM_HASH = "6c02db8b1eb97217166eb3a47b31becfa51204e463cabead369931d2a60a034dda9b4af42186fe40aa04de740ecc7eb61e141dfacabb5fbf7467a1ad29f1a527"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "profile-sync-daemon"

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.0.0"
 
-RPM_NAME = "libnpupnp-devel-5.0.0-1.4.aarch64.rpm"
-RPM_HASH = "d2a0965adcb373705af9515d9f968760afee9666d0b8b5e6ebe96cea0a861acdda64766f758d1639df1dc0d9667c04b5282d4b90b3baa562dfab9ea067f40a7e"
+RPM_NAME = "libnpupnp-devel-5.0.0-1.5.aarch64.rpm"
+RPM_HASH = "bfd0b2557b970c5c78d13ccf84ed1b718a944ea3bcf839a8133c58a930c04bb58526efc1ca9914778a614cae3cc589499fbdef50c8059fa771a7fe12934a9c99"
 
 RPROVIDES:${PN} += "libnpupnp-devel \
 pkgconfig-libnpupnp"

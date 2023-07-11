@@ -5,8 +5,8 @@ LICENSE = "CC-BY-SA-3.0 & GPL-3.0-or-later & GPL-2.0-or-later & GPL-1.0-only"
 
 PV = "0.6.3"
 
-RPM_NAME = "supertux2-0.6.3-2.9.aarch64.rpm"
-RPM_HASH = "512919c73000a07ee0d7b6423a275e473ad1bb909c5fecc4a3c7ae894f628b886aab0521f6ccf4362d3cdb3395ab4c94320148c298e7b1f212bf1213dbd7e0a5"
+RPM_NAME = "supertux2-0.6.3-2.10.aarch64.rpm"
+RPM_HASH = "de43d1f253815184be963af383c10f2bff008b40e217312a1573f03b8fa0f4c6d03b2b7acc6eadcc8bc81398707b37e041605e45cba5470f354348ae76e7948f"
 
 RPROVIDES:${PN} += "supertux2"
 

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.35"
 
-RPM_NAME = "xchm-lang-1.35-1.4.noarch.rpm"
-RPM_HASH = "5ffcb555eb86e878867b0230e3c3ba9af216f41c1ea917928b5ae645c5b89d705fa99e7d22cd7af5f5e60d1ed03f999306bb9247c501b0549b078d30ad1dc5d9"
+RPM_NAME = "xchm-lang-1.35-1.5.noarch.rpm"
+RPM_HASH = "2a8f17152183c12e299bf0918f522de9dcf9b181794e0730d04e7e544f0c3123ee8597bab633df458e806e9b1de14e941b8867b01fc94ab6687db52e9db9f339"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xchm-be \

@@ -20,13 +20,13 @@ type that is based on a bytestring. See \
 https://hasufell.github.io/posts/2022-06-29-fixing-haskell-filepaths.html."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.4.2.1.12"
+PV = "1.4.2.1.13"
 
-RPM_NAME = "ghc-filepath-bytestring-1.4.2.1.12-1.3.aarch64.rpm"
-RPM_HASH = "d719130acb7167a2b9baf97257de8b609134be7f9a656be5e175ce70f74941af02476e401fd7a37898e7b39ad103edee6cdc75c66433a8cb2a49cacc37c5b99f"
+RPM_NAME = "ghc-filepath-bytestring-1.4.2.1.13-1.3.aarch64.rpm"
+RPM_HASH = "fe98b87a44e646648e3812c82708e785cd064e6df2d640a9bb0a301eea8e33fc507de307a8f5104bd86d8eef8e5f71b908c087e67e5d8d0f301366f360938281"
 
 RPROVIDES:${PN} += "ghc-filepath-bytestring \
-libHSfilepath-bytestring-1.4.2.1.12-j7n9rVANDcF3su3QaU7xU-ghc9.4.5.so"
+libHSfilepath-bytestring-1.4.2.1.13-1FmfoCrfLITG59KaBERpzO-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
 libHSbase-4.17.1.0-ghc9.4.5.so \

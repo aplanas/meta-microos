@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.0.2"
 
-RPM_NAME = "hourglass-2.0.2-1.10.aarch64.rpm"
-RPM_HASH = "4cd62d7d4f018770d177421ba8a55c96a7df7c247b027a5e47fd9bc004d8170dfc8565dc6de8eba761bf9d265861c2f66e3e874fd3c78c8fff9c60c1b04c6526"
+RPM_NAME = "hourglass-2.0.2-1.11.aarch64.rpm"
+RPM_HASH = "e23734f69550e86ab43388805fc66c99076ff817dea7bdc68f242775fcde07bc8cd5062f654fc2cda103e295e10a0f5346d1907fb7764cd8dafc6cdfd33150a1"
 
 RPROVIDES:${PN} += "hourglass"
 

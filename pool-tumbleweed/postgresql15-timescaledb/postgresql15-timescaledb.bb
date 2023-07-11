@@ -12,8 +12,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.10.2"
 
-RPM_NAME = "postgresql15-timescaledb-2.10.2-1.2.aarch64.rpm"
-RPM_HASH = "72221c326050384c43f0d2bed0784cacccbe64a52bec00392c6d026ee7388b780eb28069d7a864a5289b434d58b0d3ab11b9f3f7681ff0dca3eed0e94c12aa00"
+RPM_NAME = "postgresql15-timescaledb-2.10.2-1.4.aarch64.rpm"
+RPM_HASH = "5ce735b9336617e09ed276024a142b0a02c9c43bc53510ef4854ba042cb19863deb7f1b1b9925aa8b3ccc0c870dd75b449277dd3581076c8c1c66b0c9e094e71"
 
 RPROVIDES:${PN} += "postgresql15-timescaledb \
 postgresql15-timescaledb-llvmjit"

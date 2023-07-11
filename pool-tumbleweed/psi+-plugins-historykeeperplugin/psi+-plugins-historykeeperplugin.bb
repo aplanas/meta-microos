@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-or-later"
 
 PV = "1.5.1615+0"
 
-RPM_NAME = "psi+-plugins-historykeeperplugin-1.5.1615+0-3.1.aarch64.rpm"
-RPM_HASH = "b46230bf86e4158822f6904e91c6722a9fab434492d65b897a145222f983a8b5b4e31c2f23c45c07f46f4e361a7250b97817275e3fd861e6006ff5e99d7ce400"
+RPM_NAME = "psi+-plugins-historykeeperplugin-1.5.1615+0-3.2.aarch64.rpm"
+RPM_HASH = "1289644bfd439847322b9f6bc2f88e2cce7cfe627431734213be0715de3847cf8f7ba35fee56f8468d1d7f59ec55c9e178aec19ffb3c4e03cdd9545ac5610199"
 
 RPROVIDES:${PN} += "libhistorykeeperplugin.so \
 psi+-plugins-historykeeperplugin"

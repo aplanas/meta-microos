@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.22.2"
 
-RPM_NAME = "openal-soft-data-1.22.2-1.4.noarch.rpm"
-RPM_HASH = "d4b0d5a8d2e3c28c4f40279e264962a5d839a2179789b130221f834cd5a7014288432a0ef08f57001686d0cecf2061f4a494f3f1efd3595102df072cec8eb76b"
+RPM_NAME = "openal-soft-data-1.22.2-1.5.noarch.rpm"
+RPM_HASH = "811170d09f62f8441892871512b734cbf4d007f298af22b594526bd3b8a609ebb5159aebbe8ba7698fbd04edfcd275153b30e29391fd5a4f33e634d00e90c7ac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-openal-soft-data \

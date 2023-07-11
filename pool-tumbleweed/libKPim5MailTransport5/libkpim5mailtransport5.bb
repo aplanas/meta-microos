@@ -2,10 +2,10 @@ SUMMARY = "Mail Transport library for KDE PIM applications"
 DESCRIPTION = "The Mail Transport library for KDE PIM functionality"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libKPim5MailTransport5-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "73d2db3338b8bcad2f9a17322e1d0f7ff747d7a3bfc9e6d7384829b6f1668a3e653a1e1b5f83f5f9ce5a9c4a4bb68c3aafab2c617f1bacf85166ff4db53169da"
+RPM_NAME = "libKPim5MailTransport5-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "b327cc7e0c8f770a2186edb95c9620e5726f95b4226ca938def121c1182b6855efab63be6e82e84ace051bbbd5285eb63e81ac0c496a49d996c23e07406053d4"
 
 RPROVIDES:${PN} += "libKPim5MailTransport.so.5 \
 libKPim5MailTransport5"

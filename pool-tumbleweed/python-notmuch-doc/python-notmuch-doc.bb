@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.37"
 
-RPM_NAME = "python-notmuch-doc-0.37-2.4.aarch64.rpm"
-RPM_HASH = "69868c77fa0f461ce41c4a67ca5f6ef980f774e93a095956677a1a1be6b854ae3102c07fce5f959cb39c9830639f8060818a1d59ca7009bb8fb084129ece049b"
+RPM_NAME = "python-notmuch-doc-0.37-2.6.aarch64.rpm"
+RPM_HASH = "5b29df6e559caa2e85da60f22e98da62cac3a115420da5e57c0887231be8573e1899c779268a453d28568efa4e3ebe137376197d222ad9a5a8e0ef4f5cb901ed"
 
 RPROVIDES:${PN} += "python-notmuch-doc"
 

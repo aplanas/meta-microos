@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "8.60"
 
-RPM_NAME = "libsignon-qt5-docs-8.60-2.18.noarch.rpm"
-RPM_HASH = "4c52b0ce97c3fb67f88444afc72fea58a89c3dfa427d9e6a5246823f2f1126cabddc572a9d8e19541d61c21a2240ce263715d173da417ce648e32d35466f3bd1"
+RPM_NAME = "libsignon-qt5-docs-8.60-2.19.noarch.rpm"
+RPM_HASH = "47064fb66a9a18519bb523083d76ef7196b63dc04a5029c73e520ebc3bba0d6a31b64439e354d425bce38860c4fa2c09eb3374d1f37576b08422ebadb340d5a6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libsignon-qt5-docs"

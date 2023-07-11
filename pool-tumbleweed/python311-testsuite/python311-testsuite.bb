@@ -4,14 +4,16 @@ of the installed Python interpreter and standard library. \
 They are a documented part of stdlib, as a module 'test'."
 LICENSE = "Python-2.0"
 
-PV = "3.11.3"
+PV = "3.11.4"
 
-RPM_NAME = "python311-testsuite-3.11.3-1.2.aarch64.rpm"
-RPM_HASH = "dcdcaa979fd10410b92fc6c142c0cb90f0d75e7055160df6fe0b865548a435d0490ef658d449afea66f0fc5ec78ba7939a96a3d9fb8875fb003ce69d6adb9209"
+RPM_NAME = "python311-testsuite-3.11.4-1.2.aarch64.rpm"
+RPM_HASH = "e6ab43112944b6e033f6a4db1aba97bdff0598c634a28e26fd1bd3c8f16829abd16555be90b056ad2d00a04e3d0a18b3ce38698b0faecddcdb60619dc099c77f"
 
-RPROVIDES:${PN} += "python311-testsuite"
+RPROVIDES:${PN} += "python3-testsuite \
+python311-testsuite"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/python3 \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6 \

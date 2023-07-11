@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.6.0"
 
-RPM_NAME = "budgie-brightness-controller-applet-1.6.0-1.1.aarch64.rpm"
-RPM_HASH = "184b56fb09f09679993bb67231996262b62598183375531892a82368a0ded4c561139377b58782a753a823bcfa3c7a4e369ebe63f0bf397f3fdb27309e82ffc3"
+RPM_NAME = "budgie-brightness-controller-applet-1.6.0-1.2.aarch64.rpm"
+RPM_HASH = "e898b68fcda9a356e07cc7aa69a5c4f7324dc9b8c895e4bf1cc7ee6cd54cf40346b6851dd2d31fafb6b115ec5f8018d328b86e7ac8b2bf49a30fd73f5cf8c492"
 
 RPROVIDES:${PN} += "budgie-brightness-controller-applet \
 libbrightnesscontroller.so"

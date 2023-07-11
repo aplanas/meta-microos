@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.7.0"
 
-RPM_NAME = "python39-azure-cognitiveservices-language-luis-0.7.0-2.11.noarch.rpm"
-RPM_HASH = "6f7c3cd259f37236ab57a83fdb4adb59abe2b9cae291d8e8081e37c01b12dad1a3c1e31370e54aa91a2424632f0459e5089ccf1205ea4a223ece762da7683384"
+RPM_NAME = "python39-azure-cognitiveservices-language-luis-0.7.0-2.12.noarch.rpm"
+RPM_HASH = "7d71b8231fc27370bb30328e83e9c872b0da82e971a8d544599d3fd54fe6795beba6a72e3b85e12b71257fcc070a9c67ac1cf71b0dc1b19324af8add80c56fa5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-cognitiveservices-language-luis \

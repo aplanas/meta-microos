@@ -2,10 +2,10 @@ SUMMARY = "The scikit_build_core[pyproject] extra"
 DESCRIPTION = "Python CMake adaptor and Python API for plugins: The extra requirement to build PEP518 wheels and sdists"
 LICENSE = "Apache-2.0"
 
-PV = "0.2.2"
+PV = "0.4.7"
 
-RPM_NAME = "python39-scikit-build-core-pyproject-0.2.2-1.1.noarch.rpm"
-RPM_HASH = "c57f26b6e322d07af07574054cf990bfa0f30aa18797824bb0010f50336fef7978966f71bf614863f535f62c6420e41452714df29787952931a493cfd1a06691"
+RPM_NAME = "python39-scikit-build-core-pyproject-0.4.7-1.1.noarch.rpm"
+RPM_HASH = "712afd511e3a10690b12749d24028444f854e9c126e0222a0de9fe67789ffcedc58145052c125531f808ef9b885352b2a76e913209488480e0d36cbe153935a0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-scikit-build-core-pyproject"

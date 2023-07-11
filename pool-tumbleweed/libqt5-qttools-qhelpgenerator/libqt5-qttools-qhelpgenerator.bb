@@ -2,10 +2,10 @@ SUMMARY = "Generator for Qt5 Help files (qch)"
 DESCRIPTION = "Binaries for generating .qch help catalogs."
 LICENSE = "(LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)) & GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
-PV = "5.15.9+kde1"
+PV = "5.15.10+kde3"
 
-RPM_NAME = "libqt5-qttools-qhelpgenerator-5.15.9+kde1-1.1.aarch64.rpm"
-RPM_HASH = "f3abd4ec2e65792a133dc52740035c370e9a2265bbb479dc9c5b4b068952af3936587604d024668ce8129aa8c2e7e7fdee7574589d53a3d64d3c754aadb720a6"
+RPM_NAME = "libqt5-qttools-qhelpgenerator-5.15.10+kde3-1.1.aarch64.rpm"
+RPM_HASH = "36c22b05620e0c8be3e49abc22f85fc29a39c87b658141360e2baeaa6ad6c4d0163212df576d9150956fb1edde7f7cdd13d2aefe45f910926a2835f3e023c15d"
 
 RPROVIDES:${PN} += "libqt5-qttools-qhelpgenerator"
 

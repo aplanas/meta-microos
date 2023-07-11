@@ -5,8 +5,8 @@ LICENSE = "CC0-1.0"
 
 PV = "4.0"
 
-RPM_NAME = "python39-libarchive-c-4.0-2.5.noarch.rpm"
-RPM_HASH = "dd7e458e8588760036092c22738be76271faa7b0aa5c09ee51d8c211d08316de31ce54cba24a146adbdc6a284462e184b983158ab47348dd3c8a1669766e3d00"
+RPM_NAME = "python39-libarchive-c-4.0-2.7.noarch.rpm"
+RPM_HASH = "77a613a6ad6332346c4a1f48f0bc8f5eeda1c2bfe142a0f1838025325d9e96f72a3b4c3ec72a2627bb5e542c64acade0d255c5a5b1578a1a050b20e8024df0c4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-libarchive-c \

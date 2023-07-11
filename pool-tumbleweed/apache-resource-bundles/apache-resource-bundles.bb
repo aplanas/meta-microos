@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2"
 
-RPM_NAME = "apache-resource-bundles-2-1.17.noarch.rpm"
-RPM_HASH = "e73e9d426576de9c99494726ab0620c0b56953ec9917a51b89e565a7476a2bd24287a4eeedb6b243a2bb35c77772926c9c643363e03e2dcb04c8e1fa47129652"
+RPM_NAME = "apache-resource-bundles-2-1.18.noarch.rpm"
+RPM_HASH = "d9a1724b998d3a7234b7574698e78ce8553c50b3ea9c61836d6c1a6c14fa7ca5b5e7137bab48e92ccf6b3baec74ac8208ab8a4575703ed9d1018dfaaf2119643"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-resource-bundles \

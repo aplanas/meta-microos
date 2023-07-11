@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.6.0"
 
-RPM_NAME = "budgie-workspace-wallpaper-applet-1.6.0-1.1.aarch64.rpm"
-RPM_HASH = "8cc808964d588c33a4da29c0339652c9bef395a70e01e65882bd198eaf08022301f92b0e6624c7ba7e38228dd7dfdfa0f36ec637c77aa620d3b11f5f47215412"
+RPM_NAME = "budgie-workspace-wallpaper-applet-1.6.0-1.2.aarch64.rpm"
+RPM_HASH = "b911f595d5e81e50ad14a7d6cce4f03e78cde4bcdbc2d28877931e8d7b585d18d014f64af69ee5be9b108da10f462426002ebe3bcad62d16a5889081e834e890"
 
 RPROVIDES:${PN} += "budgie-workspace-wallpaper-applet \
 libwallpaperswitcher.so"

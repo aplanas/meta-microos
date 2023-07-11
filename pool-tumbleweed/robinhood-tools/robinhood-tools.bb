@@ -6,8 +6,8 @@ LICENSE = "CECILL-C"
 
 PV = "3.1.7"
 
-RPM_NAME = "robinhood-tools-3.1.7-2.1.aarch64.rpm"
-RPM_HASH = "2a079359aa8d92052ba3d367b62a4955d44a04be321f2ebd242fced0fa62602258338fe6bc8e7b2ce0ce14f9ad831253f5085a125ae4af147adc473153b153eb"
+RPM_NAME = "robinhood-tools-3.1.7-2.2.aarch64.rpm"
+RPM_HASH = "940ed37397371c2e94386682ae145a6ab7372b47a96b2461a780d7b849740ffd646a5e16ef757bb632c569cca9bd2b3ded7e1a19d6dd4aa4da5004e519c8dcec"
 
 RPROVIDES:${PN} += "robinhood-tools"
 

@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.4.12.2"
 
-RPM_NAME = "apache2-mod_auth_openidc-2.4.12.2-1.4.aarch64.rpm"
-RPM_HASH = "fd2dc13fb49572804ef8eb867b3f0b88a3708d68f92bcf2fd4dc1dd000a499944798c7e0119de414e1425bf4d0ac9103748ede17f2643792d8c850f51746ac92"
+RPM_NAME = "apache2-mod_auth_openidc-2.4.12.2-1.5.aarch64.rpm"
+RPM_HASH = "884f8ac08ab57fa0991db11d35d410feff54c790b78d3aab753788ba1e62ffb56110246189ee2c98ce4f809bcef4c28b0991ec8eefc57977aa7f784249fbb5a1"
 
 RPROVIDES:${PN} += "apache2-mod-auth-openidc"
 

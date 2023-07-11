@@ -2,10 +2,10 @@ SUMMARY = "Documentation for the FUSE library version 3"
 DESCRIPTION = "This package contains the documentation for FUSE (userspace filesystem)."
 LICENSE = "BSD-2-Clause & GPL-2.0-only & LGPL-2.1-only"
 
-PV = "3.14.1"
+PV = "3.15.0"
 
-RPM_NAME = "fuse3-doc-3.14.1-2.1.aarch64.rpm"
-RPM_HASH = "9da434c4e80fc0f958eb7a2ff19313f2f127945dea8361db7cc4487423b3096aac13d396eae830cbc6a8c992367b7d001270a2b83953ce5271cc2685417673be"
+RPM_NAME = "fuse3-doc-3.15.0-1.1.aarch64.rpm"
+RPM_HASH = "2c735f9e49338a67229531f2d4981bc0d3fd1220b4e89aeab9cebb97c8c2c9398cb8843f392b913ac687fd2ad8623faad8735ca030f0566fb4d3883ff84aa435"
 
 RPROVIDES:${PN} += "fuse3-doc"
 

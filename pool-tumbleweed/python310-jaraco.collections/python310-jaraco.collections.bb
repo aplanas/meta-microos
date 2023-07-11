@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "4.1.0"
 
-RPM_NAME = "python310-jaraco.collections-4.1.0-1.1.noarch.rpm"
-RPM_HASH = "30292b32a6415cec3315d2af845f29f62d4b34c9ae8081aa50c30e73da2649d05e5aa51ca992da6ee8afa0301b34c254938ec68ec8944578a0af9128fb52e982"
+RPM_NAME = "python310-jaraco.collections-4.1.0-1.3.noarch.rpm"
+RPM_HASH = "1a19e0a5c0c04f47127b4830924da89f50db5ef66bbaa9b6ff902b494f47e80b3e74d27a20f58673c02ba623bb5bd31dea8bfb3bd9c31f11b78949a6cb0575cc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-jaraco.collections \
-python3.10dist-jaraco.collections \
+RPROVIDES:${PN} += "python3.10dist-jaraco.collections \
 python310-jaraco.collections \
 python3dist-jaraco.collections"
 

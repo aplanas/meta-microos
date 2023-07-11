@@ -6,11 +6,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.0.0"
 
-RPM_NAME = "python311-sphinxcontrib-nwdiag-2.0.0-1.13.noarch.rpm"
-RPM_HASH = "0d7120b0867fea711e3fcd4a3386d7e0a1d13ad29f27016df4784d277e1d95cca7898c50c31ee512dc222f1469039a5e5da244fd04bd0ebd03fd7a803b56a1a2"
+RPM_NAME = "python311-sphinxcontrib-nwdiag-2.0.0-1.14.noarch.rpm"
+RPM_HASH = "727277f7d5e6ef9e730a1ea75313039ccd03c4ffd6a2ac67afd4d38ce9111f95c556dda8d6e18fe31be92476e7f8a9923adc4bfa2e14fad317a2b47f3306a07c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-sphinxcontrib-nwdiag \
+RPROVIDES:${PN} += "python3-sphinxcontrib-nwdiag \
+python3.11dist-sphinxcontrib-nwdiag \
 python311-sphinxcontrib-nwdiag \
 python3dist-sphinxcontrib-nwdiag"
 

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.2.3"
 
-RPM_NAME = "pmix-headers-3.2.3-10.1.noarch.rpm"
-RPM_HASH = "698cb874c2e633fd2b7cc4197899491a5c0a8aabf48a61ae2796b3907a897037446c2d144d03b79c7fedd11e4da6e9a748e06438dfb490940994fa2ff47c9146"
+RPM_NAME = "pmix-headers-3.2.3-10.2.noarch.rpm"
+RPM_HASH = "a0b7c9c6a4649dd32cce8852419f5cb6a548b8206606aca63ab44068ae65ddbfd7b59275cd50185032d24c20ae7b447b785d0d1adfb504e9094b39c96906f351"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pmix-headers"

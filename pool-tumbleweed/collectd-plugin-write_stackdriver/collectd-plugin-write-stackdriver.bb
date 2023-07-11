@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & MIT"
 
 PV = "5.12.0.134.g4cebbfc"
 
-RPM_NAME = "collectd-plugin-write_stackdriver-5.12.0.134.g4cebbfc-1.4.aarch64.rpm"
-RPM_HASH = "fb10406f158abf149b0fb71c4ae19929202ce51313bba1a6d2f3500eca334d3fbdd80c42e9078a6437ab8cd68749e96d7bb12f7c11a252cdac6ad5ffaf3dd8df"
+RPM_NAME = "collectd-plugin-write_stackdriver-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
+RPM_HASH = "e02ff4867c79e02241a6378e0d8d70b0ded04b826323436a524d0713a2122203c03cc854b6b386bdf319189391e6d5081729c7523c04a52bae9613985e3604b2"
 
 RPROVIDES:${PN} += "collectd-plugin-write-stackdriver"
 

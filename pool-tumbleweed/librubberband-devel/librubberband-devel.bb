@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.1.0"
 
-RPM_NAME = "librubberband-devel-3.1.0-1.3.aarch64.rpm"
-RPM_HASH = "e5e8a8ae695cbdc00c9301e8cfba1296cbe0b6698165a36e2ed67fccd30410dd096eb1cca813370aa31eeb5e80b20946c3955e14cf8e6b47b42a580a45fda0e5"
+RPM_NAME = "librubberband-devel-3.1.0-1.4.aarch64.rpm"
+RPM_HASH = "5ffa4e5c8dd9ee83c8ac29e3a7c58a0661518478d5cc619bffad5eef2caab231c381a44fa633f7ee79fbe9570b32ea9167af8259805bc2ed4e95e2ce1373c12b"
 
 RPROVIDES:${PN} += "librubberband-devel \
 pkgconfig-rubberband"

@@ -11,11 +11,12 @@ LICENSE = "ZPL-2.1"
 
 PV = "4.4"
 
-RPM_NAME = "python311-zope.deferredimport-4.4-2.3.noarch.rpm"
-RPM_HASH = "c376fe9fae4d6397203601c158a019befd1cd739c9822fdef58d0d03ba286346ce4b6e82bf87ac497dc7d68567650f5bb9c73a385b5c06c26a310beb2c8cf1fc"
+RPM_NAME = "python311-zope.deferredimport-4.4-3.3.noarch.rpm"
+RPM_HASH = "a61295f741b2bb895d8e446dca0b0a6b9305f70d4d5509cb12cc7d2bd0b7099dfc4e89b3099cbab8626a2e7835c75ddf902726a04139233d710b75d497175dbc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-zope.deferredimport \
+RPROVIDES:${PN} += "python3-zope.deferredimport \
+python3.11dist-zope.deferredimport \
 python311-zope.deferredimport \
 python3dist-zope.deferredimport"
 

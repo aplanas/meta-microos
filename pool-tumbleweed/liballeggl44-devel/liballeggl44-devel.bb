@@ -4,8 +4,8 @@ LICENSE = "SUSE-Permissive"
 
 PV = "4.4.3.1"
 
-RPM_NAME = "liballeggl44-devel-4.4.3.1-1.15.aarch64.rpm"
-RPM_HASH = "420fabf41eb93542c694be38a92de73b2e6b75a72965c4035739519dfd7bbd0c2845e90cf01221e1e64582a8d8541c63326694b54413300cefe8854231cc3420"
+RPM_NAME = "liballeggl44-devel-4.4.3.1-1.16.aarch64.rpm"
+RPM_HASH = "8126cabbb962f8bd9ba3b0187a1da6e521a0d15bb6202306942d1991455b46c55214554aef282b81b0e2df04f4727724d88756f7877369746c97c24019e116e2"
 
 RPROVIDES:${PN} += "liballeggl44-devel \
 pkgconfig-allegrogl"

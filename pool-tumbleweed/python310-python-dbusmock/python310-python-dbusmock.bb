@@ -8,13 +8,11 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.24.1"
 
-RPM_NAME = "python310-python-dbusmock-0.24.1-3.1.noarch.rpm"
-RPM_HASH = "56e4d156b2bf7eaba452c074a39bc12fc4ba9594d27e557e8e071d65974328b71130d24d11ab564fddd267263c9ad3036ddcde6a3f9816624ada7a49e2453b85"
+RPM_NAME = "python310-python-dbusmock-0.24.1-3.2.noarch.rpm"
+RPM_HASH = "077c03312d01741e01eb34d1c0183c78f2f4cc62a4bafc91f963e07b31aec6385caf469044b42d8c3d2bcf0a2542b313a944b7e45856467598f148e0208bf1d4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-dbusmock \
-python3-python-dbusmock \
-python3.10dist-python-dbusmock \
+RPROVIDES:${PN} += "python3.10dist-python-dbusmock \
 python310-dbusmock \
 python310-python-dbusmock \
 python3dist-python-dbusmock"

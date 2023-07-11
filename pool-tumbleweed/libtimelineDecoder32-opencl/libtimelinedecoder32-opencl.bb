@@ -8,10 +8,10 @@ modification – across Arm Cortex CPUs and Arm Mali GPUs. \
 This package contains the libtimelineDecoder library from armnn."
 LICENSE = "MIT"
 
-PV = "23.02"
+PV = "23.05"
 
-RPM_NAME = "libtimelineDecoder32-opencl-23.02-2.1.aarch64.rpm"
-RPM_HASH = "e2705e26b20349cfea5cba9834e6942da69c75f98894d7b7af5a9573f9ff678dea7c40fec9212bc5059176edd634419867bbe58302ce0dc435b6c4ec8652ea42"
+RPM_NAME = "libtimelineDecoder32-opencl-23.05-1.1.aarch64.rpm"
+RPM_HASH = "8f6db86b305461b870b427b21a535223df85d8d8cfee22d76d948d59c15b84ebac4a1fac2d498f80303d121a2eaf10fec47cbf07cd601068b6a34d87839ff824"
 
 RPROVIDES:${PN} += "libtimelineDecoder.so.32 \
 libtimelineDecoder32-opencl"

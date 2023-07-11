@@ -5,11 +5,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.1.8"
 
-RPM_NAME = "python311-sphinxcontrib-autoprogram-doc-0.1.8-2.1.noarch.rpm"
-RPM_HASH = "aebcb57b8c6452bec2add1e1fe067b70d693f60311a4bd37e619af0158ed491ba52b3f6838430fb9f921f8c0836e8455a9f584cbecf6bdecab11cc8582d565d4"
+RPM_NAME = "python311-sphinxcontrib-autoprogram-doc-0.1.8-2.3.noarch.rpm"
+RPM_HASH = "01edf42312213fb4bd6b3774adb2fffd0d39ceb12da0881c754e8f82978944a2e84587b9a92e01933d844fcf15c573c0be0fda964ed04365c5df97e71dbb14dd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python311-sphinxcontrib-autoprogram-doc"
+RPROVIDES:${PN} += "python3-sphinxcontrib-autoprogram-doc \
+python311-sphinxcontrib-autoprogram-doc"
 
 RDEPENDS:${PN} += "python311-Sphinx"
 

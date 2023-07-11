@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.9.2"
 
-RPM_NAME = "python39-ruamel.std.pathlib-0.9.2-2.3.noarch.rpm"
-RPM_HASH = "ce7e614c8b341b0a596d8ecc3ed1bc100fda8abd60b167e2cb11d86a682a8c90260a4e8343f10905267d5e664950e40b0dcd447aa9f3175d2fe0fd4e4e169a2c"
+RPM_NAME = "python39-ruamel.std.pathlib-0.9.2-2.4.noarch.rpm"
+RPM_HASH = "478fbe7172b3be189517e79e577a30a3b7e3a851bbe4122e2f84c02a4fb7c96988923751adb8678c139bb162dc1cdce0e8defd9f980b724fb1a92e354fb21424"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-ruamel.std.pathlib \

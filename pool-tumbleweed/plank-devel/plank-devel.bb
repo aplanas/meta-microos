@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.11.89"
 
-RPM_NAME = "plank-devel-0.11.89-2.4.aarch64.rpm"
-RPM_HASH = "9a8d704a1b8d8610341c1c8b8b644946b0818341b9437ca5b612878fefdc5973dbc60ecb96c63ffe3c859e252660500d83daa0f2c9783faa5f8d05ec45db9181"
+RPM_NAME = "plank-devel-0.11.89-2.5.aarch64.rpm"
+RPM_HASH = "ca27c636e11de4f770e86f1f960c3d8fc0fc598f8894a0225d31eb847b258b051f2a570824e683d2deace1f67b35bb24598d0b4b284f5b1a0366a63dbe38085b"
 
 RPROVIDES:${PN} += "pkgconfig-plank \
 plank-devel"

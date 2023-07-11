@@ -13,8 +13,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.1.3svn63591"
 
-RPM_NAME = "texlive-gzt-2023.201.1.1.3svn63591-53.1.noarch.rpm"
-RPM_HASH = "5322fd50c86fc160c0b6a2aff29b8da51b03d7bf5c2c7a4a92b685554d1ae7a996e4adffbba0b3dc4c5e57e706df2c7f18b3dd27b208f588bafae9bad660048f"
+RPM_NAME = "texlive-gzt-2023.201.1.1.3svn63591-53.2.noarch.rpm"
+RPM_HASH = "fa4e798756d11f68d7e867381eb4a0a812efb8c30123d7ffd50bea5799379acaee78f4a43023563630e68c2eff5ea643ea89c5b65568ab2a57d7cb0f8d30fc31"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gzt.cfg \

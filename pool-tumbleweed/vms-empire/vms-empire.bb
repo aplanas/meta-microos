@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.16"
 
-RPM_NAME = "vms-empire-1.16-1.7.aarch64.rpm"
-RPM_HASH = "cf7a148587e8ee787c160708984bc0fb786eb085182d9735d1166e54f50b92c57849ac26cf2df98c9ad82192a5a01504d73fb82482f280f3ec8486db4d942985"
+RPM_NAME = "vms-empire-1.16-1.8.aarch64.rpm"
+RPM_HASH = "a8a40d0777d92281277cbf1ad9adb324a6a7f03ee4fbb34820c9f3104c7aa9e7b92a3c8335d603bd0b9eef2985d71bed9c1c4b0b87f5f91aeb448aca540b9bba"
 
 RPROVIDES:${PN} += "vms-empire"
 

@@ -5,11 +5,10 @@ LICENSE = "BSD-2-Clause"
 
 PV = "3.5.1"
 
-RPM_NAME = "python310-hunter-3.5.1-1.5.aarch64.rpm"
-RPM_HASH = "66b112b6c30a7379e03633235a2392b04f3049127345180793e0cede3d3293e8d695f219dd2ffc0d1c0e0bf940786d62800faf331ff2d96e45804d4f2f9685c6"
+RPM_NAME = "python310-hunter-3.5.1-1.7.aarch64.rpm"
+RPM_HASH = "a100c7087110d93d3e6d1351b189e14f7b0ec46959278f238552c51e1161d8386f225a042bb36246f9dbfd78f06111875417013c7a766f2e86d1e861cd847b19"
 
-RPROVIDES:${PN} += "python3-hunter \
-python3.10dist-hunter \
+RPROVIDES:${PN} += "python3.10dist-hunter \
 python310-hunter \
 python3dist-hunter"
 

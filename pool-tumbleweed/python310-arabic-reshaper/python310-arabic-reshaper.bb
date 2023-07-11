@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "3.0.0"
 
-RPM_NAME = "python310-arabic-reshaper-3.0.0-1.3.noarch.rpm"
-RPM_HASH = "1c3253a7baa70235f8fb2b337cd851cd58827bc5f9d8fdf9b533d572635b73ea566305230b30176d1de72ea93b98e6f8b28791c9a81b3f12dea0af499ea7f1ed"
+RPM_NAME = "python310-arabic-reshaper-3.0.0-1.5.noarch.rpm"
+RPM_HASH = "91e01c80ba6914cee63643bf69b615669fa5f240fd74231c99acf2d54068d50b73a1f96ca0823053ecc39b16dd484fac89f429bdabb068c8c355d6af41c9f3bf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-arabic-reshaper \
-python3.10dist-arabic-reshaper \
+RPROVIDES:${PN} += "python3.10dist-arabic-reshaper \
 python310-arabic-reshaper \
 python3dist-arabic-reshaper"
 

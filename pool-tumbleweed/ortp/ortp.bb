@@ -2,10 +2,10 @@ SUMMARY = "Real-time Transport Protocol Stack"
 DESCRIPTION = "oRTP is a C library implementing the RTP protocol (RFC 1889)."
 LICENSE = "AGPL-3.0-or-later"
 
-PV = "5.2.49"
+PV = "5.2.73"
 
-RPM_NAME = "ortp-5.2.49-1.1.aarch64.rpm"
-RPM_HASH = "02cf3691842a3cf9099769d83c3c5dd4070e86896b1a25bbc6dc36a1878846448eca030ee1b13d96f737780479968d135bb6c9aab46ab8e0a04498f5f75cf879"
+RPM_NAME = "ortp-5.2.73-1.1.aarch64.rpm"
+RPM_HASH = "9fbad14d03ef3e07f0c44986a9271016caf2fe399807a49bc6b2b1bc0bb638413550dbac2fe79b68a69ac97f722797201cddb775acbd319fb042594f078cf4fe"
 
 RPROVIDES:${PN} += "ortp"
 

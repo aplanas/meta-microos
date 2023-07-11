@@ -15,11 +15,10 @@ LICENSE = "BSD-3-Clause & GPL-2.0-or-later"
 
 PV = "0.13.1"
 
-RPM_NAME = "python310-pyFFTW-0.13.1-1.4.aarch64.rpm"
-RPM_HASH = "52bb0c0bb1f37b40c29df60bd718b9b5b13613cfe82c5db355bbd94556d00cb3a0507b86fcc44415eec44117937bd0bb779c089a86390ec82b1ebeb7da330b24"
+RPM_NAME = "python310-pyFFTW-0.13.1-1.6.aarch64.rpm"
+RPM_HASH = "0523948dd092af642273139d9a8c33d72146b4f54b55a5c8496b4cc67ec97031610206f13142382d9e6e9874969a3a8613b0dcec84089c72ce38b4ed5b2a848f"
 
-RPROVIDES:${PN} += "python3-pyFFTW \
-python3.10dist-pyfftw \
+RPROVIDES:${PN} += "python3.10dist-pyfftw \
 python310-pyFFTW \
 python3dist-pyfftw"
 

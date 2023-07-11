@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.1"
 
-RPM_NAME = "python39-traittypes-0.2.1-9.2.noarch.rpm"
-RPM_HASH = "0705443eec651e7163399989ec217b89d238cd33055c0e366121faf243ce55a68b7cd85bbfdd3ec182a2e31f75e14b408a76cd94d82695c3f154e964a92ed49f"
+RPM_NAME = "python39-traittypes-0.2.1-9.4.noarch.rpm"
+RPM_HASH = "3c4b70d110e2465deb6e514dc5679df01cf14021b169d913e91023808e350c15bb04622c1e0af7e412738fc077ef50b62ad21e325decc4599957fb38d4fb5d86"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-traittypes \

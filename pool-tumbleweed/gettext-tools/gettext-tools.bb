@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.21.1"
 
-RPM_NAME = "gettext-tools-0.21.1-2.1.aarch64.rpm"
-RPM_HASH = "57ebb0039957ac9805994840d2f4dc80aa45cfbd50b1d37ac5f4a074b95cf30fe2b1979cec4f400c9510b425856989607d138b2d34e7d4f327965cfd51297243"
+RPM_NAME = "gettext-tools-0.21.1-2.2.aarch64.rpm"
+RPM_HASH = "22e3db7318b1f1063145b1ca89bb51925abae7515e270c01de03d253e22675e861502909cdb3bfd9fc195e334bd88b42cb377501b44476c69e2e143af340e427"
 
 RPROVIDES:${PN} += "gettext-devel \
 gettext-tools \

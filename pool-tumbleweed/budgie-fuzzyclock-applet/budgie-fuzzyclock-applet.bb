@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.6.0"
 
-RPM_NAME = "budgie-fuzzyclock-applet-1.6.0-1.1.aarch64.rpm"
-RPM_HASH = "0e400e93fdad9d76086e1cd866b7e78c140fff35d0a136ea984eb020c7a31b379f6137fcd0f338d50c7ac7c0252a4392eb4bcbbc12da435c581e052b7b161e1a"
+RPM_NAME = "budgie-fuzzyclock-applet-1.6.0-1.2.aarch64.rpm"
+RPM_HASH = "b4851e3ee10c1caf571e34fb5b9d18232643060400cb19087398a2e58e5e1143381f51f729a59983f64ab272250a4350676438ec4c2fd658996bc848e8a4baf4"
 
 RPROVIDES:${PN} += "budgie-fuzzyclock-applet \
 libfuzzyclock.so"

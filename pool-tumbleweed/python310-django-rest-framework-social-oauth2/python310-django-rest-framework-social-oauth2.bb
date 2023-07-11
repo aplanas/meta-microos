@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "python310-django-rest-framework-social-oauth2-1.1.0-1.15.noarch.rpm"
-RPM_HASH = "0471738a5a0d74566f0d46b9586d2de42f7efd234793a9d27ccb076a4de7289f410c38d379af767d0f4d547c92ccf8286eb4b2de4c478f085eb97445b7d4e9d8"
+RPM_NAME = "python310-django-rest-framework-social-oauth2-1.1.0-1.16.noarch.rpm"
+RPM_HASH = "79328f8ebc364a82b86ac2d20cd048739a3727ead4d93c1132262f08c982a60636609cd8da1e658a2a7a74e3a82182820eb284ee9ebff1ae8bd1f8c758e73090"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-django-rest-framework-social-oauth2 \
-python3.10dist-django-rest-framework-social-oauth2 \
+RPROVIDES:${PN} += "python3.10dist-django-rest-framework-social-oauth2 \
 python310-django-rest-framework-social-oauth2 \
 python3dist-django-rest-framework-social-oauth2"
 

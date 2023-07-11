@@ -4,8 +4,8 @@ LICENSE = "Python-2.0"
 
 PV = "2022.1"
 
-RPM_NAME = "python39-python-docs-theme-2022.1-1.11.noarch.rpm"
-RPM_HASH = "b4a65ac9902c57563dfa274e3c9e9fa8d72c2e4793d43fa3c21b4121f85a9c358614b63acab79737cac6c6ffc0f43057cf6d4bfa6128dd379727e89dd3e9ef44"
+RPM_NAME = "python39-python-docs-theme-2022.1-1.13.noarch.rpm"
+RPM_HASH = "7351318305f3fa19d9a2c3e1e47730dc3a9674acee58cbb888ef0496d7c99f9a63135c2bd55dc75fc888a3be6e3e4a3cc7c9582334ce0a85c05ffa04914bd4c0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-python-docs-theme \

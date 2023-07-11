@@ -5,8 +5,8 @@ LICENSE = "EPL-1.0"
 
 PV = "2.49.3"
 
-RPM_NAME = "libgvpr2-2.49.3-6.3.aarch64.rpm"
-RPM_HASH = "89e50dc5cc699ea711d2c2bcc1fbc8ce0f847d45130d4c6187076e6b76a086134705acc0b412a22b24d8a73fc87987adcc6614055e18b4581c72dfb7832af697"
+RPM_NAME = "libgvpr2-2.49.3-6.4.aarch64.rpm"
+RPM_HASH = "7cf633705a8300409be67699c0da85ac7821c890c1792edfd73978a124bf5ff0691f262ae3c12e656a49f06aecb840461eb59e64a194e1c63a3fa4e3d0313d25"
 
 RPROVIDES:${PN} += "libgraphviz6-/usr/lib64/libgvpr.so.2 \
 libgvpr.so.2 \

@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.17.2"
 
-RPM_NAME = "log4j-slf4j-2.17.2-5.7.noarch.rpm"
-RPM_HASH = "7be6436a9e0c3feb67d221446f41d2cbc658d1ee7b78757e76eca0fcabc3d0f900cdecf9980a0fb8e4b8eea4b5a5b2b504e95abba7b5f83303c7cd52199f2d97"
+RPM_NAME = "log4j-slf4j-2.17.2-5.8.noarch.rpm"
+RPM_HASH = "beab69ccdac9dd8ae317aebf5bc8fab4167618c8f5fc0321fd2219f1f29b6ab5f7540750aefb34e61528dff8e1ffff764b3200fde80c7e8c07dc07d87384ef3e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "log4j-slf4j \

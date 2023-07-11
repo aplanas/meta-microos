@@ -12,8 +12,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.11.1"
 
-RPM_NAME = "libpmemblk-devel-1.11.1-1.8.aarch64.rpm"
-RPM_HASH = "6a8b2a69e6220a2ea3d748e6495a0fdc41f75e5c23a2369276a00307a1913626aab03cdcb153a65261521c94733325ae58d6c8556d1dbdcdafe7f86bfb62c4fe"
+RPM_NAME = "libpmemblk-devel-1.11.1-1.9.aarch64.rpm"
+RPM_HASH = "ccc7f32894a3d92467ad637cf72b56c0080e867e96f923bb7feb99089967a5eb5b873cc869ab2cc28e6ac3654832711a859b395f51fecca6b9156b03820aed9e"
 
 RPROVIDES:${PN} += "libpmemblk-devel \
 pkgconfig-libpmemblk"

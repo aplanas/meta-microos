@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-matc3mem"
 DESCRIPTION = "This package includes the documentation for texlive-matc3mem"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn35773"
+PV = "2023.208.1.1svn35773"
 
-RPM_NAME = "texlive-matc3mem-doc-2023.201.1.1svn35773-52.1.noarch.rpm"
-RPM_HASH = "e4de0703c751b5572fff7198781940f8af66518e7b4bd0e6694612bd43f9bf96754dd8155e283565ca1c5d201f4c4270b20a655046d0870c699c603c637c7aee"
+RPM_NAME = "texlive-matc3mem-doc-2023.208.1.1svn35773-53.1.noarch.rpm"
+RPM_HASH = "9e9df4df3a0c89d1e19b0fecd8a7dce19fa9aeda45df4505e797782eed2c45eb382744c585dca04659e06f63dee5923d3b23e3961cd1d5b24e8b932da78397c1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-matc3mem-doc-it \

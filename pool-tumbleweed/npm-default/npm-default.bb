@@ -3,10 +3,10 @@ DESCRIPTION = "Depends on the npm version associated with the current default \
 version of nodejs for the current architecture and codestream."
 LICENSE = "MIT"
 
-PV = "5.1"
+PV = "6.0"
 
-RPM_NAME = "npm-default-5.1-2.1.aarch64.rpm"
-RPM_HASH = "c75513fcedaf2c0d70c169f292b67cde3649600732914e8e2d2fe77e23151240096300ab6f25af0e2a16708af18d05f579ed6776c4c3b74c930df23568d0a0c1"
+RPM_NAME = "npm-default-6.0-1.1.aarch64.rpm"
+RPM_HASH = "eef5509341d3a0aea0300524790ffc552e4c8816f62338fe71c418012cce7967485234e9195c2228c5280342a62b4e3644ce6fdc738651cdd7a733773b2a3662"
 
 RPROVIDES:${PN} += "npm \
 npm-default"

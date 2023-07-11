@@ -6,10 +6,11 @@ LICENSE = "GPL-2.0-only"
 
 PV = "3.12.3"
 
-RPM_NAME = "python311-dmidecode-3.12.3-4.1.aarch64.rpm"
-RPM_HASH = "cb2e7f4ccecc2fb009597b90a103537fbf11cbfceae891fdcdb4507d8c69062e00ac596ff5a2a208649ab8fa9717edc4f4fb50a90f0830531a7b9da71cfebae0"
+RPM_NAME = "python311-dmidecode-3.12.3-4.3.aarch64.rpm"
+RPM_HASH = "81547fe9932e61859f31bc991f9395f5cead2ac1b98245d3bf3c7d86abc0568b87b06106c3e7f4e4833eb17a7908367f490238d46857d7af094f15eebec59ab4"
 
-RPROVIDES:${PN} += "python3.11dist-python-dmidecode \
+RPROVIDES:${PN} += "python3-dmidecode \
+python3.11dist-python-dmidecode \
 python311-dmidecode \
 python3dist-python-dmidecode"
 

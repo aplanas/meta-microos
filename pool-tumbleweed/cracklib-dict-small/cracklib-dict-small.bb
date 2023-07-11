@@ -6,10 +6,10 @@ from choosing passwords that are easy to guess. \
 This package contains a small dictionay file used by cracklib."
 LICENSE = "LGPL-2.1-only"
 
-PV = "2.9.8"
+PV = "2.9.11"
 
-RPM_NAME = "cracklib-dict-small-2.9.8-1.2.aarch64.rpm"
-RPM_HASH = "5b56e843793d4bb76150e0bb290c25d28f0ecbfba28585487de165e93b62ff48de8a29c54bf0ced790976fcc6e811cec4dbc1e3b2a2b820d0eb6c09b8e2222d9"
+RPM_NAME = "cracklib-dict-small-2.9.11-1.1.aarch64.rpm"
+RPM_HASH = "631280cbf51d86ff44a70f0a0b14741397f539cb9c39a001fa28d92274990b39880b384b17ef187e9859d4056960e200e7375418081fe7381afb4ef03b61f3ff"
 
 RPROVIDES:${PN} += "cracklib-dict \
 cracklib-dict-small"

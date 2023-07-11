@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "python311-azure-mgmt-webpubsub-1.1.0-1.2.noarch.rpm"
-RPM_HASH = "959ef3e74a154c417aef546c32a56a619526bb3737ff19106bb5ce89e1f9f876bc9faa5ed341bd5ebf72d5151eca44dffa24762ccf1570253f04d3bf0e89d6e8"
+RPM_NAME = "python311-azure-mgmt-webpubsub-1.1.0-1.3.noarch.rpm"
+RPM_HASH = "468c4a14e05439303c2f0051ba5b45fd90b3da4217e14ccc0ebb27c98e77357320f08175d79a77776cca9553d182c692c62184a9baf19cc48f9933aad0b4a5b6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-webpubsub \
+RPROVIDES:${PN} += "python3-azure-mgmt-webpubsub \
+python3.11dist-azure-mgmt-webpubsub \
 python311-azure-mgmt-webpubsub \
 python3dist-azure-mgmt-webpubsub"
 

@@ -10,10 +10,12 @@ LICENSE = "GPL-2.0-only | GPL-3.0-only | SUSE-SIP"
 
 PV = "12.12.1"
 
-RPM_NAME = "python311-qt5-sip-12.12.1-1.1.aarch64.rpm"
-RPM_HASH = "5cb2e8d3b71d8326d50cbe116aac427394404adea0295f183109649c476736ab4f8128a9b0d3db88199f6925d6be29f9ac68df19374b882a93275360a53ad20b"
+RPM_NAME = "python311-qt5-sip-12.12.1-2.3.aarch64.rpm"
+RPM_HASH = "7597335ed4eec2a5ccd4c4479626b3cb0ae034729a3d17ea65b063f4bcea3ae2524474e6644edae7d2e2e1c2b1690f970cb8a02273f001a7b0ab591b8ef340e2"
 
-RPROVIDES:${PN} += "python3.11dist-pyqt5-sip \
+RPROVIDES:${PN} += "python3-PyQt5-sip \
+python3-qt5-sip \
+python3.11dist-pyqt5-sip \
 python311-PyQt5-sip \
 python311-qt5-sip \
 python3dist-pyqt5-sip"

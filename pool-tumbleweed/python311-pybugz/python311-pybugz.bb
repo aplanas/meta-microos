@@ -10,11 +10,13 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.13"
 
-RPM_NAME = "python311-pybugz-0.13-3.9.noarch.rpm"
-RPM_HASH = "66f2b0a5b4f8e3907a52e5f91d8b9f1d288584208fc910467ed4dd2c1144c2703ce84d539024215889b42db078a16e0eed1270e2acd1e1c666ae01ceb8592895"
+RPM_NAME = "python311-pybugz-0.13-3.10.noarch.rpm"
+RPM_HASH = "f1feba7b892140232706a39c6cc34bd643027ca4eda87fea3e7752b974fe52b0384b131f0387cee42a85acdeb136565212a96af0b20b0f75693fd61a40382f34"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pybugz \
+RPROVIDES:${PN} += "pybugz \
+python3-pybugz \
+python3.11dist-pybugz \
 python311-pybugz \
 python3dist-pybugz"
 

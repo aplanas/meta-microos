@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.3.9"
 
-RPM_NAME = "libklu1-1.3.9-49.1.aarch64.rpm"
-RPM_HASH = "e7530ed84b04616a303a630d6067f418e5dcf76999cf4ff561f795e5b51cfb76f0e352391924c5bc29fcf6768e88d5fdf28db24157d1d8eed99a37afb16dd465"
+RPM_NAME = "libklu1-1.3.9-49.2.aarch64.rpm"
+RPM_HASH = "f913963f33ef11ccc5b0c5968fc10cf31c48e823e83b37c7821b24f5389bd3d30fbc0855ac2ddff65c24d82e0d3c7243ec6c356abfda0d6130c39aa6a055b1e4"
 
 RPROVIDES:${PN} += "libklu-1-3-9 \
 libklu.so.1 \

@@ -22,8 +22,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.1"
 
-RPM_NAME = "perl-Parse-Win32Registry-1.1-1.12.noarch.rpm"
-RPM_HASH = "286991e9decbb5c6ee7dec5b624f93c7951a53520d527bcd08eaef6a9ba10549ab5c70636c525569481b9a8695956ab86e64d9194edeeb225f68fc7c570933c8"
+RPM_NAME = "perl-Parse-Win32Registry-1.1-1.13.noarch.rpm"
+RPM_HASH = "48a6d1a077fdee4db9349453b61052aeb414f5559664016cf888265e7a2a5407982230b6fad46c36a69cf8e96d1c223223313ad0fdcf43297464dcdc33ed7293"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Parse--Win32Registry \
@@ -53,6 +53,6 @@ perl-Parse--Win32Registry--WinNT--Value \
 perl-Parse-Win32Registry"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

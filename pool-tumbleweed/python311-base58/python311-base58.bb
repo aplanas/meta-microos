@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "2.1.1"
 
-RPM_NAME = "python311-base58-2.1.1-1.9.noarch.rpm"
-RPM_HASH = "e2cacaa3bd4169f206b3c50e292b63c17bee70687ee4db165e5c0edf7c71b6aa71aaf908fad194b352ecdf00bffbfb210725223887ae8eecfd3f5879773d8952"
+RPM_NAME = "python311-base58-2.1.1-1.11.noarch.rpm"
+RPM_HASH = "0942169f81fd6b519a70c261b70be6d345c952b42409fbf53749ec65c0f1f96f913393efd7e5c08edce752098a71362c00b87a4916dddb45bd5cd732651adea2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-base58 \
+RPROVIDES:${PN} += "python3-base58 \
+python3.11dist-base58 \
 python311-base58 \
 python3dist-base58"
 

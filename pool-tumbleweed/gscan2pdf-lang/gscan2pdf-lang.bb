@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.13.2"
 
-RPM_NAME = "gscan2pdf-lang-2.13.2-1.1.noarch.rpm"
-RPM_HASH = "f783017dee3e815ad09a9b89ad4c414292ff85afcce630869ba7a023ba6d993efb32e2fb10c1b8500ef01857690f4287daee3ed610e96b835e625e9538e9c46c"
+RPM_NAME = "gscan2pdf-lang-2.13.2-1.2.noarch.rpm"
+RPM_HASH = "51937c659fbba1000cf07d8eb6530ae41e44fbec272b31d4546e26ff44f08de3999a8a59f8cd9f07416f153b36260c069628f8bf10b464c41ae0f317468815a6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gscan2pdf-lang \

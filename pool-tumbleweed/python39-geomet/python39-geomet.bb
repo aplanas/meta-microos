@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.0"
 
-RPM_NAME = "python39-geomet-1.0.0-1.1.noarch.rpm"
-RPM_HASH = "fb7ba24f4bea54347ddae0e6f3d09f524aa0dd5f4b3bebbab79274fda95f21e5223e45f12c8cb307e346ec84fa43af1b3db366bfc5b8d96e8e870dfe57d42ace"
+RPM_NAME = "python39-geomet-1.0.0-1.3.noarch.rpm"
+RPM_HASH = "ab3ec2492951baf4afad2e26a2f06a53b3318ca3093c47036525fbfd5418d43c5f1a5165b029adb642de6fa7ff84bf3529ee3268670da6d241d25268227e8c20"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-geomet \

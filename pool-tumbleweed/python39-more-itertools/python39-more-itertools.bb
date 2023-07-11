@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "9.1.0"
 
-RPM_NAME = "python39-more-itertools-9.1.0-2.1.noarch.rpm"
-RPM_HASH = "991107e8fdd76254aa1b8d1170c89e2f7b7b36f4a21d474d3a87499ccdf165d1b625b199434d332f31835da3502e040570520657f34e82e0bcf5b891e8a23d02"
+RPM_NAME = "python39-more-itertools-9.1.0-2.3.noarch.rpm"
+RPM_HASH = "b86b0eca3900311dbba124f4241265f0138e05676bd120c34959c27420b0171fcfabaf42471dfd5b8147ca04d8bb7d90a96fd24fe0c1c10766c6bcc02b1d4cc7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-more-itertools \

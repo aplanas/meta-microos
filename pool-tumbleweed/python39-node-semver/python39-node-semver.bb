@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.9.0"
 
-RPM_NAME = "python39-node-semver-0.9.0-1.2.noarch.rpm"
-RPM_HASH = "3d1d59332f0c2069c3bac6f85eb88e141ff9394f4947246e048703b93820f549a29018d576829f716229425e4b0da27db701fb6d6a3ac7f31e6c9cccc9fe3aa2"
+RPM_NAME = "python39-node-semver-0.9.0-1.4.noarch.rpm"
+RPM_HASH = "e137c28365dcf715425f17be5412ae8d03ce28e041c6de6ace15e0a15954706771b889d01ca0fe1f990d933450f10109185d981914b5c660c7447ddf05d7bb77"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-node-semver \

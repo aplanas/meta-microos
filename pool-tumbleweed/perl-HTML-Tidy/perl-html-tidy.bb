@@ -6,8 +6,8 @@ LICENSE = "Artistic-2.0"
 
 PV = "1.60"
 
-RPM_NAME = "perl-HTML-Tidy-1.60-1.29.aarch64.rpm"
-RPM_HASH = "8ca7511966a2aff0ca4e756ea23a7cf350088cc64cd9bee65436d0e7d4d9c344d844d15b944d10534b3994b494c8dc96305e0a489c49813ef5862903f9eb35b6"
+RPM_NAME = "perl-HTML-Tidy-1.60-1.30.aarch64.rpm"
+RPM_HASH = "75ec36a8d69c0d1d5313cd813ab317ec47a8cf10349c2fae384b3b0f0d8a63b358144fd5f684742c5232d01f7d93e1e26081c3c2dbdbd4c998362af3afb77453"
 
 RPROVIDES:${PN} += "perl-HTML--Tidy \
 perl-HTML--Tidy--Message \
@@ -17,7 +17,7 @@ RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libtidyp-1.04.so.0 \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-LWP--Simple \
 perl-Test--More"
 

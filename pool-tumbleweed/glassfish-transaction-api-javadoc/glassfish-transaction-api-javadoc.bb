@@ -4,8 +4,8 @@ LICENSE = "CDDL-1.0 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "1.3"
 
-RPM_NAME = "glassfish-transaction-api-javadoc-1.3-3.10.noarch.rpm"
-RPM_HASH = "4f13e629cd3f02c8f744f3cf712b631e5db23e4d94cbe5a25a25d6ff5c17dfe1e855bd6634f55e8807073d2729ba8ac738d80b132bbd92c1bbeaf4896800d745"
+RPM_NAME = "glassfish-transaction-api-javadoc-1.3-3.11.noarch.rpm"
+RPM_HASH = "b75f7533ac4d77cde80b564b9dd2b6c30910c269965a35c8ce80dd761685f974bc84af9755403c9ae966e11964d6e02de92d52bc705043a0540a0283cd05d751"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-transaction-api-javadoc"

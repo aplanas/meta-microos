@@ -6,11 +6,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.1.0"
 
-RPM_NAME = "ghc-fsnotify-0.4.1.0-2.3.aarch64.rpm"
-RPM_HASH = "c880439615dd13cfd2b5b313a1f5ab08be18bbffceeb75adee120ca0a61664b030b3fefa5f8fb134b7a28185fa0127d28427e6b89a12e7570005b7f809a503c8"
+RPM_NAME = "ghc-fsnotify-0.4.1.0-2.7.aarch64.rpm"
+RPM_HASH = "a48d098fc98bfb90840636a2f88cda5ad3f0f16874bb17e6a7afc68d1aaafb0e51c83bbeac216fb27cfcb84ef07fa87525aceb9f8178c5d56cf3194f3d104117"
 
 RPROVIDES:${PN} += "ghc-fsnotify \
-libHSfsnotify-0.4.1.0-2wEvt7wcuNwGNHTpTKKSuK-ghc9.4.5.so"
+libHSfsnotify-0.4.1.0-J4WSFHZY5VQ2Gkw2wp8qhw-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
 libHSasync-2.2.4-Is3H7ZPNMkM5reIoCaqYrF-ghc9.4.5.so \
@@ -31,7 +31,7 @@ libHShinotify-0.4.1-8EvWCUqnZLR2V2Cj5bSrk3-ghc9.4.5.so \
 libHSmonad-control-1.0.3.1-YXA6op7GEFFtfFxLr4pzX-ghc9.4.5.so \
 libHSmtl-2.2.2-ghc9.4.5.so \
 libHSpretty-1.1.3.6-ghc9.4.5.so \
-libHSsafe-exceptions-0.1.7.3-4ydW60ruqZ4IdMpKf3b6BD-ghc9.4.5.so \
+libHSsafe-exceptions-0.1.7.4-8XVKrMBchTjCLhdcvBwBNb-ghc9.4.5.so \
 libHSstm-2.5.1.0-ghc9.4.5.so \
 libHStemplate-haskell-2.19.0.0-ghc9.4.5.so \
 libHStext-2.0.2-ghc9.4.5.so \

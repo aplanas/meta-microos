@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "2.3.1"
 
-RPM_NAME = "python39-gTTS-2.3.1-1.5.noarch.rpm"
-RPM_HASH = "293285bb60addc89ba8a61998180fefeff456c74c80f411f34d42a447a1db44ebe96b948a54a24f51aa95326c08156783fa6efe4bfb76b511f6244ad5c14b68c"
+RPM_NAME = "python39-gTTS-2.3.1-1.6.noarch.rpm"
+RPM_HASH = "d882332e2d86b1142d9fff54aa27adb747f69e445e78caa8a2135ee14f21ce1603824a72701df439a089648bd480be2505d8fca4ab2abb817a853fe57891053f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-gtts \

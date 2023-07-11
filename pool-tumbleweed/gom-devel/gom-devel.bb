@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.4"
 
-RPM_NAME = "gom-devel-0.4-1.15.aarch64.rpm"
-RPM_HASH = "1dd16301aedbad33c549daab6515a9840869724b072da22cc548df3df435484eea90335b93b80ecf921e5235b81aa713783b42d78fda29d5dacd6218d4f22c11"
+RPM_NAME = "gom-devel-0.4-1.16.aarch64.rpm"
+RPM_HASH = "7d8b5d336ecd0dc1a3f8c834226aad053b8bce5045dc305c40e446884e7ee5614d4ca15510ce3432980a6bad92ce81b018f174c00a809feb83083e752cb5d2c9"
 
 RPROVIDES:${PN} += "gom-devel \
 pkgconfig-gom-1.0"

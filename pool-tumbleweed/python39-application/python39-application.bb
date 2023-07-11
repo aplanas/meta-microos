@@ -16,8 +16,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.0.3"
 
-RPM_NAME = "python39-application-3.0.3-2.10.aarch64.rpm"
-RPM_HASH = "f09a37b9c72c519f0de949fbc68c369e475bf74c850796dd1d4fc645914442286299d4171f709d83ca0a45b3e001df2ac7d63d65e4064d4f8603d7f2e830fce0"
+RPM_NAME = "python39-application-3.0.3-2.11.aarch64.rpm"
+RPM_HASH = "f91efd6353958a18fa86696d19d22305661e62104ef18d7d4c3adc0e66c3aa1c06d06d7f0fa914aea57af8103930cd58e0eb6d5e46a0cdd43357e77a59bf4ea3"
 
 RPROVIDES:${PN} += "python3.9dist-python3-application \
 python39-application \

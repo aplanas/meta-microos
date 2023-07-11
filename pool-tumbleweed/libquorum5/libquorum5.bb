@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.4.6"
 
-RPM_NAME = "libquorum5-2.4.6-1.3.aarch64.rpm"
-RPM_HASH = "736e35fbcb23c353c8445dc9d966c5014b1a48bf4a2793cddb4ab1bc8f84467f8ece5dcbe0778ca364b6e3b6a0fb47e5632d07c83bbaa9b4eda3ec5881abaf13"
+RPM_NAME = "libquorum5-2.4.6-1.4.aarch64.rpm"
+RPM_HASH = "76bae64b16a4321b588971148c6c66f016c67e398a8224c28664555b19f2ad70e6d40b0117491e415598b789bd482b5ebc132fe973fbae3b30bcdea1f69ef1ae"
 
 RPROVIDES:${PN} += "libquorum.so.5 \
 libquorum5"

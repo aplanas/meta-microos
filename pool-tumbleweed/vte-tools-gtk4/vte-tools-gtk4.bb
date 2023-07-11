@@ -6,10 +6,10 @@ emulation settings. \
 This package provides tools using VTE."
 LICENSE = "LGPL-2.0-only"
 
-PV = "0.72.1"
+PV = "0.72.2"
 
-RPM_NAME = "vte-tools-gtk4-0.72.1-2.2.aarch64.rpm"
-RPM_HASH = "25e2a8bbd38c4a1289bc25e3e14412ede1358282f13669a535d65fea9857b6f104037efac7fb4c49fbe33accb0394e028f23949c66617dbf42d7dcb3dc15f614"
+RPM_NAME = "vte-tools-gtk4-0.72.2-1.1.aarch64.rpm"
+RPM_HASH = "196eec41a1b0648e5ebb5765f8d0e6e17487a9bb5d06967fd063737e2a90a0cc9bafab9ee0781b584256a79c5b807bb7139c217966e0ca6c46e1598a87b0b4e5"
 
 RPROVIDES:${PN} += "vte-tools-gtk4"
 

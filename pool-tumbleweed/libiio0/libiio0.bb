@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.24"
 
-RPM_NAME = "libiio0-0.24-1.4.aarch64.rpm"
-RPM_HASH = "50b2c10345dd371cb2f99e94125a9992b5c13db05fe7d8f8c391455b0d71edbdd35eab720206647500f4786600dded200b5c8c58a0dfb182e583f6eb3e784902"
+RPM_NAME = "libiio0-0.24-1.5.aarch64.rpm"
+RPM_HASH = "77219ad9c362609d796da1ab16cb653474e33df5139eff60abec327ed7eff73af738ff1bf00f3862e7e8f4da17ae766225cb77d3cfc1bad877befa43e961fdb7"
 
 RPROVIDES:${PN} += "libiio.so.0 \
 libiio0"

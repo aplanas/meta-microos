@@ -11,10 +11,10 @@ provides nice formatting of tables in LaTeX. It is written in \
 Lua, and TeX file is to be compiled with LuaLaTeX engine."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn65485"
+PV = "2023.208.1.0svn65485"
 
-RPM_NAME = "texlive-luamodulartables-2023.201.1.0svn65485-52.1.noarch.rpm"
-RPM_HASH = "e7c57b0e38ea2a5c4dbb2cf89f0750c402b26440da550e481891ab9af55b17a03a5c63da0b4d9916a40e0e20b6fe4d58812078efc1377a561d22e52db7162e1a"
+RPM_NAME = "texlive-luamodulartables-2023.208.1.0svn65485-53.1.noarch.rpm"
+RPM_HASH = "ac23477be803209abdfcbe8b68c298c9507e4e9e1684f830da9ba3eebe2680f7bb2223664859d9c5c575bf9f90b04e761c0dfa9c51c1a404db1c79dcab74221c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-luamodulartables.sty \

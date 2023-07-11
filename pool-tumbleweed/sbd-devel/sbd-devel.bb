@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides an environment + testscripts for \
 regression-testing sbd."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.5.1+20221128.8ec8e01"
+PV = "1.5.2+20230316.5ec38cf"
 
-RPM_NAME = "sbd-devel-1.5.1+20221128.8ec8e01-1.3.aarch64.rpm"
-RPM_HASH = "99eeb4c42c09890dd39e6ea436e44f0046488c058a5fe8fbdc33c4d5a0d6164c60cbc78131df46bbf027e48dad9b1d4d69a26209847787cddda57f6f87f2b1e6"
+RPM_NAME = "sbd-devel-1.5.2+20230316.5ec38cf-1.1.aarch64.rpm"
+RPM_HASH = "024cf18acf865976fb39ce77a5c0308e2af1b6bd98a88190aafc3e8faf73ed02dfaba4e723f4e15c4efc3184e3f18f94a2cacec853e486e21cb4ab4a0311a018"
 
 RPROVIDES:${PN} += "libsbdtestbed.so.0 \
 sbd-devel"

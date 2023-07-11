@@ -4,8 +4,8 @@ LICENSE = "Zlib"
 
 PV = "4.3.0"
 
-RPM_NAME = "cgns-devel-static-4.3.0-1.7.aarch64.rpm"
-RPM_HASH = "4cf610aaa9b9de7fa9519fbd2ae6b6a786ebc16d0b10dbb135ad349958cc08af8feb18260042230aabb164836aab043c8cb3265368886505e59a0be4ccb9bc36"
+RPM_NAME = "cgns-devel-static-4.3.0-1.8.aarch64.rpm"
+RPM_HASH = "642bad52562858f6500a8dd279d028203badf81ed5f05b68b467ee8be696b07606271dae691c6388b09c5d4c4293f76d827485f28875a8d1a1feda4e45c9fab8"
 
 RPROVIDES:${PN} += "cgns-devel-static"
 

@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.12.2"
 
-RPM_NAME = "gthumb-3.12.2-3.3.aarch64.rpm"
-RPM_HASH = "0a5f58d17e549211835532f79296a212f4117ad9077b2e470131b851b3ebcfc5d414d50cc29d6ecd5aefae96ba44857d030bb71f3ce05e08270d755bd8426faf"
+RPM_NAME = "gthumb-3.12.2-4.1.aarch64.rpm"
+RPM_HASH = "94737425b63a76a368b726617ec0399d145466cb22f02a4ab650628b98f237bcf02b0bc1b5b20ef9993ffe6e4f83cd5017dd147ebef079a2a4e71b635a6294f4"
 
 RPROVIDES:${PN} += "gthumb \
 lib23hq.so \
@@ -61,7 +61,7 @@ libchamplain-gtk-0.12.so.0 \
 libclutter-1.0.so.0 \
 libclutter-gtk-1.0.so.0 \
 libcolord.so.2 \
-libexiv2.so.27 \
+libexiv2.so.28 \
 libgcc-s.so.1 \
 libgdk-3.so.0 \
 libgdk-pixbuf-2.0.so.0 \

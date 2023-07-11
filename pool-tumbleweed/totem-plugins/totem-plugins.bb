@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "43.0"
 
-RPM_NAME = "totem-plugins-43.0-2.3.aarch64.rpm"
-RPM_HASH = "442d2b537581280cbd3ec690eaef8673ebd65fa7d443cfa6f842e0e219fe0bee4cce2ebfb86c42f12f206c3bac3df5f0c086dd4669eeaaf2025b86923630e730"
+RPM_NAME = "totem-plugins-43.0-2.4.aarch64.rpm"
+RPM_HASH = "3e8cf6d79c423d9536f00e1e263e2baa8ca362517b78ff84e048215973c1a84cae57aeb2436e0af390c888915859b3ef72e9d423ac83535c3a1a89c56710127b"
 
 RPROVIDES:${PN} += "libapple-trailers.so \
 libautoload-subtitles.so \

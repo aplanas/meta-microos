@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "2.2.2"
 
-RPM_NAME = "python311-sphobjinv-2.2.2-1.4.noarch.rpm"
-RPM_HASH = "b17a4e4fffaeae2add34ccdc7d4173adc3c02982fd5c00966f49f044fb4587622e012455377ec6fb18d43a8c9bb8efd6e083e1acdfc5443f313c7c9aa34e424e"
+RPM_NAME = "python311-sphobjinv-2.2.2-1.6.noarch.rpm"
+RPM_HASH = "6ba859df7e66d86b6aa6b9f0fd05324a4a893b146b49bc81798580b5ffddc1ff776393966aa82ebb5b654e9befa4fcea20d00421ed82bdc70dc93f615f9c8d8a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-sphobjinv \
+RPROVIDES:${PN} += "python3-sphobjinv \
+python3.11dist-sphobjinv \
 python311-sphobjinv \
 python3dist-sphobjinv"
 

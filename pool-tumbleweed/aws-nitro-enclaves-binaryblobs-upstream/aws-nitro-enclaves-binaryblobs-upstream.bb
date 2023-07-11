@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2.2~git0.4ccc639"
 
-RPM_NAME = "aws-nitro-enclaves-binaryblobs-upstream-1.2.2~git0.4ccc639-1.3.aarch64.rpm"
-RPM_HASH = "9dd5f5182e3310b56ddbc215563027ff41226727117e5c7a5c53cb0f10bd57d424ca1481517a612affe8667bc1476040838d25ae568a8cb53b52454812bf7fdf"
+RPM_NAME = "aws-nitro-enclaves-binaryblobs-upstream-1.2.2~git0.4ccc639-1.5.aarch64.rpm"
+RPM_HASH = "de088a5144600ac01195d02060e9d07a4930a734885f28200c80614412071b2a0afe6276ea50c72a10cdde1772181256c5eebf0c63b9930fc4178cecf1a559a2"
 
 RPROVIDES:${PN} += "aws-nitro-enclaves-binaryblobs \
 aws-nitro-enclaves-binaryblobs-upstream"

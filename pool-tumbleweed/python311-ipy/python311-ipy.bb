@@ -8,11 +8,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.01"
 
-RPM_NAME = "python311-ipy-1.01-1.10.noarch.rpm"
-RPM_HASH = "0b5cd5d57ccac6a4263726d57ea42d077763f11dbf8d7335b4437bbcfc8c0da68598ad802630d7bc9b38f01932194e0413df493dd4f3178dff4cf1ade72f0773"
+RPM_NAME = "python311-ipy-1.01-1.11.noarch.rpm"
+RPM_HASH = "7d1c69371d73f0831eed50c18615050720ffe5205998fc4d860dad2f9c847a925fd22509cb408673d0dda1af99bc510a268ded2da5b2689e46dfd4c0cfba0bda"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-ipy \
+RPROVIDES:${PN} += "python3-ipy \
+python3.11dist-ipy \
 python311-ipy \
 python3dist-ipy"
 

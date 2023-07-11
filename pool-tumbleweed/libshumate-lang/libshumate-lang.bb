@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.0.3"
 
-RPM_NAME = "libshumate-lang-1.0.3-1.3.noarch.rpm"
-RPM_HASH = "66ba2aede14502aeec807783e9896afc88052458b407665b653d15905888fbe2b5233329443d45716029018278de1c96c16384257626117b84968f81c26a0844"
+RPM_NAME = "libshumate-lang-1.0.3-1.4.noarch.rpm"
+RPM_HASH = "597b95035a37c5ad2dafc4109ee5e932adda84fb15c576c6b4e6994dcd58bdb71cefc044fe29378b8a7f40e0193a77d32d923abf55e1e22f7fa7a93cf0ffc21c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libshumate-lang \

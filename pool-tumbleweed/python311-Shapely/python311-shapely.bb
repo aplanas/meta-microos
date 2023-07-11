@@ -9,10 +9,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.8.4"
 
-RPM_NAME = "python311-Shapely-1.8.4-1.7.aarch64.rpm"
-RPM_HASH = "b7162133627015ed9adec18d79c0e39596985fd6b0d70e926508a84c826e7821a5d1424d67aada8263f9ed03b2e66509d14aaff1828bdf04479d975e27d301c7"
+RPM_NAME = "python311-Shapely-1.8.4-1.9.aarch64.rpm"
+RPM_HASH = "e14ab58b8bce9cbfa83a6369ed0ff1334bf8628775db79756ca801bc7d6a974984ef29cf82521be35ae41aa69df357931aae71e099a1826da82e2bbb7ea6209c"
 
-RPROVIDES:${PN} += "python3.11dist-shapely \
+RPROVIDES:${PN} += "python3-Shapely \
+python3-shapely \
+python3.11dist-shapely \
 python311-Shapely \
 python311-shapely \
 python3dist-shapely"

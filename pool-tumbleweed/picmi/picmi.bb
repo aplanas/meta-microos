@@ -2,10 +2,10 @@ SUMMARY = "Nonogram Logic game"
 DESCRIPTION = "A nonogram logic game by KDE"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "picmi-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "1f56bd6cccf8cf5b9de4ba68e6610aaf2a55fd1ca9c13d784099eae6ddf6b952bbcc22365cf6f4e7a35248e74464be03255141b0be8e1753c47714d8b8dbd8fb"
+RPM_NAME = "picmi-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "5cf2c74087cbdf67c1fd972c51827ec453ddda378f1227d4d9bffe69ccd206cea0ea97c215d0243ed398a61763d2434479d9dbb2499fc490625ea4f628db971d"
 
 RPROVIDES:${PN} += "picmi \
 picmi5"

@@ -9,10 +9,10 @@ required for this package to run. This package also requires \
 the cjk-ko package for its full functionality."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.5svn64893"
+PV = "2023.208.3.5svn64893"
 
-RPM_NAME = "texlive-luatexko-2023.201.3.5svn64893-52.1.noarch.rpm"
-RPM_HASH = "96be49d914103f42fc5a78a5cfbdd53438af4999a3dd08dd875e7b2547d5d4e47005937b4e12f73672edba6b4539881cd22c2a8451a5ba051a03f2ee32badd60"
+RPM_NAME = "texlive-luatexko-2023.208.3.5svn64893-53.1.noarch.rpm"
+RPM_HASH = "df1f2fd9bd596fc11633c6871fed934b71fd29ffc809ed4beb409f1d825da8a25261ec8a5a3c78cd2792df3e4c8f248ffff822c169988db4789183080edcacf2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-luatexko.sty \

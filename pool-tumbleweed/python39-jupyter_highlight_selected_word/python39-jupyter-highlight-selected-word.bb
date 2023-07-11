@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.0"
 
-RPM_NAME = "python39-jupyter_highlight_selected_word-0.2.0-8.5.noarch.rpm"
-RPM_HASH = "e5252a0ddf2958be57b41de5eb59cf7780b4856a72319d6deaf446894a2027be1e422c4ed50a651120a396e884d2b8d581f0493b40addfb09bf4361ebb0cc4e1"
+RPM_NAME = "python39-jupyter_highlight_selected_word-0.2.0-8.6.noarch.rpm"
+RPM_HASH = "54666eed2098763c47eebc55498a3ab7df8888a0792b00320024f0bd5a6284a87dfeac644a6b6f5fbe60ac11932b0ec15583faa6fcde61fe7800a0e86e89b82d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-jupyter-highlight-selected-word \

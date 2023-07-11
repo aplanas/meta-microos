@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only & (LGPL-2.1-only | LGPL-3.0-only)"
 
 PV = "16.04.0"
 
-RPM_NAME = "libdbusmenu-tools-16.04.0-9.3.aarch64.rpm"
-RPM_HASH = "882c42d3b1113b22b29a43fdbca9e94114f48f6cd39589cba8d3c69cbeda2570a7e71b213fd101276bfb8dcc9d7a82f38888e8c0486acf30deecad1e8a20f812"
+RPM_NAME = "libdbusmenu-tools-16.04.0-9.4.aarch64.rpm"
+RPM_HASH = "935d1b90d43ec9f01c71244b00b325bec59fa375a8793e71e287547011b5744df8fb0b9261e74a3e2774ef701724259971d865d3c939245fc4e3f135424824c2"
 
 RPROVIDES:${PN} += "libdbusmenu-tools"
 

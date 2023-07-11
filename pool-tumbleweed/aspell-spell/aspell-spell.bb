@@ -8,8 +8,8 @@ LICENSE = "GFDL-1.1-or-later & LGPL-2.1-only & HPND & SUSE-BSD-Mark-Modification
 
 PV = "0.60.8"
 
-RPM_NAME = "aspell-spell-0.60.8-5.4.aarch64.rpm"
-RPM_HASH = "58b79ea9cc732a12222a4efccad67f316ddff7daa6d2ca8fd01b723cc57a702621b3d07815341bed96e182c0b469b16e2904f3af23a39a83e9b43a1d9369f0bf"
+RPM_NAME = "aspell-spell-0.60.8-5.5.aarch64.rpm"
+RPM_HASH = "9c1f4cc11b3bd5665c0b53f2421ab3471d23d0e880a481b96b2cfea4e48f79eda5f6559a931af31e4374ab3a47d2874f19357e5562124aba5d473de58db2fb71"
 
 RPROVIDES:${PN} += "aspell-spell \
 spell"

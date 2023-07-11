@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.4.2"
 
-RPM_NAME = "python311-pytest-freezegun-0.4.2-3.1.noarch.rpm"
-RPM_HASH = "1eabb7ec0c41834b8750bc95c126ebecfbd65d20142839a2e9a75b746c73efb17e4839800aeea65ab1a82ecd87d4faedf8638aeafaa3472a5cfe687d227c7c41"
+RPM_NAME = "python311-pytest-freezegun-0.4.2-3.3.noarch.rpm"
+RPM_HASH = "e5fb8ed073fa8c5ab967222faa76797c27224d12299c69a9875582190d06276dcadd266705c1746d3a09e9c5f6cb0d7aad54fb7c8fc5de48a1e22f33f0389d1b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pytest-freezegun \
+RPROVIDES:${PN} += "python3-pytest-freezegun \
+python3.11dist-pytest-freezegun \
 python311-pytest-freezegun \
 python3dist-pytest-freezegun"
 

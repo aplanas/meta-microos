@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.6.0"
 
-RPM_NAME = "ibmtss-base-1.6.0-4.4.noarch.rpm"
-RPM_HASH = "a4fbf0185ebc18c2b49186ef688bdee1d8cc024d1a0c8f694f986d886dec0d9026f440fd36334eecb52f6743af0138b1c47f683a754107f026bfb4eafc779ba6"
+RPM_NAME = "ibmtss-base-1.6.0-4.5.noarch.rpm"
+RPM_HASH = "916df05b0ddcc9214b6362ff685fe4f3a653c17a9e1d32e4f177ea007567363fa13d1d61ce9a846fd8a69fa886c778c0072e91783f047509e290ea0d36043e10"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ibmtss-base"

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & LGPL-2.1-or-later"
 
 PV = "5.0.17"
 
-RPM_NAME = "libFcitx5Qt5WidgetsAddons2-5.0.17-1.2.aarch64.rpm"
-RPM_HASH = "5b0a6057a34f350b63b54b9dfddaede5303fb4e43f4aef2045c339bd2cdc0fa06aa757c1a5ac7b40fa1ce7bb55a8884ea6824c0312f69d647188c43890262c34"
+RPM_NAME = "libFcitx5Qt5WidgetsAddons2-5.0.17-1.3.aarch64.rpm"
+RPM_HASH = "4d6f812d39550e1eb4f5dd28d75baa023345494a69a39b59dc27edc43522c20c236eb6d253ed7bd90ac638cef96265f2556c7724bf7d6ceab419260ea672b0a9"
 
 RPROVIDES:${PN} += "libFcitx5Qt5WidgetsAddons.so.2 \
 libFcitx5Qt5WidgetsAddons2"

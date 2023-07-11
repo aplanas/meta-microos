@@ -2,10 +2,10 @@ SUMMARY = "Development files for the Qt 5 QuickRenderer 3D library"
 DESCRIPTION = "Development files for the Qt 5 QuickRenderer 3D library."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libQt53DQuickRender-devel-5.15.9+kde0-1.1.aarch64.rpm"
-RPM_HASH = "5fbdb7d5f311535f32d3ffc318598c21cedd39e18c08e17a5cca3d901981bcf1c9644fb35e55ea8cb573a6ad1658b62e906f0b590aaa3a76bbcc7a7057ee1f32"
+RPM_NAME = "libQt53DQuickRender-devel-5.15.10+kde0-1.1.aarch64.rpm"
+RPM_HASH = "986fc4d0fc18928363c8339a5cc8b58606ce77cc79d12d08b52c5f34ed3d05b16fdc6bd1babd83bd3596c52a238ca59a6781ef40191ff5a677c4e223068ddf6d"
 
 RPROVIDES:${PN} += "cmake-Qt53DQuickRender \
 libQt53DQuickRender-devel \

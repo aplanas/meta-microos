@@ -5,11 +5,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.4.0"
 
-RPM_NAME = "python311-django-guardian-2.4.0-3.5.noarch.rpm"
-RPM_HASH = "c2a7291d60a844d6d3cf55f56bef027f6a24bf9ee4f4526a986083bd11a53ebee2ce0d5f6f849723d2305f32147ae43ef4e069763d585dcfa19dcaad3adb4666"
+RPM_NAME = "python311-django-guardian-2.4.0-4.1.noarch.rpm"
+RPM_HASH = "d9fb8011632bcc7e60aa3e02bca0b129e8c2cffcad413ab2c5c469a54ae25818540ca97647c07c529a0babeff8a7a29ba5f7f442ed810ec20fcbb91faeb7b9fa"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-django-guardian \
+RPROVIDES:${PN} += "python3-django-guardian \
+python3.11dist-django-guardian \
 python311-django-guardian \
 python3dist-django-guardian"
 

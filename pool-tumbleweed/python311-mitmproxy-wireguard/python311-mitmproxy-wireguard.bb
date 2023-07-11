@@ -4,10 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.1.23"
 
-RPM_NAME = "python311-mitmproxy-wireguard-0.1.23-1.1.aarch64.rpm"
-RPM_HASH = "5e25171b78646e6fa030ec8fa81382bf4faab699c7af6a0872cafa0b414f5b54dda41b7c0d7e69b8499457cabbbcc7b750dcecf105cc57bf2481c461a03b495e"
+RPM_NAME = "python311-mitmproxy-wireguard-0.1.23-1.4.aarch64.rpm"
+RPM_HASH = "df2f0c48c10a3459325d05f7bab9627539a7bb60d6af9e8a6c8d1a09112f8e2a0c31319722b307d3120761f346723a9c346ee06129debbd82851387d1ec645c5"
 
-RPROVIDES:${PN} += "python3.11dist-mitmproxy-wireguard \
+RPROVIDES:${PN} += "python3-mitmproxy-wireguard \
+python3.11dist-mitmproxy-wireguard \
 python311-mitmproxy-wireguard \
 python3dist-mitmproxy-wireguard"
 

@@ -12,12 +12,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3.6"
 
-RPM_NAME = "python310-dill-0.3.6-3.1.noarch.rpm"
-RPM_HASH = "5a76dffb565a8b45c9b0bb1ad560d09aeafeef5090d95d4713044a11cd67c79c0f73742f4b9620d70ad37fe6f4b2da063762d10ce7737f69a7b8b1bcc05f2931"
+RPM_NAME = "python310-dill-0.3.6-3.3.noarch.rpm"
+RPM_HASH = "d413984d3748986eb50a0191051f6fa20aab0689a7f10d631999fa00f998a7154750284f8a597427540f83fbe9ae1d72b8f133916dfdb67c6866aafb772441de"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-dill \
-python3.10dist-dill \
+RPROVIDES:${PN} += "python3.10dist-dill \
 python310-dill \
 python3dist-dill"
 

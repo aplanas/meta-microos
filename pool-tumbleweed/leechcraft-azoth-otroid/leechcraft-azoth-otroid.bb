@@ -4,8 +4,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-azoth-otroid-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "d37fd0b57dc0b1f5204cb68172550cc12b7c08359fa1e0eb175f6036aa482b8a490e5b385a7316279f403c67469631e686f5e96bb11b6b33d9abab89bdd6e60c"
+RPM_NAME = "leechcraft-azoth-otroid-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "6e26d5056567eadc1351602c285d045d9355f171d68a9dbae536c4b99eb3eacec7b1ada9147471cb86a884c98cb58efff2216f771446a61f18ba8320dd222aa6"
 
 RPROVIDES:${PN} += "leechcraft-azoth-otroid \
 libleechcraft-azoth-otroid.so"

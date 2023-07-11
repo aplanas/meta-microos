@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "2.03.16_1.02.185"
 
-RPM_NAME = "device-mapper-devel-2.03.16_1.02.185-6.3.aarch64.rpm"
-RPM_HASH = "050845901a20060680cc2f43d57b5b9a6cb719610adfd7890c807429c326c62a183844c6c3a39a58f34c5bb5848eac3b17eb6fce9aa0dbab69b0e46ffd36692f"
+RPM_NAME = "device-mapper-devel-2.03.16_1.02.185-7.1.aarch64.rpm"
+RPM_HASH = "d991b4913a893ac3cadc16d8af16c42a12f2e4c4b206038094da3c865517f6efcf744509f8748712d894e222009dd92d85120293182fe964772d0c8979dd9951"
 
 RPROVIDES:${PN} += "device-mapper-devel \
 pkgconfig-devmapper \

@@ -12,11 +12,12 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python311-azure-keyvault-nspkg-1.0.0-3.10.noarch.rpm"
-RPM_HASH = "f08b5b5c526bbffd0efe2c38b324cd81e9a0860603d16c89cb8ce29dce1347d5d1c87f3bfd55a01b585dd979a11226e0c6091524daf0d56f4969e3d2f0d4bd8d"
+RPM_NAME = "python311-azure-keyvault-nspkg-1.0.0-3.11.noarch.rpm"
+RPM_HASH = "4ae60f8bc78906d689d634ee77f15589e44c188410d2c3b20ea0f1033e55c610ca2a558849b2b7842a2d208c90dbbfa9c7111932735e8fe6d6d3ca9da3fa7c70"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-keyvault-nspkg \
+RPROVIDES:${PN} += "python3-azure-keyvault-nspkg \
+python3.11dist-azure-keyvault-nspkg \
 python311-azure-keyvault-nspkg \
 python3dist-azure-keyvault-nspkg"
 

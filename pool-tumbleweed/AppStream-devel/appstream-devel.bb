@@ -6,10 +6,10 @@ compile and link applications using AppStream. \
 This package contains the documentation for AppStream."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.16.1"
+PV = "0.16.2"
 
-RPM_NAME = "AppStream-devel-0.16.1-3.1.aarch64.rpm"
-RPM_HASH = "6eac4887f3248b35f3b8e2edacc37129e4f68a1873bf869040d0be58c08cecad06754f271f04f55f9cf6279fe901b864eae857e96db9fbe2ed2722d900492d15"
+RPM_NAME = "AppStream-devel-0.16.2-1.1.aarch64.rpm"
+RPM_HASH = "c615ac1484d92e0e888315a046f4083114da60c2590b1ce8cb199f1bf16365a39aa6ed54c8d7d5ef80bfcb203e8676e61b75e74c35cadf3bb6a27c687e687089"
 
 RPROVIDES:${PN} += "AppStream-devel \
 pkgconfig-appstream"

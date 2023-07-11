@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "0.8.4"
 
-RPM_NAME = "gssproxy-0.8.4-2.8.aarch64.rpm"
-RPM_HASH = "339ac0dcfe74a7817c3c34461f6b7f6ced24e36e5391445b03a66a0b80895af2cbaa42fd4400c04398c6c8b827016ecc2c6d8fe6bb6ef42932154a29291553e9"
+RPM_NAME = "gssproxy-0.8.4-2.9.aarch64.rpm"
+RPM_HASH = "df56ede33e6f111a30939e80fe1d99a5f55af5deab7b89b973d8cea80217d30fb804b07608e9e616a63d829a382a7f0af49184b70caf8e103f5bfe0100fd08a4"
 
 RPROVIDES:${PN} += "config-gssproxy \
 gssproxy"

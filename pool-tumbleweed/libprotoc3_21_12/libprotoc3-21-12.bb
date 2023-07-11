@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "21.12"
 
-RPM_NAME = "libprotoc3_21_12-21.12-3.2.aarch64.rpm"
-RPM_HASH = "e233b73a9a8754b3b79af3e2f8e449583ee95e393753d873aef24ed8c49e0858002b1cb21aabea2bc927eb59f19513c1d7db05dc6bf04b405bc3e3c05f4b36d0"
+RPM_NAME = "libprotoc3_21_12-21.12-1.1.aarch64.rpm"
+RPM_HASH = "40ed9166f6c3c11ef2a7e412bd2ecf7070ab815ab57d6c0734afe85990a82d88c460bba716053722d49e8fbe74e9c7a37319c4091ec495881333cbc1198a966e"
 
 RPROVIDES:${PN} += "libprotoc-3.21.12.so \
 libprotoc3-21-12"

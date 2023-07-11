@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.6.0"
 
-RPM_NAME = "rtl-sdr-devel-0.6.0-2.8.aarch64.rpm"
-RPM_HASH = "63b92397633258ec2fa5a7bd848668db1e617247b839642a76d7598ba6c686430bfd83d1604cb75516026ba706cccf1f6c74d4deecd95ab7902db388b2037c2a"
+RPM_NAME = "rtl-sdr-devel-0.6.0-2.9.aarch64.rpm"
+RPM_HASH = "06c18a610d96ee4a1c2bb09360804365bd7e5a4e335d20cdda2921e136931ee2a00b8d2c747316f96c5f9722bc78ed4075324f28c2761732c3b778d8399feffe"
 
 RPROVIDES:${PN} += "cmake-rtlsdr \
 pkgconfig-librtlsdr \

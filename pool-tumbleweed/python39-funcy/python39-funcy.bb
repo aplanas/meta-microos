@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.18"
 
-RPM_NAME = "python39-funcy-1.18-1.2.noarch.rpm"
-RPM_HASH = "f10f2774711b7e48f0de0fbd40facd93f5663ba6bd4dd07e7f6ff875f664288876994f708e130607262f2af3b16497cfaad36be9e7223d8d314252d88d69d5c1"
+RPM_NAME = "python39-funcy-1.18-1.4.noarch.rpm"
+RPM_HASH = "4228c4f8939f785d90c04081236c55fe81b0ee29116c717e39c66bf0205fe1b3df5168b85a19af0c46010ce3de1b748279f61e58dfd77f0f5180c49bed26c9e5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-funcy \

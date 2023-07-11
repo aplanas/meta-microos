@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2023.03"
 
-RPM_NAME = "pitivi-lang-2023.03-1.1.noarch.rpm"
-RPM_HASH = "21c6a0c826830f02f969771e89213b730f9dae25ecb35bc20c6ae508b63473dc3e512c28c3d95115c1ec0c6ebe9bab1c2fddde1d48e07ea6cd308af5973af2fd"
+RPM_NAME = "pitivi-lang-2023.03-1.2.noarch.rpm"
+RPM_HASH = "4f4e5fb0c238d27fa2a6182672ef34daf9e28e8ee214ef6f74104c1769195a0d89c4e230414bd1110f2b6f61a6c9272dd85a2d6e4b10e2e10835c5121dcd45bf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-pitivi-ar \

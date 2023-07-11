@@ -5,8 +5,8 @@ LICENSE = "EPL-1.0"
 
 PV = "2.49.3"
 
-RPM_NAME = "graphviz-guile-2.49.3-6.5.aarch64.rpm"
-RPM_HASH = "558223938083bf39e5c339eba8ad268a571dbc43d2891234dc7d097eef2915bd7d54435cb8f44c4f1d11e75d7042f5fff2da2c72bcc8411158c8cedadd41713e"
+RPM_NAME = "graphviz-guile-2.49.3-6.8.aarch64.rpm"
+RPM_HASH = "ddf5e81181491b2edaf28b9483f13b938c2ac4efcdea75e6a998d33f84fe5e9c32c67dca4a7d5357b9d6c725f4d20773e722cc33cc8fd9602865d4f19b7c5c7a"
 
 RPROVIDES:${PN} += "graphviz-guile \
 libgv-guile.so"

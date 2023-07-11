@@ -6,12 +6,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.5.5"
 
-RPM_NAME = "python310-bugzillatools-0.5.5-6.13.noarch.rpm"
-RPM_HASH = "a4d8007c017828c83e24432b9de1261f894a3a55c6a519531aefc1ebea862fc82cf5d49dcc6e6cedb63a0d942fb9a43dc0d5f5eaf25e538c3ef0101188a756ea"
+RPM_NAME = "python310-bugzillatools-0.5.5-6.14.noarch.rpm"
+RPM_HASH = "3d7d52d097f057ed1f5a5fc7573d17c999431fe1fe6ae27437304cd06beeb92d10125abbd4a314361ecf12e0082829087a022c68d9083c3c9e3776eb4b55516a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-bugzillatools \
-python3.10dist-bugzillatools \
+RPROVIDES:${PN} += "python3.10dist-bugzillatools \
 python310-bugzillatools \
 python3dist-bugzillatools"
 

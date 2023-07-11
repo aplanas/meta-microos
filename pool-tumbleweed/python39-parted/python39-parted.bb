@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.12.0"
 
-RPM_NAME = "python39-parted-3.12.0-3.1.aarch64.rpm"
-RPM_HASH = "7a150bccd4e58de99db8cad2495d6d9bd6590e920ae99c2f28721d66a76dab9a9c120e0c322350c96abc48ab8d7924d3de7f9f70de6f49029686112d709f9d8b"
+RPM_NAME = "python39-parted-3.12.0-3.3.aarch64.rpm"
+RPM_HASH = "a9af590663c7065a60775cacb00c5361d299bc6933386199fbdca46071bdea6e255b6a50aee4838d4729cc54b579ca6b5fe1e8357964b7fad82c2eeac8d40ed4"
 
 RPROVIDES:${PN} += "python3.9dist-pyparted \
 python39-parted \

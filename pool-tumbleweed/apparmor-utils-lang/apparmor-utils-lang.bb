@@ -2,10 +2,10 @@ SUMMARY = "Translations for package apparmor-utils"
 DESCRIPTION = "Provides translations for the 'apparmor-utils' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.1.4"
+PV = "3.1.6"
 
-RPM_NAME = "apparmor-utils-lang-3.1.4-1.1.noarch.rpm"
-RPM_HASH = "aac455dd0c237eb22fafc9fd4ceb42fac02f47446de8f4713ec4b0a69c13be151e05a4a8e9ad9a10f4f834e0516537aabdc5684284095b5f74c5bf5b59167221"
+RPM_NAME = "apparmor-utils-lang-3.1.6-1.1.noarch.rpm"
+RPM_HASH = "46bdfdf97b650099f28c760a0bb39a2a058527f4f26c9794b929e7a723a1a82fbc7b14109ae382a95abf08464614151b61611cfc5742de033b21103894e935b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apparmor-utils-lang \

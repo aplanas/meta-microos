@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-or-later"
 
 PV = "1.5.1615+0"
 
-RPM_NAME = "psi+-plugins-imageplugin-1.5.1615+0-3.1.aarch64.rpm"
-RPM_HASH = "7ec5d626e232af0f86ca969fea54df277cee62c88a769c7bafb5cc7a0c94356608be0ae57aea39db079c8cd5e9a2d9749dbf46041c6afe970c30e535cd95b67e"
+RPM_NAME = "psi+-plugins-imageplugin-1.5.1615+0-3.2.aarch64.rpm"
+RPM_HASH = "87cb5186a3285167d9e9395522a27a8cddc179d8580ec80ce18bb7e44b69faff90b0f4fbcd6571b8f51ffb7cc7d3fad77dd5ada93f6acd109b2e12a77e8df431"
 
 RPROVIDES:${PN} += "libimageplugin.so \
 psi+-plugins-imageplugin"

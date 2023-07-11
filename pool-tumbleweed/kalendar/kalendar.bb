@@ -2,10 +2,10 @@ SUMMARY = "Calendar Application"
 DESCRIPTION = "Calendar application using Akonadi to sync with external services (NextCloud, GMail, ...)."
 LICENSE = "GPL-3.0-only"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kalendar-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "f0e334d9e7b11bfa230f3c24504d1605b7bbc5e750dd8e335e4fc259d72eb6ca0c3b0fdc3d04567ffa3d04e44eff2bffa63b6f5960220dd5bba272cd9b7c844c"
+RPM_NAME = "kalendar-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "873b0c3fa7add6ea74755408207c8424096a655738fcdc82e9820c383636bf31095773e430a113d18a531f3ac3afde87a7ade939ea9d6eb75bf49efa8c9186bd"
 
 RPROVIDES:${PN} += "kalendar \
 libakonadi-quick-plugin.so \
@@ -42,7 +42,6 @@ libKPim5AkonadiContact.so.5 \
 libKPim5AkonadiCore.so.5 \
 libKPim5AkonadiMime.so.5 \
 libKPim5AkonadiWidgets.so.5 \
-libKPim5CalendarSupport.so.5 \
 libKPim5EventViews.so.5 \
 libKPim5MailCommon.so.5 \
 libKPim5Mime.so.5 \

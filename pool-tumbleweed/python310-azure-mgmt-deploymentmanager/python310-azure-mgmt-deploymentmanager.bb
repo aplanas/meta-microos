@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0.0"
 
-RPM_NAME = "python310-azure-mgmt-deploymentmanager-1.0.0.0-1.8.noarch.rpm"
-RPM_HASH = "0f8c5dc83c063ebae67a9da8c57e1a4e55e3caaa5ae6bf710847de79e183b80c8448b9953596612143f020da331433d97f9d53306708ccf08c2706977bb333f6"
+RPM_NAME = "python310-azure-mgmt-deploymentmanager-1.0.0.0-1.9.noarch.rpm"
+RPM_HASH = "96f4431b0bf8ed3e6d2cdee8c20b22bfc31286d2ffff0add11dff329936763ceb4dfa3f8c93e8c71b0b5e33814f03cd812154c4ae647aafbaf6edab0ed2750f7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-deploymentmanager \
-python3.10dist-azure-mgmt-deploymentmanager \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-deploymentmanager \
 python310-azure-mgmt-deploymentmanager \
 python3dist-azure-mgmt-deploymentmanager"
 

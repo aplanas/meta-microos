@@ -4,12 +4,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "3.0"
 
-RPM_NAME = "python310-PyVirtualDisplay-3.0-2.2.noarch.rpm"
-RPM_HASH = "3a41a431de1fb8f06b6cb8a1d000d43a1c94125b39015c6fc2ce08787c377fabb6be631ca77317ec206ea6f6660bfa6d2344659a61a336b3fcf0fcd59749ab48"
+RPM_NAME = "python310-PyVirtualDisplay-3.0-3.2.noarch.rpm"
+RPM_HASH = "c6fefb9ca6071ff68a28d21302c98e9965e8722f6181213724081f45802e3a3033afef9b1f7f6591939a81a4d776d03985bdb4ecc56fa473c7077f49f9b363e5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-PyVirtualDisplay \
-python3.10dist-pyvirtualdisplay \
+RPROVIDES:${PN} += "python3.10dist-pyvirtualdisplay \
 python310-PyVirtualDisplay \
 python3dist-pyvirtualdisplay"
 

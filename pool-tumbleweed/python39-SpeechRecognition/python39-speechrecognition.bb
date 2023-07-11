@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.8.1"
 
-RPM_NAME = "python39-SpeechRecognition-3.8.1-5.4.noarch.rpm"
-RPM_HASH = "8c89f2339d7f3ba82679339e15170dd584fe0ebbb11c3b169753ef12599057ae04ab18c33d774e49cc8d105b284eaa0f8b17d504e2300c189090075218597dac"
+RPM_NAME = "python39-SpeechRecognition-3.8.1-5.6.noarch.rpm"
+RPM_HASH = "9f768a3e0d7942a50604c7f286fd5022496755ec1c501db3f445cde4ae7f067a7f0115a1a4aae56bc9520782316805e5312d89d273606c301530af83031dc64b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-speechrecognition \

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later & ISC"
 
 PV = "1.5.0"
 
-RPM_NAME = "Srain-1.5.0-1.4.aarch64.rpm"
-RPM_HASH = "d1af2ecbad8c2919a65e395f3d7b8add9d1e1f00cce45be1b7d59b1349989d5d4d6bce79d18b62564303dda1ebd9b96e4d59421898032d293480df3765a522c0"
+RPM_NAME = "Srain-1.5.0-1.5.aarch64.rpm"
+RPM_HASH = "dcda76bfd6aa928eddb14b1057186649f30c12bf9b16bb756a7912877ccd134ae54c14c6d1b2683c7f4f1bb6f09c404dcc90ee6ef39f0e30b469830ea913429b"
 
 RPROVIDES:${PN} += "Srain \
 config-Srain"

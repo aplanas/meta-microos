@@ -6,11 +6,12 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "0.5.12"
 
-RPM_NAME = "python311-PyMeeus-0.5.12-2.1.noarch.rpm"
-RPM_HASH = "95569b9bb8e06fd3ecdca98276b981d6d4dbd511abbc2b59e64160f5e46d587c0365459c1c2f69b8d89b0c264122a4ab54c3963347450811aa11870da34b114f"
+RPM_NAME = "python311-PyMeeus-0.5.12-2.3.noarch.rpm"
+RPM_HASH = "53e081b718b0bdd54e02fec2cfacbc0aae345ee0a63b7a81e298cd9407fbb2ec4b9c2c186db73397756e2ed43338210869472cfdd3e4a5f07bc6a7c6b2df3754"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pymeeus \
+RPROVIDES:${PN} += "python3-PyMeeus \
+python3.11dist-pymeeus \
 python311-PyMeeus \
 python3dist-pymeeus"
 

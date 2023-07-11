@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.3.2"
 
-RPM_NAME = "taisei-data-1.3.2-2.12.noarch.rpm"
-RPM_HASH = "fad592041013062a1afe985a8e353d688b73c73fe0928d667fd51e9b19e29b1179af5aff2056c65d344d3fdb703238e6bf55ce53479aeadbac71d4318275b6ee"
+RPM_NAME = "taisei-data-1.3.2-2.13.noarch.rpm"
+RPM_HASH = "5f39f22fd244c56b0edffe21c9fdedaf6b6985acf86e12473a602ff0bdf66b6dee098f6895de10770fc113e58bad8aa418770b93fe5cb67b6281ba8d903cf209"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "taisei-data"

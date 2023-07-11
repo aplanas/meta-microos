@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "7.2.12"
 
-RPM_NAME = "atheme-7.2.12-2.9.aarch64.rpm"
-RPM_HASH = "d857305a3e841ca610e29edf77a2a58d28271358b6b3428f5d369b18a45fdd39389a2f9b12ef835a843a261edbcfd7698c3508f298d61282f07889fee82eac05"
+RPM_NAME = "atheme-7.2.12-2.10.aarch64.rpm"
+RPM_HASH = "577833044bbda8a2c4c6b0a366516d6137fee2ea1ee235296483b3afa0dcfa0c84ea5e19b2587d98b0ed98fcc319aaa2ba7dc6026278ec1472047ebb62e8591d"
 
 RPROVIDES:${PN} += "atheme \
 config-atheme"

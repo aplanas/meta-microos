@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.4.0"
 
-RPM_NAME = "python39-poetry-plugin-export-1.4.0-1.1.noarch.rpm"
-RPM_HASH = "5e9c125e0ec94126573464c8401d1c2e76c8de478fb4f7ddb9a51999bd3e245c0155f446630c53b83bb42625012da5dd4e9f7b5010b58f5e8a6bfb9bbb6f3943"
+RPM_NAME = "python39-poetry-plugin-export-1.4.0-1.3.noarch.rpm"
+RPM_HASH = "502a8c5fd5be8df151fc2f1f7a133d0cf2a7771d4d8c0614ecc5130d2d4263aac4704d9d60f9845da7521a0b5a5fa06de33c79d2beb854179ef43ccf1e066f7f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-poetry-plugin-export \

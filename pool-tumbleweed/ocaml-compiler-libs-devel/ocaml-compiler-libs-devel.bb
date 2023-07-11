@@ -8,8 +8,8 @@ LICENSE = "QPL-1.0"
 
 PV = "4.14.1"
 
-RPM_NAME = "ocaml-compiler-libs-devel-4.14.1-1.3.aarch64.rpm"
-RPM_HASH = "c5c87d5b5294eafdfa1ce8739384aa25136908c5f2b2b692ecae8e640b2e3f1cd77868b0c89eab578ded289a5676d15c5045dfdb8ad139b93d40d14c8f28c911"
+RPM_NAME = "ocaml-compiler-libs-devel-4.14.1-1.4.aarch64.rpm"
+RPM_HASH = "9cd7d50d7b374066c0c2961d9cb7b3d1d1d963100dd2240ac966300d8bf915e55d80608c30a0f2d7b5dfb6bb7fc92103b27cb330c96cf5d833e71ce2ba5dd273"
 
 RPROVIDES:${PN} += "ocaml-Afl-instrument \
 ocaml-Alias-analysis \

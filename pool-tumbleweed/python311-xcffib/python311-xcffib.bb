@@ -5,11 +5,12 @@ LICENSE = "Apache-2.0"
 
 PV = "1.3.0"
 
-RPM_NAME = "python311-xcffib-1.3.0-1.1.noarch.rpm"
-RPM_HASH = "a00462a3bcae4f4cc1e67b6c41900903df0aa1afe42c1c312a26f02aa8905ed700f72cc868bd235e3b44868607bd4f807b1473b433d1559fedae6eded93db7af"
+RPM_NAME = "python311-xcffib-1.3.0-1.3.noarch.rpm"
+RPM_HASH = "4bf27325bb2f0e4d51b9631999ff2d5dfb8591e02de0736a8afee9a75b9f03c8cd2db6b7523254d0ea29fad1f84339ab29945458fba9c6992fe8f450c9a08268"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-xcffib \
+RPROVIDES:${PN} += "python3-xcffib \
+python3.11dist-xcffib \
 python311-xcffib \
 python3dist-xcffib"
 

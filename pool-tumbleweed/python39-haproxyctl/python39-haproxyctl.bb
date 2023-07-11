@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.5"
 
-RPM_NAME = "python39-haproxyctl-0.5-3.4.noarch.rpm"
-RPM_HASH = "e9eb50c8b8417dfa0bb599bb39c496687bb7d6817dfb221f18cadb8f392806cc1be9b8a5a2d3a6add43831357eb8f3596338150797de8ed0c73c23ae457ae2f9"
+RPM_NAME = "python39-haproxyctl-0.5-3.5.noarch.rpm"
+RPM_HASH = "9e9bd3a9876dae901e4ed53fdc5e01d1dab5073fe8a7a51b45d5cc2aeb9e3c0cba98979e1db2933f3e52c6b2a529cf44381bddf6b86380bd95c7b914cdfc7caa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-haproxyctl \

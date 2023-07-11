@@ -5,8 +5,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.83.00.1674496263.ba76ec9"
 
-RPM_NAME = "cpanspec-1.83.00.1674496263.ba76ec9-1.1.noarch.rpm"
-RPM_HASH = "9ec3f0550f89334d836d3244af0e253cff6bc27bf67d80310f5a5eab683ab86b1a629843ebc01666fb3ea19fc2b788a3f541332cdfd5d8347457212380b77d05"
+RPM_NAME = "cpanspec-1.83.00.1674496263.ba76ec9-1.2.noarch.rpm"
+RPM_HASH = "acbb6491f43f13c8530543fc47ef8899cf89b343df159b8b5ce439dbae6d4111ca590287e153f4a123fe77f959075624e8349f483b2857b29382092db7e4b238"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cpanspec \
@@ -15,7 +15,7 @@ perl-PodViewSpec"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 /usr/bin/sh \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-Algorithm--Diff \
 perl-Archive--Tar \
 perl-Archive--Zip \

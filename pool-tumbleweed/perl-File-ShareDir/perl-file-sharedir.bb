@@ -42,14 +42,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.118"
 
-RPM_NAME = "perl-File-ShareDir-1.118-1.12.noarch.rpm"
-RPM_HASH = "b6ed846a455f9bd0146cce6ff496da6a72d5d64bf3204f04f40dd78d304a827984b8c64e69a43aa71493693b218fb4fa2fdb22afc384bdd5d7250767937cee37"
+RPM_NAME = "perl-File-ShareDir-1.118-1.13.noarch.rpm"
+RPM_HASH = "e2868ff3bf670a348c974455f022e5a7564b319209809f3ef7dffd85568fe6ef50369cb8e9ecc9e617dac97155a158ee0011a7cb2a1a01478a28e8a3f73deb8e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-File--ShareDir \
 perl-File-ShareDir"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Class--Inspector"
 
 inherit rpm

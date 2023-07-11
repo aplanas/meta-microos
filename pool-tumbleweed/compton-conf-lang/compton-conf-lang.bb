@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.16.0"
 
-RPM_NAME = "compton-conf-lang-0.16.0-2.9.noarch.rpm"
-RPM_HASH = "3a0047c29c3173db9c878b6907ad9a65e86f27305a9817b40938f92eaf6b1b65e9d32668b85aae8e5534d659b96d76a4a6e9675f628bd1b6b666552fef68fbb7"
+RPM_NAME = "compton-conf-lang-0.16.0-2.10.noarch.rpm"
+RPM_HASH = "b1fd4f1c3310f155076ce97196c4cd85b39a0d9f4fb8f9d62cf4945ba9540ff223b89096ad3901921d76dc4319ee5b056a93260e52119e7082d6192bc6490825"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "compton-conf-lang \

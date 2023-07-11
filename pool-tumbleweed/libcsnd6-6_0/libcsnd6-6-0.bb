@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "6.18.1"
 
-RPM_NAME = "libcsnd6-6_0-6.18.1-3.1.aarch64.rpm"
-RPM_HASH = "87363b6a3588db7e4e42f1d31ecbff71379e344335be07f97e38fd051a6929089de0bba50e8297f7a29950391c783b28999aed4aa88dc0d049ec8111bd3bc67a"
+RPM_NAME = "libcsnd6-6_0-6.18.1-3.2.aarch64.rpm"
+RPM_HASH = "1f4b261e4184fa468a8fccc1a98ecc40c5ef8cb2555894376807e338345576eb5850a396f9fac06f3cdc57d5339034833ec394657698a9fa40d9a4a83de1c5d5"
 
 RPROVIDES:${PN} += "libcsnd6-6-0 \
 libcsnd6.so.6.0"

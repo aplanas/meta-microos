@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.6.0"
 
-RPM_NAME = "miltertest-1.6.0-7.15.aarch64.rpm"
-RPM_HASH = "cb6a4b29350202eb5cdd1372653e6be4d192f1d241d15d2b735d447b04caba4da7bae5c5372151c414301aa82a3420d34b0e03756c18e41d3110711605cd0355"
+RPM_NAME = "miltertest-1.6.0-7.16.aarch64.rpm"
+RPM_HASH = "d9dfd487031e232115491a97f6df4fcaa4bdd75a1c8d42615788dc2f8f5d48049ce5ffc02b85e6d0c29a3e3616adbc66ae83e8e341a525a7f195dc826d6cad42"
 
 RPROVIDES:${PN} += "miltertest"
 

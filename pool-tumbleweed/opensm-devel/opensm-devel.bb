@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause | GPL-2.0-only"
 
 PV = "3.3.24"
 
-RPM_NAME = "opensm-devel-3.3.24-3.7.aarch64.rpm"
-RPM_HASH = "efb6a55d6652d903b3f6ec61a09e115575523684d9e177bf45af6099d8eba7b94df4d0baebd9a27e3c541e4c8c43cfc9035d1d2875b30c4d57fe8b8cf5d9da35"
+RPM_NAME = "opensm-devel-3.3.24-3.8.aarch64.rpm"
+RPM_HASH = "a1633bf67f96139c37d186b2e3999f82c90dd9eca479b0358702d390a5f611b5867d81bce0f8c0d67298413a56f72ba1fe8a5e5af42896cdf41f2540084e3e0b"
 
 RPROVIDES:${PN} += "opensm-devel"
 

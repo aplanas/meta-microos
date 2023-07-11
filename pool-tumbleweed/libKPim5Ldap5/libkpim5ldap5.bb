@@ -2,10 +2,10 @@ SUMMARY = "KDE PIM Libraries: LDAP support"
 DESCRIPTION = "This package provides LDAP support for KDE PIM applications"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libKPim5Ldap5-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "bb0a35aec0df97ca4bacfc1a003aac4c2b054a05e29496a0241c1b42417a270fd0667dac3d4c2c03e3278d2b0f96870030532df0a2f8535b942bc0b3169d41f4"
+RPM_NAME = "libKPim5Ldap5-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "3e1f60adbe82c4a4cf4fc31adb5dc69a0f7d744eccfc04d1ee7ed10f4152202df5be117b24d0e7bfc4031dfcd5711a61eaacc842f56cb4a19d8d76d6aa214961"
 
 RPROVIDES:${PN} += "libKPim5Ldap.so.5 \
 libKPim5Ldap5"

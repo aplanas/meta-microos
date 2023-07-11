@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.6"
 
-RPM_NAME = "pixmap-2.6-152.10.aarch64.rpm"
-RPM_HASH = "9ed061cff6b1f339d9d1a710c05b8fa54ed63cc4599a2b2384f44771e2f1d275aa9e42a2ea0113794da9dd22d7b580642e60f5cc285f0289395f3fcda5afc8b0"
+RPM_NAME = "pixmap-2.6-152.11.aarch64.rpm"
+RPM_HASH = "bbb9b1b944a9d7fdf0a854d334bf1b1e20c34ac627214a91d0d60f41e3a3bc8a659017c052a4ba926d82e92d147392f6fc9961970c757dee05c3a260e6c2a852"
 
 RPROVIDES:${PN} += "config-pixmap \
 pixmap \

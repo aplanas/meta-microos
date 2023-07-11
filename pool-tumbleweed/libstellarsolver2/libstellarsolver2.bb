@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.4"
 
-RPM_NAME = "libstellarsolver2-2.4-2.3.aarch64.rpm"
-RPM_HASH = "1cc1999a841a1c26c8551b2ebaa3f92174d9053f9d8c2ad53142d88992163e171ddd33e7637f35237389d074cf0dba7af4e57cf216f95e63058d1e01dc980fc0"
+RPM_NAME = "libstellarsolver2-2.4-2.4.aarch64.rpm"
+RPM_HASH = "ef97570c46f64e12e0818e087dcc5bd9e19cff8dd45975f949db52a601abaef848496f09bb19ede8e7dd61b6642e94969536004ee6085845becf48f5d4f72a4b"
 
 RPROVIDES:${PN} += "libstellarsolver.so.2 \
 libstellarsolver2"

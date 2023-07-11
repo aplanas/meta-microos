@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.10.1"
 
-RPM_NAME = "maven-compiler-plugin-3.10.1-1.11.noarch.rpm"
-RPM_HASH = "c9a38f4bbab94264cce285004042855e7b6199e14a5bad8a43cc99f654e93f5cc2770483deec6d8dd1655e815e468973f0bcd4ddbe28bfe58737f46aaf6ec10c"
+RPM_NAME = "maven-compiler-plugin-3.10.1-1.12.noarch.rpm"
+RPM_HASH = "81759024eccad76eaeb417a835ec06e2170cf54bd6aa9826733ba1539acdf73957a49d57a5cabdb3b379db8881d855fc903135a9d5f885f8e587e48e2972b327"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-compiler-plugin \

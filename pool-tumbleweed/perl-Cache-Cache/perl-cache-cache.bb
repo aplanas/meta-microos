@@ -14,8 +14,8 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "1.08"
 
-RPM_NAME = "perl-Cache-Cache-1.08-1.26.noarch.rpm"
-RPM_HASH = "ad43445fa29d38af61134febc13c8628382294bb7770d0d62a24703f5168901e54dba4663fe5e27b4a0c22b3e1d00f768806fd875f6b1785f5eaab7a763d560f"
+RPM_NAME = "perl-Cache-Cache-1.08-1.27.noarch.rpm"
+RPM_HASH = "76314f077bc820d8215683d6aa145e665a50c7211abacf801beec0389940c5830f1b75b9d7101d04bb0c7e5577e0f350fb56e591e30ded5d8ccaef38370c3dc5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Cache--BaseCache \
@@ -40,7 +40,7 @@ perl-Cache--SizeAwareMemoryCache \
 perl-Cache--SizeAwareSharedMemoryCache \
 perl-Cache-Cache"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Digest--SHA1 \
 perl-Error \
 perl-IPC--ShareLite"

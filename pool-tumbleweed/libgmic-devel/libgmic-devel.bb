@@ -3,10 +3,10 @@ DESCRIPTION = "Header and library from gmic to needed to develop C++ code that \
 uses the gmic functionality provided by the gmic library."
 LICENSE = "CECILL-2.1"
 
-PV = "3.2.5"
+PV = "3.2.6"
 
-RPM_NAME = "libgmic-devel-3.2.5-1.1.aarch64.rpm"
-RPM_HASH = "d68059fc3241535300cad9600b239aa6fd119391c0fb470209b3f12c46a771fc99633f50882352b9852fcfadb67624747ad4a772c950ce0f6b3d0ffb8920f95a"
+RPM_NAME = "libgmic-devel-3.2.6-1.1.aarch64.rpm"
+RPM_HASH = "d288dfd9dae5ef14c8d3f6115e21711e3f5dd32a7ac468223524aeddc0beabdd16855c2da72bee98848b5086f114efdeaa6a1ef64f42c054c203821868e4fc0a"
 
 RPROVIDES:${PN} += "libgmic-devel"
 

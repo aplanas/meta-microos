@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4.1"
 
-RPM_NAME = "xviewer-plugin-slideshowshuffle-1.4.1-1.6.aarch64.rpm"
-RPM_HASH = "c6abecfdbba10cd5778d9639d7ed82e78c2c27420c17c8490a5edee7f84e3f787565b070519403f69792610668c65970f4160aeb136c223d6c98b4b9bf9447d6"
+RPM_NAME = "xviewer-plugin-slideshowshuffle-1.4.1-1.7.aarch64.rpm"
+RPM_HASH = "f1b820a673806170d5f7fdb18a19bb50f81aec59f31c7c332b8d1a92e2fbe3c371b90d82077d0f215738bd48ad5c08ca6911def6c05ab9bc6f5929e77f2a1124"
 
 RPROVIDES:${PN} += "xviewer-plugin-slideshowshuffle \
 xviewer-plugins-/usr/lib64/xviewer/plugins/slideshowshuffle.plugin"

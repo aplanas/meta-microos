@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "2.0.1"
 
-RPM_NAME = "python311-glad2-2.0.1-2.2.noarch.rpm"
-RPM_HASH = "6302eac8f92601f9e71fb585ffe4b35dbab0ffd3cf0ce7d6fc0a4a4c947ed3a1980ed43b0b23359eae51a73bc5176ee5567ba5201fc768b911cf8b8ffd94761f"
+RPM_NAME = "python311-glad2-2.0.1-2.4.noarch.rpm"
+RPM_HASH = "10fa154293b161a7beecdffdb4ca5808510779bfd10a3a9c90fb812bc38977b2a9835a1d91cd7c8fd8088c82bc86073b697846a45d926895b7049dcecb4a2d80"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-glad2 \
+RPROVIDES:${PN} += "python3-glad2 \
+python3.11dist-glad2 \
 python311-glad2 \
 python3dist-glad2"
 

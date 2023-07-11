@@ -5,14 +5,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.101465"
 
-RPM_NAME = "perl-Config-MVP-Reader-INI-2.101465-1.2.noarch.rpm"
-RPM_HASH = "40836ef695e09c887124081f88930aa13edb021e31060ee4237babaf4acfce1a1595fb4afc2c39c7e65db6c7d8dcb21da77c422de657b0aec3d768f93cb44b05"
+RPM_NAME = "perl-Config-MVP-Reader-INI-2.101465-1.3.noarch.rpm"
+RPM_HASH = "c163b0556320d41c0dfb4728b0c0a25384561c1e1f3891c99d6300173e021c799627578403a7aae704e9d4f1d20da889b5e83123dfec67ffdfa6c8fe05c1e1a3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Config--MVP--Reader--INI \
 perl-Config-MVP-Reader-INI"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Config--INI--Reader \
 perl-Config--MVP \
 perl-Config--MVP--Reader \

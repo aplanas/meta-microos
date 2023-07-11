@@ -5,10 +5,10 @@ Qt 3D provides functionality for near-realtime simulation \
 systems with support for 2D and 3D rendering in both Qt C++ and Qt Quick applications."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libQt53DCore5-5.15.9+kde0-1.1.aarch64.rpm"
-RPM_HASH = "2bb28d7927afa12304762b47ece4a66ec6f40f42d43b91230ef8a432e8479e3c81f4080d1967541e842f56080fb15c6ae0f4a4426c0b2b91092f016a7f875643"
+RPM_NAME = "libQt53DCore5-5.15.10+kde0-1.1.aarch64.rpm"
+RPM_HASH = "3231caea18ecfdc63a80cf2b1fb74c0c15ffb2454747a12bd89afaee1fdf7ee3bb51a5358a808f0b0e85aa35e2ac624d74a92faf8fd411d2486fdcb9b215b3ea"
 
 RPROVIDES:${PN} += "libQt53DCore.so.5 \
 libQt53DCore5 \

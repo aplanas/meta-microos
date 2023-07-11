@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 | MIT"
 
 PV = "1.6.1"
 
-RPM_NAME = "tealdeer-zsh-completion-1.6.1-2.1.noarch.rpm"
-RPM_HASH = "ed34e2f22e8a0901dc003387521c2a70906127f1faf2214b31110b702fe6511f039a58cd845a647d86d925f9b77a370593abb5d537c1da85fb4752ac2604d3dd"
+RPM_NAME = "tealdeer-zsh-completion-1.6.1-2.3.noarch.rpm"
+RPM_HASH = "bc0a9d17686f9c46337be608b94057360645910b85e4a9e3705cd46c4f3a5cc2c4d316eac261ff6fc8b25a144996b4e8f4b5e3806e5f8886b8111b298ddbe3f9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tealdeer-zsh-completion"

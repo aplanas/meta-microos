@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.13.3"
 
-RPM_NAME = "jackson-annotations-javadoc-2.13.3-1.3.noarch.rpm"
-RPM_HASH = "d8475259d99e97ed8480706efa68df80c0dda66d796b84661c2130c80823c21aae449004dbd397fd4c997d09e192dbb1463892b3ddb6b591ff4e6e2510ed28f0"
+RPM_NAME = "jackson-annotations-javadoc-2.13.3-1.4.noarch.rpm"
+RPM_HASH = "bdbe5a8e861efd599786c9eb0d9885b38636ecb8e23fe5eedd7588a736e1d374313aa4003e702cc840911fc3eb1b09dbfa58641cd09851fc13e1a8c37489ef98"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-annotations-javadoc"

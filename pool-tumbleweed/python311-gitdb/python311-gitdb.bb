@@ -4,10 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.0.10"
 
-RPM_NAME = "python311-gitdb-4.0.10-2.1.aarch64.rpm"
-RPM_HASH = "79275587ab2389a3bafc7f2eb5f31b5a911c8fb26a25153d0c2961d17301b3ff5970c402b20cfe1dc6819803bc46f209bf783d88913b6e613c7bafdee5d65102"
+RPM_NAME = "python311-gitdb-4.0.10-2.3.aarch64.rpm"
+RPM_HASH = "223fa16029ec13761af51a4422132b0ac534425af0cedf73aab3ba71ece980d308113b8cff2e71869f48a5ac0d93a0e1298542c823c372be44db8de2037b8326"
 
-RPROVIDES:${PN} += "python3.11dist-gitdb \
+RPROVIDES:${PN} += "python3-gitdb \
+python3-gitdb2 \
+python3.11dist-gitdb \
 python311-gitdb \
 python311-gitdb2 \
 python3dist-gitdb"

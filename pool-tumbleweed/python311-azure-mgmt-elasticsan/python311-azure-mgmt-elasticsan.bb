@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "1.0.0b1"
 
-RPM_NAME = "python311-azure-mgmt-elasticsan-1.0.0b1-1.3.noarch.rpm"
-RPM_HASH = "c513e4f643baaff7ff3ae67fe0f5a31f50f6a04002e4409e6e1322f5a470c3519c38235b47e936a831219f6c87189f0fc47c17334e24c3097e68b2eaa1c3f1e8"
+RPM_NAME = "python311-azure-mgmt-elasticsan-1.0.0b1-1.4.noarch.rpm"
+RPM_HASH = "ade040f52c09b196c2adb4c5c4d1705e5646db684bb0fd5c79755cd7f916197040040e564fdad430c28b9e0fb99bdb9757f0942123c1079f0939f9ff8fe7e078"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-elasticsan \
+RPROVIDES:${PN} += "python3-azure-mgmt-elasticsan \
+python3.11dist-azure-mgmt-elasticsan \
 python311-azure-mgmt-elasticsan \
 python3dist-azure-mgmt-elasticsan"
 

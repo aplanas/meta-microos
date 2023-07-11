@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "2.3.0"
 
-RPM_NAME = "ghc-hslua-marshalling-devel-2.3.0-1.3.aarch64.rpm"
-RPM_HASH = "854fc6fe7a0a7812bdd88edee5037dd77ff27f8e72e85264a6a5ff3aef45858fd3fa18f422863bae00277c49b185a4b3663ee10c917a370747abc2fa3ce16804"
+RPM_NAME = "ghc-hslua-marshalling-devel-2.3.0-1.6.aarch64.rpm"
+RPM_HASH = "69628ee84f919796159b5ec6cdac96eb2f57fd57cfe5b1c54bf953cd31e1e83ad3f4bec5f9623bc528a7d122dff067d017ab033fd9807349f03272016fcaa26c"
 
 RPROVIDES:${PN} += "ghc-devel-hslua-marshalling-2.3.0-1lHdh994uwdEmrYudOnEBq \
 ghc-hslua-marshalling-devel"

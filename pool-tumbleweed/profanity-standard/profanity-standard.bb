@@ -10,8 +10,8 @@ LICENSE = "SUSE-GPL-3.0+-with-openssl-exception"
 
 PV = "0.13.1"
 
-RPM_NAME = "profanity-standard-0.13.1-1.4.aarch64.rpm"
-RPM_HASH = "a66ba066ef6b8afa3851818bd44bca9cb992beea0b19903751c8b57bb8575f885593f0c052a73ebf026f76b9eb6538e13019c707ce4fb6038a5b728700d04f03"
+RPM_NAME = "profanity-standard-0.13.1-1.6.aarch64.rpm"
+RPM_HASH = "0ecb94c95e1d6e27d7c0ff61b6f06cfe191a22103854bf7373d56474645725f2585feafb87a98c9b60eb88f0dd894840e689c2a9cff999ccb037c50f8fe6ed95"
 
 RPROVIDES:${PN} += "profanity-binary \
 profanity-standard"
@@ -31,7 +31,7 @@ libm.so.6 \
 libncursesw.so.6 \
 libnotify.so.4 \
 libotr.so.5 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libreadline.so.8 \
 libsignal-protocol-c.so.2 \
 libsqlite3.so.0 \

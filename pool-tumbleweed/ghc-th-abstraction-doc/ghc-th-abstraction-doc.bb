@@ -4,8 +4,8 @@ LICENSE = "ISC"
 
 PV = "0.4.5.0"
 
-RPM_NAME = "ghc-th-abstraction-doc-0.4.5.0-2.3.noarch.rpm"
-RPM_HASH = "808ec2d040f249bd9bf7224ad00feff6d764c61d8e6d59023424bd0c6bdd0dfba1343c5abe42af9003f92030e33c4bec15ebb702e0f62ae0a2739966d28db2e7"
+RPM_NAME = "ghc-th-abstraction-doc-0.4.5.0-2.6.noarch.rpm"
+RPM_HASH = "824c16fcc36328a695478dcbf8d588797480d2db8cf843123dc16823b1b97a10b3ce33ce74224d560724461e6cb007e54e48fdfdc0463151ca8d3493cbe308b5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-th-abstraction-doc"

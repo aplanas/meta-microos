@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.1.5"
 
-RPM_NAME = "libref_array-devel-0.1.5-27.18.aarch64.rpm"
-RPM_HASH = "09d6a440aed2767519f100cb78bb0d26c4f8354cd661eca3ecad3ff7178c29e7ff509f4a94eb7f37766a55e6268ebb309244482351c14a2268a9f580f631719e"
+RPM_NAME = "libref_array-devel-0.1.5-28.1.aarch64.rpm"
+RPM_HASH = "d6be987eefdfe53ca2bc994392d20769238096fdd53f88d7299bfa0a7e2e56c4d8328a72b602fec24294be3b9204d642d5499b569c387141a04290748c1649a3"
 
 RPROVIDES:${PN} += "libref-array-devel \
 pkgconfig-ref-array"

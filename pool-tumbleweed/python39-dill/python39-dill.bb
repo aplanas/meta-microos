@@ -12,8 +12,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3.6"
 
-RPM_NAME = "python39-dill-0.3.6-3.1.noarch.rpm"
-RPM_HASH = "b8fd9b20636bfd76751876aa3d71636b835a53fa15d61272c1728ecc2efbb7ecbce51cf6cc770dafd3e397c77ac95fcd5f354bc1feea72b02830ae04b77c539c"
+RPM_NAME = "python39-dill-0.3.6-3.3.noarch.rpm"
+RPM_HASH = "08541eba322bdf1d39cf2a386660c6558f157afcc80ebe11ebfed6a460c4707840c563e8a08759d015c0865734c46aef4d0f4187716c667a4af3d2b7c9defabc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-dill \

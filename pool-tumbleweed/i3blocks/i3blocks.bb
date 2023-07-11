@@ -12,8 +12,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.5"
 
-RPM_NAME = "i3blocks-1.5-2.8.aarch64.rpm"
-RPM_HASH = "d8f684220f1b88a3ed81eda2755acdaa1ca73d73c3ab9abbf3b1d0287cb9bfb43aa4da980bd3d40c4127f3dcf14c47dd83bbf6ea85d66e5dcea9e831a2c82070"
+RPM_NAME = "i3blocks-1.5-2.9.aarch64.rpm"
+RPM_HASH = "4c632e5ddf48e3367d32cc46349b3b1bcc39b63a982df84a66c5c9979bb6e5e5583471c0405cbec7adf5238c614e571b0d6b6156fe7e1eaceaf4a7defd8c785b"
 
 RPROVIDES:${PN} += "config-i3blocks \
 i3blocks"

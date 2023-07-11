@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "0.8.1"
 
-RPM_NAME = "python310-slimit-0.8.1-9.26.noarch.rpm"
-RPM_HASH = "3347215f62ea21d4e28e77126c85789be03e2db517cd06a64c454c09a362c917ade49f350d0ce046c99bd68067db168b0796c890ae9797e902573b2ba192a4bf"
+RPM_NAME = "python310-slimit-0.8.1-10.1.noarch.rpm"
+RPM_HASH = "203f3112119f477a8ffa01a52655b83014cb39e7665ff5d6c1a3876ca5af467e4732d14895b1340dc294cf5bbda7d86eb20894ebd7abe1f3e8c815a50dee4db8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-slimit \
-python3.10dist-slimit \
+RPROVIDES:${PN} += "python3.10dist-slimit \
 python310-slimit \
 python3dist-slimit"
 

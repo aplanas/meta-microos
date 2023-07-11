@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.2.1"
 
-RPM_NAME = "libmpeg2encpp-2_2-0-2.2.1-2.5.aarch64.rpm"
-RPM_HASH = "abeb63f4b6c3171f44a66221b7d7d4a2aeec86829d3023387feaa830364d11b246107a76331a177379092bc312c27f2b36df3c1c6b2b3fe57847511c44a87de8"
+RPM_NAME = "libmpeg2encpp-2_2-0-2.2.1-2.6.aarch64.rpm"
+RPM_HASH = "13b668e53116781d37f997e99619f147f5a3dbfd7d12f07eb4f5a0fd5167bb21e22df736ca8ec1f3a2db233fa6c688ec558402e5d2f6ec25806ea183cf57dd5f"
 
 RPROVIDES:${PN} += "libmpeg2encpp-2-2-0 \
 libmpeg2encpp-2.2.so.0"

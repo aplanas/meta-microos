@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.2.9"
 
-RPM_NAME = "nilfs-utils-devel-2.2.9-1.4.aarch64.rpm"
-RPM_HASH = "978d73307d6986b81b4dede692a4cee14499360f12986cdd1534bfc25a0f00ba51cea2e9794973150f8e008d588ba48ef55dc37d64df633f2ac0b09d4fb292c6"
+RPM_NAME = "nilfs-utils-devel-2.2.9-1.5.aarch64.rpm"
+RPM_HASH = "9791ed6d49780145a0cb4fcfc2b78399ef9e8e45c38ca1b648eb80dfc67d9515f29c1d76542efd0f94ac90f0c94b9d6dd5fe812c6ce6264563725e8c4b329351"
 
 RPROVIDES:${PN} += "nilfs-utils-devel"
 

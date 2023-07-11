@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1"
 
 PV = "0.5.2"
 
-RPM_NAME = "lightmediascanner-0.5.2-2.4.aarch64.rpm"
-RPM_HASH = "e55c0af347cd813ca32b62fc222a13680fae23c271bbae91e5a08f59d717ef2522e52e1be1edc26ded0d3a4764ddc19ec855ad220bd3ced646a7919ff33efd38"
+RPM_NAME = "lightmediascanner-0.5.2-2.5.aarch64.rpm"
+RPM_HASH = "51e74cc8cc1f10ec101739ef0edb6bd3caf1308c7aa242d3d4affad4ed0acdb568ec922265ae5dbd85c2ae043e7e8281727ae80ab515890adfc25ce70e6f28d1"
 
 RPROVIDES:${PN} += "lightmediascanner"
 

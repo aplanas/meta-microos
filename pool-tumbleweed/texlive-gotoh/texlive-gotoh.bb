@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.1svn44764"
 
-RPM_NAME = "texlive-gotoh-2023.201.1.1svn44764-53.1.noarch.rpm"
-RPM_HASH = "766af7b6a15c7cd0ecc23e45b13217f9357ca87ffa8741ec2f99c5f6217d9783e91f2109fe0a3ca3803742bdcf35d32bc24c9a3876fc96c2de0de24125ab3de6"
+RPM_NAME = "texlive-gotoh-2023.201.1.1svn44764-53.2.noarch.rpm"
+RPM_HASH = "f7ebebc6b5c8f5babbfec7a41aa1937511797ed36f0be5f4ba289992fbec0cdba5f88c981ae2ac4ed35571fefacc3296445a44dedf4b7838878a5bacafd45df3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gotoh.sty \

@@ -7,12 +7,13 @@ LICENSE = "OpenSSL"
 
 PV = "1.0.2u"
 
-RPM_NAME = "libopenssl1_0_0-1.0.2u-16.1.aarch64.rpm"
-RPM_HASH = "2c13af15336c68a55e4c5e2395d3c273184e74845aa2995d5a60f7d4a18abc473465465f9bb6288a3536654f98fe7cec42c229e8eb24acb846c10006827b04f0"
+RPM_NAME = "libopenssl1_0_0-1.0.2u-20.1.aarch64.rpm"
+RPM_HASH = "6b124af586613e0d4c430f877a28cda2fa8ffc1b0053240549f2949b886de554c9a01118d836dae1704b25036ea8e7416cc4f69bf07b46a4b95848fba6fbe9af"
 
 RPROVIDES:${PN} += "libcrypto.so.1.0.0 \
 libgost.so \
 libopenssl1-0-0 \
+libopenssl1-0-0-hmac \
 libssl.so.1.0.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \

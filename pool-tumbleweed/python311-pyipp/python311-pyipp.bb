@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.11.0"
 
-RPM_NAME = "python311-pyipp-0.11.0-1.9.noarch.rpm"
-RPM_HASH = "14772a3aabdd4408f2511d7c66da38d8d5ebc5d4bcb964561561c83282f82054ffe12d561bf17630a26cc457a3397145cb9ead1ea999d2ccc97d529dd3ad2fdd"
+RPM_NAME = "python311-pyipp-0.11.0-1.11.noarch.rpm"
+RPM_HASH = "9f93e9842c9d4ec42bbc7795515546b184426521a5c37e855b7ce19b55849dc96c8b6d6f3bb96da604ad7c7b4c9830a6103e2b72e51f57f3c27b4fbe5dc7cef3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pyipp \
+RPROVIDES:${PN} += "python3-pyipp \
+python3.11dist-pyipp \
 python311-pyipp \
 python3dist-pyipp"
 

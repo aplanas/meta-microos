@@ -6,11 +6,12 @@ LICENSE = "Apache-2.0"
 
 PV = "6.0.1"
 
-RPM_NAME = "python311-robotframework-6.0.1-1.4.noarch.rpm"
-RPM_HASH = "89650e32fb1ddd5aa3ec8c2a08ab44e6d889df8663d14074714fe3ccf4f91ec754f5c87dc3634728bb58bebda2733bbe0394eb8f30471b8fddd275138d35ee80"
+RPM_NAME = "python311-robotframework-6.0.1-1.5.noarch.rpm"
+RPM_HASH = "12fb32618024e1598029738a3cf12ce961651de6438d10776ba495dc5852c111904196f60137e6d701d9c78670c4054abd42794b200ea848d581515516932b23"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-robotframework \
+RPROVIDES:${PN} += "python3-robotframework \
+python3.11dist-robotframework \
 python311-robotframework \
 python3dist-robotframework"
 

@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-or-later"
 
 PV = "1.5.1615+0"
 
-RPM_NAME = "psi+-plugins-watcherplugin-1.5.1615+0-3.1.aarch64.rpm"
-RPM_HASH = "c3984f8f4e8da812c16e934bd1ec7fe37c92ab23008802ff5b17cb227af82f26caa7357b1af93e374e0f2ed79e26a60430f4537f03ef1c98a5bea34eb476b458"
+RPM_NAME = "psi+-plugins-watcherplugin-1.5.1615+0-3.2.aarch64.rpm"
+RPM_HASH = "ce719e85f0cc2b1df382039fbaa315921f801117ba849f5068c3644f7e492eed9d946ef76b866d5c66a46905b8e791b20ae4bd8a61557a5ae7754e14174faec3"
 
 RPROVIDES:${PN} += "libwatcherplugin.so \
 psi+-plugins-watcherplugin"

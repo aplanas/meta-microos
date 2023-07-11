@@ -7,10 +7,10 @@ files All these options support the syntax highlighting of the \
 oficial IDE."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn44823"
+PV = "2023.208.1.0svn44823"
 
-RPM_NAME = "texlive-maker-2023.201.1.0svn44823-52.1.noarch.rpm"
-RPM_HASH = "318d9cfa3bda5a40c86bb4fe8fd980094d5e258d9f8fa73572692f4b247edf1d10bd3c9cfc39f97862393ac661f05e49657e3763c8f5f01293566f89233b60ae"
+RPM_NAME = "texlive-maker-2023.208.1.0svn44823-53.1.noarch.rpm"
+RPM_HASH = "6f7f8c04c8d2a2f0a050d0572170bf93b0db487c90e494f59534eb24e6ac49a79cca18655245eccc64d1ad5b0fcfef6d6bc354259102f81ee565abf818822d37"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-maker.sty \

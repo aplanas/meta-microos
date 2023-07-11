@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides an advanced candidate window for IBus. The 
 window shows examples of selected words."
 LICENSE = "Apache-2.0 & BSD-3-Clause & SUSE-Public-Domain"
 
-PV = "2.28.4715.102"
+PV = "2.29.5111.102"
 
-RPM_NAME = "ibus-mozc-candidate-window-2.28.4715.102-2.1.aarch64.rpm"
-RPM_HASH = "9978326d45fb69380420e53e76bba9c0559da0bde027b0aac0b0d656f1ca0aa44a9b20b5205e1da0424952ed6e48af87651d4f53cb8da7545f1d8aed6006394f"
+RPM_NAME = "ibus-mozc-candidate-window-2.29.5111.102-1.1.aarch64.rpm"
+RPM_HASH = "238101ba8f99310c6828cdd24fe087c4f3876c80b5f2c74a57e4d6ddb2cec2d6befd4bfd45cc4dc9028eb4e8595a836ba0457c2a3385f6dfcc1058b14bf42b62"
 
 RPROVIDES:${PN} += "ibus-mozc-candidate-window \
 locale-ibus-ja"

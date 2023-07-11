@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ifplatform"
 DESCRIPTION = "This package includes the documentation for texlive-ifplatform"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.4asvn45533"
+PV = "2023.208.0.0.4asvn45533"
 
-RPM_NAME = "texlive-ifplatform-doc-2023.201.0.0.4asvn45533-52.1.noarch.rpm"
-RPM_HASH = "b1ca5f1da9439f6adfff08090f23d8f79b945fc78becdef570b1c5ca8e6bfe29ca0e309dd1278f86e3880464b177857d9210574d66ad8d6028931ab2648bdbd2"
+RPM_NAME = "texlive-ifplatform-doc-2023.208.0.0.4asvn45533-53.1.noarch.rpm"
+RPM_HASH = "cbe511bb793a0712a2a4bbf75250c3c9de88708c21fa5e7ac4b45470a2f782b6b33d2255288e98c2e3fb0b16ac089ba5db5f57583be45d973cec5c98b2c2b87c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ifplatform-doc"

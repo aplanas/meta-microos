@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2.0"
 
-RPM_NAME = "parsec-1.2.0-1.1.aarch64.rpm"
-RPM_HASH = "157c71ee255b4f384ef229af49e271332301023c8f9eb9d2e43af19dcaa14f0594402392627f32869ca5742e4e8116f443bcfb42f00b6b40b60647502ac238a7"
+RPM_NAME = "parsec-1.2.0-1.3.aarch64.rpm"
+RPM_HASH = "57afd5ca5015d2bb1ba03ec30c20aab838a178e919bb663cf90550eb6c7bf96920ce9b5bc9cf0a85b12035d33b06df827bb1ee23de62fb343946d2a2a3ce7679"
 
 RPROVIDES:${PN} += "bundled-rust-crate-ahash \
 bundled-rust-crate-aho-corasick \

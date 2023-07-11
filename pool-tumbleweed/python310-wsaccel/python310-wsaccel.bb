@@ -6,11 +6,10 @@ LICENSE = "Apache-2.0"
 
 PV = "0.6.4"
 
-RPM_NAME = "python310-wsaccel-0.6.4-1.5.aarch64.rpm"
-RPM_HASH = "72d3ce2291322e4ee69f2a7df35700d4e9f85d8ef0691c3efe676bbeb872f4ae09bc603a188f7a6e7cab3e813ec0f3f83ba917f1bf7880107b727d11b257f32a"
+RPM_NAME = "python310-wsaccel-0.6.4-1.6.aarch64.rpm"
+RPM_HASH = "2ab6de335b335a3ab64eb1588803c2580d051dba5e678c97e91c81c3a1b19fde465cbe8d29cd2bbad2ff071c5b712d881b7377b0ad7ef4150c419065be6702e3"
 
-RPROVIDES:${PN} += "python3-wsaccel \
-python3.10dist-wsaccel \
+RPROVIDES:${PN} += "python3.10dist-wsaccel \
 python310-wsaccel \
 python3dist-wsaccel"
 

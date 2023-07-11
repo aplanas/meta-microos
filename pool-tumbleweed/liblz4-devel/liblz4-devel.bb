@@ -9,8 +9,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.9.4"
 
-RPM_NAME = "liblz4-devel-1.9.4-2.3.aarch64.rpm"
-RPM_HASH = "d04c5ebe86ab16673c2c5107fb9b89f1e3843ef471c363424be81c9a225c72c1065aee4018c7024a437a7aec7d30bb5bdc74b0cd1e4dd16c3abf118460e6faad"
+RPM_NAME = "liblz4-devel-1.9.4-2.4.aarch64.rpm"
+RPM_HASH = "4e43fece155ed02ae467d5c46f080b34cdf10c4d1144e2ef5991bd5d1bebfb2196e5bfc2a6e34e0887673599471cd0fbe25ede73e7569962f12ee24b9512ab24"
 
 RPROVIDES:${PN} += "liblz4-devel \
 pkgconfig-liblz4"

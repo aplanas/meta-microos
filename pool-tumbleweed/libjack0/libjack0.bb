@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.9.22"
 
-RPM_NAME = "libjack0-1.9.22-2.1.aarch64.rpm"
-RPM_HASH = "a5e4270ba7440df057b0dcf103bd670c8f451a517df3e44a5cccdcc28e592e92cae56b80cb9eb3243553699db4c471c102e13b8c7b04d0f53731b91ef7f2e3c3"
+RPM_NAME = "libjack0-1.9.22-2.2.aarch64.rpm"
+RPM_HASH = "5ab5928b2f0b5c4b55295cff79546ed985d0a08a43b6ba79be70fb8190c8de116f352ebd66a28b197a000ba4bb56d76d2c91387d5d08e6b7ef68061b442aade3"
 
 RPROVIDES:${PN} += "libjack \
 libjack.so.0 \

@@ -4,10 +4,10 @@ of a one- or twosided document. The following packages are \
 loaded by default: qrcode, marginnote, url, xcolor and xkeyval."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.02svn59256"
+PV = "2023.208.0.0.02svn59256"
 
-RPM_NAME = "texlive-hvqrurl-2023.201.0.0.02svn59256-52.1.noarch.rpm"
-RPM_HASH = "a2efccdc2d3784fd050cdbe9eb43c17da58bfd1d8c2d8c68492a7afc1993d181cdf9cfd17b74b876a16705780786155f74cf801a31b525cfe03cc2d1c618a71a"
+RPM_NAME = "texlive-hvqrurl-2023.208.0.0.02svn59256-53.1.noarch.rpm"
+RPM_HASH = "ef73a8495d18f7bfeea1686bde783253f33f7828fb3e17e4f9b149c02351db3de10cf54bd7388b333138d3eb237a98eb5ec6ebbcfa5a2fedd7391ff18f1a4f7e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hvqrurl.sty \

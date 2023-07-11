@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides scripts and rpm macros to automate signing 
 boot loader, kernel and kernel modules in the openSUSE Buildservice."
 LICENSE = "GPL-2.0-only"
 
-PV = "10.2+git20220504.8690743"
+PV = "10.2+git20230612.4699910"
 
-RPM_NAME = "pesign-obs-integration-10.2+git20220504.8690743-5.1.aarch64.rpm"
-RPM_HASH = "1275a34a5c06f38487b5bea161152f87e7deeaeebbbed5b17d475bded7e4e8680b9d00b9d597575cc21af67f377b4df06c5a087fcfb292329d2315a8abee139c"
+RPM_NAME = "pesign-obs-integration-10.2+git20230612.4699910-2.1.aarch64.rpm"
+RPM_HASH = "a3926a5e24303fe977be3d5dce9616842d003f872329c61c17e6b2a95def54561effd991ce04ecdead335aca4e898ad860e0d581e0ca38d541aecfa0806e93c2"
 
 RPROVIDES:${PN} += "pesign-obs-integration"
 

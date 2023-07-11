@@ -4,10 +4,11 @@ LICENSE = "Apache-2.0"
 
 PV = "1.9.2"
 
-RPM_NAME = "python311-yarl-1.9.2-1.1.aarch64.rpm"
-RPM_HASH = "b1bd8a66259fd55b6dd2aa8729bba75b4c9410d39610770c880e52fb489f06b853ef2b63e469b98d2f1491e8b648d8370afd5c071c6068f26361698c13f159cc"
+RPM_NAME = "python311-yarl-1.9.2-2.1.aarch64.rpm"
+RPM_HASH = "4a81c0417bcfdfa7b610c3185b1b09174da2d4dcf52c1f2389824a94d9fc8ab15297f71ca05bc17af7cc37ca98bfb73d34d09e15cc25c131d9e626295e9f5f28"
 
-RPROVIDES:${PN} += "python3.11dist-yarl \
+RPROVIDES:${PN} += "python3-yarl \
+python3.11dist-yarl \
 python311-yarl \
 python3dist-yarl"
 

@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.0.5"
 
-RPM_NAME = "libreiser4-minimal-2_0-5-2.0.5-1.7.aarch64.rpm"
-RPM_HASH = "0b292183f7c2e3ba6160d37339cebbf6948a7f4da419f057ea4e71360666056334cf6990810d053dfc5607a75d858617e49039bc3eaea695cf783eefe186dcc9"
+RPM_NAME = "libreiser4-minimal-2_0-5-2.0.5-1.8.aarch64.rpm"
+RPM_HASH = "cecc672bc63ee9d3c3f7af9eb232269aad43a09293c20335e102e0c6ad78e7ceb8b224182fbc2a9f8ab27dbfd7c877d288ff5d2543377c8521fabac8e01fd1de"
 
 RPROVIDES:${PN} += "libreiser4-minimal-2-0-5 \
 libreiser4-minimal-2.0.so.5"

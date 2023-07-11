@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.5.2"
 
-RPM_NAME = "python39-distorm3-3.5.2-1.11.aarch64.rpm"
-RPM_HASH = "786caba1b8cb903bc783a76a405ec287d7a86423ea7a73ca0e77fd343116bbec59d7538bc531ad0ae72cd0a554ca80299002265d26ebb8305ce8ca4fb9cf2913"
+RPM_NAME = "python39-distorm3-3.5.2-1.13.aarch64.rpm"
+RPM_HASH = "2211aec8d7aef4660fcbcb526234d39f44c93bc550a0acb3272d7c81ac9b8a0aad7003e9ab5d22149aa9e8e4c4626233c5d9987eab57a19a7ed6b7195d0e1e5d"
 
 RPROVIDES:${PN} += "python3.9dist-distorm3 \
 python39-distorm3 \

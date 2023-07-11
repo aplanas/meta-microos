@@ -2,10 +2,10 @@ SUMMARY = "OpenSCAP C Library"
 DESCRIPTION = "The OpenSCAP C Library for easy integration with SCAP."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.3.7"
+PV = "1.3.8"
 
-RPM_NAME = "libopenscap25-1.3.7-1.1.aarch64.rpm"
-RPM_HASH = "ec0685cc90da67091f4758de79a81ddbe51a051d16842d258e99edacbc65afcf16dcb0b3aebb00bb4efcf40d0ad2e1f6f2d8f3977414f14219866acb83d50033"
+RPM_NAME = "libopenscap25-1.3.8-1.1.aarch64.rpm"
+RPM_HASH = "75069f69cc496358c438057681afb87d28fdba518d99ae56e0fc6a77b53c0930efbef6e4bfb3499fdc07aae3916d2681a903cc59266fac967affdc8b160799a0"
 
 RPROVIDES:${PN} += "libopenscap.so.25 \
 libopenscap25"

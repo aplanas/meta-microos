@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0-or-later & HPND"
 
 PV = "3.0.3"
 
-RPM_NAME = "pngcheck-3.0.3-1.8.aarch64.rpm"
-RPM_HASH = "43cbb9eef2234dfe55afa85b9aef8c9fa7cf965793b285903b565401495166949bca04fe5b4b29a477529c1526f0e76d5c7092e3ac0cd70055d4d2a4eb8eacf8"
+RPM_NAME = "pngcheck-3.0.3-1.9.aarch64.rpm"
+RPM_HASH = "6e82bfbf21acc9c47c7c663d1b015de1d01e38f7adfc07029a03a4640298b8385e3588dc9ecbb36eab5d4c9a72faabbf246624f93612a7b741dcbd809b75e930"
 
 RPROVIDES:${PN} += "pngcheck"
 

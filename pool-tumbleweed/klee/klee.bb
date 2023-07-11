@@ -4,10 +4,10 @@ infrastructure, and available under the UIUC open source license. For more \
 information on what KLEE is and what it can do, see the OSDI 2008 paper."
 LICENSE = "NCSA"
 
-PV = "2.3+20230326"
+PV = "3.0+20230611"
 
-RPM_NAME = "klee-2.3+20230326-1.1.aarch64.rpm"
-RPM_HASH = "0aafac757cdcd28a0afe3643356183aaf85f94170edc26481bd4cb8483ec368171133f13be234d8e8f7301092b7b71385fea740a74fed8f269a7b4058f9e4832"
+RPM_NAME = "klee-3.0+20230611-1.1.aarch64.rpm"
+RPM_HASH = "1162f32c38d776e7bad58dc4e0bcb46f3c4584de238ed953d878856a52af5a7d984cd25adfff071b47786f01059be3a02fe2d7efb490b704113837b1cc25b3bc"
 
 RPROVIDES:${PN} += "klee \
 libkleeRuntest.so.1.0"

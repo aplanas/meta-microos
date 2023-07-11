@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-or-later"
 
 PV = "1.5.1615+0"
 
-RPM_NAME = "psi+-plugins-stopspamplugin-1.5.1615+0-3.1.aarch64.rpm"
-RPM_HASH = "b30185705c80e43a4a6beef853f0a03a181f741e1eba2d46ce75eed205eeebc108efe4fbfe8d03a96c3fa05a98b4ba07b363c747e981d65783bd16984bf85eb6"
+RPM_NAME = "psi+-plugins-stopspamplugin-1.5.1615+0-3.2.aarch64.rpm"
+RPM_HASH = "18da7ad3cc582905414b0cb2997ce34caf1b4dcef28ce020ede72e5c4365e3f9803156dcdf178a22c0e4bdc2774d7b31553bcfc665a8eb437351bcd1965b448e"
 
 RPROVIDES:${PN} += "libstopspamplugin.so \
 psi+-plugins-stopspamplugin"

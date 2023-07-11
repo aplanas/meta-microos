@@ -11,11 +11,12 @@ LICENSE = "MPL-2.0"
 
 PV = "1.5.1"
 
-RPM_NAME = "python311-fqdn-1.5.1-2.1.noarch.rpm"
-RPM_HASH = "0c8475e4a08e37330eb87de0cfccaa4ded5c42c9ded7f105a48927b7ec7a3397b665396de58f120d6abce02e73b2be559e1a0f67aa6cf29e64c1ba5dd5857f9d"
+RPM_NAME = "python311-fqdn-1.5.1-2.3.noarch.rpm"
+RPM_HASH = "ed00cc3683cafd0861f4e4e632b5aa5da6095246c3b66d9e3a2c7bfaf8865fbd9ffa3e50631a9ce7ee5441b604c793c2d6ed1f5e7dc26026265bcd1d5a83b10a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-fqdn \
+RPROVIDES:${PN} += "python3-fqdn \
+python3.11dist-fqdn \
 python311-fqdn \
 python3dist-fqdn"
 

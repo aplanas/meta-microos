@@ -14,8 +14,8 @@ LICENSE = "MIT"
 
 PV = "1.3.3"
 
-RPM_NAME = "python39-hl7apy-1.3.3-2.13.noarch.rpm"
-RPM_HASH = "428c044b7b4fc5a6ed4b131ff371d4a59c55ff6951c03aa4d9eae083c5eb6e107951a8cc821951d026f57ab92dd3357896cd0722b8500441359bd3386b56d725"
+RPM_NAME = "python39-hl7apy-1.3.3-2.15.noarch.rpm"
+RPM_HASH = "357ab6111208980a83910dba38d2cacf14ed136e94dacb47ae0ede4ae083af3e19c5732420218c5f2d0d18ef9bdbb7bd9510c1624f13b16ff31bc06d0db88fb2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-hl7apy \

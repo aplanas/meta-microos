@@ -7,10 +7,10 @@ developer has more control over the look, feel and functionality of \
 the resulting application."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.6.0"
+PV = "1.6.1"
 
-RPM_NAME = "python39-Flask-Admin-1.6.0-3.4.noarch.rpm"
-RPM_HASH = "0f58aa71a8aab9560ff8a2d959e370164d1b79cc2b862cbcc6d368eee7f2ca4d23b7071f2f0c1e96ad651681873ab3c72b55f5264c5b115f2c11835f7d888692"
+RPM_NAME = "python39-Flask-Admin-1.6.1-1.1.noarch.rpm"
+RPM_HASH = "262baf2784c10e3d7ca92ed152d03f256e5e11454c2ee498c2fa07d7555eb0a9f58006ab213159748bf84171d74a438a9364696741844d68427aa30c2d58259a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-flask-admin \
@@ -19,6 +19,7 @@ python3dist-flask-admin"
 
 RDEPENDS:${PN} += "python-abi \
 python39-Flask \
+python39-SQLAlchemy \
 python39-WTForms"
 
 inherit rpm

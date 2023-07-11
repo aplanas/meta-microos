@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "python39-azure-mgmt-frontdoor-1.1.0-1.1.noarch.rpm"
-RPM_HASH = "f2594179640cf117cebea8b9107c57043ef7087f7e134d74f527a426abda07d5df511cf9548746a644e9b4ff4e30151888f7fd38d0b960915bb31ca7d1d5d9f1"
+RPM_NAME = "python39-azure-mgmt-frontdoor-1.1.0-1.2.noarch.rpm"
+RPM_HASH = "b666447a608a5222a502548dcf19fdae438c0ff3e575d60b7cb35f82a7fcd9ad2e957edb7da8ae06f79c7029b04dfb2ccbda645359d1729725438973f19af5c4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-frontdoor \

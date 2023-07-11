@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.7.6"
 
-RPM_NAME = "patch-2.7.6-6.8.aarch64.rpm"
-RPM_HASH = "c5fe270616d22ff14c00e60ca383867114f1639f831b78c2f922eb48566d302b21ee3ab9efdf7daed0fa622e614494ab47e14d7eb847f1727fea7d19427f7194"
+RPM_NAME = "patch-2.7.6-6.10.aarch64.rpm"
+RPM_HASH = "5c54e530a1dc75ca690abf815c1cddf53afdb841dc7f4ee90c3dd9c669825651b1c9dcbb18966b6e0559ef066e72caed9158747a70ed74ff6e5b65c81c58ecf9"
 
 RPROVIDES:${PN} += "patch"
 

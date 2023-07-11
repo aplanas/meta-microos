@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-2.1-only"
 
 PV = "4.2.8"
 
-RPM_NAME = "tvheadend-4.2.8-6.11.aarch64.rpm"
-RPM_HASH = "d18d35d32c9c53c022e8b3cd0664eed22344bcc7ce708e70ec62a6597a5054a9fa7dbf6aece7211c4ecd86b865b72e075805679a5a554453d32ff6556ac2ae83"
+RPM_NAME = "tvheadend-4.2.8-6.13.aarch64.rpm"
+RPM_HASH = "ffffe271887a8e07c913d383d2bbd58b810be302bb8d773dcfb5295b116ed4a0795de84dd7940942c8157fbe6dcf812fd49924d6b9f6c1276181aa5fd4538570"
 
 RPROVIDES:${PN} += "tvheadend"
 

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.0-only"
 
 PV = "3.4.5"
 
-RPM_NAME = "libxreaderview3-3.4.5-1.4.aarch64.rpm"
-RPM_HASH = "f49d682dd30baadfe1a616716c9905a301fb4a190f981b816987ce4a07ee1c5df2d7ff91bf5fd1c9132e580bd9be7b90893bb9a213a002e99f53454e9f1b8380"
+RPM_NAME = "libxreaderview3-3.4.5-1.5.aarch64.rpm"
+RPM_HASH = "99bc0bd90a5d3fa8d5bb8798797d92bf58c8eaa26676c9ccf6dec23da0b22b06e56b7323e433c30cea44886aad71df57289949b2b375bdcf9cc73bf6661267ed"
 
 RPROVIDES:${PN} += "libxreaderview.so.3 \
 libxreaderview3"

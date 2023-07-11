@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20210417"
 
-RPM_NAME = "libwtcdb-tools-20210417-3.3.aarch64.rpm"
-RPM_HASH = "f974d99a7b01d90681c93c7ceafc5893ab2b3e77622fc5618dc15ea4ee16db2ded7ad946ca58bd99b702a917b1b5f7cecb6bb6f9a56c42a7899e5b81ffa551bc"
+RPM_NAME = "libwtcdb-tools-20210417-3.4.aarch64.rpm"
+RPM_HASH = "c9acf18d771264e716c357a16d484e1c39670b20c03062555379b4b9ed716f2a2d6668b1cb41e003e3a2f21518658426dc2fc82c88f2496ae1b7156e821638a5"
 
 RPROVIDES:${PN} += "libwtcdb-tools"
 

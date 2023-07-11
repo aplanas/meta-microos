@@ -4,10 +4,10 @@ the standard connection and cursor methods, and context managers for \
 automatically closing connections."
 LICENSE = "MIT"
 
-PV = "0.17.0"
+PV = "0.19.0"
 
-RPM_NAME = "python39-aiosqlite-0.17.0-1.8.noarch.rpm"
-RPM_HASH = "8618cb493c2e45b52b9a9cfcff5adc6ce396d6cad647edc25cb5ca8d242c2c1ceea1166ec6ac844631286684ff72f136b756dd7d954bb3c3b09e79e6c924863e"
+RPM_NAME = "python39-aiosqlite-0.19.0-1.3.noarch.rpm"
+RPM_HASH = "cc28529a9fcad437c4c3003af5da969d305c90d6c4da6d5e6238b436fc3cd654c3b37491f18a0cc282c5f903b1276d73affa4a1ebea7ad2ca0de1944a8768ac8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-aiosqlite \

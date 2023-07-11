@@ -8,11 +8,12 @@ LICENSE = "MIT"
 
 PV = "1.8.0"
 
-RPM_NAME = "python311-pykwalify-1.8.0-1.10.noarch.rpm"
-RPM_HASH = "d865cde698f09d1cd0c0c8736c2f0b55e822bb9ff03ed9d1b641f9a2f3872119da74e0d271c841eb142280fc62a7f4b9777e4700f43f0908dc87829979038fb2"
+RPM_NAME = "python311-pykwalify-1.8.0-1.12.noarch.rpm"
+RPM_HASH = "518371e6c3d939771e7c8b6f8d629c0a4212bddc727f2c31c68ec4736500413b6c907e8832da56065b5e1416b5ff006f8b1acffa118eba1be08eca5b439fdc54"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pykwalify \
+RPROVIDES:${PN} += "python3-pykwalify \
+python3.11dist-pykwalify \
 python311-pykwalify \
 python3dist-pykwalify"
 

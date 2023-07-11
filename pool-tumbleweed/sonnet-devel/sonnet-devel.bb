@@ -4,10 +4,10 @@ applications. It supports several different plugins, including \
 HSpell, Enchant, ASpell and HUNSPELL. Development files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "sonnet-devel-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "7088c316e3765cef9aeb463864667edb4d4bba4c8e6269fbe8ff6db0adfae53fb74b541ad6c50ff3e0a496c8d6554cc4ae62f8710234803d0f60a1af6e477195"
+RPM_NAME = "sonnet-devel-5.107.0-1.1.aarch64.rpm"
+RPM_HASH = "8e3026037b4436194077083ef71f15aab6bdb1b504b4665621d26ed0a3c95813e433def3a62babd7ca36e465ceceedb65981cf7c05289d1f42ad4730962dba56"
 
 RPROVIDES:${PN} += "cmake-KF5Sonnet \
 sonnet-devel"

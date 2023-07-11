@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "43.0"
 
-RPM_NAME = "file-roller-lang-43.0-1.3.noarch.rpm"
-RPM_HASH = "45c1a87a5b1978297537dc745d65f59211bad3baa03301b06542e7bf5649e46761aa7e82afe986a2927c35aabe5d39521bef75cf69a35e4ed0a80150d63ca715"
+RPM_NAME = "file-roller-lang-43.0-1.4.noarch.rpm"
+RPM_HASH = "43c58da61acf406c449ba5ddc43fe507ecc9d397a81cbd270074441358b334326847c12aa256770a629e69b7b1d6c362b3f1865e98ab59f55bc8d07ebb092f70"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "file-roller-lang \

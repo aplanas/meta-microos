@@ -2,14 +2,14 @@ SUMMARY = "Best practices checker for Ansible"
 DESCRIPTION = "Checks playbooks for practices and behavior that could potentially be improved."
 LICENSE = "MIT"
 
-PV = "6.17.0"
+PV = "6.17.2"
 
-RPM_NAME = "ansible-lint-6.17.0-1.1.noarch.rpm"
-RPM_HASH = "717ac6e8fc7d31b60e57d8445fa3886b2e7f111ba0f009c9cc438af821a9adf1d2d54a00bd51b8de3105a753650c9094200c18f973545dea60eea6e92c75a7fc"
+RPM_NAME = "ansible-lint-6.17.2-1.1.noarch.rpm"
+RPM_HASH = "c4584cfadf263651bf3f6aa1322cb8d1b824ea8db053cf52166ca03f2cb29104a84a925eafea273bb2ad3c564de378a4793546bb1befbeae13c1d343be3d27f3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ansible-lint \
-python3.10dist-ansible-lint \
+python3.11dist-ansible-lint \
 python3dist-ansible-lint"
 
 RDEPENDS:${PN} += "-python3-ruamel.yaml >= 0.17.31 and python3-ruamel.yaml < 0.18 \

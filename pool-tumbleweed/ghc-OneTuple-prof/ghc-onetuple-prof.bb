@@ -2,13 +2,13 @@ SUMMARY = "Haskell OneTuple profiling library"
 DESCRIPTION = "This package provides the Haskell OneTuple profiling library."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.3.1"
+PV = "0.4.1.1"
 
-RPM_NAME = "ghc-OneTuple-prof-0.3.1-4.2.aarch64.rpm"
-RPM_HASH = "a53dd0defef7fa47c2433b7e03876a3b6f8031783762aae6a5ba53ca304ee87e81636b5aabd44adf576b40562af605aec063ecc880e76a46a214df1b1b2fc0cd"
+RPM_NAME = "ghc-OneTuple-prof-0.4.1.1-1.2.aarch64.rpm"
+RPM_HASH = "10977702e537a42a45fc67b3578c3085659bb0f561b70dc7a93118493a269d641ae938c642958057ccf5a6cb67731e022e2d0945acb80c7d069e446de34aaeae"
 
 RPROVIDES:${PN} += "ghc-OneTuple-prof \
-ghc-prof-OneTuple-0.3.1-IKxZBiZNgF5H3QnFEzgDrd"
+ghc-prof-OneTuple-0.4.1.1-Fgk8ylTtnzLBSBvZAI1OoV"
 
 RDEPENDS:${PN} += "ghc-OneTuple-devel \
 ghc-prof-base-4.17.1.0 \

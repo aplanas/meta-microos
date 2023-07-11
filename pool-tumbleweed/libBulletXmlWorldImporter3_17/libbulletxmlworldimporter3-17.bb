@@ -4,8 +4,8 @@ LICENSE = "Zlib"
 
 PV = "3.17"
 
-RPM_NAME = "libBulletXmlWorldImporter3_17-3.17-1.9.aarch64.rpm"
-RPM_HASH = "7b405ed6e446f9f693bc7e40bd3e1ff59b71fe59758d9cdf728688efce9668566567c1e937df7c98377da397ad08f53924d3a1d12052031068fa52d8052ecd5e"
+RPM_NAME = "libBulletXmlWorldImporter3_17-3.17-1.10.aarch64.rpm"
+RPM_HASH = "5f0cf93ad59826ed36acb7d6219b608468ce55eac6d6e980d35b39ffc1ab4ebcf66e7aef291217b441fb03e56d461bc5ac59d6a609bc289cb344ff1dd0060558"
 
 RPROVIDES:${PN} += "libBulletXmlWorldImporter.so.3.17 \
 libBulletXmlWorldImporter3-17"

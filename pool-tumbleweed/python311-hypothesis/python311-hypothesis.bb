@@ -15,11 +15,12 @@ LICENSE = "MPL-2.0"
 
 PV = "6.75.3"
 
-RPM_NAME = "python311-hypothesis-6.75.3-1.1.noarch.rpm"
-RPM_HASH = "73846d90a375ff56652c4eb04ac7be84dd353809c806adfb0dfa2d8eeaa6e42c3286f327f0308eb2f3937570201f83991c73de524271989dd9d28dbee713d720"
+RPM_NAME = "python311-hypothesis-6.75.3-1.3.noarch.rpm"
+RPM_HASH = "4c1431aaa5059a8c9a77767387383989b5d730a3d046d05a0dc6abfebab0ea6d9e4a3e157095953d1880caaa23aa92567665c76d554a7cbb3b60d18d69514614"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-hypothesis \
+RPROVIDES:${PN} += "python3-hypothesis \
+python3.11dist-hypothesis \
 python311-hypothesis \
 python3dist-hypothesis"
 

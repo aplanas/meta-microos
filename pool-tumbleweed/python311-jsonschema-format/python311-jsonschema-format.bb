@@ -4,13 +4,14 @@ DESCRIPTION = "jsonschema is an implementation of the JSON Schema specification 
 This subpackage provides the [format] extra"
 LICENSE = "MIT"
 
-PV = "4.17.3"
+PV = "4.18.0"
 
-RPM_NAME = "python311-jsonschema-format-4.17.3-3.1.noarch.rpm"
-RPM_HASH = "1b77caa3aefa7cfb48d2d6def8a85dda8abe225af14e5e8506d24d75c436a1361f4fc46ae0506e4c57db3fb12a468308e1be9cadeff1a0c7ed3dd346b514c076"
+RPM_NAME = "python311-jsonschema-format-4.18.0-1.1.noarch.rpm"
+RPM_HASH = "c588b3340fd7801cf6baed996d082ed1385198896ec0a570d7d1947fdb88be21534cdee0aa20ad3370c3073feddf044db3828082a7ca0dcaee483981838f7e6f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python311-jsonschema-format"
+RPROVIDES:${PN} += "python3-jsonschema-format \
+python311-jsonschema-format"
 
 RDEPENDS:${PN} += "python311-fqdn \
 python311-idna \

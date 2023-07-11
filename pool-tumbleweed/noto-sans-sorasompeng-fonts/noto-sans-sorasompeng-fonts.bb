@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-sorasompeng-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "2edd134151709982753781d0be7ced33885054c8e4fd28946494b62d635ed711000c2efe70acc9762f7845136b17d71c1f2016d9a0c8f7603d80597cabf2c852"
+RPM_NAME = "noto-sans-sorasompeng-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "60f9c74822758d5d9ab78ae0d1086c66f9845094feaed0f34b5512256963d7666184a9b82bc488ece24ace8fca5383d6c5db8394bd64b781180ba14570eef3e5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-sorasompeng \

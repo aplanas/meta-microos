@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "9.2.6"
 
-RPM_NAME = "vtk-openmpi2-java-9.2.6-2.2.aarch64.rpm"
-RPM_HASH = "946ce54011300e9032db5b76e5b4b0e74ad850eb11848ab457b436782be7ee826517b81de1189ed3df73888ece83b49b00679e3995b561995501d4e3e887f5e4"
+RPM_NAME = "vtk-openmpi2-java-9.2.6-2.5.aarch64.rpm"
+RPM_HASH = "3d4404b5fdfed461554cd11692697e3cd098e01720e7cd1d9043946a9d04dd4e77ebaaefbad67a4a43fb574e38d34d6d9cc772c6e87aab110e8f2a618fcb5cf7"
 
 RPROVIDES:${PN} += "libvtkChartsCoreJava.so \
 libvtkCommonColorJava.so \

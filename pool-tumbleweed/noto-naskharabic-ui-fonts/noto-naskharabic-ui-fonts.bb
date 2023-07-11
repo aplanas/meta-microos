@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-naskharabic-ui-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "0ea1dd2dd2d7ca55d283b1f3499e831dc644728f7a76209f0d13ed18f608b8fcf7e79154687c653bb84da867fe5564af6191837e6120096fe5a14fa45740911f"
+RPM_NAME = "noto-naskharabic-ui-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "e87dec52c4606d933526646592d7efcec1056eca91818790899a717206be7599b7d8816682030261817735aefc913f0c44570de12b7d88f5c01bdb8fe3e0402a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-naskharabic-ui \

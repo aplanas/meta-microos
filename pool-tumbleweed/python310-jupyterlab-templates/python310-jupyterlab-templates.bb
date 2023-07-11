@@ -4,13 +4,11 @@ LICENSE = "Apache-2.0"
 
 PV = "0.4.0"
 
-RPM_NAME = "python310-jupyterlab-templates-0.4.0-1.1.noarch.rpm"
-RPM_HASH = "152191f67fd66ee683c8a2ce4b5fda54687021a3c1f08822b58b3e28cfe3f301a49d4dce416c4ad5fb9f6a906d85c49eb7e9b5c2ecb50fa061f95d82721d42ae"
+RPM_NAME = "python310-jupyterlab-templates-0.4.0-2.1.noarch.rpm"
+RPM_HASH = "12e8d9cc2111805b6ba8165b762b9b418c654b68f395ca9af64f145b5cdf9b97f7568b278e3eb5e601556b1a2b0dcbf8c1b186148a07085a48bce2b6f1d8a90c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-jupyter-jupyterlab-templates \
-python3-jupyterlab-templates \
-python3.10dist-jupyterlab-templates \
+RPROVIDES:${PN} += "python3.10dist-jupyterlab-templates \
 python310-jupyter-jupyterlab-templates \
 python310-jupyterlab-templates \
 python3dist-jupyterlab-templates"

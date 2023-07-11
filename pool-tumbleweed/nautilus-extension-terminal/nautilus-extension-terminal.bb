@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.48.1"
 
-RPM_NAME = "nautilus-extension-terminal-3.48.1-1.1.aarch64.rpm"
-RPM_HASH = "a5f5d39adfafdab419b70c9f077b49cc1623d27a08f52ecf4f446c3a8b547727a2f8f7e676d5dcd05ef0f3833006ee5fef9700c15cc4dc4512f54fce374d1f37"
+RPM_NAME = "nautilus-extension-terminal-3.48.1-1.2.aarch64.rpm"
+RPM_HASH = "bc866571027134fb8fcffb0996cb9cb9a2496a03ee9fcdd7541cd06a85c28bcc8f5537055b188dd8a545580be603fbd3a6a491046c7b4b292b469204d551d7ba"
 
 RPROVIDES:${PN} += "libterminal-nautilus.so. \
 nautilus-extension-terminal \

@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.5.4"
 
-RPM_NAME = "python39-typed-ast-1.5.4-2.1.aarch64.rpm"
-RPM_HASH = "1606c18cd66928ab826a4300acc073fe81397068de5b3d3b84855aece469da7ab75214a1bb2883132af55d06d39b4c94040e7855dc724c2bfb6269bea0d6a98f"
+RPM_NAME = "python39-typed-ast-1.5.4-2.3.aarch64.rpm"
+RPM_HASH = "a45239f1e05f3d2524481327462214ec117446d67af25afc8630699b2be0a08470b1d385afc47d5614f867f4d5cd382de3208e08ee17601c77384d1aaaa5aa01"
 
 RPROVIDES:${PN} += "python3.9dist-typed-ast \
 python39-typed-ast \

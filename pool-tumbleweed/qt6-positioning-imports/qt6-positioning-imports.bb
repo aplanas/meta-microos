@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-positioning-imports-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "6b7e17f1f76b3a611433d7b42621f98dca65addc29785bc0cbf14a8fce93254111c63c0c5e71b3bcf0b12b8097268dcde24a5744f2edce75cc706e25756d0de0"
+RPM_NAME = "qt6-positioning-imports-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "2ab6f05a8a11a30932a6124a36677688d9074f7db289cf66ceb7550488b6a8711b39fd4cf2fd7631ac10daff6480a50137b323d24ab82af4a1bf9255981ace00"
 
 RPROVIDES:${PN} += "libpositioningquickplugin.so \
 qt6-location-imports \

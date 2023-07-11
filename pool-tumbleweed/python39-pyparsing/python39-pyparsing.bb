@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & MIT & GPL-3.0-or-later"
 
 PV = "3.0.9"
 
-RPM_NAME = "python39-pyparsing-3.0.9-4.1.noarch.rpm"
-RPM_HASH = "c66a701c4c80ec39ae05d0a6a2f34025d455e6bbec08c2251123a3c9f0b555596d5f45e3d158994518a3bce9db06546fbe4a4e895db27ca5f4008d2cf4177de5"
+RPM_NAME = "python39-pyparsing-3.0.9-4.2.noarch.rpm"
+RPM_HASH = "0fe27dd542fa34d11f657348c2496a7c24a90b161c7f0b665abf70e350b791cea6c631677246bccea0f4333813d09e9906b4ab3bf50d15e71daa3ead8c1ef637"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyparsing \

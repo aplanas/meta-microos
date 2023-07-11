@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.9.1"
 
-RPM_NAME = "python3-presagemate-0.9.1-13.1.noarch.rpm"
-RPM_HASH = "e5ac0e4cf86522b682fe985a812771ec0dfa10c6f5b6abd6757910cd441cebf59c8eaec0b4564c361a67a0236a83b64042c5209f2eddf65ebd7c5e6fd38e657c"
+RPM_NAME = "python3-presagemate-0.9.1-13.2.noarch.rpm"
+RPM_HASH = "ddd7d285eacdd3948aef011cbf2bc02711745d384378dbc143c4ad406f698aed739eaf697d83b54454101257b44c277193122fd7103502e7cedee0ccb15b9be4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-presagemate \

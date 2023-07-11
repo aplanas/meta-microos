@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "22.7.0"
 
-RPM_NAME = "smplayer-22.7.0-1.5.aarch64.rpm"
-RPM_HASH = "98b563faa91876bde3890d265b2dd7f3f578a6b985e24d591ed842655798058cfabae2b29177942ab28af878b6db256d7f5f6172dde7bf5dd43c0c17a8b958ee"
+RPM_NAME = "smplayer-22.7.0-1.6.aarch64.rpm"
+RPM_HASH = "fdf7c95e513d695a59e9e510e2a1922d8db7da11d0885bbb76bd21995b48eb77974a8e3ef109544ea57efae7a77464e7de563de163bd12b7942475c6815b7c91"
 
 RPROVIDES:${PN} += "smplayer"
 

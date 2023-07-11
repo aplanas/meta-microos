@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "7.1.2"
 
-RPM_NAME = "jupyter-ipydatawidgets-jupyterlab-7.1.2-9.2.noarch.rpm"
-RPM_HASH = "5d65350a65022b7fae6b8561d62ad2ecfa1fd5d9b55ffa05184b50084c182e6a2f4a97c44c42b9b8f9ae24d18996f1efc4c9f0ba961dacca11084b391d404759"
+RPM_NAME = "jupyter-ipydatawidgets-jupyterlab-7.1.2-9.3.noarch.rpm"
+RPM_HASH = "fab707acafc2e0e180dbec8d1e80901dd7376ff1fbbfbea1445b06b08b9749eb428391e74a6e4e8d782f9100559c134fa44ac36e1ad3e981737e30d6921ba069"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-datawidgets-jupyterlab \

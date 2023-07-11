@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.34"
 
-RPM_NAME = "ofono-1.34-1.7.aarch64.rpm"
-RPM_HASH = "796dabbe8aef4ee00b03deaeb3a658fee1a7a30a74d331efaa23c7f88a7459dca724de0b4fc36285dd8c7494074bef9d5649c1ffd4116972d5b696f9d5e222a4"
+RPM_NAME = "ofono-1.34-1.8.aarch64.rpm"
+RPM_HASH = "ac947f5c2f22b396b5019f7f640e824dadcf087e58199f71a22bd163c6a21ccd74934ce40e86d8de049cfacd31159de73bb27b4d50a8cfb5053443b302270703"
 
 RPROVIDES:${PN} += "config-ofono \
 ofono"

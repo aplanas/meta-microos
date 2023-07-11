@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-multani-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "c6c4264ef304fa378edbe7ea417670e14af71f68d4972f26bbcc1734808302284f3baaa815dfdfaca135438c0eedd276d4e108e3c67038a7dccba73d38635a29"
+RPM_NAME = "noto-sans-multani-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "04c5bd5df85c7d31b69b38d239fde039cf57337286c5480734595309a879ee5a49e4fbb8a912994125235b5eb5503f406b41d63534e8f53b46c64ecce03cf9f4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-multani \

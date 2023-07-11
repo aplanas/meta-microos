@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.6.13"
 
-RPM_NAME = "python-ncclient-doc-0.6.13-1.4.noarch.rpm"
-RPM_HASH = "cbfa13641a49c091e555dc5c2fe5948ad8b2391f897e556066c5f614d123cd5bf435ee7c777d7344d49dd64816ffd6be135ba4f9a91f5d03e43be8ae2934962e"
+RPM_NAME = "python-ncclient-doc-0.6.13-1.6.noarch.rpm"
+RPM_HASH = "2176bdf1f12a6662e315b1270aa9ceece83b1dcf200ae7d8a0dc3913cff13ee6abc50fec1e8af7f6616471eefebcf5dd3c2d2d39a9df4bd6f797f21a42eb9c55"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-ncclient-doc \

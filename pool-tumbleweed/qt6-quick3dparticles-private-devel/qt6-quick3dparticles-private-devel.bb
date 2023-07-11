@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-quick3dparticles-private-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "c263e3c798ed0f350a351a16e18ce20f67d08f1062bfeb5e2a38b25dacc432b1a1d159df2fcabe9b12a2630612f2b2a6fab55d9ce8538dcfcedce5b3d9d2053d"
+RPM_NAME = "qt6-quick3dparticles-private-devel-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "8f6d22a603bca123c1721fd1906be5171e0d929233f0117f83179a3291dab111f26a09a4dbc33e3ea3d7e4cd89fa239b39b18f6ee76ee9243411a1b4dc1ba384"
 
 RPROVIDES:${PN} += "qt6-quick3dparticles-private-devel"
 

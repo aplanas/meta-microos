@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.1.0"
 
-RPM_NAME = "lastlog2-devel-1.1.0-2.1.aarch64.rpm"
-RPM_HASH = "b96a58d697044cae6f06fbe4fea5ab2f88d32f42cf5e9dc2d968b1c70c3fbe7d1fd62e70c8755d822019add3fb58d7a4d258b2d2e690fa347e1e60e9855bbf76"
+RPM_NAME = "lastlog2-devel-1.1.0-2.2.aarch64.rpm"
+RPM_HASH = "fc356a87acf66aa408ad1ec45dc68263a6b8e6c600d34fb6ad3e9c95acdd3384bb7a6a625025de10fef23595578ead6d9aeca3357d4c0470317f16eb0c205803"
 
 RPROVIDES:${PN} += "lastlog2-devel \
 pkgconfig-liblastlog2"

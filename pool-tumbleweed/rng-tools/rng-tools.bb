@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.16"
 
-RPM_NAME = "rng-tools-6.16-1.1.aarch64.rpm"
-RPM_HASH = "8bb8d0c9c41730f38d4f18d3c1c085a44663bd55440884c1ce99ef750a616aec91127798df47647572316fa7550a1e03dedc74744b8db768b704445006c19dbb"
+RPM_NAME = "rng-tools-6.16-1.2.aarch64.rpm"
+RPM_HASH = "54bb9d1e8e85d37aee65f6742db2df2a4e9bbcb03d7fae32ddaa8e91e57506ba0eede87c1be8189b1345b42f41c3e9bc68d7ed52f79707a4c94c7bf65c86dcb5"
 
 RPROVIDES:${PN} += "rng-tools"
 

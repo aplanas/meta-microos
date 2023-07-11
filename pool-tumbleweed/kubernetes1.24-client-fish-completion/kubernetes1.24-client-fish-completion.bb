@@ -2,10 +2,10 @@ SUMMARY = "Fish Completion for kubernetes1.24-client"
 DESCRIPTION = "Fish command line completion support for kubernetes1.24-client."
 LICENSE = "Apache-2.0"
 
-PV = "1.24.13"
+PV = "1.24.15"
 
-RPM_NAME = "kubernetes1.24-client-fish-completion-1.24.13-2.2.noarch.rpm"
-RPM_HASH = "0dd0cad01b34a6126bacd3c8db30c5b9d1950b39fdd1f04f6d3517d7d597b52c3b4ca2340850d2c558daae5e12fdd973a838958ea201ef3fff0db4db219dd5a6"
+RPM_NAME = "kubernetes1.24-client-fish-completion-1.24.15-2.1.noarch.rpm"
+RPM_HASH = "35de7060e62e62f0ea00fdc74fa2fb10668468a3fb9ddbca4cb55a67af4444c014029d60d0fbc4635919d8bdbd9058107a60ac7c9f990745b8dde62e0cc073bc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kubernetes-client-fish-completion \

@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "4.1.0"
 
-RPM_NAME = "python311-ordered-set-4.1.0-1.3.noarch.rpm"
-RPM_HASH = "f5e344b5d6387393fae9b444b119b5375946a72b7db27a7ba3a9082ceeb3ab2c421f710b6e867b805b079f70202ab8d7eefe0c287a36ec7343521677f3be3105"
+RPM_NAME = "python311-ordered-set-4.1.0-2.1.noarch.rpm"
+RPM_HASH = "66f75cc5336e610b05675243e177d74b91961e72e90628929fd59437ee773a2a0119adfac6cda289d62fe36e51f07d021b79e32aee41593aa88be0cbf364f48c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-ordered-set \
+RPROVIDES:${PN} += "python3-ordered-set \
+python3.11dist-ordered-set \
 python311-ordered-set \
 python3dist-ordered-set"
 

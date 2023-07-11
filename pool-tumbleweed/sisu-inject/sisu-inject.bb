@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & EPL-1.0"
 
 PV = "0.3.5"
 
-RPM_NAME = "sisu-inject-0.3.5-3.5.noarch.rpm"
-RPM_HASH = "4f418b2481973457bba22299e2ea2d3c034c7ccaebee28ae14f583dc0f4d2dcc5ee10e5ab229015be9d7c5bb93788cc756d3e07b7ed1927f199a4c6136a65cf5"
+RPM_NAME = "sisu-inject-0.3.5-3.6.noarch.rpm"
+RPM_HASH = "d4dea4e1779b0cf1f2031328d6e34fa399607fe9886bf5a3dde63849e4cbd05bd199d66bca8ef42f0baee4354f0d12b36eb3e3005224881d1bfeb53f172da0d0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.eclipse.sisu-org.eclipse.sisu.inject \

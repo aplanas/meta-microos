@@ -7,11 +7,12 @@ LICENSE = "MIT"
 
 PV = "0.22.2"
 
-RPM_NAME = "python311-pytest-xprocess-0.22.2-1.1.noarch.rpm"
-RPM_HASH = "70ea7070dd105c962bfd7de854f63242a132d7cd6873cc4c1bed1fdc959a4845b1dcccc87022792ea0a35edcb9d82eaa58020ab848a4be9a7d495bddd077f8d6"
+RPM_NAME = "python311-pytest-xprocess-0.22.2-1.3.noarch.rpm"
+RPM_HASH = "22e55e14acf9fca77fee074772d27062517da450d245ecabd54281d5271daac5efd18f85ca1aa0b3e6bcaf3455ea5d8c365c061b810cb3b0ac7375a529f85cfd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pytest-xprocess \
+RPROVIDES:${PN} += "python3-pytest-xprocess \
+python3.11dist-pytest-xprocess \
 python311-pytest-xprocess \
 python3dist-pytest-xprocess"
 

@@ -10,10 +10,10 @@ example with KDar, a KDE application). \
 This package contains the library used by Dar and KDar."
 LICENSE = "SUSE-GPL-2.0+-with-openssl-exception"
 
-PV = "2.7.8"
+PV = "2.7.9"
 
-RPM_NAME = "libdar64-6000-2.7.8-1.4.aarch64.rpm"
-RPM_HASH = "62d8057a54cab35d5368d5aca6836adeaec189a8fe057ae477a467ae4a36c5f9775b1585d7d24a6c6429224b3bb11ab5a5a095e7a3b951b319257b2782ab5b47"
+RPM_NAME = "libdar64-6000-2.7.9-1.1.aarch64.rpm"
+RPM_HASH = "21f91d2c141fe32ee58536e0cb967692bd21d9adac331ba92c20c7c4e74188279cdf5325f27e527d8553aa019a19aa76d2ceb947ae06c1d2c22162360351da3a"
 
 RPROVIDES:${PN} += "config-libdar64-6000 \
 libdar \
@@ -22,6 +22,7 @@ libdar64.so.6000"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
+libargon2.so.1 \
 libbz2.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

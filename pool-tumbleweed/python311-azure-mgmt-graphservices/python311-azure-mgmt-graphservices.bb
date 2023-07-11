@@ -4,13 +4,14 @@ DESCRIPTION = "This is the Microsoft Azure Graphservices Management Client Libra
 This package has been tested with Python 3.7+."
 LICENSE = "MIT"
 
-PV = "1.0.0~b1"
+PV = "1.0.0"
 
-RPM_NAME = "python311-azure-mgmt-graphservices-1.0.0~b1-1.2.noarch.rpm"
-RPM_HASH = "8711b6192e90350584e7ada82caf5c584fbd7fc8215aec2f9b0c952e6d1d6db01bcd40dcaa5ceae16e0e7120d2a27021b698c2ca839ac23b45c7b4ce482ecfdf"
+RPM_NAME = "python311-azure-mgmt-graphservices-1.0.0-1.1.noarch.rpm"
+RPM_HASH = "9b520fa83850dd4a81875107c007c172baae71f404af7e4670f072452ed1d921598667ffb7848612206deaa3b1573bbe4cb7fab53f712520b2a882f6a8544b83"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-graphservices \
+RPROVIDES:${PN} += "python3-azure-mgmt-graphservices \
+python3.11dist-azure-mgmt-graphservices \
 python311-azure-mgmt-graphservices \
 python3dist-azure-mgmt-graphservices"
 

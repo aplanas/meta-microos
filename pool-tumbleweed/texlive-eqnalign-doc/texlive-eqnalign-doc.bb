@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.0asvn43278"
 
-RPM_NAME = "texlive-eqnalign-doc-2023.201.1.0asvn43278-53.1.noarch.rpm"
-RPM_HASH = "3a4b2e727bc81f560409ca642ae87a305debb0339ac4c8b5fba2d47e78a07ca3cb4e2398209d9dc4ac1f068385676b1f5ce5ef93c2774e7573ce877bbfe0311c"
+RPM_NAME = "texlive-eqnalign-doc-2023.201.1.0asvn43278-53.2.noarch.rpm"
+RPM_HASH = "f156b602c3c7519c1943dd4972f34394d25554162663b409bec1c0dae57d9a71069febda48cabaa66c287b05db98e63d0d9259594ceb8612e4a1a2c15b311a35"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-eqnalign-doc"

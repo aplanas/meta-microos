@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.4.19"
 
-RPM_NAME = "opencv3-devel-3.4.19-1.1.aarch64.rpm"
-RPM_HASH = "1e111776fb6ea57218c0dbe74d1b6814fd270265d65758f648838fb068e862370120a27ab216ba7249e3c56f3724904f2bc2b88b8fb4c139e6456d8aea0e36e7"
+RPM_NAME = "opencv3-devel-3.4.19-1.3.aarch64.rpm"
+RPM_HASH = "87be657bc00694dc4aa335900ed34eaba961f18c8d976b99dd36df0a5dbf0ff4d28212b2a5fbc2d7a740b543148dff1c5627aa5610412e8013b73927cc68c181"
 
 RPROVIDES:${PN} += "opencv-qt5-devel \
 opencv3-devel \

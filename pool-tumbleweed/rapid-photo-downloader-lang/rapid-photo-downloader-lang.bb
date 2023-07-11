@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.9.34"
 
-RPM_NAME = "rapid-photo-downloader-lang-0.9.34-2.1.noarch.rpm"
-RPM_HASH = "17a2c31a4daaa63897f04a24da91e19ff5d231fe4b5c218730395192d4561062e5075f9c7a7a9a61dedab37900eec736d2442e5f62f7bf646239191b827be165"
+RPM_NAME = "rapid-photo-downloader-lang-0.9.34-2.2.noarch.rpm"
+RPM_HASH = "0e2ae2aaf49863f3cd42355a92b34f7f53dd27c8203b027531a898bed75df779c0303d975f473de97aaae1bf8043ee4630f8e86244702b1a25d2c3c8a39dc647"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-rapid-photo-downloader-ar \

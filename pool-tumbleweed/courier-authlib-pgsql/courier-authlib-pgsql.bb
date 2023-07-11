@@ -6,8 +6,8 @@ LICENSE = "SUSE-GPL-3.0-with-openssl-exception"
 
 PV = "0.72.0"
 
-RPM_NAME = "courier-authlib-pgsql-0.72.0-1.4.aarch64.rpm"
-RPM_HASH = "c722331f4869ea43ee4c79b18c950ec3dc555d5f22040e45f9c8d848e863592fe74fd735647d4d23480b88f25b2da2b1f97c914a15d42368cc8725c5fb9b171c"
+RPM_NAME = "courier-authlib-pgsql-0.72.0-1.5.aarch64.rpm"
+RPM_HASH = "58ad5a23b293969a8e2756f47f2ea2268500d8695c3ecc13d8cb336fbf328f7b2ce9433acb888e1039e87ef0bafac9aab2be5e648e4a188ed640b21417cd0911"
 
 RPROVIDES:${PN} += "courier-authlib-pgsql \
 libauthpgsql.so.0"

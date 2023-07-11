@@ -8,13 +8,11 @@ LICENSE = "MIT"
 
 PV = "20200726"
 
-RPM_NAME = "python310-pdfminer.six-20200726-3.1.noarch.rpm"
-RPM_HASH = "a210774f95c34c861a0784b41735b8b75a2c48439d49ed7615a7cd2cacdc6cfb236f34e661a2d25acc2814b7e02e554b6a7d2be7da23d349386e5c8dc369b928"
+RPM_NAME = "python310-pdfminer.six-20200726-3.3.noarch.rpm"
+RPM_HASH = "63bf05716550de7ee5248e4b792bb2b8dba6d4113cbb05e2a0c6ae5c4caa200f385d9ed4f94be4fe41c7789678111ffbf8514f08516c7725fed483f467dffb47"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pdfminer.six \
-python3-pdfminer3k \
-python3.10dist-pdfminer.six \
+RPROVIDES:${PN} += "python3.10dist-pdfminer.six \
 python310-pdfminer.six \
 python310-pdfminer3k \
 python3dist-pdfminer.six"

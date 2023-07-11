@@ -2,10 +2,10 @@ SUMMARY = "Client for One Drive Service for Linux"
 DESCRIPTION = "OneDrive is a client for Microsoft file serving service"
 LICENSE = "GPL-3.0-only"
 
-PV = "2.4.23"
+PV = "2.4.25"
 
-RPM_NAME = "onedrive-2.4.23-1.4.aarch64.rpm"
-RPM_HASH = "a6e7349fcc698fc46d66e79c6f9e7a88e032fab0e5b0d1969873a3b45d136ee8b5360a4b9b29fb1f5154d133510b19fb9977ef8a5d0bb312bb460af97c07e7cf"
+RPM_NAME = "onedrive-2.4.25-1.1.aarch64.rpm"
+RPM_HASH = "1d9ca74e96f60e2f05f5cd81bbd5b5a8e7ecd4d61611158603e389f0f294a12d3efc93779dc99a7cc371d1f935fa874388df8432109853790fba2892c5752465"
 
 RPROVIDES:${PN} += "config-onedrive \
 onedrive"

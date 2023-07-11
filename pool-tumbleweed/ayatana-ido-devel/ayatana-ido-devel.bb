@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-only & LGPL-3.0-only & LGPL-2.1-only"
 
 PV = "0.9.2"
 
-RPM_NAME = "ayatana-ido-devel-0.9.2-1.4.aarch64.rpm"
-RPM_HASH = "ae3c2745b4659b0985a1cf51d54c995912052cf86120488b061cdd25a83b49028e4608a923dce0b70d834eb6d1dfbecf21b1cb67fcfe4e330c9fb1dbe0cc7b01"
+RPM_NAME = "ayatana-ido-devel-0.9.2-1.5.aarch64.rpm"
+RPM_HASH = "c9701ea0cf82abd2a1844f257e3f620c7c0bac249492f089ab64c326ecd417966d09fa79969fb2f9d2fda5396fae4cd3071e774374412b95d38df6d72e7bd0f5"
 
 RPROVIDES:${PN} += "ayatana-ido-devel \
 pkgconfig-libayatana-ido3-0.4"

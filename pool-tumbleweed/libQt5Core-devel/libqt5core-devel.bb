@@ -2,10 +2,10 @@ SUMMARY = "Development files for the Qt5 core library"
 DESCRIPTION = "Development files for the Qt5 core library."
 LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
-PV = "5.15.9+kde154"
+PV = "5.15.10+kde129"
 
-RPM_NAME = "libQt5Core-devel-5.15.9+kde154-1.2.aarch64.rpm"
-RPM_HASH = "42bb52ca13eea71d49b4f472fbf69566b97d77ed39e3bb284a70b62666bdaa949be2698e96ed7642f929d64912bc3bbbd54115aabc9eae7c991814507663391e"
+RPM_NAME = "libQt5Core-devel-5.15.10+kde129-1.1.aarch64.rpm"
+RPM_HASH = "cd092902ed8c402e3bf0efee79753a04a6fede54b363ab7e7384ae28e3be075f74509adafe63de7eaba09b5ff21017d295471fb6af085828c2c6b172087738a1"
 
 RPROVIDES:${PN} += "cmake-Qt5 \
 cmake-Qt5Core \

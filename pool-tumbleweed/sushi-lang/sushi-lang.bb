@@ -2,10 +2,10 @@ SUMMARY = "Translations for package sushi"
 DESCRIPTION = "Provides translations for the 'sushi' package."
 LICENSE = "SUSE-GPL-2.0-with-plugin-exception"
 
-PV = "43.0"
+PV = "44.2"
 
-RPM_NAME = "sushi-lang-43.0-3.3.noarch.rpm"
-RPM_HASH = "e13c4b303f22135bb7deb2567145aeb11102e09d95bfdf9e6075957e39b697f8d2d5373de89ae9bd4673de17ca9cd2f8bf141d841f6325bfc1a68c9e8953cbc2"
+RPM_NAME = "sushi-lang-44.2-1.1.noarch.rpm"
+RPM_HASH = "fe956ccd2c0b50c3a4689e90d723ebaf62c3d6a5cdf3c23f1c1bf3d6d2ca19d7e1724cf6e81ccff722ff92355fd2ab86e0c0582eb7ce4111e19f81892046a945"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-sushi-af \

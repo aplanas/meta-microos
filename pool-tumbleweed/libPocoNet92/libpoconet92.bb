@@ -5,8 +5,8 @@ LICENSE = "BSL-1.0"
 
 PV = "1.12.2"
 
-RPM_NAME = "libPocoNet92-1.12.2-1.4.aarch64.rpm"
-RPM_HASH = "7c493385b81a528402ce545eec0c3c9a1cb4d7fe84a7bd96ee618c5962b33d0af40da37588296b6712dfe8bb1fac7b256fecab0e637dfec76859eac9efb331e2"
+RPM_NAME = "libPocoNet92-1.12.2-1.5.aarch64.rpm"
+RPM_HASH = "81aef0ea4326fc61d08f61c359812a9f054eb671dec5eec511de3df31f85c1b75adebaad7e5987ba51cf6883a94d6b88da76d414ea453eac4be21c04633ff552"
 
 RPROVIDES:${PN} += "libPocoNet.so.92 \
 libPocoNet92 \

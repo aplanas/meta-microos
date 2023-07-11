@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.2.0.5svn15878"
 
-RPM_NAME = "texlive-harvard-doc-2023.201.2.0.5svn15878-53.1.noarch.rpm"
-RPM_HASH = "7e5e541133d76983c707dd3e56f7e2a6b0ee348dfb6f3899c5f416e19fbb7ec96aa763e93c8d06f866183f77dabfcdce54cc0c559aeef35121cded6e0a794f86"
+RPM_NAME = "texlive-harvard-doc-2023.201.2.0.5svn15878-53.2.noarch.rpm"
+RPM_HASH = "e8d76b6d29a314b5e133189102a21bd64bb755805c4e6407e437c3cf6e1365d7dd706da2b6b3b6ec8652ad41f273d3400a1235a6a1f40e3da7ea460c3fbae1ff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-harvard-doc"

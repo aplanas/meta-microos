@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.0"
 
-RPM_NAME = "python39-pooch-1.3.0-2.8.noarch.rpm"
-RPM_HASH = "156883dcc9263433d53a7cc9a7b49f8dfe1050a75b58ac8f7ed18dedf03aa2e6c45eabfedbce9256339834908c20c2fc59e5ace1b08f60fb48900f0cd7477068"
+RPM_NAME = "python39-pooch-1.3.0-3.1.noarch.rpm"
+RPM_HASH = "f3b4a896c5a421d44505f2cd9f8363d6c03cc630661e46a769bf7ed71166e1e5abe397351b8f88afdba4e8a2234fc0219af93f5f75ea5924535192915874475a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pooch \

@@ -7,14 +7,13 @@ replace the old Azure Service Management (ASM). \
 This package has been tested with Python 2.7, 3.4, 3.5, 3.6 and 3.7."
 LICENSE = "MIT"
 
-PV = "8.0.0.0"
+PV = "8.1.0"
 
-RPM_NAME = "python310-azure-mgmt-dns-8.0.0.0-1.3.noarch.rpm"
-RPM_HASH = "83c54a7ebd6f4059036f410dc1ab84ef431eb2a9d51f77cb87a0c200841553a1cae613551dab243aefcbc1ad82263005fe85dd340eea08623d6bfd25ce35aa5a"
+RPM_NAME = "python310-azure-mgmt-dns-8.1.0-1.1.noarch.rpm"
+RPM_HASH = "ed5d17b012f94e6b70b264fbb7fee959a03d4b98649884077886d4e0b65017f9d29a068012ebf8b37424d9057c5fbd7773bca5bb6b8ff7f725758f2826dbecbc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-dns \
-python3.10dist-azure-mgmt-dns \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-dns \
 python310-azure-mgmt-dns \
 python3dist-azure-mgmt-dns"
 
@@ -23,6 +22,6 @@ python310-azure-common \
 python310-azure-core \
 python310-azure-mgmt-nspkg \
 python310-azure-nspkg \
-python310-msrest"
+python310-isodate"
 
 inherit rpm

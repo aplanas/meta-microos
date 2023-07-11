@@ -6,12 +6,11 @@ LICENSE = "Apache-2.0"
 
 PV = "0.1.3"
 
-RPM_NAME = "python310-opencensus-context-0.1.3-1.3.noarch.rpm"
-RPM_HASH = "c9fc78ffbc7f22a570174915b2d9d35fd92775a2aa3e1cb6eadd3d5e05ea07c7fa4be1d31799a7f1e31424aadf4bbfdf1dca54d20ecf6645f32f86ffd5124961"
+RPM_NAME = "python310-opencensus-context-0.1.3-1.4.noarch.rpm"
+RPM_HASH = "5a60cc3c8e4f991b09903cc56aeced2cc192c2aedbdc232e4fb1434d9e824506cf754743c4659085f3bdf840b8834f0e3e2b34b4aba2b1eecd578ea25a54c75f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-opencensus-context \
-python3.10dist-opencensus-context \
+RPROVIDES:${PN} += "python3.10dist-opencensus-context \
 python310-opencensus-context \
 python3dist-opencensus-context"
 

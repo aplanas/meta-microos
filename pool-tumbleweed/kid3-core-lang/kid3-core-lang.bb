@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.9.3"
 
-RPM_NAME = "kid3-core-lang-3.9.3-1.3.noarch.rpm"
-RPM_HASH = "c073d348b19f99ea70c2f08cd16de16eecd55b5fe0de74ab36f6c81ceac5e1cf6d9677b2d6c7559187687d9522778a2643d1a5dfef71a780dc47f4b0c73cad21"
+RPM_NAME = "kid3-core-lang-3.9.3-1.4.noarch.rpm"
+RPM_HASH = "733f1a3f208de6312a6dba53f99fdd8d43128e76ae471243701413db6c20c3cf6a3e2943e0d780d6de5bee3573c34dc194f4d5bc0ca312a9acd917aea56f8111"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kid3-core-lang \

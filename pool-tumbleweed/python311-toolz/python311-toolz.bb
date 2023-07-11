@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.12.0"
 
-RPM_NAME = "python311-toolz-0.12.0-1.5.noarch.rpm"
-RPM_HASH = "a08e770efdc5c71da5e0c4f922aa509e2698d650f03480b1a53ce052a418b2dede16e514ef40cc35f3184f352eb3db471e5b76bc64572e7a206828506d118fbf"
+RPM_NAME = "python311-toolz-0.12.0-1.7.noarch.rpm"
+RPM_HASH = "1b977c22a54f4453dbcb4f28d726c884a8c80bc12ecb9c6d8ff64ac3182fa791d8591956523a6feb88d547fad11bc9dc0f89805ee418fe91c51d90ffcfa63084"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-toolz \
+RPROVIDES:${PN} += "python3-toolz \
+python3.11dist-toolz \
 python311-toolz \
 python3dist-toolz"
 

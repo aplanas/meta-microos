@@ -9,8 +9,8 @@ LICENSE = "ClArtistic & MIT"
 
 PV = "0.9.16.1"
 
-RPM_NAME = "chromium-bsu-0.9.16.1-1.18.aarch64.rpm"
-RPM_HASH = "44708df541287c0b328023416ffba3808eedeb6eb78d50e5af6e756fca59bb915a85518e8671ce2e06f5c9f5c8d8c2919b9c7244d54a765994b4c9a4b199f9cf"
+RPM_NAME = "chromium-bsu-0.9.16.1-1.19.aarch64.rpm"
+RPM_HASH = "a6e06c0ba66f35418021f1c47e8c5c6ddf8d6faef591f41a0dcddc111cfa4f5b3050684d72ecee80933d7178e4a4328758faf6b788f1c15fb932b54a4d74c1a8"
 
 RPROVIDES:${PN} += "chromium-bsu \
 config-chromium-bsu"

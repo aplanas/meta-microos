@@ -6,11 +6,10 @@ LICENSE = "Apache-2.0"
 
 PV = "3.2.14"
 
-RPM_NAME = "python310-olm-3.2.14-1.5.aarch64.rpm"
-RPM_HASH = "232283b69d92bed0f5132103d6b0b5144029b2c0370584394d040b2aaadbf89308ed0a7bc1fb4b4bc137ac0bcf6e2a60d68ee353533826e443b7915bb9238f69"
+RPM_NAME = "python310-olm-3.2.14-1.6.aarch64.rpm"
+RPM_HASH = "f3a9474d63517d28978a0bd6319703926d15fa3557581d55a07e31196c9d23b26a26b3a1562718b18ed3410010457fb42ff0d8bd4d3321b524886bdecb5c86ed"
 
-RPROVIDES:${PN} += "python3-olm \
-python3.10dist-python-olm \
+RPROVIDES:${PN} += "python3.10dist-python-olm \
 python310-olm \
 python3dist-python-olm"
 

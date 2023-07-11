@@ -4,12 +4,11 @@ LICENSE = "Apache-2.0"
 
 PV = "0.12.4"
 
-RPM_NAME = "python310-grpc-google-iam-v1-0.12.4-1.4.noarch.rpm"
-RPM_HASH = "5b06d093edd12fd7b897892d81bda355a5bb9d06c4f0a0f14a599ec1e92ae77b78796536716c6082617829481212a14102a9e62b33560046399c60de81fd82d9"
+RPM_NAME = "python310-grpc-google-iam-v1-0.12.4-1.6.noarch.rpm"
+RPM_HASH = "5cbcc5bb39165ae985789629b221257d8af43ec3c87cfd2d477877b567b82b5bb6cb8898a0767e588a653f097f389b76b33840a74e13558ef388eb2b5a47834a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-grpc-google-iam-v1 \
-python3.10dist-grpc-google-iam-v1 \
+RPROVIDES:${PN} += "python3.10dist-grpc-google-iam-v1 \
 python310-grpc-google-iam-v1 \
 python3dist-grpc-google-iam-v1"
 

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.1.0"
 
-RPM_NAME = "librubberband2-3.1.0-1.3.aarch64.rpm"
-RPM_HASH = "7b02d5550734f234bf847a979037016d5eb65bc6ae9df611832861caa7c6b9403f19d7641ae1b9d7ffd752b7eb2930b744f29e8cd960f8330b85d7e72ee89eb4"
+RPM_NAME = "librubberband2-3.1.0-1.4.aarch64.rpm"
+RPM_HASH = "47973be2cc02b9a8f475733eda4b97f35995c9a9fd7bd5848435152f1f213ffc2eed4e5d5ebb0ad42e9b8c90f0456a3cf47486b49b7d3701667e09db0df60b38"
 
 RPROVIDES:${PN} += "librubberband.so.2 \
 librubberband2"

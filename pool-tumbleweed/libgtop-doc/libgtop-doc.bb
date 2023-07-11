@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.40.0"
 
-RPM_NAME = "libgtop-doc-2.40.0-4.3.aarch64.rpm"
-RPM_HASH = "f1b8c39b9cdcafe132fbfc55f8ed2e4374bece40981d0a694357a432ee3ad489ed02fff2ccd659cf56996a409d4e893b29e0f30d91318aa9df7e1b99e2af93b6"
+RPM_NAME = "libgtop-doc-2.40.0-4.4.aarch64.rpm"
+RPM_HASH = "ed0b0d32e04576bd2c29739c0bb6b9ae7d93fb861ddf1a3c138e914666c94c7742c9a1c9ee6dd992f83845652a6d75f6a76cbb40b4719b1422a5d4ec5aca50fe"
 
 RPROVIDES:${PN} += "libgtop-doc"
 

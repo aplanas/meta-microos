@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "0.7.0"
 
-RPM_NAME = "python310-mccabe-0.7.0-2.1.noarch.rpm"
-RPM_HASH = "799b3ac439d2fe36454469a6ef4de5678f6fd4ef9c2dab372d0dc13ff8f6dc3f10b0fa92d3e0ce68b67ed0af1d6447e048e2548fd9bac19bda5d71b64f17961e"
+RPM_NAME = "python310-mccabe-0.7.0-2.3.noarch.rpm"
+RPM_HASH = "2e2328e2f00dbaa6c18577fb11ae81e08715a0a1b4a4820178f8a4774174922cc63ce363858ef652e59186e320e72f8c39e41022f7cee98e9e4f4dbe2f31e696"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-mccabe \
-python3.10dist-mccabe \
+RPROVIDES:${PN} += "python3.10dist-mccabe \
 python310-mccabe \
 python3dist-mccabe"
 

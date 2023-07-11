@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "13.5.3"
 
-RPM_NAME = "libOgreMeshLodGenerator-devel-13.5.3-1.5.aarch64.rpm"
-RPM_HASH = "1040aaf0c8736b68cbe4b7f5885c99ee25d79948baf6ca7b9e151b8eccbc16af429747a84cef4b876110a118c92b3446b78086a121c51132dbb1400b9f90d6c9"
+RPM_NAME = "libOgreMeshLodGenerator-devel-13.5.3-2.2.aarch64.rpm"
+RPM_HASH = "6be726fe8f12efd4eb936839a135b7a866000ea2cd827022dcaac3fa4043747e02116a50834bda6c0243c78946c051e0cedb50b93806aa1ec9f68235bdcee413"
 
 RPROVIDES:${PN} += "libOgreMeshLodGenerator-devel \
 pkgconfig-OGRE-MeshLodGenerator"

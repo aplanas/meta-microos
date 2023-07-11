@@ -11,8 +11,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.0.2svn58723"
 
-RPM_NAME = "texlive-gridpapers-2023.201.1.0.2svn58723-53.1.noarch.rpm"
-RPM_HASH = "637f256b72f1c2d2efe70a179def9f50035bffb0244cf926ad3ab736ddbb3fe383b33cca0f4cd3b915014206dbf3d93a20d586a8db63b70ce308c7eaf1b98f73"
+RPM_NAME = "texlive-gridpapers-2023.201.1.0.2svn58723-53.2.noarch.rpm"
+RPM_HASH = "e34b283f14d67454cf5ccb90cb5c0a8903c3accaeb591cf42ea08b52b0a67b7b90c2a24fbb3581e84c58f08a8b2ebb623698ff8702e688486d462d4841442c50"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gridpapers.sty \

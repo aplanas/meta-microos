@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause & SUSE-Public-Domain"
 
 PV = "2023c"
 
-RPM_NAME = "timezone-java-2023c-1.1.noarch.rpm"
-RPM_HASH = "c7abc2bd6b0c2ffbe30656e945ab0b73412199617522e9658dba847d811adda3a0ce506e96d354e523298ddfc084a39a9d550031c8158e4eaa7dc49382aca25b"
+RPM_NAME = "timezone-java-2023c-1.2.noarch.rpm"
+RPM_HASH = "8cb68fe53ffb6346bac380024ff39a406e1e4212f9019183728008ccd2e5112284a57ecbea7941e62bc97a5cc78f2ef72cfecdd797fc8261bcbae84722407a2f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "timezone-java \

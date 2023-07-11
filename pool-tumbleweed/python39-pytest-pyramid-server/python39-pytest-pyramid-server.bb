@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.7.0"
 
-RPM_NAME = "python39-pytest-pyramid-server-1.7.0-2.4.noarch.rpm"
-RPM_HASH = "da17a01a528e4ea718feae4685e9ae75de2898874e48d57ce53cf787bfdfe53674938782924e682fa260d28ee49482838500a25b50422c2d07fbd6739cd6e6a2"
+RPM_NAME = "python39-pytest-pyramid-server-1.7.0-2.6.noarch.rpm"
+RPM_HASH = "460a8b6445dc141c087e76e44d8365cddbe8e34f13730be2749c152acc3639dbbf3dedc3f555f6e4afe0b14dd9cfaf1b24e0614e4395d14b925999cd0104e689"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytest-pyramid-server \

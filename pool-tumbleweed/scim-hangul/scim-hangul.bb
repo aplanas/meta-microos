@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "0.4.0+git20140408.ee1d084"
 
-RPM_NAME = "scim-hangul-0.4.0+git20140408.ee1d084-1.30.aarch64.rpm"
-RPM_HASH = "5267f40b3e77c5fb25c87de49a341f9f6fb9cdf62626695bb55e681b60eb801c9ae6b28cad7e8892dc4bbe54816c9d3fa02cb47b433f93de8f83b61df60669bb"
+RPM_NAME = "scim-hangul-0.4.0+git20140408.ee1d084-1.31.aarch64.rpm"
+RPM_HASH = "28b7f32efdf4de27e6c30e80ddf6f2d38b3d57db88e403b4327ddf4b2d45b1cde13e0730c4b9fa5d9cb1c6df98d5de4463e7467abcc82b200d226b6bab411ec9"
 
 RPROVIDES:${PN} += "scim-hangul"
 

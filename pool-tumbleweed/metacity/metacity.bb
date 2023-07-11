@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.46.1"
 
-RPM_NAME = "metacity-3.46.1-1.1.aarch64.rpm"
-RPM_HASH = "ad0b2fd91b02f039f1dabb09bbea02114bec61e96e2b9c8e788460aae264b171579ab1c10a1607f0d2ed518cb7be26f75c482c56210896dccba30cb96c7336dd"
+RPM_NAME = "metacity-3.46.1-1.2.aarch64.rpm"
+RPM_HASH = "6a741300e14a5f493c7bb978d53aa21c4f86cee71b50b29925d63f2538c0536633795a10f5313fa11efeabe002b82ec6303543526622c4f3d573866c338c04d6"
 
 RPROVIDES:${PN} += "metacity \
 windowmanager"

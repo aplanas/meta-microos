@@ -7,11 +7,12 @@ LICENSE = "Python-2.0"
 
 PV = "3.10.0"
 
-RPM_NAME = "python311-premailer-3.10.0-1.3.noarch.rpm"
-RPM_HASH = "8eac0b5f17174f4309456f3b95cd7ef1c1fe67d641a24f82fed324313b0707675b0e59f4b41d7ad9d263285b6f9c95e60d9ab247f3560baeeb829469fea78de2"
+RPM_NAME = "python311-premailer-3.10.0-1.5.noarch.rpm"
+RPM_HASH = "416a7ba52afe38d9a96b225b3a154c5d966419364af6ec4906a91f4404b406bffac20df572e9f49501706eb12fb1e8ac139b4753cf121b37567a18ae3cdc2fec"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-premailer \
+RPROVIDES:${PN} += "python3-premailer \
+python3.11dist-premailer \
 python311-premailer \
 python3dist-premailer"
 

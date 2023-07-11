@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "6.6.4"
 
-RPM_NAME = "acct-6.6.4-4.7.aarch64.rpm"
-RPM_HASH = "56f90fb78d8ad4fea2ddfbf54b0b12a24815119d1914c96c37b9d5afa3f738029f336f9bdd15ccc3134a5e16be64c9a1cb35210779bb96084b48615caaa6bc75"
+RPM_NAME = "acct-6.6.4-4.8.aarch64.rpm"
+RPM_HASH = "471b4b6009f7842bb6bec895d1499533881b7ae038c1edc6a0546a34d95d7ae3c0d84891d15275e10f66de6072e80bcf4d8b9f2c3f496409bd3d9c89643f1f26"
 
 RPROVIDES:${PN} += "acct \
 config-acct"

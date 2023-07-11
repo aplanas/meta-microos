@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.3.16"
 
-RPM_NAME = "grilo-plugins-0.3.16-1.1.aarch64.rpm"
-RPM_HASH = "5d7a18f80d811d80cc944f70772bb9259006830f4a6cd2b4220de99a0bc95db1168cdfd87fe1c2995a6383f538896df0e87c636bd2cb1c4c795495bd0589a474"
+RPM_NAME = "grilo-plugins-0.3.16-1.2.aarch64.rpm"
+RPM_HASH = "d714501ee5d209fc42b62c3e14b22cd866a500560032fb2800eae22823380fd4285b5a417eed347ac9f1f6098aa78512a29186438c5cbc4e82fe06ccc2f81761"
 
 RPROVIDES:${PN} += "grilo-plugins \
 libgrlbookmarks.so \

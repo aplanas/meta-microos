@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.11.0"
 
-RPM_NAME = "google-errorprone-docgen_processor-2.11.0-2.1.noarch.rpm"
-RPM_HASH = "8e3ae7e5123860c20d65290070b9765bc0c105bd749737153f74dec32a148d439d7c7701313106b3df9cb51dca2492b7847d4758221cd0ba4419b8a0f917cb26"
+RPM_NAME = "google-errorprone-docgen_processor-2.11.0-2.2.noarch.rpm"
+RPM_HASH = "3b9c5fd9d2d9eed8ac6466a536fcb0d1ba666afb88d2d24b7ec208d97fe36df4989ad2bf892127ceb412870190379e0474fa8432a79e5b1c935e832bd4f059fe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-errorprone-docgen-processor \

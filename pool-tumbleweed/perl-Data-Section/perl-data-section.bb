@@ -6,14 +6,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.200008"
 
-RPM_NAME = "perl-Data-Section-0.200008-1.2.noarch.rpm"
-RPM_HASH = "936cca03cbef67d049c2bcea6ac5fbfdcc91672571b5884d4e19db4c4616eb96e7d9592337fc084a9feeaf64da6498df122673a05ad5605fec7cf620c763f835"
+RPM_NAME = "perl-Data-Section-0.200008-1.3.noarch.rpm"
+RPM_HASH = "bef478bfab386be7cfb3698f85e1d1fb66027ee298458606e22e8be562d1919cc1c97f81229c44eeaaa888c7263b4bfb8e7c122a79d98e6b5ca6a0b71b1b3b93"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Data--Section \
 perl-Data-Section"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-MRO--Compat \
 perl-Sub--Exporter"
 

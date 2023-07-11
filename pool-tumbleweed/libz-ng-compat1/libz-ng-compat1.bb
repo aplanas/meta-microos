@@ -3,10 +3,10 @@ DESCRIPTION = "zlib-ng is a zlib replacement with support for CPU intrinsics (SS
 AVX2, NEON, VSX) when available."
 LICENSE = "Zlib"
 
-PV = "2.0.7"
+PV = "2.1.2"
 
-RPM_NAME = "libz-ng-compat1-2.0.7-1.1.aarch64.rpm"
-RPM_HASH = "b3d1218a59ba1ee078cda9a0ceccc1c76b8eb30049880399d5a867b9eaf4961f7d09f7c2d05f8f4492bdfa977263208563dde6c7aa7df81f8a42c1ffa1cfe3cf"
+RPM_NAME = "libz-ng-compat1-2.1.2-2.1.aarch64.rpm"
+RPM_HASH = "b464d27d77dea5430ccff35963d22804939397a0b71ce2e31169f965f8ea32227cda919b29e24a178c961a44dc9cdcfdcf5da02625a439d17e3f6c81ec414cce"
 
 RPROVIDES:${PN} += "libz-ng-compat1 \
 libz.so.1"

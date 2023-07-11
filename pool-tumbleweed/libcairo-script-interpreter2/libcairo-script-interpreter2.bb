@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later | MPL-1.1"
 
 PV = "1.17.8"
 
-RPM_NAME = "libcairo-script-interpreter2-1.17.8-1.1.aarch64.rpm"
-RPM_HASH = "ec2a72b493769cf9517e8ee553d1521e4bfb09b9b85a17ae3e615d9f19db34e29f5b9c9c6af2616d768090a701ed58bb275054bc9ca2b9b0fce01f6181969643"
+RPM_NAME = "libcairo-script-interpreter2-1.17.8-1.2.aarch64.rpm"
+RPM_HASH = "c74ba4b2cf9cb4dcd88c5f12e0526f415fb29713fde4e900b294f16fba9c17c7570e9895a5e0524f661219b7645f25692ca6b6126dff62c49cf7c7afaf5e8363"
 
 RPROVIDES:${PN} += "libcairo-script-interpreter.so.2 \
 libcairo-script-interpreter2"

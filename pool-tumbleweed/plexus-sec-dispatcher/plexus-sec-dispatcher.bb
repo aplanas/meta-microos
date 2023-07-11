@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.0"
 
-RPM_NAME = "plexus-sec-dispatcher-2.0-3.4.noarch.rpm"
-RPM_HASH = "db58151a4914167bc15a6f37750c177215c30558dbcf1a5104bb1bb1bf97718551c494cd532e63be05b41b73c440e2e7a9a1c6c65f51f4ad8559d8b82df8188c"
+RPM_NAME = "plexus-sec-dispatcher-2.0-3.5.noarch.rpm"
+RPM_HASH = "8b6d978a8d9e3f50e13e5a14feccf0c3db52255626bbc97214c28962f983f5dcedc8ee51b859946afd394a52edc59f3916e75ae69382f7887081e6fb6a3c7b50"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.codehaus.plexus-plexus-sec-dispatcher \

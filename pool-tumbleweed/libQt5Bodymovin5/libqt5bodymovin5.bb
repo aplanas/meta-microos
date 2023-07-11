@@ -4,10 +4,10 @@ DESCRIPTION = "Qt is a set of libraries for developing applications. \
 This package includes a library for reading BodyMovin animation files."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libQt5Bodymovin5-5.15.9+kde0-1.1.aarch64.rpm"
-RPM_HASH = "d8740f32f08e6262b21c855d0f9566c3174e86760aba5a66fdf81725156b2c31d09f8cd702bbd3388f9ed984eed5f0824c7fddb14846d83a4b544db57289b52c"
+RPM_NAME = "libQt5Bodymovin5-5.15.10+kde0-1.1.aarch64.rpm"
+RPM_HASH = "6c787102dd3fc5adea1860a1bb0da6972afbb473aab8a17fdbd81909013b4fc9eadfb3b11fb48cce105640eab9fb395f66c5a26337a7555f7dd839324624552b"
 
 RPROVIDES:${PN} += "libQt5Bodymovin.so.5 \
 libQt5Bodymovin5"

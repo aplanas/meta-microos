@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0.0"
 
-RPM_NAME = "python39-pyfeyn-1.0.0-4.18.noarch.rpm"
-RPM_HASH = "c8945fa27f1b92d76f410ea463f0733c8c64512ad8382a892197ee6e363e8e62cd3472de3b06dcf270da3e01f0275691f10e17700218b14e3a84ee12e641b565"
+RPM_NAME = "python39-pyfeyn-1.0.0-4.19.noarch.rpm"
+RPM_HASH = "ff89c8cb3f2d77b6103ab94134ede2245935d5f7e837bc549f7a88d6f356e7cc8032a8e444cfbf6663edebb073a5d6882ce28fdd20aabbf19cab72f6524c7b65"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyfeyn \

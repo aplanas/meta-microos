@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.1.0"
 
-RPM_NAME = "flnews-1.1.0-1.6.aarch64.rpm"
-RPM_HASH = "6f8cc85a2bfaac4b3ae11e02c6771db27fe74f99f8c7b88376a682aef84e3752e05ab3b4f1d0d2ac5f3b6b388d75eff12744296f686b71710331d429af341ac7"
+RPM_NAME = "flnews-1.1.0-1.7.aarch64.rpm"
+RPM_HASH = "cfffa33a4c35ba6a07be2440765a93460a464de29a254ecbd4469d6a098e6b39a9b29857c5fcd6403b96f943a182e9cd9028e282f14e4adcfe85749e97c41fa1"
 
 RPROVIDES:${PN} += "flnews"
 

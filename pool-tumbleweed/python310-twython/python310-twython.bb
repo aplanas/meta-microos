@@ -21,12 +21,11 @@ LICENSE = "MIT"
 
 PV = "3.9.1"
 
-RPM_NAME = "python310-twython-3.9.1-1.3.noarch.rpm"
-RPM_HASH = "ff7b3c5a1853f049d526183b56e00d327f7f5e59c13c962da8a27752f5d453a39d680f66c1c62b28cfb29fc4af13932d5917ca144abf6307a7fbbf9bb3f1cd5c"
+RPM_NAME = "python310-twython-3.9.1-1.5.noarch.rpm"
+RPM_HASH = "64c5ee2bfa6b23c339c547aedc434c5df47da20011e47ee9e3c2eb2324b0a86e7b448c1863afd3c16662f56a5b1287b294622559060ecc389d01505a6aa9fe4d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-twython \
-python3.10dist-twython \
+RPROVIDES:${PN} += "python3.10dist-twython \
 python310-twython \
 python3dist-twython"
 

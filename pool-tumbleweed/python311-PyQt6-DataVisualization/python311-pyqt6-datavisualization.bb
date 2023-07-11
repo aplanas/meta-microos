@@ -5,10 +5,12 @@ LICENSE = "GPL-3.0-only"
 
 PV = "6.5.0"
 
-RPM_NAME = "python311-PyQt6-DataVisualization-6.5.0-1.1.aarch64.rpm"
-RPM_HASH = "b81cd462157d349110d1f351bfbe17c9bb2d391c1d0ecdc436d577655f240cb8d4ba60d708118b4cc3ccb85340c6c9fdc5906742a3eaf1316c47b689aea72d3b"
+RPM_NAME = "python311-PyQt6-DataVisualization-6.5.0-1.2.aarch64.rpm"
+RPM_HASH = "23b558ce37748bd27092bdc311ce33778386904967c6f40bafb97cabceef199d0ab37d4849ccb5fb5a9f9182d6a74d4893c0d0024727fd1002c2de925c087bd7"
 
-RPROVIDES:${PN} += "python3.11dist-pyqt6-datavisualization \
+RPROVIDES:${PN} += "python3-PyQt6-DataVisualization \
+python3-qtdatavisualization-qt6 \
+python3.11dist-pyqt6-datavisualization \
 python311-PyQt6-DataVisualization \
 python311-qtdatavisualization-qt6 \
 python3dist-pyqt6-datavisualization"

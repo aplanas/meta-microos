@@ -4,11 +4,12 @@ LICENSE = "Apache-2.0"
 
 PV = "0.5.2"
 
-RPM_NAME = "python311-nxapi-plumbing-0.5.2-1.14.noarch.rpm"
-RPM_HASH = "c92cd42b092b444023c7fbac6eab6545e93e09ed4aeed03099731b5b5bd921851b7b67d90b8a2b8bdca295c8f227d19ad8f7735d7bce5a960b302d81e0662b63"
+RPM_NAME = "python311-nxapi-plumbing-0.5.2-1.16.noarch.rpm"
+RPM_HASH = "45cda894b0c37faa39ff46ec38c4c49ad8c2b0bd2e6d026d55c178eef41ecda85a552ff9134e8ebdbee5caae1bb96f309a320f751e5614ff73543ce3c0da8661"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-nxapi-plumbing \
+RPROVIDES:${PN} += "python3-nxapi-plumbing \
+python3.11dist-nxapi-plumbing \
 python311-nxapi-plumbing \
 python3dist-nxapi-plumbing"
 

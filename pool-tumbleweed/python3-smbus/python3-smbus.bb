@@ -7,11 +7,11 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.3"
 
-RPM_NAME = "python3-smbus-4.3-1.7.aarch64.rpm"
-RPM_HASH = "db578a3a2387f54b0e5cef6fc46db5b4db01ebfa344373e863afaa7381628b860c195dbdc1281cd8261d3f247ccb44489ae8b44b5cef774a119cc8a12e0ddf65"
+RPM_NAME = "python3-smbus-4.3-2.1.aarch64.rpm"
+RPM_HASH = "16431d83636478a9adfb2f47a1051cb71982175d0139d7d681b8568901533be34e749987b7ea50f1a6b403401f5ff56e398f82b1d795a2feda03e9318d11d504"
 
 RPROVIDES:${PN} += "python3-smbus \
-python3.10dist-smbus \
+python3.11dist-smbus \
 python3dist-smbus"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \

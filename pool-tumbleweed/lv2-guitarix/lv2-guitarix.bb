@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.44.1"
 
-RPM_NAME = "lv2-guitarix-0.44.1-2.2.aarch64.rpm"
-RPM_HASH = "6b317709e8de4cc10054aad8a026d77eb0b68fca1440a72b4718db2dedfe1ad90b74f17d83cf5e9cb9d11e5e8891be9917cf9cf0269d854478337b63ec637bf0"
+RPM_NAME = "lv2-guitarix-0.44.1-2.3.aarch64.rpm"
+RPM_HASH = "fdd8d61e6f7fcb7422f25148fe13e3fa432f93e1bc6919e17bedf12f70398f4a96a9ae932ad464630543de2788f3ab0b68ce09f453eb264da841ff87fce45c4c"
 
 RPROVIDES:${PN} += "lv2-guitarix"
 

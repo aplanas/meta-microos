@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.9.0"
 
-RPM_NAME = "python39-Flask-Caching-1.9.0-1.12.noarch.rpm"
-RPM_HASH = "20bcdc03b9883bb5cf8cf41cac56b33c86fbe206ab90ad286c4e38ae3ee1a3c5347ae53896acadea4860952e8ff0010dc20b151b15941144ef7335b54f4a54f9"
+RPM_NAME = "python39-Flask-Caching-1.9.0-1.14.noarch.rpm"
+RPM_HASH = "e5804865751251d36b6310a0caf7b019c869aacaff7555852ec37877c2973aba7f8065211267a35b20c74dca67656067ce37cc4e340dff55bc958af035a1c8e1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-flask-caching \

@@ -4,10 +4,10 @@ This package contains the development files required to use KSaneCore in other \
 applications."
 LICENSE = "LGPL-2.1-only | LGPL-3.0-only"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "ksanecore-devel-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "f6f2301c1c83ff43c2cbeb7fb3561421d19739cdfa9888d4605c7f7794c311f224612b8ebe8ae70ef972b2b1e3cff35ee34ed0a49371a87ab680121d07c0ddda"
+RPM_NAME = "ksanecore-devel-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "d936b3c3d9c0f257a15adbc6cd1ae1aa9f1f99c743de81f8515d078701ed75bf0a01fb8ddd4ddfdc9363dc80682ea54f5f671ec364dcf423514bcf152c2c40c7"
 
 RPROVIDES:${PN} += "cmake-KSaneCore \
 ksanecore-devel"

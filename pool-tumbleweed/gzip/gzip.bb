@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.12"
 
-RPM_NAME = "gzip-1.12-3.3.aarch64.rpm"
-RPM_HASH = "fc1c54abdaf1cb1257bdc13d4783dc204d9ca7a22ad3148300a2698703b6ba797c1c90f6200df2c8f2a4376f20ffac2dc164d13cff469c9a5769b8993613ee6c"
+RPM_NAME = "gzip-1.12-3.5.aarch64.rpm"
+RPM_HASH = "4efc062a18d387bf84a37fff6aa5a0177da0411043fd6950c0c6775ff396551077b3ea86aafd94d3d1c95f0de89e6ad15e26f1dbed38a2f1f2ef9df0f1c63fb9"
 
 RPROVIDES:${PN} += "alternative-gzip \
 gzip"

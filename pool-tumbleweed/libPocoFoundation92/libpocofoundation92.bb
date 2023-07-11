@@ -5,8 +5,8 @@ LICENSE = "BSL-1.0"
 
 PV = "1.12.2"
 
-RPM_NAME = "libPocoFoundation92-1.12.2-1.4.aarch64.rpm"
-RPM_HASH = "a73f47be1a2f6dc5f89dbc2ddce784de87d3aa35931e2b91b018cfcd673c108c04f3c9461b09b7b4a5d07a2c6e225d931925d202d756dfec8bc7421f8f0a1427"
+RPM_NAME = "libPocoFoundation92-1.12.2-1.5.aarch64.rpm"
+RPM_HASH = "628e17c9aa76d7c562bf9122ed309694284e8da1876adfefa1165fed935ac3b06de94ae447e75a61d67a0f2026406e467b701f0d425ef7c8bf42e4741ccc650c"
 
 RPROVIDES:${PN} += "libPocoFoundation.so.92 \
 libPocoFoundation92 \

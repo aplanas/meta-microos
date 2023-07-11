@@ -4,11 +4,12 @@ LICENSE = "Apache-2.0"
 
 PV = "1.4.1"
 
-RPM_NAME = "python311-netutils-1.4.1-1.1.noarch.rpm"
-RPM_HASH = "8e5d1741bd5176b055b57043734cbda55c5033f693b2fcb7cacba2c5a4aa5bde611743a22068add86ae15cbd8cfedf01d528a6a0bebefab46fdc521cb14aeba5"
+RPM_NAME = "python311-netutils-1.4.1-1.3.noarch.rpm"
+RPM_HASH = "a19fabfe4419f638b7a6cfd53c248a64a91fad855a18a1b00c083a0e664192db031773ed9dafe24daac9b6b62003b93a0b07b7e303d52b51b8b585acd6eb5fa2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-netutils \
+RPROVIDES:${PN} += "python3-netutils \
+python3.11dist-netutils \
 python311-netutils \
 python3dist-netutils"
 

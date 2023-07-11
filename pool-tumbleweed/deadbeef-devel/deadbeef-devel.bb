@@ -4,8 +4,8 @@ LICENSE = "Zlib"
 
 PV = "1.9.5"
 
-RPM_NAME = "deadbeef-devel-1.9.5-2.1.aarch64.rpm"
-RPM_HASH = "34e7dae789024a2ef6f930255f21cf1d8068689932c361cc55cb95aeb2ca13bb9a1107cf1a72849a8967f344a311860e7a17139d760ae0312e694865aad1eb15"
+RPM_NAME = "deadbeef-devel-1.9.5-2.2.aarch64.rpm"
+RPM_HASH = "ba4452d0b2f069d952e471ab77cabef9b5fb0fb6021d1c3749d219c44667f34576bf787a3c6b76bb6c942fc54fd7d49646bd803a73f58ebb91e7a1541211efe7"
 
 RPROVIDES:${PN} += "deadbeef-devel"
 

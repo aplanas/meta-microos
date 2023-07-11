@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.2.37"
 
-RPM_NAME = "xmlsec1-openssl-devel-1.2.37-2.2.aarch64.rpm"
-RPM_HASH = "278d79b11f22c797b1f303e81c861156d14adaf56bb499217186aa3ee1870948689742ed56923d4219c9cb14b159666421126088de19a42b73ff3184b675ce3b"
+RPM_NAME = "xmlsec1-openssl-devel-1.2.37-2.3.aarch64.rpm"
+RPM_HASH = "1913f87961cf3c99ee2f38dd7f77a82a82cd1a39b99710b138105a7e2687112febd79a83eb09fce1549e8776775bba3080415cd5ce223c13e49abcb831398d49"
 
 RPROVIDES:${PN} += "pkgconfig-xmlsec1-openssl \
 xmlsec1-openssl-devel"

@@ -5,10 +5,10 @@ The typical usage is to give access to file-based ones. \
 This package contains libraries used by XRootD servers."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "5.5.4"
+PV = "5.5.5"
 
-RPM_NAME = "xrootd-server-libs-5.5.4-1.1.aarch64.rpm"
-RPM_HASH = "9e42b2af903d89973fe3c9984aa0f7b3e40461d2ee56562e3f67d8f3678408c6a679e3ff8c50487996a0a6fdd968be2a855c4e653006d0cc7b180da609c8a98a"
+RPM_NAME = "xrootd-server-libs-5.5.5-1.1.aarch64.rpm"
+RPM_HASH = "7689f99d23f2ef6a173aceb168d11ed157d18648980c745fb1810016525dc97f4f6b5aba36408314ad503f7508c8ef4d76e12eeb1d2bfc5749dd354e3d08d5e5"
 
 RPROVIDES:${PN} += "libXrdBlacklistDecision-5.so \
 libXrdBwm-5.so \

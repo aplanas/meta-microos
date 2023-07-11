@@ -2,10 +2,10 @@ SUMMARY = "Git repository summary on your terminal"
 DESCRIPTION = "Onefetch is a command line tool that displays information about your Git repository directly on your terminal."
 LICENSE = "GPL-2.0-only & MIT"
 
-PV = "2.17.1~0"
+PV = "2.18.1~0"
 
-RPM_NAME = "onefetch-2.17.1~0-1.1.aarch64.rpm"
-RPM_HASH = "bed04c372a4b88f1e39bcba8632ae629ff954b2cdca8818f78296554af7d6ee982712bf4d5d186966cc4f922a729b16006df503c32106a77dd4d4ff4eff74d4d"
+RPM_NAME = "onefetch-2.18.1~0-1.1.aarch64.rpm"
+RPM_HASH = "14efa4bdc3be1250ed89e25a3b089a69e3c2bc8c8c6d859273607695c0138fbbaa0488f04149847af7649b80de0ae2daadbda43061ca6b9d6b35c7c3de893328"
 
 RPROVIDES:${PN} += "bundled-rust-crate-addr2line \
 bundled-rust-crate-adler \
@@ -33,7 +33,6 @@ bundled-rust-crate-byte-unit \
 bundled-rust-crate-bytecount \
 bundled-rust-crate-bytemuck \
 bundled-rust-crate-byteorder \
-bundled-rust-crate-bytesize \
 bundled-rust-crate-cargo-toml \
 bundled-rust-crate-cc \
 bundled-rust-crate-cfg-if \
@@ -58,7 +57,6 @@ bundled-rust-crate-crossbeam-epoch \
 bundled-rust-crate-crossbeam-queue \
 bundled-rust-crate-crossbeam-utils \
 bundled-rust-crate-crypto-common \
-bundled-rust-crate-ctor \
 bundled-rust-crate-dashmap \
 bundled-rust-crate-deunicode \
 bundled-rust-crate-digest \
@@ -68,6 +66,7 @@ bundled-rust-crate-either \
 bundled-rust-crate-encoding-rs \
 bundled-rust-crate-encoding-rs-io \
 bundled-rust-crate-env-logger \
+bundled-rust-crate-equivalent \
 bundled-rust-crate-erased-serde \
 bundled-rust-crate-exr \
 bundled-rust-crate-fastrand \
@@ -91,6 +90,7 @@ bundled-rust-crate-gix-attributes \
 bundled-rust-crate-gix-bitmap \
 bundled-rust-crate-gix-chunk \
 bundled-rust-crate-gix-command \
+bundled-rust-crate-gix-commitgraph \
 bundled-rust-crate-gix-config \
 bundled-rust-crate-gix-config-value \
 bundled-rust-crate-gix-credentials \
@@ -106,6 +106,7 @@ bundled-rust-crate-gix-ignore \
 bundled-rust-crate-gix-index \
 bundled-rust-crate-gix-lock \
 bundled-rust-crate-gix-mailmap \
+bundled-rust-crate-gix-negotiate \
 bundled-rust-crate-gix-object \
 bundled-rust-crate-gix-odb \
 bundled-rust-crate-gix-pack \
@@ -115,8 +116,10 @@ bundled-rust-crate-gix-quote \
 bundled-rust-crate-gix-ref \
 bundled-rust-crate-gix-refspec \
 bundled-rust-crate-gix-revision \
+bundled-rust-crate-gix-revwalk \
 bundled-rust-crate-gix-sec \
 bundled-rust-crate-gix-tempfile \
+bundled-rust-crate-gix-trace \
 bundled-rust-crate-gix-traverse \
 bundled-rust-crate-gix-url \
 bundled-rust-crate-gix-utils \
@@ -131,7 +134,6 @@ bundled-rust-crate-hashbrown \
 bundled-rust-crate-heck \
 bundled-rust-crate-hex \
 bundled-rust-crate-home \
-bundled-rust-crate-human-format \
 bundled-rust-crate-human-panic \
 bundled-rust-crate-humansize \
 bundled-rust-crate-humantime \

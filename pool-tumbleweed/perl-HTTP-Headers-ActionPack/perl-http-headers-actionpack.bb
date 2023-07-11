@@ -13,8 +13,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.09"
 
-RPM_NAME = "perl-HTTP-Headers-ActionPack-0.09-1.24.noarch.rpm"
-RPM_HASH = "3f5f3039f5da2054ec4eed12273201959650b963a7f247ca9d43792371c0c8054aa95d31b52229964e3b8e0181a7033b9400b940d03f8314076b56d2c2a3831f"
+RPM_NAME = "perl-HTTP-Headers-ActionPack-0.09-1.25.noarch.rpm"
+RPM_HASH = "0b8442aa49af0cbedd1fa9d2723655847ccb48e260322309c5a2bbb5aceaf048b0e30bc237844218e00c0efe49d441826d3d2f25b1345dd25b1032b8678357b0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTTP--Headers--ActionPack \
@@ -40,7 +40,7 @@ perl-HTTP--Headers--ActionPack--Util \
 perl-HTTP--Headers--ActionPack--WWWAuthenticate \
 perl-HTTP-Headers-ActionPack"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-HTTP--Date \
 perl-HTTP--Headers--Util \
 perl-Module--Runtime \

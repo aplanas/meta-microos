@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0"
 
 PV = "23.3.3"
 
-RPM_NAME = "flatbuffers-devel-23.3.3-2.1.aarch64.rpm"
-RPM_HASH = "1a1cbf9a97f2df7d0ce269bc97022bd4a727067185f799e1897bef5a27bbd9bd62b82fb7f82db666828306153ac5261aa3b3a6c77831c6a469a9820920e433d9"
+RPM_NAME = "flatbuffers-devel-23.3.3-2.2.aarch64.rpm"
+RPM_HASH = "c5fe4dd90b93c13c85e3095fdc91af1fdcdc0fbde7cd7fcf11036aa762551debedde865d2183e05cd626f99babbb1f2310e1ffe999ff976c0cda316e100019cc"
 
 RPROVIDES:${PN} += "cmake-flatbuffers \
 flatbuffers-devel \

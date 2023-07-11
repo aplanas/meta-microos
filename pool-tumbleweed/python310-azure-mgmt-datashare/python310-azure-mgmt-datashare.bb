@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0.0"
 
-RPM_NAME = "python310-azure-mgmt-datashare-1.0.0.0-1.13.noarch.rpm"
-RPM_HASH = "f4b4bf4bc5475e1175c60fe8b3fb3a2fa52751f4c93bdb59cc54696df4a55603ecba943db57c6205c3e888d8bea9e89bb692787929c9f1a928c9aa9648d9142e"
+RPM_NAME = "python310-azure-mgmt-datashare-1.0.0.0-1.14.noarch.rpm"
+RPM_HASH = "002f445720a6401200421f2246e1a416a5babcba15954dcbae1914918086bf1f10a7b830a261fb1754f89606ae557e1603c8eb6df1e7261721e04160c0a1d836"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-datashare \
-python3.10dist-azure-mgmt-datashare \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-datashare \
 python310-azure-mgmt-datashare \
 python3dist-azure-mgmt-datashare"
 

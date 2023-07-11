@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "4.5.5"
 
-RPM_NAME = "perl-Hamlib-4.5.5-2.1.aarch64.rpm"
-RPM_HASH = "817eb76c9daea6166c582ca74f9b37af8bdc3686256f0b880f2b343230d40c8fc7dc96b17a7b68bed9196d2a3e0858960be8bad3d115b585185c94073867e090"
+RPM_NAME = "perl-Hamlib-4.5.5-2.2.aarch64.rpm"
+RPM_HASH = "da1d4d135acdc7004cd438d70205902e9336461d90d2f2d0c73d329446fe04edd34af9aa5578667be9e4c72f8cdeba3edf5cd60884d1205f3c9c1e8a269bc87d"
 
 RPROVIDES:${PN} += "perl-Hamlib \
 perl-Hamlib--Amp \

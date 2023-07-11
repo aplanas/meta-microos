@@ -13,8 +13,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-seekthru-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "f9b1b4d7421eb01b9e13c14ba1639ef9b81352bbecc7b063b02768d87969070724235ec1576e1a650e2ecd4daa6b41429402115ac2c232d30ce22ce012b0e9da"
+RPM_NAME = "leechcraft-seekthru-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "664827474cce4da4465cf17f04b8e47b6b6bd72d475eea9dbc8aa4116eccc0335a93855c2adf71837f1cc1083c8e15c9268e821eb43bb41162f9b5235da7a7c5"
 
 RPROVIDES:${PN} += "leechcraft-seekthru \
 libleechcraft-seekthru.so"

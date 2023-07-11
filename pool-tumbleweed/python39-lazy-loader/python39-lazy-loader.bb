@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2"
 
-RPM_NAME = "python39-lazy-loader-0.2-1.2.noarch.rpm"
-RPM_HASH = "0d2c0146029dfa2e3d213c7d8122a89c716605970fd0abe46fe868ea36861e1be5002ade2d68447eabc8fad6977041d5cf76d31bb8464d9a6edef35e6375d380"
+RPM_NAME = "python39-lazy-loader-0.2-1.4.noarch.rpm"
+RPM_HASH = "7e670c121363ae47ee0aafa6274fb1170ac5145047a70ce80b4294a393fc726cda42b8956acab1b9bd17d2a9310b4c2f9d11eeecb1bd11b4eec9dc24552b4d0a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-lazy-loader \

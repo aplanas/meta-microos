@@ -2,10 +2,10 @@ SUMMARY = "Belarusian hyphenation patterns"
 DESCRIPTION = "Belarusian hyphenation patterns in T2A and UTF-8 encodings"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn58652"
+PV = "2023.208.svn58652"
 
-RPM_NAME = "texlive-hyphen-belarusian-2023.201.svn58652-52.1.noarch.rpm"
-RPM_HASH = "0dddf8e14a5570b2e4768912418aed220deb41c58bf1ef5909128306db628c6f9f727fe380487cbac298c18a6387ddeb6e3b5098ca4d5a04e7a8425868d81e6c"
+RPM_NAME = "texlive-hyphen-belarusian-2023.208.svn58652-53.1.noarch.rpm"
+RPM_HASH = "dc373c9fda1d56824d2627ef5e3910f8b8d68841451bb6cc53e3e7c529c248501cd8a4befeef752bec62b09cd726a41684f4081e390085c63b4b38eaf222f47a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-be.t2a.tex \

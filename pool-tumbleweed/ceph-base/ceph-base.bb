@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1 & LGPL-3.0 & CC-BY-SA-3.0 & GPL-2.0 & BSL-1.0 & BSD-3-Clause
 
 PV = "16.2.13.66+g54799ee0666"
 
-RPM_NAME = "ceph-base-16.2.13.66+g54799ee0666-2.1.aarch64.rpm"
-RPM_HASH = "aabd9b46b6e059cae3b7bb35a442bc8e3e5d039b56b8e0fa685f03ff417093e6461c4b4641a07a1ea35be5584e89a30d96b728f4943fe4bc546c1e349ef30f20"
+RPM_NAME = "ceph-base-16.2.13.66+g54799ee0666-3.1.aarch64.rpm"
+RPM_HASH = "1c0d58e766797bcfa37bfe95d96d4e56cec1ab4643b530abef9df97563f4cb8ef080edd218b45e3a971eb0d6ce00df4837fdeec84aff3c10ead1cc9ae2bbd6fd"
 
 RPROVIDES:${PN} += "ceph-base \
 ceph-test-/usr/bin/ceph-kvstore-tool \
@@ -48,10 +48,10 @@ libec-shec-neon.so \
 libec-shec.so \
 libos-tp.so.1 \
 libosd-tp.so.1 \
-python3.10dist-ceph-volume \
+python3.11dist-ceph-volume \
 python3dist-ceph-volume"
 
-RDEPENDS:${PN} += "/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
 /usr/bin/sh \
 ceph-common \
 cryptsetup \

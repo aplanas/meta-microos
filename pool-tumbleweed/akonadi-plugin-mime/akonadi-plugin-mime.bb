@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides plugins required by PIM applications read a
 email data."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "akonadi-plugin-mime-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "aaaa580b9e2b85ebd3217fd8050418cea403c0661558c01e2a992073affb7d27fe431b622dc55f1090c125f8ba5a8e29a6e9a20ace26ef30120aa6b2badaaf11"
+RPM_NAME = "akonadi-plugin-mime-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "9d13b00f037835fc7ffde32f7dc1e320ad9d7b7cf155886769fe60412bcd48e70908876772443702e1d8673a1eaf1e62c685c6aa99045117a3d46400fdbd08a2"
 
 RPROVIDES:${PN} += "akonadi-plugin-mime"
 

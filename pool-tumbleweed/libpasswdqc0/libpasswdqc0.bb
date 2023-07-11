@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.0"
 
-RPM_NAME = "libpasswdqc0-1.4.0-2.7.aarch64.rpm"
-RPM_HASH = "41d8b286dd2e01957841a01ed40e818601a71016077a5cb5fbcf668d2df52dc9c28d8b39fcaa9209e51adabf33f247dce2bfc104e0d47027a140b05c7acd543d"
+RPM_NAME = "libpasswdqc0-1.4.0-2.8.aarch64.rpm"
+RPM_HASH = "3da931df549248909b30c0effeea5a0fa3c36b63e7eee8bddc05ea002f585ee2d958f9f2aa8c1736e4d603ff33aefc1c3ca4ce6ebf51451d96284c82d8f39eb2"
 
 RPROVIDES:${PN} += "libpasswdqc.so.0 \
 libpasswdqc0"

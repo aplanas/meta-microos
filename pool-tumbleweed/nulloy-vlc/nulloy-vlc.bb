@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.9.5"
 
-RPM_NAME = "nulloy-vlc-0.9.5-1.9.aarch64.rpm"
-RPM_HASH = "c3137ef7de6735d178e9aa8e2f89599f2fc4952997eb77eeb08a354a7243519e6a0c9b9df3f8b6338f749a9767ca7814ccf5f9cde015e953f07bed52f63043f3"
+RPM_NAME = "nulloy-vlc-0.9.5-1.11.aarch64.rpm"
+RPM_HASH = "df06840b3bb3a559d822fe6e464bcfc46b0fa623f2114e66e663b0b2cf043f3503c79c0407d3741693f71fa6322a3424bd29463cce2a130922735b34fcb1a333"
 
 RPROVIDES:${PN} += "libplugin-vlc.so \
 nulloy-vlc"

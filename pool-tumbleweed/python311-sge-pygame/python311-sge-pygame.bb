@@ -8,11 +8,12 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.7.1"
 
-RPM_NAME = "python311-sge-pygame-1.7.1-1.7.noarch.rpm"
-RPM_HASH = "731a3b3978257eaee2f6590f746f4491905c8dbb862f730245855d11ad401fa1b9bda86df456f6ad3c85c52d88729fcc6fc25eaa4cbc1f34263f7f984df309b3"
+RPM_NAME = "python311-sge-pygame-1.7.1-1.8.noarch.rpm"
+RPM_HASH = "1d753115f422ca182c1a491f80cc8bf92b0739ad98dabdb53d2d303e168020688e8792a39fda719f1707618f973e0740da25305fa4070e1b16fa43e568128508"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-sge \
+RPROVIDES:${PN} += "python3-sge-pygame \
+python3.11dist-sge \
 python311-sge-pygame \
 python3dist-sge"
 

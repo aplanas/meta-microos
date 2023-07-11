@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "12.3.0+git1204"
 
-RPM_NAME = "cross-hppa-gcc12-12.3.0+git1204-1.1.aarch64.rpm"
-RPM_HASH = "01e428acdc8d2653c776cb95ca73db669667c7713ef6c67b7df23291f965a070001fd2c5f49ad5ff0ee15a2aa2599de85ec88c908860460e57a8988e27d4638b"
+RPM_NAME = "cross-hppa-gcc12-12.3.0+git1204-1.2.aarch64.rpm"
+RPM_HASH = "482f498a6730313ae5b6aee4771ab5f5ceb31b62814cf8e56133fe53702f3d15cfc01f655430c0a794e7e9679871cbf77c6c9cfc39ae05f9f8aad4e85fb164bc"
 
 RPROVIDES:${PN} += "cross-hppa-gcc12"
 

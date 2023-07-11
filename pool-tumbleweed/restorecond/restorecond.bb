@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.5"
 
-RPM_NAME = "restorecond-3.5-1.2.aarch64.rpm"
-RPM_HASH = "fd6fd545a263fd30e6e4ca87c6c266d7ba49f5d49e45d65b8a3dd095a9d11cacf8388e21ebedb2dc49516883fb4fee2966520ef3a5dfc2d5b194387c94c69387"
+RPM_NAME = "restorecond-3.5-1.3.aarch64.rpm"
+RPM_HASH = "4f1bf9e78973a53f420df38dba2e9e0eaf88082e31c44b1f2a8aaaadea53880a155cc4c4554006ec4573f302c25373ebee0bd8d1a4e5da2c5ddd52499bec3dd0"
 
 RPROVIDES:${PN} += "config-restorecond \
 restorecond"

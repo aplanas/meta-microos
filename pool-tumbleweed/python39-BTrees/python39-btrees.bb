@@ -11,8 +11,8 @@ LICENSE = "ZPL-2.1"
 
 PV = "5.0"
 
-RPM_NAME = "python39-BTrees-5.0-1.4.aarch64.rpm"
-RPM_HASH = "cd031dbf7c389bca4485d65aa63f961ed86d673d5fa06c92eb93f6505278e9630229eaf2a8a57722db68eb8656f999a0be6c978b5eb048d9fdb45ca38588b332"
+RPM_NAME = "python39-BTrees-5.0-2.3.aarch64.rpm"
+RPM_HASH = "dc9180267b0d6d5a6d6206b9ade0d0846cbd6bf48e778c2178145be603e001b6ac975fe32601ec5a4f15786f85ee5d0d9400cfa4c22483b822f815e5f5ada6db"
 
 RPROVIDES:${PN} += "python3.9dist-btrees \
 python39-BTrees \

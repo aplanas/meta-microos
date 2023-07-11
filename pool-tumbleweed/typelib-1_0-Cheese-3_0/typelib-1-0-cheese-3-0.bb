@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "44.0.1"
 
-RPM_NAME = "typelib-1_0-Cheese-3_0-44.0.1-1.1.aarch64.rpm"
-RPM_HASH = "0ac2c0055d0e79833a61a3767fe403e5113e6a0aa909f5314f19b69729e2ac43c35a7420bb1e9de8cf7cf905d1a78d3306145a3d18615a4c39d532e1e8454a35"
+RPM_NAME = "typelib-1_0-Cheese-3_0-44.0.1-1.2.aarch64.rpm"
+RPM_HASH = "6998b9cf29baee03e340401b3d4fd6cf0f3a047615e81322f2f6d7c64a02e37ccc5396cd6100a6ac382e480803c5279655d5d371f756e2cb9f3c3cbda51fcfc5"
 
 RPROVIDES:${PN} += "typelib-1-0-Cheese-3-0 \
 typelib-Cheese"

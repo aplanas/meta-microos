@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "10.7.2+0"
 
-RPM_NAME = "libraven0-10.7.2+0-1.1.aarch64.rpm"
-RPM_HASH = "faf126ba21f4c5740aa4e39ce85e5d5ede6ba7490c183bd085a8471074e83109b898244833987fccccd9a67535f9ec342099d04fad5b3fff0f9f29cb023db0dc"
+RPM_NAME = "libraven0-10.7.2+0-1.2.aarch64.rpm"
+RPM_HASH = "9110eee3a6a172d957dea1c47e3ad0f4c9b861a7a649f00df9b53c1e8c75bdf22031eabb7690018ddfb3c3af4ed99272c8fcd375d012e50bf7e5570044b67c75"
 
 RPROVIDES:${PN} += "libraven.so.0 \
 libraven0"

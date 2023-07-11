@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4.1"
 
-RPM_NAME = "xviewer-plugin-light-theme-1.4.1-1.6.aarch64.rpm"
-RPM_HASH = "895c39a52da6edf7b9b2ba9a77e547d1429e4c22f742d14086f6de383d449a25081362f743b4b0c3c44edaa7452a2ba4a10fdf026339168d3064c92cc8c7d8f8"
+RPM_NAME = "xviewer-plugin-light-theme-1.4.1-1.7.aarch64.rpm"
+RPM_HASH = "c7a0604ad62418c55988f0e606604944bbe04a2148a0f310831e929353d585e30fbb9abb78e0b857730dd5213afcaee0034e461f627bf0d70ff6f318238eb2cb"
 
 RPROVIDES:${PN} += "liblight-theme.so \
 xviewer-plugin-light-theme \

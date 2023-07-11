@@ -8,8 +8,8 @@ LICENSE = "GPL-1.0-or-later | Artistic-1.0"
 
 PV = "2.38"
 
-RPM_NAME = "perl-Term-ReadKey-2.38-1.20.aarch64.rpm"
-RPM_HASH = "7fdaeab1b575178893d2bec181d5f2018706dbb4bf78138865018af0921c397c6129e72b479b90e20804165042b5cf76d640bd41606f33e3c369e10690d199b6"
+RPM_NAME = "perl-Term-ReadKey-2.38-1.21.aarch64.rpm"
+RPM_HASH = "5629c827a0746a0ce5c7bbdcbd5aa42b8f973cedbc503973934deefc5ee51a93591d1fa49defc5ed5a33bab2859aa97f956b4b82be13b57be764e416acdb24c2"
 
 RPROVIDES:${PN} += "perl-Term--ReadKey \
 perl-Term-ReadKey \
@@ -18,6 +18,6 @@ perl-TermReadKey"
 RDEPENDS:${PN} += "/usr/bin/stty \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

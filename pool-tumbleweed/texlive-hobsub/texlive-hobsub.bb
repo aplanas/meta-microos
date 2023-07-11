@@ -14,8 +14,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.svn52810"
 
-RPM_NAME = "texlive-hobsub-2023.201.svn52810-53.1.noarch.rpm"
-RPM_HASH = "282de3f038126902349292cece868619ddfef5624d6a27f24d3676829619e9cac6343aa7f3cebe3b286b28af420d739a47ae4bf045d551808fdde35c3a1b8056"
+RPM_NAME = "texlive-hobsub-2023.201.svn52810-53.2.noarch.rpm"
+RPM_HASH = "b35d5bd9b5b3c3abecb64b881454c333b8148d6077c89811ca702bcbb7bdb127531d59fa0f280414edd7a42b2823bd3a676d601b4ae55e0bee7879c61e48f87d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hobsub-generic.sty \

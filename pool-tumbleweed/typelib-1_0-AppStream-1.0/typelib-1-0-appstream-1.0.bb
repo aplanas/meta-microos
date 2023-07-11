@@ -2,10 +2,10 @@ SUMMARY = "Introspection bindings for AppStream"
 DESCRIPTION = "GObject introspection bindings for interfaces provided by AppStream."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.16.1"
+PV = "0.16.2"
 
-RPM_NAME = "typelib-1_0-AppStream-1.0-0.16.1-3.1.aarch64.rpm"
-RPM_HASH = "120223259f70d4cc67a780cf8a671afa73941f036c5e44dea4974aa8edcba510897010ae581cd6751a81b9e2887c36762979e5468e8d7015400139f62e35da78"
+RPM_NAME = "typelib-1_0-AppStream-1.0-0.16.2-1.1.aarch64.rpm"
+RPM_HASH = "ec400031c95d8ec3e0fd768276dde7638655e864193d7a885e16f9d1575e7b6c63b159c33084dd431f767ff61fff1cce9f7d49b399a712c2bb1f73efff1a6223"
 
 RPROVIDES:${PN} += "typelib-1-0-AppStream-1.0 \
 typelib-AppStream"

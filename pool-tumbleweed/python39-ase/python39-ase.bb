@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.22.1"
 
-RPM_NAME = "python39-ase-3.22.1-2.2.noarch.rpm"
-RPM_HASH = "af7a852c7e56c0f2cc9b8445c1245977c29b3bbe917e8f9ef918dd0c2b3ced09613e45b5624980297b660bbb9f474c54afa85ebd67627baa852bdc906ee8027f"
+RPM_NAME = "python39-ase-3.22.1-2.4.noarch.rpm"
+RPM_HASH = "69ddc3dc04d869a5c9e78151a4dc2a42e90e5ff73a2b27156e5b6243519fe0ebf3d1e23145ab52d482f30f8e52f5f85cd987cf9974d0948d97610e10f2f95b0e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-ase \

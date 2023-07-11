@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-only-with-WxWindows-exception-3.1"
 
 PV = "3.6.5"
 
-RPM_NAME = "libOpenSceneGraph161-3.6.5-8.6.aarch64.rpm"
-RPM_HASH = "deceed009c6595e45e53b507b31692ec465f06f05d722512f6be5ab232d3bec56f169be351191e6551207d0e902dcb0c4d2969930b3a5e48f81b497120ea6afa"
+RPM_NAME = "libOpenSceneGraph161-3.6.5-8.7.aarch64.rpm"
+RPM_HASH = "42441daa33bd516f6988e0b105a4d0734e16df2bc4ead46243aa4dbf0e54ea2160987fe23a791939444a34365c0d7aa753b6b68f816aade68963e3f113926137"
 
 RPROVIDES:${PN} += "libOpenSceneGraph161 \
 libosg.so.161 \
@@ -37,7 +37,6 @@ ld-linux-aarch64.so.1 \
 libGL.so.1 \
 libOpenThreads.so.21 \
 libX11.so.6 \
-libXinerama.so.1 \
 libXrandr.so.2 \
 libc.so.6 \
 libfontconfig.so.1 \

@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.31"
 
-RPM_NAME = "liblo-devel-0.31-1.11.aarch64.rpm"
-RPM_HASH = "d05e1da208a3e5c2b2e29e3b900f79f1bc00ae18680aa5a4c0327086f0c7e0dcf05666b65774ae83c3dd6d35fb426e54ca1704ef62a42bdc01b473f1dcbd577e"
+RPM_NAME = "liblo-devel-0.31-1.12.aarch64.rpm"
+RPM_HASH = "58854f0f7dd91b78701bd1e7a6495146371aae81cf13d66ab76b0f170295a42174ee470bca29f12f75922bda6dbf1e1ec81cdc7eb801f640589b9b60d2becf7f"
 
 RPROVIDES:${PN} += "liblo-devel \
 pkgconfig-liblo"

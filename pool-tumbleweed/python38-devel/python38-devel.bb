@@ -10,10 +10,10 @@ This also includes the Python distutils, which were in the Python \
 package up to version 2.2.2."
 LICENSE = "Python-2.0"
 
-PV = "3.8.16"
+PV = "3.8.17"
 
-RPM_NAME = "python38-devel-3.8.16-7.1.aarch64.rpm"
-RPM_HASH = "faa0422a275735d2b0b5db932dd4be36e49ad54e28e457bcb6f7205bdbeee2cce95c34efb6695c027c500e4823e6b14ed90d1bc37aab805d620b540e61893984"
+RPM_NAME = "python38-devel-3.8.17-1.2.aarch64.rpm"
+RPM_HASH = "f97f042bf9f63070c304e4916cd1fd600a06a8b683d5f49efb6aaf579c590beadf06fa600ec61ec9f2dec2a9fe522f5c3b8faddf1ce42b74cca536ec2b75d960"
 
 RPROVIDES:${PN} += "pkgconfig-python-3.8 \
 pkgconfig-python-3.8-embed \

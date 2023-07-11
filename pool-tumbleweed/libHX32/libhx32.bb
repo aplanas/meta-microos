@@ -5,10 +5,10 @@ linked lists, string formatting and autoresizing, option and config \
 file parsing, type checking casts and more."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "4.12"
+PV = "4.13"
 
-RPM_NAME = "libHX32-4.12-1.2.aarch64.rpm"
-RPM_HASH = "f7c1d7bfd7fa5cd970c29b5f5b41f29fb4b8494db0107e20e596af698dcd708595ee1168afe6c9da699e5ba147f210a5dbd0a241a9fc8a3a8f68c765007a488d"
+RPM_NAME = "libHX32-4.13-1.1.aarch64.rpm"
+RPM_HASH = "7e9a77a680673afbf13eb45378668d3f9cba7b37cfcdc9d5ba05c24eec529b675b18309814f8da07facb4ad94d599e2516302b68a9670d55ff3caedeccda15a5"
 
 RPROVIDES:${PN} += "libHX.so.32 \
 libHX32"

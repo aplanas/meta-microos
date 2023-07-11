@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "43.0"
 
-RPM_NAME = "polari-43.0-1.3.aarch64.rpm"
-RPM_HASH = "de9ae98a4412ce2f69f13943618d44ec22231ec3c8973b1ff3cfada0487ce264659f885b082398f206baf70a06d7c530d7a05398e2a22d429d5dfc29aa294c30"
+RPM_NAME = "polari-43.0-1.4.aarch64.rpm"
+RPM_HASH = "3edace0bf9f86935a9fea6f13810e02e73ba394284bbb09944636276a914efd74580291f45f745ae0544aeceae1b534809e73861477c84d4b15a4a33b6280468"
 
 RPROVIDES:${PN} += "libpolari-1.0.so \
 polari \

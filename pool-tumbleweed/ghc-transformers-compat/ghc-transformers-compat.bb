@@ -13,8 +13,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.7.2"
 
-RPM_NAME = "ghc-transformers-compat-0.7.2-2.3.aarch64.rpm"
-RPM_HASH = "e7c4c6171eaa96943cb3ac82c599f6e99a4918ff2593b7fc2e2cb4bbbf457cc59dceb1a3a7b43215ff06bfd4f023fa4aa0cb3e5e5c1281faaa85187f2d4b08c5"
+RPM_NAME = "ghc-transformers-compat-0.7.2-2.6.aarch64.rpm"
+RPM_HASH = "5f125590baef3f60b9f1a057b0249b486cf184ee9f5c070b5ebe95d4b18bdb34207d163c9d773ca0410c296b2b042bf224b6bd2205e960bf9e4b899fd2197e22"
 
 RPROVIDES:${PN} += "ghc-transformers-compat \
 libHStransformers-compat-0.7.2-7jAnhjvxTABIymoNGHTOwd-ghc9.4.5.so"

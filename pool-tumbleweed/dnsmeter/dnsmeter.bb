@@ -21,8 +21,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.0.2"
 
-RPM_NAME = "dnsmeter-1.0.2-1.9.aarch64.rpm"
-RPM_HASH = "0bf1ff59f8c3e35f20387fbf5319b6cd802727e293cc98d9ace99341119ff9fd9196bd5cc364ed116e1c1a1e1fe8d6f43d60f4a72811dd87bb208b077620ebe4"
+RPM_NAME = "dnsmeter-1.0.2-1.10.aarch64.rpm"
+RPM_HASH = "ff7fec40f3b60ecf8b67116c9e99ecfe2e73cb70a9db6a4b5b612a0eef604bb0a75f917f2eaeb64a5de57b6ea4b27e589148bd9230bc27f7ed91103699905e07"
 
 RPROVIDES:${PN} += "dnsmeter"
 

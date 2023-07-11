@@ -4,8 +4,8 @@ LICENSE = "MPL-2.0"
 
 PV = "2.2.0"
 
-RPM_NAME = "libkea-mysql38-2.2.0-2.4.aarch64.rpm"
-RPM_HASH = "602e8758ea1c5787669ead599331fc63388947d7f42bf08e6a3eb916b013d483bddac78cfff6244b3922ea12bb6cfa8032ee8e7e0c21b3892100f83a0aa17d38"
+RPM_NAME = "libkea-mysql38-2.2.0-2.6.aarch64.rpm"
+RPM_HASH = "4b08a3431ab14c62ddf8a75ad6fb075ca03c0a68be5d6b28a5a2b3d9e0a71a5bf31194bc3cd0e9d9c41f1fbaf08c8945fa616e744a5ad952db2ef772299052eb"
 
 RPROVIDES:${PN} += "libkea-mysql.so.38 \
 libkea-mysql38"

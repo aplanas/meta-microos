@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "20230502.00"
 
-RPM_NAME = "google-guest-oslogin-20230502.00-1.1.aarch64.rpm"
-RPM_HASH = "a51edda3d4246d1d3c444ca03c01add00f0aaffa27c45d068f21b641ddb06cf2b257409f7cfef82406916f13b1d0b3c16f5eba317cd4100f40a7106b199d12a9"
+RPM_NAME = "google-guest-oslogin-20230502.00-1.2.aarch64.rpm"
+RPM_HASH = "f1cfabc95efebaaa930730a2b691d558c33f4db299ce6c45c02c6f8bac38c930f764fbc85da5e55289a9836746967429578293f5d7c5a98c754428f949f1a7dc"
 
 RPROVIDES:${PN} += "google-compute-engine-oslogin \
 google-guest-oslogin \

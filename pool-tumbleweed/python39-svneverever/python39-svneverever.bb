@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.7.1"
 
-RPM_NAME = "python39-svneverever-1.7.1-1.4.noarch.rpm"
-RPM_HASH = "7c8555de1560a40aa3e90dfbe5abd285ffbf617febd1180a99b7032ab4b36eca929e18ca102c9f550b8aae3eaa9a90cf5ce88f31cd2d5756c8421760760472d7"
+RPM_NAME = "python39-svneverever-1.7.1-1.5.noarch.rpm"
+RPM_HASH = "5a9026561aeb93da407b6055dcf4cc7f2279be2ede76c78fe4741e2ea7e0497f0f3441049137be8d81bb080d1d2001d9b31cee91fb29a2f6c2933b70e3b52fc8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-svneverever \

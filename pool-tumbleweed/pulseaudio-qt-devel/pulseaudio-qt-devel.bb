@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.3"
 
-RPM_NAME = "pulseaudio-qt-devel-1.3-1.10.aarch64.rpm"
-RPM_HASH = "4af83756193d747a2647b2944386e88dd5b00b7c380004121233fc1970f2a71edfe1aa38a1671da7a7f89be090470c425672bfb13ae93041b71260124287b635"
+RPM_NAME = "pulseaudio-qt-devel-1.3-1.11.aarch64.rpm"
+RPM_HASH = "8eb36346280f36c2d738a56dbb023eb5d0667ab233938c374a188aac05d0d7f5ec79c73d260e7c8220db5b05fe4a72215152b5c25b89bd3d24242965a58a6129"
 
 RPROVIDES:${PN} += "cmake-KF5PulseAudioQt \
 pulseaudio-qt-devel"

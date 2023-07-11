@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.1svn55213"
 
-RPM_NAME = "texlive-helmholtz-ellis-ji-notation-doc-2023.201.1.1svn55213-53.1.noarch.rpm"
-RPM_HASH = "6e20a001c7b2141586a2b9ebf9b1bbfb68a2d65cb1b06bfae6736d4c8e66b222902b68d02d7188e30abc5cd36daaaf483159e16861ddfe6e9eb18332195fbe5a"
+RPM_NAME = "texlive-helmholtz-ellis-ji-notation-doc-2023.201.1.1svn55213-53.2.noarch.rpm"
+RPM_HASH = "1c84443d9c42c43eefceb69f0a6162d27ff8766c8dfdd55d5e43b34738328e6bfb6eea6fd696e481cba387085b4ddd35c4f15ab299a5dbaf1ad1077915833162"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-helmholtz-ellis-ji-notation-doc"

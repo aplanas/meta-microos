@@ -10,16 +10,16 @@ LICENSE = "BSD-3-Clause"
 
 PV = "9.2.6"
 
-RPM_NAME = "python3-vtk-9.2.6-2.2.aarch64.rpm"
-RPM_HASH = "2bf1e48775f6c54dcb40c50f57418eb3378d76ce8491fdf99848b4487bdd246225130552a6670b6885d7940104176086a5cda44f4281b05b18f3ee1f493cbc6e"
+RPM_NAME = "python3-vtk-9.2.6-2.5.aarch64.rpm"
+RPM_HASH = "b70f1575ab8336f6bd64cb378b5366a05de3d31a2c6ac706682f95552fe805a8209a63efcb5877774a9cbeaf0b6b811390de25decde44a28df31bb2378a160eb"
 
 RPROVIDES:${PN} += "libvtkCommonPython.so.1 \
 libvtkFiltersPython.so.1 \
 libvtkPythonContext2D.so.1 \
 libvtkPythonInterpreter.so.1 \
-libvtkWrappingPythonCore3.10.so.1 \
+libvtkWrappingPythonCore3.11.so.1 \
 python3-vtk \
-python3.10dist-vtk \
+python3.11dist-vtk \
 python3dist-vtk"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
@@ -27,7 +27,7 @@ ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libstdc++.so.6 \
 libvtk1 \
 libvtkChartsCore.so.1 \

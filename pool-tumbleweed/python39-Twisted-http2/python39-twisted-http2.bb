@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "22.10.0"
 
-RPM_NAME = "python39-Twisted-http2-22.10.0-6.1.noarch.rpm"
-RPM_HASH = "99a73a1f7893c3c22729c8d502c3e01ab40ce1c61f3042c900b42ad67d6a5feadcb1f66b7389875ba48f1434a6654333873a166de61f8211afcce03b95876afb"
+RPM_NAME = "python39-Twisted-http2-22.10.0-7.1.noarch.rpm"
+RPM_HASH = "e0185e24bed43bd488ea323509d48a9a726ed201f25436b7e2b1e15fa06d37660d38b0ac39c43327fb49c8d692e36f7a787d6f3237e81816a004634c6250aadc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-Twisted-http2"

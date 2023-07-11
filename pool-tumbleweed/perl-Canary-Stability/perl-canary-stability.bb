@@ -10,13 +10,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2013"
 
-RPM_NAME = "perl-Canary-Stability-2013-1.15.noarch.rpm"
-RPM_HASH = "7ab7a362715672bcad6e56fadaf27b824bc60a6cabe8dd059a96b711c1d633ae80bd7a7cdc3b5979fc8d2af75b217673e3128d222da84f2d1e0f52d444ecce73"
+RPM_NAME = "perl-Canary-Stability-2013-1.16.noarch.rpm"
+RPM_HASH = "96fa02de7ac77d48539bcacaa5ca6cc28cb1ab3572c0d3d0830bfcb6a72455a26fbaf261efa8ca208ed818874f544f3deea67e770b99e2d23c7f6021c32ca5cf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Canary--Stability \
 perl-Canary-Stability"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package evolution-data-server"
 DESCRIPTION = "Provides translations for the 'evolution-data-server' package."
 LICENSE = "LGPL-2.0-only"
 
-PV = "3.48.2"
+PV = "3.48.4"
 
-RPM_NAME = "evolution-data-server-lang-3.48.2-1.1.noarch.rpm"
-RPM_HASH = "a644deeb8166c1ef0eec542c4d21a4162db9708c978ae76f7fdf34d694d53fa57a37b92140be53ceb5a0a5da105b61d92056ab9fcbe3b94348da6b408e5b1f16"
+RPM_NAME = "evolution-data-server-lang-3.48.4-1.1.noarch.rpm"
+RPM_HASH = "d50a138029ed4bf55f56b97a051258d4e6aa6e80f3d8b143992d2a131f815678b74869a22c5bd058333265500da9a781acd7bd8cfa67c1b427c3331c06b7d85f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "evolution-data-server-lang \

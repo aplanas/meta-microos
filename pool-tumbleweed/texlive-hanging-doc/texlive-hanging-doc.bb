@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.2bsvn15878"
 
-RPM_NAME = "texlive-hanging-doc-2023.201.1.2bsvn15878-53.1.noarch.rpm"
-RPM_HASH = "e540db4a341888ec7694fb95e5e5e4e04116e44d49347a01db6b88760625c4cf653e5383b8595cbc7f85baf40b31fe7127e515c844c867bd888b318b0879b072"
+RPM_NAME = "texlive-hanging-doc-2023.201.1.2bsvn15878-53.2.noarch.rpm"
+RPM_HASH = "1aaeb8d836f793f4ce7ab1f5e3b5e2e8201d950faaabac719fd7e4f19155fe9df61f7c46461fb572155079331ef2d5a026ea31147b1c7d445f81ca999394f790"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hanging-doc"

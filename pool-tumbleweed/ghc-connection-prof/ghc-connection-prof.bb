@@ -4,24 +4,24 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3.1"
 
-RPM_NAME = "ghc-connection-prof-0.3.1-7.2.aarch64.rpm"
-RPM_HASH = "4fe3706d60249eb9ba43a70123062a868ba3e91a9d14af6655b396985a5d4885b7621e6ab0ff4381bd4a3e675fc9ca7faf78166220b17ca7903134889fc3d3e2"
+RPM_NAME = "ghc-connection-prof-0.3.1-8.1.aarch64.rpm"
+RPM_HASH = "34fc0409f0fb45c51cc6b559541bfa67894b455e2c5a941ac4b3805be934e8f30a65d4a2ebe85ae996b53cd2f875c0af91d3ff24209ba6cca5b9afd6665196e6"
 
 RPROVIDES:${PN} += "ghc-connection-prof \
-ghc-prof-connection-0.3.1-IDyFh0K8hgZvp3uiDVm7m"
+ghc-prof-connection-0.3.1-E1TQ2BFmXua7xK5tzqGZX7"
 
 RDEPENDS:${PN} += "ghc-connection-devel \
 ghc-prof-base-4.17.1.0 \
-ghc-prof-basement-0.0.15-6OmKTVi2kFpCWMoKDlsO4S \
+ghc-prof-basement-0.0.16-J8UFRjmsTYU7wBgfpjdWQn \
 ghc-prof-bytestring-0.11.4.0 \
 ghc-prof-containers-0.6.7 \
 ghc-prof-data-default-class-0.1.2.0-2LD1I8dZmn7BW4dkzEwdGZ \
-ghc-prof-network-3.1.2.8-HNDBp0HF6t0D1fzE2MDtPd \
-ghc-prof-socks-0.6.1-CAd82jbrmKj2bUx8fkWhGg \
-ghc-prof-tls-1.6.0-48osxqPawrs8SblkErmTaM \
-ghc-prof-x509-1.7.7-6vFRDfbnKcXIbE0ZlEHitw \
-ghc-prof-x509-store-1.6.9-A3hCCAbvLt52rXl7zDFmSt \
-ghc-prof-x509-system-1.6.7-BOgSBhUS7jg4riLu2Dt4H7 \
-ghc-prof-x509-validation-1.6.12-JQgBIAyKHQDDBxJK8FYPfO"
+ghc-prof-network-3.1.4.0-FvtFepOtuCUH79FCWyNxIc \
+ghc-prof-socks-0.6.1-8gBEgerYb38E7aCOOcHCwN \
+ghc-prof-tls-1.6.0-GPxmmQRGk0xt2NkvZcJeD \
+ghc-prof-x509-1.7.7-LWFKTxQvdZ8EaEcgjVF4la \
+ghc-prof-x509-store-1.6.9-KWawLwgFfWnohDCwWLuXH \
+ghc-prof-x509-system-1.6.7-Bno2ph8WTqq8aOWeNLot6t \
+ghc-prof-x509-validation-1.6.12-Ei5K1SyMjWXHl76z2VlUEo"
 
 inherit rpm

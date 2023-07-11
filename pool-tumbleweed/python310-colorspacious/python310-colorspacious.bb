@@ -12,12 +12,11 @@ LICENSE = "MIT"
 
 PV = "1.1.2"
 
-RPM_NAME = "python310-colorspacious-1.1.2-2.7.noarch.rpm"
-RPM_HASH = "3b7a81b6ae0b8ad42c5a4db8c30d436946310ea8abf8d292b03308a8b75df267d304b918de68b5fd9390e3557801ff002dd5a989e4efd735a0ccfbf1c3b1583c"
+RPM_NAME = "python310-colorspacious-1.1.2-2.9.noarch.rpm"
+RPM_HASH = "b33f7f20efe740474fa5372922bd42191e05147eb4dc4fe21b058f5bd7cdd530ea0c512a02817ec3aceddb026221181065e0dc5c3841f9dabdff1269b14609bb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-colorspacious \
-python3.10dist-colorspacious \
+RPROVIDES:${PN} += "python3.10dist-colorspacious \
 python310-colorspacious \
 python3dist-colorspacious"
 

@@ -11,8 +11,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.svn53448"
 
-RPM_NAME = "texlive-xbmks-2023.201.svn53448-52.1.noarch.rpm"
-RPM_HASH = "2ee65074095f473572ee43c51a1a57434ba7fa7ab4e03d65db3be6ae31f31ca633eb6550c34a1c00ec143e6e580af0e97f7c8d28a70ca0d5760d32e690ddb45b"
+RPM_NAME = "texlive-xbmks-2023.201.svn53448-52.2.noarch.rpm"
+RPM_HASH = "aa7dc6f21b2711e46d450f02430127552be9e92229eddd5ab7f307480002aae62701818694230cd27852e1db4938b10aec365a5acb5734a9a723a396c8afa54d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xbmks-pdfmark.def \

@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.0.10.post2"
 
-RPM_NAME = "python39-pyUSID-0.0.10.post2-1.2.noarch.rpm"
-RPM_HASH = "da15632de465c5c2bd6638f67177b3afc1c128348d59d030acfb8ea5b2a6d884094ed287d9b6d9453da3c0e4b9b12af9d808d0f5d52741dbef066558568c3298"
+RPM_NAME = "python39-pyUSID-0.0.10.post2-1.4.noarch.rpm"
+RPM_HASH = "3f8dbd12add19f822aad94de42baacb8c0f5af1852fea93b02ddc59ce4f451557908206673a89bdf4a0ef4c9befaa251dfd5308970f2c8706ba51133e8131e21"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyusid \

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.3.1"
 
-RPM_NAME = "python3-dnf-plugin-local-4.3.1-2.1.noarch.rpm"
-RPM_HASH = "a7ed928e529c73d178a553797a3d8fce786b8b4756cb0bf060bfd07703203ef988b0ecff5ee76ddf1d4dc9c82ee9d5646a9d4aa2d57debdc6d5eb9452a44696f"
+RPM_NAME = "python3-dnf-plugin-local-4.3.1-2.2.noarch.rpm"
+RPM_HASH = "e5ec478cae3140e3f812920bd91efc81dd0509742617395ea32eb39ef5a7e6c40c1ea68ddb1a1f3e210d5b162d2f63af4d0b456acd1982701898c1f24530c228"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-python3-dnf-plugin-local \

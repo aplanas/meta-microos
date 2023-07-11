@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "23.1.1"
 
-RPM_NAME = "python310-txaio-23.1.1-1.2.noarch.rpm"
-RPM_HASH = "8ee3294d84d05f29cebf654d254724126c3ffa16067bc360c0ba888d2883c91bf6133047b16577cd03ad0bcd79ad57e661cc5998d1ed64e9dc755d503576f711"
+RPM_NAME = "python310-txaio-23.1.1-1.4.noarch.rpm"
+RPM_HASH = "3413f6a3548d0833aaf389480b40b95d52c7da772641012bba551ead3f67d8cecfc746890ecc5577f60a60b56b708d0fb4f6fab5129ff97ff7c0ad8e21b1f5a0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-txaio \
-python3.10dist-txaio \
+RPROVIDES:${PN} += "python3.10dist-txaio \
 python310-txaio \
 python3dist-txaio"
 

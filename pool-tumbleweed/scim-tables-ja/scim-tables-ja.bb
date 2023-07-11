@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "0.5.14.1"
 
-RPM_NAME = "scim-tables-ja-0.5.14.1-2.31.aarch64.rpm"
-RPM_HASH = "ee9b231ef87b0a1af8cb898e0c7e021c4d7effb041e2b57d56206650cf4ad53e4e4c7118081f3ec19fd0474a993262954b9388abc2a5bfb6f7ebba86c6de8f02"
+RPM_NAME = "scim-tables-ja-0.5.14.1-2.32.aarch64.rpm"
+RPM_HASH = "8585724a30fbd4ccec0ab3706b98f0c508482972203cb1f983c4ec75c8f3e276cbb698bd688a459d5d1d86c5ecf54b2256f88041c22a5886dabc4a883df6fa85"
 
 RPROVIDES:${PN} += "locale-scim-tables-ja \
 scim-tables-ja"

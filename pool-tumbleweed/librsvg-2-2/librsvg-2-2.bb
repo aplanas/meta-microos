@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0 & LGPL-2.0-or-later & MIT"
 
 PV = "2.56.1"
 
-RPM_NAME = "librsvg-2-2-2.56.1-1.1.aarch64.rpm"
-RPM_HASH = "ed52f3f3e316da25ca523040cc7ee7a68facb88c22956890e15394ffff12ed5471fa32ea35a6d3894f97380c611ac2fdef13c3efc8a56153b70b4d7dcfb8d74c"
+RPM_NAME = "librsvg-2-2-2.56.1-3.1.aarch64.rpm"
+RPM_HASH = "cca0ef640397f6047da18c0a6902707106321cb5c4f9eb3bb5ae82c1abe74b5fd79b3a840abdfd1a86767508ecad2ec913180286d0b78fd98a405f91bbb4dff6"
 
 RPROVIDES:${PN} += "librsvg \
 librsvg-2-2 \

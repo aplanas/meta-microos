@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.3.1"
 
-RPM_NAME = "python39-pyngus-2.3.1-1.9.noarch.rpm"
-RPM_HASH = "8529cca8d2bde73633b1d670c4ad70589241375eca91e9d476aba2d16ec34fae6c039ee142f3915adc7c3fa6faa2eb5de6dde4e9da4f0b03661847050aa90f71"
+RPM_NAME = "python39-pyngus-2.3.1-1.11.noarch.rpm"
+RPM_HASH = "96c1f8737af3e8e3151098d1f396a4b161a2a8e8724f996d0682ee980f048e7f1b62f0442731733afb883584f967c5c3e7d0376b5b203514ae101dc53f493baf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyngus \

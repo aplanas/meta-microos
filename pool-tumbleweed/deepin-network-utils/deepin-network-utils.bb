@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0+"
 
 PV = "5.4.13"
 
-RPM_NAME = "deepin-network-utils-5.4.13-1.7.aarch64.rpm"
-RPM_HASH = "c1a7e5a5e20d66492bbaa939ec5bb1b8d82174b9e14d4b67503e4b435939e1be9af72b7071f6307c840d7937992fd8cdfd68176e6d6fc502b56dea17abf8c801"
+RPM_NAME = "deepin-network-utils-5.4.13-1.8.aarch64.rpm"
+RPM_HASH = "775888a8ee24bdcf3c97c3e162dfe77e6d419cea2d936c24c31485de9a7a00680e2078e2c4977b9dc76255e1928fcfe1bca9eb68e033612d4033c35e9c7f92c6"
 
 RPROVIDES:${PN} += "deepin-network-utils"
 

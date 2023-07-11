@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.26.1"
 
-RPM_NAME = "pluma-lang-1.26.1-1.1.noarch.rpm"
-RPM_HASH = "4aa38415aa9a7ca2cabbe1e58ab94faa04229006949c4d4cdae48bc0aee0427466246dce1833944a602a24b6af4c3f7d1991cf47b7a47e6e52eb9708fda96fa3"
+RPM_NAME = "pluma-lang-1.26.1-1.2.noarch.rpm"
+RPM_HASH = "a1e44ead6507f5048de7f16fa7d87227b810054783ae27da46bfb772fa09670903ca6037c473994861de694402eb17790bd3c9bba00122891c58fa3d52c91908"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-pluma-af \

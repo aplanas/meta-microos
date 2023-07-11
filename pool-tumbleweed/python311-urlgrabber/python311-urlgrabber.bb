@@ -6,11 +6,12 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "4.1.0"
 
-RPM_NAME = "python311-urlgrabber-4.1.0-8.2.noarch.rpm"
-RPM_HASH = "bac3526092b9a8ae34d22949b4b52ec22813ca56f7566bb5b450d07f646bfb9a0fd4fb79b411ed3e09978c2d1e5c983b2af7c68c3db40e89b6b52de6a6f2582f"
+RPM_NAME = "python311-urlgrabber-4.1.0-8.3.noarch.rpm"
+RPM_HASH = "ea8fbaa320b4ba86b94dc4c325aeb0ba1253735dd8cb2c23839388566d785a2a30179d28b2ddb64b75950a911ac0d4e1ede92c648066bd41417b4e842a5f8df7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-urlgrabber \
+RPROVIDES:${PN} += "python3-urlgrabber \
+python3.11dist-urlgrabber \
 python311-urlgrabber \
 python3dist-urlgrabber"
 

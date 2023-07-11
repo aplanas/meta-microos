@@ -16,8 +16,8 @@ LICENSE = "Artistic-2.0"
 
 PV = "1.59"
 
-RPM_NAME = "perl-DateTime-1.59-1.2.aarch64.rpm"
-RPM_HASH = "c4c103cf081c06897725c419383e2a35287cbfdaa0913719f3e2769ceaee400c2a53c92c943ab2e4c83f29615ff7b55bc4843ffbe3bd5c71c7a5eb477044cdee"
+RPM_NAME = "perl-DateTime-1.59-1.3.aarch64.rpm"
+RPM_HASH = "843fe299a2c41b3f9f60f7b3ce579f2825c065fe518d2f127735af0b3106ef5659165a959562b3d9097265718b00bece9b5308483b23a0a14a9874cf0af6171e"
 
 RPROVIDES:${PN} += "perl-DateTime \
 perl-DateTime--Duration \
@@ -30,7 +30,7 @@ perl-DateTime--PP \
 perl-DateTime--PPExtra \
 perl-DateTime--Types"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-DateTime--Locale \
 perl-DateTime--TimeZone \
 perl-Dist--CheckConflicts \

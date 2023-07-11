@@ -16,12 +16,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.0"
 
-RPM_NAME = "python310-pyct-0.5.0-1.3.noarch.rpm"
-RPM_HASH = "a97e4bdc2c241261d7128322843f3d2f558b84bac7613453c65ee1e6a33f3291641e448b7fe634d5b9c9ea3f453248e58cf6901740c356ef09611d857c9d9a4c"
+RPM_NAME = "python310-pyct-0.5.0-1.5.noarch.rpm"
+RPM_HASH = "e80ff737b56955dca46d318c647da8bd590864f87406004c51ffcf8fa56ca14475292335f13948fc4ac06219586245606a3c0fd0b1e721f1d45d5e28b12956b4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pyct \
-python3.10dist-pyct \
+RPROVIDES:${PN} += "python3.10dist-pyct \
 python310-pyct \
 python3dist-pyct"
 

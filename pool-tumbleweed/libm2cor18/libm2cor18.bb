@@ -4,8 +4,8 @@ LICENSE = "BSL-1.0"
 
 PV = "13.1.1+git7364"
 
-RPM_NAME = "libm2cor18-13.1.1+git7364-1.1.aarch64.rpm"
-RPM_HASH = "5666c1069b99a0904c2cc4c7b5947c420fced941623d93f32149df99caf8c3396bbfff49d401990dccc14ebec4f2077449d2631e2b0c2ab0caaaec65fdce8e9a"
+RPM_NAME = "libm2cor18-13.1.1+git7364-1.2.aarch64.rpm"
+RPM_HASH = "0dc109716a3affee188deb1daeb983bea9145e7ee1d110f260f220608cdca8cafe389eafa922922b722cfe24aa12298172ea0aecf4c77729b6ddffd19250b604"
 
 RPROVIDES:${PN} += "libm2cor.so.18 \
 libm2cor18"

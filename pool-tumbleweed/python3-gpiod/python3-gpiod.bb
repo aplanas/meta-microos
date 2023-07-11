@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.6.3"
 
-RPM_NAME = "python3-gpiod-1.6.3-2.3.aarch64.rpm"
-RPM_HASH = "5babc52f9831fd659d374fca799f86037aebd4344c192a43ca114bb2fb81b6b4f8345fd29fe055a68b121869bd524840dd95ae7ab67ae9e0254e9728a609d9e8"
+RPM_NAME = "python3-gpiod-1.6.3-2.4.aarch64.rpm"
+RPM_HASH = "ea6dbe85adf77da33a0ffaf4257c3f4dd4120c0843f8c4115d13e14b42c720fa90f4029740f025241355e268a9babceaaeeed3f75164a2964119f926dc3e4eac"
 
 RPROVIDES:${PN} += "python-libgpiod \
 python3-gpiod"

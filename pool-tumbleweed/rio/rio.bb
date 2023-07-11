@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.8.0"
 
-RPM_NAME = "rio-0.8.0-1.9.aarch64.rpm"
-RPM_HASH = "1bfdf12568e65c7ae44d8ee292c44cb3e680766318e5c1ba70ae38c4ae97fd228d5d0d000dd501a7531bfcfbb5ebbe8145c2735d2852e2f32714a4449c4e066e"
+RPM_NAME = "rio-0.8.0-1.10.aarch64.rpm"
+RPM_HASH = "aed9ffc083c039b86abbac9cdf0a01c28c767bb4527c3651bd00ace494b498221b494d29a92518da9dffd584555c849a0444596fadfee1ab0288a103eac28ad1"
 
 RPROVIDES:${PN} += "rio"
 

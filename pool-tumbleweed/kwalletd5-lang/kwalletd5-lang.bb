@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kwalletd5"
 DESCRIPTION = "Provides translations for the 'kwalletd5' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "kwalletd5-lang-5.106.0-1.1.noarch.rpm"
-RPM_HASH = "663ce23f3674f49b3667e8cf47d04121da7931306090c3e4bb7e970edff4a86dfb97b6cc5e074de8c68bf1542d6540a1a7bbd76744a98549c1ac3b726839f3a7"
+RPM_NAME = "kwalletd5-lang-5.107.0-1.1.noarch.rpm"
+RPM_HASH = "81bc824c5a8e43a9199bdd4e2ed9b8fdf91c7844c691c48d197302ab49bcfc5fa7a1730df2b8a66585237d983ec2d84c574d429b821322d3f3d3fbe83faaddf9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kwalletd5-lang \

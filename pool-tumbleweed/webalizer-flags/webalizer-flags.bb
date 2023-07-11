@@ -8,8 +8,8 @@ LICENSE = "CC-BY-SA-3.0"
 
 PV = "2.23"
 
-RPM_NAME = "webalizer-flags-2.23-26.9.noarch.rpm"
-RPM_HASH = "faeeeb9fdb79a221c5609809f61033a4fcecf1925ebc16feab0dfbe3e0292d78c0e72a62577d75794df4943195f15a9ebaa16fa5a61c70cb556395c3b491f12d"
+RPM_NAME = "webalizer-flags-2.23-26.10.noarch.rpm"
+RPM_HASH = "f274b44486dd4f74cf82f89a6a28ae4fd3e9c7c499d1ed6e8ac96b261fc0ccc0b1e55a470c4ba7b5e0029d2049b3d8dfc0c2133f39565b2ac6ce969305ce4c79"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "webalizer-flags"

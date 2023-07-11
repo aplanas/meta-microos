@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides overlay icons to visualise the \
 synchronisation state in the Nemo file manager."
 LICENSE = "GPL-2.0-or-later & LGPL-3.0-or-later"
 
-PV = "3.8.2"
+PV = "3.9.0"
 
-RPM_NAME = "nemo-extension-nextcloud-3.8.2-1.1.noarch.rpm"
-RPM_HASH = "74674a98758bc21c155f0867a26aa8309f03e9c8f7cc5f44b41b2fae62c6a3499ef9319cc5c9f9f89b422f44f5e0ed9cbac4ca9be2f538ce473a60fc8485adc7"
+RPM_NAME = "nemo-extension-nextcloud-3.9.0-3.1.noarch.rpm"
+RPM_HASH = "ef3681d753466bcf48aee9e4ffcc880dba4c46c542c4117ad0ea583aac1de2531d207a5d03c37e26711216ca7ae2ab27c6df9041f1d4ef23010af2401b939986"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nemo-extension-nextcloud"

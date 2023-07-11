@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.13.0"
 
-RPM_NAME = "liblog4cxx-devel-0.13.0-1.3.aarch64.rpm"
-RPM_HASH = "41100eec30c187ee314230cc741b3875a0bc295d4bff8061608c5bad35b931b9274a73395710d083860f7deacda56844207352d1df488d1add55f5abccd50f30"
+RPM_NAME = "liblog4cxx-devel-0.13.0-1.4.aarch64.rpm"
+RPM_HASH = "d9dfb699919fc1234f8ca4efe87b98dcb3a6e803cce387526136ad405ff72a8fec3a5252b61f2448ea541dd92ad266e88c58666fe9ef5bdf976018aea91a4a57"
 
 RPROVIDES:${PN} += "cmake-log4cxx \
 liblog4cxx-devel \

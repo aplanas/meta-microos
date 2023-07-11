@@ -10,8 +10,8 @@ LICENSE = "BSL-1.0"
 
 PV = "1.3.1"
 
-RPM_NAME = "libemon1_3_1-1.3.1-1.3.aarch64.rpm"
-RPM_HASH = "85289abbdecf65676573041c81fa3e797364bcbc840865ba122537bd2b3ad76a37c5d5e43346f28c7e13d4040e40af796b36a9d10bf355d19a5974a2c30a5933"
+RPM_NAME = "libemon1_3_1-1.3.1-1.4.aarch64.rpm"
+RPM_HASH = "aefac5af388cdd3f591f69d9c4a7b2d539d2be129fd13a1645aef90f0da91da671e1163f3639edb537ca89633f347f030806b4c88c7cd366ffb34c61f834dcb6"
 
 RPROVIDES:${PN} += "libemon.so.1.3.1 \
 libemon1-3-1"

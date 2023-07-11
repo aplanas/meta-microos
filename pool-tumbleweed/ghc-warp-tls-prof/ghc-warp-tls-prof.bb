@@ -4,24 +4,24 @@ LICENSE = "MIT"
 
 PV = "3.3.6"
 
-RPM_NAME = "ghc-warp-tls-prof-3.3.6-1.4.aarch64.rpm"
-RPM_HASH = "2c5b743103d43ca0b46ca9c114374f50f40ea74654703bda3bb6289c7c0a964cbc56103b4950788bba2160034d2ae79ca3b54b2a8b16e8248f7cee7eaea2dcab"
+RPM_NAME = "ghc-warp-tls-prof-3.3.6-1.6.aarch64.rpm"
+RPM_HASH = "6d54dc29a1cfbf158a3cf3db620ba486592078293b939111d9248b7f43084962f868b859c03a69798c1fdafbf9fdfafa89f73c3bf1e11013122adeac36624674"
 
-RPROVIDES:${PN} += "ghc-prof-warp-tls-3.3.6-FNoL4BYqjr55niULiQgEjP \
+RPROVIDES:${PN} += "ghc-prof-warp-tls-3.3.6-84GlfJc6pctLoCFIjkFOFZ \
 ghc-warp-tls-prof"
 
 RDEPENDS:${PN} += "ghc-prof-base-4.17.1.0 \
 ghc-prof-bytestring-0.11.4.0 \
-ghc-prof-cryptonite-0.30-AbDFzA14dNKDfU9pLpBLye \
+ghc-prof-cryptonite-0.30-cxpuRFsDaEEZnBeTxvUaJ \
 ghc-prof-data-default-class-0.1.2.0-2LD1I8dZmn7BW4dkzEwdGZ \
-ghc-prof-network-3.1.2.8-HNDBp0HF6t0D1fzE2MDtPd \
-ghc-prof-recv-0.1.0-4koyrU2GJ4L4fpyKcXLbZR \
-ghc-prof-streaming-commons-0.2.2.6-DrPeIbd2d2c3jQtctttO4G \
-ghc-prof-tls-1.6.0-48osxqPawrs8SblkErmTaM \
-ghc-prof-tls-session-manager-0.0.4-1K8vLYLuq115RYgesNa5lw \
-ghc-prof-unliftio-0.2.24.0-Dgc3Qshya29BgIaWsfBy4D \
-ghc-prof-wai-3.2.3-LsLg4DRwusRI7b3SRdjDzn \
-ghc-prof-warp-3.3.25-E7dqXF5eh0k5u5fIPKRjLZ \
+ghc-prof-network-3.1.4.0-FvtFepOtuCUH79FCWyNxIc \
+ghc-prof-recv-0.1.0-5l0GOJwksOA59K6H5tIdgO \
+ghc-prof-streaming-commons-0.2.2.6-EjKcoRCMdUH4DbzWvGfVlu \
+ghc-prof-tls-1.6.0-GPxmmQRGk0xt2NkvZcJeD \
+ghc-prof-tls-session-manager-0.0.4-H4ntEZmH6lq6RcNU9soHmP \
+ghc-prof-unliftio-0.2.25.0-DN1mY49M6dHDqA19Vm4lY3 \
+ghc-prof-wai-3.2.3-B6oJGZed88IFIvDpwN5I7x \
+ghc-prof-warp-3.3.25-7qOcByHeVpuMAFF4vrupa \
 ghc-warp-tls-devel"
 
 inherit rpm

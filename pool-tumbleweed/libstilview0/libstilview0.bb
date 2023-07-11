@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.4.2"
 
-RPM_NAME = "libstilview0-2.4.2-2.1.aarch64.rpm"
-RPM_HASH = "ea91e3ec1c431670327d6e2e0f902b4ca10650f0de2d1c99e5d766a3d86be22067f8fc77e0c75c419ce533b7ab81170dbdcf13ad014d1290db673f0976af664f"
+RPM_NAME = "libstilview0-2.4.2-2.2.aarch64.rpm"
+RPM_HASH = "a2400ffb3c245b429b9129754bf7133fd0a3a76a640b16108f5899d22cf4e2dcb593a1e41441c691d49ba9691d0ff3e5de2c4165f70af1ccce3f6087befcaa39"
 
 RPROVIDES:${PN} += "libstilview.so.0 \
 libstilview0"

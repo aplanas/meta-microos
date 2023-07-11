@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "6.3"
 
-RPM_NAME = "libnetlink-devel-6.3-1.1.aarch64.rpm"
-RPM_HASH = "c13c7cd8b710cc0a669369ffba711360070ffe8dac91d3bb08de8c22518b1b43e1dd42ea3cdbbb0bf7c0e5df61922f034bf53b820455c289728082a14ea6b25b"
+RPM_NAME = "libnetlink-devel-6.3-1.2.aarch64.rpm"
+RPM_HASH = "a3eac800ebe2c0ff329ba12b4955dee0456d8cd80c99326ed72db3e9d9ba2fdc3f6004228832d1a7a8712552b559f6dff46a331003015cd09e966bd6a2d1e254"
 
 RPROVIDES:${PN} += "libnetlink \
 libnetlink-devel"

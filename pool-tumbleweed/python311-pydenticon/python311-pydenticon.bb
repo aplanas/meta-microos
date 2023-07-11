@@ -16,11 +16,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3.1"
 
-RPM_NAME = "python311-pydenticon-0.3.1-5.6.noarch.rpm"
-RPM_HASH = "5f9b70dd1ae6d449446103912604af9542b79d9e7c02f7c7f2375d50ff3a04bb2d581af412595fb5638c63fe8780e7e5966acd67e54aa80eb3fa017fff8fa767"
+RPM_NAME = "python311-pydenticon-0.3.1-6.3.noarch.rpm"
+RPM_HASH = "95ea8c09fc25f82e505134b909e3fa146cb230c9d99ab2d79676ea5c4ea74c8e7c69230a413e3a65fca5a0141827359d0582339a906be7ef9a9d2b81114cb1d8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pydenticon \
+RPROVIDES:${PN} += "python3-pydenticon \
+python3.11dist-pydenticon \
 python311-pydenticon \
 python3dist-pydenticon"
 

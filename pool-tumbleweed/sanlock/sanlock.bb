@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.8.5"
 
-RPM_NAME = "sanlock-3.8.5-1.3.aarch64.rpm"
-RPM_HASH = "e6a085e3aee2d286548bc021acdc161cc383184c35a4afe3f5f4b55bbf297969eb1d8415da33cab2b808ab4c7b95b054426aa0d442635a1aaf720afd15b3dafd"
+RPM_NAME = "sanlock-3.8.5-1.4.aarch64.rpm"
+RPM_HASH = "1c6510b75f920fa8d1bf3f435724082ce1a5395f48b01ff1c02cc851c8ce2543df81b908e47b4aa4327b4378ea7630ca00cbde9fc529e95fe8b9af6c2234e88f"
 
 RPROVIDES:${PN} += "config-sanlock \
 python2-sanlock \

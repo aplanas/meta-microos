@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.0.4"
 
-RPM_NAME = "usbauth-notifier-1.0.4-1.6.aarch64.rpm"
-RPM_HASH = "7e189ad66dcc294451497dd65673babe549b3468692c0c045aa592442371374a802832a3dbe6bdc6341fc7f4b10b1ecb8594f2cfc537eeb514a23f59c5c38c36"
+RPM_NAME = "usbauth-notifier-1.0.4-1.7.aarch64.rpm"
+RPM_HASH = "bae717c863421c7992e229cb11f11737565a71e445426eaea491ef96f4554bc80b0a0681e71eb345fdcaa6d0bc1c7c7e22c8cbf3c0bb39ee77b97c68ed11f8e7"
 
 RPROVIDES:${PN} += "usbauth-notifier"
 

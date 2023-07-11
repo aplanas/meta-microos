@@ -6,12 +6,12 @@ LICENSE = "Apache-2.0"
 
 PV = "3.1.1"
 
-RPM_NAME = "python3-pycadf-3.1.1-2.5.noarch.rpm"
-RPM_HASH = "f6a54dac0fdc1e6044a1090cc83e58e271b08ce11a5d47d055d30e915b54f802d7c0fd8a83e7483dceaaf658962d92cac2a9a312bd498192b7523e715d2fb105"
+RPM_NAME = "python3-pycadf-3.1.1-2.6.noarch.rpm"
+RPM_HASH = "9a9e43d9cb8ec88e90af5a06ac90926db9eabd24432736ab26377bc37c521ee8e4ddc238732db386705b03e2c17b30881cc9933cf17bddbf05bfddc7b786c603"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pycadf \
-python3.10dist-pycadf \
+python3.11dist-pycadf \
 python3dist-pycadf"
 
 RDEPENDS:${PN} += "python-abi \

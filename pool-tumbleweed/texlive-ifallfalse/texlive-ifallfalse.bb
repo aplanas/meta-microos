@@ -9,10 +9,10 @@ the set of strings. This package does not work with the LuaTeX \
 engine."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0.0svn60027"
+PV = "2023.208.2.0.0svn60027"
 
-RPM_NAME = "texlive-ifallfalse-2023.201.2.0.0svn60027-52.1.noarch.rpm"
-RPM_HASH = "d5b4428c7bf6deb5ca69585df53efbea240a53fe4212b1c6b868641fac7fa75c9f22514a77f5aa8362934989914e49f97a260a094dfcc4ddc6b20976576727a6"
+RPM_NAME = "texlive-ifallfalse-2023.208.2.0.0svn60027-53.1.noarch.rpm"
+RPM_HASH = "b8b95611e0249ff67087d81b235048fe4a5fe8e30f770e8be3c38dcbe8705fe357f8eae96fa9e7f9ea11a5690afd87f405917d20028dc54ab095514899e0e37c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ifallfalse.sty \

@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.22.1"
 
-RPM_NAME = "python311-libtmux-0.22.1-1.1.noarch.rpm"
-RPM_HASH = "0b84c58b4b97303a9a94d633f61c1eb1feb98638515162bccda3dec62b67d5c461f375a57d7977e05e206ce9dc0c298b81cab4bd0dd235efd32349aca898575a"
+RPM_NAME = "python311-libtmux-0.22.1-1.3.noarch.rpm"
+RPM_HASH = "6bc429dfd5258bbb5bce166459bb5794681f884db34459482a759bf9de27894f9869cb1f9d0bfb1f36a9dd57892686e3ee53a6c845e2a93370922538cddcc49c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-libtmux \
+RPROVIDES:${PN} += "python3-libtmux \
+python3.11dist-libtmux \
 python311-libtmux \
 python3dist-libtmux"
 

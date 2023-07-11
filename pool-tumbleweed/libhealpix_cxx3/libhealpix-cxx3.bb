@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.81"
 
-RPM_NAME = "libhealpix_cxx3-3.81-1.7.aarch64.rpm"
-RPM_HASH = "c2801d72adc0c40728eabedae289131df8750e6396dcbd2648b013254fa26a93e59234189774bb90e187d3bc2dfb037f8b909ddd05b5a6313009e8245e7bb8c3"
+RPM_NAME = "libhealpix_cxx3-3.81-1.8.aarch64.rpm"
+RPM_HASH = "b502a2c5ff6b56bd935a56f154057aa02b2baca030f8ee1e792693c55dc5088730bd05e662775a99a1b1307ae6334bc5d179bb1915300f52dd53b9a4f8f80a11"
 
 RPROVIDES:${PN} += "libhealpix-cxx.so.3 \
 libhealpix-cxx3"

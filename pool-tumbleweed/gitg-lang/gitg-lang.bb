@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "41"
 
-RPM_NAME = "gitg-lang-41-2.8.noarch.rpm"
-RPM_HASH = "36eb57a979820d0a056f27eaaf9c70b304a2dd00728b7af21d658544e187c12654928e79d1710ab53b915db90e49cd00aebdd8d255891c6219fcf80f4e7bac9c"
+RPM_NAME = "gitg-lang-41-2.10.noarch.rpm"
+RPM_HASH = "5058343e36796f7c43fd732e34de768e42aba52ed86c70b427b94832fe112858e60b7eff3cb4a89b0f54c8954e780f8413499ea185a3c9c7c36b9ab25890f232"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gitg-lang \

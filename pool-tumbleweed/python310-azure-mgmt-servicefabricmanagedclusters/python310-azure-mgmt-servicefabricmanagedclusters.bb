@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python310-azure-mgmt-servicefabricmanagedclusters-1.0.0-2.2.noarch.rpm"
-RPM_HASH = "326e3718df3b5a287206e6a9550a2631d0a436201461cd1df0a8ed5514c77fb49e8c2f24e2c10e76b1b9b48861e99814782fb8e79e896abae5a35557de88cefb"
+RPM_NAME = "python310-azure-mgmt-servicefabricmanagedclusters-1.0.0-2.3.noarch.rpm"
+RPM_HASH = "2444afe8fa251a946ae12bf0a170812e6ca5345dfee4f9f9b2561a232ac22a66a777469a960b38f3fc216f8a1ed97c0a4ba8ad58289e7f8d800ed4e45b72cdbd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-servicefabricmanagedclusters \
-python3.10dist-azure-mgmt-servicefabricmanagedclusters \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-servicefabricmanagedclusters \
 python310-azure-mgmt-servicefabricmanagedclusters \
 python3dist-azure-mgmt-servicefabricmanagedclusters"
 

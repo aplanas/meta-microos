@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.3.2+git70"
 
-RPM_NAME = "plasma5-pk-updates-0.3.2+git70-2.6.aarch64.rpm"
-RPM_HASH = "f67f217f0a2cdff5d15f22141f96fc8e711bdc9fcea7fd46b821963d1ad512dfb35d62f599d5edfeb138839fcce5b5703266dce91e2cc87043ec4c7282601d39"
+RPM_NAME = "plasma5-pk-updates-0.3.2+git70-2.7.aarch64.rpm"
+RPM_HASH = "ea700485294eacd457cacaf117ce4c74b45d3fab2be35892e062e8a380124866b31ad0faedb33114d66e567bb8161cdbdeb7fd51f04bf5078ace29a50336bd78"
 
 RPROVIDES:${PN} += "apper \
 libplasmapk-qmlplugins.so \

@@ -2,10 +2,10 @@ SUMMARY = "Slovenian localization files for LibreOffice"
 DESCRIPTION = "Provides Slovenian translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.1"
+PV = "7.5.4.2"
 
-RPM_NAME = "libreoffice-l10n-sl-7.5.4.1-1.1.noarch.rpm"
-RPM_HASH = "75b86a791a306e1b082bd55e87b3cbb0ae89aef720fcc58b2c06625fcb4620b77a68325730452522b555094564f10bc95877bc146afd7a8d6bcff7cfbe75d71f"
+RPM_NAME = "libreoffice-l10n-sl-7.5.4.2-1.3.noarch.rpm"
+RPM_HASH = "4a363252fb720826e31db222b7727aada59ba9cab91ecdbab74484253df55813e6b51e900bfe2dee6f4748ce994cbc5539d1e08b3a82bf83dc37ea8355ce5b48"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-sl \

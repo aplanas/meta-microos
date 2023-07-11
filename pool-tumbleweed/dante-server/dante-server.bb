@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.3"
 
-RPM_NAME = "dante-server-1.4.3-2.8.aarch64.rpm"
-RPM_HASH = "d5cd0734420912e8ec77dd3345b16947d7c97fcf99db9cf18c66609ea9d5c2256ed13e897df5e81d8beaa366545fd5a661a4c121b1667523f18698da9e8fe5e6"
+RPM_NAME = "dante-server-1.4.3-2.9.aarch64.rpm"
+RPM_HASH = "606b96a79c05ee62a615bc0e220a6d8cf4606f98777f014c5998d3109b9d798b7d653de71a3cd2da19b9cad3df7ffae63a199d0907d25fcb96ce3f7289e170f0"
 
 RPROVIDES:${PN} += "config-dante-server \
 dante-server \

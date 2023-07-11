@@ -4,11 +4,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.0.5"
 
-RPM_NAME = "python311-dkimpy-1.0.5-1.12.noarch.rpm"
-RPM_HASH = "53f62c8fc4918416efb31f8f401bafba27a13eee5c79d2b1d34cea828f9f557a218216f1e56b0898081bcc8bb0a7de30b1c50ae4b3449d89ab111fa98dc79779"
+RPM_NAME = "python311-dkimpy-1.0.5-2.1.noarch.rpm"
+RPM_HASH = "47dcd0b0aa7929eb1c4d824494c16d59ed40951f32a945f2aa4ddad9871c4d1c16c5ddb147077358e0d2b133ac62e90a811034a74a5cb610a4c17a4704d5484b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-dkimpy \
+RPROVIDES:${PN} += "python3-dkimpy \
+python3.11dist-dkimpy \
 python311-dkimpy \
 python3dist-dkimpy"
 

@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-
 
 PV = "8.0.2"
 
-RPM_NAME = "qemu-block-ssh-8.0.2-1.1.aarch64.rpm"
-RPM_HASH = "9047b4823df8fa66d2b3c77f7336f83a4c7882fed3bc512975f35bc7db91e8c720d6f1122faebe1c894634ae464a34ad1f4b19f4872276bf8660fd92d9514102"
+RPM_NAME = "qemu-block-ssh-8.0.2-2.1.aarch64.rpm"
+RPM_HASH = "bb8559a9178e4e52ca1e27b013f4c1f51d35238371fc364faeb7ec57e33df3c8157330b5eb4fb6d9c36671ca44629b4c44cbebdd345b0ae6da679e2448968a0c"
 
 RPROVIDES:${PN} += "qemu-block-ssh"
 

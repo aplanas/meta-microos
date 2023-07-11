@@ -4,11 +4,12 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.2"
 
-RPM_NAME = "python311-dogslow-1.2-1.14.noarch.rpm"
-RPM_HASH = "d2b8b7c47115ec9c9df87fe5ac26e3c8f57f77fd3f10b8dbab29f4a328e12e964af875b9ad96adf74493fd7a8915ef027938f13483e47a7c1bc4b5e3a3bf4f91"
+RPM_NAME = "python311-dogslow-1.2-1.16.noarch.rpm"
+RPM_HASH = "07f9e6bfe88ec7aec4c5e9f7a0177dd42a7d3255e1017dc930cd841e2c24476590831c9f6783162879872d6c0b526c369ab19f9fa54b00a9057bd27e207549c4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-dogslow \
+RPROVIDES:${PN} += "python3-dogslow \
+python3.11dist-dogslow \
 python311-dogslow \
 python3dist-dogslow"
 

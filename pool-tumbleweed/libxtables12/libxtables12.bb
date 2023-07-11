@@ -6,8 +6,8 @@ LICENSE = "Artistic-2.0 & GPL-2.0-only"
 
 PV = "1.8.9"
 
-RPM_NAME = "libxtables12-1.8.9-1.3.aarch64.rpm"
-RPM_HASH = "4618b991190f476337ae63d675561b7bf376b53e656c981ff9da1a6153c1086d80bf9a5cad6faff0ec6a9202b965be404c3658459c63af01796b587e6a44fd4f"
+RPM_NAME = "libxtables12-1.8.9-1.4.aarch64.rpm"
+RPM_HASH = "e47aad03d86b2c5cca0dfd2d806c71847d69881ad67e225266db1a21e5670190a47ca0bfeafbee5d3cbd827ccd28421f863e68066c190fd625a9716cc57e7da7"
 
 RPROVIDES:${PN} += "libxtables.so.12 \
 libxtables12"

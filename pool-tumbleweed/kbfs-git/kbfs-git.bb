@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "6.0.2"
 
-RPM_NAME = "kbfs-git-6.0.2-3.4.aarch64.rpm"
-RPM_HASH = "f9ce366866f271f51c50d429f256d982b1d9cf5445fd7d7c4332869da1f39bcfe16f482d3bcb17aec4bacf8f3c7cda6622332466734e97bbc731976af0ca274d"
+RPM_NAME = "kbfs-git-6.0.2-3.5.aarch64.rpm"
+RPM_HASH = "bec698c794fc41aae0a5cd3349669b2a570714adc7817f66183c84c403cb8cb21e51bfabba197c3481f81a762e4b0efd7fa11580bf24cb33c5c77cf61349e2f0"
 
 RPROVIDES:${PN} += "kbfs-git"
 

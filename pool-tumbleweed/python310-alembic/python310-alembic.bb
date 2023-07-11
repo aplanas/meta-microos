@@ -14,12 +14,11 @@ LICENSE = "MIT"
 
 PV = "1.10.4"
 
-RPM_NAME = "python310-alembic-1.10.4-1.1.noarch.rpm"
-RPM_HASH = "b9104b87576e1c228122d4fd9dff6c791e341d097f820ef876b018f2a2317f058f10cda44a684448c382114c7710e41bbcdf5994dc946d8f00a309d6ad07188f"
+RPM_NAME = "python310-alembic-1.10.4-2.3.noarch.rpm"
+RPM_HASH = "a327ff236ca1710d4c613e1b4c320f1b42bc1e678104369a98359243348f99763c9cb264b5ed4aa1f1b65ee8a859b607e862e277a87cfa37341dfd9a96a43b4b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-alembic \
-python3.10dist-alembic \
+RPROVIDES:${PN} += "python3.10dist-alembic \
 python310-alembic \
 python3dist-alembic"
 

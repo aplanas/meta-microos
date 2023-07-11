@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.5.23"
 
-RPM_NAME = "libmatio11-1.5.23-2.2.aarch64.rpm"
-RPM_HASH = "3bdf554948bf94e3963b8ad18ebc544871ed903b59ef955c540f9056712a84e8de1906ebc5669b45b98b3bde8bbc4b6ec4413738c36a43e7e78bf03cdb1d5d21"
+RPM_NAME = "libmatio11-1.5.23-2.3.aarch64.rpm"
+RPM_HASH = "7cc38cfe4bfb45ab3d3c68155a9cd732e213c75205291ff65b2431bb0a725fbe5a4cf6b8887b657c85ec03c081b99fc1df9608481c1a0ac4d6e74457e0b6e2c2"
 
 RPROVIDES:${PN} += "libmatio.so.11 \
 libmatio11"

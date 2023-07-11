@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "2.5.4"
 
-RPM_NAME = "libseccomp-tools-2.5.4-2.8.aarch64.rpm"
-RPM_HASH = "0869d4e8e01f05473d5c2b87b8fe840058e8c629940a4dddd281248140edafd2e607b2a3c2629cf060867737045fd9ea8a9d138b79a665409ab9e629c3061035"
+RPM_NAME = "libseccomp-tools-2.5.4-2.10.aarch64.rpm"
+RPM_HASH = "4c5f42a10ecb466866cdf1c794b1b6a46c69a4fa2656f7551c6c927238b210c8c6c2db85e208a7d756ab82ef0af7b7fb8eea42ba9ac549f0f2fe166367a6e7e1"
 
 RPROVIDES:${PN} += "libseccomp-tools"
 

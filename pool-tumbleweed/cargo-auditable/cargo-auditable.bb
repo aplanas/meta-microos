@@ -7,8 +7,8 @@ LICENSE = "(Apache-2.0 | MIT) & Unicode-DFS-2016 & (0BSD | MIT | Apache-2.0) & (
 
 PV = "0.6.0~0"
 
-RPM_NAME = "cargo-auditable-0.6.0~0-1.2.aarch64.rpm"
-RPM_HASH = "a54784918a31c54bd5251e7522267762c06c394c9fe68ff6faaea73a4f23b0ae01e07e61fc3388b1a6da19f365022ec8640626f6eab3948969a7f8be7f36547b"
+RPM_NAME = "cargo-auditable-0.6.0~0-1.3.aarch64.rpm"
+RPM_HASH = "1cb00066a0dd589c7340e6abdfdb5edc00ea17ad310a9f194970a7f09cec7e0ac7e0b015f4f1a7444a4148be9eb238547b4b1fc981dc3d3190af48fea81fe483"
 
 RPROVIDES:${PN} += "cargo-auditable"
 

@@ -24,8 +24,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "2.023"
 
-RPM_NAME = "perl-Data-Dumper-Concise-2.023-1.22.noarch.rpm"
-RPM_HASH = "20a107f0fbd3dd2a0f1137f261fdfc35b990f3d34675b9c26743b6c8ddbcabb1dc1ad3b12a8fedfbe540adb439e5b5076fda41909f03766d3e468fa6fd11d421"
+RPM_NAME = "perl-Data-Dumper-Concise-2.023-1.23.noarch.rpm"
+RPM_HASH = "a6957a5c827b5fb3d84a5655c0ade0148afb57ab0f500be6bcf01d9ce0bb304515b58e0eb0450f4fe4a0fe3610913c0f4a7e9377c525d8bafd4f214616a30f8e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Data--Dumper--Concise \
@@ -33,6 +33,6 @@ perl-Data--Dumper--Concise--Sugar \
 perl-Data-Dumper-Concise \
 perl-Devel--Dwarn"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

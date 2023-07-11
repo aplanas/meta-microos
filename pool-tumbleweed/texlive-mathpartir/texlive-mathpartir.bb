@@ -12,10 +12,10 @@ derivations. A macro inferrule for typesetting type inference \
 rules."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.3.2svn39864"
+PV = "2023.208.1.3.2svn39864"
 
-RPM_NAME = "texlive-mathpartir-2023.201.1.3.2svn39864-52.1.noarch.rpm"
-RPM_HASH = "88cc5f8076998851326c12b0b43c68aa1dded87fbd5c29140a591ed75183c3c913522d33c6c0fe88fc6416a57a0b2758fbdb3978023b1967e2395e02baae5b99"
+RPM_NAME = "texlive-mathpartir-2023.208.1.3.2svn39864-53.1.noarch.rpm"
+RPM_HASH = "5b2151bcae3d25d0b3b4b830454a55d05e18a764c9dfc9d88edac517c25c19ae799d6b3c5cc212482a13686bd6558f9820bab0373f1c28cad78217cc91ce729e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mathpartir.sty \

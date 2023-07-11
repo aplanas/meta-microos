@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.2.0"
 
-RPM_NAME = "guile-charting-0.2.0-3.11.aarch64.rpm"
-RPM_HASH = "3ccbbfa6b411edf4aceb0e8015b275d95bd9934b33027ad46fa395118de28cbfadc56269709ddf2f6e9d5101b0eab6a9496236018fcab8f0262b0c9e0442bd4c"
+RPM_NAME = "guile-charting-0.2.0-3.12.aarch64.rpm"
+RPM_HASH = "829ba22f3f25223086c292683ad49682c94291b80d982f614eccfcc9ab39e9d7318178f850e439f6b507ec27819fdbeb836bb1f96e3dd3b3e415c330de251294"
 
 RPROVIDES:${PN} += "guile-charting"
 

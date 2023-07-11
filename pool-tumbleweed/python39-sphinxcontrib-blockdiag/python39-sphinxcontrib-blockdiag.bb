@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "3.0.0"
 
-RPM_NAME = "python39-sphinxcontrib-blockdiag-3.0.0-3.3.noarch.rpm"
-RPM_HASH = "8573f7b206f5952ae63050c8f9aa98ce3297c0fbd588291d7414f4d46bdc8568ffc4bce4348408eb6fe5ffcfb69b018b6f7377a6a29a56607aad60a5d1325c36"
+RPM_NAME = "python39-sphinxcontrib-blockdiag-3.0.0-3.5.noarch.rpm"
+RPM_HASH = "dc21f2874701eb548489ab20f2058f74239f078616d0ebc27424c187eade5305c40873e78fb7216fc2c741a06fdf4c4e1d50dfbb8cd9bcfc84410c98acd5977d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sphinxcontrib-blockdiag \

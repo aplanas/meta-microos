@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.8.6"
 
-RPM_NAME = "dust-fish-completion-0.8.6-1.1.noarch.rpm"
-RPM_HASH = "83e4acda3d2fb2a919b00fb33830ffaf9a2c5e1d554be16ec20ccc891a4230b91e4998907e9a86f5fdda9cae8424aceae4a47890d700ce5caadb0db40c1e1c05"
+RPM_NAME = "dust-fish-completion-0.8.6-1.2.noarch.rpm"
+RPM_HASH = "4e5e1d36774588b7aaba267fdc28f87ddee9bdc86c16e50322b13791c03a885448cd88087448d841ae80925450e8d6fe6ee4f2a90a8f612b6fd685817a9539ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dust-fish-completion"

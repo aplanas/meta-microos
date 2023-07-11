@@ -5,11 +5,10 @@ LICENSE = "ZPL-2.1"
 
 PV = "6.1"
 
-RPM_NAME = "python310-zope.security-6.1-1.1.aarch64.rpm"
-RPM_HASH = "708e60cba940249dfb758a5c93d96d4d3df3470e3641919752be15e5566cdce2d73ae3d29aa289ff3da8618b978bf2ba9078eb6e734221995ad07803c552fe23"
+RPM_NAME = "python310-zope.security-6.1-2.3.aarch64.rpm"
+RPM_HASH = "58bdbbb94641f5ee621f84aae01260a83d0dc40b1b59176c7d462e53ab8a6188e8e06978ba6f2f72f9d3f370c24465b7ea44c99b8d8289e9e8c13f01f4e66a81"
 
-RPROVIDES:${PN} += "python3-zope.security \
-python3.10dist-zope.security \
+RPROVIDES:${PN} += "python3.10dist-zope.security \
 python310-zope.security \
 python3dist-zope.security"
 

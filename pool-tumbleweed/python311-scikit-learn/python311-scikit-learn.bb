@@ -5,13 +5,16 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2.1"
 
-RPM_NAME = "python311-scikit-learn-1.2.1-1.5.aarch64.rpm"
-RPM_HASH = "a1dd7aa2608f6402d9bc801b539ceb707e8b69e345e6b20d7ccbea3aae1af5b51d769c200518df2a8a3aafae42fb94fa27bfd3140c77cda54ae0c00a5e55132f"
+RPM_NAME = "python311-scikit-learn-1.2.1-2.3.aarch64.rpm"
+RPM_HASH = "be17dbab96ca5c217c058c8f94ac193937c3e6f8c8e046a3a0e7de2d8859b6f71336a0559f2fe15c1547ad180d4b26988bdcdd4f7867f3269c4b73f64ea00861"
 
-RPROVIDES:${PN} += "python3.11dist-scikit-learn \
+RPROVIDES:${PN} += "python3-scikit-learn \
+python3-sklearn \
+python3.11dist-scikit-learn \
 python311-scikit-learn \
 python311-sklearn \
-python3dist-scikit-learn"
+python3dist-scikit-learn \
+sklearn"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \

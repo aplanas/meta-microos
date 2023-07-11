@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "0.5.1"
 
-RPM_NAME = "python311-inflection-0.5.1-2.8.noarch.rpm"
-RPM_HASH = "87f0af9a681d7046bcec870a198981a7e8898c45543e367a6cf9acc125b771241ed2d0fa2f9843cd4d0dd67030ec5b816fe86e93b5ff7877f2ee39934cfb940b"
+RPM_NAME = "python311-inflection-0.5.1-2.10.noarch.rpm"
+RPM_HASH = "a601d6457629799bc5a2d3996d0a9e9d1f1d226a396a22258d2cfe428a062e0586a8523f5142551c632bfc507487f94736c2b3d7d3087e85ea9226d5ef975f7b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-inflection \
+RPROVIDES:${PN} += "python3-inflection \
+python3.11dist-inflection \
 python311-inflection \
 python3dist-inflection"
 

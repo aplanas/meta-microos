@@ -11,11 +11,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2"
 
-RPM_NAME = "python311-setuptools-git-1.2-4.1.noarch.rpm"
-RPM_HASH = "44f9ad51c546677e9304b456956362068362cef3f5002af183af8c0a67f319438b2c7450ec978b80a034f33d5d80059db31f8be6c6b97809089fc1af0ed5a04e"
+RPM_NAME = "python311-setuptools-git-1.2-4.2.noarch.rpm"
+RPM_HASH = "d2d18892141ea2fa3f0061b3ba797b459ee776d1a9d2d9efefcc17bd3cb9194b39cbbc528b68a5862f287c49bf78ee5d175ce946e458f9c9b03209c3b526457d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-setuptools-git \
+RPROVIDES:${PN} += "python3-setuptools-git \
+python3.11dist-setuptools-git \
 python311-setuptools-git \
 python3dist-setuptools-git"
 

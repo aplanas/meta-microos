@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.6.4"
 
-RPM_NAME = "nemo-5.6.4-1.2.aarch64.rpm"
-RPM_HASH = "ed54b2b2bf4432186a55c1bde241003fe0e6e5369e3b751b7cce8fc6eff619cefc7c29c658edcd80165318a09de289efcbbfa6a7eac5d04bf5aed56212148eaf"
+RPM_NAME = "nemo-5.6.4-1.3.aarch64.rpm"
+RPM_HASH = "1a5891f462509be131a02d43b437d784a100ceb9759e2228472ad56e2f7bdb1705c973e55e4f171e657169b448fbec93f426396cc395166f2552dbe9bb140a52"
 
 RPROVIDES:${PN} += "nemo"
 

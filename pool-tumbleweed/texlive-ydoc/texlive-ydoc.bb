@@ -11,8 +11,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.7alphasvn64887"
 
-RPM_NAME = "texlive-ydoc-2023.201.0.0.7alphasvn64887-52.1.noarch.rpm"
-RPM_HASH = "882418212907eb6f5bead574b3dd5c032c3372c88550f333f28027c0371cd704dfcf178f5c904444cecdf1982beed40b45524f08bcbbfea9cb3b57a93816ad1d"
+RPM_NAME = "texlive-ydoc-2023.201.0.0.7alphasvn64887-52.2.noarch.rpm"
+RPM_HASH = "6a17403f2035622530365947a1cfc0763d1b4fa7ff0b3d9ea16384732f224abf0e5d8c95af9537c259906799b072b11a8e548a5cea5e2e0575eb56803126a0d4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ydoc-code.sty \

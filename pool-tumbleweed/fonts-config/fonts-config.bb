@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & MIT"
 
 PV = "20200609+git0.42e2b1b"
 
-RPM_NAME = "fonts-config-20200609+git0.42e2b1b-1.10.noarch.rpm"
-RPM_HASH = "faabdc99457de5c221b7e976bf0b44fe5fce64aebb4a2db9ae9bbf6b2ca9894d65bbae3923f445ad006f4a0ca26f141f5876662ee396aca821d79e7eb3624fa7"
+RPM_NAME = "fonts-config-20200609+git0.42e2b1b-1.11.noarch.rpm"
+RPM_HASH = "c99850c73352d5598a0fecbdb2cae0febb0339c4dbd02e60069c82710dded43fa5802c99c45edf9f48df8474523a6b584629b5f14ac38065cc02a282684c6e8e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-fonts-config \

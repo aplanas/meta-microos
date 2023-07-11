@@ -8,12 +8,11 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.9.14"
 
-RPM_NAME = "python310-fastimport-0.9.14-2.1.noarch.rpm"
-RPM_HASH = "a4537f406ed12932a48a8170bba9b73f1a96592e81772fe54319b40b1b32829567cf3d3d6e4c9d7f8b26ad79a95b69763f48f7a25f3f978c04d18e253d5613fd"
+RPM_NAME = "python310-fastimport-0.9.14-2.2.noarch.rpm"
+RPM_HASH = "6650d8113423de6bc85ae9a3daedbf7794b0053579eced3b73d74e5e02bf4ea1305da140b4b26da9d6520be55dd09febf1785fc00e9ec9b69894e5ac43737dcd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-fastimport \
-python3.10dist-fastimport \
+RPROVIDES:${PN} += "python3.10dist-fastimport \
 python310-fastimport \
 python3dist-fastimport"
 

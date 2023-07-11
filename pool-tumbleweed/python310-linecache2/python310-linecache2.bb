@@ -4,12 +4,11 @@ LICENSE = "Python-2.0"
 
 PV = "1.0.0"
 
-RPM_NAME = "python310-linecache2-1.0.0-6.1.noarch.rpm"
-RPM_HASH = "3e6c59ce270a88dca205245aa23408c2b6a23d071c79d8bc49fbe1f6e82cfcb01f771f3f06955e490a81c6ee59cd4a2db042438cf16aae4f3a4a75a22e89661e"
+RPM_NAME = "python310-linecache2-1.0.0-6.3.noarch.rpm"
+RPM_HASH = "22d19b577a1e4a312d5c3abde1441ee07b8c702abd84eac271795548837a99eb5b5f5b8820604806bc85b7eea77b11ec28de208e4b28cb3afee6ab334ca9287c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-linecache2 \
-python3.10dist-linecache2 \
+RPROVIDES:${PN} += "python3.10dist-linecache2 \
 python310-linecache2 \
 python3dist-linecache2"
 

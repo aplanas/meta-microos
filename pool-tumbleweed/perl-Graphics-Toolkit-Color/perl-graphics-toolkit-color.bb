@@ -12,8 +12,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.08"
 
-RPM_NAME = "perl-Graphics-Toolkit-Color-1.08-1.1.noarch.rpm"
-RPM_HASH = "cdbc8b76df2f44fd2cf53222f37c914ab7e3c2c0606747ede7997b2ce39e1db31711e8c5f1fdea0d29821a01e12c6135438291ffdcd7d902f66a2c3e04bf3538"
+RPM_NAME = "perl-Graphics-Toolkit-Color-1.08-1.2.noarch.rpm"
+RPM_HASH = "472c5fefe5a17510e7094f0ee7ebb0553d87d1dc16a2119c6422ca8fdd7ea6f6c7b465ba78edeb063dd6fb21b117aae214d22eb05af049cfef0356faf617bdb5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Graphics--Toolkit--Color \
@@ -21,7 +21,7 @@ perl-Graphics--Toolkit--Color--Constant \
 perl-Graphics--Toolkit--Color--Value \
 perl-Graphics-Toolkit-Color"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Carp"
 
 inherit rpm

@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.5.1"
 
-RPM_NAME = "python39-pypuppetdb-2.5.1-1.6.noarch.rpm"
-RPM_HASH = "d8cb0734a93c54eb37a9d95916006d633206d9a96b63b20c44442fd573e9e8fa8efd3972a95384d70a186618b9a761342e8015f31f2ad4d7ce7094d9b11f3a70"
+RPM_NAME = "python39-pypuppetdb-2.5.1-1.8.noarch.rpm"
+RPM_HASH = "affffba8f376427abc8f8ac844cf17d0781ed4a80ba61426aee11dd06cf72cc3daa8b6cae1057045152114a61e0cb45707d747900ff9742170a272f2c245d4e9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pypuppetdb \

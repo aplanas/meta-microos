@@ -3,10 +3,10 @@ DESCRIPTION = "Development files for KPlotWidget, which is a QWidget-derived cla
 that provides a virtual base class for data plotting."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "kplotting-devel-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "daee4382879e20bd74161482dc24bcac6e543c0a4ac80d80bbb90a39f86b41c7c97f31a134326ef216f3788b17d07af266df4f9474a9f0c467849215fcc7f39d"
+RPM_NAME = "kplotting-devel-5.107.0-1.1.aarch64.rpm"
+RPM_HASH = "6d6970f21b6d86706bb01bbe0c6327c8a4711a01956a48762dd3591e417486bf1c93f1bfa853503c6df99cc8592858033e1801ecf92464c59f846279be9e6492"
 
 RPROVIDES:${PN} += "cmake-KF5Plotting \
 kplotting-devel"

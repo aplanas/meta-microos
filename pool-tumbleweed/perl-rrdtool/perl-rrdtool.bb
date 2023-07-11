@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
 PV = "1.8.0"
 
-RPM_NAME = "perl-rrdtool-1.8.0-3.1.aarch64.rpm"
-RPM_HASH = "6232f076aa46a5ff0aaf23b9a3d6834e38002862afcf4f1c5abc7fb4ffc5597bf0d83a1c022da59526589cefdf09f75e629e3ea0a9d3f720538d3bf0e7c2dc44"
+RPM_NAME = "perl-rrdtool-1.8.0-3.4.aarch64.rpm"
+RPM_HASH = "ce788bc36d84f16e3c29c06016037613617a46505023e6906292273d2cb99748b72812933214d6e8d92386b2e5e64e2f9c11a8c3d6f4cf75e9936115481a8250"
 
 RPROVIDES:${PN} += "perl-RRDp \
 perl-RRDs \

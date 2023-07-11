@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.0.1"
 
-RPM_NAME = "python310-azure-communication-sms-1.0.1-1.8.noarch.rpm"
-RPM_HASH = "4f5b84502c19a6443a8b62dcf6abd4298d252a1d33e3d4e27c02ad5ab634a1b4a4d4b3da361ceff843de3c90badc00c15f9b3797daa34ec857803beaa23dcf6d"
+RPM_NAME = "python310-azure-communication-sms-1.0.1-1.10.noarch.rpm"
+RPM_HASH = "da79ed784979d70e40866fcd9da467f7a540cf8ca4cffb58cd016ef2feba8fd5ac24c3fbc1995d10631bdee81999c59ad134881b1c4115a99b7d735c146db135"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-communication-sms \
-python3.10dist-azure-communication-sms \
+RPROVIDES:${PN} += "python3.10dist-azure-communication-sms \
 python310-azure-communication-sms \
 python3dist-azure-communication-sms"
 

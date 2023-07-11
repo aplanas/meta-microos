@@ -6,10 +6,10 @@ Platform Management Interface specification. \
 This package contains the libfreeipmi library."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.6.10"
+PV = "1.6.11"
 
-RPM_NAME = "libfreeipmi17-1.6.10-1.3.aarch64.rpm"
-RPM_HASH = "c4075c6f296bbde8842234c784766d4d46c1b9c977bdfd37073b5bfa20a03a86a7cdaf21f2a5c14e3bfa2c0e0b944b077277eed225e4bbc5a620e79558eec11e"
+RPM_NAME = "libfreeipmi17-1.6.11-1.1.aarch64.rpm"
+RPM_HASH = "9ffdfbc8665aaa3e9501e06f99db6b20eb92bab4256030e319d58350319127500785b1cbaeb752f4d4fc687709d4e512cfe7171c080f7596723bf34637ae413e"
 
 RPROVIDES:${PN} += "libfreeipmi.so.17 \
 libfreeipmi17"

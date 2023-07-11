@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "1.2.0~b1"
 
-RPM_NAME = "python310-azure-mgmt-servicelinker-1.2.0~b1-1.3.noarch.rpm"
-RPM_HASH = "6e0dcf91a1f4a619b904dccbccdb560a3cc98c80a0067a933c1ad422b854ecaf00239a4534642f0c1bfe3b4f4d3dd9abcf0f5f023cac3e0bc5a437c721afe08d"
+RPM_NAME = "python310-azure-mgmt-servicelinker-1.2.0~b1-1.4.noarch.rpm"
+RPM_HASH = "e4dc60f06181f40dac9b5069a40011e002f901ca35dc8ea12f5aef8f51d529b82011c6085a07eb867b5724b4b094779c2aa99669283ec84041e29b20d9a6a3e6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-servicelinker \
-python3.10dist-azure-mgmt-servicelinker \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-servicelinker \
 python310-azure-mgmt-servicelinker \
 python3dist-azure-mgmt-servicelinker"
 

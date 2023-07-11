@@ -2,10 +2,10 @@ SUMMARY = "OCI runtime written in C"
 DESCRIPTION = "crun is a runtime for running OCI containers. It is built with libkrun support"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.8.3"
+PV = "1.8.5"
 
-RPM_NAME = "crun-1.8.3-1.1.aarch64.rpm"
-RPM_HASH = "5336c19cffc74a9dc634fd88e5a3986dc6b1fe7027336f6e0eb79da67a9c4f1030adcfa456c035b36971b4f5437a004460841994672cc8a34a9332ebd19f4e9c"
+RPM_NAME = "crun-1.8.5-1.1.aarch64.rpm"
+RPM_HASH = "b7bad3a16ffd97df4adb438e0b20bbcccda44fa563d0f239ca2ea2941ac7de7b4e63e1f28a2a5e5894953c024642e7ec31e2c018efb1f77a1b56add323688109"
 
 RPROVIDES:${PN} += "crun"
 

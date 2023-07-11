@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.2.3"
 
-RPM_NAME = "libpmix2-3.2.3-10.1.aarch64.rpm"
-RPM_HASH = "c3bb57c8c1b06bcaac658cc01262780d065e3c1bc71695e3fc8f83d1e07b2155b134b27db682cffff223b041c146bca6c2c7386987f4758129a4c41a624797b8"
+RPM_NAME = "libpmix2-3.2.3-10.2.aarch64.rpm"
+RPM_HASH = "5ab6bfe057d4a116152acd7e376982564c5efefb1c54268398e89662f8e10c850e141fd8711dde770207fd3829ed6b0606c160d5d94b4e23df64cfaadf519a63"
 
 RPROVIDES:${PN} += "libpmix.so.2 \
 libpmix2"

@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.6.1"
 
-RPM_NAME = "enchant-1-devel-1.6.1-6.3.aarch64.rpm"
-RPM_HASH = "2c613728a2ba9a4d270e62e4d52a35d8f96dcae60f5aeb90e64572d65dfded3c32f7ecbc7c553139ff3946afe8c9025d30189648dcae0aa6453b2fa9ebb920e4"
+RPM_NAME = "enchant-1-devel-1.6.1-6.4.aarch64.rpm"
+RPM_HASH = "81ca012ccc993fd7119ed6c8a2b1c8178fa940557d4ec7a20fe5bd0882d3811ae8529c770b8be089eb52ed0578c84bc7828e85b3df0a0e94dcac12e72b766b05"
 
 RPROVIDES:${PN} += "enchant-1-devel \
 pkgconfig-enchant"

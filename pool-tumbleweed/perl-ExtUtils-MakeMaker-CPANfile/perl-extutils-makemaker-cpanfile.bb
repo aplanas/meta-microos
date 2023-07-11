@@ -11,14 +11,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.09"
 
-RPM_NAME = "perl-ExtUtils-MakeMaker-CPANfile-0.09-1.16.noarch.rpm"
-RPM_HASH = "e792834fcae1f7d2ad37b3bc514d1e966aaf94de2ac581279c751a9bcc7ff5ff126bccd24d62323848d5211e34d7b15cfe201e9d843f1b9550adab9667022b42"
+RPM_NAME = "perl-ExtUtils-MakeMaker-CPANfile-0.09-1.17.noarch.rpm"
+RPM_HASH = "15a0d250601d7eec4ac059a8cb2ddf921a598216f4235bb085039c3c083459c899dd3e1b64bb20c5523d8b5a6031b74b86b7a72749faa183c89d6042eb7042a7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-ExtUtils--MakeMaker--CPANfile \
 perl-ExtUtils-MakeMaker-CPANfile"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-CPAN--Meta--Converter \
 perl-Module--CPANfile \
 perl-Test--More \

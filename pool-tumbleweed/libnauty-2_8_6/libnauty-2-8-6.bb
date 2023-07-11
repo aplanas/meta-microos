@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.8.6"
 
-RPM_NAME = "libnauty-2_8_6-2.8.6-1.3.aarch64.rpm"
-RPM_HASH = "222eb399f544bbdbee4befba7f80c606a29a0702c536782f7219474d0e0bc21fbc134a37093ecf6b73a05ac9c365c058c964a7e76a2b9ea047de2b036922b3a5"
+RPM_NAME = "libnauty-2_8_6-2.8.6-1.4.aarch64.rpm"
+RPM_HASH = "fe591aea1784a606bdb6bf067649432b74bc90018a14af742001adff03c2abc14b58d0e84222c09abd108670c05428a29fc0602c23ad11c115ff208604ead514"
 
 RPROVIDES:${PN} += "libnauty-2-8-6 \
 libnauty-2.8.6.so \

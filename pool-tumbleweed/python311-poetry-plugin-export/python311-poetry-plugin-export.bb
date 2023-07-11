@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "1.4.0"
 
-RPM_NAME = "python311-poetry-plugin-export-1.4.0-1.1.noarch.rpm"
-RPM_HASH = "5525138f6cfbc55e581f460ffbd6fe00be46529550a747bdf9e15213c83b6e1046c8202fdab658fb2596d4281efc6c43ccd7c1d7dc3dbc45770a8697f8a398d7"
+RPM_NAME = "python311-poetry-plugin-export-1.4.0-1.3.noarch.rpm"
+RPM_HASH = "6a14ce6b3e16830e65eeb8c414aca5be63b8eb76c653348aaab9e79dc21891b0df74e93e3a520006570a74986ae9810eb2ff71594fbd88a93cf8f9a4ee420938"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-poetry-plugin-export \
+RPROVIDES:${PN} += "python3-poetry-plugin-export \
+python3.11dist-poetry-plugin-export \
 python311-poetry-plugin-export \
 python3dist-poetry-plugin-export"
 

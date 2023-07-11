@@ -7,8 +7,8 @@ LICENSE = "CC-BY-SA-3.0 & MIT"
 
 PV = "12.0.1"
 
-RPM_NAME = "libweston-12-0-12.0.1-1.1.aarch64.rpm"
-RPM_HASH = "146321aa8e14862ea1c0b23c000b101602e4cb21776b6581d89d2eee451155e6de8a4f08d6987bb7e289aaa2813a8177caecbfd491388ef049059e06e0e2e6c4"
+RPM_NAME = "libweston-12-0-12.0.1-1.2.aarch64.rpm"
+RPM_HASH = "455390c9c97007578d60c139f1fda19e0a13fbb340dd09c46948b25a6a9e11ff4ac45add71b1a7dd64ed9f825f6bf76d04d41da2540fabe5773977aa8063c5d8"
 
 RPROVIDES:${PN} += "libweston-12-0 \
 libweston-12.so.0"

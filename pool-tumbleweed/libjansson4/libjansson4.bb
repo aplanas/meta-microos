@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "2.14"
 
-RPM_NAME = "libjansson4-2.14-1.7.aarch64.rpm"
-RPM_HASH = "509f5f1dfff93c9a51eebc5d9c6d5993f00eda3c9992558986d54cac4b48167ab69b3376a2b77d44fa5edb512d0df902d778621bd5f9d22bf59209753e6d5cbb"
+RPM_NAME = "libjansson4-2.14-1.8.aarch64.rpm"
+RPM_HASH = "27a360e68f89f45764a0d1ab6890f14cd4931ce2a2755e857ed2b63f42b41281b5175a789b75f19c01d64a99a5e7ffad36c5a19526cf5aca69fea0564117e38d"
 
 RPROVIDES:${PN} += "libjansson.so.4 \
 libjansson4"

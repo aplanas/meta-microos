@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "2.0.1"
 
-RPM_NAME = "python310-py-multihash-2.0.1-1.9.noarch.rpm"
-RPM_HASH = "4751c43be7168c9d0aa0220d10aa0489e7c8ff3e5f0e4b43b1dd29d3d9386c35124734980f7dfc2224c0773740d954e34a3e78a6013dc57ebc84f7feefecd9ea"
+RPM_NAME = "python310-py-multihash-2.0.1-1.11.noarch.rpm"
+RPM_HASH = "ae304106bb55da2e6d2b209240f311bd503cffb934c0f4b277194624c89b385607c63aeb95274392a965717b944443fd7690d407c413c0287939e77549da85bf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-py-multihash \
-python3.10dist-py-multihash \
+RPROVIDES:${PN} += "python3.10dist-py-multihash \
 python310-py-multihash \
 python3dist-py-multihash"
 

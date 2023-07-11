@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-or-later"
 
 PV = "1.5.1615+0"
 
-RPM_NAME = "psi+-plugins-enummessagesplugin-1.5.1615+0-3.1.aarch64.rpm"
-RPM_HASH = "ac9f4361193c3ff3b54e6f6d329efe5343611c45f610c34adfaccc8e086e628ce38f1c04697dace9ff1eebdebf76dfbaa27c8460be30b93b4e67088ca97966a0"
+RPM_NAME = "psi+-plugins-enummessagesplugin-1.5.1615+0-3.2.aarch64.rpm"
+RPM_HASH = "8fc5b17c625d0a0b212b65c0c41576b4030a4c30c54856dcee99639189abdec94fa65fd71b2897efee7a594d94b7b359727e9ff3d4a82a54e863303d4e6020a5"
 
 RPROVIDES:${PN} += "libenummessagesplugin.so \
 psi+-plugins-enummessagesplugin"

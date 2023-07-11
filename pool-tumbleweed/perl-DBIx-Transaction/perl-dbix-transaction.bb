@@ -11,15 +11,15 @@ LICENSE = "Artistic-1.0 | GPL-2.0+"
 
 PV = "1.100"
 
-RPM_NAME = "perl-DBIx-Transaction-1.100-23.29.aarch64.rpm"
-RPM_HASH = "55b8a35f00298f7ad5b18d41204eb6d1156c3e720eae213cc418bb57b721129643ea4332587f90ef3e68bfff806fe6e60c502375c3ee130cafb4f8373bd38593"
+RPM_NAME = "perl-DBIx-Transaction-1.100-23.30.aarch64.rpm"
+RPM_HASH = "92e55ea63478cdb337d0eb2684b5433c0f57da76ccfa3890863c68e5a2ad72118ba1a5e0f3e5e48df4ce84a25783791e5ff60be80cef59e5ef3460d3d6d1ed9e"
 
 RPROVIDES:${PN} += "perl-DBIx--Transaction \
 perl-DBIx--Transaction--db \
 perl-DBIx--Transaction--st \
 perl-DBIx-Transaction"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-DBI"
 
 inherit rpm

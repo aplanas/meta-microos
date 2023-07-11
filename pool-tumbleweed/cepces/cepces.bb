@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.3.7"
 
-RPM_NAME = "cepces-0.3.7-1.3.noarch.rpm"
-RPM_HASH = "a8c4b1041b182502cf366a1622cf5ba9b2889c3a3900239a5dbe725bf2d92a61e4db903e26fb311c1576c8e372d6d53ddeb82a667aec4d1bc6e7e1df64dced4e"
+RPM_NAME = "cepces-0.3.7-1.4.noarch.rpm"
+RPM_HASH = "9ef162b597e9970b625f37b066fbc04ced17f59bb476da5a4cefb9e16de24d3da9d218d45e2767ed09c0b2d18c1594702b4d854fc4b004992f0c0a2b3ed9580a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cepces \

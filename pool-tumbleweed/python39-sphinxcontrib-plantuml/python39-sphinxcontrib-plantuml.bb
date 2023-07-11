@@ -8,8 +8,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.24.1"
 
-RPM_NAME = "python39-sphinxcontrib-plantuml-0.24.1-1.3.noarch.rpm"
-RPM_HASH = "eaad01b877f4af8e07483f077f67c8e9c8232d5d3bea26fcd33ea226fb9f1245b6619e7d2048ce38be9dce8762480ad7623ebced1c9d770361a06f43acba81aa"
+RPM_NAME = "python39-sphinxcontrib-plantuml-0.24.1-1.5.noarch.rpm"
+RPM_HASH = "a7d108cc69d72b2586fb580723210e99a27b6d295a0558fd0f84c8a109a02504e2b1be0654f7a215ad567d37a2f38e4c64e36d5a56e46709fba1d81f500c8428"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sphinxcontrib-plantuml \

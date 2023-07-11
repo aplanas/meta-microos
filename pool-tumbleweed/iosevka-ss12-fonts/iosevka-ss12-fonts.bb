@@ -6,10 +6,10 @@ preparing technical documents. \
 This package contains the Iosevka SS12 typeface (monospace, Ubuntu Mono style)."
 LICENSE = "OFL-1.1"
 
-PV = "24.0.0"
+PV = "24.1.4"
 
-RPM_NAME = "iosevka-ss12-fonts-24.0.0-1.1.noarch.rpm"
-RPM_HASH = "f1c1b8b1e0b468b26fdde8d7a59eb85c0e3f498e0e5d6d30fa6ae7ba8dd3ca19d62f7ed7936620418a91ce8fa79cd1e4cf881083360a983e033b1a4d561a04b1"
+RPM_NAME = "iosevka-ss12-fonts-24.1.4-1.1.noarch.rpm"
+RPM_HASH = "58c87e3c0f4cf8d101616a414b7d496850e4ac7bf2b863df4c8a2f590a1131c42fdafcd52978f049204ff2bc9462285cb02f979975554821c36981177052bb0a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "iosevka-ss12-fonts"

@@ -22,13 +22,13 @@ commonmark-pandoc (which allows using this parser to create a Pandoc structure) 
 commonmark documents)."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.2.2"
+PV = "0.2.3"
 
-RPM_NAME = "ghc-commonmark-0.2.2-2.3.aarch64.rpm"
-RPM_HASH = "6fe8f0e85bb6252722e1b76b49de04164dbd578814d8092807f649f84e05c8b24a75c9d0118ce565aa3732134ba4f4dcc9a5cc0ccf9520e8fc7678b3eebd81c0"
+RPM_NAME = "ghc-commonmark-0.2.3-1.2.aarch64.rpm"
+RPM_HASH = "6f27dea8dfe72d7a21c4058846ad03f8486c009d3bcf340b06cb75a8826943ea0b47855311e68ab3727fe12ca8608a3bcc2d660e7008fd879534fc47621024d2"
 
 RPROVIDES:${PN} += "ghc-commonmark \
-libHScommonmark-0.2.2-3PrTrnYGJolB2uRqWVubZz-ghc9.4.5.so"
+libHScommonmark-0.2.3-I1mjDgOYrWfJTVx5dvVv0G-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
 libHSbase-4.17.1.0-ghc9.4.5.so \

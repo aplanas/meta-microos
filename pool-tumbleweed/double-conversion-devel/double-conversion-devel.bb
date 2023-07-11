@@ -8,10 +8,10 @@ This package provides libraries and header files for developing applications \
 that use double-conversion."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.2.1"
+PV = "3.3.0"
 
-RPM_NAME = "double-conversion-devel-3.2.1-1.3.aarch64.rpm"
-RPM_HASH = "24f1a0d13834c0ca247fc69a689e13edc1780d1087fa75b3f9688487980561c3d6b5d2e45051a186bb0d529c45af1a60f7a63be5aac5b07f117c11b6b86a64e2"
+RPM_NAME = "double-conversion-devel-3.3.0-1.1.aarch64.rpm"
+RPM_HASH = "3480d611dd8b74e9e558de3243661a5a5b273cfbe37aa81c57719da3c4b2cd282b8437093596d441006efff38ff945300841039e33cf07670bd782ee1e422b6c"
 
 RPROVIDES:${PN} += "cmake-double-conversion \
 double-conversion-devel"

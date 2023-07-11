@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
 PV = "2.3.1"
 
-RPM_NAME = "monitoring-plugins-ssh-2.3.1-9.4.aarch64.rpm"
-RPM_HASH = "a22eb8981f27e4a02ac89d1804694c4b8cfd61e650a2e1aa43a59a5bc619e64ac8af1b935f72778219e0cf0a248646f50ad5473bdf64bb428cd07d5022c41919"
+RPM_NAME = "monitoring-plugins-ssh-2.3.1-9.5.aarch64.rpm"
+RPM_HASH = "3e60f13f275bb20acbf8da4237ca169c19254d7cb97e19d8687afea8e9b0d2462d485b7bdc213a604e93e60847372ced68fd40ddad933f8a2948ca82f031ad0c"
 
 RPROVIDES:${PN} += "config-monitoring-plugins-ssh \
 monitoring-plugins-ssh \

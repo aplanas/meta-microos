@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "2.2.1"
 
-RPM_NAME = "python39-smpplib-2.2.1-2.5.noarch.rpm"
-RPM_HASH = "2a513bce426502d9052b554be3032dfffbc0c4c88161fee0ed6ee79e3a1f362d7ac57c535af5b95195726654975b2a2329fb805b0200316cd10cd85ac2b609be"
+RPM_NAME = "python39-smpplib-2.2.1-2.7.noarch.rpm"
+RPM_HASH = "32f68ae71c4c6416fb305aa5eee799a2027783a296d1940bdf83a325fe5690d331bff8d99c91d8c38bfbee9e9c06339f7cd2baf70de436ab62e5209ca6b7044c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-smpplib \

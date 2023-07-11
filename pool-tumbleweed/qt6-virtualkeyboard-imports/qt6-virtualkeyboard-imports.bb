@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-virtualkeyboard-imports-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "23bd65f5a085c48286ba3ed03c7eb20bd125754718f7b359555bf487f4a7d994574ae356587d30cbddc7ca5008233ffea18e4094199c3b9bbd1f6262a33b453d"
+RPM_NAME = "qt6-virtualkeyboard-imports-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "ceb35509029f52b3d7baa7fa0536345ffdbe8a6746c64f3dc41c6d1d763c02dd9c132e137c9468e761334f696b1bb796dc1ad324a0ce41bbd01c5a049859b093"
 
 RPROVIDES:${PN} += "libqtvkbbuiltinstylesplugin.so \
 libqtvkbcomponentsplugin.so \

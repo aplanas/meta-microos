@@ -12,12 +12,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "5.0.0"
 
-RPM_NAME = "python310-smmap-5.0.0-2.1.noarch.rpm"
-RPM_HASH = "70016acf999b27e13f8ddd7ce64b5a885430a24da9b601aa16a7c024976a3f8ce0a4c0173b73c873f75cf78b1209333eff595a37dbc096e1bdcff205bca13fbe"
+RPM_NAME = "python310-smmap-5.0.0-2.3.noarch.rpm"
+RPM_HASH = "479ab877c8c2800de219a5cfff33a0e8084946e3dcde427980cb36feaf7a5391f25c86d68ef55da6f5300b1222affb915f4e765e76049fe2249233ac8fb54ff4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-smmap \
-python3.10dist-smmap \
+RPROVIDES:${PN} += "python3.10dist-smmap \
 python310-smmap \
 python3dist-smmap"
 

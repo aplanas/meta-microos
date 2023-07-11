@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "gnote-lang-44.0-1.1.noarch.rpm"
-RPM_HASH = "3cfb3f4e5b877852ec16743e4acf2d2f0f7ff90c754a52b37fc82003ea2fb63aea6ad4910a3f42b78939bf7d70d4cc4a25be3a29551e2ba1e26097fda37030dc"
+RPM_NAME = "gnote-lang-44.0-1.2.noarch.rpm"
+RPM_HASH = "9da4fb9c597b9125c348a365282a0e635f169bc411daee5df96d6f5be2a28eb0c696f4798713a5d6649dd4f41b09a3c774561f94877d5d3b9fb79f884014a23e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnote-lang \

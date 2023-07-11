@@ -5,8 +5,8 @@ LICENSE = "ZPL-2.1"
 
 PV = "6.1"
 
-RPM_NAME = "python39-zope.security-6.1-1.1.aarch64.rpm"
-RPM_HASH = "d18ae21d7d95a30bc3361bd4d84504f33b0b717a0b0bbddf75eab8f03f86491cf0f8f7dd16f216ef0a9b770eaf02b0958781ef60d5f8eafdf646d4476793312d"
+RPM_NAME = "python39-zope.security-6.1-2.3.aarch64.rpm"
+RPM_HASH = "22ac23296ff389a10f0e0f93e71b135a9040fbf955ee0989c4d503ad9979e07e7582ebc623fe4e182e9ec24a8d5ef3cd4f1e8d8f6c5506df23f7cdceeed7a813"
 
 RPROVIDES:${PN} += "python3.9dist-zope.security \
 python39-zope.security \

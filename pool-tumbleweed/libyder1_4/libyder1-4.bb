@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.4.19"
 
-RPM_NAME = "libyder1_4-1.4.19-1.3.aarch64.rpm"
-RPM_HASH = "f5650bc070c68fe7e6aca808265d53560f51b8414b71541a960204b39dcf136db6fa4ec731acabe70d391e87f9a972aadc553d8377e65941a20a1c42ad57ff70"
+RPM_NAME = "libyder1_4-1.4.19-1.4.aarch64.rpm"
+RPM_HASH = "59e5455f6bed90672b0a661ffd180e0273ff720a0b633f493d3c85adbea4f7dbc8608ca096d98ce1e2d024336dc9c947aadccdbf15c5b4fd1295a70f791c3fd2"
 
 RPROVIDES:${PN} += "libyder.so.1.4 \
 libyder1-4"

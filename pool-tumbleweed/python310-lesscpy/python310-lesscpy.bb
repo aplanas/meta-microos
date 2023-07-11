@@ -10,12 +10,11 @@ LICENSE = "MIT"
 
 PV = "0.15.1"
 
-RPM_NAME = "python310-lesscpy-0.15.1-1.4.noarch.rpm"
-RPM_HASH = "0eba47fb18a3c53f5b2d61a2084b2a7d31c97ef9d99f7fd7a15236a4c22b2515ccdd4e1581739cf5b628def0a961794f84e2f2992fdc65d372754f9d560786ce"
+RPM_NAME = "python310-lesscpy-0.15.1-1.6.noarch.rpm"
+RPM_HASH = "6ce362e0430da06b2e8c106e3fc3c94d249911b74ff968419024adf137ebd345613d85ff41764dc549e393cae9b0a4628fdf8557d2dfa73de1845ea9625fc5d5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-lesscpy \
-python3.10dist-lesscpy \
+RPROVIDES:${PN} += "python3.10dist-lesscpy \
 python310-lesscpy \
 python3dist-lesscpy"
 

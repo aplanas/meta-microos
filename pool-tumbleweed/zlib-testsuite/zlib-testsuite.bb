@@ -6,8 +6,8 @@ LICENSE = "Zlib"
 
 PV = "1.2.13"
 
-RPM_NAME = "zlib-testsuite-1.2.13-4.1.aarch64.rpm"
-RPM_HASH = "1ceb5b77beeccb31311b42612deb1233d57fd3bcd1cdb3f04cce022da75ffc3f523f636e61f1862cfdc49349edaead35e8ca80c7511997c0ac467881d43882a5"
+RPM_NAME = "zlib-testsuite-1.2.13-4.2.aarch64.rpm"
+RPM_HASH = "9c6d3dc0c5882c1905c289f3da3e4ac3cf91c0139edefc1e82152eb3cf086dc0c61db1455811e4ea14dccd43a609690d8193367d79e910afd1931ab145570fb7"
 
 RPROVIDES:${PN} += "zlib-testsuite"
 

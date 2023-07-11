@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.4.3"
 
-RPM_NAME = "python39-neovim-0.4.3-1.12.noarch.rpm"
-RPM_HASH = "543650635e97c71e9ade86a2f83e7c60045ec23175810848d69a74670bba23a39ae4f330e0986de17497f8cf510e4d4b529944d038968b8241f456752d3d61da"
+RPM_NAME = "python39-neovim-0.4.3-1.14.noarch.rpm"
+RPM_HASH = "91d1c8dab1740265c259483d61a74daa828eabaa571185485858a4af4afdd18a67cd8baa93621f92baee9853fb97f02b74ceec9ad7e56e4a055b3250bff0c5d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pynvim \

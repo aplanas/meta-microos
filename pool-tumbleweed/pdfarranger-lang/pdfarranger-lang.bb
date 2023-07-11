@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.9.2"
 
-RPM_NAME = "pdfarranger-lang-1.9.2-1.2.noarch.rpm"
-RPM_HASH = "234bbcb28ba7c4855256b2df5132102cc70b2debe9d7efabb6c031d35c63e0d3500357e1a471213658272a4de9b080556aebafabb1aff5a3500d0f2596a22b13"
+RPM_NAME = "pdfarranger-lang-1.9.2-1.3.noarch.rpm"
+RPM_HASH = "23f4f19f671a28f83002db9d53ecfee44a3116e735b6c8d050067bf6480306ad50fc657690da51591359cc24090a820fd49561377eae9c8d72a21f303ff083df"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-pdfarranger-ca \

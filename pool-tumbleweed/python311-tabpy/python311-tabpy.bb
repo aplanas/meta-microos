@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "2.5.0"
 
-RPM_NAME = "python311-tabpy-2.5.0-1.8.noarch.rpm"
-RPM_HASH = "8e8cace17d617976b5a31dab7d2776796d90968f55414257dd7a0eab170d9e6a5c5e7d05561f9b28446c538536cf809f5e19eabb7967fce46ec2642df8f027a1"
+RPM_NAME = "python311-tabpy-2.5.0-1.10.noarch.rpm"
+RPM_HASH = "56c10b90fde378d1d175f43d16332b9e9268dd003d1ca339769045af31c011a19763e12846066679ee0132b5c08696ef1adaeb20b54284f371cb04cf101bf5e3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-tabpy \
+RPROVIDES:${PN} += "python3-tabpy \
+python3.11dist-tabpy \
 python311-tabpy \
 python3dist-tabpy"
 

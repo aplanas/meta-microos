@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.15.6"
 
-RPM_NAME = "folks-devel-0.15.6-1.1.aarch64.rpm"
-RPM_HASH = "2b5c07e6d26397772829504797d0c102d4d769858ca89be8082b2f0fc324214afc5212a567d6826f0cfe0c5ded61cf3470fb9eaeede5d2185b106fee304c8941"
+RPM_NAME = "folks-devel-0.15.6-1.2.aarch64.rpm"
+RPM_HASH = "7d606e1b72dd6a50251a2aa66b6b37a46714e324a57a26194f35f79eaef59af1bb8a62455a9e04e15b53c503db3c661d43302c9be96104c6cdd898ab1e792a67"
 
 RPROVIDES:${PN} += "folks-devel \
 pkgconfig-folks \

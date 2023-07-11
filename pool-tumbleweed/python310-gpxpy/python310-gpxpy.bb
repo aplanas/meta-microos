@@ -5,12 +5,11 @@ LICENSE = "Apache-2.0"
 
 PV = "1.5.0"
 
-RPM_NAME = "python310-gpxpy-1.5.0-1.4.noarch.rpm"
-RPM_HASH = "3d5ec291544cad87113b8d76db2c9a26c60604eda3f59567e9df808867b28f1d0e27f2ba5a03d2d60965de9e8ede44dce5442af392f9d58cec5e7285b8a0c2eb"
+RPM_NAME = "python310-gpxpy-1.5.0-1.5.noarch.rpm"
+RPM_HASH = "451f60b13be8a16b6bdec68a2290dabcfed1ca808f2697fbb03c9ea90db23ccc5fb527d88cc654447b5c044bdfcb58073bf68a544b8ac350e71cf394d954c98a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-gpxpy \
-python3.10dist-gpxpy \
+RPROVIDES:${PN} += "python3.10dist-gpxpy \
 python310-gpxpy \
 python3dist-gpxpy"
 

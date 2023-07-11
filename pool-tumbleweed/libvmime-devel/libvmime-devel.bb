@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.9.2.175"
 
-RPM_NAME = "libvmime-devel-0.9.2.175-2.4.aarch64.rpm"
-RPM_HASH = "3ceabb7d28a30279e3088aee6f7af23e2d36fb3d54a21eb1bbb3680509a10c29e8f9ae5f1d3d4c365462456e606e9e58e7b426c4b1ed84c0d7b9d57e32945d4a"
+RPM_NAME = "libvmime-devel-0.9.2.175-2.5.aarch64.rpm"
+RPM_HASH = "5d6f389566049f3c94015ba2f8bb5575f8d6654e202e478471cee9cee7fe2e68610ba8fa73cb6f3aede6aaef9b0558aa1a72b0a93fabf0779054de98de810708"
 
 RPROVIDES:${PN} += "cmake-vmime \
 libvmime-devel \

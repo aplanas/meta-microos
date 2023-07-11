@@ -4,12 +4,11 @@ LICENSE = "MPL-2.0"
 
 PV = "6.3.0"
 
-RPM_NAME = "python310-glean-parser-6.3.0-1.4.noarch.rpm"
-RPM_HASH = "549ef11c25601c3cd092f2a7012a2f49eb061db38bfda04fd72a0bbc8979d247fc79a5f151926afe9f09e72d513ac6d7cc9bad063e10fc2596502536ceb6d58a"
+RPM_NAME = "python310-glean-parser-6.3.0-1.6.noarch.rpm"
+RPM_HASH = "46e55ae6414b3749ad6f8f33aa238a06ab591d2b355d741057b3d4940e5f4c3cc88d077e63a105f95c3495b5e64e41d9301019af9f8091cd6af6a6e7996287c5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-glean-parser \
-python3.10dist-glean-parser \
+RPROVIDES:${PN} += "python3.10dist-glean-parser \
 python310-glean-parser \
 python3dist-glean-parser"
 

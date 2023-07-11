@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0-with-LLVM-exception & NCSA"
 
 PV = "15.0.7"
 
-RPM_NAME = "libclang-cpp15-15.0.7-2.4.aarch64.rpm"
-RPM_HASH = "c216861d1e05a26bd064d6d32a4f266c5d8ccd462def3c2df152313289935c1b8948be8c0c496355950e0dd3bff1447872f9cce9119566631a4be4d866d41a53"
+RPM_NAME = "libclang-cpp15-15.0.7-3.1.aarch64.rpm"
+RPM_HASH = "f99f6cb70317d818d106c4bea2d912da9b7e4deb8f5aa382a0c295f46528a00ea43dd8dfdd8b760fe99c3f0fbcf6a6ce4e3b1269ea4de13f969b7901bd141f87"
 
 RPROVIDES:${PN} += "libclang-cpp.so.15 \
 libclang-cpp15"

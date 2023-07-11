@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0 & Zlib & LGPL-2.1-with-Qt-Company-Qt-exception-1.1"
 
 PV = "2.0.0"
 
-RPM_NAME = "zxing-cpp-devel-2.0.0-2.1.aarch64.rpm"
-RPM_HASH = "a483005c9a3e6b631af66438a67536077673f08503736f412368b3ecb488c62a51681958e7015f9b13daffdb87d95b4a1d182b2a4a8e62fa95f1a7f418f2c7e8"
+RPM_NAME = "zxing-cpp-devel-2.0.0-2.2.aarch64.rpm"
+RPM_HASH = "856c50834a98ce748d85473d89a03b5abd0042a388863254635e39251f93c8d7de932bbcd84a132844ed5de08ba0df550cb5ff5f31c60b588b558ef3c64d5bcf"
 
 RPROVIDES:${PN} += "cmake-ZXing \
 pkgconfig-zxing \

@@ -3,10 +3,10 @@ DESCRIPTION = "Gwenview is an image viewer by KDE. It features a folder tree win
 list window, providing navigation of file hierarchies."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "gwenview5-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "9dbe2fb4c0245f48c375d423ad42072b7a58194297dd9ff4fc78a3a84d60822060410394649c642ed292fa5b7fac4a1ece07ec96eb2a9736f74c6fe1d70ff7b4"
+RPM_NAME = "gwenview5-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "7bfd316f13df0ece214bf2f3785e643cc69e1d4bfec9cbe0ae36b96404f204b136258a04b32f2322d3301fc90f69f9b04f4a493a6babf825bdf236d41645980e"
 
 RPROVIDES:${PN} += "gwenview \
 gwenview5 \
@@ -54,7 +54,7 @@ libQt5X11Extras.so.5 \
 libX11.so.6 \
 libc.so.6 \
 libcfitsio.so.10 \
-libexiv2.so.27 \
+libexiv2.so.28 \
 libgcc-s.so.1 \
 libjpeg.so.8 \
 libkImageAnnotator.so.0 \

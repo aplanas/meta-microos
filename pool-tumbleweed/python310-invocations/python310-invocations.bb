@@ -12,12 +12,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "3.0.2"
 
-RPM_NAME = "python310-invocations-3.0.2-1.1.noarch.rpm"
-RPM_HASH = "c9d5d7eb204c2e000c4945eca8ad4e3f4f7e28191d91f3e29fd019055d5b4dbbf56cba0a3388e43efdb350a1e4d0771a2809f74f7b0cd4d16f8ab17c333c5b40"
+RPM_NAME = "python310-invocations-3.0.2-2.3.noarch.rpm"
+RPM_HASH = "e17f8464318b0be18dbd1167a9557c949b65d6e04f18232b8e7456ea1c2794019bd77b677f58fee0ba3672ad6721d53fba7ef1d30f10fe1855caf58d336c4afc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-invocations \
-python3.10dist-invocations \
+RPROVIDES:${PN} += "python3.10dist-invocations \
 python310-invocations \
 python3dist-invocations"
 
@@ -27,7 +26,6 @@ python310-invoke \
 python310-lexicon \
 python310-releases \
 python310-semantic-version \
-python310-six \
 python310-tabulate \
 python310-tqdm \
 python310-twine \

@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.4"
 
-RPM_NAME = "python39-openapi-schema-validator-0.4.4-1.1.noarch.rpm"
-RPM_HASH = "156500351409e777fcd138b0116260aef59d948530680ef791ad528f1c208255d33c0b3841a127e3b68896726bdb6d2f88381e35ddc1460ee3d723a13994fe65"
+RPM_NAME = "python39-openapi-schema-validator-0.4.4-2.3.noarch.rpm"
+RPM_HASH = "17efd00a7708f339f252534fed8042fba3970377e7d786fdfe9d0fb82f39b6ac09fd34e68a0509b262c4a867471361657927bb5d37d9b281bac9decc261ecdf2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-openapi-schema-validator \

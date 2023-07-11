@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.34.0"
 
-RPM_NAME = "python39-breathe-4.34.0-5.2.noarch.rpm"
-RPM_HASH = "7542d662fd51894476e5db78129bcf1d79008904e45d80ab2c1d08eceb790fd6f4cc075874024556f7cfed6c39f05eca8682d3987c404718e8b5f5e2d1f26eaa"
+RPM_NAME = "python39-breathe-4.34.0-6.1.noarch.rpm"
+RPM_HASH = "1d29808d2acacca55ab6745a2a95a8d0b237eebe11815c3b7ff96daf03523598fa76ade53da478958a4aa796d666ad4226dbcc4e772024ef7799aa3a833115e9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-breathe \

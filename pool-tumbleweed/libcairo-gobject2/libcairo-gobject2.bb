@@ -11,8 +11,8 @@ LICENSE = "LGPL-2.1-or-later | MPL-1.1"
 
 PV = "1.17.8"
 
-RPM_NAME = "libcairo-gobject2-1.17.8-1.1.aarch64.rpm"
-RPM_HASH = "8d719606cfb635b2f113cb29051e582c2ce84f6093e7b22e865afeaa01a112619b16daceb5e342cdb7fe06cc512ef3da762e55499e4dc8af461c3f4f29f85626"
+RPM_NAME = "libcairo-gobject2-1.17.8-1.2.aarch64.rpm"
+RPM_HASH = "6f1d55cd91226a624aed9e980d0e6910e8507e4298521d9fcae3fe57892ac6ccd1c3bd0102659414afecc62e42ee7d463d06417aea86ebc48d13201380f903d0"
 
 RPROVIDES:${PN} += "libcairo-gobject.so.2 \
 libcairo-gobject2"

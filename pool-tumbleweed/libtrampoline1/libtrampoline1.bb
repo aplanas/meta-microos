@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.4"
 
-RPM_NAME = "libtrampoline1-2.4-2.7.aarch64.rpm"
-RPM_HASH = "e3870ff7514740662590cd320b64bff373fca27199473bacab8ad96dccdc208805177b80e4d38bf0b39a9d73e3466cd45338b31f10f1cf31d4d8df22a1049db0"
+RPM_NAME = "libtrampoline1-2.4-2.8.aarch64.rpm"
+RPM_HASH = "759ba7f9c6cd742843bc1c496c17956a50a45c8ca4c2d98146567675ba790fb357a811fad093e58c2e6ce6634467666294c20d7d018e72ceba88e58ca3d27c68"
 
 RPROVIDES:${PN} += "libtrampoline.so.1 \
 libtrampoline1"

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.10.11"
 
-RPM_NAME = "deepin-desktop-schemas-branding-upstream-5.10.11-2.1.noarch.rpm"
-RPM_HASH = "bfa0b6bfc725c9b3c23c3421174518869ec63f052d941b4690d10d6dd032963a4e2f9d2b14876664f153277fbfe23b1b10fe8f00d2c98473bc7ef879c89ed255"
+RPM_NAME = "deepin-desktop-schemas-branding-upstream-5.10.11-2.3.noarch.rpm"
+RPM_HASH = "87892cda3bbb443874eb928cb8495db30bdf30fcfdeee10b9656e4a455a38cbbfdad2ba50096f5ab759b5cfba5171ab3f337f834fc04dcd3174b2543d7e776bf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-desktop-schemas-branding \

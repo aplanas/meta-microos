@@ -4,8 +4,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2.1.0"
 
-RPM_NAME = "blacs-devel-headers-2.1.0-9.11.aarch64.rpm"
-RPM_HASH = "a30fd53329538836544647b2dab4a1cceb5d87444c070ed2baec9ad6e2012992c0e770adbaf9ad895a71268466c8b7bfd2f7c7782fc8be3f084cd2f1f8535e0c"
+RPM_NAME = "blacs-devel-headers-2.1.0-9.12.aarch64.rpm"
+RPM_HASH = "2f18e7832c2884c36c02b086fda14a24b476acc1c8f786e76c5e0d235a7591887e8236b7ba7d6f090cb9f132bb827633ddd282bd02ca42fc1b8208c1f2ab89c9"
 
 RPROVIDES:${PN} += "blacs-devel-headers"
 

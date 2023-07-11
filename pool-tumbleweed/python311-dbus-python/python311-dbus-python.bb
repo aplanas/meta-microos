@@ -4,10 +4,12 @@ LICENSE = "MIT"
 
 PV = "1.3.2"
 
-RPM_NAME = "python311-dbus-python-1.3.2-1.5.aarch64.rpm"
-RPM_HASH = "d3643b3517ffe6c86be0c921382b94a9a7e1c5396d573f9fa38cca908645edff1d9905e1814259f1d48713d4d6e54fd890b6ca4efdd218e20b572fc1216e2e9c"
+RPM_NAME = "python311-dbus-python-1.3.2-2.2.aarch64.rpm"
+RPM_HASH = "76d889a8b75356c3b4719b2219662ac89eddff5a822acc6374841cc0bfee8ad616781459cb775d5a5bdcda8bdd7eac081209f95598d50d60dc283aba1b83dff1"
 
-RPROVIDES:${PN} += "dbus-1-python311 \
+RPROVIDES:${PN} += "dbus-1-python3 \
+dbus-1-python311 \
+python3-dbus-python \
 python311-dbus-python"
 
 RDEPENDS:${PN} += "dbus-1 \

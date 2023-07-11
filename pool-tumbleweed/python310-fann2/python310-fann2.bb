@@ -10,11 +10,10 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.2.0"
 
-RPM_NAME = "python310-fann2-1.2.0-1.8.aarch64.rpm"
-RPM_HASH = "0fa4160351c2b6231f7a772fca312c0698b39e7289e05c2c782796691112beee48c4c258c7a3a6aab89708a064d2b9ad3feac61d3c487556be762aed6408f69c"
+RPM_NAME = "python310-fann2-1.2.0-1.10.aarch64.rpm"
+RPM_HASH = "a660308e3bca1bebf1bdee7b82f7c65a04dc5f923557f330ae4ff94c4d8ccf2666713df12e7597f1659f7ad1f9d61db9b3221a127cecafa5a38dd7513deaa78c"
 
-RPROVIDES:${PN} += "python3-fann2 \
-python3.10dist-fann2 \
+RPROVIDES:${PN} += "python3.10dist-fann2 \
 python310-fann2 \
 python3dist-fann2"
 

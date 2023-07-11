@@ -2,10 +2,10 @@ SUMMARY = "Fluidsynth plugin for GStreamer"
 DESCRIPTION = "Add fluidsynth midi support to any GStreamer based tool."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.3"
+PV = "1.22.4"
 
-RPM_NAME = "gstreamer-plugins-bad-fluidsynth-1.22.3-1.1.aarch64.rpm"
-RPM_HASH = "9d42f21221ba40904629c4f6e6a65e19006c5dac77ea6568f39ecda35173ceb77792d61e07d158ffe26fe3e766255f13fcad73126d0e591667102b3c3fd82d53"
+RPM_NAME = "gstreamer-plugins-bad-fluidsynth-1.22.4-1.1.aarch64.rpm"
+RPM_HASH = "8d0c4515d42cbf78235f0c3df85c6f1dbb20e473c673395f04def59aac2fd4c39b0d73cf18b007a783942ff50b727f24b2b1b0c336434ac07a9c64c8645c180b"
 
 RPROVIDES:${PN} += "gstreamer-plugins-bad-fluidsynth \
 gstreamer1 \

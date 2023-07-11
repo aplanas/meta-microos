@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.6.9"
 
-RPM_NAME = "fvwm2-2.6.9-4.1.aarch64.rpm"
-RPM_HASH = "f53bdd4954fc4c25981236f467177e2b45a654e2517699d39c99305f53f8ef8fcca92359c5da616d6dc47aee921f298df5d8dd069969f6cf8379adad482eb924"
+RPM_NAME = "fvwm2-2.6.9-4.2.aarch64.rpm"
+RPM_HASH = "a187b5a64c65517e5e3ffd872e431dd83b04edd62ee017ba859c1d9f45092d0dcf6225fa8c7a4aa97c40c84609d77ed2f371df49de116f1df9c31901b3a6eeff"
 
 RPROVIDES:${PN} += "config-fvwm2 \
 fvwm \

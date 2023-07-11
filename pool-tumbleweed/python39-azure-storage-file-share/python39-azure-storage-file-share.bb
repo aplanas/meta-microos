@@ -16,8 +16,8 @@ LICENSE = "MIT"
 
 PV = "12.12.0"
 
-RPM_NAME = "python39-azure-storage-file-share-12.12.0-1.2.noarch.rpm"
-RPM_HASH = "e758d00db4373f12d6eb4b1ffb788a239d8f5518a8fb406baf3b65c57b87935d02944c2fb76e02c5f0eb99a291a76818266ef10bf0c7112969957b0be00c7e71"
+RPM_NAME = "python39-azure-storage-file-share-12.12.0-1.4.noarch.rpm"
+RPM_HASH = "6df3c165a0671ebe7aca3527df0f30856b66ba3c6f77113083ec84f2be634408a63f2031e6dbc21b140323d786dd60aca3971b9f4162049d12aac3a5b1f5583b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-storage-file-share \

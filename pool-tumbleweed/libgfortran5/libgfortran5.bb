@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later-with-GCC-exception-3.1"
 
 PV = "13.1.1+git7364"
 
-RPM_NAME = "libgfortran5-13.1.1+git7364-1.1.aarch64.rpm"
-RPM_HASH = "9103a68a9a4e6cd40707a4ebea1394aba3a81a6da88b8d3de3f0a0f6a8f5bf1d6ecab3557e7eb731056dc56363079b119f8b787b6b8290b7f37a609f44bba13d"
+RPM_NAME = "libgfortran5-13.1.1+git7364-1.2.aarch64.rpm"
+RPM_HASH = "a79850629e467aaae4f66c740c3ca270758637cb550faf8ca5fc92dd4e6f6f6bc850a8bf074e9ea238333cffae5c7371f11237c22065a0e03a326abdc0f61c2c"
 
 RPROVIDES:${PN} += "libgfortran.so.5 \
 libgfortran5"

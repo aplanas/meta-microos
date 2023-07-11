@@ -13,8 +13,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.3.2"
 
-RPM_NAME = "soundtouch-2.3.2-1.2.aarch64.rpm"
-RPM_HASH = "c19ec7ba929620dd701df94227d2a88e54c83831f78ad70e30fd835b4518deb9f181e4a97492a13af12b3026817153798dc50b73cb713934945efca983093928"
+RPM_NAME = "soundtouch-2.3.2-1.3.aarch64.rpm"
+RPM_HASH = "b83e271bb2a35ccdd4506179d88427acbf617d3e88894e0bb168a6cbb40d9225bef3aa439cc77b04a9f9c5fcdde13fa7a370b2b0b1eb771174cb77d4e88ab4f9"
 
 RPROVIDES:${PN} += "soundtouch"
 

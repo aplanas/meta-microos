@@ -7,15 +7,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.42"
 
-RPM_NAME = "perl-TAP-Harness-JUnit-0.42-1.15.noarch.rpm"
-RPM_HASH = "b56e003ed6ded64817dd8035f9ce4783397409e90b5a276e9dff6d229da81c668a8d07dfbb8997c49b6615c3c98d28195a1be23ffb5e74883dfe8381b082a433"
+RPM_NAME = "perl-TAP-Harness-JUnit-0.42-1.16.noarch.rpm"
+RPM_HASH = "0ae1e573719c19f7bd75c8cb1fb61c2cbc6e86a1a257162e0b17bfa512ad96e584add0b7b2dac0943de44fbaad67b6bbc8100088befe39a50e5a5f9b81af5753"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-TAP--Harness--JUnit \
 perl-TAP--Harness--JUnit--Parser \
 perl-TAP-Harness-JUnit"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-TAP--Harness \
 perl-TAP--Parser \
 perl-XML--Simple"

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package svgpart"
 DESCRIPTION = "Provides translations for the 'svgpart' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "svgpart-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "d2b8cd290ea4ca10a554f2b79d9d21beb922bc71cf7dbb21782933feb1ce3d0d231e46144f88d5bd954a3ec1fb2e52323ff8393e49232dc956697775a89b30c7"
+RPM_NAME = "svgpart-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "077a950806524eda12aa005fcd18d2eda6fe82e0879c0ddb97af6a6fe86aa3a35ad4cfb809a7f51aa326c34f22f809ae72185fbe7f11993c8ac320411c6fac60"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-svgpart-ar \

@@ -7,11 +7,10 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.8.6"
 
-RPM_NAME = "python310-pychm-0.8.6-1.17.aarch64.rpm"
-RPM_HASH = "5038ca094a41e5a550ccd555ca19ab6fcc056d9761819d4eafff8d29e4dd6aa2d65d34fb26b65e705da3bfa57b55e4b47bd818a211cff49fea7352ec7290b36a"
+RPM_NAME = "python310-pychm-0.8.6-2.1.aarch64.rpm"
+RPM_HASH = "edbb62da907682d0bf96142964ebe5d671110db256a0ce5dc402272d7a43c4473bc06b20e770bf841495ce9cfcbf6d107acefaacd3b9716ef245933f98f91914"
 
-RPROVIDES:${PN} += "python3-pychm \
-python3.10dist-pychm \
+RPROVIDES:${PN} += "python3.10dist-pychm \
 python310-pychm \
 python3dist-pychm"
 

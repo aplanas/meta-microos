@@ -8,12 +8,11 @@ LICENSE = "Unlicense"
 
 PV = "1.4.0"
 
-RPM_NAME = "python310-restructuredtext_lint-1.4.0-1.4.noarch.rpm"
-RPM_HASH = "5b3f8ad2ce2858a6aa0ca68deaaaa9158fb28d33b6956795d890b2daded81a2a8c54879ceb5ba739c5c74d357b602202648eaa12943a443c6a5dbcc25a55c016"
+RPM_NAME = "python310-restructuredtext_lint-1.4.0-1.6.noarch.rpm"
+RPM_HASH = "6f341195dc193680c189eca0333b18102b41e21e8530045fcc684d77cdbc115e9ed27a91ea4e783b4aca78a9a697a856d8daf3341199280e067aba061262eeea"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-restructuredtext-lint \
-python3.10dist-restructuredtext-lint \
+RPROVIDES:${PN} += "python3.10dist-restructuredtext-lint \
 python310-restructuredtext-lint \
 python3dist-restructuredtext-lint"
 

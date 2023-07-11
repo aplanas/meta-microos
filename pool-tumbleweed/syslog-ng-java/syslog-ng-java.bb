@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "4.2.0"
 
-RPM_NAME = "syslog-ng-java-4.2.0-1.1.aarch64.rpm"
-RPM_HASH = "1975013704444f6a34545bdb253579020efcbee3662d7b239dfc371fa5806126bbf8a7957530d09157aac0305bfd772b532c46c6f623dc1f93891633e2b2569f"
+RPM_NAME = "syslog-ng-java-4.2.0-2.2.aarch64.rpm"
+RPM_HASH = "dae9ffdfedba9663871c31d480a584754b32c0b8fa47579d7a367a6e91e2aea45bb50ddf431c5c40379022e00e10ecb2c11dbdb4c8b6774332b274acde8891fb"
 
 RPROVIDES:${PN} += "syslog-ng-java"
 

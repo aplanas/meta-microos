@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only & LGPL-3.0-only"
 
 PV = "0.5.6"
 
-RPM_NAME = "libbamf3-2-0.5.6-1.4.aarch64.rpm"
-RPM_HASH = "53608436bbc1268bc4074f9ca7fdb5b862c20b4f1e3989c2fc07dbc5d1a149449da65c7265f7a87f3ce0368589a0f6c18e101f55cd7edf38f05c9bff9c6096f1"
+RPM_NAME = "libbamf3-2-0.5.6-1.5.aarch64.rpm"
+RPM_HASH = "2099090864aac89bbb978d477a0a464aba8415a509ae788c49245c2c42dd08599693dae50437423e709c5f315b5a8aac93676075d0a0ddf3eace1a565012e5a9"
 
 RPROVIDES:${PN} += "libbamf3-2 \
 libbamf3.so.2"

@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.0.99.2"
 
-RPM_NAME = "libsunpinyin3-2.0.99.2-2.2.aarch64.rpm"
-RPM_HASH = "520176d5a3c603e534f8ac6cd24a0e977bee29eebf1c9a0a587316aca6a821979a875215562834aa75fccd153f344eafa00a85b6f7e508d9ab5327f660fb157d"
+RPM_NAME = "libsunpinyin3-2.0.99.2-2.3.aarch64.rpm"
+RPM_HASH = "8de6db7609ddea7976ae40fdb408d9a7ad24100066a08dffe323d05c28194e2f0d598791c963cc75085e05bae06e4fc9900b72158fbe1b949a378baf4b6d106f"
 
 RPROVIDES:${PN} += "libsunpinyin.so.3 \
 libsunpinyin3"

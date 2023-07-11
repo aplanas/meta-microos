@@ -8,8 +8,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "7.0.1"
 
-RPM_NAME = "python39-Sphinx-latex-7.0.1-1.1.noarch.rpm"
-RPM_HASH = "aabcf79243be3980f41a6b4ccac347c634283c87d283fdd6cc33a982575e96b34339d0086040f058474cda50ce2e989bc30be882838b70795899f1034e1e0f58"
+RPM_NAME = "python39-Sphinx-latex-7.0.1-1.2.noarch.rpm"
+RPM_HASH = "8089afe20db6a3987000a20a1057bff25e77fe732883e0d2ea54c7ed5897e92ea96667d5c946a6d45599a02eb2bdc4468554ab9069bba3c4fb15a02a48900c30"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-Sphinx-latex"

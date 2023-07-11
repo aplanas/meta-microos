@@ -10,8 +10,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.1"
 
-RPM_NAME = "python39-Pympler-1.0.1-4.1.noarch.rpm"
-RPM_HASH = "2e4742692d9510c810b82cfd153108a98c4ec2e51f438f5ebe3f8f2c0b007fdd76dddd5d3ac7de0a05a97a8322159b2a7c3677fdf233028486cfef8fdfb917ee"
+RPM_NAME = "python39-Pympler-1.0.1-4.3.noarch.rpm"
+RPM_HASH = "804e6a26dda5fe64846c989c1ecc538769ca4711f7924677740b5940f6e0e534f307263fcfce51ae2853872285cb268b3eca52af738f520abcc999c1327eb645"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pympler \

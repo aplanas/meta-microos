@@ -2,14 +2,13 @@ SUMMARY = "The scikit_build_core[pyproject] extra"
 DESCRIPTION = "Python CMake adaptor and Python API for plugins: The extra requirement to build PEP518 wheels and sdists"
 LICENSE = "Apache-2.0"
 
-PV = "0.2.2"
+PV = "0.4.7"
 
-RPM_NAME = "python310-scikit-build-core-pyproject-0.2.2-1.1.noarch.rpm"
-RPM_HASH = "84c9bc49529dcb71fa74fdf1d14b62fa69004a6b61ad83f2495868e3716dff439e88ba5b808382659544e4f15b466b2dba0ce04a1fe7cb08870b864d56d7c7e2"
+RPM_NAME = "python310-scikit-build-core-pyproject-0.4.7-1.1.noarch.rpm"
+RPM_HASH = "d062ec6876ce77f1b8daefbcacf1c407215c2dde359302497f21ce05b8fa4c93582eecc50cb550251e726ded4e141eff4dc3b188b1db23076afb4c99f0f4d7de"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-scikit-build-core-pyproject \
-python310-scikit-build-core-pyproject"
+RPROVIDES:${PN} += "python310-scikit-build-core-pyproject"
 
 RDEPENDS:${PN} += "python310-distlib \
 python310-pathspec \

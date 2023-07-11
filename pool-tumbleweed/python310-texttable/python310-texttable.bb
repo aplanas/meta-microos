@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "1.6.7"
 
-RPM_NAME = "python310-texttable-1.6.7-1.3.noarch.rpm"
-RPM_HASH = "4efc6e55280800f9f4ca41eb7ee53e470cc3a43f685a8dc591ce3f817d29d0a23f7d1d77475798a98d2a8bb5e6e6200b8a5689bfeedcec77e73eba24bb905ef0"
+RPM_NAME = "python310-texttable-1.6.7-2.1.noarch.rpm"
+RPM_HASH = "cfc3a6925f6a0225d058c938d9c4b337b4a9051a7b1e8b3fc35cb24bf4f15d812a8fe56fb44be577347e7ddcc0511e28867d29218e0214d76f186d01dde3f6dc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-texttable \
-python3.10dist-texttable \
+RPROVIDES:${PN} += "python3.10dist-texttable \
 python310-texttable \
 python3dist-texttable"
 

@@ -2,10 +2,10 @@ SUMMARY = "Plugin to render beautiful and interactive graphs"
 DESCRIPTION = "A QtQuick plugin to render beautiful and interactive graphs."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kqtquickcharts-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "bfa38ac380fde084f78d13027a628d145b92d028f0be70d14e0fe23aded9f425e6e66d3a8664c3c5613c95bee26aacc2135f9d081a76b06c3a08915f353cc815"
+RPM_NAME = "kqtquickcharts-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "b9f141530026b257d4db0ab1e192fe28148db1e9cf054915e94bf8be30dd275a256b42f69d4e15bcba31a88bfcf500c07711a75e8eb9061fabe9b499bfcb533d"
 
 RPROVIDES:${PN} += "cmake-KQtQuickCharts \
 kqtquickcharts \

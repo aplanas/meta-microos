@@ -7,8 +7,8 @@ LICENSE = "GFDL-1.3-or-later & GPL-2.0-or-later & SUSE-Public-Domain & MIT"
 
 PV = "1.16.5"
 
-RPM_NAME = "automake-1.16.5-3.7.noarch.rpm"
-RPM_HASH = "707abc9f2f9956f7d0b5d4d63475fd46e1033463a5b244dc6fc495e0f345a58b987e73f44733f700eb59568ae250c41cd99c31141541dc0b1ec94f75a3791ab1"
+RPM_NAME = "automake-1.16.5-3.8.noarch.rpm"
+RPM_HASH = "336c37181585606bc10ee22246e33bee157450af6aef361b911cd4d7be76531596f189361d38bc1d5041deb135186a18bf16c17213dcf667f10421e10a5d91b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "automake \

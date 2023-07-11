@@ -17,8 +17,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.53"
 
-RPM_NAME = "perl-XML-Bare-0.53-5.37.aarch64.rpm"
-RPM_HASH = "99f4bd998abed4ccae6bc9b8cea2b07bb7e13bdc62ec09a065dcb46646dcd46ad6c6c1de8513ab1dae302e469686591f07e250cc6dac49eb5e2a90a727213a6a"
+RPM_NAME = "perl-XML-Bare-0.53-5.38.aarch64.rpm"
+RPM_HASH = "b90eaa93fda936d88f80d4dc7dde7099511126abf6b4ce8b862ae1ab40ea60c80b408114600f9fdc39c0821331f7f447d2fbf15bbb2c2e1e15fa4bb8cb692104"
 
 RPROVIDES:${PN} += "perl-XML--Bare \
 perl-XML--Bare--Object \
@@ -26,6 +26,6 @@ perl-XML-Bare"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

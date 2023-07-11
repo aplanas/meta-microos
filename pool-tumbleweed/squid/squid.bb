@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.9"
 
-RPM_NAME = "squid-5.9-1.1.aarch64.rpm"
-RPM_HASH = "aae8fdf9a730b920964a29eb238561e3793e57e5f1bada70aaf14b9b73335366a95e3c118434876561034ab89d74c203d8b8fe9a7a30af766981dddadc9b7c3f"
+RPM_NAME = "squid-5.9-1.3.aarch64.rpm"
+RPM_HASH = "419117bdfd26a645e5dfadad82d653728d1e8e9e530bd630620f029c7eee1a2613e523a0dddf2e1e30ca7646be9e2f4ae71ce5a9206733e7752ebebf62b17f21"
 
 RPROVIDES:${PN} += "config-squid \
 group-squid \

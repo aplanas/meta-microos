@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "0.2.3"
 
-RPM_NAME = "python310-libmsym-0.2.3-2.5.noarch.rpm"
-RPM_HASH = "2f2ce20dded8deea57036e83f8133064a9e1082a7f9cbc0923bdeedbee4a50506315664bf2dd5bcac66322630fc78dabfd90547f7231fa314113c1477829a39a"
+RPM_NAME = "python310-libmsym-0.2.3-2.6.noarch.rpm"
+RPM_HASH = "5ab87786cd451b6cd66eea7d61f03b3fa3ee553198aa76d98793c6ddabec2b46d5465be3b8a7cca8991b362eae02fb65ae7f0f69909361b2139b679ad307f5cf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-libmsym \
-python3.10dist-libmsym \
+RPROVIDES:${PN} += "python3.10dist-libmsym \
 python310-libmsym \
 python3dist-libmsym"
 

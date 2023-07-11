@@ -2,10 +2,10 @@ SUMMARY = "Oxygen Icon Theme"
 DESCRIPTION = "This package contains the non-scalable icons of the Oxygen icon theme."
 LICENSE = "LGPL-3.0-only"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "oxygen5-icon-theme-5.106.0-1.1.noarch.rpm"
-RPM_HASH = "4cff296cd51719ca3b283d842ad8e217551891fab19ddf4e106502258d595daeb3d312fd48855299683ca11e95fcdda10d19aae1ceddfd1db102dcb6e9fa6e81"
+RPM_NAME = "oxygen5-icon-theme-5.107.0-1.1.noarch.rpm"
+RPM_HASH = "7b0c13b857734746f625cb36443f1d4886564dbc99fede3971a8ae240ed4699d4e3e1a57f8bd88f5fbdd86201d17e612ee3d868a7abec0a5f0e7df1430a7f451"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "oxygen-icon-theme \

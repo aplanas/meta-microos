@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.9.7"
 
-RPM_NAME = "python39-python-ptrace-0.9.7-1.14.aarch64.rpm"
-RPM_HASH = "2791051f2c662fc222a0f1ce95f8dfe4b3fca7719fa7600ca028fc225e27e4cfe8da7838d7c827355d4a48cc5b2b6c964053955f5878593e941abc6f21cfc434"
+RPM_NAME = "python39-python-ptrace-0.9.7-1.16.aarch64.rpm"
+RPM_HASH = "8af3fe1fa7d69c7a44afe72ceef43203c5c657cc9cacde7ea540708c379ba4b29c985e845531cc90415589b0e7fe1729c63aa204b66029be8e3d0369a465056b"
 
 RPROVIDES:${PN} += "python3.9dist-cptrace \
 python3.9dist-python-ptrace \

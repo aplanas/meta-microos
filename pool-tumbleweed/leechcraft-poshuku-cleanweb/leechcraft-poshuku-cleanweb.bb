@@ -12,8 +12,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-poshuku-cleanweb-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "7056afc5ac4b84c00ed809c6bd75fc66105eaaef2e23f7f2138e3acbf9fda2081bf98665d97c42234aa8d80fca50080d5568cadfd0e5d2e26b3ae938e6f12fd9"
+RPM_NAME = "leechcraft-poshuku-cleanweb-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "a03835c59329d89912da35887e950dc6e0d4ea7197d1c090c9a3839647510c37682a103ada1b40a80357de189c6dfb23694ee5be37ec8af039f0831312625f40"
 
 RPROVIDES:${PN} += "leechcraft-poshuku-cleanweb \
 libleechcraft-poshuku-cleanweb.so"

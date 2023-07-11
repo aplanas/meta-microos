@@ -13,11 +13,12 @@ LICENSE = "MIT"
 
 PV = "1.2.0"
 
-RPM_NAME = "python311-azure-monitor-query-1.2.0-1.1.noarch.rpm"
-RPM_HASH = "93167886b6d1e4f33e854a592030e40f53652dc8f7137e56472276e795818ffa7847a5d907193b9539174bf5d31efc3baf04c79de584e09a770d0acaea07d065"
+RPM_NAME = "python311-azure-monitor-query-1.2.0-1.2.noarch.rpm"
+RPM_HASH = "ad523d6bae384294d1c4d7afdaaae800664dacf22fde6b10137a57192716948ba757c719aef5266525413b9d8fccc0fd429dc6d0a9778767dcca4e3f7f3f40b3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-monitor-query \
+RPROVIDES:${PN} += "python3-azure-monitor-query \
+python3.11dist-azure-monitor-query \
 python311-azure-monitor-query \
 python3dist-azure-monitor-query"
 

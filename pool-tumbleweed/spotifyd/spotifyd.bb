@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.3.3"
 
-RPM_NAME = "spotifyd-0.3.3-10.3.aarch64.rpm"
-RPM_HASH = "afb8d93e21ef4851ad3f5911e034026a07bf8c02ccd557f613d3b58af1610c5dda4e0ac03e2b2cb91a18d365f73e1bd4015ed2f0f44bafaef69e90b5b095e25b"
+RPM_NAME = "spotifyd-0.3.3-10.5.aarch64.rpm"
+RPM_HASH = "c0e499f7ec33de43aa0d3501257a1fefefeb383c1a5e946c8d2cca6a653ac5200dba85f31eedc614af018ca7dbc0d95ff0481a12334e91ff5610bde25f09ba9e"
 
 RPROVIDES:${PN} += "bundled-rust-crate-addr2line \
 bundled-rust-crate-adler \

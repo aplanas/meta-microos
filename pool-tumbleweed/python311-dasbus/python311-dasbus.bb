@@ -4,11 +4,12 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "1.7"
 
-RPM_NAME = "python311-dasbus-1.7-1.3.noarch.rpm"
-RPM_HASH = "28c236d6b13457019d3e2d5877f953caefcaf08f08e320a46210fffeadf67834e41818ba1b08b87032c2beaa63cc4c31c215b86b3c8232c662c93dbbf1fe34dc"
+RPM_NAME = "python311-dasbus-1.7-1.4.noarch.rpm"
+RPM_HASH = "881f60391ac66cc740e68aa2cba1b768731773921ca364dbb19aa4cb3ecfe19c886ff0cf921da84102896c19ed57afa8c2fb84b570ca06e3645bdccb00b7c78a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-dasbus \
+RPROVIDES:${PN} += "python3-dasbus \
+python3.11dist-dasbus \
 python311-dasbus \
 python3dist-dasbus"
 

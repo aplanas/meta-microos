@@ -4,12 +4,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.14.0"
 
-RPM_NAME = "python310-protonvpn-nm-lib-3.14.0-1.4.noarch.rpm"
-RPM_HASH = "7947e8c848a5d628de0bab1753fbc8cd4c6443e6829c6b37c1bebd89e8f933ad3a28e6d0c6eabf1dfb60d7cce7b176cb610e426d97f7940b432139ab0adfe5b9"
+RPM_NAME = "python310-protonvpn-nm-lib-3.14.0-1.5.noarch.rpm"
+RPM_HASH = "2996849a6271f2b538d504a62375802f15e588b81115b2d6ac0279caa72b7c0a69e7ce5c1bf7742aa112b7f14963d0a50677bd31d20a94f375e6f28742152721"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-protonvpn-nm-lib \
-python3.10dist-protonvpn-nm-lib \
+RPROVIDES:${PN} += "python3.10dist-protonvpn-nm-lib \
 python310-protonvpn-nm-lib \
 python3dist-protonvpn-nm-lib"
 

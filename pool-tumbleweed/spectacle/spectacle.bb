@@ -4,10 +4,10 @@ of screens, windows, regions of the screen, and to export them to files or other
 online services."
 LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "spectacle-23.04.1-2.1.aarch64.rpm"
-RPM_HASH = "08a55dac9180c548547ca43125e6f1f6e582a31105a5fa350eef0d9b3ea3aae6323040f6067524712aa7711195b9eb17e87a16a218a0cf3f9864c0a5ec083580"
+RPM_NAME = "spectacle-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "b88388cb6ac98bdbcfda3fe30fa8371f83d934b6083778c4e3321e4938f5439a24cb4373959ff7fe9818b9e94374454cdb8afcb02170a8b4f8422bd891f72c57"
 
 RPROVIDES:${PN} += "kapture \
 kscreengenie \

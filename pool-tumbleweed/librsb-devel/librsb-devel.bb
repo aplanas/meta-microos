@@ -10,8 +10,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.3.0.1"
 
-RPM_NAME = "librsb-devel-1.3.0.1-1.5.aarch64.rpm"
-RPM_HASH = "91b9cf2a10906213ea48c41f10e0e1df25274916d87f4c034fd76a7e02d409d9a3fdd604e8b2aa8c340d3c9240a94cc7095160444f8e22c6e1932432aa47002a"
+RPM_NAME = "librsb-devel-1.3.0.1-1.6.aarch64.rpm"
+RPM_HASH = "51bb3cc6f120f05b17afa8c69dfdb2c976434e0570094818e538783428a5b45db326b19e5458f90a99efa5d2c9c5a47b1631dab55d466e01493afa7fe266c21f"
 
 RPROVIDES:${PN} += "librsb-devel"
 
@@ -21,6 +21,7 @@ libc.so.6 \
 libgomp.so.1 \
 libm.so.6 \
 librsb.so.0 \
-librsb0"
+librsb0 \
+libstdc++.so.6"
 
 inherit rpm

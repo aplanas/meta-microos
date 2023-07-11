@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.0.1"
 
-RPM_NAME = "python39-flatdict-4.0.1-3.6.noarch.rpm"
-RPM_HASH = "95cc5c01ba0bd3cabb8bdb530ff82556c9744d6441eec4b30f6de65741ce1e3f49fc3e432c029f26ea1caf9dfdb7fd3e8fcf80b933ad388c7e85073a1d6cca97"
+RPM_NAME = "python39-flatdict-4.0.1-3.8.noarch.rpm"
+RPM_HASH = "e490500269f56196092bde9aa060840835ef1d26c1e0446c83a086feb5a16192d8d7fa597fab52780669841f88131dfe4c1c226eef73dfb8d467bdf238def81a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-flatdict \

@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "0.8.0"
 
-RPM_NAME = "python310-python-whois-0.8.0-1.3.noarch.rpm"
-RPM_HASH = "065a0a6614400f9600a0429e1ea1de3d00096c77c2283f37f164bff2ff80272b569886a409ae160bc16f483804fe34dedf13b92c3c1c3949193cb669c94ec4e7"
+RPM_NAME = "python310-python-whois-0.8.0-1.5.noarch.rpm"
+RPM_HASH = "a916db97d6c61b1642baab37dc97e6efe753cd443b63d8708a4afd4884192bd74d11cbae2e9c258b27483b487741560e1dacc908cd6a7942796be8ba8a23baf9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-python-whois \
-python3.10dist-python-whois \
+RPROVIDES:${PN} += "python3.10dist-python-whois \
 python310-python-whois \
 python3dist-python-whois"
 

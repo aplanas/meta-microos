@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.0svn35665"
 
-RPM_NAME = "texlive-glossaries-danish-doc-2023.201.1.0svn35665-53.1.noarch.rpm"
-RPM_HASH = "90e7af286aaf1369fe179b641b1f3896d196c8cce4e197a0d3a83f5d40b0678af696dec67cb00bab33768ab0dafea0619908817a6aed7e1df8c80f9030afcaec"
+RPM_NAME = "texlive-glossaries-danish-doc-2023.201.1.0svn35665-53.2.noarch.rpm"
+RPM_HASH = "7163f73da8e5619e0a4ba462c6b8ffd8b34c00ff7b9e8746eff7d52ead9e329d4bac69b11bf2effdba5f28b63893451b22259a962c5f70dcbf90edfc6f2f6f8d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-glossaries-danish-doc"

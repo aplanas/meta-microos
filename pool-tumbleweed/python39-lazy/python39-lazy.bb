@@ -10,8 +10,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.5"
 
-RPM_NAME = "python39-lazy-1.5-1.3.noarch.rpm"
-RPM_HASH = "f53ccaa6c45cf1364689a73a6ffcb2cc4d501f3336ddd0ab865f3a9f925601faa9f08cebfb1e6e39748c23552cc3c5e6c1b38518650444789d1662af46e7df14"
+RPM_NAME = "python39-lazy-1.5-2.2.noarch.rpm"
+RPM_HASH = "33326436036d4787336b8861188cba48bfa4337dac41e6595867c68267ba838d11375cab4a8749ccd12baf5ac1400e036d0190bc76b4dbad3d22c82f1ef1caed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-lazy \

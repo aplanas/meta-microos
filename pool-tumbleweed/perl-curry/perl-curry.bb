@@ -4,13 +4,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.000001"
 
-RPM_NAME = "perl-curry-2.000001-1.7.noarch.rpm"
-RPM_HASH = "4f8099e764dc14732f9215e607bb4dbd35fc6ede43e27ce0815923572df36923d6e583874422fe091dc2adc2a57bcaf917dbe734dbfd7d15e690dea72e4d71d9"
+RPM_NAME = "perl-curry-2.000001-1.8.noarch.rpm"
+RPM_HASH = "cf9c17203cd9569e364b33ce89b6d44f16f3bf5ec2f68aa45d41b9d4d3aa6749cd153bf62574ebfa30b3712151b2fd9470ef5ee3c8182886e91fdc7856f2478a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-curry \
 perl-curry--weak"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

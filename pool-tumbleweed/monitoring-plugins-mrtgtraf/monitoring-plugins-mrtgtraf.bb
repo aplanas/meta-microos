@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
 PV = "2.3.1"
 
-RPM_NAME = "monitoring-plugins-mrtgtraf-2.3.1-9.4.aarch64.rpm"
-RPM_HASH = "3f8c00c5ca8f5e799f205a7bc833fb9c30814653f6a0e03e27cfd10d0eec81f3031ff5b1b3018db9034863a1202a3ad8cc8550a5f5f103061f54ee59ce2c8812"
+RPM_NAME = "monitoring-plugins-mrtgtraf-2.3.1-9.5.aarch64.rpm"
+RPM_HASH = "af736fa12f3bf35a1da7f2876b50810e56f0405ab51b0de0dc3bf99901a0f023debf7f98366af51e8508a3e54b877afa2d0896e28dfe42fa2c2ebdf9d13c1e3d"
 
 RPROVIDES:${PN} += "monitoring-plugins-mrtgtraf \
 nagios-plugins-mrtgtraf"

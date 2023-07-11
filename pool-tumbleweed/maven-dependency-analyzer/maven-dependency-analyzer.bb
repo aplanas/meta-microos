@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.10"
 
-RPM_NAME = "maven-dependency-analyzer-1.10-3.12.noarch.rpm"
-RPM_HASH = "9dec370d28964e643c3ce065e8b2cdb73b3faa1d9d6c9b7925895b40d211b648332eec1d226d25672bc89294e953463063365c20ec9210e7507dd3456c927772"
+RPM_NAME = "maven-dependency-analyzer-1.10-3.13.noarch.rpm"
+RPM_HASH = "1793231ef35c4fb89febe412f7034297038e1cf7ff3dc1738950abc6044729bb6feb5e15c08f4c1cd89e2bcc4457f6ecfa13374e34e911a313d0eaa85769f2b4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-dependency-analyzer \

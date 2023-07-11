@@ -3,10 +3,10 @@ DESCRIPTION = "This is a plugin for gimp that exposes many of the nice gmic feat
 for interactive use in gimp."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.2.5"
+PV = "3.2.6"
 
-RPM_NAME = "gimp-plugin-gmic-3.2.5-1.1.aarch64.rpm"
-RPM_HASH = "446501cb3750f8c3017fc2185c19c04e3ede5f3efba54fd0f5277c47fab102a0bc99dca307c1623de51d1df0cf4901077f1ff678c3c68bbb620c4c5fb8f541a3"
+RPM_NAME = "gimp-plugin-gmic-3.2.6-1.1.aarch64.rpm"
+RPM_HASH = "ebc01c9177fd36cf53ac8677b9e2961ff5fb6f83aa4a5c022d4155c931a8c456137c93bdbe3cc4383532c58b86b5c288d1f5e7085536fb2cbd2fbdcf7fbc623d"
 
 RPROVIDES:${PN} += "gimp-plugin-gmic \
 gmic-gimp"

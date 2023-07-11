@@ -2,10 +2,10 @@ SUMMARY = "Qt5 xmlpatterns examples"
 DESCRIPTION = "Examples for the libqt5-qtxmlpatterns module."
 LICENSE = "BSD-3-Clause"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libqt5-qtxmlpatterns-examples-5.15.9+kde0-1.1.aarch64.rpm"
-RPM_HASH = "3acbd7666ea6e640eebbb433f2c871d24ea829ca732c859bba3fef7132459ea7ce124d52ac333e6de4731e06bbb0a8ca791a6589df91d8f9aad3b14561faaac1"
+RPM_NAME = "libqt5-qtxmlpatterns-examples-5.15.10+kde0-1.1.aarch64.rpm"
+RPM_HASH = "759692cb11791a6d3b9c8c38c29039f319a2f4b0f5ea8bae2ce7c6bd14eb4daa43dd1769ca914dbf40fbddc3c03bc487f260f3bda35d3818ca7df6173c5a5fa0"
 
 RPROVIDES:${PN} += "libqt5-qtxmlpatterns-examples"
 

@@ -7,11 +7,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "v0.2+git.108.e7850e0"
 
-RPM_NAME = "python311-sambacc-v0.2+git.108.e7850e0-1.1.noarch.rpm"
-RPM_HASH = "c3555ce0ec9ce0cd3315cf98eea22ba70998b3f79fa099d695047f3727b38bea1cd8ad97d29d469a3e672cd90ddcec083794a2d8d557abb129a0be8044f1196c"
+RPM_NAME = "python311-sambacc-v0.2+git.108.e7850e0-1.3.noarch.rpm"
+RPM_HASH = "929784d55279b3cb56f8978423941fe8f1ddb0331f587857f60cc95bdee19cc9efbe4effe3ff2369091891438a843eb46d59281f5bb3287d24e79354f2c75197"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python311-sambacc"
+RPROVIDES:${PN} += "python3-sambacc \
+python311-sambacc"
 
 RDEPENDS:${PN} += "python-abi \
 python3-pyxattr \

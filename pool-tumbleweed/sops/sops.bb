@@ -4,8 +4,8 @@ LICENSE = "MPL-2.0"
 
 PV = "3.7.3"
 
-RPM_NAME = "sops-3.7.3-1.6.aarch64.rpm"
-RPM_HASH = "3e6fc3ca62e649227303629516e917a6eecf0fbc657ee88ba3f2dc1373150c9358685b7476fe84b9a9c74c8d97ae6eafe993e00505fcac3ba7a53ed81e456c6e"
+RPM_NAME = "sops-3.7.3-1.7.aarch64.rpm"
+RPM_HASH = "f60859d5c22bdd7a5d311c83fbbe3a2af8dd4d6f5f27ec91eda7c6920242b2f3ea19663470cc24b5f609beb6403deb740b95c7e8e6acf3ac3b2dafa616687f53"
 
 RPROVIDES:${PN} += "sops"
 

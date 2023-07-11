@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "7.0.0"
 
-RPM_NAME = "ocaml-dose-devel-7.0.0-1.12.aarch64.rpm"
-RPM_HASH = "482c54d8a8576924aa1db71b2c3d06377bbdb32924cba319f477f38d882100c150b434cc35f24330767072ae6c43d8eef39ce07ca0cf6e4adcfe6c2feef36b1c"
+RPM_NAME = "ocaml-dose-devel-7.0.0-1.13.aarch64.rpm"
+RPM_HASH = "fa4e94bae378898efe93725c802b5f63902bfdd92b7a5ed6abc382f9ffd9191bbdd64486a92a861526a90d1c8daff6fab748ecaeecf590151ecaa072711c8082"
 
 RPROVIDES:${PN} += "ocaml-Dose-algo \
 ocaml-Dose-algo--Defaultgraphs \

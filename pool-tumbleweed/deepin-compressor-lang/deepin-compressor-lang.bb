@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.12.13"
 
-RPM_NAME = "deepin-compressor-lang-5.12.13-1.3.noarch.rpm"
-RPM_HASH = "83d44ddbebeb7fc9112945b3bfba9566171215a61c595469ea15dc062d71a2094c67b744b4afce68f52faa86f79c6feb7c8b73da3b3872621192c373f5932056"
+RPM_NAME = "deepin-compressor-lang-5.12.13-1.4.noarch.rpm"
+RPM_HASH = "1c207cf63a552317ca0b02671e07792aa1d202c73eb40cd87d61fa642140fbc2b77afbc5c0aaeb2850c3ae06e91246be8eebc9ef8169315dc1a44179ef27db03"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-compressor-lang \

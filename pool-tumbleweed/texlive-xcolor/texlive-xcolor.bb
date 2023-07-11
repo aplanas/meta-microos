@@ -12,8 +12,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.2.14svn63563"
 
-RPM_NAME = "texlive-xcolor-2023.201.2.14svn63563-52.1.noarch.rpm"
-RPM_HASH = "c8adfd53f9d42171261c380a923ecfbf8967193e91aae392e88110b422080ea5ffadbcd95f4c7c555c81100d23bcc8191513d3370911576a81f0676ce50e1778"
+RPM_NAME = "texlive-xcolor-2023.201.2.14svn63563-52.2.noarch.rpm"
+RPM_HASH = "3de7bbee5107c9cacad7a5c11d77bff10e0fb556e6c5782cb4c27bbad168664232c8cf4fb289797fa6afecfbb6a12beba19e82ef8398012f36af6cadf6444fe8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-svgnam.def \

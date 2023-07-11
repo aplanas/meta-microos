@@ -3,10 +3,10 @@ DESCRIPTION = "Building blocks for modern GNOME applications. \
 This package provides the development files for libadwaita."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.3.2"
+PV = "1.3.3"
 
-RPM_NAME = "libadwaita-devel-1.3.2-1.1.aarch64.rpm"
-RPM_HASH = "50ecf36da3789c4aacd48a4b7daad63bc5c3bc9492487763628f618a026cd3bb8ce5294cf5b50629620fdc03caa8475b341f7e6d97da9375037e8c845cd2f119"
+RPM_NAME = "libadwaita-devel-1.3.3-1.1.aarch64.rpm"
+RPM_HASH = "d33e18cda8c663820f7471362dce7ee230e63b98a19144f1dd60e86f1a920fdeca1c5c32ada1daa75910068c3f823e0ddbb366c5b8323709979a728534123af7"
 
 RPROVIDES:${PN} += "libadwaita-devel \
 pkgconfig-libadwaita-1"

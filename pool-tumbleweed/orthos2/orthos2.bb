@@ -12,14 +12,14 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.169+git.a693485"
 
-RPM_NAME = "orthos2-1.2.169+git.a693485-1.1.noarch.rpm"
-RPM_HASH = "a1af3b82b6e68cc3993abc3157459716dea0f05e720b248e467f77806e02936d956513412a63e5dbf010d63715f58867fd2c3f4db6da1c1175a3be9a9d956345"
+RPM_NAME = "orthos2-1.2.169+git.a693485-1.2.noarch.rpm"
+RPM_HASH = "15e5db0092c57ec3f34c03be6c659dd5495da8e172c9e133d133bb421c85572cecb20566d0113c4741eebdaec3f3702c814e3543daaf0119234a29baac3890a4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-orthos2 \
 orthos2 \
-orthos2-1.2.169+git.a693485-1.1 \
-python3.10dist-orthos2 \
+orthos2-1.2.169+git.a693485-1.2 \
+python3.11dist-orthos2 \
 python3dist-orthos2"
 
 RDEPENDS:${PN} += "/sbin/service \

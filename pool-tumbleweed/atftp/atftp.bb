@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.8.0"
 
-RPM_NAME = "atftp-0.8.0-1.2.aarch64.rpm"
-RPM_HASH = "422873b830235768adce7b20c64156cb4de415970e31cf41cb630f3b756cda1ce6df0c6fafc4dd2a18fe93b3ce321e5f586c519e7a7953083c9f57d21ddd99e7"
+RPM_NAME = "atftp-0.8.0-1.3.aarch64.rpm"
+RPM_HASH = "272a15267c1007b17397376fcc88fcc17945feda26b26822d49d819a9b8e5206710e96ca5fd04b3bff142c2938a78e015273001ac0f1bc0b961cdc42aeb29e35"
 
 RPROVIDES:${PN} += "atftp \
 tftp-client \

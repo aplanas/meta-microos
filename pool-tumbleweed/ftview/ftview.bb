@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.13.0"
 
-RPM_NAME = "ftview-2.13.0-4.1.aarch64.rpm"
-RPM_HASH = "746a0384d83209934b5efa34151c8751fbb1208ecbd18c9f5f9e47b32f560e8cc4d1a51da4a32940687cd7c88c86c7e03f06e499fdd348a6d17c6f3c2e58b7d1"
+RPM_NAME = "ftview-2.13.0-4.2.aarch64.rpm"
+RPM_HASH = "eed62e87270fcea130e50b10ad5cd673b1efcc8cfd3ccdf5e74f17ada1080f0a3874ad17d815fa11890573781a9fa119ba9e2fe52239152bb59503cae9c91eec"
 
 RPROVIDES:${PN} += "ftview"
 

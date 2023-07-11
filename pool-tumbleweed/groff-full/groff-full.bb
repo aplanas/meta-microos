@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.22.4"
 
-RPM_NAME = "groff-full-1.22.4-10.3.aarch64.rpm"
-RPM_HASH = "0c014abb08ae62ff109e0a1e6935e8d8340b0ad2154c1cd4eccb152d1d76de796ff48d3fb47c576e858427ab3d60fec5edf276bcd9241480c2168df193a484cd"
+RPM_NAME = "groff-full-1.22.4-10.5.aarch64.rpm"
+RPM_HASH = "0c5996f66ca194e782c9ecc5c1e1ef3dfb18003ed0592638daf322ed82a6572839e506e18b4e4bf36bd56579e64ab2ddc11511bd4c524d1f4e7bf5292f75120f"
 
 RPROVIDES:${PN} += "groff-devx \
 groff-full \

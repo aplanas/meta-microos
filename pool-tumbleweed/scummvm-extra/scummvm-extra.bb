@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.7.0"
 
-RPM_NAME = "scummvm-extra-2.7.0-2.3.aarch64.rpm"
-RPM_HASH = "158a9cc33374a20c82588b1fd4be7d3d24dac297513e278c63773061ab25de893ced29c34e35cf748570b63d485697e046539ac974c6a24c4377a3e86a9313d9"
+RPM_NAME = "scummvm-extra-2.7.0-2.4.aarch64.rpm"
+RPM_HASH = "7da085b06cb2cf350044194ed814193c6c2ad16d60f82ce6ba24642a2ef93a12404ddd8129880cf70d31577305ec8631229f896b27b75231358aec021cf2009f"
 
 RPROVIDES:${PN} += "liblastexpress.so \
 libwintermute.so \

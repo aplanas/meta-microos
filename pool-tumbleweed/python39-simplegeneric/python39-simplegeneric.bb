@@ -22,8 +22,8 @@ LICENSE = "ZPL-2.1"
 
 PV = "0.8.1"
 
-RPM_NAME = "python39-simplegeneric-0.8.1-9.17.noarch.rpm"
-RPM_HASH = "044d628e07aaaaf989aa02a3a455743917fd845cc5b55f2748778ad6b25f8af3c8dcb03542346c7a0138d8fbe242d6055f10a0c42217f443201d192689c9a2fc"
+RPM_NAME = "python39-simplegeneric-0.8.1-9.19.noarch.rpm"
+RPM_HASH = "b24b41d64c6b314962a738102df2d95362d3b072bbf5c1945d10f31debe0be7b5565e0d00cf95e674865aaf166ad485cb5ee7ea9e8ca426e6401017df09565c1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-simplegeneric \

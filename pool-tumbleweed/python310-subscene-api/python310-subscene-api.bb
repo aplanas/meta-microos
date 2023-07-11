@@ -4,12 +4,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.0.0"
 
-RPM_NAME = "python310-subscene-api-2.0.0-2.15.noarch.rpm"
-RPM_HASH = "b059b3bb2c2966d18690965b1727e18efaa309aeb9aba255731cd47ccd8e61e2acddb6ef8562920c7e3951553961218cb80c7b505aa879ae923db47233b5002e"
+RPM_NAME = "python310-subscene-api-2.0.0-2.17.noarch.rpm"
+RPM_HASH = "5482b13e7c0b367d53903a8d586b3d846f15fc3b4a554a476e8655b743c0f6d797ea9222171e40603e92ac289b4aaeb930ea10c622b26957e51fc2ea87b9c024"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-subscene-api \
-python3.10dist-subscene-api \
+RPROVIDES:${PN} += "python3.10dist-subscene-api \
 python310-subscene-api \
 python3dist-subscene-api"
 

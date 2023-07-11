@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "11.5.1"
 
-RPM_NAME = "ntl-doc-11.5.1-1.8.noarch.rpm"
-RPM_HASH = "f856e2d72edf3e972cb430c3d39f76ac30c346101813333b691c2a8d4edc36c2ea294bb7908ae294c7be66576409f19d4595068e6facbd53f7d93aa91748efc9"
+RPM_NAME = "ntl-doc-11.5.1-1.9.noarch.rpm"
+RPM_HASH = "32c48ea238c682fff07fe2bfeed7d57a3a4a43dcd60fc9a51ee86845c4667774f6b732313dfa897e967863bfffc6a27e538023771aad2ddfa421b48d76df2796"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ntl-doc"

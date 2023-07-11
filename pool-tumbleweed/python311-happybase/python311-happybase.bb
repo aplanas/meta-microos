@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "1.2.0"
 
-RPM_NAME = "python311-happybase-1.2.0-3.7.noarch.rpm"
-RPM_HASH = "700be436a6ee5019e863329ce76a6c8734b5c9f44b4f506a7e98391abf976155cebb646c8216d4c8cd8d8faf6f140c0463e5aea2595e6e1a1ed8f499099f3d07"
+RPM_NAME = "python311-happybase-1.2.0-3.9.noarch.rpm"
+RPM_HASH = "2eadf6cdee29ce9e7bd8309e8709460e2a52ff6c0a115710f1c112cdaa26f9724f89660483ab54f56f235d30cda596288fe5d6a8ed2fb740a6ce2906cb682da3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-happybase \
+RPROVIDES:${PN} += "python3-happybase \
+python3.11dist-happybase \
 python311-happybase \
 python3dist-happybase"
 

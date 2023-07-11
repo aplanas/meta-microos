@@ -10,10 +10,11 @@ LICENSE = "GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.8.5"
 
-RPM_NAME = "python311-sanlock-3.8.5-1.4.aarch64.rpm"
-RPM_HASH = "8ac6f1b5b63fd82f424e9bd1209eed6f7bc379d7b63e9e779bc71098fd668a2b3c5e62fd180d194cd10995a100649193c341e3eb6757705cbb4326cbd089ad5e"
+RPM_NAME = "python311-sanlock-3.8.5-1.6.aarch64.rpm"
+RPM_HASH = "556fe313bfddb4b0676173949298a74f3a2cce916d6e26d5bd2b4c9c333bf088a9cc2ee32506a3af74b20ad4d9844c5819e47f1ff7f263d92caf7fcac77b76b7"
 
-RPROVIDES:${PN} += "python3.11dist-sanlock-python \
+RPROVIDES:${PN} += "python3-sanlock \
+python3.11dist-sanlock-python \
 python311-sanlock \
 python3dist-sanlock-python \
 sanlock-python"

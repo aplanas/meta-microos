@@ -8,11 +8,12 @@ LICENSE = "Unlicense"
 
 PV = "0.28"
 
-RPM_NAME = "python311-versioneer-toml-0.28-1.1.noarch.rpm"
-RPM_HASH = "3dea8eff6fe4ef2e853d330e564c7c15257d03fc379822563ddf9d2949fac961e4a6943fbf093deb330d983d74dec7be222d4ee8e664ca05c901f315cee52183"
+RPM_NAME = "python311-versioneer-toml-0.28-1.3.noarch.rpm"
+RPM_HASH = "90c4178551fae0804fb62732790b904dc816f3fceb29d6adce1a84ec16feca3ed2ba8f375579e7626a37e62e2a35e5ed93d7aca79777e7251c3519abd1c6a0ae"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python311-versioneer-toml"
+RPROVIDES:${PN} += "python3-versioneer-toml \
+python311-versioneer-toml"
 
 RDEPENDS:${PN} += "python311-versioneer"
 

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.0.5"
 
-RPM_NAME = "abiword-3.0.5-2.9.aarch64.rpm"
-RPM_HASH = "49ba3b54802f8019f93c9bfe678c7fe975c3e427aff1ab1c048f3ea1da2e78b3fad32867c9d644a1212f04c40a9f76ed7adee24680925ea04bfdbe87268bb9a5"
+RPM_NAME = "abiword-3.0.5-2.10.aarch64.rpm"
+RPM_HASH = "3fb904fece67b0add8315a23a0baf478349587f8184eaf471b031cbc5818bc5cd0956af2b08bd9d1dc6de2bbdd68dc309b4c086167eb0a7955d673b647cc087b"
 
 RPROVIDES:${PN} += "abiword"
 

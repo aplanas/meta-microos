@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "1.0.2"
 
-RPM_NAME = "libxplayer-plparser-mini18-1.0.2-2.12.aarch64.rpm"
-RPM_HASH = "74730f0b2496d6e06a268dfa14029362a9c08eb883dc3c7082885c2f3c1d8fb4beb471f9e0db1b385f6b577cebd02037005f077928fddbb36a933f7bfdd1f2bd"
+RPM_NAME = "libxplayer-plparser-mini18-1.0.2-2.13.aarch64.rpm"
+RPM_HASH = "d947a386ba9ddd18def02a89d6815a47c822246f2eee96548a891dc2dbe6f85c05837fe1dcc169063c436b2484271ef0580476f1aa9808dd6aaf6857ad1bc5e1"
 
 RPROVIDES:${PN} += "libxplayer-plparser-mini.so.18 \
 libxplayer-plparser-mini18"

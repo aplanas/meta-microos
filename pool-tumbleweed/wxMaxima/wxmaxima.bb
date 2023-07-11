@@ -3,10 +3,10 @@ DESCRIPTION = "wxMaxima is a GUI for the computer algebra system maxima \
 based on wxWidgets."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.05.0"
+PV = "23.05.1"
 
-RPM_NAME = "wxMaxima-23.05.0-1.1.aarch64.rpm"
-RPM_HASH = "a9d8d9dddc2933b806373dc24b36a945559996d4988228ac468d445551143dd4490c05452e6cac4d557ab6169af9cc99c868b16ae6945071d9725e636b8e96da"
+RPM_NAME = "wxMaxima-23.05.1-1.1.aarch64.rpm"
+RPM_HASH = "2806f91d74f5727a5237d0a0dab555cc81d3650faa3ef0729ba4628e9ffba134491d37657c31da3333bc7d8c11009cca60dbe46cf0b2747d1e851dd1bc093928"
 
 RPROVIDES:${PN} += "wxMaxima"
 

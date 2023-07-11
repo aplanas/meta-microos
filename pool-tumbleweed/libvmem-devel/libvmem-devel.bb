@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.8"
 
-RPM_NAME = "libvmem-devel-1.8-2.9.aarch64.rpm"
-RPM_HASH = "2f6e6f2dacb47fa546b0f7cf456dc9faf8bcb5306642a64b921373b329699b09a6fa6f6032d0660ceff753b09e5b9dc6bf093a9e196c1a41b451b21119e1fb32"
+RPM_NAME = "libvmem-devel-1.8-2.10.aarch64.rpm"
+RPM_HASH = "5387a953249de3cae5b9ba14fe39b0bbce31c024a40602c7ed75b2eb36fd0c7a0e46c9bff3aaaa6e7d88d700d19361953765db6d83a7dc78985ea00328b5f362"
 
 RPROVIDES:${PN} += "libvmem-devel \
 libvmem.so.1 \

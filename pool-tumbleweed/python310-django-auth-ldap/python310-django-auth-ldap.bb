@@ -6,12 +6,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "4.0.0"
 
-RPM_NAME = "python310-django-auth-ldap-4.0.0-1.12.noarch.rpm"
-RPM_HASH = "c50cb1e4861c85dd99f011821a28cdfe76392b7de68a8bde02db9c593d11bd1337eabf578f438fe3968f676607c60127835fb729982bc0992166c036f344b2f7"
+RPM_NAME = "python310-django-auth-ldap-4.0.0-1.14.noarch.rpm"
+RPM_HASH = "6a610fe4d841710526f82bdc714f3981607d5a22e177cdb1bc8c224e812715a35dafd2ef909823a14f8b4586795f18f29cd53b99b3e34acceb19b314d803eea9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-django-auth-ldap \
-python3.10dist-django-auth-ldap \
+RPROVIDES:${PN} += "python3.10dist-django-auth-ldap \
 python310-django-auth-ldap \
 python3dist-django-auth-ldap"
 

@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0"
 
 PV = "23.1"
 
-RPM_NAME = "cloud-init-doc-23.1-1.3.aarch64.rpm"
-RPM_HASH = "f5bea75dffe2a1fe004974e0666117bc8a0f1285868b324407bfe381e6da035c93eb43cbfca24ebf980f05e03ded53e05159ab8ed667acf2cc0498ee0eaffd30"
+RPM_NAME = "cloud-init-doc-23.1-1.4.aarch64.rpm"
+RPM_HASH = "a17c30bbcda54b961ff16beb9ee05eb5f380c8f6f6890cb61e6d43161edac01614b56da36edaabc353106659a699b3152e52988a267facb0b2b912285f7651ab"
 
 RPROVIDES:${PN} += "cloud-init-doc"
 

@@ -12,12 +12,11 @@ LICENSE = "MIT"
 
 PV = "0.9.1"
 
-RPM_NAME = "python310-blue-0.9.1-2.1.noarch.rpm"
-RPM_HASH = "0f0aebf46635976143485d5da4eddadf3adc891ccc7702342b9b7fa412cefe7b199422d5bbdb95f299f77c4501df322a80da1207ab08681a457e9a6a6ad71f88"
+RPM_NAME = "python310-blue-0.9.1-2.3.noarch.rpm"
+RPM_HASH = "15f66ebf77ce86505b829c7caccb9c02e69fa76dc79c74516de9c66386b91214987882199bdc3ce8d7bfa3a1aeaf7016d99d9b5bd9b26b7fbab6bac910894f08"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-blue \
-python3.10dist-blue \
+RPROVIDES:${PN} += "python3.10dist-blue \
 python310-blue \
 python3dist-blue"
 

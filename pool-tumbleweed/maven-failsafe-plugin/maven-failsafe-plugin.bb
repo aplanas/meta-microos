@@ -18,8 +18,8 @@ LICENSE = "Apache-2.0 & CPL-1.0"
 
 PV = "2.22.0"
 
-RPM_NAME = "maven-failsafe-plugin-2.22.0-8.1.noarch.rpm"
-RPM_HASH = "d845baa218507ae27c8bf162bc789f8de29e65c4f4ca78448947b744f637df535d743f1ac094e2b7958d77b31bf1a01bb04f82526b6def1725426698994c671c"
+RPM_NAME = "maven-failsafe-plugin-2.22.0-8.2.noarch.rpm"
+RPM_HASH = "3437e638bab27a06fa95ee572cbd93caa8afea4865d347ab9bb4d57519f7730bb354f761fd82c2843341c5b3cf71761475c346038a3c9ff815bba2f66281e0fd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-failsafe-plugin \

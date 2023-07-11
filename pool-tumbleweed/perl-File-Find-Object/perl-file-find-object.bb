@@ -11,8 +11,8 @@ LICENSE = "Artistic-2.0"
 
 PV = "0.3.7"
 
-RPM_NAME = "perl-File-Find-Object-0.3.7-1.1.noarch.rpm"
-RPM_HASH = "378f1047e5bceb06d0e78eeaa418ab383cd1812c0b9e8c27bb77724dc625fafb5a1d6f2d06e055c36e6ee12226ab416bdd2e8f53627bf469b9516d5cc3328072"
+RPM_NAME = "perl-File-Find-Object-0.3.7-1.2.noarch.rpm"
+RPM_HASH = "7e4ac636810542478b285dff8613897ac484aa8bac8e84e9568297557df8e0548fc5aa41458146c76f54a1666c44ea82ce1818aeee2d818ac39cfe8e65148de7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-File--Find--Object \
@@ -23,7 +23,7 @@ perl-File--Find--Object--Result \
 perl-File--Find--Object--TopPath \
 perl-File-Find-Object"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Class--XSAccessor \
 perl-parent"
 

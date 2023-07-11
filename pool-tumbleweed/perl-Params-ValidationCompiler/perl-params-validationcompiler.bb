@@ -9,8 +9,8 @@ LICENSE = "Artistic-2.0"
 
 PV = "0.31"
 
-RPM_NAME = "perl-Params-ValidationCompiler-0.31-1.1.noarch.rpm"
-RPM_HASH = "d10af19543d46bb456c8a9672cd77dca1ed30cd71fa85562aea88673fd9854f328aa1f7f794672693ecc735906f32cfd6da8dcd349dc80b53543da0a01b07c44"
+RPM_NAME = "perl-Params-ValidationCompiler-0.31-1.2.noarch.rpm"
+RPM_HASH = "45f9ef5782cfb95cd35766a25b2724d892a1d9e55ff358f4c9a812abc4401bf1b935ebb9483d99f237b74a06d23f7f8ab55c135d95147f2b0b686db845d01e47"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Params--ValidationCompiler \
@@ -18,7 +18,7 @@ perl-Params--ValidationCompiler--Compiler \
 perl-Params--ValidationCompiler--Exceptions \
 perl-Params-ValidationCompiler"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Eval--Closure \
 perl-Exception--Class \
 perl-List--Util"

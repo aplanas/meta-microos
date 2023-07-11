@@ -9,14 +9,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.102"
 
-RPM_NAME = "perl-Net-IDN-Nameprep-1.102-2.14.noarch.rpm"
-RPM_HASH = "59981e135107ae27be0e28b0b115e31828028de43c1627367691470ba8746c878a31b2e687b298363ffd908113ed3f1c2d81cb7e69e0a65dc7878d66ce681d1c"
+RPM_NAME = "perl-Net-IDN-Nameprep-1.102-2.15.noarch.rpm"
+RPM_HASH = "f56d7175863addf77c598eff474e8a5621dac98a66e7691b202e6f4b2dc10847381ab7cf42691df6367f700a05581595630f180270ea12b183b90ab77215a207"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Net--IDN--Nameprep \
 perl-Net-IDN-Nameprep"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Unicode--Stringprep"
 
 inherit rpm

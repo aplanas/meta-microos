@@ -4,8 +4,8 @@ LICENSE = "Zlib"
 
 PV = "1.2.13"
 
-RPM_NAME = "mingw64-libminizip1-1.2.13-2.1.noarch.rpm"
-RPM_HASH = "386733bb5ad392c34b7ea2ebcb8995f03e490648c463276c616ef5f1a5c4e18f76ff9884c7c261dd6783d861840aeb98f8d77452cab3c656f5edcd6a8fd25ddd"
+RPM_NAME = "mingw64-libminizip1-1.2.13-2.2.noarch.rpm"
+RPM_HASH = "b31dab2af761af766000fff2c4be1ce6cbb02d85c4fc2177315e0366e60991a1bc79d9c82465b8b99a26b2ca73d11f328c7331a97952e4cc8052ff931a883655"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw64-libminizip-1.dll \

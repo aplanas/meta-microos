@@ -4,11 +4,12 @@ LICENSE = "Unlicense"
 
 PV = "1.0.1"
 
-RPM_NAME = "python311-orderedmultidict-1.0.1-3.1.noarch.rpm"
-RPM_HASH = "2e1823b9da7c7749b73b46844a085934fd95931e3efb4d405fc6bf6f8bfd916d31e083e32eecba821bf43f5cf3e77a343498d6034eca523a0d5411db3a45e5aa"
+RPM_NAME = "python311-orderedmultidict-1.0.1-3.2.noarch.rpm"
+RPM_HASH = "55e402c5946ba9ff2be74701b56c11d89ff42c2b2dedfaaf95b8167719fa4577b82e47de09817247766440e8385dd522c55f53e2816a542632a2c4ea8d9f9b11"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-orderedmultidict \
+RPROVIDES:${PN} += "python3-orderedmultidict \
+python3.11dist-orderedmultidict \
 python311-orderedmultidict \
 python3dist-orderedmultidict"
 

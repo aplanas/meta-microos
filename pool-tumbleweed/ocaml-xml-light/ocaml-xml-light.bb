@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "2.5"
 
-RPM_NAME = "ocaml-xml-light-2.5-1.2.aarch64.rpm"
-RPM_HASH = "14d4b64f0d43f3e79da548fbfbcd9c6ca01ffcaa274abe75fd5f44e803697a1f27aa622f51c0c85e03541e045d4433bc1259291bb009e00bb522871532d80ec1"
+RPM_NAME = "ocaml-xml-light-2.5-1.3.aarch64.rpm"
+RPM_HASH = "bf169b3aeac2e11c4062bafe2639c6cd96f277e4bd5b5ae68e55c2d9299454f06220e4b07d5e0383d24188d2de5024e752a13396f52227fe15f4d0d0f2fc38bd"
 
 RPROVIDES:${PN} += "ocaml-xml-light"
 

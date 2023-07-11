@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "4.4.0"
 
-RPM_NAME = "python3-mistralclient-4.4.0-2.5.noarch.rpm"
-RPM_HASH = "112f586412a69594c4e5234406adfc1d21480c5b55f3134528b2b3065ed790c03fe8b731b7aab78ea123db64571fe8361598aade145a5811c9749e26d640be48"
+RPM_NAME = "python3-mistralclient-4.4.0-2.6.noarch.rpm"
+RPM_HASH = "36625b9fb120ddc5cfa219b0b448bdcbff13417a4808b8e20ed104d7f623ee3bdcafd652b5f1992467b82738dacffae25eb12adb7afdb63a70926c37d500de58"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-mistralclient \

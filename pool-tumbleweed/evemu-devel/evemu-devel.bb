@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.7.0"
 
-RPM_NAME = "evemu-devel-2.7.0-3.12.aarch64.rpm"
-RPM_HASH = "df465e7018e4ff7d90cfd97deaeee99847a946fbdba3f98cf15125ed91ce2089afe1ed5bf49fb6c7e74004e09baa1485b080e8557b6a7d94d4043f871ecdac95"
+RPM_NAME = "evemu-devel-2.7.0-3.13.aarch64.rpm"
+RPM_HASH = "c593803140c10b9efc9d8c4a6156c2f68cf583d51ec022b339a389df7b8224c66412f551b2e43c32b4dde3ea7c4b358ecfad476fb714b1da10ea7ef17a9cb673"
 
 RPROVIDES:${PN} += "evemu-devel \
 pkgconfig-evemu"

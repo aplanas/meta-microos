@@ -4,8 +4,8 @@ LICENSE = "AGPL-3.0-or-later & GPL-2.0-or-later"
 
 PV = "1.9.0"
 
-RPM_NAME = "osmo-mgw-1.9.0-1.10.aarch64.rpm"
-RPM_HASH = "cd2176d40b95b4c5c3fe34a2bad3e273421cd7cb42f7dd7fdae421d27ddf940255efb1e1e0ea8375afd6a55c717c92120175653040c07a0e4746d7980c59cd99"
+RPM_NAME = "osmo-mgw-1.9.0-1.11.aarch64.rpm"
+RPM_HASH = "38252a2e05e525473cad3a06db681ae657c0b61158220e9f346dbb8ff13049e5a1f015b9ecc50961196247eab4f963fbaf4bc5d3a7a998ef338bef6561a906e3"
 
 RPROVIDES:${PN} += "config-osmo-mgw \
 osmo-mgw"

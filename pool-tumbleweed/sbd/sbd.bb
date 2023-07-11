@@ -2,10 +2,10 @@ SUMMARY = "Storage-based death"
 DESCRIPTION = "This package contains the storage-based death functionality."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.5.1+20221128.8ec8e01"
+PV = "1.5.2+20230316.5ec38cf"
 
-RPM_NAME = "sbd-1.5.1+20221128.8ec8e01-1.3.aarch64.rpm"
-RPM_HASH = "ae07549489f759647e24afd9e731ba96750d10aadb879703cb2461f2d298eac50787ec1c7fce59c060f53ec197a717e6cf4946c887d15901e59c404cf473a7cd"
+RPM_NAME = "sbd-1.5.2+20230316.5ec38cf-1.1.aarch64.rpm"
+RPM_HASH = "3b43bdedcc2f8b4563d3827cfc6db18cbf2d895cd80b53ac5c748c7da4cee0bb44472679756837b90fe3997a3257200aad54c88c1e7f032d795a781ba70b996b"
 
 RPROVIDES:${PN} += "pkgconfig-sbd \
 sbd"

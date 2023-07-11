@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.1.6"
 
-RPM_NAME = "openmpi2-gnu-hpc-macros-devel-2.1.6-14.3.noarch.rpm"
-RPM_HASH = "119923f7d4acf1d25e9818062c15d9ece2b892c792c078520a01b9213654d76bcbad047400d02b72bd3ec970b0ad40829010d7b74357104adeaec177aa4c2925"
+RPM_NAME = "openmpi2-gnu-hpc-macros-devel-2.1.6-14.4.noarch.rpm"
+RPM_HASH = "5a59e527f416a4c8c0828708f2cfe8f1022a5bc475ec97253a25a05586c3c868a18eae9bdfbb4aa790bd0d7aa48098266c13d093275930ef1c1c4273f6014cb7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openmpi2-gnu-hpc-macros-devel"

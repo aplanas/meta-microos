@@ -4,11 +4,13 @@ LICENSE = "MIT"
 
 PV = "7.1.0~b1"
 
-RPM_NAME = "python311-azure-devops-7.1.0~b1-1.1.noarch.rpm"
-RPM_HASH = "3388b8b3ccec64bf5f00b2b0404246b789dc3771c573abd6325681c5f5f8305d4163b59c584ab6eabd07144c75e983dc1b9c18caaac01f15b5a1cdae1d1939e6"
+RPM_NAME = "python311-azure-devops-7.1.0~b1-1.3.noarch.rpm"
+RPM_HASH = "9a2c4e9fa3607d1b076586f81b8f12b0646f8ccb80f0ba7870387d0c53063aaa904193a0874bcc043d7845fade46422672a0332df7f9949add858c0294dac266"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-devops \
+RPROVIDES:${PN} += "python3-azure-devops \
+python3-vsts \
+python3.11dist-azure-devops \
 python311-azure-devops \
 python311-vsts \
 python3dist-azure-devops"

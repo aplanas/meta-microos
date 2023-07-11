@@ -15,8 +15,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.113"
 
-RPM_NAME = "perl-IO-stringy-2.113-1.13.noarch.rpm"
-RPM_HASH = "edd3c4b31f293ee1f93e966a1d5e3135301a332ffdae4d2797ce5bb0d7cb637798fb0c5527188f5c60f578f146fca2928693bb29f03a1b41268c8405280a6e4d"
+RPM_NAME = "perl-IO-stringy-2.113-1.14.noarch.rpm"
+RPM_HASH = "7b0e0beaec29ecfed84ac979574c5c9e04be0a8e85aa58fc6a7140296e18df431a4cc9f69919667f061328c3c2ba55ff10d914be4f3e850a277f0235c19381ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-IO--AtomicFile \
@@ -29,7 +29,7 @@ perl-IO--Wrap \
 perl-IO--WrapTie \
 perl-IO-stringy"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-parent"
 
 inherit rpm

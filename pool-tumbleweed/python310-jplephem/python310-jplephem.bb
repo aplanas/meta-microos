@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "2.15"
 
-RPM_NAME = "python310-jplephem-2.15-2.9.noarch.rpm"
-RPM_HASH = "9c270126a092f779e145792a564c949451891793193022d5a97737f8bb939e2eefb7ed42db157e58bea864ca2f069d33223980e95323f3c4b5768691236b6f47"
+RPM_NAME = "python310-jplephem-2.15-2.11.noarch.rpm"
+RPM_HASH = "94ef7b303a42a5c61cf3997f01c0f56add999ab09c1038db4598064a76c379fccb4f8473d02c6ee9bcacf56826ebd61e878c42a5f13f2f44c5d3cc30c3acb50f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-jplephem \
-python3.10dist-jplephem \
+RPROVIDES:${PN} += "python3.10dist-jplephem \
 python310-jplephem \
 python3dist-jplephem"
 

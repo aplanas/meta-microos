@@ -4,8 +4,8 @@ LICENSE = "ISC"
 
 PV = "4.2.0"
 
-RPM_NAME = "cfitsio-devel-doc-4.2.0-2.3.aarch64.rpm"
-RPM_HASH = "9d272f89b166a55012e46e4dd36aabbff479572ac1940d3fb6dda334ddb92395fac3af81d19d8b6c02a287db74b6947805915ff96fe99d6d2d6adcb939a33db9"
+RPM_NAME = "cfitsio-devel-doc-4.2.0-2.4.aarch64.rpm"
+RPM_HASH = "3fd464bc6d3a4634270d63a0817f3f31180438a9967dccecdc8ffe033a2b5a7dc189abca8745fcfee2d9e286f4efb7b32d8dcc096d69acd7b6cda79bc2368d2d"
 
 RPROVIDES:${PN} += "cfitsio-devel-doc \
 libcfitsio-devel-doc"

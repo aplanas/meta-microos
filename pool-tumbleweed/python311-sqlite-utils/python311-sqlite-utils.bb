@@ -4,11 +4,12 @@ LICENSE = "Apache-2.0"
 
 PV = "3.24"
 
-RPM_NAME = "python311-sqlite-utils-3.24-1.8.noarch.rpm"
-RPM_HASH = "39b6ff8a555f94f659cd7010a9bc60f09e957a9be99b143ec44a3de9a8774f4b68cd7014d9e66b4c0001d1488ffafd36206607f2b56580c4cd3a3d1d60272236"
+RPM_NAME = "python311-sqlite-utils-3.24-1.10.noarch.rpm"
+RPM_HASH = "615ecd60825bb9941932ae370a6c91e275dce347af8518d5edc1d59f9661236a11dbbd9879d92256a8e04982be347165be94fc2f2124b3cff24193d44b6673d8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-sqlite-utils \
+RPROVIDES:${PN} += "python3-sqlite-utils \
+python3.11dist-sqlite-utils \
 python311-sqlite-utils \
 python3dist-sqlite-utils"
 

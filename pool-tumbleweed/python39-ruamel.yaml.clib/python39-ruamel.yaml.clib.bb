@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.2.7"
 
-RPM_NAME = "python39-ruamel.yaml.clib-0.2.7-2.1.aarch64.rpm"
-RPM_HASH = "0cadd6aa85d464e07090a197d23df9fd79b7b365abd4137a6fa24f6772cea0de56059392891478d2dc0a1b8a1900a39a9e042d160ca1def677eaa899817f6fd8"
+RPM_NAME = "python39-ruamel.yaml.clib-0.2.7-2.3.aarch64.rpm"
+RPM_HASH = "ecf536ed8010c0855f5b33334d0173b6bb1fde8cee49ab2d4bf92c9e7a1bf201414e758aac7bbfc2ff368af411009522b8a33e995356c232c5b133174b042e6b"
 
 RPROVIDES:${PN} += "python3.9dist-ruamel.yaml.clib \
 python39-ruamel.yaml.clib \

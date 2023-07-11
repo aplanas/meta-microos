@@ -11,11 +11,12 @@ LICENSE = "MIT"
 
 PV = "0.7.0+git20181107.f8ec666"
 
-RPM_NAME = "python311-httpbin-0.7.0+git20181107.f8ec666-6.1.noarch.rpm"
-RPM_HASH = "d328cb70a4c797465b1b493469bba44df15e5677fe126bca68a851e84fdd7177ef9598e038941291be17676e52fcc30138ce4c4fac5ffe7cea8c7e323bdff0a5"
+RPM_NAME = "python311-httpbin-0.7.0+git20181107.f8ec666-7.1.noarch.rpm"
+RPM_HASH = "03c26b272dad8d8163ad223655a513200343d7ab115e809dcd526b8b8b61b44d5203224978d24288c4a2d508dc29da798b6075698b52a164a381be72d3c468d9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-httpbin \
+RPROVIDES:${PN} += "python3-httpbin \
+python3.11dist-httpbin \
 python311-httpbin \
 python3dist-httpbin"
 
@@ -24,7 +25,6 @@ python311-Brotli \
 python311-Flask \
 python311-MarkupSafe \
 python311-Werkzeug \
-python311-blinker \
 python311-decorator \
 python311-flasgger \
 python311-gevent \

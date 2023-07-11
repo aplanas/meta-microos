@@ -15,8 +15,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.2.31svn66461"
 
-RPM_NAME = "texlive-epstopdf-2023.201.2.31svn66461-53.1.noarch.rpm"
-RPM_HASH = "8d43de9ce2270b32d7d3d9f697a84c31c393ac49105e6c9e8285121c3ee48edeb6640df12557e14a270d86de4fe98fa44b51e8ee420382cf9ec3c7cca21bb7ca"
+RPM_NAME = "texlive-epstopdf-2023.201.2.31svn66461-53.2.noarch.rpm"
+RPM_HASH = "1893aeefbe87521fc77de2eedbd4399e9abd694ce8ed9f14fdd542c89b1511f1eaaa33d4247179f53cd154ffdd24ea35e7d4863907a033f6d6768995849e2845"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-epstopdf"

@@ -3,10 +3,10 @@ DESCRIPTION = "A package which provides access to some interesting characters \
 of the Text Companion fonts (TS1 encoding) in maths mode."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1fsvn15878"
+PV = "2023.208.0.0.1fsvn15878"
 
-RPM_NAME = "texlive-mathcomp-2023.201.0.0.1fsvn15878-52.1.noarch.rpm"
-RPM_HASH = "6799ef3635c1acec1fe079d0d50a2c1cd37e3b738801a6b109104e963fe79b7ac81ff737d57722fb7cb43670ad7809a9c7999da1930f7028ad2315d019387292"
+RPM_NAME = "texlive-mathcomp-2023.208.0.0.1fsvn15878-53.1.noarch.rpm"
+RPM_HASH = "61470a943a6e44d2317bf455b46ad697129b8fb81257e68f4d26b585d871c66084e1bb1a049c0373fe78ad1ca50322b3f8ee424dff4ff98369ead6c164b8f8df"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mathcomp.sty \

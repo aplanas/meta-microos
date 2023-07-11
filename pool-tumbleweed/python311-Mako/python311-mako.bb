@@ -10,11 +10,13 @@ LICENSE = "MIT"
 
 PV = "1.2.4"
 
-RPM_NAME = "python311-Mako-1.2.4-1.4.noarch.rpm"
-RPM_HASH = "aee43d6a248f837687feca583b2e9f18aa1a2fafb2995bdd1200fe81b98b88561cebd29791d945f66b6866880c18d4aa3042f3320e14edeaeb1eaf2ed379a4ab"
+RPM_NAME = "python311-Mako-1.2.4-2.1.noarch.rpm"
+RPM_HASH = "233be2242b8bb54cffc731a282a1507a6069217d0eb0061722f320e1b7c3de4ca742b16f90d5f7e430e45f3a959124c1edbc71e9074a3273eede839d911b0c10"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-mako \
+RPROVIDES:${PN} += "python3-Mako \
+python3-mako \
+python3.11dist-mako \
 python311-Mako \
 python311-mako \
 python3dist-mako"

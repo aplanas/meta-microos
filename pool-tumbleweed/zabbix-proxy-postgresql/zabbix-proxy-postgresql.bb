@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "6.0.17"
 
-RPM_NAME = "zabbix-proxy-postgresql-6.0.17-1.1.aarch64.rpm"
-RPM_HASH = "cca91638bb7e1534bdaa7c6d163eb1b0c2b8a14b1521bcee6c52cec93465a002ba124871bfd750fa985cf9a8cef48410dd93f75c6991f53fcdae956776149466"
+RPM_NAME = "zabbix-proxy-postgresql-6.0.17-1.2.aarch64.rpm"
+RPM_HASH = "e277d7da3ffbf5c882b5c77765feade5c6022dfd1d5e1aee0478d3a47f51d329581b373ec1cf0bb5381e74371bac996f2f7241df722e961fe423c9d21dca62e7"
 
 RPROVIDES:${PN} += "zabbix \
 zabbix-proxy-binary \

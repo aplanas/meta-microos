@@ -5,8 +5,8 @@ LICENSE = "MPL-2.0"
 
 PV = "0.1.1"
 
-RPM_NAME = "libepubgen-0_1-1-0.1.1-1.21.aarch64.rpm"
-RPM_HASH = "f72516911b3aeb3cfd0d2fa9ffe8768340cd3fd7429cce8f7784ed80497d5d2a90df85657574d0d36cc1aabfeacb876f231f1e88fcd987139b364da35a287be1"
+RPM_NAME = "libepubgen-0_1-1-0.1.1-1.22.aarch64.rpm"
+RPM_HASH = "892ac80a741e7498403a1f9dab8aae3fee5ab4cf527109fc3118366528bda0fc4f0bd54e006005efa7f4b1efda6d74540ac0159cbc26e33a5c393d6f445508a5"
 
 RPROVIDES:${PN} += "libepubgen-0-1-1 \
 libepubgen-0.1.so.1"

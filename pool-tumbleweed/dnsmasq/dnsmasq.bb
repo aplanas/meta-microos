@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
 PV = "2.89"
 
-RPM_NAME = "dnsmasq-2.89-4.1.aarch64.rpm"
-RPM_HASH = "db1d30721c058b9c15fbc60d6ece523c39a7f69ca3afe040e0ce596bbae1a40779f4d880939afe3968d432a754ec81017b2043d96b05f027ecd5954b5fa66e4b"
+RPM_NAME = "dnsmasq-2.89-4.2.aarch64.rpm"
+RPM_HASH = "ce49e5e7685150c5958cb49933046e58c11673bb5369bd1c0e4a1b69c9616d10c48fe36a9cfac450852de9eaa180be0be505e46d2b85f364c57a950778c53bbe"
 
 RPROVIDES:${PN} += "config-dnsmasq \
 dns-daemon \

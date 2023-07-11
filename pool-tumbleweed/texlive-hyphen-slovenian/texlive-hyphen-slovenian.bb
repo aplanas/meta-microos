@@ -3,10 +3,10 @@ DESCRIPTION = "Hyphenation patterns for Slovenian in T1/EC and UTF-8 \
 encodings."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn58652"
+PV = "2023.208.svn58652"
 
-RPM_NAME = "texlive-hyphen-slovenian-2023.201.svn58652-52.1.noarch.rpm"
-RPM_HASH = "e29c9f3b45ddfa65a6befed91685559007c6415304f04b549bfac3feaa82b85c9bae06e2162e6410d4d6f3409d9596abc24fe2eebdd9e54ee5c278a42430cc8f"
+RPM_NAME = "texlive-hyphen-slovenian-2023.208.svn58652-53.1.noarch.rpm"
+RPM_HASH = "40354e969d6760b36508baf479ee0fff9e3a1988bfde71ac0abf9e145b8da99eda769dd9731d85038f9a5cd1d9f62a85258b908301122cfebe3eabfa636c9ae1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-sl.ec.tex \

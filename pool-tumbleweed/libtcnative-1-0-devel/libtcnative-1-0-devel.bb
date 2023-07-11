@@ -16,8 +16,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2.23"
 
-RPM_NAME = "libtcnative-1-0-devel-1.2.23-2.14.aarch64.rpm"
-RPM_HASH = "c58aac52b26b124b286a8037930c4716f7217460da120431ae3217e16b0fa1912ea2c87eb37dea452e3eda88f2fffb6331cc43b45954d5bfbe550c45dee661e4"
+RPM_NAME = "libtcnative-1-0-devel-1.2.23-2.15.aarch64.rpm"
+RPM_HASH = "0dc7928f1e5e6df22e80d26afd19e74ee4062557fc7df168cffee65be602677efaa02e6efb73767fdfe02333fdabb86ffce454f46ff59e54a875be3746d96088"
 
 RPROVIDES:${PN} += "libtcnative-1-0-devel \
 pkgconfig-tcnative-1"

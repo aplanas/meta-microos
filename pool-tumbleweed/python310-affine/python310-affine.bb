@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.3.1"
 
-RPM_NAME = "python310-affine-2.3.1-1.3.noarch.rpm"
-RPM_HASH = "c04a658accaa959c2fee32984a14ff575b9bb7a06981e41d03d7e25347f785a0584bd9d69fa258123017cc0a22c33ba94f1de095b6c0b58869307aaa5ffb2f7e"
+RPM_NAME = "python310-affine-2.3.1-1.5.noarch.rpm"
+RPM_HASH = "d174f70faf07f6c52091ac1d11f588910ddc974c4c951af6ac94c5cf04a2585a0ba7907a094686520a3bd67c92e93545b3e9750b0e78a48c30c29f24a42fb777"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-affine \
-python3.10dist-affine \
+RPROVIDES:${PN} += "python3.10dist-affine \
 python310-affine \
 python3dist-affine"
 

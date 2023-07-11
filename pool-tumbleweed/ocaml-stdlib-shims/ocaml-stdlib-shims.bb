@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later-with-OCaml-LGPL-linking-exception"
 
 PV = "0.3.0"
 
-RPM_NAME = "ocaml-stdlib-shims-0.3.0-1.11.aarch64.rpm"
-RPM_HASH = "ea9564f14898fd1d5961e7e1f74fd8c5ae03cc66437b3d030217ca3630a65ecbe44450656b8b23357e60a41eda7acfa5bc77bd2f04b850de06c891aea7197bfa"
+RPM_NAME = "ocaml-stdlib-shims-0.3.0-1.12.aarch64.rpm"
+RPM_HASH = "65ff173b6776bb8af6aebc4549e115fcad58cfdbd1267a7108d2a37b8d15dcaba7ef3e96f6fac8acf8095f4d56e4f2cf7632888d1bce51890c5871c1bfbaa414"
 
 RPROVIDES:${PN} += "ocaml-stdlib-shims"
 

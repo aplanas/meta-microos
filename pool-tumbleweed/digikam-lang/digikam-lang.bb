@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "8.0.0"
 
-RPM_NAME = "digikam-lang-8.0.0-3.2.noarch.rpm"
-RPM_HASH = "76aff8632a57f69a22ed2f3d975e10be6afe8f58ab567af6fc1f006e12072493ac5d1ad4d0b7e8a535fed645db987869a21f79c93420054070d957e3b2515da6"
+RPM_NAME = "digikam-lang-8.0.0-4.1.noarch.rpm"
+RPM_HASH = "a5fc40c118578c6a6c556d8dc56b4eb1ddfefcae3806014b8facb5ac3eb94dd202f468f364207932108e95f45a94409d7e04f936ae767c6c8457226c6e697f86"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "digikam-lang \

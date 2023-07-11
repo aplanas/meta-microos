@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.5.1"
 
-RPM_NAME = "python39-asn1crypto-1.5.1-3.1.noarch.rpm"
-RPM_HASH = "5c9600dfe79fa0959264a2950dd2c3607cfdce30036b010f10a3afae9b977fb1178d0e18b1caefb6a25890894e8e202e62b4bd01f01fe0128d3f666faf8f4fb1"
+RPM_NAME = "python39-asn1crypto-1.5.1-3.3.noarch.rpm"
+RPM_HASH = "a21f4f7b05d96a9e0d5ea8b833e7c08e172dce708de262a7a5126980cedb5b6b263f248f00c4876d98985d84c4be074b1bd1a77eb8684a8c36a5584696f7dafc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-asn1crypto \

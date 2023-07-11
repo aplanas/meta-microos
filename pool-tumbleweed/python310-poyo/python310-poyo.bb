@@ -11,12 +11,11 @@ LICENSE = "MIT"
 
 PV = "0.5.0"
 
-RPM_NAME = "python310-poyo-0.5.0-2.1.noarch.rpm"
-RPM_HASH = "6fdcb52e20180ffec88cc1d6f5f3b4c4d07db587b7052f85baa54b55333146639f299af40ba9cb9bc79548d503b47af0189c943c9a0dc8a7bf9e253ac087a8b7"
+RPM_NAME = "python310-poyo-0.5.0-2.3.noarch.rpm"
+RPM_HASH = "258d68a1d7a31746b9bf86825c79b62413c27d50241ecc7b77473c81d4adaa06240bd9b050ae012d0b016741fc77304a942e765f26d910a37ff3b1418d1b8dcf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-poyo \
-python3.10dist-poyo \
+RPROVIDES:${PN} += "python3.10dist-poyo \
 python310-poyo \
 python3dist-poyo"
 

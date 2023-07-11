@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & CPL-1.0"
 
 PV = "1.0.4"
 
-RPM_NAME = "cmpi-bindings-ruby-1.0.4-1.2.aarch64.rpm"
-RPM_HASH = "610e68ebe3d6c94ceefb702decce82cbc5600fe1b11f69468e0f511a507c292cc47f5d30309280cf39b5e20856c8583641dbcab441ce696ba7d7a5840ec62687"
+RPM_NAME = "cmpi-bindings-ruby-1.0.4-1.4.aarch64.rpm"
+RPM_HASH = "0720213fe8a83480f058d770dcc748a9d4fd882500036242bed75d44ae258116cbb311c217728d345713c5f57a0f9ab10a82f3542459bcd6b4be0eef6c5ea5ea"
 
 RPROVIDES:${PN} += "cmpi-bindings \
 cmpi-bindings-ruby \

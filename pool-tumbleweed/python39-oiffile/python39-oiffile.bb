@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2022.9.29"
 
-RPM_NAME = "python39-oiffile-2022.9.29-1.3.noarch.rpm"
-RPM_HASH = "c8e8144642e55a83e6ffe183d3be95ee778ef019c575920ff9b66ec7cfa474d4201eb8cc1884ac0f515509131a0ba378eee86f81eb2c42e58ad446369377de50"
+RPM_NAME = "python39-oiffile-2022.9.29-1.5.noarch.rpm"
+RPM_HASH = "3f5df13bb796cb104f61d32a39aa88720ae6d0dd87962eb33dcd05e6c3192b6882dc209dc0f33d0de98b53961e96b88bd67ad6075bdefadf0296e86775cf8ae9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-oiffile \

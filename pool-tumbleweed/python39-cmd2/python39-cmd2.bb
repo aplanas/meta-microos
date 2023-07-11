@@ -20,8 +20,8 @@ LICENSE = "MIT"
 
 PV = "2.4.3"
 
-RPM_NAME = "python39-cmd2-2.4.3-1.3.noarch.rpm"
-RPM_HASH = "91133c6a3d23d0f8df0bc703c9cecf8aad200e7b13285cd088558661fe7e127fe81bcca7923c230a58e79bf3477372cada70d2c3ac03836ee43d9aabbf4bdcd3"
+RPM_NAME = "python39-cmd2-2.4.3-1.5.noarch.rpm"
+RPM_HASH = "1a1e8a2b1a1d724dd4e2bbca97970eea15f50a68fc8903bb7c034d94c1d60bcbc8bfa0c3a886a12b6203556af3b60d409037d6e7003ffea6a8f679991d2b6de5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-cmd2 \

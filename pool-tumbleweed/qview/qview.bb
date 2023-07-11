@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "5.0"
 
-RPM_NAME = "qview-5.0-1.7.aarch64.rpm"
-RPM_HASH = "3e7f2eeee7bec6ae359c01cd7b28799a910ea920026bef6af7543fc1c9c628da38fe88f999f0d8b5366e4ae0abc7beb99465c4bcb8755ddc90e8a509648dec63"
+RPM_NAME = "qview-5.0-1.8.aarch64.rpm"
+RPM_HASH = "2ea65520580bfd97cc3664672287540ad197120dce4eefd730004caaf3e572bd024c898f44560527a3fc1118b06284d2c6ac81fde7d9edb95ecdda6b20705e3d"
 
 RPROVIDES:${PN} += "qview"
 

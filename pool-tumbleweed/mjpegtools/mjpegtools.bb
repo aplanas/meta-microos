@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.2.1"
 
-RPM_NAME = "mjpegtools-2.2.1-2.5.aarch64.rpm"
-RPM_HASH = "50c1cdf181d84abdf226fa097966840c89ca872b1a3cbb8e8c1a4dc1dc0b54af1ebfd3781b210d3b7d8beb257d9d9c79a4f519667b76f1faab8fbc4685bf6a45"
+RPM_NAME = "mjpegtools-2.2.1-2.6.aarch64.rpm"
+RPM_HASH = "2a5d33c73fccecf247bdbcf3b776ef556347c8b01e9a544b8e3a01f9b118c742d6cd6bbc6f6ab84dbfd424d849044151fdb1901af8d922c5165fab932f17b876"
 
 RPROVIDES:${PN} += "mjpegtools"
 

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.11.0"
 
-RPM_NAME = "python39-confpy-0.11.0-1.12.noarch.rpm"
-RPM_HASH = "d0cf96fc3c66cca7e208f6e515aae42da96799dbdb6530863bc6eb2768ae1bf367c865075a85b0d03798a247636353e37a69903da4a0a9f3f5b36c4248b2b152"
+RPM_NAME = "python39-confpy-0.11.0-1.14.noarch.rpm"
+RPM_HASH = "a0982cffbca3e53566a954942310622fe363e90d1fdc83b03b9fe05f55f8a6ccf26ebd5a283439c152e32dfdc5fe3e2efaa293d9e03086cd31f5748d42375dc4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-confpy \

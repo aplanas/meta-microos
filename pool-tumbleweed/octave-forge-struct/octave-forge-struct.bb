@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.0.18"
 
-RPM_NAME = "octave-forge-struct-1.0.18-1.6.aarch64.rpm"
-RPM_HASH = "dc5c94dbf2b9608ed4563acf09891fddcb1c03b33304e642a08375a3a8ed9300188b3975ed4366b2cb94c212c92250bd83fc272867503b008418708aed3e0487"
+RPM_NAME = "octave-forge-struct-1.0.18-1.7.aarch64.rpm"
+RPM_HASH = "40886699e00bdbf679723655dfa5f0d3cc37c89e1f93c8fe76f534c5bc83fc210f869f1ac30eb708c3979ee536785f9a04060c2152fcc863e56505ae203a18f7"
 
 RPROVIDES:${PN} += "octave-forge-struct"
 

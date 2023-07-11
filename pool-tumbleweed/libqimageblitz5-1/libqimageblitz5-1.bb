@@ -7,8 +7,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.0.6+svn1515099"
 
-RPM_NAME = "libqimageblitz5-1-0.0.6+svn1515099-4.13.aarch64.rpm"
-RPM_HASH = "1ccff7dc799d0ea884a35c2436349283c009913f2f3ff17612ecbee9630bdb3ed075b5bd33346a954db5ccca496a2cd013f22e1de22893d2f88a5e869747daea"
+RPM_NAME = "libqimageblitz5-1-0.0.6+svn1515099-4.14.aarch64.rpm"
+RPM_HASH = "7605625c61531a9940830d098d4e4f4f74606967599043711b22a35a4efb80d77b1c1d7ed616ca93eaed23900d113bcd24c6632ccfc463c28f76dde8662c74fd"
 
 RPROVIDES:${PN} += "libqimageblitz5-1 \
 libqimageblitz5.so.1"

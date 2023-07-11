@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "0.1.1"
 
-RPM_NAME = "python39-SimpleWebSocketServer-0.1.1-2.14.noarch.rpm"
-RPM_HASH = "3ff5e4cff11c9d8a347060d9d3b977e99feda47061d1a3631e35e753a088c30367474cf7a9b3220508809792e6a983c0fa8f9f08603d3462880d0d0e1687df8e"
+RPM_NAME = "python39-SimpleWebSocketServer-0.1.1-2.15.noarch.rpm"
+RPM_HASH = "574595546774d6e48435f4fb436a059bf5ea42e3d9f195a8ba202d8fd009b3822784ce25534d44b26bd8adbd713dbcb479c93a1b6bab58f84397c2ae0f807b88"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-simplewebsocketserver \

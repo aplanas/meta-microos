@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.1.29"
 
-RPM_NAME = "libthai-data-0.1.29-1.6.aarch64.rpm"
-RPM_HASH = "4f59060ec4c3f25a8be462652525d028a31f6f14ae8acc086191e7ebd8e8ffb1020c00c5bcf710f7ef0a507206e5a5c964328200d4f09130d9b88c10cea00f05"
+RPM_NAME = "libthai-data-0.1.29-1.7.aarch64.rpm"
+RPM_HASH = "1b5584dc09540e90f0ff7d65d1d16d5b1576bfcaddf63a0a52418701ef368d9b49706aad35b4ab712c5f832ba5a168fddc4350fbf576a1edbfde0bc1429fa707"
 
 RPROVIDES:${PN} += "libthai-data"
 

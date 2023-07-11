@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "1.4.4"
 
-RPM_NAME = "python39-appdirs-1.4.4-4.1.noarch.rpm"
-RPM_HASH = "ad65932c6ee9ba748bf41cd6da2e9c01a80da8d7b1ac61d1262957f39f33c3ecf4cc589e836750a75f9c5e2ea3adca165ce4c3426666453089a15b9cd853dd86"
+RPM_NAME = "python39-appdirs-1.4.4-4.3.noarch.rpm"
+RPM_HASH = "65bfa95203dadb1bf576a941c49739c201b4c1f97c67f40d5f23bb2739017528e6d8b6336fe4e678ab6b7fe5f3756e20bfbf64f7835cd091afe62176623c322e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-appdirs \

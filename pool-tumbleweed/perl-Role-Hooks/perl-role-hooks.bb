@@ -5,14 +5,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.008"
 
-RPM_NAME = "perl-Role-Hooks-0.008-1.3.noarch.rpm"
-RPM_HASH = "879e8bb5ed619e4af6b9f471ec667db05880ab20f395053e434df6031ece562063367adb62cca2689b4e006c6ee6530a7911210b9f458f30afcf106b032cc4aa"
+RPM_NAME = "perl-Role-Hooks-0.008-1.4.noarch.rpm"
+RPM_HASH = "3fc82eccc6eebf28f3e64d18b25b07bc6c1a3d3f75b00095bbfd648f0d4f3e7f142c7c96f15ade0da488c9392a721ce7340fe706eb9213a1fc5c66c0cd1114a4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Role--Hooks \
 perl-Role-Hooks"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Class--Method--Modifiers \
 perl-List--Util"
 

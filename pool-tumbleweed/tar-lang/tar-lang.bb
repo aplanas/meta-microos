@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.34"
 
-RPM_NAME = "tar-lang-1.34-10.3.noarch.rpm"
-RPM_HASH = "4db116c7840d432e4314781800848dbfd3bd72f3db53b436ab01502ac0b71c95147cd2720ce90c58c64e1be246820c4b234f8b89974cd64ff02bb7f67dd56dc0"
+RPM_NAME = "tar-lang-1.34-10.4.noarch.rpm"
+RPM_HASH = "fb3b5227ed34f7bea78c396a0dcd949474ed235d1810c693e5ca7f465719ec80f1e78ddf99ea1b2460283df836aa6457b653aa1a6673bce1169e436f5065dd50"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-tar-bg \

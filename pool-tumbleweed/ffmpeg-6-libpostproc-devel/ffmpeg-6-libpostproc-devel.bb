@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.0"
 
-RPM_NAME = "ffmpeg-6-libpostproc-devel-6.0-2.2.aarch64.rpm"
-RPM_HASH = "14e357feebd82a8c3df8a4011e2b6c14ec50f261bbea3573dcd70dd1957c3c16631be5ba765edb1725613425406920d7e44efe0c10e28baedfc2af5d3badd69d"
+RPM_NAME = "ffmpeg-6-libpostproc-devel-6.0-2.4.aarch64.rpm"
+RPM_HASH = "e04c7e1f6b188f015b930eb6b52a28a9dd50ed8278f5586d01becf1b1d89cbeca76c6e849337153699b7b4c6ec39b6da428d6166aeb4d1a178e2d2a1f7560abf"
 
 RPROVIDES:${PN} += "ffmpeg-6-libpostproc-devel \
 libpostproc-devel \

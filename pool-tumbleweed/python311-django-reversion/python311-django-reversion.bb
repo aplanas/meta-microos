@@ -9,11 +9,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.0.4"
 
-RPM_NAME = "python311-django-reversion-5.0.4-1.3.noarch.rpm"
-RPM_HASH = "a3dba8eece8214c36e79836ee81de9920140eec7a2ab9c4e5f59fdae11137603ad8f71995f7f3ff159ef69b1af2b5a5516499b6db8327f104b6df6a9b9b82471"
+RPM_NAME = "python311-django-reversion-5.0.4-1.5.noarch.rpm"
+RPM_HASH = "c14a3b3661807eb4949a6d494b597f9cbb9bc154cb5506a10d1036564b6044bf66a1674dc32e4061d005624c61ed465d84ac4d0cb1e92279cdc9606ec504ab52"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-django-reversion \
+RPROVIDES:${PN} += "python3-django-reversion \
+python3.11dist-django-reversion \
 python311-django-reversion \
 python3dist-django-reversion"
 

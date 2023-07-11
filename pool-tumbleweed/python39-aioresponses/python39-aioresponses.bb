@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.7.4"
 
-RPM_NAME = "python39-aioresponses-0.7.4-1.3.noarch.rpm"
-RPM_HASH = "b7001537a57d143497d6f7a8ab9549b23619ed6b8d9fd865d0720af43d4ad8936c9ac8529d4a7c0dc6519e7e4733e267487a96e9d871260fd3f43c8a3e68dbf7"
+RPM_NAME = "python39-aioresponses-0.7.4-1.5.noarch.rpm"
+RPM_HASH = "fc35e694454175e8a13bf266f6d33bd8aedcc01863865566ea7ebfd4a1ec650384d663c616ade911d9087e672b9938af48a2e4d20a237be1025f784cfe1d9af2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-aioresponses \

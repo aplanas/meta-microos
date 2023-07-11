@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.1.0.0"
 
-RPM_NAME = "ghc-dense-linear-algebra-prof-0.1.0.0-3.3.aarch64.rpm"
-RPM_HASH = "78df6b64e12234435996a33311d302bb64dad71d80585bb6b58d3d2128846eacd856c866322039d9c872f557c4aedead99e98f3746b3862446736ec7074fbd77"
+RPM_NAME = "ghc-dense-linear-algebra-prof-0.1.0.0-3.6.aarch64.rpm"
+RPM_HASH = "6be6d0e1f96828fbc3028640358b36a1bdcf08c791c7709c871e48cc6fa4dac7cfff7342141ac39b10794899a0759b6191686195c9b0a28f756f320e9e613df8"
 
 RPROVIDES:${PN} += "ghc-dense-linear-algebra-prof \
 ghc-prof-dense-linear-algebra-0.1.0.0-2PBc2PrDutT32RQREBxCzn"

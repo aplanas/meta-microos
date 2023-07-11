@@ -26,12 +26,11 @@ LICENSE = "Apache-2.0 & LGPL-2.1-only & Python-2.0"
 
 PV = "0.8.0"
 
-RPM_NAME = "python310-encore-0.8.0-1.5.noarch.rpm"
-RPM_HASH = "12a25c0d0f44007c97deaa901d786bcb3fe455510465a3c192326cc41b2606b1aa6d734528f19a68f9682c07d00257b6b40eba3f9d25becc527ccbcc099b812a"
+RPM_NAME = "python310-encore-0.8.0-1.7.noarch.rpm"
+RPM_HASH = "b6c2059e28895ae5c78840f915228c17db227a570c6b83a89bbd304910880219c5aa8ce67c2274e3cc6891d8e1a4ee5f88d13b90b8e14b808e0531d7ef487ff8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-encore \
-python3.10dist-encore \
+RPROVIDES:${PN} += "python3.10dist-encore \
 python310-encore \
 python3dist-encore"
 

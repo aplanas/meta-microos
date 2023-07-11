@@ -10,12 +10,12 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.1"
 
-RPM_NAME = "python3-openstacksdk-1.0.1-1.3.noarch.rpm"
-RPM_HASH = "ee7c090684173d8bab7327609a9ab612d06a31d26028b479b087dbfa927c2fcb77cf02a78800a6dbeec93f44fcd551579e7ba902b45eac5d4d935fca705e1cd1"
+RPM_NAME = "python3-openstacksdk-1.0.1-1.4.noarch.rpm"
+RPM_HASH = "bf33e3da81d9d8d2beb8b4a9c78d0363a03d88cd11fc3da306061191e5060a33ec60ed837807d8b4c30d2253543828e6498eda8edb885b609c1aa9f43bad61a9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-openstacksdk \
-python3.10dist-openstacksdk \
+python3.11dist-openstacksdk \
 python3dist-openstacksdk"
 
 RDEPENDS:${PN} += "/usr/bin/bash \

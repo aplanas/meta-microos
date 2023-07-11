@@ -4,8 +4,8 @@ LICENSE = "CC-BY-SA-3.0 & GPL-2.0-or-later"
 
 PV = "4.18.0+git0.9a2f754"
 
-RPM_NAME = "libxfce4ui-branding-openSUSE-4.18.0+git0.9a2f754-1.5.noarch.rpm"
-RPM_HASH = "6f146a4b202e1ebf54a44837a17303a67391adb25955917b9eeab63bb85360dd975c687a74dac97e0ba36780668813d7cb2fd0d6aeac708ff27bd57bad80f764"
+RPM_NAME = "libxfce4ui-branding-openSUSE-4.18.0+git0.9a2f754-1.6.noarch.rpm"
+RPM_HASH = "3ee528c1959c7d1af730592152303c1116246ded87393f092cbb18e770871fccf778618d0c60fc330ccc5fb2c95b99bc969579a8d038a8d6a8ae24ad716b1610"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-libxfce4ui-branding-openSUSE \

@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-only & LGPL-2.1-only"
 
 PV = "2.6.1"
 
-RPM_NAME = "libgensioosh0-2.6.1-1.4.aarch64.rpm"
-RPM_HASH = "fc8082ce4ffd622e21a21e9824eeb5d9f97f275a057b513213a0f18d30009becab1b852d59a7b62ff86082cee33d9bb6eb7c34a0387eb26c1f398a18759675b4"
+RPM_NAME = "libgensioosh0-2.6.1-1.6.aarch64.rpm"
+RPM_HASH = "24805fd7cc741d00ba99e098280982b145365c4fc2c6bf284b35fba3e363644c3dba6311d3537046e98ce167fd3030cbb205aa05dacff896d37fdd8a60d877d3"
 
 RPROVIDES:${PN} += "libgensioosh.so.0 \
 libgensioosh0 \

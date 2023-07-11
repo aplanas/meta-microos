@@ -17,8 +17,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.08"
 
-RPM_NAME = "perl-DBD-XBase-1.08-1.23.noarch.rpm"
-RPM_HASH = "5fe5a7f395daf9f692c93d47cedb43c7681311f976447875d71ed3f7f5cb32429c64ddc2810d01268bf30a9b0a1000e7b78bd4c7756450bd4a0334746ecaaf8a"
+RPM_NAME = "perl-DBD-XBase-1.08-1.24.noarch.rpm"
+RPM_HASH = "a05411cc91c9175aedff8f007cff9a8042d166d5fc9cacbd9965deefe8f925d00a2f6206c9d94f7c2996b1389a7ceadfd75b6ae6003fef53b7122f7cc126e623"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DBD--XBase \
@@ -51,6 +51,6 @@ perl-XBase--ntx \
 perl-XBase--ntx--Page"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

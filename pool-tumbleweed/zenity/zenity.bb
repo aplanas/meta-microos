@@ -10,10 +10,10 @@ Password. \
 Zenity is especially useful in scripts."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.92.0"
+PV = "3.99.0"
 
-RPM_NAME = "zenity-3.92.0-1.1.aarch64.rpm"
-RPM_HASH = "106cabfbe390ce0046e9ee5e8c5e1cc0a9a89a3cd0920a42a92c3a4f644cc3e9b7cf9ff5af728d4bca4b9dfb92a8e1655ffe9073ab0719b0aa9ae5d3d88240fd"
+RPM_NAME = "zenity-3.99.0-1.1.aarch64.rpm"
+RPM_HASH = "9477670ddba683e242c9b8966adefa3030caea9bc30813f2fda27c5feae475defc58182927cdabd5aaa68c8827bcdcc9a103e5b75444f7edffbc3270b8291513"
 
 RPROVIDES:${PN} += "zenity"
 

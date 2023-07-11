@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & EPL-1.0"
 
 PV = "0.3.5"
 
-RPM_NAME = "sisu-javadoc-0.3.5-3.5.noarch.rpm"
-RPM_HASH = "f459b11fede61391b433bd8cb9806dfad0c051ac5be530b8de44a1e85f3cd1e0e3ab60bbbe2b5cb74398cd5a894a017cbe4fa5d0d6517db366f6974481f277f7"
+RPM_NAME = "sisu-javadoc-0.3.5-3.6.noarch.rpm"
+RPM_HASH = "07381d6d7ff947dee8c78f9e26336237d01299b0b6e0dc27073d0950269e07ba638a62c7836b3fc10406b3d7c0247d24a4c2a7da1fab9addc864ca5d448645c8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sisu-javadoc"

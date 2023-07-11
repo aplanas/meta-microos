@@ -10,12 +10,11 @@ LICENSE = "BSD-2-Clause & LGPL-3.0-only & MPL-2.0 & BSD-3-Clause"
 
 PV = "0.10.0"
 
-RPM_NAME = "python310-websockify-0.10.0-3.6.noarch.rpm"
-RPM_HASH = "4f3a3c614920ebe7565650581f8b067884bcd2cacec6f616bf7451a11483727c5ec4962fd27198b94600f4ff4d0972581e812c4d6228fdcf4f5f860254c48875"
+RPM_NAME = "python310-websockify-0.10.0-3.8.noarch.rpm"
+RPM_HASH = "d3903f82a37008f5d92dbbb155a50a3e74677539a64aa20b467420b0f750fc6274ab596461abbe56c1660499c8452540b468cbdab9c6e218fee801acdb1a8b88"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-websockify \
-python3.10dist-websockify \
+RPROVIDES:${PN} += "python3.10dist-websockify \
 python310-websockify \
 python3dist-websockify"
 

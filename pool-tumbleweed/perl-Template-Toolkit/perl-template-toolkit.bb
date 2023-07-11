@@ -4,8 +4,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "3.101"
 
-RPM_NAME = "perl-Template-Toolkit-3.101-1.2.aarch64.rpm"
-RPM_HASH = "7d56c9f3ea8237631988471b6bd04a9f056d83ee58256fce636d58bd917cc0306faa527c82d00868abb99d71e6e2f2ecba28372f35a813b3f81c89309c1cf9de"
+RPM_NAME = "perl-Template-Toolkit-3.101-1.3.aarch64.rpm"
+RPM_HASH = "ee20beb4d8b1963496d9a437060b7eb6622cdecf55ea379b82e8e794627a024c812ab543b0237c633750b2dcee07892f685a06f29c8656c0419cb1a515c6d54b"
 
 RPROVIDES:${PN} += "perl-Template \
 perl-Template--Base \
@@ -62,7 +62,7 @@ perl-Template-Toolkit"
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-AppConfig"
 
 inherit rpm

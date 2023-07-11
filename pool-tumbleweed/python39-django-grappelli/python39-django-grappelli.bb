@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause & LGPL-2.1-or-later"
 
 PV = "3.0.6"
 
-RPM_NAME = "python39-django-grappelli-3.0.6-1.1.noarch.rpm"
-RPM_HASH = "95a094b25f6acca4cc8be86f19e8b847c1ee874acf4d70d3edb8d4fbbc462443bd503efc0a51e2feb28ab9c935035b8c7e2de1627ce8533c8d7c806ff95feb60"
+RPM_NAME = "python39-django-grappelli-3.0.6-1.3.noarch.rpm"
+RPM_HASH = "0bab750f5d0b3fb4ab958771c73aa64fd99fa1e81c219678bee804b34707150f02a37299782f6469a6c181eb2650a7138af47acc664e35a2dbdb6e2585692eeb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-django-grappelli \

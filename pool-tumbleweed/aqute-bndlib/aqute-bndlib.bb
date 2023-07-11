@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "5.2.0"
 
-RPM_NAME = "aqute-bndlib-5.2.0-3.1.noarch.rpm"
-RPM_HASH = "73b83c775eae1234ffd2dfb6aa1127081706f87d128799ce4604757df9304dabc64de812ac4e591cdd80e2c6c7bc97a9bdaede6b97eefaedd9351ca72ded3f29"
+RPM_NAME = "aqute-bndlib-5.2.0-3.2.noarch.rpm"
+RPM_HASH = "d11892e5e4330903743e5ff187ec567c21494591bbf1b68e796ec531b201fe5fde020c10c5e66fc6fba33c69aafb2c07550091eb52bedabedf95f993a31c9cf8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aqute-bndlib \

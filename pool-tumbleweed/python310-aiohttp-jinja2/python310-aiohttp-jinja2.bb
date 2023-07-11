@@ -4,12 +4,11 @@ LICENSE = "Apache-2.0"
 
 PV = "1.5.1"
 
-RPM_NAME = "python310-aiohttp-jinja2-1.5.1-1.3.noarch.rpm"
-RPM_HASH = "4e952343a5e392ba82df8284d2381fcdc9f3ca73a4c343edca1cb92e154b793163b76cc651fd1c4f4ae1a8ce5e6517d7b5d0656da6bad8f0de01ec2d35501289"
+RPM_NAME = "python310-aiohttp-jinja2-1.5.1-2.1.noarch.rpm"
+RPM_HASH = "7929c4d10feb85c6f2f8efcbf47e1102a1bd19239b0927ffec8950b9846a8d2286e8010fde5eb8bc3edd912958ac330500b5c00da06badf8617f9137590b4d7b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-aiohttp-jinja2 \
-python3.10dist-aiohttp-jinja2 \
+RPROVIDES:${PN} += "python3.10dist-aiohttp-jinja2 \
 python310-aiohttp-jinja2 \
 python3dist-aiohttp-jinja2"
 

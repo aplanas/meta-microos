@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "1.0.0.0"
 
-RPM_NAME = "python311-azure-mgmt-peering-1.0.0.0-1.8.noarch.rpm"
-RPM_HASH = "5d1e89b7094e5e8be876704fb852c1b530c82ba1099d18c46fffc2b8d5854ee05cf4d5d100e7534d4a6a485657d2ee331faa2f2b1f51905ee9d5c01f55a784b2"
+RPM_NAME = "python311-azure-mgmt-peering-1.0.0.0-1.9.noarch.rpm"
+RPM_HASH = "d4e4d50de9be68c685bff9b396d56345a2d8c880b254fd87b2552569dc268ed47e3c5c113ca79a3280a2e80bff520f5d40768c33320549cb0ddfac2f5331fd72"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-peering \
+RPROVIDES:${PN} += "python3-azure-mgmt-peering \
+python3.11dist-azure-mgmt-peering \
 python311-azure-mgmt-peering \
 python3dist-azure-mgmt-peering"
 

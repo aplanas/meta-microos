@@ -4,8 +4,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-krigstask-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "8afd02b9b4986f09a9b849b649b0e583d563813fa6f5e27682194918c6d96301158a77b54defafb8765930df22b93e16eb195bf7c996f85f9aaf879d089c34cf"
+RPM_NAME = "leechcraft-krigstask-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "a938fa3dc9566b3f46c43c7741437f4cca8924368883344aae39f0fda18a8d8cca91b5a610cafd19dcf6a1a53f103729cc28f3001d922e8380714b760a4da457"
 
 RPROVIDES:${PN} += "leechcraft-krigstask \
 libleechcraft-krigstask.so"

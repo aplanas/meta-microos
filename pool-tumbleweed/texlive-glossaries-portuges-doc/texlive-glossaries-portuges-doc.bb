@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.1svn36064"
 
-RPM_NAME = "texlive-glossaries-portuges-doc-2023.201.1.1svn36064-53.1.noarch.rpm"
-RPM_HASH = "388c84d022cd230b2b999ebcd40da9307a78c334e6af7d9acd36eff57fea77df7956579e42ae66d9cff81d9363a5565c3b5e98e7200df490b031630a9f35ae6a"
+RPM_NAME = "texlive-glossaries-portuges-doc-2023.201.1.1svn36064-53.2.noarch.rpm"
+RPM_HASH = "98f65caee43e01425c1e5136c6dc1893a32ae857e11d161bef55e550aa3335b9745cbc81188bec0ea52aef462d1896042999919f6655ee7e78df950f4bff1d29"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-glossaries-portuges-doc"

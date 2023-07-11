@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause & Sendmail"
 
 PV = "2.11.0"
 
-RPM_NAME = "opendkim-2.11.0-7.15.aarch64.rpm"
-RPM_HASH = "cb160f1a4edaf926c559caa64f84f45a55b4922601723afd150f72c1b90af6c5777f5ea82d02fe86ba387962fe6bc43ad632eacbca6273a4ecb538794232862a"
+RPM_NAME = "opendkim-2.11.0-7.16.aarch64.rpm"
+RPM_HASH = "99ff36fb58d478c6e02d00c03a6f988585622db4cf88c3b1f23874bfe26ce2df636e1f1abfb702bcf25cfdd1ca7c8ecdb83b05ee453eaff81f5fae99378ae778"
 
 RPROVIDES:${PN} += "config-opendkim \
 opendkim"

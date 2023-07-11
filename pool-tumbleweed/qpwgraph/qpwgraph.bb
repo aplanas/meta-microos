@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.4.2"
 
-RPM_NAME = "qpwgraph-0.4.2-1.1.aarch64.rpm"
-RPM_HASH = "5f436317684dcb2c1060f0c6bb5e1ecbcd3a6b89d52faa38a3a4d9f4b3e19ecf8b7bdb9ad2b77feab7041cd5abb14b7d7644160ba8cf47edec33ee8bbee334fa"
+RPM_NAME = "qpwgraph-0.4.2-1.2.aarch64.rpm"
+RPM_HASH = "d1b4e008dd43a1a858d06cb383dfce0e94c5b7cbd830bc7e66efb08522717479e57bd229912ed5d709f96cb71da0b062c1203842461793c202d68721d8358d41"
 
 RPROVIDES:${PN} += "qpwgraph"
 

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "9.4.5"
 
-RPM_NAME = "ghc-ghc-boot-th-devel-9.4.5-3.1.aarch64.rpm"
-RPM_HASH = "61eefc936ea0a5189f113f75a1da402dd7fb1e7897212cef20593ca21a0412f0e52ebbb310e95c9bcdae8369639fef850282c1e4e359d14aab1a793fe6a87a51"
+RPM_NAME = "ghc-ghc-boot-th-devel-9.4.5-3.2.aarch64.rpm"
+RPM_HASH = "1fc5a66f99a84850363be2bba9d929aea697678fd73ec515b45889b6544680b056073615775c55471143d1b737124ddd0294aa371ee57468d149f4ae22f2a97e"
 
 RPROVIDES:${PN} += "ghc-devel-ghc-boot-th-9.4.5 \
 ghc-ghc-boot-th-devel \

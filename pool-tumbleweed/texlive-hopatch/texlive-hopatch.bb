@@ -8,8 +8,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.5svn65491"
 
-RPM_NAME = "texlive-hopatch-2023.201.1.5svn65491-53.1.noarch.rpm"
-RPM_HASH = "fbc989550c24a2f4aa77e9916c518bb732ee3e00390f299c7d2fb8dfef63d9bc4a9c23273e4ca9f5642365ed5f143f2b1c7f03b313a5ed639c2e5df0e5835707"
+RPM_NAME = "texlive-hopatch-2023.201.1.5svn65491-53.2.noarch.rpm"
+RPM_HASH = "e0b14cf87766f72b02ec0e44e9be343bedf2f96f1bc4696058d573cacd1c97bc3e9c627ae9a7fd7956b1e01ccc56ba3d9c2722cb352581e4177ae7ea57667637"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hopatch-2016-05-16.sty \

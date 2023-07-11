@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.25.0"
 
-RPM_NAME = "golang-github-prometheus-alertmanager-0.25.0-2.1.aarch64.rpm"
-RPM_HASH = "25b9ce9310671d2468508cb8bcfc1b5419f0941f24c8706d79c9e0d3fe5f2a0c55d4cc538e5d5d4d265cd144169d56dd709fd5510e64ce70a0b114ad37e64c9b"
+RPM_NAME = "golang-github-prometheus-alertmanager-0.25.0-2.2.aarch64.rpm"
+RPM_HASH = "b4101a85b5d6b3f0371c46beed82af160d522690de9bcc6e4d29d8ceff3ed3724487113fa9d4c5f38392dd1abfedf81527c203f1b37b11cba9e6de4de59c1f0a"
 
 RPROVIDES:${PN} += "config-golang-github-prometheus-alertmanager \
 golang-github-prometheus-alertmanager \

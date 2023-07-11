@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.8.4"
 
-RPM_NAME = "libdavix0-0.8.4-1.3.aarch64.rpm"
-RPM_HASH = "b1d693d8dff54aa5edd4051afa4e1bccfe5de4e97a4a4473f9748df26e8d10df8e1b7bfdf76a1e221a8e9732dff76a79ac5dd72050bd373ceae1cc1d8bb6af86"
+RPM_NAME = "libdavix0-0.8.4-1.4.aarch64.rpm"
+RPM_HASH = "37b389edb92872fbb3c1575879c6cce9d6686bd42fe368cc7aa9d13453a5d74656fdc3aa01ea8894d4b7faa8985452b330d570c8c0e19493773fbfef1e9a7537"
 
 RPROVIDES:${PN} += "libdavix.so.0 \
 libdavix0"

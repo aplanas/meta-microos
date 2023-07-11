@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.9.2"
 
-RPM_NAME = "python39-yarl-1.9.2-1.1.aarch64.rpm"
-RPM_HASH = "8acbd170dc7251670b69b1a8437e76d3820bd47ccf25ff54634a508a52ca0fba7690fb0578dfb9fafe978c7219cb467a46757c84e69955796337273d4edbd59e"
+RPM_NAME = "python39-yarl-1.9.2-2.1.aarch64.rpm"
+RPM_HASH = "13f0aa4132f004534ec9e54580a96b4c90ba96b78937843a4e490b213f15f345147c0d2aa5d7876fe83291cd3b9d18e94a1b9b90840b82762a3ed1c6d92c0227"
 
 RPROVIDES:${PN} += "python3.9dist-yarl \
 python39-yarl \

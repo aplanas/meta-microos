@@ -5,8 +5,8 @@ LICENSE = "SUSE-QWT-1.0"
 
 PV = "6.2.0"
 
-RPM_NAME = "qwt6-qt6-designer-6.2.0-2.1.aarch64.rpm"
-RPM_HASH = "ccc94bf0cc2d076edea91306a8c94d022ea4f8216fb0b105f6957fa311800cd584014591af571bad21a89de8fe78e5e509a83cc39520e7d486b8cd5a646688f9"
+RPM_NAME = "qwt6-qt6-designer-6.2.0-2.2.aarch64.rpm"
+RPM_HASH = "6d9d0b46e9866fcf18ce43bdf569b780ed5161c2a75451e9ef708d5e77ebc897b2b9ebe5bfaf986a8ea3e02cb957125efc6df11042289ac2d596e50e2cf79f02"
 
 RPROVIDES:${PN} += "libqwt-designer-plugin.so \
 qwt6-qt6-designer"

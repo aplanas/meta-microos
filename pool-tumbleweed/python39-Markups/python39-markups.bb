@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.0.0"
 
-RPM_NAME = "python39-Markups-3.0.0-3.8.noarch.rpm"
-RPM_HASH = "cd52accec84c252b271f407ef85851c70868cd6fb41eb08806e09f0f09c6e976a288ff7b1c3daf503b675a80225448f51e83a54f817eafe0390f47e79b6c26e8"
+RPM_NAME = "python39-Markups-3.0.0-3.10.noarch.rpm"
+RPM_HASH = "383bd8c6f9f26974bbcc22aebed7a58f35a8a15ebe07fedad4872f39d811230633a2de84fb37d990b747ec5b61a0cbc981ba01a750091832d3ae06c28d05d9d5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-markups \

@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "2.14.2"
 
-RPM_NAME = "libfontconfig1-2.14.2-1.3.aarch64.rpm"
-RPM_HASH = "d6a0cef4dee5ad9494bd7d3926b5f4232bd5b492fda808ef1cd13ce0e40d50eb436152c5b731dca0c831e9fac16cc6222201c81be924ed660d8e0908f507ad22"
+RPM_NAME = "libfontconfig1-2.14.2-1.4.aarch64.rpm"
+RPM_HASH = "1b506c548b95f8228e3c97c9870d8d2e3d90ec0ffa437e73f90e68622562138ae5a65e244ab44e546c5c0cf711e1762691059be72a44bc0f25ac5ada60ac9ad5"
 
 RPROVIDES:${PN} += "libfontconfig.so.1 \
 libfontconfig1"

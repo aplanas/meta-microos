@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "8.307"
 
-RPM_NAME = "pythia-devel-8.307-1.14.aarch64.rpm"
-RPM_HASH = "4830c0889e5ebc578cd2c519271f10b0a2cd9ae895d04b9c3ce7138edd1c13eef4c77c02bfc59e395ebab18e0880a5e8277cf12909e60aa0d36d2a9a561dc350"
+RPM_NAME = "pythia-devel-8.307-1.15.aarch64.rpm"
+RPM_HASH = "084ae8702aa5ca4904976aaae4dceef8522d22a3c88cdfa16fca6e25a18ba3f1d93a58b878a53e12e3103a62a493a4909f45c08f3fcca27c462e858c444cb47b"
 
 RPROVIDES:${PN} += "config-pythia-devel \
 pythia-devel"

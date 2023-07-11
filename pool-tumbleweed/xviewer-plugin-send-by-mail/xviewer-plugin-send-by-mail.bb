@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4.1"
 
-RPM_NAME = "xviewer-plugin-send-by-mail-1.4.1-1.6.aarch64.rpm"
-RPM_HASH = "a20e478d464c860cbfad67e93d3ca5ef2a68b62df8f8288dffc23766ae4b12430b68d8f4dc9d553985a5da53b8793ae73f16f4a1b6924aae5dd260667e96f597"
+RPM_NAME = "xviewer-plugin-send-by-mail-1.4.1-1.7.aarch64.rpm"
+RPM_HASH = "3bbc7ad7dc5ac10076b45108478b98e742352b7bc7d0861436fa975443950e9a1debc0219eb7386da56bf538113476abf322a32753cf9d389938886a219c0cc7"
 
 RPROVIDES:${PN} += "libsend-by-mail.so \
 xviewer-plugin-send-by-mail \

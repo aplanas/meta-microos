@@ -4,12 +4,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.06"
 
-RPM_NAME = "python310-ana-0.06-3.3.noarch.rpm"
-RPM_HASH = "d5c295cc63429c0110f9192ca75e5ee2045a3eca4617d3d32349c91553c52430ea633ce66b9eb1106d6c53472829fa1adb7d90d3539cd507c23ff8581bfea800"
+RPM_NAME = "python310-ana-0.06-3.5.noarch.rpm"
+RPM_HASH = "ac5e4a0fa63933312a7e1dadf284ffc972824b837c60eef25e11e06e382c9b9b444928e64ee1374d83c1ecc2f1ecb8f394de903431477e62482a216a15bb4f87"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-ana \
-python3.10dist-ana \
+RPROVIDES:${PN} += "python3.10dist-ana \
 python310-ana \
 python3dist-ana"
 

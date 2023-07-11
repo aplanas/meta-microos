@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.14.17"
 
-RPM_NAME = "libixml11-1.14.17-1.1.aarch64.rpm"
-RPM_HASH = "f2ac87b5f04eede9dc0a4391e972abf852817d50e2b2aff8a878e3d4723758240eb3ef8c26033598918e7f0bc96637ec6f16e8447f14818c26ecc6e85c2d0637"
+RPM_NAME = "libixml11-1.14.17-1.2.aarch64.rpm"
+RPM_HASH = "2872de7019da748b3c771273c46edbfbb3cf5d340fdca8bf91d24b4aaad1b97996007cc51b61e0d99d5411a558f42a31583d26d4bdac72185af1ce6b7321dbd6"
 
 RPROVIDES:${PN} += "libixml.so.11 \
 libixml11"

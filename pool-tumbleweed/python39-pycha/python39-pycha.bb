@@ -8,8 +8,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.8.1"
 
-RPM_NAME = "python39-pycha-0.8.1-3.1.noarch.rpm"
-RPM_HASH = "04848ad59b07e10f4879074577153b391dac572f9f30cc3e4c0171dec18c0fd854b30038bce6d577770181c4b13922ca294026090e6d001445b8f21d405c7d07"
+RPM_NAME = "python39-pycha-0.8.1-3.3.noarch.rpm"
+RPM_HASH = "2a4cbb1caf9ba55b8ef868acb76113da5d579fce16eb1a1fd2edd133c441c50a8cc626fd8ec8947a3100dc2d92c7ca68479c22d9eba4511ad6fd81f33883c518"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pycha \

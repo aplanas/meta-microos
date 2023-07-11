@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.9"
 
-RPM_NAME = "python39-langdetect-1.0.9-2.1.noarch.rpm"
-RPM_HASH = "134f027a2072627bf2bc2191eb005b513904558bfe63b22e383959ea8879f01b976e9adccd7d307996fa5faa1c7882551084d3d92024c96bebf7fbadc147483b"
+RPM_NAME = "python39-langdetect-1.0.9-2.2.noarch.rpm"
+RPM_HASH = "a9b66226a3175bb195b893fccac89a4f346a1f0a1fc603923ff231409e659388ea35b301a497194b6bc84bff0c5de563ad491b9a092ce034172150f5a20c7e98"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-langdetect \

@@ -5,10 +5,10 @@ explanatory text. The Notebook has support for multiple programming \
 languages, sharing, and interactive widgets."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.5.0"
+PV = "2.6.0"
 
-RPM_NAME = "python39-jupyter-server-2.5.0-1.2.noarch.rpm"
-RPM_HASH = "c04859aa7f70f2d962b998002a022e102c42b54c2d862e1e7b17a599ca37329a63a72a93770f49c9fa8970768b31106916d5efa661a0ca1407589c95cf863eb7"
+RPM_NAME = "python39-jupyter-server-2.6.0-1.3.noarch.rpm"
+RPM_HASH = "68024bc5eeadfa81e2dcd452fb33bf98e04bf1a755405b7e75776b35e6919ecc1910303162a427a9e211633f66816451be07ecce993c05bfeacc8b1f3e4752af"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-jupyter-server \
@@ -29,6 +29,7 @@ python39-jupyter-events \
 python39-jupyter-server-terminals \
 python39-nbconvert \
 python39-nbformat \
+python39-overrides \
 python39-packaging \
 python39-prometheus-client \
 python39-pyzmq \

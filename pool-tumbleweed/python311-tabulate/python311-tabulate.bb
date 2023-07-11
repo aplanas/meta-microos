@@ -14,11 +14,12 @@ LICENSE = "MIT"
 
 PV = "0.9.0"
 
-RPM_NAME = "python311-tabulate-0.9.0-3.1.noarch.rpm"
-RPM_HASH = "417bd900633b55c49401ddfb3f28f7804df6edacbb5ad0271c373f2382a918663a2822ae1dde8a4ee33ac04df8b2c8ec0f2f69046a5817a7bb82ff6d5a846d87"
+RPM_NAME = "python311-tabulate-0.9.0-3.3.noarch.rpm"
+RPM_HASH = "a53fc731df6bfbb8a63cf91a3a751a649b7306a1ad1c93e43b502a54d09259d2f295849e680dc3dd6f4d12b399afe7ceeb1c4de3ad17a185634a4afc8a3b5854"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-tabulate \
+RPROVIDES:${PN} += "python3-tabulate \
+python3.11dist-tabulate \
 python311-tabulate \
 python3dist-tabulate"
 

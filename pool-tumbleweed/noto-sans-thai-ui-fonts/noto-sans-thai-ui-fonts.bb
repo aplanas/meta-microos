@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-thai-ui-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "6a23c0d5828b198dc2937b9edc0cb5f18cb1eb35b6233a10ac1290882dd054cdf6e685e302cb6a49c91211e7716caa513fe7b75a7c781e094f63f50eba47bccc"
+RPM_NAME = "noto-sans-thai-ui-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "edda2995aeb470d7dbc540ac58f25780253d6855a064861b772c49e417f424a157b5389221bbc606f03cd4097b8a3fd36c245d80290d413a7c990164e647bc88"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-thai-ui \

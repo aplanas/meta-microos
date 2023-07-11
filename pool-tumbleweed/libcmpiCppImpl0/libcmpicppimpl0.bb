@@ -7,8 +7,8 @@ LICENSE = "EPL-1.0"
 
 PV = "2.0.3"
 
-RPM_NAME = "libcmpiCppImpl0-2.0.3-8.26.aarch64.rpm"
-RPM_HASH = "fe57224fcb583f2434d79a81b4649331dfe6bf416657e91b9ec05969b5a440a8e7cabb022575ecff98dca584b7ad9ff57b7dd106f13b6d0fc7e92cf99b709b5b"
+RPM_NAME = "libcmpiCppImpl0-2.0.3-8.27.aarch64.rpm"
+RPM_HASH = "51cca55c3f25286a6b6b75fad0c2d393b09f09a60597835037ae96294e0e6f38b178ff17770b71a679631584623fc82580e227ad45fce09e882d076dcceba394"
 
 RPROVIDES:${PN} += "libcmpiCppImpl.so.0 \
 libcmpiCppImpl0"

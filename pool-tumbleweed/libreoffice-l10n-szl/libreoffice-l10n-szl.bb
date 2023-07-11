@@ -2,10 +2,10 @@ SUMMARY = "Silesian localization files for LibreOffice"
 DESCRIPTION = "Provides Silesian translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.1"
+PV = "7.5.4.2"
 
-RPM_NAME = "libreoffice-l10n-szl-7.5.4.1-1.1.noarch.rpm"
-RPM_HASH = "e2d3be9a0f6df707f31cf626ac9818ec5fea9973995f4a8cb432556f919f3ea5377df1efb2ec826c9785e8c91beade48ad186f661b7a3928ce2848af508cd4df"
+RPM_NAME = "libreoffice-l10n-szl-7.5.4.2-1.3.noarch.rpm"
+RPM_HASH = "acede307b48dc6809543032b98f8efbe2136206bfcb65932edea710c59a30dbd69e6c5cd748f6ce6b5fd42115ea0ba21d44e5ed3cc546a9f146aaee94016c465"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-szl \

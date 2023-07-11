@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "3.1.0"
 
-RPM_NAME = "python310-terminaltables-3.1.0-2.15.noarch.rpm"
-RPM_HASH = "308635385a4d61c87e04887d8ed0651a42249be65b37b016c609aecce84a47f82be56c5e11ae4dff91ef001f53235d6104f5305d5f52f60c4d2134019fc5ca16"
+RPM_NAME = "python310-terminaltables-3.1.0-2.16.noarch.rpm"
+RPM_HASH = "083b8a92ca183e7e1ef6fdfc9ab7f9327094c77af71ddce9d0d9da5f7dec9242bd94ba78e932fd5bc85f84a920f6533762060ab779d7bafb397a31a9b327107f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-terminaltables \
-python3.10dist-terminaltables \
+RPROVIDES:${PN} += "python3.10dist-terminaltables \
 python310-terminaltables \
 python3dist-terminaltables"
 

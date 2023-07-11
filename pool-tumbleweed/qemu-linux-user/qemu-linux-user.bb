@@ -7,8 +7,8 @@ LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-
 
 PV = "8.0.2"
 
-RPM_NAME = "qemu-linux-user-8.0.2-1.1.aarch64.rpm"
-RPM_HASH = "693861f0ecc11e848c0488b8688d0281d6c918494fe2e7000a01339bd1fb1dfbee50cd6e169f26a218463f78f446845ce64e56bb4984e7940c0b4d6a2dac5b90"
+RPM_NAME = "qemu-linux-user-8.0.2-2.1.aarch64.rpm"
+RPM_HASH = "3b9346bd2333c205533d1eeb62d3e34a0265e0b9ab1fd89a2c42aac7523a80141bfa520d8f77076532c446cfd207f4b1a46378e8411e35c21f3f5f98618e378c"
 
 RPROVIDES:${PN} += "qemu-linux-user"
 

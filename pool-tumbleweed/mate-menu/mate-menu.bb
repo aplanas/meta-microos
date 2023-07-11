@@ -9,12 +9,12 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "22.04.2"
 
-RPM_NAME = "mate-menu-22.04.2-1.4.noarch.rpm"
-RPM_HASH = "ad07bf85414bfc7bcd79ab307ec8a06ff274bcc91d4bb7eb9c8f729e01e58e9ff4fa1c657788a0023538e3ba721b6e69f07368e35453f50340b1cd72a8c29f1d"
+RPM_NAME = "mate-menu-22.04.2-1.5.noarch.rpm"
+RPM_HASH = "ed1cece3ad8943ff1bd9f2dca224dbf4df5aad16359850fe14a346f1c17ed7d9e20382a70cd648c345fdf37de0b6b8a36a36ac278c54fd7221f01ca386c664c2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mate-menu \
-python3.10dist-mate-menu \
+python3.11dist-mate-menu \
 python3dist-mate-menu"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

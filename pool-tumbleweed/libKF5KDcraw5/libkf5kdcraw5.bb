@@ -7,10 +7,10 @@ This library is used by kipi-plugins, digiKam and others kipi host \
 programs."
 LICENSE = "LGPL-2.0-or-later & GPL-2.0-or-later & GPL-3.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libKF5KDcraw5-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "8b6da55e471c32b5d3e958d988ae61491f968153fa83bf8e201784c12e1991a4becd3a1e579dffd3b68a4ef939dbb6338918af7dc83b8accb7725d19cd8fb292"
+RPM_NAME = "libKF5KDcraw5-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "9a42669804e632db4ad5f53e13018ae13e0dcb8c207ead3f59527ccd72b8c47d3c308d7563a6d80d071d2c94db2eae0d24134a9fbdf4905d1012224472986f1d"
 
 RPROVIDES:${PN} += "libKF5KDcraw.so.5 \
 libKF5KDcraw5"

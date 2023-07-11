@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.47svn65597"
 
-RPM_NAME = "texlive-xindex-doc-2023.201.0.0.47svn65597-52.1.noarch.rpm"
-RPM_HASH = "287cac560359c2ed98605da1d249dc5a34819cb45f3356c8c75899a9095633ac7c5b097e2c9354bde03a17e67beb1c0abea6c826fceadc5bf4c7c59696e00b99"
+RPM_NAME = "texlive-xindex-doc-2023.201.0.0.47svn65597-52.2.noarch.rpm"
+RPM_HASH = "8c00f0cd12fa8bfc371284806f8160ec3c26665c9a9a08e1bf4cf42fd8c257388d4bf6848afca9f6da92df79a9633ce222ba0b49d9500583a692c844597fe5f3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xindex-doc"

@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.12.0"
 
-RPM_NAME = "python39-pytest-mpl-0.12.0-1.9.noarch.rpm"
-RPM_HASH = "7d1bb9e3a5164503267b31828b60f2253a305e0503992d63821d23a60ae3074af6ac78eee4f8c8046e15f5167bed90911671624d7d5162afb5fb4182b099b005"
+RPM_NAME = "python39-pytest-mpl-0.12.0-1.11.noarch.rpm"
+RPM_HASH = "cfaef107e6a70089750a690eebbe35c9b79f0951ec5e5c4a8138e2f7788dc0f4bec1e04cd0c5c8e8472dc3114807516a68b6043c4ff36b101bc7409c196ad06a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytest-mpl \

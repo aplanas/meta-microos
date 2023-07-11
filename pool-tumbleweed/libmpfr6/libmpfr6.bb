@@ -6,8 +6,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "4.2.0"
 
-RPM_NAME = "libmpfr6-4.2.0-2.1.aarch64.rpm"
-RPM_HASH = "a0668ce43cdd16b9dda387a52bb49e46bceb7f5772ccbcc291f2182d460f55c81b92b03cf2e876fa199e085e9c0dba71d680aa4dc02942fa813053e65618ec77"
+RPM_NAME = "libmpfr6-4.2.0-3.2.aarch64.rpm"
+RPM_HASH = "486afee6a4dd6533c6a08247b61e41cdd416f9ef5a73b526cdf12d340a3ed0f92c09ec0dd664dc03aa8654eefbd9c19e030f32af8a8a8952c16aa50abc284d1a"
 
 RPROVIDES:${PN} += "libmpfr.so.6 \
 libmpfr6"

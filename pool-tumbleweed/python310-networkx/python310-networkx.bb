@@ -13,12 +13,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.8.8"
 
-RPM_NAME = "python310-networkx-2.8.8-1.3.noarch.rpm"
-RPM_HASH = "876c6ddc7232aae17d03e38da26ce169f0b6e3155c99ddab753aaf6a093bb1c29d0b40531267e8cf450760542af457e42060a58d15db544cd0a6cefa8604df05"
+RPM_NAME = "python310-networkx-2.8.8-2.1.noarch.rpm"
+RPM_HASH = "1c1e65f8dba769c4094317e7cbce74390b602d528448b9f0a20ac61bd7d45e16abc958217ca81acfc0d8c6b184ace202a15bf926ca737877709faeb4a5537cb4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-networkx \
-python3.10dist-networkx \
+RPROVIDES:${PN} += "python3.10dist-networkx \
 python310-networkx \
 python3dist-networkx"
 

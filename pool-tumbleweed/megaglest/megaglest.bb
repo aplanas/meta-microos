@@ -12,8 +12,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.13.0"
 
-RPM_NAME = "megaglest-3.13.0-7.8.aarch64.rpm"
-RPM_HASH = "85cd6ad6b985735674d061e9237c37067788fd0b172eb6623debb5a6b5b69b591150fb81ee0b38ad86cc3742305dd46038cc76c5f5aa8ccf23f60ef9dfcd9bd7"
+RPM_NAME = "megaglest-3.13.0-7.9.aarch64.rpm"
+RPM_HASH = "b03635a70f10a2439e8c45e76c4eaed48db6e6eafcca39ee036eea9b2706cdcad7879de865f51a41f70e6ef4b772a3e3097744ec4a516e01837f4c3b415421ac"
 
 RPROVIDES:${PN} += "megaglest"
 

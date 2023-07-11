@@ -5,11 +5,10 @@ LICENSE = "MIT"
 
 PV = "1.15.1"
 
-RPM_NAME = "python310-cffi-1.15.1-4.1.aarch64.rpm"
-RPM_HASH = "6c155acc2b02bf697a710f67d80a45a3df82e1fc16a28010b171db42c4e0d2809aef2ba7e3cc8acc5dd6581d74470c362343da3709314e59a18340917bca072e"
+RPM_NAME = "python310-cffi-1.15.1-4.3.aarch64.rpm"
+RPM_HASH = "1e08cb98247f86889b6160fd7d2dfda1cfb1e1453750d01a91359b8f1ba4bc2527e700acc9f3e641b870140748c9af7a200e1e5807ec999a8458e41c23c1490a"
 
-RPROVIDES:${PN} += "python3-cffi \
-python3.10dist-cffi \
+RPROVIDES:${PN} += "python3.10dist-cffi \
 python310-cffi \
 python3dist-cffi"
 

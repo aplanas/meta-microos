@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.36.0"
 
-RPM_NAME = "libpeas-devel-1.36.0-1.1.aarch64.rpm"
-RPM_HASH = "3b729b274403675ef2145c39ca7705e9066c5c8732bbcb816c0b8d3c38d6d44b3c7de40a4bae9e169b8614060151ae42ea2bc743fc3dd791785db666115877a0"
+RPM_NAME = "libpeas-devel-1.36.0-1.2.aarch64.rpm"
+RPM_HASH = "806d97daff28e113a260b825089c14784f1c2c679af07fe9056f09b21ee1b5b897baa259bd6b162ad52ff9521c906b9f73189dcdac197b7acf5d0af238d336e4"
 
 RPROVIDES:${PN} += "libpeas-devel \
 pkgconfig-libpeas-1.0 \

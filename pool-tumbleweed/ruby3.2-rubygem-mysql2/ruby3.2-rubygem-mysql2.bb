@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.5.4"
 
-RPM_NAME = "ruby3.2-rubygem-mysql2-0.5.4-1.7.aarch64.rpm"
-RPM_HASH = "7e2b4fb9aa5dd5d39e5438f574ed581640506185d5f94e9eff4762de110ac01e332f87ce7473569f0f3567f35110d448e7c407c78789e9f40177eb0ae5888f3e"
+RPM_NAME = "ruby3.2-rubygem-mysql2-0.5.4-1.8.aarch64.rpm"
+RPM_HASH = "b4d09dc436dc7c4b9a52a36bdd39717d5bb9dd94038c848546e1d81b80b21c51889d05ef977ef3822aeaf7bcab3022b5c9a74fa351bd265665f09bec55e43761"
 
 RPROVIDES:${PN} += "ruby3.2-rubygem-mysql2 \
 rubygem-mysql2 \

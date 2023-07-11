@@ -5,8 +5,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.999838"
 
-RPM_NAME = "perl-Math-BigInt-1.999838-1.1.noarch.rpm"
-RPM_HASH = "73fc847f54b4147a52cadc6f31565f0edd44241ea37ab5cef5747931016eb2277c5f190b4b307741729e6c83faf7bc81e78855bc003a37aad07add8674b60cf5"
+RPM_NAME = "perl-Math-BigInt-1.999838-1.2.noarch.rpm"
+RPM_HASH = "47f4a8fd5eb6199b6cd5449406826e767e52e347b5256edb222ea49af2c9b86d4581537277f870c28d641653e5e06be2428adb069a7807ae5ff5672017db3de2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Math--BigFloat \
@@ -15,7 +15,7 @@ perl-Math--BigInt--Calc \
 perl-Math--BigInt--Lib \
 perl-Math-BigInt"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Carp \
 perl-Math--Complex"
 

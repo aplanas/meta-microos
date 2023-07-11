@@ -13,11 +13,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.2.1"
 
-RPM_NAME = "python311-cloudpickle-2.2.1-1.1.noarch.rpm"
-RPM_HASH = "1be17c19eb99f7efd03cfd64c36a5328a3b35ec0b0ab70212bf0d2e706d455fddaa480cdb656b293e9a4b15d4c9785cdd97e78ea83c09548879b208e671ff0b1"
+RPM_NAME = "python311-cloudpickle-2.2.1-2.3.noarch.rpm"
+RPM_HASH = "8dcd84e7a67c225750affebe7435e5b7d5fdd66fc4cd7e67165c2afda6ca620bac02a6276f920a36be6c5087cdb5641ace7db206d089ecf6568432a25d96116e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-cloudpickle \
+RPROVIDES:${PN} += "python3-cloudpickle \
+python3.11dist-cloudpickle \
 python311-cloudpickle \
 python3dist-cloudpickle"
 

@@ -6,10 +6,10 @@ encoding / transcoding video applications. The SVT-AV1 decoder implementation \
 is targeting future codec research activities."
 LICENSE = "BSD-3-Clause-Clear"
 
-PV = "1.4.1"
+PV = "1.6.0"
 
-RPM_NAME = "libSvtAv1Enc1-1.4.1-2.1.aarch64.rpm"
-RPM_HASH = "969dcdf72f33b0b879245c3afcb119cbff4336a70cd4bc2b862668782d8bc2a0e0d62bb70941fe0dc20d777542933e6ab8542ab922cd9ff7fb68f9a5cfe89742"
+RPM_NAME = "libSvtAv1Enc1-1.6.0-1.1.aarch64.rpm"
+RPM_HASH = "50e6933f34ba23a364f2c05f42374fc07227a15aff5b91768df410f4a5d5752db7e0fb2b918318ff072617f6dac59ff2604f6fb53c9ff273c2778af2846b2a05"
 
 RPROVIDES:${PN} += "libSvtAv1Enc.so.1 \
 libSvtAv1Enc1"

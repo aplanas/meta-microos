@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.7.3"
 
-RPM_NAME = "makedumpfile-1.7.3-1.1.aarch64.rpm"
-RPM_HASH = "d48900ff0b8dfe976695e550e6f75a8fd0c2e995f98448abb8ab43c93eefeafb31eb0af0500e69e82b281b71017910bd2855ed87303b842b0d7d6d0fbe5a8c8c"
+RPM_NAME = "makedumpfile-1.7.3-1.2.aarch64.rpm"
+RPM_HASH = "9944f806f8d5b28c1013cab2ac6d6c6925af00086499c65fc7ab070b2efe2bd3e8dcef1f4703742ad740345745a28973e387f39c4e7a8f17fda6e2dedfa5c3a9"
 
 RPROVIDES:${PN} += "makedumpfile"
 

@@ -6,16 +6,16 @@ LICENSE = "MIT"
 
 PV = "2.8.3"
 
-RPM_NAME = "powerline-2.8.3-2.2.aarch64.rpm"
-RPM_HASH = "1e29a50b681f57d1e72ef49cf530eea659f6c702af1ab315c5625e7436b2d727044b1fccb8f333cf71b52235b69eabb984d46626d5fe582c5fb251a78b7bc94c"
+RPM_NAME = "powerline-2.8.3-3.1.aarch64.rpm"
+RPM_HASH = "3f62325a814cd143c41004723bde673003bf6cd1237002c9a6f80bf37d50f0aacd5bcc64b8a4b16b4f4a331ef70467cbd8d5b627cd9b2b9244575a128e42732b"
 
 RPROVIDES:${PN} += "config-powerline \
 powerline \
 python3-powerline-status \
-python3.10dist-powerline-status \
+python3.11dist-powerline-status \
 python3dist-powerline-status"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
 /usr/bin/sh \
 libc.so.6 \
 powerline-fonts \

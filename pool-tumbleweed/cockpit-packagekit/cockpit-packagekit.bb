@@ -3,10 +3,10 @@ DESCRIPTION = "The Cockpit components for installing OS updates and Cockpit add-
 via PackageKit."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "276.1"
+PV = "293"
 
-RPM_NAME = "cockpit-packagekit-276.1-4.4.noarch.rpm"
-RPM_HASH = "0056582bbd14d04a9eadbbea753c2427e9f3477d477529983d0d68f0f5bf08bff34a1b6a119865632b9c29670721e17e4d859c0204a3518014d5fe8d17b5f404"
+RPM_NAME = "cockpit-packagekit-293-1.1.noarch.rpm"
+RPM_HASH = "521c8773d07aad96dd47ded34a72531813b5c932af457ad8f21c4f908da3b31e4300d85b21173692614fee7d176184f67da995457822a641e9daa781b7051b19"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cockpit-packagekit"

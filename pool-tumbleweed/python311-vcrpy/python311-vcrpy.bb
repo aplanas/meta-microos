@@ -7,11 +7,12 @@ LICENSE = "MIT"
 
 PV = "4.2.1"
 
-RPM_NAME = "python311-vcrpy-4.2.1-2.1.noarch.rpm"
-RPM_HASH = "096bf76ffaa42c64f3825bded339cad4d27b75c3a1b29199b6dbdea8fbaa28760e730cde76ecfbe1f4b7afdea23008542fb90fa90c0a4e2223f903e589f4bad7"
+RPM_NAME = "python311-vcrpy-4.2.1-3.1.noarch.rpm"
+RPM_HASH = "3070724be4459e45309404fee187ae29e4b261da4ef57207822fdb526008e2e99a040e58644aec61b4410d498d128a920742306e2c6987b535592041733246a8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-vcrpy \
+RPROVIDES:${PN} += "python3-vcrpy \
+python3.11dist-vcrpy \
 python311-vcrpy \
 python3dist-vcrpy"
 

@@ -4,11 +4,12 @@ LICENSE = "Apache-2.0"
 
 PV = "0.5.2"
 
-RPM_NAME = "python311-aiohttp-asgi-0.5.2-1.1.noarch.rpm"
-RPM_HASH = "1a28109f5d9398a670b7bd65c1f6053c7e3b0ac8fef180baf2d6cface7d7c941dc5d1ce3a39f0a4dd92784e596cdaa0bb97074830dd5df0bcdea50d523666e10"
+RPM_NAME = "python311-aiohttp-asgi-0.5.2-1.3.noarch.rpm"
+RPM_HASH = "ca9adeff1fa8e6f4fc0ae3c7b2120eb65e3f592118dec2390e445a19d9742fae2cd266d93343bee822e81b5e97d59b202f5af37c3776d70e7cdd8046976b4de5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-aiohttp-asgi \
+RPROVIDES:${PN} += "python3-aiohttp-asgi \
+python3.11dist-aiohttp-asgi \
 python311-aiohttp-asgi \
 python3dist-aiohttp-asgi"
 

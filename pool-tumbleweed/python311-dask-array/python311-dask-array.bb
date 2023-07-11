@@ -16,13 +16,14 @@ Dask arrays implement a subset of the NumPy interface on large \
 arrays using blocked algorithms and task scheduling."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.3.2"
+PV = "2023.5.1"
 
-RPM_NAME = "python311-dask-array-2023.3.2-3.1.noarch.rpm"
-RPM_HASH = "21aee98e9cc56be4a469f6babebd02e23000c5913cdf7ea474a9df94494679dc97582fa2bff60fde9bf069738af215a63563b4a90ee3d5c0d0452919687c7136"
+RPM_NAME = "python311-dask-array-2023.5.1-2.3.noarch.rpm"
+RPM_HASH = "d6d17b27dbd44891187d9a15766e70e9267cbe99d850f23dfbbd182c492f5fb3ff837ce0d16494818d2d94dc0c2032bf25b747823611751a352ad43e23826e42"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python311-dask-array"
+RPROVIDES:${PN} += "python3-dask-array \
+python311-dask-array"
 
 RDEPENDS:${PN} += "python-abi \
 python311-dask \

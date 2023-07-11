@@ -4,12 +4,12 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later) & GPL-2.0-only & GP
 
 PV = "6.5.1"
 
-RPM_NAME = "python3-shiboken6-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "4c4522320ddd13c45d56cd7288400c3ef1ff0ff43c96716ebc3a849040fae2beb45a83b046ab9c5e438a284a57134189c72da7fc41bec1f0d7d6b399466f2228"
+RPM_NAME = "python3-shiboken6-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "7676991d64267b690d554ac4f89a7ff7c7c3ccd22763af7162fd5b62f97c6a80615135703b7f4e01cd7d12c0eab20f3d70b9c7202514a9c173b9267dc97f671c"
 
 RPROVIDES:${PN} += "libshiboken6.abi3.so.6.5 \
 python3-shiboken6 \
-python3.10dist-shiboken6 \
+python3.11dist-shiboken6 \
 python3dist-shiboken6"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
@@ -18,7 +18,7 @@ libQt6Core.so.6 \
 libc.so.6 \
 libclang.so.13 \
 libgcc-s.so.1 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libstdc++.so.6 \
 libxml2.so.2 \
 libxslt.so.1 \

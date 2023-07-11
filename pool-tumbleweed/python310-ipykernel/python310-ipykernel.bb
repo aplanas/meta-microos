@@ -2,16 +2,13 @@ SUMMARY = "IPython Kernel for Jupyter"
 DESCRIPTION = "This package provides the IPython kernel for Jupyter."
 LICENSE = "BSD-3-Clause"
 
-PV = "6.23.1"
+PV = "6.23.3"
 
-RPM_NAME = "python310-ipykernel-6.23.1-1.1.noarch.rpm"
-RPM_HASH = "431378755e1994f959d5774b8035d43c60d42374f3d972b9afa59a88f3f2041926e56fe2f1260df48dd2d4bf88a75fe329f8237c69ad3cd5043e72f7fa6ddd65"
+RPM_NAME = "python310-ipykernel-6.23.3-1.1.noarch.rpm"
+RPM_HASH = "01183e7966c81c5b59600fd805348a7c5eacad5fc82758099c3f8ed0905ca2c6537b178bffa76b28373402eb66b3af1d2e09e3dee52fbb50207e61083fe1967d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jupyter-ipykernel \
-python3-ipykernel \
-python3-jupyter-ipykernel \
-python3.10dist-ipykernel \
+RPROVIDES:${PN} += "python3.10dist-ipykernel \
 python310-ipykernel \
 python310-ipykernel-doc \
 python310-jupyter-ipykernel \

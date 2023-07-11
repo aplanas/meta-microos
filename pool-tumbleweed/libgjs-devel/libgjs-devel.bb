@@ -3,10 +3,10 @@ DESCRIPTION = "This module contains JavaScript bindings based on gobject-introsp
 Mozilla SpiderMonkey JavaScript engine."
 LICENSE = "LGPL-2.0-or-later & MIT"
 
-PV = "1.76.0"
+PV = "1.76.2"
 
-RPM_NAME = "libgjs-devel-1.76.0-1.1.aarch64.rpm"
-RPM_HASH = "b074a616bfcd1ab6101a6f59f39b6d420cc2e666265faed269dca3829960333cc1589294290dc5b957675f38add446b24d1a239e8cd5d95ededa3496d01022db"
+RPM_NAME = "libgjs-devel-1.76.2-1.1.aarch64.rpm"
+RPM_HASH = "f355f5c43b41926ecdedf428e210d2d51bbdf0c4b9402f1c96d8896a2c0610ef3f51599ffeae0dd3d6f75188db1125574df0cd48023e8d166ed6fe7e51eb1cdc"
 
 RPROVIDES:${PN} += "gjs-devel \
 libgjs-devel \

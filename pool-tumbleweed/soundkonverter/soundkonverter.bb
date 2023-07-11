@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "3.0.1"
 
-RPM_NAME = "soundkonverter-3.0.1-1.14.aarch64.rpm"
-RPM_HASH = "f2a63814e62041e192939828775dd44e574079537865dc3b044f79b36cd0985ed3854edd2bcf0df7cf6b231db5741f79929feb017a71f10b28353dad0e257192"
+RPM_NAME = "soundkonverter-3.0.1-1.15.aarch64.rpm"
+RPM_HASH = "42aacc0a81c1d35ef35aa3e018fd11d4465ebd780726e4b32fbc8634b2288d3d4de976380c411e6f30f8d8595ab8d74ddbf6346794750517775994c58be49fde"
 
 RPROVIDES:${PN} += "libsoundkonvertercore.so \
 soundkonverter"

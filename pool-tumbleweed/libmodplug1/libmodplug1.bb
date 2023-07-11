@@ -9,8 +9,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "0.8.9.0+git20170610.f6dd59a"
 
-RPM_NAME = "libmodplug1-0.8.9.0+git20170610.f6dd59a-2.8.aarch64.rpm"
-RPM_HASH = "e4cbf8664db68b09ca13aacf4992f4dadd83fd7a1c690d2450facd030599d65224e82baa079b25b0f2b5af57a6199aa54f54dc25f0548c3dffd8b615f5e49368"
+RPM_NAME = "libmodplug1-0.8.9.0+git20170610.f6dd59a-2.9.aarch64.rpm"
+RPM_HASH = "137e5da2284d5a7988e70b3d564112e1ce60f17495ee82704c5b8c6b938fe29a2b07365ac358f73e13ac992c716835e613bbae02c26c5c7699ae39d2265ed6d4"
 
 RPROVIDES:${PN} += "libmodplug.so.1 \
 libmodplug1"

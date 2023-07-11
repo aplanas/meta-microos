@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "6.0.17"
 
-RPM_NAME = "zabbix-java-gateway-6.0.17-1.1.aarch64.rpm"
-RPM_HASH = "0bf79456e390a3e58725c7bb9427e659d5d102d335023c5d0e89300e108756694a6916c19b13eb0019376c74fb0321829c00482dae97ea9c0fb18a443cb8419b"
+RPM_NAME = "zabbix-java-gateway-6.0.17-1.2.aarch64.rpm"
+RPM_HASH = "c2708790cff4ee17afcce8a8c389035438386d010d53b9a5d5e71ed73786aec6356bb41857174d6a1848ae6ecb023b28ea79261ad943248f383d8db5506cb5c8"
 
 RPROVIDES:${PN} += "config-zabbix-java-gateway \
 zabbix \

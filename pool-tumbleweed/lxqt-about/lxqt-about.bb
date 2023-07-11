@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.3.0"
 
-RPM_NAME = "lxqt-about-1.3.0-1.1.aarch64.rpm"
-RPM_HASH = "ad3ee75d3a37c1cc22e5ca9d6151e731d4923155f7b4ae1ec36d5461b5abeb87320da49ab48b6785b93c7db1a166b48b6008f3e54180a6c457d875644d2692f2"
+RPM_NAME = "lxqt-about-1.3.0-1.2.aarch64.rpm"
+RPM_HASH = "498f18ec853e3143feb989877c8cc59b7595d9f56c249ff25ce27d49013f7211bb13a703feec3c5ee8b154af5f50bda9a2a30100c0cc7c0bb6047c46559b1143"
 
 RPROVIDES:${PN} += "lxqt-about"
 

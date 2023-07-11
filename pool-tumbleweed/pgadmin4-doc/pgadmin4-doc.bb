@@ -7,8 +7,8 @@ LICENSE = "PostgreSQL"
 
 PV = "4.30"
 
-RPM_NAME = "pgadmin4-doc-4.30-2.10.noarch.rpm"
-RPM_HASH = "c298c2c9f1680ce90e605bffaee4f48005ef1808b2f97d3b1e0e5bf93ad5f278ea71653bd17bef5aef07f0d5978d38f374f6c8c4c819c661e927a704a5eba44b"
+RPM_NAME = "pgadmin4-doc-4.30-2.12.noarch.rpm"
+RPM_HASH = "8f5fa2c95ba90511f2901ee6a27af598aaf9e197ca1905de311954a7b5d75812860c75cab778a75ae2d8f625a55eeb64cc501cf6e6f8511e611cd60988b1038a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pgadmin4-doc"

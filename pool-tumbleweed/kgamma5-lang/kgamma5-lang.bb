@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kgamma5"
 DESCRIPTION = "Provides translations for the 'kgamma5' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "kgamma5-lang-5.27.5-1.1.noarch.rpm"
-RPM_HASH = "541cc72c8c8f504927688c5e2ce43124a2513ba8971bc34fed8c1c2fee4d400e82d58d0f4169ca3112fe125f30c4587d23204294e473f63a3fa8dbbc389027d0"
+RPM_NAME = "kgamma5-lang-5.27.6-1.1.noarch.rpm"
+RPM_HASH = "b7df0692421efa61d7690cc4010f8659e8ce70679b537f1f6855099054df1ea112942077d46630b44474bb3f44a18a693ab62a63a9ab6336c27bdde0a244f8e4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kgamma5-lang \

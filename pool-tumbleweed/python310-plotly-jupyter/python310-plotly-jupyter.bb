@@ -10,14 +10,13 @@ always accessible from the graph. \
 This package provides Jupyterlab and Notebook integration and widgets."
 LICENSE = "MIT"
 
-PV = "5.13.1"
+PV = "5.14.1"
 
-RPM_NAME = "python310-plotly-jupyter-5.13.1-1.3.noarch.rpm"
-RPM_HASH = "d11d6122d7507c82b7bf2a88d518573ec1b582fed723c723e2dda07f38ad9cfa79ec9e173aaab794975bcdee53dfa330c27334ef3489ea620d44fb4f4f2869eb"
+RPM_NAME = "python310-plotly-jupyter-5.14.1-1.2.noarch.rpm"
+RPM_HASH = "a99704b60953918475b7ab7404faad58d346a63b934aef25af37d0820c6490da959e25fccd1cb43258af33c1f239cd9bb90d1957aecf8df8b68796b20dd2e20b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-jupyterlab-plotly \
-python3-plotly-jupyter \
+RPROVIDES:${PN} += "jupyterpython-plotly-jupyter \
 python310-jupyterlab-plotly \
 python310-plotly-jupyter"
 

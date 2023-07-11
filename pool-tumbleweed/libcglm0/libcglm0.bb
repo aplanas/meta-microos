@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.8.9"
 
-RPM_NAME = "libcglm0-0.8.9-1.3.aarch64.rpm"
-RPM_HASH = "d104ecd892ebae682dd4057dc4fbe31e714cccc820f6dfbfdc81a6c1a7c6a04d783950c859d9bb53998f4828166dbc95c93ecba2ec71ec780f8a27cef7b88607"
+RPM_NAME = "libcglm0-0.8.9-1.4.aarch64.rpm"
+RPM_HASH = "b6cf26ce8757fb4e420480cb52e0a20c275e1d44b88a2a005d5b3af6fa0adbf63a2b91d6e830000975aa634940ce44f1c2388a5fb5854c896900c2d8b4658e7c"
 
 RPROVIDES:${PN} += "libcglm.so.0 \
 libcglm0"

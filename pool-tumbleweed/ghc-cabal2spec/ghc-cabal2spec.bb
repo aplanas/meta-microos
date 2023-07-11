@@ -4,11 +4,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.7.0"
 
-RPM_NAME = "ghc-cabal2spec-2.7.0-1.2.aarch64.rpm"
-RPM_HASH = "0f1f33cea78de63767a77b5a2a76fd53b0aede6e8b4081f84ed15e613720aa3ac8f32c91df5e892d2457222f50449f717ad0dd00cb1dbc3d9a60ef3e7ab75493"
+RPM_NAME = "ghc-cabal2spec-2.7.0-1.4.aarch64.rpm"
+RPM_HASH = "b39f4a7ec9a160d221ecdcd6886107381968ac1bd240ffed3b88fc9538f53d6388064c3221df58ef94800c2301be575bdaa3733b4fa2e1dd37f8da5b92883e34"
 
 RPROVIDES:${PN} += "ghc-cabal2spec \
-libHScabal2spec-2.7.0-9ijIHSPt0QmI4YnWoXNap7-ghc9.4.5.so"
+libHScabal2spec-2.7.0-54mL96TvGMU9RbanaGRqP2-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSCabal-3.8.1.0-ghc9.4.5.so \
 libHSCabal-syntax-3.8.1.0-ghc9.4.5.so \

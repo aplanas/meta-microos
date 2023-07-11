@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "1.8.5"
 
-RPM_NAME = "libX11-data-1.8.5-1.1.noarch.rpm"
-RPM_HASH = "2b133080087a4b63ee9af81fb0d79c8afc66f9f05090bbc2a78779dc8f161cbd8595292bfea2f248dbd8c4ca44f8e6f9fbeb0f7acfc71c8dfcc42fcabda82c69"
+RPM_NAME = "libX11-data-1.8.5-2.1.noarch.rpm"
+RPM_HASH = "9f6c21e0be5bc2805686a6a430a7605cde2fe3cba13ddb20a1278f2d05e9204afa3c65f3c69c2acc630cad9dc4d366be644b3d5303ef5903b12f79ca67e8f32b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libX11-data"

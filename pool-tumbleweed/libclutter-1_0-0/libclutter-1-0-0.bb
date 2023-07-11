@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.26.4"
 
-RPM_NAME = "libclutter-1_0-0-1.26.4-4.10.aarch64.rpm"
-RPM_HASH = "8c26deddf813cf7b4dd10fe483e243f8fb36d40c4b6ecdc628c04a98f4ff9ad770801d88ba252e4834a8739631f4ec27628fcf9a0feae5be699b51558e5238c8"
+RPM_NAME = "libclutter-1_0-0-1.26.4-4.11.aarch64.rpm"
+RPM_HASH = "b0e2043fffa4176345a3d7400589c1023bad8044e89e309c4e2ddd4ad3fa3f9cff27b8dd51149d40cde3a5f59cdcb206faf934294ae701cc62b889c0d4eafc4e"
 
 RPROVIDES:${PN} += "clutter \
 libclutter-1-0-0 \

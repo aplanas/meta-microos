@@ -2,10 +2,10 @@ SUMMARY = "Remmina plugin to support the KDE Wallet"
 DESCRIPTION = "KDE Wallet plugin, that can be used instead of the GNOME Keyring"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.4.30"
+PV = "1.4.31"
 
-RPM_NAME = "remmina-plugin-kwallet-1.4.30-1.1.aarch64.rpm"
-RPM_HASH = "9db5e02df7d18a8530a0719980cd3e82b8090c5ce3ff57f528194a3b04ce2c37fdef732820c8946f5d2bd0470509e81cfb6a2c2056c7be0d5e978250fc8a51f3"
+RPM_NAME = "remmina-plugin-kwallet-1.4.31-1.1.aarch64.rpm"
+RPM_HASH = "299ec2d1fd28702f37a52d058ef897e43cc003b6b77caace1bd5cddb39783ef76760cbbde32ee789ab91972e9e2849f3869080b82f9fa1a74d39ed0f88494260"
 
 RPROVIDES:${PN} += "remmina-plugin-kwallet"
 

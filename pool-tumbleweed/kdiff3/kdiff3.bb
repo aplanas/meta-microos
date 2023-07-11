@@ -8,10 +8,10 @@ DESCRIPTION = "KDiff3 is a program that: \
 * Supports KDE's KIO framework (allows accessing ftp, sftp, fish, smb, etc.)"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.10.2"
+PV = "1.10.4"
 
-RPM_NAME = "kdiff3-1.10.2-1.1.aarch64.rpm"
-RPM_HASH = "47c8a446542d8a0d72c3e3ea2f21944d19dc76fc04b1618ee8ab5a67a9fdfad88267746f873c0c1c69d46b52f146f1186f119396ba484fa189bf47d7ac9f89a1"
+RPM_NAME = "kdiff3-1.10.4-1.1.aarch64.rpm"
+RPM_HASH = "be6f00df40df62030d382610585c1527e8e903f232aea5fa625dd54257377c8899859386f7176d4de1d90b0b254283c56f2e34d065d5cab61dfcdceff4b99327"
 
 RPROVIDES:${PN} += "kdiff3"
 

@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.12"
 
-RPM_NAME = "libxalan-c112-1.12-1.11.aarch64.rpm"
-RPM_HASH = "35f5a4fd8aaf687bd42dc426fb712aa0232d694a0a0c82bd5ea7ef13d395c3b4715f4c7ee41c040aca78e2ac20f2f4c0d96c05719770ad31d2d141f472e5dbb3"
+RPM_NAME = "libxalan-c112-1.12-1.12.aarch64.rpm"
+RPM_HASH = "bf032b931926ab9bfbec14da0ab5d0ea4117f058797be0a95e42f6173e8da8d6651e1e5b7690c85c258ef9a0f3ea04ef30647d9a962e031b223ca398b7f57f5b"
 
 RPROVIDES:${PN} += "libXalan-c111 \
 libxalan-c.so.112 \

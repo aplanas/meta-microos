@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.2.2"
 
-RPM_NAME = "gawk-5.2.2-2.1.aarch64.rpm"
-RPM_HASH = "a8422fd25c0a3a237067b07323fdbd5e074047b0237780673a9420d961b599e2eb88785b752289f4b0aee453a673fda9f10312c5ed0bb33ce84e66ebde854498"
+RPM_NAME = "gawk-5.2.2-2.2.aarch64.rpm"
+RPM_HASH = "c91ee53ccd7739d360b8345606453c3ebfbadc3a683b024596d5f4a36989adbfa362e87c61c4a1967ce7de2037a5951191288ce42669c2945078d5a4afecec03"
 
 RPROVIDES:${PN} += "/usr/bin/awk \
 /usr/bin/gawk \

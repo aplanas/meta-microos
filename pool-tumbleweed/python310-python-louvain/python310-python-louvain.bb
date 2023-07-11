@@ -9,12 +9,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.16"
 
-RPM_NAME = "python310-python-louvain-0.16-1.5.noarch.rpm"
-RPM_HASH = "5ae3eea5ca3d917db3437a31028e15e9dd72e248aa7c606d79e951992c947189aef914f5725f41885da25b74eaa46288d65bde64d995c4f6015f084261399403"
+RPM_NAME = "python310-python-louvain-0.16-1.7.noarch.rpm"
+RPM_HASH = "d46d548594f596b442c1acb6d3bb895fc5b6b18d51662beb3a64b50ef02be23bb0ccd0283e8fd0de5b00e7e588e6f46415afa2cc13db278baff4f1298534d709"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-python-louvain \
-python3.10dist-python-louvain \
+RPROVIDES:${PN} += "python3.10dist-python-louvain \
 python310-python-louvain \
 python3dist-python-louvain"
 

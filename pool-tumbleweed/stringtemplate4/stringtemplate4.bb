@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.3"
 
-RPM_NAME = "stringtemplate4-4.3-2.10.noarch.rpm"
-RPM_HASH = "2701e44021a244b0b1d6923ff7039a23666e443aede4a95ff77b3f6a646cf390437cf764881e70d5c240d0d44883ddd0307ce8f8f112831c28bd7ae6e19e76d5"
+RPM_NAME = "stringtemplate4-4.3-2.11.noarch.rpm"
+RPM_HASH = "b97d57da57a6473ec343c0b241fba5b5340735b4c7dc09535378d17a3447557a017ea2f65414d74c2ad7dcc8fea1a17e011725907bf5217ebced16dbea07f140"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.antlr-ST4 \

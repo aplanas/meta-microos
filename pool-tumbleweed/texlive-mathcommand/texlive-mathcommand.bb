@@ -9,10 +9,10 @@ knowledge package for a proper handling of mathematical \
 notations."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.04svn59512"
+PV = "2023.208.1.04svn59512"
 
-RPM_NAME = "texlive-mathcommand-2023.201.1.04svn59512-52.1.noarch.rpm"
-RPM_HASH = "2a3102a0249bd9ec83f0eb770376de6c55b11b0ca7315e1dc965e34f48b3a3cb39463e50f495df7124e4620eb79d635121cb02c79963c7d3f8df892c514620df"
+RPM_NAME = "texlive-mathcommand-2023.208.1.04svn59512-53.1.noarch.rpm"
+RPM_HASH = "fe6196ab5b3073a03b36782fbc90c114dadb5443e58ca4d85f3ec7c94a573e0979fe3b4ee2566977dd0f7918530dd57d40e23f3901110c36d57237464bbd8a57"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mathcommand.sty \

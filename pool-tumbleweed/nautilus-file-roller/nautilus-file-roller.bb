@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "43.0"
 
-RPM_NAME = "nautilus-file-roller-43.0-1.3.aarch64.rpm"
-RPM_HASH = "9f48f083fe18c09ded7503f80979073866f81cb09e6fe2760231f2a7eb00d446b2ee81599dcbcd4ba67c6406fe6255ea73f5fb267cbb46a1affc38699aa254bc"
+RPM_NAME = "nautilus-file-roller-43.0-1.4.aarch64.rpm"
+RPM_HASH = "8367bb42f0604862b5247126affc4fce78e471fdd3dd69261edcd9d4c12646cce5e48ea4bcc60422e9c8cb881ce8c0c488b1542e8fcd88b92f9c0161efcd9b0d"
 
 RPROVIDES:${PN} += "libnautilus-fileroller.so \
 nautilus-file-roller"

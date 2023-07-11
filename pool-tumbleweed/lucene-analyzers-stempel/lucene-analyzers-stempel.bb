@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "8.5.0"
 
-RPM_NAME = "lucene-analyzers-stempel-8.5.0-3.4.noarch.rpm"
-RPM_HASH = "7c9b328c5e1ae85239ef27849ef9120686523ed0f9d8bdf63506e1198a91e46a5555f751f2d6c32e7372afe7c9dd63824f9b13d4f538379c923475d1a800dea3"
+RPM_NAME = "lucene-analyzers-stempel-8.5.0-3.5.noarch.rpm"
+RPM_HASH = "187f17883e85c90bf06197d68d3e04c1d12a3712b2c334c3e8a5dff656bec6339fda755203d3660e52b1e3630734a00852fdbcd1b0a03ee75de56dbfed7a0168"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lucene-analyzers-stempel \

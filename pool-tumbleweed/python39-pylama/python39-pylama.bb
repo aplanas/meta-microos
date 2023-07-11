@@ -14,8 +14,8 @@ LICENSE = "MIT"
 
 PV = "8.4.1"
 
-RPM_NAME = "python39-pylama-8.4.1-2.1.noarch.rpm"
-RPM_HASH = "c412013ee646cd972f56fca2fe407d0c7e0252ce89afcd854234ee978848ec1057453bb70f73259bb48a80a617251466e8098df2958a0125b173e99df762e18e"
+RPM_NAME = "python39-pylama-8.4.1-3.1.noarch.rpm"
+RPM_HASH = "172c5feb39f445559ad0a205a4a261235940bfa37255a71b21af67f75acbb12a863c6d628f251e8d6f35ffdabb952650f1045d12a816dd8f2e414c14b18e7efa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pylama \

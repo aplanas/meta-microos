@@ -5,11 +5,12 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.6+svn415"
 
-RPM_NAME = "procmeter-3.6+svn415-1.9.aarch64.rpm"
-RPM_HASH = "57bfa489515dd9c7d58408037d12c712039795725fdfc185530980958b2c7c7546eb89fd173e8c0ad85dec11e50b3bc4bb6e54bf7ff20796fe59f696d5620313"
+RPM_NAME = "procmeter-3.6+svn415-1.10.aarch64.rpm"
+RPM_HASH = "dd04127680e69260395d91e209badfbb43a28adde30b4c2e8118dd6510cc4991863b20a58e8b41ed4fb799b9b66c2a80bf514f95fe4e3e1e0a5d41a3d86e6364"
 
 RPROVIDES:${PN} += "libsensors-fan.so \
 libsensors-temp.so \
+libsensors-volt.so \
 procmeter \
 procmtr"
 

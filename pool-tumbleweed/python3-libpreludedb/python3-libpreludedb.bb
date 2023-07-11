@@ -4,11 +4,11 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-only & GPL-3.0-or-later"
 
 PV = "5.2.0"
 
-RPM_NAME = "python3-libpreludedb-5.2.0-2.10.aarch64.rpm"
-RPM_HASH = "ef76812954584c31908e6c3d884a44efaf0a509e928955e84627835caa5c62309402729c8095c3c579947fece1816699e745fb29daff20775522964f18f85dfb"
+RPM_NAME = "python3-libpreludedb-5.2.0-2.12.aarch64.rpm"
+RPM_HASH = "788b0f3beae47665f23ec0bed58c24ef832acaaa1b4d4ecce5dafedba89b8d5cf090624aeb403f0bc4ab1fe13bcb3e8bd1a8f38f6f15014fd5deab3ac036a9ba"
 
 RPROVIDES:${PN} += "python3-libpreludedb \
-python3.10dist-preludedb \
+python3.11dist-preludedb \
 python3dist-preludedb"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \

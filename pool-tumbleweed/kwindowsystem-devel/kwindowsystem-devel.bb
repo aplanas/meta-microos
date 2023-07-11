@@ -7,10 +7,10 @@ interface than the NETWinInfo/NETRootInfo low-level classes. \
 Development files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "kwindowsystem-devel-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "d86333ccdb78517762053d9f69200f21401f93cd79631538ee4438de630f48cb49b3475c2f2caf720b464384a9dac47469b5dffb243b198c755f52325b411f17"
+RPM_NAME = "kwindowsystem-devel-5.107.0-1.1.aarch64.rpm"
+RPM_HASH = "3fdb9fad4ec65ed1bfd4027e8767a47a654e2c95d554d40b5769d75c556be63b71a5a06239c9e348b33c3f7e8f7e3110a690a5d9ba1d5a6c48cee0b0113c5f4f"
 
 RPROVIDES:${PN} += "cmake-KF5WindowSystem \
 kwindowsystem-devel"

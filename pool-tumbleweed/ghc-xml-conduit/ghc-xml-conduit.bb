@@ -3,13 +3,13 @@ DESCRIPTION = "Hackage documentation generation is not reliable. For up to date 
 please see: <http://www.stackage.org/package/xml-conduit>."
 LICENSE = "MIT"
 
-PV = "1.9.1.2"
+PV = "1.9.1.3"
 
-RPM_NAME = "ghc-xml-conduit-1.9.1.2-1.4.aarch64.rpm"
-RPM_HASH = "6bbcd17f2b73a42f4e808cf894904eb54fb2ca4a2696541a3e3d26a8cdadc6de237e35966bfe938e1cbd526b445c3b1a7369238d617c11d1346a1dd65dd6d879"
+RPM_NAME = "ghc-xml-conduit-1.9.1.3-1.2.aarch64.rpm"
+RPM_HASH = "a4662ba7f6db36c44ffb439e3314771f8322723834b24be38f5cb9a09e88ef9e9642da0bacd521c0b5fbc4d2710bb1bd2ca6f7ac20ae0d1bfd7066ca22692387"
 
 RPROVIDES:${PN} += "ghc-xml-conduit \
-libHSxml-conduit-1.9.1.2-EG4w0oWu477B6XYo8w0Zz4-ghc9.4.5.so"
+libHSxml-conduit-1.9.1.3-JDYavYDcwLN29rDQLTOOon-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
 libHSasync-2.2.4-Is3H7ZPNMkM5reIoCaqYrF-ghc9.4.5.so \
@@ -22,8 +22,8 @@ libHSblaze-builder-0.4.2.2-1GcRIc7N7YHId5Q5gRvlvW-ghc9.4.5.so \
 libHSblaze-html-0.9.1.2-38lyFDueaN76YOL6QIMVAR-ghc9.4.5.so \
 libHSblaze-markup-0.8.2.8-1rqnOPcdOmIw0iYwB3Kqc-ghc9.4.5.so \
 libHSbytestring-0.11.4.0-ghc9.4.5.so \
-libHSconduit-1.3.4.3-dAZVHPSYjL2zQ4RzAuWi2-ghc9.4.5.so \
-libHSconduit-extra-1.3.6-F6u9UYzIZvy2L2764Izuhr-ghc9.4.5.so \
+libHSconduit-1.3.5-EjJ71P6EbmSGTrvJLquwgr-ghc9.4.5.so \
+libHSconduit-extra-1.3.6-1ns4btxv78gDsSQyRueTL2-ghc9.4.5.so \
 libHScontainers-0.6.7-ghc9.4.5.so \
 libHSdata-default-class-0.1.2.0-2LD1I8dZmn7BW4dkzEwdGZ-ghc9.4.5.so \
 libHSdeepseq-1.4.8.0-ghc9.4.5.so \
@@ -37,7 +37,7 @@ libHShashable-1.4.2.0-FFBRhuY0w4YLmuLEs5uQAt-ghc9.4.5.so \
 libHSinteger-logarithms-1.0.3.1-Hm9v2fsfG1DA5soPSLssZu-ghc9.4.5.so \
 libHSmono-traversable-1.0.15.3-IT8tyCr3vQLKgjlccagv2S-ghc9.4.5.so \
 libHSmtl-2.2.2-ghc9.4.5.so \
-libHSnetwork-3.1.2.8-HNDBp0HF6t0D1fzE2MDtPd-ghc9.4.5.so \
+libHSnetwork-3.1.4.0-FvtFepOtuCUH79FCWyNxIc-ghc9.4.5.so \
 libHSpretty-1.1.3.6-ghc9.4.5.so \
 libHSprimitive-0.7.4.0-AeB0oysC3TAJw9tDpuX8hq-ghc9.4.5.so \
 libHSprocess-1.6.16.0-ghc9.4.5.so \
@@ -47,7 +47,7 @@ libHSscientific-0.3.7.0-D5F2vql7x79Dy9hx72OES1-ghc9.4.5.so \
 libHSsplit-0.2.3.5-u3oGLAiW7JJbxIffWSCWf-ghc9.4.5.so \
 libHSsplitmix-0.1.0.4-7e8CibdlMRLAGh7KO5VlFe-ghc9.4.5.so \
 libHSstm-2.5.1.0-ghc9.4.5.so \
-libHSstreaming-commons-0.2.2.6-DrPeIbd2d2c3jQtctttO4G-ghc9.4.5.so \
+libHSstreaming-commons-0.2.2.6-EjKcoRCMdUH4DbzWvGfVlu-ghc9.4.5.so \
 libHStemplate-haskell-2.19.0.0-ghc9.4.5.so \
 libHStext-2.0.2-ghc9.4.5.so \
 libHStime-1.12.2-ghc9.4.5.so \

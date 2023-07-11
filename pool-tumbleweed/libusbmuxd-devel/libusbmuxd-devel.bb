@@ -12,8 +12,8 @@ LICENSE = "LGPL-2.1-or-later & GPL-2.0-or-later"
 
 PV = "2.0.2"
 
-RPM_NAME = "libusbmuxd-devel-2.0.2-1.9.aarch64.rpm"
-RPM_HASH = "7c82359aab1927892ebfb5280e3f376cb12fc2e07da6f1cf9fba0038ac1a340e0b38cf1d572ae5e28a81faadce77a65a6c5ed7aed1c9b75d7fd2548e12fdf508"
+RPM_NAME = "libusbmuxd-devel-2.0.2-1.10.aarch64.rpm"
+RPM_HASH = "6fb123613277952f4cab21dbee31f6398f491bd190c0259dac36bf8b1a243bef0e80a0aaa3fc87a0f10cf39d242adc859a53d0acdc8260a74b487aa50a737b38"
 
 RPROVIDES:${PN} += "libusbmuxd-devel \
 pkgconfig-libusbmuxd-2.0"

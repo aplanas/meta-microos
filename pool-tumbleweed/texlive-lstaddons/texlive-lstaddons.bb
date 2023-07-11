@@ -6,10 +6,10 @@ lstautogobble: set the standard 'gobble' option to the indent \
 of the first line of the code."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn64967"
+PV = "2023.208.0.0.1svn64967"
 
-RPM_NAME = "texlive-lstaddons-2023.201.0.0.1svn64967-52.1.noarch.rpm"
-RPM_HASH = "4efc54f4233bff27544b542cc8d7c8ba86936df149dc72231b7cf2f090526736a68a084e239969176d5f3f026f67bb68071c52a3ba7affc4d33c04d2bf014a51"
+RPM_NAME = "texlive-lstaddons-2023.208.0.0.1svn64967-53.1.noarch.rpm"
+RPM_HASH = "95bc9a694ab68a4639bc4af474ee20c31e8fa54d32150eddfd65de20b1d64f1b6448330ca046ad15744e6d5a384450bea7c2cad8a9eda90ea2026a9c11810ede"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lstautogobble.sty \

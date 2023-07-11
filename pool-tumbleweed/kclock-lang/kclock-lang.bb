@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kclock"
 DESCRIPTION = "Provides translations for the 'kclock' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kclock-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "97745a85af68e0ed63eee3225c0f5fcab3ef993c24e933ea7a1141f27e73d21ca10492d8ca77d4d61dac2b643d068a1c3b64b07f85094275e7fdc2bb6add35df"
+RPM_NAME = "kclock-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "3cb3eb98ad088bf441952952c5630062e630e6bc85dadf5c663e0f4e0de44d907fde6411e50675712d33bffc175312d8d5382ae61f16e20d03c77f138b0722a1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kclock-lang \

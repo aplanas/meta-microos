@@ -10,8 +10,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "5.1.1"
 
-RPM_NAME = "python39-decorator-5.1.1-2.1.noarch.rpm"
-RPM_HASH = "b880a05ddcd69c43b192eba339e89d934b77f456bd2351efdbbf58dcf48fbc0263c05e1921db356811927a49acdf8dfdff822a8db65b77657eee091c0b1e1e50"
+RPM_NAME = "python39-decorator-5.1.1-2.2.noarch.rpm"
+RPM_HASH = "1e97fbe639657a3d204f28131be750d41ab4f872a60584ca6f824a3fb7c1110279a720c751d3f6ea0392f238f11919b4565460b1554587d6720d07edd07490db"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-decorator \

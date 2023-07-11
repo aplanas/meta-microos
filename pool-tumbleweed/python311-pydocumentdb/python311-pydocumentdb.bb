@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "2.3.5"
 
-RPM_NAME = "python311-pydocumentdb-2.3.5-3.11.noarch.rpm"
-RPM_HASH = "9432bd65c216e2e7bc65b35ac1a9da0fd0ec5ba7e940eaa2a166d0f6f038574b338564e260fdb67e656032da3d4aba8fa96509de17a3bda25a0b3dbc055e73d3"
+RPM_NAME = "python311-pydocumentdb-2.3.5-3.13.noarch.rpm"
+RPM_HASH = "7b5dbd1236502d572cabff6d7fa7cdc121db1bd2c4d106a0f70713beeda9316035569a8e820af93f2d19280bb244f9f2586ef97a88d528e3eeb8e25333799298"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pydocumentdb \
+RPROVIDES:${PN} += "python3-pydocumentdb \
+python3.11dist-pydocumentdb \
 python311-pydocumentdb \
 python3dist-pydocumentdb"
 

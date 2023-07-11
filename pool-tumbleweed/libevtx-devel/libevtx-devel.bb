@@ -7,8 +7,8 @@ LICENSE = "GFDL-1.3-only & LGPL-3.0-or-later"
 
 PV = "20221101"
 
-RPM_NAME = "libevtx-devel-20221101-3.10.aarch64.rpm"
-RPM_HASH = "5e1a668291b119c10a85cb12fb096270f662aa1c32c414a7fd884eb7965080ca1cbfa6171679468e7ce9274539f210f9d5f86865061d6f94d5f7c09eaee5850d"
+RPM_NAME = "libevtx-devel-20221101-3.11.aarch64.rpm"
+RPM_HASH = "30ea476f7f416d9b8b4abd6d81fdc870cdec878294dbd7da21585e86e6784f4739bbca26ec51d134ed0feb2eedeb72f4bfe9b7d4e9507475198e172e77b65503"
 
 RPROVIDES:${PN} += "libevtx-devel \
 pkgconfig-libevtx"

@@ -7,11 +7,12 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "0.9.14"
 
-RPM_NAME = "python311-PySDL2-0.9.14-2.3.noarch.rpm"
-RPM_HASH = "4ddca11f52498b22c81b734d82700cc5dced4d1d149f52a8ff661ad9243303a9a263800f2689968475b1e14c37c35bfad01d856cf8056360f759169e08d8dfb6"
+RPM_NAME = "python311-PySDL2-0.9.14-2.5.noarch.rpm"
+RPM_HASH = "989d7a5121e922be71efcb2362d0566afbc1aff972553d8bea9ab213b32efce8ebb16b4bd787f5399d17845df4adac48ff9ead773e60c2e473f96d2fdfb699f1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pysdl2 \
+RPROVIDES:${PN} += "python3-PySDL2 \
+python3.11dist-pysdl2 \
 python311-PySDL2 \
 python3dist-pysdl2"
 

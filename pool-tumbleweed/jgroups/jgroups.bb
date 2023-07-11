@@ -28,8 +28,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "2.6.10"
 
-RPM_NAME = "jgroups-2.6.10-33.9.noarch.rpm"
-RPM_HASH = "a91416183accf73431677ae4206f9a98fbf06fb741cece735b86af447dc315ea03917bbcb3ce796d53e8456a81d499a82ab1324d8561a847ffb13158de2bd9fa"
+RPM_NAME = "jgroups-2.6.10-33.10.noarch.rpm"
+RPM_HASH = "971f91b804db44bdea9878a3348e7d02a00aec806dcbce3a8b2229c2a8fc88e6246136462365a37cfe91296a377e60d15da4fefce7a42e12cc9b0a13cd90050c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "javagroups \

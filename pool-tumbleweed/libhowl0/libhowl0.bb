@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.8"
 
-RPM_NAME = "libhowl0-0.8-23.1.aarch64.rpm"
-RPM_HASH = "bd9d90078225524db6e0c105a787b060dd15312895114e1d335a8c48b5d2d8dc5b0b9e5d1df9f9b6ed5a13a8254217e9e996465822dad8a3784b3b733a9ce996"
+RPM_NAME = "libhowl0-0.8-23.3.aarch64.rpm"
+RPM_HASH = "ac9c74c4ef557fc016830a7ac34c2250c43eeccdf8544f0a3fe0910133bfd3501d599b2d8835aff532547bc3b67f977c19516984970c0ef295076ee724cefe89"
 
 RPROVIDES:${PN} += "avahi-compat-howl \
 libhowl.so.0 \

@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "1.4.2"
 
-RPM_NAME = "python39-aiounittest-1.4.2-2.1.noarch.rpm"
-RPM_HASH = "413a501a1ae7a1660210631d8741cfba95553ec37d67dff76045bb13ddf1c2a8c4497a4ac5a2d64570be6d0b3b7d0a621cde701da128eef503b492a6781c9aba"
+RPM_NAME = "python39-aiounittest-1.4.2-2.3.noarch.rpm"
+RPM_HASH = "4fe11580cdec2b6e7ffc28554dae5d4ad7ee0b605c77c7ce873abeb9bb75b94650eefade3b720853ba6a56043151b0069b57b5ffebafd022a359eb548e1c4b37"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-aiounittest \

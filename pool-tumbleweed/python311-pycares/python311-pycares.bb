@@ -6,10 +6,11 @@ LICENSE = "MIT"
 
 PV = "4.3.0"
 
-RPM_NAME = "python311-pycares-4.3.0-2.1.aarch64.rpm"
-RPM_HASH = "202c670e5081415dea68da6b2944c65fed71fbb55554e7d725015febaa113532dec4af6504d6ddac556a53d82c0e21f6c66a3ece9852d4692088bfbd395f312d"
+RPM_NAME = "python311-pycares-4.3.0-2.3.aarch64.rpm"
+RPM_HASH = "fdb683681c79cc6dfa1dced86ce532ddd1c4b57f50457b7f18d62daa488c0abcb65624dcb4586da7663a51067c87c0d69fa6ce3d4f8d10cfdc886e4eb60203c4"
 
-RPROVIDES:${PN} += "python3.11dist-pycares \
+RPROVIDES:${PN} += "python3-pycares \
+python3.11dist-pycares \
 python311-pycares \
 python3dist-pycares"
 

@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0 & SUSE-Public-Domain"
 
 PV = "1.11.3"
 
-RPM_NAME = "aws-sdk-java-directconnect-1.11.3-7.8.noarch.rpm"
-RPM_HASH = "f7e2d638bee21c8914dfc62ab7f5c9156d4586e827548ca4679587dd197fb960c679055ff643f18904b84eb8ec315c520e89ebb9a5bc4b69c74709e3e4f77af9"
+RPM_NAME = "aws-sdk-java-directconnect-1.11.3-7.9.noarch.rpm"
+RPM_HASH = "19e678445d58423ea5a2949cf2978d68392d91b20d10c4d0a46213f1520fe0be09bc57b505f7e0fd12a743cee0a71048ede203269b79898cb0726238ea29f8de"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-directconnect \

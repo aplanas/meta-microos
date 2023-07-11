@@ -4,10 +4,10 @@ default templates for books, bibliographies, videos, music, video games, coins, 
 stamps, trading cards, comic books, and wines."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.5"
+PV = "3.5.1"
 
-RPM_NAME = "tellico-3.5-1.1.aarch64.rpm"
-RPM_HASH = "c49acf01c339db4d9d82e55fd47cff9ff3da20e3cc8a907591b564a667cf825706dc8970a0fafe5d5a80c075faf3611f291b792a60ad03da84d01bebbce75555"
+RPM_NAME = "tellico-3.5.1-1.1.aarch64.rpm"
+RPM_HASH = "686ee0e807f307636bd8385fae0b09f75470b45a7a432076e95fc442257d14085d86489ba3656dae2c45727607c91bf30b46733e6113ec468c17938dfc9174f0"
 
 RPROVIDES:${PN} += "config-tellico \
 tellico"
@@ -34,7 +34,8 @@ libKF5KIOCore.so.5 \
 libKF5KIOFileWidgets.so.5 \
 libKF5KIOGui.so.5 \
 libKF5KIOWidgets.so.5 \
-libKF5NewStuff.so.5 \
+libKF5NewStuffCore.so.5 \
+libKF5NewStuffWidgets.so.5 \
 libKF5Sane.so.5 \
 libKF5Service.so.5 \
 libKF5Solid.so.5 \
@@ -43,7 +44,6 @@ libKF5SonnetUi.so.5 \
 libKF5TextWidgets.so.5 \
 libKF5Wallet.so.5 \
 libKF5WidgetsAddons.so.5 \
-libKF5WindowSystem.so.5 \
 libKF5XmlGui.so.5 \
 libQt5Charts.so.5 \
 libQt5Core.so.5 \

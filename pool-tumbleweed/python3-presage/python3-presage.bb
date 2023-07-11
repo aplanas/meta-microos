@@ -8,12 +8,12 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.9.1"
 
-RPM_NAME = "python3-presage-0.9.1-13.1.aarch64.rpm"
-RPM_HASH = "060e9afbc3d8809805ea7537e7218c92f2d1891cdb4fd4ef62813dad4129b9902fd5998f0fc31889f1fe3cd5ac51513b474dc0b754abea7304746897a30f2fac"
+RPM_NAME = "python3-presage-0.9.1-13.2.aarch64.rpm"
+RPM_HASH = "08206a4cf8442fa74c322486ec6e2352b4a9fd5bb79fbf07a970d8582c127eb6ec4fa10553887c112f3e738f2492623148deb965b6ee6915c067853784921a73"
 
 RPROVIDES:${PN} += "python-presage \
 python3-presage \
-python3.10dist-python-presage \
+python3.11dist-python-presage \
 python3dist-python-presage"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "3.1.0"
 
-RPM_NAME = "wannier90-devel-3.1.0-2.3.aarch64.rpm"
-RPM_HASH = "248057be91fad3ba3adae4e599c91a52b395115c528a53ea4cc69c3ae1d2c57f3d57562673b81121482ffd075610f80310ec759ff6f6d692e160698fec7e7385"
+RPM_NAME = "wannier90-devel-3.1.0-2.4.aarch64.rpm"
+RPM_HASH = "0784f5e659d5945de8a91021a29bcbdcda4f9ef80dc6c33341e11f36c184ef17be6920efe2c6ce56dfdf5576b116c33461ac3def226ab7d27989980842836f3e"
 
 RPROVIDES:${PN} += "libwannier.so \
 pkgconfig-wannier \

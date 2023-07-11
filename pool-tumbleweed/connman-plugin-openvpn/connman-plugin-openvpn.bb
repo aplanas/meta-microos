@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.41"
 
-RPM_NAME = "connman-plugin-openvpn-1.41-4.7.aarch64.rpm"
-RPM_HASH = "b71194d94510cb9319b96ba9c17857be172031aebc819117422743c0ce7274b32f0604b47b263a40d72bf468cf8648e3a5c08dc68fed1c952ee2fc7cac46717d"
+RPM_NAME = "connman-plugin-openvpn-1.41-4.8.aarch64.rpm"
+RPM_HASH = "16e6edfe1e588cb445b73a3af2afa4a6e88dae602e133d3243b4395e343f0e347f8f59c7b8874f60463974f2300ed18b54c66e89287ee282c99ed9eb1aef5642"
 
 RPROVIDES:${PN} += "connman-plugin-openvpn"
 

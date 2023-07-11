@@ -2,10 +2,10 @@ SUMMARY = "SELinux targeted base policy"
 DESCRIPTION = "SELinux Reference policy targeted base module."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "20230425"
+PV = "20230622"
 
-RPM_NAME = "selinux-policy-targeted-20230425-1.1.noarch.rpm"
-RPM_HASH = "c982e6c66dfe6fe840a390d5825e2ce3217378ba6cec22e0b695257a8a5a1123be8a44f6f4bf12d9bee13519d3e3583c3a54d516c8decd93c1f7f0071d01eb7c"
+RPM_NAME = "selinux-policy-targeted-20230622-1.1.noarch.rpm"
+RPM_HASH = "938c9506166824001cda5a19eab59bd65b6523943d01a7f8cb321044502116b4b9c010859e6e0fe7133eaced5060aa5062eeda0c7642c26d95af1d689247c4b4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-selinux-policy-targeted \

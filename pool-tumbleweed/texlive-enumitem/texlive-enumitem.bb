@@ -10,8 +10,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.3.9svn51423"
 
-RPM_NAME = "texlive-enumitem-2023.201.3.9svn51423-53.1.noarch.rpm"
-RPM_HASH = "ca007af82e936ad83bad381ec58ec3919fd251b82e2256b24d5c29cbc1316b70a567fe9c897794775e5a9c28093f250a8befa805cd1e6213c992e5cb2e1caf2b"
+RPM_NAME = "texlive-enumitem-2023.201.3.9svn51423-53.2.noarch.rpm"
+RPM_HASH = "c6317fbf9c22b583213f3721641f3dc4a79c35f2727ba0a55d0a92b8ffb343103d606c84538f80667286710e9b25bc4bee422a81dfeca0c09abbabe1df6a4736"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-enumitem.sty \

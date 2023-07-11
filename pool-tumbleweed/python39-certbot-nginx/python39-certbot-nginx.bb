@@ -2,10 +2,10 @@ SUMMARY = "Nginx plugin for Certbot"
 DESCRIPTION = "The Nginx plugin for Certbot."
 LICENSE = "Apache-2.0"
 
-PV = "1.31.0"
+PV = "2.6.0"
 
-RPM_NAME = "python39-certbot-nginx-1.31.0-1.3.noarch.rpm"
-RPM_HASH = "1068d09d7fdf238a60fb5c24bdabbca3215b7fb88c4380c471ad507f8e00703cfc65e5a45f668bcd301c9389262847d15717960999f96f9bbddb65e1d0235a80"
+RPM_NAME = "python39-certbot-nginx-2.6.0-1.3.noarch.rpm"
+RPM_HASH = "464885b983f27698b3f1e8b051beceab6b2275fab2c9138133fcd81e6547d865ea60a8deb116edfc539cead657b98a90bcb8ec0c40a917615cf3c6958a4d394e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-certbot-nginx \

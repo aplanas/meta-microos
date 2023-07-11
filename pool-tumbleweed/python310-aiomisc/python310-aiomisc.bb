@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "17.3.0"
 
-RPM_NAME = "python310-aiomisc-17.3.0-1.1.noarch.rpm"
-RPM_HASH = "3f29c0143983937a53ed3b4f473e900e19d8fc7622b3dbd681eab69a971c24aa2b0dfaa4d961fe7b2dfefbf88b856274c6e247f14fd648cdba3311cf9f2411a4"
+RPM_NAME = "python310-aiomisc-17.3.0-1.3.noarch.rpm"
+RPM_HASH = "7bcde40a106cea6fdb3c0460e3f2a2eef23bfb857aba3f209e5aaaf51abfc02e2653582767ccf3413e94c9ecd23f40f3bb3e673904d1813cdf506b794a5bb8e5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-aiomisc \
-python3.10dist-aiomisc \
+RPROVIDES:${PN} += "python3.10dist-aiomisc \
 python310-aiomisc \
 python3dist-aiomisc"
 

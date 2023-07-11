@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0 & GPL-3.0-or-later"
 
 PV = "8.2212.0"
 
-RPM_NAME = "rsyslog-module-kafka-8.2212.0-2.4.aarch64.rpm"
-RPM_HASH = "b31ae8d4ab53c4150f02aabe2d0453c6a9ce1b5e112f3f0d178a13029023d10770b8d33fa65b51d6f1d35c970d1ca4ad4639909886af6cb209c86d71232dd9db"
+RPM_NAME = "rsyslog-module-kafka-8.2212.0-2.5.aarch64.rpm"
+RPM_HASH = "158e80e3b0a8faaa6607509751ec6f0642b1125fa9bc34f6aa26c7b3a2dbe0ea3e7ef4b6417c15dc1f4575e5f1fd53be0cdfc091429a01f628a8517ba6269a5b"
 
 RPROVIDES:${PN} += "rsyslog-module-kafka"
 

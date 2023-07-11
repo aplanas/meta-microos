@@ -4,11 +4,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.2.2"
 
-RPM_NAME = "python310-hiredis-2.2.2-2.3.aarch64.rpm"
-RPM_HASH = "739d74d218a6d68a1a88fc64ce76acd0a2c8ad400c513d499593e8b80ada2e99ab5be8ebb5987665ef2b7c51bcb242e4ee8dd4797afe0650547bb33ee204d7a4"
+RPM_NAME = "python310-hiredis-2.2.2-3.3.aarch64.rpm"
+RPM_HASH = "99640478ce0b14569a1dab842bf49ad387df17db0ff4c1ecf08d5b4b2f82664d2f619a4dd25a45613c94593e427c427db1654b29214c424b0823fef2aecbbfe8"
 
-RPROVIDES:${PN} += "python3-hiredis \
-python3.10dist-hiredis \
+RPROVIDES:${PN} += "python3.10dist-hiredis \
 python310-hiredis \
 python3dist-hiredis"
 

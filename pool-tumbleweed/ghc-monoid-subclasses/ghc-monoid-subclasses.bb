@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2.3"
 
-RPM_NAME = "ghc-monoid-subclasses-1.2.3-1.4.aarch64.rpm"
-RPM_HASH = "9127830e76deef18886f43905d2bf2e706a429fe5e45ab720633ceac192396fde2d5d7c5223fd1e1fd5ad124fa35eae22559a4748c93ddad09ebc2d3e299e410"
+RPM_NAME = "ghc-monoid-subclasses-1.2.3-1.7.aarch64.rpm"
+RPM_HASH = "56d54008d585308fa1071aa211143faf783e9cf798e9727a5edba951503b04e319b5b4f5ed5dfd94823cd06776fc095bae9d5fbabdbd045125129f1ea8f866eb"
 
 RPROVIDES:${PN} += "ghc-monoid-subclasses \
 libHSmonoid-subclasses-1.2.3-3ZmDzuybbdXkWlfa352KR-ghc9.4.5.so"

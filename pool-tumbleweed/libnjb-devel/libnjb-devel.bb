@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.2.7"
 
-RPM_NAME = "libnjb-devel-2.2.7-111.12.aarch64.rpm"
-RPM_HASH = "8a7d4fc64b48f57b9267066a79e11ab66c0924804d871350d3404630b9015af732a55ba875e792d1d3442ae29397ee40bed28b560b250b4c1bd33d33185a9ee3"
+RPM_NAME = "libnjb-devel-2.2.7-111.13.aarch64.rpm"
+RPM_HASH = "7f44b740f929d0549ae327063572f35e24baa42d5051d498edce0c470b3a91f8eae88f05b5d96d26b38b801439cd92ae1efc7245230558b5e6b0557db38bb043"
 
 RPROVIDES:${PN} += "libnjb-devel \
 pkgconfig-libnjb"

@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.7"
 
-RPM_NAME = "python310-pyjavaproperties-0.7-2.15.noarch.rpm"
-RPM_HASH = "7d6b98ad3ae147278caf2fb018dcbd8a1ac08fa8f2cb09019e34bda6048938b8cf722fe1b34fcba5285d93aa148e517e31ceb2848a5a66f46a7559499095e71e"
+RPM_NAME = "python310-pyjavaproperties-0.7-2.16.noarch.rpm"
+RPM_HASH = "efae6a7efa0a2ff11708a4e5117fe8c6ebed6353e22c9763d8de6270486ac1cee8b51ff3ccaa84afc8d1eb178ea5b5e230d519213ed84802a8d5c06645d5b07d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pyjavaproperties \
-python3.10dist-pyjavaproperties \
+RPROVIDES:${PN} += "python3.10dist-pyjavaproperties \
 python310-pyjavaproperties \
 python3dist-pyjavaproperties"
 

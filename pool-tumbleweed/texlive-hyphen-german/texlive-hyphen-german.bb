@@ -11,10 +11,10 @@ Alemannic dialects spoken in Switzerland (Schwyzerduetsch). \
 There are no known patterns for written Schwyzerduetsch."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn59807"
+PV = "2023.208.svn59807"
 
-RPM_NAME = "texlive-hyphen-german-2023.201.svn59807-52.1.noarch.rpm"
-RPM_HASH = "69d9fe0057bfc7af7ca7e789c015d6b942c57f3df46d34dfd348c3eb75f222354f7efe6e94fe82435378700203fb34fbf103beed11efc94e6afe34025be0efd1"
+RPM_NAME = "texlive-hyphen-german-2023.208.svn59807-53.1.noarch.rpm"
+RPM_HASH = "09aaa14808b0bf38ca9c6c545fe843ea47d56cbb24a55860ab39b8f5d86ba32f71d4985de29fef8e9018fe425490d65c73f98e6be52aaf682ddf52b03eb024f5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-de-1901.ec.tex \

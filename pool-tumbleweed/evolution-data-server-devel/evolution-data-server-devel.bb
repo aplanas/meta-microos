@@ -5,10 +5,10 @@ use the Evolution Data Server for storing contact and calendar \
 information."
 LICENSE = "LGPL-2.0-only"
 
-PV = "3.48.2"
+PV = "3.48.4"
 
-RPM_NAME = "evolution-data-server-devel-3.48.2-1.1.aarch64.rpm"
-RPM_HASH = "a10e48aaa95f016eba211cdac29c35fb6d1c666195998860c623577406795972ac498505757d4999c4ea882b88b021c5749cfed3161a84c470128583870c3f45"
+RPM_NAME = "evolution-data-server-devel-3.48.4-1.1.aarch64.rpm"
+RPM_HASH = "ff7d42642fc3f9b7848035fd11c64909c51fdeaef055ec1d4f0857af78aaab9fae9b6c6d35bf2332e9f2a5b63569fcce7801d8926ef09f202b6327ed2f08ff02"
 
 RPROVIDES:${PN} += "evolution-data-server-devel \
 pkgconfig-camel-1.2 \

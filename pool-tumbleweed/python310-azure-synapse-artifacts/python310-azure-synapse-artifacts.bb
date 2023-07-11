@@ -6,13 +6,11 @@ LICENSE = "MIT"
 
 PV = "0.16.0"
 
-RPM_NAME = "python310-azure-synapse-artifacts-0.16.0-1.1.noarch.rpm"
-RPM_HASH = "a1dd56014c629757843a531a897ab1f00dac9126784c1cf81bfa88e78a86b79ed33cfd6b42116c9d2b86e8467c082f1355d22b819ab658a7f3e54694c41d539c"
+RPM_NAME = "python310-azure-synapse-artifacts-0.16.0-1.3.noarch.rpm"
+RPM_HASH = "b248f5abf36775217c2e8c15c99adba69b489c1a7ec668b315b5b095ab94109b5949beb067ea07d2f0e12d6eae5737302a35c61ed46c464ff3a5b0530abbf868"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-synapse \
-python3-azure-synapse-artifacts \
-python3.10dist-azure-synapse-artifacts \
+RPROVIDES:${PN} += "python3.10dist-azure-synapse-artifacts \
 python310-azure-synapse \
 python310-azure-synapse-artifacts \
 python3dist-azure-synapse-artifacts"

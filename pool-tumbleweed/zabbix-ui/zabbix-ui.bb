@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "6.0.17"
 
-RPM_NAME = "zabbix-ui-6.0.17-1.1.aarch64.rpm"
-RPM_HASH = "efb742d8c558d5a841b858a25ed83b9850d81d2cc3cf5150e393c8c8264ff9f74a180dbcb5734539f54da3cdda99cecd4ed668a229a773fae75840ef887dd1da"
+RPM_NAME = "zabbix-ui-6.0.17-1.2.aarch64.rpm"
+RPM_HASH = "d0a54bc7067697bd0176c216da3d4764f3b723b23e039e63ae70219df825d7c882f3c6b67f577d90d7ffafd396322d3b76fc716114e8bc019c57f5d09bee5f73"
 
 RPROVIDES:${PN} += "config-zabbix-ui \
 zabbix-ui"

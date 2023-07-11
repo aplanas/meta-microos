@@ -10,14 +10,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.32"
 
-RPM_NAME = "perl-Tree-DAG_Node-1.32-1.10.noarch.rpm"
-RPM_HASH = "357bbe358552b2382f5169998f0418988c030c64f7b3ba4697c06ca117b170eb57f69939721e9967b56a7aeec3050478551702b144d61a9208842219c18d05f8"
+RPM_NAME = "perl-Tree-DAG_Node-1.32-1.11.noarch.rpm"
+RPM_HASH = "acf6f763e6f828298756690d9d9c0aa320a75ca2f7a90b5e04f4aa9d9e7441726d99c52e89b70e34fa91fd5e1ccb684908fef218e0abb2ed6355f202a651717a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Tree--DAG-Node \
 perl-Tree-DAG-Node"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-File--Slurp--Tiny"
 
 inherit rpm

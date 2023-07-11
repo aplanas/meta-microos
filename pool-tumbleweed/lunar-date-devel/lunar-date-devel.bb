@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.9.3"
 
-RPM_NAME = "lunar-date-devel-2.9.3-2.14.aarch64.rpm"
-RPM_HASH = "6a27b5d4c65e56ce8194f6507b9cb4cfee8fec60a26c5a5359c3f7f473ceda0572d8d331de9f18f5c4ca04d78299f3baf93449430e8221f01976db94c9839205"
+RPM_NAME = "lunar-date-devel-2.9.3-2.15.aarch64.rpm"
+RPM_HASH = "771542f7bf8bc1189173dff74df6e7236a22c9f123de6c865a9c5fe68bd64221c29bf43a884e3cf07c9423f1efaa35b96b9074ccfd1378692486ac3a811895df"
 
 RPROVIDES:${PN} += "lunar-date-devel \
 pkgconfig-lunar-date-3.0"

@@ -16,8 +16,8 @@ LICENSE = "MIT"
 
 PV = "8.8.2"
 
-RPM_NAME = "python39-pip-run-8.8.2-2.1.noarch.rpm"
-RPM_HASH = "c4ff8879d270cde3a60774622d29b4bf3912fdb099a612719bc8c969f5ce45c5acaccd8eed7831474fbfee70d965f6bfb5c71956c367fa1620ea33e814d2678b"
+RPM_NAME = "python39-pip-run-8.8.2-2.3.noarch.rpm"
+RPM_HASH = "59b6e000e4659c2b42999f86a1586aaaa84a16bdf42c4874747ec6a149a1b8203d7fa496b2dd4f0d10b825e35c6d7465ef307ac65a065bc82773f04e47b747f3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pip-run \

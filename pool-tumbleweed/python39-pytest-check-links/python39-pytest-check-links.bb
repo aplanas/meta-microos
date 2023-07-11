@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.8.0"
 
-RPM_NAME = "python39-pytest-check-links-0.8.0-1.2.noarch.rpm"
-RPM_HASH = "bcb7c79a5f431b1919b81cae500d7cf1f9b6683358b91f4ff74f4b639262fc549ab612854ef86975ce518f49886af14a06a6a2a9f1e09d0e3b256edf6f030495"
+RPM_NAME = "python39-pytest-check-links-0.8.0-1.4.noarch.rpm"
+RPM_HASH = "b002508164545ccdab77f51ef6c44cba8f14d08200c8ab7adc6389271028bf4b3cb5f8bcb140be66efbce1864a4cfd8a34067c1044cd41d5e19c175f527e46bf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytest-check-links \

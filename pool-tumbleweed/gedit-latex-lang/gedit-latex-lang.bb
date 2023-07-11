@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.20.0"
 
-RPM_NAME = "gedit-latex-lang-3.20.0-4.16.noarch.rpm"
-RPM_HASH = "e1081f7c4990dd89d26fd16cfe510e121f1ed113f95bf24cb9ec464fe1701fe43a618dc36acb9939ed72e1ed2f5a6d70fc5a0aa27162160831a706a6487536d8"
+RPM_NAME = "gedit-latex-lang-3.20.0-4.17.noarch.rpm"
+RPM_HASH = "ac33183a6ccb0c96745c97e6fd450a2a7815b71d864b9de891880196ce72d164d42782e59bc968d33c18039750843df156f524f077db304a787b6cf197aa44c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gedit-latex-lang \

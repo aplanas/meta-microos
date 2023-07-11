@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.0.5"
 
-RPM_NAME = "libxcb-imdkit1-1.0.5-1.1.aarch64.rpm"
-RPM_HASH = "e13f465b6bd0ab6661ab339519fd047c3c79830a59cc9a0c2e46d6e3764cafcbb978bafd2cc90a42a9659cac06173f7c3d8b304f8edc32ce153ce14d462196a9"
+RPM_NAME = "libxcb-imdkit1-1.0.5-1.2.aarch64.rpm"
+RPM_HASH = "cc30b23ab5f3733353050679eea588d1a0cab194a7ace5556e444771d41af70f138726b0e6da68d66a09a6852dc3724e30616e94a8930b2dc602f35e9c0ae750"
 
 RPROVIDES:${PN} += "libxcb-imdkit.so.1 \
 libxcb-imdkit1"

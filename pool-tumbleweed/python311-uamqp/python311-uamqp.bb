@@ -4,10 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.6.4"
 
-RPM_NAME = "python311-uamqp-1.6.4-1.5.aarch64.rpm"
-RPM_HASH = "f1e4ee6a9ad7258f4ef8fd0eb7ccec5df92163323c9f689ba800d91ed6ac3076f159974bbb60311bc81c60000f458b0c4dabc1f7023770c110559cdeeedbb0da"
+RPM_NAME = "python311-uamqp-1.6.4-1.7.aarch64.rpm"
+RPM_HASH = "5a208e40383e5c67ce04f4f5ac75e5e81c0b5fad6db40850f280769ddc9cb1ac1ecd34efeb974c0e9267ad2852a9bdc54b71fbdfd381e425091052c993309063"
 
-RPROVIDES:${PN} += "python3.11dist-uamqp \
+RPROVIDES:${PN} += "python3-uamqp \
+python3.11dist-uamqp \
 python311-uamqp \
 python3dist-uamqp"
 

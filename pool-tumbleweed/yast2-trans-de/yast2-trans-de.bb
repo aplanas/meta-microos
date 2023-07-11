@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - German Translations"
 DESCRIPTION = "YaST2 - German translations."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230516.e4ba802a"
+PV = "84.87.20230630.ccfa6add46"
 
-RPM_NAME = "yast2-trans-de-84.87.20230516.e4ba802a-1.1.noarch.rpm"
-RPM_HASH = "38e1e6dc4b5513cae0e4fc85a0128b4adf37654f278ac1fd391afa9166e1335dc640ae8eff36e8474da5c9d2ae671f767681d770a84e1219c8d004c034b9a41d"
+RPM_NAME = "yast2-trans-de-84.87.20230630.ccfa6add46-1.1.noarch.rpm"
+RPM_HASH = "382124635257b3720f3a9d4442c8df0efb74a09cbaef52aec4c4e25c80a66e6d75de3be71be25ad1e529e5d8f2da2b2cdfede47883d2c3fb328edac8c9ea9726"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-de \

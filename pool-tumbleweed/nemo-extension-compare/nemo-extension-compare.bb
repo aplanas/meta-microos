@@ -9,13 +9,13 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.2.0"
 
-RPM_NAME = "nemo-extension-compare-5.2.0-3.4.noarch.rpm"
-RPM_HASH = "3e0d80bbd1aea4811e485db28ae6eae99a67f3702a0c29048fe88ec02fb8c1e8061143dbd6a61ed9e616b21add7cd660b44a4c7ba96622a5efb74031db8e05bc"
+RPM_NAME = "nemo-extension-compare-5.2.0-3.6.noarch.rpm"
+RPM_HASH = "a4932c9ca2868815459772df39d423c4f9d20bf71585f902d5a4d2a8e61d803d70c5c490fc5ede6dd10f27191f7c51420b2efda6b6ca83c91c3728dca4e793af"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nemo-compare \
 nemo-extension-compare \
-python3.10dist-nemo-compare \
+python3.11dist-nemo-compare \
 python3dist-nemo-compare"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

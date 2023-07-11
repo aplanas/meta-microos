@@ -8,12 +8,11 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.8.1"
 
-RPM_NAME = "python310-pycha-0.8.1-3.1.noarch.rpm"
-RPM_HASH = "6503206bc6f2f01bd4e64c35bf9d00b86b022f0e2c265824f50d9ca57f7ac7ce1eae1f546a2ce0ea42790e09c49ab5b36ed3bf2c6363c85357e6f2ea81931a62"
+RPM_NAME = "python310-pycha-0.8.1-3.3.noarch.rpm"
+RPM_HASH = "b69307a396eb413cdcd44d39a058c0910d8b1c9904044587284243213a59dc5c3efe7ae0ea052b50fc96c50af259523b0c97de94af7bc2e609fe446323f3fc11"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pycha \
-python3.10dist-pycha \
+RPROVIDES:${PN} += "python3.10dist-pycha \
 python310-pycha \
 python3dist-pycha"
 

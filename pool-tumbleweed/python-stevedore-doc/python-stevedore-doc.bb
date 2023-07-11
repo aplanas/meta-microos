@@ -12,10 +12,10 @@ dynamically loaded extensions. \
 This package contains documentation in HTML format."
 LICENSE = "Apache-2.0"
 
-PV = "5.0.0"
+PV = "5.1.0"
 
-RPM_NAME = "python-stevedore-doc-5.0.0-1.1.noarch.rpm"
-RPM_HASH = "4942120a83964ddf32ea8070200f47a1fe54381cce5236c1a9d2e3eba0f9f0efbb6f41485487021b7e01da321fd5d5de01014215714ef2e5243728c838bae77b"
+RPM_NAME = "python-stevedore-doc-5.1.0-1.1.noarch.rpm"
+RPM_HASH = "3063c204d2d2c8be009edecbed7a48609b04105bb0a4d9b1f8f6083839a3e75fe54cb2a33fed6aedf0c282182b0cd343a34766adc1dc137771305270084b1762"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-stevedore-doc"

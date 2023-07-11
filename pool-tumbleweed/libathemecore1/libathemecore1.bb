@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "7.2.12"
 
-RPM_NAME = "libathemecore1-7.2.12-2.9.aarch64.rpm"
-RPM_HASH = "85892cdfba45715c06641f508c6e3a3a1a9a388ba3ac94f2ff0448e8b36d6747b07e556fbab4a25131fc5a5410dd644acbc841505f31579b69ff1c619b325de5"
+RPM_NAME = "libathemecore1-7.2.12-2.10.aarch64.rpm"
+RPM_HASH = "0711028fb13fe988dc32fc2fec079e971aba5473d77da7998e58231e4facc5dbcd77abb7e0d284e257a029967627a43821039971bbda35f3900adfcc3d6a6984"
 
 RPROVIDES:${PN} += "libathemecore.so.1 \
 libathemecore1"

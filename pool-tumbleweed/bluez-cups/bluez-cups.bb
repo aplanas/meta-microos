@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.66"
 
-RPM_NAME = "bluez-cups-5.66-1.6.aarch64.rpm"
-RPM_HASH = "caa8095cf74e9085211b2eff2845fdd75871a0fbeab2b249f9326b7784bb2ac72603c1cee67ecccb2c72ebe1fd27abb21601b13526ca1718adfe54bb7421e712"
+RPM_NAME = "bluez-cups-5.66-1.8.aarch64.rpm"
+RPM_HASH = "32f8bbae1667917fc46785aaaed2004e72b35590d0a4c25aa9efc78df9f84cd1edf526e472db5e5a6412b50e12adb5efe2e494c15d6967037b45b0b09c17fa98"
 
 RPROVIDES:${PN} += "bluez-cups"
 

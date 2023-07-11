@@ -3,17 +3,17 @@ DESCRIPTION = "Rake tasks to allow easy packaging ruby projects in git for Build
 other packaging service."
 LICENSE = "LGPL-2.1-only"
 
-PV = "1.5.3"
+PV = "1.5.4"
 
-RPM_NAME = "ruby3.2-rubygem-packaging_rake_tasks-1.5.3-1.1.aarch64.rpm"
-RPM_HASH = "96e669984e2a2fd211b1bd13ade7347944dd861121ba891166cb25e41de22ec8fde77de59c9422947c18fa076ab932f41f28819134a6e9ab9fec1b4e6d5a4a36"
+RPM_NAME = "ruby3.2-rubygem-packaging_rake_tasks-1.5.4-1.1.aarch64.rpm"
+RPM_HASH = "ef9d655ff5156837f8d04ed26a64b362fee58d51765df97e512975f8ca743e56e4cace3bf0201e0724ef8a56a10c32396a4d74fec5cd88c837fbfa4a29bf1f54"
 
 RPROVIDES:${PN} += "ruby3.2-rubygem-packaging-rake-tasks \
 rubygem-packaging-rake-tasks \
 rubygem-ruby-3.2.0-packaging-rake-tasks \
 rubygem-ruby-3.2.0-packaging-rake-tasks-1 \
 rubygem-ruby-3.2.0-packaging-rake-tasks-1.5 \
-rubygem-ruby-3.2.0-packaging-rake-tasks-1.5.3"
+rubygem-ruby-3.2.0-packaging-rake-tasks-1.5.4"
 
 RDEPENDS:${PN} += "ruby-abi \
 rubygem-ruby-3.2.0-rake"

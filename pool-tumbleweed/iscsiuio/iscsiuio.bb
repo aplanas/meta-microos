@@ -14,10 +14,10 @@ The communication to the driver is done via user-space I/O (Kernel module name \
 'uio')."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.7.8.6"
+PV = "0.7.8.7"
 
-RPM_NAME = "iscsiuio-0.7.8.6-99.1.aarch64.rpm"
-RPM_HASH = "5c029830e0f178765b25f3dda5f15198f75ca5230be23fd1045f468a1991f6e2367fc12ea13d0d8b511d12898ee85fe85454c165e0bfec69b1fbea8b8f7efaba"
+RPM_NAME = "iscsiuio-0.7.8.7-101.1.aarch64.rpm"
+RPM_HASH = "8d37a82bcbea591e5d60e220a0ed23242d8a651bb3a4f51149fa15bc52903234aa1dc64c5f4e220628d10e19d5ea1e381e7b07714ec773bd51087990d712313d"
 
 RPROVIDES:${PN} += "iscsiuio"
 

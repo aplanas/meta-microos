@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "2023.05.01.00"
 
-RPM_NAME = "libfolly-v2023_05_01_00-2023.05.01.00-1.1.aarch64.rpm"
-RPM_HASH = "a4b994f5698daf13becce2076b712759022dc3d1af97fe04d6805b7fdd3346385e26235f4b60386180e4fcd59a3a66bbadd734fd9f5685bbdaf4a20df6432536"
+RPM_NAME = "libfolly-v2023_05_01_00-2023.05.01.00-1.2.aarch64.rpm"
+RPM_HASH = "a199ea9f4ef8956a1201baa37b271a5346b5ae0db51bef2792eff18e75bca38a38475ddb5cfd50002feb90077d87d3b79b76246379ffdb299993b4d2f7d4e987"
 
 RPROVIDES:${PN} += "libfolly-exception-counter.so.v2023.05.01.00 \
 libfolly-exception-tracer-base.so.v2023.05.01.00 \

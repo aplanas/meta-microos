@@ -7,10 +7,11 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2.4"
 
-RPM_NAME = "python311-pykerberos-1.2.4-1.4.aarch64.rpm"
-RPM_HASH = "7d56c7080a5069eb276ec635a1f5c23f0cc3e2b2bcc98ae31285e581708910398408f89d1bf79003a9223ca6dffc98ea01ed3e672f55968e5478dd1e4a38f8bd"
+RPM_NAME = "python311-pykerberos-1.2.4-1.6.aarch64.rpm"
+RPM_HASH = "c9b43fefc6e7e05382e26314fc24de0887449e0aec68341409137571b72916f75b62996ef03acb878e393533bc4b2b0dbc9f9112de571eaedbe518935845d984"
 
-RPROVIDES:${PN} += "python3.11dist-pykerberos \
+RPROVIDES:${PN} += "python3-pykerberos \
+python3.11dist-pykerberos \
 python311-pykerberos \
 python3dist-pykerberos"
 

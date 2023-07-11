@@ -7,14 +7,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.44"
 
-RPM_NAME = "perl-Tk-Clock-0.44-1.1.noarch.rpm"
-RPM_HASH = "3aec4df5aa594c14f1ba9d2c3a031ceb9e1bce851aeddf5b627a91166389e793a8375d9aa2c0d8e53dec153435eee64f7f23e777b9c948639a72a26893102714"
+RPM_NAME = "perl-Tk-Clock-0.44-1.2.noarch.rpm"
+RPM_HASH = "d72c2445ddac0d4140cfd8824b2fd096846dcd571002bb21cda5670db3c39855f0a0cc2bd01b827c56591688673514063e8c3a190d0fc3f1debc963f60fb46c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Tk--Clock \
 perl-Tk-Clock"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Test--More \
 perl-Test--NoWarnings \
 perl-Tk \

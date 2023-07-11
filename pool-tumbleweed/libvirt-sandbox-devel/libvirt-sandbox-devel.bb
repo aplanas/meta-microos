@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "0.8.0"
 
-RPM_NAME = "libvirt-sandbox-devel-0.8.0-5.3.aarch64.rpm"
-RPM_HASH = "4ae0122f88fbaf44d7f872a81b9b520474fc54fcf562b29018562c0ed6eae6deda389b14e43119c7223022e7b6ff24fd8f6629da2b0fdcd8e24896f91909ee57"
+RPM_NAME = "libvirt-sandbox-devel-0.8.0-5.4.aarch64.rpm"
+RPM_HASH = "bbb38bc834613c8765471021ad98a181b11a073599cd2ed7e6416a4954a8ca34ab81ae1edadffb344e524f886738e24c1f046df337c2f639c6e51841d3b2ef1a"
 
 RPROVIDES:${PN} += "libvirt-sandbox-devel \
 pkgconfig-libvirt-sandbox-1.0"

@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.6.21"
 
-RPM_NAME = "python311-python-pptx-0.6.21-1.3.noarch.rpm"
-RPM_HASH = "58366c3197fd40578af4ec055c5e951872d89495aa2ccb5abcb30209c26f83ffd94aa2a09612530ad523210156f9e1f00dc3968d3782ebcc7b969219e5d35ee6"
+RPM_NAME = "python311-python-pptx-0.6.21-1.5.noarch.rpm"
+RPM_HASH = "8e11a63c5ab147f2aa81d7fbbf8d950ac78d6a277caf7c5107870103930e0198aa66ffc54ed38d864942891ace160e2f2d25d817fa18373b0a55a6646a85ea64"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-python-pptx \
+RPROVIDES:${PN} += "python3-python-pptx \
+python3.11dist-python-pptx \
 python311-python-pptx \
 python3dist-python-pptx"
 

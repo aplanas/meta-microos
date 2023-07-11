@@ -10,10 +10,10 @@ repositories from other revision control systems such as subversion, \
 CVS, and GNU arch."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.40.1"
+PV = "2.41.0"
 
-RPM_NAME = "git-2.40.1-1.1.aarch64.rpm"
-RPM_HASH = "8a3606b585e17ebf266454ceb0e98f26eb9cac55fd07b0380218f8780c9bc2e27c6a646a85baae44e738e2a65fb0bee6bd56ecc7eab175b0c1a8ee6f4388cdbf"
+RPM_NAME = "git-2.41.0-1.2.aarch64.rpm"
+RPM_HASH = "553f57c2336f8a8cb3dc98dd3868b1341b565370be5b69d4bdc1e3ca19d35ed7baa9f8bdc10258d0f8c1bf8a10771f22842f379b38fef8e92ed124a5e73e926b"
 
 RPROVIDES:${PN} += "git"
 

@@ -2,16 +2,16 @@ SUMMARY = "Python Bindings for Google Protocol Buffers"
 DESCRIPTION = "This package contains the Python bindings for Google Protocol Buffers."
 LICENSE = "BSD-3-Clause"
 
-PV = "21.12"
+PV = "4.23.3"
 
-RPM_NAME = "python311-protobuf-21.12-3.2.aarch64.rpm"
-RPM_HASH = "4bef08d2244700e19a0d4c3255494f5148aa4532f8514a66829b3195f19505be95c05d764c75370c62ccecf1255c198e51d3fed2e632c0d0d6bd7474e54a521b"
+RPM_NAME = "python311-protobuf-4.23.3-5.1.aarch64.rpm"
+RPM_HASH = "d077d33da14381f8af9f703df2e0d38bf90762553cf937fdc9747800b322fa88a45127093358c9854094b688830d38ee55be7b40d44c6520c5e7af3879f975a8"
 
-RPROVIDES:${PN} += "python3.11dist-protobuf \
+RPROVIDES:${PN} += "python3-protobuf \
+python3.11dist-protobuf \
 python311-protobuf \
 python3dist-protobuf"
 
-RDEPENDS:${PN} += "python-abi \
-python311-six"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

@@ -27,8 +27,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.0.7"
 
-RPM_NAME = "uperf-1.0.7-1.14.aarch64.rpm"
-RPM_HASH = "bc18a38b73cfb422dd90057ec7ff203cd9a991dea79032b082d943dc17e7aea0de2ecce31fa5df2c555aad4f896213d941cfd6936493012441ea5251e730799e"
+RPM_NAME = "uperf-1.0.7-1.15.aarch64.rpm"
+RPM_HASH = "ff1d2dd928768ede6f2d2d8642f8468ddd4fdd6411efc03b5d30eaaafe2f26213bfd47d0fcc51a27cfe8db6aa4c1f18ce26f302dfd9516c7fc712a6c61e411a7"
 
 RPROVIDES:${PN} += "uperf"
 

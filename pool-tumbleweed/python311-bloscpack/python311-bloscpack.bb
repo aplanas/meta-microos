@@ -7,11 +7,12 @@ LICENSE = "MIT"
 
 PV = "0.16.0"
 
-RPM_NAME = "python311-bloscpack-0.16.0-7.4.noarch.rpm"
-RPM_HASH = "4e9e43832d5f1ac0718083a1c66d7a1babacd8db9c693248b9de153fcef9dea62c334790748e454132f109d3092f84e27e784d7792aad12eb1e3320e000815d6"
+RPM_NAME = "python311-bloscpack-0.16.0-7.6.noarch.rpm"
+RPM_HASH = "43fdbcdcac1d84f04ce046c6ed931d3a6da3257d00b34b31bb37dd5510b949c05a2db822a54e09b14fd0636c9c326e2b1f569b17284a38064f3bfbea86983049"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-bloscpack \
+RPROVIDES:${PN} += "python3-bloscpack \
+python3.11dist-bloscpack \
 python311-bloscpack \
 python3dist-bloscpack"
 

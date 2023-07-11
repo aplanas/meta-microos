@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.1.0"
 
-RPM_NAME = "libmygpo-qt5-devel-1.1.0-2.23.aarch64.rpm"
-RPM_HASH = "d04793b81d6104e974cc25551f2041c1943a12733afdca3b5f5873e693634e0f9256dd5f472c9423f0959209daeb05a5ceb4f9ffc28e73c2f10c2a7efaf9ba08"
+RPM_NAME = "libmygpo-qt5-devel-1.1.0-2.24.aarch64.rpm"
+RPM_HASH = "b133fdb02de13d9438156ded00d8718a9cdc3aa5cfa287d01098ff79661e4ab038173071a7211f7eacaeda61cac9cc4bfb93358cc37d8ecb230c3af98ed9bd9b"
 
 RPROVIDES:${PN} += "cmake-Mygpo-qt5 \
 libmygpo-qt5-devel \

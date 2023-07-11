@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "76"
 
-RPM_NAME = "ndctl-76-1.3.aarch64.rpm"
-RPM_HASH = "daa3c07ec2eace60072a4a1b0bcf5c087bb6cfa78e93314b3c7f0aae6ee411bbc3666ff014775a66a7218e7ed43690887bc52e366bd0a59ef683cbd3719f2902"
+RPM_NAME = "ndctl-76-1.4.aarch64.rpm"
+RPM_HASH = "81462f33bab23bfc1f2c060df5600c2f6b9dbf18517d2258312f7ccac5d61c63a5f134a4f73066ae7e945380531f3a0112e7d722d98f99911f164a9d959b0f1f"
 
 RPROVIDES:${PN} += "config-ndctl \
 ndctl"

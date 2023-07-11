@@ -7,12 +7,11 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.1.5"
 
-RPM_NAME = "python310-resultsdb_api-2.1.5-1.3.noarch.rpm"
-RPM_HASH = "5884990394f61f8a416a551d5210d3c2a5095a0bdd7bce4d216405ac53fcf6d8d23cea939f644a5ae2afbe4bf655e3c559e4a4c79c00d5892d848f449539df5f"
+RPM_NAME = "python310-resultsdb_api-2.1.5-1.5.noarch.rpm"
+RPM_HASH = "cf8eba02cf134f15c25a4eff09cb34e10ed967faca7766bf58e1473de1ef31138909c05454bb0a3eb227cc6489ffd3b82656832794e013d9aa90c41011b7b963"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-resultsdb-api \
-python3.10dist-resultsdb-api \
+RPROVIDES:${PN} += "python3.10dist-resultsdb-api \
 python310-resultsdb-api \
 python3dist-resultsdb-api"
 

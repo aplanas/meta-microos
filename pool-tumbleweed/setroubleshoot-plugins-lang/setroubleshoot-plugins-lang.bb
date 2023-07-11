@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.3.14"
 
-RPM_NAME = "setroubleshoot-plugins-lang-3.3.14-1.2.noarch.rpm"
-RPM_HASH = "4ed76bfc5c4f5829012818eba36a09a2c1c27b6fb84f46928019e23d33f80361fcb4530140fee9a8f57d3665fb0145e1bc52b815a9fe17cf89d5d3ee5a4ea30b"
+RPM_NAME = "setroubleshoot-plugins-lang-3.3.14-1.3.noarch.rpm"
+RPM_HASH = "e428de9aa0ce31bdafa26a6542b2f5ec12fb01a13d094d29964c22e8254cdb90bf40e11533158c7e33ef99277b2faed07f67582389bf9a9d1a7b3e86562c2227"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-setroubleshoot-plugins-as \

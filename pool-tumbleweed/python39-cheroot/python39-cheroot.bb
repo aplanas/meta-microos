@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "9.0.0"
 
-RPM_NAME = "python39-cheroot-9.0.0-3.1.noarch.rpm"
-RPM_HASH = "f0182348f9baae79bd666bad2a21c622b190ae06d24acbac9bdc33b0cc8ec86ca641f3eb7c562bd80b9957b1d1573f93327dbcaf97c98cb14b2f51b8fedcf985"
+RPM_NAME = "python39-cheroot-9.0.0-4.3.noarch.rpm"
+RPM_HASH = "1bff189462f4141c0eaa800281d2eb5cd0f4dfd9abe295ce5ebd47b6f65a8c564f90b2c5790e76968b0470e715ea3eaa0c34011062ffc7352d5c3f89bcd918df"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-cheroot \

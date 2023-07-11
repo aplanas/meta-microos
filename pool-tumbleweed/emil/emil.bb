@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "2.1.0beta9"
 
-RPM_NAME = "emil-2.1.0beta9-968.28.aarch64.rpm"
-RPM_HASH = "684de0eb1cd80bce9995ef7def477b75001e169923315877b3f138fa970db914ac125e7772f5caeb1c888a2efa52344d62ed055e63515128b33f8ddc0a19d038"
+RPM_NAME = "emil-2.1.0beta9-968.29.aarch64.rpm"
+RPM_HASH = "85e59417b0289ba5d97917bc3843b8638f214a19b161a3218983ce8c83a31dc8acf284fca1955d3fec7d57b42d76a180f7feec2e4e3da16ebcd5a1b935147a8f"
 
 RPROVIDES:${PN} += "config-emil \
 emil"

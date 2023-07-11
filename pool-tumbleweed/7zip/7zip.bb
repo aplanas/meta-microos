@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the 7z command line utility for archiving a
 extracting various formats."
 LICENSE = "BSD-3-Clause & LGPL-2.1-or-later & SUSE-Public-Domain"
 
-PV = "22.01"
+PV = "23.01"
 
-RPM_NAME = "7zip-22.01-3.3.aarch64.rpm"
-RPM_HASH = "625d3ce2024dac8859a4342866d645bb67da13fcc30d8e5bafb4f02e97e547ed41ead3277119f28a08b85302902b3c7c0d0e8f0a85a901f70b82dd06a60e9e3b"
+RPM_NAME = "7zip-23.01-1.1.aarch64.rpm"
+RPM_HASH = "98a64e4759ff29d801c68ef14f969e5fa0b8d90884bb288ce5c7e7cd8dc7bb30cd01413b25e7c4eaa4063db22cab7c08d2e8462887fd8d1d4f23f41bd58c8784"
 
 RPROVIDES:${PN} += "7zip \
 p7zip \

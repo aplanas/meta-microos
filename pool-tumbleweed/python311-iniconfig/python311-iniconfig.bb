@@ -13,11 +13,12 @@ LICENSE = "MIT"
 
 PV = "2.0.0"
 
-RPM_NAME = "python311-iniconfig-2.0.0-3.1.noarch.rpm"
-RPM_HASH = "3bee535c4f7c0e5de656c4cfa0d0a4cc03a327b1ccd60a5fae7c635305fdf1cf539e51d0796aa2dd2efef104997b75b32846f44255c480265dec54991269dc63"
+RPM_NAME = "python311-iniconfig-2.0.0-3.3.noarch.rpm"
+RPM_HASH = "226019f18e14b42553b04fa7158a424de1a490541dcfaad256183080ae8b2199678df6d400689fad951a54926d2d756ef6ede7db4b955d4c00b07b464b7b8a9c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-iniconfig \
+RPROVIDES:${PN} += "python3-iniconfig \
+python3.11dist-iniconfig \
 python311-iniconfig \
 python3dist-iniconfig"
 

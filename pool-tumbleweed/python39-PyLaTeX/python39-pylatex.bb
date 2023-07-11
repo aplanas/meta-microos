@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.4.1"
 
-RPM_NAME = "python39-PyLaTeX-1.4.1-2.11.noarch.rpm"
-RPM_HASH = "41a48e58c730f0dd6bd02cf07d1f5a30157b9804ee77a75bffd8a90fa799e8c566bdb28070b7f6ba79da85797185fd584aad1db06903c98a5b4becbd27e861a0"
+RPM_NAME = "python39-PyLaTeX-1.4.1-2.13.noarch.rpm"
+RPM_HASH = "a3f6c9fdb99a2af0dec238c11ab73f89170219a98a7f4accb4716bddb2c4c2e3d83718ed97afb109309d5b281a861ec759c574cbee459a663412318b47986cb1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pylatex \

@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0"
 
 PV = "0.9.2+git.1684336720.d2ebd49"
 
-RPM_NAME = "sapstartsrv-resource-agents-0.9.2+git.1684336720.d2ebd49-1.1.noarch.rpm"
-RPM_HASH = "458c66788511751a0a3258035a2a3a056e580671f4afe8da2e13c80f23f89206b4594fd527fa4a236c7cd6f923c973f0348e03ff59087e5ac25f97dd5b5fa5d0"
+RPM_NAME = "sapstartsrv-resource-agents-0.9.2+git.1684336720.d2ebd49-1.2.noarch.rpm"
+RPM_HASH = "49eec7f537535034bf106851f8d4d05467c734f652b963f01a1c416eb38799364b29e61a9690c05873a52cdb5e5bd51b3324f07ec8b8c514057bcbb5cbde7f29"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sapstartsrv-resource-agents"

@@ -2,10 +2,10 @@ SUMMARY = "KDE's screen management library"
 DESCRIPTION = "Energy saving display management library for KDE"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "libKF5ScreenDpms8-5.27.5-1.1.aarch64.rpm"
-RPM_HASH = "c5267de20496b51a3949d7a4bbc35908b9577c88ec84dba9c59b626f3866b635d083bf61a9837dc63e84b2d516d0becd13622a7556762680a0e809265531859a"
+RPM_NAME = "libKF5ScreenDpms8-5.27.6-1.1.aarch64.rpm"
+RPM_HASH = "cc1db62e44be7321df8eff78849ba81356fd42efa5253934686dc31bd847ab65298569e23a6c73e2f9134a62df94877be3b48ecbce6cbf5f0820276c178e6e51"
 
 RPROVIDES:${PN} += "libKF5ScreenDpms.so.8 \
 libKF5ScreenDpms8"

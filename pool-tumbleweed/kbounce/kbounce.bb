@@ -4,10 +4,10 @@ rectangular game field by building walls. The motivation consists of \
 finding new and advanced strategies to catch as many balls as possible."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kbounce-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "cb586a1286c1400877fed5b33ac4dc43c554947fb4ed0c172e3f0cc041f851a193884401e8cfb32243a893e9732d58110623639eba267367be8ef11c260708e0"
+RPM_NAME = "kbounce-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "b4f977f954d9f0ff9c552035fc0c3a741f86e7174a8c8f224a9e60885c97ee4f95fc9307d898db51719c940e0ae0e71a183d30576d97f6016c97229a68c5959e"
 
 RPROVIDES:${PN} += "kbounce \
 kbounce5"

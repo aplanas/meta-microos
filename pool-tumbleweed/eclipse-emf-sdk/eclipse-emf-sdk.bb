@@ -5,8 +5,8 @@ LICENSE = "EPL-2.0"
 
 PV = "2.22.0"
 
-RPM_NAME = "eclipse-emf-sdk-2.22.0-3.5.noarch.rpm"
-RPM_HASH = "e5a3d64b7b7ebc8dc0b29ef3b1d50e9f521c54a533e54a24ca566c2dce6dc3cd5907f7d46a4a5e0b588fc280aa17ab3ac37ca738fa40ad18874323c2c04d4007"
+RPM_NAME = "eclipse-emf-sdk-2.22.0-3.6.noarch.rpm"
+RPM_HASH = "f9217c25cba718fd5e1050733df99adced2a2da8eaddd424dbfdd873c3749b3ca6af2916455b5c92ba7aa67ba1101d21fa9ba3f488bc6bda2f4958d7b784e186"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eclipse-emf-sdk \

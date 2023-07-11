@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.2.2"
 
-RPM_NAME = "apache-commons-collections-testframework-3.2.2-7.4.noarch.rpm"
-RPM_HASH = "dfb7cb8cc103e2f9912dbaf6ac1966401e7122ae29f6e54f935d0f5367f2d3c8e6913bfebc0816044cc7824cb1db57ecf6fe8987cf23bae9ae30e412866de9e3"
+RPM_NAME = "apache-commons-collections-testframework-3.2.2-7.5.noarch.rpm"
+RPM_HASH = "287facdd34fe17f0c357a1e6d692cee359221e9252b180f5537b4aee09c9d205bc1671a8578252ca975a76474ad38d91d4c0fdce8dea29e42888671878f55166"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-collections-testframework \

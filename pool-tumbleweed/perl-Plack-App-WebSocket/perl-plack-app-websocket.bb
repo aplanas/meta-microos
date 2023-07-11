@@ -5,15 +5,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.08"
 
-RPM_NAME = "perl-Plack-App-WebSocket-0.08-1.11.noarch.rpm"
-RPM_HASH = "6a62ed39be295d369d65b81b3e9f6ec8a9dbcf85fb90e8a9f632550291bcdce6ffbafe2bbb9e7f5898f2713339618a9e12a0e43515f643fcb0fb9f28dc03c752"
+RPM_NAME = "perl-Plack-App-WebSocket-0.08-1.12.noarch.rpm"
+RPM_HASH = "84f6842f29a1612caba1a6d11739489d4dd7e5f1008efec9ce93f94a1d46d3a79a469c349e2a4053854064e4dd5a5c83d23e43ce74cfb5cf42afb74813a4eed0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Plack--App--WebSocket \
 perl-Plack--App--WebSocket--Connection \
 perl-Plack-App-WebSocket"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-AnyEvent \
 perl-AnyEvent--WebSocket--Server \
 perl-Devel--GlobalDestruction \

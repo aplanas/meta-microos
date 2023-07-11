@@ -20,8 +20,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.23"
 
-RPM_NAME = "lziprecover-1.23-1.7.aarch64.rpm"
-RPM_HASH = "1af6c7a2b874e7a6d90713076d1736ca6ced6a0cb2a0d1a0f5b5907e10d883c9ccec7f13a3cfac924ac5d562435ad5f0e83acea721af803475e8043c27a86b00"
+RPM_NAME = "lziprecover-1.23-1.8.aarch64.rpm"
+RPM_HASH = "06a1935f5dd30d90cfc99fa155ccee92562923bb6efff4657620c47d8ed7113f688d751b572ce24cc371badea87b26dc42803bec405ba005cc3d87060f4bf005"
 
 RPROVIDES:${PN} += "lziprecover"
 

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "3.0.1"
 
-RPM_NAME = "libQtOlm3_0-3.0.1-1.10.aarch64.rpm"
-RPM_HASH = "0a32d85451c3a5adcdfdf582589c7b3138bb4cd42aceb9daf538714f7d5549a4eb3c8651418081a8b118335a1078500ff3796a13fd05c74fb299bf0c90668a2f"
+RPM_NAME = "libQtOlm3_0-3.0.1-1.11.aarch64.rpm"
+RPM_HASH = "61f01cd5eea6752a64888bfb5efbbdca7a5f643823f5f38b9e014331ff92103e4c6e0e3a5f1cca0bd81c357aebd97c0f332a6a4add6983067d336bf0e32ee281"
 
 RPROVIDES:${PN} += "libQtOlm.so.3.0 \
 libQtOlm3-0"

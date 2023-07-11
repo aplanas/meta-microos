@@ -7,8 +7,8 @@ LICENSE = "GFDL-1.1-or-later & LGPL-3.0-or-later & GFDL-1.3-or-later"
 
 PV = "20221124"
 
-RPM_NAME = "libqcow-devel-20221124-3.9.aarch64.rpm"
-RPM_HASH = "84e7092b4a66179c23050cdbab031cdb1076ae49e4ed8e1e47947c0e6cd5b48d7426e1057bf37ddc8b3d61f49070225f4d2aa9eb7f2e7fbd484c4d94ef2fb1e3"
+RPM_NAME = "libqcow-devel-20221124-3.13.aarch64.rpm"
+RPM_HASH = "8d50d0bad28706b051372a2ddefb0e6cecbe432cbcf66c83397de8bb0a4466e52447dcbc9899e53464cc59fa4fc696cc1ee1aca0260c2c225b47c64bb21cfce1"
 
 RPROVIDES:${PN} += "libqcow-devel \
 pkgconfig-libqcow"

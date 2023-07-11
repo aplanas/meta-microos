@@ -14,8 +14,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
 PV = "0.2"
 
-RPM_NAME = "rash-0.2-3.3.aarch64.rpm"
-RPM_HASH = "682ca87e95455f353cac590be361167d8695249bbd44ad45af76e321b4dda3a9c243b97bb79e52cad12ae8ef1c0f9cd379975dfbc919d45e752a29c0f2bd9215"
+RPM_NAME = "rash-0.2-3.5.aarch64.rpm"
+RPM_HASH = "e9c9e8693939264a177171eefe91f0ac5544ac915ddf0490d29e42395df120a45840f79549ad1a8c1b464ff4f8e22d9e8ced0f04635974dcefabbdda12ddf724"
 
 RPROVIDES:${PN} += "rash"
 

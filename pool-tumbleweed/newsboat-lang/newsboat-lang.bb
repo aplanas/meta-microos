@@ -2,10 +2,10 @@ SUMMARY = "Translations for package newsboat"
 DESCRIPTION = "Provides translations for the 'newsboat' package."
 LICENSE = "MIT"
 
-PV = "2.31"
+PV = "2.32"
 
-RPM_NAME = "newsboat-lang-2.31-1.1.noarch.rpm"
-RPM_HASH = "49e5888f6b1b4b1bf999c4cf044620d88aa21556b26011fbfa9f62f8dec809393afceee25b3accb0d35a67bc127f006b8459013be18c9e968399ba9a71471580"
+RPM_NAME = "newsboat-lang-2.32-1.1.noarch.rpm"
+RPM_HASH = "c3d889d53814df7d71aee8bca5a52593ffca6e1a663c92a0c94b1bf8e32b75d40460ae7464d7ab5e67d0ea6faecaa42c7aa5c5e0b1d8bf7d49de168dd52616d6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-newsboat-ca \

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.0"
 
-RPM_NAME = "libopencsd1-1.4.0-1.2.aarch64.rpm"
-RPM_HASH = "4d2ba60a67b48d590b331db6a56397684f05c2db830191fd88d26e2b8fe04c6e7bd0bb9ed4f57cf551a771b49cebc16a0e4cbde4e6377999c5a7569d436983a3"
+RPM_NAME = "libopencsd1-1.4.0-1.3.aarch64.rpm"
+RPM_HASH = "74cf138e846801e0abf9ceba17a3acc17b432b92515eecc724dd72c98694bc9ca7829ce7f6bdd71f2dcc0dde6822418405914c9fa8d8d1672f90693a5bea2c1f"
 
 RPROVIDES:${PN} += "libopencsd.so.1 \
 libopencsd1"

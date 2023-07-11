@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "2.10"
 
-RPM_NAME = "jdepend-demo-2.10-3.3.noarch.rpm"
-RPM_HASH = "bdc555af587ae24f5056830c36f56e890b2b8d77b005e7581df73965a0db1b0b99986f4941ce5d5afa4cdb1bb45315ede2b3efd2166a282bad07c6e12eadbff0"
+RPM_NAME = "jdepend-demo-2.10-3.4.noarch.rpm"
+RPM_HASH = "c9b021bf5ce9b61d7192ef4c09c40016e0d86a3099ebf9fa5a80bd5bdffafce1a4203d9dfa4d3ca8a4ef621ae633425ac8fa59005ca9738c0cf12c8a26a024d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jdepend-demo"

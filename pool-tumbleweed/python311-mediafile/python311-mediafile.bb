@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.11.0"
 
-RPM_NAME = "python311-mediafile-0.11.0-2.1.noarch.rpm"
-RPM_HASH = "053490f3aab28fc0b5d6d4553c517006b0227001a63b1d8030b4459818ece4bf962e2ec9cc1168d76cbac848d13e5e708533f78a7cc1f6230818da18091bab58"
+RPM_NAME = "python311-mediafile-0.11.0-2.3.noarch.rpm"
+RPM_HASH = "cf31acf1d412e1120b2f5397253a58eaef19fac46d80fab2231db2c4385b66ec8c4dfe83c867aa7b16040e834a18b0f09d6a21fe6fe017b58d87213883eda5ab"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-mediafile \
+RPROVIDES:${PN} += "python3-mediafile \
+python3.11dist-mediafile \
 python311-mediafile \
 python3dist-mediafile"
 

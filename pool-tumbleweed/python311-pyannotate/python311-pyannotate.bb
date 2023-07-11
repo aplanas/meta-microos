@@ -5,11 +5,12 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2.0"
 
-RPM_NAME = "python311-pyannotate-1.2.0-4.4.noarch.rpm"
-RPM_HASH = "18ceb13a6aa7856a7aeb65e15bc89ce4d71cd7f681647cdf09217d14d7a35913b6b9b22ccbe3646922d4d415f6e8ca5aa1ed870ee2a2978e2693d54715a28a23"
+RPM_NAME = "python311-pyannotate-1.2.0-5.1.noarch.rpm"
+RPM_HASH = "7c281a70f76e9306811d24c3ce1c1c6b15f377b7bc9990d602914f67a72264f82a54ed99263366438f5d56ed77d7554d8fe8dc93f37bbf76fdd446f6ff525590"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pyannotate \
+RPROVIDES:${PN} += "python3-pyannotate \
+python3.11dist-pyannotate \
 python311-pyannotate \
 python3dist-pyannotate"
 

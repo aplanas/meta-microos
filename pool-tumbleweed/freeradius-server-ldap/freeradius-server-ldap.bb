@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
 PV = "3.2.1"
 
-RPM_NAME = "freeradius-server-ldap-3.2.1-1.3.aarch64.rpm"
-RPM_HASH = "b95cb3f5dbea29b65a9242e94b2b46830e506fe3a03c921efcf5c321008d93c8fa78de64d009fee6d7ba665d7c5e190d359dbb939d226609602224be82305afd"
+RPM_NAME = "freeradius-server-ldap-3.2.1-1.6.aarch64.rpm"
+RPM_HASH = "94497b6f290216db9e9264732b6848ae5d8a9621af4a28bf89771a565c2c7873c3cf678cbb3f325808e0f25f8d79ce50ddbb89a5d163806d734c6c819125d82e"
 
 RPROVIDES:${PN} += "config-freeradius-server-ldap \
 freeradius-server-ldap"

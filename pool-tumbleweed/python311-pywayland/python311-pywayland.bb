@@ -4,10 +4,11 @@ LICENSE = "NCSA"
 
 PV = "0.4.15"
 
-RPM_NAME = "python311-pywayland-0.4.15-1.4.aarch64.rpm"
-RPM_HASH = "dc0af213c50d78f4987dd3873dced15dabc67680956e55a0daf746f9fb60933f188ef85b5171f30dc42a293f29a83a282d715ab19b5ee1b9c330e7218cd48a10"
+RPM_NAME = "python311-pywayland-0.4.15-1.5.aarch64.rpm"
+RPM_HASH = "b4b7c716c66be22275003c604fdf355de84ddd2aa00490e594d98282e28c77b17d16031267234d72c622de89c256cb19d43f517b769a806ce1d458ffa4f57859"
 
-RPROVIDES:${PN} += "python3.11dist-pywayland \
+RPROVIDES:${PN} += "python3-pywayland \
+python3.11dist-pywayland \
 python311-pywayland \
 python3dist-pywayland"
 

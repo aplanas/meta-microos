@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.12.0"
 
-RPM_NAME = "python39-Levenshtein-0.12.0-4.19.aarch64.rpm"
-RPM_HASH = "91111cf9024a7ef2006007199e1db96ab3a4a3a130a293274d395b849e7188753fa8ab0dac6adab7ca9debaddbbf3481221361bdc14b01315286763e9bacff76"
+RPM_NAME = "python39-Levenshtein-0.12.0-4.21.aarch64.rpm"
+RPM_HASH = "f87e358b83e9329bc32fcf132cc6c5f0cffcfb366e6bb62a328aa2c4f08cc0aeed33f7561832b4d2dbde0192ba4024e79151b04f18168dc576ff64eea47f6ad3"
 
 RPROVIDES:${PN} += "python3.9dist-python-levenshtein \
 python39-Levenshtein \

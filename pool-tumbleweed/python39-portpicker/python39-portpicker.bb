@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.5.2"
 
-RPM_NAME = "python39-portpicker-1.5.2-1.5.noarch.rpm"
-RPM_HASH = "7f63eea4d2856ab1c8f7fdb112878ecf4ee6a011860071d42d1490367dce82d03e06d0c7aaeec2ceded9a2062962829c53f2d2d5eecdfd02cb8da2edb0a9b5de"
+RPM_NAME = "python39-portpicker-1.5.2-1.6.noarch.rpm"
+RPM_HASH = "223f4299917f46156b34a9f5145a17c07caea2ee1f1d5011c529abebcc96a0a3d5cfb247c42a024cc9dc65bd69bc77b48b0b0d1e9d8c715e81fa5e8d7df6a1ea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-portpicker \

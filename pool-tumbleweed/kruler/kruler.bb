@@ -2,10 +2,10 @@ SUMMARY = "Screen Ruler"
 DESCRIPTION = "A screen ruler for the Plasma desktop environment"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kruler-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "25219f0258775bea2f34ab7214ae60b178b58c2230b9601aaf26fa178f647687cd1ba110ab72e4c8f112b90367a76fb5cc15bb6c10a27de984e2703f26d7cd8c"
+RPM_NAME = "kruler-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "1c9c1adebd05d891db278d8a285b6b4a013f33f8f498b34deb8f6eedc592bc2b8c336803dffc5ea5e77f1adaed7d67cdc72e92b0fb4d60ead8eb426bb0082194"
 
 RPROVIDES:${PN} += "kruler \
 kruler5"

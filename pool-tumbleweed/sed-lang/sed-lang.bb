@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.9"
 
-RPM_NAME = "sed-lang-4.9-2.3.noarch.rpm"
-RPM_HASH = "1957ec0e9f18ab0a7bf4a129e6848308a5ebc8d9df3669839f917a150e6560dee2d9e5d67bebe780aa54c17b3aa2a7c8620bbc8d09c2cfe65b9048ced33391c3"
+RPM_NAME = "sed-lang-4.9-2.4.noarch.rpm"
+RPM_HASH = "eeb1ab4f87f26541359e548e9301389939719bfe7b39969e9bcc94f6dcbafc0c85b515955af9aa2021eea36c46f2300e53580d19b6aed3127d8062c86a08b788"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-sed-af \

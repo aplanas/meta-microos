@@ -6,8 +6,8 @@ LICENSE = "OML"
 
 PV = "2.4.0"
 
-RPM_NAME = "perl-FastCGI-2.4.0-173.1.aarch64.rpm"
-RPM_HASH = "df435099b17b12a406dc30a49b64827d1da1d3813053f0b0205eb76d30b805ad21d4863a06405e9ede0d0de7b6f9b6c77ae7800bb7b3f9268dcd587618a8646c"
+RPM_NAME = "perl-FastCGI-2.4.0-173.2.aarch64.rpm"
+RPM_HASH = "f6b2680bbd764baad3bc849999de395bbe9174c3bbeb012c2b7d1af7174ff4230223fa4943b364e28492d1490ff7db4671745effde678de21cd961411fd02950"
 
 RPROVIDES:${PN} += "perl-FCGI \
 perl-FCGI--Stream \
@@ -16,6 +16,6 @@ perl-FastCGI"
 RDEPENDS:${PN} += "FastCGI \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

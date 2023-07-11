@@ -30,8 +30,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.17"
 
-RPM_NAME = "perl-Web-Machine-0.17-2.9.noarch.rpm"
-RPM_HASH = "4c9a5a49d46408183c7a4f5bce1b548b9051ff504d37ce46dec641ab5ef74a2b126ead7952172ab8258dfcf865791e7233a99cfa6baf073752156534ae74fab7"
+RPM_NAME = "perl-Web-Machine-0.17-2.10.noarch.rpm"
+RPM_HASH = "4102333165ba9d873c5f101e720dc0e45f0f7aab3b703597b1a707310c5da842034e78956691e01dd7b993287fa48f1e6adecc4838f6f80ad7cd397a3c54c0dd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Web--Machine \
@@ -45,7 +45,7 @@ perl-Web--Machine--Util--BodyEncoding \
 perl-Web--Machine--Util--ContentNegotiation \
 perl-Web-Machine"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-HTTP--Headers--ActionPack \
 perl-HTTP--Status \
 perl-Hash--MultiValue \

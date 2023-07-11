@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.2.6"
 
-RPM_NAME = "libmirage11-3.2.6-1.8.aarch64.rpm"
-RPM_HASH = "548d1150f996c3a2a98997e61ee530c1c1fda46b26d9f65be1e26595fc25bf4576eb1031b08ab077417329b649f0c0fc605bd37dbad1b6886b65c5d2a1b63d15"
+RPM_NAME = "libmirage11-3.2.6-1.9.aarch64.rpm"
+RPM_HASH = "c1a23592505283b3ed396fb70a0bb1aa136c02f87694752cb4dc2bea452e7bb0da4345987fd777e21ef5cd751728a65463d72d9c904cae46c512971667e3e822"
 
 RPROVIDES:${PN} += "libmirage.so.11 \
 libmirage11"

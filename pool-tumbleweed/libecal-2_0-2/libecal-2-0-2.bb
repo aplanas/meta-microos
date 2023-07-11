@@ -5,10 +5,10 @@ and calendar in the GNOME Desktop. \
 This package contains a shared system library to access calendars."
 LICENSE = "LGPL-2.0-only"
 
-PV = "3.48.2"
+PV = "3.48.4"
 
-RPM_NAME = "libecal-2_0-2-3.48.2-1.1.aarch64.rpm"
-RPM_HASH = "9a1a2a64cbf1e5a6edd2cca4402e5dad6bab5517ffc2869a33d7c05d1a1ad81ed553dfc2ce1f72dd4a4a035d55954a6b6bbd3a900566aad525c57ea428097eed"
+RPM_NAME = "libecal-2_0-2-3.48.4-1.1.aarch64.rpm"
+RPM_HASH = "99b49cf5ea0a3a75ebfd7bea12a78729fdf28576cea7a3c959fdbc2e6c7bcf97edfe5f0dec68ab5d4d17342692cffb6d46e12afef30ad11373b938490ab45b53"
 
 RPROVIDES:${PN} += "libecal-2-0-2 \
 libecal-2.0.so.2"

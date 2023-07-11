@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later & SUSE-Public-Domain"
 
 PV = "1.2.13"
 
-RPM_NAME = "libxine2-jack-1.2.13-2.2.aarch64.rpm"
-RPM_HASH = "2845a7409fce9a84757762bab01e23f71347e41238452c9d97f866441265b07388743a8546b9739d56759f62a383ee9d2c57ef81a93cdb54a0e8baf56532aeaf"
+RPM_NAME = "libxine2-jack-1.2.13-2.3.aarch64.rpm"
+RPM_HASH = "ea28ef6dc7eff7366185eb308af38d2fe6efa41453d4137860b96e87c7085289baacce2d72e7d8d63b7dd5e57c1e7a729214ba484e9d04b63b9daf2e22747906"
 
 RPROVIDES:${PN} += "libxine2-jack"
 

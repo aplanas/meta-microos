@@ -4,12 +4,11 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.7.1"
 
-RPM_NAME = "python310-linux-procfs-0.7.1-1.4.noarch.rpm"
-RPM_HASH = "e03f7918ed23b8656f4800cc0b88d70211893c5592dc2a67d9d00f060475cd50d0d949451d23c4f8824fa0fe819275faf8a684c66bc0dad78904e07dc995b528"
+RPM_NAME = "python310-linux-procfs-0.7.1-1.5.noarch.rpm"
+RPM_HASH = "bb099d117e3a8cda2fe75a5dbc284562b27b3f0c19939aef2444464e3240a7045dfeb90212b3305ae10404e91904c54b89ab0a5aa1ad102e2d9e2dd5fe83fada"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-linux-procfs \
-python3.10dist-python-linux-procfs \
+RPROVIDES:${PN} += "python3.10dist-python-linux-procfs \
 python310-linux-procfs \
 python3dist-python-linux-procfs"
 

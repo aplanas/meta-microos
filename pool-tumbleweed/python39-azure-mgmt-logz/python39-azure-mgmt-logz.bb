@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0.0"
 
-RPM_NAME = "python39-azure-mgmt-logz-1.0.0.0-1.8.noarch.rpm"
-RPM_HASH = "dcf376d70f66813ab8abb7002149ff473c8fa12a71ead4cf97be185d0788d43df374bb7d4e7f4829c55c45681e66e4b19029be4c53ff408e03e136dda62f4fef"
+RPM_NAME = "python39-azure-mgmt-logz-1.0.0.0-1.9.noarch.rpm"
+RPM_HASH = "8706030f3018d914ca702518fe5648200b3803b13fa7130530b43349d7c73e803ae94cb529c2aecbaf0283289f2eacf127f6c4b578656514209f976791b2bcc5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-logz \

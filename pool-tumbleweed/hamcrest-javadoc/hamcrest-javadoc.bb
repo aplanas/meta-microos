@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.2"
 
-RPM_NAME = "hamcrest-javadoc-2.2-1.3.noarch.rpm"
-RPM_HASH = "91cc70a88cbf7541964d4caae8ae2fb017e3a6e68a5eb862dc5692d1c53aedb44fbacfbacd0d7bf0e044ffa61cc2260d1453360d324ccc9811d1b37548e6e805"
+RPM_NAME = "hamcrest-javadoc-2.2-1.4.noarch.rpm"
+RPM_HASH = "aee026b4194487b1ba8ebf9f05a586dd388b87f50b79bdb336cf4664357ea0fa6e1e64f3a60e830c50226955e9a317734020a579a38fbd2d57b4eda348e80378"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hamcrest-javadoc"

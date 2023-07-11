@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-or-later"
 
 PV = "1.5.1615+0"
 
-RPM_NAME = "psi+-plugins-pepchangenotifyplugin-1.5.1615+0-3.1.aarch64.rpm"
-RPM_HASH = "5d8800d5eed8d2cf54e9620c2aeaa334bf3278807337d021f6ebc43965079e45ab3b7f9fb839d26c3fec1062dedc5ec35d5870a329255aa02d6bb88cd066be62"
+RPM_NAME = "psi+-plugins-pepchangenotifyplugin-1.5.1615+0-3.2.aarch64.rpm"
+RPM_HASH = "bcfde5e3bbd7b60360851db28110a39af64a0ebc8eec231445f8a20f0fef73574691f9a4b8c292fa0c846bcf889096a64146a02b6f9575b6c42fd64d2a208165"
 
 RPROVIDES:${PN} += "libpepchangenotifyplugin.so \
 psi+-plugins-pepchangenotifyplugin"

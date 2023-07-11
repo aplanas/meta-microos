@@ -28,13 +28,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.15"
 
-RPM_NAME = "perl-MRO-Compat-0.15-1.7.noarch.rpm"
-RPM_HASH = "6fae5293ab1800c7be69a9b78a43a52bb7bdef4bfa98a73b3a14c208fe7a3b4f76aaec4445df5c3bf9f1ea3c5a74e89b840ec528015ec08715931f3f7dbb99d0"
+RPM_NAME = "perl-MRO-Compat-0.15-1.8.noarch.rpm"
+RPM_HASH = "e0ef3645530b93495935c993b1e34e7e8d202a5e03577877ab4269142c03424bb45e6964ac1eba815ed16f2324f6d6a1d4fdd3c2996642458b9dd49246105e06"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MRO--Compat \
 perl-MRO-Compat"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

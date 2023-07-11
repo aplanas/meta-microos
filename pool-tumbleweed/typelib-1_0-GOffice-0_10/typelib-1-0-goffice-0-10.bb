@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
 PV = "0.10.55"
 
-RPM_NAME = "typelib-1_0-GOffice-0_10-0.10.55-1.3.aarch64.rpm"
-RPM_HASH = "d398e9f794f8ef11d0746beca09c7e0e444855468b07d72738aa1aeabdaa7c7cc2ee0191f1e107064e61be9f9349be60560acb5e0f2c1255233d353a5781b1d9"
+RPM_NAME = "typelib-1_0-GOffice-0_10-0.10.55-1.4.aarch64.rpm"
+RPM_HASH = "48bb70a3daaf1547b6b8c47f38e9469fbd396e9303b2a81e42b854106f396db5d23cb233dac69e2fcbd389b16579d7cf8b941730582ec668aa55b9a3ab959e28"
 
 RPROVIDES:${PN} += "typelib-1-0-GOffice-0-10 \
 typelib-GOffice"

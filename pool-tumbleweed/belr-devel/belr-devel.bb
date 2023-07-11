@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.2.51"
 
-RPM_NAME = "belr-devel-5.2.51-1.1.aarch64.rpm"
-RPM_HASH = "7f65c819f1eb7d5f513dce57e8e598c8368311f1c7910d0134bf05f5a706bee0b82a80d7d694b419956cba9b7f620fa6e4257fd046ed07e98641338cbefa1c57"
+RPM_NAME = "belr-devel-5.2.51-1.2.aarch64.rpm"
+RPM_HASH = "247cee8fbccf75b752c71bccff9db71d8d8571ff9909838a209768619fc800ca85cf1d8b38d867f2f3edbeecb8dcdd8b5c62eff4a0af6040abac13fdaaf2d467"
 
 RPROVIDES:${PN} += "belr-devel \
 cmake-belr \

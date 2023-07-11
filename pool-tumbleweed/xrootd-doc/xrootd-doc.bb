@@ -6,10 +6,10 @@ This package contains the API documentation of the XRootD \
 libraries."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "5.5.4"
+PV = "5.5.5"
 
-RPM_NAME = "xrootd-doc-5.5.4-1.1.noarch.rpm"
-RPM_HASH = "a884b8aace7b5c874c87701374a01cdc54c4d8aa7717bd4a7e7605e92095e86b22af069d73657557704107fd50fe0403a2adb2a39e9f122ea7347017fd5f276f"
+RPM_NAME = "xrootd-doc-5.5.5-1.1.noarch.rpm"
+RPM_HASH = "955d0fc81073d9f16c81350eae64acc1913065eaf7ec95704cf84bef8e5e058fc09740e6e2202ae3b6fd567e1749d82d14fe679d9b2dd8fa6a492a7ee0c4e7b3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xrootd-doc"

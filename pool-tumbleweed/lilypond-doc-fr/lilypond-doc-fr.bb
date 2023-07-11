@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.24.1"
 
-RPM_NAME = "lilypond-doc-fr-2.24.1-2.3.noarch.rpm"
-RPM_HASH = "1c46624ea75f44866f6f6557d77f9b5d56e61c40cdea75378d30c1f1d60569e6d539955591a5c1ac048f8cf03ab71020abf6dcb3bb7f2cd1964f1b6477df76ce"
+RPM_NAME = "lilypond-doc-fr-2.24.1-2.4.noarch.rpm"
+RPM_HASH = "07a3125dbd3babf7d03c5946dff6ebcb6d74f13e2d84d2f31ede8219cec9926c8c5b074bcf38c1bfee6ba6b97c71f40ce39e472a1c51484310f3e5222740c1ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lilypond-doc-fr"

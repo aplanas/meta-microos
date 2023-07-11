@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0 & BSD-3-Clause & MIT"
 
 PV = "4.3.1"
 
-RPM_NAME = "python39-django-compressor-4.3.1-1.4.noarch.rpm"
-RPM_HASH = "b5cf0e0514e49f6d49c9a754a2d1ffb4cc1b02384ab12a205ca0cf318ef4e66ba44d0cbbde57bf2c8656236a51ceb0c3d0d764ba4284282fc7690b4e678407c3"
+RPM_NAME = "python39-django-compressor-4.3.1-2.1.noarch.rpm"
+RPM_HASH = "323aff916c6a1fcb0edf440bd3a166c715218b755994888b677bccc960c4f86d023844b93995103934896dca067ad1bcaa06575706c2c97fd53df6697c1680d2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-django-compressor \

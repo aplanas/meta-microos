@@ -10,8 +10,9 @@ LICENSE = "Unlicense"
 
 PV = "1.2.0"
 
-RPM_NAME = "libtommath-examples-1.2.0-2.2.aarch64.rpm"
-RPM_HASH = "a240479f6450c2375fc255627694ba0558f7f8d00b5556509d52c9b4a948988cf72fb48fdd6a137c045178db072939be0e83bc15caea24f3fe8e46c9c6d324d6"
+RPM_NAME = "libtommath-examples-1.2.0-3.1.noarch.rpm"
+RPM_HASH = "54c4ce1c50e77fb536aa4809c1fd1696f01fa7cada5d97badd5bab04910a8b82420f05545115dab9cf3256c6db2e234b073945bff1c56ef7f818b2843e022f99"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libtommath-examples \
 libtommath0-examples"

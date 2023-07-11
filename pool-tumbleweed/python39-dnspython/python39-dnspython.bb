@@ -21,8 +21,8 @@ LICENSE = "ISC"
 
 PV = "2.3.0"
 
-RPM_NAME = "python39-dnspython-2.3.0-2.1.noarch.rpm"
-RPM_HASH = "d3ed2a07167191646198eddb4a4598b5c01ba9cd1823d6682e1c633ad79ce1be373351bde342b5c093bbf1209ce93b5aa0e4331c2c380db9cfb8ee4d4b8dded5"
+RPM_NAME = "python39-dnspython-2.3.0-2.3.noarch.rpm"
+RPM_HASH = "fd6c05c527334cab580c4094462b51b8ccfadefdf7f4e21a1a999d00b207485efa856f032e421729baf7d90f795996a8dcda67210e893479021dbc0f7e660062"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-dnspython \

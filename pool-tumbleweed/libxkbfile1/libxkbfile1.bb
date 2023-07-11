@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.1.2"
 
-RPM_NAME = "libxkbfile1-1.1.2-1.2.aarch64.rpm"
-RPM_HASH = "cf403f2b310322c391ca9cad5df6036bf748b0208f49b3e19fa1c651aafcc4014854c76f3037cc551a6b2da6980f73e582d36b2f14b4fbd753642078034ee92f"
+RPM_NAME = "libxkbfile1-1.1.2-1.3.aarch64.rpm"
+RPM_HASH = "773def50ce41aba6eb207c640aaa8266b41e2da3053df0d1d7b0a61db17dae2b28988fecea069d14db4b9149123790aa7444b8de21d6df3adcc407b4c5e983da"
 
 RPROVIDES:${PN} += "libxkbfile.so.1 \
 libxkbfile1 \

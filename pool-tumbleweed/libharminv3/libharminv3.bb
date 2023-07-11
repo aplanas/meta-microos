@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4.1"
 
-RPM_NAME = "libharminv3-1.4.1-1.18.aarch64.rpm"
-RPM_HASH = "900bf624bf9ee6beaf19217150fd34047a1efec1d8e5768eb8bc6ef5e169e6d556b8e14b7e2e1259cb1e88afe0028361e04d79d3c6b4aeb8014351fffad87c3f"
+RPM_NAME = "libharminv3-1.4.1-1.19.aarch64.rpm"
+RPM_HASH = "7a2471ee53ad78bfb58cca521943ed6399f6f72b3f910a5629bc71e2794573ffa057864280ca008c0a18f6c57b76c4e201933e07ffc8c0a19f0a4e7f2c4ccc4c"
 
 RPROVIDES:${PN} += "libharminv.so.3 \
 libharminv3"

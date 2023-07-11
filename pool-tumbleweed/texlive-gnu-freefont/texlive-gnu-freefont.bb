@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.201.svn29349"
 
-RPM_NAME = "texlive-gnu-freefont-2023.201.svn29349-53.1.noarch.rpm"
-RPM_HASH = "012fc3ae549c72d51235cabb5b06497f5dbfa16e30e6cb3e2999239df8b78f9d793b898bf6fce3f1d7870965135bc9bfc2fe7f5f910232f5d5e6572cb6b95980"
+RPM_NAME = "texlive-gnu-freefont-2023.201.svn29349-53.2.noarch.rpm"
+RPM_HASH = "8e46574eab8ab7f3cf8c41ed2dc923edb47be3e0c63f8405250876726a648714ca477b22ac171bbf55d076afde4df0edabc67ed41fd40fa0373a87988c552e80"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gnu-freefont"

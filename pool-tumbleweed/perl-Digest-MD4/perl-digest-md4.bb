@@ -11,14 +11,14 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "1.9"
 
-RPM_NAME = "perl-Digest-MD4-1.9-5.37.aarch64.rpm"
-RPM_HASH = "c619a4dab22802900f451df36809b9845d1464f8d145fc771c6f7d06be506098f1e362803fc2ca266d4ab26dc341bdc851329210b39107f8a7314380b887a49c"
+RPM_NAME = "perl-Digest-MD4-1.9-5.38.aarch64.rpm"
+RPM_HASH = "55c2102e76a0d76615265ced8af1bb6336de1454ab54655889b4d28056760fee1fa3fa1e2d5cfa090de38429dc11140ad5eecb832dc57db013932ddbabba7826"
 
 RPROVIDES:${PN} += "perl-Digest--MD4 \
 perl-Digest-MD4"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

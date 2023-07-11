@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.1.0"
 
-RPM_NAME = "python39-paramiko-3.1.0-1.1.noarch.rpm"
-RPM_HASH = "dfc887f39dc1aee49b322d8b23696051710567d467adb1675891fe38b2a91044cf4174100757349831221a0cd08e3563b4c59955b910721ad6057364fdc32ba6"
+RPM_NAME = "python39-paramiko-3.1.0-1.3.noarch.rpm"
+RPM_HASH = "70e8250e5f475056af7dbe019a038233e5f1ec8db47d1dbdf1080b36f526248b15af029f3c31e30f64319068522c3f2a54dbfe07841d86f25e3cff87a94e285a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-paramiko \

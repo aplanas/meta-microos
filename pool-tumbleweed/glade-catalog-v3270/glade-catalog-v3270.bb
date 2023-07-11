@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "5.4"
 
-RPM_NAME = "glade-catalog-v3270-5.4-1.9.aarch64.rpm"
-RPM_HASH = "c4d0b0104cf97527a529817b9fe88ecfd4c3e06731ff6254416d0da0a27fadad4a8c702a91cf676fa57ade203038897f73cbc492800793b3deab4c3da2e85b38"
+RPM_NAME = "glade-catalog-v3270-5.4-1.10.aarch64.rpm"
+RPM_HASH = "70604bad6f4ac80ad0e1f6fe8cc50fec4ba57a485e84961c18544fcd1f52d4c67e4ffe3d2526822307050d73b37ce7783fb390611f5354dad00a9b952a5ca038"
 
 RPROVIDES:${PN} += "glade-catalog-v3270"
 

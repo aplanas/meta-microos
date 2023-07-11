@@ -7,8 +7,8 @@ LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-
 
 PV = "8.0.2"
 
-RPM_NAME = "qemu-microvm-8.0.2-1.1.noarch.rpm"
-RPM_HASH = "4a12d6e7cf845e07d78ae21d1e5f61bb380db2787f316aa3d7302b23f7ce19673789fddcb2e0d0812b0312cac6dfdb035a728c5ff75692f8eb3e7bf97206b622"
+RPM_NAME = "qemu-microvm-8.0.2-2.1.noarch.rpm"
+RPM_HASH = "2b6ad46b77f86142977ed58c5c84acfcaf35d850fbf770c40196362288ab5d6db686f3a779f140de1f568ba899e6c2f11bc3c87878f0781268be980141c52230"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qemu-microvm"

@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3.21"
 
-RPM_NAME = "openblas-common-devel-0.3.21-5.3.aarch64.rpm"
-RPM_HASH = "ad7f2213881b567861d5222d2617ff22c29c293d5658b2499c60ea23ea29028c55f814cbc48aa5eb618c686fb8bb65546c4d06a5eb8da19c791585f1fbce8e2f"
+RPM_NAME = "openblas-common-devel-0.3.21-5.4.aarch64.rpm"
+RPM_HASH = "113f8525b35472f4b0d5731fb357ba234bb46780a0c0781716a54ea9c54d4584eee535845e4abfa020ebe5fe51199625ff5b8fdee236dadb5a3044b5cedc1f41"
 
 RPROVIDES:${PN} += "openblas-common-devel \
 openblas-devel-headers \

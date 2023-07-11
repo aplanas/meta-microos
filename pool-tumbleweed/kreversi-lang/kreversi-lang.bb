@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kreversi"
 DESCRIPTION = "Provides translations for the 'kreversi' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kreversi-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "27adbad595b4ab27d21d83052790e50648c711c26ac2cbcc332a12750d37ea36ce942c13de20bd089d8d416fc72d1f44b6f352d5d4fb94ffa726d58f2ac30879"
+RPM_NAME = "kreversi-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "5c5b8347e7fab416ff4e6e6c84e6f61462634c60d3c9492d9918fcbd7f20406c7202d3a395edb06367098b7f1428b1cfe845349aae39ee29810b32df5aded8bf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kreversi-lang \

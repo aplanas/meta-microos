@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.2.0"
 
-RPM_NAME = "libkColorPicker0-0.2.0-1.5.aarch64.rpm"
-RPM_HASH = "35366af12a8d623291144eacbd103524d2944723bfcb552f37c27029fc65fa5c308c592781e667501ecc79f8554bea49d139d62cc25b62ace15cc91fb1c7bc87"
+RPM_NAME = "libkColorPicker0-0.2.0-1.6.aarch64.rpm"
+RPM_HASH = "fb543529498dbd649d08918f1c7cbefef2ccb1d0bffc787dbb778e662305a0d791189f96db8a0fcf8339980046d356ee833bc8ec4233eb14cd9c784e6de2059e"
 
 RPROVIDES:${PN} += "libkColorPicker.so.0 \
 libkColorPicker0"

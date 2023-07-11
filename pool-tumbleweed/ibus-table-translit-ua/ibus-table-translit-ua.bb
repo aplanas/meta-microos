@@ -3,10 +3,10 @@ DESCRIPTION = "ibus-table-translit-ua provides Translit-ua input method on IBus 
 IBus framework."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.3.13"
+PV = "1.3.16"
 
-RPM_NAME = "ibus-table-translit-ua-1.3.13-2.3.noarch.rpm"
-RPM_HASH = "5dcf09905b49e9d3331ac79fa38a2cbca12dcd1691cfa6d2d5df68c8955d80c485abe015f935ee03566ac15a91292e087c76726731e7abf46daca6fd26557cc1"
+RPM_NAME = "ibus-table-translit-ua-1.3.16-1.1.noarch.rpm"
+RPM_HASH = "8eab4545f0cac14ce099b29c8cf8b02209df371e5e99c361627692427c8fd042ad7d2588c270660972d33870882f06074a0e9adab1beea314358e1b428321ca7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ibus-table-translit-ua \

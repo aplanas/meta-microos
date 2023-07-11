@@ -18,8 +18,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
 PV = "2.3.1"
 
-RPM_NAME = "monitoring-plugins-tcp-2.3.1-9.4.aarch64.rpm"
-RPM_HASH = "d687ae0d8e21cb477b5ec03412759b70d153e6df46369fe40339a0d479bcef5827b2e9a5a2998319f000e65e7c3c8a150ecda32c37c0febaa9426e5c469de08e"
+RPM_NAME = "monitoring-plugins-tcp-2.3.1-9.5.aarch64.rpm"
+RPM_HASH = "9eadb9067f6f1f5eba4a05c2bf6b42005f93391ef3015484d9592062bb9ffcd6d34d1b77c1a678d36b97586f8438889940fb8bad5500ad687d3fe3608b67762f"
 
 RPROVIDES:${PN} += "monitoring-plugins-clamd \
 monitoring-plugins-ftp \

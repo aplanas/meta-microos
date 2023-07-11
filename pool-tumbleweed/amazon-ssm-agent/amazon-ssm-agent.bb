@@ -17,8 +17,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.2.923.0"
 
-RPM_NAME = "amazon-ssm-agent-3.2.923.0-1.1.aarch64.rpm"
-RPM_HASH = "369bd250c6f16b515f6517cc6fa83dea879cb7aa8d25696ef0c6c4e665140877618b4ab163972017debad6c75b781aa3c166df1fff5524fcb671b8dcfcef86c4"
+RPM_NAME = "amazon-ssm-agent-3.2.923.0-1.2.aarch64.rpm"
+RPM_HASH = "991b8e9a4f1f0741d975cc3a3a2d49d9b792e4799237c39c5aa41b6fd6e8e4c90fd4936b0ecf25608e86abdd554a9ecb63bdd68f8fcd83c4d8fed6fa1252e322"
 
 RPROVIDES:${PN} += "amazon-ssm-agent \
 bundled-golang(github.com/Microsoft/go-winio) \

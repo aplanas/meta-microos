@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "8.4.0"
 
-RPM_NAME = "python39-elastic-transport-8.4.0-4.1.noarch.rpm"
-RPM_HASH = "51125d1894066abdb6778a67ce7a4ce22594749cdd395f05b5a732ce2434f926a10b262c50a62f9a4d9d368e058439ec3228b90e9bc75ecf66fbca2dd856241a"
+RPM_NAME = "python39-elastic-transport-8.4.0-4.3.noarch.rpm"
+RPM_HASH = "f8c9d8b686d16786d699a4f2b37b80b16bf9f9e0afa89d3eb0857298e34f5bc7f85cf04245602eeb3dbb552963f188dbbf97c367597fa35785b7f8ecdb1b882d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-elastic-transport \

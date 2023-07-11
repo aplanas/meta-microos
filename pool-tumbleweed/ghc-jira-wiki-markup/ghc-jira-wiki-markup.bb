@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.5.1"
 
-RPM_NAME = "ghc-jira-wiki-markup-1.5.1-1.3.aarch64.rpm"
-RPM_HASH = "fdddb2983d5e5564745f161bc77114a18c4653571fd67cec71cc59dd7c0d97fa43942513b13e4f67fef39dd735228809345f48a4bdcf34f770eec0532507e07d"
+RPM_NAME = "ghc-jira-wiki-markup-1.5.1-1.6.aarch64.rpm"
+RPM_HASH = "36cbe741ee13d4be4ab9e6f3abfe1565852f567da7d0c20e3e638540ce1ba6b89379f6da3e28ec60b8ff59f1455c12919311c01227c6da36e8c11e383d2274ac"
 
 RPROVIDES:${PN} += "ghc-jira-wiki-markup \
 libHSjira-wiki-markup-1.5.1-7ePG3tP2CY82wODfjMZ5nH-ghc9.4.5.so"
@@ -26,7 +26,6 @@ libHSpretty-1.1.3.6-ghc9.4.5.so \
 libHStemplate-haskell-2.19.0.0-ghc9.4.5.so \
 libHStext-2.0.2-ghc9.4.5.so \
 libHStransformers-0.5.6.2-ghc9.4.5.so \
-libatomic.so.1 \
 libc.so.6 \
 libffi.so.8 \
 libgmp.so.10 \

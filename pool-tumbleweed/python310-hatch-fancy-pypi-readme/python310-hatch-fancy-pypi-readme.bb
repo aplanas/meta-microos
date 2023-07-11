@@ -16,12 +16,11 @@ LICENSE = "MIT"
 
 PV = "23.1.0"
 
-RPM_NAME = "python310-hatch-fancy-pypi-readme-23.1.0-1.1.noarch.rpm"
-RPM_HASH = "339aa95164b07c3d12c824c6ee3e2b7be12c3bc0529dd6938dd6face65235b6710d06f782f44100a233ff129c0373a46a1dd70da0bf1a24c23cae7ca1f403e63"
+RPM_NAME = "python310-hatch-fancy-pypi-readme-23.1.0-1.2.noarch.rpm"
+RPM_HASH = "5ed7d115321c0ba335a585bc2c864fa39e79d0b5e7ffe161a66a76fcd27ff7b36b5a0a7b2e49c67fa42e8028307c7a94b830c23b1d101057a6e09a7dbd697e9c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-hatch-fancy-pypi-readme \
-python3.10dist-hatch-fancy-pypi-readme \
+RPROVIDES:${PN} += "python3.10dist-hatch-fancy-pypi-readme \
 python310-hatch-fancy-pypi-readme \
 python3dist-hatch-fancy-pypi-readme"
 

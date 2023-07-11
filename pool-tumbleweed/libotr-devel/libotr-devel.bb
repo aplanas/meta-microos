@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
 PV = "4.1.1"
 
-RPM_NAME = "libotr-devel-4.1.1-4.2.aarch64.rpm"
-RPM_HASH = "fb1aba15580cb403d822bf487aac8461a80f3d3d5083c08eddac197e2e9fa104b494671a8ffc377ecb2974741b84f28e986ba931360d6944a201e2970b9ba2da"
+RPM_NAME = "libotr-devel-4.1.1-4.3.aarch64.rpm"
+RPM_HASH = "a72bc0dbd3f217d0412d520e629f47d5756a18e463a5b6ea25ccee2e68bbc536e2dba617627ea97fb49e2016bfdff9762b5de1f839636854e32504bfb0bdcdcb"
 
 RPROVIDES:${PN} += "libotr-devel \
 pkgconfig-libotr"

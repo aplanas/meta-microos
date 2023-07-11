@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.7"
 
-RPM_NAME = "python39-blessings-1.7-3.1.noarch.rpm"
-RPM_HASH = "c7c31623c3e4d63363281823f40ab63489f2997ba959641d2ab69faef8b5a6e95c60a782b1453bca71bf4a9ad738d5839f1360de8ce09b2f4b27f8d1ceaebe25"
+RPM_NAME = "python39-blessings-1.7-3.3.noarch.rpm"
+RPM_HASH = "a894501495dc0c63fe78fe51673bb493f5f92ecdf269fa661da19481d760a2d3816e932d66872efc4eaffe90b3e8d121c0839430208e5ce59252a0a8525ff09d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-blessings \

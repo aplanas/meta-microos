@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.1.1"
 
-RPM_NAME = "janus-gateway-1.1.1-1.3.aarch64.rpm"
-RPM_HASH = "b0ed6fdb1e133896f2901995e0aed651beb74dc4a9f1cd149c606509ac4ca0a8a41bc169bfc9adc2546e701a055ed64a819d1310a2814a836702e36f32f5a50c"
+RPM_NAME = "janus-gateway-1.1.1-1.4.aarch64.rpm"
+RPM_HASH = "596cc3e762122ee65d685af08622bca8f71335ddb83abfb36975fde44e4f01f15e01740a3a4d3a9f8c98a22b884b521c940f9956748a8aebacd968847dfc3869"
 
 RPROVIDES:${PN} += "config-janus-gateway \
 janus-gateway \

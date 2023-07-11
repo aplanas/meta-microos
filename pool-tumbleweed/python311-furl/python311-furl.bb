@@ -4,11 +4,12 @@ LICENSE = "Unlicense"
 
 PV = "2.1.3"
 
-RPM_NAME = "python311-furl-2.1.3-2.1.noarch.rpm"
-RPM_HASH = "40a8ad782cb96835c5eb692be70320494331ec5067656d7c654f77eba0aa56f6a76e50afd3839e196f8d4d9ad5c6651b274fa64af8ea463511b1b01ed02acb17"
+RPM_NAME = "python311-furl-2.1.3-3.1.noarch.rpm"
+RPM_HASH = "2eec1b6185092e0b06c96a5db9c3daa1ccffef85e8f66c91517fde229b61a2f926eeb65acabdc421abdc22f1ad8182be048b7c2bc6b2d09a4cc2288d4eda7f48"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-furl \
+RPROVIDES:${PN} += "python3-furl \
+python3.11dist-furl \
 python311-furl \
 python3dist-furl"
 

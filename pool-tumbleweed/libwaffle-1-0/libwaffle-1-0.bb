@@ -10,8 +10,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.7.2"
 
-RPM_NAME = "libwaffle-1-0-1.7.2-1.3.aarch64.rpm"
-RPM_HASH = "f58b55bc7fd32fdc2fa8b02705fa645837ffb1aa3817c5c3368ff61c0d3760825f8a7870cb08308bc69e79e5106d9789e906d74efd6ed9b7372a05d9527b4aa6"
+RPM_NAME = "libwaffle-1-0-1.7.2-1.4.aarch64.rpm"
+RPM_HASH = "1fec34725e6930aee251d3e12f79be99dafb97e0b7180af56f499b6a66b45cd6166f4effa4bce884e37ccb1b53d1cd86b3b249c0033791598e4aea2b3fdf22f6"
 
 RPROVIDES:${PN} += "libwaffle-1-0 \
 libwaffle-1.so.0"

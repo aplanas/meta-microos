@@ -5,12 +5,11 @@ LICENSE = "Apache-2.0"
 
 PV = "1.6.0"
 
-RPM_NAME = "python310-sqlitedict-1.6.0-3.12.noarch.rpm"
-RPM_HASH = "02b7465eeba96966288a628d53a217dd58296a7f40b7c4726437e6c18cb5ba13d7ca6a5d0c95c6aa2998783599035390637040fefd42ee1099079d063ede337c"
+RPM_NAME = "python310-sqlitedict-1.6.0-3.14.noarch.rpm"
+RPM_HASH = "5b12cc871c61f9dce39f254383ad568e6aa4493bda680acd3d19e8da56c8d13640897f8d846515e262ea6e5c3cc29833e0716cc9f799b0e5f31fc4688cbc2b44"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-sqlitedict \
-python3.10dist-sqlitedict \
+RPROVIDES:${PN} += "python3.10dist-sqlitedict \
 python310-sqlitedict \
 python3dist-sqlitedict"
 

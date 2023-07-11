@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.3.6"
 
-RPM_NAME = "qca-qt5-devel-2.3.6-1.1.aarch64.rpm"
-RPM_HASH = "38dd772f8745f6ba736275f6bffc593bb324d774dd91845b4888477d5c5b10474cd773825e1d81b07ef6be9b9bfecafaddf24c8d8109cbbb2b7ffb8bab672a4e"
+RPM_NAME = "qca-qt5-devel-2.3.6-1.2.aarch64.rpm"
+RPM_HASH = "4af30c8354d92e866e422b30af6d24a421f4331c6986fe40739e4b7d9a019d07e5cd6a571e0d52a493c96227c30e254123c45ecf3ebf35950b724e7e0c699c99"
 
 RPROVIDES:${PN} += "cmake-Qca-qt5 \
 libqca-qt5-devel \

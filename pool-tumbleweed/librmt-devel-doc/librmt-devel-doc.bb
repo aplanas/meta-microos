@@ -4,8 +4,8 @@ LICENSE = "CDDL-1.0"
 
 PV = "2022.10.16"
 
-RPM_NAME = "librmt-devel-doc-2022.10.16-47.3.noarch.rpm"
-RPM_HASH = "a29b4dc9c0a900e26749a5cb8a1d2ffa6be9c8add5d90bf46c1f5dd3f515c17fd0b2afa686f12680dd5d53064e5d6e4ab8f5a28ab76b9dd2b3d75526088cdc33"
+RPM_NAME = "librmt-devel-doc-2022.10.16-47.4.noarch.rpm"
+RPM_HASH = "a4bb9ba072bc6cecaccc64b6b82811daad7b259cb023e846c4c5dcce067a3cf403bcef74d7a7014f118dc2fc850ba915c8eb3fd9ef7a3d00b30b2bd84d032e35"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "librmt-devel-doc"

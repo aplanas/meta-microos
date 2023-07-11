@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.20.1"
 
-RPM_NAME = "krb5-plugin-preauth-spake-1.20.1-6.1.aarch64.rpm"
-RPM_HASH = "7efaff1e6b897ab101034bf8146fa9ec590981d1b6608e55b1634fcf0738c19660d742719338cd169409e9d65d584f52f733fa2e407bb9ddcb1da3dec8f7f214"
+RPM_NAME = "krb5-plugin-preauth-spake-1.20.1-6.2.aarch64.rpm"
+RPM_HASH = "6b124b73dbdb7c10f6e96151b004466d6d4f2598646fdebf031a3d2960c80edec388dc48ec5d8029df246201057a6b676538c5c20549379fb013bd2f8f819295"
 
 RPROVIDES:${PN} += "krb5-plugin-preauth-spake"
 

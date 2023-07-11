@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.70.1"
 
-RPM_NAME = "python3-hawkey-0.70.1-1.1.aarch64.rpm"
-RPM_HASH = "ecc3e92ae47f49ebe739e355b4cd398bdde5103e86dac779de7a1768d0c0e77f801d41430ca4813503dc12529e1ab0bc4c7d0a3c72be636c5b705091ac2e3b58"
+RPM_NAME = "python3-hawkey-0.70.1-1.2.aarch64.rpm"
+RPM_HASH = "31a4216373d21681983b8e271ee3ca1dbcb1711fc8a15f8655c3b946a77e117376131a6632bbb81c7b01b963d1f49674f08d8ce676d96dea16055cd7262fdc21"
 
 RPROVIDES:${PN} += "python3-hawkey"
 
@@ -17,7 +17,7 @@ libdnf2 \
 libgcc-s.so.1 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libstdc++.so.6 \
 python-abi \
 python3-libdnf"

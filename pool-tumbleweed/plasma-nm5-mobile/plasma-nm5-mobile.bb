@@ -3,10 +3,10 @@ DESCRIPTION = "KConfig Modules and applets for \
 wireless connectivity on Plasma Mobile."
 LICENSE = "(GPL-2.0-only | GPL-3.0-only) & (LGPL-2.1-only | LGPL-3.0-only)"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "plasma-nm5-mobile-5.27.5-1.1.aarch64.rpm"
-RPM_HASH = "e0da3c3d47aad83cc5b091eeb08d75b1f15b278654fd5abcb7fa9e4f4b54bc0132bac780a0864b71698df7009935ef07567e81ea6a85d3c2036db7e906bf59c2"
+RPM_NAME = "plasma-nm5-mobile-5.27.6-1.1.aarch64.rpm"
+RPM_HASH = "564c4fc176ed3efb9e2813c938683fda0660432533ae6deb11486916b69a857162999a5900080df5c13ab4d2e9319fb2f3f500f1fa02333811a8e8bcccd4d6f0"
 
 RPROVIDES:${PN} += "plasma-nm5-mobile"
 

@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "9.2.0"
 
-RPM_NAME = "python311-jaraco.packaging-9.2.0-1.1.noarch.rpm"
-RPM_HASH = "aea8bf3cabd8abfa62bf3cc841af81077537ab429674fff530f52c4e4e82e486a4adfd446148839ced241b2312795535a83eaef880841a58e868bdbbc1b62485"
+RPM_NAME = "python311-jaraco.packaging-9.2.0-1.3.noarch.rpm"
+RPM_HASH = "4bea6b832e9f08023e6746d180436ddf9e6b07655ff9e315019e39db426e03a7d11ecf1d9e0f4bd938e191898f56872191e67f1242ae6351a97c5381aecc09ab"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-jaraco.packaging \
+RPROVIDES:${PN} += "python3-jaraco.packaging \
+python3.11dist-jaraco.packaging \
 python311-jaraco.packaging \
 python3dist-jaraco.packaging"
 

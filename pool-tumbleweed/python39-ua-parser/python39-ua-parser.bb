@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.16.1"
 
-RPM_NAME = "python39-ua-parser-0.16.1-1.3.noarch.rpm"
-RPM_HASH = "fc0fec693005f218221f0fa73e02aabcc74adc74992c66798561b3025bbff822ae78d62aff2f363bd77bc23904472361953eb1f95c8cd698f892da53dcbdd748"
+RPM_NAME = "python39-ua-parser-0.16.1-1.4.noarch.rpm"
+RPM_HASH = "4bbf26e533832f296dd623b1593be547f0136a3bd95bd0dc3ac8da73691cd7f2eee043b19de70d64029bf7e802d64d681f74303bebd462ba13f4012f815cb607"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-ua-parser \

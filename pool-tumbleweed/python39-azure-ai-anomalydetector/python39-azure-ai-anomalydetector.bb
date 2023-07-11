@@ -4,10 +4,10 @@ DESCRIPTION = "This is the Microsoft Azure Cognitive Services Anomaly Detector C
 This package has been tested with Python 2.7, 3.5, 3.6, 3.7 and 3.8."
 LICENSE = "MIT"
 
-PV = "3.0.0b5"
+PV = "3.0.0b6"
 
-RPM_NAME = "python39-azure-ai-anomalydetector-3.0.0b5-1.3.noarch.rpm"
-RPM_HASH = "e332bc2aace09270faf7d3be8a6b0b40e9e31a34a133274b09eab8746db70c083931cb074730c7ad9d98f29fa217832de257133dfe6db8cb1848fc29b8593227"
+RPM_NAME = "python39-azure-ai-anomalydetector-3.0.0b6-1.1.noarch.rpm"
+RPM_HASH = "e600b92b5ffe6062d29533caa9fc1d71c3ce99ed4173ab068c517f466b194b3e710530ce8e4f08fe01eef869c23889547e633eff736d054a787854995b3760d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-ai-anomalydetector \
@@ -18,6 +18,6 @@ RDEPENDS:${PN} += "python-abi \
 python39-azure-ai-nspkg \
 python39-azure-common \
 python39-azure-core \
-python39-msrest"
+python39-isodate"
 
 inherit rpm

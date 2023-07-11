@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.3.6"
 
-RPM_NAME = "python-PyQRCode-doc-1.3.6-4.1.noarch.rpm"
-RPM_HASH = "6a4ec60e1a396ef9c83be0ea56fbdfa0a82af3d92064c8952977906113b8e2ee74c5becef0bbc32de5431e7f413a87cee0ced7a1c9dcd4dd03a4a1b1725c5ab0"
+RPM_NAME = "python-PyQRCode-doc-1.3.6-4.3.noarch.rpm"
+RPM_HASH = "7d39fe0a736365ff0516325d5c12a0cd4c986a0b408146013e20ba14dac9a85f2a2fd850724f35d81ef0fc5eed84e4f2e958d89635fccbcff539c883786a93bc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-PyQRCode-doc"

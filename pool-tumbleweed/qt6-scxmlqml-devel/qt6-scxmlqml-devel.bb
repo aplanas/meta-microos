@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-scxmlqml-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "dfed5684a5aaafb78ca931f53c99470138faf8fb23d2f79743182f8725eef265ddcad03672cb897e7e108234ea6a716310755a619ec1f7442ba0321e6ab4048c"
+RPM_NAME = "qt6-scxmlqml-devel-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "4c78b011b32e83d3534cc3a015c955e9a0e1c99d1c5f9bd86e76d410c6190d6755f2052c1f27c65ce2ba2d47de54788ebcbadf92aab649b614a6d2aad8c1f6b2"
 
 RPROVIDES:${PN} += "cmake-Qt6ScxmlQml \
 pkgconfig-Qt6ScxmlQml \

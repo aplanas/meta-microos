@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.6.3"
 
-RPM_NAME = "apr-util-devel-1.6.3-1.2.aarch64.rpm"
-RPM_HASH = "921a06a4ee4e8b9a34095d7a3cfd8e5b613abe9ade6b5ddab56ee5c9856b30b00909e6399f8558d5d64f0079e2c4687c5d98fe3b9b841772813d48147bc5b7f1"
+RPM_NAME = "apr-util-devel-1.6.3-1.3.aarch64.rpm"
+RPM_HASH = "896f24c7146a52d09d53a6ff7ee0174f8075002d62d1cf6195615286eb26d6cb35aa3f34dd3cf2a0e4b7c50b45187d25edb25e12dbdc4d5a5729ccbb3d4e118f"
 
 RPROVIDES:${PN} += "apr-util-devel \
 libapr-util1-devel \

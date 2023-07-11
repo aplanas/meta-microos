@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.4.1"
 
-RPM_NAME = "python310-pytest-datadir-1.4.1-1.1.noarch.rpm"
-RPM_HASH = "44add1a071f2dc75fa06f1b81bdbf071dcb0fd1d34fceadcdbc8983370596c6731002144b16df8f36ddfa3a060b790c14aad5317951db3f4a7f340d5c8d02627"
+RPM_NAME = "python310-pytest-datadir-1.4.1-1.3.noarch.rpm"
+RPM_HASH = "3871e38565f3d3c874c9688a8cf0b24c41b87b2fcc733e7bc00c4434d4034df05d86bf324c0df6965cbc615035322da474d9082e4b07365b6e13393b4c8cca74"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pytest-datadir \
-python3.10dist-pytest-datadir \
+RPROVIDES:${PN} += "python3.10dist-pytest-datadir \
 python310-pytest-datadir \
 python3dist-pytest-datadir"
 

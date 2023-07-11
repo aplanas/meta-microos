@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "0.5.3"
 
-RPM_NAME = "python310-socketpool-0.5.3-9.10.noarch.rpm"
-RPM_HASH = "3d0a71068f4e0cc52b61d3babcd700e5bcef8925b378489102acec04d8ae1b6410fb5c014d19b6f58cf59c30733ad467f58bf796ec0fc4df058f278dddd16a93"
+RPM_NAME = "python310-socketpool-0.5.3-9.12.noarch.rpm"
+RPM_HASH = "2892f7104b6dfd83ba29c6286b8bdee3b13a17376a6fbb6c8c6705706bf5e643d526065bf9a03ed7c9c6e0bcb2ea42d46437e47cf5c9e5bf673be4f166e02e4f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-socketpool \
-python3.10dist-socketpool \
+RPROVIDES:${PN} += "python3.10dist-socketpool \
 python310-socketpool \
 python3dist-socketpool"
 

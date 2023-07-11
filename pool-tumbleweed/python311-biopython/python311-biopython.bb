@@ -5,10 +5,11 @@ LICENSE = "BSD-3-Clause & MIT"
 
 PV = "1.81"
 
-RPM_NAME = "python311-biopython-1.81-1.5.aarch64.rpm"
-RPM_HASH = "c8095d04e2ac993ce1efa15002875a987e68798c202daf549c6e33285aa7b6bf7bd41ef89637b53b2a1be3843e806d0f5a7963c640ab60c0b880cdcc87a6620d"
+RPM_NAME = "python311-biopython-1.81-1.7.aarch64.rpm"
+RPM_HASH = "edc36a4592ee6dd482c5567a67f3f6902c1c3024770705376f24d958e23d6e5b75c73739e11c497cc7b25c79efe1ffff1e4e0ae8fc3f004480db07385c6caa92"
 
-RPROVIDES:${PN} += "python3.11dist-biopython \
+RPROVIDES:${PN} += "python3-biopython \
+python3.11dist-biopython \
 python311-biopython \
 python3dist-biopython"
 

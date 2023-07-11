@@ -4,8 +4,8 @@ LICENSE = "Zlib"
 
 PV = "2.6.4"
 
-RPM_NAME = "nunit-devel-2.6.4-4.18.aarch64.rpm"
-RPM_HASH = "ddfeb1326a8ab006c91f60dd4a8c0d1de8b18f5fd152e54567bf5e016a8ca82280c9201b62228dd4f684f239806939f70779fe8540271b46b3c783a930b68560"
+RPM_NAME = "nunit-devel-2.6.4-4.19.aarch64.rpm"
+RPM_HASH = "c95fe73854ed399c0e04d2e637766e39db59dfcd7022ad9ae0ee71b0665ea5991fee1df20ff6c68d81851430905db96d8fbf0e885eac13a3304f43c98ad510fd"
 
 RPROVIDES:${PN} += "mono-nunit-devel \
 nunit-devel \

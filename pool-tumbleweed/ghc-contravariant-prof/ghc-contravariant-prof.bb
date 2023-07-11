@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.5.5"
 
-RPM_NAME = "ghc-contravariant-prof-1.5.5-2.3.aarch64.rpm"
-RPM_HASH = "7879a9252692b70154590a1c07789c7efd6ea70426672bcb5ce39c72f66305da5a4abb18a58f3397abdcaa6b069784bbe0d9d1ca3099d55bf7bc0ec482fa88e5"
+RPM_NAME = "ghc-contravariant-prof-1.5.5-2.6.aarch64.rpm"
+RPM_HASH = "94d9e7e0631e00158bf4a12a6e41d7dc0d8dbae44ed1640d3d701895051025b3dbbd139110859c66bf820655a976d14c97f4bd6f6c29913d86d73518dcd37a3c"
 
 RPROVIDES:${PN} += "ghc-contravariant-prof \
 ghc-prof-contravariant-1.5.5-K71YSUvfKnA5wfNaE05Lao"

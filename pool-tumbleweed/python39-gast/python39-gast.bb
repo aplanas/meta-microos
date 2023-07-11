@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.3"
 
-RPM_NAME = "python39-gast-0.5.3-2.1.noarch.rpm"
-RPM_HASH = "59f4af76cc5a2033f5dccbbcdb1ec92a80a09f8c106a46f18ff09d5d1008d0030e103842c3df17a5ce86b918a59dc14e3c667c4b8a82ebbb01933ceb1b98dd0c"
+RPM_NAME = "python39-gast-0.5.3-2.3.noarch.rpm"
+RPM_HASH = "7be3194be24ffdde3eb8a441c7fafaf519816c130542c426a55ab7c6eb3615887d248c2b24f37bf9f75438331a689be061cafe28edfa6e58056b6050c990c132"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-gast \

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "12.3.0+git1204"
 
-RPM_NAME = "cross-mips-gcc12-icecream-backend-12.3.0+git1204-1.1.aarch64.rpm"
-RPM_HASH = "7f642ec3236dd70d09fb196677ad618894ba99cc129bad1f92b21e809836a1424b670d6621c3293080caf175717cee7771b2507e96b155661062de0d66b08d27"
+RPM_NAME = "cross-mips-gcc12-icecream-backend-12.3.0+git1204-1.2.aarch64.rpm"
+RPM_HASH = "3158c647a4536b95e17dcd93a62ac8e787d8efede69e56134fb4797554d35aa137f9f4f6b250ffaa44a475945079ff48602fa3f1d9e0f2ab2eb60627e6fe94b5"
 
 RPROVIDES:${PN} += "cross-mips-gcc12-icecream-backend"
 

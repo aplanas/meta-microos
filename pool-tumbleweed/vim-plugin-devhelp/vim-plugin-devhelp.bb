@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "43.0"
 
-RPM_NAME = "vim-plugin-devhelp-43.0-2.1.aarch64.rpm"
-RPM_HASH = "e8da2b8ed5340d894a30648965ca73cd14390887c69890a17b570c58d8b28485fac7505d7036345f7551d25992b5dc0e143ae037bc8f6852d9899350d9b3ef95"
+RPM_NAME = "vim-plugin-devhelp-43.0-2.2.aarch64.rpm"
+RPM_HASH = "d53c5d33b7cfd7c280b5fa5aff25a72ef28ffbc0136d34318818e08ea3aa0e9de13f3804f770918fae8058719867767af23cbdf7c22f879c44741afac9dccd6d"
 
 RPROVIDES:${PN} += "vim-plugin-devhelp"
 

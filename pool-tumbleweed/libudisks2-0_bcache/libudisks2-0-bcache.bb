@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.9.4"
 
-RPM_NAME = "libudisks2-0_bcache-2.9.4-6.3.aarch64.rpm"
-RPM_HASH = "a83f36fd6a46798855be2e641fc8357d71995e70471711f8aeaff424d316161f9df667f524c20cabf80f050ae60e0cabbd741b65bca00a24df1b40170e8b9ce6"
+RPM_NAME = "libudisks2-0_bcache-2.9.4-6.4.aarch64.rpm"
+RPM_HASH = "eebe55da4cc80703af25c14e05120c9e787320535cc3bdaadaab8bc5be742e409ac6b9868b922006930d1cf4cb03ce5f9a196f07fad7365e9db0328a057f30cf"
 
 RPROVIDES:${PN} += "libudisks2-0-bcache \
 libudisks2-bcache.so"

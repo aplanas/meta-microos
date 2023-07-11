@@ -5,8 +5,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-cpuload-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "1b465d19f8c348ae5b63416df7a20a275ab4a5a852c706bd7858ed286e479a10c635e862ddcb4f0cf7dbb7b540b6b6e4279d09b6b724d4fc87a10b6277549f67"
+RPM_NAME = "leechcraft-cpuload-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "86236eda57662139fd56d81c2bea4079aacdd6b65e6fc1178a8f1bbe775cd072b6ea869716372daeabdfff95b15e36346f5024179a19fa38c25423b3da4ff2b6"
 
 RPROVIDES:${PN} += "leechcraft-cpuload \
 libleechcraft-cpuload.so"

@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "1.5.4"
 
-RPM_NAME = "libXfont1-1.5.4-2.24.aarch64.rpm"
-RPM_HASH = "dc07a53d3acec463e14854309b7f0bc72689b10087ccd02755e2027a02de954c1adc16aaf969eb9590870d6cfba4fa59767dd175e7b1c759b44549fc6937e5c4"
+RPM_NAME = "libXfont1-1.5.4-2.25.aarch64.rpm"
+RPM_HASH = "2b3e731cefbcc10a59946b6ca2bad55c5eb434cf89ce5eb673a2489246b96a2b46ff5af5c13dab9b9734bbce28957ed35603d8d79442d04039efb71734e53c8b"
 
 RPROVIDES:${PN} += "libXfont.so.1 \
 libXfont1"

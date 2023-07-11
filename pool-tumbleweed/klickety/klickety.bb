@@ -2,10 +2,10 @@ SUMMARY = "Strategic board game"
 DESCRIPTION = "Klickety is an adaptation of the Clickomania and SameGame games."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "klickety-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "14ea46155abea6f74febde5f95160f7ef091f0e43fc9c10b5fa01eafb7a317726960c4a7d5e0708b0905e07262ede5b7df1e79d59ea8e016af97b143c72a159f"
+RPM_NAME = "klickety-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "716823f4dbf1afe8f8642b64437ead03aa0bc6fbeed3b00daa7861e73178b38e014ae3ebebf4535ea576445fdb64566af73067e36e26440b1df0f9faba2296a2"
 
 RPROVIDES:${PN} += "klickety \
 klickety5"

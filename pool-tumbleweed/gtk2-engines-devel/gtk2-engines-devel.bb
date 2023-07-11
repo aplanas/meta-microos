@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "2.20.2"
 
-RPM_NAME = "gtk2-engines-devel-2.20.2-19.42.aarch64.rpm"
-RPM_HASH = "c133796eea0e5a5ea9bb66e43e1a9b61d79cf9620b5e454330d483ac4b55ebac588ff0ce429bde1cd6d109e843981d91af955de9782f7fb1a1d1f305d61d6e82"
+RPM_NAME = "gtk2-engines-devel-2.20.2-19.43.aarch64.rpm"
+RPM_HASH = "f6dffaba7f0a807baa6efbf598a4a00894ee70cc1b152f5a6ee2b52dac92b17675c928cd9ea5d92e4f4e734a4a7cdb2244c413698d50a60c54b32d0950833a66"
 
 RPROVIDES:${PN} += "gtk2-engines-devel \
 pkgconfig-gtk-engines-2"

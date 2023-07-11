@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.3.0"
 
-RPM_NAME = "qtermwidget-qt5-data-1.3.0-1.1.noarch.rpm"
-RPM_HASH = "e629ce9073f96021194a5487e14136668874c18532e852f1875ebbb01632bb748915f8e22e914f9b272c30d1d8cfcb13a188c80ac7d0eb8ad5307798affe61fc"
+RPM_NAME = "qtermwidget-qt5-data-1.3.0-1.2.noarch.rpm"
+RPM_HASH = "8a171565da9c2d3a92581f03cb0f282b6109ce27dd43f6f348fff43734f4b2e5dda1cd686bd7e62bb63f6a43c4b99f100e7c497971ec55f0f6e0036faadf6c99"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qtermwidget-qt5-data"

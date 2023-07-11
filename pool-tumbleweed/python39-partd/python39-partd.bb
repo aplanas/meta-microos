@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.0"
 
-RPM_NAME = "python39-partd-1.3.0-1.3.noarch.rpm"
-RPM_HASH = "db6dcacea99b9720d016d4278a7d497ebdb472aa91fc36f6041a8bfc516f2196c43afa302f2a32d8554ec1f4a9f7f8f0f9fd2286492734477261d1f8f882a597"
+RPM_NAME = "python39-partd-1.3.0-1.5.noarch.rpm"
+RPM_HASH = "0621abc484fdbc7229887ce1a9bed3755e5b9b04925f32196127411282687255e971e75283395e9a4644efc97682baa05c1f4431af54b0ad33933af91ff77e0a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-partd \

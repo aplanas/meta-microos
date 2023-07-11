@@ -2,10 +2,10 @@ SUMMARY = "Hungarian localization files for LibreOffice"
 DESCRIPTION = "Provides Hungarian translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.1"
+PV = "7.5.4.2"
 
-RPM_NAME = "libreoffice-l10n-hu-7.5.4.1-1.1.noarch.rpm"
-RPM_HASH = "156bab533f271cd4a33ce46b03f4961ea1869b9874a967555330ddeb1f802cde50057aa7917564ca9c76b4d6c98146d6c875beb763c6a0b89f9824a2b673862d"
+RPM_NAME = "libreoffice-l10n-hu-7.5.4.2-1.3.noarch.rpm"
+RPM_HASH = "0ec184f5df307e2058c3e0d5df07e322e97b9b8d374cfb2eb7745bfc48295db37be039db3d873dc1b02da0b821b34f9a39fc5bdaeabcf8ca71ec5c5890e8837b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-hu \

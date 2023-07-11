@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.9.2"
 
-RPM_NAME = "python310-intervals-0.9.2-1.5.noarch.rpm"
-RPM_HASH = "47002e6b122173c0ec1ea1ea5cd70b12ab284c40607f276bc24e0ecc752a50c9518f9d28a52fefb68ee3c8092dd73d68531d7fab80af85dae410c62898ad8bf0"
+RPM_NAME = "python310-intervals-0.9.2-1.7.noarch.rpm"
+RPM_HASH = "e258ec65f8faed47cc07317dcead293d56da7bc218b0e9d28309b992a10634d9491f05129574dddda9772acdca6c4ad6b5512c3a213a9bedac9372f566e589bb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-intervals \
-python3.10dist-intervals \
+RPROVIDES:${PN} += "python3.10dist-intervals \
 python310-intervals \
 python3dist-intervals"
 

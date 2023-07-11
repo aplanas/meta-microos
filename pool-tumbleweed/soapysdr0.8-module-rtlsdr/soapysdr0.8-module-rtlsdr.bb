@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.3.2"
 
-RPM_NAME = "soapysdr0.8-module-rtlsdr-0.3.2-2.8.aarch64.rpm"
-RPM_HASH = "e06e1027bcd5dbb1d002064e0219750d49871753b5d73bb2c071da12143add0f3e38fd0633682199536ffbf28f99cc5b5987c9577cb7b701122ffa6e86d8de5e"
+RPM_NAME = "soapysdr0.8-module-rtlsdr-0.3.2-2.9.aarch64.rpm"
+RPM_HASH = "201707966c0a431ab9cc51e2136814657383c4bc4822e815dfa25bbfb67c17174ea95d3e268211d03ec3cbfd7c183160ac119ad96d5baa2a75e89f657646fb03"
 
 RPROVIDES:${PN} += "librtlsdrSupport.so \
 soapysdr0.8-module-rtlsdr"

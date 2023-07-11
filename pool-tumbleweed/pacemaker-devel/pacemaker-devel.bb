@@ -6,10 +6,10 @@ The pacemaker-devel package contains headers and shared libraries \
 for developing tools for Pacemaker."
 LICENSE = "GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "2.1.5+20230320.22590c566"
+PV = "2.1.6+20230524.6fdc9deea"
 
-RPM_NAME = "pacemaker-devel-2.1.5+20230320.22590c566-1.1.aarch64.rpm"
-RPM_HASH = "3e41314dc774f85f33f88f08c87cebaae0bf9999dbc6904eeca857082715fbe3d0548d3fbf8b9c850c76e1438b018b2029a9b6d1bc1c7e60bf16d1b4396b37ff"
+RPM_NAME = "pacemaker-devel-2.1.6+20230524.6fdc9deea-1.1.aarch64.rpm"
+RPM_HASH = "ddbaf88ec7e03ec864a1f383f56046b22d22f621a47ff39014c3a1b3dac82c03f832cf799ea2a36530dbad8cb722e625e1cca527d551005750f8ed1c0c64b89f"
 
 RPROVIDES:${PN} += "libpacemaker-devel \
 pacemaker-devel \

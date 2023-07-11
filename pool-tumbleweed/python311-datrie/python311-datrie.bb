@@ -4,10 +4,11 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.8.2"
 
-RPM_NAME = "python311-datrie-0.8.2-3.11.aarch64.rpm"
-RPM_HASH = "5c1572c6cb7aa47c37264b08c7322abb64ea751fb69932e1b52a4bce02be9be6a40fc9529288e732bb244b4d45add5bb0c29380578057ec08ebd18659dcc383b"
+RPM_NAME = "python311-datrie-0.8.2-3.13.aarch64.rpm"
+RPM_HASH = "53b7b2e1bfa33b0161988d61d1a0ffa288ba243bfb75ae733d63ce697574046a448eb1f9e9e9608955334838390875d15315f435f958d11ab94150d56abe2279"
 
-RPROVIDES:${PN} += "python3.11dist-datrie \
+RPROVIDES:${PN} += "python3-datrie \
+python3.11dist-datrie \
 python311-datrie \
 python3dist-datrie"
 

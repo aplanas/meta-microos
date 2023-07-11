@@ -13,12 +13,11 @@ LICENSE = "MIT"
 
 PV = "2.2.1"
 
-RPM_NAME = "python310-backoff-2.2.1-2.1.noarch.rpm"
-RPM_HASH = "b01ad56e61a83d24155dae54620cbe45182d5b6078390096567f60ef72e6f5962fb1ebdb4b5672f066514db73a362577bbd7dfa28b7c639dcd9cd8de29d09506"
+RPM_NAME = "python310-backoff-2.2.1-2.3.noarch.rpm"
+RPM_HASH = "bc184472dec1f2b046a3b85d4c1b2e606e058e836553ac49f8ef163c54ccbb0f000d5709080636b934f7bd54cf802cb024ce09a967ce1cfaa7712f2bfb0a0bf9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-backoff \
-python3.10dist-backoff \
+RPROVIDES:${PN} += "python3.10dist-backoff \
 python310-backoff \
 python3dist-backoff"
 

@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.8.0"
 
-RPM_NAME = "libosmoisdn-devel-1.8.0-1.1.aarch64.rpm"
-RPM_HASH = "9747363db92efc7f8090b15db47817098a7a00a9713354ebd347fb99369164a8b0ea9739fc8de6a9ed7eaad4a157018e5d9ef8be106b6008b8a46894602fde8f"
+RPM_NAME = "libosmoisdn-devel-1.8.0-1.2.aarch64.rpm"
+RPM_HASH = "0175dced96887f66f1c85f983a75154902ed49e114a344f09938c58248b9cb3a30851362f9b6f18175287ab183239e85b8e33c0ee124dd6e97935f321dc1b051"
 
 RPROVIDES:${PN} += "libosmoisdn-devel \
 pkgconfig-libosmoisdn"

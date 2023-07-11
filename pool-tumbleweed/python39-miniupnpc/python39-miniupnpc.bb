@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.2.4"
 
-RPM_NAME = "python39-miniupnpc-2.2.4-1.4.aarch64.rpm"
-RPM_HASH = "a592f683a8bf4035cc75cfee4e14267ef3b68a7b1c5171c74b920b05553c02d3cfb8ee02e2b8ed8737ae38daf1f3d0a7ee64353a0d5a2ce32d570012f88de5fd"
+RPM_NAME = "python39-miniupnpc-2.2.4-1.6.aarch64.rpm"
+RPM_HASH = "f6b71ec622a5afd3765054de8563ba3c6775f31f1b4a069d6d3ff11e3d1475cd6fb08b302388c728dcca3f7ac80338cd8dae66b42df4b19c32f8060c1de0f9e3"
 
 RPROVIDES:${PN} += "python3.9dist-miniupnpc \
 python39-miniupnpc \

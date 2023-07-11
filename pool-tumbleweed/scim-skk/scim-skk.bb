@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "0.5.2"
 
-RPM_NAME = "scim-skk-0.5.2-318.29.aarch64.rpm"
-RPM_HASH = "c9158fe6ad21bc474b0399de3489da3892e99c16a3bbf8ca69b08d78a48d449a408d0b9cdd11b111025f92df085f2c9a4f50f4a34fda65fd8a180fabfc99ea35"
+RPM_NAME = "scim-skk-0.5.2-318.30.aarch64.rpm"
+RPM_HASH = "9829a5aaeb0644defb72a6c0454514aaaf21327571e7fba7a1aa1f49541716a4e8db71ddaa5cdc2f2fdae6e75abcd3b7e655cbef9d38eb236c5a18bf337069f3"
 
 RPROVIDES:${PN} += "scim-skk"
 

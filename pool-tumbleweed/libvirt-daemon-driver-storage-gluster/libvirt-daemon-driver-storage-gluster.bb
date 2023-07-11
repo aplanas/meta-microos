@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "9.4.0"
 
-RPM_NAME = "libvirt-daemon-driver-storage-gluster-9.4.0-1.1.aarch64.rpm"
-RPM_HASH = "79c961be7a37897d44a20abe855f4ac5ff95ab06e4207daa53074484b3e09fb43b3706c4e809d883f11878ddb507c05a504891b1bb29bd2ae0a34ad68fd03fa5"
+RPM_NAME = "libvirt-daemon-driver-storage-gluster-9.4.0-3.1.aarch64.rpm"
+RPM_HASH = "ec736e28c7dd804d2ed38c389e441ce98c635975647a805e0068fdca53337aeca1f116d0724366cc4a68a841c9a09cde42751ce31b1e1f5278114729e5bd873a"
 
 RPROVIDES:${PN} += "libvirt-daemon-driver-storage-gluster \
 libvirt-storage-backend-gluster.so \

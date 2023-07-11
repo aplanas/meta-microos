@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.4.4"
 
-RPM_NAME = "liblasem-0_4-4-0.4.4-2.15.aarch64.rpm"
-RPM_HASH = "5cd38b52763500d84697e7d416c8d7a519f6af36c9fd7ed8286d2e760b839a0b007fe0b319611f14aa85b336b3756c51c83c5889095ec53471cb86cd74597d22"
+RPM_NAME = "liblasem-0_4-4-0.4.4-2.16.aarch64.rpm"
+RPM_HASH = "4718507e305e9ebc93fb104f562c26ab26efe0f5e2bc5d4106ae619a7fa6f87b76524cdb29f53cd51221cf8b6e3da15cd1a790547324e4a82c9b8983d48b55d4"
 
 RPROVIDES:${PN} += "liblasem-0-4-4 \
 liblasem-0.4.so.4"

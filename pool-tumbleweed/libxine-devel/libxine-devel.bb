@@ -24,8 +24,8 @@ LICENSE = "GPL-2.0-or-later & SUSE-Public-Domain"
 
 PV = "1.2.13"
 
-RPM_NAME = "libxine-devel-1.2.13-2.2.aarch64.rpm"
-RPM_HASH = "6e872823050a65718495b3934755faa2ef039de48d05b9f3ecb08b03d3293f1f5807352e80cfcbbf8cd7bdaa6ec9667623f7fb46c100ed5755edb5d80b909788"
+RPM_NAME = "libxine-devel-1.2.13-2.3.aarch64.rpm"
+RPM_HASH = "7ac24ad80b27c18024db3277357a3ebb2fd6a188306e18951c477a59735f70f8066648a2a59b4284e437c7243fcff62d3238dbc2270caadf0fabbb5df09efecb"
 
 RPROVIDES:${PN} += "libxine-devel \
 libxine2-devel \

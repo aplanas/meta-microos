@@ -11,8 +11,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.13.0"
 
-RPM_NAME = "libaugeas0-1.13.0-2.1.aarch64.rpm"
-RPM_HASH = "2a52eb00b1afdb804b28e30e120557b62ef80d1d7944ba2b61dadacee9dfbe4fad8a82fa19b1065659c2014323fa34bebd27db85c008feea63e0e721c19cf962"
+RPM_NAME = "libaugeas0-1.13.0-2.2.aarch64.rpm"
+RPM_HASH = "22bd44ad11b191233c9dbf13b1dd591dbb6559f0455afb143634cba4237bbe9d8d94fe689ebbfbc9bb1b5e28e7876e0c1f0278460f162690c9f5042db5418fa3"
 
 RPROVIDES:${PN} += "libaugeas.so.0 \
 libaugeas0"

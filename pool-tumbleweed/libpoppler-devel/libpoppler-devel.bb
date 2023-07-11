@@ -3,10 +3,10 @@ DESCRIPTION = "Poppler is a PDF rendering library, forked from the xpdf PDF view
 developed by Derek Noonburg of Glyph and Cog, LLC."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "23.05.0"
+PV = "23.06.0"
 
-RPM_NAME = "libpoppler-devel-23.05.0-1.1.aarch64.rpm"
-RPM_HASH = "452709dfa6b983db01c010a6b8ff09d55e32547d6141dfc95083985469b2638089689ffb91d7a9909a70ad71e05088bdf4fc783bb5feb007768edce8800138a7"
+RPM_NAME = "libpoppler-devel-23.06.0-1.1.aarch64.rpm"
+RPM_HASH = "0ebad259f0c21c92162c3bedfa28b37516b5ebaf0291c5666f25a042ae3385fbf0fc25d1c52cf16909916d2cba0a92766f2cb3e5213a406ff3eee162b59e759f"
 
 RPROVIDES:${PN} += "libpoppler-devel \
 pkgconfig-poppler \
@@ -15,7 +15,7 @@ pkgconfig-poppler-cpp"
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libboost-headers-devel \
 libpoppler-cpp0 \
-libpoppler128 \
+libpoppler129 \
 libstdc++-devel"
 
 inherit rpm

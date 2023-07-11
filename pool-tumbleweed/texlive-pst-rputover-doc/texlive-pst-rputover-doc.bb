@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.0svn44724"
 
-RPM_NAME = "texlive-pst-rputover-doc-2023.201.1.0svn44724-53.1.noarch.rpm"
-RPM_HASH = "1b2f6e0f90833b1f7599f209fcdd684a12e3b7394a688b5558882230379e71358ba0e65a446decc054147b11e03f9b8725580761d36c86444e44a8ea27e50476"
+RPM_NAME = "texlive-pst-rputover-doc-2023.201.1.0svn44724-53.2.noarch.rpm"
+RPM_HASH = "c31f3d567253a65fba39ce5d0dd92a78836f1b84e40d6655adfbcd8d881ebb442292719a641c4fcc876165cc7d821a2301cf46e08e41bc11d15c114fbaf5f878"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-rputover-doc"

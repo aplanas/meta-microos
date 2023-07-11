@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "13.5.3"
 
-RPM_NAME = "libOgreTerrain-devel-13.5.3-1.5.aarch64.rpm"
-RPM_HASH = "3f1f5e7abca132ba5a22e51ecc03173491cd389a404aa5ff0879c855a00149d25a9ddde3b57727242a786a158739e0c8d9dc4b00578248405dfc2747a7448754"
+RPM_NAME = "libOgreTerrain-devel-13.5.3-2.2.aarch64.rpm"
+RPM_HASH = "4fac9fc9d0f69933038b97e4a676125d6e1a009aa0e7e230383d466b232a855328004a72e105349ae5df406b20d9d277be41a8f7b9a36137463312a747820c73"
 
 RPROVIDES:${PN} += "libOgreTerrain-devel \
 pkgconfig-OGRE-Terrain"

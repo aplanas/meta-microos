@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "2023.4.21"
 
-RPM_NAME = "python310-sphinx-inline-tabs-2023.4.21-1.1.noarch.rpm"
-RPM_HASH = "4c77a72edc49e04ac599c4e1c4f1d069a10e797656d90d77bebeb86e3736dc10b9a7c3c2aedc8faf62dcf4cabf8f74504f9ab2063c16cd3a71d170adf44e8d0a"
+RPM_NAME = "python310-sphinx-inline-tabs-2023.4.21-1.3.noarch.rpm"
+RPM_HASH = "286fdfbfe4b71e503fd9707c30eb353e70c5227f739466fbe15bae1dde59f328b891787ef445274b5423bbabe7e64a8f87d840eacacc81a9df4f6fca0a04ae72"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-sphinx-inline-tabs \
-python3.10dist-sphinx-inline-tabs \
+RPROVIDES:${PN} += "python3.10dist-sphinx-inline-tabs \
 python310-sphinx-inline-tabs \
 python3dist-sphinx-inline-tabs"
 

@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.2.4"
 
-RPM_NAME = "xviewer-3.2.4-1.7.aarch64.rpm"
-RPM_HASH = "8791d24584347ec36764ca0ea98ad421d8daad1addfd8c0d857c5196255f2b0fe960ac087484b74d5fa5faf8231d0ed830c5c802ffe4b8258fbf70f06b302262"
+RPM_NAME = "xviewer-3.2.4-1.8.aarch64.rpm"
+RPM_HASH = "2ed88f5fe5071cb951349e15c2fdbfcf9e1bc7c19ef8f5eaf3bb60f6f5fd5ba72e7840cf016b9756d90630bc8739ae6ba8d687cf60dddf84fdda32b315500e9c"
 
 RPROVIDES:${PN} += "libxviewer.so \
 typelib-Xviewer \

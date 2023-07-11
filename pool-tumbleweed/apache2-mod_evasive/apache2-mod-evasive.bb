@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.10.1"
 
-RPM_NAME = "apache2-mod_evasive-1.10.1-17.5.aarch64.rpm"
-RPM_HASH = "51b24483e3723911df297625127b330a1c2848ac693be8693ac03aa200b27448fc076eea4b7ca9fb0bbb597971a799b39520bb087c9f84e71a73cf874dd00819"
+RPM_NAME = "apache2-mod_evasive-1.10.1-17.6.aarch64.rpm"
+RPM_HASH = "aa100efd46fbf0ce9c9a967b8fea44713c672435124ca46dedb42f53b57793bb1522464d0cad67c13cfd134b0bccf7837d8b60348e37c0ff3ab4bbf950903fa7"
 
 RPROVIDES:${PN} += "apache2-mod-evasive \
 config-apache2-mod-evasive"

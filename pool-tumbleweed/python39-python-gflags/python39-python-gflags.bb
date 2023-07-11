@@ -14,8 +14,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.1.2"
 
-RPM_NAME = "python39-python-gflags-3.1.2-2.19.noarch.rpm"
-RPM_HASH = "2f5e1d98e1279c835533984281b85181992c6896df9797055993fbe8fdf5e33d20679634f0cd686073a7c2b56bbcb80b44905ab112859ae9a547a2361ea31465"
+RPM_NAME = "python39-python-gflags-3.1.2-2.20.noarch.rpm"
+RPM_HASH = "e373c809abc17a30aa814a11cf839c8ad684dcd24be5cda6b72f0100a922ad99fb6093fb3973bc8fcfe48ade36b99aa345e939c537dd268f0b47febbea0019c7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-python-gflags \

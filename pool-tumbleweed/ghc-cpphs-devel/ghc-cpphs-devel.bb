@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.20.9.1"
 
-RPM_NAME = "ghc-cpphs-devel-1.20.9.1-5.3.aarch64.rpm"
-RPM_HASH = "ee73be9d3d27d56930c2c444c2920bae3b56ddcc36a4b7e336a91a2c11788f0627197e3eaf092f48a91bbfff0f6fa486f47670a6174471148488dbd5e17f644a"
+RPM_NAME = "ghc-cpphs-devel-1.20.9.1-5.6.aarch64.rpm"
+RPM_HASH = "85e74e9ba587a13480f7f33f6d381151a2ca7ddb6e840e5869390eb79fae0f2e477c43bff598fe66a9c4cef487a7cc8b0b1d8fdd478aa3155d19ab4cd7236ad4"
 
 RPROVIDES:${PN} += "ghc-cpphs-devel \
 ghc-devel-cpphs-1.20.9.1-FT5N79IhkR98KU1k959mgj"

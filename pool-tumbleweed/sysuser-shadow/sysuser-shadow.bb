@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "3.1"
 
-RPM_NAME = "sysuser-shadow-3.1-5.3.noarch.rpm"
-RPM_HASH = "b21a9d7f5fec5ac2d3b8ff492515b3377ccc92e721c17093b496569624ee0298c468a5e19fe46abe830146d84dd00289fb27a1b6e087c73cc3d62bccbfa8d4ea"
+RPM_NAME = "sysuser-shadow-3.1-5.5.noarch.rpm"
+RPM_HASH = "bef3e5ad4e24a97075601e1fec40e006976fd7a8aff246343a1d8db2bb6d400a4b56b04eb6b2736f0af094a0e7f72303181a6e865187747265659573ba10d70e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sysuser-shadow"

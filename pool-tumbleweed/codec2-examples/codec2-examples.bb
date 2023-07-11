@@ -2,10 +2,10 @@ SUMMARY = "Example code for Codec 2"
 DESCRIPTION = "Example code for Codec 2, including test voices and matlab/octave files."
 LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
-PV = "1.1.0"
+PV = "1.1.1"
 
-RPM_NAME = "codec2-examples-1.1.0-1.1.noarch.rpm"
-RPM_HASH = "facb6e6ab90f608a597ef06a21731780028e1a38061f1376528d73c160b40e5f91973f3d4552c2942e5b50c1e7bbf019e995c891848f84fd8f973be5f940c5c0"
+RPM_NAME = "codec2-examples-1.1.1-1.1.noarch.rpm"
+RPM_HASH = "e086a8e3152a4c76be9033e1e2448af611261795bd38afb00607633f783bb1ce7f6320a60bd8ed9fba482d5b81b6cdf00a5e8ea93735725d8d3953a714bd8050"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "codec2-examples"

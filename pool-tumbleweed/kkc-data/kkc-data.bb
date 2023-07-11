@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.3.6~git20200818.e33e7fb"
 
-RPM_NAME = "kkc-data-0.3.6~git20200818.e33e7fb-1.17.aarch64.rpm"
-RPM_HASH = "d3fb180e325653682e8ad6a4f52c456bedf879fbd62cb3b10dd5ef1dba70ee3ad5cc1fc05d712648f0ccd6f7d457c66bc2bb6b279f1d36569d574ad699f68b3e"
+RPM_NAME = "kkc-data-0.3.6~git20200818.e33e7fb-1.18.aarch64.rpm"
+RPM_HASH = "f1d08d21bfc90d1a27c5d90626ae7a0f21c21f573b97afd7b5ddb14a2af190f283e25bb0d529ae9bd321ca745352b2a36ded024ffe0ca8f5e8d33ba7c639168c"
 
 RPROVIDES:${PN} += "kkc-data"
 

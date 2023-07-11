@@ -4,13 +4,13 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.0.88"
 
-RPM_NAME = "nautilus-extension-folder-color-0.0.88-2.8.noarch.rpm"
-RPM_HASH = "8cd81a99b3c43a635c0d9b5585d35d2b59c2dd3050d1f626c547f5614afac011b41f1804e2691523eb2865430e0d336ab17e78931fce7bbe97d93d62d7f3164c"
+RPM_NAME = "nautilus-extension-folder-color-0.0.88-2.9.noarch.rpm"
+RPM_HASH = "d1feadc7adafb4cf630b995558335241f464d5c9f6444e6cbed7924b61b8f5ebf085307492e62eef7a781580df90592411e16b1aad70bad70df9a4ab2ef91401"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "folder-color-nautilus \
 nautilus-extension-folder-color \
-python3.10dist-folder-color-nautilus \
+python3.11dist-folder-color-nautilus \
 python3dist-folder-color-nautilus"
 
 RDEPENDS:${PN} += "folder-color-common \

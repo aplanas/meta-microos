@@ -5,8 +5,8 @@ LICENSE = "HPND"
 
 PV = "9.5.0"
 
-RPM_NAME = "python39-Pillow-9.5.0-2.1.aarch64.rpm"
-RPM_HASH = "e3511fc0bf5d54db44ffae1e786d973b04ea65dc99412efd30405be5bb624e6429bc239a3a2cc34b1239ce5d030a09282618f7def0f183ffc9fb8d6c2203edb8"
+RPM_NAME = "python39-Pillow-9.5.0-2.3.aarch64.rpm"
+RPM_HASH = "a3e751b370c518b77afc08aadbf1d24f168022684d2f60855b549ed90287c1096206b1e9dde97203bbed880da0ae94d46febb7729a0d193e72978d5a224ee66d"
 
 RPROVIDES:${PN} += "python3.9dist-pillow \
 python39-Pillow \

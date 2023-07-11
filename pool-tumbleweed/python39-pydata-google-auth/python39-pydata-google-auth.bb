@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.0"
 
-RPM_NAME = "python39-pydata-google-auth-1.1.0-1.11.noarch.rpm"
-RPM_HASH = "4134eba31f4b4516cca4e3f151538aa587218bb14d730da3c5d464026f2dcfd3d7af87d502329a09fea4adcb105f30ddd109d0885979a2dc55657d561d5fe702"
+RPM_NAME = "python39-pydata-google-auth-1.1.0-1.13.noarch.rpm"
+RPM_HASH = "80e4a2f6bf53c4fd822145939597b012d2f1a0c276e43af0b70cdc15aa4a07f1fdd6b11681b909b91b7e0fede9660a288d9ae40e12856b374df7c77c7629dd6c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pydata-google-auth \

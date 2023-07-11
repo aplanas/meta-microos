@@ -18,12 +18,11 @@ LICENSE = "MIT"
 
 PV = "0.1.4"
 
-RPM_NAME = "python310-pa-ringbuffer-0.1.4-1.3.noarch.rpm"
-RPM_HASH = "d9b24789b17bad92fc8a282aa1cc4e3e10f119d81e515a88c06397b417a780acc05b448d31cc877a24fae8b40b35513f8bdaaa78cf6ba01f685965890bc3b509"
+RPM_NAME = "python310-pa-ringbuffer-0.1.4-1.4.noarch.rpm"
+RPM_HASH = "4c055a053ed3557da3254d1f6ce47e25736f5e38f159f26d77c4e264713c3401304c564705d5b7cb212b9ab52a97cc8c3383bceef5ef83b6b588aa8285cf7daf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pa-ringbuffer \
-python3.10dist-pa-ringbuffer \
+RPROVIDES:${PN} += "python3.10dist-pa-ringbuffer \
 python310-pa-ringbuffer \
 python3dist-pa-ringbuffer"
 

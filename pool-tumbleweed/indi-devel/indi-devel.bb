@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & GPL-3.0-or-later"
 
 PV = "1.9.9"
 
-RPM_NAME = "indi-devel-1.9.9-2.2.aarch64.rpm"
-RPM_HASH = "cbaf8291f852acb5b10f59c99a0919ed1bb548435cd6b644e4eff82066ee792ba6a30cf42b7d02161827a126028cd21164ba8623624962baf9684972d72f81be"
+RPM_NAME = "indi-devel-1.9.9-2.3.aarch64.rpm"
+RPM_HASH = "08695dafe0b1ec47ffbbbcc84028475ba4b473ddebeb5682b8684f56cb73ceccc8fa796feb5a763faddf257bc8fd8b474c4feac845e2922c715c81827e0d7379"
 
 RPROVIDES:${PN} += "indi-devel \
 pkgconfig-libindi"

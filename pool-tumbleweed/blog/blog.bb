@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.26"
 
-RPM_NAME = "blog-2.26-2.2.aarch64.rpm"
-RPM_HASH = "3317e045ac73445fdf7ff8f3ba5b4ced3173fcd0ed18ebdf8a0354231e2ffc4455298d1949fb216e5db18322b46492a2b563191dd97ec714f9d16f2999e486ea"
+RPM_NAME = "blog-2.26-2.3.aarch64.rpm"
+RPM_HASH = "61bc03f72ec494d6bf21964e88ad5c2bebf14db4382682176ece59d8b18cc73738b59c5880d7ef8f0c5922fa65e6229dfda4ad543facff3ee00e1dc7d5ba3013"
 
 RPROVIDES:${PN} += "/sbin/isserial \
 blog \

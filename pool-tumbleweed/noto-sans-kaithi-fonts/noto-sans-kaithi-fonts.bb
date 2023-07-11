@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-kaithi-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "cc9e96826f93d1d838f4c07d1db5e219a31ef8f59a29de3b104e390ff66dc92eec1449333a63fe86d70b1f1fd17e62cb19d3cb4125032f9adc75b75952c94b33"
+RPM_NAME = "noto-sans-kaithi-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "6fa27716d31bcde22fe6e111f9afb283022069ff68a05b419a279231f40c377c5ebdadc62f22fe9fbd891d99c63964f51e7fb82ee71333c839cd376813d8f916"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-kaithi \

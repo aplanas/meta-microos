@@ -12,10 +12,11 @@ LICENSE = "MIT"
 
 PV = "0.3.0"
 
-RPM_NAME = "python311-dukpy-0.3.0-1.5.aarch64.rpm"
-RPM_HASH = "58e41381dbef44cd910baf109c048c9651132c6aa6afcac24c5e967c2c03124af638b953fc932a3dc2ba1194bc24ddd1280aee7cda3e6787b69c656b2c379153"
+RPM_NAME = "python311-dukpy-0.3.0-1.7.aarch64.rpm"
+RPM_HASH = "22404128d3afa4e53c845b4c010b09eb0235c7784ce0fdcf0d8fd5947884eff67f2c3b3ad12c90182958a7d2ce4837fd34ba225e6708a90a69dc40ec8f51f278"
 
-RPROVIDES:${PN} += "python3.11dist-dukpy \
+RPROVIDES:${PN} += "python3-dukpy \
+python3.11dist-dukpy \
 python311-dukpy \
 python3dist-dukpy"
 

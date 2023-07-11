@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Korean Translations"
 DESCRIPTION = "YaST2 - Translations for Korean."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230516.e4ba802a"
+PV = "84.87.20230630.ccfa6add46"
 
-RPM_NAME = "yast2-trans-ko-84.87.20230516.e4ba802a-1.1.noarch.rpm"
-RPM_HASH = "9bbbc8da7648094f1afe47aa87b113685c91eec0c4c1f6354e64da6b52a1de98d070df07cbee5bb60c5b34b4676d87ec448cadf19e454d122eb5508a8d9723df"
+RPM_NAME = "yast2-trans-ko-84.87.20230630.ccfa6add46-1.1.noarch.rpm"
+RPM_HASH = "8e5360c8f57c2588b508060f9179e3309266d8d706273d18cc500ee9e0e0f6db02a5c9cb178696a47133c1861956373eba5bf5eb411accd7aadeaa5a5f1785db"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-ko \

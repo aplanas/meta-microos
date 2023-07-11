@@ -2,10 +2,10 @@ SUMMARY = "Translations for package oxygen5"
 DESCRIPTION = "Provides translations for the 'oxygen5' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "oxygen5-lang-5.27.5-1.1.noarch.rpm"
-RPM_HASH = "32e9f0ca5aec8e9d2d57c9832d18d8356803d9e368dbc044eea8969200cac2bfef27fe5d100f6bb5bef149067281df3b64b0b961aa9176fcb780c8736e10bbc0"
+RPM_NAME = "oxygen5-lang-5.27.6-1.1.noarch.rpm"
+RPM_HASH = "82163f0c09318f0a5e57c306891e25e9ebfdbd1cae34f95ec9ac39cbaf1ab3bee0aff11fb3e535b02b6102627165884745e8196fc019303be42d9049a9e7b166"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-oxygen5-af \

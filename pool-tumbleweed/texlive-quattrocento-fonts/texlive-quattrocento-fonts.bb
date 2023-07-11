@@ -4,8 +4,8 @@ LICENSE = "OFL-1.1"
 
 PV = "2023.201.svn64372"
 
-RPM_NAME = "texlive-quattrocento-fonts-2023.201.svn64372-53.1.noarch.rpm"
-RPM_HASH = "9300c22a2dde0a99cbcd9c542a91880898965f33d524540a28c181395648cffb7d7be04aed699522d6c0d47c009e8ebb28032446a37e739a1400d4b5f145666f"
+RPM_NAME = "texlive-quattrocento-fonts-2023.201.svn64372-53.2.noarch.rpm"
+RPM_HASH = "bbca0b29304c2095e5615c248e5169e10323ec868282478cfcc1f4cb7750a4fd2560e45c2f7ff738c56e9118ee7ecd16ce250e6b4181402fcc66558d7bd49350"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-quattrocento-fonts \

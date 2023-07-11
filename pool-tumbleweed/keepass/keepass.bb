@@ -7,10 +7,10 @@ the whole database. The databases are encrypted using AES and \
 Twofish."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.53.1"
+PV = "2.54"
 
-RPM_NAME = "keepass-2.53.1-1.3.noarch.rpm"
-RPM_HASH = "b988b374e4d0b05240f7b8ffc8bfa4d3ddcf0c9669863aa883b46922516f5fff6d901ed0426ff36b2d12f18f582ab80ba5607eb8f7b62f04995a08106b2688e9"
+RPM_NAME = "keepass-2.54-1.2.noarch.rpm"
+RPM_HASH = "ac6be84233c59fa6ddfa620568e3b70e5609f744aeb7abe2d1f99aded18ab2fe4b643c47fd913e3dfe9c391e94e2ec67ea48ee8cb2dd4c74e58d772281b32347"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "keepass \

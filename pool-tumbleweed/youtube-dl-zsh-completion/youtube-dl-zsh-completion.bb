@@ -4,8 +4,8 @@ LICENSE = "CC-BY-SA-3.0 & SUSE-Public-Domain"
 
 PV = "2021.12.17"
 
-RPM_NAME = "youtube-dl-zsh-completion-2021.12.17-7.1.noarch.rpm"
-RPM_HASH = "c0d50bbe03b68447a9d9248f6c8427959f5f786026c4d42ccb472875ee6430a4fa003c220020d17b85bcabb5fe1c2121f6512dc8bda34d9be7c5aafbbcfe6a35"
+RPM_NAME = "youtube-dl-zsh-completion-2021.12.17-8.1.noarch.rpm"
+RPM_HASH = "2c8f70b680e70d92d777dbe60bb2a7e2f4ec063b6eb2a04b4d7b3ff4d79e684772fd6a3b9cbb4209e8da971361f0760bc8770e85d9ccbf388cf852f37157241b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "youtube-dl-zsh-completion"

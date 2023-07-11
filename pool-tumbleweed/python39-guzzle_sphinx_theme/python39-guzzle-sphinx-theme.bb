@@ -4,8 +4,8 @@ LICENSE = "MIT & OFL-1.1"
 
 PV = "0.7.11"
 
-RPM_NAME = "python39-guzzle_sphinx_theme-0.7.11-2.15.noarch.rpm"
-RPM_HASH = "acc2a38602e9a38f2708d9161ed1fb72d37272ec2ba932bda922b3c772f91ae94bc259ba1942077e2d144f462d3e5fe424c6a49f8f50288d0b6fcfc53797b56b"
+RPM_NAME = "python39-guzzle_sphinx_theme-0.7.11-2.17.noarch.rpm"
+RPM_HASH = "8a2e3d5d644a38ded5aec102c8ee084fddfed8b67650c83621183b9bdbc9581daf1aa2c753633913e0887242d7648f8d6a155d13ddc205afd9b3631c5f5e0c6e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-guzzle-sphinx-theme \

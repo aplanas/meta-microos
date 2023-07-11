@@ -5,12 +5,11 @@ LICENSE = "MIT & CC-BY-SA-4.0"
 
 PV = "1.1.0"
 
-RPM_NAME = "python310-topy-1.1.0-1.11.noarch.rpm"
-RPM_HASH = "d2e965ab573ecef4244848b2bd798c7c7e5f5b4e6d6b12e2ee68f404bdf211fad5c2df5f7d07509fd2970c2b6a8c4148984096dc8a34b35b6c7d3321cd9b6833"
+RPM_NAME = "python310-topy-1.1.0-1.13.noarch.rpm"
+RPM_HASH = "af5f8d47118a1452e99dfcdcbb1f6569fb53577824b47de80eece02c52df065ecd4b5254d9e42f23d055c17c194addc5cef90f6da1a9670f82cd15c21b2fa338"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-topy \
-python3.10dist-topy \
+RPROVIDES:${PN} += "python3.10dist-topy \
 python310-topy \
 python3dist-topy"
 

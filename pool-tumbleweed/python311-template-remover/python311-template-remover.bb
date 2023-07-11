@@ -8,11 +8,12 @@ LICENSE = "Apache-2.0"
 
 PV = "0.1.9"
 
-RPM_NAME = "python311-template-remover-0.1.9-3.17.noarch.rpm"
-RPM_HASH = "315d9ff0b027ac313c570ea4a55d5f0032ae89b042c21ce35a99cc21aad13c4ed3ab331b7eb2e25071c55b099ddf620685506f7bb945e12f68d3c3290a06f84f"
+RPM_NAME = "python311-template-remover-0.1.9-3.19.noarch.rpm"
+RPM_HASH = "841c72cf89590327fdaa21116ed362f424dce8cf661ca43ce649d6d14a302aa534a15095518547440e7431ba421001c979aabe6d63ad1202f1cb7c2abaa3b581"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-template-remover \
+RPROVIDES:${PN} += "python3-template-remover \
+python3.11dist-template-remover \
 python311-template-remover \
 python3dist-template-remover"
 

@@ -24,8 +24,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "16n"
 
-RPM_NAME = "nmon-16n-1.6.aarch64.rpm"
-RPM_HASH = "9823b7b7f6ef61ae6302eb61b8ccf28b8843485561d7f43b05cce75b0f078091053e4e3fbf9f8d6e9955e28e12e3fbb7570cf90a3090e36811335591672cadee"
+RPM_NAME = "nmon-16n-1.7.aarch64.rpm"
+RPM_HASH = "45dcaba28ea1cfb00aa86576e65cde60ad513fa0bf98c481505c1ca8ccec9280bf6b4b14c8c2b7018a1cb6a95eeae9d60ff6e0b652dea4da81609064b85760c2"
 
 RPROVIDES:${PN} += "lmon \
 nmon"

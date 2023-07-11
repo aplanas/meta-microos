@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later & OpenSSL"
 
 PV = "5.10.8"
 
-RPM_NAME = "libdmr0_1-5.10.8-1.5.aarch64.rpm"
-RPM_HASH = "9bfbba74dc9cb802b29bffc31bb71184749a627bc405464937af4ea72605273eb13af474057caa42a6b5a31abdb5febab24a7de616be21bf02ed025242dd8cc2"
+RPM_NAME = "libdmr0_1-5.10.8-1.6.aarch64.rpm"
+RPM_HASH = "2a993ed74f7cf9868e94d5f00decdbe6dc800061671590115bd6e9452925f9e73d1319a88504f4d184c2aa36d49a30ef2450091ca0deb5558d769274338b3391"
 
 RPROVIDES:${PN} += "libdmr.so.0.1 \
 libdmr0-1"

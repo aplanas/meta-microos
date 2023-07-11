@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.8.8"
 
-RPM_NAME = "font-manager-lang-0.8.8-2.3.noarch.rpm"
-RPM_HASH = "a0aabb1e21480885f1c8cbedbf53b10903cd037e273db15787ce0aff11fa442a4518356ac6796c6fdd8b41f2541df04b4ffb3aa0f7f6e5ee5d5793a76a9e44f1"
+RPM_NAME = "font-manager-lang-0.8.8-2.4.noarch.rpm"
+RPM_HASH = "cc47bf13392c87452d35f3a2e5dcf092753e395abfd9f64c1a6f009f3f9fa1d9d9e5a3eccb1de1bc4c2915cc840fea3d978b0875c97e6f732bdd308dcde0b91d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-manager-lang \

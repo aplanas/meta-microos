@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.1.0"
 
-RPM_NAME = "python39-threadpoolctl-3.1.0-2.1.noarch.rpm"
-RPM_HASH = "0a43187fbe18581cf3a763f6413ec69926494e9aa28a25e98f6fd14005e46b313dcbe7b0a01c09241a69edbac642267b715acb508236b4177bf60081f21a43be"
+RPM_NAME = "python39-threadpoolctl-3.1.0-3.3.noarch.rpm"
+RPM_HASH = "d0fc459f2eeb36973bdab646ddd87e85ab5d56f0c4d9aa956aced2ce840e2f4ba99dda2e91b429f17a97e2e355cf012cb6c0a703387c99009de0dd5ac53a1e9e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-threadpoolctl \

@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "2.14.2"
 
-RPM_NAME = "hub-2.14.2-1.18.aarch64.rpm"
-RPM_HASH = "f79a2024d808a52a2c61e043338badebffd5fbefb6afe59a7acf1d38afb4e5098573c3b4d18097530f2527374fd94857a6d72b6d5cb2d93dcac6655ac261fe58"
+RPM_NAME = "hub-2.14.2-1.20.aarch64.rpm"
+RPM_HASH = "106a6c54fac9abde1d8f9401cbab9be24ea4eeb0de56e9d1f29506eb5b5b9b07c19147e917f934bef8ed365e91b2c9969eb147556c1b549b8f8ff3196f828595"
 
 RPROVIDES:${PN} += "hub \
 rubygem-hub"

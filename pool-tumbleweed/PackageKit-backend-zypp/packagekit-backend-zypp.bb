@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.5"
 
-RPM_NAME = "PackageKit-backend-zypp-1.2.5-9.3.aarch64.rpm"
-RPM_HASH = "2d2c92a2e34373646d29579072a65e319b35645cc91838d29642daab721c4664aa5a90b834f06df1970ae584540b660145075679b839d43682d7abd517bc77ed"
+RPM_NAME = "PackageKit-backend-zypp-1.2.5-9.4.aarch64.rpm"
+RPM_HASH = "c3d020b5bd1fae3ae38d7375d4470f8855c5931f8b6d720d9c83ee69f2203ab8568bf3208ad4ed437acb36d9ed777c24cd2f16c16751add59f9fb4ba6a262251"
 
 RPROVIDES:${PN} += "PackageKit-backend \
 PackageKit-backend-zypp \

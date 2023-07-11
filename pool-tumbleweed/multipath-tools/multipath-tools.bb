@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only & GPL-3.0-or-later"
 
 PV = "0.9.5+68+suse.d1b6a1c"
 
-RPM_NAME = "multipath-tools-0.9.5+68+suse.d1b6a1c-1.1.aarch64.rpm"
-RPM_HASH = "a964083b6f524ac4fa61170d8b02e492a72b227efc80e790c304cae2909806f577b67d3bd282f6fdaf45b265c51a28c0bbacbae910f8b383d3050e680d18510a"
+RPM_NAME = "multipath-tools-0.9.5+68+suse.d1b6a1c-1.2.aarch64.rpm"
+RPM_HASH = "d6e432fbb22dda839a8e84231be0a5d3f7d7334cbc682d8347c5a7cc72424bc41d49987f22421848f393aa8a5ebaf3aa698fab03c5fdb072ff75400dabe2850e"
 
 RPROVIDES:${PN} += "multipath-tools"
 

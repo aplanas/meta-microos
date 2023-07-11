@@ -13,8 +13,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.3.10"
 
-RPM_NAME = "python39-pytesseract-0.3.10-1.5.noarch.rpm"
-RPM_HASH = "7e7a00fe1f32af538045acc5f3da59d3d0ad622ea3b8d3c6cadd0d3d646b4a0e065af19d187e28efa1b532fe1f96add981f289196908a9f6b6c9b1513777caf7"
+RPM_NAME = "python39-pytesseract-0.3.10-1.7.noarch.rpm"
+RPM_HASH = "f5a3e367cb090e847ab1f37d888420135384c2143bdec5551644649a0e084bb2d7a9a6662ec6cb54aceb09a6d39e312a96f7f0eb4a0922ef9d61ad12e0713996"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytesseract \

@@ -14,13 +14,15 @@ on as many server environments as possible (such as blogs, wikis, \
 bulletin boards, etc.)."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.2.3"
+PV = "2.3.6"
 
-RPM_NAME = "python311-Werkzeug-2.2.3-2.1.noarch.rpm"
-RPM_HASH = "8c1e53646f72b670fe8cd488b49a121f727374b5674ee17b48fb49826528ce6ef2f31c588a1926b4e0a95d8e54668d7ccf050b9daf62484370c0b6c7fb04995e"
+RPM_NAME = "python311-Werkzeug-2.3.6-1.1.noarch.rpm"
+RPM_HASH = "f35249cd7fc9e310a79dce72b69abe79a335f17dd908ec078c34caaceb7ce559e811a7567ced65c4f40df31807cf58b5ceebe2c46ca06cd8b67714bc1350045b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-werkzeug \
+RPROVIDES:${PN} += "python3-Werkzeug \
+python3-Werkzeug-doc \
+python3.11dist-werkzeug \
 python311-Werkzeug \
 python311-Werkzeug-doc \
 python3dist-werkzeug"

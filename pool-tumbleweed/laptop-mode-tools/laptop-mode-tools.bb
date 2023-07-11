@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.74"
 
-RPM_NAME = "laptop-mode-tools-1.74-3.6.noarch.rpm"
-RPM_HASH = "89bbc50cf0cb8332122ba2a88debb4f421e6ca41a87b8a7651007e74e157e52eba30d171fcaddaf169891ed77ffb59ac5ba37671d841109ea82aaa0d4eaa4820"
+RPM_NAME = "laptop-mode-tools-1.74-3.7.noarch.rpm"
+RPM_HASH = "3c716d5312c236b0ba8e265429e64e605be15de65d7e03de15a8303625d1da1261f46ec1808968acc86ecc0f74c22386b6bdf8cb5c1e198de9c9d9232dfac22c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-laptop-mode-tools \

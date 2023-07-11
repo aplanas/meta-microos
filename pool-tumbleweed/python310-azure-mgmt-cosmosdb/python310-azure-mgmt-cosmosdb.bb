@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "9.2.0"
 
-RPM_NAME = "python310-azure-mgmt-cosmosdb-9.2.0-1.1.noarch.rpm"
-RPM_HASH = "ce685c41ce2f8a57ed8a0c28a78c69369b16c04c4f89b788ad105800b1c83275f5849f653fbb761b871fbcdef3898bdc6b4f9a9df31fa118b108d01fbd24719d"
+RPM_NAME = "python310-azure-mgmt-cosmosdb-9.2.0-1.2.noarch.rpm"
+RPM_HASH = "9930e5db49ac401571706410d82065704cffb2fa73067bcc20f30ce72a57595fd507a4069a50926debd90c47411878c1f623693cc09ea0da632db83647357c19"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-cosmosdb \
-python3.10dist-azure-mgmt-cosmosdb \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-cosmosdb \
 python310-azure-mgmt-cosmosdb \
 python3dist-azure-mgmt-cosmosdb"
 

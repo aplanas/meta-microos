@@ -6,8 +6,8 @@ LICENSE = "MIT & BSD-3-Clause & BSD-2-Clause"
 
 PV = "1.21.1"
 
-RPM_NAME = "libblosc1-1.21.1-1.10.aarch64.rpm"
-RPM_HASH = "2dbfc72ff32f4abdfd52f4b27c551c2dd7956eac909c65efea9017f4bc409e82cff5dab83ef67a67fb1cfef28e430f4039bec501c3b4f49245a56f02e0528946"
+RPM_NAME = "libblosc1-1.21.1-1.11.aarch64.rpm"
+RPM_HASH = "1f0c18640cc6d782e7aa0ff4e376fd4f6561f839e311c9882232f7c57f3f790995e36c3b02e058fb15ebc85c6bddff97b3a641b4ffe4debcb7d004a68b568d81"
 
 RPROVIDES:${PN} += "libblosc.so.1 \
 libblosc1"

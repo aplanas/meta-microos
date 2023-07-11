@@ -7,12 +7,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.1.6"
 
-RPM_NAME = "python310-opengl-accelerate-3.1.6-1.9.aarch64.rpm"
-RPM_HASH = "8ed2d9681a1bc8ef7f7a6efca5210f37c8ecfb2c7b6a05135ae6dacd1cbe0d374f527ab9b5991a80d997d1f3d3796f7cd58806507c96d5cd4cf73383deb1ad4a"
+RPM_NAME = "python310-opengl-accelerate-3.1.6-1.11.aarch64.rpm"
+RPM_HASH = "278d8764232e5903024b843f1f4e2ff09565d0d84a1d6f5fab58f0e678ee3055dae73feb8fcca3f5a085ae9cba44b5540baf28cd3fba2bbcc96b7f92a7d80937"
 
-RPROVIDES:${PN} += "python3-PyOpenGL-accelerate \
-python3-opengl-accelerate \
-python3.10dist-pyopengl-accelerate \
+RPROVIDES:${PN} += "python3.10dist-pyopengl-accelerate \
 python310-PyOpenGL-accelerate \
 python310-opengl-accelerate \
 python3dist-pyopengl-accelerate"

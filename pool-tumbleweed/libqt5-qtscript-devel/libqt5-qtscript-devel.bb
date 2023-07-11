@@ -5,10 +5,10 @@ This subpackage contains the header files for developing \
 applications that want to make use of libQt5Script5."
 LICENSE = "(LGPL-3.0-only | GPL-2.0-only | GPL-3.0-or-later) & LGPL-2.0-or-later & LGPL-2.1-only"
 
-PV = "5.15.12"
+PV = "5.15.14"
 
-RPM_NAME = "libqt5-qtscript-devel-5.15.12-2.3.aarch64.rpm"
-RPM_HASH = "7dc806f82c56b937a84fb057cf2d697a7ca605c7e7e35455f03a0e6f93012b0b6a2b40261926437b928ea96f8c4ae1332e07d3afea3e49b86cea440c3211761e"
+RPM_NAME = "libqt5-qtscript-devel-5.15.14-1.1.aarch64.rpm"
+RPM_HASH = "b37f9c9933cf859becebf32d7f1306ffbb2e9bd98c636453200dcdac222566a7b199802360b430eb477f124c381156c59fd11bdd7eaa2c42d5c6e7743d8d5f0f"
 
 RPROVIDES:${PN} += "cmake-Qt5Script \
 cmake-Qt5ScriptTools \

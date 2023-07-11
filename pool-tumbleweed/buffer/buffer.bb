@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.19"
 
-RPM_NAME = "buffer-1.19-867.12.aarch64.rpm"
-RPM_HASH = "c5d2a544b7d502a7645486dc0dcefb79a4af3b5e4a7937b1e90ea47fe0b2b1984f57a8b33d8a6836da59dc5194c41af33adddc4acaa161eaab1d488dac79b974"
+RPM_NAME = "buffer-1.19-867.13.aarch64.rpm"
+RPM_HASH = "03e98f09cf00a0f6990756ad4197d589683706da3119a3f273db73a6e3afde586bb008a1d86d3a2693220dbc5c7fef46e96943b2892da5b0146805c31dde91a4"
 
 RPROVIDES:${PN} += "buffer"
 

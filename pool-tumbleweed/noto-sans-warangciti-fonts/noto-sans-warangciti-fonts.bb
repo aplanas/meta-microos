@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-warangciti-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "7dd75b712592d8b7aa1628a345c784e4e040339f5ded2415ffc34a21ed2b982e342e21bb5ec922d1cbceabe8cf7d5fd706f6b4cb96d429bc04276801cbdc1394"
+RPM_NAME = "noto-sans-warangciti-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "7205542ecdc0d3f8f22608d612552bb51fe7ba24965524597778902a7c907e71bfbc15211dc114f235ffd5a063ddf678a851ca7768ab137a49c2f33b08944739"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-warangciti \

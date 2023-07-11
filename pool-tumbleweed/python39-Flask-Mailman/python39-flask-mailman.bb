@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3.0"
 
-RPM_NAME = "python39-Flask-Mailman-0.3.0-2.1.noarch.rpm"
-RPM_HASH = "cdcf41f419107ffe42420208773b01672939c3f3c52a6afc3f7b3bacf755adfc9418d73af36000900516794a88fb23177653a603cb75d58241e4b9e4a9260f95"
+RPM_NAME = "python39-Flask-Mailman-0.3.0-2.3.noarch.rpm"
+RPM_HASH = "4f9da10ae68599a3975790bbd8b5caed356767b4d88c8fabb4123d71d98dee9f92de20969d306bdad81284b2e1b73175c1932138fc4d75cc3624d8678d7ccc71"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-flask-mailman \

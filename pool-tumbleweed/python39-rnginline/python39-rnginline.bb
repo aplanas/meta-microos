@@ -4,10 +4,10 @@ multi-file RELAX NG schemas from arbitary URLs, and flattening them \
 into a single RELAX NG schema."
 LICENSE = "Apache-2.0"
 
-PV = "0.0.2"
+PV = "1.0.0"
 
-RPM_NAME = "python39-rnginline-0.0.2-4.9.noarch.rpm"
-RPM_HASH = "ab28d49e173446a4ca5f40fa77c81c0e256c8e250abe16a38e94b07664a6b77226fab19f04e67c0aab6a704800c79a3c8adb32fffd2baae5bedaf710e75ebce9"
+RPM_NAME = "python39-rnginline-1.0.0-1.3.noarch.rpm"
+RPM_HASH = "6d3d3121d39131df745eb23be7940e005d01f8c316a73ac58bcad139122441348d2562adccb291fb0f2b5b18fcfa5a393aac7b944856045d44bd27614bb4fdcc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-rnginline \
@@ -18,8 +18,9 @@ RDEPENDS:${PN} += "/usr/bin/python3.9 \
 /usr/bin/sh \
 python-abi \
 python39-docopt \
+python39-importlib-resources \
 python39-lxml \
-python39-six \
+python39-typing-extensions \
 update-alternatives"
 
 inherit rpm

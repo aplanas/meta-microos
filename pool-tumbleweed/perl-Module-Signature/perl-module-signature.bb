@@ -25,8 +25,8 @@ LICENSE = "CC0-1.0 & (GPL-1.0-or-later | Artistic-1.0)"
 
 PV = "0.88"
 
-RPM_NAME = "perl-Module-Signature-0.88-1.7.noarch.rpm"
-RPM_HASH = "e943c0f17b37c278fc232f9ec0a00480c4d461766e5dfe227bc028af024245710c12b2220ef1c3af5c9907c8bdb2d0eb9346658a15362e5b517842b5e8fa7f37"
+RPM_NAME = "perl-Module-Signature-0.88-1.8.noarch.rpm"
+RPM_HASH = "d77f74ce8daaa55f89d22970c7eba28e0d896f3d6d965ab38aac7e911fda432c3e98068f2cb1435d3db9e887475857cc722adec3c17ec9eb8437498af4aa5150"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Module--Signature \
@@ -34,6 +34,6 @@ perl-Module-Signature"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 gpg \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

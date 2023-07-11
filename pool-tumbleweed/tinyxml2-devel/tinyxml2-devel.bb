@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "9.0.0"
 
-RPM_NAME = "tinyxml2-devel-9.0.0-1.7.aarch64.rpm"
-RPM_HASH = "3833467459bd13f4e35b1ea6eb570a9a3a6ca3cdbc9be0fbf30c9d85ee45716605654a3eaedba9f63b79fd125ccc23302de03c670b118013b3fae91352dcfc12"
+RPM_NAME = "tinyxml2-devel-9.0.0-1.8.aarch64.rpm"
+RPM_HASH = "fa2b4b5e1e88099d17a4ca509ab232224fa1e612dfb67f67a3a9fa951fc6e27177537110fa209288d87caeb5bcdcf5d0862bcacdf6894f2b5ff0686b4cd81326"
 
 RPROVIDES:${PN} += "cmake-tinyxml2 \
 pkgconfig-tinyxml2 \

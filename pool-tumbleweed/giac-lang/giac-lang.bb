@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.9.0.27"
 
-RPM_NAME = "giac-lang-1.9.0.27-4.5.noarch.rpm"
-RPM_HASH = "8728f8e30580ed3517dc75d7389985b53f5aa6b7dd507b986504b8775b24499a455726e63cd6c7bee2548b53007ca5f7d1cc7b333d371da1318f6b8f7af6b74b"
+RPM_NAME = "giac-lang-1.9.0.27-4.6.noarch.rpm"
+RPM_HASH = "411f2e81eb9cd4572e4cf4a4a1ea8a25850a645b9bb1abeda641b645917abd8c19fd0b642046416c84a2e4a27dc22eadcb9222e8c3fb317418b2f6697f9340f8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "giac-lang \

@@ -15,12 +15,11 @@ LICENSE = "Apache-2.0"
 
 PV = "1.4.4.post2"
 
-RPM_NAME = "python310-aiosmtpd-1.4.4.post2-1.4.noarch.rpm"
-RPM_HASH = "3a2ddade95fcd18bd9cd4dccd7e93791e2a89081629b4979a33ff00d3eec0770d8fe62b058113228cca4ef2a3974ec7a09cb4008834a59621f38c7ea84f2bf2f"
+RPM_NAME = "python310-aiosmtpd-1.4.4.post2-2.1.noarch.rpm"
+RPM_HASH = "12cc90b26d950d2f54f280afef554acbff74d2f13e7a5b78ec342a4692783a1af4615027331adcb1f5a49e0634b186907e6ef33f49414e8dae2269296c88df3e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-aiosmtpd \
-python3.10dist-aiosmtpd \
+RPROVIDES:${PN} += "python3.10dist-aiosmtpd \
 python310-aiosmtpd \
 python3dist-aiosmtpd"
 

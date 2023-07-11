@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-quickcontrols2-devel-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "d4ecbb5c06eca62360206fa28e241537ac8ae7708c9f5cda5ab90b8277313dc75dac7060ddcb79b1a395b6528baae3e9b6e3937fd8bed137a3c85869abbad34a"
+RPM_NAME = "qt6-quickcontrols2-devel-6.5.1-1.3.aarch64.rpm"
+RPM_HASH = "51064c66b3c4ed0f83cff9c9f562f2c39054386fc05541f662f700e57e242fb65fe54421a6dffa4b824fa8d3747f3a4e1e55534d4e707ade8c8d468e2df7f0f8"
 
 RPROVIDES:${PN} += "cmake-Qt6QuickControls2 \
 pkgconfig-Qt6QuickControls2 \

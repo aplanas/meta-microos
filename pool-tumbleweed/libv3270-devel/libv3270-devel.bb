@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "5.4"
 
-RPM_NAME = "libv3270-devel-5.4-1.9.aarch64.rpm"
-RPM_HASH = "e94ca74597abee11012145ed405ba3116112dcbd3b6c9633bd6791804838294aabda4cd6b16639c7ea617015b273a158b9f3d2d13a31dabdaa9b870945bdcc5c"
+RPM_NAME = "libv3270-devel-5.4-1.10.aarch64.rpm"
+RPM_HASH = "4b3019ba817560909b3d17e150e69f9b1fbdcfbe973829664afc610fbf6d27b0c2673c868809590920bc37dde0999f0be9dfd5888b1ae03e6d104ef8b9c52b90"
 
 RPROVIDES:${PN} += "libv3270-devel \
 pkgconfig-libv3270"

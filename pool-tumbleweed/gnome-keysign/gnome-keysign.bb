@@ -8,11 +8,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.9.7.2"
 
-RPM_NAME = "gnome-keysign-0.9.7.2-2.10.aarch64.rpm"
-RPM_HASH = "1cf3129df06daaa779fe54b4fdd58435bc78dc5d7411b2c51b74ee941a47d4c972c52d26479fcdb6ad3716175474b05241a8e80bdfcf56ed3482ec97709e09f0"
+RPM_NAME = "gnome-keysign-0.9.7.2-2.11.aarch64.rpm"
+RPM_HASH = "f7d68d0ed55bc8c34402e2cdf16af1f323daf4a09040874adac1f77c628d85558dfd4708491c2bf30e56c4160c3bf778436026384294afec23f1309d67ab929f"
 
 RPROVIDES:${PN} += "gnome-keysign \
-python3.10dist-gnome-keysign \
+python3.11dist-gnome-keysign \
 python3dist-gnome-keysign"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.3.2.1svn61073"
 
-RPM_NAME = "texlive-hitszthesis-doc-2023.201.3.2.1svn61073-53.1.noarch.rpm"
-RPM_HASH = "0a11e0356d721d8967db8d76a3c6d38f499ca35519be84a353ad04dfed911d266cdd17b52459604cb3e0017f60a1477847650144877f81092450db10e93c7434"
+RPM_NAME = "texlive-hitszthesis-doc-2023.201.3.2.1svn61073-53.2.noarch.rpm"
+RPM_HASH = "b95b238b34dbac447fafed8707f80821825a7406edb4fad219e4c3d7019515b1043027db2d7f117d1f3c499e3c94fa171d86266fa53ebac8fbbacdd852be7778"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-hitszthesis-doc-zh \

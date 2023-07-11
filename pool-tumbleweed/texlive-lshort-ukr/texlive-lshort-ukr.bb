@@ -2,10 +2,10 @@ SUMMARY = "Ukrainian version of the LaTeX introduction"
 DESCRIPTION = "Ukrainian version of A Short Introduction to LaTeX2e."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.4.00svn55643"
+PV = "2023.208.4.00svn55643"
 
-RPM_NAME = "texlive-lshort-ukr-2023.201.4.00svn55643-52.1.noarch.rpm"
-RPM_HASH = "29b7c7edc8435c632bd2a23039704a55d70e2b39e1d24e70a325426ba872bf0e9bee29d7c853a75094b3bca304950a19796c38884addb5c26a48e00469726a26"
+RPM_NAME = "texlive-lshort-ukr-2023.208.4.00svn55643-53.1.noarch.rpm"
+RPM_HASH = "a691d650b65fe8397be642a26a80452b519c93a97d3daa990ef2744af2bad0864c0ee446ee16c0da8376704c8ecfbdd578518d182ab68df386eff34f25668ee2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lshort-ukr"

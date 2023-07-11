@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2"
 
-RPM_NAME = "geronimo-j2ee-management-1_0-api-1.2-36.11.noarch.rpm"
-RPM_HASH = "6a9cd8e6b88abdd4168b232b55465ebda35a63245015aee26d31ae9cd2c2ec18ebfb420bf2dffec1b13ce8f63dfaf50ec4217c13fd3528a3eaacf4d5f4c32f70"
+RPM_NAME = "geronimo-j2ee-management-1_0-api-1.2-36.12.noarch.rpm"
+RPM_HASH = "b161810fdb6716a0167783b4d4a7ab60c47a59540de1f092eb029c5d6484e77f461785e7b4bc069bacf96d8dde39aa60ff6bf37e0cdfe6b080f4a8981192365b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "geronimo-j2ee-management-1-0-api \

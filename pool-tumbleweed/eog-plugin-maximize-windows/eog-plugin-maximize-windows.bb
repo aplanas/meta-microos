@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "eog-plugin-maximize-windows-44.0-1.1.aarch64.rpm"
-RPM_HASH = "483cd8261a709c00558c1f2f5f901c4a3a2d8b43a91234cf2e80597f9f20681f39251593e5c3a681818e4e953e3dc601e4032102942fba27aff244e101bd610f"
+RPM_NAME = "eog-plugin-maximize-windows-44.0-1.2.aarch64.rpm"
+RPM_HASH = "200840147c7b23e7c5b94180a70401aabd1b8308e35deb43e734a932bc1eeab1460f9b6aa43500e962d926b75a3cbe12813904fa258edb34a86d0d82f21c404e"
 
 RPROVIDES:${PN} += "eog-plugin-maximize-windows \
 eog-plugins-/usr/lib64/eog/plugins/maximize-windows.plugin"

@@ -18,8 +18,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "3.0800"
 
-RPM_NAME = "perl-Statistics-Descriptive-3.0800-1.12.noarch.rpm"
-RPM_HASH = "ae5b264562601d379f243d706677ae2e5a42e6c18d8279f67d1a12e66b6ff59237e1168a4e03aa2ad956e3fce893db17d7f300d33156930dc3eca987ddc3f04f"
+RPM_NAME = "perl-Statistics-Descriptive-3.0800-1.13.noarch.rpm"
+RPM_HASH = "265f09376f6d548af450492ad3229515007bd1f23cb64a3eb6d5ea5584636a2fc79933c9dc843778eca35fc477b7e0756ec9c632adcc44533090682d8d9d5ed1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Statistics--Descriptive \
@@ -30,7 +30,7 @@ perl-Statistics--Descriptive--Smoother--Weightedexponential \
 perl-Statistics--Descriptive--Sparse \
 perl-Statistics-Descriptive"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-List--MoreUtils \
 perl-parent"
 

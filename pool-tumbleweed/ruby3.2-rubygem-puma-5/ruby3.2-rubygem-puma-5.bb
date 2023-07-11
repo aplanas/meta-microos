@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.6.5"
 
-RPM_NAME = "ruby3.2-rubygem-puma-5-5.6.5-1.5.aarch64.rpm"
-RPM_HASH = "facbacc2e61bd39d716add4a2f0bd0a14941ae848dae19d7b9e2111b0bdcfc16ed7d67af7f18e54a3c1e0bc30c62c371e29ab42e35ea86be176f47f85b57873c"
+RPM_NAME = "ruby3.2-rubygem-puma-5-5.6.5-1.6.aarch64.rpm"
+RPM_HASH = "dd2795bdf215fa4d8aa02907e9cdaf3bb479e402c32f124159559e4c3c8f975a6bfa7431f463789c31952fe678aade9044b66cfe0f7443d285856614800f1d4d"
 
 RPROVIDES:${PN} += "ruby3.2-rubygem-puma-5 \
 rubygem-puma \

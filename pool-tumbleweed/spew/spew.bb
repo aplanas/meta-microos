@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.0.8"
 
-RPM_NAME = "spew-1.0.8-5.10.aarch64.rpm"
-RPM_HASH = "e9a7949d07461c7584a964858edbc62cd3aa24dfcfa126b04c56bd68d905f083e815012d8d77b6bbf305c0d9a9c7ab46cea780b9489cd0e29412d7f687b1cb56"
+RPM_NAME = "spew-1.0.8-5.11.aarch64.rpm"
+RPM_HASH = "710f5008e3ddfdab279dad18d78b39dd998eed5bc4911c39fb16b5e28855d99867c4e4d33ce8c663bf201b9ce46970b2bcc6850554acbe02a3d3b7d9b8c979a4"
 
 RPROVIDES:${PN} += "config-spew \
 spew"

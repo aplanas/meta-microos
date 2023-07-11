@@ -3,10 +3,10 @@ DESCRIPTION = "kanshi allows you to define output profiles that are automaticall
 and disabled on hotplug."
 LICENSE = "MIT"
 
-PV = "1.3.1"
+PV = "1.4.0"
 
-RPM_NAME = "kanshi-1.3.1-1.2.aarch64.rpm"
-RPM_HASH = "43622cb2d280c0446c73388e8d84e5b1429aabd047e76596caf09b5e3d7c2f22cf9c6f2e81c794f4baafabd409f3e7b66f578ad1ca9b5cbefe1f7d444bc60af6"
+RPM_NAME = "kanshi-1.4.0-1.1.aarch64.rpm"
+RPM_HASH = "644bfa207365666e8409ad8685be68bf49bf3fe9d85cfb3d870d3ae3399320cbfe1466b309b5d20749f502befa82a51f94e9a33bbdc1a723ac64394fca0c5cda"
 
 RPROVIDES:${PN} += "kanshi"
 

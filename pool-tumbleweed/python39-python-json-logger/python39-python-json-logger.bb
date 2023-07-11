@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.0.7"
 
-RPM_NAME = "python39-python-json-logger-2.0.7-1.1.noarch.rpm"
-RPM_HASH = "c7147bbf39ccc25e7fdcaa36aae81513c34a466d901766eda7176de75b0bc30db7f4e40eae27ae772a974bf4425d30aa57809f7e5169940b41309ddb932eac55"
+RPM_NAME = "python39-python-json-logger-2.0.7-1.2.noarch.rpm"
+RPM_HASH = "69414dcce85fa31a05028f934179689f18fbf86cf12378f3c562d2cea8e60652b809c776b367237e366aae049826df125b99914455f77d107904344d84eed083"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-python-json-logger \

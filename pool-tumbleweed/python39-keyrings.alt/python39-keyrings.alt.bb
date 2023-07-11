@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "4.2.0"
 
-RPM_NAME = "python39-keyrings.alt-4.2.0-1.1.noarch.rpm"
-RPM_HASH = "3c5943c78978bb48493f958ec61b8d07e67741b59e0092ea3c9f7bb48be0b3f58a47b409c7d7da62bcb8ef5db30ec15e3c80abf0ccde1bea6b83cd4aa06f535e"
+RPM_NAME = "python39-keyrings.alt-4.2.0-1.3.noarch.rpm"
+RPM_HASH = "27cbe7af08aa2ae44e9909285e94a10750088b314a4b6e3aaf7648a0c1345db088add4d997ebb715a7fa5becd567ad2f822fee829e628e7860e580ea48024b40"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-keyrings.alt \

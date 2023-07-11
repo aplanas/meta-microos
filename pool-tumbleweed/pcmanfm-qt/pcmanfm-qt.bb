@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.3.0"
 
-RPM_NAME = "pcmanfm-qt-1.3.0-1.1.aarch64.rpm"
-RPM_HASH = "fda43a695d897eeb868f6f7b59eb19536dfca78372b2bcb341f1a4b4365fccd480ff5641c1b5d4691eb66746698f26ec5e47b754b8d93e6d071b4caf17fbe334"
+RPM_NAME = "pcmanfm-qt-1.3.0-1.2.aarch64.rpm"
+RPM_HASH = "d49e8e8f374c3c6afc15a95292f7637c47ef825c1f76860ab39b8408bb9a16d47e23b6be87800daf52e83f7e2209833778a45d121e87d7fd2e1bd8ea9952a2ca"
 
 RPROVIDES:${PN} += "config-pcmanfm-qt \
 pcmanfm-qt"

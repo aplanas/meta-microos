@@ -15,14 +15,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "2.01"
 
-RPM_NAME = "perl-Class-Autouse-2.01-11.20.noarch.rpm"
-RPM_HASH = "08e1c939ebe7a35a0d828cdc857e7c5c3c3b5d2763ffb1c77d9403d6d77eebddeead35168305010f927e85c155bfb6ba291a552048c765edd0c68d644dc7cf04"
+RPM_NAME = "perl-Class-Autouse-2.01-11.21.noarch.rpm"
+RPM_HASH = "6c6c47d6a5d3bbc315b6d63511a0e7657a56c3d28e1a3a8059679c0126733d766492f457fa3e6823ef2b5cc290144f563d6324bf78a3ad05fb896a7fc25f3f61"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Class--Autouse \
 perl-Class--Autouse--Parent \
 perl-Class-Autouse"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

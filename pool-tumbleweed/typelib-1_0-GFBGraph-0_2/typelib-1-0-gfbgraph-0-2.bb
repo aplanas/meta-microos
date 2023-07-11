@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.2.5"
 
-RPM_NAME = "typelib-1_0-GFBGraph-0_2-0.2.5-1.8.aarch64.rpm"
-RPM_HASH = "e5383f3e68aa0212db2be29f38c0f045c79eb556078e4842803dbfaba2661d23b747996d3d6be9cde9d55acceec45efbff982a94f9769f20aea3db2d89cb311a"
+RPM_NAME = "typelib-1_0-GFBGraph-0_2-0.2.5-1.9.aarch64.rpm"
+RPM_HASH = "fee536e01b2acfb878f1a389501c5eb225de467f0ddfd809c4695cd456987613c4d09ad08339979e74b4df9be975fd9ea827aa2f09f6c7ce4d3e0e0921dd6416"
 
 RPROVIDES:${PN} += "typelib-1-0-GFBGraph-0-2 \
 typelib-GFBGraph"

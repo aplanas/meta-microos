@@ -5,11 +5,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.5"
 
-RPM_NAME = "screenkey-1.5-1.8.noarch.rpm"
-RPM_HASH = "9af84b5f605fcd0058836fc2126e2bd143d48b3275c91b7df4dc73c589c115857b2ebd2d340ee359f798162a714ae033fae3d91e9748371a2ce84fd40e838911"
+RPM_NAME = "screenkey-1.5-1.9.noarch.rpm"
+RPM_HASH = "b737047d1190fb4d298991074a58131cef01767edbacf72433c0336eb612ec8d603d12ac0196c03ee932336825faede6078c7dca4849e6619eda692f0fe7bacf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-screenkey \
+RPROVIDES:${PN} += "python3.11dist-screenkey \
 python3dist-screenkey \
 screenkey"
 

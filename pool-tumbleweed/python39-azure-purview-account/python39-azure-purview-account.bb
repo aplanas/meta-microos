@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0b1"
 
-RPM_NAME = "python39-azure-purview-account-1.0.0b1-1.8.noarch.rpm"
-RPM_HASH = "34ec2aa5c7814ed2342235d1f63e11e29244fc1d2c92da112f1f7e66182243a5d9fbaffd2356e80456ccce23768a64e3169b3e75615f73450a7cd5a89eb9fc9d"
+RPM_NAME = "python39-azure-purview-account-1.0.0b1-1.10.noarch.rpm"
+RPM_HASH = "7a48265a96b8035bbbe1d3e739b4d0192d3f204427f86d0fe48f5966fc2d4b00ec2fba3fd7567e2c8a06da7ddcfb89b4025814489ef7413b90a4cfb6781a91b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-purview-account \

@@ -4,21 +4,16 @@ LICENSE = "Apache-2.0 & BSD-3-Clause & GPL-3.0-only & MIT"
 
 PV = "6.0.1"
 
-RPM_NAME = "python310-Mathics-6.0.1-1.1.aarch64.rpm"
-RPM_HASH = "edd845b0accc97eaf04cba848fc4005584f3215f5a150f099db5bcc3be41bf614618817485e52a5f333017bcce7b56576a55c1270a858715ba855e449cdbb860"
+RPM_NAME = "python310-Mathics-6.0.1-1.2.aarch64.rpm"
+RPM_HASH = "d451a0401eb52d786f73dfcb38e954c2f3f501f0bdf8271eea0995b60c0bebe3cb504f92bdb5444f65e642fa7a2ecb2efccf9856f100dcd4735babb9c135717b"
 
-RPROVIDES:${PN} += "python3-Mathics \
-python3-Mathics3 \
-python3.10dist-mathics3 \
-python310-Mathics \
-python310-Mathics3 \
-python3dist-mathics3"
+RPROVIDES:${PN} += "python310-Mathics \
+python310-Mathics3"
 
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
 /usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-python-abi \
 python310-Cython \
 python310-Django \
 python310-Mathics-Scanner \

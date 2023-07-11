@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.2"
 
-RPM_NAME = "python39-pyparallel-0.2.2-3.17.noarch.rpm"
-RPM_HASH = "5acefd5f2cbb8bd99423bb55a8b41aba5321591c80374af735dfc38bd47c1e25cfb72d4db8af51c00d765fc37454511d2b0abd7b07ae65b4d9d8e0377556ad11"
+RPM_NAME = "python39-pyparallel-0.2.2-3.18.noarch.rpm"
+RPM_HASH = "30b98c05f335789da97078dfe47c70c147271d166250d3d8111eb2bc9a8a02b9b4275be41fdcd6ae9fed8040012b570c7b18ba18dbca82e1439d85564d9237ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyparallel \

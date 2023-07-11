@@ -12,8 +12,8 @@ LICENSE = "CECILL-C"
 
 PV = "5.3.5"
 
-RPM_NAME = "libmumps5_3_5-5.3.5-3.3.aarch64.rpm"
-RPM_HASH = "676de5bf507509d02347ce04900c7bb4d8e28183da66c32a16e547ededd91e6b4e9ac9150a9dcdab7cd2d3144b5a0443957df5fd6b9bcaa61e73bbb6f1c44d81"
+RPM_NAME = "libmumps5_3_5-5.3.5-3.4.aarch64.rpm"
+RPM_HASH = "66a45d76ce257c4d3cdd99fb97f56a279e064fae5651640b90ec1bbb28edbe13ebcf44a280acf7744309d645fc608e726b1a067de74eec5a41bb87dfa6aa64a9"
 
 RPROVIDES:${PN} += "libcmumps-seq.so.5.3.5 \
 libdmumps-seq.so.5.3.5 \

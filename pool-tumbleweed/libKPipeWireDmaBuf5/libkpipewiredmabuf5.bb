@@ -3,10 +3,10 @@ DESCRIPTION = "KPipeWire provides PipeWire integration for the Plasma desktop an
 This package provides a helper for downloading DMA-BUF textures for CPU processing."
 LICENSE = "LGPL-2.0-only & LGPL-3.0-only"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "libKPipeWireDmaBuf5-5.27.5-1.1.aarch64.rpm"
-RPM_HASH = "be1b2d71bda5ca7f40a9d12810e07962c8bbffe63fc4dce11eb062defa197b22b98bf6cd3237dd6f469379c755ae2b6fa2687213389da9d200a71146da3cea34"
+RPM_NAME = "libKPipeWireDmaBuf5-5.27.6-1.1.aarch64.rpm"
+RPM_HASH = "c88560b926d1b0a910e8aba03d85d110c11722df305b9154bd67bd7542abd96d2f0a34be8d0150dec755a9dd4af71da23110ea370b9a5ca04c53d0e0e2b20e9e"
 
 RPROVIDES:${PN} += "libKPipeWireDmaBuf.so.5 \
 libKPipeWireDmaBuf5"

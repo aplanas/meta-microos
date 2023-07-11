@@ -5,8 +5,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-pogooglue-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "e95bb3403233778c3b75ae469c76a12c04ed546760fb277866c7e2d09d40465cefbea768a87ff64ef2662b144a76c90e3ce1fb7b742d1b90e72db21c52d7f1f6"
+RPM_NAME = "leechcraft-pogooglue-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "0ecc8d974eb14bed6e8e0134a3065ef3759a68d305fa92ca90cbc3b92d8c42233a96fd26a6849a198f0bd774a5220949650ceeeb8d55f3b219f4ab7f705e22f5"
 
 RPROVIDES:${PN} += "leechcraft-pogooglue \
 libleechcraft-pogooglue.so"

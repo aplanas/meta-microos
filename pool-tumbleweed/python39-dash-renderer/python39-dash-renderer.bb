@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.9.1"
 
-RPM_NAME = "python39-dash-renderer-1.9.1-1.10.noarch.rpm"
-RPM_HASH = "7bd3501f18b0d2f47898a52341035b480736c1d848c9c1e2f93bd56f95ce98f21529244d141e4e8ea191cadf663209a48fc0d28ab450d694bf44bbb6881d03cc"
+RPM_NAME = "python39-dash-renderer-1.9.1-1.11.noarch.rpm"
+RPM_HASH = "7a2224cd599e9b652b4affe30a81f8775034b31dbd92fe4f38976e8b2d104648339564b73c1752b3fb9d45370380e6052dd817510494396723e4ad72317498d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-dash-renderer \

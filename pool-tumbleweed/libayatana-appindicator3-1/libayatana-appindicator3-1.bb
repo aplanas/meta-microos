@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only & LGPL-2.0-only & LGPL-3.0-only"
 
 PV = "0.5.91"
 
-RPM_NAME = "libayatana-appindicator3-1-0.5.91-1.4.aarch64.rpm"
-RPM_HASH = "add1be32e910a671daaf7bf6386f871b6f42a2f3435479d521680157ab7b3469531fe468cef996484c8b479c951e00891451bd710e4e3c15c37bd4f0e59f9a45"
+RPM_NAME = "libayatana-appindicator3-1-0.5.91-1.5.aarch64.rpm"
+RPM_HASH = "bfa78485a489bc06205a0c3c72cec93dc2616197e5e2e0974f2e421c85362366ae8df34e97a9f7f88b16c723602f558e82fd3ed3360aabcb45e2314cff949456"
 
 RPROVIDES:${PN} += "libayatana-appindicator3 \
 libayatana-appindicator3-1 \

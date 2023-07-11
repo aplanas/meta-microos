@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.8"
 
-RPM_NAME = "weechat-ruby-3.8-1.1.aarch64.rpm"
-RPM_HASH = "3450ead98177f1b4b4fc356fbe6f3c8be827cd9ab46af8d413a1676f3e7692509798258b7bb39653333bdbb1b9bf43b6400a4274d7b3d97abb6a4b1bc2258cb9"
+RPM_NAME = "weechat-ruby-3.8-1.3.aarch64.rpm"
+RPM_HASH = "4a4d107ca7798ab4beb7b0397e1b81904ec654a765ea7168fb72f22a71d31e8d8963865ed00345ffc40c6cdd12f749615b8cc968100597761cd3a881928c31c5"
 
 RPROVIDES:${PN} += "weechat-ruby"
 

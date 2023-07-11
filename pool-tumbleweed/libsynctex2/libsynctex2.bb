@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "1.21"
 
-RPM_NAME = "libsynctex2-1.21-91.1.aarch64.rpm"
-RPM_HASH = "7d3aea5ea268f8de2a35a68b89ffc3c5bdc80a34498e3b007b0baac6bea6c7856fc1208872295742e8cc3dec5f61eb532b19db70a6ca173fe27fa6fbc369914e"
+RPM_NAME = "libsynctex2-1.21-92.1.aarch64.rpm"
+RPM_HASH = "f8a868079c0ad978259921e018fcbcc92a1631cee3d6f52f83e436b5a346e7c0ab470cc10f378a220393b76089d01638fa8490de8b79b6e72ee5afeeff31a97b"
 
 RPROVIDES:${PN} += "libsynctex.so.2 \
 libsynctex2"

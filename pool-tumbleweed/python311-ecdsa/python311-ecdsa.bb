@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "0.18.0"
 
-RPM_NAME = "python311-ecdsa-0.18.0-2.1.noarch.rpm"
-RPM_HASH = "b99a840a25f364a802bbba356543a2e9693279001383d3e5d9b28129ecb6c72a08d35edfe302a87ed23302b87a6fe29e183e062946f12085b99ffbcdec1f8a41"
+RPM_NAME = "python311-ecdsa-0.18.0-2.3.noarch.rpm"
+RPM_HASH = "d1bb21e9f6b4fca9adab0fbfd763c443afee8b465a253c8d64c0c715a4e61caed0cb894e3c6c9d7679c51bc19a21c302a0263d8434a8ec70827431cfed214f98"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-ecdsa \
+RPROVIDES:${PN} += "python3-ecdsa \
+python3.11dist-ecdsa \
 python311-ecdsa \
 python3dist-ecdsa"
 

@@ -4,8 +4,8 @@ LICENSE = "OFL-1.1"
 
 PV = "2023.201.svn64343"
 
-RPM_NAME = "texlive-ebgaramond-fonts-2023.201.svn64343-53.1.noarch.rpm"
-RPM_HASH = "a00cb8f697eea61f9722638ebeee4a61ad434d84a5de9001de6a2749c8219ce3e7587aa309811626552c70b9032a675cdf48d8d68feeafc0aa841bd69dc2d622"
+RPM_NAME = "texlive-ebgaramond-fonts-2023.201.svn64343-53.2.noarch.rpm"
+RPM_HASH = "b410e7e2106530aeeb1795b748edb36175a5f83b4affed5057f853898c08df4adcecbd72c41bf82cde1189028fb0f7b2b5ed55aa498bd06a25e30a6ba19b80ff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-ebgaramond-fonts \

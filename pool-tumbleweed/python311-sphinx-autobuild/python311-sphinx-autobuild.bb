@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "2021.3.14"
 
-RPM_NAME = "python311-sphinx-autobuild-2021.3.14-1.2.noarch.rpm"
-RPM_HASH = "9b75f7bc534b3b294bbb32772af72a2643d1ebd50242755e2343ac82d49a6a774a9e5113143e1ab6d4b76e6698951aba01e719c1b4f8fd9b6cbc19d76c7385dd"
+RPM_NAME = "python311-sphinx-autobuild-2021.3.14-1.4.noarch.rpm"
+RPM_HASH = "51d083b6a800b75d3a8a3f8efe02cd1f48e54dadbc967be843b3d65b7b84a5acf6834e4c6ae2d8fef9fe3e1a4d421be749921f2bc76f690e8197e33a1b5479a3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-sphinx-autobuild \
+RPROVIDES:${PN} += "python3-sphinx-autobuild \
+python3.11dist-sphinx-autobuild \
 python311-sphinx-autobuild \
 python3dist-sphinx-autobuild"
 

@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.2.2"
 
-RPM_NAME = "gflags-2.2.2-3.1.aarch64.rpm"
-RPM_HASH = "de728e5fe86c5e7f8e0283b5c9e452d909ac410a72f18283b4c43c5343932bb77ad4351bd382f08b9c0d14d47c48fa3e0592adcb2df6b33c7fe298901fe0e0e5"
+RPM_NAME = "gflags-2.2.2-3.2.aarch64.rpm"
+RPM_HASH = "c184b52184af9f17cf455411606b62283942e6de9bb453dada26f0d41b8f25fb61e53effcfbb0515f1765129c7da2fed93eeb82ae29b9c350b03bee9dee0c8c0"
 
 RPROVIDES:${PN} += "gflags"
 

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2"
 
-RPM_NAME = "libbraiding0-1.2-1.3.aarch64.rpm"
-RPM_HASH = "0bbb14fdf68f9afcccd7d9866081d3c56ca73856d6d8bbd1fc63cf1d4a2431872fc3e793ead9d7a5d45318de24820bcef00b6df0fa0ce89d2c2bb888b7f7ed50"
+RPM_NAME = "libbraiding0-1.2-1.4.aarch64.rpm"
+RPM_HASH = "7eee3bda9b7a610404ae77f91f2d3cf78eb63e846c2dd7e0464b46a8113673a5eca73128c51818f49dbcd919a48f458b02a6b791e11776e5fbf9f5ff21a244bc"
 
 RPROVIDES:${PN} += "libbraiding.so.0 \
 libbraiding0"

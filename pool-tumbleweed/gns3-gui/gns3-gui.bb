@@ -11,18 +11,18 @@ can take advantage of GNS3 to study Redhat (RHCE, RHCT), Microsoft (MSCE, \
 MSCA), Novell (CLP) and many other vendor certifications."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.2.38"
+PV = "2.2.40.1"
 
-RPM_NAME = "gns3-gui-2.2.38-1.2.noarch.rpm"
-RPM_HASH = "680b0958058f497a5d959357ff71549fe636da4cd43f3c05f0d98127635d36c6608f4c72b79490ae69c3abc3e9ad15bef6772afd74668a2f8fa57d58f9e78740"
+RPM_NAME = "gns3-gui-2.2.40.1-1.1.noarch.rpm"
+RPM_HASH = "17b5bbc8cc98b95e00aa49a6a37e02235bdf1c553c2c91a9ce1126ea8458aec683b70b93e0f51cb077544ef4373cc0545172d0aaf13b25f911716131a0b5cf9b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gns3-gui \
-python3.10dist-gns3-gui \
+python3.11dist-gns3-gui \
 python3dist-gns3-gui"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-/usr/bin/sh \
+/usr/bin/python3.11 \
 python-abi \
 python3-distro \
 python3-jsonschema \

@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.2.6"
 
-RPM_NAME = "python-fastcluster-doc-1.2.6-1.5.aarch64.rpm"
-RPM_HASH = "e6d99c6e7c925866203dbad1abd33b3d4cb41019a2f8c2eb9235810f97850598a3f1e10288b8153865ff6cb8d540ddfaff714a40884f099b093135b1d2dcefb5"
+RPM_NAME = "python-fastcluster-doc-1.2.6-1.7.aarch64.rpm"
+RPM_HASH = "bb57ef2c0b6e1c3a08cef13712f76ada2bb43001d3f197a18f078cad7322179ace8f68b37a6a9700527a35fcbc15dbc81746e0653da9fde2e359f42dccd83bc9"
 
 RPROVIDES:${PN} += "python-fastcluster-doc \
 python310-fastcluster-doc \

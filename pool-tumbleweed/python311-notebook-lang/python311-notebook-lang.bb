@@ -6,11 +6,14 @@ LICENSE = "BSD-3-Clause"
 
 PV = "6.5.4"
 
-RPM_NAME = "python311-notebook-lang-6.5.4-1.1.noarch.rpm"
-RPM_HASH = "17aa8dd1a39e9f1fa0080be368664c278bd76930266ded808fa234c71e5d9f8c45f67c3950df0d8c4df98204bcd00acb5c05d3cda999da6883ebf4e108fcc42b"
+RPM_NAME = "python311-notebook-lang-6.5.4-1.2.noarch.rpm"
+RPM_HASH = "a7920af847a4632aab6d9b11dd7fd6c98800368a46d3eeba9d7292b6e19ffce60028205ac0137a8283642e08794eec27ad08313d9fd837b2b57ba5e35964300e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python311-jupyter-notebook-lang \
+RPROVIDES:${PN} += "python3-jupyter-notebook-lang \
+python3-notebook-lang \
+python3-notebook-lang-all \
+python311-jupyter-notebook-lang \
 python311-notebook-lang \
 python311-notebook-lang-all"
 

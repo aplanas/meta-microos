@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "3.4.1"
 
-RPM_NAME = "python310-sphinx-tabs-3.4.1-1.3.noarch.rpm"
-RPM_HASH = "7cec11da3498d3b68de5ee987e24953d0798285fcd9eac47f24dd88d39e813f92891bd34afce398ed5f4e841cbf4bc15aaec4fb9b5667dc354480138a93781a4"
+RPM_NAME = "python310-sphinx-tabs-3.4.1-2.3.noarch.rpm"
+RPM_HASH = "f492c000a06c74d604a62a5d7fe3140ff720164284c93cb06820d94cd0747ef20cf01aaafd4a46f283fc79a7fc75bf46a1ee360cb6d982f8efd29dcb491d3847"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-sphinx-tabs \
-python3.10dist-sphinx-tabs \
+RPROVIDES:${PN} += "python3.10dist-sphinx-tabs \
 python310-sphinx-tabs \
 python3dist-sphinx-tabs"
 

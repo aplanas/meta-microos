@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.6.1"
 
-RPM_NAME = "python39-dbus-deviation-0.6.1-1.12.noarch.rpm"
-RPM_HASH = "3442f29027e176ebd73e0c8e386cf5c9ecf372b452e6d1f02880290ed08da4bf337a953e116d54b5ba6a30e54b1b0e2162f0c64e7b14b63101209d16d7a278ba"
+RPM_NAME = "python39-dbus-deviation-0.6.1-1.14.noarch.rpm"
+RPM_HASH = "b26d4b41c0548af1123e0006013dc2d15ca8654c4bf1960590620b2674a6f8c20a26db1960047437136de3478e496ca6d894765491f773953c1d283625785885"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-dbus-deviation \

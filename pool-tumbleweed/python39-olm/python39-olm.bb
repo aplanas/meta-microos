@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.2.14"
 
-RPM_NAME = "python39-olm-3.2.14-1.5.aarch64.rpm"
-RPM_HASH = "54e779a2ec7a2cab439f0b817b7dd9519b25171db7b97c24b909d34e5de082adebb32455ae1e44c45d9b249e8bbe4f1d17c76e8f2de7206c927a884c5b0dd6b5"
+RPM_NAME = "python39-olm-3.2.14-1.6.aarch64.rpm"
+RPM_HASH = "2a301715366c4558647bf4f826539bdd26e1dbb042fd505c6ad03aa8a89b9548f0fc7fb25f459e71995ba74d98ac0fcf2547b663605d6475156de28c2eb5270a"
 
 RPROVIDES:${PN} += "python3.9dist-python-olm \
 python39-olm \

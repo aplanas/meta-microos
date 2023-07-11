@@ -4,10 +4,10 @@ automatically initialized from the configuration and automatically propagate \
 their changes to their respective configuration files."
 LICENSE = "LGPL-2.1-or-later & GPL-2.0-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "libKF5ConfigGui5-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "ce160c6f60a07722208c0c868428d2f5aa4160352f580fe9a1698cee773dd575e0b5dc7c76ce524cd3d9bd84da7416f1b27150c1aa7891eab5fbea0887367b76"
+RPM_NAME = "libKF5ConfigGui5-5.107.0-1.1.aarch64.rpm"
+RPM_HASH = "c6119f2274aaac7e05741006dd11f2ee850f5008e8c0b3aee76c712279677496cc24412b059be2be8453f168caca7a9f82ec3cdb7b9e1479b60ce311b62fc59a"
 
 RPROVIDES:${PN} += "libKF5ConfigGui.so.5 \
 libKF5ConfigGui5"

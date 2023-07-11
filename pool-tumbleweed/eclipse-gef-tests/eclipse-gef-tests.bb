@@ -4,8 +4,8 @@ LICENSE = "EPL-1.0"
 
 PV = "3.11.0"
 
-RPM_NAME = "eclipse-gef-tests-3.11.0-2.7.noarch.rpm"
-RPM_HASH = "47b8c20f946fc227d9f7b3f21e93186551f51c351b6a08e4b9952c74d87820a29975d4a16ac2b38bdea965b330be47e26897a3faed07ebcae4f0dbaa13bcc778"
+RPM_NAME = "eclipse-gef-tests-3.11.0-2.8.noarch.rpm"
+RPM_HASH = "3a7aa0cedd5b233fc8d2a858dcf6607aa46e6d83ffd59e5f74d4ddf530d64e828905657d76535bc9e5a480456dd7a125b8f826f38b287e288e186e5503025b3e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eclipse-gef-tests \

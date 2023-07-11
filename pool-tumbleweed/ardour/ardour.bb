@@ -15,8 +15,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "7.4.0"
 
-RPM_NAME = "ardour-7.4.0-1.1.aarch64.rpm"
-RPM_HASH = "303fc31a8f47bd913734913a02912aafde3a8a259c8cb697f4c893cf343aa152735ffab50f5a43a4629a308debab8366ad1184262cb7d0347e75115af525e3dc"
+RPM_NAME = "ardour-7.4.0-1.2.aarch64.rpm"
+RPM_HASH = "f03f694447df24c3d0db1457d07f88ba69baf7a21bfded25f7f5ce8a1f19b54166c9cb5a949d0e0178903c52c7fc3d997096d0846ef1aca1e568dd275a234515"
 
 RPROVIDES:${PN} += "ardour \
 config-ardour \

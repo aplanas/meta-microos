@@ -6,13 +6,13 @@ LICENSE = "Artistic-1.0"
 
 PV = "1.701"
 
-RPM_NAME = "perl-Class-Multimethods-1.701-1.20.noarch.rpm"
-RPM_HASH = "f558a8b819f2d0533e663778152647a236931c2efa74f559a3dea380e0cf6adcc1eaa4ddc064d074c038ce5c91fed13855ab9f10f3910aabf06af57d6a9354dd"
+RPM_NAME = "perl-Class-Multimethods-1.701-1.21.noarch.rpm"
+RPM_HASH = "6137006c34689486e9a68a3e82da47ca5217ec83f4a3353e992586dbe4e5da744e25fa2265a3e64283e949b8cd7e8fb5578f1115f616818afa492fd90648f20f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Class--Multimethods \
 perl-Class-Multimethods"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

@@ -18,8 +18,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.3.1.0svn56319"
 
-RPM_NAME = "texlive-qyxf-book-2023.201.3.1.0svn56319-53.1.noarch.rpm"
-RPM_HASH = "9e022560079939f078f6d054b027206cd2fdc90b33c8c64c968200970d8f202d5f3c14010947b8fb82eb540cc0b79d77d1bf077c7b7cfef48f1aa817c3808bbe"
+RPM_NAME = "texlive-qyxf-book-2023.201.3.1.0svn56319-53.2.noarch.rpm"
+RPM_HASH = "dd87220ca6ff864c5a9410578923d1d2d7a9ca583400e79ca5ac1cdcb7a70638168956cb51c3a077959aa85e54c3c05fb635d64c1170e3bd1fe5d3ee71a93ce1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-qyxf-book.cls \

@@ -16,8 +16,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-or-later"
 
 PV = "2.1.0"
 
-RPM_NAME = "jaxodraw-2.1.0-6.6.noarch.rpm"
-RPM_HASH = "fb2fc36a86253edebbf1e03ffa61bbf2bcc4d05770a5a47e34bfb00601e242f5674f95af59c12d0a2d2ae56cfccc946350253cb8a01a56ea016412292637c65d"
+RPM_NAME = "jaxodraw-2.1.0-6.7.noarch.rpm"
+RPM_HASH = "833d16687ba13e300eeb23662fb21fd63a99bdfc76f28641a1ff3a2a68b035e66a921b5dc63356a6b09900f06dbd055d2cb9d144f7063a779479ae6c00a4dc7a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jaxodraw"

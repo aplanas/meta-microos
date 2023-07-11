@@ -4,11 +4,12 @@ LICENSE = "BSD-2-Clause-Patent"
 
 PV = "0.14.0"
 
-RPM_NAME = "python311-edk2toolext-0.14.0-1.4.noarch.rpm"
-RPM_HASH = "0c1621c7b660ac9d87a079b62bbb42d3829867d85688de4e2f8fba1c12d491d5861c7ee952292929938ee72bfa05b4c012ae634c80a0ff1363f9c3ddbc88c34e"
+RPM_NAME = "python311-edk2toolext-0.14.0-1.6.noarch.rpm"
+RPM_HASH = "8e6e4e0046b08e12123bc35e8765c0317ec6e83999f82cb92d9d5030d97053a637771365881c6a4063197b670ffd12eb50a89aa920c9ade3e926bc5154cafb53"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-edk2-pytool-extensions \
+RPROVIDES:${PN} += "python3-edk2toolext \
+python3.11dist-edk2-pytool-extensions \
 python311-edk2toolext \
 python3dist-edk2-pytool-extensions"
 

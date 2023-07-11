@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.15"
 
-RPM_NAME = "xmlgraphics-batik-squiggle-1.15-2.3.noarch.rpm"
-RPM_HASH = "62d39e84d67e89c3a04373c9fcbeca2c018bfb881fc498b033e88b7ecd3ae117c62ae56b74162ab764c2e50a4f75e56a936a5746a2a968afe2e8818a2fda8adc"
+RPM_NAME = "xmlgraphics-batik-squiggle-1.15-3.1.noarch.rpm"
+RPM_HASH = "72f551120beb246f310a973bdf419dfa29707cc9d918c0b1238f312068462fea9d51adfa0142e600dddfd771f7f0a3dccc127f4beac02febd5cfdaa106d611c3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "batik-squiggle \

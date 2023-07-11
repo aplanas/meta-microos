@@ -11,8 +11,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.6.5"
 
-RPM_NAME = "powermock-javadoc-1.6.5-4.10.noarch.rpm"
-RPM_HASH = "e90010946b129210da59ac2465ab5038f55f6a340d85c73275619db147f8d8d82e3e6e99a4876f97973c665e2984953115210cf7577705267cc001ab6e45c605"
+RPM_NAME = "powermock-javadoc-1.6.5-4.11.noarch.rpm"
+RPM_HASH = "917e25ffd26cc2ef486a8dccade531a0ee1d9a85963b31cf57cb359d8fe90366d955cb7d9f8d7a35e1673042d3ff87cc8c219f36878b4b8f271c6dac11c2b5e1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "powermock-javadoc"

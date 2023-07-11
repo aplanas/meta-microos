@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.4.0"
 
-RPM_NAME = "libkcapi1-1.4.0-2.3.aarch64.rpm"
-RPM_HASH = "4feb34fa9c8ecaa6e011bac7b754677b40dc646a03bf96c6d0227fd7c99d0e5aa132f7f5b20ad267383f6f3ca8640993b43bd2e509ef978c24d47a46dedbd9bf"
+RPM_NAME = "libkcapi1-1.4.0-2.5.aarch64.rpm"
+RPM_HASH = "5710ae86ec02641048f7771dda250c9589ad52793c61ecc421705e475fce0e1f52ace1f44e04fc9132473c3586562034effa6b9b0b17063cd93434c45d9b61e5"
 
 RPROVIDES:${PN} += "libkcapi.so.1 \
 libkcapi1"

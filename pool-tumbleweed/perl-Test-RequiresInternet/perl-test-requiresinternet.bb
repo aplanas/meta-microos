@@ -22,13 +22,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.05"
 
-RPM_NAME = "perl-Test-RequiresInternet-0.05-1.26.noarch.rpm"
-RPM_HASH = "bcad611dffa9febabe4eed41e7c1cdea738b03a46d7463b3296ab94be52e762982935520667d798d17a114fe0d9409484de8c990f03f75b0dc1c9822537fdde7"
+RPM_NAME = "perl-Test-RequiresInternet-0.05-1.27.noarch.rpm"
+RPM_HASH = "4270e8bd185401fa6d1361508392e91dc3fddc0866f30ed7e5ded7d6354a382faa967b547c1207b03b6c591c9bd0cb4f032fa54894e5d77bdb54a3dc797eabb6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--RequiresInternet \
 perl-Test-RequiresInternet"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

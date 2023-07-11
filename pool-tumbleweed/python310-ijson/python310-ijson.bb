@@ -4,11 +4,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.1.4"
 
-RPM_NAME = "python310-ijson-3.1.4-1.11.aarch64.rpm"
-RPM_HASH = "89999f7f27822f67ad21969d1ab895dc132b5bbddb7c71c6a1be21f01d983a72b0a382fa9412c0cebcb55f8c6540d6802ca9ac931e22108bb08ee57054bda9df"
+RPM_NAME = "python310-ijson-3.1.4-2.2.aarch64.rpm"
+RPM_HASH = "643d857c5a5e5aef658cd94e6f5da3cec664c682a97b08f25279d2a47f3984c3d6abd66e392ec81fc90046c4f503760357fddd2f83a484ad16c1821df080c8e9"
 
-RPROVIDES:${PN} += "python3-ijson \
-python3.10dist-ijson \
+RPROVIDES:${PN} += "python3.10dist-ijson \
 python310-ijson \
 python3dist-ijson"
 

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.8.0.0"
 
-RPM_NAME = "ghc-http-media-prof-0.8.0.0-6.3.aarch64.rpm"
-RPM_HASH = "b8dd63e08a2915a7ba30d468af34c354e2e8ec59766557741d6ca48905f500a1383c302a71cb1cf44cb2e6c71e7c33b96bc1780745bf603985c53857bce24fc2"
+RPM_NAME = "ghc-http-media-prof-0.8.0.0-6.6.aarch64.rpm"
+RPM_HASH = "4de09e5295304c4fbc284a9ffb68ab441bb08db13e24e975a564e64c751518ec49ad56e2e8b6d44206ebf834402c6d1d61f07a830f121d6cb0b7ba9ae59f390e"
 
 RPROVIDES:${PN} += "ghc-http-media-prof \
 ghc-prof-http-media-0.8.0.0-9GHxrTRagkN589CoQuo7sU"

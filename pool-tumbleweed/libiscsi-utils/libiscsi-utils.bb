@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
 PV = "1.19.0+git.20230208"
 
-RPM_NAME = "libiscsi-utils-1.19.0+git.20230208-1.3.aarch64.rpm"
-RPM_HASH = "ca8975735021f7cce5294cc0a9003665ddeb4bee4ba6b1bba5ef3d514db19dc05e3d0e1a86b1cbf0e1d47b572578de63c72c63c7f047b285d4204d1006124f1e"
+RPM_NAME = "libiscsi-utils-1.19.0+git.20230208-1.4.aarch64.rpm"
+RPM_HASH = "a178cc78d5fdba9242af17c9c677b3fc119d94430da2c49b82eefa1cad1858ef4ba8dff4f32015d3c04c9423777310a938738d227dc9b59a60d60d755196f805"
 
 RPROVIDES:${PN} += "libiscsi-utils"
 

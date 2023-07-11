@@ -10,11 +10,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.4"
 
-RPM_NAME = "python311-ftputil-3.4-3.15.noarch.rpm"
-RPM_HASH = "3fb65be48bc95dbc59a2b8b91a5421efb0d7a1cf42f2a47f4747e82f8f7d61fe4ffb9c989b8f0e14a35701d2c2bfe8c5814cd0e289747d8b89fda3a9afdc1b77"
+RPM_NAME = "python311-ftputil-3.4-3.17.noarch.rpm"
+RPM_HASH = "048c6186b49abbeb30be12114148dfa3bffc2268b50e847f6088b73648486cd91048f86b0768b47f323180603eb6a0fd89fb7ba4b6c2f3f041d72e920444cab9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-ftputil \
+RPROVIDES:${PN} += "python3-ftputil \
+python3.11dist-ftputil \
 python311-ftputil \
 python3dist-ftputil"
 

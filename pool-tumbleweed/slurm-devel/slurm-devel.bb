@@ -4,8 +4,8 @@ LICENSE = "SUSE-GPL-2.0-with-openssl-exception"
 
 PV = "23.02.2"
 
-RPM_NAME = "slurm-devel-23.02.2-1.1.aarch64.rpm"
-RPM_HASH = "057476f09a8f46711c2a906b711d80bd7c8a6784e690a37dccfe34cca4485d40020244dc817957f41eb3c168d5953c96378a40310db3b07eff9088b205fa7705"
+RPM_NAME = "slurm-devel-23.02.2-1.3.aarch64.rpm"
+RPM_HASH = "d1317438e7ff9d80fb4a6c669c84c9aff55b15ab52f9bf9b1933186f865d6b11d27cf29bceca1ae097e9bf55306a23337aecbbc3f17f8c78cc365c9f6614985c"
 
 RPROVIDES:${PN} += "pkgconfig-slurm \
 slurm-devel"

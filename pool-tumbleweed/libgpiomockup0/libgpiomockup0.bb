@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.6.3"
 
-RPM_NAME = "libgpiomockup0-1.6.3-2.3.aarch64.rpm"
-RPM_HASH = "a38959255ce3ec89e80a0a2f1f2d12a358f28fef6a51d4184a822b5f57105d0ad58b394bc2966b1540501e8aa28574940d50717c74febf514fa59b26e529808b"
+RPM_NAME = "libgpiomockup0-1.6.3-2.4.aarch64.rpm"
+RPM_HASH = "49bb1ba8db1f877614fa3c6899c4fc8df12a6748babb672c73552e26827586697cefb148dc788cee5bb0b6075ce93f51712321410c94d14b001df9708094f263"
 
 RPROVIDES:${PN} += "libgpiomockup.so.0 \
 libgpiomockup0"

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "0.2"
 
-RPM_NAME = "gkrellm-cpupower-0.2-2.28.aarch64.rpm"
-RPM_HASH = "ad0b8a0670bbadebc20e7a83afa74b572d108bfae1606dc9392633940700ca8777acc7a6275a669a441c1295a179eceb80deccc297d3ec2ae4e5387bac73e19a"
+RPM_NAME = "gkrellm-cpupower-0.2-2.29.aarch64.rpm"
+RPM_HASH = "a769fb575865b67d02d5e999874b855afc71695eae798a8c38f659de2b2ab97b6b69157e89b8d42f50bad543e37365cec36fd692dc133c9e7ce0be9aff55c352"
 
 RPROVIDES:${PN} += "gkrellm-cpufreq \
 gkrellm-cpupower"

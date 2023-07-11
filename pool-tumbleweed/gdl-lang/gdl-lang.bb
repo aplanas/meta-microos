@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.40.0"
 
-RPM_NAME = "gdl-lang-3.40.0-2.9.noarch.rpm"
-RPM_HASH = "b61b3874865c4ce5d5b01dc4e581be4505cf874057c4c95b107349a30ebe3da4e7bb42b7b7983fb500b1e79cc80f04ad8367f6e54e92e91cf5e5e3d89aaa0a32"
+RPM_NAME = "gdl-lang-3.40.0-2.10.noarch.rpm"
+RPM_HASH = "9c84c6e3d70dc95c5dd2324e028353c8480b6b088aecbf4f2d5e502504f00e69f46ce02daa96f1d36abfad611afea88ba9cc9f7ab89df2af1084b75e001af942"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gdl-lang \

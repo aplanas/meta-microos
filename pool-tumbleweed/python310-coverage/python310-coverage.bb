@@ -6,11 +6,10 @@ LICENSE = "Apache-2.0"
 
 PV = "7.2.5"
 
-RPM_NAME = "python310-coverage-7.2.5-1.1.aarch64.rpm"
-RPM_HASH = "b2e1f681912b24858feb65b30d0bfeacdb00af67ec4d870ec1d519448bd25bebc4347ee3b26dd558d8793585c96c837e1fa3f963cb2a49c4784ea65016f9ec59"
+RPM_NAME = "python310-coverage-7.2.5-1.3.aarch64.rpm"
+RPM_HASH = "c351324d08123879fa71b79f4c8fc482c4c50cddf3c46e1f18539870575ae8ea5f55d2820e0085f5268e53e5c27f8614ca8ec44ae60b29e2fb09491d160f327c"
 
-RPROVIDES:${PN} += "python3-coverage \
-python3.10dist-coverage \
+RPROVIDES:${PN} += "python3.10dist-coverage \
 python310-coverage \
 python3dist-coverage"
 

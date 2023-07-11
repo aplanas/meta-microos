@@ -2,14 +2,15 @@ SUMMARY = "Translations for package gajim"
 DESCRIPTION = "Provides translations for the 'gajim' package."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.7.3"
+PV = "1.8.0"
 
-RPM_NAME = "gajim-lang-1.7.3-1.1.noarch.rpm"
-RPM_HASH = "28fb35f7cef68a3664706e76dd2bd5e89c6d7bead85c48a615b4bf4c3f26cb1fed925da4bd49557f83f10620e073032179a1277f16d5157abd3cc0e3064c01e3"
+RPM_NAME = "gajim-lang-1.8.0-1.2.noarch.rpm"
+RPM_HASH = "abe0820f93792abbad7cb68b41bb7e679b34c49e7ad69578cffd003814423a4ec4abbbe56c3e09e9e4c4b66a208ab882754ac6024554dbe9c71d58660ab9deaf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gajim-lang \
 gajim-lang-all \
+locale-gajim-ar \
 locale-gajim-be \
 locale-gajim-be@latin \
 locale-gajim-bg \

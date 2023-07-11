@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause & LGPL-2.1-only & Zlib"
 
 PV = "1.26.3"
 
-RPM_NAME = "efl-lang-1.26.3-30.6.noarch.rpm"
-RPM_HASH = "8d23c049ef90351463fe8fc5fdd9ddd2b6bea619ccd4efd4fa90783596e50d579537dc7eb92cf72741e0ed038e4bbc5a5d3dacec7241d051ea670af2a9b8a64c"
+RPM_NAME = "efl-lang-1.26.3-30.8.noarch.rpm"
+RPM_HASH = "36ae1270c86c3098b26afed9f6e48b9bac1e4b4946405009e1d783d63af8fd8dc0dede820195f7a398a67fe8ccfd98ee17469f1857f67c53a096e556c6bcb851"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "efl-lang \

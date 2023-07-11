@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "3.1.5"
 
-RPM_NAME = "libfcft4-3.1.5-1.3.aarch64.rpm"
-RPM_HASH = "1745d57ceb65d93b105c1f855d7952740596853756d8f69b23d8ed7e3374fbec7c0d1d2671a18f68b75d85155a66d6cecaa0d6d9318f926c7041f1ca43329431"
+RPM_NAME = "libfcft4-3.1.5-1.4.aarch64.rpm"
+RPM_HASH = "3cc3bb3d0dd4cb271bf3093aa330fbd8c2e4462dc498005f63fb22828ac186e5a09d4f5dde0fbba2e4aac0749040de3718fb379de88b4f7a13c89ef6de6c4e9d"
 
 RPROVIDES:${PN} += "libfcft.so.4 \
 libfcft4"

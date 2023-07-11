@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0+"
 
 PV = "1.1.2"
 
-RPM_NAME = "qrupdate-static-1.1.2-3.31.aarch64.rpm"
-RPM_HASH = "f2694ca4de9318e611a6f94fc2deaafe4abe4063426f05b5acbc8ea86fcad58e3f08275dd508aaea3958e867ed33b6bd04ac37064e2209067959773ac195c306"
+RPM_NAME = "qrupdate-static-1.1.2-3.32.aarch64.rpm"
+RPM_HASH = "0415a546e734a86dc1ec035c16105f4fb398f2eb09859e2ecf020b404518ee05a33e5d1eaf241f624f436a6cfab140516af8d3d579aee2eaf6c2364e633e1250"
 
 RPROVIDES:${PN} += "qrupdate-static"
 

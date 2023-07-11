@@ -5,8 +5,8 @@ LICENSE = "EPL-1.0"
 
 PV = "2.49.3"
 
-RPM_NAME = "libpathplan4-2.49.3-6.3.aarch64.rpm"
-RPM_HASH = "1ea57237790c3ebf3f93d5ae51984b90f7066fc15dc899dec31db7be735db6778887595a024e10f9f435a0a877de77f934eea65f53e780ce6dd46539d4b90314"
+RPM_NAME = "libpathplan4-2.49.3-6.4.aarch64.rpm"
+RPM_HASH = "2a8a11acf1318f4ae4132ce4de182d90a1d03e63aec45b6607e826ff02c32a5e5e47d765a08932c76f41809dec1f311c7478f7d663ff959101d3077470ad443c"
 
 RPROVIDES:${PN} += "libgraphviz6-/usr/lib64/libpathplan.so.4 \
 libpathplan.so.4 \

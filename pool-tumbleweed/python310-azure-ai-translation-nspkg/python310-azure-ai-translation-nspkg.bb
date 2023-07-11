@@ -8,12 +8,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python310-azure-ai-translation-nspkg-1.0.0-1.7.noarch.rpm"
-RPM_HASH = "6ba7b6909326d8e84259a80c707e078ab6e1c6e25769691bb043ddae1ac9e09f0d6ce856981be9220374812fd4c107cdbbc0f9591ee16eca32f088ec020dc5f9"
+RPM_NAME = "python310-azure-ai-translation-nspkg-1.0.0-1.8.noarch.rpm"
+RPM_HASH = "a7b8b51f852196885de463d7723653be24cbb426dced022136f33ea6dd2388a737f3391a1130fe36f550b23ee5333272fa0c69903230308eddb1396b93da0bd1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-ai-translation-nspkg \
-python3.10dist-azure-ai-translation-nspkg \
+RPROVIDES:${PN} += "python3.10dist-azure-ai-translation-nspkg \
 python310-azure-ai-translation-nspkg \
 python3dist-azure-ai-translation-nspkg"
 

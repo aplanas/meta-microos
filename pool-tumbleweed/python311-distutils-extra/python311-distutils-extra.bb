@@ -9,11 +9,12 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.50"
 
-RPM_NAME = "python311-distutils-extra-2.50-1.1.noarch.rpm"
-RPM_HASH = "7cec7dca9327daaafbfefcb61c26f686d1cd7b101264a391c3d0dde345d057a2db57c651daee529ea13f4f594d3d909c4ac9c9d2837ffdb8d3c96c03dbe64938"
+RPM_NAME = "python311-distutils-extra-2.50-1.2.noarch.rpm"
+RPM_HASH = "33b77964ce17305b25704875596f55a484b83b958f836af4df322ccec3bc796d4d4749ed3f498f874aff57703858515a1969ea66af7fd22729e23902c57fff21"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-python-distutils-extra \
+RPROVIDES:${PN} += "python3-distutils-extra \
+python3.11dist-python-distutils-extra \
 python311-distutils-extra \
 python3dist-python-distutils-extra"
 

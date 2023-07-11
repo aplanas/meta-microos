@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "43.2+6"
 
-RPM_NAME = "libgpaste2-0-43.2+6-2.1.aarch64.rpm"
-RPM_HASH = "db7b2e8bfe5a57f37c3b17d7a527645dba1d6f354ee9e22b0044e88ab5deb8be66fd6ded2d6f3adcbcc1eaea2e6ee73e6884f5c7db3fa81355b7ec39bc58d179"
+RPM_NAME = "libgpaste2-0-43.2+6-2.2.aarch64.rpm"
+RPM_HASH = "69e50abf24d7ff68b440c433051541047c438f1f73a8bdb68110691fbf58644754c58b5661f7ef8cc01ed57edf3198bd6921e9031c4abfb7fbcc96b2d1e6200b"
 
 RPROVIDES:${PN} += "libgpaste-2.so.0 \
 libgpaste2-0"

@@ -9,10 +9,10 @@ This package contains the development headers for the library found \
 in libdmx1."
 LICENSE = "MIT"
 
-PV = "1.1.4"
+PV = "1.1.5"
 
-RPM_NAME = "libdmx-devel-1.1.4-1.19.aarch64.rpm"
-RPM_HASH = "b2527dd543d1708c48bbdab6a4015a520f38ebc2330acc89d63909be43a07ba7644db5c5e6a3ec44131635aa631679122278ce2fd26d2977d93755d3b479888d"
+RPM_NAME = "libdmx-devel-1.1.5-1.1.aarch64.rpm"
+RPM_HASH = "35c015304dc706ed3320e525a6e5c1b355ca0d245e8f9d2b676850d706780886f62374835c8b8196cb7fcc223d858ec367c22234d31ce94988e8e5a7a8a2d0ec"
 
 RPROVIDES:${PN} += "libdmx-devel \
 pkgconfig-dmx"

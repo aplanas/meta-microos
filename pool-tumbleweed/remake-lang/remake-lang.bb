@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.3_1.5"
 
-RPM_NAME = "remake-lang-4.3_1.5-1.10.noarch.rpm"
-RPM_HASH = "f848bda5fa0bf96695e5340b6f430f5b82627ef36ec2c2cbf34d655ffddfa6d8240bc28f619fb77d0cc0f587b81c603f8709a58b7a79158f482f4c3fdd6901af"
+RPM_NAME = "remake-lang-4.3_1.5-1.11.noarch.rpm"
+RPM_HASH = "7d3060dcaf70a1fc525fba70e6f21246619497890ad712238c3788881c3509774c429750bf417102789c8f462db240f17fbc214c50c8ae10e15cfec6beae81e3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-remake-be \

@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only | MPL-2.0"
 
 PV = "3.0.16"
 
-RPM_NAME = "libical-glib3-3.0.16-1.3.aarch64.rpm"
-RPM_HASH = "50e199457d22ce760398552f239a4f3ec88bb378fda1b98262643543b2e798e8f9d0fe124ec11ea682055fa5d10cada56c04c505f61a2d6ebbff75f02430669a"
+RPM_NAME = "libical-glib3-3.0.16-1.4.aarch64.rpm"
+RPM_HASH = "9f1c9be1780ee537de618dfb34d5970749f32efb8ad4bc82ce58033492dea8d865d180a0a5cb73f2836c9173ee2e31122fa8980ce46c8c5d7b168854245b6dc3"
 
 RPROVIDES:${PN} += "libical-glib \
 libical-glib.so.3 \

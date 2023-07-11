@@ -2,10 +2,10 @@ SUMMARY = "SELinux policy module for k3s"
 DESCRIPTION = "This package installs and sets up the SELinux policy security module for k3s."
 LICENSE = "Apache-2.0"
 
-PV = "1.3.stable.1"
+PV = "1.4.stable.1"
 
-RPM_NAME = "k3s-selinux-1.3.stable.1-1.1.noarch.rpm"
-RPM_HASH = "a07aa1947b40c2eb9da2c776754ae78dd70ca7560d375d0e339f38dfe06bca3f7d0475355c2c951304018a6e1bef14f9525f368c7dd9652341373c9877056d3c"
+RPM_NAME = "k3s-selinux-1.4.stable.1-1.1.noarch.rpm"
+RPM_HASH = "ddb0e7fd2d511e5b35c5ccdfe0e497c4ad6b33338dc7427b8bce3bd9bd9093d7c4071ca00f8bbdea496a999c15e8472628b21d61278616cc2f6fceb553704975"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "k3s-selinux"

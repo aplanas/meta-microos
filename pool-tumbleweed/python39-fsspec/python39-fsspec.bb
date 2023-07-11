@@ -2,10 +2,10 @@ SUMMARY = "Filesystem specification package"
 DESCRIPTION = "A specification for pythonic filesystems."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.3.0"
+PV = "2023.6.0"
 
-RPM_NAME = "python39-fsspec-2023.3.0-2.2.noarch.rpm"
-RPM_HASH = "38cade074703ccb1c0efe36dc3bb2904915aa7e5b38399af27773040149a15cf416a6e6c84470be512545a4bcb68195f175ad9ba67b09b37799ec29479d1b325"
+RPM_NAME = "python39-fsspec-2023.6.0-1.1.noarch.rpm"
+RPM_HASH = "c0b31ddddda368959388c03b980b33e44b2a8f20de9b452e1bd0b07700b73abd38280cc9a0a3b4b3cfc6ccdba420ed283822af13fe6f97313490833c7a4d9c77"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-fsspec \

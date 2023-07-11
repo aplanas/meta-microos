@@ -8,11 +8,10 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.14"
 
-RPM_NAME = "python310-python-lzo-1.14-1.8.aarch64.rpm"
-RPM_HASH = "dab1cc9c7d55928926cf5a3e55ca2ef78ec33d6b6d931fee12406d452ca20e95a0f5a67e8dddad98cb2f37ae6a9aff3771852ec63eaca9821b223373771cd1cd"
+RPM_NAME = "python310-python-lzo-1.14-1.10.aarch64.rpm"
+RPM_HASH = "bb775487131aec9e03bb20fcc5db1951b066351ae6dd02614e1857aa081b2067bac7aba5a13608f0fdb02c7648a0a915b54925271e7cdef3c72871e9357fa4da"
 
-RPROVIDES:${PN} += "python3-python-lzo \
-python3.10dist-python-lzo \
+RPROVIDES:${PN} += "python3.10dist-python-lzo \
 python310-python-lzo \
 python3dist-python-lzo"
 

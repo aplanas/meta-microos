@@ -9,8 +9,8 @@ LICENSE = "Apache-1.1"
 
 PV = "0.9.4"
 
-RPM_NAME = "werken-xpath-0.9.4-28.6.noarch.rpm"
-RPM_HASH = "514801bd83b97f23ce4a4065a036dd4fd39e8e0ec9b9e0125c9e333ba99969d21738cc01731074d2379a9be3ef543d0dd794471618d669974a207f844e7b3ac1"
+RPM_NAME = "werken-xpath-0.9.4-28.7.noarch.rpm"
+RPM_HASH = "9c939e5e7025360dab7dae0486eb9287fbcc130493bb1eba7d9954e1ac55d01025971da28607f13d073d393766714f91298563ff922183826a277675e164ddac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-werken-xpath-werken-xpath \

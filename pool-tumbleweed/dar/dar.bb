@@ -7,10 +7,10 @@ with the libdar library (for example, with KDar, a KDE application). \
 This package contains the command line tools and documentation."
 LICENSE = "SUSE-GPL-2.0+-with-openssl-exception"
 
-PV = "2.7.8"
+PV = "2.7.9"
 
-RPM_NAME = "dar-2.7.8-1.4.aarch64.rpm"
-RPM_HASH = "943e9bf0f5ed18b91e3c799a3c5a6b3b8140a2b487c0aa1582d1e237f0e4cd210c07b601fbc9f16ea01aa902a2cdcd96dc8e0144afb8c45776d7a0540bb435a6"
+RPM_NAME = "dar-2.7.9-1.1.aarch64.rpm"
+RPM_HASH = "239d702f28d603b2895c896a83407e4143d3301f0573f08c6340052b0e8b8ef63d181942b41c335c61967bee6fe5c11ebd975b1090a72711fdcd9a528b87025a"
 
 RPROVIDES:${PN} += "dar"
 

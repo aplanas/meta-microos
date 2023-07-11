@@ -4,14 +4,13 @@ allow you to build and distribute Python packages, \
 especially ones that have dependencies on other packages."
 LICENSE = "Apache-2.0 & MIT & BSD-2-Clause & Python-2.0"
 
-PV = "67.7.2"
+PV = "67.8.0"
 
-RPM_NAME = "python310-setuptools-67.7.2-1.1.noarch.rpm"
-RPM_HASH = "6594b1408d69c364330984e17c7c0f1af8a75c5193efa77c406a8cdb0c53cedf5c86d7e3088d45b845149482139c55729aff147e2f7c5f43bcf136e101a3f217"
+RPM_NAME = "python310-setuptools-67.8.0-1.3.noarch.rpm"
+RPM_HASH = "ccf1dd2f9759956a5cd4ae085a48dcc1f4a6cf4e364a88bcfb961031f01fddbc1d9df46c64099aa75373dd72ed9d0b2f82e45c5cba3dac4c2d2f9b05c3e94b0c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-setuptools \
-python3.10dist-setuptools \
+RPROVIDES:${PN} += "python3.10dist-setuptools \
 python310-setuptools \
 python3dist-setuptools"
 

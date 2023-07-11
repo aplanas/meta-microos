@@ -4,11 +4,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.9.0"
 
-RPM_NAME = "python311-parameterized-0.9.0-1.1.noarch.rpm"
-RPM_HASH = "f77b7d60ae5d61d9ffd5c43b8e70524b0af7595e3cda1aae0ddf14f3d8411d68a72435d1ac7b311c1f5b844664b539c41b159f2b297cc3ebb77e0808790a680d"
+RPM_NAME = "python311-parameterized-0.9.0-1.3.noarch.rpm"
+RPM_HASH = "be2b437cc0f83b9ad140c3b5d17d58cf738b13076159ee218e7861ec7c57067269cece87c5cf2b30af99566938c06f969dda08076f6cee674033054b368146b5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-parameterized \
+RPROVIDES:${PN} += "python3-parameterized \
+python3.11dist-parameterized \
 python311-parameterized \
 python3dist-parameterized"
 

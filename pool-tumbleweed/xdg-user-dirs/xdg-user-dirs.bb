@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.18"
 
-RPM_NAME = "xdg-user-dirs-0.18-2.2.aarch64.rpm"
-RPM_HASH = "9b5098eb21565f47d0c0945ad05903f713a0ed6ff943bfff61f44bc73cea5b071b03d4b81e5433930860c0baf6cdffab79622b19e81e607a032477449c777567"
+RPM_NAME = "xdg-user-dirs-0.18-2.3.aarch64.rpm"
+RPM_HASH = "e22437c8994a2532ac4222e0bf6158921123b1509a70efcc12bd42c7d42f729b98e5eea4afa377e5b717fb398c08160fef1da48fb50ca6454537f98740b7ce4b"
 
 RPROVIDES:${PN} += "config-xdg-user-dirs \
 xdg-user-dirs"

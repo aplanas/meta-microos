@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.2.0"
 
-RPM_NAME = "plasma-pass-1.2.0-3.8.aarch64.rpm"
-RPM_HASH = "02be0063430d7916c02e658a7dd8e3d6811758575b76fe4db3828208e29b82f5b3ea47458d18da67943801f095ddd6d5127681a734d21513ab4101a6899a46fc"
+RPM_NAME = "plasma-pass-1.2.0-3.9.aarch64.rpm"
+RPM_HASH = "ac5522675073d0172b555d72512a8aa47aecac5e1e9c48ac1bed07b3fb6fbe3639407f55d9e6a79227f1361078de12f357bb363cc0dba11472d15020cafe8727"
 
 RPROVIDES:${PN} += "libplasmapassplugin.so \
 plasma-pass \

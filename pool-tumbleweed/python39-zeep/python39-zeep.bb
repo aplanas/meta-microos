@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "4.1.0"
 
-RPM_NAME = "python39-zeep-4.1.0-4.7.noarch.rpm"
-RPM_HASH = "0dcbf9e0b413a47f65f5d1b43d46449cc7abc1876bfd7c25f31dee942edbf91ff047c14334c36d2362c454e68854e6f0d1063cba542984601713456d43f49664"
+RPM_NAME = "python39-zeep-4.1.0-4.9.noarch.rpm"
+RPM_HASH = "bd8197f3438bc41ba562195aa31b19310b1a5feca37644170044bf607ae3cf4ae32a1b75159b2f8108f63d9b60c6b957b16d6812144964d7fd0aff98001dcac9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-zeep \

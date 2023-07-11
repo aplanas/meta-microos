@@ -2,10 +2,10 @@ SUMMARY = "Translations for package calls"
 DESCRIPTION = "Provides translations for the 'calls' package."
 LICENSE = "GPL-3.0-only & MIT"
 
-PV = "44.1"
+PV = "44.2"
 
-RPM_NAME = "calls-lang-44.1-1.1.noarch.rpm"
-RPM_HASH = "481cc026df1c73afd704bd9dde6f1bcd1a6ed06cdcc5b699a4f428d185db86a152a21a7349436732b6d50fe54c72ac8ce64c3fff8071facbcfd52cf66062681d"
+RPM_NAME = "calls-lang-44.2-1.1.noarch.rpm"
+RPM_HASH = "f9c5f453c458490def36720047d36e1528302918eb66e8685f8f68637717d1bbf47ce5ad24dc155ec19fdbbad7dc59c3e9f15ff7e1d821b75e4c6d860311eb72"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "calls-lang \

@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "gnome-contacts-44.0-1.1.aarch64.rpm"
-RPM_HASH = "44c99f9f653b0d549d2ae11b4b295033de37d3c7b4907f86f60ab657f2c1cf21763faed88dd3cf2d123158eb25eeec9ad0c510cac631971604cfa21b32a864e9"
+RPM_NAME = "gnome-contacts-44.0-1.2.aarch64.rpm"
+RPM_HASH = "b30346846b9c8e5925ba3147e02d8fa52ab529e25bf3196266d51fa0fa73b26ce2e9c7f5c52879f75824de236e696bbdf8fb9f2217db29ace9c0a2886c27c306"
 
 RPROVIDES:${PN} += "gnome-contacts"
 

@@ -8,8 +8,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.335"
 
-RPM_NAME = "perl-App-Cmd-0.335-1.2.noarch.rpm"
-RPM_HASH = "03d40dcafc3973ce8ce7edaf4da6080a616ebaa206dac24a095667d027fe1cac601fc169224d6561779bd9fbc25108540811c0053f5b116ed531e296f81cda34"
+RPM_NAME = "perl-App-Cmd-0.335-1.3.noarch.rpm"
+RPM_HASH = "4fc4a03863c4e7734662644706c0bb516ba8e2a30fb2570e9fc2a333abb7c8daa1d10b1023d8abdf4a51ee8322e37b731c41fa4b3a21d658be5462001add9064"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-App--Cmd \
@@ -29,7 +29,7 @@ perl-App--Cmd--Tester--Exited \
 perl-App--Cmd--Tester--Result \
 perl-App-Cmd"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Capture--Tiny \
 perl-Class--Load \
 perl-Data--OptList \

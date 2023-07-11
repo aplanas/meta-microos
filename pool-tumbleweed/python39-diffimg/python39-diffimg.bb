@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.3.0"
 
-RPM_NAME = "python39-diffimg-0.3.0-1.8.noarch.rpm"
-RPM_HASH = "f72846c5cda66ae50e0f45c4878330d2f7858807467e0aa22cdb70723d05cde6d4f8095dcd9fdb0a1a5f7c7a38fdd60f345555b4f71821be9c41cc0efff26739"
+RPM_NAME = "python39-diffimg-0.3.0-1.9.noarch.rpm"
+RPM_HASH = "5db1f3097ad4fc9901685361c66a71fe2c903498feeda29a7339c27e14a99dc98560257c4e0738b94f7b68ee8793ccc18d5ddb54d1b4e22a693c2ec836a3ab26"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-diffimg \

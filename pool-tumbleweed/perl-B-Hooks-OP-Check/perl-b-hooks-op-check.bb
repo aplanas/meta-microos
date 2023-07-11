@@ -16,14 +16,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.22"
 
-RPM_NAME = "perl-B-Hooks-OP-Check-0.22-1.29.aarch64.rpm"
-RPM_HASH = "d07b67bc0783d1e01166888a5473366e7fdd8f87b1d8554946c7deaa0d7bb32b300155c6262006e23e2706ad8b4163d8ae004f8d506bd2b4705a2259357c24a6"
+RPM_NAME = "perl-B-Hooks-OP-Check-0.22-1.30.aarch64.rpm"
+RPM_HASH = "06821c986de680b27da6e77d3f8bcbea5bce129093e3595be164cd6f287945a9e495d52acad82973f8d1b07c7a7458c927a08bf3e6d60b17214f6411e7fde5d6"
 
 RPROVIDES:${PN} += "perl-B--Hooks--OP--Check \
 perl-B--Hooks--OP--Check--Install--Files \
 perl-B-Hooks-OP-Check"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-parent"
 
 inherit rpm

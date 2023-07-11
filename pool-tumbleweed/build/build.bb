@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides a script for building RPMs for SUSE Linux i
 chroot environment."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "20230527"
+PV = "20230628"
 
-RPM_NAME = "build-20230527-1.1.noarch.rpm"
-RPM_HASH = "9ffa138f3adc55a6b60468248e1b92a5f3ea07cfa1954b648b6c13e35c8f6d19bfaed9ac18841f320858cf441a6da41fb88c44d63a811a8a94b1a663a2b0c086"
+RPM_NAME = "build-20230628-1.1.noarch.rpm"
+RPM_HASH = "19d38abad8fdda76fd79570d49c33b87f51a23729cafe83ecee2041d3d618b90a21e1519f7fb6b969e41806b39fa8620103fc0234a5f5354aef6cbaabeefca78"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "build \

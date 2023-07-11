@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.11.1"
 
-RPM_NAME = "python39-blosc-1.11.1-1.4.aarch64.rpm"
-RPM_HASH = "5d25ff3b6a8402b13e55cca1d4527e25fa0ed6ea861ebb523d46c44b315532fbb420a144d15a8f54120e5b866fb55f295485402dd9e33383492e8201b07a2091"
+RPM_NAME = "python39-blosc-1.11.1-2.2.aarch64.rpm"
+RPM_HASH = "3aa188b0517552dbcbe916b938f71bd7511733d60f559cd9685883dc91db6bf81580e69a80713765b81b01aa20aec6105d09a2c343e4877a5531ddbfa2c5dddc"
 
 RPROVIDES:${PN} += "python3.9dist-blosc \
 python39-blosc \

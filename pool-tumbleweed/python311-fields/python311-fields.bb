@@ -10,11 +10,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "5.0.0"
 
-RPM_NAME = "python311-fields-5.0.0-4.1.noarch.rpm"
-RPM_HASH = "bdb3b9f7750467882c6e50841ecb36e5db8bc7565ad9dafd12e4b836b303915dfa9d9ffacac3e72511e1cbed6ca3946b2bbee6e59358ddb23c9b549bc7400228"
+RPM_NAME = "python311-fields-5.0.0-4.3.noarch.rpm"
+RPM_HASH = "3de102b45cd59bc418284f28c6a44db679ca276bb2a6b0cb163bca3d84595baad1ab9a9b8432d744aea339012ef9d4f1626b61638d15a4b632f4677df7fbb047"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-fields \
+RPROVIDES:${PN} += "python3-fields \
+python3.11dist-fields \
 python311-fields \
 python3dist-fields"
 

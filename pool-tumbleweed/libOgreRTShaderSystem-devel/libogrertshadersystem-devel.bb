@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "13.5.3"
 
-RPM_NAME = "libOgreRTShaderSystem-devel-13.5.3-1.5.aarch64.rpm"
-RPM_HASH = "d563246b2af32a01b9a8b838a084a18bbd26d4873f42a9e6aadfe68ab8512405a24d8ed8b8091917866bf3491f86c0c7dd24604405582f2506b172bc02e015cc"
+RPM_NAME = "libOgreRTShaderSystem-devel-13.5.3-2.2.aarch64.rpm"
+RPM_HASH = "2f9a5e17d77bf71c9c94c8ffe7ca30e6d53dc07b07d650372a158cd1cd6a8b1228ec7e3d0807b5d3ff457c15504e17ced45e059937d077e3fb0dec5c7e464021"
 
 RPROVIDES:${PN} += "libOgreRTShaderSystem-devel \
 pkgconfig-OGRE-RTShaderSystem"

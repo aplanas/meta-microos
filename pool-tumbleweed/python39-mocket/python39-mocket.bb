@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.11.1"
 
-RPM_NAME = "python39-mocket-3.11.1-1.1.noarch.rpm"
-RPM_HASH = "2a0c501778633d1d109ab4750e6a15208b269ef3e051cb823a35c6e22583f2c5de80098fe79e580185514087103f2f3c38f5935316dc0c06efd1a8e06ff059ee"
+RPM_NAME = "python39-mocket-3.11.1-1.2.noarch.rpm"
+RPM_HASH = "0e22ebff9e17e52ccf65670e981fb370e04475cc22cc2f33b5c65d300505079e4d3b0c002181e47a622703c46afcd4f8227035f54b7793b9c47bc8632cba237e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-mocket \

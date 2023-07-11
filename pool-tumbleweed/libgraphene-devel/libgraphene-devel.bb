@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "1.10.8"
 
-RPM_NAME = "libgraphene-devel-1.10.8-1.7.aarch64.rpm"
-RPM_HASH = "313041bdd390b2594b3e8cade575df710ae7e72176ca43a8f40e8a95c49cf26a713fc6925df92147087628a611c277539eea43878ca187178aa6737a37bc6efe"
+RPM_NAME = "libgraphene-devel-1.10.8-1.8.aarch64.rpm"
+RPM_HASH = "74e0743446639a21dcb5da25948dcb9956baaf10832eeed081580446a478ba49ae864f5ac20faedf7be7c2ef42db8cb977cbfc91e980d25b645f69030072c330"
 
 RPROVIDES:${PN} += "libgraphene-devel \
 pkgconfig-graphene-1.0 \

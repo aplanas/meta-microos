@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "5.13.0"
 
-RPM_NAME = "suitesparse-devel-static-5.13.0-49.1.aarch64.rpm"
-RPM_HASH = "f627707c0e770b60dd102c05e010a0e47940ca735b6bc503f97dace6f9f6b4bf6e329cfb2e5a29abe38e4df14f1ba33a57a819cfdc8bcd82f2d39694f53b7686"
+RPM_NAME = "suitesparse-devel-static-5.13.0-49.2.aarch64.rpm"
+RPM_HASH = "52abe54e78934f122990b3c5fafe9d22412b881e674fca974335a7c2a004793cf0fc37ae82f5f8d942a94209b2e4d4fe934c7264d79ab2628bd72f157134088d"
 
 RPROVIDES:${PN} += "suitesparse-devel-static"
 

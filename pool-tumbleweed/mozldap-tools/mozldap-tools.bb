@@ -4,8 +4,8 @@ LICENSE = "MPL-1.1 | GPL-2.0-or-later | LGPL-2.1-or-later"
 
 PV = "6.0.7"
 
-RPM_NAME = "mozldap-tools-6.0.7-4.15.aarch64.rpm"
-RPM_HASH = "e5b3d6ec7bbdd5db1d0bbdca581926a2ce1348a1301ba48c3c220f837c7ffcd957f400efe93df0e37326997c9a231661d0e7227a9ff469a2e4287824e97a34bb"
+RPM_NAME = "mozldap-tools-6.0.7-4.17.aarch64.rpm"
+RPM_HASH = "e5fd5b6c9650b71e012df9c72269f340cf365df3d896a64b8140805c7212141847ecde1c0e8a2fa10a63c56fc1f381e6cf314790755b90340083d48401744119"
 
 RPROVIDES:${PN} += "mozldap-tools"
 

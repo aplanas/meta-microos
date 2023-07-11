@@ -11,8 +11,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.6.1"
 
-RPM_NAME = "xar-1.6.1-6.21.aarch64.rpm"
-RPM_HASH = "ff0bc05d98b80ec4b837e9ebcd81de50d87048fea5093c8aac1ed59f4ee40620c23c511e49f3ba350234dfe18f493a0c2b76e098b9d1cca3cc3fcb9eca8a380c"
+RPM_NAME = "xar-1.6.1-7.1.aarch64.rpm"
+RPM_HASH = "fd71227791157ccb64e3fd4d17eae99f510f3ce6ef6f2c997259e67b64c98b770b8beed4c27a54e9ab0e6cfed62abdf0fd16699a2b494a9426a5063450092251"
 
 RPROVIDES:${PN} += "xar"
 

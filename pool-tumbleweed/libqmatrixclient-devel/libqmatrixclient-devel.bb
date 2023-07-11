@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.5.3.2"
 
-RPM_NAME = "libqmatrixclient-devel-0.5.3.2-1.17.aarch64.rpm"
-RPM_HASH = "001b6971f738854b502ca94bea03959b0aabc1182fdd3688e4cd4b50bd34cb372f6d0dde700f56c5f970014311ad4b4c3cdc3520c03b6136ec502b3a07d350f2"
+RPM_NAME = "libqmatrixclient-devel-0.5.3.2-1.18.aarch64.rpm"
+RPM_HASH = "cbf93f7e7f753eec726cf4a1c722987520d014d640ada6cdcd775c106cf3fc770b241fc44155001fcdee9107572f44da456f65103d57a0fef79b13a00dc1ec74"
 
 RPROVIDES:${PN} += "cmake-QMatrixClient \
 libqmatrixclient-devel \

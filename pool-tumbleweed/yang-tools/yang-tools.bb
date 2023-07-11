@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.1.55"
 
-RPM_NAME = "yang-tools-2.1.55-1.1.aarch64.rpm"
-RPM_HASH = "1f915e700ea15e325727ace505337b6681ded381480185fae913b401a5f582662d4fd997dd20a2ce0669855e76958ca9afd979e2694a8db0ff776ddaa342d932"
+RPM_NAME = "yang-tools-2.1.55-1.2.aarch64.rpm"
+RPM_HASH = "a42ff8865e4cb90d93252b93480593be6c3ff69d99b26a77ee681fde9b8b11ba6af9b7b85eecaf2d3fbc95f86044d90a2d8f70f613f21f36f43e3b5612a5fdc8"
 
 RPROVIDES:${PN} += "yang-tools"
 

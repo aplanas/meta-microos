@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "3.18.5"
 
-RPM_NAME = "petsc_3_18_5-gnu-openmpi4-hpc-saws-3.18.5-1.1.aarch64.rpm"
-RPM_HASH = "bad1c16dd907403c818a02ee9c91475f4ab91d4af35ce67d07d222f6fd20cd6ab61801faf05ea2459c253f9a976e5e39cc5468d39adbf94eeb4a02adfd5d80e4"
+RPM_NAME = "petsc_3_18_5-gnu-openmpi4-hpc-saws-3.18.5-1.2.aarch64.rpm"
+RPM_HASH = "83c711dbbcb675eafc8e2eedf3f8602be8f221d10758850562d214d5fcf50065261d38d6a7f1c314d83297dede86080faae169e8b2baadc3ca6976394e433f89"
 
 RPROVIDES:${PN} += "petsc-3-18-5-gnu-openmpi4-hpc-saws"
 

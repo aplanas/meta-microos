@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.40.0"
 
-RPM_NAME = "accerciser-plugin-IPython-3.40.0-1.3.noarch.rpm"
-RPM_HASH = "aad6de876a94033bcf5487c2b9415d3d34fa756811b519f48d9fe1b3cfd9eaf40dae69948a8d5d3eef665d7f8fe6a1c2845c66576ff8d3e7d3e3ebd0ff74b143"
+RPM_NAME = "accerciser-plugin-IPython-3.40.0-1.4.noarch.rpm"
+RPM_HASH = "b55e367d2085af190885fc034cb53eab70ef13e78751747958beb2972c68441fb08da072093a7d249c6bff50dbdd430d2c4ea7a228eb94b04f78214684150688"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "accerciser-plugin-IPython"

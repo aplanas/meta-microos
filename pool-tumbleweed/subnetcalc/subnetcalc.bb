@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.4.21"
 
-RPM_NAME = "subnetcalc-2.4.21-1.2.aarch64.rpm"
-RPM_HASH = "25d4071307242d6ce6df6c8ffac6837e3f8276c9822e5b6c471bf8838270da8ffe36678788925e068c644c2fdc7c4258167e98d154e35e8561cd2502ac80cce4"
+RPM_NAME = "subnetcalc-2.4.21-1.3.aarch64.rpm"
+RPM_HASH = "3bdb80ad60f6f8f60e6835ad12e41b4f2b3a78e76972fcf0e0e4c4ecc36f94ac8fa6f7471eeb5ee13f6bbe31302ab2290ee622cf46575342f57c8dae6bab2dc8"
 
 RPROVIDES:${PN} += "subnetcalc"
 

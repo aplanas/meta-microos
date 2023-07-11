@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.1.1"
 
-RPM_NAME = "meanwhile-devel-1.1.1-1.16.aarch64.rpm"
-RPM_HASH = "3a8a752f494dee8473b239f856deb6dd90d1afa9aadce39f78449601f5fa53ad1da038129070dc1de3af48d099b18b7557f9e74de2dbd4c2111634c6d0218d0b"
+RPM_NAME = "meanwhile-devel-1.1.1-1.17.aarch64.rpm"
+RPM_HASH = "53fffc8fe081d6f0f19aea6b81e931fde97f90fcbe04c9cb3d344b39af19d3ab2a22fd6f661abd538e0040dcb549b281b86199e069f37ff0eef6728f7fa577e9"
 
 RPROVIDES:${PN} += "meanwhile-devel \
 pkgconfig-meanwhile"

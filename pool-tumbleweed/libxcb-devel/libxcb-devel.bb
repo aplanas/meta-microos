@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "1.15"
 
-RPM_NAME = "libxcb-devel-1.15-2.2.aarch64.rpm"
-RPM_HASH = "c452e22677fab7f9d909034cd354c11703bf1b8af733dba3c12750ac624d8b5341fe1fcbfcf719ffc50ad94516d4e65ccdb4fc4146f58bd654cc568b5cc7916e"
+RPM_NAME = "libxcb-devel-1.15-2.3.aarch64.rpm"
+RPM_HASH = "2d4f62e885460c8c3c8950e838296f387ae399b786d032f8a1e636a52f236bde678777211e47e13f5373f0323c29fdabe2472e12417877c08d4cc0971dc588fc"
 
 RPROVIDES:${PN} += "libxcb-devel \
 pkgconfig-xcb \

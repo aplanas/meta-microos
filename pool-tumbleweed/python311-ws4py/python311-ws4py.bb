@@ -5,11 +5,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.1"
 
-RPM_NAME = "python311-ws4py-0.5.1-3.5.noarch.rpm"
-RPM_HASH = "3c0388af25a7f5caa90d98fb98af7ee358bd7996f1efd74d9f2a5333bd3bb35b8a7c9cb5980e854c3088eff583ed709051cc9b3748aba563e4d8d0d41b2d5afd"
+RPM_NAME = "python311-ws4py-0.5.1-3.6.noarch.rpm"
+RPM_HASH = "ed7e11c199f14c3c317124d4424aa74b221d05d23ed19fe07979ec9c5f995b96967aa3e75e35b9bdd4c195a1da3257ff93d88abff27a5ee5763faede78d4aa96"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-ws4py \
+RPROVIDES:${PN} += "python3-ws4py \
+python3.11dist-ws4py \
 python311-ws4py \
 python3dist-ws4py"
 

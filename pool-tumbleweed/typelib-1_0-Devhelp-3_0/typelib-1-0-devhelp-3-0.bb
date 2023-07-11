@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "43.0"
 
-RPM_NAME = "typelib-1_0-Devhelp-3_0-43.0-2.1.aarch64.rpm"
-RPM_HASH = "afc3fdd92ac2c1926049ea4760ffc92cafa3234db253009cebfdb45738dfa27498c30f39ab759f7144b04d1f95349c395ac1ecaee6f9880dfd436a64a31e7383"
+RPM_NAME = "typelib-1_0-Devhelp-3_0-43.0-2.2.aarch64.rpm"
+RPM_HASH = "f3f1409ed16b9d3604d00531996dbca81800dc2d00a2d4c12bf5ee564538fcfcebe9b00e23809ee616f4279f18633b60c50455d442d5c9bbc9184c22d59d4abc"
 
 RPROVIDES:${PN} += "typelib-1-0-Devhelp-3-0 \
 typelib-Devhelp"

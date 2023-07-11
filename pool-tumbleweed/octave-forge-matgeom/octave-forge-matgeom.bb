@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.2.3"
 
-RPM_NAME = "octave-forge-matgeom-1.2.3-1.2.noarch.rpm"
-RPM_HASH = "e943b4275a2032a3543159225e324769be2868f39ed1bdb0d40cc4f06ca581de305bedfeae411d027062b9a1426fe2ad5fd9b3958b5b96c3500eb8ba23befa46"
+RPM_NAME = "octave-forge-matgeom-1.2.3-1.3.noarch.rpm"
+RPM_HASH = "fb3d78f0870fd77bb43f37c2eeacb3ddebd821f5fe8d61b2b193feb799b88de9607823667cc82094865f50c1071ec388fa748e1c9d30832bc0405281704d434f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "octave-forge-matgeom"

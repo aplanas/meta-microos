@@ -10,12 +10,12 @@ LICENSE = "MIT"
 
 PV = "1.0.8"
 
-RPM_NAME = "azure-cli-telemetry-1.0.8-1.2.noarch.rpm"
-RPM_HASH = "a0252e324aeb593482cde556fd5243547cccc3f8cfc09cec6d93e0b62381f78ee3cc20777aa729fee8777e29eb547bdc7058bd06e7668c8026acb3fd587e645e"
+RPM_NAME = "azure-cli-telemetry-1.0.8-1.3.noarch.rpm"
+RPM_HASH = "0392fcf3cc5a03e8fa4b311acaca64275435f6eb20a21aabb378a89837ae7a7c8143c72f1cd0591490f66eed880734075a70c5f66b35dcddd1d90b113a49810c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "azure-cli-telemetry \
-python3.10dist-azure-cli-telemetry \
+python3.11dist-azure-cli-telemetry \
 python3dist-azure-cli-telemetry"
 
 RDEPENDS:${PN} += "azure-cli-nspkg \

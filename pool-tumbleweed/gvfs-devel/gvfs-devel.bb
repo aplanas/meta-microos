@@ -8,10 +8,10 @@ This subpackage contains libraries and header files for developing \
 gvfs plugins."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "1.50.4"
+PV = "1.50.5"
 
-RPM_NAME = "gvfs-devel-1.50.4-2.1.aarch64.rpm"
-RPM_HASH = "d6a2c403bb8d47e002159aab0b0aeda20235d5fddd3c0e0a06791d18d1781bc68212418b28fe747490ca201480b78ef2ad2de00d5b394e2f59dcd65fc398c3a2"
+RPM_NAME = "gvfs-devel-1.50.5-1.1.aarch64.rpm"
+RPM_HASH = "67b27d6420d46cd1a9960336e00fc62534841f0a6e98ac52df0ab1d1eb60281b9c731302383a66fe944f612d0ade6324fb72b0f049f80f505213df9cf9b2f026"
 
 RPROVIDES:${PN} += "gvfs-devel"
 

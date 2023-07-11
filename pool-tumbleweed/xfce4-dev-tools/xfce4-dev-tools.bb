@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.16.0"
 
-RPM_NAME = "xfce4-dev-tools-4.16.0-1.11.aarch64.rpm"
-RPM_HASH = "5ea5b184116392cdb5b0c9b5989c42b933ea79e147bc3934025bbb1c12222b6cec5790ff60618151ce5e36858561bcc82ad2136860d04e0fce94ff8370c790be"
+RPM_NAME = "xfce4-dev-tools-4.16.0-1.12.aarch64.rpm"
+RPM_HASH = "fee244ca52ac5a61647144b5555dbd4ae275b47dc4ee4e66bdfd5e4b50d1185e895cf73d626131fce1a2b09a57436f2b41edd30a7e2aea3194034360556688e6"
 
 RPROVIDES:${PN} += "xfce4-dev-tools"
 

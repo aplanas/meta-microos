@@ -4,12 +4,11 @@ LICENSE = "Apache-2.0"
 
 PV = "0.4.0"
 
-RPM_NAME = "python310-msk-0.4.0-1.4.noarch.rpm"
-RPM_HASH = "b9eef015ff0ac2421587f533c94f3aaa60c8ec0daf45a018e2f96eeb9e656d45bc98a01145b0e6009d4eba7ecaee559f652c8fcfcd433d6d5bd3ba20c1afdb38"
+RPM_NAME = "python310-msk-0.4.0-1.5.noarch.rpm"
+RPM_HASH = "715fa8b036525a67877da423f734133160a0cbfa0efdc9d65601221b5290c977e161fbbb80fb7c2773075baff7d7741fa664c9fc9f77aca85949b539f6e84139"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-msk \
-python3.10dist-msk \
+RPROVIDES:${PN} += "python3.10dist-msk \
 python310-msk \
 python3dist-msk"
 

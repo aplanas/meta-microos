@@ -13,8 +13,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.1.6"
 
-RPM_NAME = "parboiled-1.1.6-5.6.noarch.rpm"
-RPM_HASH = "70ad4db6183c4207dc31f3289a7ae8d8eca1547e2d6c90b8804e88d3c4658b9362a2d940c2dc1379d580e1f5060345a5d9ff7757c0b92db2628d228dd8f89976"
+RPM_NAME = "parboiled-1.1.6-5.7.noarch.rpm"
+RPM_HASH = "18bb966ff7c6803c6b9f2ad3fa9c195d095944187e3fb5c39e115cf733c2f2994aed1657650cd23d763c7025a837218caa27c9f35a9f470e2d52b12ecae6de19"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.parboiled-parboiled-core \

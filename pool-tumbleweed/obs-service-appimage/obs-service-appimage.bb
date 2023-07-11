@@ -3,10 +3,10 @@ DESCRIPTION = "Experimental appimage support: This parses appimage.yml files for
 resources and packages them."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.10.36"
+PV = "0.10.39"
 
-RPM_NAME = "obs-service-appimage-0.10.36-1.1.noarch.rpm"
-RPM_HASH = "bd9a9b638d36d106cd0be0bdf6271302413a1793ea196f3a81b9f199e33e918dd770e7a9349ced7208052178a38469e1752f74f43090f8b342452ce3e9b43a9a"
+RPM_NAME = "obs-service-appimage-0.10.39-1.1.noarch.rpm"
+RPM_HASH = "f647f0a7b94f85e4706e6fb1a5be0bdd06e89fbe45102c8f3f717719441ff303d260f1dac17870f14050ebc3dadc07961b9de3e68a4b4a9d61d51dd04412ef8c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "obs-service-appimage"

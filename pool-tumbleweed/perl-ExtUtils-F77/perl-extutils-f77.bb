@@ -34,14 +34,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.26"
 
-RPM_NAME = "perl-ExtUtils-F77-1.26-1.10.noarch.rpm"
-RPM_HASH = "b5ad74c01103bea37f0dc79f2c22fbb61fb4035056b3e873edb55cabde61848670ee143915fdbdd839f590bbf98d90ddeb51baa1636c533a210585e32a403c50"
+RPM_NAME = "perl-ExtUtils-F77-1.26-1.11.noarch.rpm"
+RPM_HASH = "d3c3d5c6dca3a76ef3524a4a530ba0faffca77c0f45933819e43e849a57aa4d9502ac2870accb273fbf01d1394a94014ea4dacc3f15b57e55f0868d0ef2e268d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-ExtUtils--F77 \
 perl-ExtUtils-F77"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-File--Which"
 
 inherit rpm

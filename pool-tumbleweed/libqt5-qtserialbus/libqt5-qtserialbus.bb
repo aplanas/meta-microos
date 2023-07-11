@@ -4,10 +4,10 @@ various industrial serial buses and protocols, such as CAN, ModBus, \
 and others."
 LICENSE = "LGPL-3.0-only | GPL-2.0-or-later"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libqt5-qtserialbus-5.15.9+kde0-1.1.aarch64.rpm"
-RPM_HASH = "ff34878098412e82747e24e1e665ba3882f53030aef42e632673d7bb72c368b00da51cb6d422a3a8842049a855fcb035f9f5a27f630770f87d1070391617eb2c"
+RPM_NAME = "libqt5-qtserialbus-5.15.10+kde0-1.1.aarch64.rpm"
+RPM_HASH = "c0d00d22b1780050f663e2e73921db009efc80793d4bf8cbec7d9420aa67eae442789921f17bdeca31260db7bc5da0ddf115aff06ae97e7cd963765277c22487"
 
 RPROVIDES:${PN} += "libqt5-qtserialbus \
 libqtpassthrucanbus.so \

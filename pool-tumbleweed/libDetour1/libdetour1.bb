@@ -4,8 +4,8 @@ LICENSE = "Zlib"
 
 PV = "1.5.1+git20210305.c5cbd53"
 
-RPM_NAME = "libDetour1-1.5.1+git20210305.c5cbd53-1.7.aarch64.rpm"
-RPM_HASH = "2bb46f382b1cd66cd6542d4e9e3d4fcfd1b675214e84346eb25df27c7e0660ee984b713f623ab582affe9e4baec60b20ba7cd68d6b769720a927f592ab4637b7"
+RPM_NAME = "libDetour1-1.5.1+git20210305.c5cbd53-1.8.aarch64.rpm"
+RPM_HASH = "e1ea4e5ad6f3cfa61fede8298d1aed0639200202c4a08cc8302d4afb46c5cacd08b96aeeee0775ec8ca46beeab10aecf86ac78f86d7bfa845df3184f6c3e00fd"
 
 RPROVIDES:${PN} += "libDetour.so.1 \
 libDetour1"

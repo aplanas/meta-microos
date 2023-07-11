@@ -8,12 +8,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "4.0"
 
-RPM_NAME = "python310-boolean.py-4.0-1.3.noarch.rpm"
-RPM_HASH = "392b3cfaf8f391c16d5bc0ecb4fea6df0208224875edc89a74f596a78aae83e9bfd7ad14345e9fa06ec24f4510b3812931f8b8f26afd7a0592a14746a446d44d"
+RPM_NAME = "python310-boolean.py-4.0-1.5.noarch.rpm"
+RPM_HASH = "7029df46b245fa55dcdc00d67e068ee1c52f38a1dda6faafaeab730feef9fb0feb96d5d6abdc251551b66dfd7839f85320ada6b80e8d6294131e2047ce0298d8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-boolean.py \
-python3.10dist-boolean.py \
+RPROVIDES:${PN} += "python3.10dist-boolean.py \
 python310-boolean.py \
 python3dist-boolean.py"
 

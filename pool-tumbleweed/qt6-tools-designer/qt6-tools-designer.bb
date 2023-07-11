@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later) & GPL-3.0-only-with
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-tools-designer-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "9c7d88cc2003e524c3ee7db27b4aac6cf4cda9f99be1ed7af945f705d2cb020161c8e4d96b246717814e2151d17c6ae505d118a2fd37570b3527b036ead25ae6"
+RPM_NAME = "qt6-tools-designer-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "c43102ee9cf58c730cd008d1fbb14da00b66734e3cf79da626c19c55f2323bddd57221899a0ccc492b2aeef99e22691bba6d6f85152503523214c0966481bed0"
 
 RPROVIDES:${PN} += "libcontainerextension.so \
 libcustomwidgetplugin.so \

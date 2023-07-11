@@ -2,10 +2,10 @@ SUMMARY = "Puzzle game"
 DESCRIPTION = "Turn the board pieces to get all computers connected."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "knetwalk-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "3d3bc3a96802c5dc265c793ed4c97f6177145b0682210da949482b5b62ce79c33d684e65010a8027ddd5da7d59561b6a82b57e21caf727b86b4c0c910dac553c"
+RPM_NAME = "knetwalk-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "fde1a43b161ba4297a0d92ae272dbb2b8d3fb19558c4201c6e1f62e70f2cb12242d23846c602e841160a5b1bbe8a3a68b016a1c2eb88e4aca0efc21923eea27d"
 
 RPROVIDES:${PN} += "knetwalk \
 knetwalk5"

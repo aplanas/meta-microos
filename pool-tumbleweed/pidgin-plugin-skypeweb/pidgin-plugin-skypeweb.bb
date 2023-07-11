@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.7"
 
-RPM_NAME = "pidgin-plugin-skypeweb-1.7-1.3.aarch64.rpm"
-RPM_HASH = "358df9682c693353dfb972db67fbe28601437d68b87232beb4920662a154c8dc14c82fea4a4dfeb5b80ba56b71f199f06573dd36c36fa30d816989d23aa098eb"
+RPM_NAME = "pidgin-plugin-skypeweb-1.7-1.4.aarch64.rpm"
+RPM_HASH = "1fa1c9254d53cf39aecd06570fdad3ba3a5f91aeed828ca8feb10e20eecfd50844e880607d7854cebd65e8e5e421069bb11190b9436ec200990ede01cd39ad38"
 
 RPROVIDES:${PN} += "pidgin-plugin-skypeweb"
 

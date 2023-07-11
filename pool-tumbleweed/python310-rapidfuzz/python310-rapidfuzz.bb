@@ -4,11 +4,10 @@ LICENSE = "MIT"
 
 PV = "2.13.7"
 
-RPM_NAME = "python310-rapidfuzz-2.13.7-3.1.aarch64.rpm"
-RPM_HASH = "cd1503fb09f48e72e5edd124b3b861add1dbc8e0b4a0887b141987f921e3afcae61dd851da90d71fb6c4c30c35bfbc8c75cf48eb69103c57636881b280d78dc8"
+RPM_NAME = "python310-rapidfuzz-2.13.7-3.2.aarch64.rpm"
+RPM_HASH = "3ef5041f592ffd5c5b8a00cc8f9d4fe736c79ed895afe6d7a04838fd547a240d93ecaed58809521fa07a0cca15bfe624890611acdba618d8afa77e888669b4a3"
 
-RPROVIDES:${PN} += "python3-rapidfuzz \
-python3.10dist-rapidfuzz \
+RPROVIDES:${PN} += "python3.10dist-rapidfuzz \
 python310-rapidfuzz \
 python3dist-rapidfuzz"
 

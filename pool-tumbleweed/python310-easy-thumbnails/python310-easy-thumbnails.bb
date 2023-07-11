@@ -4,12 +4,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.8.5"
 
-RPM_NAME = "python310-easy-thumbnails-2.8.5-1.4.noarch.rpm"
-RPM_HASH = "5afe6fe419a5266ee698faa9a915686a682e7631664ddac914ae75c7b6a032d23f57580250faa2633f00e83f2688b2004efa8dcdd1ff29c66d0decb10d00847c"
+RPM_NAME = "python310-easy-thumbnails-2.8.5-1.6.noarch.rpm"
+RPM_HASH = "fe2d93255e544b8257db6af0fa5c123df8b9c66a1fe3bac60260af24a42f066f68dd252f3e6d50949367403b0c0cefc4f2c8b1e44c02f3f381877ebbd45b299b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-easy-thumbnails \
-python3.10dist-easy-thumbnails \
+RPROVIDES:${PN} += "python3.10dist-easy-thumbnails \
 python310-easy-thumbnails \
 python3dist-easy-thumbnails"
 

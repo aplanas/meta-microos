@@ -5,11 +5,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.8.3"
 
-RPM_NAME = "python311-hatch-jupyter-builder-0.8.3-1.1.noarch.rpm"
-RPM_HASH = "8086960f1c3a5cc309f23242ae61d52ccde8ef9049c9f2a575090930fe339507c2b926ada5c7d6e3ca4b2823f57b03e4d2ee0ec36bb8265edac5ba566be0e1f3"
+RPM_NAME = "python311-hatch-jupyter-builder-0.8.3-1.3.noarch.rpm"
+RPM_HASH = "9cdb1a12f5cacf5be319f5100688d40144e24ffc81b0e494c47a34f48abd992406ce93b9dd3c42ed36d969879f413c5fcbafc995fafc990a4918add9e11a1344"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-hatch-jupyter-builder \
+RPROVIDES:${PN} += "python3-hatch-jupyter-builder \
+python3.11dist-hatch-jupyter-builder \
 python311-hatch-jupyter-builder \
 python3dist-hatch-jupyter-builder"
 

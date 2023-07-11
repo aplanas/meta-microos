@@ -12,11 +12,13 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.3.3"
 
-RPM_NAME = "python311-python-yubico-1.3.3-2.8.noarch.rpm"
-RPM_HASH = "4bdfc33cd66a0b808579a412f71e3448abac395ac48fbe5a5bf3eb9268c938ddba15abf78628a9107e764fb1534f5a8205ae96fab06e19c55fae650cd3b9efa7"
+RPM_NAME = "python311-python-yubico-1.3.3-2.10.noarch.rpm"
+RPM_HASH = "821973959e902cf07ffc17b01a9cca99df5ca2c3c30079a9a8177f7e2db3603ec79b508a22d1f89e008227386e8c9478e31e1fb44d83e847f8af33ecb903babb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-python-yubico \
+RPROVIDES:${PN} += "python3-python-yubico \
+python3-yubico \
+python3.11dist-python-yubico \
 python311-python-yubico \
 python311-yubico \
 python3dist-python-yubico"

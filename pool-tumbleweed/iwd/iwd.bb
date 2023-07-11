@@ -5,10 +5,10 @@ of storage, runtime memory and link-time costs. It utilises the \
 features provided by the Linux kernel."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.4"
+PV = "2.6"
 
-RPM_NAME = "iwd-2.4-1.1.aarch64.rpm"
-RPM_HASH = "79de7eae91d4c8c05a47d68e65a1e3d642ad0e7b96b62d4a307628bb8901637fca97d254c2d9aa51504c6523b8097408d0b3af4bec940abdffbc393bd35ee6f1"
+RPM_NAME = "iwd-2.6-1.1.aarch64.rpm"
+RPM_HASH = "e57fff993ec02c5fe6d209dd46c599b6420d3158035b81ffed936d8e6436127c6635e630aa60422035b7e4cbe1a1ec9dc44758c2816e0b18b2f4a06c1f659cf4"
 
 RPROVIDES:${PN} += "iwd"
 

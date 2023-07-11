@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.svn15878"
 
-RPM_NAME = "texlive-hc-2023.201.svn15878-53.1.noarch.rpm"
-RPM_HASH = "450ee6cbcf5e75789aa955170d71752acaa922488f659efddf5d4496ca37f58ce2b6f2e7db9b1b5bd192433652afc29ff614163e6ce6988d4e90971dae6bfb38"
+RPM_NAME = "texlive-hc-2023.201.svn15878-53.2.noarch.rpm"
+RPM_HASH = "0a839ac481c87c194436eade235139982abc9d5d279f9c6eb4a01ce7acac58215b842baca19ef0f3ff3754ce72f57108c42bcde1eabd0c2751bc125bbfd65275"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hcart.cls \

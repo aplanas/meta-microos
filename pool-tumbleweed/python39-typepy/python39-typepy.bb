@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.3.0"
 
-RPM_NAME = "python39-typepy-1.3.0-2.8.noarch.rpm"
-RPM_HASH = "087f799e1eacf72ec366200f12007ddb57b3a589bb174b7f9cd7f3bea349292d3ee3fbe8cc1e93f48b01b2e0a120dcf737a8e3ce2eb7df753c4f891b50c6fe4b"
+RPM_NAME = "python39-typepy-1.3.0-2.10.noarch.rpm"
+RPM_HASH = "19ad0c4610f8845e59b844ec4a13e16f353487bba6e2691b1bdad082ef5df22a75cca14afd1284a4e8d416e0e49debae0f9397b5f57b308549604d1d60aabe13"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-typepy \

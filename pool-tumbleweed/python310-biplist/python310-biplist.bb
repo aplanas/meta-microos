@@ -8,12 +8,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.3"
 
-RPM_NAME = "python310-biplist-1.0.3-4.8.noarch.rpm"
-RPM_HASH = "3840dbffc7721f1740c38e7fed360736202d11248d2aad8b149f0fbc9c859ea839478102a7befc406e7713169ee260c4e2344338a28bad989f29e8c9070176bc"
+RPM_NAME = "python310-biplist-1.0.3-4.10.noarch.rpm"
+RPM_HASH = "8f9334dfb898ad1ce1b12e93d3c5001af745aec59d306156280fe2e91228c2952d0966b87ded5d0120d79bac7fbc3a622cb33ff339f2a971badcf321cdf799c7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-biplist \
-python3.10dist-biplist \
+RPROVIDES:${PN} += "python3.10dist-biplist \
 python310-biplist \
 python3dist-biplist"
 

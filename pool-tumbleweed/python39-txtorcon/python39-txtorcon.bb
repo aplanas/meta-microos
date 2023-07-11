@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "22.0.0"
 
-RPM_NAME = "python39-txtorcon-22.0.0-2.4.noarch.rpm"
-RPM_HASH = "af2aa3ce2a403c2f9c21fc69629d74ee8ac3a3a2f98a750d550d655ae6dc19184045b1b35fb772f5af74e39487393e0acdfcb9f01372b345e7ba53d690157d6d"
+RPM_NAME = "python39-txtorcon-22.0.0-2.6.noarch.rpm"
+RPM_HASH = "4b5b8a52d5be17f73798935597d0aacbe5062f6decf7d7516cd6c3ba113ca0a12704cc27c5259974ca7ed7a3dd06656fcb8d1938e2c0832899f4f650c39f27c2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-txtorcon \

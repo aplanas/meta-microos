@@ -4,10 +4,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.0.3"
 
-RPM_NAME = "ghc-http2-devel-3.0.3-2.3.aarch64.rpm"
-RPM_HASH = "0d57a415b20c3a5df1f139c693ff7138de4d9f05d425a9d2dc72c149e97740e8b0fc27e1bc5fff3eadabbafc33e63a87a354c6dfdad896f1a9e5d46260adffb4"
+RPM_NAME = "ghc-http2-devel-3.0.3-2.7.aarch64.rpm"
+RPM_HASH = "a11eb62c2d3eaa3bcdc7df1ced2f3a529ad1697e3a33e82bf32dd0a595625e959a9a7933c68e638dc8ec405577f921f5998c26b009c2861400e4ce02b870020d"
 
-RPROVIDES:${PN} += "ghc-devel-http2-3.0.3-g8K2coD7lK8bFd8vR2MQJ \
+RPROVIDES:${PN} += "ghc-devel-http2-3.0.3-COVYRU9DHikEztQPG0mdmy \
 ghc-http2-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -19,7 +19,7 @@ ghc-devel-bytestring-0.11.4.0 \
 ghc-devel-case-insensitive-1.2.1.0-AumZoR4Lds63HJj8OQwHY3 \
 ghc-devel-containers-0.6.7 \
 ghc-devel-http-types-0.12.3-4BrMFwRucoT4fBt8cCVFS6 \
-ghc-devel-network-3.1.2.8-HNDBp0HF6t0D1fzE2MDtPd \
+ghc-devel-network-3.1.4.0-FvtFepOtuCUH79FCWyNxIc \
 ghc-devel-network-byte-order-0.1.6-9jNlcwvZjC3K8A2S0a4vrO \
 ghc-devel-psqueues-0.2.7.3-F3Vf47seRPn11NfFVgsy6O \
 ghc-devel-stm-2.5.1.0 \

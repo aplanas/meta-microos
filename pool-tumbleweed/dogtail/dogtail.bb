@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.9.11"
 
-RPM_NAME = "dogtail-0.9.11-1.13.noarch.rpm"
-RPM_HASH = "1e2bd0afe2e4e7b0c36f8c6e3e9c3fd5a7c48dcb69bcdd4a9584cb74860c40c734d8f1b0dcde9c5e0ca30c0577ac5d93ef981d848c012facf498445abdeba8c1"
+RPM_NAME = "dogtail-0.9.11-1.14.noarch.rpm"
+RPM_HASH = "406b7a3278bd322f71180d82ee30f69cfda7f5aac7db771f8ca3150b3e8c13ad13230fd612ebe77860bc382e13311464fc9abfd109025abd00d6f168ef98ad1e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dogtail"

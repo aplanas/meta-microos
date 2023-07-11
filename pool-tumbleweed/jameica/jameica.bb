@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-only & LGPL-2.0-only & CPL-1.0 & Zlib & MPL-1.0 
 
 PV = "2.10.4"
 
-RPM_NAME = "jameica-2.10.4-1.1.noarch.rpm"
-RPM_HASH = "a46fd87543160b39acf3e5822d3efeffaf3322c28e7d0f63df04dbc84cffccaccf5c69529bcfcd106d4ac3d7eaced5d7789b0666575244571339ddaeff657dbe"
+RPM_NAME = "jameica-2.10.4-1.2.noarch.rpm"
+RPM_HASH = "240af051bdd66c4bab3c6750aac458bc980482375639b3b23ca332dd84cf4325b88eb6c0365830561880a488c09febaa8b3e5f73465b08ab29ce52c341cb09b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jameica"

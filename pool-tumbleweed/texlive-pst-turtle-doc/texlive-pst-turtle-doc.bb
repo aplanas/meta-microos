@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.02svn52261"
 
-RPM_NAME = "texlive-pst-turtle-doc-2023.201.0.0.02svn52261-53.1.noarch.rpm"
-RPM_HASH = "1e00d1cbe66eac496406ad38ce10a9d7fcf26c2bc0735e85064006b72b2ac9eb69fc4f5c59ddd3dc5eddd848b2984716ec7151f6a960f3dc2448ad2430dae80c"
+RPM_NAME = "texlive-pst-turtle-doc-2023.201.0.0.02svn52261-53.2.noarch.rpm"
+RPM_HASH = "646ee88f6b45d2e96b0dd2ee97375fc430938b275c8c78db46ed34cd75d22f3dfcfab7fb06ec9c6ade8950ec873f74eaaf1084b64f5ff32aa2b4f7bf39090c5b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-turtle-doc"

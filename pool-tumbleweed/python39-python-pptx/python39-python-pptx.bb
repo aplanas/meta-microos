@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.6.21"
 
-RPM_NAME = "python39-python-pptx-0.6.21-1.3.noarch.rpm"
-RPM_HASH = "496a19383e880fd6a7faef1ce885a221b607af9efd1a72e42da4778f9fcfd5cb82f18196141df767c383f01e9bc7c816375790fbbca1d709d285eddef560ee5b"
+RPM_NAME = "python39-python-pptx-0.6.21-1.5.noarch.rpm"
+RPM_HASH = "d9b1b7b3225cf78d1b2803e049f3b53f73abc43cc2f036bb046edbce1c3b6550d68bd013cc321afe089f6835a0226c1ab707de7063cd6759022c3ac8c8925eed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-python-pptx \

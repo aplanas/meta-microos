@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & MIT"
 
 PV = "5.12.0.134.g4cebbfc"
 
-RPM_NAME = "collectd-plugin-mqtt-5.12.0.134.g4cebbfc-1.4.aarch64.rpm"
-RPM_HASH = "c0602c7b48bbeef76cd8d1502e7570ae6fba38ce2ee18dd89b2fbf1ac17ae2ae1318bac3a19a271c06f09ef327864c879d28bf5dc69c4195d6a469163ecef982"
+RPM_NAME = "collectd-plugin-mqtt-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
+RPM_HASH = "8ffb403d34b64055efb454a2aa78004fd9a2abb730e385506bb79b4dc3838850366f560e0f2bfb4389714d501fd07874974c236edd83cb22128d58eaa6fa5477"
 
 RPROVIDES:${PN} += "collectd-plugin-mqtt"
 

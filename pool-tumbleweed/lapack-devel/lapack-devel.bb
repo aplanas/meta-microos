@@ -12,8 +12,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.9.0"
 
-RPM_NAME = "lapack-devel-3.9.0-9.1.aarch64.rpm"
-RPM_HASH = "0f5049db4be4641ea084583ae5388d1b14b110659482d9c0b31dfdf8dbc3ee48a5f5a1547c4d6bfde046130b357b95c22606f52931a7a6d966aea6267bbc5125"
+RPM_NAME = "lapack-devel-3.9.0-9.2.aarch64.rpm"
+RPM_HASH = "ba0aba8633a875bdc25cff2b6a21ae5c162c38700c6301111669f7f4964a68f5fb60c626208f1fa948ffa0ac3392bc3441f376c9fc50d8b4a6560e6354b87939"
 
 RPROVIDES:${PN} += "lapack \
 lapack-devel"

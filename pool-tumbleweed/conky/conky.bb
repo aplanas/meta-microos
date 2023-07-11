@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later & MIT"
 
 PV = "1.13.1"
 
-RPM_NAME = "conky-1.13.1-3.1.aarch64.rpm"
-RPM_HASH = "34fc88d4fbf28f1635c0cae2a468e0d583bedb7c887b1f63cea1a4943ce797b80e0bcf997e226d16e34341215742be818d923cc01b0e88945ecc59a74e6bc9f3"
+RPM_NAME = "conky-1.13.1-3.3.aarch64.rpm"
+RPM_HASH = "0df23fe4286012390a74752af885d3926a1bfc9edfb7f750f7f615e05a65af1e9d06f80a594d7ce74334a2a3b199e766b1842cada27e2f9b3a7fd5c418e7cfc6"
 
 RPROVIDES:${PN} += "config-conky \
 conky \

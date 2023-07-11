@@ -3,10 +3,10 @@ DESCRIPTION = "An OBS Source Service that will download, \
 verify and vendor Rust crates (libraries)"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.4.5~1"
+PV = "0.4.5~4"
 
-RPM_NAME = "obs-service-cargo_vendor-0.4.5~1-1.1.noarch.rpm"
-RPM_HASH = "51c5804175e598b43348e153b690a4abeeb0282ac4671250d217a53d6037752bc709463fb8a6abbd21f597d2ae435c778fcc908e3b258667f4cd23c56170ecd0"
+RPM_NAME = "obs-service-cargo_vendor-0.4.5~4-1.1.noarch.rpm"
+RPM_HASH = "af10edcfccd12d034c0cda0a2e4a90a8c5f3b9686bdae4e85dcc39f2936cbd819cb4dcdcacd401862376e61b6a8afcc4f5fcbdf495c247a0c1d9fb44c0df4c49"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "obs-service-cargo-vendor"

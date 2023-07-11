@@ -10,10 +10,10 @@ and opening types. TeX maths does not do this job properly. The \
 package depends on pgfkeys."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.4svn50265"
+PV = "2023.208.0.0.4svn50265"
 
-RPM_NAME = "texlive-interval-2023.201.0.0.4svn50265-52.1.noarch.rpm"
-RPM_HASH = "6f3c413e3e3056ceaaa932f2e1176f3654c2963eaa9c2246a80990689a9b7d59153fd1edfe81482d67186f99c5923af60973633a4cdd85a35211ad0d07c15a7c"
+RPM_NAME = "texlive-interval-2023.208.0.0.4svn50265-53.1.noarch.rpm"
+RPM_HASH = "61986144bfbd71b40c6bf9d3ac35c5a840658daed58f1202fceadc792cec01c2c9557b776accb7919082f4884e21bc065ed65570f12fd1a9a2921821ef287435"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-interval.sty \

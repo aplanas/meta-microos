@@ -10,8 +10,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.0.1"
 
-RPM_NAME = "jakarta-commons-modeler-javadoc-2.0.1-2.6.noarch.rpm"
-RPM_HASH = "a83ee8d038883c31ff6194fae70fe676c2f852cc2eccce563c826902248f7c923d89b712091db721a9684c6555f6ed24510a3dff315fa1a51b8fb65f88eed6b8"
+RPM_NAME = "jakarta-commons-modeler-javadoc-2.0.1-2.7.noarch.rpm"
+RPM_HASH = "8b164ebe3bdf3bb5a6f5b781c07d618168540ca74a1db6d6c5defe175483b5e6d9e1196fd9720b3346d38c3db6daf3e45ce772a680404de348264b70e6fc96f9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jakarta-commons-modeler-javadoc"

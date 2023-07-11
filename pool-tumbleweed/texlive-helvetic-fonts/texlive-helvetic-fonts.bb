@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.201.svn61719"
 
-RPM_NAME = "texlive-helvetic-fonts-2023.201.svn61719-53.1.noarch.rpm"
-RPM_HASH = "183daade923179939d3f84d088bdc72bd28f20e095b67b3252964348de10fc7bd5b1a41824a2afc1921fea2717a2fe9dc221482b758c94cef82a84f504a8c9c8"
+RPM_NAME = "texlive-helvetic-fonts-2023.201.svn61719-53.2.noarch.rpm"
+RPM_HASH = "da5ed74a65c428a642ba7d0ea9dea0da56590ca81d8761fc32b01a6b68afd18308b0763332bb05ec6515b77ba7d40c46358d08daa46a1703a88c5702e7cb516b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

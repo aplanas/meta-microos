@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.8"
 
-RPM_NAME = "minicom-2.8-1.5.aarch64.rpm"
-RPM_HASH = "11a12d3dbc2d90564ab6363f16f75cb49366bf6e8ac86112f5ece3b39b24402fd5107a3bd4dc73df01b8b9ac492f11d2bdd537f104a25ce3b4145a5ab6764519"
+RPM_NAME = "minicom-2.8-1.6.aarch64.rpm"
+RPM_HASH = "fc4391fca0d1ca0a4c2e72ee52a3867acac5e47b4e2e46c52d0f878f57641e1b62dc3cbca6e99ea904ba6033cb6ef954a5d53afa6702c1b1afbb9b5e169c4185"
 
 RPROVIDES:${PN} += "minicom"
 

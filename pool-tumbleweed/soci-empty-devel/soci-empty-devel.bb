@@ -10,8 +10,8 @@ LICENSE = "BSL-1.0"
 
 PV = "4.0.2"
 
-RPM_NAME = "soci-empty-devel-4.0.2-4.4.aarch64.rpm"
-RPM_HASH = "bdc43126b028b2e782b98a5ffd5f9c7e5369cf7e10ceae1d7d5cac800db39b3722a1f8cb36a66e2c3828bc4c3f2c9d09ec859a09e594cf33a76468a57e4fcfe2"
+RPM_NAME = "soci-empty-devel-4.0.2-4.5.aarch64.rpm"
+RPM_HASH = "67f7cef91c0f00698ce57bb1a73553567280b2d7ebca2c972abe1335b26846b0d46d685d2617284ccc6627a87b0b1fda63aacaf2cf46f9de89452a7c3767b32a"
 
 RPROVIDES:${PN} += "soci-empty-devel"
 

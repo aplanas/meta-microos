@@ -2,10 +2,10 @@ SUMMARY = "Xwayland Xserver"
 DESCRIPTION = "This package contains the Xserver running on the Wayland Display Server."
 LICENSE = "MIT"
 
-PV = "23.1.1"
+PV = "23.1.2"
 
-RPM_NAME = "xwayland-23.1.1-1.1.aarch64.rpm"
-RPM_HASH = "82e49f49d3f999a347283b27a5d367586b932cb8bdc00e00eb399bb959bdba73e16b2114fad556c8b47eba4b309feace496defe9e771fff6806e4c7d59d85f40"
+RPM_NAME = "xwayland-23.1.2-1.1.aarch64.rpm"
+RPM_HASH = "43476efc35ffc747f86e3bbe90ee16eab7c8f121d382aea5c8f069df1a3a345984849de8f80eaed49bddaff2a277c4027122c894a9c587882eff99d8c89eb89e"
 
 RPROVIDES:${PN} += "xorg-x11-server-wayland \
 xwayland"

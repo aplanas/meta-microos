@@ -6,8 +6,8 @@ LICENSE = "CDDL-1.0"
 
 PV = "3.02~a10"
 
-RPM_NAME = "cdrecord-3.02~a10-47.3.aarch64.rpm"
-RPM_HASH = "cf459a62fdd37682ccfc5a399223db4b50405ea2d96981a41fc3b1c0640ba28d8fe26d857b39fd6c03021fb42c01917ad43bf3f66abcda2d1c7ddf4e265ee006"
+RPM_NAME = "cdrecord-3.02~a10-47.4.aarch64.rpm"
+RPM_HASH = "1627cbc4e4ee78a0c9b8a74de4038052f2f9b1798197cc0bdb332ca3535bfc152b46129216c6eba771e6c3e7c026430953a330a90e66d734d2f9df04e1a0874a"
 
 RPROVIDES:${PN} += "cdrecord \
 config-cdrecord"

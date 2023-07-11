@@ -4,8 +4,8 @@ LICENSE = "Apache-1.1 & Apache-2.0 & GPL-1.0-or-later & GPL-2.0-only & GPL-2.0-o
 
 PV = "11.0.19.0"
 
-RPM_NAME = "java-11-openjdk-javadoc-11.0.19.0-1.1.noarch.rpm"
-RPM_HASH = "d3d648a5ede525e2bbaf821b7ae3427bf82ff9fd3302f9e58a379d7a151bc7e4fa1d14914002b94c328a6c3e885a774a3f277aec5982717f9865f2a26e4f4260"
+RPM_NAME = "java-11-openjdk-javadoc-11.0.19.0-1.2.noarch.rpm"
+RPM_HASH = "b9e926918a065b006556f309965483683a571234ab49c3613454aef1eac803bb10591d128cf3b46e33b919ccfdd439dc18680825a17e00d040275f7affc37d9a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "java-10-openjdk-javadoc \

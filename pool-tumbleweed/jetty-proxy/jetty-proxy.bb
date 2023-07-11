@@ -15,8 +15,8 @@ LICENSE = "Apache-2.0 | EPL-1.0"
 
 PV = "9.4.51"
 
-RPM_NAME = "jetty-proxy-9.4.51-1.1.noarch.rpm"
-RPM_HASH = "0fe334697cb3b234ec8f52004dbbec23791a4d5ff338a64107b52d1a7e1c139e3de0ded133ab8a0588362ff62848f108ecf0d8faf3807c45fd2048ae02fe7e1f"
+RPM_NAME = "jetty-proxy-9.4.51-1.2.noarch.rpm"
+RPM_HASH = "5a18bb11d22d37176f4eb17535df2919702f429681ef3dacbca8f6686e788e7c677043c3ff254d7594116f542c9eff2773392dd394a752756ba6011a8141fc69"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jetty-proxy \

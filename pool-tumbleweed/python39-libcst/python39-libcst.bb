@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.4.9"
 
-RPM_NAME = "python39-libcst-0.4.9-2.1.aarch64.rpm"
-RPM_HASH = "1c56c32fa347659d8f802bc091892c1f189852f28a78067ddcf9a68ec74acf0bb48a6823f62ebeab163cc0baaf602129420b45b9ca9685f34b4ff0fc57f07bea"
+RPM_NAME = "python39-libcst-0.4.9-2.3.aarch64.rpm"
+RPM_HASH = "5831a6215ea69e3c1d33f0557c0abaf55f370bced0485aa1ad7b6d91981e6482c748eab71bab33e69f6d6f48b3c60db9574346697b0196eb1c5f763b16e93706"
 
 RPROVIDES:${PN} += "python3.9dist-libcst \
 python39-libcst \

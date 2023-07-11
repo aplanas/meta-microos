@@ -8,11 +8,12 @@ LICENSE = "MIT"
 
 PV = "9.11"
 
-RPM_NAME = "python311-pymdown-extensions-9.11-1.1.noarch.rpm"
-RPM_HASH = "20527413ba18f0a905692b05420059bfa83ab6521e1c036e1e05351dce34a7fe2ca1501e36e8f35bebb4c2a2a6ade7f748165eae15239eb37b8763cfedb3c579"
+RPM_NAME = "python311-pymdown-extensions-9.11-1.3.noarch.rpm"
+RPM_HASH = "fb03e05538e1f8be0752043510abd375d52ce898a801fc084d849ee1b3c8816d64530a976b516e3da2f26927053a080c6615e21ac346483f8430e15fee82b67e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pymdown-extensions \
+RPROVIDES:${PN} += "python3-pymdown-extensions \
+python3.11dist-pymdown-extensions \
 python311-pymdown-extensions \
 python3dist-pymdown-extensions"
 

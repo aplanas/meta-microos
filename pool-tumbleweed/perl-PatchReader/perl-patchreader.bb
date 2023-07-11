@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0+ | Artistic-1.0"
 
 PV = "0.9.6"
 
-RPM_NAME = "perl-PatchReader-0.9.6-1.19.noarch.rpm"
-RPM_HASH = "8851e57dcd7a1e0161e7a02438c4218afbc91f268eedfa445047e2c85790afa0a6c68fb34ccb609a323fee7a6cf72e0ce5baa125607fd972662fe06d5a9ab435"
+RPM_NAME = "perl-PatchReader-0.9.6-1.20.noarch.rpm"
+RPM_HASH = "ac85beb912d7780f2fc44793e2bdbf14e29a06eb73ee66a918aba884e02fad05e65eba30f26d0564d8c21db821c033decd48689ebce230da84f1c32dd41eae80"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-PatchReader \
@@ -22,7 +22,7 @@ perl-PatchReader--NarrowPatch \
 perl-PatchReader--PatchInfoGrabber \
 perl-PatchReader--Raw"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Cwd \
 perl-File--Temp"
 

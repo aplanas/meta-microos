@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.2.0"
 
-RPM_NAME = "python39-fann2-1.2.0-1.8.aarch64.rpm"
-RPM_HASH = "dfa33f1a49e87469bd3e1b3df3c28092a6a8d8cfcc4d4507a9bb7487b2e4aee7d622a0a8b276cadc504457215761b7f5355efd24b00d99d2dec8490c89254be6"
+RPM_NAME = "python39-fann2-1.2.0-1.10.aarch64.rpm"
+RPM_HASH = "121be2593aa421363dc104c7863d479482329f3d7e17d2b72b3c53418de037a5cbe223574b30aa9baddf3a2632294504d42f0e8dfa0e5216d677d390c2c65981"
 
 RPROVIDES:${PN} += "python3.9dist-fann2 \
 python39-fann2 \

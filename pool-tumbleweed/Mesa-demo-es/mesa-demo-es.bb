@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "9.0.0"
 
-RPM_NAME = "Mesa-demo-es-9.0.0-1.1.aarch64.rpm"
-RPM_HASH = "3cd4e3dfa902e1422c51b1ab2de66391e48fec72398947f0ddbf5531f1111d3089f3fcc54bf62404ba30c1ae6beba37019959cc9de6b92ae7f407263fe2d96d5"
+RPM_NAME = "Mesa-demo-es-9.0.0-1.2.aarch64.rpm"
+RPM_HASH = "53c2b346f28d23884c1ebe37dfae908056325524df23cbcbcaab7d177fad0a80a05f02064f4141888199790c97d44f19500a4ef9c2fd9ba54c9291a4b04659d3"
 
 RPROVIDES:${PN} += "Mesa-demo-/usr/lib64/mesa-demos/egl/opengles2/es2-info \
 Mesa-demo-/usr/lib64/mesa-demos/egl/opengles2/es2gears-x11 \

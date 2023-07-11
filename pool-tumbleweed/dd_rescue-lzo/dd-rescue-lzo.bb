@@ -22,8 +22,8 @@ LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
 PV = "1.99.13"
 
-RPM_NAME = "dd_rescue-lzo-1.99.13-2.2.aarch64.rpm"
-RPM_HASH = "16d49e1c54a7c3ff70a4012776fdcbaa65f7ad2c5d31998896927acf6f5fdc25fd6e37dc318ee248fcc40de8ac4100f2c58739c2a25330d94693d5b93550f389"
+RPM_NAME = "dd_rescue-lzo-1.99.13-2.3.aarch64.rpm"
+RPM_HASH = "c7bbe4cb8f0fa5684ad12d94339294df48bb59139f2e114e8e1b349696a809048031cf0bb346ef5a32cea5de6093c8f5fd2ebce0618223212de70550fae95371"
 
 RPROVIDES:${PN} += "dd-rescue-lzo \
 libddr-lzo.so"

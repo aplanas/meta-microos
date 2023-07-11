@@ -11,8 +11,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.20.1"
 
-RPM_NAME = "python39-Pint-0.20.1-1.4.noarch.rpm"
-RPM_HASH = "38898b3f1bc0ae0e86a7ac0a5a0b1eb8bf99e7d522a3681ae5b7d0f4ed99c33d4e0fe565d22ce4ffba9656ece620cb7ab0a2f5154761b0828fbc442cf0051edd"
+RPM_NAME = "python39-Pint-0.20.1-1.6.noarch.rpm"
+RPM_HASH = "e675331c7fa2267f89c7b4c2c8be1fb143e86888df0293477320ce79f8bf3974757110657399d4a070577b7498c3b5aab561a189badd9b7d838f6c6082d1cc21"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pint \

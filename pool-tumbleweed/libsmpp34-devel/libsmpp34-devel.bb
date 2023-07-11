@@ -5,10 +5,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libsmpp34."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.14.1"
+PV = "1.14.2"
 
-RPM_NAME = "libsmpp34-devel-1.14.1-1.9.aarch64.rpm"
-RPM_HASH = "efc345d26b9ffcfd75704f62296fc264be22a34bcc7417a126e3485268392585b6a796ec9c9ac598967c2d629277d01de0de097ec669b7f054416285c101ac26"
+RPM_NAME = "libsmpp34-devel-1.14.2-1.1.aarch64.rpm"
+RPM_HASH = "79aaa730169db70578bc08fc956ba568ab51f4b4f86e7450c9fe072f637878feacad06c8ea5229b2497bcdfb56baf7fe0a96a640362900ea889a0ae4751f60ff"
 
 RPROVIDES:${PN} += "libsmpp34-0-devel \
 libsmpp34-devel \

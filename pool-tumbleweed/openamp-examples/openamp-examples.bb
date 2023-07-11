@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2020.01"
 
-RPM_NAME = "openamp-examples-2020.01-1.12.aarch64.rpm"
-RPM_HASH = "da4c80dd135ddd398f2546f847dfb1571e2962890de9460a8fc25066189046ef1b3fe498ca9e3d3acef1a15218d7381df46c5f9f5f3625db1aea225d9dee7205"
+RPM_NAME = "openamp-examples-2020.01-1.13.aarch64.rpm"
+RPM_HASH = "47f3dfed278a1b302d6f89ff5574045154e1e23b85cf442c107b63e1cb6ea99a9180fffe6260cdb66126632ac01225fbea0a7b010a848c0afddb06ac1c733798"
 
 RPROVIDES:${PN} += "openamp-examples"
 

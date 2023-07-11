@@ -4,12 +4,11 @@ LICENSE = "Apache-2.0"
 
 PV = "0.4.8"
 
-RPM_NAME = "python310-padatious-0.4.8-1.4.noarch.rpm"
-RPM_HASH = "3bf2a236041870f19968d29da218b84ba52967b64b9a01a4aa3aeea46a38fb017c9b29f6ab5965af2473e8f583db9318ffc73e4be13d3068ea8a4a211002f006"
+RPM_NAME = "python310-padatious-0.4.8-1.6.noarch.rpm"
+RPM_HASH = "d5724539f67c927a2490826419b70f0e46c714aadd3ee6d8970a471b2d9c39c842d0f9eca11dc65436436f771f830d4e33292018b205e9f9974035166b7c3d40"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-padatious \
-python3.10dist-padatious \
+RPROVIDES:${PN} += "python3.10dist-padatious \
 python310-padatious \
 python3dist-padatious"
 

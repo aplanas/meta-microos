@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-quickdialogs2utils-private-devel-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "f51c3c26fe5f12644549d31221ece2987bd2ecadc1c2db2a842e8b7f8b98417b2eaeb7ebb92335efe9a056d8244dcfe6e09b11de733821ed6f95193f628ab5d2"
+RPM_NAME = "qt6-quickdialogs2utils-private-devel-6.5.1-1.3.aarch64.rpm"
+RPM_HASH = "289bb30321f48248ff6409308727a31384d56f7dbbed55e5475dc5ad60a4835f4c6ead335b29b7e0152cf087ab5fa68ad5add143b36ef1d6f0681ddd390a5046"
 
 RPROVIDES:${PN} += "qt6-quickdialogs2utils-private-devel"
 

@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.5.1"
 
-RPM_NAME = "python39-PGet-0.5.1-1.9.noarch.rpm"
-RPM_HASH = "2fd616f8d8b2217b5403783a47c796857b83eb3b0a3d90edb08984478e7928509667cdda1abca522c21bee34b8d9d331d33ea304dae9bca7893a08e0a460d66a"
+RPM_NAME = "python39-PGet-0.5.1-1.11.noarch.rpm"
+RPM_HASH = "6d15e39bb6a27bc80f11c22e6075d9cd2aa7f57bc12933e3fbfe4ed0f328ad42ef775d3902e14aa2a88217ca31d4984a9024154f4ddc5f9c81f83d2646a8af4f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pget \

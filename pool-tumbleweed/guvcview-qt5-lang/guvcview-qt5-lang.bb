@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.0.8"
 
-RPM_NAME = "guvcview-qt5-lang-2.0.8-1.4.noarch.rpm"
-RPM_HASH = "de70b42d201a8da6f49e7d246e395524c22847c06d069cbc2ebbde80dfeee375274b721a5372605aaec9d9ee1bd3ed91cf4404615aa0cd62d6c5bf3d4ee0acd4"
+RPM_NAME = "guvcview-qt5-lang-2.0.8-1.5.noarch.rpm"
+RPM_HASH = "5d015d103679e538ffb80a446e517ec747eb676f870a9147e0f781ca99f7fc23029012a4f25814c465abdb1097206cb0cd37d998b6461a9ffe8c88a9e91dab2a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "guvcview-qt5-lang \

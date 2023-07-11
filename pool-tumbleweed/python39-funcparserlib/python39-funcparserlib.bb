@@ -12,8 +12,8 @@ LICENSE = "MIT"
 
 PV = "1.0.1"
 
-RPM_NAME = "python39-funcparserlib-1.0.1-1.3.noarch.rpm"
-RPM_HASH = "432dbfb130bababf26add0037e2014728ee1c6d60a581e1c905d39094e4b4a10cac602e1fae092cb8abafe03102ffc99f737c7b1fb89ccab0dab2976206123bd"
+RPM_NAME = "python39-funcparserlib-1.0.1-1.5.noarch.rpm"
+RPM_HASH = "cd8357de6cd0f77873b49b4ff2c48e110b0bf334343a0196004b2b9bbd0261719b7e3cbb87713d63afacc4d456b7ad6e8e90e1b3f0a4a155e7217f282fb44208"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-funcparserlib \

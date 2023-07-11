@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.1.7"
 
-RPM_NAME = "freeradius-client-libs-1.1.7-1.30.aarch64.rpm"
-RPM_HASH = "30e6b69e8094c6c910654e14dac09e660eb23d4d149b02f0fd9899d875ba2f1b76c6816076a6dcaf4a23aa889ae8d456cc710db55f1c9851b3f0d4a3621a7aaa"
+RPM_NAME = "freeradius-client-libs-1.1.7-1.31.aarch64.rpm"
+RPM_HASH = "c6b5fbd038e79b32c4c20251fabce5cf07e9e6ad1ceb9d29ebb8954cf87594d0ed1a435425ead31257b0761b1bbe9428e04349229af90775cc25ca149b4493bd"
 
 RPROVIDES:${PN} += "freeradius-client-libs \
 libfreeradius-client.so.2"

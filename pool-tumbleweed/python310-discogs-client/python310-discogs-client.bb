@@ -8,12 +8,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.3.0"
 
-RPM_NAME = "python310-discogs-client-2.3.0-1.3.noarch.rpm"
-RPM_HASH = "c505e02a7661eedcaa60c9fa546d4a49f7c58d5f9e3cecb1ce36b8e6fe81642a49d626a8f21a2961fe40c2b34a8d3573bbb50647f3575b8a1f3aa165b6fdc1f4"
+RPM_NAME = "python310-discogs-client-2.3.0-1.5.noarch.rpm"
+RPM_HASH = "d985bdea4b80e08f1c40534ae8832402f00b234c792b1c12d3e7a9b2b8b7bb6b4f0e5853ce015968ed403cabb31717165ca2d7a8b82b4f0f8438c83a484cb413"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-discogs-client \
-python3.10dist-discogs-client \
+RPROVIDES:${PN} += "python3.10dist-discogs-client \
 python310-discogs-client \
 python3dist-discogs-client"
 

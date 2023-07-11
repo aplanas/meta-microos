@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "9.4.5"
 
-RPM_NAME = "ghc-libiserv-prof-9.4.5-3.1.aarch64.rpm"
-RPM_HASH = "3045f4e286f54a3ce95d20a27eac23648ce5720a84709230371f71fa44932d89385560bbc921421ba8a5cedfc3bd5ac4d7e77f3f170e9c8c15d1b2e963647dd6"
+RPM_NAME = "ghc-libiserv-prof-9.4.5-3.2.aarch64.rpm"
+RPM_HASH = "701e7347a2f36b1c7b346f0961c324d0381ce2d7d74cbec2f0f2d6c51c9ce142612890120889c6094db3ec9dbe3704301d7f5d51112f9d65a40aa7f37c70c7ff"
 
 RPROVIDES:${PN} += "ghc-libiserv-prof \
 ghc-prof-libiserv-9.4.5"

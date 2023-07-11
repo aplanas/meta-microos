@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.6.2"
 
-RPM_NAME = "tinyxml-devel-2.6.2-10.8.aarch64.rpm"
-RPM_HASH = "5443596bc7b8728197231d7993a0a9a64e69969a185edc41f1dadb97125f914d0d6b43631afdd968f34082108596a242b858ea4f3c58b6284a49dc92bd05ea52"
+RPM_NAME = "tinyxml-devel-2.6.2-10.9.aarch64.rpm"
+RPM_HASH = "e58c5c15b3c5d77ef9054a067f3a50f0ce35b384d8e0d8ca18106b58c3868b550df33dd3f59647d70833cc891ed5b86e29d9d7ce428958aa61c4abc73ec0dba1"
 
 RPROVIDES:${PN} += "libtinyxml-devel \
 tinyxml-devel"

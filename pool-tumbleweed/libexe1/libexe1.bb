@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20210424"
 
-RPM_NAME = "libexe1-20210424-4.6.aarch64.rpm"
-RPM_HASH = "fd5b8b13e51836fd134d36b6fdf2bc2479df82f5350611f326c6bd7a48faed9dbbfa1658f967a311f1620c13747725acc3daf0ddc52aced9b4dea559121e2536"
+RPM_NAME = "libexe1-20210424-4.9.aarch64.rpm"
+RPM_HASH = "e7b21655be9aabd62d25bf773ef9611307edd11aa70fb6e12d23709c399f006eb36f55ce6eee9ae560a4fb7d00f9adf7ef45cb0bcaf09c61fea142b4acc058e5"
 
 RPROVIDES:${PN} += "libexe.so.1 \
 libexe1"

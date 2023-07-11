@@ -5,11 +5,12 @@ LICENSE = "Apache-2.0"
 
 PV = "6.6.0"
 
-RPM_NAME = "python311-importlib-metadata-6.6.0-1.1.noarch.rpm"
-RPM_HASH = "c692fe1d04580300f882323699df20d2446a6b3c117e4583b7bde10d6f6cbe83d4469a21f639b8030f0f3cee0958313991ff3c47a5048109a358b7875a413e94"
+RPM_NAME = "python311-importlib-metadata-6.6.0-1.3.noarch.rpm"
+RPM_HASH = "2d5d5421bdc53415677c81def0dda257905ea7113c0165c048c9116719b8a680ddad67d4e76c38a04c5271471da7ea6a53193c1969ad9adffdeacc229de823b3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-importlib-metadata \
+RPROVIDES:${PN} += "python3-importlib-metadata \
+python3.11dist-importlib-metadata \
 python311-importlib-metadata \
 python3dist-importlib-metadata"
 

@@ -10,8 +10,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.2.00svn66301"
 
-RPM_NAME = "texlive-qrbill-2023.201.2.00svn66301-53.1.noarch.rpm"
-RPM_HASH = "c1594d6ff2d1bc785927255162782bde60a80550153fce281c5d360ade6aea9234fa95ef5679d13d7089eb3b648c047821a1395c28dc89bc46dc9834ef24d3c6"
+RPM_NAME = "texlive-qrbill-2023.201.2.00svn66301-53.2.noarch.rpm"
+RPM_HASH = "2ac2603c9cbd98abc04c3dcff24cbcb915205cf59f3181e3b1721c90bd0d9fa13565f10ae1326fe0d510bd312bb84dd9e47ded2cc7d7df36f7b2db59e885d6ae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-epc.qrbill-cfg.tex \

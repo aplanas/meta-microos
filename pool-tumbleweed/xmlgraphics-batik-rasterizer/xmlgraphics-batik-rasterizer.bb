@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.15"
 
-RPM_NAME = "xmlgraphics-batik-rasterizer-1.15-2.3.noarch.rpm"
-RPM_HASH = "a08de8288f783a50aed29fff751d285fa78fd4a7f77300b687f4dace517e42acd60468ff1fac6f484b62b965d86dbb0d9c31e26b2f543b5d924b27442caa15d5"
+RPM_NAME = "xmlgraphics-batik-rasterizer-1.15-3.1.noarch.rpm"
+RPM_HASH = "95a3f9cc515c87b312ffed03d9c5f559407ed1035176b7a4cd1080cfaf6e4bdf856948b572ccb3d48d57c27785e43c8377623126280aa373b2f4fd3788431e24"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "batik-rasterizer \

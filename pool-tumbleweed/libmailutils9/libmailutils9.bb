@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
 PV = "3.16"
 
-RPM_NAME = "libmailutils9-3.16-1.2.aarch64.rpm"
-RPM_HASH = "56d59225a2d2bce8e8303dab99c3a2045d92f6b4c06215b2c34a53a695b5b6a5f4582eedb9a7c805f8fec7135ee7da8d6acf2fe43198778d1c9b2402d2fae8c1"
+RPM_NAME = "libmailutils9-3.16-1.3.aarch64.rpm"
+RPM_HASH = "09eddf3dd8b4551dcb46c7022446b6fd9d91815ab69fa37b561a8b018643a928cd10e12a5f45b4f17da0b608a14834dea3cc36f01f9e48e9aab274f46ea27ca3"
 
 RPROVIDES:${PN} += "libmailutils.so.9 \
 libmailutils9 \
@@ -39,6 +39,6 @@ liblber.so.2 \
 libldap.so.2 \
 libltdl.so.7 \
 libpam.so.0 \
-libpython3.10.so.1.0"
+libpython3.11.so.1.0"
 
 inherit rpm

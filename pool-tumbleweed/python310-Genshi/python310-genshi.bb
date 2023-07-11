@@ -7,11 +7,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.7.7"
 
-RPM_NAME = "python310-Genshi-0.7.7-3.1.aarch64.rpm"
-RPM_HASH = "1b5908e854f256d1a60dd193b4fa7e03e84483b0f54d53c26460816edf9d889c95a23bbd5cd88d820e04d8188daf51703d1fd7c8bf4d9779ae18e6ec4504e0f3"
+RPM_NAME = "python310-Genshi-0.7.7-3.3.aarch64.rpm"
+RPM_HASH = "4516c884327be5414878fa2677cc254d1e79ce8a73baa755de08d671f881d40a0c41d422064a30b2a0c5ec2544503ff2554f06d0d594393b2f221156d8a0696c"
 
-RPROVIDES:${PN} += "python3-Genshi \
-python3.10dist-genshi \
+RPROVIDES:${PN} += "python3.10dist-genshi \
 python310-Genshi \
 python3dist-genshi"
 

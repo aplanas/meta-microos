@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "7.0.1"
 
-RPM_NAME = "python39-django-cacheops-7.0.1-1.1.noarch.rpm"
-RPM_HASH = "5ae8181b78ffe9351aecd2bae5f9cfb1759a5eb4a2e1806c5384ef8f84975dc2e7bb40ded998f997a5307b206d9881ed3e04217485a790b69a94d69e1b23f382"
+RPM_NAME = "python39-django-cacheops-7.0.1-1.3.noarch.rpm"
+RPM_HASH = "a2cdd1ed1ee3e843d6e32e81100147ca6ee765956f04a3749e4608655e85942f1bf2e546fba9814f375259842a7d6277ce1417b4e483f925fe4515b1094acba5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-django-cacheops \

@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.5.6"
 
-RPM_NAME = "etcd-for-k8s1.26-3.5.6-1.3.aarch64.rpm"
-RPM_HASH = "4e0beccb7577c7404d46a7d1242e588049ef303235235b60adc810562d34b5bba3022c11e5a88fde94aadf5b79f4019260d18cf20c5982991391a2a6d6927dde"
+RPM_NAME = "etcd-for-k8s1.26-3.5.6-1.4.aarch64.rpm"
+RPM_HASH = "c37f30a4fca6efdd634167ebe77dbfda36564844dbf6b072b4d24bc31b892581d0073f624fc948dc181377fcb45541c2e81f3584a5fecd1aaf8a4ab7b1d984e1"
 
 RPROVIDES:${PN} += "etcd-for-k8s \
 etcd-for-k8s1.26"

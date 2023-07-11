@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "python39-azure-mgmt-marketplaceordering-1.1.0-1.8.noarch.rpm"
-RPM_HASH = "9f79c68ebfb93ac372416a6b9ae86c5e731463a2d69fd987b8be6815a06c4293f1a350299a9b291e9424fdcbbc61a1775512b8e5ffc347b3eb135be85d020fa7"
+RPM_NAME = "python39-azure-mgmt-marketplaceordering-1.1.0-1.9.noarch.rpm"
+RPM_HASH = "af2efe0214886b2229acc99b7b97a0184424b5492532dba5f7015e9b1022111c55fbbcb9b48d70d51c1f2fafbbeba10911624998c90dbec73b47eb07f856d5e0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-marketplaceordering \

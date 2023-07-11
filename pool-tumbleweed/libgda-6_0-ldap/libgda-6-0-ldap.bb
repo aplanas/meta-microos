@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "6.0.0"
 
-RPM_NAME = "libgda-6_0-ldap-6.0.0-6.7.aarch64.rpm"
-RPM_HASH = "28e24f3d0b0c281df78eabc4fb02121d07515695d2dc09cade66360332d65ff704bb51b0e961159602797250b78233c157450e79a3140701e9602819ff241aa6"
+RPM_NAME = "libgda-6_0-ldap-6.0.0-6.8.aarch64.rpm"
+RPM_HASH = "358fb320fbfe4c2d908ff6984bfa97be91ec2a29f2aa094f8a51499277bdf11bb28a71e104fd648c7469db199b710d71b3c793d4620a5832b626fe25f9800bfb"
 
 RPROVIDES:${PN} += "libgda-6-0-ldap \
 libgda-ldap-6.0.so"

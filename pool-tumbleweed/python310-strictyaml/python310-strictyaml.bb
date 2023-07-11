@@ -14,12 +14,11 @@ LICENSE = "MIT"
 
 PV = "1.6.2"
 
-RPM_NAME = "python310-strictyaml-1.6.2-1.3.noarch.rpm"
-RPM_HASH = "cf63677ea85d733de4714afa1572d91c632fc7f8a1aa4fb28b4fd2b6ada9c1d22e3153524dc539c8da534ac2752113f14d7867af3d204a227d136fbb8a41f6ae"
+RPM_NAME = "python310-strictyaml-1.6.2-2.2.noarch.rpm"
+RPM_HASH = "60c5f991c6ba92b4cbf4d2187b0d34bdbf9eddbf5e90e4f9a9a7f53fbed37abb40028cbb1ab1b7094d1158ec5649f2644cc6d7505e15f9f128346f6720490188"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-strictyaml \
-python3.10dist-strictyaml \
+RPROVIDES:${PN} += "python3.10dist-strictyaml \
 python310-strictyaml \
 python3dist-strictyaml"
 

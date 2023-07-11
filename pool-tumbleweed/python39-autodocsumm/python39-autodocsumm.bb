@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.2.11"
 
-RPM_NAME = "python39-autodocsumm-0.2.11-2.1.noarch.rpm"
-RPM_HASH = "60a957448fe32515a761d403f1b37da9196c9b6b58fa2a8b071cc99fbcab5d11dae494cdc3fa399e5ec943f54a9b4b0b4f616c3232397ac6d44baf9bbac252d6"
+RPM_NAME = "python39-autodocsumm-0.2.11-2.3.noarch.rpm"
+RPM_HASH = "20ce146d395f127908552b2ca32a868bd9e575654a7e9d4f574c8171cf2d47d386a17f4c9c678b77d7c7d87c65d43dbced769fb60b486cc1f949f85f4c8686d4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-autodocsumm \

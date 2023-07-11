@@ -6,8 +6,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "3.0.0"
 
-RPM_NAME = "upsm-3.0.0-2.1.aarch64.rpm"
-RPM_HASH = "296f341da69f33f1b7ec85c534c962b9da5981d2086a17299f7e3e8129d4f0fb3a1f1e972a39360db15f0abbfddabd9077e5c782a17eb811d01b06d878b74c09"
+RPM_NAME = "upsm-3.0.0-2.2.aarch64.rpm"
+RPM_HASH = "27c62a9ed0de7d33e417e87fa5c91ea240c9145bc35cd0e37c4d727bed85c9025219414da23adaf2b3ecbce17006133a56168afa8a19b935bf1bbf9022ca3616"
 
 RPROVIDES:${PN} += "upsm"
 

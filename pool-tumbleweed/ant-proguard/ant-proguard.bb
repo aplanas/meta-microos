@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "6.2.0"
 
-RPM_NAME = "ant-proguard-6.2.0-1.19.noarch.rpm"
-RPM_HASH = "8936f878e4b580be364aa51ced84b9dfececbb0a63838983aaa27702fec155db69bc8672d9233b6fb490100adc5e3effa17167e7d8a767d92de02ad8c583889b"
+RPM_NAME = "ant-proguard-6.2.0-1.20.noarch.rpm"
+RPM_HASH = "304810ec3e5ac67bb86946b3ff1a7351c875945c80b24dd6f62ee145a318b520ad95fa58ce979cc991d7672af5c64d25e7f271e1c49e0950d0c19a80d617d147"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-proguard \

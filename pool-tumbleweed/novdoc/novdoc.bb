@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.0_2.2.2"
 
-RPM_NAME = "novdoc-1.0_2.2.2-11.1.noarch.rpm"
-RPM_HASH = "553b7ae758db17351cd5bfa74bdde0daabe36ade48a15b172f26c61b8a7db402a31a4a37fe5528946dcd2b482b5a92c7a99b8a1fcfc8334d4abd817edea0ee16"
+RPM_NAME = "novdoc-1.0_2.2.2-12.1.noarch.rpm"
+RPM_HASH = "778e0c814fc29d852c1755c8b7c37a22dcc7822671653b6c361acf3d9e9504da00a1af1ba7ccdec957744ba6363df2fd95d65235cc2822c589a6d91ec0581fd1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-novdoc \

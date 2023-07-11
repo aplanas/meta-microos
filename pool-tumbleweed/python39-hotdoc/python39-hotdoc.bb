@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.15"
 
-RPM_NAME = "python39-hotdoc-0.15-1.2.aarch64.rpm"
-RPM_HASH = "54279764f69e16387d44ae81740b92619dd194869693fb17d12d404febf55563103d80089771b73b0b327ef08cb9edb9c69c4bf319bf2649c974b87d1f952b35"
+RPM_NAME = "python39-hotdoc-0.15-1.3.aarch64.rpm"
+RPM_HASH = "5e698fce898a480dd7bdfe97d97a26946a4ed6c5f5e17c1a4da2dbb7e6a11792879188b9ab7201a69e1b1483a62dba3f578b0619a222bac441f90569e0dc5f04"
 
 RPROVIDES:${PN} += "python3.9dist-hotdoc \
 python39-hotdoc \

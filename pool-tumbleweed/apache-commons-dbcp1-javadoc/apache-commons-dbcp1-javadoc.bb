@@ -12,8 +12,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.4"
 
-RPM_NAME = "apache-commons-dbcp1-javadoc-1.4-3.16.noarch.rpm"
-RPM_HASH = "94f974e87626d65fdcd2072c8ad58c97211585afb14ee2d7a9dd139bcfae80ddb90a19c7d7f7f5303940a84e0e0d477bf676dfbc12bff2a07bec7148afd4f491"
+RPM_NAME = "apache-commons-dbcp1-javadoc-1.4-3.17.noarch.rpm"
+RPM_HASH = "7623b8b14cc59925bf3fd05c54442b62ba864dc798fa5647cb9b84cc52c903fdf90a655fed15e9da0ffa570a97d2461eca5bfb3fcea58c7f0b0b1e25e6a8bdad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-dbcp1-javadoc"

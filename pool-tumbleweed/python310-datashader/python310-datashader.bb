@@ -23,12 +23,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.15.0"
 
-RPM_NAME = "python310-datashader-0.15.0-1.1.noarch.rpm"
-RPM_HASH = "8860b400f97a6c075c9e2a5bd26aada7be815fe1c1b1e16bcc38a7e1dd2e9b8d2b4e03c29d2e860843a8c49fb81b37413d1b1391a45891e72cd6d1a2548af926"
+RPM_NAME = "python310-datashader-0.15.0-1.3.noarch.rpm"
+RPM_HASH = "51bc11d3fbd4119c1e057fb0fc1119c82b9ae4c939cb68f43944e43b97027bcb3e6682ab9f2b9672dace7ae26a58a57d6d5e5b127544eace3451d1bc372c2bfe"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-datashader \
-python3.10dist-datashader \
+RPROVIDES:${PN} += "python3.10dist-datashader \
 python310-datashader \
 python3dist-datashader"
 

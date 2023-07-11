@@ -4,19 +4,19 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.30"
 
-RPM_NAME = "ghc-cryptonite-prof-0.30-2.3.aarch64.rpm"
-RPM_HASH = "5030755b4883fae786c38df3a3003c1b03ff587d5f3d587c4bf3ca898a19e414606133e5186dc343b7c62e4c153f1c3d85e07ebfa591fe8be9b37315097f9de5"
+RPM_NAME = "ghc-cryptonite-prof-0.30-2.6.aarch64.rpm"
+RPM_HASH = "8ae15753d654afbbdbb8e6ffb3a049e1552a088cc57c43894c5d44e55226bf2c8bc610731a50fe854dafcd6e0de53ec8dc692773d78ed44b9744f72e95650def"
 
 RPROVIDES:${PN} += "ghc-cryptonite-prof \
-ghc-prof-cryptonite-0.30-AbDFzA14dNKDfU9pLpBLye"
+ghc-prof-cryptonite-0.30-cxpuRFsDaEEZnBeTxvUaJ"
 
 RDEPENDS:${PN} += "ghc-cryptonite-devel \
 ghc-prof-base-4.17.1.0 \
-ghc-prof-basement-0.0.15-6OmKTVi2kFpCWMoKDlsO4S \
+ghc-prof-basement-0.0.16-J8UFRjmsTYU7wBgfpjdWQn \
 ghc-prof-bytestring-0.11.4.0 \
 ghc-prof-deepseq-1.4.8.0 \
 ghc-prof-ghc-prim-0.9.0 \
 ghc-prof-integer-gmp-1.1 \
-ghc-prof-memory-0.18.0-2DG6nqjfLMK4MSR77XYQqL"
+ghc-prof-memory-0.18.0-8CsggfkyXReDSMbRoae4Yp"
 
 inherit rpm

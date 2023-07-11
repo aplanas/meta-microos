@@ -5,8 +5,8 @@ LICENSE = "Apache-1.1"
 
 PV = "4.0.4"
 
-RPM_NAME = "servletapi4-4.0.4-300.6.noarch.rpm"
-RPM_HASH = "439a8620772c668bc2eeefe265492337aa41959823d30e1a7bc2339798fe25b56be36f1a947815d1ad003f6f969eacd6324ee45324a5a2b99108acefaaecbbff"
+RPM_NAME = "servletapi4-4.0.4-300.7.noarch.rpm"
+RPM_HASH = "a9f49bad5e16a6081bf53eb2c1c55f0625d97874fa89f1291cfe9f7b7bad1b91fdf9d658da8d43d782a67fbb322104b5ce8b550189bbe0f3321666605cae724b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "servlet \

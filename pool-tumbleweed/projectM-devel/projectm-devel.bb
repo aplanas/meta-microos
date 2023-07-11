@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.1.12"
 
-RPM_NAME = "projectM-devel-3.1.12-1.12.aarch64.rpm"
-RPM_HASH = "1a0bee52c8493cf225d2b4d86755caf5606196c639117c79c7c144cc782ea8ef1e355eeae657ca1b5a60e7b246f11ff6fc748f1a9c54085db6ae16ab2607c79b"
+RPM_NAME = "projectM-devel-3.1.12-1.13.aarch64.rpm"
+RPM_HASH = "f467a11df9f0779d0b082bd1a697357e892984d63d692ff1b2e6a49985f19d1db841d648bf6d28f2b4ea43c87b7f514bd8ce40f06b17dad6b8feae3dc841160f"
 
 RPROVIDES:${PN} += "pkgconfig-libprojectM \
 projectM-devel \

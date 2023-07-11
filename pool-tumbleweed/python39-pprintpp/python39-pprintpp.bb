@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.4.0"
 
-RPM_NAME = "python39-pprintpp-0.4.0-6.2.noarch.rpm"
-RPM_HASH = "6efb060b2791fb8f30187d95e20e756a3122a4d50843d27ee7a3980f45bbeaf63b416e27a32c74d307c7881265c431f86b5914ae517d0a940905df3b6223ca19"
+RPM_NAME = "python39-pprintpp-0.4.0-6.4.noarch.rpm"
+RPM_HASH = "0e1940d5a5132f34b663d9f94a08359c139661a041cee483e7992730fcd7cb53bf8ffe69528ac2c3c2cb7cec13ebd06064c3755b83f50b6346510e62c8d09ede"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pprintpp \

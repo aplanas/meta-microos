@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.3.5"
 
-RPM_NAME = "caja-extension-sendto-blueman-2.3.5-1.3.noarch.rpm"
-RPM_HASH = "3871f7fba0acf7c25ad2a6cf5e1d1b3a307342319c165d924fc18ecf3bda8ae5ea367ef9eb264e22ed829ba68d8013890997629cbaa9eb807e28a707c6f6ff18"
+RPM_NAME = "caja-extension-sendto-blueman-2.3.5-1.4.noarch.rpm"
+RPM_HASH = "3c4a09be0e5772ea09e937b4674c39a21acaaf080c691fb532c1ac8a6d7e368e22818478fbfa4afcb17d650a393340643e6ab0c8ebcd0dcb38341b5418bb06d2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "caja-extension-sendto-blueman"

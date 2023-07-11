@@ -2,10 +2,10 @@ SUMMARY = "Translations for package drkonqi5"
 DESCRIPTION = "Provides translations for the 'drkonqi5' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "drkonqi5-lang-5.27.5-1.1.noarch.rpm"
-RPM_HASH = "b27e535494d04176b3b79bc974da7cfb526f79464c28f4e3005a449cf6a7d0fddf3901e8a3e2b9f825fac80cde0f2128eddf45551d8d1f11a82d68e4defc8624"
+RPM_NAME = "drkonqi5-lang-5.27.6-1.1.noarch.rpm"
+RPM_HASH = "a1e0bdf82b402757ee9e8615308c6dcafae3344d3fe43c4fe4f79e09b6506cb3cc01b77cd12934b677a0a040b96ace833d4ff138f05cb570bc52795f053f4a70"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "drkonqi5-lang \

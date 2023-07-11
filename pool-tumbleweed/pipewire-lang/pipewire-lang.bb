@@ -2,10 +2,10 @@ SUMMARY = "Translations for package pipewire"
 DESCRIPTION = "Provides translations for the 'pipewire' package."
 LICENSE = "MIT"
 
-PV = "0.3.71"
+PV = "0.3.72"
 
-RPM_NAME = "pipewire-lang-0.3.71-3.1.noarch.rpm"
-RPM_HASH = "785d7bf127059f735560dd02b18bc3a1eb8d5798935640077fb9be5723dc2b842479701bce0bb287318fe6aecc4197ca1336115e844863dcb5727b4f2a13fa83"
+RPM_NAME = "pipewire-lang-0.3.72-1.1.noarch.rpm"
+RPM_HASH = "8dfb2d168b0256b3a2cc5f906b82b92e96cf1db1cfcaab3492f62d97f52187098724a1aa71ec807b77057362febabdc07b670d397304d8e52a05c2e9237044bc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-pipewire-af \

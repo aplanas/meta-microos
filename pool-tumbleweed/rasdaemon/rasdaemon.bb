@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.7.0.7.git+24204af"
 
-RPM_NAME = "rasdaemon-0.7.0.7.git+24204af-1.2.aarch64.rpm"
-RPM_HASH = "40409b04aff9012540a7b2e0c8573a8e969e4ad85113972dc5e10fc63ff429599d004b0287d1d5797fb787dbca6e3f84f6bc7df28b478e973a96bc2cf5a027da"
+RPM_NAME = "rasdaemon-0.7.0.7.git+24204af-1.3.aarch64.rpm"
+RPM_HASH = "5d788844aba480acffb618a5ffaf7a27667cfe4dfeecd3fae4fb2d2822da73c8043ca2e8f215851f58a51de88d011c3fd1974dae208e4d006428d00af4cffa90"
 
 RPROVIDES:${PN} += "rasdaemon"
 

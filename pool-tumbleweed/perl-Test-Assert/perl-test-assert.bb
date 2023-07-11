@@ -19,15 +19,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.0504"
 
-RPM_NAME = "perl-Test-Assert-0.0504-9.24.noarch.rpm"
-RPM_HASH = "2d66a1e414290a845826368bea1e2643564979c6c7a46f7e7fe9c7dd75eac4aedbe120cc0816ed92694d4b1ba37056335e955c54ac196fc566c7c75933c6f579"
+RPM_NAME = "perl-Test-Assert-0.0504-9.25.noarch.rpm"
+RPM_HASH = "62b6251b04d4418379bceddcb61b8b68bbb1ca9f556043a69ff0194dc1515194114da48a3c372093bd9aafda913b5bd23c9f705d31aa0a7113afab252b3318cb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Exception--Assertion \
 perl-Test--Assert \
 perl-Test-Assert"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Exception--Base \
 perl-Symbol--Util \
 perl-constant--boolean"

@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "4.3"
 
-RPM_NAME = "libi2c0-4.3-1.7.aarch64.rpm"
-RPM_HASH = "e69aba41a9150575012eccebf1d460f72e8333ae19d5eac979ecff3b5dc9d4b142a401a2aecf5ad22286beba23bc55a98836647d349b00203769804878b9ac90"
+RPM_NAME = "libi2c0-4.3-2.1.aarch64.rpm"
+RPM_HASH = "8bd8e8a4209ac2eab739280583ecfe63aa85d5373af31c61cd36bef592ffc3d2a13811b15a52300da8463c2b2b436e0d3ac0db0f648698258e565b37981e4b3f"
 
 RPROVIDES:${PN} += "libi2c.so.0 \
 libi2c0"

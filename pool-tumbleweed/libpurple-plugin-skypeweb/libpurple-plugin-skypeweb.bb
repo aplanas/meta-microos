@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.7"
 
-RPM_NAME = "libpurple-plugin-skypeweb-1.7-1.3.aarch64.rpm"
-RPM_HASH = "316a772f1f3b0401fe6a3ecb4ae6b24a8e70f8465e14e5ee1a7fae675706a26160f55962c6e44805ecfb25f979dba8fee457e5cbc0dac7f8d33a4adcb3a7d844"
+RPM_NAME = "libpurple-plugin-skypeweb-1.7-1.4.aarch64.rpm"
+RPM_HASH = "d830acf23a9330eff39bce9b99777c1d732275e95b155711d991b30096aca81a6fa4a9252311a665a818aa10345970f28df9b7287271dc0bd24d0c97a5b043f9"
 
 RPROVIDES:${PN} += "libpurple-plugin-skypeweb \
 libskypeweb.so"

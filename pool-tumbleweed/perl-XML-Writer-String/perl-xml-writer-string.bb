@@ -15,13 +15,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.1"
 
-RPM_NAME = "perl-XML-Writer-String-0.1-9.29.aarch64.rpm"
-RPM_HASH = "4d51923a2a4691d2acc33310f00c6c6cf65817af7cfb61623bef188bf2f20aad696e47f10b0d32b725bc22538615111d17b562f2d4e9a5a8aa938c7259138f9d"
+RPM_NAME = "perl-XML-Writer-String-0.1-9.30.aarch64.rpm"
+RPM_HASH = "062fbf068ca44274712210be0392301b2350ceb3ec8aa7ee00dd73be29ad17654e0bc8b6aa4ff92190cbe8de52fa0af344403be5b0b57ff142ced80ae0acf1dc"
 
 RPROVIDES:${PN} += "perl-XML--Writer--String \
 perl-XML-Writer-String"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-XML-Writer"
 
 inherit rpm

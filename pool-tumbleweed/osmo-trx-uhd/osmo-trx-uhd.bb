@@ -17,8 +17,8 @@ LICENSE = "AGPL-3.0-or-later"
 
 PV = "1.4.0"
 
-RPM_NAME = "osmo-trx-uhd-1.4.0-1.15.aarch64.rpm"
-RPM_HASH = "93e1a76f55fc863521e9aaeccebb0b7a7556c9ec90b83ee2a4840ce66a0bcb9728957384f0494d748e95ee4d39df609da8ca65341baaff66c26d0eb37e0b9057"
+RPM_NAME = "osmo-trx-uhd-1.4.0-1.16.aarch64.rpm"
+RPM_HASH = "fc1fa540ceff12ec5564022a77ed9be59c950ba5cb687aae649fbcfa56666489aba12a11a687d921bf5531447f7519fe8f30c86263be2fc010197ca26a0fbcbe"
 
 RPROVIDES:${PN} += "config-osmo-trx-uhd \
 osmo-trx-uhd"

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.4.0"
 
-RPM_NAME = "python39-mockito-1.4.0-1.3.noarch.rpm"
-RPM_HASH = "751dcad4f25e8e3c09be7024f89f101c0564d13b6be467341d296802afc569f7673c29917e02fedfff290e9e1b95961b3ea51505c3ea438d43a1918850b066ea"
+RPM_NAME = "python39-mockito-1.4.0-1.5.noarch.rpm"
+RPM_HASH = "6376978e013143c8f7f44362156189ee54cd94341f85c73f816a1de5d04723cafb0b747ce36ff94057ab7fd339eba75e8d41254450a1c241ef7e50257998d3d5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-mockito \

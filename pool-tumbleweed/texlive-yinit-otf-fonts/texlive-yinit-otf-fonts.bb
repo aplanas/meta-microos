@@ -4,8 +4,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2023.201.1.0svn40207"
 
-RPM_NAME = "texlive-yinit-otf-fonts-2023.201.1.0svn40207-52.1.noarch.rpm"
-RPM_HASH = "a0c87bba40e34fae79778bb3ed4de7e0824d7b5d4f1c44c7b2bc113ae595a0ab981bc8a705768220a5660d1398795a3fcf4129dc83b90176fda37089aa664151"
+RPM_NAME = "texlive-yinit-otf-fonts-2023.201.1.0svn40207-52.2.noarch.rpm"
+RPM_HASH = "b65ce6b176b05b628d927e580cc5b5b0fed750406ff39d245ee7258c59c9d53856dc417b5d083885f7d50e29e1136976ce9cc25c48c09ad8ad1adf170336ac2c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-yinit \

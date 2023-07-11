@@ -6,8 +6,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "3.0"
 
-RPM_NAME = "python39-liblarch-3.0-2.15.noarch.rpm"
-RPM_HASH = "f0b7a58312d53bd451e1a7537dd7a9f721307a94e4a93d32def9c0a38bab6996cc1b4e147b62307a68608bc558caff921ea0dcbd31b32ff89b7bf0eaacbe9fb6"
+RPM_NAME = "python39-liblarch-3.0-2.17.noarch.rpm"
+RPM_HASH = "e101d030c4c89dfed1de13a2748c273e3b50a9c67af07c7d2adac7cb3699e01e2c94155a37c3ad7ea18a3ac4bbb465c59d310a5a5ef886a31df3767aa40dde95"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-liblarch \

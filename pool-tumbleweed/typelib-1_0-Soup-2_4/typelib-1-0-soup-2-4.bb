@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.74.3"
 
-RPM_NAME = "typelib-1_0-Soup-2_4-2.74.3-1.3.aarch64.rpm"
-RPM_HASH = "878cde90426872acf2a14d8f1b979f28a9d2d7e51bf37a89398220d689c9adae0217489ba2ee58a799f9b8b7a8b721eba146573145f746cc6dcf2a2c04f1a5db"
+RPM_NAME = "typelib-1_0-Soup-2_4-2.74.3-1.4.aarch64.rpm"
+RPM_HASH = "981003f48d201cf13ba7aad7a36e2da43614cd52e414e6532fe3fc2a1e728b0a541cac303627482ee507f7e41109362a05184fa6ff090c766673ab48ee43e2b3"
 
 RPROVIDES:${PN} += "typelib-1-0-Soup-2-4 \
 typelib-Soup \

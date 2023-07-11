@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.2.0"
 
-RPM_NAME = "python39-django-contrib-comments-2.2.0-1.3.noarch.rpm"
-RPM_HASH = "e8450272b99009d0045cf916b28b61d7db9dd3c10ff2edf2adc3676cde001ad695bf4b3984871baf4b6db719ddf7d0845cb057ac88218ba1f37251c08dd59ff2"
+RPM_NAME = "python39-django-contrib-comments-2.2.0-1.5.noarch.rpm"
+RPM_HASH = "9201269fe85fd88eaea127feb059eb26beb3f93e96e3ee5754b1ccd0037c000aef2964caee5fc109b7568901bc26b86357178ad8c3ff50dd62163e0d38c3d9da"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-django-contrib-comments \

@@ -9,8 +9,8 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "0.8.1"
 
-RPM_NAME = "python39-pyte-0.8.1-1.3.noarch.rpm"
-RPM_HASH = "76ed0bc3e5edb5810ffa537500bc05b43d776cbae5ac673b0e2765c86a3031e1a096c60ced27fb2d4878ecda17a6003224da720034cfe56e5d1aca66407d98f3"
+RPM_NAME = "python39-pyte-0.8.1-1.5.noarch.rpm"
+RPM_HASH = "0cb1467d9711fb056470c62ee47f10e9b6d1f98896e283e60fbdfcabc50acc13b470fe8717ae12308e133cdb9eb004cde2b344c90afd2e9493f488249f52a96a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyte \

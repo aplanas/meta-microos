@@ -15,8 +15,8 @@ LICENSE = "Apache-2.0"
 
 PV = "4.5.0"
 
-RPM_NAME = "python39-pylast-4.5.0-3.3.noarch.rpm"
-RPM_HASH = "b313fd78ef3579f5f3ac4146777cdb261be1f34a82db9ed3cfe90385a4cb04f4521dbac581e92bc7730aee973e70b604a96ec025d97d5f90d1f9b3a0e6dced30"
+RPM_NAME = "python39-pylast-4.5.0-3.5.noarch.rpm"
+RPM_HASH = "f23af50c59bb8f6055ac6ea0d42ef1cd831affec07bc626b423aa79002c5e535efb184f76a5a5c69a6d988b718e4a45335ba3e9bb2e848f73d6cc968b732b81f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pylast \

@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.208.svn65631"
 
-RPM_NAME = "texlive-collection-games-2023.208.svn65631-58.1.noarch.rpm"
-RPM_HASH = "b397cca8f34df7c3109f3c5c5a3caac36d55cb57065a3c6150050ccfbe6fa357945fa4123268b2925dcee7dc01c939b4ceac79e46548babbe6b2fefa4787683e"
+RPM_NAME = "texlive-collection-games-2023.208.svn65631-60.1.noarch.rpm"
+RPM_HASH = "4801b4b0c2b943a11501dda04aba167a0a12d7241c66abe8a689c3c5cf070e28fc6ecf15cf6915c99c8ea678c4c98d00f1a6afe2e8e24ea709fd2e8d386bd71d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-games"

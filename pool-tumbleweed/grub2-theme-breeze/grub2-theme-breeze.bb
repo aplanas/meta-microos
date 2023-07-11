@@ -2,10 +2,10 @@ SUMMARY = "Plasma branding for GRUB2's graphical console"
 DESCRIPTION = "Plasma branding for the GRUB2's graphical console."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "grub2-theme-breeze-5.27.5-1.1.noarch.rpm"
-RPM_HASH = "ed19cb1810f1e181c256b0236b4c93e4b23bf674fe2c45541a36709a94ba4a00d14a7e2ef9da971492f53afb7ea986b96303041faea9d662a5959b9d9aa149ab"
+RPM_NAME = "grub2-theme-breeze-5.27.6-1.1.noarch.rpm"
+RPM_HASH = "de3535018d62e00d7637eacfe252b82c1a058636de71b9557eb8fcba8cd206dacedf4af28f6754fad5053082c17b096472b53177a6a3d294e24e272b19f17b1e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "grub2-theme-breeze"

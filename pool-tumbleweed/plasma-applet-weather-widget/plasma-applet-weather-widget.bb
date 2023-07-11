@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.6.10"
 
-RPM_NAME = "plasma-applet-weather-widget-1.6.10-5.7.aarch64.rpm"
-RPM_HASH = "298e3cd54c1384708af60ef03acf1b162184e5e1b549f0ee91e7521cb84e864f2795b5c855b366b3001d4735f27be35c0becb69bc86d6b4b97705e2f5a8358e1"
+RPM_NAME = "plasma-applet-weather-widget-1.6.10-5.8.aarch64.rpm"
+RPM_HASH = "98a45adfbf3e5ca7570c6a67a99b698b2565ad123e237ecf6f79dde82ac4b92df48fbc0ad279ed5d8fda30ee1a7af64a63292b5d37ad2b5f6dfc200824c88504"
 
 RPROVIDES:${PN} += "libplasmoidplugin.so \
 plasma-applet-weather-widget \

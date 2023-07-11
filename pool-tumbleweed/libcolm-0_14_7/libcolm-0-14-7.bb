@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.14.7"
 
-RPM_NAME = "libcolm-0_14_7-0.14.7-2.4.aarch64.rpm"
-RPM_HASH = "4c3ebfcc2860dfffca1e7ec762850cebc27fac11ad171b78a0193e52609d7622e6df7d5847aa621217149f071de0ab47a2078dd5f881952b7b1f6db380a47866"
+RPM_NAME = "libcolm-0_14_7-0.14.7-2.5.aarch64.rpm"
+RPM_HASH = "9222e9459ac8ef9f04fdc4c13c5201e07be78664eb50e1422801040fc260b070bc8ee29586adbf9c4eb3b7af26ebd8c4f03f053466bbe900d22dc6dac09f98b2"
 
 RPROVIDES:${PN} += "libcolm-0-14-7 \
 libcolm-0.14.7.so"

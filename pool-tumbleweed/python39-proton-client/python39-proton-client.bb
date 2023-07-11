@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.7.1"
 
-RPM_NAME = "python39-proton-client-0.7.1-1.9.noarch.rpm"
-RPM_HASH = "f348c5c4007a5355cfa431ae7637d95f9ab0072c30417955a99cdc2074e5d67a19f5727ad1cb3a2455d239f6102c2de9ac2de3dd88979d99f1edde918d6de0cd"
+RPM_NAME = "python39-proton-client-0.7.1-1.11.noarch.rpm"
+RPM_HASH = "3cfa54828e37a37c34d0d6f8d0019f2977231649713729fb4bf8bbf7b09438dc9e526021ffdee0610523202c647605b872f851f00c873db44133ae5240d15fb6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-proton-client \

@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.0"
 
-RPM_NAME = "python311-django-money-3.0-1.3.noarch.rpm"
-RPM_HASH = "934befa2eeb56393e0e4cafe831abcf605b0160ccca916f4584bee4c277fa5c35ef26713815113c81cc42cc2950bdd45f89bac752a033eb4ae95371c1e2a26ff"
+RPM_NAME = "python311-django-money-3.0-1.5.noarch.rpm"
+RPM_HASH = "b049eb7240d80646a60104cd8605766331fbcda5829f091068e016ec2616e197a10dda9a37f743db6f4f8606609cfd0ab63e3305f92c567095e2286886168273"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-django-money \
+RPROVIDES:${PN} += "python3-django-money \
+python3.11dist-django-money \
 python311-django-money \
 python3dist-django-money"
 

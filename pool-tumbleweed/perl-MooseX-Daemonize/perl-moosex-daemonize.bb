@@ -6,8 +6,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.22"
 
-RPM_NAME = "perl-MooseX-Daemonize-0.22-1.14.noarch.rpm"
-RPM_HASH = "97ccc2ee4768f6ac3fa66552c284c956860db33cbc22e22e74f23fe17c4b38424d1b54790fcefe0203ecdeeac43b27c0c4631bfea785e20c7104d575813d56fc"
+RPM_NAME = "perl-MooseX-Daemonize-0.22-1.15.noarch.rpm"
+RPM_HASH = "e4008d7666310ba5ef6dad3fb6a92b8f049546359cb268643d55d61ae2a247d34893b0868f2a692d811ec0563634f682fa599c60eb521a28759f84ee6ffa3e11"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooseX--Daemonize \
@@ -18,7 +18,7 @@ perl-MooseX--Daemonize--WithPidFile \
 perl-MooseX-Daemonize \
 perl-Test--MooseX--Daemonize"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-File--Path \
 perl-Moose \
 perl-Moose--Role \

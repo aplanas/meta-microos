@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "20.1.0"
 
-RPM_NAME = "python39-labels-20.1.0-1.4.noarch.rpm"
-RPM_HASH = "9291c52d339af4f93a3887808b825b78b9e116cbe4a2af0d21cc95c82bba1b3c92bce37b266962637d452bcba00e7cbd04ecf7f2a0dbcb883a86ab890577c7d5"
+RPM_NAME = "python39-labels-20.1.0-1.6.noarch.rpm"
+RPM_HASH = "ea2e6553df873fef8879bd3d9b4717bbe6d0790d2420a164b8454e11afc954526760d5f3e88d43135205ee3cd64185a67fe44379cef78b2926df0cf2f57f0c8e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-labels \

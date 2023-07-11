@@ -15,8 +15,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.1.3"
 
-RPM_NAME = "libpystring0_0-1.1.3-1.8.aarch64.rpm"
-RPM_HASH = "ec503f3dd93aed22230ee047cf7ee6276fe1bf2cc4c3a4e8424267548536c51ba9d3fe7492efbea87ef34de96a290ef049549e9329636aa306cdc8a98becc452"
+RPM_NAME = "libpystring0_0-1.1.3-1.9.aarch64.rpm"
+RPM_HASH = "3db74b830a7eb3cfc0531140118e49366e04762e7871da424b02e8b80a2ba48191c6abf686a2e66c65af2912f0ba6eabd00d276951c180d73f592bd6947dd0c6"
 
 RPROVIDES:${PN} += "libpystring.so.0.0 \
 libpystring0-0"

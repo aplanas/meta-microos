@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-only & GPL-3.0-only & LGPL-2.1-only"
 
 PV = "4.3.1.p3"
 
-RPM_NAME = "libpolys-4_3_1-4.3.1.p3-1.3.aarch64.rpm"
-RPM_HASH = "943cdbb5241dff9be9f86e20dd6d6a53dc1e6e312ec95668f641a22e4693eb74e6878d628dbe7a5aa6f67405fe38d789f5f6e1b0ed253e57fb664eb85cf10727"
+RPM_NAME = "libpolys-4_3_1-4.3.1.p3-1.4.aarch64.rpm"
+RPM_HASH = "20859e26c6228abf69cc2ef963512cffdc4d4639d3907a3936907810098f4a04ba06facb3933124c7c82f60f7ca02b41ceffcdeeb3d510b81aa899c2b3d2091a"
 
 RPROVIDES:${PN} += "libpolys-4-3-1 \
 libpolys-4.3.1.p3.so"

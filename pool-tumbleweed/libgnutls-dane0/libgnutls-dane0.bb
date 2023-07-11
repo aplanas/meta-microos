@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.8.0"
 
-RPM_NAME = "libgnutls-dane0-3.8.0-4.1.aarch64.rpm"
-RPM_HASH = "70769451a8cea32030f1f0eaa8f3cbedc2f8c0b1fda949828ee9a278c3920475cb548dc51bbb94a7348d8f9d0edf5748811c596294ee293aedf0b86ce2e4bcbe"
+RPM_NAME = "libgnutls-dane0-3.8.0-4.2.aarch64.rpm"
+RPM_HASH = "9b630d7c17c51c9afedd83d771df83d98ebecf2059308d2727b4b1edd637dd6ddbc08ac264a55ab1e45f87beb26133da56a41fc564761352be43e633e41cd008"
 
 RPROVIDES:${PN} += "libgnutls-dane.so.0 \
 libgnutls-dane0"

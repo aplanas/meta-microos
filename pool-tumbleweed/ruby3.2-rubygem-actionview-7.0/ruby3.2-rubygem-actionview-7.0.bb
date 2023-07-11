@@ -2,17 +2,17 @@ SUMMARY = "Rendering framework putting the V in MVC (part of Rails)"
 DESCRIPTION = "Simple, battle-tested conventions and helpers for building web pages."
 LICENSE = "MIT"
 
-PV = "7.0.4.3"
+PV = "7.0.5.1"
 
-RPM_NAME = "ruby3.2-rubygem-actionview-7.0-7.0.4.3-1.1.aarch64.rpm"
-RPM_HASH = "32ca7ba2ee491876580ab063ce53cfafafc2e77046d974a5c37f724cc91bbeffd7fa5e9e46c509143a3f9d12e830c5aaa43abf3da26f2e18183e69f8a5dd93de"
+RPM_NAME = "ruby3.2-rubygem-actionview-7.0-7.0.5.1-1.1.aarch64.rpm"
+RPM_HASH = "200595762367b8b1594aed7b477884156b38002bf0e7248b99ecdadb4584815f9247412e5d5fa061d0edb94b6199f0ecfc56b2ad99b7e28fee940c0fb78087b1"
 
 RPROVIDES:${PN} += "ruby3.2-rubygem-actionview-7.0 \
 rubygem-actionview \
 rubygem-ruby-3.2.0-actionview \
 rubygem-ruby-3.2.0-actionview-7 \
 rubygem-ruby-3.2.0-actionview-7.0 \
-rubygem-ruby-3.2.0-actionview-7.0.4"
+rubygem-ruby-3.2.0-actionview-7.0.5"
 
 RDEPENDS:${PN} += "ruby-abi \
 rubygem-ruby-3.2.0-activesupport \

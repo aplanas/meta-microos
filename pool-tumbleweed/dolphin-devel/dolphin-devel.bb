@@ -2,10 +2,10 @@ SUMMARY = "KDE File Manager"
 DESCRIPTION = "This package contains the libraries used by Dolphin and Konqueror."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "dolphin-devel-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "c5e8513b046cbfd7a65a68b8ae9d6697cd04fcecbefaf62d719cea7e4897ab74fa4bc5b41dbad84772c1e00c2779e0c0863dbbd4079ab755c1b474ef6f8a5941"
+RPM_NAME = "dolphin-devel-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "50480f1a89cba84b1283d535676758dd291d863986fcbc4d6c8bf9a9a6a0a1e1469f20a732eb9c5b5373cfd2cad70838e89eaa6765ad3827df68644a863f3249"
 
 RPROVIDES:${PN} += "cmake-DolphinVcs \
 dolphin-devel \

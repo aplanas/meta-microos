@@ -16,8 +16,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.1.1"
 
-RPM_NAME = "libfallocate0-0.1.1-17.15.aarch64.rpm"
-RPM_HASH = "66dc3047ca8f0317bd9ad0bfc3c2b34bec840a828775eeeee8fa2dbdddb45ad6989dfc01bc42f644e9218ea0f4e7e8b36184656b52ddeac983b64d42ecc2d331"
+RPM_NAME = "libfallocate0-0.1.1-17.16.aarch64.rpm"
+RPM_HASH = "ab1efc4b7f231463cfeb2c6ac1d0233c21da3a62dd9a3d789835ba9b2b40089dc8987b8ae169c94ffff21f264d9f0789b261ba07e61fbe83d779c82481d0d540"
 
 RPROVIDES:${PN} += "libfallocate.so.0 \
 libfallocate0"

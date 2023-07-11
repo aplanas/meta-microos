@@ -2,10 +2,10 @@ SUMMARY = "Development files for the Qt 5 Renderer 3D library"
 DESCRIPTION = "Development files for the Qt 5 Renderer 3D library."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libQt53DRender-devel-5.15.9+kde0-1.1.aarch64.rpm"
-RPM_HASH = "80bb8279b5323e7ce77ad037a0260823bb31422c7086df52fa03e71af908ba0e01de688c710fc56c2f37a02646a31da9526ef7129de698923513841bc4a9fb1f"
+RPM_NAME = "libQt53DRender-devel-5.15.10+kde0-1.1.aarch64.rpm"
+RPM_HASH = "6cf6315e51f5aa4d7290e2d097db3118595c6a53f1acc45d3bb82a62dc928fe862af6414b145debfc53f2749b8c2febde2eb946c7ebd53455137e2e0ee2a993f"
 
 RPROVIDES:${PN} += "cmake-Qt53DRender \
 libQt53DRender-devel \

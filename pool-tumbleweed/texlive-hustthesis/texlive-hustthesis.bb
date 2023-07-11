@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides an Unofficial Thesis Template in LaTeX for \
 Huazhong University of Science and Technology."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.4svn42547"
+PV = "2023.208.1.4svn42547"
 
-RPM_NAME = "texlive-hustthesis-2023.201.1.4svn42547-52.1.noarch.rpm"
-RPM_HASH = "29cd754ff1ed2774ab8f626d97b2c5e99abf1baea7f2bf603129d1b0e1c3e355c69766bd20dd7bc3eea6f9aa0ef8c5cbed9ad81d02b6c37072784730321e2fe9"
+RPM_NAME = "texlive-hustthesis-2023.208.1.4svn42547-53.1.noarch.rpm"
+RPM_HASH = "635838fb0e236f72989b3f0c6d0a274db89a5bd97b4c72219b4a76a39e185d1ac223d4e3e126dfb9bbd1b985a4c2c9b1ba62d4166e99e326fdbcab497381ce4b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hustthesis.cls \

@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & BSD-3-Clause & MIT & BSL-1.0"
 
 PV = "2.3.0"
 
-RPM_NAME = "PDAL-bash-completion-2.3.0-2.15.noarch.rpm"
-RPM_HASH = "789b106797d9063ee1496391768e53072d4b19ab7f7810d3f444bc67a262bf347fc078f58f6e6aa8554186f4cbac64e9bb279ebf63212de82e084b5071b85bff"
+RPM_NAME = "PDAL-bash-completion-2.3.0-2.16.noarch.rpm"
+RPM_HASH = "ecd1a82c31b28845cd1dab39de830a5931ba340ae61fe4a1ceb7f9de3a7f8969234c7c50aa6ff11fc4d92a857f9aef32a7de6331b601894f941be596a7aa16fb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "PDAL-bash-completion"

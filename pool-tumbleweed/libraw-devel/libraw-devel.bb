@@ -8,8 +8,8 @@ LICENSE = "CDDL-1.0 | LGPL-2.1-only"
 
 PV = "0.21.1"
 
-RPM_NAME = "libraw-devel-0.21.1-2.1.aarch64.rpm"
-RPM_HASH = "3b7cb01be98cb6a5018cfeff18eefaf89390bf8a9a646bb7c036877b461905c339a81baf1309b5e94eaedc180b7447be228b2da1e45d3ca46aa8cfa013182e3d"
+RPM_NAME = "libraw-devel-0.21.1-2.2.aarch64.rpm"
+RPM_HASH = "d4471c1cec3643bda57c0c6279aba23297cdaf607a88e87a4f87ddc9a1e642c449f39ab9cffdec355a59793229d40342616853e9b03cb496926f3f7daa65bfe9"
 
 RPROVIDES:${PN} += "libraw-devel \
 pkgconfig-libraw \

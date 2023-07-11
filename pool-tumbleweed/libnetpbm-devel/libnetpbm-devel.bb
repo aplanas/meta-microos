@@ -4,10 +4,10 @@ found in the netpbm package. The sources are contained in the netpbm \
 source package."
 LICENSE = "BSD-3-Clause & GPL-2.0-or-later & IJG & MIT & SUSE-Public-Domain"
 
-PV = "10.96.4"
+PV = "11.2.0"
 
-RPM_NAME = "libnetpbm-devel-10.96.4-5.3.aarch64.rpm"
-RPM_HASH = "b9e16bb05f56be499cfd5010caa7a2cc28055f58f8ca4f1fe23b4f1257ceab2e39b6910ed32137ee19abedd13cd2dd0f83d8f2cc965b443cafd42340cc02491e"
+RPM_NAME = "libnetpbm-devel-11.2.0-1.1.aarch64.rpm"
+RPM_HASH = "7f235747e1e3c86b780d4359fd21a76f1a2f2880cec6a8642163d5ef28cbb71891ded51f71cd95fb7f46dfb2690d98f1b9f84d779426d0697ad986bdd1181723"
 
 RPROVIDES:${PN} += "libnetpbm-devel"
 

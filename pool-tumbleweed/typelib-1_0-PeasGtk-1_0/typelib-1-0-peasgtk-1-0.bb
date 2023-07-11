@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.36.0"
 
-RPM_NAME = "typelib-1_0-PeasGtk-1_0-1.36.0-1.1.aarch64.rpm"
-RPM_HASH = "23d0445dd3f4a83f0935c333c3290f6e28c3face263e118359e656bbb10f9592515abca497912c2935a42766f5aea0390416b630e28735138ebead32618ae459"
+RPM_NAME = "typelib-1_0-PeasGtk-1_0-1.36.0-1.2.aarch64.rpm"
+RPM_HASH = "dc901861ff9ccdeb7104336af5d756c3a1e0c7e56a7eb682aaab82a02f785edd45bae7c748c742f9bafbeabe332565f46a12cfe23b621037b4ac49709cbf20f2"
 
 RPROVIDES:${PN} += "typelib-1-0-PeasGtk-1-0 \
 typelib-PeasGtk"

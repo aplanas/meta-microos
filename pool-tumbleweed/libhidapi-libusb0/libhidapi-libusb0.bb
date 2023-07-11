@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause | GPL-3.0-or-later"
 
 PV = "0.13.1"
 
-RPM_NAME = "libhidapi-libusb0-0.13.1-1.2.aarch64.rpm"
-RPM_HASH = "5386c25309d33244e6083ec40081121d438010dd7903e9d02329cffdafd8fb1128e57bb1cfaa3ffa0e8bd3e96023f1d32c6d0b06c124bba98ca3a1060826e0d0"
+RPM_NAME = "libhidapi-libusb0-0.13.1-1.3.aarch64.rpm"
+RPM_HASH = "87242ab4bb946f61af9c82de447e0841bf13cb8686d2f8e02865b769283292c760703e979e1d123054bf6d75ea340cd4a4ab893865e9c75502e28512a4d1cfbd"
 
 RPROVIDES:${PN} += "libhidapi-libusb.so.0 \
 libhidapi-libusb0"

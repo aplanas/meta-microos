@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.049"
 
-RPM_NAME = "libfastjetcontribfragile-1.049-1.3.aarch64.rpm"
-RPM_HASH = "ebb18549572816f1cab1595a09c2ab2a6773fdce9e8fe7f0c0b6ac1a8f55a2cef43b0c35e824785986cf4e8ddf6f1f642d0c4e897c201dfa193fa5f88c15f392"
+RPM_NAME = "libfastjetcontribfragile-1.049-1.4.aarch64.rpm"
+RPM_HASH = "24d1f64dea14e761ea8c64f885d099f6849748db2c76481aef8ad9fe990eba52daf02c7aaf44edfe998e1f96e03ddea47ef5e113cfd3a205cc6586bb4e6ada5e"
 
 RPROVIDES:${PN} += "libfastjetcontribfragile \
 libfastjetcontribfragile.so"

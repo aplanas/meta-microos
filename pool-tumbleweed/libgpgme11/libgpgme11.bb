@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.20.0"
 
-RPM_NAME = "libgpgme11-1.20.0-1.1.aarch64.rpm"
-RPM_HASH = "be11357f01a6d875f59152468588878a67a6f32b310455ffcd3d0ab958476a5c7e1fbee6609ab2dd96a1efccef866e804770e5d2e13387d640ea1e5c7fd00ad3"
+RPM_NAME = "libgpgme11-1.20.0-1.3.aarch64.rpm"
+RPM_HASH = "b76d4a0527cdb235bc0b9d87827b350d78b4eae1141ebad174c6814202e3e117b81e8351c4ccd3438fdcfd985eade40e950be8c5b837853d2d9806a0306a39fb"
 
 RPROVIDES:${PN} += "libgpgme.so.11 \
 libgpgme11"

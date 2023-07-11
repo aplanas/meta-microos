@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & BSD-2-Clause & BSD-3-Clause & MIT"
 
 PV = "4.1.3"
 
-RPM_NAME = "python39-sunpy-4.1.3-2.2.aarch64.rpm"
-RPM_HASH = "246e7144d69560804480baed2daa988cc0dd285a9a5edbf605b9704485f95af93fd0c31f45956b3049dc031b606484d86bb6a5b9e2c05e5b4850303ba312029e"
+RPM_NAME = "python39-sunpy-4.1.3-2.4.aarch64.rpm"
+RPM_HASH = "a58451cf5a52874c7e55c6268561185ad7536aba37dbb9578e57393d5d8ff9b52e6dd0d0b503e4a4e3680344dd7cedfcb7c1e478503a0f6a84bc8ce38c14225c"
 
 RPROVIDES:${PN} += "python3.9dist-sunpy \
 python39-sunpy \

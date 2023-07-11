@@ -9,10 +9,10 @@ sentence breaking. \
 This subpackage contains the runtime programs for interacting with ICU."
 LICENSE = "ICU"
 
-PV = "73.1"
+PV = "73.2"
 
-RPM_NAME = "icu-73.1-1.1.aarch64.rpm"
-RPM_HASH = "d32b96c37f2e3159b480c2c54401dfce06226e25a29c2eeacab5855ac4e0e75a5cf4d53807d487d045b5e15339df66165ee7c50472a94162f4410333c14368ab"
+RPM_NAME = "icu-73.2-1.1.aarch64.rpm"
+RPM_HASH = "1daee065ea88d3841cecd32da059b14b0da9a2a263396ff96ef8b657be5fb6d4272d1c102975251912657547e8b037309836982b21ed127a0d7be6dc33aba384"
 
 RPROVIDES:${PN} += "bundled-timezone \
 icu"

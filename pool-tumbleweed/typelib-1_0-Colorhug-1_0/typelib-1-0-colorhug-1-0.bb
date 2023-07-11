@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4.6"
 
-RPM_NAME = "typelib-1_0-Colorhug-1_0-1.4.6-2.3.aarch64.rpm"
-RPM_HASH = "a351b30bcbd6f445a68bce12f2fb0f09b9d55280eb2a523db3e8687ccbc6dcf9cbfb0c076436a1866cb0f4f538ceae243c18b9ac7274f5d1fcb3ff1eb3375f48"
+RPM_NAME = "typelib-1_0-Colorhug-1_0-1.4.6-2.4.aarch64.rpm"
+RPM_HASH = "ac7ccde1f19e32493a151a4c2547458d27188eb4f24f06dea018e5c508bd25e55f8538b936da2c7db2222785cf9321bca5fe399fec1c5b1e8ee8273133df4d8b"
 
 RPROVIDES:${PN} += "typelib-1-0-Colorhug-1-0 \
 typelib-Colorhug"

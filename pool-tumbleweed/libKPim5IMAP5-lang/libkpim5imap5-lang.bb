@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libKPim5IMAP5"
 DESCRIPTION = "Provides translations for the 'libKPim5IMAP5' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libKPim5IMAP5-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "ca149abb3c08e1b9e1ec95f76bd9b1843fd3cdaf90283688914de1ac681ce0f0ed339469dbbaba2f70856408c8390451b979eb265420f32fb2716f9efba5ab7c"
+RPM_NAME = "libKPim5IMAP5-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "9fd52cf6fed2aa00d9cc30628c4ed126f1120113de11d266c74cd96624c562b3858f54b9d493ff8c83aba4682975405fa69087ed2a281447d3332e7d8b3a568f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libKPim5IMAP5-lang \

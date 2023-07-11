@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "0.11.0"
 
-RPM_NAME = "python39-WSME-0.11.0-2.6.noarch.rpm"
-RPM_HASH = "f12e1d7e4da6648639e4043a93aa4ee27fccd3f0af4189ce99497a3bf94908bc60fbe6784e67f9f674b87aec6980d9b41347b408dcdcc1d71f7b7f981b6ca434"
+RPM_NAME = "python39-WSME-0.11.0-2.8.noarch.rpm"
+RPM_HASH = "80ef802f831a842c6b2060fec5d471ab008252fee929a108ebd7f6dab2a43efc3714a0564dded5a43dd5b0ba93cd87f992a3fec48169751f91cb5f8838524037"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-wsme \

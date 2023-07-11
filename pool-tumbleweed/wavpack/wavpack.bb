@@ -14,8 +14,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.6.0"
 
-RPM_NAME = "wavpack-5.6.0-1.3.aarch64.rpm"
-RPM_HASH = "7ef516403e40ff55e413c3d133e89a8f576d065677341230984be9494789deead6413446d9bccea860693c7abc8a2ff4bfca1269ac735b7f4c27f2cd24ccb860"
+RPM_NAME = "wavpack-5.6.0-1.4.aarch64.rpm"
+RPM_HASH = "6757395ace44b18f56efae57824e07ba9e56c6580094c3e93bea2398b4b98befaaafbe54cf57543c58cbff8859b3356708f04a4b56bf8cd54a4a67a124cffcd8"
 
 RPROVIDES:${PN} += "wavpack"
 

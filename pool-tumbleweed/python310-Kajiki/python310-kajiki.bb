@@ -7,11 +7,10 @@ LICENSE = "MIT"
 
 PV = "0.9.2"
 
-RPM_NAME = "python310-Kajiki-0.9.2-1.2.aarch64.rpm"
-RPM_HASH = "e23eb106e0d01ea453cbff8689d4a4137f6f298cd4f7e4d6ad058f43a36e81c4e54878ebf1e790ae738d9517398f4a5cb45b73f278c328a7c4d76dc7f5353faf"
+RPM_NAME = "python310-Kajiki-0.9.2-1.4.aarch64.rpm"
+RPM_HASH = "082e7f8f220725fae564f913b70302fff84d5674c8a585c2d188f0ae89251e386f91ad4fc2b36dc66b2c85af07b6a2e3ac8c52c37ba8409bc5b2678bfad30d4d"
 
-RPROVIDES:${PN} += "python3-Kajiki \
-python3.10dist-kajiki \
+RPROVIDES:${PN} += "python3.10dist-kajiki \
 python310-Kajiki \
 python3dist-kajiki"
 

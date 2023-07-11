@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.50.1"
 
-RPM_NAME = "guestfs-tools-bash-completion-1.50.1-1.1.noarch.rpm"
-RPM_HASH = "23da2aa977399c33ff4e2e88a43d510f2bb744294e50af616d5779114375c9f70ef7495b8a3edd39afee6a08b80314dce10a9ebb4f1f5a6476e400c81d04cf8e"
+RPM_NAME = "guestfs-tools-bash-completion-1.50.1-1.2.noarch.rpm"
+RPM_HASH = "5d87f7d95ec97b6bb2e4ffadb1ea375988008945ec77a5863aaa5190e25745a82d9071613101c7345da661f266b9ac2bbac8b590304a74509b46d2fea1dd9c76"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "guestfs-tools-bash-completion"

@@ -9,11 +9,10 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.18.0"
 
-RPM_NAME = "python310-rpm-4.18.0-5.1.aarch64.rpm"
-RPM_HASH = "06d64128f74439b4cbc7132c65dac706906928bc9fc4a741039a27ebdde996d2cdd5a35b7a4f78295b392fb5e041d966fcfd0b711d344db98eaba8bc4b7d36cf"
+RPM_NAME = "python310-rpm-4.18.0-5.2.aarch64.rpm"
+RPM_HASH = "8e19edd48f736c73ce2dfca379843e6d13435d287de445577cae62b8601056a039fb572094cb0b63205580bc6e7ef07b9811c121e5afdbf9754fd0a44a960929"
 
-RPROVIDES:${PN} += "python3-rpm \
-python3.10dist-rpm \
+RPROVIDES:${PN} += "python3.10dist-rpm \
 python310-rpm \
 python3dist-rpm"
 

@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-only & Apache-2.0"
 
 PV = "4.7.0"
 
-RPM_NAME = "opencv-4.7.0-1.6.aarch64.rpm"
-RPM_HASH = "79d4b06869062040fb768a6ec4d13d711c922891ad8b7f66ede235fc693f95b1b6fe0d6b315e94619f45a016465b5c89e8b54c97c42409485d47e45d826b12c1"
+RPM_NAME = "opencv-4.7.0-1.8.aarch64.rpm"
+RPM_HASH = "44e506ddbaed19c8aa975ae4311c9beea08b03207d6223471265754bb49979493bde24ef46e2e93deb4fbecb75a529122901ee14f5ddd8cf51be6aebef49cca2"
 
 RPROVIDES:${PN} += "opencv \
 opencv-qt5"

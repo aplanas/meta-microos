@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "6.5"
 
-RPM_NAME = "brltty-utils-6.5-2.4.aarch64.rpm"
-RPM_HASH = "e2c6991239a2d59efb8ef78f91b339813976dba4ea7f49f4ffca8d0d47bb0dda5831029721da07276b31d795ea6116a5ba60a7bd84c5c2de5a750ef305855233"
+RPM_NAME = "brltty-utils-6.5-3.1.aarch64.rpm"
+RPM_HASH = "aa4f0056a6278710d813efdbe74e0417c5e3e0b55c85e87966223fd151e04f71f80912657ec70869c1ca12d58c0b0dfc4685a5834356a858326efb597022f47f"
 
 RPROVIDES:${PN} += "brltty-utils"
 

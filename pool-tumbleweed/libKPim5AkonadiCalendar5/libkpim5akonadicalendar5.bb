@@ -2,10 +2,10 @@ SUMMARY = "KDE PIM Libraries: AkonadiCalendar"
 DESCRIPTION = "This library provides calendar integration for Akonadi based Applications."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libKPim5AkonadiCalendar5-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "d954d8dc33c1269c2a5979b7bf6cd67633c3703c7c6fd65f14f9a478da2c1ede52d9fe78805eab81560b069912e63e87f94a325039d93d47b7a09058a6b2a1f0"
+RPM_NAME = "libKPim5AkonadiCalendar5-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "58cca582b88468d3c6f51475cde2d4c83e63d2fefd5914c4539163ca472a788076e28bda6ec330b648f4dd4d81a9f35380d9ab2cc05b17c5fd400140799a62e2"
 
 RPROVIDES:${PN} += "libKPim5AkonadiCalendar.so.5 \
 libKPim5AkonadiCalendar5"

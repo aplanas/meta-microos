@@ -7,11 +7,12 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.1"
 
-RPM_NAME = "python311-language-check-1.1-4.9.noarch.rpm"
-RPM_HASH = "3c6f4a424ae36732a3ad67691198944497bc6878bfc3ef4e5355a8216d6a3aaeb9eb0347e591a642d6515c1082370ce0f142351a02280b53e395ca2b62533271"
+RPM_NAME = "python311-language-check-1.1-4.10.noarch.rpm"
+RPM_HASH = "afc66ae8aec3acbfa856f54f67c07f4557e10a7eef8ccd2bacd91bdb68d52218b0ad1d9d4053c533457da67ebedb6059c386bd57ff2552123eaaaefd222a4f86"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-language-check \
+RPROVIDES:${PN} += "python3-language-check \
+python3.11dist-language-check \
 python311-language-check \
 python3dist-language-check"
 

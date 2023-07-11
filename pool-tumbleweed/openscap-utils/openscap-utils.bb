@@ -2,10 +2,10 @@ SUMMARY = "Openscap utilities"
 DESCRIPTION = "The openscap-utils package contains various utilities based on openscap library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.3.7"
+PV = "1.3.8"
 
-RPM_NAME = "openscap-utils-1.3.7-1.1.aarch64.rpm"
-RPM_HASH = "a37b71e43e3afa9e016a0b03dc10f5c99a121d0ec429d13f854232b0128c8dfb093f2c960a184921876fec258dd7e69360eee38d4037cc5dbfee310c18309b2d"
+RPM_NAME = "openscap-utils-1.3.8-1.1.aarch64.rpm"
+RPM_HASH = "a585b18d37fe130e1218c36a3a3af9032986f18d18d972fc410a45545d5c942a7b429d7abc1874c70870df779fae33b78ffeb24fee27c7a6c244ba395f4fe3f8"
 
 RPROVIDES:${PN} += "openscap-utils"
 

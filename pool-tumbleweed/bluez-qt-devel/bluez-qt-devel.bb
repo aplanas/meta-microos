@@ -2,10 +2,10 @@ SUMMARY = "Async Bluez wrapper library - development files"
 DESCRIPTION = "Development files for QBluez Async Bluez wrapper library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "bluez-qt-devel-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "a85b1de1afa05ba49a08fe62a06e412fbd6b366b8a7e288d7f6c80e2013d47ef2d419953459c7d0ef19b49002c2e43f8750cdebdc25905022e547d50b9250954"
+RPM_NAME = "bluez-qt-devel-5.107.0-1.1.aarch64.rpm"
+RPM_HASH = "752307d1d796df0546413b49143448205305c2b87665314d038e6e56adf01e637c9a0470150fa1a94caa0b388f118d2f09bb686ed255e1111e3e4a84d666bddb"
 
 RPROVIDES:${PN} += "bluez-qt-devel \
 cmake-KF5BluezQt \

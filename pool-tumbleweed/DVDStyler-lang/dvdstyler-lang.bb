@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.2.1"
 
-RPM_NAME = "DVDStyler-lang-3.2.1-2.5.noarch.rpm"
-RPM_HASH = "8711ae9deb8709f0cd1765d5e680b4c5da50b4cbdde9fc8c1a5555d3e3e26fa417cf0998f70702efe439cd86222b4bcc54511871d0526eb6e9e5ef83bcc06f26"
+RPM_NAME = "DVDStyler-lang-3.2.1-2.6.noarch.rpm"
+RPM_HASH = "e693985d3c7ff080221a556c21f4c55b1b8514cd05841824aef5099b8f319560921746c7867b0b3b942eadb074aaffffd15815228cc8c02fa412a9100c623906"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "DVDStyler-lang \

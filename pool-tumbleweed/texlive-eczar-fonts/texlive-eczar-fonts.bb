@@ -4,8 +4,8 @@ LICENSE = "OFL-1.1"
 
 PV = "2023.201.0.0.1svn57716"
 
-RPM_NAME = "texlive-eczar-fonts-2023.201.0.0.1svn57716-53.1.noarch.rpm"
-RPM_HASH = "5d233c64d8bd0f3005a6edabf6d765c9fd7d5ae23375b3a58871020baade89a7337fb2aa9834d0be184b1dd2d0ed6a01c8e0af8d662bb4a6688ecb68e3c5bba2"
+RPM_NAME = "texlive-eczar-fonts-2023.201.0.0.1svn57716-53.2.noarch.rpm"
+RPM_HASH = "b0cdb7809fa3448a1e8e858aef5e914dbd657d9b93242106ac376da22697df09227bdb78c4666771764272fe063df055f7417fe416466402264785afd5a62ace"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.6.1"
 
-RPM_NAME = "auto-service-annotations-1.6.1-1.10.noarch.rpm"
-RPM_HASH = "ab65cd241b0447c3dffc414fce09fdebaaa7c9a8a39a1e30530a8b06eba93bc7044758a2eec0d93e91669b112a6a7bd686f9ad563b78feb2e733c3571f339eab"
+RPM_NAME = "auto-service-annotations-1.6.1-1.11.noarch.rpm"
+RPM_HASH = "fc375a2f04402fd6623c07a96fa227b1d85491e14a190668c0f0470c93bd7e54af91549cdc9ca99261dd8dfbc3d44c952b7ebf0db66a76663412ff03786ad6cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "auto-service-annotations \

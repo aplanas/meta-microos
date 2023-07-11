@@ -17,8 +17,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.1"
 
-RPM_NAME = "python39-cachey-0.2.1-2.3.noarch.rpm"
-RPM_HASH = "475e6a60e906bba5e41e32d6d1cadfc0fb62e28980f0b74dbad917b82baf3a804515b5be8ea1aae1bd40b78cbda2eed230c4545663264d33f58662a607afb53e"
+RPM_NAME = "python39-cachey-0.2.1-2.5.noarch.rpm"
+RPM_HASH = "854f1085a9810b96faa1175837be99cec743a921b9602430111c24c8b48bdd9500e312028e94fe7285562b1e64817b82e62976e99262568e5dd10caade1485e7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-cachey \

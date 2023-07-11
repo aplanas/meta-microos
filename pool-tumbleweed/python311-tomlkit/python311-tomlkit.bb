@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.11.8"
 
-RPM_NAME = "python311-tomlkit-0.11.8-1.1.noarch.rpm"
-RPM_HASH = "b396def631fb18c6eada7069b4356324f1f0a846a9cda30ef8aa007052661d3affe502da8e69e8e078d3d79d2c8f129c1aef9c1030a23c4f39c43dd18c80b702"
+RPM_NAME = "python311-tomlkit-0.11.8-1.3.noarch.rpm"
+RPM_HASH = "46b201ca808356413445314954c9408db7362257308ab0279c5901534d728d15d0c8ca0cebe0e154b1401b14b59822eadc4e9905083020308e890868c0d978ac"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-tomlkit \
+RPROVIDES:${PN} += "python3-tomlkit \
+python3.11dist-tomlkit \
 python311-tomlkit \
 python3dist-tomlkit"
 

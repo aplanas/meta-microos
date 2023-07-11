@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.10.13"
 
-RPM_NAME = "ant-commons-logging-1.10.13-2.1.noarch.rpm"
-RPM_HASH = "03f58525285b2304488b660607e990332f0b7c141c4efecc09df227b924d81ea2381490f3930f012860a2bead109f9d8584492275c1e495c08781beb5d23083f"
+RPM_NAME = "ant-commons-logging-1.10.13-2.2.noarch.rpm"
+RPM_HASH = "f9b226cc6998788a6f59786f397192f08af849e91699f5492cd2108fc508c8676217739477e1af31b64745ffcac27a40104285738fb5c2f85b1e41fe0dc400cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-commons-logging \

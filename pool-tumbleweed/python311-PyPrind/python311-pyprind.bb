@@ -9,11 +9,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.11.3"
 
-RPM_NAME = "python311-PyPrind-2.11.3-1.3.noarch.rpm"
-RPM_HASH = "1a42d7396a22d14a817f2806eb7d833d604381ea3d0ecf85b66d080265391a4624f21743087535cee7a22b1938b8cd67c10286ce071fc2e3cb7d58d69a9699cc"
+RPM_NAME = "python311-PyPrind-2.11.3-1.5.noarch.rpm"
+RPM_HASH = "edb161adf29a9b012261353dc144be27bf52c3284c0d476e102875f440774a1a3964087e9c9e34e312ef5cfa3ed7e8771b70cdc95828bc106deee933e22088b7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pyprind \
+RPROVIDES:${PN} += "python3-PyPrind \
+python3.11dist-pyprind \
 python311-PyPrind \
 python3dist-pyprind"
 

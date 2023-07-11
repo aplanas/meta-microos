@@ -4,8 +4,8 @@ LICENSE = "SUSE-Permissive"
 
 PV = "0.0.0+git20211220.8b37d55"
 
-RPM_NAME = "librime-lua-0.0.0+git20211220.8b37d55-2.10.aarch64.rpm"
-RPM_HASH = "efa8fba50b5613bddb47d7806fb596129b808f247f7e2fa319b68d38772755b3f8980759862908af3330677a9d5f5e0b32b316d21872c76a768d67ced6714487"
+RPM_NAME = "librime-lua-0.0.0+git20211220.8b37d55-2.11.aarch64.rpm"
+RPM_HASH = "ffebeb438cab4a1a3dea857cbb89af84e1271989a80330d92c30c7da974d19deada06678b0abdb86a9f562e5e3aa937f018b23a02015e6fd687384edd81f4472"
 
 RPROVIDES:${PN} += "librime-lua \
 librime-lua.so"

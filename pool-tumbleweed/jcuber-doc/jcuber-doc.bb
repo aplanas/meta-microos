@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause & Apache-2.0"
 
 PV = "4.4.1"
 
-RPM_NAME = "jcuber-doc-4.4.1-2.14.noarch.rpm"
-RPM_HASH = "122cd3703c52d537cc07afb1e2e6f323fade27b268f3f5fe82bba52a4b6127b4cef6d7ddf49d82d532c1cbb13a3600c57e080db8d60e51a1298b01adcde1a9f8"
+RPM_NAME = "jcuber-doc-4.4.1-2.15.noarch.rpm"
+RPM_HASH = "95f9a22f761eef6a94fd2cdaa6a5e5440bb642f2e38feee2723aa7551f85654b00e2aa413d74d0c12aaa9390a62461ca0548ad91e31465c9b86271606a2da7bc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jcuber-doc"

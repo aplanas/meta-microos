@@ -8,12 +8,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.1"
 
-RPM_NAME = "python310-flask-restx-0.5.1-5.4.noarch.rpm"
-RPM_HASH = "2b4180a0eec36361786af0706c9bedb9a70c476bf18e7cb3a00adc166a7eeed2917f860154dfe925dbca7bf2aa1848caa459c8459ab1f264096defdbf4ef8eb3"
+RPM_NAME = "python310-flask-restx-0.5.1-5.6.noarch.rpm"
+RPM_HASH = "216daa4ccbf28edb4729f114252290d99c4b787499540b8368c74f6d9a2308c79fe6e27b41126c9472d522ee365e70b04cce771ef0eee93df38eb2827cff0908"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-flask-restx \
-python3.10dist-flask-restx \
+RPROVIDES:${PN} += "python3.10dist-flask-restx \
 python310-flask-restx \
 python3dist-flask-restx"
 

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.3.6"
 
-RPM_NAME = "ghc-colour-prof-2.3.6-2.3.aarch64.rpm"
-RPM_HASH = "6af7ede9909d19956d929d8c95861824484c0fa8510a918c8ddd91e65c57e9dbd36f68f5c6f827481cf93804424bd0feb7c0744ade73b13003c71b7af4a33264"
+RPM_NAME = "ghc-colour-prof-2.3.6-2.6.aarch64.rpm"
+RPM_HASH = "028fe57bffe08cba558eef9aaa3a82c102749a7ec070a9bc1d62a57f056b8dec2d9e463c2d19523871eb3174c8f604b4d7bdd3907e90e3ce2b07d02bd550aad0"
 
 RPROVIDES:${PN} += "ghc-colour-prof \
 ghc-prof-colour-2.3.6-7jQe2xj5Lsa5MbX38iH7Ln"

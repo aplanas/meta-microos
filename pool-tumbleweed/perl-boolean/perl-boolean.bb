@@ -19,12 +19,12 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.46"
 
-RPM_NAME = "perl-boolean-0.46-1.23.noarch.rpm"
-RPM_HASH = "d0b79f04968d7a5cc9b6472df4df6ae4301156eab83105416fe362808615edfa53eebf912c5968e8defc28c1127f691e94a4429bebe60b6f0763e21b29b7f38b"
+RPM_NAME = "perl-boolean-0.46-1.24.noarch.rpm"
+RPM_HASH = "e3c1e15fb963b86c33f618557033d826be27ab9395b65c5df1541bdb592731f92545b551141c1a58239f4633aeeadf57e4e7ffbe981cd63add36fb438e3e7a85"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-boolean"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

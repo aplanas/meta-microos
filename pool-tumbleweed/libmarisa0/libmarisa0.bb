@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later | BSD-2-Clause"
 
 PV = "0.2.6"
 
-RPM_NAME = "libmarisa0-0.2.6-1.21.aarch64.rpm"
-RPM_HASH = "0d017724cf017dd0f9186e32789081aa415ddea6e8929ffd5688738eab949c68f27454a92753c0d6a2c16e1794114f778eaf518ee317d3ea4c8ddd771c4899b7"
+RPM_NAME = "libmarisa0-0.2.6-1.23.aarch64.rpm"
+RPM_HASH = "dfa2ad0221de71af26fdf0d3d68d4d605a7fe3d1cc4c612ff41b354e23265e592bd1b3aaa7e1d7ca35f6ba7e6db77f8d145ac237b3b34f91339895ca01c7062c"
 
 RPROVIDES:${PN} += "libmarisa.so.0 \
 libmarisa0"

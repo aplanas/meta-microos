@@ -22,8 +22,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.7.6"
 
-RPM_NAME = "pingus-0.7.6-17.1.aarch64.rpm"
-RPM_HASH = "da59f77e2cea32c96c663d2c58353aeda8dcf2d41b0efc8a562d2ea76c1fa7fedb9cd718cf00a8503b004a46035066177d3010c5be4385038927738af312bb60"
+RPM_NAME = "pingus-0.7.6-17.2.aarch64.rpm"
+RPM_HASH = "4e597afc8ab24a0b967841fbd7eb8e74d45f75cc344e0e3d9f476089b080ecf4bc2cc74de29aee4ed89bc638f857ba08b9a0cdff3ade878219a55bf3827a8e3b"
 
 RPROVIDES:${PN} += "pingus"
 

@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.6.4"
 
-RPM_NAME = "balsa-2.6.4-2.3.aarch64.rpm"
-RPM_HASH = "ce8d1083aa86d13b571c223e9076c2ab9e0e0fa0ef8875c6ccb792db8b60eceb55dee4889f3eabe18a5ee5e7ed4c932a675b2481daf4239bbdf49bd76f03fd5c"
+RPM_NAME = "balsa-2.6.4-2.4.aarch64.rpm"
+RPM_HASH = "cb54d1bbb60fc1393159168cfa4fcf54a76a7abb16f624e5a44353e51c10214df1331cdd25cdb5e777ac3f2f3a178ea927c65c1d5700e0c4c4d68bb1ecfed86e"
 
 RPROVIDES:${PN} += "balsa \
 config-balsa \

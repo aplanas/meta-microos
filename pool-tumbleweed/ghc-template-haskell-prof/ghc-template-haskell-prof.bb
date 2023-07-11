@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.19.0.0"
 
-RPM_NAME = "ghc-template-haskell-prof-2.19.0.0-3.1.aarch64.rpm"
-RPM_HASH = "c88d8232e3e719462f73f6a3821a244f3f0fd26c7449413d69bee380c9257a1b5ba343fa4ad5b6ad14a203da54578798b0a45a37f2b6163a398b85796a2e193e"
+RPM_NAME = "ghc-template-haskell-prof-2.19.0.0-3.2.aarch64.rpm"
+RPM_HASH = "ad19a4fa3c99c854bb7e539e4f94ca24475b95a6661f8b7484b22683457ca8a2283452a13494267dedc58d3e331ec77b8fd450d3a2217384d3d41a149e5c207b"
 
 RPROVIDES:${PN} += "ghc-prof-template-haskell-2.19.0.0 \
 ghc-template-haskell-prof"

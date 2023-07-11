@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.1"
 
-RPM_NAME = "elixir-hex-1.0.1-1.4.noarch.rpm"
-RPM_HASH = "1a8892231bebae8adea7ec399463354de320725d982cfbc1d9955bb8f9a5518932e02cce18de1372d7c19302f2893287f680134b31ba91e7033c9f67a69219c0"
+RPM_NAME = "elixir-hex-1.0.1-1.5.noarch.rpm"
+RPM_HASH = "49ab2b9e2d159981e1d2e802f292596781fd0df4b8b7fdfda78f4a4aef68cf491e15819278c3c4c525048b0e40c03a58f6aad9a906d484530361c22bfcc8cfa5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "elixir-hex"

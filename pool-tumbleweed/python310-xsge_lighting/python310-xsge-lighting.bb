@@ -8,12 +8,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.0.2"
 
-RPM_NAME = "python310-xsge_lighting-1.0.2-1.7.noarch.rpm"
-RPM_HASH = "79dcc7c496fcce8e67c5d5bbf20f64ac8403b44a63edde45a4dac02111f251f8ddd8ece8949873aae2417ebeb8b5b3f28954ff17179f3ab3a97f26e5cd4f354b"
+RPM_NAME = "python310-xsge_lighting-1.0.2-1.8.noarch.rpm"
+RPM_HASH = "e23c132ce6fbe9fdb6713bac113c24bdb6d697c670305aaeab6721442b3fefa94c6eae80873805961290b174699c3f4c5631fc466211d213924cf71bb741eaf8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-xsge-lighting \
-python3.10dist-xsge-lighting \
+RPROVIDES:${PN} += "python3.10dist-xsge-lighting \
 python310-xsge-lighting \
 python3dist-xsge-lighting"
 

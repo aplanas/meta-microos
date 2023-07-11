@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.3.4"
 
-RPM_NAME = "python310-django-rest-framework-braces-0.3.4-5.4.noarch.rpm"
-RPM_HASH = "a9f7b6a3fe2995d03b0537716f6f7554d394e528f389cb2b7d7502d3c3502318795e127311161fc24832338b5a6128ec7496649a1fe49f2e2feec4c8bf2513af"
+RPM_NAME = "python310-django-rest-framework-braces-0.3.4-5.6.noarch.rpm"
+RPM_HASH = "907115805fd126ff0b7ebea6c752c12ae64b4ff2d287032881047aa4b6e6ad2d454357d1968d70aa48f2f815c2ddbf5904151d8f55a3f9bb9810422f68e7bfb1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-django-rest-framework-braces \
-python3.10dist-django-rest-framework-braces \
+RPROVIDES:${PN} += "python3.10dist-django-rest-framework-braces \
 python310-django-rest-framework-braces \
 python3dist-django-rest-framework-braces"
 

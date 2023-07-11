@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "7.0.5"
 
-RPM_NAME = "gmp-ecm-7.0.5-1.3.aarch64.rpm"
-RPM_HASH = "2d42857dbeac13363e32c8daee05ffccd96d3ab3587c519bc4f83f4d7f552a20bc66e86a78df4cf57f0a8d7fc11ce7c1de77127d82bdf9dcbf055d81d325ec8b"
+RPM_NAME = "gmp-ecm-7.0.5-1.4.aarch64.rpm"
+RPM_HASH = "7c8c030b6a58f09b33aa13eac494d15062c6f8005f7c87304dd470532e9189e262022366beb3f92098ee7bf7aa9d32408f82981fcd783a52bf07bdaeea7cc61c"
 
 RPROVIDES:${PN} += "gmp-ecm"
 

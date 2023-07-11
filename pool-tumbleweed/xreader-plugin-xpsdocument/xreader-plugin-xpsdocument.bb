@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.0-only"
 
 PV = "3.4.5"
 
-RPM_NAME = "xreader-plugin-xpsdocument-3.4.5-1.4.aarch64.rpm"
-RPM_HASH = "c90d69ad4b6b1c28090a2a5d48a934d2399b9671970ad1ca2188dbc587e4fd01e2b00fe753acc6d97707cfba3a9ae9dd324a16107d83b4a02bc70b72dec5f512"
+RPM_NAME = "xreader-plugin-xpsdocument-3.4.5-1.5.aarch64.rpm"
+RPM_HASH = "02e38ea113a5103f594463ef74f39396a18dfef8f54237206e98a95c50cde2fd40bfef3f75af9a884cbb8ac28b128fe51ee3d19d073b2cc1cfd35788a9e657e0"
 
 RPROVIDES:${PN} += "libxpsdocument.so \
 xreader-plugin-xpsdocument"

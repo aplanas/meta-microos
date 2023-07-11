@@ -10,12 +10,11 @@ LICENSE = "MIT"
 
 PV = "2.0.0"
 
-RPM_NAME = "python310-cmdln-2.0.0-3.11.noarch.rpm"
-RPM_HASH = "cf2f9f1cc5e5dc78f33ab21f8cd1c2dbfc9d08f808427307934ba1ed94090b1b7109a83d682833446e539af07c6cd7542b98541e493bc6abf9bec6a19dcd7eb8"
+RPM_NAME = "python310-cmdln-2.0.0-3.13.noarch.rpm"
+RPM_HASH = "94369a9fd7a4b58f98521200b68a0d0daee6bea22e8fd532f4eaae274d82338023d821d1de6e6c5428fdfbcdd798983277d768a933e1feb539abc92a7c1cc312"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-cmdln \
-python3.10dist-cmdln \
+RPROVIDES:${PN} += "python3.10dist-cmdln \
 python310-cmdln \
 python3dist-cmdln"
 

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt6Quick3DAssetImport6-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "4ac988628a01a274500dac8115ed8cd715de5e48f7f9def6bd55cc9660516db57ea6311733cd2864ff1f6190c11bd736271d4097d2e1d3e5337bb5dac9ba050a"
+RPM_NAME = "libQt6Quick3DAssetImport6-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "9c8b38c0a99b72874b2cf8c5e9d842c1ac82918f47385cd963828b7fd7a534e745b95c2de8a746b4362980fe952c8b984dd3c84616393d9306cc3ff0599e12e6"
 
 RPROVIDES:${PN} += "libQt6Quick3DAssetImport.so.6 \
 libQt6Quick3DAssetImport6"

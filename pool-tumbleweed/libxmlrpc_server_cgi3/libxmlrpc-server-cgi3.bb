@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause & MIT"
 
 PV = "1.54.06"
 
-RPM_NAME = "libxmlrpc_server_cgi3-1.54.06-1.3.aarch64.rpm"
-RPM_HASH = "963f043930bd40954fbb0feef91d67ad64876177307cb1aeb21e7ae7cf6d4ae3750ccb2b9ffd8652fc422a483ee3ff3bb7086d584d7d4e2fdf15c1f24323a437"
+RPM_NAME = "libxmlrpc_server_cgi3-1.54.06-1.4.aarch64.rpm"
+RPM_HASH = "07685616df43f83f012974b2ee00a757a6757cc0575e2e4bfac7c7385e229e9e2f59d7abb0ca546c09e038d5c045afdbc3ba6ebab517dd8fab666b8db4832e6a"
 
 RPROVIDES:${PN} += "libxmlrpc-server-cgi.so.3 \
 libxmlrpc-server-cgi3"

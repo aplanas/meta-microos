@@ -4,14 +4,14 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.11"
 
-RPM_NAME = "ghc-doctemplates-prof-0.11-1.2.aarch64.rpm"
-RPM_HASH = "1d6288cf1da1d45e9e5cef65d5ff12e781f7c1b08fcb0d3948171263756bbcb2b9fbc567e56dafd6e59758245f7602f0123b55b4b2ae8634ce3c496bb889ad26"
+RPM_NAME = "ghc-doctemplates-prof-0.11-1.3.aarch64.rpm"
+RPM_HASH = "832a14fca8fbd91f78656a070b8ef602d05e495dc5bda1900045dc4adb92f291a1b3593a69b4420746893de51ec3c6cc5732a1e6d779b50fdad7372d107369a8"
 
 RPROVIDES:${PN} += "ghc-doctemplates-prof \
-ghc-prof-doctemplates-0.11-BPgXv8g09ry9FVnSp2Q4Ny"
+ghc-prof-doctemplates-0.11-JIB0NPJebEE1gzCrfsk8Xp"
 
 RDEPENDS:${PN} += "ghc-doctemplates-devel \
-ghc-prof-aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP \
+ghc-prof-aeson-2.1.2.1-HkN6OtqTngQ9De3CKBnfov \
 ghc-prof-base-4.17.1.0 \
 ghc-prof-containers-0.6.7 \
 ghc-prof-doclayout-0.4.0.1-9Y8Rw4EdBjz2IhzjzOiBy0 \

@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "0.5.5"
 
-RPM_NAME = "python311-perky-0.5.5-1.4.noarch.rpm"
-RPM_HASH = "a0f2afdb8efb799edde03583c861f21082389606cb57a88b3574dab3e8c806e90d42a4eb9b67501232116150bb1aa3dab8360e07703f93e8db35535c76d9898a"
+RPM_NAME = "python311-perky-0.5.5-1.5.noarch.rpm"
+RPM_HASH = "783778b6b581defb9cce3b6491bc359222f79fb9ff0683f048f56e15e4b096b7a036e07fe4683547d810e703aebb2a9cd788106da70928b6ae26b0eb75bc15d2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-perky \
+RPROVIDES:${PN} += "python3-perky \
+python3.11dist-perky \
 python311-perky \
 python3dist-perky"
 

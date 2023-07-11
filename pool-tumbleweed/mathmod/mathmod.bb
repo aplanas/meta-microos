@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "11.1"
 
-RPM_NAME = "mathmod-11.1-1.7.aarch64.rpm"
-RPM_HASH = "719ccfe083d0bde15fa19c6422f1ee23e65e240570922b644bf226c53857e7f62cbff3f4a58c010d333c427b4e579f62b86a62a2bd39a1de147106c85092ca54"
+RPM_NAME = "mathmod-11.1-1.8.aarch64.rpm"
+RPM_HASH = "1ca0c1ad7adc1a1cc7be18d3ee48d20017dc119208dbde1e39b0e0d082af6ec2c0d678a496f08adc7884a4d1b8e77081065cc91204fbd6fda6b9049c47a05856"
 
 RPROVIDES:${PN} += "mathmod"
 

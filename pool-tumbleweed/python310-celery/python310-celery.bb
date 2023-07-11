@@ -6,12 +6,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.2.7"
 
-RPM_NAME = "python310-celery-5.2.7-3.1.noarch.rpm"
-RPM_HASH = "15a7a7eac0b3817b0d458666f3926d68d82c0788fcabf56a668b94e4e6af3c4e0bb86e18f361f64a92e97e14190775c5db2772da38ce9afecb6a16b374a6ef37"
+RPM_NAME = "python310-celery-5.2.7-4.2.noarch.rpm"
+RPM_HASH = "b02add01ad9acaed13ec53957fe614e89af587e30f1200db86522f53c21991471bda51724191fbb7050c9bc31b66efa587b35f414aa4191ba33b85ab0d880694"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-celery \
-python3.10dist-celery \
+RPROVIDES:${PN} += "python3.10dist-celery \
 python310-celery \
 python3dist-celery"
 

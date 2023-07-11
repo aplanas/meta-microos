@@ -4,12 +4,11 @@ LICENSE = "Apache-2.0"
 
 PV = "1.17.0"
 
-RPM_NAME = "python310-opentelemetry-api-1.17.0-1.1.noarch.rpm"
-RPM_HASH = "f76f6c74e29abe46aeb16731994c92af3b1502ad5d3cc00590233bd2b62541f7ac7d387e6232568c1105c6f8bbf0df455645d64d3d48b366d1060d6f0104549c"
+RPM_NAME = "python310-opentelemetry-api-1.17.0-1.3.noarch.rpm"
+RPM_HASH = "965545f318227a88819520131d8b376abc8b406d2ca0340da3b12f7c665eefb7e8c4ccdbd57886a9fff944219e66836b6ca2376d281fc5d72db204a120340f9c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-opentelemetry-api \
-python3.10dist-opentelemetry-api \
+RPROVIDES:${PN} += "python3.10dist-opentelemetry-api \
 python310-opentelemetry-api \
 python3dist-opentelemetry-api"
 

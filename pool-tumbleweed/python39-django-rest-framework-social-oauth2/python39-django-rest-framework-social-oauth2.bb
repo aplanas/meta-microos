@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "python39-django-rest-framework-social-oauth2-1.1.0-1.15.noarch.rpm"
-RPM_HASH = "8ce330a978f07e2e63aa7a440b929e38994f4a075e5c942d14dc2e4af643ac51373a93fb930fde6c014e139d6c8ff42ebaecb13541e851efa2301b8d705162cc"
+RPM_NAME = "python39-django-rest-framework-social-oauth2-1.1.0-1.16.noarch.rpm"
+RPM_HASH = "b00dbcdde8d7d5d5fb23cdf1009c5782726ab5e6921446d2a14a83ddf0bd03fb0b0ebf1fe10c6e285729c21ba28b6fc8072b0fe38038f47b379fd6b3ab407f1d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-django-rest-framework-social-oauth2 \

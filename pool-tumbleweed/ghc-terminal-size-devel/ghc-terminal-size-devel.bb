@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3.4"
 
-RPM_NAME = "ghc-terminal-size-devel-0.3.4-1.2.aarch64.rpm"
-RPM_HASH = "3b754fc728336159a5793bb5752879e3f77968cef203d28fc6290e3383dd09ac53adea0955fa9b696df8cd03a7351c383e338eb85efa9f4bc9b0e30bc2053693"
+RPM_NAME = "ghc-terminal-size-devel-0.3.4-1.3.aarch64.rpm"
+RPM_HASH = "fa9d9a8e8689139a223702a17d9187bf75e5abcff160c90680db2c6902cd510e7a031050ce9cf11ed8b59b4d632e06613b1782eb3f7a360ee28cf175304cf994"
 
 RPROVIDES:${PN} += "ghc-devel-terminal-size-0.3.4-1tPFLsRvnmSGNryq4PMCAd \
 ghc-terminal-size-devel"

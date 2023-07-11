@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.11.2"
 
-RPM_NAME = "ocaml-qtest-2.11.2-2.1.aarch64.rpm"
-RPM_HASH = "80ef5c8644ce58e8c9e6fc009f7d8fccbc0cc6cc43f00fa96a29d1671161522e15a7d576b3b9baa71ee86766735028cee19eb26e701e59745ac51a918372b459"
+RPM_NAME = "ocaml-qtest-2.11.2-2.2.aarch64.rpm"
+RPM_HASH = "d1f01a5e6fb3772673f4724e06e1909125b22ca5b0a117b23ed6816234f86c3b91a4b5bdcb3ab0c83fa234de61f35a5577f9487963a2bd4d01de66127eabc0ec"
 
 RPROVIDES:${PN} += "ocaml-qtest"
 

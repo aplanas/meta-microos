@@ -9,10 +9,10 @@ the PDF file for online publication ('fast web view', 'optimized'). \
 This package contains tools for PDF file processing."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.9.0"
+PV = "1.9.4"
 
-RPM_NAME = "netperfmeter-pdfproctools-1.9.0-1.9.noarch.rpm"
-RPM_HASH = "39ecd2b4302e083663970bff06152317672081e2695239452da1c8091200fa86808063a788dbe1508ad2275be3d14521a3ebb85ffe655bce3da573a905acffc2"
+RPM_NAME = "netperfmeter-pdfproctools-1.9.4-1.1.noarch.rpm"
+RPM_HASH = "010ba467a0da3f5b015a2ab1993e160435ada9bf75238f544a7efb0da896e22c8488a5ad1a14d7be27e6577a1a4820fa6513ff7cc6d9e8be2be71f70141c2d5f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "netperfmeter-pdfproctools"

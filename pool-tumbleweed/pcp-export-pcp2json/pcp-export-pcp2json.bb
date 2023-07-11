@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "5.2.5"
 
-RPM_NAME = "pcp-export-pcp2json-5.2.5-3.4.aarch64.rpm"
-RPM_HASH = "eb370792e59cfaa276c775d5797f7eb64e67af301164d61dcfd44e6381e2640f6dc63161d39ce01022913e769fde198d1f13d60b0880559a1c908ae54bad0198"
+RPM_NAME = "pcp-export-pcp2json-5.2.5-3.7.aarch64.rpm"
+RPM_HASH = "71814682947b49a6aaaa916c86c2fd30939183d0cf2c422f6e182abf662f7a545a4f304458a7000469b8f7807a40257bd910d996fd6d0c884e601831d65dbead"
 
 RPROVIDES:${PN} += "pcp-export-pcp2json"
 

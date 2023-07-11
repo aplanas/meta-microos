@@ -8,8 +8,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.8svn25231"
 
-RPM_NAME = "texlive-ed-2023.201.1.8svn25231-53.1.noarch.rpm"
-RPM_HASH = "3eba3595bb7e74acc9f352c9d2b225de8f6aa2e245231facac8b51b2bf908b1f09e0c6d5cc13c0495dae1b29ae706033d21e0f567054b320d96a4d6fefed2f03"
+RPM_NAME = "texlive-ed-2023.201.1.8svn25231-53.2.noarch.rpm"
+RPM_HASH = "52c1efb10d57e8df1d57a062b0690100a81d335dcb2d29d745839b5ee86a946c8d2620caf8eabc860f226a3bf4009e3ecf432c86bec632972061aeda76a68439"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ed.sty \

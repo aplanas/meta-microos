@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.5.1"
 
-RPM_NAME = "python39-pypiserver-1.5.1-2.1.noarch.rpm"
-RPM_HASH = "683632ecb80a4f99bf16206213c0bba15a2a0eccc1b4cda19d1fc4ef4faaca60ef275c33b719fae36e964dcbfc0f0a5eb61c905ce43cd3394a26e53d76905d4c"
+RPM_NAME = "python39-pypiserver-1.5.1-2.3.noarch.rpm"
+RPM_HASH = "465be9435c03e559aee4cc833d11a81f7e2aa2038b3ea1864283de4652fd20440a1aff053014ad72e3790200746d05be57253bb242bd0157a89a87c3686cfce2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pypiserver \

@@ -5,11 +5,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.3"
 
-RPM_NAME = "python311-mrcfile-1.4.3-2.1.noarch.rpm"
-RPM_HASH = "19a3d37e5aa5516f078d1c5b382c5ddaa76b6a1fbe0f13781b436a1cd8f53cf3e858889a1029c4549737a2751814164b8d6c217c35e23f7ccff1a18b0d0ff607"
+RPM_NAME = "python311-mrcfile-1.4.3-2.3.noarch.rpm"
+RPM_HASH = "484fa5a2f6db0251947e6785492bc642a66dbb7816d78ef266c987f70ebef14efbe0a3f1ef01fc6b11fad168ec96982b25e9db8a5cf812ccf06c1e190ebbdd51"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-mrcfile \
+RPROVIDES:${PN} += "python3-mrcfile \
+python3.11dist-mrcfile \
 python311-mrcfile \
 python3dist-mrcfile"
 

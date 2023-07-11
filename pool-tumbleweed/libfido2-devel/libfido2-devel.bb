@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.13.0"
 
-RPM_NAME = "libfido2-devel-1.13.0-1.2.aarch64.rpm"
-RPM_HASH = "415bb85e9a71c00bd7bf3c3e363ae8bd36e6e3a9768ab36ef11aff8256ee7605f8581605692a19cb8cf5aec10c4a38ef4ac8b06600d7af0d9d06282596122624"
+RPM_NAME = "libfido2-devel-1.13.0-1.3.aarch64.rpm"
+RPM_HASH = "b822cd02c9cc99e50f2180c0d9d3ff51b5d05e05510b57cdb8e4b60978c300aa057ce36df3e3a2aeaa3e1f01dbf72bf7d940d42f71f0b15ef43176a5ae5fd7c3"
 
 RPROVIDES:${PN} += "libfido2-devel \
 pkgconfig-libfido2"

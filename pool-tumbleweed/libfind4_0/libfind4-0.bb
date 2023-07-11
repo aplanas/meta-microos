@@ -5,8 +5,8 @@ LICENSE = "CDDL-1.0"
 
 PV = "1.8"
 
-RPM_NAME = "libfind4_0-1.8-47.3.aarch64.rpm"
-RPM_HASH = "0ce8a3d1d19c9a0de2e3024a081341ca3e7d115ffd72019ff84b9fe370736d6d1b48690daaf79ad965c67f79ccdddd7cfb49bf5f40f000829f602d3a07c9acc4"
+RPM_NAME = "libfind4_0-1.8-47.4.aarch64.rpm"
+RPM_HASH = "65721514bc93b8af1a9f6bbc9f4e60643633975c069796181f4eec2d66b0ca2bb7ae7fc1189e6eefd36e9fb35fac40eab2f32ba35e65b54f1ae8937faf449fe6"
 
 RPROVIDES:${PN} += "libfind.so.4.0 \
 libfind4-0"

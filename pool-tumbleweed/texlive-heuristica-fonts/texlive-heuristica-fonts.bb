@@ -4,8 +4,8 @@ LICENSE = "OFL-1.1"
 
 PV = "2023.201.1.092svn51362"
 
-RPM_NAME = "texlive-heuristica-fonts-2023.201.1.092svn51362-53.1.noarch.rpm"
-RPM_HASH = "7e1c85705349ffccc134ad9a0c6c132c4c59ae67fd5b9694d33d55ddc018fe4661db6d96271bbd98cc475f9f653847d87bef9ee2b609b57125ad5185e7cd1e61"
+RPM_NAME = "texlive-heuristica-fonts-2023.201.1.092svn51362-53.2.noarch.rpm"
+RPM_HASH = "1f8add937eefaef57779567fe0baf43742048e853a57d7b541f6199baba9c2144c646850f8d7d1c4a3bf1ef27db82bd9408251593a2719a4aa45bb82e1dc8f8c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-heuristica-fonts \

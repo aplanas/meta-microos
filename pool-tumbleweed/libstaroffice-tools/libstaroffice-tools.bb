@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later & MPL-2.0"
 
 PV = "0.0.7"
 
-RPM_NAME = "libstaroffice-tools-0.0.7-3.9.aarch64.rpm"
-RPM_HASH = "eed1cf172077b04711a79b5f518697ea3c9644247bb5b85c7aa4905f55bf067865d3bc2c6f37b0aea6023dc286f4025bedc6d0a481a9a71e8eb95018025160e9"
+RPM_NAME = "libstaroffice-tools-0.0.7-3.10.aarch64.rpm"
+RPM_HASH = "7fd0e276aacb03a602f0a060071194b58ba6f117452bef82e623f034f95dd53045664cfc293d5474c392a72388f0c2be4ce1c6b8646d3078ecd94fa38b51667c"
 
 RPROVIDES:${PN} += "libstaroffice-tools"
 

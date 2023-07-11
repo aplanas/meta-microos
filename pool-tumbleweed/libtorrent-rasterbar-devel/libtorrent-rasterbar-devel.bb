@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0.9"
 
-RPM_NAME = "libtorrent-rasterbar-devel-2.0.9-1.1.aarch64.rpm"
-RPM_HASH = "af3f0d6d213d7ef37f6b3792d2cd0f7b1ea1b9fba4526e33db7978611e6067c134b11d9e66fa13c3c3398ddfecc130ee3c5d9415e3463b740808a740ce2c2119"
+RPM_NAME = "libtorrent-rasterbar-devel-2.0.9-1.3.aarch64.rpm"
+RPM_HASH = "fbc6e33f8e2a5e084b9b1c4d1b348b208ea7535f1e249580742b4aa5dd5d785d27596ba750e54112a2be8fa2480a007acf634ace4b6406c9d85df245efa5c34e"
 
 RPROVIDES:${PN} += "cmake-LibtorrentRasterbar \
 libtorrent-rasterbar-devel \

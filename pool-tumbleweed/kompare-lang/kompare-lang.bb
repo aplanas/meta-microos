@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kompare"
 DESCRIPTION = "Provides translations for the 'kompare' package."
 LICENSE = "GPL-2.0-only & GFDL-1.2-only"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kompare-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "5b2c31bab5b7bd58430496143de92ac9ee0556dc4d3ec92bbe2d52402fc15dbe038dd7878dc0520c33654f403f24f24895d9bf7e414d3e504663e9f0dd377d4b"
+RPM_NAME = "kompare-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "30525cce8bcbf1c2da3fa215d6efae7498b4c88b1a40df0b33129d918ee01bb5436ba04f6bf54b564560f2d7a3829e64f2af30ac64e223d586cd0b0c92994a49"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kompare-lang \

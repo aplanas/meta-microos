@@ -32,8 +32,8 @@ LICENSE = "NetCDF"
 
 PV = "4.9.2"
 
-RPM_NAME = "libnetcdf19-openmpi1-4.9.2-1.1.aarch64.rpm"
-RPM_HASH = "0a156753dfb2cb5de68483384332a3753c85e0b0c8a097eee8348830eb6e640f1691def7645b0b63c3f96dc007ca88a4c951af5c0df36edf73f1543beee028d6"
+RPM_NAME = "libnetcdf19-openmpi1-4.9.2-1.2.aarch64.rpm"
+RPM_HASH = "c1692ff90599beb8cd5cf52f6e0c80da0d9893650ef7465aa89c9e5bd65e79de7316babb1566ea0af45e3c448b16cab7f783ea7f3ba52a3072fda4d9730a49ad"
 
 RPROVIDES:${PN} += "libnetcdf.so.19 \
 libnetcdf19-openmpi1"

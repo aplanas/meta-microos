@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "3.18.5"
 
-RPM_NAME = "petsc-devel-3.18.5-1.1.aarch64.rpm"
-RPM_HASH = "737577ea04b5e20611d438005c492913f220b32c298f3dfb3a6c28ed74c7e11dbcbd3980c1166ba8f1a2cc548e944d380fbde0b2666da40233956b4a63c8e77c"
+RPM_NAME = "petsc-devel-3.18.5-1.2.aarch64.rpm"
+RPM_HASH = "a7fdd39582e43063e45abb315915c175eb22d12f0cd97f9a3fed844eb30eb52d2deafb825aad892493538aa252cc588f6d60ea6e91e59682871bab842955b203"
 
 RPROVIDES:${PN} += "petsc-devel"
 

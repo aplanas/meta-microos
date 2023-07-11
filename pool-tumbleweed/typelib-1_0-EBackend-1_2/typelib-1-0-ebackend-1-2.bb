@@ -3,10 +3,10 @@ DESCRIPTION = "Evolution Data Server provides a central location for your addres
 and calendar in the GNOME Desktop."
 LICENSE = "LGPL-2.0-only"
 
-PV = "3.48.2"
+PV = "3.48.4"
 
-RPM_NAME = "typelib-1_0-EBackend-1_2-3.48.2-1.1.aarch64.rpm"
-RPM_HASH = "b00b1550f998e08d0ea4f4695e6ee2e2db0b04b327ec176027cf8f794210105e3893f2044d09279637a0b240635a6013e8bdf083cde44238d96d0ca4672e7dbb"
+RPM_NAME = "typelib-1_0-EBackend-1_2-3.48.4-1.1.aarch64.rpm"
+RPM_HASH = "de878eebc3f1c114fcbd1dbc1861fb6ce73a4ede3a8cf6791fd53560b02a7282df0e1e0587a775fb2f90e7df2262596dcdb3993bb6bd01ab7f6ead9cfd4e65f8"
 
 RPROVIDES:${PN} += "typelib-1-0-EBackend-1-2 \
 typelib-EBackend"

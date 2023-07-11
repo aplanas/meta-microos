@@ -12,8 +12,8 @@ LICENSE = "Apache-2.0"
 
 PV = "5.12.0"
 
-RPM_NAME = "python39-importlib-resources-5.12.0-1.1.noarch.rpm"
-RPM_HASH = "360c2fa21d3e174635aea0ae476e5864b7e7ea90606ff8a83515fa49bb5ee57da3f1ceac1bdeca7d03d131a3a2e96ba27b5cc3b68a8bcff47df064c47050069c"
+RPM_NAME = "python39-importlib-resources-5.12.0-1.3.noarch.rpm"
+RPM_HASH = "de19c32e5618230b221072dd0d26a072716828800a6cc3b4f946bfb6424df96c2210817be732e983bef84087907184fee4057fa3c14111023bf4c2f15288c400"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-importlib-resources \

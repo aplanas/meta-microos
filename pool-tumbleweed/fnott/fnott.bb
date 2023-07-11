@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.4.0"
 
-RPM_NAME = "fnott-1.4.0-1.1.aarch64.rpm"
-RPM_HASH = "ead7bde3747b65181f970b21ec0fcbf253d7e6ee4a0e45d99434fa60a41afe9ff3ef94beb46dade569664c2e1ff27e0e41efec4243bb6a9ddf06db5cb276e3b1"
+RPM_NAME = "fnott-1.4.0-2.1.aarch64.rpm"
+RPM_HASH = "ed3915d59936b0b106c620a3ab8829390d4e008c3b0f87ef79b2c89c68259d172c80affdd31bce46a2e43ae4dacd7fd516b824bf58f791daea0626a1efd8c2a1"
 
 RPROVIDES:${PN} += "fnott"
 

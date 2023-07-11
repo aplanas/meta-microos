@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "11.0.0"
 
-RPM_NAME = "ghc-language-docker-doc-11.0.0-1.3.noarch.rpm"
-RPM_HASH = "c1a267e03a31309a131bb7d3f45ecc75d10835b07f84113733707ac99e7aeb8f7fad4aa7667b7d9fd18dbde99f8536e00b836448d25ba32387b7ac38a4030bf7"
+RPM_NAME = "ghc-language-docker-doc-11.0.0-1.7.noarch.rpm"
+RPM_HASH = "cc2361fa6b3c06508816a6de35e237ccff078919ab0ca6b148bcce8b255bb58d54020783ab3d63b5cc2a89873a25380b0fe65d4fd12047fc4bf4ac7ad3d0d4d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-language-docker-doc"

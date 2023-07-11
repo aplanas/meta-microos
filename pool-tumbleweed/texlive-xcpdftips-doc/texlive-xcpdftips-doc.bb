@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.201.1.1svn50449"
 
-RPM_NAME = "texlive-xcpdftips-doc-2023.201.1.1svn50449-52.1.noarch.rpm"
-RPM_HASH = "4da15690451baf0bb6fe32df94c7a4f20fa7e5104e8ab9b972862ee4badb9e35733578a37210228b7644649a4dd6c1e32231df21bdb2b8f30a77b49a029d55bf"
+RPM_NAME = "texlive-xcpdftips-doc-2023.201.1.1svn50449-52.2.noarch.rpm"
+RPM_HASH = "52eacf51c4b011c06fdb0a9bf0dd4bf062a45bd8232512f56e03dfe17411cc3952cac43b269e23ab319154377343038000152ff442ac92409a68976c6b6dfc73"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xcpdftips-doc"

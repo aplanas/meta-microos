@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.1.0"
 
-RPM_NAME = "ghc-netlink-1.1.1.0-4.3.aarch64.rpm"
-RPM_HASH = "e11c4bea7efe5a9e74bad2de5af3f38a33a436b515a79fed48434097c2db10243ac039c6b45c99f548e940b5bffb2c1d056a9f3a42bab0925cbbf14b56c388d3"
+RPM_NAME = "ghc-netlink-1.1.1.0-4.6.aarch64.rpm"
+RPM_HASH = "dddaebaabd03e6bc4cc3abd6386e64b3339ce50a63ceb507e9ed1c82e319846355cc449d3807ed45195160e79645c9f05116e17ac286b98ae65c315bffc8a72f"
 
 RPROVIDES:${PN} += "ghc-netlink \
 libHSnetlink-1.1.1.0-3cQkQWnXFQnLtl9CehLMU3-ghc9.4.5.so"
@@ -25,7 +25,6 @@ libHSpretty-hex-1.1-2861Nkv8pS0CIRpZJwwJMG-ghc9.4.5.so \
 libHStemplate-haskell-2.19.0.0-ghc9.4.5.so \
 libHStime-1.12.2-ghc9.4.5.so \
 libHSunix-2.7.3-ghc9.4.5.so \
-libatomic.so.1 \
 libc.so.6 \
 libffi.so.8 \
 libgmp.so.10 \

@@ -12,8 +12,8 @@ LICENSE = "Sleepycat"
 
 PV = "5.0.58"
 
-RPM_NAME = "berkeleydb-javadoc-5.0.58-12.16.noarch.rpm"
-RPM_HASH = "0b1dba291ee4d1ba85c058996b81a7d5c0ab43a66a0e8d15a4df05026c92bbcb30e9da69b7b61815a233c3d07add4dac6d363d85396c699c8af914c92c715c59"
+RPM_NAME = "berkeleydb-javadoc-5.0.58-12.17.noarch.rpm"
+RPM_HASH = "6cb2d17b75516c8bdfa76a17d5d30c32c8e21788a6608c50e491e3f95b1cf6b4573102d60df0fce57ca5b6eda63fcfc6816c611e62a6829f7cfdc22976a67597"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "berkeleydb-javadoc"

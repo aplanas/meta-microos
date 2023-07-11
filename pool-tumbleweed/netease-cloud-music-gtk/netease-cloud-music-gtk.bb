@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.2.0"
 
-RPM_NAME = "netease-cloud-music-gtk-2.2.0-1.4.aarch64.rpm"
-RPM_HASH = "9a749a88faf9eaf7fc1034d2d824acd22329dcf3fceb632d556bb43aec6f0209d26d91219479523c51b28b416cf900d3b5ca08599f75eb7e45d8c80174541e85"
+RPM_NAME = "netease-cloud-music-gtk-2.2.0-1.6.aarch64.rpm"
+RPM_HASH = "2a79c0170f66e4150b612f0d939a7c948d5d23c33cdd79d9f31ac1bab810e8d9fea5c3d8f4962d7947f3ccecea679913549a8dc25ca2ce836b0b04cf48a60f91"
 
 RPROVIDES:${PN} += "netease-cloud-music-gtk"
 

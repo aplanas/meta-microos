@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later & MIT"
 
 PV = "7.45.2"
 
-RPM_NAME = "python-pycurl-doc-7.45.2-4.1.noarch.rpm"
-RPM_HASH = "2710b887829d9b64134530e2b5e0d611177c7a2f3910a3d4c53a4ad572dc4926ea977b1afbe889ba01b149ddc3d85389c38e0b4310ac5aa081e0f8fb5ab40c1e"
+RPM_NAME = "python-pycurl-doc-7.45.2-4.4.noarch.rpm"
+RPM_HASH = "0e9d7d22447a72a7ecbceb7de92fd3da26bc17043fea81e916af76eac1bca910d2e490bfc0f753c58a07d63557ea68346108b538de1893e5cda8d9cf5c0c2159"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-pycurl-doc \

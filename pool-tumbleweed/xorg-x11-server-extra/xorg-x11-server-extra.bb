@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "21.1.8"
 
-RPM_NAME = "xorg-x11-server-extra-21.1.8-1.1.aarch64.rpm"
-RPM_HASH = "6105d7af57ef3a9afd481061bcf59e455b0cff1a6f78b2b594729895ea4ad78edb0158b98ded38c49e58819c8eec055e6f37405f68b4bc6e48880fd0d2125b2e"
+RPM_NAME = "xorg-x11-server-extra-21.1.8-1.3.aarch64.rpm"
+RPM_HASH = "e637ce0513750ca226d87145b18cb88619cfea6b71dbdb7db19604224aa9fbedde084e8564788605a2972d129b1c3683e6efb6fd06e16122ee7d05c7fee9982f"
 
 RPROVIDES:${PN} += "xorg-x11-Xnest \
 xorg-x11-server-extra"

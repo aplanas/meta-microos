@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.1"
 
-RPM_NAME = "libjbig-devel-2.1-4.4.aarch64.rpm"
-RPM_HASH = "d59d7de35b9e90685c322893083ce9005a7d9b72be8733c37b44f3487e3b1ae8a0800bfc9dfa6a188d0f5faf84fc6d62755fcae5f14c9d0afa04d86f196add20"
+RPM_NAME = "libjbig-devel-2.1-4.5.aarch64.rpm"
+RPM_HASH = "672808b01364fda020268f6f41f5359f271e55f08c4184481fa0358af42c169b5e3139b788323a8d8a903addc90232c2ade21cd3bc6ea74049749fdd792aaa5c"
 
 RPROVIDES:${PN} += "libjbig-devel"
 

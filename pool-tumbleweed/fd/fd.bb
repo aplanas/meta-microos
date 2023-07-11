@@ -12,8 +12,8 @@ LICENSE = "Apache-2.0 & MIT"
 
 PV = "8.7.0"
 
-RPM_NAME = "fd-8.7.0-1.3.aarch64.rpm"
-RPM_HASH = "ce0611a674c443ecc595e6c56ce4c44d21d6bc76ccd88c7b198bf6a5fefab412482a2a2973ec82ecbab75b29279590ed1f9286518b62eb0cb6a300bc7b6d71f0"
+RPM_NAME = "fd-8.7.0-1.4.aarch64.rpm"
+RPM_HASH = "ea1009dc012806c66cf23025fcfef5537d273a13d9084826b33612b0b782d762c1ccfe23db8dca9a894187b9c8b53fbbfacb89209e35a99e683bc7ee61fe55a7"
 
 RPROVIDES:${PN} += "bundled-crate(aho-corasick) \
 bundled-crate(ansi-term) \

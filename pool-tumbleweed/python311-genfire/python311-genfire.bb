@@ -6,11 +6,12 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.1.11"
 
-RPM_NAME = "python311-genfire-1.1.11-5.4.noarch.rpm"
-RPM_HASH = "e04f4b61dc4353805527f8f2d6606bbe04378608c3d34092ed76805fc0c8f3d2d5e0accccc76bfa3fb480ab593fcfc7e8c92cad9c13b6de5f24166870e818716"
+RPM_NAME = "python311-genfire-1.1.11-5.6.noarch.rpm"
+RPM_HASH = "76797828933ab8008775396bea0f3f896f607af00cbe86187b9545fc19072e80301b36e81f661ff83dac26c558ddce5567228c26f45f5580898660eeb43f74cf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-genfire \
+RPROVIDES:${PN} += "python3-genfire \
+python3.11dist-genfire \
 python311-genfire \
 python3dist-genfire"
 

@@ -14,8 +14,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.7.18"
 
-RPM_NAME = "python39-ciscoconfparse-1.7.18-1.1.noarch.rpm"
-RPM_HASH = "67a77415723725ebedd9e27c3fe4f867d4b3c05e2fdf2bdb83d5e94c624d57e09ade4ecba097a25a8e70d7291cac687b88889b49680d24a485616f0438d9e742"
+RPM_NAME = "python39-ciscoconfparse-1.7.18-1.3.noarch.rpm"
+RPM_HASH = "bdfef51263d9d4f2ac00b3e866ad02d4b9d3f44d04a2dc211f3cf1de0c4995e2f39585556a799eee9c6ab313983eb33c66b7820bd88f64deae06caca47583d02"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-ciscoconfparse \

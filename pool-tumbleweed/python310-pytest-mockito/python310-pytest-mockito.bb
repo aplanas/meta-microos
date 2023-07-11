@@ -8,12 +8,11 @@ LICENSE = "MIT"
 
 PV = "0.0.4"
 
-RPM_NAME = "python310-pytest-mockito-0.0.4-2.7.noarch.rpm"
-RPM_HASH = "ca742ec390564f3b6bf0fbdf42b3be923cb971d23235ee7f281f7ef7af924828e48ee4ffe7abd918bfdd2b718f72584f004cee28ed51cef9791e1d91667d62c0"
+RPM_NAME = "python310-pytest-mockito-0.0.4-2.9.noarch.rpm"
+RPM_HASH = "6ba18b78eb1a14b49bd83a0d203b32771723fae08fb95a77a2a54c9d1cabc7410a14bb85df80db18aff32e70acad6c0f706c2a5d75d44251e8b3b532dfc73c50"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pytest-mockito \
-python3.10dist-pytest-mockito \
+RPROVIDES:${PN} += "python3.10dist-pytest-mockito \
 python310-pytest-mockito \
 python3dist-pytest-mockito"
 

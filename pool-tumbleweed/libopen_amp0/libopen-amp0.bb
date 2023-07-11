@@ -19,8 +19,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2020.01"
 
-RPM_NAME = "libopen_amp0-2020.01-1.12.aarch64.rpm"
-RPM_HASH = "6fa8f74b71b7fcac62f5b1930768a7fadd207f7eb289ffe0b448f4d588b35dbaa3c9ff51762df7283f59e1b038e1f0bb3c5a081ee276e34a4fbdabb395f05f9a"
+RPM_NAME = "libopen_amp0-2020.01-1.13.aarch64.rpm"
+RPM_HASH = "103c62cc4da868b3fded1d8b3edfb672078341f30be99f2cd2243ffd89538ca13f84257f6f53f118361a7160fb2649647a060f4e905b82f3bc678a2984c41534"
 
 RPROVIDES:${PN} += "libopen-amp.so.0 \
 libopen-amp0 \

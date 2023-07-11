@@ -9,13 +9,11 @@ LICENSE = "MIT"
 
 PV = "0.7.1"
 
-RPM_NAME = "python310-recommonmark-0.7.1-3.1.noarch.rpm"
-RPM_HASH = "411d09fe2c30fc37b977e06e33e371f305abe08c5998972351a590eece5ac909eeb4da99c92cd128610ae7d923dc67325b01c1670bc02cb7bc8483da4ba3e699"
+RPM_NAME = "python310-recommonmark-0.7.1-3.3.noarch.rpm"
+RPM_HASH = "29a24400ac3bcc2b0716b65c55fa1feb7fa6e7a3b984ed5c4426febe24bb10b30e445669095bdd7505dcf5b28a69bce7d0e839ccb2c3b694b4629974baa38b59"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-reCommonMark \
-python3-recommonmark \
-python3.10dist-recommonmark \
+RPROVIDES:${PN} += "python3.10dist-recommonmark \
 python310-reCommonMark \
 python310-recommonmark \
 python3dist-recommonmark"

@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "20.1.0"
 
-RPM_NAME = "python311-labels-20.1.0-1.4.noarch.rpm"
-RPM_HASH = "19c4e6afd5190f808545696d30c95569c2aa064dd484d2e63c25ac439671a3e4a12c1323d6133eeed91cf1f7537aef91a92e5a946de2c0a0b826b20008f77897"
+RPM_NAME = "python311-labels-20.1.0-1.6.noarch.rpm"
+RPM_HASH = "d1853e3bd9935f096a24aaa1a2b12711539f289e8220937de246fbb2e4cb13bfde03dc8b91723eabb17c9648418702320c206cc8e96384dc7231cad8781bf6a9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-labels \
+RPROVIDES:${PN} += "python3-labels \
+python3.11dist-labels \
 python311-labels \
 python3dist-labels"
 

@@ -23,8 +23,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & SUSE-Public-Domain"
 
 PV = "1.2.1"
 
-RPM_NAME = "sane-backends-autoconfig-1.2.1-1.1.aarch64.rpm"
-RPM_HASH = "27316c8f95784e018369e2ef340dd6e523bf0ffc32ed01a9f4e9cd17dc9140607e46b1d7645bd40596994c85864bdea4ad0008071c507d381c4d0841e3e11fe8"
+RPM_NAME = "sane-backends-autoconfig-1.2.1-1.2.aarch64.rpm"
+RPM_HASH = "3a520a36d25f15052c4c393e6600fd49c6fd4089a1d982a081b5441f759f012c720c5fc10cafdba75752c229e676a4178017faa8287e54375e56fd390f04b94c"
 
 RPROVIDES:${PN} += "sane-backends-autoconfig"
 

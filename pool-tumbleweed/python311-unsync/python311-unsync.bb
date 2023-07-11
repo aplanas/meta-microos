@@ -28,11 +28,12 @@ LICENSE = "MIT"
 
 PV = "1.3"
 
-RPM_NAME = "python311-unsync-1.3-1.11.noarch.rpm"
-RPM_HASH = "89c6a627e57dd3df38ab69ec322ae5d26a7eb2d1f928233f393c6b99c81e036f8a397f8a48fbeb13cd3707423c6fa0e45a34dda12e650d150bf972541a407df9"
+RPM_NAME = "python311-unsync-1.3-1.12.noarch.rpm"
+RPM_HASH = "efefc3f5edc2135c10ead41584e570eb11164623eb8d55d3229faae45954a66eecedcf79bddfc17dca6b86a5a27444b90001ea0a53680ea6ba2fb311b6c38076"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-unsync \
+RPROVIDES:${PN} += "python3-unsync \
+python3.11dist-unsync \
 python311-unsync \
 python3dist-unsync"
 

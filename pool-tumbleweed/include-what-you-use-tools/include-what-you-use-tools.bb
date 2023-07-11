@@ -5,8 +5,8 @@ LICENSE = "NCSA"
 
 PV = "0.20"
 
-RPM_NAME = "include-what-you-use-tools-0.20-1.1.noarch.rpm"
-RPM_HASH = "74f9931424bd4556a31b09d726af8a2964a80ce333cb4824cc12f92b40d57db3517fd012849963ccc81d67dea11efddd71d41a4cf3cf38bdc716bd78cbc748ac"
+RPM_NAME = "include-what-you-use-tools-0.20-1.2.noarch.rpm"
+RPM_HASH = "ba73a3f685cd24f00c18f47deb60058fbe0f658a1c56f7bf4fe80b7093998b543df980da2e6e7b1b3322b04343772c6e1560d958594706d535f918a6a54e79f9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "include-what-you-use-tools"

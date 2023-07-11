@@ -6,11 +6,11 @@ LICENSE = "GPL-3.0-only"
 
 PV = "6.0.6"
 
-RPM_NAME = "trytond_stock_supply-6.0.6-1.1.noarch.rpm"
-RPM_HASH = "de8f6d6f064224163bd02dcfe4bcbe666f177bfb0b19c7e5e3a1c46ae97c0ff326721b01d4c9256ef3e0a111abe11d260ea7089bcb218b26fc2951ee332a24c2"
+RPM_NAME = "trytond_stock_supply-6.0.6-1.2.noarch.rpm"
+RPM_HASH = "e757e1af9647b9bf6512bc0b7589e2dda302101dc0c78ffa6e7dea509ef44122f109faf36a48f25870b6b81a521bb5803156895850ae8ae02053cec4af106a79"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-trytond-stock-supply \
+RPROVIDES:${PN} += "python3.11dist-trytond-stock-supply \
 python3dist-trytond-stock-supply \
 trytond-stock-supply"
 

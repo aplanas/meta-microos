@@ -14,10 +14,11 @@ LICENSE = "BSD-3-Clause & Python-2.0"
 
 PV = "1.6.3"
 
-RPM_NAME = "python311-astunparse-1.6.3-5.1.aarch64.rpm"
-RPM_HASH = "5a2cda21a7136558bedc9e4f0f97a63aa5d6962a645e004252c39bf22132db6b488fc5988ce9c4e42b5926ac8b1dea0f019952eab8a99b81f3a0011c055df437"
+RPM_NAME = "python311-astunparse-1.6.3-5.3.aarch64.rpm"
+RPM_HASH = "e5e4db8b8bfed7cb5863edcb761d2aa2933c3ee0ebec225f7eac8a2a168befa7cbb71b233fbb4d1535ef2b58832d8e80baab385ab223e64cb0572413bb14869f"
 
-RPROVIDES:${PN} += "python3.11dist-astunparse \
+RPROVIDES:${PN} += "python3-astunparse \
+python3.11dist-astunparse \
 python311-astunparse \
 python3dist-astunparse"
 

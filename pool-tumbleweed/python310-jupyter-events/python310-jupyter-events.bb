@@ -8,12 +8,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6.3"
 
-RPM_NAME = "python310-jupyter-events-0.6.3-2.2.noarch.rpm"
-RPM_HASH = "1e8d0abde979ea14c02a06688dfcc65b295f00ce0318b95c771f19c5d4e97f02d970b300fe38d994ec49739b3f8126d153564d468918542c82395abb9910f4aa"
+RPM_NAME = "python310-jupyter-events-0.6.3-2.4.noarch.rpm"
+RPM_HASH = "641b3860f1b9769f6e3cbff1b6d2bcca00a6f5c15a275adef0d5c3d9bef2dcc679bcc1fa6a2c12c86dc25025e23494677a9dcc1d6dc5e3bbfa7569e7743526e5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-jupyter-events \
-python3.10dist-jupyter-events \
+RPROVIDES:${PN} += "python3.10dist-jupyter-events \
 python310-jupyter-events \
 python3dist-jupyter-events"
 

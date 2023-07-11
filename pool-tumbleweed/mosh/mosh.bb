@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.4.0"
 
-RPM_NAME = "mosh-1.4.0-1.8.aarch64.rpm"
-RPM_HASH = "587d118b52dae3691a3fd006ce2a09b426b375222c7423739b3f341b7d268a301820fe660ac0c95da3445cef6d3814775d8722e2d7dfcf4e32b94ffd1bf4479b"
+RPM_NAME = "mosh-1.4.0-1.9.aarch64.rpm"
+RPM_HASH = "a24b57288195a0dc2d16fb1a3c998b440ad0249ee43aeb0dfe677c39043f8662e92dbb45c12e8a84e5883ece035771d390c3f79afc0d5ffa9a63127bf7b0bacf"
 
 RPROVIDES:${PN} += "config-mosh \
 mosh"

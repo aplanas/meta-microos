@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.11.4"
 
-RPM_NAME = "icingaweb2-vendor-lessphp-2.11.4-2.1.noarch.rpm"
-RPM_HASH = "e09e1b26ee630d8e304c79af78d6d5b6d134ebe727bd3e2a188b4aa80c41af69115b4cdaefbc64c5cbe504726c7974644c2c2fb2f53ba77294b0b8e3155032c5"
+RPM_NAME = "icingaweb2-vendor-lessphp-2.11.4-3.1.noarch.rpm"
+RPM_HASH = "8dd9ab112df2eaec63c0c1bcd12f990901640ba0a2757594e419f2e1682c4b78d02001dd752f5bdfb2d9ce6f480134706c4146fdfb15a0d38065c60c013e7ccb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icingaweb2-vendor-lessphp"

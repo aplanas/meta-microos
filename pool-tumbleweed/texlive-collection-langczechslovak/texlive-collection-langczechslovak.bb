@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.208.svn54074"
 
-RPM_NAME = "texlive-collection-langczechslovak-2023.208.svn54074-58.1.noarch.rpm"
-RPM_HASH = "31e1d5746727eefdf566638d20b0fc2c78b91927602a0b26cc513a7e07a5a7b5ac4d12685488acbacee7ed802d317f3eea9d1d49f8f6fb3a7950807442087338"
+RPM_NAME = "texlive-collection-langczechslovak-2023.208.svn54074-60.1.noarch.rpm"
+RPM_HASH = "58f0171da358593db56cf6dc04b31fb8b1d4b79e8d132a86c046c11aeaa4ab6c4aeac4e331284c719299704173b7c33df325b0465cb53e362599f714ed8505c6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-langczechslovak"

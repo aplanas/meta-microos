@@ -8,10 +8,11 @@ LICENSE = "Apache-2.0"
 
 PV = "3.8.4"
 
-RPM_NAME = "python311-aiohttp-3.8.4-1.1.aarch64.rpm"
-RPM_HASH = "3d93e61b7a485d104907daf7219a4336d42ee0ed0906b1b283795aca8bb610fb4602dd83d737ed3c6043ab67546f1b353fa60f72f17b9cd7e7ac31c3b63955a8"
+RPM_NAME = "python311-aiohttp-3.8.4-1.3.aarch64.rpm"
+RPM_HASH = "e6e6781566d770659b2b55bc11e2937b03ec6bcb7ca36f72f87810286a6f4a24e693b14755a9a4e2eac48b5cd9e026ee36cb8cd3a01eaa5e61583216c935ea5f"
 
-RPROVIDES:${PN} += "python3.11dist-aiohttp \
+RPROVIDES:${PN} += "python3-aiohttp \
+python3.11dist-aiohttp \
 python311-aiohttp \
 python3dist-aiohttp"
 

@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0b2"
 
-RPM_NAME = "python310-azure-mgmt-testbase-1.0.0b2-1.3.noarch.rpm"
-RPM_HASH = "f1b6852d066479e9e102f7835760074bbbf21968879e9b9c6b5ac9e36175b2cbe6d563c514993520fd02a6a8b5f4fa9ab32aac3d364d794877c33c6f5e4c855e"
+RPM_NAME = "python310-azure-mgmt-testbase-1.0.0b2-1.4.noarch.rpm"
+RPM_HASH = "eae25357c48078ed6c0928868d3b076ad54b0ac2db2e088e94fd8376c0160f4d10b3389f5f03728bd6f75dffe0b7f34df7843ea4fde1197b4822f9bb46e065a1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-testbase \
-python3.10dist-azure-mgmt-testbase \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-testbase \
 python310-azure-mgmt-testbase \
 python3dist-azure-mgmt-testbase"
 

@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "4.0.4"
 
-RPM_NAME = "python39-Flask-Migrate-4.0.4-1.1.noarch.rpm"
-RPM_HASH = "d728151a25f04fd7d5f4469dbbb6729cc16aafb9ccef71a48af45aab296726da57c73582a86ea8086a20831615fc6961e7d022d0a8ac89be49c9fea06bbcebcc"
+RPM_NAME = "python39-Flask-Migrate-4.0.4-1.3.noarch.rpm"
+RPM_HASH = "4be84cc16ae3f81fc47035b32644887c12fa315d9242a829cef897899b2a11f03f000cb4a7fbd0cfdd0d266ea1ccda7c5d028c009f7b07915c1da9735bfa9eb1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-flask-migrate \

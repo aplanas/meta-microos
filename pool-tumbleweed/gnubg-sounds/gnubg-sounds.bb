@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.06.002"
 
-RPM_NAME = "gnubg-sounds-1.06.002-3.4.noarch.rpm"
-RPM_HASH = "1a469dfb32565b6e4dab3366318eb75e5950c5c230873ba860308aed9c353671da70ecfef361146688608577b3784b7be498f17f3aed6c43733896d698d12c6f"
+RPM_NAME = "gnubg-sounds-1.06.002-3.5.noarch.rpm"
+RPM_HASH = "2347a1bacc51e7db4b3bb795e1ba9fb6d889aa1b23fc3e6d44424102ba03c2eb5d71959802ceded43019be10f0c502b1ebfae58d9a06677f365767658121a4b5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnubg-sounds"

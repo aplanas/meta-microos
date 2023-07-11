@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.2.0"
 
-RPM_NAME = "sdbus-cpp-xml2cpp-1.2.0-1.5.aarch64.rpm"
-RPM_HASH = "d83f3f557de58b15c8593767dd9f07ba09ea4f9eca9ab9f369895831d0e5e928214becfb8f96e48b110fda9be7436189b939e1c77852a81b9c28ac6a44d88acb"
+RPM_NAME = "sdbus-cpp-xml2cpp-1.2.0-1.6.aarch64.rpm"
+RPM_HASH = "2cbf711282b0ea7f6de5b7631a508d6d3a0779f7b23692a631ec128b31142d0ae9f73c3837b4413b688fc9dee309fe9260724f4fd71ce817c71a5d5424e5d525"
 
 RPROVIDES:${PN} += "sdbus-cpp-xml2cpp"
 

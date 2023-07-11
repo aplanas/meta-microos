@@ -6,8 +6,8 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "0.5.12"
 
-RPM_NAME = "python39-PyMeeus-0.5.12-2.1.noarch.rpm"
-RPM_HASH = "97ca69d9cbaf990429d85ca78499f3e3db20cf2021ff6915db1abe71c3637c692fb6dfb0d4c232ee7acaa6908b0007544619175ad4f41c67dc2f10f04a8ca79c"
+RPM_NAME = "python39-PyMeeus-0.5.12-2.3.noarch.rpm"
+RPM_HASH = "fc185ac2299bc72690761c456692d68bfad79992ba49aac20b8e1bc19311e19f956c13813d268794662f3cebc603729aad99150fb30f376ddaf77354ac5e09db"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pymeeus \

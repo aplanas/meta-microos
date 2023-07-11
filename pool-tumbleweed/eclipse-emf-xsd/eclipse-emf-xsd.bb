@@ -7,8 +7,8 @@ LICENSE = "EPL-2.0"
 
 PV = "2.22.0"
 
-RPM_NAME = "eclipse-emf-xsd-2.22.0-3.5.noarch.rpm"
-RPM_HASH = "a61a3424fed70f7500271e9b40fde6fd19735eb6fee99d079f3c6dc831112c70f92d6fa4e20207930640b6d636750ff446c829584598e5f9677276dab9a9afbc"
+RPM_NAME = "eclipse-emf-xsd-2.22.0-3.6.noarch.rpm"
+RPM_HASH = "c6c26d264243442a8ee93cfc8bbefe6dbda1a72e7be4792ac66311a93dbe57e85c357f740b03b9270b979f48f94f11ca3b306fb57924af312a98ffd8c6704f8c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eclipse-emf-xsd \

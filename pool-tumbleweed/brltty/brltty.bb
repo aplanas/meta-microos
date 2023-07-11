@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "6.5"
 
-RPM_NAME = "brltty-6.5-2.4.aarch64.rpm"
-RPM_HASH = "5cdd0f2b595c381ba6c2b1eb9d0b27188eda7ed91c0eb0c1e87c06393d1f2922481d4ea2de96779fb2d1c7f66c656a245592de551b93b459e1e4001d75c7e4f4"
+RPM_NAME = "brltty-6.5-3.1.aarch64.rpm"
+RPM_HASH = "048b91cd2ef20362b3c74f91ee9fe28e9d6903b87b8f58d0d67ca1df8833423cec67305ea2c875b72b667109455bfb05944870591edf1fb6cd428d97d52fab85"
 
 RPROVIDES:${PN} += "brltty \
 config-brltty \

@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only | MPL-1.1 | LGPL-2.1-only"
 
 PV = "5.0.0"
 
-RPM_NAME = "mozilla-jss-5.0.0-2.6.aarch64.rpm"
-RPM_HASH = "22f1c3e3a27f51512a9eeb4075ea74b6aa103effd07d3b0bea6a1cdfc79839136f61a6e451330015a01837e5ae669689b3ca0e4a6e2e87968bd9c113f6c20447"
+RPM_NAME = "mozilla-jss-5.0.0-2.7.aarch64.rpm"
+RPM_HASH = "3177e56b8e87e44b7646b3845f8aa8fc942fa857305385014f63eca0db2d47394907bdd0ea89782d7c2cff79c3cd9643621dff200479f98e7f8184c052798aab"
 
 RPROVIDES:${PN} += "libjss.so \
 mozilla-jss"

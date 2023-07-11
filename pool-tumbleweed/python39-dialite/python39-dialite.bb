@@ -11,8 +11,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.5.3"
 
-RPM_NAME = "python39-dialite-0.5.3-1.11.noarch.rpm"
-RPM_HASH = "301a74c45a7cf371dc319671f7c99729d280058fa50c9fa41c2341168efccd6233dda18bfe2bf2e5ba3063f9f97c9e637d30a35488476ebceadc2a27cdf9196d"
+RPM_NAME = "python39-dialite-0.5.3-1.13.noarch.rpm"
+RPM_HASH = "dc03e3f0b0dae7039a49569446ca662d7e85d47aba5e2f9453089da2a331ae1e0e105bc0834a45a9c12c7a89fe428a0d2ca373eccb74cbdccfe82e4d909563e4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-dialite \

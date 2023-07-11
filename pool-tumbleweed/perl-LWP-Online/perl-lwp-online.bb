@@ -35,14 +35,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.08"
 
-RPM_NAME = "perl-LWP-Online-1.08-12.20.noarch.rpm"
-RPM_HASH = "03afd616f4665a2f444a5880b2c908c42d6e14fcb0cdd43f9fa0bb437e88350afee7bbf61d14bee629caea07c8f95cfa718754f6005b8c8702e6de2d6e651904"
+RPM_NAME = "perl-LWP-Online-1.08-12.21.noarch.rpm"
+RPM_HASH = "3ebf49858a024a9f4343df635f3924e0781379bb2b180f29d9a866eea8e541497e9e17abadf9b182de1866e542753038bb2651f42fe0041fde37ae5a4c531f6c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-LWP--Online \
 perl-LWP-Online"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-LWP--Simple \
 perl-URI"
 

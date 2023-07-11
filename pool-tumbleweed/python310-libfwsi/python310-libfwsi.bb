@@ -5,11 +5,10 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20230114"
 
-RPM_NAME = "python310-libfwsi-20230114-1.4.aarch64.rpm"
-RPM_HASH = "0126c467a64e897951d6ea1c0d231c9eca400ad3941d6d619fe2d989a7b442df0d080f4675e3ee66e4bf9618036ad9df4622f09728846e8253e76017406a26dc"
+RPM_NAME = "python310-libfwsi-20230114-1.7.aarch64.rpm"
+RPM_HASH = "168497504cfbcd8f0fbc54ce1ab2a68e7b8c1a4623f66f6de44d6be3a41626669ea720e34dbd125657b3458bf7f9b96f88e356b19bc17753121a9697b461b4f5"
 
-RPROVIDES:${PN} += "python3-libfwsi \
-python310-libfwsi"
+RPROVIDES:${PN} += "python310-libfwsi"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \

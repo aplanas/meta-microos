@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "2.20.2"
 
-RPM_NAME = "gtk2-engine-hcengine-2.20.2-19.42.aarch64.rpm"
-RPM_HASH = "6293204291087af2ba7f8022ba2c61683ea8451095e8fb6e2826c3af85076d59f6f751863bb7a553bf37c1c52e8c5e69184ae100fba4e91bbda3a5b22aa25fdd"
+RPM_NAME = "gtk2-engine-hcengine-2.20.2-19.43.aarch64.rpm"
+RPM_HASH = "c73696c7f60bc3193789f4e6181c00e5a59c55a335296ba52bd6674ec93d9b89fd696b8d10fd6c9dd0d5d62a246cea5e81d5ed39cdbdc6900d5c28fcc8039f27"
 
 RPROVIDES:${PN} += "gtk2-engine-hcengine \
 libhcengine.so"

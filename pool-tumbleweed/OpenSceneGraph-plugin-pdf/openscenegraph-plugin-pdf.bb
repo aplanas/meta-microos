@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-only-with-WxWindows-exception-3.1"
 
 PV = "3.6.5"
 
-RPM_NAME = "OpenSceneGraph-plugin-pdf-3.6.5-8.6.aarch64.rpm"
-RPM_HASH = "b424ffc984ee9df67f9a8ef071e09356613bc3673b755419d1673932af9b4779f9fc8e5a8c967c06dbe1097b13ba5a2b462527708050c261d95edf2bef9aa81b"
+RPM_NAME = "OpenSceneGraph-plugin-pdf-3.6.5-8.7.aarch64.rpm"
+RPM_HASH = "c0e933b89761f66c878e4b6daf84f159a324d40b947f41194bff536b1e4dfc57f8380d0dadef354196a3725357a04358e55bbba6d61cce45b928ee34c440430b"
 
 RPROVIDES:${PN} += "OpenSceneGraph-plugin-pdf \
 OpenSceneGraph-plugins-/usr/lib64/osgPlugins-3.6.5/osgdb-pdf.so \

@@ -11,8 +11,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "9.2.6"
 
-RPM_NAME = "vtk-devel-9.2.6-2.2.aarch64.rpm"
-RPM_HASH = "d72aa468a0252e01ab6a565e596f0845f5e60be0b551d55282a5ce87c343e70a354fa2a24d46bf76a2e3d7c770bd0166cbfc2b54cac6d7f864582e2dc950203d"
+RPM_NAME = "vtk-devel-9.2.6-2.5.aarch64.rpm"
+RPM_HASH = "98cf17722d4ebdd4a735f3aac887f988800799f400f2331393e3888c5c9cc7736c906c591bae16f1fa338e396375338a041eb3837b48f80fdb3abb4226a5504a"
 
 RPROVIDES:${PN} += "cmake-FindFont \
 cmake-vtk \

@@ -34,8 +34,8 @@ LICENSE = "MIT"
 
 PV = "0.6.2"
 
-RPM_NAME = "python39-port-for-0.6.2-1.7.noarch.rpm"
-RPM_HASH = "65a3c2efd1772681a05b6ca0b8069755bf2d4e36d389e0ada5569420f08319ae437ccd977ddc9f2d728332dc16d7acc1a8e2a2c9a1c22b23a6e29c3adc3e2b61"
+RPM_NAME = "python39-port-for-0.6.2-1.9.noarch.rpm"
+RPM_HASH = "4b1fadd64145d3045a553c0ddae8454a6484006780048768d5c8e8bc557cb3d54d32aac310d6cc76f2071be976161d483f6d1e7e7c8ca3f3df9ad2ff8acc8dff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-port-for \

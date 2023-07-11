@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0-with-LLVM-exception & NCSA"
 
 PV = "13.0.1"
 
-RPM_NAME = "llvm13-gold-13.0.1-9.1.aarch64.rpm"
-RPM_HASH = "e392b5c0e85714d48eb75a90b056cf1799332e9be02eace897150c05dd6f23e9c4477591fe0f27e38de170393415e4184f8791d2d588dca795dc6c7a9773ddeb"
+RPM_NAME = "llvm13-gold-13.0.1-10.1.aarch64.rpm"
+RPM_HASH = "af790e072a1353e8af029373e64638393fc04e2f912dfc1535664bd3acd571607eb8f42148e87ef6199fdf59d19fcf58178dd4be91d73caec1c26c977becf7ed"
 
 RPROVIDES:${PN} += "llvm-gold-provider \
 llvm13-gold"

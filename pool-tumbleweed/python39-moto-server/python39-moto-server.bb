@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "4.1.0"
 
-RPM_NAME = "python39-moto-server-4.1.0-1.5.noarch.rpm"
-RPM_HASH = "d5fafe44707d6ae7ab04d79e0cf406a2b7815812e1010c2090807c6afb6dd7a9eeaab1ec2fa2b719ad5f6ab2ae1aafba290d91356ad98c5426ddc96374afe624"
+RPM_NAME = "python39-moto-server-4.1.0-1.7.noarch.rpm"
+RPM_HASH = "d0539a0a0a96d82e5512347aee667e1f517581174c0a73a3921d982f5e452b7899fed3662555af07f9443ce10b1258aba47358cfb6bab7bae5ca83296d10c8df"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-moto-server"

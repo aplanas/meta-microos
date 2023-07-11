@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.201.1.03svn58997"
 
-RPM_NAME = "texlive-grundgesetze-2023.201.1.03svn58997-53.1.noarch.rpm"
-RPM_HASH = "7f9e8fc78ba2cc6ea38b0cea9b9c695c6b7f7660ff5cd40f6f1dffb3cf560deabd4d6df56c797e463a132a60995b55ac6e9c5bba4559308f3df2ae74aad58a18"
+RPM_NAME = "texlive-grundgesetze-2023.201.1.03svn58997-53.2.noarch.rpm"
+RPM_HASH = "138e756032cf55ffd4613987820a8e24bf91b692c4ef5605784a9b125db7c22a6e51a0403344a9184c5cc601d6f4f91fa5b1bb9e78b3960c16a412279227cd29"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-grundgesetze.sty \

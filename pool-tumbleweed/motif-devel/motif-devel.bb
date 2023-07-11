@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.3.8"
 
-RPM_NAME = "motif-devel-2.3.8-2.4.aarch64.rpm"
-RPM_HASH = "7773fad359335b49470e1b8c9210096503b4eaef10f78683d59f88d66326e99554a8ead1258ec1eaee5edfa089eda92923a5a0c1fed147f1fa2e13f12ab882ba"
+RPM_NAME = "motif-devel-2.3.8-2.5.aarch64.rpm"
+RPM_HASH = "e108c1e282b9e80b9e2d596ff72a42dbfac6ebe5cd1eb6cb9dd368751e1f72d665e51d14729de5a7e5cfa98d49cb98a7ff07628ab6c19b7dfe441a56541ee605"
 
 RPROVIDES:${PN} += "motif-devel \
 openmotif-devel"

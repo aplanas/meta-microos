@@ -8,12 +8,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.13.0"
 
-RPM_NAME = "python310-visvis-1.13.0-1.13.noarch.rpm"
-RPM_HASH = "c520d5984a0a1071bd2f1bb2c06dba1f51f0ed44672bfb15b4be281899e479d13d11bdb3b2973ba5cbd8c779eb08d64fe4cc8704a5806f767bb251faf1e0e588"
+RPM_NAME = "python310-visvis-1.13.0-1.15.noarch.rpm"
+RPM_HASH = "37eeeaff3051d7a5c21257a9a915d513f2f44debfecd82591c132236150386ea4efbda3c77e566448aedc9c2ce25190f014658fd6a83b4634187a3d917ce1c96"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-visvis \
-python3.10dist-visvis \
+RPROVIDES:${PN} += "python3.10dist-visvis \
 python310-visvis \
 python3dist-visvis"
 

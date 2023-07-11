@@ -11,8 +11,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.0.0~b3"
 
-RPM_NAME = "python39-Cython3-3.0.0~b3-1.1.aarch64.rpm"
-RPM_HASH = "632febcd286dd251b2b2fd3d457da9e2ae7a33e6e22abecd95981819d5e3ae60677ad30e5e5e880e6d446d2462f342320a3c465f47be8bcdb86d762177d2c1bd"
+RPM_NAME = "python39-Cython3-3.0.0~b3-1.3.aarch64.rpm"
+RPM_HASH = "e10b55f9ef14b94316030f6e3b0856ed050955054ddfb1477bc2d944c2d0cad778447a67d3a1df2d80bfab4f2827358d4ade208f8c0acd5d414f1ceae92a1790"
 
 RPROVIDES:${PN} += "python3.9dist-cython \
 python39-Cython \

@@ -11,10 +11,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0.0.3"
 
-RPM_NAME = "python311-pyerfa-2.0.0.3-1.1.aarch64.rpm"
-RPM_HASH = "139ccb04c6910f4735f25b643db425792294956ffad70591f6895fe81b9e177779f40e49e80f953ad83a88e4f0c96f80f2df51ae1a26e603a45d04c81fc497fe"
+RPM_NAME = "python311-pyerfa-2.0.0.3-1.3.aarch64.rpm"
+RPM_HASH = "342d0518ffeaaa7d197fd16a3e93e23ba28fb37a6d4659fe668ba0c4a5627c7a10d6c072170f24747e79a33a5b1dddbc632f98270e13aeaacab2662a66f06dd3"
 
-RPROVIDES:${PN} += "python3.11dist-pyerfa \
+RPROVIDES:${PN} += "python3-pyerfa \
+python3.11dist-pyerfa \
 python311-pyerfa \
 python3dist-pyerfa"
 

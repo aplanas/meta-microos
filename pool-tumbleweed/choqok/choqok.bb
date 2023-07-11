@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.7.0"
 
-RPM_NAME = "choqok-1.7.0-3.10.aarch64.rpm"
-RPM_HASH = "778546b247cb2d6fd6650f0c03debd0b41d8b5128be29d6520ccfb22469ddca45a729637e22e2ae7a4f43cf0b94b7406cbac15726b86a41e5f6ee41cee480b24"
+RPM_NAME = "choqok-1.7.0-3.11.aarch64.rpm"
+RPM_HASH = "a065c2ef46656015b4b108e35d11769d4be261d8e4ee5b6c8f1eee776dd05fad64ff7371dd33097d12ac08f68da63e18b3d0d89714397b504b9c0489f7e73822"
 
 RPROVIDES:${PN} += "choqok \
 libchoqok.so.1 \

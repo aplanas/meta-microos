@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.1.0"
 
-RPM_NAME = "python39-deprecation-2.1.0-2.12.noarch.rpm"
-RPM_HASH = "5b704272edd62cab9e8ce42968b9837f0b82c5527783223657f60533b3ba90084f146900d81a68cf1e4303e1b58c931ce4c54051cf2becf0252739410bf3c0ea"
+RPM_NAME = "python39-deprecation-2.1.0-2.14.noarch.rpm"
+RPM_HASH = "5ca699d6ea06d84c9ffb3a29ca9e951839cebe8c4a92ef6aa41672ca3082ec96babfd71b8485cc9de20ed88d113fc968f21fbf5221fa36bf4355d062e8dee6c6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-deprecation \

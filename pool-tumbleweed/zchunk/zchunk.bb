@@ -6,10 +6,10 @@ zchunk files are protected with strong checksums to verify that the file you \
 downloaded is in fact the file you wanted."
 LICENSE = "BSD-2-Clause & MIT"
 
-PV = "1.3.0"
+PV = "1.3.1"
 
-RPM_NAME = "zchunk-1.3.0-1.1.aarch64.rpm"
-RPM_HASH = "84f624504e0dd73b77ae0612d37e53ae14792224541cdffc0a59b521aecf2d6f0af896c5402b87f3e926515cc8a2bbf364533f8c34576369c1047a53298774f1"
+RPM_NAME = "zchunk-1.3.1-1.1.aarch64.rpm"
+RPM_HASH = "729b733408ff622ca5bbc259985d2c112bf685ad8bd9e596aeef7ccc626460bc96e9edf21a5c329be26ffd02c5d3b2d5d0a84e6844d8b38f8d64f61796128cfa"
 
 RPROVIDES:${PN} += "bundled-buzhash-urlblock \
 zchunk"

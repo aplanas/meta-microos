@@ -10,10 +10,10 @@ file (php.ini). \
 Additional documentation is available in package php-doc."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.1.19"
+PV = "8.2.7"
 
-RPM_NAME = "php8-cli-8.1.19-2.2.aarch64.rpm"
-RPM_HASH = "08966ee4b625e5b66f2b02ed89691ec69473981164b213bd4f7a8837a5f57dbef06c106fed8b5f8e1bff44467cb30a836cd89f42b933d27a008d3308bcd415d1"
+RPM_NAME = "php8-cli-8.2.7-1.1.aarch64.rpm"
+RPM_HASH = "b17231e236de41c3a33c0a67c793705661441dd5d37e910941d83690451a1f8f75c93f57551d7129f12d743ae168814141a154a5bbc91ea7dcb4dd4ad041c1db"
 
 RPROVIDES:${PN} += "config-php8-cli \
 php-cli \

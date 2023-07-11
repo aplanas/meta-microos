@@ -2,14 +2,13 @@ SUMMARY = "The jupyterlab_server[openapi]] extra"
 DESCRIPTION = "Metapackage for the jupyterlab_server[openapi] extra"
 LICENSE = "BSD-3-Clause"
 
-PV = "2.22.1"
+PV = "2.23.0"
 
-RPM_NAME = "python310-jupyterlab-server-openapi-2.22.1-1.2.noarch.rpm"
-RPM_HASH = "00ad9405cd2fec5c67e70936c2005624fc8e258c1a800f2c02752b6dfc6b10c7784ba0ca30b905d7466678a49f70ab6a419c6535e2a5aa2817889d819da51c2a"
+RPM_NAME = "python310-jupyterlab-server-openapi-2.23.0-1.3.noarch.rpm"
+RPM_HASH = "4f3c7c4751f6ead29f4ff00169479a1154826f54285852b3ec2d07c247a6f2e58cfc778f3f78e275fe2ad6365bfb2b0ec87f6f91fc67275bba75eadb24578fb5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-jupyterlab-server-openapi \
-python310-jupyterlab-server-openapi"
+RPROVIDES:${PN} += "python310-jupyterlab-server-openapi"
 
 RDEPENDS:${PN} += "-python310-openapi-core >= 0.16.1 with python310-openapi-core < 0.17 \
 python310-jupyterlab-server \

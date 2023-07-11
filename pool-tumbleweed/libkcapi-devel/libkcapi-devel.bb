@@ -17,8 +17,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.4.0"
 
-RPM_NAME = "libkcapi-devel-1.4.0-2.3.aarch64.rpm"
-RPM_HASH = "ebc97ae76a706f9ae3490d99e1a11202d908a8eae1434ee43fa91b6b5d0ee357a75de3777a264cf0f0b7e0cf7472276a1df4eae9c66b53bca4a14c4f57f251e0"
+RPM_NAME = "libkcapi-devel-1.4.0-2.5.aarch64.rpm"
+RPM_HASH = "45bc1cc82b26a7ffbd1632cc1db2af70c34dba4e5816b8b36f8dd1beb69f99e927122600a0cc32fc1ddfd581c45d3a87a3b461621c79c596df97d1268b6276d7"
 
 RPROVIDES:${PN} += "libkcapi-devel \
 pkgconfig-libkcapi"

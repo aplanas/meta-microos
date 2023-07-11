@@ -6,8 +6,8 @@ LICENSE = "OpenSSL"
 
 PV = "3.7.0"
 
-RPM_NAME = "libssl53-3.7.0-1.2.aarch64.rpm"
-RPM_HASH = "dbe16e3b500a18465f90cee7482ca8defebc712b56a52714521da6db9da962da6b50de23960c24baa5503d17f8cc02f20496a3869514c4a9a90108f989a295bf"
+RPM_NAME = "libssl53-3.7.0-1.3.aarch64.rpm"
+RPM_HASH = "50170d4c4acda09554478991b06afc78bcb5fd985a2efba7866a2bed245a366fac8cb7ad0e5e6fe2b5893db723b5e63a2e8de23a20caa438a84fdf893db9fedf"
 
 RPROVIDES:${PN} += "libssl.so.53 \
 libssl53"

@@ -4,14 +4,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.0001"
 
-RPM_NAME = "perl-Passwd-Keyring-KDEWallet-1.0001-1.11.noarch.rpm"
-RPM_HASH = "5afed0c03d98828a7277c1acdd0b071f495f1c7c5cbf9547f2b936f74b08f5557170a7f2f275afb76bb257f702ee40feafe47bf099da7009f6b3771348700970"
+RPM_NAME = "perl-Passwd-Keyring-KDEWallet-1.0001-1.12.noarch.rpm"
+RPM_HASH = "b64a0978a1c54aa239ff2e1a38e7038a9907e4014bb2320a8909e834c0f9935224c6edc03638519d266cc53a1104516b636df325703fad1456ff67aa83b0b958"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Passwd--Keyring--KDEWallet \
 perl-Passwd-Keyring-KDEWallet"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-File--ShareDir \
 perl-Net--DBus \
 perl-Proc--SyncExec \

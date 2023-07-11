@@ -4,10 +4,10 @@ include files and documentation. These are used to compile against \
 the libopeniscsiusr library."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.1.8"
+PV = "2.1.9"
 
-RPM_NAME = "open-iscsi-devel-2.1.8-99.1.aarch64.rpm"
-RPM_HASH = "69417759615590e9be93b7d9af6f8f74dbf7be2077e4351493f2d5f4678d354d0fe9ce04ec7e521f554296e6db9b24d825af4ca15e6e6d1ce72691ec885fa722"
+RPM_NAME = "open-iscsi-devel-2.1.9-101.1.aarch64.rpm"
+RPM_HASH = "14d298f8fdd57476306f63b46002cc2552ab85483f48d68948bb38bda8d55d6948b877e3f02087df24078682f3f22823070d53f6e02d6ce2075091979041e953"
 
 RPROVIDES:${PN} += "open-iscsi-devel \
 pkgconfig-libopeniscsiusr"

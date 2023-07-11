@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.3.1"
 
-RPM_NAME = "yum-utils-4.3.1-2.1.noarch.rpm"
-RPM_HASH = "8811670c825d79f4caa2bf16cd42fb5c712ab6f55b7b397acb8dfd559a2629d5e29a38ceba3a7450afa64eedd8d3cd2c41ca26a3a21ef79eac1d0e00c209113a"
+RPM_NAME = "yum-utils-4.3.1-2.2.noarch.rpm"
+RPM_HASH = "7adab0ebb3c7e389884d746dfe1b1acf53c4451ecf7562cacd9b35b90f9a52be7fb23627b6210113c22ba46e1a260bd2c763cf22fea11020d426436a33126de2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dnf-utils \

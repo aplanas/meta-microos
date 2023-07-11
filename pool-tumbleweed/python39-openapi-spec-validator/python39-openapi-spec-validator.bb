@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.5.6"
 
-RPM_NAME = "python39-openapi-spec-validator-0.5.6-1.1.noarch.rpm"
-RPM_HASH = "0f276e952a8f19b20a5ad2fbb90e0f61c46d3ff256d4200d844f9f5140aec04047867bda687bafab365c81e47bcea7363bb343ffbd5931e7bab5e904057afd8a"
+RPM_NAME = "python39-openapi-spec-validator-0.5.6-2.2.noarch.rpm"
+RPM_HASH = "f1ed0d6fbf13fa5b42c347f64085328ba11fc9a15ab5349f895fca668c073d8640ddd0eaba80bf855a9640b2e92c741f41e14754db6920e780af853b7b971689"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-openapi-spec-validator \

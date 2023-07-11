@@ -14,8 +14,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.2.6"
 
-RPM_NAME = "libcourier-unicode7-2.2.6-1.3.aarch64.rpm"
-RPM_HASH = "25f09be853b3e2c33db60cca7cb863d26e178d912dfa0a96dc797e7711a38149d9344cde4a11e8894e4c939c54a0fe6d40349d8a3d4610246fb01aeb3c5e4a08"
+RPM_NAME = "libcourier-unicode7-2.2.6-1.4.aarch64.rpm"
+RPM_HASH = "7de749ed81578f4aa40fcd3a08d89098e62bd2eefbde11eeecbfe162beea72a28568c66a2908747c4b6c797919071c3b96a8848c4c8d1b60ff13de1b0e9c02f9"
 
 RPROVIDES:${PN} += "libcourier-unicode.so.7 \
 libcourier-unicode7"

@@ -4,8 +4,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-poshuku-webengineview-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "3d20f9af10951047bd9f1f6c09dabe19a3a6384f4eaf45ff4de5455e320d6208d33cca4f67c644edb0b182d12cebddb584d080de39f9ec5975a0ef6de7c87d2a"
+RPM_NAME = "leechcraft-poshuku-webengineview-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "75d8bc24dd0b44d9ee7db2f002f56566d94f3d1fc5a64fe0e856b86704578843017d73761ecc5ae410c0e03904b9eb19294ea40a671b3b535f80a566a692698b"
 
 RPROVIDES:${PN} += "leechcraft-poshuku-backend \
 leechcraft-poshuku-webengineview \

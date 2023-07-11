@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-only & GPL-3.0-or-later"
 
 PV = "5.2.0"
 
-RPM_NAME = "prelude-manager-snmp-plugin-5.2.0-2.10.aarch64.rpm"
-RPM_HASH = "7b92c8207a025db847a44c870248a41e2e6117d6260b58642480f2210e8c60979d2436df338badd609b85df5236313e628d7833974c58737fc7827e31bfffe0e"
+RPM_NAME = "prelude-manager-snmp-plugin-5.2.0-2.11.aarch64.rpm"
+RPM_HASH = "d9b7494c4c17b916961b234a51043ab6d7839e6c2ce0377a32c5a28f1162e86e4a006798c91caab95b5f4120eb051510231b6d7380ff535d68d30046b2bbfffd"
 
 RPROVIDES:${PN} += "prelude-manager-snmp-plugin"
 

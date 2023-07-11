@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "16.1"
 
-RPM_NAME = "pulseaudio-16.1-3.1.aarch64.rpm"
-RPM_HASH = "8f5f9015e5030a1fe33d8e2415759e796c642d6c7387a2fa801220efbad86cf1476df0c1ded6a3b552985f8af15dc66008b3265f15fcc51fd8104574dcea7249"
+RPM_NAME = "pulseaudio-16.1-4.1.aarch64.rpm"
+RPM_HASH = "1aeb76cd07df74e8a754c070aac5eddf847c2aeb43645254ff99d9a789aaf2b0f5deefac5f9ad66e5adc044f9c82e63b481c39dc950bb51e847381ee687cddec"
 
 RPROVIDES:${PN} += "config-pulseaudio \
 libalsa-util.so \

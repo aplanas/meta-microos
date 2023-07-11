@@ -6,12 +6,11 @@ LICENSE = "ISC"
 
 PV = "3.0.22"
 
-RPM_NAME = "python310-ptpython-ptipython-3.0.22-1.4.noarch.rpm"
-RPM_HASH = "ff83d575d21adcfbb03936ad86883e8810e96b67452931ceac094bf4b030d4cfa6f81dd0b2dfcfd0b6cf9eba7407229172e54179bf9596ec360eedb0f238addd"
+RPM_NAME = "python310-ptpython-ptipython-3.0.22-1.6.noarch.rpm"
+RPM_HASH = "93937bb3af04fa4e64748a164e51ec9cd4e2d006f665f53f6e83218acf93130dcc3199c5ff763bf0a13bd7414e4f715216f5268467b777c80a41d6efb46f33e7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-ptpython-ptipython \
-python310-ptpython-ptipython"
+RPROVIDES:${PN} += "python310-ptpython-ptipython"
 
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
 /usr/bin/sh \

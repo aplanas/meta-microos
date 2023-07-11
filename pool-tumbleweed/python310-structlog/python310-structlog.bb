@@ -9,12 +9,11 @@ LICENSE = "Apache-2.0 | MIT"
 
 PV = "22.1.0"
 
-RPM_NAME = "python310-structlog-22.1.0-2.3.noarch.rpm"
-RPM_HASH = "8d9cca952437012bae6ac63456df047f089c69ab1b5c5d655146d2afded32fbd64a7d20a2ee8e891eeff0811f89c0b6c3198395fc1ff1dee03b969997f40769d"
+RPM_NAME = "python310-structlog-22.1.0-2.5.noarch.rpm"
+RPM_HASH = "9b861a5958d5cd9088ad588bfe9e4ec3df4c5797f90a35b8eaecb075752916930e8af26fb0fe9fff6251a87a05100c3f266ef970884949c0f5d56f73cbb5fd4c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-structlog \
-python3.10dist-structlog \
+RPROVIDES:${PN} += "python3.10dist-structlog \
 python310-structlog \
 python3dist-structlog"
 

@@ -6,10 +6,10 @@ allows asking the window manager to change the using a more high-level \
 interface than the NETWinInfo/NETRootInfo low-level classes."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "libKF5WindowSystem5-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "9f3e7c44f96250be2572ac26c79f3abf672e4508df2153bace676a23ed05e48097686983e93440f940a12f3b3b49275a43843a240d53a3515e5cf0378b010702"
+RPM_NAME = "libKF5WindowSystem5-5.107.0-1.1.aarch64.rpm"
+RPM_HASH = "7d1cdead16f862e3360e2fa05b034bcc0e75628bc92618cd25d44fdf1430b7fac9bc2a6a40cc4098c6685f409b3ffd7624f3beee5d54528d802776267972209b"
 
 RPROVIDES:${PN} += "libKF5WindowSystem.so.5 \
 libKF5WindowSystem5"

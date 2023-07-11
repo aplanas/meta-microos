@@ -8,11 +8,11 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "3.25.0"
 
-RPM_NAME = "python3-louis-3.25.0-1.1.aarch64.rpm"
-RPM_HASH = "66b3936434d7107076f928614d8e0433c6271cb7898e9281df73fc19719f10b024423e473600142439b15f22dee3295bf156a326f5c6ff66f8c4a8cd39026f04"
+RPM_NAME = "python3-louis-3.25.0-1.2.aarch64.rpm"
+RPM_HASH = "7630e8100b0d7614065abf0f86a96982ffa248690708e0e157f5e044f4991ca8d8808a8819fef0a958165340d41e491748d7f415b64d8383408ef8b0bd870d93"
 
 RPROVIDES:${PN} += "python3-louis \
-python3.10dist-louis \
+python3.11dist-louis \
 python3dist-louis"
 
 RDEPENDS:${PN} += "liblouis20 \

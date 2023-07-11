@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "3.0.0"
 
-RPM_NAME = "python311-graphene-django-3.0.0-1.4.noarch.rpm"
-RPM_HASH = "b88d9a9731c178349cfbda9bcc788dbe27e1750d0c8532a4003b605ae4607382c64d28e49674da2f14192258263070d30cee8e1d78cd6404604c62b9f8d56219"
+RPM_NAME = "python311-graphene-django-3.0.0-1.7.noarch.rpm"
+RPM_HASH = "212dbfbb8a1880520a52d8d6ec8a73071f850d2cf88c95127e4db3565de3ca3dd3eef44078b55646efea517f659d2beecddfbdecfec428dd3e88a307f6894755"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-graphene-django \
+RPROVIDES:${PN} += "python3-graphene-django \
+python3.11dist-graphene-django \
 python311-graphene-django \
 python3dist-graphene-django"
 

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.0"
 
-RPM_NAME = "python39-hvac-1.1.0-1.2.noarch.rpm"
-RPM_HASH = "87af2408513055c6bb9f9446f3a629f71cf5d2d5115d840aa59bc9060a77b1b232cbcfc42048dee03f3bc2d2f990b30e7a9087674bfa47ed820211272d44eb34"
+RPM_NAME = "python39-hvac-1.1.0-1.4.noarch.rpm"
+RPM_HASH = "cfd372158a5233323aba35d21f61e4efb8e2bccdc5d5be87bd049650e525d0043ed4ff8b8206c460e2f9e9dbfe1778d8aad5189d8cdbc00bcc6decbf934f9efb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-hvac \

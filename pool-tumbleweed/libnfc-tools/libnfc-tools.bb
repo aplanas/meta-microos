@@ -11,8 +11,8 @@ LICENSE = "LGPL-3.0-or-later & GPL-2.0-or-later"
 
 PV = "1.8.0"
 
-RPM_NAME = "libnfc-tools-1.8.0-1.12.aarch64.rpm"
-RPM_HASH = "3f724abb876fa053259e86b76e35f30af562be7df1ebf66603505e69aa84b129fffcc8cc7aba0abb2ab5661fbe3eddf7fa4b5918ae275df75ab7fdd2c8869761"
+RPM_NAME = "libnfc-tools-1.8.0-1.13.aarch64.rpm"
+RPM_HASH = "6455b4cf7d2f616ffd33d9480678ef3caa964309ba1e3a638dd6cea86b6428044b7e9c3e659aba43a26b533192363b86c9bd9e26a4c71adf51a678ddd9a3fdb3"
 
 RPROVIDES:${PN} += "libnfc-tools"
 

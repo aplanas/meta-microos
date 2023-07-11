@@ -33,8 +33,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.10.0"
 
-RPM_NAME = "python39-scandir-1.10.0-4.1.aarch64.rpm"
-RPM_HASH = "d4c8da3f6795fbcc2287b7587d2b976297bed19c009c279a125281c0a6761f556f0e616da3255b87c9ab2bf967c0cfd0599321c975ac6c56f2deabda4b3edf2f"
+RPM_NAME = "python39-scandir-1.10.0-4.3.aarch64.rpm"
+RPM_HASH = "4b0315f9419ed3ea826f861b4cd0cfa661e39131fcceff9044057417053a079c5753bbfad523f58bc8921a548e6ac7787647f7cbf1e8021572649e37bbf38db2"
 
 RPROVIDES:${PN} += "python3.9dist-scandir \
 python39-scandir \

@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
 PV = "4.2.0"
 
-RPM_NAME = "sdcc-4.2.0-1.3.aarch64.rpm"
-RPM_HASH = "e9bdc5c14a50d77352a17ce939ec11bed0fe8cf108b91bb07e42bd884c507299d873c488dfcbe1c645bbc78c1c1e69b480ff3d1b7f3a46994a40336084e0f42d"
+RPM_NAME = "sdcc-4.2.0-1.4.aarch64.rpm"
+RPM_HASH = "0af15b771e7b64662ffc627739ccaef2f903fb3637be1557dce45664ef9e8591f05bcc0705ac6052896f19c2483a5a15669c1cba99e55ec228fba11c0442536a"
 
 RPROVIDES:${PN} += "sdcc"
 

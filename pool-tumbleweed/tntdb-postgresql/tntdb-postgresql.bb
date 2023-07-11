@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.4"
 
-RPM_NAME = "tntdb-postgresql-1.4-1.12.aarch64.rpm"
-RPM_HASH = "8d14f66ccc4041f0de4f8c245593edea8dc8cd3f9436428857455ee8011d44d349fe21ca0aaed1ccd5c6bc3fd6b42b8e0050a901a89d25cbdd67c69bd3ca1f38"
+RPM_NAME = "tntdb-postgresql-1.4-1.13.aarch64.rpm"
+RPM_HASH = "3e013286d943bcf0216cd3e20cc0d9e8e4c93b56c3aa436ff0c6c734ec2bea5f74d2949b04ea6a74697422ceadd1beb4290217b45f675fd10a5409666aa4360c"
 
 RPROVIDES:${PN} += "tntdb-postgresql"
 

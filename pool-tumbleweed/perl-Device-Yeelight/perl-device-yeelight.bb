@@ -4,15 +4,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.13"
 
-RPM_NAME = "perl-Device-Yeelight-0.13-1.9.noarch.rpm"
-RPM_HASH = "927ccbd4874d33acb5a9eb8915e859ddfdd0bb34a9902330f74e62a9730506e4a157a00f41196cd7892915a6f55bb297d66cc2868ca1d38a517d665bd349f6d2"
+RPM_NAME = "perl-Device-Yeelight-0.13-1.10.noarch.rpm"
+RPM_HASH = "97d3145ee95315fff1ba0cbc1ac3c8590e73c915b5f40385b18b03ef6c94ed2d473389b9aadbf8bc507b036cd6331cbfc35bc21c391021754a0f8bed8777534e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Device--Yeelight \
 perl-Device--Yeelight--Light \
 perl-Device-Yeelight"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-IO \
 perl-IO--Socket--Multicast \
 perl-JSON"

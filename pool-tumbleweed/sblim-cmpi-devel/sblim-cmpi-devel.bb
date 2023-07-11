@@ -7,8 +7,8 @@ LICENSE = "EPL-1.0"
 
 PV = "2.0.3"
 
-RPM_NAME = "sblim-cmpi-devel-2.0.3-8.26.aarch64.rpm"
-RPM_HASH = "6236dff43053e8a2d462f774995f9397d1df5cdb3f0e3e39511e5648364e7da353bb77c0a6b789850099888872dc2d55fd04fecaabf12b2466b0da01b3a305b1"
+RPM_NAME = "sblim-cmpi-devel-2.0.3-8.27.aarch64.rpm"
+RPM_HASH = "ccc71db12837c84c93f4b778c88e98eec48939ea40d86c622b014b63a57189437357451cb92cf3923545d08a559cd0148510beb75cd11371108f0e485a47701c"
 
 RPROVIDES:${PN} += "cmpi-devel \
 sblim-cmpi-devel"

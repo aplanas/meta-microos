@@ -10,11 +10,10 @@ LICENSE = "MIT"
 
 PV = "2.6.0"
 
-RPM_NAME = "python310-tesserocr-2.6.0-1.4.aarch64.rpm"
-RPM_HASH = "c54d6ef1c8da681f5b369e3a77012ef65fab895b49abc866ecaf94cea342bc3d43725698a017cbe167e7a4cb646389819e21fee37f7044ef9f44768f15d463cd"
+RPM_NAME = "python310-tesserocr-2.6.0-2.3.aarch64.rpm"
+RPM_HASH = "7d95c61be95ea58e67dd354dd2b1ca8db1af56e6e9e2db1f788e72ffe6ced74866e3118aa6f3840b9b5992871b6cb45e7fc84417d4aa524964e4a16f7d449e89"
 
-RPROVIDES:${PN} += "python3-tesserocr \
-python3.10dist-tesserocr \
+RPROVIDES:${PN} += "python3.10dist-tesserocr \
 python310-tesserocr \
 python3dist-tesserocr"
 
@@ -23,7 +22,7 @@ libc.so.6 \
 libgcc-s.so.1 \
 libleptonica.so.6 \
 libstdc++.so.6 \
-libtesseract.so.5.3.0 \
+libtesseract.so.5 \
 python-abi \
 tesseract-ocr-traineddata-english \
 tesseract-ocr-traineddata-orientation-and-script-detection"

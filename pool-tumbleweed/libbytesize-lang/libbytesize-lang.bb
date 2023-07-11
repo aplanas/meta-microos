@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "2.8"
 
-RPM_NAME = "libbytesize-lang-2.8-1.1.noarch.rpm"
-RPM_HASH = "a5e4184885e8731b7bd830213f369334a60a57e898dd9d5b496b64d5b41fc431fec6170aa79144222baf631b7e5ed05b0df5e08068fbef8fb2803969660c40b6"
+RPM_NAME = "libbytesize-lang-2.8-1.2.noarch.rpm"
+RPM_HASH = "13321642f632ff6d349d287a991b5a528efc9e3cd65a3479643c87f7017e59b7ebdb34d85f1db29a19473fe2364d5a41221613a2e53326d9a8882b15614341e6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libbytesize-lang \

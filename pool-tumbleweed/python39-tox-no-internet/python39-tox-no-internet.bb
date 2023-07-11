@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.1.0"
 
-RPM_NAME = "python39-tox-no-internet-0.1.0-1.14.noarch.rpm"
-RPM_HASH = "159383337ec7b2e6b1d7c1d7e64c8f5846d9038a39c5da3a0a40d4d1706fe177673a970d428f5ec832a78f8e506bff9088a38e02ab63f3e696cf733bcae87bdf"
+RPM_NAME = "python39-tox-no-internet-0.1.0-1.15.noarch.rpm"
+RPM_HASH = "5656c9a9a1d2b9cd44ae06fea8c1b21eb8e03f8559e105c8d0345904cd907a66f0424d8a9111d2ce7ec92cbf1be10715444b936014df42be7c4d55ea1c569a0d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-tox-no-internet \

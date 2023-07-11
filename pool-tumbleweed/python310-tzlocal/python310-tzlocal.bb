@@ -17,12 +17,11 @@ LICENSE = "MIT"
 
 PV = "4.3"
 
-RPM_NAME = "python310-tzlocal-4.3-1.1.noarch.rpm"
-RPM_HASH = "a34aab1712047a9921abc474164153457c5b00a26e08e3ca124deafcdb093e1e6a3cfa7698003c11b7976bb581eff2eef677a71ddc293fa458f51a52fd1b809e"
+RPM_NAME = "python310-tzlocal-4.3-1.3.noarch.rpm"
+RPM_HASH = "878ee248fbf6df0c838f6c0475be0626bfe8e5162c761c0e7ef913b6b3b3902d65771737d7b87db18c0b03a11e3a0966997309e313513adb46ebd4b36c7777e4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-tzlocal \
-python3.10dist-tzlocal \
+RPROVIDES:${PN} += "python3.10dist-tzlocal \
 python310-tzlocal \
 python3dist-tzlocal"
 

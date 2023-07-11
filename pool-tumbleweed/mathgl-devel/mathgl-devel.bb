@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "8.0.1"
 
-RPM_NAME = "mathgl-devel-8.0.1-3.3.aarch64.rpm"
-RPM_HASH = "d1b970f9d44ca47a99872cec4bcc4c794d4a34af5f4689b21bde7d14d38998153865dce8d74e64ed9ea97ff5c2fd3e47fe91a9883e0f88ea90c9dce9d9fcd385"
+RPM_NAME = "mathgl-devel-8.0.1-4.2.aarch64.rpm"
+RPM_HASH = "2910f93cb56ad436a4fc5c3ef4386b44bf52567bf219f88d6f26415f30bc4e34b6bf468e97d2cb51f6f09e1da52d3ff18cfd8e4aa37e069d8bf05c07f4922d5f"
 
 RPROVIDES:${PN} += "cmake-MathGL2 \
 cmake-mathgl2 \

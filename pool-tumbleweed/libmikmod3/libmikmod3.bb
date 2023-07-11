@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.3.11.1"
 
-RPM_NAME = "libmikmod3-3.3.11.1-1.15.aarch64.rpm"
-RPM_HASH = "5687ae1797aa61d1778f28955d2d6458ce299da12943bcca829e1e7c8ca17e4eb999f8e7ecf1f2792fc32b1e23f0331a801f43f103b538515030c811d1ad9494"
+RPM_NAME = "libmikmod3-3.3.11.1-1.16.aarch64.rpm"
+RPM_HASH = "a5adaf1c3075fe72afdfa345c05b9dfb0f5febecdbe4babef6eff5969f83e6889479ebe0953481c8455961f695b6846eee468dbd530077dcf0efb2ab3287efa6"
 
 RPROVIDES:${PN} += "libmikmod.so.3 \
 libmikmod3"

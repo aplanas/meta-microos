@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.7.5+svn613"
 
-RPM_NAME = "liba52-0-0.7.5+svn613-3.16.aarch64.rpm"
-RPM_HASH = "d3e1cea26db6385c22408b4e7636d95fd8ddfdd5979f5ce14577eaf580c60d6ccf44fbd9506f348379e7789572a5a65b876776b73ed562a3d2e3eb3ca8ddf7f6"
+RPM_NAME = "liba52-0-0.7.5+svn613-3.17.aarch64.rpm"
+RPM_HASH = "71b7b2bdbcf3f669adb916c7ef16bf9b0e6d4a534cabc3024e869ca36cfcf6c6cd67db72074aa8416856b8a5514bf35588f4167fccaa8a31dc881ced05407179"
 
 RPROVIDES:${PN} += "liba52 \
 liba52-0 \

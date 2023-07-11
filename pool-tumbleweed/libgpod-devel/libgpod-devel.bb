@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.8.3"
 
-RPM_NAME = "libgpod-devel-0.8.3-12.5.aarch64.rpm"
-RPM_HASH = "43e09b2429f096354e6ef63312afb200d8833445fff62a0ab10ec670407ff9d5c67a6d647fe95bb00a3373aa645c241f9421a66a414e023b53389020f6b85a03"
+RPM_NAME = "libgpod-devel-0.8.3-12.7.aarch64.rpm"
+RPM_HASH = "56245d8ef69d2b6ee9c62d302fbe0c26bef642a1dfc18edc4fc3e0c04d4356d37d3fbc38a16aa859f7b36ecf448ac386d252fa47aad412edbd0991c330334207"
 
 RPROVIDES:${PN} += "libgpod-devel \
 pkgconfig-libgpod-1.0"

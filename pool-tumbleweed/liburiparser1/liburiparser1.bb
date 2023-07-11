@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.9.7"
 
-RPM_NAME = "liburiparser1-0.9.7-1.3.aarch64.rpm"
-RPM_HASH = "90d55b9616f22345aba00deaade58ce6f96b1887fccb1582bae91c3357dc3b71a29781b241793c0afa2181a842402c7db28ba19ff80c4f23ed0172b57f6e9391"
+RPM_NAME = "liburiparser1-0.9.7-1.4.aarch64.rpm"
+RPM_HASH = "6a69f3577d479d14e8e236fce11b5549cb82899c3f19672fe7cc5720582e5808090a484016e0329c64160f2662e90486bc6d46e4b9d1cd6537592ae2e466e586"
 
 RPROVIDES:${PN} += "liburiparser.so.1 \
 liburiparser1"

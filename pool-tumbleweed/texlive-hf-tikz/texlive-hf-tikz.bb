@@ -5,8 +5,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.3asvn34733"
 
-RPM_NAME = "texlive-hf-tikz-2023.201.0.0.3asvn34733-53.1.noarch.rpm"
-RPM_HASH = "46b6b637e4f08f6a8f1ffb34e1beff738b8201e93f77cca924be5046a3f7857ae99239ddc158eb5c0e0dae310026da26dfae1fcad0aaaf29a3be33cb47fd44ac"
+RPM_NAME = "texlive-hf-tikz-2023.201.0.0.3asvn34733-53.2.noarch.rpm"
+RPM_HASH = "e2c44b06d043ed1c695d2c6a1e31fe3e1191637bf7fa529414a8b0e949578a2179bd7d3b63157f5e7e23c7f7f46890ad72908afeafe80ea4dfa9719e44820353"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hf-tikz.sty \

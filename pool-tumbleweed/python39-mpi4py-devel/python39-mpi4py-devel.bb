@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "3.1.4"
 
-RPM_NAME = "python39-mpi4py-devel-3.1.4-2.5.aarch64.rpm"
-RPM_HASH = "af04eb8842d3ce297fb5b000c6418ed4e9dc7efe06e78c0e779935e6c3c5ccb38b713668e15b07b988e66e973f348506a58a7b464ad0db0bde4c4a3f763147d9"
+RPM_NAME = "python39-mpi4py-devel-3.1.4-2.7.aarch64.rpm"
+RPM_HASH = "d82fbb141a554461d5ff87d6dd9455fe009b4abccd4075c2f203086676bbbf223f7546e3ca141e95bf619519071c5da28e9fbc23368c2ff5c50b3adc0a79a43d"
 
 RPROVIDES:${PN} += "python39-mpi4py-devel"
 

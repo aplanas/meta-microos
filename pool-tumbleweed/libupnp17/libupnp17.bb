@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.14.17"
 
-RPM_NAME = "libupnp17-1.14.17-1.1.aarch64.rpm"
-RPM_HASH = "f5dbf4d60bcdf85aec8ecc693596c6c91f754c159a4bc7533a77e0b4f1b242bf32b6a023fcd1560c5013744e0d30ba36851ee26ff5ea33122e4a9dd2dad9177b"
+RPM_NAME = "libupnp17-1.14.17-1.2.aarch64.rpm"
+RPM_HASH = "baf75bea84e5b33a9b41aa00e7158433a5d4d1dfb0302b8f1164b1b9616e64e87e929318c0c8b03cf7a2c29ae147c6d74be3dbc76e27442f71f81050a0a18310"
 
 RPROVIDES:${PN} += "libupnp.so.17 \
 libupnp17"

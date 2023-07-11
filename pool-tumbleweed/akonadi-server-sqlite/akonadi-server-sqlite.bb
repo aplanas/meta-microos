@@ -2,10 +2,10 @@ SUMMARY = "akonadi server's SQlite plugin"
 DESCRIPTION = "Akonadi server's SQlite plugin."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "akonadi-server-sqlite-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "f0e6c7ad3515eb149d781111e1df73acfa2e8ec2ceae5e85ec20fccf96f3f9c3f820a37bf40c714096045ceb382e0fcd17e81c93a8b48f58efb26a9a3d514ea5"
+RPM_NAME = "akonadi-server-sqlite-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "340a22a04c0120a8df2d2cd610d6dc6dc161eef58df2395871965b5e761cebc174def2d1b67c63ff4dfe2be148cfb2b4a1cdc809a582607b4889859a1bf0f4b0"
 
 RPROVIDES:${PN} += "akonadi-server-sqlite \
 libqsqlite3.so"

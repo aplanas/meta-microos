@@ -2,10 +2,10 @@ SUMMARY = "Translations for package plasma5-disks"
 DESCRIPTION = "Provides translations for the 'plasma5-disks' package."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "plasma5-disks-lang-5.27.5-1.1.noarch.rpm"
-RPM_HASH = "07da43dfb36eea3584ae3c0b2f86e9e71ca8bba612ef9b53c03abaa0383a44f24f5ce97b27608997e92e68cd631d4d96a9fff1a5412d93c9331d3f3105668dba"
+RPM_NAME = "plasma5-disks-lang-5.27.6-1.1.noarch.rpm"
+RPM_HASH = "29625fc4a372ed4198bfe5f66f48948986e3c87b19c555868ce560879b894badc2e94bf9b94e6c41be1fbd6cfb681eaa151fdc0c737f8dc4d65347a924c502b9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-plasma5-disks-az \
@@ -22,6 +22,7 @@ locale-plasma5-disks-et \
 locale-plasma5-disks-eu \
 locale-plasma5-disks-fi \
 locale-plasma5-disks-fr \
+locale-plasma5-disks-gl \
 locale-plasma5-disks-hu \
 locale-plasma5-disks-ia \
 locale-plasma5-disks-id \

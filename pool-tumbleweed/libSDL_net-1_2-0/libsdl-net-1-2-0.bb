@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "1.2.8"
 
-RPM_NAME = "libSDL_net-1_2-0-1.2.8-7.26.aarch64.rpm"
-RPM_HASH = "cc978718c5f4940ac7b192343a3e4db4deb9c3e171636f0c2deddcbad621828c4f34d01cfaf0e364b5372970fdf3c0e1061403c6bfc344144f438c268b9515c1"
+RPM_NAME = "libSDL_net-1_2-0-1.2.8-7.27.aarch64.rpm"
+RPM_HASH = "6cb2c926da81f7a70cd3e80f1182bdb4749f472207ccfbe9e732f027eeca3971eafb47b2ea4dd2af64c94fdd20e2b6a27869ee04adec6fcbecf49b59804ad953"
 
 RPROVIDES:${PN} += "SDL-net \
 libSDL-net-1-2-0 \

@@ -5,12 +5,12 @@ LICENSE = "GPL-3.0-or-later & MPL-2.0"
 
 PV = "2.4.0~git18.37ec5cd"
 
-RPM_NAME = "lib389-2.4.0~git18.37ec5cd-1.2.aarch64.rpm"
-RPM_HASH = "c4ec7d17424fd2b5dc0c4e116389a9ff870cc3a520c76373c616fa0d55c2c22486223fe76c9b40775b8256678bfd807f329f779563198fc3afd432ee1010c837"
+RPM_NAME = "lib389-2.4.0~git18.37ec5cd-1.3.aarch64.rpm"
+RPM_HASH = "e7981493cf0d2e950a4b48daf88b8543aee3ae2df0fcd64d4fde17285952cdecde162274a51bca010e61b2481b3982df2d248161d6b31364c180ccf81624a6dc"
 
 RPROVIDES:${PN} += "lib389 \
 python3-lib389 \
-python3.10dist-lib389 \
+python3.11dist-lib389 \
 python3dist-lib389"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

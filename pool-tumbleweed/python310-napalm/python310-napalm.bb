@@ -5,12 +5,11 @@ LICENSE = "Apache-2.0"
 
 PV = "4.0.0"
 
-RPM_NAME = "python310-napalm-4.0.0-2.4.noarch.rpm"
-RPM_HASH = "207a5fd485e6b057a4bd621d602e7432c9e26c294d5eec2a3ca4570b351326fc5d426e0f3b54ef34f58efa85fedc26098e1a83dfc08d30f0971c8729162df563"
+RPM_NAME = "python310-napalm-4.0.0-2.6.noarch.rpm"
+RPM_HASH = "07bb52b703e0f80550c1751bff8948f3fcd35f905a665ae4fa23a7b92f31b6e49eacc1fe5ef7ea35f16dae5520f1719dba6fa51c4ca0f823cac2f7e004d81416"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-napalm \
-python3.10dist-napalm \
+RPROVIDES:${PN} += "python3.10dist-napalm \
 python310-napalm \
 python3dist-napalm"
 

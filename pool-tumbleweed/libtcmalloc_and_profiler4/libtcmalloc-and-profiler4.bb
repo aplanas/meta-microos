@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.10"
 
-RPM_NAME = "libtcmalloc_and_profiler4-2.10-1.5.aarch64.rpm"
-RPM_HASH = "e9339f4bf964b4f18608f44e55969b039442c2a73805ac9e4938da6e2183965908c73b832fe0ae6a60f7aaba6e70a9e2a320e232ca94dd46413875c3f140efbd"
+RPM_NAME = "libtcmalloc_and_profiler4-2.10-1.6.aarch64.rpm"
+RPM_HASH = "64c19a185ec6e50479e2959ca65e3c7516b944ebe2e1739ae45c348c17db119d83d6d6c20c09d771451ef047dc0daac099c523262bb0331ce8ff9e47f49f774c"
 
 RPROVIDES:${PN} += "libtcmalloc-and-profiler.so.4 \
 libtcmalloc-and-profiler4"

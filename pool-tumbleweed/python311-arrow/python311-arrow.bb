@@ -12,11 +12,12 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2.3"
 
-RPM_NAME = "python311-arrow-1.2.3-2.1.noarch.rpm"
-RPM_HASH = "ffefa9ff3227a59cd5c5ac899d1cc73bcaf75949547be623a357db17211aa8d99dbc2db08e3235e1eca287e61f82d588c36c0a0374e4e9863fffcbd6dfddfba1"
+RPM_NAME = "python311-arrow-1.2.3-2.2.noarch.rpm"
+RPM_HASH = "2c3c3bc8cd66ec6312d07bb872ab3c3e5f640f90ff4b26d75ca1545eeed1d4d6bbe28a8e8a08ac1092e0cfbdb5474d99ca1937702d484113bf7c70595f6dc3a8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-arrow \
+RPROVIDES:${PN} += "python3-arrow \
+python3.11dist-arrow \
 python311-arrow \
 python3dist-arrow"
 

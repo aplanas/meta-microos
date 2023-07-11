@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "7.4.1"
 
-RPM_NAME = "python39-elasticsearch-dsl-7.4.1-1.1.noarch.rpm"
-RPM_HASH = "67d470869554297d59a86703ac7da20c1f6813d5d8bf2e2da74ffb566e739914f14a74b883700839f418a1a0b8d31a804a063dca25ac04f9a6538560eb0ca251"
+RPM_NAME = "python39-elasticsearch-dsl-7.4.1-1.3.noarch.rpm"
+RPM_HASH = "fad680e924356bd9704b5970c13b048990f0115c439c67c21f5e503e525a395ea17380e3bded0b3bfb33b5f781fd27ff2af664b8946e37e1d9bfd7cf04645815"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-elasticsearch-dsl \

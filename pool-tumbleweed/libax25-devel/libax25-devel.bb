@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "0.0.12~rc5"
 
-RPM_NAME = "libax25-devel-0.0.12~rc5-1.9.aarch64.rpm"
-RPM_HASH = "affe9349f554878b5a13ebc66dda5a0045d5b52be669c4d91d25ce5207c4277123a88b3eebc922b6cf47e44d8b4086b602596daac6d3839c74a4924477114525"
+RPM_NAME = "libax25-devel-0.0.12~rc5-1.10.aarch64.rpm"
+RPM_HASH = "cec9c81ae3706ec87e9f95e144bf71c893f30a3b3376728363c19e8f5c1e4d46b6ad339fdc6ef4b1f00dcf6dbeb264b44a03a92d85cb25c1b3b403cfdb075480"
 
 RPROVIDES:${PN} += "libax25-devel"
 

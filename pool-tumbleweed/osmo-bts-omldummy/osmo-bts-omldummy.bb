@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4.0"
 
-RPM_NAME = "osmo-bts-omldummy-1.4.0-1.10.aarch64.rpm"
-RPM_HASH = "43af80c067bc4ceec403359739838eda013c8594ece0041851163854f18c9cff3056cfcc3593ea8fcf333019ade5ab2b97f3ead061684eeb3a03c4a131f178a7"
+RPM_NAME = "osmo-bts-omldummy-1.4.0-1.11.aarch64.rpm"
+RPM_HASH = "f2be493a3a98d73d698528c23322847b722eb5196461d5d3495f3de656fd121f4e7b7e8093362273d2c395d866387ceb9dee0207168f99b570a5ff7148ee31dc"
 
 RPROVIDES:${PN} += "osmo-bts-omldummy"
 

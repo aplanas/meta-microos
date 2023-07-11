@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "3.18.5"
 
-RPM_NAME = "petsc-openmpi3-devel-3.18.5-1.1.aarch64.rpm"
-RPM_HASH = "a846f6e12b386cb2bfb888951bcd18c151cb341c46e561fb1244e3277d712233bdfccde48416c0e6fca5bb980c219580c3949f3662ce34c29f7fa1f3e0b7e8af"
+RPM_NAME = "petsc-openmpi3-devel-3.18.5-1.2.aarch64.rpm"
+RPM_HASH = "6e3899c27573bc40a21371918d24bef44a3baa95931ee0ac3fed1fed21b72d9464360e02f55e1865d6918d0ca00822a900e11a40d1bc4886caab95d57545681e"
 
 RPROVIDES:${PN} += "petsc-openmpi3-devel"
 

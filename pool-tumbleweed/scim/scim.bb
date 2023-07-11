@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.4.18"
 
-RPM_NAME = "scim-1.4.18-5.10.aarch64.rpm"
-RPM_HASH = "ab748b1d6b772d114d467c13fc7f4eaa63e42b5686a02db14155cba4fbb7ab54cb667f09227bdb404c3a707beae5893e1c8a1ee63d106472c4316853294e6385"
+RPM_NAME = "scim-1.4.18-5.11.aarch64.rpm"
+RPM_HASH = "862f484c4ae9b2da3db2ca9e311b04b484dc8f0e03756c4f9d92c0338f04f04830d142dabcc6f5c8bad3de134a18501ac3a3328ccc4bae6fce212d363982e4eb"
 
 RPROVIDES:${PN} += "config-scim \
 libscim-1.0.so.8 \

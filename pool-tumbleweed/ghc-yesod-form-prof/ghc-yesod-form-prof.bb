@@ -4,13 +4,13 @@ LICENSE = "MIT"
 
 PV = "1.7.4"
 
-RPM_NAME = "ghc-yesod-form-prof-1.7.4-1.4.aarch64.rpm"
-RPM_HASH = "ca37d4db40624939f3389ab158a4984256732692b1ff1b97c2729fc3b9a88ccf915b2e16ba0a55880dd43951ad8c379145b8e3a6a779133142bc64da61def7bc"
+RPM_NAME = "ghc-yesod-form-prof-1.7.4-1.7.aarch64.rpm"
+RPM_HASH = "ab92cf07d78e20d938017cad54330456db2ca6e7ae463efb5eb8525aa3ef89fc9134da7bf4247d1cb7dee86033f92c495bff75de1f3aa00be56e2e6e07a2f70c"
 
-RPROVIDES:${PN} += "ghc-prof-yesod-form-1.7.4-4xvxNC76eVrIZVDOGDISYi \
+RPROVIDES:${PN} += "ghc-prof-yesod-form-1.7.4-3XbqFtOs3TKAgriMSKjDj2 \
 ghc-yesod-form-prof"
 
-RDEPENDS:${PN} += "ghc-prof-aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP \
+RDEPENDS:${PN} += "ghc-prof-aeson-2.1.2.1-HkN6OtqTngQ9De3CKBnfov \
 ghc-prof-attoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3 \
 ghc-prof-base-4.17.1.0 \
 ghc-prof-blaze-builder-0.4.2.2-1GcRIc7N7YHId5Q5gRvlvW \
@@ -22,16 +22,16 @@ ghc-prof-containers-0.6.7 \
 ghc-prof-data-default-0.7.1.1-5iNQUD7GKkTDiLEyJaqXSy \
 ghc-prof-email-validate-2.3.2.18-8MZFHS3GPuQLNTYP4EPLHD \
 ghc-prof-network-uri-2.6.4.2-4kNQnaE9heqEL1mH8FE5xH \
-ghc-prof-persistent-2.14.5.0-52EbT4CA3Ct4CmrnsbaA80 \
+ghc-prof-persistent-2.14.5.0-9uJ7TxdgaWz5Ow6lrik7k2 \
 ghc-prof-resourcet-1.2.6-69eF6Rrz9wX13sOJF59GPv \
-ghc-prof-shakespeare-2.0.30-7fp9544x1BC4UOjjHLrTv0 \
+ghc-prof-shakespeare-2.0.30-LXYSf7m1ZbEJtMw9DSE6kj \
 ghc-prof-text-2.0.2 \
 ghc-prof-time-1.12.2 \
 ghc-prof-transformers-0.5.6.2 \
-ghc-prof-wai-3.2.3-LsLg4DRwusRI7b3SRdjDzn \
+ghc-prof-wai-3.2.3-B6oJGZed88IFIvDpwN5I7x \
 ghc-prof-xss-sanitize-0.3.7.2-FCgYumvpQn8Hd22tbbEcXW \
-ghc-prof-yesod-core-1.6.24.2-DExtrbWuaUvstmq3VZuwG \
-ghc-prof-yesod-persistent-1.6.0.8-DUd8QtbJfktGowTUT2pCEk \
+ghc-prof-yesod-core-1.6.24.2-8wK3xEIlG3CBsmvalvvZaH \
+ghc-prof-yesod-persistent-1.6.0.8-FGWkxx7rXiRFDcm3y5XVcs \
 ghc-yesod-form-devel"
 
 inherit rpm

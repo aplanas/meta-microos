@@ -5,8 +5,8 @@ LICENSE = "MPL-2.0"
 
 PV = "4.4.2.P1"
 
-RPM_NAME = "dhcp-devel-4.4.2.P1-14.3.aarch64.rpm"
-RPM_HASH = "17d50fab779479f6d8b1f21eb5dcc1b7a4635f4a7c647faea21a64114cb155ae21139b6dfeee73eb6a434c8580c908d123027bf7f9cf2485526c1e11e8c9f837"
+RPM_NAME = "dhcp-devel-4.4.2.P1-14.4.aarch64.rpm"
+RPM_HASH = "b760211e94a7c30b63248d7f512caea6420a8c944feca44966f042f703df7eee513b7ba7a402c02718590b574ebfeaf7f9bc7660a8b7aa02ce78efce8e25f0a2"
 
 RPROVIDES:${PN} += "dhcp-devel"
 

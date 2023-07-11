@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "7.2"
 
-RPM_NAME = "lrslib-devel-7.2-1.3.aarch64.rpm"
-RPM_HASH = "8c3345fbe23db21485af825aa9e1a2e8d76056d8778ca22138a47854ae4763c5c5399e98bd0667939159ed10f08cdd92b39448b7085c2f719a05ea84736df7f6"
+RPM_NAME = "lrslib-devel-7.2-1.4.aarch64.rpm"
+RPM_HASH = "38cadea2a7b48d6943860c50fc22cf8f5ed22c571340a116f2755cb32cdde775f6c4899844d516fc47db8cd4c55b11bc3f70f0e07a6504f08312dbbfbd461da2"
 
 RPROVIDES:${PN} += "lrslib-devel"
 

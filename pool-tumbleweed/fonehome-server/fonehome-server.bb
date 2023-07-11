@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2.2"
 
-RPM_NAME = "fonehome-server-1.2.2-1.4.noarch.rpm"
-RPM_HASH = "a94acd31dcd015520f7e91628e7bfe52a63dda8cabfbc38edee517bcf3a2ee471377b575947c53eb05b679d7b6c4ac2fb90b4a1a15e580af2d0306444d72fe2e"
+RPM_NAME = "fonehome-server-1.2.2-1.5.noarch.rpm"
+RPM_HASH = "c56110244a8260e65a12aea3ae0c619761174f7ac7bf87b0ab502f8ac24a8969fd177c1dcc9633e989723e3a82a82b97f80a3d48d8a8920f390ef8ffee74dc2c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-fonehome-server \

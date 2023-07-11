@@ -22,8 +22,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.4.0"
 
-RPM_NAME = "oprofile-1.4.0-2.1.aarch64.rpm"
-RPM_HASH = "4505ea2b241ac1453b464785cd0e177b405c1586343b485213b0469834b60e9aae06ff58782fab1437265fb52d9d52ef7453252985775f5abce915898ff5c04a"
+RPM_NAME = "oprofile-1.4.0-2.2.aarch64.rpm"
+RPM_HASH = "938aab297869ba1fd28069f0a90fd0a4d736e8ce3ebcd3ffe64365a80f039f1cf52c53a67ec9a05fe5758d56a664638d7a8e21376645f172e7b8ab7888e3ad73"
 
 RPROVIDES:${PN} += "libjvmpi-oprofile.so \
 libjvmti-oprofile.so \

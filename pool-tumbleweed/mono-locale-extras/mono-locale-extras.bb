@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "6.12.0"
 
-RPM_NAME = "mono-locale-extras-6.12.0-5.3.aarch64.rpm"
-RPM_HASH = "91e588f0418228dc5b3b60f7c1676289d52ca8fffc0e66bbe1b649825ef43d90abf242aecbb221e7cf767c7cfb7ea9c0b943aa734f2a6a1822fd797674c276c0"
+RPM_NAME = "mono-locale-extras-6.12.0-5.4.aarch64.rpm"
+RPM_HASH = "8cdbc6e6c2e458f6fb3c6cb68340956066374d45b4aa3f9bc61461a3adab02252e3364b613718c8fec10d9e3c8c2d813b8f19d8ec6a4a369a7f66aace57cb469"
 
 RPROVIDES:${PN} += "mono-I18N.CJK \
 mono-I18N.MidEast \

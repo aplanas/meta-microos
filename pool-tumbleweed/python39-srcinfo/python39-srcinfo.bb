@@ -4,8 +4,8 @@ LICENSE = "ISC"
 
 PV = "0.1.1"
 
-RPM_NAME = "python39-srcinfo-0.1.1-1.4.noarch.rpm"
-RPM_HASH = "45dad1db239ecf97cda5417c56ce7f7aec36535f3f46a9361d8736ef6cbe5eb60d944e3711cc513bd1b4d184a40c8917ba9bf5a137db484f91fbeba59ddbb7cd"
+RPM_NAME = "python39-srcinfo-0.1.1-1.6.noarch.rpm"
+RPM_HASH = "db273ab092ccfbc0e16ba8b948e2de644a1b98cb89d29006d8c76e49dabec4b896000d542836a66ce0642e0087791ab1cd860252915fbcf11c3157922dde5a23"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-srcinfo \

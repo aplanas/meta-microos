@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "4.0.0"
 
-RPM_NAME = "python310-typeguard-4.0.0-1.1.noarch.rpm"
-RPM_HASH = "a29060718865b0df424a983112e5312ad7f4ea53c2e7ccefcb102b2540f3e41a06344ba8a551fd884883560849b744c9c11380a693edf3f2952ca6b1f2d01437"
+RPM_NAME = "python310-typeguard-4.0.0-1.3.noarch.rpm"
+RPM_HASH = "742e59b9bb0465375f591e571603c95fdcf530b520dc499f9271fc348ee07d763734f007c09838e97cfc5d7f5f8fafc8941c546e6fdad38b6d68e829f34301e9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-typeguard \
-python3.10dist-typeguard \
+RPROVIDES:${PN} += "python3.10dist-typeguard \
 python310-typeguard \
 python3dist-typeguard"
 

@@ -8,12 +8,11 @@ LICENSE = "MIT"
 
 PV = "1.0.8"
 
-RPM_NAME = "python310-python-ternary-1.0.8-1.7.noarch.rpm"
-RPM_HASH = "1fe1e6061f8ee1966a0d2ed76151a17708cb85e2cc8abf6d6a10c24adb99a7bbd709d14d6eb19f70166e7b2536a6201d86445ba7e5878476156d8bcd1e151c91"
+RPM_NAME = "python310-python-ternary-1.0.8-1.9.noarch.rpm"
+RPM_HASH = "03cbbb186e7b532740f26d4209b784ab673ea76998790663ac9add6eaa66f06a2bc64ac12e47bdcb1f911c3fd3bcf138425fa9e5665976899beaf07eb0a5b686"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-python-ternary \
-python3.10dist-python-ternary \
+RPROVIDES:${PN} += "python3.10dist-python-ternary \
 python310-python-ternary \
 python3dist-python-ternary"
 

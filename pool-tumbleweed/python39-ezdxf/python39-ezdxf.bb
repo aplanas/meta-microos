@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.16.3"
 
-RPM_NAME = "python39-ezdxf-0.16.3-1.10.aarch64.rpm"
-RPM_HASH = "8cd68c7e16a68181f00518d75a62117c84f6f1d7f9895a3e98a3d379449aea0feb70541903bfb7d3dfbde7a507f4906406f64369780d22ce3d992a8f8957340f"
+RPM_NAME = "python39-ezdxf-0.16.3-1.12.aarch64.rpm"
+RPM_HASH = "c59111ed46e9e7a609f04b16f32a7e7e92c2757bae31435f4b46567839b17ecca76ab609ed918a52a0c09a2d14a23db850babb268c23e11f9fdd388d5bdc263f"
 
 RPROVIDES:${PN} += "python3.9dist-ezdxf \
 python39-ezdxf \

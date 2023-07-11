@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains compressed kernel firmware files for \
 various platform drivers."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230517"
+PV = "20230620"
 
-RPM_NAME = "kernel-firmware-platform-20230517-1.1.noarch.rpm"
-RPM_HASH = "e41424fa97113fd064ee961520a8f9395468694b264acfbb4735fa422c628d8386b1165c68446ef193805c1d9a91eb93d44279b774f8c80acc604ceec6cf7076"
+RPM_NAME = "kernel-firmware-platform-20230620-1.1.noarch.rpm"
+RPM_HASH = "8f9f4cddd403a17a889f3f18ce9205fe5db8187a11f7acfccb20ff699ae341680c71f91ae21942bc1172cc972a1b7286ca5ad7ff4226038261adba8102e7f6ea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-advansys/3550.bin \

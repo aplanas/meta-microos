@@ -7,14 +7,13 @@ numpy for number crunching, Qt's GraphicsView framework for 2D display, \
 and OpenGL for 3D display."
 LICENSE = "MIT"
 
-PV = "0.12.4"
+PV = "0.13.3"
 
-RPM_NAME = "python310-pyqtgraph-0.12.4-1.2.noarch.rpm"
-RPM_HASH = "ee76ce0e931b512e8f74e9cc3f24bccfa57b68c806ee3be597077137abaa5a94bfb995fa9266feff0031c21692c177ac2a36b1a8331759860bdf5fbe494c748d"
+RPM_NAME = "python310-pyqtgraph-0.13.3-1.1.noarch.rpm"
+RPM_HASH = "e85fb17422b2a366d15305f29b2fdeafed40b1b83ce54837766b879c03a0fae4d7e512610d0d14514d0220f49d837cc82d53d33fd7028eb40e70db6e89861285"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pyqtgraph \
-python3.10dist-pyqtgraph \
+RPROVIDES:${PN} += "python3.10dist-pyqtgraph \
 python310-pyqtgraph \
 python3dist-pyqtgraph"
 

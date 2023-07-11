@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "23.0.0"
 
-RPM_NAME = "jetbrains-annotations-javadoc-23.0.0-1.3.noarch.rpm"
-RPM_HASH = "9d3c9ce32d1802984b6f4e3bde8940137b0a937a51a5f7949e8c2f2c400ce6da3c86af998a1391c2630ad978de6a74f34b9e3fff4bb53b3a6e342838fab33c86"
+RPM_NAME = "jetbrains-annotations-javadoc-23.0.0-1.4.noarch.rpm"
+RPM_HASH = "5bf9fba296ee3b9077564be991700a3def1858a24f99be9c30cbcc20620bbe7ab25be5a9c1bb0d121e06e080676a12d29a267b6ef29ebd0aca133a8bd98b1f20"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jetbrains-annotations-javadoc"

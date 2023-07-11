@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libKF5Solid5"
 DESCRIPTION = "Provides translations for the 'libKF5Solid5' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "libKF5Solid5-lang-5.106.0-1.1.noarch.rpm"
-RPM_HASH = "e710f30d15a0c63d8994dd6c0fcef5d7f14545746f7990d6ff6cd42ba278d96db977acbc8e5706ea33f7af0127e808a1bf632102e48ca01a3b6f089653fea3b6"
+RPM_NAME = "libKF5Solid5-lang-5.107.0-1.1.noarch.rpm"
+RPM_HASH = "402c844b5083e7c342630d1d28353ffca9c7df23f7ba51bd68c1f642ec60cdbc5744d0eebdaa51c09d14bb3464c4e9c4323cb71a32a402be1f42287a9df03e8a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libKF5Solid5-lang \

@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 | LGPL-3.0-or-later"
 
 PV = "3.0.8"
 
-RPM_NAME = "lucene++-devel-3.0.8-4.2.aarch64.rpm"
-RPM_HASH = "5fb72cb04d7d0afc1169ebcc12bfdcb90819e4d037c3a34ff013b9c500600c91c7f9a6cf4d1a6129cf20f792cb4c4f1dbf9deda79ba3245f4de841b4258fcefd"
+RPM_NAME = "lucene++-devel-3.0.8-4.3.aarch64.rpm"
+RPM_HASH = "4be975270f5d47736285526db9b7a59074065dd2d3ec0adf74969e1ef1a0c62f794a1758107bac56653bf2910d63829acc6d363afd2b89d10a8637fda097107c"
 
 RPROVIDES:${PN} += "cmake-liblucene++ \
 cmake-liblucene++-contrib \

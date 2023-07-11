@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "5.40.1"
 
-RPM_NAME = "python311-django-axes-5.40.1-1.3.noarch.rpm"
-RPM_HASH = "71fb6cbf73badd1b98138ac84b4969307ffa161c60e0016f7204c2335dc60707ca33df253995d199895052f5418abc0e7e802a4baf7a77d02baeca2da119a780"
+RPM_NAME = "python311-django-axes-5.40.1-1.5.noarch.rpm"
+RPM_HASH = "b83c4003a92e963ab2a28960c2061fdf96cb00c0340a6461026f27f4f18e88858278488e78efbe9d5c40b0eb594505173637915d1fee3c30a0923a165ec1573f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-django-axes \
+RPROVIDES:${PN} += "python3-django-axes \
+python3.11dist-django-axes \
 python311-django-axes \
 python3dist-django-axes"
 

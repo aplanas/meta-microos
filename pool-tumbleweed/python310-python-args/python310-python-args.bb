@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.2"
 
-RPM_NAME = "python310-python-args-1.0.2-1.11.noarch.rpm"
-RPM_HASH = "b9eadaf42f8621f1b08a8fb72a25236771c5364f3dc75d711efc17eaa9eb6ecdc6de3c2358c830a50d3c4a8724b56659f23577320994ea7361301745b6b1fcf4"
+RPM_NAME = "python310-python-args-1.0.2-1.13.noarch.rpm"
+RPM_HASH = "9c82abb74b20f1b443c40873a520784cdecd9f210b31015f44fecfdb342b08392232e4873cc48a3d720247e28d222b56497e6bc2b5ae04effbc8af29ae31270e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-python-args \
-python3.10dist-python-args \
+RPROVIDES:${PN} += "python3.10dist-python-args \
 python310-python-args \
 python3dist-python-args"
 

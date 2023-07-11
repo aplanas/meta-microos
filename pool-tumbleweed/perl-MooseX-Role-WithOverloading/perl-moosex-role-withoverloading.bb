@@ -11,8 +11,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.17"
 
-RPM_NAME = "perl-MooseX-Role-WithOverloading-0.17-1.33.aarch64.rpm"
-RPM_HASH = "e9ae60205f26ff55d04b8ff1bf4d7405735fbabf91ed5f4f05c1511edc5b795c2e32ab4782f8b7c829eaeb6042e50b14526da5db7c901048c51bd5ca117000a5"
+RPM_NAME = "perl-MooseX-Role-WithOverloading-0.17-1.34.aarch64.rpm"
+RPM_HASH = "5c795a8c8f33bfb84caca7033a0dcad74c5889b5f38a8fb0a8977bcd9b9a9dc82503a7d374ce159a933994180da94b076899603525c1a7a87d12bdd292da5e8b"
 
 RPROVIDES:${PN} += "perl-MooseX--Role--WithOverloading \
 perl-MooseX--Role--WithOverloading--Meta--Role \
@@ -28,7 +28,7 @@ perl-MooseX--Role--WithOverloading--Meta--Role--Application--ToRole \
 perl-MooseX--Role--WithOverloading--Meta--Role--Composite \
 perl-MooseX-Role-WithOverloading"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Moose \
 perl-Moose--Exporter \
 perl-Moose--Role \

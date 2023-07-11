@@ -5,8 +5,8 @@ LICENSE = "BSD-Source-Code"
 
 PV = "0.0.1+git1533120914.688715b"
 
-RPM_NAME = "qxtglobalshortcut-devel-0.0.1+git1533120914.688715b-1.23.aarch64.rpm"
-RPM_HASH = "87ed362292b47e49d3e89f2dc39519877f8b4f91de87b77c551d74b7cd1e0bdbb96e293d9fa01f8af0d66f715db020a3d39a665add2a585565cdca759d713e3e"
+RPM_NAME = "qxtglobalshortcut-devel-0.0.1+git1533120914.688715b-1.24.aarch64.rpm"
+RPM_HASH = "3f510a1a7d6e5e5eb637a2dffa900ff16468fd671840324a3fb4ae5ba39445aacffe07ad03df4b3aa8bba8260f2a54845e5cd27122c48f76a738bdc4b1557c3e"
 
 RPROVIDES:${PN} += "cmake-qxtglobalshortcut \
 pkgconfig-qxtglobalshortcut \

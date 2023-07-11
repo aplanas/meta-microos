@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "0.7.0"
 
-RPM_NAME = "python310-azure-cognitiveservices-language-luis-0.7.0-2.11.noarch.rpm"
-RPM_HASH = "373b27c4277795ceed937468bd7e10d48b3f047e28c7ba64cec33e47f8370b399abbf4adad9c1a4224a7c970235fc441fe21fa4136ebc3cba1e7acad0136e6e6"
+RPM_NAME = "python310-azure-cognitiveservices-language-luis-0.7.0-2.12.noarch.rpm"
+RPM_HASH = "45aec86703cdca414f8fe534a62464415eb71f0b55764446e8d11d9e75e03c00208eeb2354f2b76b98015d1899b54c98198faf83660693ca8ceddd4cdc076a55"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-cognitiveservices-language-luis \
-python3.10dist-azure-cognitiveservices-language-luis \
+RPROVIDES:${PN} += "python3.10dist-azure-cognitiveservices-language-luis \
 python310-azure-cognitiveservices-language-luis \
 python3dist-azure-cognitiveservices-language-luis"
 

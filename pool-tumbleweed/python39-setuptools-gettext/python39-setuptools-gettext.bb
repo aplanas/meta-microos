@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.1.1"
 
-RPM_NAME = "python39-setuptools-gettext-0.1.1-1.3.noarch.rpm"
-RPM_HASH = "a1ccb74f71e1d4d7fde7df3e0778d16efd9c6ae0996b7b92a5b53770d3447e6a4f43cb097af46ba95453317612f2f7a71e9f8700886ada784a919c39e8b71685"
+RPM_NAME = "python39-setuptools-gettext-0.1.1-2.3.noarch.rpm"
+RPM_HASH = "2fc43db97b77827a4e64f75a294b71261881302b403879aec909663f8f7bc433b13117a9586030f1c9a37b6acdb8c6a4eeef5be1e6902c2be2df24cfc5303720"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-setuptools-gettext \

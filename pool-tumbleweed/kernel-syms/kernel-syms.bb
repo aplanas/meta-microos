@@ -7,18 +7,18 @@ This package is needed for compiling kernel module packages with proper \
 package dependencies. \
  \
  \
-Source Timestamp: 2023-05-29 06:22:29 +0000 \
-GIT Revision: 2c66b1f470678d30f7dc560d1f3770e6e13b5e65 \
+Source Timestamp: 2023-06-22 03:53:43 +0000 \
+GIT Revision: 0df701dd2c208f4843cf219b4b26b533ada9bd34 \
 GIT Branch: stable"
 LICENSE = "GPL-2.0-only"
 
-PV = "6.3.4"
+PV = "6.3.9"
 
-RPM_NAME = "kernel-syms-6.3.4-1.1.aarch64.rpm"
-RPM_HASH = "489aff83a97e720c5ace25a08ad0519e79ab845cc0ee7e3c4a8b1dbe1a4db04331f557950dd2903574fec6928aa9ecdcd1fdae025638bf36dea03190bd3638d4"
+RPM_NAME = "kernel-syms-6.3.9-1.1.aarch64.rpm"
+RPM_HASH = "f02f09e4f4fc2128387e367f9a627ad43111816e6207a691df66b9bff0e832abec457c5b6f8b250abd5beb862d1ac14d4fe5ddfe9cf80d68ef8a99f3e144b8be"
 
 RPROVIDES:${PN} += "kernel-syms \
-kernel-syms-srchash-2c66b1f470678d30f7dc560d1f3770e6e13b5e65 \
+kernel-syms-srchash-0df701dd2c208f4843cf219b4b26b533ada9bd34 \
 multiversion-kernel"
 
 RDEPENDS:${PN} += "kernel-64kb-devel \

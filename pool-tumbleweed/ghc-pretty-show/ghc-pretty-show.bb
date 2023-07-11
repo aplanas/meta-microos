@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "1.10"
 
-RPM_NAME = "ghc-pretty-show-1.10-4.3.aarch64.rpm"
-RPM_HASH = "04e3448111121fc0c1e68d140a29f439f0c2949e885e83d9f6c07ada8b23e1bb229937d8bf303792498d3d51561eaf2fa514cdf807d61fe960f5a8bc2e6ae534"
+RPM_NAME = "ghc-pretty-show-1.10-4.6.aarch64.rpm"
+RPM_HASH = "cb19ee12868de6965e74c06bd62f21284b92c777f4953eb85c236517ba42c1a886794107b11efb24f2038754400d34117c4d96cf13098b8f0a0ca3cfa36c8ce2"
 
 RPROVIDES:${PN} += "ghc-pretty-show \
 libHSpretty-show-1.10-IA5YnfAP5DqIvEIFfcZVdd-ghc9.4.5.so"
@@ -29,7 +29,6 @@ libHShaskell-lexer-1.1.1-FBBQnuYVuwZ6NRUVHfUjFR-ghc9.4.5.so \
 libHSpretty-1.1.3.6-ghc9.4.5.so \
 libHStemplate-haskell-2.19.0.0-ghc9.4.5.so \
 libHStext-2.0.2-ghc9.4.5.so \
-libatomic.so.1 \
 libc.so.6 \
 libffi.so.8 \
 libgmp.so.10 \

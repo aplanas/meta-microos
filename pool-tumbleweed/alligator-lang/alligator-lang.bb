@@ -2,10 +2,10 @@ SUMMARY = "Translations for package alligator"
 DESCRIPTION = "Provides translations for the 'alligator' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "alligator-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "dc129a307f5d76e68de6fdda4e7bdd3fee314b5a754597c5f337deeb9ecf7b2fac1b4185201024f7e284fa0a609f3fe77c0f5d4d8177ca40d74352470575c64d"
+RPM_NAME = "alligator-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "1ec85aad1c9091ba5ac07cc655d4c5d239137103948e18677073b269f1895ccc2b32cbca7e16521ea67025840744c5871c1f5ccf590b0d33b9ffbe84f50a42a5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "alligator-lang \
@@ -20,6 +20,7 @@ locale-alligator-et \
 locale-alligator-eu \
 locale-alligator-fi \
 locale-alligator-fr \
+locale-alligator-gl \
 locale-alligator-hu \
 locale-alligator-ia \
 locale-alligator-it \

@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
 PV = "3.38.1"
 
-RPM_NAME = "four-in-a-row-3.38.1-1.14.aarch64.rpm"
-RPM_HASH = "f54fa1e4265561b87d48cd0a7ddc97882cebadf1d05969922694690fc5689a3dacee453d44262dce36ab5675d12f47138552d0defc0ac0c9e7a8a14dd6114080"
+RPM_NAME = "four-in-a-row-3.38.1-1.15.aarch64.rpm"
+RPM_HASH = "e277b11b8e8bfdad653634df5c813d3039a095a4488e3062fbf417dff4fcb27c52361925888c865d2fa8cd349f1e56fa1c9a754e789b7d1f502de4cefc6688bb"
 
 RPROVIDES:${PN} += "four-in-a-row"
 

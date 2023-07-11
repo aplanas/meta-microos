@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides a plugin for Remmina allowing the execution
 local commands."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.4.30"
+PV = "1.4.31"
 
-RPM_NAME = "remmina-plugin-exec-1.4.30-1.1.aarch64.rpm"
-RPM_HASH = "d4f68f26db40d8891684c5af3318f1a3b97049eb4d28868b63e5e32a0ce0f2c555b233bb71724eaa645db1b98c784aef825815bebd328a0977f80f319bfb851d"
+RPM_NAME = "remmina-plugin-exec-1.4.31-1.1.aarch64.rpm"
+RPM_HASH = "0bec2c3830ba52c8b73abe7241074adf3d252a58e6f757fef941154326a5353fc94ee5394c472bb25873c652a2c0253bb4fa2c2c5b844f2731a7e1f9226a15e5"
 
 RPROVIDES:${PN} += "remmina-plugin-exec"
 

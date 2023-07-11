@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.7.0"
 
-RPM_NAME = "libopencv_gapi407-4.7.0-1.6.aarch64.rpm"
-RPM_HASH = "436df6af8c152a77180e78da0aa7192aea97b923ee31213421c106d2fe6ea05c8a814b99481b8c016313f0ba99513cca35e64fce80c9c9ad63140d12f7972e05"
+RPM_NAME = "libopencv_gapi407-4.7.0-1.8.aarch64.rpm"
+RPM_HASH = "a626b73a70f0f5153ad3f537bdf701d357621b8ec2d61d89bab196040a29ada796d5f3a2b785dddae1ac7d6354b7a0f2c11e5b48354dfa569caccfc74556cdb9"
 
 RPROVIDES:${PN} += "libopencv-gapi.so.407 \
 libopencv-gapi407"

@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only & CC-BY-SA-3.0"
 
 PV = "2.1.1"
 
-RPM_NAME = "dustrac-2.1.1-1.12.aarch64.rpm"
-RPM_HASH = "8ed61f1d66f9b7c3414590d1bef956090ca5d7c815d1c5ac50a4fb1b5a937087f80034c2ac46b318fafa10012edc91d4d23c24e26bcdc1d82a448434ee41985d"
+RPM_NAME = "dustrac-2.1.1-1.13.aarch64.rpm"
+RPM_HASH = "e89543e9fc1642270de7f6f5bc8e959fb4bae131217fd51da1e12c2dac0b48e4b7b52d84b01d87210f996bd7bc72efacc8978b0eb469e61b78986df93ad30033"
 
 RPROVIDES:${PN} += "dustrac"
 

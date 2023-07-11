@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause & LGPL-2.1-or-later & GPL-2.0-or-later"
 
 PV = "2.4.9"
 
-RPM_NAME = "ppp-2.4.9-3.3.aarch64.rpm"
-RPM_HASH = "f42f9e73846043447b45d9d432d2a70cc5164a464d7af24a44e59bc9928dfc6544c9cd8c3c2de372de9a425cbf458cf0b6dbe7664be01202235e2c65a33aebe7"
+RPM_NAME = "ppp-2.4.9-3.4.aarch64.rpm"
+RPM_HASH = "0a24f2c0d2ab072a172d031b1fe2bec3e2ab1a528124c7d76e55776e9595edc9e9bfa22ecbc95ceac81637ad4d54b1441c2c47e1528c5d83461687873fb85a6f"
 
 RPROVIDES:${PN} += "config-ppp \
 ppp"

@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0 & SUSE-Public-Domain"
 
 PV = "1.11.3"
 
-RPM_NAME = "aws-sdk-java-cognitoidp-1.11.3-7.8.noarch.rpm"
-RPM_HASH = "5687fb076aa1d57719e6057a3ba13e4fa3330f3da2abbabfb29722c0dbec667ae8f607a11cc21dc0b6ebe833d4035a458175e2981abac7521425a6011c1e18e9"
+RPM_NAME = "aws-sdk-java-cognitoidp-1.11.3-7.9.noarch.rpm"
+RPM_HASH = "354a14f6ae259b1ca381aad85999397bd35bbcc96708375863f909cfb8fe4a743dc548ba5eecf75b856d25b845f20a8da4609f01d5c84b8aa2e87e336881c9ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-cognitoidp \

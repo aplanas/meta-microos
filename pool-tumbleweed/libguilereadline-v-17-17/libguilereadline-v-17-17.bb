@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.8.8"
 
-RPM_NAME = "libguilereadline-v-17-17-1.8.8-23.11.aarch64.rpm"
-RPM_HASH = "2ce307b585b6c0a3656b14b2a4b8e7d82aa31d5224ffd16b76f314abf1c52ab2693f8e119a03b2b489d4ac06ba871d60cf99fd76bb1df0417c3e29e97a754230"
+RPM_NAME = "libguilereadline-v-17-17-1.8.8-23.12.aarch64.rpm"
+RPM_HASH = "7d56d8e80dc19bc3399c28fc97e43db0221db662629c8665a5c4bc68b42c5d8211f08fb4ee71e8585cb424e1161f48f63a5f4c9cde829cbd9b6992282f578e85"
 
 RPROVIDES:${PN} += "libguilereadline-v-17-17 \
 libguilereadline-v-17.so.17"

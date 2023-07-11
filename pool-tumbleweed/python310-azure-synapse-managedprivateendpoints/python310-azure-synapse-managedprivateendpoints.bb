@@ -6,13 +6,11 @@ LICENSE = "MIT"
 
 PV = "0.4.0"
 
-RPM_NAME = "python310-azure-synapse-managedprivateendpoints-0.4.0-1.8.noarch.rpm"
-RPM_HASH = "485a8470593edb4af3356daefaf5de0d586aa843894cefe145a30d5148157448bbad1d5b648bf6c4aa862a0d4ef9e4a8da79c16da25967c97d52c2564c045622"
+RPM_NAME = "python310-azure-synapse-managedprivateendpoints-0.4.0-1.10.noarch.rpm"
+RPM_HASH = "7d8fbbec6d263f47836037c460644dda0c9932b7d346c518a470e64299aabf1ad92bbeff067fdc5215851c5e1942e8c08aa6c94ae3195f0a357ab60f8cf11141"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-synapse \
-python3-azure-synapse-managedprivateendpoints \
-python3.10dist-azure-synapse-managedprivateendpoints \
+RPROVIDES:${PN} += "python3.10dist-azure-synapse-managedprivateendpoints \
 python310-azure-synapse \
 python310-azure-synapse-managedprivateendpoints \
 python3dist-azure-synapse-managedprivateendpoints"

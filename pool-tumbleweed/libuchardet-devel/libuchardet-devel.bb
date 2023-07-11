@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later | MPL-1.1 | LGPL-2.1-or-later"
 
 PV = "0.0.8"
 
-RPM_NAME = "libuchardet-devel-0.0.8-1.3.aarch64.rpm"
-RPM_HASH = "684c8331fdee8be42b7d625cbfba76c75830db30645f8fdd2a2fa1aae451b95ee3707fb051de790632425c3ea456d9eeb86febe12a2b71d843e3d69693513f03"
+RPM_NAME = "libuchardet-devel-0.0.8-1.4.aarch64.rpm"
+RPM_HASH = "f1db5c66a6f2ed571d834b4ff8cd3780f6a27fd6aa29ea26cbef5ef8ccd21db35dcfd7015e0f89048b15a2a4c6a5538f9faa90e58a22e305b1c29756975d99f7"
 
 RPROVIDES:${PN} += "cmake-uchardet \
 libuchardet-devel \

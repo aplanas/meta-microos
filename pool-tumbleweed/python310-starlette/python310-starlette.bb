@@ -5,12 +5,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.27.0"
 
-RPM_NAME = "python310-starlette-0.27.0-1.1.noarch.rpm"
-RPM_HASH = "59b3348099804414e610aea4b014a53e30a95e5205ce54952a3408cee909b7ed0d7f7294ea44fd43ceaa26dbf75d85a1bd23e806a3101c445c0c539e1f2d7565"
+RPM_NAME = "python310-starlette-0.27.0-2.3.noarch.rpm"
+RPM_HASH = "cf3ce0ebd1ca066a27053f0e509ddcd77efe769f10b5885f3559731b6ec8c74fe1313175962739845bf38d4eff4c8606b86087484f3977e49b12ba8d69c6e24a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-starlette \
-python3.10dist-starlette \
+RPROVIDES:${PN} += "python3.10dist-starlette \
 python310-starlette \
 python3dist-starlette"
 

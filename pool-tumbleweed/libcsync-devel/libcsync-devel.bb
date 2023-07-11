@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.50.0"
 
-RPM_NAME = "libcsync-devel-0.50.0-11.9.aarch64.rpm"
-RPM_HASH = "f837edd9d0cf8c6df8de09d879d639e03395fa2d800f96c5fc2a93c968a79baacae32f95d4086fe6b6406a310abc687e5dda18491c5d29df6e5a103948c90630"
+RPM_NAME = "libcsync-devel-0.50.0-11.10.aarch64.rpm"
+RPM_HASH = "53f0e9fc294b7b9236667c7b6be7d2ecfa27dc2984b6b3a548283f4609112bc69c1c13c10b338ff2b02dbb98b1cff42e274dd3f925eb89cb231745db98609b90"
 
 RPROVIDES:${PN} += "libcsync-devel"
 

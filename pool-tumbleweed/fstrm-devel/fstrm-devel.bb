@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.6.1"
 
-RPM_NAME = "fstrm-devel-0.6.1-1.5.aarch64.rpm"
-RPM_HASH = "13557f72b85fcad9c15eae3df6e403fcd5864fa1f01fe00b38e4c62d107571000912646a98cd1486a1bfa12905ff157dae41e302c395a20401fb459f19c2c614"
+RPM_NAME = "fstrm-devel-0.6.1-1.6.aarch64.rpm"
+RPM_HASH = "470bfaa9b910c5a05559023a4ce8843fe453265c6938ed209c6723afcdc626f48268146aae5bcf84e0784d960da19120664f603529d9c4a830dce2cc3bb02dbf"
 
 RPROVIDES:${PN} += "fstrm-devel \
 libfstrm-devel \

@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0 & SUSE-Public-Domain"
 
 PV = "1.11.3"
 
-RPM_NAME = "aws-sdk-java-gamelift-1.11.3-7.8.noarch.rpm"
-RPM_HASH = "ab1b90c32bc4b9729ad709aa54eaefcd9f0cfce902737e0867c772f4c90c27c24c85a7a46e6b108e106e6131a17ad2d5490d654a1e629fa125a13eda8ed95e56"
+RPM_NAME = "aws-sdk-java-gamelift-1.11.3-7.9.noarch.rpm"
+RPM_HASH = "1d04a061bcedddf7bd09b49950abf87652aa4b5a4df11d112bde765332ce856836fb145d17af71fe0280660aad97213c44c4a4c967ff7312022402f9714363f5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-gamelift \

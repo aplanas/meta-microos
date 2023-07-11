@@ -6,11 +6,10 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.2.5"
 
-RPM_NAME = "python310-HepMC-3.2.5-2.5.aarch64.rpm"
-RPM_HASH = "b5a7edcc1e74404c40ef1d0d4fb3e395ca2bf917bb5dadc73e06c2f52688b7a9734cbf83963bf4c1b7c99268c2f86b934d202b4a08fa006d10dda9971feda944"
+RPM_NAME = "python310-HepMC-3.2.5-2.6.aarch64.rpm"
+RPM_HASH = "742f40ada0a9bc443b5a6a11d0c463499f2cd0f01333f374523d76eb314c58b0e9536e1cfe61f86d94b8d2f66b48a5fac8f771f7b4beed2277c5c9dadcfb4a32"
 
-RPROVIDES:${PN} += "python3-HepMC \
-python3.10dist-pyhepmc3 \
+RPROVIDES:${PN} += "python3.10dist-pyhepmc3 \
 python3.10dist-pyhepmc3.search \
 python310-HepMC \
 python3dist-pyhepmc3 \

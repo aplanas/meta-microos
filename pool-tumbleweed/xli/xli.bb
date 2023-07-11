@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "1.17+git20170726.0bb4fb4"
 
-RPM_NAME = "xli-1.17+git20170726.0bb4fb4-1.23.aarch64.rpm"
-RPM_HASH = "ab827e596ccf1760a0a36112dcf9582b13082b9e702c1da566b1f88c212d599fbc944b0c63ed4166557adff67a5753170f3828f85891ae473bd47e610defed57"
+RPM_NAME = "xli-1.17+git20170726.0bb4fb4-1.24.aarch64.rpm"
+RPM_HASH = "2a80fea61f178dffdf9ec0d4dbb99d6d9b1b4cea186a4cbbb4d144c03ab7cdee5e3c03e185a7d433c349bcb64c2cc0b1c6b441da54d1c2faee575c98a66eff05"
 
 RPROVIDES:${PN} += "xli \
 xli115 \

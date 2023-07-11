@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.2.12"
 
-RPM_NAME = "xmlbird-devel-1.2.12-1.3.aarch64.rpm"
-RPM_HASH = "4f7e09948b7490e359bb0de51969a4d4e2cf8e715496fabb4545b9a2de1475a7ce121cbd4166e4e4eeadbaa6c9c0d963bd7d4884ee710bbfc65e82e7ab975927"
+RPM_NAME = "xmlbird-devel-1.2.12-1.4.aarch64.rpm"
+RPM_HASH = "d46f2106abf7e06a6ef0b5e23e25b99cd2165bc7b8ffdf8bd8ad63b62afaf2b25d892288f39bab0979d0efe599cade52d07d59c933962b94dab658b7284cde7c"
 
 RPROVIDES:${PN} += "pkgconfig-xmlbird \
 xmlbird-devel"

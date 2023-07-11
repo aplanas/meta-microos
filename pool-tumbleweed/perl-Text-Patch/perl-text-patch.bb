@@ -42,14 +42,14 @@ LICENSE = "GPL-2.0+"
 
 PV = "1.8"
 
-RPM_NAME = "perl-Text-Patch-1.8-7.26.noarch.rpm"
-RPM_HASH = "e5ed75f76cfa2ae18ac95720e5102d7a4bf35b8a6492ee2f75cd9a89d49727715c7958154da2bc93152689eef45573f2915b54b14d923d44c02ad4a80da2df6a"
+RPM_NAME = "perl-Text-Patch-1.8-7.27.noarch.rpm"
+RPM_HASH = "2851f8fb94eefbb17b8d875ba5b6aaaa3735cb56c155aff2d3a7ecebeb733167f0d55a10890a6292bb107aef1e5d29fe7c8396e43d40bd15234bb9460b953bcb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Text--Patch \
 perl-Text-Patch"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Text--Diff"
 
 inherit rpm

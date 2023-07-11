@@ -8,8 +8,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.1.1svn62505"
 
-RPM_NAME = "texlive-grading-scheme-2023.201.0.0.1.1svn62505-53.1.noarch.rpm"
-RPM_HASH = "211ed0595a851b12fe29fe63abce8f7c6f6b32235cc8d6c3a641d529f20e9f952931cb89e9d7b2da786b22226024ae2327caaef7656e109b6c5c9b1dbc87ec17"
+RPM_NAME = "texlive-grading-scheme-2023.201.0.0.1.1svn62505-53.2.noarch.rpm"
+RPM_HASH = "9f3214a1509b9ad3a78bba9a4004314681b74c5c262d230f77b9fe155e41289459a3bc8756e9f67b3c2f543f5026fdb6e00021ce1fb94947cac75635765d3394"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-grading-scheme.sty \

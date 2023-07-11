@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only & MIT"
 
 PV = "5.12.0.134.g4cebbfc"
 
-RPM_NAME = "collectd-plugins-all-5.12.0.134.g4cebbfc-1.4.noarch.rpm"
-RPM_HASH = "c4fc420135f86ab8d38e24ab550c8baf3427dc6c0e85150a97ccc060cbdcae279a7d434c4204430a422660921af4ada1b9fa87843d508d0816f61119d8ceb039"
+RPM_NAME = "collectd-plugins-all-5.12.0.134.g4cebbfc-1.6.noarch.rpm"
+RPM_HASH = "252107bbaf0a908ff7582afe85df6e101582734bc67aefda5ab2d08cf410a8291548e94e17ed5224ba306bb3a24a526dd5f55fa8f229ef1fcd7480e2e9f56135"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "collectd-plugins-all"

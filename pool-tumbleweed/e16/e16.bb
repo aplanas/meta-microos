@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later & MIT-advertising"
 
 PV = "1.0.24"
 
-RPM_NAME = "e16-1.0.24-1.7.aarch64.rpm"
-RPM_HASH = "7c453cf6f42608c2a6d854f69d873bd69a3e18ecfbc974b5020a8a17ac0cfaaf3c9d5ca05bc0372e9e4edde058e6335e1dcbf70b5b5e082ae86ed15127dc548d"
+RPM_NAME = "e16-1.0.24-1.8.aarch64.rpm"
+RPM_HASH = "3544fa61fd33a12cf870014e92758a93f9da4f196ce3e73d9f85d71ff7448d1974d6dc35be820196eaea371b83c4948988dbb3ae237884378f232a062127c05b"
 
 RPROVIDES:${PN} += "e16 \
 enlight \

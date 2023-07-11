@@ -3,10 +3,10 @@ DESCRIPTION = "KBlackbox is a graphical logical game, inspired by emacs's blackb
 is a game of hide and seek played on an grid of boxes."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kblackbox-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "49621a13f936798f9720fcf148d5c187e9c9174fa341f6e3de11b405cd9049f6927551e90888d1f5d0429690f414a694655ebda48dee6af6c933ef079cd7628a"
+RPM_NAME = "kblackbox-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "3187cde38410cd8a078e73675c85e896156933a141c50d368d64b3274e4b96cf83997d64a21756c13c40e4115b4e647bda1bfd634f7845c9c262922de82dc179"
 
 RPROVIDES:${PN} += "kblackbox \
 kblackbox5"

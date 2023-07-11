@@ -10,12 +10,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.8.11"
 
-RPM_NAME = "python310-Transplant-0.8.11-3.7.noarch.rpm"
-RPM_HASH = "e7d828c12fbce37cedfa1987c2cfa04ef7fb8af8b20b6fcf1aec73b102eabba9fc4bf9c850942ebd85d562a66567c1ade9d654468428de8785c41dc772c55183"
+RPM_NAME = "python310-Transplant-0.8.11-3.9.noarch.rpm"
+RPM_HASH = "8e8e95ed1c31c85f89be61a68d9936c6560ef0e797669e6ca7cb52b62243041cfb79f7f3499eb7f5262143e2a3690b35fb229cc2cf49a36fb3996aba7879e3ea"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-Transplant \
-python3.10dist-transplant \
+RPROVIDES:${PN} += "python3.10dist-transplant \
 python310-Transplant \
 python3dist-transplant"
 

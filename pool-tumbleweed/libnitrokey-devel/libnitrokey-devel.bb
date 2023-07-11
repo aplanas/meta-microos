@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "3.8"
 
-RPM_NAME = "libnitrokey-devel-3.8-1.3.aarch64.rpm"
-RPM_HASH = "b51fc859097f5dc2fd21fe445be9fc9631fe2866b334eb845836a13f1761ff84a3b54b3459c1e2e5b6be84642f9a16f40a1cd5c3d8d01b7b6830fbe86b949b73"
+RPM_NAME = "libnitrokey-devel-3.8-1.4.aarch64.rpm"
+RPM_HASH = "108639c4e0a056705a334dc691babbe33090ee85cf8923770b6f1323ab78d3aa09743ed6b6d715d389c963e35b87124bc30abdf4ca93aade038ddc54a1145ecd"
 
 RPROVIDES:${PN} += "libnitrokey-devel \
 pkgconfig-libnitrokey-1"

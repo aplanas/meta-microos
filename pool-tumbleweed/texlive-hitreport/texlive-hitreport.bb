@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.0.0svn58357"
 
-RPM_NAME = "texlive-hitreport-2023.201.1.0.0svn58357-53.1.noarch.rpm"
-RPM_HASH = "f61658efa83249b37438a0af1ec873cca2cddaf90596d0458e3dedc94acd375e08b3a56f9076dde3cc403512ca44fdf622408c3a02fd4a1646f920894d87e95d"
+RPM_NAME = "texlive-hitreport-2023.201.1.0.0svn58357-53.2.noarch.rpm"
+RPM_HASH = "5d4c4d18c1ce79bd4aa834676578d39a28ea8c58047344f471c1576c23625ad814aabbbd1b6d90fd1f61554cb92d4d66f1221e941ee6c1cf551abefd1dcb0fa5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hitreport.cls \

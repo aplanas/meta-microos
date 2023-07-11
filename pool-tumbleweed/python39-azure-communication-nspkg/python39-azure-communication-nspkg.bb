@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "0.0.0b1"
 
-RPM_NAME = "python39-azure-communication-nspkg-0.0.0b1-2.11.noarch.rpm"
-RPM_HASH = "a4882190653a7f8bd5725b56920d1fb7e7006c1f19bae71dd1ddf6105662a720c709a4ab863e1047414026f1b40770441498bbf2d84e47dde2e0c3851c001202"
+RPM_NAME = "python39-azure-communication-nspkg-0.0.0b1-2.12.noarch.rpm"
+RPM_HASH = "76c34587ebcf45844e7f459219bbbf2de29d05e2fcb30287f7bd2cb1429c1bbaa1bbf6e0fb0643b2ddf879d58ba3f2b06caf01a994858e16e9d5470e06796440"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-communication-nspkg \

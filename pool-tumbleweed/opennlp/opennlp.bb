@@ -11,8 +11,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.5.3"
 
-RPM_NAME = "opennlp-1.5.3-3.10.noarch.rpm"
-RPM_HASH = "7fdb796e88912aa11ede18df92416397567c3399ad7b735830be4b34f3a7b3cad5b6f7b716c19d5a4d53b6a7cfcca47f5736313b7dcb20da6b4d03cdf48ce33d"
+RPM_NAME = "opennlp-1.5.3-3.11.noarch.rpm"
+RPM_HASH = "5e9d0ccba4e40f2b874501873db63d65373a9a6dc5c679e98ced787e867c27f8c7eaaaa6ce4ac4d341734331d93295ab91da8e33a6cedb75039da296dddd6da6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.apache.opennlp-opennlp-pom- \

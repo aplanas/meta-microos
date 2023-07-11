@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.8.3"
 
-RPM_NAME = "libid3-3_8-3-3.8.3-268.9.aarch64.rpm"
-RPM_HASH = "d83bf79079a6bcf14c1b68aa36169feb02bcf50efa869429165656f71ed98ca3cf9ea1b57123708cc76b7988bba2b4a361e8c7c47bcc96da2866c116bbc7efb1"
+RPM_NAME = "libid3-3_8-3-3.8.3-268.10.aarch64.rpm"
+RPM_HASH = "0424956a349c67be1bd6bc66202aec3ca032942e6eff2552adcebda31fda03ff6b980274a817124f0448a802fb1644c3af37feb56d8cab72e6b4412a86b64646"
 
 RPROVIDES:${PN} += "id3lib \
 libid3-3-8-3 \

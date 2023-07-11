@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4.1"
 
-RPM_NAME = "xviewer-plugins-lang-1.4.1-1.6.noarch.rpm"
-RPM_HASH = "9bfce36f3a69a44490b64817c924a77d9d9fd723bcf2bd466eeb7ab76c6541da32dba5701c764f589ba0258a4d7830b696d12db8311b73e600f123bab14181a2"
+RPM_NAME = "xviewer-plugins-lang-1.4.1-1.7.noarch.rpm"
+RPM_HASH = "37267edd7b1dc846bad25e0d49e986d5577831507a1e92fa35bacb22118f023fcfbf1278502bbec1b3abe85e36e2e7fb9d1ad5c297c3d742bf954eed8dee98d6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xviewer-plugins-ar \

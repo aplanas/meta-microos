@@ -10,8 +10,8 @@ LICENSE = "MIT & MS-PL"
 
 PV = "6.12.0"
 
-RPM_NAME = "mono-mvc-6.12.0-5.3.aarch64.rpm"
-RPM_HASH = "954b8a3237c8e606c9789b51b1aa103e9b827bfb9bfd4a090c4b31508d86957e0f4428d912851b6b21927c0ace130af7d7cdc2241ef64ed08dc05cb609cf6698"
+RPM_NAME = "mono-mvc-6.12.0-5.4.aarch64.rpm"
+RPM_HASH = "4eab123dc6472809348b32040f0418bc6ace79e10e76130321ef67b05f23706c991db4f10ed39904a08a3322873a49fa45e7f2edf13e36cec53c4626b241c870"
 
 RPROVIDES:${PN} += "mono-System.Web.DynamicData \
 mono-System.Web.Extensions \

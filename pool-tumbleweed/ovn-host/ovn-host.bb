@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "23.03.0"
 
-RPM_NAME = "ovn-host-23.03.0-14.1.aarch64.rpm"
-RPM_HASH = "1d97d6919489af2d31ae888612167f22789fbd4c4631495aad4b9ef346276e1ea471511cbe10efc44bf6cfc668c8f21ae65d1c1d1abe21ec51be8384c931301d"
+RPM_NAME = "ovn-host-23.03.0-14.3.aarch64.rpm"
+RPM_HASH = "66254cfe5f31a07560fc6b5295260f3a35f332c57bb646d262a00bdf12d1742e23f64d26137fe2ade0c5fc944d3c61d686c5206ef94feebde986876c2473edf9"
 
 RPROVIDES:${PN} += "openvswitch-dpdk-ovn-/usr/bin/ovn-controller \
 openvswitch-ovn-/usr/bin/ovn-controller \

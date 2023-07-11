@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0 & MPL-1.0"
 
 PV = "9.4.0.7"
 
-RPM_NAME = "saxon9-9.4.0.7-16.6.noarch.rpm"
-RPM_HASH = "15cd57b401171c7f56c0a0d8eda903adea178d4397969c383ca2451de3923a18d16281b73182ecfb9f949f603a8dbbff4e0cb42b255d6f14198701e3cba10bb6"
+RPM_NAME = "saxon9-9.4.0.7-16.7.noarch.rpm"
+RPM_HASH = "58e908c763aa7d461e1413eeeacc0fa233491221cc5bc7bec6ec586a79e08917107b83b8c406c641d4ee973b958cd4d76248beb343e61769f0517a71145bd2e1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jaxp-transform-impl \

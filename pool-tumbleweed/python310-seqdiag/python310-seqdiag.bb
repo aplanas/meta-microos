@@ -7,12 +7,11 @@ LICENSE = "Apache-2.0"
 
 PV = "3.0.0"
 
-RPM_NAME = "python310-seqdiag-3.0.0-1.6.noarch.rpm"
-RPM_HASH = "c1b159a6c5e2cf0affd873d9c50905bcde251c06d3130aa5e668a711e8488fd22b8b066fc7e42f1424dbb61189fd821f892fe4dc1a1d51ce492c4095f06491ac"
+RPM_NAME = "python310-seqdiag-3.0.0-1.8.noarch.rpm"
+RPM_HASH = "1f8e9233acbbf5de162ec1145459a9c7c5b5134843f0054ec6a18674bf86c2742a8d5311ec9afda9a6a491fd5f1fb15a70eb74f521710c1263727d54459eca20"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-seqdiag \
-python3.10dist-seqdiag \
+RPROVIDES:${PN} += "python3.10dist-seqdiag \
 python310-seqdiag \
 python3dist-seqdiag"
 

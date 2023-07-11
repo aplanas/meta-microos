@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.926"
 
-RPM_NAME = "python39-o2sclpy-0.926-1.4.noarch.rpm"
-RPM_HASH = "6225601b989858cfebc034c7b6e5bed39b740928dd34a9e07cc5f37890168c08693d935f35324e32bde30c491855e489909f3b1254d64a58adb48a95b457af5e"
+RPM_NAME = "python39-o2sclpy-0.926-1.6.noarch.rpm"
+RPM_HASH = "107de6fd051a7ac871f619c6e032fcf814885ef091a26ee3b4f677ec74b8d99fd413e9abdee37c4d2fae83d0aa4ed20e2b1724c08b319d8dc329b748d3c1248e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-o2sclpy \

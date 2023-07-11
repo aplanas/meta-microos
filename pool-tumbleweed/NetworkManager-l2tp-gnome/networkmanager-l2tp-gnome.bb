@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.20.8"
 
-RPM_NAME = "NetworkManager-l2tp-gnome-1.20.8-1.4.aarch64.rpm"
-RPM_HASH = "96487e71a0f008b5e4a25bf51fed6a106685d98308683da31e6030bd4233bd7019eb0c28f3c0a4c1dc4405a497c277a3f6ed0b0db8b9dc7f2712a3ad2c85c053"
+RPM_NAME = "NetworkManager-l2tp-gnome-1.20.8-1.6.aarch64.rpm"
+RPM_HASH = "836e4dc1ad9093aec2310885866e18c7a345232b183beaf82589250635ebad0ee0d39c980f511748a9ee8c7e5568f94caa518587bbb38e8c01a9ee4c3a43097b"
 
 RPROVIDES:${PN} += "NetworkManager-l2tp-gnome \
 libnm-gtk4-vpn-plugin-l2tp-editor.so \

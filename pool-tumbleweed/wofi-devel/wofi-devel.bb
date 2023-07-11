@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.3"
 
-RPM_NAME = "wofi-devel-1.3-1.3.aarch64.rpm"
-RPM_HASH = "dc61ad2228d2644884bbc43520c387a96a50f8295e578c064cc4e6bb4ffc94b01e233ac7ad0a2c24f1c33c5325e58bfc9e456c8337bdfcab4ffd3c7f08ec7198"
+RPM_NAME = "wofi-devel-1.3-1.4.aarch64.rpm"
+RPM_HASH = "caa88a458ec55a1d78cfb938bcedd3ebd79ffd7d1cec24b1d632d62c89449fbfcee27a6bb2ce4d74451fc0ee0aa652e1dcb4c89d8728d3126acfaae73124ad8a"
 
 RPROVIDES:${PN} += "pkgconfig-wofi \
 wofi-devel"

@@ -4,10 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.2.0"
 
-RPM_NAME = "python311-onigurumacffi-1.2.0-1.1.aarch64.rpm"
-RPM_HASH = "f7eac86eb6d20106522a9bd8fcda8f3b53b077229134413ccaecff867acbb7cecc0ed1444ba648ed74f562c5560e3f497f0806791d060622f6712995af4e03e3"
+RPM_NAME = "python311-onigurumacffi-1.2.0-1.3.aarch64.rpm"
+RPM_HASH = "86961965474c0bab22028ae0b0191c9ffdc74ab37763df57fb41bfc109dfd8c8439dade35be3fdf67ee70e6da487eb649ea0848407e4eff1a425d55206bf3573"
 
-RPROVIDES:${PN} += "python3.11dist-onigurumacffi \
+RPROVIDES:${PN} += "python3-onigurumacffi \
+python3.11dist-onigurumacffi \
 python311-onigurumacffi \
 python3dist-onigurumacffi"
 

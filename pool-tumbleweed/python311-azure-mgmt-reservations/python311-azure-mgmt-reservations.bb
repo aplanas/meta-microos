@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "2.3.0"
 
-RPM_NAME = "python311-azure-mgmt-reservations-2.3.0-1.2.noarch.rpm"
-RPM_HASH = "c24605ecfe0bc95a07c5b336f76ef8478d2939e5bc303bac335b0a076d0f635f5dcf370333cdaa017f30a33d0fbb914837e0baf50b15be881fc631afdab216d5"
+RPM_NAME = "python311-azure-mgmt-reservations-2.3.0-1.3.noarch.rpm"
+RPM_HASH = "160dbfe5ff806147c582ffc280447f0d6559ff2f95c36ef180b9196cddc2be085399105a239e6429f2394f7e815a3921d84d2d665b035b21e3db3bb6c5811df6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-reservations \
+RPROVIDES:${PN} += "python3-azure-mgmt-reservations \
+python3.11dist-azure-mgmt-reservations \
 python311-azure-mgmt-reservations \
 python3dist-azure-mgmt-reservations"
 

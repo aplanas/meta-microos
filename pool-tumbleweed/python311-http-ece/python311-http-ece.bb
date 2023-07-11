@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "python311-http-ece-1.1.0-4.2.noarch.rpm"
-RPM_HASH = "46d1e2167dd8afd8de40222ab46e0e3035c8ff583fe22a4bba77ca36170af4f8d72dd6a92235a3dcc3ca689398b76b5c6338e87015a67693399df08b7b622660"
+RPM_NAME = "python311-http-ece-1.1.0-4.4.noarch.rpm"
+RPM_HASH = "a0194e059026c8390a33bfc7070243fd5d63acff541974cc4ba79ce75574e3e64018cada807bf5ef755208a66bb6ff57bfa2b57e2317106cd1fdd1e0f2273647"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-http-ece \
+RPROVIDES:${PN} += "python3-http-ece \
+python3.11dist-http-ece \
 python311-http-ece \
 python3dist-http-ece"
 

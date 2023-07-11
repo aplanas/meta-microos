@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.4"
 
-RPM_NAME = "libctemplate-devel-2.4-1.9.aarch64.rpm"
-RPM_HASH = "f2d3af0b571145d2cc8d7ba7f10d4e7df70134aea9c2aa2b5607105e8686b770730c8d07ac80bfe2e1f8afaf651c16b5bd7ad1139d7bcee9a56db952e4729d31"
+RPM_NAME = "libctemplate-devel-2.4-1.10.aarch64.rpm"
+RPM_HASH = "817d8e11f584e166bd6c84c1a6a14581c37b06680235f9361918e68811816b053c844e2305f0851bd4b17bcecef730d23404ec242bdf701bc1b6517954042ed7"
 
 RPROVIDES:${PN} += "libctemplate-devel \
 pkgconfig-libctemplate \

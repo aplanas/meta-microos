@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.4.0"
 
-RPM_NAME = "python311-sphinx-argparse-0.4.0-1.1.noarch.rpm"
-RPM_HASH = "d3ef94eabb00aadc3353a66135b84095dc31faf9c755367d6d86f53a6717e6c2c340063bdddd71b371d1b721e17bbdad7f907db6cfc9851b23a2b766627fe843"
+RPM_NAME = "python311-sphinx-argparse-0.4.0-1.3.noarch.rpm"
+RPM_HASH = "fda5adb9bff09da8f37672bc09c51a58afc0260abae8fa4a9d9b21261e5f91f4997874f61ace265e0d7587156b9f90e25e63d4b97ed1b89bdbada68ceb6ec496"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-sphinx-argparse \
+RPROVIDES:${PN} += "python3-sphinx-argparse \
+python3.11dist-sphinx-argparse \
 python311-sphinx-argparse \
 python3dist-sphinx-argparse"
 

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.9.3"
 
-RPM_NAME = "kid3-core-3.9.3-1.3.aarch64.rpm"
-RPM_HASH = "100b479fa29ee80d039db3ca901aea47e200686439d4096430bc8af6f521d79102cf3ca6b9a57ab9df894f22800e0b6b6c7d293783ffaf693436b7290868c41a"
+RPM_NAME = "kid3-core-3.9.3-1.4.aarch64.rpm"
+RPM_HASH = "d1880bb515468434e903fe4a14fff37f5c664d9b0b8903b3e4183bf3bfadc14f56c2dc2c834f02078be9b4ed0b0a028ae15a02eb7ca58efe2c8d7689945b12e8"
 
 RPROVIDES:${PN} += "config-kid3-core \
 kid3-core \

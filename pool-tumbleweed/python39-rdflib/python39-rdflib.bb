@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "6.1.1"
 
-RPM_NAME = "python39-rdflib-6.1.1-1.12.noarch.rpm"
-RPM_HASH = "9823e478d58e5b298799ec3da1cbef241ec321cb0379f963ade87bdfed9ca09f1932f18c5aa036cf0a22a76ab3d92eae80a5430f935de94c662adeef4c3b94ae"
+RPM_NAME = "python39-rdflib-6.1.1-1.13.noarch.rpm"
+RPM_HASH = "282475c067aaa1dca5305273939ed4e22cbdb965ec547a22c5d77011c42dfcf2318dedc89921ef74b9ced4f764b1bafeb533bd948ec1ab24f2f98f3afc1d6b05"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-rdflib \

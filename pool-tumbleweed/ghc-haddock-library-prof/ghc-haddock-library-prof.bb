@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.11.0"
 
-RPM_NAME = "ghc-haddock-library-prof-1.11.0-2.3.aarch64.rpm"
-RPM_HASH = "612d3ee7b890fd9d78789de4032d2b8cefcd0298fb776245e8f7c68af86138115936312e90e7593e6855d5f6e9f9f465c9f35e291f780f8ef1bde1de03531de0"
+RPM_NAME = "ghc-haddock-library-prof-1.11.0-2.6.aarch64.rpm"
+RPM_HASH = "0558718fd2daa6fd37c55649746d574ae3206dede6c09a9b33bad8dc84c59d22680bfc46b67677f61cc556559fc5978ab5401acb3b2746e38f23fa1fd942eaef"
 
 RPROVIDES:${PN} += "ghc-haddock-library-prof \
 ghc-prof-haddock-library-1.11.0-3IU1wl1Mct8946s210c9Hs"

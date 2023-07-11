@@ -2,10 +2,10 @@ SUMMARY = "Qt 5 tool used by Qt Developers to generate documentation"
 DESCRIPTION = "Qt 5 tool used by Qt Developers to generate documentation for software projects."
 LICENSE = "GPL-3.0-only"
 
-PV = "5.15.9+kde1"
+PV = "5.15.10+kde3"
 
-RPM_NAME = "libqt5-qttools-doc-5.15.9+kde1-1.1.aarch64.rpm"
-RPM_HASH = "dba7ab9b579d359c5a7184e413b580110f90e6df27c44dea4db1ac393d3d838c1ba6f4982e3d7bedbf5fa65bb971fe7fc74ea4b1951dea7655526fc93169e252"
+RPM_NAME = "libqt5-qttools-doc-5.15.10+kde3-1.1.aarch64.rpm"
+RPM_HASH = "fce8c0959c6e02a7aa2e5995dec7fbbc6ce51ccedfffec544e88fd7f5a6795f8d79dcd4b49519fdd81e2344500f92df65bcd81e09562f409c1d5d409ac75f791"
 
 RPROVIDES:${PN} += "cmake-Qt5DocTools \
 libqt5-qtbase-doc \

@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.76.1"
 
-RPM_NAME = "girepository-1_0-1.76.1-2.1.aarch64.rpm"
-RPM_HASH = "2076e1d334d7300c8e64ecc08045b7a8f18e9c8319c7d87aa95e863341f3ace602a8062ab1b7bba7d47e7203a88c739a0746041d436c71169097800a24f13fd9"
+RPM_NAME = "girepository-1_0-1.76.1-2.2.aarch64.rpm"
+RPM_HASH = "e14e30461bb7b974b064ab113b688e4e3eb6dae6890865b927d68d65239c0ed04e90cbd220ecb2d9af66340a010456c9f09bcc8c1ea5566fc833f7ca16f4234d"
 
 RPROVIDES:${PN} += "girepository-1-0 \
 typelib-DBus \

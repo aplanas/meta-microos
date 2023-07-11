@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "5.13.3"
 
-RPM_NAME = "pagure-theme-chameleon-5.13.3-1.4.noarch.rpm"
-RPM_HASH = "d4bd3c608d91867f94a7feb4c8bdbdf0499f9f23cb1cbfe4ecbe7c89bdcdeff20147c649e6f416e0202c458217acc015aeb7c0d2b528f2ebb7e831e5464a6fbc"
+RPM_NAME = "pagure-theme-chameleon-5.13.3-1.5.noarch.rpm"
+RPM_HASH = "968b84dc43a44ba7b57ae1c50620453ca3169a5b77047c86c4857633e62a63a675648b44b104ccac0fd670e61e67c7037be6e133545a9453fc53e52ec280658c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pagure-theme-chameleon"

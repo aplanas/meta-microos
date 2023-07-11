@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "40.0"
 
-RPM_NAME = "gnome-robots-lang-40.0-1.12.noarch.rpm"
-RPM_HASH = "1cdb008d95c3b7c356f6c583b9fb9de1f201bf31196f901fa01f7fcfe6b53c8763dac8a9c7e057f24473633b27931e3a42cb3a184a2b7ebfa1bc205a1e97f400"
+RPM_NAME = "gnome-robots-lang-40.0-1.13.noarch.rpm"
+RPM_HASH = "3d55c21484fd51293c55848020bbaa091d5838c31d85dcba2fe128e16a5e7f223da9c6fd71bcc8f8289d6f286c9722350a11b1196bf632bfe3e693fd1adc0e74"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-robots-lang \

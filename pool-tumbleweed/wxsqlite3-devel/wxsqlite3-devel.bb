@@ -6,8 +6,8 @@ LICENSE = "SUSE-wxWidgets-3.1"
 
 PV = "4.9.1"
 
-RPM_NAME = "wxsqlite3-devel-4.9.1-1.4.aarch64.rpm"
-RPM_HASH = "efdb006235a9ffaf40ff16e920950b43c82513ec0df804bad48b0f58ef6bdab65c147457f711263f8a07415f1a5d333bdca271efebcc51c0aa5ac22a2d7096f1"
+RPM_NAME = "wxsqlite3-devel-4.9.1-1.5.aarch64.rpm"
+RPM_HASH = "9b915407de11e9ddfc4e4468211d7973236246e6eb43345e77037e7962a0cb3e237e91f9d1a31087e3e8411507eb15399d89be37b21961c43c671571509f4d35"
 
 RPROVIDES:${PN} += "pkgconfig-wxsqlite3 \
 wxsqlite3-devel"

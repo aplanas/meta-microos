@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.2.2"
 
-RPM_NAME = "jgraphx-javadoc-4.2.2-2.5.noarch.rpm"
-RPM_HASH = "482bfb44f1dde7d1e4b7d087cc2594878a13de39a51a65a93d25b52d8d8810f418d7252d1fd26b0e50422c168ab3be91c90a404794bce003ace039757cb10ef2"
+RPM_NAME = "jgraphx-javadoc-4.2.2-2.6.noarch.rpm"
+RPM_HASH = "1ba6d3a236ce40d93bff5c6141d8e69f8bc5c5ed004de6f87bd537ed68fd9b28b398c7d3d6bab268764b470c316409dca15e90da675d46e5b2ad935753eceb7a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jgraphx-javadoc"

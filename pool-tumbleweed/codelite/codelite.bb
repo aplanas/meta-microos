@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "16.0.0"
 
-RPM_NAME = "codelite-16.0.0-2.5.aarch64.rpm"
-RPM_HASH = "cf83e6dee3f2932a13aee5f6ec51a3b44b21ce1f00f2b59af97df8e6de1100d507cb1691a07f02dd8aa8ddcca45ef09727fca9f9578172947e77e19617da65b2"
+RPM_NAME = "codelite-16.0.0-2.6.aarch64.rpm"
+RPM_HASH = "f287c157fce3499313b65dafcc0509cfc428d91d90d7d6f3710aa4349996c2a0d5c02f391ac1d2aed57a1e0afa472d61e329c1498fb9b4b8c2553831c4e35b8d"
 
 RPROVIDES:${PN} += "codelite \
 libdatabaselayersqlite.so \

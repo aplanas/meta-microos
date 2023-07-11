@@ -11,14 +11,14 @@ LICENSE = "GPL-1.0-or-later | Artistic-1.0"
 
 PV = "0.05"
 
-RPM_NAME = "perl-Socket-MsgHdr-0.05-1.24.aarch64.rpm"
-RPM_HASH = "93f631e863c16b9c0c23d610daa54fa089f8fa2ed852ecb1a019e034a72902a9a726cbb6d6486357839521965b7412db2c2a984e1420fcef11bbea8ba94ab264"
+RPM_NAME = "perl-Socket-MsgHdr-0.05-1.25.aarch64.rpm"
+RPM_HASH = "d77fc88df78da1a903eec5f2469b2c5a2392cda95cdca3689814a3f794f6e6cfca5ac73b089156f26ca71121f24805e4e44be7385ed41156f53afd78af4d4470"
 
 RPROVIDES:${PN} += "perl-Socket--MsgHdr \
 perl-Socket-MsgHdr"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

@@ -13,8 +13,8 @@ LICENSE = "MPL-1.1"
 
 PV = "1.0.2"
 
-RPM_NAME = "libdirac_encoder0-1.0.2-33.27.aarch64.rpm"
-RPM_HASH = "700fb32abf8321c8fb8e29b6defaf2ec5c72ad2ef2d9104f2d52c81351e4a8e15d7d69c39d4bdd1104c9ad0e736f5a3106c0933be00c274901ca5c8aa4b7a157"
+RPM_NAME = "libdirac_encoder0-1.0.2-33.28.aarch64.rpm"
+RPM_HASH = "1e1cb9482fcdbc8eb3365e7c8ec60d3d436fdecffef79230d7570b7a0e40722ba2def1e1e81e7ed373fe7532a022f74b5a7026aed9fc614c74e153e883d332ad"
 
 RPROVIDES:${PN} += "libdirac-encoder.so.0 \
 libdirac-encoder0"

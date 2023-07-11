@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "5.6.2"
 
-RPM_NAME = "python39-PyInstaller-5.6.2-2.1.aarch64.rpm"
-RPM_HASH = "c14266d35f0b167deb27c396e00e28aac8453a1052b1979e51537045829db1a6d23334c58f687b13154a262a6a8e218a0843852b9bffc1fb9c5fce8df4c10bb3"
+RPM_NAME = "python39-PyInstaller-5.6.2-2.3.aarch64.rpm"
+RPM_HASH = "a198458f980d5f5fa4b2cf9116e28b504f07ea315e128718662eba0c98d09aeb2c53ff7fe9f48025f7245c9d4786a4744aae8bf137622d147e2a59805d27d000"
 
 RPROVIDES:${PN} += "python3.9dist-pyinstaller \
 python39-PyInstaller \

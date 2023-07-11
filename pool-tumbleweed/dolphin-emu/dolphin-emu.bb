@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.0.17995"
 
-RPM_NAME = "dolphin-emu-5.0.17995-3.1.aarch64.rpm"
-RPM_HASH = "fc30c03b129c95d197db1d16f7d60e4a10351da728a18557b4071bc6672c989cd8624666c0c179d6f4f0d8a7c354cc126dbba4819eb09eeed0ca790e06079377"
+RPM_NAME = "dolphin-emu-5.0.17995-3.3.aarch64.rpm"
+RPM_HASH = "71268d2d429dfc04726b7f7e6adf26323aea5c584fefe0e4059cebd2af39c9ae27349dfed26017e86ea86e8f326bceb6202edd3c6fbfd24a7099c483c405b8e9"
 
 RPROVIDES:${PN} += "dolphin-emu"
 
@@ -41,8 +41,8 @@ libmbedx509.so.1 \
 libminiupnpc.so.17 \
 libpugixml.so.1 \
 libpulse.so.0 \
-libsfml-network.so.2.5 \
-libsfml-system.so.2.5 \
+libsfml-network.so.2.6 \
+libsfml-system.so.2.6 \
 libstdc++.so.6 \
 libudev.so.1 \
 libusb-1.0.so.0 \

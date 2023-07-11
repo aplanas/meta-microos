@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-quick3dassetutils-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "f9b9a3422fee1150759ed5af98d6df6fb45337cf3d9460a8a1c24fb665f60fa2fdfb925431c568babe6b627532023b29c22972cbd3da5e52707bce0d157078a0"
+RPM_NAME = "qt6-quick3dassetutils-devel-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "88d07dc682ea21f3969f020004c9f86acea5e69ab1ea0538cf8fe260f225aaaee51d5ce78f25d4405afdee5dbfbcd841e928f5eee355fdf6f508e30afb0d9616"
 
 RPROVIDES:${PN} += "cmake-Qt6Quick3DAssetUtils \
 pkgconfig-Qt6Quick3DAssetUtils \

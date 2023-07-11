@@ -23,11 +23,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.1"
 
-RPM_NAME = "python311-EasyProcess-1.1-2.3.noarch.rpm"
-RPM_HASH = "7cd0a8382dbb9d988891030807e24c7d4e0e36e9979ac0afd0932c016074ba29c05f909788ee9fdd66ce08d9437e6ad4f5cb7d7c0ea9f66702778d57e5ce9fb0"
+RPM_NAME = "python311-EasyProcess-1.1-3.3.noarch.rpm"
+RPM_HASH = "2bb582c2c77fa4f1dbd6f198f601630a2bf199b4a5da5309fa756fb6dde1918b6fdd91626e0bf9dda1beaabca8c1ff6b3f973df98bbec3881f291889f39cefc7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-easyprocess \
+RPROVIDES:${PN} += "python3-EasyProcess \
+python3.11dist-easyprocess \
 python311-EasyProcess \
 python3dist-easyprocess"
 

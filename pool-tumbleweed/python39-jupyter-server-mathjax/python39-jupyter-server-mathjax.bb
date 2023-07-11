@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & BSD-3-Clause"
 
 PV = "0.2.6"
 
-RPM_NAME = "python39-jupyter-server-mathjax-0.2.6-1.7.noarch.rpm"
-RPM_HASH = "92ce543119d1f48e4d1235569489cb96e925eb417bfb57c8f277d1f94c8a1e6fb9acd4a05d1e7ba9dc6dfb61f43f662f41caf13f3ca0e2e561f88c2c7643ba16"
+RPM_NAME = "python39-jupyter-server-mathjax-0.2.6-1.8.noarch.rpm"
+RPM_HASH = "a4e18c24d3b94fae762dcdb9025f009ad871e84daf691c22ed861f18f61c88bfb3d6e234e1d8d4a64d046b70a1ddec0b19e4304752d38261f27c811b5f0c10cb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-jupyter-server-mathjax \

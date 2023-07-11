@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.4"
 
-RPM_NAME = "python311-fontPens-0.2.4-5.7.noarch.rpm"
-RPM_HASH = "f7a161fa72d6297d73d8f146c31d97a06dbfc61c6dd505b957ba950c9861c647c960be6a02e5b4e72a15967d354cfbb008223c3487ba61accf8b3fa305f5387a"
+RPM_NAME = "python311-fontPens-0.2.4-5.9.noarch.rpm"
+RPM_HASH = "a4981f123a890df5f51fde8b6a6ab6134a04c38f0802af5904e8176dd7c7eeb5c5415366f56a86eda82e2e24b650ec157fa1d98b881d2acce94c8e9a8ccbe60c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-fontpens \
+RPROVIDES:${PN} += "python3-fontPens \
+python3.11dist-fontpens \
 python311-fontPens \
 python3dist-fontpens"
 

@@ -4,16 +4,16 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.1"
 
-RPM_NAME = "ghc-gitrev-devel-1.3.1-9.2.aarch64.rpm"
-RPM_HASH = "3d0d98ac51d20a36ebd136e32b2ca284173a42e1d20df3f0c00b42848a56f40872a160f430941dc5ce074fcbaaef6df81e806cef3ed9f7051d1697d3fd490609"
+RPM_NAME = "ghc-gitrev-devel-1.3.1-9.3.aarch64.rpm"
+RPM_HASH = "d59eeebf3332c633507ef95be12e7f937982dc61d761cce309bc7cc92da7d766161165a8eca169ebe9ac7aa189cb43a66e6f9fc94b6dfbc7787db838f60f6d2c"
 
-RPROVIDES:${PN} += "ghc-devel-gitrev-1.3.1-Fh7rxVehK3vCpE8f2RFTGz \
+RPROVIDES:${PN} += "ghc-devel-gitrev-1.3.1-CQYGfdCfGPeA3DF217wQTZ \
 ghc-gitrev-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
-ghc-devel-base-compat-0.12.2-L1DEOlMQJOdFOKsjHoWYov \
+ghc-devel-base-compat-0.13.0-Cvz3167VMpo6rdOohSlum3 \
 ghc-devel-directory-1.3.7.1 \
 ghc-devel-filepath-1.4.2.2 \
 ghc-devel-process-1.6.16.0 \

@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.6.6"
 
-RPM_NAME = "json-glib-devel-1.6.6-2.8.aarch64.rpm"
-RPM_HASH = "5b95c68989b3bb4fbdc84307ab5b9df793f353a22ac784479eae952e87a471e16a235e60f506ae2f557a6cbb06295bd03ca65f7a0ab040906c4b65110b003397"
+RPM_NAME = "json-glib-devel-1.6.6-2.9.aarch64.rpm"
+RPM_HASH = "b5a3c92488e794b88e1fefb07674ad5d91370b90871d73c60bc3596a17e5d65e2c2a47459229b38aacaf4856f7973bb34ff6aeac91788aa8671732b6c74e73f3"
 
 RPROVIDES:${PN} += "json-glib-devel \
 pkgconfig-json-glib-1.0"

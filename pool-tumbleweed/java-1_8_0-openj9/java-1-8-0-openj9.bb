@@ -8,8 +8,8 @@ LICENSE = "Apache-1.1 & Apache-2.0 & EPL-2.0 & GPL-1.0-or-later & GPL-2.0-only &
 
 PV = "1.8.0.362"
 
-RPM_NAME = "java-1_8_0-openj9-1.8.0.362-2.1.aarch64.rpm"
-RPM_HASH = "34eae728ba023998160207b39c8e998427112a536a98089cd26df368ca070df651a38dcff0ebca4f9e94aaca41d6789e9e21a170129111fc157bb274df9adb07"
+RPM_NAME = "java-1_8_0-openj9-1.8.0.362-2.3.aarch64.rpm"
+RPM_HASH = "a7c4cb39aa6848533e638a61c0a47cac94bc4492eaaac48f08737681edf79390435e687b5e91ca2784bb0ac4f6b66cf9023954b327df53ba2a0548f99c350ca8"
 
 RPROVIDES:${PN} += "java \
 java-1-8-0-openj9 \

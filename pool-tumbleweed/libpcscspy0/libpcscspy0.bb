@@ -2,10 +2,10 @@ SUMMARY = "PC/SC Smart Card Library"
 DESCRIPTION = "Supporting library for the PC/SC spy tool."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.9.9"
+PV = "2.0.0"
 
-RPM_NAME = "libpcscspy0-1.9.9-2.3.aarch64.rpm"
-RPM_HASH = "91dd4e2f69e2a81bd08c967bed97be9a68f4bf10625708936346935c0dc7bd4df18c2e17acf81bbc0cb9cd92d646f7c7cc99af2fc53b4069439ce83286423657"
+RPM_NAME = "libpcscspy0-2.0.0-1.1.aarch64.rpm"
+RPM_HASH = "78acad1e68d1f1b512f16dcf656e254d63500d3566d00cf223f6b2850c3fa9124cbce1c43b0ff989c5440ca03ac2f700e3c9f0b100831489a085d957530ba556"
 
 RPROVIDES:${PN} += "libpcscspy.so.0 \
 libpcscspy0"

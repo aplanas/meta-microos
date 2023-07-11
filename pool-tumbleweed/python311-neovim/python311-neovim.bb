@@ -4,11 +4,13 @@ LICENSE = "Apache-2.0"
 
 PV = "0.4.3"
 
-RPM_NAME = "python311-neovim-0.4.3-1.12.noarch.rpm"
-RPM_HASH = "d66730ead4bfa3b7a331d51a93905617c1ac1d43e79888a2d4810166b55541101816e56b5cc4a24b8d672d738bcc9c95abcf40c24064abe243c35ec806dc52d9"
+RPM_NAME = "python311-neovim-0.4.3-1.14.noarch.rpm"
+RPM_HASH = "3dcdb6ea2d46902918729e10ded9b0c16ba39d50a6128791622c9441b88330bda20903816af81f66d17a92037f5236d1a2ca49f91ddf73babdd77de861aef705"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pynvim \
+RPROVIDES:${PN} += "python3-neovim \
+python3-nvim \
+python3.11dist-pynvim \
 python311-neovim \
 python311-nvim \
 python3dist-pynvim"

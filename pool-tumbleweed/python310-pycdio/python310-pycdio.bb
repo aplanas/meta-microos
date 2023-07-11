@@ -8,11 +8,10 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.1.1"
 
-RPM_NAME = "python310-pycdio-2.1.1-1.5.aarch64.rpm"
-RPM_HASH = "ca3179c263547dfe4d44883beda8b202060b6048b44f3d71b1d0688a19955d7270dd6c534c79d7eed7cbc377d6ea22d299931fd14afb975adbb650a18cc6e1ac"
+RPM_NAME = "python310-pycdio-2.1.1-1.7.aarch64.rpm"
+RPM_HASH = "55d0a026e2914bc58564565de8e47ca3f82dcf862be4a7d67770ccf6ea966d46e886c77cdff8ac926951d418b3f298bc7fee43c6172a5fe76dff37d30f93ae24"
 
-RPROVIDES:${PN} += "python3-pycdio \
-python3.10dist-pycdio \
+RPROVIDES:${PN} += "python3.10dist-pycdio \
 python310-pycdio \
 python3dist-pycdio"
 

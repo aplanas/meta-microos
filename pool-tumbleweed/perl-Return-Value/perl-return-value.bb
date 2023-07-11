@@ -17,13 +17,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.666005"
 
-RPM_NAME = "perl-Return-Value-1.666005-1.20.noarch.rpm"
-RPM_HASH = "3dec19d7d4aa80c691bcea0d671856f450f84daff2b9bc0dde7a6955d568e80fc870ae05b6b4f99ae03ced31d24765f99af78ebfa3fb3c54a400e14968f1e69f"
+RPM_NAME = "perl-Return-Value-1.666005-1.21.noarch.rpm"
+RPM_HASH = "2ad0eae06e60d64124e8332e506894d97e2d0c7758ba94ab0ddae0c2fd9f82d755640b6a356ed00bb83f623f7de1ae675e9a2bd5adc82085b76a0d52fc21a113"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Return--Value \
 perl-Return-Value"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

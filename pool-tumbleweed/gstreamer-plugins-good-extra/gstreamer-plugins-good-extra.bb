@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides complementary plugins for \
 gstreamer-plugins-good."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.3"
+PV = "1.22.4"
 
-RPM_NAME = "gstreamer-plugins-good-extra-1.22.3-1.1.aarch64.rpm"
-RPM_HASH = "3d1fa6fb2b5e654ba23aae14b1847cf8d97ed0e090cff66d93231ded2173545f8492221ab9e435b6f274085bcd82380af6ffc3932b0b015e60783b27587112db"
+RPM_NAME = "gstreamer-plugins-good-extra-1.22.4-1.1.aarch64.rpm"
+RPM_HASH = "25d672366bcae0db6121f49711c77739d0592f4cd40b80be2a5781ac822950f544b0f533592e5ee417a434175768b02401c07ab035b6dce045942a6fed4165e2"
 
 RPROVIDES:${PN} += "gstreamer-plugins-good-extra \
 gstreamer1 \

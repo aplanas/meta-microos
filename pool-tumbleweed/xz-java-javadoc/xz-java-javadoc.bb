@@ -4,8 +4,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "1.9"
 
-RPM_NAME = "xz-java-javadoc-1.9-1.2.noarch.rpm"
-RPM_HASH = "e0dbb464e7b0ba9aba85af5dcd602ba37260e1caa4267accbe69674e002025047014b2b54700e2f7ad2370fc08399b934c9a85e0da45c22b2a411b78a7f5b007"
+RPM_NAME = "xz-java-javadoc-1.9-1.3.noarch.rpm"
+RPM_HASH = "870681686a37d3df667360c6ba8237f7df4c60f77404a2114337bc6f04f212a931268f51b9ea2f1acae2837db99d4896b3af413f4c660141b6a1e8b1097ffd39"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xz-java-javadoc"

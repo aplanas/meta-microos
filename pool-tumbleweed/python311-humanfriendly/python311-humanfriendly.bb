@@ -15,11 +15,12 @@ LICENSE = "MIT"
 
 PV = "10.0"
 
-RPM_NAME = "python311-humanfriendly-10.0-5.1.noarch.rpm"
-RPM_HASH = "69787fc726f25225b2c7822fd3967d48b726c4ed9fdfa5cb9c363b6a97342a1020c6c293b3533996d14d170f76f91cbec33e3443c7da448d93ac47cdb436eaf4"
+RPM_NAME = "python311-humanfriendly-10.0-5.2.noarch.rpm"
+RPM_HASH = "885d96af4f3966954edf95d0d66d04398e1f1062b85639cd83e95d7dcf4aa52b8bc83ea6fb0861ed49dff64e057cc78f1d677253c30db8f72b16fb03c000609d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-humanfriendly \
+RPROVIDES:${PN} += "python3-humanfriendly \
+python3.11dist-humanfriendly \
 python311-humanfriendly \
 python3dist-humanfriendly"
 

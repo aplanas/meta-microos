@@ -5,10 +5,10 @@ package to perform its operations using default LaTeX commands, \
 PStricks or TikZ."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.9bsvn31075"
+PV = "2023.208.1.9bsvn31075"
 
-RPM_NAME = "texlive-mdframed-2023.201.1.9bsvn31075-52.1.noarch.rpm"
-RPM_HASH = "cdab58277ac20d58c2a2ff10e31faf171fc7ed8bfe147166fa3b243e87c5253f97a7c9c4f3e2ffc044138f476671c7663ed42f800384b3bf4c4d3d8201b24d05"
+RPM_NAME = "texlive-mdframed-2023.208.1.9bsvn31075-53.1.noarch.rpm"
+RPM_HASH = "943f3b4423be8de6a656e124ff0743813c0f90f0722eb0b081473012970ab18ac161753a6756c7440c69b033aeedfe4bcc3f6be2399a22d3d97679d0ab203292"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ltxmdf.cls \

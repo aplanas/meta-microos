@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & (LGPL-2.1-or-later | MPL-2.0)"
 
 PV = "0.3.21"
 
-RPM_NAME = "libmwaw-tools-0.3.21-2.9.aarch64.rpm"
-RPM_HASH = "cf6869b852d25872b6b7b8fcb9f9a2f8895d53acb8fbce55dd8cd9ee3b13f5a38a237f27545ab3807e5416a78bbd39ec781f98f64a1cf9275d000a0060d62b01"
+RPM_NAME = "libmwaw-tools-0.3.21-2.10.aarch64.rpm"
+RPM_HASH = "586996ae8638bf998ec9b3e4e17a050118e937fd45b3f71d5c2a4a6b98cc338ef5eab45e72dcc76518a7ded8618d53e99db6441ef96c11dfa40a8945ea30ac74"
 
 RPROVIDES:${PN} += "libmwaw-tools"
 

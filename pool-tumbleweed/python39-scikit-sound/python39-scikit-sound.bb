@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.2.3"
 
-RPM_NAME = "python39-scikit-sound-0.2.3-3.11.noarch.rpm"
-RPM_HASH = "5df0009e04c3855e02281b6fb13d54ff16251814f4256ce0f0489823b03eb508d8c69e9bb6feaf2d2a32177211b6010e90307e1b923d6d8c4983bc34782583c5"
+RPM_NAME = "python39-scikit-sound-0.2.3-3.13.noarch.rpm"
+RPM_HASH = "e01be1afbdfb04d4030ca0f271927ea5214fe76387d60ae1535d6c8c2b54be5e22a112f53d7d1b0413feb94bc343342455b578e08a33fa51bf3cc779d2b3bb97"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-scikit-sound \

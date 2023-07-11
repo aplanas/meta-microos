@@ -2,12 +2,12 @@ SUMMARY = "Haskell regex-tdfa library development files"
 DESCRIPTION = "This package provides the Haskell regex-tdfa library development files."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.3.2"
+PV = "1.3.2.1"
 
-RPM_NAME = "ghc-regex-tdfa-devel-1.3.2-2.3.aarch64.rpm"
-RPM_HASH = "4d1830fc5defb36811204d133befe591b4f7dc3b8918a316b36c3f7368530c2e99fc27adc40a67d4a160c9e5de3401fda6f97b20224db6488d70bc7ff66997c4"
+RPM_NAME = "ghc-regex-tdfa-devel-1.3.2.1-1.3.aarch64.rpm"
+RPM_HASH = "5d34c86336d167686dc3bd5da3dc62f09c63b9072018d9d3d1c61335cc32ad73c77e13076f1cf853610cc9a192505884b93fceabfe8a8035e95ea774745870b9"
 
-RPROVIDES:${PN} += "ghc-devel-regex-tdfa-1.3.2-CiIqW6NRXBXL0jfv03YXoU \
+RPROVIDES:${PN} += "ghc-devel-regex-tdfa-1.3.2.1-IjrqGmQfrKa7qAUI2VJCmV \
 ghc-regex-tdfa-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

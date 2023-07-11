@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.3.0"
 
-RPM_NAME = "lxqt-panel-1.3.0-1.1.aarch64.rpm"
-RPM_HASH = "aee1699cdf0bb42af98522c92ce9efb71ecd1378928c0da6da07b4b3fe462ea274660092459d5970dfdb0f51dedb1dd5cad5d72a82a4bd02a9d2b4adf5e6f571"
+RPM_NAME = "lxqt-panel-1.3.0-1.2.aarch64.rpm"
+RPM_HASH = "9e1143e62f73359c4dea7f7cedcfb91b67a98627f1e2a2958f00c59589a8a2da896433d68ed28c402b9e2462995456b35787d142207c6bd21eaf6a9e93c4f175"
 
 RPROVIDES:${PN} += "config-lxqt-panel \
 libbacklight.so \

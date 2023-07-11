@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "41"
 
-RPM_NAME = "glade-catalog-gitg-41-2.8.aarch64.rpm"
-RPM_HASH = "cd1ed82360a4cbb13e2661ce127f7cb5d827bfee510d7d197bc6533d24c338d84de08e3d05381638e6f35b479668dafb2e062c4470d1e60bd42ff7f43b43deef"
+RPM_NAME = "glade-catalog-gitg-41-2.10.aarch64.rpm"
+RPM_HASH = "802ca2155240501dcb588f877924cd5001817a0d7e3954561a5804e7aba17d7571dde9c6820a9e5f7322a35688f3f75324296a82907dd564ef308ab52d75f9f3"
 
 RPROVIDES:${PN} += "glade-catalog-gitg"
 

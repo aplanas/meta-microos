@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.3293"
 
-RPM_NAME = "perl-Glib-1.3293-1.18.aarch64.rpm"
-RPM_HASH = "70167df349d585dfcc9b541c2c068f82a1f73cfe65154c5eb3ea580a26c75371a06ad2d71713badcbf6932a9669c76862c842429caa8aa5694e0ae3638e14cb5"
+RPM_NAME = "perl-Glib-1.3293-1.19.aarch64.rpm"
+RPM_HASH = "19b5b17bfe983ed26519d87ce39d8026b4797aeb02a062e313dd654eeff0647e8dd9397a3ff211d6b76d77468b7c7ed1cc24ddf342a442f914de887b48618a06"
 
 RPROVIDES:${PN} += "perl-Glib \
 perl-Glib--Bytes \
@@ -35,7 +35,7 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-ExtUtils--Depends \
 perl-ExtUtils--PkgConfig"
 

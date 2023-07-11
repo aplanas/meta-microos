@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn31696"
 
-RPM_NAME = "texlive-lilyglyphs-bin-2023.20230311.svn31696-91.1.aarch64.rpm"
-RPM_HASH = "a6be50aae53e3eb3ee9e7925c9b9ca9a9e419a10d1dc58ecf480b99dd2e73cb7f80becabc451e023f69fc8fd3f17f40ad1a268735d6712032da446f369cd82a1"
+RPM_NAME = "texlive-lilyglyphs-bin-2023.20230311.svn31696-92.1.aarch64.rpm"
+RPM_HASH = "80103337e8446c214b56167099f09491d26eebcce35a1c829db8cea16cdc93b27234a70d097651a1ef835e23d25d183555dbbd0141ad78886509ace6973f4402"
 
 RPROVIDES:${PN} += "texlive-lilyglyphs-bin"
 

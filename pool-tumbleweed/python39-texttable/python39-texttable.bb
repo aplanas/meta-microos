@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.6.7"
 
-RPM_NAME = "python39-texttable-1.6.7-1.3.noarch.rpm"
-RPM_HASH = "b7df9a53664e9d62b9e14ac88444a56ab117ccc9d7b827018a8630ad54d195b5c85ad2c82ae980a3a5968caaeeba4d55f597f7392eeee10225bdacf785dd039e"
+RPM_NAME = "python39-texttable-1.6.7-2.1.noarch.rpm"
+RPM_HASH = "308dad9807311bdba7881cafbc4605f48c183dfc3874d3826611a2553fadeefa657f5f4e124f83d0d9ea89d4ceb5f3f6e1c2ef8a0055a843a14db3ea8313e695"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-texttable \

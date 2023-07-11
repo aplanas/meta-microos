@@ -4,14 +4,13 @@ write a wide range of image data, including animated images, volumetric \
 data, and scientific formats."
 LICENSE = "BSD-2-Clause"
 
-PV = "2.21.2"
+PV = "2.31.1"
 
-RPM_NAME = "python310-imageio-2.21.2-1.4.noarch.rpm"
-RPM_HASH = "6ed9cc9e2e1196f96b464748496e8ec9edfb8c39fe948448ac45c844ec561d9736e33238228949d855f938d8774266ed53807fa157424642362967ef921ac4b2"
+RPM_NAME = "python310-imageio-2.31.1-1.1.noarch.rpm"
+RPM_HASH = "e45c1328ed0bf37b61bb1a471503db48b33bbab87c67683de7adb79666679c2d17219cc98936f1897d2ba644a0cd6773e517e6b727a860be724fa1c96d9e288f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-imageio \
-python3.10dist-imageio \
+RPROVIDES:${PN} += "python3.10dist-imageio \
 python310-imageio \
 python3dist-imageio"
 

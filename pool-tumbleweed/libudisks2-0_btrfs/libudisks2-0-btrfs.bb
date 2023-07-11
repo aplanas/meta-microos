@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.9.4"
 
-RPM_NAME = "libudisks2-0_btrfs-2.9.4-6.3.aarch64.rpm"
-RPM_HASH = "3e6ea8b9b721cd670461c577ecff5aa4c1b726bf0893234fb24ccd5ec6dc15bc2ad7af110da10df847b49d471dacda7ec8841cddef910ba2adbb49ac21d3ed28"
+RPM_NAME = "libudisks2-0_btrfs-2.9.4-6.4.aarch64.rpm"
+RPM_HASH = "e6d51744cb50894d35afb6114ac5d6a244f9b7b1beb2ab12c19b0cf92fbfd22e77a8161af9179e61af8b990b291682a2ffaea5edab2ef06ddb0f4910bb18960c"
 
 RPROVIDES:${PN} += "libudisks2-0-btrfs \
 libudisks2-btrfs.so"

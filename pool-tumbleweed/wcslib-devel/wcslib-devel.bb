@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "7.12"
 
-RPM_NAME = "wcslib-devel-7.12-1.6.aarch64.rpm"
-RPM_HASH = "2e5931264e5ae43f3255abcc10a9304296f7ea98d70241efba07b04db1385aed11d78f48bcc169c284037f6fab0902dba90293ce72faf982c76255559ba670a7"
+RPM_NAME = "wcslib-devel-7.12-1.7.aarch64.rpm"
+RPM_HASH = "b8d743b2b11c88525b63c77d468f50e3ef25426b0846936d4963f8165f8d4676c55f9199f1bdae508841cbd1a936c554ad7b52d3695f8d3eaa688d89097f85b7"
 
 RPROVIDES:${PN} += "libwcs-devel \
 pkgconfig-wcslib \

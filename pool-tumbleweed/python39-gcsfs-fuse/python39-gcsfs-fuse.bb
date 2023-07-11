@@ -4,10 +4,10 @@ DESCRIPTION = "File-system interface for Google Cloud Storage. \
 This package provides the optional FUSE interface."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.3.0"
+PV = "2023.6.0"
 
-RPM_NAME = "python39-gcsfs-fuse-2023.3.0-1.2.noarch.rpm"
-RPM_HASH = "0ceff9a0c6291a0e1e73d1c6b72ae27602cfe0907f9aea7671f925b8580d2fc7d0e8ef9e69cd687595822521b27332f0ec8c59ff6922c6411b70d2c6ae7b60ae"
+RPM_NAME = "python39-gcsfs-fuse-2023.6.0-1.1.noarch.rpm"
+RPM_HASH = "0e0330d617edbf7c05c0a6b6a9ce949d1d2b9a1d41f019936a17c9711df575a994748a0b1de2bf1ba293fd079d15714383540bd7b63af7da165c0ede998dbbaa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-gcsfs-fuse"

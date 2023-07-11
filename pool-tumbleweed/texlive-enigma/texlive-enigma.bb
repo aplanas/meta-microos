@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2023.201.0.0.1svn29802"
 
-RPM_NAME = "texlive-enigma-2023.201.0.0.1svn29802-53.1.noarch.rpm"
-RPM_HASH = "7a4056ab6b96ce672f6e47fc04c6db8335952fab8a283ebd7b4b4c6a571a2f3501ded4c21729ee2d44da33fa3b3eceb3037871e9e41d6d6090efb21ef1e77bb9"
+RPM_NAME = "texlive-enigma-2023.201.0.0.1svn29802-53.2.noarch.rpm"
+RPM_HASH = "4419d8dd9c6452db554c9e352a0f6664e78435e2dd07a2bf73479d9f1ff74cc3c7ada48ee18f5191e164f3b99a74fb1840f0338715eb35f02d32044691f7b4f1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-enigma.sty \

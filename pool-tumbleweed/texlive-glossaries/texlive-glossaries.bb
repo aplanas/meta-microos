@@ -20,8 +20,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.4.52svn64919"
 
-RPM_NAME = "texlive-glossaries-2023.201.4.52svn64919-53.1.noarch.rpm"
-RPM_HASH = "573a8926319018000acdfceebc1d4c0e745898ce71c9f8e0112d8864c13ebdc7a117f75342edfff5e41aa3578f1b86ed4f4749a589be0671d1afaaeb56ec643e"
+RPM_NAME = "texlive-glossaries-2023.201.4.52svn64919-53.2.noarch.rpm"
+RPM_HASH = "5d087f94f5383b15c32fb2b8bd4b7f0271e3b1456351abe912f048d29dd4dc2245ac89aa3b4964b8f5485679f17d3e1abff8c01ab5825835d8e1076d93fda5ee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-example-glossaries-acronym-desc.tex \

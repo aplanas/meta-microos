@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.5"
 
-RPM_NAME = "blockout-2.5-2.11.aarch64.rpm"
-RPM_HASH = "525608a7c75812ed63f4aef49d38dce8ac88f84ca66cc17550ca4bcc4c7c5127edf3ca35ec4b2d3d0ddcd3f45c7a3690eb8078e4cebd1addc1f1d64556eb4b8b"
+RPM_NAME = "blockout-2.5-2.12.aarch64.rpm"
+RPM_HASH = "99b589495a47f7bdf918918c0a9fb3b71c4f5a3116376a85d93a8b50700b4c50649b13eae7ce774b1778cd45d5f29449df1f09e99c8d1149a51d83ab4464edb3"
 
 RPROVIDES:${PN} += "blockout"
 

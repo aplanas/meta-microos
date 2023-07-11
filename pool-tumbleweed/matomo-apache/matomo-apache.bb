@@ -2,10 +2,10 @@ SUMMARY = "Apache configuration for matomo"
 DESCRIPTION = "This subpackage contains the Apache configuration files"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.14.2"
+PV = "4.15.0"
 
-RPM_NAME = "matomo-apache-4.14.2-1.2.noarch.rpm"
-RPM_HASH = "92f3f78ea1cd511887f812fa3901da60ad3a721724bae60df253eee84f8d0e0ddefd1fb756d00f922df467fea954245dc74c1f8fe233399de0480533dfbfa4ae"
+RPM_NAME = "matomo-apache-4.15.0-1.1.noarch.rpm"
+RPM_HASH = "02d15470e113c50292ccbf1235149173f725413ea3c051b96122ccda1773200bc3dd8c915fe7b69670e98eed8e4c5e1ba322921ba16610d5e38bed4e1c034ec3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-matomo-apache \

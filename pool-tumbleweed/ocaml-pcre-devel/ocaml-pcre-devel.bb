@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "7.5.0"
 
-RPM_NAME = "ocaml-pcre-devel-7.5.0-2.10.aarch64.rpm"
-RPM_HASH = "ba9e69b8384ffb35718883d93bf0838761e2a4796797abc3695627c7e4a1c3a3446a5e7abef3904f03be35f2dad77d15527425d206ceb138a30862c194d971a3"
+RPM_NAME = "ocaml-pcre-devel-7.5.0-2.11.aarch64.rpm"
+RPM_HASH = "0fefc2f4888e5b1cdcd5711f0ba629c90c1fdb10044e2873cc4acabcc0b35684816e196d21bb9bdfbdcf070695e174a8966749064051794c5cb1d03defdcaba5"
 
 RPROVIDES:${PN} += "ocaml-Pcre \
 ocaml-pcre-devel \

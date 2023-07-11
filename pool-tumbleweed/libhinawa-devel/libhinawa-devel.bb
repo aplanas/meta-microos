@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.4.0"
 
-RPM_NAME = "libhinawa-devel-2.4.0-1.6.aarch64.rpm"
-RPM_HASH = "8857d254a5f8764d592a3fd11c01307ff73282ee82900466843124b7644c0727841303b83e07fd2d4ff33ecc8846bed73e1413b5717c17553b7eeef0c7a1b0d5"
+RPM_NAME = "libhinawa-devel-2.4.0-1.7.aarch64.rpm"
+RPM_HASH = "6419a6b9c0c53545e08da91ddc3f672293aa0bd338225b1d3536da8efa2f10796cf529504813a3699a06cf78e166e583c972df952826075637c099b4207d655e"
 
 RPROVIDES:${PN} += "libhinawa-devel \
 pkgconfig-hinawa"

@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "0.4.0"
 
-RPM_NAME = "python311-Flask-Principal-0.4.0-3.8.noarch.rpm"
-RPM_HASH = "a30e87af90f8d86432ba306727cd245237e3309be96609d02afbdae4d7ac15970c6b46ebc8fe1098e08f61192f487fb58f1695c453239e06210c2e94c58488be"
+RPM_NAME = "python311-Flask-Principal-0.4.0-3.10.noarch.rpm"
+RPM_HASH = "09853e8299d086043dec64a04e3f2404975b53dd29efd648eb3d3e8534149f6d3927e50610b3da6b534aa82be83d9a7eff6d9269b395f45b99a8fe445cd83a1a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-flask-principal \
+RPROVIDES:${PN} += "python3-Flask-Principal \
+python3.11dist-flask-principal \
 python311-Flask-Principal \
 python3dist-flask-principal"
 

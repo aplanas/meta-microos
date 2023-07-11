@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "1.8.8"
 
-RPM_NAME = "icedtea-web-1.8.8-1.10.aarch64.rpm"
-RPM_HASH = "b2ff2de3fa34ffff595086fccb6f4b65738608f562980718882ec15cc2761dbfc40199f8127cf50a910234063d71402893f93aee18c3002d885c1f5caa0865be"
+RPM_NAME = "icedtea-web-1.8.8-1.11.aarch64.rpm"
+RPM_HASH = "8d2fb4ca94392509b719d60bb81a0208134092071b890e68ca69aa4284036815348138d309a7655f3cd8bc7fea398febcccfc5c77eb1ff5b0b6d4e0759131add"
 
 RPROVIDES:${PN} += "icedtea-web \
 java-1-6-0-openjdk-plugin \

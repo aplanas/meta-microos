@@ -4,8 +4,8 @@ LICENSE = "NCSA"
 
 PV = "0.4.15"
 
-RPM_NAME = "python39-pywayland-0.4.15-1.4.aarch64.rpm"
-RPM_HASH = "6a8cc40ac360ecea2dcb3397175a4ae3e28364ee9afebb82d1286735bf45611cd3c51862c029299f5d543f2b96ad1ac4be1c15ad7394032403765ae96623a196"
+RPM_NAME = "python39-pywayland-0.4.15-1.5.aarch64.rpm"
+RPM_HASH = "7c11b39f6035e3d7526fc41df6e39464baeea74bd679804d742f8e7fd10f319ca49721aa6e6239a348421349a9b93208376ff78538dbd1e87023e9d0e7bc604d"
 
 RPROVIDES:${PN} += "python3.9dist-pywayland \
 python39-pywayland \

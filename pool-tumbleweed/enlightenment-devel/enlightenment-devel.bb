@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.25.4"
 
-RPM_NAME = "enlightenment-devel-0.25.4-3.3.aarch64.rpm"
-RPM_HASH = "8793ac7d75df6d202db11caa8ca5d83a4dcdc80204251bfa9132c653a838719d84f88a9fdeb52fe30b10be56fb6824a4d7dd4bb631d217eea30acf7d7b363ca6"
+RPM_NAME = "enlightenment-devel-0.25.4-3.4.aarch64.rpm"
+RPM_HASH = "c73c4392af26d419a0a493e990323d974d5d29514f9c6b7c5de01ff8157c4a55d61bcafb9025868308899865bcdeec14022310edca2dd8e7cbf79ac2c28464e3"
 
 RPROVIDES:${PN} += "e17-devel \
 enlightenment-devel \

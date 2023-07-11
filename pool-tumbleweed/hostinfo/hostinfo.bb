@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.0.7"
 
-RPM_NAME = "hostinfo-1.0.7-1.5.noarch.rpm"
-RPM_HASH = "bff2a9e961c81c4849e7e8d517cdb9cdfd5244988c3a595166d7cf1821523b8fa87e9fed33d38c85637526c67b267f8f3cba7adc6a88b8abac56e6ffa4816a65"
+RPM_NAME = "hostinfo-1.0.7-1.6.noarch.rpm"
+RPM_HASH = "d990483a8b1d62e2a5e252fbc6daca9aab271731297df76eac8ae4a14d5dab602b900c7956e5511ba96d8426b9f96aa9a91aef516c061f319c60d81318310d46"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-hostinfo \

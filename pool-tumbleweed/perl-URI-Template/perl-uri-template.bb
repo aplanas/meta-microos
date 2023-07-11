@@ -5,14 +5,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.24"
 
-RPM_NAME = "perl-URI-Template-0.24-1.15.noarch.rpm"
-RPM_HASH = "5351b871f71e9868e7ceff147706ef301e61916fc3a1c58df776573cd0181b794bbf374c2abf5d1da4e563b0f67da913d08e72c34b921dd0b5069a8d2b2d5551"
+RPM_NAME = "perl-URI-Template-0.24-1.16.noarch.rpm"
+RPM_HASH = "74c9712b2a6641978556765a4ad24e0adcd1425564930681a04e303a4a48cccd3462892a9448a152a2750d1f5d30879546cc9fe8754e578069eea91688d79dc1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-URI--Template \
 perl-URI-Template"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-URI \
 perl-URI--Escape"
 

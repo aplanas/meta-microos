@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kmines"
 DESCRIPTION = "Provides translations for the 'kmines' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kmines-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "18fa3708695b83d9421d9a5551d37ef8846e08a21eff21817a9a1d04cb5b1ff09c3b51595638f1f4aed63908e61b388bfcafd918d7ba762f824e5eacd592949f"
+RPM_NAME = "kmines-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "02c36216ca55a3b22edb30aa07ab96f5bd0b81ffb4be5619ecfc7d3b821349623017d16036bf176e58c4cb59f705301180659847d26201a1d94ad963ad5fafb7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kmines-lang \

@@ -3,10 +3,10 @@ DESCRIPTION = "QtQuick plugins to build user interfaces based on the KDE UX guid
 Based on Qt Quick Controls 2. This package contains the base shared libraries."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "libKF5Kirigami2-5-5.106.0-1.2.aarch64.rpm"
-RPM_HASH = "36e622ef88e02d29a610a3f4c96c2a2c8bb0d71ffa70eee101c6a042609e8c8a30e0afa6b4f25d6732f33e046f2c457e8c3d3296b74a0df044c755199bdafd32"
+RPM_NAME = "libKF5Kirigami2-5-5.107.0-1.2.aarch64.rpm"
+RPM_HASH = "5795b7a28c6a0cfa9c49c58b3258ebe7a1ef52807867540732b7cbb754a5062e5b459d8cf45a788fb24518f9b5f8a310169e0fdbdad8dd1bfab8053d01ef215e"
 
 RPROVIDES:${PN} += "libKF5Kirigami2-5 \
 libKF5Kirigami2.so.5"

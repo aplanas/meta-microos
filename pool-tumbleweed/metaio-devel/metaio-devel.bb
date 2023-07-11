@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "8.5.1"
 
-RPM_NAME = "metaio-devel-8.5.1-1.8.aarch64.rpm"
-RPM_HASH = "bf2256fc297679359c6a4fd9dec256b61d5ff62bddc37c758449a9d186727edbfa7a9d9afbec31fd471107859a9a9eb3967400f5e3b8b67673d6fab4387a15a0"
+RPM_NAME = "metaio-devel-8.5.1-1.9.aarch64.rpm"
+RPM_HASH = "f6e790a7384a569311f614944ed006fc72eee3c4ef39ecacf605673f690a921d4d0b8f456c94263fa250f6e4c88986616a6cc17c9b07d258a3baecde048e33d6"
 
 RPROVIDES:${PN} += "metaio-devel \
 pkgconfig-libmetaio"

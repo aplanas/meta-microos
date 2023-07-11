@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "2.0.0"
 
-RPM_NAME = "python311-azure-mgmt-orbital-2.0.0-1.2.noarch.rpm"
-RPM_HASH = "eaaa380b14e5595fc8488d20a6f34a68a56ff8135b620e3e9ae2cbdb8a41cb3d7c8fc0416c5fc4a5c4396cc5c5405e0130775ef899890f980ec47d6e32c577d5"
+RPM_NAME = "python311-azure-mgmt-orbital-2.0.0-1.3.noarch.rpm"
+RPM_HASH = "131b0f77ade02f9be97cfa04927a1557ac63a98fe19ceb7851efc28c97bab7bdb97a3c7a14be7c42785941b1f0fba79090ee2fe27d240ee7dc492e0a96d91a3f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-orbital \
+RPROVIDES:${PN} += "python3-azure-mgmt-orbital \
+python3.11dist-azure-mgmt-orbital \
 python311-azure-mgmt-orbital \
 python3dist-azure-mgmt-orbital"
 

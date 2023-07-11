@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.5.21"
 
-RPM_NAME = "deepin-polkit-agent-devel-5.5.21-1.2.aarch64.rpm"
-RPM_HASH = "18c7f2b4db44b48a0f1cbf3a7386d05cbeb3b089e22834c8939405ce4004ee64718e2f609fd6247fdce62cd38c759fee3973a03bf7e22bb25ca67f99f89f91cb"
+RPM_NAME = "deepin-polkit-agent-devel-5.5.21-1.3.aarch64.rpm"
+RPM_HASH = "4b8c0546caec196514793497238ff361cf3362c29533795a2dfa33578c54c9a8ea07c653b0241ad216ec3e2ca1c6c753bfef9976db0e6d5e6684aed8a9d7b137"
 
 RPROVIDES:${PN} += "deepin-polkit-agent-devel"
 

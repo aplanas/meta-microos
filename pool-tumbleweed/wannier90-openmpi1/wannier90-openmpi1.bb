@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "3.1.0"
 
-RPM_NAME = "wannier90-openmpi1-3.1.0-2.3.aarch64.rpm"
-RPM_HASH = "804c04b314d2e2d71a78de3b284c8fb2d931a649abb4684b0acc64063e50895130c0409ce44ad36cacd246bf5d9a7a09985d2b59b0269cfd8919a7a0febf36c6"
+RPM_NAME = "wannier90-openmpi1-3.1.0-2.4.aarch64.rpm"
+RPM_HASH = "a8d8bdc033eaca7bb7b775e176f92b0760dc555b6e986c647780c6621c8e9977ad2290649f5d4e48ee60da96c3dd2500df878c334afa52cda73b1dd13e60caa5"
 
 RPROVIDES:${PN} += "wannier90-openmpi1"
 

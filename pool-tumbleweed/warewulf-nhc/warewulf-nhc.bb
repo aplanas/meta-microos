@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.2"
 
-RPM_NAME = "warewulf-nhc-1.4.2-1.9.noarch.rpm"
-RPM_HASH = "2bd7bc941360b978a0ab8b612e668f2868a7def7de6cb5a22c774a9dc35c1d9bb1ccc18c330e0f46e6280292a42847c37c07c4c3626859f71e09723449b75fc2"
+RPM_NAME = "warewulf-nhc-1.4.2-1.10.noarch.rpm"
+RPM_HASH = "77e65f3d12fd9b4da93ec351131b196f5bdfeeea4b4c9f7a0e93e249b0558b101002b2b586833e98f69ca1f64046b62084123cb223ef9869a5c550e013fcb64e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-warewulf-nhc \

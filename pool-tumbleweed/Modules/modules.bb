@@ -22,8 +22,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.8.0"
 
-RPM_NAME = "Modules-4.8.0-1.7.aarch64.rpm"
-RPM_HASH = "d1df6739eb74229533b01dedb7f57b1b9606da646f82c0da2644bd9d92953132739390c4fd176ce0835321bc2ccf23ce5bcc44e5d8bed28f0d689ca8bddab303"
+RPM_NAME = "Modules-4.8.0-1.8.aarch64.rpm"
+RPM_HASH = "056469acd8bfa2fb44565f6e4d79282057bba07191ba737aaf4f8a2f8357b8d6163e6c4123e5577ca43a67fe4e3d39487994afe161a55b857d7357d41f075d4a"
 
 RPROVIDES:${PN} += "Modules \
 config-Modules \

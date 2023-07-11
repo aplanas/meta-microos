@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.10"
 
-RPM_NAME = "libtcmalloc_debug4-2.10-1.5.aarch64.rpm"
-RPM_HASH = "8560ec9aad59818dd5273536ea858b1fdba5de81cf4e7c25d11ce2bca3f31082d116b0e70b2734621965015108832cd3b18e48348e5cb83971336d8a0603d60a"
+RPM_NAME = "libtcmalloc_debug4-2.10-1.6.aarch64.rpm"
+RPM_HASH = "7053254963d0d11ac46af1d9866b4e49f511e7da9ce01d5f5736763389ce93c8578eb4d116c01bacb305becc96147ecea3366c83763b399749eb85a6e7d05484"
 
 RPROVIDES:${PN} += "libtcmalloc-debug.so.4 \
 libtcmalloc-debug4"

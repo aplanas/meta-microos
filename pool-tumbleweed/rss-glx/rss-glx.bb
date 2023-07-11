@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & GPL-3.0-only"
 
 PV = "0.9.1"
 
-RPM_NAME = "rss-glx-0.9.1-23.10.aarch64.rpm"
-RPM_HASH = "c0e9d6316990816d2f8cb0e6099b9dd8125febb3799d648a3c5bf6db3f6d19b3687a96ea3f2099d87d0524a6c406c24ae4efa3ebe5d216242a1dda44915b946b"
+RPM_NAME = "rss-glx-0.9.1-23.11.aarch64.rpm"
+RPM_HASH = "387413e82290d1dcb461ee0aafc3785ad0cd9e7a15d9a66816c6ccac0c1701e74e6b5681a0f2952b9be531f7ce3eef1120acadc9308761728b72b2925d97740d"
 
 RPROVIDES:${PN} += "config-rss-glx \
 libImplicit.so.0 \

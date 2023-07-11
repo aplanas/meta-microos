@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.20.0.18+git.7b1a20b"
 
-RPM_NAME = "tuned-utils-systemtap-2.20.0.18+git.7b1a20b-1.1.noarch.rpm"
-RPM_HASH = "af2b8d1f9f776f31abc3ecc41d02e2d1886877e21c1f8aa452f66b501226f59b4e318eb0a143fb4436b5f2cdf354817b16b5ac4432c909eac6dbf092bccd1ee4"
+RPM_NAME = "tuned-utils-systemtap-2.20.0.18+git.7b1a20b-1.2.noarch.rpm"
+RPM_HASH = "f76b2b99719d7ede015282c0e5021fcf7a41a269b0c478a938c7324010ccc876376e8b8f63eaf157fd7f0c0a0c2d4e49d82de58d7d55d474998072d0b0092c22"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tuned-utils-systemtap"

@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.8.0"
 
-RPM_NAME = "python39-python-whois-0.8.0-1.3.noarch.rpm"
-RPM_HASH = "648ae9ff80d1926ad5e4f3e94dd6257bcc00a2f291084e5107aa361ebebf7fb0e76162669985fbffdcd6e6b9a88984c343b883096e836df2695394019e323d10"
+RPM_NAME = "python39-python-whois-0.8.0-1.5.noarch.rpm"
+RPM_HASH = "98506dd4b1faa13a6c91df5bf6457fd31c8db8d9cd70c8d1c43d9be14aeae339f7deb4ac31bcfef42cf5528c718242273bd2f88eec37a7ff630517912e8a1e87"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-python-whois \

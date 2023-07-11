@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the development files for building integrat
 developments environments based on the KDevelop framework."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kdevplatform-devel-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "1447cd14a4d66e47e1000f88339ddfae179e448b47424912269546a1f2052b82392cdc85f75ec930a95e67586d9a2ed1183415a21ec0276d4c17ca346998d7dd"
+RPM_NAME = "kdevplatform-devel-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "e04a799ac51bd3de967af80293e4e3856aa3cf8702a1cc6d6434941a47618efebedb894c51645f3ab0327035549f1099abc57fc9faaf28c523ab10bb11f9977a"
 
 RPROVIDES:${PN} += "cmake-KDevPlatform \
 kdevplatform-devel"

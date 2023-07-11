@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "9.4.2"
 
-RPM_NAME = "libdeal_II9_4_2-9.4.2-1.4.aarch64.rpm"
-RPM_HASH = "ee2d313facf42c33d7bd984f15b719fc2356e919d702ef359ee4681a32279de12ca360fd799b4d485fd027dcb0501e88773608d54c7e3285b32ff1be894d19ab"
+RPM_NAME = "libdeal_II9_4_2-9.4.2-1.5.aarch64.rpm"
+RPM_HASH = "a705d7cf5056b5660bf30f62881c85b3d63e24b011f8b428e88eede907d91f52f6a269de8d0254e04b6a9bd73a45ae8c4750c93882f91d2b6669d1df092ecc68"
 
 RPROVIDES:${PN} += "libdeal-II.so.9.4.2 \
 libdeal-II9-4-2"

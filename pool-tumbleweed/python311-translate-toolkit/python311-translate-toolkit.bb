@@ -20,13 +20,15 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.8.6"
 
-RPM_NAME = "python311-translate-toolkit-3.8.6-1.2.noarch.rpm"
-RPM_HASH = "f57eb3bd00fd1fd7fcf3771b8c7679c2e0cc68b806a3510965b8e0d7e437db3aa258a8f2cabc773a5fa707c4b36f964454e1f8f1ff05fe1e5566dbf48552780b"
+RPM_NAME = "python311-translate-toolkit-3.8.6-1.4.noarch.rpm"
+RPM_HASH = "2ce31727ffc43554a42a736a1628f3e5314c9ab5011fa461000ca690f229a354eb49836dc2381ad20270ad576cdbcb558beb236bbb70ae21a09f6df132f049b4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-translate-toolkit \
+RPROVIDES:${PN} += "python3-translate-toolkit \
+python3.11dist-translate-toolkit \
 python311-translate-toolkit \
-python3dist-translate-toolkit"
+python3dist-translate-toolkit \
+translate-toolkit"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3.11 \

@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & MIT"
 
 PV = "1.0~alpha11"
 
-RPM_NAME = "native-maven-plugin-1.0~alpha11-4.8.noarch.rpm"
-RPM_HASH = "065576db52135e8ab523d49f5e416b1415d112b6f4527219123742d9239e99bc905fdc6992c2086b80d0ad6bd909b9835570dfa06db841c39ce9f3295a04bc54"
+RPM_NAME = "native-maven-plugin-1.0~alpha11-4.9.noarch.rpm"
+RPM_HASH = "a38e72e9c812615b18c1869fa3f35aa2e453cd7b288b5b80d24d5d8a46acaf4183ea19a0c004e59b025d937e7b9b7c37f37d19f8b88c4d9020ed7cd431d4e245"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.codehaus.mojo-native-maven-plugin \

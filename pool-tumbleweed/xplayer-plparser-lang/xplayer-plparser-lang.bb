@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "1.0.2"
 
-RPM_NAME = "xplayer-plparser-lang-1.0.2-2.12.noarch.rpm"
-RPM_HASH = "5095ab289ecedc85648ae43b400b4690c5b3d7622be37886898d80367daf4f3828dda26323af0f5c31cabc0d20f7f878366cdffa9de9d7ec7f3f1c6528c3c299"
+RPM_NAME = "xplayer-plparser-lang-1.0.2-2.13.noarch.rpm"
+RPM_HASH = "bb49091f01ff9cd4ce13a067bc4247604cacd32d8dad1e3f5d3e7a2db3c30ce188671037eb8b81ec460cc0685afecaf70c35fc8081606394b6f01c663614117e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xplayer-plparser-af \

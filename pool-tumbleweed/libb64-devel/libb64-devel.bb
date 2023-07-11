@@ -6,8 +6,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "1.2.1"
 
-RPM_NAME = "libb64-devel-1.2.1-3.12.aarch64.rpm"
-RPM_HASH = "8c015e1d7baebaeae561d74fa7f7b6a4e4c48cca89f576ab1367b8bf5534c9ff5d93c9ffa70a2f47a3490922b5bb2114738007c16824c45ac087ae09cb85f982"
+RPM_NAME = "libb64-devel-1.2.1-3.13.aarch64.rpm"
+RPM_HASH = "02fd87b294dbcd0901e4dc6da2cd0f0bd9712f229f85ff3be249f5dc0b0d412f7224a0d9595183a900b0f42a257926bf9379eabd929a00fb0781ca2d633fecac"
 
 RPROVIDES:${PN} += "libb64-devel"
 

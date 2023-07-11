@@ -5,10 +5,11 @@ LICENSE = "MIT"
 
 PV = "8.17.0"
 
-RPM_NAME = "python311-bitstruct-8.17.0-1.1.aarch64.rpm"
-RPM_HASH = "88b9c9e9588fcc0f8bdf3ecf9d3eba1687b1d0fbcf27235eddbc5302fe3b6e8718b6119469d62f69e708805105166d0a11e7d5d138ff0657132919b6feb48bb5"
+RPM_NAME = "python311-bitstruct-8.17.0-1.3.aarch64.rpm"
+RPM_HASH = "f7cf6e39c5d3c03a214c5e8c503c06652ccb859f897084cd7aa5ec0617f089a791866b7a37e2366b26a838a60d25107acb65936c1e617c9abbe13cd07fe09f3d"
 
-RPROVIDES:${PN} += "python3.11dist-bitstruct \
+RPROVIDES:${PN} += "python3-bitstruct \
+python3.11dist-bitstruct \
 python311-bitstruct \
 python3dist-bitstruct"
 

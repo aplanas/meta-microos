@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.0svn35665"
 
-RPM_NAME = "texlive-glossaries-irish-doc-2023.201.1.0svn35665-53.1.noarch.rpm"
-RPM_HASH = "4d8dbcb259e180e6a4e37169047ec6ab5040f25d8d8fcc4e86fee6ada1d67a9e15cc66642df275029caf3275a531b4d315572224229c013cf9e95e2f347db5c8"
+RPM_NAME = "texlive-glossaries-irish-doc-2023.201.1.0svn35665-53.2.noarch.rpm"
+RPM_HASH = "120e85757a6f1d923fed4871a761544eb1dfb889feb9f9beb9ee33cb4b15f233bb978c33b2a641217a78223f0d7aa5fe90b97587f8161769374f4de0f59dbfec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-glossaries-irish-doc"

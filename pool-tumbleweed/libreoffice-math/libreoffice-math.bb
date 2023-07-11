@@ -3,10 +3,10 @@ DESCRIPTION = "This module allows you to create and edit scientific formulas and
 equations by using LibreOffice office suite."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.1"
+PV = "7.5.4.2"
 
-RPM_NAME = "libreoffice-math-7.5.4.1-1.1.aarch64.rpm"
-RPM_HASH = "e728a29dab303d9713c24c2ed54c3e758ff5764acc71b4dc9bc3c03b8b4e88fe1b8c4514c602239b7f0d01893cacc51578e17d8a813c07b0ae85c13e89e0cd9c"
+RPM_NAME = "libreoffice-math-7.5.4.2-1.3.aarch64.rpm"
+RPM_HASH = "9bd28de2f5f1df2abb0eb9cb605b51180ab695b8d7561fb80c1bba186e9ce626b04fb1ef8b01e408c6658d63a46a280fae3150e8192f125c5b07b2be9ade5a2d"
 
 RPROVIDES:${PN} += "libreoffice-math \
 libsmdlo.so \

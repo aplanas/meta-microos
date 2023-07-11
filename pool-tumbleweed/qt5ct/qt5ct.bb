@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.5"
 
-RPM_NAME = "qt5ct-1.5-1.16.aarch64.rpm"
-RPM_HASH = "2e3b85773bd31165aa64ad9bb868d7bf1d02145440371f47b291938dbefd8036ba390fd1644951393687d3dafd04defecbe469a119660041457e4d15840bfcae"
+RPM_NAME = "qt5ct-1.5-1.17.aarch64.rpm"
+RPM_HASH = "ab43d258cd244232a16a30676af8bcb900a863e1925fc276d0437bfce0efa1fa79d73cf0b9592c73003bbe4d2e62fc47707fd3d2b57b2a8cd27e939244a340b2"
 
 RPROVIDES:${PN} += "config-qt5ct \
 libqt5-qtct \

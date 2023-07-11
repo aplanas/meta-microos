@@ -2,10 +2,10 @@ SUMMARY = "Meta package for dependencies to build MRI"
 DESCRIPTION = "Meta package for ruby-build dependencies to build MRI."
 LICENSE = "MIT"
 
-PV = "20230512"
+PV = "20230615"
 
-RPM_NAME = "ruby-build-dependencies-mri-20230512-1.1.noarch.rpm"
-RPM_HASH = "8cb4c5c6df09729d509432a06599f5a5895f0420aca2ecd5a591e68d6c4020fe4c8fcc9c9a804f29a8e755f794a26cf678f75b08bbb0738f03f1a07c459c1f04"
+RPM_NAME = "ruby-build-dependencies-mri-20230615-1.1.noarch.rpm"
+RPM_HASH = "fb7cb4d26a94b6edd8d1f97946ff4497b4b130233a6a798a63afabcf63ab8b0eb04b7a2be29bf9aac9f560f55d413454af11d86cc8e7fac4405fb4ab620f0ebe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ruby-build-dependencies-mri"

@@ -9,11 +9,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.0"
 
-RPM_NAME = "python311-ipython_genutils-0.2.0-3.11.noarch.rpm"
-RPM_HASH = "9c19812a65fe6e8e40ab1160246dc4475b39a674d600587ffc0953b7e59af4373dc6788d0b788eaaff12367dad34e7592ec2ddaf0a5c8b3d3c1475d30ed1fa1d"
+RPM_NAME = "python311-ipython_genutils-0.2.0-3.13.noarch.rpm"
+RPM_HASH = "b645529012084b0058618c888cdf5a4fc1c5d940fbc24495baabca9608e89230277b8c749e727bcc7395c05627be7cda886a1e40cc83dece25c3c7ec254683f5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-ipython-genutils \
+RPROVIDES:${PN} += "python3-ipython-genutils \
+python3.11dist-ipython-genutils \
 python311-ipython-genutils \
 python3dist-ipython-genutils"
 

@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0-or-later & GFDL-1.2-only"
 
 PV = "0.6.3"
 
-RPM_NAME = "florence-0.6.3-5.10.aarch64.rpm"
-RPM_HASH = "d01417dd25bbe55482ac204373644e0f61819eb273c9a8d44edf1f33fb3874c21226397278a5dfffc6ede55f16068a4a9f8126c634d1d68d5ba6f0e277956f32"
+RPM_NAME = "florence-0.6.3-5.11.aarch64.rpm"
+RPM_HASH = "ff1b144d1c6d5a890e02b2797da3f0ac195c25dd7fd09aae16b999d65fb2e89b9620338b3f67ca6a08b4ca998dd74f8096be8b786d76a7b26aa38a4fbe26f313"
 
 RPROVIDES:${PN} += "florence"
 

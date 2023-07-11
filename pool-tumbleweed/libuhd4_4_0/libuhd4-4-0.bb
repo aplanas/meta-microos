@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.4.0.0"
 
-RPM_NAME = "libuhd4_4_0-4.4.0.0-1.4.aarch64.rpm"
-RPM_HASH = "95f168569c774e1469ec7a712252e065043f4d46b00ccc01fd995c869a0d7d83543ad66ed69789307ccd7c9e39a2e9055fb87be703b6e0003186e20a324422a2"
+RPM_NAME = "libuhd4_4_0-4.4.0.0-1.5.aarch64.rpm"
+RPM_HASH = "837e23b70a457d07cb49ce88f2458d337066342727ad8d0a2939c6677d359406ee5c2f1933d33cb99a30c4dcc607e578f672b48fd75bf9478479e8bc741cefbc"
 
 RPROVIDES:${PN} += "libuhd.so.4.4.0 \
 libuhd4-4-0"
@@ -23,7 +23,7 @@ libboost-thread.so.1.82.0 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libstdc++.so.6 \
 libusb-1.0.so.0 \
 shadow \

@@ -7,12 +7,11 @@ LICENSE = "MIT"
 
 PV = "0.9.1"
 
-RPM_NAME = "python310-tableprint-0.9.1-3.3.noarch.rpm"
-RPM_HASH = "e15c5d9ae46fc052eea6a76a94c61a2b19761a8730cd56a5c8fd43e39301b3c278312c75b9e6aa65171ffcad3ffe8e65f3d1d3de57cc8ff9d50f7dda6ace80d8"
+RPM_NAME = "python310-tableprint-0.9.1-3.5.noarch.rpm"
+RPM_HASH = "db92b1900c581ab969b05cd584f9df67aff899b0d28b874316b3d0d2e6d59af7d40a19962266857cdd3e770e0ab009822f20431443a3a83841b84cf5bcd4ebb4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-tableprint \
-python3.10dist-tableprint \
+RPROVIDES:${PN} += "python3.10dist-tableprint \
 python310-tableprint \
 python3dist-tableprint"
 

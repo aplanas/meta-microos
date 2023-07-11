@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-connectivity-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "9a7469c8e4485fc3044301540989e8c03ee8575000ce716c4b968e37a3224937d79cc9d6798c0e34cf187d3b615df4c44b2ee9c9f071850d2c2a9a4b4af7e222"
+RPM_NAME = "qt6-connectivity-devel-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "8d20c4fcfedfc2e9c43c76e5fa0e744ecdde94e6703da04d574fd5f8654817da9793367853ce6f2cf84ac53831a29a0f30e3c94d4f73bed121837a326f745b72"
 
 RPROVIDES:${PN} += "cmake-Qt6Bluetooth \
 cmake-Qt6Nfc \

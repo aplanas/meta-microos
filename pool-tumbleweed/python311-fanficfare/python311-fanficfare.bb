@@ -12,11 +12,12 @@ LICENSE = "GPL-3.0-only"
 
 PV = "4.21.0"
 
-RPM_NAME = "python311-fanficfare-4.21.0-2.2.noarch.rpm"
-RPM_HASH = "55b457bd5610c3564e4a7edac62bc99261713d5410550f5205348e2d2c885c8098becb8cac2c150f3b06ce3544a957c0977aeee3f0c1a091f71e78b1b84c5325"
+RPM_NAME = "python311-fanficfare-4.21.0-2.4.noarch.rpm"
+RPM_HASH = "12f369704674cfa931ea0dd30ef1d17210a509c3391a1348ce9cc4f491129aac21066c0bef7f42a1785a0d0d7a86c46d3a6fcd4b54c1394e11dec1fdf22b0665"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-fanficfare \
+RPROVIDES:${PN} += "python3-fanficfare \
+python3.11dist-fanficfare \
 python311-fanficfare \
 python3dist-fanficfare"
 

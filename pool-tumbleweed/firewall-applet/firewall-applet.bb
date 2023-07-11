@@ -3,10 +3,10 @@ DESCRIPTION = "The firewall panel applet provides a status information of firewa
 the firewall settings."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.3.2"
+PV = "2.0.0"
 
-RPM_NAME = "firewall-applet-1.3.2-2.1.noarch.rpm"
-RPM_HASH = "d8df94fe41843b6b646181ce6f3c2ef4ef2de2e5bedbfa349f6be362e90ba1404cecf699231810071063afbfa4a5ef73a99c29f9af1ebdff8a53762b9a766196"
+RPM_NAME = "firewall-applet-2.0.0-1.1.noarch.rpm"
+RPM_HASH = "2b6891e28fbc818652c61011329a765154e6830382952dad6fbbdcb5b12dcac5940a6ec83e717106c4426aa28c7a0db4941ffb8d51854d6f2b31d108ef809300"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-firewall-applet \

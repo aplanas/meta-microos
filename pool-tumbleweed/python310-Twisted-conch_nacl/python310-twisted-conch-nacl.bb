@@ -1,20 +1,16 @@
 SUMMARY = "Conch w/ NaCl for Twisted"
 DESCRIPTION = "Twisted is an extensible framework for Python programming, with special focus \
-on event-based network programming and multiprotocol integration. \
- \
-This metapackage is for the optional feature Conch with NaCl"
+on event-based network programming and multiprotocol integration."
 LICENSE = "MIT"
 
 PV = "22.10.0"
 
-RPM_NAME = "python310-Twisted-conch_nacl-22.10.0-6.1.noarch.rpm"
-RPM_HASH = "544ba37ea9a696ea9992c3d15ea532af4ebc1d93bc7c0bb8dbe3ab552401af4d8b6bb576a30f6391e37b6b35699e562d1f29d9e2aaa8e365394eb0bda484a26f"
+RPM_NAME = "python310-Twisted-conch_nacl-22.10.0-7.1.noarch.rpm"
+RPM_HASH = "5e0e3bab4a353bcd339931c90eb076f5f77a4ec32931e25fbf92cedc084b028c51ba142d9f3a86cf09036059bbbe3c719e501592e8bc07fd9a1b7ef782f31563"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-Twisted-conch-nacl \
-python310-Twisted-conch-nacl"
+RPROVIDES:${PN} += "python310-Twisted-conch-nacl"
 
-RDEPENDS:${PN} += "python310-PyNaCl \
-python310-Twisted-conch"
+RDEPENDS:${PN} += "python310-Twisted-conch"
 
 inherit rpm

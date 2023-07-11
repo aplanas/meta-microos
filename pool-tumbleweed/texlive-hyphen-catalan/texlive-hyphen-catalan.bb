@@ -2,10 +2,10 @@ SUMMARY = "Catalan hyphenation patterns"
 DESCRIPTION = "Hyphenation patterns for Catalan in T1/EC and UTF-8 encodings."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn58609"
+PV = "2023.208.svn58609"
 
-RPM_NAME = "texlive-hyphen-catalan-2023.201.svn58609-52.1.noarch.rpm"
-RPM_HASH = "3e1c2ad147f36cede911573af3356c1c4afa46777f21d526a744501557080170ded94bbfc3ca210a27e272da1482469f11438d72da9b7648e597b774e4582a93"
+RPM_NAME = "texlive-hyphen-catalan-2023.208.svn58609-53.1.noarch.rpm"
+RPM_HASH = "ef57ea06cc7d0fadea7652467fb87b27196f320418246c5702c2ccf899e264b29d6c81d492e3ed528c73c85c7d4a08ee92c4ea9d9739f5686d888cfba8c03f37"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-ca.ec.tex \

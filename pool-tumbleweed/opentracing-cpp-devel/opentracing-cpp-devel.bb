@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.6.0"
 
-RPM_NAME = "opentracing-cpp-devel-1.6.0-1.9.aarch64.rpm"
-RPM_HASH = "88fd4c3c81f62bf6150bd95988b1660537a1df13bc556caef3ac9d2211aa7fe51bd0219c4765766c842a7a2b55a4f16124595f2353ab9a0aad64a0991a20fa5f"
+RPM_NAME = "opentracing-cpp-devel-1.6.0-1.10.aarch64.rpm"
+RPM_HASH = "42010407ce96f81f0c7eab2308f124f89f03255cfb29f596488a89aabfc88dff5f66d80a2034ed39facccde7552dc7c007836953b6ee64b5d9db31da33857a0d"
 
 RPROVIDES:${PN} += "opentracing-cpp-devel"
 

@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.4.0"
 
-RPM_NAME = "warewulf4-4.4.0-6.4.aarch64.rpm"
-RPM_HASH = "cf02dc33b59b9710531a73c1f5525d9a4b9f8a5fd6fa90606c5de4a62eabeee9ebdbb07f2485113a52d085cda9c8f215ac72e08d46dad9987c30b01aa6d078d7"
+RPM_NAME = "warewulf4-4.4.0-6.5.aarch64.rpm"
+RPM_HASH = "275daf30ac998b03e64608fdad84fd5f4341dacf0eb8b8fcd2cd8c002ac349cfda8e66290b2618ec49b753ec9bc2830c4c4fef385d796e90e58f83f140858b0d"
 
 RPROVIDES:${PN} += "config-warewulf4 \
 group-warewulf \

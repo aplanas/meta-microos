@@ -3,10 +3,10 @@ DESCRIPTION = "Baloo is a framework for searching and managing metadata. This \
 package contains filesearch components."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & LGPL-3.0-only"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "baloo5-file-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "d9cb3be490e621df22656e4ddfbf53f9fcdf9e3d3370cc286d67894d71e30a9a2509bc1f5195acbdc68265ddec4c47a54f0e8cf536dfe613367b0bb080cd1826"
+RPM_NAME = "baloo5-file-5.107.0-1.1.aarch64.rpm"
+RPM_HASH = "4010fd11fc63be0698a670a7b201ef14bb55ad20187e80319c6872428f8ba3c8c767598441aa425095ea5d324609f82f5d0fb0d64cd5a735f824e8e13061083a"
 
 RPROVIDES:${PN} += "baloo-file \
 baloo5-file"

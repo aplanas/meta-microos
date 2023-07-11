@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "1.2.0"
 
-RPM_NAME = "python39-azure-mgmt-imagebuilder-1.2.0-1.1.noarch.rpm"
-RPM_HASH = "76376d49b2abc1a44d4c4d86a4acb7e184595b3ee2362bcbf92ae326a7a85088c67f4ee3c710838f3777831b9a037e45d8ae7c6f84af096fa0d0ddf9ac635fa2"
+RPM_NAME = "python39-azure-mgmt-imagebuilder-1.2.0-1.2.noarch.rpm"
+RPM_HASH = "499b3a4abd1b3a7bf514a02ad1508df1c9f929141957d29f2a9fc62a38a72de570bf3206ba675a04ec193c1f247672596eb335f7a81b1bf84a33b957a80c7339"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-imagebuilder \

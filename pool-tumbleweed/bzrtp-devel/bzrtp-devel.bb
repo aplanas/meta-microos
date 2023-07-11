@@ -4,10 +4,10 @@ libraries, development tools necessary for compiling and linking \
 application which will use libbzrtp."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.2.49"
+PV = "5.2.73"
 
-RPM_NAME = "bzrtp-devel-5.2.49-1.1.aarch64.rpm"
-RPM_HASH = "80a96c03229230f39182ef65bb60d8ecc87ed3195801b49187150ce70a8b6d81f99b9d467730df1e0c0b4018cac904bd231a5eeb6e8129c9d2495c6ee90ab107"
+RPM_NAME = "bzrtp-devel-5.2.73-1.1.aarch64.rpm"
+RPM_HASH = "3f2d93ef4506dc64399d01ada730cfe5cb8b079ee636af54582c59a0c09f38c541effae79107b24df2e7ccc5c644f21e75ad749279a2e1d652bb46d88e6c83ef"
 
 RPROVIDES:${PN} += "bzrtp-devel \
 pkgconfig-libbzrtp"

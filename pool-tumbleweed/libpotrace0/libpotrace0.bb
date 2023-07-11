@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.16"
 
-RPM_NAME = "libpotrace0-1.16-1.14.aarch64.rpm"
-RPM_HASH = "f08f612eb36e34ecb1793d51af1bfa27ea7ca1df5a97096e7f3c96a7ba555220abfdc90e33ebba03d4a8f3d5d99db70d24b2b31b10a0063d3c547710e0f611f9"
+RPM_NAME = "libpotrace0-1.16-1.15.aarch64.rpm"
+RPM_HASH = "26e68179596e2e3d367e866cee4561045eb8869bf2e8be171e25f381c941f84b131eea50d34906424fd9b3e096cfff5b7826009322b65f534f6dc66c738530f5"
 
 RPROVIDES:${PN} += "libpotrace.so.0 \
 libpotrace0"

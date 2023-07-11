@@ -9,11 +9,12 @@ LICENSE = "Apache-2.0"
 
 PV = "1.4.0"
 
-RPM_NAME = "python311-requestsexceptions-1.4.0-2.8.noarch.rpm"
-RPM_HASH = "4f4c3a0d90fba6d4a23c723464dbeb83881373b445d86f4a72bcaf9efd3cbcfa506c076341b2ac2798c184207634444966f9cfcb2ad3568d21c9ef5b8ccd1d4e"
+RPM_NAME = "python311-requestsexceptions-1.4.0-2.10.noarch.rpm"
+RPM_HASH = "1a86fdc0b95878a704afaa6e1e481317cc4119a756577cc039b7f6c5b8bbe3885255c4fc3723fbc3a6e4a0dec59d1232135a4bcd9fac4325c33bbec5b3d0dc06"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-requestsexceptions \
+RPROVIDES:${PN} += "python3-requestsexceptions \
+python3.11dist-requestsexceptions \
 python311-requestsexceptions \
 python3dist-requestsexceptions"
 

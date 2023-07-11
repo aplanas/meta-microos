@@ -25,10 +25,10 @@ A selection of software for other systems can be found at The Computer \
 History Simulation Project at http://simh.trailing-edge.com/"
 LICENSE = "BSD-3-Clause"
 
-PV = "3.11_0"
+PV = "3.12_4"
 
-RPM_NAME = "simh-3.11_0-1.12.aarch64.rpm"
-RPM_HASH = "18ac987e5320a2f113730aec957114b4a307a903a61faaf7a9ba7a23cea085103cf3e1fb9cddc3c138d28c2674d1676c54aa7208221df9ad7fb6b9dee158d287"
+RPM_NAME = "simh-3.12_4-1.1.aarch64.rpm"
+RPM_HASH = "566da082469c8db74ae2c367f285728c6069ca0728bcf909ac032cb14e9effa7d629610712273e31dc3a931d5f2d16e225e99428b73ee8ed3db678c2381c954f"
 
 RPROVIDES:${PN} += "simh"
 

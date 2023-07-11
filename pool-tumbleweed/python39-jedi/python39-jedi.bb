@@ -14,8 +14,8 @@ LICENSE = "MIT & Python-2.0"
 
 PV = "0.18.2"
 
-RPM_NAME = "python39-jedi-0.18.2-6.1.noarch.rpm"
-RPM_HASH = "ef787d95ed80348934905ccbb7a4e4056d5a32ba84dc95241362b79d3ad5904d888373807dcd57b7de169559f0d2d114e4fd0707b27924fb9c509a64f9d034be"
+RPM_NAME = "python39-jedi-0.18.2-6.3.noarch.rpm"
+RPM_HASH = "5fa92be410c2870669e3812ed867b4a70aa32e5f0f29725807a6c2a3aa4e489ff475483954e7bfd02a9ff487e510565da7b8750c641a907599523accfbaf844c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-jedi \

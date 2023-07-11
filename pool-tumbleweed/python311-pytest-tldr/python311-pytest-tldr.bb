@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.5"
 
-RPM_NAME = "python311-pytest-tldr-0.2.5-1.3.noarch.rpm"
-RPM_HASH = "88eb57ba040399dd46fe40b3d7f99c250bd8e79e8bfc13156cece98eda335b3310d48e48da460866e26e748b53736e62e9d49a08eb9be4be62f23b6a3fee3822"
+RPM_NAME = "python311-pytest-tldr-0.2.5-1.5.noarch.rpm"
+RPM_HASH = "52a57430ccf5a90e4f8c7fe7b17b487db49159c2b74d124825b86d1bb795624d220e0998662f3aab674e09f2138f76ef87609f6556aff50b9315edcbea665286"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pytest-tldr \
+RPROVIDES:${PN} += "python3-pytest-tldr \
+python3.11dist-pytest-tldr \
 python311-pytest-tldr \
 python3dist-pytest-tldr"
 

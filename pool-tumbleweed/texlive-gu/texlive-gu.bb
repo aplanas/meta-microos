@@ -9,8 +9,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.svn15878"
 
-RPM_NAME = "texlive-gu-2023.201.svn15878-53.1.noarch.rpm"
-RPM_HASH = "1db2cad16525616b5ed7fcf4dc9e50ad26077aff24fc13ef78c2a98d8538458767222b1c49949ab14e67d5743d08b7b4dec51b79f5e39bb84853bb70d29c4a0a"
+RPM_NAME = "texlive-gu-2023.201.svn15878-53.2.noarch.rpm"
+RPM_HASH = "abca2dca1e5188313b4cb8cdbc5bc5bb4cc9998e3f1252d67b1bb4f60445c54c35edf7ca7739401f5d92a49e125f99ecb7c050304156a0dd1bfe598886aea863"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gu.sty \

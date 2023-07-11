@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
 PV = "2.3.1"
 
-RPM_NAME = "monitoring-plugins-oracle-2.3.1-9.4.aarch64.rpm"
-RPM_HASH = "27db7e0debc2399e92542764d84e333d5768ff1e43e6edd289720147222a40490f9ff09c409e70b2ee6d7a5564cce2c2bd81f6e95a9e978425bb725c9c729dca"
+RPM_NAME = "monitoring-plugins-oracle-2.3.1-9.5.aarch64.rpm"
+RPM_HASH = "9c9cde0e76628f8fc7e24f48c71b88d3c623f333b5f3a43fe7853d3ce866c4ce19d352c2b677b53a882eff6cc112ed77734e110f09b393a543954001fb9bc54f"
 
 RPROVIDES:${PN} += "monitoring-plugins-oracle \
 nagios-plugins-oracle"

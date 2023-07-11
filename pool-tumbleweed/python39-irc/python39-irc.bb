@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "19.0.1"
 
-RPM_NAME = "python39-irc-19.0.1-1.8.noarch.rpm"
-RPM_HASH = "c591952cd5b1a257956be76ad5926eeee76a9da147df364d7f03e1c5b606ec1634255acb7a5fead6ffd1d4cf9e405aa7f01dc946de74e26fd5cc752b4d38d14b"
+RPM_NAME = "python39-irc-19.0.1-1.10.noarch.rpm"
+RPM_HASH = "05528a1f9a84915a53708f9daafd0192b3d9e04617cb51b55919c9b0ddc88dd97887cee2a1e29627648af84bb87bcc802a3ff000fd0c1196bf8304eabb6f096f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-irc \

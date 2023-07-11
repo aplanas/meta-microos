@@ -6,8 +6,8 @@ LICENSE = "BSL-1.0"
 
 PV = "1.8.1"
 
-RPM_NAME = "libhpx1-1.8.1-2.2.aarch64.rpm"
-RPM_HASH = "d785f3893297eaaa9da7a590e63e798aedd2f7fb1a6260a03809514c69fc54981f0b6fae6f68b9e4f96d15476727c418b1fca30b09cfcc5d4d87551afb1a8de4"
+RPM_NAME = "libhpx1-1.8.1-2.4.aarch64.rpm"
+RPM_HASH = "e7c111413e49a9a0764643c07ca69f2bb932ba38a99719bc3a9dcccb0100d34bf0986d72d2bcfc0048a225dae4a0c7d5dfe7e3007c884bdece9a3e202b59d255"
 
 RPROVIDES:${PN} += "libhpx-component-storage.so.1 \
 libhpx-io-counters.so.1 \

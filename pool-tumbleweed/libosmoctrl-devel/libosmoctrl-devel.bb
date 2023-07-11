@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.8.0"
 
-RPM_NAME = "libosmoctrl-devel-1.8.0-1.1.aarch64.rpm"
-RPM_HASH = "e8f3dd6e57876681df73c01a3367153f50447a29cde437fd0a202a69b6941c5309a6d9c78b2cd5813e506fa56968cd418a697673e53c4bed04cea2d5ebadd6b9"
+RPM_NAME = "libosmoctrl-devel-1.8.0-1.2.aarch64.rpm"
+RPM_HASH = "65f86ea6352b7a2f05984784fb974c64797b8ed7f962face79653909d212ad27962b8a6c85eaef4e76c798d3d1c4cb9448d1219730dd289c48d232c49bbb65b3"
 
 RPROVIDES:${PN} += "libosmoctrl-devel \
 pkgconfig-libosmoctrl"

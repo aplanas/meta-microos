@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0-with-LLVM-exception & NCSA"
 
 PV = "15.0.7"
 
-RPM_NAME = "llvm15-15.0.7-2.4.aarch64.rpm"
-RPM_HASH = "ff7dcb7f10f2bcf0bb9b0229e89120a40ea20792ec2a271d12e82656096581306e07b42b781c3202b65f601c7404dfaab0408534cf346bf50fc6188e4eda58e6"
+RPM_NAME = "llvm15-15.0.7-3.1.aarch64.rpm"
+RPM_HASH = "5b2d68ab9ffb58edc39f569cdb4adb967569eddb0ddd5110ec0f16e8ac9ce5dc7a5e76447347af3e73db08239160da08fc7a5c823037da7a389e71cb194e1b80"
 
 RPROVIDES:${PN} += "llvm15"
 

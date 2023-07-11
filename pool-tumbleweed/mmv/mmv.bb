@@ -8,10 +8,10 @@ result from the entire set of actions specified and gives the user the choice of
 either proceeding by avoiding the offending parts or aborting."
 LICENSE = "GPL-1.0-or-later"
 
-PV = "2.3"
+PV = "2.4"
 
-RPM_NAME = "mmv-2.3-1.3.aarch64.rpm"
-RPM_HASH = "1e02fed856c8a3a55827b516e77133f48374a6297611d7558b7c645b62608cdebf5c41d95da1bd92bf7c4642f48dcc340830bcac1f1c46fb2c0cb8e9854a04a4"
+RPM_NAME = "mmv-2.4-1.1.aarch64.rpm"
+RPM_HASH = "0ed2ece0929d90b73de3b4a1f382a11595a7967ff5c99e80aac8696db2fa35eb749e86b73336597260a367efab5e31fbcd545bd2daccf576682575e3f6c9cfe0"
 
 RPROVIDES:${PN} += "mmv"
 

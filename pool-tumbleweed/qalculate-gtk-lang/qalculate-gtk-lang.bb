@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.6.1"
 
-RPM_NAME = "qalculate-gtk-lang-4.6.1-1.1.noarch.rpm"
-RPM_HASH = "7224bf0df12726d247cea094a86c54d84b184ee7fdbc60f8a99268086e26682e9afd7cff4d361c2b2219df025dbf1b5ad841ee2c99f8774d62e26b6fc13f2b50"
+RPM_NAME = "qalculate-gtk-lang-4.6.1-1.2.noarch.rpm"
+RPM_HASH = "4db4e181b392b23aaf6ea99e2231719fcb2e517f1d81714e510eb7e2c587debf3eb61a8a43773a67f24c43a8acf53ff1b56fbb95f46b92649cd26c410ed347ea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-qalculate-gtk-ca \

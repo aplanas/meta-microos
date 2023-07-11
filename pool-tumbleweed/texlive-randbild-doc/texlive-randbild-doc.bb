@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.2svn15878"
 
-RPM_NAME = "texlive-randbild-doc-2023.201.0.0.2svn15878-53.1.noarch.rpm"
-RPM_HASH = "35cc046f4a7014a1530f7c080a3119b08a4150966c1a59fc7d4e3532c9fa52c5d7845555d59b7edf5f60dcf88ab3519d667478bfd2eebe512acd29f9ff7308f0"
+RPM_NAME = "texlive-randbild-doc-2023.201.0.0.2svn15878-53.2.noarch.rpm"
+RPM_HASH = "3a626e547fccdb0abbc7e50dd29cb442741d091fdfaa52667a1b034e31d5c6a11d9da413051bce404b009e0803259444044a9dbe91adec961b8d8158fdb195c1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-randbild-doc-de \

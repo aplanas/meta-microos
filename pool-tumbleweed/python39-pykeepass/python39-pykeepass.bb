@@ -2,10 +2,10 @@ SUMMARY = "Low-level library to interact with keepass databases"
 DESCRIPTION = "This library allows you to write entries to a KeePass database"
 LICENSE = "GPL-3.0-only"
 
-PV = "4.0.4"
+PV = "4.0.5"
 
-RPM_NAME = "python39-pykeepass-4.0.4-1.1.noarch.rpm"
-RPM_HASH = "5011a41a23fb9d1de1f8df589a6c15311607fc29f32da78c9f1890d7881d5d9cabff115d22bbff2eb2921061f60c676a8f719510b87cf50a81efe40a771bbbca"
+RPM_NAME = "python39-pykeepass-4.0.5-1.2.noarch.rpm"
+RPM_HASH = "22c1ecee9bfdec0539eaee66afcc0dff155f8902f6712e589f5e1adead80cba239c0be36bda52149136dbb7ce83ca9040eb73ab032cda725d30af3191402744e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pykeepass \

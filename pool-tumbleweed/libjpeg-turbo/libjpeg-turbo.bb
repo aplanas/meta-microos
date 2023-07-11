@@ -13,8 +13,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.1.5.1"
 
-RPM_NAME = "libjpeg-turbo-2.1.5.1-75.1.aarch64.rpm"
-RPM_HASH = "7a37424f7508d5425bea082e69294a2943c73ea45a4ecaed6ba7f9cda506dbd3d02c2aedfe6229f0f7d9427c856b26f81e627c8e42f1bf36f93a9f3f4781b49b"
+RPM_NAME = "libjpeg-turbo-2.1.5.1-76.1.aarch64.rpm"
+RPM_HASH = "fb32cf9ae2d0c03af6c52e24363af2ee747f9ad32c335aba7feb6e5ac099af81fd2c7b0022f3da22f90618e2415a2eaeb8dcdfc4d2ecbd059e17dc1612304d29"
 
 RPROVIDES:${PN} += "jpeg \
 jpegtran \

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.1.2.0"
 
-RPM_NAME = "ghc-resolv-doc-0.1.2.0-10.3.noarch.rpm"
-RPM_HASH = "3b8b8a8a3952974bfc19774dd97c9493990f783548f3cdc9b03324fca5469b2dc6c340232c060b20305744732eb76e74936935bb5505a80a1b0d5bbae836cec2"
+RPM_NAME = "ghc-resolv-doc-0.1.2.0-10.6.noarch.rpm"
+RPM_HASH = "2781dd435dc480456eacd743e40b9985cfe4c3f8ed46c54c51f1173baa09629d3daace7d8545819c9f4d3fda235e8ba7fb308041828bf274984940f3a82e578f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-resolv-doc"

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.2.11.0"
 
-RPM_NAME = "ghc-typed-process-prof-0.2.11.0-1.3.aarch64.rpm"
-RPM_HASH = "2c81dd5a20ed95cdf3d6ba599b0e77775f6d8ab11407c2871afe472a1466b9d4ff8cab75f45be8db4d7d92e857e0a0263749737563fcb648525e232e006c281f"
+RPM_NAME = "ghc-typed-process-prof-0.2.11.0-1.6.aarch64.rpm"
+RPM_HASH = "03d89670889c593ceb50de0ac3d692506930ea97cbf87dbba217a3b58133890212642871f91df87e17938c540a8992280915b99609f0579e04f2222cfb9d56ee"
 
 RPROVIDES:${PN} += "ghc-prof-typed-process-0.2.11.0-AJYHFlIHznQBMeAWc6SvCO \
 ghc-typed-process-prof"

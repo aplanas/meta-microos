@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-or-later & Zlib & LGPL-2.1-or-later"
 
 PV = "1.9.5"
 
-RPM_NAME = "deadbeef-1.9.5-2.1.aarch64.rpm"
-RPM_HASH = "efcb4c0ca0334874545ff3bbccdda6aeb885daaa841d5263a5f7f05d6780fabf899d78193f1ba47b1d2352b1383296cd88dc2a2db5315497f996985df9dc4291"
+RPM_NAME = "deadbeef-1.9.5-2.2.aarch64.rpm"
+RPM_HASH = "081bf48e6259c52491eb8ce7539a41e621d5bd4abcdfa60ef85f4a9b55b18276ad49461ae25564cf134314597324b95ca47c21aca91db5b5ad89fc0d33956487"
 
 RPROVIDES:${PN} += "deadbeef"
 

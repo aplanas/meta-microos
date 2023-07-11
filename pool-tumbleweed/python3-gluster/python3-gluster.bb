@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only | LGPL-3.0-or-later"
 
 PV = "11.0"
 
-RPM_NAME = "python3-gluster-11.0-2.1.noarch.rpm"
-RPM_HASH = "5a27deaa7c622ee44c3492c576e9ea650ffa029875d0cc9b3fbba855ef0498cd8a750099a359ff4e5ab2782e07973223a4443a05ca8c244063512d8fd89d6d23"
+RPM_NAME = "python3-gluster-11.0-3.1.noarch.rpm"
+RPM_HASH = "a1f1e6241c8425e22433bf5a7541282cbc0897c99c9b3236660d7a5d2ae76f3f40cd6d7478bad0d037818f9a138a4fd50607b6ad8d0aaf044c0899761db1d85e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-gluster"

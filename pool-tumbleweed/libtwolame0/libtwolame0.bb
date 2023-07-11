@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.4.0"
 
-RPM_NAME = "libtwolame0-0.4.0-1.14.aarch64.rpm"
-RPM_HASH = "6e45d51c8fdb9fc2143bae45e479fe0d8bd9ed8dd864e36fc093142e2c5ec42e462b02cd84daca23618a786be79459a964a407bee72be1b657f313a851a887d9"
+RPM_NAME = "libtwolame0-0.4.0-1.15.aarch64.rpm"
+RPM_HASH = "a1e77d14cec2db1f91b5fb9798ffbbc17e32f82d9023c58ad4b4f7947580e046312126865c7ab2840689c339c8076cb62ebbf1081267673d00e43a2e2592d4ac"
 
 RPROVIDES:${PN} += "libtwolame.so.0 \
 libtwolame0"

@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.7.0"
 
-RPM_NAME = "libevemu3-2.7.0-3.12.aarch64.rpm"
-RPM_HASH = "71fb760d16657ebd6e46a2c3dd38da65704370f25cc2830be786d0fd43b6aaa0cdfd0e2b7628c0b1f8b79ea6889726e07ac18386c02271e5b2767ffbc26c0b50"
+RPM_NAME = "libevemu3-2.7.0-3.13.aarch64.rpm"
+RPM_HASH = "fe090f9d5f24f5e8243178a892f2a6c763e7fbc64b10fbcd7c7872f243cd6465e970a4a4f601eb6fcb224a2a67bc18444ebf809b8bb2518dfc3df0bb7c06242d"
 
 RPROVIDES:${PN} += "libevemu.so.3 \
 libevemu3"

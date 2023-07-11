@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.2"
 
-RPM_NAME = "enblend-enfuse-doc-4.2-6.14.aarch64.rpm"
-RPM_HASH = "29777311f5c98fa8b4e58e412ff409519840394bff87d46332d64c331eed77bbe53df3cf83b489608d694f0b962a71ed5987923e8f83cd40395eaa8ecc0dfcda"
+RPM_NAME = "enblend-enfuse-doc-4.2-6.15.aarch64.rpm"
+RPM_HASH = "fddd6f0ab9897dbec8097264ae807b8d397c70d536ba853fe687d330816d12ec772ed6ec41aaab03ae154650cf5c1df992fc8612b26990f8af375e849b4b75cd"
 
 RPROVIDES:${PN} += "enblend-enfuse-doc"
 

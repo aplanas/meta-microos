@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.4.0"
 
-RPM_NAME = "python310-mock-open-1.4.0-2.11.noarch.rpm"
-RPM_HASH = "aca686276b70070d1592ab0c139506b070fd0341f2a008b5fd9e22c3313d707ba60752aa6c387153b4ffa68b68236e5721a2848cf1259acf01e28818d0f92a9f"
+RPM_NAME = "python310-mock-open-1.4.0-2.12.noarch.rpm"
+RPM_HASH = "33b662ef5b1b2f0f185604e52728cc21a0c954e5f51138db69b963f5ce0c3cd5a15e02a4404b62e7e2b9a98406f87876ca093654ca7d0e19fa2c90967f81423b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-mock-open \
-python3.10dist-mock-open \
+RPROVIDES:${PN} += "python3.10dist-mock-open \
 python310-mock-open \
 python3dist-mock-open"
 

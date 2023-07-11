@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.6.68"
 
-RPM_NAME = "libopenCOLLADA-devel-1.6.68-1.12.aarch64.rpm"
-RPM_HASH = "00e52ca754c98e69a84a1f34849a4f5f4767102df08379dffc7d1a8d375a1ccbcddab968eed6746e1cf18db63709162f6c4c5ae7b358d62dc2d7058a5e6d8486"
+RPM_NAME = "libopenCOLLADA-devel-1.6.68-1.13.aarch64.rpm"
+RPM_HASH = "55dca496e7580e5546a4931a1dcb145c4139080432ec65d8f71f17e4a98b4f96ee1fa626b28053ddaf791fd27293d47c85454dfeebbada40bc0feacf7c3c0570"
 
 RPROVIDES:${PN} += "libopenCOLLADA-devel \
 openCOLLADA-devel"

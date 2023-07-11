@@ -14,8 +14,8 @@ LICENSE = "X11 & GPL-2.0-or-later"
 
 PV = "0.4.0"
 
-RPM_NAME = "xf86-video-fbturbo-0.4.0-4.8.aarch64.rpm"
-RPM_HASH = "078e1215f21a6e5ff8fb2bd2a0558e4da178ad0378818981cd3cef813a0b45640cd69a090738b3b6eb16fd6849ed157f5c4b81853fa26b110f35b8c611a81712"
+RPM_NAME = "xf86-video-fbturbo-0.4.0-4.9.aarch64.rpm"
+RPM_HASH = "13f9a1a0f823f2cb1279662ea9f767a7c2bbb7aa8426396e63a38975d59dd284d2720f56ec3b7bfbcb19b8e19c22926c4b269d86e5e0a4fce5c3a70e16da65d1"
 
 RPROVIDES:${PN} += "xf86-video-fbturbo"
 

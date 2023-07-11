@@ -15,8 +15,8 @@ LICENSE = "CPL-1.0"
 
 PV = "93vu"
 
-RPM_NAME = "ksh-devel-93vu-6.2.aarch64.rpm"
-RPM_HASH = "0a786456f1a6ff62f2986fc12c17487c23385b757ec79e315ed12efc1efab15c22f1bff0618902c6b156280ac15e3b58c4d5985b1ab3c2f9597cdd9da4ed4fe4"
+RPM_NAME = "ksh-devel-93vu-6.3.aarch64.rpm"
+RPM_HASH = "6cf8338210d806b089a8b58b64813a4d45e9c33394ba5fc86a0e12f7e21edb9e0cee246807aa0084211f2e3bf000ef06b0a01fd3729c5b66f99c6a2a7e77bba9"
 
 RPROVIDES:${PN} += "ksh-devel"
 

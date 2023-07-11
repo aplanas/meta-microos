@@ -8,8 +8,8 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "4.0"
 
-RPM_NAME = "ndpi-tools-4.0-1.8.aarch64.rpm"
-RPM_HASH = "4acd75aa0dac64881e74ed95f2241b9c276aee6cd136d1d1dfa8cd2fef46ee6a7e29952263abb77f2db0b4f2bbd9882f28fb38cebe1d9d06449b5d07e1bed7fe"
+RPM_NAME = "ndpi-tools-4.0-1.9.aarch64.rpm"
+RPM_HASH = "fd8542323f1bc773586ca60894a4b95faaa8c58cfb4407d6d0f9a90d38e03bc7fdbe3d38118726e2af88465e3f178015d5be06b557e4aaa7a66857d06e929955"
 
 RPROVIDES:${PN} += "ndpi-tools"
 

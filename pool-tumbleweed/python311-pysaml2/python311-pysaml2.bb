@@ -6,10 +6,11 @@ LICENSE = "Apache-2.0"
 
 PV = "7.2.1"
 
-RPM_NAME = "python311-pysaml2-7.2.1-2.4.aarch64.rpm"
-RPM_HASH = "dda46d210cdbb18a11fe3f1cc1582702652c9290937b90ec5c99405bb39e9ca737b4aad6c9f7298df54058424bd77ce3c1b4521be16b3e2f76edb15cd5a7d783"
+RPM_NAME = "python311-pysaml2-7.2.1-3.3.aarch64.rpm"
+RPM_HASH = "02c2140bd352d53fc860399a6fd4ec00a1a23ade9d6cdcb0f2b3a45a4cad57147219bb0167466a6add2e66e0faefee5765e639f5c5cf3b8a05e1883753dd2192"
 
-RPROVIDES:${PN} += "python3.11dist-pysaml2 \
+RPROVIDES:${PN} += "python3-pysaml2 \
+python3.11dist-pysaml2 \
 python311-pysaml2 \
 python3dist-pysaml2"
 

@@ -2,10 +2,10 @@ SUMMARY = "Telugu localization files for LibreOffice"
 DESCRIPTION = "Provides Telugu translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.1"
+PV = "7.5.4.2"
 
-RPM_NAME = "libreoffice-l10n-te-7.5.4.1-1.1.noarch.rpm"
-RPM_HASH = "e56395cf13e5dd9f46119b3b9b359ff4ef3ab63c4fbb83020b22276014384bde29745fa313026844b849f115dfd6fdd4a1a64bde02af78d2b0884b916c23ab3e"
+RPM_NAME = "libreoffice-l10n-te-7.5.4.2-1.3.noarch.rpm"
+RPM_HASH = "d1fe171eb9aabe184be626451299971b2e1d363540c5f90c01659ddff37d1382157a85ed935dcd7fb3d2def988860e004ef9766b6237a79fb61e21a38f645db9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-te \

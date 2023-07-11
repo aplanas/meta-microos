@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the RDP protocol plugin for Remmina using t
 VNC viewer widget for GTK+."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.4.30"
+PV = "1.4.31"
 
-RPM_NAME = "remmina-plugin-gvnc-1.4.30-1.1.aarch64.rpm"
-RPM_HASH = "dff1b37c272de530ccc1a610696795a8f258e51f6a34c5463e0e49d36a62e6656939e1bf619fda3496eb0ac859f3d9257d046d1e1d6a76275ddbd28046d16e48"
+RPM_NAME = "remmina-plugin-gvnc-1.4.31-1.1.aarch64.rpm"
+RPM_HASH = "33779c9634066b3750ee9966262a88366c73482288ae79707a7483f224b61580adf89ed00c00d8659ed5d6fee52dbf448321a464e090e8bb87fbd32332076ed8"
 
 RPROVIDES:${PN} += "remmina-plugin-gvnc"
 

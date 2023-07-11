@@ -9,8 +9,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "3.25.0"
 
-RPM_NAME = "liblouis20-3.25.0-1.1.aarch64.rpm"
-RPM_HASH = "34458701ed1f9207b593156cfbd8a4ce2c6937c9a166a9b5be56bebd0feffe5e9b9f84bf722e742ed84e1cfb3224dc809719f8ef4ff22ac5b78974e9c2c391c0"
+RPM_NAME = "liblouis20-3.25.0-1.2.aarch64.rpm"
+RPM_HASH = "4b1614ca5ff18cfdd572472592f746c084fbc0847417341c24b16614cf22ed54d85e5377c0e09c0971c3f7c18a88678ca80191dc7ad645bc4777ddd6b2cc1575"
 
 RPROVIDES:${PN} += "liblouis \
 liblouis.so.20 \

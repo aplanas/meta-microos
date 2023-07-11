@@ -25,8 +25,8 @@ LICENSE = "MIT"
 
 PV = "0.3.2"
 
-RPM_NAME = "python39-pytidylib-0.3.2-2.6.noarch.rpm"
-RPM_HASH = "98fa2a89287e2d0850335d08509ba9089158e3e7e0af60bda4863193a7784819644b3d7ced5cc355e79ab7fb243fbae0e1641bdd7ca11c9bf96df4e9df4e0dfe"
+RPM_NAME = "python39-pytidylib-0.3.2-2.8.noarch.rpm"
+RPM_HASH = "3f73e7863f11c11ea1e04a8cd006462a3313b1b35aa8c96afbb2baf0fbb50aefce9530ebf2a619adf767c5d7d0bedc85caf3b820d4008540183d43dfaf1d7848"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytidylib \

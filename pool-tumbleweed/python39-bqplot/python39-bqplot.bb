@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.12.31"
 
-RPM_NAME = "python39-bqplot-0.12.31-3.30.noarch.rpm"
-RPM_HASH = "466b58916d7e27bf8ea6c5ffabbcec3f22e34b130145cbdc08c3faa8ee799edb3a642f58b614ceec26c4b8c39a9da3fe53abce0d1d2862ebf3600b942b2a2323"
+RPM_NAME = "python39-bqplot-0.12.31-3.31.noarch.rpm"
+RPM_HASH = "dd4876f030a32d213a53285dd8c7211dd274226a364ce402208b9518bc1b6b68e80dbeb5c890d408f53604f89c3f7c146c1226e09b563f977b691b95cbca13ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-bqplot \

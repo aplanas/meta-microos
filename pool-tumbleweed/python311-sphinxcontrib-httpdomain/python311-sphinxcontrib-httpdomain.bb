@@ -9,11 +9,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.8.1"
 
-RPM_NAME = "python311-sphinxcontrib-httpdomain-1.8.1-1.1.noarch.rpm"
-RPM_HASH = "52ef26af819d669f975018bc760ff525086047780fd182e07d6f4284227cf55a83b5a356cf77ec0190adbff68f5c91f9c2dc4f0c33728712bc59529db8215c1e"
+RPM_NAME = "python311-sphinxcontrib-httpdomain-1.8.1-1.3.noarch.rpm"
+RPM_HASH = "c976e115a9bafe61322d619310a9503a8030e7f5c338f5aaafc6e4d5292a7531473e12b3da7e42ba27e000b815921551be7553febcf0250a7da82300ee890c8f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-sphinxcontrib-httpdomain \
+RPROVIDES:${PN} += "python3-sphinxcontrib-httpdomain \
+python3.11dist-sphinxcontrib-httpdomain \
 python311-sphinxcontrib-httpdomain \
 python3dist-sphinxcontrib-httpdomain"
 

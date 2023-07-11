@@ -5,11 +5,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.2.5"
 
-RPM_NAME = "python311-Flask-doc-2.2.5-1.1.noarch.rpm"
-RPM_HASH = "f81478508910c9d9869992d738edcb049b4159e599e40dd6a3e7da1714fbcd374569fb780909fa7838fa2873bfc6a2ea710890e5485dd1dccae8e80a22181d87"
+RPM_NAME = "python311-Flask-doc-2.2.5-1.3.noarch.rpm"
+RPM_HASH = "dd49ce03baf1b530a0f58221583781dea07bfc037c3b75ac4e1fc8026aed8f2e1a6a9d5beaaec70899382b01bc0962396aa9177daf302e3129e3758ee9bb6434"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python311-Flask-doc"
+RPROVIDES:${PN} += "python3-Flask-doc \
+python311-Flask-doc"
 
 RDEPENDS:${PN} += "python311-Flask"
 

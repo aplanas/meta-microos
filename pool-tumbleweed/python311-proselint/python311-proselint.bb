@@ -9,11 +9,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.13.0"
 
-RPM_NAME = "python311-proselint-0.13.0-2.4.noarch.rpm"
-RPM_HASH = "9e496884cd6a15907d131fb9bf1ba1df6e3d4fc7489942a6fce5dcea0eed4850091167013c93fed856caaa8e6b482d2e3fc1edfb1957a3f75d990ac089efa61e"
+RPM_NAME = "python311-proselint-0.13.0-2.6.noarch.rpm"
+RPM_HASH = "193b78e0a230697f4d32302710f922d615bdecab5686db973f80b46351d9840918e22501e15f270e2b1ce6f6f9d0f2e40d60f8b1ac2ea90524b92ba3c7fd4af9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-proselint \
+RPROVIDES:${PN} += "python3-proselint \
+python3.11dist-proselint \
 python311-proselint \
 python3dist-proselint"
 

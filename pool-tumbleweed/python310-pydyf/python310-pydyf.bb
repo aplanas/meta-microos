@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6.0"
 
-RPM_NAME = "python310-pydyf-0.6.0-1.1.noarch.rpm"
-RPM_HASH = "fc9a46eca220be2f3cac64eebdcde26c9f7931affda475b54df09fc96bd6e5db6372fca94ff076e65b165e2e84022b94254db3589fa47ae270e8cde7369130c7"
+RPM_NAME = "python310-pydyf-0.6.0-1.3.noarch.rpm"
+RPM_HASH = "4a3acd6ec23263b777877a547dd352d60b5d7b3ce411fb1a8e0c1ea3924c133cc806c0fcba8285581a96b3632f344e54ae69ad128b04abef5d4d75ecb4676940"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pydyf \
-python3.10dist-pydyf \
+RPROVIDES:${PN} += "python3.10dist-pydyf \
 python310-pydyf \
 python3dist-pydyf"
 

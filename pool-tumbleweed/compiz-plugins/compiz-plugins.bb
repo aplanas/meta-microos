@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
 PV = "0.8.18"
 
-RPM_NAME = "compiz-plugins-0.8.18-2.8.aarch64.rpm"
-RPM_HASH = "6d4d5a9e9b6d4b2fd0df7b94994183c01f3c0e75ca6b85004f2f399eb63829b341340c2a17c7b4793d007fd5ebdd7e4847570df0b7bfa0fb638375af6f40bcb5"
+RPM_NAME = "compiz-plugins-0.8.18-2.9.aarch64.rpm"
+RPM_HASH = "cb9bd2ca07b7c5eab3a072fda464265c7f732fab59a905d4c4d6f0c19804ec0d737ff9dd5cffca4b87157226e599f46666d1732b466c993aa96f5bcbfce29e51"
 
 RPROVIDES:${PN} += "compiz-plugins \
 libannotate.so \

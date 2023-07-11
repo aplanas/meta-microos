@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "56"
 
-RPM_NAME = "libinih-devel-56-1.4.aarch64.rpm"
-RPM_HASH = "7dfd0998b18470161bd328f6338a9ccc09d10b41efc1deb5b7230f7f3db3cccfebc62a613d4a2d22843a2c0c8bcbb321e35f3312a67cc1ca7746add4663f7fc5"
+RPM_NAME = "libinih-devel-56-1.5.aarch64.rpm"
+RPM_HASH = "f7c8b97b378a08d512f16ad57301550198dc09e72198e8f12c94a4ea3913233746fbf3e763ee9465d53c5c4a0dae90ed22a8910c4835150d5ff36a7402b41e32"
 
 RPROVIDES:${PN} += "libinih-devel \
 pkgconfig-INIReader \

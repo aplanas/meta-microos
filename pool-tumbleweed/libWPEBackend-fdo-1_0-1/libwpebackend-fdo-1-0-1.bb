@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.14.0"
 
-RPM_NAME = "libWPEBackend-fdo-1_0-1-1.14.0-1.2.aarch64.rpm"
-RPM_HASH = "a53005aae947ee3cb8d4618bfae5392bca3d7dcc3ecac1c6d62e5d59d7dc9a6a648471ee13017161c874e4da98e37215c658dd6bf39708012383a6547b2fd5f6"
+RPM_NAME = "libWPEBackend-fdo-1_0-1-1.14.0-1.3.aarch64.rpm"
+RPM_HASH = "3433fbc5a012efe40ba0d43614288a72fc7d7e607628a228f6b34d6bd64f8354dd24bd9fdb216586100a138fa76a5e48201a4f5b1e35c10097219e7430ddd560"
 
 RPROVIDES:${PN} += "libWPEBackend-fdo-1-0-1 \
 libWPEBackend-fdo-1.0.so.1"

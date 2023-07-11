@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "0.6.0"
 
-RPM_NAME = "python310-rawkit-0.6.0-3.5.noarch.rpm"
-RPM_HASH = "2a40e1a867b94c6bae80b253e96528af672ba6e7519bc004bac019137ab6d1e0a88b65cd0a016203da778444846b0c4d51c82b397aca06587d8199f2a40f2b62"
+RPM_NAME = "python310-rawkit-0.6.0-3.7.noarch.rpm"
+RPM_HASH = "79dcfb9ac617f8d437c31d7da01b05f6456c0adfa7c288fa878b97bc9b98bf41466229a106dc780e14e6f171038c7054ab0ce40bfbcce5b65e74be1000fbac22"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-rawkit \
-python3.10dist-rawkit \
+RPROVIDES:${PN} += "python3.10dist-rawkit \
 python310-rawkit \
 python3dist-rawkit"
 

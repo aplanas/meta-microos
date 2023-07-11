@@ -2,10 +2,10 @@ SUMMARY = "Maven Artifact Resolver Utilities"
 DESCRIPTION = "A collection of utility classes to ease usage of the repository system."
 LICENSE = "Apache-2.0"
 
-PV = "1.9.8"
+PV = "1.9.12"
 
-RPM_NAME = "maven-resolver-util-1.9.8-1.1.noarch.rpm"
-RPM_HASH = "dc4baf9618e9fd47bc1b9dcd4245a65edaa1e0f32463465d5a39f0da4879a36231d40d0e5eecbd43b4c8d5b146e4f9f615756efc919ee08c5e1c87b9fa302c06"
+RPM_NAME = "maven-resolver-util-1.9.12-1.1.noarch.rpm"
+RPM_HASH = "3bd26c834edea35c7c6a7eaf43b142ee6c6b5d17903db9e273cec4e31f600f04e5931df49d41f49803ccfac0651bff29d5e1b6af6e8687759952ee675ed07dd8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-resolver-util \

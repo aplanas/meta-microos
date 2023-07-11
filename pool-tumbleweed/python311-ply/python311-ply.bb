@@ -12,11 +12,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.11"
 
-RPM_NAME = "python311-ply-3.11-5.1.noarch.rpm"
-RPM_HASH = "00d0a82c2afe61281be71efe34fd4262f0ef96561d71676957e017b2d087d21d63c68f789c73cb89ea0ab809a3a5e198f5d1fcf8fec535fb47347400519c1149"
+RPM_NAME = "python311-ply-3.11-5.2.noarch.rpm"
+RPM_HASH = "1d8bf1b54f9bcd6d532b804900993df09f4214b7dc04d3d4cae62b7d6d1f541c07d4d7c27b848d5d5bc1d98fc9ae54097007460cd609e2139e7376e7679b05ae"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-ply \
+RPROVIDES:${PN} += "python3-ply \
+python3.11dist-ply \
 python311-ply \
 python3dist-ply"
 

@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.0-only & MPL-1.1"
 
 PV = "2.2.6"
 
-RPM_NAME = "lazarus-2.2.6-1.3.aarch64.rpm"
-RPM_HASH = "f4e086ea0f65840ffb819d36da3296f15b7ffd38063dc221e900bc581f2c6155a0cbd5e128c990491aeac56d0cc99b21cd29ac0309cf35efa0f253ea06886a7d"
+RPM_NAME = "lazarus-2.2.6-1.4.aarch64.rpm"
+RPM_HASH = "c6f78e312d372ab49140fa11ca2bcbca0976941738f59b43c80ec0671ff0ac745f36199e15f0dfff95c449b1fd71912d0f6f729e6a21b071bb87e3de01fd4ebf"
 
 RPROVIDES:${PN} += "config-lazarus \
 lazarus"

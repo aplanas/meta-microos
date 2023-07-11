@@ -11,11 +11,12 @@ LICENSE = "MIT"
 
 PV = "0.24.0"
 
-RPM_NAME = "python311-pybtex-0.24.0-2.2.noarch.rpm"
-RPM_HASH = "f82b8e3002942db490166abb255ca58d7a11c53010dcb78244c442323c96f8a12e9f6b33c73d5612c6f7283d18a6ab1eef27ebf5bc737ec7423635a0d70174e1"
+RPM_NAME = "python311-pybtex-0.24.0-2.4.noarch.rpm"
+RPM_HASH = "831b4a9b4f1b5d921989303a706ed83543fc24ba79d3446bfdce9e36b315b5fb499af4e8f48b5efe85326c0e6dc103b8594cf51ad111e82212676a44510f1fa3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pybtex \
+RPROVIDES:${PN} += "python3-pybtex \
+python3.11dist-pybtex \
 python311-pybtex \
 python3dist-pybtex"
 

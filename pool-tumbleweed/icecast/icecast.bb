@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.4.4"
 
-RPM_NAME = "icecast-2.4.4-2.9.aarch64.rpm"
-RPM_HASH = "6ee8af9e805b3f3f419a2d3cf2ca0218105efee26bda82a7de810e5d68d5f8cb24e666177729cbb5f02531c6ea733da32e5c41bbabd9e9567472da1fea16bab5"
+RPM_NAME = "icecast-2.4.4-2.10.aarch64.rpm"
+RPM_HASH = "eb6a5bb54e13e87f6619c5d8ef2aeb8786fb11237dcdd72124a11597e69e6039c6cb456c32c0f5d8bbd8f34267ebe5dae2a60002290b37e661f631ea89a02aab"
 
 RPROVIDES:${PN} += "config-icecast \
 icecast"

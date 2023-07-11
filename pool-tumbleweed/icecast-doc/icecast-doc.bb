@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.4.4"
 
-RPM_NAME = "icecast-doc-2.4.4-2.9.noarch.rpm"
-RPM_HASH = "86c3af75f3ea5aac5ae12398d17a54c36223237e782ecf391b09cbc3002522df9a861eddb63f8b1fc0635a2e06d82186fa1eb6d8b733bfaeb653aa5ce4909985"
+RPM_NAME = "icecast-doc-2.4.4-2.10.noarch.rpm"
+RPM_HASH = "55c7b8803eaee5a9d762ff22f6cad1b44b67608027825c39932eefec06eb5637bb0c1f82c03e4f409e372057198b881a716b56438eaa1d428863f4ac311259b9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icecast-doc"

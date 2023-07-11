@@ -2,10 +2,10 @@ SUMMARY = "Czech localization files for LibreOffice"
 DESCRIPTION = "Provides Czech translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.1"
+PV = "7.5.4.2"
 
-RPM_NAME = "libreoffice-l10n-cs-7.5.4.1-1.1.noarch.rpm"
-RPM_HASH = "2ebbc3101df27b1f57cb2e49ced0c6c70b4dee138d4e54e1c03df2d0106367d534aa1d9c48c10c4cdddb31dfd1b9113b1b41baee2f17faa115bb418eff2072ab"
+RPM_NAME = "libreoffice-l10n-cs-7.5.4.2-1.3.noarch.rpm"
+RPM_HASH = "1153a5ebea1c2caa769e2e445eff33e5f04d6779ef208ea9ffb761c7ead60d0257a66b25936aab30c4d7e06ae90b0bcd709557c23bab0010ebd0512e48545505"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-cs \

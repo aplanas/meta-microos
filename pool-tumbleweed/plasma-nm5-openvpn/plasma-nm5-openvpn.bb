@@ -2,10 +2,10 @@ SUMMARY = "OpenVPN support for plasma-nm5"
 DESCRIPTION = "OpenVPN plugin for plasma-nm components."
 LICENSE = "(GPL-2.0-only | GPL-3.0-only) & (LGPL-2.1-only | LGPL-3.0-only)"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "plasma-nm5-openvpn-5.27.5-1.1.aarch64.rpm"
-RPM_HASH = "35fde0dc81b58730700dbe7dbaccd941d90dd18727189e8e1d1013479217afae18bcb77866d0464b4284de0a83b098cf431cf1d26e35269aded750aa7814a4b3"
+RPM_NAME = "plasma-nm5-openvpn-5.27.6-1.1.aarch64.rpm"
+RPM_HASH = "9075e452c8e9438eea1ae8985243ad47e980e04fb2e33ae244e70da1611247c1a5d7e8fa82bbf26f49299d5524ff202081ab4e5f971b5a0fe877895399c5b7a2"
 
 RPROVIDES:${PN} += "NetworkManager-openvpn-frontend \
 plasma-nm-openvpn \

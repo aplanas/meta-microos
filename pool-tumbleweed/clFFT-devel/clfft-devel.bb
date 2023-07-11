@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.12.2"
 
-RPM_NAME = "clFFT-devel-2.12.2-6.8.aarch64.rpm"
-RPM_HASH = "cea52bd69d04fb67e598b5f282befad5fd046f94aad71f390f0df23c9e4b5a3322cc01945c0b1c78486cdef3ba4c15aaa56cb4b541fe0abf2ccc50467a8f665d"
+RPM_NAME = "clFFT-devel-2.12.2-6.9.aarch64.rpm"
+RPM_HASH = "7fe312305de4160fd4cc16f3d7a21a61b1bde28a6d8e9df1f351520207178126140f1977d3cee106fa3cf3343d33177038ca042daf744d0a96ca4f8e8bf74f1d"
 
 RPROVIDES:${PN} += "clFFT-devel \
 cmake-clFFT \

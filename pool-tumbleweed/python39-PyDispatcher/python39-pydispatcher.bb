@@ -12,8 +12,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0.7"
 
-RPM_NAME = "python39-PyDispatcher-2.0.7-1.1.noarch.rpm"
-RPM_HASH = "430d702d7f233da9f555d0c5a8c35376cda72ba8c4306cf8f652543d4a4c28a3173859432ac1dc329775c744de8713eaebe385319c6c2f38ac89e7af6308b288"
+RPM_NAME = "python39-PyDispatcher-2.0.7-1.2.noarch.rpm"
+RPM_HASH = "ee1f65e4145f3aabf4571b913799221da6264d02b8775a2ce155752caad094ce49a42f30aa3a84c5ac4f431e51136802dade22d124415d4a62ecd1180e0b1908"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pydispatcher \

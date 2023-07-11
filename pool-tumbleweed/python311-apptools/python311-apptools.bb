@@ -8,11 +8,12 @@ LICENSE = "BSD-3-Clause & LGPL-2.1-only & LGPL-3.0-only"
 
 PV = "5.2.0"
 
-RPM_NAME = "python311-apptools-5.2.0-1.3.noarch.rpm"
-RPM_HASH = "528d3b7861583db966f4e456e986694b5a21c3fa333525e03849d744b870e102d85a55574b11f91a9032144837fbb06106a90c12471cc75fadfdb0be8df712f2"
+RPM_NAME = "python311-apptools-5.2.0-1.5.noarch.rpm"
+RPM_HASH = "983a72861687c30ff13eaa959b0e607c00730b302eccb297889b0daaaa7bc6e7b8199b11d502049620189d838285ac236b12d70f9895c3a62237e1be11a90879"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-apptools \
+RPROVIDES:${PN} += "python3-apptools \
+python3.11dist-apptools \
 python311-apptools \
 python3dist-apptools"
 

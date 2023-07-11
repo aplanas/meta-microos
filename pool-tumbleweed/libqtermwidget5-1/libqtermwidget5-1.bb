@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.3.0"
 
-RPM_NAME = "libqtermwidget5-1-1.3.0-1.1.aarch64.rpm"
-RPM_HASH = "bcfe3748d5e5206d6659f30cfff9dda48a0195957b31326e17b05a2c4edce19a32e46967a32a29e2b5ede88613ddbdd41a8fe1764d723238e50fcc867bfbf708"
+RPM_NAME = "libqtermwidget5-1-1.3.0-1.2.aarch64.rpm"
+RPM_HASH = "74014548c054f3e91714801b1eb2be0a2055c3bf81ec9b64431bfd97fab1a4edea594e7b3f5d92b9e28f20176a1cb36fefe340d83988b3e8db4d5e38120425d8"
 
 RPROVIDES:${PN} += "libqtermwidget5-1 \
 libqtermwidget5.so.1"

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.6.0"
 
-RPM_NAME = "budgie-kangaroo-applet-1.6.0-1.1.aarch64.rpm"
-RPM_HASH = "c9ed45836417898afd1d13dd664821ae39f112eccb340b7e35aa0968de4a666c4f05a75898907825d95957005d9ed77f6a7ae166debf733db34a25ccb17b1fa5"
+RPM_NAME = "budgie-kangaroo-applet-1.6.0-1.2.aarch64.rpm"
+RPM_HASH = "d2d0bca3ead03a0004286a31c8121f4909d800557180250d3ac12e628c12289e2cde19e35db235d4f1a082d0fe5c3b94d58cba6e048bc7aaebfe2500d303f355"
 
 RPROVIDES:${PN} += "budgie-kangaroo-applet"
 

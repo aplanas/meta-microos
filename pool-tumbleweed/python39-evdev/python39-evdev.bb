@@ -12,8 +12,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.6.1"
 
-RPM_NAME = "python39-evdev-1.6.1-1.4.aarch64.rpm"
-RPM_HASH = "a1afa9ed9f4c0cdf8f8b81c0c91700605ea593c86df13f7e01ad2cb1f93aa56d6efdb37b08032ee98b1187844f9c84edad92b62da9fba8c971d5aa9b18c9d606"
+RPM_NAME = "python39-evdev-1.6.1-1.6.aarch64.rpm"
+RPM_HASH = "d9f3880e6f60da28f3993f02ab7bcac087ceae7bce0249f17eb850899cb6b6877f516fe67b1bf9495e9961731d9033b60847601da27745576142ade18deff2b4"
 
 RPROVIDES:${PN} += "python3.9dist-evdev \
 python39-evdev \

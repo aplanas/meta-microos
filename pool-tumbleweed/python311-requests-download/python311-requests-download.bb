@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.1.2"
 
-RPM_NAME = "python311-requests-download-0.1.2-2.14.noarch.rpm"
-RPM_HASH = "23f2eb54d9161cf2628923eeb365a8efc6ac1eaef3a380ccb3a7ab83327708d726bdef149a6edc13343ddc3097166d5019b3292ba4a7bc5cd712d29a66cdb56b"
+RPM_NAME = "python311-requests-download-0.1.2-3.1.noarch.rpm"
+RPM_HASH = "2570e55fb0bb970d18bc072d6057a91907e0cdbac03976b7f977b9acf9836e87d0bc23c9a875e5b3c07f5540f768142bc1b7da34909ac4247733df90381c1eaf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-requests-download \
+RPROVIDES:${PN} += "python3-requests-download \
+python3.11dist-requests-download \
 python311-requests-download \
 python3dist-requests-download"
 

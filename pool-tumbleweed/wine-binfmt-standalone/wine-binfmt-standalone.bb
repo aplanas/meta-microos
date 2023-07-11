@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0"
 
 PV = "1.2.1"
 
-RPM_NAME = "wine-binfmt-standalone-1.2.1-1.2.noarch.rpm"
-RPM_HASH = "86904c11e0364df2e2bd96d59207b43162256ece65a523968aa25c4506dbeb7e218573247db29566493fbe0f0726c306e4f4db833391a3cb8bb340c11d7a0684"
+RPM_NAME = "wine-binfmt-standalone-1.2.1-1.3.noarch.rpm"
+RPM_HASH = "0ce5462bb2f676565d09c3a94661d88474e42364e40c24512a55c1f59b087449af24682ddacc546d046917bc4016383d806ab52d4e657126e4d07e699665a69f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "wine-binfmt-standalone"

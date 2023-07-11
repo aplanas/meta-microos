@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "4.3.0"
 
-RPM_NAME = "sonic-pi-4.3.0-1.4.aarch64.rpm"
-RPM_HASH = "de7c05ebe1936be83271e62d78b2e65c102dabba28227613af4056318a2217907dce956ca410cba13200abe9efc4d49c3ad87cde472a0229c65174c61d6bcb62"
+RPM_NAME = "sonic-pi-4.3.0-1.5.aarch64.rpm"
+RPM_HASH = "51bbc7113ac7228e613f8c55f537a36759065585a81652cc899bdf8d8baa181d2b7e23165a816aec9899508fbdb0218200b02e3aab799c868274a4bce2db69c2"
 
 RPROVIDES:${PN} += "libsp-link.so \
 libsp-midi.so \

@@ -15,8 +15,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.05"
 
-RPM_NAME = "convmv-2.05-2.13.noarch.rpm"
-RPM_HASH = "ca622981a191f6b49cb3dac98433ec59d4a3affe964c76772d62d7c190905f5ec2afeb94657d248deff9dfd53c5a130b6bb520596feaf7b1c719abd369e3bbec"
+RPM_NAME = "convmv-2.05-2.14.noarch.rpm"
+RPM_HASH = "9f75a81dcff9fa4c0050eae6eb92c5bb02942f5c0d818eba4146a940957af43264cf92b00c4c3dc742a8df6b9804792f44228ba4314637a6701072bdfefdedc6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "convmv"

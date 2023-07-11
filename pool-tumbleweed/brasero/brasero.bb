@@ -14,8 +14,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.12.3"
 
-RPM_NAME = "brasero-3.12.3-2.7.aarch64.rpm"
-RPM_HASH = "baa0827787ed9257111ae58c8f51158b2f5710a9fe0eb71d9e46a4e8b8101fe74cb1f47b36803c93730325bf1d3e7194faaa00c1f154a077885dae2af42e0976"
+RPM_NAME = "brasero-3.12.3-2.8.aarch64.rpm"
+RPM_HASH = "6c79d15be328d1c0bbe71a1eb0ed0e63253ef8b003ee4f74dfdce43fcc62ed99186ddef3714a7a1152f85b15c0cd65eaa3776cd62f0660493720ea49df21fbc9"
 
 RPROVIDES:${PN} += "brasero \
 brasero-doc \

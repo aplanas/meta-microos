@@ -6,10 +6,10 @@ message data between External Short Messaging Entities, Routing \
 Entitites and Message Centres."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.14.1"
+PV = "1.14.2"
 
-RPM_NAME = "libsmpp34-1-1.14.1-1.9.aarch64.rpm"
-RPM_HASH = "b5baff125847ea831da277affb120d2a454c4c8dcda3d10b732bc6a6d0f00fc681bf5e2ae969da29928ec36790dbf34ba88fccdcc5a090b6e49761f3f3db6ac9"
+RPM_NAME = "libsmpp34-1-1.14.2-1.1.aarch64.rpm"
+RPM_HASH = "e2a31764d41a80c571102b37c4342e3c29d2c354a5aeb9f6a851ada27ef95d5cffa90331e063aea5bad44234b5461070bdf80592a40c7030d69342487988be8a"
 
 RPROVIDES:${PN} += "libsmpp34-1 \
 libsmpp34.so.1"

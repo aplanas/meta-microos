@@ -5,12 +5,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.17"
 
-RPM_NAME = "python310-sphinxcontrib-programoutput-0.17-2.8.noarch.rpm"
-RPM_HASH = "137ae94941ceaa3ae82988beadc0836bc5a54935211f6c54717a92a1c5ef159780461b49c7675b3e5f2cda1b916bd750eb0ab019dece2f877d428bd9a97ab320"
+RPM_NAME = "python310-sphinxcontrib-programoutput-0.17-2.10.noarch.rpm"
+RPM_HASH = "dd9ba1289c7a8595db96ed4405281764857d7d4fa3d11199447dd030e91834cdbf0fc8d3d66e90d50daeb52f81bc921338f039372cdecfa079bfcacd1d61a6a0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-sphinxcontrib-programoutput \
-python3.10dist-sphinxcontrib-programoutput \
+RPROVIDES:${PN} += "python3.10dist-sphinxcontrib-programoutput \
 python310-sphinxcontrib-programoutput \
 python3dist-sphinxcontrib-programoutput"
 

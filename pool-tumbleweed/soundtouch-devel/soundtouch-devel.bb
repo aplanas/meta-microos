@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.3.2"
 
-RPM_NAME = "soundtouch-devel-2.3.2-1.2.aarch64.rpm"
-RPM_HASH = "801cf2e99cd2e4e710a0d0ef2edba0f6134efc299d188008a183558e35a13fa3356871817cc6ff03ad0edb70228c3505b72b3f04b51507226867991a11eaa052"
+RPM_NAME = "soundtouch-devel-2.3.2-1.3.aarch64.rpm"
+RPM_HASH = "9ea1da83ad169a8b91d9a556ca798880cba028ed4e7895661e11e0bfc27af53c178c8d16f0fff2d0732122fe9b9605ab8050ed46b8a3123af75275a6f76ceb0f"
 
 RPROVIDES:${PN} += "pkgconfig-soundtouch \
 soundtouch-devel"

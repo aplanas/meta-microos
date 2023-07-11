@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "13"
 
-RPM_NAME = "gcc-d-13-1.3.aarch64.rpm"
-RPM_HASH = "39d66d2f4640066d12cfcaebba8f6a32f0d4e44af4cffa6e4bbe6e512da11066892d253ea87fe60a541814263e02e8411767b1e14113ab4efb72a84e886d3be1"
+RPM_NAME = "gcc-d-13-1.5.aarch64.rpm"
+RPM_HASH = "494530e15c8e9db9f1dec738ea4e8b45416cc53a3f6ad6907c695b99f3b8e241babd8e961d653c8a8ed40a2f59fcfa07433bb4fdb440ec3e69f623c9a31be209"
 
 RPROVIDES:${PN} += "gcc-d"
 

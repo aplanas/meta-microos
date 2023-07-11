@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.4.1"
 
-RPM_NAME = "python39-sphinx-qt-documentation-0.4.1-1.2.noarch.rpm"
-RPM_HASH = "4c23f055038eddc2f466890de7392fef4e8424801aa59fcdd5bd6759e2a62aadd9529b4c1b683dcb9f32036b4e1b2e9cd8f5d579ae95dc1795ed473a8f14348b"
+RPM_NAME = "python39-sphinx-qt-documentation-0.4.1-1.3.noarch.rpm"
+RPM_HASH = "6cd472c9517fb3196bcc4df22ad71469ed6d783117dd85b024ff88fb86fd54134d27c7ab9c87028d0e497f5bc585bd3890694db00974ffac69000d1e1de1b900"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sphinx-qt-documentation \

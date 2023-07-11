@@ -15,8 +15,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.1.6"
 
-RPM_NAME = "openmpi3-libs-3.1.6-7.3.aarch64.rpm"
-RPM_HASH = "7e3a17d8e8a0e804af50af27506f621f9c80585dc1303b171291dd9f9523eb51092db268492c2c320ff3bfab3d459295b058d9cf01a06b59c938b63a8c50be9d"
+RPM_NAME = "openmpi3-libs-3.1.6-7.4.aarch64.rpm"
+RPM_HASH = "ae49670cce3a5aa1e70e859c96bc75306efd73d36727e782aab9f9b3c5a1b21a84fb4de669924fa66b30a3261bd80a2ba6c06bcd5f1e600eac74c7fbe1d8e90e"
 
 RPROVIDES:${PN} += "libmca-common-dstore.so.1 \
 libmca-common-monitoring.so.50 \

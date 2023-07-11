@@ -6,10 +6,10 @@ tools, etc. \
 The documentation is in the package libreoffice-sdk-doc"
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.1"
+PV = "7.5.4.2"
 
-RPM_NAME = "libreoffice-sdk-7.5.4.1-1.1.aarch64.rpm"
-RPM_HASH = "28842057cc0b5f6760db875f03ace3fdc1e8d74e590732f6370e2e6fb8286f5b12c6a0b9f2ca646e182df5d1e1bffb92fa84080578d4ccf493645158c67cc62f"
+RPM_NAME = "libreoffice-sdk-7.5.4.2-1.3.aarch64.rpm"
+RPM_HASH = "58f4a71c97f71115e39cf11a1825403e31eafa79540a2af475130d293b1292f7ef3092c9a7010d654d61c0290c75d803643c280eb3c58c909586792907bfe7ab"
 
 RPROVIDES:${PN} += "libreoffice-sdk \
 libreoffice-ure-devel"

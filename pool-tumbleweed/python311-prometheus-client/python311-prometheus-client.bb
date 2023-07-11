@@ -4,11 +4,12 @@ LICENSE = "Apache-2.0"
 
 PV = "0.17.0"
 
-RPM_NAME = "python311-prometheus-client-0.17.0-2.1.noarch.rpm"
-RPM_HASH = "46379c8ca1375304e8d7d8ff142a1bffa6a5f32ff8e8f3ca06b10fe1d560eab292e2a5bd3769106a967ad3cccb60a267531bee4c9b38033937343d868c642390"
+RPM_NAME = "python311-prometheus-client-0.17.0-2.3.noarch.rpm"
+RPM_HASH = "fb55c468d52eec7d9ce1df15c974a9db68a2c3ca4c4d17fb6ac310f7fcbe9a0a11713c26baf12ea5ec68abae49fc7a7b4c053c0d8a79280139b8ba5c56617dd6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-prometheus-client \
+RPROVIDES:${PN} += "python3-prometheus-client \
+python3.11dist-prometheus-client \
 python311-prometheus-client \
 python3dist-prometheus-client"
 

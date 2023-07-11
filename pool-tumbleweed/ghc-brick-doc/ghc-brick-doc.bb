@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.6"
 
-RPM_NAME = "ghc-brick-doc-1.6-2.4.noarch.rpm"
-RPM_HASH = "06735204b9c865e3c50bf12a05c2aca95d6ecc7c72208ddd8142c4e6fc1b8e1c258c2172a55bfab53160a2e76044ba451b58e12bd7e0103045c9cc9c167581d4"
+RPM_NAME = "ghc-brick-doc-1.6-2.8.noarch.rpm"
+RPM_HASH = "26b937d092a7e7bd44bdcc3a000414677091dfd57cacc7c95b33b4606f9a36d6f2ba2d655017d233016d191ef20e0af599da0a0fd022b0ef936d0a0d909157ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-brick-doc"

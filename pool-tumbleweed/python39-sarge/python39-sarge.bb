@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.7.post1"
 
-RPM_NAME = "python39-sarge-0.1.7.post1-1.3.noarch.rpm"
-RPM_HASH = "fc22845a72083b2d37cd6fe0bc1bc5905f51e1c0b52b4a1b97d519d9b5788ade0efd9228e8e9f14e353fe99ad762a0e502d831fe10818d441fb51a1d5b48cfba"
+RPM_NAME = "python39-sarge-0.1.7.post1-1.4.noarch.rpm"
+RPM_HASH = "8e0b0a00d090a8aca93dc563cb27019dbe5106ad6f37e7d303b540babf9f6cc2c06416afaff1a65af0ce64b6850c984397adfbb0b5e20935e036c96c51ae5722"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sarge \

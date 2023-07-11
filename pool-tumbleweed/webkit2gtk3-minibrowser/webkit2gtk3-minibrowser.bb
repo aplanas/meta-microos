@@ -2,10 +2,10 @@ SUMMARY = "MiniBrowser from WebKit"
 DESCRIPTION = "A small test browswer from webkit, useful for testing features."
 LICENSE = "BSD-3-Clause & LGPL-2.0-or-later"
 
-PV = "2.40.2"
+PV = "2.40.3"
 
-RPM_NAME = "webkit2gtk3-minibrowser-2.40.2-1.1.aarch64.rpm"
-RPM_HASH = "9f1cc25c76d8a48bd72a7be11a91700c6a926845ea7cb787c3a97de57b78018be0cc4967e2362cddfe59232c243f9cd490d961a96bf7adb060c96b57d8809fe2"
+RPM_NAME = "webkit2gtk3-minibrowser-2.40.3-1.1.aarch64.rpm"
+RPM_HASH = "27104aebb1b79f1fcaa561fc71d0b8573a829fa1614ac6e03f90d512b66b668d11987faa8832a7ece1c5d3d7298b8c4cefde20421652b07f6b23c3b30fd59eaa"
 
 RPROVIDES:${PN} += "webkit2gtk3-minibrowser"
 

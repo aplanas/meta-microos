@@ -6,10 +6,11 @@ LICENSE = "BSD-3-Clause & LGPL-2.0-or-later & BSL-1.0"
 
 PV = "1.10.1"
 
-RPM_NAME = "python311-scipy-gnu-hpc-1.10.1-2.4.aarch64.rpm"
-RPM_HASH = "6530c326a5436668ad73b831ce34e4bd4f22962070d3c366f1ecb999f1315bcdc2b8c0170444904a3023276734851154d21d37a4fb271db49cb1f3193f4f81e6"
+RPM_NAME = "python311-scipy-gnu-hpc-1.10.1-3.1.aarch64.rpm"
+RPM_HASH = "7b76f502c1cd1fd5590ff8aa50a8edd1f3a07e1d4fca1fac3fbab3856a1421659f1644dd8e3adfcdd6207e84827b1e88858c6dfc03c8201b162dba3974c197c8"
 
-RPROVIDES:${PN} += "python311-scipy-gnu-hpc"
+RPROVIDES:${PN} += "python3-scipy-gnu-hpc \
+python311-scipy-gnu-hpc"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 python311-scipy-1-10-1-gnu-hpc"

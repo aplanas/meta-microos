@@ -10,10 +10,10 @@ TCP/IP (with or without a name server) and for systems using UUCP. \
 'sendmail' is a trademark of Sendmail, Inc."
 LICENSE = "Sendmail"
 
-PV = "8.17.1"
+PV = "8.17.2"
 
-RPM_NAME = "sendmail-8.17.1-9.1.aarch64.rpm"
-RPM_HASH = "35943d352b6adf25f2661355563e46fcc60a665c314bef8c46ecf6b7bdeb302e9b0573b916a43a5ac25c090166988ff29ac1d8d31c5457061d1c752c4d2f4b71"
+RPM_NAME = "sendmail-8.17.2-1.1.aarch64.rpm"
+RPM_HASH = "93a6e738404e1766d524660accfb1378efe3d7a93cba17dbe7b30d02a0085717fe003b071c729fb1b009a45b980c01c8e08d0c8defc205cc9b3162810a744e54"
 
 RPROVIDES:${PN} += "config-sendmail \
 sendcf \

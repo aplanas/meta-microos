@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.4.6"
 
-RPM_NAME = "haguichi-1.4.6-1.1.aarch64.rpm"
-RPM_HASH = "4db735d8bd7ea27da554f540dd902755871a10c7a157b6d449b7d0c8a032de8f22c2e9a37f97d9707202c91347e81e51b13cebf39e15a4e27f54bc212f777260"
+RPM_NAME = "haguichi-1.4.6-1.2.aarch64.rpm"
+RPM_HASH = "331121a70750280d54f7914b8eccdf41bcdecc26c0e1b89e5a20ba86c844ad126c6840eea16ec56fdea8f2689dbcf554169aec275e366178b48c6ada6b0486d2"
 
 RPROVIDES:${PN} += "haguichi"
 

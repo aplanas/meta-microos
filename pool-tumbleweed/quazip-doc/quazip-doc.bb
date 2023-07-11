@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later | LGPL-2.1-or-later"
 
 PV = "1.4"
 
-RPM_NAME = "quazip-doc-1.4-2.3.noarch.rpm"
-RPM_HASH = "21f26eeec6327f6f7a237154a8f6864fc3c90e25aa976bf2c0a7a671b60156b84f5b16bda8cf6a60a9e16781d7f37c09d674458aa220fd67e7dc58902849a0f1"
+RPM_NAME = "quazip-doc-1.4-2.4.noarch.rpm"
+RPM_HASH = "0938f9628d70af389e1daeda4ab8e93892e12efc7f53019caa81122c93ea1dc392aa30462a28fc9aee2c102c8c90cb3964bbf3a586e2e97126bd2b20945f482f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libquazip-qt5-doc \

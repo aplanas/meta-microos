@@ -8,8 +8,8 @@ LICENSE = "CDDL-1.0 | LGPL-2.1-or-later"
 
 PV = "1.0.1"
 
-RPM_NAME = "jhighlight-1.0.1-2.10.noarch.rpm"
-RPM_HASH = "d4caa7d7dd767f8b43df46933ba2e9dd29ee227b4c78fb9ea998d5acfd2a8c2faf236650dccc34e78e1f3d2e12787d6ca375233230790fdebd78230250ca7a2e"
+RPM_NAME = "jhighlight-1.0.1-2.11.noarch.rpm"
+RPM_HASH = "33d4fdc9288e841b481f68ff7109ca7723ec0d887233579322a81db73b8f41611e02192af7b72ec31a7481511c91a9849b890b5b01426e90ecc331c77212f03a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jhighlight \

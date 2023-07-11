@@ -3,10 +3,10 @@ DESCRIPTION = "Konsole is a terminal emulator for the K Desktop Environment. \
 This package provides KPart of the Konsole application."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "konsole-part-23.04.1-1.2.aarch64.rpm"
-RPM_HASH = "15451a2b44d109e266c7520fe741e7b25deac66e2ae2f26fa7a69487a428ce3ce8270945aff00dd4cd6bf2c15197904ab4ad6e34d42a207eec8dfcab366ca646"
+RPM_NAME = "konsole-part-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "7e8fb84a695885706d2196f2dce16a6fda2cd469f1b0e0a96c6c7121eb7bc0998c8d166fa800ef3206e35d0272d6a43977655d8f672f67a0140e5656dd65c58d"
 
 RPROVIDES:${PN} += "konsole-part \
 libkonsoleprivate.so.1"

@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.2.0"
 
-RPM_NAME = "python310-wafw00f-2.2.0-1.3.noarch.rpm"
-RPM_HASH = "2facd7353cfa4c7d5c57c73323b67ce72eaf66682a60113aba418121dac433fb665eedb00b84a33eecb81cf909da395da004b0ac5e35837173004ac8c3a42c3e"
+RPM_NAME = "python310-wafw00f-2.2.0-1.5.noarch.rpm"
+RPM_HASH = "62c3d2999fa49b40f2016c2edd007c8ed6ba8c817db44b85032e01d9c2f08bc9c8265c1ede36932027ad08f7bdfc0f855c0b2fc06853074ac395fec1556b3ba6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-wafw00f \
-python3.10dist-wafw00f \
+RPROVIDES:${PN} += "python3.10dist-wafw00f \
 python310-wafw00f \
 python3dist-wafw00f"
 

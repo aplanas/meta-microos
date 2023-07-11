@@ -10,10 +10,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.8.1"
 
-RPM_NAME = "python311-python-prctl-1.8.1-2.4.aarch64.rpm"
-RPM_HASH = "ca043ef936eda2c7e8cc638dab5b51b060de694997d9b1aefcf7b1b38d6d90a0bdc25ae0ab505a3db5eaf18115e968365daf0843859f12061d0715475f59f445"
+RPM_NAME = "python311-python-prctl-1.8.1-2.6.aarch64.rpm"
+RPM_HASH = "520680d009401e5d4c04f8df5af12ebdaf1b9fbe77e4e896b867682bcbd5474c0b62fa37bae1ccf044151a9e430f253bb9a6398a7c9c58e4f30c20973223813b"
 
-RPROVIDES:${PN} += "python3.11dist-python-prctl \
+RPROVIDES:${PN} += "python3-python-prctl \
+python3.11dist-python-prctl \
 python311-python-prctl \
 python3dist-python-prctl"
 

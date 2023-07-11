@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.7.3"
 
-RPM_NAME = "librime-private-devel-1.7.3-2.18.aarch64.rpm"
-RPM_HASH = "b7b1d4f2534150ccd0049438d4503deac05baaf672577d08eb2c632a2727287defc8288fc629b326b2042ff0f654c7202d65487b9089038f013ecd56a4286fec"
+RPM_NAME = "librime-private-devel-1.7.3-2.19.aarch64.rpm"
+RPM_HASH = "ea5440a6ddffcaf8c2ce175f3cc16906500400d0e9e23ea9482587c2bd0f33973d01c3ad9fe458ec28ee045e3ee2bf0ae58029488ce4007e81ad8867e3375d00"
 
 RPROVIDES:${PN} += "librime-private-devel"
 

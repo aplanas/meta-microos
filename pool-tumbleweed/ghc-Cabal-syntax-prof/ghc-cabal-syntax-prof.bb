@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.8.1.0"
 
-RPM_NAME = "ghc-Cabal-syntax-prof-3.8.1.0-3.1.aarch64.rpm"
-RPM_HASH = "a1e7ceb598593c87e1683ed107f96f8dacbbe75b1d6851a70e15864f12f3c7cae544957440717e85a94b90a3dcd1f776410f6f0a4160be34a0c59a6949c20c67"
+RPM_NAME = "ghc-Cabal-syntax-prof-3.8.1.0-3.2.aarch64.rpm"
+RPM_HASH = "d6bbd89effb1449621bf995aaf077a80b163c0d60dde8f5b65590f4703583b401bc8ceaabfe28d1a5f15c5c99ed7782231c52ebd51ed98197766becf213b574f"
 
 RPROVIDES:${PN} += "ghc-Cabal-syntax-prof \
 ghc-prof-Cabal-syntax-3.8.1.0"

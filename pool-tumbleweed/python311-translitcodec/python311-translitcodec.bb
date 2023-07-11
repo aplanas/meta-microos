@@ -7,11 +7,12 @@ LICENSE = "MIT"
 
 PV = "0.7.0"
 
-RPM_NAME = "python311-translitcodec-0.7.0-1.3.noarch.rpm"
-RPM_HASH = "f417818ff2cd372381b710407d14cca9889db24ed1e32e8e4526301d89ccff952a5a23a94e538e769922a4297860363404b935afba9666efa136f8acf735ca2b"
+RPM_NAME = "python311-translitcodec-0.7.0-1.5.noarch.rpm"
+RPM_HASH = "187661afdcd2a8654fab1e67e851d2d5c914797b32ff450cbb2da7143b70c70377a85f37fa0ded29e8ef22cf938f56e8138aed4eaaa56aa7343fb2de81274255"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-translitcodec \
+RPROVIDES:${PN} += "python3-translitcodec \
+python3.11dist-translitcodec \
 python311-translitcodec \
 python3dist-translitcodec"
 

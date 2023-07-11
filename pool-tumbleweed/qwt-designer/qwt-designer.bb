@@ -5,8 +5,8 @@ LICENSE = "SUSE-QWT-1.0"
 
 PV = "5.2.3_qt5+git20181129.2819734"
 
-RPM_NAME = "qwt-designer-5.2.3_qt5+git20181129.2819734-3.18.aarch64.rpm"
-RPM_HASH = "2adc4608303997e4108c6bd1841aa45a5e752544199c8526fdbbd63dd103ae59051e85d250de24cdd69d2fee461b758b4b083a43bd4d4e63860a66b928428693"
+RPM_NAME = "qwt-designer-5.2.3_qt5+git20181129.2819734-3.19.aarch64.rpm"
+RPM_HASH = "ebadc97a82aa0c66a96ea07635aca306c376c4863dddb029a923a8f07cb058bd993d4fb7c1e4b325ba0b20cda1d682e4d3a2c9b30d6cf2098971e490e33586a0"
 
 RPROVIDES:${PN} += "libqwt5-designer-plugin.so \
 qwt-designer"

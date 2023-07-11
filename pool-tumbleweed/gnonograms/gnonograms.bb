@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.0.0"
 
-RPM_NAME = "gnonograms-2.0.0-1.7.aarch64.rpm"
-RPM_HASH = "ff4ec423a9bac3dbdef8512a4c8d99376f9b42d6669a9a67b259cb366f6448c38952c62f89984ac058d10e7273ad9e2512e91d4721d91b673399f0ade36a3aa7"
+RPM_NAME = "gnonograms-2.0.0-1.8.aarch64.rpm"
+RPM_HASH = "1eaa7bb4dfa4e8aac1d87ebab9bae30b7ba3c8f27811d7de9e81ddb8dfa3481d48aa7d2724f45353756cab27258f2f432b8477e5bbb3bd73575bc3e9186faf2e"
 
 RPROVIDES:${PN} += "gnonograms"
 

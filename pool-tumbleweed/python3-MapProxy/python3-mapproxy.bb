@@ -6,12 +6,12 @@ LICENSE = "Apache-2.0"
 
 PV = "1.15.1"
 
-RPM_NAME = "python3-MapProxy-1.15.1-1.1.noarch.rpm"
-RPM_HASH = "1f524ac3b572c1fa30b78e6aed4c4f6e6e134019169aef5c025c8c77dfa30826d07dc58cc905a0f73781f1aac3454df9814dd279f04bd01c0dac003b28963ddd"
+RPM_NAME = "python3-MapProxy-1.15.1-1.3.noarch.rpm"
+RPM_HASH = "b9954f4e03368a480004be376b529e42c5d5d17fc1912cbfa2a78adc9065c606c8aaeb4cd677a3910cb1b82d6885ff60d09cc2e85730e218a321edd0cd42bef3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-MapProxy \
-python3.10dist-mapproxy \
+python3.11dist-mapproxy \
 python3dist-mapproxy"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

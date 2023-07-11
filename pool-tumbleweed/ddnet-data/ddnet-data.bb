@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & CC-BY-SA-3.0 & Zlib & MIT & SUSE-Public-Domain"
 
 PV = "16.9"
 
-RPM_NAME = "ddnet-data-16.9-1.1.noarch.rpm"
-RPM_HASH = "b6c2e5879c817bb367b94b89cf3ffde0b5c2fa8527f2e1fad2c2711dedcf017aac029b95fcc6d9d8c23f9b406260a9d02e3c58c08a2efef3de0dec1b46baee66"
+RPM_NAME = "ddnet-data-16.9-1.3.noarch.rpm"
+RPM_HASH = "5e1b08eecbada639c0b35e9b54fabbdf252b04bdf56800a967a8b65406978a9d203e55da0d2be0c08475e4fe99892824d08f457229ec099104f5a24c33a5ea69"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ddnet-data"

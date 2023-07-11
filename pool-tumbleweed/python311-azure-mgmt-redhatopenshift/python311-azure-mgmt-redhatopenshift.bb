@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "1.2.0"
 
-RPM_NAME = "python311-azure-mgmt-redhatopenshift-1.2.0-1.3.noarch.rpm"
-RPM_HASH = "3174580566c7ad99563336cd7a1a9dac15d4f3f7545aefdc3cfd040b9b8973fdcdf2108ba06ec81b9e13d2895526d89324cd9679955143f2ccc2cb719d108ba2"
+RPM_NAME = "python311-azure-mgmt-redhatopenshift-1.2.0-1.4.noarch.rpm"
+RPM_HASH = "d68d067ba586ad2848248eeec944da1822cbb58be1b51a0afca4b8445cf622666a3811f94c2e73132745d926ec3167b9234937b673931e7aaeb6c91430720498"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-redhatopenshift \
+RPROVIDES:${PN} += "python3-azure-mgmt-redhatopenshift \
+python3.11dist-azure-mgmt-redhatopenshift \
 python311-azure-mgmt-redhatopenshift \
 python3dist-azure-mgmt-redhatopenshift"
 

@@ -9,8 +9,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2023.201.svn15878"
 
-RPM_NAME = "texlive-esint-type1-2023.201.svn15878-53.1.noarch.rpm"
-RPM_HASH = "4595efc9648189723c3cd6aabe77951bcdaf30d2ba6d06bdb109cad234dcd91da81c7121b171bcb74aeece0d311c61e4cc237f0634ba63c44f67b34352ec483f"
+RPM_NAME = "texlive-esint-type1-2023.201.svn15878-53.2.noarch.rpm"
+RPM_HASH = "8badf924379627685c02b51517ba3455fbc71c81e475efb94011da3db782b7e4ba7c2ef3b8e8b4ae1497bfa92b2e6e1d81dc250146f29e7a4fa9a494eef6fde4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-esint.map \

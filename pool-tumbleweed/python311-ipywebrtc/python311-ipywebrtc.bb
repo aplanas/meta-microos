@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "0.6.0"
 
-RPM_NAME = "python311-ipywebrtc-0.6.0-1.17.noarch.rpm"
-RPM_HASH = "9b94f5c86df6f4c960a7d4bafda590d62b8b66e56d2058c76d82035215ae83bcdfe3e7949f51525f7fbb376b9e764f4ededa07ca9b06b5f9f92d5d3ef5cd971e"
+RPM_NAME = "python311-ipywebrtc-0.6.0-2.1.noarch.rpm"
+RPM_HASH = "2807b7b3d212328c3161458829321cdc83d73ca9a1d18e2856518e2f87e83d8fd1bbe2e8df70b0f67dcff900ad415408c8b5c132da6e307e0181e1519203b64b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-ipywebrtc \
+RPROVIDES:${PN} += "python3-ipywebrtc \
+python3.11dist-ipywebrtc \
 python311-ipywebrtc \
 python3dist-ipywebrtc"
 

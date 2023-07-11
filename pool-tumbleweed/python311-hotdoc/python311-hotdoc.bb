@@ -10,10 +10,12 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.15"
 
-RPM_NAME = "python311-hotdoc-0.15-1.2.aarch64.rpm"
-RPM_HASH = "a6083b559ef8842f1f57ec9848de77f4513071d1ef28ce52543361861709f6f0f4c9cd59e0849f1c8f73fb4a525906631b02d4a6240ab0e712d5985b6f91aa27"
+RPM_NAME = "python311-hotdoc-0.15-1.3.aarch64.rpm"
+RPM_HASH = "1a9f6083e7fde96cec09db6d0440aaa23d6ff042262e815953ad6c48b60a4c9fceb22fdada7b1e2d94afd90f94b5df8adc5638e382e3d310c1d8b8cf419d940e"
 
-RPROVIDES:${PN} += "python3.11dist-hotdoc \
+RPROVIDES:${PN} += "hotdoc \
+python3-hotdoc \
+python3.11dist-hotdoc \
 python311-hotdoc \
 python3dist-hotdoc"
 

@@ -4,14 +4,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.11"
 
-RPM_NAME = "perl-Cookie-Baker-0.11-1.15.noarch.rpm"
-RPM_HASH = "255ea6fc99931163fa7e3d5b6fbdcacb0c6a5550db0953c6bb3657a19ca2432e3585f5483430918c26a657e71f1ed01af2dcd2e0c2eca88d1f25570c7b00fea3"
+RPM_NAME = "perl-Cookie-Baker-0.11-1.16.noarch.rpm"
+RPM_HASH = "fbbaa4a060e84ec2fa0f8e19e6910df7f20c46981ebbcacb47dca2e6fd5528f055d573c51dceddaca3ae54378640aeb6562fd9d8c6c977a1d7697ff274b75a41"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Cookie--Baker \
 perl-Cookie-Baker"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-URI--Escape"
 
 inherit rpm

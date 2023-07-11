@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.3.8"
 
-RPM_NAME = "fltk-devel-1.3.8-3.8.aarch64.rpm"
-RPM_HASH = "216316f8e13419268cea82cab4b64343c260926b49e691e3b914b269f407b0bc5b102aa37f7cbb5b99c7c6d49ea7c0c70fada4224f0d0eac728c7a9dd54adcb3"
+RPM_NAME = "fltk-devel-1.3.8-3.9.aarch64.rpm"
+RPM_HASH = "edd1dd85766b8abcc769a753b5fb366580e214b99288d74d721ce44d81d78340c566bb1f66aa59f0879745dd65f7eb423c9524aca8160d85bb825f409b5b8d90"
 
 RPROVIDES:${PN} += "fltk \
 fltk-devel"

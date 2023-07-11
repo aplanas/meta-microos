@@ -2,10 +2,10 @@ SUMMARY = "Qt Development Kit"
 DESCRIPTION = "You need this package if you want to compile programs with Qt Quick 3D."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.15.9+kde1"
+PV = "5.15.10+kde1"
 
-RPM_NAME = "libqt5-qtquick3d-devel-5.15.9+kde1-1.1.aarch64.rpm"
-RPM_HASH = "d3b7c2f0e37b768c65577754b70e5b79da7903d086c27758be1b6dca72bfa8e822d741138416a9d031a960b233b76b6d230dfb27ad83a50e86afa85a98c71f84"
+RPM_NAME = "libqt5-qtquick3d-devel-5.15.10+kde1-1.1.aarch64.rpm"
+RPM_HASH = "d7d6049df3bb8ab9a65340fde168b9220cd43ed7acd6f3780c4315ef1dcd0f520a401aaa6cf31adca7fcc455eb1664047f7435a0efe6e14ebaef3dd2a8b874a2"
 
 RPROVIDES:${PN} += "cmake-Qt5Quick3D \
 cmake-Qt5Quick3DAssetImport \

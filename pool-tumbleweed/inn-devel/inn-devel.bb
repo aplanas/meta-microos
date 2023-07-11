@@ -7,8 +7,8 @@ LICENSE = "BSD-4-Clause & GPL-2.0-or-later"
 
 PV = "2.6.5"
 
-RPM_NAME = "inn-devel-2.6.5-1.6.aarch64.rpm"
-RPM_HASH = "69e322eb223d22a10b8872919505d0a617f9341cf27d156a6683884368db7fa0c46680fe2ef28bc8c1c8b6e0a8ba5c4558939c6a45f43d1e6115bdd80717e4bf"
+RPM_NAME = "inn-devel-2.6.5-1.9.aarch64.rpm"
+RPM_HASH = "4db21020f3b6c7ac8e7322d1a4a2406f48d61f9114bd85fa5e11b069c6582fa79303d179e42d5e786b8600df2ff2d79fc87ef5d4291eaf1ca7af568635ee0652"
 
 RPROVIDES:${PN} += "inn-devel"
 

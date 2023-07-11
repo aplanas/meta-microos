@@ -14,11 +14,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.1.2"
 
-RPM_NAME = "python311-python-gflags-3.1.2-2.19.noarch.rpm"
-RPM_HASH = "18b21edcbd5f2c94f5b179d2db0f4226ab637866591a094334fafa0ead9c9b10f9169402484e0ebae33e2fb5dd531289453b9d4854dade7f9809a8e8ae22ea09"
+RPM_NAME = "python311-python-gflags-3.1.2-2.20.noarch.rpm"
+RPM_HASH = "559ffc0e9220a29165752594c2ffdff4d07af38d3959d157dacc30b3bdf26ee402f1b032643539e37e4102f4d099a2e170782389a5c34a45b363f56df8e18b8d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-python-gflags \
+RPROVIDES:${PN} += "python3-python-gflags \
+python3.11dist-python-gflags \
 python311-python-gflags \
 python3dist-python-gflags"
 

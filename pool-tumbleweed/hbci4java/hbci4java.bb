@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "3.1.64"
 
-RPM_NAME = "hbci4java-3.1.64-1.3.aarch64.rpm"
-RPM_HASH = "5deb0dd1356299300be91633f323d14e7cef853850d231c508947a008713cb8d57da6f3adf9b13d2d258c54ccb235f2037efc1cf58dcbd41baa39c8e8b4c9c6a"
+RPM_NAME = "hbci4java-3.1.64-1.4.aarch64.rpm"
+RPM_HASH = "efcff4a6ddcdedddb42422dbe3ba110b620da4117aedc7afd920aa4895663c7078408c87124561d337169d256d293c96593f5ef54b6f18948a403f5bc8042ba4"
 
 RPROVIDES:${PN} += "hbci4java \
 libhbci4java-card-linux.so \

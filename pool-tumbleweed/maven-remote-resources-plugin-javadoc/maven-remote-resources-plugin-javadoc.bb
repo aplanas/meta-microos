@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.7.0"
 
-RPM_NAME = "maven-remote-resources-plugin-javadoc-1.7.0-2.8.noarch.rpm"
-RPM_HASH = "c5c28c0d5e3566dec8eb4f2322b369d46618cd98b25828a1b1b76c94e85e7dc772c61627e330b2e049bb9805649fb6f17710c6c15ae2299958eb0787a855315f"
+RPM_NAME = "maven-remote-resources-plugin-javadoc-1.7.0-2.9.noarch.rpm"
+RPM_HASH = "c9325dd52c19f98c191161e883a926d72967ddd36db651fddf99779f5e93a785ab860498c240b6504fa4326e664ea81fe4105da490e0a7a2d8573543cd87ae47"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-remote-resources-plugin-javadoc"

@@ -2,10 +2,10 @@ SUMMARY = "Busybox applets replacing util-linux"
 DESCRIPTION = "This package contains the symlinks to replace util-linux with busybox."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.36.0"
+PV = "1.36.1"
 
-RPM_NAME = "busybox-util-linux-1.36.0-26.3.noarch.rpm"
-RPM_HASH = "d10d43e43c9c617bb1bc355488103c115363e381d34c38b127c003c652b3368b4310f2c20298bd91ac89e40af14f30b3e14e5371193a6dad730b3448e1ce8020"
+RPM_NAME = "busybox-util-linux-1.36.1-27.1.noarch.rpm"
+RPM_HASH = "886204d3d1e232ed7cc3207fa0ed7a413f302ee3200359228f2a6b12ebf6e1b7c489190478cf7ce55d20cfc2a228a4b3c494aefa79061c47cb32513b1ac46097"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "/usr/bin/kill \

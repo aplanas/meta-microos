@@ -15,8 +15,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "4.17.1_04"
 
-RPM_NAME = "xen-devel-4.17.1_04-1.1.aarch64.rpm"
-RPM_HASH = "7613aeed4dfb32d00e8425a30c5a90946479d46d4b6764fed407ac2c3123715c861062d7ade553c05ec2f327a3dd0db42918264dbfccc4ad741eb7e97a68748d"
+RPM_NAME = "xen-devel-4.17.1_04-1.2.aarch64.rpm"
+RPM_HASH = "f116a35c5745ab52539477a8a2babed9a8937632bdc879fdc076b1b0b6afde626440b3d6b293f85fd96d811cfea0f8f1395f5876f7a13fe936c60fe4070e3ac3"
 
 RPROVIDES:${PN} += "pkgconfig-xencall \
 pkgconfig-xencontrol \

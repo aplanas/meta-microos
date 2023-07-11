@@ -38,8 +38,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.32.2"
 
-RPM_NAME = "nbdkit-basic-plugins-1.32.2-1.3.aarch64.rpm"
-RPM_HASH = "9c00e800659f511169b88a657afc24332ef879863e57e6554e7dd9291ee6b02b07cee67e3d7460f9308b2272b46a446df93b4618a30bd1f7f4eea26ad2026fe1"
+RPM_NAME = "nbdkit-basic-plugins-1.32.2-1.4.aarch64.rpm"
+RPM_HASH = "07cd239c97f6b14195fe3d59df3d75e879132c9f4476b28571ab26bf52c8d5ae5b5168ebb8c4a01de1ae0742c713efcc3baea172a53d32f2a91399b8f8a9a574"
 
 RPROVIDES:${PN} += "nbdkit-basic-plugins \
 nbdkit-data-plugin \

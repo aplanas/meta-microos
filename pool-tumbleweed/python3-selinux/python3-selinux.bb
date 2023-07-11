@@ -8,11 +8,11 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "3.5"
 
-RPM_NAME = "python3-selinux-3.5-2.1.aarch64.rpm"
-RPM_HASH = "8abc0fc33d402b4767c2e3896b655efb97f259267022c7bbaab686add56ea271a60b7dbb5685cd8a0b469c9a1d613b30e9835fe00aa2b25baf749071edc01350"
+RPM_NAME = "python3-selinux-3.5-3.2.aarch64.rpm"
+RPM_HASH = "74f1106c0ef7d200bd183610efed7f1be8eff2dde79202cce51bf87af5bb9be13b5bb64af3e3165791183848b772870d9d3a34357a5fc641c22d6284a10c468d"
 
 RPROVIDES:${PN} += "python3-selinux \
-python3.10dist-selinux \
+python3.11dist-selinux \
 python3dist-selinux"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \

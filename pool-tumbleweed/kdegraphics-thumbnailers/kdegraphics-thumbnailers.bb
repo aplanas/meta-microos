@@ -3,10 +3,10 @@ DESCRIPTION = "This package allows KDE applications to show thumbnails \
 and previews of graphics files."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kdegraphics-thumbnailers-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "ed7dcdf2966b4cf9b711ea8263e135d8268ebbddfac21651cfe940007a8ae8e547a29c87d26b2603acc641ab8f5818d00e0cfedaa537f34c196250dae3f4dc00"
+RPM_NAME = "kdegraphics-thumbnailers-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "5dddd72a662d831aaad9aaa13cf9a348d8aaf0ea0478dbd23ee5dd928080ece2bf582e3d25db568687c10e2fce6244ffb2da2c21e575fb35122ee695657a8e81"
 
 RPROVIDES:${PN} += "kdegraphics-thumbnailers"
 

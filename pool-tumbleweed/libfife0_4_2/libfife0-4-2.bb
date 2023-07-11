@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.4.2"
 
-RPM_NAME = "libfife0_4_2-0.4.2-5.16.aarch64.rpm"
-RPM_HASH = "aae1c5b22c7a24e038d349ee70d5287a82fcf0f17457aaa5af5958f4fcc4dee3465259e82056c133ae1e87ff313ddde347dd0b642a897561f37e404b445f1bbe"
+RPM_NAME = "libfife0_4_2-0.4.2-5.17.aarch64.rpm"
+RPM_HASH = "cca383b6b9855fbaa8677b0cadd5e8809efee9da154c7231d2d0c5be4cb3012c13003cf416d669917f0abf89d2c7a877e0b850e45784c4c15f0e2b100537645e"
 
 RPROVIDES:${PN} += "libfife.so.0.4.2 \
 libfife0-4-2"

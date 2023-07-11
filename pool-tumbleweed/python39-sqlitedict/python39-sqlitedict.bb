@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.6.0"
 
-RPM_NAME = "python39-sqlitedict-1.6.0-3.12.noarch.rpm"
-RPM_HASH = "a64c2f3ae83b0c53030488ba4ba8ce2cab13157d9c988c7fdc165bbd8a7b01fe077ab77ffd19b0fe96e03d0b575105be21f14c1c476d6a3e96d6c80e3ab2dff5"
+RPM_NAME = "python39-sqlitedict-1.6.0-3.14.noarch.rpm"
+RPM_HASH = "956de6fd5300424177e63d470f1e9dabd8fc7dd808b6de3c9fda89a3b408945bdca470bfdf2bb86ffb446b778960aee76fc0178cefab0abf0f5c8d977133ee3f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sqlitedict \

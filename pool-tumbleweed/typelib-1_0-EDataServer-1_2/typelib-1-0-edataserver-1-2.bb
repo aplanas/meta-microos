@@ -6,10 +6,10 @@ This package provides the GObject Introspection bindings for the \
 libedataserver library."
 LICENSE = "LGPL-2.0-only"
 
-PV = "3.48.2"
+PV = "3.48.4"
 
-RPM_NAME = "typelib-1_0-EDataServer-1_2-3.48.2-1.1.aarch64.rpm"
-RPM_HASH = "55ad280c57657818bc2d3a8396cb9aa3d4fec78f19b261fc092aff94ec06cd2a41554dc1ba4f73e4f9c3bae4ee0bd18ddbb018ec51f68cdd3c3940ae4242916f"
+RPM_NAME = "typelib-1_0-EDataServer-1_2-3.48.4-1.1.aarch64.rpm"
+RPM_HASH = "5ceed9fbc40d58ab26b8adcfd9b1307eb369cca9433867dc56c9d1c296a6e0d69150d277eeb116cdcc3ee61fedbf38c291b31cf69e89446a4203fa967ee853e0"
 
 RPROVIDES:${PN} += "typelib-1-0-EDataServer-1-2 \
 typelib-EDataServer"

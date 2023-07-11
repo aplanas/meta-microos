@@ -2,10 +2,10 @@ SUMMARY = "Certificate manager and GUI for OpenPGP and CMS cryptography"
 DESCRIPTION = "Kleopatra is a certificate manager and GUI for OpenPGP and CMS cryptography."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kleopatra-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "952bf7187985859328a9e1482bedbe8e4e90cdae0809eb0d059a1523163d2bc5a0c796f5f1f2b516b377f7b4d02e0e6a3632220441c02f5268cb0e0c3e74b99e"
+RPM_NAME = "kleopatra-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "cdb90c48c560fa2f6b533100991bec87b386feee1401e1afd548fee6e021abc05edf087a3b0ef1e2e9f0d5e0a8f52129ba9e4f56f58c9b5f0b148326b9b304d0"
 
 RPROVIDES:${PN} += "kleopatra \
 kleopatra5 \

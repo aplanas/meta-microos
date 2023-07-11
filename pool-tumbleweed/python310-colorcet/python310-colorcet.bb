@@ -6,12 +6,11 @@ LICENSE = "CC-BY-4.0"
 
 PV = "3.0.1"
 
-RPM_NAME = "python310-colorcet-3.0.1-1.5.noarch.rpm"
-RPM_HASH = "fabb389e9fb4bd2c5806c7d0f2fa2a9e8ad059e20cbcaaa425fb5c665a3bfb724f4c378a321d9b1d236518991cc282a998ef6bf0e7d771c7bb2cfa6b00e43763"
+RPM_NAME = "python310-colorcet-3.0.1-1.7.noarch.rpm"
+RPM_HASH = "e6095b6e298bb708e623e9ba971c6c7fde92bab541ecde92406b3d6ce11a27acd917144b25648cbc5e336a6ec89fb9eb8c76ef555738aee6fe16faef769ef35b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-colorcet \
-python3.10dist-colorcet \
+RPROVIDES:${PN} += "python3.10dist-colorcet \
 python310-colorcet \
 python3dist-colorcet"
 

@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "1.1.4"
 
-RPM_NAME = "python310-httpretty-1.1.4-5.2.noarch.rpm"
-RPM_HASH = "81da01f41033265c3a5cec97c51f9462732e4241615a428f6873b8e61e043a64a12b21b849fcf4e5a0e379faadf85776fbfc6a500e7efa2f56503126c7d9c6fa"
+RPM_NAME = "python310-httpretty-1.1.4-7.1.noarch.rpm"
+RPM_HASH = "688f8777962a6caa9f492eaa89411c83d332104a7f4ea2bb7c4b0b68d37994643f4e03029c609e213c9e692f702259e055563019fb9b1ed4ccbe95a450cb0285"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-httpretty \
-python3.10dist-httpretty \
+RPROVIDES:${PN} += "python3.10dist-httpretty \
 python310-httpretty \
 python3dist-httpretty"
 

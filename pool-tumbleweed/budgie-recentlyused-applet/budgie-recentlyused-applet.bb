@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.6.0"
 
-RPM_NAME = "budgie-recentlyused-applet-1.6.0-1.1.aarch64.rpm"
-RPM_HASH = "61077deb96b8574f58b846d0a0b1255e7ac2f87bce27297438b1bc71b71d91d8c3d93388de2af0f44d828c40af2c79720acf91da3792f213dd8f2efe9c6fe215"
+RPM_NAME = "budgie-recentlyused-applet-1.6.0-1.2.aarch64.rpm"
+RPM_HASH = "13748380012376d395a61eccdd3f716b5ecfffecf23b7e4e14f4ac8e6561f632f77d08a9601d695c5faa779368f9749337e50d89a4c229796449dc679cd697ee"
 
 RPROVIDES:${PN} += "budgie-recentlyused-applet \
 libbudgie-recentlyused.so"

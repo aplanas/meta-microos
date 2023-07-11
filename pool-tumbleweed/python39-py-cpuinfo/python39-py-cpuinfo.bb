@@ -18,8 +18,8 @@ LICENSE = "MIT"
 
 PV = "9.0.0"
 
-RPM_NAME = "python39-py-cpuinfo-9.0.0-2.1.noarch.rpm"
-RPM_HASH = "ef28eb1f9209f24c25da3057e5ded001d6a8ec8b42b27b2ad8f0bd8a70a2fb32ce1961f43f29dc2af865da5a9e7db48e62526c1f2051a31e6b37e57737b754d2"
+RPM_NAME = "python39-py-cpuinfo-9.0.0-2.2.noarch.rpm"
+RPM_HASH = "ce0791d1bf11b0c9e7ce92b0490db7a7ce72e3463f144299762e2925daafa32ef516c414e16d83a9af1955fae7e71ac971979d8b8a94834e6345bffb4761c230"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-py-cpuinfo \

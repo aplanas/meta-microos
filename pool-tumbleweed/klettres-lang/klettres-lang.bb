@@ -2,10 +2,10 @@ SUMMARY = "Translations for package klettres"
 DESCRIPTION = "Provides translations for the 'klettres' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "klettres-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "1cdd7c1de6fbfb10b20a4636be9b27cb694c00bc706501376ac13af198b45fcd77b15d52628d1f08b8f18db5e6994ad20165f396ab0e12af014b42fee97f5024"
+RPM_NAME = "klettres-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "c9d2db1e0cd23ed01a14d681971720996a5e4a9e46a56aea90b741f75d76c11f9500323b6770db8103f3764152a39e9721190cd0f0e36a8d9b724c88726ca507"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "klettres-lang \

@@ -6,11 +6,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.11"
 
-RPM_NAME = "python311-shortuuid-1.0.11-1.1.noarch.rpm"
-RPM_HASH = "1050c2ee3da84eb7d50ddc32ed43caa94f23d0471df86aaad01ae4c5f30e5642b90eaef8bc2cd328547bb689a5b5f433e5f379e72a22e3a0550146c8f8a654e9"
+RPM_NAME = "python311-shortuuid-1.0.11-2.1.noarch.rpm"
+RPM_HASH = "98c6a000d79626cb2661dca9955c32ba6522a7debd3dd8fc01c9f9f6a388e8d1deedd64bd09f0a3bddd90b5a8c0804ada385abeb91c6e77f66bf3d982ba24f03"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-shortuuid \
+RPROVIDES:${PN} += "python3-shortuuid \
+python3.11dist-shortuuid \
 python311-shortuuid \
 python3dist-shortuuid"
 

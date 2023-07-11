@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "2.0.3"
 
-RPM_NAME = "python39-multi_key_dict-2.0.3-4.16.noarch.rpm"
-RPM_HASH = "29442773cbf7cac359bc0ed16387c5155bbde6e31641839f5e5c77ad8e1a7f50b6d68399313f92d56b18c402e145f28eafa148c1e26c9b302aaa817d808bb115"
+RPM_NAME = "python39-multi_key_dict-2.0.3-4.17.noarch.rpm"
+RPM_HASH = "8f0618388db930525414a207e4d56c4d8625448015beeba7ae9a2bec3478fc4f4808238eed6be5d5ebd3a5a35433d8ca3f4c7d0e1258d6cbd69af5e3a10b62b3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-multi-key-dict \

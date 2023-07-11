@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.25"
 
-RPM_NAME = "celluloid-lang-0.25-1.1.noarch.rpm"
-RPM_HASH = "bab9740ec0eb314f6fa93fd979fb1e58527954f7e8d91f6fd8d0beaf07dbedd89e18bb0bca5bb420899b75ef8ac3faa818f4063c0a65626db60be48313cfe55b"
+RPM_NAME = "celluloid-lang-0.25-1.2.noarch.rpm"
+RPM_HASH = "c0519950b1b587203a8b9e7e6b962c6c1d5ace9f8c59bfb7dffa199bc3ee388f255cb4ac0dbfcc66b55e46a96c0029286fba0d12691c8d116266709119279f41"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "celluloid-lang \

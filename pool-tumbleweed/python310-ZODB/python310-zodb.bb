@@ -8,12 +8,11 @@ LICENSE = "ZPL-2.1"
 
 PV = "5.8.0"
 
-RPM_NAME = "python310-ZODB-5.8.0-1.4.noarch.rpm"
-RPM_HASH = "7f411b006635d019898062673315b156763930f6978fe2250555cd62028e3c9cee3e68a1eb8929c4fae59f4ac4a6d0989b6cbcc6a75a43068dbd854bd40ba71e"
+RPM_NAME = "python310-ZODB-5.8.0-1.6.noarch.rpm"
+RPM_HASH = "43a29f725424fccf4527f66813bf48d226c3308aee66716170d4789cb3cbd99475da596d8458e9bf252317ac7bec3f08bf558cd6ccf9274f636154355f1492eb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-ZODB \
-python3.10dist-zodb \
+RPROVIDES:${PN} += "python3.10dist-zodb \
 python310-ZODB \
 python3dist-zodb"
 

@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-elymaic-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "fc533131cc17e3c9dc3ba3721bf45d696701ea0aa8edb1927258d1feb131c420fe7745d6fd3c7732b5dbd09b4cac72858adec843f00698b71db8f8bb389597a2"
+RPM_NAME = "noto-sans-elymaic-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "a28c28a88b22a1a37a40613b7e208139ff43002f24e1957c763366b3026f03320c8136caa25efc414993ab7b4db883f4d1fdd18a578af179208d5d1f87b681c0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-elymaic \

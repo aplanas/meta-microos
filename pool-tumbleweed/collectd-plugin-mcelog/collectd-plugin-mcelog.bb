@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & MIT"
 
 PV = "5.12.0.134.g4cebbfc"
 
-RPM_NAME = "collectd-plugin-mcelog-5.12.0.134.g4cebbfc-1.4.aarch64.rpm"
-RPM_HASH = "266006b0c9c3df626400c513b9d1b0f01524410e6b7feef2eb2a28fe58d8e09deda551c03e2460bfb4850c96c4e2bc862b677c1e50945b72d851e2c44dd7a26f"
+RPM_NAME = "collectd-plugin-mcelog-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
+RPM_HASH = "05fd3772f832866febe0286d11ba226cfcd3fc99144939a3ad0efc2d6b4b455fa3bcff8c87e19cc2c37745bb2f1a234b122e923771a84025a930b4a99372e6c1"
 
 RPROVIDES:${PN} += "collectd-plugin-mcelog"
 

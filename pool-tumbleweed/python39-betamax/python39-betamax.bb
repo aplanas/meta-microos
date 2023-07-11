@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.8.1"
 
-RPM_NAME = "python39-betamax-0.8.1-2.1.noarch.rpm"
-RPM_HASH = "a3e2803d169414a1f1162aff38e6a43fcaec62b0056cded8b0c63f8ecde697def10292186172dab56b791987f7e5e95c009484fc309b6167bbfbd97569fd7994"
+RPM_NAME = "python39-betamax-0.8.1-2.2.noarch.rpm"
+RPM_HASH = "f30e2b487495d0b2ff084270e2fa1552da83d4a2286f7dbe2577d471659bc8e16c5159712f1bc29001e2c4eb6787ad6de5e1da11734bba7e1e60cb22924efa46"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-betamax \

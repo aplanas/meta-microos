@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.41"
 
-RPM_NAME = "connman-plugin-openconnect-1.41-4.7.aarch64.rpm"
-RPM_HASH = "a21b4b3a86bb924603bda0dc8667a6cad3c8e33b97119f6813273e4fe55fd2f5f1ed7352248f2b2a072e47970fb0f9215e928f5436a301dd65bc4b7b981901e0"
+RPM_NAME = "connman-plugin-openconnect-1.41-4.8.aarch64.rpm"
+RPM_HASH = "0cf1cbf7425246086ff99045e5d8131e91823220e21b61efe19aa597996c1ece1cd7a9a4f8366bddfad027da0515f5034793a6fad390f9cf7b3ae9c45bde7f9f"
 
 RPROVIDES:${PN} += "connman-plugin-openconnect"
 

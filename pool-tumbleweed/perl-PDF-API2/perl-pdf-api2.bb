@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.044"
 
-RPM_NAME = "perl-PDF-API2-2.044-1.2.noarch.rpm"
-RPM_HASH = "eed1521c401f04d3ce80ebf2d7a8e9efb2c15150d24114a79bf12cd9faad6e4f8b94d3d44d27f87305cfbacc9293b691099bcaf6815183e3250ba2a9e3a72c5c"
+RPM_NAME = "perl-PDF-API2-2.044-1.3.noarch.rpm"
+RPM_HASH = "19aed34f11c1122e37d269fdfb3379a93dfaf2485e6212d68b1895bb45be515ae2b033e19324210cb6ce8ad799fd7368ce5e09b98881eb210af9c35d29a7b428"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-PDF--API2 \
@@ -115,7 +115,7 @@ perl-PDF--API2--ViewerPreferences \
 perl-PDF--API2--Win32 \
 perl-PDF-API2"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Compress--Zlib \
 perl-Font--TTF"
 

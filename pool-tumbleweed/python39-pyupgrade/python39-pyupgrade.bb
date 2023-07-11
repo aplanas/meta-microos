@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "3.4.0"
 
-RPM_NAME = "python39-pyupgrade-3.4.0-1.1.noarch.rpm"
-RPM_HASH = "a743d4a994b53f8e4dec3adfb62b1fe2196f9075e0e48160749e702e67c5557272526096183d8396b485cb9756941b8c63b2019ee0d6f95cca4b9e11e0a0a30a"
+RPM_NAME = "python39-pyupgrade-3.4.0-1.3.noarch.rpm"
+RPM_HASH = "f5a79dc95ec4c18f700dfb5edb63dadc6708b86cdf1fa2d39c26b538be18cbfeb7e6833ca52510f9ce9b89240b426c2e606144ec08c9c2de34470b2458705c3b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyupgrade \

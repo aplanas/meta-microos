@@ -14,12 +14,12 @@ libzypp provides functionality for a package manager: \
     installation order calculation. \
   * An API for browsing available and installed software, with some \
     facilities for programs with an user interface."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
-PV = "17.31.11"
+PV = "17.31.15"
 
-RPM_NAME = "libzypp-17.31.11-1.1.aarch64.rpm"
-RPM_HASH = "72e5cb5decb544a5556c6742ba3141dfd5dd27a5361ff7535d747c7018cc63c886c906cb4b605b9b5262801e67a834a8ac7ae10779429a0ef8fde9be7b8080a2"
+RPM_NAME = "libzypp-17.31.15-1.2.aarch64.rpm"
+RPM_HASH = "044c6395b5b807cb99997fa65b6e49fcc254ada8a2b68e9b3aa5366a96e1fa4633ca654d09d1a2e6e7c24f0c1a25d702ab384c9b2619eba5670ba926573acbfa"
 
 RPROVIDES:${PN} += "config-libzypp \
 libzypp \
@@ -45,7 +45,7 @@ libcurl4 \
 libgcc-s.so.1 \
 libglib-2.0.so.0 \
 libgpgme.so.11 \
-libprotobuf-lite-3.21.12.so \
+libprotobuf-lite.so.23.3.0 \
 libproxy.so.1 \
 librpm.so.9 \
 librpmio.so.9 \

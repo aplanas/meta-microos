@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "7.3"
 
-RPM_NAME = "secrets-lang-7.3-1.1.noarch.rpm"
-RPM_HASH = "d6465c9d511493371e2805cc2163eb70d8494d7fa4f50ec8f7de26252f9087d538628f59a7aa77d7ab5788363db2528c9873a54a2c6c5750145e011f8abd78e7"
+RPM_NAME = "secrets-lang-7.3-1.2.noarch.rpm"
+RPM_HASH = "55a0c706f63c86ec116c15985ff4087811e33f91da7eb937a0db5abd8c4fd673804e70bd703576cecc9def829bcf384435fcc607182aa01e10a37653501e4862"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-secrets-ca \

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.0.9"
 
-RPM_NAME = "ghc-crypto-random-doc-0.0.9-5.3.noarch.rpm"
-RPM_HASH = "4b93cf3a6a20d934003b75c62ee225c4dc17bdedf0ad2e2c4afb1072a7ae87f01cd59e4a84090f9b22c4a4bc0134a6cb2ca5185dd53f95ba48aa8a2cd2181791"
+RPM_NAME = "ghc-crypto-random-doc-0.0.9-5.6.noarch.rpm"
+RPM_HASH = "b64596cdb23cec441bb190aa9fd0200c3a6e5fd624b7db9709db506753d71784d49dc7c99ab6e8cf07a69c44ee02002f2e7ec45bb04fd0e01fb89acfcd49b4ac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-crypto-random-doc"

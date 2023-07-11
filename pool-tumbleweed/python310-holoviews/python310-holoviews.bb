@@ -11,18 +11,18 @@ rendered automatically by one of the supported plotting libraries \
 (such as Bokeh or Matplotlib)."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.15.4"
+PV = "1.16.1"
 
-RPM_NAME = "python310-holoviews-1.15.4-1.2.noarch.rpm"
-RPM_HASH = "92ef38a19ef938e94571087a839fd46fb4bbef0e766488db99c335677531b427058e0f11d9cb68fe6eb3c5eb53c05e95189ce6d5fd1d4dc65cc8c081a6d700f6"
+RPM_NAME = "python310-holoviews-1.16.1-1.1.noarch.rpm"
+RPM_HASH = "2f1703f80dec8d42c5d099e198b13a733f1a7224a1ff1188637b57deff6e94adac3f4c0c898eb52c5a098f73d9be32fa7502315ccb5d59c37c657d961f5e434f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-holoviews \
-python3.10dist-holoviews \
+RPROVIDES:${PN} += "python3.10dist-holoviews \
 python310-holoviews \
 python3dist-holoviews"
 
-RDEPENDS:${PN} += "/usr/bin/python3.10 \
+RDEPENDS:${PN} += "-python310-param >= 1.12 with python310-param < 3 \
+/usr/bin/python3.10 \
 /usr/bin/sh \
 python-abi \
 python310-colorcet \
@@ -30,7 +30,6 @@ python310-numpy \
 python310-packaging \
 python310-pandas \
 python310-panel \
-python310-param \
 python310-pyviz-comms \
 update-alternatives"
 

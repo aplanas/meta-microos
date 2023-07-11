@@ -4,8 +4,8 @@ LICENSE = "OpenSSL"
 
 PV = "1.0.1"
 
-RPM_NAME = "openssl-ibmpkcs11-1.0.1-1.22.aarch64.rpm"
-RPM_HASH = "16ee2cb13f7cb754abd4e9ee0296f7565c0b7cfc9cd16ba536a0ff9388a3db3b9f07affe77ec39aa45f3936182a64b8686af6a8778710dad7a2074346e8a58ab"
+RPM_NAME = "openssl-ibmpkcs11-1.0.1-1.23.aarch64.rpm"
+RPM_HASH = "8ada5e48cd900dab692f18a2225a19291d216ca72bfd2dd50a451888715153b2f8b12edef8c29029952f5fe5990bdfaddf59e7db6f0ff56833d246a1dc4bff15"
 
 RPROVIDES:${PN} += "libibmpkcs11.so.0 \
 openssl-ibmpkcs11"

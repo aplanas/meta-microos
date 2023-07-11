@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.28.1"
 
-RPM_NAME = "libgenders0-1.28.1-2.3.aarch64.rpm"
-RPM_HASH = "2a82c3809be78e274b3de1c5e64eed766f5a5ea54ddc10708abf1678d9ed1d7caa4ac3ec5460291b1e1b209f0d1d230c36fe284e1918fe6f6f56ede7ba3f89bc"
+RPM_NAME = "libgenders0-1.28.1-2.5.aarch64.rpm"
+RPM_HASH = "28dfc0cfdd61cf5873874a6d756ca71ae2de398997a1365127fde4aef9f080d194afc4dd00a8a4f4d469b2a07a8ebe1f08e0c0435cf527df6a07781f55e5ba5b"
 
 RPROVIDES:${PN} += "libgenders.so.0 \
 libgenders0"

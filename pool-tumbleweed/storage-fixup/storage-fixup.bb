@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2"
 
-RPM_NAME = "storage-fixup-0.2-50.9.noarch.rpm"
-RPM_HASH = "131919b78fb1b826315fd5e93ab341b3b3faa9a76fa63698eab4831c60d61eeed7c169b92bbf5bfd6057427276b6e8e524c394b79014b3c5fe649014a3a3f4ce"
+RPM_NAME = "storage-fixup-0.2-50.10.noarch.rpm"
+RPM_HASH = "97a1f7a309d9e1078a257e7c9cdd39c7450c12769b2158dd5b8df2e285bf5d42db053a5523a0ed4b1232f18f271c9bb5d46b0dabf2fc6e6acd743713af4c8336"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-storage-fixup \

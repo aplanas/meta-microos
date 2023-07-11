@@ -2,10 +2,10 @@ SUMMARY = "Helper for debugging and reporting crashes"
 DESCRIPTION = "The KDE Crash Handler gives the user feedback if a program has crashed."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "drkonqi5-5.27.5-1.1.aarch64.rpm"
-RPM_HASH = "6993ddffc96f85e44fa271f0e3f90cbb18c4ee9a3725ea372ecb32233c52e3e18391484984d6600df61882527787f6b946ce0cb4fcab77f5dc2cbb8a37b5e3d7"
+RPM_NAME = "drkonqi5-5.27.6-1.1.aarch64.rpm"
+RPM_HASH = "a756f31ff1246318ae32ed15c265e382a05b08e6e99ccab5d1ff396e3ae60121b62dea99f819cdc4550cdbe5e9a87f0dfe25aa9eeef98994c08890281065e2ef"
 
 RPROVIDES:${PN} += "drkonqi5"
 

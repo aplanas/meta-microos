@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.18.0.1"
 
-RPM_NAME = "python39-recordclass-0.18.0.1-1.5.aarch64.rpm"
-RPM_HASH = "817927e67f164c84218d250623d0ab53e603b98e5042b3cc84dbaca2686e6efa6d9b62f92a659197d0a708c30e885c7e5249fa37ffd92699c3df8ab65ce6c42e"
+RPM_NAME = "python39-recordclass-0.18.0.1-1.7.aarch64.rpm"
+RPM_HASH = "c46e61c6f6a772f6d615359336c1a0b8d532f6e6c594585406f92e1ba18ce8b19688eaa5196153e022ec14f3fffe376f66e54f98662920661f4f73a8deca5bc0"
 
 RPROVIDES:${PN} += "python3.9dist-recordclass \
 python39-recordclass \

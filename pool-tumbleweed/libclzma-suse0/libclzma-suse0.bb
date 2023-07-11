@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "22.01"
 
-RPM_NAME = "libclzma-suse0-22.01-1.3.aarch64.rpm"
-RPM_HASH = "efa508aa11166249675c75cde4156cc1e4fc8e2a33ea25308879d94d7efe9bef41f87d31e58c08dd639b78115639c450c97997483446cf73afe7047c6294c0df"
+RPM_NAME = "libclzma-suse0-22.01-1.4.aarch64.rpm"
+RPM_HASH = "e4a1d5abf8d9d5fee63d4b1b992401a224f1999f91cb68ce59baf3eec496eb46ebd0ed9d8fbaab878a4e32218e1c7b51fffa60f9293cf2c15f1ed181736440b6"
 
 RPROVIDES:${PN} += "libclzma-suse.so.0 \
 libclzma-suse0"

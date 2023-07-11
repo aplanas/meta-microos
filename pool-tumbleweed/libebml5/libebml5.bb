@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.4.4"
 
-RPM_NAME = "libebml5-1.4.4-1.3.aarch64.rpm"
-RPM_HASH = "3ea5b4e457f8b29a9393a0213935c500a69c37d11317d74df9fdcaef6bb4a31c60e45fc78cea56d3c6f461037dcc1cd7eb3e13232511b4eec5d38599f7fa979e"
+RPM_NAME = "libebml5-1.4.4-1.4.aarch64.rpm"
+RPM_HASH = "75669afa4ea84d68023d156b308c3774275479676b3c0cd0aba144bc1e5f45f6d52030aa8a0aef8c7d5b31f3621c8a5a5b2db7d3b674b8872fa599715bd086b9"
 
 RPROVIDES:${PN} += "libebml.so.5 \
 libebml5"

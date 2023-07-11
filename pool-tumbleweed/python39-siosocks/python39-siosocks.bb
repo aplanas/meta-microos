@@ -19,8 +19,8 @@ LICENSE = "MIT"
 
 PV = "0.3.0"
 
-RPM_NAME = "python39-siosocks-0.3.0-1.3.noarch.rpm"
-RPM_HASH = "09a30eb52af4b41a3d8003027fab75554eda0f75704521ac749a33ce39b9aab105b21387df15bed40d2804b98643749c281f5dc155a7b1ab91bac6a394f43eb8"
+RPM_NAME = "python39-siosocks-0.3.0-1.5.noarch.rpm"
+RPM_HASH = "ab1487f891062bca41e5d684d2f565d34e58f0b77aa7fb630d5ecee2f526aaee3b99ca97015d9c919abf5da79035e3e22085a6552d85bf062f0d09df6ce9d022"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-siosocks \

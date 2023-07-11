@@ -12,14 +12,14 @@ dynamically loaded extensions. \
 This package contains the Python 3.x module"
 LICENSE = "Apache-2.0"
 
-PV = "5.0.0"
+PV = "5.1.0"
 
-RPM_NAME = "python3-stevedore-5.0.0-1.1.noarch.rpm"
-RPM_HASH = "10ac01668db5e84effbafb945d43ecde668cb27d52ef940cdc609c74a4096e8b21c5cfc38910715ee948223a8c25117937237c627b075950a0dbca1a08b385ea"
+RPM_NAME = "python3-stevedore-5.1.0-1.1.noarch.rpm"
+RPM_HASH = "704eecb9573ff5ffe4369ca48977fb3ccf2659d76a09f6cc7533ce4b0c7e7d180a90ed40a4c08bffd169b0d6e80c15382dee70680ccd2e3767a5af472b3ee86d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-stevedore \
-python3.10dist-stevedore \
+python3.11dist-stevedore \
 python3dist-stevedore"
 
 RDEPENDS:${PN} += "python-abi \

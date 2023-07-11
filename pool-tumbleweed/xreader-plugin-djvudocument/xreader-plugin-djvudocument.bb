@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.0-only"
 
 PV = "3.4.5"
 
-RPM_NAME = "xreader-plugin-djvudocument-3.4.5-1.4.aarch64.rpm"
-RPM_HASH = "cb2aac71ea9e7b8837957d7a5f2230558fe43fac25c64b93f14b06ff31f26f383a8fb54a5702815bf1ed769e8896fd79ba59035aec10e85319fceb1c94192520"
+RPM_NAME = "xreader-plugin-djvudocument-3.4.5-1.5.aarch64.rpm"
+RPM_HASH = "4bbffe403b5f9a075b7a23f782eebbd7c9716c0a13c84f498cd23816036064e6a0781290f9db31aa56d732d8b750d8a0495cdedee13751f0e92076ecdb0f403c"
 
 RPROVIDES:${PN} += "libdjvudocument.so \
 xreader-plugin-djvudocument"

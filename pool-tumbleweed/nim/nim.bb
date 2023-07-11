@@ -32,10 +32,10 @@ Elegant: \
 * Statements are grouped by indentation but can span multiple lines."
 LICENSE = "MIT"
 
-PV = "1.6.12"
+PV = "1.6.14"
 
-RPM_NAME = "nim-1.6.12-1.4.aarch64.rpm"
-RPM_HASH = "8c839e7c5622b4d0068aa4cc106a41dd7afa33f7b978bfdb63a0d5c1e8b3cf5e95b21e741286450babc0f6df071f80591d802db180f566cbd7197b2f90fc0fe8"
+RPM_NAME = "nim-1.6.14-1.1.aarch64.rpm"
+RPM_HASH = "9e6f834f5ce51df5c56bea38e9ff787369328769f542797a3e60de768a290f3cd5b77955e9d4135c3186ccafad106cee7f41aca28523b8d2e050541c1cf88339"
 
 RPROVIDES:${PN} += "config-nim \
 nim"

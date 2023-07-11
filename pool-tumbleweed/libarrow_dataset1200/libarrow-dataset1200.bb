@@ -9,10 +9,10 @@ communication. \
 This package provides the shared library for Dataset API support."
 LICENSE = "Apache-2.0 & BSD-3-Clause & BSD-2-Clause & MIT"
 
-PV = "12.0.0"
+PV = "12.0.1"
 
-RPM_NAME = "libarrow_dataset1200-12.0.0-1.1.aarch64.rpm"
-RPM_HASH = "a4a94ac19437337b859678eb6b184c1405126e93baa615bab1860ed776a994ca55bfd2c4ce6f64cc7fb3e48a7e0789fb9022b0160aac623b8048e176dfda1312"
+RPM_NAME = "libarrow_dataset1200-12.0.1-1.1.aarch64.rpm"
+RPM_HASH = "cad9e9223e02b4f902c8be31940110f818250c17fd2a44fa62db9fc63d89f1383c530aa063b9c2263af26c4233b29846675b500a8940d17ddf58f1d5a6f110a3"
 
 RPROVIDES:${PN} += "libarrow-dataset.so.1200 \
 libarrow-dataset1200"

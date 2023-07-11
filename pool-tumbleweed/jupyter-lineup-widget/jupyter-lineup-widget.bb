@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "4.0.0"
 
-RPM_NAME = "jupyter-lineup-widget-4.0.0-1.8.noarch.rpm"
-RPM_HASH = "e07e6077afee11bc92e3bc12231a67fac98ac9b43e01612a6462733e468096a8e2a69238b45bbf3bea05280dcccc87b9e79e5ce4fdd5d94786fc23d460a598b1"
+RPM_NAME = "jupyter-lineup-widget-4.0.0-1.9.noarch.rpm"
+RPM_HASH = "badadc723f380c795d3c7fd2d63d7acb27f31ac3f3b38765b4ad9637b63bf9cea5568c72ee1d24c4ea544bd18bd2554b06a8b7e414ddc1a0c5e7193f06d7045e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-jupyter-lineup-widget \

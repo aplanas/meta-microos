@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt6Protobuf6-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "9f5543bbc9cf850a858390d3c0c5944464cb5dbd6aa10dcd2bb31736134b7f05e9edec1cebee8609e0db00c753886aa7e0f0bb39606a20807ef5ef486de0ce90"
+RPM_NAME = "libQt6Protobuf6-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "2d4132c3433584384615c97c957286ae085645cfdc39c4769f45028017d7ed543ecf6be0761c0506411ffee1306e8cf4696c98a8cf935c4070b53398720bb088"
 
 RPROVIDES:${PN} += "libQt6Protobuf.so.6 \
 libQt6Protobuf6"

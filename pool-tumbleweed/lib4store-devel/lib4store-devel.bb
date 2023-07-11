@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.1.6"
 
-RPM_NAME = "lib4store-devel-1.1.6-3.14.aarch64.rpm"
-RPM_HASH = "0e35ccfc2abb96891002be9f43d64fbff55ad1ba225026f4a4d1a6cb8303cd12bc6ed3246379607abdf2ca9c3f1de0f5010383ad8991cad741d742d3d58ad38b"
+RPM_NAME = "lib4store-devel-1.1.6-3.15.aarch64.rpm"
+RPM_HASH = "16f310ea57c56948b539f242d01c9b23cc8e1802c476674774378839575d12c42563d21f393feea64c1cd9b3b13b5bc69465a4ceb6c2a7922580537416ad06ec"
 
 RPROVIDES:${PN} += "lib4store-devel \
 pkgconfig-4store-0"

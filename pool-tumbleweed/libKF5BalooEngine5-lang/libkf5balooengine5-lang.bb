@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libKF5BalooEngine5"
 DESCRIPTION = "Provides translations for the 'libKF5BalooEngine5' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & LGPL-3.0-only"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "libKF5BalooEngine5-lang-5.106.0-1.1.noarch.rpm"
-RPM_HASH = "1c2c2d8f0163ecf88ab57b5c57133538f272b81a149b72c6e9bc262d9a5e323f61f435cbd58a8b62ba0638bd4b00965f26e9493c029a2e36fa8ea8bb6db5781a"
+RPM_NAME = "libKF5BalooEngine5-lang-5.107.0-1.1.noarch.rpm"
+RPM_HASH = "2be5bede3f779dae23f37af38e36d49f215cb5164cb37c83d78685f3e2b4c3e5b6c7b2d25a789405e55956dd381b91b0061570913c5da1fb623f337b70938efa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libKF5BalooEngine5-lang \

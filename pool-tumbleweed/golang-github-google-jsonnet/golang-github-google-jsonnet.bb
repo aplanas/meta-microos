@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.20.0"
 
-RPM_NAME = "golang-github-google-jsonnet-0.20.0-1.1.aarch64.rpm"
-RPM_HASH = "a0fe6f195f61ab42d9fb476766ca752c71c36b30871dacf7dd6cf95351e33a207b4958ac4b99f27affd039c7e6640ad9ad982d984e6d0da40ef605e9ed65bb80"
+RPM_NAME = "golang-github-google-jsonnet-0.20.0-1.2.aarch64.rpm"
+RPM_HASH = "570f131d1ad65bfde12945cb5285a1d03b98fa0921e6707c3c40303b6c86b64b0910eadef53fb470fc77336c12ec8544ae381ff2116e85a97703b24ee605aebd"
 
 RPROVIDES:${PN} += "golang-github-google-jsonnet \
 jsonnet"

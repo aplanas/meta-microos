@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "2.56.1"
 
-RPM_NAME = "librsvg-devel-2.56.1-1.1.aarch64.rpm"
-RPM_HASH = "88e1c63488a8c3640f409949c8a238e7d912d62c12180cbe88339866681f52c1b6aedb504b4bea5d1b1f201b78f4689dc3f576a9f0dd7ead209034a559d65b5d"
+RPM_NAME = "librsvg-devel-2.56.1-3.1.aarch64.rpm"
+RPM_HASH = "a38ebaa47d66c2fa555699fea85a02d5ad6fd3ec022712dbf3443c45ee7dbf3058b26dab051e7abf3775b52a0dbee86ae8902e3501f2d5b799bccd25cad5d659"
 
 RPROVIDES:${PN} += "librsvg-devel \
 librsvg2-devel \

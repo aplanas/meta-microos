@@ -5,11 +5,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.1.0"
 
-RPM_NAME = "python310-tri.struct-4.1.0-1.4.aarch64.rpm"
-RPM_HASH = "c62ae28575e350029fc7376ae2c19729656a3c8ca68a6a6d937882ee48523c742335d21e11ad93c9f25d23b69328ddda9fc77d0712f8167c0b16e7d2fc176170"
+RPM_NAME = "python310-tri.struct-4.1.0-1.6.aarch64.rpm"
+RPM_HASH = "44ef6c6ab4a6ff97f9b21fb75930e208f2765e45f3d2d4f31c0cf307313409f244c7ad835f8af2c0f103dc294ab27248c791f0fa981cc4668daef3dc3327008d"
 
-RPROVIDES:${PN} += "python3-tri.struct \
-python3.10dist-tri.struct \
+RPROVIDES:${PN} += "python3.10dist-tri.struct \
 python310-tri.struct \
 python3dist-tri.struct"
 

@@ -4,8 +4,8 @@ LICENSE = "WTFPL"
 
 PV = "0.0.6"
 
-RPM_NAME = "python39-xpybutil-0.0.6-1.14.noarch.rpm"
-RPM_HASH = "941dd071b252e8b93c242abf02b2a965a3c104a814d8441dc953be30eb116ea10c7cc87c2a2d02c8f9b45f9e8530bc3f1112a4fc6d7f1371ba622e7bbf57f256"
+RPM_NAME = "python39-xpybutil-0.0.6-1.16.noarch.rpm"
+RPM_HASH = "87facd722cb52f20eadafa7598c4f1d353beb3c0fe099c61c4ad2e85d13e445f30bfa9939a62c7523a077363a84ae6e11c46649bd42c3a897fb5150b361a0d34"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-xpybutil \

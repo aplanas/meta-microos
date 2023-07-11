@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "12.0.0"
 
-RPM_NAME = "python310-azure-mgmt-cdn-12.0.0-1.6.noarch.rpm"
-RPM_HASH = "a1657e5b3a07ca45e416c8cbaef24bad9664ff774844c84ac6d656503cfccbf23bea36c63ff53f6063bd549861d350ba564348335f75b5b46564ca90dd1ca2b7"
+RPM_NAME = "python310-azure-mgmt-cdn-12.0.0-1.7.noarch.rpm"
+RPM_HASH = "fcdd3494d9f966f819cee4e6207f70f61b5f8980ddefa307ebf0a2b6ccf496b90b221a9bbb47cf9950f38f0b22644ed418215e51ce9938fd5574b41e134eefc5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-cdn \
-python3.10dist-azure-mgmt-cdn \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-cdn \
 python310-azure-mgmt-cdn \
 python3dist-azure-mgmt-cdn"
 

@@ -7,8 +7,8 @@ LICENSE = "ZPL-2.1"
 
 PV = "4.6.1"
 
-RPM_NAME = "python39-zope.proxy-4.6.1-1.4.aarch64.rpm"
-RPM_HASH = "d271d51a49d2f08b2a4acbc295aea74de85b85507fd1b0b80c506000246410bb838c5e5612245b381309f8ab4b173af78ecbee2e6add11e0d07cce575a858b23"
+RPM_NAME = "python39-zope.proxy-4.6.1-2.3.aarch64.rpm"
+RPM_HASH = "f96919b00682120d6be51884e48fce39017d2a6da9fc2ecc86707754523ebff2a5becb80ec7bde9a54217fbd5e777526927c56bf39fee3ec9fd7402566671861"
 
 RPROVIDES:${PN} += "python3.9dist-zope.proxy \
 python39-zope.proxy \

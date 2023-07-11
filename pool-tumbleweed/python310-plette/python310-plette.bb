@@ -4,12 +4,11 @@ LICENSE = "ISC"
 
 PV = "0.4.4"
 
-RPM_NAME = "python310-plette-0.4.4-1.3.noarch.rpm"
-RPM_HASH = "badf8b4223453c1eace62e152ebe7c948c01bd602fe589862949b38ffd140481b2951d52b4a5b75fbfbcda6ee1c8fdd076f94ecdca72b15912123cf91c97679e"
+RPM_NAME = "python310-plette-0.4.4-1.5.noarch.rpm"
+RPM_HASH = "0f3147862f496ecb14938a7bf275fe2e1ac373ffe22315a0539078f1f935074f0f2765a9bbc939f13b73fe257254c042e492c747c85b7c383c3b5eda737455f2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-plette \
-python3.10dist-plette \
+RPROVIDES:${PN} += "python3.10dist-plette \
 python310-plette \
 python3dist-plette"
 

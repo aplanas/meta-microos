@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.2.7"
 
-RPM_NAME = "python39-adal-1.2.7-1.9.noarch.rpm"
-RPM_HASH = "178caf55d9de4f1adfec383b0be6d24d104f15cbdddd9a4ef138214451aeb1cdf2d50763f944779fd6430ec38d53d6e0de52b2af5c4993a0a02c09337c977e8d"
+RPM_NAME = "python39-adal-1.2.7-1.11.noarch.rpm"
+RPM_HASH = "80c3ac385c3e313be0aefaa0b6bef3e0f2336e79b48f5444c47ec5deae72dd438e4da96c0a9ccfef063aff23d2e6cb25ff35d4e64c4a952e6ed9e3205bc36057"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-adal \

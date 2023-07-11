@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "2.2.0"
 
-RPM_NAME = "libfann-devel-2.2.0-2.25.aarch64.rpm"
-RPM_HASH = "2842a06c2fc5e0f0432c78901fab56b8225ff9920baa65242a8e72ff9dee9c827e9f2c770b2d791914ddbe406375ad0cd96f1bce98f58074a5ec065a6a258a3a"
+RPM_NAME = "libfann-devel-2.2.0-2.26.aarch64.rpm"
+RPM_HASH = "154623216e02c48b4b9477c620c324e58b0e86c5a163a8e765ffb0e8ab60d4ceb7d3798745b6857ee5d267373b6db7df17b519ec3ec834adcada51de58157c95"
 
 RPROVIDES:${PN} += "fann-devel \
 libfann-devel \

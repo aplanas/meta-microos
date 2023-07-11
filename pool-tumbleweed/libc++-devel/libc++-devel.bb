@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains libc++, a new implementation of the C++ \
 standard library, targeting C++11. (development files)"
 LICENSE = "Apache-2.0-with-LLVM-exception & NCSA"
 
-PV = "16.0.4"
+PV = "16.0.6"
 
-RPM_NAME = "libc++-devel-16.0.4-1.1.aarch64.rpm"
-RPM_HASH = "97261b8878849329971e997594e03a44521cd1c5f8641bab43ed4cea27e9cf79ac1783ea49a0fbf7ba3f38e13bde48ab3bfe0d9547f43ba651019e2425a7d385"
+RPM_NAME = "libc++-devel-16.0.6-1.1.aarch64.rpm"
+RPM_HASH = "c60f3d65fcfd1b9df480981574dca098286f364d57f732a6cf17618a0462fbd467662f255575b6129e73cb7b945aab6f3feca8c1a545c6dd29e026d57d52dbec"
 
 RPROVIDES:${PN} += "libc++-devel \
 libc++.so"

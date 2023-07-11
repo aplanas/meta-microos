@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.26.4"
 
-RPM_NAME = "cmake-gui-3.26.4-1.1.aarch64.rpm"
-RPM_HASH = "c4656c78d5b06b1b0b56c6ee6da0f519c9346b60357bafd5ad79518f39e13ddfb1fe2289e435661f9b72e57132015334992649bf2c2c959308fbe2e2927ebbd4"
+RPM_NAME = "cmake-gui-3.26.4-3.1.aarch64.rpm"
+RPM_HASH = "5dca61149419b5ddfc7ecb8a71226bc052bdfac5b213538be5bb2e535314c15e13f3395c7761116ddf44dd674eaaee8f38f663395c6ea40273d5d3afdfa7e65c"
 
 RPROVIDES:${PN} += "cmake-gui"
 

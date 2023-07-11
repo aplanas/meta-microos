@@ -7,8 +7,8 @@ LICENSE = "Apache-1.1"
 
 PV = "1.6.1"
 
-RPM_NAME = "dom4j-manual-1.6.1-36.4.noarch.rpm"
-RPM_HASH = "3b0aa886523307c447d95d269c7fe296b1cf1b3504589e5c3382e0655d593f5e72daedf33c7cff78c42f2bafe0b563722d509474ff0fdbea8b8eb27185ca47df"
+RPM_NAME = "dom4j-manual-1.6.1-36.5.noarch.rpm"
+RPM_HASH = "bdd45df84d8a2f4d478900bbdeac8c1910ce7c7634f5ca05d297977242486600d4ddcbe18b5c9253cd98d40f03f87be0de43da2a6fbfd307ccd60a1306a494ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dom4j-manual"

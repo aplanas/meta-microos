@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "3.48.0"
 
-RPM_NAME = "gnome-online-accounts-devel-3.48.0-1.1.aarch64.rpm"
-RPM_HASH = "a4a4cb5056b8cd98232cac2be3908f4e0fe7fa3f8c20a3a13d2a1454644d67ccea6ad4091fb29e22b6173369aa00fa0817f0aab9754906c1e23372f0df0679d8"
+RPM_NAME = "gnome-online-accounts-devel-3.48.0-1.2.aarch64.rpm"
+RPM_HASH = "45c9e598f25beec433c9d41cd9fe3388282866cdec191c2fa0cfe67e4c45575011ef5f2ab7144951289f599a2c74faf318d35c98ce720288833b9567cb6150e2"
 
 RPROVIDES:${PN} += "gnome-online-accounts-devel \
 pkgconfig-goa-1.0 \

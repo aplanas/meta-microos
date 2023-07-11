@@ -9,11 +9,12 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.0.9"
 
-RPM_NAME = "python311-pyModis-2.0.9-1.18.noarch.rpm"
-RPM_HASH = "b17581a3751758fc1240ee65bf0cb1bf18e08f56076e1c843eedcd399a07160d04d41296fb9a828201f758179fcb3340b5000c324f97f0313abdab69ffe0e728"
+RPM_NAME = "python311-pyModis-2.0.9-1.19.noarch.rpm"
+RPM_HASH = "8e45f4578ea25cc04dd7609571275311ca23ae19eae4026296171285c2622f7de12a1d9afab22e850478566561d5aa4d48ff291b3710ccdbccb79c7a5d03d737"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pymodis \
+RPROVIDES:${PN} += "python3-pyModis \
+python3.11dist-pymodis \
 python311-pyModis \
 python3dist-pymodis"
 

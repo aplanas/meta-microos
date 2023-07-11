@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & Zlib & GPL-2.0-or-later"
 
 PV = "5.2.1"
 
-RPM_NAME = "libbcmatroska2-0-5.2.1-1.3.aarch64.rpm"
-RPM_HASH = "416883685f1b7a961940e2fbffc11ae25aeb6e187af68adb218de65b2d341e3cd113290c33e5850d203083ca32d9ad5d93c192f9c008df46efe674c7d4f1dbdf"
+RPM_NAME = "libbcmatroska2-0-5.2.1-1.4.aarch64.rpm"
+RPM_HASH = "29139f04a3926f6e8f1e45f65b3a997816907a064743c66578c4f3e9fd73b01478f7855839f23d8617e89bb30384307f13022ae28ce7d40aff13c6788739c39a"
 
 RPROVIDES:${PN} += "libbcmatroska2-0 \
 libbcmatroska2.so.0"

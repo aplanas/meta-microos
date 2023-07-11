@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.7.1"
 
-RPM_NAME = "python39-gwosc-0.7.1-1.1.noarch.rpm"
-RPM_HASH = "7e8dab2c38a66ad66cc674fa0585e79b75fc1b9c3d6fe384499fdd58e2c72d4bf2240ba491ad84159cbd46e5f1929357836a3061bc9a8291ce774c1795b20880"
+RPM_NAME = "python39-gwosc-0.7.1-1.3.noarch.rpm"
+RPM_HASH = "3d4245f39be206763a5e7b20476e95301174106f856e97efba388aedebb7947c1da748d540dc5f76b657eff2908f0fdf8886c213622c0f24dd16cfad1df51317"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-gwosc \

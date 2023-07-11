@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause & LGPL-2.0-or-later & BSL-1.0"
 
 PV = "1.10.1"
 
-RPM_NAME = "python39-scipy-gnu-hpc-1.10.1-2.4.aarch64.rpm"
-RPM_HASH = "eb8752461a08795d634e6fe18ae1008ca9d6362944f18b24741f9f6886fd46215d9a7d427d4b3dcf0c35088146f0b50299e753bac905553cbffc4247b5ef1e97"
+RPM_NAME = "python39-scipy-gnu-hpc-1.10.1-3.1.aarch64.rpm"
+RPM_HASH = "18de3862e4f10660a456052224c594477852096ca5e93c30470b91ca777b7f7e204e9700ccc0c9772a866a0c89fcbb620dc2105ef97d81f229b0a53eac629e82"
 
 RPROVIDES:${PN} += "python39-scipy-gnu-hpc"
 

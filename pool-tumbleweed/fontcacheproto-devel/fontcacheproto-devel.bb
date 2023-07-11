@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.1.3"
 
-RPM_NAME = "fontcacheproto-devel-0.1.3-4.18.aarch64.rpm"
-RPM_HASH = "ebef4c2434b4eea5f0ff80451274fabe739be30e044501cd529065f3bff96df44c753049a10b1226a258957312af3a9e82007721cf623ae6212abb0a356726aa"
+RPM_NAME = "fontcacheproto-devel-0.1.3-4.19.aarch64.rpm"
+RPM_HASH = "8c855d683910080a9ed44a8d2bcea2a8804d8d5e098da7b8cc2bc1d7bc4aab366e2cb20ac28d5c1abb706bd49d158a30815bfc175fb520fc894b842f88fe9ae6"
 
 RPROVIDES:${PN} += "fontcacheproto-devel \
 pkgconfig-fontcacheproto \

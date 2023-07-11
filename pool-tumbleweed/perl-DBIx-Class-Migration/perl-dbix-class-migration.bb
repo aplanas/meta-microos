@@ -43,8 +43,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.075"
 
-RPM_NAME = "perl-DBIx-Class-Migration-0.075-1.12.noarch.rpm"
-RPM_HASH = "0f34e4c3ad5b391fbabccc356fac506a566ec23eaf334cad4caa37ce9e07a0f9b4c58a443dc0038684b066fcc96bb93863e88ceeaadd648823ad67d991f4c273"
+RPM_NAME = "perl-DBIx-Class-Migration-0.075-1.13.noarch.rpm"
+RPM_HASH = "96e1b16004f6953c6cc28e01f76d7851955269e63637596c3896cefcfc736fac4d428cf544b7e557a2e9d6b8218f11106dbae180e60f1864542595f898628d25"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Catalyst--TraitFor--Model--DBIC--Schema--FromMigration \
@@ -72,7 +72,7 @@ perl-DBIx-Class-Migration \
 perl-Test--DBIx--Class--FixtureCommand--Population"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-Class--Load \
 perl-Config--MySQL \
 perl-DBD--SQLite \

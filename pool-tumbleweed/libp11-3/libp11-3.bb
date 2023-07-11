@@ -12,8 +12,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.4.12"
 
-RPM_NAME = "libp11-3-0.4.12-2.3.aarch64.rpm"
-RPM_HASH = "a89e71938956a4ffc1e5a78a60bc8adb7bb38dacfe5c3f8b5543419c38475d4ac0c1c77508c4af1693facc31f7ea76b7ea3c7aa131ce61f579a1bc299be97f53"
+RPM_NAME = "libp11-3-0.4.12-3.1.aarch64.rpm"
+RPM_HASH = "6fffb4ec416ebbde10f721a7091df4319f5ceed4b6a4d3b28af58c210b29e3f516ead2ffa2d30060be50a19e057075c14c8dd8404e5f1c7598941e21352d935f"
 
 RPROVIDES:${PN} += "libp11-3 \
 libp11.so.3"

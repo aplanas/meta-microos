@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.5.2"
 
-RPM_NAME = "libgstclapperglbaseimporter0-0.5.2-1.3.aarch64.rpm"
-RPM_HASH = "a8c8c756a710eeaf6d22553bb13f8d23a6470c89de827da1de88cbfa51993123738c403458d085469fb836af29fc900f2f4e18e0936eacdda40be1ddab462ce6"
+RPM_NAME = "libgstclapperglbaseimporter0-0.5.2-1.4.aarch64.rpm"
+RPM_HASH = "aad754eb23d0b5f636a16ded24ca2a56ea53d50e4251fef3854c7e72fccb8de50ec7e58d82a586a9175b841039fc55ad0d16570f5aa212e28daa11560727eb86"
 
 RPROVIDES:${PN} += "libgstclapperglbaseimporter.so.0 \
 libgstclapperglbaseimporter0"

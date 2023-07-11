@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "1.2.0"
 
-RPM_NAME = "python310-azure-mgmt-signalr-1.2.0-1.2.noarch.rpm"
-RPM_HASH = "3d807584bd3218a10d2e657a1a1bbb177af5c969d21870cc4e8ec2a3748b6d5adfd8300de78479b0e54ec2fbfdb823bd46986e0b25f039fa861ed2599765f431"
+RPM_NAME = "python310-azure-mgmt-signalr-1.2.0-1.3.noarch.rpm"
+RPM_HASH = "80c6b524cd8eeb695b7fc3cb7292f6395ad8fe290d4c0936411d6fccd3a94d6519ef51f0af0233f857081a394a9cccaaf40bbe2e65ce252b99054a2b8b0a27fa"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-signalr \
-python3.10dist-azure-mgmt-signalr \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-signalr \
 python310-azure-mgmt-signalr \
 python3dist-azure-mgmt-signalr"
 

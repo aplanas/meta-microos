@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only & MPL-1.1"
 
 PV = "1.2.2"
 
-RPM_NAME = "lib2geom-devel-1.2.2-2.3.aarch64.rpm"
-RPM_HASH = "a5ba2172c911db13807f9720cdeff1faa5a3f5f58da111da8c257addb10d2b3bc1814a21d9bbb50d16ad3338a48c6783d20aed30a56ec460898ee478cc141bcf"
+RPM_NAME = "lib2geom-devel-1.2.2-2.4.aarch64.rpm"
+RPM_HASH = "bba6359fa376ee94448d10308d4c3428d627ef207e8f80742be333209893a1aad2090bc12145cf5f20c7c5c8f603ba2f4feab26e41ffc3de086c64e0df79d948"
 
 RPROVIDES:${PN} += "cmake-2Geom \
 lib2geom-devel \

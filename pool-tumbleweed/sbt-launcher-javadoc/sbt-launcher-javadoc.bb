@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & BSD-3-Clause"
 
 PV = "1.1.2"
 
-RPM_NAME = "sbt-launcher-javadoc-1.1.2-2.9.noarch.rpm"
-RPM_HASH = "6675bd2b5c4c65447d13685027e4986a9c1a9d9c0b31763b68aa885db055920013dec1cde81561004233ae2df881dba585a8c0940c11c497fe83eff6fcf6e549"
+RPM_NAME = "sbt-launcher-javadoc-1.1.2-2.10.noarch.rpm"
+RPM_HASH = "33ebee0f8369bbaf53ef7b8ce22244fc41bcb10a1231d2bbdceb4452afdd341c90775fd76344163b6330e14945711eb462d218b692f01a095f65877b83560bdd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sbt-launcher-javadoc"

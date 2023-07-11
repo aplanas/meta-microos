@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-3.0-or-later"
 
 PV = "1.0.2"
 
-RPM_NAME = "libsliplu1-1.0.2-49.1.aarch64.rpm"
-RPM_HASH = "06dd146117d8ff42847785f0f7d0054fd8a5610d63fd3a4ace7276e498c351fbd96a3233ab1ac89cf2f01cfd37a9ff55c1a478b57ac99da1173e59abcfa9a34c"
+RPM_NAME = "libsliplu1-1.0.2-49.2.aarch64.rpm"
+RPM_HASH = "44ae0c333c6502f2fe9718df5e6e1e5bc850409e7f501eee1ef402deb0d25fa0b99c2912171ad268ea0a57e162a03461b8bbcc77c69d38d90c484c6a8d7633b1"
 
 RPROVIDES:${PN} += "libsliplu-1-0-2 \
 libsliplu.so.1 \

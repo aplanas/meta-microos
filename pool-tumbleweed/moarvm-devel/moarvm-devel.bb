@@ -4,8 +4,8 @@ LICENSE = "Artistic-2.0"
 
 PV = "2022.07"
 
-RPM_NAME = "moarvm-devel-2022.07-4.3.noarch.rpm"
-RPM_HASH = "6c02a464e1325cd645a4525238ad40df63457415e5d95f2aacdb5ee2f050e6ce4f94b12dbef5dcdb4ebbf1f1aa2ca045aad96d5641b74ebc293a78152a8686c7"
+RPM_NAME = "moarvm-devel-2022.07-4.4.noarch.rpm"
+RPM_HASH = "85a87194105b5e28f55385b412a74a98f872ad08cbdb2ead47a058a04673821df93ce4d5670624136b50417add719fb6c71ae51122b28bfdcded273a982453e5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "moarvm-devel \

@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.0"
 
-RPM_NAME = "jupyter-jupyter_highlight_selected_word-0.2.0-8.5.noarch.rpm"
-RPM_HASH = "16c23529369ac4d1c1421204e3578c886589857c38d450a6c593f138628544d09bae50ed2708a0ee41fb7775062f20da68f6b95e87c5753e67c433c2bd6d5750"
+RPM_NAME = "jupyter-jupyter_highlight_selected_word-0.2.0-8.6.noarch.rpm"
+RPM_HASH = "baedc93c2c0df641560a49b0f9c38e742f56c06f2ee7f50a6eb196cef28a7bf48c1b7471034496942627abe69fe568228cf1f1725ea4b824fd2a5f21c29b82a9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-jupyter-highlight-selected-word"

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.20.5"
 
-RPM_NAME = "python39-py7zr-0.20.5-1.1.noarch.rpm"
-RPM_HASH = "b4a3f6900570963d5192137c8e28c6c4db92e5834de89b13ffcc8ade0e23621a95f8e81ac080ce5e6bc03064b63f6b227708aefe075cfc62f95be3684ce21343"
+RPM_NAME = "python39-py7zr-0.20.5-2.1.noarch.rpm"
+RPM_HASH = "f9f82b8a6f709237d4c47fd170fad01431a81f2fc421c40b90570fa562ba4456ac2e49d5d794f7dfc2f1c27853c864613ed67bf503c2d556a794d073ddbfac4e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-py7zr \

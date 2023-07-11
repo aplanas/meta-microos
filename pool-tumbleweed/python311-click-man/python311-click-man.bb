@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.4.1"
 
-RPM_NAME = "python311-click-man-0.4.1-1.15.noarch.rpm"
-RPM_HASH = "b040a8e5d9ddd4785b940c29245a198794c3fa93e170e3d760cbcdd60e1ae4539e5ac590158c2cf9586d9c2ed52c2f820cb47917de0a0ea88d20e8e49c5ee415"
+RPM_NAME = "python311-click-man-0.4.1-1.17.noarch.rpm"
+RPM_HASH = "b85d67487789c89e87ec4a51187b1756fda7b767e252ade47435f031246d59dc479a6b37c5a2f71dae72ecb5eec331df3b05937dbc8e26b6110deb954bb7b90f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-click-man \
+RPROVIDES:${PN} += "python3-click-man \
+python3.11dist-click-man \
 python311-click-man \
 python3dist-click-man"
 

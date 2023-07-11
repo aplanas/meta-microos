@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0+"
 
 PV = "5.1.16"
 
-RPM_NAME = "deepin-pw-check-devel-5.1.16-1.5.aarch64.rpm"
-RPM_HASH = "cf07d528c04a9d375df0f455efb835cd20e3b0adc5ea6d0416b37830c42f7858386b383d41a0980523d1ab4f9702176a263e2fd07101959c1b4704b4e885572d"
+RPM_NAME = "deepin-pw-check-devel-5.1.16-1.6.aarch64.rpm"
+RPM_HASH = "b3452466e504c6cc90642d3c04fd40eee2050e63ee6a15c68e19b2622af95ffc148613fb6ed54ec4c118b2e2605945dab17c7ea13d23e2cab304d49117ee4bae"
 
 RPROVIDES:${PN} += "deepin-pw-check-devel \
 libdeepin-pw-check.so.1 \

@@ -7,12 +7,11 @@ LICENSE = "ZPL-2.1"
 
 PV = "2.4.0"
 
-RPM_NAME = "python310-bobodoctestumentation-2.4.0-3.8.noarch.rpm"
-RPM_HASH = "45fe602ec98991daf1d8d8ee95bf9fa8bdd91f15b4a80a21481c16c242f6d4acb899f9b708e95e8fee31421cface81f848081a2f25da258705a9246b098f9b32"
+RPM_NAME = "python310-bobodoctestumentation-2.4.0-3.10.noarch.rpm"
+RPM_HASH = "5553afb7e44e8ba70e9d84a8bf1c616fff0c13cefe32678bb7cd7e06a1a4a7854a8533e7ad00992de58534b999471faa7e3e767bf95a47258f4b61b81bedd587"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-bobodoctestumentation \
-python3.10dist-bobodoctestumentation \
+RPROVIDES:${PN} += "python3.10dist-bobodoctestumentation \
 python310-bobodoctestumentation \
 python3dist-bobodoctestumentation"
 

@@ -12,8 +12,8 @@ LICENSE = "MIT"
 
 PV = "4.8.0"
 
-RPM_NAME = "python39-azure-keyvault-keys-4.8.0-1.2.noarch.rpm"
-RPM_HASH = "41a34e14cea42f5a3e976d8dd6b08a5f3909690cbb0f2ba53873e3b6c22a59c13310196b0cf0f25a667f33e01b8d6240d55645d6e2cf967b8c98dd72e9f8d566"
+RPM_NAME = "python39-azure-keyvault-keys-4.8.0-1.4.noarch.rpm"
+RPM_HASH = "c26f9cea6e65417a387af35cfd355d00e41965c01540ce293d526a4d1e088553749bf9d4e1e1414276386ded6d9867ddc13931d0ef11ca6150be207cb5606f96"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-keyvault-keys \

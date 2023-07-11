@@ -4,8 +4,8 @@ LICENSE = "AGPL-3.0-or-later"
 
 PV = "0.11.0"
 
-RPM_NAME = "python39-exrex-0.11.0-1.2.noarch.rpm"
-RPM_HASH = "cf59683431c587384d801abe3b0d8183841553098fa9838182b11672c17587136c030a60ac665a8639e99ba24f3fc53c4bb2885a83171da7ebcc54c99ddb680d"
+RPM_NAME = "python39-exrex-0.11.0-1.3.noarch.rpm"
+RPM_HASH = "505bbd00223c3b8486c6c0d00216dd41cfbca281866026fbc91a38e8eb4ddab7a2786865ed0b5bb7dc2fd2059fc408d1cbc41234a1bd335a33345d721192916a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-exrex \

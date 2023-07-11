@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "0.4.18"
 
-RPM_NAME = "libproxy1-config-gnome3-0.4.18-2.1.aarch64.rpm"
-RPM_HASH = "e02498ca85c593776e37ae574ea27b99557317f2a4d9f14fa393f37a1c88ab57cfb247b2b6a8962e7485516bf685a24950d78fe66096fd963d681c204944a61b"
+RPM_NAME = "libproxy1-config-gnome3-0.4.18-2.3.aarch64.rpm"
+RPM_HASH = "1abab5bf487cab04d9462bd60326b241b0a7167c7c64f71e8ee510ee96bce0f9a34da52f3b667d8bfddf8aaa3007b576429f762dd190daa747e30773553685b2"
 
 RPROVIDES:${PN} += "libproxy-gnome \
 libproxy1-config-gnome3"

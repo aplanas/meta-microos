@@ -3,10 +3,10 @@ DESCRIPTION = "This package includes development headers needed to develop and b
 for KAddressbook."
 LICENSE = "LGPL-2.1-or-later & GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libKPim5AddressbookImportExport5-devel-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "410480f4bffe3472d2dbcd69c0925a8d009a25d7a44dec069743d17a54f79b9590c045273d5a9446313331603723e5cbb3c44c3a22c98514a951b7c540564da0"
+RPM_NAME = "libKPim5AddressbookImportExport5-devel-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "11d34ec5bd456f65937a3a0648f803e4afe967790d02078f5dd1587d6ee99588676b7aa460c75c16f59a25811bbb4c64684fb3483a7975381c686005b337490a"
 
 RPROVIDES:${PN} += "cmake-KPim5AddressbookImportExport \
 cmake-KPimAddressbookImportExport \

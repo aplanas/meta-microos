@@ -12,8 +12,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.3"
 
-RPM_NAME = "dotconf-devel-1.3-16.8.aarch64.rpm"
-RPM_HASH = "6bd460dcb8c233f073dffb4ef74b50a779313c679949584b974eccfcbc299b9172fd0f3722896c1e4228bf7734e2958fe4679a4cfc63fe0b38e312723a4c2e1c"
+RPM_NAME = "dotconf-devel-1.3-16.9.aarch64.rpm"
+RPM_HASH = "a2dfc4369810a57be6eca08b7ee2a07f8da798fa01495b5d8dbdb26a9223a76019e3bcd6187a757cb1cc7c793d987e40235b2ec5d33aa28a861aa47648a828ce"
 
 RPROVIDES:${PN} += "dotconf \
 dotconf-devel \

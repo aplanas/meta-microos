@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-only-with-GCC-exception-2.0"
 
 PV = "2.0.21"
 
-RPM_NAME = "uwsgi-emperor_pg-2.0.21-2.1.aarch64.rpm"
-RPM_HASH = "96ffa0bf913aede5a903eaf0addf3c4af449eea031126ca59452e001efd578f4960cc690969607329071db3670f33957de0497fe82fc100c7ef0f1f4388e9685"
+RPM_NAME = "uwsgi-emperor_pg-2.0.21-3.1.aarch64.rpm"
+RPM_HASH = "a60fe09d3fa4ebbf97ecca4a4fd7281e544ece5e4cc834bed5279038741c936b22f885dc4f1a8d28f2607bb4a6996361ffd25475dfedb61eeadaf0bf16d29cc9"
 
 RPROVIDES:${PN} += "uwsgi-emperor-pg"
 

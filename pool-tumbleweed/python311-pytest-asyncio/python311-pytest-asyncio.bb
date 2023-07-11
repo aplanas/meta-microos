@@ -8,11 +8,12 @@ LICENSE = "Apache-2.0"
 
 PV = "0.21.0"
 
-RPM_NAME = "python311-pytest-asyncio-0.21.0-1.1.noarch.rpm"
-RPM_HASH = "c4242aeb947ea751da0e669bbde5d9d8b2237940946c5ed2c6a8e47344493010d03ac4077459d1102fa4fcd936a11af177ad6da2ceca6909d41bd1f16cb0b63d"
+RPM_NAME = "python311-pytest-asyncio-0.21.0-1.3.noarch.rpm"
+RPM_HASH = "0fa7d2f086a00b774d4bc7312fc8f34112184e3b189e68cec9bf67d228bc6f5de5bd83d6bbc47ad70a3072da30627b35692d90012e6bb88216f250886999fea0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pytest-asyncio \
+RPROVIDES:${PN} += "python3-pytest-asyncio \
+python3.11dist-pytest-asyncio \
 python311-pytest-asyncio \
 python3dist-pytest-asyncio"
 

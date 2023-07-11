@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "9.0.75"
 
-RPM_NAME = "tomcat-lib-9.0.75-1.1.noarch.rpm"
-RPM_HASH = "88a4113138ad6e856af1997f33e70911497a2c7ff2fd8d2b61aa7c5872688e37e10c5fec151f9179a93fcf27c9bdf817af075450ef6eefc134a44c0f5fccc8d7"
+RPM_NAME = "tomcat-lib-9.0.75-1.2.noarch.rpm"
+RPM_HASH = "224a40d26ed926b8248c142a316a391eddb2343aa86f2628b6b92e5e1f9dec13f24469a965646185c8474a307e687125dc5fa0b7f60b378557fa40a7d3b06a45"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-tomcat-lib \

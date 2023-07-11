@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "0.4.1"
 
-RPM_NAME = "python39-azure-mgmt-machinelearningcompute-0.4.1-4.11.noarch.rpm"
-RPM_HASH = "ed206787ac8abef85ec72d5d56bb324e5116124a3941a3a2d0dc1be6905890f26d8781288c881cbee869683e9de59c62cdea5a868a9292fd25d98bc38465804b"
+RPM_NAME = "python39-azure-mgmt-machinelearningcompute-0.4.1-4.12.noarch.rpm"
+RPM_HASH = "e851a8aeb6c962473098ed6e56c8e173f04668d2df45a2b498446d1eb1ca7423a95ae796908d73cfce7a2c012d5a8ec0c85878d03c20536ca947f89d0c32896a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-machinelearningcompute \

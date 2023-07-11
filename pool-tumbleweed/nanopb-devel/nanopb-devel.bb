@@ -5,8 +5,8 @@ LICENSE = "Zlib"
 
 PV = "0.4.6"
 
-RPM_NAME = "nanopb-devel-0.4.6-2.3.aarch64.rpm"
-RPM_HASH = "0322029df39915da7f8db9f9f63ede57b592ad27d89149cd7422cd12dee2f23dfd7ad6cf49b6df51e094470f87c76d7b380aa465b9cf2571732c7adaca39d0f2"
+RPM_NAME = "nanopb-devel-0.4.6-2.4.aarch64.rpm"
+RPM_HASH = "af9c13ced8071061d944370c0160b8339a357289a7aebbe04e2c8b581348e39bba6e334d8b2753aaa0d08f73ad5f2397a8311e1cd891d061c7b4dde79cd1dbb1"
 
 RPROVIDES:${PN} += "cmake-nanopb \
 nanopb-devel"

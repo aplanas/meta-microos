@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0"
 
 PV = "0.1+git.20151211"
 
-RPM_NAME = "libosmosdr0-0.1+git.20151211-1.24.aarch64.rpm"
-RPM_HASH = "66be4f2f7cb4ff21b6d76c1667d9b7edf18e4298b1d1d12aed880d55d84c66d2097a0305ad7b89695b9c3850fd78e73fd6e30341c0e7fa833df0efcfbca5a008"
+RPM_NAME = "libosmosdr0-0.1+git.20151211-1.25.aarch64.rpm"
+RPM_HASH = "c025839230cedc2e88927cb640b68f87819ae2f1393c56ba8d8d9b83ae0d7e9fcc9a5d758f92d78b66029bb8fb2aa5949ef957a4d1be46ec32b7a2f8ffb98afd"
 
 RPROVIDES:${PN} += "libosmosdr.so.0 \
 libosmosdr0"

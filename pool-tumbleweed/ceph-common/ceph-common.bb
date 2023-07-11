@@ -5,14 +5,14 @@ LICENSE = "LGPL-2.1 & LGPL-3.0 & CC-BY-SA-3.0 & GPL-2.0 & BSL-1.0 & BSD-3-Clause
 
 PV = "16.2.13.66+g54799ee0666"
 
-RPM_NAME = "ceph-common-16.2.13.66+g54799ee0666-2.1.aarch64.rpm"
-RPM_HASH = "74a1cf08bd575df03543836092dc41e424615c2d69144e057cbc414b658e9499dc0e0921668552aee7811b2e9625acabbcd6169a88823c5c3547d47e7452693b"
+RPM_NAME = "ceph-common-16.2.13.66+g54799ee0666-3.1.aarch64.rpm"
+RPM_HASH = "53e70be588d4173d595a6856446543d856e020ac901cab0d577930c5039188f3484d46e0361ea8f96faa27e4a1fd8cc509cf7b1989c33f575b3cacfbc3c64417"
 
 RPROVIDES:${PN} += "ceph-common \
 config-ceph-common"
 
 RDEPENDS:${PN} += "/usr/bin/env \
-/usr/bin/python3.10 \
+/usr/bin/python3.11 \
 /usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libaio.so.1 \

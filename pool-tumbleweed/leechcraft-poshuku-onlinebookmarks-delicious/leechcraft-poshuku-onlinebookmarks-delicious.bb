@@ -5,8 +5,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-poshuku-onlinebookmarks-delicious-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "26db49d7450d10d7d590d5fbd7a0d1d52f380aae7754edb48668bd3a2e180cc92d18e06439be8b7451919c2c9554c70ab6d950a17d73664363858d99a25c148d"
+RPM_NAME = "leechcraft-poshuku-onlinebookmarks-delicious-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "ef8691aa6db60bd26930ffaba5c04824fcae029e9116020d6586764eb66033b2c12640a3ce334eb50a7f0346f2cfe51584004c48b1a809a73abc9e31a800d972"
 
 RPROVIDES:${PN} += "leechcraft-poshuku-onlinebookmarks-delicious \
 libleechcraft-poshuku-onlinebookmarks-delicious.so"

@@ -2,13 +2,13 @@ SUMMARY = "Haskell glib profiling library"
 DESCRIPTION = "This package provides the Haskell glib profiling library."
 LICENSE = "LGPL-2.1-only"
 
-PV = "0.13.8.2"
+PV = "0.13.10.0"
 
-RPM_NAME = "ghc-glib-prof-0.13.8.2-2.3.aarch64.rpm"
-RPM_HASH = "17f0d0aac8e778737c8427f6e858ae02bd460d8ead26d238e607b99d797917b431a08bb37f494a555af3a6ca2f1896755d4a4e58847c8d2d5e9e87f98aae5b0e"
+RPM_NAME = "ghc-glib-prof-0.13.10.0-1.3.aarch64.rpm"
+RPM_HASH = "fa5f4e9f0df1c002b0598fb613e54b7fcb3d285e16922a982b079e3bd35c7c3d9da73987269aa5008869ae44022b797a2df7c271a7346c3d720ef1ea7ce027c6"
 
 RPROVIDES:${PN} += "ghc-glib-prof \
-ghc-prof-glib-0.13.8.2-DQyux8etmkJKUbOUWF524Z"
+ghc-prof-glib-0.13.10.0-3OTFLQKlfVK7JIaqsLt0K"
 
 RDEPENDS:${PN} += "ghc-glib-devel \
 ghc-prof-base-4.17.1.0 \

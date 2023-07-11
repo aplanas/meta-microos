@@ -12,8 +12,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.8.6"
 
-RPM_NAME = "arm-trusted-firmware-poplar-devel-2.8.6-1.1.noarch.rpm"
-RPM_HASH = "60e257b9801f78df4734bbbd882a8f75a492e9984ad114868e0c5f8af280920781f4a0778353ae7d632c8756b82521fb8b836b5dbe99e37008856e90c32537a8"
+RPM_NAME = "arm-trusted-firmware-poplar-devel-2.8.6-1.2.noarch.rpm"
+RPM_HASH = "34331eafa392078c0923374384ce9fb85a51ec985779b393981b7b11a1a0686d839a399fe7b8659aec1b5877d6d0ad5cca308dfc74340cb6ce177246c85fcd5a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "arm-trusted-firmware-poplar-devel"

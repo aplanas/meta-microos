@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "6.3.0"
 
-RPM_NAME = "libsundials_cvodes6-6.3.0-2.4.aarch64.rpm"
-RPM_HASH = "db1bd2256d9d650f17b791a159cf5399437b70e1cef14d66fcca8a4eca0f62032c05ae923afe57dc6934348af9623b707b249fc795a632eeaba4c22d9f961674"
+RPM_NAME = "libsundials_cvodes6-6.3.0-2.5.aarch64.rpm"
+RPM_HASH = "616f1c37e5b4fe78e5feb3a963e08305926ebd08b52cdd8f7aa1da7ffc9bc7ea45ca1172aaea47a2c0a001293809e20c9a29accce20dc07a1a38aee3b32b13a1"
 
 RPROVIDES:${PN} += "libsundials-cvodes.so.6 \
 libsundials-cvodes6"

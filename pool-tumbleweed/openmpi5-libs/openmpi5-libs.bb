@@ -16,8 +16,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.0.0"
 
-RPM_NAME = "openmpi5-libs-5.0.0-2.3.aarch64.rpm"
-RPM_HASH = "a6dc84740a28a9373adfea7d96f85746840e3c8c66b0a47d4673eb8257ecb536f8b3f860072673e03b0e3cad759490d78697ea57f24d47b2df388827defc168d"
+RPM_NAME = "openmpi5-libs-5.0.0-2.4.aarch64.rpm"
+RPM_HASH = "7c62f4f8c79c748787eda880b976cb81df0d02ea16cc014e9f01cfadbbec98967d16b084b8c5ebffb038c86715297aed037323c175e4ce467b4e05ff0c9542cb"
 
 RPROVIDES:${PN} += "libmpi-mpifh.so.80 \
 libmpi-usempi-ignore-tkr.so.80 \

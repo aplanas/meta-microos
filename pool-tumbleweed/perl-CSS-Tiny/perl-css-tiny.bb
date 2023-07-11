@@ -14,13 +14,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.20"
 
-RPM_NAME = "perl-CSS-Tiny-1.20-1.24.noarch.rpm"
-RPM_HASH = "bdbc39c854395eb57021c69dde8d5910921cf82a6523fa9c6f287174a0d2d88336a8559e72c0eb3a972b4ea5544ca43309dbfbc3ae3e7c16e1d3d95a5a9423ca"
+RPM_NAME = "perl-CSS-Tiny-1.20-1.25.noarch.rpm"
+RPM_HASH = "ea39466ea470382346124123313d9f14763db94b5feeec9fa9c5a165348229f52d325033aeb3f196b4c7a668873a907918415e38c9bd5a5364fee6794a1afa2e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-CSS--Tiny \
 perl-CSS-Tiny"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

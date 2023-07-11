@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "7.0.11"
 
-RPM_NAME = "javacc-7.0.11-1.5.noarch.rpm"
-RPM_HASH = "3ecf5790c50a2d376e24e6cec6e9309f8d5114b911d9127fc67470ef9cd9f9eff9eb0d031b6aa80952d1fd6eb6b17f81ebba34dd7da430f4c8b6ba1cb0affeee"
+RPM_NAME = "javacc-7.0.11-1.6.noarch.rpm"
+RPM_HASH = "1d98bce2e55af8adb2129cbc167a95a3fe73da434c7a1479146f190f6e970ffb9603b9ec0b191aaeaa2a65c14196915f14755eadff82d3abfb4304f7c0dbe721"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "javacc \

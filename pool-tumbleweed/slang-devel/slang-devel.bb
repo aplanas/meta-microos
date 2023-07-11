@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.3.3"
 
-RPM_NAME = "slang-devel-2.3.3-1.3.aarch64.rpm"
-RPM_HASH = "9cf4440dab0be0dda16716561da00ae039cc61619f6adfad616d62e2304cc4b92f32c7ca2fe5ab050cc317c36931bc393bd235e82f00a1b2a941f88070a4fbe5"
+RPM_NAME = "slang-devel-2.3.3-1.4.aarch64.rpm"
+RPM_HASH = "c187bc3d3952d24d3b073e6e712755496a832ed095764d6e9b21f65eaea52d00bd3a3c539470a4d721af6c538aa6607a2a35d0a3489466eadc937f91bd1f54c8"
 
 RPROVIDES:${PN} += "pkgconfig-slang \
 slang-/usr/include/slang.h \

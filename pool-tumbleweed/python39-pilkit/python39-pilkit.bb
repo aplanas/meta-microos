@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0"
 
-RPM_NAME = "python39-pilkit-2.0-6.6.noarch.rpm"
-RPM_HASH = "524bb6f5f7c2d4bf23e2ba0c505957915d9bf39029fc9f705c83a5df5e8c887baa9029242ec6a37e6123851d2b29ff6c89b88e1534689385233e51479b574658"
+RPM_NAME = "python39-pilkit-2.0-6.8.noarch.rpm"
+RPM_HASH = "7827d0a3c71ac34a85c85ed6b07d1f93ebe489afde9e2b46fb67f60f3b2c6b96a78138521956ff9ea51bb926238a8d0fcedc7ad4251e4833eb4c9e3eb18a7013"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pilkit \

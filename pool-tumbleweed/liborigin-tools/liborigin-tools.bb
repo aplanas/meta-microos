@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.0.1"
 
-RPM_NAME = "liborigin-tools-3.0.1-1.10.aarch64.rpm"
-RPM_HASH = "a8bfeed54892e6f8b4bfb1ee2224de8f6d19edc5bc85662f6ca673a185747f80f92ebe794eabe754b148c56922af4070071201f2ad90bc07747dfba458c22a04"
+RPM_NAME = "liborigin-tools-3.0.1-1.11.aarch64.rpm"
+RPM_HASH = "8cdeb324261b130ba5fa0db0b25400129d91c12081742f2a3029dda3fbd1b062d6cb61d8a1aed68df801a004ca8c1197547e42b90192fc30af5a1a47d3926c36"
 
 RPROVIDES:${PN} += "liborigin-tools"
 

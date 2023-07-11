@@ -7,14 +7,13 @@ middleware technologies including reliable message queuing and durable \
 publish/subscribe messaging."
 LICENSE = "Apache-2.0"
 
-PV = "7.10.0"
+PV = "7.11.0"
 
-RPM_NAME = "python310-azure-servicebus-7.10.0-1.1.noarch.rpm"
-RPM_HASH = "8b7549159ca6782ade8b23a34672fce59316ad94566c33e91b67f1dc56ff85d8a3d7fb3b716cf1d501d599d2efafcf56a3512dfdcc5f5dbe2609bde0a1193abb"
+RPM_NAME = "python310-azure-servicebus-7.11.0-1.1.noarch.rpm"
+RPM_HASH = "13347ca894e8e151c5b8cce8349d4141930204b16eaa344d0c2f6407a18d7c33994adc10ed65b4e1e1bf45dad295dd4866549579d5d2d81cf66152c1735aa0d3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-servicebus \
-python3.10dist-azure-servicebus \
+RPROVIDES:${PN} += "python3.10dist-azure-servicebus \
 python310-azure-servicebus \
 python3dist-azure-servicebus"
 

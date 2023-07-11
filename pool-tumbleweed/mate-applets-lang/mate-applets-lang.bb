@@ -4,8 +4,8 @@ LICENSE = "GFDL-1.1-only & GPL-2.0-or-later"
 
 PV = "1.26.1"
 
-RPM_NAME = "mate-applets-lang-1.26.1-1.4.noarch.rpm"
-RPM_HASH = "2fe146a44f95e54f74bfbc4c6c291d67edc1e2012d776b165fd20b4c2288ffee0aea2e236d1a0751bb4f9c2125f0c0b319e8beb14d1789aebdfc6982f2c9a567"
+RPM_NAME = "mate-applets-lang-1.26.1-1.5.noarch.rpm"
+RPM_HASH = "0ee3f80e80e12f9fbd665fb7b559f3b112037733e8c47dda8f03b9a45863dc934413de9c59cfefd1aa19b7a9ca34a6bc0b933fe61d6a5f30757bb281a61902cb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mate-applets-af \

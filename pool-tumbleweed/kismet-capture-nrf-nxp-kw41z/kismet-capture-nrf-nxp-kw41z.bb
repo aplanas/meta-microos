@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2022_08_R1"
 
-RPM_NAME = "kismet-capture-nrf-nxp-kw41z-2022_08_R1-2.3.aarch64.rpm"
-RPM_HASH = "f92eae571bd15d5f007188ef792552d3a48da59271b467a92cd533db9dceb68954226609dfdade9a5eac347d5e507b6918c31dc9e8b32a555056c72cf0a93310"
+RPM_NAME = "kismet-capture-nrf-nxp-kw41z-2022_08_R1-2.5.aarch64.rpm"
+RPM_HASH = "47d856a55173043f8e611efe476fb36e5f85ad0a15a6ec387b01118e635ff3657cb29aa3153c5d8fde58477e24ece93d788ee2adac6afbc5c7a109a1737a1882"
 
 RPROVIDES:${PN} += "kismet-capture-nrf-nxp-kw41z"
 

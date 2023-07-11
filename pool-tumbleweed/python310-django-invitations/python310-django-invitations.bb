@@ -4,12 +4,11 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.9.3"
 
-RPM_NAME = "python310-django-invitations-1.9.3-3.5.noarch.rpm"
-RPM_HASH = "f8e01473a071999b303bea93a203a1551cb3afbff6c4d72f0ea1d554a7577ae1583d47e9388a96b7db21c93fd8be766402961631a754c0c8e91d3e0b19506f35"
+RPM_NAME = "python310-django-invitations-1.9.3-3.7.noarch.rpm"
+RPM_HASH = "51508bce48d37632b15b3183092217ead53f35ef3a567579ff2c9137cbcddbc27994d8d6bb6b280653e6f032d5a51ecc300f9bb73079d6dd62f986ebd639d2dd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-django-invitations \
-python3.10dist-django-invitations \
+RPROVIDES:${PN} += "python3.10dist-django-invitations \
 python310-django-invitations \
 python3dist-django-invitations"
 

@@ -14,8 +14,8 @@ LICENSE = "MIT"
 
 PV = "2.1.0"
 
-RPM_NAME = "deepin-gir-generator-2.1.0-1.10.aarch64.rpm"
-RPM_HASH = "eea34aab4cee078458105850ee0eaf8c4019be5c72bf28eac6a1027c0fb5ab0466b8968e7ed89796d68b1d7b98f1d6ea92020b5f4a53db24741a24d2658669b7"
+RPM_NAME = "deepin-gir-generator-2.1.0-1.11.aarch64.rpm"
+RPM_HASH = "8bcbdbb8ae0e344da888684840cd5e4b7ec60bb4e7953b268304002f5c2d7abee79c930338a00941d8eb76f75a95de99d657c74ceb60c607e5c33bb46c29e441"
 
 RPROVIDES:${PN} += "deepin-gir-generator \
 go-gir-generator"

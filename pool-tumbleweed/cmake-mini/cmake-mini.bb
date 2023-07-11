@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.26.4"
 
-RPM_NAME = "cmake-mini-3.26.4-1.1.aarch64.rpm"
-RPM_HASH = "e24ceb18aa3782d10ae971d1a708386adce0a447c4d0c8f06eae7c011dcee9f770fd2edfdad2a34118d85ebc4a69a4d6886c4054f9067deab8ea883acd6095f0"
+RPM_NAME = "cmake-mini-3.26.4-3.1.aarch64.rpm"
+RPM_HASH = "f5592cf01acd11fcf254360d34aa03c7cae03b010b18717b03d8d7659fc7be7e1f62811187d53799812949aa05f1ed9127d1cba0a7a6c49fd400c35c8f475d6b"
 
 RPROVIDES:${PN} += "cmake-implementation \
 cmake-mini \

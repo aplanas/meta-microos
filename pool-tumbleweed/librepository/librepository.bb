@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "1.1.6"
 
-RPM_NAME = "librepository-1.1.6-1.4.noarch.rpm"
-RPM_HASH = "efc91981d15f8e1ba5abbb669320e132fecd89d338cdcac6777aa2fa77f7700997dfc389ea00102503abaf83635057f896fb568925a0e9948282a5e98d009bf7"
+RPM_NAME = "librepository-1.1.6-1.5.noarch.rpm"
+RPM_HASH = "84643de768a9d73a3ed6a02e6957c4737e65321ba072cdf60f9c3f93364d4d5bc2d9c8268178333f727d89db181a68a79d5c6a761cd27d2d63d4e9a3db61072a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "librepository"

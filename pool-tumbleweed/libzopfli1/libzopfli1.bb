@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.3"
 
-RPM_NAME = "libzopfli1-1.0.3-2.1.aarch64.rpm"
-RPM_HASH = "9bd6e82ecfd81edf23f39e08fec9e1d4b2683de31d3f9966caafdaa506f451160a84b0db3cf712dc25791d73394839dbf7f237da856e71b0a0a5899d80a7cd21"
+RPM_NAME = "libzopfli1-1.0.3-2.2.aarch64.rpm"
+RPM_HASH = "446fbcd1e3ea2e2343f7f6e28a69fdf91ca407a3a0279773f3b7c1f28ecc92dcc394c7947e03e64ce09c776e6453aa80467e16e9986ee4685bfb90c3341d1b9a"
 
 RPROVIDES:${PN} += "libzopfli.so.1 \
 libzopfli1"

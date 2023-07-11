@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.10.1"
 
-RPM_NAME = "gtp-echo-responder-1.10.1-1.1.aarch64.rpm"
-RPM_HASH = "51893decdbfdfced363ce5e35fa60601e0c19a74a5463f607d0e3f6bc7d23599fa7963ac034f8c2542766a8e299a5d41ec7df1a21b2fc0d4c376646eeef4879f"
+RPM_NAME = "gtp-echo-responder-1.10.1-1.2.aarch64.rpm"
+RPM_HASH = "ace2a0b85f07c223f9879fcce79ab446f99944bf1e452a40103ea95b758784f1ba7e1c5a572c59ab1af68fc53fdd0efb497bcb32b758162e1e6d2aecbe562249"
 
 RPROVIDES:${PN} += "gtp-echo-responder"
 

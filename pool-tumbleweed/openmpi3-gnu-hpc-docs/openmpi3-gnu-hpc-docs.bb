@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.1.6"
 
-RPM_NAME = "openmpi3-gnu-hpc-docs-3.1.6-7.2.noarch.rpm"
-RPM_HASH = "f98da41f3e125ab2dbc3689e86818905105ab2d063b8ac8763fb65e3ffc83eae8ea568d3599bfebc1896f4d3065f26d85dfb261cc946350e2ab554add08ccd85"
+RPM_NAME = "openmpi3-gnu-hpc-docs-3.1.6-7.3.noarch.rpm"
+RPM_HASH = "1ee40765295ff5b81f34addcd368254ae8685948be9e5f6506224ac985fe699c82f2b58e254af51be88fa7173cbd386a82750d9d6384d6f5bdde5ba12df79409"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openmpi3-gnu-hpc-docs"

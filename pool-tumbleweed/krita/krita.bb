@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause & GPL-2.0-or-later & LGPL-2.0-or-later & LGPL-2.1-or-lat
 
 PV = "5.1.5"
 
-RPM_NAME = "krita-5.1.5-1.6.aarch64.rpm"
-RPM_HASH = "62d314fd9594a73a8dbc49cd571229de31bf80dc8de6e84cf35881b2513566ba0bca0f7fd8893c0f18bd4a4df5fd6509af0800d6504ca82b6b9d957fcf2f2b66"
+RPM_NAME = "krita-5.1.5-2.1.aarch64.rpm"
+RPM_HASH = "364e37349d9dee1a3f5b77c751abc6e60f43877183e055a5897dc02b4fdc48d47e4c9da7997b9611bb040c818477c3e5e03a42e8941402a6d9e80e22e630ca4a"
 
 RPROVIDES:${PN} += "calligra-krita \
 config-krita \
@@ -77,7 +77,7 @@ libQt5X11Extras.so.5 \
 libQt5Xml.so.5 \
 libX11.so.6 \
 libc.so.6 \
-libexiv2.so.27 \
+libexiv2.so.28 \
 libfftw3.so.3 \
 libgcc-s.so.1 \
 libgif.so.7 \
@@ -93,7 +93,7 @@ libmypaint.so.0 \
 libopenjp2.so.7 \
 libpng16.so.16 \
 libpoppler-qt5.so.1 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libquazip1-qt5.so.1.4.0 \
 libraw.so.23 \
 libstdc++.so.6 \

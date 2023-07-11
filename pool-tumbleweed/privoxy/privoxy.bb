@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.0.34"
 
-RPM_NAME = "privoxy-3.0.34-1.3.aarch64.rpm"
-RPM_HASH = "3005541b41db70242bbf0271e2cb48c30fdb683ead2dbcc6029719ae7dbb6af424a9ef587c583e5f8ce115562a97416b0329d3ebd418b9b1b02543f61a6d81a1"
+RPM_NAME = "privoxy-3.0.34-1.4.aarch64.rpm"
+RPM_HASH = "2f89a943b0d49ec120e5b8953ac4f1335e7dfc2185797d341811bc6f7994baff8870b86d7603ebcdc1e63625053e823cc1abbf7b1db9d18e03ec52751466c764"
 
 RPROVIDES:${PN} += "config-privoxy \
 privoxy"

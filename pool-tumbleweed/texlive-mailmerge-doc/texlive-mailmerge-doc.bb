@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-mailmerge"
 DESCRIPTION = "This package includes the documentation for texlive-mailmerge"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn15878"
+PV = "2023.208.1.0svn15878"
 
-RPM_NAME = "texlive-mailmerge-doc-2023.201.1.0svn15878-52.1.noarch.rpm"
-RPM_HASH = "088bddadb8ec2561a9b219be5865d9ffdd701b687ed88260a2802c4383d091de5f5f2e7ae2ce5ba91f7764dd4ff19338b43e3b5c4a4c9da8fdd0362f75d0851e"
+RPM_NAME = "texlive-mailmerge-doc-2023.208.1.0svn15878-53.1.noarch.rpm"
+RPM_HASH = "804c96dd6594086726262a278982e3d9e521b9db6bf90478ab9e147c7976d76e8cbeae5e7544ab34184a243b7238d52856e6053dc903e87f0f5cebbefef9c6b7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mailmerge-doc"

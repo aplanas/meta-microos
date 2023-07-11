@@ -10,10 +10,10 @@ higher level APIs, like Qt Quick, which are much more suitable than \
 the enablers found in the Qt GUI module."
 LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
-PV = "5.15.9+kde154"
+PV = "5.15.10+kde129"
 
-RPM_NAME = "libQt5Gui5-5.15.9+kde154-1.2.aarch64.rpm"
-RPM_HASH = "3af6f9a07cd6f9108210d5b73971517c0865f6db660591d78c9946b6c08847a9d54657af87b446786cc287ac0a6ae5a837dd4a5c98561f223839a2b1962e2d28"
+RPM_NAME = "libQt5Gui5-5.15.10+kde129-1.1.aarch64.rpm"
+RPM_HASH = "89272bea78d50148fc3e8b7ff72fc85b04b7c33a2b01c329f374cb0851c4f2615181b80bb44128136f256c4ac3cd7257d4a1de58c5c936e7bc3a9bc195f1a916"
 
 RPROVIDES:${PN} += "libQt5EglFSDeviceIntegration.so.5 \
 libQt5EglFsKmsSupport.so.5 \

@@ -10,8 +10,8 @@ LICENSE = "AGPL-3.0-only"
 
 PV = "5.5.13.3"
 
-RPM_NAME = "itextpdf-5.5.13.3-1.10.noarch.rpm"
-RPM_HASH = "46ec013d9a436f7d10e3ecb90491bf41a5053d6e124aeb2108c4ebc26034f92b0df49f119330bcc1475e162d80b6abf0814000a3d6482a4d2166c4e52413198d"
+RPM_NAME = "itextpdf-5.5.13.3-1.11.noarch.rpm"
+RPM_HASH = "ec50b9b58e15ea84a8426ccbfa78d15758880dcf7c5dbeddae0672444e633558d44dfcd67f59ca1b1339913d94a18d4615d46b7a3820fbab9db91ccead2462f9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "itextpdf \

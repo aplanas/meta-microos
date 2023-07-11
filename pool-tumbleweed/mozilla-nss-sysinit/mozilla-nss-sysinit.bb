@@ -5,10 +5,10 @@ PKCS #11 modules for NSS and chains with other NSS modules to load \
 any system or user configured modules."
 LICENSE = "MPL-2.0"
 
-PV = "3.89"
+PV = "3.90"
 
-RPM_NAME = "mozilla-nss-sysinit-3.89-2.1.aarch64.rpm"
-RPM_HASH = "b16062b65e00bdac6ad6c2129cfbf2989312510ef409994b546213d34395291f9a23e30f6212393f41f08b93bef3bd3ff2ac3c0df70b88ac6374901295ee7db9"
+RPM_NAME = "mozilla-nss-sysinit-3.90-1.1.aarch64.rpm"
+RPM_HASH = "5c2b727decc8c50549b8e6e681657ff6eaa7e69b912b4746eee387f3cafd6d0707d3b9b7d80c7d6ab1b4da6354ef9ce8c379272e1c024ddb6707bbd78a7a408f"
 
 RPROVIDES:${PN} += "config-mozilla-nss-sysinit \
 libnsssysinit.so \

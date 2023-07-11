@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.1.1"
 
-RPM_NAME = "packagekitqt5-devel-1.1.1-1.1.aarch64.rpm"
-RPM_HASH = "32ae86d61aa3472d69d8b613f0ee36d41290074abaaa4d712cd18e72abb9931e619691874a2deef467da1294d5b0d171ee269acef14b5d740cec934ad04c74f7"
+RPM_NAME = "packagekitqt5-devel-1.1.1-1.2.aarch64.rpm"
+RPM_HASH = "d1d781c7231e0235c6c5c177ac881211b22d00d26ac0ee3b921299c8e1f88bcc24ef663b75a3753c739e12f15c77522901bf6db75dff3457b477d7096969443b"
 
 RPROVIDES:${PN} += "PackageKit-Qt-devel \
 PackageKit-Qt5-devel \

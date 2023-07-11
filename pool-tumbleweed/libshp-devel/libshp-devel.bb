@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & (LGPL-2.0-or-later | MIT) & SUSE-Public-Domain"
 
 PV = "1.5.0"
 
-RPM_NAME = "libshp-devel-1.5.0-2.7.aarch64.rpm"
-RPM_HASH = "429cd571a8fd54c8f25e5eaf03eb26895dff805a39d7c4e90a29fee529088750b7181aea04146adfa2f6fb5e99f174c36b258069cd6202a5479ec6db87d74c8c"
+RPM_NAME = "libshp-devel-1.5.0-2.8.aarch64.rpm"
+RPM_HASH = "d18b1ac21bd472a0dbf7fd45b740aef7a0362238766bad1bfd50f64293df26709cef4c496e94a64818b09dc01c4eeb0ebc3883e40bee20356742b53fd27fc936"
 
 RPROVIDES:${PN} += "libshp-devel \
 pkgconfig-shapelib \

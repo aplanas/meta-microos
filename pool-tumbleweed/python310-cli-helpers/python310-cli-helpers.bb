@@ -14,12 +14,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.3.0"
 
-RPM_NAME = "python310-cli-helpers-2.3.0-1.4.noarch.rpm"
-RPM_HASH = "3e839d2588b77791223ebe2de584e97fd0989440f1f9f84e24389feedd4ced00ee3da04280671150a74e2ed9266e724e0b6c94938be1048f3a48999c4b73e14c"
+RPM_NAME = "python310-cli-helpers-2.3.0-1.6.noarch.rpm"
+RPM_HASH = "8741b87fc212eb7c09a3871e499fd637bf4654b6141a50e98d4a375fe5d15bffad079b666845846f8bbfefb7f8ddd768991605af345b9b4f1a068bca5f0769de"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-cli-helpers \
-python3.10dist-cli-helpers \
+RPROVIDES:${PN} += "python3.10dist-cli-helpers \
 python310-cli-helpers \
 python3dist-cli-helpers"
 

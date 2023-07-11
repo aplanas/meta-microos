@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.1.11"
 
-RPM_NAME = "libzmusic1-1.1.11-2.2.aarch64.rpm"
-RPM_HASH = "e999fbb25ef7d8a37da96c723e92391633316090142c325353bd546ab0e189351ac348db52caf4312921274fa16d78b961c05ac204783ae56610cd6b9ef9d2d8"
+RPM_NAME = "libzmusic1-1.1.11-2.3.aarch64.rpm"
+RPM_HASH = "9ef07eb0fbe0ad5e235b146771a00bd712aab7ecc6025c91b999720ecab5952044418b8192d991539b0fdd0366b10e12cb1662af21c15a04bee3c6f3f664e7ee"
 
 RPROVIDES:${PN} += "libzmusic.so.1 \
 libzmusic1"

@@ -4,10 +4,10 @@ DESCRIPTION = "Yet another SIP003 plugin for shadowsocks, based on v2ray \
 This package provide source code for shadowsocks-v2ray-plugin"
 LICENSE = "MIT"
 
-PV = "1.3.1+git20210506.ddd7ab4"
+PV = "1.3.2"
 
-RPM_NAME = "golang-github-shadowsocks-v2ray-plugin-1.3.1+git20210506.ddd7ab4-1.10.noarch.rpm"
-RPM_HASH = "55d4bf9d7462c713630ffe1121c139307721e9a9662480a9e05d3af026bd1c1a40862008ef96a02088ed4ff07d4ce2e207353be012d61602a2ae08f35b665f20"
+RPM_NAME = "golang-github-shadowsocks-v2ray-plugin-1.3.2-1.1.noarch.rpm"
+RPM_HASH = "591d4f85bf24249d18474c46cca80360a7ff5778ecb1f82d1a92c931d3170015920ddfe6a83ebb0d86e87ea51eef31e08a4e267be174de34a79c145507341f21"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "golang-github-shadowsocks-v2ray-plugin"

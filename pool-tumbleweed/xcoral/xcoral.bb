@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.50.2"
 
-RPM_NAME = "xcoral-3.50.2-1.9.aarch64.rpm"
-RPM_HASH = "61c9a108bc01645b0bc1ab15f560986ea247c6ec78bc355a83d3b6cd89b365a8f1d1822a703c517e171d276189a17a793de9f5702909bc20472afb51fc85c2c2"
+RPM_NAME = "xcoral-3.50.2-1.10.aarch64.rpm"
+RPM_HASH = "6b7435e0fc52955ddca507f463daa56ebe2bbcd37fbf87e478c91ac1a3809d60b4e2399847970cb2ac535ebca706df2f5cb48dd8e56dbe0131696a9baa4ac1f8"
 
 RPROVIDES:${PN} += "config-xcoral \
 xcoral \

@@ -11,8 +11,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.4.6"
 
-RPM_NAME = "gtk2-theme-oxygen-1.4.6-5.19.aarch64.rpm"
-RPM_HASH = "bbbcd2eb72ab7dd6ac55483ef16c9c2d080c6d392825caa4084a879571d7390e39404717037c496cb73babbee3310ed7f19164ec39a9f3b21f10fc15857de9be"
+RPM_NAME = "gtk2-theme-oxygen-1.4.6-5.20.aarch64.rpm"
+RPM_HASH = "b7e4889da293c52452db3ab61830d2a9bf2312cb1d6e042cfbb67694305380e63278a8f23ff4ca227e94a4b4e2d41522843a66a307b75be86f53bb34c3ab7b41"
 
 RPROVIDES:${PN} += "gtk2-theme-oxygen \
 oxygen-gtk2"

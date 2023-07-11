@@ -7,11 +7,12 @@ LICENSE = "MIT"
 
 PV = "0.9.0"
 
-RPM_NAME = "python311-vega_datasets-0.9.0-1.9.noarch.rpm"
-RPM_HASH = "febd247db420bde2ec440d2917b79d228ca70d51f11a471af5c60e013ff1a40d7e7728ba92d98119ad25c3352dc71ad8b44dde477ba103f17c747c1a42248b9e"
+RPM_NAME = "python311-vega_datasets-0.9.0-1.11.noarch.rpm"
+RPM_HASH = "9c24bb46341e31468048e44aed9ef863313f05cc6b761469355cb6b739f4589316b1b276309d1cc098c99e2c3ca279fb6100c8f0f8369d160c34aa87481e2ee9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-vega-datasets \
+RPROVIDES:${PN} += "python3-vega-datasets \
+python3.11dist-vega-datasets \
 python311-vega-datasets \
 python3dist-vega-datasets"
 

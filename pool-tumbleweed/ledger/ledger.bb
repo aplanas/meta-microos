@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.2.1"
 
-RPM_NAME = "ledger-3.2.1-3.16.aarch64.rpm"
-RPM_HASH = "8bfd3de50dd1c7b19035196a92024bbdcbec2f5d25819ac6821d211ae331dec02d055076f31d883fe81ea8095a104f34d47ce7cbbfa65fbd8684de3bbc551b39"
+RPM_NAME = "ledger-3.2.1-3.17.aarch64.rpm"
+RPM_HASH = "a4376a826327b1cffeb1e67ec2f36c3b42a91d2f0b13412a405ed77c4a8e29cb694642ecb39a0463de98eed2391db43d103b15dc68e74f070d32b98f5cfa51e6"
 
 RPROVIDES:${PN} += "ledger"
 

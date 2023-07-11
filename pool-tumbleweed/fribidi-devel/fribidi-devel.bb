@@ -2,10 +2,10 @@ SUMMARY = "Development Files for FriBiDi"
 DESCRIPTION = "This package provides headers and manual files for FriBiDi."
 LICENSE = "LGPL-2.1-only"
 
-PV = "1.0.12"
+PV = "1.0.13"
 
-RPM_NAME = "fribidi-devel-1.0.12-1.6.aarch64.rpm"
-RPM_HASH = "9e27c7edf1b92c6552caa6a6bc18a12d2eefbf15d21213039b735bfcc9fa136cf9335ae2779f2de95270780abeacc75bf16e35433097dbb8bc3d16625129b949"
+RPM_NAME = "fribidi-devel-1.0.13-1.1.aarch64.rpm"
+RPM_HASH = "084172704b3f94eed32212c65e0adc25b8b3a2893165a50567e7238e3877b2f13c26a0d71ed148f71f0f14608b4f45ad39811960c6f068266be7c23bd9b52d24"
 
 RPROVIDES:${PN} += "fribidi-devel \
 pkgconfig-fribidi"

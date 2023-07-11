@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.4.18"
 
-RPM_NAME = "python39-md2workflow-1.4.18-4.11.noarch.rpm"
-RPM_HASH = "8a56406c44a7c23d816cac805c074d25db3e2b5a149b5f5c9c8acb8cc8f2770f0c15338eb129c32743e260ddc7ea104aa0536f8f8abd6839fa69a8634c73d260"
+RPM_NAME = "python39-md2workflow-1.4.18-4.13.noarch.rpm"
+RPM_HASH = "efa6071bbb750d9f5d87ccbeb4f46da1ea9d09f6907d5d6eb406f54b68e15cb0bdc15d10f5cffd227b0fbf4e258e53defaf58f7730b69a9a12b21dee411e7139"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "md2workfow \

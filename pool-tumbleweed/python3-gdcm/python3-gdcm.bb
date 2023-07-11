@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.0.21"
 
-RPM_NAME = "python3-gdcm-3.0.21-1.5.aarch64.rpm"
-RPM_HASH = "bcafc16fa79f1c53a368362c7e49f82c321ea508a70888bd64e540f3279755b0f5f6d164cbb6037e307323387b3f3e233364b2e46ae66c796f68fdcbd329da5d"
+RPM_NAME = "python3-gdcm-3.0.21-1.8.aarch64.rpm"
+RPM_HASH = "f73969be9ffbb9f27f16a5b84b74ba8b693e8fbd07fec6f8dc95ac9736d1f8853b289a26ac8ce2cb1f8097ac9c64de7832e55cbb6d2fbbcf610433be992b7d35"
 
 RPROVIDES:${PN} += "python3-gdcm"
 
@@ -19,7 +19,7 @@ libgdcmDSED.so.3.0 \
 libgdcmIOD.so.3.0 \
 libgdcmMEXD.so.3.0 \
 libgdcmMSFF.so.3.0 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libstdc++.so.6 \
 python-abi"
 

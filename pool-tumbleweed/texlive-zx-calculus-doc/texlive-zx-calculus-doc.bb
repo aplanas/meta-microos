@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.svn60838"
 
-RPM_NAME = "texlive-zx-calculus-doc-2023.201.svn60838-52.1.noarch.rpm"
-RPM_HASH = "a57515940479a78e21de8e8726427935ae0783f5a41fec6c82d66f3ef4006f551b6848d83e7d6e07d442c342203a21c8eef51abaec50e45481b45b202f31bf8b"
+RPM_NAME = "texlive-zx-calculus-doc-2023.201.svn60838-52.2.noarch.rpm"
+RPM_HASH = "691b9cc839fc6a289e19b78eeadf38385de8d58f69362676db1e126e02cace81b6238e05cf0f4a07c182944c4b7779664503df004e293968727eaa19a81f2104"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-zx-calculus-doc"

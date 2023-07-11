@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "5.3.0"
 
-RPM_NAME = "libinsighttoolkit5_3-1-5.3.0-3.2.aarch64.rpm"
-RPM_HASH = "52854cd57e02b93183506627e09df64db07ee9eb649d7dfe33557e7f1b8558fa8c3f39c8e2b1289bb85ae0d3222ad747e88b7f046328c468e6aa787cadabdbb8"
+RPM_NAME = "libinsighttoolkit5_3-1-5.3.0-3.3.aarch64.rpm"
+RPM_HASH = "4fb4579653a615ec62a977b0b52350c59db1b68e08db23f758366375c5c999ee135fb870a5c531a5953387a03ecc5247f1b18962f2b6df3cc8253860f38b7800"
 
 RPROVIDES:${PN} += "libITKBiasCorrection-5.3.so.1 \
 libITKColormap-5.3.so.1 \

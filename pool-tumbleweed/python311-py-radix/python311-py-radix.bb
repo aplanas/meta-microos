@@ -11,10 +11,11 @@ LICENSE = "ISC & BSD-4-Clause"
 
 PV = "0.10.0"
 
-RPM_NAME = "python311-py-radix-0.10.0-1.27.aarch64.rpm"
-RPM_HASH = "9627bf89cf1b0dec7afbab263a8cfd191f958538f6d426d062674dd1c6941c744f825ba2b3919485ffab0b741ff18d5e1158b16848e674aa7046bf42ce6f7561"
+RPM_NAME = "python311-py-radix-0.10.0-1.29.aarch64.rpm"
+RPM_HASH = "14a418b11b9d6ba2e08ee6bba49cd2f705cf2e57896bd8b67d34d105a6d1e8b6dc265001ea0f0fb8472aaebd426ec420850eaeefc7cf05c543d0354c300d6385"
 
-RPROVIDES:${PN} += "python3.11dist-py-radix \
+RPROVIDES:${PN} += "python3-py-radix \
+python3.11dist-py-radix \
 python311-py-radix \
 python3dist-py-radix"
 

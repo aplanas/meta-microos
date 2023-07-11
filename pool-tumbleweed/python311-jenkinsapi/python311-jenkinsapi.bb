@@ -23,22 +23,23 @@ and has \
  * Ability to add/remove/modify Jenkins views"
 LICENSE = "MIT"
 
-PV = "0.3.11"
+PV = "0.3.13"
 
-RPM_NAME = "python311-jenkinsapi-0.3.11-3.6.noarch.rpm"
-RPM_HASH = "596ae227a821521c6574dcf017c666822594e86a1dd13c4c8fc2d6a6c0689d315c6032900e6b60c01c6b52ba2b46a6e19670a59a0c2e7c803c540fb74456e376"
+RPM_NAME = "python311-jenkinsapi-0.3.13-1.1.noarch.rpm"
+RPM_HASH = "82ce8baa72cd720d6ba0056bee8cdd3fb6054de6c715217c8a7483f2f31cf55437d5a27e80a7340935a0f353cf7d0345527f0651d243767c62949e9b526995f3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-jenkinsapi \
+RPROVIDES:${PN} += "python3-jenkinsapi \
+python3.11dist-jenkinsapi \
 python311-jenkinsapi \
 python3dist-jenkinsapi"
 
-RDEPENDS:${PN} += "/usr/bin/bash \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
 /usr/bin/sh \
 python-abi \
 python311-pytz \
 python311-requests \
-python311-six"
+python311-six \
+update-alternatives"
 
 inherit rpm

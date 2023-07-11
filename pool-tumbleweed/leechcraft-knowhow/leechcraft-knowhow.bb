@@ -5,8 +5,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-knowhow-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "46593b7db02373a8d246b5c4962c0e02e5581d33638114fa8d68c3ec43dccc0ae1f9d77fd8a0faa6c69b7bea89404686985148963abfdd48c27160554ece47b0"
+RPM_NAME = "leechcraft-knowhow-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "da438eb753bbedd1337d96e62465bffcacdbef26e9a42eafe09c3218339555fd5e6955126efdc91cb8b1cfe75c2414e1d57cf0b9b40a9219ba7427e0cba4ff96"
 
 RPROVIDES:${PN} += "leechcraft-knowhow \
 libleechcraft-knowhow.so"

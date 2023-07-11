@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.1.2"
 
-RPM_NAME = "traceroute-2.1.2-1.2.aarch64.rpm"
-RPM_HASH = "3f0d87ea9d5de3bfab3dc9c05d2634ac4cf60d6bffa5dd69107df04e7f77edef00b36cc0d0ce1c1f0e71980a61e1b74966ac0e2f89a32fb8a81ce2b8848f2dd2"
+RPM_NAME = "traceroute-2.1.2-1.3.aarch64.rpm"
+RPM_HASH = "df4472850c72be8e30e60e06570f53567e4041776638ee37e84b520f72973d8f97f36308c31883bde602fc58206046c5107cb48fe62f9b767bdb438852a64817"
 
 RPROVIDES:${PN} += "net-tools-/usr/sbin/traceroute \
 tcptraceroute \

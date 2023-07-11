@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "0.7.4"
 
-RPM_NAME = "python311-aioresponses-0.7.4-1.3.noarch.rpm"
-RPM_HASH = "a873b570dd4eba51fdbc2749101c92f419b83aa8e6b05176ddb5947bb9f24d35934f344bf2c2e65026a0005d5cd25ccdf36cdca4fcda488851d728e5d1c08688"
+RPM_NAME = "python311-aioresponses-0.7.4-1.5.noarch.rpm"
+RPM_HASH = "f8cdd96e7c3a838bc1c17bce099c517debe5244753259ffa77014553d1fdc96382d1c4cd1062ac3e4c12ae89176e15e67a91a290caf60f0c6954527656441b76"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-aioresponses \
+RPROVIDES:${PN} += "python3-aioresponses \
+python3.11dist-aioresponses \
 python311-aioresponses \
 python3dist-aioresponses"
 

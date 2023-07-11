@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "2.0.15"
 
-RPM_NAME = "python39-pygerrit2-2.0.15-1.6.noarch.rpm"
-RPM_HASH = "c7b420e8e401d5942072b35e806841c066e3287aa39b7f6ce3a1b55f6bfc32c6a753fcd03a880d2ac68a494e650a69b99d2d61c44e83fe542ca0be6a6ad8d91f"
+RPM_NAME = "python39-pygerrit2-2.0.15-1.8.noarch.rpm"
+RPM_HASH = "4de4f7f204991d276665921501ea360a6114de8bd12eddad38174f8f0637a6a5e37a613370ee5076f1828c81bcf93b9a949847144d907245ab4aeabd74eaea70"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pygerrit2 \

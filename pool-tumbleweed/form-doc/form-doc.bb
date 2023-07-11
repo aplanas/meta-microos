@@ -10,8 +10,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.3.0"
 
-RPM_NAME = "form-doc-4.3.0-1.3.aarch64.rpm"
-RPM_HASH = "414bff06972e11ca8c7e3f2f29d5630f7448ce255e1d656b247fea70b752e4787d875504fd3fc7bf79bb48b10b809e16ffb0114a926b1909ef51c7d454e0f23b"
+RPM_NAME = "form-doc-4.3.0-1.5.aarch64.rpm"
+RPM_HASH = "c6e90e74abb715132f039be361677befd9f6999fa78620da5b99db1804bd64bcfd0e0347e788da1e25a2a430683da881c03f3c41b4f6fd1d5d52ac8bb10a725d"
 
 RPROVIDES:${PN} += "form-doc"
 

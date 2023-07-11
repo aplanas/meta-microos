@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.9.1"
 
-RPM_NAME = "typelib-1_0-Rest-1_0-0.9.1-3.1.aarch64.rpm"
-RPM_HASH = "c862b4eb987293aa0cb3ea37c4821a75b90a48ea640ed503842aeb638d8b2eb2213eeb20762917f2dbc0d87c230819ff6f5a2ec68b50db111374b76022f310d6"
+RPM_NAME = "typelib-1_0-Rest-1_0-0.9.1-3.2.aarch64.rpm"
+RPM_HASH = "bd6f0fe710176f21ec5824aa845613621dd4446730d8bde6bb345b9c4ceaa6f61a58977212bf9afd46d206710424a943cc82240d9bb3ea542b003a7c4a7c67a2"
 
 RPROVIDES:${PN} += "typelib-1-0-Rest-1-0 \
 typelib-Rest \

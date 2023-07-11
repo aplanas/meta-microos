@@ -10,8 +10,8 @@ LICENSE = "MIT & MS-PL"
 
 PV = "6.12.0"
 
-RPM_NAME = "mono-winfxcore-6.12.0-5.3.aarch64.rpm"
-RPM_HASH = "8ee356da1110283b96ecf89838ac8d2d41ef0c6d65378f132e5a4094f5e899330d6fd4c7481d1ca388744c1cfd9352e238a769c5f76127df47b453fa0b072b5c"
+RPM_NAME = "mono-winfxcore-6.12.0-5.4.aarch64.rpm"
+RPM_HASH = "f476e04d75c6073a2a6ea594a660a11dd97a4d96ef5b921131e7f077f09bcbb8ef43b9a745ec47f16c5e4909674760ad6f4bc520e90a5a3756a9523f354fd993"
 
 RPROVIDES:${PN} += "mono-WindowsBase \
 mono-winfxcore"

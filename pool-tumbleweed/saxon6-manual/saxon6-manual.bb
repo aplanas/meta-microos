@@ -4,8 +4,8 @@ LICENSE = "MPL-1.0"
 
 PV = "6.5.5"
 
-RPM_NAME = "saxon6-manual-6.5.5-16.6.noarch.rpm"
-RPM_HASH = "207130c7bbf57965726f8200e871377e3b7b5a9c0c927a025add5b2b631cf1b465a67b96dab9b9c5606b5e3b74b8b20b8a5751487e5c947bea7580de6c74e2b2"
+RPM_NAME = "saxon6-manual-6.5.5-16.7.noarch.rpm"
+RPM_HASH = "f2a55ef242bfdfecf36d2a37966dae7e8e6a9d8fda62ccb6077dfc4188427119e331b862fd03634640266529ee0d6425662fa8468e2955cbe818db1409826e6a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "saxon6-manual"

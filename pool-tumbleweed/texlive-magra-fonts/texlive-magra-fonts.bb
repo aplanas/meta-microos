@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-magra"
 DESCRIPTION = "The  separated fonts package for texlive-magra"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.0.0.0.1svn57373"
+PV = "2023.208.0.0.0.1svn57373"
 
-RPM_NAME = "texlive-magra-fonts-2023.201.0.0.0.1svn57373-52.1.noarch.rpm"
-RPM_HASH = "0e43a736b985cf5b6c4d632963fe2c041e22b27f815eb85044aafe0e418836eeb78b380aca8dda72d1e9c23e348b901d2328b62f3171b45a6b38eace1f3b6990"
+RPM_NAME = "texlive-magra-fonts-2023.208.0.0.0.1svn57373-53.1.noarch.rpm"
+RPM_HASH = "d3cf2c5fd0a3b058118f5a939edd93b45a96773611ab16433e5793bde3a1c7eb55c3a6a0051f3db2ebeb3dbfcb2a3e09a54f6b56404f6ef0af79a7e20b96aacf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

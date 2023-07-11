@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
 PV = "7.3.16"
 
-RPM_NAME = "R-spatial-7.3.16-45.2.aarch64.rpm"
-RPM_HASH = "2e7a1cc27d95a909b1471b0f384a2632a3772559a88e4da3b3ecae81bfcc0c715482890e9116cded2f2751478a8e51d5f21130052af547ce3dae5c09ecde5042"
+RPM_NAME = "R-spatial-7.3.16-46.1.aarch64.rpm"
+RPM_HASH = "a26b80476f698cc1fcb9a5d35b9e8c70ea223e7cbdd580bae401ac758c58a7045ebab2e5aa597aba409ee853776066abe6ff12004f8af31c0c501849606381bc"
 
 RPROVIDES:${PN} += "R-spatial"
 

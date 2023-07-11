@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "7.1.7"
 
-RPM_NAME = "python39-pycxx-devel-7.1.7-1.6.noarch.rpm"
-RPM_HASH = "54255bbe1ae3e7987a69f8709e8867a209ed0446b7dad892f60ccd8a32c3912fa837fff419e67f431e8f5cf83ced714411664be33506d94330aa6e4e3b58d981"
+RPM_NAME = "python39-pycxx-devel-7.1.7-1.7.noarch.rpm"
+RPM_HASH = "617b65912bacc42ff2001e7e23d678442b23fa6dfd1fc9672d1052f16f9b398c3e5d4a3557a79d4bf76c0343084edeb22eb0bdd1f9c7da2073c4f9f7b9c638e0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-CXX-devel \

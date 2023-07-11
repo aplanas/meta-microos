@@ -5,8 +5,8 @@ LICENSE = "Zlib"
 
 PV = "1.2.13"
 
-RPM_NAME = "minizip-devel-1.2.13-4.1.aarch64.rpm"
-RPM_HASH = "631ee5a210143a7c0ae39dfe0585d681ef3c90e20ce277e9ffb0ea732f9f3e515eb38c61c510cbbc7d820cff37a5195d30edc0f946187a5d78d1ce8815d84fbc"
+RPM_NAME = "minizip-devel-1.2.13-4.2.aarch64.rpm"
+RPM_HASH = "4a306fa70673c72e6078e5ee1d2f3f282e7f67e05d737811b0e8c1e56af3831ec640bd4661a7a6a89e720d5e20e5686cdc4c45c129188249f804e926a317826c"
 
 RPROVIDES:${PN} += "minizip-devel \
 pkgconfig-minizip"

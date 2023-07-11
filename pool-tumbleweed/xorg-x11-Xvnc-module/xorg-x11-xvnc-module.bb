@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only & MIT"
 
 PV = "1.13.1"
 
-RPM_NAME = "xorg-x11-Xvnc-module-1.13.1-3.1.aarch64.rpm"
-RPM_HASH = "b9a80a46caca7b3f60198bb331ae6fe96918035d8afae0b8bae806d5bc7a8916e34e7032f385ff05f31a011824a30c40da58bbf5d1196fc0fb6dca8eb6aaefa7"
+RPM_NAME = "xorg-x11-Xvnc-module-1.13.1-3.3.aarch64.rpm"
+RPM_HASH = "aecfb275ecc27253870347d6a51d48a2c38f2635caed548c92f062eb9c8f16d53642b4f9e12ef45a949ce9d0c6548e5c1ef4728e722fa6aa0560197275a37b4d"
 
 RPROVIDES:${PN} += "libvnc.so \
 xorg-x11-Xvnc-module"

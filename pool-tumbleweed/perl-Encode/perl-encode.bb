@@ -26,8 +26,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "3.19"
 
-RPM_NAME = "perl-Encode-3.19-1.2.aarch64.rpm"
-RPM_HASH = "55664efced9aa2297a8704bc49d303cb6ea2d6c7b5beb3e3e12b1f427d6efe6f34729808d770e959ee3d1360362203074f013fe506c253bef7cbcf296028ef23"
+RPM_NAME = "perl-Encode-3.19-1.3.aarch64.rpm"
+RPM_HASH = "811604827ad6a796d9a1c092f803f1ecfdfcc40464e913a3d689b26e17effa36b708665b911a217e668033145c78a621e450fa6d05f5d1f1667e6e551bcc7312"
 
 RPROVIDES:${PN} += "perl-Encode \
 perl-Encode--Alias \
@@ -60,7 +60,7 @@ perl-encoding"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-parent"
 
 inherit rpm

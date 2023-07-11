@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "1.9.3"
 
-RPM_NAME = "libspatialindex6-1.9.3-2.9.aarch64.rpm"
-RPM_HASH = "9df41272f670f0d693b934a74522ec924b7c8f08a6d52c8e9a5b1e0fc0c36d303bad2d6b1454359ead32c79ab90b79ac89c1146e5cd88a53cdfe3b19b09d1aad"
+RPM_NAME = "libspatialindex6-1.9.3-2.10.aarch64.rpm"
+RPM_HASH = "745d796d2d3043a7207558c06ad2c6e4322f2ff49723123552fad3bedd8596d697e1bc66fa60d6b3268f3184297289cf957fe8fe1115d7a55889eac9ab7a1645"
 
 RPROVIDES:${PN} += "libspatialindex-c.so.6 \
 libspatialindex.so.6 \

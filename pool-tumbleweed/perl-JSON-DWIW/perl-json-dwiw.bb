@@ -19,8 +19,8 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.47"
 
-RPM_NAME = "perl-JSON-DWIW-0.47-13.37.aarch64.rpm"
-RPM_HASH = "6b4f23f39b47b588f9adaa60258fd7859e89f385009121ec09ada223ac64e76cc8c00629b9d00c21a2a0e34907f873dff617a7586674d91ac3e0fe3fc0aca4ec"
+RPM_NAME = "perl-JSON-DWIW-0.47-13.38.aarch64.rpm"
+RPM_HASH = "428951f9badb3870ff921f62908f6f36c2c2b7999c09eb4da5a945eea964f6dd1610be5a0ae21f5ab02773120928e7ec2b927573014ba47400046d9ee95636ca"
 
 RPROVIDES:${PN} += "perl-JSON--DWIW \
 perl-JSON--DWIW--Boolean \
@@ -29,6 +29,6 @@ perl-JSON-DWIW"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

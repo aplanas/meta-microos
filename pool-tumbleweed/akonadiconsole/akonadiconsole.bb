@@ -4,10 +4,10 @@ Akonadi. This utility exposes Akonadi internals, and can be useful \
 for debugging."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "akonadiconsole-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "c109ef5adddd51ad47660c278c445210ba8bd648cbb7ed20e0d7160c8c882b1b4623cadddc58d1b00a46df0d5165777804803f33eea90af2479241cb735fdfda"
+RPM_NAME = "akonadiconsole-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "af7b94b236f605039f3d59950d343cec51477824bf3530cf0fd37187eeeaeef5a13954a1930bfbc321b1db50a358feb33035d71df7f8198957565d816eac0b15"
 
 RPROVIDES:${PN} += "akonadiconsole \
 libakonadiconsole.so.5"

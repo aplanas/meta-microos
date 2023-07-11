@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.11.2"
 
-RPM_NAME = "ocaml-qtest-devel-2.11.2-2.1.aarch64.rpm"
-RPM_HASH = "0e284c580d28da2d0aa61b8ec8b2b0465eb6f35144c2e81bd9053ab3534fbd37bd2958a9b1ae2f7f5e45a790369d21c3337aed6cda2cbdcd8b83f4acb4daa8db"
+RPM_NAME = "ocaml-qtest-devel-2.11.2-2.2.aarch64.rpm"
+RPM_HASH = "7acb9dc6208b05b755f8e415dea48371550e8f0c0d16277d82aefffffe21f723e58b017b1f5faa755c13a065b98b3015b527f40d05dfb6cc997afc1074e31bbd"
 
 RPROVIDES:${PN} += "ocaml-Qtestlib \
 ocaml-qtest-devel \

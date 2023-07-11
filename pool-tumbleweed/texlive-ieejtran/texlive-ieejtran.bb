@@ -4,10 +4,10 @@ the Institute of Electrical Engineers of Japan (IEEJ) \
 transactions journals and conferences."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.19svn65641"
+PV = "2023.208.0.0.19svn65641"
 
-RPM_NAME = "texlive-ieejtran-2023.201.0.0.19svn65641-52.1.noarch.rpm"
-RPM_HASH = "e4ae658fd1be56083a2fcc82aa48c91ecbb4e37b2cf32c4030f9e0e60082e96eca795c7d30c5056f46a66a769d087dedbdef7a00b4fc69260384bc9acafb62f9"
+RPM_NAME = "texlive-ieejtran-2023.208.0.0.19svn65641-53.1.noarch.rpm"
+RPM_HASH = "8c4ece5721630e3b289776f1aa1c18f3ff8e88bf5d09a5c793d1a8c1f2f2be92bc1665f5ed5c611bf7eb6cded844be6d0fa838f5398d7c155cbd35a46f46ea3a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ieejtran"

@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.20.6"
 
-RPM_NAME = "libgee-devel-0.20.6-1.3.aarch64.rpm"
-RPM_HASH = "d06df943c609546e658e4ca317596ffe027bd3b6a91448754df16ca3d80b697a91a67edc16e2492dc549d4dbed99ee8535686f576698248f7138a17dbf04f4fd"
+RPM_NAME = "libgee-devel-0.20.6-1.4.aarch64.rpm"
+RPM_HASH = "1ebca0859add150b9cd7623ec0300ebb6ffad5a773fa9d7f380d2e435e40dc4d7f843b36524c67ab081ac78f4db758a7103591e5e73751df154e976f3dbb4983"
 
 RPROVIDES:${PN} += "libgee-devel \
 pkgconfig-gee-0.8"

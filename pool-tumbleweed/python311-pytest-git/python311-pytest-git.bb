@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "1.7.0"
 
-RPM_NAME = "python311-pytest-git-1.7.0-2.13.noarch.rpm"
-RPM_HASH = "ae07debbd286146205c7a3137667c766a43401a02aed8757b9eea44b7d334cf2c89c3a4b7c4baa6c576ab4819a8583ab4fdef9db507985ef652761be783de6d3"
+RPM_NAME = "python311-pytest-git-1.7.0-2.15.noarch.rpm"
+RPM_HASH = "3e3129c2647c6dd48d7081bae40b1169f32a6ec82f6d0502dbf9f63699682884631e29ed38331c5f320bf2a5c09b731391f6187d5e6d7083ae76c716e209b07c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pytest-git \
+RPROVIDES:${PN} += "python3-pytest-git \
+python3.11dist-pytest-git \
 python311-pytest-git \
 python3dist-pytest-git"
 

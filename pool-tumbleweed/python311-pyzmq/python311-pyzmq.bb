@@ -5,10 +5,11 @@ LICENSE = "BSD-3-Clause & LGPL-3.0-or-later"
 
 PV = "25.0.2"
 
-RPM_NAME = "python311-pyzmq-25.0.2-1.1.aarch64.rpm"
-RPM_HASH = "7e13297de75eaaaeef1748c068d180594c0fb199b4d55ce79a46ef8da53dcfe4d075a41acfc495dbf60d1b639563741a9801ac1fa98ea22726b108423b236fe1"
+RPM_NAME = "python311-pyzmq-25.0.2-1.3.aarch64.rpm"
+RPM_HASH = "e1431d6ede7c18f2947a9c019cf0efae53706a7a47bd42cc5a88f1773e5aafb96757b08cefa07176b10325661de1917f58816022610542ee9e12ec9986c824b7"
 
-RPROVIDES:${PN} += "python3.11dist-pyzmq \
+RPROVIDES:${PN} += "python3-pyzmq \
+python3.11dist-pyzmq \
 python311-pyzmq \
 python3dist-pyzmq"
 

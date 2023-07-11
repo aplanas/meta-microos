@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.13"
 
-RPM_NAME = "clzip-1.13-1.7.aarch64.rpm"
-RPM_HASH = "4d0832ca54aab57acbfee1bef3f01899ca9b158603d03a415dc00ab260d2ed5b05e35b6238dd7a31ab6d060c5db15be06259f92d882d400469817fb38e039e55"
+RPM_NAME = "clzip-1.13-1.8.aarch64.rpm"
+RPM_HASH = "3733ebe19ea540710a884a424a7bc5bb034e34070dcdfd232e78b7eb9e3f43dd6210ce164137ec4319e47cae2c94f9d7f1dae7ad77b8ecc78db6b25b1eb87a4b"
 
 RPROVIDES:${PN} += "clzip"
 

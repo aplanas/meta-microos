@@ -25,11 +25,12 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python311-azure-security-attestation-1.0.0-1.8.noarch.rpm"
-RPM_HASH = "f9f156bd9c25b055d9fe34cfb5ebd8c7ae085a738a9dedd762ea7c1edfe709095aadd01da15339aab9b9a896260d7ac65740db53ac5cf389afffbe481dcd6841"
+RPM_NAME = "python311-azure-security-attestation-1.0.0-1.10.noarch.rpm"
+RPM_HASH = "dd3d4f798fc6cbfcc4ac7ddb0c226470e22eb2ccc087b2e31e3a58f440a1e6cf337ddbeb99e289ddbf620f7700b16e1183a8991133e9466217e5027e00c1e885"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-security-attestation \
+RPROVIDES:${PN} += "python3-azure-security-attestation \
+python3.11dist-azure-security-attestation \
 python311-azure-security-attestation \
 python3dist-azure-security-attestation"
 

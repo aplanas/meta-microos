@@ -6,11 +6,12 @@ LICENSE = "Apache-2.0"
 
 PV = "1.5.2"
 
-RPM_NAME = "python311-jsonpath-ng-1.5.2-1.9.noarch.rpm"
-RPM_HASH = "5955006108d5939c548f4300bf68f3edc9fe062d2424a28921d15edf5f3240638aa8371c8d85e548d5b3bdac0e639b3170d0465d6a5054ae3974906da31d5e01"
+RPM_NAME = "python311-jsonpath-ng-1.5.2-1.10.noarch.rpm"
+RPM_HASH = "6670c169e0100707598dc35651e702c0011ba98c7b8e4b5a7f67e64b403e71309d0e7662cb202b276af6ba936d101b3a07e1473f5813d14eae98f1fcdfd2577f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-jsonpath-ng \
+RPROVIDES:${PN} += "python3-jsonpath-ng \
+python3.11dist-jsonpath-ng \
 python311-jsonpath-ng \
 python3dist-jsonpath-ng"
 

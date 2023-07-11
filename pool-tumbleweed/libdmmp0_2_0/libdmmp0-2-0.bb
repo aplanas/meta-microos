@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.9.5+68+suse.d1b6a1c"
 
-RPM_NAME = "libdmmp0_2_0-0.9.5+68+suse.d1b6a1c-1.1.aarch64.rpm"
-RPM_HASH = "4631fb95ad45c453900bfff1c93b455c0087b1fb7a9ab81db86a3db3b29de5f8b6bb7db68834f3e4aeb0fc7cfa4257f1411b10445205408b4f927ec7fc81f829"
+RPM_NAME = "libdmmp0_2_0-0.9.5+68+suse.d1b6a1c-1.2.aarch64.rpm"
+RPM_HASH = "8cc270f542dd8658b47c4288c8fac0ea2072186eabc69d64b46dbce279e2f765798353bc54549cfae18128ba877a7abaf9bb7f2a6364e2fc398e4b448838a48c"
 
 RPROVIDES:${PN} += "libdmmp.so.0.2.0 \
 libdmmp0-2-0"

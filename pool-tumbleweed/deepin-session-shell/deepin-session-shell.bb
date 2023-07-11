@@ -13,8 +13,8 @@ LICENSE = "GPL-3.0+"
 
 PV = "5.5.48"
 
-RPM_NAME = "deepin-session-shell-5.5.48-1.4.aarch64.rpm"
-RPM_HASH = "915f363069a03402e68aec75e36df3e52ee4a954685dd1155b7763b7cc34f84d12f3da6c6e12a86becaba14e17bac013f04d96f9bb34cad249e21c369d1ad478"
+RPM_NAME = "deepin-session-shell-5.5.48-1.5.aarch64.rpm"
+RPM_HASH = "a1a768783cb875a3fd47a73b9b4a3be4b56fcfac6545db4a17dff31d5f7f4cb3c2957528ffe5a07c203084590ddeee65aa8a0ac66269a165bf4cd2ba5711b40f"
 
 RPROVIDES:${PN} += "deepin-session-shell"
 

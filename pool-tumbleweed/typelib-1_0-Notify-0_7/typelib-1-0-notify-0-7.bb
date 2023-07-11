@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.8.2"
 
-RPM_NAME = "typelib-1_0-Notify-0_7-0.8.2-1.3.aarch64.rpm"
-RPM_HASH = "36ecc6f770dfca7ce55a679ffbdf8a0d44ded7bbb81f0ff024cee38a69b98999eb14700d5dea10ffe888dce37388e6fd74ba1f11bdff82f77af2c94950836a39"
+RPM_NAME = "typelib-1_0-Notify-0_7-0.8.2-1.4.aarch64.rpm"
+RPM_HASH = "e1e8628609a03783b91410acc98e6cbecd0c11b204ceb39bc7669e9f009cfbc07f24a0d07b9f512c069eac31a070da94c91ed63d9018ac672d8c29f0143d934e"
 
 RPROVIDES:${PN} += "typelib-1-0-Notify-0-7 \
 typelib-Notify"

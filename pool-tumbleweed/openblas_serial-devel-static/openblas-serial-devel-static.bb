@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3.21"
 
-RPM_NAME = "openblas_serial-devel-static-0.3.21-5.3.aarch64.rpm"
-RPM_HASH = "2f722b4e274c92449cf3bab32c673c950b88ba3574da9410aedf8d79c2787c153c9824831b4a4ff7f02875938199153909761c6f8a8093af975d1328b6a3e9ca"
+RPM_NAME = "openblas_serial-devel-static-0.3.21-5.4.aarch64.rpm"
+RPM_HASH = "5ca45dc6b2c465e0a002749a9b712fb2bfac64b97b5a4c0f60402b46d9d73154df839f60fdbd78af40c5f431c7d8e42e8609f88699b551f019e741310983dbfb"
 
 RPROVIDES:${PN} += "openblas-serial-devel-static"
 

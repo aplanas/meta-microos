@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.18.1"
 
-RPM_NAME = "xfdesktop-4.18.1-1.3.aarch64.rpm"
-RPM_HASH = "cb9da39c6b5e1cf67961a96b18e7094b0fbf1c205cad69da6ff334c4d19ea5490e69f8f8d9918823c6247606d17b15ef57f500ddc76a0375dab5aa1f361d7f0d"
+RPM_NAME = "xfdesktop-4.18.1-1.4.aarch64.rpm"
+RPM_HASH = "ee00e4cb83ee9d4583942a8b0073582a8009bc501b0ce58e5f7fa2fb4101b947f4965183fdd7227c1bde6996b3201914aa72805e049e4e5474c12a6875140462"
 
 RPROVIDES:${PN} += "xfce4-desktop \
 xfdesktop"

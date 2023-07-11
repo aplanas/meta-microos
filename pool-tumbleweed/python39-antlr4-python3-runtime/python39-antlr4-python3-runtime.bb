@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.9.3"
 
-RPM_NAME = "python39-antlr4-python3-runtime-4.9.3-1.6.noarch.rpm"
-RPM_HASH = "f73c7a582838923cb312edbc628ec6aaf91dfaf6250a17c71c44b86d704dd853404eec7267489fa532c6f5a803cf5d52dc7dd204297a1e1692c59591fe961825"
+RPM_NAME = "python39-antlr4-python3-runtime-4.9.3-1.7.noarch.rpm"
+RPM_HASH = "e954e1fe487bcb781e51a5bc5a9b8d5e75e9dcaf78315f429b9f6d53a45799f4a44ed57cc75bac170a4aecf6b085c8a5a15c04dcb4545cf223474897cf706150"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-antlr4-python3-runtime \

@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "5.2.1"
 
-RPM_NAME = "giflib-devel-5.2.1-3.3.aarch64.rpm"
-RPM_HASH = "cea664f5137f4b9516eb724ee2c3aaf2ef00ccdbcd9c702faf4ed5ea68a1fcead555609d78773d4938fe94222444e597aaf12e57476eb51cc64e0bf6acb01baa"
+RPM_NAME = "giflib-devel-5.2.1-3.4.aarch64.rpm"
+RPM_HASH = "49d296763754e4ad2038ca621f9faad5db57d00f4932510876315391e0c28061713d2469129f85f6537984d3814633c075e09b17eca4dcd6308e99f7d0f7d94b"
 
 RPROVIDES:${PN} += "giflib-devel"
 

@@ -4,10 +4,10 @@ using open standard protocols (RTP/RTCP, RTSP, SIP). These libraries \
 can be used to build streaming applications"
 LICENSE = "LGPL-2.1-only"
 
-PV = "2023.01.19"
+PV = "2023.05.10"
 
-RPM_NAME = "libUsageEnvironment3-2023.01.19-1.4.aarch64.rpm"
-RPM_HASH = "e59b95828fff59de9c4b20e2364fef4be43d513dc2dc1de6510416e3834d74f6de789ec26221028193a58eee68de9ba9a3e0133a96fc269c3b7ceee3b7521b92"
+RPM_NAME = "libUsageEnvironment3-2023.05.10-1.1.aarch64.rpm"
+RPM_HASH = "0b70c4f4f70e39d99b7fe5038cbce1dc98a265c8e41eff548e95f53a503d3f38e0eb6c764e8256395632bf59d9cd98581caabcbad66f48c0d2968a252d3175ff"
 
 RPROVIDES:${PN} += "libUsageEnvironment.so.3 \
 libUsageEnvironment3"

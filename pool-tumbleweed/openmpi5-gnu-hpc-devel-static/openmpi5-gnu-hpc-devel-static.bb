@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.0.0"
 
-RPM_NAME = "openmpi5-gnu-hpc-devel-static-5.0.0-2.3.aarch64.rpm"
-RPM_HASH = "671507fa03b657d4bd89338eef77a5d4777d328e5f567e32115c14919294717a7ea21f8f03de078accbe58277f0db1eb0f4bc50ff92faebc7c23e3fefe7de8cb"
+RPM_NAME = "openmpi5-gnu-hpc-devel-static-5.0.0-2.4.aarch64.rpm"
+RPM_HASH = "5903c2c30964e7a1adc737481a65b98e48018b010679b21dd88c3f92a3d00373c2f513da5e7fc94bc37801ae4cda713f7c484917a27d4d4d6860dc86a372e330"
 
 RPROVIDES:${PN} += "openmpi5-gnu-hpc-devel-static"
 

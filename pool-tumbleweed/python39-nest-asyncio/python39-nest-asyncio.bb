@@ -15,8 +15,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.5.6"
 
-RPM_NAME = "python39-nest-asyncio-1.5.6-1.3.noarch.rpm"
-RPM_HASH = "61384cfdb5e66d8cd85077d13b9df9e7cdc9b0c4976410b52aa0cc4f6066d7b0aa61fc67e1b1da1cabc67583d5d9ea21d5a354d500fadbd2cf9a99f5977c395e"
+RPM_NAME = "python39-nest-asyncio-1.5.6-1.4.noarch.rpm"
+RPM_HASH = "3cd3defa07ec3c17b5b9586315b79b02da1eb2d64aa55a7d4f333cac10d073905e56fe2b56f5c86cd7e5e1b5d37b759e3f9cbbc5728d5533519e5530b4e971d6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-nest-asyncio \

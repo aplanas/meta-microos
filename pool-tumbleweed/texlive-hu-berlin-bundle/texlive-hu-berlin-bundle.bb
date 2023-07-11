@@ -10,10 +10,10 @@ hu-berlin-base.sty which contains all relevant code for \
 documents and documentclasses of the bundle."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1.1svn57580"
+PV = "2023.208.1.1.1svn57580"
 
-RPM_NAME = "texlive-hu-berlin-bundle-2023.201.1.1.1svn57580-52.1.noarch.rpm"
-RPM_HASH = "21ada568c452ba3fcad047c54be4289abf0de426c501b9f2c5fc5c1dd612fdfc63627931a93105663ffb29653e1b840cb941fe42d2be6a223069031ae931e929"
+RPM_NAME = "texlive-hu-berlin-bundle-2023.208.1.1.1svn57580-53.1.noarch.rpm"
+RPM_HASH = "675463de9492b2e3f7ce2e468a6bb61875a7d2fe095acc968dfb8ccde5c41b18f626e861d31a820e83f2059c1b10d8b9d8a76ad9d667c5f71eb22ef9fe744534"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hu-berlin-base.sty \

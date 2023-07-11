@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "2.4.0"
 
-RPM_NAME = "python310-convertdate-2.4.0-1.1.noarch.rpm"
-RPM_HASH = "9c42a454b2e8e493c7d3cf4bdd088b229c93f49694fdf418436d65d83466634a0b3966d1b2fb744e2e757f815661d0371537de6c6a61dedee25e3082587bd896"
+RPM_NAME = "python310-convertdate-2.4.0-1.3.noarch.rpm"
+RPM_HASH = "8feab9d5b239228700aef203bc79709d3676d0ace6db5e3877dac16a981dc1b04aaee81d1c6d53f8e5245f73b56b7afa2bc1e8968be87043ce4274faf2b5ac5d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-convertdate \
-python3.10dist-convertdate \
+RPROVIDES:${PN} += "python3.10dist-convertdate \
 python310-convertdate \
 python3dist-convertdate"
 

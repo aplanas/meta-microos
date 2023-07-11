@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0-with-LLVM-exception & NCSA"
 
 PV = "13.0.1"
 
-RPM_NAME = "clang13-13.0.1-9.1.aarch64.rpm"
-RPM_HASH = "c824e45f6fb69fe77dcea5470544248067bc7e32d4726f7d8b173779188e4feb59dba216f721c2ad277d33b40df9da7a1936d9ad6b797df1b4201dca2b697806"
+RPM_NAME = "clang13-13.0.1-10.1.aarch64.rpm"
+RPM_HASH = "2e0e61f09cbb4df7b57702c11915b66f77fbb4389e58f3e67e5c40dcceff7bdc2642cb84c0af1f2ecdc4a619071b720d356dac92114e5ef5aa380acd900f6187"
 
 RPROVIDES:${PN} += "clang13 \
 libclang-rt.asan-aarch64.so \

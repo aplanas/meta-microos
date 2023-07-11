@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3.21"
 
-RPM_NAME = "libopenblas_serial0-0.3.21-5.3.aarch64.rpm"
-RPM_HASH = "9b82849c363fa64edd0f5f6037a3a1d2faa737696f8fd392ee8e4508230a8beab0d06aae804defc0698a13520aba9d13229717f21a89061edfc4e1dc99c3f6a1"
+RPM_NAME = "libopenblas_serial0-0.3.21-5.4.aarch64.rpm"
+RPM_HASH = "490a3d319e68df6ee7ab3ecffccccb440b6050d51baea7de088a80b3f0de9405a453cf54d77cb6e1f49c6e919d4b7e9230d92cb27159259bfa3ae574a3ae9091"
 
 RPROVIDES:${PN} += "libopenblas-serial0 \
 libopenblas.so.0 \

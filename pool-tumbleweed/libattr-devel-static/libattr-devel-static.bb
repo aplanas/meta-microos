@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "2.5.1"
 
-RPM_NAME = "libattr-devel-static-2.5.1-1.20.aarch64.rpm"
-RPM_HASH = "69c453ac83a250bf3c11a446b8e3ba6331d2950cecc423449e2772eef386dae9d9ee445d3a3abc1e960abe7a55d9d123878ef00751d45762d590d798a20174f1"
+RPM_NAME = "libattr-devel-static-2.5.1-1.21.aarch64.rpm"
+RPM_HASH = "9efbb2a28198ac5461780277d95bcff11ce587cf064049cfac155aa368794db8a0a52f31d8dc4b5652acaf3e6da55fd9cb68d37dc445d01a029cd502c3ebd950"
 
 RPROVIDES:${PN} += "libattr-devel-/usr/lib64/libattr.a \
 libattr-devel-static"

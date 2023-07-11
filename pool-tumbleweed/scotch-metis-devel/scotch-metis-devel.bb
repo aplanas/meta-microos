@@ -5,8 +5,8 @@ LICENSE = "CECILL-C"
 
 PV = "6.1.0"
 
-RPM_NAME = "scotch-metis-devel-6.1.0-2.9.aarch64.rpm"
-RPM_HASH = "e5bda5be0e232d3218639ce13ccba72a4a95baf85ab6a655bc9c54b62d9df6b5909eee52f1abafbaf4c98b4f7df0118b45d6f805548aa27962d222696b5bf8f2"
+RPM_NAME = "scotch-metis-devel-6.1.0-2.10.aarch64.rpm"
+RPM_HASH = "1a73eae010d94e87570f9205aabe8fc5b37b333a90cbcfa66602b8382f8f513c5c9fc251edc5110b419d112ba1f5407994480971c96c5eb2e6b985346136f40b"
 
 RPROVIDES:${PN} += "scotch-metis-devel"
 

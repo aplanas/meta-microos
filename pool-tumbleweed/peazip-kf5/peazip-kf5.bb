@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "9.2.0"
 
-RPM_NAME = "peazip-kf5-9.2.0-1.1.noarch.rpm"
-RPM_HASH = "2312897acf484806e44069ebba72182e25284a9ff4ed758b41fcd48f876eca5d6643130df0fd6ebc0eae78b90d5e14a764dd955db349c87291fff44252f24d5f"
+RPM_NAME = "peazip-kf5-9.2.0-1.2.noarch.rpm"
+RPM_HASH = "468c0b5f7df0e6e530eed7fd992f2e3c3c55a6ebc61619a3ee78db78e66e0cc20c2b4ac51fc355514168ddf3b1f374721944cbe84729f43ce054b2d812e766a4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "peazip-kf5"

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2023.04"
 
-RPM_NAME = "u-boot-firefly-rk3399-doc-2023.04-2.1.aarch64.rpm"
-RPM_HASH = "5908963bf6ae923eed9ec756e4c307b14edd92e3c0b4f9939da14f74e091fd471f6b85e73e5d37fca6430d8fe363cec1092654b34b587e95c8238dcb82829434"
+RPM_NAME = "u-boot-firefly-rk3399-doc-2023.04-2.2.aarch64.rpm"
+RPM_HASH = "817c4540e6e09daa452ae8d697d04cb8e24a85347b08bdc11bc5f82bd1be31f5d34431a9334dedbeea7c77e29b61d246d090977958679beed8d9e421fd468470"
 
 RPROVIDES:${PN} += "u-boot-firefly-rk3399-doc"
 

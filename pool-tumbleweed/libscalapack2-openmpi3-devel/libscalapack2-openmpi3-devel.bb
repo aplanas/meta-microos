@@ -4,8 +4,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2.1.0"
 
-RPM_NAME = "libscalapack2-openmpi3-devel-2.1.0-9.11.aarch64.rpm"
-RPM_HASH = "77463998189b32aa25a8f9da39af220a850ef228d0275cdd820c9a821b76cd94ea5f410136b86d1effa1f0f46ac407cbf48d7114a115ad60aada5afa244db048"
+RPM_NAME = "libscalapack2-openmpi3-devel-2.1.0-9.12.aarch64.rpm"
+RPM_HASH = "3622a927ca95e27b08e8501ad249e1a2053f2e0eb49a32a635cd4c44d91baea4ec7dd5a810bf1073599f8a51f5e1c3b03b308af8ae73ffc8961a28230f7a1da6"
 
 RPROVIDES:${PN} += "libscalapack.so.2.1.0 \
 libscalapack2-openmpi3-devel \

@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "2.8"
 
-RPM_NAME = "bscalc-2.8-1.1.noarch.rpm"
-RPM_HASH = "64ff16f040e041d040ce447f21d1e922bad05749497c3fd4aff24d3daaa81a9efd22a05ed6f586625033e85482b3fb8da55c4e06114cce98d216502f7db2f6ad"
+RPM_NAME = "bscalc-2.8-1.2.noarch.rpm"
+RPM_HASH = "16a3de07f137ac27a1bd8cce7bd63ff7c27560fc63f032e9116b9908fb49bba87400630bb2a958c0ee9f528c56b34c0b511009303799032b65fe39e9cda6e439"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bscalc"

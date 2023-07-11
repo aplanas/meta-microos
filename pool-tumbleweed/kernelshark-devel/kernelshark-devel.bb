@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
 PV = "2.2.0"
 
-RPM_NAME = "kernelshark-devel-2.2.0-1.3.aarch64.rpm"
-RPM_HASH = "c0d709ef52b351848363a808c0789adbb86106aab7978b56794ab84b158fa3111eb11f8c6c6fb5ec0de0c2f7d94557e8ecd18d9fe50779982321e7b9f4a5c4cc"
+RPM_NAME = "kernelshark-devel-2.2.0-1.4.aarch64.rpm"
+RPM_HASH = "f0b2df82a430c340ff91979e4a545bab1fbead2db7e0d983521a023ff62c6b15da92efe055d8cdf79aefba4e1a6c3333955f02af6c13c77f97941bea45309d3f"
 
 RPROVIDES:${PN} += "kernelshark-devel \
 pkgconfig-libkshark"

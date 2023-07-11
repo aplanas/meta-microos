@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-mafr"
 DESCRIPTION = "This package includes the documentation for texlive-mafr"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.0svn15878"
+PV = "2023.208.1.0svn15878"
 
-RPM_NAME = "texlive-mafr-doc-2023.201.1.0svn15878-52.1.noarch.rpm"
-RPM_HASH = "68b2bd9414e285c5f2f8bc0aa8edf01380b5ab429a5aecc0127b588e86c12586246b68cc1e6747992bbc674ba9c6c4cb42ac183cb3bf1fbda6d78814ff05d21a"
+RPM_NAME = "texlive-mafr-doc-2023.208.1.0svn15878-53.1.noarch.rpm"
+RPM_HASH = "3507ce67cc77bd63e8a73b14a01d28daa92cec2b5ecc660ee251929534216507254a1492d6c083829c96dd870a018e66385496ec990ea3d2b17973762e514f8b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-mafr-doc-fr;en \

@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.44.1"
 
-RPM_NAME = "python39-gobject-cairo-3.44.1-1.2.aarch64.rpm"
-RPM_HASH = "b0653a5514800513dac209401e3c960302c0eb445a35d9d2b4c66a971f33b3ad84a295bc028f1dc5fb19601c869a43061c3db2fb882eae27c724b68d2070f2da"
+RPM_NAME = "python39-gobject-cairo-3.44.1-2.1.aarch64.rpm"
+RPM_HASH = "c239e8de755af448048321ecec69f319aa91e92be66a6f9019401ec034d20b257af6b2764a11f07b3d85bb45917c59f7c551b326f45f6184cb141d35d699ce49"
 
 RPROVIDES:${PN} += "python39-gobject-cairo"
 

@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.1"
 
-RPM_NAME = "jakarta-slide-webdavclient-2.1-27.9.noarch.rpm"
-RPM_HASH = "3024cfa0930ada080c067674de078195abf4af45bba27c12bb8c7c39ed65ac0f9ad7cdbe982c0fd8574ed911242d1b3d4955b4fefb66e951fd028ba1a5a0649a"
+RPM_NAME = "jakarta-slide-webdavclient-2.1-27.10.noarch.rpm"
+RPM_HASH = "78c45489cdc03270c80090202e6fa24f82d5d2aaa2e3f6156ed5dd916a722187dcfb3f436d91b9179533e25e5955e465b29453e8b81e83231c1e95c91c86a8be"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jakarta-slide-webdavclient"

@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only & MIT"
 
 PV = "5.12.0.134.g4cebbfc"
 
-RPM_NAME = "collectd-web-js-5.12.0.134.g4cebbfc-1.4.noarch.rpm"
-RPM_HASH = "827b5ce7bb03971d2d6b3105eb47d278d15ce8520a6ca1ad9930aa044f846260531464f57f2d49b02baf5368331acab1dab6543eabced314439b06cdc9e6c95a"
+RPM_NAME = "collectd-web-js-5.12.0.134.g4cebbfc-1.6.noarch.rpm"
+RPM_HASH = "5177a50237a1559e3ba84fd77e4b435b89c70c73701840e246d20c7f65d84e2e23e0ba361c66f91eb8bce724263dfd6efe28fe4120bef0325ef5199b2670da33"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "collectd-web-js \

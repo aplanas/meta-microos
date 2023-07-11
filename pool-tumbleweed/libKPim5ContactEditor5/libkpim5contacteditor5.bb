@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides a library used for handling personal contac
 as part of the KDE Personal Information Management (PIM) software."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libKPim5ContactEditor5-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "552ec6240cd5427b070dc6873ed6188cd2cb0f24138c590ebf9ad5f3347d4fdd7c5b29253df7da3d5c06a05f8f960d4bfa833e934e324a321e478e1d72426223"
+RPM_NAME = "libKPim5ContactEditor5-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "157cf720c8ebb51faf3fa08eec4d625e5499b2ac17872c6269c178cee5f1d2d56ddd60aa5c00ba3e16b26809e01cf92e0ff9964e373dfcc9a085ae6a70a2a4ad"
 
 RPROVIDES:${PN} += "libKPim5ContactEditor.so.5 \
 libKPim5ContactEditor5"

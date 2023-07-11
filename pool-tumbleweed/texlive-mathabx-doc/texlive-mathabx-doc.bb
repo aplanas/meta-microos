@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-mathabx"
 DESCRIPTION = "This package includes the documentation for texlive-mathabx"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.208.svn15878"
 
-RPM_NAME = "texlive-mathabx-doc-2023.201.svn15878-52.1.noarch.rpm"
-RPM_HASH = "60779570f25a8e90c80cf1c4b3a14cc8b09e991793066ae255074347fd9ae2e41f3778ce7462384577d5260965fb5a1406630d8d197a25877aaa436c74b99347"
+RPM_NAME = "texlive-mathabx-doc-2023.208.svn15878-53.1.noarch.rpm"
+RPM_HASH = "d2aba016c62f1bf385a5de5718fc726e3a5e7c9a497417660ba03eed3f2d40df658552b85b3887a1281b1bc1d393ca3cfa476bf038c6f280973943e14f5f5862"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mathabx-doc"

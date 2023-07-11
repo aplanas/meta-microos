@@ -6,12 +6,11 @@ LICENSE = "Python-2.0"
 
 PV = "2.0.1"
 
-RPM_NAME = "python310-FormEncode-2.0.1-2.1.noarch.rpm"
-RPM_HASH = "dd418c01244541f141440d18ee864bd7a4ffadf779670cd9c979cd838f7d86fc0ab8dc2401c6123f1c06c3050597556cb8275ecdd03559c7ab7a4cb5783499e0"
+RPM_NAME = "python310-FormEncode-2.0.1-2.3.noarch.rpm"
+RPM_HASH = "4ff322a3323b8189aa266b581482226bb3263114aca9b7c166f1b611faaece30a629a6f417ae36df1d3b36540bf0b5bf0cb665e32a382c45b68255148cf22734"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-FormEncode \
-python3.10dist-formencode \
+RPROVIDES:${PN} += "python3.10dist-formencode \
 python310-FormEncode \
 python3dist-formencode"
 

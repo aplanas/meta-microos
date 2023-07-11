@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "9.4.0"
 
-RPM_NAME = "libvirt-daemon-plugin-sanlock-9.4.0-1.1.aarch64.rpm"
-RPM_HASH = "4199ded9e05f5e4712d8b1c2b7911f04f3f0a6f16c5d22a81147b81a45fb3f9e03b2c775030d8f9e55701fdf070cac67da0ae39f4718df78dd72a4d408e03d1d"
+RPM_NAME = "libvirt-daemon-plugin-sanlock-9.4.0-3.1.aarch64.rpm"
+RPM_HASH = "72eca55a1b46d607ce1644af546d9f7783a2ceaadb8430fe2c7008470700f8876e79a455b9079d6ae3b540fa2ff3c40c77936bbbb1721a140e5868c56f566157"
 
 RPROVIDES:${PN} += "config-libvirt-daemon-plugin-sanlock \
 libvirt-daemon-plugin-sanlock \

@@ -7,12 +7,11 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.0"
 
-RPM_NAME = "python310-requests-toolbelt-1.0.0-1.1.noarch.rpm"
-RPM_HASH = "c495531c45802d84e87c36e874f9aeb891a821a16464318bac9e40ebbc79b23c61b37aba7d410d73a20ba1057d318922a7300f14ea8a32166309bd7b8de7a736"
+RPM_NAME = "python310-requests-toolbelt-1.0.0-1.3.noarch.rpm"
+RPM_HASH = "9a8df0564c418ece4cd4bccbdce8230f409c539583c74729bb4bc91300347121b32d034956cf8bc52bc9d24e2885076ef8d7036b2ac66dca99a7f72ddb7d5b5d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-requests-toolbelt \
-python3.10dist-requests-toolbelt \
+RPROVIDES:${PN} += "python3.10dist-requests-toolbelt \
 python310-requests-toolbelt \
 python3dist-requests-toolbelt"
 

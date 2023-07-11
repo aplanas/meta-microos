@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "3.5.0"
 
-RPM_NAME = "casacore-devel-3.5.0-2.13.aarch64.rpm"
-RPM_HASH = "26c2d7bba7456dd4c6d8b258248cc60ea680c56739f069b8efc2844f53988d01449887297846c744a58483c1c3205b948aa43c20c4b60ed939f9404c5cf4d0e9"
+RPM_NAME = "casacore-devel-3.5.0-2.14.aarch64.rpm"
+RPM_HASH = "03aaa8e1e9658a4a86b5ebfb62ad3ac0df6933d0d813ffffff3b00d3cac99cfa01e36d009c954b73fc7ec33924e2a928ffced1e5d70a3248fe3e7c55f28e4736"
 
 RPROVIDES:${PN} += "casacore-devel \
 pkgconfig-casacore"

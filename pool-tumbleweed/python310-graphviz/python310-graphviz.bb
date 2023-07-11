@@ -13,12 +13,11 @@ LICENSE = "MIT"
 
 PV = "0.20.1"
 
-RPM_NAME = "python310-graphviz-0.20.1-2.1.noarch.rpm"
-RPM_HASH = "1e36cdb02174069942d48cfe0614ccb0473f1dce2127884c556bf2d4f3ae5c8558afb9b5eb7cc2a03c4e80323be624f5e2147d5594c490a4db88189baaaee71e"
+RPM_NAME = "python310-graphviz-0.20.1-2.3.noarch.rpm"
+RPM_HASH = "d7a9cc05682f3fa5824e128ec198a0c41221a5e6b60bd66cd0b65ee5c38fdd5f5a261f461dabc562420dbee6513fe88ea286d45a79dc9d1f1489f29bb104af38"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-graphviz \
-python3.10dist-graphviz \
+RPROVIDES:${PN} += "python3.10dist-graphviz \
 python310-graphviz \
 python3dist-graphviz"
 

@@ -25,8 +25,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.15.0"
 
-RPM_NAME = "python39-wrapt-1.15.0-1.1.aarch64.rpm"
-RPM_HASH = "86caf1e9d1639ab117abbc0c9a70e8f9eede1e234c25312dd13c738f690907820fc1bbebd19fbf1d24d4de56c498c5d64659a851fbc0e1c5df0e2dffb9b0ab64"
+RPM_NAME = "python39-wrapt-1.15.0-1.3.aarch64.rpm"
+RPM_HASH = "7c085d35f7b6ae42da059ecf1a555ee3b7f749c8e935cd4cf82af93b7a972f748e4997c969b3b33c2fdf9dded9f8b7fceaf41bed50f550762f34389ec63e81d6"
 
 RPROVIDES:${PN} += "python3.9dist-wrapt \
 python39-wrapt \

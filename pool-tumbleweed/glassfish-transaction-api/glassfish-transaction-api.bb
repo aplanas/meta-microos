@@ -4,8 +4,8 @@ LICENSE = "CDDL-1.0 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "1.3"
 
-RPM_NAME = "glassfish-transaction-api-1.3-3.10.noarch.rpm"
-RPM_HASH = "157599dfbd7ac3ac48b5382bcfac19946c4640d60169d53d8e73001ad2ec1e1b80c6ea501d36a392452168af60087eea1fe06d5a0b2699f0b71f3c706379cbd1"
+RPM_NAME = "glassfish-transaction-api-1.3-3.11.noarch.rpm"
+RPM_HASH = "8c6d508d73203dc829342283a1098b62eff8964f80190f0d28b45fc2d2a278007c541536614a5294367ae708b4a375d030edfc4702dd6026a2a5db2df6583ee5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-transaction-api \

@@ -1,11 +1,13 @@
 SUMMARY = "PipeWire JACK implementation"
-DESCRIPTION = "This package provides a JACK implementation based on PipeWire"
+DESCRIPTION = "This package provides an ld.so.conf file that makes all JACK clients \
+use the JACK implementation based on PipeWire instead of the original \
+JACK libraries."
 LICENSE = "MIT"
 
-PV = "0.3.71"
+PV = "0.3.72"
 
-RPM_NAME = "pipewire-jack-0.3.71-3.1.aarch64.rpm"
-RPM_HASH = "6a0d4c5f410fee962770ab74a4beccb0e315a26e18475a48179acd4f509c4391ad3dc0641e23fc8ff63fc9992752f5318425018ad2602ab72e5ebd1bf922f26d"
+RPM_NAME = "pipewire-jack-0.3.72-1.1.aarch64.rpm"
+RPM_HASH = "45b871999748f4623616b6a59c297cf4226757ab731534a50db2b05d97d193ef6e53cfb3a56cdabf651ce95dcd46fd2713188c20be7e630ba88557d11ddf77e3"
 
 RPROVIDES:${PN} += "config-pipewire-jack \
 jack-daemon \

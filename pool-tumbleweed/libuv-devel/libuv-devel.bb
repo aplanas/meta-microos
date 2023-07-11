@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "1.44.2"
 
-RPM_NAME = "libuv-devel-1.44.2-3.3.aarch64.rpm"
-RPM_HASH = "d41459c34ca309fb5e8b8774b9ae3609fdd47304327ea6d2fbb5ab2a05895a8b038e08674fad7f97bb9e79a81164bb453f9ebb1ea8d1f08db278efebd1ed8e9c"
+RPM_NAME = "libuv-devel-1.44.2-3.4.aarch64.rpm"
+RPM_HASH = "83d7bb224eb57ce2c550d30f31fadef029a232ffbc975dc0e9424b61f923aacaeafa7df93fc2c67a10a418ff5352ab2d68b33901f2b949649bf84955e4acc9a7"
 
 RPROVIDES:${PN} += "libuv-devel \
 pkgconfig-libuv"

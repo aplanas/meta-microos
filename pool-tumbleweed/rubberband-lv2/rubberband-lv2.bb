@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.1.0"
 
-RPM_NAME = "rubberband-lv2-3.1.0-1.3.aarch64.rpm"
-RPM_HASH = "bcf6eb1a55bc56f66827328d538f9022dc9e854361d0a73954e6048225f85b52c72a509a29fb1b4e6ea6f1c46df24a7bdfaa7192c12971fce24f05656c685897"
+RPM_NAME = "rubberband-lv2-3.1.0-1.4.aarch64.rpm"
+RPM_HASH = "c48fd495d1c85dec6ccbda04d7dd865e9a5c9c311d8e915056ce22fe4a5b1554fb2342db948b72304b05e69528cc19b5f720a23177e18e5088b5429d4e53af5a"
 
 RPROVIDES:${PN} += "rubberband-lv2"
 

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.5.1.0"
 
-RPM_NAME = "ghc-stm-devel-2.5.1.0-3.1.aarch64.rpm"
-RPM_HASH = "02ad578e5476751110876decc51e7a11e93afae87824a4573172d0f9dc7de51c5eb2100646f1cbc38122ed44c3b5031f773e5a59d9cbfd88ae8eb454a9dc986f"
+RPM_NAME = "ghc-stm-devel-2.5.1.0-3.2.aarch64.rpm"
+RPM_HASH = "246d1506c4a75737d86092ff893d5e1beb453b80ea0ac28b8e10f6d12b89b9f0b1d120d881dc6a07bc7ad29de0afb7935eb5eeb461cd5b1788a941f65fb030af"
 
 RPROVIDES:${PN} += "ghc-devel-stm-2.5.1.0 \
 ghc-stm-devel \

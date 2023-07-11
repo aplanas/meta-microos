@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.2.1.0"
 
-RPM_NAME = "ghc-unliftio-core-0.2.1.0-1.3.aarch64.rpm"
-RPM_HASH = "41b0c10f8d457e2d4615c27c63501dda919b19fe1f3e6c78bb0d71a1a8762863868738011337aa1a92d38d6b03cb93e896f88b97b62042385c1b19f105b93870"
+RPM_NAME = "ghc-unliftio-core-0.2.1.0-1.6.aarch64.rpm"
+RPM_HASH = "5a02bac002cfaf346bb4bc3336f70915b79a937f18051f0f52f041cc4ad2f609bf2678582945f377004b1a591b224e050745bedfd2c9e07e4e120917de6c9519"
 
 RPROVIDES:${PN} += "ghc-unliftio-core \
 libHSunliftio-core-0.2.1.0-AEtYfdyUWlJCLfz2d4hPbj-ghc9.4.5.so"

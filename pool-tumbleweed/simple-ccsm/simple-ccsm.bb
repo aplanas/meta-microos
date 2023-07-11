@@ -4,12 +4,12 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.8.18"
 
-RPM_NAME = "simple-ccsm-0.8.18-2.10.noarch.rpm"
-RPM_HASH = "fdf1056e658b3e46a36f98406230cfc0c839c983760c51d69b10df61306ca1e8e728d7b4e05b72e9bcafeeb3a52853fc056c555d6990cac4296198cebedf5697"
+RPM_NAME = "simple-ccsm-0.8.18-2.11.noarch.rpm"
+RPM_HASH = "29a606d2b0cf41747fe4e8482b62ae24e9b6a9edc20b925ad13f9f8fe6c43eb6f301534c54f128c93364091bc5ff5cc87b8f3cd78f8e5b69d68a2bbe8875a786"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ccsm \
-python3.10dist-simple-ccsm \
+python3.11dist-simple-ccsm \
 python3dist-simple-ccsm \
 simple-ccsm \
 simple-ccsm-kde"

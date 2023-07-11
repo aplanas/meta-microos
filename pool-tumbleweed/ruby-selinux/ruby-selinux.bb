@@ -8,8 +8,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "3.5"
 
-RPM_NAME = "ruby-selinux-3.5-2.1.aarch64.rpm"
-RPM_HASH = "90de4f1bd73ca4c6b53618bb34ea5b48e8e1bfa6fa6d3f26ff645684153e1c9d245021e59b1f0b0b327b86180901c7dbf8fce9a2d5dd7b252d0c1bdfc3fd089d"
+RPM_NAME = "ruby-selinux-3.5-3.2.aarch64.rpm"
+RPM_HASH = "fef53038e53ae5a054dc317f50029bd0ed647ef65f7f6bf032d3dd8c92ee5d42e052385a4e57e25c1eadc591379bcc1eae4cfb4382c8f4dcbf5fa4275a88186b"
 
 RPROVIDES:${PN} += "ruby-selinux"
 

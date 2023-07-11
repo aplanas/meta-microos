@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-hvextern"
 DESCRIPTION = "This package includes the documentation for texlive-hvextern"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.33svn65670"
+PV = "2023.208.0.0.33svn65670"
 
-RPM_NAME = "texlive-hvextern-doc-2023.201.0.0.33svn65670-52.1.noarch.rpm"
-RPM_HASH = "a2c5d469e798345e8f4dc7aa6cc6dc0f30d237d3ea531e528582789363087bf87840de193c5da6853b57370b643c928535c3c7f55e9ffda3bb3ac4dc77df9742"
+RPM_NAME = "texlive-hvextern-doc-2023.208.0.0.33svn65670-53.1.noarch.rpm"
+RPM_HASH = "5b481311add98a069ec46fd2f713d102dad4491932cddaec6d57c104be899cc8ea6727221a8bb1f0aa641f99748324f336f6c4cf6ac0838e43bc9c383cb0f915"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hvextern-doc"

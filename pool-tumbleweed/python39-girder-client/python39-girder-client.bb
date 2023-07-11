@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.1.20"
 
-RPM_NAME = "python39-girder-client-3.1.20-1.1.noarch.rpm"
-RPM_HASH = "cddc28605d08ac07881bf861c446eda00b67806158bf05f979d26296024c489eb7fc4351d8e26b8846abae694f29eaafe7e9c965c446d88b99562cd273cb4844"
+RPM_NAME = "python39-girder-client-3.1.20-1.2.noarch.rpm"
+RPM_HASH = "9b20a82f619a1753dfd6aa2cffe29deb939319171458eb0b524caad28312fe4d7736142e59687e76d39d62f6e02bf6e98fceefc4c455982615764113dbd510d1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-girder-client \

@@ -11,8 +11,8 @@ LICENSE = "BSD-2-Clause | GPL-2.0+ | Artistic-1.0"
 
 PV = "0.048"
 
-RPM_NAME = "perl-IPC-Run3-0.048-1.26.noarch.rpm"
-RPM_HASH = "a53719b5a23f4c1609b9425742a33010461ad59a87134e8fc20efc04a764e24888f6768ce9ddb37379b23946aa87b1e450bfdf808983d60e854905af3a2388fe"
+RPM_NAME = "perl-IPC-Run3-0.048-1.27.noarch.rpm"
+RPM_HASH = "37655df97d88ff1415bce9cbdd0bab276b87d4454dbfa6f0ce50286ff0eae09ec4ed39c02c00c4da4781d96b1e2a4dde43e7bb87371762189e2b8ad782190106"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-IPC--Run3 \
@@ -23,6 +23,6 @@ perl-IPC--Run3--ProfPP \
 perl-IPC--Run3--ProfReporter \
 perl-IPC-Run3"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

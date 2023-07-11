@@ -8,11 +8,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.8.0"
 
-RPM_NAME = "python310-h5py-3.8.0-2.5.aarch64.rpm"
-RPM_HASH = "534ee5e1ba9881b3e24c25ede9f742c5186ff7efbffcda5b06e586f983714bd0c34360a2de00187b07b53342f986a6b81985907c3fe72cbaf81e60afa9e21e07"
+RPM_NAME = "python310-h5py-3.8.0-2.7.aarch64.rpm"
+RPM_HASH = "2d3b38cdb0d91363fd17d3d47f01485b57a144569a5360ab657203a1bd9ffa35164556d108ed4c095b348873cf0e27b4ee7e009aeee195b627ab97fe301d9720"
 
-RPROVIDES:${PN} += "python3-h5py \
-python3.10dist-h5py \
+RPROVIDES:${PN} += "python3.10dist-h5py \
 python310-h5py \
 python3dist-h5py"
 

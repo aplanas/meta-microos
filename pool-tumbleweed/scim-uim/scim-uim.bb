@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "0.2.0"
 
-RPM_NAME = "scim-uim-0.2.0-225.27.aarch64.rpm"
-RPM_HASH = "e77ddd41985603b4c03abc2d7aab9e31fce8f994b946d506b407596a2672565fb49517e6e3634ba937b4716c75cbbdf76b7ae79f06aedf5dddc4e5c57cc7617a"
+RPM_NAME = "scim-uim-0.2.0-225.28.aarch64.rpm"
+RPM_HASH = "8816c418fc5da5e6daddafcf8b18186becb823f58e47144f15416526c85f21ac4c48b6cbd2320cf2eca593aba50062ca26268065f6c4645e60ea05213d963c9f"
 
 RPROVIDES:${PN} += "scim-uim"
 

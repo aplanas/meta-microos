@@ -19,8 +19,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.13"
 
-RPM_NAME = "libevtlog0-0.2.13-2.23.aarch64.rpm"
-RPM_HASH = "dcf2a38b3c0555d74afc3b2f5e607b5d5d186e055581ae1cbfb6eb6daee0a2992c10d506004d5fcc1b3b4587584c41418d8708d56b524caee8b79a60634f73e5"
+RPM_NAME = "libevtlog0-0.2.13-2.24.aarch64.rpm"
+RPM_HASH = "be3f97eacaa9e18be4e7ec074f7ed4cd70f870a774410de2e815bfede5c86d12140e125cc344e1785c531d9d95b9aebdcaef73f04481de16fee9468d6b1b07e9"
 
 RPROVIDES:${PN} += "libevtlog.so.0 \
 libevtlog0"

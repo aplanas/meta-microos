@@ -8,11 +8,12 @@ LICENSE = "MIT"
 
 PV = "2022.1025"
 
-RPM_NAME = "python311-pylint-ignore-2022.1025-3.1.noarch.rpm"
-RPM_HASH = "56bea3567b516e0ac2c1375fc04c5a5fbda621716a8bb9f93c84fb6ba5b39b802552d11ae01ea0b90184a4b503c6cd3eca83c84aebae748f1a7a24aa0158111e"
+RPM_NAME = "python311-pylint-ignore-2022.1025-3.3.noarch.rpm"
+RPM_HASH = "7d0cbbd492e2b53b2856ca81b6ae6179622b93d06b80e765e71f0c6592d8520dd1755903f5021614d5ba85086af353936ed7a6db714f9c4ff0e1c9a55389b95d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pylint-ignore \
+RPROVIDES:${PN} += "python3-pylint-ignore \
+python3.11dist-pylint-ignore \
 python311-pylint-ignore \
 python3dist-pylint-ignore"
 

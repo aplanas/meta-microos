@@ -6,14 +6,17 @@ pointer to the waveform. SDL_sound also can handle channel conversion \
 on-the-fly and behind-the-scenes."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.0.1.g17"
+PV = "2.0.1+g60"
 
-RPM_NAME = "SDL2_sound-devel-2.0.1.g17-1.9.aarch64.rpm"
-RPM_HASH = "2afd656f64f253c7c659a0bec1acd6a694e5e00b18f794f231a583c9002cb6a026fdd2b7b5297e0608cb0084f54a086d210fbbf56885227019e9382aaa43ce8a"
+RPM_NAME = "SDL2_sound-devel-2.0.1+g60-1.1.aarch64.rpm"
+RPM_HASH = "896c76929d9ed5eb57e7dce310b98db52609bbdf8a600709f4337a754b39c5e970af40cb6524dd461549e151271ed364da81f8ee454497e9fe4ce1d91258f83e"
 
-RPROVIDES:${PN} += "SDL2-sound-devel"
+RPROVIDES:${PN} += "SDL2-sound-devel \
+cmake-SDL2-sound \
+pkgconfig-SDL2-sound"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+ld-linux-aarch64.so.1 \
 libSDL2-2.0.so.0 \
 libSDL2-sound.so.2 \
 libSDL2-sound2 \

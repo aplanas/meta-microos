@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause & LGPL-2.1-only & Zlib"
 
 PV = "1.26.3"
 
-RPM_NAME = "efl-devel-1.26.3-30.6.aarch64.rpm"
-RPM_HASH = "d9a85ae91b9efe49517f356958688e5bf3673406aee403641ec5e929ff42f2c8f372a0b5aad1a87483d4376aa1d9ef0536e91d66df4c96b8900ce89b21331cd3"
+RPM_NAME = "efl-devel-1.26.3-30.8.aarch64.rpm"
+RPM_HASH = "f0aff2389dd91ee493028ec712dcfa32eb02b0575fe0f471db66a12c5ef1dd0929e12c205ee3b969922aaa138a21ed402524b1f23d9bab758854850af2218e46"
 
 RPROVIDES:${PN} += "cmake-Ecore \
 cmake-EcoreCxx \

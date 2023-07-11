@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.0.1"
 
-RPM_NAME = "ghc-unicode-transforms-devel-0.4.0.1-4.3.aarch64.rpm"
-RPM_HASH = "11c5819083528087b56e55d742438d668d80248e09b9d4b2b027e4cd09add4d2e99bde3209042909b6ef9fe81deb1f7d9d9112a6996139dd2c1cc4a7ed387e6d"
+RPM_NAME = "ghc-unicode-transforms-devel-0.4.0.1-4.6.aarch64.rpm"
+RPM_HASH = "9c68d33f0d939d1ae3837cc7588d33715266841891b91706638faa454c961bc08eb44f239bebd98035abcb03eaa44e5b94ab0ac2ff725d8e7c46949f7f744b34"
 
 RPROVIDES:${PN} += "ghc-devel-unicode-transforms-0.4.0.1-EKt5KzAvdneBwqiDZWg9HO \
 ghc-unicode-transforms-devel"

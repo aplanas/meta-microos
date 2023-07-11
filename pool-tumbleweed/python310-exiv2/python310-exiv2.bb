@@ -11,11 +11,10 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.11.0"
 
-RPM_NAME = "python310-exiv2-0.11.0-1.7.aarch64.rpm"
-RPM_HASH = "b46566eee0f6587e1d8e7c4202a463be5c847db9d1cf91a2060ef6910640f7f1cf4a9913efc63f55ca464fdd5f46c4e8d6ffa5d15acf8a7881d9a671a6c3da16"
+RPM_NAME = "python310-exiv2-0.11.0-1.9.aarch64.rpm"
+RPM_HASH = "6700009c7da7d656e5ce304fb54a257c59b1f89a756992887143c9d9c84031c197835906e5f2e577e9413216c425c8c0f1780e3f1507a641c2ec6c45c5b8bd49"
 
 RPROVIDES:${PN} += "libexiv2python.cpython-310-aarch64-linux-gnu.so \
-python3-exiv2 \
 python3.10dist-py3exiv2 \
 python310-exiv2 \
 python3dist-py3exiv2"

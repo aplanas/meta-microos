@@ -10,11 +10,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.7"
 
-RPM_NAME = "python310-contourpy-1.0.7-1.1.aarch64.rpm"
-RPM_HASH = "c21c960ba8903836c771e9650cf0760ec7f44ab35d0677b22075141f43e291ea5fd686e32dcb130dc38dd0b32d56fb30dbb65e4bee7ee8979d1f702dd73c9b41"
+RPM_NAME = "python310-contourpy-1.0.7-1.3.aarch64.rpm"
+RPM_HASH = "f6ba4268eb9dc1454ca9f2a1f16509cb22d4f617249fb44cfc2aef0a32fecae44ce1676a3abe6776a1f9988b401f119d531836d60048f5cb963d1e477f62d0f0"
 
-RPROVIDES:${PN} += "python3-contourpy \
-python3.10dist-contourpy \
+RPROVIDES:${PN} += "python3.10dist-contourpy \
 python310-contourpy \
 python3dist-contourpy"
 

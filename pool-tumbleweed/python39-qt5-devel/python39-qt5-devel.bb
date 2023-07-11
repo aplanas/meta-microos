@@ -7,8 +7,8 @@ LICENSE = "SUSE-GPL-2.0-with-FLOSS-exception | GPL-3.0-only | NonFree"
 
 PV = "5.15.9"
 
-RPM_NAME = "python39-qt5-devel-5.15.9-1.6.aarch64.rpm"
-RPM_HASH = "88b34169e9905ffac1307d1981fb8f7d42fb816a87d074931e23010ec19375a734f299667357f435372a94078cb481e10ce8f238eea3768c07fd659b70cabb27"
+RPM_NAME = "python39-qt5-devel-5.15.9-3.1.aarch64.rpm"
+RPM_HASH = "ee18d4d194d9c96a69d4a75cf5fe9d95de7d6ce4926da44787eede2b91320b656dfb21d6c961bce107a71364e93c74544d8251d02b7686cfef0b83e3e74f72e1"
 
 RPROVIDES:${PN} += "libpy3.9qt5.so \
 python-qt5-common-devel \

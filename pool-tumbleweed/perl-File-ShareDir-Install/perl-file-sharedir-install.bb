@@ -13,13 +13,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.14"
 
-RPM_NAME = "perl-File-ShareDir-Install-0.14-1.4.noarch.rpm"
-RPM_HASH = "ebc74e0a51db85af7905ae41f18cdeede0d0c80a28bb1010b228f5f85c68424ce85db2225b975be4661cc4bef99ff29df43c386c1a0e3ef6e00a521837ba9d20"
+RPM_NAME = "perl-File-ShareDir-Install-0.14-1.5.noarch.rpm"
+RPM_HASH = "8215cf75a94ba5eea13dc4b99b1826b990092121e333639130bae0120d32383655a58994df1b6313a437e9dccaa9e85beae81070ec48dbdeb902a21aff96d2e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-File--ShareDir--Install \
 perl-File-ShareDir-Install"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

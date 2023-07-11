@@ -16,11 +16,10 @@ LICENSE = "MIT"
 
 PV = "1.4.0"
 
-RPM_NAME = "python310-pyScss-1.4.0-2.3.aarch64.rpm"
-RPM_HASH = "8213757ed08036c5a629857fdad5753b1e3c1f991da7215f3710c38ce91bab01ee34bc5dda8ab52a173c4ea3f92e55929b15583ac7205ef145030d5dc51b5c99"
+RPM_NAME = "python310-pyScss-1.4.0-2.5.aarch64.rpm"
+RPM_HASH = "116706a5f0e1a4a273d6ef0e7f021173474d37fca2f634a2372d65fafbdf9837ad44e9dece21589cc428f76edbdbdf744bca2a0eeb54d23118282d9d25ca41da"
 
-RPROVIDES:${PN} += "python3-pyScss \
-python3.10dist-pyscss \
+RPROVIDES:${PN} += "python3.10dist-pyscss \
 python310-pyScss \
 python3dist-pyscss"
 

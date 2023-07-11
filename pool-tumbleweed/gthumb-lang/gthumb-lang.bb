@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.12.2"
 
-RPM_NAME = "gthumb-lang-3.12.2-3.3.noarch.rpm"
-RPM_HASH = "a701b2e63398b391717caa9060b28fb2e111a3ecfe940ea3e9b9cd51332900e75344b9d2c466493315fc70593ddf36ede6f54c5cd39742ddb75e8ebb153cc930"
+RPM_NAME = "gthumb-lang-3.12.2-4.1.noarch.rpm"
+RPM_HASH = "99535506670942b0dd66b423157b2ab047f4b690838e8225c45e561e70abc4640598ca12d49cb81a1f6a89c048d579c6b25ac17aab43f0536877ec2b27e2b8d3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gthumb-lang \

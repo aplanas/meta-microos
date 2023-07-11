@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "2.7.0"
 
-RPM_NAME = "python311-PyJWT-2.7.0-1.1.noarch.rpm"
-RPM_HASH = "3a449b9b5ca18e9e8f08f66f18c848aa0d61703d7a595fad1b6f2a666081252c23729ae2303ef70e1094ef0d1991afda92db3185762a8fb608ab9439b0fa884e"
+RPM_NAME = "python311-PyJWT-2.7.0-1.3.noarch.rpm"
+RPM_HASH = "3d706359faa01e60395ada39f184800f6bcc104ea4eff47e6dd4b1056b06cd4dc79649d22efb57b078968f00828bc8f852ca49ed644fea378f093664be707406"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pyjwt \
+RPROVIDES:${PN} += "python3-PyJWT \
+python3.11dist-pyjwt \
 python311-PyJWT \
 python3dist-pyjwt"
 

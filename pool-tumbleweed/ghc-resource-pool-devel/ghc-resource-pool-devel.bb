@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.0.0"
 
-RPM_NAME = "ghc-resource-pool-devel-0.4.0.0-2.3.aarch64.rpm"
-RPM_HASH = "a2d736a0a24436e9be9b4075c76f1f175737aec818d0c3f11c0a1802d123c086f16387e7a8a89cd30d8189f8ce895d6e8d058188e628187867d132a484061fb3"
+RPM_NAME = "ghc-resource-pool-devel-0.4.0.0-2.6.aarch64.rpm"
+RPM_HASH = "294cf0a82c094b55b6617a2d875bde0aa546570c411ef2c4deb2d62df9febc5953fb6e21869701c160ab3bed559bb80125cb4c37439c85f174c70c8d630455af"
 
 RPROVIDES:${PN} += "ghc-devel-resource-pool-0.4.0.0-CALzen0PV047R0s78YnQuW \
 ghc-resource-pool-devel"

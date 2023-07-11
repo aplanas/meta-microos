@@ -4,11 +4,13 @@ LICENSE = "AGPL-3.0-or-later"
 
 PV = "22.4.5"
 
-RPM_NAME = "python311-ospd-openvas-22.4.5-1.5.noarch.rpm"
-RPM_HASH = "d097948b9422713ad49023a8eb1286c234e4c43b875a3ec7d5b06e3569b66227f1321e6eb0ceac6d04e35bbdea1b355bf156189b13c1f88f84f8b528e19481a4"
+RPM_NAME = "python311-ospd-openvas-22.4.5-1.7.noarch.rpm"
+RPM_HASH = "3594ee81675532ce29973760a8fee913ae32a5f5bb0c1927aa88efd5202925ffd36f644510efa42e03ea2971458b04d207ef1e46debd70a0273024d75e08e62d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ospd-openvas \
+python3-ospd \
+python3-ospd-openvas \
 python3.11dist-ospd-openvas \
 python311-ospd \
 python311-ospd-openvas \

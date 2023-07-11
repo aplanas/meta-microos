@@ -18,8 +18,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.11"
 
-RPM_NAME = "mspack-examples-0.11-1.3.aarch64.rpm"
-RPM_HASH = "5416615783c8d1dfafde9a2f14bb84490e23d979e6892ffcc6414d4af310f0e547eb1b3301344328cc762e99574535029994c0d707c116be64367038206cf10f"
+RPM_NAME = "mspack-examples-0.11-1.4.aarch64.rpm"
+RPM_HASH = "7c19dec66ebeff544bc5800c88137326cb64bdbb707852fe5f4ec4911283d2c064f87fc21c4c4f14a01d54be5debfabb504c4e21fd41ad6a1156720757688789"
 
 RPROVIDES:${PN} += "mspack-examples \
 mspack-tools"

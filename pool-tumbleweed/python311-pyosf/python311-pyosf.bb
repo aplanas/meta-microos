@@ -17,11 +17,12 @@ LICENSE = "MIT"
 
 PV = "1.0.5"
 
-RPM_NAME = "python311-pyosf-1.0.5-5.8.noarch.rpm"
-RPM_HASH = "421541d9d251a95c8aeea6da6a04d58f43e4a16594d36dd55c5a9af3bd56d1c588122216fe78ddab94516df69d93bd56ebaf709fcfdca606121a3d4e6dc60095"
+RPM_NAME = "python311-pyosf-1.0.5-5.10.noarch.rpm"
+RPM_HASH = "76a1e2e5d73896568df0a77b1bb2394f5c612a97816b011dc6d63c983a1097e9f1f7067fe376755a0058324359cdaa71613a0460fdb8cba393f55b20da6c1e1a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pyosf \
+RPROVIDES:${PN} += "python3-pyosf \
+python3.11dist-pyosf \
 python311-pyosf \
 python3dist-pyosf"
 

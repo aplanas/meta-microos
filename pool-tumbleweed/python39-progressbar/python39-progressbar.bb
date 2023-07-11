@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later | BSD-3-Clause"
 
 PV = "2.5"
 
-RPM_NAME = "python39-progressbar-2.5-2.17.noarch.rpm"
-RPM_HASH = "5ae10ce8262c981b86b68bddbd9b6247e9746e76c1b803b677b059eedd65ca2ff5a6f94eb922aa00894798824b2d4e96435c31c3814a773640e15b349032be58"
+RPM_NAME = "python39-progressbar-2.5-3.1.noarch.rpm"
+RPM_HASH = "bca9dd46fd3a8b4c2e9b3451257e0d7e1bd0f4fd1f7296f6977128b962a684c9a1ee7b6881aad279b85076d1e8e5e05b09ca903ed4e31a06d0e9ea5980124c00"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-progressbar \

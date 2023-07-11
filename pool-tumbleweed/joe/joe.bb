@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.6"
 
-RPM_NAME = "joe-4.6-2.17.aarch64.rpm"
-RPM_HASH = "666fe0c904d1aebabe2bf99bf05ccf720f33fc761e04620ef399940c6d0c63c4cd9fc1deb5358b05f4a617a08c02d8a3404cc0aa2dfff678bdb9da9e6be58a17"
+RPM_NAME = "joe-4.6-2.18.aarch64.rpm"
+RPM_HASH = "0e1610778ad1f20feb439a2b00fc6169eefd1fe9849db1a9e1121b7633cf10b6012776207d870c8868092b80486c1e8029087df6e11955f84caffb184c4e0d9b"
 
 RPROVIDES:${PN} += "config-joe \
 joe"

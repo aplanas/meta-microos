@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.2.1"
 
-RPM_NAME = "calligra-tools-3.2.1-7.17.aarch64.rpm"
-RPM_HASH = "c303266b07952465aeaa76c25abab8a72204273810ab7109deeacc27b91536709cb233612f5681b02315d93bcfabce0a3e91b295873a8c5611840c9a8aeda55b"
+RPM_NAME = "calligra-tools-3.2.1-7.19.aarch64.rpm"
+RPM_HASH = "34f83224da3f5f54aab4c5eec7d17a5d176a7e690b8f9ff33c63acce0e737785ed379e417610eb237acca82f25ad64144c9da7c4c6bbc220cde7d939cd4c4a71"
 
 RPROVIDES:${PN} += "calligra-tools"
 

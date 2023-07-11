@@ -1,11 +1,11 @@
 SUMMARY = "Translations for package guake"
 DESCRIPTION = "Provides translations for the 'guake' package."
-LICENSE = "GPL-2.0-only"
+LICENSE = "GPL-2.0-or-later"
 
-PV = "3.9.0"
+PV = "3.10"
 
-RPM_NAME = "guake-lang-3.9.0-2.1.noarch.rpm"
-RPM_HASH = "819b67cb49f0813c4b8ec7ae546671e6851dd85c2bec49a9101082b9339e016073adc02d9dc9ada8f9796c8ed29f7af56a9f9b2a7420f28168cf1b9ed1236aec"
+RPM_NAME = "guake-lang-3.10-1.1.noarch.rpm"
+RPM_HASH = "dce4d7c7dd5c63bd38457fa7910f36fa8f995b6efb47ced1d042ac59d0775b6e489d86bb21c541dbd3e6b956bc523b7ecd91adaefc736ab0616e3b60730e2f1c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "guake-lang \

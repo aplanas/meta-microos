@@ -6,11 +6,11 @@ LICENSE = "MPL-2.0"
 
 PV = "2.7.4"
 
-RPM_NAME = "sacad-2.7.4-1.1.noarch.rpm"
-RPM_HASH = "a3f1f6bbfb4a5bf73c20f738af1daa455cacfe470f60f39b5e99f0edeaf603a8c2628db6d356ec7e8faa1399523d1f84bdf3f7b53e4e9ed93d0fc9e3a70ff674"
+RPM_NAME = "sacad-2.7.4-1.2.noarch.rpm"
+RPM_HASH = "96c1be00ea7b33766da77b9bf69ab73db05b3fb2ccffca3c82d7816989748b25cadad4c00e38aa11bd3fb516b9e550928376b8ff7456405e9d9849e0186426e0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-sacad \
+RPROVIDES:${PN} += "python3.11dist-sacad \
 python3dist-sacad \
 sacad"
 

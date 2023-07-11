@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.11.0"
 
-RPM_NAME = "python311-pytest-subtests-0.11.0-1.1.noarch.rpm"
-RPM_HASH = "b7c92ba8020f690361bfbf10d3e5ac98590ee3024f2ccc69f3fdb5a1b5caa1532e6e8cef3ce1c8a7979f51b3b57f25b91278ef0fb4e1927fe760591e05149180"
+RPM_NAME = "python311-pytest-subtests-0.11.0-1.3.noarch.rpm"
+RPM_HASH = "ee62edfb5b7dd90c92e09b0ddd7a373dab99fa77b4eea25c2da912209445744a807a6f0be88ec29d2d15094c3f0b3d11d572220a866a79154b322f65be8b2e97"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pytest-subtests \
+RPROVIDES:${PN} += "python3-pytest-subtests \
+python3.11dist-pytest-subtests \
 python311-pytest-subtests \
 python3dist-pytest-subtests"
 

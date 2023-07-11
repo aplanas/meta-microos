@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.2.12"
 
-RPM_NAME = "libspectre1-0.2.12-1.3.aarch64.rpm"
-RPM_HASH = "a8d552bfa014c2a7a893417a7d47c3264611fbc0117cce1c1eefc803c5bd537aeb439586f1fc08d794bb7ce7c317613e83420a8219684be90cefec005cf4ff49"
+RPM_NAME = "libspectre1-0.2.12-1.4.aarch64.rpm"
+RPM_HASH = "465c2af43992b0e4a8d0117e2ff74608fe4283dca1b412af6dbdef3faccdfc57aa16b2694b9d378fd4e5acfb7bab3e2bc823d41d4e168c289b0829663cf2556c"
 
 RPROVIDES:${PN} += "libspectre.so.1 \
 libspectre1"

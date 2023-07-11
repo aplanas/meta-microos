@@ -2,10 +2,10 @@ SUMMARY = "Qt5 quick/qml examples"
 DESCRIPTION = "Examples for libqt5-qtdeclarative (quick/qml) modules."
 LICENSE = "BSD-3-Clause"
 
-PV = "5.15.9+kde25"
+PV = "5.15.10+kde26"
 
-RPM_NAME = "libqt5-qtdeclarative-examples-5.15.9+kde25-1.1.aarch64.rpm"
-RPM_HASH = "123d37fc5be3cfb6517e49b0fdcec746f3df8b51e6eac3fdead879e4502367be042c7019ca17e909c3e0eb96b7a736de0f1bfe523da6979721cd12e3e9a3b1c8"
+RPM_NAME = "libqt5-qtdeclarative-examples-5.15.10+kde26-1.1.aarch64.rpm"
+RPM_HASH = "858ac2517e3b321410bdeb4a97b86a6d5f779164eb5e4c9a1d2b397cc0252131e9209986303755212a2fc8ba2fce4dcdfb26045b1f32dea9947e1bba99491e9b"
 
 RPROVIDES:${PN} += "libchartsplugin.so \
 libqmlimageproviderplugin.so \

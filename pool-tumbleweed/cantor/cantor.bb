@@ -4,10 +4,10 @@ and Maxima: Cantor. Cantor offers a worksheet as a nice GUI for all \
 those backends and is not targeted to kids but to scientists."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "cantor-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "dc535e42491f7e8fe3102838a9fa32f05c0c9398542934a84e9fe4a82968c99a4f96f82f7da63d8a8c8e90ffedfe7414830ff6c80e97b6430fdede18581cd255"
+RPM_NAME = "cantor-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "edd6e15ad4f65d4c80eadd1f39e17b4ff059e353c228466fbde92dd96f48f6620efe1319137edd1dd12c59bbed37305daf219fa6e38dfaf2db7e7316dceaf12e"
 
 RPROVIDES:${PN} += "cantor \
 cantor5 \
@@ -56,7 +56,7 @@ libc.so.6 \
 libcantorlibs.so.28 \
 libgcc-s.so.1 \
 libluajit-5.1.so.2 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libqalculate.so.22 \
 libstdc++.so.6"
 

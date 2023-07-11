@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.28.1"
 
-RPM_NAME = "genders-1.28.1-2.3.aarch64.rpm"
-RPM_HASH = "28a5960ec915121543a94d054de63edc78982e89261854c11effe3eace456909357dca8948e52009fec93cd0f2abbc6dec4f7d3115ea19d91ce4ce50aa96fbfe"
+RPM_NAME = "genders-1.28.1-2.5.aarch64.rpm"
+RPM_HASH = "ee5fbb54dc3631ba165525b4d2aefd64cb57de8cbb71be2297d04dd73cdbda2b6a50f2e5ffc6d9995eb5f19dad79f1cd91ca490ff8724475cf8012a17519ede9"
 
 RPROVIDES:${PN} += "genders"
 

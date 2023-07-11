@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python310-azure-mgmt-qumulo-1.0.0-1.1.noarch.rpm"
-RPM_HASH = "e7b14a8bf27421b21bf1c883606915319077cd720801bf2fde2af870171e7bd46eec54841cfa7c27685ca9b2c80a299e91be62ad754ef3a085106754f32f616e"
+RPM_NAME = "python310-azure-mgmt-qumulo-1.0.0-1.2.noarch.rpm"
+RPM_HASH = "c2d11dfb827101fcc584fff7f21e9498f41bb2fc655fd472b0ad7d702d1f4300868d784689c197dafcb4fae0817c8ff30a3ad4ae140751654c16aef6090c6f59"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-qumulo \
-python3.10dist-azure-mgmt-qumulo \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-qumulo \
 python310-azure-mgmt-qumulo \
 python3dist-azure-mgmt-qumulo"
 

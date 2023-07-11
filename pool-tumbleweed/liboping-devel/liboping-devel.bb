@@ -11,8 +11,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.10.0"
 
-RPM_NAME = "liboping-devel-1.10.0-1.18.aarch64.rpm"
-RPM_HASH = "7a6d40c1d651e2dc6fba6a440ae70fcf697ccb69e703524194c0a24869abf0debb9e5bec72adb3bd2b880b52d985e9c5f5d7715edda02208e2080c7f0d9679c3"
+RPM_NAME = "liboping-devel-1.10.0-1.19.aarch64.rpm"
+RPM_HASH = "95f1b9c1f78c00148b96f0137404efba80bc27c12d45291be70bb7b6e3ec7a9e205cd2bde75e9603024d0e6fa7455f841606c6eedb49879f4a1af3ae1156b90c"
 
 RPROVIDES:${PN} += "liboping-devel \
 pkgconfig-liboping"

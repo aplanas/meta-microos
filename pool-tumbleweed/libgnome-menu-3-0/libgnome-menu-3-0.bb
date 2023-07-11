@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.36.0"
 
-RPM_NAME = "libgnome-menu-3-0-3.36.0-3.3.aarch64.rpm"
-RPM_HASH = "1deaca44f15a062a55a86ba9c547939f0d8b04893fb24284971d40c473c3b6766b12da18a1e4557f9c626b22173335add07762d8cbca9624ef57d151b17e1fd7"
+RPM_NAME = "libgnome-menu-3-0-3.36.0-3.4.aarch64.rpm"
+RPM_HASH = "d046a46d238ef9e3460fd41bc4d926d1fc52c1b70f9299e875a1b36034b0347441f3542cc1057f19b054895500a68c98226bfc2624c95864c2abeb18e758334f"
 
 RPROVIDES:${PN} += "libgnome-menu-3-0 \
 libgnome-menu-3.so.0"

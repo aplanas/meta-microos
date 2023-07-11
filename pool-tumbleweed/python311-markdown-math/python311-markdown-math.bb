@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.8"
 
-RPM_NAME = "python311-markdown-math-0.8-1.8.noarch.rpm"
-RPM_HASH = "cf0236790a13ca478a33cbad5f1a71b6a3342710a2bbae62b8db81213f52a7be3cbf76ca814975675b9fcd62154f2dd36b08f31f393700b8f380e774b617ee0e"
+RPM_NAME = "python311-markdown-math-0.8-1.10.noarch.rpm"
+RPM_HASH = "9a2fcb383d2dc9c60d0ba26eaef36bf32324e47967d628a381c3bf3fa25fc6dff4c64d69337ece80e5ebe759d25b894c9e5c333b9dbb4c27ef630c2a3e6cffc6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-python-markdown-math \
+RPROVIDES:${PN} += "python3-markdown-math \
+python3.11dist-python-markdown-math \
 python311-markdown-math \
 python3dist-python-markdown-math"
 

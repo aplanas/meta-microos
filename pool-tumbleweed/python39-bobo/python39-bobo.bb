@@ -12,8 +12,8 @@ LICENSE = "ZPL-2.1"
 
 PV = "2.4.0"
 
-RPM_NAME = "python39-bobo-2.4.0-5.9.noarch.rpm"
-RPM_HASH = "d2bc7c528b3f4c5da05c130b5e42501006b6a01744fbfbeac3e04a2bf76eb23d32cf698a704d3c05809da37d829773efd49bf3f8720ad9f22df2e214f2b7bead"
+RPM_NAME = "python39-bobo-2.4.0-5.10.noarch.rpm"
+RPM_HASH = "b9d223b1c40a929595c5ad6f574aa706e683fac3b69b80f64e9e19a4315686eba24922ba1a0f357a14df0e0a0caff33c9c4cc3171b5446a1aae1710a3dcbd423"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-bobo \

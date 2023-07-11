@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.6.2"
 
-RPM_NAME = "xmoto-0.6.2-1.3.aarch64.rpm"
-RPM_HASH = "c08e7ced4a94ffc484730da1bf40f69ae964bd2af75e498144818f0196c758e559090aff8a4e8480a21940af7e32a710077ce7b1af5ff4493acf53fc3a358ccb"
+RPM_NAME = "xmoto-0.6.2-1.4.aarch64.rpm"
+RPM_HASH = "20fa213dbaab67999c7fb25be77b863e0fc931cdb1c77daae06d14a5847789b8eced383b186a2fc1de3cb452b8e72e78c85c30d942b028136a14b31f42883962"
 
 RPROVIDES:${PN} += "xmoto"
 

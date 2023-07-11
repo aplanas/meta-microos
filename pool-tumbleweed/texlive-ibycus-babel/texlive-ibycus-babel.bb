@@ -9,10 +9,10 @@ current distributions of LaTeX are built with e-TeX, so the \
 constraint should not be onerous)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.0svn15878"
+PV = "2023.208.3.0svn15878"
 
-RPM_NAME = "texlive-ibycus-babel-2023.201.3.0svn15878-52.1.noarch.rpm"
-RPM_HASH = "4ab01927458aa69faa84497499ffe80aa0e8adb23d1f0e55d9b2351f2a6df38adf624a7be43ce9f2741f9170bc63863bcc2fcf7e947b45cda9f0f4680c42dadc"
+RPM_NAME = "texlive-ibycus-babel-2023.208.3.0svn15878-53.1.noarch.rpm"
+RPM_HASH = "85ad2fcc10c898c033f52e6fb4848c617492ccbf65dbf319d95ba134c4bc3b0306eadf3895adb5d00022a34de3e88a676e40587632d198f2d37b3768503e39d4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ibycus.ldf \

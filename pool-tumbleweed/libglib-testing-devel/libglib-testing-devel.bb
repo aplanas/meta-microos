@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.1.1"
 
-RPM_NAME = "libglib-testing-devel-0.1.1-1.4.aarch64.rpm"
-RPM_HASH = "c6c2dbe49a380469105d0875419c012ea6bd9ab9a1c9127b85631f0cf5df074be5c6039d14a85eca6f5bb5682c0da8aa5c3b9e605a35ba73fdacf46f768f0558"
+RPM_NAME = "libglib-testing-devel-0.1.1-1.5.aarch64.rpm"
+RPM_HASH = "7097fec73e368a38cc9782735ed62c70848fa112d9ffa921042c2db0a56b2769258b6c5c307f9f7bdd30084ebd648e520d3d0b2986f72a139067d4f11e9d6230"
 
 RPROVIDES:${PN} += "libglib-testing-devel \
 pkgconfig-glib-testing-0"

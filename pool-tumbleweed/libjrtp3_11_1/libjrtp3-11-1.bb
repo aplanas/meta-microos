@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "3.11.1"
 
-RPM_NAME = "libjrtp3_11_1-3.11.1-1.20.aarch64.rpm"
-RPM_HASH = "156be511994b720dec05eb6fd9d0737a5a33d2ed18eebee86e6328628618114ad0e304d600b75cd6c5e0788d057ad1d7bc1ab1d2dc6df471a37b4e666d5df9c6"
+RPM_NAME = "libjrtp3_11_1-3.11.1-1.21.aarch64.rpm"
+RPM_HASH = "8a6f05c83ca8be02d2a87f53ad090fd99ab61bbe2fd39eac70b4c3fdc09040ba823f7d352cde06d18c46578d62626c119fb891cfa226ffb316cb9986107f763b"
 
 RPROVIDES:${PN} += "libjrtp.so.3.11.1 \
 libjrtp3-11-1"

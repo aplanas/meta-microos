@@ -9,12 +9,12 @@ LICENSE = "GPL-2.0-only"
 
 PV = "4.4.2"
 
-RPM_NAME = "setools-gui-4.4.2-1.1.aarch64.rpm"
-RPM_HASH = "e5cf406b63fb1b53df8a23e3bb09d7c50fabac72d4cd65a65b11b0ab1d9fa84dd1c958075733584ba67f9699183059c007fbc74b7ec25326784e0901bfe0a47f"
+RPM_NAME = "setools-gui-4.4.2-1.2.aarch64.rpm"
+RPM_HASH = "ee542624fb722bf6fafa9ce35b6c9bc11bdea269f23f482976713f2c33dabcd133cceeb6368fdba092dc899281020f588318ff760afc1b3afc427716987e9171"
 
 RPROVIDES:${PN} += "setools-gui"
 
-RDEPENDS:${PN} += "/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
 python-abi \
 python3-networkx \
 python3-qt5 \

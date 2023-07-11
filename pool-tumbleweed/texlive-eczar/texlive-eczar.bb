@@ -16,8 +16,8 @@ LICENSE = "OFL-1.1"
 
 PV = "2023.201.0.0.1svn57716"
 
-RPM_NAME = "texlive-eczar-2023.201.0.0.1svn57716-53.1.noarch.rpm"
-RPM_HASH = "4812577b71523f240e03509347f8ad64341a5211fb299ed4f8ff97c4c6e3052f89d9ff70f8d3c577eda6d76b0f52cd3b4a8a3486990145f822d7f6c1ada7e908"
+RPM_NAME = "texlive-eczar-2023.201.0.0.1svn57716-53.2.noarch.rpm"
+RPM_HASH = "43730bb8be657f0d61b57eaee3c52ee7e84e9ddde52c52e0b4d83735e808b19dcb8a052d56f8b2fa67c5fbbc038e3b0ba1b897ca76b4cc64adf920a3db7e999d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-eczar"

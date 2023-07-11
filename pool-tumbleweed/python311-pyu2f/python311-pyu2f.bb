@@ -4,11 +4,12 @@ LICENSE = "Apache-2.0"
 
 PV = "0.1.5a"
 
-RPM_NAME = "python311-pyu2f-0.1.5a-5.1.noarch.rpm"
-RPM_HASH = "1e56b9126686c74bd6515e93ade3634f27c4a6f2f73cabd11463a487d34c30e565d3dad17ed6836ed99dc0ac9c40c7c6484ec58b102830e5ea5a224dc95860d3"
+RPM_NAME = "python311-pyu2f-0.1.5a-5.3.noarch.rpm"
+RPM_HASH = "74edc55c03ccf5b595139ea0abfee0a4cfc81e46834a328b7f016ca03c3a42a23f9e71ac23e366301c4eef11a1386682b237f90456d92e09d9aa9cf5ce823d63"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pyu2f \
+RPROVIDES:${PN} += "python3-pyu2f \
+python3.11dist-pyu2f \
 python311-pyu2f \
 python3dist-pyu2f"
 

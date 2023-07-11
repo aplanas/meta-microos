@@ -9,10 +9,10 @@ communication. \
 This package provides the static library for the Acero streaming execution engine"
 LICENSE = "Apache-2.0 & BSD-3-Clause & BSD-2-Clause & MIT"
 
-PV = "12.0.0"
+PV = "12.0.1"
 
-RPM_NAME = "apache-arrow-acero-devel-static-12.0.0-1.1.aarch64.rpm"
-RPM_HASH = "61414d74c2eb9dcc674ac4f01e9600f28f200578ee510a1aab14636dced4e897afa09752091675689370ecd06584b6d3f2be287813a74083a9e1ab98c9a1329b"
+RPM_NAME = "apache-arrow-acero-devel-static-12.0.1-1.1.aarch64.rpm"
+RPM_HASH = "9bfd7640fb4558823d45a7fe0dbb779f833cfb7f8062973efdf24ba3e65ba8f648f6cab799760541fe226cd5c5cee342c51e79fde7913fcc5d4790ae8d63b526"
 
 RPROVIDES:${PN} += "apache-arrow-acero-devel-static"
 

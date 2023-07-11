@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.4"
 
-RPM_NAME = "radeontop-1.4-1.9.aarch64.rpm"
-RPM_HASH = "0cae7a39c5920647371415f96995e32e21d9dd9f25f3d09a3c5b3c5318489d912f644bc70ebef14c67c6a4a5fed8e8788da736e5739a88acb64f10b76a2e42b1"
+RPM_NAME = "radeontop-1.4-1.10.aarch64.rpm"
+RPM_HASH = "ce1ab5dc08125861053dea2c807cb08cdd3a2cc88d6dc17a14d9d88a8ef2d23201208f9606637f66e0c72cc30a92ebe19873c41c875b89e4d5ff484b1b1c922a"
 
 RPROVIDES:${PN} += "libradeontop-xcb.so \
 radeontop"

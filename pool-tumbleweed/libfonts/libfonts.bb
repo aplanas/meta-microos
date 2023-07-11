@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "1.1.6"
 
-RPM_NAME = "libfonts-1.1.6-1.4.noarch.rpm"
-RPM_HASH = "5da7a2a5315d8f8b9193338025df02abf9b8be2517fbc45abfaddf6bcd850f6d1476f5f479d1b653a7f8efb822f6186042be8a3512d098f08d2644bb83c86f9f"
+RPM_NAME = "libfonts-1.1.6-1.5.noarch.rpm"
+RPM_HASH = "1fa24777fdaa71eb6faa992acf3f653a2239fc26034f9ccc72430a07b0c8246368917252f49a1de185627a478cbd3fb74407a9a82cdd44e826a1ed230c921a79"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libfonts"

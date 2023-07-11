@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "2.0.0"
 
-RPM_NAME = "python39-azure-mgmt-databox-2.0.0-1.1.noarch.rpm"
-RPM_HASH = "64974a97c8f708a963947adb5c7cc1850302f9d6cba2c0a0d02d566d982449e1e300ab7e98792563c416e736966a861f3c8be7dcf850c9f3971017cdc94eea13"
+RPM_NAME = "python39-azure-mgmt-databox-2.0.0-1.2.noarch.rpm"
+RPM_HASH = "597d6642a268717125871248a09d9dde95cf41f4e22b769a65cb0154c3e5061524a4e27ac22624450d7ee0ca88b3a598bf0c4a4bea315373137a718fe1e50124"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-databox \

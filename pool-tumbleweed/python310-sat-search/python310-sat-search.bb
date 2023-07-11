@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "0.3.0"
 
-RPM_NAME = "python310-sat-search-0.3.0-1.4.noarch.rpm"
-RPM_HASH = "7f45a7dd74c899679c021248449f1b4fa327584ee6063ee00861dfa02826dc605cec5dde1333d033de734c2bb68d7c9f8f492d962704019ea00ebcc2a0c841c3"
+RPM_NAME = "python310-sat-search-0.3.0-1.6.noarch.rpm"
+RPM_HASH = "5b7a4ddf015121e1729e076a66f27cf9fa3e8264946e69d4475703ceb4a9ca92ffca6aae8f5adc79ab8e6e6b9ee749eb42d7630b618b375c7c93f4d75b340819"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-sat-search \
-python3.10dist-sat-search \
+RPROVIDES:${PN} += "python3.10dist-sat-search \
 python310-sat-search \
 python3dist-sat-search"
 

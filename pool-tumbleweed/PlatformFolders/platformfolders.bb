@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "4.2.0"
 
-RPM_NAME = "PlatformFolders-4.2.0-1.3.aarch64.rpm"
-RPM_HASH = "22d1ae00e4b96a4bd82d6b7c8d425f38a575d49be51f130baf03c93a1dc29e7958be38dd6f96a65deb4d5f5fb8828f2c01813705176a9bf0c1376c5a97d1d5da"
+RPM_NAME = "PlatformFolders-4.2.0-1.4.aarch64.rpm"
+RPM_HASH = "f9814e22489dbb09f3419e9e7b546754952eeba2fabd5dcad6b5b544bf7af093d989c51ea58229b5aebd39f1b6bb58e7ed9336e5d39b670addff24373a57442b"
 
 RPROVIDES:${PN} += "PlatformFolders \
 libplatform-folders.so"

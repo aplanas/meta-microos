@@ -4,8 +4,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "0.29"
 
-RPM_NAME = "python39-pyelftools-0.29-1.4.noarch.rpm"
-RPM_HASH = "224dc380c35e3fc516176c6c82d4cddf052614e4a82db39e61bde1ac6f85c6a60aacef68c357575d08d5237eb4cfc460dae2a66513ee383f9b22485d812c7a35"
+RPM_NAME = "python39-pyelftools-0.29-1.5.noarch.rpm"
+RPM_HASH = "2e55ee94a8edc171a8737a15991290b5917499fc4a2acc23c09cbf66fc385f37506922ea490aefbb0a07517a3d8161ccf03d1a96df43ea6036ff4d735d9f98b0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyelftools \

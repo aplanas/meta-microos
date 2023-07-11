@@ -6,10 +6,10 @@ allowing sharing of the HOME directory of the user, external storage, \
 external USB devices and graphical apps (X11/Wayland), and audio."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.4.2.1"
+PV = "1.5.0"
 
-RPM_NAME = "distrobox-1.4.2.1-3.1.noarch.rpm"
-RPM_HASH = "50ad9b0e1d026015c0f81e192571bb558f53f9d7c49e8ff44358904a0a9584645f2dbdc909322ab1872c9731ce435d98e99a749a30b9691097e13260bbd79c94"
+RPM_NAME = "distrobox-1.5.0-1.1.noarch.rpm"
+RPM_HASH = "55b110804bec749823c276576deb57b730109d5bba619d050c302b5c061dc8ab0a175481da1ffa7cf2eec93c704a588a1793683dbd36215e0917f1ffad64f4c2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "distrobox"

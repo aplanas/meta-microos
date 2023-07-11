@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.2.4"
 
-RPM_NAME = "python39-python-gammu-3.2.4-1.9.aarch64.rpm"
-RPM_HASH = "94a369475aabd57a40c84d070a4b66f8cbcc3878b559c5900be082a5808b14ee1cf095744087512f1462fa1c83c659a68b78c5b2937334528f67821c3e7d6467"
+RPM_NAME = "python39-python-gammu-3.2.4-1.11.aarch64.rpm"
+RPM_HASH = "e2955afde55ee5a2132c63a92d30216be938469a1e7d35f01af252b15d3bef704dcde8bc80e66ddb230fc8e1121d63fa22c3c0e9acbfacca90a6e5f3e30a9a06"
 
 RPROVIDES:${PN} += "python3.9dist-python-gammu \
 python39-gammu \

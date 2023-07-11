@@ -5,11 +5,11 @@ LICENSE = "MIT"
 
 PV = "2.1.0"
 
-RPM_NAME = "watson-2.1.0-1.4.noarch.rpm"
-RPM_HASH = "6af8fbebbd3d95a9c7dd45566024156bc27b04972516c8b057ab5408a2a044fbef5151af26d78ca4f8295c3c49e41679201a1c889dc4b04a36964c85635f0abe"
+RPM_NAME = "watson-2.1.0-1.5.noarch.rpm"
+RPM_HASH = "7c3a21290237565a22664225e773159b1c135d5a520f3a9227dd5fcc4d875c3bf19f03608cfc99e548553a6d841a2c40eda6ae5c44168b95f11a05fc91ad732a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-td-watson \
+RPROVIDES:${PN} += "python3.11dist-td-watson \
 python3dist-td-watson \
 watson"
 

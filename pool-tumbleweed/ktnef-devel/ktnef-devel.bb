@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains necessary include files and libraries neede
 to develop KDE PIM applications."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "ktnef-devel-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "de31f086d75a9d982f53c1b5977b0d75499d11dc1e2680e83a30a22f88daad495b17bd6a340263ceea8c3f0e806cc6e6295600ffdc48e6a299d7be0a2a1a9e1c"
+RPM_NAME = "ktnef-devel-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "09cc539188e5db947a6a84945c8ae750cdefe6106965708992b4d79a3279aefdd9d91585e8c1a0a4366a31ba2fcb43f0d14388c12b75405609d54f0bfb6c1cf6"
 
 RPROVIDES:${PN} += "cmake-KF5Tnef \
 cmake-KPim5Tnef \

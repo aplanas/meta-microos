@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.2.0"
 
-RPM_NAME = "python311-tinyrecord-0.2.0-2.7.noarch.rpm"
-RPM_HASH = "a323d515f3b9f4b5fd96f6e1f46ce7fe7d2c96f413765257e175c40c4cc0bf6e4892fd0710e656871bff30b8de46ad1e91f78a5b206f4b33e6956414fdb3863b"
+RPM_NAME = "python311-tinyrecord-0.2.0-2.9.noarch.rpm"
+RPM_HASH = "6a5c74d367a3540b299b69fc1f73b1d568b8f07903ea70398678046dbad86941300ea71a8b569c6d0944927da63675b7ae9c272e0081e01c04a5920cfba0c228"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-tinyrecord \
+RPROVIDES:${PN} += "python3-tinyrecord \
+python3.11dist-tinyrecord \
 python311-tinyrecord \
 python3dist-tinyrecord"
 

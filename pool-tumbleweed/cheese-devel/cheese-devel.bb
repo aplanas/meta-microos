@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "44.0.1"
 
-RPM_NAME = "cheese-devel-44.0.1-1.1.aarch64.rpm"
-RPM_HASH = "389c92a6715b714c7fed7f1c53d48f236cfcaae04d1a1b84ace23336e161e431f385adec0e431a97bb9d93074624198b69db9d2f8739d5b1b24523ea1bf553a5"
+RPM_NAME = "cheese-devel-44.0.1-1.2.aarch64.rpm"
+RPM_HASH = "29dfa532dee58b96fe22015d720606d6bbf70da885bb4da74110fe8c1e7227ce4200d3250067336466b89c222ede0692b1c3227bd3ef69ec6ae7e3caafcfe606"
 
 RPROVIDES:${PN} += "cheese-devel \
 pkgconfig-cheese \

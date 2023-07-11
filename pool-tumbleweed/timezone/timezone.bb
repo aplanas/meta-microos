@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause & SUSE-Public-Domain"
 
 PV = "2023c"
 
-RPM_NAME = "timezone-2023c-1.1.aarch64.rpm"
-RPM_HASH = "28fd13538bd21acddef11eb1d07d9936dfc500afed3fa33dea03f74e913a602e9959d2c8a41ca04de202e4af7ec3f0e50337a7131a20423e4201faeda1a41420"
+RPM_NAME = "timezone-2023c-1.2.aarch64.rpm"
+RPM_HASH = "d65d8489c13d811f8a45e380295fdebda5e705cea7e733cec93c98f605c20e62ab0bb6437348efb8af0375305e6620126384899f22facafb7488e238af0cdd00"
 
 RPROVIDES:${PN} += "config-timezone \
 timezone"

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
 PV = "3.2.1"
 
-RPM_NAME = "freeradius-server-mysql-3.2.1-1.3.aarch64.rpm"
-RPM_HASH = "11e12f578a8b1e69491fe299e788dfd30672ccbbb73a0929f472bb04ab57d090ef605564c294694b874ac13cb9b59c80cc8c715dc34332ad474fde47db89e59b"
+RPM_NAME = "freeradius-server-mysql-3.2.1-1.6.aarch64.rpm"
+RPM_HASH = "05ddbdfd7bf6a0e6bbf433d0da3b690d76205b4768567d68ba4d4c227f31d060d47ca2df9a35e960b242217aa457749e6acf9d89e78002f4eb147d57920cbcbc"
 
 RPROVIDES:${PN} += "config-freeradius-server-mysql \
 freeradius-server-mysql"

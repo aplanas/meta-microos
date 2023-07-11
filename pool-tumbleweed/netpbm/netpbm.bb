@@ -11,10 +11,10 @@ Toolkit raster object, and many more. On top of that, man pages are \
 included for all tools."
 LICENSE = "BSD-3-Clause & GPL-2.0-or-later & IJG & MIT & SUSE-Public-Domain"
 
-PV = "10.96.4"
+PV = "11.2.0"
 
-RPM_NAME = "netpbm-10.96.4-5.3.aarch64.rpm"
-RPM_HASH = "86a349ada18e4c60d26f6136178aa801275044791a6f162426e1a5bf622dbf8b4f424903de345d370bf449a1e2349b02422fce0561e5fcad3cb1c1c2d70dd9f3"
+RPM_NAME = "netpbm-11.2.0-1.1.aarch64.rpm"
+RPM_HASH = "9a3300bf74f865f3cf5917f11d1cb878f4a87b2e0c733eccde04b17ff315c3927874be14d0ea9189f67f8165bcf8d71ee9577229198a42a7a49713aa51f8961f"
 
 RPROVIDES:${PN} += "netpbm \
 pbmplus"

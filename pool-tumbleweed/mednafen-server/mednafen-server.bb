@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.5.2"
 
-RPM_NAME = "mednafen-server-0.5.2-9.6.aarch64.rpm"
-RPM_HASH = "2928bc3fa9d0af516aa0759861e21a3b26e13ec1af3229ac6588437e72949f3301eb2339aecdb87dfe4a6632b1f65d14fc3e691ed77770fad80089e7a505837f"
+RPM_NAME = "mednafen-server-0.5.2-9.7.aarch64.rpm"
+RPM_HASH = "eda3446033ec77f8b53bbdccf34e067e1f0d15c53ef61a82131479d97a5b1f179fa64dd084260165b3134a30e043e38a2aeda5c0b586e7ffab023abca3122a89"
 
 RPROVIDES:${PN} += "config-mednafen-server \
 mednafen-server"

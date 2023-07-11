@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.1.0"
 
-RPM_NAME = "python39-Pallets-Sphinx-Themes-2.1.0-1.1.noarch.rpm"
-RPM_HASH = "113e2b04ec25fafd75750f86cb48b432cffcd72d6b5b0c39fde1d2c7dee2334c7810f5c36bc7e770b77f7ec5c62568ee6b17427ba81278948b0d732e50bb865c"
+RPM_NAME = "python39-Pallets-Sphinx-Themes-2.1.0-1.3.noarch.rpm"
+RPM_HASH = "01231128a1d591edba8a7ab4274f91ad02bc3535718f570f21540628bbf5f93a236490cac7fbcae2e3ded08cd3606997144bbbf0ef4b763cfff4b69c483830b1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pallets-sphinx-themes \

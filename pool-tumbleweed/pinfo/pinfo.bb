@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.6.13"
 
-RPM_NAME = "pinfo-0.6.13-2.7.aarch64.rpm"
-RPM_HASH = "a1481bc29037b0d71c061944a1c9dd8b4469be67df702d623dd3678399bfaf83d911e0aefa4c66e88c3fa3e61a50f54ab7ff80a163d29845be2d594894e9f5e2"
+RPM_NAME = "pinfo-0.6.13-2.8.aarch64.rpm"
+RPM_HASH = "43d4281857c557514b2a55de9d5f4d2392318c93bb7cd269cbb37b59e7b3a4a421bcb5153ec534e8b60a90ccfd85f776e5d91c1d7abc35c57ba57c8833b6b753"
 
 RPROVIDES:${PN} += "config-pinfo \
 pinfo"

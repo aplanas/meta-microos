@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-protobuf-private-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "d010dfd132045151a9195033d6a872e1831e79c774a81a4aac7a1c009d80e1547f33d7d0dbb5a24442002d13d33b17a9ddf2d3919d9709a10be6417c0d949c68"
+RPM_NAME = "qt6-protobuf-private-devel-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "61c7c249bc080205083d84455ba408cf7ff32d25f647624aeeb3b5bd0b4dacf9ae9ae4a3944c9f925e33f20b36f8b1c2f1b8ed80b6fa943b5d6a881e7180f91f"
 
 RPROVIDES:${PN} += "qt6-protobuf-private-devel"
 

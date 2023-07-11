@@ -2,10 +2,10 @@ SUMMARY = "Alternate, low-level shared memory implementation for PHP"
 DESCRIPTION = "An extension created as an alternative to the sysvmsg module."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.1.19"
+PV = "8.2.7"
 
-RPM_NAME = "php8-shmop-8.1.19-2.2.aarch64.rpm"
-RPM_HASH = "7ac204dfdd2e849283e3ef17461562e2b38f16b68caf4d76595cb374cc4ca211d3ca68be314eb070e9239bf61a1054855a11a130eb997c7617cdd98d9669c1f2"
+RPM_NAME = "php8-shmop-8.2.7-1.1.aarch64.rpm"
+RPM_HASH = "0730dd088181ec3847d9917ed49f4fef0c3abcde7c50e4e114dc14b0cc01cbbd7242a44420ac88f1e62b4f36d067bb1a16200f953354fff15fc4e142c0a1037a"
 
 RPROVIDES:${PN} += "config-php8-shmop \
 php-shmop \

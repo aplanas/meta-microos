@@ -4,17 +4,17 @@ Rails framework. Rich support for multibyte strings, internationalization, \
 time zones, and testing."
 LICENSE = "MIT"
 
-PV = "7.0.4.3"
+PV = "7.0.5.1"
 
-RPM_NAME = "ruby3.2-rubygem-activesupport-7.0-7.0.4.3-2.1.aarch64.rpm"
-RPM_HASH = "69e31c8bd9d1d145fd29aeed1dfcf3020a0cf0f453ec5efcaffa5f5ca134ef7e9ac14f160c7e5fe200f58d01fc1f5b2aaa7292998c2edff31dd6c91b363a8ee4"
+RPM_NAME = "ruby3.2-rubygem-activesupport-7.0-7.0.5.1-1.1.aarch64.rpm"
+RPM_HASH = "9daf9205cc9e3a0a97490f79870d601bc0af4efbb3815b5c9bccc5e45eb5c23945957b9dc0db55eaf102dc6bc1551bd2bfdf8bb321c9821557c642f506165bc8"
 
 RPROVIDES:${PN} += "ruby3.2-rubygem-activesupport-7.0 \
 rubygem-activesupport \
 rubygem-ruby-3.2.0-activesupport \
 rubygem-ruby-3.2.0-activesupport-7 \
 rubygem-ruby-3.2.0-activesupport-7.0 \
-rubygem-ruby-3.2.0-activesupport-7.0.4"
+rubygem-ruby-3.2.0-activesupport-7.0.5"
 
 RDEPENDS:${PN} += "ruby-abi \
 rubygem-ruby-3.2.0-concurrent-ruby \

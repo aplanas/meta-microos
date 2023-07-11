@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.8.0"
 
-RPM_NAME = "libkchart-lang-2.8.0-1.14.noarch.rpm"
-RPM_HASH = "6a197f18691c7cc1d5c49a32852265c698053602ad283e261fc9d7c2c10a5e4fe980bc453e406097d03a27dd49e7f06f8755b5e9fbaab63b251545655b5641fe"
+RPM_NAME = "libkchart-lang-2.8.0-1.15.noarch.rpm"
+RPM_HASH = "433ed1ec85251d6cff4156f41d1e47b23d9770188d95b49be4174995867015eab396f527abaa92ae64eeb1425f5c8e9b5c7ade17fcbe7bc0f601a8ddca350dea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libkchart-lang \

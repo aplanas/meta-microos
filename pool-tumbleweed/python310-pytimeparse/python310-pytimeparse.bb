@@ -23,12 +23,11 @@ LICENSE = "MIT"
 
 PV = "1.1.8"
 
-RPM_NAME = "python310-pytimeparse-1.1.8-3.12.noarch.rpm"
-RPM_HASH = "8f6c2ad6ae5a2e8b62f966b18001059035d1e28038190a6e625b8ff6605e0999d4300fda36c906a5d42fe8ecd993eecf66ab0e5382b62ce38915d06694fe2a9c"
+RPM_NAME = "python310-pytimeparse-1.1.8-3.14.noarch.rpm"
+RPM_HASH = "9554b927ebc07e3b1cfc7d67dce75919c039b76f086ed2790c1f1bf4db1692b851f3ac24a5c56b4c0070c8ce4512a6b75ff36a73d09ab34e49488615e5e76b9f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pytimeparse \
-python3.10dist-pytimeparse \
+RPROVIDES:${PN} += "python3.10dist-pytimeparse \
 python310-pytimeparse \
 python3dist-pytimeparse"
 

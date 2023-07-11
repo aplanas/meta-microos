@@ -12,8 +12,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.7.0"
 
-RPM_NAME = "os-maven-plugin-1.7.0-3.8.noarch.rpm"
-RPM_HASH = "b96f696c27f5e3ccdf1d6eea7f404a9f82fff293c32627da4097d01f950a2ed04fc4d151dc64d8a71b28de12fca49530131efb1f9a2b282fa936cb4fbc4a8953"
+RPM_NAME = "os-maven-plugin-1.7.0-3.9.noarch.rpm"
+RPM_HASH = "4df66ee5c02d35d1a2a73c605407d3d2d157b78fdf279f7bf6d774d12234c8d54fc2fda5d519099e8abb458fb8e3bb720c04184f371a05985f34ab66eb959167"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-kr.motd.maven-os-maven-plugin \

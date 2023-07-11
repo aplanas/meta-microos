@@ -15,8 +15,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.2.11"
 
-RPM_NAME = "sphinx-2.2.11-7.7.aarch64.rpm"
-RPM_HASH = "ad44e1db98d0b04700cf3e2f5ada37663c2cea7d6c91c70ec3014a058cf57c92a9874a9ca13fb6315c6583082e03926b9cd8db91a5b799a7511528d60e881e4e"
+RPM_NAME = "sphinx-2.2.11-7.8.aarch64.rpm"
+RPM_HASH = "e41f0fefab3d44a3bc7781c5f794fe00c3e7e44b266973447d690e6ff26aa7fc399c94e648d45d167d8f45ef44994eeac1ad4fb755731694dbf47de014241790"
 
 RPROVIDES:${PN} += "config-sphinx \
 searchd \

@@ -11,8 +11,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-cstp-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "5c84a669ce73d5f9d9c0facd9eda07b7e3ce294da86f160b2121cbc4b9f9065e540d41438987c2580686cd01a0794422f300321588557a9a18a8f4fcbf0cf53a"
+RPM_NAME = "leechcraft-cstp-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "8cd0c1eb9700427c4ccd79fed4b61b44b7c37831feb0ee77e063a86839b986ab29e2ef4478f87eec7a73aaadf2b69f480d6eb7b166d8edfca54fb2fc071d882a"
 
 RPROVIDES:${PN} += "leechcraft-cstp \
 leechcraft-http \

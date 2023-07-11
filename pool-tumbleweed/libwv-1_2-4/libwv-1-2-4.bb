@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.9"
 
-RPM_NAME = "libwv-1_2-4-1.2.9-2.9.aarch64.rpm"
-RPM_HASH = "cb63328f6f26fbd2168e04e91f5373f89c74f6d41b03451ad37e5af689275ba3f51ecfad432f3799aab2ed3b211ba8d231342cd6d8fbf9e0cef69716b9ce3a8f"
+RPM_NAME = "libwv-1_2-4-1.2.9-2.10.aarch64.rpm"
+RPM_HASH = "f04b9d3dacfee50447c71559a39587beb8881cfdaff44f3e7953c5108729bd1b98c9481c1e1ca000e8dd685b48c01a72b8e56dc7325228463e2ab6e3f936b0da"
 
 RPROVIDES:${PN} += "libwv-1-2-4 \
 libwv-1.2.so.4"

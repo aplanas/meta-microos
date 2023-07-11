@@ -6,12 +6,11 @@ LICENSE = "Apache-2.0"
 
 PV = "2.2.0"
 
-RPM_NAME = "python310-ipaddr-2.2.0-1.16.noarch.rpm"
-RPM_HASH = "cafa1768e1ca13e8c3ad826e37589330fd36869a04deb70f463627b9b28be691af36df965b755915bb1fbea72474b919a7b25e369832b23a95d01c0eb471cd6b"
+RPM_NAME = "python310-ipaddr-2.2.0-1.18.noarch.rpm"
+RPM_HASH = "e181522d796f6d9b51aefa940193a8896aa722db93f3ad0c1cf9df5461d2b54799c4e03772f333c885d8cfa7bbcdca85c720ec7247c983f7bc07211ac4a7f870"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-ipaddr \
-python3.10dist-ipaddr \
+RPROVIDES:${PN} += "python3.10dist-ipaddr \
 python310-ipaddr \
 python3dist-ipaddr"
 

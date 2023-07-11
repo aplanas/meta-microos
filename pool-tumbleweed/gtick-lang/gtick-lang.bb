@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.5.5"
 
-RPM_NAME = "gtick-lang-0.5.5-1.14.noarch.rpm"
-RPM_HASH = "2245c895832beb81a68bc17474acb024518fed4b6c0c14e44d7ad9a52101c3f00994b366c519d7c3819d1c48edda1cd0bb665fb2feaf6be5f9f1b96d64295f27"
+RPM_NAME = "gtick-lang-0.5.5-1.15.noarch.rpm"
+RPM_HASH = "1c7c7eae6b84c058329f207f9b8f54e11f2733f596522e8dbc836bde20b061559229bcb060e55b83067cdd1ba7a0283085b7b6bfe36cfac5fd519613cd23ad86"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtick-lang \

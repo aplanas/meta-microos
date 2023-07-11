@@ -9,8 +9,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.32"
 
-RPM_NAME = "perl-IO-Socket-Timeout-0.32-1.23.noarch.rpm"
-RPM_HASH = "5bca6bae4242cd77b5d81123b9f523c174bb81504b15647afaa0026975015321468bd09c516027cfcd5e0d256ae7cb10ad82a418e5b55cbb6c734c9578343fcb"
+RPM_NAME = "perl-IO-Socket-Timeout-0.32-1.24.noarch.rpm"
+RPM_HASH = "ebe1ba0fff0e01e07a244b86bbe7b7c6e72145a048302fa533d0ac0a6e8681385a9a9bc7c69cef5607c32120e479237f25e47cb5e4b515e122ea4e1fa6c1b56b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-IO--Socket--Timeout \
@@ -18,7 +18,7 @@ perl-IO--Socket--Timeout--Role--PerlIO \
 perl-IO--Socket--Timeout--Role--SetSockOpt \
 perl-IO-Socket-Timeout"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-PerlIO--via--Timeout"
 
 inherit rpm

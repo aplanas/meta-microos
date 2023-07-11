@@ -9,10 +9,10 @@ Shell escape is also needed if splitindex is used. This is a \
 fork of imakeidx, with new features and fixed bugs."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.5.1svn38931"
+PV = "2023.208.1.5.1svn38931"
 
-RPM_NAME = "texlive-indextools-2023.201.1.5.1svn38931-52.1.noarch.rpm"
-RPM_HASH = "b1bbf2be14e243ea6b2065082ab461e47b8635107e823bb532d3c252eb3d37bba96699e5819c55cfc45c5481a3607b8116e4310099d8b33ef2a51b5857c2e28a"
+RPM_NAME = "texlive-indextools-2023.208.1.5.1svn38931-53.1.noarch.rpm"
+RPM_HASH = "34b2fcc00ecfc3cde4405cb5d1db05e68b461d752562e40200c5969329d7ae121af9730d37444f630d0728016743933ea25973ee77123cfa46675032cb71574c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-indextools.sty \

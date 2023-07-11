@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "4.9.0"
 
-RPM_NAME = "python311-tweepy-4.9.0-1.4.noarch.rpm"
-RPM_HASH = "98355ee33d1998f2d9f538685b9f137cb374f7f5a927073ec1372d1b26c0043fa2ce0cb7ffe17a5ec664d22f3ccfb6b7f912202b05b13d0cbf6c9c12d7891052"
+RPM_NAME = "python311-tweepy-4.9.0-1.5.noarch.rpm"
+RPM_HASH = "6dde2e539bb48dd05304f7ada1e2ae21369def77440afee6ccaf2bba1493c049136c281a547e1e1fc2d39495e3fa9531386a1399268d15afee63f5babe14f702"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-tweepy \
+RPROVIDES:${PN} += "python3-tweepy \
+python3.11dist-tweepy \
 python311-tweepy \
 python3dist-tweepy"
 

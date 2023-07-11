@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "0.42.3"
 
-RPM_NAME = "typelib-1_0-RygelRendererGst-2_8-0.42.3-1.1.aarch64.rpm"
-RPM_HASH = "d0f80f19811a1a3a00f51beaeaa9781efb340fe3ee6dfda2178b5464e054d9c42bdcf36a01a93374ff1e409d2e8f2292e1ece9ef020646d9b9840633fbe9d50f"
+RPM_NAME = "typelib-1_0-RygelRendererGst-2_8-0.42.3-1.2.aarch64.rpm"
+RPM_HASH = "dc8c021704431d5ce0d1b30bc9bbbd93db66f5212d57aa540e31fe92ed4555095b566672d301a81ab6a81781f63b36c635148b5ae88eb06c14713df6d9216542"
 
 RPROVIDES:${PN} += "typelib-1-0-RygelRendererGst-2-8 \
 typelib-RygelRendererGst"

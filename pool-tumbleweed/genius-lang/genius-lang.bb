@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.0.27"
 
-RPM_NAME = "genius-lang-1.0.27-1.9.noarch.rpm"
-RPM_HASH = "a2238e2392940299682e840ae86520b498adac6a2630e0d475e6e5da8f87cf7cfd7aeb90808a4caf1c4cbf84e41c165d4eac095f999243b5a98bed9392a233d0"
+RPM_NAME = "genius-lang-1.0.27-1.10.noarch.rpm"
+RPM_HASH = "a59d1fc8c563cd3076397c5c372b560c16bda1af5e18ff80489b80c2bf36476ea72342fddf08e74c2407c0a3f36cc9f9393f3741053906e8815713e0f0cc5340"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "genius-lang \

@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.94m"
 
-RPM_NAME = "cddlib-doc-0.94m-1.10.noarch.rpm"
-RPM_HASH = "41b2f896131143dad9421b66dbf23954ea844d2527b022e242de8f408daa6cdf1a236386af41af11a9d4c057823bf494e3f09c690ae0e0a6f52aeb50cbc7bae1"
+RPM_NAME = "cddlib-doc-0.94m-1.11.noarch.rpm"
+RPM_HASH = "fa2e5880d354c9ad09a4e0cafaabb6cf4d17dac7685661dda5f5fe6aa93a9429f1b37ad808ffd1b7cf266364072f5ae9878ffddea3809b70ea4ae2ee481065a5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cddlib-doc"

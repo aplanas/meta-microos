@@ -5,8 +5,8 @@ LICENSE = "BSL-1.0"
 
 PV = "1.82.0"
 
-RPM_NAME = "libboost_numpy-py3-1_82_0-1.82.0-1.1.aarch64.rpm"
-RPM_HASH = "ccc8a67ed29f109037a7bc09fa05fd27e5575ed9fc62d809c26ae8ab32a70707e83605ac679e42b058449153d168ee38c63e93d38da89e980f8f4b37412d2b8c"
+RPM_NAME = "libboost_numpy-py3-1_82_0-1.82.0-1.2.aarch64.rpm"
+RPM_HASH = "15c75369777f98a69ec7bba064b7fe73db4f1a94ffa67916edc7479870b6acc53add8d44b54717b0048078a58689f3d2869ba1a75788ea0173e769b467070e7c"
 
 RPROVIDES:${PN} += "libboost-numpy-py3-1-82-0 \
 libboost-numpy-py3.so.1.82.0"

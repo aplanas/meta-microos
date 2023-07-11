@@ -4,8 +4,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2.1.0"
 
-RPM_NAME = "libscalapack2-openmpi4-devel-static-2.1.0-9.11.aarch64.rpm"
-RPM_HASH = "7181f8a18a0692bc62ed24f98f161aded880bd14f16f42f762d483465b428b26db80ffd041274c98998f6c935f0d211fe8c69d0d6b28e39d6619a6c9e6830455"
+RPM_NAME = "libscalapack2-openmpi4-devel-static-2.1.0-9.12.aarch64.rpm"
+RPM_HASH = "8caddc598691aea385752da5981a5e263475ad50800a39643d213d47a05cf0f3d90238c77e8e054eec1bc8d9750c96e9f0279955b961f72723af827caadff4ea"
 
 RPROVIDES:${PN} += "libscalapack2-openmpi4-devel-static \
 scalapack-openmpi4-devel-static"

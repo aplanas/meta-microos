@@ -19,8 +19,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.3.1"
 
-RPM_NAME = "stow-2.3.1-1.10.noarch.rpm"
-RPM_HASH = "f402413fb706af7f31eee7157baf6c6b9f88d9962bc78d959627c469488515d445c78535200852ccdabb2c7da33d5f6bee9f5b248989338c84d7dd4109689cb5"
+RPM_NAME = "stow-2.3.1-1.11.noarch.rpm"
+RPM_HASH = "3193ad337e0b8d48153527bc2a29c4a413c3b564206efa11e589008f19939b19fe1e5a8797413b0bf6178a3b570efdf143f94fdc8e706452c54225de19e802ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Stow \
@@ -30,6 +30,6 @@ stow"
 RDEPENDS:${PN} += "/usr/bin/perl \
 /usr/bin/sh \
 perl \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

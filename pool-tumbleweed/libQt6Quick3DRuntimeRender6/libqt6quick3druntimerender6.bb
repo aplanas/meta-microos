@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt6Quick3DRuntimeRender6-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "7002c49587895b1ed8a7119f93f04c9b1d4e354f0a4b015af2c91dec3f4af3fd705dd4e5cd8728deff3e7061ab2db73512ba6d2cd3983f33ab790a10f07f17c8"
+RPM_NAME = "libQt6Quick3DRuntimeRender6-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "1690ce0a001339587cce7baee4ed3f879d8af7ce8a63380d84372934c928013e99a92bf84a36b7415d5cab73cd2ac5ecdef3f19a6726cea8083255871d2716ea"
 
 RPROVIDES:${PN} += "libQt6Quick3DRuntimeRender.so.6 \
 libQt6Quick3DRuntimeRender6"

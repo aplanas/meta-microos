@@ -6,12 +6,11 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "2.2.2"
 
-RPM_NAME = "python310-autocommand-2.2.2-2.1.noarch.rpm"
-RPM_HASH = "06f71b34f864cd50a21f27f6defe84d366336338533b5087ce471726af94bded7d7eb6e39e056dd351c55bcae1a47873b41c6cae7343d076a18f9d45216f2915"
+RPM_NAME = "python310-autocommand-2.2.2-2.3.noarch.rpm"
+RPM_HASH = "c80c5069891e611f32fcd3a30ea3c6b2f492e3e68f85a24431cad289f920bc4a2aeea000fd43e083019f202fa5a3ed7270540cdee75f5322d196becb1fc8c5a5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-autocommand \
-python3.10dist-autocommand \
+RPROVIDES:${PN} += "python3.10dist-autocommand \
 python310-autocommand \
 python3dist-autocommand"
 

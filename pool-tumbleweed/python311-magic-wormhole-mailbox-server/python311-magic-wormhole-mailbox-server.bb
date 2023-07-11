@@ -7,11 +7,12 @@ LICENSE = "MIT"
 
 PV = "0.4.1"
 
-RPM_NAME = "python311-magic-wormhole-mailbox-server-0.4.1-5.2.noarch.rpm"
-RPM_HASH = "70d82d45799aeaa462b9676692d89750a9b9653487d227ea35a9243689697057e0e2cb890044ffca1ff5704610149bd2398abd2fd91bea9062f2bad00371ddf9"
+RPM_NAME = "python311-magic-wormhole-mailbox-server-0.4.1-5.4.noarch.rpm"
+RPM_HASH = "9dd121130e3388f8ee6cff139e1d0d8531a57127fbdbef5292cf6f2964f9aea79335d177967d8b54527354a0ceaa3b5472eb6f6ad6ea228ba797a1303f2e7026"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-magic-wormhole-mailbox-server \
+RPROVIDES:${PN} += "python3-magic-wormhole-mailbox-server \
+python3.11dist-magic-wormhole-mailbox-server \
 python311-magic-wormhole-mailbox-server \
 python3dist-magic-wormhole-mailbox-server"
 

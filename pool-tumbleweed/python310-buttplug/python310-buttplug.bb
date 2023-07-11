@@ -7,12 +7,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.0"
 
-RPM_NAME = "python310-buttplug-0.2.0-4.6.noarch.rpm"
-RPM_HASH = "c60cff5d56b9ee44c71cbe5dfdea3c08de4e4905ec1a96e9b5c9df8220a1cd07d83159571e7b8f1d08a9588dff9666aa55d9b9cdeea14f81cf1fc90a39135ad4"
+RPM_NAME = "python310-buttplug-0.2.0-4.8.noarch.rpm"
+RPM_HASH = "93fe7c72083ff1f0896ca878303b319f8226f68966739058a47b5655ab97ec326ebf2437e09486e46ae860da5ae917c288aa868391b19029e77be92fb689736a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-buttplug \
-python3.10dist-buttplug \
+RPROVIDES:${PN} += "python3.10dist-buttplug \
 python310-buttplug \
 python3dist-buttplug"
 

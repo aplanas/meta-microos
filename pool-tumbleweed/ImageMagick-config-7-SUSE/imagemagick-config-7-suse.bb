@@ -7,10 +7,10 @@ version and maintenance updates and system changes will not be \
 preserved."
 LICENSE = "ImageMagick"
 
-PV = "7.1.1.11"
+PV = "7.1.1.12"
 
-RPM_NAME = "ImageMagick-config-7-SUSE-7.1.1.11-1.1.aarch64.rpm"
-RPM_HASH = "26e65b3e524feb98eddf58ffc8230af6b33bb097d0820f462d5546f1f5fe4feff196ccda382f3e96e8ed393bee915283c3881c84b81afee9dc0992aa9fdf5167"
+RPM_NAME = "ImageMagick-config-7-SUSE-7.1.1.12-1.1.aarch64.rpm"
+RPM_HASH = "d6072c7f8b7489a2d324f82ae9d3775bff4f0b922d6358bb9462a00226256e6ebaa4988ede0d3935c23639a1695cd18e0c392cdb480516cd8b88bea551cbc1cc"
 
 RPROVIDES:${PN} += "ImageMagick-config-7-SUSE \
 config-ImageMagick-config-7-SUSE \

@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "1.3.14"
 
-RPM_NAME = "net6-devel-1.3.14-12.26.aarch64.rpm"
-RPM_HASH = "138a004243ca76ea454bf2054935d618d16be2f95fd0b47df652a490faf37671adb5d86d959737fd8f7223c580b5fc20dcfa10d953d0fd8cbee0a0ccdae851f1"
+RPM_NAME = "net6-devel-1.3.14-12.27.aarch64.rpm"
+RPM_HASH = "304fe65d7ed295935977597a15adf8902728c478a055f1ae2c3d558e03dc8c0e973f348b00a70aeaf9b4b81a009f4644ca816eac8e1264207aa4fd756ea6a0d9"
 
 RPROVIDES:${PN} += "net6-devel \
 pkgconfig-net6-1.3"

@@ -7,11 +7,12 @@ LICENSE = "MIT"
 
 PV = "1.1.4"
 
-RPM_NAME = "python311-show-in-file-manager-1.1.4-1.11.noarch.rpm"
-RPM_HASH = "cc355b10dea5c0305ee4fbdf3b028a792cd7fb0cfaf6abcc14309d5a4b60cac7f1a902cbec2ffa41ff3bd576969a19ba106369d437fba527ae7bb12f6689623f"
+RPM_NAME = "python311-show-in-file-manager-1.1.4-1.13.noarch.rpm"
+RPM_HASH = "bf77c15c876ace9163f84c34dbc0270d687f4271af96b0961e030c64bd24eaa60ef2b2ef6142da1d4fc6c011904074d16cfd9acf0b7d2d68c9c2d3cb23ffa650"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-show-in-file-manager \
+RPROVIDES:${PN} += "python3-show-in-file-manager \
+python3.11dist-show-in-file-manager \
 python311-show-in-file-manager \
 python3dist-show-in-file-manager"
 

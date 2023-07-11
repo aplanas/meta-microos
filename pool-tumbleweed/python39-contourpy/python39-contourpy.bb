@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.7"
 
-RPM_NAME = "python39-contourpy-1.0.7-1.1.aarch64.rpm"
-RPM_HASH = "af7b0dcf2a5f0f700cac442a7e088a776c8ae039b7e89bdf22c73a3d18cda68e89835de68c184964d7b99d1b9f1c34b52fe7f6f6e7c75cf462e30b775223da8c"
+RPM_NAME = "python39-contourpy-1.0.7-1.3.aarch64.rpm"
+RPM_HASH = "5a318300177be4c4abd9bd09174366bf9790d5b97793048be40aa6415263e861f9c3cc4c42c7802e0bc8acee289f53390e7b67edbdf5c8eb3efcc5284443545d"
 
 RPROVIDES:${PN} += "python3.9dist-contourpy \
 python39-contourpy \

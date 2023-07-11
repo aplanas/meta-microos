@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.3.114"
 
-RPM_NAME = "gtkwave-3.3.114-1.3.aarch64.rpm"
-RPM_HASH = "cbfa79ce4391a50e799dc2e513b6997d8ded9bc21e590eac60bb649ccc3706a49c0d47ebd5689a6858d42f162f633fe6b76d2fc1126927c8e7cc1047c83750df"
+RPM_NAME = "gtkwave-3.3.114-1.4.aarch64.rpm"
+RPM_HASH = "1b157b9dfaec460a4311603ea65f7c7c0467a504eed361bf97495c3ba898c01023d5be1fd4d7ad50cea9ce08745ade002a106560f5ba946bcf4413b67c6c4ddf"
 
 RPROVIDES:${PN} += "gtkwave"
 

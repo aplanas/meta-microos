@@ -12,10 +12,12 @@ LICENSE = "MIT"
 
 PV = "1.4.1"
 
-RPM_NAME = "python311-PyWavelets-1.4.1-1.5.aarch64.rpm"
-RPM_HASH = "6c2050372e1e9eb40ea24f0e522dd909893e101103d3c574f131080e67eb3577f2e49dc8c02221cbc2d952a5006e4b2b4e1fe33dc27ab10263d5e70eaf3c8b9e"
+RPM_NAME = "python311-PyWavelets-1.4.1-1.7.aarch64.rpm"
+RPM_HASH = "721487eb5b6a8dd6b5f3e64efc6d55c167980cc55d60d1d1defbc8bc23eb6f8de412fe2a0f82571a145cb5929256559410b4c7d0d8ce237fc7cc33d9513fa70d"
 
-RPROVIDES:${PN} += "python3.11dist-pywavelets \
+RPROVIDES:${PN} += "python3-PyWavelets \
+python3-PyWavelets-doc \
+python3.11dist-pywavelets \
 python311-PyWavelets \
 python311-PyWavelets-doc \
 python3dist-pywavelets"

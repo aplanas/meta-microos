@@ -4,11 +4,12 @@ LICENSE = "Apache-2.0"
 
 PV = "0.4.1"
 
-RPM_NAME = "python311-enzyme-0.4.1-4.13.noarch.rpm"
-RPM_HASH = "c0273bbca07db8cfa0bbc66bc2033c7cf262bc85d558d2eb3cfaa87c3ff418d37cc77c7d67836ef439a66696b1b5b7b099528f7da75b225ebf421ac9bde80285"
+RPM_NAME = "python311-enzyme-0.4.1-4.14.noarch.rpm"
+RPM_HASH = "cfc3e0caf8cd5995f0083081be09834d72c046e97356344507dc978d7ec1ddd1709f9d49901e0ef23dd26c5934982f2b1bb1943edae46bc442f02df36f68f3a7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-enzyme \
+RPROVIDES:${PN} += "python3-enzyme \
+python3.11dist-enzyme \
 python311-enzyme \
 python3dist-enzyme"
 

@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.6.0"
 
-RPM_NAME = "maven-plugin-tools-beanshell-3.6.0-5.1.noarch.rpm"
-RPM_HASH = "eea40d2aa7d20febe6cdb480d354021764bd402591ff95daaed7881b3cf45d7f93d23440ec75b1d112a8bc6913f983cdd4a3ed148491d110044d9eda786e5939"
+RPM_NAME = "maven-plugin-tools-beanshell-3.6.0-5.2.noarch.rpm"
+RPM_HASH = "498a09c5c306bd5b054f09278f9f0e397381649a847ef40a0e6193e60302d7e2d0d11214210ba15ed59fd306c103089937d93ed64d271144d31eee713fbc0bed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-plugin-tools-beanshell \

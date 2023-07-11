@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.0"
 
-RPM_NAME = "python39-adapt-parser-1.0.0-2.3.noarch.rpm"
-RPM_HASH = "ab8cbc25babc79efa05e8883c7b6d28885928895fda1e5965bec23b380d9ff516c8ca2e00f3fa5b3bedb82cc9b5a8d3bcac2029289bde0013228c607e59b23a4"
+RPM_NAME = "python39-adapt-parser-1.0.0-2.5.noarch.rpm"
+RPM_HASH = "6b7e7eddbde5f79424ec8e04958df4d28e36fc6cae3aa01c8814207e7bdb71a37154fff80946ffcd89080d1f871073d84ae7150077dc400b7a26dedc45fae5ac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-adapt-parser \

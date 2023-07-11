@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.9.6"
 
-RPM_NAME = "nemiver-lang-0.9.6-9.8.noarch.rpm"
-RPM_HASH = "7f284debc8b7013472eaa558d58d405f28bd18e63435d0ab4663285ba3c973e3e0e4d5a65eb4c9f44c70ebbee5699581dafa50ca5da97e7e964b23d2017e96bc"
+RPM_NAME = "nemiver-lang-0.9.6-9.9.noarch.rpm"
+RPM_HASH = "09c58e1717fb371babb006369a95c2a43ba23f1b9cf3c85c938138b9c74a738251cb63a44365230f3583fc6046f34f708fa746a2e5fbd2a473fa7bfa1a72a4f0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-nemiver-ar \

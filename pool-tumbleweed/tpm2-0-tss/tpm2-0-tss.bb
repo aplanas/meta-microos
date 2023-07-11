@@ -7,8 +7,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "4.0.1"
 
-RPM_NAME = "tpm2-0-tss-4.0.1-1.3.aarch64.rpm"
-RPM_HASH = "9fdb0391345a874fea6538568afb39dd4fb3244a92d2c7624bb0ee366e0271ba048301ad585a01c5b8d1c680c927e8eeda9f7a8ab8e7e5b64ae4dac63f8d3943"
+RPM_NAME = "tpm2-0-tss-4.0.1-1.4.aarch64.rpm"
+RPM_HASH = "dfa4a194e50a7c353ce533e71cf24926799ac5dbc5824b8ac95be3afc66bc20c93873e439e3ba1a8bc33c240fe9b20908f33bc9fb6ab57614887f56aaeef5b52"
 
 RPROVIDES:${PN} += "config-tpm2-0-tss \
 tpm2-0-tss"

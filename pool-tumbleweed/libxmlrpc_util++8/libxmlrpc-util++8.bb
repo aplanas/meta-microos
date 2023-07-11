@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause & MIT"
 
 PV = "1.54.06"
 
-RPM_NAME = "libxmlrpc_util++8-1.54.06-1.3.aarch64.rpm"
-RPM_HASH = "c5458f4aef0e32a045e516b2f9dc7260926db41899b68537555524acf31c3101c2be57e4c2c4ca1df66217b5b2bbef2228fc0422465ffdb1135159403c8ec0dd"
+RPM_NAME = "libxmlrpc_util++8-1.54.06-1.4.aarch64.rpm"
+RPM_HASH = "48aa2f088a92e13bf573ae5358f84bcfc9e2a4b52054d74a29ca0853b8f1b6eebef86c371d20c808fe174292ac6b540189c619cde59f8d9c7b0a45d61afe9f36"
 
 RPROVIDES:${PN} += "libxmlrpc-util++.so.8 \
 libxmlrpc-util++8"

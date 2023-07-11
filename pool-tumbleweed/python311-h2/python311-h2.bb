@@ -7,11 +7,12 @@ LICENSE = "MIT"
 
 PV = "4.1.0"
 
-RPM_NAME = "python311-h2-4.1.0-3.1.noarch.rpm"
-RPM_HASH = "a99b3a7d7b3efc3fff6948b76bdcb44a9ea723910a12e3445deaa7fb28900524ec9379bae69118e12d662cbce673c021461e33fd17ca795e76babf211eee3f20"
+RPM_NAME = "python311-h2-4.1.0-3.3.noarch.rpm"
+RPM_HASH = "ae1063f342afd3399e04edb53623b9170f34ac82ad59d79fbe7d4666decfbda6d00f2e0abe75bb9c91df73d03432297d710987e318157cffd3e90481fff2587d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-h2 \
+RPROVIDES:${PN} += "python3-h2 \
+python3.11dist-h2 \
 python311-h2 \
 python3dist-h2"
 

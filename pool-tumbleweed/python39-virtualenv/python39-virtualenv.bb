@@ -17,10 +17,10 @@ virtualenv environments (and optionally doesnt use the globally installed \
 libraries either)."
 LICENSE = "MIT"
 
-PV = "20.23.0"
+PV = "20.23.1"
 
-RPM_NAME = "python39-virtualenv-20.23.0-1.1.noarch.rpm"
-RPM_HASH = "4a2979012957df3e986bef6d724eb8d8a6d5e93111b8a77376084f1eca7a25213bbe89e7b4fb9c73dcdee17595e204682fa6df21e177b65cbb56f2f69ab82d13"
+RPM_NAME = "python39-virtualenv-20.23.1-1.1.noarch.rpm"
+RPM_HASH = "bb7f3e7ef8acc8d47805cde472ca1d1edfc44845f662e36181a26104aa484aa990cd9debe0be93346802b5440e62406a7cf055173d5a5d77c3635c6b5c48f2d1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-virtualenv \

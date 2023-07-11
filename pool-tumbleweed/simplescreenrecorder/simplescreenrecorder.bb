@@ -34,8 +34,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.4.4"
 
-RPM_NAME = "simplescreenrecorder-0.4.4-2.7.aarch64.rpm"
-RPM_HASH = "1425a40a42dcc1df798ee0669bafe7a7082a9ba43134154808b83076be6e21999cc224b2aeb17b428f601cdcb6d887c6af2f69a3f5c466dc26a362f3f701fbfa"
+RPM_NAME = "simplescreenrecorder-0.4.4-2.8.aarch64.rpm"
+RPM_HASH = "5c0755161be3a369ac9e38143c7394ffa57f75c4076eb7818ab6500e7572998357694a922e7141c8895475af5fcf0e5f0cb61eac7848de9e6a13cc99807c1e4d"
 
 RPROVIDES:${PN} += "simplescreenrecorder"
 

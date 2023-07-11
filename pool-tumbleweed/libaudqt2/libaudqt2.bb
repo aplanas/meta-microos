@@ -2,10 +2,10 @@ SUMMARY = "Qt GUI implementation of Audacious"
 DESCRIPTION = "Library from the Audacious audio player."
 LICENSE = "BSD-2-Clause"
 
-PV = "4.3"
+PV = "4.3.1"
 
-RPM_NAME = "libaudqt2-4.3-1.3.aarch64.rpm"
-RPM_HASH = "24cfe03c3f8d589616c312d8c983a586039f133aad8a9a5603cbd4b0b49c66fb36e70e870a713d2d16bdc11777b0f17cbe156f2caf2a6399f1afaad336137c5c"
+RPM_NAME = "libaudqt2-4.3.1-1.1.aarch64.rpm"
+RPM_HASH = "d15a8eddae4559f230cf6f4ba977bca36ea9c8babf6c1f8f7b61e616f63715427d4aba94acf39d8f4fbe3370bab4ce511255679ea15b2023a7729f1db9ea61a4"
 
 RPROVIDES:${PN} += "libaudqt.so.2 \
 libaudqt2"

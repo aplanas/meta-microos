@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.18"
 
-RPM_NAME = "neard-test-0.18-1.3.aarch64.rpm"
-RPM_HASH = "aed7e88d020c09b17e6ddb6a16bfce90d43a616291fe8089c3f3dfcb6578d33b406fae1fb8429694a6f7d9a94a9c5e63aff118e88b44681eb233b9e976635c24"
+RPM_NAME = "neard-test-0.18-1.4.aarch64.rpm"
+RPM_HASH = "6ce3e55ab53d2a51b2e73f79cd85e4444f5bf4d550577f1a5ed7ca207936da19e2c7518fef0ba0fe25b23c7623e6ee0806c63b7e633603accf746d86bc743c7a"
 
 RPROVIDES:${PN} += "neard-test"
 

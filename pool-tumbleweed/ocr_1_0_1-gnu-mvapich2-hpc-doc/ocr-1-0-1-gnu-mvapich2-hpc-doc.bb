@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.1"
 
-RPM_NAME = "ocr_1_0_1-gnu-mvapich2-hpc-doc-1.0.1-5.9.aarch64.rpm"
-RPM_HASH = "53861106b72372a8ea01c10743a247d8fa7a6fda48df7fa73bc02084a40201cea187643cba6ae10d34296089feefd5f252635268d7894a4d4eaae51c8b382c76"
+RPM_NAME = "ocr_1_0_1-gnu-mvapich2-hpc-doc-1.0.1-5.10.aarch64.rpm"
+RPM_HASH = "c3172777f3d08ea7032d3e91065bb6ebc4ffa2d66de8dd5462dcec7cee97fb3ba2b8edd04f9d955cb14eac3ee5dd4e82e380ac1aba2f9c0df7c509add054e8d2"
 
 RPROVIDES:${PN} += "ocr-1-0-1-gnu-mvapich2-hpc-doc"
 

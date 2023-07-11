@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "2.3.1"
 
-RPM_NAME = "python39-kiss-headers-2.3.1-1.3.aarch64.rpm"
-RPM_HASH = "a85c30155755775b2a95872c4f94a6f00951beef3c23a04d86e037f1277da51445975b24528c6be5b1f1ec26e17b353ef5d6a98b7da7d2f0aed4091ce2b92b1c"
+RPM_NAME = "python39-kiss-headers-2.3.1-1.4.aarch64.rpm"
+RPM_HASH = "d107e0839d47fb70e7c40d64185a05df0824f6fc8040d8ea471fa87f4617e799035e9a44b98f46bd9336501ff0e2d57aae08e33b3245b37baaad3da7c4898944"
 
 RPROVIDES:${PN} += "python3.9dist-kiss-headers \
 python39-kiss-headers \

@@ -12,8 +12,8 @@ LICENSE = "Artistic-2.0"
 
 PV = "2.000"
 
-RPM_NAME = "perl-Redis-2.000-1.1.noarch.rpm"
-RPM_HASH = "1e6bef2e7f239ad1429cc55c9446d89aa84013ff477398d26f2042b492bf01f5b02452f5879ebae73f7ac331d34df485b9832acb01f9f2ca3e8efb9d40b38f64"
+RPM_NAME = "perl-Redis-2.000-1.2.noarch.rpm"
+RPM_HASH = "057efdbdbfa507f96e46b707113a7a246d1aa293cb8a3a7f3c4a2d50e829f5661356e11ba9ad73364519d878c3eb9c6957b9f7f6ca5cef0b68eed08724e1cd69"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Redis \
@@ -21,7 +21,7 @@ perl-Redis--Hash \
 perl-Redis--List \
 perl-Redis--Sentinel"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-IO--Socket--Timeout \
 perl-Try--Tiny"
 

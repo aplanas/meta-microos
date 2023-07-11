@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "3.2.0"
 
-RPM_NAME = "commandergenius-3.2.0-2.1.aarch64.rpm"
-RPM_HASH = "d4418ab66f4bb68e743d394cd04495c42b44a86750a44c1e1dbd6c8c6cad0066e07f8d11fa3c0c7a33229d7c00f4a367beeb4a2025d34241211b8d458e37e416"
+RPM_NAME = "commandergenius-3.2.0-2.2.aarch64.rpm"
+RPM_HASH = "8ecc0a3a129ef9835b6844cac6d871dbeaa27589e7fd656111167ee5647d4cc8411ef11e15b641dbf000a6e533d010b3e74bb4c9e799aa6e579f05968c0fff2a"
 
 RPROVIDES:${PN} += "commandergenius"
 

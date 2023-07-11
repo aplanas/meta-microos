@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.4.1"
 
-RPM_NAME = "shibboleth-sp-3.4.1-1.4.aarch64.rpm"
-RPM_HASH = "9fbb21773f652c44fb27eeb52e3a62bcaf6e69c8f2e6a91827190f2cdc2cd12490ae01083bb54495138204f48b463e6ea7070caf59dca9f30b425be0dfab2d63"
+RPM_NAME = "shibboleth-sp-3.4.1-1.5.aarch64.rpm"
+RPM_HASH = "b2ad1eb7916b5fdfab6ac9862bd2c23221c491b792b39506f390f889ef62af8aac6732c9ca8e4c4ce29e91dd6e06d219d792c9bf5934f19de1cdb2f7f9179324"
 
 RPROVIDES:${PN} += "config-shibboleth-sp \
 shibboleth-sp"

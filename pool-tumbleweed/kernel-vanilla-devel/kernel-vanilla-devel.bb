@@ -3,15 +3,15 @@ DESCRIPTION = "This package contains files necessary for building kernel modules
 kernel module packages) against the vanilla flavor of the kernel. \
  \
  \
-Source Timestamp: 2023-05-29 06:22:29 +0000 \
-GIT Revision: 2c66b1f470678d30f7dc560d1f3770e6e13b5e65 \
+Source Timestamp: 2023-06-22 03:53:43 +0000 \
+GIT Revision: 0df701dd2c208f4843cf219b4b26b533ada9bd34 \
 GIT Branch: stable"
 LICENSE = "GPL-2.0-only"
 
-PV = "6.3.4"
+PV = "6.3.9"
 
-RPM_NAME = "kernel-vanilla-devel-6.3.4-1.1.aarch64.rpm"
-RPM_HASH = "ad5ea5b32fccaa15a802e7a4ae151f4db7ee3dddb7e454e1ad7e7a831d0c0b2cc0d012c45f8eda4ab4045c9896ece27c22b35862403c6d4f52f513018b824a9e"
+RPM_NAME = "kernel-vanilla-devel-6.3.9-1.1.aarch64.rpm"
+RPM_HASH = "acdc267e3f4bc84e66f63307fa0d45aaef6acfe9ba680efcca5b141a36d15729e56057b13a1b27590c1713c577df778d7924d1a100d2a7fbf516d4a988e112f7"
 
 RPROVIDES:${PN} += "kernel-vanilla-devel \
 multiversion-kernel"

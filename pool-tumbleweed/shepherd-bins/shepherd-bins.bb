@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.8.1"
 
-RPM_NAME = "shepherd-bins-0.8.1-1.9.aarch64.rpm"
-RPM_HASH = "75dc6e0cdc216d9c30116fff1e6e3fa60ff6f9b23eec8d7c8dab96b4d232455eb299214336fc74908b596a4f103e50459caeb39adf97145108641e25761568c9"
+RPM_NAME = "shepherd-bins-0.8.1-1.10.aarch64.rpm"
+RPM_HASH = "c14854ffeb1b0772e517aa135c70a7937c52356cb5485f923e0693f3d4b0909ba379d48bfdb52c222180ec7b2dfc4bf6b0ccccabc5a42f039483b72bccdba8c6"
 
 RPROVIDES:${PN} += "/sbin/shutdown \
 shepherd-bins"

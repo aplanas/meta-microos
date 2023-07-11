@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause & MIT"
 
 PV = "0.60"
 
-RPM_NAME = "python39-oletools-0.60-3.10.noarch.rpm"
-RPM_HASH = "63d418d3294a9e45041d0afd3a54d4ee25e0363f65a60270e770d6cc5728506a64c6c0c9c8ff0928689c64eae5b57c99c54f4c4b19b704e0b73c24335548b21e"
+RPM_NAME = "python39-oletools-0.60-3.12.noarch.rpm"
+RPM_HASH = "e0538e7859b1c4719071043469ef58ebf50c0403b940313af07a7c73bf94eadd76a38e645f08ac4522df23f66ccd3ed8933dc7547d92e1302e4a7e428762fe60"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-oletools \

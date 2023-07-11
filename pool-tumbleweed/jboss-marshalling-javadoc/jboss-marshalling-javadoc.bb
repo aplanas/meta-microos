@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & LGPL-2.1-or-later"
 
 PV = "1.4.11"
 
-RPM_NAME = "jboss-marshalling-javadoc-1.4.11-1.20.noarch.rpm"
-RPM_HASH = "cc85e41c94eca64f762c212cd2a91cd83ddefde24cf57af526a510884842b1a47486190e262be28bbcaa1ca11e3cd9c3bce256fe95b53ca91630be18625571a0"
+RPM_NAME = "jboss-marshalling-javadoc-1.4.11-1.21.noarch.rpm"
+RPM_HASH = "8d1d5a9a2eebcccd852cf5fd27937efa72e1228ea69a963daa1e343b9e2930f2ea759a1e45463f8e6e896f5f3afb68c6091f3ecede5ce6e7594605ce25700dac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jboss-marshalling-javadoc"

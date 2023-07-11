@@ -17,12 +17,11 @@ LICENSE = "ZPL-2.1"
 
 PV = "3.6.1"
 
-RPM_NAME = "python310-ZConfig-3.6.1-1.3.noarch.rpm"
-RPM_HASH = "d40245eef15116c6eafae52b686afcf716b491da074c24d32023317736e9e7204f19920b88c4fd4483c7052e8a906c403df7ac8a2a1fbb61e8879b64f52becdf"
+RPM_NAME = "python310-ZConfig-3.6.1-1.5.noarch.rpm"
+RPM_HASH = "cdcb549ddd4ae4ad4095bbe80cea0391df89ae18104065e3c463803e0c804b602ea87834c2c0c3a270045f6e7d41156f008c225c3db85dce933abee26dc0b98e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-ZConfig \
-python3.10dist-zconfig \
+RPROVIDES:${PN} += "python3.10dist-zconfig \
 python310-ZConfig \
 python3dist-zconfig"
 

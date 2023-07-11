@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.13.5"
 
-RPM_NAME = "liblttng-ust-python-agent1-2.13.5-1.3.aarch64.rpm"
-RPM_HASH = "90c09713772ed98e81fd89360cc1073dc8eb066d4b4b20ce0e9fa29ed2b24e1b9a8cc5a91e89e6aa84ba9acbb5d59738b9b4a93cee4a8edf2bfd8a97c83d181f"
+RPM_NAME = "liblttng-ust-python-agent1-2.13.5-1.4.aarch64.rpm"
+RPM_HASH = "1d097d87c2f911059f2a8d157cbb439759b843a0d67d8a61581a4a5161d61f994270c49ed600ca4276f7b7a1254bca296fca7719d97a72c4023b317fc1254857"
 
 RPROVIDES:${PN} += "liblttng-ust-python-agent.so.1 \
 liblttng-ust-python-agent1"

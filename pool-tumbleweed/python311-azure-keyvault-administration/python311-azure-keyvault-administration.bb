@@ -10,11 +10,12 @@ LICENSE = "MIT"
 
 PV = "4.3.0"
 
-RPM_NAME = "python311-azure-keyvault-administration-4.3.0-1.2.noarch.rpm"
-RPM_HASH = "aba34ee57192ac0d5bee281ee5dce8a432dfb00de48b257d05d0b5f0d4762a25360ec62cc8454b50c716f2ccd0da8fdd7a516215acfea683efc9175bd2ddf101"
+RPM_NAME = "python311-azure-keyvault-administration-4.3.0-1.4.noarch.rpm"
+RPM_HASH = "a006ac7e331a0875e6b723498f9eddf94e4a072bcbbde564f9a31528820f212960d886e68e04ba9ce96bbd55623ab62537a48748c7222abd550b764f1e20f05c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-keyvault-administration \
+RPROVIDES:${PN} += "python3-azure-keyvault-administration \
+python3.11dist-azure-keyvault-administration \
 python311-azure-keyvault-administration \
 python3dist-azure-keyvault-administration"
 

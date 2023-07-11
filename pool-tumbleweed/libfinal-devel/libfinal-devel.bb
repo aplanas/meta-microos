@@ -10,8 +10,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.9.0"
 
-RPM_NAME = "libfinal-devel-0.9.0-1.1.aarch64.rpm"
-RPM_HASH = "8fa102ed6fc960e1ab5311c8165ac017241b35c585e91c8d93e740c74e03a3bad6b02856f2a6a4b054a92e73ee30a5d8df810bfeb1cfe52355a3242d13e78055"
+RPM_NAME = "libfinal-devel-0.9.0-1.2.aarch64.rpm"
+RPM_HASH = "2396d54ea69049dca682399b85e0927c494ae1d3a8eb740b2caa51f44bcc2176ea4712a0676715c271004173c0ce59cb359903d4428136e0d4b57b349ea44488"
 
 RPROVIDES:${PN} += "libfinal-devel \
 pkgconfig-finalcut"

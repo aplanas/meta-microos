@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.13.4"
 
-RPM_NAME = "libqscintilla2_qt6-15-2.13.4-1.5.aarch64.rpm"
-RPM_HASH = "f460a918a01e0552c4547e20c5cf34e6243ea827179d83bad0aa885f86b47ccf2285ecf41da0323e1fa8221559e6cc429065e74c8db92325eff26cfbedeee1b2"
+RPM_NAME = "libqscintilla2_qt6-15-2.13.4-1.6.aarch64.rpm"
+RPM_HASH = "bbb1eb623472da29f41fc973fd9764453ec37bede544e34b4b9bf46305457a2182375798774cf82cd44184cf00aa3c0d13d2a4f7cbf093b7311a8462975ce1b4"
 
 RPROVIDES:${PN} += "libqscintilla2-qt6-15 \
 libqscintilla2-qt6.so.15"

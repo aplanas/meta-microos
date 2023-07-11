@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.28.1"
 
-RPM_NAME = "genders-perl-compat-1.28.1-2.3.aarch64.rpm"
-RPM_HASH = "daca81bf0e32dd1e00eab74cec6c762c1cadfb7d15a13b7be81608f892280e22c5ca6a32d311fcc88100810e46a4c38c2f99b4a64bb97f73f3bc39b770f6f0c6"
+RPM_NAME = "genders-perl-compat-1.28.1-2.5.aarch64.rpm"
+RPM_HASH = "a9358c93a979f6a4821975aa548e985e528ffeec7cd4db6550d9bf0352f48276d46f5bf9859f27b557df75081c8be54a5fa3635a22b337f8f83aab3397e1e334"
 
 RPROVIDES:${PN} += "genders-perl-compat"
 

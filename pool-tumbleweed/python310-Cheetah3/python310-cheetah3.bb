@@ -11,13 +11,10 @@ LICENSE = "MIT"
 
 PV = "3.2.6.post1"
 
-RPM_NAME = "python310-Cheetah3-3.2.6.post1-1.9.aarch64.rpm"
-RPM_HASH = "dfedeaf6cd994c1a3b544223591d5c8d2bd98275018c9945da2a11529108b0b55cb0cb87dcbe7052a14caba0e9b6d0be4b6069512af62468bc988a9d7ce4efb0"
+RPM_NAME = "python310-Cheetah3-3.2.6.post1-1.11.aarch64.rpm"
+RPM_HASH = "36de0d1b1aa74cdd2fb441aa2d642fca395af1baedb1f268cc3f541a14930ee75b62d0f7930bf1853b06b4c993288bb12aaa5af04c4d27f210c4b1dca01de36d"
 
-RPROVIDES:${PN} += "python3-Cheetah \
-python3-Cheetah3 \
-python3-cheetah \
-python3.10dist-cheetah3 \
+RPROVIDES:${PN} += "python3.10dist-cheetah3 \
 python310-Cheetah \
 python310-Cheetah3 \
 python310-cheetah \

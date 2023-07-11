@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "2.03.16"
 
-RPM_NAME = "lvm2-lockd-2.03.16-6.3.aarch64.rpm"
-RPM_HASH = "b76a4bbb92da8def7e7d644efacc82af32831002b60ade4af9db95ab8e6c42d12a4e228696afb93a473f801f6b18fb60c70a33ad1190d49e6d6816e4fadf97dd"
+RPM_NAME = "lvm2-lockd-2.03.16-7.2.aarch64.rpm"
+RPM_HASH = "b16b2657425ff36584dc82daa8d1dc1615f9773ea5ab9d49e378e0ff9da471095951fa09bf6e442d0587e55865d515213e5b1407455f112a0b7892302fc14aaf"
 
 RPROVIDES:${PN} += "lvm2-lockd"
 

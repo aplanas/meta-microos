@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.13.0"
 
-RPM_NAME = "javapoet-1.13.0-1.1.noarch.rpm"
-RPM_HASH = "6370ecf843e1d53733c222ab152b6e716fe6e339f4185acbdae3450a08ada30d29b2d5fa34673bd62a4e67d136c0c04801aac7c959d73a0ad979a1760413dd0a"
+RPM_NAME = "javapoet-1.13.0-1.2.noarch.rpm"
+RPM_HASH = "8eddfa6905e73a49fde480ba72ea9d9a249782cee81c7db4a3c6192129fad7e090734840829e0ea6fbaa733f454218bf1e36e0d6401b37e50139ee4a67019946"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "javapoet \

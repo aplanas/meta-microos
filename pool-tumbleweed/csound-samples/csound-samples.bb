@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "6.18.1"
 
-RPM_NAME = "csound-samples-6.18.1-3.1.noarch.rpm"
-RPM_HASH = "de0d67da14f95fad02f0e0d58c2119c6c4355de03053075096641889858e5c4f755bc9a750fefc24b8d06f77e8a2fc595cf497d5b06b132986bdfb3c1e4f4654"
+RPM_NAME = "csound-samples-6.18.1-3.2.noarch.rpm"
+RPM_HASH = "afae4376d3a7af4c125569439cc09b54a4f2fa98efbe1818cb7b158316022b1267c62d87876279b98eab68f2afe486bc8f6e71bff1515243fce61dd5359ca24f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "csound-samples"

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "4.3.4"
 
-RPM_NAME = "python39-python-engineio-4.3.4-2.2.noarch.rpm"
-RPM_HASH = "ca819df8776562f3999c6075a1a0cf74d5d42700f686abd30a49ba67b4cba71ccb502cb095f580a76085cc8c1c1b9661e1cf494c9a2812919e022f558f78044f"
+RPM_NAME = "python39-python-engineio-4.3.4-2.4.noarch.rpm"
+RPM_HASH = "dc5673687f77086b0c1da802cb91f4bcc76b19d165351e98048cdf6848523d92638831e86d2e58c6f1ce05e03a20fd17dea7cf5029cae9f6d03d8c1fa6333c21"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-python-engineio \

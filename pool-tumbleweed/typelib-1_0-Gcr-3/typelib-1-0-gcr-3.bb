@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.41.0"
 
-RPM_NAME = "typelib-1_0-Gcr-3-3.41.0-3.3.aarch64.rpm"
-RPM_HASH = "6814ca3fa3d1e05222b8937f4a4ca8d547abdb9b8b545061e8694ae1a12f8e2c491d5b2f054fbc0e50c9ddb073ffc4776e5ed796cca93473ab7354890383ba61"
+RPM_NAME = "typelib-1_0-Gcr-3-3.41.0-3.4.aarch64.rpm"
+RPM_HASH = "6fb0c26d24baec9f90f3cb30fcecc1735ccbe7d716b51c71299ab5355e52b51a7f6fd2b3c1886a0aedb9114bb76cf9ec26e7c211a3f59a14b4cea2172694c375"
 
 RPROVIDES:${PN} += "typelib-1-0-Gcr-3 \
 typelib-Gcr"

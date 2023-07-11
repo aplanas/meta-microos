@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.31.3"
 
-RPM_NAME = "mpg123-devel-1.31.3-1.2.aarch64.rpm"
-RPM_HASH = "a1df71d1d4775e5ed81e4edac2b34c11f9285d220e53918d396a609a4b604870e6b9407016b23a7168d91c95e0d8af62ddc15b5bbefe2d1d55d0b9bf0d8dd2e0"
+RPM_NAME = "mpg123-devel-1.31.3-1.3.aarch64.rpm"
+RPM_HASH = "ed56be99b33403400a3c19af2c5bc7d451514b10c473886dbb97dfaad65584486192313335f6eca94a1db0e5e5143cc3f510447b8c67fd8d8eca09a43e2f6c7c"
 
 RPROVIDES:${PN} += "mpg123-devel \
 pkgconfig-libmpg123 \

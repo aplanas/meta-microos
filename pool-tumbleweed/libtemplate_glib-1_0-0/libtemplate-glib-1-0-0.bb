@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.36.1"
 
-RPM_NAME = "libtemplate_glib-1_0-0-3.36.1-1.3.aarch64.rpm"
-RPM_HASH = "b7d6d3ce2ad18e9d46048ddc6460527e416c5085db00b01b86ac028781da7dd689d8c6a73a3f33504203e2bede5daf8e908831dad1d5830b25601d98e8b1025f"
+RPM_NAME = "libtemplate_glib-1_0-0-3.36.1-1.4.aarch64.rpm"
+RPM_HASH = "a5e274e26b38fa6a08bce93989cdef0143d9b5252fbba81d6fc051ac93ecb618449e86e2c572a54dfa03bbd249c1058a9b80e6b21b58ea238d97762101c7e70f"
 
 RPROVIDES:${PN} += "libtemplate-glib-1-0-0 \
 libtemplate-glib-1.0.so.0 \

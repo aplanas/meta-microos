@@ -16,8 +16,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.1"
 
-RPM_NAME = "python39-webencodings-0.5.1-5.1.noarch.rpm"
-RPM_HASH = "c53949457b7e0070a3a14321de490a92f48c2946a761180e91d72277a24f192ec871f7193edb30b69263b61bb014593b6a64c477812641164e386afbbe633d0d"
+RPM_NAME = "python39-webencodings-0.5.1-5.2.noarch.rpm"
+RPM_HASH = "93e9f345543ee23053a6e1ea6c046d483838d5dfe67d469ab28e1320c52066bfb28efb53cc71107e474a38a25cd210d9bec05ea43b9dc62d3d2c853ddd87e6bd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-webencodings \

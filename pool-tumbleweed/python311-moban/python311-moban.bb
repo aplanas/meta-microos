@@ -8,11 +8,12 @@ LICENSE = "MIT"
 
 PV = "0.8.2"
 
-RPM_NAME = "python311-moban-0.8.2-2.6.noarch.rpm"
-RPM_HASH = "04ccd0a65c4314a1546b766e0c1be704babd2288e6ab1ae3b10bc88b39bfb938738b6333f6aea205e2221bddba66f8dfe0c18914c1f93197294c4565ab9b456c"
+RPM_NAME = "python311-moban-0.8.2-2.7.noarch.rpm"
+RPM_HASH = "e5729bb17e86808ffeaff6a378dea30e1f5488bc94e8cbf555120af89d9ca96259cdfa4ee376577ef3b2ded25c48e35b09c1c74a43e7062bacfe55f9aa2a910c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-moban \
+RPROVIDES:${PN} += "python3-moban \
+python3.11dist-moban \
 python311-moban \
 python3dist-moban"
 

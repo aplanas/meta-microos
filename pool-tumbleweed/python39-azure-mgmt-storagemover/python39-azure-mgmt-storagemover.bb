@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python39-azure-mgmt-storagemover-1.0.0-1.2.noarch.rpm"
-RPM_HASH = "52bca73f51024c6f5f7866e245cab794b8ea130b8dd9735c2aaf3043dd2f1d05857835270e715f999cab75fcf54921b6ed05a961ed3aa616409d16fea1563020"
+RPM_NAME = "python39-azure-mgmt-storagemover-1.0.0-1.3.noarch.rpm"
+RPM_HASH = "0c818441fcc56012f77dda5e53218d4b694f56061c20f7d3f48539c916f9c4ee97c0ddadfea9a92c5af4af0b4ca8fc310f784c2121e1f0db7a2b2d8fd6a5a2b5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-storagemover \

@@ -6,8 +6,8 @@ LICENSE = "FDK-AAC"
 
 PV = "2.0.0"
 
-RPM_NAME = "libfdk-aac2-2.0.0-2.7.aarch64.rpm"
-RPM_HASH = "bb6eadfe046fd29829ad43bb231267ebaf40cb575fd9691479266818720927912a92d871d52b0bcaaf3ce20385bdd7c3dcba565855f931376c70c19f211dfc1d"
+RPM_NAME = "libfdk-aac2-2.0.0-2.8.aarch64.rpm"
+RPM_HASH = "d5d75a4bfe53bef62ca41fec73ed687244975360f722575dc24731d266767ecdb17e7caf1ea5cee1ecada155dd58e97ea25980ed595a1d090ec10e07306436a9"
 
 RPROVIDES:${PN} += "libfdk-aac.so.2 \
 libfdk-aac2"

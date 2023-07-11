@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2022.10.3"
 
-RPM_NAME = "ntfsprogs-extra-2022.10.3-2.3.aarch64.rpm"
-RPM_HASH = "f4adb9e59ebe215ad52506b9ca89aa1701a948ee2ade2848080d043906bfe34737ff72ca4fd6b0aa3ed4c19ae2df52d3cca619a4b8d8d792da3bcb96c42c27e2"
+RPM_NAME = "ntfsprogs-extra-2022.10.3-2.5.aarch64.rpm"
+RPM_HASH = "2feab7ac4473e6a9b04823e611596a98918c323e08b0adbd5219c6b43a48a34771477e20b0ecd1e96a2f2b4bb19bfcc7ea1ffbb5b6a0013f94bccdf3eb1bef25"
 
 RPROVIDES:${PN} += "ntfsprogs-extra"
 

@@ -8,8 +8,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "4.0"
 
-RPM_NAME = "python39-boolean.py-4.0-1.3.noarch.rpm"
-RPM_HASH = "beb9491f7249dda440cc1f10f2d8626445df5a04e8d1760bef83850b5b6704712c592f520eb4efaf1943a6f1876dee09c1f9720d562761e2a81e6eadeb46cfa5"
+RPM_NAME = "python39-boolean.py-4.0-1.5.noarch.rpm"
+RPM_HASH = "43f187a1bdbf4ef6306c4f5d891ad7190b7f6a74f3fba37f1016741f5bc8e987db7855a915cb5085bbe004d95865f9d0a467c0a2f96090fd8d5770f6cb1ae154"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-boolean.py \

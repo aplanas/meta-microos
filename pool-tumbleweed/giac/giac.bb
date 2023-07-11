@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.9.0.27"
 
-RPM_NAME = "giac-1.9.0.27-4.5.aarch64.rpm"
-RPM_HASH = "26415d47b11c1b4a4dd2695b28b66bbb990b7eeed3e86c46d482d96506360817a4e09a25f7eb776f0aeb8d26f1f4741dbad21dc41d628ef054c3a4648e8fe58f"
+RPM_NAME = "giac-1.9.0.27-4.6.aarch64.rpm"
+RPM_HASH = "70ec5d1e160cdb95082b1f61469207b806e083db51dcc5e925abd91aa0bcbfd6ef2afc07bf606ac92675d07f4158f90c80bfda779496685a0bdae581eaeb735b"
 
 RPROVIDES:${PN} += "giac"
 

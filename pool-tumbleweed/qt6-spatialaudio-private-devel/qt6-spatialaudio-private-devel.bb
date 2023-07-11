@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-spatialaudio-private-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "c0b3eef5d389d7230bad8f69e4e7689084600fca50a3756fd95d91f83d0094a18a97a86619d15fe5106fa424160cd7b2a70870bb89eb4f354b90ec33a0ba89f1"
+RPM_NAME = "qt6-spatialaudio-private-devel-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "35a99cf426b350e475be537d9a6955b90e700fed2d5031bdc2f2b09812909a2b56bd5e7c29cbd980043589a0fd8833e1d7f5f54cc01c4a3d2f9942022c544433"
 
 RPROVIDES:${PN} += "qt6-spatialaudio-private-devel"
 

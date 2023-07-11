@@ -14,11 +14,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.2.2"
 
-RPM_NAME = "duplicity-1.2.2-1.2.aarch64.rpm"
-RPM_HASH = "234a159ea84ada7752df8662562e5ddb5cda41847fc72c436e8371a346197f95cca2e077674a327cdc497f6212e6cc2aa353cf371010f757278fd259f50dc0ce"
+RPM_NAME = "duplicity-1.2.2-1.3.aarch64.rpm"
+RPM_HASH = "53eee56ee6f4a84cd653e064212f9ee6fabb92c837d83ae39f02e65b27b17b6f8f4e9be91a3ce89dc9d2723c60449f6b3ace01e2ad95bfb7a20f92f5c8152073"
 
 RPROVIDES:${PN} += "duplicity \
-python3.10dist-duplicity \
+python3.11dist-duplicity \
 python3dist-duplicity"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

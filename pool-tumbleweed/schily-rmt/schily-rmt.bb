@@ -9,8 +9,8 @@ LICENSE = "CDDL-1.0"
 
 PV = "2022.10.16"
 
-RPM_NAME = "schily-rmt-2022.10.16-47.3.aarch64.rpm"
-RPM_HASH = "c68cde6129d59287ffec34a1af399b8d9b92a89fc86a79cd074c129aedff860760305f6c84aec88626eee2b1bb00b6895da53f5eff6c92ba52175d60fa6ae9d6"
+RPM_NAME = "schily-rmt-2022.10.16-47.4.aarch64.rpm"
+RPM_HASH = "abeb05ccb8870b6d81684f0bbeb723ed5785694a7d298fd1725f46dc2f9ffc38f6375e40d25cbc258212523bd783834e00cfb52fed7b28e181401a6fe0024395"
 
 RPROVIDES:${PN} += "config-schily-rmt \
 rmt \

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.8"
 
-RPM_NAME = "xfce4-cpufreq-plugin-lang-1.2.8-1.3.noarch.rpm"
-RPM_HASH = "21de5fed34ca8942bd8cfb194b7a7e7f2805e2bae59b3af2a18ef42e544f5af837406025fdeb5b12e56612a37a2a979b65b922bb6378f3e65c1f775205a644b7"
+RPM_NAME = "xfce4-cpufreq-plugin-lang-1.2.8-1.4.noarch.rpm"
+RPM_HASH = "2b469fb3add7d7293280e847a7655855277b8711f1b149dfd0af831d1ece86900984fa7a456c19901d8af403392663b2142a8e039e758cfffff979e0a0c13674"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-cpufreq-plugin-ar \

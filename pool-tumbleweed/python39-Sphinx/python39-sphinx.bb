@@ -11,8 +11,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "7.0.1"
 
-RPM_NAME = "python39-Sphinx-7.0.1-1.1.noarch.rpm"
-RPM_HASH = "2d67d6212e71406ef318c9d3e14b8aa056bd355f0b8ccc0d4ad18a888381239fac2936a377d435daacc7101b57347f91a049aa096e0b5911f06ce5f8cfb03cca"
+RPM_NAME = "python39-Sphinx-7.0.1-1.2.noarch.rpm"
+RPM_HASH = "41983b9da6e1fcda57ea96ead4d230e143f6ebe261b461b67d29b76f660d46bbd020882e993a893f56911012c1af7fdec4f1c1812c554ea3b6541ffeb9c54241"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sphinx \

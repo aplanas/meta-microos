@@ -5,8 +5,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.215"
 
-RPM_NAME = "perl-MooseX-POE-0.215-9.25.noarch.rpm"
-RPM_HASH = "22686f59c27e56f6a02c2ded73a4ffe87747049775a07ed4e863d5f81c7391c6597aec14703ffda307d8ce49d98047cd0f89fac378a20b78453610383250e737"
+RPM_NAME = "perl-MooseX-POE-0.215-9.26.noarch.rpm"
+RPM_HASH = "4ca3a578ce3b9ba90347497476fdf1d276bf2e4d6d48770b844962c3beb98c02d843b4432c84e02ae68502d1d9d809781c7f0c688b50e82bbc334550076d8e81"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooseX--POE \
@@ -22,7 +22,7 @@ perl-MooseX--POE--Role \
 perl-MooseX--POE--SweetArgs \
 perl-MooseX-POE"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Moose \
 perl-POE"
 

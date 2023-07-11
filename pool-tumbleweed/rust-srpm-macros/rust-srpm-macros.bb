@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "15"
 
-RPM_NAME = "rust-srpm-macros-15-2.16.noarch.rpm"
-RPM_HASH = "7ce30f0bd2e153d6fbde28fdcf5b7f37de0df3dc0bca552a6fb618ac91afdd36178cddf456bf90ef76294ba7e4e81798c81ea24fc0149c7cacb16a71f19a3aa7"
+RPM_NAME = "rust-srpm-macros-15-2.20.noarch.rpm"
+RPM_HASH = "9ea0bf65d752d1032165ec3474e65ac1c606c4f0d72ff7e7a6c766df5b346917bdb3ca1a937345b2821ad74f964843a202b88d258d9e72dd56c95e48f6a3af83"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rpm-macro-crates-source \

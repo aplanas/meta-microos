@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "7.1"
 
-RPM_NAME = "testdisk-7.1-4.13.aarch64.rpm"
-RPM_HASH = "bd957bf52e51d02877babea245e3d43234a008b145cfcf1c5110ff9008bbd6f4445dc14bafa50d9eca2299c06beeebf1761a60b3d33c86bb51cd6bcab18a6f98"
+RPM_NAME = "testdisk-7.1-4.15.aarch64.rpm"
+RPM_HASH = "bd87fa2682fbdf28c4015fa77e5aa11d013c42d90b30cdb2cddfb9a8442e695ffe78a1497007516e23b2244cf24a87e5ca28a2785f0625f0641eb57ba3a1ca36"
 
 RPROVIDES:${PN} += "testdisk"
 

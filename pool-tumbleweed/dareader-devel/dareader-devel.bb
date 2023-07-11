@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0+"
 
 PV = "0.0.0+git20220726.2d7d79c"
 
-RPM_NAME = "dareader-devel-0.0.0+git20220726.2d7d79c-2.2.aarch64.rpm"
-RPM_HASH = "0784cbbb70a74241ff7b8ad1fa1a4bed3c609e80650f7cf51d2b5e1d137ae0416bbf2d042540724b40089ca25a59fd6f67e22132c589d8a07cf633d956980b0e"
+RPM_NAME = "dareader-devel-0.0.0+git20220726.2d7d79c-2.3.aarch64.rpm"
+RPM_HASH = "509e573489a35e87abd6f7c2ed564445ec1798cd7724da5b3b047d3b7d9280e97ca6b06e6d927eb7aae71a699e9d1f4ca71b0bc6f271ce13fed1a80719607d41"
 
 RPROVIDES:${PN} += "dareader-devel \
 pkgconfig-dareader"

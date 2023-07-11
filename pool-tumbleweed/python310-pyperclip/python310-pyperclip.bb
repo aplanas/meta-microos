@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.8.2"
 
-RPM_NAME = "python310-pyperclip-1.8.2-2.1.noarch.rpm"
-RPM_HASH = "92ab1da229093e67f4c84488444a007ca463ef4629fbfd37ef6f78238d298f453d3a52d27302aac367ccc2a8daa8c7c690b10cd98bb312163ce3a6a6bcb030fd"
+RPM_NAME = "python310-pyperclip-1.8.2-2.3.noarch.rpm"
+RPM_HASH = "a9645fa58a7c911e18ea5491c31a96a29463bf9d1de62dae5595bc7d6116b5ab4400bd7225605f8607e34ed29eb57daf17f24576f7fb55da1b6026d5628e8083"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pyperclip \
-python3.10dist-pyperclip \
+RPROVIDES:${PN} += "python3.10dist-pyperclip \
 python310-pyperclip \
 python3dist-pyperclip"
 

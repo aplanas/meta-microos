@@ -52,14 +52,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.25"
 
-RPM_NAME = "perl-Test-Spelling-0.25-1.16.noarch.rpm"
-RPM_HASH = "9ca8cad3f1e7647119345184b1208e4aec71a94abc054a7dcff9ef947a1d29852c8f253191f90dbf5c06b516c0e2709a8e008c168fc648bbf38a97e17b71fe57"
+RPM_NAME = "perl-Test-Spelling-0.25-1.17.noarch.rpm"
+RPM_HASH = "1d3f7a8ede129e26d116ee8f37c96b647f0331ee679d72ecd78e3064f497adce7df6eb63bb3d8174a8702492bf1e0d1867c89f54562495a0bee0c7e58141d2e4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Spelling \
 perl-Test-Spelling"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-IPC--Run3 \
 perl-Pod--Spell"
 

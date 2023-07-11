@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "40.2"
 
-RPM_NAME = "quadrapassel-lang-40.2-1.10.noarch.rpm"
-RPM_HASH = "0dfbb93b71bf9ead1cd7222fc34ec7c15a197502d3cc78a3c5f0ed906b8d4a1dcdcf01b190bbae6f5607df268370498a53b200ccdcefa40717013e31d034f3cf"
+RPM_NAME = "quadrapassel-lang-40.2-1.11.noarch.rpm"
+RPM_HASH = "ef1edc477d860b2674092dca1fd23e0bace8b82b3a9ba13a5075a271c9c35d2e9b3746de89c0599bff036bed8254d9d5dd6c34a670f7954e024172bed12e60a2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-quadrapassel-af \

@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.8.0.ge4631e8a"
 
-RPM_NAME = "openhpi-daemon-3.8.0.ge4631e8a-3.4.aarch64.rpm"
-RPM_HASH = "3aa202b9f0f9d2f9fa0ebc9651849dcba512b18e0f4d6eda4df62a61bad94937569808ef0d4a30712474c491c9b277f5b8f9ea51353ae9af5a80d75c84ea35ee"
+RPM_NAME = "openhpi-daemon-3.8.0.ge4631e8a-3.5.aarch64.rpm"
+RPM_HASH = "df454a41ee7c508e528bc9bd97d96d16769adff3c29cfe235eaf0d9e12036087c7aa11272a09e388f92c68c93fd9e6d71456424f2456223dd8c8b1f9abdc2b21"
 
 RPROVIDES:${PN} += "openhpi-daemon"
 

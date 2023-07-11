@@ -8,11 +8,12 @@ LICENSE = "PSF-2.0"
 
 PV = "1.1.2"
 
-RPM_NAME = "python311-looseversion-1.1.2-1.2.noarch.rpm"
-RPM_HASH = "e74457d3a8ddde58d528fa00208155089f5a4c646dd660c1e99d479664ed905f05b33dcc0e47db668880cde500a0eef2ebe976336195588fa9eba6eade273e8a"
+RPM_NAME = "python311-looseversion-1.1.2-1.4.noarch.rpm"
+RPM_HASH = "19291098ce8c63e0cc54592c48c59306d7fe17706fb453a803aca369b85e246794160a58c66859352ab5d3c765be06e8498542635b487dc7227cb6da9d391cfb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-looseversion \
+RPROVIDES:${PN} += "python3-looseversion \
+python3.11dist-looseversion \
 python311-looseversion \
 python3dist-looseversion"
 

@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.7.0"
 
-RPM_NAME = "docker-credential-secretservice-0.7.0-1.2.aarch64.rpm"
-RPM_HASH = "97234e1cf0cc7d64b370698afb952b10727dd4c3443ce0e25621d5725af8dc3bf7737fd805e942f6550e607db1a77780ac645d662d0bc7fe4209f497c9765d5c"
+RPM_NAME = "docker-credential-secretservice-0.7.0-1.3.aarch64.rpm"
+RPM_HASH = "f8afab3d38b3200f47fef1b857ac80b2b35b1e32365fefe2ee0961239fddd6d083e7f6b8b5657a49b6ad56e216e78929c8e813abd04f32966df504a61740cef4"
 
 RPROVIDES:${PN} += "config-docker-credential-secretservice \
 docker-credential-secretservice"

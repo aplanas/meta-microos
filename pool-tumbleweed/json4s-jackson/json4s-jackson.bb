@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.6.7"
 
-RPM_NAME = "json4s-jackson-3.6.7-1.16.noarch.rpm"
-RPM_HASH = "5b434be2ee8af64d415dbfcff1b461bfe8cae4eb675ae193a2580374b007033e27e7139100ca8ebfe14ede216d57976187df00c4443bcf0786a7fa7a989bcd8f"
+RPM_NAME = "json4s-jackson-3.6.7-1.17.noarch.rpm"
+RPM_HASH = "e37fae9b24fc3845566c631169c70fc022805a52c4e616ec2ff8ab8e8c4abe770ea0ddd207392ab84340ccca5c08b1eaf43ff259a06557047a80203764d64d7d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "json4s-jackson \

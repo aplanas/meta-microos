@@ -5,11 +5,10 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.0.6"
 
-RPM_NAME = "python310-apfel-3.0.6-1.17.aarch64.rpm"
-RPM_HASH = "f10749aaaa9dec1707984377aaabcf4adcf20ceb594c8320d9de07299bcbb7c27ed8757c80dbd545143c65812c6eaf600780b19ea3279e13f94c5ccdc450c03b"
+RPM_NAME = "python310-apfel-3.0.6-1.19.aarch64.rpm"
+RPM_HASH = "7c9fba6aa1040a84de6aa8267bd47b15c9932da770a341735ab908846fbaf7a26669c3243a02dc0517497a1ab952d28f3479b4b7fb3f130627d423b6cd133795"
 
-RPROVIDES:${PN} += "python3-apfel \
-python3.10dist-apfel \
+RPROVIDES:${PN} += "python3.10dist-apfel \
 python310-apfel \
 python3dist-apfel"
 

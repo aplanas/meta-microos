@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2"
 
-RPM_NAME = "paprefs-1.2-1.7.aarch64.rpm"
-RPM_HASH = "5f0116dc01cb0082d776234cca233639cf9eb83c08c49a205d06d5cd54a0598199e783927e7e2c156ba762b276b788f76bb35f86fab6aec2352ae609e452ee18"
+RPM_NAME = "paprefs-1.2-1.8.aarch64.rpm"
+RPM_HASH = "11a95f6938ddd2c5ffa449430ea0fdcd8b1da9888a4985ba82c10a6ecfbf22a5eeb9d529c4c7725b10677483b439790dbaabbb24563626a3b6a8cdc2ab7fc09f"
 
 RPROVIDES:${PN} += "paprefs"
 

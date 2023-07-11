@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.0.7"
 
-RPM_NAME = "nftables-devel-1.0.7-1.3.aarch64.rpm"
-RPM_HASH = "2715114659175b6755df937bb19a67ee857763f5326c70ef6e8ae5ce74fe4e0b3ba31184abfcf2f99dd43f6a49bb31bf636cf97900f6adb9844d8b2e58e21a00"
+RPM_NAME = "nftables-devel-1.0.7-1.7.aarch64.rpm"
+RPM_HASH = "8dfb976d08a8956e0e9dd88f30357d0472b4e86a727062c9af7fb195cfaad2685b431b79240c0e66b5f89cf5902761e0febb984742635117a31879e67a66cd7c"
 
 RPROVIDES:${PN} += "nftables-devel \
 pkgconfig-libnftables"

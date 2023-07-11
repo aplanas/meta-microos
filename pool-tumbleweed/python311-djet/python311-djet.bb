@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.3.0"
 
-RPM_NAME = "python311-djet-0.3.0-2.3.noarch.rpm"
-RPM_HASH = "939a217308c15be5f5482dde6508d0ed8bfe832ca895f781ddf370f9877237506c4c4ca03feff8ccda3748ed79ed0d03565ae32cada022d35236a9b1e85760f9"
+RPM_NAME = "python311-djet-0.3.0-2.5.noarch.rpm"
+RPM_HASH = "1bd678ab00324d6768e0db08a17702c6b6649fc91d2d89746add281d73967ee130dc0994f2dcc2e0efa9aeb1adf46595e5b5662d92fc4e0b0f695a29be28c28a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-djet \
+RPROVIDES:${PN} += "python3-djet \
+python3.11dist-djet \
 python311-djet \
 python3dist-djet"
 

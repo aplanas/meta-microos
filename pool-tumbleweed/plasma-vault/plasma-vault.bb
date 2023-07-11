@@ -2,14 +2,15 @@ SUMMARY = "Plasma applet and services for creating encrypted vaults"
 DESCRIPTION = "Plasma Vault is a plasmoid for creating and managing encrypted vaults"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "plasma-vault-5.27.5-1.1.aarch64.rpm"
-RPM_HASH = "bb63472afbb59c98eabcb7ba3fe635c46a1eb2f95dccc510f5f17917ad8320c2c0c82370f06f1f410b729536abd840b8f1cdd27ed861a7518b6cc58740d3e3b6"
+RPM_NAME = "plasma-vault-5.27.6-2.1.aarch64.rpm"
+RPM_HASH = "19e7a472d85cf84bc2351309d5942485a01edea3e26f976e05d9424a2265b66c3086edf3cb7e11a952c28242fced58beded7f36d36bca155e344796d11603712"
 
 RPROVIDES:${PN} += "plasma-vault"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "/usr/bin/fusermount \
+ld-linux-aarch64.so.1 \
 libKF5Activities.so.5 \
 libKF5ConfigCore.so.5 \
 libKF5CoreAddons.so.5 \

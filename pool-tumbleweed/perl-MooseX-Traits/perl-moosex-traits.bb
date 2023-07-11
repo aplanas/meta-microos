@@ -28,15 +28,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.13"
 
-RPM_NAME = "perl-MooseX-Traits-0.13-1.23.noarch.rpm"
-RPM_HASH = "315484ae9ff9a19e75c73d51e9fd95811e0016db99b1eb8a031ca7df8822f1b7f8eef43b39a19952ab74b1307a475d4d8e6069f3ef17558bd73b21d3249f296d"
+RPM_NAME = "perl-MooseX-Traits-0.13-1.24.noarch.rpm"
+RPM_HASH = "e1a0e11d0ff794e3ec50cc889faf72370abab35b27aff69c9587de526b3467ff1e33f88bae1a65be4c37bf8046dd7b49c11b8df4a635ee7d97e52f1c86992d22"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooseX--Traits \
 perl-MooseX--Traits--Util \
 perl-MooseX-Traits"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Class--Load \
 perl-Moose--Role \
 perl-Sub--Exporter \

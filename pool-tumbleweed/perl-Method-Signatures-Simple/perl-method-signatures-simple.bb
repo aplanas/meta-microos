@@ -4,14 +4,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.07"
 
-RPM_NAME = "perl-Method-Signatures-Simple-1.07-1.25.noarch.rpm"
-RPM_HASH = "78543f656f7830530f1d1db9ff40eea445cec08fc739db0e1c96e9ada432fb66b71a5f69e9b2e5d57508efe727fcf80da9ef8d749237d17e93c7bc15aae4a723"
+RPM_NAME = "perl-Method-Signatures-Simple-1.07-1.26.noarch.rpm"
+RPM_HASH = "3ad826e3bce37aa049a9be088939f8db8169a8d73dab3a28d3ea71c3340017d36c463b5bcf3d32fa4023879b731fb18f88ae06c49afd6ab70af07538c4572228"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Method--Signatures--Simple \
 perl-Method-Signatures-Simple"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Devel--Declare"
 
 inherit rpm

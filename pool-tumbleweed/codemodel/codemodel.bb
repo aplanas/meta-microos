@@ -7,8 +7,8 @@ LICENSE = "CDDL-1.1 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "2.6"
 
-RPM_NAME = "codemodel-2.6-4.4.noarch.rpm"
-RPM_HASH = "114b3344669f74d4c01efcaffe32db7779be2a2118d145ad8b1dd1490484f4fc5de6fec96729a9f59724c1c973104a0c03d68e5b0dbedd967afca84f937f2314"
+RPM_NAME = "codemodel-2.6-4.5.noarch.rpm"
+RPM_HASH = "f5f43cf8dd8560370127804577e8df3e50034ef7734f3b5c4be653ced97550d8ec1d323f73e1dc2cba7a248b8c5d1ca5845c75d25f426208c8e0797fce47cc63"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "codemodel \

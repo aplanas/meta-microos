@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.10.0"
 
-RPM_NAME = "freerdp-wayland-2.10.0-3.1.aarch64.rpm"
-RPM_HASH = "dcc8cc2180605194070acd5d7fe422e347afbd46a3ed78aef974f3937e5dee091f6599b5371cf3b4275cb0297276747370ca051eb3e6ab969b04cf0c396a76c2"
+RPM_NAME = "freerdp-wayland-2.10.0-3.2.aarch64.rpm"
+RPM_HASH = "930753d5e60c6edf82e077c9de9a784afec96e992f66b4e0f5c18d692fde2dca6b486ce5f9cfd53585e93ee898789d568bd6fca026acb0cfd8f6fd33f6cf155e"
 
 RPROVIDES:${PN} += "freerdp-wayland"
 

@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.22.8"
 
-RPM_NAME = "libcogl-pango20-1.22.8-2.11.aarch64.rpm"
-RPM_HASH = "487d351910e347600a749b4baacbd6eedc648bd451c59c189240c46128fc5b363a4a35e72ab29fa17627d35452aba3bb9ef6a4a1505d0f1512c143800e2c9290"
+RPM_NAME = "libcogl-pango20-1.22.8-2.12.aarch64.rpm"
+RPM_HASH = "742fa9cf8cc5f0e8d038c5b0fc1644e8abc6263b16cb59e085f25b87555a969b7c09a048fdd5ccd5c041eaca8931bba791a70f4b33564ac1178706404095457c"
 
 RPROVIDES:${PN} += "libcogl-pango.so.20 \
 libcogl-pango20"

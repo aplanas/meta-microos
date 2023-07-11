@@ -4,8 +4,8 @@ LICENSE = "(Apache-2.0 | BSL-1.0) & (Apache-2.0 | BSL-1.0 | MIT) & (Apache-2.0 |
 
 PV = "14.2.0"
 
-RPM_NAME = "kak-lsp-14.2.0-1.2.aarch64.rpm"
-RPM_HASH = "235d2debfa260f777789981624a08bf6a3859c9b52e1b0d44e79c51fb1158e02de9c89e2227bcaaad3d1ce4401ef58f5fd5468ae6b53acc46ba14869497da506"
+RPM_NAME = "kak-lsp-14.2.0-1.3.aarch64.rpm"
+RPM_HASH = "2ab57c3836e8916494e50ff534b782e80ab014e31d8c25f4a189aabc91a700d7039d27f7761912afb649c9078d488a13ab2f903f301b43c61e2d05e0f8e67169"
 
 RPROVIDES:${PN} += "bundled-rust-crate-adler32 \
 bundled-rust-crate-aho-corasick \

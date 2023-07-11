@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "1.9"
 
-RPM_NAME = "python310-junit-xml-1.9-1.13.noarch.rpm"
-RPM_HASH = "0cf57e0ab32d68d580bd7919f680f244f47340ced83050720abde3e5c844dcf252167d968249a04cb7be5e5103c9a73289b9c240b242a01b7af829ad6b32cd13"
+RPM_NAME = "python310-junit-xml-1.9-2.3.noarch.rpm"
+RPM_HASH = "54b4d0d6d7f7482c26ff970e24079eaa094b1a6b1a9737629d480b15697cba6cd446e06b4dddf59b2d90f0fd4057bd3d7fc48bf0cd506e3e8f31946a5e795ed9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-junit-xml \
-python3.10dist-junit-xml \
+RPROVIDES:${PN} += "python3.10dist-junit-xml \
 python310-junit-xml \
 python3dist-junit-xml"
 

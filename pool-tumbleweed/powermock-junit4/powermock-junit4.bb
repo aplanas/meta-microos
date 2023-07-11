@@ -11,8 +11,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.6.5"
 
-RPM_NAME = "powermock-junit4-1.6.5-4.10.noarch.rpm"
-RPM_HASH = "470e34506c850b17ceca49facf3fefd6ba598626931665be14ba7e185ab8f1c16c006434f8e47e8429c62657e362ab3a5ccfd481b8f7171c7d7b070a00758f7c"
+RPM_NAME = "powermock-junit4-1.6.5-4.11.noarch.rpm"
+RPM_HASH = "6e71327a465c8da2c8642118bf0838b7d60b5a04271953b315a882189ca0f2348b1fcd3a1cbf94e37893ea43bc5b5fe35198ddee5a4b49614b7503b846194d45"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.powermock-powermock-module-junit4 \

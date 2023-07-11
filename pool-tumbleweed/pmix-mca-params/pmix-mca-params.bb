@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.2.3"
 
-RPM_NAME = "pmix-mca-params-3.2.3-10.1.noarch.rpm"
-RPM_HASH = "97c48ea9a0d780c8377ec70447025d7376809b6515a595d27147eb7399c6471c6ef8acf609cedb8d5976bc74057998853de43fa0db83b1680ee2fe861254c00f"
+RPM_NAME = "pmix-mca-params-3.2.3-10.2.noarch.rpm"
+RPM_HASH = "5f5db69b94e6ee8cf64a91cbff3ee3f4a40233a9a0856b50afc1336649764d505f34a8692d69bd7c76a980641702bb76378ecd20edfcdfb8f1f035d9b51af28f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-pmix-mca-params \

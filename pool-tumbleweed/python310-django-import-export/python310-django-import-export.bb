@@ -4,12 +4,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.7.1"
 
-RPM_NAME = "python310-django-import-export-2.7.1-1.8.noarch.rpm"
-RPM_HASH = "91ced466d1f0b22e6e9394634d64cd9f4c62172f10b657a27b19696b96fddac4438665b49f4f05101a308c25e2dffe3e596ceb64305527dd3214138bb55cdce5"
+RPM_NAME = "python310-django-import-export-2.7.1-1.10.noarch.rpm"
+RPM_HASH = "699414d8df2847f8bfc62f8985e79592b641ef40c0bd519714ce34cd7287ef68dafcbd6e35bf14aa758e76e705b20c166583654ae82f2728bf237f27d7d6262a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-django-import-export \
-python3.10dist-django-import-export \
+RPROVIDES:${PN} += "python3.10dist-django-import-export \
 python310-django-import-export \
 python3dist-django-import-export"
 

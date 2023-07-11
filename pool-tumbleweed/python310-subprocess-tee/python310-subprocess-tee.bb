@@ -10,12 +10,11 @@ LICENSE = "MIT"
 
 PV = "0.4.1"
 
-RPM_NAME = "python310-subprocess-tee-0.4.1-4.1.noarch.rpm"
-RPM_HASH = "557762ae27e7d03754242b6a4c8ed7211a65efc8e043e4bb7f6cf357a303e7c8ca8b973c6eea4b4ee8b060804109ce85c6698dfffa90c8ea4c4afc15ef123231"
+RPM_NAME = "python310-subprocess-tee-0.4.1-4.3.noarch.rpm"
+RPM_HASH = "f3eec3e736b55044fb543ecac9272f9fed0e3f5dae46d6bccfba2555c290275a5416240f64769e1b963aef2a9936230db46e4777bbb223545e54d9e4e6d0dde9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-subprocess-tee \
-python3.10dist-subprocess-tee \
+RPROVIDES:${PN} += "python3.10dist-subprocess-tee \
 python310-subprocess-tee \
 python3dist-subprocess-tee"
 

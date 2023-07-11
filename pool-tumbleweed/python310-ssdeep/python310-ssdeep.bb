@@ -6,11 +6,10 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "3.4.1"
 
-RPM_NAME = "python310-ssdeep-3.4.1-1.4.aarch64.rpm"
-RPM_HASH = "f0c6be8637af46f72f1b4c9b0eb0388161fa804faad99d022f3b429d2a8f4ed54a740c9ae422b65de456351a6b7cb7955e47dff5bddcb0f460dec8a2c3134d72"
+RPM_NAME = "python310-ssdeep-3.4.1-1.6.aarch64.rpm"
+RPM_HASH = "486c1edd951a4417909b15e373c0243101538b0a636ed9adb2ed45b724e19b052b2293123b0b757d845ffe2a9f936c532516c7db6043de9f8fa29c29fe37d8a9"
 
-RPROVIDES:${PN} += "python3-ssdeep \
-python3.10dist-ssdeep \
+RPROVIDES:${PN} += "python3.10dist-ssdeep \
 python310-ssdeep \
 python3dist-ssdeep"
 

@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.2.0"
 
-RPM_NAME = "the_silver_searcher-2.2.0-3.4.aarch64.rpm"
-RPM_HASH = "cce0a04d54837af886f6c8973b5be9d6dc5e40280d333c2d109338290fa8a4417c9e561140721af9f0503668c46b6077b109da311225995414586e759aca42f8"
+RPM_NAME = "the_silver_searcher-2.2.0-3.5.aarch64.rpm"
+RPM_HASH = "fb646d867b68bbf05bf9f0e9b32e588f4d5b9806701965c72acbbcf7760384d6e139d184d034fdb0470995c95e7f185b08dc87dbbb3eb5bc816dc0f7af819751"
 
 RPROVIDES:${PN} += "the-silver-searcher"
 

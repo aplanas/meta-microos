@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "0.9.0.g53"
 
-RPM_NAME = "libdbi-drivers-dbd-freetds-0.9.0.g53-3.18.aarch64.rpm"
-RPM_HASH = "79eb30dc7c936441972cb38cf644d6b04a10b78ebf480e978ce1711d6b3ee3ef04ad2916a0d5045d673b3e39d2d63c5762d8b366b130970aed72d647c3772ae4"
+RPM_NAME = "libdbi-drivers-dbd-freetds-0.9.0.g53-3.19.aarch64.rpm"
+RPM_HASH = "a1941a64d77d5e59cb98d201bb7816ea2968c6a23a0977e0e5f7a3dacb02f86462db34102bce10a9b65abd5af090339e319f5834ff21f40bc2550c21488a7930"
 
 RPROVIDES:${PN} += "libdbdfreetds.so \
 libdbi-drivers-dbd-freetds"

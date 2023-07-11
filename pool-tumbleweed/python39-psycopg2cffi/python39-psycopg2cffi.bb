@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "2.9.0"
 
-RPM_NAME = "python39-psycopg2cffi-2.9.0-2.5.aarch64.rpm"
-RPM_HASH = "cccded2ac678254ef18f4368beee9f6ec9c78fb86fa94f22078f7298d16ce3b0fd5c6e0d81ee3fced896ed7420e1c33c2711629b364c2424861d08e45d6aa532"
+RPM_NAME = "python39-psycopg2cffi-2.9.0-3.3.aarch64.rpm"
+RPM_HASH = "f93a183274c310f3c5a6575cf9ef331c70eccfc588d59ce740a1a9bd04cfde8bdfda8fb77900e17b582bb09b6bdf6742c407580c80665b0658f20e1d0504a556"
 
 RPROVIDES:${PN} += "python3.9dist-psycopg2cffi \
 python39-psycopg2cffi \

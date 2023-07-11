@@ -9,8 +9,8 @@ LICENSE = "WTFPL"
 
 PV = "1.1"
 
-RPM_NAME = "deepin-feature-enable-1.1-1.12.aarch64.rpm"
-RPM_HASH = "bb75313d3919fbb3ac3ea13bf4fb3cbc5891667178042b160b7fb1ef15d4305e45e139bebb53f6e3bdb48cbd0cbd468be6e69618b791b64d14560a3271b795ef"
+RPM_NAME = "deepin-feature-enable-1.1-1.13.aarch64.rpm"
+RPM_HASH = "0ee3e1d341c0675f5ec7cd67d642fde207a79cb04e416c052d81cf68519aee8d78aeb99dde18544496e33e99ca454725484c54c91bc2e45f02a0de5600077f5d"
 
 RPROVIDES:${PN} += "deepin-feature-enable"
 

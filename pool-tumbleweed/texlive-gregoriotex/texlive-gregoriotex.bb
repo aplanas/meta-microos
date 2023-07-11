@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.201.6.0.0svn58331"
 
-RPM_NAME = "texlive-gregoriotex-2023.201.6.0.0svn58331-53.1.noarch.rpm"
-RPM_HASH = "4cb2fd0918f882b4043fab3886c178d165b1cc93658d3da4b4d80b10542f78bb9a2af0a401ce3e6c77e5c8477e59a403aacfe7e3c2096618a50127bc5f78a350"
+RPM_NAME = "texlive-gregoriotex-2023.201.6.0.0svn58331-53.2.noarch.rpm"
+RPM_HASH = "8bf07e0cf2a77229a75abd77e2881b8f3213f28664fdce3d79fefb61c589c0c0932416b4671727da36636bea851a99325aceab767e1f6c78d83b41bf4a90aa61"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gregorio-vowels.dat \

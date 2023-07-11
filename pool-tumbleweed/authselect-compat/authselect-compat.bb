@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.4.0+git.0.2c30265"
 
-RPM_NAME = "authselect-compat-1.4.0+git.0.2c30265-3.2.aarch64.rpm"
-RPM_HASH = "9c5f56aec9bd82a4b7c019713d617ba6ed8f3cecb9142fb0e1f7f8a332054e7bc2b5e2d5b34ca76e1254f729ea47339e823ea1a88ba753da75234f9741fb19ed"
+RPM_NAME = "authselect-compat-1.4.0+git.0.2c30265-3.3.aarch64.rpm"
+RPM_HASH = "360b0a9704b225ea7eee153a274913dcb5dfc027f3099eeddc283592787eb14b4f1595fdab4324a6864e9f80363b97e6a3661a9f85b2c79ef7052795cec63887"
 
 RPROVIDES:${PN} += "authconfig \
 authselect-compat"

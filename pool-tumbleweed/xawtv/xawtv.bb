@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.107"
 
-RPM_NAME = "xawtv-3.107-2.10.aarch64.rpm"
-RPM_HASH = "1f4a486ced984ea2aaed0182bd877566bf89ffe6345689e49ca120fd0e4feeb6bafdc004425e9ed474aae7247960714c8619658b4bf872ddad89ab6f209fafb5"
+RPM_NAME = "xawtv-3.107-2.11.aarch64.rpm"
+RPM_HASH = "aed61ff8bc94a678f628ead6a81fe1770e3bd86bfcd3cac40fcf0bc72ee4ff771406700f44db28400bbdd856939dda27d19c12c787b404196686a5edd55f92e6"
 
 RPROVIDES:${PN} += "xawtv"
 

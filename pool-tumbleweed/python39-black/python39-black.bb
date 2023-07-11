@@ -12,8 +12,8 @@ LICENSE = "MIT"
 
 PV = "23.3.0"
 
-RPM_NAME = "python39-black-23.3.0-2.1.noarch.rpm"
-RPM_HASH = "59f38ff9494a64fc35d7da2fc9590028a9b77dd7e41a8e84611bea34517df21b5226f77779e7d4aee9463eeac8195558c9585717e6f6bb2517252ed98edc4ca4"
+RPM_NAME = "python39-black-23.3.0-3.1.noarch.rpm"
+RPM_HASH = "3b2693d270e30e9ce658f615da8c9e569afce4fa9ee1b747b0b346278e2d47b1cc870470cae1b67497aa6e1a8d68fe7bb517652c8a98e0a2c742e5e23462ac5c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-black \

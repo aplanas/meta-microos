@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "4.4.0"
 
-RPM_NAME = "python311-Flask-HTTPAuth-4.4.0-2.8.noarch.rpm"
-RPM_HASH = "c3a1fe91873b1da672eb5c33dfbb3b8fc7c57697c47575756cee5782531b71a21ab176f6c8ef65cd918050f4b52314912faf1b5a0165c17f0cba16980c94473a"
+RPM_NAME = "python311-Flask-HTTPAuth-4.4.0-2.10.noarch.rpm"
+RPM_HASH = "34dd8da50d2f8f779a58c0b332a684e9fd584eea4b13435e98842efb44a833d20e7c2a750ecc87b6c7b04f8f52a1679546a4b138bdf7943dac2405d167e68342"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-flask-httpauth \
+RPROVIDES:${PN} += "python3-Flask-HTTPAuth \
+python3.11dist-flask-httpauth \
 python311-Flask-HTTPAuth \
 python3dist-flask-httpauth"
 

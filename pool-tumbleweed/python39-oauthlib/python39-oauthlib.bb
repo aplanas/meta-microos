@@ -18,8 +18,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.2.2"
 
-RPM_NAME = "python39-oauthlib-3.2.2-2.1.noarch.rpm"
-RPM_HASH = "1b00df0afdd8e46b4e4adea85593b82dced1271d5716cf49657ad3590707fdc015d7d3ddccd6c067173ae5bca0f20aa7c4066796c05004e83bf0f82d88f910be"
+RPM_NAME = "python39-oauthlib-3.2.2-2.3.noarch.rpm"
+RPM_HASH = "3ca8bc3dea928f37c703e4c32b0b7ebf9dca257f13883c0b0c9c099d1f283b3f094fae9eab0eccfe0dcb680a487488bc290ddf927b33c28b9cac70412fd9147f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-oauthlib \

@@ -3,10 +3,11 @@ DESCRIPTION = "Vagrant is a tool for building and distributing virtualized devel
 environments."
 LICENSE = "MIT"
 
-PV = "2.3.4"
+PV = "2.3.7"
 
-RPM_NAME = "vagrant-2.3.4-4.1.aarch64.rpm"
-RPM_HASH = "6bd7b07685452707847d8417dc78b03b6b46abb0b845362ba0e4e6b618c0242fd1c1ec4eb380f80f3e73019dd42f7b0b392983932761fffa40ff4d778bf78821"
+RPM_NAME = "vagrant-2.3.7-1.1.noarch.rpm"
+RPM_HASH = "848871f67a06c17b19c8c59da7e0b598fcb8167ed4d36e203857d46001e35041823d9c53414ee83af0edaa2388974c75972bff2a6bc5301aa0aed2ef0c9347d7"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rpm-macro-gem-binary \
 rpm-macro-vagrant-dir \

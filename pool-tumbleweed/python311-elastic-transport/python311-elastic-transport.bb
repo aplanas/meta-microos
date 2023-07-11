@@ -4,11 +4,12 @@ LICENSE = "Apache-2.0"
 
 PV = "8.4.0"
 
-RPM_NAME = "python311-elastic-transport-8.4.0-4.1.noarch.rpm"
-RPM_HASH = "e63634cc817dee661d9790fbd50f366e62f40050469e155dbf4cc29992991ba3113d381a481e0b7f3347566e2ad253e31a4164651faa6b4d270b6ccfac8d27ad"
+RPM_NAME = "python311-elastic-transport-8.4.0-4.3.noarch.rpm"
+RPM_HASH = "4ef8be73e2d57c17d90d6702b6268c3d98829d08ccc4e3061b9b840bcc1ed1e7b19577cbe342d0d9dd0820c9b98103f949befd8c95fb17bd3560fec89f452fd7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-elastic-transport \
+RPROVIDES:${PN} += "python3-elastic-transport \
+python3.11dist-elastic-transport \
 python311-elastic-transport \
 python3dist-elastic-transport"
 

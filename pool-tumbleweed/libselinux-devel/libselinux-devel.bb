@@ -8,8 +8,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "3.5"
 
-RPM_NAME = "libselinux-devel-3.5-2.1.aarch64.rpm"
-RPM_HASH = "9eed197bbf98cf9266ba6f156541b4ac2643d73118eb741c96719a942259296458351a9d51d6c70cea24204d8d4eda4af9ea7578c88f3ad0c6f5226c2f360f5e"
+RPM_NAME = "libselinux-devel-3.5-3.2.aarch64.rpm"
+RPM_HASH = "86327c11e6e58008a76a1ac01044f0577e68de9d3329956ba30a27656a384ef2e5db6139aa2e6341ba9fa3ecfae237be99b3bad089332518d3c8475b6ae797a5"
 
 RPROVIDES:${PN} += "libselinux-devel \
 pkgconfig-libselinux"

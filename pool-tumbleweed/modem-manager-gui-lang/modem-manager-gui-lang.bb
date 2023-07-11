@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.0.20"
 
-RPM_NAME = "modem-manager-gui-lang-0.0.20-4.3.noarch.rpm"
-RPM_HASH = "6250a6eb2a2e9a03e88b9cfdfb0bea84b8bda99659e34b7820e77cbff2920671030cdc571e9531f281c413c76eed43b7876b7d76a428ec69972508c3ffd6f6be"
+RPM_NAME = "modem-manager-gui-lang-0.0.20-4.4.noarch.rpm"
+RPM_HASH = "e00892721772aaec3795f67a191cbbaaad12f3b79e9ce0fc380db93a67563f01733b355672b9c44cf2f82a4d90a9db9214ddfd4f0df4935bc94687b5f4546c7e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-modem-manager-gui-ar \

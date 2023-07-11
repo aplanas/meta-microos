@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6.0"
 
-RPM_NAME = "python39-babelfish-0.6.0-1.8.noarch.rpm"
-RPM_HASH = "080517a4c33d4014ad22a8cdb3f6c30879b14f01e086e3df7e0c142cb48d8ae74a668a54f0a2afc28223566f68bd1df4f1a24766d18c6516fe69564292f02382"
+RPM_NAME = "python39-babelfish-0.6.0-1.9.noarch.rpm"
+RPM_HASH = "5874ee3091e245ee9786c2796f0c5c9206e3b1de9c7f478982a982b13b97738328c40866feae6edb2dcd0ec5c33e999fb79ad81723e770f8efae9bac603adaee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-babelfish \

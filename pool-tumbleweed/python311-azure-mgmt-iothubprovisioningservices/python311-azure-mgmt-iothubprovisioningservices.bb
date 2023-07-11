@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "python311-azure-mgmt-iothubprovisioningservices-1.1.0-1.6.noarch.rpm"
-RPM_HASH = "7db17b6921d9bc6f39a142a62d50b00958464b23432b167879b5a00241ef945e5b7f5fb6811dee0024c536e036b10260bcc6d21860b3faec475e2dcaf221ad25"
+RPM_NAME = "python311-azure-mgmt-iothubprovisioningservices-1.1.0-1.7.noarch.rpm"
+RPM_HASH = "111710b9c31a9e6c224c676ef9e8b60af5d6fa1fb55e555e829d1d11d3bcef5ca6f4fdac345c07666025592591e861a709ddbd8aae2b818b7f153344cdccd474"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-iothubprovisioningservices \
+RPROVIDES:${PN} += "python3-azure-mgmt-iothubprovisioningservices \
+python3.11dist-azure-mgmt-iothubprovisioningservices \
 python311-azure-mgmt-iothubprovisioningservices \
 python3dist-azure-mgmt-iothubprovisioningservices"
 

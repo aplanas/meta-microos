@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause | GPL-2.0-only"
 
 PV = "2.69"
 
-RPM_NAME = "libpsx2-2.69-1.1.aarch64.rpm"
-RPM_HASH = "563dde1014bd7251ecab4dfa70e342cf50ba216bb506d99bda2688b4528afe8587ccc99f57e819992bfbbb08fca609a15e394e016240e947f5964661a50e259f"
+RPM_NAME = "libpsx2-2.69-1.2.aarch64.rpm"
+RPM_HASH = "d3db71ccd262fbe6520df7a9e10d8cb8e53a4b24b0d5c1e92560b5da7f92e9bb7bae85ad38296614e9a0089acf7eb041a5e3e85145c0dfdae1cf12ae0c4c20ff"
 
 RPROVIDES:${PN} += "libpsx.so.2 \
 libpsx2"

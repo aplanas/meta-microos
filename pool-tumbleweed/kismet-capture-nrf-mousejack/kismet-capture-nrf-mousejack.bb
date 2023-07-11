@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2022_08_R1"
 
-RPM_NAME = "kismet-capture-nrf-mousejack-2022_08_R1-2.3.aarch64.rpm"
-RPM_HASH = "07a6b372f647f3abf7ccb40e7684c37eba4a62279a01b07b0f9a2b20d2d78cc6d6cff5ca5ef103c788916936e73cd918a0dee673be4c6f0168f5ee46d922da22"
+RPM_NAME = "kismet-capture-nrf-mousejack-2022_08_R1-2.5.aarch64.rpm"
+RPM_HASH = "c53c5cc0e1b8ea02755db240b6606ad8a8ab236f1b01a913258c753c43d3ed8a77a62bd178fdf355036f64639d263886ffe1eede68089f90720e3615181eb2fc"
 
 RPROVIDES:${PN} += "kismet-capture-nrf-mousejack"
 

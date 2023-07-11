@@ -14,8 +14,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.5.0"
 
-RPM_NAME = "python-debtcollector-doc-2.5.0-1.4.noarch.rpm"
-RPM_HASH = "423ca0d200555e520fa1ed448277fc69d9a00b361038bb00b9bc2245b848ca92e8a7fa3a91e5acebe2efd782b4995e9558f2aa184cf0b677b873d3091b8373a5"
+RPM_NAME = "python-debtcollector-doc-2.5.0-1.5.noarch.rpm"
+RPM_HASH = "5ce69d3ec9f7440d1f34d3e7857b4f01acff10e070759333e932a7970496712d1f16b4e099e8d8363a5c8d3098433175b9a48dc08e3b51bd390556fefac028c3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-debtcollector-doc"

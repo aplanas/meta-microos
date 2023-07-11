@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0"
 
 PV = "1.6"
 
-RPM_NAME = "isight-firmware-tools-1.6-17.29.aarch64.rpm"
-RPM_HASH = "6b7776ff532938df93fdb43de76a50b74099783529f23b08156c56c74b9e444babf5957229a2a69387066a0fe56d7004bc0c8760fa442b8324f8e34a1622a141"
+RPM_NAME = "isight-firmware-tools-1.6-17.30.aarch64.rpm"
+RPM_HASH = "c11eb92e5b71752223b07dc5c12a994ce7efb9a413ea6db9e842d057ced452d74c359890746b787eab296fd4775d1d78bb5c638efcd934c66fb8248d8b3ef9a6"
 
 RPROVIDES:${PN} += "isight-firmware-tools"
 

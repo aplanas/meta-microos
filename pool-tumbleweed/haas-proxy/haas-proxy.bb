@@ -6,13 +6,13 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.9"
 
-RPM_NAME = "haas-proxy-1.9-1.13.noarch.rpm"
-RPM_HASH = "45635a9ab14ad7b510adf578cb563fbea9ca787419343c63c054f8c5130a0d927ddcdb86211abef6f4459f3e569e1c4b0555a4e518d6fb2500598bf7c5cd4f94"
+RPM_NAME = "haas-proxy-1.9-1.14.noarch.rpm"
+RPM_HASH = "a402789584022889b113108a5a0be45380569daf42622206069fabfa9117fec95f50146912f4137b740f2616b179fa10fba605b1340b9536fd33d41c8758e108"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-haas-proxy \
 haas-proxy \
-python3.10dist-haas-proxy \
+python3.11dist-haas-proxy \
 python3dist-haas-proxy"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

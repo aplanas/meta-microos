@@ -6,8 +6,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2023.201.svn28327"
 
-RPM_NAME = "texlive-greektex-2023.201.svn28327-53.1.noarch.rpm"
-RPM_HASH = "be5e24f6e7700f5f1528c36704eaa18ce2b33ae9060e1e45f042c55e53b7f90a23a29fea812249d17311d8484cbe1b0b06dd1198c2b402ee9ff4e6b3cb268dac"
+RPM_NAME = "texlive-greektex-2023.201.svn28327-53.2.noarch.rpm"
+RPM_HASH = "047d1179a46ff9a7fe174f425d53a2c6089a89ffdfb1f9c2c94416b513cde10d4708ec6b99eb414dddff3a402793eab42ed887b509bd1d051bb2ee9b116286dc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-greektex.sty \

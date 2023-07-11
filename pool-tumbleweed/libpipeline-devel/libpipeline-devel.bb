@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.5.7"
 
-RPM_NAME = "libpipeline-devel-1.5.7-1.2.aarch64.rpm"
-RPM_HASH = "162b93624782dea63e94d7c6619f6dc4f3e54a090a4ef20e6b4522de283b69cfa0f3b358ec801e4f0ff41cd38f0c01e183269f098995ebd339326c9331fab87d"
+RPM_NAME = "libpipeline-devel-1.5.7-1.3.aarch64.rpm"
+RPM_HASH = "67b1863da4a522de61612c8d9900567006f1645862b04d78e4751a021c3357b1afa75bb64c64da48b2567f458ce97a963c2985f1a658caa77fc1bcd002da5235"
 
 RPROVIDES:${PN} += "libpipeline-devel \
 pkgconfig-libpipeline"

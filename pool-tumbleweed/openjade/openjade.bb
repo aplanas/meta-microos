@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "1.3.2"
 
-RPM_NAME = "openjade-1.3.2-373.7.aarch64.rpm"
-RPM_HASH = "9d75eb551eea0f7e87e937730a6f75d88c5adf722aa1d298e2dcf897257585d6aecbcbf37ad83db00173eb8ffd131d51b18d88708e1ede662f8552e780cd6ae9"
+RPM_NAME = "openjade-1.3.2-373.8.aarch64.rpm"
+RPM_HASH = "80a7c38eb82316bca0aff86a9dcdd2c3a729022f689ec071dd06db19a3be2cfe3b0585e1b3aa702a9c7966278276d890c67be428c24ef64ab081448176481c5d"
 
 RPROVIDES:${PN} += "config-openjade \
 jade \

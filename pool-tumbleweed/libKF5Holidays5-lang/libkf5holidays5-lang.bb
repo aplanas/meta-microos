@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libKF5Holidays5"
 DESCRIPTION = "Provides translations for the 'libKF5Holidays5' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "libKF5Holidays5-lang-5.106.0-1.1.noarch.rpm"
-RPM_HASH = "ef714d5f5c7b7624bd40b3f1846ae20750211280c06d0a32bf8e4d312ffbc8e229d87003ad96da6b939afbaca33ab7049a1cf9c019b2b58aada4fa50ff9a1ceb"
+RPM_NAME = "libKF5Holidays5-lang-5.107.0-1.1.noarch.rpm"
+RPM_HASH = "47d8262102ba17ac7ada6165610432b70f7b476a5c57de7f18dc8d21c1815def31ca6449113f3dd7d1417ebc221bd85be551b3254a8c09a1b2302225d0ab9b6e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libKF5Holidays5-lang \

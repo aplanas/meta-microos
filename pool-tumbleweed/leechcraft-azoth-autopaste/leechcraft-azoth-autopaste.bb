@@ -5,8 +5,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-azoth-autopaste-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "398919161293a61b6000530345454d243d324ade215ebf17f4dd91157adce57fd7c073033b492d2759490d18c537d23d6e327626ed99221f7cedb879e6f159bf"
+RPM_NAME = "leechcraft-azoth-autopaste-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "71c13d63ea379a2b2547454a155f76410420d39c68db4268360733c44a98e12d0b8d7b97fe66ebdc74fd08f9c1c795a1f1d2ba3b8f0292837cb1b7b2b7173bf0"
 
 RPROVIDES:${PN} += "leechcraft-azoth-autopaste \
 libleechcraft-azoth-autopaste.so"

@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.6"
 
-RPM_NAME = "apache2-mod_dnssd-0.6-29.13.aarch64.rpm"
-RPM_HASH = "30395252591296dc1aef553de957bce9e385739c908ef236a573a9f5ddc58b9db54411470b3b1c2685cba70a0369397f7bcf593f9c1486ebf0d755eee5e367e7"
+RPM_NAME = "apache2-mod_dnssd-0.6-29.14.aarch64.rpm"
+RPM_HASH = "d9e5f1bbd30e7caf48013b391d1302854349a818dee59228684b2a74aafaaa517e2b397b91d6815e3a0c0ffe0448988f5f2c94a5cf9deafadcc570be0522eeee"
 
 RPROVIDES:${PN} += "apache2-mod-dnssd"
 

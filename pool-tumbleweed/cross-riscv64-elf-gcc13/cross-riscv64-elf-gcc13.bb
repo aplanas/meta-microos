@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "13.1.1+git7364"
 
-RPM_NAME = "cross-riscv64-elf-gcc13-13.1.1+git7364-1.1.aarch64.rpm"
-RPM_HASH = "eb936f65b3def9464b2567bf502043d7cb46998f09a7a8fa3fea77b2fbc4e6ae9e7732c755cbd0c0f9c1f8c80f90445e9e082d6b76dfa711f80978476408bdfe"
+RPM_NAME = "cross-riscv64-elf-gcc13-13.1.1+git7364-1.2.aarch64.rpm"
+RPM_HASH = "866c497f7bb282c26dc8d988f1441a6a61e91ef0062616c9b0374a1348e99790a659aa5e6628d66805c9ed7930c2ebdb332383a9f743169894fe9e331a50a422"
 
 RPROVIDES:${PN} += "cross-riscv64-elf-gcc13 \
 riscv64-elf-gcc"

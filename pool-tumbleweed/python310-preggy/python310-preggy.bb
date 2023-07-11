@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "1.4.4"
 
-RPM_NAME = "python310-preggy-1.4.4-2.12.noarch.rpm"
-RPM_HASH = "5fd0044fcb94beccda2695182d0bb94dfafc946128ca3cef6a908ac2fda6a017c021f6c5523425d840869ce259e3df7134bf37950bde63360383bdfc506cbb07"
+RPM_NAME = "python310-preggy-1.4.4-2.14.noarch.rpm"
+RPM_HASH = "beec7fd4955a556f7c9b4647491a2daad2d00a4c5254394b2d200a30fc83c4d6a153acf5dc2bf306b99554e28f181ab5d3fee854fe822fb6429338115e887f28"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-preggy \
-python3.10dist-preggy \
+RPROVIDES:${PN} += "python3.10dist-preggy \
 python310-preggy \
 python3dist-preggy"
 

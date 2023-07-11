@@ -26,10 +26,10 @@ example: \
 - libreoffice-l10n-it"
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.1"
+PV = "7.5.4.2"
 
-RPM_NAME = "libreoffice-7.5.4.1-1.1.aarch64.rpm"
-RPM_HASH = "1774c25c4c9b606ddcd03115b32e2d7da1a6f8c527fe6ad253ce6c5be7b0ffeae2ed2bc98219d36c0bc283a86dbf86eb6b0e548574a4a6b1e88a15cd71097b82"
+RPM_NAME = "libreoffice-7.5.4.2-1.3.aarch64.rpm"
+RPM_HASH = "3068a4ffb5fe9f0a9d0407a5f8b6fa7ca3e991da9c8a835dcd8659fad5e931d21b88c47e53f0cbe3a502614731eba56c418fdd0210116587ed617513ce8f65e6"
 
 RPROVIDES:${PN} += "config-libreoffice \
 libLanguageToollo.so \

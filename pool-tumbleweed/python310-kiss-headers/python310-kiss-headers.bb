@@ -5,11 +5,10 @@ LICENSE = "MIT"
 
 PV = "2.3.1"
 
-RPM_NAME = "python310-kiss-headers-2.3.1-1.3.aarch64.rpm"
-RPM_HASH = "804874ab21030125240542e964620621c84fc934dc177f3b41bf5f40639b6baf59e9e3c08fffbffe4d0c30fe02c29a4fbf339e626b8a3531315ff9d8660c5bde"
+RPM_NAME = "python310-kiss-headers-2.3.1-1.4.aarch64.rpm"
+RPM_HASH = "d6a0a0c11b8dc90de13f903c823dfe780d710c33130b25e6bed6f45c5825aa4cd497cac75927679d095081dbb33253be5a24cb4c32b3028181e46f70bb67a36b"
 
-RPROVIDES:${PN} += "python3-kiss-headers \
-python3.10dist-kiss-headers \
+RPROVIDES:${PN} += "python3.10dist-kiss-headers \
 python310-kiss-headers \
 python3dist-kiss-headers"
 

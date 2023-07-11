@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "4.2.0"
 
-RPM_NAME = "python311-django-rest-knox-4.2.0-1.7.noarch.rpm"
-RPM_HASH = "c58bcae7fb87a5914218187587b151fd7a7997d22edc9a55d061619d18b601e8a098789041d254a77f34941397409460ecc772dbda3e818c7917389003ed9f9d"
+RPM_NAME = "python311-django-rest-knox-4.2.0-1.9.noarch.rpm"
+RPM_HASH = "e7b1c4e5431b8a3e898e4c09d3ca0ef677942f4f93f5bb6fdce5a0f6ff6a86af9ac54511ef7e9bbadf54e9ea4a005ee7fa40b72e496cb4c3363c4f8a0d924f12"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-django-rest-knox \
+RPROVIDES:${PN} += "python3-django-rest-knox \
+python3.11dist-django-rest-knox \
 python311-django-rest-knox \
 python3dist-django-rest-knox"
 

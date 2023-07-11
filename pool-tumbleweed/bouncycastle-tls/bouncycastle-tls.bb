@@ -3,10 +3,10 @@ DESCRIPTION = "The Bouncy Castle Java APIs for TLS and DTLS, including a provide
 JSSE."
 LICENSE = "MIT"
 
-PV = "1.73"
+PV = "1.74"
 
-RPM_NAME = "bouncycastle-tls-1.73-1.1.noarch.rpm"
-RPM_HASH = "55b53ca7b1d894021e59b1943fff3604fae9ef28ed071d5806fd678e24efd66b0cf1e105d3f04a2fb4e21e61838ebd6d95a83acb731919f3ae1e7e3528c2e526"
+RPM_NAME = "bouncycastle-tls-1.74-1.1.noarch.rpm"
+RPM_HASH = "e7c1ecfacd1875e1a6c4c94fce7be5d3789218ed679a70a7a270384e40287e96afa8e2eab79e1482fd4a6e6a90eac75fcd170b42d8832a053f89745fced2e7a4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bouncycastle-tls \

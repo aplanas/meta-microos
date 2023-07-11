@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
 PV = "1.8.0"
 
-RPM_NAME = "rrdtool-devel-1.8.0-3.1.aarch64.rpm"
-RPM_HASH = "c1411d43855dbfd03afdb42e1d5c93cd314bcaa36319818b6c80f2ae29e667da5986c34baf622be66760b0844c000f816bd885cf62d56730c4fc991e279dfd63"
+RPM_NAME = "rrdtool-devel-1.8.0-3.4.aarch64.rpm"
+RPM_HASH = "14a3d816724a4e905f08d66c70aea08bbeaa6576228f9093a14df8df24c0093aa06bbc5b7404197c955507fd5daa7317e88e752277a378b5f4b086eab582d333"
 
 RPROVIDES:${PN} += "pkgconfig-librrd \
 rrdtool-devel"

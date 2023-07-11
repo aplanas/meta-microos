@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.0~a7"
 
-RPM_NAME = "plexus-bsh-factory-1.0~a7-2.6.noarch.rpm"
-RPM_HASH = "3e0223d89efadcc9ab737c519b713b7c3ec51901cb27f8ca7b3be6956be22b4cdc697becfdcbfa6a17074fb8fad30852aeb03d8e76c1907638e4b3584e8f00de"
+RPM_NAME = "plexus-bsh-factory-1.0~a7-2.7.noarch.rpm"
+RPM_HASH = "de740479083148dd8de61e478106594beabd4a8cd417ea6f37d93b6cc5072dfcdc153fc2221e80a80ffb6b5f77d998ea362bffae530d4ebf9a4b1232e8ed6073"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.codehaus.plexus-plexus-bsh-factory \

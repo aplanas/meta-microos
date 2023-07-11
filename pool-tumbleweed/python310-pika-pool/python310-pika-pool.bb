@@ -9,12 +9,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.3"
 
-RPM_NAME = "python310-pika-pool-0.1.3-5.12.noarch.rpm"
-RPM_HASH = "2f529905a7b384a6cc7b01a2fb6f68ddfb7e110c484f833154b3492dc6d6cc6aa8827c60d3731a29e7cfa26225d7276cce57041971ed34c4a4411e5a47f88faa"
+RPM_NAME = "python310-pika-pool-0.1.3-5.14.noarch.rpm"
+RPM_HASH = "69fd639464b18f3d6f41d6d25212e051db1067dd4e5aa0ea821abd440bb8e2a23585854cf14cbb928ee9b7a1c07ad7c8976a9f551c86138fe193a916243486f8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pika-pool \
-python3.10dist-pika-pool \
+RPROVIDES:${PN} += "python3.10dist-pika-pool \
 python310-pika-pool \
 python3dist-pika-pool"
 

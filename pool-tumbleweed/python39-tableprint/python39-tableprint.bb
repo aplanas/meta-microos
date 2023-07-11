@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "0.9.1"
 
-RPM_NAME = "python39-tableprint-0.9.1-3.3.noarch.rpm"
-RPM_HASH = "928b9c78db56b93ab59a1a8b38ef83482db61213bd2f2c5fd83962a1906113c5dc4ca37292b8eb69c128865bde21fa13acd8c7253cacd90bbe81f8626a7d71a2"
+RPM_NAME = "python39-tableprint-0.9.1-3.5.noarch.rpm"
+RPM_HASH = "f5992b3e3cb360366f09f327d748875df4ef94c7f70d798e59930cdc3304391b43296ddb633b42423a596e9a5fa87a18ce11957e16ff7a666acf644ca3ad00b5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-tableprint \

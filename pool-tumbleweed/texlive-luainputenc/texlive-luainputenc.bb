@@ -8,10 +8,10 @@ use under LuaTeX. With a current LuaTeX,the package has the \
 same behaviour with LuaTeX as inputenc has under pdfTeX."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.0.0.973svn20491"
+PV = "2023.208.0.0.973svn20491"
 
-RPM_NAME = "texlive-luainputenc-2023.201.0.0.973svn20491-52.1.noarch.rpm"
-RPM_HASH = "12dd0c97c86c1268afc440f3d8610afe221a220b3e5a92ff159f98ae65ae0dfd6293304aa60537559d1928dc008a62bdd655d0f53f61cd523722672dbbefb07e"
+RPM_NAME = "texlive-luainputenc-2023.208.0.0.973svn20491-53.1.noarch.rpm"
+RPM_HASH = "e767698403645da905134b864b4fe64a7ce8e885876242a2ee5d78e5b82d8e5181d123ab58dddc1befc6641a155f487839ee31a5d6f23ea81acaf2e937437989"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-luainputenc.sty \

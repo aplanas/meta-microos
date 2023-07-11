@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libKF5Archive5"
 DESCRIPTION = "Provides translations for the 'libKF5Archive5' package."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "libKF5Archive5-lang-5.106.0-1.1.noarch.rpm"
-RPM_HASH = "088d0172b4831268fe1792350b88400e8158e303cd484586d4613dc93d4b3dcbda9ec47abb948a9f7b58877f2fb29882cfbb175193eb2c13448c65248b1ca063"
+RPM_NAME = "libKF5Archive5-lang-5.107.0-1.1.noarch.rpm"
+RPM_HASH = "a467b19bd7ef20da21a866f052f0960df2e55aa8974ce3e2b7684c993ef284f968ce5c2f41c7c0e1630729e4756f014933b84aa4e6eceeec6d894ec24f3d5bb7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libKF5Archive5-lang \
@@ -20,6 +20,7 @@ locale-libKF5Archive5-es \
 locale-libKF5Archive5-fi \
 locale-libKF5Archive5-fr \
 locale-libKF5Archive5-ia \
+locale-libKF5Archive5-id \
 locale-libKF5Archive5-it \
 locale-libKF5Archive5-ja \
 locale-libKF5Archive5-ka \

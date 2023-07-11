@@ -3,10 +3,10 @@ DESCRIPTION = "irqbalance dynamically switches the CPUs for IRQs to prevent cpu0
 being used for all IRQs."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.9.2"
+PV = "1.9.2.24.git+184c950"
 
-RPM_NAME = "irqbalance-1.9.2-3.3.aarch64.rpm"
-RPM_HASH = "3abd8fb1aab014c38a9dbbec6aa2e973cefdaed674e2cdd9efee5b4070b88b452e2bf7fc3e68c6e395bb8ef99506dbf66870b4c92dfd446a3015e28499be92b0"
+RPM_NAME = "irqbalance-1.9.2.24.git+184c950-1.1.aarch64.rpm"
+RPM_HASH = "81e1b167a39276cd0135f31ff877085f5d236220a5ca6773346232c3fab61e2d9f8537dcbcb540741b599079e0d32842f4a4a311d801504b8e5857c562461b09"
 
 RPROVIDES:${PN} += "irqbalance"
 

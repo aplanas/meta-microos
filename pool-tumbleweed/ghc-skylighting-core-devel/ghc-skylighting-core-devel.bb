@@ -3,17 +3,17 @@ DESCRIPTION = "This package provides the Haskell skylighting-core library develo
 files."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.13.2.1"
+PV = "0.13.3"
 
-RPM_NAME = "ghc-skylighting-core-devel-0.13.2.1-1.4.aarch64.rpm"
-RPM_HASH = "a6da8a66b50cacfb6d24084089f4b5bfef78996351090fbc9ae938c5f8afeac029f86af7154a54c167dfc227de2f827bf822eb1b74d280d43e4177adeabc0be3"
+RPM_NAME = "ghc-skylighting-core-devel-0.13.3-1.2.aarch64.rpm"
+RPM_HASH = "4d303ed181d41c5be7cbeb5de1d73245c6ecff615c32edf2b9f96153d1e759f47b7fd421f1a0db60e865f9c77d6f13b36248aa7cb00fce12913810ef51b06e87"
 
-RPROVIDES:${PN} += "ghc-devel-skylighting-core-0.13.2.1-6o4V0mA5OWyEHmMDE2dJ63 \
+RPROVIDES:${PN} += "ghc-devel-skylighting-core-0.13.3-9hBRKYwyArU4OdEqV8LbQv \
 ghc-skylighting-core-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP \
+ghc-devel-aeson-2.1.2.1-HkN6OtqTngQ9De3CKBnfov \
 ghc-devel-attoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3 \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-base64-bytestring-1.2.1.0-8KbzJpmSQbYKTeew1rv0hh \
@@ -29,7 +29,7 @@ ghc-devel-safe-0.3.19-3Ab0OpSRliCKMhc0t4Nhds \
 ghc-devel-text-2.0.2 \
 ghc-devel-transformers-0.5.6.2 \
 ghc-devel-utf8-string-1.0.2-3yyxPCwARUwDt9ZNWn320Q \
-ghc-devel-xml-conduit-1.9.1.2-EG4w0oWu477B6XYo8w0Zz4 \
+ghc-devel-xml-conduit-1.9.1.3-JDYavYDcwLN29rDQLTOOon \
 ghc-skylighting-core"
 
 inherit rpm

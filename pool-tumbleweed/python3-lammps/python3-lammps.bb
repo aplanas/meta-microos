@@ -16,10 +16,10 @@ LICENSE = "GPL-2.0-only & GPL-3.0-or-later"
 
 PV = "20201029"
 
-RPM_NAME = "python3-lammps-20201029-5.1.aarch64.rpm"
-RPM_HASH = "15283292286b587314a363d54e0e2820b5e80fbcc86ed35754d84c6fcccf4cdb522feaeb9e9f57019f8a9e72dc6c0d062a19aa4cc2fdeb98d8545af65030c8f5"
+RPM_NAME = "python3-lammps-20201029-5.2.aarch64.rpm"
+RPM_HASH = "e0a18a4285715bd00d7c15e727e340cb75f63d4c0dd84cf0220fa02d6dda5dd23d25a5dd790a72d123510b361c76281b9429c9cfda525ee5aca5618279dd7d33"
 
-RPROVIDES:${PN} += "python-lammps-/usr/lib64/python3.10/site-packages/lammps.py \
+RPROVIDES:${PN} += "python-lammps-/usr/lib64/python3.11/site-packages/lammps.py \
 python3-lammps"
 
 RDEPENDS:${PN} += "liblammps0 \

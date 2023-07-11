@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.12.1"
 
-RPM_NAME = "python39-easydev-0.12.1-2.2.noarch.rpm"
-RPM_HASH = "4070ce171b31fc41353a9241bd7ba4eefb9f1ce1503dbc74a7166f31ead1327be645d258fcfe4fae8a4136cf343e5c6deae0bc0cc4b2309dbf90f4f6071ff2dd"
+RPM_NAME = "python39-easydev-0.12.1-2.4.noarch.rpm"
+RPM_HASH = "c13b2a6dee0ad0e039de17d3a23e7792c3e2e62984b455c31697cb871a9b74cb0b188099cba345b556ee0eb11fc3a94ea987659a131dafa25c765935ffc89041"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-easydev \

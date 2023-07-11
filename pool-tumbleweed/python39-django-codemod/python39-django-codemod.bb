@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.11.0"
 
-RPM_NAME = "python39-django-codemod-1.11.0-1.6.noarch.rpm"
-RPM_HASH = "b42b8f738f2858ed006dc7091c5b5be6281f2bc42e9d1439da1ade82ffd74867e7f42fae711b7eb437743dc78d0b21a6d3fd94888cac92c90c8b2b400ed1dc93"
+RPM_NAME = "python39-django-codemod-1.11.0-1.8.noarch.rpm"
+RPM_HASH = "43bb276a24d95b8c6915450eeb9161d4d163131cd772fbe33bc2e3d9639334a92da17ecf26426b26a7dd33c512fdbcd11b738700a47edd9624b1748a9a933562"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-django-codemod \

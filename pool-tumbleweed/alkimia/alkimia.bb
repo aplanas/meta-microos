@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "8.1.1"
 
-RPM_NAME = "alkimia-8.1.1-1.4.aarch64.rpm"
-RPM_HASH = "45f72ee213a58cb477499b85ef4409c1f9b7b039bfc6ac36b133b17f6afe04f0bd9103009c594f871ce6612d4d4b9e0c146eb6182c6268cfcf6610cfcf33c14f"
+RPM_NAME = "alkimia-8.1.1-1.5.aarch64.rpm"
+RPM_HASH = "547b46831b818bcd3d90541b1ff757279bb9017bde70cd9b27e181c98e2f78aa896fc6db022833e5ea79156e801fcaef2a9ab2276ee99c0ec9de995d00d8a598"
 
 RPROVIDES:${PN} += "alkimia \
 libqmlalkimia.so \

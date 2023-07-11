@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.2.5"
 
-RPM_NAME = "libgfbgraph-0_2-0-0.2.5-1.8.aarch64.rpm"
-RPM_HASH = "258084e6f49462e5472ab8a7a6fd7fadb9025b174332097281ae139c04541c4d7fa0293f90fc73bc4cd2af69482e43c5d25e15cab24317e48c9abc5eeed0df98"
+RPM_NAME = "libgfbgraph-0_2-0-0.2.5-1.9.aarch64.rpm"
+RPM_HASH = "76b8413829ed1629d65c7f5b1afc6bb5cbd9e7e10a767b4aefdb4eecc3eee214af99bf9558e8276b01d639a33f38a8c480591361ab426db0724a2fd9a9f2e653"
 
 RPROVIDES:${PN} += "libgfbgraph-0-2-0 \
 libgfbgraph-0.2.so.0"

@@ -10,12 +10,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python310-pyproject-hooks-1.0.0-2.1.noarch.rpm"
-RPM_HASH = "57cbda4bb139e2457272bcb2b5e01fb4fe46964cb4c5e98718e8af0868229b838a094be2aeded18c71de397a80522347db9a505fed4df71646e8dd5cf491ee4c"
+RPM_NAME = "python310-pyproject-hooks-1.0.0-2.3.noarch.rpm"
+RPM_HASH = "04e1ca22c2c25cfdfdc7b0eca61063f072b2532827d22bdeef87e32bbf9e443321844c9019878797f605eb3240657eb2e7b1d76a1118e01bc7d612cc15054444"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pyproject-hooks \
-python3.10dist-pyproject-hooks \
+RPROVIDES:${PN} += "python3.10dist-pyproject-hooks \
 python310-pyproject-hooks \
 python3dist-pyproject-hooks"
 

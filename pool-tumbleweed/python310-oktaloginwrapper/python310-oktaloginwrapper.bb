@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "0.2.2"
 
-RPM_NAME = "python310-oktaloginwrapper-0.2.2-2.8.noarch.rpm"
-RPM_HASH = "a8d5fa0b4b98a85ee0d09a4813e2c23f8d1f9e22afdbec7a8593189a8dbee6b0187363f9f9ebdac875e8c89d79c5010246fdb4f656090530ad700e689c987e27"
+RPM_NAME = "python310-oktaloginwrapper-0.2.2-2.9.noarch.rpm"
+RPM_HASH = "74e34f665506eb714b58edec585026c6d28631c0727f15bf66c5366e4e6ad6a30a1b7eb8de0423ff94475621619ebcda74a26ce12d454886b8446ad0a271d32e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-oktaloginwrapper \
-python3.10dist-oktaloginwrapper \
+RPROVIDES:${PN} += "python3.10dist-oktaloginwrapper \
 python310-oktaloginwrapper \
 python3dist-oktaloginwrapper"
 

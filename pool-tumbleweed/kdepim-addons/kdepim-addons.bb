@@ -3,10 +3,10 @@ DESCRIPTION = "Addons for KDE PIM applications, such as extensions for KMail, ad
 themes, and plugins providing extra or advanced functionality."
 LICENSE = "GPL-2.0-only"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kdepim-addons-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "cc6942ad3f8c8a94ed390591eb83c3778ac50717bd53b4b54d5c66d743a4befa32f0adc62d2ea38f149cd6185270244fcd51e1e9c9a1d04065e9c71143ffb2ad"
+RPM_NAME = "kdepim-addons-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "386a0dda6937edae56323a4890266bd92acc963c466032a738c93b6a54f66f0493b3c447e0c1f9eb554fa8621c23ccb32d1fb6d69a71c9a32a06c39d7565b57b"
 
 RPROVIDES:${PN} += "kdepim-addons \
 libadblocklibprivate.so.5 \

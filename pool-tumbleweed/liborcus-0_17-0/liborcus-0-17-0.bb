@@ -5,8 +5,8 @@ LICENSE = "MPL-2.0"
 
 PV = "0.17.2"
 
-RPM_NAME = "liborcus-0_17-0-0.17.2-3.4.aarch64.rpm"
-RPM_HASH = "4d21317d32835381e4a01276dbb61b0750aa59e7358d8f1fdec1c5069ea83fc1409435b0196b53c2c4fc8742b9d6a98b9ca093392faf148bf6c210e0efee358a"
+RPM_NAME = "liborcus-0_17-0-0.17.2-3.5.aarch64.rpm"
+RPM_HASH = "5a9d4efc872ec11c8aed45ac2f9b79901e88dacbb14463b8d1fc7f85b34ff40df8d8029920bd9440283b660d378ae2e410b32a3b97f625088e62b0daf3c2afc9"
 
 RPROVIDES:${PN} += "liborcus-0-17-0 \
 liborcus-0.17.so.0 \

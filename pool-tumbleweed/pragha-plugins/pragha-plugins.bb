@@ -23,8 +23,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.3.99.1"
 
-RPM_NAME = "pragha-plugins-1.3.99.1-3.3.aarch64.rpm"
-RPM_HASH = "706a75d8c96ee9fc1ae303369a3688d9d0c53877ce982da3616217bfd5fe87dd4f54c472fb9abe6810c33180587dc027c15b3d02885bfcd46681bb11c671988f"
+RPM_NAME = "pragha-plugins-1.3.99.1-3.4.aarch64.rpm"
+RPM_HASH = "907ed688a3f7e9be5e29abe695c72a9402879a088e6dae591f75ef1df610a4d5ca6190f09286d1780c7aad63b8b16c12f01dd2637bf7aca7856d3049cc6feef1"
 
 RPROVIDES:${PN} += "libacoustid.so \
 libcdrom.so \

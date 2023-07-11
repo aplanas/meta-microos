@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-inriafonts"
 DESCRIPTION = "The  separated fonts package for texlive-inriafonts"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.1.0svn54512"
+PV = "2023.208.1.0svn54512"
 
-RPM_NAME = "texlive-inriafonts-fonts-2023.201.1.0svn54512-52.1.noarch.rpm"
-RPM_HASH = "948f5bf99a11adaf19b9ee471c492f08fc84cde80dfb80d555040e3be55a04d8217496fc5ffa213609ffd1e9d46dabf503c4d158a8207124fe494af8da0ed854"
+RPM_NAME = "texlive-inriafonts-fonts-2023.208.1.0svn54512-53.1.noarch.rpm"
+RPM_HASH = "0ef1668d721a1de4a77405a0026725b75bf9b24dbcc3c9eb3c266c6db8d0faad46c37ee50ca7a181b29d7d3b56d6176bb3f3485b6e159c830adfbe0646928914"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-inriafonts-fonts \

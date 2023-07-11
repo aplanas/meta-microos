@@ -6,12 +6,13 @@ LICENSE = "LGPL-2.1-only-with-OCCT-exception-1.0"
 
 PV = "0.18.3"
 
-RPM_NAME = "oce-DRAWEXE-0.18.3-3.3.aarch64.rpm"
-RPM_HASH = "9692e0567f5a087c73871f6f72a7f8b843c830740504cd0c8d7738a4fe87ae1a0f62b8e6128d3377ff0f9da482444a2b5b05af8bba3a61ece15170ba5c9084e3"
+RPM_NAME = "oce-DRAWEXE-0.18.3-3.4.aarch64.rpm"
+RPM_HASH = "10f143e9293f539642c8d2508f0b22dd1f023481244dfae9442a10aa6e9b38b3d5001fb952dbdb09045b62c20161040b11ed20a706603a9bbd2c2e2a6a84e181"
 
 RPROVIDES:${PN} += "oce-DRAWEXE"
 
 RDEPENDS:${PN} += "libTKDraw.so.11 \
-libc.so.6"
+libc.so.6 \
+libstdc++.so.6"
 
 inherit rpm

@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "6.0.0"
 
-RPM_NAME = "libgda-ui-6_0-tools-6.0.0-6.7.aarch64.rpm"
-RPM_HASH = "8a97a5bb27bf35976fe61ed916ed94a40666f1e47c0a6ad373b50f08a90fa32a0f06393b75a560b897adee985319ddd62fc3f506cf25544564d3bdc0ffc164ed"
+RPM_NAME = "libgda-ui-6_0-tools-6.0.0-6.8.aarch64.rpm"
+RPM_HASH = "a4511c6d3a46a2e625db071d92bac13f679ee1f346de90148a02b8f7dd448e11ac306638ec5c03cd025d0583177c090c9b8d8ed57dc6521569d57d031265a830"
 
 RPROVIDES:${PN} += "libgda-ui-6-0-tools"
 

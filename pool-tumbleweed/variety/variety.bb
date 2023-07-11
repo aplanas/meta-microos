@@ -12,11 +12,11 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.8.10"
 
-RPM_NAME = "variety-0.8.10-1.1.noarch.rpm"
-RPM_HASH = "094fc75efe36a1b1be36f08eae35dadfefd18a553e2b7486c24d5e5062589aa5d09027705f4603ca372a9ef3ae49bd01dec986b57de6a75afb34ecdf2cae234a"
+RPM_NAME = "variety-0.8.10-1.2.noarch.rpm"
+RPM_HASH = "1926b293fbd17f6b03df78fa164ba4cc327310f825f9f29872f6a2a8f588d8396d2dffdbf0844fc3af0b4ff54e104fd22dafd9d283a800c0096169cd21a16df6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-variety \
+RPROVIDES:${PN} += "python3.11dist-variety \
 python3dist-variety \
 variety"
 

@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "4.1.0"
 
-RPM_NAME = "python39-praatio-4.1.0-1.12.noarch.rpm"
-RPM_HASH = "0db2587e0a1ad2a2bec99e48e85a3a9bcd194a2341f67fc75d2514cc26d70f1b1af493827ba9389b7a50cdeb01f1ad2828b40f7df421f4911735d86545146954"
+RPM_NAME = "python39-praatio-4.1.0-1.14.noarch.rpm"
+RPM_HASH = "20f77109d2cdf54499a36e7b77d343b93d132c440660a35a2cfca6a8e08f9278e1d23222b14f2f607d3924fd3e897446c09dbc962bfece2b65834af1ddb7f3dc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-praatio \

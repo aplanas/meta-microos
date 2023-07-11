@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "3.0.3"
 
-RPM_NAME = "python310-wurlitzer-3.0.3-1.3.noarch.rpm"
-RPM_HASH = "8d49b2cef2ee2238b83584fc62ae0d5ccc46d6ef96de45583ec8ddca200d3673b464bb0023af93b51966ca294859f3db798fc31fd231f38f7a6333825e824f63"
+RPM_NAME = "python310-wurlitzer-3.0.3-1.5.noarch.rpm"
+RPM_HASH = "3072293a07a5c5f55b0c9afdee42ec926825e37d0d7d1c3a9e64247934558ef61162f6b67509ddbaaec12516b20ce2e6e2410fd7112fef92f392486588883294"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-wurlitzer \
-python3.10dist-wurlitzer \
+RPROVIDES:${PN} += "python3.10dist-wurlitzer \
 python310-wurlitzer \
 python3dist-wurlitzer"
 

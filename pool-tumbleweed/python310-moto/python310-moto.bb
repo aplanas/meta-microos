@@ -4,12 +4,11 @@ LICENSE = "Apache-2.0"
 
 PV = "4.1.0"
 
-RPM_NAME = "python310-moto-4.1.0-1.5.noarch.rpm"
-RPM_HASH = "12d63b8db2377db294e13ac663f79d16f33f6b1c526b4629951bf4d16852808f1257b3059a5583dc98dc6807cd588958f1c899ae54e893a30bb98321bd91f3a8"
+RPM_NAME = "python310-moto-4.1.0-1.7.noarch.rpm"
+RPM_HASH = "dce725ae14d77bf160aecc0472ab49d144351b4764ec8822a03fe4ec46eedb643d0eaed9c955d702fcbd393d0965f4574961545624d6d314397083acb4cfa4db"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-moto \
-python3.10dist-moto \
+RPROVIDES:${PN} += "python3.10dist-moto \
 python310-moto \
 python3dist-moto"
 

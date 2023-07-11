@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.24"
 
-RPM_NAME = "truth-0.24-3.10.noarch.rpm"
-RPM_HASH = "c390d86c660bbad618fbfff4b01381d59f80147de3a0d910f28e2d9eb25c8738ed572b26bd6b67f3b2b5061c90dd73023789ad1c8f15d3a5b4e36dc4d4ae8be0"
+RPM_NAME = "truth-0.24-3.11.noarch.rpm"
+RPM_HASH = "fe58dc4f1195e465b0a52adc6edbbe549f5479754111061664dbf1dc293fe4b719c44e7c556fd761ac4f23ec08c984cba647ec9c0f0bc71360eb4b124187c524"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-com.google.truth-truth \

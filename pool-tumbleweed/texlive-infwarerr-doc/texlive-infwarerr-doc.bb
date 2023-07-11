@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-infwarerr"
 DESCRIPTION = "This package includes the documentation for texlive-infwarerr"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.5svn53023"
+PV = "2023.208.1.5svn53023"
 
-RPM_NAME = "texlive-infwarerr-doc-2023.201.1.5svn53023-52.1.noarch.rpm"
-RPM_HASH = "80fdfdc6580feaa5ad3f2e883caaf3be2febb93ac0f8c10f0faa323d2d0bf1fca074a70de92da592382303364980d89e1e672b427881e2a54b840a8bdf5f52e0"
+RPM_NAME = "texlive-infwarerr-doc-2023.208.1.5svn53023-53.1.noarch.rpm"
+RPM_HASH = "994b68e188235296a0a506fa878ed5cd12b5e64ad82019e2250d36b00ba37ee73d984f741431ae5ef4efd6b18d5d156191206f88c81cdb7d2b61df8b500a8f2e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-infwarerr-doc"

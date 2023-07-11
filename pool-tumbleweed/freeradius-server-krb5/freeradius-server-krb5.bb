@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
 PV = "3.2.1"
 
-RPM_NAME = "freeradius-server-krb5-3.2.1-1.3.aarch64.rpm"
-RPM_HASH = "45647954f7c0777cdcfe850f6cf3ab1955e6da687fac24aa060b90a5d8820113b460592c911e59ab0e222e4f90ac0dcb98fe35c3d37dfd3955e8626c36d89b68"
+RPM_NAME = "freeradius-server-krb5-3.2.1-1.6.aarch64.rpm"
+RPM_HASH = "b61ce4c77b439c8e3bb46a28fa4e6d4d84b1f7923e6b942ae5bd7081eb178939217754dda29237a0b3814bdac3786b27bb514eff7f923d9377968f51ce9cb5ba"
 
 RPROVIDES:${PN} += "config-freeradius-server-krb5 \
 freeradius-server-krb5"

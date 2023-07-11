@@ -5,10 +5,10 @@ mathematical mode when using for open intervals. Instead of \
 parenthesis: ]-\\infty, 0[ is equivalent to (-\\infty, 0)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn65383"
+PV = "2023.208.1.1svn65383"
 
-RPM_NAME = "texlive-ibrackets-2023.201.1.1svn65383-52.1.noarch.rpm"
-RPM_HASH = "07514271ffa815791fe982af7edb3cb365099120e25a63d0002a7c451c546e327f4fbb05dd2e244c9123a39393574df107b37319008083207526ed6ff68680c3"
+RPM_NAME = "texlive-ibrackets-2023.208.1.1svn65383-53.1.noarch.rpm"
+RPM_HASH = "d30c0564f14e09f3566433b4e30f0d77d463054649f49c0015a7e23b042c9466ff14482d38634174c5d9cde78007f2b5c201d8865d2f3301506d0b004056f5dd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ibrackets.sty \

@@ -11,8 +11,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.0.9"
 
-RPM_NAME = "notcurses-demos-3.0.9-1.5.aarch64.rpm"
-RPM_HASH = "87d87558fcba4c7957941aaae2aca7c9a5cc9c7d74881b89bb261f4c8b66397633944d6b1c214dbd3068c34ae196cca1d57af2d6432ade363c6532bbc6bb03e2"
+RPM_NAME = "notcurses-demos-3.0.9-1.6.aarch64.rpm"
+RPM_HASH = "4fc337cbcf845d9a94a5dbaeaecaf9048f92defb338fdd697a4ef302c4135f06caa04fb0f3bcfb363df00471bea912ef17b73f40057a90616c53fbc45ed4654f"
 
 RPROVIDES:${PN} += "notcurses-demos"
 

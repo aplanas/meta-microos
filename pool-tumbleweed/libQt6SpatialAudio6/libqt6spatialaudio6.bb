@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt6SpatialAudio6-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "c4df8d17c2291102a60f89b08bb3f10bacaae5d0ec3e6c896d8153567ecbc5ef5a3fb24b2d24f2a7c9a782b423a3adfd499781cfc95cb34e6d303ad2800ace31"
+RPM_NAME = "libQt6SpatialAudio6-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "4a27994946636386f0f41b6ccd1dfc097502ed5f3f7df893c94b4413b2b0e6422e36e2f8a567c27dcac6bf0a138f57488fa0644c28c9218546efb77cc536708b"
 
 RPROVIDES:${PN} += "libQt6SpatialAudio.so.6 \
 libQt6SpatialAudio6"

@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.3.3"
 
-RPM_NAME = "libtranscript1-0.3.3-2.14.aarch64.rpm"
-RPM_HASH = "ab9347e7670ede7aaf2450bddc5dccb94dd0e40cf72a3d86c94a0cb9c9a025eec11d9f8aa35b061efbf9125840cca7969493460ef9f331d5ec6348e06535098b"
+RPM_NAME = "libtranscript1-0.3.3-2.15.aarch64.rpm"
+RPM_HASH = "0205b288972ecba302f40e86b38954bf6fe97a67612a8cfa418c189c3d0381b67812cf0a359bd9d712923ea7d42ab4dfee93974cff5711dcd3ee1d7b4ed246e6"
 
 RPROVIDES:${PN} += "libtranscript.so.1 \
 libtranscript1"

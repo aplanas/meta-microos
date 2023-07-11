@@ -18,8 +18,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.3.1"
 
-RPM_NAME = "fwknop-gui-1.3.1-1.4.aarch64.rpm"
-RPM_HASH = "0c2d22e97ffd729d01fefdb61c54d7ae6dbd29844b7e0a0171eef42b9d96b3f86c1674574c5dc190692a5ec69addb96786aebabae318b3a981a6cb980a231536"
+RPM_NAME = "fwknop-gui-1.3.1-1.5.aarch64.rpm"
+RPM_HASH = "9da709e1672533cb9463746ed2b22a80beab468c7b73bb20afc6f0d1c643323949240352bcc95f1ece4bb11be1c5b48ff394e769060d75821889f01cb5dc11a2"
 
 RPROVIDES:${PN} += "fwknop-gui"
 

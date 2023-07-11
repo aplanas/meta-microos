@@ -2,10 +2,10 @@ SUMMARY = "A dynamic tiling Wayland compositor"
 DESCRIPTION = "River is a dynamic tiling Wayland compositor with flexible runtime configuration."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.2.4+g109"
+PV = "0.2.4+g953"
 
-RPM_NAME = "river-0.2.4+g109-3.1.aarch64.rpm"
-RPM_HASH = "706b0fa9a4a51665d689a4b9ef48a64a39e778abd06bac7c3434a3ad493c9acae29132bab97bc6b4a13b674b45f00fe035ae48e99d10ce99879997d49a9fede7"
+RPM_NAME = "river-0.2.4+g953-1.1.aarch64.rpm"
+RPM_HASH = "8ebd3a662c79b306eb8baded837ac149ba00c5c0b1da40ee998d01b9faeb4eee68c9ea528ab307bb3a0cf61136d9b2365594125b0dceef09fa216ea5a6715afb"
 
 RPROVIDES:${PN} += "river"
 

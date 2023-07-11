@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "2022.9"
 
-RPM_NAME = "python310-weblate-language-data-2022.9-1.3.noarch.rpm"
-RPM_HASH = "303b1592440331d1060fcb58f5ef669d1bc7c244a69dea94b66d842deb236816798d37131faa49d7c39c85e0cc6a082c07f8fc718d794bf78dde178b674aff5f"
+RPM_NAME = "python310-weblate-language-data-2022.9-1.5.noarch.rpm"
+RPM_HASH = "f9b22e5e03da974a25b9c9dfbb210f720ca8f0f2e8201ea21c7f9b50e491da10613eb886494185335bca3a54766a0c22ab8f0626548c06c976282c8bbfb2b449"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-weblate-language-data \
-python3.10dist-weblate-language-data \
+RPROVIDES:${PN} += "python3.10dist-weblate-language-data \
 python310-weblate-language-data \
 python3dist-weblate-language-data"
 

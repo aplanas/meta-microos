@@ -17,8 +17,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "4.36"
 
-RPM_NAME = "perl-Cpanel-JSON-XS-4.36-1.3.aarch64.rpm"
-RPM_HASH = "3e7aaaca12d9c321454075ef6509d5fa5841541bc3a59269221a8bd8860eae378c5e65010af98a93d4954471bd9807b0e3f1fec709297dd7faea523dc8664a05"
+RPM_NAME = "perl-Cpanel-JSON-XS-4.36-1.4.aarch64.rpm"
+RPM_HASH = "fa83cfdf463228f5808d4b32dc08c13b57806893afa5579dd1fb7fdef06bf23f9d3fe998091b4658a9759011749b30b8eb847978b90639aa44c82518585fa915"
 
 RPROVIDES:${PN} += "perl-Cpanel--JSON--XS \
 perl-Cpanel--JSON--XS--Type \
@@ -27,6 +27,6 @@ perl-Cpanel-JSON-XS"
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

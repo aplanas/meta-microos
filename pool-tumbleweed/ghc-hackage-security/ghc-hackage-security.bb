@@ -18,11 +18,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6.2.3"
 
-RPM_NAME = "ghc-hackage-security-0.6.2.3-1.3.aarch64.rpm"
-RPM_HASH = "227b7498abbc5ece187a0a643780f454dfc59cf09cd06208f2a85779517808b9da9de72419bf4e2529c9babff71e7ac179e289932fa70499d440a1fdbf5378f7"
+RPM_NAME = "ghc-hackage-security-0.6.2.3-1.7.aarch64.rpm"
+RPM_HASH = "7758149e797df32c71f36af3802b9ae7ad26540e39678cbb0d7e1a9e6112e4315617a6bfa02769c831ad8be7c72a77b570b172f86006d3795b3d3adf1841e63a"
 
 RPROVIDES:${PN} += "ghc-hackage-security \
-libHShackage-security-0.6.2.3-Km2R5J8alEh3bTkVIJr5Mq-ghc9.4.5.so"
+libHShackage-security-0.6.2.3-BVLL0begiUMDlGngVjOMXt-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libHSCabal-syntax-3.8.1.0-ghc9.4.5.so \
@@ -43,7 +43,7 @@ libHSghc-boot-th-9.4.5-ghc9.4.5.so \
 libHSghc-prim-0.9.0-ghc9.4.5.so \
 libHSlukko-0.1.1.3-7Ko9x6wnjxCV3NuL9k89V-ghc9.4.5.so \
 libHSmtl-2.2.2-ghc9.4.5.so \
-libHSnetwork-3.1.2.8-HNDBp0HF6t0D1fzE2MDtPd-ghc9.4.5.so \
+libHSnetwork-3.1.4.0-FvtFepOtuCUH79FCWyNxIc-ghc9.4.5.so \
 libHSnetwork-uri-2.6.4.2-4kNQnaE9heqEL1mH8FE5xH-ghc9.4.5.so \
 libHSparsec-3.1.16.1-ghc9.4.5.so \
 libHSpretty-1.1.3.6-ghc9.4.5.so \

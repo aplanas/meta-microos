@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.5.1"
 
-RPM_NAME = "chromaprint-fpcalc-1.5.1-4.1.aarch64.rpm"
-RPM_HASH = "87563bafe1ef4e4cefd2a12957cfe5d3957e9fa2305767d2bc5fcbedf0b00e4c8f6ba518555f2a50b3c47c1b20792a49a616e5cd6e975dde1fc26710db1456fd"
+RPM_NAME = "chromaprint-fpcalc-1.5.1-4.2.aarch64.rpm"
+RPM_HASH = "13e07fdb7ffed5c9ee05340522ce87469a4e26c5d310bdd9e3dace1e157cc50238bf4b0e9daa1a0cbd1dab37b6b59dd100524bf607314b3bbbe42dd9f853c678"
 
 RPROVIDES:${PN} += "chromaprint-fpcalc \
 fpcalc"

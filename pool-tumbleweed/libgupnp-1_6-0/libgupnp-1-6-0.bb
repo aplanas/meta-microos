@@ -7,10 +7,10 @@ standardized resources (e.g. MediaServer); this is left for higher level \
 libraries utilizing the GUPnP framework."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.6.3"
+PV = "1.6.4"
 
-RPM_NAME = "libgupnp-1_6-0-1.6.3-3.1.aarch64.rpm"
-RPM_HASH = "55a784a59954cdb9a245741d1ba29bef662820e56bdd1df88fa8972a4f9d816360b2e596b8a335b6f64c2a5a74d7378ee5f96517306db449f4fb546276da3f31"
+RPM_NAME = "libgupnp-1_6-0-1.6.4-1.1.aarch64.rpm"
+RPM_HASH = "2a4a110f9523243adeda8877563cf2d84a369330f94d7832ce8f9c8067478b8d87843dde4c96f67c10f98c2272b012d8fccb8ffd94a7a18aa184112f13827b4a"
 
 RPROVIDES:${PN} += "libgupnp-1-6-0 \
 libgupnp-1.6.so.0"

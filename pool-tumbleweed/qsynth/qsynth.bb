@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.9.10"
 
-RPM_NAME = "qsynth-0.9.10-1.1.aarch64.rpm"
-RPM_HASH = "8c76bde7d56cf8b3ada6845de62e5e53021a6ba98f6ea7295a37376ada7850b4d50987b43318bf6dd732c59814f9e8ff7c9ddcb9fb6ce91905d0f07d55993774"
+RPM_NAME = "qsynth-0.9.10-1.2.aarch64.rpm"
+RPM_HASH = "e76cf9443f6bcded40eadd8a2beadd96fe3fe8f3ae906b8fca7988cb5c5c8e4c458061067dcc5519f6f6e7aa467d5df0e0fdd48c43d0f0ca626734a7d39932da"
 
 RPROVIDES:${PN} += "qsynth"
 

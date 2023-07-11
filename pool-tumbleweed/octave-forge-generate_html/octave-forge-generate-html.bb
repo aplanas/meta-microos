@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.3.3"
 
-RPM_NAME = "octave-forge-generate_html-0.3.3-1.5.noarch.rpm"
-RPM_HASH = "9fa4a30603fade0cc9f1d311242a53824bcaad89daedbcd1d85b35a3e7e32a37cc7a8bf0d3bd0d02ef21b9a838205486e35bbfcaa4292f0b6ce7e6551b1d6c6b"
+RPM_NAME = "octave-forge-generate_html-0.3.3-1.6.noarch.rpm"
+RPM_HASH = "9bdc8fd217f427d4110304abe19d17f472af10938f059e2a43ccb3acdf01fddb78cdf6609e9e8d7eaeb77a81f05506d47fc30b32d1cf2624495927276c84972b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "octave-forge-generate-html"

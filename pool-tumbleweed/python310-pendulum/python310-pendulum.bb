@@ -4,11 +4,10 @@ LICENSE = "MIT"
 
 PV = "2.1.2"
 
-RPM_NAME = "python310-pendulum-2.1.2-2.9.aarch64.rpm"
-RPM_HASH = "bf7dc452246dcf139a6a25d473dff10d4b4a5c6a0d3bd14643aaf7d62a324e87eb1707b7e57516e6ac24a4d4e4f80be42844c4be9b8c93569d1d9fdedb3dae85"
+RPM_NAME = "python310-pendulum-2.1.2-3.3.aarch64.rpm"
+RPM_HASH = "eabbfea314893a1503af9840b67b8436a4251680daa959ba5774114e423ca00647c144465ee3930ec3e57fc12a0ffe8c059424be81d297fb2361fccae76d08c5"
 
-RPROVIDES:${PN} += "python3-pendulum \
-python3.10dist-pendulum \
+RPROVIDES:${PN} += "python3.10dist-pendulum \
 python310-pendulum \
 python3dist-pendulum"
 

@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.26.1"
 
-RPM_NAME = "mate-session-manager-1.26.1-1.1.aarch64.rpm"
-RPM_HASH = "cace1c4714de2b7971341b226cb8f7442b0d77bf86e78af1be9167913178609459940d1ce5b1dc70b1218e4d7f12ac4ccf0f13bf7e36a08ae15e276b6ef72220"
+RPM_NAME = "mate-session-manager-1.26.1-2.1.aarch64.rpm"
+RPM_HASH = "fb43251d2989e47911ac34876e69a857f641720a6be8d1428b9e2a94f585b50f95178a7406d08577d8a2b782040ddaa847d85d068d0165e933d977ec26ac2b9b"
 
 RPROVIDES:${PN} += "config-mate-session-manager \
 mate-session-manager"

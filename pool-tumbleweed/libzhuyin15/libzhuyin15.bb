@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.8.1"
 
-RPM_NAME = "libzhuyin15-2.8.1-1.3.aarch64.rpm"
-RPM_HASH = "3b05202116850d22af1628d76f160706a3cfd5c436fabdbd822f63cae177819c73272211da1b77740a2c9f8b104e055af7e8b948e485f2e6a40b63112b4d2156"
+RPM_NAME = "libzhuyin15-2.8.1-1.4.aarch64.rpm"
+RPM_HASH = "17cbb84bd06796d6bdaaf3397891cf00e0fd9e0613fae120e8a7fb433fa83fa8bcab350b6ea1d46bbbd75db23853397395145c429731ea1e1a86db6bba468cf6"
 
 RPROVIDES:${PN} += "libzhuyin.so.15 \
 libzhuyin15"

@@ -13,8 +13,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "6.5"
 
-RPM_NAME = "libbrlapi0_8-6.5-2.4.aarch64.rpm"
-RPM_HASH = "c5894f59c6fdb8be3e9947ee8ba7ea836f48c31ade770d1500447406c2e59cd39b185c7be73f1ad5ef8a928241ba406d2e2af963746c80954311c9093acadc22"
+RPM_NAME = "libbrlapi0_8-6.5-3.1.aarch64.rpm"
+RPM_HASH = "acdb6ba4968f06c1296abf59cc3d69b916ac2d85bf557d6d885ebe8cf924b75eae6d62f5ffd0cf472f578c150909327bf12fb15e150e3e2c7a6aad76e97c1d37"
 
 RPROVIDES:${PN} += "libbrlapi.so.0.8 \
 libbrlapi0-8"

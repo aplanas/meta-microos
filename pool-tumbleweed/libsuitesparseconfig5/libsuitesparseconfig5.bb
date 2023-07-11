@@ -17,8 +17,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.13.0"
 
-RPM_NAME = "libsuitesparseconfig5-5.13.0-49.1.aarch64.rpm"
-RPM_HASH = "9a5487bfa3fae49b24bd4a8e2047e87bc31a2a208e09d5b36d870a63f59f625d75802ea5149c876c799879c7966dd1ed4bc8f482d54b6d74b252815c4e4a729a"
+RPM_NAME = "libsuitesparseconfig5-5.13.0-49.2.aarch64.rpm"
+RPM_HASH = "340f98d18fdd2c2ffaf1f089b73fc31516360bbfe32e67c9e309b7b2400c370e26b3b9a6743fd11d4d340d5ab2975245423e9bc6379ea0be3b0be1f9b4e9839b"
 
 RPROVIDES:${PN} += "libUFconfig \
 libsuitesparseconfig.so.5 \

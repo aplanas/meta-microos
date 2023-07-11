@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.52.23"
 
-RPM_NAME = "python3-newt-0.52.23-2.1.aarch64.rpm"
-RPM_HASH = "da4c3c0e5e2d934b7d378489d3212edbdbf706e87d4ccec7afca9f4e64405564c1a3abf791de19bdcb3460eca823a3b97fcdec8395f7b2cecfb0fd8b446522da"
+RPM_NAME = "python3-newt-0.52.23-2.2.aarch64.rpm"
+RPM_HASH = "913d324c5f3044faf52ee4e82ea2c65c69e6904b4dccc2ef7dfe2e567be7e037adadaaff7adc94d37d5e1a983333dbc77e940029bb857c2cee2d57ac768b24aa"
 
 RPROVIDES:${PN} += "python3-newt"
 

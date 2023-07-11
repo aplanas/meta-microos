@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "4.2.0"
 
-RPM_NAME = "python39-django-rest-knox-4.2.0-1.7.noarch.rpm"
-RPM_HASH = "87523437a7e65338a62b6d3bf400418dc537912a67bb53e15e4ac98fb2f467693fc83b2bfeaad63f008a21e80b9b2cd22eb9d9f5f979fa211c2bdfe1862e7a68"
+RPM_NAME = "python39-django-rest-knox-4.2.0-1.9.noarch.rpm"
+RPM_HASH = "f37aaaccc08846c841fbe61722e32627a3727ca9f17db8fb56985715179b6b2280bf832899f46ee0aa957d6b8db360ccfabd87a0de3553185e1f29c67fc481fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-django-rest-knox \

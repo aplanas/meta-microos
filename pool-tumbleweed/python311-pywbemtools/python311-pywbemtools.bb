@@ -11,11 +11,12 @@ LICENSE = "Apache-2.0"
 
 PV = "1.1.1"
 
-RPM_NAME = "python311-pywbemtools-1.1.1-1.2.noarch.rpm"
-RPM_HASH = "287edf87c33c02c4bf0310666a6db410a893b826a527aebc558743fdf116c2ee6ea44bdb108669acd60a41e339559814d8297276fa2fd7f7f453877caa4cad88"
+RPM_NAME = "python311-pywbemtools-1.1.1-1.3.noarch.rpm"
+RPM_HASH = "ac3d9a396cb58c6308529dc753f32fcb0403c19b1a1379cb83b36826efe509be916c088d65230ddf5097fa22da068e9a758a27123fcb4694e36ac34409ac83f4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pywbemtools \
+RPROVIDES:${PN} += "python3-pywbemtools \
+python3.11dist-pywbemtools \
 python311-pywbemtools \
 python3dist-pywbemtools"
 

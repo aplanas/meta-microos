@@ -7,10 +7,10 @@ represents a higher-level, task-based parallelism that abstracts platform \
 details and threading mechanism for performance and scalability."
 LICENSE = "Apache-2.0"
 
-PV = "2021.8.0"
+PV = "2021.9.0"
 
-RPM_NAME = "libtbb12-2021.8.0-1.5.aarch64.rpm"
-RPM_HASH = "19b3b5a2362401039a50cb2b61c76e598efb9d4b8b1524c906e512419608506dc46edb96e2b515df681b7a05002d23bf73d95953cf419f977b0bc3396193e5e6"
+RPM_NAME = "libtbb12-2021.9.0-1.1.aarch64.rpm"
+RPM_HASH = "5ef714cf89c3e3566f6eee3a6db84a79c2b12e55273cb882bbd6d88b94cd4b56cbb2e6abdfda22088ea258339f598250c88f7538f579a1ff35a5de56bb7f4d0a"
 
 RPROVIDES:${PN} += "libtbb.so.12 \
 libtbb12 \

@@ -4,12 +4,11 @@ LICENSE = "Python-2.0"
 
 PV = "4.1.0"
 
-RPM_NAME = "python310-jdatetime-4.1.0-1.4.noarch.rpm"
-RPM_HASH = "89db33f10da019955eb339c8b2bdc431844f67bf106044030e0df314b560d375c484d6f81877e68e7cb5a38b8128a647bcfb0efb6ea076558de69258c9668ce2"
+RPM_NAME = "python310-jdatetime-4.1.0-1.6.noarch.rpm"
+RPM_HASH = "f47164dd814e41e7633fbfe769ad1ff29894a04cc013002660cf34512cf91d4a599e62df1321459137b30cbd976bb1e41d0cdee356d48f2e59ef7b559d87df33"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-jdatetime \
-python3.10dist-jdatetime \
+RPROVIDES:${PN} += "python3.10dist-jdatetime \
 python310-jdatetime \
 python3dist-jdatetime"
 

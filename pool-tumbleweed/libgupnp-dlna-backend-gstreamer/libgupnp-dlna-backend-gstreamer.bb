@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.12.0"
 
-RPM_NAME = "libgupnp-dlna-backend-gstreamer-0.12.0-1.10.aarch64.rpm"
-RPM_HASH = "0f72ea2cefe552388dfc9efe75660fafb7a2a642e14a6912f520a61d7cd3d0bf5f9975f28dd3fab33686a08b0e4a57b0c9b9e8d2a9a903668b893e10163f483d"
+RPM_NAME = "libgupnp-dlna-backend-gstreamer-0.12.0-1.11.aarch64.rpm"
+RPM_HASH = "d3efdaeae14d1b1784038c05757360eae65fec660bb2c197d82d73d060582798e5d9446827327146d5e6e427767b0e40e38c1a63a1782522730383ee265061f4"
 
 RPROVIDES:${PN} += "libgstreamer.so \
 libgupnp-dlna-backend \

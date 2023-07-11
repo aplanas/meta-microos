@@ -5,8 +5,8 @@ LICENSE = "BSL-1.0"
 
 PV = "1.12.2"
 
-RPM_NAME = "libPocoData92-1.12.2-1.4.aarch64.rpm"
-RPM_HASH = "ea1056c8841c01d92d45007ba829718bf4b340d1ca7c8de34f3ec6dd5885708c13e244d1ca1cd8ab677ff1604c8e6b7f085e82ff0a2b8741953a44bb7ad900ce"
+RPM_NAME = "libPocoData92-1.12.2-1.5.aarch64.rpm"
+RPM_HASH = "7cb3af8fbb75e171b6e0ee1b3d15fcbab9121bb6508a526214f24c24aef542bbcb27b4f6294acce9368dd852b54811391b8ab3dfe64a77e290ea4785e8d3947b"
 
 RPROVIDES:${PN} += "libPocoData.so.92 \
 libPocoData92 \

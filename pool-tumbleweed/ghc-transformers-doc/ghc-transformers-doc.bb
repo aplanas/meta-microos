@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.6.2"
 
-RPM_NAME = "ghc-transformers-doc-0.5.6.2-3.1.noarch.rpm"
-RPM_HASH = "3618211d64d89f48ce02818c1f696539d5bf41f76523c87aa9da006186db73e6d42778d4da56ce2d66904140e13e041cc484a90b4b5a0d944600459fe472a735"
+RPM_NAME = "ghc-transformers-doc-0.5.6.2-3.2.noarch.rpm"
+RPM_HASH = "bf3aa46a5bbde921bf47963fcfcc44392fb6c1fd1cba7938bc40d7f54b2f1682a1cc4d704f23970c7647cf410933ec212890983ad3355647136a8e9724d8d183"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-transformers-doc"

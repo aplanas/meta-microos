@@ -9,8 +9,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2.7.4.2"
 
-RPM_NAME = "rasmol-2.7.4.2-77.21.aarch64.rpm"
-RPM_HASH = "2d1e0bd04a55a87ee8661d80af5b9871ab1a8d624431062262b6d22afb43d63365f0ee8b87d37bf3be3a5a61d3a10c5fe64a533aee6036348001a979daaa2ebb"
+RPM_NAME = "rasmol-2.7.4.2-77.22.aarch64.rpm"
+RPM_HASH = "3473ebf25765bee8cabdef43411932be9a9efb41dd08f0c59f62d74a3eae8b0e7577acca524bae9122fe130d565dc1613ea97183c613b83481375eafd5d59314"
 
 RPROVIDES:${PN} += "RasMol \
 rasmol"

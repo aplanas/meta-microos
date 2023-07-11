@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "6.5"
 
-RPM_NAME = "brltty-driver-libbraille-6.5-2.4.aarch64.rpm"
-RPM_HASH = "f40fe5c71c184785390475e7db6d8b8a3cc0c098a8cc3c644aa37f91e6dbcea0b47c96585c5aa1c2087c288cb4ec62107b736549816401acaae1734528f52ee6"
+RPM_NAME = "brltty-driver-libbraille-6.5-3.1.aarch64.rpm"
+RPM_HASH = "e0a29f703bd8e71cd479a519cee5237e9275e2527a70e2aff2d31b0d0fd045e924f40ab1035249a7f34475071b7da946818f9e497a44b3c283269e69aa64994b"
 
 RPROVIDES:${PN} += "brltty-driver-libbraille \
 libbrlttyblb.so"

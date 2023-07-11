@@ -9,12 +9,11 @@ LICENSE = "ISC"
 
 PV = "0.16.0"
 
-RPM_NAME = "python310-pan-python-0.16.0-2.13.noarch.rpm"
-RPM_HASH = "b4bb23f81ee893a8b46fae19564da3a17712166f66952b36cbca03a4e3802b3b1c5a8154a2ec5315213044eef129e239fb4402968af50520f62749032e214721"
+RPM_NAME = "python310-pan-python-0.16.0-2.14.noarch.rpm"
+RPM_HASH = "f1854aebc98b7eaea5e367c83b077f546894eea38f2398e13966c4e1bd711a64cb20bcfcc0d28e1163710bfed06d985427fec438f620a142e8b2728ab85b36c6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pan-python \
-python3.10dist-pan-python \
+RPROVIDES:${PN} += "python3.10dist-pan-python \
 python310-pan-python \
 python3dist-pan-python"
 

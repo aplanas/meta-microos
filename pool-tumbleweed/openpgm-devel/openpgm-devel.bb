@@ -7,15 +7,15 @@ notify an application of unrecoverable loss. \
 This subpackage contains the header files for OpenPGM."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.2.122"
+PV = "5.3.128"
 
-RPM_NAME = "openpgm-devel-5.2.122-10.8.aarch64.rpm"
-RPM_HASH = "da0f166fb2eee7310267e748d79ac49813cc1c57879c60d7a36885e3a1c6f83ce72e412be051894c303b5d1aa1ca5f30014f46c6a55e8022dfa4e22562ad55af"
+RPM_NAME = "openpgm-devel-5.3.128-2.1.aarch64.rpm"
+RPM_HASH = "c9cce9c6f6583e977fbc11f545d6eb376fb30b1dbe948b29fc50403d40f38174e0acf1c474df6732b305866bb8388d9791fa50ec2834c60844ca63a439c35222"
 
 RPROVIDES:${PN} += "openpgm-devel \
-pkgconfig-openpgm-5.2"
+pkgconfig-openpgm-5.3"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libpgm-5-2-0"
+libpgm-5-3-0"
 
 inherit rpm

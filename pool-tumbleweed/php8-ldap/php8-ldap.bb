@@ -2,10 +2,10 @@ SUMMARY = "LDAP protocol support for PHP"
 DESCRIPTION = "PHP interface to the Lightweight Directory Access Protocol (LDAP)."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.1.19"
+PV = "8.2.7"
 
-RPM_NAME = "php8-ldap-8.1.19-2.2.aarch64.rpm"
-RPM_HASH = "d5f2e79b8d5e7e9881fad94d56c6f14574ef7084a409b444055d3b4fbc7af4113c19f7ef1622169bef274547ccbc8513eb89065e41bf88d5addcefd9010f4d58"
+RPM_NAME = "php8-ldap-8.2.7-1.1.aarch64.rpm"
+RPM_HASH = "ff67c00b6b663656ee1ea43e4142eb3dab5560f8994d278a851c8563efdf13cf7853e051f35e54e7374ac1f42e2a5db05bc96c5240fcc4ca7e948eb686fc77ba"
 
 RPROVIDES:${PN} += "config-php8-ldap \
 php-ldap \

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.41"
 
-RPM_NAME = "connman-plugin-tist-1.41-4.7.aarch64.rpm"
-RPM_HASH = "51a78749cfd7a46dae99f1686316e2462be7d38e163da4039513080693ccabc465c7fc9f181deee128b38a6350b7450580781c0295b73bfd5fa9d07f5d3eaa4b"
+RPM_NAME = "connman-plugin-tist-1.41-4.8.aarch64.rpm"
+RPM_HASH = "4c2c09c0b3715923fdbf8d6fe7721d5bbd92fb2934bbee41af693dcafad783025e8f9ef4924cf6afac93a497b1463c3ac6bdc641a0d3d20075c6658994bb8c50"
 
 RPROVIDES:${PN} += "connman-plugin-tist"
 

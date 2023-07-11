@@ -9,10 +9,10 @@ communication. \
 This package provides the shared library for the Parquet format."
 LICENSE = "Apache-2.0 & BSD-3-Clause & BSD-2-Clause & MIT"
 
-PV = "12.0.0"
+PV = "12.0.1"
 
-RPM_NAME = "libparquet1200-12.0.0-1.1.aarch64.rpm"
-RPM_HASH = "88da005bb231603a4fcbed034c0319139c136c84db15fe2e683696609a09771ca8224d1d4ad0dd6c6c1546153a8197392087dea9888c4b425370f05345b1bdb5"
+RPM_NAME = "libparquet1200-12.0.1-1.1.aarch64.rpm"
+RPM_HASH = "0efcfb7a4d0d256f21c5189c8315a02adab977520033a74650633624c71f53eb3131cc9e87cb7014b8777c64063f5e2e4087c0f11c5563f6ea0d6b973c8d4212"
 
 RPROVIDES:${PN} += "libparquet.so.1200 \
 libparquet1200"

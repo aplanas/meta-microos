@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.3.1"
 
-RPM_NAME = "python39-sasl-0.3.1-1.4.aarch64.rpm"
-RPM_HASH = "f289a7613b9b8be68fdb0d851ded4fbf95e1c640da6141bc86c85041963be1c8a8f5e65e283ebb739a886d7ae2ae91f7ce46c7c7dafe972aa0606a807ba24d9e"
+RPM_NAME = "python39-sasl-0.3.1-1.6.aarch64.rpm"
+RPM_HASH = "09fb614cd3b1bb5878e7edf80d6c454e564f8ddcb4fed6b300b5e3186fa6009b567a205ab8c1a056a79158ef7abfc87d9a89d02e7fd461d96f58aacc37794def"
 
 RPROVIDES:${PN} += "python3.9dist-sasl \
 python39-sasl \

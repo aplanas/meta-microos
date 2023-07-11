@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.3"
 
-RPM_NAME = "maven-script-interpreter-javadoc-1.3-1.4.noarch.rpm"
-RPM_HASH = "f97a6526bf3abb55d528a6a5ccf708a1018eb2c4a52a79c2b27c5c2f79c22b921058540c969e62cce1a757e02d328d309281fafb2ccec5327b82d7fd6b1ff959"
+RPM_NAME = "maven-script-interpreter-javadoc-1.3-1.5.noarch.rpm"
+RPM_HASH = "dd07f4b417185eff662ab90559e50761152b542e2e05b11e9ac2de2e760a9170756070ce939a5d62e7d47df1a7fa85d5f45a05558c4ea46e7160a4c3416612be"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-script-interpreter-javadoc"

@@ -5,10 +5,10 @@ the presence onboard of a train using WiFi SSIDs and provide journey \
 details."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libKPublicTransportOnboard1-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "ceae199593da642a21a1a532834227f04b8e039a0c753a4c500a2b1b5be7a2226e48c21ddada1573bb3e4b34722eadb2f92d9e4f764c6b4f29db73b4e3f70120"
+RPM_NAME = "libKPublicTransportOnboard1-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "52ccafe3bae3056fed2fbb33c52dc4d9f43cba8c34804cb31ef775cd7419fa283e695a40c36635883e46547a9198a1cbe3195fa629b40b872cbe7bab862bce6a"
 
 RPROVIDES:${PN} += "libKPublicTransportOnboard.so.1 \
 libKPublicTransportOnboard1"

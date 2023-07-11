@@ -23,11 +23,12 @@ LICENSE = "MIT"
 
 PV = "0.2.2a"
 
-RPM_NAME = "python311-pyprimes-0.2.2a-1.20.noarch.rpm"
-RPM_HASH = "4e0afe9b617dd1ee0d2b430210f961c78c3d38c2a2c9c70a95ced6fc30191267bee6644d4fa1cfbc88a6bba044fb77e8cb5a6453e3d90a787f730a2a15cca1d8"
+RPM_NAME = "python311-pyprimes-0.2.2a-1.22.noarch.rpm"
+RPM_HASH = "e9bf2f0cbebee9778ce34dc2c968549242ef7d8fa576dfbd04677194ca3dd53bec9752e0ca72da1b0e07fa4b547b67fd8a954ecacdb1206b2b4d2cbfe38a99be"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pyprimes \
+RPROVIDES:${PN} += "python3-pyprimes \
+python3.11dist-pyprimes \
 python311-pyprimes \
 python3dist-pyprimes"
 

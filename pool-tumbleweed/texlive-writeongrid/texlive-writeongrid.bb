@@ -5,8 +5,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.1.2svn65700"
 
-RPM_NAME = "texlive-writeongrid-2023.201.0.0.1.2svn65700-52.1.noarch.rpm"
-RPM_HASH = "fc51e7c422583ce5930b6f41ab69873597d11bdbd9b2ffc183f949e0aa95c8b5195c036094ed33ed8b441935c21b4e210660c3b977440f60911b8ed85a40359c"
+RPM_NAME = "texlive-writeongrid-2023.201.0.0.1.2svn65700-52.2.noarch.rpm"
+RPM_HASH = "efdaeb05dec3c7913cf8ee9982fa69c4ef264262cc0085b487afeb476fbe1b730efb9afb26d6e934fb51e844e09bb73398972f6bbe3552eff41d2918cdf5542e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-WriteOnGrid.sty \

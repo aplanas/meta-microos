@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.11"
 
-RPM_NAME = "libdico2-2.11-1.15.aarch64.rpm"
-RPM_HASH = "f22700236e77be3283bd0f51659ca901b4618c8cef1edd67cd7d61e0cbb1e7801cf39317a741434e87eefda76f9773aca623859a9d37b3c331e17a4e836eb12f"
+RPM_NAME = "libdico2-2.11-1.16.aarch64.rpm"
+RPM_HASH = "bb10d1b5a123a4a45e62fd98bd4cdadf68275240b840640d6e9337b17047811c6f863cc5635fdba9cd3b7c556041ff6acde374c2a348b4be2b06c41c91cd2097"
 
 RPROVIDES:${PN} += "libdico.so.2 \
 libdico2"

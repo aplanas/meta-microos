@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.4.4"
 
-RPM_NAME = "typelib-1_0-TimezoneMap-1_0-0.4.4-2.9.aarch64.rpm"
-RPM_HASH = "8ea4fb2234c96bd44ff0f0a3b3627c2a48e2f29fef9d7b133687cf32511a4b01c706218df133c01b243257d66e3e90a9318397ca4f51182fe1eec81a03983e19"
+RPM_NAME = "typelib-1_0-TimezoneMap-1_0-0.4.4-2.10.aarch64.rpm"
+RPM_HASH = "76159db626b35531084788667096aac93b8c37a1c8563713cc2a635b6f7f3e283df7f2cb2cc0c74e42459c70cc9ab903ba9c8d4ff967e6c492e227aff19ddd3f"
 
 RPROVIDES:${PN} += "typelib-1-0-TimezoneMap-1-0 \
 typelib-TimezoneMap"

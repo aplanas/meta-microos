@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "9.0.1"
 
-RPM_NAME = "python311-mitmproxy-9.0.1-1.3.noarch.rpm"
-RPM_HASH = "b13e05ecce4070ac20ee41105fbb59a843c42d1208d6b459c7692ae6c8f90bbf3267b7a447b99fb5c4d791179f7c035410e9878e681bce6819cb418c11ff135b"
+RPM_NAME = "python311-mitmproxy-9.0.1-1.5.noarch.rpm"
+RPM_HASH = "b65a4158f1f9a8954ec14bef83b2d761699161cafa1f13197f887b246185c6a8da759db1241dd1d1db8acbe8b0173ead819ad823cd679728aac2c513f4dddd9b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-mitmproxy \
+RPROVIDES:${PN} += "python3-mitmproxy \
+python3.11dist-mitmproxy \
 python311-mitmproxy \
 python3dist-mitmproxy"
 

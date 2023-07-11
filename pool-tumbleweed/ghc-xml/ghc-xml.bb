@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.14"
 
-RPM_NAME = "ghc-xml-1.3.14-13.3.aarch64.rpm"
-RPM_HASH = "6bf0ab877944e79cc9ad8e62b8b0a71bec3d747d71ff1c9cf7152e93138c7e08c9a557198d682e3fa1c5d9b6a825c1e122871049986b9ddc649bead90e30842e"
+RPM_NAME = "ghc-xml-1.3.14-13.6.aarch64.rpm"
+RPM_HASH = "dcbfc429c7e158ef1238a3d5d25826c578684b382f66ce7dd045ddfd783bccfb3c192ace3f5ca04ffaf538b32aa511e71a32b4a0c20507a9813f5a29d5ac56cc"
 
 RPROVIDES:${PN} += "ghc-xml \
 libHSxml-1.3.14-BBPDUWQuUpt3QYOr4h6J5g-ghc9.4.5.so"

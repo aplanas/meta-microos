@@ -12,10 +12,10 @@ DESCRIPTION = "Criterion follows the KISS principle, while keeping the control t
 * Runs on Linux, FreeBSD, macOS, and Windows (Compiling with MinGW GCC and Visual Studio 2015+)."
 LICENSE = "MIT"
 
-PV = "2.4.1"
+PV = "2.4.2"
 
-RPM_NAME = "criterion-2.4.1-1.4.aarch64.rpm"
-RPM_HASH = "360d9f3c261b22411fb9a6accd10b5f718cf24e7ee994b525ba013dfa1be56b1803e9b33252897aedba0ce7c8cd79dcc6aa6b797aab6206dd582f424bc191416"
+RPM_NAME = "criterion-2.4.2-1.1.aarch64.rpm"
+RPM_HASH = "b27c1be0d33e7d8ce53be9f6af53dd70472b9b98d6769312deb8dd50a54e96d2fd99240ad1101a4ca201149b6b06f310228c3fc137cf18b40e53743b523067f9"
 
 RPROVIDES:${PN} += "criterion"
 

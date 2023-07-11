@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "8.2.0.0"
 
-RPM_NAME = "python39-azure-servicefabric-8.2.0.0-1.8.noarch.rpm"
-RPM_HASH = "f5a8864ae47459f0f856fe9d408ab2d14e4706701e2d382029d9455c73f3a7fb02ca28f56e4d8355a44501bf122611609b4bbc5bf1f5a3380f4a2e23da207cb3"
+RPM_NAME = "python39-azure-servicefabric-8.2.0.0-1.9.noarch.rpm"
+RPM_HASH = "6c28885d84ae7c5c983d4714f9f038a5112bc3a4c98cb76ca55dc05b710e530959555d0b3b2ec4a0f73872583cfa389d4a5ffa24207a2cf915abf135fbb1396f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-servicefabric \

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "4.3.0"
 
-RPM_NAME = "omniORBpy-4.3.0-1.8.aarch64.rpm"
-RPM_HASH = "7f0f7c13fa126c51a0c844f8acb8d068add903e14d4e558e2eed1ed852f6bc7dad22418e0fa7c8fcb9f655bf2d064104fbec67cf2f9f11282e3ac10d96d6dc04"
+RPM_NAME = "omniORBpy-4.3.0-1.10.aarch64.rpm"
+RPM_HASH = "54b707dd2620463b021b33b20f87180307fb31593ef5446f92b4621beb7822b32e69a01042ec921220ef2de4b86f0b300eb2d9fd7cd57df1b0ab34b8671155a8"
 
 RPROVIDES:${PN} += "omniORBpy"
 

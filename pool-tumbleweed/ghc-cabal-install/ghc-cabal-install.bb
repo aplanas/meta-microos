@@ -4,15 +4,15 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.8.1.0"
 
-RPM_NAME = "ghc-cabal-install-3.8.1.0-1.3.aarch64.rpm"
-RPM_HASH = "40afc057434351f4189aae222fe508c624afa389d5c01dd6131cc4bcacca7075126f6d935a85273c10b147cbc4c71afc40dd384464717da23a5e3537bcb2c802"
+RPM_NAME = "ghc-cabal-install-3.8.1.0-1.7.aarch64.rpm"
+RPM_HASH = "2e1cb65b8ba5aa7540fdb34c4a6912f40b42aae9360555b43e10083ea9005c91253f4fa72c4dae0d3ea8f5457b53860fd49105e514cc065cbf70ce95d40a3da0"
 
 RPROVIDES:${PN} += "ghc-cabal-install \
-libHScabal-install-3.8.1.0-5UcdOch820LBdlzybhXr39-ghc9.4.5.so"
+libHScabal-install-3.8.1.0-EqoYmuno0LiJ3JWLtQXleA-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSCabal-3.8.1.0-ghc9.4.5.so \
 libHSCabal-syntax-3.8.1.0-ghc9.4.5.so \
-libHSHTTP-4000.4.1-BsHtin5O4EoLpElKRODQk3-ghc9.4.5.so \
+libHSHTTP-4000.4.1-7No2v5wGQP7LivFOppGzbz-ghc9.4.5.so \
 libHSarray-0.5.4.0-ghc9.4.5.so \
 libHSasync-2.2.4-Is3H7ZPNMkM5reIoCaqYrF-ghc9.4.5.so \
 libHSbase-4.17.1.0-ghc9.4.5.so \
@@ -33,11 +33,11 @@ libHSfilepath-1.4.2.2-ghc9.4.5.so \
 libHSghc-bignum-1.3-ghc9.4.5.so \
 libHSghc-boot-th-9.4.5-ghc9.4.5.so \
 libHSghc-prim-0.9.0-ghc9.4.5.so \
-libHShackage-security-0.6.2.3-Km2R5J8alEh3bTkVIJr5Mq-ghc9.4.5.so \
+libHShackage-security-0.6.2.3-BVLL0begiUMDlGngVjOMXt-ghc9.4.5.so \
 libHShashable-1.4.2.0-FFBRhuY0w4YLmuLEs5uQAt-ghc9.4.5.so \
 libHSlukko-0.1.1.3-7Ko9x6wnjxCV3NuL9k89V-ghc9.4.5.so \
 libHSmtl-2.2.2-ghc9.4.5.so \
-libHSnetwork-3.1.2.8-HNDBp0HF6t0D1fzE2MDtPd-ghc9.4.5.so \
+libHSnetwork-3.1.4.0-FvtFepOtuCUH79FCWyNxIc-ghc9.4.5.so \
 libHSnetwork-uri-2.6.4.2-4kNQnaE9heqEL1mH8FE5xH-ghc9.4.5.so \
 libHSparsec-3.1.16.1-ghc9.4.5.so \
 libHSpretty-1.1.3.6-ghc9.4.5.so \
@@ -46,7 +46,7 @@ libHSrandom-1.2.1.1-I0wUgAAbf0g3qHR3e8uT0o-ghc9.4.5.so \
 libHSregex-base-0.94.0.2-8EhYuxSr6UD5zE7cP6wrkq-ghc9.4.5.so \
 libHSregex-posix-0.96.0.1-Db56rsDUom23lFxliY5wt1-ghc9.4.5.so \
 libHSresolv-0.1.2.0-AYruoqdjlgt9u8SdYnpGUr-ghc9.4.5.so \
-libHSsafe-exceptions-0.1.7.3-4ydW60ruqZ4IdMpKf3b6BD-ghc9.4.5.so \
+libHSsafe-exceptions-0.1.7.4-8XVKrMBchTjCLhdcvBwBNb-ghc9.4.5.so \
 libHSsplitmix-0.1.0.4-7e8CibdlMRLAGh7KO5VlFe-ghc9.4.5.so \
 libHSstm-2.5.1.0-ghc9.4.5.so \
 libHStar-0.5.1.1-Dtsl5am3zST5LscMXaDdU8-ghc9.4.5.so \

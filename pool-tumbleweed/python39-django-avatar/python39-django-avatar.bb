@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "7.1.1"
 
-RPM_NAME = "python39-django-avatar-7.1.1-1.2.noarch.rpm"
-RPM_HASH = "80062a290c7f9770527995ac09616eaa0984a11bbd092c74168606cb9ba0b2addefa25c5731404620923d38759a5b9bf31dddf7313640da5dbd76ba6c84ef3f3"
+RPM_NAME = "python39-django-avatar-7.1.1-1.4.noarch.rpm"
+RPM_HASH = "dec8ae809f3297376d6683832ccde40c4bd45995940fe4698aa7902bb0cc4a345b30508afc1662cf83fb6c4db3a6af56ef9b587b1a5d70dcdab4de97fca148b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-django-avatar \

@@ -6,10 +6,10 @@ The pacemaker-libs package contains shared libraries needed for cluster \
 nodes and those just running the CLI tools."
 LICENSE = "GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "2.1.5+20230320.22590c566"
+PV = "2.1.6+20230524.6fdc9deea"
 
-RPM_NAME = "pacemaker-libs-2.1.5+20230320.22590c566-1.1.aarch64.rpm"
-RPM_HASH = "2dcfc0a5d208df2952d9f5a6cdc15f1a66e2d5436518aab04f583a3fd893005f691f7c1b93a9fcb31a3bce78c612cd6be2aabca50c4c18c6a73604cbe4a4a2f9"
+RPM_NAME = "pacemaker-libs-2.1.6+20230524.6fdc9deea-1.1.aarch64.rpm"
+RPM_HASH = "79867a64692adf2a803a6c3372dfdea9aa61bcffca01aa4c038fa1eff5c679862f4bf09dbf2858911891a2720c7fff0cbca750a950fbea4b7d38070a2774049d"
 
 RPROVIDES:${PN} += "libcib.so.27 \
 libcrmcluster.so.29 \

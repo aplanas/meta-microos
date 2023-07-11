@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.0.1"
 
-RPM_NAME = "kdbg-3.0.1-1.17.aarch64.rpm"
-RPM_HASH = "e76025dceeb047f5755852822aa17de46cde81592ce4eb9a4cc44306babdf113e703a1530bb8f2a232b2d1d4941329cbdc2352e0fe92c367f0613c64d5c4c49c"
+RPM_NAME = "kdbg-3.0.1-1.18.aarch64.rpm"
+RPM_HASH = "cd426c7493b8cc5092004bdf7115b61343b14f7743a1d1ed82b79f17c6b266c4af584472bb67019288f104ae63f71db253068b7f2ab8d830d55ebdafe74f131e"
 
 RPROVIDES:${PN} += "config-kdbg \
 kdbg"

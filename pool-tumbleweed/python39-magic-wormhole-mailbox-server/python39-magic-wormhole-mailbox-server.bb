@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "0.4.1"
 
-RPM_NAME = "python39-magic-wormhole-mailbox-server-0.4.1-5.2.noarch.rpm"
-RPM_HASH = "7715e3698b02a8a4deaf0831a399de2760122f3babdb15bd3dd8bc417fbd5b960a454dd7fda405248b0e1457e00da3cdf28ab258d8bf45ba237d250c799069c5"
+RPM_NAME = "python39-magic-wormhole-mailbox-server-0.4.1-5.4.noarch.rpm"
+RPM_HASH = "d684173d08e8105bcccb72c2a13f9a0be39749ccfe9ce1433ad8c50986745fcd57d4976965293d4afbe4bee23ef71e2b11973a552bf3dac9227b88b051c7f596"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-magic-wormhole-mailbox-server \

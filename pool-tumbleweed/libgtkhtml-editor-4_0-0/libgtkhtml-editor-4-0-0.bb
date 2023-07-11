@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "4.10.0"
 
-RPM_NAME = "libgtkhtml-editor-4_0-0-4.10.0-7.3.aarch64.rpm"
-RPM_HASH = "3020c02df872010f1d3063b380b9c2a155e11f55c27086111b9c2e8f8ac6919594d3efa9265efa60d5ea37060a3ca5914beb259c6ef7509b6719477d31ae9ca0"
+RPM_NAME = "libgtkhtml-editor-4_0-0-4.10.0-7.4.aarch64.rpm"
+RPM_HASH = "60e4b6ff0acf7cef4f1efc48e5035b182f4729b9319e8022c25a72fbd1d67fa0ad951ad69d9e7514963913b9652d30c772ece14b7c8a95daed73046471de16f0"
 
 RPROVIDES:${PN} += "libgtkhtml-editor-4-0-0 \
 libgtkhtml-editor-4.0.so.0"

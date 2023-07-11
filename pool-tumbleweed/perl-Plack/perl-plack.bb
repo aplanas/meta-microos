@@ -9,8 +9,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.0050"
 
-RPM_NAME = "perl-Plack-1.0050-1.2.noarch.rpm"
-RPM_HASH = "02cac93dc655dc0cca00f3a6bcd1764f62ecc0281a18a048089fc2fe389340d0f8a765fbde94e122be83dcdf27079aac9aa64b0ed301d92958680164a08201ce"
+RPM_NAME = "perl-Plack-1.0050-1.3.noarch.rpm"
+RPM_HASH = "91f3b0f4b90c3c7e2554595e59c5b19b0247aab2fe27b207238d42a7f1f72164af801715b8d9008aa321b7718a84bbb46870a86c9c18fa304728ff7c02a4baa1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTTP--Message--PSGI \
@@ -89,7 +89,7 @@ perl-Plack--Util--IOWithPath \
 perl-Plack--Util--Prototype"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-Apache--LogFormat--Compiler \
 perl-Cookie--Baker \
 perl-Devel--StackTrace \

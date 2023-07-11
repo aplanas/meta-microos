@@ -2,10 +2,10 @@ SUMMARY = "Lightweight Gtk+ based image viewer"
 DESCRIPTION = "Geeqie is a lightweight image viewer for Linux, BSDs and compatibles."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.0.1"
+PV = "2.1"
 
-RPM_NAME = "geeqie-2.0.1-2.1.aarch64.rpm"
-RPM_HASH = "02b7dca2fdcd98cf98099d8245ee362cef0e4cf06770789b59ad740713c68c110b0ea5a79cdcd1ab44741400b5ff3012a456aee8c7b064c99c9fb1f36d722a34"
+RPM_NAME = "geeqie-2.1-2.1.aarch64.rpm"
+RPM_HASH = "f599c1e7e461a6ff01a190a94461977075d53143569c4b0a03448085f20774ab3ee99a757a56c5c097aae4a6d8c6b108a08a6c8aac384374a60c3507fadaf815"
 
 RPROVIDES:${PN} += "geeqie"
 
@@ -19,7 +19,7 @@ libchamplain-gtk-0.12.so.0 \
 libclutter-1.0.so.0 \
 libclutter-gtk-1.0.so.0 \
 libdjvulibre.so.21 \
-libexiv2.so.27 \
+libexiv2.so.28 \
 libffmpegthumbnailer.so.4 \
 libgcc-s.so.1 \
 libgdk-3.so.0 \
@@ -33,7 +33,6 @@ libheif.so.1 \
 libjpeg.so.8 \
 libjxl.so.0.8 \
 liblcms2.so.2 \
-liblua5.3.so.5 \
 libm.so.6 \
 libopenjp2.so.7 \
 libpango-1.0.so.0 \
@@ -42,7 +41,6 @@ libpoppler-glib.so.8 \
 libraw.so.23 \
 libstdc++.so.6 \
 libtiff.so.6 \
-libwebp.so.7 \
 update-desktop-files"
 
 inherit rpm

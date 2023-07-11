@@ -8,8 +8,8 @@ LICENSE = "APL-1.0 & CC-BY-SA-3.0 & GPL-2.0-with-font-exception & MIT & OFL-1.1"
 
 PV = "2019.1"
 
-RPM_NAME = "unknown-horizons-2019.1-7.6.noarch.rpm"
-RPM_HASH = "8655d908f94bd234300af5ab3a7ba7daf53a6a11a026b6593918fbb9d289c744ae1689b7bc926acb3f3bb3a12621d3378b1ed4f0a704a88f3eb1975035470da3"
+RPM_NAME = "unknown-horizons-2019.1-7.7.noarch.rpm"
+RPM_HASH = "21a2a4d9b8cc4a2089f513e2b7ab44937bc11eed744d74370c7b0863bf830d6680df11905c61892d271a5c860ca8ceb7c2bd57847d1163bf2ede0b346c0afbcb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "unknown-horizons"

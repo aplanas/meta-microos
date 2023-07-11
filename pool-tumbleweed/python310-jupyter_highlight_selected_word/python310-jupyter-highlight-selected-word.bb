@@ -8,12 +8,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.0"
 
-RPM_NAME = "python310-jupyter_highlight_selected_word-0.2.0-8.5.noarch.rpm"
-RPM_HASH = "b505a41345fcfc6d89fb98a6cc0a84f87622062d5b91c8573eff9cbc44e41aaf531fe4e3f76aae89036f41049104f85fb18ff01fd54981a229a37b48cfe3e235"
+RPM_NAME = "python310-jupyter_highlight_selected_word-0.2.0-8.6.noarch.rpm"
+RPM_HASH = "ce819f97668b3c1ce4eadf90113ae250707ff5af6bcdea5b7cdd1eaf43842dc8690a4fba71cd30681853d97a66a5ef546d8015b0fbec71bb00de2c313054001e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-jupyter-highlight-selected-word \
-python3.10dist-jupyter-highlight-selected-word \
+RPROVIDES:${PN} += "python3.10dist-jupyter-highlight-selected-word \
 python310-jupyter-highlight-selected-word \
 python3dist-jupyter-highlight-selected-word"
 

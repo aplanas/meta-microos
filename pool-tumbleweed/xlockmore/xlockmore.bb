@@ -3,10 +3,10 @@ DESCRIPTION = "The xlock utility locks your X Window System session and runs a s
 saver until a password is entered."
 LICENSE = "MIT"
 
-PV = "5.69"
+PV = "5.71"
 
-RPM_NAME = "xlockmore-5.69-3.3.aarch64.rpm"
-RPM_HASH = "de23abf640274e5e97c25e24012c7309813e4b47d52bbb9d92d859d7edec64294719c5759dedf306fc2aae067b9872fd4a7a286b7d5dfde3bf59ee5543936088"
+RPM_NAME = "xlockmore-5.71-1.1.aarch64.rpm"
+RPM_HASH = "5b9c56ce1308338ca6cdfff3df3298acc0a6e7d3e0916a1ce05e23054cf731c11488e4340d8babed16f21662db869b7b68fa2ce3e4107f96c850d63e26d8987a"
 
 RPROVIDES:${PN} += "xlockmore"
 

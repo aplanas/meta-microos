@@ -9,8 +9,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.208.svn63547"
 
-RPM_NAME = "texlive-scheme-bookpub-2023.208.svn63547-58.1.noarch.rpm"
-RPM_HASH = "f62f89444c7b4db20b759133891db4a5969bb25e820a7c5527f35910586ebd0458cbc19c6c7689f642d2db1a8b58ba3f7bb846501996eb12bfb7928b3ac3fab4"
+RPM_NAME = "texlive-scheme-bookpub-2023.208.svn63547-60.1.noarch.rpm"
+RPM_HASH = "c5888571fb530ca190537eebc94d3e35197a308d4800513bbaa4c1d9efac50a327f74785a875f79aef049e7578b79b12d0b098cd72261c30220522bd65538e4a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-scheme-bookpub"

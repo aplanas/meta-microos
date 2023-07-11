@@ -8,8 +8,8 @@ LICENSE = "CDDL-1.0 | LGPL-2.1-only"
 
 PV = "0.21.1"
 
-RPM_NAME = "libraw23-0.21.1-2.1.aarch64.rpm"
-RPM_HASH = "3253e42e62b13efa889bb1cdc5b57b7f94c7cf2d84de061917e73c435628fca4d9d09855806a3b89c40fa8edb76f9338bc60c13baeea29c08ac22e5f930000c3"
+RPM_NAME = "libraw23-0.21.1-2.2.aarch64.rpm"
+RPM_HASH = "77361876a1a5f71785167beb356ac23bf93c0eb8ec680af2290625fc882313365dca7b9e4c845529fb8ffae9a45492ac1b503bb977fc7f45ea47f09a7508dd5c"
 
 RPROVIDES:${PN} += "libraw-r.so.23 \
 libraw.so.23 \

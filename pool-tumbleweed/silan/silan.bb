@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.4.0"
 
-RPM_NAME = "silan-0.4.0-2.2.aarch64.rpm"
-RPM_HASH = "863a4a7179e18eae10bc65c98af35c1ea988b203cb2e858d1b2e68eb84a2b547c274f1e856fd47c370d407a465f0f746512c5a1d381a7136394c5c34d69a945a"
+RPM_NAME = "silan-0.4.0-2.3.aarch64.rpm"
+RPM_HASH = "87b29f67d593b355d09b7b5ebcdf9776c6d693378bffd92aea36fdf3a16b4f41eefe5655fabc308fa479a0bf9f02e054d62cbececc625e7e507d27ce1967095a"
 
 RPROVIDES:${PN} += "silan"
 

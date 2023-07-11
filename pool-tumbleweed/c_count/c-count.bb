@@ -4,10 +4,10 @@ source programs. It is not lex/yacc based, and is easily portable to a \
 variety of systems."
 LICENSE = "MIT"
 
-PV = "7.20"
+PV = "7.22"
 
-RPM_NAME = "c_count-7.20-1.8.aarch64.rpm"
-RPM_HASH = "cc0822c12f5b74a3b1dda34c9d4dad66675f2a74ae5e9ab2d5ccacb192e332bf1a6f7cebbd5274af990f81cd0e7abd4ca2c7eff703501725a6a067d706c2aa32"
+RPM_NAME = "c_count-7.22-1.1.aarch64.rpm"
+RPM_HASH = "fc7337b93bb41b1a311d99b7d3fa85c7c2c7441326876adec72dadd8c75b16c50364bd11b954833e2642deff168b459149630b4daca4f4806e8695921408ce96"
 
 RPROVIDES:${PN} += "c-count"
 

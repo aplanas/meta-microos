@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "0.4.18"
 
-RPM_NAME = "perl-Net-Libproxy-0.4.18-2.1.aarch64.rpm"
-RPM_HASH = "1600c3d77418cf0d8bef37bcc24741f2e539cb3e906cc6a3773570e98427504afe97e840991d3e5eb3db163b559f6a2a112538b13875c6b49c935693353ecbe7"
+RPM_NAME = "perl-Net-Libproxy-0.4.18-2.3.aarch64.rpm"
+RPM_HASH = "7e3f09756f0dbe54c30ce2f03bbb02d55eef668d93150d4020ac00620c4ff216400869ca5c9c99a751c4456c9be6cbbad2ffd7620436c2054b0f8abc23dc1758"
 
 RPROVIDES:${PN} += "perl-Net--Libproxy \
 perl-Net-Libproxy"
@@ -16,6 +16,6 @@ perl-Net-Libproxy"
 RDEPENDS:${PN} += "libc.so.6 \
 libproxy.so.1 \
 libproxy1 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

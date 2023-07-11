@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0.1.0"
 
-RPM_NAME = "ghc-bloomfilter-2.0.1.0-6.3.aarch64.rpm"
-RPM_HASH = "9c546f3565e070aef00ba59e2d8bc8394ab3ebc5d51fd05ed3e76fa408628ae146b9b9fc41212354aae65fff53c209061a20cfd4c31c1b8c416c5f05140c060a"
+RPM_NAME = "ghc-bloomfilter-2.0.1.0-6.6.aarch64.rpm"
+RPM_HASH = "2bfd38cd2bf88cd51f233f0c8b5d5dba1b0b98372fefabe8157762e0e152c77a0945250d415de8352f70849a2187611303adc4c0e6e9867342858f67cbfcbadb"
 
 RPROVIDES:${PN} += "ghc-bloomfilter \
 libHSbloomfilter-2.0.1.0-3hF1ySDPbPQA7KQQeHgCqI-ghc9.4.5.so"

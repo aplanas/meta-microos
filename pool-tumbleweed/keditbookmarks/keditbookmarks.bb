@@ -2,10 +2,10 @@ SUMMARY = "KDE Bookmark Editor"
 DESCRIPTION = "This is an editor to edit your KDE-wide bookmark set."
 LICENSE = "GPL-2.0-only"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "keditbookmarks-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "b7212ef856dd85aab5e5711462619159f193cf4fcdd383c44542c1a6b2b547464e59e06de3571831ff2ed63d169b0b86398287667902e7b9f4c681757bb4d1ee"
+RPM_NAME = "keditbookmarks-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "38b70044aa4b53cc36766e9da3a8c4aa27e7bc0d6a2911fa9e1ff7e7ff5ab283fc8ab82a1d54495ac50e809cc3e67bcd1a534f9a9c2cde6c4b6960ca13a4b238"
 
 RPROVIDES:${PN} += "keditbookmarks \
 libkbookmarkmodel-private.so.6"

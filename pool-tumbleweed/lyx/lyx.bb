@@ -15,8 +15,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.3.7"
 
-RPM_NAME = "lyx-2.3.7-1.3.aarch64.rpm"
-RPM_HASH = "e02fdd7e0dcf2bf53c7ae8bacee5cd94485be10f3e8fcea6d18eac8e47b728e76bae926e83efe4a51a62cc21d3da02501ba578f6d351e23cd648cc54202ff20e"
+RPM_NAME = "lyx-2.3.7-1.4.aarch64.rpm"
+RPM_HASH = "c9a6bad0cb58bc6aa72c1d2420e2f3151a25bfe08624aaec3df7d74194a12f674d5f0a05a59ed2127ebf1ae2bc022c75de225f5bf11da4d5708408957e1d281c"
 
 RPROVIDES:${PN} += "lyx"
 

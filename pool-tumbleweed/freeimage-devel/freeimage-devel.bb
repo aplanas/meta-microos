@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
 PV = "3.18.0"
 
-RPM_NAME = "freeimage-devel-3.18.0-6.3.aarch64.rpm"
-RPM_HASH = "ebb649716ce9b32c7c3da447d5fe95dd113fc1691c7c72ee14e27bb1d2262dbc34291ba9a7825b8ee128a1f9750b708b5a810616e5b06f07dc1594bf76126859"
+RPM_NAME = "freeimage-devel-3.18.0-6.4.aarch64.rpm"
+RPM_HASH = "333e0a28678e47794e78d728f11187579c5bbfd98f4ab5fe0e2891a423f7d61d789c551cbf28493ef4f7e5613ccbae3ed3b13304da3fc16c7df877420c4f4e60"
 
 RPROVIDES:${PN} += "freeimage-devel \
 libfreeimage-devel"

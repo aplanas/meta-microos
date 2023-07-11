@@ -4,8 +4,8 @@ LICENSE = "SUSE-GPL-2.0-with-FLOSS-exception"
 
 PV = "8.0.19"
 
-RPM_NAME = "python39-mysql-connector-python-8.0.19-2.16.noarch.rpm"
-RPM_HASH = "941ca412467a4b53a95b9cb18753782a45e5f9326bcccad0d51e8b1337971561e36b7bfa2e4c8cfc932a9c89499149d2278871d20a225fd047ae09839a8334ad"
+RPM_NAME = "python39-mysql-connector-python-8.0.19-2.17.noarch.rpm"
+RPM_HASH = "1fcc275a88611e54a5fed4734453740c065d283a4c39d1d68222858cf9f339d1e64877bb8f8b6c61380d941f07c06883cb5b8bd73a14eb29f36aad8c890bed27"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-mysql-connector-python \

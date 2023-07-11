@@ -5,10 +5,10 @@ belle-sip, mediastreamer2 and linphone. \
 This package contains development files."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.2.49"
+PV = "5.2.73"
 
-RPM_NAME = "bctoolbox-devel-5.2.49-3.1.aarch64.rpm"
-RPM_HASH = "2aaa7c234d5e1886dcdc7e4e897743a47e9f7ecb02b82f0f775ef25d89da26ac2bbd573b74a471fef2bb62312ccbb4e8c5b9b851f445e9ec4168de43fe1e84fb"
+RPM_NAME = "bctoolbox-devel-5.2.73-1.1.aarch64.rpm"
+RPM_HASH = "9e763b05a8d195b1032e10af34d684c5a422fb2cdaeff4fd5da9bed81ad4534dd67acdd0bb1feb0a9b09b49f207adfb8f1f4fbe2628cf4eaa0b03510cf9531a0"
 
 RPROVIDES:${PN} += "bctoolbox-devel \
 pkgconfig-bctoolbox \

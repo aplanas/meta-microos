@@ -5,8 +5,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2.1.0"
 
-RPM_NAME = "scalapack_2_1_0-gnu-openmpi1-hpc-test-2.1.0-9.19.aarch64.rpm"
-RPM_HASH = "b7203d1f1d4386b2e462e8f8f41d0a737527418174eb264ac5c7e36cc76fa0f0b993ce67694bd5d0973f74ba1850c19eef443bd911b52bd8feff07e65683dc7d"
+RPM_NAME = "scalapack_2_1_0-gnu-openmpi1-hpc-test-2.1.0-9.20.aarch64.rpm"
+RPM_HASH = "67936d8700b716c7663165a40ee490d61e5b411179c89638c224090d324454856d9c955e3d134e8ed8ad0fbe2bfedc039b247b0605782c42c634451b922c2e82"
 
 RPROVIDES:${PN} += "scalapack-2-1-0-gnu-openmpi1-hpc-test"
 

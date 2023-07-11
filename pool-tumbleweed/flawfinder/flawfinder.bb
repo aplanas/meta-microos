@@ -6,12 +6,12 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.0.19"
 
-RPM_NAME = "flawfinder-2.0.19-1.8.noarch.rpm"
-RPM_HASH = "46ada77416d8601c94275d2adc057aebe96463ba79262296e009cb39e2fa9ef65bf9c50d390176a03fda759d570505472ea73b0ce4b10ebb2c2e70f097151e26"
+RPM_NAME = "flawfinder-2.0.19-1.9.noarch.rpm"
+RPM_HASH = "550c0518ca86175d614835b5c7ab5df9ed8112f1ce29294baa766d2800f022f079445a467f5dc7169bc44c3926d5ff8c36310c8cab4b3e6be9e38139d59b738b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "flawfinder \
-python3.10dist-flawfinder \
+python3.11dist-flawfinder \
 python3dist-flawfinder"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

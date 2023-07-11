@@ -4,10 +4,10 @@ command, except that the width is given by a sample text \
 instead of an explicit length measure."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn15878"
+PV = "2023.208.0.0.1svn15878"
 
-RPM_NAME = "texlive-makebox-2023.201.0.0.1svn15878-52.1.noarch.rpm"
-RPM_HASH = "086a6e6ee132e4a4edff805494901dd868727297f96217cb49d8a628739934a625d94c591bb0c1ac0038801b525e2592b5b22837ad84e1558f88e6ec1e2a4494"
+RPM_NAME = "texlive-makebox-2023.208.0.0.1svn15878-53.1.noarch.rpm"
+RPM_HASH = "79b2a344a4a6cdd2df8ebea59c7b03eb5480b1c21658fc69a4b56920e09eef158afc6fe6e3fcc8561c5069f81707d9478b0d2b77562a59abf0b9a17408146605"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-makebox.sty \

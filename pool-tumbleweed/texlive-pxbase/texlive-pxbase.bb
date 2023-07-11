@@ -7,8 +7,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.4svn66187"
 
-RPM_NAME = "texlive-pxbase-2023.201.1.4svn66187-53.1.noarch.rpm"
-RPM_HASH = "827231d7639b290c3e98c3c650ea0f8b5716f2588621ab4a6ad3c4ecd263d09f4907ddfca009566f4198871dd42819396e25c9470848d58acf9d446627cd5cfa"
+RPM_NAME = "texlive-pxbase-2023.201.1.4svn66187-53.2.noarch.rpm"
+RPM_HASH = "f2a4cc57f20cee5685b8e7e511b25b83d6626bc2a3dc283b6f7c9c8d6050575be5b97180b4f3f98db0ddd95c65c9f569a9186a37fca9a0b461e4efaa0d46b4c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pxbabel.sty \

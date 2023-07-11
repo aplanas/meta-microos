@@ -21,13 +21,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.01"
 
-RPM_NAME = "perl-Test-Identity-0.01-1.24.noarch.rpm"
-RPM_HASH = "c8191ae1a80f8069e888722ea84f5b8f222d2a9287240275c36aae5693f99085a953a524cda3db3ef4636e39b7ccefce764019426db9f15d110661dff59f242c"
+RPM_NAME = "perl-Test-Identity-0.01-1.25.noarch.rpm"
+RPM_HASH = "c114ae0957c1e17bcb6e88e14395c324aaae2d55f9f46ff0d7267ab8aa38cbcccf8cfae2a931ed9e032d2abf2051c90c983689bee23a5842ce2f64db24064eb4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Identity \
 perl-Test-Identity"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

@@ -5,16 +5,16 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6.5"
 
-RPM_NAME = "ghc-postgresql-simple-devel-0.6.5-3.3.aarch64.rpm"
-RPM_HASH = "6910061e03998a0c8c0b7ad41c2145c6bc5ff483cef54accff3d6121b7e5b1dd9b87fea251763f7ca7489ac0d6acb2d5a1e239bac8a00b3a9a9f680c43a0602d"
+RPM_NAME = "ghc-postgresql-simple-devel-0.6.5-3.7.aarch64.rpm"
+RPM_HASH = "6ad5eb911461b4ec426532e7195057ddba6c483719a7fbf8e5b17ef7d2ee9776288679244bd66916998eefdf2340a5a4d690409f5bb82b3eb16ca21b1071ba73"
 
-RPROVIDES:${PN} += "ghc-devel-postgresql-simple-0.6.5-4SdcA6z79O7Dp0GdOYFMox \
+RPROVIDES:${PN} += "ghc-devel-postgresql-simple-0.6.5-Hs6HLIsgF4F9HSVLUQJif0 \
 ghc-postgresql-simple-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-Only-0.1-ETd5YCT0TwGLbN8rgpgTS8 \
-ghc-devel-aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP \
+ghc-devel-aeson-2.1.2.1-HkN6OtqTngQ9De3CKBnfov \
 ghc-devel-attoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3 \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-bytestring-0.11.4.0 \

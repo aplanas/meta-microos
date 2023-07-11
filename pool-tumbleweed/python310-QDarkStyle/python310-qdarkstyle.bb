@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "3.0.2"
 
-RPM_NAME = "python310-QDarkStyle-3.0.2-1.11.noarch.rpm"
-RPM_HASH = "44321ed9e839a5f0bc02ef943cf2292e804a9d447f6667d0bca2e3995c1fe87968774215f5d9e5c114877a43a61e89c8c838413acefbe60c8a7c8b9e490929c4"
+RPM_NAME = "python310-QDarkStyle-3.0.2-1.12.noarch.rpm"
+RPM_HASH = "829f8df91867fcc912973eb1a0aa821f9124eff0653a5a76ebee6a7b395e1df4f32d8bcd281516a05bb0ecfcf1be7ca236fe09f8312fe542c1aa2f0c49c703ef"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-QDarkStyle \
-python3.10dist-qdarkstyle \
+RPROVIDES:${PN} += "python3.10dist-qdarkstyle \
 python310-QDarkStyle \
 python3dist-qdarkstyle"
 

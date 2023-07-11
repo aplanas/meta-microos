@@ -8,12 +8,11 @@ LICENSE = "MIT"
 
 PV = "3.1.4"
 
-RPM_NAME = "python310-emcee-3.1.4-1.3.noarch.rpm"
-RPM_HASH = "9da48b184da780d89a6531448728a44a7e0e9c94d66c94e8f7bedafc202d3b2e3a033df4b2de4eb0879b7b2c5c322b6578544a232e1c4c0785855cb77fb4706f"
+RPM_NAME = "python310-emcee-3.1.4-1.5.noarch.rpm"
+RPM_HASH = "4148162a7346aaf463f5a36dccf7966855cf098dda6fe61e71712ff1a3783e111024b2cc08513d69eefb6e1d0a87bfe51e632992f13520bc9ec5bdb9c2148bbe"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-emcee \
-python3.10dist-emcee \
+RPROVIDES:${PN} += "python3.10dist-emcee \
 python310-emcee \
 python3dist-emcee"
 

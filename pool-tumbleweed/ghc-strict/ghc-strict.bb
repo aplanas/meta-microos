@@ -35,39 +35,33 @@ instances of the lazy versions in 'base'. It also includes instances for \
 type-classes from the 'deepseq', 'binary', and 'hashable' packages."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.4.0.1"
+PV = "0.5"
 
-RPM_NAME = "ghc-strict-0.4.0.1-6.3.aarch64.rpm"
-RPM_HASH = "b3bd559d80211b27143e42bc74da149ed934bd2a0f7cb6eb7e1ea7404a09ec0aabf2d8fe0d244ffcb7302df278a3508b42c45a784eb5b8567e72dbc5568f06ee"
+RPM_NAME = "ghc-strict-0.5-1.3.aarch64.rpm"
+RPM_HASH = "697137b04b21c6283e79b3d7c679be340acdbf7590bd6f68744be6f5072f1eab25ae76854e1c91f54cc0c7c62b28ffd0453e214f296f3cb1c668708b9d83e4cd"
 
 RPROVIDES:${PN} += "ghc-strict \
-libHSstrict-0.4.0.1-74sO97OC4FSJXzLQO4CTJi-ghc9.4.5.so"
+libHSstrict-0.5-BMGWBclA5sg312fCUlbuTw-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
-libHSassoc-1.0.2-IAwklVGxRFw6xcadvaWWl7-ghc9.4.5.so \
+libHSassoc-1.1-H3gdf0Ue1d5sn9822dJ4G-ghc9.4.5.so \
 libHSbase-4.17.1.0-ghc9.4.5.so \
-libHSbase-orphans-0.8.8.2-Hl8yFKsRlc4HPNXP65SlX8-ghc9.4.5.so \
-libHSbifunctors-5.5.15-7mn3oj93MLM2f6K5DVlnRL-ghc9.4.5.so \
 libHSbinary-0.8.9.1-ghc9.4.5.so \
 libHSbytestring-0.11.4.0-ghc9.4.5.so \
-libHScomonad-5.0.8-9UnH7KDg5138z3eBCPM7y4-ghc9.4.5.so \
 libHScontainers-0.6.7-ghc9.4.5.so \
 libHSdeepseq-1.4.8.0-ghc9.4.5.so \
-libHSdistributive-0.6.2.1-GisXwtVaDTaDcC79Nunm79-ghc9.4.5.so \
 libHSfilepath-1.4.2.2-ghc9.4.5.so \
+libHSfoldable1-classes-compat-0.1-JP9wXcYYGsT10VsvIV9rpl-ghc9.4.5.so \
 libHSghc-bignum-1.3-ghc9.4.5.so \
 libHSghc-boot-th-9.4.5-ghc9.4.5.so \
 libHSghc-prim-0.9.0-ghc9.4.5.so \
 libHShashable-1.4.2.0-FFBRhuY0w4YLmuLEs5uQAt-ghc9.4.5.so \
-libHSindexed-traversable-0.1.2.1-1XiSi5jKFt6BqKufaNXxBs-ghc9.4.5.so \
 libHSpretty-1.1.3.6-ghc9.4.5.so \
 libHStagged-0.8.7-CYOhX22Df3PFW5V1S0dOJa-ghc9.4.5.so \
 libHStemplate-haskell-2.19.0.0-ghc9.4.5.so \
 libHStext-2.0.2-ghc9.4.5.so \
-libHSth-abstraction-0.4.5.0-8bY5lBPMorfFW3yG6gFNZT-ghc9.4.5.so \
-libHSthese-1.1.1.1-3POHYes25uBIW53bcrDd39-ghc9.4.5.so \
+libHSthese-1.2-3gvRWs9hjHpLbWG1JfTveA-ghc9.4.5.so \
 libHStransformers-0.5.6.2-ghc9.4.5.so \
-libHStransformers-compat-0.7.2-7jAnhjvxTABIymoNGHTOwd-ghc9.4.5.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

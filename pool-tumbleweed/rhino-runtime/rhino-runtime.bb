@@ -4,8 +4,8 @@ LICENSE = "MPL-2.0"
 
 PV = "1.7.14"
 
-RPM_NAME = "rhino-runtime-1.7.14-2.4.noarch.rpm"
-RPM_HASH = "2e285b7d04ebd3bd2d569b2f924ce9e22df3aa5dc6fa3c73501a6e8b20302135f3e698ebaf9031faa267a64d416350049be0d2cdb74cced4c6961f5aac1ec4ca"
+RPM_NAME = "rhino-runtime-1.7.14-2.5.noarch.rpm"
+RPM_HASH = "527ee783dbc2d468cffbad3514f3c68a3dbab80a51a2724bfefc1affd5fdbdabccd043ef06987069d6778284a4b800b533d21ccb9fabad2fcf6a83e940f60dbc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.mozilla-rhino-runtime \

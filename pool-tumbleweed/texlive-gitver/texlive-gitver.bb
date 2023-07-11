@@ -10,8 +10,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.4svn63920"
 
-RPM_NAME = "texlive-gitver-2023.201.1.4svn63920-53.1.noarch.rpm"
-RPM_HASH = "4f844bf5aee5b4f6fb0bb8f0d5abd7f8f0c1eadcd902a4eea0bd21edccad572b97cfcb48c636fdaa4cc7a6e8061f772f8fbf37c10f89aecd011df4beec3288ad"
+RPM_NAME = "texlive-gitver-2023.201.1.4svn63920-53.2.noarch.rpm"
+RPM_HASH = "0b51f17fe133cdf7fcae80954a246450a89559acb73c9923688493c4f7ed8fe045c2cd17f2122a4e61d2d07cecaa141b396b114ab2baf5c427e1534ff2582386"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gitver.sty \

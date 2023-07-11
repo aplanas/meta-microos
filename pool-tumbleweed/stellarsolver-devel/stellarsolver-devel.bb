@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.4"
 
-RPM_NAME = "stellarsolver-devel-2.4-2.3.aarch64.rpm"
-RPM_HASH = "bc01a01bf452f81aab1fa458a8ea9dc4f57bf43c43b9d67e342dd2b54e2401510c85abd13408a51e645d69bd86f450f6f291453d2eb5afc6fb603b5b8b333e72"
+RPM_NAME = "stellarsolver-devel-2.4-2.4.aarch64.rpm"
+RPM_HASH = "430929561bcfde8be685779e92fe03b7b8d9940b2d5d6fe95da83926a2d08fa415ba1049842050eab18fdd6ebb61dc657238f5b3aa8d02bda7cb24a44d63ccee"
 
 RPROVIDES:${PN} += "cmake-StellarSolver \
 pkgconfig-stellarsolver \

@@ -10,11 +10,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6.3"
 
-RPM_NAME = "python311-jupyter_nbextensions_configurator-0.6.3-1.1.noarch.rpm"
-RPM_HASH = "7fce2cef483adf9b0545bf7d11b21db8c5a869fa774cfd180c833af8ebbc19577a46c03210d57e7bc13dd3fe0f50211ef01c478b6f287f533e056c09f4c5ef8b"
+RPM_NAME = "python311-jupyter_nbextensions_configurator-0.6.3-1.2.noarch.rpm"
+RPM_HASH = "a61bb9b9cd867c80499e5724284b6389cae14e706d22a933ce6a90e619e1811b564e30ff34a7667f72e5bd26ee29b4da1870a328ffe7bbcd9735296d4c093b5f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-jupyter-nbextensions-configurator \
+RPROVIDES:${PN} += "python3-jupyter-nbextensions-configurator \
+python3.11dist-jupyter-nbextensions-configurator \
 python311-jupyter-nbextensions-configurator \
 python3dist-jupyter-nbextensions-configurator"
 

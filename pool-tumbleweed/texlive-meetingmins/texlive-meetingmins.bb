@@ -5,10 +5,10 @@ also be produced for distribution prior to the meeting, with \
 user-selected portions suppressed from printing."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.6svn31878"
+PV = "2023.208.1.6svn31878"
 
-RPM_NAME = "texlive-meetingmins-2023.201.1.6svn31878-52.1.noarch.rpm"
-RPM_HASH = "b4246cadd381852eae32ea0815903c3168d74b216d80a83c9b2cbdb462c7a026be6121f12ca0202fd2b2b40402635d890229f81e21b19b5e6ef15bf0b02c6c53"
+RPM_NAME = "texlive-meetingmins-2023.208.1.6svn31878-53.1.noarch.rpm"
+RPM_HASH = "9e946485a9d9b490df774c3e4842aa7c86fc9a84c068994dc1c200e406ac90752962146a98211446c51b22408dd105b2cb81297dabd5e99e335ebbd195579b76"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-meetingmins.cls \

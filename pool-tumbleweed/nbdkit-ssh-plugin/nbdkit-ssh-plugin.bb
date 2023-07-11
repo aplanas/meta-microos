@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.32.2"
 
-RPM_NAME = "nbdkit-ssh-plugin-1.32.2-1.3.aarch64.rpm"
-RPM_HASH = "f5a6b1adf2cc1bef87ffc2b649795059d1d4b3c68f8e626e8ce263d469b9f84005a5e47041f7f4c3a7f531deaf98448eeec1e06c9de07b5e1e8c59f79d3bf710"
+RPM_NAME = "nbdkit-ssh-plugin-1.32.2-1.4.aarch64.rpm"
+RPM_HASH = "e5a5151e2f6eb79db29913f2e3285052d7e29198db0464dd21e6e9cdd5bd3921b77a4dcd602213c26936eb673c4d513f20bd8bff23655a545bdc9ca5a5846c4d"
 
 RPROVIDES:${PN} += "nbdkit-ssh-plugin"
 

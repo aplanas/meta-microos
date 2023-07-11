@@ -4,11 +4,12 @@ LICENSE = "Apache-2.0"
 
 PV = "1.7"
 
-RPM_NAME = "python311-toposort-1.7-1.14.noarch.rpm"
-RPM_HASH = "df4e445aecc7730354263253504d395b28c907445d26604292c44abd718d5f76511320b1f82d40c635a0cab20d806df49b3b3a350173c4667fc7d37dfd8c1da3"
+RPM_NAME = "python311-toposort-1.7-1.16.noarch.rpm"
+RPM_HASH = "d3e2ad72f446179c3f5f41eb3586df1a8cb811c37c7c00a5f94ba7cf66c9ad3457ce4854e6ff9d3328e100655c98f67bcf62ca2fc9213bdff3e5b468db4eca1c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-toposort \
+RPROVIDES:${PN} += "python3-toposort \
+python3.11dist-toposort \
 python311-toposort \
 python3dist-toposort"
 

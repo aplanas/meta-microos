@@ -10,12 +10,11 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "1.4.2"
 
-RPM_NAME = "python310-jwcrypto-1.4.2-1.3.noarch.rpm"
-RPM_HASH = "3c7aa11ac53ec270e5abd4f379867d5e7fa42ea52b5517523727a86d023e68d80e1196b5c3d961929c9e18031e1cc51439cd04c612dd677227e0d089ab153b63"
+RPM_NAME = "python310-jwcrypto-1.4.2-1.5.noarch.rpm"
+RPM_HASH = "c23da0e1129d60f38da1a366ae0cffc2a42c9754b224884e77fd9a31924af52743fcc3c31c48c799f7f6e97bec5574069ea3bc27053b3497a2a6a17b8fffbd16"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-jwcrypto \
-python3.10dist-jwcrypto \
+RPROVIDES:${PN} += "python3.10dist-jwcrypto \
 python310-jwcrypto \
 python3dist-jwcrypto"
 

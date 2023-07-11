@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kfilemetadata5"
 DESCRIPTION = "Provides translations for the 'kfilemetadata5' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & LGPL-3.0-only"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "kfilemetadata5-lang-5.106.0-1.1.noarch.rpm"
-RPM_HASH = "7aff47a9fb9d0a513dfcaf02d8bc90a6a845223ea35d571ca5cdc9753adad376b23e2ef308a0f9d8efbef21e68353eb5ff420191ea18a1ef640d96e02dd4fd3c"
+RPM_NAME = "kfilemetadata5-lang-5.107.0-1.2.noarch.rpm"
+RPM_HASH = "ad8046da82de7680740717d500e3bb5eed0fee98efbe26efd5945840238b76c8858909f81275db63024b3b996f656fc8258ed656c38f54fc8faf1d04b1460c0b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kfilemetadata5-lang \

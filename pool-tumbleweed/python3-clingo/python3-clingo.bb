@@ -13,11 +13,11 @@ LICENSE = "MIT"
 
 PV = "5.6.2"
 
-RPM_NAME = "python3-clingo-5.6.2-1.3.aarch64.rpm"
-RPM_HASH = "dd2a6d20fc3c01f6ee89ce78ecb05104922fd66ae530df3be1a8cacedae28e67b24983890b9aece84d5011d2379d303ff73316fe12e0b9dc8c2d2e0098d52768"
+RPM_NAME = "python3-clingo-5.6.2-2.1.aarch64.rpm"
+RPM_HASH = "ecdef03bf28d50a9e3801c26e15fa254e5ec7416ce804b59548660c6e64c65c6e1e76381912453d35bc30668bba168edb39f617620263374b85feb9b7b5e8a57"
 
 RPROVIDES:${PN} += "python3-clingo \
-python3.10dist-clingo \
+python3.11dist-clingo \
 python3dist-clingo"
 
 RDEPENDS:${PN} += "clingo \

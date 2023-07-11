@@ -3,10 +3,10 @@ DESCRIPTION = "AsyncSSH is a Python package which provides an asynchronous clien
 server implementation of the SSHv2 protocol on top of the Python asyncio framework."
 LICENSE = "EPL-2.0 | GPL-2.0-or-later"
 
-PV = "2.13.1"
+PV = "2.13.2"
 
-RPM_NAME = "python39-asyncssh-2.13.1-1.2.noarch.rpm"
-RPM_HASH = "8ca901f881e4a81a8d250ef9f3099c7c44ac47c743b0fe085dcbe39d9cc79beb255ccd3b34b67c4fc030c448040d80f35075e41bd8ddafad252ea4d417085adc"
+RPM_NAME = "python39-asyncssh-2.13.2-1.1.noarch.rpm"
+RPM_HASH = "5d97f38126190561720d548583a91bd49e925534f12d322d18661f705b99c3ce676d64041b75e638c1dcabff810711b3ffa6684a24c816407515f196ba4913a7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-asyncssh \

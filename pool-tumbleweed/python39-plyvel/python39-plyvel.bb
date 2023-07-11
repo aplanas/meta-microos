@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.5.0"
 
-RPM_NAME = "python39-plyvel-1.5.0-1.5.aarch64.rpm"
-RPM_HASH = "5f8840e4d9d86939e23f6bac3c7b6231bbc4eaaefb75558b39cfbe2f9276b5d52827a81387ef89d58cb692ce5055365b91a72c97bff4c0925377fb3423296e12"
+RPM_NAME = "python39-plyvel-1.5.0-1.7.aarch64.rpm"
+RPM_HASH = "cc52d860d65679131d5092161e7e38e5efb343f75f317c2ce6de6800330a48da083eb5b31197baa07aa48700de3529ccd633c84f2d9235828f6b0de4d739e98e"
 
 RPROVIDES:${PN} += "python3.9dist-plyvel \
 python39-plyvel \

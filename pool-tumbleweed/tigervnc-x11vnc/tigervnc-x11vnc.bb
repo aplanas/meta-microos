@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only & MIT"
 
 PV = "1.13.1"
 
-RPM_NAME = "tigervnc-x11vnc-1.13.1-3.1.noarch.rpm"
-RPM_HASH = "e4c6648450d6bd41a08a3badc207de3ca611c0502107596337c3d1e473090e7fd3caa77dbcbf4831ac1e8ffda5d242a77203b4c7d7f5415a6d5535e7335e1658"
+RPM_NAME = "tigervnc-x11vnc-1.13.1-3.3.noarch.rpm"
+RPM_HASH = "453cf0f1d13fdd8ab82b1bc45904c2539e923e11b19319ed0311db8ae3d99d1d27054e38b71d9a177332e94ec9d7ec2917655972b6f9c17d54664371f447f34a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tigervnc-x11vnc \

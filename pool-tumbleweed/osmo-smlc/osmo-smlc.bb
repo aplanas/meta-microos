@@ -6,8 +6,8 @@ LICENSE = "AGPL-3.0-or-later"
 
 PV = "0.2.3"
 
-RPM_NAME = "osmo-smlc-0.2.3-1.1.aarch64.rpm"
-RPM_HASH = "7d9774d45ea11c9367f3512e5e91d6dcb1d88001b8c8bee2c9ec45371505e71cf4fd0178fd69e665d3ea59769095ef5212f514cb22c5ddb3c2f10dc1ed28f572"
+RPM_NAME = "osmo-smlc-0.2.3-1.2.aarch64.rpm"
+RPM_HASH = "791306b248c318fec630bf2252dadeb660cf95af2ebc0759bea2c36c89e1edab540049446e3adf37740b22691005ee8796410fc9fab3ec3dbe14d7b2936bda00"
 
 RPROVIDES:${PN} += "osmo-smlc"
 

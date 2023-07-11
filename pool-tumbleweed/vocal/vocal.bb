@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.4.2"
 
-RPM_NAME = "vocal-2.4.2-5.4.aarch64.rpm"
-RPM_HASH = "d88a74cc63ed264dc60648055a6de4eecd5ee256578f7b56db25ea09fc52531aa3ee59b4ffe7571cc0a60babd89b50b971b013b6d3252ed9e2bdd4a182973e2f"
+RPM_NAME = "vocal-2.4.2-5.5.aarch64.rpm"
+RPM_HASH = "d2c21197cba7069c04ccdf8db6fbb723bdf3b784588ee106b8624445205de8a07255b638f0b222bc8547438928d6e8a14df75d64e7ffd0db42aa7b9a0fab91bc"
 
 RPROVIDES:${PN} += "vocal"
 

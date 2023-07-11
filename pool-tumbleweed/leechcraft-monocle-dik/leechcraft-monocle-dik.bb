@@ -4,8 +4,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-monocle-dik-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "f9d98e66b9cf5747ec4375a01d71f5e2273ab556b748d079b268c40b7419a6ba639b98773bcb314978a4c9bb01a9cc354ae5c42015775cf3bb3813e8c86e6139"
+RPM_NAME = "leechcraft-monocle-dik-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "6f66d24a57d02fa080ec7b041fb36c51861516996192a940affa9eaad91ca400b52d115b2cee1155850fc319f26769762c91bd9fa9a73d4866d46a68e403e71b"
 
 RPROVIDES:${PN} += "leechcraft-monocle-dik \
 leechcraft-monocle-subplugin \

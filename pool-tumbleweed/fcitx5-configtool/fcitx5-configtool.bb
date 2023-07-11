@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.0.17"
 
-RPM_NAME = "fcitx5-configtool-5.0.17-1.1.aarch64.rpm"
-RPM_HASH = "072b401bc60aa35f981d6fda17ac9c2ad9cfd30803968bd8f58feefe6379dee027bd91b3c415ae53f598407bdb063674253f8b323df2b10c6fd4a47e192228b0"
+RPM_NAME = "fcitx5-configtool-5.0.17-1.2.aarch64.rpm"
+RPM_HASH = "e012fd84cc4fc8d95464bf2b47620e9ade5e143fd07b0933996009575f0514f1c7ac805801bfca95c748609438d7aea5d8a39d81613bcaa5686e9b2264a4f373"
 
 RPROVIDES:${PN} += "fcitx-config-gtk3 \
 fcitx5-configtool \

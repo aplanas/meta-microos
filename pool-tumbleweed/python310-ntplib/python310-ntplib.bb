@@ -7,12 +7,11 @@ LICENSE = "MIT"
 
 PV = "0.4.0"
 
-RPM_NAME = "python310-ntplib-0.4.0-1.3.noarch.rpm"
-RPM_HASH = "69cb327aa7a5ebaaaf7b13f4765d371d5af71e7298c2d5ba045ec6b11c53395a031ab33875a24cc8d9fab0f353191b36e22042b7d99130d8f6651fdfcc35d95d"
+RPM_NAME = "python310-ntplib-0.4.0-1.5.noarch.rpm"
+RPM_HASH = "62eb60191cba82d045fb01dcd4d942950d9ef48e4f7c22071ae8423218e7ce7d208c4ea0e443f97a6c6d244a19b58157368dffc3b20f987def102116c89784b2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-ntplib \
-python3.10dist-ntplib \
+RPROVIDES:${PN} += "python3.10dist-ntplib \
 python310-ntplib \
 python3dist-ntplib"
 

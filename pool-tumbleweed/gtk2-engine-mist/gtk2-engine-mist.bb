@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "2.20.2"
 
-RPM_NAME = "gtk2-engine-mist-2.20.2-19.42.aarch64.rpm"
-RPM_HASH = "c807572effdf87bf88bae0005cf71a141c3c5370b06d7e24aa506c8c8122f48fd75ff95490a5056455d33246f5e56ca56fc407dd1421401b598691654444ad5a"
+RPM_NAME = "gtk2-engine-mist-2.20.2-19.43.aarch64.rpm"
+RPM_HASH = "e4243102d4b9a26439978aaaeb584dbe5b3a25317fb811aa5aa13e9ef14bbb2410f2d704cd33b7721916bc9c269e5cdfa66a11a5473df40852cfa98372dde359"
 
 RPROVIDES:${PN} += "gtk2-engine-mist \
 libmist.so"

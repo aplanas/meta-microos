@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.0.1"
 
-RPM_NAME = "python39-sphinxcontrib-htmlhelp-2.0.1-2.1.noarch.rpm"
-RPM_HASH = "6a4718d9f4ea0c0797d5e256846197df107425234f43adff5b8066cb6b98560f2f4eebffa16245ee995c2de3b8003f5fa78cbfa9443485ae0c7bc423d0b2ff3d"
+RPM_NAME = "python39-sphinxcontrib-htmlhelp-2.0.1-2.3.noarch.rpm"
+RPM_HASH = "13646df213336993b4d5457746982d74c4ea1129f1d8f29d2841dc29a05282866d6c054b24e6f27654ca0f9e7fc7d7ae013ea136bdc00c0024b0578c8220c7ca"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sphinxcontrib-htmlhelp \

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.105"
 
-RPM_NAME = "python39-copr-cli-1.105-2.4.noarch.rpm"
-RPM_HASH = "8dd2817832d8c515a9daa28a99c6d8c14e5b71d544aa58932ce9f4c97382a3c693320f4991cbcffcbefd5d55c9d9bb4d2a8d37cb365b8b3a83f734bcba2c2bea"
+RPM_NAME = "python39-copr-cli-1.105-2.6.noarch.rpm"
+RPM_HASH = "245afd3164e62e57d992728c76f8bcf19b551b383b2365ffcca93b60a0a25647532c31a75067952cfbe32194cae536ecfcf2c10de9f36cf4f038f15819e2e726"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-copr-cli \

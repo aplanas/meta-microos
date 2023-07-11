@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.1"
 
-RPM_NAME = "yecht-1.1-1.18.noarch.rpm"
-RPM_HASH = "3d020feb45b02acbbf8ead4d285bdcf59d51665209898beafed3a4a5517c7a703bf329ff2cb3c887d270455b4b9a15249c0139147c49a310c9310534311a2dfc"
+RPM_NAME = "yecht-1.1-1.19.noarch.rpm"
+RPM_HASH = "afc699c799da543f2b8d8fba20b6ad14d2f5be7bb6e26fbbbff9abdcefaea48a262ab7e40b8a7aa937dbec751ddd44273ca30d4ba91170e54dd37c0e324caa28"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.jruby-yecht \

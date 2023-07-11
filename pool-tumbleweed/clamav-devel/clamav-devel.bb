@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.103.8"
 
-RPM_NAME = "clamav-devel-0.103.8-1.3.aarch64.rpm"
-RPM_HASH = "7531aabecc6478fd61480fc0d6281821816f9ddecfb5c2503ee4189cfd0f7f06da528734f8ab24c616c376bfaf7dc2e725eda030468a42649124fdf0ed9c069d"
+RPM_NAME = "clamav-devel-0.103.8-1.4.aarch64.rpm"
+RPM_HASH = "7132edb47aee390899d7fb0f38db3283bafd6cb708ade7c5a2acdcf0dac6bc0ff96cbe65c0d494c8fdd06302e70ff7f25b44a7735b9a8f4d69941171b347e39e"
 
 RPROVIDES:${PN} += "clamav-devel \
 pkgconfig-libclamav"

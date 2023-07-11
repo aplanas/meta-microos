@@ -10,11 +10,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.9.3+git20230416.478d5b6"
 
-RPM_NAME = "ranger-1.9.3+git20230416.478d5b6-2.1.noarch.rpm"
-RPM_HASH = "5608f7411c0e3006fa9f116267cecb3c52502dcfb4cc981765b41c4564eea7c7caeb9d15f80d8d8f3eedefc1b0a07fe8bbab00a7c2a7dd958aacbb7f9b93ac0c"
+RPM_NAME = "ranger-1.9.3+git20230416.478d5b6-2.2.noarch.rpm"
+RPM_HASH = "1443a2b2a66cd80edca14115f009afa3d9332d9f8385ad082ad101a6cfcd65a0c106aba78e711df5f3a9dd92cfe10be191cd7134c2da29a1cbf382663915247a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-ranger-fm \
+RPROVIDES:${PN} += "python3.11dist-ranger-fm \
 python3dist-ranger-fm \
 ranger"
 

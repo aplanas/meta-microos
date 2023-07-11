@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "2023.201.0.0.0.1svn57360"
 
-RPM_NAME = "texlive-hindmadurai-2023.201.0.0.0.1svn57360-53.1.noarch.rpm"
-RPM_HASH = "4d0373f969ad8dc5053d352e9c7b927de55bfcd5ac39a657eafa974efbfa710334d748727145198da37ca86a18281a24f6005e7972305bb5ed2e09f50441d608"
+RPM_NAME = "texlive-hindmadurai-2023.201.0.0.0.1svn57360-53.2.noarch.rpm"
+RPM_HASH = "a2fcf387cc0bfd095e4dc8455e5362f08172b8ae9de4a8406b1094897c46ff9f59db790ab1825793abbf9fcbf02527df3ab2c79bbf017e82ab72c2c4ec8c2853"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-HindMadurai-Bold-tlf-ly1--base.tfm \

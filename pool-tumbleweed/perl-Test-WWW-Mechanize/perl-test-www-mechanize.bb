@@ -4,14 +4,14 @@ LICENSE = "Artistic-2.0"
 
 PV = "1.60"
 
-RPM_NAME = "perl-Test-WWW-Mechanize-1.60-1.2.noarch.rpm"
-RPM_HASH = "d765871e486c4882029b0d00833b34a33cef7bd2bd6c2979384316043945311b39a30afbaef98dd9168455e48790e0e8dc73fd21b5e92bf4bf4073205035663c"
+RPM_NAME = "perl-Test-WWW-Mechanize-1.60-1.3.noarch.rpm"
+RPM_HASH = "5bb8ad1cb0fb36d3db441807d56ec2b28bd8f8040cd49f3951be84f22cd013fe68c6e5d33629a48db96a7e4554c84c96f45f6caeb0ca82b214676740bf612bd7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--WWW--Mechanize \
 perl-Test-WWW-Mechanize"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Carp--Assert--More \
 perl-HTML--Form \
 perl-HTML--TokeParser \

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0"
 
 PV = "2.6.0"
 
-RPM_NAME = "gimp-gap-lang-2.6.0-29.33.noarch.rpm"
-RPM_HASH = "af61356b28472cdecad6d201ca15feccc6e05319d46184f8a0154c3c20e70fd962e45af5d9e6a27790d6d23084ed246091a398ecb0b348ba8585c07e664a5dbf"
+RPM_NAME = "gimp-gap-lang-2.6.0-29.34.noarch.rpm"
+RPM_HASH = "79df7cac493926335d00fda41f7b01c171f58ca1e22d915889b6eaeae1e6e5feb8fc4666c5e90fe0f41b97e34ff18c6fb3c8c0d6c722217d0d897d49c503a9d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gimp-gap-lang \

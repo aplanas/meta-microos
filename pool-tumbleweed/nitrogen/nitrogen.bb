@@ -18,8 +18,8 @@ LICENSE = "GPL-2.0-only & CC-BY-SA-3.0"
 
 PV = "1.6.1"
 
-RPM_NAME = "nitrogen-1.6.1-1.22.aarch64.rpm"
-RPM_HASH = "81ee5bb60d45b81f518270236bb9b5baff8ab3806a5841217a6f40d83ea0ad24d44ac6c2e7037420e7b319302b003d65c61272b1cadc9258ecc10e99ce92e98f"
+RPM_NAME = "nitrogen-1.6.1-1.23.aarch64.rpm"
+RPM_HASH = "43c27bc05e79fe9bdf49a1cfa0ca79a2fa63e237676172b42806ae02ef8fd4497f9aede11a6e3289a0eeb5fd27e892d390af8e4a3cbecb87d47bce04efa096c2"
 
 RPROVIDES:${PN} += "nitrogen"
 

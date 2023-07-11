@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0"
 
 PV = "11.3.0"
 
-RPM_NAME = "python39-azure-search-documents-11.3.0-1.3.noarch.rpm"
-RPM_HASH = "ef2aaef46727e13d684ba4355c84a4a789860f1c57794b646048c2608cd728764c5615b534b90a728acf7213405fbad202acfeefccccf7b18805674e96143ed0"
+RPM_NAME = "python39-azure-search-documents-11.3.0-1.4.noarch.rpm"
+RPM_HASH = "93285a32e69941265421d128ab4dd20f4642f4032c24e7e53ca6e5b7dbcc067953e40620198e1f69ac91500c9fcb73a1d5665aaffe207859be24d8a37371afc7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-search-documents \

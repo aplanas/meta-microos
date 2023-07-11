@@ -3,10 +3,10 @@ DESCRIPTION = "libqb is a library providing high performance client server reusa
 features. It provides logging, tracing, IPC, and polling."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.0.6+20220323.758044b"
+PV = "2.0.7+20230607.06c8641"
 
-RPM_NAME = "libqb-devel-2.0.6+20220323.758044b-1.3.aarch64.rpm"
-RPM_HASH = "73f677ff10a87282159109a7e56209e7ae6343417033968d8517fd6145fc07a15839f8b491cd9a4b6ed77f8356d254d8d2d8eb4d0a892e5b6a3a85cf81d6a156"
+RPM_NAME = "libqb-devel-2.0.7+20230607.06c8641-1.1.aarch64.rpm"
+RPM_HASH = "a2d483a848f2ed59fd083ebb1ef9c7e21535ff9f4350aa25236e051aa8db9cc810568bbb5684e81bb11974ca539cfccac25f777fea9777d21c0cb9e81f2478d4"
 
 RPROVIDES:${PN} += "libqb-devel \
 pkgconfig-libqb"

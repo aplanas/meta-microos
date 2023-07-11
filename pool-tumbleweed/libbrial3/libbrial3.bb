@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.12"
 
-RPM_NAME = "libbrial3-1.2.12-1.3.aarch64.rpm"
-RPM_HASH = "11b1b36d622c66bf49d0642796bc7dd80d1bd708a317efebc3bbfae00bd50412df7020c21f3a75edf5439a5563ebd0a81a74c54a790c28d747f3594288eca58c"
+RPM_NAME = "libbrial3-1.2.12-1.4.aarch64.rpm"
+RPM_HASH = "9f2dac5308c069b05069f4059711f26f6e709f435e2ff0d9e0df526c0cf5b0f4f58a5e6274b552d17e60aa50785e9f179b151aaf4d830f0ecd86a75b43cb48f2"
 
 RPROVIDES:${PN} += "libbrial-groebner.so.3 \
 libbrial.so.3 \

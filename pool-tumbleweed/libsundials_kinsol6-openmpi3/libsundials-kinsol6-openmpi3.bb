@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "6.3.0"
 
-RPM_NAME = "libsundials_kinsol6-openmpi3-6.3.0-2.4.aarch64.rpm"
-RPM_HASH = "4b2e0d4649d45dde03f5f5ab3eaf6c72ba9317d06ea1686bf3f2f2a61631f4f8ab95ee2752ecb24f47cb18b25071ebd99b78c9382d34b0740df16cc7ceaf444e"
+RPM_NAME = "libsundials_kinsol6-openmpi3-6.3.0-2.5.aarch64.rpm"
+RPM_HASH = "be244b44d539dd15b1f82a685333d87cefc5c19865164c08d4787176464af3f07bc705dc2c46e08363192ba55dc5ff07e7cf4fe253bd9df64f3b69fa97b1678d"
 
 RPROVIDES:${PN} += "libsundials-kinsol.so.6 \
 libsundials-kinsol6-openmpi3"

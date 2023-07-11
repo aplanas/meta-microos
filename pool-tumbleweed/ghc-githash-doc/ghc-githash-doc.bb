@@ -2,10 +2,10 @@ SUMMARY = "Haskell githash library documentation"
 DESCRIPTION = "This package provides the Haskell githash library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.1.6.3"
+PV = "0.1.7.0"
 
-RPM_NAME = "ghc-githash-doc-0.1.6.3-2.3.noarch.rpm"
-RPM_HASH = "5e02fb9a77bdf170422adbe6284ba1206fd98d2e4e2ce46619891752811e5a6b177a1ad1bfe0ca0b8c6040a9d4a285d47c806645ad9d3b2f4bcc8241a20b35a6"
+RPM_NAME = "ghc-githash-doc-0.1.7.0-1.3.noarch.rpm"
+RPM_HASH = "77c2c037f2fd5a7f0649641de8d8810f906b62fe06acc41dcfb410112e806b440da6c5416d34b71b16f40f3ad05d0390094f9cb394127828ba51b21e9ebe232d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-githash-doc"

@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "0.3.5"
 
-RPM_NAME = "python39-paramiko-expect-0.3.5-1.1.noarch.rpm"
-RPM_HASH = "9a58ecab2680a9d9adee0e3fe55fa22b4baf47a328d054193bd16624a93f5f433d445d3f9af4d868483760b09571555e2a400c5d4645314fb32777e75c925e7a"
+RPM_NAME = "python39-paramiko-expect-0.3.5-1.3.noarch.rpm"
+RPM_HASH = "9be9ef05060a0fa44970f8d502378183a2e613f00b3a86afb0101294fe7a57124d1d313a31338c203df991e8b6935fb1c2e831fb4e8cc8ce6f16f9b1bf95acf0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-paramiko-expect \

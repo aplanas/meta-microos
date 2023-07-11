@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ltablex"
 DESCRIPTION = "This package includes the documentation for texlive-ltablex"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn34923"
+PV = "2023.208.1.1svn34923"
 
-RPM_NAME = "texlive-ltablex-doc-2023.201.1.1svn34923-52.1.noarch.rpm"
-RPM_HASH = "1039cab9d26b48a79cfe50fb7bb6bb0bb3f16105604660af119f2ff3d21250e0c805cbb0f51d326d6b4c30440626ae232db0ffaaaeb9a4518b4936cd770fbf89"
+RPM_NAME = "texlive-ltablex-doc-2023.208.1.1svn34923-53.1.noarch.rpm"
+RPM_HASH = "9732a84804733f11b0348f531948901ff112900fe5a262d0b3c011dbb5d6e10e12c28217b6efc93d3c335e08174be28ca9e973c1207a34e42b806b45b9766583"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ltablex-doc"

@@ -12,8 +12,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.4.12"
 
-RPM_NAME = "openssl-engine-libp11-0.4.12-2.3.aarch64.rpm"
-RPM_HASH = "2f70a62dd650c57a5b104e67492c7d24a44b39f5e1a774538bbde9cd62ca3d3b0b2a2991a40c6ed9b75686bb23345fcdc370d82e36aacc5487862e0656cce80a"
+RPM_NAME = "openssl-engine-libp11-0.4.12-3.1.aarch64.rpm"
+RPM_HASH = "c815bab1cf1e88062ffd6e9cb0c8ef9ad87147a81498a23db25008e12955bfa09d4bbc2ce219996113b2e8fca8b55b79961036024c41d123bdd37d1fba52969d"
 
 RPROVIDES:${PN} += "openssl-engine-libp11"
 

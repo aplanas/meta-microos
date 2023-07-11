@@ -10,8 +10,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.16"
 
-RPM_NAME = "perl-Module-Depends-0.16-6.19.noarch.rpm"
-RPM_HASH = "ff4d2a16c3820db4d29a4c8270e0974101703c35ac893e43ecb4d550b9e15ff8e9f0a290945bded89d8c7dd104b699019d96acdb06a218444a84bd6a324b65a8"
+RPM_NAME = "perl-Module-Depends-0.16-6.20.noarch.rpm"
+RPM_HASH = "b3d79a1b645a75319aac49957ba592dd8275d551fbcd34ef519afccaf65360c4698d74076dc85dd1514b620013c39fb76e8f467c232701e40c0fa5e86bab0c45"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Module--Depends \
@@ -19,7 +19,7 @@ perl-Module--Depends--Intrusive \
 perl-Module--Depends--Intrusive--Fake--Module--Build \
 perl-Module-Depends"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Class--Accessor--Chained \
 perl-Parse--CPAN--Meta"
 

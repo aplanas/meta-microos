@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.3.1"
 
-RPM_NAME = "ghc-hslua-core-prof-2.3.1-1.3.aarch64.rpm"
-RPM_HASH = "80bcb8e2e25a48c18b24cca181ccb07a0e4afb3d0efddda388b8736ef31dfed379b7686b62b56526ed6e83466e2fa6aa0361381a19c335f04ade0d4b3a61c667"
+RPM_NAME = "ghc-hslua-core-prof-2.3.1-1.6.aarch64.rpm"
+RPM_HASH = "93faa33c89963d72d03ecd9a2ed28b898c7ffbab210f25dcd2652a0002109a0daf570105b19165bf59dc42800947ccaa4e952bd04dab5d11645e8310774f59a8"
 
 RPROVIDES:${PN} += "ghc-hslua-core-prof \
 ghc-prof-hslua-core-2.3.1-S0Tmk0QBS1InOMEfkNHVC"

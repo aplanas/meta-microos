@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "2.5.0"
 
-RPM_NAME = "python310-pyperf-2.5.0-1.4.noarch.rpm"
-RPM_HASH = "cabe86846fecdee6ffcdd81d6c73b146e9cee1558e50e928cb3db352d1794a384cfec0a680b723dc4c0cfe1b8f8f0434f52a1b7fd74d71825f11a4aa36c83f15"
+RPM_NAME = "python310-pyperf-2.5.0-1.6.noarch.rpm"
+RPM_HASH = "45c96ca6d6feb1083aaf820b75ae3e8c41a48d59fe4d4b55f7f06e2ccdcd34279345ae7d752a658e4314c67b7e1ee7a2a00e0b1fb255f49a3631e17ecd1c6637"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pyperf \
-python3.10dist-pyperf \
+RPROVIDES:${PN} += "python3.10dist-pyperf \
 python310-pyperf \
 python3dist-pyperf"
 

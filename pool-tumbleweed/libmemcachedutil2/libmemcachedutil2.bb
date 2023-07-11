@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.4"
 
-RPM_NAME = "libmemcachedutil2-1.1.4-2.1.aarch64.rpm"
-RPM_HASH = "9a12bc7389906b147f4d5cfa537af035cee13b8bd85de1dd9779bf5809ea6d96d964ca306f4b201a2c33c6996aa07ff58110a57b39edbc2fdafd0ac5571d160a"
+RPM_NAME = "libmemcachedutil2-1.1.4-2.2.aarch64.rpm"
+RPM_HASH = "8b90f1a66a4f6d8348251ede905992ff7818d21747400a98f65e2bb18b47cf60d76b6c858498206497d9eee43d63db3c300999d385f74f371d8858b8bfa2e24c"
 
 RPROVIDES:${PN} += "libhashkit.so.2 \
 libmemcachedutil.so.2 \

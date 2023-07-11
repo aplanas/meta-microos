@@ -21,12 +21,13 @@ Unsupported APFS format features: \
 * T2 encryption"
 LICENSE = "LGPL-3.0-only"
 
-PV = "20221102"
+PV = "20230617"
 
-RPM_NAME = "python311-libfsapfs-20221102-3.11.aarch64.rpm"
-RPM_HASH = "812e7877466c48ac6c637db5068a9522d3f5fb0a206331aec3c7446df37bb4b884989e5fa403b211757d5972dcb466159c4f3b27658ce162ff5f83605b96178c"
+RPM_NAME = "python311-libfsapfs-20230617-1.3.aarch64.rpm"
+RPM_HASH = "6674b68be7685304ef01db8b6a416083671d5f49a1fe5b9a6ce94beec59a543081d81e72686f9667ffa1c01699d0dd5f75ef258ca8a6e5e9c2bcb2ee914c67f7"
 
-RPROVIDES:${PN} += "python311-libfsapfs"
+RPROVIDES:${PN} += "python3-libfsapfs \
+python311-libfsapfs"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libbfio.so.1 \

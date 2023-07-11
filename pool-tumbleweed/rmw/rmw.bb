@@ -10,8 +10,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.9.1"
 
-RPM_NAME = "rmw-0.9.1-1.1.aarch64.rpm"
-RPM_HASH = "a47787279ae5bb5b08bb0b9f68bee897af2906441e641f67931906b50bea1938b815c214b353ae8ee0be28e5f1f7287b24c2a084889368903ac128dd7e407b95"
+RPM_NAME = "rmw-0.9.1-1.2.aarch64.rpm"
+RPM_HASH = "e18bb01b84b04b2a19fe4bfecc75c40b8e38edf8618c06309ef45e10901fde0e619df5e76aae307674dbd841f399c0a02b9d8e6e0bbeef3bea56faaf4cc0a61b"
 
 RPROVIDES:${PN} += "rmw"
 

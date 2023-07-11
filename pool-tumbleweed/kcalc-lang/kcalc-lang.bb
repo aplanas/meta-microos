@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kcalc"
 DESCRIPTION = "Provides translations for the 'kcalc' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kcalc-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "dc367e375463d233effe29904e76b8ecfc71e0e560222f564dc79896779c3eb9e81eba6f73f8f547b67f82372ab46896d52c3e0997f86f60676f911a0a9f7d97"
+RPM_NAME = "kcalc-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "a0239f0cae056f6fbaf746030af5c56832cfa2353ee969ead5678ce88c9c2414d0ccdc9fb583af028a490b985f188f1f30bdf5d71a9d713ceec9a1b4dd87808a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kcalc-lang \

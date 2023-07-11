@@ -3,10 +3,10 @@ DESCRIPTION = "A theme editor for messageviewer based on Grantlee. Once created 
 the themes can be used in KMail."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "grantlee-editor-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "61b6b7c0a803c77de2122470016096da2c2d8dacea2cf79f2e990744951a36d944b17cc1e260999987214a0d82dbb650d14b1bbf37730ee82e9b28dd236bf1a7"
+RPM_NAME = "grantlee-editor-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "56afa72057f428c26dec5de1b365eea1eae378a8946fedab687dc0d1d377dc265816754801306a5e32f41df499699bb2bb2c513cfd48b582003c5c9bae260d51"
 
 RPROVIDES:${PN} += "grantlee-editor \
 libgrantleethemeeditor.so.5"

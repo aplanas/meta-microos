@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.46"
 
-RPM_NAME = "xmobar-0.46-2.4.aarch64.rpm"
-RPM_HASH = "162c1848fa03ae5d7c36648a3bf4160c1337944750db978761f6dfddcb7865bbbcc253e9ac29bb10fb79705a8fd69cf0f8f62905e3ffa546d069a8b3e9651bfa"
+RPM_NAME = "xmobar-0.46-2.6.aarch64.rpm"
+RPM_HASH = "62c7e9e3d1d56b90a0d5aab5308640478ace5319dd9fc69c56f1141981bfeca607756ad5a3fcc3bb52d77943fb3ac4103a63e0e27651c54e247b8bd8ffe01989"
 
 RPROVIDES:${PN} += "xmobar"
 
@@ -22,7 +22,6 @@ libXrandr.so.2 \
 libXrender.so.1 \
 libXss.so.1 \
 libasound.so.2 \
-libatomic.so.1 \
 libc.so.6 \
 libcairo.so.2 \
 libffi.so.8 \

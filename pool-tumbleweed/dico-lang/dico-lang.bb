@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.11"
 
-RPM_NAME = "dico-lang-2.11-1.15.noarch.rpm"
-RPM_HASH = "bd60d3ad761e499b97b60a432adac717ac693316067fd45e59c766f0c2924dd84a97724e558f4fbc40aac92b7e9bcd349945658e571581b5699d395f3f27121e"
+RPM_NAME = "dico-lang-2.11-1.16.noarch.rpm"
+RPM_HASH = "a2e16defdf69ddd32f45b840d50eb5a3bfc715d3bfd5566cdba09d50b5d8cf3438ab59526b19faa8d9149f49a4a0412ce49fa667b58eb2c21925111bd199f238"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dico-lang \

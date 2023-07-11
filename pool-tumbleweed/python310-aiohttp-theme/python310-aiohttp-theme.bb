@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.6"
 
-RPM_NAME = "python310-aiohttp-theme-0.1.6-1.14.noarch.rpm"
-RPM_HASH = "de84b8118db3d9a6a55c64eba2599f8f739131a74258fa790ce4589f8e4e4f98053beec53295f855c875e0cec9a5b2ccadc8bcf19cfd94d5b5f46b2ef36947d4"
+RPM_NAME = "python310-aiohttp-theme-0.1.6-2.1.noarch.rpm"
+RPM_HASH = "cfa4668dda9d84167270e623dd004ba5aa5296c0ca55d89c1645a23f7445c74bdcc96531c2502e0bf75303c97f47815fac0193f81f51c8469b4355fdf0afa203"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-aiohttp-theme \
-python3.10dist-aiohttp-theme \
+RPROVIDES:${PN} += "python3.10dist-aiohttp-theme \
 python310-aiohttp-theme \
 python3dist-aiohttp-theme"
 

@@ -6,12 +6,12 @@ LICENSE = "Apache-2.0"
 
 PV = "0.14.2"
 
-RPM_NAME = "python3-pysol-cards-0.14.2-1.2.noarch.rpm"
-RPM_HASH = "291f6652ba069bc9ad44095957b226ea61b2ef956c352d97d5e14056a8e80009e3fdd312e60ca8732e793838ff1d75cd571175bb1e6aeb8bdbdf12f37457797f"
+RPM_NAME = "python3-pysol-cards-0.14.2-1.3.noarch.rpm"
+RPM_HASH = "490842cfbb3db5a7ca2b91052c04d3598d00e0f20835c95cbaf060216b82e6a7b7722f238cb08827af2c6f9be8653d2bb2a2d10769b6eb8c8b857096dab39e0f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pysol-cards \
-python3.10dist-pysol-cards \
+python3.11dist-pysol-cards \
 python3dist-pysol-cards"
 
 RDEPENDS:${PN} += "python-abi \

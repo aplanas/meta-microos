@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.2.2"
 
-RPM_NAME = "inkscape-extensions-extra-1.2.2-3.1.aarch64.rpm"
-RPM_HASH = "77aacadb159dd0db5fc56946865ebbde79ef821c49101518f3258f706e5a49f384d5be086ff4d4fcc8db5a59366342bd764ef3b0f5b3d7704bcbd2f7cf7cdde2"
+RPM_NAME = "inkscape-extensions-extra-1.2.2-3.3.aarch64.rpm"
+RPM_HASH = "3c3546998ced71e0f51c4f03ab3b4a3309cde5b59ca62ec249a15aa3cf51edb34de608a55a0eb70c1c1fc4843c5e5d5075ca72b24b2036b4a6eb6866e2d2145b"
 
 RPROVIDES:${PN} += "inkscape-extensions-extra"
 

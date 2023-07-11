@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.6"
 
-RPM_NAME = "plexus-cli-1.6-5.4.noarch.rpm"
-RPM_HASH = "81f999867d79f2aefe07bba9d9b8bb399cfc7cd5e096a497a33224869b584704dd7ca0d2082d254c90ca8d6a97db98866f9610bf87f435a1ca9d07e108f683ab"
+RPM_NAME = "plexus-cli-1.6-5.5.noarch.rpm"
+RPM_HASH = "492de740d7951617e0d4df90619cc7704c02a3749bff8fbe581777fbe0705c34eb68eb20e573a73c0dc840a62e5509fe5cc8d59ee4d1b3aaf895fde80ecd98f3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.codehaus.plexus-plexus-cli \

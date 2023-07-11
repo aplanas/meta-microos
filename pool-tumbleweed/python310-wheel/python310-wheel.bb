@@ -12,12 +12,11 @@ LICENSE = "MIT"
 
 PV = "0.40.0"
 
-RPM_NAME = "python310-wheel-0.40.0-1.1.noarch.rpm"
-RPM_HASH = "a92e72f580479c1baf505c8f2d21e09c80b9cf9864257afeb33bd13503ca86c85778429ead2bdf047cc147f244429c357497a3ad055aadfcc21e1ab241558889"
+RPM_NAME = "python310-wheel-0.40.0-1.3.noarch.rpm"
+RPM_HASH = "f0c38d5ddc21ec37aadab78f4809c263d239a362ae6944a188a94e6807311ba58473c4a6a6871430ffdb124802b5de3930b7b59f9d2084f5a48002e5664a4bdd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-wheel \
-python3.10dist-wheel \
+RPROVIDES:${PN} += "python3.10dist-wheel \
 python310-wheel \
 python3dist-wheel"
 

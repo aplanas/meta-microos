@@ -7,8 +7,8 @@ LICENSE = "BSD-2-Clause & SUSE-Public-Domain"
 
 PV = "2.2"
 
-RPM_NAME = "libspooles2_2-openmpi2-2.2-1.4.aarch64.rpm"
-RPM_HASH = "6ae2505a0ff217f5354d50fd9b01c9f62eb86f2f25a463b5d325fdda5cb5c04a0e276ce4856a7bd371a4ecfab9df2a1ad1eab9fcf14bdfbc112882fd4184913b"
+RPM_NAME = "libspooles2_2-openmpi2-2.2-1.5.aarch64.rpm"
+RPM_HASH = "8351ffb21d10aee8822ba4eded25d44a398cee8ba13bb3ec647dd8afbff5cbba55bb31d8171f44befa63bbc41d42526dd1cea32bd7ff9d32a620bd7780e10040"
 
 RPROVIDES:${PN} += "libspooles.so.2.2 \
 libspooles2-2-openmpi2"

@@ -18,8 +18,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.013"
 
-RPM_NAME = "perl-App-Nopaste-1.013-1.15.noarch.rpm"
-RPM_HASH = "ae1be70abb9a22deb69e6a6bbdd6c6d46414a62ebfe9494eef07166d44556b53cd32e2b88b7bec1c83a54c904d10bf8ddf4535916d8bd070d191c96b573c2bbe"
+RPM_NAME = "perl-App-Nopaste-1.013-1.16.noarch.rpm"
+RPM_HASH = "5e194d937e50c7fcc2af0a57f2bb86c08ad372828526b570140196b04145252ff36a256c0ef8bce34cff8be9c61f6014cdc1e3d088df54221a23d8c933a44b8e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-App--Nopaste \
@@ -40,7 +40,7 @@ perl-App--Nopaste--Service--ssh \
 perl-App-Nopaste"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-Browser--Open \
 perl-Class--Load \
 perl-Getopt--Long--Descriptive \

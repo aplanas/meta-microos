@@ -3,10 +3,10 @@ DESCRIPTION = "This is a C-language AMQP client library for use with AMQP server
 speaking protocol versions 0-9-1."
 LICENSE = "MIT"
 
-PV = "0.11.0"
+PV = "0.13.0"
 
-RPM_NAME = "librabbitmq4-0.11.0-3.7.aarch64.rpm"
-RPM_HASH = "05b832bb37abe97d8594a125388bde204821f4e93496e7b8e4cf5ea30d1fbb8347c3fe64c18a2d709d69a8a847bcdaa662a49291d236143b8ae2132aabc7373f"
+RPM_NAME = "librabbitmq4-0.13.0-2.1.aarch64.rpm"
+RPM_HASH = "7d1ea55e009ac2a90367553b91559a83763bbaa677789fb20d5b01a99841a2458dc96e7551c1fc42aef1d89443bd663325de627357bac19d2131c0c064247b6d"
 
 RPROVIDES:${PN} += "librabbitmq.so.4 \
 librabbitmq4"

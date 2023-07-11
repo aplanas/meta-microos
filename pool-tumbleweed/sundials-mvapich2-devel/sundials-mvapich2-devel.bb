@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "6.3.0"
 
-RPM_NAME = "sundials-mvapich2-devel-6.3.0-2.4.aarch64.rpm"
-RPM_HASH = "3d953322aa593106731cc7f0170e4e6b3bccdaf088e5cb4de228235916d1b4c9036e3f8bdfd2fae4a4e777ca6a0a65176f4286450b37677e7db648f7f8acbb19"
+RPM_NAME = "sundials-mvapich2-devel-6.3.0-2.5.aarch64.rpm"
+RPM_HASH = "0163e828121b9eef157d7bf712114b69bfd763fce821de6d7325d82b3ce16862ca0510b2a9cb0bf42d55e4417e83b56358a10fc858d5e02999a2bb4709ab3e34"
 
 RPROVIDES:${PN} += "sundials-mvapich2-devel"
 

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kubrick"
 DESCRIPTION = "Provides translations for the 'kubrick' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kubrick-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "2130d09565f9261a91f3accdd779b0da404f6bdfd4a61fcf9af860a0c88d320292e0ead88a3994c0041c3462c0de1301cc1d1fd964e31687686cf340a0cb48e5"
+RPM_NAME = "kubrick-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "15bae6fce421b39f1654fd8ae11d4deba37004166c8fd6de4b3ed5fcfa24e73f087700ed08bd527fd1c056905db18f666d2622659defecc61073368b5279ad82"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kubrick-lang \

@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-
 
 PV = "8.0.2"
 
-RPM_NAME = "qemu-ui-opengl-8.0.2-1.1.aarch64.rpm"
-RPM_HASH = "41c75d007a8ee5f5653d7fecdec29f3b73fe2cd68a57936e6a97bc9ff3a6495636ad7c85e627347bde419c07d69fee3968ccdcde29fdff978f5dcfde8eb6421d"
+RPM_NAME = "qemu-ui-opengl-8.0.2-2.1.aarch64.rpm"
+RPM_HASH = "28b0ccbeac648284f1ca2a628bbec2f635d05b195ca2939767bfcb392edc58758f937dcdbc2ad613696091a88c3792afac587f7fffc85f6647813120c7d8fcbf"
 
 RPROVIDES:${PN} += "qemu-ui-opengl"
 

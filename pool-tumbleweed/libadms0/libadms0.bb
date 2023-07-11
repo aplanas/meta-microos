@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.3.7"
 
-RPM_NAME = "libadms0-2.3.7-1.10.aarch64.rpm"
-RPM_HASH = "7cafa5d3bbfa86af7fdae66575d76ff21daeef5f6d43844cd08ad5adf049373a973979f0cdf900a843bb42f2b81d3ba7f93e33728df4bacc9d07a13004ae203e"
+RPM_NAME = "libadms0-2.3.7-1.11.aarch64.rpm"
+RPM_HASH = "41737c0d57e5d293527cfe7062f8bc200027fe1b654a96d389b424195c1796213aafbf15f7fed2a765941d3892cd66458ddf0c109376ebd4d6c5907934816bb3"
 
 RPROVIDES:${PN} += "libadms0 \
 libadmsAdmstpath.so.0 \

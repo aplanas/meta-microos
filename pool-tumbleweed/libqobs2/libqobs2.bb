@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
 PV = "2.1.0"
 
-RPM_NAME = "libqobs2-2.1.0-2.9.aarch64.rpm"
-RPM_HASH = "c382894f7644dbdd3a66e0745edd4fccfb2554514c8a0e8024e35c0a70457e528e91123ef7ef1f3e2d7e84b3302fe29ee32568d27c9f7afdec63c62ea763e558"
+RPM_NAME = "libqobs2-2.1.0-2.10.aarch64.rpm"
+RPM_HASH = "eb7614cd649850cd2b9faae068d6a5e876918a7d31788890b49f9b9753948347bd4099f1076d6dd33a4f424587d027c123bab54877face4a27f0441e960013af"
 
 RPROVIDES:${PN} += "libqobs.so.2 \
 libqobs2"

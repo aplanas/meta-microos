@@ -7,12 +7,12 @@ LICENSE = "Artistic-1.0"
 
 PV = "0.01"
 
-RPM_NAME = "perl-XML-NodeFilter-0.01-194.29.aarch64.rpm"
-RPM_HASH = "6f1ca1a5efca282e190424cb68a96e703ef194099e08d4939f56cf7040e4ad5f5e2a203d4da83b72306c5c26d2854866ec8a97aa6ed56f08eb4994febb6cbf17"
+RPM_NAME = "perl-XML-NodeFilter-0.01-194.30.aarch64.rpm"
+RPM_HASH = "ee997f2065eadfbe596528b193c25bc93b4aebef0984ef56009733ae90d153903ee011fe96ab62f811553c84cacb42840f14dfa396a2c42f9bd86625824a5dc9"
 
 RPROVIDES:${PN} += "perl-XML--NodeFilter \
 perl-XML-NodeFilter"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

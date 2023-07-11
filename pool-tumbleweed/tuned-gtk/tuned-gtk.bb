@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.20.0.18+git.7b1a20b"
 
-RPM_NAME = "tuned-gtk-2.20.0.18+git.7b1a20b-1.1.noarch.rpm"
-RPM_HASH = "e5c0f53baeecd80d9cf4aed74c485b3e011079181cd56705771d57dd2aebf1cc7a56796a895ebc337b697b32b81980ad24c2f46fe7b143018f1403ec1f2518db"
+RPM_NAME = "tuned-gtk-2.20.0.18+git.7b1a20b-1.2.noarch.rpm"
+RPM_HASH = "d824694b1a1e037181f50bfceed0aa7e376a77958ce654c081814dcedc820289ec8bf7d9f280206d5a37f8998139998d351e6d2547b7c800bbda5fd8703a08d6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tuned-gtk"

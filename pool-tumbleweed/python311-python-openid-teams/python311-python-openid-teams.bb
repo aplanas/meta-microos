@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1"
 
-RPM_NAME = "python311-python-openid-teams-1.1-1.18.noarch.rpm"
-RPM_HASH = "439746005dd1a441d78f1449d1466b5038fcbc23c59832666169c17f4593cfc6c5006d9bf7c9a7643234b73492864876add3223adbba33377ab185d1ae3e71a2"
+RPM_NAME = "python311-python-openid-teams-1.1-1.19.noarch.rpm"
+RPM_HASH = "8006df8369e396c12dff2db8260aed4ccf8f3afc8aa0d307ab309d690a1ce01f62c56515699bc3fc153ee2c40acaaf789b9b2887760f600668ef44842da787e8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-python-openid-teams \
+RPROVIDES:${PN} += "python3-python-openid-teams \
+python3.11dist-python-openid-teams \
 python311-python-openid-teams \
 python3dist-python-openid-teams"
 

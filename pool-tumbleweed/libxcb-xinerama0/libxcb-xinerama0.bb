@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "1.15"
 
-RPM_NAME = "libxcb-xinerama0-1.15-2.2.aarch64.rpm"
-RPM_HASH = "442288902795df1a47f1a5214bd41f2aaa2841e22b9b29887f8221a34562765b687d1e6993aae18801902867f2ec6c0f39b07ce8402a03c93a7dfeee825683ca"
+RPM_NAME = "libxcb-xinerama0-1.15-2.3.aarch64.rpm"
+RPM_HASH = "502beca11eea9e1310b5c5d1d2d2804b4b286b88c01111dff0378552bff3758906093f441ffc606be124957451c9e6e2bdf4cb16226bf662125300455204ffd8"
 
 RPROVIDES:${PN} += "libxcb-xinerama.so.0 \
 libxcb-xinerama0"

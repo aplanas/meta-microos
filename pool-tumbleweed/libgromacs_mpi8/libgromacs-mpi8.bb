@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0 & LGPL-2.1-or-later & BSD-3-Clause"
 
 PV = "2023"
 
-RPM_NAME = "libgromacs_mpi8-2023-1.1.aarch64.rpm"
-RPM_HASH = "d80239b7609119a6e55d855087ae0e8403d6a838d537a8a19a4b5238aebb85605cb90f1ba5e99912cb97e5fb9e74f6c16eca7477f3c83a51a687f97a27d1fc46"
+RPM_NAME = "libgromacs_mpi8-2023-1.2.aarch64.rpm"
+RPM_HASH = "9f1cc1a3fc2b4144dbbb01a5dbb551ede3bebe2abbe3282f54ae69d29eb4ab06d11e0252d73bb049b715b3a97aaaa2a3bd8d56db0f4ebe9c2e3206a70c4aa435"
 
 RPROVIDES:${PN} += "libgromacs-mpi.so.8 \
 libgromacs-mpi8"

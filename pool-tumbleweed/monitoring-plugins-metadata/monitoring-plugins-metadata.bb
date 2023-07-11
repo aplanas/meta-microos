@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "4.12.0+git30.7fd7c8fa"
 
-RPM_NAME = "monitoring-plugins-metadata-4.12.0+git30.7fd7c8fa-1.1.noarch.rpm"
-RPM_HASH = "e3944958eabd8b4e6d28634c62b02dc5be1be5373e1f8ea59390245a794609a0f42d00e910e1b926db43afbaf025676f9ced174a60af0d9c4ec273c4ad9249b2"
+RPM_NAME = "monitoring-plugins-metadata-4.12.0+git30.7fd7c8fa-1.2.noarch.rpm"
+RPM_HASH = "3ce825809ea3d83ffbe6708c81603b5068d380ad25bdac6cdf8303ddfe33c46e6fc4d7abb097172544b24d1a40d5e294eebc669c7956b5fdc986a4281dffae6f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "monitoring-plugins-metadata \

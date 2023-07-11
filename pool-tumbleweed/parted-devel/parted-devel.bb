@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.5"
 
-RPM_NAME = "parted-devel-3.5-4.4.aarch64.rpm"
-RPM_HASH = "8cb6b3cc18b5ca34aa99432eb47ca5d5d6df16372dfaacb2db3995cdd2a814f4910aa3859b8b6dbc3c66c0df49a7fa3cd4e8b90845abafa300cdffd5bb2e9a95"
+RPM_NAME = "parted-devel-3.5-4.5.aarch64.rpm"
+RPM_HASH = "548ab3288025a92af7d40b83c5f184303ca21de8bb315a3a09c2e77adf69923baf2b21f181ddb3606ea71c25592c1457ae3d9471285c1d88e2424d87febfabf4"
 
 RPROVIDES:${PN} += "parted-devel \
 pkgconfig-libparted \

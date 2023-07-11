@@ -5,10 +5,10 @@ used with special Coptic fonts (like CBcoptic). The patterns \
 are considered experimental."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn58652"
+PV = "2023.208.svn58652"
 
-RPM_NAME = "texlive-hyphen-coptic-2023.201.svn58652-52.1.noarch.rpm"
-RPM_HASH = "5259caf509b71865e6f964ff247e987c9405b4d5ced872db3a92ee7b5acdbffbfece3f27f3b586e227102502df9c263252bab63cf8c14c68440c7c914c87a200"
+RPM_NAME = "texlive-hyphen-coptic-2023.208.svn58652-53.1.noarch.rpm"
+RPM_HASH = "f7c4e0397d4e8bbbcfa0c09be68e5d02bbffe355e4c3109070713f56835c40a12bc527ab825bbb3a2258b72153f2211e922eca59ed36b489893785968e34af97"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-copthyph.tex \

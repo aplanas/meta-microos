@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.12.2"
 
-RPM_NAME = "gthumb-devel-3.12.2-3.3.aarch64.rpm"
-RPM_HASH = "4c2efe94e7fbbd9a82e67878680bcf56042ee8a3495b12994cc8dd1036357bce48fc1ed1ca191ad8857b8a3b8d04af61241f49bffcaf4b9d1174f073966a58de"
+RPM_NAME = "gthumb-devel-3.12.2-4.1.aarch64.rpm"
+RPM_HASH = "f989c3e1a1fc0553b53ae75775c672e5fd63fffae0f3238c6b2898ae69b7d832033c9da65f36c0d889ddf8c98b027dc2fba8d70730e5c3bdd3cd788e2b7c807f"
 
 RPROVIDES:${PN} += "gthumb-devel \
 pkgconfig-gthumb"

@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "1.0.0.0"
 
-RPM_NAME = "python311-azure-mgmt-workloads-1.0.0.0-1.1.noarch.rpm"
-RPM_HASH = "fda0e12af235607ca3333a1fa9699bb63da44e7344a00aa086292448ec323a25a14ec738d5ef94f0f59cec7404e47e886b93ef0b3e4d12592acaffcfb0ab550d"
+RPM_NAME = "python311-azure-mgmt-workloads-1.0.0.0-1.2.noarch.rpm"
+RPM_HASH = "fd2b50a72a384f0371714bb407140b9a90228db0e79981029114b057300c911894cfb2401c088d990b63056052381d78792f9adb599803d354070398a9b59103"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-workloads \
+RPROVIDES:${PN} += "python3-azure-mgmt-workloads \
+python3.11dist-azure-mgmt-workloads \
 python311-azure-mgmt-workloads \
 python3dist-azure-mgmt-workloads"
 

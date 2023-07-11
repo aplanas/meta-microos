@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "0.4.5"
 
-RPM_NAME = "python39-scikit-sparse-0.4.5-1.12.aarch64.rpm"
-RPM_HASH = "1ca320af055ccf19cae3dfaf7e3013fa6ff57bca563328aefe0282e0a803d1c28a10164ee5ddd0eb2d449e2231f73b3469eab2bf0bceafb6ce8d14c10cb8ef85"
+RPM_NAME = "python39-scikit-sparse-0.4.5-1.14.aarch64.rpm"
+RPM_HASH = "13576884e5c4b8a83b69e519dc1dae2dbd6d6febae0c9075cd3793a60c2604a010305eeeebdb5c84aede9ff8fad9cf1eb6adfaf0a4231ddf72d936312259ab59"
 
 RPROVIDES:${PN} += "python3.9dist-scikit-sparse \
 python39-scikit-sparse \

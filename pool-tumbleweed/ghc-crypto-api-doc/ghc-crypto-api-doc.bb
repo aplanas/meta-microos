@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.13.3"
 
-RPM_NAME = "ghc-crypto-api-doc-0.13.3-5.3.noarch.rpm"
-RPM_HASH = "49b3db71e44aea2fc0d86a5c507c63bec18c6ec9270c69c80615de1639dc2676e333cff26efbca698c77546aebfa0c043101e3a41c7ba348c4013aa2090e6757"
+RPM_NAME = "ghc-crypto-api-doc-0.13.3-5.6.noarch.rpm"
+RPM_HASH = "5f2ce6493409ca971ac0f581f1af06fe710c34251f7079d62dd2a4440c2185734dbd926a12d32259348bd55fb034b1d0c7ce487d1698643705196d30d3b7d0f6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-crypto-api-doc"

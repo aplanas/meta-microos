@@ -10,14 +10,14 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.07"
 
-RPM_NAME = "perl-Crypt-DES-2.07-5.36.aarch64.rpm"
-RPM_HASH = "836a48add07cedbde952dcdb285915154d9d1c67bede8bd0b35b733f79b263a4f5bd702fc101cd48566a4b1e783a685409bfd6f4696a04aa09e99c0db84f2782"
+RPM_NAME = "perl-Crypt-DES-2.07-5.37.aarch64.rpm"
+RPM_HASH = "4e57a80c522370feece0f814244a8e32c0970ade4161a20aa560f15127731c208f09afab0c82db42c80dae0168b47f8653f1b816f0402bd49dad79efa0081a88"
 
 RPROVIDES:${PN} += "perl-Crypt--DES \
 perl-Crypt-DES"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

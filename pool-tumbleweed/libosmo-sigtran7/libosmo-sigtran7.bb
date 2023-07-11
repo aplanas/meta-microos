@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.7.0"
 
-RPM_NAME = "libosmo-sigtran7-1.7.0-1.1.aarch64.rpm"
-RPM_HASH = "35c972bba5c060d442dd71baec6bc3a6bcf26f17f3f9c510ebd26bb9840faac69e79ec6d39081bae12fcb997597a6fc02964fbb987c480bee9b2f8147b06ef59"
+RPM_NAME = "libosmo-sigtran7-1.7.0-1.2.aarch64.rpm"
+RPM_HASH = "f0151f86237ead17688f99f41ecc901f9b564d7c6132c24712e240313dc96a42f24d1c78c7e6dfc6023456a7016cbd9626a41dac24f076e327b51319640beb83"
 
 RPROVIDES:${PN} += "libosmo-sigtran.so.7 \
 libosmo-sigtran7"

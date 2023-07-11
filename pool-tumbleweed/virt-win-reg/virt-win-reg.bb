@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.50.1"
 
-RPM_NAME = "virt-win-reg-1.50.1-1.1.noarch.rpm"
-RPM_HASH = "d4ddcf5e68179e0b0aa962e5ba9df5f9bed02d7421df68017e2968c92bef1f029b28bceb1d54e89e93aa57f2fe7d97f89de41fa3115dc3c0aef575833227e1d5"
+RPM_NAME = "virt-win-reg-1.50.1-1.2.noarch.rpm"
+RPM_HASH = "d769c0da5d9e8f1669ec32887743c5aecf8a6c4689ae8a4a0967466db8cf095d12f2be23952ec7d6fce0ad97256847b7c7410f4b5cf55ee390388255cf33c8c6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "virt-win-reg"

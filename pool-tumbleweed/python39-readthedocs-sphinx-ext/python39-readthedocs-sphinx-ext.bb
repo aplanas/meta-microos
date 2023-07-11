@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "2.2.0"
 
-RPM_NAME = "python39-readthedocs-sphinx-ext-2.2.0-2.1.noarch.rpm"
-RPM_HASH = "3cf20d2bfeaa131a255d4dfde087c3cf9a7e21aae93ecff148b775422a65b44ff61509baae8c0d77e728e3b5f38cbe1421ab66a773eb45f714cd2a84927a52a0"
+RPM_NAME = "python39-readthedocs-sphinx-ext-2.2.0-2.3.noarch.rpm"
+RPM_HASH = "ec746aa126585e32f917d9fc4917d3a1a0f53c4b276a3c77020f3b797e7bca4fd8281ab0e96361d8e05ddeff4d392ac671ee43f5d4e5ad9a2ce4451fe43d41fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-readthedocs-sphinx-ext \

@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "16.1"
 
-RPM_NAME = "libpulse-devel-16.1-3.1.aarch64.rpm"
-RPM_HASH = "491a395a88628f80e2619bc9541b0cc4a2510292d04e7293162275e2c9a3caf64ce19e5cccd5eec30e8bf314acb1a1369c7ca307b00c06cee5e8c92ace69f1f9"
+RPM_NAME = "libpulse-devel-16.1-4.1.aarch64.rpm"
+RPM_HASH = "5d5a597b19407e5c75d64dc1b5efb1cfd4efb3598b77d5f3d13a78747b2db1429c239d16a2b8235002ee1b447a132e4965916cdd5fd01ac9f7b1d962f1940022"
 
 RPROVIDES:${PN} += "libpulse-devel \
 pkgconfig-libpulse \

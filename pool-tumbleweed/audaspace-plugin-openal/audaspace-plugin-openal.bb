@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.4.0"
 
-RPM_NAME = "audaspace-plugin-openal-1.4.0-1.4.aarch64.rpm"
-RPM_HASH = "fd8cd3d46b364939d5a2f57646284ae46254eae5b08ab21cecef63a707f87a740fdd2ae5106a3cad9f7ec9d6b9ad21312ecdf7d8b0fc6f27efd2a3b4888731b0"
+RPM_NAME = "audaspace-plugin-openal-1.4.0-1.5.aarch64.rpm"
+RPM_HASH = "ed3df1297a99cc0abf0a82c15a9b0406c9d7845579d49b9815d4c9d752465f901b3799d270e230478e306b280f22da5b0aa66ac28ec6e7365b078bf06c8224fc"
 
 RPROVIDES:${PN} += "audaspace-deviceplugin \
 audaspace-plugin-openal \

@@ -3,10 +3,10 @@ DESCRIPTION = "An Jupyter magic extension for printing date and time stamps, ver
 and hardware information."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.3.1"
+PV = "2.4.3"
 
-RPM_NAME = "python39-watermark-2.3.1-1.5.noarch.rpm"
-RPM_HASH = "8256c34336fc511dc3ee2f537a5e728831776651883d630000f27f125536ff3dc6853411f289053d4e8d87d8f7c04036b62fc09882cedd65c7700dc4861fccc5"
+RPM_NAME = "python39-watermark-2.4.3-1.1.noarch.rpm"
+RPM_HASH = "337d0133aefb00a12b78e627d4343899f24f3429a6cf7b5b503a093ff8fcea744181323d05afd01cbe4f66a86922a47717a9236dc94b23c6583006e7acd5c212"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-watermark \
@@ -15,6 +15,8 @@ python39-watermark \
 python3dist-watermark"
 
 RDEPENDS:${PN} += "python-abi \
-python39-ipython"
+python39-importlib-metadata \
+python39-ipython \
+python39-setuptools"
 
 inherit rpm

@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "1.6"
 
-RPM_NAME = "garlic-1.6-221.20.aarch64.rpm"
-RPM_HASH = "6f07a8d9dac440b1145164b11b60ccd4bfd1fecc8ce637db4d3cbdc6f8fd4fb541bd4e51f1a6e3baac5f91bb81069d53dffe5860a497eb7f33aed6e9fc7b477b"
+RPM_NAME = "garlic-1.6-221.21.aarch64.rpm"
+RPM_HASH = "c0743ab1cd4ea63638544ffaf60b318d87d660d4076b68ea83918b5b7132b2053d2e4090127d20f7f5983c129ad5df1ad44b7780502255fbf1147c85248f71a3"
 
 RPROVIDES:${PN} += "config-garlic \
 garlic"

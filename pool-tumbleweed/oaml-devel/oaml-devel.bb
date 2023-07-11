@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.3.4"
 
-RPM_NAME = "oaml-devel-1.3.4-1.14.aarch64.rpm"
-RPM_HASH = "e34575f681b4c4c54f2f53608be3c98b592f307c50cf67ebf6e8aede9e0a6ed211d2d59ccea284bc1cc1a6dbe9b1fc6f4a7f7b4e6f1f96767b303d016b86e69a"
+RPM_NAME = "oaml-devel-1.3.4-1.15.aarch64.rpm"
+RPM_HASH = "759f0810a837d7b27503d61018b7e9c5fca8962ad716741270860b76e71b5939c2872efd8056430050390a3d3afc095288ae90a27ec19a7186c7caa5e91a191c"
 
 RPROVIDES:${PN} += "oaml-devel \
 pkgconfig-oaml"

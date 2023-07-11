@@ -5,8 +5,8 @@ LICENSE = "MPL-1.0"
 
 PV = "2.18.8"
 
-RPM_NAME = "ptlib-devel-2.18.8-1.5.aarch64.rpm"
-RPM_HASH = "35f7d5cc0498a4135c128b0471bf76b7425912f89e1035d3f87a0f055536a0f272dc570c41a4df6d4fedec38f7d835adf6d40d166ac71f63d9b1decbd19a4d99"
+RPM_NAME = "ptlib-devel-2.18.8-1.7.aarch64.rpm"
+RPM_HASH = "a66c1898bc129423d1ba9f8817a0f37f335bd9ff7e28c52536e572c0fd7df33b4fe93f5dd6a56af869a5db1269408758a7ccf45e6b7e97a94b28b52ab798360f"
 
 RPROVIDES:${PN} += "libpt-devel \
 libpt2-devel \

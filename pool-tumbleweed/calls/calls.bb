@@ -4,10 +4,10 @@ DESCRIPTION = "A phone dialer and call handler. \
 Calls is also a capable sip-client."
 LICENSE = "GPL-3.0-only & MIT"
 
-PV = "44.1"
+PV = "44.2"
 
-RPM_NAME = "calls-44.1-1.1.aarch64.rpm"
-RPM_HASH = "ca192b276f7fe5e068792fb1e9afdbfb893320e0a61057a967de2b8f791efc6123f4e9d34b8a1909b4c1cd611e9be8d342fcbf8668e405e20f482cbe1dedba6c"
+RPM_NAME = "calls-44.2-1.1.aarch64.rpm"
+RPM_HASH = "d714bfde1d8d587076f9aadfb24da49ebf33544d0c136c61a7cc0d80ed064ab9b48e79ab5cb05e5b6991c5960efa22b93abb2bb78239e6615a8310e63798b6dc"
 
 RPROVIDES:${PN} += "calls \
 libdummy.so \

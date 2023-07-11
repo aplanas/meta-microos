@@ -11,14 +11,13 @@ awkward-cpp provides precompiled routines for the awkward package. \
 It is not useful on its own, only as a dependency for awkward."
 LICENSE = "BSD-3-Clause"
 
-PV = "15"
+PV = "18"
 
-RPM_NAME = "python310-awkward-cpp-15-1.1.aarch64.rpm"
-RPM_HASH = "ad77814af8d9e6f67ea52704e4e39320736bb87506670624f18ccd561121c4998af1906515ac622fa469e3ff7d32ec93ed3bb8c15d3992869726a06d0f1d6abc"
+RPM_NAME = "python310-awkward-cpp-18-1.1.aarch64.rpm"
+RPM_HASH = "17f327333a2a9a24e4a5ac5797cb2503d5dcd0942cc0ddc53a10821176313086b0f1bcb4ffceb295b876e8ecd7a7464c02c2d87937daa67f3c1e92be8c50db5a"
 
 RPROVIDES:${PN} += "libawkward-cpu-kernels.so \
 libawkward.so \
-python3-awkward-cpp \
 python3.10dist-awkward-cpp \
 python310-awkward-cpp \
 python3dist-awkward-cpp"

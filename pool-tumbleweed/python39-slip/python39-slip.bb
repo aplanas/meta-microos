@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.6.5"
 
-RPM_NAME = "python39-slip-0.6.5-6.15.noarch.rpm"
-RPM_HASH = "5cf24234a85904d06ab222ea2f3983e2597b3bb80ba25b9eeeec4714985137d2906aa07f5ce63e419f26c19963f3650d9bfde809b56bad883c6995219f9826a0"
+RPM_NAME = "python39-slip-0.6.5-6.16.noarch.rpm"
+RPM_HASH = "efca8d7e3fc876a4a5380c3d4f33894f956cda81e7fd236fe99a5d87b6a351dd86b39def321432d2846cdcb2cba3f96e709cb031dca072cf14c5b7a8219b7238"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-slip \

@@ -8,8 +8,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "2.1.1"
 
-RPM_NAME = "unibilium-devel-2.1.1-1.7.aarch64.rpm"
-RPM_HASH = "dc0f90ff60fc16dea8779ba00a8696aaa54c6736caf85d4f310529cd8c4d39797f4aeaf3903c8abbcf004755e23141a3b9cfa0e78b95ce0609c21ca61755a41e"
+RPM_NAME = "unibilium-devel-2.1.1-1.8.aarch64.rpm"
+RPM_HASH = "69510247d35fb6a8656dca643735081a6091f7510b8addac66a5bb4d84a7cb435c3a998974ac019f303e3d497a3fe042452581eb07b6b5f4ca22e12306d57f86"
 
 RPROVIDES:${PN} += "pkgconfig-unibilium \
 unibilium-devel"

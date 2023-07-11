@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "6.3.0~git20211208.6b09bea4"
 
-RPM_NAME = "libgecode51-6.3.0~git20211208.6b09bea4-1.5.aarch64.rpm"
-RPM_HASH = "d9ff2647bbc60c73a26ed766b6fe3cad15a02436850c45bf7f4bba991a45964cb009bbb52eb5b07c12b88febbc5ff5b527752e09bc180144860aa71f14784709"
+RPM_NAME = "libgecode51-6.3.0~git20211208.6b09bea4-1.6.aarch64.rpm"
+RPM_HASH = "6156f3547e99da7a6c0fbae2f1cca0e046f7d80022393e8c0eea03de2de03e698cef1ad08d15b1c86adcb0b6c2cff91dc82208ea14fe6ea07ea6f70a5c92dcbe"
 
 RPROVIDES:${PN} += "libgecode51 \
 libgecodedriver.so.51 \

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0.2"
 
-RPM_NAME = "ghc-text-devel-2.0.2-3.1.aarch64.rpm"
-RPM_HASH = "729463db1156d73e8b081fb74e7ebac414b88e80325351cc219e483d63469e629142060b465ddbaab71533a4288ab6338fca4da30bea29d069b6154b68bcf219"
+RPM_NAME = "ghc-text-devel-2.0.2-3.2.aarch64.rpm"
+RPM_HASH = "3df240fd5f559acc98ac7abea279130d7bb1359e635ff6aa5f0cb5c6d90629df66026d20604ef7fd7943ace883b0638dfe1913f169e64c8b26df867bd0138058"
 
 RPROVIDES:${PN} += "ghc-devel-text-2.0.2 \
 ghc-text-devel \

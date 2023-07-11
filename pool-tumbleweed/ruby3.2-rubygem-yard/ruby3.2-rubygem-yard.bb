@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "0.9.28"
 
-RPM_NAME = "ruby3.2-rubygem-yard-0.9.28-1.6.aarch64.rpm"
-RPM_HASH = "531cb652386d966f47d283327b53efa0f138cdc4c9bd46bcc3ce2eb4c59d8d236d57b3854dfe69c32cdc039d422b24dea039f60bbb37e2bb0cfd74f1624c3b4c"
+RPM_NAME = "ruby3.2-rubygem-yard-0.9.28-1.7.aarch64.rpm"
+RPM_HASH = "ed70d1986b1d39d60cf36ed21fc8ab77fd081bba4ccb21377dc72c0926fab5d42af512bfde2041fbda4c2a9a6eebc64a6e6a64b63902b6694a3e15e3f088edb7"
 
 RPROVIDES:${PN} += "ruby3.2-rubygem-yard \
 rubygem-ruby-3.2.0-yard \

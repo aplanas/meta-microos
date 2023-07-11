@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
 PV = "1.0.12+v1.git.1663933145.1619d044"
 
-RPM_NAME = "cluster-glue-devel-1.0.12+v1.git.1663933145.1619d044-1.4.aarch64.rpm"
-RPM_HASH = "25235ef7fa4e050ced782f709683a45ccbcfa0cf850dc6fa507c8f1bd00f255b5c537c45f7e7b97c213dd56e9e86acb0ee76f0f328fabf4adf2b97e5d3dbe257"
+RPM_NAME = "cluster-glue-devel-1.0.12+v1.git.1663933145.1619d044-1.5.aarch64.rpm"
+RPM_HASH = "f7cc3e9ece208b567568938ca9a94dd96bf7a9fca0c7a9105ef15bc1c1b5bdc8309827206887c811f9cb1e849d7b974942677369b0f90299c90c5d71c833c9a0"
 
 RPROVIDES:${PN} += "cluster-glue-devel \
 libglue-devel"

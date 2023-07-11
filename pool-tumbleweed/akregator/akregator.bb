@@ -7,10 +7,10 @@ Konqueror integration for adding news feeds and with an internal \
 browser for news reading."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "akregator-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "fa47c873e17a5e020f9ea9092f7e1a73205b3a2159ea3fd33eadc11f0aa2bb07ae4c6dfde8d927c428a9d262b49df812037847a01490e7fd3387bd71e264f5e3"
+RPM_NAME = "akregator-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "8407c2eb1a814cea7ce4f6acb08d4afeaf3d7124f3f089e76f93447796ffdd715965385afd649d6619bd7278ac4893bd7a2a7eda8c7343d6c9b7b2418baa3590"
 
 RPROVIDES:${PN} += "akregator \
 akregator5 \

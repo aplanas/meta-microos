@@ -7,10 +7,10 @@ SDL2 uses dlopen, so if you experience problems under X11, check \
 again that libXrandr2 and libXi6 are in fact installed."
 LICENSE = "Zlib"
 
-PV = "2.26.5"
+PV = "2.28.1"
 
-RPM_NAME = "libSDL2-2_0-0-2.26.5-1.1.aarch64.rpm"
-RPM_HASH = "ffe9bf5f3558c9f30d11623f758098620fb946e1dcb4d07b7b2727375f3e206c7162ccf551a8c5fcb10341ae34af6c1f28850a8cdc61bfd2387158a4261c1d52"
+RPM_NAME = "libSDL2-2_0-0-2.28.1-1.1.aarch64.rpm"
+RPM_HASH = "4bd8a7199064391c0943ebd147994640fc7d793e747fa2ef2e54a16e8e690e03839d894fc1da89ee38919edcce90df10d588dd0ab4c1c69e51b2dc1ec9d507b6"
 
 RPROVIDES:${PN} += "SDL2 \
 libSDL2-2-0-0 \

@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.10.4"
 
-RPM_NAME = "libpcap-devel-1.10.4-1.1.aarch64.rpm"
-RPM_HASH = "79a799b6fc1014402f35c26702ef2f323e86bd55b7bc319434dca00a7cd6ebd2f3b5276486427f40eb837677ab80ed97113220d32ba740b7b91a6c0150c3be98"
+RPM_NAME = "libpcap-devel-1.10.4-1.2.aarch64.rpm"
+RPM_HASH = "fd4350ccb0657ae591dbf536592bd0a6078b9de27f5aca154ed1fddeacf3435ef1ccac6e9fa63c4357f05baf8d67fe4888178f5cb2cc838f8bd22f6d790801dc"
 
 RPROVIDES:${PN} += "libpcap-devel \
 pkgconfig-libpcap"

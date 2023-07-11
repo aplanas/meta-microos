@@ -3,10 +3,10 @@ DESCRIPTION = "Poppler is a PDF rendering library, forked from the xpdf PDF view
 developed by Derek Noonburg of Glyph and Cog, LLC."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "23.05.0"
+PV = "23.06.0"
 
-RPM_NAME = "libpoppler-glib8-23.05.0-1.1.aarch64.rpm"
-RPM_HASH = "33d39ec1fcc53c3d57bf9d723560a08ca9824305f98b4cc4fcde2270dc3f49766170408d7e778ea1b991d7a46f1fe1922a36ef25390eef76d5c3db975619fd39"
+RPM_NAME = "libpoppler-glib8-23.06.0-1.1.aarch64.rpm"
+RPM_HASH = "93b86defef10ce5511682d0b3b7eedb843ba59c16497bead333562db813c21468bd0c4397b19dd1770006b2d5af33cbb52d7d4f75cb108a2368ff071704a65cb"
 
 RPROVIDES:${PN} += "libpoppler-glib.so.8 \
 libpoppler-glib8"
@@ -20,8 +20,8 @@ libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libm.so.6 \
-libpoppler.so.128 \
-libpoppler128 \
+libpoppler.so.129 \
+libpoppler129 \
 libstdc++.so.6"
 
 inherit rpm

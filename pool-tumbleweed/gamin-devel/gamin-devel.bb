@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.1.10"
 
-RPM_NAME = "gamin-devel-0.1.10-18.1.aarch64.rpm"
-RPM_HASH = "e7801d346e0aee380831b9f84d23ef9eaebbf3bd4001efd13db5921b4493c628907fe1f8a99418182aa834dbd0a01acf101c3cf6eb21c6da95168391611e54a8"
+RPM_NAME = "gamin-devel-0.1.10-18.2.aarch64.rpm"
+RPM_HASH = "e4c6cec6f6b04949eeacbfe78882cb43d8c17d1f1d15c61518ad2a23f079796991d2e2646d8da66e62f4d60494adedc9c67aa779668e74df8727b596f84177ed"
 
 RPROVIDES:${PN} += "gamin-devel \
 gamin-devel-static \

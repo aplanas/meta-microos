@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "8.60"
 
-RPM_NAME = "signond-8.60-2.18.aarch64.rpm"
-RPM_HASH = "83345289bd5101b7454c4851f5e7a158aef32aaa150cbe7cdd66c6b03a11c2a100f30733f300cdc19c12035043147f405db0759b992e236eaedcbec5b0b368e1"
+RPM_NAME = "signond-8.60-2.19.aarch64.rpm"
+RPM_HASH = "4d6f5a060c6ceed040f5e1b775b45b06f29b2006b9faae49dbbf3dd5dd0406bf84f097aec00edfa14038189c8424f313f8dbe08a15bb9925440c773da50183f4"
 
 RPROVIDES:${PN} += "config-signond \
 signond"

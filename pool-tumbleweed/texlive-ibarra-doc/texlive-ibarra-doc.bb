@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ibarra"
 DESCRIPTION = "This package includes the documentation for texlive-ibarra"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn64567"
+PV = "2023.208.svn64567"
 
-RPM_NAME = "texlive-ibarra-doc-2023.201.svn64567-52.1.noarch.rpm"
-RPM_HASH = "4d29b21c3bb96d1cb62142e1778f9ea0055b0f938a5431c7a3a0e4e6db0f480326cb5f34f9fe098f7e85e629320dd9090475981b618f8deaf71fedacbdcec933"
+RPM_NAME = "texlive-ibarra-doc-2023.208.svn64567-53.1.noarch.rpm"
+RPM_HASH = "3aa1a25008419fd30b1762964ea0447dbd154cea8bffaa569cf89f858df5d64e9fcbdc54884d79dbcce300ed171f1602dfd01fba07b18e3c22754edca3a0d959"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ibarra-doc"

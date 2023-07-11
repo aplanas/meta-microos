@@ -13,10 +13,10 @@ To use the database in mutt, put the following line into your .muttrc: \
 set query_command='lbdbq %{s}'"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.49.1"
+PV = "0.51.1"
 
-RPM_NAME = "lbdb-0.49.1-1.7.aarch64.rpm"
-RPM_HASH = "6d1dd913f34776ed2271419393b0d6079ec9df07b8a17959a4ed36305b04ef3682c6e37565e1ecf1a8141a0a949601ba276fd4c47fb5ed977a6eb7b2f05be4ab"
+RPM_NAME = "lbdb-0.51.1-1.1.aarch64.rpm"
+RPM_HASH = "80dc0ca81f963f82ea32b7bfaa8ece2af91d79b81f9ad18aeee945dc1a0d79bb12591d07019423e8570d41060bb6aea39e8246967ffbfef18d763021195c0faf"
 
 RPROVIDES:${PN} += "config-lbdb \
 lbdb"

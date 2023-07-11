@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause & LGPL-3.0-or-later"
 
 PV = "25.0.2"
 
-RPM_NAME = "python39-pyzmq-25.0.2-1.1.aarch64.rpm"
-RPM_HASH = "e703780d540ed001b7bbc6e5b1fb0decdfdbc4f22850eb9c6d4b941f792ec97d3271f9c6c912436bb6eeb5939d8ac644c4ce92a2025bbfd2d40c61eba9e770ac"
+RPM_NAME = "python39-pyzmq-25.0.2-1.3.aarch64.rpm"
+RPM_HASH = "6e534078afbdcb0819a377eac7030423f627cf5aaffbf3cd20ee0dd2710c391193e0314fef68e71fe873adae3ab6c8f707a97710244f906a51e0da01fadc6254"
 
 RPROVIDES:${PN} += "python3.9dist-pyzmq \
 python39-pyzmq \

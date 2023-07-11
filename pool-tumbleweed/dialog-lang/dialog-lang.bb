@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.3"
 
-RPM_NAME = "dialog-lang-1.3-9.7.noarch.rpm"
-RPM_HASH = "83a5345e6d1fd3f68328af31871aa19715a8590587f304c66c93801cb62a3ea6ebcc73488a5acc6a71dd2d7bcff962036c7e93fd298c54685c81a5e8a0faa4aa"
+RPM_NAME = "dialog-lang-1.3-10.1.noarch.rpm"
+RPM_HASH = "d669aef6760714ed14c8929fe72cb34cac93e8051467ad7e145efe985040d7b887fba8155c6ae016bc854991c151de9469e5387a59bcc124ed7a5ccb323815da"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dialog-lang \
@@ -39,6 +39,7 @@ locale-dialog-id \
 locale-dialog-is \
 locale-dialog-it \
 locale-dialog-ja \
+locale-dialog-ka \
 locale-dialog-lt \
 locale-dialog-lv \
 locale-dialog-mk \

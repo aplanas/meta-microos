@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "4.1.1"
 
-RPM_NAME = "python39-uritemplate-4.1.1-2.3.noarch.rpm"
-RPM_HASH = "407118256030bbfe91b454b816fa4821378f3f9c80b9ea083a46c59e5fb782685db27b4cd9d8a0253f234217531ad4d9f862dfe35d6ca530a8c616a4c55840f8"
+RPM_NAME = "python39-uritemplate-4.1.1-3.1.noarch.rpm"
+RPM_HASH = "499aec0a1c6385e54e2a0cc7a2a5f0894d5565f7845a01efb555f25415f2aaed2e7d51c14e2d88fe74d34e69dd435beab23d462aaafd468ac02fc29523df31d5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-uritemplate \

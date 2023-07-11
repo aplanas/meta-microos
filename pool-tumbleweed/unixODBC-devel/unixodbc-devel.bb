@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "2.3.11"
 
-RPM_NAME = "unixODBC-devel-2.3.11-2.4.aarch64.rpm"
-RPM_HASH = "2a8fbbb952f796db1780076bcae92c35a9fe9f7622f5de2e4c85a639699d7a990db8ff104449d343ff79c7787aaf5838515358bcd244531815ea9552574c5ad6"
+RPM_NAME = "unixODBC-devel-2.3.11-2.5.aarch64.rpm"
+RPM_HASH = "0e06e54ea903b0d9422e924027636be05445adb865feea614b2423575db1a07a2548ea9e130848939bdeca6e2a8b5472f41bf49bee564c6bedb3f72f573832a6"
 
 RPROVIDES:${PN} += "pkgconfig-odbc \
 pkgconfig-odbccr \

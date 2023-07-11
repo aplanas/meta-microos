@@ -6,8 +6,8 @@ LICENSE = "ZPL-2.1"
 
 PV = "5.0"
 
-RPM_NAME = "python39-persistent-5.0-1.4.aarch64.rpm"
-RPM_HASH = "cd260e6a53986d9546ac071bc4c8b526ed3f03aeab45577bfdc8c036cce4cc018920731a6cbe757d9a094ba0d7c5de6e968a620e4f920e377013c08b43aa1bea"
+RPM_NAME = "python39-persistent-5.0-2.3.aarch64.rpm"
+RPM_HASH = "f110a6f7afc28cc2bc318208cd8a5416d5acd4c34758a6efe007acdfd71e2ae3f26299aa4e31b1b8eb87ad336fe2a710e2e2bef324ee52ef08aaf927172f171e"
 
 RPROVIDES:${PN} += "python3.9dist-persistent \
 python39-persistent \

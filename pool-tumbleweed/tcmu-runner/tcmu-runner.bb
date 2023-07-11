@@ -22,8 +22,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.6.0"
 
-RPM_NAME = "tcmu-runner-1.6.0-1.3.aarch64.rpm"
-RPM_HASH = "3d8cf3393111a414d4f73e3e3f6126cc1344d054dafe8e2ed12ccfe7eeceb57e82afab4a80cefc4cd362290a4635dd17b19e0113ede337e92096ca333f92c181"
+RPM_NAME = "tcmu-runner-1.6.0-1.4.aarch64.rpm"
+RPM_HASH = "deabe725750b4b956d69135faaced0e34547218a95c9830428609be4ff3193a5c6d9bf3af0648ce5e26e81362634e37f63f6dbad6d2522bd690df261a0188175"
 
 RPROVIDES:${PN} += "config-tcmu-runner \
 tcmu-runner"

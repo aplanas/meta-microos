@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.1.2"
 
-RPM_NAME = "SDL_Pango-devel-0.1.2-240.5.aarch64.rpm"
-RPM_HASH = "a9173ceff464b598e42c58fdcb248017dcfb025a7a4519189a6a1bcff8e73a2f7b45e989cec79dd211b9a667bdf5619800ff5202db2bb5691b02353d9d5f9f65"
+RPM_NAME = "SDL_Pango-devel-0.1.2-240.6.aarch64.rpm"
+RPM_HASH = "1edb9197ea3dccd2d32d1be3b436e183ec4c18a930a707ed3189a92bbbaeed2a9a16b55117d447155809a66fe69c856efebb1aed42fcd66835715f2f80ea226c"
 
 RPROVIDES:${PN} += "SDL-Pango-devel \
 libSDL-Pango-devel \

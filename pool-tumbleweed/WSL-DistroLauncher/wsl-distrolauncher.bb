@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.0.1+git20200918.2ed9a93"
 
-RPM_NAME = "WSL-DistroLauncher-0.0.1+git20200918.2ed9a93-1.12.noarch.rpm"
-RPM_HASH = "d890d0a1e32133276aa34956be8facb016628d38457ded3309c8883f85fc3b0d0ff3f42ae91a72a1b54feac5c4e6c0ee726dfb5012a318e045c7ead6b416ecb2"
+RPM_NAME = "WSL-DistroLauncher-0.0.1+git20200918.2ed9a93-1.14.noarch.rpm"
+RPM_HASH = "f7dc9821c9c6b10c34acdd73b7e50dc4e9e8b12926c42f7916708ebe5eca5704c1d1e1099ad0e7aa19434a774936ad30d94e6c22ea60aca362830639d4b8cf67"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "WSL-DistroLauncher"

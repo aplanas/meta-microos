@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - User and Group Configuration"
 DESCRIPTION = "This package provides GUI for maintenance of linux users and groups."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.6.1"
+PV = "4.6.2"
 
-RPM_NAME = "yast2-users-4.6.1-1.1.aarch64.rpm"
-RPM_HASH = "3dd971d1a137cfbefeb82c122912dec9a0f02058c488b938f352ecdfd0d3cfdc83214c4914f9caae14ab0005c605b17101e5692433d74567f02d468639ea6f03"
+RPM_NAME = "yast2-users-4.6.2-1.1.aarch64.rpm"
+RPM_HASH = "73711d40404c262cea81e96c4556aadba4cd9c0da527f81e7493363fb81bfda5b08fe22101777218098aaae16f6008078460f200897e2b4977d6f875b90b54b7"
 
 RPROVIDES:${PN} += "libpy2ag-crack.so.2 \
 perl-Users \

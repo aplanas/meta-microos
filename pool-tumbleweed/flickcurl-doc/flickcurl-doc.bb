@@ -13,8 +13,8 @@ LICENSE = "LGPL-2.1"
 
 PV = "1.26"
 
-RPM_NAME = "flickcurl-doc-1.26-3.24.aarch64.rpm"
-RPM_HASH = "44cca27cd6aaa2a9d90deff14b2986312bd5b2d8bbca0c2e67c045ae73ea55f2ab3822967368d68b70bb266d124dc3ffc94821e0118b2fbbfdcfb6dfd6a3817e"
+RPM_NAME = "flickcurl-doc-1.26-3.25.aarch64.rpm"
+RPM_HASH = "74cc0b75cbe5920a66f8cf92cd0db1591e053fb93a6421080bdfbe80cfaeecb46d537e8c014155d493c99177843642f80438ab66e4196289b90d3321d719d23c"
 
 RPROVIDES:${PN} += "flickcurl-doc"
 

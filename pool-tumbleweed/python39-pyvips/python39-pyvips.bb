@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.2.1"
 
-RPM_NAME = "python39-pyvips-2.2.1-1.3.noarch.rpm"
-RPM_HASH = "d8f71cc94b2a277593fd82da0cff79812d757161bee84dd4944c0798bb0ac3af178e561840a568e4a1ce03eb994c920572f1ee28475a2352b3f288dc73e19876"
+RPM_NAME = "python39-pyvips-2.2.1-1.5.noarch.rpm"
+RPM_HASH = "8bdd06a38e761ea4cf832f946bf213327a6d99a90e8abed55adc411c58327ca53c251cf9bc8d51946c2d952598d65d70cd1677b93489c46bc95651b6b4426a04"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyvips \

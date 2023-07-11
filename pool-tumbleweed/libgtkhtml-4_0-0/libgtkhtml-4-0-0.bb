@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "4.10.0"
 
-RPM_NAME = "libgtkhtml-4_0-0-4.10.0-7.3.aarch64.rpm"
-RPM_HASH = "4bc6774389479583878f0248b2bda9f101087907e4d0279806f93c1e63d5bd283bfbc0db6721f09778024e93b767d16c9fdb7da3cc29fd016cd28c5d603de3b5"
+RPM_NAME = "libgtkhtml-4_0-0-4.10.0-7.4.aarch64.rpm"
+RPM_HASH = "1e5e1f4c2813ce8e25dddb4c6c24402a54de25c5945c4ee77dd621ddb97cbd4ac354359f631497ccd09e273461cf69e9301c4a2c2103f8687a1aa3bcb4e6f1e9"
 
 RPROVIDES:${PN} += "gtkhtml \
 gtkhtml-4-0 \

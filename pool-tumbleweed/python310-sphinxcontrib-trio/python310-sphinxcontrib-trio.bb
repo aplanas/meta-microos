@@ -7,12 +7,11 @@ LICENSE = "Apache-2.0 | MIT"
 
 PV = "1.1.2"
 
-RPM_NAME = "python310-sphinxcontrib-trio-1.1.2-2.8.noarch.rpm"
-RPM_HASH = "735955915b69ad68848523dddd964ce974750e860dccb0799ed5a1fef9f4c68d7349d6daac30af935fc71737d4275a1cae287592da064dfaad1813ebb03bb838"
+RPM_NAME = "python310-sphinxcontrib-trio-1.1.2-2.10.noarch.rpm"
+RPM_HASH = "1f15d8200dec3fc7b59a6e2439a95a4ff6cbb031637b31ea75483446e06b59b4886ff91ccebf03b05f79459b74d6e61b848cfc34cc2a27e1d8413426d67103b6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-sphinxcontrib-trio \
-python3.10dist-sphinxcontrib-trio \
+RPROVIDES:${PN} += "python3.10dist-sphinxcontrib-trio \
 python310-sphinxcontrib-trio \
 python3dist-sphinxcontrib-trio"
 

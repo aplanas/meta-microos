@@ -4,15 +4,15 @@ LICENSE = "MIT"
 
 PV = "2.3.0.1"
 
-RPM_NAME = "ghc-hslua-aeson-devel-2.3.0.1-1.2.aarch64.rpm"
-RPM_HASH = "652c6f64c30ef212bed5ae06877d155d78acfd62e54361ce035f9ca9ac7e0c4f45e2d7c0bcba09707247c80cf4629c9445104be7049405fc52165e8792e7c309"
+RPM_NAME = "ghc-hslua-aeson-devel-2.3.0.1-1.3.aarch64.rpm"
+RPM_HASH = "11b720a54329be6caaf4aff4f173a18ff2f72894affa8fb7fb97625b089c90268cd7e5cf9dc564c9cd5d8a31cc571f4bc8a25eaeb8a1f0c635b562cecc391683"
 
-RPROVIDES:${PN} += "ghc-devel-hslua-aeson-2.3.0.1-E4tasg1dFJ86CDrMHWRi4i \
+RPROVIDES:${PN} += "ghc-devel-hslua-aeson-2.3.0.1-6DckHj1FyFIAboJpo8be6E \
 ghc-hslua-aeson-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP \
+ghc-devel-aeson-2.1.2.1-HkN6OtqTngQ9De3CKBnfov \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-bytestring-0.11.4.0 \
 ghc-devel-containers-0.6.7 \

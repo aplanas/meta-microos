@@ -4,12 +4,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.4"
 
-RPM_NAME = "python310-unittest2pytest-0.4-1.13.noarch.rpm"
-RPM_HASH = "cd8c17fef00381a9eff9a6bab5971bda545ba8b9ec5866b57794adbafe6dcc9f68d679c9f9f5423408023eae1933b2b84c2e1a60054254300a60124c3edde44d"
+RPM_NAME = "python310-unittest2pytest-0.4-1.15.noarch.rpm"
+RPM_HASH = "40dd502d7df416efd2b169210bd6d415e33bf58d85582e02d013ab6d891fefba482b62dd621c1357857bfe47b94dcc1db687738737690afcd0f4071bb1c8b8fb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-unittest2pytest \
-python3.10dist-unittest2pytest \
+RPROVIDES:${PN} += "python3.10dist-unittest2pytest \
 python310-unittest2pytest \
 python3dist-unittest2pytest"
 

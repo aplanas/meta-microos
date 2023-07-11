@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "0.1.2"
 
-RPM_NAME = "python39-petact-0.1.2-3.13.noarch.rpm"
-RPM_HASH = "827ff9ab561bdaafc3d7f4fcc5acec839f24cab2fdca29546afed42bf7074675d50e7f6b14f00cdcbf27afdff94d2b124d351c2a0d71532b3dc43c10a865bfe1"
+RPM_NAME = "python39-petact-0.1.2-3.14.noarch.rpm"
+RPM_HASH = "84a448f7186e71ca162ed32ac0b0e77f4898f46aaadbd9758cc40b4b140f163b8009654058b6b9e5d11f6f85dffd6f5f24cc78fc921e1259e1fb51b4c5d9c085"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-petact \

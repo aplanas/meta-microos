@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.1.4"
 
-RPM_NAME = "python310-django-qsessions-1.1.4-1.3.noarch.rpm"
-RPM_HASH = "87f9b288da8a61f1d622e5cb017aff696579d28faca04dfeed1c34130645f1c1a5995d3f53566b7201a79917726c558478ad7bd950177df299ce0ef92e3e80b7"
+RPM_NAME = "python310-django-qsessions-1.1.4-1.5.noarch.rpm"
+RPM_HASH = "1ad857c0cd6d84ce642f0708b5eb64c4adf2ca84fe126464b8145601a44fb251e2804cba0528d6e540c04545a34a5f4210b5c47c81419d72ce727e6d956bbbca"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-django-qsessions \
-python3.10dist-django-qsessions \
+RPROVIDES:${PN} += "python3.10dist-django-qsessions \
 python310-django-qsessions \
 python3dist-django-qsessions"
 

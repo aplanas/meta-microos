@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.3"
 
-RPM_NAME = "libconfuse-devel-3.3-2.3.aarch64.rpm"
-RPM_HASH = "847c1cd8de988dd8318ad136adf0e3636951f048c211c202f56df54b88a02853bbbd83a76511a3233767e859baaae94d31824cffd2cbf85bf4c2c5d574110396"
+RPM_NAME = "libconfuse-devel-3.3-2.4.aarch64.rpm"
+RPM_HASH = "248bdbb334bf761884dee76b9049f561fb1bb2e6031a60f8e773ce5525836525ae7ebd2a2518a86eb04f58c4a3bf393d8e78a10f02387a1bdbb884cdc4113faf"
 
 RPROVIDES:${PN} += "libconfuse-devel \
 pkgconfig-libconfuse"

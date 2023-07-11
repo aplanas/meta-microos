@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "1.0.0~b2"
 
-RPM_NAME = "python311-azure-mgmt-education-1.0.0~b2-1.3.noarch.rpm"
-RPM_HASH = "b428fb42c4725bb65b322e58baefa99f79d6de9cf3fd79ef61f82a9770332e36ff4cab02c21e2140bcce6e6a78da75237ed66bf4c3eebd55c2ba707825befe3d"
+RPM_NAME = "python311-azure-mgmt-education-1.0.0~b2-1.4.noarch.rpm"
+RPM_HASH = "44d8337ea9c056d153e6535b809bcc0f77b565e883310ea2a06b6efa761c635714ca048f076e5e42c4480950837d87c9116426c6d81b2a0eec19fb994bf7430e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-education \
+RPROVIDES:${PN} += "python3-azure-mgmt-education \
+python3.11dist-azure-mgmt-education \
 python311-azure-mgmt-education \
 python3dist-azure-mgmt-education"
 

@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "21.0.0"
 
-RPM_NAME = "python310-azure-mgmt-storage-21.0.0-1.3.noarch.rpm"
-RPM_HASH = "ed0316d7e06904923b161138395a90fb6b18fa129f21bfde1abdeb29d2c8209af16b3b7a55be2f072cd1eaef8c4bcd2322096a57a569194960654c2318bd33c3"
+RPM_NAME = "python310-azure-mgmt-storage-21.0.0-1.4.noarch.rpm"
+RPM_HASH = "e7b2f9d88334ef76672655612053e693a5ad0a44a321d44368672fb9dcbe223b33e66de2d59f3d684968d984c62b1709bb97a7ebdccf3306c1b48622e3d69521"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-storage \
-python3.10dist-azure-mgmt-storage \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-storage \
 python310-azure-mgmt-storage \
 python3dist-azure-mgmt-storage"
 

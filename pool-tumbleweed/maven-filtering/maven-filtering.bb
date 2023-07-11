@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.2.0"
 
-RPM_NAME = "maven-filtering-3.2.0-2.7.noarch.rpm"
-RPM_HASH = "73e2c7c11c8190f85dd7dd9d9b3149dd313d41df0bd4becca3b16e3891203a13ac4e391d776697e3ea49c575c76376451786c15a040e77b235da1af0488b4b24"
+RPM_NAME = "maven-filtering-3.2.0-2.8.noarch.rpm"
+RPM_HASH = "251dd9f04c52a3978a43b442e75fddd7ef6e73f578af96f3c71e700a71b83f2a764d9e6590a497a1c57edaddc1e6a6ffe93c66054478560d1d7b46fd98a9515b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-filtering \

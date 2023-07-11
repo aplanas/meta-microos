@@ -5,10 +5,10 @@ machine) or loop mode (sequencer). The keyboard can be used to \
 control this."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.24.0"
+PV = "0.25.0"
 
-RPM_NAME = "giada-0.24.0-1.1.aarch64.rpm"
-RPM_HASH = "5d7df2ebecdd169c4c9a66910b85085ec93d88d3496d8caa2c108543a6cbf0421023f9c7523b19f29981eee845381b7a70d31362f09ad8c08218b04227137d92"
+RPM_NAME = "giada-0.25.0-1.1.aarch64.rpm"
+RPM_HASH = "1637ed39de7658cc68954975b84e8e3e2c5b0dd9cbac624d2f0a23031a801ad043399ea16e72fa65fd008a61fad8e137da62e385a00bd7339e4cdd615d5ef00d"
 
 RPROVIDES:${PN} += "giada"
 

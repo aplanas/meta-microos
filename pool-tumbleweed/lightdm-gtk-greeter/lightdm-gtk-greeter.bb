@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.0.8"
 
-RPM_NAME = "lightdm-gtk-greeter-2.0.8-1.12.aarch64.rpm"
-RPM_HASH = "2d799f64559623fb9d541284d01afa119e9133d28bc02e15764430562534756b50039f6f7d41cbae31c34b176c4310004439ab6fd673f32a492adca5801f4986"
+RPM_NAME = "lightdm-gtk-greeter-2.0.8-1.13.aarch64.rpm"
+RPM_HASH = "3a8fc6dff92725ad100db9ed2ba222eca59b969a174e4053d019001e58516303f5a197e8ccca734a44f7113c86b32a3f48fa94381c90977ae55d0d611e103dd2"
 
 RPROVIDES:${PN} += "lightdm-greeter \
 lightdm-gtk-greeter"

@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.40"
 
-RPM_NAME = "binutils-devel-2.40-5.1.aarch64.rpm"
-RPM_HASH = "101c833dc4def85bd9d9d75fb4aa03d5e8aaafd93fb9d36d7db30b5aa3639f6d209a3ac470171576f8a14185d4082910abd5c2ab1575e13bf448507ea34aabdd"
+RPM_NAME = "binutils-devel-2.40-5.3.aarch64.rpm"
+RPM_HASH = "466222f4a76e2c6ee5a079f181f21bd94924d9e9c543eb132407dd104eafd2b88024891c3694ff40351875b2776b25634f5dda6fa5829e522f297c99034db6ea"
 
 RPROVIDES:${PN} += "binutils-/usr/include/bfd.h \
 binutils-devel"

@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.1.4"
 
-RPM_NAME = "openmpi4-config-4.1.4-2.3.aarch64.rpm"
-RPM_HASH = "56f68e5672431bb9bd3b1ac4fdc4ca0bf80ab4810f1bde61542cb4cd7c59fb6fffbc5824a52a66b18b6e0742df4d5dea5c3c8936fdd3bd4f542603dd211b6cd1"
+RPM_NAME = "openmpi4-config-4.1.4-2.4.aarch64.rpm"
+RPM_HASH = "bb396a4b37a337961dd81db9fe055cff066d54cea389ea88fa317902a50e5da8464c4b1a3768a3a4746517cac5da17ed3f91f1ecc4bf83cc94b6eec57a67687a"
 
 RPROVIDES:${PN} += "config-openmpi4-config \
 openmpi-runtime-config \

@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "4.0.1"
 
-RPM_NAME = "tpm2-0-tss-devel-4.0.1-1.3.aarch64.rpm"
-RPM_HASH = "bfbf7578b2d4f15e413a7b6033079e6a97f70d63d3e15032970d2d14364fe791a28c1ccfa7f48da0513e989e766cd75b60a493eff1b4213bec32f696437c0d5c"
+RPM_NAME = "tpm2-0-tss-devel-4.0.1-1.4.aarch64.rpm"
+RPM_HASH = "d3f544656dae68dca3a679d72d5896c843d520739272f1fe848b728eb527edec1c6020468bd0566a9451078aeb430a7646865e639a81036bf811195a81fc2c6f"
 
 RPROVIDES:${PN} += "pkgconfig-tss2-esys \
 pkgconfig-tss2-fapi \

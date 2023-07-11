@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.10.0"
 
-RPM_NAME = "kphotoalbum-5.10.0-1.1.aarch64.rpm"
-RPM_HASH = "7c7ac4cebb01d29c7e033e1b9e379ccaba4aca802c00bc5ec77a4d90c14883ec2fa4c246d78ed569659a1dad8a360b24ee4f7c84817824e8ffeb0a8811a9b1b8"
+RPM_NAME = "kphotoalbum-5.10.0-2.1.aarch64.rpm"
+RPM_HASH = "ccbc8e7e0dbdbd89df399168cf2dd941e909c175079c21f0a4b4f30d04fdc47815e55c98841616c238e11e836c4d02e9eba141e860047caa1980e78f482a7bea"
 
 RPROVIDES:${PN} += "kphotoalbum \
 libkpabase.so \
@@ -45,7 +45,7 @@ libQt5Xml.so.5 \
 libQtAV.so.1 \
 libQtAVWidgets.so.1 \
 libc.so.6 \
-libexiv2.so.27 \
+libexiv2.so.28 \
 libgcc-s.so.1 \
 libjpeg.so.8 \
 libm.so.6 \

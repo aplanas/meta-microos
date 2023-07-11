@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
 PV = "1.8.0"
 
-RPM_NAME = "ruby-rrdtool-1.8.0-3.1.aarch64.rpm"
-RPM_HASH = "49c9af6e65c69ba38e2b049ff37d182f69615026d4c3e567f0926d1fba76add676e601bd222abec5c46f6cac28d93cefabc01d899e59600eaff86fed9a7c40d8"
+RPM_NAME = "ruby-rrdtool-1.8.0-3.4.aarch64.rpm"
+RPM_HASH = "9523812e05f0a498a00c115de3977d4914f0339f0fed5c7f89158665160ae380c604fb83d434b261cb82202d5f0b5c0d440d9eaa846d2687d76569eecc235d29"
 
 RPROVIDES:${PN} += "ruby-rrdtool"
 

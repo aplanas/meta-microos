@@ -6,8 +6,8 @@ LICENSE = "PostgreSQL"
 
 PV = "4.30"
 
-RPM_NAME = "pgadmin4-web-uwsgi-4.30-2.10.noarch.rpm"
-RPM_HASH = "ebdceab377fdb1961281b117defa56624dce3695dd560a2a9cd2f298ec3106c30b12b9601812b0689491a0632358ae8018348bb8876b0d496b09b5378db40f3c"
+RPM_NAME = "pgadmin4-web-uwsgi-4.30-2.12.noarch.rpm"
+RPM_HASH = "52f6348bf274a9218644511f68102074fd3b0f508aed0911a2855d8b5ddc585b087b001391fb5b6fd7e185e63f7bcb6d024aef69787412f067edffc4390da8a8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-pgadmin4-web-uwsgi \

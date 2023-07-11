@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "44.0.1"
 
-RPM_NAME = "cheese-44.0.1-1.1.aarch64.rpm"
-RPM_HASH = "d653e27fbbd2be42f2f76d4c872b6a3f41d061450bbb315680e54dc49db4018080d9835a390a97a912e50911414f06ca95b3e874ddc1469143bfcd15395fbd57"
+RPM_NAME = "cheese-44.0.1-1.2.aarch64.rpm"
+RPM_HASH = "a0d48bc6c5b58cfe971c2dc2bb495a11ed25bf70fbc8eaef91a368c6f64b743965f35f9d6f18076b1669772c255f3fd567e2ffdd39af1a57db66a3ed95bacfda"
 
 RPROVIDES:${PN} += "cheese"
 

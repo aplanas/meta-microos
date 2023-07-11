@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.1.3"
 
-RPM_NAME = "xournalpp-1.1.3-2.1.aarch64.rpm"
-RPM_HASH = "cd370077f1aade89cc7c71ffc29f7ae99dc42ddeba17d7d3b721cf2939f6d1461da716e26fd1649ec752b0fff48ed5d9e212115689bfa7d91ea62f23a960f8b6"
+RPM_NAME = "xournalpp-1.1.3-2.2.aarch64.rpm"
+RPM_HASH = "49d87a175155a91bcae512df23f301b436839e1fd4867a920921ab0abaa6bf724be000709825712a7a0727d1960b199a72386a7540a1a8abaecc18549e88976e"
 
 RPROVIDES:${PN} += "xournalpp"
 

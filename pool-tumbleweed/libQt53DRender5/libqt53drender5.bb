@@ -5,10 +5,10 @@ The Qt 3D Render module contains functionality to support 2D and 3D \
 rendering using Qt 3D."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libQt53DRender5-5.15.9+kde0-1.1.aarch64.rpm"
-RPM_HASH = "9257da4a551e7b3a45f18ac707d53bbb9ad57fe17915c739e18a0262cac479406cdc0e2148a37e197fc585692e8b8fe8a1dfd9c28e79d976db0aa40fa13cc962"
+RPM_NAME = "libQt53DRender5-5.15.10+kde0-1.1.aarch64.rpm"
+RPM_HASH = "e3f36d59e286522e040d2918110ccfc838701eb059c6efd9d5320f04f9cd34328e12bfef49ffb57e5d05ec5c724c1f939370d559ed9ac03a913a29e6218c522b"
 
 RPROVIDES:${PN} += "libQt53DRender.so.5 \
 libQt53DRender5 \

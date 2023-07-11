@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kfloppy"
 DESCRIPTION = "Provides translations for the 'kfloppy' package."
 LICENSE = "GPL-2.0-only"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kfloppy-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "d2042c3befb05d046d1e981444fe066885f800a7d68faef09e702666bfae3bcb91194595dea81e0da724566dfaaa908e28942c1c6d6bff6a566a97d5bf145edc"
+RPM_NAME = "kfloppy-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "75249881525c9ce3f6812bc6e13b8af6702b6a61742c059b27990f11597584fe187e15d5df3d10a9d89df70048b7cb70c20fe1aca88d15acf1608f4593203412"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kfloppy-lang \

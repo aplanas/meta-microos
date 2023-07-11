@@ -5,8 +5,8 @@ LICENSE = "EPL-1.0 & GPL-2.0-or-later"
 
 PV = "1.17.16"
 
-RPM_NAME = "wesnoth-campaign-server-1.17.16-1.1.aarch64.rpm"
-RPM_HASH = "ec8da508b6510c1819109708a088c8105d7a827f8caf4044d7ccf18b70010cd247ba8cce201985b289c0d39b299f4cafcf56ed2c9161f330fbdf67344f1e9e70"
+RPM_NAME = "wesnoth-campaign-server-1.17.16-1.2.aarch64.rpm"
+RPM_HASH = "e0bff9aeac3df39687fb57d0ff93057ea8c87a7aaf8396ed491b22aaef7a177f117ec56418f16ca14aefef773b417bf65438b58c46ec5475d0626011f117f103"
 
 RPROVIDES:${PN} += "wesnoth-campaign-server"
 

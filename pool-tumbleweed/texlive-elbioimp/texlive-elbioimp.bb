@@ -5,8 +5,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.2svn21758"
 
-RPM_NAME = "texlive-elbioimp-2023.201.1.2svn21758-53.1.noarch.rpm"
-RPM_HASH = "d982b32f2a88d247243464861abc3fa6e03e674e7c7b5760313f71f93f387fb262cc6fe00849daafd866e05315c5d36bb68d049c793a3f7aec5d7a1d8b81807b"
+RPM_NAME = "texlive-elbioimp-2023.201.1.2svn21758-53.2.noarch.rpm"
+RPM_HASH = "4a14a3edef0af80b5e954ce290a629a69f461b646c110e448c35c254db613c2f8e917d5cc0facce8661896662ce67438739ae98caddb35c229d59afb211f6f43"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-elbioimp.cls \

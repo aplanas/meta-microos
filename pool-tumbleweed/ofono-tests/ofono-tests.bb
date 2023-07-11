@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.34"
 
-RPM_NAME = "ofono-tests-1.34-1.7.aarch64.rpm"
-RPM_HASH = "c8dae89c5f8311af24a79dbd50d87c25e6fdced997236ce8af874b03424da526fa5415c645ba5663ba13721f928511312b81ca0a67e9e50aab6ee90d022fc81f"
+RPM_NAME = "ofono-tests-1.34-1.8.aarch64.rpm"
+RPM_HASH = "c35c57725b6a5696bac92f40c9945258defeb0b28c9da0f03c44a059a4219c7159fd52a4ef7555e9e1cdf5a36b42178a9dadc9bb5ae087e32d1ba275c902791d"
 
 RPROVIDES:${PN} += "ofono-test \
 ofono-tests"

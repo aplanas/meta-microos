@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "2.0.1"
 
-RPM_NAME = "python311-bokcolmaps-2.0.1-2.9.noarch.rpm"
-RPM_HASH = "e8b9a79c888d8a6baf498b49c0eb5bcd0ba5ca1119fa45a29b34ed727e9efe8547ffc41b58c9a41e57a8991f06d4bc4b1e375e99a61c37963490caeaabe9087b"
+RPM_NAME = "python311-bokcolmaps-2.0.1-2.11.noarch.rpm"
+RPM_HASH = "89c240c1d36fefeb8d82e9f817c7abf2057ba37b5931f84991cead076f505671b81a01bc67fec068e18e50ff82c83d4bd3e956848fb3126e191c9a18a2c9dd19"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-bokcolmaps \
+RPROVIDES:${PN} += "python3-bokcolmaps \
+python3.11dist-bokcolmaps \
 python311-bokcolmaps \
 python3dist-bokcolmaps"
 

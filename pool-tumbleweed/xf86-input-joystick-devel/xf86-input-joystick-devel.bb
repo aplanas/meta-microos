@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.6.4"
 
-RPM_NAME = "xf86-input-joystick-devel-1.6.4-1.2.aarch64.rpm"
-RPM_HASH = "50d2ee3f5c8d63a8d2592f9098e4f0a959ae0328f7bb2644c4478621e77a7679fd581d622509f6110fa439cc54e12f2c061f8489b15678abacaeb14179ea649b"
+RPM_NAME = "xf86-input-joystick-devel-1.6.4-1.3.aarch64.rpm"
+RPM_HASH = "6fc92455ff59e1c5caf826fc915a76d0843259321843364c764b2b6fa58417defc1e5bd5cbad6c86f77130765f17db66dca155bc0900efab439c66dc150df478"
 
 RPROVIDES:${PN} += "pkgconfig-xorg-joystick \
 xf86-input-joystick-devel"

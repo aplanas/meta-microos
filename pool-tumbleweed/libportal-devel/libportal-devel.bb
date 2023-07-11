@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.6"
 
-RPM_NAME = "libportal-devel-0.6-1.7.aarch64.rpm"
-RPM_HASH = "7fe26ebc0419f1fb4a3bc847e59709115f015d2acb7a415b6a8c3a28252348b853daddd7676a239b2256ab821592804e256143e253179ce73c572c56480c96b7"
+RPM_NAME = "libportal-devel-0.6-1.8.aarch64.rpm"
+RPM_HASH = "05a5c9db241bd5e8d6d37f830398281f7b2c41071db282345570afa94e5218e98937e6023a556fff89f1ddbaf4f254e380841f753d9ecff060e704fc890c1916"
 
 RPROVIDES:${PN} += "libportal-devel \
 pkgconfig-libportal"

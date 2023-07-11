@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2017.1.16.1544"
 
-RPM_NAME = "python39-technicolor-2017.1.16.1544-3.13.noarch.rpm"
-RPM_HASH = "3860e4f75421aa9645f9a6b9adbd9918038fb35e1e8c51445b7d7d9ece2b7a38e3b1da5043778295314668b0aca683980acae19aa28dff79c0a77e5230b3a4f9"
+RPM_NAME = "python39-technicolor-2017.1.16.1544-3.15.noarch.rpm"
+RPM_HASH = "caf83a61e82a613b1e64fb3f44be5207d55ec58a8cc45b031f4ef47124858524e66038f00bcfc1f3f78d72719de782649409704d6893bf352720b5ec7a78984a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-technicolor \

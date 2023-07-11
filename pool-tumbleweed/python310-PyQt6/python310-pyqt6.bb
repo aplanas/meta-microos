@@ -4,12 +4,10 @@ LICENSE = "GPL-3.0-only | SUSE-GPL-2.0-with-FLOSS-exception | NonFree"
 
 PV = "6.5.0"
 
-RPM_NAME = "python310-PyQt6-6.5.0-1.2.aarch64.rpm"
-RPM_HASH = "9e050b64cf34632a1ad9247fffab5d9e5d517912a8be1460af1abf24b94219428bd21021202604d579b33aa30b74a9c1e8a69b426261336709f13a0cdf3ae0d2"
+RPM_NAME = "python310-PyQt6-6.5.0-2.2.aarch64.rpm"
+RPM_HASH = "637edc6af98b41b62f9529acbaeb9ae86ed1de7d3d66980eb809b6420d1a67ed393d544ee03b3c478e6ff00a047790208fae4a9e7189b6130ed038e5f15324ba"
 
 RPROVIDES:${PN} += "libpy3.10qt6qmlplugin.so \
-python3-PyQt6 \
-python3-qt6 \
 python3.10dist-pyqt6 \
 python310-PyQt6 \
 python310-qt6 \

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.1"
 
-RPM_NAME = "pinentry-gnome3-1.2.1-2.3.aarch64.rpm"
-RPM_HASH = "2fd676450ebf9fee552c85e92bcebc97a8e05a0a59c546aa36efed69326c8113cd3b2ab93ba1762e9272b5d76cdf44710f3a8dec95bb9b65473a440d35ff5310"
+RPM_NAME = "pinentry-gnome3-1.2.1-3.1.aarch64.rpm"
+RPM_HASH = "30089d04c8b501e5ca422438e13acf8488b6e578d5a3f41d2624447f3bfcdb3c70380695d30d826f876748ff6ba8792657e69bb88ac100c0716db314a441afbd"
 
 RPROVIDES:${PN} += "pinentry-/usr/bin/pinentry-gnome3 \
 pinentry-dialog \

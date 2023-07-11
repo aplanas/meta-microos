@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.18.1"
 
-RPM_NAME = "libispcrt1-1.18.1-2.1.aarch64.rpm"
-RPM_HASH = "4bffc496f6a9e0a188d0e54f3ac9d96d3eaa12a27fdc242a8f201c995b2171ab7a2756fea57207a0bd06d9c35246e22ee813f4e57f20b6fd293ca791ff094786"
+RPM_NAME = "libispcrt1-1.18.1-2.2.aarch64.rpm"
+RPM_HASH = "6cea63337f5f38f2bc710cff1389c5831ac9f2d4fd8252de37dc54769bfa82cbebe4300912247df15018a184775b4ce0d1d17c7c73747212e7bf340343268bad"
 
 RPROVIDES:${PN} += "libispcrt.so.1 \
 libispcrt1"

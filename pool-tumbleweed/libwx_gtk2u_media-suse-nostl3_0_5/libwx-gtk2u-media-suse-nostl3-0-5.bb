@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.0.5.1"
 
-RPM_NAME = "libwx_gtk2u_media-suse-nostl3_0_5-3.0.5.1-4.1.aarch64.rpm"
-RPM_HASH = "da293c8ebff34b4533c7ccb14d76d1203760fd9e3f1c082d431a8103f0f9059898e80dabb7c2a3c6268e629f3a84b31629ee95c66a2c56049860bfcfaf599934"
+RPM_NAME = "libwx_gtk2u_media-suse-nostl3_0_5-3.0.5.1-4.2.aarch64.rpm"
+RPM_HASH = "7660792b262d34778754f8237e4642d8cda782702f2aab9801ef6286ae36003706aee84feff32aca34a8a0b9c8f6605e0f786da15adc81203c6c0f1c697d536d"
 
 RPROVIDES:${PN} += "libwx-gtk2u-media-suse-nostl.so.3.0.5 \
 libwx-gtk2u-media-suse-nostl3-0-5"

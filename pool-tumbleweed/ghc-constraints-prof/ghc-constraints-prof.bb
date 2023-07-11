@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.13.4"
 
-RPM_NAME = "ghc-constraints-prof-0.13.4-2.3.aarch64.rpm"
-RPM_HASH = "dd37262ae221c069bde506eb095e246d2472baf93051d3f89063ea0273713b9107b2ea2a89335afca7e4f34c22073cebaf0eb290d6305eef40d8597ac26b8e30"
+RPM_NAME = "ghc-constraints-prof-0.13.4-2.6.aarch64.rpm"
+RPM_HASH = "ffaa8fbd3c4e2646b869f6944dc6e3e97a1655740681a17af3f96587243b6115e9a22812c42bfb4ad7f751799c1d97e8493820bb24e0c036cbe7e37997c42d34"
 
 RPROVIDES:${PN} += "ghc-constraints-prof \
 ghc-prof-constraints-0.13.4-8c0InBhz3htJzug27IqVE7"

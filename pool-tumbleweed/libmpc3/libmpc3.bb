@@ -6,8 +6,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.3.1"
 
-RPM_NAME = "libmpc3-1.3.1-1.3.aarch64.rpm"
-RPM_HASH = "0e16d1e58c57f47b93dabee8116cc724a9c2547abd21e168ca061bf47bbbd9aa1b6a610c38dd32d0459e63fa84e349a9cbc3509e890a039690e47298952eb10c"
+RPM_NAME = "libmpc3-1.3.1-1.5.aarch64.rpm"
+RPM_HASH = "efeb4cf86077bdcc99133c8099d46c2c7065c5c148d82dbfef2634b9ba9a60a62db47215e1f51fd7e06fe0a223c5e9bd94dbce8b65ef2864065a36258df464ec"
 
 RPROVIDES:${PN} += "libmpc.so.3 \
 libmpc3"

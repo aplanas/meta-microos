@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.8.6"
 
-RPM_NAME = "arm-trusted-firmware-qemu-2.8.6-1.1.noarch.rpm"
-RPM_HASH = "9c9213b612ea76641eeef8984f32fffa9245a7a7ed7eadf8c16cc8927b6cf388c6684992bca2239006f1517b3984c4b98e2181113068fca07a8d8a6625b09e9b"
+RPM_NAME = "arm-trusted-firmware-qemu-2.8.6-1.2.noarch.rpm"
+RPM_HASH = "a11d098f025dc00a3a3d1989700a67c926261db1cce6b9705c93b6b482dcab172a101c752978abbfaa205d1b8a9d73d28a54c69b018ab8f707a7208c3fef53af"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "arm-trusted-firmware-qemu"

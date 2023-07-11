@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "0.1.2"
 
-RPM_NAME = "python311-environmental-override-0.1.2-1.17.noarch.rpm"
-RPM_HASH = "fb785a4e9fd65f1006beec8c368cf17cfa433cff800808d1a920b846a86d4682b2c05b71f364433dc18ef3edd3455e3b2722f6a9d8d01730c412a7ea5938c6f5"
+RPM_NAME = "python311-environmental-override-0.1.2-1.18.noarch.rpm"
+RPM_HASH = "84444591d475592d49042050de1d2d34fb5b43612f7e80ae549da482cc9ec240264eff81d74a8bf144889ad816e703f0340cda5177a9564f15272e74f71f5fbf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-environmental-override \
+RPROVIDES:${PN} += "python3-environmental-override \
+python3.11dist-environmental-override \
 python311-environmental-override \
 python3dist-environmental-override"
 

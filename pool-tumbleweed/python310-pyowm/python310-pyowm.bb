@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "2.10.0"
 
-RPM_NAME = "python310-pyowm-2.10.0-1.15.noarch.rpm"
-RPM_HASH = "7ad98d85e78c51e4a9fb2a605c3e950e37b80d1f297c736f53d871900650ef76a9069558919c626ec571ebdd2a95d20f1fa6eee262aca6b98a3fb7dcec5eea44"
+RPM_NAME = "python310-pyowm-2.10.0-1.17.noarch.rpm"
+RPM_HASH = "f592327f7681255c29b2e12dbf06aed4837eadfc90177c7ebaf18dccaf19a076f4197c32da3fdccc35ce84f9e2a292f327228449418f692dd06fa8132f738758"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pyowm \
-python3.10dist-pyowm \
+RPROVIDES:${PN} += "python3.10dist-pyowm \
 python310-pyowm \
 python3dist-pyowm"
 

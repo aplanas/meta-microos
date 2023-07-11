@@ -4,12 +4,11 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.6.2"
 
-RPM_NAME = "python310-qpageview-0.6.2-1.5.noarch.rpm"
-RPM_HASH = "0a2fafee37b030d7a1ed1ddb770cf8718ad06d8fd380e0b29ac631e6d3bc37682b44185bb17b768e744b6c820c00f05d09cd8997cc4c713ce36d74ab9c2d0c18"
+RPM_NAME = "python310-qpageview-0.6.2-1.7.noarch.rpm"
+RPM_HASH = "39fc4cae81bfb1a561b2f57c90b090be5a995cff9f289756c15cb597f3c62c065544ba7dd0163544a84877a0ef4846e101afded595fc0cd514f5e413cc400700"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-qpageview \
-python3.10dist-qpageview \
+RPROVIDES:${PN} += "python3.10dist-qpageview \
 python310-qpageview \
 python3dist-qpageview"
 

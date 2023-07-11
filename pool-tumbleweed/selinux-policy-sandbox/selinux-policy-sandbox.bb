@@ -2,10 +2,10 @@ SUMMARY = "SELinux policy sandbox"
 DESCRIPTION = "SELinux sandbox policy used for the policycoreutils-sandbox package"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "20230425"
+PV = "20230622"
 
-RPM_NAME = "selinux-policy-sandbox-20230425-1.1.noarch.rpm"
-RPM_HASH = "16031a345a5615808ca4b1bee8f5c5f4d88eb3d7e74cac81810a1be51efd2cea4745c606e2d3c2c582aa788909dd8c3d428cf4b7b9eba7677c24c0f87b42024c"
+RPM_NAME = "selinux-policy-sandbox-20230622-1.1.noarch.rpm"
+RPM_HASH = "8ed95f7e65e1925fd8640eabd92bb25ac8a4230c1738140c5503dbb53d740207d51330482ae390e58910b66347b33f0e715864d995ad21efa31b555e0e40407e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "selinux-policy-sandbox"

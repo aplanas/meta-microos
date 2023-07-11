@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "6.24.10"
 
-RPM_NAME = "tcsh-lang-6.24.10-1.1.noarch.rpm"
-RPM_HASH = "7c1151ce51753d7c9d4dd3e5d62e2c10cba9a6325ebfe60f9033f1368c8c22a5f9a310d480370e89dde04cccd762b699b4576e5875b6ce756e668cc9e6cde1fe"
+RPM_NAME = "tcsh-lang-6.24.10-1.2.noarch.rpm"
+RPM_HASH = "f000550f07b94805415721d726c95203ad465e191debc0ff785c1f9fd32d2717f1a7c64f5aa8f76cedc01b0cb1e822880063b4dbfc612a0a715922d925eba056"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-tcsh-de \

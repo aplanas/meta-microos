@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "4.4.3"
 
-RPM_NAME = "tcpreplay-4.4.3-1.3.aarch64.rpm"
-RPM_HASH = "bc736a817d5c372eb1fd8fcbd35533991e4af3d9982ab7c3616fd9a1312b159b506a27ab9f3f34d192203403287f6ccdabd300a054ce3518167b4724229d2c1d"
+RPM_NAME = "tcpreplay-4.4.3-1.4.aarch64.rpm"
+RPM_HASH = "92c1a9739d8fded39e5a64eeb873f3bd3c0153a15d55a88cba5dd47caf00498f4eee411e920f2034ea53c6227d1c43a158d584bb1ea8cd8f6aa308cb8e9b895d"
 
 RPROVIDES:${PN} += "tcpreplay"
 

@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.8.1"
 
-RPM_NAME = "libpinyin15-2.8.1-1.3.aarch64.rpm"
-RPM_HASH = "c3ae4859fdcaf18eee42f84569641435b62039d574114a0a8045c819aa5c1708b2ff55824f064844ca3144dae82e34ff32ae3a322f4226dfb4e91a88d50445a2"
+RPM_NAME = "libpinyin15-2.8.1-1.4.aarch64.rpm"
+RPM_HASH = "075b51294ff5e914ff35c2aa184ae000ad1c8c629cd4373a2addc3bd53518318a5ed9d64f1dd130314577e2de4da042022d3cb25bce7fec382c3a7901ca43f8e"
 
 RPROVIDES:${PN} += "libpinyin.so.15 \
 libpinyin15"

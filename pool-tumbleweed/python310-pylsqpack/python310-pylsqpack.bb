@@ -4,11 +4,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3.16"
 
-RPM_NAME = "python310-pylsqpack-0.3.16-1.4.aarch64.rpm"
-RPM_HASH = "9aca8ae3299a2f70b46700d3d4b4c9ba6558b12d124e4dc1e4854e8b2199f320bbe7b05c1dba61dcc5c2853141a2aa7edd7a2bf37cd28c7c19ae3039d9f691ef"
+RPM_NAME = "python310-pylsqpack-0.3.16-2.1.aarch64.rpm"
+RPM_HASH = "b8a847d3b4e4e17c14cd18e764abc9d9e30fc8a81ffd6392ea1a57e936fbc49fc27c30f8a76b52427126ccef8160ba36411f5b2db4ff9066a7021bc4cac94c6b"
 
-RPROVIDES:${PN} += "python3-pylsqpack \
-python3.10dist-pylsqpack \
+RPROVIDES:${PN} += "python3.10dist-pylsqpack \
 python310-pylsqpack \
 python3dist-pylsqpack"
 

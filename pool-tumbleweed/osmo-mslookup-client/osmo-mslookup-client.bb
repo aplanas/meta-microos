@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4.0"
 
-RPM_NAME = "osmo-mslookup-client-1.4.0-1.11.aarch64.rpm"
-RPM_HASH = "93ae35564268e2807bae847496a6738f8c346349600fa882cb90c6fa8aa6425c34eafe7f6f0b62c4791145685fecad91b86dcad5ae2223451d70a663f54ce88c"
+RPM_NAME = "osmo-mslookup-client-1.4.0-1.12.aarch64.rpm"
+RPM_HASH = "8c5ca77775f22ed5afd566ff79081e09352267554cad3e7d09b00b25310ea900ec8534b3df5fcb208fd50693e8f2005286eec68e2d94f128b5f4d7d225dae908"
 
 RPROVIDES:${PN} += "osmo-mslookup-client"
 

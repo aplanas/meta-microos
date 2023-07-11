@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "2.0.0"
 
-RPM_NAME = "python310-azure-mgmt-datadog-2.0.0-1.8.noarch.rpm"
-RPM_HASH = "9d707dbb4f3dae4884a7d154abe39e9fc065026ee391c021916be56492f73a65c522a5c2b56840799590a310559eca9059fe2501d21cecf58f56e4f680b06076"
+RPM_NAME = "python310-azure-mgmt-datadog-2.0.0-1.9.noarch.rpm"
+RPM_HASH = "555f10f9eca2b54648f62cdd15685a56cf5860d4036f4331df75371ac2935988880f67a85fb6f10411e8b5a929397e224357dddb5ed61ac2b9cea2cd16e949ae"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-datadog \
-python3.10dist-azure-mgmt-datadog \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-datadog \
 python310-azure-mgmt-datadog \
 python3dist-azure-mgmt-datadog"
 

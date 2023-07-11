@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.3.0"
 
-RPM_NAME = "libcolord-gtk4-1-0.3.0-1.4.aarch64.rpm"
-RPM_HASH = "33afa49c133b78b7336cab1d4594181eee80a60aafa22c9ba8e6acac08697db0f9ba67603bd87f5271eaa2dd80658a0138e7209bd08e2b45541f1b15e77e071e"
+RPM_NAME = "libcolord-gtk4-1-0.3.0-2.1.aarch64.rpm"
+RPM_HASH = "316d2624819a26b9b98ee0afa080eb267f7eae4196da0873281b469ca6c4bb9819bc9dbc4dcc0192e224e535bce9b5f7db97f0fc9b60bcd1a69633947d56503b"
 
 RPROVIDES:${PN} += "libcolord-gtk4-1 \
 libcolord-gtk4.so.1"

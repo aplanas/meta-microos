@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "5.2.5"
 
-RPM_NAME = "pcp-pmda-pdns-5.2.5-3.4.aarch64.rpm"
-RPM_HASH = "864d52c5e63b6b574d64650ae19d65615d29eef00eea99e9dcb49bd249dd3d99fc412f7a3b9aa421f56b004f54fcd4748b709279b34192782e0cb0f0f3f36a0a"
+RPM_NAME = "pcp-pmda-pdns-5.2.5-3.7.aarch64.rpm"
+RPM_HASH = "4d431e70215f5bae509456c709f76268e42979371c06ed1754fbf4c3aba07db57fac24b38ba6c4f7edc8a96f57d81ba1460e7ffee01890ae835260a3ac11d662"
 
 RPROVIDES:${PN} += "pcp-pmda-pdns"
 

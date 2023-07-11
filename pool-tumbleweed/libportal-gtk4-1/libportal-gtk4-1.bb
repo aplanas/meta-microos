@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.6"
 
-RPM_NAME = "libportal-gtk4-1-0.6-1.7.aarch64.rpm"
-RPM_HASH = "1013ff139d8e99260c327765fdc416889601516ca6f8c695b3f957443feb8cdf0466b47b2067505600938d59f08a86bf7eadbaac468aa8e849a022361bcfa5a2"
+RPM_NAME = "libportal-gtk4-1-0.6-1.8.aarch64.rpm"
+RPM_HASH = "fe5a00c15dc74fc6944abdff51ad22ee9205234f8ea3b86c64ddd1b8bd069eb69172ae46df405f76a92a21b3f2a003c0ef7cd4f03bded6c63656fb4ccd0195ee"
 
 RPROVIDES:${PN} += "libportal-gtk4-1 \
 libportal-gtk4.so.1"

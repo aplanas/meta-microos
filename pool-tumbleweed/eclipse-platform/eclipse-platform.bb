@@ -6,8 +6,8 @@ LICENSE = "EPL-2.0"
 
 PV = "4.15"
 
-RPM_NAME = "eclipse-platform-4.15-9.3.aarch64.rpm"
-RPM_HASH = "3ea4bf1699e7fe6afcd0060b910448c2212448ca22861c423b24d340ee4da9544daca949437f8658ece637390213a762524671f9355583974e08c99c94de6e0d"
+RPM_NAME = "eclipse-platform-4.15-9.4.aarch64.rpm"
+RPM_HASH = "d9516b44f62c8226c2f66fd4d12eb94005cb1a67b5b27da4aa9931431dbf675a7df1fc6242afc72a674016b680f509e33e608430cdb3d3fe8fc34371238d4609"
 
 RPROVIDES:${PN} += "config-eclipse-platform \
 eclipse-platform \

@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "0.4.6"
 
-RPM_NAME = "python310-pyshark-0.4.6-1.5.noarch.rpm"
-RPM_HASH = "8970b6a485f3ae0a00af27f47abd9fd66bc9fb82bea709638f116bcaae92b32679eee4509fceb815123ad140f7dbd70632f59534cc0f296a8571a4c230716c25"
+RPM_NAME = "python310-pyshark-0.4.6-1.7.noarch.rpm"
+RPM_HASH = "f6c1eca354b15468068d852f92cb7354565e784107ba2fd3059c9370635031fe323d943166f6ead6abc5cf5dc71530967b2e584263dfc69e2fd52b039dd1d8f8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pyshark \
-python3.10dist-pyshark \
+RPROVIDES:${PN} += "python3.10dist-pyshark \
 python310-pyshark \
 python3dist-pyshark"
 

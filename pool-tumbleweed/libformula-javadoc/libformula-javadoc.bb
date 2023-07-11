@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "1.1.6"
 
-RPM_NAME = "libformula-javadoc-1.1.6-1.4.noarch.rpm"
-RPM_HASH = "d36e057dc356654397770d8b0cdd98b83e587fe67f49aa654415ae4f261f963e0eacb3e56eeb1e30b3d75b1ac79830cb88f82cce9703e816554640fcfa0041dc"
+RPM_NAME = "libformula-javadoc-1.1.6-1.5.noarch.rpm"
+RPM_HASH = "1426e4c5d14efe654d55762b592f93bbc19d2c45ff754f06faeba59f936d33fe4cd37bd17453170ad445fec3cc6d56437b276580f1b056d80005047e0b3c650e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libformula-javadoc"

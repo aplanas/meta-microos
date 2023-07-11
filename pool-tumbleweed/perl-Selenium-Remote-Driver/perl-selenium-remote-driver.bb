@@ -15,8 +15,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.49"
 
-RPM_NAME = "perl-Selenium-Remote-Driver-1.49-1.1.aarch64.rpm"
-RPM_HASH = "92173b396d4e357e7e83c621ee1f5f2b30e53542ad22602e0e0fd9dc4b0673cee369c4a3b64a1a3963dbd2b8b04bedf43b2f3ec7179cb2c7450dce9d61f1c0bf"
+RPM_NAME = "perl-Selenium-Remote-Driver-1.49-1.2.aarch64.rpm"
+RPM_HASH = "9ed64a5e96b1a328725ae5bf3e72366a06b499d9a70ec30dff36c95af7d080d9a74cd66a0c50a31c9fb2aba2dd6b6f62b58f5987cc5a24b20f20e373d7d8b5a6"
 
 RPROVIDES:${PN} += "perl-Selenium--ActionChains \
 perl-Selenium--CanStartBinary \
@@ -53,7 +53,7 @@ perl-Test--Selenium--Remote--Role--DoesTesting \
 perl-Test--Selenium--Remote--WebElement"
 
 RDEPENDS:${PN} += "lsof \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-Archive--Zip \
 perl-Clone \
 perl-File--Which \

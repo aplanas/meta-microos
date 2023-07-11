@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
 PV = "2.3.1"
 
-RPM_NAME = "monitoring-plugins-disk-2.3.1-9.4.aarch64.rpm"
-RPM_HASH = "066432aa97e04444ece1384b975923ac046fba158b9e58b02466e45317646008a8e41e79e19b0baaa11f3219d8ff6508c0994a6c81bcb2f9955c75b186618868"
+RPM_NAME = "monitoring-plugins-disk-2.3.1-9.5.aarch64.rpm"
+RPM_HASH = "e25d73bfb814fa91f592b040f6ee21c4c3917b188569bdab6341150893ecf6d8c58e9139128bdce2ff631a7413d16877734cc539a15c1c5d0e82cb7ef8672897"
 
 RPROVIDES:${PN} += "config-monitoring-plugins-disk \
 monitoring-plugins-disk \

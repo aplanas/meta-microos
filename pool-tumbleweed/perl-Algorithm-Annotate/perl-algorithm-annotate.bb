@@ -5,14 +5,14 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.10"
 
-RPM_NAME = "perl-Algorithm-Annotate-0.10-163.26.noarch.rpm"
-RPM_HASH = "fb721cb24d708bb87915fd401ebcadd013b4f141c5df49b4f67f8546dc6437ff51f5dcec091157ddbe7b35d941ab2a6796910e59472cb142bb36fbecefa1f403"
+RPM_NAME = "perl-Algorithm-Annotate-0.10-163.27.noarch.rpm"
+RPM_HASH = "dd5f4dfd20f2a9f97aac7ada5297f62cb50d4fc359f866bd0c984df3b00c210cc8f629910e6748c64b97bce21a864651648a6173fd2359af0e809231c8532255"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Algorithm--Annotate \
 perl-Algorithm-Annotate"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Algorithm--Diff"
 
 inherit rpm

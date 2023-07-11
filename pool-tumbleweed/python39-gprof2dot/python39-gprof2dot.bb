@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "2022.7.29"
 
-RPM_NAME = "python39-gprof2dot-2022.7.29-1.4.noarch.rpm"
-RPM_HASH = "f5d119e3b1e3788e7e1041c66c76ee21960e99c658efa93ef1450e7fcaa8e2c7ca14ca34b5d4cf06be316ceacda87cad66519827f697a0c7128db4e98e358b7d"
+RPM_NAME = "python39-gprof2dot-2022.7.29-1.5.noarch.rpm"
+RPM_HASH = "8af17de1c1c9b4ec15168faaa91593758fa07da850a5fdebde9a8b4a367684b2b5069e0bd745283291a6e0f20eb4c61d1211dac8373c3405ebcbb3eccfb0e12b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-gprof2dot \

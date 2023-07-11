@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.3"
 
-RPM_NAME = "direvent-5.3-1.6.aarch64.rpm"
-RPM_HASH = "295ed9380b17145d2eafaa4e1a143920dde9708417d1e269fdb466537f65c7f0b8af55bd1d259429757f49d483f97a84fbb5d24e06e6d6be886c4d47e509d5b1"
+RPM_NAME = "direvent-5.3-1.7.aarch64.rpm"
+RPM_HASH = "4fec32acc595ebd5b446fad26261899c9767b076fadd82bffc2542752fe385284383123f0288d6ca9bf7c3771bc720ca75de81ca1f8beec03efe7d6cf6f637a7"
 
 RPROVIDES:${PN} += "direvent"
 

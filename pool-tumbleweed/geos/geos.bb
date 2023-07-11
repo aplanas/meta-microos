@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "3.11.2"
 
-RPM_NAME = "geos-3.11.2-2.1.aarch64.rpm"
-RPM_HASH = "ddfc69532371fd2dd01d5aca45ddcec8fef3dcab630cea5d9b94bf9b242460e8933b2c6f0e15962dd20f4562e4257435dca688d78270294ebe5d617e96edad9b"
+RPM_NAME = "geos-3.11.2-2.2.aarch64.rpm"
+RPM_HASH = "4374be73898dbac8aecc929f65b7d1edfd65a6b9e9ade8c0f43b869d2a0608f87042afe3f83a4fdd527020c72c5081fed725e60094a4641ba1d26f354857ed33"
 
 RPROVIDES:${PN} += "geos"
 

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.12.2"
 
-RPM_NAME = "libcairomm-1_0-1-1.12.2-4.3.aarch64.rpm"
-RPM_HASH = "a879b3cf0cbbe2158fdc045549c10d963eeaeb2fa9884474f0e326d9c1549e62102164a9256fc8dab8e2232eae1aad6c8c1ea5af4b0454f269ab3eef77ac918a"
+RPM_NAME = "libcairomm-1_0-1-1.12.2-4.4.aarch64.rpm"
+RPM_HASH = "2192c11ed9378de8b0e4afca3a21ccb4f4efb1c5314012626535b73bfced496ddd557bb57896e15a4c6eab84f8f788be901b63d887fb0b93ccbf7f1a9dfde022"
 
 RPROVIDES:${PN} += "libcairomm-1-0-1 \
 libcairomm-1.0.so.1"

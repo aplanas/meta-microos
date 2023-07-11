@@ -6,8 +6,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "5.5.143"
 
-RPM_NAME = "deepin-control-center-data-5.5.143-1.7.noarch.rpm"
-RPM_HASH = "c49d994496ef79fc859e30b9305b1198c093520ead07afb66f6dfe4559d08ba92fa9e1b332041e0b0752a8387bd1b08d3ac23372409a2f7eed44e5e57367a303"
+RPM_NAME = "deepin-control-center-data-5.5.143-1.8.noarch.rpm"
+RPM_HASH = "e0df0f2362ef658b73b848dbc6992aaafdd0f1dff794a56f3dff1ab2b337d13a73908b1ad6a55426c34e664013352083cf05026e3e0418bfcc6667f7cbf4408d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-control-center-data"

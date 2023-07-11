@@ -36,11 +36,12 @@ LICENSE = "MIT"
 
 PV = "1.19.1"
 
-RPM_NAME = "python311-blessed-1.19.1-2.3.noarch.rpm"
-RPM_HASH = "47a6498c5b9f94a38cadcc856fa39e81ee398ec4678da9d98a7ac413112336e789523ebe4bbed0bd30f47f14efd46a87a401b39809e5300d1be8f2b21c317ec2"
+RPM_NAME = "python311-blessed-1.19.1-3.1.noarch.rpm"
+RPM_HASH = "e0d9dfb8b4d1219efa855312b194b53438b7b53f700fd56eb45639d4b9a2df0a65eabe849c806b487a39f8c46c6d193f6b67ea41beb4a908b877a07469cc5668"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-blessed \
+RPROVIDES:${PN} += "python3-blessed \
+python3.11dist-blessed \
 python311-blessed \
 python3dist-blessed"
 

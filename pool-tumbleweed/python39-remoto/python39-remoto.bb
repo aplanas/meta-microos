@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "1.2.1"
 
-RPM_NAME = "python39-remoto-1.2.1-1.5.noarch.rpm"
-RPM_HASH = "cafb31983b79b1f2789b083d67d0a22817699b9466fdc3fbff92db18178ee9f4b2ba600e9ca6c8267d7d21fd3827316701852d2739f3eb70d3d957e31726b0f7"
+RPM_NAME = "python39-remoto-1.2.1-1.7.noarch.rpm"
+RPM_HASH = "2d7a76121e35c91f4e6b4851a48c78bca1725e443b7912642e40e738d8a66f3a26da81fcafbc9bee0e8d32865efc385d04ea492b8fabba8782588fd2ad97e8b7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-remoto \

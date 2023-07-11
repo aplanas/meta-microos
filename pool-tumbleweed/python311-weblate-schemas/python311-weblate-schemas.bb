@@ -2,13 +2,14 @@ SUMMARY = "A collection of schemas used by Weblate"
 DESCRIPTION = "This module contains schemas used in Weblate exports."
 LICENSE = "MIT"
 
-PV = "2022.1"
+PV = "2023.3"
 
-RPM_NAME = "python311-weblate-schemas-2022.1-1.3.noarch.rpm"
-RPM_HASH = "f6f89a9bee66b8d666e63365f8c9ca868b95ccf842bf6f119ba9f8bc46d317721c4a7177d8d545a22742af22395ff89b82d2fafebfefdf92371a2572f310f061"
+RPM_NAME = "python311-weblate-schemas-2023.3-1.1.noarch.rpm"
+RPM_HASH = "1dd185985b898559357736422711b446119de4fefb5ab53addf085ba0b4ae5a1e6f95758decca5d0936a57a9df5e62dda07bae2433d7082da8deb3499b158e2f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-weblate-schemas \
+RPROVIDES:${PN} += "python3-weblate-schemas \
+python3.11dist-weblate-schemas \
 python311-weblate-schemas \
 python3dist-weblate-schemas"
 

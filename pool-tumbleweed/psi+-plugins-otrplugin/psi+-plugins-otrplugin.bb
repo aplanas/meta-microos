@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-or-later"
 
 PV = "1.5.1615+0"
 
-RPM_NAME = "psi+-plugins-otrplugin-1.5.1615+0-3.1.aarch64.rpm"
-RPM_HASH = "f7ff9955921eb4c53cc02e23901a628459423f77d6d61c5c0a7e2de6581def6a75bd92bef5a8dff3bb6ac4178f2451d3a1282cef1b2840dd5e8d0ac95c618dee"
+RPM_NAME = "psi+-plugins-otrplugin-1.5.1615+0-3.2.aarch64.rpm"
+RPM_HASH = "2d50ae6a2dfbffc3fcfe53106cb3f86807d6ed64cdd1eba32b0bffbb84761910465fc3eb73e86958184eec4a98e1997d8502bf8f08e07f8968d3f516b9c8790c"
 
 RPROVIDES:${PN} += "libotrplugin.so \
 psi+-plugins-otrplugin"

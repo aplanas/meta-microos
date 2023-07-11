@@ -13,8 +13,8 @@ LICENSE = "PostgreSQL"
 
 PV = "13.11"
 
-RPM_NAME = "postgresql13-13.11-1.2.aarch64.rpm"
-RPM_HASH = "0139983d5ecfd35f45048077b199ce57d507d2545c52cb2969377a7a0c5beacf5ccae436e8ea21477fb77b3bec3ea2986795debae59f74559c94b9b218ad6d71"
+RPM_NAME = "postgresql13-13.11-1.5.aarch64.rpm"
+RPM_HASH = "6efb9d12e47335112c5ab03f844638d3a7cc0a60b7c069518661aa7507f2b4317ffda819f3368617bb404a05b2d81b17ee274effc9c2bcfbb26dcacde0d27311"
 
 RPROVIDES:${PN} += "postgresql \
 postgresql-implementation \

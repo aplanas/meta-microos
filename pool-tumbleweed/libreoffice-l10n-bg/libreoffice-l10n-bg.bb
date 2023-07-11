@@ -2,10 +2,10 @@ SUMMARY = "Bulgarian localization files for LibreOffice"
 DESCRIPTION = "Provides Bulgarian translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.1"
+PV = "7.5.4.2"
 
-RPM_NAME = "libreoffice-l10n-bg-7.5.4.1-1.1.noarch.rpm"
-RPM_HASH = "bac4fe3891fd492ef165a9c04adee01324cb1448e8bc81b9d91bb599801a0323f022acabcabb1df4c6f4f89403caa46d1f8005ebdf9fe898717c59663a4fb2be"
+RPM_NAME = "libreoffice-l10n-bg-7.5.4.2-1.3.noarch.rpm"
+RPM_HASH = "9185bdac007f0a42f57e603ce54024670c98e9b82b8ea83f5dd96188e3d5e80d0bf4da463080b9f154a0640ad1760a6dd99470623f81ebdb085291e0a3ee37f4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-bg \

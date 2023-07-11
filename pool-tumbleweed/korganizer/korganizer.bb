@@ -2,10 +2,10 @@ SUMMARY = "Personal Organizer"
 DESCRIPTION = "KOrganizer is a calendar application by KDE."
 LICENSE = "GPL-2.0-only"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "korganizer-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "fcae8a6a0eaeb62b7ace78fbd2b985410bee5dff17c01741ed7ead69755214f95bc48b70f37648e27fa39282ee2d68cc6979eb10fc86b459d8f3f1e02f22a10f"
+RPM_NAME = "korganizer-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "5ea24e0c031197f555b0bc98659e2247837cef41b6994fd0e3cd36972644fab234afa243c30515c94dcb10c5d36fa685850d15c0f7031fd163c0fa0c1854a78d"
 
 RPROVIDES:${PN} += "korganizer \
 korganizer5 \

@@ -2,10 +2,10 @@ SUMMARY = "Tools for writing to TTYs"
 DESCRIPTION = "Tools that write to TTYs that the current user does not own."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.38.1"
+PV = "2.39"
 
-RPM_NAME = "util-linux-tty-tools-2.38.1-13.1.aarch64.rpm"
-RPM_HASH = "b5a8b067958f30a87ebddd8afd63b0bcf3ff1702a05b25569bcfb73dcec3027a674e6ad66582b1c3e7b141dc9367cbfdef15535773b824f1f53428779043ef1c"
+RPM_NAME = "util-linux-tty-tools-2.39-1.1.aarch64.rpm"
+RPM_HASH = "31afbb26808c64b0d34e15312ccecdbbaa3f413738019f49bba2af1ad5596d1ca948410c495cf748b93cdb387a60285dd3a0ec7c78f0cdc326b6d2abeea77ea5"
 
 RPROVIDES:${PN} += "util-linux-/usr/bin/mesg \
 util-linux-/usr/bin/wall \

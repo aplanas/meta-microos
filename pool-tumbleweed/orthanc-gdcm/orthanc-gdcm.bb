@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.5"
 
-RPM_NAME = "orthanc-gdcm-1.5-2.5.aarch64.rpm"
-RPM_HASH = "3f5c7d4de0da0035e32b7bc6ec7367794634420660fa7cc8d67f977eb94e6c0b0aea6acea7395e4914656bde030eff3eae41b63be96afe96e47a72f49f938f2b"
+RPM_NAME = "orthanc-gdcm-1.5-2.6.aarch64.rpm"
+RPM_HASH = "8e33a5a2c015bc13092eac13912d80dc0830d924c99abf5603aa4c1b4e3062e8739eda4fae87ed336ab7074a07e7b02e0e747113b8723734a6c1e82a716ea157"
 
 RPROVIDES:${PN} += "libOrthancGdcm.so.1.5 \
 orthanc-gdcm"

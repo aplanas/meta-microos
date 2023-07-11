@@ -6,8 +6,8 @@ LICENSE = "EPL-1.0"
 
 PV = "2.49.3"
 
-RPM_NAME = "libgvc6-2.49.3-6.3.aarch64.rpm"
-RPM_HASH = "82c66bc6784915e090dfcaf6dce7a963ec2a9d039c8d25583e9c5d507d70fdf89f220014fcaaf7280dd92b17ef9a46588a73c689db914a04a3df656b61ff254e"
+RPM_NAME = "libgvc6-2.49.3-6.4.aarch64.rpm"
+RPM_HASH = "23bf9332553492c7cc096cb57aa2d8a89afdd6d1683755c003a773024280ad7b030e217011f307b8a481483050184e74d6863a2c04237e88c94c6696ec8bb04f"
 
 RPROVIDES:${PN} += "libgraphviz6-/usr/lib64/libgvc.so.6 \
 libgvc.so.6 \

@@ -5,8 +5,8 @@ LICENSE = "HPND"
 
 PV = "1.5"
 
-RPM_NAME = "rendercheck-1.5-1.26.aarch64.rpm"
-RPM_HASH = "1db33f02c89ca95124d1d8114de348f3a4428a10fb496e756c0ecd4212cd74b8afeb67ef4dfd05072f9cc9cad4b1530e78b5bb6dba819e8b7e7b7e7e5063ed7a"
+RPM_NAME = "rendercheck-1.5-1.27.aarch64.rpm"
+RPM_HASH = "3b324bd8fe2c61eb383f602a21d02876b501d42fb49fc4e67a7ec954be3e11f7e963b0f7d001cb8c9f81739d50a7d12d493b2b6a122f32650d395110a68a0d26"
 
 RPROVIDES:${PN} += "rendercheck"
 

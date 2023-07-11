@@ -7,10 +7,10 @@ Roundcube Webmail is written in PHP and requires a MySQL database. \
 The user interface is skinnable using XHTML and CSS 2."
 LICENSE = "BSD-3-Clause & GPL-2.0-only & GPL-3.0-or-later"
 
-PV = "1.6.1"
+PV = "1.6.2"
 
-RPM_NAME = "roundcubemail-1.6.1-1.1.noarch.rpm"
-RPM_HASH = "2a6afe082ad7ad6005c9b95a84bc53dd27af159d4941f02c5df5c6edb6dea6dfdbd664cf6bbfba834c3c635d8a9790944c870a7b24364bb9bb24faf981090f5b"
+RPM_NAME = "roundcubemail-1.6.2-1.1.noarch.rpm"
+RPM_HASH = "c890805dc7343c71dc60403afb16433bb30a2b23ed709399f17de5ff5d146f46f499342acae7200d1efe5690b1f0b47c7b930509b2ab3677f12c436e242f12ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-roundcubemail \

@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.2.1"
 
-RPM_NAME = "python310-casttube-0.2.1-2.3.noarch.rpm"
-RPM_HASH = "6d7efce64c6a3c73c68a027e1a98f37dddd9f07d85ada5771660f9637963115e0d5dc53d357d22c7c7e75f27912130c65cd6232483b68ff1392130da1a9482c7"
+RPM_NAME = "python310-casttube-0.2.1-2.4.noarch.rpm"
+RPM_HASH = "f50e3a599c2f224b722ae558acf0cdd5f83b6c8739c3971da3b68d39f6f2e565f90f0f8605ae9bcf6bf0b51883431ec65efb1835e8e55a3d0877ad1c04a0536c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-casttube \
-python3.10dist-casttube \
+RPROVIDES:${PN} += "python3.10dist-casttube \
 python310-casttube \
 python3dist-casttube"
 

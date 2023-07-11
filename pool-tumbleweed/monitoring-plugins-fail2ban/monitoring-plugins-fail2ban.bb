@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0.2"
 
-RPM_NAME = "monitoring-plugins-fail2ban-1.0.2-1.2.noarch.rpm"
-RPM_HASH = "a7a331c65826f46209bf31ece40af82d5bd0cfb87fbb86796d017a2aef734dd33321d6ed073b21bb3a59f9c35a37f886a9d71b0e77fe67256a090b5982e9d801"
+RPM_NAME = "monitoring-plugins-fail2ban-1.0.2-2.2.noarch.rpm"
+RPM_HASH = "95c72c9d08c6ac88fda33866a385ecb4fe8d36865fdae333ec2e7f3640836533b8b75152172ecac5b67ae0a47f44b6e076d64ac151c5913a1e2a47e1064b0164"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "monitoring-plugins-fail2ban \

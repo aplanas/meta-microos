@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.1.5"
 
-RPM_NAME = "libref_array1-0.1.5-27.18.aarch64.rpm"
-RPM_HASH = "78953a0d8fd894da63d9e4c5760de9f13dad8072453c37081a9dc29a04c1653a8253f79c62e921969ae0b556914739edffe2230d16df7c4dbd0013e477ad2446"
+RPM_NAME = "libref_array1-0.1.5-28.1.aarch64.rpm"
+RPM_HASH = "a942aab4cc0e26321982f2a4f5ddeee9685ae85afb640ce9d5dce56937dc07ee1026b5e8e2700a28bd5d2aa8789805b8ad5c077f3e486ad6ed50065efb3f9f79"
 
 RPROVIDES:${PN} += "libref-array.so.1 \
 libref-array1"

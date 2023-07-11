@@ -13,8 +13,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.6.57"
 
-RPM_NAME = "fox16-example-apps-1.6.57-4.1.aarch64.rpm"
-RPM_HASH = "6d3bdf807f1b0f226635c266923d49782f6269e499519cc642e624eb1e1fe5694a1f565c8dd6fd7c98cda2daa603f532a8a4a015719473d3d9ac809eeb11a7e2"
+RPM_NAME = "fox16-example-apps-1.6.57-4.2.aarch64.rpm"
+RPM_HASH = "6bc81f96e41d1446fdcc69d507b2f52b011c2357b56eecef7eb4f94cf5398e0397773c0d08bd18ddfe2f3ada3e167dff49546184c6ef4e6de0ae87504147c7ba"
 
 RPROVIDES:${PN} += "fox-example-apps \
 fox16-example-apps"

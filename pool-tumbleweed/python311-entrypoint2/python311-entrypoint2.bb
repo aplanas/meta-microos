@@ -5,11 +5,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.1"
 
-RPM_NAME = "python311-entrypoint2-1.1-1.3.noarch.rpm"
-RPM_HASH = "73a52696f34d5e00991d32ea951484904fac2fb50ba48ce95f005f8fc48907e762acdfa40333d29dbb24df742dd773f70651fa9536941674c7506d1236691080"
+RPM_NAME = "python311-entrypoint2-1.1-2.2.noarch.rpm"
+RPM_HASH = "7231e235a9875d731b6e9a9da0d390fcd5c086e94e0644627f08d79ab93da9b8998f9f460f8075c59344518ba9dd369d8f931e5d93659cf86f5b4f63ce73f20e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-entrypoint2 \
+RPROVIDES:${PN} += "python3-entrypoint2 \
+python3.11dist-entrypoint2 \
 python311-entrypoint2 \
 python3dist-entrypoint2"
 

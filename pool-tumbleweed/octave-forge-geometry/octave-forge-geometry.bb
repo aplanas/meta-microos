@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later & BSD-2-Clause"
 
 PV = "4.0.0"
 
-RPM_NAME = "octave-forge-geometry-4.0.0-2.8.aarch64.rpm"
-RPM_HASH = "491eb1b925724d265e0adb12033d3517298b1320679503af995881053de0ef6ced6e9bc23c5724da6a58006e7ca26571a2470b8cad6c88ee06c83a6c8703cf06"
+RPM_NAME = "octave-forge-geometry-4.0.0-2.9.aarch64.rpm"
+RPM_HASH = "b7eef6003b2e9a4fcd579b91bbda0bb70a749107db97868911270fcd7dc322b141f2cc78e6321c650f959cf40903b1743206e9bb2d9b520e879684b3a182175c"
 
 RPROVIDES:${PN} += "octave-forge-geometry"
 

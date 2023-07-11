@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.2.5"
 
-RPM_NAME = "libantic0-0.2.5-2.1.aarch64.rpm"
-RPM_HASH = "ae3dd7c8e3ac94d54c32fe3e32517381625d1511dca192538866fed2f8c639781db4bf114f3dff725d64bf7ec2d25202d8ccfc575856e999156bf26fa22e41b5"
+RPM_NAME = "libantic0-0.2.5-2.2.aarch64.rpm"
+RPM_HASH = "70392c5af347e367f526ac56942d1ca2ced2778f71d0f8f393c1cd62dca7de6feda63f21c46a4b2fa99d595656f68eaf35af4f4b3f5853144777f5758f0e222e"
 
 RPROVIDES:${PN} += "libantic.so.0 \
 libantic0"

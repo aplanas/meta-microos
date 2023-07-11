@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.0"
 
-RPM_NAME = "pavucontrol-lang-5.0-1.9.noarch.rpm"
-RPM_HASH = "566ee2fa22c4c55ea2f0d59f335e1c8338622d2d19e77c4c5a4b2586df60dc8c3ef46fa02a58b471a234a55adc5e1b2780f478163791c5c407e136a5113c9d97"
+RPM_NAME = "pavucontrol-lang-5.0-1.10.noarch.rpm"
+RPM_HASH = "29fe935f9c941c40acd33425098e56e639f5fb1b6c1156cf94859367a6a28769d7c9a1dfbf9dd11551328486641d34fbb71ecc36195939e8b2d86dd71a8fe144"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-pavucontrol-as \

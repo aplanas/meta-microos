@@ -8,12 +8,11 @@ LICENSE = "MIT"
 
 PV = "1.2.1"
 
-RPM_NAME = "python310-QtAwesome-1.2.1-1.5.noarch.rpm"
-RPM_HASH = "bc3e6d2a9b91a03ce6c22daf385fead4c8ead4560dc3dc99519f5a3977c9cdbcde96ec831655385bae41620cc23bfdce27a153fee0bc078f1799d4b66e3e2c8b"
+RPM_NAME = "python310-QtAwesome-1.2.1-2.3.noarch.rpm"
+RPM_HASH = "ef9cb7cd4fc9991d68205a59270e05ab36cf2639e2500f8241c70d60dc3155b89aee952d632e667553bc947fd48c4bec5b97bc19b55590cb337da7898c4527b1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-QtAwesome \
-python3.10dist-qtawesome \
+RPROVIDES:${PN} += "python3.10dist-qtawesome \
 python310-QtAwesome \
 python3dist-qtawesome"
 

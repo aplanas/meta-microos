@@ -2,12 +2,12 @@ SUMMARY = "Haskell utility-ht library development files"
 DESCRIPTION = "This package provides the Haskell utility-ht library development files."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.0.16"
+PV = "0.0.17"
 
-RPM_NAME = "ghc-utility-ht-devel-0.0.16-2.3.aarch64.rpm"
-RPM_HASH = "b361e8eff6413cb5b926eae2af8c5568403e3ad0726f871081cb0ba57f167293fd4852063cc73a9cd12e0a45765782a59e2174443c6f8a4f9e9d8aff2555247b"
+RPM_NAME = "ghc-utility-ht-devel-0.0.17-1.3.aarch64.rpm"
+RPM_HASH = "2cabf87bc362c2b163ac2056191c061700ecb0ce82f8bd2e482d22b25b5ca5e78c0bd1ace9bfa7ad9d013da57ff76d62fc46506cbf3ac3765e16518c3739dcd4"
 
-RPROVIDES:${PN} += "ghc-devel-utility-ht-0.0.16-CDN97AfZiejDC1itvZ2hyN \
+RPROVIDES:${PN} += "ghc-devel-utility-ht-0.0.17-3onflAp0qnlITa4Vy6FXwy \
 ghc-utility-ht-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

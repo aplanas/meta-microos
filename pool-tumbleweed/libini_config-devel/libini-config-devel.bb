@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.3.1"
 
-RPM_NAME = "libini_config-devel-1.3.1-27.18.aarch64.rpm"
-RPM_HASH = "307d76bdd3d6941b674150537713464953e33be15ffb543819d1639d402e9653d9156a20773ec2d8a1fad28a3bbf8573921f11d9ca5e6e4c4476cba71f253d26"
+RPM_NAME = "libini_config-devel-1.3.1-28.1.aarch64.rpm"
+RPM_HASH = "5d8b48ff966e1ba4291448310f9d9e695f9252d151153097dade9ca6eaf829a38342e8fa274387992398e2dfff0c0365ed766693acbb50b026496922a0bbfa7d"
 
 RPROVIDES:${PN} += "libini-config-devel \
 pkgconfig-ini-config"

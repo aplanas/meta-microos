@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.2.2"
 
-RPM_NAME = "libsamplerate-devel-0.2.2-1.7.aarch64.rpm"
-RPM_HASH = "839f24a358b9069729d8bcabedd058e7b891f0dc0f7a6d78466c384bff572f781fd9e8e005b0fdfdd420a291a6d7616cacb3e312fd4713ff0e5f81a67ec2b09d"
+RPM_NAME = "libsamplerate-devel-0.2.2-1.8.aarch64.rpm"
+RPM_HASH = "a2781c97dcdfb06ff011fd8c99e54a380d393bc943ac1f7427a5f206a345705abbe4414e32b64fc48a1699d08d91f4b5b6b3d18edb4efb5271134a7dd3b8a985"
 
 RPROVIDES:${PN} += "libsamplerate-devel \
 pkgconfig-samplerate"

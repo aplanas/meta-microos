@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "6.3"
 
-RPM_NAME = "btrfsprogs-static-6.3-1.1.aarch64.rpm"
-RPM_HASH = "33e936e11c3614f8d490e7d2944c953a7e977afc44a61839d7ed05b2e2c6f936d838bc36c25a0c644779b314899d4f5f498def96dd43547804518a1dac3c35c3"
+RPM_NAME = "btrfsprogs-static-6.3-2.2.aarch64.rpm"
+RPM_HASH = "499b58554eefd7f578e6f51ca2ce42f5dfd41558184946c11144ac452a677bf667c09b20c9474244e32e119ca5c42f97a94da62a2ce652beef0a9cb2bd2ca854"
 
 RPROVIDES:${PN} += "btrfs-progs-static \
 btrfs-progs-static-aarch64 \

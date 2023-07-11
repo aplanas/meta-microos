@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-only & LGPL-2.1-only"
 
 PV = "22.11.1"
 
-RPM_NAME = "dpdk-thunderx-doc-22.11.1-2.4.noarch.rpm"
-RPM_HASH = "75c588f08db180892e2945f328ef4c289ca1a17860b0526aa91c877513f762a0eab227edbbb2f8e99d93debc650b80c387cc2b3cb9551e2aff221066bfc37675"
+RPM_NAME = "dpdk-thunderx-doc-22.11.1-2.8.noarch.rpm"
+RPM_HASH = "7f1fd337ffcc7e17d6c3a16174145da50dbef02df31517dfde99d1e98bb4d292055b7242afea03232937a2d95ffb772d5d60a856b98d4cb7baea0d4c734960e1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dpdk-any-doc \

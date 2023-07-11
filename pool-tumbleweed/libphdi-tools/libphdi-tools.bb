@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20221025"
 
-RPM_NAME = "libphdi-tools-20221025-3.8.aarch64.rpm"
-RPM_HASH = "76003add3195655ef42f675ac2be6a2d55b233df73d7aa2c00f0cee808155d914b857023b32558cfc064abfe8a11770a6d3f63e9f283d2fc2b6ed8eb40de9447"
+RPM_NAME = "libphdi-tools-20221025-3.11.aarch64.rpm"
+RPM_HASH = "ecf4270a44e64a55402a51f6be3f384af6fb1b1c41405ef8a17f41914a52c55c4bba0d57abbbe7d0b3537dc1f7c55d178080e37aad913983c1917d8b1deeb02c"
 
 RPROVIDES:${PN} += "libphdi-tools"
 

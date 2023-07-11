@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0.5"
 
-RPM_NAME = "libopenvas_wmiclient1-1.0.5-2.1.aarch64.rpm"
-RPM_HASH = "a5f06f597be596a9668e3629f7e442e173f9a7b3868eff87f531482f579cc81f6a417c1a79e19a051a9eb20a7992ac7bf834bd802473c262de2e56f002c16dd8"
+RPM_NAME = "libopenvas_wmiclient1-1.0.5-2.2.aarch64.rpm"
+RPM_HASH = "021984f93c88899979ae09a40684bcd9f62aa682e6a263b518c1fdce4571719cd0bc571a9231c67ec5e629a390fdd850c6a04528d2109c7e7077db6264372ad8"
 
 RPROVIDES:${PN} += "libopenvas-wmiclient.so.1 \
 libopenvas-wmiclient1"

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.0.19"
 
-RPM_NAME = "jfreechart-javadoc-1.0.19-1.18.noarch.rpm"
-RPM_HASH = "968e058da8c5ee2d82c14f93abd66a970df3d7d51f2caf641d3875dffb90fafc5c8477cdeffb23feb2e85e2152c94e7d4582f2c9e45899aafb9284e2a23e585f"
+RPM_NAME = "jfreechart-javadoc-1.0.19-1.19.noarch.rpm"
+RPM_HASH = "7e87273f038597810cdbed62d682ad0d5663ea0791bfb9634192b8f0c02b15504ea9859f0e5f7f6df7d5ba00b7f1a631a1982b800c7aed22a3dc9e0ca26355c3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jfreechart-javadoc"

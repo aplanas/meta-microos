@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.38.1"
 
-RPM_NAME = "iagno-lang-3.38.1-2.12.noarch.rpm"
-RPM_HASH = "3b140a37a7d5c922b96ed85bcbdfc53729cf19c8ddf7439fbe9a8cff9f3a4d41ea2b4cb174dca3fdeb1f69844b524a021e4eccb9bc78a04b7a5ae1ac7cff85c1"
+RPM_NAME = "iagno-lang-3.38.1-2.13.noarch.rpm"
+RPM_HASH = "175068217faf1bfa391a22ad1e2826e3296ac766396f6bd3bfbf09a9945c349c81330250744e7059879dead764469bea6e81241384f59c232375679f19e9fe53"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "iagno-lang \

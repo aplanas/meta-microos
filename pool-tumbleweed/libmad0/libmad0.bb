@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.15.1b"
 
-RPM_NAME = "libmad0-0.15.1b-6.2.aarch64.rpm"
-RPM_HASH = "ca56d1671eff831ee10d6508e42cb7c84e6dbf0655acc9408877cbf863aadffbaa40f751493b6052b16048982f403fe25cf9e69625a55c7488767f1ce1f79628"
+RPM_NAME = "libmad0-0.15.1b-6.3.aarch64.rpm"
+RPM_HASH = "8014a2acc25280940b0d270b1a5bcc669bc98a2e8d26f200949821b4fcf5663ef7b967b951a451a5cc329e94cd5380afaa8fd4be2c07121581e2970c76de18fd"
 
 RPROVIDES:${PN} += "libmad.so.0 \
 libmad0"

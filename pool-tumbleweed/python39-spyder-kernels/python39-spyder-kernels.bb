@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "2.4.3"
 
-RPM_NAME = "python39-spyder-kernels-2.4.3-1.1.noarch.rpm"
-RPM_HASH = "f7c884fa884bd8a6e8672dd338f848d2d5e46cdca0170f76b0390bb8635e591b92b544062340a131c58df1279e3354e9a8003edbb0fb69210c8aa25da3fd7020"
+RPM_NAME = "python39-spyder-kernels-2.4.3-2.3.noarch.rpm"
+RPM_HASH = "3fc177816fc0065fd72a420355730d01b267217f932fcd66faddcb21f45cc12ba2f9d9a8dcff1c334eb8e7915f8c453f34a3fc5e94465d1b037df9eff0ff72c4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-spyder-kernels \

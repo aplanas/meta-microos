@@ -8,8 +8,8 @@ LICENSE = "Unlicense"
 
 PV = "1.2.0"
 
-RPM_NAME = "libtommath1-1.2.0-2.2.aarch64.rpm"
-RPM_HASH = "bb66d4cc5fcba56ef12aa9a99061be10431611881d946f0d79e6b6cda3d0ece61f0dbcb963b465498cfa7717556d924ffd47e98b35cd7fa2f33fe273c81a827b"
+RPM_NAME = "libtommath1-1.2.0-3.1.aarch64.rpm"
+RPM_HASH = "8975651b35228ed539f7b1a908b9034bd0414598559aae541b2911c3080a2330a79bd546034102a52c0e6765b0fbe44a17ee6c5d50a98fda75f13c11f07da3cd"
 
 RPROVIDES:${PN} += "libtommath.so.1 \
 libtommath1"

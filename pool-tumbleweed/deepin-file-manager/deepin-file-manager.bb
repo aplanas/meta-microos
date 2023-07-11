@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later & MIT"
 
 PV = "5.6.4"
 
-RPM_NAME = "deepin-file-manager-5.6.4-3.7.aarch64.rpm"
-RPM_HASH = "436745b0911634bbe1a27ab7ebdc15587e0c2d8896c6db1d94e0a66e67b2191cd491940999f83260c3c278c949a08ccf2dda5b4f05dcc26dfe579fb8ffa791b5"
+RPM_NAME = "deepin-file-manager-5.6.4-3.9.aarch64.rpm"
+RPM_HASH = "37434d6c984a5f8d9a56ecf863d3bdf76b2f4254d20a38c157dbe8b065186f82cf19efaca90637b7bb55f86fb43f26ccfd7c4f0a57746519559af59f3abf65ec"
 
 RPROVIDES:${PN} += "deepin-file-manager \
 libdde-disk-mount-plugin.so \

@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & (LGPL-2.0-or-later | MIT) & SUSE-Public-Domain"
 
 PV = "1.5.0"
 
-RPM_NAME = "libshp2-1.5.0-2.7.aarch64.rpm"
-RPM_HASH = "94d05afb775672a1acbd898f9834b73b4f189395676697f2259df278acf1c55b7c592894c64b167e3750e16e1ec8bbf7be33edc112b003bdee83c19178a3927c"
+RPM_NAME = "libshp2-1.5.0-2.8.aarch64.rpm"
+RPM_HASH = "f8d864c511cb267e4f4117b12edc605ced8d020e8f559eeb367647224b38464f3fe2e785f74a5832f19eda6be2aa65b6f7eda9f8428d4e35c0fcad28fbd39291"
 
 RPROVIDES:${PN} += "libshp.so.2 \
 libshp2"

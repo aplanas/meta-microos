@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "3.18.5"
 
-RPM_NAME = "libpetsc_3_18_5-gnu-mpich-hpc-3.18.5-1.1.aarch64.rpm"
-RPM_HASH = "eefab99b496419dc95b3677386f437ed061b5536694b7021b629dbcc5043ee3e8a08a2a4a80fc231d491d2e9102f9a5f852d761ecc97c21142b73de87bd5339c"
+RPM_NAME = "libpetsc_3_18_5-gnu-mpich-hpc-3.18.5-1.2.aarch64.rpm"
+RPM_HASH = "3ccfc036fbe7341ec866416e2243a6b67dbe554396df5aa12606322e01af6a2d07d9b7b90779524088f2a84696b6cd260953f481d7d1ac53a5cd50cabf1011f0"
 
 RPROVIDES:${PN} += "libpetsc-3-18-5-gnu-mpich-hpc"
 

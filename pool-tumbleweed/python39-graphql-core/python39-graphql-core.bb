@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "3.2.3"
 
-RPM_NAME = "python39-graphql-core-3.2.3-1.3.noarch.rpm"
-RPM_HASH = "6d96e885c62f96dee991c04f1fcbeb09e0533da66f2c12d045190adcc3d4ca7d9ff66790884f07a74bd0677c8fbfcce21e17e040047b40db07f20784c5ec56c7"
+RPM_NAME = "python39-graphql-core-3.2.3-2.2.noarch.rpm"
+RPM_HASH = "dc9b46990ebfd125cd3f01fee87972f0e0263f3472e24c72af2e4e167b3e3fe97c5de46ff0a390c151c9509b936027219d1ba813276a5120df4a62ea20e6e6bd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-graphql-core \

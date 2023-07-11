@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.005"
 
-RPM_NAME = "perl-Cairo-GObject-1.005-1.20.aarch64.rpm"
-RPM_HASH = "c0013c1f4efe1fa92c9359ac21b44524517ddd2de39c14cc953c28c8b46eea01ef1bc1dae611c2ccb720ac94552702d94d2659ecce4296421ce0b52a2c313570"
+RPM_NAME = "perl-Cairo-GObject-1.005-1.21.aarch64.rpm"
+RPM_HASH = "e531bf247832fc1ea45fe62b69a08b5757d646098e795b844125960a7c76557411190248f903a3fe78d064ddcb96402ed3e04d690c16829fbf1b68c43bfad008"
 
 RPROVIDES:${PN} += "perl-Cairo--GObject \
 perl-Cairo--GObject--Install--Files \
@@ -14,7 +14,7 @@ perl-Cairo-GObject"
 RDEPENDS:${PN} += "libcairo-gobject.so.2 \
 libcairo.so.2 \
 libglib-2.0.so.0 \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-Cairo \
 perl-ExtUtils--Depends \
 perl-ExtUtils--PkgConfig \

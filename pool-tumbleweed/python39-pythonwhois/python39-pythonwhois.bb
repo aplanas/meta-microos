@@ -4,8 +4,8 @@ LICENSE = "WTFPL"
 
 PV = "2.4.3"
 
-RPM_NAME = "python39-pythonwhois-2.4.3-5.11.noarch.rpm"
-RPM_HASH = "6a32a1a05570c6be0ae6fe707d55968d1a63ee2838dce3293681d61c3bd9ec07d41510f04026a999d6ba06064864f30db16f6115f9a958c5c2ea75c32d82b7db"
+RPM_NAME = "python39-pythonwhois-2.4.3-5.12.noarch.rpm"
+RPM_HASH = "63ab9a40039812257bb453cfa6af03fd79f1e22d64e4a2c291eb15e27a4ffb08e00287bba2964f2de938ef92c4da5ea6bd8f494ef93ea7dd8ac939f46c0c2f29"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pythonwhois \

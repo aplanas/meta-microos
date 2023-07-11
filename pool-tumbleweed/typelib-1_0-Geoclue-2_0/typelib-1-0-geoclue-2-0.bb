@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.7.0"
 
-RPM_NAME = "typelib-1_0-Geoclue-2_0-2.7.0-1.3.aarch64.rpm"
-RPM_HASH = "431aaccf0df4500f8c0f3d97b79cb1cc0cd75c16ea873b86b28d77de90ab01784a2f462ad59fa9562086e09e14869dd411f4e6ff45c1bd11ca40562997a2518d"
+RPM_NAME = "typelib-1_0-Geoclue-2_0-2.7.0-1.4.aarch64.rpm"
+RPM_HASH = "1719aebb0250aac3cd5fd1435cc061ad36567156bef0d2e8fc169c0801f431306a7e0f0fc4c63572cf7d45328ae9b63d7c017b12cd4e056ac13f48b30f915029"
 
 RPROVIDES:${PN} += "typelib-1-0-Geoclue-2-0 \
 typelib-Geoclue"

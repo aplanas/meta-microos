@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.9.1"
 
-RPM_NAME = "python39-Flask-Mail-0.9.1-3.6.noarch.rpm"
-RPM_HASH = "47c585d11ebbaef93eee9fcff8ba18345b478138a8c839966e5e521fab5bc3e916a41ff54e35921a3b791d378dee5d52985b041a1c85d55c2f954a03c084f4cc"
+RPM_NAME = "python39-Flask-Mail-0.9.1-3.8.noarch.rpm"
+RPM_HASH = "5335edabd40330fad70b1a57adbb0e72897cdf9cfb187c20d4abce68ab04b58e191c3e486304da83d65a30c339e0fb872915207bf50bda5f024d29e34c3335c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-flask-mail \

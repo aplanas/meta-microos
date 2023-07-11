@@ -8,10 +8,10 @@ driver to interface with software built around the SANE standard. \
 This is the community maintained fork, based on imagescan upstream."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1638580181.839d06a"
+PV = "1684035837.b296671"
 
-RPM_NAME = "utsushi-1638580181.839d06a-2.9.aarch64.rpm"
-RPM_HASH = "026e763432404bd5d2183cc3367cf1e751b46ea7ef42f2b95b334d999e8b4a50ce756725798044dd3532af674bae664d001f508c81fd38742ac9d17108a0f987"
+RPM_NAME = "utsushi-1684035837.b296671-4.1.aarch64.rpm"
+RPM_HASH = "0ecc48ff8e2d2909fafdc77ba0a61a3ff6b126ca6bdc6a03da2bd4e20515bbeb00b2f60224c7bb9c6980ce450f23ea90d601473decbaa3368111e83a84c69984"
 
 RPROVIDES:${PN} += "config-utsushi \
 imagescan \

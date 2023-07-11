@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kcolorchooser"
 DESCRIPTION = "Provides translations for the 'kcolorchooser' package."
 LICENSE = "MIT"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kcolorchooser-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "2f42e404535ebdfb3ab81461a6229605edc4a4a1867c6a6c83897b5782dc5cf8f149517af8647cba3080f6601d40a1c8bc89a49acf84cdaa3007e0e092259e5c"
+RPM_NAME = "kcolorchooser-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "8e782bb7ba23f99277fa32fe7bfc6a467226bb1962fcde6080678894003af15aad3397aea2359312afbd0eedabf071b5f148eac80317b498e2977bbfa8d15a09"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kcolorchooser-lang \

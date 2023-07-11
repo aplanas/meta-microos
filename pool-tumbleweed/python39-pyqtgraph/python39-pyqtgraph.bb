@@ -7,10 +7,10 @@ numpy for number crunching, Qt's GraphicsView framework for 2D display, \
 and OpenGL for 3D display."
 LICENSE = "MIT"
 
-PV = "0.12.4"
+PV = "0.13.3"
 
-RPM_NAME = "python39-pyqtgraph-0.12.4-1.2.noarch.rpm"
-RPM_HASH = "598c3225eab78a77494e6a2167cc2db2ea6ded57aa66fe57a56006fd46cd7b8bd7746b8ec49ccd33be11a12fae5f1e42bee5bda8a6e2342d06981c13a63a39a2"
+RPM_NAME = "python39-pyqtgraph-0.13.3-1.1.noarch.rpm"
+RPM_HASH = "fde075a9589fc8f42e622d2293abdb6f0bf02e53ed083d8963cf30701c4eaa84fef42ad7840dca130748ff47b4a711f715c9452cff75fb93ddc95341c52e0144"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyqtgraph \

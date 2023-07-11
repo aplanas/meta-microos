@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.0.5"
 
-RPM_NAME = "python39-dkimpy-1.0.5-1.12.noarch.rpm"
-RPM_HASH = "ddac1a65605d2f2e8d7e1e363115b51ae7d9988901ed0e3db7cc62000448bfb32229e7bc8efdf56422468b257b68a09db83fa95a5b8315284bad2bfccea19fa0"
+RPM_NAME = "python39-dkimpy-1.0.5-2.1.noarch.rpm"
+RPM_HASH = "9e657207a05fa8262bc4891667ec556bc6eb9ad9e6e9538bc7188e6a238537e8a5477bad215d42a20e6bde6b55dc09c623e4f7a6d929019411b0b7c493eaa5dc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-dkimpy \

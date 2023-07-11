@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.23.0"
 
-RPM_NAME = "libinput-debug-gui-1.23.0-1.1.aarch64.rpm"
-RPM_HASH = "ef7749ab4328f5d5f386637cbd0625a1142b457b17b75b6cb45a470e036bd52790f1d07ec0234c089248369b07a5564c2241a0d8d72da401547dd25832737a1c"
+RPM_NAME = "libinput-debug-gui-1.23.0-1.2.aarch64.rpm"
+RPM_HASH = "81f1559ea2dd8dd0bb625628b178157cbc2736795f6e123d5c405a89518322b973c4dbc2bedd1c6340a94fbb33d3007ec8841ae226bedf47c6875d7480cde17a"
 
 RPROVIDES:${PN} += "libinput-debug-gui"
 

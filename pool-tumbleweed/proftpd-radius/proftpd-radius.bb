@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.3.7f"
 
-RPM_NAME = "proftpd-radius-1.3.7f-1.3.aarch64.rpm"
-RPM_HASH = "c759a9944363f2ded2353d32dd0cb39d2b3ea42f547af4d64498938b65652655f7c7856475885f7442f433f53ad8bd8f6367c8a65ae3a1494a1cdd18d0d7efa4"
+RPM_NAME = "proftpd-radius-1.3.7f-1.4.aarch64.rpm"
+RPM_HASH = "fa08648f9a89a2b663f55f422581cad37eb81396bcfbb826fa34506bb185d4fed70eb85bd8db3f2c728d0340f7af131d82b41820135e5fc287a8ae8fbfde3d4d"
 
 RPROVIDES:${PN} += "proftpd-radius"
 

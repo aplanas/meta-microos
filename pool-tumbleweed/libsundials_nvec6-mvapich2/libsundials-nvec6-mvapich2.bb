@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "6.3.0"
 
-RPM_NAME = "libsundials_nvec6-mvapich2-6.3.0-2.4.aarch64.rpm"
-RPM_HASH = "1553f67e6327bcdeca1df4f0f9c72ec10a9e642c5b61e2ffcd2705a94a6e211d85632f69d1192ee8f64956be74cedf697e543eff51d9f05299ed685944fc0c63"
+RPM_NAME = "libsundials_nvec6-mvapich2-6.3.0-2.5.aarch64.rpm"
+RPM_HASH = "2aaaa9f601c388e5ec32f9645885e1fa5a4170fee90697d28b85b22aaad2c8e32c9a3f04abf48890f16a00fc8114f375be5c70cf276f1bcc80005a4f0fe29fa2"
 
 RPROVIDES:${PN} += "libsundials-nvec6-mvapich2 \
 libsundials-nvecmanyvector.so.6 \

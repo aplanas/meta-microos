@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2019.7.2"
 
-RPM_NAME = "python310-czifile-2019.7.2-2.9.noarch.rpm"
-RPM_HASH = "553de9c159d60b1673c4cd27ec05f380740b48cf367ef626ed8a90ffb0e1dd9d7edff8465751f02e32dc08148e4c35a45f72e610f46a9e3fd48846282001cac6"
+RPM_NAME = "python310-czifile-2019.7.2-2.11.noarch.rpm"
+RPM_HASH = "19a76ebc7bf91e0e96a3bdff09e267c8adb314c3985743186c75633492a5ab29fe1f2d5b668f713ffb9c4b4400d40a8cc1bf6966a69c773ad2f93258ba4199c0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-czifile \
-python3.10dist-czifile \
+RPROVIDES:${PN} += "python3.10dist-czifile \
 python310-czifile \
 python3dist-czifile"
 

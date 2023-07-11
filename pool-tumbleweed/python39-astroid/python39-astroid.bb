@@ -14,8 +14,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.15.5"
 
-RPM_NAME = "python39-astroid-2.15.5-1.1.noarch.rpm"
-RPM_HASH = "26d8b68814b3d286e19927dd300016d2b6d52c5d2c7904064799f9ecde70e40fa8716f31a9a10add469fe4eefa810f04084f742f390619537cdef6d220ecdade"
+RPM_NAME = "python39-astroid-2.15.5-1.3.noarch.rpm"
+RPM_HASH = "4ac1928300bafec93c9ff532dfd6af7e812b06b8ed3139e6408656dfec5b50679c0f3e6432c78707ff9e4bfbb70caa0f495e27d7135ea721f5c56f3f206c21fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-astroid \

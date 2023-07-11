@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "3.10.0"
 
-RPM_NAME = "python39-pytest-mock-3.10.0-2.1.noarch.rpm"
-RPM_HASH = "a253e94c941722dc884eefe3d030de05f7b97ea53926672605f9d4c674963fecc0650f8757341f31e7f1d6627a40fdad7e5721c83a01a00418d56cd176ab02a3"
+RPM_NAME = "python39-pytest-mock-3.10.0-2.3.noarch.rpm"
+RPM_HASH = "adc2872d55f00c2ba3e176e577b9315509f8d87b97158c3db04a72d930832229374fa13680680bb40775400a9dd49fce50c9e01d3ba41756c38f4a200b5e10d3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytest-mock \

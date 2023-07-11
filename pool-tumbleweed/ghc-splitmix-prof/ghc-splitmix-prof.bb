@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.0.4"
 
-RPM_NAME = "ghc-splitmix-prof-0.1.0.4-4.3.aarch64.rpm"
-RPM_HASH = "b46712ea425e3b38426c08fe6b54a57d7f33d5c34c675a17d5f58f3a036d7f6fbbf0af1c2abe3dfdd998569b0f4e15fc37e378cf9d78b11b6a0705f059956fe9"
+RPM_NAME = "ghc-splitmix-prof-0.1.0.4-4.6.aarch64.rpm"
+RPM_HASH = "9519d0596e581e87267298dcaae54bbf950c385c754205c7885be025c2279f18517f79f5550644ce15f54fef900cedffbb9edf85d0d8558c6483648de52cc7b8"
 
 RPROVIDES:${PN} += "ghc-prof-splitmix-0.1.0.4-7e8CibdlMRLAGh7KO5VlFe \
 ghc-splitmix-prof"

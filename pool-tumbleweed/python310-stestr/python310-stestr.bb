@@ -15,20 +15,16 @@ LICENSE = "Apache-2.0"
 
 PV = "3.2.1"
 
-RPM_NAME = "python310-stestr-3.2.1-2.3.noarch.rpm"
-RPM_HASH = "951905cde9ae6b8c168afdd6062e0a498f001b5297ee98e15b2d211f50375a73892cac56d3d8634fc237ba061333a0216584ae127216f95b5025fc74a6fe99ba"
+RPM_NAME = "python310-stestr-3.2.1-2.4.noarch.rpm"
+RPM_HASH = "d87e362a919ebc9b769d943e62e5a46665af8df58d8503212f1d0b81c07b0c928acbf6c4fea6e44e94bcfd0f4cb48b706b045dfe056e097e7ad8b7503e17face"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-stestr \
-python3.10dist-stestr \
+RPROVIDES:${PN} += "python3.10dist-stestr \
 python310-stestr \
 python3dist-stestr"
 
-RDEPENDS:${PN} += "/usr/bin/python3.10 \
-python-abi \
-python3-cliff \
+RDEPENDS:${PN} += "python-abi \
 python310-PyYAML \
-python310-dbm \
 python310-fixtures \
 python310-future \
 python310-pbr \

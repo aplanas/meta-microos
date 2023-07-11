@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.0"
 
-RPM_NAME = "python311-hammett-0.5.0-1.17.noarch.rpm"
-RPM_HASH = "b54d45a1c65886eb7ee798ab27d87ac1fc06c2a8016ca190d077f1ad44b4be5b7c58e861d4ed9a93b8844880780af0c0eff554d060a444119a7674b2b4d0e1de"
+RPM_NAME = "python311-hammett-0.5.0-1.19.noarch.rpm"
+RPM_HASH = "fbd9642bee15617c50b909b3eee7766687c26d5b98f8d6edd218e3140573db9a3f808dc8ec72859862b91740c9ce1070a101e81468efb1802f91d9773cd93985"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-hammett \
+RPROVIDES:${PN} += "python3-hammett \
+python3.11dist-hammett \
 python311-hammett \
 python3dist-hammett"
 

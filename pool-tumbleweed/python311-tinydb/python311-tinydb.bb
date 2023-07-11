@@ -7,11 +7,12 @@ LICENSE = "MIT"
 
 PV = "4.7.0"
 
-RPM_NAME = "python311-tinydb-4.7.0-1.6.noarch.rpm"
-RPM_HASH = "e830204c11f28e21a4b7819341499f6022b63061ffe2b5bbc4031d53f21a9fbc77d4f67a4e32727504765cec32c260f7cdb33126d3ac48f903478ae1a51b343b"
+RPM_NAME = "python311-tinydb-4.7.0-1.8.noarch.rpm"
+RPM_HASH = "e59fad93fc924d8c824027b5347217726839b7bb5e15059a4478129ea8e6b98bab0de79073e9608c1f34b3f8ad89952e0a169701ac753668debf51d420985f39"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-tinydb \
+RPROVIDES:${PN} += "python3-tinydb \
+python3.11dist-tinydb \
 python311-tinydb \
 python3dist-tinydb"
 

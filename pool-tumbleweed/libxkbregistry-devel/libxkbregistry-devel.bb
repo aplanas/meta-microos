@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "1.5.0"
 
-RPM_NAME = "libxkbregistry-devel-1.5.0-1.3.aarch64.rpm"
-RPM_HASH = "b18f91d9560100be5d6592bde4873ca15f86a879b01fbda1ef4d2ecfb1f529d69f8acad96f5238942d97eb93bd7f6d894a2729aea5629361d9d56f6ebacb5377"
+RPM_NAME = "libxkbregistry-devel-1.5.0-1.4.aarch64.rpm"
+RPM_HASH = "957fe9c0b3c5c2374991f4ac765bb940762e70fdb1620e2a7c12c4bd9fe29b80712ecda59647ee685434b795ee7592d5b0971b2c68fd36faca345f2109efa6de"
 
 RPROVIDES:${PN} += "libxkbregistry-devel \
 pkgconfig-xkbregistry"

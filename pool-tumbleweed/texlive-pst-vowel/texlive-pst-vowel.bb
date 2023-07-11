@@ -7,8 +7,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.0svn25228"
 
-RPM_NAME = "texlive-pst-vowel-2023.201.1.0svn25228-53.1.noarch.rpm"
-RPM_HASH = "69382adb1c4bfc741ff44dad5da9131887b933fdd933fef67129a16a268af59670cfdd26cd381ef2fe1e0fb3b97af47dabc0fd6f05fe52337a49e436b880542d"
+RPM_NAME = "texlive-pst-vowel-2023.201.1.0svn25228-53.2.noarch.rpm"
+RPM_HASH = "c7763a3b1bd094b1dba244a427450dcb3ce54ea5d1fa9b7d3822e1accfcc19bcb0e6696c12dceaa3169c64a1f2a0b4742fb06e8d2f207fad10c9c17c51386a0c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-vowel.sty \

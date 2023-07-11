@@ -4,8 +4,8 @@ LICENSE = "MPL-2.0"
 
 PV = "1.1.0~alpha12~git0.bcdbb18"
 
-RPM_NAME = "kanidm-server-1.1.0~alpha12~git0.bcdbb18-1.1.aarch64.rpm"
-RPM_HASH = "3508475b7fb18c739d5f8b3d63f7f165dd25c58d2e067b0001059fbaad1797027bdb072d6013edb6a4eede9de40a69f5e74c84e3523b6631a27845f631bea569"
+RPM_NAME = "kanidm-server-1.1.0~alpha12~git0.bcdbb18-1.2.aarch64.rpm"
+RPM_HASH = "b74041b43a55ffa9bb0281f53763cff3250fc5b8dbd523b1ce2db35082e7cf7b1fb66baa08f7f66bde85111cc87801b1c773ae253af12dc6fce1b923c58ead1a"
 
 RPROVIDES:${PN} += "config-kanidm-server \
 kanidm-server"

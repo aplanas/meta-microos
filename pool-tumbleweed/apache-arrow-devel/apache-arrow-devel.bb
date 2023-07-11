@@ -10,10 +10,10 @@ This package provides the development libraries and headers for \
 Apache Arrow."
 LICENSE = "Apache-2.0 & BSD-3-Clause & BSD-2-Clause & MIT"
 
-PV = "12.0.0"
+PV = "12.0.1"
 
-RPM_NAME = "apache-arrow-devel-12.0.0-1.1.aarch64.rpm"
-RPM_HASH = "9bbc01a04160a2ba886cd0ff598966947fc6e6389f6d25618bdd63c84f509f9ea93aab29fc252a761560a32d25ea0fdd3a194f85359cec2fc46089218127fbc7"
+RPM_NAME = "apache-arrow-devel-12.0.1-1.1.aarch64.rpm"
+RPM_HASH = "77b41d8ff6033029b5d2b8e17a59a9ec4e4cc23ba33579e1aba2602715e046478c6b26c3f023d5b0c79793dcce2984d26c97bc7f852004907b34e73de771a474"
 
 RPROVIDES:${PN} += "apache-arrow-devel \
 cmake-Arrow \

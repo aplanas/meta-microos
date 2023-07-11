@@ -7,10 +7,10 @@ This subpackage contains the header files for developing \
 applications that want to make use of libQt5NetworkAuth5."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libqt5-qtnetworkauth-devel-5.15.9+kde0-1.1.aarch64.rpm"
-RPM_HASH = "b371672408c61e21925b4fbf7627a732d1dd79db13e4ec818e46e73cbb303036130abf4c775a824ec85606b64fa741d12d8708def3dd284c37363b00c9f0a58e"
+RPM_NAME = "libqt5-qtnetworkauth-devel-5.15.10+kde0-1.1.aarch64.rpm"
+RPM_HASH = "c07b45036971c998b79cbb850e650f8f5a7c832ddae31867d8bd47691caef315bffce6ed86c9f9f28fb78d17fbc2367011964b4fa1b5509ed09d6168261daae3"
 
 RPROVIDES:${PN} += "cmake-Qt5NetworkAuth \
 libqt5-qtnetworkauth-devel \

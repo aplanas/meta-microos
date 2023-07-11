@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.201"
 
-RPM_NAME = "python39-leveldb-0.201-2.11.aarch64.rpm"
-RPM_HASH = "ff06c6489efa66b23a064971ecc7485681db8a0c52ebff9d7cf1cce93695fb27daf06631e672b85d99fb3be118b2d7742778a78bd89417b307d6b034d09cc72e"
+RPM_NAME = "python39-leveldb-0.201-2.13.aarch64.rpm"
+RPM_HASH = "46e861f4b31c55c6f12a83b3287d6fa22f4852a14b8064cdb0030d9a7327123c989dd05bf1d344031bbda86dd2a19b115288da3d98a85cf6ba1ed841678f6970"
 
 RPROVIDES:${PN} += "python3.9dist-leveldb \
 python39-leveldb \

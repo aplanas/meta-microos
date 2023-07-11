@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0.0"
 
-RPM_NAME = "python310-azure-mgmt-managementgroups-1.0.0.0-1.8.noarch.rpm"
-RPM_HASH = "caa557ecc3d58d872a072d8719b65c8bf849fa341e28ecfe42f73ffc27e8350c02ffb52df7e508978733de96a037cbe9a05450ad1cb707ef8ce1f5096ad062b7"
+RPM_NAME = "python310-azure-mgmt-managementgroups-1.0.0.0-1.9.noarch.rpm"
+RPM_HASH = "04e8e407bb0e44d54a0e0f1778add828dd585c3e00414a4fb373cf8fc18dcde3ed63e7b8ce6eab60744dbcba61969cabc11b34b8c5ee9f901ecafe887bcfe9c5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-managementgroups \
-python3.10dist-azure-mgmt-managementgroups \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-managementgroups \
 python310-azure-mgmt-managementgroups \
 python3dist-azure-mgmt-managementgroups"
 

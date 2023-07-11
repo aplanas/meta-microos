@@ -10,10 +10,13 @@ LICENSE = "MIT"
 
 PV = "1.4.46"
 
-RPM_NAME = "python311-SQLAlchemy1-1.4.46-3.1.aarch64.rpm"
-RPM_HASH = "f4c0fe4901566303ff9e66432a80a62fef3ee49b40c34026cf0bb3ccda3cb6f7578ad0eca4afa5d7aa63023b0ac09887e24be006702fa29978d2e605e33fcadc"
+RPM_NAME = "python311-SQLAlchemy1-1.4.46-3.3.aarch64.rpm"
+RPM_HASH = "df71d777114f8fe7ef1fac2fb3049e30e8cd16fed78f909e85c177a98e1e2cfb8db6f03cb6f734643a935998c80079f7917bd5ad61c3364651b3573b40a7fa96"
 
-RPROVIDES:${PN} += "python3.11dist-sqlalchemy \
+RPROVIDES:${PN} += "python3-SQLAlchemy \
+python3-SQLAlchemy1 \
+python3-sqlalchemy \
+python3.11dist-sqlalchemy \
 python311-SQLAlchemy \
 python311-SQLAlchemy1 \
 python311-sqlalchemy \

@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "1.7.0"
 
-RPM_NAME = "python310-flit-scm-1.7.0-2.1.noarch.rpm"
-RPM_HASH = "0e46f862c6f4d7817336a83c6ddef37306db48726e5aa825addbdd22bbd6ed1fdf2d4a7e32b0742b731d17fb0bdeff5cafe0cd7baf84b6623b90532db3fe999d"
+RPM_NAME = "python310-flit-scm-1.7.0-2.3.noarch.rpm"
+RPM_HASH = "f09eb9dc7729ff50c00cdbcca7e2306897f7b3d2f3ab2852bb93629c187c0c8e3cfc04b6a5740d7e0217d3fa20c42eaa544564929bba3cba017dcdf3fc10d2e8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-flit-scm \
-python3.10dist-flit-scm \
+RPROVIDES:${PN} += "python3.10dist-flit-scm \
 python310-flit-scm \
 python3dist-flit-scm"
 

@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0~a2.1"
 
-RPM_NAME = "plexus-ant-factory-1.0~a2.1-2.6.noarch.rpm"
-RPM_HASH = "f28495a045e6f450873b460c0d0bfe1f1654463fed65477446cb12afe5d336226084181a941b4f0988e096a093bb96f7eb1e2904e1048370e4f330e24e011936"
+RPM_NAME = "plexus-ant-factory-1.0~a2.1-2.7.noarch.rpm"
+RPM_HASH = "bf326153d09f4d5ab852c446ecb38386c45325ead95182023b4e3f68148da4241bc28db738139c7cfa92c7dac19cccce3ef6e2c1a9a8643d00ea97e872d56c8c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.codehaus.plexus-plexus-ant-factory \

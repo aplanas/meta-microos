@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.22.1"
 
-RPM_NAME = "python39-PyBindGen-0.22.1-1.3.noarch.rpm"
-RPM_HASH = "07276363101faf44f9f5a34e90b045f5cf782b61a6f926e80d67f0e99f1094fdbf0b44d0f91cae53ae1f20eee4add481d56d53227cc682ce8a9d64526251be8c"
+RPM_NAME = "python39-PyBindGen-0.22.1-1.4.noarch.rpm"
+RPM_HASH = "2b8f9f7a3791785b2aceea7716c4aaa4c467063a1d65c6a28dc312ddadea86c8f4ed6c1856f1c963585cc53b6ccc7393d9b437e4afa8d22bc759a11a2c8466b9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pybindgen \

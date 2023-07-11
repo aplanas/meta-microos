@@ -4,8 +4,8 @@ LICENSE = "AGPL-3.0-or-later"
 
 PV = "0.3.0"
 
-RPM_NAME = "hut-fish-completion-0.3.0-1.2.noarch.rpm"
-RPM_HASH = "52d90ee9255045d6f25000c3e791c2e7be98755c7794acf249f602ded4d1194aae83326f3f965ee5fbb97d4f8f4b4072e7b13a7e8d7217ecda5221f17558a342"
+RPM_NAME = "hut-fish-completion-0.3.0-1.3.noarch.rpm"
+RPM_HASH = "201ee36beda1d4407446ff77d27bb7979a60bf5476dc9a8d954048c0f2880d72b12227848801ef96534395086c17ee9c3e1e924aea969bf1164bb75c94b9fad4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hut-fish-completion"

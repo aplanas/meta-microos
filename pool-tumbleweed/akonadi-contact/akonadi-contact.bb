@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides a library used for handling personal contac
 as part of the KDE Personal Information Management (PIM) software."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "akonadi-contact-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "e7a88d3d143461334aa6a1565570ec61709f542fddbadc43d91e86443d9620a410085783959eebc2b71ca9638216bf6fc2abdc1a72b9967ff1150c3159c87ab3"
+RPM_NAME = "akonadi-contact-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "90053a235e1bba5bbaeaa6161143de4a88c0c14465b4d87a364f02621b70f54c303b3fdbd0020b8b6e758976bef7e2ed76bc02488ca2abf949730af3d3d1bd4f"
 
 RPROVIDES:${PN} += "akonadi-contact \
 akonadi-contacts"

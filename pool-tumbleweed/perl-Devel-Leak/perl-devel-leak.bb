@@ -16,14 +16,14 @@ LICENSE = "GPL-1.0 | Artistic-1.0"
 
 PV = "0.03"
 
-RPM_NAME = "perl-Devel-Leak-0.03-25.37.aarch64.rpm"
-RPM_HASH = "b1ed599ec1d6f02b61b90e374b8718b408c8383af44efc05317285420edae6686f6a36dbece0a92dd7538cc07f7b4e4fd3b836c4cbfcf5d058392f6e623728e7"
+RPM_NAME = "perl-Devel-Leak-0.03-25.38.aarch64.rpm"
+RPM_HASH = "dbe4ab681362fca785e8b2ddce48aecb86642fb5b0c62e20dc61fc9c94b053f3ac4b96a95b865cbed797750725d1d83a1f691f4774e580be0f65a9ca039bac4a"
 
 RPROVIDES:${PN} += "perl-Devel--Leak \
 perl-Devel-Leak"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

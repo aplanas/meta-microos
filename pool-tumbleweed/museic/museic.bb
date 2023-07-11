@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.1.3"
 
-RPM_NAME = "museic-2.1.3-1.26.aarch64.rpm"
-RPM_HASH = "a681e6155b0ef1030133c8c99ce2989a9d17dea0fc2b61c643e6985844b7fc8db648a0e26feadebdf2ed9fc81c03ea9bc54c997a9681b3baff9f54461461e2d4"
+RPM_NAME = "museic-2.1.3-1.27.aarch64.rpm"
+RPM_HASH = "1fd4402c45c897458989802baff114d624e7061ae5e26cd4cb5cb1f6386360ef6eedb08a810ca4919012a5d0a50d3c46e028af1af39133de5442b04a060a0ace"
 
 RPROVIDES:${PN} += "museic"
 

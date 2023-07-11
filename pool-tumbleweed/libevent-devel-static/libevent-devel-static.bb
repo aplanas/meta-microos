@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.1.12"
 
-RPM_NAME = "libevent-devel-static-2.1.12-3.4.aarch64.rpm"
-RPM_HASH = "5572f216e075d8cc9d2b147ac28f51853e990e20c2ce7634b8afb75c21045ad5c04a428168cf2f97340946499484f43d04560d7065907041b58f82e0744e6e90"
+RPM_NAME = "libevent-devel-static-2.1.12-3.5.aarch64.rpm"
+RPM_HASH = "b7c72c9afde269394d8872499f8ba957928e9a0c2e589962b55ddb1871b358d6991ebf450a9f706e85edaff8ecfb78b070cd068da11d2e695ac6ea511a4c8b4a"
 
 RPROVIDES:${PN} += "libevent-devel-static"
 

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "4.11.1"
 
-RPM_NAME = "phonon4qt5-lang-4.11.1-3.9.noarch.rpm"
-RPM_HASH = "07009c5ace7639a4c980daed8a3e237e2ac76c7d54d3e6fc55d25515f2c321074d0bacd7588d55d7c44b6c1e29924081b3b77d69967476a0e03896bf3d9ddeca"
+RPM_NAME = "phonon4qt5-lang-4.11.1-3.10.noarch.rpm"
+RPM_HASH = "5294ba795ad2e907771a29b2187cb3a404a02c80852deb37fad896d44cb37463e5e12cec0d96a85d28dc5147cca7d7de59a8d1359024a74309b244b2509cde37"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-phonon4qt5-ca \

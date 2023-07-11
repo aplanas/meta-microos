@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.26.4"
 
-RPM_NAME = "cmake-doc-qhelp-3.26.4-1.1.aarch64.rpm"
-RPM_HASH = "6537bf49aca9c45842ff3d04bea7cf97ad61f1e84316dcfaff1fe8cd2fd63f7cd688bede7dc6692a0b96e4c51a12e8be837d810d8c21abdd50486693410a2b00"
+RPM_NAME = "cmake-doc-qhelp-3.26.4-3.1.aarch64.rpm"
+RPM_HASH = "a717bfe0b99eb2664f6eb8443310a2d971846b35c5f24379ac6e263013f28df0c16f1f28bb1000f9f6d064b6691b19d457d361ff7fe15907f4ad421f17b2a5c9"
 
 RPROVIDES:${PN} += "cmake-doc-qhelp"
 

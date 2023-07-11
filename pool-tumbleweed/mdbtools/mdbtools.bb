@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0.0"
 
-RPM_NAME = "mdbtools-1.0.0-1.7.aarch64.rpm"
-RPM_HASH = "b4db682891ccc9fa02632aec86ffbe60aa754cdbc610f71d25f9095bcab973b07703107709369f696d4c9607724f52f914f7f56f7b4f3a9000808d9a88d4b59f"
+RPM_NAME = "mdbtools-1.0.0-1.8.aarch64.rpm"
+RPM_HASH = "06d2c1f7b3048329569e9e08d7661ff5f88e758a97ac67edac4857511fdf4ff7feda223d38e779ee8816f8c03ff4c2ac9f75f7fcd0d23183e9d0da8deea00067"
 
 RPROVIDES:${PN} += "mdbtools"
 

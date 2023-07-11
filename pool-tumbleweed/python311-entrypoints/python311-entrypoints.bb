@@ -11,11 +11,12 @@ LICENSE = "MIT"
 
 PV = "0.4"
 
-RPM_NAME = "python311-entrypoints-0.4-1.3.noarch.rpm"
-RPM_HASH = "517d6d0481fb42d52ed7315e4395619431b72c95152c067caf7576fc0253aca5bf71efe310e8d7da0db0d4324c414da40db175fd68348ed105fc827d2aa1dfa8"
+RPM_NAME = "python311-entrypoints-0.4-2.1.noarch.rpm"
+RPM_HASH = "2b997c801817ce65bd73ae8cf9ac2fde4a7b966dd23c7632f800269ad206390886e4ff4f1ea9f215cffae530055d737cea6b60e4bec1799508eb773ebda68406"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-entrypoints \
+RPROVIDES:${PN} += "python3-entrypoints \
+python3.11dist-entrypoints \
 python311-entrypoints \
 python3dist-entrypoints"
 

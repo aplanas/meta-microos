@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.40.0"
 
-RPM_NAME = "dconf-devel-0.40.0-3.3.aarch64.rpm"
-RPM_HASH = "df5549dac66a59eeea35ab0f642ba96cb75e4a054563e18fa39a58af5f45cd0b190e0953d0b1462da8bc20ca2e653b633dd4ffd77adaf6ed65710876ac8af628"
+RPM_NAME = "dconf-devel-0.40.0-3.4.aarch64.rpm"
+RPM_HASH = "488200ee9cd5c5c4f7a2db900647b045548292a68dbf3f10e13ce93d5f9de6fa6331f7b83b30e357cd9f53d3de83494c198f6379c55b1a506a06c4a5adfb774a"
 
 RPROVIDES:${PN} += "dconf-devel \
 pkgconfig-dconf"

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & BSD-3-Clause"
 
 PV = "0.1.1.3"
 
-RPM_NAME = "ghc-lukko-prof-0.1.1.3-5.3.aarch64.rpm"
-RPM_HASH = "4a5cbccc5897c6e31dacd58c7e3c5dfd916aa542163a4eeda43d5610727b242e896ae5607d3f8040cd83987519de89db7c017382de82392b6ea250dc1aff38bd"
+RPM_NAME = "ghc-lukko-prof-0.1.1.3-5.6.aarch64.rpm"
+RPM_HASH = "7332b88f9ca4cd5053566ea995c004fbafa7275578e681fe2be636a3f46289dc06f07314a0546c7c8e986c625be08f7aac98e2a849e79d69adb751a2d70a47e9"
 
 RPROVIDES:${PN} += "ghc-lukko-prof \
 ghc-prof-lukko-0.1.1.3-7Ko9x6wnjxCV3NuL9k89V"

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.18"
 
-RPM_NAME = "xdg-user-dirs-lang-0.18-2.2.noarch.rpm"
-RPM_HASH = "5a4e85221a32d193e67ffb6a22052c6fbc02ffb347e4620ed11b563387fd93fa5d8bdf53d3ec62bb8c747087a837b110fe78d5ab76610bf9714b5d352cf789bc"
+RPM_NAME = "xdg-user-dirs-lang-0.18-2.3.noarch.rpm"
+RPM_HASH = "0c446a3020c8b8fd6f8185e4b1131b45d1e37d5c0113511f71e7647672d41e53bba2d11b0337ccba0fa83c9e5b9549ac0173b74e494ac2fbc83647a7219d2fdf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xdg-user-dirs-af \

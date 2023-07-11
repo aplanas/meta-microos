@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "3.3.0"
 
-RPM_NAME = "python39-palettable-3.3.0-1.19.noarch.rpm"
-RPM_HASH = "91127ac8778dc7cf5cdd7d075a6771b6e8404039a9f1b0e9194ddb031664e8dc5c83bd1a7bb27ef467d55e4e13706c5da96146dca6e6e134eadb3b3815954748"
+RPM_NAME = "python39-palettable-3.3.0-1.21.noarch.rpm"
+RPM_HASH = "e05121cbac34cc968337eeef22e7abb76cee1c4371966d3176fa0a8ecb522babe5adfb934537f161e8f29aff4cb3d4f5ca6c7783e76966bf1098cb1bc98c7836"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-palettable \

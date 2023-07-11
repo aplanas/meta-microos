@@ -6,8 +6,8 @@ LICENSE = "SUSE-Permissive"
 
 PV = "4.4.3.1"
 
-RPM_NAME = "liballeg44-devel-4.4.3.1-1.15.aarch64.rpm"
-RPM_HASH = "a466b302d6ba2393b80675a57647f9b3c4e756c116d4e437909eb9faece3ec52f08772fc0532074a9e981fecf272644d9da336004e3b9b8c63505de36b15cdb2"
+RPM_NAME = "liballeg44-devel-4.4.3.1-1.16.aarch64.rpm"
+RPM_HASH = "ffd13f3267130a0701713859e881a11751de9f9ac0af4683d1842a9bc586f078ab741e1891432e36130a764eefe87616d516165e5f8c8483965cf84e892e0673"
 
 RPROVIDES:${PN} += "allegro-devel \
 liballeg-devel \

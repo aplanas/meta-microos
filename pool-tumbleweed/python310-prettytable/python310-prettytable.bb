@@ -8,13 +8,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "3.7.0"
 
-RPM_NAME = "python310-prettytable-3.7.0-1.1.noarch.rpm"
-RPM_HASH = "365e2226df58397a41294f127ba1c51581f0570d1d1110b16ce4722cd0b87122d91831246dfafd9a5b97a612872dee4791b1d5146cf584f9eaf40eb0ad7d6602"
+RPM_NAME = "python310-prettytable-3.7.0-1.3.noarch.rpm"
+RPM_HASH = "fee07a708756f626c94a39bad73f910931c9a16f26845794fe25d70294a83e5e030f1031ac34c8459cbb5e0d530fe431da4ee10555007be86eded2e3c591fd11"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-PrettyTable \
-python3-prettytable \
-python3.10dist-prettytable \
+RPROVIDES:${PN} += "python3.10dist-prettytable \
 python310-PrettyTable \
 python310-prettytable \
 python3dist-prettytable"

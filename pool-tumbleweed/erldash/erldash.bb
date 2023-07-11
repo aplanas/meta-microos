@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.1.2~0"
 
-RPM_NAME = "erldash-0.1.2~0-1.2.aarch64.rpm"
-RPM_HASH = "97038d01502f96086afae7e847786274890cdb849e2d3d75c987634e248a72478151ef8bd833d26ce36dd7f3b045ba600deca88792019770d2467dc6637cc133"
+RPM_NAME = "erldash-0.1.2~0-1.3.aarch64.rpm"
+RPM_HASH = "957d05d968a25ad978aac7f05940c45643e63586b2fa81aa9ced5f5050ec0637f993a7afa50382febeb95f5aab4170de08993ab307a88c5547cc817d0e3049f3"
 
 RPROVIDES:${PN} += "bundled-rust-crate-adler32 \
 bundled-rust-crate-anyhow \

@@ -2,10 +2,10 @@ SUMMARY = "Provides the interface and basic tools for the KDE workspace"
 DESCRIPTION = "Provides the interface and basic tools for the KDE workspace."
 LICENSE = "GPL-2.0-only"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "kmenuedit5-5.27.5-1.1.aarch64.rpm"
-RPM_HASH = "b6e80731883721d27fa0f7c5b49dd7b270c4865c18fddc0565d6788174b10efff0091b587c35759b971049a6457351da428f90b4962bdf0c9fc446c7d388f8db"
+RPM_NAME = "kmenuedit5-5.27.6-1.1.aarch64.rpm"
+RPM_HASH = "3c5a5e4881f7f7c0d7969301cc185dd60eedcb3c00b6bf27bbc3c775242c7c5d3ebbfe3430fb0e5470e823f5269513a1a1b3f80a28aa2ff1d97d6f8eb4780525"
 
 RPROVIDES:${PN} += "kmenuedit5"
 

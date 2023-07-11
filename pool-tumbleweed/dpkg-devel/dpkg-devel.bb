@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.21.8"
 
-RPM_NAME = "dpkg-devel-1.21.8-2.1.aarch64.rpm"
-RPM_HASH = "e7c07093fb828f37d65deee77767d4c6ca6393c385a7dd589eb5ab88b80dae78e12cbb38a38dd27914b58ea5cf89c7536c961b2a19b1b6df0cabc04d9701a1be"
+RPM_NAME = "dpkg-devel-1.21.8-2.2.aarch64.rpm"
+RPM_HASH = "5f1ae0dbf8f394ae9915978fc4a7f1cf007d1cbb85815965341a081d802b580008b658631e1fe026c004a67821bbddfc7bada8a27a4cd1173aa8184b03cc6fab"
 
 RPROVIDES:${PN} += "deb-devel \
 dpkg-devel \

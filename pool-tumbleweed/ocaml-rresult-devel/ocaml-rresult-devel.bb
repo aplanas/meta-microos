@@ -5,8 +5,8 @@ LICENSE = "ISC"
 
 PV = "0.7.0"
 
-RPM_NAME = "ocaml-rresult-devel-0.7.0-1.1.aarch64.rpm"
-RPM_HASH = "caac80b7cd6cbe0a88ebbfa12a7d6620614df83f5e2cd60cea7eb46e381757f6d3e9a1744da76dfc6961bb5d1eaf6260d289bb2597c425bfa7071da63638c5ee"
+RPM_NAME = "ocaml-rresult-devel-0.7.0-1.2.aarch64.rpm"
+RPM_HASH = "00d1ba2f52816f675ad7077522c2a0b93c95fdf88c93b910e3e10e80a4a6f1539604cc44c8825859fb0a855e43607c93c3bc3ae2f023119c1eef347ea8c86c71"
 
 RPROVIDES:${PN} += "ocaml-Rresult \
 ocaml-Rresult-top \

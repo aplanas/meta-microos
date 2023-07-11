@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "4.3.2"
 
-RPM_NAME = "libwebsockets-devel-4.3.2-3.1.aarch64.rpm"
-RPM_HASH = "5ef6cb1fa6e4c21ddf53956f36f6fd1609ce17a48b3b2e4806a15f40b3b30b903d64bbe36775847bc55d6c22b6a3492df776c2114eca191a2d83f2075bf39f24"
+RPM_NAME = "libwebsockets-devel-4.3.2-3.2.aarch64.rpm"
+RPM_HASH = "f7059472d238a5cfee896e33704e1d043d1d73d0c94e7397c4b1bc3bf9f2ee063d7ebbcde8cc5a0d676e02da14c6e95af2d137b52b5bfa50ab6dfcd682fd27ec"
 
 RPROVIDES:${PN} += "cmake-libwebsockets \
 libwebsockets-devel \

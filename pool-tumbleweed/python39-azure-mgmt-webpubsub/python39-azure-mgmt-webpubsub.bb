@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "python39-azure-mgmt-webpubsub-1.1.0-1.2.noarch.rpm"
-RPM_HASH = "1720089838527022de53ade175332c57a3227ea45dd8dc824acf56a70c54c2f7ccb363a5e8c85dd6f5cf877f354ac9215713b0208fdf65619e88e6c62710a495"
+RPM_NAME = "python39-azure-mgmt-webpubsub-1.1.0-1.3.noarch.rpm"
+RPM_HASH = "10d0be62d55a8378f557403b59cf91e9f2d43467520f57fd438e4b2283942b49e29cd12d4af5a24f1a18e664e51972a47ef04de088232fdb4e39fa65eef69023"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-webpubsub \

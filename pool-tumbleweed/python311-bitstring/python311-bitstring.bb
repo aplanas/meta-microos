@@ -11,11 +11,12 @@ LICENSE = "MIT"
 
 PV = "3.1.9"
 
-RPM_NAME = "python311-bitstring-3.1.9-1.6.noarch.rpm"
-RPM_HASH = "aaabc7aca4cf1e24cfc39dde61402fe81e82c54bc70dd13b531f181090ccfb0dc1030b764e45eab68b008046bf29cfcf0820a7014105365cce78ab7a64da9027"
+RPM_NAME = "python311-bitstring-3.1.9-1.8.noarch.rpm"
+RPM_HASH = "c4ecefd9fda3244ef7097f91697e627059f12377a63193ee407952f265277c90808754bf6b14d27840b8530703e1f0c8922cff6c9a0a098a2c6276129018e0e2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-bitstring \
+RPROVIDES:${PN} += "python3-bitstring \
+python3.11dist-bitstring \
 python311-bitstring \
 python3dist-bitstring"
 

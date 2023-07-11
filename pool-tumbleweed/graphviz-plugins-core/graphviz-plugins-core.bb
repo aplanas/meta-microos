@@ -7,8 +7,8 @@ LICENSE = "EPL-1.0"
 
 PV = "2.49.3"
 
-RPM_NAME = "graphviz-plugins-core-2.49.3-6.3.aarch64.rpm"
-RPM_HASH = "eed9b991466b38ca4b54d8842a25574bc7f1f8447e03eac65de8858b3f6829a79b8a0f51c87b1b2e87a5118a1a7178a9893d818ee7a4238a6a5f6902d38d3e4b"
+RPM_NAME = "graphviz-plugins-core-2.49.3-6.4.aarch64.rpm"
+RPM_HASH = "c86c3b644d5458f5e3e6213623b017ecd760c50064373c13a0ae93abb9cb857436fc161da9f44a0ae9d1b7b72b712be87fe47d975691220051540c879890cdee"
 
 RPROVIDES:${PN} += "graphviz-plugins-core \
 libgvplugin-core.so.6 \

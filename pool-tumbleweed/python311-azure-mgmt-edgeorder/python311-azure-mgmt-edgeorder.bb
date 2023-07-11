@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "1.0.0.0"
 
-RPM_NAME = "python311-azure-mgmt-edgeorder-1.0.0.0-1.6.noarch.rpm"
-RPM_HASH = "d035aebc5ad27d7594faeeb168391e64740912bac3458fb97e32ea075117a6ab46ae2802fac8c6f65381db3ecbe94f373d8c2fedc669a5ac7552e2f0bf2723e4"
+RPM_NAME = "python311-azure-mgmt-edgeorder-1.0.0.0-1.7.noarch.rpm"
+RPM_HASH = "6c2882d3969c71d641a2020917d6919887dd88565f0d0d86f4ea881d60b2bef126c658d68d8c2097b269d8bc10adf11bc1ca9aa90a7507eecd6f34b6692de51f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-edgeorder \
+RPROVIDES:${PN} += "python3-azure-mgmt-edgeorder \
+python3.11dist-azure-mgmt-edgeorder \
 python311-azure-mgmt-edgeorder \
 python3dist-azure-mgmt-edgeorder"
 

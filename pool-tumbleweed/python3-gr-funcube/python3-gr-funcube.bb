@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "3.10.0.rc3"
 
-RPM_NAME = "python3-gr-funcube-3.10.0.rc3-1.1.aarch64.rpm"
-RPM_HASH = "891f97d96d46273d475f86e384f04953bbc4c959f47a0ec9f742c7a1123ff3371a784880fea8bb281eccd153902f5d7efc0e690e6f6bf5d8d77958a3326fd494"
+RPM_NAME = "python3-gr-funcube-3.10.0.rc3-1.2.aarch64.rpm"
+RPM_HASH = "64be46669cfa3f107dded67cebd0914a39c4c7e76a56d40a0c58fd07e1e6239679262d4ca88d3f5e00b4ac8f2d9fd23afca07bd677b0114e81fc43e72ee63e46"
 
 RPROVIDES:${PN} += "python3-gr-funcube"
 

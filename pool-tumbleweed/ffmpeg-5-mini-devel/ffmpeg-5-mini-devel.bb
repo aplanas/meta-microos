@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.1.3"
 
-RPM_NAME = "ffmpeg-5-mini-devel-5.1.3-1.1.aarch64.rpm"
-RPM_HASH = "60a58203a3d3e482e8b7d0ea90f8cd018003c11f335bb874d7b8722116f2e633fdf54ea7ea96cefe7bbf36bed1a22d6e32a2415423a90b78a39c201b4e59b55a"
+RPM_NAME = "ffmpeg-5-mini-devel-5.1.3-2.1.aarch64.rpm"
+RPM_HASH = "b044f195bb28e204ab3e10db3b1ffe15032d6d739f2a93fa1c9e3ba428e2523b21e49dbebdd1e04b79f1d21e84702b06833a200d7582abf7f9a387a6c684357a"
 
 RPROVIDES:${PN} += "ffmpeg-5-mini-devel \
 libavcodec-devel \

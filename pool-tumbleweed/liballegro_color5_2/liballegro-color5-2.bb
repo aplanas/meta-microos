@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause & Zlib"
 
 PV = "5.2.8.0"
 
-RPM_NAME = "liballegro_color5_2-5.2.8.0-1.3.aarch64.rpm"
-RPM_HASH = "b0e60c18816703a55727b9b6b8cc157a82c28c634825bce41d0e12d352098e8d35980721f487968772f572c90c49b92c36e6af829336fa65a5f89622ce43cbb9"
+RPM_NAME = "liballegro_color5_2-5.2.8.0-1.4.aarch64.rpm"
+RPM_HASH = "d1ade46edac241a1100237792fc56f22617e4f27e5f695c711718dd0e2b167f96023d653beb6ea548d7a95f614d97971b5d1d19c2fe4b5fb38c8da4ed941e051"
 
 RPROVIDES:${PN} += "liballegro-color.so.5.2 \
 liballegro-color5-2"

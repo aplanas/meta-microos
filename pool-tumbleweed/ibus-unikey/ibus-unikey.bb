@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0"
 
 PV = "0.6.1"
 
-RPM_NAME = "ibus-unikey-0.6.1-11.15.aarch64.rpm"
-RPM_HASH = "3ea020d80d03528dc85bff46cde3993d16739cc2ca1babce8aa3d8f8f0f3d446312b6428b1787386062f0a00ceeb1358f369c29e70ea49e67bf1ee1ff2f72d52"
+RPM_NAME = "ibus-unikey-0.6.1-11.16.aarch64.rpm"
+RPM_HASH = "8f9440ffe43f8c66ed03ea021dbb197085a234745150dff5a85db7225c40380ffe77952db940223fbf638ad044ed8f28de94c80b81931089a11eb93e43c07f34"
 
 RPROVIDES:${PN} += "ibus-unikey \
 locale-ibus-vi"

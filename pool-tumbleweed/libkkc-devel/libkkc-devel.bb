@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.3.6~git20200818.e33e7fb"
 
-RPM_NAME = "libkkc-devel-0.3.6~git20200818.e33e7fb-1.17.aarch64.rpm"
-RPM_HASH = "06342099535df273e532aecf70a5afc8e6bb3b13bb7c7a7f2d9f6e1e4a0a9168e901797c330431e5b531823a42c4745168eac96e2263324b8626fe3259edcae9"
+RPM_NAME = "libkkc-devel-0.3.6~git20200818.e33e7fb-1.18.aarch64.rpm"
+RPM_HASH = "97d7b92bd39777a9ba6ead417f2d9d8ac1f32d8e439a1431733300da6792ec3748c87d52ad0b2d3f3a58620b63c5de49368116bf9b2e2e8fbfe0fa4def657a67"
 
 RPROVIDES:${PN} += "libkkc-devel \
 pkgconfig-kkc-1.0"

@@ -7,11 +7,12 @@ LICENSE = "MIT"
 
 PV = "1.50"
 
-RPM_NAME = "python311-geographiclib-1.50-1.8.noarch.rpm"
-RPM_HASH = "0536cdd4a819d8ed53cfd38188e310bfccb17977abda5b8ea29fb7fc40ee61e7d51fffd08f826a9c39a10410b55ecbe13c0de5bfa3b5d1867159bf2d2ba1ccc9"
+RPM_NAME = "python311-geographiclib-1.50-2.1.noarch.rpm"
+RPM_HASH = "5b98a9b77ea28f30e939b55762454006731e6377009bde96231420349448e0eb436a870a9595455f8c989aed56ed7afbee4ba00b6dffe2bcb9b94c15857c0591"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-geographiclib \
+RPROVIDES:${PN} += "python3-geographiclib \
+python3.11dist-geographiclib \
 python311-geographiclib \
 python3dist-geographiclib"
 

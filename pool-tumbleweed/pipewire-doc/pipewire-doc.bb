@@ -2,10 +2,10 @@ SUMMARY = "PipeWire media server documentation"
 DESCRIPTION = "This package contains documentation for the PipeWire media server."
 LICENSE = "MIT"
 
-PV = "0.3.71"
+PV = "0.3.72"
 
-RPM_NAME = "pipewire-doc-0.3.71-3.1.aarch64.rpm"
-RPM_HASH = "5bbbcf8987afbabb821ab03bb209e8a4a1dd06c0b2f473d0d67404daaf953cdb5e855a4d6932f7c849d01af249990cbbacd4fcc298b733f036bfefbffe14302c"
+RPM_NAME = "pipewire-doc-0.3.72-1.1.aarch64.rpm"
+RPM_HASH = "879b6da84f707aee97a9513288999e017cb66f23cb6b82fd7a9dce1b898917c2557e5a8775878bdb4d3482275034bcc00e783763b48a3a15d71a1302a4248b77"
 
 RPROVIDES:${PN} += "pipewire-doc"
 

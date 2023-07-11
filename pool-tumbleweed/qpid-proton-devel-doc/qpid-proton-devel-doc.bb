@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.38.0"
 
-RPM_NAME = "qpid-proton-devel-doc-0.38.0-1.4.noarch.rpm"
-RPM_HASH = "45a20889b8d0ba8c58c9aa3d72f61785a128784a7411be3adc91dd7a3f81ad532e6fc019e71b384ad73941b43136587dac9fb57bdf0fd37de182da7bff332098"
+RPM_NAME = "qpid-proton-devel-doc-0.38.0-1.6.noarch.rpm"
+RPM_HASH = "4c1d1dd023bb89e8ff75e23be9c7e01417fb3687652c1cf7f3938ff9e8c8f7a6089dd29baf08ba623675af4402ff919c7cf6bfc456a0224bb3abbb2dce709ec2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qpid-proton \

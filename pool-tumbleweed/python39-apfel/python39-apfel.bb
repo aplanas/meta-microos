@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.0.6"
 
-RPM_NAME = "python39-apfel-3.0.6-1.17.aarch64.rpm"
-RPM_HASH = "8c9b8e555125c2cc02e8a06f28dd23dfcbc42a2979754882eb8e287ef97bbb12b5a5a0dc8687aa0a47af7aba38274bf2528cc7f23ae2a20a6b3963d6902ddd09"
+RPM_NAME = "python39-apfel-3.0.6-1.19.aarch64.rpm"
+RPM_HASH = "c83c7065f110cf572974e51a2f677805be493648ae78a64a5097003c63620d1c598ce5584d74472cd36926f354e67adb4d15890a7622671d1fd6626b2928bb56"
 
 RPROVIDES:${PN} += "python3.9dist-apfel \
 python39-apfel \

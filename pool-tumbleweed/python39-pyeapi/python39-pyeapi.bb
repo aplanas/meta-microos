@@ -15,8 +15,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.8.4"
 
-RPM_NAME = "python39-pyeapi-0.8.4-3.6.noarch.rpm"
-RPM_HASH = "9547251fefd4f1173cfdae61a3aabde000629a5c07488b46bf7a17a5628e6cc7a2d0e46e4b3b0bfa384ebe62128d7bc20b06d5ca57c8c43bb1189f1ad1ca8b6e"
+RPM_NAME = "python39-pyeapi-0.8.4-3.8.noarch.rpm"
+RPM_HASH = "bcd6970671423db61c9f892c13fc733feb29fc06c32dea3c947dee1b02b5442354194c2740c1f3c14901a4b21a2112cdbf69715882952cd24f2509e678c975c3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyeapi \

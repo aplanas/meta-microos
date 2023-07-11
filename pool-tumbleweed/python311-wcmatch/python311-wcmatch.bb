@@ -19,11 +19,12 @@ LICENSE = "MIT"
 
 PV = "8.4.1"
 
-RPM_NAME = "python311-wcmatch-8.4.1-2.1.noarch.rpm"
-RPM_HASH = "8559e9d0fd1f1b29a9968f0f4bdf56249f868c2289976328d94d7bd8c81897b7754ee7ccc74d1c2e50717a5c954c9f2fcfa0cd210f2a93b2981719f2183985fa"
+RPM_NAME = "python311-wcmatch-8.4.1-2.3.noarch.rpm"
+RPM_HASH = "78bca68d5f2b0bb6d5c985ba93ab67c498a6b589bfa05d2d9f7d578ad1bb08be4f30571be448578f210a07fbd362698dbe43b0fa6a9846cc1a366205ec776f0e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-wcmatch \
+RPROVIDES:${PN} += "python3-wcmatch \
+python3.11dist-wcmatch \
 python311-wcmatch \
 python3dist-wcmatch"
 

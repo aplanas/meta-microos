@@ -6,10 +6,10 @@ that have a look at the example archive sites and some of the other \
 resources available in the links section."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.1.19"
+PV = "8.2.7"
 
-RPM_NAME = "php8-fpm-8.1.19-2.1.aarch64.rpm"
-RPM_HASH = "9b2970231ae7848b9a5bedd31b86b15cf309102869a4cf0c910c518539f2febc4043ba51852605dd6e53b814af5f5eec1c4bbcd2800c123a49dc593a06fd3ff4"
+RPM_NAME = "php8-fpm-8.2.7-1.1.aarch64.rpm"
+RPM_HASH = "995cc484c0cc7f67a6d7f34ed2f5276697e0031fc85730913c9bfee93ea0c0018e68728cf4d825f0353e895f9155e116bc828c506fb07501d82f46d94884fd32"
 
 RPROVIDES:${PN} += "config-php8-fpm \
 php-fpm \

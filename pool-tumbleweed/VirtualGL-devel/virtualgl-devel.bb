@@ -21,8 +21,8 @@ LICENSE = "LGPL-2.1-only & SUSE-wxWidgets-3.1"
 
 PV = "3.0.2"
 
-RPM_NAME = "VirtualGL-devel-3.0.2-1.3.aarch64.rpm"
-RPM_HASH = "9eda29969f25a839eb4519aeaf9996fd38169397f880a761bf0186ac5313cfb65b3b5b9bc50e41c204affd8ab6349dfa94cfbbfcedc98626a09130c82a8eb20f"
+RPM_NAME = "VirtualGL-devel-3.0.2-1.4.aarch64.rpm"
+RPM_HASH = "36a5f1eb808bd1853429a18949c68d37bce0d0fbe0902509d776610a09d44c2f23d4f610ba598c7ba6e023949a3d28c2536cc6e594a9f921b3f810b4a38c8bbd"
 
 RPROVIDES:${PN} += "VirtualGL-devel"
 

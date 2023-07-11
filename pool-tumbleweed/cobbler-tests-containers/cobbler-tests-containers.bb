@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.3.3"
 
-RPM_NAME = "cobbler-tests-containers-3.3.3-1.1.noarch.rpm"
-RPM_HASH = "597a9a498edb75bfb4ad23742b5ba3dbeb90d3c47490fd96a048319756dc26c4297b3a6f47296e8d9e7942a19b64b4d8f225870db7af653f0ad3c55979b7dda5"
+RPM_NAME = "cobbler-tests-containers-3.3.3-1.2.noarch.rpm"
+RPM_HASH = "69586a3d43bf258b35eaf02815cc76d919d7948de587b959ce6ad6262ab660b03f09802ee389aece4a854dd50e84b18e5d057caff22b28547c8b9acca23f05ee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cobbler-tests-containers"

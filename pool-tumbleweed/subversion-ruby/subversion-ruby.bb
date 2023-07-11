@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.14.2"
 
-RPM_NAME = "subversion-ruby-1.14.2-5.3.aarch64.rpm"
-RPM_HASH = "89864ad34efe9fb1fe981a8f38e395189c6783e999000c777c5bab8c08b5354430fe9f38696df4b38fe00862114d97cd969ea239ff90ab85f37443f44415481c"
+RPM_NAME = "subversion-ruby-1.14.2-6.1.aarch64.rpm"
+RPM_HASH = "5f2dac2511eaa2f365e193e71dfd9a1bd8e9ce144424f0fd8129e83fbc448e90a5aa6c3b85f30b8bf8af4d6a39e143af8c8f80afacde01e55d0628e3b0092719"
 
 RPROVIDES:${PN} += "libsvn-swig-ruby-1.so.0 \
 subversion-ruby"

@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "0.7.0"
 
-RPM_NAME = "xdg-desktop-portal-wlr-0.7.0-1.1.aarch64.rpm"
-RPM_HASH = "9c3ba13411f2e6e2a2a14ca4288433db05d4f126a4d159b66c67a230a4e2eb3c7eab1a0506dfb7bea1e1b9bd47341d8586b81265997ffe38d12ce488d96707b5"
+RPM_NAME = "xdg-desktop-portal-wlr-0.7.0-1.2.aarch64.rpm"
+RPM_HASH = "bc354ffa329c0f7ac14c46b3cf2222e2e46c90a9aedb5256946ad42d5ab4425f18d570a09ad599efb432dd925c86c137cb02b317baa80e4865f7599de7c37f31"
 
 RPROVIDES:${PN} += "xdg-desktop-portal-wlr"
 

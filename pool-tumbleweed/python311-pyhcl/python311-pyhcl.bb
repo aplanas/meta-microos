@@ -4,11 +4,12 @@ LICENSE = "MPL-2.0"
 
 PV = "0.4.4"
 
-RPM_NAME = "python311-pyhcl-0.4.4-2.14.noarch.rpm"
-RPM_HASH = "eaa7254e9791e13a8b3df48535ed2f5499de7c1729960757a9367e3836575b440310db7b0528bcf08e8ac1128ed05bf97dcda6da076ee86c67c206c57064f0b7"
+RPM_NAME = "python311-pyhcl-0.4.4-2.16.noarch.rpm"
+RPM_HASH = "b8afa17610885b584a660980ce66bcc1411e1a0bb486dafe8935ee41c215730bafe6bdfda8501eea26748bf3f8068c42310a311c46de98dbebcea5cfcad2c407"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pyhcl \
+RPROVIDES:${PN} += "python3-pyhcl \
+python3.11dist-pyhcl \
 python311-pyhcl \
 python3dist-pyhcl"
 

@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.1.6"
 
-RPM_NAME = "netcalc-2.1.6-2.8.aarch64.rpm"
-RPM_HASH = "5dfe2a77933d53ba90c7a4b86fdc05c02e83696fbec8a8d8e5fc77e713fe955fc5f39619830462c5a245e79e368ffbd1bb74f42c3c75ea21fec008a367b6e46b"
+RPM_NAME = "netcalc-2.1.6-2.9.aarch64.rpm"
+RPM_HASH = "473d2851c4289a92f1bd21e5ef91fb269c35abf2460aa0b299489891cf6a332febcb0160db5ccc7c601e78f06cfca263d203579dbddd4b0622c3ac06254f53f9"
 
 RPROVIDES:${PN} += "netcalc"
 

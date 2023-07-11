@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.4.0"
 
-RPM_NAME = "typelib-1_0-Hinawa-2_0-2.4.0-1.6.aarch64.rpm"
-RPM_HASH = "fd1873edb1eaafbcb415bd1efd4dcb0aa0934f488dd896045c14e63d71378f09b6608c645479c32c401400248c43c7173b096ddaccff3200736cb85152bc30b8"
+RPM_NAME = "typelib-1_0-Hinawa-2_0-2.4.0-1.7.aarch64.rpm"
+RPM_HASH = "098e6dfa3d67cb0d876c99484de419b6f85b5f0b2e69618054dc8b1e9e411fc8677494409b80b265f72b13cf5888cd0bd7e2249b3d0f8690b5da9d437b303041"
 
 RPROVIDES:${PN} += "typelib-1-0-Hinawa-2-0 \
 typelib-Hinawa"

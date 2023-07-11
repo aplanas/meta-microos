@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.3"
 
-RPM_NAME = "ghc-wizards-devel-1.0.3-5.3.aarch64.rpm"
-RPM_HASH = "ca31dd911d99141445a407ecb34711e5da73c7e5dd7b3e69a443a2825fae9797928093d30746f1b5959f67b9fc5cf70d87c413ede391d08fbcc4266b54c01b60"
+RPM_NAME = "ghc-wizards-devel-1.0.3-6.3.aarch64.rpm"
+RPM_HASH = "e9c63b17601c6d81692f1aeedf1444941e73d1dad66e51d8b9d1ae7a54e0e8bee024d2ed803ff1a4789e536329de544de3f28de4cdfaff5ef2ed28fe7efc0877"
 
 RPROVIDES:${PN} += "ghc-devel-wizards-1.0.3-1eOj2T9eMm8Jj6cnosVGZb \
 ghc-wizards-devel"

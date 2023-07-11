@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python310-ansel-1.0.0-2.1.noarch.rpm"
-RPM_HASH = "22b176c950ed57964f6c04b16b6f7d575281e94869b52999ffd6ed5e32b060bd8348a11eded882571eb53d6683c309df3392ed6a357f0be40dc8385db85d81ea"
+RPM_NAME = "python310-ansel-1.0.0-2.3.noarch.rpm"
+RPM_HASH = "e17f737294d42826a090e0f66df4f31575c1b2607cce96aa58e8a1285c516f5d611a39bb0f0e3bd53bb09fd26714631e6e3fd406ee3a86e9a47e0074d0ad9e2e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-ansel \
-python3.10dist-ansel \
+RPROVIDES:${PN} += "python3.10dist-ansel \
 python310-ansel \
 python3dist-ansel"
 

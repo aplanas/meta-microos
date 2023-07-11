@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.4.21"
 
-RPM_NAME = "xapian-core-doc-1.4.21-1.3.aarch64.rpm"
-RPM_HASH = "baf243c8145aecf24e1247b0041ba3fa47fabc6892e14db8fba40f892d6dd3e72d505c4c6864f7d9e668700e8b05e4a9343e2fc39d0f48843cbaf2a3379f2f4d"
+RPM_NAME = "xapian-core-doc-1.4.21-1.4.aarch64.rpm"
+RPM_HASH = "ebcbc50aa8c29fc2f21604e52253c37b00057847faee5c4220a6da950c13aab67462b5f4408f28ce8fdb5249b0bb78b5acf050e423e13823b6c12c868ff56bff"
 
 RPROVIDES:${PN} += "xapian-core-doc"
 

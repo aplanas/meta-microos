@@ -5,12 +5,10 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0.23"
 
-RPM_NAME = "python310-pysmbc-1.0.23-3.8.aarch64.rpm"
-RPM_HASH = "a353c85373a6e953ed9b91fd5741aa7903bd2141e797141980be03bde95e224037034c3ec433177b8816cd6137052db44493b3dba05bc0e49aba2d6db4a945f2"
+RPM_NAME = "python310-pysmbc-1.0.23-3.10.aarch64.rpm"
+RPM_HASH = "a105642c70138923990766dcfadd56062279f1c74b620120c4b6840ac9894289dc13c589b86031cd132da2247504f0ab37a5cd663045f1833fde8954483a3798"
 
 RPROVIDES:${PN} += "python-smbc \
-python3-pysmbc \
-python3-smbc \
 python3.10dist-pysmbc \
 python310-pysmbc \
 python310-smbc \

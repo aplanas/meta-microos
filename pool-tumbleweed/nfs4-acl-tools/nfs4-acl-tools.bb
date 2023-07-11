@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3.7"
 
-RPM_NAME = "nfs4-acl-tools-0.3.7-2.6.aarch64.rpm"
-RPM_HASH = "dc2d5d8db576c3ba4c751f553717a64c49d61882fdf867736ffe8dfacada0aa5e5c2c95b989e1d93edc2382c92ad9bcf3c5ffe945ea3bc49bad27b3ebe76b260"
+RPM_NAME = "nfs4-acl-tools-0.3.7-2.7.aarch64.rpm"
+RPM_HASH = "6638351da0ac8b0c5f87ad72c3809ef24f6dde2c8dd0de61794c7e4c07c0e3e23a08d9952713881ceaf541e4d9251c699313ee1eac4c16402d6001405968e92e"
 
 RPROVIDES:${PN} += "nfs4-acl-tools"
 

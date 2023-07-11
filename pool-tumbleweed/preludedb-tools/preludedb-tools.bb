@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-only & GPL-3.0-or-later"
 
 PV = "5.2.0"
 
-RPM_NAME = "preludedb-tools-5.2.0-2.10.aarch64.rpm"
-RPM_HASH = "5bd6ba8c6291434f26386b711021e3b3c174b6d8db9f0c5ea1cdc091f35ef98abf01a0ea6b4f470754a111ca2ef4ec0fed079bb2573666b8b81c1be7987dc5a0"
+RPM_NAME = "preludedb-tools-5.2.0-2.12.aarch64.rpm"
+RPM_HASH = "6362cd24badd181d23d5c74223b9dd7a20a522bc11692b9ed9730865261a8b198c93bd8f8411f854bb194983ea5b9078e03b4faf258e46382bf0c37e939ec7ae"
 
 RPROVIDES:${PN} += "preludedb-tools"
 

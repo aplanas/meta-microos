@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "14.2.0"
 
-RPM_NAME = "python311-django-bootstrap3-14.2.0-2.6.noarch.rpm"
-RPM_HASH = "465f8e946b392d6b2145c373ad1fd79965a3d69593caa5be7d2d2ee431305746a0f54d8bc773a3716acf18eab8b1ed563738f5b72c619c8fce0ddb26599d04e8"
+RPM_NAME = "python311-django-bootstrap3-14.2.0-2.8.noarch.rpm"
+RPM_HASH = "b183cc3d60e2b00d095e3754f2936a09b73eb28b2bb3666f6858f804514e32c5b0fd66f03916d6d72c72bd10ca020f08527c6e09cb849427318fa171b7627225"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-django-bootstrap3 \
+RPROVIDES:${PN} += "python3-django-bootstrap3 \
+python3.11dist-django-bootstrap3 \
 python311-django-bootstrap3 \
 python3dist-django-bootstrap3"
 

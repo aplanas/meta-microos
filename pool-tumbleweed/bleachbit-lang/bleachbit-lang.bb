@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "4.4.2"
 
-RPM_NAME = "bleachbit-lang-4.4.2-2.1.noarch.rpm"
-RPM_HASH = "59dc99816e16e56cf5355415c861db3d5bb10fc6775d86b0aab14a2db1b500e16c3abcefd357517bfc300b94480d919d9a16f3d1e0f08dc90c262bf3345e3ddc"
+RPM_NAME = "bleachbit-lang-4.4.2-2.2.noarch.rpm"
+RPM_HASH = "645669c839a624ebd32669c0a6407ebb08cc5f67859b91627e92413eaaa9d1c7d46f0cb89c111e7fefc215633f9ee03bf5faccafa3c864dd5528dbfd859153df"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bleachbit-lang \

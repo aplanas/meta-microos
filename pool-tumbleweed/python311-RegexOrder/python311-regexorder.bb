@@ -8,11 +8,12 @@ LICENSE = "MIT"
 
 PV = "0.2"
 
-RPM_NAME = "python311-RegexOrder-0.2-4.13.noarch.rpm"
-RPM_HASH = "8525269653f187f8b417661fcf1865c07d9ac104e7137a7beacf89db0f2fc464abd5049354f86e70321182fe272fa4233922b35ff9ae5fd7617242f00e9f8d37"
+RPM_NAME = "python311-RegexOrder-0.2-4.15.noarch.rpm"
+RPM_HASH = "1340af6a24a6fda1deeb6002ba80b3dd6caf07b83e1db4b9c58f042cf7134b9434755e71273d47e94a5895d774cda8a0e99667895eaa85c9ae771f3105fe35ce"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-regexorder \
+RPROVIDES:${PN} += "python3-RegexOrder \
+python3.11dist-regexorder \
 python311-RegexOrder \
 python3dist-regexorder"
 

@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.8.1"
 
-RPM_NAME = "libcacard0-2.8.1-1.7.aarch64.rpm"
-RPM_HASH = "9192e10fdac24ee4dcf0f216cbe827ce241c8d34da6a4fa4bef821b6233967cfe0e0a6a1301e8061c8e920bdebc688ab420f53e6290cfe63799db28fcfaa0e98"
+RPM_NAME = "libcacard0-2.8.1-1.8.aarch64.rpm"
+RPM_HASH = "b4c3b72d8f9bf9c1f8606e1949037aace463a1828134e6e605fb2c2460c6bf15a803fbe7fe3780f1d1eba7af920197e5852099a88ae02ce45fd1795a62c579d7"
 
 RPROVIDES:${PN} += "libcacard.so.0 \
 libcacard0"

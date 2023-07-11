@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.25.0"
 
-RPM_NAME = "libpurple-plugin-sipe-1.25.0-2.10.aarch64.rpm"
-RPM_HASH = "f3b583c9401fd4dd412ceef8900d9421f0d3dffa378cf91ee5d66b97c541550b6677a09321bd546878ad78c58f4b0d0258a05a808974049c91731ecb60da7941"
+RPM_NAME = "libpurple-plugin-sipe-1.25.0-2.12.aarch64.rpm"
+RPM_HASH = "79656f6b7c623c4b39fd36de0e3ef732840e738cf4e3cad961437bd105aa916f93b66870cc43bbf55f48bf373763674c0a843dbccd72f4de47976d8f1c9872cc"
 
 RPROVIDES:${PN} += "libpurple-plugin-sipe \
 libsipe.so"

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "43.0"
 
-RPM_NAME = "totem-lang-43.0-2.3.noarch.rpm"
-RPM_HASH = "25fe8f503349be539f9aeb3097ca51151178641206cf8cdab79fdd6a4604d13d2c57f15264206db36e4d99aa6af55b747e1ed5006345a5f4831533cc12a8e21e"
+RPM_NAME = "totem-lang-43.0-2.4.noarch.rpm"
+RPM_HASH = "eecbb00c46c0eb032ad08b695502297a4829fee80dc352a60b904e6ac4aeb7a2d1c7b9a4e970185dfdca4f0d55c3a263398acf5f980419c0e03fa0be52e09a14"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-totem-af \

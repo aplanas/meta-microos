@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.2.01ysvn56223"
 
-RPM_NAME = "texlive-edichokey-doc-2023.201.2.01ysvn56223-53.1.noarch.rpm"
-RPM_HASH = "645ace9818417c5054f65b6e216d0a26c03a9958a489098176f4f372a51a3ebab32ed5887a46ffe5025d20d45bd2159677b8c3bc5501ece5d330e0ea83426f4c"
+RPM_NAME = "texlive-edichokey-doc-2023.201.2.01ysvn56223-53.2.noarch.rpm"
+RPM_HASH = "9a68fc21596363fbe2b397ae4ecddb2d989c393403f5323019b159aec6eed44251f207e3bfb4db4e50f998b3c0ce400a24eccde420295eaf32a60c11f850fe35"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-edichokey-doc"

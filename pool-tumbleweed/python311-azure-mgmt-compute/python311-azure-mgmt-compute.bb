@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "30.0.0"
 
-RPM_NAME = "python311-azure-mgmt-compute-30.0.0-1.1.noarch.rpm"
-RPM_HASH = "6b57a18565276fbb15d426204e79ae1127576be3afb2759a05780ef8128b9c0a9756f47273bc0d6e3c1f2a42ea79cbe057469013e51673666bfcfad132914163"
+RPM_NAME = "python311-azure-mgmt-compute-30.0.0-1.2.noarch.rpm"
+RPM_HASH = "008a6dca9db39a743c0c92722d84891b2c0a4863e08973b7aa1322d0cecf4166e894069918e8c62c195c0bb9bdb39d507761c5858e49d19aa33d5e0ab7c1c27d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-compute \
+RPROVIDES:${PN} += "python3-azure-mgmt-compute \
+python3.11dist-azure-mgmt-compute \
 python311-azure-mgmt-compute \
 python3dist-azure-mgmt-compute"
 

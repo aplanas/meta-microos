@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.6.0"
 
-RPM_NAME = "budgie-window-shuffler-1.6.0-1.1.aarch64.rpm"
-RPM_HASH = "0ff597f5665fdbb8465526ad04bbbc791eed8b9ce22084d278530c82d5ded229b8ade584e7e65121b66b0a305a6b532e7e4bb2f15be2640fd31b68e8f55ab460"
+RPM_NAME = "budgie-window-shuffler-1.6.0-1.2.aarch64.rpm"
+RPM_HASH = "702484c59318a1482e2efc95b87ed891bab1d01f23dd3978c4b69de42af46b2b84883d67d397677277a65d876883c17604c43566a0da8f19d531895e4250aa29"
 
 RPROVIDES:${PN} += "budgie-window-shuffler \
 libshufflerapplet.so"

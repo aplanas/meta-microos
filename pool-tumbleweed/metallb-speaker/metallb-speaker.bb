@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.9.5"
 
-RPM_NAME = "metallb-speaker-0.9.5-1.13.aarch64.rpm"
-RPM_HASH = "4223d9ad26e51662ef3ebe3f0dda57ee1e28ea4e539feff5e10774a630872ea6ef132f0dc8dc90f1e0312edd0d54aad492387601aa37f3480875114d78acb08d"
+RPM_NAME = "metallb-speaker-0.9.5-1.14.aarch64.rpm"
+RPM_HASH = "25574833967e447e2f144eff989521d0888ef287ecd53aa23e8f9b3f65d6bca7cd550589da2452db7c8b3c1d0f6944a3a0673dedb412a152e787d6cd3300ffcd"
 
 RPROVIDES:${PN} += "metallb-speaker"
 

@@ -2,10 +2,10 @@ SUMMARY = "Action & Puzzle Solving Game"
 DESCRIPTION = "KGoldrunner is a game of action and puzzle solving"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kgoldrunner-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "cc6dcb7b304df81bb30890b562bbc3fb56e273e84a40be6b457c3ef8313a5637edd8457a260092ba39e36c13803a4866b8f40d7534acf366e46c8e36e1c9bef9"
+RPM_NAME = "kgoldrunner-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "98615df3829d782c97b56966159bc26ddc3f4e73c0171b4402f0a42275170fbb8cf16be6d426150c23174827cb5d1d4f64185be7d845b8a8c3c651ca18357d4e"
 
 RPROVIDES:${PN} += "kgoldrunner"
 

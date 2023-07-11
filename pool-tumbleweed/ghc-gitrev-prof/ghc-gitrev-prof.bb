@@ -4,15 +4,15 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.1"
 
-RPM_NAME = "ghc-gitrev-prof-1.3.1-9.2.aarch64.rpm"
-RPM_HASH = "65bcb709aca35e70404502a156a8dd951307b663c23801c310b69f79026a6edcaf51002248d4775d816ea941fb6d6d31564d487acb412ab5e26d72a88c6e4a75"
+RPM_NAME = "ghc-gitrev-prof-1.3.1-9.3.aarch64.rpm"
+RPM_HASH = "49455ac27a196c02a448562ffd6e369bc49799f681ebf9b3e8e7dd7a46ed396bacceae80fa57067360af29ad5ff86bb79678cabdd5f093eba4af2dd038a3609d"
 
 RPROVIDES:${PN} += "ghc-gitrev-prof \
-ghc-prof-gitrev-1.3.1-Fh7rxVehK3vCpE8f2RFTGz"
+ghc-prof-gitrev-1.3.1-CQYGfdCfGPeA3DF217wQTZ"
 
 RDEPENDS:${PN} += "ghc-gitrev-devel \
 ghc-prof-base-4.17.1.0 \
-ghc-prof-base-compat-0.12.2-L1DEOlMQJOdFOKsjHoWYov \
+ghc-prof-base-compat-0.13.0-Cvz3167VMpo6rdOohSlum3 \
 ghc-prof-directory-1.3.7.1 \
 ghc-prof-filepath-1.4.2.2 \
 ghc-prof-process-1.6.16.0 \

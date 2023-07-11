@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
 PV = "4.2.0"
 
-RPM_NAME = "sdcc-libc-sources-4.2.0-1.3.noarch.rpm"
-RPM_HASH = "1b381f80cf60ff9191567785915a2116fc802de1f98e5eeebaaeb4a95619ab9c667efd27449002f741aa2047b8b86de141a33b766108603024fa85bc2200e02c"
+RPM_NAME = "sdcc-libc-sources-4.2.0-1.4.noarch.rpm"
+RPM_HASH = "8ebd13be45ab750fa8c0120981f011cf426a000142a542380e5a269dc035b88669cf9518ccf77ab5074d0e0cab39ecd8735ef81ebe8f549a983c52c00252c4e4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sdcc-libc-sources"

@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "0.3.5"
 
-RPM_NAME = "python311-paramiko-expect-0.3.5-1.1.noarch.rpm"
-RPM_HASH = "c9b3928504768945755e0bf77fe3b2ac135555830ee1199601faefeb70ba880b235731dca6e02220876c22dc3473050ead01d6fdc83259ba4275afd9ee8ad291"
+RPM_NAME = "python311-paramiko-expect-0.3.5-1.3.noarch.rpm"
+RPM_HASH = "20b43b623c31dc092afe529b31aca333df540339a31cf178f3e32c80e0311293b707f077d789b3c2e9c2feb26d81aa5a67f5d278e059af41d802e27686ca21ce"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-paramiko-expect \
+RPROVIDES:${PN} += "python3-paramiko-expect \
+python3.11dist-paramiko-expect \
 python311-paramiko-expect \
 python3dist-paramiko-expect"
 

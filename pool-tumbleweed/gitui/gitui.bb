@@ -13,15 +13,19 @@ DESCRIPTION = "TUI for git with the following features: \
   * Submodule support"
 LICENSE = "(Apache-2.0 | MIT) & Unicode-DFS-2016 & (0BSD | MIT | Apache-2.0) & (Apache-2.0 | BSL-1.0) & (Apache-2.0 | MIT) & (Apache-2.0 | Apache-2.0-with-LLVM-exception | MIT) & (Artistic-2.0 | CC0-1.0) & (Apache-2.0 | MIT | Zlib) & (Apache-2.0 | MIT | Zlib) & (MIT | Unlicense) & (Apache-2.0 | Zlib | MIT) & Apache-2.0 & BSD-2-Clause & BSD-3-Clause & CDDL-1.0 & ISC & MIT & MIT"
 
-PV = "0.22.1"
+PV = "0.23.0"
 
-RPM_NAME = "gitui-0.22.1-2.3.aarch64.rpm"
-RPM_HASH = "c4d4341edb71c9295c31ab529cdea5a5673f1cb7ddac0c36bb7d574ae16731aa834165bc38a56fd85c12a59fe3df4a6861f95dad35fdc8f7a2cf398c178a43be"
+RPM_NAME = "gitui-0.23.0-1.1.aarch64.rpm"
+RPM_HASH = "dba3c4ff6a775bcf4e16fed8491b1620bbda2b9a8c9c4934789369b44a9b8eebe250b12778b7e23301a37fee897de89715b097945fe8d051e26ce7908ade87c5"
 
 RPROVIDES:${PN} += "bundled-rust-crate-addr2line \
 bundled-rust-crate-adler \
 bundled-rust-crate-ahash \
 bundled-rust-crate-aho-corasick \
+bundled-rust-crate-anstream \
+bundled-rust-crate-anstyle \
+bundled-rust-crate-anstyle-parse \
+bundled-rust-crate-anstyle-query \
 bundled-rust-crate-anyhow \
 bundled-rust-crate-asyncgit \
 bundled-rust-crate-autocfg \
@@ -38,7 +42,9 @@ bundled-rust-crate-cc \
 bundled-rust-crate-cfg-if \
 bundled-rust-crate-chrono \
 bundled-rust-crate-clap \
+bundled-rust-crate-clap-builder \
 bundled-rust-crate-clap-lex \
+bundled-rust-crate-colorchoice \
 bundled-rust-crate-crc32fast \
 bundled-rust-crate-crossbeam-channel \
 bundled-rust-crate-crossbeam-deque \
@@ -90,23 +96,25 @@ bundled-rust-crate-mio \
 bundled-rust-crate-notify \
 bundled-rust-crate-notify-debouncer-mini \
 bundled-rust-crate-num-cpus \
-bundled-rust-crate-num-integer \
 bundled-rust-crate-num-traits \
 bundled-rust-crate-object \
 bundled-rust-crate-once-cell \
 bundled-rust-crate-openssl-probe \
 bundled-rust-crate-openssl-src \
 bundled-rust-crate-openssl-sys \
-bundled-rust-crate-os-str-bytes \
+bundled-rust-crate-option-ext \
 bundled-rust-crate-parking-lot \
 bundled-rust-crate-parking-lot-core \
 bundled-rust-crate-percent-encoding \
 bundled-rust-crate-phf \
 bundled-rust-crate-phf-shared \
 bundled-rust-crate-pkg-config \
+bundled-rust-crate-proc-macro-error \
+bundled-rust-crate-proc-macro-error-attr \
 bundled-rust-crate-proc-macro-hack \
 bundled-rust-crate-proc-macro2 \
 bundled-rust-crate-quote \
+bundled-rust-crate-ratatui \
 bundled-rust-crate-rayon-core \
 bundled-rust-crate-regex \
 bundled-rust-crate-regex-syntax \
@@ -130,10 +138,11 @@ bundled-rust-crate-siphasher \
 bundled-rust-crate-smallvec \
 bundled-rust-crate-smawk \
 bundled-rust-crate-strsim \
+bundled-rust-crate-struct-patch \
+bundled-rust-crate-struct-patch-derive \
 bundled-rust-crate-syn \
 bundled-rust-crate-syntect \
 bundled-rust-crate-sys-info \
-bundled-rust-crate-termcolor \
 bundled-rust-crate-textwrap \
 bundled-rust-crate-thiserror \
 bundled-rust-crate-thiserror-impl \
@@ -143,7 +152,6 @@ bundled-rust-crate-time-core \
 bundled-rust-crate-time-macros \
 bundled-rust-crate-tinyvec \
 bundled-rust-crate-tinyvec-macros \
-bundled-rust-crate-tui \
 bundled-rust-crate-unicode-bidi \
 bundled-rust-crate-unicode-ident \
 bundled-rust-crate-unicode-linebreak \
@@ -152,6 +160,7 @@ bundled-rust-crate-unicode-segmentation \
 bundled-rust-crate-unicode-truncate \
 bundled-rust-crate-unicode-width \
 bundled-rust-crate-url \
+bundled-rust-crate-utf8parse \
 bundled-rust-crate-version-check \
 bundled-rust-crate-walkdir \
 bundled-rust-crate-which \

@@ -14,8 +14,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.10"
 
-RPM_NAME = "apache-commons-configuration-1.10-4.6.noarch.rpm"
-RPM_HASH = "3cd5aea340f9c1f3931ebaae3065efbf37124b29574bb114edcc96e1f90652082af7535dc4999cd0c22193b1388ddd512e205f4d7e3224c44907e1e2a506896d"
+RPM_NAME = "apache-commons-configuration-1.10-4.7.noarch.rpm"
+RPM_HASH = "31f555a3e99e089a0a33678522b97ffe737a6f1f04c4f5f6ad5987f049ae18aa4b981b7ca2ec7d0097d31a1d58381442970f09d8043c497558fec9d875ba3378"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-configuration \

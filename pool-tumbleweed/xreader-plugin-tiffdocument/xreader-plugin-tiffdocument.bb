@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.0-only"
 
 PV = "3.4.5"
 
-RPM_NAME = "xreader-plugin-tiffdocument-3.4.5-1.4.aarch64.rpm"
-RPM_HASH = "ef447f678e42f697c94709717f91d33c84591c22651f742cd6a4075dbbd2baa2aeefea52cdedf498e769c1b737ea1e93844473382aaaebdae51712858315324e"
+RPM_NAME = "xreader-plugin-tiffdocument-3.4.5-1.5.aarch64.rpm"
+RPM_HASH = "53473b6f005b41bf5a0331a2ef7a4c5213f30db5316fc6c3c8f02cdee098d08ca78b82a80611f7a7582a15f85ec243fd4505c7e6eeafee730121ac77c3549f8a"
 
 RPROVIDES:${PN} += "libtiffdocument.so \
 xreader-plugin-tiffdocument"

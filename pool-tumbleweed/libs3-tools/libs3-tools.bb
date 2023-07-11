@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later | LGPL-3.0-or-later"
 
 PV = "4.1.git277"
 
-RPM_NAME = "libs3-tools-4.1.git277-1.15.aarch64.rpm"
-RPM_HASH = "ca82fbebc3e8c695531a18187556c8b39afc1c21722b16bd8d579b058eabac5729cebb1ad8832cc74ed866e2fab2e1f6170781e937c0831f818fa8f43ee9a62d"
+RPM_NAME = "libs3-tools-4.1.git277-1.16.aarch64.rpm"
+RPM_HASH = "f6cffaaa7e59341ee28cb0a096ccef3aecaec7bfb81997df76dc429f45546cd5acf5500a3fa4069969d002e29c29efb53c90d624bfb30c7969d5bbacac5b2d9b"
 
 RPROVIDES:${PN} += "libs3-tools"
 

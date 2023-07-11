@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "9.0.75"
 
-RPM_NAME = "tomcat-docs-webapp-9.0.75-1.1.noarch.rpm"
-RPM_HASH = "aa8756c79e0cd87e4cd82cd3e700e8abd2db39d29c434caedf36a3745b4edc0ca8280a928e8f8b633acff5527488089ccb6ff00da3846d58351d8a2affa3707e"
+RPM_NAME = "tomcat-docs-webapp-9.0.75-1.2.noarch.rpm"
+RPM_HASH = "89ffe593999943597f29b6a896bb11c7b5e09a399886ec152a18d57ae8b1fd6fa8eb2387e6a99bed47f94280dc5ad57f7de4b045d9e5a9fbb307f758fc8819d0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tomcat-docs-webapp"

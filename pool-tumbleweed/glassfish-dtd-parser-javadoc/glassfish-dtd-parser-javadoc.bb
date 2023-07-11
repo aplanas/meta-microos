@@ -4,8 +4,8 @@ LICENSE = "CDDL-1.1 & GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "1.4"
 
-RPM_NAME = "glassfish-dtd-parser-javadoc-1.4-4.18.noarch.rpm"
-RPM_HASH = "599183a5335d1c41c33f66189f5991b7721c59feb2e4a5b8450a652af22b0dfc12ce9bf9ad0a0f9a532c4f862aed90a074ec429f4e04b0919b0c5ba81d5e5c3d"
+RPM_NAME = "glassfish-dtd-parser-javadoc-1.4-4.19.noarch.rpm"
+RPM_HASH = "81015c6e35a78b116d4ba651ad6a0c6f610055177230ec6c1a60729649b32b5417b723f3f7bfdbdf941d9a83a852e1169ad9b0bcd1a572e50bd8f9712bb03ae2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-dtd-parser-javadoc"

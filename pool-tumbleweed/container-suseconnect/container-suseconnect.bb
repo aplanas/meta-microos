@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.4.0"
 
-RPM_NAME = "container-suseconnect-2.4.0-1.4.aarch64.rpm"
-RPM_HASH = "a84bacfe743ee8534887dcc1dc737e4e2499dbe53f6da3a1afc538d857c69f27de113ac8ba42e6482c54458912ef4295ceaa4a7810dacbf65a3e305358bf4904"
+RPM_NAME = "container-suseconnect-2.4.0-1.5.aarch64.rpm"
+RPM_HASH = "1f3c731942b2233cffe038537759ce933941754532dfa2279600ac25dc43dc1792bc0d4619ae86ae54bd668b514d9dfcffaf7f6ae8f5203a46c3968c4f9ad60c"
 
 RPROVIDES:${PN} += "container-suseconnect"
 

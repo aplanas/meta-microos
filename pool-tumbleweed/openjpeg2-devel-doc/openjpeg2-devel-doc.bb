@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.5.0"
 
-RPM_NAME = "openjpeg2-devel-doc-2.5.0-3.3.aarch64.rpm"
-RPM_HASH = "ea16fc69c94541c8ff5a5e04ba41da62d2b5b106695acc282390c84526206dc3f6e063c2c7e8aaeda53d71530f326e7a30fbd2c9e1e74828d9c524ee90865be8"
+RPM_NAME = "openjpeg2-devel-doc-2.5.0-3.4.aarch64.rpm"
+RPM_HASH = "7f812672a1bf49e721f89d981ec8bc32ba1478bb2e9e601a198fdc0b1f8646ecdb418e636d2ae779b55c8322739886bba51f535589abdf20e3354b882c4a308c"
 
 RPROVIDES:${PN} += "openjpeg2-devel-doc"
 

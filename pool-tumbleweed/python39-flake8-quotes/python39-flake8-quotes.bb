@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "3.3.2"
 
-RPM_NAME = "python39-flake8-quotes-3.3.2-1.3.noarch.rpm"
-RPM_HASH = "ccdd29609beca80ea36e14eac729bb86165115fbd5f2672591eac09246ffe57ce9a1b595526e5cc08fccf28e943900bb8720e3ce56ff1fb212f3dfa88da37ed3"
+RPM_NAME = "python39-flake8-quotes-3.3.2-1.5.noarch.rpm"
+RPM_HASH = "457ce6bdd8c8e2576822507ab3d6ec2e8a96c7122b2849c02cdf49b792716358e927b900824361470acb1193e97705ecd4de8d9858c4e05c372dc47f72c5d91f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-flake8-quotes \

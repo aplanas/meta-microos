@@ -11,12 +11,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.5.1"
 
-RPM_NAME = "lector-0.5.1-2.16.noarch.rpm"
-RPM_HASH = "760e086df70942fec626c803012000d58ecfeeea265950cf9baeb4474d836b117656832de6f0964c0ac8d8d304005001514968f29d4f45935442f246bed1102b"
+RPM_NAME = "lector-0.5.1-2.17.noarch.rpm"
+RPM_HASH = "d5cd8c6b7f374a2cec1a14b3f5c0c22cf1eae8b8dfb3d2ac118ce487c3cb8cf14bbf949d04a67efb50357119ba3ca15e4628bedb212e115ef52cd3bf9214d9c6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lector \
-python3.10dist-lector \
+python3.11dist-lector \
 python3dist-lector"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

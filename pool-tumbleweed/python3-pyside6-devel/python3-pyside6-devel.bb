@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later) & GPL-2.0-only & GP
 
 PV = "6.5.1"
 
-RPM_NAME = "python3-pyside6-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "81d262bfb04c9bcbf0197583e98dc9a81a2ebc76cbc210712a80fa4fc0e3aee252d87be7ad5ea8b4812c65fa05cf9d26b6bcdbcda68ef066684124d4adee395b"
+RPM_NAME = "python3-pyside6-devel-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "d96ce74b5652615b017a77268fbfae01e2f9e7223c73d41e504c6f2c8a8ad5112bda08dc9b769b8e3569ecd61aa6d5d36ab2fe1224d9cc848d92515161e36aee"
 
 RPROVIDES:${PN} += "cmake-PySide6 \
 cmake-PySide6Qml \

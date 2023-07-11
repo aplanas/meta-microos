@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
 PV = "44.2"
 
-RPM_NAME = "nautilus-lang-44.2-1.1.noarch.rpm"
-RPM_HASH = "7ff6bf33af25d7a780f863f90ac4bdd679e9b4e62f9840f09892fe6b063b493d60e9ef277feab25cc7739ca56951fdfcf124a5621856d5dd0433ffb18118783d"
+RPM_NAME = "nautilus-lang-44.2-2.1.noarch.rpm"
+RPM_HASH = "3b1ffa165952e3320dd348161fc022d8b8d03c881244607cc38a110e7726b1d086b7fc646486cffca8eece0935bb860d07faa93dd7b675abb4069e2172d7686a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-nautilus-af \

@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.21"
 
-RPM_NAME = "which-2.21-5.10.aarch64.rpm"
-RPM_HASH = "9463f097f16c871f5ee37d2c02bf3c3cb609700687fe45f7ba1abbbbc7d66ddac7a799b045aab233c5c735632d3673e2b3a84054e6e0c7091f479dcb87612ebd"
+RPM_NAME = "which-2.21-5.12.aarch64.rpm"
+RPM_HASH = "cb68e68a85c82947ecdadf810b9506c25a0ac3edb876ba55a06f0103d4f1b063067be4c439691938ec8295547c631d55996fe949cc73d59b71381a42f635451a"
 
 RPROVIDES:${PN} += "util-linux-/usr/bin/which \
 which"

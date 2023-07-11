@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.2svn65567"
 
-RPM_NAME = "texlive-gradient-text-doc-2023.201.1.2svn65567-53.1.noarch.rpm"
-RPM_HASH = "e3484e1fcac66dc373735d4ef68933bbb31f17ff5381cde574e3ae3ce8f85d46cffe7e669b985eb10b93cb5db8eec68e5840c132b8ad63ea21f8c6bc5329f853"
+RPM_NAME = "texlive-gradient-text-doc-2023.201.1.2svn65567-53.2.noarch.rpm"
+RPM_HASH = "a8fab5ef755f054b0f122e7bc765fa0e885e32e6d883e08bbabd85948a7dc24200d93dc399f0cf1af8267ed14dfc16689651662d1bc8877043515ac55ca6782c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gradient-text-doc"

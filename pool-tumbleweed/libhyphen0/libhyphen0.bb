@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0+ | LGPL-2.0+ | MPL-1.1+"
 
 PV = "2.8.8"
 
-RPM_NAME = "libhyphen0-2.8.8-2.26.aarch64.rpm"
-RPM_HASH = "d1fbbc6ffa2eb521bc8c34d8539c8fd060368ff6428d67367f275abad88518511b24a33c0e02f2467d3f23396f2106578e208c18ba47df1ae5ecdb0852044ce9"
+RPM_NAME = "libhyphen0-2.8.8-2.27.aarch64.rpm"
+RPM_HASH = "7b3742717890accd9e68f62dacb1516fde8c995d40c0619a80807efab47ff5e223c929ee6b2e770cbecdca21d418d3814dceb9c469fedea0ddad1f2a514a203c"
 
 RPROVIDES:${PN} += "libhyphen.so.0 \
 libhyphen0"

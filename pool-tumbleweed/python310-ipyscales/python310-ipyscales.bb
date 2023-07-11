@@ -6,13 +6,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.7.0"
 
-RPM_NAME = "python310-ipyscales-0.7.0-5.4.noarch.rpm"
-RPM_HASH = "fa88c183f4211b8098f136723dd07db2443ae8ca5b58c621f88924e4204571145977465c656aeb34cee736d47d4cd5faf6cc886475c8c29089522b12dd2b47ec"
+RPM_NAME = "python310-ipyscales-0.7.0-5.5.noarch.rpm"
+RPM_HASH = "5f9060a31e44f76866dfeaa48c2205ec1b1790e96756b646812b982626ac9d81d2c4b2b262eb6bef2d3180a1dd788fa15984e393f9a7e17e4dd22e92026ece03"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-ipyscales \
-python3-jupyter-ipyscales \
-python3.10dist-ipyscales \
+RPROVIDES:${PN} += "python3.10dist-ipyscales \
 python310-ipyscales \
 python310-jupyter-ipyscales \
 python3dist-ipyscales"

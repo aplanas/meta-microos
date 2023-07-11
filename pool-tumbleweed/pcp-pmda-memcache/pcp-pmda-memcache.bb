@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "5.2.5"
 
-RPM_NAME = "pcp-pmda-memcache-5.2.5-3.4.aarch64.rpm"
-RPM_HASH = "bffccb40676aa667fcc1d6127d8b6f639ff35fcb530e21e586165ca1521cac864ede287015e662f24f3169fb26cd218a3967067762e70299c34ba67927ce39f3"
+RPM_NAME = "pcp-pmda-memcache-5.2.5-3.7.aarch64.rpm"
+RPM_HASH = "b7c8375775f6b59b20dad96de15a08097ce77ba5a29f1b91dafe40fa54bb7caf2de42f9b877aa2cfec6571b94e3fbd29a41eb895ef7a2a753fbedc67b794ee65"
 
 RPROVIDES:${PN} += "pcp-pmda-memcache"
 

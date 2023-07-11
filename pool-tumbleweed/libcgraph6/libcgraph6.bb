@@ -7,8 +7,8 @@ LICENSE = "EPL-1.0"
 
 PV = "2.49.3"
 
-RPM_NAME = "libcgraph6-2.49.3-6.3.aarch64.rpm"
-RPM_HASH = "ae70791cdfdb19886dced3ad94d6e514b28b41f1b2e5880c7bb50e150693fda373364819f8743cb038de9b362ad7642becc7228c0e5eab01db3801fbbd7849be"
+RPM_NAME = "libcgraph6-2.49.3-6.4.aarch64.rpm"
+RPM_HASH = "7b29b3ea63101d4f16ffdbc8b629a17ee3aefae14ec5fe4d6ff18852f88cb2a47aeffa853992ccef355bc669f2d009ad00eb0b8867f2fb820c6ca7b0525561f8"
 
 RPROVIDES:${PN} += "libcgraph.so.6 \
 libcgraph6"

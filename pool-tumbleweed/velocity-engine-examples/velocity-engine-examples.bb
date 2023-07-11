@@ -25,8 +25,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.3"
 
-RPM_NAME = "velocity-engine-examples-2.3-3.9.noarch.rpm"
-RPM_HASH = "fdf404b8751f504a6f9f9735cbf970b5abb87a0ca5c45fc1d93e051b6bf92eca34130fe5e939a0de3e2b88f40860b074a757d4e3282cb1d92c806246c6afbe87"
+RPM_NAME = "velocity-engine-examples-2.3-3.10.noarch.rpm"
+RPM_HASH = "d1fd257363e2de5e465757a89f87cbab93dd08abf2c64ae6c2be6150b773417687f6369474df98756e391d7defe5c93b5a9c87c96347ba74cfe79ab49df73405"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.apache.velocity-velocity-engine-examples \

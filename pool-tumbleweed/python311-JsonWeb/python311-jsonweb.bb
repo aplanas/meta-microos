@@ -5,11 +5,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.8.2"
 
-RPM_NAME = "python311-JsonWeb-0.8.2-6.1.noarch.rpm"
-RPM_HASH = "6db3ec01160d0977dc175682a4e3276d83688011a2a5b536902b466702c42f71308314d9827830a861a5b560a88809d50f945431dc3cb73c9ce635f60a9d4573"
+RPM_NAME = "python311-JsonWeb-0.8.2-6.3.noarch.rpm"
+RPM_HASH = "73198871d447baef27f9330e1f480528cd58e05b34064d70feba719e058b7f0c654f60c24a806401a32eb67d57077fb0146295e05e29635021abac1813c649f9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-jsonweb \
+RPROVIDES:${PN} += "python3-JsonWeb \
+python3.11dist-jsonweb \
 python311-JsonWeb \
 python3dist-jsonweb"
 

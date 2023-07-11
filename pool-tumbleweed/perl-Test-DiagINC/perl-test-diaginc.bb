@@ -8,13 +8,13 @@ LICENSE = "Apache-2.0"
 
 PV = "0.010"
 
-RPM_NAME = "perl-Test-DiagINC-0.010-1.3.noarch.rpm"
-RPM_HASH = "7b13876909698deb0fe647541fffad6c2414f7603914ef2045ccab5a3168e2c260e4ec9db131c47cfd2b7dcd969814a6dee1453de75efd1b95e8a312d6750e1a"
+RPM_NAME = "perl-Test-DiagINC-0.010-1.4.noarch.rpm"
+RPM_HASH = "fccf7ada8e3acd3ae6b80af89a8c7fbaa06c412cf4acd7b71a718d5cd5a94e69cc93c22da6f87775d6ef968baf1837d89a6ab670037e820d20bb2773ba5cafdb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--DiagINC \
 perl-Test-DiagINC"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

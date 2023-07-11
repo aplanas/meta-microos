@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-newa-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "dc3c0adfb09b9c0c5570d96f4f398847658d8c5e187447e2b0b93cda7dbdba734a0564828bc8ea4f9bb53098c356ff19f68a891278c24d2236fdf3cf82f27540"
+RPM_NAME = "noto-sans-newa-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "231ec276e0bddc1c3cb1be4c0257ad889b8e2f9182d995343a7e1d57e83581ca5a6ee5966e960d911099283c5e8fe2440a1779c2c8cd95e641f126996eaddfd9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-newa \

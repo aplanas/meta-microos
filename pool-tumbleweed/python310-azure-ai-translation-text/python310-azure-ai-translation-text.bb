@@ -14,12 +14,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0~b1"
 
-RPM_NAME = "python310-azure-ai-translation-text-1.0.0~b1-1.1.noarch.rpm"
-RPM_HASH = "d2171005812dc927eadbfdb19146cfaa60483f0a98c1ea025e73782718656676330ca558b77ecb2085604ab7890a15e7463adf34906ed1f7287f0bd369a8ca14"
+RPM_NAME = "python310-azure-ai-translation-text-1.0.0~b1-1.2.noarch.rpm"
+RPM_HASH = "e6876b4844e05e7b978413fa7fc596336a050472ca5da58aa0018200b0432e3760e0b6bdcf687a4122e0b40bd88d5d8f28820fd2310e8977b13f024e48099b4d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-ai-translation-text \
-python3.10dist-azure-ai-translation-text \
+RPROVIDES:${PN} += "python3.10dist-azure-ai-translation-text \
 python310-azure-ai-translation-text \
 python3dist-azure-ai-translation-text"
 

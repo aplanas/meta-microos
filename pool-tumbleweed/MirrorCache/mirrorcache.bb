@@ -2,15 +2,17 @@ SUMMARY = "WebApp to redirect and manage mirrors"
 DESCRIPTION = "Mirror redirector web service, which automatically scans the main server and mirrors"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.059"
+PV = "1.060"
 
-RPM_NAME = "MirrorCache-1.059-1.1.noarch.rpm"
-RPM_HASH = "efdefabc1308e5b7776cdfb28a2ecbc268c0d001f964844ebae9fd74b3cfc4da88804a1ec2ab0636375e96f4d05bb8911fa876b6aa47265a3bdc1a3dfc3a18a2"
+RPM_NAME = "MirrorCache-1.060-1.1.noarch.rpm"
+RPM_HASH = "c20a56f4f67c739bb126ebbe010ee66b026f10af8a604c2674c976234e134363c81547d2addd221f1f5438f631e02ce88bfc1a4afea6db5d76f346d622ca3b9d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "MirrorCache \
 group-mirrorcache \
 perl-DBIx--Class--Timestamps \
+perl-Digest--Meta4 \
+perl-Digest--Metalink \
 perl-Digest--Zsync \
 perl-MirrorCache \
 perl-MirrorCache--App \

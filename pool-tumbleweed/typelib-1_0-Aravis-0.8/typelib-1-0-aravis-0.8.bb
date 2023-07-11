@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.8.26"
 
-RPM_NAME = "typelib-1_0-Aravis-0.8-0.8.26-1.1.aarch64.rpm"
-RPM_HASH = "251a995acfcc74232783cf79487b81eefdeb5ee2a9e640e6874d309de8c351eeb47b7b0e8470dff990f6f35f617df09e53e837a61c66b6955b6bbe899598811d"
+RPM_NAME = "typelib-1_0-Aravis-0.8-0.8.26-1.2.aarch64.rpm"
+RPM_HASH = "1ec29373d99576bd13e03d100ae719cab9710fceece2a00626ee90f67aa340049cd8781137cdf026337be787d3b0f2345f323ddb7033f98ec9527d082d041014"
 
 RPROVIDES:${PN} += "typelib-1-0-Aravis-0.8 \
 typelib-Aravis"

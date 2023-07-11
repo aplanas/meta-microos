@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "7.0.0"
 
-RPM_NAME = "python39-apiron-7.0.0-1.3.noarch.rpm"
-RPM_HASH = "6fb24828b782f0ac298a0b6b29b49bc1e8e2d1cb1a497c2ead6837c4dd3bea8800819701ed2fb4a8c21889b0dfeef10a6b50c40e5b61e1aac10094f96f88c1d0"
+RPM_NAME = "python39-apiron-7.0.0-1.5.noarch.rpm"
+RPM_HASH = "4e7770a8059144e29392f5934d24a25f00e5843f72dfd5fc8fbcb33d67f16039ab1c3b4d61cce9d7fb9025bcb4a36c775388fdc6211789f6f3ac026abb5d6479"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-apiron \

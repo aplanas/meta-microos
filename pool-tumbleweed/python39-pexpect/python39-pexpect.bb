@@ -5,8 +5,8 @@ LICENSE = "ISC"
 
 PV = "4.8.0"
 
-RPM_NAME = "python39-pexpect-4.8.0-10.1.noarch.rpm"
-RPM_HASH = "587659083d136c34ee1bdff6de997dfc28b3f95bee995d179cc6d1070fe77806c486a29ddf0649b77c943e21c44f599f89ef9821ad1ef3ac1f433f1373c31bc6"
+RPM_NAME = "python39-pexpect-4.8.0-10.3.noarch.rpm"
+RPM_HASH = "777e230613bd2ab2047157c84e17b29e9ab6dc0c05564ef1a2be7084c252854afe4492474b7ce975b4e16666c290b02c2760bc61c388c2356c7e5e335f11c622"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pexpect \

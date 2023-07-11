@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.7.0"
 
-RPM_NAME = "python39-ujson-5.7.0-1.2.aarch64.rpm"
-RPM_HASH = "88b333f94eae37a3f940d63cf4596f5badaac4cd7536bcaef4a5b260d807be56b8647438dbaaa69ef8711dc9e8e21ae8151208e31e7fdb7a13d3ce75ed760e1b"
+RPM_NAME = "python39-ujson-5.7.0-2.3.aarch64.rpm"
+RPM_HASH = "6edf855548cd091b9943afefbb016d3e3739d375828349f553b780cb34adbffbca1e67bcfcbdacb4cb0478883e743907a1ffef129a6971aa0ef895d12a598951"
 
 RPROVIDES:${PN} += "python3.9dist-ujson \
 python39-ujson \

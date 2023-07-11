@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.10.0"
 
-RPM_NAME = "python311-pandas-datareader-0.10.0-1.4.noarch.rpm"
-RPM_HASH = "49afd24235a5c7c375751ec5b4d2102b35383fe42fb2595ff9203c646be605cd64fc5705ec0011e97ea82f77cf5fa82dc3937c6b5db70119594164593218e71e"
+RPM_NAME = "python311-pandas-datareader-0.10.0-1.6.noarch.rpm"
+RPM_HASH = "f2732846e9a41f8a8ccf3d1745826dc42e1b88283de937810c97b737e7ecb219a0a080b5a6c96b3869f31871ffec9a1442bc0c53d5f69cc1b7a27a77571a172d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pandas-datareader \
+RPROVIDES:${PN} += "python3-pandas-datareader \
+python3.11dist-pandas-datareader \
 python311-pandas-datareader \
 python3dist-pandas-datareader"
 

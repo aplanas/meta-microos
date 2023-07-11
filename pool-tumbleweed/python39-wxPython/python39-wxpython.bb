@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.2.0"
 
-RPM_NAME = "python39-wxPython-4.2.0-4.4.aarch64.rpm"
-RPM_HASH = "6c96548b974645da03280d017db4343341b3452afac75b676812e5040f123a45394dc684ee0710a06aa66a09e049d40f8e42ab4aa1fd343a6c80d577ad3babc7"
+RPM_NAME = "python39-wxPython-4.2.0-4.5.aarch64.rpm"
+RPM_HASH = "d45a8d6816385261e2fef2b7c8ee4b7ecfa869e7a3e2b063e8351a47bf09488343bc288acfca7dd25f98f1087f06414cf515ca9b4be9ac6f30ea002d36168a45"
 
 RPROVIDES:${PN} += "python3.9dist-wxpython \
 python39-wxPython \

@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.7.0"
 
-RPM_NAME = "python39-nodeenv-1.7.0-1.5.noarch.rpm"
-RPM_HASH = "75691d4d2343524aff293dfca62b934e5f0b9cca2ca1d143bf8ab15da660c4c5f0c82e3fd21698e6074319c7a675a1cdb1b761f9c6236a3db803594dbc74cde2"
+RPM_NAME = "python39-nodeenv-1.7.0-1.7.noarch.rpm"
+RPM_HASH = "be68026fbfa1b168fbb4ad5fc3afa9b0ab010b33432e833cdd2ce5f731460f59b3cd5ff9dd885e32ebe08432e013ffa401e2470837cf51e644a13e00923e21cd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-nodeenv \

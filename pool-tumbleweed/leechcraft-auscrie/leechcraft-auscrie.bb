@@ -6,8 +6,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-auscrie-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "00ebdc615b2863d528212bc233f57850a39e8e7ade91e96fcf207a9b6446d9e57c098beb0e6589499c338cc84ea364d18e146235b0002383238f5e3de4234a07"
+RPM_NAME = "leechcraft-auscrie-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "48745bf1dfbbd7b7205800fa9bfce964607f40d354b1fd0da9c7366618c45dc348d4d7c9078c706de4d5d488c1f15d59de7f3e07408e42938389c1b73a706ffe"
 
 RPROVIDES:${PN} += "leechcraft-auscrie \
 libleechcraft-auscrie.so"

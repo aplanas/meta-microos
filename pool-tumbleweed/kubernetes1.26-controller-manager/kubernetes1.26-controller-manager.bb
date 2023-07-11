@@ -2,10 +2,10 @@ SUMMARY = "Kubernetes controller-manager for container image"
 DESCRIPTION = "This subpackage contains the kube-controller-manager binary for Kubic images"
 LICENSE = "Apache-2.0"
 
-PV = "1.26.4"
+PV = "1.26.6"
 
-RPM_NAME = "kubernetes1.26-controller-manager-1.26.4-1.2.aarch64.rpm"
-RPM_HASH = "9afc9f8839e4e9ee1fbe94df398a318e0dbe7365af34c893f59dfb6dceec04ec6853f6ffa22a3424647217f238f0e2709d8f661a30a30717b9634d3c69b89a6d"
+RPM_NAME = "kubernetes1.26-controller-manager-1.26.6-1.1.aarch64.rpm"
+RPM_HASH = "4940d8777c23cd22bed878b9ebebe0ef8a31d565390b2714a915c62e5f794906b774b48ea7bb5808df001d3c6d6e714f90a84ed0a97f72d452554f7ba3d7c4c3"
 
 RPROVIDES:${PN} += "kubernetes-controller-manager-provider \
 kubernetes1.26-controller-manager"

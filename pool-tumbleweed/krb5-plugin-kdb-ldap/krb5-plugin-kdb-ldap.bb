@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "1.20.1"
 
-RPM_NAME = "krb5-plugin-kdb-ldap-1.20.1-6.1.aarch64.rpm"
-RPM_HASH = "741e26e70f73a7752e8e08932c943019a498cca401c44fcb0e7f0ec0c8ccf6923833ecc50acab0e89f54aaf68871b32c5e84a8b915015f7c28b810eb20911fd4"
+RPM_NAME = "krb5-plugin-kdb-ldap-1.20.1-6.2.aarch64.rpm"
+RPM_HASH = "bb11675ba737e1e0c612e25caf0e6a382a4df19ec53f7e7f8d8775ec3e64398dce4086dd19155e4b6e9f3aadde9dfcb4a2cea91a6cbbfb6859de9821d35c49b8"
 
 RPROVIDES:${PN} += "config-krb5-plugin-kdb-ldap \
 krb5-plugin-kdb-ldap \

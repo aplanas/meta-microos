@@ -42,12 +42,12 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.012"
 
-RPM_NAME = "perl-Lexical-SealRequireHints-0.012-1.2.aarch64.rpm"
-RPM_HASH = "4c598f05603f7374f39e211b083cfc2613a3d0a4129ea85a5e0c999e5ef2bdae00ae332450e6b52bf06d1ec2f39d568e39633eae6b289dcf251bfb39a381d93b"
+RPM_NAME = "perl-Lexical-SealRequireHints-0.012-1.3.aarch64.rpm"
+RPM_HASH = "df9d28dd6d5c5d21984e610b2b1eb714b624f676ca15874eb63b7b149e6ddd0e6e40c2093d43fcdefb00db85b3dc4144b30b3c090328580fe63c9d407d3b1d38"
 
 RPROVIDES:${PN} += "perl-Lexical--SealRequireHints \
 perl-Lexical-SealRequireHints"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

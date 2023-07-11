@@ -2,10 +2,10 @@ SUMMARY = "Translations for package ktp-approver"
 DESCRIPTION = "Provides translations for the 'ktp-approver' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "ktp-approver-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "279b22db85ef3358891a9006a1001d9ca81e43264534dd5f3864962af839b80929b3d2da1137618a9ddfad4887a4d40fc4a40dee915bd539db539d8f51298c7f"
+RPM_NAME = "ktp-approver-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "417c173af1480aa728b7f681622cae5ead98a0aa92624335cb7ba7218d2f4153ddb813e3fda1cc58d5ad212ada083a9e97bd5f0cfb6462dd43ab685fa4de92a3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ktp-approver-lang \

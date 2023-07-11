@@ -3,10 +3,10 @@ DESCRIPTION = "nginx [engine x] is a HTTP server and IMAP/POP3 proxy server writ
 It has been running on many heavily loaded Russian sites for more than two years."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.25.0"
+PV = "1.25.1"
 
-RPM_NAME = "nginx-1.25.0-1.1.aarch64.rpm"
-RPM_HASH = "f1e7996a60be43cb94bbb6563fd425eeeb93d2bd0f25688af5e54153713dbaf125fd8920b73a4b0d1835a25824b970f1824f28dee00e6e48bf1eeb74338afa9e"
+RPM_NAME = "nginx-1.25.1-1.1.aarch64.rpm"
+RPM_HASH = "dc83e721030a12ea7c9dd578c6e7dbfddbf765c412af964221d746b53c60495ad37743bb96f15b9cf07ac0d97ec34c575e6061393b701ae99f933be20c5862f2"
 
 RPROVIDES:${PN} += "config-nginx \
 group-nginx \

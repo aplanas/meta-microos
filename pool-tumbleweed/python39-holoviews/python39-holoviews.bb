@@ -11,17 +11,18 @@ rendered automatically by one of the supported plotting libraries \
 (such as Bokeh or Matplotlib)."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.15.4"
+PV = "1.16.1"
 
-RPM_NAME = "python39-holoviews-1.15.4-1.2.noarch.rpm"
-RPM_HASH = "553ce8578401fb0d9db2183f98f89fd789900191cb9a3bdcea527fa1d92d2af52b0e2b49f85707b52946cc5acbbe2760b3b9cc06f9b2b046611af7c6ca7a3753"
+RPM_NAME = "python39-holoviews-1.16.1-1.1.noarch.rpm"
+RPM_HASH = "3f851a0569c17223898baf131e1eafd449756cd659764c9e7a29c568aa9a897e532703d4924e8684b6da859eaed216454e0125aa99d9dabd8e2a35d6bccf5d44"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-holoviews \
 python39-holoviews \
 python3dist-holoviews"
 
-RDEPENDS:${PN} += "/usr/bin/python3.9 \
+RDEPENDS:${PN} += "-python39-param >= 1.12 with python39-param < 3 \
+/usr/bin/python3.9 \
 /usr/bin/sh \
 python-abi \
 python39-colorcet \
@@ -29,7 +30,6 @@ python39-numpy \
 python39-packaging \
 python39-pandas \
 python39-panel \
-python39-param \
 python39-pyviz-comms \
 update-alternatives"
 

@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
 PV = "0.10.55"
 
-RPM_NAME = "libgoffice-0_10-10-0.10.55-1.3.aarch64.rpm"
-RPM_HASH = "cd8f87210497a1bfba699f68b11872a1f4bc4b0860c9f88b88dcc4a3b1f5e298065900a1aed01c9947ebccb3354980905d46bffe42dc038bb420f4326d744136"
+RPM_NAME = "libgoffice-0_10-10-0.10.55-1.4.aarch64.rpm"
+RPM_HASH = "2b7eb0ae36530f01d28820d118aa73ea288195acc7c4961d19b737ac9482af64a14c4373ad86ad23afc109b419e70267baa948bc2730a8dc888af4830e05abfe"
 
 RPROVIDES:${PN} += "goffice \
 libgoffice-0-10-10 \

@@ -4,11 +4,10 @@ LICENSE = "MIT"
 
 PV = "0.7.1"
 
-RPM_NAME = "python310-rpds-py-0.7.1-2.1.aarch64.rpm"
-RPM_HASH = "472e25a35d4a5e64f518f9fe61472874f866111bc2c97271f5de9a3bebaefeec62b848e6e15171a63d0a50afe716f1db78b145cbd4464d6a43ab28ec8968e454"
+RPM_NAME = "python310-rpds-py-0.7.1-2.2.aarch64.rpm"
+RPM_HASH = "5623d4e34525368f5032d4c5213dd64d5454a04dbf4505771f87e5c13d208ea76d725c9029d149cbb147f2906044995ba15233d752d7336070d4e1846687fa34"
 
-RPROVIDES:${PN} += "python3-rpds-py \
-python3.10dist-rpds-py \
+RPROVIDES:${PN} += "python3.10dist-rpds-py \
 python310-rpds-py \
 python3dist-rpds-py"
 

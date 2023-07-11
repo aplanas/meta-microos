@@ -5,8 +5,8 @@ LICENSE = "SUSE-GPL-2.0-with-openssl-exception"
 
 PV = "23.02.2"
 
-RPM_NAME = "perl-slurm-23.02.2-1.1.aarch64.rpm"
-RPM_HASH = "a74c7bb5c86a511903674c802460d1d8cd362ef3bfd5ed264854932a1370de4c1bf8bdeb81c44492622eec925823a89621903352866ce645f1c8ed66f512bcec"
+RPM_NAME = "perl-slurm-23.02.2-1.3.aarch64.rpm"
+RPM_HASH = "217f293ef3376ed671a7c21266240fd88e014733c91323c368df6a25b4bd1468722102edc4a2c79994f3ce2f468a8a2a1f875ab050f1550c8c9c047dbc0345dc"
 
 RPROVIDES:${PN} += "perl-Slurm \
 perl-Slurm--Bitstr \
@@ -19,7 +19,7 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libslurm.so.39 \
 perl \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 slurm"
 
 inherit rpm

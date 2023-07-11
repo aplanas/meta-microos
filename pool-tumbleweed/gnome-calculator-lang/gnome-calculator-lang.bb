@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "gnome-calculator-lang-44.0-1.1.noarch.rpm"
-RPM_HASH = "761ec44967942c7eb8ee229e208fab4f911c80d586d8d9483ac5e8db804226492a9c336bf2b2f0e3d15728386bbdd8ce3d06c152ae7c889cbbf0712c4c0271d4"
+RPM_NAME = "gnome-calculator-lang-44.0-1.2.noarch.rpm"
+RPM_HASH = "dc65a4ea916b673fe5c6c652023b2b9a2fed0fde105fc32588956e34383619fde745f7a24c00b09417316d196ea9a6f1f71d1d9d54064346efb87b2df8fadd8f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-calculator-lang \

@@ -5,12 +5,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.12.0"
 
-RPM_NAME = "python310-pybind11-stubgen-0.12.0-1.4.noarch.rpm"
-RPM_HASH = "4fd98ea709a93d42d5aeea0b33fab099d2e6f33e55b0ee2df921e66b4ab934bade9d001e5a0ab82b9a6b69eda1131d237704f74e9a3ef5d2745d26c8353aeec7"
+RPM_NAME = "python310-pybind11-stubgen-0.12.0-1.5.noarch.rpm"
+RPM_HASH = "8d974599061d83c6c7a8b1e68abd51d8e81ec823f78637e4a60ae2a38da7b81c35a619bfceb54b0113d5075a39c63166b4c9da73428d683668c73ff27ec18954"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pybind11-stubgen \
-python3.10dist-pybind11-stubgen \
+RPROVIDES:${PN} += "python3.10dist-pybind11-stubgen \
 python310-pybind11-stubgen \
 python3dist-pybind11-stubgen"
 

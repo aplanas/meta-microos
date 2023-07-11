@@ -2,10 +2,10 @@ SUMMARY = "Plasma Mobile"
 DESCRIPTION = "Plasma shell and components targeted for phones."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "plasma5-mobile-5.27.5-1.1.aarch64.rpm"
-RPM_HASH = "ae41d18225e4ba1ad652ab185ecc5a451ba36e0ad49d2d4066dc981f5190d5b20aaef12afa93218b1709b72803150c90ee6b225d586c751613c76d4345f432c3"
+RPM_NAME = "plasma5-mobile-5.27.6-1.1.aarch64.rpm"
+RPM_HASH = "732deeaf2d1e5febdbe9331926d92aec89d55b6456e38bbb0aa2f95f33323c1f2184317f32ec5c4b76c1e7adcef10bc70c0cc71241d8d513b73cad6026b3863c"
 
 RPROVIDES:${PN} += "libflashlightplugin.so \
 libmobileshellplugin.so \

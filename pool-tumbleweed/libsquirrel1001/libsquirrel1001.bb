@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "3.2"
 
-RPM_NAME = "libsquirrel1001-3.2-2.2.aarch64.rpm"
-RPM_HASH = "f04defb43e82ac59d2193f10e2d00d784f488f4aa92ab93df3be97e0fde6504b2ae9d3ad4834de8cb704ce7973b6e282073f0d1613d61155ae084976b226d142"
+RPM_NAME = "libsquirrel1001-3.2-2.3.aarch64.rpm"
+RPM_HASH = "1155f6a6056fba1aa155ca98dd9f17f905fe01efb094ffe661a60f3b117a38a9ed2b2abc9e138b8c3de9dac0d32142f2640cb2c6932f8b3ba46d40c038f223b3"
 
 RPROVIDES:${PN} += "libsqstdlib3.so.1001 \
 libsquirrel1001 \

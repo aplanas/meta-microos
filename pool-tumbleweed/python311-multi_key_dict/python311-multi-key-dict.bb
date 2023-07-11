@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "2.0.3"
 
-RPM_NAME = "python311-multi_key_dict-2.0.3-4.16.noarch.rpm"
-RPM_HASH = "465b7cd2903839ef1fc5e3d1d82e459bda8137b6ac46e756257d9114067a138be2c0e80ad728a59c993df25b580b39dc6f77f78189fff7bfbcaa9ff1546e368e"
+RPM_NAME = "python311-multi_key_dict-2.0.3-4.17.noarch.rpm"
+RPM_HASH = "d1435c600bdaaa3a3c1ae33cdb8c8e95d914fdc5096f5592263e5723ac9c8787793d7ed3380a40c116a99853545dbc69f91f092cef71779ec7673b48a61a54de"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-multi-key-dict \
+RPROVIDES:${PN} += "python3-multi-key-dict \
+python3.11dist-multi-key-dict \
 python311-multi-key-dict \
 python3dist-multi-key-dict"
 

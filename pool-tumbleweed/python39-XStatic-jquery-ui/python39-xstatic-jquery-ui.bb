@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.13.0.1"
 
-RPM_NAME = "python39-XStatic-jquery-ui-1.13.0.1-1.8.noarch.rpm"
-RPM_HASH = "bbab9883219319d2f9086ac2b40faf57ed0f5ca92d03b8a781db0820990a2c2eb736964e220fdef9c1beb8569a82a2e0e3c8c470b5158d10eb3996861a5897dc"
+RPM_NAME = "python39-XStatic-jquery-ui-1.13.0.1-1.9.noarch.rpm"
+RPM_HASH = "4522a5193c3d1a4f997701c3d8f69289286d16dda176ece2fedc9afd883758b3190f00798dc22210dc21de389a89b5b1e2cca9be52572b61790593e3d58c0131"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-xstatic-jquery-ui \

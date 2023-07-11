@@ -10,8 +10,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.44.0"
 
-RPM_NAME = "libdazzle-1_0-0-3.44.0-1.7.aarch64.rpm"
-RPM_HASH = "e70c555889f67b8f438b071ca53269c2b95fbf84abc98c64cefb0a47b9789bc44d281e53559720f60fad5f77201da490beee63fd249e5c57a68b8ffa592eb3da"
+RPM_NAME = "libdazzle-1_0-0-3.44.0-1.8.aarch64.rpm"
+RPM_HASH = "e55f33869436f1b47ad302876b780681f658133a0732cdd1229aff1ca7b3404d288e0d9b8a8a2bbebcc21bce0788aa5ed3c915124c389f0c6ce73eebba94f74e"
 
 RPROVIDES:${PN} += "libdazzle \
 libdazzle-1-0-0 \

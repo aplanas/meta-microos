@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.13.3"
 
-RPM_NAME = "ghc-crypto-api-prof-0.13.3-5.3.aarch64.rpm"
-RPM_HASH = "3ac4a8b8fa24767db847ca9c413c3aa6f681bdad1f933fd5b97abd0e8acee53c1649af3a920e7a9549081e4c2ee0e6abad4db7a14173c9444a20632fc60464e2"
+RPM_NAME = "ghc-crypto-api-prof-0.13.3-5.6.aarch64.rpm"
+RPM_HASH = "c5d71d6fd3290e14d4b524b8bed01f5815262a7d4e90e4457bfc44c392655baaa8520a7e6552d567c0eceb3a4f718c3fa9ee540c6420c1756d90c17695a58d93"
 
 RPROVIDES:${PN} += "ghc-crypto-api-prof \
 ghc-prof-crypto-api-0.13.3-9orTVpCmnZz79j7elcs5GE"

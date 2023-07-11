@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.9.1"
 
-RPM_NAME = "python-blue-doc-0.9.1-2.1.noarch.rpm"
-RPM_HASH = "7d3c0a0c9322d2046dd385d2acdc31f24aa58bf4636a20977e889c3b65a153ee45e80afd721e1787aef1710698535d2ce3a8f9e31a9fd3cef6d0f3ce70510110"
+RPM_NAME = "python-blue-doc-0.9.1-2.3.noarch.rpm"
+RPM_HASH = "d8947435a51ac5260d248d909ac8cf7aae167095b4068c5bd6bff8006421284b5489e05fa23a1c5f9c8ada181a6a1c48909014ec39e05ed2e21258d87d921bc4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-blue-doc \

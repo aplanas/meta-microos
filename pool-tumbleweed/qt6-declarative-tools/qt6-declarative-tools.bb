@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-declarative-tools-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "7fe53885f5f721fd00132c31dbb686f5b2a960cac5dbbbfcc0d6984a1ad8b653ca209e533d6065d4a22a0450300eb987389fecb9d0b76bbd8b4f41b4e0a401d5"
+RPM_NAME = "qt6-declarative-tools-6.5.1-1.3.aarch64.rpm"
+RPM_HASH = "3b2c8a768bef96d66cca72d871ea1e606baa6dd083578d331a1ab2bff05b8d9f737f6bdaf5eb1c8290ebd12d1353a235ae794314f9d33154f29164b313a84a88"
 
 RPROVIDES:${PN} += "libqmldbg-debugger.so \
 libqmldbg-inspector.so \

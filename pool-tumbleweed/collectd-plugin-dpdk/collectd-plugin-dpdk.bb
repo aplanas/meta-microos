@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only & MIT"
 
 PV = "5.12.0.134.g4cebbfc"
 
-RPM_NAME = "collectd-plugin-dpdk-5.12.0.134.g4cebbfc-1.4.aarch64.rpm"
-RPM_HASH = "36d65f4f475f3feb77294458b70c1f5df5657a6e224409e89992a0207c053d45bbd6e754dcbb1cdaf0f9948315f2e2a81d6f7d193343e06e4dfda0fa5ce50a0f"
+RPM_NAME = "collectd-plugin-dpdk-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
+RPM_HASH = "cd4a9ace0d872a3e146463494f256ebccc18bc5add851265a8575499666cf685e428b6273bb5f245f947656af3e3cdb301a9c650eff2e095a2c7e911ded191d5"
 
 RPROVIDES:${PN} += "collectd-plugin-dpdk"
 

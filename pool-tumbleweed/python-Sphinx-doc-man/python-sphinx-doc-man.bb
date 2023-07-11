@@ -8,8 +8,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "7.0.1"
 
-RPM_NAME = "python-Sphinx-doc-man-7.0.1-1.2.noarch.rpm"
-RPM_HASH = "923dcd9ccef2938c653036885e99c9831dec12fad6866d791dc0ec0dd7495c0d1420150ca7f97679c5fa951cee99f7a5d140a1b22893402e629a8ed86458b2f1"
+RPM_NAME = "python-Sphinx-doc-man-7.0.1-1.3.noarch.rpm"
+RPM_HASH = "263c2d92a07c452fa0ce67dec7dfc5156164ec608a118aea5eedad8700b91e937c294576ca6b3582c5ef43bc5894fe49d5880141bed3fbbe73e73141c5e0a9db"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-Sphinx-doc-man"

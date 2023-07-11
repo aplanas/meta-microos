@@ -14,8 +14,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-scroblibre-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "5fc0caedc6845a2d5516c9dce18d1f9d66be22674f242dd050859069b057254824fd4eedabc1b8522aaeb879f029d775e53803b6680343121251237862bcf9c8"
+RPM_NAME = "leechcraft-scroblibre-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "e4932add730a4df8d6800e9e76e9f229592867b2f399e40fc7b73a54f35dc74f2126a53c82da759b057fbde7e135928ffa45a75baec058701f45798738451df3"
 
 RPROVIDES:${PN} += "leechcraft-scrobbler \
 leechcraft-scroblibre \

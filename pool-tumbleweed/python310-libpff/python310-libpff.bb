@@ -7,11 +7,10 @@ LICENSE = "GFDL-1.1-or-later & LGPL-3.0-or-later & GFDL-1.3-or-later"
 
 PV = "20230325"
 
-RPM_NAME = "python310-libpff-20230325-1.4.aarch64.rpm"
-RPM_HASH = "7289d7c87243495ed339692f2cbf955f95a3d59d71a0c7576c360f8a2e45f09614df6697a6119dd28545ee8bdfb3bc20e103120913d5ce4384963e3804d78262"
+RPM_NAME = "python310-libpff-20230325-1.7.aarch64.rpm"
+RPM_HASH = "b7bb04c7392e694e252145761bfe885ae5382559686eb3d24e651f120589801061638b18f2753ad36dd7e4bf359ea6533c85e920e78dce5890ba7e764dbae786"
 
-RPROVIDES:${PN} += "python3-libpff \
-python310-libpff"
+RPROVIDES:${PN} += "python310-libpff"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libbfio.so.1 \

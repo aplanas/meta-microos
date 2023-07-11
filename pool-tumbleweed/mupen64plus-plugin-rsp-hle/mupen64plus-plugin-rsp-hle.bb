@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.5.9"
 
-RPM_NAME = "mupen64plus-plugin-rsp-hle-2.5.9-2.8.aarch64.rpm"
-RPM_HASH = "6d702fa38ead9c020959fba174ed6aee442775b1461656b45b2b0c4f6d0345e5e4ef5c162d1eb6a39fd8559074b7be6b447c3ba794b3c85a1dc020881dfd391d"
+RPM_NAME = "mupen64plus-plugin-rsp-hle-2.5.9-2.9.aarch64.rpm"
+RPM_HASH = "6656d25b9b602bc0378adcc27e6e4178f44353d2803cdfb92b5d87c58fed9fb58e11de460220ef06da3d065d351bad4571ae47dcd65a4a13b3c74cdabf109ae5"
 
 RPROVIDES:${PN} += "mupen64plus-plugin-rsp \
 mupen64plus-plugin-rsp-hle"

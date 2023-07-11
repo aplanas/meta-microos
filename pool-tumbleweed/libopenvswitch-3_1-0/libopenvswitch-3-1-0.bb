@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.1.0"
 
-RPM_NAME = "libopenvswitch-3_1-0-3.1.0-14.1.aarch64.rpm"
-RPM_HASH = "8387b7e8e3f3826be7284a0a4fcf68179b6f82bc1068fcd5529853182999f62933133ac21cc26c9ea15ecff3c439d76e4616e8c9fcf9c819891bb29e8472c7e5"
+RPM_NAME = "libopenvswitch-3_1-0-3.1.0-14.3.aarch64.rpm"
+RPM_HASH = "7d84f468d856d14d5cbc169401f9d0224f58301b79f0087c081e9fd6bb20871107b636d64812747394401a98b8218de1754f289d7b2ec2f9fe7e7baa39941a54"
 
 RPROVIDES:${PN} += "libofproto-3.1.so.0 \
 libopenvswitch-3-1-0 \

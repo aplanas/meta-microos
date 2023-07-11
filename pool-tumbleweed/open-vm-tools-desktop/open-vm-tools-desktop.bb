@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-only & LGPL-2.1-only"
 
 PV = "12.2.0"
 
-RPM_NAME = "open-vm-tools-desktop-12.2.0-3.1.aarch64.rpm"
-RPM_HASH = "a55b6e003ca9ee0e7914ab2f250864d9d8cf55778700acb45075b96c2698139c63d61da01cd83e7ad4006b6c832b7a361eb037ce091ef99f8ffcaba636fa8da9"
+RPM_NAME = "open-vm-tools-desktop-12.2.0-5.1.aarch64.rpm"
+RPM_HASH = "e5c1f1f1e0e8cbd666a605f7059d08138cf61a1c566764e89614931236b7e4b911fe9925d755a4e7840d89b2c9cce38c30749ce2f225a63ce67728dc19aa6173"
 
 RPROVIDES:${PN} += "config-open-vm-tools-desktop \
 libdesktopEvents.so \

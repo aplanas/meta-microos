@@ -6,10 +6,10 @@ clusters, by providing a powerful and intuitive set of features. \
 This package contains the regression test suite for crmsh."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.5.0+20230517.b2cb988b"
+PV = "4.5.0+20230705.ea8c76ff"
 
-RPM_NAME = "crmsh-test-4.5.0+20230517.b2cb988b-2.1.noarch.rpm"
-RPM_HASH = "f976fd50dee3700109105d500a7330321c3b2868404638b2ac96d74ff4bf2f53936578ed1dfa4ce15631bf0a1f90e198162b9cf3edcc209dfd4f0290793d0990"
+RPM_NAME = "crmsh-test-4.5.0+20230705.ea8c76ff-1.1.noarch.rpm"
+RPM_HASH = "7ecc4df8315e7f855a9f6ae3ab76713cbb7f9d2f40e4e66863945f93629e7e3ea0cc26d284a5805fa04cf2e547458f3fa5787c823b2effdd618bd9f5b12eb3d8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "crmsh-test"

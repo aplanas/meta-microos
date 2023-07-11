@@ -14,8 +14,8 @@ LICENSE = "MIT"
 
 PV = "1.6.2"
 
-RPM_NAME = "python39-strictyaml-1.6.2-1.3.noarch.rpm"
-RPM_HASH = "f719fcb430bf750aa1d2c8f71edb56de7ebc339ec188dbf962853edc74366616219e30eaaf01af3f65546435967fa259d34e63c8b7acc745ff7dc1c104740e28"
+RPM_NAME = "python39-strictyaml-1.6.2-2.2.noarch.rpm"
+RPM_HASH = "97288b8dfc27d41df226306620ce67582d9495b5ae64af4b0530a684664efbaaf67277ca46204c640d74bdb3c292b15526673bde45e745f0a42e03d322184c7f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-strictyaml \

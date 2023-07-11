@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "6.4.0"
 
-RPM_NAME = "python310-azure-mgmt-digitaltwins-6.4.0-1.2.noarch.rpm"
-RPM_HASH = "210c69b6bd2ca1cd3ce0c24d519edf632c8d520b22f608e49c7da7804ae5b72e4ad7baadd61ae594586293e11700257af45b82479420838171c560d9d3887d6f"
+RPM_NAME = "python310-azure-mgmt-digitaltwins-6.4.0-1.3.noarch.rpm"
+RPM_HASH = "d22a7df13a9dd826a612ef64c381ccc6fa93ec6c33f37f21dde78bf5ca1b4d5ef403d0df751759e933c91b3f2da2ade743568a7df63c10eeda64916b0f103f5b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-digitaltwins \
-python3.10dist-azure-mgmt-digitaltwins \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-digitaltwins \
 python310-azure-mgmt-digitaltwins \
 python3dist-azure-mgmt-digitaltwins"
 

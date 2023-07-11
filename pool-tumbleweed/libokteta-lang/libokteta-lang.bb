@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libokteta"
 DESCRIPTION = "Provides translations for the 'libokteta' package."
 LICENSE = "GFDL-1.2-only & GPL-2.0-only"
 
-PV = "0.26.10"
+PV = "0.26.11"
 
-RPM_NAME = "libokteta-lang-0.26.10-1.3.noarch.rpm"
-RPM_HASH = "7ce0459109fbbef74f3abe98aad411c00e5b672b27df6af22045bc28ecc5d744ec42893aeff70faf51615beab2bd7c9e967d0499ddb0b8b09e17ef4a796d8542"
+RPM_NAME = "libokteta-lang-0.26.11-1.1.noarch.rpm"
+RPM_HASH = "61ac19d4774c846c9b3d5ecdbb53e03dacb760ace7ee400404360e93e56a0eae582c18758d805cb9d28d41beafbd48f708948a3228d0a406fac0b4fd3e5b011f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libokteta-lang \

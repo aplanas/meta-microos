@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause & LGPL-2.1-or-later & GPL-3.0-or-later"
 
 PV = "5.0.2"
 
-RPM_NAME = "utils-libnfs-5.0.2-1.4.aarch64.rpm"
-RPM_HASH = "fb50f499103d945cbc495b73a1958de3c2cb6d5315812b536ca3294978f9f707f7b74586288c2b7f6614bf88a1990b41bf3433b18799b209468e030547698af7"
+RPM_NAME = "utils-libnfs-5.0.2-1.5.aarch64.rpm"
+RPM_HASH = "9fa01100477d8b638c2b10c8e1970fa8d39d9ff48b1f340d3b007cb357a6d18d1b37cd7f998877b0dfbc50d14511c796b9cffffa1f0708c7769840d97e94cd89"
 
 RPROVIDES:${PN} += "libnfs \
 utils-libnfs"

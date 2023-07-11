@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause | GPL-2.0-or-later"
 
 PV = "3.4.1"
 
-RPM_NAME = "jitterentropy-devel-static-3.4.1-2.1.aarch64.rpm"
-RPM_HASH = "eea9ecb2bcc93cbd251ce9a4b2c9df28897019e2a16d13dca5a7ccd7172bccd06bcef353a395a0168744ffca3154061f3b6d2d77d3de470a2911504c5cf8adb3"
+RPM_NAME = "jitterentropy-devel-static-3.4.1-2.2.aarch64.rpm"
+RPM_HASH = "6ef9e44b031783ab53d8ca21fb94774d73f5d3b91bb8408698f4cd383e9fe3207af936c99cc613336d3b0bae607cb0513dd96b86ab351278d4b7554c6ccaedf1"
 
 RPROVIDES:${PN} += "jitterentropy-devel-static"
 

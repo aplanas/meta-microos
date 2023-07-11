@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0"
 
 PV = "2.6.0"
 
-RPM_NAME = "gimp-gap-2.6.0-29.33.aarch64.rpm"
-RPM_HASH = "3fd4c0b9cd2b94378c041e7e8fdf2c0af75cafa7efd04d0308278599432bab17bffef390ca81878952ccd2997b1ce58dc88272da81e2921b750cab64be473768"
+RPM_NAME = "gimp-gap-2.6.0-29.34.aarch64.rpm"
+RPM_HASH = "e7ec10ad05575ed0fc7123ff7efdf0c5aa9886e8521f16261ce613d4fdb0c750d4406699ed2c11cd3df638a0ec19c1107caf041804d11d852b6c17965fbc2897"
 
 RPROVIDES:${PN} += "gimp-gap \
 patched-build"

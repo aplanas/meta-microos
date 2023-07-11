@@ -15,8 +15,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.6.1svn65855"
 
-RPM_NAME = "texlive-pyluatex-2023.201.0.0.6.1svn65855-53.1.noarch.rpm"
-RPM_HASH = "bb72bb53b446e046995c2cc53537fff4dff1b7ac2ba3652174f4f78bd090235652e0814f91af1280e92a4cf8f12d5aeee355f4c643f80de2cf049e73b52bc06f"
+RPM_NAME = "texlive-pyluatex-2023.201.0.0.6.1svn65855-53.2.noarch.rpm"
+RPM_HASH = "866770ba33f04f64f82f649608c63acb25b7138c44c330b07e02ca724e692eb35a72bccc82c914749a7f4adf54c8a96dda656ba35c15df53113c0a454524f9ce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pyluatex.sty \

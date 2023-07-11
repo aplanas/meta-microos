@@ -6,8 +6,8 @@ LICENSE = "MPL-2.0"
 
 PV = "1.5.1"
 
-RPM_NAME = "srt-devel-1.5.1-1.4.aarch64.rpm"
-RPM_HASH = "4f830aef52111db32d1c398af48403dad5ca6caad83676223086140a4a9d8218d423621195d3fb10c207dd6f5e6334a0acc8a885f37affe9fef21f82bcbf96db"
+RPM_NAME = "srt-devel-1.5.1-1.5.aarch64.rpm"
+RPM_HASH = "a49e9d65acc9d50906b6576b6ee13984288e92f2c7d1a547aa8a03c4cda289ac2b791fc852c2ab87983058419b5ce6b7e9dbbb5dfd58f0f75bb54d9b18f2d3ee"
 
 RPROVIDES:${PN} += "pkgconfig-haisrt \
 pkgconfig-srt \

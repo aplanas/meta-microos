@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libKF5ConfigCore5"
 DESCRIPTION = "Provides translations for the 'libKF5ConfigCore5' package."
 LICENSE = "LGPL-2.1-or-later & GPL-2.0-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "libKF5ConfigCore5-lang-5.106.0-1.1.noarch.rpm"
-RPM_HASH = "373072a9ea0148f4df1ee33cf3c87457b78748b8eb5d76e9be5e3e6717b1d6adf6e576500609c19e67b79e5b2ac9316e40cfd5bfbe15c143de47a493ae451ea2"
+RPM_NAME = "libKF5ConfigCore5-lang-5.107.0-1.1.noarch.rpm"
+RPM_HASH = "c734c77be76a6dd645a58be9d2ff239ad4675b288e33cc6572af7427d3078dd8f1c16c286cfaff57eb43d805ae24c68181e71808bc53c5562c2e24993e7b4c25"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libKF5ConfigCore5-lang \

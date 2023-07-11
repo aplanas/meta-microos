@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.9.2"
 
-RPM_NAME = "python39-redbaron-0.9.2-3.14.noarch.rpm"
-RPM_HASH = "121d98fcefd5becfcc7fd6a957a6da2c15ba6fee8b0077d54348f88d15eb726c05d2b79b18b3e2a460fa88b47ce25708f12c2f7236c0e3fca2acaee00fb7200c"
+RPM_NAME = "python39-redbaron-0.9.2-3.16.noarch.rpm"
+RPM_HASH = "cf61c15b41528b04f1c893a4a3f990414488d3bc26f82039aa3512376ad91ecef109223d122675ed5fbccf9ddf9e5fe37ad4b29dd9c40f8c5c3f1c8008dc6a3c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-redbaron \

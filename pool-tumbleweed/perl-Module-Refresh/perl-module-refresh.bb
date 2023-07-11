@@ -8,13 +8,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.18"
 
-RPM_NAME = "perl-Module-Refresh-0.18-1.4.noarch.rpm"
-RPM_HASH = "2e1ea5a938ae592fd082b5b27762120e52b492186c3690ad21d75115b08a798fc83fb6a63347580420789c0c18e8961032eafd728daf020d11806141f1c45539"
+RPM_NAME = "perl-Module-Refresh-0.18-1.5.noarch.rpm"
+RPM_HASH = "30e4f5b70867f35922ff2eee00dcb22f177826bfad2dc3cbb0e1f77ece08242cc4361f1fcef6158d55a2bfc8f908aca11507b26267d17715223a6d60517e318a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Module--Refresh \
 perl-Module-Refresh"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

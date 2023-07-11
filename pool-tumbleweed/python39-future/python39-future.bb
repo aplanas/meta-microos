@@ -6,8 +6,8 @@ LICENSE = "MIT & Python-2.0"
 
 PV = "0.18.3"
 
-RPM_NAME = "python39-future-0.18.3-3.1.noarch.rpm"
-RPM_HASH = "bddd181a5abdc1060f4840e992ff5ec970926cc5843db90fe7b19f9b6129f783637c18c856f0d7c411478f4dba3636ab1f250616c398a952d4138ce777fabda3"
+RPM_NAME = "python39-future-0.18.3-4.1.noarch.rpm"
+RPM_HASH = "80540f98af40ebeb972a1826ba794f11353b09eae4cb203ac825c94a790ebcc5d6bb6b72276122c5171dc3d80ade2e2d40def032f6e64eaf2a1d92ddc5eca3dc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-future \

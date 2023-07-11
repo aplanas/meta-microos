@@ -7,11 +7,11 @@ LICENSE = "BSD-2-Clause & MIT"
 
 PV = "0.8"
 
-RPM_NAME = "python3-sphinxbase-0.8-6.6.aarch64.rpm"
-RPM_HASH = "5dd6bb541e4f5e49ed9c68920d6ecd3605db0853df82af6ff8ae21677ac1e036c61456da338a6acfd7bdf96ce4368090436d0b7c9989f0c2d28b0d7479c5822a"
+RPM_NAME = "python3-sphinxbase-0.8-6.7.aarch64.rpm"
+RPM_HASH = "0c1361f696de73615d955a2428de6d6033253dbc24ec43a2cab1be69542658ddce7c7473730e8a8066a0bfc6cdc075999a260eacd5aefb29d6cb3bdbf6aa672b"
 
 RPROVIDES:${PN} += "python3-sphinxbase \
-python3.10dist-sphinxbase \
+python3.11dist-sphinxbase \
 python3dist-sphinxbase"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \

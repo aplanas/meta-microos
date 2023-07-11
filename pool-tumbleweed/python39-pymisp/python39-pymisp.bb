@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.4.166"
 
-RPM_NAME = "python39-pymisp-2.4.166-1.4.noarch.rpm"
-RPM_HASH = "0b3c4895cbde8abd940cec41d1d000c77573536afca77827c9cfbd15682dd612d69c19da06701f5813e90b447c95d627edfb856af11fe579445907bd67da8c16"
+RPM_NAME = "python39-pymisp-2.4.166-1.5.noarch.rpm"
+RPM_HASH = "42c30cf8e9773dd156efca9a6f4a69ae794c617e52f8ac7d818fc0456dfecbf068e9b489eb70ad825a5ca87e17ddaa0324a409b2b04eb49c67d315c58e1a6fb5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pymisp \

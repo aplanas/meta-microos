@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.7.0"
 
-RPM_NAME = "libopencv407-4.7.0-1.6.aarch64.rpm"
-RPM_HASH = "91009ea92b200dd485eff3c1d5dabe925dbd27c3eb6777045b0ebda678b793246a9c83cd407aa23adc5dff57a25aacef032fde22b942bb53f212deb52547ddf7"
+RPM_NAME = "libopencv407-4.7.0-1.8.aarch64.rpm"
+RPM_HASH = "12ff25e42a50b0abc9b312e332e91078d8980810b8989091376d3fc260393920fc6a476fcb1fa20e9003d809efb8e71eb23dcaf239c9ad666628559f6ed57e6f"
 
 RPROVIDES:${PN} += "libopencv-calib3d.so.407 \
 libopencv-core.so.407 \

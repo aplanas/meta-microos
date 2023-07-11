@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.5.1"
 
-RPM_NAME = "python39-xarray-einstats-0.5.1-1.1.noarch.rpm"
-RPM_HASH = "71ebc02ebfc7f318c5aae1fe1782c840782def2b2b71616f9c82001d55018b77fd3fa84a233723a177e48166e1a9ff5bd12ec61a9c962d5c5e9c0838af69c5ec"
+RPM_NAME = "python39-xarray-einstats-0.5.1-1.3.noarch.rpm"
+RPM_HASH = "6572a5f141b6393d438ee99dc75304548e70bbc380c1902e20cef941fe4147e41001f90a27567ec9790696a685cf99a876e61834be0416c49f2e6a866ea720c8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-xarray-einstats \

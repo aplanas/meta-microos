@@ -7,13 +7,12 @@ setuptools-rust milksnake. It supports building wheels for Python \
 3.6+, can upload them to PyPI and has basic PyPy support."
 LICENSE = "Apache-2.0 | MIT"
 
-PV = "1.0.1"
+PV = "1.1.0"
 
-RPM_NAME = "python310-maturin-1.0.1-1.1.aarch64.rpm"
-RPM_HASH = "baaebef3b290aad0b4ff6367d42a672c47928e11cf54c48d94ab7abd1d36ca75a5ba5f6118e8ab10c2ae44355af3c53bad6791a9576a65de137675dc057f5169"
+RPM_NAME = "python310-maturin-1.1.0-1.3.aarch64.rpm"
+RPM_HASH = "821589c586cc7fcc70d1ed4f0bca6fc8d94a77cb244dd362429a2372f724c96f3457c43bf96bb3fec7176684559a01e1fec4ae8eb475bad58d86cbc63791d219"
 
-RPROVIDES:${PN} += "python3-maturin \
-python3.10dist-maturin \
+RPROVIDES:${PN} += "python3.10dist-maturin \
 python310-maturin \
 python3dist-maturin"
 

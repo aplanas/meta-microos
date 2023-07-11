@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.28.1"
 
-RPM_NAME = "gnomekbd-tools-3.28.1-1.3.aarch64.rpm"
-RPM_HASH = "60a2c427899d0a70127d50809e99ce13ce7ebc31ea8105a1af1b3ca3c3e28daf3e460a9548f1baa784b1f97c5b3f6e709441edf7ade8883bf1de73a2e3a3b4ed"
+RPM_NAME = "gnomekbd-tools-3.28.1-1.4.aarch64.rpm"
+RPM_HASH = "f6dce1548c1924e8dae702b4c91b8afeaa45027532e9472b6639bdc4b8a69dcaea0e09899dede703968d54426841db9063b6252650d4145435ccc03ca0fa64a2"
 
 RPROVIDES:${PN} += "gnomekbd-tools"
 

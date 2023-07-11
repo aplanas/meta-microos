@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0~alpha2"
 
-RPM_NAME = "apache-commons-imaging-1.0~alpha2-2.9.noarch.rpm"
-RPM_HASH = "d668813a7af0214b82a62b13817efa32652327fe1f092c84caf60478473fe8e19c4d6c994e27b213251fe4d58cee8e6d97388db5f4006bb251353ee0caca0bca"
+RPM_NAME = "apache-commons-imaging-1.0~alpha2-2.10.noarch.rpm"
+RPM_HASH = "60305cb48478a664321372e38a2d15729bd6bbe53bb9cba55988f017f506c466d13aaae99fd2a980b8dea0b693c4ded1141a5ff0e737ab07fd6b24ee72d11ebd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-imaging \

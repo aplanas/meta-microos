@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.0svn40728"
 
-RPM_NAME = "texlive-zhmetrics-uptex-2023.201.1.0svn40728-52.1.noarch.rpm"
-RPM_HASH = "4e8e000d3e1f278f4d95677338e034bdcad2f181d1ab72e8b19e9b6899125275838dda130762f8cedad67ba7ba439fa5c2bf0759d69bc9e92416a21081b1af11"
+RPM_NAME = "texlive-zhmetrics-uptex-2023.201.1.0svn40728-52.2.noarch.rpm"
+RPM_HASH = "28e78e06051416100dba0b7201656920083c79fbacfc7c647248a3d641c490b4364fceb949a1860b1ae7261e12d9e3a8e82fb37313f426dff65561637a72a6d1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-upmono-h.tfm \

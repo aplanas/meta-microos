@@ -3,10 +3,10 @@ DESCRIPTION = "KCrash provides support for intercepting and handling application
 Development files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "kcrash-devel-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "ad51def68fe58b4226fffe86a722baf269ae198fc44b11d49a391d302416505a572eff21be524053423c9aac09ed466958f08b30a89d94fde2444911ba6c0443"
+RPM_NAME = "kcrash-devel-5.107.0-1.1.aarch64.rpm"
+RPM_HASH = "35ae2aa23f454627d84de782c39cdcbb0c3ebdf61e42bc9b81fe8623702e6720b1b4a6874bb6e2c7b8c35948ff2ef3b079f6dd98c9a1ad5819daf7269774d0f6"
 
 RPROVIDES:${PN} += "cmake-KF5Crash \
 kcrash-devel"

@@ -2,10 +2,10 @@ SUMMARY = "KDE File Manager"
 DESCRIPTION = "This package contains the libraries used by Dolphin and Konqueror."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "dolphin-part-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "7727451971162b6f0b095c9fecf40ab0b6547af7cd11e73e4fb505c18ffaa55b6e55e36becf16e2e1d6309c89c4bb30d2280821ddd6bc6e88d23d05a0def9874"
+RPM_NAME = "dolphin-part-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "9df35cf1a103d0932e3e756f102949ae61485467bf62fd9a21372f864b4e1d06c0eaf57456b738ba8221f4af7ac5ebece810ad594ec307dfe52db0b9fc126f8f"
 
 RPROVIDES:${PN} += "dolphin-part \
 libdolphinprivate.so.5"

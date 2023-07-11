@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "0.0.3"
 
-RPM_NAME = "libdbusextended-qt5-1-0.0.3-1.8.aarch64.rpm"
-RPM_HASH = "98f5c71729692c8d3a6474da0c7ac22e6c2fe9bfc6417da0ccd07e2cb16a43f05052640fac7da58e1ff0a4ecf76bded4dfb66539e4495b9f4056873556d2cd31"
+RPM_NAME = "libdbusextended-qt5-1-0.0.3-1.9.aarch64.rpm"
+RPM_HASH = "5aec344a1e1b17ff693307c47ea3fb853c5e82f72c2432c575056f24ced95d2ada5cbca79592eda0f039e08892eea7a049d1aba3ab0eeae4558f92bb2aecb529"
 
 RPROVIDES:${PN} += "libdbusextended-qt5-1 \
 libdbusextended-qt5.so.1"

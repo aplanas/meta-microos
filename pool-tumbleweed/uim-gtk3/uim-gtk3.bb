@@ -4,13 +4,12 @@ LICENSE = "BSD-3-Clause & LGPL-2.1-or-later & (BSD-3-Clause | LGPL-2.0-only)"
 
 PV = "1.8.8"
 
-RPM_NAME = "uim-gtk3-1.8.8-9.9.aarch64.rpm"
-RPM_HASH = "95ab7958a68aa054fa22cc207a5aa02bc6517395f7732e8f7c81cb24a1eaa81658d529c14147606482a94555d773534acbe2d1d4b6da20283ed0bbecee85e09c"
+RPM_NAME = "uim-gtk3-1.8.8-9.10.aarch64.rpm"
+RPM_HASH = "c2ae15e35d23f30da552a293b78e81b241a0017de786ce7ade1d05f04b4f451f17cd845a9a4483899b1c552636cb3786b314c4f4d0bba612eb22e2110e020b0c"
 
 RPROVIDES:${PN} += "uim-gtk3"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
-gtk3-tools \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libc.so.6 \

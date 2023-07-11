@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-yi-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "e1e79e8bd3d7f19a73eb9d03bcb76c5198fd65d50a5c37e9573b719227abb3c25c4f9c79eb47da8f98f8f6083067c623e840642d50cfca26a989c1c85a1acc3e"
+RPM_NAME = "noto-sans-yi-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "85ae6f085c827ae74fb6b66e762d8d0e27e8013c9078a21db26dd22d45b1135f8ddc85a3080706482e4a7f280a33b24bea648f1c9801977365232eb79b6caf6d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-yi \

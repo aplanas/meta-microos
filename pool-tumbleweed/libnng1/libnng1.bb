@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.5.2"
 
-RPM_NAME = "libnng1-1.5.2-1.8.aarch64.rpm"
-RPM_HASH = "7ba2dbd9b4d0ac57d5fb9f2ed9adcb04f3dad86eefdd3faab55eb1cfe16b97c01fbc96761aa895105bec079e48d0d6ee8cdcb0b4c08d55779f90c6d4acf26a93"
+RPM_NAME = "libnng1-1.5.2-1.9.aarch64.rpm"
+RPM_HASH = "a2360428cdb67b251307394d7cd23de8ffa69cf95d78e793542cf27c801f5c16abeb8fc7e75e5ca0623589934e36ab707ff8b6fffa9a8845607f9e1def8e0ed6"
 
 RPROVIDES:${PN} += "libnng.so.1 \
 libnng1"

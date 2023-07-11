@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.2.1"
 
-RPM_NAME = "kubectl-foreach-0.2.1-1.4.aarch64.rpm"
-RPM_HASH = "1bdf283af55479dbf9aa122931386a1ba804e6a80895d5f1a5067e2fe9a98c2b35229f937b8fe72b65fff999243b5dc801d53fdfa7f989fc71d1dbc4102f43bf"
+RPM_NAME = "kubectl-foreach-0.2.1-1.5.aarch64.rpm"
+RPM_HASH = "9a0c40dfe4caa6be6257cfb8be70867873974d628c451aa01fc0984d01a55a810b1f34abb43c098601ae7819b771ec038703e40c0fbb71ef1d2d9ccacc58d473"
 
 RPROVIDES:${PN} += "kubectl-foreach"
 

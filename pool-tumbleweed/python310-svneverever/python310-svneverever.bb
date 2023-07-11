@@ -6,12 +6,11 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.7.1"
 
-RPM_NAME = "python310-svneverever-1.7.1-1.4.noarch.rpm"
-RPM_HASH = "25b5077bcbd6f13b5305457d57f0fc0fefc73ce2d53075b79a8a74212bfb5c3db712ae60bef75a79c9134b86946ba735d2dfbc465b8f0bd3009217cbd440709c"
+RPM_NAME = "python310-svneverever-1.7.1-1.5.noarch.rpm"
+RPM_HASH = "e3ac55f141598f5fb92d64d2493c3525d6401fff0445d1dc11cfb942cee174f1b599cf17adf1b42ffc212bda428790589967305fe73cdca16815e5cbc8ca181f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-svneverever \
-python3.10dist-svneverever \
+RPROVIDES:${PN} += "python3.10dist-svneverever \
 python310-svneverever \
 python3dist-svneverever"
 

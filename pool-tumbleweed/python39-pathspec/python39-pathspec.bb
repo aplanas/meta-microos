@@ -7,8 +7,8 @@ LICENSE = "MPL-2.0"
 
 PV = "0.11.1"
 
-RPM_NAME = "python39-pathspec-0.11.1-2.1.noarch.rpm"
-RPM_HASH = "7e8c4b3f6d3ff50e153bc69a7fa196af4494b9ad77d0913d08cb76a527a5e01765d203aa9facbfca9198a34c591443d1b9454e74a22c5b1d7a991bf9450d32b8"
+RPM_NAME = "python39-pathspec-0.11.1-2.3.noarch.rpm"
+RPM_HASH = "76fb94c19556a6878df429f6d4af6761571a268574f5da4e975365dc0234ac110892281ee4bf2171db8034afba007177648e6a6b376a6dfdc5bc88cea55ba26d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pathspec \

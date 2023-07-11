@@ -4,8 +4,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.12"
 
-RPM_NAME = "perl-HTML-Format-2.12-1.17.noarch.rpm"
-RPM_HASH = "22033abf3ff36ec275ec936499dba8b282051c6bc794a73d4d40190e2630110c6cb21f1a14497828ef6fd93a57f13e76e21401b0dfdad49ae3a56068fbb770a2"
+RPM_NAME = "perl-HTML-Format-2.12-1.18.noarch.rpm"
+RPM_HASH = "d903697ce7111c20b5e09e9efc592123fa725cc0d8477765cd1496d0eedc9e104fb9a5511c7b48abfdc694ee669f754338a75a6830496ccf71f07845df396cca"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTML--FormatMarkdown \
@@ -15,7 +15,7 @@ perl-HTML--FormatText \
 perl-HTML--Formatter \
 perl-HTML-Format"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Font--Metrics--Courier \
 perl-Font--Metrics--CourierBold \
 perl-Font--Metrics--CourierBoldOblique \

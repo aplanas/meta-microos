@@ -7,11 +7,12 @@ LICENSE = "MIT"
 
 PV = "3.5.2"
 
-RPM_NAME = "python311-Paste-3.5.2-3.1.noarch.rpm"
-RPM_HASH = "99102f44fae93bfbe445c46450c2d321a9361429a969470df07d3f826732e221a818cd2d6d74b2d8d78fb3d5a5312d764fd5189e44118e6feb30afc49c7c8b8c"
+RPM_NAME = "python311-Paste-3.5.2-3.3.noarch.rpm"
+RPM_HASH = "641313bed0e041a1ee081f6e359515badf565743ec820533b513c1f662bdee41478aee847417d45f0d174ee8edcd5c24be492612f61722c8955726926925239a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-paste \
+RPROVIDES:${PN} += "python3-Paste \
+python3.11dist-paste \
 python311-Paste \
 python3dist-paste"
 

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4.4"
 
-RPM_NAME = "xfce4-sensors-plugin-lang-1.4.4-1.3.noarch.rpm"
-RPM_HASH = "3c3e2ab11bafc9ba0c69fea42bbb130c39fcecb0db2b46897571e8539195879edab9437b55bf1e4f3b7253206dd696f46cb42db644e2b807d41b7f0f3b53630b"
+RPM_NAME = "xfce4-sensors-plugin-lang-1.4.4-1.4.noarch.rpm"
+RPM_HASH = "c177c48e64e9d56cdcb1fa4ed8e40833c29194e464234f52380f13980da61320b551356d7eefa013c711a0397281d31a8e832a68efaa25b27bf46ecfa408b37a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-sensors-plugin-ar \

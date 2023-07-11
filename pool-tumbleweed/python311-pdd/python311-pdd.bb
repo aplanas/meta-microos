@@ -4,11 +4,12 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.7"
 
-RPM_NAME = "python311-pdd-1.7-1.4.noarch.rpm"
-RPM_HASH = "dc7c1220771345b8dd8fac729574ae0dc6f67155332b6b0bd4abeef3c40af09c092d2242fee3fb872924f6fea7f658c6663905adcc4ae544bb53596d55ecdb6d"
+RPM_NAME = "python311-pdd-1.7-1.5.noarch.rpm"
+RPM_HASH = "96fe4c9bb462f1a37c37c6cd2982b32d1db2c44f8a3795b6fab784837f226fcfbce4daa2ff13153830ebd3c893d4708e23f4fbc4bac78638781c2b6c75fce28c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pdd \
+RPROVIDES:${PN} += "python3-pdd \
+python3.11dist-pdd \
 python311-pdd \
 python3dist-pdd"
 

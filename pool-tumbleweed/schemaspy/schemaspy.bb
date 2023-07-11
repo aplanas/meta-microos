@@ -17,8 +17,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "5.0.0"
 
-RPM_NAME = "schemaspy-5.0.0-7.6.noarch.rpm"
-RPM_HASH = "f1b13e38a1821e49b422fc81adf03bb6c8d743712d4cb82d39458d8d3f2bd687f44435e17a67fe46a3e6e7ef8e8c31e5524a10ba013d941c3c5880ec9d83454a"
+RPM_NAME = "schemaspy-5.0.0-7.7.noarch.rpm"
+RPM_HASH = "db3c0cb0b3b0bdfb00f601806cb83b8050597fdc24672cdad2779fa21735d28dff003fc7d07fb2e44b57ac1e1fac0adc14fb72e8a852c4226d1127a30da21586"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "schemaspy"

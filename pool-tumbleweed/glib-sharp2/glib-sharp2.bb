@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "2.12.45"
 
-RPM_NAME = "glib-sharp2-2.12.45-3.8.aarch64.rpm"
-RPM_HASH = "b46cb3073d3b8fc6f99882a1fa00c87d95fef570b5b9d336212a0c609c0f208e9a97e013c28f990f6220eca51e6bb0dc44f78b520b8b764bfcd3aa3475cbd408"
+RPM_NAME = "glib-sharp2-2.12.45-3.9.aarch64.rpm"
+RPM_HASH = "c820ff9ce4fe0b5b859f1abbd078ef0340487cb21ba9b3d3283046f6b8100074d6deba5aeb16384ce034ed4c2c566965f753821b6216fc6b9e37674891fa2cb8"
 
 RPROVIDES:${PN} += "glib-sharp2 \
 libglibsharpglue-2.so \

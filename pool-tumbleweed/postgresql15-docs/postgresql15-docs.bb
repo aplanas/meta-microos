@@ -12,8 +12,8 @@ LICENSE = "PostgreSQL"
 
 PV = "15.3"
 
-RPM_NAME = "postgresql15-docs-15.3-1.2.noarch.rpm"
-RPM_HASH = "3fe33cb5e216ad82f656e0ca081c03826dd7abfac89592bd7d0f6e3ccbc7dbbd4b9c7d17251eaf3d04b5eedc85ec886c898fa956bf565c3cec127f807b3b1d74"
+RPM_NAME = "postgresql15-docs-15.3-1.5.noarch.rpm"
+RPM_HASH = "cb2b36327bbfbda72acb30b14fe4ed429abb92de179c0907353ca09fac0128169b4bee97d47f69d4ee9b78fa8c662ac0e812401ec1df7c28d3277e6a8514f689"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "postgresql-docs-implementation \

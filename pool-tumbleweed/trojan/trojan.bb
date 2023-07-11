@@ -10,8 +10,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.16.0"
 
-RPM_NAME = "trojan-1.16.0-1.14.aarch64.rpm"
-RPM_HASH = "1401ee4179197288ab0d124ba9d465bad6540f0f29f8e8edb01bee790bf125bd338cf2c8eae4862a1e0db3e04263ecd806fe63470a3b2cd4f424c0e514b37ad0"
+RPM_NAME = "trojan-1.16.0-1.15.aarch64.rpm"
+RPM_HASH = "3d0be239402ff99814d080c41370da38b8ce04d2a28d989ed010aad6edabc9152fdbc0d9ee13fec205d5261318f353594921131922ed99a1ccaa0c93cdc055e5"
 
 RPROVIDES:${PN} += "config-trojan \
 trojan"

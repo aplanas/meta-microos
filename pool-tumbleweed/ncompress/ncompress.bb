@@ -11,8 +11,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "5.0"
 
-RPM_NAME = "ncompress-5.0-1.8.aarch64.rpm"
-RPM_HASH = "2ffc3ad70dbe1ca3e9b836b6183fe55af8010a004824938c4c94ba501d8c29f0d416dafee7349ee44173fd19f456703b6828f4e024b1b6aa3ef8dc31fca8d2a4"
+RPM_NAME = "ncompress-5.0-1.9.aarch64.rpm"
+RPM_HASH = "ef9202fa6e526a6392164ae9d83e4425ade9a414ab9ae2d7fe2ab5d3889a4efb66a40207fd8e89c884aee31508a79456b8fc5ee2744ecf869cc14aa944426571"
 
 RPROVIDES:${PN} += "ncompress"
 

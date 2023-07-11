@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-quick3dhelpers-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "f6e1891c958ede8bb19acab56c449c74e0d79181ec2f31f3ebe0a1401beda146bb464075baec65260bfd9635974be481cef894a7ae0a4553eb46938e3576592f"
+RPM_NAME = "qt6-quick3dhelpers-devel-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "d6eb1d908e51dec4787462b1189c3c019aa9c2127bf82ca63721b4e83e5467bee1f81705c9dc3320590e74df1effe09b34898af7c4a8e1fdc3e001d48eda8b39"
 
 RPROVIDES:${PN} += "cmake-Qt6Quick3DHelpers \
 pkgconfig-Qt6Quick3DHelpers \

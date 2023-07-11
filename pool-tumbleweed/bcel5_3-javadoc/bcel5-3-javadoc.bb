@@ -17,8 +17,8 @@ LICENSE = "Apache-2.0"
 
 PV = "5.3"
 
-RPM_NAME = "bcel5_3-javadoc-5.3-21.2.noarch.rpm"
-RPM_HASH = "3f91113b8b80677826b768d2be9068241bab30bb8ed2fa4db677f69dfd05941194ff7763acc390869072072e2513d55d3701c0bff3526e0693c36a1840af5690"
+RPM_NAME = "bcel5_3-javadoc-5.3-21.3.noarch.rpm"
+RPM_HASH = "72f646e7655b91a1de890c83734792de0df1b05febb873ccfe1fd412c21fa3f1749e2d1a4cac432dd1c0981f629eb5310a5176f236bff0c4493b5317c44a6d3b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bcel5-3-javadoc"

@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.4alphasvn60926"
 
-RPM_NAME = "texlive-xintsession-doc-2023.201.0.0.4alphasvn60926-52.1.noarch.rpm"
-RPM_HASH = "c57634f3c0226209b61ed2214fea18a6e49041880f32d47a8610bac7cfa38b7b2c795aac6ca8cbdc9afbb451263ee77b566b51d6630e89c54685ac0ae3b36c2c"
+RPM_NAME = "texlive-xintsession-doc-2023.201.0.0.4alphasvn60926-52.2.noarch.rpm"
+RPM_HASH = "16887d6c2b9554a85954070314fa01626669d6effabd03a730daf506931284aaba6ac3bb2aefae66d4cf97e5eb226f775b8452e19dd645d406a1175472f33684"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xintsession-doc"

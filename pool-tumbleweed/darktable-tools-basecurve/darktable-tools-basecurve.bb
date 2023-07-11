@@ -8,10 +8,10 @@ Another option to solve the same problem might be the darktable-chart module \
 from the darktable package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.2.1"
+PV = "4.4.0"
 
-RPM_NAME = "darktable-tools-basecurve-4.2.1-1.4.aarch64.rpm"
-RPM_HASH = "280b256b24c018235160df898363f18b70e57125161210d9dc4da47254e6cdf345360b310c9d7526e034b0408d41100a7dc67e595fca1c16e018c96a52b7d830"
+RPM_NAME = "darktable-tools-basecurve-4.4.0-1.2.aarch64.rpm"
+RPM_HASH = "21a2b6b747afc55bd4820682ef3b46fb83a490094b9205d919b5a29a358f5e593ac1787d9c36f6dfd055e26108fcb862906d7a8d59d2d736fe37a7c6cc32f700"
 
 RPROVIDES:${PN} += "darktable-tools-basecurve"
 
@@ -21,7 +21,7 @@ dcraw \
 exiftool \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libexiv2.so.27 \
+libexiv2.so.28 \
 libgcc-s.so.1 \
 libgomp.so.1 \
 libm.so.6 \

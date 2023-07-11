@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "2.8"
 
-RPM_NAME = "python3-libbytesize-2.8-1.1.aarch64.rpm"
-RPM_HASH = "c4a6b1a572a81b5319a02ade5d6c2b6b3acffbb62bb1d6ad54d61be6bbbd0d3d8368cd37c008ff7121fc6f3cdc4c29ea7f46fd62c60a7871f1e368e91c038ea5"
+RPM_NAME = "python3-libbytesize-2.8-1.2.aarch64.rpm"
+RPM_HASH = "41cb3ec5a97cd8f2f250f31b7255b43ac632b2169e942b6637a97bfe43b8b7e5a90d3bd7d646eb00ff3c02753e8e1198ada37077a098c18965f9c2e862f38a5a"
 
 RPROVIDES:${PN} += "python3-libbytesize"
 

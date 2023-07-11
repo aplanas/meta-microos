@@ -19,15 +19,14 @@ LICENSE = "AGPL-3.0-or-later & GPL-3.0-or-later & BSD-2-Clause & MIT & GPL-2.0-o
 
 PV = "10.20230407"
 
-RPM_NAME = "git-annex-10.20230407-1.2.aarch64.rpm"
-RPM_HASH = "7a31b05f55115e225a841ffa46b15168c43c2266684911b59f1d11083933ff5eae3cd7df3e6b96361424eaf1826101a6574a184bc0d9141d650c7b60c1f6dd53"
+RPM_NAME = "git-annex-10.20230407-2.2.aarch64.rpm"
+RPM_HASH = "97df8bc4f26c8510a79cf88f008850fed3c2be6b8bece9eb43ffb1390900c0e25d09daf4814fd2e875a549602467e847e3e30d3098a6ec46b356745e30a8010e"
 
 RPROVIDES:${PN} += "git-annex"
 
 RDEPENDS:${PN} += "desktop-file-utils \
 hicolor-icon-theme \
 ld-linux-aarch64.so.1 \
-libatomic.so.1 \
 libc.so.6 \
 libffi.so.8 \
 libgmp.so.10 \

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
 PV = "5.0.11"
 
-RPM_NAME = "fcitx5-unikey-5.0.11-2.3.aarch64.rpm"
-RPM_HASH = "1cfbc35b86ffdaa4807b14b8b9098e4033ff6c974e4f56913700543e7eef5b4ddd2ef524db49ac92cdb74c3243d67fd7d4c6f7ce34a3a988f192acc745f5c3b5"
+RPM_NAME = "fcitx5-unikey-5.0.11-2.4.aarch64.rpm"
+RPM_HASH = "ea972d10d32245ebf48f50945a6beb0eef5842bd88af59c413659973a1979b7c6e06acdaff7e5d04737b58b4a8d7498c27271a86b1cb5fe5082f740908d26109"
 
 RPROVIDES:${PN} += "fcitx-unikey \
 fcitx5-unikey \

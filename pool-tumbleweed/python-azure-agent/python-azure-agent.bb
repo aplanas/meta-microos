@@ -8,14 +8,14 @@ LICENSE = "Apache-2.0"
 
 PV = "2.8.0.11"
 
-RPM_NAME = "python-azure-agent-2.8.0.11-3.3.noarch.rpm"
-RPM_HASH = "223b78118e2c6561c403beccafa8c7be326fb654b0825b72bb26d29e13b10d6ef52524f65fdeb73730020729baf5ad683ba13b904096c4f8a0a8f0a0e14797fd"
+RPM_NAME = "python-azure-agent-2.8.0.11-3.5.noarch.rpm"
+RPM_HASH = "d04418faedee6c044094bb9b0bc3e82842c8d9567619b8f03e7f5776615face779fe2cfff3b9933bddd8ae1acc3a83298c5c0575a728fccff69e8593fa37ecf7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "WALinuxAgent \
 config-python-azure-agent \
 python-azure-agent \
-python3.10dist-walinuxagent \
+python3.11dist-walinuxagent \
 python3dist-walinuxagent"
 
 RDEPENDS:${PN} += "/usr/bin/env \

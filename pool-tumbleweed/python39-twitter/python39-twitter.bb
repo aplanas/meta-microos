@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.19.6"
 
-RPM_NAME = "python39-twitter-1.19.6-1.4.noarch.rpm"
-RPM_HASH = "aac5bee1d9244568353aebe4151928429e480c00d5c6cdef8afbe107e4fe3f0ff9dde81b62699efe475933fadf8e15e97efbe484e791daea95fa0ae80f4c4f3e"
+RPM_NAME = "python39-twitter-1.19.6-1.5.noarch.rpm"
+RPM_HASH = "ec5c273d1d84e906e2adb6ecf4fd76ae0a5f7e8d14b4e55f723f8e6c0406b5a7572c5d2de3e94532a29e03ec5e2b1925819d177be4d68983b571c882c3d0891c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-twitter \

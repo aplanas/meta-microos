@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-only & GPL-3.0-or-later"
 
 PV = "5.2.0"
 
-RPM_NAME = "libpreludedb-sqlite-5.2.0-2.10.aarch64.rpm"
-RPM_HASH = "85f656078a2fa42afd9bc5e68f251b1c42efead03e1d95859c693114cfc29e059cd82f8ff106f2fd326204839e8178b1f3f10977a1b849c008567b8bc07600a6"
+RPM_NAME = "libpreludedb-sqlite-5.2.0-2.12.aarch64.rpm"
+RPM_HASH = "266a058fcccb565858b14f3f0f2c72a4390521ebadc1a9b3db21213b53b55c5c6b9d4f166fdc02efbe315a4c6c03624c0362b55f56317e859e6fb095a819a8d8"
 
 RPROVIDES:${PN} += "libpreludedb-sqlite"
 

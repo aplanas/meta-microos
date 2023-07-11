@@ -5,8 +5,8 @@ LICENSE = "EPL-2.0"
 
 PV = "5.11.0"
 
-RPM_NAME = "eclipse-egit-5.11.0-3.5.noarch.rpm"
-RPM_HASH = "e9d35a49af6571941646df940d5b9784f3b84ab441132f9fcc4e7d1e34fa15349ad111273253ddfc95c90df909b5948ffb5341fb318f6f41498f2e9866bfd5cc"
+RPM_NAME = "eclipse-egit-5.11.0-3.6.noarch.rpm"
+RPM_HASH = "413fe30ed2a9fe1036982a1150cb35572f26580f8a46ebdfcde909b3a59ff912bb55d6a0bb7af8ebe11fa8569cc204e82461cbe9e8cdaa35f5f4ec7e4fa050cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eclipse-egit \

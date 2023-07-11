@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-quick3diblbaker-private-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "00ad13ef11d2c48a42a8e6722298a8d61733c95aa8604d11e31570dcb22b3c47eca3d008f1fe2eb9034c39e8cc8c510fe036445ef3e35d0fbf36f6fb27cd6cec"
+RPM_NAME = "qt6-quick3diblbaker-private-devel-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "799874d92e0ac86f3a0281f675ea5c3916f81838bc08a9349e03c02c05e694ad8ce0c145256a39bf22c9e8a5900e7c9179476b97183f874bd534b68539350e51"
 
 RPROVIDES:${PN} += "qt6-quick3diblbaker-private-devel"
 

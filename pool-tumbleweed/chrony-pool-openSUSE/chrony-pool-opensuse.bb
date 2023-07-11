@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "4.3"
 
-RPM_NAME = "chrony-pool-openSUSE-4.3-2.3.noarch.rpm"
-RPM_HASH = "b18884b500354207ed9df135d6c03efbe35b0b93390e505c9fca4ad7349e5d6bd7ad748f58a1ee7d9e6720a0459d8ba58da7de725e2434d4e17d3cc5afd58a57"
+RPM_NAME = "chrony-pool-openSUSE-4.3-2.4.noarch.rpm"
+RPM_HASH = "334deeac92972ef0b90bf7ef52255854ba2dae5be9c5af64327856152720f30c8d506e15daedc6ea2fb61361a54e5c347b3d83d28ffe097764c3b01e76a41e59"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "chrony-pool \

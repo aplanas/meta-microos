@@ -5,8 +5,8 @@ LICENSE = "SUSE-GPL-2.0+-with-openssl-exception"
 
 PV = "2.8.127"
 
-RPM_NAME = "gsoap-devel-2.8.127-1.1.aarch64.rpm"
-RPM_HASH = "bccd5d086a3cbfbea70bec10bc0557df04ae027840817415fcf77a37f7d398ea53a0c20868ad6e32c58dacc9cc802993c08757c45fddbe6c19928c4194e4c159"
+RPM_NAME = "gsoap-devel-2.8.127-1.2.aarch64.rpm"
+RPM_HASH = "9b43c706319f0203b6e60555b53be9a15854b71e2b26b666e43cc091813caadd1e5ce4c1e8c5e343411924780a0e56af8565fe404570980815003383720af3fc"
 
 RPROVIDES:${PN} += "gsoap-devel \
 libgsoap-devel \

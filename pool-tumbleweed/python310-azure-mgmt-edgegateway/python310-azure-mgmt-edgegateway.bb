@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "0.1.0"
 
-RPM_NAME = "python310-azure-mgmt-edgegateway-0.1.0-2.18.noarch.rpm"
-RPM_HASH = "32e381aea6804f1269d74e06bca3136c7f8c972b1f4a35b28d8032a4c818182cb70323d9269cbdd3e2d584725c2a03673a27c26a2cd15cf28b94d644a9a6db33"
+RPM_NAME = "python310-azure-mgmt-edgegateway-0.1.0-2.19.noarch.rpm"
+RPM_HASH = "93c7852ac82fbf7f047322330b83c132d78ef90255e61ed324bc80e22f6f32e36df9d08455a1a79e2c9668fd5b7d690ca919fd2b8c97ad438d96bc2bbcb59c14"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-edgegateway \
-python3.10dist-azure-mgmt-edgegateway \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-edgegateway \
 python310-azure-mgmt-edgegateway \
 python3dist-azure-mgmt-edgegateway"
 

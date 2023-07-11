@@ -5,10 +5,10 @@ file dialog also uses this to provide its network-enabled file management. \
 Development files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "kio-devel-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "124b768ff7fa53e8550ec8f9d41b09cb55e5b939af82c9ce082185290367501dba9273a65791ab74d6f4403f1a5238855eea492e43e132770062fef48d6d096b"
+RPM_NAME = "kio-devel-5.107.0-2.1.aarch64.rpm"
+RPM_HASH = "17cf1dbe822ea7faa239da4d6be50b8fa691786a09655e9cc34d833f512c953e1c3987ee3eea1e0a22aac1bf22b1d223a8d778ae40d88e8de3495112b771a692"
 
 RPROVIDES:${PN} += "cmake-KF5KIO \
 kio-devel"

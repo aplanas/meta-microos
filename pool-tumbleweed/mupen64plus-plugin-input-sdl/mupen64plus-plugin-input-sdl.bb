@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.5.9"
 
-RPM_NAME = "mupen64plus-plugin-input-sdl-2.5.9-2.8.aarch64.rpm"
-RPM_HASH = "6a71a37e9c79cc739bc7b0a2df6e909af69cf78540339df5426aeaa819651ed967b9870edeecad066aeeb92a9ebfe7a66805566d28df061b0335ccee89077a21"
+RPM_NAME = "mupen64plus-plugin-input-sdl-2.5.9-2.9.aarch64.rpm"
+RPM_HASH = "928c62ab7fe61d82d8e3850b1c34241b32a29d3b8d79a5573fd3dbfff2e26b744a56d548fcebccc8b5f90a54bb01c4cd5b5da184bf40aa65e48d5c151ef687d0"
 
 RPROVIDES:${PN} += "mupen64plus-plugin-input \
 mupen64plus-plugin-input-sdl"

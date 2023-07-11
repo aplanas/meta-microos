@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.1.2"
 
-RPM_NAME = "ocaml-pp-1.1.2-4.1.aarch64.rpm"
-RPM_HASH = "f36d4b77a4caab01e95d887ed71419daec5f79e3b531bb5dedef1f409b31edbb2e6c0ec1a1c163b3b37179a26c3e00c742aff93cc94072e83b5b6a20edce6caf"
+RPM_NAME = "ocaml-pp-1.1.2-4.2.aarch64.rpm"
+RPM_HASH = "e1d787b878f13690c64cf7cb3f7e2d17f34dd10f3de6d59f88b2bc4635cfadfef5abc390043e83fc6b0e5abb86e1b0c54e83c2aaecfda81827c5a9b767fe667c"
 
 RPROVIDES:${PN} += "ocaml-pp"
 

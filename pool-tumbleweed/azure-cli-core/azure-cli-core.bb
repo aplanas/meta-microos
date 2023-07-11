@@ -4,12 +4,12 @@ LICENSE = "MIT"
 
 PV = "2.49.0"
 
-RPM_NAME = "azure-cli-core-2.49.0-1.1.noarch.rpm"
-RPM_HASH = "176c7eab1352692696935ed4168d71569f33b69b336362ca9edf132d725ae67548979ee633318919379f6a3661c24bf119116cc52368bad980e300708289a858"
+RPM_NAME = "azure-cli-core-2.49.0-1.2.noarch.rpm"
+RPM_HASH = "92a3a73906c6f275be13a18b929d50daf1ecdaee9c52da70c7cfd06d0f5639078eb70fa2b4a5442669699d74d6d31af6a6231b6f543fdd458ec2d7d1e4c400c8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "azure-cli-core \
-python3.10dist-azure-cli-core \
+python3.11dist-azure-cli-core \
 python3dist-azure-cli-core"
 
 RDEPENDS:${PN} += "azure-cli-nspkg \

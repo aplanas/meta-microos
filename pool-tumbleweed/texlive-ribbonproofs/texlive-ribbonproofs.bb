@@ -8,8 +8,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.0svn31137"
 
-RPM_NAME = "texlive-ribbonproofs-2023.201.1.0svn31137-53.1.noarch.rpm"
-RPM_HASH = "b42ec5d0a1ff19dc86700bf2a2da956a37c91c6a02c683ad2cde25e3763c7c3d4664fe922237b8c5c59fb0d55f9784440e5f57267948f17e0e98b1747bb1426b"
+RPM_NAME = "texlive-ribbonproofs-2023.201.1.0svn31137-53.2.noarch.rpm"
+RPM_HASH = "ef7f876cbd2cbaf92c50de28ba9e387294680c6a5db604966d1e8ce62595fe5d257165238944e085015f407a3f8cf0c62663ab875bebdbce7fc7737d0ec6c74f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ribbonproofs.sty \

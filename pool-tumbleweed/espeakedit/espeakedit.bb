@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0+"
 
 PV = "1.48.03"
 
-RPM_NAME = "espeakedit-1.48.03-2.27.aarch64.rpm"
-RPM_HASH = "3bf36e6a84c2a08ea74649efa3766de8baf0d45531ec5f74e7959530f781395ad49784fc8f56bc5fa9f4bd0bb7712aca64752b6f750b4a6a7cb483f42c468235"
+RPM_NAME = "espeakedit-1.48.03-2.28.aarch64.rpm"
+RPM_HASH = "6cf79dfd065067c04cb45c68e6a7b79faef8d60d055cfdf05a170d10ce34b60c4a15bdd03b5ca05ea3fc8eef0fa49aea28deaba1d61486544a307c948d5d8371"
 
 RPROVIDES:${PN} += "espeakedit"
 

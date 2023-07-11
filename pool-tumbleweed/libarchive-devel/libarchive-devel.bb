@@ -12,8 +12,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "3.6.2"
 
-RPM_NAME = "libarchive-devel-3.6.2-1.4.aarch64.rpm"
-RPM_HASH = "12dcdf345df24d54c895569382ed9732815cdc9c3fa85e6e24e303aad42806a7bdc103aa54e20498778257d7836876542c8f468884a63add0e7f3858d8535459"
+RPM_NAME = "libarchive-devel-3.6.2-1.5.aarch64.rpm"
+RPM_HASH = "85aff0382137a4fd12a0e65d0c7645fac2fbd9a11b770bd1c25cf054cf765fe753a00f4b6299557fbfc65822946d0de024412e3c0cd4eca41ba1e447e92419dd"
 
 RPROVIDES:${PN} += "libarchive-devel \
 pkgconfig-libarchive"

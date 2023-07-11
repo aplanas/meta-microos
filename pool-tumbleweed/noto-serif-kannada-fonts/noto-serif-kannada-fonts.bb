@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-serif-kannada-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "4a4055e53403d52b7e1592f19244fedef471d8ad59ef984e18a56f4c85c1d9a32100659c6de827cb60ae4a54bd165e3ca55c3f4ca4f3238a49ade68a6054329b"
+RPM_NAME = "noto-serif-kannada-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "a3d34e83b370d10c86c4551a8a47ebe42629b5b1a7e77e03ba12659b92b24faaa3b98cd8f7bdd383ff2ba35f52a16f512a2fb8a6fe99f79468e3658d88116b7f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-serif-kannada \

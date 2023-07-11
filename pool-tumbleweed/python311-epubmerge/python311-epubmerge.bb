@@ -23,11 +23,12 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.15.0"
 
-RPM_NAME = "python311-epubmerge-2.15.0-1.4.noarch.rpm"
-RPM_HASH = "c8d3e9fb7a305101e41dda40bf57624d39ba2f0c45758adc53f747ced4e1ffbdd27cb63313cd332568a9fde034cc4a44f41ff80ddceec8ad838e9fce90862d3a"
+RPM_NAME = "python311-epubmerge-2.15.0-1.5.noarch.rpm"
+RPM_HASH = "3a5e8c680a06415fc59047283831c0c0748a3a3c1368af3be99862dfe268e3353a81ef7b34a7a3fe3734476edd3f283de2fb7dd06070bec892e5332fbe4e4865"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-epubmerge \
+RPROVIDES:${PN} += "python3-epubmerge \
+python3.11dist-epubmerge \
 python311-epubmerge \
 python3dist-epubmerge"
 

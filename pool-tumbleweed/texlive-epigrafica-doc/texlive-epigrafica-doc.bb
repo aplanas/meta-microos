@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.201.1.01svn17210"
 
-RPM_NAME = "texlive-epigrafica-doc-2023.201.1.01svn17210-53.1.noarch.rpm"
-RPM_HASH = "2a7ec58fbbb7eb3805f2efa165906ee5d68649db049e0bed67d3f71ae27a4d5f363ae93a628d09b4ddbffb0b5a753f8b23396d6c6d43dbaf3fbec96c110c8d8f"
+RPM_NAME = "texlive-epigrafica-doc-2023.201.1.01svn17210-53.2.noarch.rpm"
+RPM_HASH = "a245466e476f8bad0936da3a3aeac00c76761f2ff47bcc70c417f16d615df142ec71f8991225d026a463606287cedd233d3edf03ac26454dce9ba8c20f0c2634"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-epigrafica-doc"

@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "4.0.2"
 
-RPM_NAME = "mpich-ofi-gnu-hpc-macros-devel-4.0.2-3.3.noarch.rpm"
-RPM_HASH = "7a2ed79e6d14eb43b41223ebdae1a1248fb50e82621945f55db7d1e72a004c57c13b9d77426165535281ba4adfb581012a974fdd715e2069010d9cc755448f08"
+RPM_NAME = "mpich-ofi-gnu-hpc-macros-devel-4.0.2-3.4.noarch.rpm"
+RPM_HASH = "580f85f136a027292a3cd3b9fa4b484eb0e72d252651820a94677ebabf41e39266b24f34952e2f28281c29d4670f4482573ab78195211f744d242b2d533de472"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mpich-ofi-gnu-hpc-macros-devel"

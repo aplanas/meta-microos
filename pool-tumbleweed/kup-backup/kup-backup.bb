@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0-only & GPL-3.0-only"
 
 PV = "0.9.1"
 
-RPM_NAME = "kup-backup-0.9.1-2.5.aarch64.rpm"
-RPM_HASH = "a05f8cc0250799b2861389a2c524fae0912ef6575a83e9878303684ae82acc83d9784d71368ce87bfbcb8cf5e8db9b32ad77ce0b31b0135504b0939425a7730d"
+RPM_NAME = "kup-backup-0.9.1-2.6.aarch64.rpm"
+RPM_HASH = "143b1c260e9310c298ce0a7d6e5a39cebc9c2f03b813de18fef0f9e28d0b0fe8c35e97694cebf1821c13e43c251345bf22bec1bdbcef27573531e7438359ddd4"
 
 RPROVIDES:${PN} += "kup-backup \
 libkdeinit5-kup-daemon.so"

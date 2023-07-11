@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.17"
 
-RPM_NAME = "talk-server-0.17-721.13.aarch64.rpm"
-RPM_HASH = "e4fdb133add0c378f41112a84a40f29d1682dc88fadbb3def77bb99aa1da6107a7bd7b053d718fbd35f6635ccd6c3a3aeb673810db119ae451342b259ace0a61"
+RPM_NAME = "talk-server-0.17-721.14.aarch64.rpm"
+RPM_HASH = "e610e6c590add710f83a320d9ef666425f19fa6995b216f3ae2de9bd853a2977f13db06b8de3fbbdb83de56d81e19c065b0e9a9f00f87fe01f5da2a7ed1b08a7"
 
 RPROVIDES:${PN} += "nkitserv-/usr/sbin/in.talkd \
 talk-server"

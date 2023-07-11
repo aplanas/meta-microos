@@ -18,13 +18,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.004"
 
-RPM_NAME = "perl-Fennec-Lite-0.004-9.24.noarch.rpm"
-RPM_HASH = "ad43fdac73804de16a0c3c36a37a990132b224c2715feb8bf4c6c62b9803d93364b6dcc9acbb5b765015a300718547d079348bdfc9b5564119fec1dc10625135"
+RPM_NAME = "perl-Fennec-Lite-0.004-9.25.noarch.rpm"
+RPM_HASH = "de1aed917d96066b0d95623d7b831b2947714d42bdbae6c3122cd7200cdfae6d0c2e70f1e5535ad46c9ca5c6471f58924c2f29601134f65c8915ae3f692fe7d0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Fennec--Lite \
 perl-Fennec-Lite"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

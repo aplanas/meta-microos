@@ -9,10 +9,10 @@ modules can be written in any language and are transferred to managed machines \
 automatically."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.15.0"
+PV = "2.15.1"
 
-RPM_NAME = "ansible-test-2.15.0-1.1.noarch.rpm"
-RPM_HASH = "7cb693c63ce1e1197830df65f7915c1e1aa94740d086e1bc48e38bfffa9c938da65a10b0d8bbe3911899373f398454b61642e448105cfc0009e3091ea2b7975c"
+RPM_NAME = "ansible-test-2.15.1-1.1.noarch.rpm"
+RPM_HASH = "2e13d94ee5df47b9d7771d6efa9006f16f64e0749a5ec35870f4ba9000dece0a97928bbb89e500508054f638213fe1301c79001ada35f78d1a154f3325302b9b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ansible-test"

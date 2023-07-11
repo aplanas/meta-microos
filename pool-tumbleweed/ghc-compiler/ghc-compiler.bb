@@ -7,11 +7,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "9.4.5"
 
-RPM_NAME = "ghc-compiler-9.4.5-3.1.aarch64.rpm"
-RPM_HASH = "f53f352d5ab0f8ce4b7c22b0fa5e7c9fb5d15ef2b969898fb2c11bdb00c978ed1ae9a9196b6ea5474c4ae0f4530f26c821e7a35562c4b465131f77e9d5f2ae6d"
+RPM_NAME = "ghc-compiler-9.4.5-3.2.aarch64.rpm"
+RPM_HASH = "b7b5b71a15620b78def4e1f9bfd9438d59f13ecddf057f740ab074e47281ed51b58a0918fcba4fa3f49b0a310915907c8afaca5a94fee3f4399b1260a089244a"
 
 RPROVIDES:${PN} += "ghc-compiler \
-hsc2hs-0.68.8-3.1"
+hsc2hs-0.68.8-3.2"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 gcc \

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.9"
 
-RPM_NAME = "ocaml-cudf-0.9-2.15.aarch64.rpm"
-RPM_HASH = "5d1eed4ac767aea646dfeab3dd5fa0a5f5e294b9b6be2fe3ce944d96a1d112740f99042e666946376906e7c9c541d7fb9a15eb1b140d50d49db528e70a9b2259"
+RPM_NAME = "ocaml-cudf-0.9-2.16.aarch64.rpm"
+RPM_HASH = "dc2b28c2284511b5ddc95b58dd2fcd196f396694fb2ac2bcc330bcd99031cff5fb746a679bb8f23175367d687ad9a73dca8aaa079302914eb777494ef072caea"
 
 RPROVIDES:${PN} += "ocaml-cudf"
 

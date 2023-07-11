@@ -6,14 +6,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.30"
 
-RPM_NAME = "perl-Package-Stash-XS-0.30-1.4.aarch64.rpm"
-RPM_HASH = "aa7c9d70af19dd3c001a6e7a29996828232b16a098cdbb41e5b49a78ed9e80170baa89f5df5c82ab9e8904c611a740565d656a9e2c080142fcaa7a191f0b298c"
+RPM_NAME = "perl-Package-Stash-XS-0.30-1.5.aarch64.rpm"
+RPM_HASH = "2fa3c25a02670431457bd70656bfab04eebd6b422d4e80d93c86f995c49c4782242694d6c8089a9a9aa2dfe6466e676c0144375c7d169267ed220e083f066433"
 
 RPROVIDES:${PN} += "perl-Package--Stash--XS \
 perl-Package-Stash-XS"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "0.74"
 
-RPM_NAME = "python311-Js2Py-0.74-2.1.noarch.rpm"
-RPM_HASH = "443b0fc9233c799219902778229a92954b661e157d464e3fe4db8ac999f1c37d9a1bf85390c45b458adaa02884fbc60394ff58719901d5f8d4ecaddb8b356a45"
+RPM_NAME = "python311-Js2Py-0.74-2.2.noarch.rpm"
+RPM_HASH = "957c32e34d67d8f91bf7461335768b2e0e0e1c6f45b913a2f2a35edd82463061e11a8b0013a1bea2730701cffaae23a6b5173bfd295e8ea95f6a73094bfd0fa7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-js2py \
+RPROVIDES:${PN} += "python3-Js2Py \
+python3.11dist-js2py \
 python311-Js2Py \
 python3dist-js2py"
 

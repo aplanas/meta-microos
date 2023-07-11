@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20220115"
 
-RPM_NAME = "libfole-devel-20220115-3.2.aarch64.rpm"
-RPM_HASH = "dedd9a22b1ffd8e657e3ff016fc2e81ceef0354a70b01fd219edbaeb6602af6ba49594a9a520bf4e2e04c3eede051b265297381f6cf86934ffedc726e888210d"
+RPM_NAME = "libfole-devel-20220115-3.3.aarch64.rpm"
+RPM_HASH = "cc6ad3bbbaaffeda58285767207cf96c675e0f2fadbf269eafb9f46a4f727a26e0e935f4e0522aa10dab0da06c314013ca14d001ede35e7309beefc5a9a5d773"
 
 RPROVIDES:${PN} += "libfole-devel \
 pkgconfig-libfole"

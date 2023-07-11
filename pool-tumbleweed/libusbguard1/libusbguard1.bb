@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.1.2"
 
-RPM_NAME = "libusbguard1-1.1.2-3.1.aarch64.rpm"
-RPM_HASH = "fe0ae8ebc54fb1ba3a247556a8866069f398a8b0af67548771a66a0c9bef1aeb4f3ded7c5cd21dc2045ad7a79e270874652302c12c4a528bffffd245491850f2"
+RPM_NAME = "libusbguard1-1.1.2-3.2.aarch64.rpm"
+RPM_HASH = "dc79954d4284e316b17a379c0e63deb9682efe3647b4f9deb992e3b0e86e74c481b26d4254f60b17885d955f223ad40e548809e79c07a474ca48c77b45a7c42b"
 
 RPROVIDES:${PN} += "libusbguard.so.1 \
 libusbguard1"

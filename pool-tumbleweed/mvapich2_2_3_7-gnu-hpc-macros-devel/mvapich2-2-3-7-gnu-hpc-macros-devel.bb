@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.3.7"
 
-RPM_NAME = "mvapich2_2_3_7-gnu-hpc-macros-devel-2.3.7-4.3.aarch64.rpm"
-RPM_HASH = "c6a3c0f92afd616f7327c8c04fd1648f0e0774f26f400eb9507e00b233c1841ebe248b387ba444084de7d648fefbcc8c6a6e25a15572fe0282f62039281bbbba"
+RPM_NAME = "mvapich2_2_3_7-gnu-hpc-macros-devel-2.3.7-4.4.aarch64.rpm"
+RPM_HASH = "308de723d627f08a254060a1e743d10a83520867f923ec4f70eac67a65b332d18bc501c83663267c3ef887cbf884500a2bfb556729d1c77e3523309e306d7805"
 
 RPROVIDES:${PN} += "config-mvapich2-2-3-7-gnu-hpc-macros-devel \
 mvapich2-2-3-7-gnu-hpc-macros-devel \

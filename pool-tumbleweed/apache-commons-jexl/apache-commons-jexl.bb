@@ -15,8 +15,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.1.1"
 
-RPM_NAME = "apache-commons-jexl-2.1.1-2.6.noarch.rpm"
-RPM_HASH = "aeb6cbafa9c4cf91fac7389e7bf5bf25bab77af6bbbf5f16350c6ba76c39967b488fccade14720b0df1690b0f9f2a2ed7c73d512bded8295cc7a85eae237a347"
+RPM_NAME = "apache-commons-jexl-2.1.1-2.7.noarch.rpm"
+RPM_HASH = "8a9c49763fb9fea9113512f984390528392edfe13ce47887bd48035857c20af1428aa404678896392dc801be8d96059b2683b891f5c78fbe049f389f86ae5b58"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-jexl \

@@ -6,12 +6,11 @@ LICENSE = "ISC"
 
 PV = "4.0"
 
-RPM_NAME = "python310-rarfile-doc-4.0-3.5.noarch.rpm"
-RPM_HASH = "e2acfd4de9e3808ac09114988a4f528afae22f51ef16bab56006ddeb4ca39edd4810e8c8145b3abfeb9b7062376ad16c7402e6915dae8c6971910794c2cd6fba"
+RPM_NAME = "python310-rarfile-doc-4.0-3.7.noarch.rpm"
+RPM_HASH = "69f445600c46ee7f8dcddd03a35436082dd43da465ce1d1550ded7eb699cea35dafb5ec8f2ec2a530b6b7b0a531b0a15e828748ea0ab9e3d009fac9f8459168a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-rarfile-doc \
-python310-rarfile-doc"
+RPROVIDES:${PN} += "python310-rarfile-doc"
 
 RDEPENDS:${PN} += ""
 

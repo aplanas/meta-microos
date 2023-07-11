@@ -10,14 +10,14 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.6"
 
-RPM_NAME = "python-onionshare-2.6-2.1.noarch.rpm"
-RPM_HASH = "ea60867a561176583b8e46dc610e18f057a7e484d1016be3d52175c976f39d6d4e55e3a3707dad084e07261bfdea242a41839508dc370d9c3caf6099e639e4d8"
+RPM_NAME = "python-onionshare-2.6-2.2.noarch.rpm"
+RPM_HASH = "ffc6ad03acc75863153f71002279dce93b7706d7fef990b0373cc6172ef6a8eabf635869d680d50f527fab69ffdd0f30a5077e2d153e3aac35f7fb180036002d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-onionshare \
 python-onionshare-2.6 \
-python3.10dist-onionshare \
-python3.10dist-onionshare-cli \
+python3.11dist-onionshare \
+python3.11dist-onionshare-cli \
 python3dist-onionshare \
 python3dist-onionshare-cli"
 

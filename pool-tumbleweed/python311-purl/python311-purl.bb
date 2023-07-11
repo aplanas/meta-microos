@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "1.6"
 
-RPM_NAME = "python311-purl-1.6-2.1.noarch.rpm"
-RPM_HASH = "f0e436f37b62519939d1f1950649d0341a5bef6db0a3c05c725aef27e91f94c1e22032e96bf88d9237a5c04009956ec96d0535db0c0e97c33f9e2f2e386d8288"
+RPM_NAME = "python311-purl-1.6-2.3.noarch.rpm"
+RPM_HASH = "c901e2a98fa91e32c6acafc09e32f779ecaf745a5baa6901f2584e8871e987de2fb29696964e32845a624dd2a88c7fec5416798e47d750b231585e21c64eba94"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-purl \
+RPROVIDES:${PN} += "python3-purl \
+python3.11dist-purl \
 python311-purl \
 python3dist-purl"
 

@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains compressed kernel firmware files for \
 Realtek wireless drivers."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230517"
+PV = "20230620"
 
-RPM_NAME = "kernel-firmware-realtek-20230517-1.1.noarch.rpm"
-RPM_HASH = "9c004af546842f703c225d8155d69ab3429081ebad8b321cf4306c30fac8895190c33ff6ec25ca140349893f6fb8daceb74ac1ba96be0ce47453a26bf22627f1"
+RPM_NAME = "kernel-firmware-realtek-20230620-1.1.noarch.rpm"
+RPM_HASH = "12d8a95cfb1af5666baf46f494a3f2e9ad59de3037ef58ab7f30f0638aead681d021aa3dd737f1303b3d069e218914e4e9f2dbdfeadd7ad02c59da751580fddf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-RTL8192E/boot.img \
@@ -96,6 +96,7 @@ firmware-rtw88/rtw8821c-fw.bin \
 firmware-rtw88/rtw8822b-fw.bin \
 firmware-rtw88/rtw8822c-fw.bin \
 firmware-rtw88/rtw8822c-wow-fw.bin \
+firmware-rtw89/rtw8851b-fw.bin \
 firmware-rtw89/rtw8852a-fw.bin \
 firmware-rtw89/rtw8852b-fw-1.bin \
 firmware-rtw89/rtw8852b-fw.bin \

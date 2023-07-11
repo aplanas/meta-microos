@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.0"
 
-RPM_NAME = "kubernetes-node-image-pause-1.0.0-1.17.aarch64.rpm"
-RPM_HASH = "6c7d548a5d13498f57d733711e7493a73b083419781bddde4c577bec0a835f828760398d586c5087049b31dd28da5002f454b52e58ca9c9e962cbde40d857bc7"
+RPM_NAME = "kubernetes-node-image-pause-1.0.0-1.18.aarch64.rpm"
+RPM_HASH = "99762bf394036d66c54bf1191e81cdf78ea0e1163073ec303b089580844922654718ca4a2e096dffa90d61b2a76fec9b78b1ec4391dad21d763a898bad9039fc"
 
 RPROVIDES:${PN} += "kubernetes-node-image-pause"
 

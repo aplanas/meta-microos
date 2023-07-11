@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.0"
 
-RPM_NAME = "libosmgpsmap-devel-1.2.0-1.7.aarch64.rpm"
-RPM_HASH = "5cfeb6d1e171a4db0b4a4e3a47fc2a8b9dc8573b0291a96bd7fffeebbd859ac8d9538920fefbe5b0ee4ea378a85a2c1fa0ae55b32f9c4d80e595f6d5bfb57cac"
+RPM_NAME = "libosmgpsmap-devel-1.2.0-1.8.aarch64.rpm"
+RPM_HASH = "25445a64b36ac1e7dbd8cec0916b7803fac9064b789359e97832536ee9372b3770383a853c50c8480dd99c70e4a29e7ddf7abd5e9f05ffdb16709f2c651fbcbf"
 
 RPROVIDES:${PN} += "libosmgpsmap-devel \
 pkgconfig-osmgpsmap-1.0"

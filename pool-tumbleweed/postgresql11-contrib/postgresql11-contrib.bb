@@ -14,8 +14,8 @@ LICENSE = "PostgreSQL"
 
 PV = "11.20"
 
-RPM_NAME = "postgresql11-contrib-11.20-1.2.aarch64.rpm"
-RPM_HASH = "eca5a19a1beec6b62431a18fd2c283cc015f34215f9aee953b08ba164b8a79912a1100a69d05f4c6b833ffa1ec96ef77c108e4e20c367ee8e4715f17f994d28a"
+RPM_NAME = "postgresql11-contrib-11.20-1.5.aarch64.rpm"
+RPM_HASH = "880b09eaab6228d385b09671d2f831aed0a334cdf7ed60712dc1ae55af017146093fbf01270a65ad261ba3352491692bedcb24f489339773a93f6a011b64a68f"
 
 RPROVIDES:${PN} += "postgresql-contrib-implementation \
 postgresql11-contrib"
@@ -27,7 +27,7 @@ libcrypto.so.3 \
 libm.so.6 \
 libperl.so \
 libpq.so.5 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libselinux.so.1 \
 libssl.so.3 \
 libuuid.so.1 \

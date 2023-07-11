@@ -2,10 +2,10 @@ SUMMARY = "Metapackage, requires all core Packages"
 DESCRIPTION = "Metapackage, Requires: all core Packages"
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "4.3.0"
+PV = "4.3.1"
 
-RPM_NAME = "R-core-packages-4.3.0-45.2.aarch64.rpm"
-RPM_HASH = "d22efc404596a5d5fbf25835e4c41885fc8cd08644f74c36a582d5d4138193797a446127a42f6ac31c0c500124eea09b8dc6b720fd87b845e37180de18eea988"
+RPM_NAME = "R-core-packages-4.3.1-46.1.aarch64.rpm"
+RPM_HASH = "f025b8236a5fa34d9ace16464ef6a47d13df6771819a53625098a405eca9b04d0ef37a6dd230398310fdf1212df0f3220b8733faea161bac1e81eeede982212c"
 
 RPROVIDES:${PN} += "R-core-packages"
 

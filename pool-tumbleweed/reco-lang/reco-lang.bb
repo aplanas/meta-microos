@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.2.1"
 
-RPM_NAME = "reco-lang-3.2.1-1.7.noarch.rpm"
-RPM_HASH = "8e5d57cb508b69de9715fd611e1fbdd587bbf78ec451d469c431020a8e2895aa877870835d2fc1c05d902b16f5ec0ba7d6e3477ba562adf3962b4fae762e2336"
+RPM_NAME = "reco-lang-3.2.1-1.8.noarch.rpm"
+RPM_HASH = "a2e7ba2463df49dde34a843aafa8c74f8609a9eb8e754446d41e33e33f7d36dffd028174be835efb3b741acd063261fd2cf5aa432f8e8021426f98f1add225af"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-reco-ca \

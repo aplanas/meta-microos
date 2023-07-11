@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "6.0.0"
 
-RPM_NAME = "python310-azure-mgmt-recoveryservicesbackup-6.0.0-1.1.noarch.rpm"
-RPM_HASH = "5be48fc1418a2fa6d0c8034c4c7a56a15d56d0ad85b125b4a1158eb1987f03a004473ca15fa0a867d54bc3a3a18500d7b018ec4b0a1b21a70e48b9876e17b792"
+RPM_NAME = "python310-azure-mgmt-recoveryservicesbackup-6.0.0-1.2.noarch.rpm"
+RPM_HASH = "6f20adfaa5605addee6c68a57d7d8d46b1b33e7b49407488e5e528e3eb980b5364c17feb7a69764210678c1ca5755453ce1da69c719cad355c65ddbd40d54e8f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-recoveryservicesbackup \
-python3.10dist-azure-mgmt-recoveryservicesbackup \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-recoveryservicesbackup \
 python310-azure-mgmt-recoveryservicesbackup \
 python3dist-azure-mgmt-recoveryservicesbackup"
 

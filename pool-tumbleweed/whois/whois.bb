@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.5.17"
 
-RPM_NAME = "whois-5.5.17-1.1.aarch64.rpm"
-RPM_HASH = "3284b7742b02cbd30ef1785ed565c950fa073d120008c6c524fe61a30c2606d4e3939932cd86c63c9089cd8f6b061ed109418c52aa99ab86d8ed00e69cbc1d4b"
+RPM_NAME = "whois-5.5.17-1.2.aarch64.rpm"
+RPM_HASH = "f9e19f6168057cf0452060248a7718148b78d2b9fc86bdb18a3ebe05637bd20ec0d5f0e9401f27bdfcaff4d2fe828112c75f39a5db841f943fb74fbd3afcd4b9"
 
 RPROVIDES:${PN} += "ripe-whois-tools \
 whois"
@@ -20,6 +20,6 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypt.so.1 \
 libidn2.so.0 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

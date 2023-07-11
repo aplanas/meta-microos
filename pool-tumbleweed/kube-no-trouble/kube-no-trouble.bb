@@ -14,8 +14,8 @@ LICENSE = "MIT"
 
 PV = "0.7.0"
 
-RPM_NAME = "kube-no-trouble-0.7.0-1.4.aarch64.rpm"
-RPM_HASH = "fe36834fe798c3e85dd5cfb66b7541533af20321ea397896652d686851bd46972236d291d258e50b590a23ad2fcff97d71f2195b0ba5e80f2e8af72f1b558d43"
+RPM_NAME = "kube-no-trouble-0.7.0-1.5.aarch64.rpm"
+RPM_HASH = "7e276cb847dd46431f4bed21ba974e88769850f3bd40502813fa81696f5d9cfa0e8fb0a7c58f3583b74ab5dc2fb7f8da9b527c1d3881c950c367e671afd45ecb"
 
 RPROVIDES:${PN} += "kube-no-trouble"
 

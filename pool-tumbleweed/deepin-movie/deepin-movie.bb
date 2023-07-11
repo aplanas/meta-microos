@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later & OpenSSL"
 
 PV = "5.10.8"
 
-RPM_NAME = "deepin-movie-5.10.8-1.5.aarch64.rpm"
-RPM_HASH = "5d99718439e5733787a505587bae4c5825c9c6bbd3f1d9543ab8db0f2a4afe3b2c9167394b5dfe689b4cd7c10e4ff001d2376381ab92e1e74dcecb19c33e4f3e"
+RPM_NAME = "deepin-movie-5.10.8-1.6.aarch64.rpm"
+RPM_HASH = "18a10db2a1b7fc0c2e89078d93089b7a1643c186e184700eaf4c4a33e3336b5ad9a1af15e47a562339f5c3aa354712d324b77ab18933ace33c4f38ffe70aa0f4"
 
 RPROVIDES:${PN} += "deepin-movie"
 

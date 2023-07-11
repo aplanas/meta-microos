@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "5.13.3"
 
-RPM_NAME = "pagure-milters-5.13.3-1.4.noarch.rpm"
-RPM_HASH = "843f37fd858466f310734d652c6de491b43cf5d005a409390ecaada3ff018734149b2c7dd9ea0c040a7df7256a69f78bbe08cba0755bf8335242895ac28ae026"
+RPM_NAME = "pagure-milters-5.13.3-1.5.noarch.rpm"
+RPM_HASH = "e64854c94dfda8166fc1ae5ce40c868c4ed994223aa031b6e0a646b0ee781ce8c1ef49825b7f9256de8358f1cfe352a507da6d57e7604983ad684c358daa3b3f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pagure-milters"

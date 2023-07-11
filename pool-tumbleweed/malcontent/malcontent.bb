@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "0.10.4"
 
-RPM_NAME = "malcontent-0.10.4-1.5.aarch64.rpm"
-RPM_HASH = "21d386f4457afff9f2395ba32bb414b02936c177556467ac8aac5b40051afc5591506f554780afcdaed731dfee969a737b40fbafad703368a1499cdd43e31dcf"
+RPM_NAME = "malcontent-0.10.4-1.6.aarch64.rpm"
+RPM_HASH = "c152484483be1732090168d22fb0c421f18a39b40311f37ea825b8ab9cd3c6b7dd129b24f7fc92cd8b21ce8c8023c9a4176f825c8809f12da369072b3e02dc51"
 
 RPROVIDES:${PN} += "malcontent"
 

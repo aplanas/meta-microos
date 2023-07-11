@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "8.0.202"
 
-RPM_NAME = "openjfx8-8.0.202-8.3.aarch64.rpm"
-RPM_HASH = "b3c91a2302997811833e85d4f36612647ba178fa970bf7da3cd6fe9829204fcaf641a4cf7b4f7881cf8d9f7470d4ab46ac62c8a984742dde4d7524b0f4f9f1da"
+RPM_NAME = "openjfx8-8.0.202-8.4.aarch64.rpm"
+RPM_HASH = "d58ba1d2c6d20a97e025c89398f5512356ed707db61942252f362d24f3aa50c4d0045de42440173bf3d0c14ee8e3cbc06ca2e0971a597d16fe4ff652f3ede905"
 
 RPROVIDES:${PN} += "java-1-8-0-openjfx \
 libdecora-sse.so \

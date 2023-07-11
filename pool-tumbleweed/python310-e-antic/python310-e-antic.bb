@@ -5,12 +5,10 @@ LICENSE = "LGPL-2.1-or-later & LGPL-3.0-or-later"
 
 PV = "1.3.0"
 
-RPM_NAME = "python310-e-antic-1.3.0-1.5.aarch64.rpm"
-RPM_HASH = "060b5ca18009964128d9d7cf9ff5a9b90a68e74878b8fd3364ce47b00b97791216cdf35a72922294eb9a950ff8ec78a3f2f3b5a1aedaa529031b092d2e20ed88"
+RPM_NAME = "python310-e-antic-1.3.0-1.6.aarch64.rpm"
+RPM_HASH = "439a17f4e539a48fa466363984669f42527662b962364de3cecd8f4065f6d82d54ca44a50d3c5fffbbe422c47601741734b4af2db08ff95b257369d191efeae6"
 
-RPROVIDES:${PN} += "python3-e-antic \
-python3-pyeantic \
-python3.10dist-pyeantic \
+RPROVIDES:${PN} += "python3.10dist-pyeantic \
 python310-e-antic \
 python310-pyeantic \
 python3dist-pyeantic"

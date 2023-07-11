@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0+"
 
 PV = "5.0.6"
 
-RPM_NAME = "udisks2-qt5-devel-5.0.6-1.8.aarch64.rpm"
-RPM_HASH = "a490da01cc271e116458fa3df683c5fe0ac085dde10a7ef765d4de4cee297af1635f52eb6896b56d5aefcae919ce83a9adc3698a4ff2f15197bfa94fd031cbdf"
+RPM_NAME = "udisks2-qt5-devel-5.0.6-1.9.aarch64.rpm"
+RPM_HASH = "30efd1778c2a9eb113ab06949ca12cadd9c386f7712a825be1ecc6ac57326a7d2f38178f8fc6bc27bd8ef78ff9f892e587781aea84353e7ad46d52a38075dad2"
 
 RPROVIDES:${PN} += "pkgconfig-udisks2-qt5 \
 udisks2-qt5-devel"

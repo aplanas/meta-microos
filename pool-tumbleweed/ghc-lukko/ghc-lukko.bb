@@ -37,8 +37,8 @@ LICENSE = "GPL-2.0-or-later & BSD-3-Clause"
 
 PV = "0.1.1.3"
 
-RPM_NAME = "ghc-lukko-0.1.1.3-5.3.aarch64.rpm"
-RPM_HASH = "3e8be3a943054c911dfa101894ed17448b96338559169e4b6019638d922299653fe2c281790680bfb6c1a14c7b7cf4eecd31980d7a0c1e806b3be4fb05d73a22"
+RPM_NAME = "ghc-lukko-0.1.1.3-5.6.aarch64.rpm"
+RPM_HASH = "b5400bf268fd72f6ef010ed73f0acc83a000d3ddf3a5e7746776ed719832623e61ee1534de17927a7ba547004c7f6444789b05081ba708c4f57ba8c72cae0be7"
 
 RPROVIDES:${PN} += "ghc-lukko \
 libHSlukko-0.1.1.3-7Ko9x6wnjxCV3NuL9k89V-ghc9.4.5.so"

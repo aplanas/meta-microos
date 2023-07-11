@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "4.2.0"
 
-RPM_NAME = "python39-pytest-qt-4.2.0-2.1.noarch.rpm"
-RPM_HASH = "bfe4643b6c9d643da28e1e608853552138688030fb9eadd334c33d61715cce6a52ddeecc15f8f5c518040411884fa88b752685b66e6ff62df1a4d224d31f3f06"
+RPM_NAME = "python39-pytest-qt-4.2.0-4.1.noarch.rpm"
+RPM_HASH = "c05c65af66619628c080a404a2e55c428b4f546f5a45bb7f6731fec3d65fbe5851a2a5fade6707894441e88a8c45e30a7c2e6a89e17d2eec892efa00c57c5032"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytest-qt \

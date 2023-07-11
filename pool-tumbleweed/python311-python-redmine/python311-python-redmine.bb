@@ -7,11 +7,12 @@ LICENSE = "Apache-2.0"
 
 PV = "2.4.0"
 
-RPM_NAME = "python311-python-redmine-2.4.0-1.3.noarch.rpm"
-RPM_HASH = "084576b33050fecf7727f45d79049be940734d62a16da372b52687814702b1ed1028a34480b142e40643c6a5125723714bd14efec66e8d0f21c8211aa3e0522f"
+RPM_NAME = "python311-python-redmine-2.4.0-1.5.noarch.rpm"
+RPM_HASH = "3b0978a0b71690926786c0702c4d9efbb6e4666799843d52b75149365e3ac5d532425e7ac789450334216a1e2b51e356f6f64340b922c28490f6825ce6770740"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-python-redmine \
+RPROVIDES:${PN} += "python3-python-redmine \
+python3.11dist-python-redmine \
 python311-python-redmine \
 python3dist-python-redmine"
 

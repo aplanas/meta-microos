@@ -11,59 +11,59 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.2.1"
 
-RPM_NAME = "gnuhealth-4.2.1-1.1.noarch.rpm"
-RPM_HASH = "2f638124e7b9b64ca9ebe4750db5ed199745aa07d5515c8b894073d9d78c2d5385d00317e74a33e98424b223ae300ff002ed1545a52018a84ee8ca3b3b98b185"
+RPM_NAME = "gnuhealth-4.2.1-1.3.noarch.rpm"
+RPM_HASH = "595bb4d08cfff30a6862b0ef6c7933633dbfd7dd168c6662778a0c3f2e4959ab1d5c96954b38bb0d264c0cea31cc2c5743a6be41de4dad4d087b02e1e11aa1ca"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnuhealth \
-python3.10dist-gnuhealth \
-python3.10dist-gnuhealth-archives \
-python3.10dist-gnuhealth-caldav \
-python3.10dist-gnuhealth-calendar \
-python3.10dist-gnuhealth-contact-tracing \
-python3.10dist-gnuhealth-crypto \
-python3.10dist-gnuhealth-crypto-lab \
-python3.10dist-gnuhealth-dentistry \
-python3.10dist-gnuhealth-disability \
-python3.10dist-gnuhealth-ems \
-python3.10dist-gnuhealth-federation \
-python3.10dist-gnuhealth-genetics \
-python3.10dist-gnuhealth-genetics-uniprot \
-python3.10dist-gnuhealth-gyneco \
-python3.10dist-gnuhealth-history \
-python3.10dist-gnuhealth-icd10 \
-python3.10dist-gnuhealth-icd10pcs \
-python3.10dist-gnuhealth-icd11 \
-python3.10dist-gnuhealth-icd9procs \
-python3.10dist-gnuhealth-icpm \
-python3.10dist-gnuhealth-icu \
-python3.10dist-gnuhealth-imaging \
-python3.10dist-gnuhealth-inpatient \
-python3.10dist-gnuhealth-inpatient-calendar \
-python3.10dist-gnuhealth-insurance \
-python3.10dist-gnuhealth-iss \
-python3.10dist-gnuhealth-lab \
-python3.10dist-gnuhealth-lifestyle \
-python3.10dist-gnuhealth-mdg6 \
-python3.10dist-gnuhealth-ntd \
-python3.10dist-gnuhealth-ntd-chagas \
-python3.10dist-gnuhealth-ntd-dengue \
-python3.10dist-gnuhealth-nursing \
-python3.10dist-gnuhealth-ophthalmology \
-python3.10dist-gnuhealth-pediatrics \
-python3.10dist-gnuhealth-pediatrics-growth-charts \
-python3.10dist-gnuhealth-pediatrics-growth-charts-who \
-python3.10dist-gnuhealth-profile \
-python3.10dist-gnuhealth-qrcodes \
-python3.10dist-gnuhealth-reporting \
-python3.10dist-gnuhealth-services \
-python3.10dist-gnuhealth-services-imaging \
-python3.10dist-gnuhealth-services-lab \
-python3.10dist-gnuhealth-socioeconomics \
-python3.10dist-gnuhealth-stock \
-python3.10dist-gnuhealth-surgery \
-python3.10dist-gnuhealth-webdav3-server \
-python3.10dist-gnuhealth-who-essential-medicines \
+python3.11dist-gnuhealth \
+python3.11dist-gnuhealth-archives \
+python3.11dist-gnuhealth-caldav \
+python3.11dist-gnuhealth-calendar \
+python3.11dist-gnuhealth-contact-tracing \
+python3.11dist-gnuhealth-crypto \
+python3.11dist-gnuhealth-crypto-lab \
+python3.11dist-gnuhealth-dentistry \
+python3.11dist-gnuhealth-disability \
+python3.11dist-gnuhealth-ems \
+python3.11dist-gnuhealth-federation \
+python3.11dist-gnuhealth-genetics \
+python3.11dist-gnuhealth-genetics-uniprot \
+python3.11dist-gnuhealth-gyneco \
+python3.11dist-gnuhealth-history \
+python3.11dist-gnuhealth-icd10 \
+python3.11dist-gnuhealth-icd10pcs \
+python3.11dist-gnuhealth-icd11 \
+python3.11dist-gnuhealth-icd9procs \
+python3.11dist-gnuhealth-icpm \
+python3.11dist-gnuhealth-icu \
+python3.11dist-gnuhealth-imaging \
+python3.11dist-gnuhealth-inpatient \
+python3.11dist-gnuhealth-inpatient-calendar \
+python3.11dist-gnuhealth-insurance \
+python3.11dist-gnuhealth-iss \
+python3.11dist-gnuhealth-lab \
+python3.11dist-gnuhealth-lifestyle \
+python3.11dist-gnuhealth-mdg6 \
+python3.11dist-gnuhealth-ntd \
+python3.11dist-gnuhealth-ntd-chagas \
+python3.11dist-gnuhealth-ntd-dengue \
+python3.11dist-gnuhealth-nursing \
+python3.11dist-gnuhealth-ophthalmology \
+python3.11dist-gnuhealth-pediatrics \
+python3.11dist-gnuhealth-pediatrics-growth-charts \
+python3.11dist-gnuhealth-pediatrics-growth-charts-who \
+python3.11dist-gnuhealth-profile \
+python3.11dist-gnuhealth-qrcodes \
+python3.11dist-gnuhealth-reporting \
+python3.11dist-gnuhealth-services \
+python3.11dist-gnuhealth-services-imaging \
+python3.11dist-gnuhealth-services-lab \
+python3.11dist-gnuhealth-socioeconomics \
+python3.11dist-gnuhealth-stock \
+python3.11dist-gnuhealth-surgery \
+python3.11dist-gnuhealth-webdav3-server \
+python3.11dist-gnuhealth-who-essential-medicines \
 python3dist-gnuhealth \
 python3dist-gnuhealth-archives \
 python3dist-gnuhealth-caldav \

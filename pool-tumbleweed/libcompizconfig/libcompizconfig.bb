@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.8.18"
 
-RPM_NAME = "libcompizconfig-0.8.18-2.11.aarch64.rpm"
-RPM_HASH = "39e31fcabebdff9332c1b79dc2e901fbcbd87af921bb025a8f7952f6cafc0a6b238c2fde815404143f0018cf4180a95a64f67b5ff67515572149f3f01c0c1599"
+RPM_NAME = "libcompizconfig-0.8.18-2.12.aarch64.rpm"
+RPM_HASH = "5fa13b93a8c765faa13b9c483bbfb6709e4754ed32d00a50e872f387db9b1911703f459fa90f567f2795bb536b18f486f8c605fac4e6641d99f03cc29f725937"
 
 RPROVIDES:${PN} += "config-libcompizconfig \
 libccp.so \

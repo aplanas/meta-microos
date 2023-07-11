@@ -6,10 +6,10 @@ environ, graphicx, luaotfload, luaoptions, luatexbase, \
 metalogo, minibox, pdfpages, xkeyval."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1.3svn66278"
+PV = "2023.208.1.1.3svn66278"
 
-RPM_NAME = "texlive-lyluatex-2023.201.1.1.3svn66278-52.1.noarch.rpm"
-RPM_HASH = "402b5934da1f0998f8f15d28c5ddc1ad86232d7d9679fc77763ab45fb58d4e72a76ba3f721eb455cea4e3d3f607e95cfc31c1e2d4c12ecbc767cedc504f58c7d"
+RPM_NAME = "texlive-lyluatex-2023.208.1.1.3svn66278-53.1.noarch.rpm"
+RPM_HASH = "b57a8427556c1771e1e848564d1ad1538caff238b00e52f780312f116af6c3379874f1822b198c6d12b6add9839861f1b154debeddd0140b897a7464eed18517"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lyluatex.sty \

@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.42.10"
 
-RPM_NAME = "gdk-pixbuf-thumbnailer-2.42.10-1.4.aarch64.rpm"
-RPM_HASH = "e18bdf371f87042e832cdb537a4331b68f53a81914c20a77c42e91d1763fda70e4d36fca4088e97ddc09f9f6b62180682aa0168079fd6ecc61c840d90aa49fe1"
+RPM_NAME = "gdk-pixbuf-thumbnailer-2.42.10-1.5.aarch64.rpm"
+RPM_HASH = "fda540b00ac355128607b46827674b410e0a269860455e0faa8c7f86564f0b280127e2c817dcacabaec75a8e4277b9dc9d36784b23c59feee42712b702c446fa"
 
 RPROVIDES:${PN} += "gdk-pixbuf-thumbnailer"
 

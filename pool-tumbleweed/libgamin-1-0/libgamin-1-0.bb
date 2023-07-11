@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.1.10"
 
-RPM_NAME = "libgamin-1-0-0.1.10-18.1.aarch64.rpm"
-RPM_HASH = "e05c8614b4672ec1004be426dfa08e587685ba0b5c9a26671bd7d626c7c78b157c74080aaff70301e61a0029bc051a579561d378109eedd444a62e7fd158b983"
+RPM_NAME = "libgamin-1-0-0.1.10-18.2.aarch64.rpm"
+RPM_HASH = "b075b196f21695a15ec0efa9502820f73e2a18e76d0291dbf69d7b78b7c88bc50be0130b109978b5981d2ae0caac4abd9faec5760e6ff233cf7be443bbfa18d7"
 
 RPROVIDES:${PN} += "libgamin \
 libgamin-1-0 \

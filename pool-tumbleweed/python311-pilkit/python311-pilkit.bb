@@ -8,11 +8,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0"
 
-RPM_NAME = "python311-pilkit-2.0-6.6.noarch.rpm"
-RPM_HASH = "0529cc470a98e7d47d26a14cc34d896478652148d6144f971916c4be79592d2888c28f3d66f358797d0a67bf82604047c83a8f5bdf2ed288cc2ebd7c7752c3ce"
+RPM_NAME = "python311-pilkit-2.0-6.8.noarch.rpm"
+RPM_HASH = "6659c356b2ba0913b653c3aa590cdd36d7fc4794918a88365eee23748dbb1a62a863e4d96ea7af0943dc24dc84e6dcb94c8ff14f2314be2342e39e82135a38da"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pilkit \
+RPROVIDES:${PN} += "python3-pilkit \
+python3.11dist-pilkit \
 python311-pilkit \
 python3dist-pilkit"
 

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.9.8"
 
-RPM_NAME = "libstoragemgmt-local-plugin-1.9.8-1.1.noarch.rpm"
-RPM_HASH = "cf8c0a187e97dc73678f93a19e62f50bd96b5f00009ad8417b8eb59423eff65ab2ff3ab228e1bc7af2a70b8020c8bf9a04465d823d148d5c9c73b494295b7ec1"
+RPM_NAME = "libstoragemgmt-local-plugin-1.9.8-1.2.noarch.rpm"
+RPM_HASH = "d8f38ec9208e77510473ff0eb27dda697af2693e7d863efbde96a4a20d3bf80738614ed94104915ec6ed737094357aa3af8b580c3843522a6ad86fb272fcd4d2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-libstoragemgmt-local-plugin \

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.8.0"
 
-RPM_NAME = "ghc-deepseq-doc-1.4.8.0-3.1.noarch.rpm"
-RPM_HASH = "4eeb675ee750897d10f10e43df117f27d0553b448c8fa22cbb2f1e2fb56edb23ed92be24aebc3af7099c91a103fedd7ba031942d3fa64629f387720dda7b07fa"
+RPM_NAME = "ghc-deepseq-doc-1.4.8.0-3.2.noarch.rpm"
+RPM_HASH = "f5e5f54132eb10e49fc7af4fbf95a0c8165fe64c7273c8cb01193dd9a8c9607a020f7d85da79963e25bbd467cdb7d5799e85f43cb13fa1f869d5875671fc8d29"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-deepseq-doc"

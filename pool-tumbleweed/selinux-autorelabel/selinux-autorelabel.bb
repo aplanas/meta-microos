@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "3.1"
 
-RPM_NAME = "selinux-autorelabel-3.1-3.7.noarch.rpm"
-RPM_HASH = "3e70b945cc8044d45683f7f990c503cc255a91a089bbb6b0bf4a4bc1c19cf1306e308b24d638d9baa124dafd7d8f2828ecafe8c9e6444ac4612fd6ca62c984e6"
+RPM_NAME = "selinux-autorelabel-3.1-3.8.noarch.rpm"
+RPM_HASH = "4c25be9445ebce763d888f8b7f46d74f3e407e95f8c1c6f8cb9bb1c5e0f953443acdfb676ec25d3682f90aec5c63d1352b68a633948509238dd0dd8a0371cc10"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "selinux-autorelabel"

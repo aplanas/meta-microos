@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "6.3.0"
 
-RPM_NAME = "libsundials_ida6-openmpi1-6.3.0-2.4.aarch64.rpm"
-RPM_HASH = "95e8a977eb09e0787bfa480500e09defd7d77d2d80fcd0cc8fdbb19acc7475e1bc63f97ecdce8ffd1d5b28b448c1231c2e7420177a6898786a0351785531659f"
+RPM_NAME = "libsundials_ida6-openmpi1-6.3.0-2.5.aarch64.rpm"
+RPM_HASH = "5d64b286b92f462ad45b5be9c0fa5bc3681fc15efe92020d9b0e27f734a56dbdc278f703cac0230046da07859f99f6d981027611c420193de76f9d4cc24e90c9"
 
 RPROVIDES:${PN} += "libsundials-ida.so.6 \
 libsundials-ida6-openmpi1"

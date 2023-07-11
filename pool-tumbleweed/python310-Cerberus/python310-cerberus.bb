@@ -6,12 +6,11 @@ LICENSE = "ISC"
 
 PV = "1.3.2"
 
-RPM_NAME = "python310-Cerberus-1.3.2-6.3.noarch.rpm"
-RPM_HASH = "7b428e405aac7978ef6d62e3f08a8ea1228957dcb8dc668ec1bce2861b3403adf3d820feee652ae847704ef2f4520e3325e2035f04d63ce40c69c39be70be989"
+RPM_NAME = "python310-Cerberus-1.3.2-6.5.noarch.rpm"
+RPM_HASH = "b6e5c5323d9096fc98756f96f895954219946ce86d9f4c5c496ffcd2e0ce7156584d0373443d8dc9904d8a91e613f0a4814008bf6a6d01bd6f5f08dee7bc9593"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-Cerberus \
-python3.10dist-cerberus \
+RPROVIDES:${PN} += "python3.10dist-cerberus \
 python310-Cerberus \
 python3dist-cerberus"
 

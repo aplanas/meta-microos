@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "python310-azure-mgmt-privatedns-1.1.0-1.1.noarch.rpm"
-RPM_HASH = "0f01af131de8fd5af8e665fd7adc1179e87cc24d0094aaaea1c2fbd186abf0be9601eb2ef8bda7c0d1a5c431ab3589b83163cfae923f345ab865be5aa1cd50ad"
+RPM_NAME = "python310-azure-mgmt-privatedns-1.1.0-1.2.noarch.rpm"
+RPM_HASH = "9a8ffa372b2c3a21ab6794d694d267724ae709f0fb79baf6fb042b765bb42f8261c3263d0f48a09906cc1d0c3521bf88c37c696a168ff5829856ab1d555f254f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-privatedns \
-python3.10dist-azure-mgmt-privatedns \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-privatedns \
 python310-azure-mgmt-privatedns \
 python3dist-azure-mgmt-privatedns"
 

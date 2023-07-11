@@ -2,10 +2,10 @@ SUMMARY = "Collection of GStreamer effects"
 DESCRIPTION = "A collection of GStreamer effects to be used in different GNOME Modules."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.5.0"
+PV = "0.6.0"
 
-RPM_NAME = "gnome-video-effects-0.5.0-3.6.noarch.rpm"
-RPM_HASH = "cbea0d4bd13f56fccde174d5e4424cef59b535d5d734fa9020be498838c2f35e7439bad2cf51a81608a0282f8b9a81f20ee63128f3de4518c42b635e0cac3052"
+RPM_NAME = "gnome-video-effects-0.6.0-1.1.noarch.rpm"
+RPM_HASH = "c5ce58200715493c67653f9495dc6499db7f76f3d85e81c34b1a44d572f6d8eb899fd702bcad1afb5070f04ae239d7d05198665bd6bc78bd0ceb640dce48ae34"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-video-effects"

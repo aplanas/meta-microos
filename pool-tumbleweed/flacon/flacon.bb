@@ -6,10 +6,10 @@ to conveniently revise or specify tags both for all tracks at once or for each \
 tag separately."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "11.1.0"
+PV = "11.2.0"
 
-RPM_NAME = "flacon-11.1.0-1.1.aarch64.rpm"
-RPM_HASH = "5fe1cf5cdd0ba4751b6b6fc983256f968173a64f8ce241f25a92f4c248cee47844b3fd5f3f4e1aaa8377f052d6eb8d8419d0a092ece4643d18a6b73f6dff1179"
+RPM_NAME = "flacon-11.2.0-1.1.aarch64.rpm"
+RPM_HASH = "01ec014497b16c9a4049c06b085a04c244cae4be8ea47c5aff73078508c2002c5763e8e9d91b59fd23d1512e8934cbe3d091f688a4791a433ca5972dd4039a73"
 
 RPROVIDES:${PN} += "flacon"
 

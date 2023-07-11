@@ -13,11 +13,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.2.4"
 
-RPM_NAME = "python311-kombu-5.2.4-4.1.noarch.rpm"
-RPM_HASH = "243e1a3f1e74006c59684e7bce77a91e7d1ad5f6629bb77c21b2bd66bd7fd8fb1da8194a5d451c73806341c27051248dbfd2c772380e800db2eff4b4cd798cec"
+RPM_NAME = "python311-kombu-5.2.4-5.3.noarch.rpm"
+RPM_HASH = "c7f30aec08bac68d531a82a9a434b4de8b1f8b11f5afcb57b3b700c07cd6047e61935b156df3ea5925c7f41fa999a88e511985fe4268e26562dd0b4176b86a6d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-kombu \
+RPROVIDES:${PN} += "python3-kombu \
+python3.11dist-kombu \
 python311-kombu \
 python3dist-kombu"
 

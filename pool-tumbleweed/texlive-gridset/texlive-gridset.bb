@@ -12,8 +12,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.3svn53762"
 
-RPM_NAME = "texlive-gridset-2023.201.0.0.3svn53762-53.1.noarch.rpm"
-RPM_HASH = "1cc20e5642c2374ca999169153f861960f53937f541320df1846fb1bccc6fda6fcfb253447e2c1b98f0ae730b8dbf6782e5567ef36d74367de9cfeddb289a5c6"
+RPM_NAME = "texlive-gridset-2023.201.0.0.3svn53762-53.2.noarch.rpm"
+RPM_HASH = "2f1ab8a28a0df90276121d825f7bff3009322a45767f8690f2d20f7cbbe220abc947e3b643d154235ddd3406adb9be7cc7149b512070d0e2e61db256378bad7e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gridset.sty \

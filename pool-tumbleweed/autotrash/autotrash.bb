@@ -6,12 +6,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.4.4"
 
-RPM_NAME = "autotrash-0.4.4-1.5.noarch.rpm"
-RPM_HASH = "c0d495eaa0fa3448608cde14e2ff4b0312f46294e0aa675bcf1d09e6544fe5b794573719c85e4278c8e888d08465dabe75fcf1385afabe1fe41b185ba3a2221c"
+RPM_NAME = "autotrash-0.4.4-1.6.noarch.rpm"
+RPM_HASH = "ca9ba623b5a9cfe706733d7c2aa779515b9155f7f7a1fc03e411ebf3cb511eaabcef8263042d07bf873a240ba160a32a40ccae21b66a6b6ee7e14762e36fa036"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "autotrash \
-python3.10dist-autotrash \
+python3.11dist-autotrash \
 python3dist-autotrash"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

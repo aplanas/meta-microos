@@ -2,10 +2,10 @@ SUMMARY = "PDF document support for Evince"
 DESCRIPTION = "A plugin for Evince to read PDF documents."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.1"
+PV = "44.3"
 
-RPM_NAME = "evince-plugin-pdfdocument-44.1-1.1.aarch64.rpm"
-RPM_HASH = "9f259cc9ebc90d9fe62d085db0bd7b291eff3cbc1a25a433198099ebc5ec30bcab1224ac0e0f1680512399b16850b645ddedcb9eee9350e93e2b7523590db407"
+RPM_NAME = "evince-plugin-pdfdocument-44.3-1.1.aarch64.rpm"
+RPM_HASH = "8431971facb0330f22f7f4bf55cc57e24098c11452aee6a79a4a7c3dd96c5533b08d87cca94aad4d8951225ced705bcde4abe9d51376bf91dd2d46fe1348b5aa"
 
 RPROVIDES:${PN} += "evince-plugin-pdfdocument \
 libpdfdocument.so"

@@ -5,10 +5,11 @@ LICENSE = "SUSE-Matplotlib"
 
 PV = "3.6.3"
 
-RPM_NAME = "python311-matplotlib-gtk-common-3.6.3-2.1.aarch64.rpm"
-RPM_HASH = "7e5d88d9f5b8e9866107a16843871d8ca005d8674bc5e6635674073f5f594a3ef1c3f531b43a7f6d54e0ff3fa4d393e006fbed5b87f3b6b8dcc08aa04e2b29da"
+RPM_NAME = "python311-matplotlib-gtk-common-3.6.3-2.3.aarch64.rpm"
+RPM_HASH = "21882ca81fc73a536b79f197783ffbbef21807dc35501a5a7bc4f3a9a317f2411f1d60c0b9dff0123563ed4565cf28d7a1d91a7df0793ac2954d7dd6a3ce1c44"
 
-RPROVIDES:${PN} += "python311-matplotlib-gtk-common"
+RPROVIDES:${PN} += "python3-matplotlib-gtk-common \
+python311-matplotlib-gtk-common"
 
 RDEPENDS:${PN} += "gdk-pixbuf-loader-rsvg \
 python-abi \

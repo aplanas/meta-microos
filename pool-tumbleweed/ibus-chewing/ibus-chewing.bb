@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.6.1"
 
-RPM_NAME = "ibus-chewing-1.6.1-2.16.aarch64.rpm"
-RPM_HASH = "1d3cdd95b6c7bd31877ff749658769a06ce360dcd8a23a48be73acaa6a983547bed06358c1e55f53825a50a57a252d5b9e12bb880a16f17dd488f7fc1b8a720d"
+RPM_NAME = "ibus-chewing-1.6.1-2.17.aarch64.rpm"
+RPM_HASH = "8adb5a92bc74afa58671a1b71511613ba7e48d2fd5fe2ff7d680d5120d04f06ea01aec4e5bf58e3dcbcf1310515cbba84f9b814050ca6a07cacfae9d6fff9b4f"
 
 RPROVIDES:${PN} += "ibus-chewing"
 

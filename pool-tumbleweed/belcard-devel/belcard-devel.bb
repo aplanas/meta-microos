@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.2.16"
 
-RPM_NAME = "belcard-devel-5.2.16-1.3.aarch64.rpm"
-RPM_HASH = "9ec2220aa868aa2e5002456e8c1c32e5f601c316515ea20b36e8a019e3164036c44c2c00249f9218d455fbea17b5fc07dbbf5e58ae26d7b568c10892c5bbf866"
+RPM_NAME = "belcard-devel-5.2.16-1.4.aarch64.rpm"
+RPM_HASH = "25df09531f21e891445514b9cef3ec7a2166f19042f86b7927afb82415f31b1d0514436d68893bdad9c23f2089136c2b75ced953c6028ad99470e27a667f9a5f"
 
 RPROVIDES:${PN} += "belcard-devel \
 pkgconfig-belcard"

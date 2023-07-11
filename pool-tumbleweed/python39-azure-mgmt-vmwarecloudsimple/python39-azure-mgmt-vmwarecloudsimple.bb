@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "0.2.0"
 
-RPM_NAME = "python39-azure-mgmt-vmwarecloudsimple-0.2.0-2.11.noarch.rpm"
-RPM_HASH = "b4f41bb6a59e5aa6d151eed2cbaa05f27fcb7cb41fc5d76fdfe80e308b35f61dc742f9e82c10b8269718ee436d73c5dc6af4deff1b3f54b7f68c952fd0b06d7d"
+RPM_NAME = "python39-azure-mgmt-vmwarecloudsimple-0.2.0-2.12.noarch.rpm"
+RPM_HASH = "d4e926f0fcb984c2e63598f7edb288cea7c693bb526bf636d15675959f25479cdcf913ac18f6cc3df7da7c76c0e41c3a5805cf2fd75f742e4983ba317d371660"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-vmwarecloudsimple \

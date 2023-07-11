@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "4.1.1"
 
-RPM_NAME = "libmedfwrap11-4.1.1-1.6.aarch64.rpm"
-RPM_HASH = "b348664cd0db70832906fb21640eff6ef0d5ff2be08e5fcd671ed57c495ef650d248b547584446918cffa11b1e7128743100a0438f946b72bf709d669e5e1988"
+RPM_NAME = "libmedfwrap11-4.1.1-1.7.aarch64.rpm"
+RPM_HASH = "9e6426f2567ce845997a7b566c70f615fdfa84fb06edaf5b46db2811ff107f9c9667533eaebb2e7f9571cf4696b390241d87580a5d7e8cbdd9c8e683e42e29aa"
 
 RPROVIDES:${PN} += "libmedfwrap.so.11 \
 libmedfwrap11"

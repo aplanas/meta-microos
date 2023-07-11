@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.13.4"
 
-RPM_NAME = "qscintilla-qt5-devel-2.13.4-1.5.aarch64.rpm"
-RPM_HASH = "4de8244de3ac838a641c3c7e16160c30ffc7d8cc456823f5171dc447b17d717c0a10825df60bb8d4fce09ecbe0f969c20bcfd2c549c13f4df1ed6435855483f0"
+RPM_NAME = "qscintilla-qt5-devel-2.13.4-1.6.aarch64.rpm"
+RPM_HASH = "928aac9865868558cddfdb641e209cfd44391d137db06dcdb0d4087658f4e56ab7e958aa162c429653ef8aafa58fca45c3ca9517f647492e0a03916b66a4305b"
 
 RPROVIDES:${PN} += "libqscintilla-qt5-devel \
 libqscintilla2-qt5-devel \

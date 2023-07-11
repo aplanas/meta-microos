@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only & GPL-2.0-only & GPL-2.0-with-classpath-exception"
 
 PV = "1.5.12+git.0684c1b"
 
-RPM_NAME = "libftdi1-devel-1.5.12+git.0684c1b-2.1.aarch64.rpm"
-RPM_HASH = "60ef0313157bb4d6bd1381d8d5648ef97b369b15eb8df6769bc6db4871424f62ff8c461fdbd02a3dd5fa65ac97f9a970fce12a891abb28e2baf92812e71dfabc"
+RPM_NAME = "libftdi1-devel-1.5.12+git.0684c1b-2.2.aarch64.rpm"
+RPM_HASH = "767b6167e2a894266a6d9a8fd3acb84d78779df159949ea2d94f7663ca2be9d5021e7be59f77bc3df8309f470c86fe2e4a44caa319f0bdbede974b8f7621450d"
 
 RPROVIDES:${PN} += "cmake-LibFTDI1 \
 libftdi1-devel \

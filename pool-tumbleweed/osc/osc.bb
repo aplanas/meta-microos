@@ -8,13 +8,13 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.1.4"
 
-RPM_NAME = "osc-1.1.4-1.1.noarch.rpm"
-RPM_HASH = "9164296d40ffd779cc30c756614089db296f4dd516e46aa6b6ef2e8e936932471e7fa8f2aade712dfc0c07fe209627343ba952605d4847b9529b586ed5c16d0f"
+RPM_NAME = "osc-1.1.4-1.2.noarch.rpm"
+RPM_HASH = "62e65053ecc3200414e10c97a96ded3fea2dd90035063c5904331695fb7c6ac2dd38ac8dbe752e75a76f91b981d767d25ddb2df7638c991c20c819c3c3f7e433"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "osc \
 python3-osc \
-python3.10dist-osc \
+python3.11dist-osc \
 python3dist-osc \
 rpm-macro-osc-plugin-dir"
 

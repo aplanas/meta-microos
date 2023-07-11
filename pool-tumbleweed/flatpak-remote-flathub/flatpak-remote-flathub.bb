@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.14.4"
 
-RPM_NAME = "flatpak-remote-flathub-1.14.4-1.2.noarch.rpm"
-RPM_HASH = "25ea3dc8cdb60bb5f3f734a76dd9020e80bece65f3f2cc23a9f0d90481a08b5fd10432b8d9cfe9bbcfe25ed33f618fad92ed862222ba2982a09a9184f962890e"
+RPM_NAME = "flatpak-remote-flathub-1.14.4-1.3.noarch.rpm"
+RPM_HASH = "f07148d66efe3b6d765b277f27a7148ad8b00acb30e33d37f6af413d3410cab3efb863b1e25e87a038e985fc8bf96afcf6557d12dd128877c1e090611cf34e86"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "flatpak-remote-flathub"

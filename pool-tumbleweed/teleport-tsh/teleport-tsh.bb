@@ -2,10 +2,10 @@ SUMMARY = "CLI tool for logging into nodes via Teleport SSH"
 DESCRIPTION = "A tool that lets end users interact with Teleport nodes. This replaces ssh."
 LICENSE = "Apache-2.0"
 
-PV = "13.0.3"
+PV = "13.2.0"
 
-RPM_NAME = "teleport-tsh-13.0.3-1.1.aarch64.rpm"
-RPM_HASH = "2b0256dca75ddd0ee53f26ca9a60451bbf84b35c456374c539bcf0ce06372ea6cf0d6a9aabbe335ef14a56e837bd785e563e91d9b4ee43722f9611cbeec62ca6"
+RPM_NAME = "teleport-tsh-13.2.0-1.1.aarch64.rpm"
+RPM_HASH = "cc752b732c6446917693edeb663ec233cc5198553fadd93dfa1d9c5ff9003d22d62d6769d3ca95f1fb281e60d1a6fceb3b2a2c5fcd60aa5c23d21e22cf4e55d7"
 
 RPROVIDES:${PN} += "teleport-tsh"
 

@@ -2,10 +2,10 @@ SUMMARY = "Developer documentation for fwupd"
 DESCRIPTION = "Developer documentation for fwupd."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.8.12"
+PV = "1.8.16"
 
-RPM_NAME = "fwupd-doc-1.8.12-1.3.noarch.rpm"
-RPM_HASH = "0e9431cf6805d757a64fa77dba4eff751e93420de5ab107122dea63395de7208240e7f17a89c79f21ea67131cc0b4b66760f45b554875c98309ac9d600839642"
+RPM_NAME = "fwupd-doc-1.8.16-2.1.noarch.rpm"
+RPM_HASH = "b91c64535021a3f5c12aaddf8ab96a596fdf7cc84f004c6add21b3715c1e4a4f3330444e242079dbff5a33916ff5756a6b8d4f369b06f5f6f74c88d3d922f9da"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fwupd-doc"

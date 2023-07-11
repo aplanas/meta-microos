@@ -5,10 +5,11 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "21.3.0"
 
-RPM_NAME = "python311-poppler-qt5-21.3.0-1.12.aarch64.rpm"
-RPM_HASH = "15e51201f14e1044a2b7cf1f095ef8958e5dede6c2b768a9df7dfe410bc15f532bc212d026b7294daa3e1b6ca0e79f77e1eb567c47d14c39d74fc843707268ad"
+RPM_NAME = "python311-poppler-qt5-21.3.0-1.13.aarch64.rpm"
+RPM_HASH = "49085b8689208baac4d7a6f12c73828287ce6dd1684789bf223ab83f84e517a519ba8ace391f23f154d80bba30f6d034825fb422f3d3b39caab75efd8203d91e"
 
-RPROVIDES:${PN} += "python3.11dist-python-poppler-qt5 \
+RPROVIDES:${PN} += "python3-poppler-qt5 \
+python3.11dist-python-poppler-qt5 \
 python311-poppler-qt5 \
 python3dist-python-poppler-qt5"
 

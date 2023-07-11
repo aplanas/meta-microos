@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.34"
 
-RPM_NAME = "tar-1.34-10.3.aarch64.rpm"
-RPM_HASH = "f7b2c04e6cd8b5506d86ccd33ad06769c8cc53cf3438c793bfeaf528d695c4481ee1090fbf8a5a0f680db785041425d81d6f2f3b07cac9114221ed08e4eaeef3"
+RPM_NAME = "tar-1.34-10.4.aarch64.rpm"
+RPM_HASH = "6b1aed6b3a136de4337009d1738ec0cc2203a6238827cabb420fb318fc1c64e43409436c18f35f706359bee1351da6396a75d330543ef0b3adf982e10fc5dd92"
 
 RPROVIDES:${PN} += "/usr/bin/tar \
 base-/bin/tar \

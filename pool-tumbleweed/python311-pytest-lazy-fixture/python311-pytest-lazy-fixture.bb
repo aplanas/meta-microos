@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.6.3"
 
-RPM_NAME = "python311-pytest-lazy-fixture-0.6.3-2.1.noarch.rpm"
-RPM_HASH = "03461bc6b5ea5651d25f913f23e2bc9b88224ea734f7408e8cca154bd0eb4884f032625496de53e59c3e34dd96975a5092b0d30c889e4a05cd9cf96d4231cb60"
+RPM_NAME = "python311-pytest-lazy-fixture-0.6.3-2.3.noarch.rpm"
+RPM_HASH = "a90c4721d58d526bf0a23971706d096be7d992fe973af79d7056c00b4194be5c00b7ff71109da5a316f47e2c1eab4382b74dc450f6fc46bb93a8e7a73dd0beb0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pytest-lazy-fixture \
+RPROVIDES:${PN} += "python3-pytest-lazy-fixture \
+python3.11dist-pytest-lazy-fixture \
 python311-pytest-lazy-fixture \
 python3dist-pytest-lazy-fixture"
 

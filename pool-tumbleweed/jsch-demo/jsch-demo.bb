@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.9"
 
-RPM_NAME = "jsch-demo-0.2.9-1.1.noarch.rpm"
-RPM_HASH = "6550d1d4cab1ec1f13f229f0cd9dc12b8580426797988e98d30fb575d9362c100a2f41d4a6ba0c75cb4f819db9ca08814b5005b144a55792e420020b6a9d737b"
+RPM_NAME = "jsch-demo-0.2.9-1.2.noarch.rpm"
+RPM_HASH = "a28190ecae3ddcbbc5ac0741fa94249238fd5115004c87958020000869866e5fbb38cc36bfcde8f1de43edb5604faeb148496cc68cc7044c908559a67918e6e7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jsch-demo"

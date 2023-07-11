@@ -8,8 +8,8 @@ LICENSE = "BSD-2-Clause | GPL-2.0-only"
 
 PV = "9.7.0"
 
-RPM_NAME = "libvma-9.7.0-2.1.aarch64.rpm"
-RPM_HASH = "2d0bc629947c8086645d401eb9258d8c4f66eb3fa46fbaf1c506b83fcc89f7a50225af459d3e4c72f71db49ce4a09ed31a52a100b3917420ff2a01a8ede08a3f"
+RPM_NAME = "libvma-9.7.0-2.2.aarch64.rpm"
+RPM_HASH = "09754f763d187f1e1cc42110faaf847add66473edbbc8a9f6a023e8150c52f8e070abea940c912a48125a544204bb3fa84b298ad929dddbfd5d1cc450deee0f3"
 
 RPROVIDES:${PN} += "config-libvma \
 libvma"

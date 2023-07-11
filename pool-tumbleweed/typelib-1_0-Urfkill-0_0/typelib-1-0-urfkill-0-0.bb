@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.5.0"
 
-RPM_NAME = "typelib-1_0-Urfkill-0_0-0.5.0-3.6.aarch64.rpm"
-RPM_HASH = "643d31dc651e4a4b85d03f85b0f719fa67b45f840e3686e3fb2fe7d65ed3e9a53c3fb2e4c8e60394953738f3043947324fffebb8365d6225dc73f78c2188f0ed"
+RPM_NAME = "typelib-1_0-Urfkill-0_0-0.5.0-3.7.aarch64.rpm"
+RPM_HASH = "4eee9442f5ea74e833f7c8dc96b2d17f7fdc8314ca8b21a9350e18de855c1761a864ae66295e48190395851a8048cc489dffab03fb137c9775428fbfd862c4aa"
 
 RPROVIDES:${PN} += "typelib-1-0-Urfkill-0-0 \
 typelib-Urfkill"

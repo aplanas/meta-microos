@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.1.1"
 
-RPM_NAME = "python39-flake8-imports-0.1.1-2.15.noarch.rpm"
-RPM_HASH = "ea40b4f13d87d816ad2de00617b96dfc238a01e66f7c0d75fa9e112c19b9de1e297f0afbec414cb3da871b5676cad9c7bb88efbfe8b4e7ebdd02581b76fdbc39"
+RPM_NAME = "python39-flake8-imports-0.1.1-2.17.noarch.rpm"
+RPM_HASH = "4439adf3d461a19e1ba2222caaa83f57d59f76b66314469b0aca284dabc3aecdca4b9ec3e49f896a4c80b3966639a8f68709849b297dd5aa7468ef6622a3a687"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-flake8-imports \

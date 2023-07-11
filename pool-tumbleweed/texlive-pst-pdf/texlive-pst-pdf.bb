@@ -11,8 +11,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.2fsvn56622"
 
-RPM_NAME = "texlive-pst-pdf-2023.201.1.2fsvn56622-53.1.noarch.rpm"
-RPM_HASH = "898578e8b0057c3f62dffebbcdd329ca28f861544e7ab823a56c6ceb2b77519f81b2737dafaa90d7598ca48ec493d489ab1a3152fc3a0a2c2a073772e033b888"
+RPM_NAME = "texlive-pst-pdf-2023.201.1.2fsvn56622-53.2.noarch.rpm"
+RPM_HASH = "6dd2cc0592c5a831a00314f70678a3c6d6bfbf3f0ccbf20b5aa5177f8a0badea50312cdcd1dd4b6a7856091ba3afb9d8ee267945c18098bcbb8f06a43b729305"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-pdf.sty \

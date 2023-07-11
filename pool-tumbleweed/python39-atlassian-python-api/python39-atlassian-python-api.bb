@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.0.1"
 
-RPM_NAME = "python39-atlassian-python-api-2.0.1-1.11.noarch.rpm"
-RPM_HASH = "4ac0e26e95de94d033b6a6ac38f69f04e1d940f7a1d36c5863ba4029f6d80ba9c9b6caa4e20721dbc839b4e96ce94db22080d4052fbb8fd9244302b2ce34f854"
+RPM_NAME = "python39-atlassian-python-api-2.0.1-1.13.noarch.rpm"
+RPM_HASH = "e6b869f0227ac1760f6b19aa86bd3102fb95a3b634ce569f276e4a8ca887e5f3df4218091a8c76b9bf74210201f5ef830025acdfec30bb48bf85b902660f8c1c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-atlassian-python-api \

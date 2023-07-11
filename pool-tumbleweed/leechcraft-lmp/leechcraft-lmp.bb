@@ -10,8 +10,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-lmp-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "e16425608f5f55b2bb2c618431ff944895d3dcb9c126fb9c669e258541c7bddae80b7061afdc6a6b5f93733dfcd18e2115ff98bdc76c23c901aa215f1f54141d"
+RPM_NAME = "leechcraft-lmp-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "eefd84f9ee69e32c4b59aa30b34e8a401661b841d16fb05076550474dee23ff5e8cef9478c01efdafd99122c3e110968751bf451f59576af088d8d186f57f5ab"
 
 RPROVIDES:${PN} += "leechcraft-audioplayer \
 leechcraft-lmp \

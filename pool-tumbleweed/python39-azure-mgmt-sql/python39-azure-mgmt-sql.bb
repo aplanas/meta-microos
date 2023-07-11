@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "4.0.0b10"
 
-RPM_NAME = "python39-azure-mgmt-sql-4.0.0b10-1.1.noarch.rpm"
-RPM_HASH = "189e8df2d65a3fec3669b50cf981552ceee58eb79ddf357c169af5e961023763a4ec2f5f29755224e608e74fb53c232dae842328e58f88df1bea536ec12db6e0"
+RPM_NAME = "python39-azure-mgmt-sql-4.0.0b10-1.2.noarch.rpm"
+RPM_HASH = "07dc949727af7eb33c636432dfcce8f91f189f0e42b4a5f0205cb0c0169a9b1a497b63a18538f6fb5df65b97eec23a9b7fb58a07c83313757088003f8864debb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-sql \

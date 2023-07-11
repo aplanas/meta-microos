@@ -4,11 +4,10 @@ LICENSE = "BSD-2-Clause & BSD-3-Clause"
 
 PV = "1.3.7"
 
-RPM_NAME = "python310-Bottleneck-1.3.7-1.4.aarch64.rpm"
-RPM_HASH = "be3faa9e6500b1a031521f8439b3521400b0f7c2eb31a793e25ce923afa7cbe16d32bac0c96c497a1dd60aef24f223a0f931034b369ee6d432a80d9823e3fbeb"
+RPM_NAME = "python310-Bottleneck-1.3.7-1.6.aarch64.rpm"
+RPM_HASH = "95780b2cb5eccd34fa639d34cdd30c934472314ecb86761a3e0b118a2cb5a6c6c5f8a00ce46822a4a06d49ee1e5225cbfb4225aaecd2ffa5caaac672f2c15049"
 
-RPROVIDES:${PN} += "python3-Bottleneck \
-python3.10dist-bottleneck \
+RPROVIDES:${PN} += "python3.10dist-bottleneck \
 python310-Bottleneck \
 python3dist-bottleneck"
 

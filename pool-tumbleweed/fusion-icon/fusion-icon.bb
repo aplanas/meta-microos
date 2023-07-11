@@ -6,12 +6,12 @@ LICENSE = "GPL-2.0+"
 
 PV = "0.2.4"
 
-RPM_NAME = "fusion-icon-0.2.4-1.18.noarch.rpm"
-RPM_HASH = "22d0c0b7ae3ef3ac40a230b09192133c6fd8a293f517a8d2b8f9086ae62e0f8796c28c0377b6473a041d2c658c4cdca233238ea09ad06bec1a7ffaf8722ce31e"
+RPM_NAME = "fusion-icon-0.2.4-1.19.noarch.rpm"
+RPM_HASH = "aa7c01c5ca1826dcb785d405016f1bfd56cd68c6efd9538c4b386d1c50399fbf74c559fc29d6a69219f633a372a6aec8b7ebdc8ef31fe6074fa7319753befcc8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fusion-icon \
-python3.10dist-fusion-icon \
+python3.11dist-fusion-icon \
 python3dist-fusion-icon"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

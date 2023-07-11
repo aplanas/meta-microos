@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.3.4"
 
-RPM_NAME = "python310-csv23-0.3.4-2.1.noarch.rpm"
-RPM_HASH = "83961511d488c931d034ac89f0acc51a0904e8e2a8984136e4c577ea318345b3b47fe83615e3b3811b89d6ce77dac4169b17f6bde017a8a7cbaf98c2924b44bc"
+RPM_NAME = "python310-csv23-0.3.4-2.3.noarch.rpm"
+RPM_HASH = "a460f063bc042cbdb31b6ae85a97a8ef74b5b087e85a253bfd58552e946049e821bfff72f0bc8cb35693a71052a8aeb6932a81228dfc6552a59f7b77f7179fcc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-csv23 \
-python3.10dist-csv23 \
+RPROVIDES:${PN} += "python3.10dist-csv23 \
 python310-csv23 \
 python3dist-csv23"
 

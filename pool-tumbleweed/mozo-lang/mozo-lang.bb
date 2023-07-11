@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.26.2"
 
-RPM_NAME = "mozo-lang-1.26.2-1.2.noarch.rpm"
-RPM_HASH = "4702a55e10586fa146d2a4f422bcbf80de9c51e85ac149fdc0be96373738cf4017936aecfc67cf61c1f8169ca36bb909c7c7fba512130406ff0870b8e42dd6e9"
+RPM_NAME = "mozo-lang-1.26.2-1.3.noarch.rpm"
+RPM_HASH = "7e5d946a2fedd5e253ea5de71ff8b19106d493d55da108ef92222f1343ed7cc5e02bcca5782991b5d973f21b34d5ecb647bf7f4f984007e3be021848dc1c7b9a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mozo-af \

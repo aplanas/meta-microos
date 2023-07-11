@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.0"
 
-RPM_NAME = "python310-pyramid-mako-1.1.0-3.8.noarch.rpm"
-RPM_HASH = "75d57defa38a74a6c186c462555d89a6e01935f372b4dfafa3010867a4b4aed37643fdd660a995bf5b9d4cb8cb5617d34890dc280a1b7ea1ed94773c6b7171fb"
+RPM_NAME = "python310-pyramid-mako-1.1.0-3.10.noarch.rpm"
+RPM_HASH = "cd8ad71638f83ca8e79bdf6409053daab9ff0341f2e86013c5a399a7633a05b763bb1cc989e931f51693ab87a803a9ffb08419f6c4e4ecd85984b90fb0875d22"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pyramid-mako \
-python3.10dist-pyramid-mako \
+RPROVIDES:${PN} += "python3.10dist-pyramid-mako \
 python310-pyramid-mako \
 python3dist-pyramid-mako"
 

@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "gnome-system-monitor-44.0-1.1.aarch64.rpm"
-RPM_HASH = "ba89388d4f43e5e561ee8bcdb7172b5c458dba831f3a38cc8c64e096b81f6098b06904e6e8ee7066a43bd351d2bd2bce7a384d2d8d3a1de54cadad2630e7b9f3"
+RPM_NAME = "gnome-system-monitor-44.0-1.2.aarch64.rpm"
+RPM_HASH = "03cd2a8e4134b1aadd26393ff860378fdf64be98e15ec553a61ae14514a0d15e52e721879492161c4425fe313fc291d2d9b6b8a385aa662cdd2c8a4e0238224a"
 
 RPROVIDES:${PN} += "gnome-system-monitor"
 

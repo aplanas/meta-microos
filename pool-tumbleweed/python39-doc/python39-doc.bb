@@ -4,10 +4,10 @@ Extending and Embedding Reference, Python/C API Reference, Documenting \
 Python, and Macintosh Module Reference in HTML format."
 LICENSE = "Python-2.0"
 
-PV = "3.9.16"
+PV = "3.9.17"
 
-RPM_NAME = "python39-doc-3.9.16-8.1.aarch64.rpm"
-RPM_HASH = "33deeb2b1985f7365765b8cab1d2cba5cd65d1b4c20eaef76a5c6598c1113aeb0b75f1867b26ac94277fcfbf8b968f8609607a0ab5ff6c84bc31f9921573cad8"
+RPM_NAME = "python39-doc-3.9.17-1.1.aarch64.rpm"
+RPM_HASH = "bd279fa4d0b7224e0003a6fc33d7e6ca6dbb15898dc5a9b3e00a8d7f4bce5b9b2d8022a195eddce7859b11c9dfbb6d3384a067cb87fe3779a0b4929aceea1e20"
 
 RPROVIDES:${PN} += "python39-doc"
 

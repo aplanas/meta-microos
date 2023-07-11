@@ -4,12 +4,11 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2.1"
 
-RPM_NAME = "python310-edgegrid-python-1.2.1-1.8.noarch.rpm"
-RPM_HASH = "dca9d9bff2f910240fff2f3eebede8c86600cd91d24a3b6a438f6a5b8e15a9f1ac7533cb3b3f3fa1693d6d5307bba86d3c3c16971fcf85ae053d95d18ad213c6"
+RPM_NAME = "python310-edgegrid-python-1.2.1-1.10.noarch.rpm"
+RPM_HASH = "1201b4b73603b0dedaf74ef77f251b4b10c0b38a3f14c80172611a09d4e97445073a0bfe6d1f4c54e9240773dedc89ddf3b521a260af13db44af84a6b9ca051b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-edgegrid-python \
-python3.10dist-edgegrid-python \
+RPROVIDES:${PN} += "python3.10dist-edgegrid-python \
 python310-edgegrid-python \
 python3dist-edgegrid-python"
 

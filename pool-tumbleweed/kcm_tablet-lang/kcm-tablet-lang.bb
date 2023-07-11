@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.2.0"
 
-RPM_NAME = "kcm_tablet-lang-3.2.0-5.7.noarch.rpm"
-RPM_HASH = "ac46c949ec374d58dfac34737ea5a699ea8a41a87746ea2861c7a15f5bd8134f3ff049c68b4e6d227a44fafdcb8b60495c6ff69d4c899f454cc702d9fa37e411"
+RPM_NAME = "kcm_tablet-lang-3.2.0-5.8.noarch.rpm"
+RPM_HASH = "47e9dd708945fcf5eecd14d04a88db52d88ebfe83090ff9cd8f65061a664967e76ddfc12b6ba229ecf0a303d753da051e99a3a5842fbb8b7b52e40cf56701a1c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kcm-tablet-lang \

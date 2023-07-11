@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.0-only | LGPL-3.0-only"
 
 PV = "1.32.0"
 
-RPM_NAME = "liblightdm-gobject-1-0-1.32.0-2.2.aarch64.rpm"
-RPM_HASH = "85517ced8f302a0c3da36c6f08174cb27bc64cdccf96c8c5104afe99a771e5cf44c16eb7fee111131f7533525b25b1224ce35aaa91e45ad09c4ad9b9f9884fcc"
+RPM_NAME = "liblightdm-gobject-1-0-1.32.0-2.3.aarch64.rpm"
+RPM_HASH = "8abe22fd7c087608a64377129c1022f5b0658c01ae9f914f5fa2e5f76abd1f365b3a9ca5370749f0524517e0169d5e5a8d4044603d79d0264e334a159be13602"
 
 RPROVIDES:${PN} += "liblightdm-gobject-1-0 \
 liblightdm-gobject-1.so.0"

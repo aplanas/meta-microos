@@ -4,8 +4,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.68"
 
-RPM_NAME = "perl-ldap-0.68-2.8.noarch.rpm"
-RPM_HASH = "f1aa6027b07bf942e660b0c69b30386c6ab9f3da0e046a46242baf49a962558ade205eb76e30990dc7c7441eb11dcc1e6418286b496b34de2aeea3efba40828a"
+RPM_NAME = "perl-ldap-0.68-2.9.noarch.rpm"
+RPM_HASH = "8c829524db753443564386f83fae39c5eb3d76066f04bd7319d90db97acfe1084232f36aae0571fa7197ca451e24cf3b7d3f3848c8db359cb454c7fa6e619df8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Bundle--Net--LDAP \
@@ -68,7 +68,7 @@ perl-Net--LDAPI \
 perl-Net--LDAPS \
 perl-ldap"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Convert--ASN1"
 
 inherit rpm

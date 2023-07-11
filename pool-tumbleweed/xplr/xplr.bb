@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "0.21.2"
 
-RPM_NAME = "xplr-0.21.2-1.1.aarch64.rpm"
-RPM_HASH = "f9634e3958b9577d06aad6ea463b63bc897d9acced73818774805ab22687cf370239c9508b7f1a0d539ee7253f2a000087a850bab2bddaff368e106a5deb7c05"
+RPM_NAME = "xplr-0.21.2-1.2.aarch64.rpm"
+RPM_HASH = "1f6883fe29cc8622bb1ffade7a170ca62249e92158d30173dc2f6e6dd5203b2159e5eadd3f5d02ac896e13c6ca8437fe1645c3fe585198772563bcfe58f14b2d"
 
 RPROVIDES:${PN} += "bundled-rust-crate-ahash \
 bundled-rust-crate-aho-corasick \

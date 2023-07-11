@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "8.0.1"
 
-RPM_NAME = "mathgl-tex-doc-8.0.1-3.3.noarch.rpm"
-RPM_HASH = "64491db8cd6cc363c9994a021899f4a51daa209d45f9fabb3a7123035e2269b7f1106f916c1817a74befd7b18be32898d58b6112be71a226cae83af26540d8bd"
+RPM_NAME = "mathgl-tex-doc-8.0.1-4.2.noarch.rpm"
+RPM_HASH = "fb3b492913da2909c5dae1183dc067a49b9ffba7f15310b4bf9b19234ae89ccf1cb8377faadb0bf63ff046dbec581b8668c388109750b3e16e7c429a88609561"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mathgl-tex-doc"

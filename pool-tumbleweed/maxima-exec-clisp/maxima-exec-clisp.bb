@@ -2,10 +2,10 @@ SUMMARY = "Maxima compiled with clisp"
 DESCRIPTION = "Maxima compiled with Common Lisp."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.46.0"
+PV = "5.47.0"
 
-RPM_NAME = "maxima-exec-clisp-5.46.0-1.20.aarch64.rpm"
-RPM_HASH = "7914e575305e41d5cc108711c9caf02fdfe9f161f49d93770038445fe6bccd796c23ff672d8220982e34f174fef8792cb9bd3d83fbe6a6bebf5ea28183740163"
+RPM_NAME = "maxima-exec-clisp-5.47.0-1.3.aarch64.rpm"
+RPM_HASH = "0d7267bad1724235c7725c689c668b1907088d5f2f3e0a7d9bbcea1500e5795dfa84250f26109e44673b535257666870868870372705804e43359b9ae18b2c48"
 
 RPROVIDES:${PN} += "maxima-exec \
 maxima-exec-clisp"

@@ -13,11 +13,12 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.6.1"
 
-RPM_NAME = "python311-arf-2.6.1-4.4.noarch.rpm"
-RPM_HASH = "751051c91542fc7bf760327c9b2965b562bb542589aa3e774c75109a53db7059ec0050912e2debd2260b6c690e6bedd0f8f3673b39c7cfe7a50d8b4ca1a19a9e"
+RPM_NAME = "python311-arf-2.6.1-4.6.noarch.rpm"
+RPM_HASH = "7e242ac943e711aad790dd8bea15cf4d6b95651583c44e2cd2fd2404a4a7acc2500626a352386f64453ed3c41728f799118014639261a29c4a02a3fcfd8a7e31"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-arf \
+RPROVIDES:${PN} += "python3-arf \
+python3.11dist-arf \
 python311-arf \
 python3dist-arf"
 

@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-javanese-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "1866d0d59b4175bbde4b6b876eb2265d22fa5f8f4ca02b59574240fe49e02a11f81e12fa26af7f7dea14f93d844e986185dd0ce1b51b85dc66e3b8797c1ab0c8"
+RPM_NAME = "noto-sans-javanese-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "9041c640b631ffa8fb3506bcc0d84127b2167ced8d5c4b2368e262b5873cf3d2ab639da5833a10ef4f64143f6121deb58c63accc6ac1940f9eac0f43e8653376"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-javanese \

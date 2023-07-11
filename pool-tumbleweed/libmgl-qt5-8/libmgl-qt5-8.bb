@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "8.0.1"
 
-RPM_NAME = "libmgl-qt5-8-8.0.1-3.3.aarch64.rpm"
-RPM_HASH = "a0d1143e8face78dbf588a8a1569ccc91aafc5e574f35dd976511e067f24fd926238ac81af72e949d6e1f1695744e91cd3abac65d37ecb9022767373e0d93ab2"
+RPM_NAME = "libmgl-qt5-8-8.0.1-4.2.aarch64.rpm"
+RPM_HASH = "cb7edd7c7d4ce3051a74337c2e4d3b4f9b77c6de4ca4e940733809abfe77a5581fb9c4e8b8fcb6ed32f716554a4db2b067e134aee8ee14c65206f4c6868efb87"
 
 RPROVIDES:${PN} += "libmgl-qt5-8 \
 libmgl-qt5.so.8"

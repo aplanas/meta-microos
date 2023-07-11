@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "15.1.0"
 
-RPM_NAME = "python310-constantly-15.1.0-3.1.noarch.rpm"
-RPM_HASH = "b1f78c6dbbb34b8169a3ea6062a81c873476761af04663dc25f4b66a0f103fafd8257ccdfe353effc58fb187081325adab14e320360f2d3c7edd94f88817358e"
+RPM_NAME = "python310-constantly-15.1.0-3.2.noarch.rpm"
+RPM_HASH = "e9e01ea337d11049ee0b37a843442f7ee45bcfe78198a8e70b6b8a842af32e4f73e1d26060528c1366b18d95feebf52ad568e29dd125029ac65c849d1fce98f8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-constantly \
-python3.10dist-constantly \
+RPROVIDES:${PN} += "python3.10dist-constantly \
 python310-constantly \
 python3dist-constantly"
 

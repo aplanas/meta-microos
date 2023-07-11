@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.11"
 
-RPM_NAME = "python39-sphinxcontrib-issuetracker-0.11-10.15.noarch.rpm"
-RPM_HASH = "0b173f13ed64851fd8be8eb392618e1b81e1dc77314100422664ae2ab9d33271d95f7a28a42dc390a89bc51802943a7b3e9a1b1e1ea3c72aa957f698d4a646bf"
+RPM_NAME = "python39-sphinxcontrib-issuetracker-0.11-10.17.noarch.rpm"
+RPM_HASH = "865f05f2a8cdf8c2a01dcec14825a79ad501731a1b64a033ea46274294a77a0d843c936bccd9edd005b300ba02efe53a0c5b124189bd3a298672e8652462072f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sphinxcontrib-issuetracker \

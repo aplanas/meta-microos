@@ -11,12 +11,11 @@ LICENSE = "Apache-2.0"
 
 PV = "30.1.0"
 
-RPM_NAME = "python310-license-expression-30.1.0-1.2.noarch.rpm"
-RPM_HASH = "7d694ae12852bc64dddb1e98ec9169bc1cc17b2582fe775597e02f8bc77836e9ab28bdd3038406ad0748d6f606642e6ef10e243c69fafd0d3f97107a085d8ff1"
+RPM_NAME = "python310-license-expression-30.1.0-1.4.noarch.rpm"
+RPM_HASH = "680bcbe0ec0df8b143ab42db624b07ef3936c17320875400f45078ed066d561d35ef7e61bf66802b444075901347bbac85b8d0fa506c9c3108bfb1561c1e29a7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-license-expression \
-python3.10dist-license-expression \
+RPROVIDES:${PN} += "python3.10dist-license-expression \
 python310-license-expression \
 python3dist-license-expression"
 

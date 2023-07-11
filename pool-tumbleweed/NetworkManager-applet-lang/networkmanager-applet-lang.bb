@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.32.0"
 
-RPM_NAME = "NetworkManager-applet-lang-1.32.0-1.1.noarch.rpm"
-RPM_HASH = "0933416b9057862c6e14e24a682011020cabb4d14df55f90aed0f3770e96cb4415334f8ccb07c354ad4cd51efe37d17507401928f148e7e337d05aabc4697164"
+RPM_NAME = "NetworkManager-applet-lang-1.32.0-1.2.noarch.rpm"
+RPM_HASH = "16b5bcbf98f41da123f6d34c5c636b6fcaf7f6f1c16ab138b8fdd7bfbf938475ec8096faf9f91bb7887c0e53992272fa4651cb498fa59315aae11ff80e1bf2de"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "NetworkManager-applet-lang \

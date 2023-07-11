@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.2.1"
 
-RPM_NAME = "libmjpegutils-2_2-0-2.2.1-2.5.aarch64.rpm"
-RPM_HASH = "b3f73b36feadbe1260a17fdf31a964bb5bd0a212201794c871890d6db7029dfbadb16adda8626a2df96aa9ce17618bcf66f9101677345659b7cd37657c3a0fe4"
+RPM_NAME = "libmjpegutils-2_2-0-2.2.1-2.6.aarch64.rpm"
+RPM_HASH = "19de49e8f4c0dce3caa3720abe6d549ba6ae75ad2ccb67b766a128e71997f1ef164758beb827c2215d52f6c46719c6b640b90908d9d0ebae1729bcdb11f3155f"
 
 RPROVIDES:${PN} += "libmjpegutils-2-2-0 \
 libmjpegutils-2.2.so.0"

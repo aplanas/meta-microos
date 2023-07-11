@@ -15,10 +15,10 @@ DESCRIPTION = "Highlights \
   Requests which is also powered by urllib3."
 LICENSE = "MIT"
 
-PV = "2.0.2"
+PV = "2.0.3"
 
-RPM_NAME = "python39-urllib3-2.0.2-1.1.noarch.rpm"
-RPM_HASH = "65999a497ed15e8e815096d2e87b3faeb426cd61f80582be5d4389ca376ce47b9e98b99c9a8d9f8df87b8397df0c167165c869952db9815ed5abb4ab2c26be1c"
+RPM_NAME = "python39-urllib3-2.0.3-1.1.noarch.rpm"
+RPM_HASH = "82fb2f19a15d474c60cbcc396719133759212046999c468574f532f0f7a03157a277e490beb07d43df33bf619d5972ce898b29c1accf2d4e6fbc9a6fb5e25e98"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-urllib3 \

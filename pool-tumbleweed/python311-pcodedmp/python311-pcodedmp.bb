@@ -7,11 +7,12 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.2.6"
 
-RPM_NAME = "python311-pcodedmp-1.2.6-2.10.noarch.rpm"
-RPM_HASH = "5cd70679db45cbd65e29b4d93afb0c97f5e6d1f960466d3bcc7c9a22558fefa926f0a87e588049b1e2ccb2589ad20b0952577840f4e9504515b4a6de051df6a1"
+RPM_NAME = "python311-pcodedmp-1.2.6-2.12.noarch.rpm"
+RPM_HASH = "f6a06e6604e767c44734473f383ae1201b8b526db3ef90fa68113419fc3ddd585b4ce324166c282c1e2dd97db7862a1a83453aed4c7cd1e9d8c34aa506c0ef54"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pcodedmp \
+RPROVIDES:${PN} += "python3-pcodedmp \
+python3.11dist-pcodedmp \
 python311-pcodedmp \
 python3dist-pcodedmp"
 

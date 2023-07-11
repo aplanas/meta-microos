@@ -5,11 +5,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.9.53"
 
-RPM_NAME = "python311-PyAutoGUI-0.9.53-1.3.noarch.rpm"
-RPM_HASH = "60888ad67cc73ed69ff2617d0a9a0c932b5769ab7195a81f1d978ad1fd79cd9436fafbedc6bdffc4ca4549fc274c31f983b99c28be92648145572ce84d8a9c3f"
+RPM_NAME = "python311-PyAutoGUI-0.9.53-1.5.noarch.rpm"
+RPM_HASH = "3205e558e8a5aa2b98e4d8f36c881d53da1d82c8d81dae2d80b23428d3529363381810f856a95fa9e35d18c7a401e27e3693f921d00f3aa5d1094d9dd989751c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pyautogui \
+RPROVIDES:${PN} += "python3-PyAutoGUI \
+python3.11dist-pyautogui \
 python311-PyAutoGUI \
 python3dist-pyautogui"
 

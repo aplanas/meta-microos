@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-quick3dutils-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "df8db2319a088a9a632e88d646a4e1b14299a2d282f7953a73b6bc0bdc4dc30fdcaa6c140ebc7eb36c34164ab95f770878f3f89a379ab1f147bdf8eed784d57a"
+RPM_NAME = "qt6-quick3dutils-devel-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "e80988b54a0f5e4a264e8b07ec255c725ba74040b28f8a45ca865d71e8f4970578927d943fad84cdeaa3a74d538ca0398ca3a4e4fdaf983f96a42ace212b607e"
 
 RPROVIDES:${PN} += "cmake-Qt6Quick3DUtils \
 pkgconfig-Qt6Quick3DUtils \

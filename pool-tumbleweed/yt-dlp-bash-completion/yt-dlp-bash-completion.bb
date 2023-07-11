@@ -2,10 +2,10 @@ SUMMARY = "Bash completion for yt-dlp"
 DESCRIPTION = "Bash command line completion support for yt-dlp."
 LICENSE = "CC-BY-SA-3.0 & SUSE-Public-Domain"
 
-PV = "2023.03.04"
+PV = "2023.06.22"
 
-RPM_NAME = "yt-dlp-bash-completion-2023.03.04-2.1.noarch.rpm"
-RPM_HASH = "41b4af5fb11aa55004999908777e0799a13b8f9a0eec9adb4ef5812c89c00818780a04cdd8c1885344372cd90f564a5ba4de1568362a56243042a3105463f978"
+RPM_NAME = "yt-dlp-bash-completion-2023.06.22-1.1.noarch.rpm"
+RPM_HASH = "59825a51bc4256c3b1fd1656060d253e41e0f43110088375a5f86d4e30ce6f5e373e25d9e5619d369fdefedc2f3310578a676b64c6485a20f4173d41e0b76917"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yt-dlp-bash-completion"

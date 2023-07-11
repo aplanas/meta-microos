@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.4"
 
-RPM_NAME = "libtntdb-devel-1.4-1.12.aarch64.rpm"
-RPM_HASH = "c283a0aed85192fc15b9342449df2f1a529511ad52f9a56759e001fc0bbe401fa9cd8fab84440e847d6f39dfc6870ec049d52d9ed8440b56af6bf915384025dc"
+RPM_NAME = "libtntdb-devel-1.4-1.13.aarch64.rpm"
+RPM_HASH = "e4a558b29114e6a428830873b712f50e009bf7bd6dcd20bac641d338bba1894520f3a7f6912eb8aa985a0025cd79fd2bbd7753111ff2fd121216bb907c9f1cd9"
 
 RPROVIDES:${PN} += "libtntdb-devel \
 pkgconfig-tntdb"

@@ -12,8 +12,8 @@ LICENSE = "MIT"
 
 PV = "6.3.0"
 
-RPM_NAME = "python39-pydocstyle-6.3.0-1.4.noarch.rpm"
-RPM_HASH = "4658caa554ae46f3d85d05d395ed6b324ed7addaf06b1f67c5655f89e9585a36333e62a666633d50b01b98d152717829c8fa70d45f3e72875e0bc79c4d7b638f"
+RPM_NAME = "python39-pydocstyle-6.3.0-2.3.noarch.rpm"
+RPM_HASH = "25119aba5c9d2716a739933f3595503f8f9ab10ed75940c3933070a4cf3aced750695c871920994926b86e863e6694e91c79b9e68e062cb8e900aef56350ef60"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pydocstyle \

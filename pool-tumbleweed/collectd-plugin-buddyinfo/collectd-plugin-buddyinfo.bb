@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & MIT"
 
 PV = "5.12.0.134.g4cebbfc"
 
-RPM_NAME = "collectd-plugin-buddyinfo-5.12.0.134.g4cebbfc-1.4.aarch64.rpm"
-RPM_HASH = "2bffccd5f344036eb30bb46d5b0baf449db9ac0c75077fa29a7a3e13dc8a9ca7f6fa3119185bd11d572f2c0484cf115316f2768b1619aa696c6b593bf8980991"
+RPM_NAME = "collectd-plugin-buddyinfo-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
+RPM_HASH = "3b86979eb525229551886d947fb6cbf9c72b7847440ec5eba88d08cd8d5ccf345217c6eb47c53a18203fe455a6181f10d9b6d4645a3cc5151b442cf3ced56241"
 
 RPROVIDES:${PN} += "collectd-plugin-buddyinfo"
 

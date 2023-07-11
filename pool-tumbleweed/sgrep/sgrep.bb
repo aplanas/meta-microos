@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.94a"
 
-RPM_NAME = "sgrep-1.94a-1.12.aarch64.rpm"
-RPM_HASH = "91931a0bfab0e0c7ce73aaebdfb379cf42f76685197ed910da1ea488d8d8f115e4e7f4c3b7648cecd40811141dc5ec0796e17ebeaac152c4cfac588db67941d6"
+RPM_NAME = "sgrep-1.94a-1.13.aarch64.rpm"
+RPM_HASH = "06134b9bfac22fddb99e009e90fffc6c77361cc25342a098f24220448581cd8969bba11d706a191af7bded0918b4a7e0cd8e1a0cb0c1d28d81f28de8fc614674"
 
 RPROVIDES:${PN} += "config-sgrep \
 sgrep"

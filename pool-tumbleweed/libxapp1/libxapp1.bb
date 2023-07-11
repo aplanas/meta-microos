@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.4.1"
 
-RPM_NAME = "libxapp1-2.4.1-1.3.aarch64.rpm"
-RPM_HASH = "31f531d8323f7cc7cfa15abe9659ccf21c1719025be8d9d8796ad18771259888ad4afc952e436c247ee1160ba2821377a68db0bca56dbb7cb8d904f91ed115e4"
+RPM_NAME = "libxapp1-2.4.1-1.4.aarch64.rpm"
+RPM_HASH = "57688938ba29f6a5541e999553dad64ddd77cc3861206069a7b545138325d42b2d45fc0c1dfcb72e2558488f821b1f80b6df5abbe3770b08b10bd7b71a70eeed"
 
 RPROVIDES:${PN} += "libxapp.so.1 \
 libxapp1"

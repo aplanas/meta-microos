@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "2.2.0"
 
-RPM_NAME = "mraa-examples-2.2.0-2.10.aarch64.rpm"
-RPM_HASH = "2a929bd92a36db0d6bb01d7d07df44a9611f21bb13a4f4cdd0329fcafe5f3342c4fe604d460f852aec59b0fe3d975a9d2903708eddf55d2040ad491c414117d7"
+RPM_NAME = "mraa-examples-2.2.0-2.11.aarch64.rpm"
+RPM_HASH = "6aed771f43fb392f3a04db4b05bf711e535d06aabe8d05ccb59abacb5acc7aec34fdbf36fd41d7c308eda565cc1e55d537f3e15d14650237d94734330843254e"
 
 RPROVIDES:${PN} += "mraa-examples"
 

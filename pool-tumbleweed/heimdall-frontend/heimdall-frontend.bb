@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "1.4.2"
 
-RPM_NAME = "heimdall-frontend-1.4.2-1.28.aarch64.rpm"
-RPM_HASH = "5ed563ee864593a019bdbb78022b6cb0977d8f936f3eb5c4d0af21be9b8ba36151fb0e6717841509f1f5821d7f6ef347ba9f00f005f4d10b818ae1018fa7bc8a"
+RPM_NAME = "heimdall-frontend-1.4.2-1.29.aarch64.rpm"
+RPM_HASH = "72751848be909d372ac3bd92c19ae856b6238a9b05434728cb578121528b392e69265c19ebef38bc9c4658431ef8571b57fd788ba0515a20e934979224f38b2d"
 
 RPROVIDES:${PN} += "heimdall-frontend"
 

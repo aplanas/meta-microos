@@ -5,12 +5,11 @@ LICENSE = "ISC"
 
 PV = "4.8.0"
 
-RPM_NAME = "python310-pexpect-4.8.0-10.1.noarch.rpm"
-RPM_HASH = "eefdfcb0e0fa411b459ae2e4d44504b0134362c13d7044e29350c87538e1ab3a71629b31a69875ef4d6ae69a22930486f2113495f643e2da650e0ec9c53f4e15"
+RPM_NAME = "python310-pexpect-4.8.0-10.3.noarch.rpm"
+RPM_HASH = "ee1473c1499e571e79e8d5af9b5f7d00563add1d8e3c2fb70be239f8d2004c2de4c13d9e59c60f1443a6be91bab3a16fb3b7fae26c99e78edb2c029b28b278c4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pexpect \
-python3.10dist-pexpect \
+RPROVIDES:${PN} += "python3.10dist-pexpect \
 python310-pexpect \
 python3dist-pexpect"
 

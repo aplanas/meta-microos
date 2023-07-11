@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "7.1"
 
-RPM_NAME = "qphotorec-7.1-4.13.aarch64.rpm"
-RPM_HASH = "d88847e192248e8673efa102b9a16faff927eb9ca55b43dfffe2ab774aeb08b138218eb9d40af3eb179e67a45f0818554a7efb3010f520fc9535e59f80e228b6"
+RPM_NAME = "qphotorec-7.1-4.15.aarch64.rpm"
+RPM_HASH = "8c8a18e87d1c08e5040195144b8d724b7ad4d0e6f288390ddd9f5fda99bd5a325ba0ac7bec9979d75542cce454f20e68ee8ae45ab454ee8098a9de646f11fe82"
 
 RPROVIDES:${PN} += "qphotorec"
 

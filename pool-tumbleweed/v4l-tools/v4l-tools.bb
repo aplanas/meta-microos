@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.107"
 
-RPM_NAME = "v4l-tools-3.107-2.10.aarch64.rpm"
-RPM_HASH = "146129247e76f38f27e1fd7e735eeb913a477c63e4616fbb4ca361d187c5df3a54120397bbe695916bae30d5805942c7687aaf747b7d61db5d63d17085f4893d"
+RPM_NAME = "v4l-tools-3.107-2.11.aarch64.rpm"
+RPM_HASH = "3bb7220fc2d8c71a3fc7f5529b30cd7a1cf6a30b983bd3d3f78e016074871cf71da9bbcc4580abb7cf217a32ae1cfd841cf7d8db230498190e5574d598cb0952"
 
 RPROVIDES:${PN} += "v4l-tools \
 xawtv-/usr/bin/v4lctl"

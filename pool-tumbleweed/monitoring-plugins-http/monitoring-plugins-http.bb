@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
 PV = "2.3.1"
 
-RPM_NAME = "monitoring-plugins-http-2.3.1-9.4.aarch64.rpm"
-RPM_HASH = "7cc24a74fd4ccefc43ede29e87c116a95e5cbabe2e9065b020f1ee4aa91e46512aedeefcd68638a649685336353a32e996ad02610b9353857b099f20950616fc"
+RPM_NAME = "monitoring-plugins-http-2.3.1-9.5.aarch64.rpm"
+RPM_HASH = "5e5819826b8939b38dbfbfbe3474c96565968984115263412704e1d814298a65e5dd0b8c49934dc5c37774d59c95139849487bda2c609d8f4c3bef97f46b2551"
 
 RPROVIDES:${PN} += "monitoring-plugins-http \
 nagios-plugins-http"

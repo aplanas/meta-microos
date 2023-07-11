@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.2.9"
 
-RPM_NAME = "gnuchess-6.2.9-2.7.aarch64.rpm"
-RPM_HASH = "bd9eebce61eb0bd9e722af02862a910851e02ff441e069c7f01197c257569dfa9a0c3e2e5434801f448aeec7deb4fa4aeced2c2f286551bb135ff2c8b6860918"
+RPM_NAME = "gnuchess-6.2.9-2.8.aarch64.rpm"
+RPM_HASH = "385e5f6fbde6c7532d8efab812d21d6370a5ae090ed0151a0a07f832155bbd923e87229939bf968567c05fbcca47b26dfaa0def0c066031867a4958148568255"
 
 RPROVIDES:${PN} += "chess-backend \
 gchess \

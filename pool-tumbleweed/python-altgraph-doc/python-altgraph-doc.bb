@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.17.3"
 
-RPM_NAME = "python-altgraph-doc-0.17.3-1.3.noarch.rpm"
-RPM_HASH = "15a8440d3f0d8def06fb197240e0c3a87e6115c69229a1cf1c99def38db991d264b71836fd23f02a9efb3f05ad73cdae8bb2ab61bf1c83d2c58ed4251b6895da"
+RPM_NAME = "python-altgraph-doc-0.17.3-2.3.noarch.rpm"
+RPM_HASH = "79e6ca97e9d658a2660c6b41ecd539e4dcf242ad7bf005358df35b39132983d36dfa18811c5fb28b0da0c6c9be2134ee52d5e5407e2f99639569372d834cdd31"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-altgraph-doc \

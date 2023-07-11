@@ -7,10 +7,11 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20210626"
 
-RPM_NAME = "python311-libvsapm-20210626-4.7.aarch64.rpm"
-RPM_HASH = "273a0ae14c8c92e093ad047deaf56aef389c12a5d2b06e113fdfeaa543ee60445d6d48e924186cf6c84f66a6dae7c5a8768d38cd0233b0bed6f00886d4a56f6e"
+RPM_NAME = "python311-libvsapm-20210626-4.9.aarch64.rpm"
+RPM_HASH = "7cd1c814677253959517464a5c4d0379d81977f7c803386f000df745aa75cd23f973bdc2cff4b3073ff00f1d7890fb39e58c690adc113593f004b0ac440322be"
 
-RPROVIDES:${PN} += "python311-libvsapm"
+RPROVIDES:${PN} += "python3-libvsapm \
+python311-libvsapm"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libbfio.so.1 \

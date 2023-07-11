@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.6.3"
 
-RPM_NAME = "nfs-kernel-server-2.6.3-39.1.aarch64.rpm"
-RPM_HASH = "b7b5b9ba6035d8b33cad3fd0af3a35b511c387d74fa4afa25d955bdbb0f7323fc39a833044123e80c6ebffae8344d73a6cbf7c2a751fd0b12ed8814b25d91a6d"
+RPM_NAME = "nfs-kernel-server-2.6.3-39.2.aarch64.rpm"
+RPM_HASH = "f2016a4b6197cb4a479753f5027a9598a12743b976df6004ccfb2334042aa8b90f6002fd22421af72f8f7efcde8404eddc370b1d178588eca465da3d713fe41f"
 
 RPROVIDES:${PN} += "config-nfs-kernel-server \
 nfs-kernel-server \

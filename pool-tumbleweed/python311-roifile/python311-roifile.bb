@@ -7,11 +7,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2020.11.28"
 
-RPM_NAME = "python311-roifile-2020.11.28-1.8.noarch.rpm"
-RPM_HASH = "83e8038bffa2a312c7d1a30633d4207059a507c21ca2ee2b640376096b29127c8a298fcfe0dea5c300272c732b4c4415b7eb1891c84a770dfb734615efc36a74"
+RPM_NAME = "python311-roifile-2020.11.28-1.10.noarch.rpm"
+RPM_HASH = "2bad9aba1a0c7ec3ddbfcab05f93aa65a96afa89611245ae8e25d5d2aee746bedc71be857fb420dd96b584729754238fc037dfe95c0d9662a5513e7ef74e1f3b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-roifile \
+RPROVIDES:${PN} += "python3-roifile \
+python3.11dist-roifile \
 python311-roifile \
 python3dist-roifile"
 

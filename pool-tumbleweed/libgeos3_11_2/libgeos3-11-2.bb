@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "3.11.2"
 
-RPM_NAME = "libgeos3_11_2-3.11.2-2.1.aarch64.rpm"
-RPM_HASH = "24e35ad8777aa1b2c2fdf147292f64db3db25c2c5fe7b57b130803fdbc1adbd23c7a8e812a076fb594a7f5c767c153ccfe61b487202ba49f960e7e5f72d90eaa"
+RPM_NAME = "libgeos3_11_2-3.11.2-2.2.aarch64.rpm"
+RPM_HASH = "d73c5135f4d1706bb2a269af63ad638a1f8fa58188f430609466df9e2c4acca4f1523e4b59923e031c28358069a4cfc6a370701a0bd4a80b02870bdbf2de51aa"
 
 RPROVIDES:${PN} += "libgeos.so.3.11.2 \
 libgeos3-11-2"

@@ -12,8 +12,8 @@ LICENSE = "GPL-3.0-or-later & MIT"
 
 PV = "1.0.4.13"
 
-RPM_NAME = "jaero-1.0.4.13-1.9.aarch64.rpm"
-RPM_HASH = "8d5f97fbd0fa5c6869aa2b75b5cfe1ac8dc6fe72c5c5a15b78efed209eb96458674da7eb6bd708290d6d29d620e8cf1a6d4ee450684341594f3b06eb1bd259bc"
+RPM_NAME = "jaero-1.0.4.13-1.10.aarch64.rpm"
+RPM_HASH = "5199ce68cd5517d43af46cb1cc0c135cd533f614805fa23f5b09b8c3ecc671c00e05682b21183ad5b5063be06e19c1439d852c7cc967403bd4bd48e7c662faee"
 
 RPROVIDES:${PN} += "jaero"
 

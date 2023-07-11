@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "7.8.0"
 
-RPM_NAME = "libgssapi3-7.8.0-3.1.aarch64.rpm"
-RPM_HASH = "88d181095da42e08cc39d7538fd5be58fde9a72b6829532fa9831d2df94cdfc402044aff2e13321431dcdd823e9b345db2bc23929d927daee0443808dcd9e119"
+RPM_NAME = "libgssapi3-7.8.0-3.2.aarch64.rpm"
+RPM_HASH = "303062133cfa8f1d3e47a691de91c3702b0706cc118940625d21ee07c56f3c8c7fcb3c16732252e2b958254b8a63eb04d41347cb5a087279db390913b1a34ab5"
 
 RPROVIDES:${PN} += "libgssapi.so.3 \
 libgssapi3"

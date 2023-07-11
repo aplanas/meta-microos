@@ -2,10 +2,10 @@ SUMMARY = "Kubevirt API server"
 DESCRIPTION = "The virt-api package provides the kubernetes API extension for kubevirt"
 LICENSE = "Apache-2.0"
 
-PV = "0.59.0"
+PV = "0.59.2"
 
-RPM_NAME = "kubevirt-virt-api-0.59.0-3.2.aarch64.rpm"
-RPM_HASH = "6f0587e67cd194ae592396ee0feae9479a01f950953e11744490868f9f254f87978aca983f8ab38075c3f77c6a1520cba2952e0f838b0e9c76d1111473a641e0"
+RPM_NAME = "kubevirt-virt-api-0.59.2-1.1.aarch64.rpm"
+RPM_HASH = "ede652377eba8a31697ad718aab59fc662d879faf51e141caa240ac02f4f38a2a0792a3b612693bd0e516e63dc423e82638c0ab465c1852eeaf49a8027a75554"
 
 RPROVIDES:${PN} += "kubevirt-virt-api"
 

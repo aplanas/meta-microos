@@ -16,8 +16,8 @@ LICENSE = "MIT"
 
 PV = "0.2"
 
-RPM_NAME = "python39-jsonref-0.2-1.14.noarch.rpm"
-RPM_HASH = "3bd7701baeedc71570d1aa1f9b31306e2a681a1ee4b4316a9a40ae1153aad17676fd86dfe54544d4e15dc3704ade282d2e14cebee8e215bf141ac68674771ca8"
+RPM_NAME = "python39-jsonref-0.2-1.16.noarch.rpm"
+RPM_HASH = "ba12fd70d3f7ba8aada193a20577f203e7b3cdd0d6ad8f2c799fbce7302ebf5c7d4e3ce033660aba84845aba4a0c4dbac1b884179b7d26350a7d942cacbcebbf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-jsonref \

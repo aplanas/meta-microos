@@ -12,8 +12,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.9.0"
 
-RPM_NAME = "liblapack3-3.9.0-9.1.aarch64.rpm"
-RPM_HASH = "4eb49d6854746a03bfbe2b1a4900a2b4aae005b378f0536ec872930c06a91039dd428b19b48ef8b4306f0f13617484494d1f41983089d6a93554ea316234aa0b"
+RPM_NAME = "liblapack3-3.9.0-9.2.aarch64.rpm"
+RPM_HASH = "bc38a698ee4bfc9dafcaa8f89e0576549b8e1eb90b3381fc694b7de3699cc835839c5dda37e02d99f9914539e2f93d9dc230a83c1c23b8a6672426d69fc1bdbc"
 
 RPROVIDES:${PN} += "liblapack.so.3 \
 liblapack3"

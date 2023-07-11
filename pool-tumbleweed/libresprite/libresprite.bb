@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & MIT"
 
 PV = "1.0"
 
-RPM_NAME = "libresprite-1.0-2.2.aarch64.rpm"
-RPM_HASH = "1160a82aa61666f62f2ca03ea508d7b25884d51a24edb008c45e9ea708b1967e9d9984b79ffe1fb90a144d3563b73154bfdb33bba83d79b7577350a413d58ef5"
+RPM_NAME = "libresprite-1.0-2.3.aarch64.rpm"
+RPM_HASH = "afd3e9c26817155d4aa31c737be35916852efbd761fae905eddd37de5a1077d3ac759db3759da0fa898cf9a9d061760516df3a472915587d7feca74d96348577"
 
 RPROVIDES:${PN} += "libresprite"
 

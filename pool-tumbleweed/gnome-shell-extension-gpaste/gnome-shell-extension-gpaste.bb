@@ -7,8 +7,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "43.2+6"
 
-RPM_NAME = "gnome-shell-extension-gpaste-43.2+6-2.1.noarch.rpm"
-RPM_HASH = "2f0a3bd10cc3385372807618e50f39666df19d53e6165ab95598820e178450648cd6756e7af164af549afed0d0eb390effd711536cd7e8b5b52ecf8ced06b5a5"
+RPM_NAME = "gnome-shell-extension-gpaste-43.2+6-2.2.noarch.rpm"
+RPM_HASH = "f9dd47618388eb553e7692f5c78b516d90006aace088774bbb79786ccf0c61ab424f944ce06956abb4c2b906c3ae3235693537e8a6eeccb5a5accb183c7be613"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-shell-extension-gpaste"

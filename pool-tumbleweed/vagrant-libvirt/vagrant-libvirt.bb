@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.11.2"
 
-RPM_NAME = "vagrant-libvirt-0.11.2-2.2.aarch64.rpm"
-RPM_HASH = "f394f3944a0a16934da1e9a6e0f6c5ce5631e7dd86b10c2cf9253553c1c571b70827fb684f993d8f4016d789ab24da4d39ada4a5459f96e8de00e3838e96aa0b"
+RPM_NAME = "vagrant-libvirt-0.11.2-2.3.aarch64.rpm"
+RPM_HASH = "bb9c23ae161c5dbc0f604ffd7a7b1246ce7426e42c446480f1c31fb512c89d17fbacb93dc7a8f4fb486f62aab900b929bdfac781c69b78fda691456283ecafc6"
 
 RPROVIDES:${PN} += "vagrant-libvirt"
 

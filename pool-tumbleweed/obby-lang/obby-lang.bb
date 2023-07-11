@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "0.4.8"
 
-RPM_NAME = "obby-lang-0.4.8-11.29.noarch.rpm"
-RPM_HASH = "4baf8255e433195dca1288154ded70dfe6159fdf8cdfbdbdcee189b2db436d6a560920a29e707c872515a17b7355779fe176cbbb2286332ab69f4b4a3d5803bb"
+RPM_NAME = "obby-lang-0.4.8-11.30.noarch.rpm"
+RPM_HASH = "24714dbe9f0f667651ba2a9e1e35f59fc099b2de65fc02f88743dfc31ef3b544412c7845f52bddfecdb07830901ef56372d32b8bdd8afcb71d3cac4aae03909a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-obby-ast \

@@ -11,11 +11,12 @@ LICENSE = "MIT"
 
 PV = "2.3.0"
 
-RPM_NAME = "python311-QtPy-2.3.0-1.4.noarch.rpm"
-RPM_HASH = "10f08c378a9339df3875f47faf49fadca07680ba73641560967ef842b545a18f696cac38122b864c0b99c63cbe763bde91b6d002917e6d0b33307fe8ac4ada1a"
+RPM_NAME = "python311-QtPy-2.3.0-2.3.noarch.rpm"
+RPM_HASH = "80989b9c87f6d279fcb14550cce4fba9644fc5786499632c9c69b183b9c446f1deb18b3d09af81fb2070dccb7e32290cf15af54966a6692730059d7eb8863111"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-qtpy \
+RPROVIDES:${PN} += "python3-QtPy \
+python3.11dist-qtpy \
 python311-QtPy \
 python3dist-qtpy"
 

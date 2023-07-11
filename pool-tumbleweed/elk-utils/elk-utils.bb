@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "8.7.2"
 
-RPM_NAME = "elk-utils-8.7.2-1.3.noarch.rpm"
-RPM_HASH = "10b4ed1a7450b3b50b66d504f6ed4c7d42e450dae48f70973cd12774cb26869ac71d07a2b33f6b9d9afbaf36db33f614a355124a19cf4ec186330a3bfb8be33a"
+RPM_NAME = "elk-utils-8.7.2-1.4.noarch.rpm"
+RPM_HASH = "d323f7e5f8761523973829e36bc6e01412f712046ec3d5a7fb14f645e5559c0d558fdbafe764b14e503d1980998bfcf730172c6de104fc9ff62b010eb3ee0e9f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "elk-utils"

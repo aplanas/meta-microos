@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0.2"
 
-RPM_NAME = "spglib-devel-2.0.2-1.3.aarch64.rpm"
-RPM_HASH = "f9eb5c55c3b8a940de8a9c3dda9f60eddf0a255d7e16286994cbee190c8e13aa9dd4242319dcb7124e73711b66792a83a270b11ed09af0347eeb61f09f65a104"
+RPM_NAME = "spglib-devel-2.0.2-1.4.aarch64.rpm"
+RPM_HASH = "9c01be17d0e0c011a2155b3cd271a34a23f0082f3b7c83e0db73d6a767152aca640c703f6017fa684a04cc860dcec3067e62105295581cf1b6d2548db1b962a0"
 
 RPROVIDES:${PN} += "pkgconfig-spglib \
 spglib-devel"

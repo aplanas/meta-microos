@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "2.8.4"
 
-RPM_NAME = "python39-numexpr-2.8.4-1.5.aarch64.rpm"
-RPM_HASH = "6fc3a1141c732b7a7183aaa97944ffdea72e97390df3fb34ee344a17ad082bd7d1aafd33605f1087ad3ad3cbdfeb0f7c7bd64af127dcce2b994666ff7e178e3d"
+RPM_NAME = "python39-numexpr-2.8.4-1.7.aarch64.rpm"
+RPM_HASH = "dfbc9692a9775796550efaf4f5f9db2be3fe59a4b8a60f702772eea575f7b7c12926f1a5eb4da690eb70c3b5cc2af230fe62e95cf952596cdea74781c91d5876"
 
 RPROVIDES:${PN} += "python3.9dist-numexpr \
 python39-numexpr \

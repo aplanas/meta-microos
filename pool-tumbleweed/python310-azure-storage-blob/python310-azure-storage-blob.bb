@@ -13,12 +13,11 @@ LICENSE = "MIT"
 
 PV = "12.16.0"
 
-RPM_NAME = "python310-azure-storage-blob-12.16.0-2.1.noarch.rpm"
-RPM_HASH = "e034ba60b01acafdea959738f769e1297ccbd32aa08102a416a6ab5c6cf5e50ef672826a0d2360d90c8dcbc772a726e41f2056340d9d37e024771a8a59841f83"
+RPM_NAME = "python310-azure-storage-blob-12.16.0-2.3.noarch.rpm"
+RPM_HASH = "03dec5a81c816ed1c38e31a9a2c3837d1819d4021b2529df9a2715ea2d9e5785998ec6e368ddc463dff68854804a67038979d0deba9f2619f542f9d5b7753800"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-storage-blob \
-python3.10dist-azure-storage-blob \
+RPROVIDES:${PN} += "python3.10dist-azure-storage-blob \
 python310-azure-storage-blob \
 python3dist-azure-storage-blob"
 

@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.53.1"
 
-RPM_NAME = "librealsense-examples-2.53.1-2.1.aarch64.rpm"
-RPM_HASH = "d43846018015f2144dd8b830608a5466e4e2bf2d442519763321821d35730b54fc684d5ebfde70cbadad8aa60a59458b046116cf37b2849d675c7b5de4001851"
+RPM_NAME = "librealsense-examples-2.53.1-2.2.aarch64.rpm"
+RPM_HASH = "5e4ee29961cc409878d3fc5c8178834a05ff71b3ef06f07ccac2b1e005d3c3b011b218dfdc394ac4c3b288e5f98742195d105247887b056b4494999fc174b07d"
 
 RPROVIDES:${PN} += "librealsense-examples"
 

@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "2.0.0"
 
-RPM_NAME = "python39-cmdln-2.0.0-3.11.noarch.rpm"
-RPM_HASH = "8961afad2bd4d04010af6e39c55ccda48e45d35223075ce130d7fb0f0b3d3172c8aa5707fdf7c598f839c429400bfe9093d91fb5565ecdb31c5ed898f7a3722a"
+RPM_NAME = "python39-cmdln-2.0.0-3.13.noarch.rpm"
+RPM_HASH = "31a02a399e5ec6cea09835927dbc175c65a5a174caa3c812f847eee268056016721bfcb616f9cd076702bf7ca426d0dbe80a93fcc8a7e7c1d7b1083eca73db5e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-cmdln \

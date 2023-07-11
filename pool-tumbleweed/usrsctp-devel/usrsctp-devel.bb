@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.9.5.0"
 
-RPM_NAME = "usrsctp-devel-0.9.5.0-1.9.aarch64.rpm"
-RPM_HASH = "65a23cc68a6484634f1016b4b8e58284d1b75f9d3dc86eadad9062fe02dc127bf96aad5f774797a303f617aed92508e00cf48b443dfc5cbedfc13027b2ee3775"
+RPM_NAME = "usrsctp-devel-0.9.5.0-1.10.aarch64.rpm"
+RPM_HASH = "1df1f4122422060913a4c49e04c8a9b15d5eeee803d56a8dcfee5b3e843fb985efde45785f70b8278e83fd55ea2e103fdcdbd2a535146eaceb093c4e6ea9f409"
 
 RPROVIDES:${PN} += "usrsctp-devel"
 

@@ -7,11 +7,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.2"
 
-RPM_NAME = "python311-pytest-astropy-header-0.2.2-1.3.noarch.rpm"
-RPM_HASH = "8b20af2051e3c09ebefb9a6e03130cf949d1e2ca839e19d99f6aa062e3e1c349810cec2bd2e827baa096fce0b2668366445ad9cabfe0cbac645d4997632c3e31"
+RPM_NAME = "python311-pytest-astropy-header-0.2.2-1.5.noarch.rpm"
+RPM_HASH = "4508ca0508d77a71bbb6f51e7d59c83e34ce59b9563e80edbe62bfc85a3c2a1f8b35b9dfc3f6c539ef7c32943ee36a9ed822216f315e266530f44fa88361421b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pytest-astropy-header \
+RPROVIDES:${PN} += "python3-pytest-astropy-header \
+python3.11dist-pytest-astropy-header \
 python311-pytest-astropy-header \
 python3dist-pytest-astropy-header"
 

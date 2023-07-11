@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.10.0"
 
-RPM_NAME = "libgstreamermm-1_0-1-1.10.0-6.9.aarch64.rpm"
-RPM_HASH = "c5de3cd306903cc33fd99f9da1cef432bc7512174c6018c77b5c03274c2a2acb1f10002063f462042ec32e11156b704b1e5f7e0ded5115631f61d1253c9a929f"
+RPM_NAME = "libgstreamermm-1_0-1-1.10.0-6.10.aarch64.rpm"
+RPM_HASH = "b2ba66bd44da987365a0f80b0eb20fdeb3e1d7c3383cbbb8ce50d83f373af3a2847300720b90bee2815425b6e579fc000b3cca699c5aae4c6c9ea8b8ad6117ba"
 
 RPROVIDES:${PN} += "libgstreamermm-1-0-1 \
 libgstreamermm-1.0.so.1"

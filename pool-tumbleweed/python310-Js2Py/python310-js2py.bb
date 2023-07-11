@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "0.74"
 
-RPM_NAME = "python310-Js2Py-0.74-2.1.noarch.rpm"
-RPM_HASH = "924b986bfa44c5f68deed936c4f2de01d6918c3ded039da5bc0bccc39f8db68810eaf56e3a42f39e7aa0bc1ee676fdeec3c240368044c7af183ae693620783b7"
+RPM_NAME = "python310-Js2Py-0.74-2.2.noarch.rpm"
+RPM_HASH = "81f677650cffa157973d11f7675580d27c5b8b0255e5d2a7dc90142e920cabae86bf5b2bfb31fff0361184742c61a2b37ebeb7a770a6e3108447c21eed77eaee"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-Js2Py \
-python3.10dist-js2py \
+RPROVIDES:${PN} += "python3.10dist-js2py \
 python310-Js2Py \
 python3dist-js2py"
 

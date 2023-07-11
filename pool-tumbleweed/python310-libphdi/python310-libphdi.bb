@@ -6,11 +6,10 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20221025"
 
-RPM_NAME = "python310-libphdi-20221025-3.8.aarch64.rpm"
-RPM_HASH = "430bdc5b4ed760843aab8e3afe1a83827036b49d2be3ca09ca64d3d60820d2e3aba85361ede2cb0ca6d5deab63bb18790c86d9ea2d4378bf85ec785d1620329d"
+RPM_NAME = "python310-libphdi-20221025-3.11.aarch64.rpm"
+RPM_HASH = "a96ffdc964e981c583cee533afbc0464c629f88cc5213cb552e436c769240ff779fc2db111509c622d5b6ced026f39b422ca8ef728682b278c75e862d69ee291"
 
-RPROVIDES:${PN} += "python3-libphdi \
-python310-libphdi"
+RPROVIDES:${PN} += "python310-libphdi"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libbfio.so.1 \

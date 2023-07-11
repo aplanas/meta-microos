@@ -3,10 +3,10 @@ DESCRIPTION = "This module adds features to python-click: option groups, \
 constraints, subcommand sections and help themes."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.1.0"
+PV = "2.1.1"
 
-RPM_NAME = "python39-cloup-2.1.0-1.1.noarch.rpm"
-RPM_HASH = "1623936004adc4a3a3011a5d2141f69c9c3f23194c63a566aebaa6e0f3bc1e53ecd92eb3679aade4aae1299d7f730cfe8f8a0e9cc7875ba2d4895fedc1f11687"
+RPM_NAME = "python39-cloup-2.1.1-1.3.noarch.rpm"
+RPM_HASH = "5f3a5759144a5470b491d39089e5b1f8a43d77450f6dcc545eb531e91a023fd12a60dfe0f857fe1731c5ef7fa5941896b30c3d7d8712ea9248422d4de71c1ae1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-cloup \

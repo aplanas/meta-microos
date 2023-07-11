@@ -4,8 +4,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-azoth-herbicide-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "228834a89cd6fc92c836fd913b4464af903706a3e2f3edceb3086053b2fa465a790a0d5891e1ef02fbfc789e73967f5142102c2da84c8e27d9c0926cf145548b"
+RPM_NAME = "leechcraft-azoth-herbicide-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "b2b1f067dd46b64565287d52cd6ec3a693e4768d7192a2c149fb60a7d3eadb1725ee5bebc84c2ebc0aad0e229b88b44053038106fb6c76ffc94e6f6f0069a2f4"
 
 RPROVIDES:${PN} += "leechcraft-azoth-herbicide \
 libleechcraft-azoth-herbicide.so"

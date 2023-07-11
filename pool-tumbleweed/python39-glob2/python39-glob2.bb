@@ -12,8 +12,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.7"
 
-RPM_NAME = "python39-glob2-0.7-2.13.noarch.rpm"
-RPM_HASH = "b5f36dbf2304062a8daf35c4173d110865cb7f2b6da32c186e00385c6ced0fbc01b2bffa3c9636a166d6cc993c040d4cff9580dc3d1756b534850e29bdba3df5"
+RPM_NAME = "python39-glob2-0.7-2.15.noarch.rpm"
+RPM_HASH = "2dd2c6a5ae494f5f5ea742eaf40713d7acce4e831da92bbbfbf1b37d0d9cebac2be03608ba029e15d640a07984eaef6f6d1b6eb0a5591d597b0852a3ea353384"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-glob2 \

@@ -13,8 +13,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.22.1"
 
-RPM_NAME = "spice-vdagent-0.22.1-4.3.aarch64.rpm"
-RPM_HASH = "f2275a8939e3dce549e393cdf5b18118208b92a4ecb254d7cd6d5212b075fb0d69725e82cf942434fcc19afa39780d61e963815e5b7e1a9e93e9aec333b89c99"
+RPM_NAME = "spice-vdagent-0.22.1-4.4.aarch64.rpm"
+RPM_HASH = "f5494a7f59e37d681aa9f82ca5f0c5d1b111c26f28e32fb29702b22c436ec045ff38150f5fd5143f29eda4c7848ce4644fa79c8275cae402ec730ec0346f557e"
 
 RPROVIDES:${PN} += "spice-vdagent"
 

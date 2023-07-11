@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.2.9.9"
 
-RPM_NAME = "fcitx-table-cn-erbi-4.2.9.9-1.5.noarch.rpm"
-RPM_HASH = "ea1e63b3495aaead7f7475b33b2145d8447778272148183c8d7079c9d7d54b2e3864f08b507d5a0264fb7825b89a7df37f0d17454990e766db6fefcade72d7a6"
+RPM_NAME = "fcitx-table-cn-erbi-4.2.9.9-1.6.noarch.rpm"
+RPM_HASH = "0d8236c78aa9c31a9581591de76da3f0b484799dc1b2c144bd19604aa121d07bdc7b3a88c81fa2bb9c8594cf5f170181267a74cde7e975ba12e964813a42c163"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fcitx-table-cn-erbi"

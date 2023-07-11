@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "13.5.3"
 
-RPM_NAME = "libOgreMain13_5-codecs-13.5.3-1.5.aarch64.rpm"
-RPM_HASH = "48a0eed45f268f161d678e9fc2c21cf6d660b5aedf58c98299ed78c410c72b6d060f6d63a7d33253ee6885e6d76047c03b3afebcb8064535250adc97fdb9bc15"
+RPM_NAME = "libOgreMain13_5-codecs-13.5.3-2.2.aarch64.rpm"
+RPM_HASH = "366d1db1f66df4ac392d072aaa77f9908daba85e2e064eea8690f859b13b8251e9b3d02bd9015ccd9650dbd268f1c3380c13180a4e70e509164b586209283599"
 
 RPROVIDES:${PN} += "libOgreMain-codecs \
 libOgreMain13-5-codecs"

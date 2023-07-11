@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.3.11"
 
-RPM_NAME = "python39-columnize-0.3.11-1.6.noarch.rpm"
-RPM_HASH = "eed29704619f9d6ebcfcf75955bd3252ac5f2929ead36b38e26ab08cbddf71ba3aa72a6097f82b590645a48e98155bbc1dedfb47f6463be16c19fb68418bc207"
+RPM_NAME = "python39-columnize-0.3.11-1.8.noarch.rpm"
+RPM_HASH = "9814812561bda35e03bc488de132365815d142e3ed894fc3d01d525d84646d317991dbfcd9472b815203925d95b9f4c52acd86559a5ca7b55dc44b84e22a9e24"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-columnize \

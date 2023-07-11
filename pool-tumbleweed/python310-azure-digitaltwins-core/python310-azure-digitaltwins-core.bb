@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "1.2.0"
 
-RPM_NAME = "python310-azure-digitaltwins-core-1.2.0-1.3.noarch.rpm"
-RPM_HASH = "f4e5b127c946fac83d22faf617aac3efb3d6327f1801a3ca05fa497e4b6e6733d879fdf528cd4a6eac72a14078bdd54c09f2920960c75185e9cdbcd399007c4d"
+RPM_NAME = "python310-azure-digitaltwins-core-1.2.0-1.5.noarch.rpm"
+RPM_HASH = "add9db08f75a780442d0ea77b9a380eba5014f3541ab8862e92f25c7ae639280c66d2c18aa0517678d6da6720cd46daedb2f6056a1e11c7db17f68568f93a873"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-digitaltwins-core \
-python3.10dist-azure-digitaltwins-core \
+RPROVIDES:${PN} += "python3.10dist-azure-digitaltwins-core \
 python310-azure-digitaltwins-core \
 python3dist-azure-digitaltwins-core"
 

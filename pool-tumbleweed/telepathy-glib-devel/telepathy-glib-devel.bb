@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.24.2"
 
-RPM_NAME = "telepathy-glib-devel-0.24.2-1.10.aarch64.rpm"
-RPM_HASH = "3e7c0dee1022af764f77789f600eeef3cf666871046a1ae063d900134781296c1a2556a6567e0b10241204d7c05139f42df459806097e7069b845cd7f2d1f15b"
+RPM_NAME = "telepathy-glib-devel-0.24.2-1.11.aarch64.rpm"
+RPM_HASH = "c73734a7994170a74fddf84941aefb5d63d05e3e3ed04f9796334df37543cf4a92e522be31e48317c9b17104b88b652eed85180edd262cb5a2a3d50d71faeb0e"
 
 RPROVIDES:${PN} += "pkgconfig-telepathy-glib \
 telepathy-glib-devel"

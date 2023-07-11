@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.7"
 
-RPM_NAME = "python39-pyjavaproperties-0.7-2.15.noarch.rpm"
-RPM_HASH = "f76551ade00f286b2490cb4a0a0aa80b272af35d07ebc0d54d3b81ef46a50f833fd539fb2278044941dbb13491f393c1c005e6a57b4055e7f175b5f1c2cadce9"
+RPM_NAME = "python39-pyjavaproperties-0.7-2.16.noarch.rpm"
+RPM_HASH = "a7c3d559f22e8dacfd950948e4e88fad6f6661e2aa097216d17b943c845b2ce3b9b98313c6e88a8313395e80b9db9aab840949382bc91667b099aab708d7dadd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyjavaproperties \

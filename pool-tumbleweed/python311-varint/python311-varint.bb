@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "1.0.2"
 
-RPM_NAME = "python311-varint-1.0.2-1.12.noarch.rpm"
-RPM_HASH = "910947985e6374a74753399410c95ddbacf2b69d0b2e53b6006088e6f36cf32f65216f4ca91f1a045bfb82f5541493815778ff633ef0590a3b63645ddc089e6c"
+RPM_NAME = "python311-varint-1.0.2-1.13.noarch.rpm"
+RPM_HASH = "873073e2c28dcd401e385d5960bcc5cabc37f5e0ebae3ee1818633d0ce30154fd4e2afb71febaa99a472d0a6c01f8856703cfaf75241ed91059c2d27dc66dd5a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-varint \
+RPROVIDES:${PN} += "python3-varint \
+python3.11dist-varint \
 python311-varint \
 python3dist-varint"
 

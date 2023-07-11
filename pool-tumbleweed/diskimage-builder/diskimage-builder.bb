@@ -12,12 +12,12 @@ LICENSE = "Apache-2.0"
 
 PV = "3.26.0"
 
-RPM_NAME = "diskimage-builder-3.26.0-1.2.noarch.rpm"
-RPM_HASH = "25b83d506f7ce7e83998a964922b3fdd5930d1597582ad3d59d3b70028a4626907778b2b5ec12167b5ec3d65f7664e496613ce9f19ce93523886a32546116aa5"
+RPM_NAME = "diskimage-builder-3.26.0-1.3.noarch.rpm"
+RPM_HASH = "b23d9c79972069f9ea4e7675b7c8a412b45b7de3664d0b1de7fc8d1aacb38c1fc353d71668cd82eb2820e239f5a689bdc6652c385cf64a6820c839b8248f4c84"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "diskimage-builder \
-python3.10dist-diskimage-builder \
+python3.11dist-diskimage-builder \
 python3dist-diskimage-builder"
 
 RDEPENDS:${PN} += "/usr/bin/bash \

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.4.5"
 
-RPM_NAME = "ddrescueview-0.4.5-1.7.aarch64.rpm"
-RPM_HASH = "146a1a48d3ba5c9f65c3419fc3e78348f04d2724950bc614d1682a882defccbc666e11f511ea77684b7a55d21737d8fa2e7224cedf52197573f551646d979af3"
+RPM_NAME = "ddrescueview-0.4.5-1.8.aarch64.rpm"
+RPM_HASH = "1db1deacf73dffde173942f84273bb732bbb78972658b3a374e353c8db5aca333d23632a06f37a4c38925d660b2392c17d2f82e1ea7d0e3288b73b8e4511c4a0"
 
 RPROVIDES:${PN} += "ddrescueview"
 

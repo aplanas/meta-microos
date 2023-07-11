@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.7.2"
 
-RPM_NAME = "ypbind-2.7.2-2.11.aarch64.rpm"
-RPM_HASH = "27454365e607bd194db392f9b5b34746640799b1f7307e06091a4806365cd54ec681871deae58815f81ed55f7d7f72ad08aebadf738891041b2c07a4bd8b2d2c"
+RPM_NAME = "ypbind-2.7.2-2.12.aarch64.rpm"
+RPM_HASH = "7db3eff8e77ee2a09d2407ec8a0f1ac57e1888195e91b32c852c3974c51bccc0265ca80fc7ba1f843fcd7d9a97f4817e121aeb01cf5f29bfd6109d48650a2719"
 
 RPROVIDES:${PN} += "config-ypbind \
 ypbind"

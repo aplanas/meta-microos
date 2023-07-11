@@ -6,11 +6,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "9.24.61"
 
-RPM_NAME = "python3-kiwi-9.24.61-1.1.aarch64.rpm"
-RPM_HASH = "5c0ad7f45582d1b4c677dda6eef7bb0875b92973baa9e08671a2c3ffcf662e219c72296794ca0c2f90d7f2873989428fb9cd01455717628aeab926860b486e4e"
+RPM_NAME = "python3-kiwi-9.24.61-1.2.aarch64.rpm"
+RPM_HASH = "2f6a3ec402ddad92d251e622689e0eb165c6ab42594a733b1609145d1642cb3078a879b39a82d19d286711ebb083593bc8fc66a48ff8c5133e9c2fc435ef411e"
 
 RPROVIDES:${PN} += "python3-kiwi \
-python3.10dist-kiwi \
+python3.11dist-kiwi \
 python3dist-kiwi"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

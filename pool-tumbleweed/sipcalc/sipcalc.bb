@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.6"
 
-RPM_NAME = "sipcalc-1.1.6-2.23.aarch64.rpm"
-RPM_HASH = "a2b2b7e480a88ebba56d1e1c4a787a51c0babea37efbc7696d8cf147636d00b33562ee5bda37ed11abf5458cbce47042bf1278c7d21fbeff1ed7b6f3fada9a85"
+RPM_NAME = "sipcalc-1.1.6-2.24.aarch64.rpm"
+RPM_HASH = "afd8ddea1d1856243b539cbb9e10177f4bd14cdd506873d97e28894903d4c9b11b34627bba37b38f6a6ebbceba2c3d8004cb0ffca1ebc5c6963b0b2dca1fae40"
 
 RPROVIDES:${PN} += "sipcalc"
 

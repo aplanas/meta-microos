@@ -5,10 +5,10 @@ DESCRIPTION = "Bluefish is a HTML editor designed for the experienced Web design
 It is based on Gtk+."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.2.13"
+PV = "2.2.14"
 
-RPM_NAME = "bluefish-2.2.13-1.1.aarch64.rpm"
-RPM_HASH = "328a193ea0445c8a975e4710606c34bebac3aa68992205c1c93995060ae6ca1eedf9d7a102b40f5f8e39abe4335c53137ca36a597f4e4d03cfc7c11292fe00c5"
+RPM_NAME = "bluefish-2.2.14-1.1.aarch64.rpm"
+RPM_HASH = "29a4d96a578646ca7eb578d6fd1882ae8df33dd4de86b63ed5305329b203c5c7b41a35c20ebea56043f384acf3ffa1376ccb9ca6a013a2d5303b4c59494cf6b6"
 
 RPROVIDES:${PN} += "bluefish \
 bluefish-unstable"

@@ -5,10 +5,11 @@ LICENSE = "GFDL-1.3-only & LGPL-3.0-or-later"
 
 PV = "20221101"
 
-RPM_NAME = "python311-libevtx-20221101-3.10.aarch64.rpm"
-RPM_HASH = "5b109d1e1439b677545e3c08586f1babe9ee958d57bf78f807fdea39a16e7bcd33510cad65fb4f44813778223f1ac9965476d7170c56729bd40fd19f6bd68898"
+RPM_NAME = "python311-libevtx-20221101-3.11.aarch64.rpm"
+RPM_HASH = "bc9d7dd6584dcbdec3d372109efd0c6de0e1901a9343dfb528baf1c58d8af6377421f088a77b991eba5b3e91450669bb34c3bc61a8441ae7a4e2fe4bb2e9fe3e"
 
-RPROVIDES:${PN} += "python311-libevtx"
+RPROVIDES:${PN} += "python3-libevtx \
+python311-libevtx"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libbfio.so.1 \

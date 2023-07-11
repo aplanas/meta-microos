@@ -5,8 +5,8 @@ LICENSE = "Unlicense"
 
 PV = "2022.10.31"
 
-RPM_NAME = "kakoune-2022.10.31-2.1.aarch64.rpm"
-RPM_HASH = "1b84c500c15decba53ec8ee13705b727d6668327ebfcb57a8a91ba48b6677fe73db928db392dfc6ae1da418940aadaad4cdfaf8092d67a1a1cdb4299368c39e0"
+RPM_NAME = "kakoune-2022.10.31-2.2.aarch64.rpm"
+RPM_HASH = "ce109738b7788dbc118ab190737821011e169331246c85a49091054f635cca20af95f2b68f14f5e48eaa3364826ac1aa9ef26f0d1bdbacb4de30d12cc8ea367b"
 
 RPROVIDES:${PN} += "kakoune"
 

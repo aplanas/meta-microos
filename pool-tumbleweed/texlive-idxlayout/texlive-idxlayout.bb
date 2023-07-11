@@ -7,10 +7,10 @@ index-related options and commands of the KOMA-Script and \
 memoir classes."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.4dsvn25821"
+PV = "2023.208.0.0.4dsvn25821"
 
-RPM_NAME = "texlive-idxlayout-2023.201.0.0.4dsvn25821-52.1.noarch.rpm"
-RPM_HASH = "b1a01628ab0109a424c5a96a4af77b88c61c29f3521e0bfaa2a450af30e43318ed955e0e48f4f33fded4b47e1ad800143cb9d833cd2413c28f7317097a3574f1"
+RPM_NAME = "texlive-idxlayout-2023.208.0.0.4dsvn25821-53.1.noarch.rpm"
+RPM_HASH = "71c119619a1a3440af97f29b7e61cd5db33809a0d62d8287276df9b279cf00cfd5eb06bcfbe91997ecd080bd5f9ef87d2671e2ee359da907314c77c0f4293b0d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-idxlayout.sty \

@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.2.0svn51177"
 
-RPM_NAME = "texlive-embedall-doc-2023.201.2.0svn51177-53.1.noarch.rpm"
-RPM_HASH = "9673496cd0e3af1f16ddfe0fedb820130250a251d8933bc48f58b0d1557a766298075a0a107f04e67a9473ea14aa32304ca9009daa92245a560b1a1dc2fbd0fd"
+RPM_NAME = "texlive-embedall-doc-2023.201.2.0svn51177-53.2.noarch.rpm"
+RPM_HASH = "0b56edb57ac57baa8dd94b88351bd36251eaf47ac4df343583d39bfd7feae9cdc9c9befa0f71df8cbb614356402b4fd919f90214bd1a21d2acded00502cde206"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-embedall-doc"

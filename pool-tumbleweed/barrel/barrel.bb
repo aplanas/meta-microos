@@ -2,10 +2,10 @@ SUMMARY = "Tool for storage management"
 DESCRIPTION = "barrel is a command line tool for storage management."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.2.0"
+PV = "0.2.1"
 
-RPM_NAME = "barrel-0.2.0-1.3.aarch64.rpm"
-RPM_HASH = "a81baebda7182b2061a97bebb3896582d3d670af6141ab4e06d13d38f3265e2cde6a0eced0497d017e9cb233967caa866a430e7b21da4d4d19f85c66682c8585"
+RPM_NAME = "barrel-0.2.1-1.1.aarch64.rpm"
+RPM_HASH = "e7ef38f01a9ebf4b1cf74302ffc511dc140a38b555ca3f08b2542fc8e484f5472b8e067885dbb412e028be4943425f9b5e3207d21704208b256dc94c43f9c41e"
 
 RPROVIDES:${PN} += "barrel \
 config-barrel"

@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.13.1"
 
-RPM_NAME = "python39-ufoLib2-0.13.1-1.3.noarch.rpm"
-RPM_HASH = "dd6d791a5e63fe2028a99b2c6d7cc675321cc52eaa85d49f6bf2f198b48fb1080a22de56a1edc32a154af764a7d703fdaf4ebe5b256bd3b3afb919804d339cc8"
+RPM_NAME = "python39-ufoLib2-0.13.1-1.5.noarch.rpm"
+RPM_HASH = "169d6ba44b60c98e306ef3b042d567d8450769918891680329e8de4138b8f371730a19483a73f2ab935c859ddbcaf760a77821ee2333cd971d794f889fbd2e48"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-ufolib2 \

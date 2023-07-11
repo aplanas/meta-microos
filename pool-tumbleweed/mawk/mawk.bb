@@ -6,10 +6,10 @@ POSIX 1003.2 (draft 11.3) definition of the AWK language and additionally \
 provides a small number of extensions."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.3.4.20200120"
+PV = "1.3.4.20230525"
 
-RPM_NAME = "mawk-1.3.4.20200120-5.3.aarch64.rpm"
-RPM_HASH = "891f263a7ad98975df99aec7acb6c6803a9d7efe04cc8ed799c114ede769145654f1f593e3abb8b6c1c4c5fad792566236f777476372322085ae6e4d74b2e60a"
+RPM_NAME = "mawk-1.3.4.20230525-1.1.aarch64.rpm"
+RPM_HASH = "2125237a5dc816facbea9e5a522fb3ddb0e520036dde0650d521b26bc576aab970f20bddc1ab37a0e96fa84f58b6af20386c64a6bcf5d6320aa7e0a700039abb"
 
 RPROVIDES:${PN} += "mawk"
 

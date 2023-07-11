@@ -6,12 +6,11 @@ LICENSE = "ISC"
 
 PV = "2.16.0.0"
 
-RPM_NAME = "python310-vcversioner-2.16.0.0-4.8.noarch.rpm"
-RPM_HASH = "35cc9e97ed3531a6ce1bdaff9f78a968e74217c36fb50a2f47195ecaff76bf5359e22854a7c90740d592b281688831ad88b39cc3c91564bdfc6f08c3b1de6290"
+RPM_NAME = "python310-vcversioner-2.16.0.0-4.10.noarch.rpm"
+RPM_HASH = "38d4bfbbb3c14a7a0749d1c8e593fcd5aa71811db6277cf829aa5ef981996f3db44f9ea691153fa34a69eb89fc13ed4056396e0644fd3853eeb257a6e69412f3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-vcversioner \
-python3.10dist-vcversioner \
+RPROVIDES:${PN} += "python3.10dist-vcversioner \
 python310-vcversioner \
 python3dist-vcversioner"
 

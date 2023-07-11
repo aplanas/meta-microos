@@ -8,12 +8,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.5.3"
 
-RPM_NAME = "python310-patsy-0.5.3-1.3.noarch.rpm"
-RPM_HASH = "8b6c5fd99d74a29db15d805b3259749fd5477f59d20740b1a6a3700c1e9b7f516ce38e61bdde8c514cd4f6345ef0b2dc8a87f00040da6fef057365ef95c61057"
+RPM_NAME = "python310-patsy-0.5.3-1.5.noarch.rpm"
+RPM_HASH = "34e5d39df3b54d691c06ea2f3174ea13560cc9631008b37195e95743f0193a13630e9af8c5c7dc3181509892dc10771a60c1311d2f7c21893273b38d0b1cec9d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-patsy \
-python3.10dist-patsy \
+RPROVIDES:${PN} += "python3.10dist-patsy \
 python310-patsy \
 python3dist-patsy"
 

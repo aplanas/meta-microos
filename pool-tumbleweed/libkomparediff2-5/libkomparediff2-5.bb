@@ -2,10 +2,10 @@ SUMMARY = "A library to compare files and strings"
 DESCRIPTION = "A library to compare files and strings, used in Kompare and KDevelop."
 LICENSE = "(GPL-2.0-or-later & LGPL-2.0-or-later) & BSD-2-Clause"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libkomparediff2-5-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "223e30b7c45b21bed668f58666080bc12820f53600b712669aa45da8d843c3c898a38749e3fd92d861013bcf36a3d07c952782874da8fe8729ad0e66123d1dc7"
+RPM_NAME = "libkomparediff2-5-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "c639747112f0495c6797c8abb8f208a72e1aad7268bd91bce22b6399bc59b16d4f067603692b2a3a4d2e1cf502bf18962c65992be3665e92314c074dcb17bf2c"
 
 RPROVIDES:${PN} += "libkomparediff2 \
 libkomparediff2-5 \

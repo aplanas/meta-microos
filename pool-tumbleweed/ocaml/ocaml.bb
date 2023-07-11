@@ -9,8 +9,8 @@ LICENSE = "QPL-1.0 & SUSE-LGPL-2.0-with-linking-exception"
 
 PV = "4.14.1"
 
-RPM_NAME = "ocaml-4.14.1-1.3.aarch64.rpm"
-RPM_HASH = "09977dcc0e3fca8665503ffb20755fad46ebdd090d040adb1cb477420c11c715ea19a18f4d70221e1596f0f420c64f7d36b2f0449c090519f33db1b7b8f1afc2"
+RPM_NAME = "ocaml-4.14.1-1.4.aarch64.rpm"
+RPM_HASH = "3acbed33ed0154085795e508401864c922480e3acc6d1e7bc8f738781f0b53de60e6047a3dc80f808a2ab7484816d1590b1a54da049fd64c6609c01552a53310"
 
 RPROVIDES:${PN} += "libasmrun-shared.so \
 libcamlrun-shared.so \

@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20221024"
 
-RPM_NAME = "libmsiecf-tools-20221024-3.5.aarch64.rpm"
-RPM_HASH = "ac6f477fcf8b0698b3411fe254e76dafe5c22cb07576530eef9a22927245a5041a86bcd6e661b5d64eae1183e6ba78982e78020d9a5988eef0b13e2fa893854c"
+RPM_NAME = "libmsiecf-tools-20221024-3.7.aarch64.rpm"
+RPM_HASH = "5e17a85f6b66365dfa4ef92491f3e94e4fdb3810a978dd3eb54f8c1f10585c79b788bb28cfe72028ade4ad78b5f77b2624e81cd39a84fcf233d5a181137cb823"
 
 RPROVIDES:${PN} += "libmsiecf-tools"
 

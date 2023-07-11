@@ -7,11 +7,11 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.8.6"
 
-RPM_NAME = "torrentinfo-1.8.6-3.7.noarch.rpm"
-RPM_HASH = "c9923c017464be1f325c8b42ba26aec26d64db84332584684e3aac392ed2464e2c768d893e693efde336ab51361e5a9e69f758e4fe772cf84171e981ab94bd5a"
+RPM_NAME = "torrentinfo-1.8.6-3.8.noarch.rpm"
+RPM_HASH = "82b7f155983b33aec0f40a3bd9350e5facab9666e544139419fb37f721a0cc467d7b173a02ec832c4c41f8366854814d34d5fad102874b1c62fab04ab386781d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-torrentinfo \
+RPROVIDES:${PN} += "python3.11dist-torrentinfo \
 python3dist-torrentinfo \
 torrentinfo"
 

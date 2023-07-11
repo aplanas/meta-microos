@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.7"
 
-RPM_NAME = "libpplite1-0.7-1.9.aarch64.rpm"
-RPM_HASH = "7cee8c20e91e0ad6e893311bb6b2cb9f22ba11cb7122fb045bbe9ca0878f4b85f55a90b5747f000664ed8b20e6cd4cd162d5160d343cc096bb24c65af7af0991"
+RPM_NAME = "libpplite1-0.7-1.10.aarch64.rpm"
+RPM_HASH = "63237d5a755b8d0e0b2bca375ba87a519d2c500cbf996b6ae4bac0b5e13322c9939b4360e68245eae90f2b5c15f51390227b64f6ce3cae598783deaf2ae4b7ae"
 
 RPROVIDES:${PN} += "libpplite.so.1 \
 libpplite1"

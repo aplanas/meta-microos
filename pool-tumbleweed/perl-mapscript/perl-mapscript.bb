@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "8.0.0"
 
-RPM_NAME = "perl-mapscript-8.0.0-2.5.aarch64.rpm"
-RPM_HASH = "14fde29f921308c0406cb1b05fd7cd910e95648cfeda77072688f2742a75ac5fb8f1030a2524bb57c6b45de05cc5cdab182292fce3424f035562cda2a1da7dbe"
+RPM_NAME = "perl-mapscript-8.0.0-2.7.aarch64.rpm"
+RPM_HASH = "01ceedb92f9795504baa22b8c02e322e447b7b6d548bbfc37242a91d6591894932016fa03c30a3a89721b35f77048bbac92e88d70a5855d801ed0ed71d974bcd"
 
 RPROVIDES:${PN} += "mapserver-perl \
 perl-mapscript \

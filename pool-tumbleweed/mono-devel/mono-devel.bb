@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "6.12.0"
 
-RPM_NAME = "mono-devel-6.12.0-5.3.aarch64.rpm"
-RPM_HASH = "2df7872c7c293ca8ec6e62f076185353d00cbf99666f9bd6faef7c2a86b81e7775b7300bc6f726807364107874c0e8734eeb02e0ae136fa320029b09168783f1"
+RPM_NAME = "mono-devel-6.12.0-5.4.aarch64.rpm"
+RPM_HASH = "07b60562e02a51f5bc1eb8deb902e4edeb1223b53468d99171b7ce76a86751a33e39bde43f62a0929c8d7ca507ee79bb14c3b635fc4c7dbdaa9296ff9232a20d"
 
 RPROVIDES:${PN} += "libmono-profiler-aot.so.0 \
 libmono-profiler-coverage.so.0 \

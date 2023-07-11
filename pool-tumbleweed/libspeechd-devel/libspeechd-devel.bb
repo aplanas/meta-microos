@@ -11,8 +11,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.11.4"
 
-RPM_NAME = "libspeechd-devel-0.11.4-1.3.aarch64.rpm"
-RPM_HASH = "86e9d3d13122ff2de6636365e2ab88b749df122a92b7e834c0e830229d9035c1ee4a94d10337a7423a5791b76e2c553b1e0dd14e88882f4b849c48cdc978f88a"
+RPM_NAME = "libspeechd-devel-0.11.4-2.1.aarch64.rpm"
+RPM_HASH = "4d9a3ac4aa20cf022e48b265946d0498c299f55c78e1e69ab94cc129d7cb0a16a0fe66c0ccafc6b1b428e526a1810719a5207e05bc3766b0b3c144acd40ac14d"
 
 RPROVIDES:${PN} += "libspeechd-devel \
 pkgconfig-speech-dispatcher \

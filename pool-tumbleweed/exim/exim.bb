@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.96"
 
-RPM_NAME = "exim-4.96-5.1.aarch64.rpm"
-RPM_HASH = "8a94ffbdd10b1306f975bbe0c484bd275fa8c91a54f4ea1af67f455a06ad40101306ff55e7fc2fe6d2e12171d2d854b03d2c7ee37400f026208e356341610b7f"
+RPM_NAME = "exim-4.96-5.3.aarch64.rpm"
+RPM_HASH = "6c4b45c5db1c317e763b82dcad471aab399fa5680f37c78e90df748b0fad0b9da33c7dbb15a7998b7182deb67d0709ad476737f92b94e0636522a45cf63eaa6a"
 
 RPROVIDES:${PN} += "config-exim \
 exim \

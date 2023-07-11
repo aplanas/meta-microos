@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.3.1"
 
-RPM_NAME = "yubico-piv-tool-2.3.1-1.2.aarch64.rpm"
-RPM_HASH = "4bcf8d51fcdd587236eb76583dbd7cef72de954a9b501b4cb99b5b7baf068e9e9d192958a338dfb0512d3e2912ee26121254b5a605650c0b38691e01791d34a4"
+RPM_NAME = "yubico-piv-tool-2.3.1-1.3.aarch64.rpm"
+RPM_HASH = "2a5a270e107a0cdecb0ed7292e0b235ba6bc57c624cfc2831fd45548ce495793a0dc2ad8f6b479fa19a7b5d5a2b62338e3f934ac4ec647a7cd8d890da539bdd1"
 
 RPROVIDES:${PN} += "yubico-piv-tool"
 

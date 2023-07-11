@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "2.13.3"
 
-RPM_NAME = "python311-zarr-2.13.3-1.4.noarch.rpm"
-RPM_HASH = "cb8f49db8a724bd991a5f7b970463ede8f69da546f1ca0b22f54bf4e7b32f9adc6ee83151a77af83ab46821310c9e3ef9044a545dd19f9e05dfe61e03b2a78ae"
+RPM_NAME = "python311-zarr-2.13.3-1.6.noarch.rpm"
+RPM_HASH = "4ef62ff2c81078e05296127018e5a484109e015e7f79796fb034b7c17377792e3561459ab6b5851d2e8ae8e4ff2c632304582c816d8fbb6f1abe885c1b6102cc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-zarr \
+RPROVIDES:${PN} += "python3-zarr \
+python3.11dist-zarr \
 python311-zarr \
 python3dist-zarr"
 

@@ -8,12 +8,11 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.9"
 
-RPM_NAME = "python310-langdetect-1.0.9-2.1.noarch.rpm"
-RPM_HASH = "8a6cf3845b5fb47a3d4e8c7152bf06418fc9844c3a4a8371490b232586830ad9dc5cc118ebadd2d35ab9ba92ad753cdb86acd9fcdb906dd329141c24e0b603a4"
+RPM_NAME = "python310-langdetect-1.0.9-2.2.noarch.rpm"
+RPM_HASH = "4f010d80b68f14306bb09f1a6b796e580c8efd4db726760526a520ad0543c8a4ddf67db2f0f56d53d887451959a6caf12969a2b9919579033632a27e5d830ab0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-langdetect \
-python3.10dist-langdetect \
+RPROVIDES:${PN} += "python3.10dist-langdetect \
 python310-langdetect \
 python3dist-langdetect"
 

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.42.10"
 
-RPM_NAME = "gdk-pixbuf-lang-2.42.10-1.4.noarch.rpm"
-RPM_HASH = "6bae178a1ad77e41467f07bbafc7b6da13c0143033a1818a1acdc26a755987565d697ac0a3af59bd1df2c9ed3a7b894c2628eda3d1dbddfac15fe47aea96d975"
+RPM_NAME = "gdk-pixbuf-lang-2.42.10-1.5.noarch.rpm"
+RPM_HASH = "d7c989c3643eb4f72207d97c24470e23847cadb6d5cae0297993de5eb9ca5d54bf4f5c566b165e46f785796a5457be8fe2c0ed209136cb86f11f998fb28f9d42"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gdk-pixbuf-lang \

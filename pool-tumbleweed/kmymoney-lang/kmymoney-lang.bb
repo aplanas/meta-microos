@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
 PV = "5.1.3"
 
-RPM_NAME = "kmymoney-lang-5.1.3-2.10.noarch.rpm"
-RPM_HASH = "0332bf2eb2b14251a89f8671c1462f5f7d7c5a9500875ade366c3515a0cc799eb46a8b48b865c69e56e4fe50c561e58be4f18857dd6ff8d8efe18d68b86d0ed9"
+RPM_NAME = "kmymoney-lang-5.1.3-2.12.noarch.rpm"
+RPM_HASH = "38462095293e45429bbec235eb5e721cb73ab80d27f9195ed9ee0c01d23efdb108ebf61e8b6efa2cbeaa8ff62aa36ebf6002db10e526caae9af9320e3b834567"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kmymoney-lang \

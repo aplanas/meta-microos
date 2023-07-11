@@ -6,10 +6,11 @@ LICENSE = "Apache-2.0 & Python-2.0"
 
 PV = "15.0.0"
 
-RPM_NAME = "python311-unicodedata2-15.0.0-1.4.aarch64.rpm"
-RPM_HASH = "f4642649b6b03efea476be611e6db62a11997d5c99c187fbb8504b13305417cdeb97ebffdadcf698c1d8c26f0836068906b0e5e6c133b3a47f48010e0b7f759e"
+RPM_NAME = "python311-unicodedata2-15.0.0-1.6.aarch64.rpm"
+RPM_HASH = "9c3a19d553288f9467d5159dfb9913761fb7d9d0d7c998d2622f38bcd769e78b73dde77a962e4387ccf7ef99e0f3f4cdd5def0b919f27b1cf94b37ada6f7d690"
 
-RPROVIDES:${PN} += "python3.11dist-unicodedata2 \
+RPROVIDES:${PN} += "python3-unicodedata2 \
+python3.11dist-unicodedata2 \
 python311-unicodedata2 \
 python3dist-unicodedata2"
 

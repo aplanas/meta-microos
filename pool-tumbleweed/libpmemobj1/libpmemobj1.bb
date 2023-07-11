@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.11.1"
 
-RPM_NAME = "libpmemobj1-1.11.1-1.8.aarch64.rpm"
-RPM_HASH = "896558d13f7e1ac7eab6217922edd280871b4194e9dd06d95ce06eed4474d6c2a977c11e6cb62ba4918e21116843288b521d80268610a389c672e990f36b67b2"
+RPM_NAME = "libpmemobj1-1.11.1-1.9.aarch64.rpm"
+RPM_HASH = "fb32f0af22af4475ca8e248abb37841248b58901fcd541c011c9fec2d29e4456c69ae4157d66cabbc2fd15b7758dc2a685378ae185d863ae2eb217d3bdeccca2"
 
 RPROVIDES:${PN} += "libpmemobj.so.1 \
 libpmemobj1"

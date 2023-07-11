@@ -11,8 +11,8 @@ LICENSE = "Artistic-1.0 | GPL-2.0-or-later"
 
 PV = "1.3"
 
-RPM_NAME = "python39-text-unidecode-1.3-2.1.noarch.rpm"
-RPM_HASH = "72248a4215258572b81a716e7d54b4250ef830776fcd662de5ceb92661b44a2610baa1cc3c810f2fc267a1b1befca9f1439ddb6d87a4cc99fc72f0afd5cb713d"
+RPM_NAME = "python39-text-unidecode-1.3-2.3.noarch.rpm"
+RPM_HASH = "de53ee4e6d44cfe7de98f6305af94a217c6f82f6665c89f61c8419a6210810114117b664f5bfd8ea124d976a7c3222c798a652f55eaee9b4330df1251cbc02e3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-text-unidecode \

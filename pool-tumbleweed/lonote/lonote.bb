@@ -7,12 +7,12 @@ LICENSE = "Apache-2.0 & GPL-3.0-only"
 
 PV = "3.2.13"
 
-RPM_NAME = "lonote-3.2.13-3.7.noarch.rpm"
-RPM_HASH = "007e2c7ddf2bc79f6e39ce91cd0d2ee0054055d791ef49f28daf002a18b4ac982d7354968cfe1cc5926222fd1195c315acc3afe6b267c9f9a4fde0ed5c01c6d0"
+RPM_NAME = "lonote-3.2.13-3.8.noarch.rpm"
+RPM_HASH = "2077826401cdd80b5f7743493051e34f1588ed60b1ca230e5e6ee146807abe01846872b06121ebd5701f1cae60d8a6dcd9e7cbd7c97c47e3cb07cfb3bc3e8725"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lonote \
-python3.10dist-lonote \
+python3.11dist-lonote \
 python3dist-lonote"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

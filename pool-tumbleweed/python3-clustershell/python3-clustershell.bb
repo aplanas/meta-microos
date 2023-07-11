@@ -4,12 +4,12 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.9.1"
 
-RPM_NAME = "python3-clustershell-1.9.1-1.1.noarch.rpm"
-RPM_HASH = "637594b2399dad40ef7536a86c0df657315d12e0ca6492f80acccc1e062c502a215629ad4e542acd841836e39187e90e30bf12b268d1d3737ea5219530c40b6d"
+RPM_NAME = "python3-clustershell-1.9.1-1.2.noarch.rpm"
+RPM_HASH = "7423444278296b5c5a4501a5902912686df7f8ba8ad95afd567ab83de2b8d5a36cd06078844e7eb9852e3178728c71189033122b6bf463e2aa3a964112148e66"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-clustershell \
-python3.10dist-clustershell \
+python3.11dist-clustershell \
 python3dist-clustershell"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

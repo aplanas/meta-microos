@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.2.0"
 
-RPM_NAME = "python310-gwyfile-0.2.0-2.9.noarch.rpm"
-RPM_HASH = "520c0efad1ba17baddc16c608e4bb49aad3625635de4faafb4caa6e726c613814a031a2fe045812be9f130623a591b71734806e0a5c27b5364eb6278eb0bd2e0"
+RPM_NAME = "python310-gwyfile-0.2.0-2.11.noarch.rpm"
+RPM_HASH = "aa7f72d643589cd1f2a7ab4c16f6694b9df067be24b90dd4f38b6f98a918a67473defaa8f01625baf4005c83633ce1b39322a030decb27c7fb7b34d04c338ea8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-gwyfile \
-python3.10dist-gwyfile \
+RPROVIDES:${PN} += "python3.10dist-gwyfile \
 python310-gwyfile \
 python3dist-gwyfile"
 

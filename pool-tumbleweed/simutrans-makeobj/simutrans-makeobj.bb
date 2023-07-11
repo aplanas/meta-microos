@@ -5,8 +5,8 @@ LICENSE = "Artistic-1.0"
 
 PV = "123.0.1"
 
-RPM_NAME = "simutrans-makeobj-123.0.1-1.9.aarch64.rpm"
-RPM_HASH = "417ef666b58ee52d148f941851c06e0291498a24100dbdc4c17940a5c89bc1ed42bae32387f618efed7578562140413bd17e6e7ef49a823f9b83332bf00603bb"
+RPM_NAME = "simutrans-makeobj-123.0.1-1.10.aarch64.rpm"
+RPM_HASH = "d4944d346fc4cda8efcc3318f87a25db86b538528d9d7a709959f34699ca97bfddf396360180e25d801fb995f1663560a59e9380bf0e616d4a45947f404a915b"
 
 RPROVIDES:${PN} += "simutrans-makeobj"
 

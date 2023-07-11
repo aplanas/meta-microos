@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "2.7.1"
 
-RPM_NAME = "python310-pyjsparser-2.7.1-2.1.noarch.rpm"
-RPM_HASH = "9f19b3156b42e3450796a36a1cf42f99b23890ca811934ac4772b578df367d2db913f3b188b56853b06ba403b57b2b08cc23991069f64fa736dc25737d88bb31"
+RPM_NAME = "python310-pyjsparser-2.7.1-2.2.noarch.rpm"
+RPM_HASH = "2ff326a1b7ce64c8fcbec2fe882d97546ba89c124e289d828d3a2e6b91265e1b94fc74757edf03d02ca8dd18fb03051c2cffb49005579ff098065f41d393e5ec"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pyjsparser \
-python3.10dist-pyjsparser \
+RPROVIDES:${PN} += "python3.10dist-pyjsparser \
 python310-pyjsparser \
 python3dist-pyjsparser"
 

@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.7.0"
 
-RPM_NAME = "python310-django-oidc-provider-0.7.0-3.4.noarch.rpm"
-RPM_HASH = "b4a3329726ebfd5eb6ee011437b9e1451a1ac9078079f2b01c5b0639629c64305ad5423dcd0b0368118dc28f713f33c0ebf4a7cb554bdf0e9b0742ed7f8539c5"
+RPM_NAME = "python310-django-oidc-provider-0.7.0-3.7.noarch.rpm"
+RPM_HASH = "b052c18f3fcd329c9d472e97f202c0fc188b9d8ccc43b68e80585374f620ba11e52dd5b14f201544f0ac7704904d0997cd3d49017c1cd2243f39eacf918659c1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-django-oidc-provider \
-python3.10dist-django-oidc-provider \
+RPROVIDES:${PN} += "python3.10dist-django-oidc-provider \
 python310-django-oidc-provider \
 python3dist-django-oidc-provider"
 

@@ -3,10 +3,10 @@ DESCRIPTION = "A clipboard manager for Wayland with support for \
 persisting copy buffers after an application exits."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.6.1"
+PV = "1.6.2"
 
-RPM_NAME = "clipman-1.6.1-1.9.aarch64.rpm"
-RPM_HASH = "ab974efb21ba74e0de7a3d418e20c38635a177f34f507c77b962becdfb8178f5099773807d8e1bc364db3f9bf998e5c4708ca66b07a32c473247fbba03805bf8"
+RPM_NAME = "clipman-1.6.2-1.2.aarch64.rpm"
+RPM_HASH = "0a1c8597440ba3e841fa2a057c52a5d71e5e45737a8fb465aff786f08c3896487d02963fa56ec8a221594c79b457589bd54c1fd6c365282125047ac8f9277779"
 
 RPROVIDES:${PN} += "clipman"
 

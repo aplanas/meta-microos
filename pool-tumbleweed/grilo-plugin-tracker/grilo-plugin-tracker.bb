@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.3.16"
 
-RPM_NAME = "grilo-plugin-tracker-0.3.16-1.1.aarch64.rpm"
-RPM_HASH = "7bcde66d941931d1f7f1dc2c7997b339adf0dafa4d27458567918758c5ef51d5e33f7d34db36d6e43207b2d09c12c0ab1168b03da324bc62b15d305dbebd1f42"
+RPM_NAME = "grilo-plugin-tracker-0.3.16-1.2.aarch64.rpm"
+RPM_HASH = "93a0af9cab85b1052f504e9f8f07d5b544cf1d5c0b570422af87ed3d8bbbd6093207985b87634289d1c4b88330b4bcfbcc2063d348c5e6b1c4a3933ebe54424e"
 
 RPROVIDES:${PN} += "grilo-plugin-tracker \
 libgrltracker3.so"

@@ -11,8 +11,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.1svn43864"
 
-RPM_NAME = "texlive-xevlna-2023.201.1.1svn43864-52.1.noarch.rpm"
-RPM_HASH = "96c8ceb4d8b17ea37d8e940ba58bcd87448ec639a2e0797e4f8679c5ba530db321c7c564718972268a87a0d82bc564e5380d35de74151e7d1423f53bfc618ce1"
+RPM_NAME = "texlive-xevlna-2023.201.1.1svn43864-52.2.noarch.rpm"
+RPM_HASH = "c8bb972b9e047556a11f633afc0ef1fdd4d5171d74bfeebac06d4563d5e0b1c6e37a21f749f74bc7a64cbaa0591ec3ecaf8c37a990fec924d6ca85012c199265"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xevlna.sty \

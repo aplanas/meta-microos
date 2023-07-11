@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.1.5"
 
-RPM_NAME = "python39-pifpaf-3.1.5-2.4.noarch.rpm"
-RPM_HASH = "1df1abca0976ebe36262b4926a082b6c6ceb107088c8d2c60c8b7b59022a365cd4a8ab4ab6311eb5e6d4fcae12f760fd2b91cff1564af25bbcb8b31f4a32130e"
+RPM_NAME = "python39-pifpaf-3.1.5-2.6.noarch.rpm"
+RPM_HASH = "0e47e5478458f99ab56e4048cc85e1ed34f3097db9e3a4c229866c37ff5e0089eb86d25f7530d24bddf8c032927abdd491225529dc7aa481781f3b3021357fe5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pifpaf \

@@ -42,14 +42,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.403"
 
-RPM_NAME = "perl-DateTime-Format-Mail-0.403-1.15.noarch.rpm"
-RPM_HASH = "0fb48171da7a05f635263eb5d935776f0ed4a5a54d6ebb5c3ef374e2d727bde63d56329a068e66a2f65542b5bc90b6e49a1493852aa678d236660ba9718514df"
+RPM_NAME = "perl-DateTime-Format-Mail-0.403-1.16.noarch.rpm"
+RPM_HASH = "3b01208a28a2fb57d41199de3010f4c6bae243df42153ba1a77f504139c2e8fbb44a93ef15496d603e1e1fa54070acc6031353e3162ce659205794c5e96d329c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DateTime--Format--Mail \
 perl-DateTime-Format-Mail"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-DateTime \
 perl-Params--Validate"
 

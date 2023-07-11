@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.1.6"
 
-RPM_NAME = "libinstpatch-1_0-2-1.1.6-2.8.aarch64.rpm"
-RPM_HASH = "bd164e1e32623684b9b88d60135f6f50a164af67a85eb04bc571a47674ac66d9dce8e67140075f485417aa7a7456afebdb022243534d6900e544334eab7a2236"
+RPM_NAME = "libinstpatch-1_0-2-1.1.6-2.9.aarch64.rpm"
+RPM_HASH = "cf145f2dc80124a5619da9251e704743d5a66bcb5efa5a57ce78c9c68ce8ac880ee56cf4a4c3130b6608b677571f02f78b7e863afa2470a2b178382fa1557250"
 
 RPROVIDES:${PN} += "libinstpatch-1-0-2 \
 libinstpatch-1.0.so.2"

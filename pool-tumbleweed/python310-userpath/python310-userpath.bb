@@ -5,12 +5,11 @@ LICENSE = "Apache-2.0 | MIT"
 
 PV = "1.7.0"
 
-RPM_NAME = "python310-userpath-1.7.0-1.7.noarch.rpm"
-RPM_HASH = "35277701e5c2dd03b5bd4612fcb1962f8dbdbe8d59e240689bcf8b6a7eb6e0eca559a3846a658c4c48e60da1b37f23ef2a4f7d4d04183f300daad6bf2adcb533"
+RPM_NAME = "python310-userpath-1.7.0-1.9.noarch.rpm"
+RPM_HASH = "d5fa82a2254f03bcffd48f70324720bedbd8800a539cd6b4d2d18aae7217f7768fcb59bb5ace31bb5272aaac707aba2a3c455499044f64dfebf11f782fa0df77"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-userpath \
-python3.10dist-userpath \
+RPROVIDES:${PN} += "python3.10dist-userpath \
 python310-userpath \
 python3dist-userpath"
 

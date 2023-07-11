@@ -10,8 +10,8 @@ LICENSE = "Zlib"
 
 PV = "1.2.13"
 
-RPM_NAME = "zlib-devel-static-1.2.13-4.1.aarch64.rpm"
-RPM_HASH = "013a1ccb01587d8c7bc5ba8115b109aeb42f13889b8b81a9aed84168a5dfd16ed2e6a948bc8ae23d3a61db318d214de3cee9a3ee219f2f583db8f3f9f533aba9"
+RPM_NAME = "zlib-devel-static-1.2.13-4.2.aarch64.rpm"
+RPM_HASH = "a353833b33ffa033446c4078184b341b407937fad43041d82ce55f83c63486b23ee781ae5006c7c33b5d14395410933b0cd98083391ed1fc243302411ab38434"
 
 RPROVIDES:${PN} += "zlib-devel-/usr/lib64/libz.a \
 zlib-devel-static"

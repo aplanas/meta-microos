@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "4.0.1"
 
-RPM_NAME = "python39-bcrypt-4.0.1-2.1.aarch64.rpm"
-RPM_HASH = "d38a2b959a0d9575357a31eec56407f528fcebdaa1d0284a5207741dac4e87cbea330fee7abac8190363436545358e733a8add8867be17c8c6aab21e7363e4ea"
+RPM_NAME = "python39-bcrypt-4.0.1-2.3.aarch64.rpm"
+RPM_HASH = "a92ec727264609a6f4942816b1db09b22f0fcf34e333646a22cc394928e26dbd367e78e4b4bc6d1a1600bd68506c79af881a822db5649b74a1cb72ffb9a72394"
 
 RPROVIDES:${PN} += "python3.9dist-bcrypt \
 python39-bcrypt \

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
 PV = "4.2.3"
 
-RPM_NAME = "yp-tools-4.2.3-3.11.aarch64.rpm"
-RPM_HASH = "dad28a9a51cd8d3e10809cc8249e117ea1297e65a1cd065ed3f88877553581a32fe22c9006c1462df0f03a74676a30c47cbc9dd5b37533ad0de2fd8925fe2659"
+RPM_NAME = "yp-tools-4.2.3-3.12.aarch64.rpm"
+RPM_HASH = "48b2fd9de127fb532991cdaa8e2b3ba90e1fd91f4e3a3220518f57e00cff897129f17f47b5fda91d69038e23f0eb9a44336ccb26b60b6a023ad6e4c6efdde7c2"
 
 RPROVIDES:${PN} += "yp-tools"
 

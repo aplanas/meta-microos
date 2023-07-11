@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.2.1"
 
-RPM_NAME = "calligra-words-3.2.1-7.17.aarch64.rpm"
-RPM_HASH = "50794938bb6743b0d1be61a4e9e5050445e6edeb7ded3066c52b2a3a879831f4452d27552fa0775f1feaa571a172107aba1ebfb64bdfdccc6968e6c18fed5723"
+RPM_NAME = "calligra-words-3.2.1-7.19.aarch64.rpm"
+RPM_HASH = "7a2c186d1d1499cb60a77ccf87f66eb9b71a4fddd4933722cab0f7095f5e1ae6c7dc09c883558ce412a4b4774f4e8436d0056ac1208308e935142c466fdebdde"
 
 RPROVIDES:${PN} += "calligra-words \
 calligra-words-common \

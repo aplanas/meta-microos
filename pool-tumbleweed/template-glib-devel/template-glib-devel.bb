@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.36.1"
 
-RPM_NAME = "template-glib-devel-3.36.1-1.3.aarch64.rpm"
-RPM_HASH = "eb0b110a6ba0d6597b2c798bf8a12be2a54cd1aa75d0337850320b33776c4fc824969841863ae5cf10cebfca081fd1a843a0759b3fb08369a3c931b23be45028"
+RPM_NAME = "template-glib-devel-3.36.1-1.4.aarch64.rpm"
+RPM_HASH = "d03e126a6b640f1deaff9ff1c310545494482e8f298dabe5251e2169e8601910c1708377c55614c499cae1c157f697cb7e2a14ca7f5750d21b40984a5eb2adb9"
 
 RPROVIDES:${PN} += "pkgconfig-template-glib-1.0 \
 template-glib-devel"

@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.11.0"
 
-RPM_NAME = "python311-aioitertools-0.11.0-1.3.noarch.rpm"
-RPM_HASH = "2e99603e2a02e35928307a57be83ed4566a33a64a5bee4341288daf3820eda25d262b253c3c64c2b1a94f06983302b4cdb2db27a1eb79e93c7e870498efe421a"
+RPM_NAME = "python311-aioitertools-0.11.0-1.5.noarch.rpm"
+RPM_HASH = "333a6096788e60ba57a373bf95eabd0a40e84fbe0519375e00c792a72681fc57e3162bcecd62c42ce1ca2f6be343ba98e6c1a4419dd2897c550f4c76dbb8d845"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-aioitertools \
+RPROVIDES:${PN} += "python3-aioitertools \
+python3.11dist-aioitertools \
 python311-aioitertools \
 python3dist-aioitertools"
 

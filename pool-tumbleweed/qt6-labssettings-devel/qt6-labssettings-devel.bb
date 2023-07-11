@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-labssettings-devel-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "bb724678ce64d644778ada1d8d7dc7ca87b6934520d99a0e7b2748111d2733abc57dc51b09fcc3ae4823aaeadf61b7952cb070e18c1ac7f3763a1743961ec938"
+RPM_NAME = "qt6-labssettings-devel-6.5.1-1.3.aarch64.rpm"
+RPM_HASH = "2923aa8c4a1bdc7d686c5fd6752b252f9cf44669b0b8ccce1cb487dbb7c38c70181b38c8f4b38fc8d9ec4312ebce1c4d5699cae8b39d31667e3f34cd438d5777"
 
 RPROVIDES:${PN} += "cmake-Qt6LabsSettings \
 pkgconfig-Qt6LabsSettings \

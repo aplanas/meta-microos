@@ -5,8 +5,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.3svn62140"
 
-RPM_NAME = "texlive-handoutwithnotes-2023.201.1.3svn62140-53.1.noarch.rpm"
-RPM_HASH = "558edf8ceff4fb1980b7c156d1fdda5d8aa119164573a2bde7a55169971edc8612f345a39acf41b1681ba7a343af2bc97889e98eb82498be3744a671a1c3f8bc"
+RPM_NAME = "texlive-handoutwithnotes-2023.201.1.3svn62140-53.2.noarch.rpm"
+RPM_HASH = "1f4b2ba6f2a5e4c42b694df99f475eb72b80d35f846fb10b5df144f096034887a9d22b896c10afa6a376e0cb428c447e9b658a5cc195afaa5ceadc715d7a8c81"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-handoutWithNotes.sty \

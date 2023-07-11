@@ -11,12 +11,11 @@ LICENSE = "MIT"
 
 PV = "0.7.12"
 
-RPM_NAME = "python310-osc-tiny-0.7.12-1.2.noarch.rpm"
-RPM_HASH = "d9364d67cfd34d9d4247be88dbf21c65386ed4890d77ddbc4780ea4e9d142462d6c7bdbf6de3acd297fa49f489193d0465ac010c99f8065da5ee4f468f699b82"
+RPM_NAME = "python310-osc-tiny-0.7.12-1.4.noarch.rpm"
+RPM_HASH = "14080aed0a3ee8d1593078ce06a54b125c6850482ddd1f0dae944dd3015aa91126843f72353dab1a71a285e649bc5aea421a9f30c61099af8fd4dd5efed256e6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-osc-tiny \
-python3.10dist-osc-tiny \
+RPROVIDES:${PN} += "python3.10dist-osc-tiny \
 python310-osc-tiny \
 python3dist-osc-tiny"
 

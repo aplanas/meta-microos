@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "eog-plugins-lang-44.0-1.1.noarch.rpm"
-RPM_HASH = "8f61dc00e682f01e0cedd48d4cc9b5f80d215d400c3b78745caffcce3c0b39598756e5804f9c824a33394b4fab3559af4753aa7889c409585a722cb4aa834641"
+RPM_NAME = "eog-plugins-lang-44.0-1.2.noarch.rpm"
+RPM_HASH = "4424e95b7bc6472ef76f33d11fb1f0da6b4722b6299825cc7981ad4822e1745687a0d06f8d9bc93c9e9e119352f072ba495b42300fc2b3ba85d23bba8ae3880b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eog-plugins-lang \

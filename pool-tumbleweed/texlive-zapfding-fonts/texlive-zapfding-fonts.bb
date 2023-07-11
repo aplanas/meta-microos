@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.201.svn61719"
 
-RPM_NAME = "texlive-zapfding-fonts-2023.201.svn61719-52.1.noarch.rpm"
-RPM_HASH = "a1ed92c0be492dded500ca332b7ececdb5138503f15a0b8a93a8dacccf574546188d14ea2324b31d8d4692a9fd5d921b4b22de106dc5dcd7d61d8d3b9e89a9f5"
+RPM_NAME = "texlive-zapfding-fonts-2023.201.svn61719-52.2.noarch.rpm"
+RPM_HASH = "7c8767391a12cd684a6773ffd751c885c141853e535f3de194d1dc8e01988e5f75521c56f8ae1c9ea88a099093d12d29f70be7bfa83b2878e5b13ee30500057f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-dingbats \

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.4"
 
-RPM_NAME = "kristall-0.4-1.1.aarch64.rpm"
-RPM_HASH = "8e1945105b7fca08c35115412ea1b414c2cc16e768910c042eea5a77cd6b91e5be2da487a8a2c7a809513a9eec83c5ebb447102d2649891385f581fceed019b2"
+RPM_NAME = "kristall-0.4-1.2.aarch64.rpm"
+RPM_HASH = "d1a41756da300885c3aeb445380a38082f43de8f7329d0ea3d863f90796ccba00bc7ffd2241b5ae9d6aa7b96e893ae6fbeaa612c4afffa58e097782b8b681ddb"
 
 RPROVIDES:${PN} += "kristall"
 

@@ -4,11 +4,10 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.11.1"
 
-RPM_NAME = "python310-pygit2-1.11.1-2.2.aarch64.rpm"
-RPM_HASH = "33a93c82a400455cbbccb2fe32c976b2213160d05eb82582188502ef84b59dec3c2805409f71f42fc3a6e9ae706414a3a14491378a4e0b439fdc3af5a19f2c74"
+RPM_NAME = "python310-pygit2-1.11.1-2.5.aarch64.rpm"
+RPM_HASH = "ac67026b1ca10e70b4db0af23bc38476624062dfe28ce66b80d8f1ad9c987078aeb5dba90ffd286d2676986bc97cb3c409e7e9323a61df7ca2e1f6197d57bbdb"
 
-RPROVIDES:${PN} += "python3-pygit2 \
-python3.10dist-pygit2 \
+RPROVIDES:${PN} += "python3.10dist-pygit2 \
 python310-pygit2 \
 python3dist-pygit2"
 

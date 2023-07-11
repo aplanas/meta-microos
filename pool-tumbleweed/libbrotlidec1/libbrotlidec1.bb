@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "1.0.9"
 
-RPM_NAME = "libbrotlidec1-1.0.9-3.3.aarch64.rpm"
-RPM_HASH = "1f6b1db40c1a9fd81da413267872dcbf424d7f6d1225dfb7889c7b1e5523792585af56214bf6c7a406c952468124a5926fe943726d5afa21e3a796523e7eed76"
+RPM_NAME = "libbrotlidec1-1.0.9-3.4.aarch64.rpm"
+RPM_HASH = "1b2631a4f19a3c933cc3bf07e9c64aee50a632997f7ffc0eaab8e525ce817b8082c8666dfaf73697625b789a15d8393b39141b24b054f17af35b86d30f986065"
 
 RPROVIDES:${PN} += "libbrotlidec.so.1 \
 libbrotlidec1"

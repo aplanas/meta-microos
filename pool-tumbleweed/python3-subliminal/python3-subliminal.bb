@@ -5,12 +5,12 @@ LICENSE = "MIT"
 
 PV = "2.1.0"
 
-RPM_NAME = "python3-subliminal-2.1.0-3.6.noarch.rpm"
-RPM_HASH = "3d4ffcd83cf4ae87943f2da16cac425f53720437edceea24a46466f959467d0e1d268e5ed613eb8cf181dccc302cf951b84d9a343be79c3572896186f18cdb54"
+RPM_NAME = "python3-subliminal-2.1.0-3.7.noarch.rpm"
+RPM_HASH = "65070e6a2d54cc0f1aa3f5569f441ea47b3f73ab7763b14a58ff08e8ec0c6f129c2094bef7e66c90442899d05bc85499868aaecdf73bcd759cb8343852a46d58"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-subliminal \
-python3.10dist-subliminal \
+python3.11dist-subliminal \
 python3dist-subliminal \
 subliminal"
 

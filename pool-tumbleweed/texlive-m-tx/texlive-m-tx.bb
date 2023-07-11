@@ -6,10 +6,10 @@ be typeset. In fact, pmx now provides a lyrics interface, but \
 M-Tx continues in use by those who prefer its language."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.63dsvn64182"
+PV = "2023.208.0.0.63dsvn64182"
 
-RPM_NAME = "texlive-m-tx-2023.201.0.0.63dsvn64182-52.1.noarch.rpm"
-RPM_HASH = "d3e987142a154bd4f74b5d3554372d5e317eb97d43da6f479a2e2546300a32891e9e8e9eb7a884f197db66115fef169a798d2393193ae7c19d4b813e4f5f0c98"
+RPM_NAME = "texlive-m-tx-2023.208.0.0.63dsvn64182-53.1.noarch.rpm"
+RPM_HASH = "7b9639c220a75b3d6cd8854988cdd4d181edc2ad8758f84ba3510f25c92d29f03ce75b6433fc5f4aac05a3f82668d5a647113579bfaad2a2299dc8d1d840a6bb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mtx.tex \

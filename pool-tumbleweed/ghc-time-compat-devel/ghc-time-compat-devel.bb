@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.9.6.1"
 
-RPM_NAME = "ghc-time-compat-devel-1.9.6.1-5.3.aarch64.rpm"
-RPM_HASH = "df9e3da7c2cb1c9dade8f09663e0f40b20a3d90bdc7286e0996c500d2fff67aab9b9b833362130c188585b9c497f6d2c0ac4b8e46db6edcbe67c5c47bea2f6e8"
+RPM_NAME = "ghc-time-compat-devel-1.9.6.1-5.6.aarch64.rpm"
+RPM_HASH = "e683c9372135d8170a7d51fd90ac122dc85eeacdc67b2e80c92ec8dc8e777a7fe721d35c17ac07aff98c319324c80cd3d3653e58c82bc5d1402005cfabdbc7a4"
 
 RPROVIDES:${PN} += "ghc-devel-time-compat-1.9.6.1-2Pu0F2MmAuC1LEapOv1K82 \
 ghc-time-compat-devel"

@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.11.0"
 
-RPM_NAME = "influxdb-1.11.0-1.2.aarch64.rpm"
-RPM_HASH = "ba78ea6be7b8101626c3ae0d32110b2ed023b35ed26f4a9bc4ab02d2945985cdde6a50c206fb82d6233203c8a52d266329116f5daf3a2febb3278b89654d78c2"
+RPM_NAME = "influxdb-1.11.0-1.3.aarch64.rpm"
+RPM_HASH = "488a9f95e528bb10b7b3bcbc695cc7c917c9be94c18896dafaafe7767a93d546850abc5b06b727cec86b77ca5aa03367c9bd762481eba8b38c27db8b649e5758"
 
 RPROVIDES:${PN} += "config-influxdb \
 influxdb"

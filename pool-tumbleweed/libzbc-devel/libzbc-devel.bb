@@ -7,8 +7,8 @@ LICENSE = "BSD-2-Clause & LGPL-3.0-or-later"
 
 PV = "5.13.0"
 
-RPM_NAME = "libzbc-devel-5.13.0-1.3.aarch64.rpm"
-RPM_HASH = "ce391da59035e5e27ba03c55b6d48a15f523051ec51c9993958409794dbcfba6edfedb0e90b8ed2c31e8f2852c4a397e06f14b09379011b5298b2c785032d840"
+RPM_NAME = "libzbc-devel-5.13.0-1.4.aarch64.rpm"
+RPM_HASH = "16890c9f33c1af795793da02ebd062ec4bb8a20d4692f82395fea22e4cb2b6ccd8cbd4ab4aa9986b700192a630a7a288aa751803abb0509455478b439058c8cf"
 
 RPROVIDES:${PN} += "libzbc-devel \
 pkgconfig-libzbc"

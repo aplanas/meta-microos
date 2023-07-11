@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.1.13"
 
-RPM_NAME = "python39-codecov-2.1.13-1.1.noarch.rpm"
-RPM_HASH = "db81993bb7a0dcc3b08656b7f865729139bf5f3b34e9a3a164890efed8bd5b277ad48acc0eb9a76721a93041961345a70da07f015c5b5c29a92708c57558fc2f"
+RPM_NAME = "python39-codecov-2.1.13-1.3.noarch.rpm"
+RPM_HASH = "81e5e337189e82660aa31920fa85c1eea9ff116307c255a6124a0594c9ec85bc6943f2fa5270f970330e15ce91702dda79a156cfa5cc8ccaa12680ec3e044c40"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-codecov \

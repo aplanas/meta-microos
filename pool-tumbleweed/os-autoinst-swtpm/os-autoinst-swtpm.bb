@@ -2,10 +2,10 @@ SUMMARY = "Convenience package providing os-autoinst+swtpm"
 DESCRIPTION = "Convenience package providing os-autoinst and swtpm dependencies."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.1683886197.05274f7"
+PV = "4.6.1688579291.d13a461"
 
-RPM_NAME = "os-autoinst-swtpm-4.6.1683886197.05274f7-1.1.aarch64.rpm"
-RPM_HASH = "479d5b9fde9c50737801e96f8d94aa9e0ab25084243ff8cab84ea9f7b8fd1dae5e395bcf4d23ffd3dea410f71def24d71e8f473244835c8d3af7e9dc89896437"
+RPM_NAME = "os-autoinst-swtpm-4.6.1688579291.d13a461-1.1.aarch64.rpm"
+RPM_HASH = "906535b276d5358fe7487483c958470af2b050257c57d8856e0fdd18530453fcdbfb279c51d0eb31797ed7378f70c77ad2a18aca6450ee1a6a62230317235032"
 
 RPROVIDES:${PN} += "os-autoinst-swtpm"
 

@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "1.0.93"
 
-RPM_NAME = "toluapp-5.1-1.0.93-10.3.aarch64.rpm"
-RPM_HASH = "69415903b555d1d0ed3b816c7d99340c37d8e3a8b36b21b02f2aceb65d06aec6aaf8ac5e7d503ec0ad4902fec23319f78debc724df1b9cea34d7c869ccbc19c0"
+RPM_NAME = "toluapp-5.1-1.0.93-10.4.aarch64.rpm"
+RPM_HASH = "17154f6ff08b82abf7e6b428e10d18df88f502b3cb9b84e3f17e4e34b17683e895c1ae7004fd517e7d66a76b4cceb427d92a2586e9dc670c6280c95f6daa5fa7"
 
 RPROVIDES:${PN} += "toluapp-5.1"
 

@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.2.6"
 
-RPM_NAME = "typelib-1_0-Manette-0_2-0-0.2.6-2.10.aarch64.rpm"
-RPM_HASH = "846bb1168f8f716e0a87170de909e04fcf2f1c22d509c4b4754231136801ede2440a0c88e2a43d6ebacb4a7493779677f4f489e20bea625987e8f9f60ddabc73"
+RPM_NAME = "typelib-1_0-Manette-0_2-0-0.2.6-2.11.aarch64.rpm"
+RPM_HASH = "82b83f9e306b82c63d305d4a7834a183ed04b807b5b8dfafc26e3f2efa231ca308515f3a6fb18d502ec0561ea656c086cb634b2826d3a09d07bf14edeef77ae9"
 
 RPROVIDES:${PN} += "typelib-1-0-Manette-0-2-0 \
 typelib-Manette"

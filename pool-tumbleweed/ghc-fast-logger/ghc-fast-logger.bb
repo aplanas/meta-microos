@@ -4,11 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.1.2"
 
-RPM_NAME = "ghc-fast-logger-3.1.2-1.3.aarch64.rpm"
-RPM_HASH = "dbfac03e6e273d258ceebab5e46d161c7d26fb9936537da15beb382570c6ce2b7e7223813b89c1be7b6c1adb4c4868d24005b22abb32b998c988e7f3b581b22b"
+RPM_NAME = "ghc-fast-logger-3.1.2-1.7.aarch64.rpm"
+RPM_HASH = "53b5c99bdd98fa8750e3b7059b72e88fd503764e69e77a0ba2981a27fcdbfb8932560f330f1f7219eaa4cdb14ddb4a1be48c6e8a8d09eeb5d02c3b91540ac6ce"
 
 RPROVIDES:${PN} += "ghc-fast-logger \
-libHSfast-logger-3.1.2-BD2YlybMtRF1w9mLnP3rJ-ghc9.4.5.so"
+libHSfast-logger-3.1.2-B9zh4yvWMU69CA1ZW1MVtN-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
 libHSauto-update-0.1.6-CObek7rRQnGB5D6p02bNzQ-ghc9.4.5.so \
@@ -18,7 +18,7 @@ libHSbytestring-0.11.4.0-ghc9.4.5.so \
 libHScontainers-0.6.7-ghc9.4.5.so \
 libHSdeepseq-1.4.8.0-ghc9.4.5.so \
 libHSdirectory-1.3.7.1-ghc9.4.5.so \
-libHSeasy-file-0.2.3-Bwh7vXkS9r2GpL1fsuKjo4-ghc9.4.5.so \
+libHSeasy-file-0.2.5-Eune3nGPx4BABAmiN3TyxF-ghc9.4.5.so \
 libHSfilepath-1.4.2.2-ghc9.4.5.so \
 libHSghc-bignum-1.3-ghc9.4.5.so \
 libHSghc-boot-th-9.4.5-ghc9.4.5.so \

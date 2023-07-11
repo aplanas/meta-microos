@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "7.6"
 
-RPM_NAME = "libslopy7_6-7.6-2.6.aarch64.rpm"
-RPM_HASH = "aedf076351745b628be7baf7232017dcd3fd9c277d146e91c6493f2fdcd555204d44e6b3728d98669444658ee29ba0a0883c018072cad093afb90ea62156cc14"
+RPM_NAME = "libslopy7_6-7.6-2.7.aarch64.rpm"
+RPM_HASH = "00a20deed5e4b084dab9fb0fd1e74b1ca909ed0897c7141ce00a9792f24ac0f9a9b48ada6d43276bd6b9559038bab89768572b371f13e4c8a612ce6165efab8e"
 
 RPROVIDES:${PN} += "libslopy.so.7.6 \
 libslopy7-6"

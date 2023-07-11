@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.0+0"
 
-RPM_NAME = "budgie-control-center-lang-1.2.0+0-1.3.noarch.rpm"
-RPM_HASH = "3ff3689fd6c261031c2d52c5ad27a3ccb80ca66d079eb8a089943f4c1ba2fb6f97048774c2eae208e335d771251fb5660100f20b46f9657a475139f6de242bc4"
+RPM_NAME = "budgie-control-center-lang-1.2.0+0-1.4.noarch.rpm"
+RPM_HASH = "abf2b17365de8b4d89f799da694bdb57c89d8a820cc80b521035e2396e7b97ce676eb113fee5c8e7df5f75419b29d5205e74ac0aecef0613c0b2e8cba90b6ae5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "budgie-control-center-lang \

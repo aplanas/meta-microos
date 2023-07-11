@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.17.17"
 
-RPM_NAME = "umockdev-devel-0.17.17-1.1.aarch64.rpm"
-RPM_HASH = "6eb6527c3f217b32ad433a2737343c48333ec4e8e8e31625af44cc73061b265f79a02293c09b006611726c29b2725e4a22abe70bbeb6b2caaa1e56a2d5ed0058"
+RPM_NAME = "umockdev-devel-0.17.17-1.2.aarch64.rpm"
+RPM_HASH = "8caa599c2151c2ae0ffddac36607db61770bfbe221afd0d9ae8f89087bd4219dcf0a472fed1561a067b2df340e457d1810b0d8a69635e86d1a6527ba86847363"
 
 RPROVIDES:${PN} += "pkgconfig-umockdev-1.0 \
 umockdev-devel"

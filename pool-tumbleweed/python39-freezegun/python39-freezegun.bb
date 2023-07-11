@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2.2"
 
-RPM_NAME = "python39-freezegun-1.2.2-2.1.noarch.rpm"
-RPM_HASH = "f74bb1fab2f9ace4434a6e448cd100f2fb4e9a054d24559c862d003999541214e9434b33a9a07b2efd498d2cb35a538609d2fd1b70eb2acc0bf83b60c15befac"
+RPM_NAME = "python39-freezegun-1.2.2-2.3.noarch.rpm"
+RPM_HASH = "ae1768debf6b81a8e5b331132f1d080bafdea5eac3427c8618b36b0289420800833dd549337eb1c468b6f86f6805890d9de690eb314acacac769dda1fde75bdd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-freezegun \

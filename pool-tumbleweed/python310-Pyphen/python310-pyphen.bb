@@ -7,12 +7,11 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & MPL-1.1"
 
 PV = "0.10.0"
 
-RPM_NAME = "python310-Pyphen-0.10.0-1.10.noarch.rpm"
-RPM_HASH = "7762e041be7f42775c96d886d6c086befe18cdfb05047c6935ac7d3ae6bd31a605badba89aa37f7d416670aea3893e65eec75bdc35b107f0ddcd34070230063c"
+RPM_NAME = "python310-Pyphen-0.10.0-1.12.noarch.rpm"
+RPM_HASH = "a1ec262ae0b78656d671c2801b30daaebdaccd985f01cbfe2ee3eb6518126355d122134bbc6147677ce808f285e18f0704ce0ed3a8fdbfdd0df965383479cd0d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-Pyphen \
-python3.10dist-pyphen \
+RPROVIDES:${PN} += "python3.10dist-pyphen \
 python310-Pyphen \
 python3dist-pyphen"
 

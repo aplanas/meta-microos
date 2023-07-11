@@ -13,12 +13,12 @@ Authors: \
     Duncan Mac-Vicar <dmacvicar@suse.de> \
     Martin Vidner <mvidner@suse.cz> \
     Josef Reidinger <jreidinger@suse.cz>"
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
-PV = "1.14.60"
+PV = "1.14.61"
 
-RPM_NAME = "zypper-1.14.60-1.1.aarch64.rpm"
-RPM_HASH = "ce2d8f20fb1798b029e9baf6005a7fb96b6a7ac402a5bba36c8455b4479f4e0d9cecd5096d6af6cdb5f06047b690181547967cfdf52417689997df7f69c11ab1"
+RPM_NAME = "zypper-1.14.61-1.1.aarch64.rpm"
+RPM_HASH = "ceb1e07c323ca6ad2e710b9b7cae89273a3ed8a41b1f4d6201495b49d7740390c1cf6cc017d5050c8b0d4ca9a39ce4b7600f04aa429fe89912184d5402034a24"
 
 RPROVIDES:${PN} += "config-zypper \
 y2pmsh \

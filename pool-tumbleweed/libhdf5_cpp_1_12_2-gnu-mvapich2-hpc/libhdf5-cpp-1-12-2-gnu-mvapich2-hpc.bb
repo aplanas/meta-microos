@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.12.2"
 
-RPM_NAME = "libhdf5_cpp_1_12_2-gnu-mvapich2-hpc-1.12.2-5.2.aarch64.rpm"
-RPM_HASH = "2210eea3fd020df02ca31168088d7403d296bf608ce4f1769eb7be747a58aa3a1e9a4679876248f66f836712a40f4ff475eba8ac25ba110da0f98cbf4e05cc64"
+RPM_NAME = "libhdf5_cpp_1_12_2-gnu-mvapich2-hpc-1.12.2-5.3.aarch64.rpm"
+RPM_HASH = "563521f0a38fc6bf0a51b69f5081a45b9119d123b81d2c7b299c01c33a178d492c70b001148a4ed6cadca149fa5a95620adccdf45efcc2cca05ce3e3f8ff2783"
 
 RPROVIDES:${PN} += "libhdf5-cpp-1-12-2-gnu-mvapich2-hpc"
 

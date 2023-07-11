@@ -10,8 +10,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2022.1"
 
-RPM_NAME = "libvotca2022-2022.1-3.6.aarch64.rpm"
-RPM_HASH = "124847e19eafe5c2e322e0a67727afc64ee8aab12609e12fda888ce34a5213acf3fcbd59885cb9766bf58ed3f36f3bcd840ec7c59cb70880f4f1035e4dc5f622"
+RPM_NAME = "libvotca2022-2022.1-3.7.aarch64.rpm"
+RPM_HASH = "acaa7a3e2fc3097e8790b4dda1cd541b9b0cb2fd940535d861475bd43c34b03117668909eca1e475c6ba918de410f5d62da98af64fabd9c034ad6ed0f9c23355"
 
 RPROVIDES:${PN} += "libvotca-csg.so.2022 \
 libvotca-csg2022 \

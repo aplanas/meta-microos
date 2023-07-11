@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.4.6"
 
-RPM_NAME = "corosync-qdevice-2.4.6-1.3.aarch64.rpm"
-RPM_HASH = "08757bc65bbd6e563b193ae2d411eb3ddd61d3fcaaabc13acf6ad3219ee1317cd0ff7839b30b33e8b66ae0e27cbe548daf3ae4d07b822821bbd26014b85d7d6b"
+RPM_NAME = "corosync-qdevice-2.4.6-1.4.aarch64.rpm"
+RPM_HASH = "58fcf4489bf2803a57b2ea748d2df97dab7a6036f2710c10ef6546adc33293e6edd966bc9d61aab6c47c9c2a6269dfb9da3e24c77b0d3d02515a1ae0b6f7b936"
 
 RPROVIDES:${PN} += "config-corosync-qdevice \
 corosync-qdevice"

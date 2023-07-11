@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.6.7.post2"
 
-RPM_NAME = "python39-cu2qu-1.6.7.post2-1.4.aarch64.rpm"
-RPM_HASH = "e9637677fb25363cc02ad27612621b7919e83b209092ba28869bfdd55c2fe9ebd82d098b5c9fc9b088e9c498177daa5178f230b6f7eb4b9d7ac2a763df5b7925"
+RPM_NAME = "python39-cu2qu-1.6.7.post2-1.6.aarch64.rpm"
+RPM_HASH = "b9c55477492593b30dcd936944280cce1162ac1ac903f169902cf4554bc0b9aa6ba46e333509d7f2f80d305b97785a6d475af5876579cd2d896815626469a65b"
 
 RPROVIDES:${PN} += "python3.9dist-cu2qu \
 python39-cu2qu \

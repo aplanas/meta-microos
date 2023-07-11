@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.5.1"
 
-RPM_NAME = "gnome-podcasts-lang-0.5.1-2.9.noarch.rpm"
-RPM_HASH = "7f9cbcf30f465eb7306a7c29887dfcbe62b56680999f7b8fdc4c35312b0aadade52eca628bef311df836b78b418dceaf141ccdbdf6572339421e0a21ef7fdec0"
+RPM_NAME = "gnome-podcasts-lang-0.5.1-2.11.noarch.rpm"
+RPM_HASH = "dbdc00656da2eba2bd520c116c2eb98ae4430580d45dc0c2462a9e92ce09e011c2ce7d3b0883a2ab53a7671e3f672bd86eeae1c8993fecea9117cc0c3a673b3b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-podcasts-lang \

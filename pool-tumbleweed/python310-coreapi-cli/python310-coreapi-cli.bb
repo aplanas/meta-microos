@@ -4,12 +4,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.0.9"
 
-RPM_NAME = "python310-coreapi-cli-1.0.9-1.22.noarch.rpm"
-RPM_HASH = "491345f5e1458030ddcbd52c51a3eefbb03146a22da639f899891c0466db36032c00bcf9d72ec88d9d42e0349d9b5c97c1c9136c5ee15be8585bd7b563820eee"
+RPM_NAME = "python310-coreapi-cli-1.0.9-1.24.noarch.rpm"
+RPM_HASH = "e93d05ec6678825c1948f38f290cbcc2814b78e92f591b6496161e39a0a48cb22e12ce44bb2a9b82143e1fd6d606238924cca168b068571898ae51f9cf1d11e2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-coreapi-cli \
-python3.10dist-coreapi-cli \
+RPROVIDES:${PN} += "python3.10dist-coreapi-cli \
 python310-coreapi-cli \
 python3dist-coreapi-cli"
 

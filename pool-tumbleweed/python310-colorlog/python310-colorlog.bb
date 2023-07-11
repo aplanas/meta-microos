@@ -8,11 +8,10 @@ LICENSE = "MIT"
 
 PV = "6.7.0"
 
-RPM_NAME = "python310-colorlog-6.7.0-1.3.aarch64.rpm"
-RPM_HASH = "887aa59d1a508bb3a1f478929730c16c50a3806a6c660eb0ee3f1fb161922f2d1a866a9d3f873a845710e6231cc5a40c348d89cf44c84a69c904a2215e632ff5"
+RPM_NAME = "python310-colorlog-6.7.0-1.5.aarch64.rpm"
+RPM_HASH = "061257339666bd3d6a37b1912f22f4a7e101f7f37180b615088fe5c0dc2b3d58d1e2e99eec852eeef79184845d54245d762d732aba7c3a6bd00259a1669a9722"
 
-RPROVIDES:${PN} += "python3-colorlog \
-python3.10dist-colorlog \
+RPROVIDES:${PN} += "python3.10dist-colorlog \
 python310-colorlog \
 python3dist-colorlog"
 

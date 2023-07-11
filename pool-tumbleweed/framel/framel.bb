@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "8.42.3"
 
-RPM_NAME = "framel-8.42.3-1.5.aarch64.rpm"
-RPM_HASH = "69b7f81739199abd89ac614086bbbf2c8708e7cea741aab50fa34d6a7c1fdf29fa3953de93cbaee70b0e4e4e864fb9cfa4ccfdb53cc78eb811100be7fdecbd77"
+RPM_NAME = "framel-8.42.3-1.6.aarch64.rpm"
+RPM_HASH = "ad3fb4be5871a2a6495f5987b29a58ba9fb3844e857aaa828c3b3a6d2e80ea907cac7569de518ffba19d57809a59a1051dca3f111a3ae1facc4ae49fa770abaf"
 
 RPROVIDES:${PN} += "framel \
 python2-framel"

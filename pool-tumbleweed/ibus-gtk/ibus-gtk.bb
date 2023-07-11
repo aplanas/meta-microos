@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.5.28"
 
-RPM_NAME = "ibus-gtk-1.5.28-2.1.aarch64.rpm"
-RPM_HASH = "a68cf937fbfcc8dd1f0df7b721fd9bfbb158fa5f0447fce24417899d16360709b06d8ba244fa0f167fb2d3b97ef01825895dbf9e1aaa76e1be0ea6b7faafc91f"
+RPM_NAME = "ibus-gtk-1.5.28-2.2.aarch64.rpm"
+RPM_HASH = "8d1e7f0ff9effb137d82fefedcfb43561ea40bb1c1692c7ffbb8b31407b7580b11626198d6c9f07d006784e6875933dbcd00c7a535c201ad1be214e439c6ab45"
 
 RPROVIDES:${PN} += "ibus-gtk"
 

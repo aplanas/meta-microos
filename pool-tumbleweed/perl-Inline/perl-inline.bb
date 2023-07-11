@@ -23,8 +23,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.86"
 
-RPM_NAME = "perl-Inline-0.86-2.7.noarch.rpm"
-RPM_HASH = "608505122a9d28df47701e9ef3a7dfff17c17f2f992b070753fae48ccadeeb60c9ffb427b2caa2c424321aa6831e55816adb8de88d20b98db4f7d913c9710379"
+RPM_NAME = "perl-Inline-0.86-2.8.noarch.rpm"
+RPM_HASH = "378d2439891fc1c8b8e1a0bd867ce7ed3b916f7a5e970ca3dea4447de2f71fafb47c0bfdc8329d07a7f369dc7dddaff78b4a7a376a9ffcfc35e22474a133db89"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Foo--Tester \
@@ -33,7 +33,7 @@ perl-Inline--Foo \
 perl-Inline--MakeMaker \
 perl-Inline--denter"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-version"
 
 inherit rpm

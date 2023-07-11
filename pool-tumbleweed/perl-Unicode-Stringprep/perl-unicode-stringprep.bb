@@ -13,8 +13,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.105"
 
-RPM_NAME = "perl-Unicode-Stringprep-1.105-1.25.noarch.rpm"
-RPM_HASH = "92a437d53a834b959d4d3193c78dc97c759ae01ecf4b20e06c65170da86ec5b2153420c67e0d2f74ce9e3068d57171740e2c279318ae3934e35e6c02682af0be"
+RPM_NAME = "perl-Unicode-Stringprep-1.105-1.26.noarch.rpm"
+RPM_HASH = "134665915f5cc617f86ba690daa4a00f7b8b2830274e2fd4c41911ce1f28932f6001a83043a58467f2cc17619c8332a76519a2a879e345ac8ac6e437bc3cf10a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Unicode--Stringprep \
@@ -25,7 +25,7 @@ perl-Unicode--Stringprep--Prohibited \
 perl-Unicode--Stringprep--Unassigned \
 perl-Unicode-Stringprep"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Unicode--Normalize"
 
 inherit rpm

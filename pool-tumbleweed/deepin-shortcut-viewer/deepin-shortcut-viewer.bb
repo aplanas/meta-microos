@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.0.6"
 
-RPM_NAME = "deepin-shortcut-viewer-5.0.6-1.3.aarch64.rpm"
-RPM_HASH = "613e68775e4e1ebaca1e9f7b85ae0827dd54c96e07dc3f4a4927009a28cb3d4a930d049b953a76221b8ff468a885eb073ea83230b60461519e9ff27a5f6e793b"
+RPM_NAME = "deepin-shortcut-viewer-5.0.6-1.4.aarch64.rpm"
+RPM_HASH = "306cb03082bb72f4f4745a9086c04e5ba026f3ec67ca8cdd128be922284a2187537e953efd6f54e61c1f608acfd806a94683a2f72c901bda8e3e04d595e85b0a"
 
 RPROVIDES:${PN} += "bundled-CuteLogger \
 deepin-shortcut-viewer"

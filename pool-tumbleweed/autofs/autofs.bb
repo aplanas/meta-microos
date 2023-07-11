@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.1.8"
 
-RPM_NAME = "autofs-5.1.8-5.4.aarch64.rpm"
-RPM_HASH = "849f74c013616525a90a0160cbee10600cd927991e30d7acaa4afb0fd5c36b83e96b0617d53789315eceafdf6b6630c4bf11b444594fedcc7946db04310a904c"
+RPM_NAME = "autofs-5.1.8-5.5.aarch64.rpm"
+RPM_HASH = "ac7754316c49cdcf22c0bed22ee208b704f6bb88ab4bea1f2615aa62039575e0910dd913b89da51a380716029a1c2460245b86a3f2e2185c0072c33041a577f6"
 
 RPROVIDES:${PN} += "autofs \
 config-autofs \

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.2"
 
-RPM_NAME = "shared-mime-info-lang-2.2-2.1.noarch.rpm"
-RPM_HASH = "5d1551d0172a9a57face76e407d03123b11d4af97a590990462305fd262b264dcddd30f7e95ce354f294f6e80ce337547ec1b3d4b30fdc9cbef6df6f36ee3578"
+RPM_NAME = "shared-mime-info-lang-2.2-2.2.noarch.rpm"
+RPM_HASH = "43b1cb9ab19613ce82a2f8bb04e5422e74b8d3f905d2c2026c62d35d4bebb7200a02ba37a4ea26ba53334899809fe14c3a84ef9f613af7c0f324ba0d4803afe2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-shared-mime-info-af \

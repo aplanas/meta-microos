@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "7.0.0"
 
-RPM_NAME = "papi-hpc-devel-7.0.0-1.3.aarch64.rpm"
-RPM_HASH = "20a64fa2de2726e12a7cf8e6784d8766f5e32b458758e4d5fc4233c5c4a2225a90468894cd9dd519f1eafbcf3a703fda008abb9722bd264375a83d657185f73d"
+RPM_NAME = "papi-hpc-devel-7.0.0-1.4.aarch64.rpm"
+RPM_HASH = "4d3e3d3c20f3a1920dd194937828fac59b7c2416c4aa39f84f3d36f0790d54923dd44d3501a4e6fa69d18b8073c20ad31f1693f43fc3dafc1664ea0dc5a283e1"
 
 RPROVIDES:${PN} += "papi-hpc-devel"
 

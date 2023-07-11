@@ -6,8 +6,8 @@ LICENSE = "Zlib"
 
 PV = "0.2.7+git20190410.a6d0890d"
 
-RPM_NAME = "libqwtplot3d-qt5-0-0.2.7+git20190410.a6d0890d-1.21.aarch64.rpm"
-RPM_HASH = "fb44cd83f8adef2960a9eb09c34e3e1f26f42709c2a99c62a08964b5a31dc686081d71df595237d1791c8a5e9a3675652995760a9dc3d6150a6e8a1623dcf63a"
+RPM_NAME = "libqwtplot3d-qt5-0-0.2.7+git20190410.a6d0890d-1.22.aarch64.rpm"
+RPM_HASH = "0585fc7aac4a383116df9ce1b50790a370b32f74c2927e2c56c453f2fb8cddb2d7e91ca9700ce6e805adb693b630829fd636718ff73f2a45716fc514daf87080"
 
 RPROVIDES:${PN} += "libqwtplot3d-qt5-0 \
 libqwtplot3d-qt5.so.0"

@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.4"
 
-RPM_NAME = "cdrdao-1.2.4-1.13.aarch64.rpm"
-RPM_HASH = "3cc2d27b59c6ccd139a8d564646e5f0116f9484fa7c1cafaacf98e6e5ac2e281104a60da2ca11510bbce8538f54fb34206486ef43953c67718c0354786e422c4"
+RPM_NAME = "cdrdao-1.2.4-1.14.aarch64.rpm"
+RPM_HASH = "206fdc3a8fc8fa11aefe3edd1f136a3cfed92998b24c847d033c221f6290164ab54ac120f3a8c84ffda0fcf4e55c407ea9d5970af1d65b70005a5269f1034cfc"
 
 RPROVIDES:${PN} += "cdrdao"
 

@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
 PV = "2.3.1"
 
-RPM_NAME = "monitoring-plugins-ntp_peer-2.3.1-9.4.aarch64.rpm"
-RPM_HASH = "13c2c830646cf699a9510b5a0266497f3c55dae4a7a3992e3c8a8b2e3f57d6ffceab613723a6e558b7f1ef7614ab1183b22d469f1c06b3e61dfe3c4c11ce23f6"
+RPM_NAME = "monitoring-plugins-ntp_peer-2.3.1-9.5.aarch64.rpm"
+RPM_HASH = "284dd538c5f622e3ac676132c3a4a88b69503742f88d2c5fe655595e49f3ce3cc7a256d688b244686442baf7743860a953a5e4b73432614514180d72427f6aea"
 
 RPROVIDES:${PN} += "monitoring-plugins-ntp-peer \
 nagios-plugins-ntp-peer"

@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20210421"
 
-RPM_NAME = "libmapidb-devel-20210421-2.3.aarch64.rpm"
-RPM_HASH = "2d817bb1bbe4f18aa08edda540504844113cf68584f0029f281d5963cb09438ff4524cdb6da2cbe0ae51a6b9549b78be33d8bef5db0ef499441af0d72febc7cc"
+RPM_NAME = "libmapidb-devel-20210421-2.4.aarch64.rpm"
+RPM_HASH = "2415e150c34d08872ee076860243756dc2b7a2dff956f8710c7d5cdd175fe04bd354fe19c06f5cde79737fe260889ef8132c35b40e8ce39ec50aff6687c12632"
 
 RPROVIDES:${PN} += "libmapidb-devel \
 pkgconfig-libmapidb"

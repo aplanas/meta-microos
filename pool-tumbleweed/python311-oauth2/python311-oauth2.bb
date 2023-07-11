@@ -7,11 +7,12 @@ LICENSE = "MIT"
 
 PV = "1.9.0.post1"
 
-RPM_NAME = "python311-oauth2-1.9.0.post1-5.5.noarch.rpm"
-RPM_HASH = "91bc9e19f272f57c3426e2f601e845579a354e5b2bef8b866bc9f24d080756b8eeaa420aeefe9c085c3c1be1a7f0cdfa7c9bc70defa3e154f65668c239cd0d41"
+RPM_NAME = "python311-oauth2-1.9.0.post1-5.7.noarch.rpm"
+RPM_HASH = "9552eb4bcda7f0e598f32b2d1b95fe9c069230f26e3cb41af6366bed54408496233dcd39a6767a798a374d71d1ca9c953b9d30cf3ba978e3472c612fb3111c7b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-oauth2 \
+RPROVIDES:${PN} += "python3-oauth2 \
+python3.11dist-oauth2 \
 python311-oauth2 \
 python3dist-oauth2"
 

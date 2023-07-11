@@ -9,12 +9,11 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2.0"
 
-RPM_NAME = "python310-sphinxcontrib-fulltoc-1.2.0-2.6.noarch.rpm"
-RPM_HASH = "69de4b9dba32e5bdd9b64aec99369479dbdb80e78cebcdb02a29c70a1f84e2939d70b7387ef7af2df222d5348f72cc79a4f4c0899b8ddf02419c54395d51354a"
+RPM_NAME = "python310-sphinxcontrib-fulltoc-1.2.0-2.8.noarch.rpm"
+RPM_HASH = "e5a1c2528021068e10f53fd6d7d30b1effb51370094fa97a47226e4f38f693f9651795398c3de2dbb55a97cd4e2837fbb577b3f0014611ef58ca808d104413ed"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-sphinxcontrib-fulltoc \
-python3.10dist-sphinxcontrib-fulltoc \
+RPROVIDES:${PN} += "python3.10dist-sphinxcontrib-fulltoc \
 python310-sphinxcontrib-fulltoc \
 python3dist-sphinxcontrib-fulltoc"
 

@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & CPL-1.0"
 
 PV = "2.22.0"
 
-RPM_NAME = "maven-surefire-provider-junit5-javadoc-2.22.0-8.1.noarch.rpm"
-RPM_HASH = "fc8daae980a3f48293502ee41dc9a51e1b1a61a13bc4d2849b16e52e531c1f6a89606bf5c2f51c041897afac22f0d8beead67bc190314bf926195c8b13f48b59"
+RPM_NAME = "maven-surefire-provider-junit5-javadoc-2.22.0-8.2.noarch.rpm"
+RPM_HASH = "192961acab39737d716749e42f52b1cb9a76bcf43651d04ca0c3ac5ecc6598f8dadcafea630e1dad9f6a116fa442889d15fc81efdf7ab2712f118fc305347a52"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-surefire-provider-junit5-javadoc"

@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20230115"
 
-RPM_NAME = "libcdatetime-devel-20230115-1.2.aarch64.rpm"
-RPM_HASH = "acc31c23b3f5a202b704fb5028dedea71c3fdbc61ba5e69d500374343dded899fdd1fcdd98a0fa33a330101ce4bc8ab71194218502c1ed37fa1e8261e967c241"
+RPM_NAME = "libcdatetime-devel-20230115-1.3.aarch64.rpm"
+RPM_HASH = "1f602bf4618a704e8cd69fd014b26cbc0a08f75ae37601ecdd8a78d5a7bf68da6cbddb4e89f7f821b0ae0a5067215dcd7c5956b6142046d7eaa4eb716e6b6185"
 
 RPROVIDES:${PN} += "libcdatetime-devel \
 pkgconfig-libcdatetime"

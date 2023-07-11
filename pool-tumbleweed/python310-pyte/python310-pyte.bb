@@ -9,12 +9,11 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "0.8.1"
 
-RPM_NAME = "python310-pyte-0.8.1-1.3.noarch.rpm"
-RPM_HASH = "a5b4a1a61fe3e652680e612fcf8784c0df8af27047dab6943dff8241d269c4cd05428ddf658df941fa57ed1603a93d2e891c601a1eea0652580db577183fc8d6"
+RPM_NAME = "python310-pyte-0.8.1-1.5.noarch.rpm"
+RPM_HASH = "30e664ee18a59255e7ab1d9942f1b6eae2f2d87b18829ff0e27a3ca4265a5f033321c1e01baed41163996b758cc6f4e0f2633d0763c8edb1131745dfa28d5745"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pyte \
-python3.10dist-pyte \
+RPROVIDES:${PN} += "python3.10dist-pyte \
 python310-pyte \
 python3dist-pyte"
 

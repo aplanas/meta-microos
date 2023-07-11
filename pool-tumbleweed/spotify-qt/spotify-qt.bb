@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "3.10"
 
-RPM_NAME = "spotify-qt-3.10-1.1.aarch64.rpm"
-RPM_HASH = "fd2944b7ca8731fac68d5222be5fc920eeed6b0a248a0e3dcc0534e1df03fe147e34b9e4d79168bc69ce8a8b585a3b33a65a4e08916d7a9d1bbbac71497ac934"
+RPM_NAME = "spotify-qt-3.10-1.2.aarch64.rpm"
+RPM_HASH = "5e9e392b71657e5adbd700c5dbac06b4c4fae33e01e7b255101dde1f17661e0fbfdcc84850822dba8cef6e3a33644cd0e96d664d68f615b1445a03ad1a2a9cb9"
 
 RPROVIDES:${PN} += "spotify-qt"
 

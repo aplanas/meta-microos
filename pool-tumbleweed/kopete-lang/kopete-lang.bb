@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kopete"
 DESCRIPTION = "Provides translations for the 'kopete' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kopete-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "ecfd30f7f27f1818c0ab31e9d65118cf0287541b598d3946efd289442bd4fcc5a5d541221b0499adea42aeca7a9b28c2d437e9b34dc24ad28bac14193cccbb1c"
+RPM_NAME = "kopete-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "e8744339c360d963d6e6119daa6f167893f3fa6db261fa939d3b9af3eb25a49a944fe61e70ce91e04e69a432d180d44c740dd518c6c9d2988414eaaec1221cee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kopete-lang \

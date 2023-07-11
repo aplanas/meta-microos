@@ -4,8 +4,8 @@ LICENSE = "GFDL-1.2-only & GPL-3.0-or-later"
 
 PV = "3.10"
 
-RPM_NAME = "diffutils-lang-3.10-1.1.noarch.rpm"
-RPM_HASH = "00efe227954a3d1d003ce2b97c0d2f8fc48d3dce8cc86bee8f3fb5a70317cd57ae1cb60ee7ef8ae66a166bf06f1a80a278e8b0a132ac264734644a589e0756fe"
+RPM_NAME = "diffutils-lang-3.10-1.2.noarch.rpm"
+RPM_HASH = "26f4e12882b239a76b7125b3bfbbf6b9ce8fcb5f9c568278f0f983b3542d236d96d2a63ec12fa73eeebb50f5d8e4e597f5f75274a4aaccfac7981e7ff9777533"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "diffutils-lang \

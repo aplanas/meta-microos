@@ -6,13 +6,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.28.1"
 
-RPM_NAME = "python310-OWSLib-0.28.1-1.2.noarch.rpm"
-RPM_HASH = "0c6ff6975bcc25528ec5f9d7854e5e6eb04eb52a84309995dbc34f7314aafb39ae40789914619f8997cf1b8e1f6d9a3601809804243f344a8770681b06634728"
+RPM_NAME = "python310-OWSLib-0.28.1-1.4.noarch.rpm"
+RPM_HASH = "757194b9de63838136ba44f89e8ff38c2594e033e80236e47cd5300d40fd933137b0abf796568606162afeb76e2eafe528751ffb6fcd21f5fd545534bb23c30f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-OWSLib \
-python3-owslib \
-python3.10dist-owslib \
+RPROVIDES:${PN} += "python3.10dist-owslib \
 python310-OWSLib \
 python310-owslib \
 python3dist-owslib"

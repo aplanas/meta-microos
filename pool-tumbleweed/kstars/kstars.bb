@@ -3,10 +3,10 @@ DESCRIPTION = "KStars is astronomy software. It provides an accurate graphical \
 simulation of the night sky, for any time and location on Earth."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
-PV = "3.6.4"
+PV = "3.6.5"
 
-RPM_NAME = "kstars-3.6.4-1.1.aarch64.rpm"
-RPM_HASH = "217ee7f7fa8902f1d2c49d00cdd11540fe1031be136b94775bc4fdc0bd74e66cf4da3b9c1a4b8100179edd976f7dace4eee70a07ef5d8af59caf6caad31b5a8f"
+RPM_NAME = "kstars-3.6.5-1.1.aarch64.rpm"
+RPM_HASH = "cb2f06674db9d421cddfd90497dcdf8b0b57f0a2652303cca7fb7a8629bd8687c28fb547e047508dadd58fa64c034fde5c30467df80c399e24d187c19ae90d81"
 
 RPROVIDES:${PN} += "kstars"
 

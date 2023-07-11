@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.8.0"
 
-RPM_NAME = "libnutscan2-2.8.0-2.1.aarch64.rpm"
-RPM_HASH = "840d8b3a5112853db3f48c813cc5a810a3a68a0f90232676d068637ecd6b6b44a070ea91418174fdb0577de37356b41005a1b7ad01f24ed0541550164a7f474e"
+RPM_NAME = "libnutscan2-2.8.0-3.1.aarch64.rpm"
+RPM_HASH = "e0dbeda915d67be8e14a4db2fd3979e2b78d99b19eb1e43d418e839366c037a5db7b29b465b64be647cd5ff68e1a3d7ba0299df9185329af9439bcb4f3d0cd25"
 
 RPROVIDES:${PN} += "libnutscan.so.2 \
 libnutscan2"

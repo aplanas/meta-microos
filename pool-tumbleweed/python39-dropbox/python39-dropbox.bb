@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "10.4.1"
 
-RPM_NAME = "python39-dropbox-10.4.1-2.8.noarch.rpm"
-RPM_HASH = "5db53b1d237bce3ce45084236b5b0c3aba836e49370a694c561d9afd70a0aa80bcf68d4b10448731984a42e20b9554d1a6b075eff994fd76f08aceb9481944ec"
+RPM_NAME = "python39-dropbox-10.4.1-2.10.noarch.rpm"
+RPM_HASH = "224c9c29577751c9379940aef40116c505740a719905f596d698bf13dd81d798a534c97f00cf4006a2aa9fee3ecf428974e46028b7774dd8839b77fda19fe56e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-dropbox \

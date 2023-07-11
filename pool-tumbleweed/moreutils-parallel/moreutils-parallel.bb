@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.67"
 
-RPM_NAME = "moreutils-parallel-0.67-2.2.aarch64.rpm"
-RPM_HASH = "8da469795555d98899089d638f954930d01d205928eb54a648201bfcc548faed15bc851cff7a90cf522b13ba6c23c8b864b1bb0d708ab1b1f530f0d5d39e57c5"
+RPM_NAME = "moreutils-parallel-0.67-2.3.aarch64.rpm"
+RPM_HASH = "6f205c9fdaf34361bec973a84ae4797db92262334e67dc7431df353924b6a83089f41e14a41a014e623ffa43836b3b56e84ef5fb34a52e0236132a4e6d099dfc"
 
 RPROVIDES:${PN} += "moreutils-parallel"
 

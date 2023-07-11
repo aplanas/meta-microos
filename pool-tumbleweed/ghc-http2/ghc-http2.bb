@@ -4,11 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.0.3"
 
-RPM_NAME = "ghc-http2-3.0.3-2.3.aarch64.rpm"
-RPM_HASH = "b383b05883c0044a8deb8d18f5904ef1cc940bed1ecb441ff71e42bb03bc955f8ea24bf2cf2510315a54083db4ba9f92433a673d6f52fd34d85ab224f7419c6c"
+RPM_NAME = "ghc-http2-3.0.3-2.7.aarch64.rpm"
+RPM_HASH = "b80ca810baa2960110ca7c6d04245ae38fc3132cbb342a3315d09d64f16218790d3b875b302dfee760f0fc57862b182b570b9bff710d0750f4d2238123617239"
 
 RPROVIDES:${PN} += "ghc-http2 \
-libHShttp2-3.0.3-g8K2coD7lK8bFd8vR2MQJ-ghc9.4.5.so"
+libHShttp2-3.0.3-COVYRU9DHikEztQPG0mdmy-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
 libHSasync-2.2.4-Is3H7ZPNMkM5reIoCaqYrF-ghc9.4.5.so \
@@ -26,7 +26,7 @@ libHSghc-boot-th-9.4.5-ghc9.4.5.so \
 libHSghc-prim-0.9.0-ghc9.4.5.so \
 libHShashable-1.4.2.0-FFBRhuY0w4YLmuLEs5uQAt-ghc9.4.5.so \
 libHShttp-types-0.12.3-4BrMFwRucoT4fBt8cCVFS6-ghc9.4.5.so \
-libHSnetwork-3.1.2.8-HNDBp0HF6t0D1fzE2MDtPd-ghc9.4.5.so \
+libHSnetwork-3.1.4.0-FvtFepOtuCUH79FCWyNxIc-ghc9.4.5.so \
 libHSnetwork-byte-order-0.1.6-9jNlcwvZjC3K8A2S0a4vrO-ghc9.4.5.so \
 libHSold-locale-1.0.0.7-B5o2Qz0CVVSCB1XGw7OfzR-ghc9.4.5.so \
 libHSold-time-1.1.0.3-6MrxIvEBZcaI0p7TDiYNU1-ghc9.4.5.so \

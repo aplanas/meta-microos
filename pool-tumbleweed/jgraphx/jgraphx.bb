@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.2.2"
 
-RPM_NAME = "jgraphx-4.2.2-2.5.noarch.rpm"
-RPM_HASH = "7f0930445ee6da49ce2295574c678309c67098288ea45a5f033dd2d32d21c3e70306626bec61970c6dbb39dea4232a6e75da32856fdbdc87f570715c03d26f32"
+RPM_NAME = "jgraphx-4.2.2-2.6.noarch.rpm"
+RPM_HASH = "02c68d52aae94a5f70b5aaaf8f061f93bd2d624b989f54b7faff49d8ef53a85fb24d857c0c49d46fb18a55a4f7278f78e0631ccd15982b48667991fb6af22c72"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jgraphx \

@@ -4,11 +4,12 @@ LICENSE = "Apache-2.0"
 
 PV = "2.4"
 
-RPM_NAME = "python311-contextvars-2.4-4.1.noarch.rpm"
-RPM_HASH = "bf522b040e56e08c01b1ebde37e002f27c56e5c4d16af03f0448b4add2c74848efc486889403a2761e9be5050a53767efec4b2671203b2d1bcf6257f1616ec3b"
+RPM_NAME = "python311-contextvars-2.4-4.3.noarch.rpm"
+RPM_HASH = "77497728640af02a10a5c3e72a9bd4dc72a1cb8ab4a2b209fa3721f70e6778884c81227e3fae46d991d35ea28ca1ed6b37f573d27bc2e5bad8df69048ee7c775"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-contextvars \
+RPROVIDES:${PN} += "python3-contextvars \
+python3.11dist-contextvars \
 python311-contextvars \
 python3dist-contextvars"
 

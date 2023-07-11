@@ -4,11 +4,11 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.7.3"
 
-RPM_NAME = "scdl-2.7.3-1.2.noarch.rpm"
-RPM_HASH = "eb9b7e1be91cbac3baf79e6d098237ab65cbbe1fb55a8da6c994bdf8d7373d5046ebc59f0818230745be43235dbdaa5622db73cf6d6fc47bf37e52ddc68be4ba"
+RPM_NAME = "scdl-2.7.3-1.3.noarch.rpm"
+RPM_HASH = "25cc853dca328b50a0cb436bf2107eae547081db475af8bffaae7770cd43bc29d87ee7326116e75d298403aad5dfac720a17aeb74bef4557705b2f33e8d058db"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-scdl \
+RPROVIDES:${PN} += "python3.11dist-scdl \
 python3dist-scdl \
 scdl"
 

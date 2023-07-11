@@ -8,10 +8,10 @@ Local Live (Virtual Earth), geocoder.us, GeoNames, MediaWiki pages (with the GIS
 extension), and Semantic MediaWiki pages."
 LICENSE = "MIT"
 
-PV = "2.2.0"
+PV = "2.3.0"
 
-RPM_NAME = "python39-geopy-2.2.0-2.3.noarch.rpm"
-RPM_HASH = "5d205e45688e565fe6db1dc722a85129ae4ae27dd508e73924faf3b7a25a15ba4932f4fe795019f921d81301b5cf628e8418a41dc87cd92192de230f50c3bc32"
+RPM_NAME = "python39-geopy-2.3.0-1.1.noarch.rpm"
+RPM_HASH = "40f3fd04add0ae8a27e80600aadb87c042b66a21cc78dfc7abf8c8181e8a4b36132ef1320db984d679ea6877ccfa18008135f9bcdbe7aab56acfde0d27bb36cb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-geopy \

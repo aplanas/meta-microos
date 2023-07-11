@@ -2,10 +2,10 @@ SUMMARY = "KDE interfaces and session daemon to colord"
 DESCRIPTION = "Colord-kde provides KCM module and KDE daemon module for colord support."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "colord-kde-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "e190033548b64edf21b6fc1cbc613f65839e83d6d0159d4a469c9f726ec8cf0ed52e14e7e35cad22403c0cdca67b9de85d11e5c8d53d5da65fdaaea58b5ae66c"
+RPM_NAME = "colord-kde-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "d4d3cfc62deb240ff5ac268972f79d2cd407f42efa57f22291286ae3cbf386d92ebaff6beb6c076a704137e5ecb912233bdb40a210dae1556f14cae882f56435"
 
 RPROVIDES:${PN} += "colord-kde"
 

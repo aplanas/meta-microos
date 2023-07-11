@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.26"
 
-RPM_NAME = "libaccounts-glib-docs-1.26-1.3.noarch.rpm"
-RPM_HASH = "fdefb7d4a990ea2b3e110b9568cab7f74acf51930fbd0c1797a2592fd8405deffbf7c3734cd7bf4be7a5299359885a9a4b265dcc52ae08be6498cc3067e81b78"
+RPM_NAME = "libaccounts-glib-docs-1.26-1.4.noarch.rpm"
+RPM_HASH = "a57584b1ed126231657673539447b19e0b97c43362cf692cee343c04d83c94086b924a4334e78ad68d536a2e38f67b6207bf204c7a217aaec8cd1a2878a0b2b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libaccounts-glib-docs"

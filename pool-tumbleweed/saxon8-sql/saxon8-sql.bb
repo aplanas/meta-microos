@@ -5,8 +5,8 @@ LICENSE = "MPL-1.1"
 
 PV = "B.8.8"
 
-RPM_NAME = "saxon8-sql-B.8.8-133.6.noarch.rpm"
-RPM_HASH = "deb1efef59867d7578d064ee3dad697d56fe727e01088286f55178ac9df98bdfeefbed307e6cf4ada6f4accbe05e376787b0489ed2ee584d58ab121634981080"
+RPM_NAME = "saxon8-sql-B.8.8-133.7.noarch.rpm"
+RPM_HASH = "ca6214ed3c1dffeecbc7f30ae1a14fdb0e82345848da1334e9a46f00f1c804eee3969e7eafc46ff63b8341d47614ee2ff31bfca481e3818aed300de7d89637c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "saxon8-sql"

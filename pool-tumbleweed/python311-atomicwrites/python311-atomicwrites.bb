@@ -10,11 +10,12 @@ LICENSE = "MIT"
 
 PV = "1.4.1"
 
-RPM_NAME = "python311-atomicwrites-1.4.1-1.4.noarch.rpm"
-RPM_HASH = "dbc9641e383ea93aa2ce69aebbefa2677e0d33fa3b3e73c82483fe741d4b78ed19e3612e33e038b57a5f28f9235ccefc5f7dc32c3d63f6480bb630d5e7a4340b"
+RPM_NAME = "python311-atomicwrites-1.4.1-1.5.noarch.rpm"
+RPM_HASH = "dc0cf44734f86a3120af9137a513ed3d1201e1c7939a29d008c51284bdfb96a2e28cc979f5dba52cf7aefc331c37bce307e8bded5875e113a547acdaa03d7c38"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-atomicwrites \
+RPROVIDES:${PN} += "python3-atomicwrites \
+python3.11dist-atomicwrites \
 python311-atomicwrites \
 python3dist-atomicwrites"
 

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "0.6.0"
 
-RPM_NAME = "scim-tomoe-0.6.0-42.15.aarch64.rpm"
-RPM_HASH = "7678e90e7de4d54dc6ce05ec4d314628649bfa6313cce4241d5b73aec345864f02d670a623740a9f96e83ee295e1ee6d8cdc8bf878f5fa8b9983e81bed0f171e"
+RPM_NAME = "scim-tomoe-0.6.0-42.16.aarch64.rpm"
+RPM_HASH = "2d7a02732c62a95e2aac5f1f836162e8165ff71a41ed3eb20f834415e37bac176ec05c3a361d947640c5af0e403e039ecf51bf6b3b780339cefad311a81f6619"
 
 RPROVIDES:${PN} += "scim-tomoe"
 

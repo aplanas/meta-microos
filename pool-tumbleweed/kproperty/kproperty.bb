@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "3.2.0"
 
-RPM_NAME = "kproperty-3.2.0-2.21.aarch64.rpm"
-RPM_HASH = "5822886085fb4a586c2cf81bbe71a86b128a98846e9dc32b4247a339e49ed43eda6ef111c79478cc1a1b80c581e1c999f781ecac94f9dde2458b319a1c0aee04"
+RPM_NAME = "kproperty-3.2.0-2.22.aarch64.rpm"
+RPM_HASH = "fdc0b13b11284961f5d3222fed52b12a06230cd2b10d13f7673e0a280ff73b428a5c6c65f145449fda68ce42d88aaea3c2c6ad698afe30caf32bb6a48d45cea5"
 
 RPROVIDES:${PN} += "kproperty"
 

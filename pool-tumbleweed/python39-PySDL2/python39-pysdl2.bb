@@ -7,8 +7,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "0.9.14"
 
-RPM_NAME = "python39-PySDL2-0.9.14-2.3.noarch.rpm"
-RPM_HASH = "f5841b73e9d02db1d963ebdddc04702b8c227662fd25a9482caa0c8d80abe086b7bc0d2e0336b4221a30d3365fff542a3763d0e57a4bec4961f15a946b37d9c1"
+RPM_NAME = "python39-PySDL2-0.9.14-2.5.noarch.rpm"
+RPM_HASH = "cdffb3e21034fc41e47cae7cc3f6a160f67a86899fa3bcb4725faf4bd6158ff9124471d71217a2338532652d6f0edb4a928d88f9259296ff0cba5f408dbd844c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pysdl2 \

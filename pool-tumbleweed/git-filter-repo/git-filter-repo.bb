@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only | MIT"
 
 PV = "2.38.0"
 
-RPM_NAME = "git-filter-repo-2.38.0-1.2.noarch.rpm"
-RPM_HASH = "da33fb86441cfcc16077aba69acb567596fa87abea68447cfc53c07675512ce79ecf327223b175352cde4bc315278fc704231589d33ff5640f005bf7c76f720a"
+RPM_NAME = "git-filter-repo-2.38.0-1.3.noarch.rpm"
+RPM_HASH = "b190c4755f15f4b4be7f5dc648c1a186b606b19b8f184c15a4e4eaebb0051b96170204106a53291fcf2d4c3a56d2cdcc0e97c3bfed31218214fac4524b03e513"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "git-filter-repo"

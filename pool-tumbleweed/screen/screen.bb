@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.9.0"
 
-RPM_NAME = "screen-4.9.0-2.3.aarch64.rpm"
-RPM_HASH = "11cd363368e7eb451509eb373887358305ab59ecdbc2ac68129cf55dd47159c9632b36a81295027d36de50aa946ea464b5938e8455aee64260defbee9f1050b9"
+RPM_NAME = "screen-4.9.0-2.4.aarch64.rpm"
+RPM_HASH = "236abc29193684c31bf6513b71ecef91c99675445da6e6328a5a5adac160f3b1b78f6a27a221a44ec4b65fd68fff7c9f3789736538be19430e65e843da816de0"
 
 RPROVIDES:${PN} += "config-screen \
 screen"

@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "2.6.2"
 
-RPM_NAME = "python311-dash-2.6.2-1.3.noarch.rpm"
-RPM_HASH = "85268230253415186a34fd6c63ef5a60160b44434bf498181808be863776174fb5c720d89c46dfeea211a1fcdab20921f986a86e2b3e20745ac88f99fd0d5795"
+RPM_NAME = "python311-dash-2.6.2-1.5.noarch.rpm"
+RPM_HASH = "f3e120faf7c3757d4fe46e5953bdfeaa4553ae12de107530ea94bc652e6176c44f7ac76f8add80e22ddd6c75c50a8153364c8a655fbb896cbffb884775bd64bb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-dash \
+RPROVIDES:${PN} += "python3-dash \
+python3.11dist-dash \
 python311-dash \
 python3dist-dash"
 

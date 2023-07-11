@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "0.10.4"
 
-RPM_NAME = "malcontent-lang-0.10.4-1.5.noarch.rpm"
-RPM_HASH = "ba83bf338b0870641dde14f2a4d3f50b254a31ea53c3f22c2054c6f963007169fb3fd923ded61574573113989637447802a8333f8684b36272e072856b2297cf"
+RPM_NAME = "malcontent-lang-0.10.4-1.6.noarch.rpm"
+RPM_HASH = "477ec2c91f1c803ce9324ea51906ecb40bcc17fa20ccd86e3a6be7d6f9dc2c8cfb3f9a25aa77d2dc4eb9398817bae17e893bec13f8ffa6b42fe29df0e0917eb8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-malcontent-af \

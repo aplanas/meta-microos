@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-manichaean-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "99cf60abc0fc04116bb13fec94ca10cf1acd20c24d659801451ae0e0f31e68720f131393c3a82649566e2b22609112e34912de57835d5a5907667d06e2d5b16e"
+RPM_NAME = "noto-sans-manichaean-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "97268a4353b77ce32dcd5f72791edddfd5371f4afa5bb3fdecca602f92525b647aee4404a9392809aca58160a2384b946e4ae58bc45aa37d9e720f0a04bc60d8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-manichaean \

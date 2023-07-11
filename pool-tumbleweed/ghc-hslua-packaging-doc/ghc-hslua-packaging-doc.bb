@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.3.0"
 
-RPM_NAME = "ghc-hslua-packaging-doc-2.3.0-1.3.noarch.rpm"
-RPM_HASH = "eac5a7c1126f268b9db3881fedaf6a4863a710ee66ac71da39ef3872f334dc983b7e03f53a323a929e220baa728e7810fd131b4de9e0a9547bae5afd974e0d4c"
+RPM_NAME = "ghc-hslua-packaging-doc-2.3.0-1.6.noarch.rpm"
+RPM_HASH = "71c8c8ab1a2d1f6cd49bc586ca6d3052b8ea2100ed3aad50303078b708d9e771fb36812233a9f1545e1291ece5fc8fdf17d05696b016749eaa9c19317df949ea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-hslua-packaging-doc"

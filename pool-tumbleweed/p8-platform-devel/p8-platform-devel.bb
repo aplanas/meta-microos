@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.1.0.1"
 
-RPM_NAME = "p8-platform-devel-2.1.0.1-3.13.aarch64.rpm"
-RPM_HASH = "eecfdd1e2ef17a71e7af3698e8e55cf649b1ea2b65cced43ac03ee1995ba74bfc3b77f1d08322767e508bc442991b8761cfcb3798be559966d33d5a82b0b5a07"
+RPM_NAME = "p8-platform-devel-2.1.0.1-3.14.aarch64.rpm"
+RPM_HASH = "799297ee783d0be4db9fa6410547ab53ff5af0ac25fa251bfc10dc6c6ea5e6d38e160fb73d3079f4a5aa9c2a8b1effae74bbf435ad756ee7489d38768530a93b"
 
 RPROVIDES:${PN} += "p8-platform-devel \
 pkgconfig-p8-platform"

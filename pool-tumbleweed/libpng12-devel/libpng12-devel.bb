@@ -9,8 +9,8 @@ LICENSE = "Zlib"
 
 PV = "1.2.59"
 
-RPM_NAME = "libpng12-devel-1.2.59-2.6.aarch64.rpm"
-RPM_HASH = "eabd8d11360c4e54c33ed629df4fb53538ed2ec1a6fda3bea8e5127701a9efecec6d3b1a698dfa8fbdfca5a7a4517e678da35a48c1ab6215c396a158e6c84901"
+RPM_NAME = "libpng12-devel-1.2.59-2.7.aarch64.rpm"
+RPM_HASH = "03336a8c7e1e74db4c38903046e5bafed3cce7ee5ae84e9f34d33f06b8abb87ea51a71a1263128ab09daccf86b65099cf89c780c4e354688838793756f1cc816"
 
 RPROVIDES:${PN} += "libpng12-devel \
 pkgconfig-libpng12"
@@ -19,7 +19,7 @@ RDEPENDS:${PN} += "/usr/bin/pkg-config \
 /usr/bin/sh \
 glibc-devel \
 libpng12-0 \
-pkgconf-pkg-config \
+pkg-config \
 zlib-devel"
 
 inherit rpm

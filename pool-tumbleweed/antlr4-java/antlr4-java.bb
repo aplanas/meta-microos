@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides Java runtime library used by parsers genera
 ANTLR 4."
 LICENSE = "BSD-3-Clause"
 
-PV = "4.9.3"
+PV = "4.13.0"
 
-RPM_NAME = "antlr4-java-4.9.3-1.10.noarch.rpm"
-RPM_HASH = "85593f4b42ddba1db8d0a5254d04d55d8f8ad6a9888037d24d125a8ee56ca0197c9c61c940e132058561a370ba2a7116497d334ee44a67d6683d2dba86981d04"
+RPM_NAME = "antlr4-java-4.13.0-1.2.noarch.rpm"
+RPM_HASH = "f098d8aae0ca3be41389a5e87a8385094a71f1a0020140154fb56132f30e5bbbaa4c480537dff5250ca3e6fa3ebf250344393d37a10d2f733751c74655f17ca7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "antlr4-java \

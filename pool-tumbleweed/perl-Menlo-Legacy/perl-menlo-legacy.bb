@@ -11,15 +11,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.9022"
 
-RPM_NAME = "perl-Menlo-Legacy-1.9022-1.10.noarch.rpm"
-RPM_HASH = "970e96be59bb9f738fdc36ef78dbb69784559ab7786f3323096b9d1711dc16339fedc432de45f5c017f0e72df953977d34b627d2345a97c252b9c6ea5faca124"
+RPM_NAME = "perl-Menlo-Legacy-1.9022-1.11.noarch.rpm"
+RPM_HASH = "747a9e4104f32867b85a941a98e148f976bd3e051e23f9384f76d33c81c76baffb5c7a92124c172cede0b810a61d0e5fc8b8dd0a52ebea5f1d57ba3115eb4a17"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Menlo--CLI--Compat \
 perl-Menlo--Legacy \
 perl-Menlo-Legacy"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Menlo \
 perl-version"
 

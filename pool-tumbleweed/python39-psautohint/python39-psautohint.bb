@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.4.0"
 
-RPM_NAME = "python39-psautohint-2.4.0-1.9.aarch64.rpm"
-RPM_HASH = "5ade1f0f748f9dccff57aa2fb842b8a057167f493a069d17c8db91375fe4ac85d67e7faba8fbd52e985e7969079761b642733629d2e5d70f299b9caee9b6071e"
+RPM_NAME = "python39-psautohint-2.4.0-1.11.aarch64.rpm"
+RPM_HASH = "21007fdf00e0b71cb7e1f026925a35dfa166b2c9ff66062aeb691e288286b99ce480ffe8ab2122a063079236418d56339b67b36ff01356521485f03a27705227"
 
 RPROVIDES:${PN} += "python3.9dist-psautohint \
 python39-psautohint \

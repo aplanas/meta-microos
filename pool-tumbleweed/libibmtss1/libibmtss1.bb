@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.6.0"
 
-RPM_NAME = "libibmtss1-1.6.0-4.4.aarch64.rpm"
-RPM_HASH = "4c6ee02afe62b13d357bca661cc1cac4ffb47e3b0e14c83048fa6efcfdb21ace49a0d81fad19fb2828ddbbad393be91702cde984bfb12011ec1a713db62fb370"
+RPM_NAME = "libibmtss1-1.6.0-4.5.aarch64.rpm"
+RPM_HASH = "163547af41fad8b69c0a76423b3db241439c9cb291e09188f94bd495394fd9d725b1cc81a2c9aa56676b7f62cf1d2d7377d69db475b3fbec73f064cf5c72d480"
 
 RPROVIDES:${PN} += "libibmtss.so.1 \
 libibmtss1 \

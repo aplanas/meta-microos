@@ -4,8 +4,8 @@ LICENSE = "Apache-1.1 & BSD-3-Clause & Apache-2.0 & SUSE-Public-Domain"
 
 PV = "2013.6.1"
 
-RPM_NAME = "msv-javadoc-2013.6.1-3.10.noarch.rpm"
-RPM_HASH = "5ab4fc2554d934c041b8db65ff1316dccb83621c360b17d13d87a8f118a235e7f8f9caa92d0f2dcc80bcd0679357e581783f8f09accc0776d4b5c95729c1c54a"
+RPM_NAME = "msv-javadoc-2013.6.1-3.11.noarch.rpm"
+RPM_HASH = "bfeb734cd89bfaa9763b788fa932140dae4c529b255d00ae49769b8e20179a99a6fecd7c2068e04227c2d5ef12ad49d3c57eb71e4323ca2274fd90f5ecaa4878"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "msv-javadoc"

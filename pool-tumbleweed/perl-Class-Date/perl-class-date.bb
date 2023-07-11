@@ -8,8 +8,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.1.17"
 
-RPM_NAME = "perl-Class-Date-1.1.17-1.19.aarch64.rpm"
-RPM_HASH = "ce925dce5549fd0d7074b9719b99593779ceb1d196d39063d05ee7b47f9523a4e280f5d32e940fd9fee4e26e7df53823e855cad6bcc1d10c9fea78867e3a065f"
+RPM_NAME = "perl-Class-Date-1.1.17-1.20.aarch64.rpm"
+RPM_HASH = "c171e78a9094d4e9d4a4388ef8467edb2ca14d62d02955886c0b2f04673edcfff64b3ab0f1dd71d22e5fd2b01c226836889786b87362dd44c1b0eb39d1357393"
 
 RPROVIDES:${PN} += "perl-Class--Date \
 perl-Class--Date--Const \
@@ -17,6 +17,6 @@ perl-Class--Date--Invalid \
 perl-Class--Date--Rel \
 perl-Class-Date"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

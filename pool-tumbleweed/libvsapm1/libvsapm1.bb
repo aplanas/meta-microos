@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20210626"
 
-RPM_NAME = "libvsapm1-20210626-4.7.aarch64.rpm"
-RPM_HASH = "8335ca263f8925a251f16ae11e010be06641ed9fa109bd9bd90ac8ed0c6d934cecf7b65ee5ae3f46a56547fe94c70d7bd5308460b273b45bf1cfad15952fc830"
+RPM_NAME = "libvsapm1-20210626-4.9.aarch64.rpm"
+RPM_HASH = "256444045c1d727e9f1b5c82cd9a1ebdecdf86a80f84bad469d6560195223fb5a5eb6a093cce89412b0b5134ce8cedd012d53c58489069a7bfaf29d64dd5e434"
 
 RPROVIDES:${PN} += "libvsapm.so.1 \
 libvsapm1"

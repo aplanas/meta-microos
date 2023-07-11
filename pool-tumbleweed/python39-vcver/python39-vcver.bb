@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.2.12"
 
-RPM_NAME = "python39-vcver-0.2.12-1.3.noarch.rpm"
-RPM_HASH = "b80e5f5ddea98d283bd3f4f6a0517e2954e8370ba209146f0fe5c3bb52a59db77c27a5d47e34d2244fc579a77dff27d6827aa9ae11fe7ddeda6ec83b319c37f1"
+RPM_NAME = "python39-vcver-0.2.12-1.5.noarch.rpm"
+RPM_HASH = "26a9ebe57e29f68551b305fbab07d3bf8ac64c401ddaf6ca0d453eb393186fcd7acb85c93bf9fc7f33cbd286456fd4326ce55e63e6eea53474c2627503676c17"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-vcver \

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package WebKitGTK-4.1"
 DESCRIPTION = "Provides translations for the 'WebKitGTK-4.1' package."
 LICENSE = "BSD-3-Clause & LGPL-2.0-or-later"
 
-PV = "2.40.2"
+PV = "2.40.3"
 
-RPM_NAME = "WebKitGTK-4.1-lang-2.40.2-1.1.noarch.rpm"
-RPM_HASH = "28e25f3501f6fd3c2a5d49c6d9fd191267a4854f799236a1dd9bc67e504285d1c06c91e955a0080810eab2f9d27cff839a96df9c2a2bd8ba886c149575a6bde4"
+RPM_NAME = "WebKitGTK-4.1-lang-2.40.3-1.1.noarch.rpm"
+RPM_HASH = "551aba2075d28d75bfaa7e58a26eb715775c045885db64bd2fd42c473d2f4af1ebb41bc3b54a4c61476fadcd1858e759c88d23b9a917bd40fecc0a017dce97d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "WebKitGTK-4.1-lang \

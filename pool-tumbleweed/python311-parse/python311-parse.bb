@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "1.19.0"
 
-RPM_NAME = "python311-parse-1.19.0-1.10.noarch.rpm"
-RPM_HASH = "1ca72f28053b31733fb4e7bbae34ee77d0d53690af3f2a319d197af9a30db765d4347c08e1b42f7d69ad78fb89ff3e312c7e83a8b110886f0e4de0bc9df5d85b"
+RPM_NAME = "python311-parse-1.19.0-1.11.noarch.rpm"
+RPM_HASH = "c1fbfd2375378a73cf8abb2ebe956ad6e07dfa5b1b6efb99bbc82594e8103e174cf9765be6733b309ab633aa32f5ddae6cc9fe3bd60d6734c138fe7d978e3dba"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-parse \
+RPROVIDES:${PN} += "python3-parse \
+python3.11dist-parse \
 python311-parse \
 python3dist-parse"
 

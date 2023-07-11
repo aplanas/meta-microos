@@ -5,8 +5,8 @@ LICENSE = "MIT & BSD-3-Clause & BSD-2-Clause"
 
 PV = "1.21.1"
 
-RPM_NAME = "blosc-devel-1.21.1-1.10.aarch64.rpm"
-RPM_HASH = "2dde0279578fefaee873b6d85416bb1c9264aee481114103e9c2c204a01ee880d74de9310a7f66bbb55a3a68ae426a4008a95843d86aa4b259f2af50dcfef0c3"
+RPM_NAME = "blosc-devel-1.21.1-1.11.aarch64.rpm"
+RPM_HASH = "51bd639358e4ee2f3331279a7389afceb299b27e73e5d9b4c1d2c11b471ea6fa7e4ec985c9c8d9fb59a907ba37de0c23d62ed105ce9a7958821ceb82936975e6"
 
 RPROVIDES:${PN} += "blosc-devel \
 pkgconfig-blosc"

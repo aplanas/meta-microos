@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "0.8.9"
 
-RPM_NAME = "libqhexedit4-0.8.9-1.15.aarch64.rpm"
-RPM_HASH = "6c3a0a9ccc3c207c58d8374ae2a6723bca6b964db0b8990421e0aef7d188a7e52142446344b7e77f1d32c602d9d5fc268a9beeeb6f495d62578579023c6f10fe"
+RPM_NAME = "libqhexedit4-0.8.9-1.16.aarch64.rpm"
+RPM_HASH = "014461acbf2e7e2335c166df8d11c8c43ffa80fa3ad66d9df2d250dcab69e1db7baac43adfce892880c29daf934ea1e1ca45abcf01fbdac3334e1a63968f1514"
 
 RPROVIDES:${PN} += "libqhexedit.so.4 \
 libqhexedit4"

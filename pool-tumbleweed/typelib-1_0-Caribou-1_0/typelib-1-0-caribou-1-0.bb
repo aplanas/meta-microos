@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.4.21"
 
-RPM_NAME = "typelib-1_0-Caribou-1_0-0.4.21-8.7.aarch64.rpm"
-RPM_HASH = "89637463170894d02414bb196e7a44329d6114e37e0e654a0bad2fe2f469272669980566ea80d66d081c52ede34f78fdbe2f728e608ebb597bb9a69a58aa90db"
+RPM_NAME = "typelib-1_0-Caribou-1_0-0.4.21-8.8.aarch64.rpm"
+RPM_HASH = "051aa89d12d9a431c454ef76a3b889273a3800ee07705dec41ea16d2f4fcb7adf39410efda8df06b580baa611e689497e083ad50332187eda6d127f842629ce0"
 
 RPROVIDES:${PN} += "typelib-1-0-Caribou-1-0 \
 typelib-Caribou"

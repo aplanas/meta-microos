@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "3.4.1"
 
-RPM_NAME = "libMyGUICommon3_4_1-3.4.1-2.1.aarch64.rpm"
-RPM_HASH = "d3a52fae8e240cb9b2bf2acd62f68e686e834c4397013f611e1719208f0d6824e21ca6bc58c7ab4417098c1f5c1a3f83f000ce3b2a407d463ef818560fe1a8cf"
+RPM_NAME = "libMyGUICommon3_4_1-3.4.1-2.2.aarch64.rpm"
+RPM_HASH = "4855ce1329b0dad167fce23c4c56d10a8b358cf3eba2a105bfc4a859f53090832fcc3ece30f0b566f55bfdafee40cd4c23737229ffce084cd8a50def7c128d89"
 
 RPROVIDES:${PN} += "libMyGUICommon.so.3.4.1 \
 libMyGUICommon3-4-1"

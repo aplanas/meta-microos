@@ -10,11 +10,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.8.0"
 
-RPM_NAME = "python311-Send2Trash-1.8.0-1.9.noarch.rpm"
-RPM_HASH = "e230b56c650cefe04996ff4ac1c5630cd7d7cdf4ade88aa592b943cb8b56cd8649954117760cbd303f2ce6a3e1e14c8a9910263b30bae27f40e4de2ed2541349"
+RPM_NAME = "python311-Send2Trash-1.8.0-1.11.noarch.rpm"
+RPM_HASH = "e009697c35df4ab28735cdc43f9917eb3d93b64e5fe256474d219c10fea36a59473d08a0dafaeef1bb70b8db030a6744c79e057107d95875713ff7b07565ff13"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-send2trash \
+RPROVIDES:${PN} += "python3-Send2Trash \
+python3.11dist-send2trash \
 python311-Send2Trash \
 python3dist-send2trash"
 

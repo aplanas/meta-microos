@@ -7,11 +7,12 @@ LICENSE = "MIT"
 
 PV = "2.3.1"
 
-RPM_NAME = "python311-gTTS-2.3.1-1.5.noarch.rpm"
-RPM_HASH = "b7c2f357db7dd23fc3d087d4ec98098da6000ea11508c3ad327887a9fad9dc0b74abc1cd7ceb2e959485bf567c9ed8072d333ab399383e90017aae68e22e852d"
+RPM_NAME = "python311-gTTS-2.3.1-1.6.noarch.rpm"
+RPM_HASH = "6ed77e6b867b515c303951895e00d8621d9632e0a1a786ed052f72cb0e89d103e709c77956965459010c2a21809ea43b7b068d4b4faec4cbf725f41d6ee93d70"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-gtts \
+RPROVIDES:${PN} += "python3-gTTS \
+python3.11dist-gtts \
 python311-gTTS \
 python3dist-gtts"
 

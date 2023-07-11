@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "17.09.0"
 
-RPM_NAME = "telepathy-logger-qt5-devel-17.09.0-1.16.aarch64.rpm"
-RPM_HASH = "3532b52849fd074bc0c3c3ee0ee68cd4b0eae6e17f197b41c5b504fc07e2b02b383a7ded1438be04ae2ccd401a4cce2facc158b412f5075617be8ca9ff3cde8e"
+RPM_NAME = "telepathy-logger-qt5-devel-17.09.0-1.17.aarch64.rpm"
+RPM_HASH = "f6e1e3f7a5346c9ad9dea217a7dfb078e102447d095e2c5b85497486d63e23355147a3a8af9f56e0b6bdf43c6471189313d6d139116e7b8300a6412266f911a1"
 
 RPROVIDES:${PN} += "cmake-TelepathyLoggerQt \
 telepathy-logger-qt5-devel"

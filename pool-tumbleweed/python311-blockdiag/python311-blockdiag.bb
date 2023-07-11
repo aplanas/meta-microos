@@ -5,11 +5,12 @@ LICENSE = "Apache-2.0"
 
 PV = "3.0.0"
 
-RPM_NAME = "python311-blockdiag-3.0.0-2.1.noarch.rpm"
-RPM_HASH = "f506809d8e7815d9d9b6d7956dc9867b644fcdd30b25b3beaef34df45d49a561ae77f7ad83d6c324ddc3d8a5f4bf0570818a42d64d300216d8463f5f2a50e0ff"
+RPM_NAME = "python311-blockdiag-3.0.0-2.3.noarch.rpm"
+RPM_HASH = "f898f10772e0494ad1f6148e8041ad7df74d0501e2ad09a7a075d2355376a4f1ee4558e71fc13a2f7cd87f9ca975e3a96ac59b6506127889306b32e86b27f96e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-blockdiag \
+RPROVIDES:${PN} += "python3-blockdiag \
+python3.11dist-blockdiag \
 python311-blockdiag \
 python3dist-blockdiag"
 

@@ -14,8 +14,8 @@ LICENSE = "MIT"
 
 PV = "0.9.3"
 
-RPM_NAME = "python39-pymacaroons-pynacl-0.9.3-5.6.noarch.rpm"
-RPM_HASH = "8954e793ed3b3709e09fdc6a996d5e15cf0a3dd9d89afb1d187342b59b73a64865c4d89f54adae65db571059f043d9b09fa5df72e9ea4ddfa76d87b79dd82a00"
+RPM_NAME = "python39-pymacaroons-pynacl-0.9.3-5.8.noarch.rpm"
+RPM_HASH = "cae909b6c1cbbd6e2a9043ec2e9a14b58d0fb38f7f30f7cf4811be37a286f2454c85ed14ecf27192ea5dd4699d018d2208a1ac72a499f1e81528e2afd0f91913"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pymacaroons-pynacl \

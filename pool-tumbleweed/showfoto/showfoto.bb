@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "8.0.0"
 
-RPM_NAME = "showfoto-8.0.0-3.2.aarch64.rpm"
-RPM_HASH = "f01785e0429cd2578059bcea25368c7249f1c8a29e2868525eb0557de4253f6d2996ad6c005375dae72a9d3374a48acfba51bc5d71905431e3bb4b37fa2f5afc"
+RPM_NAME = "showfoto-8.0.0-4.1.aarch64.rpm"
+RPM_HASH = "bf4599fe667cd3e9cda24b31136eedccfd07c539b204ebc7a27bc969644b941a7d67a1d774a00a169ac746a47659c9e60c3dbd789dc1d65af8bc0b6ade9352e5"
 
 RPROVIDES:${PN} += "showfoto"
 

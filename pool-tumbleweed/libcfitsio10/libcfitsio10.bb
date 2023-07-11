@@ -9,8 +9,8 @@ LICENSE = "ISC"
 
 PV = "4.2.0"
 
-RPM_NAME = "libcfitsio10-4.2.0-2.3.aarch64.rpm"
-RPM_HASH = "07c6aa41bc0e3c0e9dc2b6e4b77ff52fb6a58f87cb57184035aff671bbe137e16e0f6929cfcb479fd7e3c5ab2d276b752b62e290d358c5f5cdb128dd08af15a2"
+RPM_NAME = "libcfitsio10-4.2.0-2.4.aarch64.rpm"
+RPM_HASH = "e5612b53f7e05767e1ba4e28bd6c2d694095a1d70416107faa6641f145d8ec8a27a89aea5d4af92ffad6879397e200e5cf5860a2d6e922b65e278349d9be2cc2"
 
 RPROVIDES:${PN} += "libcfitsio.so.10 \
 libcfitsio10"

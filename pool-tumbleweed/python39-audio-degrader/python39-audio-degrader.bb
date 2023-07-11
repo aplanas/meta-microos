@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.3.1"
 
-RPM_NAME = "python39-audio-degrader-1.3.1-1.10.noarch.rpm"
-RPM_HASH = "6e19b32c35b9b939be0e5d8a311be51c686a980890204a01479fb23270b8ae3fbf04e6cf00c5bb48c1b7d709f8687cd91a1628fb9a3b55d442fb17dda54732c7"
+RPM_NAME = "python39-audio-degrader-1.3.1-1.12.noarch.rpm"
+RPM_HASH = "ad050b0fd936933010e2f3e126ac9d81d4aa2a4bdb7668742a6912996e201eb34891ec01c4735ce18d658231e4f68e8230be67a3f6d5b45ddfea107b9a97ef3c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-audio-degrader \

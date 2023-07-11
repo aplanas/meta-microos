@@ -8,12 +8,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.8.1"
 
-RPM_NAME = "python310-SpeechRecognition-3.8.1-5.4.noarch.rpm"
-RPM_HASH = "2ff68136e13ca10b3d3b41ac869098ef163c0a9c11ff14dbc7fee2a0eb07514c82ee4272bc01e27b88a995f3ea35c23321196cc858c08d763a27d92a6c9052bc"
+RPM_NAME = "python310-SpeechRecognition-3.8.1-5.6.noarch.rpm"
+RPM_HASH = "0c576198d08a894ec170f66d3ecfc70b653dce667bf961c16db894f89014ad5ec616fc538944accc49fb8118ec8b820fe10938e0cd45d1fe384ee29403e3319f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-SpeechRecognition \
-python3.10dist-speechrecognition \
+RPROVIDES:${PN} += "python3.10dist-speechrecognition \
 python310-SpeechRecognition \
 python3dist-speechrecognition"
 

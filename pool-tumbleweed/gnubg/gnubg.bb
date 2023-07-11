@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.06.002"
 
-RPM_NAME = "gnubg-1.06.002-3.4.aarch64.rpm"
-RPM_HASH = "e5f2379dccffc875a9d2e344e9e3d33c1f2c31925954fc93419488121a00478290fed0de707f4267e7c971703d49cdf28c00fcd444762146dbc7ebb3b480e51a"
+RPM_NAME = "gnubg-1.06.002-3.5.aarch64.rpm"
+RPM_HASH = "478ce338fdbdfc253edd74b01a629f5725dc10283f4e472fff69fb63d84651307721334f8e8236f4de147992ea7a706469c94eeb07f9e7cca578f04b73941d7c"
 
 RPROVIDES:${PN} += "gnubg"
 
@@ -36,7 +36,7 @@ libm.so.6 \
 libpango-1.0.so.0 \
 libpangocairo-1.0.so.0 \
 libpng16.so.16 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libreadline.so.8 \
 libsqlite3.so.0"
 

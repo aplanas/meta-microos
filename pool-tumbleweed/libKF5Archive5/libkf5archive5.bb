@@ -6,10 +6,10 @@ If also provides transparent compression and decompression of data, like the \
 GZip format, via a subclass of QIODevice."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "libKF5Archive5-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "2f96aaeddb4548d94ac49050f77a2c5dffd55ece38792615541db7e4054510b5d1fa703dd0b1be0983bcfd9d6bfca574cde8142219af93de0fc22bfc38235f8d"
+RPM_NAME = "libKF5Archive5-5.107.0-1.1.aarch64.rpm"
+RPM_HASH = "44e8df503537c048c91bb19eb9b6b8c500c3f54ebd5518541fdc3f97c554ced85647fd7acf726ec4c9ce95fc3f91d57f9b4324461409bafc41059c7433688da8"
 
 RPROVIDES:${PN} += "libKF5Archive.so.5 \
 libKF5Archive5"

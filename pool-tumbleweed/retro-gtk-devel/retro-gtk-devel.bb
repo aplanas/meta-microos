@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.0.2"
 
-RPM_NAME = "retro-gtk-devel-1.0.2-2.7.aarch64.rpm"
-RPM_HASH = "bda6a9bd89ea0b9d03d3f1690f289a5fb0edaf14f4ec59c835305d7f053e17f5bae747d963bd8be39c4d6a373815afab4aa85a1134c96872efe88d1c7fa5748c"
+RPM_NAME = "retro-gtk-devel-1.0.2-2.8.aarch64.rpm"
+RPM_HASH = "0d9a4081500d25bf0b4f6f7253a3443954c7f5aece7aee9d7b696a90d7b37c9afb61e6bfc063574c39b9dd261fcaca4d507032e0dbd1ea1f6186447c036022e7"
 
 RPROVIDES:${PN} += "pkgconfig-retro-gtk-1 \
 retro-gtk-devel"

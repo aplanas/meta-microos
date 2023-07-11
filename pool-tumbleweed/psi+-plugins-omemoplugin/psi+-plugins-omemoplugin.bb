@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-or-later"
 
 PV = "1.5.1615+0"
 
-RPM_NAME = "psi+-plugins-omemoplugin-1.5.1615+0-3.1.aarch64.rpm"
-RPM_HASH = "65aad6759aafc100e12d2c423a8b90870dcba8ba28694e8824820452464c3ecc94f2194da66ed8707f08e2ccc547283c0a20cd45288d188528daabb5f15d97bf"
+RPM_NAME = "psi+-plugins-omemoplugin-1.5.1615+0-3.2.aarch64.rpm"
+RPM_HASH = "b3179e37d02353557a593d01959be037ba9c4dbcd1a608423f446ef2f31d7c11d2cff8f30d07909b1ba611b3be00ec00e4487a295f4ba7567f30b025cf4bd7b1"
 
 RPROVIDES:${PN} += "libomemoplugin.so \
 psi+-plugins-omemoplugin"

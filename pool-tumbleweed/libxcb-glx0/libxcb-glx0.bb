@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.15"
 
-RPM_NAME = "libxcb-glx0-1.15-2.2.aarch64.rpm"
-RPM_HASH = "bd6f6124c98ce7ea7429e056c7502a37a4db30ea3946d9393aeec4534c215307e3210479124f4e1b9c05b132222289daca2dfee34750cefbc51cd330dcf72c9d"
+RPM_NAME = "libxcb-glx0-1.15-2.3.aarch64.rpm"
+RPM_HASH = "bc5adafbceed4a32bd1d29510a522c2f6099ee8410719a18f20f8c6969a33a6973c17b9544e6d8c4e8a97ed3feafd08a1895493f60b5e88e4dcb345d6609beea"
 
 RPROVIDES:${PN} += "libxcb-glx.so.0 \
 libxcb-glx0"

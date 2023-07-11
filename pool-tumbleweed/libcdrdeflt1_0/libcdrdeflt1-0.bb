@@ -5,8 +5,8 @@ LICENSE = "CDDL-1.0"
 
 PV = "3.02~a10"
 
-RPM_NAME = "libcdrdeflt1_0-3.02~a10-47.3.aarch64.rpm"
-RPM_HASH = "92c7327e48c497473fb9a266dc7440d095501b392922924f75baf24b2aa26209cda2eb2f5ab35bdbf2df52db63c301e4cd77680fd61e1c8dab893b465e7f1acd"
+RPM_NAME = "libcdrdeflt1_0-3.02~a10-47.4.aarch64.rpm"
+RPM_HASH = "6f52d122fc563474359caf702f526dc822da4113712df91b30a1288fde0d4b0c86200ebf22732092efa147b79867ed9c80b08dc795037a33d85a4397747d93ed"
 
 RPROVIDES:${PN} += "libcdrdeflt.so.1.0 \
 libcdrdeflt1-0"

@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "1.2.1"
 
-RPM_NAME = "beansbinding-javadoc-1.2.1-29.11.noarch.rpm"
-RPM_HASH = "0e8fcebb9427f6e7b77d09d705ea433126feff1df05078fff32e14bcdbe3ab0504ec6aafb57e4a179a5c2169c1f523b85a0c8af0a90d47ee2f29dc0e14ad0c02"
+RPM_NAME = "beansbinding-javadoc-1.2.1-29.12.noarch.rpm"
+RPM_HASH = "339ad0d13eafcdd1430cf1438cfe9834bfd2198954aa25fe2321bed8d522febc2bd5c4fad67d1a951479bb7da63113b85c29a43524f1ccd1685c1f571d26c150"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "beansbinding-javadoc"

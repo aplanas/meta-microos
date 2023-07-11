@@ -10,11 +10,12 @@ LICENSE = "MIT"
 
 PV = "4.1.0"
 
-RPM_NAME = "python311-praatio-4.1.0-1.12.noarch.rpm"
-RPM_HASH = "387ae73caa3df704b7c1684463a546b844a9a36df6981d4161e3e11258c3f55492151a01472e37961f69ab9b5396d1199946aac87d068a5d85f80f46abd0ab73"
+RPM_NAME = "python311-praatio-4.1.0-1.14.noarch.rpm"
+RPM_HASH = "fb954be059f066aeef22c5047df103e7defc3b5c930e1ef3a2f9d1e343380cb685e1396256dded33133ad05aa8f5ad053ac32e064f6a5e827d35c7d71a0a6abc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-praatio \
+RPROVIDES:${PN} += "python3-praatio \
+python3.11dist-praatio \
 python311-praatio \
 python3dist-praatio"
 

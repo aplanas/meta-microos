@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause & Zlib"
 
 PV = "1.0"
 
-RPM_NAME = "laf-plugin-javadoc-1.0-7.6.noarch.rpm"
-RPM_HASH = "bd889b7fa730abfd33152210b9c6dbe96cc5b870ee94e78463a36eed03ae0f9b2a1f0bf142882ec7c5f6677a3cb4c46939dad3d6ae5e5b6e2fce4c4f929c211c"
+RPM_NAME = "laf-plugin-javadoc-1.0-7.7.noarch.rpm"
+RPM_HASH = "54002b04e5b6b23af81f733158e166f305b34012543725f133ce608276d99bc5e099cfd340d6bcfa9e8ad260941f0c9baddba969c1d03f6746d2acb7a4bc3cdd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "laf-plugin-javadoc"

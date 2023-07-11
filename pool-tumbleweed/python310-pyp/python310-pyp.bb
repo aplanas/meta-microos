@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "python310-pyp-1.1.0-1.3.noarch.rpm"
-RPM_HASH = "a0d4da34a9396a769f4d7b2e3e196acfb52fbf7e4453011e00125227bd7c0f68afb872a390340660eda688f044ff6790ebe9b905c2d508c542a513511d45697f"
+RPM_NAME = "python310-pyp-1.1.0-1.5.noarch.rpm"
+RPM_HASH = "6a47d3eb4c1abbd633e85030626eb241670f18306b19fe6391eb3ea9420f1f0d1ac34277e2b2b2d29020f0cf24658c136025ac818791506234997e22cd3e8bb7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pyp \
-python3.10dist-pypyp \
+RPROVIDES:${PN} += "python3.10dist-pypyp \
 python310-pyp \
 python3dist-pypyp"
 

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kscreen5"
 DESCRIPTION = "Provides translations for the 'kscreen5' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "kscreen5-lang-5.27.5-1.1.noarch.rpm"
-RPM_HASH = "c6ca3e36f6c1f4f762e2fc6146fdeaa7ee97da6288ef671a43473d34f224eb7af311fa499276afcd7c1222c8665deac4f7792a5a5b69dec5c87fd52798aca3ec"
+RPM_NAME = "kscreen5-lang-5.27.6-1.1.noarch.rpm"
+RPM_HASH = "73655a0a33e3c782463f44abf8c4d72174fec6b7c25e35cee0775c76817fbde9816b1f5eee4d117ed4130e146be3a438f7fd61b8bc2c6702c9fd0bb057bf14c8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kscreen5-lang \

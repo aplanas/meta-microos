@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later & (LGPL-3.0-only | GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-wayland-imports-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "f3877976acae295696c916ae0938d284aa039a9032a2392a610b5851cd848cc0d2b8e7c126e36e693a8d41529aa5b92d4f84c4028db03d45845e740bfff99325"
+RPM_NAME = "qt6-wayland-imports-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "8bc37c1468d44fcb5780079a8312b427a244cd95a8eb2aa9fd56920c05851626a52ce260bfa75fc1a607b42dbf07a9075493c48c8deec40d665874a045a97a90"
 
 RPROVIDES:${PN} += "libqwaylandcompositorplugin.so \
 libwaylandcompositoriviapplicationplugin.so \

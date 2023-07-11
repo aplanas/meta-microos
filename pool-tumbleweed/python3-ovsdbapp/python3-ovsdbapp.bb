@@ -4,14 +4,14 @@ Open_vSwitchs OVSDB protocol (https://tools.ietf.org/html/rfc7047). It wraps \
 the Python 'ovs' and adds an event loop and friendly transactions."
 LICENSE = "Apache-2.0"
 
-PV = "2.2.1"
+PV = "2.3.0"
 
-RPM_NAME = "python3-ovsdbapp-2.2.1-1.2.noarch.rpm"
-RPM_HASH = "3598d73d7676bdec9e228571d91c80c5d15b6f768c8b8a8e195e4fa06128a35c3c11896d05b02e72a791a4d22094d9efdb3b50ae91f55d869c5d19ffbbacaa2b"
+RPM_NAME = "python3-ovsdbapp-2.3.0-1.1.noarch.rpm"
+RPM_HASH = "85eae122d1a2c08dfb29838f85adf2c328ac1d49cf03b71ca09330eeadfcfbd74ca553560a80de6065d967d8a25039fc1d696ed65821a8a1fceaeb81d2f164d5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ovsdbapp \
-python3.10dist-ovsdbapp \
+python3.11dist-ovsdbapp \
 python3dist-ovsdbapp"
 
 RDEPENDS:${PN} += "python-abi \

@@ -3,10 +3,10 @@ DESCRIPTION = "Codec 2 is a speech codec designed for communications quality spe
 between 700 and 3200 bit/s."
 LICENSE = "LGPL-2.1-only"
 
-PV = "1.1.0"
+PV = "1.1.1"
 
-RPM_NAME = "libcodec2-1_1-1.1.0-1.1.aarch64.rpm"
-RPM_HASH = "7fefb96028e54efb3aae4200cb89fd1f1c1bf763b22c92d5fc92a96f74260e9a0b29b5f9b8f983467371e549a06cb94b9d29a6cd1a237942961b4130dea0d8f4"
+RPM_NAME = "libcodec2-1_1-1.1.1-1.1.aarch64.rpm"
+RPM_HASH = "c74b1183561f493113121c73d9a7f78f7f3780e24b4d586c7d4163beb345e83a657ca6ca0aecc0d7258c66802032748ae62ea07041a0d8d897d81d73f8bf4ad3"
 
 RPROVIDES:${PN} += "libcodec2-1-1 \
 libcodec2.so.1.1"

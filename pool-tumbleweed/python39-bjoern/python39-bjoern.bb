@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "3.2.2"
 
-RPM_NAME = "python39-bjoern-3.2.2-1.5.aarch64.rpm"
-RPM_HASH = "67d9ab81a6b6d432a0a7aa47d8f90b62a4a0e34b59b8d594f1c2564432eb6585e4f32c8c35e04aa8665a4cf9186e65439822f000888c6732d58aa3ba62f6aaec"
+RPM_NAME = "python39-bjoern-3.2.2-1.7.aarch64.rpm"
+RPM_HASH = "6172ba2c72a616638b70f1302812efa1790a9e963be6e9c9a8ec52ccb099200bce73a1d0d0559790ae8cb4f1f0aa86576de9daa1ec3f93d56173d0cd32f74cde"
 
 RPROVIDES:${PN} += "python3.9dist-bjoern \
 python39-bjoern \

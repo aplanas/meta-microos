@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "20230101"
 
-RPM_NAME = "fontforge-devel-20230101-1.3.aarch64.rpm"
-RPM_HASH = "b3e434aadf98ecce158e88924493cb3ff3dbfed20e9ae3001e7414c0bbdc679a5e182e251dd6cd1d142c03d1cd004300d08c8466b968fcf5c9cc8f01a1c015d5"
+RPM_NAME = "fontforge-devel-20230101-1.4.aarch64.rpm"
+RPM_HASH = "2d247d6af446de54ef1880395cd65a2370a37bb9fd18a904b2d2141a5a0ac9958855931a0c11264c5ac24a96da3c69675d6b48df68b9aeb2e21bc958474ab7d0"
 
 RPROVIDES:${PN} += "fontforge-devel"
 

@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.0.24"
 
-RPM_NAME = "gloox-devel-1.0.24-2.5.aarch64.rpm"
-RPM_HASH = "1060920e482b2dd9cda719f2e00870d33c2d6805ff66852a54c008a1740ae9364f1cf42a7a61e018ddab9d817adee5ea09693a7afa48e4b173dfffe0c25ac880"
+RPM_NAME = "gloox-devel-1.0.24-2.6.aarch64.rpm"
+RPM_HASH = "8f95ed18f1c0d17f8fccaf475f4b26ef55e3d2b7c321e12c77785e67bb246c874c4f0a3a651092f25c22b66c1dddbf400b03667e5e49c5ecdc20cb2cc32bc6ca"
 
 RPROVIDES:${PN} += "gloox-devel \
 pkgconfig-gloox"

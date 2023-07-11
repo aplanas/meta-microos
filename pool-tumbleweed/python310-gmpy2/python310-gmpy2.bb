@@ -9,11 +9,10 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "2.1.5"
 
-RPM_NAME = "python310-gmpy2-2.1.5-2.1.aarch64.rpm"
-RPM_HASH = "3a768bbe6418dc50d3634c130c92c6cfc65be6818bf73b4931c271f949edf87430a7171ea64743b85646c882b6e5430fbcc3d1b33892d3398722f85aa5b2379a"
+RPM_NAME = "python310-gmpy2-2.1.5-3.3.aarch64.rpm"
+RPM_HASH = "4488e9db513e63fdb3ae1be9229ae8ba04b775d9fa8050a4bb860c4194c4ba5939d198ec02b40ab96af4678060a27df0d3ce1ea512538fe195bf188d614a74bd"
 
-RPROVIDES:${PN} += "python3-gmpy2 \
-python3.10dist-gmpy2 \
+RPROVIDES:${PN} += "python3.10dist-gmpy2 \
 python310-gmpy2 \
 python3dist-gmpy2"
 

@@ -7,8 +7,8 @@ LICENSE = "(GPL-2.0-or-later | MPL-1.1 | LGPL-2.1-or-later) & MIT"
 
 PV = "5.0.0"
 
-RPM_NAME = "libcjs0-5.0.0-1.10.aarch64.rpm"
-RPM_HASH = "a0524ea3985c5b6bd3193ac8e129095af468bffa20c80a7abae46147ebc3e6f214bcee862eff97e57eebc7e99d4a436d93a055a5a9bd793dee5e79ebfd0f7b07"
+RPM_NAME = "libcjs0-5.0.0-1.11.aarch64.rpm"
+RPM_HASH = "be69d4cd2952b60ee3e0e5ae2f1e337f18aa045be8686ea3f499d37d87dcd34dfffaba3a372f222878530a1deb7eef7a1fee1ed9968e44f69eb229d5f038b3d5"
 
 RPROVIDES:${PN} += "libcjs.so.0 \
 libcjs0"

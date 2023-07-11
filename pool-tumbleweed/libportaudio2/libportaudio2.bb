@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "190700_20210406"
 
-RPM_NAME = "libportaudio2-190700_20210406-1.8.aarch64.rpm"
-RPM_HASH = "989be3a34a9b49feb09781f6acd72a27c01bb9ce2f96bc5d4191a6a016ba59b4b9d1c7f027329c1acbc3190ec89c524fb628e4107361fa2579c18d5bc778cc5a"
+RPM_NAME = "libportaudio2-190700_20210406-1.9.aarch64.rpm"
+RPM_HASH = "485a68a47335ceb379b70648b08e6b5ebcde7375aabafc6b86504881499dad8a8de076fe1d05c557cf1edc5d81c6a3104b0720d9426b127c58bb0ddf3e8e0d2c"
 
 RPROVIDES:${PN} += "libportaudio.so.2 \
 libportaudio2 \

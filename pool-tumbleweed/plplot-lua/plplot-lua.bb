@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "5.15.0"
 
-RPM_NAME = "plplot-lua-5.15.0-16.2.aarch64.rpm"
-RPM_HASH = "1143dce5f41e4aab5b86a9a303c43d6468588e5769d10b30ec99c1dcef4c9a07ea11e7f26d7bb9ff5cc82c5694ed3371fd12d21315d8ccd8caf35c74931c0058"
+RPM_NAME = "plplot-lua-5.15.0-17.1.aarch64.rpm"
+RPM_HASH = "4973f1032383f897ae15b798390835f5c5bd7829f7a96f0fec4136626acb98ffcc2accf2dc3b7886838428e3479da063a39545fde6a19a43928c3dd3dbc52f86"
 
 RPROVIDES:${PN} += "plplot-lua"
 

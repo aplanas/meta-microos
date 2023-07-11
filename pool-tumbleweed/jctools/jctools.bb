@@ -13,8 +13,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.3.0"
 
-RPM_NAME = "jctools-3.3.0-2.10.noarch.rpm"
-RPM_HASH = "ab313dfaf7e5cdcecff92f0f4870e8dace3464a022b31ac4bbaee884f74914e42497ba4bc3a57f10aec97f530eb434a7cfb7d5cfb551f298884956e9e389a65a"
+RPM_NAME = "jctools-3.3.0-2.11.noarch.rpm"
+RPM_HASH = "7487513af413b8a0cb2f1c7f322b38f35bbb3902ca01d5f075660972cba5ee159d118070e615ab0f59ebc7ad91e4cf2997b0894bf54185ed21be4a41f30c141a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jctools \

@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.5.0"
 
-RPM_NAME = "libdhash1-0.5.0-27.18.aarch64.rpm"
-RPM_HASH = "afb718a556138b898ba265c487220b7295cf7a3ab6d72625e349aeb430d9844fe3e2a9eefd28f5a901c8e1bf9b9df8c4f711994aff95f967c4b04d0dc4893fb4"
+RPM_NAME = "libdhash1-0.5.0-28.1.aarch64.rpm"
+RPM_HASH = "6149336b8ff0a8b06d8903d658e6e830387e4fe264d4bdab2f57dc24d6a2d9bcbe51e577248db0a378f1b2ccfc2277496c9759345e2d5e15fc8817ed49b5c7f3"
 
 RPROVIDES:${PN} += "libdhash.so.1 \
 libdhash1"

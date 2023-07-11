@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.3.8"
 
-RPM_NAME = "libMrm4-2.3.8-2.4.aarch64.rpm"
-RPM_HASH = "807cfeacd36bcec6a0494ea20225bcb0489e10a69a48bc8eb8f2b11a64be6f31800d82c1ef21ac1bea9702c2606c7af1401dfc3c19a05ad8e8d154947c0a700a"
+RPM_NAME = "libMrm4-2.3.8-2.5.aarch64.rpm"
+RPM_HASH = "1b06b128be4a0fbd2a0a7a24566624942e3c7e055ce59f2622de13d9a62190fae864d4606422e2a5fee56b0bc4f574e2bb88a4c560317c3cecdc325d8b28e0f2"
 
 RPROVIDES:${PN} += "libMrm.so.4 \
 libMrm4"

@@ -15,14 +15,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.42"
 
-RPM_NAME = "perl-Crypt-PasswdMD5-1.42-1.3.noarch.rpm"
-RPM_HASH = "d2bf3e5383072fb554007b1201499ff969e1e34aa573d58bcec8e2dece5e2cba28c3caeb2334a0df9025b06be936bc4d23c5a226b797a3f1979c1abd0400fdc5"
+RPM_NAME = "perl-Crypt-PasswdMD5-1.42-1.4.noarch.rpm"
+RPM_HASH = "d5fb9fe00d841d6c4597cbc45a38c3026813952bc2ea237193de480dd0b90d3cba3c108bc23687d756df2b1ac3bb1d2470fa701194ffdf19b6fc660c1310b45d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Crypt--PasswdMD5 \
 perl-Crypt-PasswdMD5"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Digest--MD5"
 
 inherit rpm

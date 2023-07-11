@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.8.0"
 
-RPM_NAME = "osmo-bsc-abisip-find-1.8.0-1.11.aarch64.rpm"
-RPM_HASH = "bcbbd81c97b22e4126abddf5ecbae32ef024727ed8cb024adbc72543923864e49bf1348d5392dc1251b7bc825f1c7798a6d44b5cf08ccc974a28bda91c15dbcf"
+RPM_NAME = "osmo-bsc-abisip-find-1.8.0-1.12.aarch64.rpm"
+RPM_HASH = "663cebec71a723d1bfc7c327b54f33f7d280b3f7cb50a1d32067c6d4dc8af7426cfbeccdf05b5adacac2ccd8def84403c3c10bfb4636de05702b6cbadbe9d7cc"
 
 RPROVIDES:${PN} += "osmo-bsc-abisip-find"
 

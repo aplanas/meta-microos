@@ -13,11 +13,12 @@ LICENSE = "Apache-2.0"
 
 PV = "5.0.3"
 
-RPM_NAME = "python311-pegasus-wms.api-5.0.3-1.3.noarch.rpm"
-RPM_HASH = "6903678698efe188cde76fa09fe03efb8169c057ea88c20127b603935f5daed06b64762d8d68eb30267c07ab5cbfa075df3ca73fbf07c4a68cb50f3f03a36170"
+RPM_NAME = "python311-pegasus-wms.api-5.0.3-1.5.noarch.rpm"
+RPM_HASH = "c29da610ff376ace81044d25e3f4960b49f4267c3f3bd05e2a3b205b3e8bd1430053d876d113f9bdeec944258e64af17181dc6e2b5e05533116f183c343f0bce"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pegasus-wms.api \
+RPROVIDES:${PN} += "python3-pegasus-wms.api \
+python3.11dist-pegasus-wms.api \
 python311-pegasus-wms.api \
 python3dist-pegasus-wms.api"
 

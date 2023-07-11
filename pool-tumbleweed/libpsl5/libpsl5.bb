@@ -9,8 +9,8 @@ LICENSE = "MIT & MPL-2.0"
 
 PV = "0.21.2"
 
-RPM_NAME = "libpsl5-0.21.2-1.2.aarch64.rpm"
-RPM_HASH = "2e7aceddbae3916ecda7156af3da01d5b43b6f23bf9b210f729eb4edca306eadc6c2055801b219b5c1fcde602094bf433217b62f7315ebcb32e6f27f799033fd"
+RPM_NAME = "libpsl5-0.21.2-1.3.aarch64.rpm"
+RPM_HASH = "ee1cc2e071f98027df750a747b62f413d0d1273ab3cbd873f6e3944be4ff6baed58d1c4237274cd7b8eb8d8dce310272a626c03393e50825a73fcc0415131a88"
 
 RPROVIDES:${PN} += "libpsl.so.5 \
 libpsl5"

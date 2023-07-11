@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.2.0"
 
-RPM_NAME = "ghc-hashable-1.4.2.0-1.3.aarch64.rpm"
-RPM_HASH = "09eea05d69b69e4f582fce787905aa92efc7ac83b3ee953dc034eb4e34f11db2da91f5c65f1ac062789b5c2d1883b44c5159c5b4e892c62fd2705ba277b24dac"
+RPM_NAME = "ghc-hashable-1.4.2.0-1.5.aarch64.rpm"
+RPM_HASH = "480ce15ac59dc046617aac158d3b2015e5697d31f0ba2ded57e43992c1cf95b91a1d84a585ee67f4d6a5ee74ec9ae0ed6b7372def7466f7340df5c5906149b10"
 
 RPROVIDES:${PN} += "ghc-hashable \
 libHShashable-1.4.2.0-FFBRhuY0w4YLmuLEs5uQAt-ghc9.4.5.so"

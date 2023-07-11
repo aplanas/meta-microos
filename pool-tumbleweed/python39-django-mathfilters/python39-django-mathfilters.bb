@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python39-django-mathfilters-1.0.0-2.6.noarch.rpm"
-RPM_HASH = "59ba60fbd49b8bc9b02220a3f8ba8e942819ed75da9b14e1d125876d5e2e123bffb7affb56e4f658b355b003a9894a23536033bad5a1eb432758e5bd0e5bccf5"
+RPM_NAME = "python39-django-mathfilters-1.0.0-2.8.noarch.rpm"
+RPM_HASH = "f085b79fe638841247fa1b41d25de13e3ef73d6c76bf459b18904fbc0101d3cfeea59d0f78fcb7f99fea3d99733cf8710b826945d0cb1a9cd02e90ea825376d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-django-mathfilters \

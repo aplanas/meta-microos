@@ -6,10 +6,10 @@ ranging from small one-off projects to complete application suites. \
 This package contains the development files for GTK+ 4.x."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "4.10.3"
+PV = "4.10.4"
 
-RPM_NAME = "gtk4-devel-4.10.3-4.1.aarch64.rpm"
-RPM_HASH = "d04f56117553ebb8a91a4589f3630451e5b9fe1c0aece3009f1b073787df5a349db1a940d3d8d4a2f7da0d5e50b207bff16e1d215385dfa50a1d68f76570297f"
+RPM_NAME = "gtk4-devel-4.10.4-1.2.aarch64.rpm"
+RPM_HASH = "62e528910cf1f0ee1e149cfca95cbf7c069f64bea2197992d6ef477868e3ef3381bab849c7c493d21beb6e5b1281052c0348afbb1dd9321f714129be52df0ea8"
 
 RPROVIDES:${PN} += "gtk4-devel \
 pkgconfig-gtk4 \

@@ -4,11 +4,12 @@ LICENSE = "Python-2.0"
 
 PV = "2022.1"
 
-RPM_NAME = "python311-python-docs-theme-2022.1-1.11.noarch.rpm"
-RPM_HASH = "d918f725529a83e5e8a24c16117ba381e0b5e71285e4eddbadef87240a2793c90d97d65a03b83eeaf8621db24fa9a570190d1e0c3ffe0534dfc3ff867c4da45b"
+RPM_NAME = "python311-python-docs-theme-2022.1-1.13.noarch.rpm"
+RPM_HASH = "ef5092659e50339f20373929a98816f1e261343b18ff1a29a14f7d4f3c4fd7f1fe61e71ddc1b76ee7f962ef7cc391e98b23883de672ebfe933982346a6b8da90"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-python-docs-theme \
+RPROVIDES:${PN} += "python3-python-docs-theme \
+python3.11dist-python-docs-theme \
 python311-python-docs-theme \
 python3dist-python-docs-theme"
 

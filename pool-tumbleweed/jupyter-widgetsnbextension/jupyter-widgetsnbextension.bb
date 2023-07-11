@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause & MIT"
 
 PV = "4.0.7"
 
-RPM_NAME = "jupyter-widgetsnbextension-4.0.7-1.1.noarch.rpm"
-RPM_HASH = "ec2c01a5f754b473e4edbdae3423da2677585d60fa45e587e2366687046d7fe50f575307b2a12c89a3328a42575b101e529c71fd53d9bb8373167eea39c42366"
+RPM_NAME = "jupyter-widgetsnbextension-4.0.7-1.2.noarch.rpm"
+RPM_HASH = "8960128d83ccec271de18d61e9eb533b51ccb22a96d163783f3f020f9fb1a34d1ad1628afcf849f44675fdffaf5af32c48d3ecec8337b585dd478b12cebdcb6d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-jupyter-js-widgets \

@@ -12,8 +12,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "1.15"
 
-RPM_NAME = "byaccj-1.15-2.7.aarch64.rpm"
-RPM_HASH = "48e121be4ffd5046e6de308d10ab3936a568e6473c776c30d338674bef3762243b72f5543df66980731f73e71efd99f86e4e6a6f06147e7cee2b57a7debdda44"
+RPM_NAME = "byaccj-1.15-2.8.aarch64.rpm"
+RPM_HASH = "fd0980ed01327701280bc91f777fba819254b36b5a9046c130d013e7ed40aaacbc1cbd5b8b6ebeb2392c5217c4babba488fb0dd63c7a0dcdf370b37e91e8a159"
 
 RPROVIDES:${PN} += "byaccj"
 

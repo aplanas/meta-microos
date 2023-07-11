@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.2.1"
 
-RPM_NAME = "calligra-extras-converter-3.2.1-7.17.aarch64.rpm"
-RPM_HASH = "ef45744708509b86d7eb86653c718265d6312548094865bb099b36369c7ec9af0bdf16f573bfe39c1af0fc390b0e1b0d657bea228b63d961664ca0728d49410e"
+RPM_NAME = "calligra-extras-converter-3.2.1-7.19.aarch64.rpm"
+RPM_HASH = "8f00faccad2d50951d7fcf2c798d4e689f5cccf3fe7ddcfb6013d8aefe689ff2503891a9b953158ada1eeb4eb86a5633d8d2c23d7cd7f0525505813840434581"
 
 RPROVIDES:${PN} += "calligra-extras-converter"
 

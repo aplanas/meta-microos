@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.2.0"
 
-RPM_NAME = "libcxsparse3-3.2.0-49.1.aarch64.rpm"
-RPM_HASH = "394fb148ed08a108d934a975a5256146b598f81f8f204e4438419921771a011df0e5010c0f41cc6691952571f6f27ceb328caabf0db4a2f1d8590e4ebb24eecb"
+RPM_NAME = "libcxsparse3-3.2.0-49.2.aarch64.rpm"
+RPM_HASH = "d42ac941adbbe0d5a0d1ca34e3ff90db56e186ddf6b1252a83e94d6f70e57cb6d097f5fefb4a9509888eb6fd43d28e1fc0454acc3545983afeb25ca08e802ceb"
 
 RPROVIDES:${PN} += "libcxsparse-3-2-0 \
 libcxsparse.so.3 \

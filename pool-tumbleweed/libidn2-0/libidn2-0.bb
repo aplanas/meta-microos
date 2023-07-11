@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later | LGPL-3.0-or-later"
 
 PV = "2.3.4"
 
-RPM_NAME = "libidn2-0-2.3.4-1.3.aarch64.rpm"
-RPM_HASH = "03bb25802e865e42cfa2519452227702eb65fe15ad1a7a7ef9731acb7a99fa81876decb25ded8ade771a20c537ffdbd386838506094d6c68dc45f0de3ebb443f"
+RPM_NAME = "libidn2-0-2.3.4-1.4.aarch64.rpm"
+RPM_HASH = "ed2a521d1abb40678b485d9b309d014564f53abdb9a9869b501671f3a03aeb86ef60f9fc092b29e2a7810d65ddbc354821a2bdaee98d08c60d04d9b301fe02c7"
 
 RPROVIDES:${PN} += "libidn2 \
 libidn2-0 \

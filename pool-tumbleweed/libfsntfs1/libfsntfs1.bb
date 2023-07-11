@@ -4,10 +4,10 @@ DESCRIPTION = "libfsntfs is a library to access the New Technology File System (
 Note that this project currently only focuses on the analysis of the format."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20230427"
+PV = "20230606"
 
-RPM_NAME = "libfsntfs1-20230427-1.1.aarch64.rpm"
-RPM_HASH = "902b2f02b27b8b70d93e82fba5aef38af6d357dca4a479e2dc63717915e80d063447dd87a28f26bc1adbe7071ee09987e93ef0d65f80a78500c8561183d10db9"
+RPM_NAME = "libfsntfs1-20230606-1.4.aarch64.rpm"
+RPM_HASH = "1c80dd1fce9ef194990f89b45b282ffd09ba27d9c1e4650228bbf41c2963e3fea1bac6e5cbdc9217b78a4f7b61ffe6e3ff521add3f0fa27b8fc3360cdadf4b45"
 
 RPROVIDES:${PN} += "libfsntfs.so.1 \
 libfsntfs1"

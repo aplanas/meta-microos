@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.5.4"
 
-RPM_NAME = "tuxguitar-1.5.4-5.3.aarch64.rpm"
-RPM_HASH = "8a9d073c671959bd60376fb32dfb7590c6ae705a9c8a703f4838aa7164a8a142e20364623a0e1d49cac9ae1d2916f67953719f04a25385210468b0b750cc891f"
+RPM_NAME = "tuxguitar-1.5.4-5.4.aarch64.rpm"
+RPM_HASH = "afbca8889c4d26dd45cb107d17fc91e70dc48fd147ba5bc4f496fb3c040531b115259b53b3967f2a0658fad55453300bd0ab5effdbef68810170f0327349dd09"
 
 RPROVIDES:${PN} += "libtuxguitar-alsa-jni.so \
 libtuxguitar-fluidsynth-jni.so \

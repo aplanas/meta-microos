@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.7.2"
 
-RPM_NAME = "python39-apns2-0.7.2-2.3.noarch.rpm"
-RPM_HASH = "a692b40fec77220aa7ef546e837458ae5395e15bba4ffa9a36c0fbc3dae8a8fb6cbf37c09fed3fa1c7693d6f4e9b8dee6a3c265e91455667608436039cc70960"
+RPM_NAME = "python39-apns2-0.7.2-2.5.noarch.rpm"
+RPM_HASH = "23714299f29461e138083b9aa1c0ce6260d1955170873cdd8de951c8b500982cf944eb0287eeed7b6371aba013cee3750a27fb29cda45d82b2bfd236a9660e86"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-apns2 \

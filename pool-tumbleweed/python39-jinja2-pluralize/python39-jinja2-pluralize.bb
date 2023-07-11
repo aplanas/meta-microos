@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3.0"
 
-RPM_NAME = "python39-jinja2-pluralize-0.3.0-2.8.noarch.rpm"
-RPM_HASH = "c9790c3a092a48336faeab4fb28d0063ab657a8f06cc7172e397ae10fb3890cbdd0308f28c501a8b841d8d2776d7fee1405c501717338f431abedfb8a74410f2"
+RPM_NAME = "python39-jinja2-pluralize-0.3.0-2.10.noarch.rpm"
+RPM_HASH = "0a38c3f11732384534148bcb0f8d61fc873a4a490f72fcd19373c41b5a542ffd9f6b7b0dd4a061fca4e68c6bdfe58ffed114d10acd7b93e9887d39fb626e2ca2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-jinja2-pluralize \

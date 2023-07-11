@@ -4,10 +4,10 @@ embedding a Perl interpreter in BIND, allowing Perl scripts \
 to be written to integrate with BIND and serve DNS data."
 LICENSE = "MPL-2.0"
 
-PV = "9.18.15"
+PV = "9.18.16"
 
-RPM_NAME = "bind-modules-perl-9.18.15-1.1.aarch64.rpm"
-RPM_HASH = "73387adcfd5bf9a6246229b06b2f210ae8ee695dee2f12a0554de6976b70fe0c1cb1e2d85c344b0c56f6f4bc27c3fe39185093729f842abd3cab9b287e364fee"
+RPM_NAME = "bind-modules-perl-9.18.16-2.1.aarch64.rpm"
+RPM_HASH = "89664f4f6b8fe601f677268417be3f13b16f289f089231e6c3221d2d5f34c53982750b82b5856e82e8abdc91b3984ccb4336a8734dd411dd6c12675023779211"
 
 RPROVIDES:${PN} += "bind-modules-perl"
 

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-tools-qdoc-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "1328626a4bdf48149e5ff9be7d0d52edce2beb8bcda4ceb71fa8b18a2d7dbfb7cbff73da203208c314d08f93226c35c42aa7616ec66f806dc5fc80624c121721"
+RPM_NAME = "qt6-tools-qdoc-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "e723a0703f470f615c446a436c120fbbbe6e1385f9679f0eaffaa0db169577dfd45328848fbfec03279317623e728c8a1d299237266e6106416261231a345344"
 
 RPROVIDES:${PN} += "qt6-tools-qdoc"
 

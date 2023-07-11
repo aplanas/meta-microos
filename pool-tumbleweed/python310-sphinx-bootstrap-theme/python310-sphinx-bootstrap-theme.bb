@@ -7,12 +7,11 @@ LICENSE = "Apache-2.0 & MIT"
 
 PV = "0.8.1"
 
-RPM_NAME = "python310-sphinx-bootstrap-theme-0.8.1-2.2.noarch.rpm"
-RPM_HASH = "5e423b53d8a35cc60c08d2679ffc837f75a310aba27a6cc920df66fb055d9e861cf82911ccd57482c7cdc2aa11c5e2d58720fd581fd2de1dc618c9fcbd65bf8f"
+RPM_NAME = "python310-sphinx-bootstrap-theme-0.8.1-2.3.noarch.rpm"
+RPM_HASH = "87d7ffb0ecec027618710fcb4aefcf49d99a778d51f4a68bcb776b1813a18b584112e085bdd58e1bda80ea42d965b9f91d6c3ae12c577579d8baff8c3781e9ff"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-sphinx-bootstrap-theme \
-python3.10dist-sphinx-bootstrap-theme \
+RPROVIDES:${PN} += "python3.10dist-sphinx-bootstrap-theme \
 python310-sphinx-bootstrap-theme \
 python3dist-sphinx-bootstrap-theme"
 

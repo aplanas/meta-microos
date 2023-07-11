@@ -7,10 +7,10 @@ a regular weight and small-caps. The regular weight will be \
 silently substituted for bold."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn64451"
+PV = "2023.208.svn64451"
 
-RPM_NAME = "texlive-marcellus-2023.201.svn64451-52.1.noarch.rpm"
-RPM_HASH = "88e53399b13f31804a39ef8fe9de720ed485f40efbafe1bc9bd800fcaa5c810941429a2c0a82fa3f281df72ae15d191f19f5a52f2590bf45cc5344e74e8bff94"
+RPM_NAME = "texlive-marcellus-2023.208.svn64451-53.1.noarch.rpm"
+RPM_HASH = "164ae77221305e0bfb98d14ee6842e321ced55ed17f0b4176e1c765139bc480e4d77bddecef353176031e7b115dc3488143a365ea9cce30cbb01e73b1f088b62"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LY1Mrcls-LF.fd \

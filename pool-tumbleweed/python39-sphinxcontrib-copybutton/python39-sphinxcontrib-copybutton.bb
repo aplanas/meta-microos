@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.5.1"
 
-RPM_NAME = "python39-sphinxcontrib-copybutton-0.5.1-1.3.noarch.rpm"
-RPM_HASH = "c0a6cc2d3bd6656ed5b69470fbda2e7302346da8b5442afd4eabf494e0d1622215983d243c6afdc6340d1ecb9d7dc0a253602917df16446c3d1c39b9d3c1e4e7"
+RPM_NAME = "python39-sphinxcontrib-copybutton-0.5.1-2.3.noarch.rpm"
+RPM_HASH = "739a39da8dc5d99fdb5668ca2657c483b3974e03e8ee81468b75028ea2cdf216609e66d64aa73859cfb3e04cc38e0d529337f5901754b487b1d1e644c2336b79"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sphinx-copybutton \

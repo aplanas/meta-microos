@@ -2,10 +2,10 @@ SUMMARY = "QML imports for the XmlPatterns module"
 DESCRIPTION = "This package provides the QtQuick.XmlListModel QML import."
 LICENSE = "(LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)) & GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libqt5-qtxmlpatterns-imports-5.15.9+kde0-1.1.aarch64.rpm"
-RPM_HASH = "04559ba7c4a8eba66f678cec07cf26427a3b90eaf9404fcfcc3a3a306d91950af81e4d7bae72543dc0f2167cc29cf973c54978781b28ba15cb3597128a47cd1f"
+RPM_NAME = "libqt5-qtxmlpatterns-imports-5.15.10+kde0-1.1.aarch64.rpm"
+RPM_HASH = "13f074b466151699b93c93a0a31596671a1d20e30a84a46da26417fa144fb1ab4ad0e204d4b7b52cab1f838f30187bc2b1c7956c7aee790eba2ddfc60b09db88"
 
 RPROVIDES:${PN} += "libqmlxmllistmodelplugin.so \
 libqt5-qtxmlpatterns-imports \

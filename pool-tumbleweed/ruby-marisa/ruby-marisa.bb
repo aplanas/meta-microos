@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later | BSD-2-Clause"
 
 PV = "0.2.6"
 
-RPM_NAME = "ruby-marisa-0.2.6-1.21.aarch64.rpm"
-RPM_HASH = "fa78a527e2bc350d84cf9a818939b34efebf96bec0c662601058c46f96fd4186a94da0ac226ef2f7d2c50d457be86c3a4ef057a8b909b76d2ac30b25f0e82222"
+RPM_NAME = "ruby-marisa-0.2.6-1.23.aarch64.rpm"
+RPM_HASH = "205af5af08a7aed080d5220b787b2994a0ba88635f53b44c91410168281271435f3a5f01e70678dccc1f5759c0effe9344a9e9288e6dd3ef077a4152831a70e7"
 
 RPROVIDES:${PN} += "ruby-marisa"
 

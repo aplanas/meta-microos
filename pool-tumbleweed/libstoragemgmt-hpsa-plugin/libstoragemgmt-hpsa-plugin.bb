@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.9.8"
 
-RPM_NAME = "libstoragemgmt-hpsa-plugin-1.9.8-1.1.noarch.rpm"
-RPM_HASH = "9759a9884ea3bed057ba6816d61a746c495cbc47486630030abc7a1a69dd5078ef189b2315ec4ffd2be38afc8680369b97c482042c3747d1240fd7c804dc2087"
+RPM_NAME = "libstoragemgmt-hpsa-plugin-1.9.8-1.2.noarch.rpm"
+RPM_HASH = "feb9ac01d91fdf907dc50e0b3139f63b99f6ac9368f03692123125279c3c88cb1759bd5288f769366510f99262b4ad8e513ef73a6382e06a82c187119df56cce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-libstoragemgmt-hpsa-plugin \

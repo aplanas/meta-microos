@@ -4,8 +4,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-monocle-fxb-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "1713893fa5fd42533582908b3983ca6fdbd22fb545d9b82652a98449919630ef79d74e110e8a9c7ad633a542c1c632eb2bc9b06bdb80b3ef7214b61783ca9626"
+RPM_NAME = "leechcraft-monocle-fxb-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "8ca8e7759fc3964568b6e022b2d37101c66bdefb5e3aa4b4c16178385b58cf9fd9c45bab2bb2020257c40a175798d008d51394061d4ee07ed0dfdee216a4209d"
 
 RPROVIDES:${PN} += "leechcraft-monocle-fxb \
 leechcraft-monocle-subplugin \

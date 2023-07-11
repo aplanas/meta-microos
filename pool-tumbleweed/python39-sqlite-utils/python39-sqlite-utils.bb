@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.24"
 
-RPM_NAME = "python39-sqlite-utils-3.24-1.8.noarch.rpm"
-RPM_HASH = "17bf5a5e5742857c1fc75d1e0ad0f542148896b53bf3919fcb02a7b35e60e74382fb94383b9179a9b645c6a557807865b8d571d3e1838c30e8210dee6b4e19ad"
+RPM_NAME = "python39-sqlite-utils-3.24-1.10.noarch.rpm"
+RPM_HASH = "70359d0628f9007e5897acdb194ff147beb6cd0e41dfe8a420ef1f35bd5ceac002ef0625d4a03eadc81dae7e0e0bddf48f666b41d864c4f59322f8184847c65c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sqlite-utils \

@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.6.3"
 
-RPM_NAME = "libgpiodcxx1-1.6.3-2.3.aarch64.rpm"
-RPM_HASH = "38ed36bd669806e4dad36596bcb20f93b9334eb56cc4ff71a7cf3c0ed0906ed59fd08da70d77fcab544fa1aaa6e4698af0715ea6c13205ed1dc82b57c172fd33"
+RPM_NAME = "libgpiodcxx1-1.6.3-2.4.aarch64.rpm"
+RPM_HASH = "d2cd14b8836456c5be85681d8293c868117d4ab3b3a54c74b3923262f11ba67a63458b84ec99503b2c6624439578302411e007536a5bb15614985eecf97d2311"
 
 RPROVIDES:${PN} += "libgpiodcxx.so.1 \
 libgpiodcxx1"

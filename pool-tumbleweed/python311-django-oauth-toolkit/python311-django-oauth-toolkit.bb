@@ -8,11 +8,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.7.0"
 
-RPM_NAME = "python311-django-oauth-toolkit-1.7.0-1.6.noarch.rpm"
-RPM_HASH = "934b56cad3ad770ae505ea4764492262a8a72ba1c691ca21f6e3df0e3cea11824d892c0fe20db83806ad82087471001b73ca4b7575416f0dcec164e98d4221f9"
+RPM_NAME = "python311-django-oauth-toolkit-1.7.0-1.8.noarch.rpm"
+RPM_HASH = "415d75606efa92d5dfe358d02fd6aafa85843fb411aa955bb129670040c6b3c1bea18b738fbfb1f053f0accf8d2a12461bf5b25cc016225164c4996149e7fcf8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-django-oauth-toolkit \
+RPROVIDES:${PN} += "python3-django-oauth-toolkit \
+python3.11dist-django-oauth-toolkit \
 python311-django-oauth-toolkit \
 python3dist-django-oauth-toolkit"
 

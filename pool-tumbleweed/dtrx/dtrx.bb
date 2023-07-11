@@ -14,12 +14,12 @@ LICENSE = "GPL-3.0-only"
 
 PV = "8.5.2"
 
-RPM_NAME = "dtrx-8.5.2-2.1.noarch.rpm"
-RPM_HASH = "cf9bbc9af5ca5a2abe69b8129510fa95efa5e932c319b1adc7cdd84b81a169fd94ae8ac7ee2406cc42f12859e051cca8f614367c391217fcd730d5e104ef9805"
+RPM_NAME = "dtrx-8.5.2-2.2.noarch.rpm"
+RPM_HASH = "0fe5de537be425ecafeca313faa49f975aa3f840be659b964946cf0db08abf14a3f915d6ef22767f0f55dc0f38d67f8fc38a3b9450080b0b94c596d4defbfde1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dtrx \
-python3.10dist-dtrx \
+python3.11dist-dtrx \
 python3dist-dtrx"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

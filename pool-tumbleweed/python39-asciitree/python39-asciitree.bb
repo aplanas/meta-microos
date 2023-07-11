@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.3.3"
 
-RPM_NAME = "python39-asciitree-0.3.3-3.11.noarch.rpm"
-RPM_HASH = "f522e8174b5fe83e3a1877f6e5d0e0a09e23501b51600e33415dd946e7707bfa1159b6a6dc48b2c20c2509bada6bf67efa16b1896cb27adbe6ccc0440693bfe0"
+RPM_NAME = "python39-asciitree-0.3.3-3.13.noarch.rpm"
+RPM_HASH = "0365e8597a13a093ec1a402731b46323da317cf8024fcbde049add966f3fdc8ede776a94af71a9cc736696ed6722db174f8ceed2a8f81183ebe842d50fd757b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-asciitree \

@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.2.2"
 
-RPM_NAME = "ffmpegthumbnailer-2.2.2-2.6.aarch64.rpm"
-RPM_HASH = "0481edba14d872fcf7c6c4b3e18cb65c423d09f7ddd1c090ab1b2880d19f0193a3ca2c059e2e8607b469309ba665d45a9423e495aabe6161332b795584dbbb2b"
+RPM_NAME = "ffmpegthumbnailer-2.2.2-2.7.aarch64.rpm"
+RPM_HASH = "611422608edbf82d09d38995590ac242511ad5665d756ce8d86daae18d545f12a3f2bf30059ba520c202da34fcd64c2e3c14f02376a8e15fb737695f1ac48f49"
 
 RPROVIDES:${PN} += "ffmpegthumbnailer"
 

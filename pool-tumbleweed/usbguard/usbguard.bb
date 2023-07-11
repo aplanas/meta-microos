@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.1.2"
 
-RPM_NAME = "usbguard-1.1.2-3.1.aarch64.rpm"
-RPM_HASH = "54fbca408dbebae38825b492c0192d674c3017d36a4772a6a0bfd7bf069b5275dbe6d7119ee5b13a98e5d57550bebafd111b6ed50cbce560ba6a8a1fa21d4c5a"
+RPM_NAME = "usbguard-1.1.2-3.2.aarch64.rpm"
+RPM_HASH = "9982284c476751031acedc7fe3fc9866f619a9804c25d6c3e752357145ab9979af6525b48d506c0c18ef1d534bf1d13478489ba7a775685916c19d1ffbe41969"
 
 RPROVIDES:${PN} += "config-usbguard \
 usbguard"

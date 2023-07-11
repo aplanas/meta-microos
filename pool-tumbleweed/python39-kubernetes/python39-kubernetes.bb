@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "26.1.0"
 
-RPM_NAME = "python39-kubernetes-26.1.0-5.1.noarch.rpm"
-RPM_HASH = "992447fb527ded4de44639856e372c9cdeca55a07420c5db5f949467ffe5be741bb317f36b4642b42eca7f3244df4fbde653f9e7ab099603f574037b470a731a"
+RPM_NAME = "python39-kubernetes-26.1.0-5.3.noarch.rpm"
+RPM_HASH = "e53ba028c56e33d11780c7851878cf3d3b1c2ccd567797b6e16a3f1cf7cd76ea1b248987a0494dd63eece212c0478786f44978f739831b7b17c55550806080c1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-kubernetes \

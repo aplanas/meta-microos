@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.15"
 
-RPM_NAME = "xmlgraphics-batik-ttf2svg-1.15-2.3.noarch.rpm"
-RPM_HASH = "82ce1b9a534178f5248573447d180556b0680ccbb1eb693c9c7b32afe24fe9ab571534e39e8a9367f9915e985d4e325f6964da480adb04e7115b498ae4dffdbc"
+RPM_NAME = "xmlgraphics-batik-ttf2svg-1.15-3.1.noarch.rpm"
+RPM_HASH = "41850f09131a0a101c04f57d8e807d9c1f97f144ce2011bdf69ff97444f9ee5097dba81ea38c497f1c50a852063a2347fa215737d30a22742d4cf6ae608b4265"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "batik-ttf2svg \

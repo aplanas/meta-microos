@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.65"
 
-RPM_NAME = "diffstat-1.65-1.2.aarch64.rpm"
-RPM_HASH = "8d236f153722a5ec6c1bdee09175852f11b6ada231a3c5e58fe1bb84940f22fe18823de517e4a9f35b1f6a26a39b1c52dd81a5e074e85214aa5f08005b3c9586"
+RPM_NAME = "diffstat-1.65-1.3.aarch64.rpm"
+RPM_HASH = "8bbce0013aed11ab75ac3a3d49ddcd67e9dcd70088b6ef81f46e0b709d5fc9bad2e2bd18dd66fcf227bfba2da7b7df9a3746478d4e20e9dc70392ed67ad90ed7"
 
 RPROVIDES:${PN} += "diffstat"
 

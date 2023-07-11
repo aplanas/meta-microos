@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "5.3.1"
 
-RPM_NAME = "python311-cachetools-5.3.1-1.1.noarch.rpm"
-RPM_HASH = "982011162baebc43944809178fc7859a4f2eb022b31ea946fa5a0fbee50a14b19198ac0efdfd8f5e4d7992683231c3a1353174460ed2340d86301fa3e296f3e6"
+RPM_NAME = "python311-cachetools-5.3.1-1.2.noarch.rpm"
+RPM_HASH = "2a9aef18ee4cd03a2bb3d87cc3a60296579d8f11e97cb2767ed6160898ac110131e9b8b193eb2ba79924a8720217e194cb4514f9a2176179e506b5b021ce2c1b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-cachetools \
+RPROVIDES:${PN} += "python3-cachetools \
+python3.11dist-cachetools \
 python311-cachetools \
 python3dist-cachetools"
 

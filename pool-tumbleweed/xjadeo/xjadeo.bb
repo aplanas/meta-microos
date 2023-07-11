@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.8.12"
 
-RPM_NAME = "xjadeo-0.8.12-1.4.aarch64.rpm"
-RPM_HASH = "94cced6c409d9a4bafc867339d53ab9d9207ef135c1178e809272f9d3d9b7fd7bdf6af637c0cab9cd0b9589481084e355a9818aaf04b12f787b14ce9772d75c4"
+RPM_NAME = "xjadeo-0.8.12-1.5.aarch64.rpm"
+RPM_HASH = "24dd7bd9b3c249a0778c242a6ff7fc4a703f72bb16c0383efb10453e2bff0436511afa62c6761a0362e3ed28543392fae376cc59affeb0bab1409a81d28831b3"
 
 RPROVIDES:${PN} += "xjadeo"
 

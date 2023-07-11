@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "libgnome-desktop-3-devel-44.0-1.1.aarch64.rpm"
-RPM_HASH = "a7f09e579eb3c055a2b6d3d0030b9673d6972690210c86c11f666bf6cbe678c1d4a3becd3143b912699c647752cc50e10ab6b87cf2fc0852ec6ab80495caee66"
+RPM_NAME = "libgnome-desktop-3-devel-44.0-1.2.aarch64.rpm"
+RPM_HASH = "8e5d182930784a2c2744050ac26cf1a036a3766707bc32a468cee8bdc6c7766ed5dc72435186ce7e9bfbdbf0581d561013ce2bca8229a9157b0b15767a2684af"
 
 RPROVIDES:${PN} += "gnome-desktop-devel \
 gnome-desktop-doc \

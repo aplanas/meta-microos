@@ -8,12 +8,12 @@ LICENSE = "Apache-2.0"
 
 PV = "3.10.1"
 
-RPM_NAME = "python3-cliff-3.10.1-1.6.noarch.rpm"
-RPM_HASH = "db23b7171aa85ccbbfc44522f530fef89f97840ae1f6fe6ea9d17769b383554241a2ecef7dfa541d75b02fdc5b1fe317fbf4f7e695d82c83e5b78c2eaa3e0e78"
+RPM_NAME = "python3-cliff-3.10.1-1.7.noarch.rpm"
+RPM_HASH = "ce5bd8307f293e2f39c7f09136164a2234e1a1391886647bff106db9d866b2d7f1803fcc58b510ccf1cb367071d6e41257145a7c42dd4f8bcdd2c36cc34a6337"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-cliff \
-python3.10dist-cliff \
+python3.11dist-cliff \
 python3dist-cliff"
 
 RDEPENDS:${PN} += "python-abi \

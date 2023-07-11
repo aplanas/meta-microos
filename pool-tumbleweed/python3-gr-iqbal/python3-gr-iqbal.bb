@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.39.0git20210108"
 
-RPM_NAME = "python3-gr-iqbal-0.39.0git20210108-1.12.aarch64.rpm"
-RPM_HASH = "098a7aa06ff51a1633960a613afc49c986d7dd2c8130836dd9bbdde88585ca62cd714fd7a37d9442f1fa0ad4b0a91c051cdc72e731ce04ed065ec2dd11380249"
+RPM_NAME = "python3-gr-iqbal-0.39.0git20210108-1.13.aarch64.rpm"
+RPM_HASH = "aa3aafcb75c90386dd5a1d5b29e0dba2d072878470d916d9ff0e0b8e359addc8b92c7297a84072db762f1b1c762d6b0d8a427ebf11bf0888bbbdc7ba5e39a8b2"
 
 RPROVIDES:${PN} += "python3-gr-iqbal"
 
@@ -15,7 +15,7 @@ libgcc-s.so.1 \
 libgnuradio-iqbalance.so.3.9.0 \
 libgnuradio-iqbalance3-9-0 \
 libgnuradio-runtime.so.3.10.6 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libstdc++.so.6 \
 python-abi"
 

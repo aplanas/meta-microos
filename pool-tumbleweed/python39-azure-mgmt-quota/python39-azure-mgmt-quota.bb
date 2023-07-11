@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.1.0~b3"
 
-RPM_NAME = "python39-azure-mgmt-quota-1.1.0~b3-1.3.noarch.rpm"
-RPM_HASH = "425a6779aa5edc494bf4a3568ef284038b1c5f7faf5b0300c77c40f9a38b7311a57453d0fd5f2842d5b902ff2d08e5f89adbb61bf57a2b78b42da0e96299dda0"
+RPM_NAME = "python39-azure-mgmt-quota-1.1.0~b3-1.4.noarch.rpm"
+RPM_HASH = "f67de1dc99442b11f88421652dd876adaa6497984fbb6d606de6b129b23403c670f8604820e04adda6507b2bed8a8495817f78c287dd0c8c60ea70a5990c5a95"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-quota \

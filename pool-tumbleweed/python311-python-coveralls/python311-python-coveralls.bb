@@ -5,11 +5,12 @@ LICENSE = "Apache-2.0"
 
 PV = "2.9.3"
 
-RPM_NAME = "python311-python-coveralls-2.9.3-3.9.noarch.rpm"
-RPM_HASH = "936b6e65c2f7583aa2cd02c631c116ea617e2778c9b2410e89c47ff6f11f5aeb31606dbf396d9c98d4c6856b32ab312db6055f5f7688a4010bdc9b8f4e4949f6"
+RPM_NAME = "python311-python-coveralls-2.9.3-3.11.noarch.rpm"
+RPM_HASH = "07c91fe6270dfb3ab4a790915df26be62191ebbec20056ab17b03d2c3551af5c6bd0383ae77a2e0651ece63d2208ad95fffae641450292a171153fab34ed02c9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-python-coveralls \
+RPROVIDES:${PN} += "python3-python-coveralls \
+python3.11dist-python-coveralls \
 python311-python-coveralls \
 python3dist-python-coveralls"
 

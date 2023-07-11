@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "41"
 
-RPM_NAME = "typelib-1_0-GitgExt-1_0-41-2.8.aarch64.rpm"
-RPM_HASH = "3ae122f9524794a19820a92e3bcb2484b3916ded138448f11f709f63c3b8aed5d8aaaf29615b5f580560794b6daa8a6284222e58f58f3b8c369c009d45404d4b"
+RPM_NAME = "typelib-1_0-GitgExt-1_0-41-2.10.aarch64.rpm"
+RPM_HASH = "fc973498d5d1e8d52a88aab51754b903f369eef9cd738608926cfb1c9f0128d8d59b86ca29eee111b4e5f0728222aafdfc5ab0c1af4f9e2737d4dfba4fe67cab"
 
 RPROVIDES:${PN} += "typelib-1-0-GitgExt-1-0 \
 typelib-GitgExt"

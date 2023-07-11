@@ -8,11 +8,12 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python311-azure-ai-nspkg-1.0.0-3.9.noarch.rpm"
-RPM_HASH = "7d7269611b5044544c088a3fd952258bb639e043d42e61043771e8b9efc5f14de227503f8fe4ef9aa9f5b87a0107f7e030c787234c55c97574c32ceb7bec594e"
+RPM_NAME = "python311-azure-ai-nspkg-1.0.0-3.10.noarch.rpm"
+RPM_HASH = "6b1415a460c6bdad4c9a95c220c2c91f26f8d8097de21b231bac391f9c7b70de3fc96a5167eabb5f791457ba84bd163c63c50a5ba04b9b56a73eab5314530a77"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-ai-nspkg \
+RPROVIDES:${PN} += "python3-azure-ai-nspkg \
+python3.11dist-azure-ai-nspkg \
 python311-azure-ai-nspkg \
 python3dist-azure-ai-nspkg"
 

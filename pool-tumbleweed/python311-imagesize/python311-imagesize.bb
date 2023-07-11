@@ -10,11 +10,12 @@ LICENSE = "MIT"
 
 PV = "1.4.1"
 
-RPM_NAME = "python311-imagesize-1.4.1-2.1.noarch.rpm"
-RPM_HASH = "8115b5a1105afa53445185a71060319dfe2495448a20530ef26a9ffde416cec46dede1a8fb8c75a9f12f5bf42fc503a1fa873e56cd3eb28fb8811fd54b1a1774"
+RPM_NAME = "python311-imagesize-1.4.1-2.3.noarch.rpm"
+RPM_HASH = "1b12abe609ed2a498ca5d2bff4cbe10e1eade7925be4a315fb63bfff192f07bd943069da908b8f890b779431b543edb68c8ee24b1849fd806a5c264cd7548cba"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-imagesize \
+RPROVIDES:${PN} += "python3-imagesize \
+python3.11dist-imagesize \
 python311-imagesize \
 python3dist-imagesize"
 

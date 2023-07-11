@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.8.9"
 
-RPM_NAME = "groovy18-javadoc-1.8.9-7.7.noarch.rpm"
-RPM_HASH = "a23468cfad16a3c1796e92272772ec70d0ebf4b9b030d34bab60ad4b3d40e4ddcac5f2208de6cca09ea4c8f7a3c61bf2f0056f3dd526422c80e22dd93ee718cb"
+RPM_NAME = "groovy18-javadoc-1.8.9-7.8.noarch.rpm"
+RPM_HASH = "704b2b692518d52e75c2f186ba7c17867e655a411018e42afcb18221c65527084d90e898ef1d5cf42c247c540dba7054b7c05ba66319afef8a9a903942ef28ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "groovy18-javadoc"

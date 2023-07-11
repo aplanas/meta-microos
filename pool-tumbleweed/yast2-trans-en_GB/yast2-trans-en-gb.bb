@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - British English Translations"
 DESCRIPTION = "YaST2 - Translations for British English."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230516.e4ba802a"
+PV = "84.87.20230630.ccfa6add46"
 
-RPM_NAME = "yast2-trans-en_GB-84.87.20230516.e4ba802a-1.1.noarch.rpm"
-RPM_HASH = "eb542a490c5350d026d99d2429f67949d876d23c72e8352ff24248f9739c80e5c9aaa2c77e72d0875c52e2068c6e377b134d546a2833da13aaf6c09a47e4755a"
+RPM_NAME = "yast2-trans-en_GB-84.87.20230630.ccfa6add46-1.1.noarch.rpm"
+RPM_HASH = "007cdca85153de1f3c960ef18a11622c758e149692e61287362f3eb76026e2ac083a27dd0d90766e52538209a09c8da82257cecd37e1207eacf2028a504b0c37"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-en-GB \

@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "2.0.0"
 
-RPM_NAME = "python311-azure-cognitiveservices-search-imagesearch-2.0.0-2.15.noarch.rpm"
-RPM_HASH = "d93d71b878f04b9e1968b3fa861e5c658704e643c014f1a37186e0beadb502f7573843f8d2b7348eafd0b7d0acb4b2fab588bff004881496617f1972beef632b"
+RPM_NAME = "python311-azure-cognitiveservices-search-imagesearch-2.0.0-2.16.noarch.rpm"
+RPM_HASH = "8ddb71c8bd87b5573a12410dd49ce0d3412c49e80118f931a5f5269e42fa15721c18f32676b7aad69195e23ab8b32d7aa0c8ac3d016eea0d292862e9a17e72ac"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-cognitiveservices-search-imagesearch \
+RPROVIDES:${PN} += "python3-azure-cognitiveservices-search-imagesearch \
+python3.11dist-azure-cognitiveservices-search-imagesearch \
 python311-azure-cognitiveservices-search-imagesearch \
 python3dist-azure-cognitiveservices-search-imagesearch"
 

@@ -4,10 +4,10 @@ DESCRIPTION = "OpenTTD is a reimplementation of the Microprose game 'Transport T
 This package provides the data files needed by openttd or openttd-dedicated."
 LICENSE = "GPL-2.0-only"
 
-PV = "13.1"
+PV = "13.3"
 
-RPM_NAME = "openttd-data-13.1-1.2.noarch.rpm"
-RPM_HASH = "afd34d77dccb8431e283be4e5eab2a5e67c553c15c3ba01c0a2a636478fbd2629bfa60c0b53977e3fe8823d6563829ae2cc7674f4674032b0a7aafcf3018400e"
+RPM_NAME = "openttd-data-13.3-1.1.noarch.rpm"
+RPM_HASH = "03c02f92ff068e555b5c8e9acd2060876c45a70221955a4b68de0f96b3bdeea4ff9a95dbab72f0d2a0fc3f0a5acf8ccfa349298620c8ae701873f653620294c4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openttd-data"

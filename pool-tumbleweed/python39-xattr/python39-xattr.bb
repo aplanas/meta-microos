@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "0.10.1"
 
-RPM_NAME = "python39-xattr-0.10.1-1.4.aarch64.rpm"
-RPM_HASH = "7bc148e32ef686cd83c73837fad1ed0a8c3b899a9f4d3d196f63547bcb17ae21b76b90a7ca2a75930bbb769d5083cabf3d30c9e1615b64a17eac5378fc0e5e7e"
+RPM_NAME = "python39-xattr-0.10.1-2.1.aarch64.rpm"
+RPM_HASH = "ad1fd7ee2695a5038125a92c713d2c79ecd28c95b6156e281b228956e5c0dafdccb4dd26713023510b0340bd510cf9e70eaef00c52b9d2f523822aa4fa647ca1"
 
 RPROVIDES:${PN} += "python3.9dist-xattr \
 python39-xattr \

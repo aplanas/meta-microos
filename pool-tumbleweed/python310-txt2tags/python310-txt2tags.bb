@@ -7,20 +7,18 @@ There are GUI, Web and cmdline interfaces. It's a single Python script and \
 no external commands or libraries are needed."
 LICENSE = "GPL-2.0-only"
 
-PV = "3.7"
+PV = "3.8"
 
-RPM_NAME = "python310-txt2tags-3.7-2.9.noarch.rpm"
-RPM_HASH = "2a2ae184224b8b6b94d7be23229ad2abae83749c95a5a6f10ebc75fd1221b2604213fb37b8a4da4f777cc138d858b816cf09950dcc6d80b48802f6f370c0860b"
+RPM_NAME = "python310-txt2tags-3.8-1.1.noarch.rpm"
+RPM_HASH = "7f446d3c8f738db3b5ee70c946c32936b4254f0a4993cd8c9a85c3d9f3d6052f4ef75fbbe5e00d546da497d8e82e13c9c6720e4d861e1306e46aa562e0e9873e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-txt2tags \
-python3.10dist-txt2tags \
+RPROVIDES:${PN} += "python3.10dist-txt2tags \
 python310-txt2tags \
 python3dist-txt2tags \
 txt2tags"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
 /usr/bin/sh \
 python-abi \
 python310-setuptools \

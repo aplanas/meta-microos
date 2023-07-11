@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.10.0"
 
-RPM_NAME = "freerdp-server-2.10.0-3.1.aarch64.rpm"
-RPM_HASH = "af004c5ccc7f288805c2fc617fdc3765509c1e06ad295bebc71c09a2528cf2e93f5452351977369822145a2282d02034b2ad1cd95bf66d79aeffcb5502fb4742"
+RPM_NAME = "freerdp-server-2.10.0-3.2.aarch64.rpm"
+RPM_HASH = "31cafe00057187c58bd3f27aeceb65eaf9c0d62388e303e61514b1191cc95b6f3e3abc7466bfb3a4e2725d635af290b8b7a1bd65db8bcf10c6538997781e3561"
 
 RPROVIDES:${PN} += "freerdp-server"
 

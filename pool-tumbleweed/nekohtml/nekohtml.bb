@@ -14,8 +14,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.9.22.noko2"
 
-RPM_NAME = "nekohtml-1.9.22.noko2-1.4.noarch.rpm"
-RPM_HASH = "6301a18655fb534753a542dbd73cdefe05c2034fef6b2ac6a4c1c44ab3289d6f1ed599287870e24c8f542a153ff7962c7127af379fec9299cc34cf84cb3e2979"
+RPM_NAME = "nekohtml-1.9.22.noko2-1.5.noarch.rpm"
+RPM_HASH = "50f43aa93b6335b409d24108db6796986376654a313450a74987d8fde61db258eb0f49b9647ff2851070fa146893e82e5b4caee16e709965ea12bbdd76e2dc97"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-nekohtml-nekohtml \

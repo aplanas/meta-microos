@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "0.7.0"
 
-RPM_NAME = "python39-brotlipy-0.7.0-6.1.aarch64.rpm"
-RPM_HASH = "052e58b3f3a584fc32cd3176866c9f94654b46eac3eca8a6caec27295919f484bcfadbe8022911ea8e8373d1b49b62a141e26e9506febe820267c8017ecca53a"
+RPM_NAME = "python39-brotlipy-0.7.0-6.3.aarch64.rpm"
+RPM_HASH = "fecb8e6b8749472ad323c8de6e5dfa7dfe12225ced809335ffd1e9ca792cd40269e8eaa417945eb56ab97235a720d579907a333f95dfd6866c9d7fdb4d19b9db"
 
 RPROVIDES:${PN} += "python3.9dist-brotlipy \
 python39-brotlipy \

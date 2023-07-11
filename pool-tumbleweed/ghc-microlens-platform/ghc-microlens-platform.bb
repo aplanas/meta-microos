@@ -20,11 +20,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.3.3"
 
-RPM_NAME = "ghc-microlens-platform-0.4.3.3-2.3.aarch64.rpm"
-RPM_HASH = "8abcbd595390987cc7b193e520e4b26822f9dd9b91f594f8cfc7dc711774fa7100cb9e031e6b29ddb0210aa4b36f7e37ad2ad64cf502a29a2ca7e49faebd6902"
+RPM_NAME = "ghc-microlens-platform-0.4.3.3-2.4.aarch64.rpm"
+RPM_HASH = "d1b7f51111037969a2e7e62f65fc53e225b6f4789ae0f177c1beb2c24fb9569931ebc5c4000cfb973a1c767da05067bb6ea9369334b3e158a914df94ed43c150"
 
 RPROVIDES:${PN} += "ghc-microlens-platform \
-libHSmicrolens-platform-0.4.3.3-9nLg9j7jRAiHEY5VUSmG6h-ghc9.4.5.so"
+libHSmicrolens-platform-0.4.3.3-Cix3OOw3ZFyD9flb3xi2EO-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
 libHSbase-4.17.1.0-ghc9.4.5.so \
@@ -40,7 +40,7 @@ libHShashable-1.4.2.0-FFBRhuY0w4YLmuLEs5uQAt-ghc9.4.5.so \
 libHSmicrolens-0.4.13.1-ARwI8t2x86cAxRs56XPcG1-ghc9.4.5.so \
 libHSmicrolens-ghc-0.4.14.1-4Q8SZXKkgj872LFERorIGB-ghc9.4.5.so \
 libHSmicrolens-mtl-0.2.0.3-50s7aKrmu33tjGZvdN4FV-ghc9.4.5.so \
-libHSmicrolens-th-0.4.3.12-A1OnPrF7gbKLp2skY17lAG-ghc9.4.5.so \
+libHSmicrolens-th-0.4.3.13-4M5tTOX0ioLGTMiKBp6v2C-ghc9.4.5.so \
 libHSmtl-2.2.2-ghc9.4.5.so \
 libHSpretty-1.1.3.6-ghc9.4.5.so \
 libHSprimitive-0.7.4.0-AeB0oysC3TAJw9tDpuX8hq-ghc9.4.5.so \

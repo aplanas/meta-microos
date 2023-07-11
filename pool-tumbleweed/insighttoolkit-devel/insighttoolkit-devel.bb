@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "5.3.0"
 
-RPM_NAME = "insighttoolkit-devel-5.3.0-3.2.aarch64.rpm"
-RPM_HASH = "2b5adb7d19ab74e5bde1170bd422179391b63228b1e754c09dfa659110497412a290ebefab39f78f5a95bfcb73d1fc67499d2f217ef5faa4a0823c9d3bd93c95"
+RPM_NAME = "insighttoolkit-devel-5.3.0-3.3.aarch64.rpm"
+RPM_HASH = "1b758c5d3a5dbe0c378694631219f67f35cc84f5a1c69037f5c058d7c85ff943a5fdb75b9867a3a317be8a714578399a179621cc6b313191c2ea104a67e13efb"
 
 RPROVIDES:${PN} += "cmake-ITK \
 insighttoolkit-devel \

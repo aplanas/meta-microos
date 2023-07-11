@@ -5,11 +5,11 @@ LICENSE = "Apache-2.0"
 
 PV = "2.1.3"
 
-RPM_NAME = "speedtest-cli-2.1.3-1.7.noarch.rpm"
-RPM_HASH = "249181391172aa986e8c3c717f3607d8db8a3577c39b30021c4cb74b1953a40be9a04d9afddf3049b5da74adc524a1ed4e42d1ba39c0c33aaa265f70e5b4fe69"
+RPM_NAME = "speedtest-cli-2.1.3-1.8.noarch.rpm"
+RPM_HASH = "914746d97d350dc6c554e0c5fa58e51a6abf886a71616fa260eaf3b516e94e7936f039e8ba6c665561fcba9b00caee3692a5f20940a8d098958632e0c6f2cfc8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-speedtest-cli \
+RPROVIDES:${PN} += "python3.11dist-speedtest-cli \
 python3dist-speedtest-cli \
 speedtest-cli"
 

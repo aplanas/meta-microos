@@ -2,10 +2,10 @@ SUMMARY = "OpenPGP implementation fully compliant with RFC 4880"
 DESCRIPTION = "RNP is a set of OpenPGP (RFC4880) tools, an alternative to GnuPG."
 LICENSE = "Apache-2.0 & BSD-2-Clause & BSD-3-Clause"
 
-PV = "0.16.2"
+PV = "0.17.0"
 
-RPM_NAME = "rnp-0.16.2-1.5.aarch64.rpm"
-RPM_HASH = "d2151d21325c45d247cdbcc570c751392d5b334623beed618fa94e98b160ce8d58dff5ce96f3fcb8c78bc81078f5db7bd2dba69a0ff5b4f8a2314a5d59d5e7af"
+RPM_NAME = "rnp-0.17.0-4.1.aarch64.rpm"
+RPM_HASH = "17b0731e54101d5850840ea4d2e8bd29877f7e2795d1cd7a39e8ce089bec8a76dc7067b1f9c009536726b4e5816471fe21d317df375271d88e52993d16c77f9c"
 
 RPROVIDES:${PN} += "rnp"
 

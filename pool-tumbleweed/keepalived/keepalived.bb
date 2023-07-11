@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.2.8"
 
-RPM_NAME = "keepalived-2.2.8-1.1.aarch64.rpm"
-RPM_HASH = "69cba50d4e393ebf9bad59474f86b7fa2be0958bde94cfa5df244fa8fe8fda28028eba1af72cf99a408e9025f2b42cae64cf589f4a31d5f63ac4a936a180eb46"
+RPM_NAME = "keepalived-2.2.8-1.2.aarch64.rpm"
+RPM_HASH = "123d48b6da59a563343a40e4fa62825d19a59ff4e5cef5309e386e088513f72a2960455270c0bd64b9e667b429e986381222790d79518e4075929ade602cfaf4"
 
 RPROVIDES:${PN} += "config-keepalived \
 keepalived"

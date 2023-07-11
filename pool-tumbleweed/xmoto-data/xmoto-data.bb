@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.6.2"
 
-RPM_NAME = "xmoto-data-0.6.2-1.3.noarch.rpm"
-RPM_HASH = "cc844f6780efaf3c82c7917e0d79d91e8fad997b2c34481c0641d13bd02cbaeb5a5363af7231e946a538f2e62b96961c8b519ab6130f2cb20f70a12510d5edb9"
+RPM_NAME = "xmoto-data-0.6.2-1.4.noarch.rpm"
+RPM_HASH = "0a7b7e4eed864cfc14276da7b52ae115d3e72e2fe28e617fb3f366e058cb95696e5eb5b54458a3fb293b4a7bf78336a275485e50a299b7a2ff55e63bc8800be4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xmoto-data"

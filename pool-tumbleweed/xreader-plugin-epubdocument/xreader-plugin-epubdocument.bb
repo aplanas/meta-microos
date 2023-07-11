@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.0-only"
 
 PV = "3.4.5"
 
-RPM_NAME = "xreader-plugin-epubdocument-3.4.5-1.4.aarch64.rpm"
-RPM_HASH = "70b8ea10d3a840037707c779865e869c229e6b30183bfb81b7434e744dacc3342120a78af969034bec55d97f5f567d0dc929d9bfcb03dd82725ac0d32dbf0e8d"
+RPM_NAME = "xreader-plugin-epubdocument-3.4.5-1.5.aarch64.rpm"
+RPM_HASH = "58eeb01c9732b688b2349c96c81a9746cb71b7fc1d1b46a76ade6e05260fbb19e1ac62dee35f55a452d1b7c5f684f533ddb9f5791c026067b8b312b95f740b8b"
 
 RPROVIDES:${PN} += "libepubdocument.so \
 xreader-plugin-epubdocument"

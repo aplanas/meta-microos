@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-quickcontrolstestutils-devel-static-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "e8f135bb802a8d4cbc2698ee1fccfb45b9df9a3af35d56bfef31e9fd6d5b94c85d189bf5f0118c8bf5c42285a570ca1f49e27e8af96709e8413d4345f995d618"
+RPM_NAME = "qt6-quickcontrolstestutils-devel-static-6.5.1-1.3.aarch64.rpm"
+RPM_HASH = "9ac897464c76a202f6306c36f02c6a634bd0c6e084e1f032901e7b958e8f9b2cfc83c1a58c225b21ed32a095e39873b4f438d492697b872e52e04bbdee45e47b"
 
 RPROVIDES:${PN} += "cmake-Qt6QuickControlsTestUtilsPrivate \
 qt6-quickcontrolstestutils-devel-static"

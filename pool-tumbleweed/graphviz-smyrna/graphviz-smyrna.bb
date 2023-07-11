@@ -4,8 +4,8 @@ LICENSE = "EPL-1.0"
 
 PV = "2.49.3"
 
-RPM_NAME = "graphviz-smyrna-2.49.3-6.5.aarch64.rpm"
-RPM_HASH = "9afd813367add5c484b69a96b8f24ea49ee467a1dfc165da466ccead86e7c7434844d842960a9f0fd673f5ebf09fa47bbd224bf69a899bcd88048b55215846eb"
+RPM_NAME = "graphviz-smyrna-2.49.3-6.8.aarch64.rpm"
+RPM_HASH = "668ce03dc9644d89ed73641d6072eb7cd4f8b5f64b2b415e2b5a5f13b08d38b7e0889b087e8db3a27eb31de5bcb50cfd208199683433b037c0b7d2772272a33d"
 
 RPROVIDES:${PN} += "graphviz-smyrna"
 

@@ -10,12 +10,11 @@ LICENSE = "BSD-3-Clause & EPL-1.0 & LGPL-2.1-only & LGPL-3.0-only & SUSE-Public-
 
 PV = "7.4.4"
 
-RPM_NAME = "python310-pyface-7.4.4-1.5.noarch.rpm"
-RPM_HASH = "b7c0a21942faa4e219984b0c9507ef92a6ac9fbc789b33c04e3648203025a53148d9124c3c40306b64042b7a34b33451e8466a730ed998528b79de0e6ef95fc2"
+RPM_NAME = "python310-pyface-7.4.4-1.7.noarch.rpm"
+RPM_HASH = "cc0ef02670e69ad18b97d629c047031da3a3d7690e00975bad776f24d90a07ec37f49cebb2e90de4b306fbf6ce639d844ede5fa0977e73cc000c950a85561a1c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pyface \
-python3.10dist-pyface \
+RPROVIDES:${PN} += "python3.10dist-pyface \
 python310-pyface \
 python3dist-pyface"
 

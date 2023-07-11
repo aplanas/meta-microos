@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.42.10"
 
-RPM_NAME = "typelib-1_0-GdkPixdata-2_0-2.42.10-1.4.aarch64.rpm"
-RPM_HASH = "7be892960e3edcd2ac407f0a3108943d1f1ca2a0f79f2edc6cdd41f9083f2bf961552c6b00e4fdf6c7d81256ae74aeab110a2bb3b6d2950f5f6bd6325e1ae2e6"
+RPM_NAME = "typelib-1_0-GdkPixdata-2_0-2.42.10-1.5.aarch64.rpm"
+RPM_HASH = "3913a2ab25e1f72dfb0b45486948ae8a74d599c60e6c143a06ec9df6e2421cc4b94b81d4eafa46b15f8cbec53ef827fae7b50a4bf52df7c9094737f445b7fd32"
 
 RPROVIDES:${PN} += "typelib-1-0-GdkPixdata-2-0 \
 typelib-GdkPixdata"

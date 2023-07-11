@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "0.120"
 
-RPM_NAME = "cal3d-devel-0.120-3.10.aarch64.rpm"
-RPM_HASH = "a294e79fe286a4848b928aac0f8b4a046e9a16b555643f28bd2e9bae2ec8f7a9cb0ff6407de434ade482c5a9782c24c6ea9defe89f86ae3c9fd3a759b9f538a7"
+RPM_NAME = "cal3d-devel-0.120-3.11.aarch64.rpm"
+RPM_HASH = "aff68a3fef8f479e40e7756359582b113df80ad09cb5face5353d0312aea21509c77f032dabdec6fc946f2181751679b55ae4e6716685f8866796c4c13caf82a"
 
 RPROVIDES:${PN} += "cal3d-devel \
 pkgconfig-cal3d"

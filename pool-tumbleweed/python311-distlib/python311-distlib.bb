@@ -4,11 +4,12 @@ LICENSE = "Python-2.0"
 
 PV = "0.3.6"
 
-RPM_NAME = "python311-distlib-0.3.6-2.1.noarch.rpm"
-RPM_HASH = "52e104f4215511222f4e16338a57d3be15cb5e52fcd88e44f7063e4eead1bd99a4a4c3724ddb1aab38e67ffc9ff49846bd38cfdbae1c4230956a4dd00b7aa342"
+RPM_NAME = "python311-distlib-0.3.6-2.3.noarch.rpm"
+RPM_HASH = "b635036cbd249e6a92e3f8ef1d7e1740249220cdfcc2675415296fe494a1be27e47610b300a36eb1961a132f6034f44a7d31ba9e21f795b27034dea00dfa8019"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-distlib \
+RPROVIDES:${PN} += "python3-distlib \
+python3.11dist-distlib \
 python311-distlib \
 python3dist-distlib"
 

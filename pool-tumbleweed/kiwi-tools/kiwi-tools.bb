@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "9.24.61"
 
-RPM_NAME = "kiwi-tools-9.24.61-1.1.aarch64.rpm"
-RPM_HASH = "75038a26ed9d64bf5f3fba016a223a58a6e29a7d19bb3707e7fc4645c79a208cec0c698ef8ff339ae48f007f3d793d27a0a23a2e916a38034fec1c3553c642d5"
+RPM_NAME = "kiwi-tools-9.24.61-1.2.aarch64.rpm"
+RPM_HASH = "4c55cd01ba3eea2306c2eed2e5eebfce5c8bc12ea8e47df540d710d0d0aaf0f498220db0d9822e9e2d67354ab1a7f562cceba9c15ce87d2631d549a49fd9a428"
 
 RPROVIDES:${PN} += "kiwi-tools"
 

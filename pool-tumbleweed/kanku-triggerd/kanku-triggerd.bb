@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.14.0"
 
-RPM_NAME = "kanku-triggerd-0.14.0-1.3.noarch.rpm"
-RPM_HASH = "22a4c4fd6cd1755a4d7460953d0b43afdeeb19d1d7f3708c9c3ae3f6d3ef8913fa80ecdd56e784836d69e48c291bcaddbbf90b18362013f419647efb7a8cd491"
+RPM_NAME = "kanku-triggerd-0.14.0-1.5.noarch.rpm"
+RPM_HASH = "f0ab7888109cc91e968d51333aefdf54c7415633c4f663973e0e59057e6c66e8ebb98b1a04f55a4beef768f995e9c65bf14ac8e2aa3f7328fe1fc3fa9e89b6b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kanku-triggerd \

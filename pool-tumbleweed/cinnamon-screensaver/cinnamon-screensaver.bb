@@ -4,10 +4,10 @@ simple, sane and secure defaults, and be well integrated with the \
 Cinnamon Desktop."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.6.3"
+PV = "5.8.0"
 
-RPM_NAME = "cinnamon-screensaver-5.6.3-1.3.aarch64.rpm"
-RPM_HASH = "b6dc1e9bca1e74a788e93f6b4f9e240c6fd137ae07f100165a2008d971a6bca2ab230f93c64acbaf8fcdc15a34b8a3d09e24cc3b2e749e0e6d11ccf6aa04179c"
+RPM_NAME = "cinnamon-screensaver-5.8.0-1.1.aarch64.rpm"
+RPM_HASH = "f6a3837d6c98d86f3665286c6f7b21c3820b2f205cbfc0f000441a9029b1d8ea046399edeef71579fef6bbd99a7f616d45b864241aab69ac03994e516a5c1a28"
 
 RPROVIDES:${PN} += "cinnamon-screensaver \
 libcscreensaver.so.0 \
@@ -22,7 +22,6 @@ libXext.so.6 \
 libXinerama.so.1 \
 libXrandr.so.2 \
 libc.so.6 \
-libcairo.so.2 \
 libgdk-3.so.0 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \

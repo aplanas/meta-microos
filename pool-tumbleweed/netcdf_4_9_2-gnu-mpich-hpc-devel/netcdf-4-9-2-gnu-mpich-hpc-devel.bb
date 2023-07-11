@@ -9,8 +9,8 @@ LICENSE = "NetCDF"
 
 PV = "4.9.2"
 
-RPM_NAME = "netcdf_4_9_2-gnu-mpich-hpc-devel-4.9.2-1.1.aarch64.rpm"
-RPM_HASH = "caca2aded3a8f92393aa44e480b8d73631238a519ff1ba55179017395fd92c253a2180206c2cd6815eb4c251397f902c6d70847842810b644f8729341b1cff21"
+RPM_NAME = "netcdf_4_9_2-gnu-mpich-hpc-devel-4.9.2-1.2.aarch64.rpm"
+RPM_HASH = "845aa25fabba8e716ce54274f48eb6ac90034086a31a13d2e4255dbf3af9b827c03505941206d5ecc0b5b5fc07ce979bc148aababf7bd87c2d1c0af985280449"
 
 RPROVIDES:${PN} += "netcdf-4-9-2-gnu-mpich-hpc-devel"
 

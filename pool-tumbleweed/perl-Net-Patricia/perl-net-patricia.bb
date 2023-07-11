@@ -17,8 +17,8 @@ LICENSE = "BSD-2-Clause & GPL-2.0-or-later"
 
 PV = "1.22"
 
-RPM_NAME = "perl-Net-Patricia-1.22-6.3.aarch64.rpm"
-RPM_HASH = "6ceb0e73e4461afa9f839ad905bb75903b334b7d178801dcb22788016ee2b583f0115fae8b005ed1095e11c3ac698499549b987c554cd4d0ae4e2c75d07f70ea"
+RPM_NAME = "perl-Net-Patricia-1.22-6.4.aarch64.rpm"
+RPM_HASH = "042fa3c27ffe3d14979f1abecf93960f0bf0e2ef0ee86b1aa72d42d1647ae549a334faac6d0f32cc350248ee224813d74516ecc1ac83ce81c2cee964358b94b9"
 
 RPROVIDES:${PN} += "perl-Net--Patricia \
 perl-Net--Patricia--AF-INET \
@@ -27,7 +27,7 @@ perl-Net-Patricia"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-Net--CIDR--Lite \
 perl-Socket6 \
 perl-Test--More \

@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.23.0"
 
-RPM_NAME = "libnsync-devel-1.23.0-2.12.aarch64.rpm"
-RPM_HASH = "d2fda9d92a92a088411c78e262e05441fba7b404906530eef39b90fd3959e89b7d395b370f028f8044ea1387b4b259754aee3e1a6639465701dc0dbcdcf484bc"
+RPM_NAME = "libnsync-devel-1.23.0-2.13.aarch64.rpm"
+RPM_HASH = "0a9a788a2b2bfe56c5354fc442f30af04c613fd5aa439d68e87d76bb546948dc8c6eee8088f8fb8201f8c20fc2e5f08e6226b0f61e854efcf3bb3c00d049da0c"
 
 RPROVIDES:${PN} += "libnsync-devel"
 

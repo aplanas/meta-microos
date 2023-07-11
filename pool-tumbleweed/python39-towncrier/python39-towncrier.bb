@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "19.2.0"
 
-RPM_NAME = "python39-towncrier-19.2.0-2.13.noarch.rpm"
-RPM_HASH = "739056b77833bbafdc76ee00767376bedccbfbcc2db29cd017349a375658621f16d8e86889dec1df6420cb92bb2b067abcff5155ff63070e0757e3b77100a5c5"
+RPM_NAME = "python39-towncrier-19.2.0-2.15.noarch.rpm"
+RPM_HASH = "60c0081fd9f82bd5f0c254c756218b91081d415e6efd22ea58d311617b06a9595d4a3409e371802948cd9cc2c729f94b3a107869ece3fc8718fb709b970796fe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-towncrier \

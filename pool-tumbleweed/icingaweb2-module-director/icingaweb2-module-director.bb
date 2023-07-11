@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.10.2"
 
-RPM_NAME = "icingaweb2-module-director-1.10.2-1.3.noarch.rpm"
-RPM_HASH = "23084e9ba3baff0ed3610bd4f7f72c72fb99a3dbab89e5473cf72ab1cc817f4d65adbb3b3884e6be54ef847cbfabd0aaefa76c97d97542fad28b897a83de866a"
+RPM_NAME = "icingaweb2-module-director-1.10.2-1.4.noarch.rpm"
+RPM_HASH = "09b5fbab5a2196a8c0a3db6a299f2956afaa4edab23c1362f630aefef6f6c0ad1b6615d323c8413c6a4de7edf9aa022871ac8032a728830723b7468d23131dcd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icingaweb2-module-director"

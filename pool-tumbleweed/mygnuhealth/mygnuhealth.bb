@@ -5,11 +5,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.0.5"
 
-RPM_NAME = "mygnuhealth-1.0.5-2.6.aarch64.rpm"
-RPM_HASH = "a0eb3de69eb0ec53c224d097cfa27440ab76e645e279cb322f6a59618181eb19bbb38cc940ce72294d10cb3f6a0fbd187bcffa448f14201a4423ac3609efa7cf"
+RPM_NAME = "mygnuhealth-1.0.5-2.7.aarch64.rpm"
+RPM_HASH = "88c90b2289f003e3274f2605006a73827439855a71b972d82393ce241be0bba15ce1879d1f3e34826e551e42edde912604bf95265a5c68bd3772e5dcde455c9b"
 
 RPROVIDES:${PN} += "mygnuhealth \
-python3.10dist-mygnuhealth \
+python3.11dist-mygnuhealth \
 python3dist-mygnuhealth"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

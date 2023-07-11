@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kio"
 DESCRIPTION = "Provides translations for the 'kio' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "kio-lang-5.106.0-1.1.noarch.rpm"
-RPM_HASH = "91ff16f7429520d223b199c6621851264a06d6f6d5f16a3a4446340730305c39cc830a42e160d28f52292b749464548516ec2f246a2571207ea0d12230ab553f"
+RPM_NAME = "kio-lang-5.107.0-2.1.noarch.rpm"
+RPM_HASH = "153c7e486d9e47f9b5a83a4011a70ccdfca1e63e5ca40794826bab4eeb62b3e52c18a601c2ba66239bb5ccde9d5b03fcf9956e26dd5bc6f193a814194bdfe2d3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kio-lang \

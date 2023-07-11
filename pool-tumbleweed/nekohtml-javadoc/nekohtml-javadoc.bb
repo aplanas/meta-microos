@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.9.22.noko2"
 
-RPM_NAME = "nekohtml-javadoc-1.9.22.noko2-1.4.noarch.rpm"
-RPM_HASH = "fa3c0da21c432248368f7361224d79ac67af60e7db7812ac322528c7dfd5d528c43058c4b32bd4d883af77e99cdd733ac2dbe6ccf676f0f3bd3533c72824d7ec"
+RPM_NAME = "nekohtml-javadoc-1.9.22.noko2-1.5.noarch.rpm"
+RPM_HASH = "f8529fbcfab4e24ba5b9dd381009b894db9967432928afb8e964d6b3f121237c632a2a5d6bfaf132ea89eca2060ddc4a6f7a4c66c3b61f97be63e10b3fb7a787"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nekohtml-javadoc"

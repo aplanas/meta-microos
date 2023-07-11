@@ -2,10 +2,10 @@ SUMMARY = "Plasma service for monitoring disk health"
 DESCRIPTION = "Monitors S.M.A.R.T. capable devices for imminent failure and informs the user."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "plasma5-disks-5.27.5-1.1.aarch64.rpm"
-RPM_HASH = "91bbebb7180c937b7fc3add943951ef32b17813098e408b426e678807e6ba0e7bf970ac24cc63f9a22005e48821e0f4b9290c2798c6efff92669d9b169bcd543"
+RPM_NAME = "plasma5-disks-5.27.6-1.1.aarch64.rpm"
+RPM_HASH = "0b4f28901099d52383a4a16e41c61f332e7f17b5c36614ebcbf19e794209dc0dd0d6b12179f816fd86647de1198594fb185c8f1e05c7639f791fb57251d104b9"
 
 RPROVIDES:${PN} += "plasma-disks \
 plasma5-disks"

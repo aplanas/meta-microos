@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "0.13.0"
 
-RPM_NAME = "usbredir-devel-0.13.0-1.4.aarch64.rpm"
-RPM_HASH = "3421d210beae2c3b20b2084380b5466b4070130ecea3e22ded8344a847d7ca68fd45829be6828806661c367d59f0e77883b12efcd675b84cbfd09a16f18116af"
+RPM_NAME = "usbredir-devel-0.13.0-1.5.aarch64.rpm"
+RPM_HASH = "62a0a52fab0036cee41bcfb3208b74933ac770308785f7c2707084bc5ebb98738e7cf4c842c0add66fa26d6f3e0827f303d047e99f32cb93defcbc87c9f8afa2"
 
 RPROVIDES:${PN} += "pkgconfig-libusbredirhost \
 pkgconfig-libusbredirparser-0.5 \

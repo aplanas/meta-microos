@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2023.04"
 
-RPM_NAME = "u-boot-pinebook-pro-rk3399-doc-2023.04-2.1.aarch64.rpm"
-RPM_HASH = "eb67c453bd618fe5351961b61bf7a718f0f70dcb24096b48ed3aa9c1fb98b274b046f661c935b851803fb73f73c76851551845a34d0d93e900f40620edd8fc23"
+RPM_NAME = "u-boot-pinebook-pro-rk3399-doc-2023.04-2.2.aarch64.rpm"
+RPM_HASH = "295a9a46015f0ab3cfbfb05fa95746c1dca177d498e9be97eacf1f39d2926dd4acb41b64b4950c6df69dbb3b694dac4ccca5a866590f7803f729b75f2b3800c3"
 
 RPROVIDES:${PN} += "u-boot-pinebook-pro-rk3399-doc"
 

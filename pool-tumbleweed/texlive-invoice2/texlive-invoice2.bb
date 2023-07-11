@@ -6,10 +6,10 @@ per invoice. Can be used as a replacement for invoice in most \
 cases."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn46364"
+PV = "2023.208.svn46364"
 
-RPM_NAME = "texlive-invoice2-2023.201.svn46364-52.1.noarch.rpm"
-RPM_HASH = "1e05d8f538cb98cd881821563b606e748f822af9ffd32198767ca88e288193fd94cea08452b53b219e9349291681a5afb7c29ce0d0c0fff617795ac4a82847ee"
+RPM_NAME = "texlive-invoice2-2023.208.svn46364-53.1.noarch.rpm"
+RPM_HASH = "4ca17ef49b0f1ae450f9f69bc0fd0724a53e55d855b26ba88c5b0f089d11ac27a0e9df5d97c9626fb47ea2d8816f70597d8c09934669525fd879c0940029f20f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-invoice2.sty \
@@ -34,6 +34,7 @@ texlive-filesystem \
 texlive-kpathsea \
 texlive-kpathsea-bin \
 texlive-scripts \
-texlive-scripts-bin"
+texlive-scripts-bin \
+texlive-siunitx"
 
 inherit rpm

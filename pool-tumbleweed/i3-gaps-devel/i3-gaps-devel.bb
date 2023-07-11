@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.21.1"
 
-RPM_NAME = "i3-gaps-devel-4.21.1-1.3.aarch64.rpm"
-RPM_HASH = "2e0ef5d491d2eee312ec9c3bc229510ea194c1c7827530010fb4e231dbd2d1544aaab90a3b2496535cc6923265a500e222106ed56ec144615bee710166316f6f"
+RPM_NAME = "i3-gaps-devel-4.21.1-1.4.aarch64.rpm"
+RPM_HASH = "baaab47ee87d55d389bf58b8ad80ce0823f0fbfa0349d1a5b6f41fc4d75a84b833a891ab4466f367a887fdfeee967b83e09a23865648f300e252140c430e8d0e"
 
 RPROVIDES:${PN} += "i3-gaps-devel"
 

@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "3.2.6.post1"
 
-RPM_NAME = "python39-Cheetah3-3.2.6.post1-1.9.aarch64.rpm"
-RPM_HASH = "bffe13061ffe648409a37df98deaad226d86d0a20ac100b07a612cbccacb46b3b7162a9bb48c93741f6904e0321647f19d04cb9caf9e917bd5a4219e612c79bb"
+RPM_NAME = "python39-Cheetah3-3.2.6.post1-1.11.aarch64.rpm"
+RPM_HASH = "8936964f9087a75b7146c20deeb97c4a09d87bc3c0602c7d9e840c62dd6865f63cb655765e641dac3dd221c3d4039cbaf7377232b4714d8312ca2a0ab318676c"
 
 RPROVIDES:${PN} += "python3.9dist-cheetah3 \
 python39-Cheetah \

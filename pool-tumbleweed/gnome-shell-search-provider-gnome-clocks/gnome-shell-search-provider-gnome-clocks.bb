@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "gnome-shell-search-provider-gnome-clocks-44.0-1.1.noarch.rpm"
-RPM_HASH = "c8c47767d5a35daa39503b679228a8144bb63bfc9dbe75e3d7b734d5078a4fd362c939b5a2e433bdedbe851ed777ccfc813e0626e10b22db2473de2fa6428c93"
+RPM_NAME = "gnome-shell-search-provider-gnome-clocks-44.0-1.2.noarch.rpm"
+RPM_HASH = "f249d45c515ec9324ec9225bdb2a903b794ec769b20e5e89d3582577a00ec9b82552f2ef86270235ec4b5066dbd993c1fb239748f988fdc4a0477d964be82265"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-shell-search-provider-gnome-clocks"

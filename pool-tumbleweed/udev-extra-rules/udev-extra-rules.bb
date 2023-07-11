@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.2"
 
-RPM_NAME = "udev-extra-rules-0.2-1.6.noarch.rpm"
-RPM_HASH = "31a4767b889f067dc3b01d1c0ef72c1a02f0b6adcd6e1cea6a8bb92db4d76cba4c1d4b83ad9ef3539e2a7c2f10cadc76c5fb517a5e7c4e328e6160148ea515dd"
+RPM_NAME = "udev-extra-rules-0.2-1.7.noarch.rpm"
+RPM_HASH = "2b34cb7e8e4a6fe6c4a79d35414b1a5f67ef785fcda01cb50a65ed2e7d88342b09c3e036c0d8fc883e741775d22cc0bfe68188dd7fc453d5a3f3edd44b3a3aa7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "system-tuning-common-SUSE \

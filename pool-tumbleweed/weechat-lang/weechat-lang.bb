@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.8"
 
-RPM_NAME = "weechat-lang-3.8-1.1.noarch.rpm"
-RPM_HASH = "87d03e093867e2add0ea5e17c140bdcb201dd810bc4d42dfaa2250f0a0ab69b8a517cd5d3e6bd2bb2146701c2aaf4dc965243da34960b73294577a4ceb61cdd7"
+RPM_NAME = "weechat-lang-3.8-1.3.noarch.rpm"
+RPM_HASH = "a1f776a1f2c1644dc29a70bca94ee15e2fbf6feec76edb015c5579b43b40330e4511b995ad40cd6dc3ff06deb9fce9fa08069de03b4cc63074b898754f8c4169"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-weechat-cs \

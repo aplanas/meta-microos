@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.6.6.1"
 
-RPM_NAME = "trigger-rally-0.6.6.1-3.8.aarch64.rpm"
-RPM_HASH = "f9b9716af158eb9783313be91558d2f13df27adb71d94dfe3370d2506263f6127af781db4f75652383eef72be8a71e8276e5712856e352e251048e9d367a28ef"
+RPM_NAME = "trigger-rally-0.6.6.1-3.9.aarch64.rpm"
+RPM_HASH = "d417864f0da426c92e762c54915e85b940bc2327a8f909d213aad577352207b814acfd3a763ad25c4cb9c8806224efe7c2d61fb4a2b2f13de7e548eafc3316f5"
 
 RPROVIDES:${PN} += "trigger-rally"
 

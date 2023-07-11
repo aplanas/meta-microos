@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libKF5Declarative5"
 DESCRIPTION = "Provides translations for the 'libKF5Declarative5' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "libKF5Declarative5-lang-5.106.0-1.2.noarch.rpm"
-RPM_HASH = "20d54c4c73e94c0b78d077e18a2079a732015ea2ac45360a3ea0087cc05d1090f0d5f5989762a351410b500b9519ae4397fc3fd34bf47eb08de1a46cb629e54d"
+RPM_NAME = "libKF5Declarative5-lang-5.107.0-1.2.noarch.rpm"
+RPM_HASH = "1954330b8857d657c3b66b00963da8d248cd341f6df1c7a3d5c0d6c88784b40338aa9f6a618fb0409292c4cd2942fdada553aad96f9fc18efbf221d433e60253"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libKF5Declarative5-lang \

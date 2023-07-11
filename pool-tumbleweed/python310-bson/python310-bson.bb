@@ -4,12 +4,11 @@ LICENSE = "Apache-2.0 & BSD-3-Clause"
 
 PV = "0.5.10"
 
-RPM_NAME = "python310-bson-0.5.10-2.3.noarch.rpm"
-RPM_HASH = "5bfd2c1aea7bc96d7d82591c84e262eceea10017e024c01e9f03faf7694bb626588e04188bdc4e6315b8d22f6e7f6ee31b1333a2c16ae69c34d9f9be745833a0"
+RPM_NAME = "python310-bson-0.5.10-2.5.noarch.rpm"
+RPM_HASH = "4313bf3191c7a94a704320d8472a73c4215527b8585dff3d653c2078df9f9438aed61bbaa650c1229e4be4fba72a450e9f740668872c201adb7b6aa6ba035150"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-bson \
-python3.10dist-bson \
+RPROVIDES:${PN} += "python3.10dist-bson \
 python310-bson \
 python3dist-bson"
 

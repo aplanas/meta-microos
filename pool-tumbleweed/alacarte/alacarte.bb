@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.44.2"
 
-RPM_NAME = "alacarte-3.44.2-1.3.noarch.rpm"
-RPM_HASH = "190eb61b1b22fc594ea8c07b9df76d11ffdefd7245faa32a5e5d7e0e2e4e5a0713f8fedd23b01effd6835e5f2d864dc64fd4f9dd7259c4bd9e422b3dd14d3ea0"
+RPM_NAME = "alacarte-3.44.2-1.4.noarch.rpm"
+RPM_HASH = "8e760411ef08927a6f3938ec294599defecafd1c69af324db1917bcc156592f0de5227cde9a3368022e6b2a793dd03c2d6b1179f010b25c0d6263042b268f266"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "alacarte"

@@ -12,12 +12,11 @@ LICENSE = "ZPL-2.1"
 
 PV = "2.4.0"
 
-RPM_NAME = "python310-bobo-2.4.0-5.9.noarch.rpm"
-RPM_HASH = "1fa66742627db389cdb5279015d2b47307f2cde7283a41cb19a33181d9123424bab726ae86ce8ece3b84103cd05e750538f1fc3ad16c39b1f03f52e797f6144a"
+RPM_NAME = "python310-bobo-2.4.0-5.10.noarch.rpm"
+RPM_HASH = "b3fb00f0f28205add200e51270125132339809b4a4ccd8f60879f3ccc918f758d353adc64c3ba1a2d665c48190ab8fa75f3cf7e4be87cc4234bd0b686fb906b6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-bobo \
-python3.10dist-bobo \
+RPROVIDES:${PN} += "python3.10dist-bobo \
 python310-bobo \
 python3dist-bobo"
 

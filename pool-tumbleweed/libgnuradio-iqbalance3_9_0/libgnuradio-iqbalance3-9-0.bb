@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.39.0git20210108"
 
-RPM_NAME = "libgnuradio-iqbalance3_9_0-0.39.0git20210108-1.12.aarch64.rpm"
-RPM_HASH = "ff45b610eb1374aa7d91a982b165b82b8e1620659594b9454f8659c32ced42013c24c2c0af9be71153520b907d92601ca0e54549e55424beb6affcc574ddcfb4"
+RPM_NAME = "libgnuradio-iqbalance3_9_0-0.39.0git20210108-1.13.aarch64.rpm"
+RPM_HASH = "7df0cefed447057b106e8be0f089d4eb7bf819ccb14d175ba2ff56a0a24d03b9dea4045f2f8f25cea564581ee61c42e74654f4ca518c831df05025176dcbde1e"
 
 RPROVIDES:${PN} += "libgnuradio-iqbalance.so.3.9.0 \
 libgnuradio-iqbalance3-9-0"

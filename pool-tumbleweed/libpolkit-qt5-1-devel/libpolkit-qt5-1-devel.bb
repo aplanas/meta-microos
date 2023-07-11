@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.114.0"
 
-RPM_NAME = "libpolkit-qt5-1-devel-0.114.0-2.9.aarch64.rpm"
-RPM_HASH = "8d6b4e50b8800d8839569526919bd3f3307b99ff3a00d4bfaf321d295fc3402fa76ea13a3680050cf0c2b89b0871dc4990af16c1eb108aea2f4d80621ca661e5"
+RPM_NAME = "libpolkit-qt5-1-devel-0.114.0-2.10.aarch64.rpm"
+RPM_HASH = "c526e60740d1a369658cd44c5e84648ccc2be4eb50c26f7dcff2f3d3762151448dda66ae76c2e02ca82f97d8c4db459eaf10aa1ece6f62cafb3bbbbc2650e3ec"
 
 RPROVIDES:${PN} += "cmake-PolkitQt5-1 \
 libpolkit-qt5-1-devel \

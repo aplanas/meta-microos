@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python39-conu-1.0.0-2.3.noarch.rpm"
-RPM_HASH = "b0a2d6232213b38bad6f9ea52b08ea01d65a4de8a12c452d7121e6b419e9f9a7d5d5ae733a60b106f47cd17cc1b76adf94a5455be53f6c99a4d4923ab459376e"
+RPM_NAME = "python39-conu-1.0.0-2.5.noarch.rpm"
+RPM_HASH = "3e1ec73b7898a133b0fc52a876dec32fefea3f0b84d3ead16bfe801a903884bb6f76f5f132f834739e4ed1106734d49c5b3c0075fe44a4db0131cf3826e9ffd4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-conu \

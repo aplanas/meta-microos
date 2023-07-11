@@ -17,10 +17,10 @@ subroutines are called only if needed. For more information read the \
 String::Flogger docs."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "3.002"
+PV = "3.005"
 
-RPM_NAME = "perl-Log-Dispatchouli-3.002-1.2.noarch.rpm"
-RPM_HASH = "4674cac40efadc15dac95db6f564af06816a8953bdb5234c4c73a4bbbb7b44b7fd0b5a518dd4a5e1622b179f4877a0b9637b86be912010e6dc5ad84c7e482368"
+RPM_NAME = "perl-Log-Dispatchouli-3.005-1.1.noarch.rpm"
+RPM_HASH = "8884226af1ce3cae07db3f8c30d08b5c191e18bfe7d19171d07d409a129abd7e00708f8002674b26f948f17c86f5ed3b90cbda990cb7aeb02662db214c69f5a5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Log--Dispatchouli \
@@ -29,7 +29,7 @@ perl-Log--Dispatchouli--Proxy \
 perl-Log--Fmt \
 perl-Log-Dispatchouli"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Log--Dispatch \
 perl-Log--Dispatch--Array \
 perl-Log--Dispatch--File \

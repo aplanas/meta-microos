@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.2.0"
 
-RPM_NAME = "python310-Dumper-1.2.0-2.6.noarch.rpm"
-RPM_HASH = "a52e4c6eee46f767b6c37dc98d16c78d3bd8ea598c403b3ddc8202e2d75f5dfe073745c29da0851d22c798728b20224af8b1a8df5dd304777212e5b3dee008b2"
+RPM_NAME = "python310-Dumper-1.2.0-2.7.noarch.rpm"
+RPM_HASH = "6f344bfdeb3bf0de0356541f36cc9a4d71109db8765a683db4b983076319a34e15a6f64258feda17310e0c9ad0300ba1efab3c41059cf34ee9c041264a056fb4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-Dumper \
-python3.10dist-dumper \
+RPROVIDES:${PN} += "python3.10dist-dumper \
 python310-Dumper \
 python3dist-dumper"
 

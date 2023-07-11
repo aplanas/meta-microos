@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.1.11"
 
-RPM_NAME = "python39-pylsp-rope-0.1.11-1.4.noarch.rpm"
-RPM_HASH = "0f1c2bc195f7a619b2ae7a2c6499cc34fea160d82ec05f4cfdfa11bb903b78eaa1904eacb3cf4bf28b8dfb5eeb2d3e83fb3024145c00009708a063bff65a715a"
+RPM_NAME = "python39-pylsp-rope-0.1.11-1.6.noarch.rpm"
+RPM_HASH = "4fdb5ecc39296fe3ed486a39773737949954320818bf158c655e15d0cc71d76b6e54f4a04db148a5a90c743bd12f30af877e0695c9e10d5b04648c5f87b86a54"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pylsp-rope \

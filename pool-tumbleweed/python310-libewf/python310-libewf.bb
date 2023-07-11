@@ -8,11 +8,10 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20230212"
 
-RPM_NAME = "python310-libewf-20230212-2.3.aarch64.rpm"
-RPM_HASH = "b5fc118c583c10278f182a9ebd0d574cf2c249e2536587e4418afd9ca7e15de408f48e2207b89c2067080f316da37b028bd78d8314252f0f0762a67e8d03dbeb"
+RPM_NAME = "python310-libewf-20230212-2.7.aarch64.rpm"
+RPM_HASH = "47f645c562d8e4c2efeddbda0a09efeed2c797eb31ad340dddd7eba3e429bc63afb1554d7f941365cf837a2838e9770b5090930b64c6eb02f2f719b480b83eca"
 
-RPROVIDES:${PN} += "python3-libewf \
-python310-libewf"
+RPROVIDES:${PN} += "python310-libewf"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libbfio.so.1 \

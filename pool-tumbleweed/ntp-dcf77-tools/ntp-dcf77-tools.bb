@@ -7,10 +7,10 @@ There are currently two tools: \
     mechanics for synchronisation."
 LICENSE = "BSD-3-Clause & MIT & BSD-4-Clause & GPL-2.0-only"
 
-PV = "4.2.8p15"
+PV = "4.2.8p17"
 
-RPM_NAME = "ntp-dcf77-tools-4.2.8p15-13.1.aarch64.rpm"
-RPM_HASH = "56b77446608949dad134d701575020341dd08f620b62944d1378f9bbf6c6adfaec99471d41c48b8771db3cf8597c6dc2e0014d22e78ea92512332ea3ebc53047"
+RPM_NAME = "ntp-dcf77-tools-4.2.8p17-1.1.aarch64.rpm"
+RPM_HASH = "3060566bc039029acfe0d61e3c7d17de5a42141482be923c1a464ca335cef6044c876775131d712ad1ce83e20b4943549e971975cf3b79bc7eb55eb3028aa4aa"
 
 RPROVIDES:${PN} += "ntp-dcf77-tools"
 

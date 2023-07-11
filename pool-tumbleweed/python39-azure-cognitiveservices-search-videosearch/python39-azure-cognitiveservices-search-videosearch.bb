@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "2.0.0"
 
-RPM_NAME = "python39-azure-cognitiveservices-search-videosearch-2.0.0-2.11.noarch.rpm"
-RPM_HASH = "8e931f744666e3b69b8556d11065b042915a3dbfd09e1c528504f7c70e3072aeaf6f902dd883020dd13c46dbb32c54029e031a5ec3697c5ddb61fbfd461e2ab5"
+RPM_NAME = "python39-azure-cognitiveservices-search-videosearch-2.0.0-2.12.noarch.rpm"
+RPM_HASH = "690d37d831cd8cf8b15267538f54e97b128028097fafa7453445a5de49251ab21ef3b73f6045a49e0e7a060ba3eb59d8e50fc6f6c396e815f428eb37c2a81175"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-cognitiveservices-search-videosearch \

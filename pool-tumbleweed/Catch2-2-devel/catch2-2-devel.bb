@@ -9,8 +9,8 @@ LICENSE = "BSL-1.0"
 
 PV = "2.13.10"
 
-RPM_NAME = "Catch2-2-devel-2.13.10-1.2.aarch64.rpm"
-RPM_HASH = "6025d3c67334d09b436161e910a07dc4d88de34461779f3f04972af36db4e84eef596bfd46829b7a4dce684c9cb00ed2e3c8111f625ff007e9d564ba3bd3dc05"
+RPM_NAME = "Catch2-2-devel-2.13.10-1.3.aarch64.rpm"
+RPM_HASH = "e1cf6f600d077c26a33fafdb88a71ffc4c76e1056df4752df36f87e141d4e7a2efe04066fe9c48b15f69654c50231380196c65fc82fa836dcb7eabff5fcad428"
 
 RPROVIDES:${PN} += "Catch2-2-devel \
 Catch2-devel \

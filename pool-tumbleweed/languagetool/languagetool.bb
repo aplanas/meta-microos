@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "4.8"
 
-RPM_NAME = "languagetool-4.8-3.1.aarch64.rpm"
-RPM_HASH = "902fbd34ec6bf3ae27719960b0ef00859cf464ab25ed213e78cdde825823aaf09974f54cfa5a0d87236bfd98e5a7e5dfb23a47f1f94e906c8c4955043704b860"
+RPM_NAME = "languagetool-4.8-3.2.aarch64.rpm"
+RPM_HASH = "6e286bf1e56d39331b09a96eab30a4420e195a0de73be453bacd3366b6f752a1ec8f6122514000dd42e03441eaff410f8ef8dfae4a7342c279b0492b1367fd5e"
 
 RPROVIDES:${PN} += "languagetool"
 

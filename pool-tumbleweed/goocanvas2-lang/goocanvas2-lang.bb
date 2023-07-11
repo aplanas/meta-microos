@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "2.0.4"
 
-RPM_NAME = "goocanvas2-lang-2.0.4-2.9.noarch.rpm"
-RPM_HASH = "52f5a27fa1fb7c2ad6c997c3da5851dfd7a075af4aefb90db7a7e88985e9003aaac8ea8dbeae1f693ab418a5248807d566ddee0456a3bbecdd5d501b99034a85"
+RPM_NAME = "goocanvas2-lang-2.0.4-2.10.noarch.rpm"
+RPM_HASH = "f601f4856c4238c58f92f8e6da10d6c9be6d2d7da8ec4524c6223ba058e2236c0e80f220fb015368687794e2964d84df3789c42bec2ab5ecef8815b9a3410d43"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "goocanvas2-lang \

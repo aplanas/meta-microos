@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "1.0.15"
 
-RPM_NAME = "libXaw-devel-1.0.15-1.3.aarch64.rpm"
-RPM_HASH = "9d20e63fff1cd13d40891a89981f0be0788b0d5877c30ea3cba19c48d7b3de12f16e4079a7be6ce7c66a0f313f12a70fad038e1fd4d29fa4e1ddf861abb1a990"
+RPM_NAME = "libXaw-devel-1.0.15-1.4.aarch64.rpm"
+RPM_HASH = "eccf81d28f91b11726c016b29175b41e316d25c4adea80902f10cc0168dd6d3f8f9e9cc2a5c0a2abf2f8ce376ee278f082df2007889e4fc1806e4796d2c4d16b"
 
 RPROVIDES:${PN} += "libXaw-devel \
 pkgconfig-xaw6 \

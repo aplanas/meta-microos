@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "1.997"
 
-RPM_NAME = "perl-CursesWidgets-1.997-164.24.noarch.rpm"
-RPM_HASH = "dfd98d4aebec0a3ecb1187732f3cc7e940001386de88e23da8a84643140d5cbf88ac43a419291dacf0d089f37d6a931ca3571f3490e1161d1f633da7a6af9eb1"
+RPM_NAME = "perl-CursesWidgets-1.997-164.25.noarch.rpm"
+RPM_HASH = "08e1571442696855054af2bcdd57d7c9344e37745bb5cab1cd19b409f2694ab87a81324bd6b2451bd8284a45c8df25ad2b6b19618d849bfbcfe9b54407153f3d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Curses--Widgets \
@@ -23,6 +23,6 @@ perl-Curses--Widgets--TextField \
 perl-Curses--Widgets--TextMemo \
 perl-CursesWidgets"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

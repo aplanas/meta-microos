@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20210420"
 
-RPM_NAME = "libmdmp-tools-20210420-3.4.aarch64.rpm"
-RPM_HASH = "f01740e5f2944f13f68a86a3d55f326fe3fb7bdef13827e1fcf500e91b60ce214f01ddb0ef022eb56d269c59a211358f35d933c03ef15870637e09ddf9f12f4b"
+RPM_NAME = "libmdmp-tools-20210420-3.5.aarch64.rpm"
+RPM_HASH = "91e0c5f9b1b2c49d35575c459c08c8aeb2d8a3a7c7f338f93e121efd37acb357cfea6c2eb8c95c2d93937d8470f3fbcb43138dc35b5144a41827bc0fdb1c9079"
 
 RPROVIDES:${PN} += "libmdmp-tools"
 

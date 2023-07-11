@@ -3,10 +3,10 @@ DESCRIPTION = "fwupd is a daemon to allows session software to update device fir
 the local machine."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.8.12"
+PV = "1.8.16"
 
-RPM_NAME = "fwupd-devel-1.8.12-1.3.aarch64.rpm"
-RPM_HASH = "9f8bace04a9c776d345f9c021d6826ce73e53b4fd591af2a3641cc519a467fa0c1ce40d3e68f5e30409d3beb2c2857fdd9b5a34271fe2c28c2ba7e9cf9c6cfe3"
+RPM_NAME = "fwupd-devel-1.8.16-2.1.aarch64.rpm"
+RPM_HASH = "bf1fe3fba17739553114da54e1854a3a794f106073e336ca3bdee95871927603a41aa9b020ee0eb394101b0b93201c104af807b260b0b20daec6f3ec26bfea60"
 
 RPROVIDES:${PN} += "fwupd-devel \
 pkgconfig-fwupd"

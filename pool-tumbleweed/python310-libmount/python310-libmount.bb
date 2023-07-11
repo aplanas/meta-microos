@@ -3,13 +3,12 @@ DESCRIPTION = "This package contains the Python bindings for util-linux libmount
 library."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.38.1"
+PV = "2.39"
 
-RPM_NAME = "python310-libmount-2.38.1-13.1.aarch64.rpm"
-RPM_HASH = "739028c8dd510d8b029bd8be75e2eb6f4e639d412636aa4422552d02945747065aa673e76cd053f060ae25d18400c3e0cf345994264522a52ecef0562b1a3fff"
+RPM_NAME = "python310-libmount-2.39-1.1.aarch64.rpm"
+RPM_HASH = "2147dcafc6706a6866200d8116d36b01041d08a3c1bf5cefd3ab15e0987afcbcb06ae901c231ac978405698010ae0fecd6ae7e24a826db12ad4a8aabbb6b3aae"
 
-RPROVIDES:${PN} += "python3-libmount \
-python310-libmount"
+RPROVIDES:${PN} += "python310-libmount"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \

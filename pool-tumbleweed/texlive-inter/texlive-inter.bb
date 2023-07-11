@@ -8,10 +8,10 @@ features a tall x-height to aid in readability of mixed-case \
 and lower-case text."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn58892"
+PV = "2023.208.svn58892"
 
-RPM_NAME = "texlive-inter-2023.201.svn58892-52.1.noarch.rpm"
-RPM_HASH = "fae5bb82d2b86fb2f22c620f696aa6aeccce0aa62bd733efb2ee0392405288b1cfa874919ce5f415260b8deb614e5328c8de616cb913e754df7149a45cde9b6c"
+RPM_NAME = "texlive-inter-2023.208.svn58892-53.1.noarch.rpm"
+RPM_HASH = "03131edc5c618bfd62a0434d3a77e7e2307cacc2fa8b580f963417512debbe37b043a38018554225f878b98be1a5a8b29b1c2d4739574c48169e1c91ce05106b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Inter-Black-lf-ly1--base.tfm \

@@ -4,10 +4,10 @@ integer x ≤ 10^31 using highly optimized implementations of the \
 combinatorial prime counting algorithms."
 LICENSE = "BSD-2-Clause"
 
-PV = "7.8"
+PV = "7.9"
 
-RPM_NAME = "primecount-7.8-1.1.aarch64.rpm"
-RPM_HASH = "4c7a6c178f1884be49d525ef3d2dbc9718da5fd13f64ea323960ef0dac5ebc2923a4dd5973048ce7c9992a2950bc33d1c077b044524f4e152a9b0a0b9f5ff9eb"
+RPM_NAME = "primecount-7.9-1.1.aarch64.rpm"
+RPM_HASH = "4b2be757c3f1e284ab3cc331f514e22478c3f0ba1cacec65de146b997041f602199ce0af468939aac6d30efb7048adccb019706a3b682e4cf532021eb988b007"
 
 RPROVIDES:${PN} += "primecount"
 

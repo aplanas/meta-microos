@@ -12,8 +12,8 @@ LICENSE = "MIT"
 
 PV = "2.0.11"
 
-RPM_NAME = "micro-editor-2.0.11-2.1.aarch64.rpm"
-RPM_HASH = "7706c970f9d831b8973b49c977adcc2d6f9e891be9308b35d69836ad260bc2682466ab80714cf3ef047a8df2e3544326939cd19dd1b7ae86603dac8fe374cb5c"
+RPM_NAME = "micro-editor-2.0.11-2.2.aarch64.rpm"
+RPM_HASH = "d021a503e71467860def5ae6d77856ba36cfb2c1e57b6ff70470cfd4668ea0062301e8d17a1932151d9cee228807f0c5efed69c781c75b538f3dfc0ea3ae28e9"
 
 RPROVIDES:${PN} += "micro-editor"
 

@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.10.0"
 
-RPM_NAME = "foma-devel-0.10.0-1.3.aarch64.rpm"
-RPM_HASH = "0dbdcced82c968990da3c6819c701963a47f8c2ead6f8d216de32479b6bae06be6ad90d36baef68f4f4510976a3c8733ea4d2b8201dc3b751947fcfb3e14e8e5"
+RPM_NAME = "foma-devel-0.10.0-1.4.aarch64.rpm"
+RPM_HASH = "7921a9dee71c156c6036c0f9d2f078ea10c9ee0e78b21b00e808e4b51d88ebff2e08a54a2b543d7a3bae44a24c33fc6695789b406367cf586c699b78822a035e"
 
 RPROVIDES:${PN} += "foma-devel \
 pkgconfig-libfoma"

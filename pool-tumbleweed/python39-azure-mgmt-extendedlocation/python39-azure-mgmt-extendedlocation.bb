@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "python39-azure-mgmt-extendedlocation-1.1.0-1.4.noarch.rpm"
-RPM_HASH = "a7e808ca0b35b796593daa4120bfeee11e98328de2cc6206d2858ea962aa562341342648e087bd5733da0359c72133e94749b595f458d52abe4449bf69d4194b"
+RPM_NAME = "python39-azure-mgmt-extendedlocation-1.1.0-1.5.noarch.rpm"
+RPM_HASH = "edf3d16fef90e82656147f1842e82199fae98f22b52b5c86ce40b5d4c66237e969d03c7888da9ce701c4baf6de085abc51a7e50546be06fd199b77609da45bb8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-extendedlocation \

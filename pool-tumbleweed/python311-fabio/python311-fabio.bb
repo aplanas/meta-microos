@@ -4,10 +4,11 @@ LICENSE = "BSD-3-Clause & GPL-2.0-or-later & LGPL-3.0-or-later & MIT"
 
 PV = "0.14.0"
 
-RPM_NAME = "python311-fabio-0.14.0-2.5.aarch64.rpm"
-RPM_HASH = "a08f1784290d0ddbfd695f18af6514631c8c281fbdb9b87fdb418330117e3d32e5e1c047d395949efdc70666ae02f89603826a5a1fc098b02be97d1aeeb92e69"
+RPM_NAME = "python311-fabio-0.14.0-2.7.aarch64.rpm"
+RPM_HASH = "ab7004c68cb37f6d1cdf98e267ada9a60823c0a19ac8feae3284e1aad944f359cc947bd0deff82a496c1e5860ee211337a1055cee0ab66f77d348504ea69d260"
 
-RPROVIDES:${PN} += "python3.11dist-fabio \
+RPROVIDES:${PN} += "python3-fabio \
+python3.11dist-fabio \
 python311-fabio \
 python3dist-fabio"
 

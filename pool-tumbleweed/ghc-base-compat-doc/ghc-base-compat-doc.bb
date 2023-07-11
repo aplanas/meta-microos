@@ -2,10 +2,10 @@ SUMMARY = "Haskell base-compat library documentation"
 DESCRIPTION = "This package provides the Haskell base-compat library documentation."
 LICENSE = "MIT"
 
-PV = "0.12.2"
+PV = "0.13.0"
 
-RPM_NAME = "ghc-base-compat-doc-0.12.2-2.3.noarch.rpm"
-RPM_HASH = "9026aa6f2568ccc2931ce100cb6c8e4cb31f9941243449d53ea21a3377be7438e79a00e3704e89231c0265a472e06980b98171ad6c7194f14ac0c9f1311b4854"
+RPM_NAME = "ghc-base-compat-doc-0.13.0-1.3.noarch.rpm"
+RPM_HASH = "bdefe799d23f965453fd0c8c86c509689c88d7f631c9d91923242e457d8590e4da2b94e55f8971576e4f72b97aa55d1075728c096c75e6e1718a9c1375a503d0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-base-compat-doc"

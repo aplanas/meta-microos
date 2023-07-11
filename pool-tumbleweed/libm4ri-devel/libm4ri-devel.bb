@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "20200125"
 
-RPM_NAME = "libm4ri-devel-20200125-1.3.aarch64.rpm"
-RPM_HASH = "43c8ea5d3a62f41d620a2725031777150adf1d40333e8922ee3628433ad5d55530b1c04c1b27e5d7e7f2a94c8646ddebce9bf1f8a7a09d0812e6c38e9af270b4"
+RPM_NAME = "libm4ri-devel-20200125-1.4.aarch64.rpm"
+RPM_HASH = "9e1b85aa524aa0ca8b6148dc5dfe1babd0e172cdacf937e360725d82317f7975f0bb473d7f9865c5d4ef42510f76ee2cc84db22bc6679960692b7c0acb7049d1"
 
 RPROVIDES:${PN} += "libm4ri-devel \
 pkgconfig-m4ri"

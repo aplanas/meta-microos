@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.9.4"
 
-RPM_NAME = "apache-commons-beanutils-1.9.4-3.14.noarch.rpm"
-RPM_HASH = "4f22ee5e0189f817762e6a6da932db66c13665abe4dcb8ada82993652eafe56f8d514316a7edd9f526ebf0db656ba2ad6ee5f138b31865ef9183077ade60a2ba"
+RPM_NAME = "apache-commons-beanutils-1.9.4-3.15.noarch.rpm"
+RPM_HASH = "1b967676ba084bc96dc030288f8abe936dfeb926f6ab3f552175a37c66ac55beaed8bf96b41e997dba785e4f738f181f0bd5de84f8d5eb519f6d901febecb409"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-beanutils \

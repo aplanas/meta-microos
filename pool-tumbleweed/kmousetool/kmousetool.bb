@@ -2,10 +2,10 @@ SUMMARY = "Automatic Mouse Click"
 DESCRIPTION = "Clicks the mouse for you, reducing hand strain."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kmousetool-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "c6b546cbd6e14612d98f8964d804875c059858d0513de77b13a45b899c0daa8a12c0384f59396373441d793dc12e74b96b053e213f4642456ee99f5b2162243f"
+RPM_NAME = "kmousetool-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "f1b0a61cb1e726e8b7c1100e6ce73a5b395f9e54c9825b2229183b1d914980dd22f402c2aa925b4134096f25512d2b4273a9ce43f7599bcdf758c35c7153114b"
 
 RPROVIDES:${PN} += "kmousetool \
 kmousetool5"

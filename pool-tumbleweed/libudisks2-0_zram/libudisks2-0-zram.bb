@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.9.4"
 
-RPM_NAME = "libudisks2-0_zram-2.9.4-6.3.aarch64.rpm"
-RPM_HASH = "b0fd2ae5ed83668a0048eb4e60d5acd56b27816f624e0275e7744a5a671f413fbb8f949d7bb6a09bc3265bf07f8e916c1c7d46dd172af82e638926a5ca8784a9"
+RPM_NAME = "libudisks2-0_zram-2.9.4-6.4.aarch64.rpm"
+RPM_HASH = "6f6f2e367c36cb6e893309ff43e3c8f51cfbbc154d41cf10a7a5a114bfe9ba140994261f0e2bf4688cc7e5985eb68bb993d5e51938a62347c64f34a48be5161a"
 
 RPROVIDES:${PN} += "libudisks2-0-zram \
 libudisks2-zram.so"

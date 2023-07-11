@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.8.2"
 
-RPM_NAME = "ocaml-bisect_ppx-devel-2.8.2-2.1.aarch64.rpm"
-RPM_HASH = "e870f91e6c666cec3f6edf61c2a0038ff12ea63069bbb51266eb219d6246e4cb026434fc92ed97bd30c73b7c0c2986dbd4c92af36969fdba6d2925c88c481ae4"
+RPM_NAME = "ocaml-bisect_ppx-devel-2.8.2-2.2.aarch64.rpm"
+RPM_HASH = "6f2c113d64a71182d9183ee5cfd0b1a29ec5532cf901b296d4884f48aa06a848ecaeedc7c9d340562ee61160d15d9fb59dbd7a7473cf7c04034d50e9dc34d1eb"
 
 RPROVIDES:${PN} += "ocaml-Bisect \
 ocaml-Bisect--Runtime \

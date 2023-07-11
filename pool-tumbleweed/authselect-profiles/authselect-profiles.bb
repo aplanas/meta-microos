@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.4.0+git.0.2c30265"
 
-RPM_NAME = "authselect-profiles-1.4.0+git.0.2c30265-3.2.noarch.rpm"
-RPM_HASH = "176a7cb19afb41b278cd41c5fef1834902cc76ed122dfbf887eb064b9294a1668da8e322e610986162701d412639942d57d4dfe92ea1623ef23dc47e156c3154"
+RPM_NAME = "authselect-profiles-1.4.0+git.0.2c30265-3.3.noarch.rpm"
+RPM_HASH = "b0fd4ecfc95a3c7fa200ab12db538e4c9c5d48aea6a5ab3df336a7efa165c4b783b89ec2da925a562f751653ba95b22694b9ced0fbf22899e106c0dbec807fd7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "authselect-profiles"

@@ -4,8 +4,8 @@ LICENSE = "MPL-2.0"
 
 PV = "0.1.0"
 
-RPM_NAME = "libgltf-0_1-1-0.1.0-2.25.aarch64.rpm"
-RPM_HASH = "bcbe81dee683d9b7884022da966e11c0f6c5ee6588a0c77a84d5d9df882a1284ed553f91913675faa810fb4d826617914dff5ff70fd653488eb3b33a5537f99d"
+RPM_NAME = "libgltf-0_1-1-0.1.0-2.26.aarch64.rpm"
+RPM_HASH = "8c952510dee3a2669b2680f486d9bed704170f8e8201cadab8a79674ba2cd3a97626b8a0c9d0eebcb055e0cdee044d989f76058785ff1b4b08e16bcea567bcb0"
 
 RPROVIDES:${PN} += "libgltf-0-1-1 \
 libgltf-0.1.so.1"

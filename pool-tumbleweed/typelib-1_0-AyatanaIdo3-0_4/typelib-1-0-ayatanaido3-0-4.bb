@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-only & LGPL-3.0-only & LGPL-2.1-only"
 
 PV = "0.9.2"
 
-RPM_NAME = "typelib-1_0-AyatanaIdo3-0_4-0.9.2-1.4.aarch64.rpm"
-RPM_HASH = "9a85d94f8ee389b2412ce05494186f593cea00a40fafce5aa10c35cfa38c3b76a40f5975c7ff19567f862f140b45e53ca281e1b51720e61b0c086e9d3fec6944"
+RPM_NAME = "typelib-1_0-AyatanaIdo3-0_4-0.9.2-1.5.aarch64.rpm"
+RPM_HASH = "f34b24e4c882fd5b87a175a43f26b1d493e6cfdbe137ce36c7368796e8712f7ca9e072e66ce2ac44e0c3f98bb140ed6b8a16945d72d36e85ed7766689a3e68a3"
 
 RPROVIDES:${PN} += "typelib-1-0-AyatanaIdo3-0-4 \
 typelib-AyatanaIdo3"

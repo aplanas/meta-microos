@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "5.15.0"
 
-RPM_NAME = "plplot-java-5.15.0-16.2.aarch64.rpm"
-RPM_HASH = "0242caa06d8358653c68da0137b6f77f3025987344f229de74eb0e586ef82125ad3db495d0c78702b221b3ecf3f6a787ead0399d8ea65acdc6e013bbbd70bc20"
+RPM_NAME = "plplot-java-5.15.0-17.1.aarch64.rpm"
+RPM_HASH = "de265580a9722a178010335dc72741a19df433b656857a367a3bdc3ea4c99bc15a571e51ab11b81ec64dfe71ae8b006b83e112ae37000cc4584cb580393ae1cd"
 
 RPROVIDES:${PN} += "libplplotjavac-wrap.so \
 plplot-java"

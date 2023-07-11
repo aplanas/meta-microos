@@ -24,8 +24,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.002011"
 
-RPM_NAME = "perl-Data-Perl-0.002011-1.13.noarch.rpm"
-RPM_HASH = "5b05f7e4374aaa23f117e007084f47883105a75cb466911cb43ecfc416309c1f6ce26a99a0fe8de7798323e1037e813e1119db65fb1f46242b1dd79b7eed2f43"
+RPM_NAME = "perl-Data-Perl-0.002011-1.14.noarch.rpm"
+RPM_HASH = "6dd4a6f0848c47e03de50fc5fed666e66366f64b84f5cdcab368219625e1568a891f63ea66965494984666fec6114214b6d8e8c5fb9a97e8db7370d1e6ceec0b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Data--Perl \
@@ -45,7 +45,7 @@ perl-Data--Perl--Role--String \
 perl-Data--Perl--String \
 perl-Data-Perl"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Class--Method--Modifiers \
 perl-List--MoreUtils \
 perl-Module--Runtime \

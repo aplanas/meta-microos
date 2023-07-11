@@ -80,8 +80,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.32.2"
 
-RPM_NAME = "nbdkit-basic-filters-1.32.2-1.3.aarch64.rpm"
-RPM_HASH = "428b5adb86aaac9ce55fc457a00e2679764a6180f772c86d76b27527763dabfd370674cdc9966b6c1a57f087844ce593d451d5f5219e46b3e24c474d2dbd0bf8"
+RPM_NAME = "nbdkit-basic-filters-1.32.2-1.4.aarch64.rpm"
+RPM_HASH = "5eb5840511ec12e0158160f73078175f3bfb6cec4cf6f222a82631af1b4ec4c2ad2e2afe59dcc0df41b70b4e6061511f440ac8a8c0a7f56fc66be386f9c5aa45"
 
 RPROVIDES:${PN} += "nbdkit-basic-filters \
 nbdkit-blocksize-filter \

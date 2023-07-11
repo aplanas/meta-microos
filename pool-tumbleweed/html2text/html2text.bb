@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.1.1"
 
-RPM_NAME = "html2text-2.1.1-1.3.aarch64.rpm"
-RPM_HASH = "fc75bf9a9ecaf52ef8ecad919ae5a79dd0f54c9712add2768d6a4166208127e1745114ef909b97d88c69e7972d3e56846d8a46e684e35beeded2db3d5421f262"
+RPM_NAME = "html2text-2.1.1-1.4.aarch64.rpm"
+RPM_HASH = "dff1e6c18cc3104411ed9c98588fcc5457b57ed6936ff8acd3dc8d4afecab24cce67f18fdb9116b79ce0d9613df498f3aba1f3b07c967d48437f5c9644285d47"
 
 RPROVIDES:${PN} += "html2text"
 

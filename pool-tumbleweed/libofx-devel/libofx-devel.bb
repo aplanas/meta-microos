@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.10.5"
 
-RPM_NAME = "libofx-devel-0.10.5-1.6.aarch64.rpm"
-RPM_HASH = "f5e143d87b0176135abe41d82212c28bafb6da5d1ada54766cdd73aa786a8ba2203aca692e71da8ba898dd3bad561586679e14ad20910ec32892510948a65372"
+RPM_NAME = "libofx-devel-0.10.5-1.7.aarch64.rpm"
+RPM_HASH = "d6c9e73615ff1a03fe48b307495042dae9bb395a74a88ceec0ad190480770b61c22c99d66509c9701a0b0d34967487bdfed885717a025682f7b2cc59219d0b78"
 
 RPROVIDES:${PN} += "libofx-devel \
 pkgconfig-libofx"

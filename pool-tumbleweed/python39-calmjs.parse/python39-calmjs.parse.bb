@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.3.0"
 
-RPM_NAME = "python39-calmjs.parse-1.3.0-2.10.noarch.rpm"
-RPM_HASH = "bf2c57bd5f4402372fff7c0f2c2ff365f18272b11718ebf84c5f18b189b6ab4194231514c58415a842c7adee053043f21a5f3be74ce855d21463a40e6eb19acc"
+RPM_NAME = "python39-calmjs.parse-1.3.0-3.1.noarch.rpm"
+RPM_HASH = "94adc150c86ac5587b97c85148fa9f5a1f1dbb72d689be95685e60ff1f700b70e3d6d36ebba2cf1d784611f06e281e0d2a9a89b57382f019934623cb4adad45a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-calmjs.parse \

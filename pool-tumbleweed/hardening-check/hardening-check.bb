@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "2.6"
 
-RPM_NAME = "hardening-check-2.6-3.18.aarch64.rpm"
-RPM_HASH = "9975b38dc2dcd3ca3a6c96613ae3e1a98ab1d37707dc692476908868dffc3cde4cbad7c401867b498ed03e6c4ff0eaf2761c9d240da1e25791a7ff00c39b78f1"
+RPM_NAME = "hardening-check-2.6-3.19.aarch64.rpm"
+RPM_HASH = "d862bcb595de4e72bd23634ae6fd2d517e95e3c19ef3c4802a0ecb3d1c71333620f44dc5041cb2f7de9059ad9feed97c1f6eb8bd0d3ef9347a31c04e7b9d774d"
 
 RPROVIDES:${PN} += "hardening-check"
 

@@ -22,8 +22,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.42"
 
-RPM_NAME = "perl-Data-Dump-Streamer-2.42-1.2.aarch64.rpm"
-RPM_HASH = "168e2eecad272aa53bb5d7bae38257d5ef0e83b70cbc757ec1304844f5c74b995376b539eeaa55f4832314939ad340a5a6207b00314418fea68a9a499cca2471"
+RPM_NAME = "perl-Data-Dump-Streamer-2.42-1.3.aarch64.rpm"
+RPM_HASH = "d8af854f27709102b31c026bb1b51f7126644496fdd0855ff4b9bdb5798b4b3ac67ce61117ff3d4d5cbf7a9e01adc9ee0911d2818a9f61ba0910e01deddbd865"
 
 RPROVIDES:${PN} += "perl-Data--Dump--Streamer \
 perl-Data--Dump--Streamer--Deparser \
@@ -31,7 +31,7 @@ perl-Data-Dump-Streamer"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-B--Utils"
 
 inherit rpm

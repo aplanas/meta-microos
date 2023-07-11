@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.18.0"
 
-RPM_NAME = "xfwm4-4.18.0-1.3.aarch64.rpm"
-RPM_HASH = "faa0eb92b765a4efefefc82eec0c5bbcf4e3f4d472f7a66f4be9163ac235c9785f56ae6154baa8dd02ee431a4b728be8859caa458f478a8fa894ecd0557a2ff5"
+RPM_NAME = "xfwm4-4.18.0-1.4.aarch64.rpm"
+RPM_HASH = "9756e6541faeaf79fb336cfe6528a555458aa0c1f24a6316aeb47266e754f39d32c3e0ba82c29431c088c50b693e17eed8568c5a9dec48455781805ea24c28af"
 
 RPROVIDES:${PN} += "windowmanager \
 xfwm4 \

@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "4.4.1"
 
-RPM_NAME = "python39-checkdmarc-4.4.1-1.8.noarch.rpm"
-RPM_HASH = "78d9ccd42651cd5d48f3d18f3d9eca377fe83493a62152d85654f1d5c112ee2bb406f7a6b36f0ab58541966b742a22f632b66184397ec794cb97f8d92d3c2184"
+RPM_NAME = "python39-checkdmarc-4.4.1-1.10.noarch.rpm"
+RPM_HASH = "cf67e3aca4915edb3548d9f8a09928fb7d6c262bfc8e12f1ae1017e2af4e59b01a28543d6465330fd8c3819ad4332c20372066a5b6a21743e97afd8d4f12f782"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-checkdmarc \

@@ -8,11 +8,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.3"
 
-RPM_NAME = "python311-gast-0.5.3-2.1.noarch.rpm"
-RPM_HASH = "43d69259ad26469503220f06b0a40a39c7e2bbe6352ece570fea077f5ec8f2f90ce7425022234fa97c044c95e0d0b448357c09553b7c2815ebb113733a9a7d5b"
+RPM_NAME = "python311-gast-0.5.3-2.3.noarch.rpm"
+RPM_HASH = "6918e870c3773718e80e0319eeda61b8785615d67082e31b373ee9368edcd9518472bf11ccdfea8b7c8aef3b001ecd0abd78950022d8fb8d4d94b01e1d43e3e4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-gast \
+RPROVIDES:${PN} += "python3-gast \
+python3.11dist-gast \
 python311-gast \
 python3dist-gast"
 

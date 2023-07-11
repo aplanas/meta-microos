@@ -6,12 +6,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.21"
 
-RPM_NAME = "python310-pycparser-2.21-2.1.noarch.rpm"
-RPM_HASH = "e349794ac154725b35f0c9edfc40a2043d9ce86614f5f8194cd2a1582103736dfbf2d56c300af0ab8907590c80d3f92cd01ec2976fbe7c8c2fb9c62201356105"
+RPM_NAME = "python310-pycparser-2.21-2.3.noarch.rpm"
+RPM_HASH = "16a1ca6ff4a7b4401c35f6128aac128b7e21df89b955b2aca68f3573501cd7cd946c75248cbe0fa10e03d1ec16c094e0040831913de00d392f9179598589a4a6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pycparser \
-python3.10dist-pycparser \
+RPROVIDES:${PN} += "python3.10dist-pycparser \
 python310-pycparser \
 python3dist-pycparser"
 

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.4.0"
 
-RPM_NAME = "icecream-clang-wrappers-1.4.0-2.5.aarch64.rpm"
-RPM_HASH = "44b31e97db4ab93816fa5baca1fc312c4b362aaa4d2d401d4e9e15522cfb648e14ab4b6ffefca141d7380ee329c4bd796a182cbaf0bf67c07b0635db6f22db42"
+RPM_NAME = "icecream-clang-wrappers-1.4.0-2.6.aarch64.rpm"
+RPM_HASH = "bc05ae89fc94a24b4e3985ade1349aaddd0cffe1b342ed4fa64c7694176f456d69c53800867eeba138d0de3f712c981fd85c267cf1fbab2d902e54661aca57aa"
 
 RPROVIDES:${PN} += "icecream-clang-wrappers"
 

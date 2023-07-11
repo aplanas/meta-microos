@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.6.6.1"
 
-RPM_NAME = "trigger-rally-data-0.6.6.1-3.8.noarch.rpm"
-RPM_HASH = "a6eec1ade47a6615aa4dfeff129b4ac88b987d06edae07b62fbee1486233b100354f95fe992d8d1d2347fb7d5508b7b2acdfafba53100228d5ea98fa5991c046"
+RPM_NAME = "trigger-rally-data-0.6.6.1-3.9.noarch.rpm"
+RPM_HASH = "fe660be77afa4c50f8e485e8bbc74ad3d8463acce44aff70f0442ae43a71992cdc3df9c906dde60ebd0505a45904a370c1db92bb968101da1d5dbbb391dfbeb6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "trigger-rally-data"

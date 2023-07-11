@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "2.0.2"
 
-RPM_NAME = "python310-linkify-it-py-2.0.2-1.1.noarch.rpm"
-RPM_HASH = "36902e4fe8552c48aebfbaa68d92ee7957113ecc9c93ed4476e743c40f1b829d965b309c927f75d8b75e9575dbf3ba381964f065e69aee9820ff1126128db676"
+RPM_NAME = "python310-linkify-it-py-2.0.2-1.3.noarch.rpm"
+RPM_HASH = "755a79cfc1bc3d61011fcd209ad620825774f1b6cc6ceec2a88bd0544984e0557244a784dbb4707feac709c7bb36a7e97c78d575d81de7c56e2ea66ff92edb0f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-linkify-it-py \
-python3.10dist-linkify-it-py \
+RPROVIDES:${PN} += "python3.10dist-linkify-it-py \
 python310-linkify-it-py \
 python3dist-linkify-it-py"
 

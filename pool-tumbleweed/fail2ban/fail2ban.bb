@@ -8,13 +8,13 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0.2"
 
-RPM_NAME = "fail2ban-1.0.2-1.2.noarch.rpm"
-RPM_HASH = "4ffc8d5c3d2962fa622ef45b28ba9d2e56731e336a9ff838e709555ed613e78b7a2c1bcbd04f8ae32e91869a78fe964b8230de5cac8c72fd0d35b10ff0db0006"
+RPM_NAME = "fail2ban-1.0.2-2.2.noarch.rpm"
+RPM_HASH = "2f9ac65ba91e1b1b0465d57aec49870ee6f0764874848d1835d20fb02f15c21c64da987f019f7877efb8406430b53798b3dc925afa589ac9f7ae711d36803f28"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-fail2ban \
 fail2ban \
-python3.10dist-fail2ban \
+python3.11dist-fail2ban \
 python3dist-fail2ban"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

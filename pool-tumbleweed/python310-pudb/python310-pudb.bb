@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "2022.1.3"
 
-RPM_NAME = "python310-pudb-2022.1.3-1.4.noarch.rpm"
-RPM_HASH = "2770e621b106ed4e4b4de7fb3753a90406786e38297bd81418da43852814c3005528956d6cf4e3c4b5d6e381d6f54dc1c80077dd8d09e3e413e7714ae4b82ba1"
+RPM_NAME = "python310-pudb-2022.1.3-1.6.noarch.rpm"
+RPM_HASH = "26d6062396e91cc1232d4090189c0190d3490dbce244963a1d6bef44748f3f58c6dde6029e49e44426cc263b89309a0aad5252395a77ee0b5d587f49273825d6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pudb \
-python3.10dist-pudb \
+RPROVIDES:${PN} += "python3.10dist-pudb \
 python310-pudb \
 python3dist-pudb"
 

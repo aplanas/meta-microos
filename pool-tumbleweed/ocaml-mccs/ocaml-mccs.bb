@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only-with-OCaml-LGPL-linking-exception & BSD-3-Clause & GPL-
 
 PV = "1.1+14"
 
-RPM_NAME = "ocaml-mccs-1.1+14-1.7.aarch64.rpm"
-RPM_HASH = "02e0f1426a69d1a28ab8f495c399417e4b754fd2812fe28e9d967791d2284ce48012405db2884399b7a249ff2bf74b09d7728bf6e8918cee9d00e234107a71e8"
+RPM_NAME = "ocaml-mccs-1.1+14-1.8.aarch64.rpm"
+RPM_HASH = "cae5f2f0143759431ff062b82e6e88bcc3caf857273a2e20cdc6af2415102922b36e6b3189d78edecf263bd1eac6478fb920f8d9ff0ffdcd01295258934c27bf"
 
 RPROVIDES:${PN} += "ocaml-mccs"
 

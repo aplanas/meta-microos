@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.5.0"
 
-RPM_NAME = "osgi-service-log-1.5.0-1.3.noarch.rpm"
-RPM_HASH = "fef22ec9c07130b65b0b09db21a25d7e8848ef85460c8bd2e84c8faf89bc0711af672b7149a4b30328873d0b42c5aecfc3fc7f8c0c57ea5179f7129de0a49e08"
+RPM_NAME = "osgi-service-log-1.5.0-1.4.noarch.rpm"
+RPM_HASH = "858f8a9c6f5e3d74078112e06ba0ad320c7d0cdb6358ee8f2614ba639a23b63f6110afe63f45e45ec5e116517e2cae15b62f9f8ef40f378474c6d9d6170731b3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.osgi-org.osgi.service.log \

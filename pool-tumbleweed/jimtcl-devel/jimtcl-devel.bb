@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.81"
 
-RPM_NAME = "jimtcl-devel-0.81-1.3.aarch64.rpm"
-RPM_HASH = "939490e446e7261de7a6782e571e954f7b0cf4351cd264eccee79012e563e2abf6035c1162993b5b2494097721ea6e032040e4b1116777128dadab9fdbba3cbc"
+RPM_NAME = "jimtcl-devel-0.81-1.4.aarch64.rpm"
+RPM_HASH = "2ba668ac9fd2aae107177f45db9b92b8f0fc93e0167a8247e4514e8f7d59994ddd60471413220b8f4b35dd574fb6bcda5db40eb8aa21167e9b41639c593f7146"
 
 RPROVIDES:${PN} += "jimtcl-devel \
 pkgconfig-jimtcl"

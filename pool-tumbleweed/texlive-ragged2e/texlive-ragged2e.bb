@@ -8,8 +8,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.3.4svn66152"
 
-RPM_NAME = "texlive-ragged2e-2023.201.3.4svn66152-53.1.noarch.rpm"
-RPM_HASH = "359ce1db21068e42a899addee739f22026410ea3a43fa42e4b18a4ad8efd127e7cac3bf45f76e8c983e69a27e7c585c7062b9a0cc343a3affc70f0c56665fb3d"
+RPM_NAME = "texlive-ragged2e-2023.201.3.4svn66152-53.2.noarch.rpm"
+RPM_HASH = "cfe38addbfcd515f2a9c9f84b7f97ccb4c5211391a2b3070b8b8b98e84ffc8732ea4e1473830a4b1aad189c7200e161c6ba0d824845dbb947a95cddc9494cf12"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ragged2e.sty \

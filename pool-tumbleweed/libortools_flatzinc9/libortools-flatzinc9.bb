@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "9.6"
 
-RPM_NAME = "libortools_flatzinc9-9.6-1.1.aarch64.rpm"
-RPM_HASH = "a0e53e96467bfc86de55c2feae372e68a49b685e885f5408da87701190d9fe94030c318ca8e06c4f4a021a77ea91657308dd402a11be2a230f9369efa0091ce5"
+RPM_NAME = "libortools_flatzinc9-9.6-1.2.aarch64.rpm"
+RPM_HASH = "6dae704fb431d9777519ad480e4dc030ef173d74f1e24a8a047b7e66ea6038d9cc7831baec312a0a704617774f8b38bd8f965ffb2c4012a5357a849dfa77fe95"
 
 RPROVIDES:${PN} += "libortools-flatzinc.so.9 \
 libortools-flatzinc9"

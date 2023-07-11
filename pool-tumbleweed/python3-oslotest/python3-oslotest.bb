@@ -7,12 +7,12 @@ LICENSE = "Apache-2.0"
 
 PV = "4.5.0"
 
-RPM_NAME = "python3-oslotest-4.5.0-3.2.noarch.rpm"
-RPM_HASH = "224d5ff902dc42951e549d7cc61634723cf8055b4f8754bea57ad015a66eb430c586d9e9514bad964eb0d235992ace922fc7c9279f32694c5da1a20eab297eef"
+RPM_NAME = "python3-oslotest-4.5.0-3.3.noarch.rpm"
+RPM_HASH = "d40c64d1069c755fa31482afe56ba7abb68a50028847bfcdced57e1219961e8e3aeca858d96f8abaf880f6c3db9ee28aab04028aedf9733426ececfaf4a70d5a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-oslotest \
-python3.10dist-oslotest \
+python3.11dist-oslotest \
 python3dist-oslotest"
 
 RDEPENDS:${PN} += "/usr/bin/bash \

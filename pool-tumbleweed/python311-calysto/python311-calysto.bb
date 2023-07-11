@@ -6,11 +6,13 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.0.6"
 
-RPM_NAME = "python311-calysto-1.0.6-2.13.noarch.rpm"
-RPM_HASH = "01f49e5fc47251cb14d985bede4514904bebf21ec8712c32b03493653df19c33ce93025057889a5b33370a3ac1429111d75d99e6bc5fa6b257a2c9ff99b1d395"
+RPM_NAME = "python311-calysto-1.0.6-2.14.noarch.rpm"
+RPM_HASH = "7c84912d37e4b82607a50a12d400274e938f2139f83939f8df15e5fcd9b506bd553af24fd689a6b2ffd3d90348c4e5280b60c24a85fdcbbd1466103f7e599d62"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-calysto \
+RPROVIDES:${PN} += "python3-calysto \
+python3-jupyter-calysto \
+python3.11dist-calysto \
 python311-calysto \
 python311-jupyter-calysto \
 python3dist-calysto"

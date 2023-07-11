@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "0.8.9"
 
-RPM_NAME = "qhexedit2-doc-0.8.9-1.15.noarch.rpm"
-RPM_HASH = "da167cc38fde29d680ffc7676f1f32330e28dc1eebe01dec17f77e772ea76bab6331b5e10d165b4a44e70a61b6cf3367e77639e7d41f52a57604ab414e60c6e9"
+RPM_NAME = "qhexedit2-doc-0.8.9-1.16.noarch.rpm"
+RPM_HASH = "c57ffa5d9737c540f5d0737834d3d5cddf92f0df01e13115b5ccf4181c4b03d79fa7a0618f5a109a01ce8cb97523cd7af41d039014153ecd2d2e973dff7e9f6e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qhexedit2-doc"

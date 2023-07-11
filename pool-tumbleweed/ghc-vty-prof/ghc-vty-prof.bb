@@ -4,10 +4,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.38"
 
-RPM_NAME = "ghc-vty-prof-5.38-2.4.aarch64.rpm"
-RPM_HASH = "0df007b38f6179ea47bf5066a5e4351acd091a3309cef2a39d759e43dc353ecc8da4fa89e8aef129b45d307867fbe3c284b0617d14a290f2ab07b3b67dbda9fd"
+RPM_NAME = "ghc-vty-prof-5.38-2.8.aarch64.rpm"
+RPM_HASH = "0b0eed12d81c242a3d1dde1548d8115e6dc2f52c07285193ad57ef7c7519a5d41e4f5309fd92dc5a1f018e48fbb73ffacc16b9e7cd5468b1d36c94ee5cf08c49"
 
-RPROVIDES:${PN} += "ghc-prof-vty-5.38-E9MiSc6Hkm5LKREDrOQCil \
+RPROVIDES:${PN} += "ghc-prof-vty-5.38-IuSWPYXCscY5LxGEJl3fAP \
 ghc-vty-prof"
 
 RDEPENDS:${PN} += "ghc-prof-ansi-terminal-0.11.5-5x0MoHxm5r6DDoyv5djCW3 \
@@ -21,7 +21,7 @@ ghc-prof-directory-1.3.7.1 \
 ghc-prof-filepath-1.4.2.2 \
 ghc-prof-microlens-0.4.13.1-ARwI8t2x86cAxRs56XPcG1 \
 ghc-prof-microlens-mtl-0.2.0.3-50s7aKrmu33tjGZvdN4FV \
-ghc-prof-microlens-th-0.4.3.12-A1OnPrF7gbKLp2skY17lAG \
+ghc-prof-microlens-th-0.4.3.13-4M5tTOX0ioLGTMiKBp6v2C \
 ghc-prof-mtl-2.2.2 \
 ghc-prof-parsec-3.1.16.1 \
 ghc-prof-stm-2.5.1.0 \

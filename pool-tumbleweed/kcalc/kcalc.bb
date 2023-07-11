@@ -2,10 +2,10 @@ SUMMARY = "Scientific Calculator"
 DESCRIPTION = "KCalc is the KDE calculator tool."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kcalc-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "fd0223b5f19175008918d376a63f3922ce4374ebfbbcbaa355762348cb63df9e5a83df764ae06402fbc5b91d6e74adf3e4972780c7cec59eb92c2f962f964ee7"
+RPM_NAME = "kcalc-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "9eedb9ba3c8e36d460be8723fb40acd94ccdce0f874abcdc0478e6e83bc6aabc38e84c7a91e32bf0f46cffcbd874c1b59080e0a731fe8d4dd19e11af8f51a44d"
 
 RPROVIDES:${PN} += "kcalc \
 kcalc5"

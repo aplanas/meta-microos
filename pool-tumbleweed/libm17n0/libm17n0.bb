@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later & GPL-2.0-or-later"
 
 PV = "1.8.0"
 
-RPM_NAME = "libm17n0-1.8.0-1.12.aarch64.rpm"
-RPM_HASH = "f962e9be06bd5042c43d093779e3ac5607d8aa23c5a22149355fa19ad6fc2ca38542fc83c6686c8a148e4482b7a876b4c807c6eedd1a155b6dd3471177f777e6"
+RPM_NAME = "libm17n0-1.8.0-1.13.aarch64.rpm"
+RPM_HASH = "8e585b7885bf08172493e5615ce298123f4f9417059428aa8eace102ae5bd9882962d5736c915e6ae11e7f5baf4eed0c17b9b0dd0e6a9cb62509c5a24e4e6ced"
 
 RPROVIDES:${PN} += "libm17n-X.so \
 libm17n-core.so.0 \

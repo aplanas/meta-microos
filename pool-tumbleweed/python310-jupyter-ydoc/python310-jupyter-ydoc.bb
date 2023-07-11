@@ -6,18 +6,17 @@ Built-in documents include: \
   - `YNotebook`: a Jupyter notebook document."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.2.4"
+PV = "1.0.2"
 
-RPM_NAME = "python310-jupyter-ydoc-0.2.4-1.2.noarch.rpm"
-RPM_HASH = "bdad17fce79b5f6312b2c1a4507cb21b75615fc1e95ac1b41be7789d0ff9845ac14293cb9dde280ee99d7be87e5e43539c6bd720f14432ea9c78fefbfa91baf0"
+RPM_NAME = "python310-jupyter-ydoc-1.0.2-2.3.noarch.rpm"
+RPM_HASH = "6c081b1ddc0a7c002bf32562119547cefc1a36e58f4ab07b2790191a44f6b612dd05e031a8fdffeed14cfd61894459767840a7636a942e0d08c96f487021101d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-jupyter-ydoc \
-python3.10dist-jupyter-ydoc \
+RPROVIDES:${PN} += "python3.10dist-jupyter-ydoc \
 python310-jupyter-ydoc \
 python3dist-jupyter-ydoc"
 
-RDEPENDS:${PN} += "-python310-y-py >= 0.5.3 with python310-y-py < 0.6.0 \
+RDEPENDS:${PN} += "-python310-y-py >= 0.6.0 with python310-y-py < 0.7.0 \
 python-abi"
 
 inherit rpm

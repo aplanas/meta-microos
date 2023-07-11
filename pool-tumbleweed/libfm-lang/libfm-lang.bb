@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.3.2"
 
-RPM_NAME = "libfm-lang-1.3.2-1.12.noarch.rpm"
-RPM_HASH = "e4a12704f9773994b1fd7ea315720a8927d15e1a070324b38171f3edcb4538bbde66b3cb41a02c9cadff6c5dbd7fe9e92d3cc49e987113a05544ab171c5ab873"
+RPM_NAME = "libfm-lang-1.3.2-1.13.noarch.rpm"
+RPM_HASH = "6d792b3d0dfc4a74f953d59123ec8784a6195ee38b86f9c1b73d7b1cb4414cface1d589fdbb204cb45ee055c33ea14ef2fd8147cc5c758241fddbdc55b064fd1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libfm-lang \

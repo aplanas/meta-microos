@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "0.5"
 
-RPM_NAME = "sffview-0.5-3.3.aarch64.rpm"
-RPM_HASH = "e2c817feb92d12bd4dd7f03e2bdcf7286728ea7bddc8f74aed4aa65cf6f5f0bc6f32c322744fb560e20cd079f63399eec22601fa41162f7cc6327b1fa2b2b79e"
+RPM_NAME = "sffview-0.5-3.4.aarch64.rpm"
+RPM_HASH = "86ed6276dc2045406904f80f1b513cdc55021d8a4eea5aeb9def9ab6d0055f0e65511b1684f7bb9438182f2cd8b04a66002a8b898f79e2cfd3e37512fb5fbcfc"
 
 RPROVIDES:${PN} += "sffview"
 

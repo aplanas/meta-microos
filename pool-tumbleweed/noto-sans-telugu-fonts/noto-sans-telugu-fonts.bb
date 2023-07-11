@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-telugu-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "dfbb39e4806fc903b3b9efd48c908add7bc6d428991d6bebe30b11549a0ef3db0accaa2f8510fffdde95a12c04aa2a09243a05a8a58172c5218c13e5af30ecce"
+RPM_NAME = "noto-sans-telugu-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "2de60081309b9acbf5a1b8c6791d2cf71636d6e07692408fa2d5293ab766b25aa80fb6ba8962b131000ea2398d39f8907eefbfaa0818bf55fb495dc6faf574f6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-telugu \

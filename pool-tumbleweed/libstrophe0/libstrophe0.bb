@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later | MIT"
 
 PV = "0.12.2"
 
-RPM_NAME = "libstrophe0-0.12.2-1.4.aarch64.rpm"
-RPM_HASH = "f8f300c624b4946bfc0ee7bcf3bde4c49b34fb5d6893a1d1d2754051fa87046496fed5e7cc82f67650862880ea1b7c00bcbf529fe5e5c5df777db2d68dab095a"
+RPM_NAME = "libstrophe0-0.12.2-1.5.aarch64.rpm"
+RPM_HASH = "be63de842f20dd51b74555d3f94643bdb8fba204d7f337986f92be743ebcdcc6c57ca07d1175c1ddabce412e52fdb176e9414cf654fc387a1a6cda316403b494"
 
 RPROVIDES:${PN} += "libstrophe.so.0 \
 libstrophe0"

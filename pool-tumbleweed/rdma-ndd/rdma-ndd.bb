@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause | GPL-2.0-only"
 
 PV = "45.0"
 
-RPM_NAME = "rdma-ndd-45.0-1.1.aarch64.rpm"
-RPM_HASH = "6ed67dd6bd236e5a9693ba73a55b26f36ba0765578f481563fe23529ea69e9cdac01de4e301a7ab95d0e2626b8c4f158a157d8cca4c8450ac19ed80373722bc6"
+RPM_NAME = "rdma-ndd-45.0-1.2.aarch64.rpm"
+RPM_HASH = "4f00f5abace4613315d1f1bc76afc93f6ec0ec2df589097cf9321762f6583ba8d11540ec91a4b452e68c2ca05dc4c1cb00a17445fc59ea7517d178d930067bc9"
 
 RPROVIDES:${PN} += "rdma-ndd"
 

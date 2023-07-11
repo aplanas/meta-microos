@@ -14,12 +14,11 @@ LICENSE = "MIT"
 
 PV = "1.3.3"
 
-RPM_NAME = "python310-hl7apy-1.3.3-2.13.noarch.rpm"
-RPM_HASH = "b345c1f5ff043a55c130fa264df1a8957804164b0af2e7504478b6237c4c505d3764f1f16392587105ed50b901013cf5f922bc60e6487106caa3b972a4d50dbb"
+RPM_NAME = "python310-hl7apy-1.3.3-2.15.noarch.rpm"
+RPM_HASH = "3100ea6297c0df94047b23356403fa46f05c796c24c2d4e94963da2b3d79b8db8014a62b5abeb9ea56a8695967ec4e9e51412277246ea79d61272b8076eb0160"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-hl7apy \
-python3.10dist-hl7apy \
+RPROVIDES:${PN} += "python3.10dist-hl7apy \
 python310-hl7apy \
 python3dist-hl7apy"
 

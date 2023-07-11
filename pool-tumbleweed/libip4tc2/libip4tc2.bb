@@ -6,8 +6,8 @@ LICENSE = "Artistic-2.0 & GPL-2.0-only"
 
 PV = "1.8.9"
 
-RPM_NAME = "libip4tc2-1.8.9-1.3.aarch64.rpm"
-RPM_HASH = "ffc13eb5ecbaff1d8758ee035b81a59ebe9b614fc30c5084dd7ff5b25d2817289bf804523dba82ca1848419776fc9631a23bbc23c67a68302ceb496c99b980bd"
+RPM_NAME = "libip4tc2-1.8.9-1.4.aarch64.rpm"
+RPM_HASH = "c9b158a6d84dd9bc4d6457d174b1e1003b12d2694579be69427862afb0d62ed79e998513aeb52f6d23df8c463b1a211fa637f93deff3f131d5e25e103895788f"
 
 RPROVIDES:${PN} += "libip4tc.so.2 \
 libip4tc2"

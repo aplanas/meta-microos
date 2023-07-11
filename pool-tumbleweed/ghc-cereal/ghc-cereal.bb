@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.8.3"
 
-RPM_NAME = "ghc-cereal-0.5.8.3-2.3.aarch64.rpm"
-RPM_HASH = "d35b58d7eda2d4f7f67310b3561727b20d204c213e2d7fe68b9164506813e9257f9f192e741946c8e7d985e1e01fbabe08f65ad98dcc7abc62113e4f373702a7"
+RPM_NAME = "ghc-cereal-0.5.8.3-2.6.aarch64.rpm"
+RPM_HASH = "9570fcc73ab37398adbb995a64bbdb4c544e8f5d405eeaa5c34ab3227cb8a6592e5834bfccea4c8b30c0fc0a9e917b16458b8f4901621fdc74f2aabb417f026a"
 
 RPROVIDES:${PN} += "ghc-cereal \
 libHScereal-0.5.8.3-LNsxCTyOF85AKtb4iLTs8f-ghc9.4.5.so"

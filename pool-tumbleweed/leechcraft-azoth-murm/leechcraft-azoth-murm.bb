@@ -5,8 +5,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-azoth-murm-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "9b624b656c4903beacb349ddc9693620cea81b713063c5d743e43ee667195e20555d0c9ff04e210986e79bb40ec3d3b56e99533af1222896d6d45a8691c65926"
+RPM_NAME = "leechcraft-azoth-murm-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "5193e58cc16108402656c2b9333c13c83083c17e1b23f836f827ebfcfeb050aa8127c007b7e8586d74a05d65fdcf153130eb85de4e730439ade81aace58a6b24"
 
 RPROVIDES:${PN} += "leechcraft-azoth-murm \
 leechcraft-azoth-protocolplugin \

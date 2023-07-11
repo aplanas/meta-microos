@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-quickshapes-private-devel-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "3989767a42be649b2bd1556c71ce161b1b21513dd9108ef09f6ea28eeebccd48b287e5f566fc93da13373ff8dbb61112d65ae3c51b633e91ff49b42758e29357"
+RPM_NAME = "qt6-quickshapes-private-devel-6.5.1-1.3.aarch64.rpm"
+RPM_HASH = "5767e3da051fa75ec438d4bfe756d9f0ed8be2842d479f28f1c9f74bce45fb42c0bbae805c374e4e1b18aee440e03138953c359b624a4b58190f9ff0090c7806"
 
 RPROVIDES:${PN} += "cmake-Qt6QuickShapesPrivate \
 qt6-quickshapes-devel \

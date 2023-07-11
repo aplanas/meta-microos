@@ -9,10 +9,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.0.2"
 
-RPM_NAME = "python311-textile-4.0.2-1.9.aarch64.rpm"
-RPM_HASH = "837f51e22ae28ae040e1a91907243e55985f424524f16a40ac0fcbb588308376a83f07c494f0c6535f495e2e053774ca6dbb5635c03a8715b91882c662dd2c15"
+RPM_NAME = "python311-textile-4.0.2-1.11.aarch64.rpm"
+RPM_HASH = "a90424ecc253085b016a705fc4789c5b79238eba3bd8d24f4e307dce8763dbc86287bb20bdcc62799fd786efa27ccc91ab162c780e50081691633e4c8b15279a"
 
-RPROVIDES:${PN} += "python3.11dist-textile \
+RPROVIDES:${PN} += "python3-textile \
+python3.11dist-textile \
 python311-textile \
 python3dist-textile"
 

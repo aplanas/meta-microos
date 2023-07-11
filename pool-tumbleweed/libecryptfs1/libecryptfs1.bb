@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "111"
 
-RPM_NAME = "libecryptfs1-111-7.4.aarch64.rpm"
-RPM_HASH = "c43b359548da1e4657d92664b6fad615ddf0a6c5d9c9c399b7cbf920ac96a41f3a8e4eda66910a5b5a56bbc9c26d6bd380cb8d498287cd11cf53ff70063d3abe"
+RPM_NAME = "libecryptfs1-111-7.5.aarch64.rpm"
+RPM_HASH = "e6f2894178e131b8db9133afdf4a634d410462e226ccd7bbf556a4ba7ef4152182d7326f9b02e040087d39827bd099111bd42a24971015cead41bce143779ba1"
 
 RPROVIDES:${PN} += "libecryptfs.so.1 \
 libecryptfs1"

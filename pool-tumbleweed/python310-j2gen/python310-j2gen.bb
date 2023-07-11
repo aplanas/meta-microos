@@ -4,12 +4,11 @@ LICENSE = "Apache-2.0"
 
 PV = "0.1.0"
 
-RPM_NAME = "python310-j2gen-0.1.0-3.9.noarch.rpm"
-RPM_HASH = "e45506b4f9b4406a5df5f89acde4eb39d8cea128d09a468fa5489fbfa599f6e2ca8e07db9018dcbd1fee90d8bf394879d65e40b334c0811f4130c544c9106ce3"
+RPM_NAME = "python310-j2gen-0.1.0-3.11.noarch.rpm"
+RPM_HASH = "15ea80f38f301c96ce6733c4e67a78e739c252c2cc7b7e293b11dd76ebf279da8d308c8e7876562c476bd9df1c59434e61fa899cbae960534708daa99143b5bc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-j2gen \
-python3.10dist-j2gen \
+RPROVIDES:${PN} += "python3.10dist-j2gen \
 python310-j2gen \
 python3dist-j2gen"
 

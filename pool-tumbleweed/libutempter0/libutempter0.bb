@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.2.1"
 
-RPM_NAME = "libutempter0-1.2.1-1.1.aarch64.rpm"
-RPM_HASH = "b93d82a7017784a379c0fdf725017c30df7e2749100525bb3eb4e3a3af646fe763a142ec42ed30e408c9763fed88f5d70f34f22d8be2ceace9f5dc1c60c78159"
+RPM_NAME = "libutempter0-1.2.1-1.3.aarch64.rpm"
+RPM_HASH = "665dfea47bd1eed8751470d595809c41c9f8b0fbe3510f724508854c67d97485817c86a531e26f2a98052f6eade1ca857bec343ef526ef9da9855cfb8d91552c"
 
 RPROVIDES:${PN} += "libutempter.so.0 \
 libutempter0 \

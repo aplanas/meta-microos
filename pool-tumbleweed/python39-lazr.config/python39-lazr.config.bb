@@ -2,10 +2,10 @@ SUMMARY = "Create configuration schemas, and process and validate configurations
 DESCRIPTION = "Create configuration schemas, and process and validate configurations."
 LICENSE = "LGPL-3.0-only"
 
-PV = "2.2.3"
+PV = "3.0"
 
-RPM_NAME = "python39-lazr.config-2.2.3-1.8.noarch.rpm"
-RPM_HASH = "9c19db12c092f4c191541dc0e6fd1d988604a11211af5766dca11526a15c1a912f7e115b6bd5a31d700d2ee1854cd35f85f0f72027d3beb2f24d05869f05edbd"
+RPM_NAME = "python39-lazr.config-3.0-1.1.noarch.rpm"
+RPM_HASH = "3d6075b74103bfef86c1fec0f6d22d6603d7effc02202027257f98514acac609cde3e9d525356212076969eb3367d160749b614cf77d5a15cead297947dbe307"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-lazr.config \

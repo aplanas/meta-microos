@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "1.16"
 
-RPM_NAME = "htsfile-1.16-1.3.aarch64.rpm"
-RPM_HASH = "bdf74363f97dcbf3260bf07447ed7fd3f57a5445c4db0de16479aab484e39bdc042bded3ac733ffcfde81d6fc0021c96e86f48f35129f2012df5ea89df48736d"
+RPM_NAME = "htsfile-1.16-1.4.aarch64.rpm"
+RPM_HASH = "201e18e139f80c08d289c0a64a8f0089e2e214a3f71955edd282fc22d83f3da98a6cebca8b22f633efe426586c46d499ede7f37e465cd9c12ac5d8c935b72e39"
 
 RPROVIDES:${PN} += "htsfile"
 

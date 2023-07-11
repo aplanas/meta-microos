@@ -8,14 +8,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.10014"
 
-RPM_NAME = "perl-Class-Accessor-Grouped-0.10014-1.15.noarch.rpm"
-RPM_HASH = "fb814f0df6b30246b0090f95e7c7eba0000b259722fbc6b24d2335e782b3b5fa53ce370b4f6b50bb1baa214535c3eedccb57a47491998f5c1e6aec8291a16427"
+RPM_NAME = "perl-Class-Accessor-Grouped-0.10014-1.16.noarch.rpm"
+RPM_HASH = "a3d4cf91180ca72c096f7ced6febc54e4d8a398dc5df34dfa587cf695da083b9b21713a7617acf96d23f3eb3ab4488c8f5ac0cad40e463f8dea843c6ed9e593d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Class--Accessor--Grouped \
 perl-Class-Accessor-Grouped"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Class--XSAccessor \
 perl-Module--Runtime \
 perl-Sub--Name"

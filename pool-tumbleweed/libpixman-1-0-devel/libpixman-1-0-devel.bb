@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.42.2"
 
-RPM_NAME = "libpixman-1-0-devel-0.42.2-1.3.aarch64.rpm"
-RPM_HASH = "9129a9b1f09bff19fc5816d3ea1dbc2ac123a5e96430a8ee8cf7755bb5af5388f22d2ecce94b4c5a820741b573b9cc1120347f1ca81397ed25132d285ef0e1aa"
+RPM_NAME = "libpixman-1-0-devel-0.42.2-1.4.aarch64.rpm"
+RPM_HASH = "85bdcb789c6316ce63b2f1fe0ba00cce8e19311531b3b1b6e39d6df3a31a611c1c1221fcb7eb4e54285b2b7e83a4d1932770b95e28fcead051ccfe8ac8cbb630"
 
 RPROVIDES:${PN} += "libpixman-1-0-devel \
 pkgconfig-pixman-1"

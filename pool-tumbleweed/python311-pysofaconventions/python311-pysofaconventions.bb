@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.5"
 
-RPM_NAME = "python311-pysofaconventions-0.1.5-2.7.noarch.rpm"
-RPM_HASH = "3516aa06e3ba74746891fa240b5025e6bf3bd7ebd85472dfc633226c8baf0f8c8fa1fc9a28fb0a4130e9c63254263874800a3eed25c346fd695b015c1becd30f"
+RPM_NAME = "python311-pysofaconventions-0.1.5-2.9.noarch.rpm"
+RPM_HASH = "ff5e81c5c1980af29223637339f4eeefd8401d12f0d3971477b46e0a2d3462bf9004c0c886924a32e72435d803305a1e98fd6362d8ed3c5aafa51b23e93d64b6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pysofaconventions \
+RPROVIDES:${PN} += "python3-pysofaconventions \
+python3.11dist-pysofaconventions \
 python311-pysofaconventions \
 python3dist-pysofaconventions"
 

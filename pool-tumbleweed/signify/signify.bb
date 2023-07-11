@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "31"
 
-RPM_NAME = "signify-31-1.3.aarch64.rpm"
-RPM_HASH = "4922318e1d768198b0a7a61d84dd7a224467f1cc41adad44685f6817ea43b876417caacd125dd146cf9a0a5ada69a551dfb969be562d4b23dc9e70d9c3e27666"
+RPM_NAME = "signify-31-1.4.aarch64.rpm"
+RPM_HASH = "e9aaee5c9306902f0d92e3c0cb060132c749a61b35ffb181ffa7a95c3f87c2fb1881a373cfcfaa6c6da1332b3ec49a01f0659c9ac9ffdb4e07fc5868f84e0ec3"
 
 RPROVIDES:${PN} += "signify"
 

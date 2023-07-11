@@ -7,8 +7,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-azoth-chathistory-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "d5b0496bcca679ed6d55f9e620a2bee22674c3f772cbb64a047405b16c162ef0ca4ffd0cee36f0f4d3a78d613c69e1fa995ac21d50c7fe29495b3cc82b747293"
+RPM_NAME = "leechcraft-azoth-chathistory-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "837d11c45b0c394133e79494852ddaf2de25594e1bdde1a017d450a19c1831c77ed782ffe1755b8b54b44325db3583dc02744f3bcb5b5881a5eaa57bed7a7ddc"
 
 RPROVIDES:${PN} += "leechcraft-azoth-chathistory \
 libleechcraft-azoth-chathistory.so"

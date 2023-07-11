@@ -16,8 +16,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.0.5"
 
-RPM_NAME = "hsetroot-1.0.5-2.9.aarch64.rpm"
-RPM_HASH = "4cf4eb38bc0547a3b1253f794ad4fd2ee29df5389bb8e7827b768eb597eb8b772f38805db7b8a9689c3a31085c520fcdbe68cfb8db89306f8284631306f63d3d"
+RPM_NAME = "hsetroot-1.0.5-2.10.aarch64.rpm"
+RPM_HASH = "edf1e4f47653c1bacdf4df8bcc39d695a4254191c3e3cdbffec75aad001688d03f46e5488bc9d89edaddb654eadce84b5cb66f148b4a96a723892277a56a48d4"
 
 RPROVIDES:${PN} += "hsetroot"
 

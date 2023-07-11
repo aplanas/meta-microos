@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.9.1"
 
-RPM_NAME = "fuzzel-zsh-completion-1.9.1-2.1.aarch64.rpm"
-RPM_HASH = "40d37f1a6347d183c8edda1464511edb19142a79478fd82b7683bbff4ef93f27d96f298c844c50ecff68310cf0cf8bed79806a2d90fc4f2e1315c259a3f97d73"
+RPM_NAME = "fuzzel-zsh-completion-1.9.1-2.2.aarch64.rpm"
+RPM_HASH = "90be33a261212f8f9a585196694ef84dcac4c5b8e2356b092929ec0ac359b207a92c7f5bd24e6bcbcba564b96b7d754e4abf4c0679cac24d372a389b4a121781"
 
 RPROVIDES:${PN} += "fuzzel-zsh-completion"
 

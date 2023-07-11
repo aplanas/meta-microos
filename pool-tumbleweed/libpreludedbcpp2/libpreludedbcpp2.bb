@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-only & GPL-3.0-or-later"
 
 PV = "5.2.0"
 
-RPM_NAME = "libpreludedbcpp2-5.2.0-2.10.aarch64.rpm"
-RPM_HASH = "de158bb9dcc01278d1699ed6625034057517ed3c0f79094948fb021f7a1040e6bd50fd1bb1f0208105a064a0ce8deeeb0d227f365340d7c23b41855cfc11dd88"
+RPM_NAME = "libpreludedbcpp2-5.2.0-2.12.aarch64.rpm"
+RPM_HASH = "8f83e404a06cd99fd1fa89459c3b1446b32debd23e0d4a6aaf6c83afa178387591785dd7e277a0a46780b4b2f2b99a1deed7a73005144f8218ddd0b9fecd093a"
 
 RPROVIDES:${PN} += "libpreludedbcpp.so.2 \
 libpreludedbcpp2"

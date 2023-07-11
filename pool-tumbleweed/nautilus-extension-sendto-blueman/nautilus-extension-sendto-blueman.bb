@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.3.5"
 
-RPM_NAME = "nautilus-extension-sendto-blueman-2.3.5-1.3.noarch.rpm"
-RPM_HASH = "14f0a7ba99f004f3e5f6f24aa157d01784f76964a9f98ce38bb2ab7aec0d76f47b605c65deba595a93dc1a1dd8a8518a40926aee39a37b2eee5f2ff16f7696e2"
+RPM_NAME = "nautilus-extension-sendto-blueman-2.3.5-1.4.noarch.rpm"
+RPM_HASH = "075661fa7b2cecfc0d52c564ca3967a2b104ff0c0715b1797bbbfa71f42dce777029cd648d7815fe1f3f213e3fd53f1cad7ea213dba844e6c49214c23b82120c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nautilus-extension-sendto-blueman"

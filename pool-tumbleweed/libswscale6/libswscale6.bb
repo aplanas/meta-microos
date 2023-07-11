@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.1.3"
 
-RPM_NAME = "libswscale6-5.1.3-1.2.aarch64.rpm"
-RPM_HASH = "360dd4072c1e16c3a23141e8b7d49ab7656ec84aef0bf2458563fdc242c0dac041654aa51a69fbe6f94a7d0dc21baac53694d470f60317754166baded202c308"
+RPM_NAME = "libswscale6-5.1.3-2.1.aarch64.rpm"
+RPM_HASH = "278345e69160a5ce9648aeb122c0c7afbd977f9d487ff331b8991835ab163951178421640c4b61cb480a368e973a719cafcadd88f3930f913735924baeef1e49"
 
 RPROVIDES:${PN} += "libswscale.so.6 \
 libswscale6"

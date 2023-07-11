@@ -5,10 +5,11 @@ LICENSE = "Apache-2.0"
 
 PV = "0.3.11"
 
-RPM_NAME = "python311-twitter.common.rpc-0.3.11-1.15.aarch64.rpm"
-RPM_HASH = "f1572163c5e1dbe9ea258522c53a558c44c6025cad6f88065395d41420e86ca13930beedb15b351520c1768ee475fe67366704f046686d68a5806d69d6ef5a1f"
+RPM_NAME = "python311-twitter.common.rpc-0.3.11-1.17.aarch64.rpm"
+RPM_HASH = "867971e6d16ed1558266eb81a1597995a1a9d69c28e4b2db79347a85653bae77cf986547cac2978bdc3f07ca01f32f4c3582e29c5009a505b0dab99ea27ef961"
 
-RPROVIDES:${PN} += "python3.11dist-twitter.common.rpc \
+RPROVIDES:${PN} += "python3-twitter.common.rpc \
+python3.11dist-twitter.common.rpc \
 python311-twitter.common.rpc \
 python3dist-twitter.common.rpc"
 

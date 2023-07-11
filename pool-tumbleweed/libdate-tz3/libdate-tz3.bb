@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "3.0.1"
 
-RPM_NAME = "libdate-tz3-3.0.1-3.3.aarch64.rpm"
-RPM_HASH = "16475f9c0ca2ac24ef3451f1ff5a99ba82e2fa6d3b4fa81a30f64a1a23e99296959735beb3953fe7ed3e676e0de9eba2c4351efbdbbd49cd463ecc02ccf1a6e5"
+RPM_NAME = "libdate-tz3-3.0.1-3.4.aarch64.rpm"
+RPM_HASH = "3f3c7d040025fd4129da869d9ebf95775b692cbd7ba8ca6116dc5fef5d75e0d6f3458aca0cbdf50067b3de29e38ac4b49c6408e83d6de1a7935c8b1981734406"
 
 RPROVIDES:${PN} += "libdate-tz.so.3 \
 libdate-tz3"

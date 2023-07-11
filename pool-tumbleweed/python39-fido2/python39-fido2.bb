@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0 & BSD-2-Clause & BSD-3-Clause & MPL-2.0"
 
 PV = "1.1.1"
 
-RPM_NAME = "python39-fido2-1.1.1-1.1.noarch.rpm"
-RPM_HASH = "43b79b5b3a8ca49215775fac1d69a12bf7e5c6efb76e101adac040b167765f8159bde08bfce45e872b0316468aeac2b9dce9267aef2344ccd7094a0fe19c446e"
+RPM_NAME = "python39-fido2-1.1.1-2.1.noarch.rpm"
+RPM_HASH = "a9a2030ff0aaca319df95589bf6fa0be4d890b66fc2c1f47d1ae4c7acac98200494a4885e3cf01d10e1de3cd6875c12f76120be680c7b422cd2cd8da63e7535e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-fido2 \

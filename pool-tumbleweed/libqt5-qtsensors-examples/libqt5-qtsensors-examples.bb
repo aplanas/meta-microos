@@ -2,10 +2,10 @@ SUMMARY = "Qt5 sensors examples"
 DESCRIPTION = "Examples for libqt5-qtsensors module."
 LICENSE = "BSD-3-Clause"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libqt5-qtsensors-examples-5.15.9+kde0-1.1.aarch64.rpm"
-RPM_HASH = "85d8722fc10c170a55508e800cb78d022591ae431385c483d6ab48188af86d38d262a14cfbf1dd3c1ae3697f2e6c80a222c2b9927c36fe1d7b473390c6e3095c"
+RPM_NAME = "libqt5-qtsensors-examples-5.15.10+kde0-1.1.aarch64.rpm"
+RPM_HASH = "d0cbda61f00aa3cfdb8a079490be61da9306a77a90cc7f68e3e82903ddbdd246d8657efae174bc071e3bc0ccaaba761894122934154cf722cc685794a399a58f"
 
 RPROVIDES:${PN} += "libdeclarative-explorer.so \
 libdeclarative-grue.so \

@@ -9,10 +9,10 @@ optional argument of \\mahjong. It is primarily aimed at Riichi \
 mahjong."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0.1svn58896"
+PV = "2023.208.1.0.1svn58896"
 
-RPM_NAME = "texlive-mahjong-2023.201.1.0.1svn58896-52.1.noarch.rpm"
-RPM_HASH = "ac2550a4a4ed0b69ad6720e72db9b576bb36b0da42cf466e27e85359218f6ce9e1be60780be591d8927f891d59d1693c12b3b2a61a83364c179c7ba4e97a8cb6"
+RPM_NAME = "texlive-mahjong-2023.208.1.0.1svn58896-53.1.noarch.rpm"
+RPM_HASH = "237febafc2a4640345e3fd1e506a6c82e45e043bb1ef72ed2beb6f91231ed9d9384612244a8be5f05f02d5249eabf5fe94a068f0a34334fe56cb52002d31369b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mahjong.sty \

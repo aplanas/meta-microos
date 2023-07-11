@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.1"
 
-RPM_NAME = "libjxrglue0-1.1-4.9.aarch64.rpm"
-RPM_HASH = "bbde3058072f96f1d4de4c0cb2c7beaf83af7cb0e8ea6a0d68b33fa3ed07867c1c4244d3c9d86ab8847cf3d4de86706900b9d484ed05cd8011fc63dce81c07ae"
+RPM_NAME = "libjxrglue0-1.1-4.10.aarch64.rpm"
+RPM_HASH = "f3ff495058b289bdefe2b8a53a498b21df1bd94dab612719e2c1e59614adf9711445efa751880fe40897eac3215afd65fdc600667e53e09acdf4dfc5fe45b096"
 
 RPROVIDES:${PN} += "libjxrglue.so.0 \
 libjxrglue0"

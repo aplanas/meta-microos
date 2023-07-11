@@ -7,10 +7,10 @@ This package contains the Iosevka SS11 typeface (monospace, X Windows Fixed \
 style)."
 LICENSE = "OFL-1.1"
 
-PV = "24.0.0"
+PV = "24.1.4"
 
-RPM_NAME = "iosevka-ss11-fonts-24.0.0-1.1.noarch.rpm"
-RPM_HASH = "a3087a08b97884d96711c5a8d344105969a4b44bf2015cd021bc7bdb0ceceba6143a46885b00e537be596ab8181e00abbd72ec37630a215c388b4d756f85f51a"
+RPM_NAME = "iosevka-ss11-fonts-24.1.4-1.1.noarch.rpm"
+RPM_HASH = "39913f17c803d3078663d546bae1415e592b6a50bbebafff1cfc095fc9f7adb6297d6533f0c4abc087ec311d4bc40ee319397621d8eaeb6c062d359712877a1e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "iosevka-ss11-fonts"

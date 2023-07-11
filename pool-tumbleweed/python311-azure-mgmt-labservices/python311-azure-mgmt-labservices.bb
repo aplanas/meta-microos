@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "2.0.0"
 
-RPM_NAME = "python311-azure-mgmt-labservices-2.0.0-1.3.noarch.rpm"
-RPM_HASH = "e4baa9d501e9f06606a91fdfa9ddcf9c696f09df31db9b85a462e3de7e0e3a30ca87967a97f03ba7be904b9b78f5fb62154572afb3f77f8c9677136945738795"
+RPM_NAME = "python311-azure-mgmt-labservices-2.0.0-1.4.noarch.rpm"
+RPM_HASH = "ec2a316075b07c0ace2d3bdd0ae0df1a67769f44b24fca65bfb6ed17dc1b83138a6a389f1fa5fa4747c87644e20da733defabe8d0414adfb919be231aeb6fc8d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-labservices \
+RPROVIDES:${PN} += "python3-azure-mgmt-labservices \
+python3.11dist-azure-mgmt-labservices \
 python311-azure-mgmt-labservices \
 python3dist-azure-mgmt-labservices"
 

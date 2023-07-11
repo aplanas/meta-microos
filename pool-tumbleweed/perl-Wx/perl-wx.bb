@@ -8,8 +8,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.9932"
 
-RPM_NAME = "perl-Wx-0.9932-3.34.aarch64.rpm"
-RPM_HASH = "b34aff50b26fb027742090b3703b6b198c15f249d361705d3774dc5e03ab59809161ebed3d87ad7f6275856ab114c1a14c802edcc5addb76939155fcb1daa68a"
+RPM_NAME = "perl-Wx-0.9932-3.36.aarch64.rpm"
+RPM_HASH = "98ee6b11818c8e63370be1bb78b644c1e45243a0bb2db20912d7131de5675fa943e4f5dd1c96e12690ba8313ed032535e8e3acab6f14a20a75670368c6b55384"
 
 RPROVIDES:${PN} += "perl-MY \
 perl-Wx \
@@ -335,7 +335,7 @@ libwx-gtk2u-ribbon-suse-nostl.so.3.0.5 \
 libwx-gtk2u-richtext-suse-nostl.so.3.0.5 \
 libwx-gtk2u-stc-suse-nostl.so.3.0.5 \
 libwx-gtk2u-xrc-suse-nostl.so.3.0.5 \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-Alien--wxWidgets \
 perl-ExtUtils--MakeMaker \
 perl-ExtUtils--ParseXS \

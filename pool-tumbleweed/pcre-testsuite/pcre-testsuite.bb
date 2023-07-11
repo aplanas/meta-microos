@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "8.45"
 
-RPM_NAME = "pcre-testsuite-8.45-2.6.aarch64.rpm"
-RPM_HASH = "1176033d439da3e549d2feea91bf70444e3eaaf12ad807296fd82e3390e4ce04a57526f594fd82c6e1ac0f01be9a4a7b2441fa00fd871241b95cbfe12916d2fc"
+RPM_NAME = "pcre-testsuite-8.45-2.7.aarch64.rpm"
+RPM_HASH = "da494e1ae46ecc091bb268e0640ba29ff876c5c56099e080557ea476872861092da8ecdf87420be0c78401944404ebabc07ad3d45eb534d8c75b4faa6684fcf4"
 
 RPROVIDES:${PN} += "pcre-testsuite"
 

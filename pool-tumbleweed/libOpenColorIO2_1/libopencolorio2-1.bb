@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.1.2"
 
-RPM_NAME = "libOpenColorIO2_1-2.1.2-3.1.aarch64.rpm"
-RPM_HASH = "8ffeb56975743fa7983a7cc21b077bb7325d2536f866826ab0e26999e3ebeb027b110a92bc8023ecdf5fa87a25d9ed35ffe0bb45dded9500fd51702491fec1cd"
+RPM_NAME = "libOpenColorIO2_1-2.1.2-3.2.aarch64.rpm"
+RPM_HASH = "71deaf252bbbd861ef2657305dc60fe741a2b6cd0bd5953e3d9d1ac7af9fe34ff597b9df0b21f35313d8b2ed1581450bd7fa6cbb09a3d5f0923503764f84d4d9"
 
 RPROVIDES:${PN} += "libOpenColorIO.so.2.1 \
 libOpenColorIO2-1"

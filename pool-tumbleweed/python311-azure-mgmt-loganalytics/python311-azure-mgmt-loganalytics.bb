@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "13.0.0b5"
 
-RPM_NAME = "python311-azure-mgmt-loganalytics-13.0.0b5-1.3.noarch.rpm"
-RPM_HASH = "036ab22e2197355aa40671b001dd153cc493c26c22636fa62413da857eb9bb9c672ebbcc240ecf5a088810722681288989fe47158ca1e141edba0481ce753cca"
+RPM_NAME = "python311-azure-mgmt-loganalytics-13.0.0b5-1.4.noarch.rpm"
+RPM_HASH = "711653e9dc7d2694557f4895277fc754565052384166c7cc863f8a726a4d152c7108115c1200841e1d052534d8ec67871e07b3f0fbb34aa5b35043824f25b8ec"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-loganalytics \
+RPROVIDES:${PN} += "python3-azure-mgmt-loganalytics \
+python3.11dist-azure-mgmt-loganalytics \
 python311-azure-mgmt-loganalytics \
 python3dist-azure-mgmt-loganalytics"
 

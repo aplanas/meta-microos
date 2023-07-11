@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.2.0"
 
-RPM_NAME = "libgweather4-devel-4.2.0-2.1.aarch64.rpm"
-RPM_HASH = "a14ce4f1e072eb822ceba2d1bb42808b747ace2ec9eb5485560b92c18d25dade7131098d322c78a23b11478472fdcca057ca92660b462333975c8ee06a611e06"
+RPM_NAME = "libgweather4-devel-4.2.0-2.2.aarch64.rpm"
+RPM_HASH = "e91459f5cef66067a69738e392a13f409aa5c1dc30280b639f873f785ad76749a561e7e4d6b1cb484e157df96a59dd843647fbf35d8cd555239f761d79e5f251"
 
 RPROVIDES:${PN} += "libgweather4-devel \
 pkgconfig-gweather4"

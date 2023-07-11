@@ -4,8 +4,8 @@ LICENSE = "OFL-1.1"
 
 PV = "2023.201.0.0.36svn65686"
 
-RPM_NAME = "texlive-xcharter-math-fonts-2023.201.0.0.36svn65686-52.1.noarch.rpm"
-RPM_HASH = "77d5310ce6ceddac8d35a14ffe4a4e9fc8e069e639586fc019cfe17f615b4b284f1d044c0bfee8ef5bbc539c1c178c7b56de9ef5ce6e39efc91ae3f16e290fd3"
+RPM_NAME = "texlive-xcharter-math-fonts-2023.201.0.0.36svn65686-52.2.noarch.rpm"
+RPM_HASH = "cd0195abf27ee0662ac42892339c6da8998c029cab3f08b12d54091df0d53bedc19405ad1105c0e7e232737ffaa6e087f6ca6b2286c75e751d44c26724cb0717"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=fj \

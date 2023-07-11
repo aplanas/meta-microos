@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.1.2"
 
-RPM_NAME = "python39-pendulum-2.1.2-2.9.aarch64.rpm"
-RPM_HASH = "312cc6c91af74bc6711c3c4d2d68c3b8be49a3dc893f3fa83d340bff38155498bc30d126a84d5ae46fb713adc79aae24f0c63a4b827594040cc7301e39045ab5"
+RPM_NAME = "python39-pendulum-2.1.2-3.3.aarch64.rpm"
+RPM_HASH = "fd21c7917718a0e4bd8b0b4288bad28d4126b61ba2edcf09868a44668b3b36df23b0420ac2ec25702953c472134f565f3a085eed558dfae83fdf22cd7c261f15"
 
 RPROVIDES:${PN} += "python3.9dist-pendulum \
 python39-pendulum \

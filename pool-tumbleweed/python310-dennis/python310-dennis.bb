@@ -7,12 +7,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.0"
 
-RPM_NAME = "python310-dennis-1.1.0-1.4.noarch.rpm"
-RPM_HASH = "7b60c09e5d78bc11ad8ace206b646de129f0ee861752bd286b186f1a21bf931266eec991a290bbd427518ccf84748dd0d0573789836db1b7e94eb1f7206300e9"
+RPM_NAME = "python310-dennis-1.1.0-1.6.noarch.rpm"
+RPM_HASH = "594ad43fdf0354b7860de12cfeb09525e0bfb20bfa1f42271966f6e314c9416702f9006fdd96c6caf45a37f9b289e7ed6498f4a5328c9d59d189ffa4bd11072f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-dennis \
-python3.10dist-dennis \
+RPROVIDES:${PN} += "python3.10dist-dennis \
 python310-dennis \
 python3dist-dennis"
 

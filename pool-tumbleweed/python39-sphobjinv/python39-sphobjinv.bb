@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.2.2"
 
-RPM_NAME = "python39-sphobjinv-2.2.2-1.4.noarch.rpm"
-RPM_HASH = "d719ad0f5c8aaadf95279685139c554470fcdc04e4844fbdbac9047892cb3bd820134455a5bc478e607c75ff4d7886d069e105521903ede0b143771af0f46e8e"
+RPM_NAME = "python39-sphobjinv-2.2.2-1.6.noarch.rpm"
+RPM_HASH = "f93f04c60fb57a1aacaddc1de45e6653cd874a7c97629f4b8bca1f0dac226b84c48687f9821f47d411ce2e9369dae9521062270e924588651de9434164378703"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sphobjinv \

@@ -5,8 +5,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.24.8svn64872"
 
-RPM_NAME = "texlive-xepersian-2023.201.24.8svn64872-52.1.noarch.rpm"
-RPM_HASH = "62cf53729e66f991857ff16775a81130bc9373c0bbf10042f22f34af7055061c947630e48db05bd6d25811cfa9272d8c472953e7410c235daafe7751e4ca9f68"
+RPM_NAME = "texlive-xepersian-2023.201.24.8svn64872-52.2.noarch.rpm"
+RPM_HASH = "4fda04c2e774374e86ed1e4bc260e77db17cc5145db5217875fddddb2a143d54635f5bd7b425bd6c0722e6700a86bb591a0aa6972026fc42ddac256b654e6d9d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-algorithm-xepersian.def \

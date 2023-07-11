@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.22.8"
 
-RPM_NAME = "libcogl20-1.22.8-2.11.aarch64.rpm"
-RPM_HASH = "7a3801531141f080321fe73b586c10ccf4a78f203117667859afd378cabb2b9ab1dc1a938f615f6b98e8290f7a0941cbcf5e7dad262747be31f5ca1c484894ec"
+RPM_NAME = "libcogl20-1.22.8-2.12.aarch64.rpm"
+RPM_HASH = "ff33d42a58739c87afd72fe117b829b5a7292b8175958e74ff0cf48b26183722eec5605b5acdaabd27de5fe4a18b3edd8157e445ba4ccc92ad61e765a712e062"
 
 RPROVIDES:${PN} += "cogl \
 libcogl-path.so.20 \

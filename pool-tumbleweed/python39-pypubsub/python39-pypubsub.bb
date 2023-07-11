@@ -10,8 +10,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "4.0.3"
 
-RPM_NAME = "python39-pypubsub-4.0.3-1.8.noarch.rpm"
-RPM_HASH = "6083c41e3be052b42b2b3e1064d99885549a842df81614e4fafc191c035a045cc6bec7df16a9caf24767288458845f90e8ff21eba2221c99e50c4ecb0a267698"
+RPM_NAME = "python39-pypubsub-4.0.3-1.10.noarch.rpm"
+RPM_HASH = "c65ef1cf8b38562b5dbc41119391a973cc9d3d6cb6cb66a878c5bdf8a1a6df07c51d619ca7c9063c0687c6b2b77a304bb277647b032a69096353857f9a365802"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pypubsub \

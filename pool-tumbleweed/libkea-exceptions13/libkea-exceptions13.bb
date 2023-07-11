@@ -4,8 +4,8 @@ LICENSE = "MPL-2.0"
 
 PV = "2.2.0"
 
-RPM_NAME = "libkea-exceptions13-2.2.0-2.4.aarch64.rpm"
-RPM_HASH = "b5c30fa2c2a06cfa837d880420756990cf57a17f7819cfaa6d59932cce093b25364d2bf57e04d97ef89e84662673c8fb6a94e7366e057904548cab8e99ce7b24"
+RPM_NAME = "libkea-exceptions13-2.2.0-2.6.aarch64.rpm"
+RPM_HASH = "9d756a05406632b9e3a66ad3ee7ffa78b18ec012bc664390f08e60a7f2288448a667ffc08aafbec6f8a9a7d41b8aae817d6ec3225bc602d2e59ee7f4736b7c0e"
 
 RPROVIDES:${PN} += "libkea-exceptions.so.13 \
 libkea-exceptions13"

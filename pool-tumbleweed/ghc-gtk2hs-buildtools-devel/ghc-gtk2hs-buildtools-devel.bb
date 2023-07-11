@@ -2,12 +2,12 @@ SUMMARY = "Haskell gtk2hs-buildtools library development files"
 DESCRIPTION = "This package provides the Haskell gtk2hs-buildtools library development files."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.13.8.3"
+PV = "0.13.10.0"
 
-RPM_NAME = "ghc-gtk2hs-buildtools-devel-0.13.8.3-2.3.aarch64.rpm"
-RPM_HASH = "8200514512c172c9a7a3341816c29eb52d76447ce6198f3fecd20e8a70eb79ad87186574539f951e02ccd084fa165b4610f26b6031d30ab481b26b7e0776051b"
+RPM_NAME = "ghc-gtk2hs-buildtools-devel-0.13.10.0-1.3.aarch64.rpm"
+RPM_HASH = "3c31c3e6de04a523d9f6007028c9b3ee0c81d72fa4e238f71fdc7a89e124e9e90990cc66d5c09de85282f24a67d06cc0536a4ab5fc3c6020a479d3959a0b867f"
 
-RPROVIDES:${PN} += "ghc-devel-gtk2hs-buildtools-0.13.8.3-1HEgD6xsgMLLqS6Eg0gkhE \
+RPROVIDES:${PN} += "ghc-devel-gtk2hs-buildtools-0.13.10.0-GMmATWROlNJH1zTcL3EPcc \
 ghc-gtk2hs-buildtools-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

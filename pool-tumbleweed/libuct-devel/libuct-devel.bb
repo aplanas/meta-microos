@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.14.0"
 
-RPM_NAME = "libuct-devel-1.14.0-1.1.aarch64.rpm"
-RPM_HASH = "b3472a3d1fcccdb4d593913e3a9c8c80757fe291c8d4e5961508acd31fb9d0fdd40bf64807023d5a679faee0f940a1faa3cce8ea68c61a4ad7790f5a362d1f8a"
+RPM_NAME = "libuct-devel-1.14.0-1.2.aarch64.rpm"
+RPM_HASH = "a81b1d490a191188d88ab5ee7c5f1593c5db827497cec134eef748fcf5728327b854b2534428cca74cfdd6a66d8d939523a334fd885f25fe254de56791b19554"
 
 RPROVIDES:${PN} += "libuct-devel \
 pkgconfig-ucx-cma \

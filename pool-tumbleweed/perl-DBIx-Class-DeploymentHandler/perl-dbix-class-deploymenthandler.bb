@@ -29,8 +29,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.002233"
 
-RPM_NAME = "perl-DBIx-Class-DeploymentHandler-0.002233-1.15.noarch.rpm"
-RPM_HASH = "dd6b1bdaa1d503cc56da72db1e4cf9076c957c262bfb7f1edbac6d573c60e92050dd4a0001ea8100a69f0f0c8b3398725d699b4976d9b588d484c9bd120a1ffd"
+RPM_NAME = "perl-DBIx-Class-DeploymentHandler-0.002233-1.16.noarch.rpm"
+RPM_HASH = "85cf6a8c7856e7a471f0253ee745689d62f44132376211569fa5f13104cfdc237766eec6f75ed31349bbeed36e811ae662d2b5b333c2cafdb37ee2b11e64e09e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DBIx--Class--DeploymentHandler \
@@ -61,7 +61,7 @@ perl-DBIx--Class--DeploymentHandler--WithApplicatorDumple \
 perl-DBIx--Class--DeploymentHandler--WithReasonableDefaults \
 perl-DBIx-Class-DeploymentHandler"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Carp--Clan \
 perl-Context--Preserve \
 perl-DBIx--Class \

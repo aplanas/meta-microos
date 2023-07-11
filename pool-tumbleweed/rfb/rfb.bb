@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.6.1"
 
-RPM_NAME = "rfb-0.6.1-703.11.aarch64.rpm"
-RPM_HASH = "bd34b79a8da43309a67ed1f55cc9911bbdc765f2ae1ca2502ac5755f7b4282eb8fcb0b0edee0e664e47b1c475a78e318bdfe58f02c2e014fc420f1d0797ef9cc"
+RPM_NAME = "rfb-0.6.1-703.12.aarch64.rpm"
+RPM_HASH = "912cd0db090d88c17efd724f26fea3c06053955bf169bf7044d99ae663166ef157cc14b000d9b220bc07de19e38d9e266f7f379a9ee7bc19044ebcce08e2d091"
 
 RPROVIDES:${PN} += "rfb"
 

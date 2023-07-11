@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.svn29349"
 
-RPM_NAME = "texlive-hfbright-fonts-2023.201.svn29349-53.1.noarch.rpm"
-RPM_HASH = "1412c365bc2320415f28c9ef05b42abb49b859ccc3cc399f1a389ed1fb3985fecb3eec10b485949877c6396a42d0532b5033d1a241d8735b2754db83981ad86f"
+RPM_NAME = "texlive-hfbright-fonts-2023.201.svn29349-53.2.noarch.rpm"
+RPM_HASH = "2a2bb5e84271ee35cc287fcfd4df18f3dead6b026bf6cc2dff2e559e96b93811741bfde80e62655d7732e8efa4ec1bf384cb8a2421ec2aa8108c8b84a8a766a3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=fj \

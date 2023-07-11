@@ -5,8 +5,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "5.4.3"
 
-RPM_NAME = "xz-devel-5.4.3-1.1.aarch64.rpm"
-RPM_HASH = "a8ccf1b41196ac528fbf1b56d3e648fa2148b3766164738fcfe19df39c0df29fc2f2906ad1b999176c9bc5e07ec61cbc91ff097507ddef9bceca4be354934bc0"
+RPM_NAME = "xz-devel-5.4.3-1.3.aarch64.rpm"
+RPM_HASH = "a0c5141181b0af5669d60ced5af7949ccc71da3d2078b9d67168db13eaeb5c3442b5b301e935ddcaa6774f4f415409a8c4cbdee6018f8201e4fc9f12f1cc67b0"
 
 RPROVIDES:${PN} += "lzma-alpha-devel \
 lzma-devel \

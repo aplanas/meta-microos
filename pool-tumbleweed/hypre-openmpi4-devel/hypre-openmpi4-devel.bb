@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0 | MIT"
 
 PV = "2.20.0"
 
-RPM_NAME = "hypre-openmpi4-devel-2.20.0-1.9.aarch64.rpm"
-RPM_HASH = "f7990b24592737424a10f31de5b10cda8e8ebee4c157251a946a5bef6018554afad3de9dc409e8643adaf4973a9a60d4f93859672587ff2e251dd3ea13712c22"
+RPM_NAME = "hypre-openmpi4-devel-2.20.0-1.10.aarch64.rpm"
+RPM_HASH = "a8ff2d678e42e5b3ef90eb3bc76c72d4321348bd9db25a180348e243a378e64928533a8370dcc37c7408b1cba841f705b499d3b50f8c1e2ddf5c43db18463a06"
 
 RPROVIDES:${PN} += "hypre-openmpi4-devel"
 

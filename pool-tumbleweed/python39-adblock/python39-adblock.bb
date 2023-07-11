@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 | MIT"
 
 PV = "0.6.0"
 
-RPM_NAME = "python39-adblock-0.6.0-2.2.aarch64.rpm"
-RPM_HASH = "f43f07a12c3109bb77001606e39bb474fdddbe323d9841cd30464413cb62456c78bd6101e833f280ea5e36385abfaa96c2a196ab999a15368b0dd46a7f4d854f"
+RPM_NAME = "python39-adblock-0.6.0-2.4.aarch64.rpm"
+RPM_HASH = "a3782077a6c2f3edfce7cb16ceaaa6444a2d079844a40797dda12c2f41bba512f268130f03edcdb20b69f67756b47affcc2635d0795fc52983fec5b082027aba"
 
 RPROVIDES:${PN} += "python3.9dist-adblock \
 python39-adblock \

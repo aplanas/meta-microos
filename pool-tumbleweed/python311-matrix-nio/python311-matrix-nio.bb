@@ -4,11 +4,12 @@ LICENSE = "ISC"
 
 PV = "0.19.0"
 
-RPM_NAME = "python311-matrix-nio-0.19.0-1.11.noarch.rpm"
-RPM_HASH = "e8d478232a56ca23e34b8585e83e6382f775ce274f3b5721ce00f00a0c7bc6e144024efb4f30646d5ac177aa461f34a6deb82d831af4d5ccf81b72d6e6b3515e"
+RPM_NAME = "python311-matrix-nio-0.19.0-1.13.noarch.rpm"
+RPM_HASH = "18ecc51117801e1b0cee67ee08b4fc1c5774279c618add10005c99ab17970b0c01b52d689cfe652f6861e574b9c2a44764aaee6d7052785ec14ece749c76a349"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-matrix-nio \
+RPROVIDES:${PN} += "python3-matrix-nio \
+python3.11dist-matrix-nio \
 python311-matrix-nio \
 python3dist-matrix-nio"
 

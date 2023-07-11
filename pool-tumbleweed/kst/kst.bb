@@ -15,8 +15,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.0.8"
 
-RPM_NAME = "kst-2.0.8-14.4.aarch64.rpm"
-RPM_HASH = "79341582e9a5ff6159bdb0bd78bd9a7fa6d56c6240185b163c1de6ee467df07691351bd00581d078ee969df9187b08201d9430a87e060051aea7fab35ee253e8"
+RPM_NAME = "kst-2.0.8-14.5.aarch64.rpm"
+RPM_HASH = "f35832c3a5a03a87ea570efa46319f2de89e207b26b29eedb2ae43af3299f4e923c677c2916721c713068d5c89e655641a899e18a479986c28fc409af2130d87"
 
 RPROVIDES:${PN} += "kst \
 libkst2-dataobject-activitylevel.so \

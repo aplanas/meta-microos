@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0+"
 
 PV = "0.6+git74.9ef0de5"
 
-RPM_NAME = "spectator-0.6+git74.9ef0de5-1.27.aarch64.rpm"
-RPM_HASH = "6c84492adc9e3a4dd8089618e41a19ff986728341e2cbb0a430b83d5f7583c7d32f2ab2b4cbd7daaf3903f197cc2d37bd91d42323deb2999ec59c40cfe2a9816"
+RPM_NAME = "spectator-0.6+git74.9ef0de5-1.28.aarch64.rpm"
+RPM_HASH = "6f822946ffa91928b4921069f5f24baf5f9ab056682202334f5a6f7ffb4138ab91ea57287314750f6d847dc935b4c00c0a25ea724e9016fe021ec3a9cc8b561a"
 
 RPROVIDES:${PN} += "spectator"
 

@@ -15,14 +15,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.008"
 
-RPM_NAME = "perl-Test-Requires-Git-1.008-1.15.noarch.rpm"
-RPM_HASH = "925a299b576c2b74b30a210a5aa809b5f8a7d85c54fe2522dd7019e28e34da53290b5b315d8dbde4250d27d04774b4874c2ce36dcd00c10c55fd9c621ca3469c"
+RPM_NAME = "perl-Test-Requires-Git-1.008-1.16.noarch.rpm"
+RPM_HASH = "986134c5bb6a456ca22ea76b202fd6e79380409f65d92be968636c46ef25fbb6e2bb8a6bca9ddff67b1ba07911f29706a8660be58442fc691a57d9a4d8a07290"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Requires--Git \
 perl-Test-Requires-Git"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Git--Version--Compare"
 
 inherit rpm

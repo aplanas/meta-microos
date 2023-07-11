@@ -4,11 +4,12 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.1.0"
 
-RPM_NAME = "python311-flake8-builtins-2.1.0-1.3.noarch.rpm"
-RPM_HASH = "7e30bbe3493cdd503d01c55f7deed9a78ec4e69cf5e4f54452e45d6e74a26810326ca636e9f29b03bb710c153b8b14a33825c881051046fdb41387166b18c846"
+RPM_NAME = "python311-flake8-builtins-2.1.0-1.5.noarch.rpm"
+RPM_HASH = "d3bb2fd1cba4cbd10b1a520f2ba6196946b592fa03480bbbe4ceb2b96ba234d865e3b554de3df19c9b53f31c940dce1b865b90f825783850bd81b6e14922d249"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-flake8-builtins \
+RPROVIDES:${PN} += "python3-flake8-builtins \
+python3.11dist-flake8-builtins \
 python311-flake8-builtins \
 python3dist-flake8-builtins"
 

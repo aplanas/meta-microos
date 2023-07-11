@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "3.48.0"
 
-RPM_NAME = "gnome-online-accounts-lang-3.48.0-1.1.noarch.rpm"
-RPM_HASH = "fb3f1c55d8cc2eb8b9ed8150342d66103458836188e1633639f36d4523fe07084c002d568d8f3241eb334302ccb91ef3e9279a231266660b90940809b5141503"
+RPM_NAME = "gnome-online-accounts-lang-3.48.0-1.2.noarch.rpm"
+RPM_HASH = "ce1b42503e7223940f0069ba55f4e64bb84a93f9a6d813bc161ae8931d31584ef82b728410e47a5d7e8cb2d731cf874918b673e92df0286fa999f09f57bd84ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-online-accounts-lang \

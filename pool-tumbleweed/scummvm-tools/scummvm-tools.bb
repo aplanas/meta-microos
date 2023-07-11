@@ -15,8 +15,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.7.0"
 
-RPM_NAME = "scummvm-tools-2.7.0-1.4.aarch64.rpm"
-RPM_HASH = "a8cb22c5206ecd5db82691224bbe690671a66ff2aef1f6fe6bf4685d9b2bf4f77c41f45c5c9ac2a8e11fcf80f705371545e7870571143335792c2d2ad3319700"
+RPM_NAME = "scummvm-tools-2.7.0-1.5.aarch64.rpm"
+RPM_HASH = "4c04feda91b150016b052069b35886c7e78fd412fb3975cd3a7019a1d90c55e5906923d03712b883e9e1858054a7be7ddab94b034e9c1b6c6ae12e13e382284e"
 
 RPROVIDES:${PN} += "scummvm-tools"
 

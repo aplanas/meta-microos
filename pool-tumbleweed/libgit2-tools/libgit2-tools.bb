@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only-with-GCC-exception-2.0"
 
 PV = "1.6.4"
 
-RPM_NAME = "libgit2-tools-1.6.4-1.1.aarch64.rpm"
-RPM_HASH = "706418a5e21d0943fc1133139902c86f9169bab3cd32a60ff9d71325903def067f22c91ba136db6caf634094dbe6b8616241d783bee75397f1b3dbf7185abb14"
+RPM_NAME = "libgit2-tools-1.6.4-1.2.aarch64.rpm"
+RPM_HASH = "ef2a15007f1f0548580d1b414959953073a56f7d01853c2eeced0d2f6361b01db9d19173ed1dc576c34957c1a39db4ddb72a19b108afd75e77d014e2bbd22dd3"
 
 RPROVIDES:${PN} += "libgit2-tools"
 

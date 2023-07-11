@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6.0"
 
-RPM_NAME = "python310-babelfish-0.6.0-1.8.noarch.rpm"
-RPM_HASH = "e002595ae891dd314f3661c0fb19e9a7453d2f2fc69c5a97954c9551cdabd6eac397a5c4ceb819ff69b25c5c40c7ad58effdf2c77434d2a04bb083f594fd5be1"
+RPM_NAME = "python310-babelfish-0.6.0-1.9.noarch.rpm"
+RPM_HASH = "6d6c9529cc59d42cb49beedd93f97c32d77d451e42197e4b972966c54212fd8940c39c1febdcd6825c18544905c3180f1df2bf8aa1750514e28afec673d2db02"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-babelfish \
-python3.10dist-babelfish \
+RPROVIDES:${PN} += "python3.10dist-babelfish \
 python310-babelfish \
 python3dist-babelfish"
 

@@ -12,8 +12,8 @@ LICENSE = "MIT"
 
 PV = "0.7.4"
 
-RPM_NAME = "python39-imread-0.7.4-3.11.aarch64.rpm"
-RPM_HASH = "60e224eb4e27cbc45bfa312aec469447a6997ead24378c6f0364ec0b8b11a15be78002e0374362ad905a7cad0f4136001fd66e5b1ba0c99137dd3b245f5fad36"
+RPM_NAME = "python39-imread-0.7.4-3.13.aarch64.rpm"
+RPM_HASH = "521c96dd201b6c573fc93bae54c9e3b602f690ce095b39578db18b32143e3c16fb15bbb86f87cede690f95e898179644b9cd1f9abe83e9261d0ab0a7ffe37435"
 
 RPROVIDES:${PN} += "python3.9dist-imread \
 python39-imread \

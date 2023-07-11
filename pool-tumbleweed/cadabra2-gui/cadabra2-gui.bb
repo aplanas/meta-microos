@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.4.3.2"
 
-RPM_NAME = "cadabra2-gui-2.4.3.2-1.5.aarch64.rpm"
-RPM_HASH = "aaa65f77783a29b1f4a16259958064c0fc5b3c3eb9548eb1154b32b522f7db7161db459e54458cb998d5b14897a832e33b0a554d0beac58db2dd5bba3339ed4f"
+RPM_NAME = "cadabra2-gui-2.4.3.2-1.6.aarch64.rpm"
+RPM_HASH = "e7079988d31217b32639c61b8a3c3f4bf26121392e6896dca2a8116ae2200d18a8d69b8a244387a936988720b4d2cef6bccfa611cebaa4bb6404432b81081058"
 
 RPROVIDES:${PN} += "cadabra \
 cadabra2-gui"

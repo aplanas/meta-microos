@@ -13,8 +13,8 @@ LICENSE = "Artistic-1.0 | GPL-2.0-only"
 
 PV = "1.96"
 
-RPM_NAME = "perl-Devel-CheckOS-1.96-1.1.noarch.rpm"
-RPM_HASH = "adf16e863c146d9d450a1ce9f1f928e6e3856281d9937947b530adf97dde3930a9db695a0f4dfa7aa276e87f1c615ce64ac67945ff055350993213a55b574868"
+RPM_NAME = "perl-Devel-CheckOS-1.96-1.2.noarch.rpm"
+RPM_HASH = "b1d3f16269bf82abf66da516f6f4b64cb67ab2d1da4d8b61393d4f86b764d89815ea18830550bdca6c1b4c52c2b1b77a2ed509cb0621903db2c4325e9f2fc830"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Devel--AssertOS \
@@ -111,7 +111,7 @@ perl-Devel--CheckOS \
 perl-Devel-CheckOS"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-File--Find--Rule \
 perl-File--Temp \
 perl-Test--More \

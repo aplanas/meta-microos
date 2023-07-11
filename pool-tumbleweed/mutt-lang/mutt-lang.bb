@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.2.10"
 
-RPM_NAME = "mutt-lang-2.2.10-2.1.noarch.rpm"
-RPM_HASH = "ace4af93f1db5ef705f7fb7baf420e09c60809f5ed35966d2058e379e7da17023486e0a9b058da94cb57bc6ec9a163b40bb468efa4d9561ebd87bb20cf597a7d"
+RPM_NAME = "mutt-lang-2.2.10-2.2.noarch.rpm"
+RPM_HASH = "62f14fd092c1c33b516896c84e199e4903e33d82d1593947aca3d7547f5bfaebdb54baa2644b8cff2d1c0efe38c4f13ece37d8f11f1851f9f4d5badea81547e0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mutt-bg \

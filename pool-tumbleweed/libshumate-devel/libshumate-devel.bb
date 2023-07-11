@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.0.3"
 
-RPM_NAME = "libshumate-devel-1.0.3-1.3.aarch64.rpm"
-RPM_HASH = "140b31cab92aa8103502d93eefc44db0471c85c7510693908c09a7cac439131e1500dd9bc385f08f6bdd0ba1e521bae930fe3dcb820e90d7397de93038fc6130"
+RPM_NAME = "libshumate-devel-1.0.3-1.4.aarch64.rpm"
+RPM_HASH = "d719db09ac432ff51b027c4eb4be8a0df66586d11d8ad0fe8236f5b83d23bd607a00fec86674192610829f0b79969ff63c0d9604795867db70a190f503205d1a"
 
 RPROVIDES:${PN} += "libshumate-devel \
 pkgconfig-shumate-1.0"

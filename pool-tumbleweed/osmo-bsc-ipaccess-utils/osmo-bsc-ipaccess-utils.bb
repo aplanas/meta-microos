@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.8.0"
 
-RPM_NAME = "osmo-bsc-ipaccess-utils-1.8.0-1.11.aarch64.rpm"
-RPM_HASH = "bbcc225d73d4f796ee069fc79f61229eed6786191df30479f9da2970195a529bd28c6c4522b534192440656cac52d4b0287ab67c3cc943438124cdffe7064589"
+RPM_NAME = "osmo-bsc-ipaccess-utils-1.8.0-1.12.aarch64.rpm"
+RPM_HASH = "41f8fa89610b427ad378f63d1d3d9ab0b827d8d6a2f338e672def8ca9d29f91be98ac4513c7d0ac337422bd4743ab75ee2a9794ec1e689dd6d7c485447f2a714"
 
 RPROVIDES:${PN} += "osmo-bsc-ipaccess-utils"
 

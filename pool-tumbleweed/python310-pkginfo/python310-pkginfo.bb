@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "1.9.6"
 
-RPM_NAME = "python310-pkginfo-1.9.6-2.1.noarch.rpm"
-RPM_HASH = "e6b7d7db0b44ba80eb987d2809bfa0ffcb82b089fba76f2bb26020c1246aa9bea2d820a9b5b0e3d6ceca194c2d2adc3b3f5b74fb7b55d74d9751ed729be1ba3a"
+RPM_NAME = "python310-pkginfo-1.9.6-2.3.noarch.rpm"
+RPM_HASH = "e00f420fea423d22c5a10b3eeabac505fb2f986d43b20cdf0683bcff047f814085035b2bca97929efde2c81eeeeff610469547afe8b7b971624206bbbead1702"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pkginfo \
-python3.10dist-pkginfo \
+RPROVIDES:${PN} += "python3.10dist-pkginfo \
 python310-pkginfo \
 python3dist-pkginfo"
 

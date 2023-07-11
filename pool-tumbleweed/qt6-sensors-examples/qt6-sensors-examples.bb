@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-sensors-examples-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "aad60867bfe0e0b671ffff0b3f181414efde578bcb66cd96258cfd001ef94eea4f57ec27e120c5ac9fe8d7f265b45ee9f7d46469ef134c54af0fad2d831f3998"
+RPM_NAME = "qt6-sensors-examples-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "7350569da5c287bb708a8a55afa87878fe2f76b268e1b683343019fb5cf033ef33d1e74092b9c5a52686615f2c1e75949d62ff44866353c99c3ff29bfdeabfab"
 
 RPROVIDES:${PN} += "qt6-sensors-examples"
 

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package plasma5-bigscreen"
 DESCRIPTION = "Provides translations for the 'plasma5-bigscreen' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "plasma5-bigscreen-lang-5.27.5-1.1.noarch.rpm"
-RPM_HASH = "494d0ef975cc5fb619de544afd13d8dddacc8c9365db917ad8c666bd57a5b79a662390eedd5ecb8d664ecc60a61f66849ba8d1306472da7c24696fcf7421f02f"
+RPM_NAME = "plasma5-bigscreen-lang-5.27.6-1.1.noarch.rpm"
+RPM_HASH = "47c3dd0d38315ef7a3b05e9877fda315c785332877ca2b14a5104a21ed72914038ed89702f76b92b7e46bfcfae2061b4896000390cee5ee8b4d97916af4369d2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-plasma5-bigscreen-ar \

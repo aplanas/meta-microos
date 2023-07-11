@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "6.0.2"
 
-RPM_NAME = "libcec6-6.0.2-2.9.aarch64.rpm"
-RPM_HASH = "1055448beaa6192648fb83f1e45912432dbef705e2db839b4dfaee38d68834765188564919aefacdca53076e679c56f0a5e607f2d86ad7ecb15a40ecc937682e"
+RPM_NAME = "libcec6-6.0.2-3.1.aarch64.rpm"
+RPM_HASH = "c63737b88b08d0ad71233ee0278a5cd508c8f9fa721001eb9cca872e41108fbef0eeb519f90b447fc356407561422b5b4f9017b24c60c0602cdb3073d85b05af"
 
 RPROVIDES:${PN} += "libcec.so.6 \
 libcec6"

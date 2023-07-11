@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-only & GPL-2.0-only & GPL-2.0-with-classpath-exception"
 
 PV = "1.5.12+git.0684c1b"
 
-RPM_NAME = "python3-libftdi1-1.5.12+git.0684c1b-2.1.aarch64.rpm"
-RPM_HASH = "843cb81211257b9657edc192d7360f361af60f596e9d6b6dd3b598185e1b903dbd7c398862496da930eb52f464120b9390a300fc7acead1f6607cf819b178a09"
+RPM_NAME = "python3-libftdi1-1.5.12+git.0684c1b-2.2.aarch64.rpm"
+RPM_HASH = "c4113fdc4df98d7c307b504492756b538d3539b97dd0ff74ae2e2caa91418054041ae434fa7931440db9307fe5001313ad545da809f1d270d02634c7e7b4050f"
 
 RPROVIDES:${PN} += "python3-libftdi1"
 

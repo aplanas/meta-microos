@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.5.7"
 
-RPM_NAME = "libcmpiutil-devel-0.5.7-9.3.aarch64.rpm"
-RPM_HASH = "8385f5f79fbc4349ebcec26cc14ee701aa9ed01678d3468366ffcd5491af2be37172c9009b985b9808ca92a23c71ec0b79618b0b1a24a35bcad85a8b092b8d4a"
+RPM_NAME = "libcmpiutil-devel-0.5.7-9.4.aarch64.rpm"
+RPM_HASH = "bffef58d36d39ef4e6fccb3aa224c00dbc523fc83d5d236060d90dc89e36cb19416e2b26e534b006568b3ec846e29f08578321469649e427920fa780c9d01aaa"
 
 RPROVIDES:${PN} += "libcmpiutil-devel \
 pkgconfig-libcmpiutil"

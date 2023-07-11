@@ -5,11 +5,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "4.0.0"
 
-RPM_NAME = "python311-pytest-benchmark-4.0.0-4.1.noarch.rpm"
-RPM_HASH = "ab97ee3287e56a78d5f922a8246e6cc1337ba24d4e4dd02e9e0619fc65d7dfcc4f3fafeca7c55a49fe23f3115b9c1502be7f72788e3e606984a426e32ae0bc05"
+RPM_NAME = "python311-pytest-benchmark-4.0.0-4.3.noarch.rpm"
+RPM_HASH = "d31f06ff4f4529fd4ce0bedd73ad39b9c954c8a8923f37a20e94b94be78a00c78f521cab360bcb392f4898023ab71203f921ab86f893c294c60a90ccff33b620"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pytest-benchmark \
+RPROVIDES:${PN} += "python3-pytest-benchmark \
+python3.11dist-pytest-benchmark \
 python311-pytest-benchmark \
 python3dist-pytest-benchmark"
 

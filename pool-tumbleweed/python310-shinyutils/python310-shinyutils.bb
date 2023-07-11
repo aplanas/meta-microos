@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "3.1.0"
 
-RPM_NAME = "python310-shinyutils-3.1.0-2.9.noarch.rpm"
-RPM_HASH = "1a3d83189193ce92e7cb56b614ae406e8486a4a4b904786984dabc368494227412087b7cdcb0c2fd72d01f3d6aae8dff7328c9320fd894882b2e2196bb9bf4b6"
+RPM_NAME = "python310-shinyutils-3.1.0-2.11.noarch.rpm"
+RPM_HASH = "1b1bc3e3c1813ea35a403ac0140f70e8cf1e8181b2ffb3d6d689bd32ed1029c6b99949313e9156c81f5c195de6cb78006faf06c5eb28a71bcf4843e274a01f8a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-shinyutils \
-python3.10dist-shinyutils \
+RPROVIDES:${PN} += "python3.10dist-shinyutils \
 python310-shinyutils \
 python3dist-shinyutils"
 

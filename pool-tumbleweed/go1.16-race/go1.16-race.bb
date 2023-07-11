@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.16.15"
 
-RPM_NAME = "go1.16-race-1.16.15-6.1.aarch64.rpm"
-RPM_HASH = "395fb9047d4bc862154e41d6fbd5a73d922a0015ed1ebc4c4db1ca8dcaf81e5f99ba8b03d540a01e1579307b33e0d0a4a08b93ad1f95d896d324abaea4a120fb"
+RPM_NAME = "go1.16-race-1.16.15-6.2.aarch64.rpm"
+RPM_HASH = "0f908528c6e3ff5fe208b5dd85000f2f18fef869a3659da2c407dd62ad38e4ffd5a0374cf27d46fa4245dfebe39aa4d58a7a251ba21d82acc8ab96903de79aad"
 
 RPROVIDES:${PN} += "go1.16-race"
 

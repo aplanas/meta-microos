@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-only | GPL-3.0-only | SUSE-SIP"
 
 PV = "6.7.9"
 
-RPM_NAME = "python39-sip6-devel-6.7.9-2.1.aarch64.rpm"
-RPM_HASH = "aff0878f7f98d4287f78d5c61f2d83855a29e672e99003395a348826607c8b128f3677d951fc232ee0650785114d409d74e7bee76d53f5f078ce2df710eb7ee3"
+RPM_NAME = "python39-sip6-devel-6.7.9-2.3.aarch64.rpm"
+RPM_HASH = "705a526b7de606f95303bc401af2a43c565d2b641a61c02e4c186b7a83b0266db422f1bcb926d1656089d1ce63155196fdd1b6f488d5d2b7d09056809f8a7227"
 
 RPROVIDES:${PN} += "python3.9dist-sip \
 python39-sip-devel \

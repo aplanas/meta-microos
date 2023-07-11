@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "8.2.0"
 
-RPM_NAME = "python310-natsort-8.2.0-1.4.noarch.rpm"
-RPM_HASH = "0427a0bd8aa906bf1f894576184b206f6db89504d60e1c3dcb836dc92c4bed1a863b6ac0f857cefcbf5239871cd083e35c9b011cfe1b0060a555c1577692fab9"
+RPM_NAME = "python310-natsort-8.2.0-2.3.noarch.rpm"
+RPM_HASH = "76cb501b1908f035356fdb2ad541d8e3b689a1443bda9748210bfff2f174bd215758a2f9ed6611109739cb3d80045f726285c3df056c27eaf64d0954e5150902"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-natsort \
-python3.10dist-natsort \
+RPROVIDES:${PN} += "python3.10dist-natsort \
 python310-natsort \
 python3dist-natsort"
 

@@ -16,13 +16,13 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "1.4"
 
-RPM_NAME = "perl-Class-XPath-1.4-161.26.noarch.rpm"
-RPM_HASH = "b01ce1cb76141524c5f306a2a0da3ba52ff17e82076657292d7c44f4d058397460f4575b15012642b1c14ab887bce67879f7428f29b90875b436d5370b9ea042"
+RPM_NAME = "perl-Class-XPath-1.4-161.27.noarch.rpm"
+RPM_HASH = "25ab1a059dd2c11bdd84278fa81b2a9c9e91d59ee889bc6645d1268cfe37e4cfd7ad8b4e0237898999d52f15d66eb05615318e4c7c05f325f7a7c3d2fa84990d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Class--XPath \
 perl-Class-XPath"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

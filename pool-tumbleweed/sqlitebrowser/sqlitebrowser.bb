@@ -18,8 +18,8 @@ LICENSE = "GPL-3.0-or-later & MPL-2.0"
 
 PV = "3.12.2"
 
-RPM_NAME = "sqlitebrowser-3.12.2-2.11.aarch64.rpm"
-RPM_HASH = "2a3087e432784b88d2cd662601e156d0dc1ecd551304f6ece65ceda413b1ad29dd701acceff7343cb8a48d9a989a322c1e016978c620a3d0226d13d8eac64caf"
+RPM_NAME = "sqlitebrowser-3.12.2-2.12.aarch64.rpm"
+RPM_HASH = "29b77c4490a4106465b88dedfca85ce797a757ef9a13909effde28a42572f4c4ba49c8fb7f250221e724cd366af458d0f65595d9a62c53b8872d1f7411ba2924"
 
 RPROVIDES:${PN} += "sqlitebrowser"
 

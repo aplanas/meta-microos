@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "2.9.9"
 
-RPM_NAME = "fuse-devel-2.9.9-6.3.aarch64.rpm"
-RPM_HASH = "4aa1610b8a3fd9228acf81d184fbb551dfccaa7af2801ea9f447af10853a21d62d955ac169b80c24002793e2261bfaecee94c406e1e0e63e23805d0894765052"
+RPM_NAME = "fuse-devel-2.9.9-6.4.aarch64.rpm"
+RPM_HASH = "08fc83e934afe2959f7b7dfaab68da426c2576cd94e000b555cbd9d8ad78d5d6ec16e68117a7a732ec095a74f0f3d8cb9c0c0fa1bc296975c6c6b4c899a09385"
 
 RPROVIDES:${PN} += "fuse-devel \
 pkgconfig-fuse"

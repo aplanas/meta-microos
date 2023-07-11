@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.21+git0"
 
-RPM_NAME = "microos-devel-tools-2.21+git0-1.1.aarch64.rpm"
-RPM_HASH = "7a4bc9c09fa8eb042821023ce45e8019418c1a0580eede598a6ef5af04c6146ba2bbe310e23b19c7122898276a900b8d8eef06a73864a25199336178ec20f39b"
+RPM_NAME = "microos-devel-tools-2.21+git0-2.1.aarch64.rpm"
+RPM_HASH = "c0824b7a0530ca047380bb95d49f43b21aa795d7f5ac861d9efac8cbc421b80bfb4084db0c430de7c337708608efd5f05fbfd78ef1d7eb1fcf7705521ea05547"
 
 RPROVIDES:${PN} += "microos-devel-tools"
 

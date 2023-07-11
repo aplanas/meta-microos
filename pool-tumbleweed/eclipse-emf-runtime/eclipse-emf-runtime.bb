@@ -9,8 +9,8 @@ LICENSE = "EPL-2.0"
 
 PV = "2.22.0"
 
-RPM_NAME = "eclipse-emf-runtime-2.22.0-3.5.noarch.rpm"
-RPM_HASH = "ad1c4dece10f6885638475d73c3e76c2219668c1e5291dcecbb3dfaa613851ffeac31a8aa1b36959c80ecc6fdacbec88533b562583393367e2ed23d993e611b8"
+RPM_NAME = "eclipse-emf-runtime-2.22.0-3.6.noarch.rpm"
+RPM_HASH = "daf6991b10e7cef99ab7bad761de559f8829faea91c7d72c24a02bc4d7624bda6f746854c24baa7d62d2f10964498131e17610f3641cba0dc239e9a2fcd59269"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eclipse-emf-runtime \

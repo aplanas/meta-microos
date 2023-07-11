@@ -22,8 +22,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.3"
 
-RPM_NAME = "ghc-filepattern-0.1.3-2.4.aarch64.rpm"
-RPM_HASH = "659debf52aeaaf7666c0db5fec42a858301490fbd5a094ca79c5f57d9d05e4a2440f4eef047445ed15ef700a053d62c11b61b1ffb86b5c519c9a3d0fba92f470"
+RPM_NAME = "ghc-filepattern-0.1.3-2.7.aarch64.rpm"
+RPM_HASH = "07a689ff5656f3990025d1712f77e3df63383b33cbb42677f8349c697bc8fab767f804cd28758ebed5d77b130b21e17c94aab2545c0da3d0c8d965a908a33818"
 
 RPROVIDES:${PN} += "ghc-filepattern \
 libHSfilepattern-0.1.3-CFBsL0RN2YG3tR2tZTKdgo-ghc9.4.5.so"

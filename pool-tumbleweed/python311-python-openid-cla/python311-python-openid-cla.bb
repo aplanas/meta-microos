@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2"
 
-RPM_NAME = "python311-python-openid-cla-1.2-1.18.noarch.rpm"
-RPM_HASH = "0ccde4872094dec7d1227df2e5733b3ac72f4ea2f77c55ae7a84fed61e0e756ae123a3d56e6aba1d2086fccb22daf965491125debd778b663eb1ae6256a71e44"
+RPM_NAME = "python311-python-openid-cla-1.2-1.19.noarch.rpm"
+RPM_HASH = "acda0ffb03f9ed253b58925bcce2db9ca7887a68ed8952462e8b69a5cedd83c7609999b9e4d5fc3e130b692169036638a0d0d24ed8b7cb787b7e503c3abacdc8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-python-openid-cla \
+RPROVIDES:${PN} += "python3-python-openid-cla \
+python3.11dist-python-openid-cla \
 python311-python-openid-cla \
 python3dist-python-openid-cla"
 

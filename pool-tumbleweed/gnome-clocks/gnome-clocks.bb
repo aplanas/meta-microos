@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "gnome-clocks-44.0-1.1.aarch64.rpm"
-RPM_HASH = "148f94b54ecb91df3f04f3c1cf9ddaf111d1d8f6df98e2bf57e662b075796857ad63a56a6ad43af2b5d345f1137c6d9e4716f645887563fda3ff2fee61acae4f"
+RPM_NAME = "gnome-clocks-44.0-1.2.aarch64.rpm"
+RPM_HASH = "03fe379606b47f0eeecc1e9641f6f2633dbb0f9e726537aa2efb296c833d7113c7b5327f00f4639132e0a5df8136d90ee521cac5ce7bc9a5d2f643086d437828"
 
 RPROVIDES:${PN} += "gnome-clocks"
 

@@ -10,8 +10,8 @@ LICENSE = "CECILL-C"
 
 PV = "5.3.5"
 
-RPM_NAME = "libmumps_5_3_5-gnu-mpich-hpc-5.3.5-3.3.aarch64.rpm"
-RPM_HASH = "d53a260dae2bcddfcfbe6971e0e2c8ab46173120efd1d1deab260709d5de707704952bc6fd82c365db68bb7425add7557b13aad30ed73cd620bfdc7cd9c41e57"
+RPM_NAME = "libmumps_5_3_5-gnu-mpich-hpc-5.3.5-3.4.aarch64.rpm"
+RPM_HASH = "b4833e1f034d2ad99a898a812e1160fdda3c89e61106cfc1344ec28cdc4ca1dbcf355b13de26e4ff6a9fb40a0c2bb8460bec578bea54b7c594ff3cc16d2a6290"
 
 RPROVIDES:${PN} += "libmumps-5-3-5-gnu-mpich-hpc"
 

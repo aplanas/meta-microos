@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "5.2.5"
 
-RPM_NAME = "pcp-pmda-openmetrics-5.2.5-3.4.aarch64.rpm"
-RPM_HASH = "36552729ed11b602c4c07848aae3d069776970d348d55fa05c8d7f77665a908abc893634699690f5903718ecac3dfa2c2e86a9a4569c6efe7551d99b6a8a5d5e"
+RPM_NAME = "pcp-pmda-openmetrics-5.2.5-3.7.aarch64.rpm"
+RPM_HASH = "531826efc96536f674af07b8942a9e9a26c3803a20f3a729e785f0ad8e75515a59678e877c35a86e3f62f308d588e8de338d2e126c98d9fbdf0a23f40e298f1d"
 
 RPROVIDES:${PN} += "config-pcp-pmda-openmetrics \
 pcp-pmda-openmetrics \

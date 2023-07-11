@@ -9,10 +9,10 @@ navigating through the file. These features are meant to allow the user to \
 quickly and efficiently focus on problems."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.11.1"
+PV = "0.11.2"
 
-RPM_NAME = "lnav-0.11.1-2.1.aarch64.rpm"
-RPM_HASH = "30e016b70aff636343ced6d37ccad9ed760160d629fbcbaba05605509f0b2aedf16feca87d9ec561f6c2fbde432f57225ca12f457e5ea3ed577c58b99b577e21"
+RPM_NAME = "lnav-0.11.2-1.1.aarch64.rpm"
+RPM_HASH = "38eceb55283ead52305238134b61819cd3436efb60b47c614f6c6460758d3e6025532f7993fd635309f0f1ac8fdcef576a33d7dcd0942f4c5b50e05c2f1f8ebe"
 
 RPROVIDES:${PN} += "lnav"
 

@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.6.4"
 
-RPM_NAME = "nemo-devel-5.6.4-1.2.aarch64.rpm"
-RPM_HASH = "c2b759b935ce1e8114c1066cdb08e8f88a4566f9a85be3b072273ed6230ffb173e7c13fd1821120c2600c59bae7fe84fce9580aacfa85203393f82704917e05a"
+RPM_NAME = "nemo-devel-5.6.4-1.3.aarch64.rpm"
+RPM_HASH = "ecbb8b3ceaff40faa2efe724c9c9db0d4e8f91701b67bbfeedbbde578edc9a8d23ac4018c7402a0ca9bc3e71d6b6ae1a6363217bcf0861189079eb0bc05b2859"
 
 RPROVIDES:${PN} += "nemo-devel \
 pkgconfig-libnemo-extension"

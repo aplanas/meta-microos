@@ -6,8 +6,8 @@ LICENSE = "X11"
 
 PV = "1.1.1"
 
-RPM_NAME = "xclock-1.1.1-1.6.aarch64.rpm"
-RPM_HASH = "766746f9d3b015a6c0f6cd9c93378f8917c63cab023cffa0b2b7b9a7df8f828dd06378bd99cd659bab740c5fdd2f224ed93143d110ac2983b95e0b863d8f3049"
+RPM_NAME = "xclock-1.1.1-1.7.aarch64.rpm"
+RPM_HASH = "1f9521abee0bc68e94608d70d246d2a48a9fb01300eeb99ceabd0dd7efef2cc3218ccafc54f33dfeb9820900b08014825dbb2167d25d289b4418d31cfed8359a"
 
 RPROVIDES:${PN} += "xclock"
 

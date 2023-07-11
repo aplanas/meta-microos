@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.5.1"
 
-RPM_NAME = "libchromaprint-devel-1.5.1-4.1.aarch64.rpm"
-RPM_HASH = "656e510b921ac1ba12ca87da59c752ea7bdebc868949789cd7f310227baef593b48dd9dd6273bde29bd91ee0ae6ef7584bde34a7cf3286705ef15847255c5b80"
+RPM_NAME = "libchromaprint-devel-1.5.1-4.2.aarch64.rpm"
+RPM_HASH = "398a3da38e6fd27f43a59c7aa8c88d945b0f64d7c587e584d8219c1af4bb18fa3c0317edeb911d43c63f45188e246be394b6bd17fe4d0e69e2803ea8bf065478"
 
 RPROVIDES:${PN} += "libchromaprint-devel \
 pkgconfig-libchromaprint"

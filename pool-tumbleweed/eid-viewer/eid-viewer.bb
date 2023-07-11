@@ -9,10 +9,10 @@ checks whether it was signed by a government-issued key, and optionally \
 checks the certificate against the government's Trust Service."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "5.1.4"
+PV = "5.1.11"
 
-RPM_NAME = "eid-viewer-5.1.4-1.4.aarch64.rpm"
-RPM_HASH = "d44196cb1d796b795258f0df32f4bf0cee4afe834afad3f705b47e9f849d46ef499ad0dd2c06b01b196765c161f83b87422445d3b409abc08e8503254aaf3cf0"
+RPM_NAME = "eid-viewer-5.1.11-1.1.aarch64.rpm"
+RPM_HASH = "baa8ff3b06b627e6b0fdb96fb0a2dd914e7b798ff958a3bd655faa1ffbf227e538f471ec1220120f1af1bd6e39a9c27226e735b52344fe32b7c99ccca24e7163"
 
 RPROVIDES:${PN} += "eid-viewer"
 

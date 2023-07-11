@@ -2,10 +2,10 @@ SUMMARY = "GNOME Software Store"
 DESCRIPTION = "AppStore like management of Applications for your GNOME Desktop."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.2"
+PV = "44.3"
 
-RPM_NAME = "gnome-software-44.2-1.1.aarch64.rpm"
-RPM_HASH = "4ab88091a8fe3a6b94ff95090d90c56a59340b052dc94b759aefc5065fe02641f8a513e45df919725573d523251fff77cd047a3abe493df0e07cf4c08fb697a7"
+RPM_NAME = "gnome-software-44.3-1.1.aarch64.rpm"
+RPM_HASH = "afde69863f90cfa9001460f0b62d0ed33bf0bed9be788bc09700dca26da83388e53a8caa5af562e6da0004bbca10e862ad96a2b63383407d04837092a4a4545a"
 
 RPROVIDES:${PN} += "gnome-software \
 libgnomesoftware.so.20 \

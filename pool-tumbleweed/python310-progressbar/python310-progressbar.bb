@@ -6,12 +6,11 @@ LICENSE = "LGPL-2.1-or-later | BSD-3-Clause"
 
 PV = "2.5"
 
-RPM_NAME = "python310-progressbar-2.5-2.17.noarch.rpm"
-RPM_HASH = "515c4500f6ecffdd42d5fe72b086cb6a72941ebb2c6cf1622a572dc86576ff34390d8d5623456af9881af333a604354f0998132da28a99d6b22c7a6032e24ae6"
+RPM_NAME = "python310-progressbar-2.5-3.1.noarch.rpm"
+RPM_HASH = "043ee3bc018110f5d804beccf2687b08fb202df4771beefa37c36a87866aa200cd67d0ca0c26b04e8dfa0d57f91d8e6b5a678ca50f4715cb18195400e5c748cf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-progressbar \
-python3.10dist-progressbar \
+RPROVIDES:${PN} += "python3.10dist-progressbar \
 python310-progressbar \
 python3dist-progressbar"
 

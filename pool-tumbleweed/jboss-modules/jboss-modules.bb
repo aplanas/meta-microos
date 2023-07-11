@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & xpp"
 
 PV = "1.5.2"
 
-RPM_NAME = "jboss-modules-1.5.2-1.20.noarch.rpm"
-RPM_HASH = "06c3c1433c9ecacf4a1fb7062b5437b29420690f8340abbf8f010b207dbd93ca09844af75a3d523c47defaf0e8e0de607785afb58c6292d7cd5f6c270104bd00"
+RPM_NAME = "jboss-modules-1.5.2-1.21.noarch.rpm"
+RPM_HASH = "033aea62dbff86334e130d4125eb1f294cd7da5e56e39de4e721877669785b3787877717736ad46ebdcda28df988c0a3a3e691f5efb9bfe98dbb38ec24777cf4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jboss-modules \

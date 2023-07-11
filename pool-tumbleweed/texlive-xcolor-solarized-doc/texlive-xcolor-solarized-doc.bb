@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.4svn61719"
 
-RPM_NAME = "texlive-xcolor-solarized-doc-2023.201.0.0.4svn61719-52.1.noarch.rpm"
-RPM_HASH = "c2e29713e1bf2631e9f7ade8c7d240335978500d693a27844dfccc7bb0415b3428f494744fe9e527098f67cb85a0122db0617ef79f6f3d196c0a84ae97d09506"
+RPM_NAME = "texlive-xcolor-solarized-doc-2023.201.0.0.4svn61719-52.2.noarch.rpm"
+RPM_HASH = "e6118e0c7708a40f82a9f4c0a9ab52ce9c5bb7815d16a324e29b0bfaea444aae806fc8371220d64bdc2af828e0aadba3446d63e85460b2b77ffc924c60f50cd6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xcolor-solarized-doc"

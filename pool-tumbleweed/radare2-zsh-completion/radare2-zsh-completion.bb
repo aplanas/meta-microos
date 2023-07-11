@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only & LGPL-3.0-only"
 
 PV = "5.8.6"
 
-RPM_NAME = "radare2-zsh-completion-5.8.6-1.1.noarch.rpm"
-RPM_HASH = "cf8f4351d5923e086f8296c38a2daa22ca1cbd182b4f37414a3077d8abd0ce501ab5eb7a5d3297464e32317c1e2abca40890cb3638f8232528697fefa79258b2"
+RPM_NAME = "radare2-zsh-completion-5.8.6-1.2.noarch.rpm"
+RPM_HASH = "532d778f1d8372339096b804a6ef65124587f84847b614adac9f39f3e30559ea5bc594a785d8969d314587bdca00e890c4da24b60525a6a23e2fd0f1ee96e30e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "radare2-zsh-completion"

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.4"
 
-RPM_NAME = "libffcall0-2.4-2.7.aarch64.rpm"
-RPM_HASH = "ca8a51eafff6329c70c120bde566ed6caca20d3e7752a7dc056aa1e86755b63238492b441c58e3fee48a7d3d90aad378f26f5636e46fbe1b614646b9a1c2f958"
+RPM_NAME = "libffcall0-2.4-2.8.aarch64.rpm"
+RPM_HASH = "5b451cb1acbea565fcb51cfaad9d040e43016e6883f7c3332d4da351c3fe4f7ddf1f24782b075bf28f9b46b37439cc1a952026565ce7450587462eb7dafe93a4"
 
 RPROVIDES:${PN} += "libffcall.so.0 \
 libffcall0"

@@ -6,12 +6,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.0"
 
-RPM_NAME = "python310-pooch-1.3.0-2.8.noarch.rpm"
-RPM_HASH = "c1ad9012c1d58673d59334f6bebe6b5ca1615dde4c84117203fed5bfc65d5d095470bc44df210107b8b1c72db119fed77d17f7ea5019e8c5210ea9da17c299d7"
+RPM_NAME = "python310-pooch-1.3.0-3.1.noarch.rpm"
+RPM_HASH = "a0080d8552acaa5b10ce91652e43ac717dce562ccd2a684d20318f3835d86923c095952aeccde5ce866ed0dd85b72c12e7aa822b67d80309f7be099c15bbe98b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pooch \
-python3.10dist-pooch \
+RPROVIDES:${PN} += "python3.10dist-pooch \
 python310-pooch \
 python3dist-pooch"
 

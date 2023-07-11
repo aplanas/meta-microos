@@ -4,10 +4,11 @@ LICENSE = "MIT"
 
 PV = "2.1.1"
 
-RPM_NAME = "python311-misaka-2.1.1-2.17.aarch64.rpm"
-RPM_HASH = "c483774206250c8b431fe094831c82d2765cd1e5bd254bb22fd09bf0a37dbb8b501fede460f41f3054fbe7c7795eeb4651e214338c4ac63f0145b42010a1b5c8"
+RPM_NAME = "python311-misaka-2.1.1-2.19.aarch64.rpm"
+RPM_HASH = "59ee8ef254112b494e7049033b93723a0bbfee5dc635f65bbf652d85aedcde6a5bfe3112d8c1efcc3667830f74e56181c4ea1d18a426ecf24c4d3c23dc919422"
 
-RPROVIDES:${PN} += "python3.11dist-misaka \
+RPROVIDES:${PN} += "python3-misaka \
+python3.11dist-misaka \
 python311-misaka \
 python3dist-misaka"
 

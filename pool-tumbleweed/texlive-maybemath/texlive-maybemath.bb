@@ -13,10 +13,10 @@ expression will be italicised if the surrounding text is. \
 if the expression is italicised."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.208.svn15878"
 
-RPM_NAME = "texlive-maybemath-2023.201.svn15878-52.1.noarch.rpm"
-RPM_HASH = "d3d924716c1e9e16ee43d287634f89fb818c857d0dd4bfcfc2bbb1725545c132a424f49f5a0ff41d1e7f18bca64534b465d93a26c11237df2fdbc323b79a3590"
+RPM_NAME = "texlive-maybemath-2023.208.svn15878-53.1.noarch.rpm"
+RPM_HASH = "19418ff0a9c535af7ec834417c38b0c9ae0286de8b186b97f394eb74ab835a8fa70d57b893be5f19521d64f7b952f8884728637ad21a06fab4487d67d6333c0a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-maybemath.sty \

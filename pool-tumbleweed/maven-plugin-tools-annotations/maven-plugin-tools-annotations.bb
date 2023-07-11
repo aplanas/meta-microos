@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.6.0"
 
-RPM_NAME = "maven-plugin-tools-annotations-3.6.0-5.1.noarch.rpm"
-RPM_HASH = "ee945b46e7f4554b06a57b383278b39777cc91e8c7e27c14a51e497ede7db886168092d53224a7dc617da4cd693f95072a2a66b2ed77d550bce19646fee51e07"
+RPM_NAME = "maven-plugin-tools-annotations-3.6.0-5.2.noarch.rpm"
+RPM_HASH = "c3baf49067554f4830b4625b1ea8fecb55508dae8f696de5226f2677a3bf8a49255b713f3a2f5cd88c64412b78232035c91ceb41c707dd00617d207c792d799c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-plugin-tools-annotations \

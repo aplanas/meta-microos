@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.4.0"
 
-RPM_NAME = "icecream-1.4.0-2.5.aarch64.rpm"
-RPM_HASH = "cc134ecefd821d22a9b770421a806d70322af2374de4dd260d495998ffc42a6f4fc6ebd8eb0040f280e7757fd1ad1b4476fb6a691b188b3a9d9d7c6fcbe5d2da"
+RPM_NAME = "icecream-1.4.0-2.6.aarch64.rpm"
+RPM_HASH = "184ce01d2441a51c279ad564b4e91f441beaa432fd70294dcb8b62bc050a163e220a1805d16ca11f1fa7f52016bcca896856edd299a3d5752486baefe4da3fd0"
 
 RPROVIDES:${PN} += "config-icecream \
 icecream"

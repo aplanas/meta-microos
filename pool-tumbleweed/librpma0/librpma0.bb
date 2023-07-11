@@ -11,8 +11,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2.0"
 
-RPM_NAME = "librpma0-1.2.0-1.1.aarch64.rpm"
-RPM_HASH = "9421f5e2ab1a3ee44bf80977b6e2c89af1dcf896b09361043be843b276d884e2778897f65b8e776037f3d99d5893ffab1b3edc20fbe3e2176a56b67f837ea189"
+RPM_NAME = "librpma0-1.2.0-1.2.aarch64.rpm"
+RPM_HASH = "6772125b7a2875e779fe8e8dd7cdad21de6e732beab6bc9d57b4837531db8ae3bf6bb8eadd5779fcce95ebe2ad1c5aed1ff004d99674304c17e07adbb8f433a9"
 
 RPROVIDES:${PN} += "librpma.so.0 \
 librpma0"

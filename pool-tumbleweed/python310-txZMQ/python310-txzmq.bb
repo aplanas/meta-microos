@@ -5,12 +5,11 @@ LICENSE = "MPL-2.0"
 
 PV = "1.0.0"
 
-RPM_NAME = "python310-txZMQ-1.0.0-1.3.noarch.rpm"
-RPM_HASH = "d52306a0a84c955d24efbdd4db7259bf70ca6eeede69c0a10dcc6c157849c182d61782bfe34e10756c7a732ec8284e9b18029e9b48a943b33bb4d6c050907c74"
+RPM_NAME = "python310-txZMQ-1.0.0-1.4.noarch.rpm"
+RPM_HASH = "fe53706f182e94c4e48cd1e71433b015fb50da3eab50f35a8f417c491e1f969c849a7571a6023608373ff5f80bd94dbed74c275524832171073047398bf9e61e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-txZMQ \
-python3.10dist-txzmq \
+RPROVIDES:${PN} += "python3.10dist-txzmq \
 python310-txZMQ \
 python3dist-txzmq"
 

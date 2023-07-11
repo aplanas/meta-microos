@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.9"
 
-RPM_NAME = "ghc-unix-time-prof-0.4.9-1.3.aarch64.rpm"
-RPM_HASH = "809808c287d09d667b6a556f997211c5c42685f4be0db19ee6fd612abe8d02d057ee5b10db6ccdcc1306897dfed33b728b0ba2a6402075f52ecd1fbb8157f6c0"
+RPM_NAME = "ghc-unix-time-prof-0.4.9-1.6.aarch64.rpm"
+RPM_HASH = "d5bc3427eaf66b849b45480ef69d725dbad3aa1c8c0949818c8383454dce880b5d04044b3fa308e18c440d5b814266fbb193d01b65ac78d9acbb4da5d95d2c8e"
 
 RPROVIDES:${PN} += "ghc-prof-unix-time-0.4.9-DrdwBL0FLhc5jN9Hujlou0 \
 ghc-unix-time-prof"

@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-only & LGPL-2.1-only"
 
 PV = "2.6.1"
 
-RPM_NAME = "libgensio_python_swig0-2.6.1-1.4.aarch64.rpm"
-RPM_HASH = "8bb1772561a98cc327ee31b4bb5ef31c1f3d6c0aee2815972f3a2d83394cb8ac35899c8fbb9a7b1aa60d1f3724c5da000218f0fe28440499b0b5c1c04329eea6"
+RPM_NAME = "libgensio_python_swig0-2.6.1-1.6.aarch64.rpm"
+RPM_HASH = "a299dea550f5ede48df277cd4c10a3be8e6b1a450ae7f2de1a0978c0a0b2014a882ade9bcb2b7190be5e31af834cdedc5bd31692b47f4f2f32615b32ba186d07"
 
 RPROVIDES:${PN} += "libgensio-python-swig.so.0 \
 libgensio-python-swig0 \
@@ -16,6 +16,6 @@ RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgensioosh.so.0 \
-libpython3.10.so.1.0"
+libpython3.11.so.1.0"
 
 inherit rpm

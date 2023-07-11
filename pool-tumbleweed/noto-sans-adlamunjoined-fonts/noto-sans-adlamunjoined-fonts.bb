@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-adlamunjoined-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "78191c398ff9268d7a18a92be5d5ed729d47c42c7e4ac60b1d678b089d05426aac39533a559251a87c4386de916ab46ccafdda80033b634f1e7caa15b406c48b"
+RPM_NAME = "noto-sans-adlamunjoined-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "32f365445df607adaa2af220c67c7df502bfa73282be63bfb2bb05e8202d95514a9f538147f9d4bccdbabb2cdb5c6498d76b1b7c4e3398ab84b585ab3d727d64"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-adlamunjoined \

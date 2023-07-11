@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-zanabazarsquare-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "6265a30f3b400f9baf83b814055fedb53ae38096fe881b2190b1c98cddc0bbedaa47e546b92740d5c276838621bf0306da549ea33d73c6e9fd19d73e75ef241f"
+RPM_NAME = "noto-sans-zanabazarsquare-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "33b6a5355c905fcecd0366d0fd12dfb58652271dbcb19fcdab76475951b4d5f148766fa3b5664ab73b720ff26da3cb0a7f3c6246b7a139c1e83de20662d3d9fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-zanabazarsquare \

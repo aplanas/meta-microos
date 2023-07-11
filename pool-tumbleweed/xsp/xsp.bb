@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "4.7.1"
 
-RPM_NAME = "xsp-4.7.1-1.16.aarch64.rpm"
-RPM_HASH = "54c2f01cc2490dfa9675024c3bee942fa5fb83e43563feefa57328640255ed6069ecb86f0e635428cfaeeedb78c746ec8fd0ea993734f53082f7d43435bb74ec"
+RPM_NAME = "xsp-4.7.1-1.17.aarch64.rpm"
+RPM_HASH = "d6ff1ea67eb6eb43045e08c6292a9161dfa926968905d122ced2345af08fb7f85ffffbf80e6499a96118dffbc5b4c58b747c94914f6ece59ecaaff5410733df7"
 
 RPROVIDES:${PN} += "config-xsp \
 mono-Mono.WebServer2 \

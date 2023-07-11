@@ -13,8 +13,8 @@ LICENSE = "SUSE-Repoze"
 
 PV = "2.4.1"
 
-RPM_NAME = "python39-repoze.who-2.4.1-1.3.noarch.rpm"
-RPM_HASH = "1a598e0e6fd87c987b8ce967e28bd53046e4e019e0a43c09c1947fd584641bd6c5a89869e4a88b39056d4718adc45355f51ae91d54d6e9f4a1cda7f794aae3cc"
+RPM_NAME = "python39-repoze.who-2.4.1-2.3.noarch.rpm"
+RPM_HASH = "b30066ba9c3d0b681ba3248f39c9db49509912bc56070e5e4fcb9b0674ac31d90c2ef0275cffb97b37346209faf0a44710a22d846fd72544428722341c0615a4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-repoze.who \

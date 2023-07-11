@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-serif-toto-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "b293cd5b47f83407d760e13f59a707f18ec53dbd430fba86e7c64805cbc730b7833c47a2e43344f2cbedbb292a31c5f29eae6f6fc846ee673fb954350566f61b"
+RPM_NAME = "noto-serif-toto-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "17bae10fbe3eec2cef2d7369a32572d9d7cde55047a5cd583bcc7704eb353ad1b0b96ee3fe6eff5cd0b92883767bba24603bdfe5197c6d01d819ca9eb3f920ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-serif-toto \

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.4.1"
 
-RPM_NAME = "onboard-lang-1.4.1-7.6.noarch.rpm"
-RPM_HASH = "f28d6eb3ae58a7934cbdfee73301dc360ca3d25b384257af97563eabe23e362ea7d057d7815b9045ba353147f6336eec0e55a9150cf81f358b771f388d782af9"
+RPM_NAME = "onboard-lang-1.4.1-7.7.noarch.rpm"
+RPM_HASH = "19d71e92f3350dc5f25c0c8cb8106088c46344ce43ce8ba8f4623ca92e16f8267b8d025a174e1009f2239a1e4b7ca2dcf53e755aa11493fc49b2ab64910fff2f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-onboard-af \

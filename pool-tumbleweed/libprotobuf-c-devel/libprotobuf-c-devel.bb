@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.1"
 
-RPM_NAME = "libprotobuf-c-devel-1.4.1-4.1.aarch64.rpm"
-RPM_HASH = "53e43d9fbb55fbbcd5bc69a3534280c932e878a9357b95d5b6ec4c50a7de20c40e13c8c31cd95b8f8bef4fe09cbe6e3ed86372bbb2f100cbf4a145683c624e9b"
+RPM_NAME = "libprotobuf-c-devel-1.4.1-5.1.aarch64.rpm"
+RPM_HASH = "4c0f65c30e3d1eb60dd8ecf8a655f60cfac9b6d06d0fd355611a987e5d55fc23edd39fbe27769a7bc75e348d1ce3425c6990deb6fe7220a704531b3a733c69b1"
 
 RPROVIDES:${PN} += "libprotobuf-c-devel \
 pkgconfig-libprotobuf-c \

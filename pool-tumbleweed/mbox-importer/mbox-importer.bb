@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains a tool that can be used to import mbox arch
 into akonadi."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "mbox-importer-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "9f7b7e5e888fba305ad4d0f403dc140e3aaf5f35412dbaa601ef7155dc5d716574304f210fae7f80fe399e175ad123b2398fb4037a11ae2fa40913bd2f506f7f"
+RPM_NAME = "mbox-importer-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "c18154634cea646b06dd7881113f6e1ac3fa1bdbf21d519dc1c412317d55ee8bd089ff4525f7be1214e1ae102d82aa670e691307d94a4a9f3b110ea013a07ef4"
 
 RPROVIDES:${PN} += "mbox-importer"
 

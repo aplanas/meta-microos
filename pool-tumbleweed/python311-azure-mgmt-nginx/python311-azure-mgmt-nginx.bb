@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "2.1.0"
 
-RPM_NAME = "python311-azure-mgmt-nginx-2.1.0-1.2.noarch.rpm"
-RPM_HASH = "eb61a01fb81086694744f17de9f90c22153a8ef93f980ec6459bfaf4408e352ef90fc31de0f85cd473a19fde9b0338fec39ac5356451526d816e2cc446b29818"
+RPM_NAME = "python311-azure-mgmt-nginx-2.1.0-1.3.noarch.rpm"
+RPM_HASH = "f0087cdc6a0f5abab110371e52c120dbeca718198d9b624d1ee501d317d944689072e6c87cd196cde83f3962658d940924054686ac5283224dca478754276414"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-nginx \
+RPROVIDES:${PN} += "python3-azure-mgmt-nginx \
+python3.11dist-azure-mgmt-nginx \
 python311-azure-mgmt-nginx \
 python3dist-azure-mgmt-nginx"
 

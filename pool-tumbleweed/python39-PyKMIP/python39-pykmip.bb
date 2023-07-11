@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.10.0"
 
-RPM_NAME = "python39-PyKMIP-0.10.0-7.3.noarch.rpm"
-RPM_HASH = "41fbae3b93aa363fe96a5973e0020f2c2028ba7a9ad021e684d5b31ad46d849df2b8393b1739928690ca0501bcbb0c9b3487fab28987036c95bca6b1db78007b"
+RPM_NAME = "python39-PyKMIP-0.10.0-7.5.noarch.rpm"
+RPM_HASH = "c1c4b1ecca844bda4ac529679a84bb1c566f7a156e5196d85a9883b56bd16e47b865e6d8943a86d4e47f818c7b75031843210c6f84ea0c1bdedb38fcf69b0162"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pykmip \

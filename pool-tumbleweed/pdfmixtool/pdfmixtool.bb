@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.1.1"
 
-RPM_NAME = "pdfmixtool-1.1.1-2.3.aarch64.rpm"
-RPM_HASH = "2df9ec9cf63acae7cd3e02ca1b0f52fe189c19fd440526264f86eb43f4be26b0b3fc1ca3a3e3124f1598436202c58476fc843a0995ee47fa64d426612c419a75"
+RPM_NAME = "pdfmixtool-1.1.1-2.4.aarch64.rpm"
+RPM_HASH = "c9149d9a9e8ca15e4948510008dea07a3eb2efce7dea0f70014e520e36b83ab289413f1d2760f392c2db4a5a8b3676bf2ac853d8eab91db76981d3cfaede157a"
 
 RPROVIDES:${PN} += "pdfmixtool"
 

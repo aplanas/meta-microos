@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "6.5.4"
 
-RPM_NAME = "python39-notebook-lang-6.5.4-1.1.noarch.rpm"
-RPM_HASH = "ff4f44db6f9a651f156edee84e3290b98429e31c4ad08be7b3664cb2aa82087b57b4a7b323abbab94b27d5d096d99dd2a6e4cc219c1530940a2d0da202e622a8"
+RPM_NAME = "python39-notebook-lang-6.5.4-1.2.noarch.rpm"
+RPM_HASH = "6f34642fd3927df303f15d8ad52bf2ed5345a9258ade90f9e446892727bdf59a026657a484665a8822289989d8a90f7b733a5998a089de49cf9f7999308e3daf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-jupyter-notebook-lang \

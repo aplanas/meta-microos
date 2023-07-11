@@ -4,10 +4,10 @@ rigid body mechanics. Since most of these formulas are long and \
 tedious to write, this package wraps them up in short commands."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.0svn60346"
+PV = "2023.208.1.0svn60346"
 
-RPM_NAME = "texlive-mecaso-2023.201.1.0svn60346-52.1.noarch.rpm"
-RPM_HASH = "3d58fe786b29f6f4fdc2f817f922fba22ff65e76e47ade873f9771a53ff580e5f6370f27d182493750d29088c32cdb87157fb7e8f119a9ba5deb40699b55fd55"
+RPM_NAME = "texlive-mecaso-2023.208.1.0svn60346-53.1.noarch.rpm"
+RPM_HASH = "2499d837d247f7ad1b7ff494709f9da571a24d8529a2c68aeda8410d589a88d21151c5474735815a7116e0407c7a2992ff1a80333aac6f9b1fb96d6200409756"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mecaso.sty \

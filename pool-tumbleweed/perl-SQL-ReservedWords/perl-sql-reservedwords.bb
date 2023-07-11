@@ -4,8 +4,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.8"
 
-RPM_NAME = "perl-SQL-ReservedWords-0.8-5.24.noarch.rpm"
-RPM_HASH = "034b408483c9bbf49047337a3c54ea2821e28bcb3d2bb12b72372da4df9de498403d019ea0cfb9c14bec8498972a02d6b6fd5279c2d3ba606485db91a2713495"
+RPM_NAME = "perl-SQL-ReservedWords-0.8-5.25.noarch.rpm"
+RPM_HASH = "dbda96799e10d6e71f259edf04fcb46d5bc06655450ebf5f0918ad810957e540cf11d45041bffb1e9878bbbe18f8f1f800caba278aa058576e895e2b625b658e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-SQL--ReservedWords \
@@ -20,7 +20,7 @@ perl-SQL--ReservedWords--Sybase \
 perl-SQL-ReservedWords"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-Sub--Exporter"
 
 inherit rpm

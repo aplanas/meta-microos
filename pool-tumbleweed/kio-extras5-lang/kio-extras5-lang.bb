@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kio-extras5"
 DESCRIPTION = "Provides translations for the 'kio-extras5' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kio-extras5-lang-23.04.1-2.1.noarch.rpm"
-RPM_HASH = "31d6b90f0272a3dd046981c333085d75053abef064521109c7fba921f8bae31ce368c2cb7d2983550b5217c768569d4a21f59aaf9026d0566161214b6431281f"
+RPM_NAME = "kio-extras5-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "ed30f7065e58c4794cc99c9ee55f2e3e38253e16553ef77ed07b40a68a84d239a8396ff92e35c7dadbaa569a2fc7ceff74c0cf39d1fc0352b03cb00817b167c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kio-extras5-lang \

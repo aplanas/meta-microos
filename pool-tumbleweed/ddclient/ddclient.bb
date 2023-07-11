@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.10.0"
 
-RPM_NAME = "ddclient-3.10.0-2.1.noarch.rpm"
-RPM_HASH = "9e571cab0a5ad046fd8d5c0a6e8e19a77458e3498940a0a431305ced2df1ac76519ea2961a46adb0f11cbbba5af515b899a476eaf85d764598e101ac6bbb9a07"
+RPM_NAME = "ddclient-3.10.0-2.2.noarch.rpm"
+RPM_HASH = "c22a9d3ecbaf9d8471878bb8f23b3ae2e8daf3915b29cda200945b0d81872db177050b07102d9f1f3c4d7d1fa820009d7a68b2ad4b24e434600c354c7ecbcc8b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-ddclient \

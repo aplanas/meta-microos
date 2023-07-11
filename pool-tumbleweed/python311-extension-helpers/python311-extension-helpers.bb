@@ -11,11 +11,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.0"
 
-RPM_NAME = "python311-extension-helpers-1.0.0-1.10.noarch.rpm"
-RPM_HASH = "429a1729c7160d6b383614618e471517ce45caa77a3738033ab18e1da7902649257e9dec6034400510c7f1027766a015b765618a40f3a870adc6791ea621891f"
+RPM_NAME = "python311-extension-helpers-1.0.0-1.12.noarch.rpm"
+RPM_HASH = "2c25413ee3e4f9e148f5926cf8b2bfd6d9683314b6ca05483ac945c93d45ef83530631f1b247b91d5e21c1fe2cae33afec2fbb2aa97b3007dcf7d93649798c5e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-extension-helpers \
+RPROVIDES:${PN} += "python3-extension-helpers \
+python3.11dist-extension-helpers \
 python311-extension-helpers \
 python3dist-extension-helpers"
 

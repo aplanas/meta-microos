@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.13"
 
-RPM_NAME = "python39-pygeos-0.13-1.5.aarch64.rpm"
-RPM_HASH = "89648502cceeefcb68173f0d3d305478677e13128aedf5bab0bb15cbdacf0393739efb32c3f1576d10cc5c78bdf6aa725fbd7f319a21070711c9bc14d5de05b9"
+RPM_NAME = "python39-pygeos-0.13-1.7.aarch64.rpm"
+RPM_HASH = "ec40715a07e10d0a0c06ba544890fb7d0516d08522f8367f599a30dd5e7b8923101eda202b4dfc19500703e962f17caf02b164b7496a8ac117bdf67947cfa273"
 
 RPROVIDES:${PN} += "lib.cpython-39-aarch64-linux-gnu.so \
 python3.9dist-pygeos \

@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.1.1"
 
-RPM_NAME = "python310-pook-1.1.1-1.3.noarch.rpm"
-RPM_HASH = "59c2ad11cbd940a686255d16ffc736c26611c102ce42ad94908c1b683e2a8921f778be0bb94ceb4515be4603a9305ef484ab50d49a69cca3e9652bd3d70ffad4"
+RPM_NAME = "python310-pook-1.1.1-1.5.noarch.rpm"
+RPM_HASH = "b1b610efd6a477b97ec90a01923baa3792578e60952eda86a8608fdfba9719fa2cd5ecce8fd01bf48beb41c97c4cb305eb86ebd8f9e853073b2a47e20f0e4bca"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pook \
-python3.10dist-pook \
+RPROVIDES:${PN} += "python3.10dist-pook \
 python310-pook \
 python3dist-pook"
 

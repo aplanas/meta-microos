@@ -5,10 +5,10 @@ per-packet logging for accounting purpose as well as per-flow \
 logging."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.0.7"
+PV = "2.0.8"
 
-RPM_NAME = "ulogd-2.0.7-6.8.aarch64.rpm"
-RPM_HASH = "c51c984412b8f88949c453584aa8c1a3d96c9059a776ce8e3a2e16e0eb5947aeaaefdde183b7b6a096324f9c6ad7cbfc8f6685716b1f843a76f20d7b384ad8f3"
+RPM_NAME = "ulogd-2.0.8-1.1.aarch64.rpm"
+RPM_HASH = "560a04057675399e682883c41fca73bf48d291c4e35243365b25d71beca22cfe78ca1cbaea3d5e0c80f3a2653693508ce96e3063b45c8e60225f3c7c59c40c40"
 
 RPROVIDES:${PN} += "config-ulogd \
 group-ulogd \

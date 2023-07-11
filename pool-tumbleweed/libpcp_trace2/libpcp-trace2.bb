@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "5.2.5"
 
-RPM_NAME = "libpcp_trace2-5.2.5-3.4.aarch64.rpm"
-RPM_HASH = "b97a353c0e9bb5b665c16a606911095f31a870952da25e73e23b1a39b34bdf417bd5dcee59cc8d906b320f5183518a1dd5c47c70ad411c2a64fc81717fd0bc6e"
+RPM_NAME = "libpcp_trace2-5.2.5-3.7.aarch64.rpm"
+RPM_HASH = "8e69c7d39cadb7ae511134e9c430d274dc94cf55f3637de460a58e68724b71a504c10095cabb8d30d6a3df3ff3a7c050466210d7f7d6843636b757c9059df474"
 
 RPROVIDES:${PN} += "libpcp-trace.so.2 \
 libpcp-trace2"

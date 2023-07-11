@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.3.0+git1571036065.9f3952b2"
 
-RPM_NAME = "libvacuumutils37-1.3.0+git1571036065.9f3952b2-1.20.aarch64.rpm"
-RPM_HASH = "546d43af5906777d30e7c20afad53a9859f0205ba0672c7b438ca244c1fcd3b40bb84552c3e79e73b6d83a1a00135e3d45e64c7a349358a4bb1c7a0dc9a29385"
+RPM_NAME = "libvacuumutils37-1.3.0+git1571036065.9f3952b2-1.21.aarch64.rpm"
+RPM_HASH = "f44d3b0edcbcf706dde6e41fdbbf4846bd2bd8be5ba5ffbbf530e0b47327aec8c08f865bf9b20b4aac8def78dad9d09ef2dec7574c23274ff7042c64aae1d274"
 
 RPROVIDES:${PN} += "libvacuumutils.so.37 \
 libvacuumutils37"

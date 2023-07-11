@@ -6,10 +6,10 @@ dynamically with powerful report tools based on filtering and graphical \
 charts."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.6.4"
+PV = "5.6.5"
 
-RPM_NAME = "homebank-5.6.4-1.1.aarch64.rpm"
-RPM_HASH = "218572961c24bd8acc47c69e93d04d9eed05bc644ecc4f63777a8f28482d2829c72b27090494d327dcc7c0ed8d13abd91481aa0698689ea156324c85271a23e0"
+RPM_NAME = "homebank-5.6.5-1.1.aarch64.rpm"
+RPM_HASH = "e8d1405236cbfe21c1cd9a1ffd7561edf0a059a30ff992091162e8b3520daf5920254dfa34e3aa487da2543bd85332e23aa5aa77aa6d50862bfc87135726457a"
 
 RPROVIDES:${PN} += "homebank"
 

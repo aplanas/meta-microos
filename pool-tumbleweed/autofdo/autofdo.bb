@@ -11,8 +11,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.18"
 
-RPM_NAME = "autofdo-0.18-5.6.aarch64.rpm"
-RPM_HASH = "bddeafe335b4263463a930bc3a7c39261085009fffc7717ab75009eb5b096e808d75fcf2fe4ba51e9449041219947526c9276d3d158c8fce411f146d1d13e3db"
+RPM_NAME = "autofdo-0.18-5.7.aarch64.rpm"
+RPM_HASH = "ee8133f9ffc8a5cf248cffe2fd68afe64a71c180b6d1ab7e484454ec26883d05068ffd678c83c3ffad8a60db94f9fc5ec60bc4040be512827faeb41078888061"
 
 RPROVIDES:${PN} += "autofdo"
 

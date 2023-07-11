@@ -8,8 +8,8 @@ LICENSE = "GPL-1.0-or-later & Zlib & MIT"
 
 PV = "1.13.1"
 
-RPM_NAME = "dictd-1.13.1-1.8.aarch64.rpm"
-RPM_HASH = "b254e776a63e184ea9450d8372e5413a10da7fc827fb1066cacd4168eefa36c76f969f6a2b1f6140a9142babeec7175c5b60f426d25e41e53b9ada4ccaff657d"
+RPM_NAME = "dictd-1.13.1-1.9.aarch64.rpm"
+RPM_HASH = "b7cf7922ae762f106b5ca72dd0233c2f0dab17d135692826e112854c622c938f9c27ba71000846290b259816acda4e6965a5e85311b94bdbe629ec7840e3df3c"
 
 RPROVIDES:${PN} += "config-dictd \
 dictd"

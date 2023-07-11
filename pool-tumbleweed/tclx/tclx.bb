@@ -8,10 +8,10 @@ automatically loaded on the first attempt to execute it. \
 In addition, a detailed help system is available for Tcl/Tk: tclhelp."
 LICENSE = "BSD-3-Clause & SUSE-Permissive"
 
-PV = "8.4.4"
+PV = "8.6.2"
 
-RPM_NAME = "tclx-8.4.4-2.2.aarch64.rpm"
-RPM_HASH = "cab0ac1c6a6fccad65247b33b189be44c4dc559d7d091d3e71e362235440b0aecc8f6e00615b8525b0bcad1e4334659280ec9455719026f98763968d0359d0b5"
+RPM_NAME = "tclx-8.6.2-1.1.aarch64.rpm"
+RPM_HASH = "dc1123e95c91f0f26c4d0d82e8195989b6ab38ac8a00e8d80bb332aabfcae5b496319bba7a0bebd45dc3be247d2839e9660607bca579e7d1586c1fb203a169f8"
 
 RPROVIDES:${PN} += "libtclx8.6.so \
 tclx"

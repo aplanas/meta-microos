@@ -18,14 +18,14 @@ Features: \
 * Capture from desktop."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "9.0.0"
+PV = "9.1.1"
 
-RPM_NAME = "webcamoid-9.0.0-3.1.aarch64.rpm"
-RPM_HASH = "e4741f6056b9da2bb08912cafc9c1e407c42661639c25bc3ee0fa3f549b510b8f95909ba1920f900f737b19412662c656ddba466d00a0e0285d0b3e8fe02ed36"
+RPM_NAME = "webcamoid-9.1.1-1.1.aarch64.rpm"
+RPM_HASH = "ff16b63c0842c13ced1ba15ab2d30ac41cd6affdcdcadbd202df2aa6a959eb0b4c1db3fc504b686a28afe8c8b3e48ad2826055a4a920ac42812dda5cc4c466fe"
 
-RPROVIDES:${PN} += "libACapsConvert.so \
-libAdjustHSL.so \
+RPROVIDES:${PN} += "libAdjustHSL.so \
 libAging.so \
+libAnalogTV.so \
 libAspectRatio.so \
 libAudioDevice-pulseaudio.so \
 libAudioDevice.so \
@@ -41,8 +41,10 @@ libColorTap.so \
 libColorTransform.so \
 libContrast.so \
 libConvolve.so \
+libCrop.so \
 libDelayGrab.so \
 libDenoise.so \
+libDesktopCapture-ffmpeg.so \
 libDesktopCapture-pipewire.so \
 libDesktopCapture-qtscreen.so \
 libDesktopCapture.so \
@@ -62,6 +64,7 @@ libGamma.so \
 libGrayScale.so \
 libHalftone.so \
 libHypnotic.so \
+libImageSrc.so \
 libImplode.so \
 libInvert.so \
 libLife.so \
@@ -72,34 +75,36 @@ libMultiSink.so \
 libMultiSrc-ffmpeg.so \
 libMultiSrc-vlc.so \
 libMultiSrc.so \
-libMultiplex.so \
 libNervous.so \
 libNormalize.so \
 libOilPaint.so \
+libOpacity.so \
 libOtsu.so \
 libPhotocopy.so \
 libPixelate.so \
-libPrimariesColors.so \
 libQuark.so \
 libRadioactive.so \
 libRipple.so \
-libScale.so \
+libRotate.so \
+libSaturated.so \
 libScanLines.so \
-libScroll.so \
 libShagadelic.so \
 libSwapRB.so \
 libSwirl.so \
 libTemperature.so \
 libVideoCapture-ffmpeg.so \
-libVideoCapture-generic.so \
+libVideoCapture-qtcamera.so \
 libVideoCapture-v4l2sys.so \
 libVideoCapture-v4lutils.so \
 libVideoCapture.so \
 libVignette.so \
+libVirtualCamera-akvcam.so \
+libVirtualCamera-v4l2lb.so \
 libVirtualCamera.so \
 libWarhol.so \
 libWarp.so \
 libWave.so \
+libZoom.so \
 libavkys.so.9 \
 plasmoid-webcamoid \
 webcamoid"
@@ -109,6 +114,7 @@ ld-linux-aarch64.so.1 \
 libQt5Core.so.5 \
 libQt5DBus.so.5 \
 libQt5Gui.so.5 \
+libQt5Multimedia.so.5 \
 libQt5Network.so.5 \
 libQt5Qml.so.5 \
 libQt5Quick.so.5 \

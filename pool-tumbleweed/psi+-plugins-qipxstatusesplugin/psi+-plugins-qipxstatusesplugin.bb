@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-or-later"
 
 PV = "1.5.1615+0"
 
-RPM_NAME = "psi+-plugins-qipxstatusesplugin-1.5.1615+0-3.1.aarch64.rpm"
-RPM_HASH = "1c4913de4ad60fac12d49f38d72d5007aa8e9f7b67220b686e908088cd73a0e39876141c0fe75cbd651d5ac08f3749d91ceec015e9643024fc48a770d29803bf"
+RPM_NAME = "psi+-plugins-qipxstatusesplugin-1.5.1615+0-3.2.aarch64.rpm"
+RPM_HASH = "70359a919a998700cf77f5af5cb6b4355942557d75ad3bf0656cfb93dd507208e8c7e6554622ca72d7f0f933c5784b88ee11920e8d11f3357ac8239761413b62"
 
 RPROVIDES:${PN} += "libqipxstatusesplugin.so \
 psi+-plugins-qipxstatusesplugin"

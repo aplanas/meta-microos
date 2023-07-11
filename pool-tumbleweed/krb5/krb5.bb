@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.20.1"
 
-RPM_NAME = "krb5-1.20.1-6.1.aarch64.rpm"
-RPM_HASH = "eb15982aecfaa4dac81bee1128dcd80ec1f826ba7cfae78710eea0e42058abe83a8e543668b643effa838b6971f898b7c3fa4abd6e80ca30215a0ac676296db1"
+RPM_NAME = "krb5-1.20.1-6.2.aarch64.rpm"
+RPM_HASH = "ab99de7aae61bb139476db55e935f3db268a0b73b5b5f00a1439b47bf31d68afec3708dc898a1af62c2745abe62141a5c4f8b3ad8d9f29f1173ea25cca249d09"
 
 RPROVIDES:${PN} += "config-krb5 \
 krb5 \

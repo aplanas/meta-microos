@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.2svn56931"
 
-RPM_NAME = "texlive-graphicx-psmin-doc-2023.201.1.2svn56931-53.1.noarch.rpm"
-RPM_HASH = "78ee7696b6f2568fb51a12d4d12599589236017faec390e08c505c131ef84e34a487cc8ff9b12f1bcd2bf097b0c7cc0b8def9854c2fd18af915aebca9f917b32"
+RPM_NAME = "texlive-graphicx-psmin-doc-2023.201.1.2svn56931-53.2.noarch.rpm"
+RPM_HASH = "0a96685dd00489d0a671d6d4223b402d9cd1f80ba62e28b893aeaedf30339c3f86be11fed114d72fe100eef12ddfc9a12b6894995eebdc522b55dcf35c2d1b21"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-graphicx-psmin-doc"

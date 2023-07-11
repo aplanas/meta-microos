@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.1.0"
 
-RPM_NAME = "emf2svg-conv-1.1.0-2.13.aarch64.rpm"
-RPM_HASH = "9c8d4ee232c07dea65fbce9696109bf012f943887cddba4bb0d7eedeab58742c45af062381bdef38fe8bab87b1d770dca28e7b529e292415ed8615bf6903403c"
+RPM_NAME = "emf2svg-conv-1.1.0-2.14.aarch64.rpm"
+RPM_HASH = "526808fcfe948eba3d91a59f8142aa5af2c247d81a21beaf48080e3a148f8e01ba729f1521b79d5dfba7c6a08b7e1ff9456f17a627cbd9a5d96f60aa8bfbce97"
 
 RPROVIDES:${PN} += "emf2svg-conv"
 

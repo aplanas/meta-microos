@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "8.2.1"
 
-RPM_NAME = "grass-devel-8.2.1-1.3.aarch64.rpm"
-RPM_HASH = "3ba177e6f1f6259b1b2f7781fa2bd025b7f874c34bdfdf9987858a5f40c860f621f74d557c9d822bf14c4b2b61c25dfb83ff7824d5c7b2aabb2d9de38d645dec"
+RPM_NAME = "grass-devel-8.2.1-1.4.aarch64.rpm"
+RPM_HASH = "971cf833be80bb20d0dd7dca18904d546e7012c78dcf5122ff95b4e71f3a8319979e744c953159a471a9f437529c362f179348a3356cf3b01ee0afac02c539b3"
 
 RPROVIDES:${PN} += "grass-devel"
 

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4"
 
-RPM_NAME = "gnu-compilers-hpc-macros-devel-1.4-10.2.noarch.rpm"
-RPM_HASH = "3297f63639a8f37810ba06f830304b5423199bd3aac0f090695abd1379dd5967db5ff5c8750f475f413e380d72c042a849b66ece651f5db68469491a094017ba"
+RPM_NAME = "gnu-compilers-hpc-macros-devel-1.4-13.1.noarch.rpm"
+RPM_HASH = "111c6cb9f102488a4c6880a6225ef33a63e09726e267baa461716615720143569d1ff3c972bbdfdc753d71a593b922912e1c915225d945a315bd93040aba4eaa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-gnu-compilers-hpc-macros-devel \

@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "3.0"
 
-RPM_NAME = "python39-PyVirtualDisplay-3.0-2.2.noarch.rpm"
-RPM_HASH = "e6fbbbc5a499eca30c7c40564dc70dd262a16ea2db24cacf469b9e6c325c3de2f478aef962b5c2bcc44624c071aac30620b0278a32bc7e11810117604f919562"
+RPM_NAME = "python39-PyVirtualDisplay-3.0-3.2.noarch.rpm"
+RPM_HASH = "17ad27eeb41888bf8ceb1d7010dbb7ba33a1e98f58f5fd922f5da67ccf7634859637b9d0a3ad496f746ab3a2d32c6b2939a800aa61fd26265e53133961338de9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyvirtualdisplay \

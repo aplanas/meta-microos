@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.0.5"
 
-RPM_NAME = "judy-doc-1.0.5-10.12.noarch.rpm"
-RPM_HASH = "96014624acffe66b6cdc96860ca3e352e4c5367b960603555edf92414919aeae3648759704d1e225d30e523aa453747128cee300576edc7f55392e7355911fb2"
+RPM_NAME = "judy-doc-1.0.5-10.13.noarch.rpm"
+RPM_HASH = "bc7dca9acdfaa8e3b8537397b611ef8832d9751dedadc16bc35cba4cee04a447383a3b443354a59d570b952ed422b796970a16ad9b5bf01087feebf3a2980bed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "judy-doc"

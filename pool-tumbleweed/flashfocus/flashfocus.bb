@@ -4,12 +4,12 @@ LICENSE = "MIT"
 
 PV = "2.3.1"
 
-RPM_NAME = "flashfocus-2.3.1-1.2.noarch.rpm"
-RPM_HASH = "b992e3f25dec8431d0c04ef5c724bc88ff4870506c442cc1a6aa775b4e5a8b39bf29e50b17def7fe2571053bedd40dcc2248fc575b0eaa9e22719b3436ce6b5c"
+RPM_NAME = "flashfocus-2.3.1-1.3.noarch.rpm"
+RPM_HASH = "6e2c1f429961a347646f53566e7bd29ed0243b788be309e38b3a1da5f26764c9ecb7da468bdcc60b803d02878411edab3e7bba53da96c4e41b017e7cc507b8d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "flashfocus \
-python3.10dist-flashfocus \
+python3.11dist-flashfocus \
 python3dist-flashfocus"
 
 RDEPENDS:${PN} += "/usr/bin/bash \

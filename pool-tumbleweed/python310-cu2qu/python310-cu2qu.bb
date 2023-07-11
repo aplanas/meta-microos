@@ -4,11 +4,10 @@ LICENSE = "Apache-2.0"
 
 PV = "1.6.7.post2"
 
-RPM_NAME = "python310-cu2qu-1.6.7.post2-1.4.aarch64.rpm"
-RPM_HASH = "6bb5d1d5ab19e7928b94c49829c1915c8500f303fdec45a3bc17fe41150696a1bbb4d9f7c8a49838cb5ac679feb616e9ebc9e1120c417a3bf79da59389b92439"
+RPM_NAME = "python310-cu2qu-1.6.7.post2-1.6.aarch64.rpm"
+RPM_HASH = "094ec95b3012c4c56707c4c97d9ee342454925cbe58d6fe582a6323268a101fb81a23adcbda5df83572b34503cbe3a06d893a6dfafd3229e856812c5414de25f"
 
-RPROVIDES:${PN} += "python3-cu2qu \
-python3.10dist-cu2qu \
+RPROVIDES:${PN} += "python3.10dist-cu2qu \
 python310-cu2qu \
 python3dist-cu2qu"
 

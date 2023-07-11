@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.3.8"
 
-RPM_NAME = "libUil4-2.3.8-2.4.aarch64.rpm"
-RPM_HASH = "8de697391d6775802661c91ec3e4e7019ad7aeb020b630e8ebf0ee1c9fff78cabdd1190972696ccfc69eb46363e24fb390056cff81c941c90bfa73073bd47f08"
+RPM_NAME = "libUil4-2.3.8-2.5.aarch64.rpm"
+RPM_HASH = "282309fdf922f93e482150bfcf5f2e5890a81557a29a030c037eee5f56b56fb5ba7a63704843c7fe60de7f3a420c1c978be38d8ca2fa2a6c072db63aff745000"
 
 RPROVIDES:${PN} += "libUil.so.4 \
 libUil4"

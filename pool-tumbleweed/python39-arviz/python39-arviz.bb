@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.15.1"
 
-RPM_NAME = "python39-arviz-0.15.1-1.2.noarch.rpm"
-RPM_HASH = "86a6a67589c3c21a2b717e09223caf14900fed3c49d820048ad8025fa33e7d569d98d4ceaf7efd1c7d8a60ff2f7c1b72bd14ce7c284ed250d0919d27eadc3520"
+RPM_NAME = "python39-arviz-0.15.1-2.1.noarch.rpm"
+RPM_HASH = "5fc587ed6109804fc391206c4a89da85bf65f6c91c77b8806abfd3e9a2282a7a66226396685b47cfe99d88fbfbfa03778fe9ea11065d6d126f98daa9d570985d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-arviz \

@@ -5,8 +5,8 @@ LICENSE = "OLDAP-2.8"
 
 PV = "2.6.4"
 
-RPM_NAME = "libldapcpp0-2.6.4-1.1.aarch64.rpm"
-RPM_HASH = "7d0dfad3bd39a65eb7f37cc740c4375eb8e3f151829a69f5fc6c28ffb99120a9e120910b1a1e6f20480c8f610b14f3851641f72e2e05d9194feceb587b5e0bdf"
+RPM_NAME = "libldapcpp0-2.6.4-2.1.aarch64.rpm"
+RPM_HASH = "4b5a794c98a01800c99a65dea4a8524d3cdce287a3679164741b9d3030ad5e59b979771da719ed07f98e5de1eb6af74deadbacfa91e17a68dac40c4d071e5b7c"
 
 RPROVIDES:${PN} += "ldapcpplib \
 libldapcpp.so.0 \

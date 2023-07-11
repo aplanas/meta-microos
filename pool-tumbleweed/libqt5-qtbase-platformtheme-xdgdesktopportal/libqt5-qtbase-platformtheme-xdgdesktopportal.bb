@@ -2,10 +2,10 @@ SUMMARY = "Qt 5 XDG Desktop Portal Plugin"
 DESCRIPTION = "Qt 5 plugin for integration with flatpak and snap."
 LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
-PV = "5.15.9+kde154"
+PV = "5.15.10+kde129"
 
-RPM_NAME = "libqt5-qtbase-platformtheme-xdgdesktopportal-5.15.9+kde154-1.2.aarch64.rpm"
-RPM_HASH = "7f7407ccec6f469573020c5f88576e335063f13aa4df3c65acda063df0cd768e9c8ebd10629e94ec1bc127a9d386f7804340b932729fc927702a4f149f11f160"
+RPM_NAME = "libqt5-qtbase-platformtheme-xdgdesktopportal-5.15.10+kde129-1.1.aarch64.rpm"
+RPM_HASH = "74892d8cd4f4b2bbc643186c49a7eceae676b2d87a722eaab23c7054c60549f3ec1823902769af5fc25ade3e77edeaebf9aa39da738db8dc70ac766ae111f602"
 
 RPROVIDES:${PN} += "libqt5-qtbase-platformtheme-flatpak \
 libqt5-qtbase-platformtheme-xdgdesktopportal \

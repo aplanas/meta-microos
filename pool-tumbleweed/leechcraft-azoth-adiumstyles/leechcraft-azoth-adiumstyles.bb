@@ -4,8 +4,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-azoth-adiumstyles-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "278488b9fa7d37de7cd48d18aca0ad277e1361d08f4d86c7197323ff5e4653e0e30298c18827ff4377661f5ab59d086964e6bc05ddeaa05e76b0c1f6724ce613"
+RPM_NAME = "leechcraft-azoth-adiumstyles-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "326926e3892ec59dddef3c46ab89cb01d2406c2498e686d46cc483fb0f0087582dfe6a7c4576d350a01a44b7dfed29d4d048c231b457d006e5fd243b7586337f"
 
 RPROVIDES:${PN} += "leechcraft-azoth-adiumstyles \
 leechcraft-azoth-chatstyler \

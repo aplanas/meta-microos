@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "5.1"
 
-RPM_NAME = "horst-5.1-4.7.aarch64.rpm"
-RPM_HASH = "bb9e0e3ed536a867e19e28c46e616df40e38a95e169db73292ec8b34c9fe0d0cee575ff9351150f0edd487656df276dde9b4ef8f4d204b19f257371aac62cb7a"
+RPM_NAME = "horst-5.1-4.8.aarch64.rpm"
+RPM_HASH = "479c432ecb44488f85cb7924a3b0dc59b15a6165ac8a10a891fac14c905c642e6aabd8b464509fa4eb0fef0ecf6fb153e4ecfed58dc58c5392602f9388773bb2"
 
 RPROVIDES:${PN} += "config-horst \
 horst"

@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.9.4"
 
-RPM_NAME = "apache2-mod_security2-2.9.4-1.8.aarch64.rpm"
-RPM_HASH = "7048ee974ee637ad06930aa9b5819321af08dc9c50010a2e932a5a81eda9cba7f084a2b140020fd43909d97c7f9aaf7b2146511124b63d587c674e1a99e19ac8"
+RPM_NAME = "apache2-mod_security2-2.9.4-1.9.aarch64.rpm"
+RPM_HASH = "df774223c7378bdc856d584aa5f67f8e7b160bed6eaa6079dbb98e3813f670640099973b1d9af430077095dd474b6ce9be55e22c75e5815a6f1c1140d19f82bb"
 
 RPROVIDES:${PN} += "apache2-mod-security2 \
 config-apache2-mod-security2"

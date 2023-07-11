@@ -7,16 +7,16 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "2.7.1"
 
-RPM_NAME = "python311-nlopt-2.7.1-3.14.aarch64.rpm"
-RPM_HASH = "5cdba65454eed06078f54f821198bc3f324a2b6e751f38019388b5375f2110c4cd0fdc7fcaf42325aafb74b3b074f3645851de831559613dea7237178028883c"
+RPM_NAME = "python311-nlopt-2.7.1-3.15.aarch64.rpm"
+RPM_HASH = "0323970c75256f79b3014fad9d256f30c0fea732022921ea197abe09af2e018a01fd4660d8546cd06589ac7ae2fbdca921a244f0f8bbdc644c6cfe70f198388a"
 
-RPROVIDES:${PN} += "python311-nlopt"
+RPROVIDES:${PN} += "python3-nlopt \
+python311-nlopt"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
 libnlopt.so.0 \
-libpython3.11.so.1.0 \
 libstdc++.so.6 \
 python-abi \
 python311-numpy"

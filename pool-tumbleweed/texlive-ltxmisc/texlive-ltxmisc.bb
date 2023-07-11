@@ -2,10 +2,10 @@ SUMMARY = "Miscellaneous LaTeX packages, etcetera"
 DESCRIPTION = "The ltxmisc package"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn21927"
+PV = "2023.208.svn21927"
 
-RPM_NAME = "texlive-ltxmisc-2023.201.svn21927-52.1.noarch.rpm"
-RPM_HASH = "82a38aa897e10da2c3c5f760e43b78a78758cab1a0cdd0713e1b013b6273bdc09ea2cc64206b5a9552ccfa74ea6968d7acc39bace025e2cc869e16bbed793389"
+RPM_NAME = "texlive-ltxmisc-2023.208.svn21927-53.1.noarch.rpm"
+RPM_HASH = "ce6c6ac502a5365646f41755b2cac1cb7b6eefc3bfd59b5a6881dd08ebfe0e235f89eb85cb2d3e03f7160d7c40d6c135ec5eac45fbef6af7f73c4dc271e8868b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-abstbook.cls \

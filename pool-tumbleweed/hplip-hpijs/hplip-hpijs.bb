@@ -13,8 +13,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-or-later & MIT"
 
 PV = "3.22.10"
 
-RPM_NAME = "hplip-hpijs-3.22.10-2.1.aarch64.rpm"
-RPM_HASH = "814738e344520d43ac1c5c73761f20102c3c828f59e63c86251c1c0afadc09365c6feb718693471ba6f2bf742629007efb3dddfa097b6fbc044d54c582424051"
+RPM_NAME = "hplip-hpijs-3.22.10-2.3.aarch64.rpm"
+RPM_HASH = "c50c40440c21460e7e4f0b5e4eeb2828b8d77587d2a7bf5579da0859a748539bd04a318f4fc8f152245b988f5541cfa69449ce7d1b80f29d0a525f4cc926ccf8"
 
 RPROVIDES:${PN} += "config-hplip-hpijs \
 hplip-hpijs \

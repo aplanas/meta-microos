@@ -13,11 +13,12 @@ LICENSE = "Apache-2.0"
 
 PV = "0.3.10"
 
-RPM_NAME = "python311-pytesseract-0.3.10-1.5.noarch.rpm"
-RPM_HASH = "a2aae444f1cc0feb6e13ff58c0d236641f8b13699c945e91e79cc80839a313314e938d2d9934d59cb5bfac1489f49103cf5b57a454f9574973e8d80bb2340bf0"
+RPM_NAME = "python311-pytesseract-0.3.10-1.7.noarch.rpm"
+RPM_HASH = "9bb94e3b028f508938a0f0062cdcc1fe6a6ddd9896d642598d6a92d9b303939dacf8ddbf03ea357269f6c1aa2dfc8b29663ffe4ba45e2b2ff66e251f31a471b9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pytesseract \
+RPROVIDES:${PN} += "python3-pytesseract \
+python3.11dist-pytesseract \
 python311-pytesseract \
 python3dist-pytesseract"
 

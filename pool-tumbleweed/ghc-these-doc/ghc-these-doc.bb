@@ -2,10 +2,10 @@ SUMMARY = "Haskell these library documentation"
 DESCRIPTION = "This package provides the Haskell these library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.1.1.1"
+PV = "1.2"
 
-RPM_NAME = "ghc-these-doc-1.1.1.1-9.3.noarch.rpm"
-RPM_HASH = "5ef28660fe7d9e97b03a5ad93f191709dc2d5f3a7be8cdc59931965d885c1543b06941647b19d14a280530c637312419aced6ea54d1a94ade6909f429c518fa4"
+RPM_NAME = "ghc-these-doc-1.2-1.3.noarch.rpm"
+RPM_HASH = "6b32091385d4dd85f9a0960642fee3590ead2447a0a4d5126e4d6927627091c9861bccaa5556b8b562f12eeaafe16b587990b39d0bdbafbe210c404cb1d6e9a4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-these-doc"

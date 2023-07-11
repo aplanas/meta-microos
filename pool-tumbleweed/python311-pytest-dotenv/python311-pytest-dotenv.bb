@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.5.2"
 
-RPM_NAME = "python311-pytest-dotenv-0.5.2-1.12.noarch.rpm"
-RPM_HASH = "8281812267c25fc0948aecd9c39f62f9d19521dce70886395e0e6fab84936658ae38ad8c94230627b18fb27ecfd02892fb01ba5d71d43c28b2df415703306b97"
+RPM_NAME = "python311-pytest-dotenv-0.5.2-1.14.noarch.rpm"
+RPM_HASH = "52fa168765428e382a9c0653316abfd3557941d118978859448b19a7dcdb6ea136d2147f311a6dc16b4a10d04265d3cb267f1379a17ac54d345fbfbd3f18c5af"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pytest-dotenv \
+RPROVIDES:${PN} += "python3-pytest-dotenv \
+python3.11dist-pytest-dotenv \
 python311-pytest-dotenv \
 python3dist-pytest-dotenv"
 

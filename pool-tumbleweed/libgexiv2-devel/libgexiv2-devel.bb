@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.14.1"
 
-RPM_NAME = "libgexiv2-devel-0.14.1-1.1.aarch64.rpm"
-RPM_HASH = "6fe81132f61198d1bf997b7dfa81db76b08bcf5c508eedf1295d31d052726a00b75885d9db2d3591c6fa1f68c342f07c461f3a98fd9d6988a4bf5634a8a82f6a"
+RPM_NAME = "libgexiv2-devel-0.14.1-2.1.aarch64.rpm"
+RPM_HASH = "3808477b8c69b3d7b942aaa2a6780103feaae2747f781544177d92c232e7e1668e23476e597256772d4c5dc1c2dc327c1d2fe6aa32fba3f197df6983680bf09d"
 
 RPROVIDES:${PN} += "libgexiv2-devel \
 pkgconfig-gexiv2"

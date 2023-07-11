@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.6"
 
-RPM_NAME = "libportal-qt5-devel-0.6-1.7.aarch64.rpm"
-RPM_HASH = "f1f82fd0b9f639a53e87955a60c609f8291d76d535be18b2b7f17bb86699a46dae9cda5211cb51f08d6f1764252e07a172adfe1ac594ba8cb36ac5c3a97402a5"
+RPM_NAME = "libportal-qt5-devel-0.6-1.8.aarch64.rpm"
+RPM_HASH = "820d23d349491773e29fac95654228ed82e30b5cd2c21b5396b4c59e859cba512e864aa81cde52561664fa18169a20b598956e757f9db965d2a67dd256698c62"
 
 RPROVIDES:${PN} += "libportal-qt5-devel \
 pkgconfig-libportal-qt5"

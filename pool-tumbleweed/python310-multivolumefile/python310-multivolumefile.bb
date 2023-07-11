@@ -5,12 +5,11 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.2.3"
 
-RPM_NAME = "python310-multivolumefile-0.2.3-1.3.noarch.rpm"
-RPM_HASH = "5134142d25ae1138157d40941ef4b437a4ee82dc84a74e12db5c274ca897a754c20ca0e110cc5e82a7aaba140e1efbee4a6641c461b73ee4252e42116bef3df4"
+RPM_NAME = "python310-multivolumefile-0.2.3-2.1.noarch.rpm"
+RPM_HASH = "bef17cdacd0901c91aa65e220e256201ca365761ef9b19664e0f71fec731e33959875538332d7814a5ce961f428da5920ffcdd28921dc87ea588ebf30c4595b9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-multivolumefile \
-python3.10dist-multivolumefile \
+RPROVIDES:${PN} += "python3.10dist-multivolumefile \
 python310-multivolumefile \
 python3dist-multivolumefile"
 

@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "1.2"
 
-RPM_NAME = "libalure1-1.2-4.4.aarch64.rpm"
-RPM_HASH = "d84a64f60cd5e7c1f4aef390b94ab8960f97e1c3a6f54e0ad25f320ea00b12681b47fe5b3154716d452a31c03cc35537bb4e28db35c1283ff163f4b02f7f595d"
+RPM_NAME = "libalure1-1.2-4.5.aarch64.rpm"
+RPM_HASH = "e83cc63221eda241ad401d24528f623ee6a2af870ce4bbdcd1f01c307187a69b4c1aee5a76f2c5d650f1641c9d2b9ae69fadc43eb5fda1beac6a3985bb61fd6a"
 
 RPROVIDES:${PN} += "libalure.so.1 \
 libalure1"

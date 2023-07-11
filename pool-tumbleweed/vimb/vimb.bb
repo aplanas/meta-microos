@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.6.0"
 
-RPM_NAME = "vimb-3.6.0-2.9.aarch64.rpm"
-RPM_HASH = "04ffdf2b1ef3f522107245d42f207bad012752ba7e7dea9f3c6e865f076e683da57d8fe38c7cacb3415ab6a0e78ad6dfb298fd54d9d435429a789c659f4cae16"
+RPM_NAME = "vimb-3.6.0-2.10.aarch64.rpm"
+RPM_HASH = "68c97192b73615237ae674a6f911c93bbaf3f8432219cfa1d9d2d0beb56e316a2d5229878c97184dd8dc3159de38ae1ad5967e8f29d12157dba0382b34ba1ccf"
 
 RPROVIDES:${PN} += "vimb"
 

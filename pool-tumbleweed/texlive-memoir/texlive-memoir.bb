@@ -13,10 +13,10 @@ current version of hyperref actually loads the package \
 automatically if it detects that it is running under memoir."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.7.19svn65040"
+PV = "2023.208.3.7.19svn65040"
 
-RPM_NAME = "texlive-memoir-2023.201.3.7.19svn65040-52.1.noarch.rpm"
-RPM_HASH = "80ba5d452e7e215c5b7d1e655ff90bb83abee654755e6e790a87c6084297a3c9541aa96c8854bc8350be8ea415796f713fdeffa5a74d4e7ec9ce80dcfd00a88f"
+RPM_NAME = "texlive-memoir-2023.208.3.7.19svn65040-53.1.noarch.rpm"
+RPM_HASH = "511c4222a19cab4e06b934a7133975d713fc660bcefedec7456edfa811ebf43f1842b96944f26763e3f6d38c1f75549956079655f369a46867d0335f6f6f1500"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mem10.clo \

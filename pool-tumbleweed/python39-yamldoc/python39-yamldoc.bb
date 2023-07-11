@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.3.0"
 
-RPM_NAME = "python39-yamldoc-0.3.0-1.14.noarch.rpm"
-RPM_HASH = "93a20e6f9a6b12a255b4197a84a288b53daca51d6e70255adc1c18fee4ad91879721098dab2a7a35ee8895fdeb1ea0a70d6ee4e4f69f414b47118f128133cbff"
+RPM_NAME = "python39-yamldoc-0.3.0-1.15.noarch.rpm"
+RPM_HASH = "8fb63bd2a3847e4b24af7b5618a68d523de84eaa2f70e2e0189b4e2491bc164a2f31a997f69bb1e48a771b81d773ce05e70c14622fd25533f612b497d622b346"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-python-yamldoc \

@@ -2,13 +2,14 @@ SUMMARY = "Pure Python PNG image encoder/decoder"
 DESCRIPTION = "PyPNG allows PNG image files to be read and written using pure Python."
 LICENSE = "MIT"
 
-PV = "0.0.20"
+PV = "0.20220715.0"
 
-RPM_NAME = "python311-pypng-0.0.20-6.4.noarch.rpm"
-RPM_HASH = "e99bc578e7b1e08c91d3044b3b42eeeab26f9d82ec8831ee0b14da2fe0d46d562dccb3b12d42d41a363d0bf26fc9944c14de6ae2df08856af6fa0c85ae42072c"
+RPM_NAME = "python311-pypng-0.20220715.0-1.1.noarch.rpm"
+RPM_HASH = "3282b063a399af1b733ae8dd86422fede51f8ff19bd5a18dc36eb88a453fbcea833bfea25150c3e54076c632a985abc1a0be08715b89504dcbc4d252c9b49b03"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pypng \
+RPROVIDES:${PN} += "python3-pypng \
+python3.11dist-pypng \
 python311-pypng \
 python3dist-pypng"
 

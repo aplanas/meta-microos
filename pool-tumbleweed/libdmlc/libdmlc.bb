@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.5"
 
-RPM_NAME = "libdmlc-0.5-1.8.aarch64.rpm"
-RPM_HASH = "b84cd8a1b55a484bed52e432be4f689bedf01d46f7e566961085640a4e44dcad601e5b2e3a1c25e2ba1dc5349d1979046ae031a81265f33c4eb21d8644dcd296"
+RPM_NAME = "libdmlc-0.5-1.9.aarch64.rpm"
+RPM_HASH = "3f8faa42cb48b0dfb77e658413bf0759808765c16a486775fbc76d5589d8f6e2118f1c9e218e0e0a4f13c29aaeda4921410f00880c470d698057b1f946bfd294"
 
 RPROVIDES:${PN} += "libdmlc \
 libdmlc.so"

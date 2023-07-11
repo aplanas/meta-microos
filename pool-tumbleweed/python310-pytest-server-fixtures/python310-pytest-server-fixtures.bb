@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.7.0"
 
-RPM_NAME = "python310-pytest-server-fixtures-1.7.0-8.4.noarch.rpm"
-RPM_HASH = "33a42e4d0f57bae802ef9c6b3da2a0881f87660deb7ad2ed2b3efba3f165b96108ee62006212a4a662f8b27fb6e0b2e34104a0682d8132f898864f56a4b8f8da"
+RPM_NAME = "python310-pytest-server-fixtures-1.7.0-8.6.noarch.rpm"
+RPM_HASH = "033f6b203713d353020512bf684b0def97922c6617e01a44d0789fd81cd6dc3dacc654ff1cd1445946bb86f88c5a87ef7f25463ccfd3f48cfebb30de722fc95a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pytest-server-fixtures \
-python3.10dist-pytest-server-fixtures \
+RPROVIDES:${PN} += "python3.10dist-pytest-server-fixtures \
 python310-pytest-server-fixtures \
 python3dist-pytest-server-fixtures"
 

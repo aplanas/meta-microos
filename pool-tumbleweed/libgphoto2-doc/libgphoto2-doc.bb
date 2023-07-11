@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.5.30"
 
-RPM_NAME = "libgphoto2-doc-2.5.30-2.1.noarch.rpm"
-RPM_HASH = "3c44e525c5bf29087aed8f7936c9f01cd8a72c96f2fff2ef3a9f9b1eeff849c26fb9420f8b814f6692996fab0dd89fc60708f995fdb9bbc5132ac4e740990555"
+RPM_NAME = "libgphoto2-doc-2.5.30-2.2.noarch.rpm"
+RPM_HASH = "4a84622e297779935c71e2b20a01df1aec5902552cbce7aa3dd093e0215c54577d39829068c922a4c76e42ce4c67fbe1dbfeca5703f648914a9ec631b2667a68"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libgphoto2-doc"

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.9.101"
 
-RPM_NAME = "eolie-lang-0.9.101-1.10.noarch.rpm"
-RPM_HASH = "d519dea9be49137ff30f0ed918e40575d04475ab22d28e9cf853c1962a289eccc97f494a8b148fa8922d5e01c911e46d01c7fd07781aa9223385d112ab6bfbe5"
+RPM_NAME = "eolie-lang-0.9.101-1.11.noarch.rpm"
+RPM_HASH = "41188fbc5c2bfc13885ec01cbf7297c68129ddebde16cfb388ea78d7c35211cacb5fb8893e59c5aa15924eebf3e25f10ee3ed0e2e5369cff1c632d7c715fd8bf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eolie-lang \

@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-only"
 
 PV = "2.7.2"
 
-RPM_NAME = "winrs-2.7.2-2.5.noarch.rpm"
-RPM_HASH = "1bbfef1d53165c46c40d2f207afa28844230decea673d4b5c57a24029324f32c07d12cbafe8f157986ee125112ea5593a1f1edbc73edec37bba309093e7fb7bb"
+RPM_NAME = "winrs-2.7.2-2.8.noarch.rpm"
+RPM_HASH = "88824b4a5858e32c335dafd9e8f859294c9939dfe1d8fe807bc1885b63649af937b78552f911357e6c7fb60cd1a117884270be04d30808972c10354af854fddb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "winrs"

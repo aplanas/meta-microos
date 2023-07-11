@@ -7,8 +7,8 @@ LICENSE = "MPL-2.0"
 
 PV = "2.2.0"
 
-RPM_NAME = "libkea-http42-2.2.0-2.4.aarch64.rpm"
-RPM_HASH = "3705ddede484843dc957570b868eab8999c397c988803506cb30306faf986bd69d35b0840831aa1de7ee3332b9bffe015aafb3342a06209765179df6fe54d25b"
+RPM_NAME = "libkea-http42-2.2.0-2.6.aarch64.rpm"
+RPM_HASH = "130e5999d99e5ef18a2504b5f536c4a7405a3496f1c3b9a0fff336a9ee121c085b9a00a75cda5bb645eb3cfe7722e250aced929ccac7be14cd9022b6dde46b33"
 
 RPROVIDES:${PN} += "libkea-http.so.42 \
 libkea-http42"

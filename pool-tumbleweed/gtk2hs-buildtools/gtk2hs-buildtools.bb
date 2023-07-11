@@ -7,15 +7,14 @@ signal declarations that are used to call back from C to Haskell. \
 These tools are not needed to actually run Gtk2Hs programs."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.13.8.3"
+PV = "0.13.10.0"
 
-RPM_NAME = "gtk2hs-buildtools-0.13.8.3-2.3.aarch64.rpm"
-RPM_HASH = "6ec87812f3b30d8a9e1015eb989a33054bfe72abb0698cfc487ee0920de2262dcc9d8c385fde98bb128fbabb7444ee260b42ea65af2f1225d33fd0affc5f07f2"
+RPM_NAME = "gtk2hs-buildtools-0.13.10.0-1.3.aarch64.rpm"
+RPM_HASH = "e4804132d38d9b405a034d7e747b325b05ee9e1ac64c6c8e2444be4c993b70fdb86341fc9c70519c7ed13e00b47d284d4ce8f478a54a2c56ed15bbfd949b724b"
 
 RPROVIDES:${PN} += "gtk2hs-buildtools"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libatomic.so.1 \
 libc.so.6 \
 libffi.so.8 \
 libgmp.so.10 \

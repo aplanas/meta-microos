@@ -15,8 +15,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.20230112"
 
-RPM_NAME = "perl-Mail-AuthenticationResults-2.20230112-1.1.noarch.rpm"
-RPM_HASH = "94d21ac708075917ecbc799d918a4b699f75b352e0037c5bfbc3ae12e26ac5038fa9844e4bf4ba9b64e1d12b65d15e255568dc206191bf00adb7933e1e4f3fae"
+RPM_NAME = "perl-Mail-AuthenticationResults-2.20230112-1.2.noarch.rpm"
+RPM_HASH = "a273e2a78d9079af2dff51147c0bc085bc9100f22964ad6a722d3e67344a5e84c748b73d05312b068289beb174ac55137679be675dee72d08c2ed4bef6956252"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mail--AuthenticationResults \
@@ -39,7 +39,7 @@ perl-Mail--AuthenticationResults--Token--Space \
 perl-Mail--AuthenticationResults--Token--String \
 perl-Mail-AuthenticationResults"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Clone \
 perl-JSON"
 

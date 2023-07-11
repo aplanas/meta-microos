@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.9.0"
 
-RPM_NAME = "qtcurve-qt5-1.9.0-6.16.aarch64.rpm"
-RPM_HASH = "774cc909776ca502233fa7ca8cd3107038b80bfcf309e1f687e58739a729349d70c93a9d92b555b6d5da16aab93bcd1a2d599a9b6c2ee2fabcf8a9fafe475f25"
+RPM_NAME = "qtcurve-qt5-1.9.0-6.18.aarch64.rpm"
+RPM_HASH = "97634374bac0e0673c2c99561acc027e7f1b8511e9ef5aecc89c4a3f91fc2ebe11297e69ab545c509287d5368ccc94c9a6bfdff65b706c6f2d12b5c8adb670d7"
 
 RPROVIDES:${PN} += "qtcurve-qt5"
 

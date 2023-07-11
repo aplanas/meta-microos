@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.8.4"
 
-RPM_NAME = "typelib-1_0-GtkClutter-1_0-1.8.4-5.17.aarch64.rpm"
-RPM_HASH = "f4ec0ec1580364c8cc8203ac7a12dcbf301fa3b559b58042433d1ee0d4453fd997af52a29550c702360c24a3d7c8db19adb725e2e8b4942cb6a696ee554da9e2"
+RPM_NAME = "typelib-1_0-GtkClutter-1_0-1.8.4-5.18.aarch64.rpm"
+RPM_HASH = "804c306d3eac0dcc88b16ab882aa55f315733e333a616d81e42ef7bae1bdff661a784e1a32562f2ceeb07e2f389069b9e77a1a4404a4e29b42995fd0ad9d4123"
 
 RPROVIDES:${PN} += "typelib-1-0-GtkClutter-1-0 \
 typelib-GtkClutter"

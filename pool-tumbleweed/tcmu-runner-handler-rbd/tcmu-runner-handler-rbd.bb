@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.6.0"
 
-RPM_NAME = "tcmu-runner-handler-rbd-1.6.0-1.3.aarch64.rpm"
-RPM_HASH = "aa480aab7221db5d03031e1f67ca6fe50ce09c470f4d146d95cde72d3c81548bc9388a106994380c474f2ffc2c0f4e1db7b2a11b4d65ac5690cfb9b710ae2ca1"
+RPM_NAME = "tcmu-runner-handler-rbd-1.6.0-1.4.aarch64.rpm"
+RPM_HASH = "0ad7df37ec8e9f9ac5e422b49d4603dc510f9b16812a5b0b26eae2a984ba65f057cf9d3dfee25e45761a361832ea67325dd4b296f83593aede5ef3a016b084dc"
 
 RPROVIDES:${PN} += "tcmu-runner-handler-rbd"
 

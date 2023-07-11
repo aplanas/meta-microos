@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & MIT"
 
 PV = "34.0.1"
 
-RPM_NAME = "android-tools-bash-completion-34.0.1-1.1.noarch.rpm"
-RPM_HASH = "9eda34bc5b86a21732ce0f9d0aad5c7a40cb9d2eb38e16681ed60a4e88871f36e5bc00daa27434d8dc4297d6e72ce163055690281864c2169a5ff71fe48bf303"
+RPM_NAME = "android-tools-bash-completion-34.0.1-2.1.noarch.rpm"
+RPM_HASH = "e5595f0a3ab6a8ea96e4eafdac8286772554b6145d8db4f458539c5743f5b3a71d997a686acf91bebb6fcf6086eb7743f3b3e56d6c84bc576ddfcf7485941f5f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "android-tools-bash-completion"

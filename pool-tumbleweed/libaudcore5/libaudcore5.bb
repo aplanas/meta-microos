@@ -2,10 +2,10 @@ SUMMARY = "Main functionality library of Audacious"
 DESCRIPTION = "Library from the Audacious audio player."
 LICENSE = "BSD-2-Clause"
 
-PV = "4.3"
+PV = "4.3.1"
 
-RPM_NAME = "libaudcore5-4.3-1.3.aarch64.rpm"
-RPM_HASH = "d3128bbec7dbeed633a45a98a6edea239abbbfc277daad0eb3f28b485d868234a345e7e9352b2f8b049b095dfd95e675248caa522a28b6d88417e69375647f31"
+RPM_NAME = "libaudcore5-4.3.1-1.1.aarch64.rpm"
+RPM_HASH = "d2abc943620940f8305f6723a79417ac0dbf52f75a189fe286f743aeb80ebf08a717aaf30fb94cf78af86e15d42874826bf92d8d677881b5d7a8d9969c46938c"
 
 RPROVIDES:${PN} += "libaudcore \
 libaudcore.so.5 \

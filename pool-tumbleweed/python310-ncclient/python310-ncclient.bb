@@ -5,12 +5,11 @@ LICENSE = "Apache-2.0"
 
 PV = "0.6.13"
 
-RPM_NAME = "python310-ncclient-0.6.13-1.4.noarch.rpm"
-RPM_HASH = "c8d268cbff2a53b2c55f07386b67046078cb6bd77285a18d57f8d6dc92aaa6021e35bbfb207a52728957996853b330871458bf9469a47e0628f5724c6a0d0815"
+RPM_NAME = "python310-ncclient-0.6.13-1.6.noarch.rpm"
+RPM_HASH = "e6ab385f202ce448739cad8ec1a1620c0b7452af0284bc3efa807d31fbc9bbd920a67ad4028cabe3c32db2f2f3d93ab8e1b266a6bc2c9eadaa1f82ea6a038a5b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-ncclient \
-python3.10dist-ncclient \
+RPROVIDES:${PN} += "python3.10dist-ncclient \
 python310-ncclient \
 python3dist-ncclient"
 

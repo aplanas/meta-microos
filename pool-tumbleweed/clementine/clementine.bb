@@ -22,8 +22,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.4.0~rc2"
 
-RPM_NAME = "clementine-1.4.0~rc2-1.12.aarch64.rpm"
-RPM_HASH = "14122d4f7f5aef5f4a6a28f65c5141f8ec833ede35499331787cc10d5605e132363adbdfcd98d093cc9104db73c54dbcc4fbc5b191312cac5528d838589975af"
+RPM_NAME = "clementine-1.4.0~rc2-1.14.aarch64.rpm"
+RPM_HASH = "ab7224e4ee9077f601ff4c64a742dd6578e287ebd9a4029acaaa368054ed9e1cbaf4ce9982dec8de6fe9967a8aad67b39ca02fd588e10bba66126bd5dd9f6415"
 
 RPROVIDES:${PN} += "clementine \
 clementine-kde"

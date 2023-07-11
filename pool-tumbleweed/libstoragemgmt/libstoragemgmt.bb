@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.9.8"
 
-RPM_NAME = "libstoragemgmt-1.9.8-1.1.aarch64.rpm"
-RPM_HASH = "2ac2fd8e1e6df4ec1354b77a8448d29fd25ec529282be76623111673e7b0a193803495d8fcf73a60a7d48c1d311a37f29b7959333a5637b4bb60d9b07a80ba19"
+RPM_NAME = "libstoragemgmt-1.9.8-1.2.aarch64.rpm"
+RPM_HASH = "b2dc0d090b6de2e2e2a7d0b47344a60f326c26b94e207769d2faef4904ce17b4b5424df84210340cd02374c52f34367dd25f1e85da65216b4311f74fbcc5ff07"
 
 RPROVIDES:${PN} += "config-libstoragemgmt \
 group-libstoragemgmt \

@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2"
 
-RPM_NAME = "geronimo-commonj-1_1-apis-1.2-36.11.noarch.rpm"
-RPM_HASH = "7fb0bd5c220e94c2d56f24c26593f17f0002a273978d571ec61c01b5755a9a238710a0ace7d528cd90e7ef90ac14c431b9b1bdbf1f7837a410cebce674d0f6f7"
+RPM_NAME = "geronimo-commonj-1_1-apis-1.2-36.12.noarch.rpm"
+RPM_HASH = "ac603532076555700989e9f510053c9f307c6a2caa000619353e0b678ee830d95a4567b6fef073fbbfe6e30a319bb228e2f6437877aca715c35d4af27851ea1b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "commonj-1-1-apis \

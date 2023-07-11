@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.0"
 
-RPM_NAME = "python39-cbor-1.0.0-1.23.aarch64.rpm"
-RPM_HASH = "1581f6b6ffcd538b9c76123ad02ab30083535721cc046ea1a4a0dd81b19e2b108228129b3b9ad24ed9c51e97a6f15fa90ff22ec6216eb9d8c3da8167e8e247b3"
+RPM_NAME = "python39-cbor-1.0.0-1.25.aarch64.rpm"
+RPM_HASH = "07e45a0f1ebfa1c206868cc1ae23f3d4e0382bf1d3d4a2ef49b6533457beb2e1175cc2b7f1a92e0bea42b475233a56504326c0c7a5a42acbece7debea7151135"
 
 RPROVIDES:${PN} += "python3.9dist-cbor \
 python39-cbor \

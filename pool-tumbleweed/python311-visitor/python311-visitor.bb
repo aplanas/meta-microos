@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "0.1.3"
 
-RPM_NAME = "python311-visitor-0.1.3-1.18.noarch.rpm"
-RPM_HASH = "ea77e377ffabbf609f84a2ff0071851d9cbec22e9f4ca80f7607644e01747119f332aefde8f7e6aacd31a7fc820bd999abf4d789195c29ca1bc151a44db1f63c"
+RPM_NAME = "python311-visitor-0.1.3-1.20.noarch.rpm"
+RPM_HASH = "aa46d6305daea40c8e26a23e8e822c08ea64aa76eb6d1d5b2b2898cd3ecc482406f210a039b619db42aa87b051291bba7f7841a9f4806d9728a57ee933dab66e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-visitor \
+RPROVIDES:${PN} += "python3-visitor \
+python3.11dist-visitor \
 python311-visitor \
 python3dist-visitor"
 

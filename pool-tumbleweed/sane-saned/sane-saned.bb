@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & SUSE-Public-Domain"
 
 PV = "1.2.1"
 
-RPM_NAME = "sane-saned-1.2.1-1.1.aarch64.rpm"
-RPM_HASH = "cdd9157226f13409bd027f2a1378a217042a7064c29caed5bb1e8fbdbaea8eb9d9bfa677b7a69aee8600af281198f82fae4dd48898d6355b1591f56777d2b7f5"
+RPM_NAME = "sane-saned-1.2.1-1.2.aarch64.rpm"
+RPM_HASH = "7b929c704c99805f363e921b24c083493e98425dd11601d7a5c357df52a243ce5c3b681523f64925a2378c9b3effe6923de1fdb494e66609b998bac41b1198fe"
 
 RPROVIDES:${PN} += "config-sane-saned \
 sane-backends-/usr/sbin/saned \

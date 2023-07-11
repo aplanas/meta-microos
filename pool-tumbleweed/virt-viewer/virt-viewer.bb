@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "11.0"
 
-RPM_NAME = "virt-viewer-11.0-4.4.aarch64.rpm"
-RPM_HASH = "12f1545efc714ecf4556af323261bdda2016c0b9a5e13b5115f8413a8bd9955d7416d687bc43a1dc62c0f8c97d566719f4c098830c80e54d9a2297281715d808"
+RPM_NAME = "virt-viewer-11.0-4.5.aarch64.rpm"
+RPM_HASH = "350ff662035f7f599fbdeea695d888171665a994ad89cfc1e3f59e19f8aba2735366392cb40299fd681fffc23b2cf5ce9b817bdb0dd037feb0edc5f30a6baf3f"
 
 RPROVIDES:${PN} += "virt-viewer"
 

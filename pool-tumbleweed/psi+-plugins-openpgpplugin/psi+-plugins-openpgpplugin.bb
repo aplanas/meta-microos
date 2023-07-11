@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-or-later"
 
 PV = "1.5.1615+0"
 
-RPM_NAME = "psi+-plugins-openpgpplugin-1.5.1615+0-3.1.aarch64.rpm"
-RPM_HASH = "b94b1fc2ae4f48fd56a1d1f1874c4b7ce59aa8722655ac49de5ddebbce6d6f0301c5677cb50ee15992e3b719ce1858e91eaf1bcd3b1edf95a56235d7182e4da0"
+RPM_NAME = "psi+-plugins-openpgpplugin-1.5.1615+0-3.2.aarch64.rpm"
+RPM_HASH = "80d46ba27764e930d06f4ffbe57a8bd1d5287b65199fbc8de15cd0882a45009b0d4b927500816c86259b196a05ae9cc4a47f0f1105232bef2afedb29c1ce83e1"
 
 RPROVIDES:${PN} += "libopenpgpplugin.so \
 plugins-gnupgplugin \

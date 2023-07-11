@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.9.0"
 
-RPM_NAME = "python39-HTTPolice-0.9.0-4.14.noarch.rpm"
-RPM_HASH = "26bb0d59603eda16047c88d255752abc42e826ec37b3bf4dba59f07086d4eea0c30908054bc5b2119df50e44eb3d5f56c8682316812a6a890a402b9d2fedae25"
+RPM_NAME = "python39-HTTPolice-0.9.0-4.16.noarch.rpm"
+RPM_HASH = "ebe7013313ad50dfe94c302d26c5e56c85a9edb7325d5357c18b4f78f3d3bcfb1ecd282439d85c8379de3c93eccb9d138b5e8ddd67abb4b1cae65ab05cb3ac02"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-httpolice \

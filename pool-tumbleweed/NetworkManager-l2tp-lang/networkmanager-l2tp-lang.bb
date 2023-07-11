@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.20.8"
 
-RPM_NAME = "NetworkManager-l2tp-lang-1.20.8-1.4.noarch.rpm"
-RPM_HASH = "d31456dc9585695d58a5c40d5d1e2c8c7af4f9346507aa2c8fcdd62a8b0e2aab71c4f3e9f31e9b62b7620d923cf27d35f8b8fee3e08e49c41750d79a2379b816"
+RPM_NAME = "NetworkManager-l2tp-lang-1.20.8-1.6.noarch.rpm"
+RPM_HASH = "784c3034152a95468aa3f6c9e0cfa869242f5ec07c2ff7cf16f8298c3e00703c10323401587030115a7950546fbcf0cc0da3b10ccb1996c4d9372123869851b3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "NetworkManager-l2tp-lang \

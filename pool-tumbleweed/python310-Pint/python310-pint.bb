@@ -11,12 +11,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.20.1"
 
-RPM_NAME = "python310-Pint-0.20.1-1.4.noarch.rpm"
-RPM_HASH = "2c267276f77605faf08a108c5f4e859c8d5583194ac6643c8fe6de00eb60e36e727cbff145730c69536a4f9224cf9cdbf819409a95f297aadaed1e1682a6ac8f"
+RPM_NAME = "python310-Pint-0.20.1-1.6.noarch.rpm"
+RPM_HASH = "798caa0aedddc2f9a25ddebbc3a837151d0cf51a64c91b78ba85d7c409c36e25280d52432a75242aec99940005fe8f35259f3474a714540567296461212ddd17"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-Pint \
-python3.10dist-pint \
+RPROVIDES:${PN} += "python3.10dist-pint \
 python310-Pint \
 python3dist-pint"
 

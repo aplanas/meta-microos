@@ -3,12 +3,13 @@ DESCRIPTION = "A set of macros and tools to assist with cargo and rust packaging
 that follows upstream rust's best practices."
 LICENSE = "MPL-2.0"
 
-PV = "1.2.0+0"
+PV = "1.2.0+3"
 
-RPM_NAME = "cargo-packaging-1.2.0+0-2.2.aarch64.rpm"
-RPM_HASH = "eff2ab2a8f7e7d8969e0570cc80f78c48432df54a06bbbf203ae5ddd0a219e8cebefdca639b80e845c3db86bdd253beb89a1655f7cfb11787f1d6c424a873738"
+RPM_NAME = "cargo-packaging-1.2.0+3-1.1.aarch64.rpm"
+RPM_HASH = "f152224049cb969c5dd47a4d2327b3995ee151111c7861222ac23588e7cc25ee1fc5ebe43b33ff60571e3af4a28846cfeaff369ec8937b57144cba025966e654"
 
 RPROVIDES:${PN} += "cargo-packaging \
+rpm-macro-build-rustflags \
 rpm-macro-cargo-build \
 rpm-macro-cargo-install \
 rpm-macro-cargo-test \

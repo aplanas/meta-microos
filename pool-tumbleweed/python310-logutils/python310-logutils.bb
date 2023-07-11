@@ -10,12 +10,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3.5"
 
-RPM_NAME = "python310-logutils-0.3.5-5.2.noarch.rpm"
-RPM_HASH = "2320e132a5fd766f038ad1d2ae00c465910e6310c28f9eab59add8fc9b7df1d46df3b781054058e0aafeed661728d885cd04126dc4917b70b5038ccd794302fa"
+RPM_NAME = "python310-logutils-0.3.5-5.4.noarch.rpm"
+RPM_HASH = "1b1a472d0f48adacbb92c8fbb595893888ba1af26be81bd0fa2402cca12ef5e2d9eb7d082b326ca7c58799597d9a0960233a25ac29357dc0e9c29e20e4bb6402"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-logutils \
-python3.10dist-logutils \
+RPROVIDES:${PN} += "python3.10dist-logutils \
 python310-logutils \
 python3dist-logutils"
 

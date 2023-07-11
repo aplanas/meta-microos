@@ -4,8 +4,8 @@ LICENSE = "CC-BY-SA-3.0 & LGPL-3.0-only"
 
 PV = "0.3.3"
 
-RPM_NAME = "liblensfun1-0.3.3-1.7.aarch64.rpm"
-RPM_HASH = "5dba5ab0dd5ae782aeecafedb4eaaf2dc04c172837557532b2c782cc416b590f4260ee1b7e79f30b8488cf052acb7ab80721a179f5a3416c5b1fe81a8c1c60bb"
+RPM_NAME = "liblensfun1-0.3.3-1.8.aarch64.rpm"
+RPM_HASH = "b595839755f0b0934de5834c19b17f5264c1e046514d05a9764e0cc816d1fb65299e7ec87444b39b1613e7d17a7048acc13d5d5aea08cefe12a2361690dd3e41"
 
 RPROVIDES:${PN} += "lensfun \
 liblensfun.so.1 \

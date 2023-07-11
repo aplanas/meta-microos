@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.10.2"
 
-RPM_NAME = "noson-devel-2.10.2-1.1.aarch64.rpm"
-RPM_HASH = "167c2726121cdab2d91414a6ba38da9a2c4823f881ecbd6e7eb8c655cfcdc8bbff350c19cabe9d0fc3ab45101de129919a8afa8c81b9e0682118b5c080f52e04"
+RPM_NAME = "noson-devel-2.10.2-1.2.aarch64.rpm"
+RPM_HASH = "59b4a97cdd44155d040ded94545566b0dfd283962983139ab24b381fcbd837a62b6a90e442517f223c557933465329aa747e8043498c51be0f0e7314b93edf7b"
 
 RPROVIDES:${PN} += "cmake-noson \
 noson-devel \

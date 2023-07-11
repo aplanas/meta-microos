@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - French Translations"
 DESCRIPTION = "YaST2 - Translations for French."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230516.e4ba802a"
+PV = "84.87.20230630.ccfa6add46"
 
-RPM_NAME = "yast2-trans-fr-84.87.20230516.e4ba802a-1.1.noarch.rpm"
-RPM_HASH = "8d45bb788e42f4c3e8c53cc3b7f7215ac6bda60d4cc97da765637f9bab367400c21e7ab695cb3386da617f5819dd21a2425352a80c9dfd715786b2fb2affc6ad"
+RPM_NAME = "yast2-trans-fr-84.87.20230630.ccfa6add46-1.1.noarch.rpm"
+RPM_HASH = "40536a6881efac47efd8258860e2a0d9823ac3e92e44f32f190adb12a3a20ff1ae3047f2a5f959662ce03dabb1e8cd9131b174ff7395d51a78d85b955df745ff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-fr \

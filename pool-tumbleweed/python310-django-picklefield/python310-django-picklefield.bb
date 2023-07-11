@@ -10,12 +10,11 @@ LICENSE = "MIT"
 
 PV = "3.1.0"
 
-RPM_NAME = "python310-django-picklefield-3.1.0-1.3.noarch.rpm"
-RPM_HASH = "34209f6353b62f8d96c7bcdf5b7d1e129f7e1a5ecaef579dab5c650c0d783197f212f4b05abc8e039ea25a8da569bccea2d6bc599863a38935e615a1443e38f7"
+RPM_NAME = "python310-django-picklefield-3.1.0-2.1.noarch.rpm"
+RPM_HASH = "343c1108c2e88521fff868d5ea85d9c0fab2a045c9603a755fad118cb29911ad95c8d664b435192f7c28a9d9261e282bc60bf2fc968a47e043ba946a2469e983"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-django-picklefield \
-python3.10dist-django-picklefield \
+RPROVIDES:${PN} += "python3.10dist-django-picklefield \
 python310-django-picklefield \
 python3dist-django-picklefield"
 

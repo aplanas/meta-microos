@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.2"
 
-RPM_NAME = "hamcrest-2.2-1.3.noarch.rpm"
-RPM_HASH = "cde35df1b9e463de6ffd5c11d479cfb3073ce260188ba3f3c8ec8cd8012643b46becdc93c98916dd97850334b84e325f5e88f902c93eda271f7723a543076c74"
+RPM_NAME = "hamcrest-2.2-1.4.noarch.rpm"
+RPM_HASH = "b8e4e9f63d3b119e5b3d6d71868c36ccf55352859ccbedbcaaf8068ab9e3057415ff699d611c018aac1e9590c2f7298e2b80b6b2402710799d91113dbf9bc3c8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hamcrest \

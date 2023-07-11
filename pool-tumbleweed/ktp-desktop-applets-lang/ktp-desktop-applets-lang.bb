@@ -2,10 +2,10 @@ SUMMARY = "Translations for package ktp-desktop-applets"
 DESCRIPTION = "Provides translations for the 'ktp-desktop-applets' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "ktp-desktop-applets-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "b9f47df00288f2d552cf8c0e6fe088ce1d5e41c4c4b94249794739da496948f3555d4c38e45e4793a81d2bbab541b192e99e6ba6de8a6d75f4c63bb8077e0e5d"
+RPM_NAME = "ktp-desktop-applets-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "86c4af9eab6c78696fdf1a6836b017716e6b9bb8fc552723777358556d6e62e7af1543548251e60ca2f8b55e307512d288fee41198be2ce2ee0678691af2c200"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ktp-desktop-applets-lang \

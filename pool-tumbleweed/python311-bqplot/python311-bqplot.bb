@@ -7,11 +7,13 @@ LICENSE = "Apache-2.0"
 
 PV = "0.12.31"
 
-RPM_NAME = "python311-bqplot-0.12.31-3.30.noarch.rpm"
-RPM_HASH = "e37bed40976a1272a55999fae82ff1d1c3017683916dbb5d0fa00fef7dac95038b3a07ac2fb61946d26d4b380ce23975046439489fcb7d18809450d7a7cac169"
+RPM_NAME = "python311-bqplot-0.12.31-3.31.noarch.rpm"
+RPM_HASH = "3f78b84bf2b0f277de5854bff3db5a092fcad5d01c994a691cc141e81d50225871999f744d02b6ac7e3728f7c19276a22f68355341cd86e379e3c57ba34d4222"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-bqplot \
+RPROVIDES:${PN} += "python3-bqplot \
+python3-jupyter-bqplot \
+python3.11dist-bqplot \
 python311-bqplot \
 python311-jupyter-bqplot \
 python3dist-bqplot"

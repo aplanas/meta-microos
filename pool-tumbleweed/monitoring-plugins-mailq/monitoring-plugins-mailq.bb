@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
 PV = "2.3.1"
 
-RPM_NAME = "monitoring-plugins-mailq-2.3.1-9.4.aarch64.rpm"
-RPM_HASH = "d103e93f3c866ea1e509721f3f2f8ac7356592adb182c8af27bf22194d259e2d3bee536eee0e5596fe8b959c6ce4c305f045727bb8e68d8c9ac223804b622c08"
+RPM_NAME = "monitoring-plugins-mailq-2.3.1-9.5.aarch64.rpm"
+RPM_HASH = "0cddf1b0610c85a16bdf63b6242f49a6a8d544623a9be6f82edbe8a421b075bc72b7e629b89377ae65f8b5ca3f38b02f5ef0e70e2a7c7a24bea006d1343aa839"
 
 RPROVIDES:${PN} += "config-monitoring-plugins-mailq \
 monitoring-plugins-mailq \

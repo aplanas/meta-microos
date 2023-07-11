@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains common data files used by various KDE educa
 applications."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kdeedu-data-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "889784032eee2ad688eabde80ca3e9c96ed7e9c2480555a6a1952ad41353336b16b47470fd0da0d592aaec2926179bf24cfe13ef8a6204dfafc67d33eaded384"
+RPM_NAME = "kdeedu-data-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "97a4180cefda6446bd75d71ec45537131181d0c68cf125544e922c126c586af205ce03c73f7c09ac6a1527728ccc877a93ac6c0050238bb8c401160d5ce3da84"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kdeedu-data \

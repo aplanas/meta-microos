@@ -7,8 +7,8 @@ LICENSE = "Python-2.0"
 
 PV = "2.7.18"
 
-RPM_NAME = "python-idle-2.7.18-34.1.aarch64.rpm"
-RPM_HASH = "b3ccd6309ab39637433d175543a99d41a8ab8a08fb578631d799fe26f5d49dca917ba35db410df92b2d8593c855f9b14bb2cf2f36f411353cbe64f424eb151fb"
+RPM_NAME = "python-idle-2.7.18-36.1.aarch64.rpm"
+RPM_HASH = "7624220d44782c082cca42784b829c7fcacb815a988bb8bcb937ee7af37c92f2052a4c5505090f526c2d16e5fbf4eaee5e6db2c666cba9799ae2e9ca85c70281"
 
 RPROVIDES:${PN} += "config-python-idle \
 python-idle \

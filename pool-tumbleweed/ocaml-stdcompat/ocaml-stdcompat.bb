@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "19"
 
-RPM_NAME = "ocaml-stdcompat-19-2.4.aarch64.rpm"
-RPM_HASH = "30b2f0d095641a7dcb494aeb38344117130a71b97e5d4ae4c184542a31b53dcbc9cff92610818704d0d58faa98bd55ad79c9721b987bbdc4b0b6acb93233520a"
+RPM_NAME = "ocaml-stdcompat-19-2.5.aarch64.rpm"
+RPM_HASH = "838c3ec906f3bbf596ab68ec726897405865b0ed63908c21e484b2f7b122284f69acce67a326e6f8e7ea5dbe93a0cbd126f518b6f4ff507841b0908634579e0b"
 
 RPROVIDES:${PN} += "ocaml-stdcompat"
 

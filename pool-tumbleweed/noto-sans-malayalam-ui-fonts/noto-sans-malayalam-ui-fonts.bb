@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-malayalam-ui-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "f3a48e60baf6fbbb43f795bf111e8ab8340cbcd1504d6aa56a554eaf50a06ee6f77a4bc09fd7ea180306ed8779a8fad2c8b4c8b2f35a9d5f94d68953066a1cb4"
+RPM_NAME = "noto-sans-malayalam-ui-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "f1cee40915657510f2f9036160e8149ab8079e342a7990edbc627bdfbde254a74af7230a224743bb5e00ea3239f384f944db5bdf67125c59f70920e7e6caf9d1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-malayalam-ui \

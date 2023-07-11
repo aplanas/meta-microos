@@ -13,8 +13,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.5.0"
 
-RPM_NAME = "triggerhappy-0.5.0-3.3.aarch64.rpm"
-RPM_HASH = "202991e2dd82b378a203944b4568754048d488a39ff1bda17ad0ff9cb813a12b39818c08076dc0f510a24c1854626f2dec6e5cc5af0efb1dd84ac19124b94387"
+RPM_NAME = "triggerhappy-0.5.0-3.4.aarch64.rpm"
+RPM_HASH = "dff5dad79823b4991dad9cbd749e1f3574be4fe7c82d7ce46945b9772d5def86805d655e55c0251e429ba457e9ffbbce9574f4aac63f930c520ded2b466bf5ab"
 
 RPROVIDES:${PN} += "triggerhappy"
 

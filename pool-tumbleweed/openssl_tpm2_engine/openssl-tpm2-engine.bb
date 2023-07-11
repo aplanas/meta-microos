@@ -4,10 +4,10 @@ Trusted Platform Module version 2.0 found on newer machines and a \
 create_tpm2_key helper binary to create and extract a TPM key."
 LICENSE = "LGPL-2.1-only"
 
-PV = "4.0.0"
+PV = "4.0.1"
 
-RPM_NAME = "openssl_tpm2_engine-4.0.0-1.1.aarch64.rpm"
-RPM_HASH = "af13766fab41af9bf18cb3f4b086f3a2563e356dc3d034d680783b9a1a846eaa3dd179dd8b6e56ea7a6735fdd67b2147c2ffe7f72ee83cec953a8b462211300e"
+RPM_NAME = "openssl_tpm2_engine-4.0.1-1.1.aarch64.rpm"
+RPM_HASH = "bdd8e84fd137b5768b6ef465c51ac1426f466bbd97da3645e87c2d520212ad93d13d69c4861034e129bb53f0cd33ea6172abcc69277abe2f524cdfd691e98b5b"
 
 RPROVIDES:${PN} += "libtpm2.so \
 openssl-tpm2-engine"

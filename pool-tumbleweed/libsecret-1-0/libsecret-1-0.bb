@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.20.5"
 
-RPM_NAME = "libsecret-1-0-0.20.5-1.7.aarch64.rpm"
-RPM_HASH = "b89a45eaa371f5037d95493c5404a107ce136cffbd9989b62a3de082f7c0f21add2c3513f8032e53fd70a4b649dc51c334ff5f9611dcb918949ec98a883aa1fd"
+RPM_NAME = "libsecret-1-0-0.20.5-1.8.aarch64.rpm"
+RPM_HASH = "f5ba12b414e257b584f9cd6233a9a8ffaa0f97d6c0aa5b0720155f2e3820f568f663dc6728708b119834ace69b6760c0e04480039767e6e72bb8a382f1d65f32"
 
 RPROVIDES:${PN} += "libsecret \
 libsecret-1-0 \

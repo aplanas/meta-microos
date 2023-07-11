@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.2.0"
 
-RPM_NAME = "maven-filtering-javadoc-3.2.0-2.7.noarch.rpm"
-RPM_HASH = "a6192ff7c0f02b20b87d7aba5e1e74f45e8849a71637170e95552fcd8869cbd4fa4340eb63a693ba4b6a0727a5d54b4ab90ad84d42f90c1241330c5bc525792b"
+RPM_NAME = "maven-filtering-javadoc-3.2.0-2.8.noarch.rpm"
+RPM_HASH = "5753abbc8cae6e890f21f39dd13ec86cfebf32bcb020543c3f84c79f67c1694fca57015ca31d3ed07a980d4bb3cac25d5a6020387ba538128c98cac2a4f48f21"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-filtering-javadoc"

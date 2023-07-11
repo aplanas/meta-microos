@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.6.6"
 
-RPM_NAME = "json-glib-lang-1.6.6-2.8.noarch.rpm"
-RPM_HASH = "b2160ce060eb0157a7a00909b7baf407040ecc819acbac412d61d6284b5f8dac2ccb4560f858adde3fcdb9f7ab10865f84b9242b7485d979effb901ad076b34e"
+RPM_NAME = "json-glib-lang-1.6.6-2.9.noarch.rpm"
+RPM_HASH = "17db321500cf71262ebace35a32adb5616636c80fc2f6746612d13c0c10b3ad00e223be0f9faf164e5407791dcc45ca5cbce7f1a3d9c661308ac4e6898b68ee5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "json-glib-lang \

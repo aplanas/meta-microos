@@ -6,12 +6,11 @@ LICENSE = "Apache-2.0"
 
 PV = "0.23.1"
 
-RPM_NAME = "python310-responses-0.23.1-2.1.noarch.rpm"
-RPM_HASH = "b7401ec2b8628a06e2c4867e30fe865a610433371ccfe87190f6c6aeddc9c674517157eba6ece500bfa43f2a8f5f6d55304bb4042a0aee8e4d23685568a6fd0f"
+RPM_NAME = "python310-responses-0.23.1-2.3.noarch.rpm"
+RPM_HASH = "2395653aa6770dd2c06a25807c7d5de24fdcefc6894795774e2a3308d6626a5ee06b63c924042881cab100e7ea65f4270f8169f14a53601b4a7972a301c7fdc9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-responses \
-python3.10dist-responses \
+RPROVIDES:${PN} += "python3.10dist-responses \
 python310-responses \
 python3dist-responses"
 

@@ -11,8 +11,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.71dsvn64976"
 
-RPM_NAME = "texlive-easybook-2023.201.1.71dsvn64976-53.1.noarch.rpm"
-RPM_HASH = "3252f5edfce28b7e454f80daefb57233af1795e1ae1e2e4f6c49ce8519384e7807fce373a3b5a0a18894d1db292ff85ceeeb84bb4eb0eaa27169d86d9e905e37"
+RPM_NAME = "texlive-easybook-2023.201.1.71dsvn64976-53.2.noarch.rpm"
+RPM_HASH = "4bcf73fcfec33d5871cbc88f9ac6bcd7fc324d10e71da23b9e8082616bf448864482500eaded01abf506651370840c1389e4a1d0fcc813606ec83b76b1dbf2be"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-easybase.sty \

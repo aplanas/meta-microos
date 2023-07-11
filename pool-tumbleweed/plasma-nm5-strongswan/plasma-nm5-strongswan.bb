@@ -2,10 +2,10 @@ SUMMARY = "strongSwan support for plasma-nm5"
 DESCRIPTION = "strongSwan plugin for plasma-nm components."
 LICENSE = "(GPL-2.0-only | GPL-3.0-only) & (LGPL-2.1-only | LGPL-3.0-only)"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "plasma-nm5-strongswan-5.27.5-1.1.aarch64.rpm"
-RPM_HASH = "f7d0f661aadcf74a1d5e7c62ac9204ece0a1e8c4f84ab36112c2eb2a34287f9808049c22af11ea68c41c41e4aedc445d1ec07d054ea8539b1cb40364a4a4c257"
+RPM_NAME = "plasma-nm5-strongswan-5.27.6-1.1.aarch64.rpm"
+RPM_HASH = "59b82ee84e78e2294a3238898d0666f39a3ad5d1a9834ab61caa92a15d7f06700541a83c95c3238fdabe29050b31deb641b50f843c34022ad2ff4cab25285508"
 
 RPROVIDES:${PN} += "NetworkManager-strongswan-frontend \
 plasma-nm-strongswan \

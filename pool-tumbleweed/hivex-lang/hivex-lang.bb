@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
 PV = "1.3.23"
 
-RPM_NAME = "hivex-lang-1.3.23-2.3.noarch.rpm"
-RPM_HASH = "d440ab393485dfb66f28cd1b0947abb2fdebf1ba88294cb1101cb07b89df6d4c538051cbcef386932a14e3d41ff6cf0677f4a7604f036dd0303a0b1f944623b7"
+RPM_NAME = "hivex-lang-1.3.23-2.5.noarch.rpm"
+RPM_HASH = "903911abc0ff8957fc19cbaf3c0eaa273f66bf80508f369da85ba4e2dab4f0ec76b22af529b65c1b18e99529c82c34d1daad5bcf96807d868dbb5940d9d24cfa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hivex-lang \

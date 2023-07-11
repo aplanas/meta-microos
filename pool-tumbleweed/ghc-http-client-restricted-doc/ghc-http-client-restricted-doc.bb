@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.0.5"
 
-RPM_NAME = "ghc-http-client-restricted-doc-0.0.5-2.3.noarch.rpm"
-RPM_HASH = "f78ca3cdca20b9e84d119a1624e24e7c96e18f291a9b94ae0b10bc5d624974358c61488a2c0f7d43734ac97c3f1976bda6fde800bc368180036f9c76a4636a89"
+RPM_NAME = "ghc-http-client-restricted-doc-0.0.5-2.4.noarch.rpm"
+RPM_HASH = "8c5aa35c8b3b8d096aac4e3089b54fe3a1ae305195b67f5c47e1f009c4d25c07cb665e6b9ed1334532aba508017c065ca25e09a65b1e14c0a983752028f3f9ea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-http-client-restricted-doc"

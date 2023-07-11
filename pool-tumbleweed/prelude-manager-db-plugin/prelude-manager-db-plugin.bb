@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-only & GPL-3.0-or-later"
 
 PV = "5.2.0"
 
-RPM_NAME = "prelude-manager-db-plugin-5.2.0-2.10.aarch64.rpm"
-RPM_HASH = "5c9d591f1f41d6e374175022787d8522d95b46895308e9678ee332a677f1a3bd0a2de7025b922dd98f358507d26c79d3bc186f8e14e4222ad547661b07939747"
+RPM_NAME = "prelude-manager-db-plugin-5.2.0-2.11.aarch64.rpm"
+RPM_HASH = "64551958dbce21829b33f58f5f72d3b59c62f7b3d73fddb8196e513cb74de68d762e88ebe586d19a703f7e34eb22a7a9a054ed7ca6e63ae57733acb5a8f35aee"
 
 RPROVIDES:${PN} += "prelude-manager-db-plugin"
 

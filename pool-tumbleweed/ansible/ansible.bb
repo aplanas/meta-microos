@@ -6,14 +6,14 @@ modules can be written in any language and are transferred to managed machines \
 automatically."
 LICENSE = "GPL-3.0+"
 
-PV = "8.0.0"
+PV = "8.1.0"
 
-RPM_NAME = "ansible-8.0.0-1.1.noarch.rpm"
-RPM_HASH = "0d885933ca8f2aecafa1a503af0272159390ac488287eb4ecbf5967f4c7060392f27b076d5576208fc50f03807878aaca9afe7a59225e9789661cf07df28e9df"
+RPM_NAME = "ansible-8.1.0-1.1.noarch.rpm"
+RPM_HASH = "52199b63abe2c9e520828e66f889733ee1fdd691ed78740627cade9aac74e1b220da6ec66d8fba2d7cd427126231e6cfa93804c77666bbdb21e686045d864b3a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ansible \
-python3.10dist-ansible \
+python3.11dist-ansible \
 python3dist-ansible"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

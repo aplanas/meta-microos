@@ -7,8 +7,8 @@ LICENSE = "(GPL-2.0-or-later | MPL-1.1 | LGPL-2.1-or-later) & MIT"
 
 PV = "5.0.0"
 
-RPM_NAME = "cjs-devel-5.0.0-1.10.aarch64.rpm"
-RPM_HASH = "2a4be5a4c7acd552f45e4aa0f842ed6ec1fe1e0d8eb09cf417acf2245f8cb90d4a1cdefa8a82983a1dbe4aa971a73863d6d0fa9c2b3050209a261ed38ba2bd28"
+RPM_NAME = "cjs-devel-5.0.0-1.11.aarch64.rpm"
+RPM_HASH = "6ea212f1ec58149b282c71d9738e5a02bef4af795381cd001bd292c036a111847e182a167a197f692ad337b1339ce2d68c3a847f134eea8142f0287eb11f84fe"
 
 RPROVIDES:${PN} += "cjs-devel \
 pkgconfig-cjs-1.0"

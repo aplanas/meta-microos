@@ -2,10 +2,10 @@ SUMMARY = "Development files for Qt5's State Chart XML library"
 DESCRIPTION = "You need this package if you want to compile programs with QtScxml."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libqt5-qtscxml-devel-5.15.9+kde0-1.1.aarch64.rpm"
-RPM_HASH = "dccebd3a538c82c15eba899b6ca84c864cb7d955b9706bee6068728f4859d37030cf4aca7766e58326413fd980fc9abf4ba1c49fd2ec380940d865acf5c26e24"
+RPM_NAME = "libqt5-qtscxml-devel-5.15.10+kde0-1.1.aarch64.rpm"
+RPM_HASH = "666709d3784af4bb6ca79351705bdcc653c789c28950a2826349c1029b7da34886c4aa293ea8710a132234e2f3c61c18ed104c789cd1aede4d333ccda82e6df3"
 
 RPROVIDES:${PN} += "cmake-Qt5Scxml \
 libqt5-qtscxml-devel \

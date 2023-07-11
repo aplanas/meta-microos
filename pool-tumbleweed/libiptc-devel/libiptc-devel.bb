@@ -5,8 +5,8 @@ LICENSE = "Artistic-2.0 & GPL-2.0-only"
 
 PV = "1.8.9"
 
-RPM_NAME = "libiptc-devel-1.8.9-1.3.aarch64.rpm"
-RPM_HASH = "a6a0ab19f3075f62da9c55bc5103dfa15ab312a7ff1cf132ebf689c948787e2c6a621e806e6f4a636b622eee6c30ffe2b2416e8797c8e3fb457fa2105ca57032"
+RPM_NAME = "libiptc-devel-1.8.9-1.4.aarch64.rpm"
+RPM_HASH = "ab3359e1551ba8b8b601b4a983ad6a86c988334c524f7bb6222e0aef34f3fa7f6aaf7ca67ea1d97eb6477c19abdc868b573526926da11b44655d19c58ab585f9"
 
 RPROVIDES:${PN} += "libiptc-devel \
 pkgconfig-libip4tc \

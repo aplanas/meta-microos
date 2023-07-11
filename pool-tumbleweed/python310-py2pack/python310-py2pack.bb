@@ -7,12 +7,11 @@ LICENSE = "Apache-2.0"
 
 PV = "0.9.0"
 
-RPM_NAME = "python310-py2pack-0.9.0-1.1.noarch.rpm"
-RPM_HASH = "0d9ea87dfef4cbb7ae34ca55d623bc1e778ab5565cd9de6e2375180918d86ee1c53a1fc238790c1b891f2ca7525d21030374c9cc1d61bedbccf52b4eee3d64af"
+RPM_NAME = "python310-py2pack-0.9.0-2.3.noarch.rpm"
+RPM_HASH = "9eb741f890369cdfa80ad4950dd234842d1a0275a6cc3bb3224ed113895b7c5e1687fd3ab7f31c1eb754d796f92af94d939c7fe4da116afbd2862758328f7156"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-py2pack \
-python3.10dist-py2pack \
+RPROVIDES:${PN} += "python3.10dist-py2pack \
 python310-py2pack \
 python3dist-py2pack"
 
@@ -25,6 +24,7 @@ python310-pbr \
 python310-pypi-search \
 python310-requests \
 python310-setuptools \
+python310-tomli \
 update-alternatives"
 
 inherit rpm

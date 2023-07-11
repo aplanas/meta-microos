@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "2.19"
 
-RPM_NAME = "libcryptmount0-2.19-2.3.aarch64.rpm"
-RPM_HASH = "2c54f352172cd157faf53b1f4ea1d288a47d3b8bc132d098e003a245b4f9c5df6bb89b73213b5b1ce086187a487814a5b374831ca136880d379de59ff09db3ff"
+RPM_NAME = "libcryptmount0-2.19-2.4.aarch64.rpm"
+RPM_HASH = "38913747da2bc07524e9e15180e408ca4c3b2d3a1cb80c2eb42015aa471f262330c428afa07e272477bf990072668c0e831968cd86f39fce455864289ca79230"
 
 RPROVIDES:${PN} += "libcryptmount.so.0 \
 libcryptmount0"

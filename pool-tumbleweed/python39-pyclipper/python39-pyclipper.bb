@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "1.3.0.post4"
 
-RPM_NAME = "python39-pyclipper-1.3.0.post4-2.1.aarch64.rpm"
-RPM_HASH = "b95fa2287e1f73b2818c73e29125dd03a1f7f3facc4018e0afb677a1c3c588f6ff0871b161343390bef2afd0ab79524a09df756eacf9d10d6abbf7dd2de80cf8"
+RPM_NAME = "python39-pyclipper-1.3.0.post4-2.3.aarch64.rpm"
+RPM_HASH = "d1905aa579b6f1bf8f3ab9d89786507e4713a116637c922e6d0d8aae517e8d71df5e519928a9515bac9d6e74eeb551ddc35812dfe35070b4e646bcba3c7c92c1"
 
 RPROVIDES:${PN} += "python3.9dist-pyclipper \
 python39-pyclipper \

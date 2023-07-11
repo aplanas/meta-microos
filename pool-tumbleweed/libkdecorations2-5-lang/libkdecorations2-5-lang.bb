@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libkdecorations2-5"
 DESCRIPTION = "Provides translations for the 'libkdecorations2-5' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "libkdecorations2-5-lang-5.27.5-1.1.noarch.rpm"
-RPM_HASH = "7e3d882898225102c33bdc10997ebf79e6fa5438018840c9fbf05f63fba1bc2cb0814c57ffd084ea07d92323ae2fa9a56ae7ef0d87e1270628b5174ae9b95c5a"
+RPM_NAME = "libkdecorations2-5-lang-5.27.6-1.1.noarch.rpm"
+RPM_HASH = "40bb99e6fd31038f106d8094ae02a623ea72e733336fddef1d2f7d8b95e5d4e5eefab7256a7f2349e9614b0d0f0ef7128ee7ba34df1e6ad34d1af51ea7d92886"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libkdecorations2-5-lang \

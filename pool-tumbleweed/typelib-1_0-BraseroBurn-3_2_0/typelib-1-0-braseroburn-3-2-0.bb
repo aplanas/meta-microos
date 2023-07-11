@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.12.3"
 
-RPM_NAME = "typelib-1_0-BraseroBurn-3_2_0-3.12.3-2.7.aarch64.rpm"
-RPM_HASH = "e8cacf1670b391cd44904242a8b8568fe5f2bc57aafb529ef237d1968cca109f085e7c426eafa5550d6f5d939a17adbeb36c23adb6aaaf1672c4f96d70ac7814"
+RPM_NAME = "typelib-1_0-BraseroBurn-3_2_0-3.12.3-2.8.aarch64.rpm"
+RPM_HASH = "7bf017c02a7327212b33b22d75bcf8597500413c94c7d6ce056f3b354793cbdb1243f3dacc6cce890577c7638b57472d93aed718b90b8baeebfcd63efdfc5ea8"
 
 RPROVIDES:${PN} += "typelib-1-0-BraseroBurn-3-2-0 \
 typelib-BraseroBurn"

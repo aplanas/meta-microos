@@ -8,8 +8,8 @@ LICENSE = "MPL-2.0"
 
 PV = "2.6.4"
 
-RPM_NAME = "minizinc-2.6.4-1.4.aarch64.rpm"
-RPM_HASH = "ed7b8c4f88a01699fa8455124d303dc9228bc87a4c721a85f75c43dc6302d509330297013d3c831e59980a063b0b4627cb568142d60f9c2b1ee254711066ee9f"
+RPM_NAME = "minizinc-2.6.4-1.5.aarch64.rpm"
+RPM_HASH = "28c3c84ba5ed92af90db0e13260fc5fefe4a3d03cc97a0e58a0b33679dbb9230353f18ecdb76e66d41bf01d03a64a47b8e37aa8609eee1307be294fc931c8ab0"
 
 RPROVIDES:${PN} += "libmzn.so \
 minizinc"

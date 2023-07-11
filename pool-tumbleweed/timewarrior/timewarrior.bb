@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.5.0"
 
-RPM_NAME = "timewarrior-1.5.0-1.1.aarch64.rpm"
-RPM_HASH = "bcbe6a915fda474f9db88b5c1c7dfc4708ce674c521ee978331615dff4e0b8f5ed1b870ddfba5a036946f4a13beb64b0a7c49a10a6111244f1b1bf9956dffa5b"
+RPM_NAME = "timewarrior-1.5.0-1.2.aarch64.rpm"
+RPM_HASH = "8f5f82ca4e96aa7fd8bd55bb34b9f63d786dbc73ecb68ee904345371551c3331edaae73dbcafbef9130e9a3956185bceebc8479a19ac06c205a9f9733598b882"
 
 RPROVIDES:${PN} += "timewarrior"
 

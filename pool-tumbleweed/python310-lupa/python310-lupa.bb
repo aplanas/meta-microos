@@ -4,11 +4,10 @@ LICENSE = "MIT"
 
 PV = "1.14.1"
 
-RPM_NAME = "python310-lupa-1.14.1-1.5.aarch64.rpm"
-RPM_HASH = "7ab76acd80071e97a02420b7e329852c8ccc0f26c1cc4c4647d9bd5d12accaa3536d33d231267307d22f084d3a258281f853f7fafd9b850b5380d17175a28fed"
+RPM_NAME = "python310-lupa-1.14.1-2.3.aarch64.rpm"
+RPM_HASH = "f220f184afd39b13fb911314c573a3cc2a6285a6ae092178c840b6a64347c8609625a9f2d306859ac5cc12bc23fcfa0dea103102b8de9c4d13efd1d0009d1be4"
 
-RPROVIDES:${PN} += "python3-lupa \
-python3.10dist-lupa \
+RPROVIDES:${PN} += "python3.10dist-lupa \
 python310-lupa \
 python3dist-lupa"
 

@@ -4,11 +4,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.0.2"
 
-RPM_NAME = "python311-pygaljs-1.0.2-2.1.noarch.rpm"
-RPM_HASH = "cf7fcb359eccd86a80c08117354daea0f6abb2f656501abe0bcad2c32bdad734340695a2e65b5a9cdcbd2013bbd9991ede135118554ab27b8e6e4fc36ecefcf2"
+RPM_NAME = "python311-pygaljs-1.0.2-2.3.noarch.rpm"
+RPM_HASH = "a365089b7d6d62a5e3a5bcf2eb3d3e9a4ff2cce12190b46cb79ad6096b5bbbb891162a999624be8742b7cb5e2a1ab2c0346c64a2c0115ebab43fe21879e44758"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pygaljs \
+RPROVIDES:${PN} += "python3-pygaljs \
+python3.11dist-pygaljs \
 python311-pygaljs \
 python3dist-pygaljs"
 

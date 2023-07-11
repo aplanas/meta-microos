@@ -4,18 +4,18 @@ The Compute Library is a collection of low-level functions optimized for Arm CPU
 Examples binaries part."
 LICENSE = "MIT"
 
-PV = "23.02"
+PV = "23.05"
 
-RPM_NAME = "ComputeLibrary-23.02-2.1.aarch64.rpm"
-RPM_HASH = "a97fb20bc4da318fce88172ea492ace4ac44ca9ea62f6be3c7a7559d8ab912b8326d19284cf532bd8188f243d89e6ba53bc15b2c61c85315832f1a2b37f51650"
+RPM_NAME = "ComputeLibrary-23.05-1.2.aarch64.rpm"
+RPM_HASH = "c698af726494690e73b51e8fcd06cdaa28891d40592e291cec8d3d61e747bf015e47f2d5ca73e559cb56dfbcb34b90665a80678fa6c0ceb5c0a3cb1a48adc25c"
 
 RPROVIDES:${PN} += "ComputeLibrary"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1 \
-libarm-compute-graph.so.30 \
-libarm-compute.so.30 \
+libarm-compute-graph.so.31 \
+libarm-compute.so.31 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \

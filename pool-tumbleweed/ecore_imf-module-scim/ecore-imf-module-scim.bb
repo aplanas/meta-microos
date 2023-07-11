@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.26.3"
 
-RPM_NAME = "ecore_imf-module-scim-1.26.3-30.6.aarch64.rpm"
-RPM_HASH = "26dee629032671c380c833cc7c59ddacc026ea92a03e1d0cd1f9eeba7e54ac0455d340228d04bd9e5a5083ccf27779d137e45136552663b3d131f7155bc44c2d"
+RPM_NAME = "ecore_imf-module-scim-1.26.3-30.8.aarch64.rpm"
+RPM_HASH = "513f4876e5bb9185f30b85aab9523afb3d452eed37542bece9a39e5c7d2c15836704cf38d49d9a694cea774bcb82cfecbfc3cb055907614bd7437d376c67d10a"
 
 RPROVIDES:${PN} += "ecore-imf-module-scim"
 

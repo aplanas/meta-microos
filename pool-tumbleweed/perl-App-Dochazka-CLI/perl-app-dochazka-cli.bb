@@ -15,8 +15,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.238"
 
-RPM_NAME = "perl-App-Dochazka-CLI-0.238-1.29.noarch.rpm"
-RPM_HASH = "d6d48724820a443a8b04ced885bca5f3b65de02aad9c4ad2d55c83dae61a48da48440d12d70d869eb0d788bc9d93301cc274e4cce41030070a340cff5edf1c9b"
+RPM_NAME = "perl-App-Dochazka-CLI-0.238-1.30.noarch.rpm"
+RPM_HASH = "2f453958a67040ab12cb21e81353e7a708190f2b4900b70d7dd754a1e1fd9fd73a598ae8494d63283f89576083f0b4b3d0fc66e9000259b85dc5a2f49db984f8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-perl-App-Dochazka-CLI \
@@ -41,7 +41,7 @@ perl-App--Dochazka--CLI--Util \
 perl-App-Dochazka-CLI"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-App--CELL \
 perl-App--Dochazka--Common \
 perl-Date--Calc \

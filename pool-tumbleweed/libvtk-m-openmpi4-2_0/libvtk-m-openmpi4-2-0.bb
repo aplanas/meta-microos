@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0.0"
 
-RPM_NAME = "libvtk-m-openmpi4-2_0-2.0.0-1.1.aarch64.rpm"
-RPM_HASH = "9149e51e0834a3a0ec7831c12ae8cb537439296c9b8b14b56e616f5269c601b5d201ba377ecce912712c26d42aadc3f02cf92b7eb27c0ea6a353fe1bb2fc0f33"
+RPM_NAME = "libvtk-m-openmpi4-2_0-2.0.0-1.2.aarch64.rpm"
+RPM_HASH = "015fb71d9cf11691aaaf2c3afd9ce5dec6bfcc65c9fa499dcf0b93209150870056269dfcbc9f683bb5e0e0ad980f1fed9f208e3eb0ea1120e0d82da39d4e6559"
 
 RPROVIDES:${PN} += "libvtk-m-openmpi4-2-0 \
 libvtkm-cont-testing.so.2.0 \

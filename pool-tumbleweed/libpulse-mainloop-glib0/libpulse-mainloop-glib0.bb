@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "16.1"
 
-RPM_NAME = "libpulse-mainloop-glib0-16.1-3.1.aarch64.rpm"
-RPM_HASH = "dbad00d3ae7115a3769f43e6193c662e0a46ab9331181c65cd1aa2662afa7f4987d89a8e424dff054dfc102aef683b05e06758f3924df22d631f02c48e20d109"
+RPM_NAME = "libpulse-mainloop-glib0-16.1-4.1.aarch64.rpm"
+RPM_HASH = "172884d536ca1b272140582c1613227f409334378a3ed1e9b1da6cee1ceb57c3776eb7dd54080ac54ae276d437a0b1106892cc94e7dfa8d305ae8ba34fd44d7f"
 
 RPROVIDES:${PN} += "libpulse-mainloop-glib.so.0 \
 libpulse-mainloop-glib0 \

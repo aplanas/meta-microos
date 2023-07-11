@@ -17,8 +17,8 @@ LICENSE = "GPL-3.0-or-later-with-Autoconf-exception-3.0"
 
 PV = "2023.02.20"
 
-RPM_NAME = "autoconf-archive-2023.02.20-1.3.noarch.rpm"
-RPM_HASH = "bfc57c06b99d8e255a01462106fc748368a83a93480f245e98b8621a6f0b3ab8488cbd8038e878d452911b185fb3f622ae386602213c840d406880e7f1427374"
+RPM_NAME = "autoconf-archive-2023.02.20-1.4.noarch.rpm"
+RPM_HASH = "4a84dd7f9d73a53dbb37c8d9bd513e6fce7dd8b9e09f9cb81dc80ac19e24f826e59bac1fd731008b9a1620979ab9d01bf3b6854ba98bcd8dd82c218999f29cc0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "autoconf-archive"

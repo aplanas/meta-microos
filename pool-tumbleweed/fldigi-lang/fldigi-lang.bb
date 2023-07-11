@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "4.1.26"
 
-RPM_NAME = "fldigi-lang-4.1.26-1.3.noarch.rpm"
-RPM_HASH = "3a7d2c694477002338c65ef4d066813af946eaf82125e4bc8834210b43d5655980fcffb3aa8cb5427189b71faabcfb44ceeaf02e9f098607c144be6b3750ccca"
+RPM_NAME = "fldigi-lang-4.1.26-1.4.noarch.rpm"
+RPM_HASH = "b1aaa06ddbdea3467095d56d864cea2dbd5235d03a3a9022cfadc25ae6f6d036e41efc909274560f0782c3590e49c53b9c20ad0db2259f8d146bf430e9971e73"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fldigi-lang \

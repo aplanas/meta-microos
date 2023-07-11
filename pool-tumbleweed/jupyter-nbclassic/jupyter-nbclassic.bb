@@ -9,14 +9,14 @@ on top of the new Python server backend. \
 This package contains the jupyterlab server configuration and desktop files"
 LICENSE = "BSD-3-Clause"
 
-PV = "0.5.6"
+PV = "1.0.0"
 
-RPM_NAME = "jupyter-nbclassic-0.5.6-1.1.noarch.rpm"
-RPM_HASH = "94a54df6e2efc0ba54634f0032bc17f21c699d189e7cf820d235710bf71223cf7c45c4fa902e36685ae4fa8998b653af9ca5c0bda9e8115bda13f61a70125df5"
+RPM_NAME = "jupyter-nbclassic-1.0.0-1.3.noarch.rpm"
+RPM_HASH = "40dafe600ac25d5f39c639c4cc920c482f811f610f40a0b86fa1e52187293d3b1450414c88d73b77028350ebcc4f57d412d29eaa6c3ac88ced0f3164fa7ad399"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-nbclassic"
 
-RDEPENDS:${PN} += "python3-nbclassic"
+RDEPENDS:${PN} += "python3dist-nbclassic"
 
 inherit rpm

@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "0.12.2"
 
-RPM_NAME = "python39-lockfile-0.12.2-3.1.noarch.rpm"
-RPM_HASH = "b9ed86811111aae1d1d3334e326bf939971019a5eb9556ccd2168feeb513075b24a6d7facc4e1626e51f39ad59c47abb34555e2d7622a0c6418fbefe206a38a9"
+RPM_NAME = "python39-lockfile-0.12.2-3.3.noarch.rpm"
+RPM_HASH = "da496df788589338307912df32b91a4e0dddf070436a75b4f5a4c3390890ea1434626ed900159cab8147fd821888e50b9197a81092bf5b7615309eae98319db6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-lockfile \

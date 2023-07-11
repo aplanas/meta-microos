@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "5.4.4"
 
-RPM_NAME = "fplll-5.4.4-1.3.aarch64.rpm"
-RPM_HASH = "3be25086ec55c7c22aaf62342407c7cc4ebd4cdfd9f4ef391c7125dec667b6b0d5b2cf2e9a80eea366b8fae3fa5453067c0c00b2efd73fee124e58652fb63e23"
+RPM_NAME = "fplll-5.4.4-1.4.aarch64.rpm"
+RPM_HASH = "e39553a9ae41f1217ba9a34fc7cca09b7acafdde5eb6025dec47f0f1971d4259065fde223f1579cc2a787e7fdeb400a04586822481507fd2138540e7614b73ab"
 
 RPROVIDES:${PN} += "fplll"
 

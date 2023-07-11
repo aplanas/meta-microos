@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.2.5"
 
-RPM_NAME = "yubikey-manager-qt-1.2.5-1.2.aarch64.rpm"
-RPM_HASH = "3b6842f41b65670076a592463330de4c2ccef57287bc5423c952d67522a3bc42a4286b2f1cf1b219bc8d631c38db230069b1c9df4aba57a789712f62deab11fc"
+RPM_NAME = "yubikey-manager-qt-1.2.5-1.3.aarch64.rpm"
+RPM_HASH = "d7e6d4880b458650fc6d0282c317bbd66f5030d272cc3a6d81b4da02ed7a8f0dad6f37bc5fd572562bf65c4abac1119587f184ff90e52fe0b734a776797945f6"
 
 RPROVIDES:${PN} += "yubikey-manager-qt"
 

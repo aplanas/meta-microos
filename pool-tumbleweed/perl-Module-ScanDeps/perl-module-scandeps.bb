@@ -29,15 +29,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.31"
 
-RPM_NAME = "perl-Module-ScanDeps-1.31-1.9.aarch64.rpm"
-RPM_HASH = "699643dc155bd5f1f1e852dc1feb891731e0706d52f29946c9967e26725801661e21d03bba88431b91517ab51eb23b263c428f2ed19cfcec18fb100bdff04c13"
+RPM_NAME = "perl-Module-ScanDeps-1.31-1.10.aarch64.rpm"
+RPM_HASH = "0450e5aee41954b532c1e4e2b53c3aaeb0f16c8723bfec138db1993134134b2753a019f188de9fe7e4ae6342413083a1957e1de1e1cc0f553f64e6d088e04d53"
 
 RPROVIDES:${PN} += "perl-Module--ScanDeps \
 perl-Module--ScanDeps--Cache \
 perl-Module-ScanDeps"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-Module--Metadata \
 perl-version"
 

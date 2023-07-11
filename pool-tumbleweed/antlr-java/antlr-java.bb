@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later & SUSE-Public-Domain & MIT"
 
 PV = "2.7.7"
 
-RPM_NAME = "antlr-java-2.7.7-122.1.noarch.rpm"
-RPM_HASH = "40194b03de4f676dde9a18e466e9c393c0507c2ccf325a3d15f2ed8ce47e69a31d5cbdffb65bb5891a2a5a8f46115479ec418db9ea1436a39e0c9707b946b400"
+RPM_NAME = "antlr-java-2.7.7-122.2.noarch.rpm"
+RPM_HASH = "ba1dd77814ccf4d465dd6b4d53bab5b55f3998feb15a179500bb68a0bdabcf189f9229bf569f678917efb8b5fc40960e2a7d685e6264c9350f84f7bbfe6cc52e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "antlr-java \

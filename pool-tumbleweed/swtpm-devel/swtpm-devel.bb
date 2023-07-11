@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.8.0"
 
-RPM_NAME = "swtpm-devel-0.8.0-3.1.aarch64.rpm"
-RPM_HASH = "efcf4ca733e2150482625a42d80843db6a5c2807944cd0446b4aa01589c03eb237aabb7f9b42f9b7b2b62ad0067439188342e1d64aa330d29cf9c6c0abbea15c"
+RPM_NAME = "swtpm-devel-0.8.0-4.1.aarch64.rpm"
+RPM_HASH = "3f7e606d7ef60c3ea2bd06a9f2a8981f4c10e1e5755ea69f3e6fec39e2a64d0194f138ccdb3f2cfa99ed961407fb9d381d17add0c3ebc22429193eae5690cc1e"
 
 RPROVIDES:${PN} += "swtpm-devel"
 

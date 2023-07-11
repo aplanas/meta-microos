@@ -2,10 +2,10 @@ SUMMARY = "Translations for package ktp-accounts-kcm"
 DESCRIPTION = "Provides translations for the 'ktp-accounts-kcm' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "ktp-accounts-kcm-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "37beffc32c381b2bce281d2939007f8a88f181cb30dea48f722d828dda43bc8c83254947b8aee965cea1720c1095b199b650e196c87c418172afb2479f7b2617"
+RPM_NAME = "ktp-accounts-kcm-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "7f1eca417fbee84636880c919a57f1488e944f719821d619104b32e46e3e12af18da009f4f1ade1f884a67c60a1ab9b93cde336a94a8372e84d29cfe7de9afaa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ktp-accounts-kcm-lang \

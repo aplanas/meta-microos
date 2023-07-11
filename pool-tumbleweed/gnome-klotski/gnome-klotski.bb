@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.38.2"
 
-RPM_NAME = "gnome-klotski-3.38.2-1.13.aarch64.rpm"
-RPM_HASH = "2106cc891559e6d5fa2bbbc40012746c385a25c658b439c7f88a13cb7fcf777b9d7c66c5ce8e90b3cff43cec18a3e8e56dcd5b1e9e1f81ca155062cb29d39662"
+RPM_NAME = "gnome-klotski-3.38.2-1.14.aarch64.rpm"
+RPM_HASH = "85750ade73b8c9b9b375b421275ef86103d412377e28e5b4f2d5e19de24ff84e2dd25f595b360526a73ef07a6d139dca5e7917ebfb77cc3334639f712693e422"
 
 RPROVIDES:${PN} += "gnome-klotski"
 

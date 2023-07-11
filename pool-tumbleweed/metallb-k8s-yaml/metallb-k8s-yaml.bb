@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.9.5"
 
-RPM_NAME = "metallb-k8s-yaml-0.9.5-1.13.noarch.rpm"
-RPM_HASH = "bedf5bf533d6054f4e311096a20c5ba68f70cdb0488a6b509a3a54d5576f0e0ddc3e0f557ae78d3810fed460bc0fa8c216c07e7b70935e70625f1348b713052c"
+RPM_NAME = "metallb-k8s-yaml-0.9.5-1.14.noarch.rpm"
+RPM_HASH = "14894299d8170a2d9878c74c6024b92dce1956d0200ca27eceecb2626b65eac8f24589a3d4b52bae56d06b96241f4bd09d0f46da8de310957beaa2ba28d24f42"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "metallb-k8s-yaml"

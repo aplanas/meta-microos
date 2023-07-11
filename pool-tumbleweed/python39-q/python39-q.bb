@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.7"
 
-RPM_NAME = "python39-q-2.7-1.3.noarch.rpm"
-RPM_HASH = "1df1a8aadca519b0b1f1495f194ae8ebc668164de5ff7c2b6f59aafb0f20870b2103375d8b3c87314c1c07a613822e113a0400dc1505ea1d9237c6b463204275"
+RPM_NAME = "python39-q-2.7-1.4.noarch.rpm"
+RPM_HASH = "4fdfae0e0a58781671d24dcbc5d7b1f07755cc6d552ccaca251dbfd7886d80bea56fc5bce13550679863c768183ad785c280301524d5d0a8a0c80fa96d713d94"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-q \

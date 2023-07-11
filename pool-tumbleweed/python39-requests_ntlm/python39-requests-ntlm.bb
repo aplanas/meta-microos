@@ -7,8 +7,8 @@ LICENSE = "ISC"
 
 PV = "1.2.0"
 
-RPM_NAME = "python39-requests_ntlm-1.2.0-2.1.noarch.rpm"
-RPM_HASH = "54d9d9c4e807d13cde96f2bb586535696ffa9c00c3e34cec7cbcff15425abbbf5b0ba457d151394b7a5e254a3629bb7c658d1ff4199ab28f23927567a2f81eaf"
+RPM_NAME = "python39-requests_ntlm-1.2.0-2.3.noarch.rpm"
+RPM_HASH = "bff067a72ee69d57695ccd91cff2ce4c805dc6af3d7e6f57644cd1363b4904a7b6f688ade4cb73173459ecc2fc6e56764ce65fda98b519d8675be0bb8d7afa9d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-requests-ntlm \

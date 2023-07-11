@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "43.0"
 
-RPM_NAME = "gnome-power-manager-lang-43.0-1.3.noarch.rpm"
-RPM_HASH = "870d4a77cf6edd9d37c35a1b53fdd4109acae12b9a45465a71dd68fcfd805c23cecbafe34f1e30cf34a006b9f71c68118e1759029f6af12f40d9c5fef85d78a4"
+RPM_NAME = "gnome-power-manager-lang-43.0-1.4.noarch.rpm"
+RPM_HASH = "930d3dd3ca682a2448cb18126b6a0822fe79b8d4a982855f843d581c979adbb3134b26babc7ed349e5cf6ffd50134110e6d2a4f6aeae31202b389c3d0eb4d59b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-power-manager-lang \

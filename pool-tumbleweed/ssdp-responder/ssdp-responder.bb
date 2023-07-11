@@ -9,8 +9,8 @@ LICENSE = "ISC"
 
 PV = "2.0"
 
-RPM_NAME = "ssdp-responder-2.0-1.2.aarch64.rpm"
-RPM_HASH = "45328b279ff9af02b5bf45bceea58cfd526112b3d2bd237313a1bfd1da14c482051eca06bdd4a28c0fe11f25128efc48c1eec22da3f0904762502f05ebf66d19"
+RPM_NAME = "ssdp-responder-2.0-1.3.aarch64.rpm"
+RPM_HASH = "a5ff4e0652b0aea8120f4339e79c87b0823b0eb98edcb78b2305e7c9ef58ded267e8ddba445355c663a768555bad93077d18baafd74d831e1d350382c14168d8"
 
 RPROVIDES:${PN} += "ssdp-responder"
 

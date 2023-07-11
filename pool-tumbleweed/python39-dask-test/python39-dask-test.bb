@@ -4,15 +4,22 @@ This subpackage provides the .test submodules in the sitelib required for \
 unit testing dask."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.3.2"
+PV = "2023.5.1"
 
-RPM_NAME = "python39-dask-test-2023.3.2-3.1.noarch.rpm"
-RPM_HASH = "decd6f378f0d9a6ec5e3a07f1adf248ed5e5d71f0e9eb424f1cf3c1837e9cc98f2eb9deb3679003e621814b6a1377407f80a3904b5740fe6fb40d769bcef4e46"
+RPM_NAME = "python39-dask-test-2023.5.1-2.3.noarch.rpm"
+RPM_HASH = "eee16cb4ba296e83443c7032b8236c90b17ea80b9d0e88b0e7ec952557dc9d6d5a26c428528f54859b7b1eea8b19e42c97bbfc8ffc8230b4fb7c9434aed9ccb6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-dask-test"
 
 RDEPENDS:${PN} += "python-abi \
-python39-dask-complete"
+python39-dask-complete \
+python39-hypothesis \
+python39-pandas \
+python39-pre-commit \
+python39-pytest \
+python39-pytest-asyncio \
+python39-pytest-rerunfailures \
+python39-pytest-xdist"
 
 inherit rpm

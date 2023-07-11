@@ -4,10 +4,10 @@ sync algorithm that keeps a local directory in sync with the \
 content on your cloud."
 LICENSE = "GPL-2.0-only & GPL-3.0-only"
 
-PV = "3.2.0"
+PV = "4.1.0"
 
-RPM_NAME = "libowncloudsync0-3.2.0-2.3.aarch64.rpm"
-RPM_HASH = "43eb82a6b5677f6161b2811de6e481ca5deca42dff92937a471be81552587f75307001d76a653f77c3d31bcb4f9135dd771f1f913a94c6a04b6ac10f06c53060"
+RPM_NAME = "libowncloudsync0-4.1.0-1.1.aarch64.rpm"
+RPM_HASH = "45c33ec9f94d019e8ac103dd3256c4a045948f73a5d99d42ee2de9901f3ffe1966f953e60faafb2ffdb1f05bfff0b7a87a6ffbaaa764cd34bfe3105f7f436bd7"
 
 RPROVIDES:${PN} += "libowncloud-csync.so.0 \
 libowncloudResources.so.0 \

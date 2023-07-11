@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.3.2"
 
-RPM_NAME = "prom2json-1.3.2-1.3.aarch64.rpm"
-RPM_HASH = "1f60c7d98b45aab609bad980df11e5936a87db4b5f01efe77f94a5b1ff47c0918152e480116c6efd7d5df4f4fe5d2254fbc833b4541b6044d5219321ded195a2"
+RPM_NAME = "prom2json-1.3.2-1.4.aarch64.rpm"
+RPM_HASH = "87b5b8a11dcaededdfeab6b1f0b23a4f45c2b23cb73912215693de149fd421b47f776a37ad575b3b51ef6090360d6673a380ec474d78c8c2fafa9b201f6ec4f3"
 
 RPROVIDES:${PN} += "prom2json"
 

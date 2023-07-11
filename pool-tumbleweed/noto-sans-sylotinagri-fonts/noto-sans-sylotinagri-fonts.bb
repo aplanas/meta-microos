@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-sylotinagri-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "32a54e691700dc3baa226a3ef03d0140b360c7bcfdade0dde0c66e4af7bb85a9a7c30fb8451598ed318a0b191f42ac266e55431c5b5e9cad797cff036ba5ce13"
+RPM_NAME = "noto-sans-sylotinagri-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "bc040f6bc5285df833dd0f0d6ba6d8f9c5f38ec25ff4f47addcffd2b2666e38874a30d70de620962db414bdf58d5cc2bd23953b708c750b5a6c3acdb5b4549c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-sylotinagri \

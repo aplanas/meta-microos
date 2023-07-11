@@ -7,15 +7,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.30"
 
-RPM_NAME = "perl-Cache-Memcached-1.30-1.20.noarch.rpm"
-RPM_HASH = "7d365987023e7cf1dfb62703cb811aa58d5c3d966c2e9d8c8e42c1e6dc6ac7658dafed9a77e71855ac1bf260bc5620006627da5be9dd541ad869a102fb34a598"
+RPM_NAME = "perl-Cache-Memcached-1.30-1.21.noarch.rpm"
+RPM_HASH = "e4add1946a8e11499b7b075d52dc3644df5e9f7f9b84378832d96108eeb9da2f21103cc41a02dda222dad2b7cea808b24d1c6743bfe3de53f62af62790968d65"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Cache--Memcached \
 perl-Cache--Memcached--GetParser \
 perl-Cache-Memcached"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-String--CRC32"
 
 inherit rpm

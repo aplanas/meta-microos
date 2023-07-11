@@ -38,13 +38,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.2501"
 
-RPM_NAME = "perl-Exception-Base-0.2501-1.23.noarch.rpm"
-RPM_HASH = "3fa451d04627d4fb6d9e39ff4ee321e33bc19562c1aa4155f1e4dc9edaf8f117c7757a9ba52fd1180c6f3f9c6333f754815c472eb77b253695db5c85ae9b3421"
+RPM_NAME = "perl-Exception-Base-0.2501-1.24.noarch.rpm"
+RPM_HASH = "78c67d549bfabb16a5d43fde7372ee25dc9c2ee32475a4c9fb7a3bec4f361b1522300225653e9d9c5b7b915f5aa7c223dbb3377bacad61ba2b35a424fcf41cbb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Exception--Base \
 perl-Exception-Base"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

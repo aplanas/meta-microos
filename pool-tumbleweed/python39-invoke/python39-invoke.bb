@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.1.2"
 
-RPM_NAME = "python39-invoke-2.1.2-1.1.noarch.rpm"
-RPM_HASH = "2e8f6503551caa4aa5fc20bff6f11712870b19abb27caab5db2d8db19cce799d7caca60c459aae5cc99ab78e3028355925b7bf99524c07fe38a90b34318187c5"
+RPM_NAME = "python39-invoke-2.1.2-1.3.noarch.rpm"
+RPM_HASH = "a32da2ddb600c70ddf2f1038af5b4a562b83489ef9008133d3fa6218a6ef90d4dffad3e3cfaf527b1016771f3761540ec04adeebdda159cbb494c088849a12e4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-invoke \

@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0+"
 
 PV = "5.5.48"
 
-RPM_NAME = "deepin-session-shell-devel-5.5.48-1.4.aarch64.rpm"
-RPM_HASH = "d728badf6f9d0cb261cf58bf5f9381c98978f8ec3cc1cc43d52f0096f5266ea353b285bc6507e1c865b4e47ce84a3439bc37ecd972d9a17c8bc3e50af878797e"
+RPM_NAME = "deepin-session-shell-devel-5.5.48-1.5.aarch64.rpm"
+RPM_HASH = "be0d7927d2b1334221d46bcbb66f6fd5e8b7dda8dc244ba16ee4636a1054149c9d1f5a971476d99dd6c25029b47b2cb4734aadf9fd5fe14537f3cc2f627da7a8"
 
 RPROVIDES:${PN} += "cmake-DdeSessionShell \
 deepin-session-shell-devel"

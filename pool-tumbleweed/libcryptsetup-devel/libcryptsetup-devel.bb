@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.0-or-later & SUSE-GPL-2.0-with-openssl-exception"
 
 PV = "2.6.1"
 
-RPM_NAME = "libcryptsetup-devel-2.6.1-1.3.aarch64.rpm"
-RPM_HASH = "4450b81bf3ce7c3f05ad7084fd4a52372b46a07f05896cd377f7464bfa0b757728a4eca173af1cf5dbc8ffcdba9e36a5cd400d562c6747048020a2207a3f68da"
+RPM_NAME = "libcryptsetup-devel-2.6.1-2.1.aarch64.rpm"
+RPM_HASH = "8c849e04dccf32ad89bbea64e206375dfef449022eb5dafd43b19ba4f8a294c8948ed1796875b42f055594cfdceab97a51e45d644988b6ec6c0208d4a6bdf2d4"
 
 RPROVIDES:${PN} += "cryptsetup-devel \
 libcryptsetup-devel \

@@ -7,11 +7,12 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "3.0.18122"
 
-RPM_NAME = "python311-python-vlc-3.0.18122-1.1.noarch.rpm"
-RPM_HASH = "daf6f658e0fd06ca02996cde98eba035d12abb30276b0b2bfb5926246a9cd6d6e8520bf14edbb9daecf6523a898156bdf2356298830e8529ab85970dc1437c5e"
+RPM_NAME = "python311-python-vlc-3.0.18122-1.2.noarch.rpm"
+RPM_HASH = "017cbfd70b64f2b10e64d5cf23564a2aab47bf6b9d126caecfa87237566f40676ef8527db73e19a16d9500938a94eb96040842f4e5d763690e407cab8fa983ef"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-python-vlc \
+RPROVIDES:${PN} += "python3-python-vlc \
+python3.11dist-python-vlc \
 python311-python-vlc \
 python3dist-python-vlc"
 

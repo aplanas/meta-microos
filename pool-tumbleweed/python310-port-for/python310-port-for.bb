@@ -34,12 +34,11 @@ LICENSE = "MIT"
 
 PV = "0.6.2"
 
-RPM_NAME = "python310-port-for-0.6.2-1.7.noarch.rpm"
-RPM_HASH = "3c5899f4a312cb02cd9fc11d3610353a52ab851c2c3d58d0e8dd66d9807f7ffc2b516e237c49fe5e1b022a82c894ce6bfbc6cfd9a225e5cdbbf8739a769fb976"
+RPM_NAME = "python310-port-for-0.6.2-1.9.noarch.rpm"
+RPM_HASH = "4e08042a6bca55a793beb5b6247cf02d389f99ac4480e91fce04f44f2ad24c48cf5b05a6200b428936f74666ae7c73619cea4923c7fa4245273b0d1c9da6d960"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-port-for \
-python3.10dist-port-for \
+RPROVIDES:${PN} += "python3.10dist-port-for \
 python310-port-for \
 python3dist-port-for"
 

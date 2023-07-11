@@ -11,12 +11,12 @@ LICENSE = "Apache-2.0"
 
 PV = "2.1.0"
 
-RPM_NAME = "python3-os-client-config-2.1.0-3.3.noarch.rpm"
-RPM_HASH = "24e99b5a2f5577b39d3ee39e23d060647cff9b7e91c7a03f819fa2a1d8992d2053ebbb175a5ae41ca4eeddf59a2e0c156d5498a97c965aa6ed54da8cbac793ea"
+RPM_NAME = "python3-os-client-config-2.1.0-3.4.noarch.rpm"
+RPM_HASH = "1c4b78825455c7f0c331b25a4241d41452db9fa27bf30553167ce5706da184d9f8917a5c63dcbadbda48d9e2862784b94dfde1afb19fd03daea1370f9cf02bac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-os-client-config \
-python3.10dist-os-client-config \
+python3.11dist-os-client-config \
 python3dist-os-client-config"
 
 RDEPENDS:${PN} += "python-abi \

@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.9.4"
 
-RPM_NAME = "python311-ttp-0.9.4-1.1.noarch.rpm"
-RPM_HASH = "d5768228bb47f4afea338c9d33b8ce2607ddb785379c0c26e04b4ff9191feb5dbb8daea68f84c3cb7b4115f72762e95e37eb54d28226eb47084e438c54f52a6c"
+RPM_NAME = "python311-ttp-0.9.4-1.3.noarch.rpm"
+RPM_HASH = "16ca2d3d8fb19a69bcef214d0b36ac0c97ad93732b3cedd0bbb61ca1e78a4c9f81a54fc397a8d8767de7a41b76daadfefea86294f3966b47643699f8a05b6102"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-ttp \
+RPROVIDES:${PN} += "python3-ttp \
+python3.11dist-ttp \
 python311-ttp \
 python3dist-ttp"
 

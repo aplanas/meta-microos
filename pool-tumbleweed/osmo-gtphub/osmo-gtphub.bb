@@ -4,8 +4,8 @@ LICENSE = "AGPL-3.0-or-later & GPL-2.0-or-later"
 
 PV = "1.8.0"
 
-RPM_NAME = "osmo-gtphub-1.8.0-1.11.aarch64.rpm"
-RPM_HASH = "af918ff9cb28ee081577234ae1cee1c60ad0ccf7e9b116da0aba0e5446080fb19e3e467bc2cba566a4abde437a1711eb64512c660c63ad109c71d73a75a12c6a"
+RPM_NAME = "osmo-gtphub-1.8.0-1.12.aarch64.rpm"
+RPM_HASH = "35da71c3aa3ae8abf0242330e843a976b8f95835fe33685e608c8c2a56d6db09237852374a22ce6fe7184fbde1261bc5e1437ea328675fd3cc69d4754fed423f"
 
 RPROVIDES:${PN} += "config-osmo-gtphub \
 osmo-gtphub"

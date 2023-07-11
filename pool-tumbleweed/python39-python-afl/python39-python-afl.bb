@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.7.3"
 
-RPM_NAME = "python39-python-afl-0.7.3-3.11.aarch64.rpm"
-RPM_HASH = "ea86f18465368b1b3480d7679c60ff03585c3d54a8d5a9d53082bc89fb15c98e1d1533f0216f9c6db41053b139893d769048c72e5baaa5ca19ec3c8ccfbde08a"
+RPM_NAME = "python39-python-afl-0.7.3-3.13.aarch64.rpm"
+RPM_HASH = "400a786b8844d71cac61d414d3a48ec016eb0cc3a091fa95b5a4b046b378a3912916ab100b6c99869e7052faa5dd20ca05484db18b0e80d8612b81801550bfff"
 
 RPROVIDES:${PN} += "python3.9dist-python-afl \
 python39-python-afl \

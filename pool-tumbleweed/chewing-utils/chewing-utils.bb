@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.5.1+git20200627.452f622"
 
-RPM_NAME = "chewing-utils-0.5.1+git20200627.452f622-1.9.aarch64.rpm"
-RPM_HASH = "d4bb041ad9f805bbcb8cbbad8613b714b63e280bb35fcdf22503c43e841bdda8cdada6cbded7a38cfc66818026eaf6ca8083c58fd82355747627538c57aa85b3"
+RPM_NAME = "chewing-utils-0.5.1+git20200627.452f622-1.10.aarch64.rpm"
+RPM_HASH = "d10266c7cec4a8821efdf23b6f9b3971ab2f7bb3524dc1ce0ed542344f02d2fb3d5c1137268a9ed347a3815360e2d5b0468d297ab69657b507582e90ac0f83fc"
 
 RPROVIDES:${PN} += "chewing-utils"
 

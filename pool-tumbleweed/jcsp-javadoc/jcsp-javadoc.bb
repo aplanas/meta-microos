@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.1~rc5"
 
-RPM_NAME = "jcsp-javadoc-1.1~rc5-3.10.noarch.rpm"
-RPM_HASH = "f55ea2091a445e0b5c56f97ddbe427075c882aac820cf9ca4835f4e2d3b101e5eeab5173be2bff611b597ccf901beeff6463cf98c186c3e49337bb4ea780a06a"
+RPM_NAME = "jcsp-javadoc-1.1~rc5-3.11.noarch.rpm"
+RPM_HASH = "4749bc4bf44ac44b5602b7ca5bf7e557e0619a5051812e541259e5d84355a462374eef67fe25705ce88b3ca3c8a08a49c4f7021140c571b0e2850d8f3ae142b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jcsp-javadoc"

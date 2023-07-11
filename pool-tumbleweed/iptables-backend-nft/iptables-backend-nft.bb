@@ -7,8 +7,8 @@ LICENSE = "Artistic-2.0 & GPL-2.0-only"
 
 PV = "1.8.9"
 
-RPM_NAME = "iptables-backend-nft-1.8.9-1.3.aarch64.rpm"
-RPM_HASH = "80e177ca55b2ff257dd2c9e1f1fb89ff9a797ac41f1397fd38030fac4850e2edc97ac3339b5593e93f8c941d5edc079dc1c2c4c7f0c978e6c799e008ed8c1fc9"
+RPM_NAME = "iptables-backend-nft-1.8.9-1.4.aarch64.rpm"
+RPM_HASH = "7455fee6d9315c00a298131e236b48acb948e3dcb947c617817d2a17ffa19208c9bfa59781246adc5bdab729924dabdc6fbfe42b5cfdf56063ab9a0d3cce90f1"
 
 RPROVIDES:${PN} += "iptables-backend-nft \
 iptables-nft"

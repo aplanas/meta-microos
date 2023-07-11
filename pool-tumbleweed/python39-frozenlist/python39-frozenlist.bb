@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.3.3"
 
-RPM_NAME = "python39-frozenlist-1.3.3-2.1.aarch64.rpm"
-RPM_HASH = "05016cd9bcd7539460f2365510cf816351ae33be725d076e1ec3921f2118cf2b834e84a57f2f3127dcb2da47eca35bf4f48970517defd5595fa23b783c0d06ce"
+RPM_NAME = "python39-frozenlist-1.3.3-2.3.aarch64.rpm"
+RPM_HASH = "c0783789baf1ec628bff75bfeb9e431ce26a72cd3d0558ba9cb4aba6b974945b5bcbacf197c9178b82b2fa92c22f7dbdbbe7fbdc01e78b3e2fe1a93a5c6a0b4e"
 
 RPROVIDES:${PN} += "python3.9dist-frozenlist \
 python39-frozenlist \

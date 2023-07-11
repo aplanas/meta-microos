@@ -11,8 +11,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.40.0"
 
-RPM_NAME = "accerciser-3.40.0-1.3.noarch.rpm"
-RPM_HASH = "3d77d9d2f4347b37985923de45b1000e23eaf2564a3d264478c2c64393df518cd163b8207f45e4f4e48835d0866d3eeef7335684749f6ddfba822336932ea31d"
+RPM_NAME = "accerciser-3.40.0-1.4.noarch.rpm"
+RPM_HASH = "ae828f40fd9e05b5a8ec4139c324f4fc4b287c7b22bae2a102316bbd1974ea795d131512fa3701bfb4ae72bbdb9bce627d6be77bf5a0bfd0c4e94c03e16d6c55"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "accerciser"

@@ -5,8 +5,8 @@ LICENSE = "ISC"
 
 PV = "0.7.3"
 
-RPM_NAME = "ocaml-fpath-devel-0.7.3-2.9.aarch64.rpm"
-RPM_HASH = "80578db4c8bfbc3da9023282e521bef9ff91e71ea784316b1cd19b052c71e005e4d344e5cd6206d14292e265462a3067b4049d8bfdaef1cef0e5f150f9fe6d7e"
+RPM_NAME = "ocaml-fpath-devel-0.7.3-2.10.aarch64.rpm"
+RPM_HASH = "16b08e833b022f7366abd0c9ddde900fa788a6f61784cad64d06f9e5f8ec5b8a466f7b6805b8fd9df6ccb7dedbee0ac123b75c6d0297ae92c5978674dd7ea3f2"
 
 RPROVIDES:${PN} += "ocaml-Fpath \
 ocaml-Fpath-top \

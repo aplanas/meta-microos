@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.3.0"
 
-RPM_NAME = "lxqt-runner-1.3.0-1.1.aarch64.rpm"
-RPM_HASH = "7b03dec0780edf9ba7f1c4d0d9c5b394f943dbc54cad6a463db6e8e9505eef42b66bb259eb6a66c81860c72a52f413ed87417025bbe66aea58556b4d980bdaaf"
+RPM_NAME = "lxqt-runner-1.3.0-1.2.aarch64.rpm"
+RPM_HASH = "cddd02630678c57d50e3c75a1b835a1af2299303286a5aa212279e6a2c97ac47c3e2ba0055f54ad0556d3e3e380bfb42093c89f44df04529825b4468b37e7953"
 
 RPROVIDES:${PN} += "config-lxqt-runner \
 lxqt-runner"

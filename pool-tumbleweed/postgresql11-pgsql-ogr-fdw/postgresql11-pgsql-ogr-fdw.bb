@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "postgresql11-pgsql-ogr-fdw-1.1.0-4.2.aarch64.rpm"
-RPM_HASH = "273b1ebdcc458cbf35c5f70cd6a469c49f2168c4a21f925e0ef30c931aa46676949b3c5c9866947243e95eeef605f7467acb19b360615e076fd0d191d5e29186"
+RPM_NAME = "postgresql11-pgsql-ogr-fdw-1.1.0-4.4.aarch64.rpm"
+RPM_HASH = "055d2fafc4b5b766774acc12377c626cd8972a960cd306a9cd3acdd598fc3295f1aebf60a6ac4dce819b431e76e64ef35f41852d42f4b2c2ae04bd126974df0a"
 
 RPROVIDES:${PN} += "postgresql11-pgsql-ogr-fdw"
 

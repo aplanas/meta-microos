@@ -2,10 +2,10 @@ SUMMARY = "Quick Previewer for Nautilus"
 DESCRIPTION = "Sushi is a quick previewer for Nautilus, the GNOME desktop file manager."
 LICENSE = "SUSE-GPL-2.0-with-plugin-exception"
 
-PV = "43.0"
+PV = "44.2"
 
-RPM_NAME = "sushi-43.0-3.3.aarch64.rpm"
-RPM_HASH = "e6465a0408b7fd39e9d73948c31c009abd54fbb26e43fecb3344ed92be93f66c48a6b3e6bee4223753be1d68df5ee098c989fe3613ccb39c448b84c3c7ecf344"
+RPM_NAME = "sushi-44.2-1.1.aarch64.rpm"
+RPM_HASH = "a326569dc5f56a70586d386f53383e65c7f5b23c24241bb2613d362a47c2204d9bce2901a9b3162028ae2e6a016bb373e90221ac9ff33013b97d4f67eb7890de"
 
 RPROVIDES:${PN} += "libsushi-1.0.so \
 sushi \

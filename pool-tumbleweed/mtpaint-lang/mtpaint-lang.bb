@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.50"
 
-RPM_NAME = "mtpaint-lang-3.50-1.10.noarch.rpm"
-RPM_HASH = "a21cde9945d541fb38a8652a76362abee661af28fa9c1a17e43ce5359ca283e5bdd0ab307829488d3d1eeec67d9cb74e16be4d73a93d3d8e459c075c32f224f2"
+RPM_NAME = "mtpaint-lang-3.50-1.11.noarch.rpm"
+RPM_HASH = "768ad27f4e35bf5d8342c87261caca9d71013783a2d7f301bda0d3ed9dd4ff067b798e743fe62f37ac8712bbd9d22e011de85993c6750eb17773db75bbae9066"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mtpaint-cs \

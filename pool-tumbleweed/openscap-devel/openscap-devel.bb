@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the development files (mainly C header file
 OpenSCAP C library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.3.7"
+PV = "1.3.8"
 
-RPM_NAME = "openscap-devel-1.3.7-1.1.aarch64.rpm"
-RPM_HASH = "49a8636d90f24892e3ec87bce178541b7dd79322e458c81ad286753a1334c0b44b8746eeb5a23507f648ced7532cf845b582247bee3d6cb82a3956e52043e244"
+RPM_NAME = "openscap-devel-1.3.8-1.1.aarch64.rpm"
+RPM_HASH = "013a90d2795a1f0fc9ec033d0259d4318cb733952113b50dbfe7f6434ef58331067e0b184d20d4ce480ccd2b004755953268bce8aba2bf82bb9f8b5c066d00a8"
 
 RPROVIDES:${PN} += "openscap-devel \
 pkgconfig-libopenscap"

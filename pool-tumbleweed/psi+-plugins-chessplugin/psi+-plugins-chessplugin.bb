@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-or-later"
 
 PV = "1.5.1615+0"
 
-RPM_NAME = "psi+-plugins-chessplugin-1.5.1615+0-3.1.aarch64.rpm"
-RPM_HASH = "2e625cf37249fbfa3a9cbeb912bade2752dfc0a6bd977d17454fafb604b13426d91fe2ef2e3bf57cc46a0bac7935967cbc6670d1aea4498f64ce8cc145251638"
+RPM_NAME = "psi+-plugins-chessplugin-1.5.1615+0-3.2.aarch64.rpm"
+RPM_HASH = "9e6f466f80f6cfa9f9f45238ada078e50a007d8a90955c0589639261e07d49a46b128e012905917ce3ec2c2e7a68665e93f66aa89d2336e3612c8b827993b294"
 
 RPROVIDES:${PN} += "libchessplugin.so \
 psi+-plugins-chessplugin"

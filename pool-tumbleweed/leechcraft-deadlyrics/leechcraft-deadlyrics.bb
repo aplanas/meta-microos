@@ -7,8 +7,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-deadlyrics-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "251956ef871b0d3464e3bc6fa24031de554fab9f3980aa94df97f3c9f0b7ce9c1200f6541ffe181d4ced629bd9cd009b05223cce7a32bfceec804a722894d792"
+RPM_NAME = "leechcraft-deadlyrics-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "6f0213b046831235202c3ed38a8a2c512e4783dde469c883da1160049617bff3db22acbbacf5b60ecf62803c6de66352de48a0fbd643d47922452a07031cf9d8"
 
 RPROVIDES:${PN} += "leechcraft-deadlyrics \
 leechcraft-lyricsprovider \

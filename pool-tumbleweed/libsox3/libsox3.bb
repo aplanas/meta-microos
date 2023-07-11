@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later & GPL-2.0-or-later"
 
 PV = "14.4.2"
 
-RPM_NAME = "libsox3-14.4.2-6.1.aarch64.rpm"
-RPM_HASH = "b91a27cade85714c6d46fcac72ba90c6018925fc6fca005c421b8584a742a52525a6cee595d2164c00c5b42fe839e1ce91b5cc2d7cfde8ca1c72fcd2231f3241"
+RPM_NAME = "libsox3-14.4.2-6.2.aarch64.rpm"
+RPM_HASH = "543b001335bdfabf9ab979eb29f0df286cbbcc655763eab9472143bbaf5de2bd3e7c8baebf45c37ccef56e00f1d1fe76aecffff894ec563cff871fc802539b81"
 
 RPROVIDES:${PN} += "libsox.so.3 \
 libsox3"

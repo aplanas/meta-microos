@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-or-later & MIT"
 
 PV = "3.22.10"
 
-RPM_NAME = "hplip-devel-3.22.10-2.1.aarch64.rpm"
-RPM_HASH = "1ddfd4ddc5827d7996577a5a59dca3b9c5e67ff1a52bf90c09d540100ffc5ef92b7880b148c138e29eea41d8d0b8a69d1ea7c5e8d27c16f48f1fae712554b5d0"
+RPM_NAME = "hplip-devel-3.22.10-2.3.aarch64.rpm"
+RPM_HASH = "6ea856c4590c6b0e0a438758cd2c40553a0d782490c938fc63bd1944f43634349dbf8969813ba0404fb9738519835e252282d25a4e4ec46e8a7c4f99b3a45bba"
 
 RPROVIDES:${PN} += "hplip-devel"
 

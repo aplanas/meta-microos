@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "0.4.5"
 
-RPM_NAME = "python311-django-environ-0.4.5-4.8.noarch.rpm"
-RPM_HASH = "4afab6a1b8955007691cd9bac027333a2ddcee09096f27b7e9f63ecac6053885da25640f2c432a4cab16ee38a8083a59b9269906d7279c3486cc1f3128c08999"
+RPM_NAME = "python311-django-environ-0.4.5-5.1.noarch.rpm"
+RPM_HASH = "b3a1efd217556329eba0ca296f5d95876f874570bbd92804593dcad27b28d1f8e1e410483b60a94d49b51f7ff5da599c60ff3130c3edc3a72dafe20c83b32b9c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-django-environ \
+RPROVIDES:${PN} += "python3-django-environ \
+python3.11dist-django-environ \
 python311-django-environ \
 python3dist-django-environ"
 

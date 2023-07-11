@@ -14,8 +14,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.201.1.4svn61113"
 
-RPM_NAME = "texlive-ekdosis-2023.201.1.4svn61113-53.1.noarch.rpm"
-RPM_HASH = "b125ec2203c69a6cf7d50af8b2c9383c16212eaf484c8d934fc326e1a4719933ad347976b092903d31d8dbda24774b0e33b15d3ba09ac48fea05c2675348879c"
+RPM_NAME = "texlive-ekdosis-2023.201.1.4svn61113-53.2.noarch.rpm"
+RPM_HASH = "99057c9a0352fbdae91036c499f3cd15d489564d6fe6d855c42b4805e933f00c32aa2bf635dd2ec8fc7eaec61529c20f0eedf3e767efe987d933f03d457b1a46"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ekdosis.sty \

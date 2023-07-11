@@ -8,8 +8,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "2.1.1"
 
-RPM_NAME = "libunibilium4-2.1.1-1.7.aarch64.rpm"
-RPM_HASH = "c957f67a90a011e70783198deeaf33b089614c3aed9ff2c8e376b3553b90524238690102e429a9a76f223f4df1031e485f52787ece9fede2f1fcc42d9747fa83"
+RPM_NAME = "libunibilium4-2.1.1-1.8.aarch64.rpm"
+RPM_HASH = "c24b67045e343fbc907aafdd8589d0b5217c64cf5ef80c179ce2cf6b4544f68c9a919c82f346fd26abb67b1d13a2ee6b5196c9cf187764a66d5c3fd4d9d1a174"
 
 RPROVIDES:${PN} += "libunibilium.so.4 \
 libunibilium4"

@@ -12,8 +12,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.3.93svn65067"
 
-RPM_NAME = "texlive-pstricks-add-2023.201.3.93svn65067-53.1.noarch.rpm"
-RPM_HASH = "d2ea5c096a411cbb43832f972e7f0e21ef4e6b002da885d5394334c35881151fe35a5096863b35ee9d82c6e9b4ce29109bc31988983ea226be463ead5123961e"
+RPM_NAME = "texlive-pstricks-add-2023.201.3.93svn65067-53.2.noarch.rpm"
+RPM_HASH = "fd91bfee58ff44bd4c8c6782f72a1232b28765987280ad910fa2d7b9cb11c8ce5f2b3a7a41458cae74234977c9c9d5357fee97fd4caf9d873ebade4138aa9848"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pstricks-add.sty \

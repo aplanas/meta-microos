@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2023.201.1.0.1svn31532"
 
-RPM_NAME = "texlive-wsemclassic-2023.201.1.0.1svn31532-52.1.noarch.rpm"
-RPM_HASH = "ba8d3fca264b2d32a0267cf3ad75272ac775afff4e8b2c9fc8d3f6f93bbcdf26332e50d8c3055e75a2e489571b8875ee1b75f0ffc1d428ac3d4c37e91c2fb71c"
+RPM_NAME = "texlive-wsemclassic-2023.201.1.0.1svn31532-52.2.noarch.rpm"
+RPM_HASH = "957dcaffa36624d263d1c58df30eae238c505c954eee8b792dbb533b680676f9693b420eb988fec0edf2e0f9283451cbc74070d9dea05f492c82749d68cc75e0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-wsemclassic.cls \

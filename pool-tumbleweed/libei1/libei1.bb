@@ -7,10 +7,10 @@ which, for comparison, are not available with XTEST (X11's emulated \
 input)."
 LICENSE = "MIT"
 
-PV = "0.99.2"
+PV = "1.0.0"
 
-RPM_NAME = "libei1-0.99.2-1.1.aarch64.rpm"
-RPM_HASH = "01fe739d9f598a4eca6080d8f2250e8cff7be7ca225ec363acde0b495b6d9da1af9376844c32955ca184b935a9517cb0aa96837f91d46adaa4a5b483643c8dd3"
+RPM_NAME = "libei1-1.0.0-1.1.aarch64.rpm"
+RPM_HASH = "bf614457fa960521deefd3350823c93fbf0a1bef06506974716d19145044dd4be02f297cd99bba4ae3817009b2c3090b30960e24ff560f4d1f456ff110dfc5f3"
 
 RPROVIDES:${PN} += "libei.so.1 \
 libei1 \

@@ -11,8 +11,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "7.2.1"
 
-RPM_NAME = "varnish-7.2.1-1.3.aarch64.rpm"
-RPM_HASH = "876c822757a9e881c75e8ef1f644cc8192b542e9c7e2f01dc7b6b2fc4722b10aabdf2b41fc64062625327d526074676ffc12b56d5d251edbfe429515f1e8c5e0"
+RPM_NAME = "varnish-7.2.1-1.4.aarch64.rpm"
+RPM_HASH = "c5a6de2466a3139b3efcfce48ad7c554ed0d44f7ccd53632fd867f7b751f768d8cd8de27946c81f6f3f9f75a8ee7e26676cd834d41e3b2b39e945d4bbdb3f9eb"
 
 RPROVIDES:${PN} += "config-varnish \
 libvmod-blob.so \

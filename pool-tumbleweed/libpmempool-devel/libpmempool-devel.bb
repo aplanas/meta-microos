@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.11.1"
 
-RPM_NAME = "libpmempool-devel-1.11.1-1.8.aarch64.rpm"
-RPM_HASH = "1b4749bfebd246d60c6c7671bfdf3c013610e8422063551003cb94aca7266bfdce36b3f39a1afb25aedfad08bb6dc716bfc946579993744547303a3f97b4f95e"
+RPM_NAME = "libpmempool-devel-1.11.1-1.9.aarch64.rpm"
+RPM_HASH = "479fe1a8915ada1e0bcfe52f9a42b022941bfa6816d9ccf515792567ecf96593adf236724b8df87e93b7fe7b998aab7b5ca39ced1bdc9043b0d5888cc4affafe"
 
 RPROVIDES:${PN} += "libpmempool-devel \
 pkgconfig-libpmempool"

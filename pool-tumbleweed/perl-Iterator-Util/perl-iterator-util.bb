@@ -10,14 +10,14 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.02"
 
-RPM_NAME = "perl-Iterator-Util-0.02-14.26.noarch.rpm"
-RPM_HASH = "6a1b41757e35e7405e280418f54e43b2e56b65f89bc3cd62a4bb6e1cdef325e979739982a0b6f2ef5b217a194f56e6c48f38a3d0ad35a90f5740637f937de418"
+RPM_NAME = "perl-Iterator-Util-0.02-14.27.noarch.rpm"
+RPM_HASH = "4cca21a48e4971e3ba8f117b261d8fbfe894c3b567a55def16cc49ef3fa399f0a42c01ff116ec5b46d281aa404650161e4c6d31bad3f6db170adaf6b8e115e09"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Iterator--Util \
 perl-Iterator-Util"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Exception--Class \
 perl-Iterator"
 

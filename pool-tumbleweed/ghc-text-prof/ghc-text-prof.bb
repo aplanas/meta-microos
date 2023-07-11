@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0.2"
 
-RPM_NAME = "ghc-text-prof-2.0.2-3.1.aarch64.rpm"
-RPM_HASH = "eace2d3deb3c59a0699900b71c77808fc3fddf66d1da5f8719ea246b581cde99a086fe5a0d9d71efdc5ce3ddfc32fd0f1b168d611e43453e280050820dd14c4f"
+RPM_NAME = "ghc-text-prof-2.0.2-3.2.aarch64.rpm"
+RPM_HASH = "1ab43c18b09e2a9ebd97bda5931d4c22ccd086202c086489726fa6c9ac0a462988f5f05bc6e83811b99e5ccd1f47841ab5e090e65fad42c6c104a10f47bc01b9"
 
 RPROVIDES:${PN} += "ghc-prof-text-2.0.2 \
 ghc-text-prof"

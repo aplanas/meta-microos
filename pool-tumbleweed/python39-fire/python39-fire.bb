@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.5.0"
 
-RPM_NAME = "python39-fire-0.5.0-1.3.noarch.rpm"
-RPM_HASH = "9bc175c5707271144ad6fe83f9923c5e5f9a8c140b2df99d80a8925e1f4575bda43d3881f6a2fc4525360c83c97993afa30d9c3af6b03e60b3a1334ec77dfa56"
+RPM_NAME = "python39-fire-0.5.0-1.5.noarch.rpm"
+RPM_HASH = "5b4fd7ce2271138ab93403c6a167eb500571d4a23b52f6a0efa71dc3945dc1148be906bcb96f4d253007cb6f706858924c4fac9b9fd69fa6dabecd19adb95bab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-fire \

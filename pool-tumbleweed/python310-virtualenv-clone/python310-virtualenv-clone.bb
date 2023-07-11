@@ -34,12 +34,11 @@ LICENSE = "MIT"
 
 PV = "0.5.7"
 
-RPM_NAME = "python310-virtualenv-clone-0.5.7-1.4.noarch.rpm"
-RPM_HASH = "f969a93c126d4e0e34ead31db1cb1e91288e97ddc3a4b51e4748dcb34b7a55e37a256eda384a249450affb6779cf8f711f9b12950b3b4110fb92b48a44fd785b"
+RPM_NAME = "python310-virtualenv-clone-0.5.7-1.6.noarch.rpm"
+RPM_HASH = "9c66afd27d8ee8357d98075284e99ec29a32152437f74b559397d44341b5eb284e2716c71142f150aea09bdeb5ad9675a5f036df57264bd6866f7279c023fe52"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-virtualenv-clone \
-python3.10dist-virtualenv-clone \
+RPROVIDES:${PN} += "python3.10dist-virtualenv-clone \
 python310-virtualenv-clone \
 python3dist-virtualenv-clone"
 

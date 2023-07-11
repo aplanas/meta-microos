@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "3.0.0"
 
-RPM_NAME = "python39-sybil-3.0.0-3.8.noarch.rpm"
-RPM_HASH = "272de9faad51a9bfd33e55c57566988d960b40432f658a75dbfe18e75adc7cfcc97ba65e96da6bcb76cfd9ee7ac04b0448be89b54839835c82322521c56a26e7"
+RPM_NAME = "python39-sybil-3.0.0-4.3.noarch.rpm"
+RPM_HASH = "b27407c51a6591d0f3ab0f2d53dfda945dcaa440dd7aa4efb2ca6be207d9a7b96ceed771c20166b5728fe75de2eb6b62a32d78219a10f4a2fd0e428f49cd9f2a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sybil \

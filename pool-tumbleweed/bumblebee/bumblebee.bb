@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.2.1"
 
-RPM_NAME = "bumblebee-3.2.1-14.11.aarch64.rpm"
-RPM_HASH = "e48f7fb2012d45ebf2ac6b11626fc493d68aca6a2b2a7107648b4cade3f08fa2108f82fd7f5c40166ffd984275c6bcb5103bf5f91a935c328fc8f646aac98e15"
+RPM_NAME = "bumblebee-3.2.1-14.12.aarch64.rpm"
+RPM_HASH = "5a8082944f6565b522898a18ee5f253599f5873e2056742392236b1b7c99c497586a7025c3dfd74ef27abddd9df0b18bb13ca00cccd765d1e3e74c72f664a7a0"
 
 RPROVIDES:${PN} += "bumblebee \
 config-bumblebee"

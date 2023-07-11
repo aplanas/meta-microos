@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.8.9.0"
 
-RPM_NAME = "libopenmpt_modplug1-0.8.9.0-1.12.aarch64.rpm"
-RPM_HASH = "7ddf722fc4846c074cd03ba95fdf6417f10e47e9f9fdc79aa5691e60e13ad182648493da45454e89c4598be5d5db8dee37349d30f8c6190656d9ca11e4b51ec4"
+RPM_NAME = "libopenmpt_modplug1-0.8.9.0-1.13.aarch64.rpm"
+RPM_HASH = "0e5a9e090896dcf0f744d7b6f3260337a91a312d0f822c1c3f0a152a41d7f8567685f35d0ed71d17c42b65599d0a3a90a1d1991e74b2f1241643af102fbfdb22"
 
 RPROVIDES:${PN} += "libopenmpt-modplug.so.1 \
 libopenmpt-modplug1"

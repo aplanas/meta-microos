@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4~rc3"
 
-RPM_NAME = "jwnl-1.4~rc3-2.10.noarch.rpm"
-RPM_HASH = "449a780f9cde6723eedb70216c2ab189e976963f43cbb1b7491760b3ce5bdce8b0b61cabce9e4605d03dd03e4fd117aa14a93665a1d590228c851346ead1549e"
+RPM_NAME = "jwnl-1.4~rc3-2.11.noarch.rpm"
+RPM_HASH = "67262a9c58d507a6b2eb30620aab4256c578d0abae7f360947422901aa39bbcc66534fe775c89d76f0a80a5a450247c6ecaa183e6c534695c24fd3ff87c67cc3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jwnl \

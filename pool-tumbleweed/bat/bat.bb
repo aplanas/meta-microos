@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0 | MIT"
 
 PV = "0.23.0"
 
-RPM_NAME = "bat-0.23.0-1.1.aarch64.rpm"
-RPM_HASH = "9992746d5397ff9c67388b563870d101f6de51435d00768d93090839208e0851d3313db996a2be74b94af28d7a9525129b40d32be356561b40ebd01fdf6a27bb"
+RPM_NAME = "bat-0.23.0-1.2.aarch64.rpm"
+RPM_HASH = "d6fea97f767adfbd94f7667ede290578a100135dfc4bee7f0bd6dbff1c3b9c3eda96756a367ecca481aed9f070a7fe0fdcc7a7a561b0daa1be6e1c4de7c32a93"
 
 RPROVIDES:${PN} += "bat \
 bundled-rust-crate-adler \

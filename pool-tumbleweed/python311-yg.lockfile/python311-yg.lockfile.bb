@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "2.3"
 
-RPM_NAME = "python311-yg.lockfile-2.3-1.10.noarch.rpm"
-RPM_HASH = "a0d6c622eb90879ae5a655a2e66f5954cffccb6cbc1c1f28666ee283ca1dc0a5e947acd0e6a00d475d3d700a58da25d8a968a293ff968b2a700e7b1503b3b1b5"
+RPM_NAME = "python311-yg.lockfile-2.3-1.12.noarch.rpm"
+RPM_HASH = "ceeded6175bc0194d1e8acc06c22af71d98d5948468bd6cf8d97b6690d5ce6afc3cb40b63f896ce4aad4e3591169e0ea931ffedf05ab9395f47d1fa1e832c773"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-yg.lockfile \
+RPROVIDES:${PN} += "python3-yg.lockfile \
+python3.11dist-yg.lockfile \
 python311-yg.lockfile \
 python3dist-yg.lockfile"
 

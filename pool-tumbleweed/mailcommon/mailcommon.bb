@@ -3,10 +3,10 @@ DESCRIPTION = "The mailcommon library is a KDE PIM project to provide a \
 framework to build applications which handle e-mail."
 LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "mailcommon-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "69592b6d5498bacfccdaee8c243e0d4f19bd227d8b05f63c5f6aed38f249ccd014e13d18c92c18e468b9b684c1e35c678a557889f9f415f4011fc290d1fec129"
+RPM_NAME = "mailcommon-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "f5d11f5cdf44c0bacc04a412176be691f0ae8871b9abbd0f33a3139325dacbb764ce3e92ef9831f4e7f1ab406f92c122726b171d35f0e6cdb553f314f1c7cd24"
 
 RPROVIDES:${PN} += "mailcommon"
 

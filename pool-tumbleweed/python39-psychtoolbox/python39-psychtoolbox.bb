@@ -12,8 +12,8 @@ LICENSE = "AML & BSD-2-Clause & MIT & X11 & GPL-2.0-or-later & LGPL-2.1-or-later
 
 PV = "3.0.16"
 
-RPM_NAME = "python39-psychtoolbox-3.0.16-2.12.aarch64.rpm"
-RPM_HASH = "35f0438e710743494b5568b2743914c6a426e87a0bdf914c1a35703b2e5fca6d21c12074b321fbb2fca4f92c032e972cc2edc8e13361e632f30a879add612b56"
+RPM_NAME = "python39-psychtoolbox-3.0.16-2.13.aarch64.rpm"
+RPM_HASH = "3a6fbef21a613e56000fd23245229f109faf47c351a55d03218bd4ba3fe5c958a2d0c7c93c0427d965d78f6d8203413821007dc8ffd8c437b270ca1b5823d741"
 
 RPROVIDES:${PN} += "python3.9dist-psychtoolbox \
 python39-psychtoolbox \

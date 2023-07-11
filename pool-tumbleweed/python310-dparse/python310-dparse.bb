@@ -2,14 +2,13 @@ SUMMARY = "Python dependency file parser"
 DESCRIPTION = "A parser for Python dependency files."
 LICENSE = "MIT"
 
-PV = "0.6.2"
+PV = "0.6.3"
 
-RPM_NAME = "python310-dparse-0.6.2-1.3.noarch.rpm"
-RPM_HASH = "2f74a1bc17fce3fe71d59b3603038ef48ebdf2c8b22973d57f10b04e074374fcef24d676f575fdeb005d61cf5fe2cd21946cace1a400e6ad9a285d72ee880996"
+RPM_NAME = "python310-dparse-0.6.3-1.1.noarch.rpm"
+RPM_HASH = "8ab2c17d00e540d42e452fe6c9a90f6ef4035e6a61249cc7e1c8a878bbbfb9c0f89315f67da99f5b681b76998b0441274467da1558f52dfa25cf48d4ba791f7a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-dparse \
-python3.10dist-dparse \
+RPROVIDES:${PN} += "python3.10dist-dparse \
 python310-dparse \
 python3dist-dparse"
 

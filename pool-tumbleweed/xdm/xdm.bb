@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.1.14"
 
-RPM_NAME = "xdm-1.1.14-4.1.aarch64.rpm"
-RPM_HASH = "a3089e1b2bbe51cf2d8c4da7a609e1df532ed245d98c4ffb088ab16f81578bd72be69afd7fedf6a0e153e3e92923aff33145cf0820b722cea05c37215e19cc39"
+RPM_NAME = "xdm-1.1.14-4.2.aarch64.rpm"
+RPM_HASH = "fc916b7e255d683571a799381fbf34fb4397c456ffee9d19a23679ccd52230b4f4efa75875a846a9ffd8d6b7673ac21a9b58d2c4abb962245af93207e23dbd0a"
 
 RPROVIDES:${PN} += "config-xdm \
 libXdmGreet.so \

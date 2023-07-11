@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.7.2"
 
-RPM_NAME = "amavisd-milter-1.7.2-1.7.aarch64.rpm"
-RPM_HASH = "b062b69907dfec2694c5a59e5ad687349751a02ff9e17dc282b4ac23b01f7c155131c30d5211cbc649f38865e2f4d0d57ef58782bcabba2a4d4ef5de6be948dd"
+RPM_NAME = "amavisd-milter-1.7.2-1.8.aarch64.rpm"
+RPM_HASH = "c5824ae91fcd5b5deaa516359b5dfddf7f26640e4d7e85c17e01eb0f6a7339e05c03a5d7b1203971bfcfa94c8accabaf6abd696307ee60470f1fd0c399f25bf8"
 
 RPROVIDES:${PN} += "amavisd-milter"
 

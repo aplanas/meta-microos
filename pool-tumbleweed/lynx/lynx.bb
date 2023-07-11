@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.9.0~dev.10"
 
-RPM_NAME = "lynx-2.9.0~dev.10-1.9.aarch64.rpm"
-RPM_HASH = "7c0ec3583c1a5d3ed6f0cf003b66dd1af59246e09af571e6f69be11e61357a34e321aa04c6ab6c7e0aec54626feb172dd105fbcb1581025c099f710f3ba2c44f"
+RPM_NAME = "lynx-2.9.0~dev.10-1.10.aarch64.rpm"
+RPM_HASH = "b44d99516924373b8caeae7bd756140950d982c05accd69ff484c4bd3b9d44cd4f3d7a3da3d352bcfc329dc2260d12c388dba71e76ad28de96b9b1023aebabcb"
 
 RPROVIDES:${PN} += "config-lynx \
 lynx \

@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "4.8"
 
-RPM_NAME = "nnn-bash-completion-4.8-1.1.noarch.rpm"
-RPM_HASH = "fd705299c1b7a99405aa0ad52a791d071a84e2a66bda9571100ac0d71f7c925d4e7575dd328635b6ec4c1d9080a9bad4916fd75c81a4165d4353bfeebdc23e9f"
+RPM_NAME = "nnn-bash-completion-4.8-1.2.noarch.rpm"
+RPM_HASH = "0edc5030242c2b77394670567f08867e00e744ee78f44ae42684b64c6d996dca6724a2716cddc0021d1b66c4ade85ccdbc9ed8f6b0e741cef62557d863649729"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nnn-bash-completion"

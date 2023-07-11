@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "23.1.2"
 
-RPM_NAME = "python310-pip-wheel-23.1.2-1.1.noarch.rpm"
-RPM_HASH = "e6d3c909aeea947233498f87c72715cd5d09b18d0f4318ab76f2994e80993e446fb283013af6c1e0ede1cecbb60e522bbc6fed9bd6d05a7292c83618f6cbc4cd"
+RPM_NAME = "python310-pip-wheel-23.1.2-2.3.noarch.rpm"
+RPM_HASH = "4c4476a11433367dca91f64ca0f9125a180840e932848073891644fbcec0d71f8c37e69a407cebb13ff88a442ed12f35c10eb7a592f5c06b3389061906253ce9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pip-wheel \
-python310-pip-wheel"
+RPROVIDES:${PN} += "python310-pip-wheel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 alts \

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.15.1"
 
-RPM_NAME = "cppunit-devel-doc-1.15.1-1.13.noarch.rpm"
-RPM_HASH = "d179dd57c6cbc228a2af3e0f05a9727868f24355e0be375af17c7e79b323d6eb94ad5d04a543697b0ac882c0d7e3ce130c4bf0577967ede9eff0d2ed71c0fc3b"
+RPM_NAME = "cppunit-devel-doc-1.15.1-1.14.noarch.rpm"
+RPM_HASH = "6b2fa9f5784d6d7409bbcb3765ce0acb58bcb87dbb0b2513abc5f7b2d4964868f9948a7047ec7e45f71c6c11489409e019826e4ef1572610dda211fc28b7788b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cppunit-devel-doc"

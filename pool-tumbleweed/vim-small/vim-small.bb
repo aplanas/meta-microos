@@ -3,10 +3,10 @@ DESCRIPTION = "Vim compiled with reduced feature set such as no script \
 interpreters built in"
 LICENSE = "Vim"
 
-PV = "9.0.1572"
+PV = "9.0.1632"
 
-RPM_NAME = "vim-small-9.0.1572-1.1.aarch64.rpm"
-RPM_HASH = "f0d3b428e94ddbe401133ed3554481bf419dc088de97ca50472abc6286def6750f612479faea101dd141250ecac67b3300d1c09128e279e85e7b621eb582d454"
+RPM_NAME = "vim-small-9.0.1632-1.1.aarch64.rpm"
+RPM_HASH = "9593395948629a61c09869817f1c630ee509351e023b0126294b799811a945daeb36fc347cb662e18c39f197441536dba0daa8f07e67e7462a80b79f5108cd9c"
 
 RPROVIDES:${PN} += "vi \
 vim-client \

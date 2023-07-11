@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "12.2.0"
 
-RPM_NAME = "mingw32-cross-gcc-fortran-12.2.0-2.1.aarch64.rpm"
-RPM_HASH = "7ae6bc81e9ef0708078f958d7cff3fbace8bde9d1ff4cd455ce65a93692d72610d28e2661511526ddcdb677de7f991cba7d360b6b6f8ff480e8b87897bf2c903"
+RPM_NAME = "mingw32-cross-gcc-fortran-12.2.0-3.1.aarch64.rpm"
+RPM_HASH = "bc41185f294687ed601d6a919cacff8adbe784bd39b93683f215d97917cd31e83da0e35150033b5067eb7e10262bb6c2ecc7c16ab6e9f7040a5549b0c72c2f7b"
 
 RPROVIDES:${PN} += "mingw32-cross-gcc-fortran"
 

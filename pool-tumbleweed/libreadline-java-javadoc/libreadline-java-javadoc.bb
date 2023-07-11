@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.8.3"
 
-RPM_NAME = "libreadline-java-javadoc-0.8.3-1.4.aarch64.rpm"
-RPM_HASH = "2d19b201d867824691223d8e535d2a3a2eba2586a3932753084a73ca3e0b162bb8b322bcfc99e6b0f3a23572bd53afa018a0782d73929dd9e2efd24585753a6f"
+RPM_NAME = "libreadline-java-javadoc-0.8.3-1.5.aarch64.rpm"
+RPM_HASH = "f17fe7f01a1922e04a33fa17a97ba74a9fafab9ae6b97cfd2a179427cd7ab99c586b84b33322fdcf5091c690780cfa6df7cd6648d1906df84019d4ef3633dc8d"
 
 RPROVIDES:${PN} += "libreadline-java-javadoc"
 

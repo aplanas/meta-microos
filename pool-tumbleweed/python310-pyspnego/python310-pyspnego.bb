@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "0.9.0"
 
-RPM_NAME = "python310-pyspnego-0.9.0-1.1.noarch.rpm"
-RPM_HASH = "2bcc1d3f183a8dfa45d9a6b749a7407c3c7ae1ca3061139d3e556f1da40d474f81160a6f30c6979bd293148403059c564431bdff564205824150956fadf43707"
+RPM_NAME = "python310-pyspnego-0.9.0-1.3.noarch.rpm"
+RPM_HASH = "c2af95db53a746d8379e1fcc34dd190c0b9010b584e8f46eb18bf2292259bfa189bccbba31774366e0122fdc852d5980c3aff77dc2222422b8caafc580c9a60b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pyspnego \
-python3.10dist-pyspnego \
+RPROVIDES:${PN} += "python3.10dist-pyspnego \
 python310-pyspnego \
 python3dist-pyspnego"
 

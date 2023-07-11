@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.5.2"
 
-RPM_NAME = "libeconf-utils-0.5.2-1.1.aarch64.rpm"
-RPM_HASH = "acd26d170115481904744aa269a1c8546d0f26ca685f70bf5e99ed0c7b7aa93616b5a325407e80af16e197e6c7e1189c463c1a05f6d7147729c16275d2b510ee"
+RPM_NAME = "libeconf-utils-0.5.2-1.4.aarch64.rpm"
+RPM_HASH = "0f490b742da17ccf665929878b972b5ef42828047e41141b31fd6bdabb4f1b5de5c1d6953ddd7e543773598a6a962ba0131056e01c14384cbfe4b9d406dce383"
 
 RPROVIDES:${PN} += "libeconf-utils"
 

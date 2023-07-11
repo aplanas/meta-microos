@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "1.0.1"
 
-RPM_NAME = "python311-click-aliases-1.0.1-3.12.noarch.rpm"
-RPM_HASH = "d8a1218983e1b87f48b931beb270a25f27f5128b40585071f66a35b3dd3b4bd3dac0aa30cdd5afd0a625cda4aafc2db990050cf6ae530318cea5b8f55c2b86a1"
+RPM_NAME = "python311-click-aliases-1.0.1-3.14.noarch.rpm"
+RPM_HASH = "4935661aab8e81a0762c2f9f83dc33476ce99a1d809dc5f2daf2c166672aee524438f6969b038b3506a1a96d6b460c17c1619a233c4a70a7f88f9215df3ae82a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-click-aliases \
+RPROVIDES:${PN} += "python3-click-aliases \
+python3.11dist-click-aliases \
 python311-click-aliases \
 python3dist-click-aliases"
 

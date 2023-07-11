@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.201.svn15878"
 
-RPM_NAME = "texlive-greenpoint-2023.201.svn15878-53.1.noarch.rpm"
-RPM_HASH = "95a14849d872c50f25e7b31058ed2cf6a4bfc45bbd7cf55f8a9ca1ba29040f78685fadcb6891f1c5650b762af15ce1898f1cd063ff2959f33dab5cf1428961de"
+RPM_NAME = "texlive-greenpoint-2023.201.svn15878-53.2.noarch.rpm"
+RPM_HASH = "20ce1db815395f55adf08c7f48656ea66526b32df0fa4c43964b9badb07b55c9bffab399dca19213ce55ce545dbae372da3761457261c635838f766d08b114c2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-greenpoint.tfm \

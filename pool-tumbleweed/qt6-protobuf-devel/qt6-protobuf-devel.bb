@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-protobuf-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "f71d7baf6213a619e45bea22cbadc06b1679123d153f65aa6da8078eec7a66a77d7de970c4cd5cd4c9e13cf9589e899d10095ad650d2cb98fb1e42996c3c9cfb"
+RPM_NAME = "qt6-protobuf-devel-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "08955a213f0c57634a88d73b43289d2022a47fee21c8b0c608530ce9b7ee6c3517c8ca91a97bc9a3ecee20fefbd0ba59b7e159da91b9b32a7193f20cc437fe1c"
 
 RPROVIDES:${PN} += "cmake-Qt6Protobuf \
 cmake-Qt6ProtobufTools \

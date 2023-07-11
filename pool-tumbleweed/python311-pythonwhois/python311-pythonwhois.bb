@@ -4,11 +4,12 @@ LICENSE = "WTFPL"
 
 PV = "2.4.3"
 
-RPM_NAME = "python311-pythonwhois-2.4.3-5.11.noarch.rpm"
-RPM_HASH = "9b6d3575ca1ef3b2afde1f604b07a2ff74a6d0e0dfdf396480f8e8b38056e14ca9f6a0a04f276b795823705dd83861d9c201d5b8c0db0081cfe9911639406c56"
+RPM_NAME = "python311-pythonwhois-2.4.3-5.12.noarch.rpm"
+RPM_HASH = "496c9d9872df1d38f310be419fdb09c9b2ffc0ab3470b2d372d880df8ed09212f2adf3dd57d4ff951ffd3814e2081ce6d58cb1ccfbf0ac4e9d1b70485f95e77f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pythonwhois \
+RPROVIDES:${PN} += "python3-pythonwhois \
+python3.11dist-pythonwhois \
 python311-pythonwhois \
 python3dist-pythonwhois"
 

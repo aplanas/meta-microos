@@ -6,13 +6,14 @@ extensible. SymPy is written entirely in Python and does not require \
 any external libraries."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.11.1"
+PV = "1.12"
 
-RPM_NAME = "python311-sympy-1.11.1-1.4.noarch.rpm"
-RPM_HASH = "ed4f40406a1b4d809ca47546f085f82de5f4a24ecc310cd8b1fa4525b410a51b7adf5ed922863fab51a13c905bcb82400575263337672901af8e6ad7a28b800b"
+RPM_NAME = "python311-sympy-1.12-1.3.noarch.rpm"
+RPM_HASH = "47cf18e8a3941569dbb6b08678c2bfa3fa306439d53ea056630f9d179ddb239a738bba39dba356e829a8234e5f495bb59095700af1e9d5d91f61728729941c9f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-sympy \
+RPROVIDES:${PN} += "python3-sympy \
+python3.11dist-sympy \
 python311-sympy \
 python3dist-sympy"
 

@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.9"
 
-RPM_NAME = "stressapptest-1.0.9-3.1.aarch64.rpm"
-RPM_HASH = "315057e28046c64ed117bf84829f7e6593b2b5f3ec94e45139d070a8b2acd7a8f824260304ed1121879ade8c5156637c77efb36807850c9f8e28150812213263"
+RPM_NAME = "stressapptest-1.0.9-3.2.aarch64.rpm"
+RPM_HASH = "1c96b7ca01cddb7bc782d100479727773db30eb7449d5f6174dd6a25a0d986f0bc15cd143b897c43a8ce9fce78fe8fdb7a14184dcc9424f9e8fd2f7f3fbad7bf"
 
 RPROVIDES:${PN} += "stressapptest"
 

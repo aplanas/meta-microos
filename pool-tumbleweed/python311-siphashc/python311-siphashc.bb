@@ -7,12 +7,14 @@ like SHA in that SipHash is only suitable as a message authentication \
 code."
 LICENSE = "ISC"
 
-PV = "1.3"
+PV = "2.1"
 
-RPM_NAME = "python311-siphashc-1.3-3.15.aarch64.rpm"
-RPM_HASH = "b9380a237a7a6935bb1d537c0b93871efee1ae6af9c4b7b09d3c2509fbc51c3750d25d53d599db460b3c311dea160fc3076235c689255e12189515f6cd169b66"
+RPM_NAME = "python311-siphashc-2.1-1.1.aarch64.rpm"
+RPM_HASH = "76c8c10cd2e28d0f8e9de32b6f9c19ef1fe637ba74e0701af18faf22bd52923bdae3bc8c9bde212cd006080da5e29a20c7144ddcc57e365e2fad1c5e034054a4"
 
-RPROVIDES:${PN} += "python3.11dist-siphashc \
+RPROVIDES:${PN} += "python3-siphashc \
+python3-siphashc3 \
+python3.11dist-siphashc \
 python311-siphashc \
 python311-siphashc3 \
 python3dist-siphashc"

@@ -4,12 +4,11 @@ LICENSE = "MPL-2.0"
 
 PV = "0.12"
 
-RPM_NAME = "python310-ini2toml-full-0.12-2.1.noarch.rpm"
-RPM_HASH = "4966a909e072ec3dcaca21a8b5773d6405ffa0a2df69a5d0bcd38978daca1544eedbdb9defaaa7541f88b62254aba5214165bf7a4a955e7e747f73d3b6c1e2a2"
+RPM_NAME = "python310-ini2toml-full-0.12-2.2.noarch.rpm"
+RPM_HASH = "3ffda82b04cad622902a81193b25803efa2ca3009c973917d53b2800655cd5f0b4428bbbc4d1e56a9451c4c8473a67002ef4465743efd314364a8242b680e745"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-ini2toml-full \
-python310-ini2toml-full"
+RPROVIDES:${PN} += "python310-ini2toml-full"
 
 RDEPENDS:${PN} += "-python310-configupdater >= 3.0.1 with python310-configupdater < 4 \
 -python310-tomlkit >= 0.10 with python310-tomlkit < 2 \

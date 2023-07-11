@@ -2,10 +2,10 @@ SUMMARY = "Maithili localization files for LibreOffice"
 DESCRIPTION = "Provides Maithili translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.1"
+PV = "7.5.4.2"
 
-RPM_NAME = "libreoffice-l10n-mai-7.5.4.1-1.1.noarch.rpm"
-RPM_HASH = "57c5d33374e162c4205917770fec5aee5765a888ddfe8f962f33fdb8c8233ee27187a9cfc9517728b50b1e1e88c16082ae4ddcb48e9d31303e72206de58c84e9"
+RPM_NAME = "libreoffice-l10n-mai-7.5.4.2-1.3.noarch.rpm"
+RPM_HASH = "74376dfbd6b3df59b17bf551d3efbe7a0fc45c672b8f9deb17f3f0a0662d1a211a6d89bf5663d2eec6e63893a399482a962fbb0d285ae9fc12dec0d7c5cc8899"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-mai \

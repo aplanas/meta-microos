@@ -7,10 +7,10 @@ Ntpd is an operating system daemon that sets and maintains the system \
 time-of-day synchronized with Internet standard time servers."
 LICENSE = "BSD-3-Clause & MIT & BSD-4-Clause & GPL-2.0-only"
 
-PV = "4.2.8p15"
+PV = "4.2.8p17"
 
-RPM_NAME = "ntp-4.2.8p15-13.1.aarch64.rpm"
-RPM_HASH = "0db30330784bc74e7a8417bd99af3528a1ffeb9a91e34186bf23ff6eae220924ce942ac2dce7b56173aa2e42ba1eafee020818a5dd93c37fd4825ac3260b52e1"
+RPM_NAME = "ntp-4.2.8p17-1.1.aarch64.rpm"
+RPM_HASH = "9ee0de3ef4872d4fbbd1c2f77be86fa9a60b74a3b92ecdc44efa7b2b722810617a19609801099ae34498a8ca56275f31cc51d55be4bcefd080d58d948bc0f504"
 
 RPROVIDES:${PN} += "config-ntp \
 ntp \

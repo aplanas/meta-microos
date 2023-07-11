@@ -5,12 +5,12 @@ LICENSE = "MIT"
 
 PV = "2.1.0"
 
-RPM_NAME = "superpaper-2.1.0-3.8.noarch.rpm"
-RPM_HASH = "3870f5ec25e112a770c186eaf63c95fb97f281b1d303825c86caf6198b903b56a95d05f7cd0d038c4da9716bf78be1b41f7f02405d30e3de1e1f13e476426dd9"
+RPM_NAME = "superpaper-2.1.0-3.9.noarch.rpm"
+RPM_HASH = "e594b2b75caeeb8bfe3a0dcd6c9c9e4175d049b16efc5f6198de690e17336de8df8d5c83e50f239caf56c207b674872ffd3f9b590fac9e9393db128e15bc1126"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-superpaper \
-python3.10dist-superpaper \
+python3.11dist-superpaper \
 python38-superpaper \
 python3dist-superpaper \
 superpaper"

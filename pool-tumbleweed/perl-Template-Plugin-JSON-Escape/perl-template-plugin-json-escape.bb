@@ -9,14 +9,14 @@ LICENSE = "MIT"
 
 PV = "0.02"
 
-RPM_NAME = "perl-Template-Plugin-JSON-Escape-0.02-1.11.noarch.rpm"
-RPM_HASH = "06ff2e19b72b0d3a7d3af193d03013293080fc4da9f7c1baaac1c59d932f85d515fe1a220cfdf3b79b516dfa095ab8ece33697b4aaacb8d031009d3d938e1979"
+RPM_NAME = "perl-Template-Plugin-JSON-Escape-0.02-1.12.noarch.rpm"
+RPM_HASH = "fdc58d856810eb02c91d992329559fd8ae511faa903a67f457e5233e641eb8d45bab882bae7a331b62c658056ccc21de3657b615426a427b6c683ffe28a3b393"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Template--Plugin--JSON--Escape \
 perl-Template-Plugin-JSON-Escape"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-JSON \
 perl-Template"
 

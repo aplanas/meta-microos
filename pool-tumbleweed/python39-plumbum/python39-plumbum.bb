@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "1.7.2"
 
-RPM_NAME = "python39-plumbum-1.7.2-1.6.noarch.rpm"
-RPM_HASH = "9b43b7c00238abf2689002b3e765d75f200521a88e37e0247618cbaced3cf276ce19ced2e6cd6562362a87c0bf661f0012e0c7ffb7e0aff4c60a6e1a18fc7265"
+RPM_NAME = "python39-plumbum-1.7.2-1.8.noarch.rpm"
+RPM_HASH = "2fa65b772676375b9e941ef62add342dcd855aad2d511166c83866f051baae8e7d3499aeee2159eacd4925eeaf59e0c9c4cf91468318c5bdf09ae17c4cfcf001"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-plumbum \

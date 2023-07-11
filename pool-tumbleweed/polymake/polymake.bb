@@ -5,10 +5,10 @@ simplicial complexes, matroids, polyhedral fans, graphs, tropical \
 objects, and other objects."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.9"
+PV = "4.10"
 
-RPM_NAME = "polymake-4.9-1.3.aarch64.rpm"
-RPM_HASH = "9dbe47d455e8db0ba30a03425cfa61a7c67395fb3c7c780ab8d84176c0983ae11630d669828552bf4ebf49a2003ac2bb06d291a0b42d3d5c9096f3e766b08266"
+RPM_NAME = "polymake-4.10-1.1.aarch64.rpm"
+RPM_HASH = "de56d108af9f9b84e6187ef187a9e8c6f8891f84fabaa18b4a86827c2e66f9111613e08611a462e991ce986265195bf6fff1425f9c874dc352f9eee2c5f37c36"
 
 RPROVIDES:${PN} += "perl-Geomview--File \
 perl-Geomview--OFF \

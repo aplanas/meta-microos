@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.2.0"
 
-RPM_NAME = "libsndfile-devel-1.2.0-2.1.aarch64.rpm"
-RPM_HASH = "b5882afe54e8aaf74f56eb6f99d4a45c02f23708f8ab5806fc780490129e19b551b196f9819edfaac400bb1c102e9824cd203e606dcb0e090183c1054c6ca65b"
+RPM_NAME = "libsndfile-devel-1.2.0-2.2.aarch64.rpm"
+RPM_HASH = "ad1e56524199f8ff518db0bde52ae04f223554b66f898f1b5d5a859c9c335b5b422af5e056a063d921db0edcf26e781963c16909c06b612a5aadbae04c786f0c"
 
 RPROVIDES:${PN} += "cmake-SndFile \
 libsndd \

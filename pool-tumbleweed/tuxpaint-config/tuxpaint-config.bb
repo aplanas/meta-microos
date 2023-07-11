@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.0.18"
 
-RPM_NAME = "tuxpaint-config-0.0.18-1.7.aarch64.rpm"
-RPM_HASH = "d40d41f0721c5367cbf0db151a9933be32c557cc8163cf5e44c871e273dc11c1ec5463a0674c0c04c752537b14f6f07963560e2ec8104ad5c73c635569b99d56"
+RPM_NAME = "tuxpaint-config-0.0.18-1.8.aarch64.rpm"
+RPM_HASH = "450b3b38984a546a92d4b19d9d948464ccecdc1b89affb9aaf3064c7944d218aa10db3eaca1019389f6986480e92e094ec315fcd6a030d11f4fc531bc1d8f900"
 
 RPROVIDES:${PN} += "tuxpaint-config"
 

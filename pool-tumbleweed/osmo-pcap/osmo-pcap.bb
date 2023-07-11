@@ -5,8 +5,8 @@ LICENSE = "AGPL-3.0-or-later & GPL-2.0-or-later"
 
 PV = "0.1.3"
 
-RPM_NAME = "osmo-pcap-0.1.3-1.10.aarch64.rpm"
-RPM_HASH = "90af10bb98eba53b98c046012aa84dedc102abcdbd3b4ff1533fddd8f9ab68b5c65ddd43b327ae27b79188aa6854504b5a31e19665d7b6c7f323e4003717db53"
+RPM_NAME = "osmo-pcap-0.1.3-1.11.aarch64.rpm"
+RPM_HASH = "1757bdbe02d12a035ff995a673e7453b004931ac6db4105b23c90f498f5ff0dbd0d2f79e878946a9d429d04b6636b7fe244b0db9405c2134081b54bbb1a5001e"
 
 RPROVIDES:${PN} += "config-osmo-pcap \
 osmo-pcap"

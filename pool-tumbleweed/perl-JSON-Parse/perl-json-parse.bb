@@ -19,8 +19,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.62"
 
-RPM_NAME = "perl-JSON-Parse-0.62-1.4.aarch64.rpm"
-RPM_HASH = "7aeb04581af65ea91c2818bc8aa585e12a5dd6f49fbc6314b08f225162949bfb30edccafc577e21365c2ccec534bda6b3d18f30f9d320905c4767259e72f526c"
+RPM_NAME = "perl-JSON-Parse-0.62-1.5.aarch64.rpm"
+RPM_HASH = "3d76014145a3abc6e01a042e20be420a775ec0577025136a83855656bd530d3b3b5ee5015e41ea16a7b43b96fca4341f5d24aa9ea453cf0db16d157310163c1f"
 
 RPROVIDES:${PN} += "perl-JSON--Parse \
 perl-JSON--Tokenize \
@@ -30,6 +30,6 @@ perl-JSON-Parse"
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

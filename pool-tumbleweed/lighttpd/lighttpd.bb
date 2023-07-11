@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.71"
 
-RPM_NAME = "lighttpd-1.4.71-1.1.aarch64.rpm"
-RPM_HASH = "3feaabfaabecfe0e8582899bcfb695f270de6596c58c747d5a6699421b6d945b7a275616d59f800afd3e176e024c2ccc42fbb07f0160fcd54c4122aaf3bd9427"
+RPM_NAME = "lighttpd-1.4.71-1.2.aarch64.rpm"
+RPM_HASH = "d6e21dee76d7c58a8a13ceb897d56ef76a81e03bed4632e97d4a93029e993cfc0bde7059664af9adafa9525705cda3512cfc1468dcada298c1aa6ffbc0cfe887"
 
 RPROVIDES:${PN} += "config-lighttpd \
 http-daemon \

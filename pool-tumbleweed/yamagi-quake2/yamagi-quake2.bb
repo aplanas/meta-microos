@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "8.20"
 
-RPM_NAME = "yamagi-quake2-8.20-1.3.aarch64.rpm"
-RPM_HASH = "2e0fdaa302335d217a9e0f7e00ec948c64a3339bb27840b806d238ce2b9fdd3ab3178dcc6b26ad5468dc83c2ff4fdd4eaa9fb27ad2f7352ac20e29e9fc9d199d"
+RPM_NAME = "yamagi-quake2-8.20-1.4.aarch64.rpm"
+RPM_HASH = "8a183a68185b20d1f1a393df057be7463ded87357fecc5850550009ea8d4753dd579ef3a6256fa2f49cfe3276d3c9dce8fc7a195671f23fecc98eeae0b9d9a7e"
 
 RPROVIDES:${PN} += "yamagi-quake2"
 

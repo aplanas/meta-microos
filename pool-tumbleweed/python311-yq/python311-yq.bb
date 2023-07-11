@@ -4,11 +4,12 @@ LICENSE = "Apache-2.0"
 
 PV = "3.2.2"
 
-RPM_NAME = "python311-yq-3.2.2-1.1.noarch.rpm"
-RPM_HASH = "7e113dafbc4a2834cc5eb81081eb8f054072f16a07986c55d22111def56864647f13b4544f0871b56514f3561d8bbcd75d34399f5390c9844182de461eb8ec19"
+RPM_NAME = "python311-yq-3.2.2-1.3.noarch.rpm"
+RPM_HASH = "93469586a705eb48a15bdc0b3d13b946e0761f2f02187f295cb14c577fcc65cf4f1442c26f29b41cd35f683eb85c6545c8630124253531c60d29eafbe6fa8a3b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-yq \
+RPROVIDES:${PN} += "python3-yq \
+python3.11dist-yq \
 python311-yq \
 python3dist-yq"
 

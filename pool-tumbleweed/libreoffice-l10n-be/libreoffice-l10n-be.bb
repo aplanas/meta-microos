@@ -2,10 +2,10 @@ SUMMARY = "Belarusian localization files for LibreOffice"
 DESCRIPTION = "Provides Belarusian translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.1"
+PV = "7.5.4.2"
 
-RPM_NAME = "libreoffice-l10n-be-7.5.4.1-1.1.noarch.rpm"
-RPM_HASH = "b58e1a50ea2b42e1aa871854762bf53e7b8de4fae3c64882429f54c88d39f6a9354e5fb4609ff4b0f267626dbb427f39bd74aee18819a9174ea6400a4dc53b23"
+RPM_NAME = "libreoffice-l10n-be-7.5.4.2-1.3.noarch.rpm"
+RPM_HASH = "4e489a5dde36444c0a6b3d5f129fb4c0c164a022a15121ec0bc46c35d0e971cdb70375454151ab820874249d774565f6fa0042f0ad7a8e287403e703b3c0ed36"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-be \

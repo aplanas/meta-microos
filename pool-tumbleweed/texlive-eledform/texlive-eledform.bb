@@ -5,8 +5,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.1asvn38114"
 
-RPM_NAME = "texlive-eledform-2023.201.1.1asvn38114-53.1.noarch.rpm"
-RPM_HASH = "43df6441a51a5407e60c552dd0df50cd523df6ce759419604c72bbd67142baa279fae2b047e3ba95127468e9c848804b97528c5bf7236e02172080f6fca45ca7"
+RPM_NAME = "texlive-eledform-2023.201.1.1asvn38114-53.2.noarch.rpm"
+RPM_HASH = "61325afdbb8c4cff958fb9330f75cee79b5cd6fb77ac1ce0456b91c3f810420640c26ded45f91121e8605bfb2459e07a4176d98fd6bbecf2a63a0b52c6116180"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-eledform.sty \

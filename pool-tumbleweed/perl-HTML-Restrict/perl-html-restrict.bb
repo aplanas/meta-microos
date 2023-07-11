@@ -6,14 +6,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "3.0.2"
 
-RPM_NAME = "perl-HTML-Restrict-3.0.2-1.1.noarch.rpm"
-RPM_HASH = "ec9b7bb3a132899c27e4b57ddf75e9385d676e1adcc65628d6c2805aaa3940144e15b09052836c00db0cdb0805f731de54a5e384c550a06037a21de23b5f2ce0"
+RPM_NAME = "perl-HTML-Restrict-3.0.2-1.2.noarch.rpm"
+RPM_HASH = "0c809431a5aaa2a061fbbd9dd3cd23a2a429ae2839767d9e2c07ab9d6cabdfedc84f1303578198ee7cc75de0df606c1d006300f17446248371b41d7b621c140f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTML--Restrict \
 perl-HTML-Restrict"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Data--Dump \
 perl-HTML--Entities \
 perl-HTML--Parser \

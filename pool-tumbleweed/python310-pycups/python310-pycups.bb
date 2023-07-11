@@ -4,12 +4,10 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.0.1"
 
-RPM_NAME = "python310-pycups-2.0.1-2.8.aarch64.rpm"
-RPM_HASH = "12a7f7446f38eb9085bb13880827b4ee3b936bad7da92dbe90211a1b55864c79015d5e87ba99566e6c488769bdb729c9cd76d679bbd0504defcf2cd563bd5517"
+RPM_NAME = "python310-pycups-2.0.1-2.10.aarch64.rpm"
+RPM_HASH = "d170669366e7269d841b19990000f777e6152f51a20c38d1fec25af3abe014a7846506f1f8027ad42c430ce1d668ac64466833eadb8b8b21e8dc8ed8d22c157c"
 
-RPROVIDES:${PN} += "python3-cups \
-python3-pycups \
-python3.10dist-pycups \
+RPROVIDES:${PN} += "python3.10dist-pycups \
 python310-cups \
 python310-pycups \
 python3dist-pycups"

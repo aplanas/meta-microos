@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.7.0"
 
-RPM_NAME = "ldas-tools-framecpp-devel-2.7.0-2.12.aarch64.rpm"
-RPM_HASH = "960a90245a5a1fb818909b0acbc77f48b499a770b85c8edeec6cf2b4f7872c97dc13e5eae58416371bac0cddb191a316b9812656a34beedea7e35a8085fa8dae"
+RPM_NAME = "ldas-tools-framecpp-devel-2.7.0-2.13.aarch64.rpm"
+RPM_HASH = "53e39d81f0df55f1a3bc11a9afa1e763e9bbd37484b36dce6ab9a5e6706b15c4871184a3478ab908a83cdc77422c672a7ec5b1d08c07721b84cd0075fa1c84ed"
 
 RPROVIDES:${PN} += "ldas-tools-framecpp-devel \
 pkgconfig-framecpp \

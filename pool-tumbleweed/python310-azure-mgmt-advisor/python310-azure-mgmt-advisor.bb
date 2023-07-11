@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "9.0.0"
 
-RPM_NAME = "python310-azure-mgmt-advisor-9.0.0-1.10.noarch.rpm"
-RPM_HASH = "0ca76b95622cacef40efa10bd2378d766bf7791b90921b00429eb491b612d16c3cae9cda66cb3914e7a4c179204c8bcc8996c45ec115ec01d535b923166d94c6"
+RPM_NAME = "python310-azure-mgmt-advisor-9.0.0-1.11.noarch.rpm"
+RPM_HASH = "2545cf53f27d301ca826852cf01838fd099c2c8770fcacb6b16cb1b6703e2ab86d52edfcce199ff61d3e0be383f0ecbac582469efd59b2440b139369e4d2e880"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-advisor \
-python3.10dist-azure-mgmt-advisor \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-advisor \
 python310-azure-mgmt-advisor \
 python3dist-azure-mgmt-advisor"
 

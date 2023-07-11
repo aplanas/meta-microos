@@ -25,14 +25,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.06"
 
-RPM_NAME = "perl-Task-Weaken-1.06-2.15.noarch.rpm"
-RPM_HASH = "12331b29df18bf611de675c6e49e5e2fe8de067cb365e7f55419e148fbd614015d7baa78164fb4554657c82cdaf59787a0ba1e59456d5d4250713f7780b15c8d"
+RPM_NAME = "perl-Task-Weaken-1.06-2.16.noarch.rpm"
+RPM_HASH = "0b0b76486d6673acaa53bb4136ab7ab107b12819c05c44151f56ab93408aff90da9ef2807c15615a0a64be8f147c1d22db044a4a7f0babb7f2731c243a49d638"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Task--Weaken \
 perl-Task-Weaken"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Scalar--Util"
 
 inherit rpm

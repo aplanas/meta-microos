@@ -13,8 +13,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.25"
 
-RPM_NAME = "perl-MooseX-AttributeHelpers-0.25-1.22.noarch.rpm"
-RPM_HASH = "6179d504e3c0e5af48ecb85f3c73a0dfd4903ab7aa8c07383d2e7e1f641d2504c939996d47d6e688ce203316a456d6769a9703f8e1049f17636ae74a3c9a7847"
+RPM_NAME = "perl-MooseX-AttributeHelpers-0.25-1.23.noarch.rpm"
+RPM_HASH = "589abdc95eb78efdfea81ba466f41d5b60139eba6af96edf91d2bee7fc397b29b3a1e3c0af47a6a971a17d71d54886e4a6d3a8a4cff4062b15f6fb2e0b734475"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooseX--AttributeHelpers \
@@ -50,7 +50,7 @@ perl-MooseX--AttributeHelpers--Trait--Number \
 perl-MooseX--AttributeHelpers--Trait--String \
 perl-MooseX-AttributeHelpers"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-JSON--PP \
 perl-Moose \
 perl-Moose--Meta--Attribute \

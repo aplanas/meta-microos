@@ -9,8 +9,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-kinotify-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "d46b567fae76879e098214ed08d871749a0062cce3210049f9ea85739a81600cefe062c25ab36e134fb183a6b5bc534152e27477c7f768d8a4e79b07a9d9f0cd"
+RPM_NAME = "leechcraft-kinotify-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "8cc3e924bcd2ea8a51c93085afb70c2ae457a3834b0516d361b6f6dfad05e4f5864301838e4e16f0066412fb97ad09de08ae4d40f1dba70909bdbd3186a2a509"
 
 RPROVIDES:${PN} += "leechcraft-kinotify \
 leechcraft-visualnotifications \

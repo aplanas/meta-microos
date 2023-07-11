@@ -4,11 +4,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.3.22"
 
-RPM_NAME = "python311-spur-0.3.22-1.4.noarch.rpm"
-RPM_HASH = "77e955863e525e7e3da66bc9379936fa7ab920030b170c85d1d8b49ff49418c943b28a692e4f2e4c4e37994a19d01dd316a414b937d064909576131970a7c645"
+RPM_NAME = "python311-spur-0.3.22-1.6.noarch.rpm"
+RPM_HASH = "a707406f0da2ce1a9a8ef8b960592c94e67714c1c94fb7a50874c8079341694538fb4605979749260a94ac3b17a8b045e83a10e0dfb52d07a47925c1b9d03aae"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-spur \
+RPROVIDES:${PN} += "python3-spur \
+python3.11dist-spur \
 python311-spur \
 python3dist-spur"
 

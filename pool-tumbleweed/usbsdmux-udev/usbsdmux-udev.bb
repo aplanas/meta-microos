@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.2.1"
 
-RPM_NAME = "usbsdmux-udev-0.2.1-1.7.aarch64.rpm"
-RPM_HASH = "ceefc492c9af805d091af8f3afb6aa6d049562e6f0ae0ade4de6a09ab80568a94ff72d4817b079914f9640f89d4f48b3bad50b1d8cc1cc42e9a1821ba156a8e1"
+RPM_NAME = "usbsdmux-udev-0.2.1-1.9.aarch64.rpm"
+RPM_HASH = "c480a05d0c8cedfd4fdb1a2e972eb00eb349f82998fce8047fc597115d09f5dcbcd20662e92898241a4d5817840f891404dedbacb1f870f9a87cb03f466e585e"
 
 RPROVIDES:${PN} += "usbsdmux-udev"
 

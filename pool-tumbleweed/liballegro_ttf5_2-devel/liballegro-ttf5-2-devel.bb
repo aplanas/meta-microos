@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & Zlib"
 
 PV = "5.2.8.0"
 
-RPM_NAME = "liballegro_ttf5_2-devel-5.2.8.0-1.3.aarch64.rpm"
-RPM_HASH = "57b95cab64681e95d66fadef0fa47ad8bafe575dcc986899c704b842f80001079886d6f05e103006612bd07504d85703c03be9b3e7f2df2c45a38dd149100635"
+RPM_NAME = "liballegro_ttf5_2-devel-5.2.8.0-1.4.aarch64.rpm"
+RPM_HASH = "d9725b7da0cbbb8cce51bfd3f6c53df536fa7f33a4cb390ecf7a25a5f35fe1aa7321f810cf06ef28b85eb50960f6b39e7371671582fe2517bf4ffa430cc8144f"
 
 RPROVIDES:${PN} += "liballegro-ttf5-2-devel \
 pkgconfig-allegro-ttf-5"

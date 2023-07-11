@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides a Cyrus SASL plugin to use Google's XOAUTH 
 for receiving and sending mail through Google servers."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "sasl2-kdexoauth2-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "ff8d2bd7e2aaafb04a73dc8d4ebe548d3ad6581564305beb96f8f05b736074438106fec0a601f3bb167ed48fad805503f362844ee6957b44aeefe155043d8ebf"
+RPM_NAME = "sasl2-kdexoauth2-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "e3a0cf181af644b4410b3070f8cb4bd77e38fb409c0fb8b935b256b8ee95d1f1a915394fd0248ae79a61ed93c84b911b327d2b820020533ad80d9ff81b574d5c"
 
 RPROVIDES:${PN} += "libkdexoauth2.so.3 \
 sasl2-kdexoauth2 \

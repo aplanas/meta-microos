@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.9"
 
-RPM_NAME = "sed-4.9-2.3.aarch64.rpm"
-RPM_HASH = "2c024ec4b05d50b4dec60c31c1111bc48f3355af40dd5725a32588f966660bf35cc07e8afaa3dcb160791e4ac44c5bbefca610f26dbf583ed78d676d2d3d0a62"
+RPM_NAME = "sed-4.9-2.4.aarch64.rpm"
+RPM_HASH = "5f920795976cb675c0236c07c3196174628f146086ec61fdbe1c16828fc78c0f591ee6956dba3123e88d988c7d9588f38f61b6af86246a08a68e28cf838bedcb"
 
 RPROVIDES:${PN} += "/usr/bin/sed \
 base-/bin/sed \

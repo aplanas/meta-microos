@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.11.2"
 
-RPM_NAME = "python39-sidpy-0.11.2-2.2.noarch.rpm"
-RPM_HASH = "7933af49441f340de4def66ef50eab72e4806e58772d30dbba183e227105f9869988d72f8cc16380a1633ca268dbedfae270d3a8450f421ecd288253bb5a1ff7"
+RPM_NAME = "python39-sidpy-0.11.2-2.4.noarch.rpm"
+RPM_HASH = "7184b9568d4e501d4cba8e0c1fb4584bfafa1c808e0d116a7974cb8d487061cb067aae00b3aa5f63c237ab5f66ef9b3ada837b6a23cf279e890b183626fa4485"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sidpy \

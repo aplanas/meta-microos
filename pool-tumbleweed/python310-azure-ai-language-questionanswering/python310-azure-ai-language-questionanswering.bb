@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "python310-azure-ai-language-questionanswering-1.1.0-1.3.noarch.rpm"
-RPM_HASH = "43a1c0c3c6a301d912e6ee35b3d82e6b8168769ab01c1ca3e2ef9d59874f71da24a79ddca813f465be6c7abfd9b07158553db693922b2c1b85aedda406485413"
+RPM_NAME = "python310-azure-ai-language-questionanswering-1.1.0-1.4.noarch.rpm"
+RPM_HASH = "fa280ad354d11c0bf500909665b62576c1ca24890e9a909cdc82f3b25cd87f016c8f927531e68567e9f7b2598c9735085757ceb090a421a08a6d3288d91b0fbe"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-ai-language-questionanswering \
-python3.10dist-azure-ai-language-questionanswering \
+RPROVIDES:${PN} += "python3.10dist-azure-ai-language-questionanswering \
 python310-azure-ai-language-questionanswering \
 python3dist-azure-ai-language-questionanswering"
 

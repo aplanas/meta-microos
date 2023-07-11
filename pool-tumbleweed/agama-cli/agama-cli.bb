@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.1+0"
 
-RPM_NAME = "agama-cli-2.1+0-1.1.aarch64.rpm"
-RPM_HASH = "f06ce7226ce5d16a93a73f1ae8b4be4e996532176acd1271c488c26139939ff381f3439352da7b38a94c1ff76d3e1ebac381d56a6ee3a212f537cd0648f4f356"
+RPM_NAME = "agama-cli-2.1+0-1.2.aarch64.rpm"
+RPM_HASH = "4bff27ffadfe81614449c193a9b30af826930a520f6305079296572f3f82b6cff75297b75d6a5c0a171c6c4e39870ca69cb4300c8b8d1ecd2f2ab3de16ee160f"
 
 RPROVIDES:${PN} += "agama-cli \
 bundled-rust-crate-agama-cli \

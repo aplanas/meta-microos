@@ -10,8 +10,8 @@ LICENSE = "GPL-1.0-or-later | Artistic-1.0"
 
 PV = "4.16"
 
-RPM_NAME = "clusterssh-4.16-1.13.noarch.rpm"
-RPM_HASH = "48f56e123c5ad3904a530a8c56a91a2eaaa4aaeae27853cd89efa3113605b3bce008455b5dbcb32e5668e914883d2b518c3f4246b13879967638e6a28a49062a"
+RPM_NAME = "clusterssh-4.16-1.14.noarch.rpm"
+RPM_HASH = "65ed2bcc9530409447cfaf751fd6312f8661e5deb4513142cf326062689584eb5c6172e074bba4d60d5acad28481319625945def927313a6845aff73f18f4fb0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "clusterssh \
@@ -29,7 +29,7 @@ perl-App--ClusterSSH--Window \
 perl-App--ClusterSSH--Window--Tk"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-CPAN--Changes \
 perl-Carp \
 perl-English \

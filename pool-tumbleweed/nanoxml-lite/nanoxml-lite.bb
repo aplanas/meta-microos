@@ -10,8 +10,8 @@ LICENSE = "Zlib"
 
 PV = "2.2.3"
 
-RPM_NAME = "nanoxml-lite-2.2.3-4.6.noarch.rpm"
-RPM_HASH = "472d18e760e6ebcc4150e781280dc2dabe8b772790b46bc7d092530c9f9c8a6541a3ccd1888dedda6a2ffecb7c7549857efd2092ce2480cb3d38808e46e7419b"
+RPM_NAME = "nanoxml-lite-2.2.3-4.7.noarch.rpm"
+RPM_HASH = "e1ac75a1d237ab44e87805771178b062f198c64a1605b14fcefb6e025fc9f99db27dd8d9abaa4f413f925802ec8f64f6e0255b2e72b24f11634e27011a8cc109"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nanoxml-lite"

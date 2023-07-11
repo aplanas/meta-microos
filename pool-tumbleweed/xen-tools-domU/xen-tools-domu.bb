@@ -15,8 +15,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "4.17.1_04"
 
-RPM_NAME = "xen-tools-domU-4.17.1_04-1.1.aarch64.rpm"
-RPM_HASH = "aa2dd9207a26defceb33fe161433e6fc2ae41405b0f278d526995ef02ccc0c181e5ba526f2dc290b82241e00fe5de1e8cf004524b8dfcadeaa0d5caba8cad768"
+RPM_NAME = "xen-tools-domU-4.17.1_04-1.2.aarch64.rpm"
+RPM_HASH = "43befe6d7d2fcde478313ed6f1b6a553d84bdbe45e7836895f655c3f351c4f22ef8947dcd0d11eb4b420bb27594f0c1b7749119fbe3ae0839852010327b425a8"
 
 RPROVIDES:${PN} += "config-xen-tools-domU \
 xen-tools-domU"

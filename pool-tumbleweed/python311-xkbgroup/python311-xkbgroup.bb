@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.2.0"
 
-RPM_NAME = "python311-xkbgroup-0.2.0-3.12.noarch.rpm"
-RPM_HASH = "e45b6335e383f5c1c366dfbe24879a321e87335a056e9b08e555cae1112f97fde22bafeaa6c9e975a8d21fdf3eb227fcfa62133bfef42eaa3a419d4d594634cc"
+RPM_NAME = "python311-xkbgroup-0.2.0-3.13.noarch.rpm"
+RPM_HASH = "ba470316b4559b5d7f3f8ed3c9798050985f50aa502f6bdd031a0ca3060ce65e8d49c2a88be36d14cb59dfa780d3131c02ccc622cc1f868b24ef0daec1a134b2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-xkbgroup \
+RPROVIDES:${PN} += "python3-xkbgroup \
+python3.11dist-xkbgroup \
 python311-xkbgroup \
 python3dist-xkbgroup"
 

@@ -13,8 +13,8 @@ LICENSE = "MIT"
 
 PV = "5.1.5"
 
-RPM_NAME = "lua51-doc-5.1.5-15.16.noarch.rpm"
-RPM_HASH = "bd2890317135df3dad14cffd1eebf47e2f4640e1a741ab68efec224653db6693cba7ebf1e4a34a9c3ee828e9a6e1acc2aeeb7d2a400c9aef37218401271f17c5"
+RPM_NAME = "lua51-doc-5.1.5-15.17.noarch.rpm"
+RPM_HASH = "af6b6dd15b5db9e56ee45bd8b1a205a04c23c9fe498aab2b4f58d31f1638bba77eb492f222fbaebcea1ca836c254c73b94fec4c5d3f917d08675a6c1acdcf16a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua51-doc"

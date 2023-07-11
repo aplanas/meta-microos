@@ -6,8 +6,8 @@ LICENSE = "BSD-4-Clause & ZPL-2.1 & MIT"
 
 PV = "2.0.1"
 
-RPM_NAME = "python39-pyramid-2.0.1-1.3.noarch.rpm"
-RPM_HASH = "4a20f5f081dd5bff4f5adf8db0387fcdb6b88d3ed479362ac559531bb9eaff1489c63d00663a18442c14862e9acc84c3dd6e294a8cbf7650a89666e4a91ba487"
+RPM_NAME = "python39-pyramid-2.0.1-2.3.noarch.rpm"
+RPM_HASH = "928faa0f123418f348d191d6d8401d147ee1dbfc9f32706e88356f4ca8b15a940ccd511f3ce5af2e55feeb9f45332e477218e31f6e3f972447c3295f3a420b77"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyramid \

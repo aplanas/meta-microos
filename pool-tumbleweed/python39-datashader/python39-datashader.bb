@@ -23,8 +23,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.15.0"
 
-RPM_NAME = "python39-datashader-0.15.0-1.1.noarch.rpm"
-RPM_HASH = "4bd9fa851b5a6afeaf3887f1e514d4f9cab473ca467da788a33d5d7690c1339773b25ed2dce7a060b5c718b4b474dcf00116d56abbd1bfbc8862685b6b164a96"
+RPM_NAME = "python39-datashader-0.15.0-1.3.noarch.rpm"
+RPM_HASH = "876df77893fe08540b838bcd34538810b28f4a398fbf048a07e06e01d0c08a79e9d9bcfbaba98daf584e3d026da3884bfcccf0e014fe1dadb34008e6fd57e63d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-datashader \

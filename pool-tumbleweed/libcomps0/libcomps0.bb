@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.1.19"
 
-RPM_NAME = "libcomps0-0.1.19-2.3.aarch64.rpm"
-RPM_HASH = "08eaac507256360a54a8521ee6e4e673d0bab9a3560802ecd85bd544fda884253ffdf8c466c291b6351de6bc76a87c4280fcb9a8cba1c273a44de0d21a2b0800"
+RPM_NAME = "libcomps0-0.1.19-2.4.aarch64.rpm"
+RPM_HASH = "e6d46b4580e141ee444480ef4f00ad9e9ab48b39a3d4f3db0f988c313b4614259b6ea7d50e511ce541bde2c6462487e7de070efff2ef7ba4baf7ffe4590a025b"
 
 RPROVIDES:${PN} += "libcomps.so.0 \
 libcomps0"

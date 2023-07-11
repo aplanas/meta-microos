@@ -4,12 +4,11 @@ LICENSE = "Apache-2.0"
 
 PV = "0.0.4"
 
-RPM_NAME = "python310-django-settings-toml-0.0.4-1.13.noarch.rpm"
-RPM_HASH = "29b0473b6c9b924c437e16d7f2dd949f2a88eb6907ec748c6a891932ffb78da07ad2771d3764154239bca7df0e023b8c9ed0c7ac8776588272285a46d39686cb"
+RPM_NAME = "python310-django-settings-toml-0.0.4-1.15.noarch.rpm"
+RPM_HASH = "a0b238c24ca282a95f6b7ecad8474ca229686c99a21d48b95389e8d9178b33521ef5021bae9b6afd343a8a36ea51225d39a57ba4592e98193c444a4facc43837"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-django-settings-toml \
-python3.10dist-django-settings-toml \
+RPROVIDES:${PN} += "python3.10dist-django-settings-toml \
 python310-django-settings-toml \
 python3dist-django-settings-toml"
 

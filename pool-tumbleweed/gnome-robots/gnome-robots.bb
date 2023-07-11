@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "40.0"
 
-RPM_NAME = "gnome-robots-40.0-1.12.aarch64.rpm"
-RPM_HASH = "5e1db7d8f416bc2f64dea21600ae616a57c0c1ef3c06b64219d7dda961e8042ae2a3366cdcb574ea978df542aa7c310435e810e7d9e6c7be0b05b60a0c2ec1ce"
+RPM_NAME = "gnome-robots-40.0-1.13.aarch64.rpm"
+RPM_HASH = "a16c2a51dca66425f9b5112796813c4612e74dafb8b288083b271fdad68c4b2f6f133968fa3f99f8225bf939a525400d47125acb88b83b63d168a2e392e2ac18"
 
 RPROVIDES:${PN} += "gnome-robots"
 

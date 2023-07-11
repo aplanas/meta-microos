@@ -6,11 +6,11 @@ LICENSE = "GPL-2.0-or-later & CC-BY-SA-4.0"
 
 PV = "0.42"
 
-RPM_NAME = "razercfg-0.42-2.8.aarch64.rpm"
-RPM_HASH = "bb4ac3a4521ba3163ff51c859267fa0edd70dfd253ea12981cd286126ed50af280de65ead0b20c729c6c5ddd90a104db55e5587299e7b63892deb9387d85a967"
+RPM_NAME = "razercfg-0.42-2.9.aarch64.rpm"
+RPM_HASH = "921f55837c260f80e941a17f04c4fb97f6a97fc8a081df7974fb7b4504477dc7f872e0bad7d663cb9838719f1971604eaaa8b5a69c60ac4440a338286e18fbcc"
 
 RPROVIDES:${PN} += "librazer.so.1 \
-python3.10dist-razercfg \
+python3.11dist-razercfg \
 python3dist-razercfg \
 razercfg"
 

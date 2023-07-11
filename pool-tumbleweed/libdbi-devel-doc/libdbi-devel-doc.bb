@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.9.0.g33"
 
-RPM_NAME = "libdbi-devel-doc-0.9.0.g33-4.9.noarch.rpm"
-RPM_HASH = "a1b551d18dc4ce18372e9c6abebb92986e16ec51147556b501d77298af0f1541be39a983415e9842ba0e7a882614bbc070102f8bbb790bc1f2eb7bdb38b339f0"
+RPM_NAME = "libdbi-devel-doc-0.9.0.g33-4.10.noarch.rpm"
+RPM_HASH = "a09b6f975aeaabca0a52e9e7f9ce1cd5348a04a689283db4833a2819475aedc54f6ff933e93736e4cd613448de6ce80c4b7297719f93c9d94c719810569a56f7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libdbi-devel-/usr/share/doc/packages/libdbi/driver-guide.pdf \

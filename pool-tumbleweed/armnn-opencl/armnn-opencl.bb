@@ -6,10 +6,10 @@ such as TensorFlow Lite, allowing them to run efficiently – without \
 modification – across Arm Cortex CPUs and Arm Mali GPUs."
 LICENSE = "MIT"
 
-PV = "23.02"
+PV = "23.05"
 
-RPM_NAME = "armnn-opencl-23.02-2.1.aarch64.rpm"
-RPM_HASH = "997b29fbf15ae5f854aaa33a96e232b6a5f9a119c15a0055cbb5b6cb155a1a497fde93a1ba00ad024fd9ea1935f6a873c1aa0a8159e26e27db72d65afab3335d"
+RPM_NAME = "armnn-opencl-23.05-1.1.aarch64.rpm"
+RPM_HASH = "a3bb78eaf8a107467145dc981f37b5dde127dd810050866b6a0a188fc542f72e02f1bef9a30776f247f4a4c2d04e2f51e9b1e28698a24d99ad411a8bb90fcd07"
 
 RPROVIDES:${PN} += "armnn-opencl"
 

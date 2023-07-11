@@ -5,10 +5,10 @@ This Qt 3D module contains functionality to support near-realtime \
 simulation systems."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libqt5-qt3d-imports-5.15.9+kde0-1.1.aarch64.rpm"
-RPM_HASH = "6aaa2a43e6114364ae05f6e711363211a430c1adb7f04d7fb555e5c9450d5e9bfd4d098e3118b4471d4837fc90815b1b3a712716d88e69e140c5da2b9f8c9323"
+RPM_NAME = "libqt5-qt3d-imports-5.15.10+kde0-1.1.aarch64.rpm"
+RPM_HASH = "6975cf6c7661fb23d44c83a95599b55f65d9b2c31ff331899c41a43f00fd155be0c954f73b71654bfd12b2892c1c10c1f8f2d3a3069b3a703a5b8f1a8bda60c4"
 
 RPROVIDES:${PN} += "libqt5-qt3d-imports \
 libqtquickscene2dplugin.so \

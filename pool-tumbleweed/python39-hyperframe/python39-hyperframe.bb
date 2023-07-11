@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "6.0.1"
 
-RPM_NAME = "python39-hyperframe-6.0.1-2.1.noarch.rpm"
-RPM_HASH = "bb81fb61ac05c89e17dddec4e2f0bfa2063b75378302e43499a619180ca9608d2da6d0d659145340ba4238471f0485a0880331975556b0267f140ec19dbec056"
+RPM_NAME = "python39-hyperframe-6.0.1-2.3.noarch.rpm"
+RPM_HASH = "304536aab6fa25e813258766d52ef0cfc7fc1d577857687a85ce0ac6e278cdbca8b9a02a4bc5e653b4af5df37a09314b0552b82a7af1d46abe7616ac2a7eaf2f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-hyperframe \

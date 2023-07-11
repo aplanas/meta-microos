@@ -6,11 +6,10 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.23+git5096047f90a1f6a74ceb250aef6243e144170f92"
 
-RPM_NAME = "python310-pybluez-0.23+git5096047f90a1f6a74ceb250aef6243e144170f92-1.8.aarch64.rpm"
-RPM_HASH = "93fe01c22f8bedca8a2d496c19f6edac953ffb494593bc3fe0175e04ff1d2315c4daef2cdae89eaf92a13518f3750979b82b8ea1b25b7dc16be03790e453c634"
+RPM_NAME = "python310-pybluez-0.23+git5096047f90a1f6a74ceb250aef6243e144170f92-1.10.aarch64.rpm"
+RPM_HASH = "ab7a03f5be54749a954db3cba9f00661e9fa2c6ae33e7af688aeb5f319c0d0f4894267b9f7f3e7ef280caf6bda4c968ca48fabc9570e6155f7917bf2610549ed"
 
 RPROVIDES:${PN} += "pybluez \
-python3-pybluez \
 python3.10dist-pybluez \
 python310-pybluez \
 python3dist-pybluez"

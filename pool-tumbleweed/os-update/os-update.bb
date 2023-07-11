@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.11"
 
-RPM_NAME = "os-update-1.11-2.1.noarch.rpm"
-RPM_HASH = "e47c9d4d0a8fc40754bae2fbad2b33465bcd7ae3e67c59a64da1145d2e022b5a616b9f4449b946241002a7b3869e2db6d64cbcb650e1272fe9b4251ddebfe24b"
+RPM_NAME = "os-update-1.11-2.2.noarch.rpm"
+RPM_HASH = "27ba3e41a5b45865e3092a67ad80df09a0cd4a5fbda3e60e720262a6a591fe8312f788a2391acc1897012b50e2df36d069668d619507bbaaca6796c7f800387a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "os-update"

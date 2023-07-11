@@ -6,10 +6,10 @@ MySQL Community Server. \
 This package only contains the server-side programs."
 LICENSE = "SUSE-GPL-2.0-with-FLOSS-exception"
 
-PV = "10.11.3"
+PV = "11.0.2"
 
-RPM_NAME = "mariadb-10.11.3-1.1.aarch64.rpm"
-RPM_HASH = "f32dd2b8c820156ed261b62c468a2fded69d95870c8251df5743c8b917c58c91455d6e1ac494d8599d01b6e4509ae09e8a075d031cabec096a1d307f49028083"
+RPM_NAME = "mariadb-11.0.2-1.1.aarch64.rpm"
+RPM_HASH = "98a82ff5340b321bf83dfe3f1344f54205e2bab904e712ee700158354ad0411df8106c6423e09d0b2ae5cdf5aaf69c59c31c08afb7d15825f591adb862db9b29"
 
 RPROVIDES:${PN} += "config-mariadb \
 libdaemon-example.so \

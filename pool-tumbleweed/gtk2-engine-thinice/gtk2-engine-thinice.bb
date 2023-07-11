@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "2.20.2"
 
-RPM_NAME = "gtk2-engine-thinice-2.20.2-19.42.aarch64.rpm"
-RPM_HASH = "6e8589b85243757ae8c8a279202be8c0d8c21a01b633ab5c899ba4c9aac6bceaaf00085cccd07ddf233f8324875327e43438070d9cb1dd3b38e56e7c8b2f56a2"
+RPM_NAME = "gtk2-engine-thinice-2.20.2-19.43.aarch64.rpm"
+RPM_HASH = "5e1d60ab74a4a1bbca26892d601f8784ed88bc887ca15c3b999fb04aec108fea01e2264f31475088eecf0eb023b02598615ceefcb7230d21b5a504a3efedc6b2"
 
 RPROVIDES:${PN} += "gtk2-engine-thinice \
 libthinice.so"

@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "1.0.0b1"
 
-RPM_NAME = "python311-azure-purview-account-1.0.0b1-1.8.noarch.rpm"
-RPM_HASH = "5579ce9c23bfefad97cd63d51ccb4d3f0599897b3711646842292cee2fbff3c844b5bf26f7bd576638e52d9ec2d27eec268983bfb500ce2e727de18b42fb94ec"
+RPM_NAME = "python311-azure-purview-account-1.0.0b1-1.10.noarch.rpm"
+RPM_HASH = "dcd40c5ef6ca2b93c23c643a4ff6d7f82018597b6c59b25944e88b5bd2db0da6f81bdef50507ada80111422cf6ac916e133303c6979ae30fdcc67cdfa10f60d3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-purview-account \
+RPROVIDES:${PN} += "python3-azure-purview-account \
+python3.11dist-azure-purview-account \
 python311-azure-purview-account \
 python3dist-azure-purview-account"
 

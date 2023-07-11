@@ -8,11 +8,10 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.4.2"
 
-RPM_NAME = "python310-llfuse-1.4.2-1.6.aarch64.rpm"
-RPM_HASH = "6c1a215ea2eb509ef77c7491acea89f5ce77a73c1fdfc704cbcd372eef0781a9dfc44772e626690e7bc65f094ce3971d683e69a4ccddb76c27b3e9c398c82379"
+RPM_NAME = "python310-llfuse-1.4.2-1.8.aarch64.rpm"
+RPM_HASH = "b286559632fc6aa2bdaf74882bf1e8bebca2d0faecb743cca9a364b519a61739e7b65a2b7ef1d1b8104c0117355bd54d970e2885eae9b7f135d58a40517d1833"
 
-RPROVIDES:${PN} += "python3-llfuse \
-python3.10dist-llfuse \
+RPROVIDES:${PN} += "python3.10dist-llfuse \
 python310-llfuse \
 python3dist-llfuse"
 

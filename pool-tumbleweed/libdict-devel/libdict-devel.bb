@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.0.1"
 
-RPM_NAME = "libdict-devel-1.0.1-1.3.aarch64.rpm"
-RPM_HASH = "d289398f52e106bdd653f896233172d2b56b9a85b6a406a44c8fe514129dd459e917c1e8fdc41616d148d20573be299bf97f3e6590ed910072495513c9f415ab"
+RPM_NAME = "libdict-devel-1.0.1-1.4.aarch64.rpm"
+RPM_HASH = "41aa8ba8ecdc171835c68c0789e7d1885ee081d1347a019a6b0e95b8eec0c9bd370fdefb786f2974253b18b7c8001aae9ab3ec9d1de460f45ffdf549e419951d"
 
 RPROVIDES:${PN} += "libdict-devel"
 

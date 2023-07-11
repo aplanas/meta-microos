@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "5.15.0"
 
-RPM_NAME = "plplot-driver-xwin-5.15.0-16.2.aarch64.rpm"
-RPM_HASH = "36a3fec46054b7c2b6c3cb3d3425a3d1094884f43332dca64b638cecdbedd05d354ae9b57eb4e3011335cc30aa51f9b870ca404660004cac5aa0f3383d28b445"
+RPM_NAME = "plplot-driver-xwin-5.15.0-17.1.aarch64.rpm"
+RPM_HASH = "83b47edfbe6280954797c53006882e18e70a31d1c9eac5120ff35e2e75f9abecd96bae5479bca7695ef07f0effeea3347bcede9395ea695f885f7fa8dec7694e"
 
 RPROVIDES:${PN} += "plplot-driver-xwin"
 

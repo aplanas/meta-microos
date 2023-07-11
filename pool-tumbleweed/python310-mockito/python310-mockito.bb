@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.4.0"
 
-RPM_NAME = "python310-mockito-1.4.0-1.3.noarch.rpm"
-RPM_HASH = "0efcc3f6be3bb6939033107f1799a013261b0674988288178e32e5602c8cbdabf83d48d8427563a5c4839e0a35b91f6e2b9521dcac2259e6d619d2742e467166"
+RPM_NAME = "python310-mockito-1.4.0-1.5.noarch.rpm"
+RPM_HASH = "142948caea20be3f5645602e83f0585073d1aa896184b4e76cf9c7dad986cae18f6ea5202df6f3b647bd833e08c19ad5d4827ed3a9e9dd4f462ca94de09836a7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-mockito \
-python3.10dist-mockito \
+RPROVIDES:${PN} += "python3.10dist-mockito \
 python310-mockito \
 python3dist-mockito"
 

@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.5.1"
 
-RPM_NAME = "ghc-jira-wiki-markup-devel-1.5.1-1.3.aarch64.rpm"
-RPM_HASH = "4b823d55402a4f170888f16effe98e4d4cd8c78da8d8f9df42b6de7aa83a0fe71fbfb568e530bc4221d1fe76c23199c0857d86ed9d809d817ef39a27f07201d9"
+RPM_NAME = "ghc-jira-wiki-markup-devel-1.5.1-1.6.aarch64.rpm"
+RPM_HASH = "63aa532800530be83500e2e46770bf90776fd3e37f9cdd0f9762726b7acda3beecfbe34c0b0ac0dd6971698624b07f2a12a9b2af05d628f08554c41c9ff2d5b4"
 
 RPROVIDES:${PN} += "ghc-devel-jira-wiki-markup-1.5.1-7ePG3tP2CY82wODfjMZ5nH \
 ghc-jira-wiki-markup-devel"

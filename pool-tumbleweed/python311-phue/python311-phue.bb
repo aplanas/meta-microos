@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "1.1"
 
-RPM_NAME = "python311-phue-1.1-2.6.noarch.rpm"
-RPM_HASH = "58d64c584e7b4458459e65e2ce5e1dd44073f1c94cd81b49e7aeb2b5ceca9b0dbd573e1a6fdd16aa88b10987c79fb9fb3221daace1039ca1476031090bcb0d01"
+RPM_NAME = "python311-phue-1.1-2.8.noarch.rpm"
+RPM_HASH = "c9e954fdf2dfd8fba3cc0cde92e4f7e8299f521bfac998c3b989c5d47639e7e25b027a6ec105e59075a6fe5c375b81d039177aa5136edd6d127697aa0a639b40"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-phue \
+RPROVIDES:${PN} += "python3-phue \
+python3.11dist-phue \
 python311-phue \
 python3dist-phue"
 

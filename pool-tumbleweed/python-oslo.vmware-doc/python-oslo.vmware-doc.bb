@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "4.1.1"
 
-RPM_NAME = "python-oslo.vmware-doc-4.1.1-1.2.noarch.rpm"
-RPM_HASH = "260e817202b6162484b33613f16e19d89dc42b298525cfbd168b02cbb1e38019655aa634a163521d970fadfd26b8f538a4384265d4d97aea97a3d57242cc9668"
+RPM_NAME = "python-oslo.vmware-doc-4.1.1-1.3.noarch.rpm"
+RPM_HASH = "227ee3e97b7d8d3ae6978d06f9d55350e4cf1da2608cd035b53c5fb2fbc682571855d1a660e24ef84d95203661b94368cbe18a368f2a67e9c9060b9417adceb6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-oslo.vmware-doc"

@@ -4,10 +4,10 @@ DESCRIPTION = "Qt is a set of libraries for developing applications. \
 This package provides Qt 3D QML types for rendering."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libQt53DQuickRender5-5.15.9+kde0-1.1.aarch64.rpm"
-RPM_HASH = "084cfb8c785480bd948fb8256921b1c82ebe48c11a3709423a9524976a52f3b7b4aa726881fd8ac96a1cbc23456891605c92cd8e796c4dcb98b5556e5b4cdb6f"
+RPM_NAME = "libQt53DQuickRender5-5.15.10+kde0-1.1.aarch64.rpm"
+RPM_HASH = "97d9137e87fcf8d64b0f37a5bcde8c15bc1c7dbeca87c62fb0a5321e9e577c1788f1cb579344725e8fc009f40f3a597319a61f6f02be0f61e5ea0a4997e1f93a"
 
 RPROVIDES:${PN} += "libQt53DQuickRender.so.5 \
 libQt53DQuickRender5 \

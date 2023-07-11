@@ -13,8 +13,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.5.0"
 
-RPM_NAME = "apache-commons-validator-javadoc-1.5.0-3.4.noarch.rpm"
-RPM_HASH = "160fb9a1ced929940ff6ca37fff218acd7b820217a4c1afb5b2196b363df30e59f776c0c79741f6668f117322ac9c529175194d10fdebbef6cb25f3d6ecd6c8c"
+RPM_NAME = "apache-commons-validator-javadoc-1.5.0-3.5.noarch.rpm"
+RPM_HASH = "296e6ba7a0243c75659f4bd5ac84b99d0571654bcf5406a5d177671615661d401a104d412a597bcc257dc36c92b13293266a9d315e5e2cc31bd0f090b7f045d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-validator-javadoc"

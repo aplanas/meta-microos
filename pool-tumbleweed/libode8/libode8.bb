@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause | LGPL-2.1-or-later"
 
 PV = "0.16.3"
 
-RPM_NAME = "libode8-0.16.3-1.3.aarch64.rpm"
-RPM_HASH = "8ca08e5d822b880c3149417ebae9dc84d3b28cb42e49a3b514ab5613cf39cfb92c4de3a4c552060babe29adf0eb4e6ce543858d814ae0a3a0e369ee63955b365"
+RPM_NAME = "libode8-0.16.3-1.4.aarch64.rpm"
+RPM_HASH = "0a0d84de62076daa11bd5b5158e9442ae6d83ba6b039865d19489290194e2e9a1e2c7fe34d0f72651fd6b789e885279430b1468c3c6ee76d1ffccb2a3600028a"
 
 RPROVIDES:${PN} += "libode.so.8 \
 libode8"

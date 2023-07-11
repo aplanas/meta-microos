@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later & MPL-1.1"
 
 PV = "1.13"
 
-RPM_NAME = "taglib-1.13-1.3.aarch64.rpm"
-RPM_HASH = "5576e1ac9547ddc355566c3adee8fa7da82a92b84f59a48fd43326f05059d1da49573cc95adcb39d55c6bbcf505aa43a5f32cacfaf309717e8851f3da7d3eeff"
+RPM_NAME = "taglib-1.13-1.4.aarch64.rpm"
+RPM_HASH = "5a4520302232d3cc502b28b3938a67df20878b51f76a36c5af4cdf95a4897077004df701c75381f205091f4c75458439bbc3e5e48971defdee41ecf99e0bf898"
 
 RPROVIDES:${PN} += "taglib"
 

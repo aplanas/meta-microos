@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.13.0"
 
-RPM_NAME = "python39-visvis-1.13.0-1.13.noarch.rpm"
-RPM_HASH = "5a06be1c58cb6946219856ddb64ad40b3da7c31f2eede507cbd1a236bc232628fc418ebd018b89419a5a11b43aac25e8de51c0ac4be1f07f92173fd0906849e6"
+RPM_NAME = "python39-visvis-1.13.0-1.15.noarch.rpm"
+RPM_HASH = "d1f47126f403d5373f87039286fb1f4915f979b926e806c2c2d4200eb9745708c2e144b58b9526d24e4c707ea46c80901f74e1f42241419b5f98825b6f32afa4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-visvis \

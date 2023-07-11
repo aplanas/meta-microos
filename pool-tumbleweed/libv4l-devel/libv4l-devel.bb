@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.24.1"
 
-RPM_NAME = "libv4l-devel-1.24.1-1.3.aarch64.rpm"
-RPM_HASH = "90c86919421a287b3e1e693c13bda740df925bf700ba0aefadad992436b36ba513144417d09ccfd84852d9f1df1f0c0093fda90d739f34e3543388586223584e"
+RPM_NAME = "libv4l-devel-1.24.1-1.4.aarch64.rpm"
+RPM_HASH = "a3bf3823b64b56526e5b9edeb0c33cb197115462403ccb8e53365da97851566c4d0b3ca733dc07303270387ad7218ddc5ee4c3a797a4e619d9f760972a9f0385"
 
 RPROVIDES:${PN} += "libv4l-devel \
 pkgconfig-libv4l1 \

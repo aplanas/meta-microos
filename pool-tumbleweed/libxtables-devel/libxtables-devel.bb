@@ -9,8 +9,8 @@ LICENSE = "Artistic-2.0 & GPL-2.0-only"
 
 PV = "1.8.9"
 
-RPM_NAME = "libxtables-devel-1.8.9-1.3.aarch64.rpm"
-RPM_HASH = "28b9f0b7dd35cc060fe470d057c3efdc037074c55e7045a469583a3f37ec4c7ea8dc7a557f4c988c1a52078c16d72dd4794fefb407fbdbf0887034f8eba16d96"
+RPM_NAME = "libxtables-devel-1.8.9-1.4.aarch64.rpm"
+RPM_HASH = "dfade1fbc873a6415f523453f4573a26f3978ef0df55d9f2d72bdc8d5f8c1d490b6265adebc48158b3786ab96e7937c1f90f280836f7b394096d571afe1a663c"
 
 RPROVIDES:${PN} += "libxtables-devel \
 pkgconfig-xtables"

@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0.0"
 
-RPM_NAME = "mdbtools-devel-1.0.0-1.7.aarch64.rpm"
-RPM_HASH = "49b8245009f02030eff36bf4e60d99c827a846aa7f3e9570c5fdb58820fcf5c6066024180f2d362f55902fac88d4249302a0e59519581bc05e4656116410d135"
+RPM_NAME = "mdbtools-devel-1.0.0-1.8.aarch64.rpm"
+RPM_HASH = "9918cadf4fe85d52ffb515b219809fa061719f3995d7eb960eaa4ab6d2d0d4b726ff80417feb007afd7b1bd8deb2d142205742aabf3f6b7493f469490e357af2"
 
 RPROVIDES:${PN} += "libmdbodbc.so \
 libmdbodbcW.so \

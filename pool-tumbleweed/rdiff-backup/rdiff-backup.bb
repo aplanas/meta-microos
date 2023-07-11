@@ -15,10 +15,10 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.2.4"
 
-RPM_NAME = "rdiff-backup-2.2.4-2.1.aarch64.rpm"
-RPM_HASH = "cc0f94b16001896dfd09f8f69191a74dc4149776d0bcb6b2f608daa274cf47c2bcaf0acfa2cc2d04fb3409aea0b0776ded186fe5d69cc341ee6c4bb4eb5140fa"
+RPM_NAME = "rdiff-backup-2.2.4-2.2.aarch64.rpm"
+RPM_HASH = "d5015b94d0f97935b57517c0fa30c1fe03d1a090de279708d4f18fddf2090ba5cc3b8817fd004176ab2ea4767f012a7bc6a1824ccf7cd02b5a28edefcd9034eb"
 
-RPROVIDES:${PN} += "python3.10dist-rdiff-backup \
+RPROVIDES:${PN} += "python3.11dist-rdiff-backup \
 python3dist-rdiff-backup \
 rdiff-backup"
 

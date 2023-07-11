@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-meeteimayek-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "691be9058e6326c0e9e31a3a6626224bc6af631cf0c91a3ccf3d56be5e7a810fe0af7d8d77b247d1dd026214e89349999d9acca9786f4bde7e1c65baad624d5a"
+RPM_NAME = "noto-sans-meeteimayek-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "84b6d1f6103b8ac750b5581fa71e5c60ccf17dec00d052b7667e82cf239ae9f3458081ae94158a685ec159e051cf674d09f12762b1d6758da2017cdf1af03807"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-meeteimayek \

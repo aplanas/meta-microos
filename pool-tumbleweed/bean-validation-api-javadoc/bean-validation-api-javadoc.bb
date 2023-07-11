@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.0.1"
 
-RPM_NAME = "bean-validation-api-javadoc-2.0.1-1.17.noarch.rpm"
-RPM_HASH = "69f276a49eca81fdbabe414df3a3c663a52399408e30eb470769562e362a3d39a78213000981d283e74137980172b86b1834dea329ef0d8324ccb376d710b91e"
+RPM_NAME = "bean-validation-api-javadoc-2.0.1-1.18.noarch.rpm"
+RPM_HASH = "cb038bc256465638ffe800affa4f609157531f760c4c2a9dedf0a70a9358d9128add06804057daf6617e451afa8b84eaa48836480382ca15c04d4bcb7ab117c1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bean-validation-api-javadoc"

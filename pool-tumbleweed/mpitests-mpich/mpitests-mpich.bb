@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & CPL-1.0"
 
 PV = "3.2"
 
-RPM_NAME = "mpitests-mpich-3.2-11.3.aarch64.rpm"
-RPM_HASH = "693fdcb6ea9e2dd11bbd617f80f6f70eeb78624d92f98fec0058f4071800018dd47b3e257ed3f478639f6877eef5ba4d0c18eb379118ab218d55a3519dcb4e89"
+RPM_NAME = "mpitests-mpich-3.2-11.4.aarch64.rpm"
+RPM_HASH = "0866ec68b845e0992740b54fbcace08db6195617490ab0a927bfef075e10eedcc1ffca37c374436532e27d7fcc7142bb3dd837c54f02f178b430a628b10f03ce"
 
 RPROVIDES:${PN} += "mpitests-mpich"
 

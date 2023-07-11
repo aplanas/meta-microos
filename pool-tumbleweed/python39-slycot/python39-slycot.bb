@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-only"
 
 PV = "0.5.4"
 
-RPM_NAME = "python39-slycot-0.5.4-1.1.aarch64.rpm"
-RPM_HASH = "3fc9c31841cf48285275f7bc390e8310cde19d9a7535c03fc5b0e35976b1f4fb36b4a5a376e4a96c181d7781e7b868b475ee173fd121e4ab4555b5371f30b817"
+RPM_NAME = "python39-slycot-0.5.4-1.2.aarch64.rpm"
+RPM_HASH = "d4d37412a684f61480a2bdc53d228b587a9c314355e752245c3ea3099f3666b79194978c57d344d689984d1cfe9d95b18a99d1f6d6d97bf5689a313c41f4e9e3"
 
 RPROVIDES:${PN} += "python3.9dist-slycot \
 python39-slycot \

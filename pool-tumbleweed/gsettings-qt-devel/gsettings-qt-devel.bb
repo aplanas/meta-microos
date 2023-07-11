@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0+"
 
 PV = "0.2"
 
-RPM_NAME = "gsettings-qt-devel-0.2-1.9.aarch64.rpm"
-RPM_HASH = "0823191ad132e36f1e3dbd0a318d78fd46e31e96468a47de3dd33d633f0d2af3857d17696e2d43d45dd1549928f1095d3d48eeb510543260926549d6cfdc0d99"
+RPM_NAME = "gsettings-qt-devel-0.2-1.10.aarch64.rpm"
+RPM_HASH = "a74c1ebc43a776545bfdb1011359a5d6a217297b5cf9413c7e2b01936545bc122da3cfc24ecb8b100eac1786fac4a0f2af4239588f72fb6ac0329db5dcd79c23"
 
 RPROVIDES:${PN} += "gsettings-qt-devel \
 pkgconfig-gsettings-qt"

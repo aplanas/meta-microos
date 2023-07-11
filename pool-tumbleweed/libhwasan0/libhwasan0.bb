@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "13.1.1+git7364"
 
-RPM_NAME = "libhwasan0-13.1.1+git7364-1.1.aarch64.rpm"
-RPM_HASH = "46423fb152cf526d6223852079d565f9d3365798bfee29a77a55b9dd5aedcde1e992fa5a857682646ec29a93625676d59f2a0d74565cc421fb4f087942ca9adc"
+RPM_NAME = "libhwasan0-13.1.1+git7364-1.2.aarch64.rpm"
+RPM_HASH = "5e4e02fd98d5a7b3d52e93aa21c7232106df7028728ee6d4c04c3abc098de9ac70cf7acef9182ace16b05dcc164eaef4956c38ce7f4aa241db25aa2ba9df7ec3"
 
 RPROVIDES:${PN} += "libhwasan.so.0 \
 libhwasan0"

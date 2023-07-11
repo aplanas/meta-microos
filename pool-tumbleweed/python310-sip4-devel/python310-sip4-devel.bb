@@ -10,13 +10,10 @@ LICENSE = "GPL-2.0-only | GPL-3.0-only | SUSE-SIP"
 
 PV = "4.19.25"
 
-RPM_NAME = "python310-sip4-devel-4.19.25-6.5.aarch64.rpm"
-RPM_HASH = "d56be4e19388cb595daa0cd64550c6461f9a9068309fbb7989172a7cbb525606054f971bc2a6b4cd69ff14523d120eaf0c8943cca15a08c2a909a3fed258e95a"
+RPM_NAME = "python310-sip4-devel-4.19.25-7.1.aarch64.rpm"
+RPM_HASH = "34b084f64c563b73b7dfa6877ddaec8f85dc1d76c085dbe052bfae199cc9b1079fd1d32fc767d3397af92f3a8432db5150366f230ac01bcc445099ba65a3026e"
 
-RPROVIDES:${PN} += "python3-sip-bin \
-python3-sip-devel \
-python3-sip4-devel \
-python310-sip-bin \
+RPROVIDES:${PN} += "python310-sip-bin \
 python310-sip-devel \
 python310-sip4-devel \
 rpm-macro-requires-python310-sip-api"

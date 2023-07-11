@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.7.0"
 
-RPM_NAME = "maven-remote-resources-plugin-1.7.0-2.8.noarch.rpm"
-RPM_HASH = "fb491839620ba0fa759c77d021383ee3e5480f8442157d8daaa1834d62d2e5a7c9f76083f3af6321621cc02a7d20c7d8220cc6a31a0577380c129ae714840ac3"
+RPM_NAME = "maven-remote-resources-plugin-1.7.0-2.9.noarch.rpm"
+RPM_HASH = "b217dbe698dc01dc658873c046dc973676fffa0c740af15568a676608979c539ca46e625a18ae72d4212e38c97d8624f4effb2432ca843107c9daf3455925796"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-remote-resources-plugin \

@@ -11,12 +11,10 @@ LICENSE = "ZPL-2.1"
 
 PV = "5.0"
 
-RPM_NAME = "python310-BTrees-5.0-1.4.aarch64.rpm"
-RPM_HASH = "e144cd283e708fb311e181aab9c775fae572236512889ed15c5aa2fb75469ee8909ef638a3041b9adf14d47bfd994d249ba7201af2f6e07e4cede10e2ada73d1"
+RPM_NAME = "python310-BTrees-5.0-2.3.aarch64.rpm"
+RPM_HASH = "90aa5382e3e51476059ed138dab0981d8e660ad7b99b7d33dcbc4ed7e11d32b8ce355659183ec4acbf95f844a46df9cf4cd789e51b4432ea786d3a0acfe9eb7e"
 
-RPROVIDES:${PN} += "python3-BTrees \
-python3-BTrees-doc \
-python3.10dist-btrees \
+RPROVIDES:${PN} += "python3.10dist-btrees \
 python310-BTrees \
 python310-BTrees-doc \
 python3dist-btrees"

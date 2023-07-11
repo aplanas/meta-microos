@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.7.0"
 
-RPM_NAME = "python39-itemadapter-0.7.0-1.3.aarch64.rpm"
-RPM_HASH = "2ddb9ec51d05efd376f74639cd016bb8fd4e1cfea21bbd1b0d15e0d18de1044160fd9f2a84ee19c6b2b08e8df0715af7eb4c23c3f1d5f424363ea5f13e47382f"
+RPM_NAME = "python39-itemadapter-0.7.0-1.4.aarch64.rpm"
+RPM_HASH = "f71dd120c494ebf9981ada54170a131b37f0d52ba7b864b6eefed023d2e6c94122ce68a3fa666ddc886c39dd938a647a199ec7c1d9d1bdd372a99901ed2a65fe"
 
 RPROVIDES:${PN} += "python3.9dist-itemadapter \
 python39-itemadapter \

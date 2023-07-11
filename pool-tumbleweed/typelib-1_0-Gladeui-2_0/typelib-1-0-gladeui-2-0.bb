@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.40.0"
 
-RPM_NAME = "typelib-1_0-Gladeui-2_0-3.40.0-2.3.aarch64.rpm"
-RPM_HASH = "7422216a200ca735bbdb8805b55af7997e829836b319afa7d2d3a342b03eafd26a7423a0aeae10815d5fc1a7da564145f73f7e034f1fdbf9312412be54ed6e2b"
+RPM_NAME = "typelib-1_0-Gladeui-2_0-3.40.0-2.4.aarch64.rpm"
+RPM_HASH = "a5e391cacc84a64e989acfc1a27041978281145de56e7a893b12c3a543dd298ec0cc5777831ff750ebcb76ed636428241227390206b5891edbcda0de4e5d012c"
 
 RPROVIDES:${PN} += "typelib-1-0-Gladeui-2-0 \
 typelib-Gladeui"

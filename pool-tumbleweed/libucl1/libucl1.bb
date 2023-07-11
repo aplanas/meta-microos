@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.03"
 
-RPM_NAME = "libucl1-1.03-5.3.aarch64.rpm"
-RPM_HASH = "6ba7037c026220b82909fe6f2dec6b5068736a1de55097f6fed9cca93a2d94c4646fdb772c9bdd68087ddd6b0868f00b8ab14485d68d8a0100d15a302a0d5e8c"
+RPM_NAME = "libucl1-1.03-5.4.aarch64.rpm"
+RPM_HASH = "97fb5c4ad19c35e5b996b74833e9cba7a65e309631ef9a08b6e083aa0fb8457ec2b8219a01a1b6ed0d44667ca4a4aeac93cf12c6b903410e6ae868ed2e953ed4"
 
 RPROVIDES:${PN} += "libucl.so.1 \
 libucl1"

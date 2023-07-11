@@ -7,10 +7,11 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "2.0.7"
 
-RPM_NAME = "python311-pyscard-2.0.7-1.1.aarch64.rpm"
-RPM_HASH = "5f3e968fa815b7661e641c7f4d3dfc5f94a1bbf1dfb9bc36f5e93ac37eb4745a7b7841ad5c1a0fdfef64e29f91b1ee8081809fd6ad8ba07147896fd23e6ed504"
+RPM_NAME = "python311-pyscard-2.0.7-1.3.aarch64.rpm"
+RPM_HASH = "0a750e70c3ab968907b24e7cd6444ff9877af9e61bc1d23895a9279b8ab020d0164f97b23e5a131605db8235aed2ad5ce2d8de7457bc7ed79c5868834fc14df3"
 
-RPROVIDES:${PN} += "python3.11dist-pyscard \
+RPROVIDES:${PN} += "python3-pyscard \
+python3.11dist-pyscard \
 python311-pyscard \
 python3dist-pyscard"
 

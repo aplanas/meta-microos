@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.6.0"
 
-RPM_NAME = "powercap-0.6.0-1.3.aarch64.rpm"
-RPM_HASH = "cab0373c57f2e92d32f60617efaf668a54b4ee6e3d36f8acd66db0b045184f96e0f0b2b161a8bafaf0848fa37757969a613ff6cc1d5590b37d264ad0badbc04f"
+RPM_NAME = "powercap-0.6.0-1.4.aarch64.rpm"
+RPM_HASH = "7533cce511bf087d9bfbb45876648c597d647cec4867ffd95e9baf684f9c6dea95b82709d42eec3ba222c24569994b0294f08ec33c7aa032e090ddc7d9f84c9c"
 
 RPROVIDES:${PN} += "libpowercap.so.0 \
 powercap"

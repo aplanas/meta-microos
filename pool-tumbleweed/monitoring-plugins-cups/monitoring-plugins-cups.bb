@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
 PV = "2.3.1"
 
-RPM_NAME = "monitoring-plugins-cups-2.3.1-9.4.aarch64.rpm"
-RPM_HASH = "56254fa42d74e494cf3d9e7438872ca77ffe19d1ccc3e92c2f8c0a12645c54b9febfa370ea5bebbba4d3adfa5ac647b8ed8fddd2a8ad241c20ae41ac54b05da1"
+RPM_NAME = "monitoring-plugins-cups-2.3.1-9.5.aarch64.rpm"
+RPM_HASH = "fa8ca80a3d9f5eca374b0a47616512e3cd33af0b7ae96bc4e8857cc22ba0ccb64f831cfa3d5ba490afc5c35d1e2a9baebf29700ed83339c2829173486bb003fe"
 
 RPROVIDES:${PN} += "config-monitoring-plugins-cups \
 monitoring-plugins-cups \

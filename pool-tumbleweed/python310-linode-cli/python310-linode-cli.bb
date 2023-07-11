@@ -4,11 +4,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.25.0"
 
-RPM_NAME = "python310-linode-cli-5.25.0-1.4.aarch64.rpm"
-RPM_HASH = "0d595cc35d7676357efeb609ce896d91e0ada5933987b55cf12618d46346119b6539cf928987e6aa7c9485fad7faab31ecb0bc97ef0176235f78a49c60fe0def"
+RPM_NAME = "python310-linode-cli-5.25.0-1.6.aarch64.rpm"
+RPM_HASH = "15f95f6c60e85f3588d7aef61ee3e85ee8963fb71b9b227d63d56ded1f44109a44c3b668e224f033733743de56f1c5500fd69c4b9e59c16ac4893f4d07f54f10"
 
-RPROVIDES:${PN} += "python3-linode-cli \
-python3.10dist-linode-cli \
+RPROVIDES:${PN} += "python3.10dist-linode-cli \
 python310-linode-cli \
 python3dist-linode-cli"
 

@@ -10,8 +10,8 @@ LICENSE = "OpenSSL"
 
 PV = "3.7.0"
 
-RPM_NAME = "libressl-devel-3.7.0-1.2.aarch64.rpm"
-RPM_HASH = "8dd96391c828bef351a319e67eb7886e807f6444ef5e0fdcc43590acc2f495f835193773a2eb2acb5e6f184da269bf903aface04f9e2178e8264d185b232f7d4"
+RPM_NAME = "libressl-devel-3.7.0-1.3.aarch64.rpm"
+RPM_HASH = "220622738ed1b9529c7229cd4843788a04ca2575fe2f76adb1b4e91e61ae8843fedff5472de584c378d55a84faf45a5012965afddc21a2b46f139b25e1b6d7a3"
 
 RPROVIDES:${PN} += "libressl-devel \
 pkgconfig-libcrypto \

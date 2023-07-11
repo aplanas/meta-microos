@@ -4,10 +4,10 @@ applications. It uses libattica to support the Open Collaboration Services \
 specification."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "libKF5NewStuffWidgets5-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "03d0bf739f60503c99cf4dbb079867ecb5d5e4a1b6f792d6e609aff0874f7c6a56ef7d4837c758a7b5647a39ebf8ec9ab98eb0a4ecdbe2451278193e893e5ad9"
+RPM_NAME = "libKF5NewStuffWidgets5-5.107.0-1.1.aarch64.rpm"
+RPM_HASH = "b9c2d89b33bc142ed639b8dc7066f1c5eb98add9107ad2fdbffd1be25c8fe1f3ef182751e1fbca4a42668186b2cf740ef14f5daa2489a854d2b051128d406b11"
 
 RPROVIDES:${PN} += "libKF5NewStuffWidgets.so.5 \
 libKF5NewStuffWidgets5"

@@ -2,10 +2,10 @@ SUMMARY = "Drop-down terminal emulator based on Konsole technologies"
 DESCRIPTION = "Yakuake is a Drop-down terminal emulator based on Konsole technologies."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "yakuake-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "84ee4250ea270e9de23515b2ba9c1da7c672dd91e8273dc825c2d9af073765ae8ffa31ec8fd512445c05ee7f59f6df482dbb00d4e150374ebbe5b984125307b1"
+RPM_NAME = "yakuake-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "a46f587a096d3027542f4c2ee80746ad43debb8ceaa961300f5026d4a77b824c6f3d9b83cb531a4481f1f55daa7883687f787f86e747f5de87c81bbae3e810d6"
 
 RPROVIDES:${PN} += "yakuake"
 

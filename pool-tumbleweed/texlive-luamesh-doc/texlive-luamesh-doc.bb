@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-luamesh"
 DESCRIPTION = "This package includes the documentation for texlive-luamesh"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.7svn63875"
+PV = "2023.208.0.0.7svn63875"
 
-RPM_NAME = "texlive-luamesh-doc-2023.201.0.0.7svn63875-52.1.noarch.rpm"
-RPM_HASH = "acbff15d3a397521a7286d209af163c847a08368f4ad07fcc7eea74a81f70f93e514b8a27baeeedf8cd2039ee11451f574f786221b25649a32c6c1e48ee284d5"
+RPM_NAME = "texlive-luamesh-doc-2023.208.0.0.7svn63875-53.1.noarch.rpm"
+RPM_HASH = "83114e0499d3136b1cd57d6a1e35eb873dc0eda1a20450a6157c62e20e5bc03df3c111ee5946df5aa54686c1befa58bed8986502c92b62964765dd1a0d9d7fc4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-luamesh-doc"

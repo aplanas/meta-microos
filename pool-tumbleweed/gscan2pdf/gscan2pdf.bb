@@ -14,8 +14,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.13.2"
 
-RPM_NAME = "gscan2pdf-2.13.2-1.1.noarch.rpm"
-RPM_HASH = "c4ab0fe752c719ecad3a9c77204333e3b069423880d9479fdfac8330bb95473223693458d70ad29d8010de86c6ea19b7c94b5a6befed8e9646cfa6a929390548"
+RPM_NAME = "gscan2pdf-2.13.2-1.2.noarch.rpm"
+RPM_HASH = "d5d3c42d080a0ef941bd14132d2a7fb8aea9ff8b93dcf4feae602cf0ce3d351b22c5c3c4fbfd790b386c26e44314b4e4e0813e2eb96a0080341607d71e4c2a01"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gscan2pdf \
@@ -50,7 +50,7 @@ perl-Gscan2pdf--Unpaper"
 RDEPENDS:${PN} += "/usr/bin/perl \
 djvulibre \
 pdftk \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-Config--General \
 perl-Data--UUID \
 perl-Date--Calc \

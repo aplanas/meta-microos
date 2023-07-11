@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause & NTP & BSD-3-Clause & MIT"
 
 PV = "1.2.2"
 
-RPM_NAME = "ntpsec-1.2.2-1.3.aarch64.rpm"
-RPM_HASH = "8497685b7fdbd79b0a7709039c4921439dffc7cd2b4648ffdf0d7bb60a920f2113281ef4e3a982c42d22c5702ce27d488376218bf088c2107be0011d1d2602ec"
+RPM_NAME = "ntpsec-1.2.2-1.5.aarch64.rpm"
+RPM_HASH = "05488818dabf40e41fbc829793118c65fced56835a564f5a8ca103d7666cdf95aacb22d553b9c16422c9cc0d0058d4bc77611d4f49293fc027a09f87a3c80475"
 
 RPROVIDES:${PN} += "config-ntpsec \
 ntp-daemon \

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "0.0.4"
 
-RPM_NAME = "gstreamer-plugins-libcamera-0.0.4-2.3.aarch64.rpm"
-RPM_HASH = "48f2300dadaeb67f239f580c7d3a1f6a36bad3aa322604d7adafb0d6bb891d915fde0b50d3aa2e6d99e37fbc1cef944385304830466856b105f7ba039624b293"
+RPM_NAME = "gstreamer-plugins-libcamera-0.0.4-2.5.aarch64.rpm"
+RPM_HASH = "866132f62c37af1ca21b903cfc1b85843252516284effaa133084c2c8a76daf73f10bf4ea28e2272285e9685b3af95edbcda3c932271710a6a0e0a0a1bda6b14"
 
 RPROVIDES:${PN} += "gstreamer-plugins-libcamera \
 gstreamer1 \

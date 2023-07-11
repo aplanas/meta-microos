@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.0.5"
 
-RPM_NAME = "python39-fuse-1.0.5-1.4.aarch64.rpm"
-RPM_HASH = "0bb681f1abb8c2183a1ef9713ed08d6039d2ce9468f33bfb5b00349974d4759dcebb25fd392dc3a2b9e3ee9cea82e9ed449b21276132ba95f2b095e8356df27c"
+RPM_NAME = "python39-fuse-1.0.5-2.1.aarch64.rpm"
+RPM_HASH = "785a3d475c01ad93eb42a13d3ee357c24663165e6b59a15054343518490bc0655b6c2940ba6ec0d94e21046e78e8f13529ae1acd409a412d8f8e6c2dfca9ea60"
 
 RPROVIDES:${PN} += "python3.9dist-fuse-python \
 python39-fuse \

@@ -9,8 +9,8 @@ LICENSE = "MIT & GPL-2.0-only"
 
 PV = "2.0.4"
 
-RPM_NAME = "babeltrace2-2.0.4-1.10.aarch64.rpm"
-RPM_HASH = "84b6df4fc36ebc29edb82587e50eb9ab8fd7cd540c54528088fa9cb95c489898d6fd57f3a09f28399591f73f9ec61e70543cb373c6b9b7d076fe01943923df25"
+RPM_NAME = "babeltrace2-2.0.4-1.11.aarch64.rpm"
+RPM_HASH = "13f65e0d8eb17a6727bf1ae615ccd6c0821d6b1799eab82288b0cbe6fc03ae36ea4854200107f694f20bf4a3244aa32c23168d8db83525ca4407baa7f94ee781"
 
 RPROVIDES:${PN} += "babeltrace2 \
 libbabeltrace2-ctf-writer.so.0 \

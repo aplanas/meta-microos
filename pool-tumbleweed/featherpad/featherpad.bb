@@ -13,10 +13,10 @@ DESCRIPTION = "FeatherPad is a Qt5-based plain-text editor. It is independent of
 * Non-interrupting prompts;"
 LICENSE = "GPL-3.0-only"
 
-PV = "1.4.0"
+PV = "1.4.1"
 
-RPM_NAME = "featherpad-1.4.0-1.1.aarch64.rpm"
-RPM_HASH = "7bcc4ec7d8c8066dda70e3c6bbfa85bb0f0c22c7ac4fdc87c3d33412bc6fae21ec00a21b82f5ae800de393e7b0e1a498e060dbb28bebce617c8159a01d5a8a7b"
+RPM_NAME = "featherpad-1.4.1-1.1.aarch64.rpm"
+RPM_HASH = "6f0f9aff0dd75263e71cb047946a1a182f59955a79e5d2c1d0575c07735af8de14aed199ece50c6caec8fa064c05d3bacb4d62aea18f97c546229dbb48fb0938"
 
 RPROVIDES:${PN} += "featherpad"
 

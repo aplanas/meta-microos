@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.7.3"
 
-RPM_NAME = "swww-0.7.3-1.1.aarch64.rpm"
-RPM_HASH = "8afd5eaad82fefff7e14ab4f01a0323e2f210b1aedc5843d54504ecd3b32287e08641908d0edfee39f642e12f14bf4c3a25db3cb3229a18691e1227f680772e9"
+RPM_NAME = "swww-0.7.3-1.2.aarch64.rpm"
+RPM_HASH = "7ddda98c069db7778c19b4d27ff9db447e1309a2d503c053374106eaa3b2a36503bbc3fdd08e29024a7c6341f363b3a3e24b753e8dd66c0e6a37cc6aedea7f55"
 
 RPROVIDES:${PN} += "bundled-rust-crate-adler \
 bundled-rust-crate-anstream \

@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.1.99.1"
 
-RPM_NAME = "python39-vulkan-1.1.99.1-1.15.noarch.rpm"
-RPM_HASH = "a17b5499ebba21a64edcd6e2da33b34e073611295f1c9c7cd83779ac3a7e53894cbb276890fdc8f0086becb74e7df2a6d7503f2a5c6c70db83a1e689f7724af6"
+RPM_NAME = "python39-vulkan-1.1.99.1-1.17.noarch.rpm"
+RPM_HASH = "090d2db2163589dcb3226d0aaa5a37d3f7e54ee2caab3371129c52f6c156c432079cc0ee45de20ee179495996c1c88fe2fc1bf04d93cf8a4b9221841b774eee8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-vulkan \

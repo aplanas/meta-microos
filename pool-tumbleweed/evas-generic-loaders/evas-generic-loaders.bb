@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.26.3"
 
-RPM_NAME = "evas-generic-loaders-1.26.3-30.6.aarch64.rpm"
-RPM_HASH = "dd04671da25e8c19494665c115e4c3354ba3c53fdb954f7448711593dec7657ba43fd628224e9ad98fcfadc8c16a0f895da8b6b1da1985f590b93fcc5ab573b7"
+RPM_NAME = "evas-generic-loaders-1.26.3-30.8.aarch64.rpm"
+RPM_HASH = "ffe9899ee3fdb55db3db1a8c03e4c4a49fb3bff04cd2940b83204127841e6cd8117354aad95096d7355795f5d93c57ae61c534e416083fca3b37c3f67ac241f4"
 
 RPROVIDES:${PN} += "evas-generic-loaders"
 

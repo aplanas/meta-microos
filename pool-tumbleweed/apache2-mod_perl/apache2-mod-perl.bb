@@ -15,8 +15,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.0.12"
 
-RPM_NAME = "apache2-mod_perl-2.0.12-1.8.aarch64.rpm"
-RPM_HASH = "5968eed57f48ec23df4e14d971d9c908a5dfee1c4b3927bdbcce031baa6bb3f649e25eadd34cc6bfab2791061192f529b210c30d5c246d4c1d5559309f298647"
+RPM_NAME = "apache2-mod_perl-2.0.12-1.9.aarch64.rpm"
+RPM_HASH = "829818ee84485ba95e8efe2d6af9c5960a7a152c978b4ef2cfcb24007e6cac711a83bf02e56ddc2ea1669e09b2157a28bd749f41c7f81a4400378dd936231735"
 
 RPROVIDES:${PN} += "apache2-mod-perl \
 config-apache2-mod-perl \

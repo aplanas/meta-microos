@@ -9,11 +9,12 @@ LICENSE = "ZPL-2.1"
 
 PV = "2.1.2"
 
-RPM_NAME = "python311-waitress-2.1.2-4.1.noarch.rpm"
-RPM_HASH = "9b3255e7dd91b070cbf35df7c70a8db00ea78b48d91e4180f9b42ef6bbdb19a01ed763e159da43c8e002431c91013a1b7c848feaf576eac18d3d357bb07f9272"
+RPM_NAME = "python311-waitress-2.1.2-5.1.noarch.rpm"
+RPM_HASH = "ea383bad4f839c6a34c4c581b0087bf63b08f5c354f2691d6991d3a7232329736e7be4775a1c1513d1cd8e1465d9816789ffd9fe687d0609b697c6dcc1182777"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-waitress \
+RPROVIDES:${PN} += "python3-waitress \
+python3.11dist-waitress \
 python311-waitress \
 python3dist-waitress"
 

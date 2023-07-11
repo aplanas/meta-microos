@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause & EPL-1.0"
 
 PV = "1.3.12"
 
-RPM_NAME = "libpaho-mqtt1-1.3.12-1.3.aarch64.rpm"
-RPM_HASH = "bf319f6afbb24d29966fb802ba8122be4435d6a47c3d731029c5cc4b387733b85c13dd13e0c1c57a0a682286c98c5a495594d294fa94275002e8e2a89dc65f99"
+RPM_NAME = "libpaho-mqtt1-1.3.12-1.4.aarch64.rpm"
+RPM_HASH = "26aef0a694cdb6fb7574ffee0fcafef3c99eb4fae60a4e1babb09b7e9ad5f00d173cd520d02fa7b93b5eb2960284c46ea79513a915d4b71acb75e5951c9db156"
 
 RPROVIDES:${PN} += "libpaho-mqtt1 \
 libpaho-mqtt3a.so.1 \

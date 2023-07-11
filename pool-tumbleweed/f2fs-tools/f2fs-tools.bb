@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
 PV = "1.15.0"
 
-RPM_NAME = "f2fs-tools-1.15.0-2.3.aarch64.rpm"
-RPM_HASH = "8713d7911be1ad944daefdcdec055b37f6f98c972928a897b1c3317063ba8e3f6525ec69b7490dbf09b2954a13c103eba2eb183cce7d15ff5b9c9d4762d5bb93"
+RPM_NAME = "f2fs-tools-1.15.0-2.4.aarch64.rpm"
+RPM_HASH = "1a1b906fb24e923635460abb027cb10ae4a62acf71f490fccef840c737412bf1bfb32552866f377e754dcbdfa7aaff0c56470b81932c87cdffd89bfa916c6413"
 
 RPROVIDES:${PN} += "f2fs-tools"
 

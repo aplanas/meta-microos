@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.0"
 
-RPM_NAME = "python39-blurb-1.1.0-2.1.noarch.rpm"
-RPM_HASH = "2da3fdabef00b60483b1a6817a5468efc0b43698ea57df438b95251eb812b883685431c9e4b9c0bca0e9bb19e3be342981faa1a6c4c7e0a978e3c1996973025c"
+RPM_NAME = "python39-blurb-1.1.0-2.3.noarch.rpm"
+RPM_HASH = "2a41a31b0eb6a2240f16adb8c85f0d4dcc7c935b994b2df9e4bed2e1f5b6fa6b46173e13c0192bd14b345d271177bb2f1767027bdd9374361044d86b355cba11"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-blurb \

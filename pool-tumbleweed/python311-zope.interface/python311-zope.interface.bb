@@ -10,10 +10,11 @@ LICENSE = "ZPL-2.1"
 
 PV = "6.0"
 
-RPM_NAME = "python311-zope.interface-6.0-1.1.aarch64.rpm"
-RPM_HASH = "19145c3498029fb7cfc4f16207c1303024f3c452707e64d3a413878a061c5189cdec85db71ba45d07e6480a7c36ce7aad7fcd3b6fae177c871f02f545823318a"
+RPM_NAME = "python311-zope.interface-6.0-1.3.aarch64.rpm"
+RPM_HASH = "2deaf6c3d835e10fa8711e5e30e42eb045358d1f7c05d9a58a42ff28dc4cadaec2afcc7e0abeb5f31a7f430416cfcbec34f35607d236c20d092baa911eebe186"
 
-RPROVIDES:${PN} += "python3.11dist-zope.interface \
+RPROVIDES:${PN} += "python3-zope.interface \
+python3.11dist-zope.interface \
 python311-zope.interface \
 python3dist-zope.interface"
 

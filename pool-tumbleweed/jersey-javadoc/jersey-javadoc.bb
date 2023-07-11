@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & (EPL-2.0 | GPL-2.0-only-with-Classpath-exception-2.0)"
 
 PV = "2.28"
 
-RPM_NAME = "jersey-javadoc-2.28-6.10.noarch.rpm"
-RPM_HASH = "444b5adaec383cdae91116bae3d47b1bdbc76e264682954f7124d5ec1a61f14f31931b00682a423e2feb9c35cebcd6fbd7a7e42d1a7d3c3153d97b05ca882d18"
+RPM_NAME = "jersey-javadoc-2.28-6.11.noarch.rpm"
+RPM_HASH = "a0df30a66cde9c2b3fbdd913b0a51b2a90421d267bf86662d59d554018797b5331e2f3a0dec34f06e047b81a86f5b93e2fbbc6cd97623cdaac13d170460f1c25"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jersey-javadoc"

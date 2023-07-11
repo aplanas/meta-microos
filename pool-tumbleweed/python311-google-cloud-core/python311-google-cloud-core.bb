@@ -7,11 +7,12 @@ LICENSE = "Apache-2.0"
 
 PV = "2.3.2"
 
-RPM_NAME = "python311-google-cloud-core-2.3.2-1.3.noarch.rpm"
-RPM_HASH = "2c252aa2a80e139f7c7fc25d2945d3107518ba210470f766a69c0fe9106aa738933e643268aaa14abd75b32ddc45c5d6ebedcd36b23d19fa4a145f5bb44fc022"
+RPM_NAME = "python311-google-cloud-core-2.3.2-1.5.noarch.rpm"
+RPM_HASH = "120859772a0016a7341f079eadf0d69c90d39c0cb5d2def354566ac91bd94160043c9e4b22fc29f9024eccb73d0ae7d40dd796d9e3547dcdd1894bf52805a40b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-google-cloud-core \
+RPROVIDES:${PN} += "python3-google-cloud-core \
+python3.11dist-google-cloud-core \
 python311-google-cloud-core \
 python3dist-google-cloud-core"
 

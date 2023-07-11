@@ -14,8 +14,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.9.22"
 
-RPM_NAME = "jack-1.9.22-2.1.aarch64.rpm"
-RPM_HASH = "b38e97c59fa468bc92c7dfd10b70a2c0624751e733fe3703738f4ab1b3d91f65c1e56ac837c372c9b87f5281abcb92e8bfd6a97618cf3db4791bd6c34e152038"
+RPM_NAME = "jack-1.9.22-2.2.aarch64.rpm"
+RPM_HASH = "176f620d93706b39fa06acab3df4fe1ea54746822e1b60a74ad0d7921202338799653763e818de55d91e422491d53dff2a9a4a214263f0d85719791b3b36e7de"
 
 RPROVIDES:${PN} += "jack \
 jack-audio-connection-kit \

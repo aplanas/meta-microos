@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "2.23.0"
 
-RPM_NAME = "arb-devel-2.23.0-2.1.aarch64.rpm"
-RPM_HASH = "057370f89b62950b28adfa3a8a4993d8a081d76db12f3aff3863958fe6961dd390d1b7f8c8a65104e31d31eda2ca61972d5ef593dfc406073b295c4ef4ba7a7a"
+RPM_NAME = "arb-devel-2.23.0-2.2.aarch64.rpm"
+RPM_HASH = "65371413c986d3542805bf9e71b7caf409dcaebdf387e5a75e73c95d63ac129bf93f92ebc15910cf77f26d4c28c05f6a2b06d1252273f75cb9d8b3e6e2bdcc71"
 
 RPROVIDES:${PN} += "arb-devel"
 

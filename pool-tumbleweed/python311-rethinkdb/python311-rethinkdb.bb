@@ -4,11 +4,12 @@ LICENSE = "Apache-2.0"
 
 PV = "2.4.9"
 
-RPM_NAME = "python311-rethinkdb-2.4.9-1.4.noarch.rpm"
-RPM_HASH = "32ae71ddd3a945b00d403183c8f7afaf98b9721e46f38079fb760452080090f0e76866eabf06761db633f5f94fa3e512383af60c6cda104deb39968bd169c060"
+RPM_NAME = "python311-rethinkdb-2.4.9-1.5.noarch.rpm"
+RPM_HASH = "83a0e5eb6d914df27bbfe24bfc6002735a423c41875b96f0ab0055ca402dfe20657d73fd44c8c88c19a38d6c4b08cd4d9d21d4d1a6fc939e220a97817f5bfd82"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-rethinkdb \
+RPROVIDES:${PN} += "python3-rethinkdb \
+python3.11dist-rethinkdb \
 python311-rethinkdb \
 python3dist-rethinkdb"
 

@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0"
 
 PV = "0.7.0"
 
-RPM_NAME = "snorenotify-qt5-0.7.0-2.34.aarch64.rpm"
-RPM_HASH = "df9bd215011a258bd3c523a3de34b593f3366199366d3407b8824d40c35d98d7ea049711983df229ed71811a79b26fe075b622854c9ea69c9600c2c2a2cced36"
+RPM_NAME = "snorenotify-qt5-0.7.0-2.35.aarch64.rpm"
+RPM_HASH = "c21302293a1bd9ba0653dd463284c53bdd652ec2528afdaec16203131f32bbc37e55a19f1861af3086b24c53db008b1ed2ae457f5f6ed614103a96114b100aea"
 
 RPROVIDES:${PN} += "libsnore-backend-freedesktop.so \
 libsnore-backend-snore.so \

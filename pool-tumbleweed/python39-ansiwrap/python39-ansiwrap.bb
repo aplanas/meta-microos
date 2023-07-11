@@ -10,8 +10,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.8.4"
 
-RPM_NAME = "python39-ansiwrap-0.8.4-2.2.noarch.rpm"
-RPM_HASH = "3b9d54bdc288b1f6a711467a69499e8d2e1bc3f4070fc9f7c52dc2c0bf1b6b33301dee81937ccccfa35309c5d8807d8761a27fe1208c3608b613d2035aff3bfa"
+RPM_NAME = "python39-ansiwrap-0.8.4-2.4.noarch.rpm"
+RPM_HASH = "93c55dc29726fe4164b21b14fc9018e8a8522a04c2641b3da885bd9f7392a3119b79d52b9f6bf5e22b11983460ad70d4149e8adb798b3ad9f144f54c68c6b202"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-ansiwrap \

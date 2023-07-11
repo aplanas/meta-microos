@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.97.0"
 
-RPM_NAME = "avogadro-lang-1.97.0-1.3.noarch.rpm"
-RPM_HASH = "1f6e0922964327a6f731d74aceb83adcbb392f16be78679bb5c1ce211a7f9c884d651d9da8b3d8ac903c3ff38e7c5b7d9a14c88500cee8ad3be7eab4c8eb4ccd"
+RPM_NAME = "avogadro-lang-1.97.0-1.4.noarch.rpm"
+RPM_HASH = "9a13bfc4ab81a2d9acf5aa72832d165e710b5cca12a594f08ab30328e5e76fd2cbef34fbe82090767630941361f21ce36ce43062082bf518067b4c3dc2b70036"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "avogadro-lang \

@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.3.2"
 
-RPM_NAME = "python311-ttp-templates-0.3.2-1.3.noarch.rpm"
-RPM_HASH = "d330052d43901893a69d6192818e05ec95187d833ebfee1bedbf05d2cccbb25fb19e6a810d55b8a37fb2e598060859465d5410bb8c3db409e29fc4aceda94339"
+RPM_NAME = "python311-ttp-templates-0.3.2-1.5.noarch.rpm"
+RPM_HASH = "d539e08095f72e70f832b37b17a9f248ea2634bf3dd8b31b61db33011ac5ac51e21a3647c42fb21c4c66bc0aeb92d284ecc76c429a26a6832d60848aa90cf004"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-ttp-templates \
+RPROVIDES:${PN} += "python3-ttp-templates \
+python3.11dist-ttp-templates \
 python311-ttp-templates \
 python3dist-ttp-templates"
 

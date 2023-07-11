@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "22.7.0"
 
-RPM_NAME = "smplayer-lang-22.7.0-1.5.noarch.rpm"
-RPM_HASH = "7e58042556db3a399454e5cf476307c8a471da24031d676f16b05b542af8ab131ed41d2bac831367e3ca31731170c6f5a84d0de5244240769ebef39366040b59"
+RPM_NAME = "smplayer-lang-22.7.0-1.6.noarch.rpm"
+RPM_HASH = "ba60e54681544d2b31c73965ae8c80db4fc01c1a2e5e3f8fa17dffe176e9f945db8d4226c9763cc4c2492f713dd1f3fc9fb86dae648ab7b92628c9b0b75eb22e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "smplayer-lang \

@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "3.10.12"
 
-RPM_NAME = "python39-isbnlib-3.10.12-1.4.noarch.rpm"
-RPM_HASH = "29f804db330e91cb9c09382248578ea0663eeaac22bcd1d355d45df584aff27dbf77c935f4574961ae00764082a3abcfda89fac20d1252d460497c5a1467e0e5"
+RPM_NAME = "python39-isbnlib-3.10.12-1.6.noarch.rpm"
+RPM_HASH = "3379f805d00ed6809d901932652e075ec9dc116eaaf8d9c3ef7361fabbe15e1fc8d911958629eb0815b955190ff4c3625f0670479f2ca2165e0225e1125efe8c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-isbnlib \

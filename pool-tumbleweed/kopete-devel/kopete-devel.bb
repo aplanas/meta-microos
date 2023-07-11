@@ -2,10 +2,10 @@ SUMMARY = "Instant Messenger - Development Files"
 DESCRIPTION = "Kopete is the KDE instant messenger and supports multiple protocols."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kopete-devel-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "7456e217db62f48adc6e3c9b89b97d0f0816e382e62f0ac3b228bffd22dd7a8511e930d03248ed3a64610663e6b228633e6789ab3cc3ca254886c2503feb80fd"
+RPM_NAME = "kopete-devel-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "891184ac6dd62f9b96c95ae8d2651b58cec93b6734a5fe4853c91c76f5fe90ae3908b85e0521f41bb55a9bca46d58b51ff264a0be8ac509cbd56d150b164b775"
 
 RPROVIDES:${PN} += "kopete-devel"
 

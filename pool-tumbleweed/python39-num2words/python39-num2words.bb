@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.5.12"
 
-RPM_NAME = "python39-num2words-0.5.12-1.4.noarch.rpm"
-RPM_HASH = "427d7cf71917b0fa936b06d928a9fbd2425be64daeaa8bba4f6bd324d2e17b6b4e6d135358b51d699ff4e055919f278176fea2b36102de9f0844aeb58c075e06"
+RPM_NAME = "python39-num2words-0.5.12-1.6.noarch.rpm"
+RPM_HASH = "e8eef2fd16ec321f354ed04df85e4b0afa6a36c8e6974d7f7b54c6c59dd97b28acf49413284730b42e68758408c40116538e9d46dca2ab45ad63414fada71517"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-num2words \

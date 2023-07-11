@@ -5,11 +5,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.12.3"
 
-RPM_NAME = "python311-jupyter-packaging-0.12.3-2.2.noarch.rpm"
-RPM_HASH = "1ca9eabed51f3fbdeace88a3c2581cf56825cd272fb1052f9b0a0b74fdec5bb8332bc792663657ddf5d69e74ef9e288e2b4ed07c14d279afbc15428624020331"
+RPM_NAME = "python311-jupyter-packaging-0.12.3-2.4.noarch.rpm"
+RPM_HASH = "fef775a34879df65e73b76edfda403263f47771f5e36c9d0f8695e5f079a1e7a82289ba7579e8913d47c9c117f213c0bb27b5312f30013e48333b93abeaf9908"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-jupyter-packaging \
+RPROVIDES:${PN} += "python3-jupyter-packaging \
+python3.11dist-jupyter-packaging \
 python311-jupyter-packaging \
 python3dist-jupyter-packaging"
 

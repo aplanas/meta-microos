@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the library and support programs for the TI
 image format."
 LICENSE = "HPND"
 
-PV = "4.5.0"
+PV = "4.5.1"
 
-RPM_NAME = "tiff-4.5.0-3.3.aarch64.rpm"
-RPM_HASH = "ab105f55b496fc60f1f5771b525c382444ed8853ebd765cd009166b42c4aececf93a62fd4073188a432e399b422db19e5a93fe3ecbd2f8fda94ceffaff9deeae"
+RPM_NAME = "tiff-4.5.1-1.1.aarch64.rpm"
+RPM_HASH = "c222c25af4e3751d45c959a26375eab27608388e081fdea9fd27e8e47f76ccdf274c35a4e9828b773627f5972d1a08de6a8263176b209f101a25c9e6164753cf"
 
 RPROVIDES:${PN} += "tiff"
 

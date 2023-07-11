@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.1"
 
-RPM_NAME = "csi-external-resizer-1.0.1-1.10.aarch64.rpm"
-RPM_HASH = "6e483e73419bbae864af719e429b407218fdb95ec0c110a27eeefe9c124806656fabe2a6b93810417b0a1fd4e871f00c00de8f0590b8b46ec99c2ac6ed764623"
+RPM_NAME = "csi-external-resizer-1.0.1-1.11.aarch64.rpm"
+RPM_HASH = "7e1ef010addaeb3b75e3715327b2aded79a6173621d2195aea5c5dd5429b4d0514ae75be5374439983d978a1eab0532818740c03271627e48c2ab8166e17824c"
 
 RPROVIDES:${PN} += "csi-external-resizer"
 

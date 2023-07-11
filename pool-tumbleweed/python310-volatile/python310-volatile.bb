@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "2.1.0"
 
-RPM_NAME = "python310-volatile-2.1.0-1.11.noarch.rpm"
-RPM_HASH = "a1ba7cad177407de561b6100143a243d7873047039fe00752c26a361dd751e8413e5aa61672a27601d326da9e61327c5a5432072d6d4448c41bb3a2c0fcab63d"
+RPM_NAME = "python310-volatile-2.1.0-1.13.noarch.rpm"
+RPM_HASH = "6c030d11e2c15e059d321976553cbbb88e6494d60beeaa7ab05c534564cb408b787a83f5c64b2c6c066b520471b47a0524638251398ba30a2111a552599a21d2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-volatile \
-python3.10dist-volatile \
+RPROVIDES:${PN} += "python3.10dist-volatile \
 python310-volatile \
 python3dist-volatile"
 

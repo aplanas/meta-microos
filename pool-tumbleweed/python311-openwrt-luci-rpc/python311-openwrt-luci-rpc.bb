@@ -11,11 +11,12 @@ LICENSE = "Apache-2.0"
 
 PV = "1.1.12"
 
-RPM_NAME = "python311-openwrt-luci-rpc-1.1.12-2.2.noarch.rpm"
-RPM_HASH = "343cfc07ec19a5141d2a95849fb95eb7be72e636b3312be4ca72cfce12b84971582520e5702b9f2612d034548b61491850e050908470577b3e70910b87a7affb"
+RPM_NAME = "python311-openwrt-luci-rpc-1.1.12-2.4.noarch.rpm"
+RPM_HASH = "822c0c47a16be92afb55bb5b721dc63c2af933f65e60d6c50cb7104367e0e06eae3b121d72178c55c80bb963f6b3964cf4e75b02b9ef1eaaf48adbc9d0aff7f5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-openwrt-luci-rpc \
+RPROVIDES:${PN} += "python3-openwrt-luci-rpc \
+python3.11dist-openwrt-luci-rpc \
 python311-openwrt-luci-rpc \
 python3dist-openwrt-luci-rpc"
 

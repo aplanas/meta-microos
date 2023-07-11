@@ -3,10 +3,10 @@ DESCRIPTION = "Kate is an advanced text editor by KDE. This package contains \
 plugins and data files for Kate and KWrite editors."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kate-plugins-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "9a11f04557552423d992f26dcf5261a0b7990b95352383d90dc0d31eb068ff81fbb6c91c8bfb4b06f205d703dc188495d3b33b420fc86395c231b19520d71c91"
+RPM_NAME = "kate-plugins-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "76601abee8642ee0b07337365feeb834bc095df4a8a02f5baf413663370161490887b8a7fd00735fd9597aca09a500fd1d9a110d1ae5193a48a13c93fd2e9b2f"
 
 RPROVIDES:${PN} += "kate-plugins \
 ktexteditorpreviewplugin"
@@ -45,7 +45,7 @@ libQt5Sql.so.5 \
 libQt5Widgets.so.5 \
 libQt5Xml.so.5 \
 libc.so.6 \
-libkateprivate.so.23.04.1 \
+libkateprivate.so.23.04.3 \
 libstdc++.so.6"
 
 inherit rpm

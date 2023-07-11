@@ -3,10 +3,10 @@ DESCRIPTION = "Baloo is a framework for searching and managing metadata. This \
 package contains QML imports."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & LGPL-3.0-only"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "baloo5-imports-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "d3e0882926de6a56b67f5b42b2697cb2a65efab5732b6833379fff8cfb938237a72a3aa05b84b909a6d109d79657067852fcc0a4618459bf236e01f40ee3fb41"
+RPM_NAME = "baloo5-imports-5.107.0-1.1.aarch64.rpm"
+RPM_HASH = "0a7c637dc1267441ca3d542a3508d7fd81c2994a0e0ac20fdd76fa449de449cfb9ea69dc0ee8adf18fc9fc73d93d3690e2982ea0cf95dbd0dc6ea26bd819d3b8"
 
 RPROVIDES:${PN} += "baloo5-imports \
 libbaloomonitorplugin.so \

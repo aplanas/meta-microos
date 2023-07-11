@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "6.3.0"
 
-RPM_NAME = "libsundials_idas5-openmpi4-6.3.0-2.4.aarch64.rpm"
-RPM_HASH = "cadbb28d189ab1a2176177588898103b6c311880d73fa331d5ca0a30a168befc1f0bc66517d9642a11964cb98993c9e96c888ab29a041014b5d65b690dd125db"
+RPM_NAME = "libsundials_idas5-openmpi4-6.3.0-2.5.aarch64.rpm"
+RPM_HASH = "39bc3338d4b93cfa058b98e29b50e5301119bb28e876052f2b26a1f6a2be6a9c4d1fe86f75d0252c734d4e9feb2f9b5e1850afb60f47d694b50475cce7846303"
 
 RPROVIDES:${PN} += "libsundials-idas.so.5 \
 libsundials-idas5-openmpi4"

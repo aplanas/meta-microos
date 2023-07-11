@@ -12,8 +12,8 @@ LICENSE = "SUSE-Freetype | GPL-2.0-or-later"
 
 PV = "1.3.1"
 
-RPM_NAME = "freetype-tools-1.3.1-1419.12.aarch64.rpm"
-RPM_HASH = "60ac0cab3e5b088a057ca90535293af0bba71112ca792ff86183a443b68c8ca1cc846d042cbdf8dacd12aa6beb5ddef83b1994067867a9f79239c98d99a6701f"
+RPM_NAME = "freetype-tools-1.3.1-1419.13.aarch64.rpm"
+RPM_HASH = "a21c38c1ace172f537d4e0e15ead237a7428b2a5282cbbeb89194b5b428405059d8ddd75078d9362720f556aed1e5e7c5e17ebb5c01845df1bef7a6db014e4a0"
 
 RPROVIDES:${PN} += "freetype-tools"
 

@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "1.0.3"
 
-RPM_NAME = "python39-dist-1.0.3-3.1.aarch64.rpm"
-RPM_HASH = "708b6f6bfa43a6a3d26b3c22eb649198df041b597bb473b3ac835c8439e3b6af6f198201bbc793af6dfe668be2c12431ce574dd2985aab23aace4fdf205ff483"
+RPM_NAME = "python39-dist-1.0.3-3.3.aarch64.rpm"
+RPM_HASH = "408c0ee35b179eed3649b861596ed7bc08fa6091c780d4edfad4fb8d6fcefa2caa8191373aad1748ec35563cf6cc3fb585369f32381a57a5e84e77173d9ca97e"
 
 RPROVIDES:${PN} += "python3.9dist-dist \
 python39-dist \

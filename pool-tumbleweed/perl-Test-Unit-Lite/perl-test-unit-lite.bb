@@ -14,8 +14,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.1202"
 
-RPM_NAME = "perl-Test-Unit-Lite-0.1202-5.24.noarch.rpm"
-RPM_HASH = "7e63ec9af2c9b81810fde5330a8566aa35e8892ee7253f3910496fdc442ba862fa8d5c1693e66de53f7d62b49176f834cb3e2d5aedfba42953b39b03b0fb515d"
+RPM_NAME = "perl-Test-Unit-Lite-0.1202-5.25.noarch.rpm"
+RPM_HASH = "32b50296e74091057b99a131256bcb5447a382e245da54a6219fccd161af74bd420b32d78c5e891a0006aceab079d5a65b2f06d14952e2b1367a8d689edb96ae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Unit--Debug \
@@ -28,6 +28,6 @@ perl-Test--Unit--TestRunner \
 perl-Test--Unit--TestSuite \
 perl-Test-Unit-Lite"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

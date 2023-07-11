@@ -7,10 +7,10 @@ has the ability to erase re-writeable media, and can perform more \
 complicated tasks such as audiovisual encoding and decoding."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "k3b-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "49916576641e9f68ac4d33506625d19a1bc99d3ec91d318809d7500ad73f2583a2905b5b19bc34e0da8b26083ae369fdcb861125bafb1ff19b4eeaa5593c1ae0"
+RPM_NAME = "k3b-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "4f8dc6edc0c2dc524d97ef4f3e5b1370145c9d2799be2d3186ebe57920514916f470a075e69d9b2e35e9559e912d369e7eedf7e47aa0cac1421831dd1d8f51f3"
 
 RPROVIDES:${PN} += "k3b \
 kde4-k3b \

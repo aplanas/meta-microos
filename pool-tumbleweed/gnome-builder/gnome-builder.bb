@@ -5,8 +5,8 @@ LICENSE = "CC-BY-SA-3.0 & GPL-2.0-or-later & GPL-3.0-or-later & LGPL-3.0-or-late
 
 PV = "44.1"
 
-RPM_NAME = "gnome-builder-44.1-1.3.aarch64.rpm"
-RPM_HASH = "471ee3a50e62a263ee6f0cc07120dbbf6c0c3fa3d8b0a242fe4c3cd7d0e83e75e9cc1b789ff53e8271e26dac2ce5c12f1a3807df5772badad682e25e59fb87da"
+RPM_NAME = "gnome-builder-44.1-1.4.aarch64.rpm"
+RPM_HASH = "e621bff5d30428de4068f14439a260273e81172f0bec6154099d8417dfaebad65624a7044acdfdc496c2f4be654b6f8d3fc6014d5a44e652aea2de473a22659d"
 
 RPROVIDES:${PN} += "gnome-builder \
 pkgconfig-gnome-builder-44.1 \

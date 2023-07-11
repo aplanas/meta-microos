@@ -3,10 +3,10 @@ DESCRIPTION = "The libsss_nss_idmap-python contains the bindings so that \
 libsss_nss_idmap can be used by Python applications."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "2.9.0"
+PV = "2.9.1"
 
-RPM_NAME = "python3-sss_nss_idmap-2.9.0-1.1.aarch64.rpm"
-RPM_HASH = "0777cb56861a57492f642e2d6b8dfc53d69de7a5daf5d120089db5090814e5f2bfafac1619f214e7250052892570419c33378a2e49771f165fda7ce5194be594"
+RPM_NAME = "python3-sss_nss_idmap-2.9.1-1.1.aarch64.rpm"
+RPM_HASH = "cf8aca74a65aee317bfb0017853fd0ea0a6757787ec9873cf3c4c4f52f3c028b6cfa7b9e58ca03502bd40ac246ca0b98131698b1fd08b28b41579692b109a6d5"
 
 RPROVIDES:${PN} += "python3-sss-nss-idmap"
 

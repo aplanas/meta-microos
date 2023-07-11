@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "1.0.2"
 
-RPM_NAME = "python39-pytest-httpbin-1.0.2-3.1.noarch.rpm"
-RPM_HASH = "f0fbeb52a6cc43ceeef6a54a40cce47898f64b19c2600554aca2a5f527b2c37586a70fe0ef090bd33419fa99228d70c6262845c9be7f02f1ac5c1b008b11b3f0"
+RPM_NAME = "python39-pytest-httpbin-1.0.2-3.3.noarch.rpm"
+RPM_HASH = "4b417885df33b598f3c0e1c586166bd63b52e6ace2f4acaaa43917481a18db8fa653283f33480325c2ac87fd8455e8bb9635961a833d04249d19a6432bb7427e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytest-httpbin \

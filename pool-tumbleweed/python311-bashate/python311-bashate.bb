@@ -13,11 +13,12 @@ LICENSE = "Apache-2.0"
 
 PV = "2.1.1"
 
-RPM_NAME = "python311-bashate-2.1.1-1.4.noarch.rpm"
-RPM_HASH = "e6004df5ec1190280778dd2e36b81f6513cc91f4c9690953f32cef396e4f3fb0fa7d6e4fb293cea2d3a406983abb1c8613e692f80f15c44832f187fae692383e"
+RPM_NAME = "python311-bashate-2.1.1-1.5.noarch.rpm"
+RPM_HASH = "e259dc10db444a1770553217d4e5fc14ab3e1b9f910a7466de0f0cc37db9cd0f2e3457470c15dd8c454e79a9a46266dde3a0df353b2f6196ed2b040b05808944"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-bashate \
+RPROVIDES:${PN} += "python3-bashate \
+python3.11dist-bashate \
 python311-bashate \
 python3dist-bashate"
 

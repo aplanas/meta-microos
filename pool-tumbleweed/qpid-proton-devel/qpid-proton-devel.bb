@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.38.0"
 
-RPM_NAME = "qpid-proton-devel-0.38.0-1.4.aarch64.rpm"
-RPM_HASH = "42bb1e63ad1be4e6382ef4a3fe5785f46fda6cbd22c647567ceecf4ac227ab13ea1231e577a4b457803d0ac05b1c0745645c5ba8327b64855b055a02d358cfd4"
+RPM_NAME = "qpid-proton-devel-0.38.0-1.6.aarch64.rpm"
+RPM_HASH = "418ffac4eaa810a48800c978312bcec60b04e0e21001372db7dfbb00922a29c82729ff9554215eb7a92fef53552dec78b48a3ce01b738fb4b4d1b1a5d8c810e2"
 
 RPROVIDES:${PN} += "cmake-Proton \
 cmake-ProtonCpp \

@@ -4,10 +4,10 @@ location, similarly to mount --bind. The permissions inside the \
 mountpoint can be altered using various rules."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.17.2"
+PV = "1.17.3"
 
-RPM_NAME = "bindfs-1.17.2-1.2.aarch64.rpm"
-RPM_HASH = "08814d32a72dedbbc8b6d41767d05676a7dadf1662e375bf6a03a94f29d531dce1d9485fbdda1ce1de901c561156b1e998d32b5651f7459394147bc6fb433e2e"
+RPM_NAME = "bindfs-1.17.3-1.1.aarch64.rpm"
+RPM_HASH = "987224d44f339513643ae800b1d9fae90d29254c28c2a63f92261c167bae1e4b7b54a0c9b7b85d6b84ac77a78eaedf0d9ea79a8cf3dd3a0e7256d161c8739c8a"
 
 RPROVIDES:${PN} += "bindfs"
 

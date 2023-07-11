@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains compressed kernel firmware files for \
 various sound drivers."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230517"
+PV = "20230620"
 
-RPM_NAME = "kernel-firmware-sound-20230517-1.1.noarch.rpm"
-RPM_HASH = "346695c795bcb622e77aba8527736dfc7aac7a8eddd76df1082db15f2fced5c31b4f502fb23fca2f7ce5af3d6ef88660c908a520e0cdb39b94d3207db8843d98"
+RPM_NAME = "kernel-firmware-sound-20230620-1.1.noarch.rpm"
+RPM_HASH = "f68ab2a676fe86a6bb8d5dab3ae31953e4eb28ac9a1d38b891ebe1e31fcd1b323a139b89ec3019cf0ae430e6052b4ff3c95817448ccb75c78dae33c9af5af292"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-cirrus/cs35l41-dsp1-spk-cali-103c896e-l0.bin \
@@ -85,11 +85,21 @@ firmware-cirrus/cs35l41-dsp1-spk-cali-104312af-spkid0-r0.bin \
 firmware-cirrus/cs35l41-dsp1-spk-cali-104312af-spkid1-l0.bin \
 firmware-cirrus/cs35l41-dsp1-spk-cali-104312af-spkid1-r0.bin \
 firmware-cirrus/cs35l41-dsp1-spk-cali-104312af.wmfw \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10431a20.wmfw \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10431a30.wmfw \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10431a40.wmfw \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10431a50.wmfw \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10431a60.wmfw \
 firmware-cirrus/cs35l41-dsp1-spk-cali-10431a8f-spkid0-l0.bin \
 firmware-cirrus/cs35l41-dsp1-spk-cali-10431a8f-spkid0-r0.bin \
 firmware-cirrus/cs35l41-dsp1-spk-cali-10431a8f-spkid1-l0.bin \
 firmware-cirrus/cs35l41-dsp1-spk-cali-10431a8f-spkid1-r0.bin \
 firmware-cirrus/cs35l41-dsp1-spk-cali-10431a8f.wmfw \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10431b93-spkid0-l0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10431b93-spkid0-r0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10431b93-spkid1-l0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10431b93-spkid1-r0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10431b93.wmfw \
 firmware-cirrus/cs35l41-dsp1-spk-cali-10431e02-spkid0-l0.bin \
 firmware-cirrus/cs35l41-dsp1-spk-cali-10431e02-spkid0-r0.bin \
 firmware-cirrus/cs35l41-dsp1-spk-cali-10431e02-spkid1-l0.bin \
@@ -105,6 +115,26 @@ firmware-cirrus/cs35l41-dsp1-spk-cali-10431f12-spkid0-r0.bin \
 firmware-cirrus/cs35l41-dsp1-spk-cali-10431f12-spkid1-l0.bin \
 firmware-cirrus/cs35l41-dsp1-spk-cali-10431f12-spkid1-r0.bin \
 firmware-cirrus/cs35l41-dsp1-spk-cali-10431f12.wmfw \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10433a20-spkid0-l0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10433a20-spkid0-r0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10433a20-spkid1-l0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10433a20-spkid1-r0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10433a30-spkid0-l0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10433a30-spkid0-r0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10433a30-spkid1-l0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10433a30-spkid1-r0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10433a40-spkid0-l0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10433a40-spkid0-r0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10433a40-spkid1-l0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10433a40-spkid1-r0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10433a50-spkid0-l0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10433a50-spkid0-r0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10433a50-spkid1-l0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10433a50-spkid1-r0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10433a60-spkid0-l0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10433a60-spkid0-r0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10433a60-spkid1-l0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10433a60-spkid1-r0.bin \
 firmware-cirrus/cs35l41-dsp1-spk-cali-17aa22f1-l0.bin \
 firmware-cirrus/cs35l41-dsp1-spk-cali-17aa22f1-r0.bin \
 firmware-cirrus/cs35l41-dsp1-spk-cali-17aa22f1.wmfw \
@@ -217,11 +247,21 @@ firmware-cirrus/cs35l41-dsp1-spk-prot-104312af-spkid0-r0.bin \
 firmware-cirrus/cs35l41-dsp1-spk-prot-104312af-spkid1-l0.bin \
 firmware-cirrus/cs35l41-dsp1-spk-prot-104312af-spkid1-r0.bin \
 firmware-cirrus/cs35l41-dsp1-spk-prot-104312af.wmfw \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10431a20.wmfw \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10431a30.wmfw \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10431a40.wmfw \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10431a50.wmfw \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10431a60.wmfw \
 firmware-cirrus/cs35l41-dsp1-spk-prot-10431a8f-spkid0-l0.bin \
 firmware-cirrus/cs35l41-dsp1-spk-prot-10431a8f-spkid0-r0.bin \
 firmware-cirrus/cs35l41-dsp1-spk-prot-10431a8f-spkid1-l0.bin \
 firmware-cirrus/cs35l41-dsp1-spk-prot-10431a8f-spkid1-r0.bin \
 firmware-cirrus/cs35l41-dsp1-spk-prot-10431a8f.wmfw \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10431b93-spkid0-l0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10431b93-spkid0-r0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10431b93-spkid1-l0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10431b93-spkid1-r0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10431b93.wmfw \
 firmware-cirrus/cs35l41-dsp1-spk-prot-10431e02-spkid0-l0.bin \
 firmware-cirrus/cs35l41-dsp1-spk-prot-10431e02-spkid0-r0.bin \
 firmware-cirrus/cs35l41-dsp1-spk-prot-10431e02-spkid1-l0.bin \
@@ -237,6 +277,26 @@ firmware-cirrus/cs35l41-dsp1-spk-prot-10431f12-spkid0-r0.bin \
 firmware-cirrus/cs35l41-dsp1-spk-prot-10431f12-spkid1-l0.bin \
 firmware-cirrus/cs35l41-dsp1-spk-prot-10431f12-spkid1-r0.bin \
 firmware-cirrus/cs35l41-dsp1-spk-prot-10431f12.wmfw \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10433a20-spkid0-l0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10433a20-spkid0-r0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10433a20-spkid1-l0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10433a20-spkid1-r0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10433a30-spkid0-l0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10433a30-spkid0-r0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10433a30-spkid1-l0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10433a30-spkid1-r0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10433a40-spkid0-l0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10433a40-spkid0-r0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10433a40-spkid1-l0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10433a40-spkid1-r0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10433a50-spkid0-l0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10433a50-spkid0-r0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10433a50-spkid1-l0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10433a50-spkid1-r0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10433a60-spkid0-l0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10433a60-spkid0-r0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10433a60-spkid1-l0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10433a60-spkid1-r0.bin \
 firmware-cirrus/cs35l41-dsp1-spk-prot-17aa22f1-l0.bin \
 firmware-cirrus/cs35l41-dsp1-spk-prot-17aa22f1-r0.bin \
 firmware-cirrus/cs35l41-dsp1-spk-prot-17aa22f1.wmfw \

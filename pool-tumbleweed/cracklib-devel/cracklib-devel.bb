@@ -5,10 +5,10 @@ determine whether passwords match certain security-oriented \
 characteristics."
 LICENSE = "LGPL-2.1-only"
 
-PV = "2.9.8"
+PV = "2.9.11"
 
-RPM_NAME = "cracklib-devel-2.9.8-1.2.aarch64.rpm"
-RPM_HASH = "4b45bb8e68c8ce2e06c0ab7fbbf483f2650e0eb6dd9ac2b42b61f5c70f19ce655f298c0752bcddcb3dc37a6098735fa96c463a1b013eb1c26908df9a39587ecc"
+RPM_NAME = "cracklib-devel-2.9.11-1.1.aarch64.rpm"
+RPM_HASH = "bf4678e0d7254b3705d732340a4ccb4bd78a9dd5e2b1b1e4005eca467f3ac87f91624ddde07689e9504b81e559874c76f3290641c39f495221b2ddfa502d5b44"
 
 RPROVIDES:${PN} += "cracklib-/usr/include/crack.h \
 cracklib-devel"

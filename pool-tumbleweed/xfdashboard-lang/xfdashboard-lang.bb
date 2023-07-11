@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0.0"
 
-RPM_NAME = "xfdashboard-lang-1.0.0-1.4.noarch.rpm"
-RPM_HASH = "3f5c46d613bcd469ad843808d9ad5bf2c874bc752e213bc8ac9d35be9f7adf0f30e5cbce783ee3236494969cccbf8c78010960b505530e96537df3fde86f1d3f"
+RPM_NAME = "xfdashboard-lang-1.0.0-1.5.noarch.rpm"
+RPM_HASH = "a1935fee7b1f70dfbf876530129db25c526c788bd0e7d91e0243803f7a1521e9e544f609d054a829293f5acd4098b6b62b3cd6be5fc1148a4d6b46b5087c5992"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfdashboard-be \

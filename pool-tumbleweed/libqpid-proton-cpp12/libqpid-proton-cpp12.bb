@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.38.0"
 
-RPM_NAME = "libqpid-proton-cpp12-0.38.0-1.4.aarch64.rpm"
-RPM_HASH = "21dc281e045e146724e9388f7d56e99ade148b7b1969d20ebb666ece1ca782691b0af32168abf53bca1fdd20e6f0126efe59b4755fc261ff67ce341a5d56515f"
+RPM_NAME = "libqpid-proton-cpp12-0.38.0-1.6.aarch64.rpm"
+RPM_HASH = "aaa5bcb4a83b4abf70d2a8775c77dc489b543b18472b697a45c894c1f654267dc1b80b8718dcbe5b38a86ac44e9d9f0fe9576a36f5796c78180d3a03cf4f77cc"
 
 RPROVIDES:${PN} += "libqpid-proton-cpp.so.12 \
 libqpid-proton-cpp12"

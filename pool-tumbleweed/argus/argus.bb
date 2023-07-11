@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-only & LGPL-2.1-only & MIT"
 
 PV = "3.0.8.3"
 
-RPM_NAME = "argus-3.0.8.3-3.3.aarch64.rpm"
-RPM_HASH = "b75ad657cf616ed9a22d6effa0af02233de9904848ceb87b247ea9850991784bc1996f8b6a8215251fd11f90a6dc00357eff316a18c10dc3258b1b8ede9034fc"
+RPM_NAME = "argus-3.0.8.3-3.4.aarch64.rpm"
+RPM_HASH = "9670b450a868524a152a1cf8ec338dda5c87d32a5e6bd88060c4a824556ab2cdb6ba03047f89ae1aa6f7d87696f3db3e46d7c6a50c5e8bc4f4452d3f7014eb0f"
 
 RPROVIDES:${PN} += "argus"
 

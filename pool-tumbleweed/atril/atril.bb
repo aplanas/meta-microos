@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.0-only"
 
 PV = "1.26.1"
 
-RPM_NAME = "atril-1.26.1-1.1.aarch64.rpm"
-RPM_HASH = "1f9cf948023da2192c3d575a9ac09172fe5864289361a37ff6a62d9fa980f82a02aee6a19752386c8d77326c3e9e1133575504d6eb6d8a09062e140e7018a8da"
+RPM_NAME = "atril-1.26.1-1.2.aarch64.rpm"
+RPM_HASH = "c9cee3acfa1c121faf2dc311f0f829c9b7f7f8035f56b9f46882362494be10163fbeb3773cbc4625748c83c05b87a196272491a165c2f30ccfe23a5bd36c42df"
 
 RPROVIDES:${PN} += "atril \
 mate-document-viewer"

@@ -7,8 +7,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.3.1"
 
-RPM_NAME = "python39-notify2-0.3.1-4.11.noarch.rpm"
-RPM_HASH = "a6c87dee9b80ba1b0a6a23c1c3b8ff25eb0cb93c57bc39c0f386cf8add1455505705a4e04b6e7ad3c35bf481efdf97a8d66e5da1e4bee39aa77f1900def263fa"
+RPM_NAME = "python39-notify2-0.3.1-4.13.noarch.rpm"
+RPM_HASH = "e7b631000a9fbef0b110360e384c9c1ff10530ed3517529f11c2f93e67137e58dcec873fa99d53826fad824391f8b18e2d6059a3582fc9629e76de73df098241"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-notify2 \

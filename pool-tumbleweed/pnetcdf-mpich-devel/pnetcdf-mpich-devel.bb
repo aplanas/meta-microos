@@ -10,8 +10,8 @@ LICENSE = "NetCDF"
 
 PV = "1.12.3"
 
-RPM_NAME = "pnetcdf-mpich-devel-1.12.3-1.3.aarch64.rpm"
-RPM_HASH = "5b733a3eca39ed293e6707ddad9dd8e30e24f43213481dec428dd820f60f223fdfb35ab779ec5010cccc8620f31174516143ef88965bde401f0a49c8850ec94d"
+RPM_NAME = "pnetcdf-mpich-devel-1.12.3-1.4.aarch64.rpm"
+RPM_HASH = "ca19237e4da14dac80834e586c2e5c6335cc22c3bd10532921241e81356398fe18486624cef3a9379eaaa472cfb9ae7078225e19f35dfc8cdb5c4aed43fa3ca8"
 
 RPROVIDES:${PN} += "parallel-netcdf-mpich-devel \
 pkgconfig-pnetcdf \

@@ -11,8 +11,8 @@ LICENSE = "ISC"
 
 PV = "1.0.3"
 
-RPM_NAME = "ocaml-uutf-1.0.3-1.9.aarch64.rpm"
-RPM_HASH = "0ab2025fd9a64a70ca51160a9d36a3f7d665065b66a2fccf3195e653005e56b2ab045fcc9a78644ccd8133d0c2f07ca84a6eed91b1862e4ab389411f9b3b6696"
+RPM_NAME = "ocaml-uutf-1.0.3-1.10.aarch64.rpm"
+RPM_HASH = "074ed23d246f3ae579497970c7b5ae860ba664f68f6faca0e73dbc41a20c959b192b6ac009f53310ae3e668f9cf883d1eb0f906cc2d7f33cbcb579496e4b06b0"
 
 RPROVIDES:${PN} += "ocaml-uutf"
 

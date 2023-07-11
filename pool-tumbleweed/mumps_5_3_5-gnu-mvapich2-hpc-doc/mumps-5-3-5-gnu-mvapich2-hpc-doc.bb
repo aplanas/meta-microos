@@ -12,8 +12,8 @@ LICENSE = "CECILL-C"
 
 PV = "5.3.5"
 
-RPM_NAME = "mumps_5_3_5-gnu-mvapich2-hpc-doc-5.3.5-3.3.noarch.rpm"
-RPM_HASH = "160a3e53c6378b75de2e6f7e1312166e132f37390718835e62fa2770e06c8703c5774d103527585357ec8a08fc992c36ef53baaa62bcba857969fb2a30bd731e"
+RPM_NAME = "mumps_5_3_5-gnu-mvapich2-hpc-doc-5.3.5-3.4.noarch.rpm"
+RPM_HASH = "1c7668187d7ee377f5dccf8b244ca436a0d563e928f191390bfbe61542240b4b05e04830f52aa513f66895137b268315a75ffb9beb59bb9352df583450860822"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mumps-5-3-5-gnu-mvapich2-hpc-doc"

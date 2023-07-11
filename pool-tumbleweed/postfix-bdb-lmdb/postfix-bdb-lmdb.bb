@@ -4,10 +4,10 @@ by starting postfix if you'll access a postmap which is stored in \
 lmdb."
 LICENSE = "IPL-1.0 | EPL-2.0"
 
-PV = "3.8.0"
+PV = "3.8.1"
 
-RPM_NAME = "postfix-bdb-lmdb-3.8.0-2.2.aarch64.rpm"
-RPM_HASH = "e3d3ac7e487fefc986c43ffb1fd7780591384947f0b94bef9f5754e86854d7775cdfd99fb04f1b79f93a0db8f01153bd61af1fdf0cf2a25afe67ff5add8cef35"
+RPM_NAME = "postfix-bdb-lmdb-3.8.1-1.1.aarch64.rpm"
+RPM_HASH = "fa499fc27b5e9a1e9053ab1f6125483834dcd002885317ecb2151ef49435eea1a98e650d1fc3a1d4c38bc91e4e82839c78d15622c3cd4ea684f75f60206d81e4"
 
 RPROVIDES:${PN} += "postfix-bdb-lmdb \
 postfix-lmdb"

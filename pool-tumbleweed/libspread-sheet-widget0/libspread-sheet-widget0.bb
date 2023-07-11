@@ -13,8 +13,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.8"
 
-RPM_NAME = "libspread-sheet-widget0-0.8-1.10.aarch64.rpm"
-RPM_HASH = "e68ce9a92a263439faa2f8942fc0269e7aa0569e661b93f66e4a47c13fc5da46ead7d5e86f3810bf7181ebd6fe679c93c8b47ba472882f51ee2f6e560a1c25fd"
+RPM_NAME = "libspread-sheet-widget0-0.8-1.11.aarch64.rpm"
+RPM_HASH = "4cb654e482b995cb7574b93b3a742eb6a9b7f7cf9abf92e80e9e981e142bb09009af2414df185e575ffde392117fb546265de2847975f243119d0ffd67ce8cc3"
 
 RPROVIDES:${PN} += "libspread-sheet-widget.so.0 \
 libspread-sheet-widget0"

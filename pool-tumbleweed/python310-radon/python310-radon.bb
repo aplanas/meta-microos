@@ -10,12 +10,11 @@ LICENSE = "MIT"
 
 PV = "5.1.0"
 
-RPM_NAME = "python310-radon-5.1.0-1.4.noarch.rpm"
-RPM_HASH = "6574463db1a71175507ad2c3d4996de2b92eb9178e996e43d100904bb988920958f0e8d5b3df2d904c962f175d23af7934851b84150a01f3162d33b30f48b603"
+RPM_NAME = "python310-radon-5.1.0-2.3.noarch.rpm"
+RPM_HASH = "44246825103f5fac55df899043e0d2545e9bb6386bea02e96c2ce7a7f98add55b66de03bf7f1909d3588b7c19450d3c4b3f396bc523892686d21d6add60f7d49"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-radon \
-python3.10dist-radon \
+RPROVIDES:${PN} += "python3.10dist-radon \
 python310-radon \
 python3dist-radon"
 

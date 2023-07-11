@@ -14,8 +14,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.13"
 
-RPM_NAME = "rmt-server-2.13-1.1.aarch64.rpm"
-RPM_HASH = "db451a2e74e2a167fe8dbbec253df1737aff7fc20011d9695a49669fe3556d9694a49ef8e65d232e26e0059cf5f5a64cf891cda4f76837f46dd0b155d01c4277"
+RPM_NAME = "rmt-server-2.13-1.2.aarch64.rpm"
+RPM_HASH = "2832f597acaf98904b4226408eab90872475277c8d948c57e6adb95169cd60ee8878c3b18b890f7d83a1967daf57674b00448c40defa9500982fb50c5d471a7b"
 
 RPROVIDES:${PN} += "bundled-rubygem(actionpack) \
 bundled-rubygem(actionview) \

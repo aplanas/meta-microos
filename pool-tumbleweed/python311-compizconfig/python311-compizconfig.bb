@@ -4,10 +4,11 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.8.18"
 
-RPM_NAME = "python311-compizconfig-0.8.18-2.21.aarch64.rpm"
-RPM_HASH = "8806a8c63dc5bb942ada881693d02962853fb779ea34dd4370606f1259f848718a31a5cb39dfb52c27d1e24981c257c7cf3844ee9e794fb756e57bf1da437561"
+RPM_NAME = "python311-compizconfig-0.8.18-2.22.aarch64.rpm"
+RPM_HASH = "803fcd5a19468830adf33dd8db8593ee17f3b6c95ea77675b44f29056a332a547e36128425337e41884bf6c8e7512d90e15a708e6e2bc9b6321b938ae81797cb"
 
-RPROVIDES:${PN} += "python311-compizconfig"
+RPROVIDES:${PN} += "python3-compizconfig \
+python311-compizconfig"
 
 RDEPENDS:${PN} += "compiz \
 ld-linux-aarch64.so.1 \

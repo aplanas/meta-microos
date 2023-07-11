@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "0.23.90"
 
-RPM_NAME = "python3-zbar-0.23.90-3.1.aarch64.rpm"
-RPM_HASH = "5ca6779b74ced993d005a8f54fc4e4bac5b59b0f239fb26da21e1f65faeca4abb9348b7e5c1c0e6b5721621ef2c940e33e6a87532bd498ca2c38b0a1633665be"
+RPM_NAME = "python3-zbar-0.23.90-4.1.aarch64.rpm"
+RPM_HASH = "c5d4c4cfafee488504691375956d73197945ee743d0976aa9e01753d2be56c0b2f5f7fd263082f74b3f0b7798f258d87f43deda6895d3c167383adcc7fdafc86"
 
 RPROVIDES:${PN} += "python3-zbar"
 

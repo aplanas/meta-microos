@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.1.3.0"
 
-RPM_NAME = "ghc-css-text-prof-0.1.3.0-4.3.aarch64.rpm"
-RPM_HASH = "3e10a6d60fc1944ca416ac78e168f9e7b2c18181fdfad741577d4f245aab19311f52b3abb40a90ac8e14dee4183db37ec5f52741ec7162fcd31de96e46603546"
+RPM_NAME = "ghc-css-text-prof-0.1.3.0-4.6.aarch64.rpm"
+RPM_HASH = "eebd5eda2b304deb2178aa282cd9e167157e6c81dbb1da1f0df256bbbc81abe3a6712d0166af9d594e5dc5c2f1e082dc288c5d5c2fdcc9c46d8403cc72793649"
 
 RPROVIDES:${PN} += "ghc-css-text-prof \
 ghc-prof-css-text-0.1.3.0-21S5OjTqOp19taDQmfqmQs"

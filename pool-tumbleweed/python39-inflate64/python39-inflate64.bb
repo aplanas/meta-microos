@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.3.1"
 
-RPM_NAME = "python39-inflate64-0.3.1-1.5.aarch64.rpm"
-RPM_HASH = "d036cb189edddcbab21962eaf1e8b1f45264f2f4dd6935d370ea561eccc98c0d5ab61615b93fa8674acbaab8e335632740b2b83d55878e5869689c98edf9fdb3"
+RPM_NAME = "python39-inflate64-0.3.1-2.1.aarch64.rpm"
+RPM_HASH = "67c5a9498e1733a17391088dc2a4e6ee56cb74700b512fe55d39cf49102c145683756e39f70ba034c0dfc2e757eb381bab232d216d256d19569f11ecee67a905"
 
 RPROVIDES:${PN} += "python3.9dist-inflate64 \
 python39-inflate64 \

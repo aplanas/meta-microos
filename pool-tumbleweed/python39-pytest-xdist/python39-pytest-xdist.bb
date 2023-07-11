@@ -25,8 +25,8 @@ LICENSE = "MIT"
 
 PV = "3.3.1"
 
-RPM_NAME = "python39-pytest-xdist-3.3.1-1.1.noarch.rpm"
-RPM_HASH = "2ef2166ee0bbfa3d0b25eee817a8bad515759c19af862cd74ee18e0a39fdcd3146ba44809a604b0a87bdebab2a7ed15c6413a727fd838cc80dfde8e45b31f818"
+RPM_NAME = "python39-pytest-xdist-3.3.1-1.3.noarch.rpm"
+RPM_HASH = "2cd2cea3d7884784a5f8bb696dd925dac5386d9807e88f6b644e3e6f4e6cbedd1430ecb972ed4327307b9ed3bbb7bf41d21408ac707ffe9c844a32c5ae15ab07"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytest-xdist \

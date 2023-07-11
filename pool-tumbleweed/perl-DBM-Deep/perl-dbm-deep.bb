@@ -10,8 +10,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.0016"
 
-RPM_NAME = "perl-DBM-Deep-2.0016-1.17.noarch.rpm"
-RPM_HASH = "54b88e7869e268f7c4d73c1782418b2ed1f8fbec489f157281b2bde5403e161b7371b84f75a478aab0bc47f124fce8b4033805f573ce97f662fd50ae08be0e52"
+RPM_NAME = "perl-DBM-Deep-2.0016-1.18.noarch.rpm"
+RPM_HASH = "06567d06c877eccf860ae7fb6144b7488f743350b8bcdaf6266edc5f952f2e8747235d7b1690b474b236421c8c5ad6a6e9645e83cffe52a61d170395af42f707"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DBM--Deep \
@@ -43,6 +43,6 @@ perl-DBM--Deep--Storage--DBI \
 perl-DBM--Deep--Storage--File \
 perl-DBM-Deep"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

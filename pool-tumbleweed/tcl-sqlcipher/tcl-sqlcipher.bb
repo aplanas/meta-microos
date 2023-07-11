@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.5.4"
 
-RPM_NAME = "tcl-sqlcipher-4.5.4-1.1.aarch64.rpm"
-RPM_HASH = "14cc4808f7da7b089b3a81ccaef1069d72b90661fc35928bfe3daf6c550af5a712a7e17c119ba76427945a8b1b3dec7b82d3e8174171b6dadf56620f279dbb9d"
+RPM_NAME = "tcl-sqlcipher-4.5.4-1.2.aarch64.rpm"
+RPM_HASH = "a87d32a7f49f4e254a9672b4c7f7fdb3f3a0a02229f15721a58afe389532227e1acf89bda3e091cd7c0ca7e8d2ee1e5125d77af0cd95ae6de5900f557c05f42a"
 
 RPROVIDES:${PN} += "libtclsqlite3.so \
 sqlcipher-tcl \

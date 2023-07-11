@@ -42,8 +42,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.108"
 
-RPM_NAME = "lcdf-typetools-2.108-1.10.aarch64.rpm"
-RPM_HASH = "34ee45d1495c909702bc7c9f828b2394add9af874022774f56c88a6f227e89b9ed98c946d014fe5bb14c31112d8011d74e65a4182a0492fce3e189d6bbe3960f"
+RPM_NAME = "lcdf-typetools-2.108-1.11.aarch64.rpm"
+RPM_HASH = "0cb03cc4a4ae2582e3a807d8229ecb5c60ca50d2ee6f6068a85ffacd0ef794c61aff039c7057dcf697c52a8ffa1d60a5a0c5b6dfd4c6489d36edde26e3cd7ebe"
 
 RPROVIDES:${PN} += "lcdf-typetools"
 

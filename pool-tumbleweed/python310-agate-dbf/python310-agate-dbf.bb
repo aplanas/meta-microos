@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.2.2"
 
-RPM_NAME = "python310-agate-dbf-0.2.2-1.10.noarch.rpm"
-RPM_HASH = "6f942a5efab69cd981ba5708957d0b32ffeb241d1344fb4bc2ddce8deecaca3430af97535c5a7752bd2fc50037947995e43162348b929a4669ff9a33265ee5d7"
+RPM_NAME = "python310-agate-dbf-0.2.2-1.12.noarch.rpm"
+RPM_HASH = "43c2ab398d787c65c8439436379920842c1f53243b9651ed5132148dbe6722c00328a78d61d98e9ea900807546469be61a7f6a4efa51eee71c9ccaa35b981a3e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-agate-dbf \
-python3.10dist-agate-dbf \
+RPROVIDES:${PN} += "python3.10dist-agate-dbf \
 python310-agate-dbf \
 python3dist-agate-dbf"
 

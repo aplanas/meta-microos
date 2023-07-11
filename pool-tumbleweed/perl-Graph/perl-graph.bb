@@ -4,8 +4,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.9726"
 
-RPM_NAME = "perl-Graph-0.9726-1.1.noarch.rpm"
-RPM_HASH = "6317915690c26be4fe37fba76769c54e19d4d0045b32d06dd81b4c5eb65f7a697ab621336cf979dc7cb9b00659748593cb7abea0d0b63be681e8df4822ec1d09"
+RPM_NAME = "perl-Graph-0.9726-1.2.noarch.rpm"
+RPM_HASH = "1f5579e5ee7c47c79db406f7f702f2e5e1f6d82961333ef10233a773a0df1ac16a2398a20a025e79af24b1547c7376a128b458bdead63f752fb49c7d503610e0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Graph \
@@ -26,7 +26,7 @@ perl-Graph--Traversal--DFS \
 perl-Graph--Undirected \
 perl-Graph--UnionFind"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Heap \
 perl-List--Util \
 perl-Set--Object"

@@ -17,8 +17,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.16.2"
 
-RPM_NAME = "python39-healpy-1.16.2-1.1.aarch64.rpm"
-RPM_HASH = "c4dc63de52334bae111279d33286fabeee0f9b61b5c56587034448d66a820b6f33b390754234a3636cc26b921f99edc09ec1d2c97d23d3a5c77685adfb3b7f4f"
+RPM_NAME = "python39-healpy-1.16.2-1.3.aarch64.rpm"
+RPM_HASH = "62734484c8631e52503ee19ba4f6162f83506aeb1259ff4014dfd39c4195350ca18787c70849df9e2ad5aa4bb1bea677a0a3769397408d446dc84a7dec87f30d"
 
 RPROVIDES:${PN} += "python3.9dist-healpy \
 python39-healpy \

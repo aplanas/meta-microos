@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
 PV = "2.3.1"
 
-RPM_NAME = "monitoring-plugins-ircd-2.3.1-9.4.aarch64.rpm"
-RPM_HASH = "1c12f1347d2026a3fb1581f11f304eb67e4cbcc6188b22d7e440b75e11c0ac0eed0bc17c641955290b21aaab8671248c4eadbece522af16095d8745d18e50c28"
+RPM_NAME = "monitoring-plugins-ircd-2.3.1-9.5.aarch64.rpm"
+RPM_HASH = "1a1d57bdeca82cd6cde085755a6fe8c9cd06f4ea06db2e98d5b8e78fbb9cf2cc14122b53561c621f3e6cabaf4a4e5283d88d7286fd7c3687612668797ca4f7ef"
 
 RPROVIDES:${PN} += "monitoring-plugins-ircd \
 nagios-plugins-ircd"

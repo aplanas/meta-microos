@@ -2,10 +2,10 @@ SUMMARY = "Incidenceeditor Library"
 DESCRIPTION = "The IncidenceEditor library for KDE PIM applications."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libKPim5IncidenceEditor5-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "2410d29f09025e0a13ae35586e9f226c178f01570658ba47dd0a902704e5bf8b44e1bb61da06ace62849429e35db7a602fb7aecc9a3f854dc040338efd977ddf"
+RPM_NAME = "libKPim5IncidenceEditor5-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "99f3805ecbcce62ac5c7b54bd577d89fe482877170ed0793a9adbe04b207ff4d4a87d68119198d67f8c8025cac5c8bb0230f7d2b9c92fd3e7a6d4b8972f3374b"
 
 RPROVIDES:${PN} += "libKPim5IncidenceEditor.so.5 \
 libKPim5IncidenceEditor5"

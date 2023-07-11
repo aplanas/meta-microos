@@ -4,10 +4,10 @@ some KDE image applications. Plug-ins for this interface are in the \
 kipi-plugins package."
 LICENSE = "BSD-3-Clause & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libkipi-devel-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "8284ebd5661868e5098d9cc1e7115a9145849fc38ad9e591c88ac541fe6aa8393f7d7f5cff5273ec066b5443afc7a83aab5d32c4e46f3f9856f86e75707fe0cb"
+RPM_NAME = "libkipi-devel-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "673c10f648535d3e1fdc698b8ffc6409a72ca2def38b6588918e5311e270a1c2c4c7f02d911db1ff1cb39ae7f256976fb94138b1cd8486e4868cb6b4ebf37646"
 
 RPROVIDES:${PN} += "cmake-KF5Kipi \
 libkipi-devel \

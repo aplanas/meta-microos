@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "2.5.1"
 
-RPM_NAME = "xindy-rules-2.5.1-2.24.noarch.rpm"
-RPM_HASH = "5757005a79d0c98d12765849bccb0fbc869c121cb0ed4478518f7161a288fedce0718d844f6083b6d6a637b1b09f4bd5edf7c59e0bb49eb0b49b0973810df832"
+RPM_NAME = "xindy-rules-2.5.1-2.27.noarch.rpm"
+RPM_HASH = "3709e25b31c019fd7f2c9a634472e43b9a10572d2205290ae80b14ddc88168cf6e4aab6b95ededf415a952f1078c30510296779a0fe1f1e2cd5da6cba7097813"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xindy-rules"

@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "22.2.0"
 
-RPM_NAME = "python39-treq-22.2.0-2.7.noarch.rpm"
-RPM_HASH = "3d72f2a3ea00b7ba67b9dcbf6c16b0643cd8baf34d0d61693c5e102d38cba0f6d3885f9830e49f19715dd72346aab51f8a267f589b1ef49788e0b1d4122b45a0"
+RPM_NAME = "python39-treq-22.2.0-3.1.noarch.rpm"
+RPM_HASH = "050cd01fc2141dc1037ac63894f61c1f700846b93766ef0261db8f9ca4486f53ac7584ff536ede36fabdac332c21498591ed0533d62c87a519a386ffa0caee9a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-treq \

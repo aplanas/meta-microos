@@ -4,10 +4,10 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "2.4.0"
 
-RPM_NAME = "python3-talloc-devel-2.4.0-3.1.aarch64.rpm"
-RPM_HASH = "549f3fdded95060a3a03bdd45c2f69620da62da495683172138edbf9a83daed74888adebe507a9eab4dd60d3f8fd477ce2428e3c39cd0d7e04911f34c43bd158"
+RPM_NAME = "python3-talloc-devel-2.4.0-3.2.aarch64.rpm"
+RPM_HASH = "6d3565ed9956dad1435bf3179530c8f03cf81c9a10abe25956b7c92f6bbe0ea68ded493cba6fc6e50f9afecdf1bd1f0f2a2182a2151e0635324767f5e42707cc"
 
-RPROVIDES:${PN} += "pkgconfig-pytalloc-util.cpython-310-aarch64-linux-gnu \
+RPROVIDES:${PN} += "pkgconfig-pytalloc-util.cpython-311-aarch64-linux-gnu \
 python3-talloc-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \

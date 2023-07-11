@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later | LGPL-2.1-or-later"
 
 PV = "2.1"
 
-RPM_NAME = "qore-mysql-module-2.1-1.5.aarch64.rpm"
-RPM_HASH = "7ebf0d185a72daf9340217594150f7d6be9b162b3aa2e84a6cf6128633eeea112470b83dd358c2f2b376c3ef9c7e34b0508c25419b0a2a0005aa49b7490a50ee"
+RPM_NAME = "qore-mysql-module-2.1-1.6.aarch64.rpm"
+RPM_HASH = "4b012d9f44754c32b69aa57dc5d7372a38c05a7212e6a848495a24de0b402b504fd6baf961b63a19c3dbdb785cae2a1e117acadd75c3d8d2d15a9a58c68491cd"
 
 RPROVIDES:${PN} += "qore-mysql-module"
 

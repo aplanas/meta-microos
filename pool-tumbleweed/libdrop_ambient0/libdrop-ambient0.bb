@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.8.3"
 
-RPM_NAME = "libdrop_ambient0-0.8.3-2.1.aarch64.rpm"
-RPM_HASH = "3afad98be9d16fc689bb0d5b6758dc3676786e819ccc2429e4f254bb6260d5aba47ce56e79baedaabebce9a07428fc806e7ff98ee59a1ba03bb8053ae77e87e1"
+RPM_NAME = "libdrop_ambient0-0.8.3-2.3.aarch64.rpm"
+RPM_HASH = "169241338a8a551a616263c40d45cc5641c159c3c2e487229b8d44fa4088b5ac19743bd2ad5102a34d8592fcc7baec470ca9c1692877a9c03bab2e45a27c219b"
 
 RPROVIDES:${PN} += "libdrop-ambient.so.0 \
 libdrop-ambient0"

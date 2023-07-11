@@ -5,8 +5,8 @@ LICENSE = "SUSE-Permissive"
 
 PV = "4.4.3.1"
 
-RPM_NAME = "libjpgalleg4_4-4.4.3.1-1.15.aarch64.rpm"
-RPM_HASH = "755e84c149ab0e60b98b51dada224cd262ef00044b3c23517f7eda4d86df3cfebd705c1974fbfe2432f5f6fadeee52e94d801677cfc990c61e14db85f9d19faf"
+RPM_NAME = "libjpgalleg4_4-4.4.3.1-1.16.aarch64.rpm"
+RPM_HASH = "4e7e914e5c950ce478dfcc616e4d9ba3849b5c980eb3e4fe7dd04c8f061ec6ecc4219686a627c18eaa28eb99f4b0700ca625c0a1a626f9d91469f5e8e63a351d"
 
 RPROVIDES:${PN} += "libjpgalleg.so.4.4 \
 libjpgalleg4-4"

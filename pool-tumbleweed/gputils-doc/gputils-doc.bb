@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.5.2"
 
-RPM_NAME = "gputils-doc-1.5.2-1.4.noarch.rpm"
-RPM_HASH = "0fe6559111c5a4ed06f91a55ba265af28e08de7238faa0a21d96133190668f57e2d7b66128664757aaa1a626848ab578792a24a99e15e9c631149a9e65e57db4"
+RPM_NAME = "gputils-doc-1.5.2-1.5.noarch.rpm"
+RPM_HASH = "c639efd63db2d6a5a9476f66a004a0057f62f806a0a5922cd6ab1c59018a1440b5c4fecc84289d5273c549611c69733acc48bb07123f800cbc1e1e187a851efa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gputils-doc"

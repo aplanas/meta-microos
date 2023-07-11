@@ -7,13 +7,14 @@ service_identity implements RFC 6125 fully and plans to add other \
 relevant RFCs too."
 LICENSE = "MIT"
 
-PV = "21.1.0"
+PV = "23.1.0"
 
-RPM_NAME = "python311-service_identity-21.1.0-3.1.noarch.rpm"
-RPM_HASH = "ce2938dc60de84596b932cb90fe092e4f8e826bcccda6119afbacaa6f782ff55b3d01bbe2cb7c291851fd49bb2b5219482f0955bcb9f0a230511f455b88ef3a8"
+RPM_NAME = "python311-service_identity-23.1.0-1.1.noarch.rpm"
+RPM_HASH = "499c87cf8dde77c4a401fb9b0dd1c6fd5e9935d8efe41db525877dfacb7d6eb2eaac5af18ef649049d2c188cff5fe3ff3508d13d43f49fbf12bd197b28366372"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-service-identity \
+RPROVIDES:${PN} += "python3-service-identity \
+python3.11dist-service-identity \
 python311-service-identity \
 python3dist-service-identity"
 

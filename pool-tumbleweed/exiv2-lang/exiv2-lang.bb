@@ -2,10 +2,10 @@ SUMMARY = "Translations for package exiv2"
 DESCRIPTION = "Provides translations for the 'exiv2' package."
 LICENSE = "BSD-3-Clause & GPL-2.0-or-later"
 
-PV = "0.27.6"
+PV = "0.28.0"
 
-RPM_NAME = "exiv2-lang-0.27.6-3.3.noarch.rpm"
-RPM_HASH = "600f8ea20c7464bedaebf3e4b071870aeae5aefbb700651a3cca20bbef112a1529bd276c8c1c6d2f08abad7dd6d13cf7712c1b20fb5a9d7e0f46d4218011f702"
+RPM_NAME = "exiv2-lang-0.28.0-1.1.noarch.rpm"
+RPM_HASH = "b88bf7a0b3fd1b2a7c5eb1e51982ffc83dfae30f116e69b965597f8cc9bfdbea7e888c883a73f1606582c698a89ef3a99635b95ed2b7af33d00edb9a2cad1d8d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "exiv2-lang \

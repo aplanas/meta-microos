@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "2.10.0"
 
-RPM_NAME = "python311-pyowm-2.10.0-1.15.noarch.rpm"
-RPM_HASH = "05e25b1d0a93f7d34d2a8ba63164fb9d20ffa4d7247ea59fa69632c914b43e3ea4f6deed98a85f7a59724c2f79de1dcc00cba2313b4b753ae3665bef505a4b80"
+RPM_NAME = "python311-pyowm-2.10.0-1.17.noarch.rpm"
+RPM_HASH = "8d415ab3e03be8deae286bd35afa2f262bf6601359f057c710a7e96f4d723e6988c184be8c407aee791745d44b2c136e15bd2662364c63ee45035541a748d1f5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pyowm \
+RPROVIDES:${PN} += "python3-pyowm \
+python3.11dist-pyowm \
 python311-pyowm \
 python3dist-pyowm"
 

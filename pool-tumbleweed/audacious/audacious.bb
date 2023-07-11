@@ -5,10 +5,10 @@ interface (based on Winamp 2.x skins). Historically, it started as a \
 fork of a fork of XMMS."
 LICENSE = "BSD-2-Clause"
 
-PV = "4.3"
+PV = "4.3.1"
 
-RPM_NAME = "audacious-4.3-1.3.aarch64.rpm"
-RPM_HASH = "efd1972c6c087c23c81143b24767d88601baf33540f3113e04925964e2afef592326bd3ecf9e91cc6e90d67a7482914e62f1a2b01c972c1671f1b619da8f8834"
+RPM_NAME = "audacious-4.3.1-1.1.aarch64.rpm"
+RPM_HASH = "6670f049ba66cd2a2db28bd130a14b91e201ccfc8f179f2415683c540356ece31001bf110592596b9c72622f18c889ce4a636b408b38a5b605ab156f701e1754"
 
 RPROVIDES:${PN} += "audacious"
 

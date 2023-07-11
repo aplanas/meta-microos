@@ -13,8 +13,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.0.0"
 
-RPM_NAME = "python39-canonicaljson-2.0.0-1.1.noarch.rpm"
-RPM_HASH = "2ad17386e208359400466ea34abbdeb2dd958dae59bc1cd1d7b9ab28c7daf17442b6a59bf05841f1563fd866fd619b0df426afbc245a14ef65fc994f0a10e18e"
+RPM_NAME = "python39-canonicaljson-2.0.0-2.3.noarch.rpm"
+RPM_HASH = "16bfe1b6cc6a17589fe480df3b077401630dbf9633ce01bd3ca2303e25765d59c8a7cb767013d009d4155321161a849ca354aafe613bfa173405d0caa0d9eb5b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-canonicaljson \

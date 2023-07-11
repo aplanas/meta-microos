@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.0.1"
 
-RPM_NAME = "ktimetracker-lang-5.0.1-1.18.noarch.rpm"
-RPM_HASH = "ab7a3951addccad9f451f418ac857637a914c58fbed696e1af209b01f5c1a32ec6dbc22899d7f9f5229cbda949e08d6fdd76c9d568c1d491207f28f8f03f3956"
+RPM_NAME = "ktimetracker-lang-5.0.1-1.19.noarch.rpm"
+RPM_HASH = "6166cb7b90d86c58dad0ca523282bb1651005a0dacaadba70eb0085f0271a9535e9b1ed7dc64d45b80e1ec922e5f39b82e80edd4571e5011de22a9234a3f6ee2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ktimetracker-lang \

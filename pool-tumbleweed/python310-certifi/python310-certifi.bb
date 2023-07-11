@@ -8,12 +8,11 @@ LICENSE = "MPL-2.0"
 
 PV = "2023.5.7"
 
-RPM_NAME = "python310-certifi-2023.5.7-1.1.noarch.rpm"
-RPM_HASH = "d2ad0e2be2e40dace92cbfb1b54d336c3882ad102d9d1aa0f11710d8be00116b1c8cd9f148c55111a355c7b758ab6a2da2964de335f53e04cf9ef9e60cdb795d"
+RPM_NAME = "python310-certifi-2023.5.7-1.2.noarch.rpm"
+RPM_HASH = "dbf009d539d8c1b835d80e1420ae35a5806e5588852c19e79bfa7a9a04b15579e8310c16fd2b178d417585fd258a4c5256352e0895f395bd93b3027f54c221b0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-certifi \
-python3.10dist-certifi \
+RPROVIDES:${PN} += "python3.10dist-certifi \
 python310-certifi \
 python3dist-certifi"
 

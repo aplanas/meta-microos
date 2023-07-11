@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-only & LGPL-2.1-or-later"
 
 PV = "5.2.0"
 
-RPM_NAME = "libprelude28-5.2.0-2.14.aarch64.rpm"
-RPM_HASH = "8afca83369bde001f7cc25f99cafebcc7bff7c3f95a9853fc93c462e92821b394dd980f683def8b5aeb85d0954dd27a331e61833358d6f3cc8b6f1af8c10f674"
+RPM_NAME = "libprelude28-5.2.0-2.16.aarch64.rpm"
+RPM_HASH = "bb9fbfa5bfdff695656613bbb7d51247f51a9016528d5c27b813a4df88cfcb6696c7195eba1eeeb695f21ba45a2691773a1581ef48c823b84a0319caf78a9520"
 
 RPROVIDES:${PN} += "libprelude.so.28 \
 libprelude28"

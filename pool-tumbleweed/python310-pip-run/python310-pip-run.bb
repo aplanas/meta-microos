@@ -16,12 +16,11 @@ LICENSE = "MIT"
 
 PV = "8.8.2"
 
-RPM_NAME = "python310-pip-run-8.8.2-2.1.noarch.rpm"
-RPM_HASH = "0e133d375b862a9d8641f661d36ed4a347eda4e579ebd8f9a2f47320c3ff22497226acc38c5ff6e31b596bccb51b81f88ecc725bf5f077fdcfed6cc77a3d99c0"
+RPM_NAME = "python310-pip-run-8.8.2-2.3.noarch.rpm"
+RPM_HASH = "9169416d2c0e36cd97f87819fd77b56ababef5deaa9367e51b4e92ba3d289144c2cabc7f4f53bdb4d7ae2947630071125c23882a2d1e8f59a98d271abe287da5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pip-run \
-python3.10dist-pip-run \
+RPROVIDES:${PN} += "python3.10dist-pip-run \
 python310-pip-run \
 python3dist-pip-run"
 

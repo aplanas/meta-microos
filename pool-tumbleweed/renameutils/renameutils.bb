@@ -22,8 +22,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.12.0"
 
-RPM_NAME = "renameutils-0.12.0-1.9.aarch64.rpm"
-RPM_HASH = "d9d14792b6c3fa214e4acb40e3ecb356ada81edd39d9150031db1261501b4429f4817944813e01deca321f8f3232cf2d5d2e5fa212d9ee343fc6ae25cd260dbd"
+RPM_NAME = "renameutils-0.12.0-1.10.aarch64.rpm"
+RPM_HASH = "abc83afbb917a40fea8fedee8454d05db0ac57335a31ae34295c9dd42ac4e9f043c2ab64122d056e1f82e9d1c2b159960930889f336bacf07d681552f44427c9"
 
 RPROVIDES:${PN} += "renameutils"
 

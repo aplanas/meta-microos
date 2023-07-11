@@ -5,8 +5,8 @@ LICENSE = "MIT & Python-2.0"
 
 PV = "3.0.10"
 
-RPM_NAME = "python39-openpyxl-3.0.10-1.3.noarch.rpm"
-RPM_HASH = "cc361fd8c682b0e770acbfb4f74036755579ed3fe83916876433828a193c5802123266563d585c6f6cfdd68e6f2bb2226358ea12d8d853419e6850e1140d5cca"
+RPM_NAME = "python39-openpyxl-3.0.10-1.5.noarch.rpm"
+RPM_HASH = "e7c50ebc32bab13ed01b6cd44cfd2211a322bd860574c0813f702daaaa6f3a1e75540c2460be643d52fbeca347a5ae55630925de0a9503a8188cc09cac6ba5b7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-openpyxl \

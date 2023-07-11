@@ -2,12 +2,16 @@ SUMMARY = "A tiling window manager for adventurers"
 DESCRIPTION = "LeftWM is a tiling window manager written in Rust that aims to be stable and performant."
 LICENSE = "Apache-2.0 & (Apache-2.0 | BSL-1.0) & (Apache-2.0 | MIT) & (Apache-2.0 | MIT | MPL-2.0) & BSD-2-Clause & BSD-3-Clause & (MIT | Unlicense)"
 
-PV = "0.4.0+git56"
+PV = "0.4.2"
 
-RPM_NAME = "leftwm-0.4.0+git56-1.2.aarch64.rpm"
-RPM_HASH = "474d61525a948157057d54c2cdd11c1bfad53668324e1ab36031b32169aa272559baf4d2a16cbe7ab2c2aaa89276b3b8fd089fa5e237b6d0489a93891c1c57e8"
+RPM_NAME = "leftwm-0.4.2-1.1.aarch64.rpm"
+RPM_HASH = "83b1a71f3b7535ad919bc10116a78be4538093abd64e751d6e4fd95f1ad140afb18cd566cc209be86d6f2f0bc83952422f7813005c150ba24f99f0c9e8bf7bb0"
 
 RPROVIDES:${PN} += "bundled-rust-crate-aho-corasick \
+bundled-rust-crate-anstream \
+bundled-rust-crate-anstyle \
+bundled-rust-crate-anstyle-parse \
+bundled-rust-crate-anstyle-query \
 bundled-rust-crate-anyhow \
 bundled-rust-crate-anymap2 \
 bundled-rust-crate-autocfg \
@@ -17,7 +21,9 @@ bundled-rust-crate-block-buffer \
 bundled-rust-crate-bytes \
 bundled-rust-crate-cfg-if \
 bundled-rust-crate-clap \
+bundled-rust-crate-clap-builder \
 bundled-rust-crate-clap-lex \
+bundled-rust-crate-colorchoice \
 bundled-rust-crate-const-format \
 bundled-rust-crate-const-format-proc-macros \
 bundled-rust-crate-cpufeatures \
@@ -29,6 +35,7 @@ bundled-rust-crate-dirs-sys \
 bundled-rust-crate-dirs-sys-next \
 bundled-rust-crate-doc-comment \
 bundled-rust-crate-either \
+bundled-rust-crate-equivalent \
 bundled-rust-crate-futures \
 bundled-rust-crate-futures-channel \
 bundled-rust-crate-futures-core \
@@ -41,6 +48,9 @@ bundled-rust-crate-futures-util \
 bundled-rust-crate-generic-array \
 bundled-rust-crate-git-version \
 bundled-rust-crate-git-version-macro \
+bundled-rust-crate-hashbrown \
+bundled-rust-crate-home \
+bundled-rust-crate-indexmap \
 bundled-rust-crate-io-lifetimes \
 bundled-rust-crate-is-terminal \
 bundled-rust-crate-itertools \
@@ -67,7 +77,7 @@ bundled-rust-crate-num-cpus \
 bundled-rust-crate-num-threads \
 bundled-rust-crate-num-traits \
 bundled-rust-crate-once-cell \
-bundled-rust-crate-os-str-bytes \
+bundled-rust-crate-option-ext \
 bundled-rust-crate-overload \
 bundled-rust-crate-percent-encoding \
 bundled-rust-crate-pest \
@@ -79,8 +89,6 @@ bundled-rust-crate-pin-utils \
 bundled-rust-crate-pkg-config \
 bundled-rust-crate-proc-macro-hack \
 bundled-rust-crate-proc-macro2 \
-bundled-rust-crate-proc-quote \
-bundled-rust-crate-proc-quote-impl \
 bundled-rust-crate-quote \
 bundled-rust-crate-regex \
 bundled-rust-crate-regex-automata \
@@ -91,6 +99,7 @@ bundled-rust-crate-ryu \
 bundled-rust-crate-serde \
 bundled-rust-crate-serde-derive \
 bundled-rust-crate-serde-json \
+bundled-rust-crate-serde-spanned \
 bundled-rust-crate-sha2 \
 bundled-rust-crate-sharded-slab \
 bundled-rust-crate-shellexpand \
@@ -102,7 +111,6 @@ bundled-rust-crate-socket2 \
 bundled-rust-crate-static-assertions \
 bundled-rust-crate-strsim \
 bundled-rust-crate-syn \
-bundled-rust-crate-termcolor \
 bundled-rust-crate-thiserror \
 bundled-rust-crate-thiserror-impl \
 bundled-rust-crate-thread-local \
@@ -112,6 +120,8 @@ bundled-rust-crate-time-macros \
 bundled-rust-crate-tokio \
 bundled-rust-crate-tokio-macros \
 bundled-rust-crate-toml \
+bundled-rust-crate-toml-datetime \
+bundled-rust-crate-toml-edit \
 bundled-rust-crate-tracing \
 bundled-rust-crate-tracing-attributes \
 bundled-rust-crate-tracing-core \
@@ -123,7 +133,9 @@ bundled-rust-crate-ucd-trie \
 bundled-rust-crate-unicode-ident \
 bundled-rust-crate-unicode-segmentation \
 bundled-rust-crate-unicode-xid \
+bundled-rust-crate-utf8parse \
 bundled-rust-crate-version-check \
+bundled-rust-crate-winnow \
 bundled-rust-crate-x11-dl \
 bundled-rust-crate-xdg \
 bundled-rust-crate-xlib-display-server \

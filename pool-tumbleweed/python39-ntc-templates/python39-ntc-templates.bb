@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.1.0"
 
-RPM_NAME = "python39-ntc-templates-3.1.0-1.3.noarch.rpm"
-RPM_HASH = "8f6142908dad8aebe8c8f1716879797e899fc6af65b079c1984c9e49edce9cef39149bc480002b5fc3cf41bed0769b1af2e735b7df59091fc8f5de174272b187"
+RPM_NAME = "python39-ntc-templates-3.1.0-1.5.noarch.rpm"
+RPM_HASH = "b9046cb8f713407ea39533be21651dd48acb420ed426a0e88f18c4a8a95d0a6ddb0c58e24e2b125054a08df0e496c024d91c48940b8e871d0a568db9d9440969"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-ntc-templates \

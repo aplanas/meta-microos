@@ -12,11 +12,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "3.0.2"
 
-RPM_NAME = "python311-invocations-3.0.2-1.1.noarch.rpm"
-RPM_HASH = "e24245ce420ae74e9bceb8a785c884cf3aefb12ed21d6c24e4cc9d7ad54772ab942d0cd65f2c2de46e60675783dac752e41ff70da7387696dc2c1e4f934f6a40"
+RPM_NAME = "python311-invocations-3.0.2-2.3.noarch.rpm"
+RPM_HASH = "4602940c7706283b5dcd1226d5b997483a92c930df2fcfcd6460812d34f1192e5cb5235cc19a7524065af9b567a4b0cbda20b462c25c77acb516b37ed9b625cf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-invocations \
+RPROVIDES:${PN} += "python3-invocations \
+python3.11dist-invocations \
 python311-invocations \
 python3dist-invocations"
 
@@ -26,7 +27,6 @@ python311-invoke \
 python311-lexicon \
 python311-releases \
 python311-semantic-version \
-python311-six \
 python311-tabulate \
 python311-tqdm \
 python311-twine \

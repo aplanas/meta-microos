@@ -8,15 +8,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.01"
 
-RPM_NAME = "perl-Test-Metrics-Any-0.01-1.12.noarch.rpm"
-RPM_HASH = "5a04f1aa4ef77a77eb45fa526c4162a7197985b9c1b2414cda5f722edf0b6babfe7576e10484b9d353885231b771ce47b8cb160cd33092e8a6dba020e79d00f5"
+RPM_NAME = "perl-Test-Metrics-Any-0.01-1.13.noarch.rpm"
+RPM_HASH = "90a34bf1509e64231c120467ed0c1496ed2b9616991a2154cd1530d5634059d0c713f0371b5b68f8bd75be1769979cd1510169fd51846676529ee12067cbd4ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Metrics--Any \
 perl-Test--Metrics--Any---predicate \
 perl-Test-Metrics-Any"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Metrics--Any--Adapter \
 perl-Metrics--Any--Adapter--Test"
 

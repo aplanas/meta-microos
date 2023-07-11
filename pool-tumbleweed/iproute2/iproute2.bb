@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "6.3"
 
-RPM_NAME = "iproute2-6.3-1.1.aarch64.rpm"
-RPM_HASH = "a89e34983143e9a2f104e3730a9018e102a5066713be1cacd97a88597e325b01414628752feb2bb237d317be6b0c3b577f21ff3d3d4834963146b1c5e8bd22c8"
+RPM_NAME = "iproute2-6.3-1.2.aarch64.rpm"
+RPM_HASH = "823e90e0d1d13cbf077d972eaffa0eab773972ed19cf335fd48caee6ab10c08d3ed9c1634ce6ba3bae99a1d4f952c5043c5b438c02627c236a95fc342942ad07"
 
 RPROVIDES:${PN} += "/sbin/ip \
 config-iproute2 \

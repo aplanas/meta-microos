@@ -18,12 +18,12 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2022.12.11+git.1675870044.c7a87f3"
 
-RPM_NAME = "epy-2022.12.11+git.1675870044.c7a87f3-1.3.noarch.rpm"
-RPM_HASH = "2e10c834aab1396691fc2f9d662ce0d3ba1e0f797cdbfa5d6139cc694f76c66e9def5e686be66fae4604401a48d5306de540803dadaba866d4b77d85cd7ac1e5"
+RPM_NAME = "epy-2022.12.11+git.1675870044.c7a87f3-1.4.noarch.rpm"
+RPM_HASH = "3b8e3042dd9007f18f315f94851babbf4e9cc30b3acb062ccbc9b13a85131792e70e5e472e2b11849ffcbe9d43341a0c0bdd305de21491d73dc31c76b12e9df8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "epy \
-python3.10dist-epy-reader \
+python3.11dist-epy-reader \
 python3dist-epy-reader"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

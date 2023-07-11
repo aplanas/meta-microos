@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.8.7"
 
-RPM_NAME = "ocfs2-tools-o2cb-1.8.7-7.3.aarch64.rpm"
-RPM_HASH = "8eeab0f47b1b33c2698463b8a7c7ae9f793ad80ab4b73367ff2cc19bdd0a4c6ba25978ad1a374931b5907aaba6052f67aeba2aebe38f31464b3bc440bbe186b1"
+RPM_NAME = "ocfs2-tools-o2cb-1.8.7-7.5.aarch64.rpm"
+RPM_HASH = "24ffc86f3a606cf1fa80acb04c97da81babdf87add925619d70b4f01dc0aa2484636714d7729f18a2f27afaddd9d993e670fcede5bccf6693b3f171e9f21becc"
 
 RPROVIDES:${PN} += "ocfs2-tools-o2cb"
 

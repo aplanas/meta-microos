@@ -5,8 +5,8 @@ LICENSE = "CNRI-Python"
 
 PV = "4.2"
 
-RPM_NAME = "python39-Durus-4.2-1.10.aarch64.rpm"
-RPM_HASH = "ff360b77403cf54eb51c4a8eab9447e68520d11336af37f001cc1fa2f172b6bfb605b42243bc0bcadb7db29948aac4d07e20c3bc09a1c1b2683fe709cd773c3c"
+RPM_NAME = "python39-Durus-4.2-1.12.aarch64.rpm"
+RPM_HASH = "2c206f54386493945c39c9fbf408256a04733d3eb647a447fd2f3c67011404bdf2fe39d5951ca63fc0f3ef07b3fba938e3f1abfed2da1f87ae7da568c6d6ed22"
 
 RPROVIDES:${PN} += "python3.9dist-durus \
 python39-Durus \

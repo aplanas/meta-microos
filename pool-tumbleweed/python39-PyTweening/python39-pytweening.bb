@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.4"
 
-RPM_NAME = "python39-PyTweening-1.0.4-1.3.noarch.rpm"
-RPM_HASH = "eefdb89224cbad6df2be0c7d1aa1f5c0c2969295c6d0c43710c8e31b7c3630465ea7ea5ab177b413fded24d1271130dc268ce33249c7650a9f81f1b5399a0059"
+RPM_NAME = "python39-PyTweening-1.0.4-1.4.noarch.rpm"
+RPM_HASH = "fb9acc21783cb0d31b9890bab734d0c799dd8225e9fea676aa014819f9d772698c4cbe5ae4f37d94068486769c455e058daa8571e421f89969e911df6450ca42"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytweening \

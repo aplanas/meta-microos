@@ -9,12 +9,12 @@ the following features: \
   * an extended parser that supports the CardinalityField naming schema \
     and creates missing type variants (0..1, 0..*, 1..*) from the \
     primary type converter"
-LICENSE = "BSD-3-Clause"
+LICENSE = "MIT"
 
-PV = "0.6.0"
+PV = "0.6.1"
 
-RPM_NAME = "python39-parse_type-0.6.0-1.7.noarch.rpm"
-RPM_HASH = "2ef47000ef20749448ffa62d973bfa2bf4c49bfd8d10a37cf7a2cc2be625f441aaf9b03d8adde8ae8ff64d00ec07fd05a7f5932c6c3926b902cd5565437f27f4"
+RPM_NAME = "python39-parse_type-0.6.1-1.1.noarch.rpm"
+RPM_HASH = "bd83c923f15a1243ddd3f1db300268805c6ea08587ee617a62610f6bc98a09943e7eb1180c7ce89356cb52407184d2f73ad49480343407eb59957f4fe2035330"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-parse-type \

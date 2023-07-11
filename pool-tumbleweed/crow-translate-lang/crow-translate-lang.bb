@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.10.0"
 
-RPM_NAME = "crow-translate-lang-2.10.0-1.4.noarch.rpm"
-RPM_HASH = "d1adf52b32735333fe7bf15261ea92a6cb9e25237623d3edd58a56c76f3e86d903b36508e8e3199be05967d8eaec4668fb8909c1905c0b2394cde4e0226c0459"
+RPM_NAME = "crow-translate-lang-2.10.0-1.5.noarch.rpm"
+RPM_HASH = "b0aac671ab1f45ccb9cd9b90e8003584f37059b1319a8e4041268d5deefbfd334bfe825066f64d7365045406e3cd3bf65d40a59eb1656beecda768906cd05efd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "crow-translate-lang \

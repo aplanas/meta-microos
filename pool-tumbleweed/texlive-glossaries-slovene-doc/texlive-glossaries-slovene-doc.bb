@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.0svn51211"
 
-RPM_NAME = "texlive-glossaries-slovene-doc-2023.201.1.0svn51211-53.1.noarch.rpm"
-RPM_HASH = "6089348848a526186178876181e88637bea0c9e14fa706caed37bc0342b7182e7d569f8cb883df2c7f0c16253bd688eef19d3c5ae320e4aa64b288c697ba2ef1"
+RPM_NAME = "texlive-glossaries-slovene-doc-2023.201.1.0svn51211-53.2.noarch.rpm"
+RPM_HASH = "1847f748a9a8ef26c87a86f8d28a0c139bbfa2cab2e462f43dcc838c0b6a78b862c763a02558a7c81a711343f8fbc4e85b8858d7d1c542d9609993e6624e3374"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-glossaries-slovene-doc"

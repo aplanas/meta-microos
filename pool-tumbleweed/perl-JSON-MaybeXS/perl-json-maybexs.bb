@@ -15,14 +15,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.004005"
 
-RPM_NAME = "perl-JSON-MaybeXS-1.004005-1.1.noarch.rpm"
-RPM_HASH = "929dc6c9a699114bf77d3b89bcd43b8b2f1766a597b1c642bf60054275a8498210b9fe0326a288d2d2c460a7245d453cbb879e540cd7c06bd611ecd3adf603ef"
+RPM_NAME = "perl-JSON-MaybeXS-1.004005-1.2.noarch.rpm"
+RPM_HASH = "5a0514642fc53cfa3157792bace79e9979a0700823067170258bc128a3dfb5158d447dc7ddc4183b3c9cac3897d82e24b72bb5a338df67f2f8ed5dba53939210"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-JSON--MaybeXS \
 perl-JSON-MaybeXS"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Cpanel--JSON--XS \
 perl-JSON--PP"
 

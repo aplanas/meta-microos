@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.5.22"
 
-RPM_NAME = "libdframeworkdbus-devel-5.5.22-1.6.aarch64.rpm"
-RPM_HASH = "5d40c8d87ba846a2f9177b0ffb5ac417dfb3b3f19d80f8ad0dc66d836e8a3c076bfa85527be0dd2abdac79effe5786652ab965d9486ab6e6ec27102f221eb7d8"
+RPM_NAME = "libdframeworkdbus-devel-5.5.22-1.7.aarch64.rpm"
+RPM_HASH = "13d31085f0955c600fdd307c1c1eba0530741577722251c61a06badcd0f0c1cec77b6a964bf1fe49e6c72cc39154764a31ec369b9c8d280675ddce835b7339eb"
 
 RPROVIDES:${PN} += "cmake-DFrameworkdbus \
 libdframeworkdbus-devel \

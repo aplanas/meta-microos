@@ -10,8 +10,8 @@ LICENSE = "NetCDF"
 
 PV = "1.12.3"
 
-RPM_NAME = "pnetcdf_1_12_3-gnu-mpich-hpc-devel-static-1.12.3-1.3.aarch64.rpm"
-RPM_HASH = "c385165cf4e0f5efae9e6e8070e070196c8bbf65d4ccc44533b5dedd2505796dc1894655c842644ae9fc4b56da742152d231a3b1a9ffc6420d46fdefbd1dc9e3"
+RPM_NAME = "pnetcdf_1_12_3-gnu-mpich-hpc-devel-static-1.12.3-1.4.aarch64.rpm"
+RPM_HASH = "ea7dd41cf5734d259021b189b341ffe85c36edf0197648f55c428b40a6617e37c8c3510b2bed237c7152dc620da5cae76980342be627ae4c0a2caba093e09fae"
 
 RPROVIDES:${PN} += "pnetcdf-1-12-3-gnu-mpich-hpc-devel-static"
 

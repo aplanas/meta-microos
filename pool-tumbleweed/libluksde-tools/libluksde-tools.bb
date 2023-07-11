@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20221103"
 
-RPM_NAME = "libluksde-tools-20221103-3.9.aarch64.rpm"
-RPM_HASH = "15cca15ea07cadccf3e3d89e3bea6e9ded2a4b23dc8cc87575c710aef2e1e4b83cb1ab155f32e36588449748541723ab61ce5136d074689681d2d6374ddcc610"
+RPM_NAME = "libluksde-tools-20221103-3.11.aarch64.rpm"
+RPM_HASH = "a28a1643c8b8b6a00726d1c4dfff283186fcbfa4726eedd1a3402c89676d68c0511328aa20b736a4bf4426ce03876c2f6024e7388a6ecce092d0a53937e35ad1"
 
 RPROVIDES:${PN} += "libluksde-tools"
 

@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "20200726"
 
-RPM_NAME = "python39-pdfminer.six-20200726-3.1.noarch.rpm"
-RPM_HASH = "913f95374c69a0b496e5e706d2ac4c31e3005f72ce6d868a5eefb899d25586aa17e151b2dabb1cca69478589f1619234bfa331a70399ae1ffcb9551565d7c527"
+RPM_NAME = "python39-pdfminer.six-20200726-3.3.noarch.rpm"
+RPM_HASH = "68e27976e3b46d1addb12ad406ca6f3234089551a071104022c5451c87e9d2d5264ff57a7cf31be28bfbe03e251ec22f14d82ebaa56fc67c8933214771d42eff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pdfminer.six \

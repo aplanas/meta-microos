@@ -7,12 +7,11 @@ LICENSE = "MIT"
 
 PV = "1.0.4"
 
-RPM_NAME = "python310-PubChemPy-1.0.4-1.12.noarch.rpm"
-RPM_HASH = "abf9f03bed100e94d09eb0ab78c0dc3832849efddde23dae1fb49787df2fc5af784800f88c55fd92fb8011ed6b38bef6f8d6144a196ccb86113afef96ef81aaa"
+RPM_NAME = "python310-PubChemPy-1.0.4-1.14.noarch.rpm"
+RPM_HASH = "13deccb211cb33d552c9c989d5013267653ea59d65063ed1257da54497c7bb1628953c551232ee5b49a26eb8d707dc26ee19c061bda83ba2aceea26d32b85159"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-PubChemPy \
-python3.10dist-pubchempy \
+RPROVIDES:${PN} += "python3.10dist-pubchempy \
 python310-PubChemPy \
 python3dist-pubchempy"
 

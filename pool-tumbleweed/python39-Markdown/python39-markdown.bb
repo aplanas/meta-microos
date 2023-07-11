@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.4.3"
 
-RPM_NAME = "python39-Markdown-3.4.3-1.2.noarch.rpm"
-RPM_HASH = "46e5450fbeb284c869e8f134cf1a2e5850b0b7048cf59df3e2de5c0c8457428945607e0cca30cd3468887f60c34581c4f428602220aae1538a3b3760a1cc040f"
+RPM_NAME = "python39-Markdown-3.4.3-2.1.noarch.rpm"
+RPM_HASH = "b192718046971d5b764275cc4ae2df8462079ead95af0812f08a21a78a36d2e8e24b96cf43f3c22d8b244585d2ff6e62dcca30c9e97d283a13b76b373224241f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-markdown \

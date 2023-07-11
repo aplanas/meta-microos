@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "2.7.1"
 
-RPM_NAME = "octave-nlopt_optimize-2.7.1-3.14.aarch64.rpm"
-RPM_HASH = "2e5b832eeb7218e3f46a40d3bc7d4c69c1c2f2b7971477cbab7683f1bcba7626d8efa3e087a79fe6f59bf6f26a943bde12546d4d1a0ad5b3366a847dc314a13c"
+RPM_NAME = "octave-nlopt_optimize-2.7.1-3.15.aarch64.rpm"
+RPM_HASH = "8e6b34e11c0999e9c9caa658b4c5feab630f3209187d1a2d2f5eeb864b5edcb189e5940e3a1faaf57014fc364d83396db733ba9ebdea6c96006919f817f43e69"
 
 RPROVIDES:${PN} += "octave-nlopt-optimize"
 

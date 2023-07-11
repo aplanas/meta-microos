@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "44.0.1"
 
-RPM_NAME = "libcheese-gtk25-44.0.1-1.1.aarch64.rpm"
-RPM_HASH = "1343fceca536e574289fc2ab0cd51642a8e8356e23bb264cd74900293b432f683d710ad43b31df9aba560fefee40714f83d2e2032a0cf917ae0b595634882056"
+RPM_NAME = "libcheese-gtk25-44.0.1-1.2.aarch64.rpm"
+RPM_HASH = "aca58b6a01c8eeedc50274df0fa919cbd176daae3060351ba20476c8b4ba2980df2dc11669c73e6df4ee957fbbfb150640c5d97d045d5dae29ed2802fe1ffd9a"
 
 RPROVIDES:${PN} += "libcheese-gtk.so.25 \
 libcheese-gtk25"

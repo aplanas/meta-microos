@@ -7,8 +7,8 @@ LICENSE = "Python-2.0"
 
 PV = "2.4.0"
 
-RPM_NAME = "python39-flickrapi-2.4.0-3.4.noarch.rpm"
-RPM_HASH = "c78cb950050e1c0822079e676c68465c4c392ef87c06bc8ef66e7d7b2e0bc0d7859161c91bc911624a950b494d37f671ffd79e8ae6fbbc1ea7b80c5dc5558f56"
+RPM_NAME = "python39-flickrapi-2.4.0-3.6.noarch.rpm"
+RPM_HASH = "5095df85d7a0a34b92b2a50fc6e17ee860cfee88eaa107ae3d09a5489f69827c4a7b266949a43b8a18293f76b598da1cb059fbcd9966e0ca39f1b67445e81ee8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-flickrapi \

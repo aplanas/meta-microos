@@ -5,8 +5,8 @@ LICENSE = "AGPL-3.0-only"
 
 PV = "0.6.7.5~git81.01be570"
 
-RPM_NAME = "velociraptor-kafka-humio-gateway-0.6.7.5~git81.01be570-3.2.aarch64.rpm"
-RPM_HASH = "451758024fb90daa7e9c890f16e5d20ec0ef241f557d88f605a871cc4dc10f2cb179162a949ae62ca65299f514c66fc9b89986082fa8756ec0581998a9cc2295"
+RPM_NAME = "velociraptor-kafka-humio-gateway-0.6.7.5~git81.01be570-3.3.aarch64.rpm"
+RPM_HASH = "2e9e1e0171cdbecf93887cdff466752d596c4dffa4d7901a8aba90f40c37cb8d3fd46ae5918a3eafeb3b756f704c04c16bee6e1e8e9273712112499af5ad3ad8"
 
 RPROVIDES:${PN} += "config-velociraptor-kafka-humio-gateway \
 group-velociraptor-kafka \

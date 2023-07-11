@@ -3,10 +3,10 @@ DESCRIPTION = "The Xfce Color Profile settings tool is a front-end to set up col
 for printers, scanners, and displays."
 LICENSE = "GPL-2.0-only & GPL-2.0-or-later"
 
-PV = "4.18.2"
+PV = "4.18.3"
 
-RPM_NAME = "xfce4-settings-color-4.18.2-1.3.aarch64.rpm"
-RPM_HASH = "55229d2568ce2e3eaa9cd084aeaf7a47e7842559bf79e56df2b71490d077d61acd9e483ae1719e6ce211bc5c4c74f4845cfbb28691e82f585858c1811aa77514"
+RPM_NAME = "xfce4-settings-color-4.18.3-1.1.aarch64.rpm"
+RPM_HASH = "ce60e25f82863742deaa14f52b4ae3f50ab6891e69aa7269b7e0a6fa5e90cf080bfd6ada9733e594558717c1f816de0dcfeb8bf1f89d5e85efc8e609da646b6f"
 
 RPROVIDES:${PN} += "xfce4-color-settings \
 xfce4-settings-color"

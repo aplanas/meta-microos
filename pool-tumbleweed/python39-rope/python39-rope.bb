@@ -15,8 +15,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.6.0"
 
-RPM_NAME = "python39-rope-1.6.0-1.4.noarch.rpm"
-RPM_HASH = "d879b7ba5f47f799d15f543d7e9553c424862b911e8794a1010064774e12eb2d47d9b35fda9319a92f2f7b7509d0f4b3179fdc4c41f38ff0d2c295b1b935bc34"
+RPM_NAME = "python39-rope-1.6.0-1.6.noarch.rpm"
+RPM_HASH = "a0b51811fb438637eddc2a0953afd7976147497f913256e6f1390e94bc3fefcede46e4889de8684f6a50df5c9e883e6fb86a0556fff989fe370749b2fa196043"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-rope \

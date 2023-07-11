@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "44.0.1"
 
-RPM_NAME = "libcheese-common-44.0.1-1.1.noarch.rpm"
-RPM_HASH = "0d21b912e21c2b482baf9ed6d3e03182537d80a91ac905230b421ed6a434dfc549466941819f17393572e49f7067ba5f4c1880c070f812fdf179d4f28c40c19e"
+RPM_NAME = "libcheese-common-44.0.1-1.2.noarch.rpm"
+RPM_HASH = "203e0cc7c5d779eb250482657ea8c90d85c1bee102afcbaf7e0c98cd2098412fc34abf4475867088fec2ce2e7c965f982d8a5ebbfd348ef2a7b62cb08049b1c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libcheese-common"

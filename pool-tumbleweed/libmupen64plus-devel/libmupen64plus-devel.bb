@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.5.9"
 
-RPM_NAME = "libmupen64plus-devel-2.5.9-2.8.aarch64.rpm"
-RPM_HASH = "f50d72359a0fb0a406c3bb8263dfe4fe93636532dabb7140285ea0e4ee23f9e2c160461b39c1670e3e9908bf771b76364ada69094f3be9638a3d8c068f18c44a"
+RPM_NAME = "libmupen64plus-devel-2.5.9-2.9.aarch64.rpm"
+RPM_HASH = "3b807ec5ff5c5dfe14124b2f0ae0af1cc1d5d77cc397397370d22c97807c21be079999b024953e53703484e876f0ad0cf98cb81e49112278dc13f93e189d7502"
 
 RPROVIDES:${PN} += "libmupen64plus-devel"
 

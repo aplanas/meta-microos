@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "0.4.1"
 
-RPM_NAME = "python310-curtsies-0.4.1-1.3.noarch.rpm"
-RPM_HASH = "ac4f7e5c0fe9b52cbbecf8986a49b420da4cd904a5a2d138fc94acaa037d4eaad0766c09330059d9fc257ac97a2da879a606f3965be7fdab5196692b9d7ad64f"
+RPM_NAME = "python310-curtsies-0.4.1-1.5.noarch.rpm"
+RPM_HASH = "34a5aa8d4a6358fdac3952321d71e6c6e4c4ef8e875284a91da790fcb58a21c417669b1cbeeadb714683e9b76a8841083be959cb47eff49080548dcadc6e3553"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-curtsies \
-python3.10dist-curtsies \
+RPROVIDES:${PN} += "python3.10dist-curtsies \
 python310-curtsies \
 python3dist-curtsies"
 

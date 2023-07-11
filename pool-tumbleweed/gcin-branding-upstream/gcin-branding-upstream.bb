@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "2.9.0"
 
-RPM_NAME = "gcin-branding-upstream-2.9.0-4.16.aarch64.rpm"
-RPM_HASH = "1ff990a72f40df6fbb74f8a0adeb2360a2d580f8b471e545c00360a1ad4a2f1bb9629d8b7a5353e075c7803bdb013e260d07a351087ee357d177cbd23d3565e4"
+RPM_NAME = "gcin-branding-upstream-2.9.0-4.18.aarch64.rpm"
+RPM_HASH = "22a4c22cbd9204f21bc7c85f17faa526f9366c0757b77cc5121aa1a1970d02078196fb90858695116375594a292c257e146ce0973e0ec9244a226a0721ee41e0"
 
 RPROVIDES:${PN} += "gcin-branding \
 gcin-branding-upstream"

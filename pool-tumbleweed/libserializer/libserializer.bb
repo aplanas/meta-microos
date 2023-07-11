@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.1.6"
 
-RPM_NAME = "libserializer-1.1.6-1.4.noarch.rpm"
-RPM_HASH = "22b15ea01b02d297b8c98b41c103dde27dc53c66df0b3141488fc7921dad94b9d95d722dd66f4bb6490a357e2a24d9edba53909213f7c221b0ef644e80692444"
+RPM_NAME = "libserializer-1.1.6-1.5.noarch.rpm"
+RPM_HASH = "4b00dcbb461315eb4ead34f3a940034e1c13b2a63304b5c1a164729be7f42ee887388d017b252f490c2d0bdbba241c27f1d736db29e9951dafbc6b31ef2bc4e0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libserializer"

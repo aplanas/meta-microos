@@ -6,14 +6,14 @@ LICENSE = "LGPL-2.1 & LGPL-3.0 & CC-BY-SA-3.0 & GPL-2.0 & BSL-1.0 & BSD-3-Clause
 
 PV = "16.2.13.66+g54799ee0666"
 
-RPM_NAME = "ceph-osd-16.2.13.66+g54799ee0666-2.1.aarch64.rpm"
-RPM_HASH = "3870b86639ecc4db246beb5307bf2d2f6e953c329787bdfaaf39a9bbcaa15f1292af34f4c62cf6fb1e08c7dbf95b5c2deb23c1a1d56eee5752a1d44502be1609"
+RPM_NAME = "ceph-osd-16.2.13.66+g54799ee0666-3.1.aarch64.rpm"
+RPM_HASH = "bfc6a9fd9975ec90806209a26e34ca9b3dec10849f94e9249f9c8fccc3b51f872a6e6bfcad26649709a3ed5c22c8ccdd947cb55eb2c786f4a015eb4e5ffc67ae"
 
 RPROVIDES:${PN} += "ceph-osd \
 ceph-test-/usr/bin/ceph-osdomap-tool \
 config-ceph-osd"
 
-RDEPENDS:${PN} += "/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
 /usr/bin/sh \
 ceph-base \
 ld-linux-aarch64.so.1 \

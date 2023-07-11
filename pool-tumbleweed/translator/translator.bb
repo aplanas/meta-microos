@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.4.1"
 
-RPM_NAME = "translator-1.4.1-1.19.aarch64.rpm"
-RPM_HASH = "56112791f43c091cb68c46e1cb8ca6e130fe9363bb2a77ab20941d1451edae818ffbb1a73cbbab4cb6388d44469b6544aeee660d2a68203d45e146aa2e655948"
+RPM_NAME = "translator-1.4.1-1.20.aarch64.rpm"
+RPM_HASH = "f31689d23850d62e3e5fd7a78cfd622973050f62fa8e6f8a9bf892b7e2379702dacc4b159c6daf4ab9f8a04bc095cbdcd13a03d075a5a387acc79b3c18544f2b"
 
 RPROVIDES:${PN} += "translator"
 

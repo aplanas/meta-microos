@@ -11,11 +11,12 @@ LICENSE = "MIT"
 
 PV = "1.0.0.0"
 
-RPM_NAME = "python311-azure-ai-metricsadvisor-1.0.0.0-1.8.noarch.rpm"
-RPM_HASH = "cadec8259153fc3995c122e106e2867762b375f0b9030a55169344ab378d1566326f17544a1c72e1f7c9bf6d887237f26fab245a3943eb8be944f96e96047e06"
+RPM_NAME = "python311-azure-ai-metricsadvisor-1.0.0.0-1.9.noarch.rpm"
+RPM_HASH = "bedf705e790d30948ed16c1343144dee01adaa748c853af957866c113c92825414ed00eb334bb757aae913b9b23f5f1d2b0a82d5984e6cf9211c15891712c65f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-ai-metricsadvisor \
+RPROVIDES:${PN} += "python3-azure-ai-metricsadvisor \
+python3.11dist-azure-ai-metricsadvisor \
 python311-azure-ai-metricsadvisor \
 python3dist-azure-ai-metricsadvisor"
 

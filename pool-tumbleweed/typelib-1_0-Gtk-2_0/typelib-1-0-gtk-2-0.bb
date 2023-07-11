@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.24.33"
 
-RPM_NAME = "typelib-1_0-Gtk-2_0-2.24.33-4.3.aarch64.rpm"
-RPM_HASH = "5ae290ba61b2724d982ab1f84f4bc173a456d7dbf26f72b5006100ce6410d315ae955df2d59e16842cd67883f582cea0b7394ed8c82a1944da0bd55d6eff7c63"
+RPM_NAME = "typelib-1_0-Gtk-2_0-2.24.33-4.4.aarch64.rpm"
+RPM_HASH = "f7fe7835631f7b994fa35b295375473f1817bf0ac89078ac86afab1d7b47105c9807f5e9095bad5bbd2c55defcc846b9bedcbd8ea382f4d5173604facb1376ea"
 
 RPROVIDES:${PN} += "typelib-1-0-Gtk-2-0 \
 typelib-Gdk \

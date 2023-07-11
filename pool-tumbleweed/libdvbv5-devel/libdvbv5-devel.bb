@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.24.1"
 
-RPM_NAME = "libdvbv5-devel-1.24.1-1.3.aarch64.rpm"
-RPM_HASH = "2ddf32ced7aa3bac20137244eeab739be61b8769160c551050e2baa7c3fd1078ad27f07a998c4b3009af987effcf925849d5578197c1de5f8c917b52bc4c0e0a"
+RPM_NAME = "libdvbv5-devel-1.24.1-1.4.aarch64.rpm"
+RPM_HASH = "784dc7bc4022daf131a89671c8360cc44a5f4f5ce2c792e55cf06f4e648e02e248fe827acbbe99e3529e938449fd2991356c1f833d1495ef91421b4d81b67ec5"
 
 RPROVIDES:${PN} += "libdvbv5-devel \
 pkgconfig-libdvbv5"

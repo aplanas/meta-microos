@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.20.5"
 
-RPM_NAME = "typelib-1_0-Secret-1-0.20.5-1.7.aarch64.rpm"
-RPM_HASH = "4477f5165def4cfb68494caf7879dc8b44d44598291a717471cb8e65f46bb3c95a082d80b24d5cb2d431217730a20232ad3d6988dbc6ebd73f83b3a68e5bd74b"
+RPM_NAME = "typelib-1_0-Secret-1-0.20.5-1.8.aarch64.rpm"
+RPM_HASH = "d238679066a17062a764da8f7a6f20b712b2ab1f4f0d010a998098bee48beb61bc4c0647d1263f38d7cfc421c2eac64519f177459914091bae4dc95a3c8ad338"
 
 RPROVIDES:${PN} += "typelib-1-0-Secret-1 \
 typelib-Secret"

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.28.1"
 
-RPM_NAME = "genders-base-1.28.1-2.3.aarch64.rpm"
-RPM_HASH = "eaff6cd9a61d217e3b5e622dc925f0cfb0176d031ed544e94240b31e3997a07acc0444ea8a82efd49f842a5d9b9f602b8e72652d9ab02734fef0644920db6cda"
+RPM_NAME = "genders-base-1.28.1-2.5.aarch64.rpm"
+RPM_HASH = "bd34e8293e0e3b50c43508609c562d017cc1263e6f0329f0043ab823ba9bda188c846df19fffd7ecb577f07928a3dd3c1b2375bbc8ac8cd55bc04d5980e2ea15"
 
 RPROVIDES:${PN} += "config-genders-base \
 genders-base"

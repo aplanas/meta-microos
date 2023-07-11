@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.1"
 
-RPM_NAME = "sendfax-1.2.1-9.3.aarch64.rpm"
-RPM_HASH = "1151c5a47b5cfae78b1c2b20d316a78e0b172fb5c35ea8be820442403c95cc85ccf51e4258056fc2cd5651db9fb06aed9aac08e36d72cae7b11c6c1d8e1e23ee"
+RPM_NAME = "sendfax-1.2.1-9.4.aarch64.rpm"
+RPM_HASH = "97a64111027af2629127f5f00b9fd1a6791998c3a2d2d17656582802ae045a161f00963dfc1151aac2464c53fa9815d0745edcca34dc59fe8194f92f7be90482"
 
 RPROVIDES:${PN} += "config-sendfax \
 fax-daemon \

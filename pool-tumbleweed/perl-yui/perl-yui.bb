@@ -12,8 +12,8 @@ LICENSE = "LGPL-2.1-only | LGPL-3.0-only"
 
 PV = "4.6.0"
 
-RPM_NAME = "perl-yui-4.6.0-1.1.aarch64.rpm"
-RPM_HASH = "7e2c6a313c8ac96dc90b2ef05c223abdafafb2ecedf2e4ed0e97c9f8669cb66d1df738cd7577802f64f91b6ddf80a3c0a1d8b8af2de57823f9df8f44fa672558"
+RPM_NAME = "perl-yui-4.6.0-1.3.aarch64.rpm"
+RPM_HASH = "668779daea2492ed909cd4a6feaf50ae1cee0e708ec706244836bf6d8df0c93e45be0d2a838466d4e004f686d2b861e134763f4ce18a3545f14eea4f903bc455"
 
 RPROVIDES:${PN} += "perl-yui \
 perl-yui--YAlignment \
@@ -135,6 +135,6 @@ libgcc-s.so.1 \
 libperl.so \
 libstdc++.so.6 \
 libyui.so.16 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

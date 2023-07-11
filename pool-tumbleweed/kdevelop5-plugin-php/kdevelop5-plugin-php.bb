@@ -15,10 +15,10 @@ web applications in PHP using Kdevelop5. \
     new, throw and some more"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kdevelop5-plugin-php-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "4eca5eaaf1475bc82f7f6ec9166a2ddfed6dc7563d06b64c83aebab69922ecfe6f56fbfb860a19648b13cd0597a77e6cccab9cb9b99cfbb54e8cc021dd8c79e2"
+RPM_NAME = "kdevelop5-plugin-php-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "3423b28b840aae2a1d858e39204cdc60cf3fa1f0007f4d009fd026a6fb36833c0aecb2671d4385c5116d8f1608bf58ce2b310adf535893a03d77facd407b9278"
 
 RPROVIDES:${PN} += "kdevelop5-plugin-php \
 libkdevphpcompletion.so \

@@ -9,8 +9,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2023.201.1.01svn56021"
 
-RPM_NAME = "texlive-horoscop-2023.201.1.01svn56021-53.1.noarch.rpm"
-RPM_HASH = "b1946d00752dc28f526f546abf8be15aef7fd2f9d4b427f09d57304f68a499d164f6c9ae1b16af6a7ddaae2213317c26bea883ee21ed9e7a5b1915f5ade094ff"
+RPM_NAME = "texlive-horoscop-2023.201.1.01svn56021-53.2.noarch.rpm"
+RPM_HASH = "36860bb27a85534e63d2c1dd38df6326e103a2a8b2871264be47fb216fb3eb924cd88a3818c67d788a33d68559fe64a9afa0da6066b9a71cc2fc0b44fa3dc1d8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-horoscop.sty \

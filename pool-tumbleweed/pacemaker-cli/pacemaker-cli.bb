@@ -7,10 +7,10 @@ to query and control the cluster from machines that may, or may not, \
 be part of the cluster."
 LICENSE = "GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "2.1.5+20230320.22590c566"
+PV = "2.1.6+20230524.6fdc9deea"
 
-RPM_NAME = "pacemaker-cli-2.1.5+20230320.22590c566-1.1.aarch64.rpm"
-RPM_HASH = "aad5d2653889b326bc0007a9953dc41a7464a95e009d1782b5f5ac0644efd3ed6e53029de43758983e9d1701de1a137e69edde2228a09d821975aa3d40b32ccd"
+RPM_NAME = "pacemaker-cli-2.1.6+20230524.6fdc9deea-1.1.aarch64.rpm"
+RPM_HASH = "9654901796d8a3bd0a7a47d9f131c81b454d4f46f8633a8e8f117e4faabe6367c089143779dfb93ed394c3bfef7a353f694dddaf911a38e18f4260bc93948d65"
 
 RPROVIDES:${PN} += "config-pacemaker-cli \
 pacemaker-cli"

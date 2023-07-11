@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.5.1"
 
-RPM_NAME = "python39-aiohttp-jinja2-1.5.1-1.3.noarch.rpm"
-RPM_HASH = "19e5b1a3993a88e91dffc0981671287d5da6aeee37d231b0d8a0d85d50e0f09d630df82923fed3596a6c9191674d0c33fe2a465787da409fd59c0faf14cac110"
+RPM_NAME = "python39-aiohttp-jinja2-1.5.1-2.1.noarch.rpm"
+RPM_HASH = "7a4619367a4c0653da2a2ee017d787ad8a601b6766dab554c325b5d00a5bfe74297d4bcf1a49ab1975182a78443211ad2bb888f06c7c6df809109ecde325aba6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-aiohttp-jinja2 \

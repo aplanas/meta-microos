@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.28.1"
 
-RPM_NAME = "libgnomekbd-devel-3.28.1-1.3.aarch64.rpm"
-RPM_HASH = "39368e243bc9d8c388f1963f03597504c7e3e74905abd6b058115cb6b3bef59df61c09f6141b001a0bcd21274a18186c7d301c76105f3409c9981d9a7efb8ed7"
+RPM_NAME = "libgnomekbd-devel-3.28.1-1.4.aarch64.rpm"
+RPM_HASH = "a2e2b2844f1f315765963f60a32dd5995cf0b7c846bf11e5463f4cb89f65bbf0f8e93a43d4053a9d5fa011ac82643d9cdab2b1cc98284f855ac7a96f8f37f976"
 
 RPROVIDES:${PN} += "libgnomekbd-devel \
 pkgconfig-libgnomekbd \

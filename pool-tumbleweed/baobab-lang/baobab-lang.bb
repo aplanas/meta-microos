@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "baobab-lang-44.0-1.1.noarch.rpm"
-RPM_HASH = "6d7a4dfc1ff0ee5b7eeecdc2034577d907c6d7a6fc2a38a88f790e7d82cfc7198772ce76a4fdb8d253753be4ec19ee8a6722f91bcf1aa1cfdc546d4e8c1acfd8"
+RPM_NAME = "baobab-lang-44.0-1.2.noarch.rpm"
+RPM_HASH = "e5f566fe53db629ef27565d4fede3014622afdda35e2d91d2c444eb9de9a2c5ab427a22e7f3e3fa91871eb7de3d2aa7a18cd1dd93ab3d9175cf4412beaafdd32"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "baobab-lang \

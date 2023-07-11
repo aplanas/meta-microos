@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gstreamer-plugins-bad"
 DESCRIPTION = "Provides translations for the 'gstreamer-plugins-bad' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.3"
+PV = "1.22.4"
 
-RPM_NAME = "gstreamer-plugins-bad-lang-1.22.3-1.1.noarch.rpm"
-RPM_HASH = "2bea37df11e2da28104c5b932e541b004577313875af09368b1743c96c6c864d74dc8ddccf0575f6d65a579422926f600ced134ce0aab66bd3f44f8a8144277b"
+RPM_NAME = "gstreamer-plugins-bad-lang-1.22.4-1.1.noarch.rpm"
+RPM_HASH = "3a4c5ff52c17ca6e74b1ba54ea18a4a0c786be6846af28e6e1e6cdd931b38bb0fb7aa90084a2a307c4cea1d5e83f8a0b0f3741ada7bdac9cbf1a4f2bd5d0f3ce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gstreamer-plugins-bad-lang \

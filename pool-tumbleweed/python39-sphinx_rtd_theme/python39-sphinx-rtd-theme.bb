@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0 & MIT & OFL-1.1"
 
 PV = "1.2.0"
 
-RPM_NAME = "python39-sphinx_rtd_theme-1.2.0-1.1.noarch.rpm"
-RPM_HASH = "6c0d81a4bdd48a4be25be98b8fc165a346b12bbb17074445d40951b149515bd1e9c0951a1aaa0ceee050a11daf4da443dfdb3db5b900f3d4019dba69edbfba8d"
+RPM_NAME = "python39-sphinx_rtd_theme-1.2.0-1.2.noarch.rpm"
+RPM_HASH = "c6a46a990ddd517da1a3e617e2b798e10710c14a5a69cf3ee04259136cd1f6c8fc77ea372475d7d6e8c63519e35e3649c52fca1baa61a94c6ed9c9b90c59f96e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sphinx-rtd-theme \

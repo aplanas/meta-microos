@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.2.1"
 
-RPM_NAME = "libsaml-devel-3.2.1-1.11.aarch64.rpm"
-RPM_HASH = "db65d9c89c21087d3fd26280b73b5dfdd7d2a64ead15aac18d3c819f10105c6d4f493c87229b19703c7d956e2954a99c8f31227dfc941232b3e6c4f1635a480c"
+RPM_NAME = "libsaml-devel-3.2.1-1.12.aarch64.rpm"
+RPM_HASH = "489c5b8d5f908ec0c159879433e19ffce512986724e2491b24d1424f27833c2e88fcf35ff15ee090afec0f21cd425d7872a5dd6283cc0b12c2c75a5571fc8ee0"
 
 RPROVIDES:${PN} += "libsaml-devel \
 opensaml-devel \

@@ -15,8 +15,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2022.9.0"
 
-RPM_NAME = "xyzservices-data-2022.9.0-1.5.noarch.rpm"
-RPM_HASH = "1d31b84682a72ff288adec8031ffdba2a7b65d5f9f7bdd7c074eff74ab42017e1d89cef21cbc3c2dd30386e72a456b3bb95d3d36aacf3b22848750f57714e034"
+RPM_NAME = "xyzservices-data-2022.9.0-1.7.noarch.rpm"
+RPM_HASH = "13527e23a15d5e6ad460376fd217e3e042806d4b2be8a560be268f23e68000e8e377c6e8796f5a1ed5286273724b6da399bafdb0388fd146b6afcda415b2ad81"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xyzservices-data"

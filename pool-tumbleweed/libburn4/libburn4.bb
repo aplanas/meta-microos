@@ -4,10 +4,10 @@ CD, DVD, BD (Blu-Ray) and also offers a facility for reading data blocks from \
 its drives without using the normal block device I/O."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.5.4"
+PV = "1.5.6"
 
-RPM_NAME = "libburn4-1.5.4-1.10.aarch64.rpm"
-RPM_HASH = "9fd6435c8b22f2a00174b253a5a0f00d9c9577f0cd498ee756c369a654ae7f227105e2f5d79d89e493f343b8cf558717a70844637cf858fcb4d7adc974d9c563"
+RPM_NAME = "libburn4-1.5.6-1.1.aarch64.rpm"
+RPM_HASH = "a5c7ec65896f5a1035757d4226137359eb6f7172d356c89cc3ff7103b1eac38c753742a0cb726aecceba7243a402d64fba769092ecdbf0aa0a9e255995832245"
 
 RPROVIDES:${PN} += "libburn.so.4 \
 libburn4"

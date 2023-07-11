@@ -2,10 +2,10 @@ SUMMARY = "Fish Completion for river"
 DESCRIPTION = "Fish command-line completion support for river."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.2.4+g109"
+PV = "0.2.4+g953"
 
-RPM_NAME = "river-fish-completion-0.2.4+g109-3.1.noarch.rpm"
-RPM_HASH = "8916e5057a0143489d56bd3480cbeff137c9ab46f1625a5f894d72e69bd5f6a206bb7e7629f8ab64cc96a5332818283c41deed63afb99c028792b7458ae28e10"
+RPM_NAME = "river-fish-completion-0.2.4+g953-1.1.noarch.rpm"
+RPM_HASH = "78f3afe4d8e80dcd1146c18693a312c5460bd2ae0d56b3c9344cb029916febffef27af3802f070016256216a653ccd23bc9abdd8c7f78c03dce9ee601670673b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "river-fish-completion"

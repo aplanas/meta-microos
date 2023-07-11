@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "0.19.0"
 
-RPM_NAME = "tini-static-0.19.0-2.1.aarch64.rpm"
-RPM_HASH = "a610392d44e88c6f8c0d3ce8c3105e51a53712002f983960c6e28ae7584182b03373c27ba2afb69baf43b581472f836cdaaa8ec80c71eaa4c794dd7ec9610048"
+RPM_NAME = "tini-static-0.19.0-2.2.aarch64.rpm"
+RPM_HASH = "b0ca4c64eac5ff4f09d7f679262f979438296cc6ef0f6f91c9ebcd2cf3a57b45dacf7d60db101f6279e8e7231cf6974d067f0c8d7f086dbee323de954bf14725"
 
 RPROVIDES:${PN} += "tini-static"
 

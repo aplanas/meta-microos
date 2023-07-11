@@ -4,11 +4,12 @@ LICENSE = "Apache-2.0"
 
 PV = "26.1.0"
 
-RPM_NAME = "python311-kubernetes-26.1.0-5.1.noarch.rpm"
-RPM_HASH = "9c9c32dc69d787640a99a65c3aa2c8c41171e5dcb42688c555f82217d63a3ae93650c216369b0b33f4c314907b778109479a39f4df1cc9fda5b0f06802caab82"
+RPM_NAME = "python311-kubernetes-26.1.0-5.3.noarch.rpm"
+RPM_HASH = "25d94310c5873a5a6a4f7286880b54e6e68cab346414a5aba58c2b12b8a6d67149cabcaa2030fd710d452b2aac959157769fb99b457232244ae258c327e3eab9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-kubernetes \
+RPROVIDES:${PN} += "python3-kubernetes \
+python3.11dist-kubernetes \
 python311-kubernetes \
 python3dist-kubernetes"
 

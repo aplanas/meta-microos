@@ -7,8 +7,8 @@ LICENSE = "EPL-2.0"
 
 PV = "2.10.8"
 
-RPM_NAME = "coin-or-Cbc-devel-2.10.8-1.3.aarch64.rpm"
-RPM_HASH = "88969e816a0a06f19d04b5c9c0711f08521aa0a90a9e2d6b1eed11aa43fa6a85bcb9a2d7124cfc0a3b6cfc0bcec6a04c2c598bfaa117eacc5b4dc8dfe8fe29ba"
+RPM_NAME = "coin-or-Cbc-devel-2.10.8-1.4.aarch64.rpm"
+RPM_HASH = "46a16351446fa391781875be797afb0aaf5bf63f5e784ada74f512c09e7026bdffa226cedcd8b0ccd5d32e60371def6fef9a7040ee739e4fb52d1cdab0339133"
 
 RPROVIDES:${PN} += "coin-or-Cbc-devel \
 pkgconfig-cbc \

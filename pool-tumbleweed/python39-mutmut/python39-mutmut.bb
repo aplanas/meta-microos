@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0.0"
 
-RPM_NAME = "python39-mutmut-2.0.0-4.7.noarch.rpm"
-RPM_HASH = "1689f7ecfd0a25aea1b815dcdadbedbcd3066e833428c4bc5e95deadec800ee48056019c8a4148478f25f85c40515d740cdac1273f471063dadab092b26b06ec"
+RPM_NAME = "python39-mutmut-2.0.0-4.9.noarch.rpm"
+RPM_HASH = "ee8686065c51280c223d2a37300bb24950a996d3e21c82971f002da94517fd65e4c56e9688302faa917e52f93284e40a23b3eb74acb3e177f3f5317c8199a24a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-mutmut \

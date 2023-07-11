@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.11.3"
 
-RPM_NAME = "python39-PyPrind-2.11.3-1.3.noarch.rpm"
-RPM_HASH = "51ea1f24c401a7ee4b80fe9c77f0d84b330ef1a2f7af3300c07de1534794f92119c79a17e93e531da4ca940fff681d42e778242eceb9897decefbca009e9cfba"
+RPM_NAME = "python39-PyPrind-2.11.3-1.5.noarch.rpm"
+RPM_HASH = "363e9d6ced5cf88a02c8d7d51c3a2b039e87beceee0430b03898f0d9cc2938cd06fcbbd5f3533ebc56c6037c05ded6032a98714be59e503f08816e82012f3616"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyprind \

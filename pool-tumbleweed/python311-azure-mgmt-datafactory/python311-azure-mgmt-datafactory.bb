@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "3.1.0"
 
-RPM_NAME = "python311-azure-mgmt-datafactory-3.1.0-1.2.noarch.rpm"
-RPM_HASH = "d12fb3b3643cf5f3b9c1818f91862cc008e2104d62fc18dd8af2b5b64fb69f2050994945f5cf3c2f50da7e8eca89cf4b9d4eaf5b69fdce0ea2061feb94f834ef"
+RPM_NAME = "python311-azure-mgmt-datafactory-3.1.0-1.3.noarch.rpm"
+RPM_HASH = "5a9a70a5ad1fc829c6a011fcd8dcc1c4292c8aa643cf2dc42a3e0579390fb83f5bd433538796a5bfe5c9ee5944b9dd03f19848d0f01d4b70841166dc760350be"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-datafactory \
+RPROVIDES:${PN} += "python3-azure-mgmt-datafactory \
+python3.11dist-azure-mgmt-datafactory \
 python311-azure-mgmt-datafactory \
 python3dist-azure-mgmt-datafactory"
 

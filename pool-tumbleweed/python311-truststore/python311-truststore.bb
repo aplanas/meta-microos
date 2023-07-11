@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "0.4.0"
 
-RPM_NAME = "python311-truststore-0.4.0-1.4.noarch.rpm"
-RPM_HASH = "349f1d6eaa5c2b096df1e07145dabb86d2141b10384c2c4b122a641e08b9141cf51937cedd17617ed3d0a0500858da8255594208aa2f42667f1603c5aa6946ce"
+RPM_NAME = "python311-truststore-0.4.0-1.6.noarch.rpm"
+RPM_HASH = "d2f2e3975ed4d290d0b85355ec2b0c808983eaa86c24513a34328044eff2e21d2505d377f3512c3929d62f673d8181f9303d8d8f3966edca8ba613af0e460eeb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-truststore \
+RPROVIDES:${PN} += "python3-truststore \
+python3.11dist-truststore \
 python311-truststore \
 python3dist-truststore"
 

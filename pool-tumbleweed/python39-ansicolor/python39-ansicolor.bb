@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.3.2"
 
-RPM_NAME = "python39-ansicolor-0.3.2-1.6.noarch.rpm"
-RPM_HASH = "e88fcde5b63c589b4fce25008aca730cd33c90b04db99c266dfe07fbd67ddd35c84a3bc506553ca3000990f719ee32ee2760309a819a458b5a88cb8eaa903c0c"
+RPM_NAME = "python39-ansicolor-0.3.2-1.7.noarch.rpm"
+RPM_HASH = "86875fc8e70f4bb4b4527a47db4a8b04a7af6311918963d5f311db880dbddf26d57f54b3c69197ab72e299b23bd44238488bc46ef727841a5935a97dd00a15d2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-ansicolor \

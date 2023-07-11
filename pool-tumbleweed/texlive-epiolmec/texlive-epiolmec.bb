@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.svn15878"
 
-RPM_NAME = "texlive-epiolmec-2023.201.svn15878-53.1.noarch.rpm"
-RPM_HASH = "63fed28abd7ce349ef7b48a26e7fc6bb956d8f7ab928db9d1bf1b72337dc669c91b5a72616e3c7365b375217f1239d3efe511bbe0821b04a80fe2571df449648"
+RPM_NAME = "texlive-epiolmec-2023.201.svn15878-53.2.noarch.rpm"
+RPM_HASH = "3593e86ab2c5d921fbe92b82e48cb91ed7a0cf0a7dc3a235b6640240fbd3d28c986c8d0af7ee618423aebd33ea63b12ba7c6314cdc8b6c743de4ce3d7df439f4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-EpiOlmec.tfm \

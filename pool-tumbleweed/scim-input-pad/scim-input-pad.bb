@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "0.1.3.20130804"
 
-RPM_NAME = "scim-input-pad-0.1.3.20130804-6.30.aarch64.rpm"
-RPM_HASH = "7399738a709a76f5d8c69c392bc2c87eaf2c5d9b4768105a3eb38441f6f3fad190839ea2ce37adc4450998f81ec69575a4abec265bf7b983bab8780cbe165480"
+RPM_NAME = "scim-input-pad-0.1.3.20130804-6.31.aarch64.rpm"
+RPM_HASH = "e760bba56f04cd7297c13a1d62f57dfe96bd0a991469fa041267f668b761d783749038dfc0282fc6d54e12214d27178da4542ba8bca607b90b148bad7cbfd9ee"
 
 RPROVIDES:${PN} += "libscim-input-pad.so.0 \
 scim-input-pad"

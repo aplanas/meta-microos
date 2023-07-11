@@ -4,8 +4,8 @@ LICENSE = "Zlib"
 
 PV = "2018_02_01"
 
-RPM_NAME = "tesseract-server-2018_02_01-3.11.aarch64.rpm"
-RPM_HASH = "99314b57003984ce17f7e33b9bf1776b706a004dbbaaa1b41550d25267cefc2ac97d9151cc56ef539c2c0e1f3920748debed4d5b46cc03b0aca6bf64521f7e05"
+RPM_NAME = "tesseract-server-2018_02_01-3.12.aarch64.rpm"
+RPM_HASH = "79164d90a10e59508fb884d6bdc9392a23e0add76cb92fe3f5276547558b6d73a336e0fc1401f8b441e8b9bc56b5b2b2e33475e13cba8e0036a2d8b7460cd3e0"
 
 RPROVIDES:${PN} += "tesseract-server"
 

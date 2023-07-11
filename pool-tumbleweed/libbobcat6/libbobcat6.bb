@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "6.02.02"
 
-RPM_NAME = "libbobcat6-6.02.02-2.3.aarch64.rpm"
-RPM_HASH = "84b596dbe634587ce818092a5eaafd166f2f03d918acb3af7bd390ddf4b0994accee9073e6d112131387540c3ea7d6aa1a257bb7b00e90af349863243d0ca184"
+RPM_NAME = "libbobcat6-6.02.02-2.4.aarch64.rpm"
+RPM_HASH = "4ea2d678dfbd87f547318ae9e2fda43132fa9ae406b498f805c4c4bc8f7f4018a281df63006826bf835380386d3a487a134c4a56e8fbd438bb9c06c2f337a5a1"
 
 RPROVIDES:${PN} += "libbobcat \
 libbobcat.so.6 \

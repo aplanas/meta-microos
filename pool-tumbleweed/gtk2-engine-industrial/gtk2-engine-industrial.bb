@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "2.20.2"
 
-RPM_NAME = "gtk2-engine-industrial-2.20.2-19.42.aarch64.rpm"
-RPM_HASH = "8e5e797dbbdd152ddff64c6da1a668c06ce4ad11d0df2e40254f7a568b22482c65ba94a761e4abb70f80e7bffbf169a90a097b5a2bcb11edd2cd4dfeb52c5c60"
+RPM_NAME = "gtk2-engine-industrial-2.20.2-19.43.aarch64.rpm"
+RPM_HASH = "b81f6dd2ada17a96e5c86913860376ea8dab5a293cf9e67a711d6a93dc67194c1caec191dfa746f4b904f88239748b882cea8f688ffbe4ab25455101af03616c"
 
 RPROVIDES:${PN} += "gtk2-engine-industrial \
 libindustrial.so"

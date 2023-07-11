@@ -16,8 +16,8 @@ LICENSE = "GPL-2.0-only & GPL-3.0-or-later"
 
 PV = "20201029"
 
-RPM_NAME = "liblammps0-20201029-5.1.aarch64.rpm"
-RPM_HASH = "d800b7ae9c3009c7e342a6ce4155fe4b7089b0957511c770f60ca61873c9c99aa8db1edb02d018cc5396a3cc0c724be43744355fd0b81dff7f658d926d32467a"
+RPM_NAME = "liblammps0-20201029-5.2.aarch64.rpm"
+RPM_HASH = "e4c800d2089402e5552f39184972fe2e2a6bab5b40d6da199068ebf7a61e98daccb6d7735bab4445cfbd210a3ad75022c782da30ae06dca2f9f7133be4f316fe"
 
 RPROVIDES:${PN} += "liblammps.so.0 \
 liblammps0"
@@ -34,7 +34,7 @@ libkim-api.so.2 \
 libm.so.6 \
 libmpi.so.40 \
 libpng16.so.16 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libstdc++.so.6 \
 libvoro++.so.0"
 

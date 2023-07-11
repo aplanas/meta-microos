@@ -10,8 +10,8 @@ LICENSE = "Apache-2.0"
 
 PV = "4.00"
 
-RPM_NAME = "perl-Mail-SpamAssassin-Plugin-iXhash2-4.00-74.3.noarch.rpm"
-RPM_HASH = "aa9aa488c593ee4d02a13e8bcf6a52fe9f86d39614ad83396ea497dcb0f491106daa43668d01ae48104edf72af701ec1333f683951c34c7ea4e0d9c8168564d7"
+RPM_NAME = "perl-Mail-SpamAssassin-Plugin-iXhash2-4.00-74.5.noarch.rpm"
+RPM_HASH = "b7474982bb6aad07087a2a6cc1ca6e228d6868ae0eba0a0e8adc46a909d2d1fc5d63338f8df597646936735632e0f60aabf48f486d8cb3dfaf22b9304ff60aa1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-perl-Mail-SpamAssassin-Plugin-iXhash2 \
@@ -19,7 +19,7 @@ perl-Mail--SpamAssassin--Plugin--iXhash2 \
 perl-Mail-SpamAssassin-Plugin-iXhash \
 perl-Mail-SpamAssassin-Plugin-iXhash2"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Digest--MD5 \
 perl-Mail--SpamAssassin"
 

@@ -5,8 +5,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-blasq-vangog-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "6889ccf5a54275115fa63c74899db68eeaf1973a9cb61da6bf7e4185cbae47efc3909c06cb045116ba584f722e358ec579d6ab78542f17c41af091a361f90884"
+RPM_NAME = "leechcraft-blasq-vangog-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "944204da17ef8039e4a4f6957aeec4970c82d75958a43ab01d6e2d365e4094b5fa6d7c90681a84161bb02ee65252d456e32820fbd6ad188287abf72889ac8ccf"
 
 RPROVIDES:${PN} += "leechcraft-blasq-subplugin \
 leechcraft-blasq-vangog \

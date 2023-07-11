@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.3.1"
 
-RPM_NAME = "libykpiv2-2.3.1-1.2.aarch64.rpm"
-RPM_HASH = "c1dccd20b33efc4c64a3c32bc9977fa55dcf3b45821e24131c5e163bafe7e9c88fd36d6740e2eeb3359c7dbc56e23b239333705daf8d2f62d1ab31aa7262800b"
+RPM_NAME = "libykpiv2-2.3.1-1.3.aarch64.rpm"
+RPM_HASH = "c781516a0fc73f0953abdef220e6355e55cc6af4c20a5be3b0e7a6f934e0fb87bc6b9113f4370526d5656bd61fbe7ebc6bc639661973290af8cafe46ea477d39"
 
 RPROVIDES:${PN} += "libykpiv.so.2 \
 libykpiv2"

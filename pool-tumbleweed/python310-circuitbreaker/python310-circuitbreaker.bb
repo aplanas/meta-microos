@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.2"
 
-RPM_NAME = "python310-circuitbreaker-1.3.2-1.8.noarch.rpm"
-RPM_HASH = "6ba98f16572cf86b5d01de9bd7a064f90cfdacf7f62c2fe3b343edef78269c2d5aa1824b9153d8969ace5f7a34e465e229726af11908898985a78fa6bbcfa1ef"
+RPM_NAME = "python310-circuitbreaker-1.3.2-1.10.noarch.rpm"
+RPM_HASH = "1f14e70082fc70a6c461839a66959409fcb03b982e1aa4b0577d3652b0a000ab419f299188b512ad0ebb1654aa7a8d9c5bda4f99cebe05bd645b2306585f8a3c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-circuitbreaker \
-python3.10dist-circuitbreaker \
+RPROVIDES:${PN} += "python3.10dist-circuitbreaker \
 python310-circuitbreaker \
 python3dist-circuitbreaker"
 

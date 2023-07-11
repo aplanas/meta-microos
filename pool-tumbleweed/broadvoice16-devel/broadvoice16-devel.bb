@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.2"
 
-RPM_NAME = "broadvoice16-devel-1.2-3.7.aarch64.rpm"
-RPM_HASH = "503f1216a8a9ee649065aaff6e50f0e9cb94237a2a802fbf28759a5fbc4c51b9d93baec84ff9396d410516dc8fc491d573f4c28563e7b97fd2cf397a22f2c006"
+RPM_NAME = "broadvoice16-devel-1.2-3.8.aarch64.rpm"
+RPM_HASH = "658aeec68354e5f2c9c3c1d770a93969adb7137aa4bc810252c13f3edadbf661209c984705ba98747bc825beeb438db880ed992019907d958e478521115ccd6a"
 
 RPROVIDES:${PN} += "broadvoice16-devel"
 

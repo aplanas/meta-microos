@@ -9,8 +9,8 @@ LICENSE = "Python-2.0"
 
 PV = "2.7.0"
 
-RPM_NAME = "python39-portalocker-2.7.0-1.1.noarch.rpm"
-RPM_HASH = "7ae3d48433108da71e271ceb7548fd73a6eb3c9dbfcfefdbf5494f99bca1c009316b18ab5c269b0a53cb79a3b143401e55a5a160c3ffca7f6584060eef4b2002"
+RPM_NAME = "python39-portalocker-2.7.0-1.3.noarch.rpm"
+RPM_HASH = "d6fdad40a5a9bb4c5c68f437d384d33b912d1e27ab122bc00f70ece251a45dbbff0e8f38513767d0fa20a373bf96423b6a51635911bdae661100cfffe7e8f0c2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-portalocker \

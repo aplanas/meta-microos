@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the data files of Akonadi, the KDE PIM stor
 service."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "akonadi-server-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "4bb37a3bcddbd0170b540d237f2a1f00a3c82e6cafb04cebef3eec807ce5d281d7ad3a588356b0d427016348433b9fa461f7b03a44d5469d8016a593b73cb153"
+RPM_NAME = "akonadi-server-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "dc2a2b023537afebc8610545b63c39e6b1733af44bd6e8c11f1a356a45e47deeb6f67535573cac3844c45c6d8070c8f990691caec6b94b767fd756bf732cfcb1"
 
 RPROVIDES:${PN} += "akonadi-server \
 akonadi5 \

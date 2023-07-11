@@ -2,10 +2,10 @@ SUMMARY = "SpamAssassin plugin for the Evolution groupware suite"
 DESCRIPTION = "Adds support for junk-mail filtering via spamassassin."
 LICENSE = "CC-BY-SA-3.0 & LGPL-2.0-only & LGPL-3.0-only & OLDAP-2.8 & GFDL-1.1-only & GFDL-1.3-only"
 
-PV = "3.48.2"
+PV = "3.48.4"
 
-RPM_NAME = "evolution-plugin-spamassassin-3.48.2-1.1.aarch64.rpm"
-RPM_HASH = "b4ffaf1ab3e0aee617a78bb6681e9f51906db59ca362acac74bd9ef395fa83a978253aa1c5ea5ebf3a01a889475f10f0bde380bfea408e776e32e2902c8eb281"
+RPM_NAME = "evolution-plugin-spamassassin-3.48.4-1.1.aarch64.rpm"
+RPM_HASH = "31bba7aa9b64e0e8641ed8ba60a2f6f76a9f910f53f1414f3881458d57126af42b452f0a4052e0f470c8b274c4f0d649b660a6553c02d1f74340f96cb44baa2e"
 
 RPROVIDES:${PN} += "evolution-plugin-spamassassin"
 

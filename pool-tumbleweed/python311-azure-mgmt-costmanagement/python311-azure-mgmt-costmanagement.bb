@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "4.0.0"
 
-RPM_NAME = "python311-azure-mgmt-costmanagement-4.0.0-1.1.noarch.rpm"
-RPM_HASH = "6df5bc305bca4e01f1b59278d8f050095b2a866496e1a5fb34760e225d40f125b0d151bdd115a3d4449dc69d68c18cee0278a6198a66ba7c97be8d018708b87f"
+RPM_NAME = "python311-azure-mgmt-costmanagement-4.0.0-1.2.noarch.rpm"
+RPM_HASH = "c8b451d4517ea9014aec77a1dbc700ca8d701906b8c34b4ab56c5b6be8759eecc23a9020578a782d81540a0a407a4619964a5f9957e0e7b90b39605bc6148672"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-costmanagement \
+RPROVIDES:${PN} += "python3-azure-mgmt-costmanagement \
+python3.11dist-azure-mgmt-costmanagement \
 python311-azure-mgmt-costmanagement \
 python3dist-azure-mgmt-costmanagement"
 

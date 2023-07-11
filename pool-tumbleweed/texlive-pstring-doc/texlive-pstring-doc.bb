@@ -4,8 +4,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2023.201.svn42857"
 
-RPM_NAME = "texlive-pstring-doc-2023.201.svn42857-53.1.noarch.rpm"
-RPM_HASH = "9db2949883d4a90051c5eac03c86ba4cee4db2c2e35ce68fa16406515b221c8313a12478ceb48a0379212c3eff0ecc6273357bf429ea1bb83ac8cd03c3a440e9"
+RPM_NAME = "texlive-pstring-doc-2023.201.svn42857-53.2.noarch.rpm"
+RPM_HASH = "4077d131fcedcc01c6969f3dab28fc24b496a90768727e0b8d8e9bd89008c4aaacc78e986a1271a683934e9c3add4c8d657cbab10d82d9eb733f715d06f736e2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pstring-doc"

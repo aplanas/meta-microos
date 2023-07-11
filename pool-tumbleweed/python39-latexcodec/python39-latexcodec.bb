@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.0.1"
 
-RPM_NAME = "python39-latexcodec-2.0.1-3.2.noarch.rpm"
-RPM_HASH = "adb68db58ef953ebf3c5ebaf19c205d017b84b32005a5780815fcd5ca7e92470cea15a4e179131750258bd7c4918f200440dfe46da1eb48819d3c3496b818e24"
+RPM_NAME = "python39-latexcodec-2.0.1-3.4.noarch.rpm"
+RPM_HASH = "d309e02646c1cd5350b9044fb83e567ffcbf16da21518a3bae3d1ca272ed62434a15b9efc66b6200d2a4425da46ce77f8f095b69c1b506d7fad0076c862b901c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-latexcodec \

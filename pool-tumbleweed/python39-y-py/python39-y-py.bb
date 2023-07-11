@@ -9,10 +9,10 @@ Project is still experimental. Expect the API to change before a version 1.0 \
 stable release."
 LICENSE = "MIT"
 
-PV = "0.5.5"
+PV = "0.6.1"
 
-RPM_NAME = "python39-y-py-0.5.5-1.3.aarch64.rpm"
-RPM_HASH = "83985d35f0f027ecd9b1c26e0d2d408b30d6e22cc27966141ed0b33bd678240ece8928c01b69bebb37b898268f7f0bc98227e3d3bed6ae75a9d935ce32fa6746"
+RPM_NAME = "python39-y-py-0.6.1-1.3.aarch64.rpm"
+RPM_HASH = "f6fefeb0712673d131e5241a0e0a247d20e85c1d1e32f161635c02b75900b6b3c1a1b9573b7aa2849d997fe0e2594ec60c6d55eb9d92132e7a4e126e54d389c4"
 
 RPROVIDES:${PN} += "python3.9dist-y-py \
 python39-y-py \

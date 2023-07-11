@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.15.06"
 
-RPM_NAME = "stress-ng-0.15.06-1.2.aarch64.rpm"
-RPM_HASH = "543dc2bd2ae73baefcb52b788d11577c51556494c42bb6c1c960f7751ff1dc0baa05af0dbcd39b2f5e2831f2a014d753dbd939ce825420dec241c54e82b6c54e"
+RPM_NAME = "stress-ng-0.15.06-1.3.aarch64.rpm"
+RPM_HASH = "fa089f74d16ce0332097d3f7e630aa2952395a07ef34c592faabc137451916bbfd7974f5611ebf25144e7128b196fc09f058546a9b4e5888ad2b16d30cd1a81c"
 
 RPROVIDES:${PN} += "stress-ng"
 

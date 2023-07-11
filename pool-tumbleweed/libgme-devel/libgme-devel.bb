@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.6.3"
 
-RPM_NAME = "libgme-devel-0.6.3-2.4.aarch64.rpm"
-RPM_HASH = "c1928c84e53e1897df707cadb82c9aab3e89a6dfee6429b4869aef715a84e6527eef6013962e3b438133c2510fbc7482409324a7787c7deddaf7b91ed7796ddf"
+RPM_NAME = "libgme-devel-0.6.3-2.5.aarch64.rpm"
+RPM_HASH = "b81df7fd20029148a07d399e37f28ffdb77a47b8b70b387758fe0d99aeb9e31cc727df1519f57a2d590ab82f43966e22ee50ef63ebef978097c26d0b09e60e7d"
 
 RPROVIDES:${PN} += "libgme-devel \
 pkgconfig-libgme"

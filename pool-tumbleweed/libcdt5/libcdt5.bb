@@ -4,8 +4,8 @@ LICENSE = "EPL-1.0"
 
 PV = "2.49.3"
 
-RPM_NAME = "libcdt5-2.49.3-6.3.aarch64.rpm"
-RPM_HASH = "dc91cb3a5ad228a22a83d2e9ff259dfb59c6374aef12b20a5bdfaf941a3d744755b8dd304f302dc8f4982d8cc12ef353a4ddeaab1c50acfc49c44a79d77f1065"
+RPM_NAME = "libcdt5-2.49.3-6.4.aarch64.rpm"
+RPM_HASH = "ba88a7f53318fee4c43fb36b51a912ac9faeb1ec59f0027a92f2491dce6e5ccac49d8aca8d947e806a08129e4fa76e67d13edae26da9822305afe75d3e17a178"
 
 RPROVIDES:${PN} += "libcdt.so.5 \
 libcdt5"

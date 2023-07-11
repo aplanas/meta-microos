@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.1.4"
 
-RPM_NAME = "serialdv-devel-1.1.4-1.8.aarch64.rpm"
-RPM_HASH = "afcccada8901cf3efb5e385cc4da1261dac1dc387c0294143506058019705104cbe97f3344a15efcb92d2f84094ddecff052bceadef173f57a1aa64657409d1b"
+RPM_NAME = "serialdv-devel-1.1.4-1.9.aarch64.rpm"
+RPM_HASH = "1298d4a4a7a3f9c6d12a7dffe9cddc41dec93714dbbc761df4162f6e7af02b00cb1d6540b0bd39fdc7648883683d671f5d29f8a9fd5de3489c390420a91a9dd9"
 
 RPROVIDES:${PN} += "serialdv-devel"
 

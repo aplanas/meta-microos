@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-hyplain"
 DESCRIPTION = "This package includes the documentation for texlive-hyplain"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.1.0svn15878"
+PV = "2023.208.1.0svn15878"
 
-RPM_NAME = "texlive-hyplain-doc-2023.201.1.0svn15878-52.1.noarch.rpm"
-RPM_HASH = "d75612a115e1872a724d84a616b15d5c811ef6ae64bad6307027a80a26038985df8be4b8fd7ea77b17a8711e873f344fe92e2876e9402908cb87f485f40a0d58"
+RPM_NAME = "texlive-hyplain-doc-2023.208.1.0svn15878-53.1.noarch.rpm"
+RPM_HASH = "814fc646bb320264803dc34c56ecb7b5cf796fb03fafa89bb76d3f12b8431c963c34ad460dee5afad03d4b6d7384faf86260b50f06a564d67f70326fcbf57207"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hyplain-doc"

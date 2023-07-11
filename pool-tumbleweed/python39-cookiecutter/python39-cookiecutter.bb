@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.1.1"
 
-RPM_NAME = "python39-cookiecutter-2.1.1-2.1.noarch.rpm"
-RPM_HASH = "6ff45ee6e88d2f9746d60dacc466cc1e7f673f74df23574b95ab747406693c5c4e0b68ab76e10e744b2fb4de1972a570d093b280a6552bcb291c6b191bc14049"
+RPM_NAME = "python39-cookiecutter-2.1.1-2.2.noarch.rpm"
+RPM_HASH = "7a1207a22443b0abe153ce0cc5acc2fa4f01792aa9d0508c49ab281d0896775a00f2a58d51c3714062a3bd42a7d0ae634bd56c220eb5c0ee91c09fa4eb462891"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-cookiecutter \

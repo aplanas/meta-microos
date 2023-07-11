@@ -7,8 +7,8 @@ LICENSE = "Python-2.0"
 
 PV = "3.4.3"
 
-RPM_NAME = "python39-ldap-3.4.3-1.5.aarch64.rpm"
-RPM_HASH = "d9cdc636498f28e2ab75b755a5ef8e0951aa69dcfa64807cacc9ed6c9ec284e6238ec2e32b93f9d90cee5fd66ab7a6db67d3e35fad3d6de221cdee0c51a9d7f2"
+RPM_NAME = "python39-ldap-3.4.3-1.8.aarch64.rpm"
+RPM_HASH = "5b7234662c734eb2f4480d8ad3a555de47b40f628156628d77a64c6db95b6b01cc1f103eeb072a365aca0505796afe66e2d84f88d858c16db84a8d96bcec0ffb"
 
 RPROVIDES:${PN} += "python3.9dist-python-ldap \
 python39-ldap \

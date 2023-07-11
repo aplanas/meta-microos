@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "20230308.4ed55cf"
 
-RPM_NAME = "docserv-config-apache2-20230308.4ed55cf-1.4.noarch.rpm"
-RPM_HASH = "b5d5b0904abe957e0e203b3a70afc9fb95a09ff2d3c727781cf255ff4e2f99854cb3103d41222c019c3dc72f1d77a39b6576b8a6e2517adedd823ae32474ccce"
+RPM_NAME = "docserv-config-apache2-20230308.4ed55cf-1.5.noarch.rpm"
+RPM_HASH = "c8c3f6bab1ff0324c51f1a1f6dfb131bb2b17861321840cb6bcef8ae1d1ebdeb3dc13f62214e937947fd35d0b07f6720980fcadc7b562733ff0f7191aeabfb67"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "docserv-config-apache2"

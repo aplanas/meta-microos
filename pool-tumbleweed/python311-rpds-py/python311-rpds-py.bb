@@ -4,10 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.7.1"
 
-RPM_NAME = "python311-rpds-py-0.7.1-2.1.aarch64.rpm"
-RPM_HASH = "c42203d4c6cff6ba0479dfc5630bdbbc586967659b4b3e9fef32b7d7f15f023a61ceb53e50ec27ce02d3c00eb9508c771b87d73c5ee8149ef4f6ac146995fb6a"
+RPM_NAME = "python311-rpds-py-0.7.1-2.2.aarch64.rpm"
+RPM_HASH = "e913af42124f78a019def13b760ae803f9b4266dda65bb3ffcb18804c21b6189b66a4b67eb66c5af9c72f644d400499b0c0fa451645bf6f57cad5a9cd5b57f08"
 
-RPROVIDES:${PN} += "python3.11dist-rpds-py \
+RPROVIDES:${PN} += "python3-rpds-py \
+python3.11dist-rpds-py \
 python311-rpds-py \
 python3dist-rpds-py"
 

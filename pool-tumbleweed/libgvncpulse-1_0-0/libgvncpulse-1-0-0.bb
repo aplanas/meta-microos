@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-only & LGPL-2.1-or-later"
 
 PV = "1.3.1"
 
-RPM_NAME = "libgvncpulse-1_0-0-1.3.1-1.5.aarch64.rpm"
-RPM_HASH = "03cca5390165ffa15d32c06b7a7265d52b263bd654d9d7542dc1273ee3610c0699338ef74727c5187b7ec60f3e566fc3ad9955af1102c3eea5257283b0f738d0"
+RPM_NAME = "libgvncpulse-1_0-0-1.3.1-1.6.aarch64.rpm"
+RPM_HASH = "9d9616021b46ad4a01ecd69fb242216118a476d13be297dd84ec76aad8bcde9cbb1f792a195171adbff17ecf0a02b0eabff99022977876bea8e340b18187ec89"
 
 RPROVIDES:${PN} += "libgvncpulse-1-0-0 \
 libgvncpulse-1.0.so.0"

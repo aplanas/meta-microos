@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.2.0"
 
-RPM_NAME = "pfstools-devel-2.2.0-3.14.aarch64.rpm"
-RPM_HASH = "50d476337c81b6a43ceae6dedf6852e481cb05279771e42fab51ff9c4bb230c41100c540954e45639076d68529bb59e13242b405adb0893878c33af6f0393074"
+RPM_NAME = "pfstools-devel-2.2.0-3.15.aarch64.rpm"
+RPM_HASH = "36359fd2942f7a6418dc5b932c36429efa7d231ddf50ec1dcbc0321c871db74aeb5de60e4eee2df0d8a861f7112011bfcd6750260de398244cf78596e523b7d0"
 
 RPROVIDES:${PN} += "pfstools-devel \
 pkgconfig-pfs"

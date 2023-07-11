@@ -12,8 +12,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "3.26.4"
 
-RPM_NAME = "geocode-glib-devel-3.26.4-1.4.aarch64.rpm"
-RPM_HASH = "4f151d5799aa6ab282d2b9c007fa5d6dfb73f5cf69abfa07bbb992ac2125468324bb558868626e3610edaf042e2f1ea8f7f728e203906a34a68bb4c11177f4af"
+RPM_NAME = "geocode-glib-devel-3.26.4-1.5.aarch64.rpm"
+RPM_HASH = "9a91cfd0547b2ebb7861a6835a538463229e28c74a604fc08f63888174a0c041ea031f8c8ad6edf6d61ec15e554465f35c23612a771fd21c815023315c006222"
 
 RPROVIDES:${PN} += "geocode-glib-devel \
 pkgconfig-geocode-glib-2.0"

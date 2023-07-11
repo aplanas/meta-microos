@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.7.0"
 
-RPM_NAME = "opencv4-cascades-data-4.7.0-1.6.noarch.rpm"
-RPM_HASH = "ac9ba58dc12fbc864f644036acda4241a36b4f9794b5b7dfebaf1dfddbbbe3745f80f3338860af82b495a0d4b139ba107677d46b7b648e2db6296e174401e17b"
+RPM_NAME = "opencv4-cascades-data-4.7.0-1.8.noarch.rpm"
+RPM_HASH = "4829ba410c93b348362dfb3262ca04cbdf346ddabeddd559d18cb498bc3806d494b1619dbfdf4f312e89c54300d6a9232ff92d597c0d13ee7abde6433f466287"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "opencv-/usr/share/opencv4/lbpcascades/lbpcascade-silverware.xml \

@@ -13,11 +13,10 @@ LICENSE = "Apache-1.1"
 
 PV = "1.9.20"
 
-RPM_NAME = "python310-pysvn-1.9.20-1.6.aarch64.rpm"
-RPM_HASH = "1528ae1c28108ad024d1e457eb5f9656def227845f8ec1239d93b70804da4394eef2db53e46b542064d25a3ad07352306ace493502acbe0c09800ee9160a4882"
+RPM_NAME = "python310-pysvn-1.9.20-1.8.aarch64.rpm"
+RPM_HASH = "3af94ab431ed14b0dedfd10f05f1c146a936152df66575dd641e86215badb0f57323d67df1f4c92cb6f56ce17bd27a2a4dd9f4697b0f0ce3bbea9dbd248703b4"
 
-RPROVIDES:${PN} += "python3-pysvn \
-python310-pysvn"
+RPROVIDES:${PN} += "python310-pysvn"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libapr-1.so.0 \

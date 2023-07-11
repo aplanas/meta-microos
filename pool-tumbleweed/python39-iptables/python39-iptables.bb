@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.13.0"
 
-RPM_NAME = "python39-iptables-0.13.0-1.23.aarch64.rpm"
-RPM_HASH = "940f90a74131b2b0fcea3f33c2f4b7340ba260c5270c00ab4ec0db755b4e187097ad7474d3edc566c56e2be086bf1d930dde374fe12a710a297a58c2f807a8a5"
+RPM_NAME = "python39-iptables-0.13.0-1.25.aarch64.rpm"
+RPM_HASH = "1ca7a14f88be72d3f4cb046428f8cfb95e3430dbfe148b2823775d578c5173e52dc907e652aa2f784579a0ec9f8a51fadc4e38ef5f24adedd761aa645b50f603"
 
 RPROVIDES:${PN} += "libxtwrapper.cpython-39-aarch64-linux-gnu.so \
 python3.9dist-python-iptables \

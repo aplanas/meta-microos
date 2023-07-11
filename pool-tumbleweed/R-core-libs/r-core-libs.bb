@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the files from R/lib to make their usage \
 possible without installing a complete R. (I.e. VTK uses this)"
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "4.3.0"
+PV = "4.3.1"
 
-RPM_NAME = "R-core-libs-4.3.0-45.2.aarch64.rpm"
-RPM_HASH = "1b5cc4650b4ca99b0625d13a1b5fce4af90e562ab161e0f7ce51f06748289b7c6fda246358a299dc566ab5d8090d6d2f1b42750bec5a7887d07a6365acf53557"
+RPM_NAME = "R-core-libs-4.3.1-46.1.aarch64.rpm"
+RPM_HASH = "671fa27e8d50f0947b277b7ce167bc08f1c68a8121ca9844e29254276400cd35bf9279fe2361869277dd240380279cd0966f3a3a6de61dec8124763e1d59d9c7"
 
 RPROVIDES:${PN} += "R-core-libs \
 config-R-core-libs \

@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause & MIT"
 
 PV = "0.7.0"
 
-RPM_NAME = "python310-pytest-jupyter-0.7.0-1.1.noarch.rpm"
-RPM_HASH = "76d67f2509dac797e371431b05908cf651aca826bffb3aca7ad200e0595b40fdbacf7d52a7f54989f0d3fea0cbc5ebe07d28dce0141238c8d76c60551abd543a"
+RPM_NAME = "python310-pytest-jupyter-0.7.0-1.3.noarch.rpm"
+RPM_HASH = "2490c58454f46d5d8d1c53408fca4446567537c03ffcbf3acc33e6f2987bd91fe7f6c4d44787d5e4ca050625e96c69496ffc675408a0e1f755fd74f5623c85c1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pytest-jupyter \
-python3.10dist-pytest-jupyter \
+RPROVIDES:${PN} += "python3.10dist-pytest-jupyter \
 python310-pytest-jupyter \
 python3dist-pytest-jupyter"
 

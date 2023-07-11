@@ -10,8 +10,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.1.1"
 
-RPM_NAME = "libserialport0-0.1.1-2.12.aarch64.rpm"
-RPM_HASH = "3af9cb4fdcf3fdd326321178cff63d47e5587b08a58ed342166181a66d00b1e163e047b502d466a30f44303f7b51560b030447752ec41555541835ade178335d"
+RPM_NAME = "libserialport0-0.1.1-2.13.aarch64.rpm"
+RPM_HASH = "edf7ec6d0c5ed04a798453b03b472783df504a49c77dd08ae763abca0fc33d76788d54c6102789ecb8dcf04bf015567c300aeed546894eb0f59f12a7a30359a3"
 
 RPROVIDES:${PN} += "libserialport.so.0 \
 libserialport0"

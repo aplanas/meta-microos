@@ -13,8 +13,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.1"
 
-RPM_NAME = "openmarkup-javadoc-1.1-24.6.noarch.rpm"
-RPM_HASH = "e55e282f5173994ec3ae883ec5d8d150c7c2723166987ae804035f320106e672824c6e5636a7d20d6f9fb15a1558802606f0c46c84bd185de081bdabb1c88b69"
+RPM_NAME = "openmarkup-javadoc-1.1-24.7.noarch.rpm"
+RPM_HASH = "2c61ea5c0f942bcafd739f0ebf047b073570fad0d649849d6ff7c5b4c292f1aa74ec41a53ce6b48d18678350d8b769c82b32e485709a62817d21d48a3042d4ee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openmarkup-javadoc"

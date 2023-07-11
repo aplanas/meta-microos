@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.9.1"
 
-RPM_NAME = "maven-doxia-logging-api-1.9.1-6.7.noarch.rpm"
-RPM_HASH = "6fcbd94fa524ebb23c3ba3961b1291a63887d9381a370f350ba836e9d5018d81b39610fa97fe0614c8dacd2aa22a5a6ea710edf4657956ab87c94229ab6aed49"
+RPM_NAME = "maven-doxia-logging-api-1.9.1-6.8.noarch.rpm"
+RPM_HASH = "9efd137aca3c8d8298a999537881b13df83fea4d365aecc2a5ef081366e41b5a540c1e49de6f41c2c3a30b709402362e3b0457cbf0d47098814e513e3efa84e9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-doxia-logging-api \

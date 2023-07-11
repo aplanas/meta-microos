@@ -8,8 +8,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "5.0b"
 
-RPM_NAME = "fairymax-5.0b-1.22.aarch64.rpm"
-RPM_HASH = "eb58bf5b8835b36805a30efbc3c9125a702e737c380607a081b3e6f64c0de2370bd839abf191aa053fe9cceb0da63e3aa5e134ab48eb582dbdcdc383630a9325"
+RPM_NAME = "fairymax-5.0b-1.23.aarch64.rpm"
+RPM_HASH = "4ca813820e0f5c25811485b218f793365386f069a2f4f37cf234d756b3ed3eccf908c14b87dcd5c1bf0a108b36e8dd490d40477b03f2d01226112cc13d38cc38"
 
 RPROVIDES:${PN} += "chess-backend \
 fairymax"

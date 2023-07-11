@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "1.1.0"
 
-RPM_NAME = "kirigami-lang-1.1.0-1.32.noarch.rpm"
-RPM_HASH = "b7f991896c637ad3af7cf546fbac1f69fb9f5dd65efcfc8f3bd1c11de25ad080ac8b2176c76c5a623109819c145c2613c421d4022b914258c2e9078efd7f61d6"
+RPM_NAME = "kirigami-lang-1.1.0-1.33.noarch.rpm"
+RPM_HASH = "1aab98b1236940528fc337363ec91a61f402e115beaf9d8db6f8fa09e60d2d837bd727ead68d61651d140809333b5e63e59d56ffce81fbb417b2c6b00d1731f4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kirigami-lang \

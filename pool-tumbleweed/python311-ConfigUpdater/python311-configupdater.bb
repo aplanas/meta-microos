@@ -9,11 +9,13 @@ LICENSE = "MIT"
 
 PV = "3.1.1"
 
-RPM_NAME = "python311-ConfigUpdater-3.1.1-1.4.noarch.rpm"
-RPM_HASH = "8157c0a7d10bcdc9c193121389649463682c71a2ab9259b8abc8e5555117e36c151143f73525aff48a26738a294e16411007d34865e6b47b982f8d1b4b0d6d9d"
+RPM_NAME = "python311-ConfigUpdater-3.1.1-1.6.noarch.rpm"
+RPM_HASH = "fe5cac2fd529bde54c64ccd9dc9705886c364eb2a37d47ab73f0ad5baa8500a4964e57ba3d5e5ec111fd09b382846e3f5210a70d50e445e666f9376fdd75c7c4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-configupdater \
+RPROVIDES:${PN} += "python3-ConfigUpdater \
+python3-configupdater \
+python3.11dist-configupdater \
 python311-ConfigUpdater \
 python311-configupdater \
 python3dist-configupdater"

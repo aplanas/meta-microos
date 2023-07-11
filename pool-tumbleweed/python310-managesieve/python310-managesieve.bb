@@ -5,12 +5,11 @@ LICENSE = "GPL-3.0-or-later & Python-2.0"
 
 PV = "0.7.1"
 
-RPM_NAME = "python310-managesieve-0.7.1-1.9.noarch.rpm"
-RPM_HASH = "ff751aa160d9ac58d2d187422bc7ae1daf992622cfa094ea9297c94aadffcad3f1b9aae76db045f25ed1b98748ba6454fef8e8d1664d17a10a58cc68cfe988f8"
+RPM_NAME = "python310-managesieve-0.7.1-1.11.noarch.rpm"
+RPM_HASH = "29ae8a7921852a9ae79b381eb9a3118b557e1386be3a298012801793aa45ad7e06b329164b1553c5389c915900838e40a07193c56312f69c69e55fe51f39e940"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-managesieve \
-python3.10dist-managesieve \
+RPROVIDES:${PN} += "python3.10dist-managesieve \
 python310-managesieve \
 python3dist-managesieve"
 

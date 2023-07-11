@@ -4,10 +4,10 @@ Android. It allows to query journeys for a wide range of countries/public \
 transport providers by leveraging KPublicTransport."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "ktrip-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "5bea8e9a4b463be107b25be409f3aee2abc11a4af38970150a37fbc020d2986e6fcc6f9efdfac8d86b4fe5c09f3d5ce558f21bbd714e17e14270f1af5ad4d129"
+RPM_NAME = "ktrip-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "8f85ca920045ea4f106af9fd750477067535b511f478ee83a118a4d3e17fc6e055b3c19e70ad52682f230a502b085f65bbceca4dbdcb82b48a40d39cc49dcb1f"
 
 RPROVIDES:${PN} += "ktrip"
 

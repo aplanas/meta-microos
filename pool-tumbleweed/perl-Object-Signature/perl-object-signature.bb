@@ -10,14 +10,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.08"
 
-RPM_NAME = "perl-Object-Signature-1.08-1.17.noarch.rpm"
-RPM_HASH = "3aca19922a8fce8b30542867801ba6eced12217a2f1d825ac12d59a8045e54ed9aba294927be97482f456555793b6c10444d9d20780469d76950f82d927fe9cd"
+RPM_NAME = "perl-Object-Signature-1.08-1.18.noarch.rpm"
+RPM_HASH = "134ceb40d81e739c66e6bd893ce45c81a5c0f4ea3fb0b920e30254aa176e984570e8f7cab4e1cfb458d71cce17dd8e1012a63f2f34237c0e0509a0f9e6ca5738"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Object--Signature \
 perl-Object--Signature--File \
 perl-Object-Signature"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

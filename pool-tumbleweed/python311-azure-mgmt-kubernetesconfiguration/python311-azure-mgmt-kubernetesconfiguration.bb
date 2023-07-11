@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "3.0.0"
 
-RPM_NAME = "python311-azure-mgmt-kubernetesconfiguration-3.0.0-1.1.noarch.rpm"
-RPM_HASH = "662332876853b6e9cc38d2e59f44e76f86a270ec5066487d214a6599e591be7311eeb1304763fbff32fa7cc9227dd59cbeea4dc452aee332aba16650a3c76948"
+RPM_NAME = "python311-azure-mgmt-kubernetesconfiguration-3.0.0-1.2.noarch.rpm"
+RPM_HASH = "a2404602c0f38fe10c7fe81988dab36e6f3ef60e5a51d856281fef071211dac443dfa75075ae9380f6407f2c04c52783a5889716dc5526b62ee3877e1986958c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-kubernetesconfiguration \
+RPROVIDES:${PN} += "python3-azure-mgmt-kubernetesconfiguration \
+python3.11dist-azure-mgmt-kubernetesconfiguration \
 python311-azure-mgmt-kubernetesconfiguration \
 python3dist-azure-mgmt-kubernetesconfiguration"
 

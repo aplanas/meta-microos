@@ -17,8 +17,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "3.3.1"
 
-RPM_NAME = "percona-toolkit-3.3.1-2.12.aarch64.rpm"
-RPM_HASH = "ea0a507e74555aba79615560be399ed9e32b18fb738308bb58976bac5df07b409077adc81054dc6e8bebb1ac92f5f04ccb923f9889d014a69af8d45781267163"
+RPM_NAME = "percona-toolkit-3.3.1-2.13.aarch64.rpm"
+RPM_HASH = "3bd05a8728ff2d2acf45e3200b4eee67ccf965fb5db599e88c32ac4f4370c0ad03ac6061fc8ef7ea2207ce3260b054aeba6e35ebe1dbab58bfd286ebfd214b91"
 
 RPROVIDES:${PN} += "config-percona-toolkit \
 maatkit \
@@ -28,7 +28,7 @@ RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
 /usr/bin/sh \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-DBD--mysql \
 perl-DBI \
 perl-IO--Socket--SSL \

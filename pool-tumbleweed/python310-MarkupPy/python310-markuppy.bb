@@ -5,12 +5,11 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "1.14"
 
-RPM_NAME = "python310-MarkupPy-1.14-1.14.noarch.rpm"
-RPM_HASH = "bf9a8fb4baba78afad39b14d57e7c63125c632c3f7a3ae1b6012607e8ee0dba44d5efc5a1da824c32904730988d3589745fd3ff9bf05f67017f3ac2e7b55ddbf"
+RPM_NAME = "python310-MarkupPy-1.14-1.16.noarch.rpm"
+RPM_HASH = "479a04bc7023ddd6153fcfd4d2fca47270add2f6ab0b7c3fd90e9266453864df1db788752ee0675d47c56cea780f43a705f347dab85069084bdf124ae6ee3c0d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-MarkupPy \
-python3.10dist-markuppy \
+RPROVIDES:${PN} += "python3.10dist-markuppy \
 python310-MarkupPy \
 python3dist-markuppy"
 

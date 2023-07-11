@@ -12,11 +12,12 @@ LICENSE = "MIT"
 
 PV = "3.3.0"
 
-RPM_NAME = "python311-opt-einsum-3.3.0-2.7.noarch.rpm"
-RPM_HASH = "804530a88ab7c20628285844b4fe546b47057f167b5ecbe2b41e5e0b4dbc88a70c459586886f42ef173418eaa3f84633e00582eca64854e2f1e73e8764f1dcb4"
+RPM_NAME = "python311-opt-einsum-3.3.0-2.9.noarch.rpm"
+RPM_HASH = "d30416c80cb0e42b1536b155d189bda61493c18fb0ca954cd8dd96922eab85b35f798dc3b5a031f285b355117d9aa77710e463a9b6ae7da90795404935989eb8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-opt-einsum \
+RPROVIDES:${PN} += "python3-opt-einsum \
+python3.11dist-opt-einsum \
 python311-opt-einsum \
 python3dist-opt-einsum"
 

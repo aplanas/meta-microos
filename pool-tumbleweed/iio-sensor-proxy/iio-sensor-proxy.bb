@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "3.4"
 
-RPM_NAME = "iio-sensor-proxy-3.4-2.3.aarch64.rpm"
-RPM_HASH = "8c35a1e0f02096f7707bab0ac5ebeb928c1c0d8203e57e69f70c7652c4cd8d6b4e30ed52c55d8d1d0fdd2b649bde8094b5107d236ebb2025faeab36e58ad245b"
+RPM_NAME = "iio-sensor-proxy-3.4-2.4.aarch64.rpm"
+RPM_HASH = "5c5b704d98c241ee00b3ba35ea6737bf65eee211ea6e64594186a885a7b1fa9b88009ca17da4ffcffc8aee50cfdd02377621fa1591c6da4c97b7434bb8d10890"
 
 RPROVIDES:${PN} += "iio-sensor-proxy"
 

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-datavisualization-imports-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "aa19d9c8029906ed96c157238529c48a2f9bf676ccf4f0c087b6a2624df85797748d5bb0d7ecd115d8a238656ae87e23fc28023dd6cdc869de02a4b975e7a6b2"
+RPM_NAME = "qt6-datavisualization-imports-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "0c644a2bfe5d48d2fff3c47cb212aac83af7f4191fa181d21072f6859fd5b6079d108ab39514a423dccf806b608f48b90d415fe41cff0b88ab9d6a2507ead8b3"
 
 RPROVIDES:${PN} += "libdatavisualizationqmlplugin.so \
 qt6-datavisualization-imports"

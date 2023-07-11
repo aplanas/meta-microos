@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.8.5"
 
-RPM_NAME = "fence-sanlock-3.8.5-1.3.aarch64.rpm"
-RPM_HASH = "dc66eb24cfe4b4ac08490a220f44ed58c1cb05e94edff74b650b143ab3bdc82343b64d16225631100a4b9acee3795ddbcb02cc385de888ad2bfc6c9e04d64719"
+RPM_NAME = "fence-sanlock-3.8.5-1.4.aarch64.rpm"
+RPM_HASH = "04e8052102fdbd3d8bb3a071696d645cddc29c883356f52935ec1f84da632b9d2c4a6738a0dc63a8aa844a63ffe383314049613b28fbb10115baa8b506f93faa"
 
 RPROVIDES:${PN} += "fence-sanlock"
 

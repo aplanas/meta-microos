@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "7.17"
 
-RPM_NAME = "libipset13-7.17-1.2.aarch64.rpm"
-RPM_HASH = "eba032412713e287f458f8aba2bfb88cd23f77c4437c2d9f9c29a9cf692f6565d771f27d6139d8870fe3a846dd0257bbcad462cec5554127b88beb7890ffa8c9"
+RPM_NAME = "libipset13-7.17-1.3.aarch64.rpm"
+RPM_HASH = "c5705f39ba95910b9c1682cd4fd7e81fdd4138b8c63b03ac38d5b98cd845b9f7b8cf39ffe465bb4a49415d45b19d94d9789f16e79cfad4233f8c874bc46ecb1a"
 
 RPROVIDES:${PN} += "libipset.so.13 \
 libipset13"

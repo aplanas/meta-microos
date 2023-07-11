@@ -5,12 +5,12 @@ LICENSE = "MIT"
 
 PV = "1.22.4"
 
-RPM_NAME = "jc-1.22.4-1.3.noarch.rpm"
-RPM_HASH = "9a8df8747b75cb18efb04cf4d819493da2460d31dfb2e35b67dfe6f22b0687ddb408b41b031c02eb1313a4ace8651aac761b9960e82531ecc9fa3f6079cca6f3"
+RPM_NAME = "jc-1.22.4-1.4.noarch.rpm"
+RPM_HASH = "3f05c052f51101533c7e08160da168cf25ee62f2ede65ae604982f69be3bf8048ae400810f435d01f549360b036189c16140d50101b0bda816f254436b3a6f4c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jc \
-python3.10dist-jc \
+python3.11dist-jc \
 python3dist-jc"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

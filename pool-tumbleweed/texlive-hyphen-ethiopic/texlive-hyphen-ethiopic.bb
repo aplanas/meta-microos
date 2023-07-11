@@ -6,10 +6,10 @@ typography, be replaced by files tailored to individual \
 languages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn58652"
+PV = "2023.208.svn58652"
 
-RPM_NAME = "texlive-hyphen-ethiopic-2023.201.svn58652-52.1.noarch.rpm"
-RPM_HASH = "ccc6b1ff08ea7d739573be76c1ca7e354a6caf760911fa65873f27b90b0236d52f4409c182dec8178b5422a0111efc5ba2f66cdcdfe843e676686c70e5591dc4"
+RPM_NAME = "texlive-hyphen-ethiopic-2023.208.svn58652-53.1.noarch.rpm"
+RPM_HASH = "40d19bd3a825c2162eee5170c529c3023516889e95cca20758381e5f1ac44c6de98ba9a1e9257e94f346bdfdf6dde2d2e0875f6353f099a7241a0974243dfe9d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-mul-ethi.tex \

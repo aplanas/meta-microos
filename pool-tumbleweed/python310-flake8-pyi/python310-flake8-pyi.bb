@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "23.1.2"
 
-RPM_NAME = "python310-flake8-pyi-23.1.2-1.2.noarch.rpm"
-RPM_HASH = "be9bd7a6be5956f772c4cc4a85e55488aab51d50a5b099b7083df7101faa9de7f40ba7f00d3e19a6beaed63f2f980139bbddab92502a7fb4e72ab31923fc5cb8"
+RPM_NAME = "python310-flake8-pyi-23.1.2-1.4.noarch.rpm"
+RPM_HASH = "ac6ed1dad8c3178fb51380b3ed9a11b63429947b70a97cd6a04c4197514d67611b617f1ae01df46fa418d862603a95abddd08489db1639a68315ceac0700c7d8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-flake8-pyi \
-python3.10dist-flake8-pyi \
+RPROVIDES:${PN} += "python3.10dist-flake8-pyi \
 python310-flake8-pyi \
 python3dist-flake8-pyi"
 

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.20"
 
-RPM_NAME = "kamerka-lang-0.20-1.11.noarch.rpm"
-RPM_HASH = "e4eb29af387d4d95ea69b5ac09965f50a8f3ee8ca18c53f2e94eb66a93e126c80835e8b06a311c6a552d1f7219d8dd247cb2441cde8be19c32c3d19da1029da0"
+RPM_NAME = "kamerka-lang-0.20-1.12.noarch.rpm"
+RPM_HASH = "d753690f3cfd1c6fe8160863e23e812dfb86d386e2c995e25bb8e6fbffaf439144b5e4f276d9398de4ab518209b919c07dc478911b6debc0454700315672ef73"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kamerka-lang \

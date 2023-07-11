@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.0.3"
 
-RPM_NAME = "typelib-1_0-Shumate-1_0-1.0.3-1.3.aarch64.rpm"
-RPM_HASH = "fb5f64e57ab66db53378eb257ad8c794c4acdefc47b3831521571e70c6dff57bbe658ee892851502fbff61b2e7927135b5d1242d00581ed7f29cf751773f4f5d"
+RPM_NAME = "typelib-1_0-Shumate-1_0-1.0.3-1.4.aarch64.rpm"
+RPM_HASH = "5f88e18657d11a4b4fab26a6f45dc73f6871c844dd4d5a861b7ea1d72b7eb95da1b6f9c7b027ba1d2549e5d8cd194d423ea717af42389d6406b7d1757a0b0944"
 
 RPROVIDES:${PN} += "typelib-1-0-Shumate-1-0 \
 typelib-Shumate"

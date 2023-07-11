@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & LGPL-3.0-only"
 
 PV = "0.32.14"
 
-RPM_NAME = "jnr-enxio-0.32.14-1.1.noarch.rpm"
-RPM_HASH = "1f35a0679bb0abe22f1f66a206f8300ed7f4f4d2e76a2176d4cf61c1a06ff74c0cebd52414a941405968505f7eaa08a536b9c9d2f5f4be368aac2c2c37f56237"
+RPM_NAME = "jnr-enxio-0.32.14-1.2.noarch.rpm"
+RPM_HASH = "784f00fa2c3302cf842c1a5ec3d4cc21abd170943cb9135a1ca29bc2f5871e996563a962874ca56e391f02808771b35aae2fe3f87854d8aa086b73bfc991a7e4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jnr-enxio \

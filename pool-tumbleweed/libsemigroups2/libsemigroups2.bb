@@ -10,8 +10,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.7.1"
 
-RPM_NAME = "libsemigroups2-2.7.1-1.1.aarch64.rpm"
-RPM_HASH = "9b0d9d65a40bf95c51fd37d98ba923258c8994de60dd86148e8ae4b5a3988f9d78a6aa6dc561c5e6bf34a51ee465c1bd1c2f736c82839c22f3f50a3260186e7d"
+RPM_NAME = "libsemigroups2-2.7.1-1.2.aarch64.rpm"
+RPM_HASH = "155382a0e6eeb91422296e4407b9e5f933fd44069238893b3c6f39b4ff56a4c11f7f082e9df46272e99296da48c8c4bdbfc7293f7ec0a1402b896c72d7a8c45c"
 
 RPROVIDES:${PN} += "libsemigroups.so.2 \
 libsemigroups2"

@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.5"
 
-RPM_NAME = "policycoreutils-3.5-2.1.aarch64.rpm"
-RPM_HASH = "0c74df6244dd34aa62eeed117d63e23a85f5954e1bc2da5b68e1e33b96c333a2ff9c4915b4c0f63ff9e8b1346506e21f28f08c9dee582d5c0064ef989a15f20a"
+RPM_NAME = "policycoreutils-3.5-4.1.aarch64.rpm"
+RPM_HASH = "e6f35f30ffa576eafd2884eb09272bd3ac374689f87c023a1028f80ad04c962a0abf718614bb93e60bb90b668d3ce7f12ef526990ded50a0105f3ff295855f9c"
 
 RPROVIDES:${PN} += "config-policycoreutils \
 policycoreutils"

@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.5.2"
 
-RPM_NAME = "libsigrok4-0.5.2-4.12.aarch64.rpm"
-RPM_HASH = "f8a08179296516ce81613243286b7edef103ebfb13154eabe25eaee76d8746e6d19752acfdb9ceaf318e8786d880a11da4eb6fb698295858859c3c6f4b3a035c"
+RPM_NAME = "libsigrok4-0.5.2-4.13.aarch64.rpm"
+RPM_HASH = "66bebbcef3998b9bb2ad4dcdf6f3b14d9635529c18c067086a87cde17a22fd18f432d60fdea91a6f5a0caa5961bf8d9415fb853241f015d043593374425767cc"
 
 RPROVIDES:${PN} += "libsigrok.so.4 \
 libsigrok4"

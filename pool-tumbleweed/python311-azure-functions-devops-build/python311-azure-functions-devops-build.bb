@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "0.0.22"
 
-RPM_NAME = "python311-azure-functions-devops-build-0.0.22-2.11.noarch.rpm"
-RPM_HASH = "0cccf48ac429b7aca1302ab2bfed7307c1e5490ddd1177f63a4364ad33d3edd99a8471d7bd5f7aa5a44e36d3e6da8a27fed51fb9ed36a4ccf9671c407383686f"
+RPM_NAME = "python311-azure-functions-devops-build-0.0.22-2.13.noarch.rpm"
+RPM_HASH = "07c28a0a52e953d5fc7daa82a5d140e9f9bedfefb43cf2628c5e9915b7c3ecd6477b164f7fb5fea76fcb041a5e2c2cccbc307f2a20236014aec793ae544fff5c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-functions-devops-build \
+RPROVIDES:${PN} += "python3-azure-functions-devops-build \
+python3.11dist-azure-functions-devops-build \
 python311-azure-functions-devops-build \
 python3dist-azure-functions-devops-build"
 

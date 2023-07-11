@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6.7"
 
-RPM_NAME = "ghc-containers-prof-0.6.7-3.1.aarch64.rpm"
-RPM_HASH = "d83343b5ed78f8b27d546d7cac07af82f3a2f3641787bf8f73c0b5850f3510ec91ecd5c52321db630302aa8a60ab9e36d60538a6ef6166cd261bb32fa2df5acb"
+RPM_NAME = "ghc-containers-prof-0.6.7-3.2.aarch64.rpm"
+RPM_HASH = "f4dea813a0811c75cc9c4442dd1f50aa597aac05535318c0ee5e11c87f677d4e46bdbc660d387c7d0ef3698314d599918fa072c49fd85d6626c465127d28ef38"
 
 RPROVIDES:${PN} += "ghc-containers-prof \
 ghc-prof-containers-0.6.7"

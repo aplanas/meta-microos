@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.1.1"
 
-RPM_NAME = "python39-falcon-3.1.1-1.4.noarch.rpm"
-RPM_HASH = "fae7c8a97dcdbb645d07d318ae38dec888839d2f0dd16bb15157ca350c376d3ae2a955bd2da47ab58f233efff1acb4b309c3f37ff1f2c893ffedc653e0289db8"
+RPM_NAME = "python39-falcon-3.1.1-2.3.noarch.rpm"
+RPM_HASH = "f33455da43f39de4ed80870541d625316329002aade9ad6e573ce1868eca27a488dcf0edcc5af40314198424c9847186a108b5674d6c87bda75829043c07b8b7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-falcon \

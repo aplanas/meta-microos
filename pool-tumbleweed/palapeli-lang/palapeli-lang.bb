@@ -2,10 +2,10 @@ SUMMARY = "Translations for package palapeli"
 DESCRIPTION = "Provides translations for the 'palapeli' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "palapeli-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "248d57ba32c2a50ba6f21534b36ae1bbc5d9d7cd031ca0d739f67efff184b245a24abcb1c5bb91824a10269cfd18d2f0643e9c19044c301cf558ca7d8d929f3b"
+RPM_NAME = "palapeli-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "864e332b9702cfc18e4bc37bcf7469db17e9ed7ed851bc26f8131b605f90d3e9d196c0c9cb31c58c5f07a449ea4d1adb9510f6fcc31d4a111543f1d4e57864d3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-palapeli-bg \

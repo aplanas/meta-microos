@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-mathabx-type1"
 DESCRIPTION = "The  separated fonts package for texlive-mathabx-type1"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn21129"
+PV = "2023.208.svn21129"
 
-RPM_NAME = "texlive-mathabx-type1-fonts-2023.201.svn21129-52.1.noarch.rpm"
-RPM_HASH = "d1a137d2cbfa6a126e073f8491e2a20f541a44f135a62c3c5e67e81b3fee1f4cd0f77e61e42cf95ea281b4f471feb3311743ce1349a6dff64e0fccc948bd5a74"
+RPM_NAME = "texlive-mathabx-type1-fonts-2023.208.svn21129-53.1.noarch.rpm"
+RPM_HASH = "7bef1f196c638a94be7bd8721a42d23cbcd30dc806a5afbdb9c4e4f81fdd8bdea196fa5817609c1e6b2a31d2e38baccd36c9b850d38da7729756640c0c3acc5d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

@@ -3,10 +3,10 @@ DESCRIPTION = "NSD is a complete implementation of an authoritative domain name 
 by NLnet Labs, with the purpose of creating more diversity in the DNS landscape."
 LICENSE = "BSD-3-Clause"
 
-PV = "4.6.1"
+PV = "4.7.0"
 
-RPM_NAME = "nsd-4.6.1-1.4.aarch64.rpm"
-RPM_HASH = "da25ef848d06c46e4004d39e46782179dec8a3acc99a14920d164b1167afa0e7630b654a0dc1c03ff0297f89936c0e24cdff9c38095a89c4e97389dd3348c1d8"
+RPM_NAME = "nsd-4.7.0-1.1.aarch64.rpm"
+RPM_HASH = "18b02367ae63b659bf5defe9e0de74a7329d012706f8f3b3f8ba92f3303776fbe69fbf8f778ff3b7954112449bc692f7f8e9b369c04e12185d4cff594a64b36f"
 
 RPROVIDES:${PN} += "config-nsd \
 nsd"
@@ -19,7 +19,6 @@ libc.so.6 \
 libcrypto.so.3 \
 libevent-2.1.so.7 \
 libssl.so.3 \
-pwdutils \
 shadow \
 systemd"
 

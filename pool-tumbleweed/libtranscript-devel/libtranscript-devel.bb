@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.3.3"
 
-RPM_NAME = "libtranscript-devel-0.3.3-2.14.aarch64.rpm"
-RPM_HASH = "c624db39a873a594974eddd186a858175745fba1f5bf5d37146e8e8ee2d6c99bcb84c25cbe18b753242073b97240547d327d2b4bcf8636d68a4aac1faad9c8b6"
+RPM_NAME = "libtranscript-devel-0.3.3-2.15.aarch64.rpm"
+RPM_HASH = "c8b109e6be3b0fe601e348d8eb2fa1d525d54372adcd98452558a74934d2ece13883084b9efd43ae75a8017e32c795b53c866f78c1b9708a511ff76b3c6d5673"
 
 RPROVIDES:${PN} += "libtranscript-devel \
 pkgconfig-libtranscript"

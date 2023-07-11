@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.0"
 
-RPM_NAME = "live-langset-data-2.0-17.2.noarch.rpm"
-RPM_HASH = "6c79b303497f3018724437089b85eb052a9f9b61c41141d2340fb8f9d41aebd0af0b36d8fdb4a942a0a411d15284c28e7a1e8d395c1c33835f9c3be00bbbb425"
+RPM_NAME = "live-langset-data-2.0-17.3.noarch.rpm"
+RPM_HASH = "f0ffad0cb0c641a750ee704a2f397f3efb7b39bcae5ccd1a0193a3cff8fa7c79b3313a5c7b14c5167fff538fe32ff1b3620b8c1070390328b16b0e9cc3a902ba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "live-langset-data"

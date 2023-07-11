@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.28.0"
 
-RPM_NAME = "skrooge-lang-2.28.0-1.11.noarch.rpm"
-RPM_HASH = "156c6796b83d9e21e586300f5aeec0993f7500f41acb73d1db4396991273c1b07a87837c09becf55d0947b0690a3a4f1fa3b4dafef67f72ca4d5c6426f8b8721"
+RPM_NAME = "skrooge-lang-2.28.0-1.12.noarch.rpm"
+RPM_HASH = "ad1ade0e6f74a1982a15a3ebddf163a0465efedb4bb7909a4256060813f83d011be0f91b371703abae98f768335bdf8e255cc28cbfd18a6ec1e26d5ffbb257d8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-skrooge-ar \

@@ -10,8 +10,8 @@ LICENSE = "ISC"
 
 PV = "0.4.2"
 
-RPM_NAME = "python39-resampy-0.4.2-2.1.noarch.rpm"
-RPM_HASH = "7936381a3255cf26f6efc13aba1962c5da5658df2619d7a22b0556d6381c7fa9f6cbe0c1e67a23e01c175e7764a9acddfdbe781d28b2804e5396f444a8f072f0"
+RPM_NAME = "python39-resampy-0.4.2-3.1.noarch.rpm"
+RPM_HASH = "d9c13eb52937ba516b10000a0c593a75fa7be86065a7a90c8031f31acc2c1e07a2ee13ef3e8ba4c9100ebfcee77f68415bbdbf9be9804bc880c07b026f95427c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-resampy \

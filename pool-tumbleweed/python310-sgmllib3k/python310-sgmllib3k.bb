@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause & Python-2.0"
 
 PV = "1.0.0"
 
-RPM_NAME = "python310-sgmllib3k-1.0.0-4.6.noarch.rpm"
-RPM_HASH = "e277bce4868cd3d270a00b26a010238744b2ae419b787cf2f8000e27dd1eaf3d5b229f7531ca1d7183af9ab438fe9e4d40e0ec28f7d144f5037f7aa4bf1656d4"
+RPM_NAME = "python310-sgmllib3k-1.0.0-5.1.noarch.rpm"
+RPM_HASH = "88213f8e489575a264a4e60565f20da365aeb9dff5262b313a123a53a4c008f0bce691f1460086c4561197e5339b5ee265f4b7262534bb9eb065fd5cf82b60e8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-sgmllib3k \
-python3.10dist-sgmllib3k \
+RPROVIDES:${PN} += "python3.10dist-sgmllib3k \
 python310-sgmllib3k \
 python3dist-sgmllib3k"
 

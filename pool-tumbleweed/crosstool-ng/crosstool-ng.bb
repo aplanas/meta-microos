@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only & GPL-2.0-or-later & GPL-3.0-or-later & LGPL-2.1-only & 
 
 PV = "1.25.0"
 
-RPM_NAME = "crosstool-ng-1.25.0-1.3.aarch64.rpm"
-RPM_HASH = "59fdc2ad3c6a4655f94b967fc6520e9b521204e62c6efbf2569e1bf80130d3a8f3de170b1df0faf200ef33be3a0db592c0190fa8c1284b03e54b170c0786fbcb"
+RPM_NAME = "crosstool-ng-1.25.0-1.4.aarch64.rpm"
+RPM_HASH = "3a10b706c65d027204119b12b4b6ba152ad0e9b84aebe69227002675983db75ad1543e71f4b3b35a9213633e431828238d4d0100abf4bea3c3480f2855d0361d"
 
 RPROVIDES:${PN} += "crosstool-ng"
 

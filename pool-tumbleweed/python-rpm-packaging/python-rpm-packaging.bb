@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "20210526+a18ca48"
 
-RPM_NAME = "python-rpm-packaging-20210526+a18ca48-1.8.noarch.rpm"
-RPM_HASH = "65524e57339bef6a72cf4bf3e6c1e7f131dba3331a3250594e382f605973806618ce2b8b30070b41a7f2f490184afddd8a9ae9f072bbcfd130f98621cf3686ca"
+RPM_NAME = "python-rpm-packaging-20210526+a18ca48-1.9.noarch.rpm"
+RPM_HASH = "eb542466370fa3b8d20fb03b9ffd8611418976e79fc34ec83d8698f5319c716478cafa3a3b3e070c6708afe180c10fbfa0e0854643634361b78f3e009ffb9639"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-rpm-packaging \

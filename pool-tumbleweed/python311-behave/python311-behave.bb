@@ -9,11 +9,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.2.6"
 
-RPM_NAME = "python311-behave-1.2.6-5.6.noarch.rpm"
-RPM_HASH = "76eaa3f5394084955bab82581378cb7a53cb76f464d60bc3b8535ff03569068a1d0527771025abc8912a86e96fd163155d4129cfa75ad42f809192c67dd59b80"
+RPM_NAME = "python311-behave-1.2.6-5.8.noarch.rpm"
+RPM_HASH = "554c11c6524f6560e1adb98032f5e61421270ecfe4f42febb599333da7bfc0284692b3f56e44666517476523b5e91c9af207c217c27d160a16f1e4d862a4b5b6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-behave \
+RPROVIDES:${PN} += "python3-behave \
+python3.11dist-behave \
 python311-behave \
 python3dist-behave"
 

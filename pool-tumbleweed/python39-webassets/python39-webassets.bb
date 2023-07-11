@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0 & BSD-2-Clause & LGPL-2.1-only & BSD-3-Clause & MIT"
 
 PV = "2.0"
 
-RPM_NAME = "python39-webassets-2.0-3.11.noarch.rpm"
-RPM_HASH = "dbbe03b5f542db940d3a5d48bdf5c62370d91d047badf5037511fef8f91e8347e6c8bb1ec121e4ef088cf5808ee47c4443a0345e3cdaf68a9ff3fe292a5990c0"
+RPM_NAME = "python39-webassets-2.0-3.13.noarch.rpm"
+RPM_HASH = "4342c8bb01e683d6ad3e87c42bc259a003f3ed5d68eaede2680096e3d3e361c133312d52de9bfbf2ff1360c90363b85386a373690c95a162aee7079cc4d59901"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-webassets \

@@ -5,10 +5,10 @@ API guarantees. The packages that build against these have to require \
 the exact Qt version."
 LICENSE = "GPL-3.0"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libqt5-qtvirtualkeyboard-private-headers-devel-5.15.9+kde0-1.1.aarch64.rpm"
-RPM_HASH = "a45b4da1d1e6927114ef12289360916087eb61565bcef98f0a440744b1953ae227b2114b84056d6d69b320911c98481f039f3a71be613c5fa95aec4d5a6f57e9"
+RPM_NAME = "libqt5-qtvirtualkeyboard-private-headers-devel-5.15.10+kde0-1.1.aarch64.rpm"
+RPM_HASH = "b9a19f03a594e594c32439281c51a7b887cffbaf61ba27d75f50f28750330be57f48169896e009d231de528f0c5663eecb2e5b4afd88bbd970945d48190e431f"
 
 RPROVIDES:${PN} += "libqt5-qtvirtualkeyboard-private-headers-devel"
 

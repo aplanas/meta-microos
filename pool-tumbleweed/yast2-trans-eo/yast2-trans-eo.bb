@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Esperanto Translations"
 DESCRIPTION = "YaST2 - Esperanto Translations."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230516.e4ba802a"
+PV = "84.87.20230630.ccfa6add46"
 
-RPM_NAME = "yast2-trans-eo-84.87.20230516.e4ba802a-1.1.noarch.rpm"
-RPM_HASH = "6296430253a5d19bbd9d645ed630c035824dc09ebbc4f94a8cce50456cdca50a031d6833b2d47b112ddd77792022b8e70c8b5946a87e270ff25eb144d6e10f34"
+RPM_NAME = "yast2-trans-eo-84.87.20230630.ccfa6add46-1.1.noarch.rpm"
+RPM_HASH = "bfad4995437a4b384fc106d39e0e84adbe85deecbcf5f8b8290a6907aa53f3d04c30414db08f801abe8246aa2dcdf884416ee64b4fa2b20e60d3bcee22698817"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-eo \

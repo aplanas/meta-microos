@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.6.9~1"
 
-RPM_NAME = "mangohud-0.6.9~1-1.1.aarch64.rpm"
-RPM_HASH = "060181f05cba5d823b30316c1e1227d07b6524a13f06d8000dad0f8bb94434c5d9fee97b03a486fcc8e190a65e16e0f223134b0e775f479c0911ca970d018219"
+RPM_NAME = "mangohud-0.6.9~1-1.2.aarch64.rpm"
+RPM_HASH = "2cef8db64e8df553c0edb9294cfce3ace24509855e78969a0e613dc6a5df6376ad0ea5a849d9ea24eab6003dc6a80bcf92b35a7c92c75c3c35deb5b5c4633328"
 
 RPROVIDES:${PN} += "bundled-ImGui \
 bundled-Vulkan-Headers-sdk \

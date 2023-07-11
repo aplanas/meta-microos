@@ -4,11 +4,10 @@ LICENSE = "MIT"
 
 PV = "1.6.6"
 
-RPM_NAME = "python310-debugpy-1.6.6-4.1.aarch64.rpm"
-RPM_HASH = "daa2d0ce372bbb2689d43ad985a3e687ea823e1021acb081b5aa040ba5eed51d01e3d5491f6b8a87059106e849fbc1fd96199c37bee4eb7424017b19ac5a5d4b"
+RPM_NAME = "python310-debugpy-1.6.6-4.2.aarch64.rpm"
+RPM_HASH = "ed78e8a9181eaf6752c250dff3fd72bb59a1a4f5f3d1442e28d44185d1faa6bdd6b262564b045c2ee6249c4f42599b2776a5f7878aa36b153c27ca19cc9c30c1"
 
-RPROVIDES:${PN} += "python3-debugpy \
-python3.10dist-debugpy \
+RPROVIDES:${PN} += "python3.10dist-debugpy \
 python310-debugpy \
 python3dist-debugpy"
 

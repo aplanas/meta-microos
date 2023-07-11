@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.24"
 
-RPM_NAME = "libiio-daemon-0.24-1.4.aarch64.rpm"
-RPM_HASH = "5cd131c3b1d8b6b1d2943b869f0212ed7355b9878e6650501bb70bbd1c50f4045c9126a4a37309b2ed6ae61d86fb294cdb7c993561e35775ca0aa6094322a96e"
+RPM_NAME = "libiio-daemon-0.24-1.5.aarch64.rpm"
+RPM_HASH = "fb1fc4dace61e9932c41872b74c989109cc0011bda51e2089fdfc14fee75c6043b52a0e86753f91254134598fe1a5ec576a3327cb8e455cab2f97fa9d1662287"
 
 RPROVIDES:${PN} += "libiio-daemon"
 

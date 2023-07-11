@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & GFDL-1.2-only"
 
 PV = "0.6.3"
 
-RPM_NAME = "libflorence-1_0-1-0.6.3-5.10.aarch64.rpm"
-RPM_HASH = "f5806256c7204edb5ebae1c92a567335d8ef6a2911a367bcd25941ad996ad02532e5878b3db5a5bcedbe33cac488433d444525e615e085925a16570343b437b1"
+RPM_NAME = "libflorence-1_0-1-0.6.3-5.11.aarch64.rpm"
+RPM_HASH = "8ee3c6f4ef244468291f0a67623089294fac9e1e5d19631898a9acb7c7e26b243559defc516b0d00c5ee31802555369c5cb5bfe69570211350179632cc7b1c33"
 
 RPROVIDES:${PN} += "libflorence-1-0-1 \
 libflorence-1.0.so.1"

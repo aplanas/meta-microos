@@ -12,14 +12,14 @@ LICENSE = "Artistic-2.0"
 
 PV = "0.09"
 
-RPM_NAME = "perl-Module-Implementation-0.09-1.25.noarch.rpm"
-RPM_HASH = "bcfee1cdeb6c271734d7557388a7ca0a28b0dc353a0a67f5548aa3fcef2d53882dd11eca12894551fb311dba682eb926a33a8e5ed16f5f660d596bfc8b714b09"
+RPM_NAME = "perl-Module-Implementation-0.09-1.26.noarch.rpm"
+RPM_HASH = "237740fa00d1bfa1ee9417f4912eaa7a3564bb7aa3cbb42ece148294873534af9722a773ba9fea5e59f9969bd0e74acfa5c32cf16adc8540ec4fa8275b695272"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Module--Implementation \
 perl-Module-Implementation"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Module--Runtime \
 perl-Try--Tiny"
 

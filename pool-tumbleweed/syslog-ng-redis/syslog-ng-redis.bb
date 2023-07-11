@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "4.2.0"
 
-RPM_NAME = "syslog-ng-redis-4.2.0-1.1.aarch64.rpm"
-RPM_HASH = "76c1c9d079417a13f4836f82e40a902ec29f0c7cc151b8ff509b9bd748280a9b5908810e7517283f2373e6408abd673f11c9f8d81b688bc2636ccd2ec6339ea2"
+RPM_NAME = "syslog-ng-redis-4.2.0-2.2.aarch64.rpm"
+RPM_HASH = "c62561ca70a14624e0ab046135d8577b982ef81d757e7ba80091397e801a4621673d7c0c0186b3f31b2e8313bbcb6ee389e9c8423d495e2f7ce2f90bf1875ffc"
 
 RPROVIDES:${PN} += "syslog-ng-redis"
 

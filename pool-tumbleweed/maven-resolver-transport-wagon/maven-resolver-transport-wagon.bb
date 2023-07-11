@@ -2,10 +2,10 @@ SUMMARY = "Maven Artifact Resolver Transport Wagon"
 DESCRIPTION = "A transport implementation based on Maven Wagon."
 LICENSE = "Apache-2.0"
 
-PV = "1.9.8"
+PV = "1.9.12"
 
-RPM_NAME = "maven-resolver-transport-wagon-1.9.8-1.1.noarch.rpm"
-RPM_HASH = "c410a4b71edccc78323fc39215b2212d9155300857a048e705a58659d5494d788f91a3d47593da396f96880c9028490512d793d33f596a179f9c5c270da2f925"
+RPM_NAME = "maven-resolver-transport-wagon-1.9.12-1.1.noarch.rpm"
+RPM_HASH = "49c2d787387771870126797c1a8b25028828eaa148bc8b2e8e0c59da5216fc4de364d239495b942509581721f8a4cd7ba69cfcc0296fdc6929dce3abfa8db778"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-resolver-transport-wagon \

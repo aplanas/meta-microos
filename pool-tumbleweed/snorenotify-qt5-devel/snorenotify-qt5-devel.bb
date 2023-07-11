@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0"
 
 PV = "0.7.0"
 
-RPM_NAME = "snorenotify-qt5-devel-0.7.0-2.34.aarch64.rpm"
-RPM_HASH = "a916c4b802ffc969bbea9322051e6cbc6a4178a25f8b623d92805d4accd5c84053f85c5585419221f226293afff75ab020feac600fd43a3bdce7f15dc79c54cb"
+RPM_NAME = "snorenotify-qt5-devel-0.7.0-2.35.aarch64.rpm"
+RPM_HASH = "2b71555b8ab590dd9aff5524bff93473fb4847addea8ec1ba56ce90cc883b96ff663b6439226b49fc672bbf793028bf6f3f79775469e9080693b54f58673c94a"
 
 RPROVIDES:${PN} += "cmake-LibsnoreQt5 \
 cmake-LibsnoreSettingsQt5 \

@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "8.0.1"
 
-RPM_NAME = "libmgl-fltk8-8.0.1-3.3.aarch64.rpm"
-RPM_HASH = "06389c682fb9882c0e65e09700f795e6b46e0e10a21ac9f66f3283e24c8a089a385186602ea824fe455586c8b4e80fcaada2e7454d0131be3e4f1afc4b62b675"
+RPM_NAME = "libmgl-fltk8-8.0.1-4.2.aarch64.rpm"
+RPM_HASH = "9698356d368aedc0c2977744805592117bdec1d92700d7db146a68af96c324a4e8b5681cb134e7406f8edcba6823b8a5110fec93b546c07d16ff379074912ff9"
 
 RPROVIDES:${PN} += "libmgl-fltk.so.8 \
 libmgl-fltk8"

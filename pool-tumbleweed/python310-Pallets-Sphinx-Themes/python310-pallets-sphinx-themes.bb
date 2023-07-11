@@ -6,12 +6,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.1.0"
 
-RPM_NAME = "python310-Pallets-Sphinx-Themes-2.1.0-1.1.noarch.rpm"
-RPM_HASH = "1251856c0d3f4756a1308d637956ba8141b2129739afa6aaac10c6ae40d4278a97a7ec1c305444346ee5869904ca34fde01ed01a6c5787c216aa3b057ff6fa3d"
+RPM_NAME = "python310-Pallets-Sphinx-Themes-2.1.0-1.3.noarch.rpm"
+RPM_HASH = "2e3e0d911592ea82b3d7152e9752207e279a7675f2bf88fcb2cd6adc2dc23d4a8ee72113ed612f49e8e5fe3e3a11ecc1c690229726dc006846d93677b44e3359"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-Pallets-Sphinx-Themes \
-python3.10dist-pallets-sphinx-themes \
+RPROVIDES:${PN} += "python3.10dist-pallets-sphinx-themes \
 python310-Pallets-Sphinx-Themes \
 python3dist-pallets-sphinx-themes"
 

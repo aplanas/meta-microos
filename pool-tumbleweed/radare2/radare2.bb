@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only & LGPL-3.0-only"
 
 PV = "5.8.6"
 
-RPM_NAME = "radare2-5.8.6-1.1.aarch64.rpm"
-RPM_HASH = "d90ecdf9da1d07a90169108c24e15f6af38a51ed349566f603ed0c2d80059752ce262cfde7803975118514a64035d61cff64fd07214f0f14bfd7ff242f45a1fc"
+RPM_NAME = "radare2-5.8.6-1.2.aarch64.rpm"
+RPM_HASH = "9caeb4828cae8dc712ab9452b1767a4e2afb9597a0490bdedf66f85c018db9c37acd048a98b7f5347d39517bbb8bc12ef7bb100056ad62268e506110cdab4c50"
 
 RPROVIDES:${PN} += "libr-anal.so.5.8.6 \
 libr-arch.so.5.8.6 \

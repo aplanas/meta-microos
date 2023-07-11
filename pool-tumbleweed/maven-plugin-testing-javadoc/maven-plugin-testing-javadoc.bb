@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.3.0"
 
-RPM_NAME = "maven-plugin-testing-javadoc-3.3.0-5.12.noarch.rpm"
-RPM_HASH = "77c777b0a9fdacc452f0493618eed672c1a82f9646af3e48684b0a460e61da245bf6be07495dacf1579903f4101dd9cafd7c56ada4d4e8023c5068b62792ba29"
+RPM_NAME = "maven-plugin-testing-javadoc-3.3.0-5.13.noarch.rpm"
+RPM_HASH = "b886d2a80c454328b069dbfe4832d35e215fce397ca84daa7628cda3a64f652a4a8f05fdfe925f9ad1bcb969cf381a84f70b05368e75c6e08f2c47ead8a4d616"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-plugin-testing-javadoc"

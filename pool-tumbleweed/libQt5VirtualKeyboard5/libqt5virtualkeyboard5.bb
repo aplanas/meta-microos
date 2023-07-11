@@ -2,10 +2,10 @@ SUMMARY = "Qt5 Virtual Keyboard library"
 DESCRIPTION = "Internal library used by Qt for providing Hunspell support."
 LICENSE = "GPL-3.0"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libQt5VirtualKeyboard5-5.15.9+kde0-1.1.aarch64.rpm"
-RPM_HASH = "12949e01f73695b962cab47a42a73b793ba1df25f1bd20ebf15a5ec0723cb926c5a5e6aebecfd59e37c000412be0bb578b8b5c21bd38cd5d9ee6ea91b01b4386"
+RPM_NAME = "libQt5VirtualKeyboard5-5.15.10+kde0-1.1.aarch64.rpm"
+RPM_HASH = "5d6d6371f2e36af2f53cfd5df9c481c4660b5d94000e17d96ece0dd98bad2d52cbdc4b7121c6996baf7b2486df8ece43d4a5cad7cfef60811f0018b1be075450"
 
 RPROVIDES:${PN} += "libQt5VirtualKeyboard.so.5 \
 libQt5VirtualKeyboard5"

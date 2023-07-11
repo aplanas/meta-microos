@@ -6,10 +6,10 @@ This package contains libraries used by the XRootD servers and \
 clients."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "5.5.4"
+PV = "5.5.5"
 
-RPM_NAME = "xrootd-libs-5.5.4-1.1.aarch64.rpm"
-RPM_HASH = "1bdce4f46b200eb933a2d121b1c29aecc4d3d27b5a80df4e0aff30bfaf6b86ce0ec518c5c739076839a243ca3f7f32f4932fbd11b1b51e360abe60ad352b0709"
+RPM_NAME = "xrootd-libs-5.5.5-1.1.aarch64.rpm"
+RPM_HASH = "ead1cadf06a6dc39affd3959c07182611ca8c01be477d3405142cc16b87f090a311c4221e3b90dea830bf39ebd943af3bf5435ad4cdd1adb12a2b6c6181447f7"
 
 RPROVIDES:${PN} += "libXrdAppUtils.so.2 \
 libXrdCksCalczcrc32-5.so \

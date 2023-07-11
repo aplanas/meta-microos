@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-scxml-examples-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "a58757c2126b2b643863d64e8fedf3519d21f78f70c1b6c7eba2e85a43a9cdfbb307c6f354919af678495ee87a6bab82e9979eacfa08e6102547b69933e2d059"
+RPM_NAME = "qt6-scxml-examples-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "7f83c2e501122af586e2b127e60ec4727021d44163ee4e0a6ae5d47cbb2bef0d565d06ada50bdd6ce897ec4793626b19c0170c9d0b9f0bdff8feec22980c9bf2"
 
 RPROVIDES:${PN} += "qt6-scxml-examples"
 

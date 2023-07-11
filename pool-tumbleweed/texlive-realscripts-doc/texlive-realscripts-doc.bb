@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.3dsvn56594"
 
-RPM_NAME = "texlive-realscripts-doc-2023.201.0.0.3dsvn56594-53.1.noarch.rpm"
-RPM_HASH = "0f339eea9fc78d7cca5a21ac19249f44d1763bd1557ad7f28baa5a159706f1230243974d6f1cec39832fcc4939bbb68b994ad78830dc73bf6ca9cb7ce3d22642"
+RPM_NAME = "texlive-realscripts-doc-2023.201.0.0.3dsvn56594-53.2.noarch.rpm"
+RPM_HASH = "5bb2fe391c27099b04a67ba5e127a1bb56fc3122994564e2b6bbb7f3d905ff04ad023f3fce75a873ca57cfcaf97d4ac2b484d693d9d80b45958ca3bdd74f9726"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-realscripts-doc"

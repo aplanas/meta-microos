@@ -11,8 +11,8 @@ LICENSE = "X11"
 
 PV = "1.1.0"
 
-RPM_NAME = "bitmap-1.1.0-1.5.aarch64.rpm"
-RPM_HASH = "d110da01131df4a13c40b2d796d2829cd0988b485b76689b66ad3c692d5efaf506d88d57377e6ce33cbea5715b20cbe55902326fd4dd9a37d2122faaecdecd5a"
+RPM_NAME = "bitmap-1.1.0-1.6.aarch64.rpm"
+RPM_HASH = "bba511ba705fa6fba9b9371ee6e16718d15bcea8022bbbe97003b377a7e66feafa290e07080aa507d0a75ce2a06841d9991fc78d320f1ccdbb3a380fbd7400cd"
 
 RPROVIDES:${PN} += "bitmap"
 

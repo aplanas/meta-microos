@@ -18,8 +18,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0~b1"
 
-RPM_NAME = "python39-azure-messaging-webpubsubclient-1.0.0~b1-1.1.noarch.rpm"
-RPM_HASH = "6de54ddbcbf346b895a0e439d20a669b74546ef0ea0d5b67750a3b04c632aa6ff392922a57944fdf3547b6bc7ce5d50338d83843fec88c9ebadc05e312128d71"
+RPM_NAME = "python39-azure-messaging-webpubsubclient-1.0.0~b1-1.2.noarch.rpm"
+RPM_HASH = "0ff7d92d6c43dc52b2168cbd033f6044d416afcc424f2df828cb78def8c2f54429fb7bd73719ded837b60871f4e0380009e2f417533f4c33071d201c64f06736"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-messaging-webpubsubclient \

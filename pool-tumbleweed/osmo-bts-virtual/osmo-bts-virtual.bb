@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4.0"
 
-RPM_NAME = "osmo-bts-virtual-1.4.0-1.10.aarch64.rpm"
-RPM_HASH = "d4dd67469050467cbeeb5422bee2edfb35d180706d85a1c3ced99f85fcd137ca555daf55c26a0391fb6e48ba79ec23c3075f34256d26e065f9283e19e7b64165"
+RPM_NAME = "osmo-bts-virtual-1.4.0-1.11.aarch64.rpm"
+RPM_HASH = "ce2c7c95e9f1610fffa83af52d6fd24d3cedd90a24fbe4a1bb39741823d92a2eee14e99ece1839e01fe8cbc35c6ef2134ae925825cb6612b809bde3274a861e4"
 
 RPROVIDES:${PN} += "config-osmo-bts-virtual \
 osmo-bts-virtual"

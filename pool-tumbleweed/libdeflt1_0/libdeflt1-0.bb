@@ -8,8 +8,8 @@ LICENSE = "CDDL-1.0"
 
 PV = "2022.10.16"
 
-RPM_NAME = "libdeflt1_0-2022.10.16-47.3.aarch64.rpm"
-RPM_HASH = "a88a49f870cc6233f810d1fd13cf533fe8e6a9c7e93c2562ca4d7f5b4bde0a64ac06eb4c5af84ee426f2c29aeeed736767bde063581f21de296e496b28652657"
+RPM_NAME = "libdeflt1_0-2022.10.16-47.4.aarch64.rpm"
+RPM_HASH = "d7361594f2697c9bad1c2b39ecf432a466be219ecff232dce6655cf43fa9e59adde0b3bd2fd7a5d31fb4da739056507f8fbebf43513b52cd872ae6300bc2a791"
 
 RPROVIDES:${PN} += "libdeflt.so.1.0 \
 libdeflt1-0"

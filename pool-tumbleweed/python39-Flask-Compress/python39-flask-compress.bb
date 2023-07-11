@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "1.13"
 
-RPM_NAME = "python39-Flask-Compress-1.13-1.3.noarch.rpm"
-RPM_HASH = "eec79ad8a53344736751b12e32cca0c3f587d53e211b2076a67d0fa82e1c982a72dc19fae4bc81d964ad19fc685574fb07c57838ac9423a8d718a13982594786"
+RPM_NAME = "python39-Flask-Compress-1.13-1.5.noarch.rpm"
+RPM_HASH = "3bd8ac6c631abd3e794db3e426f6e17a4b8d5f504359f57cd75d48e67e892218504d839cf5d7a85489fce89e4b51b3c3ba49eaced92f080970f66387d3bc978e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-flask-compress \

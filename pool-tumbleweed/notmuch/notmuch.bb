@@ -30,8 +30,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.37"
 
-RPM_NAME = "notmuch-0.37-2.4.aarch64.rpm"
-RPM_HASH = "f20bc657af7c01d9093498ed2f29a824e9ce875ae8321a118a3ada4da4b347dd59a47bb0d32f39746d87ac1f86ca817033a77cd156132ab36f80a090efe13844"
+RPM_NAME = "notmuch-0.37-2.6.aarch64.rpm"
+RPM_HASH = "b1c6af24a9a37871fae097b9fe628fefd0a26cf98c70bb413b4988ab412aaab47d9e8496f13ed6ed6c2714b65b8edafdfcc81c6061e196e86af887b25ec4801b"
 
 RPROVIDES:${PN} += "notmuch"
 

@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.3"
 
-RPM_NAME = "Vc-devel-doc-1.4.3-1.6.noarch.rpm"
-RPM_HASH = "5e0abb4f2047c25dcd6ca2a6d77366165930dcaaa3a1aeb377ce8d9aea8220ef40af8e59f2756030b265b975709cb4cb0888fdd97b183db4380b5e0bbba16202"
+RPM_NAME = "Vc-devel-doc-1.4.3-1.7.noarch.rpm"
+RPM_HASH = "36967862b8d5020fde3c0ed4c4a0ccf8948bdcaa26086816ceb68e01a1f5a36356e644ae53a2c2480683773db6f4d69dff7cb44b70dfa7cf9f9d49d1a04c11e7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "Vc-devel-doc"

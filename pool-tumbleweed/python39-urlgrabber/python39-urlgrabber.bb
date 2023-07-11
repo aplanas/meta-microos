@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "4.1.0"
 
-RPM_NAME = "python39-urlgrabber-4.1.0-8.2.noarch.rpm"
-RPM_HASH = "f63ddc544272640cc02da061bd5f6d2fa234591fb3ef8d863854afde982b5da643f979acd02e3f6eb4da4f127ec1969818bb35281cf416d6d16787a0ef114de9"
+RPM_NAME = "python39-urlgrabber-4.1.0-8.3.noarch.rpm"
+RPM_HASH = "fe09ef3502ddfef37ace9bccfb74a73a6e0f3cc581b4e705564f705ebe460b3c0383c36dabba835c3e96098bf43eac2d5fa4c9b41a83b7f26a0aa69384cf646b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-urlgrabber \

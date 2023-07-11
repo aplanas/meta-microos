@@ -4,10 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.5.3"
 
-RPM_NAME = "python311-Logbook-1.5.3-3.12.aarch64.rpm"
-RPM_HASH = "150ef16fbb7374e77b2358d359f0e7d074b96d076d097090d5527cdf5e7bf58429b092dda6a9abaef16f0a86ba9ed0f45ceb86f404c4d8b14468fe14b97cfe72"
+RPM_NAME = "python311-Logbook-1.5.3-4.1.aarch64.rpm"
+RPM_HASH = "033dd93abc48cac6154a8579ae391e74f4ea58a8cd3dfe653a9ac09c5e39840e3145e1c5febaa9ab51ecf4cfac4253c0388f5cef18dd6d041cb6989feb713811"
 
-RPROVIDES:${PN} += "python3.11dist-logbook \
+RPROVIDES:${PN} += "python3-Logbook \
+python3.11dist-logbook \
 python311-Logbook \
 python3dist-logbook"
 

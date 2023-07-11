@@ -4,10 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.7"
 
-RPM_NAME = "python311-fb-re2-1.0.7-2.13.aarch64.rpm"
-RPM_HASH = "1afaea7d97e006b16dc17721a91491c3577aeb172d31c5d87dea24a89496179245db6a972ff4384120b9451a91fdad70a2448915afaa1d7699bab5ba0b16aa77"
+RPM_NAME = "python311-fb-re2-1.0.7-2.15.aarch64.rpm"
+RPM_HASH = "d27343f6d4bfcb47c864b6b879e509258f5281e94359161bfd8a5dba846d64aaeda1cad5173535417248043a67ddf2a49cb43af29e47e8d67104a99189354008"
 
-RPROVIDES:${PN} += "python3.11dist-fb-re2 \
+RPROVIDES:${PN} += "python3-fb-re2 \
+python3.11dist-fb-re2 \
 python311-fb-re2 \
 python3dist-fb-re2"
 

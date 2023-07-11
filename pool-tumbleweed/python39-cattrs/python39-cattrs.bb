@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "22.2.0"
 
-RPM_NAME = "python39-cattrs-22.2.0-2.1.noarch.rpm"
-RPM_HASH = "159fa98dfa82513248acb34a59c80b0f3d03dd8f66cf32aace85ca75432b85c6bd060953f76746831958bb69764d34c24628b6143eee39bd44e15a0c13d6934d"
+RPM_NAME = "python39-cattrs-22.2.0-2.3.noarch.rpm"
+RPM_HASH = "964591f5d608e6ada0b2679c9b7f02d81d8ffa058a0c83e250799f0b429e065ea91f50d32b11aa461e206163a0ec699d4acba457748beb9d5f790275eb509233"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-cattrs \

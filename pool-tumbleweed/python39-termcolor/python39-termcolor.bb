@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "2.1.1"
 
-RPM_NAME = "python39-termcolor-2.1.1-1.3.noarch.rpm"
-RPM_HASH = "ff267acc31c28fe4438093caf8c100a0f904c8802d492fd483e77f8458ab845b529d8f481a06f7c6844dd030af5209fbb5b12b8b2c726d10e939c09347935ed0"
+RPM_NAME = "python39-termcolor-2.1.1-2.3.noarch.rpm"
+RPM_HASH = "de5e127f861fb72c681b473301a455699c43b837bf891400dbfec56ec078b2d9f0e314ab2265d149f8eda54d21d8a8c5cdcfca7ff6315135e34080c3d3f2ce6b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-termcolor \

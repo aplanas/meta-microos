@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later & LGPL-3.0-or-later"
 
 PV = "6.2.0"
 
-RPM_NAME = "libgranite6-6.2.0-1.7.aarch64.rpm"
-RPM_HASH = "02ca3413a219befd65c366909b560a0c8914f0acb39f81ebd376e54835f0885d357a18ff39cf92939a0d64fa5b14cc2bb010709c614bc74fe0f50a1ccf456662"
+RPM_NAME = "libgranite6-6.2.0-1.8.aarch64.rpm"
+RPM_HASH = "de5c0d6e4423ce851ef29b066321802ba9d0c2efffbf4016fbcd014f415bfcd5984e2b4b15d1c799c051343483641f73e8370dd315d2f141aeb3eebceb3159c5"
 
 RPROVIDES:${PN} += "granite \
 libgranite.so.6 \

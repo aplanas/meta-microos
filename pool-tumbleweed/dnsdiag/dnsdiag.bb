@@ -21,12 +21,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.1.0"
 
-RPM_NAME = "dnsdiag-2.1.0-1.1.noarch.rpm"
-RPM_HASH = "e3c9c9a26a44bf49d1b968e89c3b716129064f10e3f5e378e693f5f21c5d2353fcae58d15d57fb03e93931630e3d24058eae03551e176674583e8bd5e65bb855"
+RPM_NAME = "dnsdiag-2.1.0-1.2.noarch.rpm"
+RPM_HASH = "5372f5d2e9049e9e83649296bf4fea4f8a29fc3f9dbb90f2730cb3d5e7c78adfa977041c8e90b22d01b11bcbe91e6b019386b8d2618727e38510c93ff6af385c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dnsdiag \
-python3.10dist-dnsdiag \
+python3.11dist-dnsdiag \
 python3dist-dnsdiag"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

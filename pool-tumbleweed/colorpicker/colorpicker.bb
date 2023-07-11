@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.1.5"
 
-RPM_NAME = "colorpicker-1.1.5-1.17.aarch64.rpm"
-RPM_HASH = "db7051422f57377300879c460ed7d13021f6c7b401c629425ef64a637fbe3425e67b1fa00ee97b75127ec88fd9329b3e550f1d2248ac27d4887fff3ee914495b"
+RPM_NAME = "colorpicker-1.1.5-1.18.aarch64.rpm"
+RPM_HASH = "8a5ac88a2cbfc70243c316e62075780928243b6145ec31cf81c93ebe96140ec5982a7fd3fb3f70c11f5d7a6556173c778f027cabd881118ccefe73d8e5b9fdcd"
 
 RPROVIDES:${PN} += "colorpicker"
 

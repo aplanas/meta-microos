@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.94m"
 
-RPM_NAME = "cddlib-tools-0.94m-1.10.aarch64.rpm"
-RPM_HASH = "cf4bfaba3df7c3a68ced29fe5c45fbc56a70f99116a5c09c13120ab1f8269bbd1db2e1a1aa8a8da975391ac0530f5476a632535ecb2344e74e9e8134643aaba6"
+RPM_NAME = "cddlib-tools-0.94m-1.11.aarch64.rpm"
+RPM_HASH = "1c9fd3963485a4563d349548bd1e084c777eb1d0523effd1f0b66d425c110f3c7870ae7093484d4a2ffeb9426e6c6e66dacbba7011c781a9ea25b83298011da0"
 
 RPROVIDES:${PN} += "cddlib-devel-/usr/bin/scdd \
 cddlib-tools"

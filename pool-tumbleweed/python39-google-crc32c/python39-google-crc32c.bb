@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.5.0"
 
-RPM_NAME = "python39-google-crc32c-1.5.0-1.4.aarch64.rpm"
-RPM_HASH = "ee608aeaaa78ec5333b0712b272375c80954652474b3eefbb8a2cc768f370b5e228db85b7a7c44a4ca9710b3d6f485279f87ead412f92b0c2c47ff619f404f90"
+RPM_NAME = "python39-google-crc32c-1.5.0-1.6.aarch64.rpm"
+RPM_HASH = "fc42458bebe64aa84cdbde57d4f5204ccc8ae22918a5b5b8729b2eca39fe471272cecc14bf71e631e8dd42030f73556ebdb0542369035b601d2fcdbaface0b22"
 
 RPROVIDES:${PN} += "python3.9dist-google-crc32c \
 python39-google-crc32c \

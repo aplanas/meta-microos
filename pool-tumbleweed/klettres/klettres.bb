@@ -2,10 +2,10 @@ SUMMARY = "Alphabet Learning Game"
 DESCRIPTION = "Helps to learn the alphabet and read some syllables."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "klettres-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "a2a4277b5ff3351a8ac949803b2a51ed3db188cf45d2e6d30eaa71664a76d5b345278896e839c1a8ac75c1f0453296941940509a8241e283ab2f235f5e050adc"
+RPM_NAME = "klettres-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "4311a1ef6c021880e1e5c736d617117a4212afb54435f52504eb1d64f093c7ee8097462967ff0b18a6b523d51843cff6835b73a41113c47b078bd5da0a5e64b3"
 
 RPROVIDES:${PN} += "klettres \
 klettres5"

@@ -6,11 +6,10 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.0.2"
 
-RPM_NAME = "python310-pytricia-1.0.2-3.12.aarch64.rpm"
-RPM_HASH = "93d50710e541551be9653d181e19f1739ac3ae0edc4e1c6a5ed3c71e8b9a7b914d2292d8919d78807fbab7da59b1b2e7b1b4c4c23877c946bcb41b607a168531"
+RPM_NAME = "python310-pytricia-1.0.2-3.14.aarch64.rpm"
+RPM_HASH = "90a8b9d6a541c181b5040559c6cf1fca64011d82a06a5d5d0870875ff8313427256dda9e9cfe6a1738cd113fb0265e953b46973d12e9f453771cb250bcf980ae"
 
-RPROVIDES:${PN} += "python3-pytricia \
-python3.10dist-pytricia \
+RPROVIDES:${PN} += "python3.10dist-pytricia \
 python310-pytricia \
 python3dist-pytricia"
 

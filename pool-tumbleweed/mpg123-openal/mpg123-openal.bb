@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.31.3"
 
-RPM_NAME = "mpg123-openal-1.31.3-1.2.aarch64.rpm"
-RPM_HASH = "16e453d2df1f0511e2335857f6063c71cc14de90769f6d8bc7fc61778bc5afd0cc120f73b135e5fdbd3a976058eb7e2f320cf3864116ba974de56d20a81771d0"
+RPM_NAME = "mpg123-openal-1.31.3-1.3.aarch64.rpm"
+RPM_HASH = "d1ef17733d91e662eef55ed95c7cd8debfbb1fe2aa58a66b73bfe514fe19afe3ccc4062aed22b1ba3da3a35520336effdcae65f0649b433ede076890404dd240"
 
 RPROVIDES:${PN} += "mpg123-openal"
 

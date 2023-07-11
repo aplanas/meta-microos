@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
 PV = "0.9.0+17"
 
-RPM_NAME = "twin-0.9.0+17-3.5.aarch64.rpm"
-RPM_HASH = "b666c9a098c2392163449c1ac739ba832e274287ac4899af5cfea1046ae98252632ad9ade76e9d1f544ea4e9af96ae1c2fd94db0e0586c74e30563aa0fcafc02"
+RPM_NAME = "twin-0.9.0+17-3.6.aarch64.rpm"
+RPM_HASH = "6b18b47aedc86eea2fac3d962d71406f9835749b568665c738575bd3750daf6eafa49aef08457400a1b22a85344d9d77c1aba9427d87a56c4b3d267d31fc3a95"
 
 RPROVIDES:${PN} += "libhw-X11-0.9.1.so \
 libhw-display-0.9.1.so \

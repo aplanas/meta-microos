@@ -5,8 +5,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.208.svn59715"
 
-RPM_NAME = "texlive-scheme-tetex-2023.208.svn59715-58.1.noarch.rpm"
-RPM_HASH = "88ba916fe8126829c5cc7ec1798d67814d02848a208f9dddf42fd426325a4f63b2ec3356c90090124d8580e05be80a32190d9a857b5fde4e7a962d7d804dcce4"
+RPM_NAME = "texlive-scheme-tetex-2023.208.svn59715-60.1.noarch.rpm"
+RPM_HASH = "fd1ee5076f8cab65145d4509311a7bab8c15d938dc140a95af6ba549ad54b18c1310ce6ec7315d02cbe4b31729d60cbb9951a41e61a6b2be40f0c32902679691"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tetex \

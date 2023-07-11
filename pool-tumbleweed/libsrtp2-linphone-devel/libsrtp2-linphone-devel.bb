@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.2.0~git.20210916"
 
-RPM_NAME = "libsrtp2-linphone-devel-2.2.0~git.20210916-1.9.aarch64.rpm"
-RPM_HASH = "795835efbe50fa9e7a8fa0a6e7bb69b2ca69f339b2a0678d332c7bee73b71940f4f62dbe762e943462b5d8a43b4a541aec13e00a1448ea9f35734d4afa1686e8"
+RPM_NAME = "libsrtp2-linphone-devel-2.2.0~git.20210916-1.10.aarch64.rpm"
+RPM_HASH = "c18ceb7afc83e521004cbe6bd4e70a877af8ea1aeb069410113dd44e618e470cee1fc20c4c010a930c1564d5a6fbbf47d74ef14a40579b00c277c08d93c32676"
 
 RPROVIDES:${PN} += "libsrtp2-linphone-devel \
 pkgconfig-libsrtp2-linphone"

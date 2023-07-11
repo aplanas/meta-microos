@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.0.6"
 
-RPM_NAME = "zynaddsubfx-dssi-3.0.6-3.1.aarch64.rpm"
-RPM_HASH = "3e55395d511c961a732793235338eaa35596962643b9a8816dcc8fb10fd0a1138b6cca3f71cb699ff505bdd98faab2c55006e56998b1c68ce4baec10ab3b2752"
+RPM_NAME = "zynaddsubfx-dssi-3.0.6-3.2.aarch64.rpm"
+RPM_HASH = "0be271a715b37c605b0b16d8df613a40fe4823d4a5ac93d4225847ad325f6b86184aa0b2ecf154e94ac06c48f071505f49ed1463b85a616be21934089cfc9de5"
 
 RPROVIDES:${PN} += "libzynaddsubfx-dssi.so \
 zynaddsubfx-dssi"

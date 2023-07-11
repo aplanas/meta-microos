@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.8.9"
 
-RPM_NAME = "google-gson-2.8.9-4.8.noarch.rpm"
-RPM_HASH = "87402bf79be3e03e7368846b4fd1f1cb4411649070872649e0581894a64b091ddd9f1ff86eb498677cd6ad9c1ca92d2b370ce34cc7a5592cc014c8b41359f3a7"
+RPM_NAME = "google-gson-2.8.9-4.9.noarch.rpm"
+RPM_HASH = "3111bfc2e8c0e29fd1dfc31f94b649d44cc9e3266dedda5601fd4f02fc4a4671dd52e11921e856b1ea13dfeb897ab3ace9636474b0e32e694c7d158c3fcec588"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-gson \

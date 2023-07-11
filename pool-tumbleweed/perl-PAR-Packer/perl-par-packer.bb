@@ -13,8 +13,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.057"
 
-RPM_NAME = "perl-PAR-Packer-1.057-1.3.aarch64.rpm"
-RPM_HASH = "047bbd80e883fa318a5862f2c01ce4dc661cb1dbb725289950dd2b0ddd343ea25d93ad704f2af4fa9dbdf2a69bd03216a0e29f807af554a99b15c0834b14e588"
+RPM_NAME = "perl-PAR-Packer-1.057-1.4.aarch64.rpm"
+RPM_HASH = "e4f0e10b8b0fe2f561323ca4e14f10d4c91e1252907d763c5f454027b4a145412eb2d0f0a2adf997a0de04cb2ffd863de2933747d6a4167ba7bec1f409794358"
 
 RPROVIDES:${PN} += "perl-App--Packer--PAR \
 perl-PAR--Filter \
@@ -34,7 +34,7 @@ RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libperl.so \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-Archive--Zip \
 perl-Compress--Zlib \
 perl-Digest--SHA \

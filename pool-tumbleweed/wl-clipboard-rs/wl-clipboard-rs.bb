@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & MIT"
 
 PV = "0.7.0"
 
-RPM_NAME = "wl-clipboard-rs-0.7.0-1.2.aarch64.rpm"
-RPM_HASH = "3f2ac4b62e834298c45df7c0651c02fce6429b10f5e487005c9326f641c689db1c9e779be60a110720ee0694e8a1bf1d46306feeec2e67aa436e7c5b4886f2af"
+RPM_NAME = "wl-clipboard-rs-0.7.0-3.1.aarch64.rpm"
+RPM_HASH = "aa263dcfc1213489489668198d5e3b4adfb867a9296cfadaf68d135a5ae025cb3bda8955a3ddd5e637a7fb62f2b5648a7ab0ab619268f892705c6d085e876d62"
 
 RPROVIDES:${PN} += "bundled-rust-crate-ansi-term \
 bundled-rust-crate-anyhow \
@@ -25,8 +25,10 @@ bundled-rust-crate-hashbrown \
 bundled-rust-crate-heck \
 bundled-rust-crate-iana-time-zone \
 bundled-rust-crate-indexmap \
+bundled-rust-crate-io-lifetimes \
 bundled-rust-crate-lazy-static \
 bundled-rust-crate-libc \
+bundled-rust-crate-linux-raw-sys \
 bundled-rust-crate-log \
 bundled-rust-crate-memchr \
 bundled-rust-crate-memoffset \
@@ -35,7 +37,6 @@ bundled-rust-crate-mime-guess \
 bundled-rust-crate-minimal-lexical \
 bundled-rust-crate-nix \
 bundled-rust-crate-nom \
-bundled-rust-crate-num-integer \
 bundled-rust-crate-num-traits \
 bundled-rust-crate-once-cell \
 bundled-rust-crate-os-pipe \
@@ -45,7 +46,7 @@ bundled-rust-crate-proc-macro-error \
 bundled-rust-crate-proc-macro-error-attr \
 bundled-rust-crate-proc-macro2 \
 bundled-rust-crate-quote \
-bundled-rust-crate-remove-dir-all \
+bundled-rust-crate-rustix \
 bundled-rust-crate-smallvec \
 bundled-rust-crate-stderrlog \
 bundled-rust-crate-strsim \
@@ -59,7 +60,6 @@ bundled-rust-crate-textwrap \
 bundled-rust-crate-thiserror \
 bundled-rust-crate-thiserror-impl \
 bundled-rust-crate-thread-local \
-bundled-rust-crate-time \
 bundled-rust-crate-tree-magic-mini \
 bundled-rust-crate-unicase \
 bundled-rust-crate-unicode-ident \

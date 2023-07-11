@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "3.11.2"
 
-RPM_NAME = "libgeos_c1-3.11.2-2.1.aarch64.rpm"
-RPM_HASH = "0deb81afb648bc09af9f3303ce985091fd4ff00ee4040ca12dae01f9160836b9fcf689e3995cca64bd27f8c1f6a2d0bb3d26c354508fb23c56ddb8d050d1762f"
+RPM_NAME = "libgeos_c1-3.11.2-2.2.aarch64.rpm"
+RPM_HASH = "7c200007cac054895ca89409540fbdb43e8f5717e7d12543c5a31dc93fd5dfe4f073ed8d42aacf234490b494e20b6386e21bb2f10aa77c9cc07a17cf3ae6ca61"
 
 RPROVIDES:${PN} += "libgeos-c.so.1 \
 libgeos-c1"
@@ -16,7 +16,6 @@ ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
 libgeos.so.3.11.2 \
-libm.so.6 \
 libstdc++.so.6"
 
 inherit rpm

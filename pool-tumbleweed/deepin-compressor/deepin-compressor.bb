@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.12.13"
 
-RPM_NAME = "deepin-compressor-5.12.13-1.3.aarch64.rpm"
-RPM_HASH = "077d59fe0f27e8863a36878dc054454c1e87121c43032ec293658f68649d1679868f7bc2672c6260a5e82a9b28df185383492c822787aac8ff83c8ec68c08b19"
+RPM_NAME = "deepin-compressor-5.12.13-1.4.aarch64.rpm"
+RPM_HASH = "cb1a6b6eef4ed1b6057d3c3121f7995e973ecbb6376659b5b4018fa10aed5f1a829bc6a79cff93770489df1f1588cb76a0b25359a285afc7a3380f70bc65006d"
 
 RPROVIDES:${PN} += "deepin-compressor \
 libbz2plugin.so \

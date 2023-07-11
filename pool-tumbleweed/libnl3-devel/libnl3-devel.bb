@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "3.7.0"
 
-RPM_NAME = "libnl3-devel-3.7.0-1.4.aarch64.rpm"
-RPM_HASH = "41e1516e738f4cfc6d77624e5869da5355a10dcd6dc5e251c43c042d6565c31bc143ede1f5f3b1abd7848d3c91b68432276f2a5f61dc63565b4acda942db071a"
+RPM_NAME = "libnl3-devel-3.7.0-1.5.aarch64.rpm"
+RPM_HASH = "393da3aee2fb885e846bca5956bdc1f05151f57a97d1bf5a22d6f6022ed1e74810d04a8e7ed94e4967e6ebb02223ce1cd36dfacb3258a7c6f1164d5f17d5f9e1"
 
 RPROVIDES:${PN} += "libnl-devel \
 libnl3-devel \

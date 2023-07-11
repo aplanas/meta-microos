@@ -6,12 +6,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.0.0"
 
-RPM_NAME = "python310-social-auth-app-django-5.0.0-3.2.noarch.rpm"
-RPM_HASH = "6c3f170293fe477820e701a47f1890be68f71a8805bf33023ef40b62e9d315208ea5411861691ead66d3dd390cb5dbebebc8e3d037c853d288c5a55f0b4c98f5"
+RPM_NAME = "python310-social-auth-app-django-5.0.0-3.4.noarch.rpm"
+RPM_HASH = "344900996a170fdd7e02df1d19c7c843bc0f17effdfe0372e03d76d2b00c0245fccaa95f82560030a73d720e3821772664895743669a688f03f12aa3ffeecd7f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-social-auth-app-django \
-python3.10dist-social-auth-app-django \
+RPROVIDES:${PN} += "python3.10dist-social-auth-app-django \
 python310-social-auth-app-django \
 python3dist-social-auth-app-django"
 

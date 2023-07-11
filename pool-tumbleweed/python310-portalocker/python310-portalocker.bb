@@ -9,12 +9,11 @@ LICENSE = "Python-2.0"
 
 PV = "2.7.0"
 
-RPM_NAME = "python310-portalocker-2.7.0-1.1.noarch.rpm"
-RPM_HASH = "dd864be8b1ab6758fef81fa2d7b50ab2f1ad2f186ad679b882d50a09beebbe999be7e0f1a15427643323213631a6b6c15cade030baa9d4f958ef7b134eaa31d4"
+RPM_NAME = "python310-portalocker-2.7.0-1.3.noarch.rpm"
+RPM_HASH = "29a4b954f7d212cd3d2cdd915f19422c9f2a689e4702bf188bd566399a64559b3b9acdae927b1bd4241a085cc0e33e19f8a28213ba02c12f9c1db996768692b3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-portalocker \
-python3.10dist-portalocker \
+RPROVIDES:${PN} += "python3.10dist-portalocker \
 python310-portalocker \
 python3dist-portalocker"
 

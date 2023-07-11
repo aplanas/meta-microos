@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "8.4"
 
-RPM_NAME = "libfrrsnmp0-8.4-4.1.aarch64.rpm"
-RPM_HASH = "9e8d8365e9bd2fba4422932eef621bc24bc81f9f244a515d9166bbb4fd876fc47030d139dc05d71a48d2d47899d8328d11dd0dcab6747cfa7c5635e9439b8bd9"
+RPM_NAME = "libfrrsnmp0-8.4-4.2.aarch64.rpm"
+RPM_HASH = "20928f708f4b43e9afb8a6d7f431a8742599691698aa859889b98667664a3bf2f98fb0a947b3f2d58b4b7d77b0c898f4c1e26285ecfe16aed15de6451c49174a"
 
 RPROVIDES:${PN} += "libfrrsnmp.so.0 \
 libfrrsnmp0"

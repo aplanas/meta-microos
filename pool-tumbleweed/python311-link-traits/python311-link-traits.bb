@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.3"
 
-RPM_NAME = "python311-link-traits-1.0.3-1.11.noarch.rpm"
-RPM_HASH = "7f928649f4d12570081d9620a3551de6cbcb1b668487dc9afd114197578c923b2c6ab8ee0a148d63a55dc6ffa59ff3b9bc6ce9d50c3a26c7f1fe508a32c717a6"
+RPM_NAME = "python311-link-traits-1.0.3-1.13.noarch.rpm"
+RPM_HASH = "77351f4d611df67a9e326d52ed15b206707e9a5424a80218f9b6e903d759308e82e8af64db88818e9be9b6174c37af0362e01b38bea70c9228dd25deb3e2f955"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-link-traits \
+RPROVIDES:${PN} += "python3-link-traits \
+python3.11dist-link-traits \
 python311-link-traits \
 python3dist-link-traits"
 

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package fwupd"
 DESCRIPTION = "Provides translations for the 'fwupd' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.8.12"
+PV = "1.8.16"
 
-RPM_NAME = "fwupd-lang-1.8.12-1.3.noarch.rpm"
-RPM_HASH = "5c846f992202a07e547321bc12e3a9dc2d437ce8ee12921a377ebf565300a13f4d65af7b0f5a867a5090b65bc40c402dfcd657f4c61b6c5351675ac9f1055eac"
+RPM_NAME = "fwupd-lang-1.8.16-2.1.noarch.rpm"
+RPM_HASH = "ad0f83f4f8671058e8b97b9eb068399f0d467a5cf2dcf6224f8f5f5dae0c266db5520b12390195b48cfe62395c332be1d4fbe052a5e57a53ce93b9c5f9abedb5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fwupd-lang \

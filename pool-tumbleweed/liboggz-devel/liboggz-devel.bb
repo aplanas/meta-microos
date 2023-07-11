@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.1"
 
-RPM_NAME = "liboggz-devel-1.1.1-15.28.aarch64.rpm"
-RPM_HASH = "987d24c70e787885cde2212b5003ae7d923306bfa20606b8f1aa2c5a33340d7c9e06e026ca754c08954b4dfdc56a8a627b2f34b9359556668a2f25540beb943f"
+RPM_NAME = "liboggz-devel-1.1.1-15.29.aarch64.rpm"
+RPM_HASH = "a26a68c367140eadde3d250692974521374a66d0835f1c9548556a1f7a50b62bd9a4ecaf9930527988d3b4e90fc8f096411e9c4b3703e931f744caca8bac9aff"
 
 RPROVIDES:${PN} += "liboggz-devel \
 pkgconfig-oggz"

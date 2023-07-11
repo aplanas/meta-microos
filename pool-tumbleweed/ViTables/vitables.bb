@@ -7,13 +7,13 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.0.2"
 
-RPM_NAME = "ViTables-3.0.2-1.11.noarch.rpm"
-RPM_HASH = "08a817568e3512719a4e18a0f262bc7434c5c84ed13aacf287bce9e39f1cc61de7ef28ba9bc0b0f30198d32b5662037bdb338b630985c6635244ede2fe1a994a"
+RPM_NAME = "ViTables-3.0.2-1.12.noarch.rpm"
+RPM_HASH = "91f28686175d796bc1ea0fe4faab16aecfda074f06bae8915e1a9331285ad2c53c1082c6e369461e5b007c286624c2265638fe0be0ded2485b2f2a546f68baf5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ViTables \
 ViTables2 \
-python3.10dist-vitables \
+python3.11dist-vitables \
 python3dist-vitables"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

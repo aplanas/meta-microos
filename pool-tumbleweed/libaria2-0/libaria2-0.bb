@@ -10,8 +10,8 @@ LICENSE = "SUSE-GPL-2.0-with-openssl-exception"
 
 PV = "1.36.0"
 
-RPM_NAME = "libaria2-0-1.36.0-1.11.aarch64.rpm"
-RPM_HASH = "8a2b756e8190280ac49681b9750ea5335c9626b9181e199ddd4d5c64d54d853c92dc0c7de007389fd9fe28ccbe189c9a0bcadbdee524ea5f0631a7110e90c31a"
+RPM_NAME = "libaria2-0-1.36.0-1.12.aarch64.rpm"
+RPM_HASH = "f49b0f098305b87b07671b8aafdde2033903f00ff3d2f18036eeecade0440dae02f4c9a599c9cc94513e3e34e1e9cb4abbc2a3ea02e90d76b86be8f6da50eedb"
 
 RPROVIDES:${PN} += "libaria2-0 \
 libaria2.so.0"

@@ -13,8 +13,8 @@ LICENSE = "MIT"
 
 PV = "7.0.0"
 
-RPM_NAME = "python39-sqlglot-7.0.0-1.3.noarch.rpm"
-RPM_HASH = "ce19ce074a1c65157f55f0205f53f634ac3686c34af94ed62f308784f9b7c3a1c46f874ee29d235193fa6a7ae6765030331d8ed6cb0cf4e4a5e2c5e5de2539a5"
+RPM_NAME = "python39-sqlglot-7.0.0-1.5.noarch.rpm"
+RPM_HASH = "103548748a2c24900c64bf3aa3be57f1fa2235e35dad4c87795b097272c14017a9f3dc6f99b84f061af679a46e98eeaed14d2c3dbe33efba5ddfe724a3733e1a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sqlglot \

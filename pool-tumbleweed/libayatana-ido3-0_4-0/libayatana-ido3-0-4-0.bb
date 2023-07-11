@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-only & LGPL-3.0-only & LGPL-2.1-only"
 
 PV = "0.9.2"
 
-RPM_NAME = "libayatana-ido3-0_4-0-0.9.2-1.4.aarch64.rpm"
-RPM_HASH = "dc65587d3a3e720f367443a160dad2fe0b55c8fa9cc420954905d53e565ec85685e80d50cba49e14d484842edb981861d8e685db3325a40981e7af50294698c5"
+RPM_NAME = "libayatana-ido3-0_4-0-0.9.2-1.5.aarch64.rpm"
+RPM_HASH = "ab250aebd7a2bf2465d0e401a2fc14e9ce8283e150b3a14241dfccbd2906b31a0f9a75cc9cbca918c7696662e463efebde6052f7ac6e0dabc4f855689e5ca9cc"
 
 RPROVIDES:${PN} += "libayatana-ido3-0-4-0 \
 libayatana-ido3-0.4.so.0"

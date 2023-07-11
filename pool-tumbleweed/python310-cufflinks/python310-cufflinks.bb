@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.17.3"
 
-RPM_NAME = "python310-cufflinks-0.17.3-3.8.noarch.rpm"
-RPM_HASH = "0f526ead2b2f8a5251fca4a96c2089058cca8c1575738ac63aedb58cd8d304331010cb07e5e6c978fa3252cbf42d02fadad9101977cd757582e618f574d2293c"
+RPM_NAME = "python310-cufflinks-0.17.3-3.10.noarch.rpm"
+RPM_HASH = "e118e99e5505cfc65a65fe48f8490d60027e81a262a83e3b44680d9aed0c0d6c375dc3d6eeb40da544139205ecd3f227ed9de351a8474a375a10e92d91cf0239"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-cufflinks \
-python3.10dist-cufflinks \
+RPROVIDES:${PN} += "python3.10dist-cufflinks \
 python310-cufflinks \
 python3dist-cufflinks"
 

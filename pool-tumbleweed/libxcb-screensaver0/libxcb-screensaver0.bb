@@ -12,8 +12,8 @@ LICENSE = "MIT"
 
 PV = "1.15"
 
-RPM_NAME = "libxcb-screensaver0-1.15-2.2.aarch64.rpm"
-RPM_HASH = "8c6391cddaf5b34af7197e19ffc73e58259013c4a03e215e121f42205ce288911bdd0ff8bfc3fe1e220bcfbfea248f8af9a3ef5fdd90f1fb0a3c53b2ee13a0b8"
+RPM_NAME = "libxcb-screensaver0-1.15-2.3.aarch64.rpm"
+RPM_HASH = "34989dbcd96e65fee62f0abaa2b8ff1423d83513ca9703c15ec6141ad6f84b393eaee1f4598db4609760cb34091e62f3a71ff7854a129a81033831af6e41e54b"
 
 RPROVIDES:${PN} += "libxcb-screensaver.so.0 \
 libxcb-screensaver0"

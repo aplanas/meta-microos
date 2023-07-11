@@ -10,8 +10,8 @@ LICENSE = "HPND"
 
 PV = "0+git20150328.d1afbf6"
 
-RPM_NAME = "primus-0+git20150328.d1afbf6-3.21.aarch64.rpm"
-RPM_HASH = "991079b89a4d46ad5c5228d00b2c93506fc9130f4ab33f05729fa5d7f5f65e1328e6df513e5e8effb5c610b7df15bf2f5135b5a410ec3ef5a58b0e77c31b6c11"
+RPM_NAME = "primus-0+git20150328.d1afbf6-3.22.aarch64.rpm"
+RPM_HASH = "caceb52dc889c30c4b2270fb9563e2075ec1f107a8a455bccab40139d14f23abe94380138cdfb3cd84256851bdf6dcfe6008ab667a95fd9084bd8e38e7fb5197"
 
 RPROVIDES:${PN} += "libGL.so.1 \
 primus"

@@ -7,8 +7,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "5.44"
 
-RPM_NAME = "file-5.44-2.1.aarch64.rpm"
-RPM_HASH = "66bd77f8cd5db1ffc036d5dd31be73faa1a9b33c7d71e5c12168993715f01c1c7add1c5f695bf510f3f9038a734c61df58f73b722cc25dc3eef9849680e39360"
+RPM_NAME = "file-5.44-2.3.aarch64.rpm"
+RPM_HASH = "1fbe1e7d05beba8c747c4ce56f3b648d11a7c8d6d12ee0a60e63fef8b69a40ac0680d94c55e1ebcb3b2bc3ef597feeea2cc87b7d09351f9a1d70dd06c68ef4f7"
 
 RPROVIDES:${PN} += "file"
 

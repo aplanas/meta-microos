@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "6.4.37"
 
-RPM_NAME = "fetchmail-6.4.37-1.3.aarch64.rpm"
-RPM_HASH = "3bff2a837ddff8feac797ef2454783b9643f1b45295a7c59c2b5b0cc3b5a2994ddb39be00b561efb256c2bdb6bf3e8679775a9fba416ee6d4849553af51a2820"
+RPM_NAME = "fetchmail-6.4.37-1.5.aarch64.rpm"
+RPM_HASH = "132d1eae6764f7332f7e6417f0d290683423a7c72e1c6040f0391dce7064f111cb69ff09b25aa3865df0ee6f812c5f08b7554dda7f398fc25324b8cf4dabac88"
 
 RPROVIDES:${PN} += "config-fetchmail \
 fetchmail \

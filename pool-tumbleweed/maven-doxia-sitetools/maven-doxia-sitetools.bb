@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.9.2"
 
-RPM_NAME = "maven-doxia-sitetools-1.9.2-4.8.noarch.rpm"
-RPM_HASH = "7564fd3056c4611440574a56f333c50a8bf2e7a2a6e50f8d6ee5f42a0dec97b6299c66fe6906239e7397fe3c35393cd74ccc591ee565c0c88728bdf7c94c1f6b"
+RPM_NAME = "maven-doxia-sitetools-1.9.2-4.9.noarch.rpm"
+RPM_HASH = "502564649a74406b35a89ffb04f733389b6b6d37057937775af63428f9b1bff5a12cfd05707cad9b28d330ee8315953bf31d2b4cf2bcf8c64e6fcc22ff288940"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-doxia-sitetools \

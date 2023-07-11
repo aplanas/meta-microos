@@ -14,10 +14,10 @@ tset  -- terminal-initialization utility \
 reset -- terminal initialization utility"
 LICENSE = "MIT"
 
-PV = "6.4.20230520"
+PV = "6.4.20230617"
 
-RPM_NAME = "ncurses-utils-6.4.20230520-13.1.aarch64.rpm"
-RPM_HASH = "5af0bf10ac1654a03a8d6dff0641e3a66a316d4f8b6f064af91b81037e39771b639715567dd0936c1d7341348c9fac0038f86e7cbc82fb64852a67dbf4a631ac"
+RPM_NAME = "ncurses-utils-6.4.20230617-15.1.aarch64.rpm"
+RPM_HASH = "ca77bf3882ead6cf4c0799a626e1e75c920cc27bd913b48ca2b71212e4b12e40673e9a43124d6950a1c776cca04656cb6a5337b3b8f016b766baae179a48a5a5"
 
 RPROVIDES:${PN} += "ncurses-/usr/bin/tput \
 ncurses-utils"

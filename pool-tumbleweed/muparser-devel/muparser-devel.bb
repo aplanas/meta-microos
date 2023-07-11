@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "2.3.4"
 
-RPM_NAME = "muparser-devel-2.3.4-1.3.aarch64.rpm"
-RPM_HASH = "8e4387924bcd84efb085f894becd75db05f135eb69868d1d9120c61f1a11905f38ba6950320cee4d8701dacf3f3598db8b9eeb0ba95d1cf1ada8574a3ff459f3"
+RPM_NAME = "muparser-devel-2.3.4-1.4.aarch64.rpm"
+RPM_HASH = "d31f3c3320b098b5c17cf5cfbc47e929be805a7054dbdf5d1277d40953c4581837c2603a66f47ef722b25eabdcf45982ff993b8bff5ffd51165454326adb7d9a"
 
 RPROVIDES:${PN} += "cmake-muparser \
 muparser-devel \

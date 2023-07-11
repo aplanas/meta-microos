@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-qmlcompiler-private-devel-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "c667c8744f1e7caea057bbcea0bca8521f2306e347a10b496258565a2499167e7b823c7c570c2895faeff0e961f1ad43028982c6a3d45e8251e43e40128ee34a"
+RPM_NAME = "qt6-qmlcompiler-private-devel-6.5.1-1.3.aarch64.rpm"
+RPM_HASH = "e4aeb5510ad20ff315d6aa377dda7e83a8d9fd632c6d1ba1a4b6f67388ee3617794a93c1393b7087373923d9e11c5e6b562ac1b49182fa2c65461ab5a386b31f"
 
 RPROVIDES:${PN} += "cmake-Qt6QmlCompilerPrivate \
 qt6-qmlcompiler-devel-static \

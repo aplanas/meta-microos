@@ -13,8 +13,8 @@ LICENSE = "MIT"
 
 PV = "1.4.9"
 
-RPM_NAME = "python39-python-rtmidi-1.4.9-2.4.aarch64.rpm"
-RPM_HASH = "35292e7d5bc0be0677e74c4ff9aed339b85dda01877505f42cfebdb9a73d1402738bbb50a927a83d2cf282f5069f46ad74c83428acd47b749e969b7a479efe20"
+RPM_NAME = "python39-python-rtmidi-1.4.9-3.1.aarch64.rpm"
+RPM_HASH = "a43f7513fd40b5028d4b35d3b43826b45a673f737915ec826954c73eae1476dc204a4ab56eb8851657d4d3694078c09c4c5f921cbbe3560680b09a03705deac8"
 
 RPROVIDES:${PN} += "python3.9dist-python-rtmidi \
 python39-python-rtmidi \

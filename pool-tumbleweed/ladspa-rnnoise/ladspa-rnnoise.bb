@@ -17,8 +17,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.03+git1.226f03b"
 
-RPM_NAME = "ladspa-rnnoise-1.03+git1.226f03b-1.4.aarch64.rpm"
-RPM_HASH = "1c2c6a8d2976d686227ee6019ce9be5b14eb33961e1d4ddbac57cf284ecefcf8f6229148fe20b776e4ecbee0aa021ed5a97f9d7941e10e42e5ece40ee1b3ebc4"
+RPM_NAME = "ladspa-rnnoise-1.03+git1.226f03b-1.5.aarch64.rpm"
+RPM_HASH = "7a2a2f237fcbc3d98edb79a25b6323cad9359fc47ec353fb079fa1c4745aec0055a742706914a6a5a83df40243629c814fade200b5c2a55b0401d7dd8d2e09cb"
 
 RPROVIDES:${PN} += "ladspa-rnnoise \
 librnnoise-ladspa.so"

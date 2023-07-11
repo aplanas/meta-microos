@@ -7,8 +7,8 @@ LICENSE = "EPL-2.0"
 
 PV = "2.10.8"
 
-RPM_NAME = "libCbc3-2.10.8-1.3.aarch64.rpm"
-RPM_HASH = "0981f8a7bacaee9528b9abd339b4ca9f26bfe23b215ca865afecf52332a40f910fd901ec8f778b7428ed9ca42706e3cf9762891f7f8bef3dbf40c857d899e6dc"
+RPM_NAME = "libCbc3-2.10.8-1.4.aarch64.rpm"
+RPM_HASH = "1341949060d482c8b30e0d42244dee9d41bf27bb21dfb956115ccedf9306c315e09746f2245dac6bf7ae173a812b8d6fba228ecd2f66b750a86c16d294ed087c"
 
 RPROVIDES:${PN} += "libCbc.so.3 \
 libCbc3 \

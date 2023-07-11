@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.2.4"
 
-RPM_NAME = "postgresql15-postgis-3.2.4-1.6.aarch64.rpm"
-RPM_HASH = "95b82bfb18075700ae1e4edc1ef3076cc9be50b55f60d6c8dff1b6a2d065feef7ec7afe11a95bb9413cb29509695411c852e91fc7109286bb04d587e9fc9b57d"
+RPM_NAME = "postgresql15-postgis-3.2.4-1.8.aarch64.rpm"
+RPM_HASH = "3aa6861924a6641281f17cd3b991753231ce14a77fc27095db5600880154c6c572122f5b6635e55a192bd52e5c246527501022e7a5482713cd881c4ce53b74b6"
 
 RPROVIDES:${PN} += "postgis \
 postgresql15-address-standardizer \

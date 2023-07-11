@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains compressed kernel firmware files for \
 AMDGPU graphics driver."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230517"
+PV = "20230620"
 
-RPM_NAME = "kernel-firmware-amdgpu-20230517-1.1.noarch.rpm"
-RPM_HASH = "c2ee9525c9d8f508148445b57e4b9931ae104a67afb8a86c873c506b24ae97f2beb027b35b856cecd63b912d5d3e2b60e4591dd3beeaad63ad007169deb330ee"
+RPM_NAME = "kernel-firmware-amdgpu-20230620-1.1.noarch.rpm"
+RPM_HASH = "a626eabb3f00e21f525194a7ec3c293c1366d0d3a097354348bb18f3688c0cb5be88328c6e5f706919ba1fa513712f0ac60ff2f2b9f0e6f749b5a3ec02909600"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-amdgpu/aldebaran-mec.bin \
@@ -116,6 +116,7 @@ firmware-amdgpu/gc-10-3-7-rlc.bin \
 firmware-amdgpu/gc-11-0-0-imu.bin \
 firmware-amdgpu/gc-11-0-0-me.bin \
 firmware-amdgpu/gc-11-0-0-mec.bin \
+firmware-amdgpu/gc-11-0-0-mes-2.bin \
 firmware-amdgpu/gc-11-0-0-mes.bin \
 firmware-amdgpu/gc-11-0-0-mes1.bin \
 firmware-amdgpu/gc-11-0-0-pfp.bin \
@@ -123,6 +124,7 @@ firmware-amdgpu/gc-11-0-0-rlc.bin \
 firmware-amdgpu/gc-11-0-1-imu.bin \
 firmware-amdgpu/gc-11-0-1-me.bin \
 firmware-amdgpu/gc-11-0-1-mec.bin \
+firmware-amdgpu/gc-11-0-1-mes-2.bin \
 firmware-amdgpu/gc-11-0-1-mes.bin \
 firmware-amdgpu/gc-11-0-1-mes1.bin \
 firmware-amdgpu/gc-11-0-1-pfp.bin \
@@ -130,6 +132,7 @@ firmware-amdgpu/gc-11-0-1-rlc.bin \
 firmware-amdgpu/gc-11-0-2-imu.bin \
 firmware-amdgpu/gc-11-0-2-me.bin \
 firmware-amdgpu/gc-11-0-2-mec.bin \
+firmware-amdgpu/gc-11-0-2-mes-2.bin \
 firmware-amdgpu/gc-11-0-2-mes.bin \
 firmware-amdgpu/gc-11-0-2-mes1.bin \
 firmware-amdgpu/gc-11-0-2-pfp.bin \
@@ -137,6 +140,7 @@ firmware-amdgpu/gc-11-0-2-rlc.bin \
 firmware-amdgpu/gc-11-0-4-imu.bin \
 firmware-amdgpu/gc-11-0-4-me.bin \
 firmware-amdgpu/gc-11-0-4-mec.bin \
+firmware-amdgpu/gc-11-0-4-mes-2.bin \
 firmware-amdgpu/gc-11-0-4-mes.bin \
 firmware-amdgpu/gc-11-0-4-mes1.bin \
 firmware-amdgpu/gc-11-0-4-pfp.bin \

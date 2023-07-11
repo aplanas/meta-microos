@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.5"
 
-RPM_NAME = "libsepol-utils-3.5-1.3.aarch64.rpm"
-RPM_HASH = "d5203518648a542f3a80b8731c0e9dbe3eb4cbdf3c34feefe5f40be4977cf75583b21f553fced1b738053718ce16ce035376674825393031457e30d9a9b710e8"
+RPM_NAME = "libsepol-utils-3.5-1.5.aarch64.rpm"
+RPM_HASH = "ea0c9547ee24df7c4cbad04928dbf024c19f524659270ea519584229c086e531babe84ef9fe38ce02aeadf07b69dba91dd82d8659db7cd400ca1210d29cf50a9"
 
 RPROVIDES:${PN} += "libsepol-utils"
 

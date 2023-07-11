@@ -3,10 +3,10 @@ DESCRIPTION = "A client-go credential (exec) plugin implementing azure authentic
 that are not available in kubectl. It is supported on kubectl v1.11+"
 LICENSE = "MIT"
 
-PV = "0.0.24"
+PV = "0.0.30"
 
-RPM_NAME = "kubelogin-0.0.24-1.4.aarch64.rpm"
-RPM_HASH = "61cbe345d151e8b4195d8cd61bac5519e1106e4f76101e90a22e6a3ce867db1a6c67551f0ba1d0e4b9534e34e598673f538d81160badf273b1bcc461d07242fa"
+RPM_NAME = "kubelogin-0.0.30-1.1.aarch64.rpm"
+RPM_HASH = "456aaacfaa5d7e9e3a453116cf8eebb9e12601d5746a83a52ef7bb237ab5b91f15f3de75cdbadf2fbd5c581cff2983afff3edeb6b39a5af27829de7d7c1d18ab"
 
 RPROVIDES:${PN} += "kubelogin"
 

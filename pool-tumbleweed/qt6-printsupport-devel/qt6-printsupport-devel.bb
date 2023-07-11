@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-printsupport-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "b6a720eba78d7d31b30118533a041a789b1b179493c64bac69406bd4e0bd7c44a2b03681fbd726b1f9c414d566168055e4ad0bf73314d7c6064c396790921383"
+RPM_NAME = "qt6-printsupport-devel-6.5.1-3.1.aarch64.rpm"
+RPM_HASH = "c0ae224f453b72c9751444766d085754ac7882fc70cd7128dd641a22a3f56a04fff7d901da7b463cedd2ebaf043f81a0cdc53e1aca4a3c212ba412d3db0c74f2"
 
 RPROVIDES:${PN} += "cmake-Qt6PrintSupport \
 pkgconfig-Qt6PrintSupport \

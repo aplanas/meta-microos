@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "0.254"
 
-RPM_NAME = "mame-0.254-1.1.aarch64.rpm"
-RPM_HASH = "3b8cba0860cd8061656e20f4d615811668f5e1f3d8b8ae6e5c99677ce4c33cbe3cc1ad215b7bb55688936534697b4e0eca6669014d444f65cff27e6a618a0642"
+RPM_NAME = "mame-0.254-1.2.aarch64.rpm"
+RPM_HASH = "972e1ed6022f539da59200ec5fd0b06b7815011f3dc1889fb4dab858190f7088724065b97683c88a7175b91f0be0b4fceb68be41c4bda3a99f7aaeee2a121777"
 
 RPROVIDES:${PN} += "config-mame \
 mame"

@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.11.0"
 
-RPM_NAME = "python39-opencensus-0.11.0-1.3.noarch.rpm"
-RPM_HASH = "631fe4975b1a71888dbdf7bd5b8f3ed5820a797a0b5942f6f10ea79327b30cad721b2133765ac1c66c9f5b54551eb3c39c2895482fe8736d863eb4edeaed1224"
+RPM_NAME = "python39-opencensus-0.11.0-1.4.noarch.rpm"
+RPM_HASH = "a7e4fbc93db5ced6d55e9227b85e82fb050c26636c0aa96a6b4d5820d368e0541d26f6d0cc67bc043bbe2dfd5ba70755f9cfc37db780083b6c6b5a05e14a8ed3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-opencensus \

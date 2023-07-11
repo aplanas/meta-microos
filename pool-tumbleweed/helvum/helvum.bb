@@ -4,8 +4,8 @@ LICENSE = "(Apache-2.0 | BSL-1.0) & GPL-3.0-only & (Apache-2.0 | MIT) & (MIT | U
 
 PV = "0.4.0"
 
-RPM_NAME = "helvum-0.4.0-1.3.aarch64.rpm"
-RPM_HASH = "c0262fa86761c81494e566feee34dd6500c4eaf3793dff015d77ee084b7a557f9a5e6581757c53b1f8b5b5c94a98d9b20d820fc1623e6f9387836bac97d02923"
+RPM_NAME = "helvum-0.4.0-1.4.aarch64.rpm"
+RPM_HASH = "26618db7db636502da60c1f2e5267f3edecf5ca1ccbd832d184de11a0194e6d18e542bd0b8692a4104d6738f6a66bfc4d23e614bfa6f4367add03a5bd0b64891"
 
 RPROVIDES:${PN} += "helvum"
 

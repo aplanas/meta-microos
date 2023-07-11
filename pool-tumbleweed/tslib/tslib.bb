@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later & GPL-2.0-only"
 
 PV = "1.22"
 
-RPM_NAME = "tslib-1.22-1.9.aarch64.rpm"
-RPM_HASH = "0d8dddf660cb338e910f7c28cdf3afdadc26c9bde6d0d8effca93eb1fb702d443f57815a24219e2a28b5164bd4d92614a14e874c9b85d787ee33768d977130f7"
+RPM_NAME = "tslib-1.22-1.10.aarch64.rpm"
+RPM_HASH = "997189fff266482603a13599d338a661b6c445239409eb5ede6e080fec9fbe3f2c29fcc9c34c9d7a83d774e343b6f298bcac522f44c78f717d0632865667104a"
 
 RPROVIDES:${PN} += "config-tslib \
 tslib"

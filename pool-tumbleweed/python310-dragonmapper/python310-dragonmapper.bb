@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.2.6"
 
-RPM_NAME = "python310-dragonmapper-0.2.6-3.1.noarch.rpm"
-RPM_HASH = "457d291d102d5d459f935234ffbebf394debca67a07df08b0f4dad1893eaeea1ac53825d1165c33f61a75ac7b4e3330b0ec6a0d79596b55547e4788c13893906"
+RPM_NAME = "python310-dragonmapper-0.2.6-3.3.noarch.rpm"
+RPM_HASH = "5fd358476ea260a76191880c3a6159a6a8d70bc7b744344bd1f785fc45a4fd2bccdbe4edfb31099d6b4068cb68ebf25c885832ab07ab5ab75f2b85a3486315b8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-dragonmapper \
-python3.10dist-dragonmapper \
+RPROVIDES:${PN} += "python3.10dist-dragonmapper \
 python310-dragonmapper \
 python3dist-dragonmapper"
 

@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.5"
 
-RPM_NAME = "python310-pyssim-0.5-1.2.noarch.rpm"
-RPM_HASH = "15779c9796016e51bc0c1f8a7a01917d5d4a1b8838f7b9dcb52b94889787a238783a57896e4144b7e3934968635655c9dff5331cb65c6d01b6610d259ec3679b"
+RPM_NAME = "python310-pyssim-0.5-1.4.noarch.rpm"
+RPM_HASH = "29b16a9f6637ce60eb7382770b0b65270111987e43cd1846dc1469e920d8a1d040ab8f1ba56e2d286ce3276fe753e32474e96a31a42d5fd741bd5df5234d1041"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pyssim \
-python3.10dist-pyssim \
+RPROVIDES:${PN} += "python3.10dist-pyssim \
 python310-pyssim \
 python3dist-pyssim"
 

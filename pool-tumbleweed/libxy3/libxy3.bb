@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.6"
 
-RPM_NAME = "libxy3-1.6-1.15.aarch64.rpm"
-RPM_HASH = "7d7c9758b8e0e88f6efd3dd42531371f354c2887b7ea7589e5fd9974dc5cf41157de189f7912783ca3feade3e1d99c403ebfbb1b8a2b847109573efacb27be10"
+RPM_NAME = "libxy3-1.6-1.16.aarch64.rpm"
+RPM_HASH = "bfa1fad1362530971965b21e6e7c1ade31a020225303a3d370cca8b562e4af4e02cbf37b6474059cc05e8b59b9e236e3abd3ff8609397da0321a6773d879efb0"
 
 RPROVIDES:${PN} += "libxy.so.3 \
 libxy3"

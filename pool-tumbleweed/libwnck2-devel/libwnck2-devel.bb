@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.31.0"
 
-RPM_NAME = "libwnck2-devel-2.31.0-13.3.aarch64.rpm"
-RPM_HASH = "79697a467959bbfb76ec7a3e729ec99b5d53b27ea79bee0fe60310d2bf04283f2315bbd23c2442d85faaa8040a89f859489cc78b76c423be200bbc3f211e6d70"
+RPM_NAME = "libwnck2-devel-2.31.0-13.4.aarch64.rpm"
+RPM_HASH = "4f9165c59da6f1b8722e7253dc930b2b5c01a60f0d982b5c096fc41b254c4c8dd89de229db2ad1f2ef7ffc0a4eaf75d67aac8d41f519ea3a5f9284f3375cba64"
 
 RPROVIDES:${PN} += "libwnck2-devel \
 pkgconfig-libwnck-1.0"

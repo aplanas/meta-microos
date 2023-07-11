@@ -7,8 +7,8 @@ LICENSE = "QPL-1.0"
 
 PV = "4.14.1"
 
-RPM_NAME = "ocaml-ocamldoc-4.14.1-1.3.aarch64.rpm"
-RPM_HASH = "a1d4db2de7be540277f8734db182822fa42ae684f8c1e7c01b86e9a4cb7477243aea86e26096543d87aa089eab5178f8899920330e06956d79ed9a1faaeac5c2"
+RPM_NAME = "ocaml-ocamldoc-4.14.1-1.4.aarch64.rpm"
+RPM_HASH = "a2069af262189c7c7903c9bf8c70bf7e2e4ab06b71d4d0549e9e3e41c74ebb5ec0e3a0b26f51f2c81d2590a222c57ba7dbf559d466375e7c053c30b6905cda3d"
 
 RPROVIDES:${PN} += "ocaml-Odoc \
 ocaml-Odoc-analyse \

@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "20190621"
 
-RPM_NAME = "libhdhomerun2-20190621-1.18.aarch64.rpm"
-RPM_HASH = "3a2f97763d7f88be3a50216e42391fe0db37aecb9c4db5a552a63bec8561d27e83482b783b23ac0a9127c4db677b7595c3900a8e222fc3369ceb23a09765e3d0"
+RPM_NAME = "libhdhomerun2-20190621-1.19.aarch64.rpm"
+RPM_HASH = "5c2d33ecf443a7eab4c825ccca8041072abf4d9602b8cf50da195ba0bc979a6d3035e5ea0df928d31d252293df11b309212ec587a6ea477c6befa5c687ea8452"
 
 RPROVIDES:${PN} += "libhdhomerun.so.2 \
 libhdhomerun2"

@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "0.4.0"
 
-RPM_NAME = "libvisual-devel-0.4.0-204.3.aarch64.rpm"
-RPM_HASH = "9f6f0f89af9f3d988a2f430d8aab2413ad68e230331e8201a03e512da5fbb7bab429d6736e6b50de895a32fb97e3950fd98158131a5893719e740563109517e7"
+RPM_NAME = "libvisual-devel-0.4.0-204.4.aarch64.rpm"
+RPM_HASH = "1ad155140fb07883a9fa68917afe5275dc6cdba47675e8a7e662eb98cd5e8e1982c0577858bd05b7783c67fb5604a36c1f32a7a4cbf19a5d610599d8c351e5d1"
 
 RPROVIDES:${PN} += "libvisual-devel \
 pkgconfig-libvisual-0.4"

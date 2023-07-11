@@ -2,13 +2,13 @@ SUMMARY = "Compile git revision info into Haskell projects"
 DESCRIPTION = "Compile git revision info into Haskell projects."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.1.6.3"
+PV = "0.1.7.0"
 
-RPM_NAME = "ghc-githash-0.1.6.3-2.3.aarch64.rpm"
-RPM_HASH = "87b418892b198a89ddaf1f3ddea454a3a4fa1023e01b12e6148115d88e51a92d98ae13bedf08747aa55403d1a791714cc47a5e256543a6bd3111aa5a6ae70235"
+RPM_NAME = "ghc-githash-0.1.7.0-1.3.aarch64.rpm"
+RPM_HASH = "730d811cb25ddd3a74fd5d07e455ef3c480e548afc5501db4eb5dbfa8d98dcbf809f3e20c5822759c312bf26e9cf76e67f1e55b37d235b6e4900e0eab8f00d21"
 
 RPROVIDES:${PN} += "ghc-githash \
-libHSgithash-0.1.6.3-FrkvdbOWDB4772dnMETpxS-ghc9.4.5.so"
+libHSgithash-0.1.7.0-99BBKgCWJJUA6aWVuD3QRz-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
 libHSbase-4.17.1.0-ghc9.4.5.so \

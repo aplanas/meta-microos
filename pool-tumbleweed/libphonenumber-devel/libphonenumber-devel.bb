@@ -9,14 +9,16 @@ This package provides libraries and header files for developing applications \
 that use libphonenumber."
 LICENSE = "Apache-2.0"
 
-PV = "8.12.23"
+PV = "8.13.15"
 
-RPM_NAME = "libphonenumber-devel-8.12.23-1.30.aarch64.rpm"
-RPM_HASH = "efa4d3eebbe1d91e6d5f67d98afd190d67da4431a5b513de4610cf67c7dee2e793b706b7320fd33f8d95a1b37ff2cf452d8149bdfbd27474086d88305ed8feea"
+RPM_NAME = "libphonenumber-devel-8.13.15-1.2.aarch64.rpm"
+RPM_HASH = "2f1787d96f72fa9510e391a828996d1b6804abd17847e36ea6884e416503a470567e7da4c771f3c42a2f8324e01ef7b4025a23862cbcc18032028cc87f72ff2a"
 
-RPROVIDES:${PN} += "libphonenumber-devel"
+RPROVIDES:${PN} += "cmake-libphonenumber \
+libphonenumber-devel"
 
-RDEPENDS:${PN} += "libphonenumber8 \
+RDEPENDS:${PN} += "cmake-absl \
+libphonenumber8 \
 pkgconfig-protobuf"
 
 inherit rpm

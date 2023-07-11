@@ -2,10 +2,10 @@ SUMMARY = "Mathematical Function Plotter"
 DESCRIPTION = "Mathematical function plotter by KDE."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kmplot-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "4bf696978adebef10cfc9eb47dd5b0db9caf27817970c2eedc6e54b187fc8c371607ecf6f209798410150819f6a31ef1658824280c723e6914937eb412a7f774"
+RPM_NAME = "kmplot-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "3f34f837a481d1c1f1773c3903f7946098cb6342e0e8b9e7c73dfe3dfdcd779ea09bca551220178d74f4beec7441d07b6fc72715112409dc820c0587824792a3"
 
 RPROVIDES:${PN} += "kmplot \
 kmplot5"

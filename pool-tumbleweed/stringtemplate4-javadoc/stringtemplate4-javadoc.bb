@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.3"
 
-RPM_NAME = "stringtemplate4-javadoc-4.3-2.10.noarch.rpm"
-RPM_HASH = "797cc8143971a8e5997e751c7411d13545cf33c516914d9b3c167262826d206367f3f0970f7dcfc5ade925f4274b0316a6b17283ad6a14117881e3c81daf7d88"
+RPM_NAME = "stringtemplate4-javadoc-4.3-2.11.noarch.rpm"
+RPM_HASH = "1918c8aff918dc73681cf0a8b71b6c40202bff28515cb8774d7d1f98e83aec1c239f6d5b0fee445fac53a09c5d280dbbe082b0ab8b28896057124fbd5639388e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "stringtemplate4-javadoc"

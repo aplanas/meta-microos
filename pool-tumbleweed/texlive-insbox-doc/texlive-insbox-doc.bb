@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-insbox"
 DESCRIPTION = "This package includes the documentation for texlive-insbox"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.2.2svn34299"
+PV = "2023.208.2.2svn34299"
 
-RPM_NAME = "texlive-insbox-doc-2023.201.2.2svn34299-52.1.noarch.rpm"
-RPM_HASH = "688f9d7a2cddd3a2f9373ae1485368d37b8891ee33c6c9b55502f876f8f7ba566845115ba6c81506bf22ed3cffd64a4375848c9c53d1fe71c8b3ac3322b32987"
+RPM_NAME = "texlive-insbox-doc-2023.208.2.2svn34299-53.1.noarch.rpm"
+RPM_HASH = "ecb3fc6d196876cc6ef922d6bab9b7a63fcb6834979b092394fc77326a83abf2f7539856e3658aad71ea69e8e7b949b38599ccb6c1ebbc2a4100dbee62f7567c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-insbox-doc"

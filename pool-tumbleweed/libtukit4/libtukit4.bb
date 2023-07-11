@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the libraries required for programs to do \
 transactional updates using btrfs snapshots."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "4.2.1"
+PV = "4.3.0"
 
-RPM_NAME = "libtukit4-4.2.1-1.1.aarch64.rpm"
-RPM_HASH = "aca5a079308dd20526991077e2da87e50bdf41ab89b5d1ac234cd3eea82a9b0eaf5e3dfe4a1b84b057a5fb6e327b1e9263b01b65fad93c9eed8ee6b265d59c5a"
+RPM_NAME = "libtukit4-4.3.0-1.1.aarch64.rpm"
+RPM_HASH = "c0e987bc6837d296b38b85958005b5253473d078b7fdd9ade508b31f3b694a63391a7422e939734d84e5de23a4dbe708f3b52b66f7945f876a6dde49319d104b"
 
 RPROVIDES:${PN} += "libtukit.so.4 \
 libtukit4"

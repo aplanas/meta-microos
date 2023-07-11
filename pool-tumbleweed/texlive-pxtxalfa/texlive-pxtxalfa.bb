@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.2svn60847"
 
-RPM_NAME = "texlive-pxtxalfa-2023.201.2svn60847-53.1.noarch.rpm"
-RPM_HASH = "ad77137cbd832b0bf85d55a6dae90111c86067fd29a8ebb1b1e165b67a0ed4f334e395d9d5aafc6ded8245d8e7d546647b51aa41460d08f09b7d92c6ce7d74d7"
+RPM_NAME = "texlive-pxtxalfa-2023.201.2svn60847-53.2.noarch.rpm"
+RPM_HASH = "1d9b093f3bc602a686cf8756e7cf99495cfa93866bdea2f31d191940768e173ebdbdb9987db583bfc9613383cb20e884d580449570adb99e60f4ea591d64cad8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ot1tx-ds.fd \

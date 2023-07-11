@@ -14,8 +14,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.3.0"
 
-RPM_NAME = "python39-cli-helpers-2.3.0-1.4.noarch.rpm"
-RPM_HASH = "c8f94d239277a23e2b1bcc842aa0065fd2b496d9bf732ceab3a66d925380825235f206798e58c1663523bdf9c91f3b2e3184dd5675cd72d719dc1e0acdd7caee"
+RPM_NAME = "python39-cli-helpers-2.3.0-1.6.noarch.rpm"
+RPM_HASH = "70872756ba823f71ad0f8d0b72732c04721b6e1dafc37a71189365a8e3f5689b3cf43b28c4b1f9751dba809731572d33cd30cd9437c4c0a10b0b5871e6b4ce34"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-cli-helpers \

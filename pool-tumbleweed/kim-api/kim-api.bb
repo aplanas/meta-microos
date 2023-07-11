@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.3.0"
 
-RPM_NAME = "kim-api-2.3.0-1.8.aarch64.rpm"
-RPM_HASH = "4fc2f5dd0c3fdbe931207522968de2a5171429faef8d2f06cb896c22b0276ad1a1300459a7995162cb5717253cea77868368be4c3e80f94ac418e58376edc6c2"
+RPM_NAME = "kim-api-2.3.0-1.9.aarch64.rpm"
+RPM_HASH = "7f12f3e4c493eca7c469ff45885c7bb92af92e6adf8734826f7f3340aedc20f47a301282a7d1fe9bc27d15ddc1d2a9d7b980a9fcf8258d223a9d9e1f6fa96396"
 
 RPROVIDES:${PN} += "kim-api"
 

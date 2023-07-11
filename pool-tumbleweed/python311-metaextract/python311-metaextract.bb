@@ -8,11 +8,12 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.9"
 
-RPM_NAME = "python311-metaextract-1.0.9-1.4.noarch.rpm"
-RPM_HASH = "f8116f19d5fe9893ad27f1774a9552b55347d799209d1b6cf92824c974942c26e43f8f8e84faea07bc9013b7bdbfd61b6e1b4d120f4c4c8cc9cfc9d173b4e58f"
+RPM_NAME = "python311-metaextract-1.0.9-2.1.noarch.rpm"
+RPM_HASH = "b335382f12b829f76fd5c82ef3763141e5bc17e2279dbe27b8acdaa8cbcbf16e588eadb1d4f80b8cb1fcb1994d3c9d79bdb3ac7d9011210b76e8e1578f1ac5a9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-metaextract \
+RPROVIDES:${PN} += "python3-metaextract \
+python3.11dist-metaextract \
 python311-metaextract \
 python3dist-metaextract"
 

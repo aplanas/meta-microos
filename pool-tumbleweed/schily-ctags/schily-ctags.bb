@@ -10,8 +10,8 @@ LICENSE = "BSD-2-Clause & CDDL-1.0 & GPL-2.0-only & GPL-2.0-or-later & BSD-3-Cla
 
 PV = "2022.10.16"
 
-RPM_NAME = "schily-ctags-2022.10.16-47.3.aarch64.rpm"
-RPM_HASH = "f37f59b5a82d983c8c50ed740095cae02e13a11cce33bde1e0218ebea5f4c1ad82a59160842170bd3b85acad85fa1fb51a76cdc2d1bb9506bc0033c99126bf08"
+RPM_NAME = "schily-ctags-2022.10.16-47.4.aarch64.rpm"
+RPM_HASH = "f892fd3fae4bcbd3bdaad09abc8267fa0fb2bac7dc7ba9a5c76f0127a6d83ca8d94c3d8aa822acdf5c2cc2feb00f9d4f36320a6ec28863d2a83bf5871c3611f2"
 
 RPROVIDES:${PN} += "schily-ctags"
 

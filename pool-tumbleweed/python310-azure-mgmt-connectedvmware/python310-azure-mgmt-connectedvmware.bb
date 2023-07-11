@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0b3"
 
-RPM_NAME = "python310-azure-mgmt-connectedvmware-1.0.0b3-1.3.noarch.rpm"
-RPM_HASH = "2486749a6001885c95010fd5573a9646351f156a0222a9eb7502f31a0c4bcb41e14875fca7707f75ffbfd5442342dafb75579c374dda6755e05b583d22a3347e"
+RPM_NAME = "python310-azure-mgmt-connectedvmware-1.0.0b3-1.4.noarch.rpm"
+RPM_HASH = "83f44457fdf8ccbd83980bfcd997e17f4477e0110d93a2879bbc1d5dc8e208732c7c09ae1485c769f98743a69bd3580a66f2ae448129d58e77db47150129ae8e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-connectedvmware \
-python3.10dist-azure-mgmt-connectedvmware \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-connectedvmware \
 python310-azure-mgmt-connectedvmware \
 python3dist-azure-mgmt-connectedvmware"
 

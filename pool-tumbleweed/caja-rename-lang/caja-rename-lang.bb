@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "22.10.31"
 
-RPM_NAME = "caja-rename-lang-22.10.31-1.2.noarch.rpm"
-RPM_HASH = "76912fce3b2fb2c47bb812f7436835e1918fd7c31348118ff21a75ed55673d0afb21d1bf999778049065c54abaef67eec3d1e988c16d45e845ddf687d70eeb6f"
+RPM_NAME = "caja-rename-lang-22.10.31-1.3.noarch.rpm"
+RPM_HASH = "b6555e09385696955208c6c346637b8ef599e7a0d7d4dd6b0897940cc78c39e1d4ed75a8d23bdbd242f41038d46496baf14c7271da089f2c5bc780bbb1a9f957"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "caja-rename-lang \

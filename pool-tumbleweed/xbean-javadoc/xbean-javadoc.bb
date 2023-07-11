@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "4.20"
 
-RPM_NAME = "xbean-javadoc-4.20-1.6.noarch.rpm"
-RPM_HASH = "61470ad90da0e8749a8f118a1ea007a8f4daba2a08695b1b8bc47bb639fa34bf10ec58802a09bad7b9845effc9e08ab3575945d0de3306eb4705735a9affd0dc"
+RPM_NAME = "xbean-javadoc-4.20-1.7.noarch.rpm"
+RPM_HASH = "d063e3ddb830b4cf7b9bf4686ef712589b4e2f8a3ce65df455bb3e090de26e634987a0d32fd867dd454b274a130e27c2351d36de62bf2233107c838a03fa8d7c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xbean-javadoc"

@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-serif-devanagari-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "70334cc03afe8f2b84f6c72ff98834512c3126fcbdf5412da476d969b60ca3b7cc3fe3eb93a3ce19073d3930e9e61b9ab1a0832ff7cfac990dadeb643699883d"
+RPM_NAME = "noto-serif-devanagari-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "d0ad8b0ad2660ecc6201ef8e941d9e6ece79428f39578d8fd6111b36f53392d452364065139c0c0fffefc254a1404d2d4f182725e1ba726c07cc38e1b961d4e2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-serif-devanagari \

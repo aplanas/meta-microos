@@ -7,10 +7,11 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.8.3"
 
-RPM_NAME = "python311-ligo-lw-1.8.3-2.3.aarch64.rpm"
-RPM_HASH = "867bbdf4c1de537de1db4391b0182a7f6dfdf7bef3be890eba977407448d20d1d1699e5c8cb790e114621ad669007725a968148c71eadafef88043641c023675"
+RPM_NAME = "python311-ligo-lw-1.8.3-2.5.aarch64.rpm"
+RPM_HASH = "af5577b48ff85c420d186f4d67f7b417e72c406c674b9ae96cb66fe63ee6e23d2588499f0c8870e4bfdf37f6092e9d9f443ef5952ca2a13fea7e4e5f9c2146d0"
 
-RPROVIDES:${PN} += "python3.11dist-python-ligo-lw \
+RPROVIDES:${PN} += "python3-ligo-lw \
+python3.11dist-python-ligo-lw \
 python311-ligo-lw \
 python3dist-python-ligo-lw"
 

@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-or-later & MIT"
 
 PV = "3.22.10"
 
-RPM_NAME = "hplip-sane-3.22.10-2.1.aarch64.rpm"
-RPM_HASH = "4c3c504aa8728f28b20d5651197d0a74bae0b2b6e545091a56821f98214378cb40905ff62896c0f286819493b95bc19b3d88a3e00a5befc58050b5ea4bf27f8b"
+RPM_NAME = "hplip-sane-3.22.10-2.3.aarch64.rpm"
+RPM_HASH = "defb2f90219fe574c3b721dca94ec1c58d64d3483daad043d710334bc13daf77b89da424308bbbcb7a48c8e03f83945df98841e2c53ac324738bc5e903948719"
 
 RPROVIDES:${PN} += "hplip-sane \
 libsane-hpaio.so.1"

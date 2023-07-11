@@ -3,10 +3,10 @@ DESCRIPTION = "Kitinerary is a library which provides a data model and a system 
 from travel reservations. The model can then be reused in other applications."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kitinerary-23.04.1-1.2.aarch64.rpm"
-RPM_HASH = "01f14afc9ba2333d7ef4e9bf786f5b8ca0f5de1a3d24c34785c789395277f1cdc020752fb995e088e550e9b79b9a7ead88f4efe8d8dee8f67bb334cdc55add8f"
+RPM_NAME = "kitinerary-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "3bfd44a09a1cf2ac3f01544ddcc27f12e168311f86b7de4b8e225ff629903e6f2c74b60387b30129aad17c98468700935b787f89abfe30cd873c575e942ed1d8"
 
 RPROVIDES:${PN} += "kitinerary"
 

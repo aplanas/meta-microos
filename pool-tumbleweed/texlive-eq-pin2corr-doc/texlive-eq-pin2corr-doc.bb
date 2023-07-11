@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.svn59477"
 
-RPM_NAME = "texlive-eq-pin2corr-doc-2023.201.svn59477-53.1.noarch.rpm"
-RPM_HASH = "90011b503f9b2278faf58fa186236a8835e9c316410745528c71960bf24b6e4000cd0ca8982756e8f22d400cc5d01858135cbc4a61e58126f74b3f9d4f82c413"
+RPM_NAME = "texlive-eq-pin2corr-doc-2023.201.svn59477-53.2.noarch.rpm"
+RPM_HASH = "2efee32de4aaec0a53db02d1a2a5b3e37ca45402b961c2645a895ea0fa9f465ac16bcb667d4fb49d185c60179d68a0a1129e45f19b0f64eedcc50e672bb775ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-eq-pin2corr-doc"

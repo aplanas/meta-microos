@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.4.1"
 
-RPM_NAME = "python311-xerox-0.4.1-2.14.noarch.rpm"
-RPM_HASH = "d44e4c74b519166b79c9ea90312c19d743a72f8f338665a838b30a5c17b72a35aabb615f39d26f6da049201c5b5c1cee53f9a7f0cc722bfba27e40e95581273a"
+RPM_NAME = "python311-xerox-0.4.1-2.16.noarch.rpm"
+RPM_HASH = "57ed73cfbad0bff50d7e0f6d498174a24df331d6738c108aa6330a50d0183ba0331d48688179c5a50876c71ef1f3c9d7c2fa497ea13c68ec2bd2856c76cdc403"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-xerox \
+RPROVIDES:${PN} += "python3-xerox \
+python3.11dist-xerox \
 python311-xerox \
 python3dist-xerox"
 

@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20221229"
 
-RPM_NAME = "libfcrypto-devel-20221229-1.2.aarch64.rpm"
-RPM_HASH = "11acf5a32ca9d87167ab8acfd3ca16eb3da56a295ea776167d98a8092cefb121c14352eb52d5eefd9b76f4323c21a347d3cfa41a1ac88ac8d077795e3e0d386b"
+RPM_NAME = "libfcrypto-devel-20221229-1.3.aarch64.rpm"
+RPM_HASH = "5f373e30c8580d0277d8b3b2af5c73b378c1c56a0a645764b03f1a73480c43c221c9dc52edf5df81b41101bcd864fb62c13bb13a884ad4ea35c77868e0b7a945"
 
 RPROVIDES:${PN} += "libfcrypto-devel \
 pkgconfig-libfcrypto"

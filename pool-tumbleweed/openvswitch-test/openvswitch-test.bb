@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.1.0"
 
-RPM_NAME = "openvswitch-test-3.1.0-14.1.aarch64.rpm"
-RPM_HASH = "33d4ca1959816315bc1a67db42bad10fe0518212bf5c25c8b61f7f3eec9255de10385a79bb3f7f734a1be1d1cb153f8aacbf970b68371c2937996336bb7781c3"
+RPM_NAME = "openvswitch-test-3.1.0-14.3.aarch64.rpm"
+RPM_HASH = "ac1e24660fced58ab1864827c5a3485cab5d8ffba180092855df00883314289f9d68c438a1f15ab5816cebdd69a3dc3f22c8bf25a66f96d2a157a4e010bd5145"
 
 RPROVIDES:${PN} += "openvswitch-test \
 python3-openvswitch-test"

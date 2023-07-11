@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.46.1"
 
-RPM_NAME = "metacity-tools-3.46.1-1.1.aarch64.rpm"
-RPM_HASH = "5914674921d145bd80c0c975b3264bf509e69e9f8710ba9a52a9e447b96d98b9dfc74624764c95556579f34cfd1b505ecfcdc96b2061e08470a0cd0589aa1220"
+RPM_NAME = "metacity-tools-3.46.1-1.2.aarch64.rpm"
+RPM_HASH = "904a7dc7bbda9890bb7390d6b00b60e1a87f2a1835f31c6ab9fe5faaef8df23e30e2da29e259874a4ac726e7863cb12b566452b01ba3ac50f734650f3799063b"
 
 RPROVIDES:${PN} += "metacity-tools"
 

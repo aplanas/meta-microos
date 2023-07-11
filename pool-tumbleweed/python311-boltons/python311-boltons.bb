@@ -6,11 +6,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "21.0.0"
 
-RPM_NAME = "python311-boltons-21.0.0-2.3.noarch.rpm"
-RPM_HASH = "9208fca20eee18c95f045472f25ef5eec5b715223e33196f2ce62ab2ef0205e1f1f835b7d2a3d5087b710840f596d6b4dc7b7fa399b8123ceb643a5c1b4bad5f"
+RPM_NAME = "python311-boltons-21.0.0-2.5.noarch.rpm"
+RPM_HASH = "1d89b8a5ac1421b288e6b0573de2b554be9869635ab2fc8b0d5a5cb582d2b1632b4378addbbb639f6a86171a05421044ef628b8612c240821cbd440b84717480"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-boltons \
+RPROVIDES:${PN} += "python3-boltons \
+python3.11dist-boltons \
 python311-boltons \
 python3dist-boltons"
 

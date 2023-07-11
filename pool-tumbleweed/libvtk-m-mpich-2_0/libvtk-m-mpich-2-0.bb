@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0.0"
 
-RPM_NAME = "libvtk-m-mpich-2_0-2.0.0-1.1.aarch64.rpm"
-RPM_HASH = "02a1c7016ac752c816f2d83f21d75cbe91511e853c9a525ecfc012707ef825976fe1d02af6ed311d75bf869c98c3f1e568f6576cef446ac87cf950580abc99b4"
+RPM_NAME = "libvtk-m-mpich-2_0-2.0.0-1.2.aarch64.rpm"
+RPM_HASH = "3d2666effcca0cefbb24286f2bc886a035b76078114c3bcfe6d62db339e377c62da73368bc7b72ba2b83f7352f3c42e7b74f1cff06daeaf8f2eccb0df3b516c4"
 
 RPROVIDES:${PN} += "libvtk-m-mpich-2-0 \
 libvtkm-cont-testing.so.2.0 \

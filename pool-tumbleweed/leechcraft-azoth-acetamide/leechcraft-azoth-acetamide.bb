@@ -10,8 +10,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-azoth-acetamide-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "8c044ff50dfd2eead8c69d7ff9db7529a66f33cf0f4a28a4341acf8af0bf71d9aa90b629d6042c79bfb4461f9f49237d4cf313f615f531ace91b3fbdf59984b0"
+RPM_NAME = "leechcraft-azoth-acetamide-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "909fb51dbb7636376ac46309e33f363e9455882b23d0b210fd15ad6e9e47bd6e81732703713ce236cdc7e10290bebb240b17e52d81ff15966fe8c3f85635fb4a"
 
 RPROVIDES:${PN} += "leechcraft-azoth-acetamide \
 leechcraft-azoth-protocolplugin \

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-only & GPL-3.0-or-later"
 
 PV = "5.2.0"
 
-RPM_NAME = "libpreludedb-plugins-5.2.0-2.10.aarch64.rpm"
-RPM_HASH = "79d3570837e3d89f41e3fd1bf992e7461340b4d60960c63ef726873e024e4b8102862f0aadf017136cdc7a42f8fe79e2e56f4878f4b01d94a75e0e09e9359954"
+RPM_NAME = "libpreludedb-plugins-5.2.0-2.12.aarch64.rpm"
+RPM_HASH = "fabc5d5247d20fb4d212c9493238b1a5da23027b91c54f478b02b03b32f0d86cde74842c9a1c79d7acd564c0e4c22e9a7d9c925b7bf0e75cf1d2cdc6a48bd39a"
 
 RPROVIDES:${PN} += "libpreludedb-plugins"
 

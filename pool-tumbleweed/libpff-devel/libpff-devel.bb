@@ -10,8 +10,8 @@ LICENSE = "GFDL-1.1-or-later & LGPL-3.0-or-later & GFDL-1.3-or-later"
 
 PV = "20230325"
 
-RPM_NAME = "libpff-devel-20230325-1.4.aarch64.rpm"
-RPM_HASH = "2cf27d3b41ae7de496fb955075fa38e49fa387921c1c149406e79237d5c4f28dcb383382bdf513f878a5302e1203176ce2935e5e58e6b2ee4ee4aa625319258b"
+RPM_NAME = "libpff-devel-20230325-1.7.aarch64.rpm"
+RPM_HASH = "b40f5673985bb7d6d7e1f12e92e075a7b463e0c6b17f2a327e0367abdc0c92c6bc6ec51e85e2b691861118de63319e4e42eb2ce6a3c635afdab080019856b202"
 
 RPROVIDES:${PN} += "libpff-devel \
 pkgconfig-libpff"

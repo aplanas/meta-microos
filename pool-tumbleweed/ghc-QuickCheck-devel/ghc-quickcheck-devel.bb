@@ -2,13 +2,13 @@ SUMMARY = "Haskell QuickCheck library development files"
 DESCRIPTION = "This package provides the Haskell QuickCheck library development files."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.14.2"
+PV = "2.14.3"
 
-RPM_NAME = "ghc-QuickCheck-devel-2.14.2-3.3.aarch64.rpm"
-RPM_HASH = "a7ca517ee83f8e2866515144b6ab82d7bc677de854fd82faa973387b5035f8a2d1daaae55e0c82e10e28f60e45ab46140cce5f951d82f3f1b0dee232ffa7b6ff"
+RPM_NAME = "ghc-QuickCheck-devel-2.14.3-1.3.aarch64.rpm"
+RPM_HASH = "f3ff3fc71f3a2812398ad14b67a1d360a1963f324e60b653669df7b4b557c2de9fa332081cc4b8dea19194e856b2b1541d7bb7a957dd879b2b7db7100437f61e"
 
 RPROVIDES:${PN} += "ghc-QuickCheck-devel \
-ghc-devel-QuickCheck-2.14.2-Ifslnzw9cpLJMSBGXVUlx6"
+ghc-devel-QuickCheck-2.14.3-6dq2izV8oSq1BobaDA598X"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-QuickCheck \

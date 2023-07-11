@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later & GPL-2.0-or-later"
 
 PV = "14.4.2"
 
-RPM_NAME = "sox-devel-14.4.2-6.1.aarch64.rpm"
-RPM_HASH = "1a37a116f273f49a94be0780fe185223cf3437f1c470238e693fed8b136b3bc82d3a72ed3d6c1bc34fc25e4edf0c5cf7765a33c96debe979d92dfedf706105da"
+RPM_NAME = "sox-devel-14.4.2-6.2.aarch64.rpm"
+RPM_HASH = "fd07ef8b78772d13d82380ce63869a46bab59b5a3357bd5b10019b189f3e4e26e0a4c50a6a9e50596803350a4b9e1cafd694792e9b31d7f702347841c50e1846"
 
 RPROVIDES:${PN} += "pkgconfig-sox \
 sox-devel"

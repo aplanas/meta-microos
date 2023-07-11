@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.13.4"
 
-RPM_NAME = "python39-qscintilla-qt5-2.13.4-1.5.aarch64.rpm"
-RPM_HASH = "52eb1c9d0a1ae3cb9b698452d80e32c74b6e08311b05b77feb25696686c4b9d8110b5bc8ae5f3c8b62c47c53d438ded3b082d0de525e50a0ea43fd8a50132083"
+RPM_NAME = "python39-qscintilla-qt5-2.13.4-1.6.aarch64.rpm"
+RPM_HASH = "2158fe32b70bd9de45cd67679c64ec0da251a5520c33b190da1389ea97595a939d2be663948698a0153e6990869083d94913cf3598fe590681bf00747f87afc8"
 
 RPROVIDES:${PN} += "python3.9dist-qscintilla \
 python39-qscintilla-qt5 \

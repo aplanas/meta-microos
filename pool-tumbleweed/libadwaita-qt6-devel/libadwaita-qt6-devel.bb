@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.4.2"
 
-RPM_NAME = "libadwaita-qt6-devel-1.4.2-3.3.aarch64.rpm"
-RPM_HASH = "8cb7d167aa76deae9734d4412a3c8c7b5766e30582365a2efed70489620e12df46a4531412eeb0f08b38d8b71685a52f3016dcec66953a934fadf85470665e2f"
+RPM_NAME = "libadwaita-qt6-devel-1.4.2-3.4.aarch64.rpm"
+RPM_HASH = "2295e71a4fad467eaafaaf84e81d79d71435ccc0678085c07dd0a1d0b6a9cc6da874172532a83df413ad61306b630d2fbff8afce1519cf587a6744cc57bde334"
 
 RPROVIDES:${PN} += "cmake-AdwaitaQt6 \
 libadwaita-qt6-devel"

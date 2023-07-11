@@ -3,16 +3,16 @@ DESCRIPTION = "A program that lists results from the hardware detection \
 library."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "22.2"
+PV = "23.1"
 
-RPM_NAME = "hwinfo-22.2-1.3.aarch64.rpm"
-RPM_HASH = "f93292603d3da5654f72695a0fb3abafef3a948b9383badd5f5977feac5c578f5b23859c5c205883f69a8be9122f27a3bd98cccca47eb4dd8e611a5ec0187d0e"
+RPM_NAME = "hwinfo-23.1-1.1.aarch64.rpm"
+RPM_HASH = "6b825b04c9b91bfae967ee6c9ca9546b03cb5c2de5a38885ecca43ca8779a3ec0b1250b5fca5f3205b2039d4cd12d7500eecee554c1d0aac7e953e3061d3fa8f"
 
 RPROVIDES:${PN} += "hwinfo"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libhd.so.22"
+libhd.so.23"
 
 inherit rpm

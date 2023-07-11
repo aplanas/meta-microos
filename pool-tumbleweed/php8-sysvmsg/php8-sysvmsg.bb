@@ -2,10 +2,10 @@ SUMMARY = "SysV Message Queue support for PHP"
 DESCRIPTION = "This module provides System V Message Queue support."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.1.19"
+PV = "8.2.7"
 
-RPM_NAME = "php8-sysvmsg-8.1.19-2.2.aarch64.rpm"
-RPM_HASH = "53b1302939ec3e67c0f4db0abf3a85f05edbb2a39d468ebf32469486338352c069b5027dfe21d641e018821a319f4d36b5b760ae40287b89cf09e1624949bf0a"
+RPM_NAME = "php8-sysvmsg-8.2.7-1.1.aarch64.rpm"
+RPM_HASH = "f19442afef380c6dd7a0d2ea744095afdecefffa3859aaa6a49c73f718b1e6f562fc6677a09d2b89937fabe555e9f596934f8a57a1a666861ee47bc71723655b"
 
 RPROVIDES:${PN} += "config-php8-sysvmsg \
 php-sysvmsg \

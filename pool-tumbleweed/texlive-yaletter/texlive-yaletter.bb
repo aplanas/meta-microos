@@ -10,8 +10,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.1svn42830"
 
-RPM_NAME = "texlive-yaletter-2023.201.1.1svn42830-52.1.noarch.rpm"
-RPM_HASH = "2bc934ce456bcf3b7706c02ae4615a57d52a8515ef9be256359cd63c025434ce091b95e1e95a1a830085bac3a2775dce184744b08405b19e510af307f7e0ffe7"
+RPM_NAME = "texlive-yaletter-2023.201.1.1svn42830-52.2.noarch.rpm"
+RPM_HASH = "d559a204d513c0bfba7f575aa964704b89ccc543cf280204e6a8f01b0e2fa212bd1ed5c491c5baf6f2510d99bbb305f19d44cfe73bcedcc7cdaca2aa9dffde0b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-yaletter.cls \

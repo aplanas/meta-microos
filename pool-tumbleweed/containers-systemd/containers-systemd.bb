@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "0.0+git20230324.9cd3b7a"
 
-RPM_NAME = "containers-systemd-0.0+git20230324.9cd3b7a-1.1.noarch.rpm"
-RPM_HASH = "ba825f0006e296d3c0c4f457c3b1c4290bcb28004d48c4e8bfbe3f4713e183f1c50404378c39b0054a5cb4d083f91399bb319e5ff05d070ee7fd0642f1ff2d69"
+RPM_NAME = "containers-systemd-0.0+git20230324.9cd3b7a-1.2.noarch.rpm"
+RPM_HASH = "e2846cfb480b17da9c98e0c8953920281c95f69f13ecddd70bb6f846f93c3906cc0129b0592a8cc8a6ee6e935f1de344f765adf36cc6585c17f11ae778ed1b1a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-containers-systemd \

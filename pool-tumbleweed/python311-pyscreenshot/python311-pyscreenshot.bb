@@ -6,11 +6,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.0"
 
-RPM_NAME = "python311-pyscreenshot-3.0-2.3.noarch.rpm"
-RPM_HASH = "ea3185941909ea7d9f69a9ffd068d1a982ac27abd4753a732efba64c9b8111cf9581daef85cdb71d98b775e5b23bb1533db439532cfe7662b425ac914ce7379c"
+RPM_NAME = "python311-pyscreenshot-3.0-2.4.noarch.rpm"
+RPM_HASH = "19ff96a0fb1bc8ef11c1a60424fffcd836a7156fc4fc3489137d29c7114718d0f4ba423e18ba4ff8b0ac5b00ce5e6026896f2712283ef178de64c3f9712ea033"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pyscreenshot \
+RPROVIDES:${PN} += "python3-pyscreenshot \
+python3.11dist-pyscreenshot \
 python311-pyscreenshot \
 python3dist-pyscreenshot"
 

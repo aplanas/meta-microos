@@ -5,8 +5,8 @@ LICENSE = "EPL-2.0"
 
 PV = "4.15"
 
-RPM_NAME = "eclipse-equinox-osgi-4.15-9.3.aarch64.rpm"
-RPM_HASH = "a5086d3ecb8100fdf6907d63b97f90cf6ddb3a3301997f365d17fce3e9e4c722a133678d9bc327a729768781d147dd6bcc73dba84eb542737a291f9690af7b15"
+RPM_NAME = "eclipse-equinox-osgi-4.15-9.4.aarch64.rpm"
+RPM_HASH = "1209fb7802633035949107afa8e801520ca3107129763a2217f173422ac932d202c3821f3ebce54db17b47f02677cebe64f18bbffd1be1a2b32e131d97d7dee4"
 
 RPROVIDES:${PN} += "eclipse-equinox-osgi \
 mvn-org.eclipse.osgi-org.eclipse.osgi \

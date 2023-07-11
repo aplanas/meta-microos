@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.2.2"
 
-RPM_NAME = "typelib-1_0-Qrtr-1_0-1.2.2-1.4.aarch64.rpm"
-RPM_HASH = "475e506fde54eb81bdcca6c7fc37275af9bea88327ee45e5f0797cc069456fb0ca1eb6a8d57c9550ab546543f0d1ea25e23ccda3fd778dcf64282ea078147ea1"
+RPM_NAME = "typelib-1_0-Qrtr-1_0-1.2.2-1.5.aarch64.rpm"
+RPM_HASH = "8c20eac4584c5fc0c41466fabfd18ddb71d9eda3873223326c1dcf4491758bbf73d8626422bbce3e5c8d582ff0d4b15ea45c4ffaebd183adb0cf987d43e294e4"
 
 RPROVIDES:${PN} += "typelib-1-0-Qrtr-1-0 \
 typelib-Qrtr"

@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-or-later"
 
 PV = "1.5.1615+0"
 
-RPM_NAME = "psi+-plugins-jabberdiskplugin-1.5.1615+0-3.1.aarch64.rpm"
-RPM_HASH = "d5d27981a606f33eba331cb7874214c8e3dbb58b60b77ae8c7a3607b61a501ae2169d1d145e42669d89762622beae4b6934878c6bd39a0b1c3f12a0bde31f254"
+RPM_NAME = "psi+-plugins-jabberdiskplugin-1.5.1615+0-3.2.aarch64.rpm"
+RPM_HASH = "482a41f97a332d2528fc93a51e207964e162e1a871f713e7ffaa45d7126432dde661344ab3a297ac347ed607cf92a5d7a307eab5c28eceae0fd7b1c0297518c0"
 
 RPROVIDES:${PN} += "libjabberdiskplugin.so \
 psi+-plugins-jabberdiskplugin"

@@ -7,8 +7,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "1.2.7.0"
 
-RPM_NAME = "python39-XStatic-tv4-1.2.7.0-1.15.noarch.rpm"
-RPM_HASH = "73b92006c19e38503aa3195d7e7135edcb509b2565f1276347631f47652d19e663e3070fa5d986041e619bb8073a619eb7f6783cdb18a5de1b72531076230a79"
+RPM_NAME = "python39-XStatic-tv4-1.2.7.0-1.16.noarch.rpm"
+RPM_HASH = "e9d285649f1a1c0b94daac7a2c41c2a8bacdd6fda84114c2460877aa64beba6b960a8a2cd31aa3576c08644b7cb0cc0e599d2d9082dd597c97ad1b6f066d61b3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-xstatic-tv4 \

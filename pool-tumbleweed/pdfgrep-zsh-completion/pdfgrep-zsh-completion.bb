@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.1.2"
 
-RPM_NAME = "pdfgrep-zsh-completion-2.1.2-2.9.noarch.rpm"
-RPM_HASH = "48ea8ce88397c0221358258e594bad527cd8308d8d463b221a129ad06d0b26310bd4129bda1f8a014af8996c50a9049312a098aa6ff4eeda60bf3114d63ae06e"
+RPM_NAME = "pdfgrep-zsh-completion-2.1.2-2.10.noarch.rpm"
+RPM_HASH = "7243f03d47bdc41802e77e496776864d6a0dcd6e8083655e329e4217e4d305fb16980e6610166639aa1abc293e0ff85263627d62b3b4ff8818853a3016b32599"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pdfgrep-zsh-completion"

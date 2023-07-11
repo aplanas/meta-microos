@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0 & (EPL-2.0 | GPL-2.0-only-with-Classpath-exception-2.0)"
 
 PV = "2.28"
 
-RPM_NAME = "jersey-2.28-6.10.noarch.rpm"
-RPM_HASH = "e0737357edcba723127580163622d5134da5d59fd48d95d613edb202a8507e6fcacab090ba4d16118b561e061567e8aa731dbd05e5b5f1e31d6fea140d65dd2c"
+RPM_NAME = "jersey-2.28-6.11.noarch.rpm"
+RPM_HASH = "3e68220b07814ae0a6a186a7cc032f3aabc97f4119417e9683e3f3ade864a62b828a41da56408a94e5eedc52d6e363a89721f17fdbd21dc083a37a0313ef3b08"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jersey \

@@ -7,10 +7,10 @@ Minolta/Konica-Minolta, Nikon, Olympus/Epson, Panasonic/Leica, \
 Pentax/Asahi, Reconyx, Ricoh, Samsung, Sanyo, Sigma/Foveon and Sony."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "12.62"
+PV = "12.64"
 
-RPM_NAME = "exiftool-12.62-1.1.noarch.rpm"
-RPM_HASH = "0c119c232f8ba3a874b6a447910b5f852a96e1070a798784390cd1114ca94a70588efc026b63025f4c99b74b4abf268e8ac3d566a674d50e0c7c50f0a0fffb8d"
+RPM_NAME = "exiftool-12.64-1.1.noarch.rpm"
+RPM_HASH = "f058f314ed634d61ac3a0efc74ddf35a37e5852612765f4c7fcf31f7cb1332d81b0665126139aba010aaadb83988cf87e72de29064c81b52dd53e6611c21ccaf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "exiftool"

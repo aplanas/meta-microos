@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.4.2"
 
-RPM_NAME = "wv2-devel-0.4.2-25.5.aarch64.rpm"
-RPM_HASH = "13948ab44a59deeaf6db3ee746cf41c3a4399fe8ceb5ee43863cb7015eab6b3afa1a925aecdb334a2062a2f472481a8befa48c8a6d057e3ddbfa6d15f3ee3552"
+RPM_NAME = "wv2-devel-0.4.2-25.6.aarch64.rpm"
+RPM_HASH = "813e5ed9a34afa293a75bbd017c0a1632aedf8fefb1d52d998e026871887c59d4a8710befc359697af7c69a61acf5155f6160e046698cf7e5f98e5c9c0c01db1"
 
 RPROVIDES:${PN} += "wv2-devel"
 

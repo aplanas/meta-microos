@@ -4,8 +4,8 @@ LICENSE = "Zlib"
 
 PV = "0.3.2.9"
 
-RPM_NAME = "vkbasalt-0.3.2.9-1.1.aarch64.rpm"
-RPM_HASH = "f3a7cfa0d85fefa7c540a237585c280156396db802a9c17de9a69fd238d9d8c8450293e14bde014918b05b788d9723241caf192fd86e14bf02111ec8ebcfe689"
+RPM_NAME = "vkbasalt-0.3.2.9-1.2.aarch64.rpm"
+RPM_HASH = "fd2f9d644acc92ef93efd6a71b81dd718998a4c4d5795d881806d6289050ba38a8f31d835f311d5e97790f02a0459d814edf9e71b081020604c68409925a9adb"
 
 RPROVIDES:${PN} += "config-vkbasalt \
 libvkbasalt.so \

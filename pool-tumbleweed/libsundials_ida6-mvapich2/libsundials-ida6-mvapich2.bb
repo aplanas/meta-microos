@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "6.3.0"
 
-RPM_NAME = "libsundials_ida6-mvapich2-6.3.0-2.4.aarch64.rpm"
-RPM_HASH = "a60e4aab632386ff6e4dbab31d743a59b2360de9d21da9b49c0e758a517fd2425817bf024191f9858bc25a1eeeed8c12369fd599a3a819c63cafef8acd74c917"
+RPM_NAME = "libsundials_ida6-mvapich2-6.3.0-2.5.aarch64.rpm"
+RPM_HASH = "a7b7451530b1b2030de282b484952ec33753fd46e68d24a328ef3cb9ccce3f6370e151aa2c405534c0d0dbfedcdca2a705b8ed9edb597028facfea47d1e358de"
 
 RPROVIDES:${PN} += "libsundials-ida.so.6 \
 libsundials-ida6-mvapich2"

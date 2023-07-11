@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.0.17"
 
-RPM_NAME = "python3-dnf-plugin-snapper-4.0.17-2.1.noarch.rpm"
-RPM_HASH = "228156179fd8ea2b49d1b630ae96ee778f95e56557669fdd5d34af18a71bee5191db5a162ce914ffc00bd388492c7c61a54a6e0bdcd3562be7c35fc92a974574"
+RPM_NAME = "python3-dnf-plugin-snapper-4.0.17-2.2.noarch.rpm"
+RPM_HASH = "3c715ed05b8c23f17806ffc22a91e6d8e5937f04c479e48293e665353c18242b7b7da5dd48c274d3ccd1e49959977bff877094276048a97b3463da46d1bf4497"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dnf-plugin-snapper \

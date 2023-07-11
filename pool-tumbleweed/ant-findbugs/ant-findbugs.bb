@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.0.1"
 
-RPM_NAME = "ant-findbugs-3.0.1-2.20.noarch.rpm"
-RPM_HASH = "e0b595bb9748d79b5bc165ae94f14697e635c9fb4a98c2b312d66c6e8edeabb20a7791449db3500a226c9215500264a6f7a261f67bea04a5a4b2ed56c68ec9a2"
+RPM_NAME = "ant-findbugs-3.0.1-2.21.noarch.rpm"
+RPM_HASH = "47fc321b93e5f8d5b1f21c0b187bb8cf6107061d69ab44fb048bb3c7b42a4ddb68e99b7ff5d4f1aa914af6f1e192a27b7d042cb6ffbc9698228204b4e8350eef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-findbugs \

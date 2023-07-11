@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "gnome-text-editor-lang-44.0-1.2.noarch.rpm"
-RPM_HASH = "8c2e8ae7a1523b2e7e85da08e12420d1345b05c8a89d793e244053509aa9ce3a1de1563f022c4742f5a5c43f5ee934434def6cb7de837b2319eae6a7e5b6fb96"
+RPM_NAME = "gnome-text-editor-lang-44.0-1.3.noarch.rpm"
+RPM_HASH = "4c0c74cfe387b5428d30edbbb522804ee853549d2f55824d21a5b4746c79618a64fdb5694e921f59bfa254ef6262dcbef22a1ba895c2d668c5dbc678098389cb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-text-editor-lang \

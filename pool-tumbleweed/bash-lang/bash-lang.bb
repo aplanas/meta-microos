@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.2.15"
 
-RPM_NAME = "bash-lang-5.2.15-8.3.noarch.rpm"
-RPM_HASH = "4686431880a106d69f32cb5c69571f426921eaf881a653c19cf669674cd9da1b305736f9223cd0c6b72bb237141e251c5d4d9f61c4c34f445a51337eb4267074"
+RPM_NAME = "bash-lang-5.2.15-8.6.noarch.rpm"
+RPM_HASH = "be2ce1b65e82e4368a75ae4d43d087074c31d3dffb7dd15f77dfeb71efb3cc213bc1107717a82ce82abe71d17f2849edb5d32a5c05a1bc748db4a0350e76d39b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bash-lang \

@@ -3,10 +3,10 @@ DESCRIPTION = "This is a port of the classic computer game 'Sopwith' to run on m
 computers and operating systems."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.1.1"
+PV = "2.3.0"
 
-RPM_NAME = "sopwith-2.1.1-1.2.aarch64.rpm"
-RPM_HASH = "ec0d4163f45982a5820eaadab863c13427cc8e07e80beae160af9b35ec4ce732c704507e172bb50c7bc53fab8954fbb984d3ab6bd162240e5a4f97ba48322aad"
+RPM_NAME = "sopwith-2.3.0-1.1.aarch64.rpm"
+RPM_HASH = "472aa8a4568df6cb3eb3360c36e5d05eff4b46c87183370a5a4df50eaba0a348a4568ae307a63fc36641f0bb19bdf348fb407f7464c53c6c2e13e5580c9d8cce"
 
 RPROVIDES:${PN} += "sopwith"
 

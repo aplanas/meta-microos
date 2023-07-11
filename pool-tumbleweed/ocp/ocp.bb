@@ -9,8 +9,8 @@ LICENSE = "CC-BY-3.0 & GPL-2.0-or-later"
 
 PV = "0.2.105"
 
-RPM_NAME = "ocp-0.2.105-1.1.aarch64.rpm"
-RPM_HASH = "bcfcfa1d2a79d1cbec02ea6b155b6ee29c0b86f03a32305722e35846150aa18ab4cb1c37f5838f399bf4fe041423a198ebcde057833aeceb237b8c9a4690caca"
+RPM_NAME = "ocp-0.2.105-1.2.aarch64.rpm"
+RPM_HASH = "8a466c54014e4f4c5417beca21e0e515bb9b1cf5b4e87942cc03661bc2dc7c2f1fef2bba30e754ec383d4e4e0fec091faad5ae8e8604ce27d29f18873c45c085"
 
 RPROVIDES:${PN} += "bundled-adplug \
 bundled-adplugdb \

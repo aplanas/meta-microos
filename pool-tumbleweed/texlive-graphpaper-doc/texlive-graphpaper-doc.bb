@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.1svn63116"
 
-RPM_NAME = "texlive-graphpaper-doc-2023.201.1.1svn63116-53.1.noarch.rpm"
-RPM_HASH = "e3003f6273d523c25ce1c3151fe8091d5ea14c178b40f23488c002dd79e06eee27600e2211e71405d43387fd8b12641e05961b7688d2c8fa7afbf55cadeedac7"
+RPM_NAME = "texlive-graphpaper-doc-2023.201.1.1svn63116-53.2.noarch.rpm"
+RPM_HASH = "559511435b793b7294f5a621d2729deeb7896f465ab06eff1e3851072e75023d719ae4adf147e5ca1b6b5f3ded36ba691ae2f0fc5a08ee862d80f3bce547e127"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-graphpaper-doc"

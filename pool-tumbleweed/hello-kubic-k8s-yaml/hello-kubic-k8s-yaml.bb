@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.4.1"
 
-RPM_NAME = "hello-kubic-k8s-yaml-1.4.1-1.6.noarch.rpm"
-RPM_HASH = "58cdd4c5b7767341ea1b8c6c472faa8ec3dcd29c9669911450e7e2689169b69013b6128afbb8c0b07f790532b81228e3d02b93df2111b42d1ddf71316762596f"
+RPM_NAME = "hello-kubic-k8s-yaml-1.4.1-1.7.noarch.rpm"
+RPM_HASH = "1f71491ad8ebdba3ad28401ca8413f16aee4b750a3c90acbc79db1c7be210d340e4bb51e2041418c5f2d5e69c7a4f9201134cc2abefd86f1af909f2e9b1b02da"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hello-kubic-k8s-yaml"

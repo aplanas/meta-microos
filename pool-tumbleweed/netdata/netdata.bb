@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0 & BSD-2-Clause & GPL-3.0-or-later & MIT & BSD-3-Clause & L
 
 PV = "1.39.1"
 
-RPM_NAME = "netdata-1.39.1-1.1.aarch64.rpm"
-RPM_HASH = "0990760afcb791fa75a794eb727c05c95c7c2478c7482b8c20d4440bbd49a4e77e3f75f2f31f160bdd7bec3612474db4efc98d55e8b47cae1b8a433cb132876c"
+RPM_NAME = "netdata-1.39.1-1.3.aarch64.rpm"
+RPM_HASH = "4049a05a388713a92e6dde4116617f73abac990b29ec2fac42fe4a21b5931503e76dbf946337562bb70c94b04571874b5276c68ba3db7801d386ae7c4c2b829d"
 
 RPROVIDES:${PN} += "config-netdata \
 netdata"

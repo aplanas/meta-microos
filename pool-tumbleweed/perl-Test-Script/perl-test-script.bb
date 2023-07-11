@@ -23,14 +23,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.29"
 
-RPM_NAME = "perl-Test-Script-1.29-1.9.noarch.rpm"
-RPM_HASH = "b87a0d502d6c9a7b7aa615b03c9dcc4c561c40de5143a73cdc3bb29dfea79be0cf73c64a00409b1a676ae32a71d45bffeef080e601dc290086ff3228328c72b4"
+RPM_NAME = "perl-Test-Script-1.29-1.10.noarch.rpm"
+RPM_HASH = "848cc6b578f6686e5b0c0482bbf75efcd775143e596899a31f76247483c45d4ab3019cef38a32c27e22d3ddd5a222450cb8b929e27bef526199e1d2a5486df9b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Script \
 perl-Test-Script"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Capture--Tiny \
 perl-Probe--Perl \
 perl-Test2--API"

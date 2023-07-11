@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.23.17"
 
-RPM_NAME = "kubernetes1.23-client-fish-completion-1.23.17-3.1.noarch.rpm"
-RPM_HASH = "28eb11178ec3c901dcf82385141e05277bf9202de2f2404a72cab983fd89767f80b8abc5f806d51330e7557422e2c1a953b5c4dcb2921afd6a2b3ed456c8f2ac"
+RPM_NAME = "kubernetes1.23-client-fish-completion-1.23.17-5.1.noarch.rpm"
+RPM_HASH = "1148a9444736e8b7699ca11da024447709ae68bd969ac3a3a500ca62055a3c34248fe979503bffb20a73e302cb28b357862ff9d93071ce62c2e338b5862f61ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kubernetes-client-fish-completion \

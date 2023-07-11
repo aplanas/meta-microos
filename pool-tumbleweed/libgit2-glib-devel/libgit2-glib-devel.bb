@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.1.0"
 
-RPM_NAME = "libgit2-glib-devel-1.1.0-1.5.aarch64.rpm"
-RPM_HASH = "17407c981a1330acc30564e5436d9a54ff1f60e8d06d51f5216206cd234ea2d634fe20f2085a408403187328d04ea1e64386b4604c72247e6a6ea8ca953dde4f"
+RPM_NAME = "libgit2-glib-devel-1.1.0-1.6.aarch64.rpm"
+RPM_HASH = "ff43f842cad1df8374b136619a41b52db0a7ee2096368c59ad0ca5d136b364232cd24ce10e0646ce664d42c23adffb49a7a9dda7524457b0bda03d804d3ec8eb"
 
 RPROVIDES:${PN} += "libgit2-glib-devel \
 pkgconfig-libgit2-glib-1.0"

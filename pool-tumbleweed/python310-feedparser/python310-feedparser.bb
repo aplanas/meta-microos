@@ -5,12 +5,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "6.0.10"
 
-RPM_NAME = "python310-feedparser-6.0.10-1.5.noarch.rpm"
-RPM_HASH = "67f3e2908db2664d1574e181bff66d4afef8949291436c2c66017fc44b0ecd6fd7ba1da2a6cb0381eedc6731bfaebb5b57320453898426d7a9cadeebf516dc54"
+RPM_NAME = "python310-feedparser-6.0.10-2.1.noarch.rpm"
+RPM_HASH = "5eb09e260f17717f6bf421fbea823ba527f4506d3d01038d84ee0381a6b7c3a0543cbf58d9db4b8576f14fc6109a98413dcb5c38b7dcbb00f4778265999e2940"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-feedparser \
-python3.10dist-feedparser \
+RPROVIDES:${PN} += "python3.10dist-feedparser \
 python310-feedparser \
 python3dist-feedparser"
 

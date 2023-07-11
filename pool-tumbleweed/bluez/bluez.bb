@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.66"
 
-RPM_NAME = "bluez-5.66-1.6.aarch64.rpm"
-RPM_HASH = "0a857a490668254d3c3e2d3efc4acdd997bf8a7c58993b65e188f0d6ec694bab2e33f315ea8949dddf7d8e73ef69b5cc5e77e4abd01b8b95c95fe497c1120966"
+RPM_NAME = "bluez-5.66-1.8.aarch64.rpm"
+RPM_HASH = "9448ff3d9cc6979360a445e5ce0bb67c0b10bce9505745be8143ea9f753f73d9b77f0ce74fabe28e863b10b859193f1dfe0177c762096fd920c6e434560af2cb"
 
 RPROVIDES:${PN} += "bluez \
 bluez-audio \

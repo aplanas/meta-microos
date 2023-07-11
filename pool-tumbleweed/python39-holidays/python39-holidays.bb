@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.20"
 
-RPM_NAME = "python39-holidays-0.20-1.2.noarch.rpm"
-RPM_HASH = "98de6fdd2dcfe5cea84dbf5c87e2bc3a648bb322efb9b2d7bd56c7795a8b5b8bfe89738ee0d70b68b4d08b7e83d5416832c0d5913caa50cc9fcfb3474c1585ea"
+RPM_NAME = "python39-holidays-0.20-1.4.noarch.rpm"
+RPM_HASH = "47a7cd5e40182e606d45ee0bc3e60d9339fec15a501f6c36f994d5dc0753ec1d390e736aac33446e78540a0a94b885de3962ab335c6163cd428504eacfe30765"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-holidays \

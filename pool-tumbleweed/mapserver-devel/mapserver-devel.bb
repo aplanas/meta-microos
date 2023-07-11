@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "8.0.0"
 
-RPM_NAME = "mapserver-devel-8.0.0-2.5.aarch64.rpm"
-RPM_HASH = "78b68e69da700c8ebce9ed4e027bd23fffb432122dc64655cf12f388ffa4633f3888bab5c90b1bc680c12364473a515938dfbb44a88ea84add1003af7a7af832"
+RPM_NAME = "mapserver-devel-8.0.0-2.7.aarch64.rpm"
+RPM_HASH = "fdbcf6efef3b70d5fdf304b9a2f85fcfe12249b3ddbe81f00b7be4c7949fcbf8df9231833be1d17af89ae7e00655ccdec0e9f7aa6f39140d6e681b73db94179c"
 
 RPROVIDES:${PN} += "mapserver-devel"
 

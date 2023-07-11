@@ -26,8 +26,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.10"
 
-RPM_NAME = "qgit-2.10-1.7.aarch64.rpm"
-RPM_HASH = "a687687e073748a5c9d1cf7b78e3efcc833983e7029adc8563162ea0c4404565f91bec4afe972bf4eb9691358f5ec49de383adaca57229eb7bd1834595b6ce4f"
+RPM_NAME = "qgit-2.10-1.8.aarch64.rpm"
+RPM_HASH = "ef3e2d5680fd02308eb2dc71de71d137f8dc62097b334b440e598bf0f2eca036b998ccabb5e11ba3ed91dd819fc58adc566eaa829754bfcf19d4003581e0560b"
 
 RPROVIDES:${PN} += "qgit"
 

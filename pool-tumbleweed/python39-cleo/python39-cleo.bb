@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.0.1"
 
-RPM_NAME = "python39-cleo-2.0.1-2.1.noarch.rpm"
-RPM_HASH = "4a5334d96ef47e9fafaf190165dbe56c65b269f3d523a4ad61d0867a82e6f7a0d2c2b62b6eb04a7af274c7a10272c44bde00d3e2f2ff84fb02f4ef52e742dc0d"
+RPM_NAME = "python39-cleo-2.0.1-2.3.noarch.rpm"
+RPM_HASH = "fd516cc4d2ca07a3c147d8b4bfa5d2e5b973180954dc65421c29d886380737e8ecbc449a2fcad2be8e483cd47f38a8d71f8455e7e8c07393cee9c788594eb832"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-cleo \

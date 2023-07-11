@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.53.2"
 
-RPM_NAME = "golangci-lint-1.53.2-1.1.aarch64.rpm"
-RPM_HASH = "a80f5ffafa680031a9c05b87bb420f1cdc88c63d520d45c695174975f4cba2d9221e58b5a01676d0f5dbabfcfd5227bdcadd5c5046cc4955caad9a67f7ee5940"
+RPM_NAME = "golangci-lint-1.53.2-1.2.aarch64.rpm"
+RPM_HASH = "add3af62febdb0fe259cce4cb91b098c769462ef17f01c7ad7a4caeca2c32cd2b82a2e51ea43d206f41080919bb49c32065a79c6de3505f20db726d668789124"
 
 RPROVIDES:${PN} += "golangci-lint"
 

@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "0.1.21"
 
-RPM_NAME = "python39-pytoml-0.1.21-3.1.noarch.rpm"
-RPM_HASH = "662dfc67c95246f1562fab69d5814cb3fc378a855cd54dd5a7bcd598360d6824ca098731022397f5cfb5a7be2cfff8139ffbbac5dfb2d39de3d53ffc11a92a61"
+RPM_NAME = "python39-pytoml-0.1.21-3.2.noarch.rpm"
+RPM_HASH = "6d4cacf3e92f4c72be7a94d5fe49deac100f6d5d6759c4d8bdd3d64bfd188561708995720317db177857350c24ce67491cd4bc06d1ebc9dd9771b6f35d493ad6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytoml \

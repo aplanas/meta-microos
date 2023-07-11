@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0 | MIT"
 
 PV = "2.20.0"
 
-RPM_NAME = "hypre_2_20_0-gnu-openmpi2-hpc-devel-2.20.0-1.22.aarch64.rpm"
-RPM_HASH = "8625bd7b428fc63023d6827d8dae14b2db007cd22f54fdf40e405119d4189d17320ae68379611635c2c1d3e6d8bd390b959d23ceac2b09b92cacfbef5d4c5d24"
+RPM_NAME = "hypre_2_20_0-gnu-openmpi2-hpc-devel-2.20.0-1.23.aarch64.rpm"
+RPM_HASH = "7343e91f94f9d425110addd1e540fbd396111983cfc94b4da673facbe5c58bdfe52a017b0ba1e99fa56e63b0df74242a66a8b0a02aee81480380e8052094d7ea"
 
 RPROVIDES:${PN} += "hypre-2-20-0-gnu-openmpi2-hpc-devel \
 pkgconfig-hypre"

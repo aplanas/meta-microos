@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.24.33"
 
-RPM_NAME = "gtk2-devel-2.24.33-4.3.aarch64.rpm"
-RPM_HASH = "c879bbe00dc58d6050eae1b99e230a328cabb36b0afceff4e335de79e81b778a573a87801a20f879693f5a2e9a150e46d52825c6ba38709c8da8a7a0e11a2191"
+RPM_NAME = "gtk2-devel-2.24.33-4.4.aarch64.rpm"
+RPM_HASH = "f1c7f232b70e784d96579fa5a18c14dabc120f18b7d71a201c6e899587e0e8059e2dffda82198274a3d1782ab119abaab116ddbb38a55972e158151b67365e25"
 
 RPROVIDES:${PN} += "gail-devel \
 gtk2-devel \

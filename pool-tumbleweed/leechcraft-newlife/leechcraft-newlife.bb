@@ -14,8 +14,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-newlife-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "98e8a614430f0ff524a98b55311e189a9a9f8d214e48ef00ef0ec99a18ad89ebc8f6b41dcb320329a6a9cb4a25f33fadfbad36e66a6d18acbf7fd61d6ad0f277"
+RPM_NAME = "leechcraft-newlife-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "782a74eade5f354fa37027b300bcce4c835c14e044c62f181441681412355f12f29de324c9be4958850cb29265c2582697a1ef9306a9f0f60aa8e12b12649912"
 
 RPROVIDES:${PN} += "leechcraft-newlife \
 libleechcraft-newlife.so"

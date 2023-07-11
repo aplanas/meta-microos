@@ -4,12 +4,12 @@ now Intel GPUs. \
  \
 It can handle multiple GPUs and print information about them in a htop familiar \
 way."
-LICENSE = "GPL-3.0+"
+LICENSE = "GPL-3.0-or-later"
 
-PV = "3.0.1+29"
+PV = "3.0.2+2"
 
-RPM_NAME = "nvtop-3.0.1+29-1.1.aarch64.rpm"
-RPM_HASH = "ff01fa4e7c7077bf25d4545508601f694f612aab8606c4812f65aa782ffdb3b510a02e9acfba20954e1154443f18b1349fada2e1a9ebae6db8c18388269a392d"
+RPM_NAME = "nvtop-3.0.2+2-1.1.aarch64.rpm"
+RPM_HASH = "4e0be26edcd5a8894e0507b10c5f9a0cce222b339bc18b360417c71682b85ed87de13cad09dc6dc2546402658ae9cd4fa90baae9caea7feb71c9e1547a955c28"
 
 RPROVIDES:${PN} += "nvtop"
 

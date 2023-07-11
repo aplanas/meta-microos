@@ -6,11 +6,12 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.6.4"
 
-RPM_NAME = "python311-aexpect-1.6.4-2.4.noarch.rpm"
-RPM_HASH = "2a6a23068602a6bbda604bb2af6577c983747a57fdbb67458de63cf9ca6cfe72f18d38f5850233c0dde5db99d9eb18b2c043c783a477b3714d3d5b858b5768c0"
+RPM_NAME = "python311-aexpect-1.6.4-2.5.noarch.rpm"
+RPM_HASH = "3d8cbeed033fdafbf8f7be50c1f8dcc4e2322eccfd619d9a5c50d01e42c58603738cf6e2beb9284c7e3120944ce142df619e4521d0cbfab675ce7118bc5994da"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-aexpect \
+RPROVIDES:${PN} += "python3-aexpect \
+python3.11dist-aexpect \
 python311-aexpect \
 python3dist-aexpect"
 

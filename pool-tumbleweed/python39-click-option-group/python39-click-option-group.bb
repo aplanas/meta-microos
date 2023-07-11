@@ -2,10 +2,10 @@ SUMMARY = "Option groups missing in Click"
 DESCRIPTION = "Option groups missing in Click"
 LICENSE = "BSD-3-Clause"
 
-PV = "0.5.5"
+PV = "0.5.6"
 
-RPM_NAME = "python39-click-option-group-0.5.5-2.1.noarch.rpm"
-RPM_HASH = "9f53f3a79ba85c7da0dfd06b7b1ae309e56bcaed6fb0f1e2d052b7d220c64dd692101961297ce62e5f0d965f3bb5fea4d371374482ffbc68c3ec94a7bd709c82"
+RPM_NAME = "python39-click-option-group-0.5.6-1.1.noarch.rpm"
+RPM_HASH = "99c4272f73676710e1e3fe395e9bdb40da59dcf7ebffb1ad5887485329b5a8e836c3d088bc52110f578bcc57d4081b92424548effe36fd30b887f854689b8659"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-click-option-group \

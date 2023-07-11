@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.6.0"
 
-RPM_NAME = "tcmu-runner-handler-glusterfs-1.6.0-1.3.aarch64.rpm"
-RPM_HASH = "a0470b3212179dc7d3e3166ac34f14e1b946ec16621296c6e5cce7f9d70508b198aeca1facc249118f96035b06be6d4a07746c2ce33cd3649639506d773cc7e5"
+RPM_NAME = "tcmu-runner-handler-glusterfs-1.6.0-1.4.aarch64.rpm"
+RPM_HASH = "f5cef872b52ef158a60eb0a21cc61b085e32998336f65430a1f796fda9198022bea643f1c7caa371db877c2015c96073a225cc9405395891b2a8a21c4db5b9e6"
 
 RPROVIDES:${PN} += "tcmu-runner-handler-glusterfs"
 

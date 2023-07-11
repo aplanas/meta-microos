@@ -26,8 +26,8 @@ LICENSE = "Apache-2.0 & LGPL-2.1-only & Python-2.0"
 
 PV = "0.8.0"
 
-RPM_NAME = "python39-encore-0.8.0-1.5.noarch.rpm"
-RPM_HASH = "e350ae62b6e162469d593bc61a293ca31f5262b3434103d79192221923f8d183ea4117cad329dd42a124598f464e9d48f69acb75dfcd62d4fbe9ec014b80d9da"
+RPM_NAME = "python39-encore-0.8.0-1.7.noarch.rpm"
+RPM_HASH = "bb80ba11d79eb93f370215ebe81f7dd320571a8f6bbeb858a790ff5ee329b22f1d7806dc5a6a84237e2cb6d3d27dc4764b00a7409b4a5fccf4a32fc80f0201a3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-encore \

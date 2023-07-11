@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.0"
 
-RPM_NAME = "wxmp3gain-4.0-1.23.aarch64.rpm"
-RPM_HASH = "7215077aaa4fd5ad8579c75a63791f3a4549ce7378077d741307b750bef074b3d15052a0eb3036ff55a8abafb8d95bc5abe57e0a8ab903c0cd9f481de94d60c7"
+RPM_NAME = "wxmp3gain-4.0-1.24.aarch64.rpm"
+RPM_HASH = "d07aaba84d94f68b0945619cc11e5ed75e10b7de82bcfbd815a37a87bf89d656ad16bc26941f43a8ef7a4e8f66a649beace21bd76e070fe9bf5e622f74426282"
 
 RPROVIDES:${PN} += "wxmp3gain"
 

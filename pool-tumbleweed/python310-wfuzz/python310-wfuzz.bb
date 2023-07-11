@@ -34,12 +34,11 @@ LICENSE = "GPL-2.0-only"
 
 PV = "3.1.0"
 
-RPM_NAME = "python310-wfuzz-3.1.0-3.3.noarch.rpm"
-RPM_HASH = "350587adf7cc93d9bce373eaa78d218a536ef6fe00dfe4da3b56a9cb06ed7cb33f002fb383f047c026b9568d4dda6b24a0d2b199a14b442d1ca07d24757d0484"
+RPM_NAME = "python310-wfuzz-3.1.0-3.4.noarch.rpm"
+RPM_HASH = "1199c5eb7a5efb211280a3329ff10597e781cd29f3c1ca5d4518c7cbd591260e577e92278ecc1c897c6464e85e23639ac0c9221c20c2afdbd02f1fe67be23ebd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-wfuzz \
-python3.10dist-wfuzz \
+RPROVIDES:${PN} += "python3.10dist-wfuzz \
 python310-wfuzz \
 python3dist-wfuzz"
 

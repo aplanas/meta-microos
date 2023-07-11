@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.2.0"
 
-RPM_NAME = "kquickimageeditor-imports-0.2.0-1.10.aarch64.rpm"
-RPM_HASH = "b32e605c2ccb4746443bc39115ac9677bb5df0c0477a61cadce45560be6ffdc744a1bc6fd6e146661f134a6d67da5649016eeb3bd0eff7b5d0d6a882254e2215"
+RPM_NAME = "kquickimageeditor-imports-0.2.0-1.11.aarch64.rpm"
+RPM_HASH = "f879781c6b3046bd795046f4a4281df31f9be0a2668cef3d25c0e768c2f5038ae11a9d976862054d9ca708470c096adb98669018ef7abdf889ddf69c4280b765"
 
 RPROVIDES:${PN} += "kquickimageeditor-imports \
 libkquickimageeditorplugin.so \

@@ -4,10 +4,10 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.14.1"
 
-RPM_NAME = "python3-libnbd-1.14.1-2.1.aarch64.rpm"
-RPM_HASH = "cab371e60cae59460892cf577086ca49f116e86ec0a564f5914f2d90c1acb66c64db8e96e60814303823887448ba8e93a36159db7a34d6e09d01c401f92687db"
+RPM_NAME = "python3-libnbd-1.14.1-2.2.aarch64.rpm"
+RPM_HASH = "fb4c43f36112562d8f01cf2b06e6cebcc6fbc24fca720412160f3ebdc439dec60b761dc599e872ca4ca764d07859c1eb5208a9c0bcb51c44c659975c5739976a"
 
-RPROVIDES:${PN} += "libnbdmod.cpython-310-aarch64-linux-gnu.so \
+RPROVIDES:${PN} += "libnbdmod.cpython-311-aarch64-linux-gnu.so \
 python3-libnbd"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

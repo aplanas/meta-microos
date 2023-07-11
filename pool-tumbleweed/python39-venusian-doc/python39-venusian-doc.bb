@@ -4,8 +4,8 @@ LICENSE = "SUSE-Repoze & ZPL-2.1"
 
 PV = "3.0.0"
 
-RPM_NAME = "python39-venusian-doc-3.0.0-3.1.noarch.rpm"
-RPM_HASH = "a9834745b06357c3b4850182a3678a428b29a8ad6f5ec407470f281788e2a91c628be87447e88dcd102992a4f83086228a96ea618d662c65bb14dbcb100ae66b"
+RPM_NAME = "python39-venusian-doc-3.0.0-4.2.noarch.rpm"
+RPM_HASH = "69c111cc8e73d67bd6e975f3a288748d6771bbfdb91925778b4580acbf67df2fd1a5041915084b8535600996fdb4a493dd2caf84bd815101c2ad366eabed10e1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-venusian-doc"

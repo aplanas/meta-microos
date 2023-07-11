@@ -5,10 +5,10 @@ colorizing, and many other things, as well as a Python shell window and \
 a debugger."
 LICENSE = "Python-2.0"
 
-PV = "3.12.0b1"
+PV = "3.12.0b3"
 
-RPM_NAME = "python312-idle-3.12.0b1-1.1.aarch64.rpm"
-RPM_HASH = "325849eabff82394c17a56c5caf05f8541a6dd5c66f7187dd8320708401a7e0aa91fee0f53076a6fb3ae671816d7edc06658a752917b18cad689cf0cf8f13127"
+RPM_NAME = "python312-idle-3.12.0b3-1.1.aarch64.rpm"
+RPM_HASH = "264c7090604f5bce19ad2b2ad4ec58083e5f3031f67d7e65d3cb5fb8b7fc69663532538d3262e1d6d7be33bafbfe7949efe8967e7435c6e665ce2b93743077f9"
 
 RPROVIDES:${PN} += "config-python312-idle \
 python312-idle"

@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.0.10"
 
-RPM_NAME = "gtkspell3-devel-3.0.10-3.8.aarch64.rpm"
-RPM_HASH = "f209fdf52dbd7034857a1aa87dc3ff338b5a3720ec50429c6a539757863037f02bc291928760384e2cc9cd0bfa14736b15947ec6e32847b4fdad8b68b5e29a72"
+RPM_NAME = "gtkspell3-devel-3.0.10-3.9.aarch64.rpm"
+RPM_HASH = "837be9495061a6550b8378d84b258416c685f0839a8a5e38c5fa6a5834805b1b01c77c0cf2b15e673bcb8205961133b72f1f9442d34c730f7b037437f69b2307"
 
 RPROVIDES:${PN} += "gtkspell3-devel \
 pkgconfig-gtkspell3-3.0"

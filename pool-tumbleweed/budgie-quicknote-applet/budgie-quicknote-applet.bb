@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.6.0"
 
-RPM_NAME = "budgie-quicknote-applet-1.6.0-1.1.aarch64.rpm"
-RPM_HASH = "422b400a321283845e5ea4a9ac34e9313073f765fec3e1d2ba96722b1561cf5d8ede68408b8c496b8ad72d76068ccb3ead13478fdf905911b29be60490242d88"
+RPM_NAME = "budgie-quicknote-applet-1.6.0-1.2.aarch64.rpm"
+RPM_HASH = "f94be66fcd7e5d902094023529e87666bff09f16ca5c5d02eb078ff92342c696ccca400e6b0d6c6db5f390b6208b3750e33543856ca4ceea43553c974fd2a492"
 
 RPROVIDES:${PN} += "budgie-quicknote-applet \
 libquicknoteapplet.so"

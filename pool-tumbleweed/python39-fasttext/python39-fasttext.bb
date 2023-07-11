@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.9.2"
 
-RPM_NAME = "python39-fasttext-0.9.2-4.1.aarch64.rpm"
-RPM_HASH = "a6d805a804c7e81884725449c090b8349304359a95966ccfa7ac28f4455a3c4688aafc657305d9bbf273cfb7a860eef90a2ebad6fa58cc95f6847f2101d0a9e3"
+RPM_NAME = "python39-fasttext-0.9.2-4.3.aarch64.rpm"
+RPM_HASH = "102578f1dfdf1b9a6286b618db8283443403541b89445d565b97e4b8f44b525e32ac37fac307673108b3204041ce9717889c3b8a78f777b5679db7332a79210b"
 
 RPROVIDES:${PN} += "python3.9dist-fasttext \
 python39-fasttext \

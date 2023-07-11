@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later & MPL-2.0"
 
 PV = "0.3.4"
 
-RPM_NAME = "libwpg-devel-doc-0.3.4-2.1.noarch.rpm"
-RPM_HASH = "0ac4cbfdcae0d0642c3143b993acaa20d9d98b8b87b7581b9f15de2f0ed66aa157203e1425add9146520dad2ac843f21cdd99676136f57e048718ddc699be747"
+RPM_NAME = "libwpg-devel-doc-0.3.4-2.2.noarch.rpm"
+RPM_HASH = "3669bfce3e2c31fd2bacb1243a832b39f471ac728ecc020bed8a646fad2f9545a35a60293f8846a893df271183d18ebb1c7003d447b36ec5ea4ca7589f92300f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libwpg-devel-doc"

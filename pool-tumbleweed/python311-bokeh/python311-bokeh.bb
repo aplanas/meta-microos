@@ -5,13 +5,14 @@ graphics in the style of D3.js, and favors delivering this capability \
 with interactivity over large or streaming datasets."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.1.1"
+PV = "3.2.0"
 
-RPM_NAME = "python311-bokeh-3.1.1-1.1.noarch.rpm"
-RPM_HASH = "cd288d173fa91a30f051fc2ff55d9d8df4aca4fd643ec05ab3514acd51fcd620f5711c8e5e6da0cbceee91206fa54657f9c2fb48dee63aa93a0c9ccca8e5751f"
+RPM_NAME = "python311-bokeh-3.2.0-1.1.noarch.rpm"
+RPM_HASH = "0f6be3399d8f1672fed01f9eca3b8e91c0b5fc64dcea1adb661b034f735c31fa232dad9fef65b14b84e25e0244e28a99736a09f47603ca61f1f2335e8fa4fdd4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-bokeh \
+RPROVIDES:${PN} += "python3-bokeh \
+python3.11dist-bokeh \
 python311-bokeh \
 python3dist-bokeh"
 

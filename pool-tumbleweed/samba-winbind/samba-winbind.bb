@@ -2,10 +2,10 @@ SUMMARY = "Winbind Daemon and Tool"
 DESCRIPTION = "This is the winbind-daemon and the wbinfo-tool."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.18.1+git.298.4ccf830b2a4"
+PV = "4.18.3+git.303.c08b73d523c"
 
-RPM_NAME = "samba-winbind-4.18.1+git.298.4ccf830b2a4-1.1.aarch64.rpm"
-RPM_HASH = "dd08a3f47c4a750d99d6e884ae355dd8a48ff9e65e683ae708806a755eeae006f8c904e5b02c84ea257961eacbf1e913c77bff49785b4e7d991c305ee3b544d8"
+RPM_NAME = "samba-winbind-4.18.3+git.303.c08b73d523c-1.2.aarch64.rpm"
+RPM_HASH = "69032b8bb680fdd2cdd9e8811981179e5e16608cbcaf9159553afac40fd1d82c92e3ae366492e7682f14e7879911eeeac19092f4bb7acefa62b28c828fbe3ccb"
 
 RPROVIDES:${PN} += "config-samba-winbind \
 group-winbind \

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kdepim-runtime"
 DESCRIPTION = "Provides translations for the 'kdepim-runtime' package."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kdepim-runtime-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "3dbdb0dbd613b4936a98bef98dac33a0da1201462c6a32ffe6d7c3c53a382d8741f9fc4721eb153c97a22d7f6fd39b15d60a791575e60520b59ad5aec7194b23"
+RPM_NAME = "kdepim-runtime-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "87b306cfefb524f51beea01fc8c97c58e1e8ba8bfed2fc219156623b131868a2c49ba0c10fc9d1aaee9173bee9481b1dd4122de93cac423a27353ec688f4c28a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kdepim-runtime-lang \

@@ -12,10 +12,10 @@ mixed audio-control devices to DSP algorithm devices. \
 This is a snapshot of svn revision 2040"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.4.3"
+PV = "2.4.7"
 
-RPM_NAME = "ffado-mixer-2.4.3-3.1.noarch.rpm"
-RPM_HASH = "e8cbfdd0ebc1f1e9eb1e1f59dd1d4d74298712142f973a867150c47aea8fbfaa85529a26695b2a0d47eac038054cdc3e0f3a6d338c8adc7dc2ded6a456dd6bdf"
+RPM_NAME = "ffado-mixer-2.4.7-1.1.noarch.rpm"
+RPM_HASH = "a44cf5625201403504e3992fdb6380c260f2a750a59ff54376c3bfc11d3379fa319957ea1e6828a6ecfab6c88bf2b83603cf998a46bbe08a09caa5556060a9b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ffado-mixer"

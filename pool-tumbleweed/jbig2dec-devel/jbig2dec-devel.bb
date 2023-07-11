@@ -5,8 +5,8 @@ LICENSE = "AGPL-3.0-or-later"
 
 PV = "0.19"
 
-RPM_NAME = "jbig2dec-devel-0.19-1.11.aarch64.rpm"
-RPM_HASH = "abe7a5f47615679856d916dfa33ca18cd366093221bb68f881ca068a1c092cfbab966e178427f3d4ce12cfba8125197ee95a775e53fd6ecd91d37e086e88c8f8"
+RPM_NAME = "jbig2dec-devel-0.19-1.12.aarch64.rpm"
+RPM_HASH = "a3f9ceae64ca861bc040c20f1462b44b962e54d0c8becbd1877b0975618068873de5a89e3866eb4fdd332b1c7815cea964577d6e512c8f8206fbc0afe0aa63d6"
 
 RPROVIDES:${PN} += "jbig2dec-devel \
 pkgconfig-jbig2dec"

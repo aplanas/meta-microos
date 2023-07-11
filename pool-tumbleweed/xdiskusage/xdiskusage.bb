@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.60"
 
-RPM_NAME = "xdiskusage-1.60-1.7.aarch64.rpm"
-RPM_HASH = "98365edbddbafa4af18959b1d7ae9454783179d0532582d9fdd6b9eddd6b5c3b8b295e164b94169b7cf6d8808dd3df82c2f5fdc421b3b196b2faef6c9eaeae8a"
+RPM_NAME = "xdiskusage-1.60-1.8.aarch64.rpm"
+RPM_HASH = "8ca97f81a1764e9a42abe533d4dcc46318cef65532091837b346e1e37fa1002169d3a0849f465fee85ccb2f1668c7a6403dbca363171e064e72b7252e2d1ef41"
 
 RPROVIDES:${PN} += "xdiskusage"
 

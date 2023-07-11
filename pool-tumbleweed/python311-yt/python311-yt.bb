@@ -6,10 +6,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.1.4"
 
-RPM_NAME = "python311-yt-4.1.4-1.5.aarch64.rpm"
-RPM_HASH = "720c2bb6995fefbae22f38d62086ffa06435ca27eb1f973f603f5ef7ed037d6e80a935a2958339007e1d561602ef4d5615632e1ef5ce9de9a48066807a777882"
+RPM_NAME = "python311-yt-4.1.4-1.6.aarch64.rpm"
+RPM_HASH = "78d2463142e479f75db4ce6676521c2c77e20db54dafb196bc7822bdf96c5616134a9cb419f2c5cd6592c5a6149fc833b0423b13852f94ee112256377b82566c"
 
-RPROVIDES:${PN} += "python3.11dist-yt \
+RPROVIDES:${PN} += "python3-yt \
+python3.11dist-yt \
 python311-yt \
 python3dist-yt"
 

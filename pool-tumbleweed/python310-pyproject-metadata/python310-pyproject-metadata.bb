@@ -11,12 +11,11 @@ LICENSE = "MIT"
 
 PV = "0.6.1"
 
-RPM_NAME = "python310-pyproject-metadata-0.6.1-3.1.noarch.rpm"
-RPM_HASH = "ba02270dd42ad85d21debb4d6b2750fa98f913cf106268071302a942a155fbca49ab7b4025c44b741fce5d9f28d2c20ea0c7468f5a4f495ccc0a5620165181cf"
+RPM_NAME = "python310-pyproject-metadata-0.6.1-3.3.noarch.rpm"
+RPM_HASH = "22ba75305164d5290eef3f7760274d9f10f57ce85f90492fd128d98a0a7486f2dbc5b3c19a3f64b2669237e26af19fb4704469fd76cd966626fc99582d49b491"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pyproject-metadata \
-python3.10dist-pyproject-metadata \
+RPROVIDES:${PN} += "python3.10dist-pyproject-metadata \
 python310-pyproject-metadata \
 python3dist-pyproject-metadata"
 

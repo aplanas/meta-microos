@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.7"
 
-RPM_NAME = "python39-celery-batches-0.7-1.2.noarch.rpm"
-RPM_HASH = "8682a339b881c3249babe58df5a74b7b5c1c463ac8fac7a11716a281ec0592294d1415c046252a40980d91e9894545408166321ebc557039dfc75b926d87701a"
+RPM_NAME = "python39-celery-batches-0.7-1.4.noarch.rpm"
+RPM_HASH = "9596363c053b5ae4bc8f6cb6dccacef497459d82ff33f825fda543cc9de8f1ffd0e4bb417485b97c7d59f2d9bf2c31f575b4fa195db09a9db20de8b22c57a174"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-celery-batches \

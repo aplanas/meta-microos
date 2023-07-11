@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause & SUSE-Public-Domain"
 
 PV = "2.2"
 
-RPM_NAME = "spooles-openmpi2-devel-2.2-1.4.aarch64.rpm"
-RPM_HASH = "e0da54301a24154cfb3d93446094259f761a36de9b19c29cd308c8d417140f04e316216a873faffd0fb18ca4e9855929ab8106c72755ba67647d44fb0818f2a6"
+RPM_NAME = "spooles-openmpi2-devel-2.2-1.5.aarch64.rpm"
+RPM_HASH = "522a10e02dfd213743137187f25784d9c7f13b52abd33fce4221c39249f122002f75ae1a50dd76ae5f55cc389ada5ec6e24f9d20020d314ccfec2cd7191f2b63"
 
 RPROVIDES:${PN} += "spooles-openmpi2-devel"
 

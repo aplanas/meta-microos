@@ -5,8 +5,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-anhero-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "b026e1d28c458727e979f1c424943c26aa3262bc01bc07eeca46a3886f0481c80ee8bc7feae7887fca7794351077dce678c3f3bf37e8ef600b6784a61aca8c98"
+RPM_NAME = "leechcraft-anhero-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "17be662c1fdd89c97cc714c97da7bb5c483bab9eb2b2e8c94874bcdcc9884dccf72de756216ef9238e0040506a0b58d195d233bf9d040f26f3c09edc760c3438"
 
 RPROVIDES:${PN} += "leechcraft-anhero \
 libleechcraft-anhero.so"

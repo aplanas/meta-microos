@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "2.10.6"
 
-RPM_NAME = "xf86-input-evdev-devel-2.10.6-3.10.aarch64.rpm"
-RPM_HASH = "fc4ed078772f0811a7eaf3e4235baf86dacc63c67f312d7aa13c02fda7bf62837d143e30a6393f430071b52737fa6f056dd477e8524174b1516b6df5087fa51a"
+RPM_NAME = "xf86-input-evdev-devel-2.10.6-3.11.aarch64.rpm"
+RPM_HASH = "381bc3fd46a511fce485141c30fbef74b38353e60cdf3a0e91c936802c7845f7fca0fc6d13ffe02b34d4cac3e088028b309f2c1ae82e42d2d73c3c340b81b118"
 
 RPROVIDES:${PN} += "pkgconfig-xorg-evdev \
 xf86-input-evdev-devel"

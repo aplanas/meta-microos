@@ -7,12 +7,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "8.1.3"
 
-RPM_NAME = "python310-click-8.1.3-4.1.noarch.rpm"
-RPM_HASH = "f6f90137f55e3331c7b22efbf9fddc0420227562f09caa2f927503d4edba209735c07b76fc3283d079e5f1e6584e6d50acd91c45a79765e989e183194960723f"
+RPM_NAME = "python310-click-8.1.3-4.3.noarch.rpm"
+RPM_HASH = "02165306d44e95543c4701f46d48aa6aea0e8a30889733541912b67d158d0fc767ee0a528df2d23dde4c6467ead8f02a75141e9a31eaad0de525eae1ad081973"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-click \
-python3.10dist-click \
+RPROVIDES:${PN} += "python3.10dist-click \
 python310-click \
 python3dist-click"
 

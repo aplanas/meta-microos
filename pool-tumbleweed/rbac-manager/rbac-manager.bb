@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.4.2"
 
-RPM_NAME = "rbac-manager-1.4.2-1.4.aarch64.rpm"
-RPM_HASH = "250d38cd901db51716f19f54885836be6b5ce393319c5715bdfe39cb93d2e22dcc00020e3fb35d62273f0ccf61f202973a4e5dcb3036493b42c215a2ef1b82de"
+RPM_NAME = "rbac-manager-1.4.2-1.5.aarch64.rpm"
+RPM_HASH = "6244d5e1b7889432139f360993eea083f326e4431724dce7a0fccd8a4a31d54d5824262a22a465cbb8bdaa105e035102bba910507a534efd4aef8f952101f265"
 
 RPROVIDES:${PN} += "rbac-manager"
 

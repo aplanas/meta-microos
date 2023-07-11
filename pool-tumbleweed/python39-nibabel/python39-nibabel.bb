@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "4.0.2"
 
-RPM_NAME = "python39-nibabel-4.0.2-1.4.noarch.rpm"
-RPM_HASH = "c6ad95decff97b293927d56db2cdf583cbaa8ba7157486c3177fb6b5a72df7e2031e398740b380f8266d45236ddc865f32258d3d09aa9f6502681ef07e2e44b1"
+RPM_NAME = "python39-nibabel-4.0.2-1.6.noarch.rpm"
+RPM_HASH = "851be9c3a0627b064f3c9240ed77dd502043c55c6dc690adc2080ff707b8f719b3d4304140f6b9c9058ddc1de582ebe03f438a59275730aa0e7237833ef48e49"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-nibabel \

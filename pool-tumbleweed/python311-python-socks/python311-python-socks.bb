@@ -7,11 +7,12 @@ LICENSE = "Apache-2.0"
 
 PV = "2.1.1"
 
-RPM_NAME = "python311-python-socks-2.1.1-1.2.noarch.rpm"
-RPM_HASH = "13f95476350fa2bc275e675c9332397c952d0ab9fead511139bf2a6e0b634bf241e9b4041f4112bbb10ec3313a0ce59dc236aed21740b0c09d2c3125f6c97cab"
+RPM_NAME = "python311-python-socks-2.1.1-2.1.noarch.rpm"
+RPM_HASH = "9f905139a1de4335ea7173031f514c47c1f9b70ec5aa6f70af41b18ca8e464c1b8af7464c14ca4830abe590afbdda0498e564b9d3a1f969b7bd0a6c144e27333"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-python-socks \
+RPROVIDES:${PN} += "python3-python-socks \
+python3.11dist-python-socks \
 python311-python-socks \
 python3dist-python-socks"
 

@@ -10,8 +10,8 @@ LICENSE = "Apache-2.0"
 
 PV = "5.3"
 
-RPM_NAME = "plantri-5.3-1.3.aarch64.rpm"
-RPM_HASH = "7405eb9d9e888c3c0627f0bf56dd6d391d0eb3d886343d10eb6002e8f27fbbf591fc0cc43ae9b80777859478a844ce7b3e54dc18ac2cfe310af88550a3e3ed40"
+RPM_NAME = "plantri-5.3-1.4.aarch64.rpm"
+RPM_HASH = "8a7412eb121c4c540843f81a6391221edb8b252b85bd559b028d8175e489e9880ccb7bccf48502e1f21de24e0c5cf998be1a411e37ef8e8bc766f4a53aa12f79"
 
 RPROVIDES:${PN} += "plantri"
 

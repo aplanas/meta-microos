@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.13.2"
 
-RPM_NAME = "python39-xsge_physics-0.13.2-1.7.noarch.rpm"
-RPM_HASH = "e855effc04117a56f16a85b32c4496aaa06ae31264bc36312c0a5a9ff111cb12b84034cb9c1927ccc49fa8773b1c810fc7a33072b5597e6108e4f200f84d9ffe"
+RPM_NAME = "python39-xsge_physics-0.13.2-1.8.noarch.rpm"
+RPM_HASH = "3aab8eadcc7829ebc81e93aee4dc719543a6e2c820bdfc38ab5b95a0ebc44b7baf25f46f1f360cc1cb37f7496ebfe4768659a71dd68cc30d6a66e12d198a32f1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-xsge-physics \

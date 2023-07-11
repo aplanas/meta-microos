@@ -2,10 +2,10 @@ SUMMARY = "Qt 5 Nfc Addon"
 DESCRIPTION = "Qt is a set of libraries for developing applications."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.9+kde5"
+PV = "5.15.10+kde4"
 
-RPM_NAME = "libqt5-qtconnectivity-tools-5.15.9+kde5-1.1.aarch64.rpm"
-RPM_HASH = "dd23dd2fd2f8fd1dd5d3cde84664f5949e968f4a8ed49f68708b7aa916410e0e508626f2bff8c3942cda6fa139541cdd9313bf28a0447be6f7946c5056dee91a"
+RPM_NAME = "libqt5-qtconnectivity-tools-5.15.10+kde4-1.1.aarch64.rpm"
+RPM_HASH = "e2540db2d3639134c1f7f6c1fbbb8c8f0a7f90eb732b74c30d71af97b23984c0402ccbe8094062bfe4eb2bf50fca61ce3a6a5afb6d473a18ece9302dc3c26a20"
 
 RPROVIDES:${PN} += "libqt5-qtconnectivity-tools"
 

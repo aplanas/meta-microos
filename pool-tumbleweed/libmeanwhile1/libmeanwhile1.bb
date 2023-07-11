@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.1.1"
 
-RPM_NAME = "libmeanwhile1-1.1.1-1.16.aarch64.rpm"
-RPM_HASH = "5429df7def61031535593a6d692fd936f196b8d4e3e5e2b54c5673cf2bd9e7c7846743f181cc7a4e28ea04ce43fed2ef4a3d39e6d9a0800c74cef20766417e2c"
+RPM_NAME = "libmeanwhile1-1.1.1-1.17.aarch64.rpm"
+RPM_HASH = "e97239c7f6259b04f51545edf0de285983c0b59d738c124e8cd779b4b41b27afaa332bb123d1e0fe195e687b780e047f78f73507e15df2e1e7ae65f0d27c7fd7"
 
 RPROVIDES:${PN} += "libmeanwhile \
 libmeanwhile.so.1 \

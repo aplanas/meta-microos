@@ -4,13 +4,14 @@ extends both the concurrent.futures and dask APIs to moderate sized \
 clusters."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.3.2"
+PV = "2023.5.1"
 
-RPM_NAME = "python311-distributed-2023.3.2-2.1.noarch.rpm"
-RPM_HASH = "565c995826cba8afa4fedda5b08465852c117b2a4aa29309df8e168025e80e344707277da959837a54c0265db4d5e9cc43dc017dac5406a737ec19c1bbebcf62"
+RPM_NAME = "python311-distributed-2023.5.1-1.3.noarch.rpm"
+RPM_HASH = "9cc046a60f2a33adf8bca996ab536c5895cb4f7d8621dbdf77c42c8a4cf599ceca7859e60ae07f560c505dbffb9128b156c4e89245ad801085357e5a32dd8efc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-distributed \
+RPROVIDES:${PN} += "python3-distributed \
+python3.11dist-distributed \
 python311-distributed \
 python3dist-distributed"
 

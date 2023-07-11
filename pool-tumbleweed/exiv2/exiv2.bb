@@ -3,16 +3,16 @@ DESCRIPTION = "Exiv2 is a command line utility to access image metadata from tag
 Exif."
 LICENSE = "BSD-3-Clause & GPL-2.0-or-later"
 
-PV = "0.27.6"
+PV = "0.28.0"
 
-RPM_NAME = "exiv2-0.27.6-3.3.aarch64.rpm"
-RPM_HASH = "3839c580f78d03c850609bc7b46e3254b27975df0a0e4f45c8dd4eb46fa3e6fe1a691869637695b790c4d2b7d2b033e2519d8b7077b5efe68e8d6ad4d49b850d"
+RPM_NAME = "exiv2-0.28.0-1.1.aarch64.rpm"
+RPM_HASH = "d26c36b51ed98a71a05fa46ebc8462db3bddce2c86067bdf9ec7f34401b5cbf8c7985fa44450c45df51b84c3d8c55a1e1f09190f7a5cbb88b74766b06c931254"
 
 RPROVIDES:${PN} += "exiv2"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libexiv2.so.27 \
+libexiv2.so.28 \
 libgcc-s.so.1 \
 libstdc++.so.6"
 

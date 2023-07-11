@@ -5,8 +5,8 @@ LICENSE = "EPL-2.0"
 
 PV = "2.11.6"
 
-RPM_NAME = "libCoinUtils3-2.11.6-1.3.aarch64.rpm"
-RPM_HASH = "c9f5fd7daa9c705868ff573b70a119e39e4638749767fcbe007479662fba3df293768d5238a8118d0024087170206ed62ec6bc23aacf61f0435a7791ab63eb5e"
+RPM_NAME = "libCoinUtils3-2.11.6-1.4.aarch64.rpm"
+RPM_HASH = "fdd00e7d3e09ecacc9a15ec3e72eff963a542432180f76775d68f8acc048001e8fe4fd0697f4eccbc7f9a66eea3f11f2a3c253742ffc9d4df6ddfc0837d5da76"
 
 RPROVIDES:${PN} += "libCoinUtils.so.3 \
 libCoinUtils3"

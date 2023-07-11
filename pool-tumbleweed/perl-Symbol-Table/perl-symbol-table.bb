@@ -10,13 +10,13 @@ LICENSE = "Artistic-1.0"
 
 PV = "1.01"
 
-RPM_NAME = "perl-Symbol-Table-1.01-64.29.aarch64.rpm"
-RPM_HASH = "0602b6902e9af97df1e28fb0f77bc9178e0490a272b9a8a299a322248ae042b8646e38f2d32cb4702ae89086c13637d4496c84a4f1d5109443444e921ae6153f"
+RPM_NAME = "perl-Symbol-Table-1.01-64.30.aarch64.rpm"
+RPM_HASH = "9b58fbca7024e594b30094bdf6db981f843b53b859f57142a5e9ff1e2f35504acd600c636ce144c57fb4b9ebf24c95284bf8dec9f5836e89bf091650c235fce4"
 
 RPROVIDES:${PN} += "perl-Symbol--Table \
 perl-Symbol--Table--Tie \
 perl-Symbol-Table"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

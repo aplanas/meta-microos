@@ -12,8 +12,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.6.4+git20180201.b6d3094"
 
-RPM_NAME = "erlang-rebar-2.6.4+git20180201.b6d3094-3.6.aarch64.rpm"
-RPM_HASH = "063006cb5bb6a5e473b699a71fc54a6c96d07d04e070da75dc35e9d868878cefc2391d9cad4418504a0c482ef21fb4f2dd7d0f63385c555c54bc5f4c5de35a99"
+RPM_NAME = "erlang-rebar-2.6.4+git20180201.b6d3094-3.7.aarch64.rpm"
+RPM_HASH = "aae448730d79bfc473182f3da8096d5a0ee8d0c99164815116218463bf4ec4f17f7b5f2b18f4f9ae2392d7c86623a2d911c123b68be8e2ae7b40fbfd3141ca49"
 
 RPROVIDES:${PN} += "erlang-rebar \
 rebar \

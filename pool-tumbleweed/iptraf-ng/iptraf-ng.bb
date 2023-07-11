@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.1"
 
-RPM_NAME = "iptraf-ng-1.2.1-2.11.aarch64.rpm"
-RPM_HASH = "40b0624976af23f5e2d91bcc8e952364bac13eaeccf38015f8f176e1329d98b36e49a1e205b2a82954de6693bd6a1aa4c1e28ee72a00790c43a827c7c503e281"
+RPM_NAME = "iptraf-ng-1.2.1-2.12.aarch64.rpm"
+RPM_HASH = "f33d4cff73046885879965c681b6d2ad23b6b1bb349a23f022c2c807b88f8845ed0448f31553abc9c3a039acd5f4b2b673afb80c64171f972f88e719b2e1d7d2"
 
 RPROVIDES:${PN} += "iptraf \
 iptraf-ng"

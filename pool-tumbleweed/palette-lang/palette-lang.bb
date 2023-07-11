@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.0.0"
 
-RPM_NAME = "palette-lang-4.0.0-1.10.noarch.rpm"
-RPM_HASH = "35d811d336661b574c317f0316a7e1f6f43ae3f47bea4b1abcdc5293f72ae57f2909e6fc970e51777080f52d0d97152db5ab56b1b598b837e36d5452c99436eb"
+RPM_NAME = "palette-lang-4.0.0-1.11.noarch.rpm"
+RPM_HASH = "1be79cc8f2df7590af2983dd75f36a589d34f60279c9f7825128ee1b5944f1410603ecdf87caf89bf0abe5f7414f5858c76f610a76e3e818a768e59063bd536b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-palette-af \

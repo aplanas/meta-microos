@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "0.42"
 
-RPM_NAME = "libspice-client-glib-helper-0.42-1.3.aarch64.rpm"
-RPM_HASH = "edaa1c642649bfb38b1ea420bfcacf34cafa3d7cad6603d35b307e76f45c1463b3bea1fe3da9e2506937a8517ae9d97059ab3193b419488ff3691f53add150c1"
+RPM_NAME = "libspice-client-glib-helper-0.42-1.5.aarch64.rpm"
+RPM_HASH = "7f6aa40124d99caac256d42c034defe3e8cb11052080bdb3df24c54b29a0069e4276f8ed58599cf376f7a23ec028510e3de656ed60167fd497865a6a7521679a"
 
 RPROVIDES:${PN} += "libspice-client-glib-helper"
 

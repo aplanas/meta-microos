@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "0.4.4"
 
-RPM_NAME = "libgnome-autoar-gtk-0-0-0.4.4-1.1.aarch64.rpm"
-RPM_HASH = "f36122c6b74430ac6af104902af32e3b3e858aea6952131212f12abacab9420037acdbc842bfcbe51880bb3333c94c151183509dea3405d3f0b649ed01e17739"
+RPM_NAME = "libgnome-autoar-gtk-0-0-0.4.4-1.2.aarch64.rpm"
+RPM_HASH = "dd67107cfdc2eae2db5b1d5cca8bbd50516fefc96355827d381e9c2c07b6828a8a74e8513abd3b9f1ccca054fc0f4a6219184bb279bd9fb6b34308326f26d0cd"
 
 RPROVIDES:${PN} += "libgnome-autoar-gtk-0-0 \
 libgnome-autoar-gtk-0.so.0"

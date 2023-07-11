@@ -4,12 +4,11 @@ LICENSE = "MPL-2.0"
 
 PV = "1.14.0"
 
-RPM_NAME = "python310-pywebpush-1.14.0-2.6.noarch.rpm"
-RPM_HASH = "6b89076a9d898eb13d5d014db425536c6abbe96d688662304f0595fa0dd29ceeec477fd4f22a86137295e3b42494ecf9da679224cc66f32937a8fb637b34a496"
+RPM_NAME = "python310-pywebpush-1.14.0-3.1.noarch.rpm"
+RPM_HASH = "f6568e752fbb46373d444abfea67b4e0177ca8ea020a60659399cd82a41f8ac98e6c12f3f04b6383ddfa84814cf1281b9b616688a45399416bb4439e21f5a93b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pywebpush \
-python3.10dist-pywebpush \
+RPROVIDES:${PN} += "python3.10dist-pywebpush \
 python310-pywebpush \
 python3dist-pywebpush"
 

@@ -5,11 +5,12 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.926"
 
-RPM_NAME = "python311-o2sclpy-0.926-1.4.noarch.rpm"
-RPM_HASH = "44bff41ab5ba5b5e23b6db0affbf8db19d400c321209d2ffb4fb910c2ab455bcfec65e43c314af0b964dda3f6b8f8038806e7c82f90cf45856f0b8dd4a63ee88"
+RPM_NAME = "python311-o2sclpy-0.926-1.6.noarch.rpm"
+RPM_HASH = "63d54490acaf525dbfe531b0a2e4023a15e1e261ee2fa8ade1b7f08517676b34ec667e535c26830b4f601b9206e93d747b2f63f9a9c5dc57682b1c9505faf6a5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-o2sclpy \
+RPROVIDES:${PN} += "python3-o2sclpy \
+python3.11dist-o2sclpy \
 python311-o2sclpy \
 python3dist-o2sclpy"
 

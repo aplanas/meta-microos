@@ -4,11 +4,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.1.1"
 
-RPM_NAME = "python311-ebcdic-1.1.1-2.9.noarch.rpm"
-RPM_HASH = "42c36b6ccf1f1d289f5b4979f52e8b30bb82ecc156cceefc8f7fbef52b9813fd99b43101189e1165c9b6b8aa0bbe2939e23dd88a3013038b190bbf21e0f90f88"
+RPM_NAME = "python311-ebcdic-1.1.1-2.10.noarch.rpm"
+RPM_HASH = "cb18d1ef2e454515fd79e8e39f5479a4bbba288900072f2e91f7b6a86882beef2a762a34c27a665da152174bb4310972294a57785770dfa404065c567a263ba1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-ebcdic \
+RPROVIDES:${PN} += "python3-ebcdic \
+python3.11dist-ebcdic \
 python311-ebcdic \
 python3dist-ebcdic"
 

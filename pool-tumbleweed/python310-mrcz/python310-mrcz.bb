@@ -8,12 +8,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.6"
 
-RPM_NAME = "python310-mrcz-0.5.6-2.7.noarch.rpm"
-RPM_HASH = "b8f9ae3e6b7da88bb2a6e2b1f079feea9f9d6d7ee353c2db7dcfef9b3a1f6585e17a305b03dd18df7badfde822fb92e79d01fe6918bf8fa09eb9fdbc274e8140"
+RPM_NAME = "python310-mrcz-0.5.6-2.9.noarch.rpm"
+RPM_HASH = "049ea4602d4486a2cb9c7c826ba4a2581b3de30b383dd5e67d0ae46540948c44751316b4eea4b1ee82611842f4fd272d5aa76ac1f3aaa5cb8704288e8a6799d8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-mrcz \
-python3.10dist-mrcz \
+RPROVIDES:${PN} += "python3.10dist-mrcz \
 python310-mrcz \
 python3dist-mrcz"
 

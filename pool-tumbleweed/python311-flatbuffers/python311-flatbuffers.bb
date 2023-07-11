@@ -4,11 +4,12 @@ LICENSE = "Apache-2.0"
 
 PV = "23.3.3"
 
-RPM_NAME = "python311-flatbuffers-23.3.3-2.1.noarch.rpm"
-RPM_HASH = "84dca5a4cbbaf35961b83fc17bc16581a52c497b5af639d04c138bc6d1ab509635fa0a674802adf7304266ed7e944ae948da562d1eabf7b1ec459b9c02ad6eef"
+RPM_NAME = "python311-flatbuffers-23.3.3-2.2.noarch.rpm"
+RPM_HASH = "5ed9b9eb467dd9c146b1a3c298a652028e46a578d3140ff19a58f30822a1d06f0532692be400422933cf7b56d54cc6f79ac926f8314b9619082bd960aa229604"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-flatbuffers \
+RPROVIDES:${PN} += "python3-flatbuffers \
+python3.11dist-flatbuffers \
 python311-flatbuffers \
 python3dist-flatbuffers"
 

@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.10.5"
 
-RPM_NAME = "libgtksourceview-2_0-0-2.10.5-20.9.aarch64.rpm"
-RPM_HASH = "718a36ccd6d340039648d614b5484c5e817ee93bf19162efbbde192b7277a1ebd44e2d35944c509727c21a7a18490d8c0d6965ab93a0dd2550cc85c87bb7599a"
+RPM_NAME = "libgtksourceview-2_0-0-2.10.5-20.10.aarch64.rpm"
+RPM_HASH = "c796b57036a2a3ed6f7e446b6364233e929a83bcb11715d501d2f30b65be5802e805d75808df283132bdddca5beaeabf4a49c93868a33c7103d8ad5774901f2b"
 
 RPROVIDES:${PN} += "gtksourceview2 \
 libgtksourceview-2-0-0 \

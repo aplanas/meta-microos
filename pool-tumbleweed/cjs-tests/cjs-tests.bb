@@ -5,8 +5,8 @@ LICENSE = "(GPL-2.0-or-later | MPL-1.1 | LGPL-2.1-or-later) & MIT"
 
 PV = "5.0.0"
 
-RPM_NAME = "cjs-tests-5.0.0-1.10.aarch64.rpm"
-RPM_HASH = "319c8ddcdb92db6039bcd3950d9d97bcbdfc259e350a0b1f9a78fcc6d4c6113fa438d2bfacbea7a36353d7a72042b194ddff2204e28ff3cfb923bdee9dc45ac0"
+RPM_NAME = "cjs-tests-5.0.0-1.11.aarch64.rpm"
+RPM_HASH = "872e125e23380010ddc49fdeffea1896c35b116ce0b8d4e4c116163de062868cb635f947e4e93550e12767a0fb8e7ff18ddb61dad1f5e136d77799fc23690d5e"
 
 RPROVIDES:${PN} += "cjs-tests \
 libgimarshallingtests.so \

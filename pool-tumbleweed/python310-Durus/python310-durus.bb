@@ -5,11 +5,10 @@ LICENSE = "CNRI-Python"
 
 PV = "4.2"
 
-RPM_NAME = "python310-Durus-4.2-1.10.aarch64.rpm"
-RPM_HASH = "31d4ce31f413ed2de6d1adb25adb5629815d914b6cb39245686b460152da65eb597e832c1a3787f7de8291286e23deb130350db556de15089af75ca81b8f039c"
+RPM_NAME = "python310-Durus-4.2-1.12.aarch64.rpm"
+RPM_HASH = "36a18ad8683e2d99db43c8cadacb17344fadab00073f82d22c4d4de0d537889e30bdc7723be4468907e4669058bef0c5e975dcaa1d73588c051776b2335d3f89"
 
-RPROVIDES:${PN} += "python3-Durus \
-python3.10dist-durus \
+RPROVIDES:${PN} += "python3.10dist-durus \
 python310-Durus \
 python3dist-durus"
 

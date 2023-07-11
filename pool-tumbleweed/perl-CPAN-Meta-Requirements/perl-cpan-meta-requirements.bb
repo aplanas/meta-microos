@@ -9,17 +9,17 @@ Logically impossible constraints will be identified immediately by thrown \
 exceptions."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "2.142000"
+PV = "2.143000"
 
-RPM_NAME = "perl-CPAN-Meta-Requirements-2.142000-1.1.noarch.rpm"
-RPM_HASH = "0c6826985de5dfce1c1af7e41ce60da521c8e356fddb929086e51e6f9651c5eecac4faa988a94d51c1c654bd69b1f00b76a1485e3ee102b78ba7d3bdf151566f"
+RPM_NAME = "perl-CPAN-Meta-Requirements-2.143000-1.1.noarch.rpm"
+RPM_HASH = "3eeb57bdad641ccab7a37989a33d9ee0d6d76b553723feb6e3a8f9c675ca8962302b38109e0d3df0675c43b287d24bcd6ec4df2dd04904ed23bc3f6a0f534d6e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-CPAN--Meta--Requirements \
 perl-CPAN--Meta--Requirements--Range \
 perl-CPAN-Meta-Requirements"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-version"
 
 inherit rpm

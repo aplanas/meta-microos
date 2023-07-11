@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "5.0.0"
 
-RPM_NAME = "librtmidi6-5.0.0-1.7.aarch64.rpm"
-RPM_HASH = "9702e76f0998a7ab2cf62d26bb9cdaa47b551b31a6df90b554021192feeea8c70fa4fd3cb382fd020b280d9421ca0313ce64ca8d34652e04918a3c9351a1a2dd"
+RPM_NAME = "librtmidi6-5.0.0-1.8.aarch64.rpm"
+RPM_HASH = "782216fa89e5d14128043c32dfbbd4995be2721ecc198edd0d987033bbfa4ff2007336dd6e62e8affea5b2956ba469aa8f81a30195c1ef053ac090b8a32e10cc"
 
 RPROVIDES:${PN} += "librtmidi.so.6 \
 librtmidi6"

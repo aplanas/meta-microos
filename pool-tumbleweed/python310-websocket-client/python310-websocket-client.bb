@@ -7,13 +7,11 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.5.1"
 
-RPM_NAME = "python310-websocket-client-1.5.1-1.1.noarch.rpm"
-RPM_HASH = "5198131a4c8081de21d9742cba1f2bde86792acc9dfc9436a1b2b3e6674e96c20e4f5947936fed1647346ed262eddc68242934a0fa1591612be12cb5d16dc6b6"
+RPM_NAME = "python310-websocket-client-1.5.1-1.3.noarch.rpm"
+RPM_HASH = "102d43cdbd81c7894cd38061b81b78f6c85bf7c5e9503e40741bc04c61cf6bb830b7ba26241eb7ce05d40832a7c572162ff6a6d311923a079a07043b4760f8d1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-websocket-client \
-python3-websocket-client-test \
-python3.10dist-websocket-client \
+RPROVIDES:${PN} += "python3.10dist-websocket-client \
 python310-websocket-client \
 python310-websocket-client-test \
 python3dist-websocket-client"

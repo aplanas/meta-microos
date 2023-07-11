@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.0"
 
-RPM_NAME = "python39-buttplug-0.2.0-4.6.noarch.rpm"
-RPM_HASH = "78a4a066efc575d2590489eee5f9afb5c50808642d3b61ea04ed1f9853298210dff7df0e5142480f6e99bc190649438c08206b69205c8b2a83c4f28cfb650329"
+RPM_NAME = "python39-buttplug-0.2.0-4.8.noarch.rpm"
+RPM_HASH = "acb55e78f95c46310e5744ca03d87214d3a43bb201b24f33b35a47f8e0e9da991fa95aa474fcce8eab148f8301d1ba1fbe4bbdef05e2f1a8ba5a2f019416b74a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-buttplug \

@@ -13,11 +13,10 @@ LICENSE = "MIT"
 
 PV = "3.2.1"
 
-RPM_NAME = "python310-fastnumbers-3.2.1-1.8.aarch64.rpm"
-RPM_HASH = "90ac52903fa6e56e37bde0b4b9f76a6016d473868df1b0773ab5ed7302f1107c27487f1fe997c5c76dec2af9ac659058f01d47a65ced0bcd9010e095aa23d213"
+RPM_NAME = "python310-fastnumbers-3.2.1-1.9.aarch64.rpm"
+RPM_HASH = "bf1d98f587f7b6a06abf8f99925cd045858af1ca54272315bafd06e21cc9c07ae9c38cbc36dab85888f06af15634e17ba94a064af85e7cc0f5674aa98dd00858"
 
-RPROVIDES:${PN} += "python3-fastnumbers \
-python3.10dist-fastnumbers \
+RPROVIDES:${PN} += "python3.10dist-fastnumbers \
 python310-fastnumbers \
 python3dist-fastnumbers"
 

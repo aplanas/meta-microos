@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.32.0"
 
-RPM_NAME = "python39-yamllint-1.32.0-1.1.noarch.rpm"
-RPM_HASH = "6e003ab8fc2aba4cb80b8916a31d41c1dad6efd6d4d20a8f75a15e82d75ad5241cc06732c0b7b5a4048082dc9aba7a885338af5e3460f1c72bee4e817b468798"
+RPM_NAME = "python39-yamllint-1.32.0-1.3.noarch.rpm"
+RPM_HASH = "78f7d8d71b6babd6a53bc492a3cbdf40dc9719a77a066f695def2d598fdeff77347eb1764681eca4110aeb55fd80e3ddaa6eef471d800c8cab3a53d442b22cb5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-yamllint \

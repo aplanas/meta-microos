@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.8.0"
 
-RPM_NAME = "libupsclient6-2.8.0-2.1.aarch64.rpm"
-RPM_HASH = "c2d48fc7fa341dcf365f7f7abce11a39d9cb655e9b6a934ffb4864cd3a2d0041bae86b690bae6b31836460381ef61bbf419da6baea53b7c20d8691350df6f3a0"
+RPM_NAME = "libupsclient6-2.8.0-3.1.aarch64.rpm"
+RPM_HASH = "25ffa7a42297dc258c30c09419bb26dda5c43a9d59701c76ce6013d3aa5c227c745b0b80e8b92a7823254ad439743b89b72556d394f88506cc650aab00a61831"
 
 RPROVIDES:${PN} += "libupsclient.so.6 \
 libupsclient6"

@@ -8,11 +8,12 @@ LICENSE = "MIT"
 
 PV = "2.4.6"
 
-RPM_NAME = "python311-markdown2-2.4.6-1.4.noarch.rpm"
-RPM_HASH = "042290c41703f9e6c35a9349915d0ffccc43895b047192cd922f44a78274a32c2557c21df0417e76b5a4ad5cdf3851c909a322b67400a0a9755b298187d298ad"
+RPM_NAME = "python311-markdown2-2.4.6-1.6.noarch.rpm"
+RPM_HASH = "3921538712a766a2761ec44cb0793102b2e04adf0a351d6e9afa5335e0bc8572af7b6eaaf83f4e1c761ce58d5f790a5f2a1af45ac416177b4171e932a5eb46f9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-markdown2 \
+RPROVIDES:${PN} += "python3-markdown2 \
+python3.11dist-markdown2 \
 python311-markdown2 \
 python3dist-markdown2"
 

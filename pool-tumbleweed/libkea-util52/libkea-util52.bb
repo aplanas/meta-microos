@@ -4,8 +4,8 @@ LICENSE = "MPL-2.0"
 
 PV = "2.2.0"
 
-RPM_NAME = "libkea-util52-2.2.0-2.4.aarch64.rpm"
-RPM_HASH = "ce632e9049047f4d25b92fdd266e716dbb271ad27acdbf80a2709fa527cb1c1300ae6560ddde7bf71af8848eeaf074b981440587c8958b82b4aca011024a1394"
+RPM_NAME = "libkea-util52-2.2.0-2.6.aarch64.rpm"
+RPM_HASH = "d6d919851ac8bab7e2caa85f31d7409026f028443f75bc451ee1add34b001674745ac8dd6cf10013e053f41f7a95571cec1c74f6a51bb881f491d521c2791bd5"
 
 RPROVIDES:${PN} += "libkea-util.so.52 \
 libkea-util52"

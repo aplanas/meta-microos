@@ -19,8 +19,8 @@ LICENSE = "MPL-2.0"
 
 PV = "2.60"
 
-RPM_NAME = "ca-certificates-mozilla-prebuilt-2.60-3.1.noarch.rpm"
-RPM_HASH = "5071d8a86cfc2b600aff8d91ffe37d13f800ad75f1da2be6feb9ec5e60285ff5c86c7e862feb7b9508d46564d197c129d53cbbe7b0370b9652674ce30ca7ffbb"
+RPM_NAME = "ca-certificates-mozilla-prebuilt-2.60-3.2.noarch.rpm"
+RPM_HASH = "6d96bd5c66e78b6496f193a585d05cf82e2c40a7b2787eac9859a7864c310dc16e538356a5a0d6eea95632ce761a111535e4cd5114c680727bfe1440dbfdfcd9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ca-certificates-mozilla-prebuilt"

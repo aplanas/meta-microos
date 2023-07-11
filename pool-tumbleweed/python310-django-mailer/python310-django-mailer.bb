@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "2.2"
 
-RPM_NAME = "python310-django-mailer-2.2-1.6.noarch.rpm"
-RPM_HASH = "84f882f3d6e4eefa9602a894cf9fc06721d52d260ec7392c9d22be5aa092762b3468c0cc95a6fb335d4d46eabaf061a95f0d5fb2b8d1cfd707537a929eaaa2ac"
+RPM_NAME = "python310-django-mailer-2.2-1.8.noarch.rpm"
+RPM_HASH = "cdadeda588826287a1b989c075aeaac66bf0b3a24fccfd3613d2d66a0135d18930af4680a770835a29c08c4d51161cc3a3feb3e4264ec2c63467a91f5a99aace"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-django-mailer \
-python3.10dist-django-mailer \
+RPROVIDES:${PN} += "python3.10dist-django-mailer \
 python310-django-mailer \
 python3dist-django-mailer"
 

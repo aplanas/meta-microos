@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.4.0"
 
-RPM_NAME = "python39-mock-open-1.4.0-2.11.noarch.rpm"
-RPM_HASH = "99cbf7bdc48f9da1f834ea7c1150e7647fbac58b57bb6d799db4710e3caa9763805e47161c21e43102601b879a395d52e8a33d6babe48555a91d9bbd7dc19fc3"
+RPM_NAME = "python39-mock-open-1.4.0-2.12.noarch.rpm"
+RPM_HASH = "d9cca196ce5a8cc004a62a3869831676e95e7cfc5960f039ebca768e38d51e58499c4388941bececa1cb456c025282344660fb5111327ad391c63f5e2f7cf4de"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-mock-open \

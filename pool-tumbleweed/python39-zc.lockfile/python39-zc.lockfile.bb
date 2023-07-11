@@ -10,8 +10,8 @@ LICENSE = "ZPL-2.1"
 
 PV = "2.0"
 
-RPM_NAME = "python39-zc.lockfile-2.0-2.8.noarch.rpm"
-RPM_HASH = "8fd476017ac21189ad285cfb35a253d60685acb903354a08b9da6692f1cedfb11a8be44a341448cc40b10e5c1120ea490bac352e95947a14b7d49fc16e3a1378"
+RPM_NAME = "python39-zc.lockfile-2.0-3.3.noarch.rpm"
+RPM_HASH = "9d4d0f8f1088ced1dda903f028546c50354aa62d13e89ec2c49c7315692bfd1a44d9ed67ccd631e45f1745c7b492e29777b003ce8d95203ad5589aeb9f832100"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-zc.lockfile \

@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.4"
 
-RPM_NAME = "ruby3.2-rubygem-sqlite3-1.4.4-1.8.aarch64.rpm"
-RPM_HASH = "cd4069e1467106d9b7e69845b213b5a6ae43926b33e6b4299419f97864f26d8ef4e36979c244cc758a2403c071cb9a1966234ea5d59806dde78362ff3f16c140"
+RPM_NAME = "ruby3.2-rubygem-sqlite3-1.4.4-1.9.aarch64.rpm"
+RPM_HASH = "a5aab5cbf04083ccae9fec9762d20e297af63809108ce5695a27ed7e4738e3b2de3d8ea61b072661d1053baf87ab763788f529cf5e3d8abf9627742973ae91cf"
 
 RPROVIDES:${PN} += "ruby3.2-rubygem-sqlite3 \
 rubygem-ruby-3.2.0-sqlite3 \

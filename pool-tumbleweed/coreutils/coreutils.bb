@@ -15,8 +15,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "9.3"
 
-RPM_NAME = "coreutils-9.3-1.1.aarch64.rpm"
-RPM_HASH = "6debf714194da0024e5da8c6d33e63559d196e42d52478736604b69f19c1ece87ba98742fbfbc42043c27a2340e7255c7edc8d6714acee423ded70eeb1842959"
+RPM_NAME = "coreutils-9.3-1.2.aarch64.rpm"
+RPM_HASH = "1311cc028a92239df54f5f45cd0c0655e704af088c6dcd53139ef74eb3f3e9342f813a8b62d610a26af79990e13068f423ebc87419df31f358930e06a3fd68c5"
 
 RPROVIDES:${PN} += "/usr/bin/cat \
 /usr/bin/chgrp \

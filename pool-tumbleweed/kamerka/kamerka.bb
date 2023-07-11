@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.20"
 
-RPM_NAME = "kamerka-0.20-1.11.aarch64.rpm"
-RPM_HASH = "0aafe838bbca4fe03ce7ce6e29ce63d1d7203e430cf598190b9708a9c13b1eac32b2ad061d4b46e1121226c7a06cb7a7acccbe3168539539027537b6f5056005"
+RPM_NAME = "kamerka-0.20-1.12.aarch64.rpm"
+RPM_HASH = "b2b6d2cea4df6257135005160d27d8756a4ef4cfef334f8cc07b2a443c14a63f249c45222ba1d4e63ac513df522b5f6ec21a5ace0ed6b2be87f3884128c0ad4b"
 
 RPROVIDES:${PN} += "kamerka"
 

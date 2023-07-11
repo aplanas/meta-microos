@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "v1.11.0~git0.07afc7d"
 
-RPM_NAME = "mage-v1.11.0~git0.07afc7d-1.10.aarch64.rpm"
-RPM_HASH = "b72ef546d32e9ad021e24221c8a1bdadaccfe7db3854cba9fd0168cc84b99c0ee03157fbba0623bfaa0ed0bbd468d8a58c18f9db6fae625943e682edabfc3c59"
+RPM_NAME = "mage-v1.11.0~git0.07afc7d-1.11.aarch64.rpm"
+RPM_HASH = "d9bdc57f6fba9d363d3ff6979e4b75b8bfc786b73075b33fb0d107629778c6af521c3414a7cf1ed6b65066074bc5e0268082a4f6286a38556ebdd8e426b1a5d3"
 
 RPROVIDES:${PN} += "mage"
 

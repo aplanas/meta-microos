@@ -15,12 +15,11 @@ LICENSE = "Apache-2.0"
 
 PV = "4.5.0"
 
-RPM_NAME = "python310-pylast-4.5.0-3.3.noarch.rpm"
-RPM_HASH = "23b6ed1d2deb6b1a1b5e5fc8bc49e9718131c0414ba4654cbb49891d717286d9a33d11f5d6d7542803d8d22b1b2fd8c60053e5c1c7530fe0beadaad895404aa2"
+RPM_NAME = "python310-pylast-4.5.0-3.5.noarch.rpm"
+RPM_HASH = "a0e86b292b9e5fe4df5d3267be810ae34fd29d3a41386bbc1014ad1389cd79b6d262f19f24ad073180faa87582701836e8b39fedabecd6f0897aa88456886838"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pylast \
-python3.10dist-pylast \
+RPROVIDES:${PN} += "python3.10dist-pylast \
 python310-pylast \
 python3dist-pylast"
 

@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.0"
 
-RPM_NAME = "python310-asdf-astropy-0.4.0-1.1.noarch.rpm"
-RPM_HASH = "e3708d2cf4c4011749d702305187e6a61dba582e782fe2f374578a1190a5bb8ac48c592877b78f8a4ac5ebc9b2f2652c00e2b298381d972deeb86551dab061e4"
+RPM_NAME = "python310-asdf-astropy-0.4.0-1.3.noarch.rpm"
+RPM_HASH = "a9ada1852c47a75968d13cb0c4d77df7a26ed972967caef1579461b8a218104100955c7606f36f145757f573bc4d5d46dce24f31a9b5b91871e08d9fd64d6204"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-asdf-astropy \
-python3.10dist-asdf-astropy \
+RPROVIDES:${PN} += "python3.10dist-asdf-astropy \
 python310-asdf-astropy \
 python3dist-asdf-astropy"
 

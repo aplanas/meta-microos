@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.12.0"
 
-RPM_NAME = "python39-pomegranate-0.12.0-2.13.aarch64.rpm"
-RPM_HASH = "0b010543b82f7189ef99ba7ffbb44ee50bc0c0fb5aacb4a698e25321075ce2e4cfed05aa0ff9b2b032b882a81b04c4f70ce5aaf4a21c4079f449652ad8b003b5"
+RPM_NAME = "python39-pomegranate-0.12.0-2.15.aarch64.rpm"
+RPM_HASH = "7c2ea9dc6ea6a81330dbd71cbed87d329512567500e5c86dee622026189e7bedaa85df77e88f5d7dab569b2bb8b28e79b6a14b6b11a3ba6440c55be8836b615e"
 
 RPROVIDES:${PN} += "python3.9dist-pomegranate \
 python39-pomegranate \

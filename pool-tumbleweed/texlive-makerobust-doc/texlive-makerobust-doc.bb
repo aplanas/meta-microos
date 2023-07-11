@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-makerobust"
 DESCRIPTION = "This package includes the documentation for texlive-makerobust"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0svn52811"
+PV = "2023.208.2.0svn52811"
 
-RPM_NAME = "texlive-makerobust-doc-2023.201.2.0svn52811-52.1.noarch.rpm"
-RPM_HASH = "5ac385b68aced1902f256d63846c02ac367a3b10ab1613fb9bf8351b000921f7f6b9eeda9b0b813d5a60bf5330c7ad7537123ce0df65665473e04d70c6c3a6f1"
+RPM_NAME = "texlive-makerobust-doc-2023.208.2.0svn52811-53.1.noarch.rpm"
+RPM_HASH = "e858514df5760d3b4d4fb038930fdc99cb9ae630edbb1a2e0fcf852d07dc6fccbeb2165b807b3bd64565b0e8a6b633182e185d89a82a8030a80a1680f145c324"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-makerobust-doc-en \

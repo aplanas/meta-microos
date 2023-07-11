@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.0.3"
 
-RPM_NAME = "python39-pyo-1.0.3-1.13.aarch64.rpm"
-RPM_HASH = "e9323554ccacae7e40ec3527ac92002e4481789c73e56bdf812a2b9be78f9335838033397609486cf9df38bbd5f1629e83772ea765c8cb33210e168c9c027549"
+RPM_NAME = "python39-pyo-1.0.3-1.15.aarch64.rpm"
+RPM_HASH = "eb439a67bcfaf7810dfa66d3312c9826db8bcb47997143a02e87fa2a5a5b57b2a9d77ade1d3d73685bb4da3a0b429b082344b303aa5f314bc089bd826cf76c77"
 
 RPROVIDES:${PN} += "python3.9dist-pyo \
 python39-pyo \

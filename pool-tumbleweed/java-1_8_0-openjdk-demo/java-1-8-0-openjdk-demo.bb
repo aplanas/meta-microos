@@ -4,8 +4,8 @@ LICENSE = "Apache-1.1 & Apache-2.0 & GPL-1.0-or-later & GPL-2.0-only & GPL-2.0-o
 
 PV = "1.8.0.372"
 
-RPM_NAME = "java-1_8_0-openjdk-demo-1.8.0.372-1.1.aarch64.rpm"
-RPM_HASH = "d20ffe2fc2248fd0c2d4370fb79fba6b4ee6754449b78e69ddb346b60b9afbcf78cded8a9a096642f5dd15490a155af81cf7e54f936676404b0b4a644e390087"
+RPM_NAME = "java-1_8_0-openjdk-demo-1.8.0.372-1.2.aarch64.rpm"
+RPM_HASH = "e871d19a3ec03ab6aa9b8e32c71423de9342bf416ecdacdffff86a556bc4356a1162434dba6a4181f9d9fd7757ea543f14b760f23e1168c55b77339db98158e2"
 
 RPROVIDES:${PN} += "java-1-8-0-openjdk-demo \
 libcompiledMethodLoad.so \

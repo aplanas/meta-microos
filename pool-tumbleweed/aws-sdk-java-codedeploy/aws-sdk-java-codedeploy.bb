@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0 & SUSE-Public-Domain"
 
 PV = "1.11.3"
 
-RPM_NAME = "aws-sdk-java-codedeploy-1.11.3-7.8.noarch.rpm"
-RPM_HASH = "afa86879a7b90cbc1c47965572a573a1cde0858ba5c0a66fb65bdf0466561e59f76ba84d0a353aa7c2264b3017bc1ec56320102691674df64a13dac1b24c98b6"
+RPM_NAME = "aws-sdk-java-codedeploy-1.11.3-7.9.noarch.rpm"
+RPM_HASH = "71a9179ba595af32cf7958bf6bd8dbc7a36065ec7536f50bd60c7bd2f4cdf8b32aa04a2d51c39183ddde688f875222a70c14cf27738b3913dc915a1a277f9b13"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-codedeploy \

@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-georgian-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "e3a75f6ddc501d01062d0f01339e2d8d7d332aed97e6310150779269109ec623de19f404bbbeb988604e61c726870ac8f2a93f12b900ee432a4713d129abc4f1"
+RPM_NAME = "noto-sans-georgian-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "36c84e93cb68620e68a48858928f157bdb86707e8047d94b764c821b34adfbbe69df10241a30252f2d89556f23a1d91be0b29512d8ad545b8e8b8108feade051"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-georgian \

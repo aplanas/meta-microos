@@ -20,10 +20,10 @@ To activate this NSS module, you will need to include it in /etc/nsswitch.conf, 
 see nss-resolve(8) manpage for more details."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "253.4"
+PV = "253.5"
 
-RPM_NAME = "systemd-network-253.4-2.1.aarch64.rpm"
-RPM_HASH = "ddb5f36bdb26941cbe93911894d1c19cc8424a605b83a33eb4b7428667ed497d7a91d47f79b40bb69af2a9f12b05f99c43aa8f3f527c5f2a0843567dba11440e"
+RPM_NAME = "systemd-network-253.5-5.1.aarch64.rpm"
+RPM_HASH = "7f2a64bc5f4b5951408eb3bcf142a56bdbf44597d02d66166d74539c9ac11eeffaedc05f1af001bd1ad68ed27617d14722f4b8cee3a126935a18720abf573281"
 
 RPROVIDES:${PN} += "config-systemd-network \
 libnss-resolve.so.2 \

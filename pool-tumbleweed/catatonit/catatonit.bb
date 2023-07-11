@@ -11,8 +11,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.1.7"
 
-RPM_NAME = "catatonit-0.1.7-1.7.aarch64.rpm"
-RPM_HASH = "883da28cfd6a80cb2f070fd519def4228f6f0cb72fcf2577d59782ea57aec3fdd8028c3d75f7b0921dfe5d4c7250715051df65195097ea3e1b9488cb0f4e2994"
+RPM_NAME = "catatonit-0.1.7-1.8.aarch64.rpm"
+RPM_HASH = "16facd2ad1fc8a2cd5cb94d81e77fa417de0b7f909e58ca92de99c88ced00a3eadfdbdd127bfa4aa1397089de88812658a2034fe7809a43bd9406ebf86b0a6f5"
 
 RPROVIDES:${PN} += "catatonit"
 

@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause & Sendmail"
 
 PV = "2.11.0"
 
-RPM_NAME = "libopendkim11-2.11.0-7.15.aarch64.rpm"
-RPM_HASH = "898317e0fb06a8437e888f7b1c18fa2b138a46f24f5d6d25a4fa9267f291579eb379a01bcb42316277cdd98c3eeadc7a8767535acd5dd04b0cbc6919b98d32a1"
+RPM_NAME = "libopendkim11-2.11.0-7.16.aarch64.rpm"
+RPM_HASH = "1114ecf757c72ad8d06d83f614b363415781c6c8eb103572f806bcb194ce05fe507c827b7839bf1e4e345d6d15508271a46112aeca5f3c18ca6753d173ef5804"
 
 RPROVIDES:${PN} += "libopendkim.so.11 \
 libopendkim11"

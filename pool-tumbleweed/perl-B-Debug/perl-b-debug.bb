@@ -4,14 +4,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.26"
 
-RPM_NAME = "perl-B-Debug-1.26-1.16.noarch.rpm"
-RPM_HASH = "059876dabcb386486844783518bf70b073094d4ee7d2ca6f1114571497601869f42dafcda9e631908be79d09b285a313267aff488791edf5083a24361ec9de8a"
+RPM_NAME = "perl-B-Debug-1.26-1.17.noarch.rpm"
+RPM_HASH = "6ab317cd32b01ab5d147d706f659c231285b66e4fec9255d91c4b1eadf28abaa2145b8035f4e4717991b4bed43974521e373c9e49e2d455284f00d07948ff4f0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-B--Debug \
 perl-B-Debug"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-deprecate"
 
 inherit rpm

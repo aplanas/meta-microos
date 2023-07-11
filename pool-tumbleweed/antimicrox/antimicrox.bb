@@ -12,8 +12,8 @@ LICENSE = "GPL-3.0-or-later & Zlib"
 
 PV = "3.3.3"
 
-RPM_NAME = "antimicrox-3.3.3-1.3.aarch64.rpm"
-RPM_HASH = "448cf0ccceb3c602679364031e90f769064b3551153005576bcf6723b7c588224badba4b0b1033078f141c5da414a55db2dc2ff82d9725b94e5a227213382e82"
+RPM_NAME = "antimicrox-3.3.3-1.4.aarch64.rpm"
+RPM_HASH = "2694ca09cbb262c717443ee0bda1cc6f4168c756efd1df61b0f68fbb70f9b930ea718ead3f5b78e65a7a71e3015f6ed419f61e72c86cd0f81cff52754b8c0c5e"
 
 RPROVIDES:${PN} += "antimicrox"
 

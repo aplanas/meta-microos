@@ -6,8 +6,8 @@ LICENSE = "AGPL-3.0-or-later & GPL-3.0-only & LGPL-2.1-only & MIT"
 
 PV = "3.2.43.7ebf7d9"
 
-RPM_NAME = "grommunio-web-3.2.43.7ebf7d9-1.1.noarch.rpm"
-RPM_HASH = "748dd399581bbb3f020b84b072ef141f6ca38b36f7b5c9a9d9919f0d8b791c6f4d74f4e4537e99c84f984d7172d064b60ddc0c48cb39534000c4bd21f07d4787"
+RPM_NAME = "grommunio-web-3.2.43.7ebf7d9-1.2.noarch.rpm"
+RPM_HASH = "02640d15db37cbb42a00945de534a217eaca9edec0a96908584a14404c35eb6e57717fdd4ccd496e31bbcfb856e1fd896808dafcc54ddcb0a991a1e25e015911"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-grommunio-web \

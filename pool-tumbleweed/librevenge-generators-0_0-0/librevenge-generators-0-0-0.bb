@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later | MPL-2.0"
 
 PV = "0.0.5"
 
-RPM_NAME = "librevenge-generators-0_0-0-0.0.5-1.3.aarch64.rpm"
-RPM_HASH = "4e5003ac24b573a3f8537a4512964fb99b942ad63a93da8e1142ae76d001561000610f7dd98235321e92ae35e82882a13b43f4b35501885b1f7b91d394a3921f"
+RPM_NAME = "librevenge-generators-0_0-0-0.0.5-1.4.aarch64.rpm"
+RPM_HASH = "19f6882219cf9fcc3e54e06864134bbf26d6e833e9080b1a348f6888da3d966105672ee318b6c9894a5081eaaf5b52b3e00625bac03f5c546f10339982e123d2"
 
 RPROVIDES:${PN} += "librevenge-generators-0-0-0 \
 librevenge-generators-0.0.so.0"

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.6.3"
 
-RPM_NAME = "python3-deltarpm-3.6.3-2.6.aarch64.rpm"
-RPM_HASH = "0bf6169d45eb934de52dee680c669fedc88c744d6fb71f4e5069aacdf27919243d262a7d3125e7a8a20c44c6290c03dad9c66f9409f0caad7d0d306e0bf42f35"
+RPM_NAME = "python3-deltarpm-3.6.3-2.7.aarch64.rpm"
+RPM_HASH = "ec13c32a412d18f5db44dd83d6e77e19b439aa766a8d394d01dc6ad2c7f7050435c21b6a5b98bdaa46795a880474b7ef1fa7cf7fadce499f84fa5b080f3e3ee5"
 
 RPROVIDES:${PN} += "python3-deltarpm"
 

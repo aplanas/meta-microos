@@ -6,10 +6,10 @@ videos. Its plug-in-based architecture means that new data types or \
 processing capabilities can be added simply by installing new plug-ins."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.3"
+PV = "1.22.4"
 
-RPM_NAME = "libgstcuda-1_0-0-1.22.3-1.1.aarch64.rpm"
-RPM_HASH = "127d4048e3e23286984589c66084ae21960cd2ed1fd03345f9779026cdb28c11fddf417f9e0554bc65426e0d55fdba9935b74345b366a4ea85fde989115bff19"
+RPM_NAME = "libgstcuda-1_0-0-1.22.4-1.1.aarch64.rpm"
+RPM_HASH = "e846e1f52afcaa64975da0fb5a74a32e11efa9e13da5d22143c984b890a40a35d831fc903808e7d900e2f03f6a20f532f1767a88c6a62490d1feeb0d8e193d20"
 
 RPROVIDES:${PN} += "libgstcuda-1-0-0 \
 libgstcuda-1.0.so.0"

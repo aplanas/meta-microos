@@ -11,8 +11,8 @@ LICENSE = "CDDL-1.0 | LGPL-2.1-only"
 
 PV = "0.21.1"
 
-RPM_NAME = "libraw-devel-static-0.21.1-2.1.aarch64.rpm"
-RPM_HASH = "82472e840b4d2ded73a2b7f33e273a6b6d08f71d84c0a47661578c240904d1e4ac716321dd02a83b87a51169a6e5c9e9e8caf9ae19d5219f43537cedcbb405e1"
+RPM_NAME = "libraw-devel-static-0.21.1-2.2.aarch64.rpm"
+RPM_HASH = "c53fb1ff44becf6430b32444224e1c03bed7dcd7a4f1aae925a0d3de1e2712aa4364adb146fa90f93c5059f2067ce6683057ee053069ba3760e405678ce4876f"
 
 RPROVIDES:${PN} += "libraw-devel-static"
 

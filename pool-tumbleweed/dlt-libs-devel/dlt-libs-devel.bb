@@ -4,8 +4,8 @@ LICENSE = "MPL-2.0-no-copyleft-exception"
 
 PV = "2.18.8"
 
-RPM_NAME = "dlt-libs-devel-2.18.8-4.4.aarch64.rpm"
-RPM_HASH = "8d50030655d32adf4474c4a7b13a988a3f0b5e4e641c8c5818e7e21bca6073693b8de9322ad9d84f2ea203bd59a4e16c9e0d8ec9f64a2995e2759e793de73cbd"
+RPM_NAME = "dlt-libs-devel-2.18.8-4.5.aarch64.rpm"
+RPM_HASH = "441995be7360bc5ca02c7e60b7ac75ea7c5c8ed3e5928167a36d031c2f292752e492d6b397804d405cb9c176e78ce956b90e17c9b1dbdadf9405b7bae093b3d1"
 
 RPROVIDES:${PN} += "cmake-automotive-dlt \
 dlt-libs-devel \

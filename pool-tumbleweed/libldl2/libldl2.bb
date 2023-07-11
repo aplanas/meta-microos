@@ -14,8 +14,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.2.6"
 
-RPM_NAME = "libldl2-2.2.6-49.1.aarch64.rpm"
-RPM_HASH = "a8e0e3f4b4d80b8e37638033924438ae7b52a7ac42e53cc05028ed4965099e43f02cbc06e5d8e69fa09209aeccff8ef4cfd5222b31e15e33a145d8c7e8646e78"
+RPM_NAME = "libldl2-2.2.6-49.2.aarch64.rpm"
+RPM_HASH = "ce88d77ed103eb3166e0261a10b22dcbbce823b01116db03ac9a03b18b4b1bd6b28cee7558604947f686d703a4fc34c30b3469cd48e771a7936b76fdfab46f3e"
 
 RPROVIDES:${PN} += "libldl-2-2-6 \
 libldl.so.2 \

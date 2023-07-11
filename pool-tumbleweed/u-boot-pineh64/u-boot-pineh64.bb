@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2023.04"
 
-RPM_NAME = "u-boot-pineh64-2023.04-2.1.aarch64.rpm"
-RPM_HASH = "92b186a06dd3ac54d31aeee318fa8e8323a99a55336714c9d033372b06db0f457df12c383a582af90c7ec6954af144b2df75e101e19713daa5535fa97bc7c2a2"
+RPM_NAME = "u-boot-pineh64-2023.04-2.2.aarch64.rpm"
+RPM_HASH = "3247ccd4f66a894da9d4a0c0d8029d6978cb1f7ba31c419b4f7b46c9bdc3ac8dcb66f2f02cd64fa93c53f168b37f81b5951af1bf3418cce0f23107395df95975"
 
 RPROVIDES:${PN} += "u-boot-loader \
 u-boot-pineh64"

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.16.0"
 
-RPM_NAME = "xdg-desktop-portal-lang-1.16.0-1.3.noarch.rpm"
-RPM_HASH = "802dcd26965627d0cd46772e76a75d483274916a64eb4c30276b7a7a9aefc614b81853f1b4606e27536206a5841e3e8325906d23203dc2fde496cf32c2fbb83c"
+RPM_NAME = "xdg-desktop-portal-lang-1.16.0-2.1.noarch.rpm"
+RPM_HASH = "67806740784b143ea165364bb2761692c28433edb1eec17597c537a027db4243dfa3846f62c989dff0c331c8c4053cec22a861f67a1774857a7e479ef6cd4e83"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xdg-desktop-portal-cs \

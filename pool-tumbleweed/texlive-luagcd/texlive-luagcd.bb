@@ -11,10 +11,10 @@ It is written in Lua, and the TeX file has to be compiled with \
 the LuaLaTeX engine."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn65396"
+PV = "2023.208.1.0svn65396"
 
-RPM_NAME = "texlive-luagcd-2023.201.1.0svn65396-52.1.noarch.rpm"
-RPM_HASH = "e9ec6548f777caa807cd77c863137bf2948050f9b97622e4fbbad3136dfbfa28b7be0252b1347cb8d78285e6830757d9bf7805c54665fc81081c7516354d906b"
+RPM_NAME = "texlive-luagcd-2023.208.1.0svn65396-53.1.noarch.rpm"
+RPM_HASH = "0543e6d26d7aae31a32d699c09f82912794dcb3fe1298264682f57e424c8890a428d49ef2709055ae1170079347910fb5cf450330ca2ce21da5f82d8ebef8add"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-luagcd.sty \

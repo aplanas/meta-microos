@@ -5,10 +5,10 @@ Raspberry Pi Imager is the quick and easy way to install Raspberry Pi OS and oth
 Download and install Raspberry Pi Imager to a computer with an SD card reader. Put the SD card you'll use with your Raspberry Pi into the reader and run Raspberry Pi Imager."
 LICENSE = "Apache-2.0"
 
-PV = "1.7.4"
+PV = "1.7.5"
 
-RPM_NAME = "rpi-imager-1.7.4-2.1.aarch64.rpm"
-RPM_HASH = "10c67a9a34c6024e2ee2d1eae9ad15114425e8329f37aa5a85d5af8a9c0bbf81d8e287dbeef4347a14d171d41334d89c05acccff653197b29282adb04ee80657"
+RPM_NAME = "rpi-imager-1.7.5-1.1.aarch64.rpm"
+RPM_HASH = "4ba28a8a34361d4d75045cca6ecf1721dc40ed4de9dcec6e8e672414399d64347ef747509325386c69c71c34e241b446b7c8c606f10a69beb0a9fb710f35a3fa"
 
 RPROVIDES:${PN} += "rpi-imager"
 

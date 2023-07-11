@@ -4,10 +4,10 @@ world. It includes Klondike, Freecell, Yukon, Forty and Eight and many \
 more. The game has nice graphics and many different carddecks."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kpat-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "4de82ba2c73e58920c2661224d26755807e964b1670590a336bcb492d96812159fb182f88f45a049059243572310ca6c170dfed5049ece0300f40410556080d9"
+RPM_NAME = "kpat-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "d51d69ef8b877c63da0162bf732a2e16986ed348bf599887bd8a8b3b6c966f3c9015a62fab0f246f4e51b771ad0276e02a7baf434bbc8d1798081d4c760126dd"
 
 RPROVIDES:${PN} += "kpat \
 kpat5 \

@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.2.5"
 
-RPM_NAME = "python39-HepMC-3.2.5-2.5.aarch64.rpm"
-RPM_HASH = "1d15303ee9a20b2af7557f9fb74e90721275c8c1043f634afb05c6afa63e6a6bd2cd70132f0ff15b9058614f721b93df03d6a391ae5509621e7a0fb62547f211"
+RPM_NAME = "python39-HepMC-3.2.5-2.6.aarch64.rpm"
+RPM_HASH = "e1efe6ea9c12c12b6d18abcf93965467f33425223bd80eb50fa9aed5611da302c615bedfce9f9e417b49b2c59e856df1deb246c90d5845202d10919115469924"
 
 RPROVIDES:${PN} += "python3.9dist-pyhepmc3 \
 python3.9dist-pyhepmc3.search \

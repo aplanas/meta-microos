@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "4.5.5"
 
-RPM_NAME = "libhamlib++4-4.5.5-2.1.aarch64.rpm"
-RPM_HASH = "361e1509ebe1488d6d2953ae39fd426e18f8c473417e173ee705aab5dd6f6cdc71f8d9c0e5f58e5a6b730c0f0eb544a1741914773842daf6cd8d63f523f36e8c"
+RPM_NAME = "libhamlib++4-4.5.5-2.2.aarch64.rpm"
+RPM_HASH = "50916ee0743a138be53dd019847af051dca702c34d6d9e37171cbed9e199fb22d254df69f5f9a4e2d700686017fe7fceadba0d73eb4190823d1e4c3b1f6c33c0"
 
 RPROVIDES:${PN} += "libhamlib++.so.4 \
 libhamlib++4"

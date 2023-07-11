@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
 PV = "1.7.0"
 
-RPM_NAME = "kddockwidgets-devel-1.7.0-1.1.aarch64.rpm"
-RPM_HASH = "66c3ecc64227d8224da547d168052f18321f2295bc5bdaf9e4b4b32a8f9789f033f529dc1ce28b9b918f37d0e593c4c39a94bef8c2e497f4fb0b95624976b785"
+RPM_NAME = "kddockwidgets-devel-1.7.0-1.2.aarch64.rpm"
+RPM_HASH = "04e837a9bf3cd4d0436577f37a3e6430c1d3511deeafbe2f82356b5cdcad80770a8b911aab898efc0a188ea221cf351de387e12eb622539f548dc034d9c7a147"
 
 RPROVIDES:${PN} += "cmake-KDDockWidgets \
 kddockwidgets-devel"

@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.76.0"
 
-RPM_NAME = "glibmm2-devel-2.76.0-1.1.aarch64.rpm"
-RPM_HASH = "56da4b29bb3828e67a09eccf46c06652465bff25abaa9b56090493758ce06fe5471842fcfd8d29805fe48ee9327789bc3a63239c6d5e7a6f4639f1fff09db3c1"
+RPM_NAME = "glibmm2-devel-2.76.0-1.2.aarch64.rpm"
+RPM_HASH = "c12dc20ab81dd05cdbf6b07a04cc17aa011c6ff3d2d15a36b1a34610e8da5f5dccca9e03372919010fd9c72f043100ec7dd1858216ea4e8a15e7b9a63e064af8"
 
 RPROVIDES:${PN} += "glibmm2-devel \
 glibmm2-doc \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-manfnt"
 DESCRIPTION = "This package includes the documentation for texlive-manfnt"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn54684"
+PV = "2023.208.svn54684"
 
-RPM_NAME = "texlive-manfnt-doc-2023.201.svn54684-52.1.noarch.rpm"
-RPM_HASH = "76814d2650013de124ca5c6b63a097ea9ef69c72a2f4779e740308024e88acd7db0ab27f7df3e2848492c2adddb5420d7d56b894eafbf2cc1914b08d2fd96a87"
+RPM_NAME = "texlive-manfnt-doc-2023.208.svn54684-53.1.noarch.rpm"
+RPM_HASH = "ade1e4b1b4920db3920824760c59688cd5bb753ae391b8357588d30d6515416b4043b3bc9687ba3543788dfb8c8f9b9c0a4ab71785b56fb75716d601e6d47e36"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-manfnt-doc"

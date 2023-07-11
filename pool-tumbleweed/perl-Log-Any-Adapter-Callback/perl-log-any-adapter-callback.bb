@@ -21,14 +21,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.101"
 
-RPM_NAME = "perl-Log-Any-Adapter-Callback-0.101-1.12.noarch.rpm"
-RPM_HASH = "2a1343de33f225a130cc60b442863c8ca4ad846272c1e488d2be0ffbfc38124958a0519204b905f7c856b356eec09f5f0253fba13df1e7320e84c7e1b1e2ad20"
+RPM_NAME = "perl-Log-Any-Adapter-Callback-0.101-1.13.noarch.rpm"
+RPM_HASH = "80dbcb9dacbc4e541905c9c1d7d06812a9afa6287b195808544685585806bec441121d1128b282533e5ccfdd05fcc83b8514dce9b5c98aa7a57308865c69dcac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Log--Any--Adapter--Callback \
 perl-Log-Any-Adapter-Callback"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Log--Any--Adapter"
 
 inherit rpm

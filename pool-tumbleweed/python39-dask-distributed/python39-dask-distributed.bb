@@ -13,10 +13,10 @@ Dask is composed of two parts: \
 This meta package pulls in the distributed module into the dask namespace."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.3.2"
+PV = "2023.5.1"
 
-RPM_NAME = "python39-dask-distributed-2023.3.2-3.1.noarch.rpm"
-RPM_HASH = "485ca7a90b067e749a78895d675298573748ebb0b42b5eb0fffd9590b2117927eaa4bd9d9e9639e5979ec674f9346716cde1289fb90dca971a52b20cb95ab1c9"
+RPM_NAME = "python39-dask-distributed-2023.5.1-2.3.noarch.rpm"
+RPM_HASH = "6d99173d72726b754bd87a6ac31aa394a3a5f014f0e23f1cf01d599ae93985fda08fd694a2201894d547edf93c89e22c677d5276c3fa37853670d36eca474e3d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-dask-distributed"

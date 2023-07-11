@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2.6"
 
-RPM_NAME = "python311-phply-1.2.6-1.2.noarch.rpm"
-RPM_HASH = "08b188d2a66fdfc0c3b9f1c290c79a3c1953e93cbdf877a3e9f0725a76d8c2fe90507a168dc7c9a6951ef4917d145105d00656c068c3284028c9a59b13d9321c"
+RPM_NAME = "python311-phply-1.2.6-1.4.noarch.rpm"
+RPM_HASH = "55de2dcda6178ea02a0ce24a333bd5e87093d31d92b904fc7abe8b2e3c564073f9c21ae269de779686a504b7a4c6d184c4a03b3de8d5d3be38845bdf26693560"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-phply \
+RPROVIDES:${PN} += "python3-phply \
+python3.11dist-phply \
 python311-phply \
 python3dist-phply"
 

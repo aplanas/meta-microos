@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "3.0.2+git.20191119"
 
-RPM_NAME = "libbcunit1-3.0.2+git.20191119-1.13.aarch64.rpm"
-RPM_HASH = "ff56d3ae672183bb867f2819665435a194857139692873cfecc220e0abd350d071fddada34efc56bb91c62523bfe4e4cf4c40690b2941d3e1389715a68f996c5"
+RPM_NAME = "libbcunit1-3.0.2+git.20191119-1.14.aarch64.rpm"
+RPM_HASH = "13f13c27a9ef08cdc2cc82d88ffe623c84e4b5404701f86f5f49a6ae54c9aa895a6eb9e51a7330db6193636950b0269efd3510dcbcdc181eb8644ff4607b31fd"
 
 RPROVIDES:${PN} += "libbcunit.so.1 \
 libbcunit1"

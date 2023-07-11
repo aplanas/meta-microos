@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.12"
 
-RPM_NAME = "xorg-sgml-doctools-1.12-1.5.noarch.rpm"
-RPM_HASH = "59678c20a56631d388470d46a6680e071ffe9c085d71e781e70cd169f2ed43f833734b0ebd6da3d3410257c3f19ca08df00a1a19540de0d84836b4be3c8506b0"
+RPM_NAME = "xorg-sgml-doctools-1.12-1.6.noarch.rpm"
+RPM_HASH = "25e1a57b0859019a52ded74788592b81d89eb116fce9dfe008025f4ff396032852a37c41f7ce91c79a6aaacfec2e92b4dd797cac8e20d6877c47376430cdcc40"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pkgconfig-xorg-sgml-doctools \

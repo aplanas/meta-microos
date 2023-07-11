@@ -2,10 +2,10 @@ SUMMARY = "Address book application to manage contacts"
 DESCRIPTION = "KAddressbook is an application by KDE to manage contacts."
 LICENSE = "LGPL-2.1-or-later & GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kaddressbook-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "d5473a38bd9002eacaebee4ce9c5526ac412f07b05701f9796c27e039886ccffbbaa79fc6d4a71deabd6baf0c0e5f9466e2189b59a5233128994140f4c20e69e"
+RPM_NAME = "kaddressbook-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "ff6cd49d1904b8f45568faf58a09b6d299f4010c7308bd4728540eabf8878face0d4c2b00c63a48eb36b398703f688254da413fc83863158561ae8d0909455e8"
 
 RPROVIDES:${PN} += "kaddressbook \
 kaddressbook5 \

@@ -4,15 +4,15 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.2.0"
 
-RPM_NAME = "asciinema-2.2.0-1.2.noarch.rpm"
-RPM_HASH = "168a65bf02cd1cb913fdfeb387dd5fe44407b20f31075b5b654d6e0a291fefc585adee9269aeef7194eb9af854a6ed5bfb910621f4a042bc8b4be8c5d84de1ac"
+RPM_NAME = "asciinema-2.2.0-1.3.noarch.rpm"
+RPM_HASH = "29f9713ce0c12ccad0be9fa06712f2dd58a1dd33813f521d40d770710d91231291300f6edcd2a07dc2def6928b7301f4749f8e0ccdd55f984b94e6c86b734a8f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "asciinema \
-python3.10dist-asciinema \
+python3.11dist-asciinema \
 python3dist-asciinema"
 
-RDEPENDS:${PN} += "/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
 python-abi"
 
 inherit rpm

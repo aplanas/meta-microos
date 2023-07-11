@@ -6,13 +6,12 @@ connected systems. \
 This package implements the GRPC Python status proto mapping."
 LICENSE = "Apache-2.0"
 
-PV = "1.44.0"
+PV = "1.56.0"
 
-RPM_NAME = "python310-grpcio-status-1.44.0-1.5.aarch64.rpm"
-RPM_HASH = "643568cc5d90a4b3cc52f431c7305a03933687cbc0f57307b1e77d7aa9ff836042240cf145750625f53d49c1c85140b7647de20ee256ace108dcbf8643e8d8ce"
+RPM_NAME = "python310-grpcio-status-1.56.0-1.1.aarch64.rpm"
+RPM_HASH = "8dca4bef409382c46d6a8ee214891dbd38ba74283a8d8cf839bb73725f71e32b29b70f2808e72d63646bdb12255be43225b05fee34eca63a1be378614e268cbe"
 
-RPROVIDES:${PN} += "python3-grpcio-status \
-python3.10dist-grpcio-status \
+RPROVIDES:${PN} += "python3.10dist-grpcio-status \
 python310-grpcio-status \
 python3dist-grpcio-status"
 

@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "20180406"
 
-RPM_NAME = "memory-constraints-20180406-4.6.noarch.rpm"
-RPM_HASH = "b76c5f076c0e0ac76d0d2e436748c3eb6590000b20c3901f9faa305adcb5fdc339f308591e542ffa2b2b974d382528a0656004365a4e199c5c5bb0be172496a6"
+RPM_NAME = "memory-constraints-20180406-4.7.noarch.rpm"
+RPM_HASH = "3e6876b7f8087aba48547d3ef4e04edfb1cbf173cbae3ca4f6fab87ff435b91d13fdccc5b63362d2c41212dcb24ffe8db3bfc346c3422452e731fc262111eee3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "memory-constraints \

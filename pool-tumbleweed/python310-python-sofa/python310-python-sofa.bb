@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "0.2.0"
 
-RPM_NAME = "python310-python-sofa-0.2.0-4.3.noarch.rpm"
-RPM_HASH = "e1970fadc26fc511d54919b507600fe2fcb772e3f359d3be434f214f1b0db790f4f3b66d8c201e5a01a867483e38510ad7606432ce383dd4576c6f701ac3965f"
+RPM_NAME = "python310-python-sofa-0.2.0-4.5.noarch.rpm"
+RPM_HASH = "d7ab907324ff38074e44a178b49c18594cd704b04dc2accc0efb85e25af290caaac1e425b0823da230609a2fccb9a53c74c3f2ba643770876c20d6bc8bcd1571"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-python-sofa \
-python3.10dist-python-sofa \
+RPROVIDES:${PN} += "python3.10dist-python-sofa \
 python310-python-sofa \
 python3dist-python-sofa"
 

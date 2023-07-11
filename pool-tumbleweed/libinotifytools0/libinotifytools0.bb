@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only-with-Linux-syscall-note & GPL-2.0-or-later"
 
 PV = "3.22.6.0"
 
-RPM_NAME = "libinotifytools0-3.22.6.0-1.4.aarch64.rpm"
-RPM_HASH = "9c435d3dfcdb970c897e2f7f3b008c062b62e30f1c2f51db6df41cfdeaf24bc5c20511d345d268ae32eccd55000d018039927712701579320da2f9096471c610"
+RPM_NAME = "libinotifytools0-3.22.6.0-1.5.aarch64.rpm"
+RPM_HASH = "18e44741f7e6aafdae28e6aec261818cb90ea4fefa210d7cb874ffc4b45b9da176a5a8f8fd390a938df2988f4c217486500fe4c765ce92756ae717d82ddb9870"
 
 RPROVIDES:${PN} += "libinotifytools.so.0 \
 libinotifytools0"

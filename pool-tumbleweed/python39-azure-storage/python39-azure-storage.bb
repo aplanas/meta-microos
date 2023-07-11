@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.36.0"
 
-RPM_NAME = "python39-azure-storage-0.36.0-3.14.noarch.rpm"
-RPM_HASH = "63550cd0b803ae660a784cd804fdfe01093644946e891d5e12e31a7d5d19cafba457809ce6d7813988afcd08fe9991f8d6ca327301b2e798fc3d016fd0fa785c"
+RPM_NAME = "python39-azure-storage-0.36.0-3.16.noarch.rpm"
+RPM_HASH = "1c547e1c3b5eddca54166c091b5a2000a4833a2d01bf1000766b47f3e35f786ab8044dd5d6a9970ac021f72c43dba2b543765105b0ce385d1bc6a43ebd1e28bc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-storage \

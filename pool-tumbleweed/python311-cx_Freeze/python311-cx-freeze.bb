@@ -12,10 +12,11 @@ LICENSE = "Python-2.0"
 
 PV = "6.14.9"
 
-RPM_NAME = "python311-cx_Freeze-6.14.9-1.1.aarch64.rpm"
-RPM_HASH = "dd3a8e148c4c1fb04ba39a0c41f96a7da03b645ed41ec0c8fa376bc28178240be787eb1738be3f19d6cf52e05e764bb045646e95cc3283e23d7f1941cc148406"
+RPM_NAME = "python311-cx_Freeze-6.14.9-1.3.aarch64.rpm"
+RPM_HASH = "6547938695cf57d3650d465dd520ac779da44f9207d85359dbbffb46536d6de247e724af98ffae7dd7d99e567654dc66e525e43574cfb0d4f883b611f596b2c9"
 
-RPROVIDES:${PN} += "python3.11dist-cx-freeze \
+RPROVIDES:${PN} += "python3-cx-Freeze \
+python3.11dist-cx-freeze \
 python311-cx-Freeze \
 python3dist-cx-freeze"
 

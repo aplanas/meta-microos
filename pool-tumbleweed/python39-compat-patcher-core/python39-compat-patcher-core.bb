@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.1"
 
-RPM_NAME = "python39-compat-patcher-core-2.1-1.3.noarch.rpm"
-RPM_HASH = "8a1edb6b287b384058208aab2b19cc25015ba45a5e97d74f55cbe569ccec114f35b085bd2b086ce6900c63d0199d99e6352a2a30e6646a20801f44dd060c4554"
+RPM_NAME = "python39-compat-patcher-core-2.1-1.4.noarch.rpm"
+RPM_HASH = "a0b29c733168a0cb7574b6c62a4a012d6aedb50dd5fb314f401bf3c978beed555f93cbecb08da1e2cdb6b8e0c8f8b6eba791b53b11dcebf97b47350e9ed9c7d3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-compat-patcher-core \

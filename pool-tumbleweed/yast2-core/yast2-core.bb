@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.6.0"
 
-RPM_NAME = "yast2-core-4.6.0-1.3.aarch64.rpm"
-RPM_HASH = "bfe507b23eaefb2b06a7cb336aa87fbdeb19e4adcd12cb297666cf7a47edb4fd8917610fb9fe1c9aa2d544e47d0faab87a4bec1dac3bd5e5a4e30b6efbe13c3c"
+RPM_NAME = "yast2-core-4.6.0-1.4.aarch64.rpm"
+RPM_HASH = "ca5ef94a671f95b71dc1cae59926e22fb85b06932fe634c030d54189905108609b639cdaeb07b4f481cb49c82af39985dc9667336967d3f21787c6dbe86d679b"
 
 RPROVIDES:${PN} += "libpy2ag-anyagent.so.2 \
 libpy2ag-dummy.so.2 \

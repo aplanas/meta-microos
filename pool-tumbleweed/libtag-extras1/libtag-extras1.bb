@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.0.1"
 
-RPM_NAME = "libtag-extras1-1.0.1-24.16.aarch64.rpm"
-RPM_HASH = "9e07648b1bfb652a77f1b2a65d78f3ef256bcf0ae822adb0117dfc34394091e0fa943c87a4a422e466b0c3a48c148d48004f8dc4ab39823814b8caf3c73ca7c7"
+RPM_NAME = "libtag-extras1-1.0.1-24.17.aarch64.rpm"
+RPM_HASH = "96a7f79c4df1dfd9f68772941c69954b8ada5bea01ab5eb6ebb9e279706faf1cadfa894313c53f42d26975baad3dbc47ce71ce29b29a5d00b38cae02ab68ce07"
 
 RPROVIDES:${PN} += "libtag-extras.so.1 \
 libtag-extras1"

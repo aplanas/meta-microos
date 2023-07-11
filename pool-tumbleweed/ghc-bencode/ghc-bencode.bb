@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6.1.1"
 
-RPM_NAME = "ghc-bencode-0.6.1.1-4.3.aarch64.rpm"
-RPM_HASH = "2ccf223dfeb81d0f11cffc68ee0609bb9948c3124370109ca59c450fa935ed60cdbc1be4950bf14426b9818e87faa8ef745bd5b5c3a4f17e9465e0251d984fb4"
+RPM_NAME = "ghc-bencode-0.6.1.1-4.6.aarch64.rpm"
+RPM_HASH = "6fbecbbe338c04cd2882d068ef71f5b9e75288292867358c9c51aae7350903be0e8e5cf204b00123b4158763fcdf4a35221cd68a68a8cd07ff0dc88afe2ccc57"
 
 RPROVIDES:${PN} += "ghc-bencode \
 libHSbencode-0.6.1.1-GM7FbH3LNxfAWaUPR0lH5w-ghc9.4.5.so"

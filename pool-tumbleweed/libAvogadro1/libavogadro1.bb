@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.97.0"
 
-RPM_NAME = "libAvogadro1-1.97.0-2.3.aarch64.rpm"
-RPM_HASH = "3b641d7a3f79b9c662abcfce82a40ba5ac22cce9b2158ecad310e9d36b221a223f92e37150fa8009bbd9fd337e8e05b1d66323539c57a01cd9ce79d20fc23cf7"
+RPM_NAME = "libAvogadro1-1.97.0-2.4.aarch64.rpm"
+RPM_HASH = "c917b52baf661bea4cc9821fdcfca53db2100e2e86bb7153416e9e4b414c79166e43e71b8aa9cbbd9fb638b46e6986f29afbf36273306f29a7e3988a2de4e55a"
 
 RPROVIDES:${PN} += "libAvogadro1 \
 libAvogadroCalc.so.1 \

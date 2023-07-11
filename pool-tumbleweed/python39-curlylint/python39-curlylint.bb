@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.13.1"
 
-RPM_NAME = "python39-curlylint-0.13.1-1.4.noarch.rpm"
-RPM_HASH = "4e8e782e0d5736ac7682d58de2f122bfe732548ab23e38b48e5e4d52dc2e4b4898276bd39c7b798e74b45a7006a4ae59b03c98b0e8fd23224f0af115ec882d09"
+RPM_NAME = "python39-curlylint-0.13.1-1.6.noarch.rpm"
+RPM_HASH = "e0ad43b7e031d099bfa8f40874d523ef8cdb667de64e56c8d8d5ca9550a280c0563d5452c10a14bf9ea1fca28467b6dfff84bed75402891699aed9896540c00e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-curlylint \

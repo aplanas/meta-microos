@@ -6,11 +6,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2.1"
 
-RPM_NAME = "spec-cleaner-1.2.1-3.8.noarch.rpm"
-RPM_HASH = "2c84bb6c60123c13557a394f36f7598ba35f406e4bfe4726a76e0bcee9909f1dc715ddc23b562b6771cb2b272851a53b341649138e1951a1cdc81e5a5a70843e"
+RPM_NAME = "spec-cleaner-1.2.1-3.9.noarch.rpm"
+RPM_HASH = "3430190c3596679fa745fdd316ff1332176ff4ce0795705305a6d948aeaae115d6122c041d639e529a4320f81cea50e4b6348259589040856aef191405948f83"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-spec-cleaner \
+RPROVIDES:${PN} += "python3.11dist-spec-cleaner \
 python3dist-spec-cleaner \
 spec-cleaner"
 

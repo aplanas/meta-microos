@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.7.2"
 
-RPM_NAME = "infinoted-0.7.2-4.6.aarch64.rpm"
-RPM_HASH = "95ab49a23da1abb5b98af0be8f966a826482d57973b5b66748a4f22b7870b746b5ac5913a985a7e22db50aad16611a5296cf448faa678f115198278beae3e2cd"
+RPM_NAME = "infinoted-0.7.2-4.7.aarch64.rpm"
+RPM_HASH = "67b3e4b79bb515b3c4f0a84af14290d69fa5bf6186173ff958b1fdf6e26b244e5580a8c52f16c120fb02710e8b1a2d2da3ee9d13557db1f10a7a6c8be562c05e"
 
 RPROVIDES:${PN} += "config-infinoted \
 infinoted \

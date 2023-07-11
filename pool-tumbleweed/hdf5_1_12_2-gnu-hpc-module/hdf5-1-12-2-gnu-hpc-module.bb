@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.12.2"
 
-RPM_NAME = "hdf5_1_12_2-gnu-hpc-module-1.12.2-5.2.aarch64.rpm"
-RPM_HASH = "94e66da55d8d05b34255cb2be40d53d7ffcb34348c0d18162bcdde04c6c5bf33af78ae8319de6f1cb1b1a14c49e6e4ff33f9b8a0f44de69a16eff0da139f31d0"
+RPM_NAME = "hdf5_1_12_2-gnu-hpc-module-1.12.2-5.3.aarch64.rpm"
+RPM_HASH = "3f428e2a77246f763ce6f44bda60c5728c208d9efac07c62f8c2f8d37d32a2522d5c93ebace571d8bfc6f172a4e44b452ed9795b3699f85657e03853f50fe7ae"
 
 RPROVIDES:${PN} += "hdf5-1-12-2-gnu-hpc-module"
 

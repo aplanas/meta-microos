@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "0.18.0"
 
-RPM_NAME = "python39-ecdsa-0.18.0-2.1.noarch.rpm"
-RPM_HASH = "e9ade11f1f4e6d8fd5d44d8dfdabb492bea7063417bfd283cc63c8488bfd28452330133e5dce3cb7dfb983a6e84cdae29e9d300854c8e5bea85fc3ef0d640a2a"
+RPM_NAME = "python39-ecdsa-0.18.0-2.3.noarch.rpm"
+RPM_HASH = "4b964974365084579023a1f0522d595e583aee011bf407cc9649be6b730043fa7c69f7026ea515b6066c3306668dcf98526e98193a97dc559af8c0296d5211f6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-ecdsa \

@@ -5,10 +5,11 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.0.3"
 
-RPM_NAME = "python311-pyo-1.0.3-1.13.aarch64.rpm"
-RPM_HASH = "91ad1ab213bb96fef17afaeedc06616d93344ba3771cc2f12fad163f4a16f5f74d19528db80d82d7467efd096880105127727e70ce33d0f6a884f5ae927b66e4"
+RPM_NAME = "python311-pyo-1.0.3-1.15.aarch64.rpm"
+RPM_HASH = "ca10504e1f491fe12d06b3f7b6891b139650a1d78cae24caf15343f70af25c7d26288e6f867724d9102951ef899a20fb3bb929f7c02456039cf3dbad2d5c7458"
 
-RPROVIDES:${PN} += "python3.11dist-pyo \
+RPROVIDES:${PN} += "python3-pyo \
+python3.11dist-pyo \
 python311-pyo \
 python3dist-pyo"
 

@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & Artistic-1.0 & GPL-2.0-only & GPL-2.0-or-later & GPL-3.0
 
 PV = "2023.208"
 
-RPM_NAME = "texlive-filesystem-2023.208-58.1.noarch.rpm"
-RPM_HASH = "9bbe2e8d42069ddf1a2162fa5e69a64753e7a813524a3dffc239127ad77024f29a08b6764e55afc778f6dc63766a18315897f67ffed71302f212df1b22a568da"
+RPM_NAME = "texlive-filesystem-2023.208-60.1.noarch.rpm"
+RPM_HASH = "a15746d18f28ada32bb8ce6d0cae1e455231556650415942c851e075711e7ce37bdc9e06a2e9d36b90d22ffba0303fb128e607023c6e0145614f83589241a969"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-filesystem \

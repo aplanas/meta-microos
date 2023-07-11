@@ -25,8 +25,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.3"
 
-RPM_NAME = "velocity-custom-parser-example-2.3-3.9.noarch.rpm"
-RPM_HASH = "d97d2673c85d8649cea584e4fee92236b1bf3d45ea56c3b6314d2cf527d9d71d9eb9dbd8eda68af5d849fa743a35e8980cb5767d218a73d3c71e33362435b74d"
+RPM_NAME = "velocity-custom-parser-example-2.3-3.10.noarch.rpm"
+RPM_HASH = "ea3ea234251147edd056b5ba53e1e9ec550a59cbb2ad75ed9b8a7b196da9bda48069230f32b2879c9b0f0ba6eba96126ea12beeec2c4fedf11976b545bd90cf4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.apache.velocity-velocity-custom-parser-example-pom- \

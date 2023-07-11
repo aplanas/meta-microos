@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.4.6"
 
-RPM_NAME = "libvotequorum8-2.4.6-1.3.aarch64.rpm"
-RPM_HASH = "508397a6ebed7f05ab3a377f22b80c8df9fb5f361badbc1bf033e70dddeb3a1d3cb337ecb81ca9a3ab097e07889a1f32b43d696d942318e731634c39d1f92fb3"
+RPM_NAME = "libvotequorum8-2.4.6-1.4.aarch64.rpm"
+RPM_HASH = "37379d8bb3af217ec7f5a4211ebcf396d67b67ecbdeaea22c5b661da93495ce505c34996cc819de552c8fafc51246f83ae6c123163a95ca94fb745e5ab091aa7"
 
 RPROVIDES:${PN} += "libvotequorum.so.8 \
 libvotequorum8"

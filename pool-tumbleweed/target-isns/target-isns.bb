@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.6.8"
 
-RPM_NAME = "target-isns-0.6.8-2.12.aarch64.rpm"
-RPM_HASH = "b96b459bbed4932e8673183ab00e69fd72a617c1b74fc814af007b6e6a37d0caa693e4c96d638cc0b012227384a15b1337c2ff17203a5c31ff8727977d41ce40"
+RPM_NAME = "target-isns-0.6.8-2.13.aarch64.rpm"
+RPM_HASH = "bfeec244777ded1272bfd5d12f050a8e36517ddf8a82b78802735725347159d05f5694f79ff366e783bb3c0075a6f4cf302839655ebde3ff26b5a9ed9ee2fb88"
 
 RPROVIDES:${PN} += "config-target-isns \
 target-isns"

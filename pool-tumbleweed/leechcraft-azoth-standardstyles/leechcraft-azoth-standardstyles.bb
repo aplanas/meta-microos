@@ -6,8 +6,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-azoth-standardstyles-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "70ce92ba1fb5bedaaccf0eb70fa9d9b826e51b920463b2b8891b986c766bef5ad8fd32938c303bf07f2acdb31821d84f398876c3eee4d7df1d3737fd2bdf15cc"
+RPM_NAME = "leechcraft-azoth-standardstyles-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "53923c074ee148a40517ce166cba19f9cc1fdeb9b1f40dc22637934183d53e2bcc506d1070984ae735fd8ddab58e2e7ee84f24c732f934f84f454bb33c42930e"
 
 RPROVIDES:${PN} += "leechcraft-azoth-chatstyler \
 leechcraft-azoth-standardstyles \

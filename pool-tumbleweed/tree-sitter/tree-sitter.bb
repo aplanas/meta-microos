@@ -14,8 +14,8 @@ LICENSE = "MIT"
 
 PV = "0.20.8"
 
-RPM_NAME = "tree-sitter-0.20.8-2.1.aarch64.rpm"
-RPM_HASH = "8a7bda4f7636ad9d814bfa229260296385bb8960386d38156a84e9468b48902a549a9aa5b6801760c4eedc191df493a767d842e6f48dae7d6eebdced28786e1a"
+RPM_NAME = "tree-sitter-0.20.8-2.2.aarch64.rpm"
+RPM_HASH = "676bb62903972ac8a8d6d3078850b60f407e8ca639b6949513660ca851aca99905992e42b2f8b6a0df3f9bf88ab06275b77d888e2f3ac02cd1c580ea55732481"
 
 RPROVIDES:${PN} += "bundled-rust-crate-aho-corasick \
 bundled-rust-crate-ansi-term \

@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20220116"
 
-RPM_NAME = "libftxf-devel-20220116-3.2.aarch64.rpm"
-RPM_HASH = "263b8c55bc84cabf7691745149398a71647c8e930bca0423cd412b16623129015f878ebfc2c2023ab7b571fcbde76362461efcceb774eadafde3bd09545cdb63"
+RPM_NAME = "libftxf-devel-20220116-3.3.aarch64.rpm"
+RPM_HASH = "4f62162013d0314cb8c8d166d39192e68e1b4480727ba6c34613e20c88150b3c6f3dfcb1124bcc155de3c3822c32d63d16ea5e5d7c82206cbb2c30c579a2b1b2"
 
 RPROVIDES:${PN} += "libftxf-devel \
 pkgconfig-libftxf"

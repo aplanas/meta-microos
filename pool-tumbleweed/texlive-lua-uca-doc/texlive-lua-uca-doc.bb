@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-lua-uca"
 DESCRIPTION = "This package includes the documentation for texlive-lua-uca"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1bsvn61023"
+PV = "2023.208.0.0.1bsvn61023"
 
-RPM_NAME = "texlive-lua-uca-doc-2023.201.0.0.1bsvn61023-52.1.noarch.rpm"
-RPM_HASH = "6ec040f17c524bad84df9e346a4b9fa8fe1091f430753296e1e81ff2f90a10938388a3f2c35ed7c1e0c7fa7aba6cf3fa771e97057eddd6b1ff6ab07051a71f76"
+RPM_NAME = "texlive-lua-uca-doc-2023.208.0.0.1bsvn61023-53.1.noarch.rpm"
+RPM_HASH = "4a327bc44efe31a5253117d0b0e0b2348015e0dd3028f135d3918c3f442457a557c7bb2641754d5d6c760b029c6b3ce890b790bb2aa12ef147e26449ebd1b928"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lua-uca-doc"

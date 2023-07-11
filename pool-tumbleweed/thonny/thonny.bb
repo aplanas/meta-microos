@@ -4,11 +4,11 @@ LICENSE = "MIT"
 
 PV = "4.0.2"
 
-RPM_NAME = "thonny-4.0.2-1.3.noarch.rpm"
-RPM_HASH = "e3b8eb7020fadef3a1aebda348fd9317b4dcf63b31963d34e595a07a2a5f525401b944d7ea1d1e6085c264f62a9b0b06886231e52e6a4d285424491cb98bdb9b"
+RPM_NAME = "thonny-4.0.2-1.4.noarch.rpm"
+RPM_HASH = "fe12c0fb3808d9012289b862ff9ec776f65101e9c8aa5f5ef64697b18869b56a4efde4a7a36792a1f2e8f499fc631396d19a967850634fecee50dbe003c7af92"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-thonny \
+RPROVIDES:${PN} += "python3.11dist-thonny \
 python3dist-thonny \
 thonny"
 

@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.2"
 
-RPM_NAME = "kshutdown-5.2-1.17.aarch64.rpm"
-RPM_HASH = "76e36e3fcf1981ed141e032e52209544d604ce1be4152710b7fce01b95ac20f5d85c7499d1c856030272ed0c503a97cb30b94421cff01dcb9c99e07ac86f3f6d"
+RPM_NAME = "kshutdown-5.2-1.18.aarch64.rpm"
+RPM_HASH = "8f7d3a708d7e6b2fb43254d37ca07635ef3a4d61f2c71baf5a7863e4579df1d974f83b1ff03badca8e6b895715c56faba3763eee290fb2d1659fb91869057e5c"
 
 RPROVIDES:${PN} += "kshutdown"
 

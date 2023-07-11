@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.12.3"
 
-RPM_NAME = "ghc-http-types-devel-0.12.3-6.3.aarch64.rpm"
-RPM_HASH = "e520a5ebc75ecfbd70b09658b3396271cee78f34840fe1e45255498e0af50a6fa6b7e29d0f2b6dc4c49e4d91c0e3f48c482295d1d08489d61adc012cd3b4d7fa"
+RPM_NAME = "ghc-http-types-devel-0.12.3-6.6.aarch64.rpm"
+RPM_HASH = "7db4ff48e22623f9e8b87c92239eb8b37d8fdd354473fc1adc73101556ee8660c02cfd931650b4cc950b8090d063db0ba36951fc3af21fcad54170506dd808b6"
 
 RPROVIDES:${PN} += "ghc-devel-http-types-0.12.3-4BrMFwRucoT4fBt8cCVFS6 \
 ghc-http-types-devel"

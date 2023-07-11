@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.3.1"
 
-RPM_NAME = "python311-pyvdr-0.3.1-1.8.noarch.rpm"
-RPM_HASH = "9a9f955cbc39b5d4b5e19b12ac11fda5edbe31405f646c92be760ffad4f9c0ee7cd269c882e9aaec5e1c843433668383829dafcd569298af465d32a6f0d871b3"
+RPM_NAME = "python311-pyvdr-0.3.1-1.10.noarch.rpm"
+RPM_HASH = "f65c0287581d8fb61c290e24308448fd627a61b22067576641713ad53b9e5525b487768a8e0b494f93bda40a48424f7f6977e9ed08e1777d1d94ba79011f121b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pyvdr \
+RPROVIDES:${PN} += "python3-pyvdr \
+python3.11dist-pyvdr \
 python311-pyvdr \
 python3dist-pyvdr"
 

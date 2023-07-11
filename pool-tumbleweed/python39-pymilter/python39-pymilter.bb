@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0.4"
 
-RPM_NAME = "python39-pymilter-1.0.4-3.12.aarch64.rpm"
-RPM_HASH = "665bdb1bd4e2880c1bc95dd864cb8a3eea4a20b26c1609a06c4da99b4225dad0ccf7c7479fe0cf39ae75c9d653383794c352db10aa6513067a8288a108e4b2a8"
+RPM_NAME = "python39-pymilter-1.0.4-3.14.aarch64.rpm"
+RPM_HASH = "c5cf5c3a8d4781ffa45f978f02ee0426856bf39af60b3940f544a95d61671eac78f1eb853c603cde4ca503bf2b936d1f8dbd8f219a92b790c5938aabc878a641"
 
 RPROVIDES:${PN} += "python3.9dist-pymilter \
 python39-pymilter \

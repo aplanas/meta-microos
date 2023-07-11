@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "1.0.2"
 
-RPM_NAME = "python311-mathics-pygments-1.0.2-1.7.noarch.rpm"
-RPM_HASH = "bd3b33abfd8b4325127d08b162fc2eb32bf4ba525b5971b2ef16a3906bffe0318fe9e7779afd43ee01ec3958d12216819a5e5066b0c4892ddeda1abc043c3fb2"
+RPM_NAME = "python311-mathics-pygments-1.0.2-1.9.noarch.rpm"
+RPM_HASH = "2bdb643aadd2ed35ddbf79483994c62a6c2a3a6281f9aa8c257685bf69305b4d9333597470758510ccf84b8142019319e5aa81b03ce7cb3ab40ca414a56e9ffe"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-mathics-pygments \
+RPROVIDES:${PN} += "python3-mathics-pygments \
+python3.11dist-mathics-pygments \
 python311-mathics-pygments \
 python3dist-mathics-pygments"
 

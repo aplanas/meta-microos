@@ -8,8 +8,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.65"
 
-RPM_NAME = "perl-Spreadsheet-ParseExcel-0.65-3.26.noarch.rpm"
-RPM_HASH = "1bdbc555dbbc33284e1877b3a037d14dc98f3cdc50dcfa640c488a71153a4e07cb7cf14d1b4c40bce51ee8cf7641cbd172161fc6e66c60e088ed55d6c578ee28"
+RPM_NAME = "perl-Spreadsheet-ParseExcel-0.65-3.27.noarch.rpm"
+RPM_HASH = "9eeb761fc3a59907542e416e77c2a492f6d90e025580d421cb16b99c63e177f3fe95ab226052ffa387fe378edaf93ffbf8377c946268cb069e2535b9ae7640b3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Spreadsheet--ParseExcel \
@@ -29,7 +29,7 @@ perl-Spreadsheet--ParseExcel--Workbook \
 perl-Spreadsheet--ParseExcel--Worksheet \
 perl-Spreadsheet-ParseExcel"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Crypt--RC4 \
 perl-Digest--Perl--MD5 \
 perl-IO--Scalar \

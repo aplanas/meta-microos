@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.4.0"
 
-RPM_NAME = "ghc-bitvec-doc-1.1.4.0-1.3.noarch.rpm"
-RPM_HASH = "310b2defee1d3a4d54269a67156aadfe6d39f64aea7f197f2df990e610ed2bc4cedd0e3c334e3204859cbd8b7c9715d972c96a62ac58bf31895fe5217375c1a2"
+RPM_NAME = "ghc-bitvec-doc-1.1.4.0-1.6.noarch.rpm"
+RPM_HASH = "74864b84066b6b34381bccd95b8eb8ce82413ad91480fa62d204db1e15707f26a110af1d80991a8c4543cbf691bf2797e7e4be1a754055b71153a5b99f256041"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-bitvec-doc"

@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.5.9"
 
-RPM_NAME = "python39-passivetotal-2.5.9-1.7.noarch.rpm"
-RPM_HASH = "361fd5baf5e43b88ddbdfb9529ca838dea37afdd0a596a308186f620ba0516aeb0bf2b5e5e86fb5a8a0b59e94b9538a83e37d1443f452d35e2202ed4522ce8b0"
+RPM_NAME = "python39-passivetotal-2.5.9-1.9.noarch.rpm"
+RPM_HASH = "8e3c199703c310dbe6e3103f45080a3ae842a4d6045897b34026da0e9ac7e5dc74f544e21d3d6143d3300ed4983354adca6043bc4b02ba16fb9a33ad4994c721"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-passivetotal \

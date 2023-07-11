@@ -2,10 +2,10 @@ SUMMARY = "General Data for KDE Games"
 DESCRIPTION = "This package contains data which is required by the KDE games library."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libkdegames-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "0c2caefc87caa279698a2ef3c4c5ced433fd56cd6b61f24afbbf3b41a919b5ab7e1bd8d8f78a4c5b6a204fa2432decb0cc42395b24a40316796b834388cde144"
+RPM_NAME = "libkdegames-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "f85914b84f34212ae1b8bfa3268b147141cbf328ba6048ad3f95d49c9853f6008f1e17d1e1623145fb693b35d05e9082580f83f6382bdfb66edbf547bfe63880"
 
 RPROVIDES:${PN} += "libkdegames \
 libkdegames-kf5"

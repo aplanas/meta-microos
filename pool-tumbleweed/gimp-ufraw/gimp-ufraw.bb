@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.22"
 
-RPM_NAME = "gimp-ufraw-0.22-11.8.aarch64.rpm"
-RPM_HASH = "7dd63c0eac189e0c85b9137d93e17a9692e91a282d2a55aefcd6424c57920462a77711af017847814ac857234df06049db654a91bcc8eaf9ff239deb7b834fff"
+RPM_NAME = "gimp-ufraw-0.22-11.9.aarch64.rpm"
+RPM_HASH = "43eadd30f3ee70c77f03afffe4d8e991d8be7d1f841cd65984a2f18f85a6983d4e9c51292469b07c9459dfeea95ff65e733c94e33a94fd72b68c12c442719142"
 
 RPROVIDES:${PN} += "gimp-2.0-dcraw-plugin \
 gimp-ufraw \

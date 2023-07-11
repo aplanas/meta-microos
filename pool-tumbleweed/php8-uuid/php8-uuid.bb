@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.2.0"
 
-RPM_NAME = "php8-uuid-1.2.0-2.4.aarch64.rpm"
-RPM_HASH = "8aa9daa135458b1c8e7a48451c6197a5e8c146586690d6ac6ceec5b8b468be8a79550d5bbfaa3c8b1f0c5d98edf49588656b36a5110301feaa267e4d4564dacb"
+RPM_NAME = "php8-uuid-1.2.0-2.5.aarch64.rpm"
+RPM_HASH = "573afc231a72b924a98abbe4c570348ae3d538a85e827cca1e94c41bce72f01d9cb3fe52c0c9d993cfae1d20227a1b23f3b2bba6eeb139f627586b6757e332f1"
 
 RPROVIDES:${PN} += "config-php8-uuid \
 php-uuid \

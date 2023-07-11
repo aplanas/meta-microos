@@ -2,10 +2,10 @@ SUMMARY = "Create books from markdown"
 DESCRIPTION = "mdbook is a utility to create books from Markdown files"
 LICENSE = "(Apache-2.0 | MIT) & Unicode-DFS-2016 & (Apache-2.0 | BSL-1.0) & (Apache-2.0 | ISC | MIT) & (Apache-2.0 | MIT) & (Apache-2.0 | Apache-2.0-with-LLVM-exception | MIT) & (Apache-2.0 | MIT | Zlib) & (MIT | Unlicense) & (Apache-2.0 | Zlib | MIT) & Apache-2.0 & BSD-3-Clause & CC0-1.0 & ISC & MIT & MPL-2.0"
 
-PV = "0.4.30"
+PV = "0.4.31"
 
-RPM_NAME = "mdbook-0.4.30-1.1.aarch64.rpm"
-RPM_HASH = "4d24164a4139d06c7fb8914ffd404b0ec793b0e62afbc7fa392756c0ba1a56223f697096d333b98eebb0f11234e9bcd8edfb8b77d863c31986bef50716583b3b"
+RPM_NAME = "mdbook-0.4.31-1.1.aarch64.rpm"
+RPM_HASH = "049926ffdeefba363cf1655cbb85faede7493fb864bcc2ae0aecc6fd86c7f87ca4b559817bd76616f052c9906eab3ecd9593e8ef04750b19e241dfe9667aaa24"
 
 RPROVIDES:${PN} += "bundled-rust-crate-aho-corasick \
 bundled-rust-crate-ammonia \

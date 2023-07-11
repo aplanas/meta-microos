@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.36.0"
 
-RPM_NAME = "glade-catalog-libpeas-1.36.0-1.1.noarch.rpm"
-RPM_HASH = "7c60864810b95f5a9fd17d91bae6c48990cf9d4db405cf9aa2d7805b1eae4ccb2eb5aef3f53da8c2222d0f52280aaaaf5f3b164e96012f3912bf4ac03ab2ecc2"
+RPM_NAME = "glade-catalog-libpeas-1.36.0-1.2.noarch.rpm"
+RPM_HASH = "ef64d90c3c14f8db3ac7e0228076a3c68cf2e47a0ade64ac7075a1d0ca837e98b039a8bc1048e4b2b492e6acbf5e508d35faf6ee9197426d99abb7a4f1197a61"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glade-catalog-libpeas"

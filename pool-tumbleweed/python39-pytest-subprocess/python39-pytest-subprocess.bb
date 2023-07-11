@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.5.0"
 
-RPM_NAME = "python39-pytest-subprocess-1.5.0-1.1.noarch.rpm"
-RPM_HASH = "4779f9fc3454c211234bfc8ce771651dc21e2bf11051207a58d06ce57e0084871a6ecee109593785a360873571fb4d447a763b02dfd4b00bd6337e42fd8eceb4"
+RPM_NAME = "python39-pytest-subprocess-1.5.0-1.3.noarch.rpm"
+RPM_HASH = "5152877202feaa19866627a6d43ba0350ab2bccc37f17c2ebebfefcd5e9754a39a561ebeda5aab617ec543e73a445522b3f97dc3f89087c2d83e9bca64018632"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytest-subprocess \

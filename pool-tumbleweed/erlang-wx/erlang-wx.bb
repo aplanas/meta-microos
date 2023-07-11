@@ -2,10 +2,10 @@ SUMMARY = "A library for wxWidgets support in Erlang"
 DESCRIPTION = "A Graphics System used to write platform independent user interfaces."
 LICENSE = "Apache-2.0"
 
-PV = "25.3.2"
+PV = "25.3.2.2"
 
-RPM_NAME = "erlang-wx-25.3.2-1.1.aarch64.rpm"
-RPM_HASH = "a3e72064df6a8027e97d613b1696c729c2de05bb90b3b9b3b1a9f41b62a32d9bb4eba0bd9b34cff48f6a2e3dc72a6fc3ad9bc360b99c14fb9a8f0fe791be5b9d"
+RPM_NAME = "erlang-wx-25.3.2.2-1.1.aarch64.rpm"
+RPM_HASH = "b1ff2b5c6b3c294b2933a35f6270f485872fe4e615dbfacec461284792db233dbcc039870af5c9fcde20124352742d7b5799e91a2bc42ff683c3f97cd85d0124"
 
 RPROVIDES:${PN} += "erlang-wx"
 

@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.5.1"
 
-RPM_NAME = "python310-WSGIProxy2-0.5.1-3.1.noarch.rpm"
-RPM_HASH = "eaa73f1e2a91d0a37071616957d437e581f2c772c654b9870b00dccf7d8dfec5a81652e5efd99750170ed729b7eac6a2da79b7cdb51d2062b1329d46bbfdde82"
+RPM_NAME = "python310-WSGIProxy2-0.5.1-3.2.noarch.rpm"
+RPM_HASH = "f1d8e3ee2c79387f102248f675de54510edaf1c3cff1eaf25208ec499ffaacf8de37a36646df4e295de2b48637cb55dfb9921bc099028418e5b7fe11f5823907"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-WSGIProxy2 \
-python3.10dist-wsgiproxy2 \
+RPROVIDES:${PN} += "python3.10dist-wsgiproxy2 \
 python310-WSGIProxy2 \
 python3dist-wsgiproxy2"
 

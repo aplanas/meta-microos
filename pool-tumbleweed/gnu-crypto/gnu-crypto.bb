@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.0.1"
 
-RPM_NAME = "gnu-crypto-2.0.1-260.15.noarch.rpm"
-RPM_HASH = "ecf08a2b16d102f98299f1c03ce1f55a47b22507756d040e40643b5784ca39c7f368fbde9acd3d2579461b7aaad4e5085db913d3459866a5bacb3f9e34081c1d"
+RPM_NAME = "gnu-crypto-2.0.1-260.16.noarch.rpm"
+RPM_HASH = "b1df06079654dde5eb2067af97da34185e8c2271c2c675b04668128e4054e33f548e2dc7470c0f69ab7089d02d66da207c4bbd0b0ccef6dfc70750aedaf426b4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnu-crypto \

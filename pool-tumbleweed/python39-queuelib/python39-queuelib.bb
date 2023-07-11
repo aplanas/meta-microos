@@ -7,8 +7,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.6.2"
 
-RPM_NAME = "python39-queuelib-1.6.2-1.8.noarch.rpm"
-RPM_HASH = "88ad609f4b47464156517e47275a28f5f9e31789b4b1d93f574447ced11a507b63d7826142fc43b956d82d331a8f3b1ad100dd0e16b065b78c2985ae52480fb7"
+RPM_NAME = "python39-queuelib-1.6.2-1.10.noarch.rpm"
+RPM_HASH = "4bfb8b1175abb73c632e4fc4725be832b60e945f6e4f87c3c623ba0e86c6c8d97a9aafe9e2757839d5310a5b108a15279492f99e1bd870ed3627e9e5857c962c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-queuelib \

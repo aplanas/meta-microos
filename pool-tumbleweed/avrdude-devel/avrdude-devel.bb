@@ -1,11 +1,11 @@
 SUMMARY = "Development files for avrdude"
 DESCRIPTION = "This package contains development files for avrdude."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
-PV = "6.3"
+PV = "7.1"
 
-RPM_NAME = "avrdude-devel-6.3-5.7.aarch64.rpm"
-RPM_HASH = "62015dbfc8d70899c18db66bea441be616e65593ffdda7555663f6306a72c0abb78d75234dced7bafc4e34df6e76b857bc8ef4328500c8f5c38714d5dc5d7315"
+RPM_NAME = "avrdude-devel-7.1-1.1.aarch64.rpm"
+RPM_HASH = "d8b37014bccf104c87e88882b0e0d8e7224b4684c02dfb653c5e166181fe5d7b22f6538cda306ddbd69372601403f99c0cd2762cbb7454b10febd48fcbcec28b"
 
 RPROVIDES:${PN} += "avrdude-devel"
 

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "5.24.3"
 
-RPM_NAME = "libDWaylandServer5-5.24.3-1.3.aarch64.rpm"
-RPM_HASH = "384a98243a87e74d82a19e20274485d5621a983f27ace33a9cc7baab18fd1ddfc6ee8b88b0e83eb08a02f3c5746e800cac58ec8791d009ff96d13d1bd4e370f4"
+RPM_NAME = "libDWaylandServer5-5.24.3-1.4.aarch64.rpm"
+RPM_HASH = "5b754513be7bb39ffd5fbf28af5cf62fd8fc6b656e0636d180acd0b8a7f9d459c7df06bd37fdce2f7f0dcb55b95f2199e674298a6acfc566de3dae1806b7beee"
 
 RPROVIDES:${PN} += "libDWaylandServer.so.5 \
 libDWaylandServer5"

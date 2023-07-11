@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "15.0.0"
 
-RPM_NAME = "python310-httpsig_cffi-15.0.0-3.4.noarch.rpm"
-RPM_HASH = "1c11bd416ec30cb54f48451942e58f6c85a1c3a6b29bc06d18e3504d20f75d0941ef74d5e19a047ffc566820dfb4ba00e5156f47f944d3d1200d6bf12da99d4f"
+RPM_NAME = "python310-httpsig_cffi-15.0.0-3.6.noarch.rpm"
+RPM_HASH = "4060409a43d6d30c9da2f4f54a1133dac30f60c9610067f9dd64e6ae913fedb058efaa0b0445939ebb67bf2bdaf5da45e12ec61695b933c9e02c7ec985862c31"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-httpsig-cffi \
-python3.10dist-httpsig-cffi \
+RPROVIDES:${PN} += "python3.10dist-httpsig-cffi \
 python310-httpsig-cffi \
 python3dist-httpsig-cffi"
 

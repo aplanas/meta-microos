@@ -2,13 +2,13 @@ SUMMARY = "Haskell gtk2hs-buildtools profiling library"
 DESCRIPTION = "This package provides the Haskell gtk2hs-buildtools profiling library."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.13.8.3"
+PV = "0.13.10.0"
 
-RPM_NAME = "ghc-gtk2hs-buildtools-prof-0.13.8.3-2.3.aarch64.rpm"
-RPM_HASH = "ad466fa1c0d70bdb747b49420b2a5a4cce91cf5c085ac3825456964d403da711b3dbfb29c6e7b0ab28c0df9dc2cf2b7cc09cbf2284c4e3f584bb6f4d020719fe"
+RPM_NAME = "ghc-gtk2hs-buildtools-prof-0.13.10.0-1.3.aarch64.rpm"
+RPM_HASH = "4917e6fdc4e4603725b7e81eb8fd0b7473e341dea6a26e1e6e68c103377da750cdf83157f96a3904407b2acbb0e8d1f936dc6a3e54665001561d36e6e9926dd3"
 
 RPROVIDES:${PN} += "ghc-gtk2hs-buildtools-prof \
-ghc-prof-gtk2hs-buildtools-0.13.8.3-1HEgD6xsgMLLqS6Eg0gkhE"
+ghc-prof-gtk2hs-buildtools-0.13.10.0-GMmATWROlNJH1zTcL3EPcc"
 
 RDEPENDS:${PN} += "ghc-gtk2hs-buildtools-devel \
 ghc-prof-Cabal-3.8.1.0 \

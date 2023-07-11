@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "3.1.3"
 
-RPM_NAME = "ocaml-lablgtk3-3.1.3-2.3.aarch64.rpm"
-RPM_HASH = "b211cb434bbe6a27f7b87626dcc078520a2c8ca67e037cfabf429682996a4443c5ed9dfca712cf100420bed811207106d7a888134dd855023e0e5018ba3965ca"
+RPM_NAME = "ocaml-lablgtk3-3.1.3-2.4.aarch64.rpm"
+RPM_HASH = "841e24e11f83154bdf3c100ba632ed635df3ab797875b473eef69ec981b3d88a04170e11ef3e59d736974234bc4faa7a3a8801b9a01781e5b504fb2239315e2c"
 
 RPROVIDES:${PN} += "ocaml-lablgtk3"
 

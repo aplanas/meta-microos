@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "2.3.0"
 
-RPM_NAME = "python311-pygments-pytest-2.3.0-2.1.noarch.rpm"
-RPM_HASH = "5bb29b329293da431f57ecee2f4df4059e331df94451b9ce85d2eefe3093b27ce3105c341c1c285b3b05a29a00ae9d6b45a5427f9dc3cfd232874b2702eb7eca"
+RPM_NAME = "python311-pygments-pytest-2.3.0-2.3.noarch.rpm"
+RPM_HASH = "fe3027074a78e2d5f381e16749ac4c3bc11ff815d49424a2e93336c21b47e45551f4bb119f51f923c89c2128d3e56733c945114f12238e559e83e816a6f4254f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pygments-pytest \
+RPROVIDES:${PN} += "python3-pygments-pytest \
+python3.11dist-pygments-pytest \
 python311-pygments-pytest \
 python3dist-pygments-pytest"
 

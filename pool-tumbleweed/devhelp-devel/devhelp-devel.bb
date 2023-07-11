@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "43.0"
 
-RPM_NAME = "devhelp-devel-43.0-2.1.aarch64.rpm"
-RPM_HASH = "9834102c7cb5226c418637e5ac9da875bbd53c82b7b4b7a31419d90d5128d5eaf05d00ab55a1a8e803afa4d3c8b773487bcfd495c55bed89229f6350ffe43d10"
+RPM_NAME = "devhelp-devel-43.0-2.2.aarch64.rpm"
+RPM_HASH = "cd7d2ea430abfb75563db16eba15c108f826c0cc33ac6dae4bfe0fa4442a5ca8579d0c76cae2237b54b4bdeaeba811acd62a4a82915c4544bb32955355a2e66f"
 
 RPROVIDES:${PN} += "devhelp-devel \
 pkgconfig-libdevhelp-3.0"

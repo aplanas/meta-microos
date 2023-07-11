@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.10.0"
 
-RPM_NAME = "libfreerdp2-2-2.10.0-3.1.aarch64.rpm"
-RPM_HASH = "00b0cd38633a600b43f91a151e7f0ba660a1ebd3236eafb1e6a80b9d079d1cffa3a246531e69db1e23c553a6f1ea48dcc4c81d3b69bf05464351452b7fb7d563"
+RPM_NAME = "libfreerdp2-2-2.10.0-3.2.aarch64.rpm"
+RPM_HASH = "9d9b6d0aa92fcab203aabaf66811d3d2d0cf102f71df3ec6930072ae8d0174d9902b1d20d2505782531ddf823a347655ae5b081cac84ee9f7a67c495f07b6df4"
 
 RPROVIDES:${PN} += "libainput-client.so \
 libaudin-client-alsa.so \

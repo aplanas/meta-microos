@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.0-only"
 
 PV = "3.4.5"
 
-RPM_NAME = "typelib-1_0-XreaderDocument-1_5-3.4.5-1.4.aarch64.rpm"
-RPM_HASH = "8684fa766b52a6a759ce10a6f22f00d2edecdc2d996309f10554a838ff8cd107bc7d930034b8fef9f3e02af40dbe21e7a27afcab2e103f609228e4e446350df9"
+RPM_NAME = "typelib-1_0-XreaderDocument-1_5-3.4.5-1.5.aarch64.rpm"
+RPM_HASH = "b5ad6be7b3ad275d7f784c33e0120cc8f1ed4deb7def725d63ea53a2c6d19b3ecd8a3f32f5f6ea2e1233b9834d02ccf91cd3f8430a799b51a4430d442ea10fd9"
 
 RPROVIDES:${PN} += "typelib-1-0-XreaderDocument-1-5 \
 typelib-1-0-XreaderDocument-1-5-0 \

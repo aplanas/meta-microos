@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-or-later"
 
 PV = "4.13"
 
-RPM_NAME = "shadow-4.13-6.1.aarch64.rpm"
-RPM_HASH = "ce4f4b46e734fe3c6d5397774fbcb3ecc04b3940ca85145de26c13ce9a55d80df5f32b51e40be2a5dec16c6b242dc4fdba2667bf194c0831b58359996c8dba1b"
+RPM_NAME = "shadow-4.13-6.3.aarch64.rpm"
+RPM_HASH = "50f9aad17a1c180cbbf8b7535c5d250456294392caf8fb60cda76146cadc520200669008326fb383b4599bcb2ad05ec054bc2f2b934b9d17d7169c9546f6202f"
 
 RPROVIDES:${PN} += "config-shadow \
 pwdutils \

@@ -13,14 +13,13 @@ LICENSE = "GPL-2.0-only & GPL-3.0-only"
 
 PV = "1.2.9"
 
-RPM_NAME = "semantik-1.2.9-1.1.aarch64.rpm"
-RPM_HASH = "99d7141de4a3ab0bd9672ba02ef038240987eb1481b9f96b3e59be61d88c73143e28c736b5277d6c792aebf097a98da9e0a6a1cc00de41bb99df7ac700a50a8b"
+RPM_NAME = "semantik-1.2.9-2.1.aarch64.rpm"
+RPM_HASH = "f7348c9179a3197dbe5c1e223a6ba564e1c3997918e0d3cd8639c27c161211c0c9f65e790431d6b1036e626439a95cce1a2a8ee739dbff9ee8bf7fe2615efc50"
 
 RPROVIDES:${PN} += "libsemantik.so.1 \
 semantik"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-/usr/bin/python \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1 \
 libKF5ConfigCore.so.5 \

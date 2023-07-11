@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "6.3.0"
 
-RPM_NAME = "libsundials_cvodes6-openmpi4-6.3.0-2.4.aarch64.rpm"
-RPM_HASH = "ad0c78d1041b5662dd466ef3f58ae35aa04024ddb0f4f40a249a09635327cdb03c9ead0a5fe5368d622379b69b7ff78b4349133d46401917080aefedc6c87a06"
+RPM_NAME = "libsundials_cvodes6-openmpi4-6.3.0-2.5.aarch64.rpm"
+RPM_HASH = "60717dc6950fedf4ad8294d5ae80f06637d024b018f05b760ea373d9190a8492a5ee82a1317170b2294fcdaa0397316bad1c7d959944c47d7b32df53eead99aa"
 
 RPROVIDES:${PN} += "libsundials-cvodes.so.6 \
 libsundials-cvodes6-openmpi4"

@@ -5,8 +5,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-xtazy-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "058a7c99970ce4c30d3708c844bcd7024d9d00f9c8b28a4f27a735b4cc06b376d92bcf288d64050888ae730f69163fe1a1d66a833f7d2af6cc62116e53af573a"
+RPM_NAME = "leechcraft-xtazy-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "e7ceac24c949f6106a4bbdc29b68ff060b3d719e718f6fbcfe73e23307035ab35f1a05084bfe062204724523ffcc50340d5a00ef6a9592284931d16017f8e3dc"
 
 RPROVIDES:${PN} += "leechcraft-xtazy \
 libleechcraft-xtazy.so"

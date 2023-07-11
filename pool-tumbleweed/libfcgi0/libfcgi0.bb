@@ -6,8 +6,8 @@ LICENSE = "OML"
 
 PV = "2.4.0"
 
-RPM_NAME = "libfcgi0-2.4.0-173.1.aarch64.rpm"
-RPM_HASH = "d2c406de3a52435a54472c323e691c692fbdccf3f3458b7033aed8480615f3607166669b294ec2760a8d9cdfd743a0c2b17f5214b8d55b30cc9e87f28ecede91"
+RPM_NAME = "libfcgi0-2.4.0-173.2.aarch64.rpm"
+RPM_HASH = "55aa65d60935f6535e380d1f5030eb674ac40e7da80273d7bff69ba92bf875f5e1e1eee325fc5ade88e1b54180f1e03493ae5dac9f29ba521690da550291cfec"
 
 RPROVIDES:${PN} += "libfcgi++-0 \
 libfcgi++.so.0 \

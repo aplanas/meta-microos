@@ -7,12 +7,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.0.1"
 
-RPM_NAME = "python310-mutatorMath-3.0.1-4.7.noarch.rpm"
-RPM_HASH = "a61898642fc8ee3da044ef640529578880305d5c5cddf78fc4da1a0ade3e88faf2862d5c014d0f268613897c2aea08de41429d04631b17078911b34a2264b5c3"
+RPM_NAME = "python310-mutatorMath-3.0.1-4.9.noarch.rpm"
+RPM_HASH = "6279184406018463a383fb825782fe365d915330d65205fe5dd978a7ec2815d777a81c49c1b6ed0819a489da5af8b95eb57bbdbf889850d039497c05d259b547"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-mutatorMath \
-python3.10dist-mutatormath \
+RPROVIDES:${PN} += "python3.10dist-mutatormath \
 python310-mutatorMath \
 python3dist-mutatormath"
 

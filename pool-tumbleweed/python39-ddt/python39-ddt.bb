@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.6.0"
 
-RPM_NAME = "python39-ddt-1.6.0-3.1.noarch.rpm"
-RPM_HASH = "fef56e46c6d5c4a55c233b45d0a30d584d7c7a76e07a33c33977e72c8ffcc982d4c8c95ff89cade9e80205fa7ad0e9c6d53b2e4409546679f48664cf91c6966d"
+RPM_NAME = "python39-ddt-1.6.0-3.3.noarch.rpm"
+RPM_HASH = "7c99785e0793a0f489565c521bd02bfe619cb6dc48999c13768e000ab4095ec90b3508b8b7ac19e0e25724b5e8a7e90d25a632e3c8ceb715d6d7449a970efd0a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-ddt \

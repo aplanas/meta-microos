@@ -5,11 +5,12 @@ LICENSE = "Apache-2.0"
 
 PV = "1.3.1"
 
-RPM_NAME = "python311-aiosignal-1.3.1-1.1.noarch.rpm"
-RPM_HASH = "a76cc886de987508eeb659e98d745d547cc464fbd587abea15756394e1c75d3e015e1fcd54eac30c4544c583593e36f3562d44a81439af426e9c563f1554abdd"
+RPM_NAME = "python311-aiosignal-1.3.1-1.3.noarch.rpm"
+RPM_HASH = "69555ab9a7ff1282a0804ab742310b25151e0efaa7054054d365253a561a1537ca9571dd83fd66cb1f87252886dbe84621218d71385c467d6f1942e8d22c75d0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-aiosignal \
+RPROVIDES:${PN} += "python3-aiosignal \
+python3.11dist-aiosignal \
 python311-aiosignal \
 python3dist-aiosignal"
 

@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.8.0"
 
-RPM_NAME = "frei0r-plugins-1.8.0-2.4.aarch64.rpm"
-RPM_HASH = "f2adfe4fbc089e5d185ac286a38137818f9279d45d869947c5c06ded35a8d4988360f71e16fcd727c137e2fab880ca672ebc4a6e5349cc33f061d6aa6f07d9ba"
+RPM_NAME = "frei0r-plugins-1.8.0-2.5.aarch64.rpm"
+RPM_HASH = "412ed6cccd7d1c453175070d0f324874158a59c2b22701746d1a6459628ec380b73ef11f25a270c519e0f951fb3e3545793491d535db55464c854c74f512deeb"
 
 RPROVIDES:${PN} += "frei0r-plugins"
 

@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.7.7"
 
-RPM_NAME = "upmpdcli-1.7.7-1.1.aarch64.rpm"
-RPM_HASH = "68e8517330b267bf456340e3367b9d68f7e0a85ec7e5df2aaa91b5b21e57c9b5183721e7ac36cf3f015bdcc97e4946900893940497895d5713fd800169c8c98c"
+RPM_NAME = "upmpdcli-1.7.7-1.2.aarch64.rpm"
+RPM_HASH = "b29c711636d2ae88c6f739af3fb1c30dc28e3011ada312752f76f101e543f52dec9df7e1e248d773dfa7991a927c8263258af4fa07ed87898462de49fe8ddaeb"
 
 RPROVIDES:${PN} += "config-upmpdcli \
 upmpdcli"

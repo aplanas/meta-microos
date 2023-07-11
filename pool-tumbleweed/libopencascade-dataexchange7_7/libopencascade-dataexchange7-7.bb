@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-only-with-OCCT-exception-1.0"
 
 PV = "7.7.0"
 
-RPM_NAME = "libopencascade-dataexchange7_7-7.7.0-1.3.aarch64.rpm"
-RPM_HASH = "a9decd45fc541aa91123822d795753340cadea6f0a8e8ffb9d4350667a0ca94b5c8081d7d0c14b141595bd2967017411f2f7642a311d8435ca5cd7ec5311a38a"
+RPM_NAME = "libopencascade-dataexchange7_7-7.7.0-1.4.aarch64.rpm"
+RPM_HASH = "31449ddc9e0c3b4a98174cee351bc97839095d5a7398c41acf2ac357c44cad4bc9e796b686e5e6e29e430b7af7ca61e0b0e2dc3caeddab4f0e5d37c580d2da5a"
 
 RPROVIDES:${PN} += "libTKBinXCAF.so.7.7 \
 libTKExpress.so.7.7 \

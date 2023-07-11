@@ -7,10 +7,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.2"
 
-RPM_NAME = "python311-setproctitle-1.3.2-1.4.aarch64.rpm"
-RPM_HASH = "0798f07e63747b022b515996e24bdf9d920564b8eb73fe6a964932b16f2ffc3d9a1070291b932f19676abadb4d38f35dd1e7a14382e0b45f52de5f2531faffea"
+RPM_NAME = "python311-setproctitle-1.3.2-1.6.aarch64.rpm"
+RPM_HASH = "ec1f4d6822f6437f1ad0aef1da068e463b40dffd195b9a274ddd8acc2ebb54b69257416f2ac4421292e8a60e4ebecad41ad314dd235eb63ad2b2dfb4837d53ee"
 
-RPROVIDES:${PN} += "python3.11dist-setproctitle \
+RPROVIDES:${PN} += "python3-setproctitle \
+python3.11dist-setproctitle \
 python311-setproctitle \
 python3dist-setproctitle"
 

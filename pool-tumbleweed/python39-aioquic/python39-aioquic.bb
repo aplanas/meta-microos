@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.9.20"
 
-RPM_NAME = "python39-aioquic-0.9.20-1.5.aarch64.rpm"
-RPM_HASH = "88f62ab11947232aba410dfbbd1f0aa3a3253d76a2703e803c1870814ca064d6f573c953ea2a7422cbe925f316ca4046882c82b6f9cad0bc2094150b00bf135c"
+RPM_NAME = "python39-aioquic-0.9.20-2.1.aarch64.rpm"
+RPM_HASH = "ddbf0e14ecd4e01caf2ae0d247c4cd16f5d7fdf47a92297146e1a0817aacba23837bd2675bb2a4debbff62e4fe4abbcfe581dcbc0b987f0d70e43667ab9c2a04"
 
 RPROVIDES:${PN} += "python3.9dist-aioquic \
 python39-aioquic \

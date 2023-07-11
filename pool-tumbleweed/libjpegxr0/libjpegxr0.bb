@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.1"
 
-RPM_NAME = "libjpegxr0-1.1-4.9.aarch64.rpm"
-RPM_HASH = "a8e0175426496a5e2bd68f0ccfdfc7b5451dc1a87e314a3fa5499c11721ae1ac2dcdb435bf640409cc3a489df94408535b648475a4abd54fede5b9d9e75905c4"
+RPM_NAME = "libjpegxr0-1.1-4.10.aarch64.rpm"
+RPM_HASH = "8a3f8d088bcf3b3105d6bb9b60b52e700ae1b8df503bd523d9995e317f42e0543a0cfcd647f6a20b1401d24c51e18893eee3a279951b87079e83737419da3207"
 
 RPROVIDES:${PN} += "libjpegxr.so.0 \
 libjpegxr0"

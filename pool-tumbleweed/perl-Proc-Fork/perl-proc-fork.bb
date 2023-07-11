@@ -27,14 +27,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.808"
 
-RPM_NAME = "perl-Proc-Fork-0.808-1.2.noarch.rpm"
-RPM_HASH = "3a5e904edc370f48db8381c972cef30c787d1a603d50359cefc6c7201aa7844970e001c3538d0c9c9b4f2651148d7949de5994115c509105a1a6c8033c418944"
+RPM_NAME = "perl-Proc-Fork-0.808-1.3.noarch.rpm"
+RPM_HASH = "eb19c32226fa462a13caa5d91518c85d85d67a12224dc4afda73ecce97ee890ad767bad992113519b0c9606b298eafce0d6bdd1519985b74bb1956372a4854a9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Proc--Fork \
 perl-Proc-Fork"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Exporter--Tidy"
 
 inherit rpm

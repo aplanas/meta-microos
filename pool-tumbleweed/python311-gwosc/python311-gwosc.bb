@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "0.7.1"
 
-RPM_NAME = "python311-gwosc-0.7.1-1.1.noarch.rpm"
-RPM_HASH = "e6af3b1b3d5090888141c8375a94b9afea00d6e755aa244392342eeb4733b1feeda5eeecbf81a5ea9d5ccb55fce135855fcaf54e08c66aad8f938fcb699f72f8"
+RPM_NAME = "python311-gwosc-0.7.1-1.3.noarch.rpm"
+RPM_HASH = "f8286c17af0470d33f1ea61dd2089b13027e172b39bd31a6ecf4fcda967154891384da980c740207e19b2b56931b585c65f415999d2416b63484043512721d34"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-gwosc \
+RPROVIDES:${PN} += "python3-gwosc \
+python3.11dist-gwosc \
 python311-gwosc \
 python3dist-gwosc"
 

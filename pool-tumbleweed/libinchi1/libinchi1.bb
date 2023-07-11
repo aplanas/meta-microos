@@ -11,8 +11,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "1.06"
 
-RPM_NAME = "libinchi1-1.06-2.3.aarch64.rpm"
-RPM_HASH = "9eff327f848d84cf21292d83d8a604004fcc7b44626ce54fbe174421898fa8c45290fbecbd50bcb456fda8172c755e54c2da4d8cff1e71428e1ca8d4ba42a6c7"
+RPM_NAME = "libinchi1-1.06-2.4.aarch64.rpm"
+RPM_HASH = "39409bf8ff5383e1fad0a907576b5057fa75a0d209749aa97caff382afb87db79424d8c76e49aab15a77cbf9cc93b9d041734ec9ccf489985d524d51e0f1f6a0"
 
 RPROVIDES:${PN} += "libinchi.so.1 \
 libinchi1"

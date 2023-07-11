@@ -12,8 +12,8 @@ LICENSE = "MIT"
 
 PV = "0.9.1"
 
-RPM_NAME = "python39-blue-0.9.1-2.1.noarch.rpm"
-RPM_HASH = "92fc60b16d8e63721bdc491978433e3470099c8084d514ab5f12ff6b1b8718be3e0c256f8342bc5e6ed4e246dc28e2cf7ee1b639059d967a4c46193d58087bc3"
+RPM_NAME = "python39-blue-0.9.1-2.3.noarch.rpm"
+RPM_HASH = "bdb309bcfc1228970bdefc4ea5d48de8c721d953491533e8c146d1bff34b278dd27aea2b94ee3528a6aa7d86bd76a22ad6e73e08c7217d660d9da508d134bc02"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-blue \

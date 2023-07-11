@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "20230308.4ed55cf"
 
-RPM_NAME = "rpm2docserv-20230308.4ed55cf-1.4.aarch64.rpm"
-RPM_HASH = "d808c43858b77277b99b300bed399815dd9138a192be3be03b1b97e0db757bbc0d4e75a6b1afe40ffe6c0af0316fcc76d691d6def0f2b4e82d821a514ce91e1a"
+RPM_NAME = "rpm2docserv-20230308.4ed55cf-1.5.aarch64.rpm"
+RPM_HASH = "a493d33b58f1e19472a7e532617a03d4efbc12f58f4fe3adcc7eed76c01b56616d1fc1ffec5a71b91d743138783276f5f85245643dfa97346dfc2d55b31392c3"
 
 RPROVIDES:${PN} += "rpm2docserv"
 

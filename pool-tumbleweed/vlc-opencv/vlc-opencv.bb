@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.0.18"
 
-RPM_NAME = "vlc-opencv-3.0.18-7.1.aarch64.rpm"
-RPM_HASH = "69db56c8b4392ff52fe784bbd0b2b51f0725050af47b6e381c4c9c55f7a2d52601a3b6ccc190bb71bff32c546f4d85420da517d331a4b269ff4f911df040e5f4"
+RPM_NAME = "vlc-opencv-3.0.18-7.3.aarch64.rpm"
+RPM_HASH = "c26317428099a8c69847a64a581cfaee8922da4442dab8c475c919145c1549739ca9ec5a523e4dc03dce701e5a610e973fd0cfe036f74eabee8a3ee1f92f4469"
 
 RPROVIDES:${PN} += "libopencv-example-plugin.so \
 libopencv-wrapper-plugin.so \

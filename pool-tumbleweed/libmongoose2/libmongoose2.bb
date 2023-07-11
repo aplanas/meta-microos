@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.0.4"
 
-RPM_NAME = "libmongoose2-2.0.4-49.1.aarch64.rpm"
-RPM_HASH = "d57e789ebb995a552ccde7d0857aaaa6eea560689619c52bcfdf5fde637fb35181812969e29629e420c4c5e56b87d956d4c50a8093658f24dedda713cfee6cb0"
+RPM_NAME = "libmongoose2-2.0.4-49.2.aarch64.rpm"
+RPM_HASH = "6a04401cb7a007a93476d7391e6f7e803db65b68681a60c5e4945a07ae19e0119c860ec7b92ad0d94ca099c47e716a2545837a3afaa53cbf7005ff9f6bbc0b27"
 
 RPROVIDES:${PN} += "libldl-2-0-4 \
 libmongoose.so.2 \

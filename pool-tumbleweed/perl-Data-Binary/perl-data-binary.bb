@@ -10,13 +10,13 @@ LICENSE = "Artistic-2.0"
 
 PV = "0.01"
 
-RPM_NAME = "perl-Data-Binary-0.01-1.9.noarch.rpm"
-RPM_HASH = "6ed2fbdd5b5c747c93898dcd7f39bc036ca448f90399442a7cb1f3c5c8c516327e0b9bb34df3409a0a163e9d33ded9ec05c86de5a046b93109518cc2122192ca"
+RPM_NAME = "perl-Data-Binary-0.01-1.10.noarch.rpm"
+RPM_HASH = "358cfcf849cddb191a74afc8574a06bbd4e6950d5d90f59320e2b03d76553243bc03383f7784eb96edbda80941563d8409d305365fadd786043681f466fa7f13"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Data--Binary \
 perl-Data-Binary"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "12.2.0"
 
-RPM_NAME = "mingw64-gcc-12.2.0-2.1.aarch64.rpm"
-RPM_HASH = "cdcc56af0276e4686390038b15d95c0b2e2bd174cf4265c74f72c87b8533dff7c1d5b1be47e298d6f6c64e0a6710e92ba0228fc2268a639df752784e8af6c53e"
+RPM_NAME = "mingw64-gcc-12.2.0-3.1.aarch64.rpm"
+RPM_HASH = "02e95edb7ec760213972dbc38e66fd881499faa17c4610c563a365604068af9c05779c0c96ab16682d74d328bd20dd8af28103e3ad73314bfeabaada5d5b73b0"
 
 RPROVIDES:${PN} += "mingw64-gcc \
 mingw64-lib-atomic \

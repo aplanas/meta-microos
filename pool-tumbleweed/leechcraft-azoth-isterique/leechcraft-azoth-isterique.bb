@@ -5,8 +5,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-azoth-isterique-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "f8417295635c52fcbe0d8b74f442220a11ef3f07e0beb677a11f4638fcc5e234c2b63cff36feb5ac1cbbab02c20a496f7d57aadf29f2bebfa5bc563ce247c8f9"
+RPM_NAME = "leechcraft-azoth-isterique-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "80f798758513663d5f0566e0ece41575ca0928645205f099a2a89c1a74740e5eb4dc103566a3169c7b15d23ffbae8ecfa7d574b3ddf91542aaa6372b4fc3d890"
 
 RPROVIDES:${PN} += "leechcraft-azoth-isterique \
 libleechcraft-azoth-isterique.so"

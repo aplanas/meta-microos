@@ -2,10 +2,10 @@ SUMMARY = "Bash Completion for tio"
 DESCRIPTION = "Bash completion script for tio."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.5"
+PV = "2.6"
 
-RPM_NAME = "tio-bash-completion-2.5-1.2.noarch.rpm"
-RPM_HASH = "e059ca45a39ae15905d7985fd0b8b3bd0e3c8da22c09e47ff9d7f72ecd8b89e7826db098a071865052d318db9d1485094e5a3df6f9ee8cd5af2a4419bc27c982"
+RPM_NAME = "tio-bash-completion-2.6-1.1.noarch.rpm"
+RPM_HASH = "be8485541d89e2c627baf988bfabbe057a3cc8d36428c14804dc6f215219aadfcdc0393a95bcf1664ccc977715b9ec17e0f8ea35d4defee3007a49cd08439316"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tio-bash-completion"

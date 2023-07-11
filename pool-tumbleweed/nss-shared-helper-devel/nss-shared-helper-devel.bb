@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "1.0.10"
 
-RPM_NAME = "nss-shared-helper-devel-1.0.10-9.26.aarch64.rpm"
-RPM_HASH = "603bad1c2284b0122bf57efed8c65be44af434d844001a92988eddcc9f53142e322a3ea6f208f48524fa886db921fd121c438cf4add2f37829c581ed3742202b"
+RPM_NAME = "nss-shared-helper-devel-1.0.10-9.27.aarch64.rpm"
+RPM_HASH = "8b79489797e22e3766201334a732788794f81d546d0c364eb7c9f17bfc8023c41d06b0d372173c0917ac1bb8b38b00515bd548fab431e14640aecb55debbddca"
 
 RPROVIDES:${PN} += "nss-shared-helper-devel \
 pkgconfig-nss-shared-helper"

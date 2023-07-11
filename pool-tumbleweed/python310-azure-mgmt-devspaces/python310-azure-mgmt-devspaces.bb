@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0b2"
 
-RPM_NAME = "python310-azure-mgmt-devspaces-1.0.0b2-1.3.noarch.rpm"
-RPM_HASH = "e099623fe5f8704b0aa3754112d1d3f1bac15e27c1c74a818fee2a70edbdba4664b53e676d8a7147ebef4f0aab4e2e738b2a72d1cedc1223510f41d213867546"
+RPM_NAME = "python310-azure-mgmt-devspaces-1.0.0b2-1.4.noarch.rpm"
+RPM_HASH = "9798f9507cf6af859690645d1799eb0b87f6650314d2503563fee8b098ba9dbce3b11de043eda1dd685ab7711396cec5f82242f9972cfea9426ab21d9812dac7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-devspaces \
-python3.10dist-azure-mgmt-devspaces \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-devspaces \
 python310-azure-mgmt-devspaces \
 python3dist-azure-mgmt-devspaces"
 

@@ -6,14 +6,14 @@ multiplication via floating point approximations. \
 This subpackage provides the development headers for it."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.4.0+gb2b8d4bd"
+PV = "0.4.2"
 
-RPM_NAME = "cm-devel-0.4.0+gb2b8d4bd-1.4.aarch64.rpm"
-RPM_HASH = "fc7ea1f517932acb398944c01bb537734e8ba2f69209605f385ec9e6bcb59ef7cec7b1fc7c9fbcfa56e086d636341a2f54f70e6d443e1a75125483f414ca94a6"
+RPM_NAME = "cm-devel-0.4.2-1.1.aarch64.rpm"
+RPM_HASH = "4cb8cd68b9108be548e1a524fe9d7d13c92df1f1847afaad8adfb592d3c3d66328381b91b987b42f370f6a8862cadf10ebd16623bde99107862b9413072b8304"
 
 RPROVIDES:${PN} += "cm-devel"
 
-RDEPENDS:${PN} += "libcm0 \
+RDEPENDS:${PN} += "libcm1 \
 mpc-devel \
 mpfrcx-devel \
 zlib-devel"

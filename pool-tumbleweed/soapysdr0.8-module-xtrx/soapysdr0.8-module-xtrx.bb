@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.0.0+git.20201202"
 
-RPM_NAME = "soapysdr0.8-module-xtrx-0.0.0+git.20201202-3.7.aarch64.rpm"
-RPM_HASH = "db3b9d61487b2b93ee9139a02affd0dea951f646c0f70152d72273e023984c6814e6a1bbcce038a0d570270408c91b2b1e027662fbf76ead153755da913f2ec8"
+RPM_NAME = "soapysdr0.8-module-xtrx-0.0.0+git.20201202-3.8.aarch64.rpm"
+RPM_HASH = "215e4e3814763a7187122ab1805c945f7cb849a2a16cf3460b0e24d3d18dc3fe9e349063b367b883bd61153e2f2a431f916de4f407ee689cfe6333c7056d570d"
 
 RPROVIDES:${PN} += "libXTRXSupport.so \
 soapysdr0.8-module-xtrx"

@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "25"
 
-RPM_NAME = "phalanx-25-1.25.aarch64.rpm"
-RPM_HASH = "3ee54ff393a52d2ab95c0b30b58c4991c980b312e276d0eb49387f5635d269f4fc3e5926e2d3685bb85e3e0608aa8911ecedf5a6f1cf791aa3b03ea1068e3448"
+RPM_NAME = "phalanx-25-1.26.aarch64.rpm"
+RPM_HASH = "47820d839bc02300b6a67ea3112fbd4bf1acd307b99bc2dfa23e196685688a29ddc9aafe5b0d1bef8850c177293230d3fc60a2f065e81426587621de44cb0fdc"
 
 RPROVIDES:${PN} += "chess-backend \
 phalanx"

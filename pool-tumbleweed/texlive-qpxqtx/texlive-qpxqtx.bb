@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.svn45797"
 
-RPM_NAME = "texlive-qpxqtx-2023.201.svn45797-53.1.noarch.rpm"
-RPM_HASH = "ba4246094162e59915a6ef9e0b1bf0f2705c490bccd0c7721f8cdfaf7256c8242df1028bbb030b4cb0a8bc46882ca3a8436c213fba1cd55cdaebe8951bd3a550"
+RPM_NAME = "texlive-qpxqtx-2023.201.svn45797-53.2.noarch.rpm"
+RPM_HASH = "745443beecbf0fcde5d08f9bda8344c7852c358f70069bcd466ac11b82658a44c34cd678b73207f8afe33deec22a5f34c3aee04dbfb814db9e19c482e8b3aa88"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-amspbold.tex \

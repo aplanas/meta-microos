@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "0.6.0"
 
-RPM_NAME = "python310-azure-cognitiveservices-vision-face-0.6.0-1.8.noarch.rpm"
-RPM_HASH = "619f0906de313c0b146b468938ca0f1057fe12cabe50e8d22bf90bf053c750de17ef518b7e0567a8d49fb6a2b08922e61433fe8a4813e1f238d6258c62f87094"
+RPM_NAME = "python310-azure-cognitiveservices-vision-face-0.6.0-1.9.noarch.rpm"
+RPM_HASH = "2972ed054a2ffb21dbd476ea73042f2c56fd22e74e20f549aaf5bda871ebbbd446e0d6f008d428107ceaa707f1ce0e4a277a4deac9cbe53716bff07604a7d6a7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-cognitiveservices-vision-face \
-python3.10dist-azure-cognitiveservices-vision-face \
+RPROVIDES:${PN} += "python3.10dist-azure-cognitiveservices-vision-face \
 python310-azure-cognitiveservices-vision-face \
 python3dist-azure-cognitiveservices-vision-face"
 

@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.1.0"
 
-RPM_NAME = "maven-reporting-api-javadoc-3.1.0-3.7.noarch.rpm"
-RPM_HASH = "f5769a4db4a01857a53e82210575bb5de95c3046226e916946a4b0890d30309d48c38cdb4a54fa68a7491ba907e28de49d36e867fdcb0c0e5ecbe58e14dcfe25"
+RPM_NAME = "maven-reporting-api-javadoc-3.1.0-3.8.noarch.rpm"
+RPM_HASH = "d4263aa37965e8e8f0040d2bcba14af900280dad9c9065691e3189260760509e13d6c27466b9423320b1f81274190487a22d592d8eeffebbea5189d8230171ff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-reporting-api-javadoc"

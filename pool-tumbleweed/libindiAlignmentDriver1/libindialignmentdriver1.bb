@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & GPL-3.0-or-later"
 
 PV = "1.9.9"
 
-RPM_NAME = "libindiAlignmentDriver1-1.9.9-2.2.aarch64.rpm"
-RPM_HASH = "54609220fc5f226ec972ea7fce99776c3b482284eb15e9ef268cb43d6247dd2bf5305b2b356d58439bde1d6c1dee15cd5a54a207f952bdfd860ce84345e806f8"
+RPM_NAME = "libindiAlignmentDriver1-1.9.9-2.3.aarch64.rpm"
+RPM_HASH = "39bcbba9a13700fc3ef0ae41fd44018d4a99d684a14cfe114501bc74ff5789aa79eb655e5c4cff4ea31a422e52410f1efd3186efcd5d3bee92100f8fe7ef7e8d"
 
 RPROVIDES:${PN} += "libindiAlignmentDriver.so.1 \
 libindiAlignmentDriver1"

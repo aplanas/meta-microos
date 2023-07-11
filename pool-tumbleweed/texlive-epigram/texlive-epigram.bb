@@ -6,8 +6,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2023.201.svn20513"
 
-RPM_NAME = "texlive-epigram-2023.201.svn20513-53.1.noarch.rpm"
-RPM_HASH = "8fa7498dee631c3880b598e3389b8ab7c448c16be7f062e8794c51d0e28259955f7b75bf43973a73b3ec8dc4b7f0c2f8f510373808a4339ea6870112f918f010"
+RPM_NAME = "texlive-epigram-2023.201.svn20513-53.2.noarch.rpm"
+RPM_HASH = "1a337cd6bb0ce1961559a92acae98fb0e2d3fc1ae78229602c7cb52a3134f27a99b79aaf863f136fd849abf8b474ccb54f600f5d5efd3f3751fb3e21f37f46d2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-epigram.tex \

@@ -5,11 +5,12 @@ LICENSE = "Apache-2.0"
 
 PV = "4.7.3"
 
-RPM_NAME = "python311-googlemaps-4.7.3-1.3.noarch.rpm"
-RPM_HASH = "e51a6ed0c8903c2343728c680cf407e920ebd35a3972b2f399b6cf1610970f51e74cfe0411ab98b7ea87aa3104ab0d894820a6bd97b7dc5b67f7fcf45bafc4da"
+RPM_NAME = "python311-googlemaps-4.7.3-1.5.noarch.rpm"
+RPM_HASH = "6e9f18a047726340c7e8448f67240ccc6a8f454039fa61042ca422df4de4e8c158c12c4d08997752335174dc0f841dacffea742441d4b8f5fab33b3b73309ee1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-googlemaps \
+RPROVIDES:${PN} += "python3-googlemaps \
+python3.11dist-googlemaps \
 python311-googlemaps \
 python3dist-googlemaps"
 

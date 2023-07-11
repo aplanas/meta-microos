@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.11.3"
 
-RPM_NAME = "phonon4qt5-backend-vlc-0.11.3-1.14.aarch64.rpm"
-RPM_HASH = "d3fca7941b0851307f77ba4f3820d9df9d99bcaf1d96e8bc02b7a5f0bd2e758778a97a68ddc3b9d61abc5e9e81ddaa60bae61b66e119e84ca85af8d1676dc256"
+RPM_NAME = "phonon4qt5-backend-vlc-0.11.3-1.15.aarch64.rpm"
+RPM_HASH = "eb1add750bbb853f00440f95daee61cc3c7d50e40d4222cc2c38f3e188f0d850c49b9fc456d39671f4007df921879889916ae574c67a9421a8f0b6207d05f823"
 
 RPROVIDES:${PN} += "phonon4qt5-backend \
 phonon4qt5-backend-vlc"

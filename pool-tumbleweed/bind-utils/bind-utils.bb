@@ -5,23 +5,23 @@ for the base 'bind' package. The Berkeley Internet \
 Name Domain (BIND) DNS server is found in the package named bind."
 LICENSE = "MPL-2.0"
 
-PV = "9.18.15"
+PV = "9.18.16"
 
-RPM_NAME = "bind-utils-9.18.15-1.1.aarch64.rpm"
-RPM_HASH = "bb1fb3f43fd984f0acbebb383f9edc1ad44b8bd7aa075ab6ed6fbba624bb3505770b00f52aa2a5e6f6ea03b6f901ec4811b787e9e9358f37adb4ebee40152dc6"
+RPM_NAME = "bind-utils-9.18.16-2.1.aarch64.rpm"
+RPM_HASH = "c4aab7de397b9ccfbe7b888e581b73454c30097f2d75130b86e3aa5fca659aad0c269d395386d5b5985ae3cfdace0ef59c1e72af7285095c3f2de8a55228a131"
 
 RPROVIDES:${PN} += "bind-utils \
 bind9-utils \
 bindutil \
 config-bind-utils \
 dns-utils \
-libbind9-9.18.15.so \
-libdns-9.18.15.so \
-libirs-9.18.15.so \
-libisc-9.18.15.so \
-libisccc-9.18.15.so \
-libisccfg-9.18.15.so \
-libns-9.18.15.so"
+libbind9-9.18.16.so \
+libdns-9.18.16.so \
+libirs-9.18.16.so \
+libisc-9.18.16.so \
+libisccc-9.18.16.so \
+libisccfg-9.18.16.so \
+libns-9.18.16.so"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/bash \
@@ -37,6 +37,7 @@ libmaxminddb.so.0 \
 libnghttp2.so.14 \
 libssl.so.3 \
 libuv.so.1 \
+libuv1 \
 libxml2.so.2 \
 libz.so.1"
 

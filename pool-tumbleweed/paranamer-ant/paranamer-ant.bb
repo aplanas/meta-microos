@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.8"
 
-RPM_NAME = "paranamer-ant-2.8-2.10.noarch.rpm"
-RPM_HASH = "52fe37ce52a87712c27f0c3c2de87ea4ae300c305d2a87a2c2d08138926cba3a6cef809f8294955c441810aa58a018ee6505dda085ddb7a959160c8bfabc1990"
+RPM_NAME = "paranamer-ant-2.8-2.11.noarch.rpm"
+RPM_HASH = "a072022960b99910254813ba163ac5e9983f8bac6f89ea6fc8d3ca74c7891690dc40c532ca11f08bb8c8cd5c6aa526b6abc732d79ae3f710d33852ebc1dfad44"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-com.thoughtworks.paranamer-paranamer-ant \

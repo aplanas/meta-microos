@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "4.0.0"
 
-RPM_NAME = "python310-azure-mgmt-applicationinsights-4.0.0-1.1.noarch.rpm"
-RPM_HASH = "8aed3ca2fe13f98df39552204919c53d0eba8bc6e113a8679c36ac0599e9a2ee8e17c7a4bf353853773b38e716571974d46c1e71aceeefa44fd5d48822cdc57a"
+RPM_NAME = "python310-azure-mgmt-applicationinsights-4.0.0-1.2.noarch.rpm"
+RPM_HASH = "7321674a9b20993a0d4f0ded46dd0369b07d0bb0e05f743c1a01f9fc5050051da73fb0ac3b39ec6a483221afd468c515ec7d3cea4d6b77d8d104e916c7aa37d6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-applicationinsights \
-python3.10dist-azure-mgmt-applicationinsights \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-applicationinsights \
 python310-azure-mgmt-applicationinsights \
 python3dist-azure-mgmt-applicationinsights"
 

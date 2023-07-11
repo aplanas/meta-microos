@@ -11,8 +11,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.6.5"
 
-RPM_NAME = "powermock-core-1.6.5-4.10.noarch.rpm"
-RPM_HASH = "d651c38b4d38eb061ec8fb7a457e5872bbd7e21a350db7dce6c04f6f538b17bfad8e666e4a82f5a8879720bcf06f143ff46c4e1d03b314561704df23b1488445"
+RPM_NAME = "powermock-core-1.6.5-4.11.noarch.rpm"
+RPM_HASH = "25e6ad3052c17658fb1febf063036decbd8fa37b55a682eff886ee1facd196acc1982278d64004623dbe98d625c2061e683dae176675b5057ca521fbb9342fe7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.powermock-powermock-classloading-base \

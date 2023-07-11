@@ -4,15 +4,15 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.16.2.0"
 
-RPM_NAME = "ghc-statistics-devel-0.16.2.0-1.3.aarch64.rpm"
-RPM_HASH = "58c30067b77fc4bc56e58397af804525c8870d93d9189f512097c12481b9fdddc506f0973d7f3bec1364c144cd276e6c7575a33dadb8dbc1ec23c3b1d550c948"
+RPM_NAME = "ghc-statistics-devel-0.16.2.0-1.6.aarch64.rpm"
+RPM_HASH = "395e9b4043203b2f6cb40edf9a5761e24713a8384e0562e3002272bc8f74dc9c2c86c39d36bb6d248d9acd6fbc9e1413d0587f40ad77e32fe9880496106de955"
 
-RPROVIDES:${PN} += "ghc-devel-statistics-0.16.2.0-LfIwroNJuQDMt3pStkU86 \
+RPROVIDES:${PN} += "ghc-devel-statistics-0.16.2.0-KAkoTXt1eFLCqUuIxaQQe3 \
 ghc-statistics-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP \
+ghc-devel-aeson-2.1.2.1-HkN6OtqTngQ9De3CKBnfov \
 ghc-devel-async-2.2.4-Is3H7ZPNMkM5reIoCaqYrF \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-binary-0.8.9.1 \

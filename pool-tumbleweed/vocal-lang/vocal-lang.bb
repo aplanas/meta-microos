@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.4.2"
 
-RPM_NAME = "vocal-lang-2.4.2-5.4.noarch.rpm"
-RPM_HASH = "4386466522923b0a8f7847f4760ad43eeaf868f7027a8029813ee757b8a719a4e724f70b8cd282a1c868a666be4b751b012d4f0dcf317f5c2b40e2ad6236efca"
+RPM_NAME = "vocal-lang-2.4.2-5.5.noarch.rpm"
+RPM_HASH = "8c56061c56ea86842a56388d14af06d0b574cc07ea0e1a0a74555bc19711405704c4660fde75bf84cea9bdcc9ae039d8785be43a8d6d491d4f89bfccf0e4f3b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-vocal-af \

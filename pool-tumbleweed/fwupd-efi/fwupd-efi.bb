@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.3"
 
-RPM_NAME = "fwupd-efi-1.3-1.1.aarch64.rpm"
-RPM_HASH = "e3d437c876e0351b91395ef5e9d5eba5a8f36e79a3e008a01939ea73e05d304d5610a30958520cf1a11c5a18ef91f53126f9e9f3c48ea34230f6d9dbc56ef9bc"
+RPM_NAME = "fwupd-efi-1.3-1.3.aarch64.rpm"
+RPM_HASH = "70826fb205d38b94667f591532d083513fc7536cfd90fb8b96775a2c4024cf7bf286b7bb51f9d72031edf45aec33c51c1807ea8f22c7f36ab7f24eea840c3bcf"
 
 RPROVIDES:${PN} += "fwupd-efi"
 

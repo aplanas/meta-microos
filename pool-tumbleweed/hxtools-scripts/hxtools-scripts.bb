@@ -21,8 +21,8 @@ LICENSE = "GPL-2.0-or-later & WTFPL"
 
 PV = "20230411"
 
-RPM_NAME = "hxtools-scripts-20230411-1.1.noarch.rpm"
-RPM_HASH = "fad73933505c3259fa4c521113573a1277da7ee4f363bb39e214ff3589d283dd61de7403f0089c466eba3550ecd3740e8c0c46d7c0b7668b253bd36fd7ee4a0e"
+RPM_NAME = "hxtools-scripts-20230411-1.2.noarch.rpm"
+RPM_HASH = "f7dc487a125e8d764feb5c6c5b8c4064138a78d0d80939f227da7e548b9d95623ac6c4398cad4bfd8be50d91140c70f7eb16daeae5b9903ed9330dd82be78d0a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hxtools-scripts"

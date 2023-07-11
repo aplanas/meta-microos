@@ -5,11 +5,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.3.1"
 
-RPM_NAME = "python311-serverfiles-0.3.1-1.8.noarch.rpm"
-RPM_HASH = "c0fbd9629fdea6f38bb03fbaf1ad9422365b34148351206f37416b44394b0fdf0985a8ca79d0f469b763ad2806c8e969a7e440369194b36c4c65a378226da2f0"
+RPM_NAME = "python311-serverfiles-0.3.1-1.10.noarch.rpm"
+RPM_HASH = "11e31ffc53d9986801110abbe133ef38b69a74cb7ac416e8b11d54843f45aa7df9b0c73d15d4b3e0f5c0cebe596d8f1b806bdf7ca8a93cc9ae81f07f29da9ab5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-serverfiles \
+RPROVIDES:${PN} += "python3-serverfiles \
+python3.11dist-serverfiles \
 python311-serverfiles \
 python3dist-serverfiles"
 

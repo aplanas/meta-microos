@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.20.8"
 
-RPM_NAME = "NetworkManager-l2tp-1.20.8-1.4.aarch64.rpm"
-RPM_HASH = "2c5c26c00d708319700a8b3140dfb88fc63094108ff51c38c0d9d34eed0d1fa5752422c4a94b21b7bad3eb6781cd33c5327d4769a526c411402fb85c5b08b015"
+RPM_NAME = "NetworkManager-l2tp-1.20.8-1.6.aarch64.rpm"
+RPM_HASH = "d61bd63339036e802861d4c9abd086c37c50ba4ee115a9e7e52c66d227a47fec35822ac587a41a2452f1a8fa5654fd4288bdaf5dda4ee4431eda490aa94bfb5e"
 
 RPROVIDES:${PN} += "NetworkManager-l2tp \
 libnm-vpn-plugin-l2tp.so"

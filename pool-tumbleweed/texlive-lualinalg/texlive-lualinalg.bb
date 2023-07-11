@@ -16,10 +16,10 @@ of reasonable size can be handled with ease. The package can be \
 modified or extended by writing custom Lua programs."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn65834"
+PV = "2023.208.1.2svn65834"
 
-RPM_NAME = "texlive-lualinalg-2023.201.1.2svn65834-52.1.noarch.rpm"
-RPM_HASH = "4343f9cb5be525c7eed38bae8fe30a1313cc8ca5bf98994d8b159d359cc4cd8853f4dd28edd51017c9ef5be50e5d453b29aa24651993e06a2222e4a7537fb518"
+RPM_NAME = "texlive-lualinalg-2023.208.1.2svn65834-53.1.noarch.rpm"
+RPM_HASH = "c61fcd66af8bc821a0833a394ffb8861671c58ca8bce21b8f03fddb9effb907e3202210a6093b74dee48956b7e062bedd245454d2592da888fac791ae6cdd368"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lualinalg.sty \

@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only | MPL-1.1 | LGPL-2.1-or-later"
 
 PV = "0.12.6"
 
-RPM_NAME = "python39-tld-0.12.6-2.5.noarch.rpm"
-RPM_HASH = "aba4c00c694ed15e06b6c1358874bcd3c45a30ac0c8c57f1c8533d5ad1095fd2569b3c68cfdc22ef8c5cb5082064aa899f15605c3347724eb5bd0329eaddaa02"
+RPM_NAME = "python39-tld-0.12.6-2.7.noarch.rpm"
+RPM_HASH = "521ebc941ebfb61c8560c8443dc35dc0f2fe716196e66e3666ce5c49ec8481fe427c7f4aec9e03e9d22868cc8496d326ce794aba513340e23a884013b49ad5f0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-tld \

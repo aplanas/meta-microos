@@ -6,16 +6,16 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "xortool-1.0.0-1.2.noarch.rpm"
-RPM_HASH = "c85d3a0afa7c5e1cba9b3a67a5133ee835f19f4dd9ea298789089413a858666a324147ad053f114acd4381aa0df50b5ee71725ad84ed72bfb48040919c4c6102"
+RPM_NAME = "xortool-1.0.0-2.1.noarch.rpm"
+RPM_HASH = "f45aca6208a7ca889237458bab684d015198c932b03f85d4ec66ce18e707264ed5594548a9ee406d89c38acda5c09729dc22c4b03e24b787a32dfca8ab6c29ed"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-xortool \
+RPROVIDES:${PN} += "python3.11dist-xortool \
 python3dist-xortool \
 xortool"
 
 RDEPENDS:${PN} += "/usr/bin/env \
-/usr/bin/python3.10 \
+/usr/bin/python3.11 \
 python-abi \
 python3-docopt"
 

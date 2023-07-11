@@ -6,8 +6,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20230202"
 
-RPM_NAME = "python39-libfwps-20230202-1.4.aarch64.rpm"
-RPM_HASH = "8bf9dc6d20b79d28eddbd46c95a734688426595fb74c3deb3b62d7f8f8ad88d6adeb5929151e0418b3c5fecf6b27f9c85da9429551a639f0a1d83b8f5f67fa1d"
+RPM_NAME = "python39-libfwps-20230202-1.7.aarch64.rpm"
+RPM_HASH = "611be2bc1d6c44c796d5a7accbce49ec83d7e7e6fe0869e99fbf62de75e926260874cd3e19578cbe737ebf07b8c292e9ad9290b0d7e1c26c547e4bdd52930256"
 
 RPROVIDES:${PN} += "python39-libfwps"
 

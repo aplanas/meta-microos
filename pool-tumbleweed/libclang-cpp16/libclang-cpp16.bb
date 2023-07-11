@@ -5,10 +5,10 @@ all Clang tools. It is not stable across major LLVM versions. \
 It corresponds to the header files in /usr/include/clang."
 LICENSE = "Apache-2.0-with-LLVM-exception & NCSA"
 
-PV = "16.0.4"
+PV = "16.0.6"
 
-RPM_NAME = "libclang-cpp16-16.0.4-1.1.aarch64.rpm"
-RPM_HASH = "e2734fcb50635c12e3b25d884977ea9379be91f4d49d5b668458eef20a19c2c85ce657a4fd33da3418a7367fbb13c781cef58b7f87afb17cb3787b34f220894d"
+RPM_NAME = "libclang-cpp16-16.0.6-1.1.aarch64.rpm"
+RPM_HASH = "8fcaea77c2588c73de1d8efd320b46d0c2015a485dd7c9f85a96af39749fb12b30aaa827e51c81a23dcb53b58b6777bc3c2f06c9f4af97846b90bfe79c637e24"
 
 RPROVIDES:${PN} += "libclang-cpp.so.16 \
 libclang-cpp16"

@@ -2,10 +2,10 @@ SUMMARY = "Haskell base-compat-batteries library documentation"
 DESCRIPTION = "This package provides the Haskell base-compat-batteries library documentation."
 LICENSE = "MIT"
 
-PV = "0.12.2"
+PV = "0.13.0"
 
-RPM_NAME = "ghc-base-compat-batteries-doc-0.12.2-2.3.noarch.rpm"
-RPM_HASH = "f1b0d8c56f5e95a8ad4680a459a1ca63c50dcc98e3ddcce170305f8c80ca62c3d71992fbc8c066248cce2d1d8771422e06ef94845cd444d303ad447ea0c679b3"
+RPM_NAME = "ghc-base-compat-batteries-doc-0.13.0-1.3.noarch.rpm"
+RPM_HASH = "70320a10517232f715ba96b2d8e0899b8b3aead4b300ff567b709a56804e366094009e154e441756c301b5bc3b6f4237a19f043a9030ca5b4d4a5f491c43a34c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-base-compat-batteries-doc"

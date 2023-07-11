@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.7.4"
 
-RPM_NAME = "python39-pgmagick-0.7.4-3.25.aarch64.rpm"
-RPM_HASH = "2423ab60476027256d0fba73827f640a570697f9c67830b18ee85811a3ce8e29b351b14850e4272b8744a7bc30dc9880604c67e8132999b57256241288fe55ab"
+RPM_NAME = "python39-pgmagick-0.7.4-3.27.aarch64.rpm"
+RPM_HASH = "11da6ac694cd31efe17d9c4709854935974ba9a67a26eff01e5ec375bd1f306ce82b5012e8e389ca31f5c68b27bbea4d2201a466df5c67f728adfed140ba32e6"
 
 RPROVIDES:${PN} += "python3.9dist-pgmagick \
 python39-pgmagick \

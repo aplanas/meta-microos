@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.6.4"
 
-RPM_NAME = "ocaml-cairo-0.6.4-2.3.aarch64.rpm"
-RPM_HASH = "b628f8bf31610d81b1c97365dde5e03feb54380419a7766b928fd432e2f7da740427246eb2666894ce1b9f719731ee65f29635e78cd3c071f7e8354ebf84183b"
+RPM_NAME = "ocaml-cairo-0.6.4-2.4.aarch64.rpm"
+RPM_HASH = "aead376a61c2685e3571c7eba5cf3c180a7c49f5c347450de4ba755af6aee5e019473a5be0250f994615a42f421ef0f9fe0093dfc60ff16e40fb2ca7c8e6fc73"
 
 RPROVIDES:${PN} += "ocaml-cairo"
 

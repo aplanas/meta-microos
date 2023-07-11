@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only & MIT"
 
 PV = "5.12.0.134.g4cebbfc"
 
-RPM_NAME = "collectd-plugin-ipmi-5.12.0.134.g4cebbfc-1.4.aarch64.rpm"
-RPM_HASH = "1ca5ef9a37e77d6b770ca49499aa3f68d135df3e180746e9111c2bd1cd5af857286c31e1c220b7c31312fb6f518e53c300b1c35e375615d7dc7936d4131d6bca"
+RPM_NAME = "collectd-plugin-ipmi-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
+RPM_HASH = "5bdd7b3ff29ba71c765cd55faee6a12d9be0eb8467d67e9825898266e30c59abe2de56503cf3f405c56d4cc38dfc953c93f351a1048fac010d69db56f33507cf"
 
 RPROVIDES:${PN} += "collectd-plugin-ipmi"
 

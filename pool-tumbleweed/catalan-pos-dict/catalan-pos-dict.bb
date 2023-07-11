@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only | LGPL-2.1-only"
 
 PV = "2.7+git6dc3553"
 
-RPM_NAME = "catalan-pos-dict-2.7+git6dc3553-1.21.noarch.rpm"
-RPM_HASH = "de99c32d123dfc6eef650368c6a665e22f1662a91d075b141b9deec6a004bdb97f546be64de0f1215d93d80ab232d1d72b3b0662f7b775ad12be286329d1a21f"
+RPM_NAME = "catalan-pos-dict-2.7+git6dc3553-1.22.noarch.rpm"
+RPM_HASH = "383b02b6852d6222c2fb210a6d384cbc239b1b92d95fb81308144315cad87e2a7ed4909ac8a74fa83d17a030a0c0ec287b1e28c143ca1d9af89398f0631f1578"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "catalan-pos-dict \

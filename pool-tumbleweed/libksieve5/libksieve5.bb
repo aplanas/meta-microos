@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the libksieve library, which is used to sup
 the Sieve server-side mail filtering protocol in KDE PIM applications."
 LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libksieve5-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "172042062514e947c28b4db06ef2ba91ac030d919090386bccb2a7504ad39d71337ae7604d7ce327139a8bcd891883fbdc055e07e19e6c0a326c5c9d5a83d281"
+RPM_NAME = "libksieve5-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "d3cba6314cdab258b62f47d942c7e53b60c2ae53a696c899cadd8498b5142975483158234537a0f78e7e386206c4aa6434a0155f8641304544143a794bbe1a78"
 
 RPROVIDES:${PN} += "libKPim5KManageSieve.so.5 \
 libKPim5KSieve.so.5 \

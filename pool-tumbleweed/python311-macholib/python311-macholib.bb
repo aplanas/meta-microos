@@ -11,11 +11,12 @@ LICENSE = "MIT"
 
 PV = "1.16.2"
 
-RPM_NAME = "python311-macholib-1.16.2-1.4.noarch.rpm"
-RPM_HASH = "fdc1137de3c566f0d8f3319325dec9c154e866275c95f05ffaeaac234cfb279a6b75c054a155e0f58ff49f3ef28f31aad574059197b3c951a5355165edba2513"
+RPM_NAME = "python311-macholib-1.16.2-2.3.noarch.rpm"
+RPM_HASH = "7f862a9ea4b466fba2f50ad888eab03a568e7031918291c59bea22897d79718e3a4839182c0e67f7f47bdea1e16adc940a002fd361808fe0d1183e17043c70f5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-macholib \
+RPROVIDES:${PN} += "python3-macholib \
+python3.11dist-macholib \
 python311-macholib \
 python3dist-macholib"
 

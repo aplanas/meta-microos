@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "0.10.4"
 
-RPM_NAME = "libmalcontent-ui-0-0-0.10.4-1.5.aarch64.rpm"
-RPM_HASH = "30f0f82238db6da0f4abb3f63b3625eb9e7e838c9d7b97c2d9c1dcab090b1c77ece2568d1e923e4803cc43411492b7cf7d7c5b7f7de4195ef002ae196d57f73a"
+RPM_NAME = "libmalcontent-ui-0-0-0.10.4-1.6.aarch64.rpm"
+RPM_HASH = "26e886d6cbcb06d63687c70e3f085472ea172cdf3f5b9caff026eddcd16c4e9cd29a071500a83bbeb16ce3b7d375b417c84491c302d030cd2ee06ba7198c2876"
 
 RPROVIDES:${PN} += "libmalcontent-ui-0-0 \
 libmalcontent-ui-0.so.0"

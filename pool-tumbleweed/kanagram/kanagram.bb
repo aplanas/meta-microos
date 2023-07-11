@@ -2,10 +2,10 @@ SUMMARY = "Anagram Game"
 DESCRIPTION = "Kanagram is a letter order game."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kanagram-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "7c3fce58a49c5d2e0bbe35aa1d45332ea7762ee5501324bd624ad675cc6bffb6b9f004c2d6724109f0aa3cdbd05d02b365c0b6efebf60bc099b70597cc72130e"
+RPM_NAME = "kanagram-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "e4425f6e4c7ed8fafc64f4eef8ab5638212dbf4935402f1bd70a6999d918d0e29c91b078da8e0d12faf3f5df5a4275d7e8c2936d3e65bcb7bcff0ae4dad68361"
 
 RPROVIDES:${PN} += "kanagram \
 kanagram5"

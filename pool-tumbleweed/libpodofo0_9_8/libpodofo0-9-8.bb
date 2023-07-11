@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.9.8"
 
-RPM_NAME = "libpodofo0_9_8-0.9.8-1.10.aarch64.rpm"
-RPM_HASH = "8dd1e1946c1e701732b4dbd86c085d34f4fc17a8b19bebb9eece0513f58872a4a059156ec70cba714c581c3e56a128c37798577d15672736bcd08509ca5e0240"
+RPM_NAME = "libpodofo0_9_8-0.9.8-1.11.aarch64.rpm"
+RPM_HASH = "314626924b2c6324654ddc2de47cdafb4862d14d01f0a6b0700b9abab3306d8fddac4f957c2d83f4aed810df7a66b6238bce8a96fab3a85311f96bf10170fbe5"
 
 RPROVIDES:${PN} += "libpodofo.so.0.9.8 \
 libpodofo0-9-8"

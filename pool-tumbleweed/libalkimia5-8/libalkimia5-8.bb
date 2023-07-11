@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "8.1.1"
 
-RPM_NAME = "libalkimia5-8-8.1.1-1.4.aarch64.rpm"
-RPM_HASH = "f86a331032518836cf0731c660e83c37eba9109123f3040df93c1a5e17f484d941be4db0fb62d44ac78bf1aae1d515b51ad430ffcee3431e9a8f5843218d4843"
+RPM_NAME = "libalkimia5-8-8.1.1-1.5.aarch64.rpm"
+RPM_HASH = "e5a0bfec69a98a00081b079349c6903ff3d12cba3c4097d703683e1b60ab3c5304a0d17dc7bd51b613d5f56ddbb920274edf04c7802ecdd5ae57f1b51fdb5ae3"
 
 RPROVIDES:${PN} += "libalkimia5-8 \
 libalkimia5.so.8"

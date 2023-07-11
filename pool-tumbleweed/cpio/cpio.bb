@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.13"
 
-RPM_NAME = "cpio-2.13-5.3.aarch64.rpm"
-RPM_HASH = "b53ae5473921a4fd0c07fbe3409640fce180ccd8bc969ca386b230f837fbbc79afaae1685a77eac2c0232444c30dd1af332ec36a066ae2f82adb2da94c1bd5de"
+RPM_NAME = "cpio-2.13-5.5.aarch64.rpm"
+RPM_HASH = "6ee3970609e3ea70336f6610d797c96f57137107cbb76eb41b37bd9a1241dc5f0fbbe1e4adc101fe11ec5cf358d28c96f26453aa097b3e6f8a9641f642e51959"
 
 RPROVIDES:${PN} += "cpio"
 

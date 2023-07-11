@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains compressed kernel firmware files for \
 Broadcom wireless drivers."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230517"
+PV = "20230620"
 
-RPM_NAME = "kernel-firmware-brcm-20230517-1.1.noarch.rpm"
-RPM_HASH = "b71066f0f7f3200aa16ae32266e8448e452318a2ebbbff5253f93dc394848610986d8c27acf8ebde86d3cef168326a6feaee1f7471de963bcf34da9a02332a55"
+RPM_NAME = "kernel-firmware-brcm-20230620-1.1.noarch.rpm"
+RPM_HASH = "fe3bd7b19071737cf05579f53ac2ac866aeda84199ae39900fcdad4faa61cd669f5b60244aba9d31e20c030d36935406692b500d24a924b362cbe08bac62335e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "3-model-a-plus.txt) \
@@ -153,9 +153,17 @@ model-zero-2-w.txt) \
 model-zero-w.txt) \
 nanopi-r1.txt) \
 pinebook-pro.txt) \
+pinenote-v1.1.txt) \
+pinenote-v1.2.txt) \
 pinephone-pro.txt) \
+quartz64-a.txt) \
 quartz64-b.txt) \
 rock960.txt) \
+rockpro64-v2.0.txt) \
+rockpro64-v2.1.txt) \
+soquartz-blade.txt) \
+soquartz-cm4io.txt) \
+soquartz-model-a.txt) \
 tolino-shine2hd.txt) \
 vim2.txt) \
 visionfive-v1.txt)"

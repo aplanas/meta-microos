@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.97"
 
-RPM_NAME = "yascreen-devel-1.97-1.3.aarch64.rpm"
-RPM_HASH = "1bd6cd183d5483e483a1d1caff83a476627c7e55884e7f0e9be16842cb96595dfefcb7aee88643a17301ede56462e6b68fd0b06d01fc7c3c349daf34c7e4b8b0"
+RPM_NAME = "yascreen-devel-1.97-1.4.aarch64.rpm"
+RPM_HASH = "9e5910be0e47a67c95ee468bf361a2bb090cbbbb57a16f3629adcd58e08bb25e250e08cdda8836e9695c6ccafe4cfeda8b1444cb7859b69752be53fc1af4b595"
 
 RPROVIDES:${PN} += "pkgconfig-yascreen \
 yascreen-devel"

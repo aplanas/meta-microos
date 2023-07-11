@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1"
 
 PV = "0.5.2"
 
-RPM_NAME = "lightmediascanner-devel-0.5.2-2.4.aarch64.rpm"
-RPM_HASH = "de05ad28395284e2394cbe10660fef8a325bc96476b66363dfe6b6ac1ca8d5e5c22b41db9bfe647ec3bf71420afc4f5526b76b1ebb31aac57c925bb2b39edfb9"
+RPM_NAME = "lightmediascanner-devel-0.5.2-2.5.aarch64.rpm"
+RPM_HASH = "59411f5a14b3da9f705c64a9f55aad32c471583390958fa5ee2dfc826aa338e7bff0d597e01cf4b03d27f7f144617521251a1ac1f3af1fedf4798c0113d492b8"
 
 RPROVIDES:${PN} += "lightmediascanner-devel \
 pkgconfig-lightmediascanner"

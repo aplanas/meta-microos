@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.5.2"
 
-RPM_NAME = "python311-mplcursors-0.5.2-1.3.noarch.rpm"
-RPM_HASH = "0e2e5e1e1ec2f26e1219aef6d5057b6afaac6e7aa2f97f5a67b18097ecf2fd5e52a252e435d0da270457d85b1dff554abd70177be5fe6734ab81e0112795efc5"
+RPM_NAME = "python311-mplcursors-0.5.2-1.5.noarch.rpm"
+RPM_HASH = "4e0f4622386582bb89c812facd42517a53d54484ff54582e464164ba5db66193d0287a237bb7ca6110113f17874986af8b489dc4504dca0afc29cb18d9fe20da"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-mplcursors \
+RPROVIDES:${PN} += "python3-mplcursors \
+python3.11dist-mplcursors \
 python311-mplcursors \
 python3dist-mplcursors"
 

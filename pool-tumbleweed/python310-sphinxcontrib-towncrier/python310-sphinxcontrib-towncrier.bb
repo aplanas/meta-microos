@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3.2a0"
 
-RPM_NAME = "python310-sphinxcontrib-towncrier-0.3.2a0-1.1.noarch.rpm"
-RPM_HASH = "5d8108fda4520b6da9255f22856abaa5ad9b38aa8a86a8449213fa2d0a83222766fe80694032553dba9fab3f2e37101f6b6c557ce092eabcda2762235cdc5147"
+RPM_NAME = "python310-sphinxcontrib-towncrier-0.3.2a0-1.2.noarch.rpm"
+RPM_HASH = "eaa1f6073e009d6da624a1f9bee9044e195d911f6a47f4e4b37beafec13ec096408cc3bfcdf77d7c26d9a99af7629dc0a650eccf4881cb8227bc0444c1e0db03"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-sphinxcontrib-towncrier \
-python3.10dist-sphinxcontrib-towncrier \
+RPROVIDES:${PN} += "python3.10dist-sphinxcontrib-towncrier \
 python310-sphinxcontrib-towncrier \
 python3dist-sphinxcontrib-towncrier"
 

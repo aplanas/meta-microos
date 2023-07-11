@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "2.1.0"
 
-RPM_NAME = "python39-eradicate-2.1.0-1.4.noarch.rpm"
-RPM_HASH = "54527febfe9c6b81902e1eee5b69978f5a43bedc6b3b140862278f3638dafae229af02c2474ab608738a034168b49f7700f29cba6b059caba7723a569e455a6b"
+RPM_NAME = "python39-eradicate-2.1.0-2.2.noarch.rpm"
+RPM_HASH = "8ff3d1e2f607b6b520d22713b786633044bcf482364a20c2a233e7d34830ad4cebd8913af1c43e85b2a76483200fcf8181d91cec50a3f21e53ffea5be3e353f3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-eradicate \

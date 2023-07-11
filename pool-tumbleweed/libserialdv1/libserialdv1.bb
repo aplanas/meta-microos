@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.1.4"
 
-RPM_NAME = "libserialdv1-1.1.4-1.8.aarch64.rpm"
-RPM_HASH = "5a7d8cf566894d5df274f963f845d58b35211b1055a9f8af0b382a28fbb5cb3aef385ce4c491bb2d9d777f9c139ad4abd22d5e727b3d5141331cead618a08c0b"
+RPM_NAME = "libserialdv1-1.1.4-1.9.aarch64.rpm"
+RPM_HASH = "36fd7152c6a9794fa5f2a9a7693d0a579d79f2bc663efdff753e8280b90a80d545e42104b0d712e3d39f1fb8e5074e77a93ca41b350d08fec188e6caabb6147a"
 
 RPROVIDES:${PN} += "libserialdv.so.1 \
 libserialdv1"

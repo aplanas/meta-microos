@@ -10,10 +10,10 @@ This package provides the development libraries and headers for \
 the Parquet format."
 LICENSE = "Apache-2.0 & BSD-3-Clause & BSD-2-Clause & MIT"
 
-PV = "12.0.0"
+PV = "12.0.1"
 
-RPM_NAME = "apache-parquet-devel-12.0.0-1.1.aarch64.rpm"
-RPM_HASH = "85201008d376570d40f0bb2fb24f068636b5fbffbe0649d664cbe76e8b29dcb672fd5885ec00646f3fbbbd09f7b1e96a01564cf8d6ac53e76f78d6024254b101"
+RPM_NAME = "apache-parquet-devel-12.0.1-1.1.aarch64.rpm"
+RPM_HASH = "4abe141d38aed1cb8c2754df6bf69fa44c56dbb8487115d75c74c641f2a950710ffc733ade2b2e77cf1410f9c0fd5d911cbde52adc7d13ee5424f118c9d8f3fc"
 
 RPROVIDES:${PN} += "apache-parquet-devel \
 cmake-Parquet \

@@ -17,10 +17,10 @@ It supports the following containers/codecs: \
 * Subtitles: SRT, SSA, ASS, SAMI"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04"
+PV = "23.06"
 
-RPM_NAME = "mediainfo-23.04-1.2.aarch64.rpm"
-RPM_HASH = "b256c78fdfbbb137193b7c24e0ec2b06b3293be73bc8583e34114df0703cdffc3ed90c8a32f1adc51ba6128ffce9fe968d3181f6a84ad656f25438018669e251"
+RPM_NAME = "mediainfo-23.06-1.1.aarch64.rpm"
+RPM_HASH = "a0403006eafd4d1cedaaf15dbb3ed1cec45124629465c0de91f46a214fcbe2a6c1c06a2f4051c5b5e961c849fe281224c3c4ae1c6e83303473648778241ab0d1"
 
 RPROVIDES:${PN} += "MediaInfo \
 mediainfo"

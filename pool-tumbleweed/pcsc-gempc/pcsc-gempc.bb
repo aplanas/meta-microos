@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-or-later"
 
 PV = "1.0.8"
 
-RPM_NAME = "pcsc-gempc-1.0.8-1.16.aarch64.rpm"
-RPM_HASH = "5cacd4362f09d95528d5c7319b1bec124ef2bc14c525ecdc058c9637e5a5824a8a2bec674c271fa4a6a52c9fe8363528d3230c7852d638db44f24fb6450b5552"
+RPM_NAME = "pcsc-gempc-1.0.8-1.17.aarch64.rpm"
+RPM_HASH = "aa3065fec2b7127e66ee98f86ab587e454610e50ce56e4ba41b9e571e7bbf14ee79bb26cc09e622e7ac997a3f32567e982b91cf42a01e2db2b370e653e9ccf74"
 
 RPROVIDES:${PN} += "libGemPC410.so.1.0.8 \
 libGemPC430.so.1.0.8 \

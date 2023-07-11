@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.2.37"
 
-RPM_NAME = "xmlsec1-nss-devel-1.2.37-2.2.aarch64.rpm"
-RPM_HASH = "09c19dd9addc35392e885b877652d7aa25eac23e0048994d09e5610d0fa4246bfa15372d51480c6ab03d05dabd904b4541a9821f5d5a8b2d9cda1ab57f6172a9"
+RPM_NAME = "xmlsec1-nss-devel-1.2.37-2.3.aarch64.rpm"
+RPM_HASH = "d3e4f8785ac8f96884454a79fabc85f1f9b3d8d09cae439fa70e2c4f3e096ec8ae4bde47026934702e6373b728d1ed6f622284b5a5627b2114b0aef970245ee1"
 
 RPROVIDES:${PN} += "pkgconfig-xmlsec1-nss \
 xmlsec1-nss-devel"

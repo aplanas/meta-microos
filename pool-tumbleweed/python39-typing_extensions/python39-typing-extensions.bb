@@ -27,8 +27,8 @@ LICENSE = "Python-2.0"
 
 PV = "4.5.0"
 
-RPM_NAME = "python39-typing_extensions-4.5.0-2.1.noarch.rpm"
-RPM_HASH = "abc32aec613302f67c181051b1b990d1700c9bf6e5e1a20757f0d7d9d53f126333fd4f285a3316378dadf334ef0931864a0f4829074e1df958e9998901d013cd"
+RPM_NAME = "python39-typing_extensions-4.5.0-2.3.noarch.rpm"
+RPM_HASH = "5be4657676cc6ad786b84af9ac2d46c865c390a6fe9e49f34550466b100b5207cc55f19f397b6bf11773c20bba1d8e42abd401abab906174718e2ad0fef6ec63"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-typing-extensions \

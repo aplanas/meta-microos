@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.5.3"
 
-RPM_NAME = "antlr3-tool-3.5.3-2.3.noarch.rpm"
-RPM_HASH = "2d178672fca5ffa12d750959f5c0b72135f1e5dfd1b08f9436f57512a139126fb8ccc18d542fe00dc6782a017055e8f1f2c3ef3248519dd7d664f296586dc0bd"
+RPM_NAME = "antlr3-tool-3.5.3-2.4.noarch.rpm"
+RPM_HASH = "1dca4c93440a5a864c57f37fe61a1870855c9cb71352c5b0314ccf439587f08339af504b40b865907670ded936496bca0416f922231e4fffbeb9890c52377726"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "antlr3-bootstrap-tool \

@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.16.0"
 
-RPM_NAME = "python39-azure-synapse-artifacts-0.16.0-1.1.noarch.rpm"
-RPM_HASH = "78a7f7844dfe5741f1ac89d28500f35a5e0ec59eb61a9aa9a291ba6205bfb80bf2ed8fbaefb1df09f4d8b45ad9a754bb861b73f6ab89ba75794fa3c93652a416"
+RPM_NAME = "python39-azure-synapse-artifacts-0.16.0-1.3.noarch.rpm"
+RPM_HASH = "fb252b5d99e66ad687ab1a1e51f0c2f035783bba9688c61fa9d831371cb320939a6b292817b4f47a6bc455b2c89b1022bedf93aef5564c73c695cc1ed106f0a8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-synapse-artifacts \

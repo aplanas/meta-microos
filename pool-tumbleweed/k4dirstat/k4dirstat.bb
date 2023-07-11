@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.0-only"
 
 PV = "3.4.2"
 
-RPM_NAME = "k4dirstat-3.4.2-1.3.aarch64.rpm"
-RPM_HASH = "152566981a3707417bbeef115eae429566902ebb767b367d91f64dc6b5bd69f15d7e23a91428d2316c6393c6338fa1b3bd974cb4b99c7c6cd7c62f6559567224"
+RPM_NAME = "k4dirstat-3.4.2-1.4.aarch64.rpm"
+RPM_HASH = "4bc3fcbbe04892f35a1f0cacb818fce55b4f4a647ac36db795a3d0f7535c53cb52543f63ae95f5b02a938031b8a7c8a87650e20f27104bdab36b7352355b4789"
 
 RPROVIDES:${PN} += "k4dirstat"
 
@@ -29,7 +29,6 @@ libQt5Core.so.5 \
 libQt5Gui.so.5 \
 libQt5Widgets.so.5 \
 libc.so.6 \
-libm.so.6 \
 libstdc++.so.6 \
 libz.so.1"
 

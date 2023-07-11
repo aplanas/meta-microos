@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.4.4"
 
-RPM_NAME = "timezonemap-devel-0.4.4-2.9.aarch64.rpm"
-RPM_HASH = "0ede5bae547c36a1401f29d010c66ae96c4eef4ed4bac57abc974577f3389ad812702398697a2f64733376beb19a11ed97a3e80311e6e2326f73acd8b71198e8"
+RPM_NAME = "timezonemap-devel-0.4.4-2.10.aarch64.rpm"
+RPM_HASH = "46de70f1cf358adbb96d5cd3a19bc48653fab0c5daab439b7d9bff20680c6e5cdad68ff3f9ca6f17fbb7bc66a9f4aa390d76a977e393565b7f9327ece0f9fb31"
 
 RPROVIDES:${PN} += "pkgconfig-timezonemap \
 timezonemap-devel"

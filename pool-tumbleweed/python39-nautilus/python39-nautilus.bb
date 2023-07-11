@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.0"
 
-RPM_NAME = "python39-nautilus-4.0-1.5.aarch64.rpm"
-RPM_HASH = "5cc73c35899afb0a97abd46f4d7d5e687cb75f9dc7e4a9cba86262aa7b55798d3e2bf16386502dd78eeca9730d2285655b5662c5c757dd6e6b9268ef81f66cbb"
+RPM_NAME = "python39-nautilus-4.0-2.1.aarch64.rpm"
+RPM_HASH = "491eb844050dda8da01550dfec6308bcf98b561d93ff5370ec7882aba12ccb79a71052d97f732212539af0e312ffb928d72b88b965cc94c4abad5b104078e909"
 
 RPROVIDES:${PN} += "python39-nautilus"
 

@@ -9,16 +9,15 @@ the following features: \
   * an extended parser that supports the CardinalityField naming schema \
     and creates missing type variants (0..1, 0..*, 1..*) from the \
     primary type converter"
-LICENSE = "BSD-3-Clause"
+LICENSE = "MIT"
 
-PV = "0.6.0"
+PV = "0.6.1"
 
-RPM_NAME = "python310-parse_type-0.6.0-1.7.noarch.rpm"
-RPM_HASH = "6b2241f6da56ff1f4f2134c5771a44bc1c89d36f22f6c688e4b56a2167fee940ad314bec9f410dd559043ec440312e94c7a77f05b490e05fedc68121963ee137"
+RPM_NAME = "python310-parse_type-0.6.1-1.1.noarch.rpm"
+RPM_HASH = "fe22650d002749aa592f658962037bb3f3e8e9bb66bcb30602ae1cadd62b60e6292d57ad5850711b849d55bdd772772a78ac292f0aa6bc97007a077fd8fee24e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-parse-type \
-python3.10dist-parse-type \
+RPROVIDES:${PN} += "python3.10dist-parse-type \
 python310-parse-type \
 python3dist-parse-type"
 

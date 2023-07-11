@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "5.1.0"
 
-RPM_NAME = "metis_5_1_0-gnu-hpc-examples-5.1.0-9.11.noarch.rpm"
-RPM_HASH = "2d2add0dadee55c722054af78b9f26a033f9567a2b64f5d4ecd2652bf2c2ea8a94774f917ca07dca9739d7040dfd521205c31b704d48da52bf0d660dfa34008d"
+RPM_NAME = "metis_5_1_0-gnu-hpc-examples-5.1.0-9.12.noarch.rpm"
+RPM_HASH = "ddbbfc214b5231f26935db69fdcb8c184a2415fdf827f17e02b89be1e5dd0ac4488c653869abcafb223b9ba2c4112f52358c655def2756de145afe18e86169e0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "metis-5-1-0-gnu-hpc-examples"

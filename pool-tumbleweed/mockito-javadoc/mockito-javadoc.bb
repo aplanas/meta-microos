@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.10.19"
 
-RPM_NAME = "mockito-javadoc-1.10.19-5.7.noarch.rpm"
-RPM_HASH = "fc07e030826c068337f6e3169bde1dc560349721a4073ab6364842cbe5d71c809af84bdd6159a35632fda1e0b8c9dd790fc34f01a2e7d59ffad41cf9bbec7e46"
+RPM_NAME = "mockito-javadoc-1.10.19-5.8.noarch.rpm"
+RPM_HASH = "f0d30343d136b089a9f4fa48ff3184f100ff470bc2e91037f7642812cc7a6cfdfa049713346cc2918597b8931aa40e05bf4447c43ca13e2d5b3444f371b5f0bb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mockito-javadoc"

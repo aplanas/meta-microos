@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.01svn15878"
 
-RPM_NAME = "texlive-histogr-doc-2023.201.1.01svn15878-53.1.noarch.rpm"
-RPM_HASH = "c68bbabed73836a36e97665882b83c291a905c594bb23ba6aa9cc44666ab0b7f8ead5d3cc8dcb7919781197d3417ff6d11f166f7af0fd262c27d6db9f076a3ba"
+RPM_NAME = "texlive-histogr-doc-2023.201.1.01svn15878-53.2.noarch.rpm"
+RPM_HASH = "ced7dce64810201c73630dc433915b68de33fefce7a64b26cd3e89db6c117466427be31c40dd187c47aa199709605c1b85d138cd7f93c1c02a2073a5c78dd0f9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-histogr-doc"

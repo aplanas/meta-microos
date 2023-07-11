@@ -8,12 +8,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.2.2"
 
-RPM_NAME = "python310-altair-4.2.2-1.4.noarch.rpm"
-RPM_HASH = "de3988e7003d319ad613d3227438eabab0cb063d491cfdbd8c7782482e072a98cc4bd075f4a7f462e9d96cc18c1745c6002327bb288f7cd8afa95de5537c645a"
+RPM_NAME = "python310-altair-4.2.2-1.6.noarch.rpm"
+RPM_HASH = "ddeeab95acdab90cd6ad268f69d6ef74b6440f3158b92399951aaf2bb851b19e656a246151278cbe9d86f0e926bff6d148da09d0c2dc74e6f12224737114d442"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-altair \
-python3.10dist-altair \
+RPROVIDES:${PN} += "python3.10dist-altair \
 python310-altair \
 python3dist-altair"
 

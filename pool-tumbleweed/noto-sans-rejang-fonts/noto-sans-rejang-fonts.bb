@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-rejang-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "829c7473bc8dd7a3421eefec63ebe81d7e904e4437184e6aade7699fe627b9a54d4aee045acc116af1ca28a2aca333d261d776870d0d6a176cf403bfb923b5bf"
+RPM_NAME = "noto-sans-rejang-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "8897b19001a1ac7ce2438f24244a5b45957c9cd67c1360dbc6dc5c00cf177651bef13a788c769962ccb34da0e31361f03cca3abc7ead8502c0a25fdba2f7489a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-rejang \

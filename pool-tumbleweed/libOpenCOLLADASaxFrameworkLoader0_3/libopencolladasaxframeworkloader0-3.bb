@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "1.6.68"
 
-RPM_NAME = "libOpenCOLLADASaxFrameworkLoader0_3-1.6.68-1.12.aarch64.rpm"
-RPM_HASH = "9eb7344998b4373521806b1975760366fa6139d46bf939641c96ad5bdbb39acbb5b457c9afb7c8fd109ba1f91e43ab00b84dc27180bb158d7ddd0163150c08cf"
+RPM_NAME = "libOpenCOLLADASaxFrameworkLoader0_3-1.6.68-1.13.aarch64.rpm"
+RPM_HASH = "bfdf17ed4e0a0e8bbae364bc93971ae7b3775242541265ef446c6ddc68a5d93b252c0832ebf9cb6795a2a679d1d0fb3f4b09f2af56d9754309f67e8185a4a4d2"
 
 RPROVIDES:${PN} += "libOpenCOLLADASaxFrameworkLoader.so.0.3 \
 libOpenCOLLADASaxFrameworkLoader0-3"

@@ -10,18 +10,25 @@ This also includes the Python distutils, which were in the Python \
 package up to version 2.2.2."
 LICENSE = "Python-2.0"
 
-PV = "3.11.3"
+PV = "3.11.4"
 
-RPM_NAME = "python311-devel-3.11.3-1.2.aarch64.rpm"
-RPM_HASH = "da679079aeeb53fb32c153909bcd4520c201171aaedf2428f106a092f08cc5edcbae857845740dfa334727bd27bedca98d1d5b16760663589509cf9225872157"
+RPM_NAME = "python311-devel-3.11.4-1.2.aarch64.rpm"
+RPM_HASH = "08f3ddc19947474be355d1b9f4bf9885c90792b86f440080154ce9d7014748a3f2e09fe4c19318ec21eabf39dc00a7ea344dbacabb5cc56e4410375581f4a4a4"
 
-RPROVIDES:${PN} += "pkgconfig-python-3.11 \
+RPROVIDES:${PN} += "libpython3.so \
+pkgconfig-python-3.11 \
 pkgconfig-python-3.11-embed \
+pkgconfig-python3 \
+pkgconfig-python3-embed \
+python3-devel \
 python311-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/python3 \
 /usr/bin/python3.11 \
 /usr/bin/sh \
+libc.so.6 \
+libpython3.11.so.1.0 \
 python-abi \
 python311-base"
 

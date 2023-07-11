@@ -12,8 +12,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.2.7"
 
-RPM_NAME = "octave-forge-queueing-1.2.7-1.11.noarch.rpm"
-RPM_HASH = "59d554115b105ee29b6707130a1509718310f54936b879bcf25b2c939f4eedc45e9ea832761a9daf22ad03ba3b78c800b0c7d816f4c7c79bb93d0da4b41f0c86"
+RPM_NAME = "octave-forge-queueing-1.2.7-1.12.noarch.rpm"
+RPM_HASH = "28c1d66a30fdbee55f253da0466d57bdcaac69e67fcc1ea683f17354c8601e6b907041302d3ac57897d65e33e48572114174023a7d059839a171d516222a58d4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "octave-forge-queueing"

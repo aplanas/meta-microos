@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "5.6.2"
 
-RPM_NAME = "clingo-devel-5.6.2-1.3.aarch64.rpm"
-RPM_HASH = "7bd58dd70a864fc41f98dbd999eb9c9153ab4aa7e855c3742698abcae64109fc6634e1f784f1ff313e75481918784e186c0e04daeada0ab4d844a10abc41304b"
+RPM_NAME = "clingo-devel-5.6.2-2.1.aarch64.rpm"
+RPM_HASH = "0b466deccffbb94c3070a5182c1e92cf6bedfa76d504bc81ff12861632cbf59b0715eaa263575fab6d4a56ebcf9b4a41a505df6806c88b9fc0c007f8d5f62672"
 
 RPROVIDES:${PN} += "clingo-devel \
 cmake-Clingo"

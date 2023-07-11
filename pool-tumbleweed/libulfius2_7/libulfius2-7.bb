@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "2.7.12"
 
-RPM_NAME = "libulfius2_7-2.7.12-1.3.aarch64.rpm"
-RPM_HASH = "ae427070f3d92db2baa089b2c29e53f8dbe2d1904dc3b1a5d0a19bc5a235fb54602ef16b1c2c47799fefd3df9703a551e5b2f2b0592c507ddff26e34b35b7fc7"
+RPM_NAME = "libulfius2_7-2.7.12-1.4.aarch64.rpm"
+RPM_HASH = "c3c262a0e0f474365fa80fff2d8bbe08f1bf9af9d286ca1ad6f640e86f8c9207fff4a491b1a107d132d6f824bac15911445d2e5c79ae5138ec85ae7c42df76c5"
 
 RPROVIDES:${PN} += "libulfius.so.2.7 \
 libulfius2-7"

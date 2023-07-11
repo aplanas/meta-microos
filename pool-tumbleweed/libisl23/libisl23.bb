@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "0.26"
 
-RPM_NAME = "libisl23-0.26-1.1.aarch64.rpm"
-RPM_HASH = "5eea77c44c9b4f93e3ba3b50f11629b095a5182e1fec09a15c92ffe0ed8d749bd535be03e20e850ba62cf66dd7d40fa6b5958d5b5b6ed1c208b5a6e0beff5d25"
+RPM_NAME = "libisl23-0.26-1.3.aarch64.rpm"
+RPM_HASH = "0115fb38812610e9146aa7259cec7bd0e23fc3551f635b6c7d74385751f2cbd57982a449d23a1ab11a0017c1cd65b5e58f1abf7e8cf0fb091ec45636fa919f1a"
 
 RPROVIDES:${PN} += "libisl.so.23 \
 libisl23"

@@ -12,8 +12,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.svn49052"
 
-RPM_NAME = "texlive-grayhints-2023.201.svn49052-53.1.noarch.rpm"
-RPM_HASH = "96c8bed1d50635c5a762efd59e315df465d9be05dc58764d2194067bcef022213bae46ac6b3cfc4316fbdfdfd73107ea87d747e5df74284e2e11307872b48d65"
+RPM_NAME = "texlive-grayhints-2023.201.svn49052-53.2.noarch.rpm"
+RPM_HASH = "5478a313f5b9b58ad02bcd6a37e443cde6791164d106b42dd07c60d2440039d6feafd3d56d93d3cfcd3ffee26ba20fd8a68f441484565b522937bfeb5bcb6d1d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-grayhints.sty \

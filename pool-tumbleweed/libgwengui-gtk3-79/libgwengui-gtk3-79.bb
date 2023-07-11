@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "5.10.1"
 
-RPM_NAME = "libgwengui-gtk3-79-5.10.1-1.4.aarch64.rpm"
-RPM_HASH = "4735ef49218a9f4927978a0125a03bd9416b32440a330e4c774b3e043f402af0357bb323df47c1fdda7d49423715fedf6be6e5ede930829f6450dcd5af26038a"
+RPM_NAME = "libgwengui-gtk3-79-5.10.1-1.5.aarch64.rpm"
+RPM_HASH = "e24501ec43679bcff2bf46e31af134e8ac11d6720e18359962415c383d1ea0dd1719d56e1f7e3de634f39a04fbc27a8196c6df8dd39ffbf6e07b1954e0c97243"
 
 RPROVIDES:${PN} += "libgwengui-gtk3-79 \
 libgwengui-gtk3.so.79"

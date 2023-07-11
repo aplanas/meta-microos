@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
 PV = "1.20.6"
 
-RPM_NAME = "ModemManager-1.20.6-1.1.aarch64.rpm"
-RPM_HASH = "08f600b514f8b84b741f672233bd6709d26285eb9c2b19357fe49ab9ad3e90f1c167c7fff0c3d178eae6b25dfdc0163c2660af13c5da75e415175b336f91ee64"
+RPM_NAME = "ModemManager-1.20.6-1.2.aarch64.rpm"
+RPM_HASH = "1c599bb30d0b1448a5e3ba05fb98ac3e09740bb26481032e5be1bdddd0a28a3aa4c3ffc2b17b6ac84a840d1b3b15b1519ad0341d5cea5be5ca07b3f7ca3e0eda"
 
 RPROVIDES:${PN} += "ModemManager \
 libmm-plugin-altair-lte.so \

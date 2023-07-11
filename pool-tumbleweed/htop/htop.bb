@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.2.2"
 
-RPM_NAME = "htop-3.2.2-1.3.aarch64.rpm"
-RPM_HASH = "e0db5061446be8c6a046c578b1ce9034888b6940f18c184606a6ea2cfe00d4662e99b02db08ce97386396d9bb053e02ff1a67952f023d1ba62806c7e277300df"
+RPM_NAME = "htop-3.2.2-2.1.aarch64.rpm"
+RPM_HASH = "010d7d03d7a0b8d9622933cbd1dad6187e16a1623756a01efcf381e7eae648dfbdcdf6ea8e0b035d16ca7f03cf14ef855927bebd34abc6d7b02fce8e51e9b5c5"
 
 RPROVIDES:${PN} += "htop"
 

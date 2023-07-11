@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "6.3"
 
-RPM_NAME = "btrfsprogs-bash-completion-6.3-1.1.aarch64.rpm"
-RPM_HASH = "53e3ae382004d45883888f4bc9c45f8f261c8cd39f2bd4890aecde2e951271e5e84d6dfb6c77e03912fdce526f2d638a0f367e6de31b967803f16019029bbfb1"
+RPM_NAME = "btrfsprogs-bash-completion-6.3-2.2.aarch64.rpm"
+RPM_HASH = "7071a2c3224e3e313b590e9374c8dc28748ed6438a9eb1c669617f792ad94ce7e283052d18f6f8af25406c69a499cbeb55dd11c1335ab235bd8046b592adf6f5"
 
 RPROVIDES:${PN} += "btrfsprogs-bash-completion"
 

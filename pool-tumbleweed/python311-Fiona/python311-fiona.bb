@@ -4,10 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.9.1"
 
-RPM_NAME = "python311-Fiona-1.9.1-1.3.aarch64.rpm"
-RPM_HASH = "b48acb045267a7db307cd685dd19e16c402b81341ced928955e0af7058494cc462636ca085442bcbc31d5f463574d7306b87626bfa992aac665504c38a1428b6"
+RPM_NAME = "python311-Fiona-1.9.1-1.6.aarch64.rpm"
+RPM_HASH = "7d1434a4a7b2f674cb7357b2b0f9caba6dd08fb336757daff4901bb6bf8d149948e128955cdc68235bb9c4692e1295bf1375a2efd5a9a308341b27e064f6d1e7"
 
-RPROVIDES:${PN} += "python3.11dist-fiona \
+RPROVIDES:${PN} += "python3-Fiona \
+python3.11dist-fiona \
 python311-Fiona \
 python3dist-fiona"
 

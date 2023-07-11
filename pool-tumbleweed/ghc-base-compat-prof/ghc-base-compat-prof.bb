@@ -2,13 +2,13 @@ SUMMARY = "Haskell base-compat profiling library"
 DESCRIPTION = "This package provides the Haskell base-compat profiling library."
 LICENSE = "MIT"
 
-PV = "0.12.2"
+PV = "0.13.0"
 
-RPM_NAME = "ghc-base-compat-prof-0.12.2-2.3.aarch64.rpm"
-RPM_HASH = "b04639609ff3c7bf81ecdc784a1c8849c0acf2b99078e28872446f3cafcd29c9baf8f5620d68334402469d6fa101442cd4f7724644077557b0ee6e53c4ddfecf"
+RPM_NAME = "ghc-base-compat-prof-0.13.0-1.3.aarch64.rpm"
+RPM_HASH = "c0d9e90e727a9bdac8d4ea9ef615990c8453dae228fc35a0419a2c0af58a55a7fbb4a334771567534273f648709f780a643280de0f1770697f49bec40ecab51b"
 
 RPROVIDES:${PN} += "ghc-base-compat-prof \
-ghc-prof-base-compat-0.12.2-L1DEOlMQJOdFOKsjHoWYov"
+ghc-prof-base-compat-0.13.0-Cvz3167VMpo6rdOohSlum3"
 
 RDEPENDS:${PN} += "ghc-base-compat-devel \
 ghc-prof-base-4.17.1.0 \

@@ -26,8 +26,8 @@ LICENSE = "BSD-2-Clause | Ruby"
 
 PV = "3.2.2"
 
-RPM_NAME = "ruby3.2-3.2.2-1.1.aarch64.rpm"
-RPM_HASH = "91d6a880bdfecec18f9a9954c0dc80c26cc4a31308d2e909a93be6e8d6883d8af7b9f2f06ea495645f48b6af4c57cab1e5cf7981e5f19a9584bc7f6ac77d303f"
+RPM_NAME = "ruby3.2-3.2.2-1.2.aarch64.rpm"
+RPM_HASH = "f3290647b98218c662cbbb1a35976ffd04fa89bd07e6fc3a98704ff47292e79041ef3c855c5cded33ad7029e5ffe0146158ae94492ee6db1bffd739b262ecdd8"
 
 RPROVIDES:${PN} += "rpm-macro-rb-build-ruby-abis \
 rpm-macro-rb-build-versions \

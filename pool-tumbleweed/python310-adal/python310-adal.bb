@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "1.2.7"
 
-RPM_NAME = "python310-adal-1.2.7-1.9.noarch.rpm"
-RPM_HASH = "b5dad966da3f8b05a1aac50820aa7c540322d48a8731c8ec3945ea4d4e138384ca80b5900b56509da8413dd3d26506fafb9f3a55f4eeb15d7630bc29a14a747e"
+RPM_NAME = "python310-adal-1.2.7-1.11.noarch.rpm"
+RPM_HASH = "23b853fa62d114fbf15e14efa04638c42a174171283ea3a61564d6fbe33468bfe38401bb7d4e092d0726f446df8548573262ebd70ef49b0fa5678bddba6fb184"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-adal \
-python3.10dist-adal \
+RPROVIDES:${PN} += "python3.10dist-adal \
 python310-adal \
 python3dist-adal"
 

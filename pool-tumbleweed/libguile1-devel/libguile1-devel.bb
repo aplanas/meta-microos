@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.8.8"
 
-RPM_NAME = "libguile1-devel-1.8.8-23.11.aarch64.rpm"
-RPM_HASH = "67e0c6551486c0c89b5e4847adad78e06d00a521c21454869ed2793d1929b54c021413c1c9814522456e921832b9d7531622628e96bbd7241c1066b9dc372b89"
+RPM_NAME = "libguile1-devel-1.8.8-23.12.aarch64.rpm"
+RPM_HASH = "60982f96c6a03aba7d203cfc3ff23f4d48fc7e4b7f4b27415b16b038c508d4ae00c7248b67edc8f45c46a5565e1819305d89fa618f9d1bd4b3ad3853eff003a4"
 
 RPROVIDES:${PN} += "libguile1-devel \
 pkgconfig-guile-1.8"

@@ -13,11 +13,12 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.0.9"
 
-RPM_NAME = "python311-css-parser-1.0.9-1.1.noarch.rpm"
-RPM_HASH = "f3610bed456e40fda34734d1fea4f6d64bce0fced0f2170d8d3677799928435215fdf43d4b9b39dcfd80fa29d4ea9db4f39394415809a150b6006f6b30edd431"
+RPM_NAME = "python311-css-parser-1.0.9-1.3.noarch.rpm"
+RPM_HASH = "87356a544bd51de50d918a1a625ae4f663fd936b8c9901c2b3fca5f57ce6dcff762d6accd567102dde6ece52ac1ba00819db1c07eb60014bc1f5c9d0312627de"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-css-parser \
+RPROVIDES:${PN} += "python3-css-parser \
+python3.11dist-css-parser \
 python311-css-parser \
 python3dist-css-parser"
 

@@ -12,8 +12,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.48~20221101+1.142dace"
 
-RPM_NAME = "libsgutils-devel-1.48~20221101+1.142dace-1.3.aarch64.rpm"
-RPM_HASH = "cb6a75cb8a69c14323b748265325086268fbcbd9a75ddc57d68a938a6f6f2b41ef8c73b83016576f8fb0b5ba1e7f31b51be40e7bf720f3d6529f7544864df1fa"
+RPM_NAME = "libsgutils-devel-1.48~20221101+1.142dace-1.4.aarch64.rpm"
+RPM_HASH = "9cde7f70897f5b3290f19cea42d255acba60b30a3ffe220dc7dd1dfe77ba746c4876ff5b1819c531cef7bd4610b8e55a8c177c9f58b6d3e692359f3387ff2fbc"
 
 RPROVIDES:${PN} += "libsgutils-devel \
 sg3-utils-devel"

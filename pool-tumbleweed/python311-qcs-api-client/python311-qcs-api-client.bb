@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.21.3"
 
-RPM_NAME = "python311-qcs-api-client-0.21.3-1.3.noarch.rpm"
-RPM_HASH = "7b3b7e281cc9affdb6ddb71c2a39597364cb53df61e0f269d61e46bf1e28aa94225169268a158f3d5567c430569e4e2aba819d707fba26a936076552967c9331"
+RPM_NAME = "python311-qcs-api-client-0.21.3-1.5.noarch.rpm"
+RPM_HASH = "e1c0abb6cbae189e804e779fd377b1dd29c024c825d015068258347ae5fbc80ced1376ceb904e2aecda4bf789c49a922ba895e160045b1f8766db4a2c85d660d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-qcs-api-client \
+RPROVIDES:${PN} += "python3-qcs-api-client \
+python3.11dist-qcs-api-client \
 python311-qcs-api-client \
 python3dist-qcs-api-client"
 

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-only"
 
 PV = "5.2.0"
 
-RPM_NAME = "cinnamon-settings-daemon-5.2.0-2.7.aarch64.rpm"
-RPM_HASH = "62614e2a66d082d21ca2d61e310b36f84b807cd34a892dd1bd56128d2082de3ffb7fbec259c8e8a42a1b721d8d2f50b6b01d8dc9cd540795def90e3cd2b0643c"
+RPM_NAME = "cinnamon-settings-daemon-5.2.0-2.8.aarch64.rpm"
+RPM_HASH = "2caf372f3da1fb6e8a169058e50c5925b5e3a93c7095f2f2f30f7b87d293b7972f54bb1ca79def0d36c3cfade0bcbec809a54e53251e5125964330194b715fce"
 
 RPROVIDES:${PN} += "cinnamon-settings-daemon \
 config-cinnamon-settings-daemon \

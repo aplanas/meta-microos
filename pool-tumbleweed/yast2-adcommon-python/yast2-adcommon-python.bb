@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.6"
 
-RPM_NAME = "yast2-adcommon-python-1.6-1.8.noarch.rpm"
-RPM_HASH = "c186cc44f0f9d846bb2de3310a7de566ee3d87ff05b0ac96d2d1fc0d7ca211cd0984d012ac42e05d191b9711e0e227277ee87824ff0a79e7140189611ab65e19"
+RPM_NAME = "yast2-adcommon-python-1.6-1.9.noarch.rpm"
+RPM_HASH = "f3031289cf459d01a839753f1fa9625e1b9554564bc2934207af8337e222426003418a056cf8fa510f5879dc3115a403b013355b26e64becb870b935a825f30c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-adcommon-python"

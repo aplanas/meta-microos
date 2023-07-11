@@ -5,14 +5,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.20230216"
 
-RPM_NAME = "perl-Net-DNS-Resolver-Mock-1.20230216-1.1.noarch.rpm"
-RPM_HASH = "8251b344aead018a453b575785e9d0198c45d7cb72357ae872dea8cea77d9a182e8451f7d109fe0548eabc7eedc50e498632875ce85f51c2e5db5392722b057e"
+RPM_NAME = "perl-Net-DNS-Resolver-Mock-1.20230216-1.2.noarch.rpm"
+RPM_HASH = "a203321a90feff00d324ce86dc90767f651790b69690c715ee6034636f1f11d8567004d010878f4f1acba9cd71ef5b1a76ece5d401074b41b41d066037afc727"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Net--DNS--Resolver--Mock \
 perl-Net-DNS-Resolver-Mock"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Net--DNS--Packet \
 perl-Net--DNS--Question \
 perl-Net--DNS--Resolver \

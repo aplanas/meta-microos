@@ -5,10 +5,10 @@ API guarantees. The packages that build against these have to require \
 the exact Qt version."
 LICENSE = "GPL-3.0"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libQt5HunspellInputMethod-private-headers-devel-5.15.9+kde0-1.1.aarch64.rpm"
-RPM_HASH = "23fd6794d0241e5e54109b5c17e84233a5418a6ac6d7c6d6f4dae4975c0cbfa3894649eaa0121c8b8251a193e70789e0caf5a0ed89c35a6167a4d1dc77c5070c"
+RPM_NAME = "libQt5HunspellInputMethod-private-headers-devel-5.15.10+kde0-1.1.aarch64.rpm"
+RPM_HASH = "fa9de8619928c6a2d1f7649ff46c3ae5fcfe949e9a42345071929393e5f736e25f007a84c80c2d3fab0aa19e61cf8a21bcb5f6ffe74a1ae8297f6c4551c9ded3"
 
 RPROVIDES:${PN} += "cmake-Qt5HunspellInputMethod \
 libQt5HunspellInputMethod-private-headers-devel"

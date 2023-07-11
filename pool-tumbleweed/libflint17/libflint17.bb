@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.9.0"
 
-RPM_NAME = "libflint17-2.9.0-2.1.aarch64.rpm"
-RPM_HASH = "2b99026e3f56a667d5b16afda3e6adb8fda88f5777b1eff50e4a9500bc920a2a56a7a2f70d6fd4091b008d08992a76059d080080a834c00dec4fd23a68151468"
+RPM_NAME = "libflint17-2.9.0-2.2.aarch64.rpm"
+RPM_HASH = "df6828a8691265fd6bee3599f282839070adde765ce38093dc883432fa413e2711b3fa82efeded6cb87663f006f0c18cf3ff9ebc20139804e78b0050c3e99f46"
 
 RPROVIDES:${PN} += "libflint.so.17 \
 libflint17"

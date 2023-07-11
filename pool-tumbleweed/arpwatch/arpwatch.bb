@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.3"
 
-RPM_NAME = "arpwatch-3.3-2.2.aarch64.rpm"
-RPM_HASH = "12bdabf3a9cac0d23486358e66fae6ffb79060c571d12ded43b5320b4cb0f9dadeddb9325c0c505fe365b192e47699ac8a61f68711ca5560c47b4f501cf2ce1a"
+RPM_NAME = "arpwatch-3.3-2.3.aarch64.rpm"
+RPM_HASH = "eeca958712af387e61c51904f4c29011e14b639dcebbd9f7fb92ec2d74785ddb1be8e7a6e142c584d1439d6984b124f708c19955d09c67df3c2a77781b4dea78"
 
 RPROVIDES:${PN} += "arpwatch"
 

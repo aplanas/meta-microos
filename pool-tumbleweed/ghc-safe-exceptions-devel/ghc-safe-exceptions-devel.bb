@@ -3,12 +3,12 @@ DESCRIPTION = "This package provides the Haskell safe-exceptions library develop
 files."
 LICENSE = "MIT"
 
-PV = "0.1.7.3"
+PV = "0.1.7.4"
 
-RPM_NAME = "ghc-safe-exceptions-devel-0.1.7.3-2.2.aarch64.rpm"
-RPM_HASH = "32b6c37f7d6154dd554c5e3e0f9c5664e7ec99405114718f44179bef5ff0e7ff9b116213e74878a8d9d1ea392a7b397e348b351002b861c5514074255fda4cbc"
+RPM_NAME = "ghc-safe-exceptions-devel-0.1.7.4-1.1.aarch64.rpm"
+RPM_HASH = "fc0c36c4cdc3fea74038eb9ec545e152dd58b565fcb4804cbca7a5ede1b816c8b82da677616b379f0fce3296fcfca834d5a4d3bcb52bd039306fbaba522e40cc"
 
-RPROVIDES:${PN} += "ghc-devel-safe-exceptions-0.1.7.3-4ydW60ruqZ4IdMpKf3b6BD \
+RPROVIDES:${PN} += "ghc-devel-safe-exceptions-0.1.7.4-8XVKrMBchTjCLhdcvBwBNb \
 ghc-safe-exceptions-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

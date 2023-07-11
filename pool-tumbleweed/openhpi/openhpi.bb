@@ -14,8 +14,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.8.0.ge4631e8a"
 
-RPM_NAME = "openhpi-3.8.0.ge4631e8a-3.4.aarch64.rpm"
-RPM_HASH = "4cd713275ab343e46d8d7ad3a89698d11992dec84c6939e73a89c8e02c0e4dab4e4ddce4bc371b4b5a9f35a63768c77050f03a3f74bbf4a30c8cae87a15037e3"
+RPM_NAME = "openhpi-3.8.0.ge4631e8a-3.5.aarch64.rpm"
+RPM_HASH = "ba5c220ab2d774183c76b3189fb9ae34c295f04da7d6a6c80b64f9bd87cb71c9c53620d12438fdaa5df5ebd045e0817f620eb643d9a7d02e2d0ca324f6f75878"
 
 RPROVIDES:${PN} += "config-openhpi \
 libdyn-simulator.so.4 \

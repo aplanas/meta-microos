@@ -4,11 +4,12 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.4.18"
 
-RPM_NAME = "python311-md2workflow-plugins-jira-1.4.18-4.11.noarch.rpm"
-RPM_HASH = "95e12b34b187d663e0c558188fd075263e0f18e49422367a393b291501014ab62fbd0977a798a5d1b354b8a5ef009b8a1938b475a86f0739830d53d23fde03a9"
+RPM_NAME = "python311-md2workflow-plugins-jira-1.4.18-4.13.noarch.rpm"
+RPM_HASH = "30be9426dd4dd97617f1626c631b62107d25c62696c9f5adb2bdfe871b29387cd3fb9d8380a3ba37686ddf53f3cb95c88f32440823ca8c897b5ffe5c064b635e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python311-md2workflow-plugins-jira"
+RPROVIDES:${PN} += "python3-md2workflow-plugins-jira \
+python311-md2workflow-plugins-jira"
 
 RDEPENDS:${PN} += "python-abi \
 python311-jira \

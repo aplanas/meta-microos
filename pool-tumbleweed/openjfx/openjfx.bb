@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "17.0.7.0"
 
-RPM_NAME = "openjfx-17.0.7.0-1.1.aarch64.rpm"
-RPM_HASH = "d549a3c326a510d9d70fcacf506779a5abbc48e74271a17e6316ae2f107036c94cf2d92f064088d79c293da831e387d7ccbccc73a67122ca94d3b6c97cec080a"
+RPM_NAME = "openjfx-17.0.7.0-1.2.aarch64.rpm"
+RPM_HASH = "bb7ae3ebe7dd3ca085f70d3841d9c4ff0441b8babb0b41ced67caaca54836126662db9fa7122dbbef3490ee006b6a31688e1d7ebbab522fe2660dbb2b8ee778e"
 
 RPROVIDES:${PN} += "libdecora-sse.so \
 libglass.so \

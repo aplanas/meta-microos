@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & MIT"
 
 PV = "5.12.0.134.g4cebbfc"
 
-RPM_NAME = "collectd-plugin-modbus-5.12.0.134.g4cebbfc-1.4.aarch64.rpm"
-RPM_HASH = "d607cc140bc63df34b760d82ebcbb3ad92ff50598e5599bcaab9ef94290de7a1346adcd0416248aa6dcff23c34f84add77294d7659f5c2ad3188440ec121e88e"
+RPM_NAME = "collectd-plugin-modbus-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
+RPM_HASH = "5c29fcfced0ff9820b4637e1a838f613156909e0036fa17d557751b43c0aa91fe4e3cf7ee3b29413999988ea3468cd643a53ce3f1ed5ee0e791b0453b91152c7"
 
 RPROVIDES:${PN} += "collectd-plugin-modbus"
 

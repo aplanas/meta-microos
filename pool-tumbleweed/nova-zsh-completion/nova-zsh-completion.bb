@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.6.5"
 
-RPM_NAME = "nova-zsh-completion-3.6.5-1.1.noarch.rpm"
-RPM_HASH = "92a289a0cc0f0b053f34c1654686605f327add90214c9fcf95cf6b08fc31923c8087fd200c129c5457e9112ba70bc66d7bffef23466925d3089dddf2c029a0f7"
+RPM_NAME = "nova-zsh-completion-3.6.5-1.2.noarch.rpm"
+RPM_HASH = "341d3e901330c7d9c5e606732b076ed625b794e717931fd8775a2d5b0b7bc6e6f9fe4a9b7f3e24303cd66ced6a4690fe6b772a6ff183086df9cb4daad21bacf6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nova-zsh-completion"

@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.0.7"
 
-RPM_NAME = "python311-jupyterlab-widgets-3.0.7-1.1.noarch.rpm"
-RPM_HASH = "2dedc2865c19052d46a36bd0218a494c543a1482fcdb94c40b2ac24c9a3722168b0c4c4c7b2eb2f6fc1a1c5d9fb0579ef93db16584dcfbbe9a0320cbb4d31fad"
+RPM_NAME = "python311-jupyterlab-widgets-3.0.7-1.3.noarch.rpm"
+RPM_HASH = "fc75167fc47c55380cbcc007664adb7a9c5cfc08ebb96e6469667eb0f7d32b1c7c14e36a5fd3339bece305f557540f11c9435bea6c2d9690443dd874a13c327c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-jupyterlab-widgets \
+RPROVIDES:${PN} += "python3-jupyterlab-widgets \
+python3.11dist-jupyterlab-widgets \
 python311-jupyterlab-widgets \
 python3dist-jupyterlab-widgets"
 

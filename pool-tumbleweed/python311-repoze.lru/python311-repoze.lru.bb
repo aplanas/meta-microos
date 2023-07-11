@@ -7,11 +7,12 @@ LICENSE = "SUSE-Repoze"
 
 PV = "0.7"
 
-RPM_NAME = "python311-repoze.lru-0.7-2.16.noarch.rpm"
-RPM_HASH = "c36d6dc7639786d26c810b042cdb89e07c7adecb9da4122b7c5a385d2de78e2e4381d9b295098bd4db12c218e95e7cb377364369c81480e76b4fbb4a60509511"
+RPM_NAME = "python311-repoze.lru-0.7-3.2.noarch.rpm"
+RPM_HASH = "6a86862c56bf71d0ba21ccd88b5c6bcd1772041f0e37d0f64648477769ceedb135eb7ce59ceb3c561d4c23bc795cda15cdf5e6b84243b8906a1390088b1cae8e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-repoze.lru \
+RPROVIDES:${PN} += "python3-repoze.lru \
+python3.11dist-repoze.lru \
 python311-repoze.lru \
 python3dist-repoze.lru"
 

@@ -31,14 +31,13 @@ LICENSE = "BSD-2-Clause"
 
 PV = "3.1.4"
 
-RPM_NAME = "python310-mpi4py-3.1.4-2.5.aarch64.rpm"
-RPM_HASH = "376e5099a398580dfb57b83070f8818c253cd36150909e2ae18fb227721056f65bbc132f82f3b9cc9a244ca7d3db5adbb2e95d686a88ebd299d10ff1f46b6c8c"
+RPM_NAME = "python310-mpi4py-3.1.4-2.7.aarch64.rpm"
+RPM_HASH = "0f0fbdb4d4103690ef6948c74c05859185dbed9361a516a0e19b324129f2591ad34aa93ac81bec515350cd4dac2e586e5d18374ebd11d2b8782111d17cf55593"
 
 RPROVIDES:${PN} += "libmpe.so \
 libvt-hyb.so \
 libvt-mpi.so \
 libvt.so \
-python3-mpi4py \
 python3.10dist-mpi4py \
 python310-mpi4py \
 python3dist-mpi4py"

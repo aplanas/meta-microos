@@ -7,11 +7,10 @@ LICENSE = "MIT"
 
 PV = "3.5.1.1"
 
-RPM_NAME = "python310-XStatic-jQuery-3.5.1.1-1.3.aarch64.rpm"
-RPM_HASH = "18f85899812fcee30e466eee8cce739486348a4e53d79ce0acc14d4b422ef571755394e031149016c44bc235d687949b1ff9bf628eaffdcf36a2261450b9c245"
+RPM_NAME = "python310-XStatic-jQuery-3.5.1.1-1.4.aarch64.rpm"
+RPM_HASH = "148ee6550883b1f5370cb046242e1adfe090b90f705ddc8b3ee68782c7dd6ee9bb34f584aed24997d45bac58a9ccd57d0d4d6f1cc11fd857d5fd297418fa40f8"
 
-RPROVIDES:${PN} += "python3-XStatic-jQuery \
-python3.10dist-xstatic-jquery \
+RPROVIDES:${PN} += "python3.10dist-xstatic-jquery \
 python310-XStatic-jQuery \
 python3dist-xstatic-jquery"
 

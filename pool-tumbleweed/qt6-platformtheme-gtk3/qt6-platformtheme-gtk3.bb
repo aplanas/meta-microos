@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-platformtheme-gtk3-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "c007b5f6da656d57f38bb787a1c5d70789a40c523ed46c094bd3468de694e72ce4cf211736d74ad02f79ec6f32403334ea9c5041f6d95a0df79fe01f26a3931a"
+RPM_NAME = "qt6-platformtheme-gtk3-6.5.1-3.1.aarch64.rpm"
+RPM_HASH = "529eaa97563bd8797fe364e5d93b81c7e94a3c86d2f5005b4e1eaba7aa7c6dff4c005f32729ce7b95cd308ff6e0ead6d26ca7772fd65883a1f798f31dd8a035c"
 
 RPROVIDES:${PN} += "libqgtk3.so \
 qt6-platformtheme-gtk3"

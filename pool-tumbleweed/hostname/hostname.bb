@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.23"
 
-RPM_NAME = "hostname-3.23-3.1.aarch64.rpm"
-RPM_HASH = "1023f658ff76d9c40048c57578e865be6a26a2b5d6bcfb592cf2f9e8619dcb467f1d2557292b98a662e9dbf89bdbaf431b17c666e7b1f38e372ac55d09652658"
+RPM_NAME = "hostname-3.23-3.2.aarch64.rpm"
+RPM_HASH = "a804491f005b3431330d12c25a1e9d4e8fe06fae5f27ab11d5e74871daecb10afbdb7954ff0df988dcbd05efd0518ccf7e604d8d9c60f3b88887825cfcc4e686"
 
 RPROVIDES:${PN} += "/usr/bin/hostname \
 hostname"

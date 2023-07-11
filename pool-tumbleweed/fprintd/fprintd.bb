@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.94.2"
 
-RPM_NAME = "fprintd-1.94.2-2.4.aarch64.rpm"
-RPM_HASH = "7a99c84b35f75c4046df1dcb848f1b3fb21a3e23e0c727926e690d9fbe6703807afa638a25f3b80b9b986a54bcdc936207cf63d1aae62d0987f23f02d2766a0c"
+RPM_NAME = "fprintd-1.94.2-2.5.aarch64.rpm"
+RPM_HASH = "71f18d04bb72b49dbbee1108a8d63820e5860c9bfde79c08c6b93df0e3d2a8d64c4c4d55f0479aed78a0cf5484fb2998550df7bac236d22d0958b9b03baa6158"
 
 RPROVIDES:${PN} += "config-fprintd \
 fprintd"

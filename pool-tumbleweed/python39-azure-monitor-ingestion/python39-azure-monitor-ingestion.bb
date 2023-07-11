@@ -6,10 +6,10 @@ or to custom tables that you create in Log Analytics workspace. You can even ext
 of built-in tables with custom columns."
 LICENSE = "MIT"
 
-PV = "1.0.1"
+PV = "1.0.2"
 
-RPM_NAME = "python39-azure-monitor-ingestion-1.0.1-1.1.noarch.rpm"
-RPM_HASH = "704071f9e437263e522034b9edc3a4b1c89d5cc498650e1400a7e2e52586223e522deb04f73f93daf3114d237842654506676b9248ab1a58b5f7965ec98b48b8"
+RPM_NAME = "python39-azure-monitor-ingestion-1.0.2-1.1.noarch.rpm"
+RPM_HASH = "e506b022b8270c3ea3651fdd44c84e6a8fb8a9c5717098e0bf981335d6e22e729ae118fbda4719c61ddad466bad81cbc96777f6ffefc1a91263515c9b9aaf26d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-monitor-ingestion \

@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.0.2"
 
-RPM_NAME = "gnome-keyring-sharp-1.0.2-25.24.aarch64.rpm"
-RPM_HASH = "987f8d61255daac1ea6496e4f803a8720dac5bb437a2687b7eed19ef63eb7284f85b64cfaee46e62c07e4802aa924cff40ac54cf068a77dadf89d42211469dac"
+RPM_NAME = "gnome-keyring-sharp-1.0.2-25.25.aarch64.rpm"
+RPM_HASH = "7582c2b55abad70f5a9d95d6182dfe4edf43dcd0719c503ab1d6f2c8608cebdce669d4588df95e266730668234872598670f2256f5d2f2f806e6562e64759424"
 
 RPROVIDES:${PN} += "gnome-keyring-sharp \
 libgnome-keyring-sharp-glue.so \

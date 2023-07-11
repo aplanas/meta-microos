@@ -6,8 +6,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20221030"
 
-RPM_NAME = "libvshadow1-20221030-3.5.aarch64.rpm"
-RPM_HASH = "6f3676fdfaa92cf014940f17895dacb67d63e4646a1f570bd284e60770e5b000b773ba464d86eb9004c262ad5ffa3fecbd276ec21784f394ca4ed24b24293d92"
+RPM_NAME = "libvshadow1-20221030-3.7.aarch64.rpm"
+RPM_HASH = "be364616b4b7ba808e7aba6d5b9ef3acb39cef38e09fee61d431f0c668ccf4adf9a5c698825bfb8e2955749946346afd94901dabb4192d0385e6af3d9954a319"
 
 RPROVIDES:${PN} += "libvshadow.so.1 \
 libvshadow1"

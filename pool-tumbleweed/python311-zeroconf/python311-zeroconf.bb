@@ -8,10 +8,11 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "0.56.0"
 
-RPM_NAME = "python311-zeroconf-0.56.0-1.1.aarch64.rpm"
-RPM_HASH = "ff239bb461174b856581d0c322a6bb5d5bd70bcaf225fe622d1281242544a0bacb162d77e65d6771e41cf21b5a952757b1a38269f3889ffbdd95148a482b542f"
+RPM_NAME = "python311-zeroconf-0.56.0-2.1.aarch64.rpm"
+RPM_HASH = "c907ab72261e4205af9def0cbc62505c51dcddecf0a86b1c09d658f815b2d0d085f754c661a97cbda273b7eb7aa4f0eb9383f1d777c2796cdf8aab6bf280202f"
 
-RPROVIDES:${PN} += "python3.11dist-zeroconf \
+RPROVIDES:${PN} += "python3-zeroconf \
+python3.11dist-zeroconf \
 python311-zeroconf \
 python3dist-zeroconf"
 

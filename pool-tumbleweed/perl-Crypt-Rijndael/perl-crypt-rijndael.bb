@@ -44,14 +44,14 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "1.16"
 
-RPM_NAME = "perl-Crypt-Rijndael-1.16-1.12.aarch64.rpm"
-RPM_HASH = "10f22fcee98acd747d2ff456206de6d1ed97f7001934b97956997721a7686d7d2dcb6208918886f044fffabb24e12b4232c9b6f09230541280d5c3c796e048db"
+RPM_NAME = "perl-Crypt-Rijndael-1.16-1.13.aarch64.rpm"
+RPM_HASH = "c11fd6b6cbace7cf302379f7f4eafa16b093869c14dea349db86365465f08a80d4c4aa3d07920379164342a35aa6e83dcaae695744d69de6aa3b56adf677ccab"
 
 RPROVIDES:${PN} += "perl-Crypt--Rijndael \
 perl-Crypt-Rijndael"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.4.12.0"
 
-RPM_NAME = "python3-OpenImageIO-2.4.12.0-1.1.aarch64.rpm"
-RPM_HASH = "2954a1c3fdf1c81fa57e11d2385441b5b879530f6ecf963928efcca511ba40b3ced7bed64e6e6ad5d2807a8751577e87ee4c8ccaf0cbabe1cfc8ee2c5ce80083"
+RPM_NAME = "python3-OpenImageIO-2.4.12.0-1.2.aarch64.rpm"
+RPM_HASH = "1f69d7dfa0aced5e97f92d908dbbe8469c5079c01b75c48a925cc81ee263097bcc048f370700c3462ea605dec3ccaed2c9335217c0eed6537dcc590184ee64a4"
 
 RPROVIDES:${PN} += "python3-OpenImageIO"
 

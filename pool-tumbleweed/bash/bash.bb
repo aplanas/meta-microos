@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.2.15"
 
-RPM_NAME = "bash-5.2.15-8.3.aarch64.rpm"
-RPM_HASH = "994afe4e760422a7e37fe25db004bdbe6dd09d8fc78c6cc6cb573913fb64a05f9d358786877ca7ccc04efbeb16d61708c7e4a0baa91a03a531812e33dfd22590"
+RPM_NAME = "bash-5.2.15-8.6.aarch64.rpm"
+RPM_HASH = "52598690426d81cc7d1fc9433598587d4da4bd7d5af6c1b93c90bdbb31f2cdfd23694295f8fea73e01e112b204cfe6417b9d9aeb4ea7c0eec5c266722fc34c1f"
 
 RPROVIDES:${PN} += "/usr/bin/bash \
 bash \

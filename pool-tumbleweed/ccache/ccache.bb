@@ -5,10 +5,10 @@ being done again. Supported languages are C, C++, Objective-C and \
 Objective-C++."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.8.1"
+PV = "4.8.2"
 
-RPM_NAME = "ccache-4.8.1-1.1.aarch64.rpm"
-RPM_HASH = "a67cfd19946a928a153517bf420b3d5cdec30c3ab13f0048bee798449ff085d3592c3228932e19ecb2c7d872a0e3a4081a372995a335a6f68488f9ea8c298ecf"
+RPM_NAME = "ccache-4.8.2-1.1.aarch64.rpm"
+RPM_HASH = "d72ce276ccf0dd9b74e2faf72a24e6c9e5377be305178e92838629e7e6482e523dfd77cb26c315ab56d8ac176ab333e087b82acdea813beb84e9f557680f3650"
 
 RPROVIDES:${PN} += "ccache \
 distcc-/usr/bin/ccache"

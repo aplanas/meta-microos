@@ -2,10 +2,10 @@ SUMMARY = "Documentation files for xonsh"
 DESCRIPTION = "HTML documentation on the API and examples for xonsh."
 LICENSE = "BSD-2-Clause & BSD-3-Clause"
 
-PV = "0.13.4"
+PV = "0.14.0"
 
-RPM_NAME = "xonsh-doc-0.13.4-1.3.noarch.rpm"
-RPM_HASH = "2cc21530e3cd2438a9cc17e188b8dd6efd1802ae907c71b7c28b24cf74938829170c29492b89803c690430bad02290e865e353ef77994d2d8ac553d78a04300d"
+RPM_NAME = "xonsh-doc-0.14.0-1.1.noarch.rpm"
+RPM_HASH = "92394d12b354c04913ef8b40b0c7c24502e88b8944addc9d4800248169909a1634d5434733fda99e9483f4c6e6e25910f393a540f403770eeff9600e7570ab71"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xonsh-doc"

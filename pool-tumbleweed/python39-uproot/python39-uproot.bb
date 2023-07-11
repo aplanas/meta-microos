@@ -6,10 +6,10 @@ Python. It uses Numpy to cast blocks of data from the ROOT file as Numpy \
 arrays."
 LICENSE = "BSD-3-Clause"
 
-PV = "5.0.7"
+PV = "5.0.9"
 
-RPM_NAME = "python39-uproot-5.0.7-2.1.noarch.rpm"
-RPM_HASH = "30ed5763a75198017fc64d126b23ca29410843440a243b3777a28289d438af14e6f093bba3260530b87bfe873071438b4790bcf2cbb7288fea4e7115738e6686"
+RPM_NAME = "python39-uproot-5.0.9-1.1.noarch.rpm"
+RPM_HASH = "08daa436dc8f9c63c446b20464000c0324f9845756e1ff6a429cba03964c723c7db134b3fdcd9baea5491c70e63b3bb0f774ee27ea0e5d57320f4fb70585331b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-uproot \

@@ -4,8 +4,8 @@ LICENSE = "AGPL-3.0-or-later"
 
 PV = "0.3.0"
 
-RPM_NAME = "hut-bash-completion-0.3.0-1.2.noarch.rpm"
-RPM_HASH = "130fe61a284562df4c56d2d80bc1d68cbafebdab5059298744ff4c81c5dc808b78530865e849d40d94858df4c4b9b93d26d3514cf63a39ecf08ba264436c71ed"
+RPM_NAME = "hut-bash-completion-0.3.0-1.3.noarch.rpm"
+RPM_HASH = "b83d2dc481954ee871ae05304ba3d4d3444433a99167490845cfc67cf75025e296f9d67838a9a54531475b4d54d691bbf6530697f01057b8f401b08c045f6f9d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hut-bash-completion"

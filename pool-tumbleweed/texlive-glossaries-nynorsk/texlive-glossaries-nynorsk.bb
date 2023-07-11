@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.0svn55189"
 
-RPM_NAME = "texlive-glossaries-nynorsk-2023.201.1.0svn55189-53.1.noarch.rpm"
-RPM_HASH = "4909d78c190f7cebec6900483df9c47bc222d7f1177b6680fa78f07d111e9dabc1399b97ee51bd499bd96ed74dcc0d9b1fcf5f30141d017cae52827d97413f84"
+RPM_NAME = "texlive-glossaries-nynorsk-2023.201.1.0svn55189-53.2.noarch.rpm"
+RPM_HASH = "7a654b9bba5530640beb0dfc4e67a988b935d870f6d574a7110668ad771902a0971caa17ece94ae7d66bc686503eec1f41ca3810e84c92a0318f2ae850f82399"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-glossaries-nynorsk.ldf \

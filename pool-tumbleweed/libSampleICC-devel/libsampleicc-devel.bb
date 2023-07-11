@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.6.8"
 
-RPM_NAME = "libSampleICC-devel-1.6.8-4.8.aarch64.rpm"
-RPM_HASH = "d8ccc407222faac2bc588162ac40a025695b03c488af7f8c9776ce6425e63895f8b817c8f5791ab43181d6b0b1a12a77a1ff776378de6763ad09a6faf64c9e1a"
+RPM_NAME = "libSampleICC-devel-1.6.8-4.9.aarch64.rpm"
+RPM_HASH = "7c78db84f6bd752f518b2f4360c7d747fa230036577d9bc4e4594414d9639346bf75b5ea818baec3962d89295d9e6c5fc90b1e1356a260609e4ab6e29acd0fe4"
 
 RPROVIDES:${PN} += "libSampleICC-devel \
 pkgconfig-sampleicc"

@@ -2,12 +2,12 @@ SUMMARY = "Haskell githash library development files"
 DESCRIPTION = "This package provides the Haskell githash library development files."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.1.6.3"
+PV = "0.1.7.0"
 
-RPM_NAME = "ghc-githash-devel-0.1.6.3-2.3.aarch64.rpm"
-RPM_HASH = "f625ebdcd8e5132f6f8b67b7d7c1e7672725badd392cebbb996ba7c0473753f3f87494a4465b16d43e5dfa55b3181e149465fcef2b0088877ca8a10d1edfa8be"
+RPM_NAME = "ghc-githash-devel-0.1.7.0-1.3.aarch64.rpm"
+RPM_HASH = "9f2e29e4cb7a052110cca0b984e4d32cbe2d4d9973d60f5bd7a8b8b8578c46a13e976976d4ddc8c269a8027fc635105ad098a7a4aa05dd91d5b8557ec5d41c06"
 
-RPROVIDES:${PN} += "ghc-devel-githash-0.1.6.3-FrkvdbOWDB4772dnMETpxS \
+RPROVIDES:${PN} += "ghc-devel-githash-0.1.7.0-99BBKgCWJJUA6aWVuD3QRz \
 ghc-githash-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

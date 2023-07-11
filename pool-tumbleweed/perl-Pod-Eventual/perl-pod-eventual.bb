@@ -17,15 +17,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.094003"
 
-RPM_NAME = "perl-Pod-Eventual-0.094003-1.2.noarch.rpm"
-RPM_HASH = "98bf13c37edcd63d4633290d6c75a6ea2d8ea982e5c607169e198a35c3e67ac6ddf3f3afef05c660f77d6a0ba3c936e11c9cc1744bc1fb7342735c1d51c3c08d"
+RPM_NAME = "perl-Pod-Eventual-0.094003-1.3.noarch.rpm"
+RPM_HASH = "38b5c409a278b026f3d63392d2823864085dbc457e3c3441dc041878014a098b8cb1e4d07d82d01bc41e96b8a3c4be1bbc32c4b27dcacbe9e5f7159c8b788eb0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Pod--Eventual \
 perl-Pod--Eventual--Simple \
 perl-Pod-Eventual"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Mixin--Linewise--Readers"
 
 inherit rpm

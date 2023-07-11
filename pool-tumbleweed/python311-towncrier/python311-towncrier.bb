@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "19.2.0"
 
-RPM_NAME = "python311-towncrier-19.2.0-2.13.noarch.rpm"
-RPM_HASH = "e8b12fdf7b57d7153b8db0b245b913d228a0966191967661dab1b3c1317bc8220d0fa831b1fde5bb7e626e815b39813b9ae023257627b9675766d27625383ade"
+RPM_NAME = "python311-towncrier-19.2.0-2.15.noarch.rpm"
+RPM_HASH = "fed3b41d3080a3da2b579e4492d8128fdc019a06edc6f8f69d94f38949305d0695b63086f58fde98bfd96005c875263f8d81554fbfc2fdc6b8e51cc144073872"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-towncrier \
+RPROVIDES:${PN} += "python3-towncrier \
+python3.11dist-towncrier \
 python311-towncrier \
 python3dist-towncrier"
 

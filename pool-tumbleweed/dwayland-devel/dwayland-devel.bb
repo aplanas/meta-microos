@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "5.24.3"
 
-RPM_NAME = "dwayland-devel-5.24.3-1.3.aarch64.rpm"
-RPM_HASH = "c5d2c32eeabe5d25c4922eb6ed8639ec132cbffc8ed52956bc989b52dee770de056ffcbb0f6cce206aa7815a70527b5d18f6b3ff2f12c1b4660fc692f59dd103"
+RPM_NAME = "dwayland-devel-5.24.3-1.4.aarch64.rpm"
+RPM_HASH = "81f133ff6fc2d6b497186ef6a12df0e74d997940628da32354c7fe2c097f0c275fcd9d627cd7e309b5b06b949a4cd264eae853552e74b92759e076e56dee3c2b"
 
 RPROVIDES:${PN} += "cmake-DWayland \
 dwayland-devel"

@@ -7,8 +7,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.1.1"
 
-RPM_NAME = "librdkafka-devel-2.1.1-1.1.aarch64.rpm"
-RPM_HASH = "bae09b8dd5eb9240dd27a1d39219bc09a3ca6d55d2600dad3371065f707772d73106abdf6ddf2fb96b31cd5f1ec6a96fb9b19e26a65ff9870c96e780a8e30195"
+RPM_NAME = "librdkafka-devel-2.1.1-1.2.aarch64.rpm"
+RPM_HASH = "5af2ca6132faa9b3dd370174cc275e32053a2946343b76cd6e00ae3bc1b0278ca80aec42a6c2841d40275cd0cd3df123fd9f699318ee960776b2e641df3c72f7"
 
 RPROVIDES:${PN} += "librdkafka-devel \
 pkgconfig-rdkafka \

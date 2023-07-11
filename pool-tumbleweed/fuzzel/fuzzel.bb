@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.9.1"
 
-RPM_NAME = "fuzzel-1.9.1-2.1.aarch64.rpm"
-RPM_HASH = "c91df2a3cd6a6763633885d27970f521855aab76a9e8e6c2043ccfe822b04e78f53ce76f7a695695ae0a68661ed54110b935398d23edd6c638b54dcd9261743a"
+RPM_NAME = "fuzzel-1.9.1-2.2.aarch64.rpm"
+RPM_HASH = "97358ac33e4bef36aca4e240614d412c9adeca1dc2c5c2373c067e8a3c185a418bc81c6fa1fa580f1d51dd669fc940c11cd3458c3981fd74b6d22124ec6abf8b"
 
 RPROVIDES:${PN} += "config-fuzzel \
 fuzzel"

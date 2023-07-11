@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "3.10.0.rc3"
 
-RPM_NAME = "libgnuradio-funcube-devel-3.10.0.rc3-1.1.aarch64.rpm"
-RPM_HASH = "fd9ec6ff29551339019aeb0f3ca02d8ec4c698180cc1ac9c21adb29db00354163ba3b229e1fbdbbedeb2eb4f217ddf79227ebb3e1afbebc8e3a2e1abfa102f53"
+RPM_NAME = "libgnuradio-funcube-devel-3.10.0.rc3-1.2.aarch64.rpm"
+RPM_HASH = "020b6995569356399f880328c292a6b7b9692298782fe768a43114786e298917f90a493494e33c548f0282dce25cc38fa62e969effdb21aa4289bba5c990873d"
 
 RPROVIDES:${PN} += "cmake-funcube \
 cmake-gnuradio-funcube \

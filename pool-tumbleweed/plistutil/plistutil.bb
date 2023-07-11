@@ -5,17 +5,17 @@ This package contains an utility to convert PList files from binary to XML and \
 from XML to binary."
 LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
-PV = "2.2.0"
+PV = "2.3.0"
 
-RPM_NAME = "plistutil-2.2.0-4.7.aarch64.rpm"
-RPM_HASH = "03cf91df1450c5a8f3bf868227dbdd65814b75acf0ac4bf4ba122b16cd219722bdedfac55cc4ff7829ca7c2dfa8140d79a6cf0762ce3257dd09e514d7f55783c"
+RPM_NAME = "plistutil-2.3.0-1.2.aarch64.rpm"
+RPM_HASH = "06762c8e0bde6355f4c052651b3584387eb008e178b8f3145918a9e42add591b7cfbf53b2dfabfc8940e65918cdfbe2e3c79d4fbc8ed1507876430f86d444629"
 
 RPROVIDES:${PN} += "plistutil \
 plutil"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libplist-2-0-3 \
-libplist-2.0.so.3"
+libplist-2-0-4 \
+libplist-2.0.so.4"
 
 inherit rpm

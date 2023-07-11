@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python311-azure-mgmt-machinelearningservices-1.0.0-1.10.noarch.rpm"
-RPM_HASH = "79761edf864fe189b7d69ffc83d6a0a1a36d271c4e9b033c6cbff49edf924fa2f9966daefa600b1111cf5d7d3d56aa38a7ceda22d3300204848f038b287c7808"
+RPM_NAME = "python311-azure-mgmt-machinelearningservices-1.0.0-1.11.noarch.rpm"
+RPM_HASH = "707f2a7db4cbc4bded3b16e0d30ba0d1dfe62aea1c8748deb09dc8c37f7dd8a531452c2cc73939b1756de412357de38e04ff78ab755fc7e13d262705c0fb2a0d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-machinelearningservices \
+RPROVIDES:${PN} += "python3-azure-mgmt-machinelearningservices \
+python3.11dist-azure-mgmt-machinelearningservices \
 python311-azure-mgmt-machinelearningservices \
 python3dist-azure-mgmt-machinelearningservices"
 

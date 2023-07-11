@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "1.3.0"
 
-RPM_NAME = "python39-parfive-1.3.0-1.10.noarch.rpm"
-RPM_HASH = "38ca2d0110ca0ea7b1fd94bb61e209b63e73387e1934e8ad99125247be403b9d0aa2cf2708267abdc7eccfef126744a3f603190ee239a105ace967dde19c1944"
+RPM_NAME = "python39-parfive-1.3.0-1.12.noarch.rpm"
+RPM_HASH = "34e63a92d6cbb96cbab8526b6342ade2d01f0ee03daaca99f33f439479deb074e5d4df88c66bbdddaff8524dba7e25e86dac3e8853c7c5d2a582a46cc724e8b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-parfive \

@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.svn45845"
 
-RPM_NAME = "texlive-xetexconfig-2023.201.svn45845-52.1.noarch.rpm"
-RPM_HASH = "80365a450a4502aa77d4505ed3fa17cb254b4eae24547ce5b3976bfe5f5aa4b5cf8aa63a077cea869ae982a16d7405059f6b02f878d3e850618387aed2336373"
+RPM_NAME = "texlive-xetexconfig-2023.201.svn45845-52.2.noarch.rpm"
+RPM_HASH = "12cfd62729cceddac8fa2c7911d04eaefe6b8a7cd105be8341d2772fe6a44c9fda1ac50ff721525ec88d482c1ce751310bad84cd1d7d688965eda19a334d0be3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-crop.cfg \

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
 PV = "2.89"
 
-RPM_NAME = "dnsmasq-utils-2.89-4.1.aarch64.rpm"
-RPM_HASH = "408019433c0951374d27cc99a693da7705eda3595caf78d09e76272b702c2aca30b8038d5c70271d81832b49de6f6bc1e5ee28eb5725d14adc9d71b339aff435"
+RPM_NAME = "dnsmasq-utils-2.89-4.2.aarch64.rpm"
+RPM_HASH = "2aac3eb817d15e235219b4d8494a94cccf89860e5fadf911e7158fe6118689d0f2e0f76f7adfcc25e105b6236433ae311938b82ba8f380d6c1dfd3249743f57f"
 
 RPROVIDES:${PN} += "dnsmasq-utils"
 

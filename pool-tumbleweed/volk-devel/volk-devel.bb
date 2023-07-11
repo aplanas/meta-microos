@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "3.0.0"
 
-RPM_NAME = "volk-devel-3.0.0-1.3.aarch64.rpm"
-RPM_HASH = "b3014090138fe4938c326b95d0f61d19258db604932285c1eb7088070921225863c9f4fd32bbffb87698635d0de517e7838e0d3d083fd11cd1a9f356f0bebc1f"
+RPM_NAME = "volk-devel-3.0.0-1.4.aarch64.rpm"
+RPM_HASH = "65e15d8a0a166a621accef0354468d769ba51f4c598ec12c3d1d771e040185e90e74cd2c77b80adcf6e07042d3727c7b693c1480411ab765b294f2381edd3335"
 
 RPROVIDES:${PN} += "cmake-Volk \
 gnuradio-devel-/usr/lib64/pkgconfig/volk.pc \

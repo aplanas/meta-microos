@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the documentation available for Spectacle, 
 screenshot capture program by KDE."
 LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "spectacle-doc-23.04.1-2.1.aarch64.rpm"
-RPM_HASH = "2b9c2eada0e26a5bb512510129f1977203462709bc20bfdc97bebbd605b7168e48c9460fb3697f70229c8bab2a7116650cb13c37e7f963d90a340b445560e13a"
+RPM_NAME = "spectacle-doc-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "e05c5f79f02273a83a9da5496c3da113c93ac58431bb4d682ce7b6bf0f20bdad0af3b86a7b25bb2dc796511cd3ae03229e500893fe7e158f9624ae6991203a43"
 
 RPROVIDES:${PN} += "spectacle-doc"
 

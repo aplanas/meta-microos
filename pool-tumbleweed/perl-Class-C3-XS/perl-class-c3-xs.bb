@@ -14,13 +14,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.15"
 
-RPM_NAME = "perl-Class-C3-XS-0.15-1.17.aarch64.rpm"
-RPM_HASH = "1d6f9132734886f89b566767e8838b8b81b096f176dad2e60f47c42e0c3a8eea4671be2f2d3e504bb762144b0544964eb217d0ac1d13777077fd1d07ffb2f51e"
+RPM_NAME = "perl-Class-C3-XS-0.15-1.18.aarch64.rpm"
+RPM_HASH = "3559f262f74d60343c4d16090ed0d2cae5102b189d569e421646e2796d14de0745cc8dd2aa07a2f88f4b1fd38ac6ddbf831bf38e4552448acdaddffdf3f07107"
 
 RPROVIDES:${PN} += "perl-Class--C3--XS \
 perl-Class-C3-XS"
 
 RDEPENDS:${PN} += "libc.so.6 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

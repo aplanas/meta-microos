@@ -4,8 +4,8 @@ LICENSE = "Apache-1.1 & Apache-2.0 & MIT"
 
 PV = "1.26"
 
-RPM_NAME = "plexus-interpolation-javadoc-1.26-2.6.noarch.rpm"
-RPM_HASH = "6c56f723a4b9b0f5be138ba4cefc54afdafba026261a988601c4c8779db555106799212be5c089b28c1d501e3c6fadcf4c0a138abca428555650f38f8bfa4d56"
+RPM_NAME = "plexus-interpolation-javadoc-1.26-2.7.noarch.rpm"
+RPM_HASH = "c31a658b682b1c821aac4fbb0e64d56d7111a1d5486b5948a8f3f07b19c78d9637001b4c65c9de4d730034caf3deaee1889a1078e3546623f1320489fedd5c6f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "plexus-interpolation-javadoc"

@@ -2,10 +2,10 @@ SUMMARY = "Qt5 gamepad examples"
 DESCRIPTION = "Examples for the libqt5-qtgamepad module."
 LICENSE = "BSD-3-Clause & (LGPL-3.0-only | GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libqt5-qtgamepad-examples-5.15.9+kde0-1.1.aarch64.rpm"
-RPM_HASH = "739ecec2313a9c8ab4a04d5dabb900ff3ce4459813419953011a32b0e5a1a5105e955319a38360bb31034505088c6bb1f63988295fda160467d3d71dd9b5495f"
+RPM_NAME = "libqt5-qtgamepad-examples-5.15.10+kde0-1.1.aarch64.rpm"
+RPM_HASH = "bda6d095f8d5f1b3eb296a7374b6925ab9048398f9b4b6a3531559987ee9f02091a2850fecc3cefaa7c55c8f01e990aae40a7d5e1a3accb263623444f4e47128"
 
 RPROVIDES:${PN} += "libqt5-qtgamepad-examples"
 

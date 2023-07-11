@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.7.4"
 
-RPM_NAME = "python39-scitokens-1.7.4-1.1.noarch.rpm"
-RPM_HASH = "0d62068147555e9432fbf3a27f506fc29a04466c50cfb8477cda6ba540346f82b4aa5adaea631aace8c5e3122e68ccef427a632d967662e8597a5e9c21b8005c"
+RPM_NAME = "python39-scitokens-1.7.4-1.3.noarch.rpm"
+RPM_HASH = "cf19d5fe0f208551d96868d8db224aaccbf2fde4c3486e3731f8476af99f90a3cb3c56095d3c55333a8d193765355f6f0107bd8657fe9f4018f989762fe84fb0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-scitokens \

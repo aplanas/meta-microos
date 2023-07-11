@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.3.5"
 
-RPM_NAME = "nemo-extension-sendto-blueman-2.3.5-1.3.noarch.rpm"
-RPM_HASH = "e9d0cbb324c7dc0f911ff52c5443a0f8204220d72fea65d09a60181e9b050cd5e49e6875cc03a0dea06146a0bffec63868afe008d7acacdb900d1ff8ccefa068"
+RPM_NAME = "nemo-extension-sendto-blueman-2.3.5-1.4.noarch.rpm"
+RPM_HASH = "dd63b7228b5ef5df7deaa300d0a978b5235ef31f3d967bf8e1f7f4465b02d76fab14dc3e7dbc791bfcb270cce2b0f9cd44a280e6b50b2c56169d7ea0cdb23a91"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nemo-extension-sendto-blueman"

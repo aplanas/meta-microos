@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.7.2"
 
-RPM_NAME = "gimp-plugin-lqr-0.7.2-6.13.aarch64.rpm"
-RPM_HASH = "3d430cf41da63b603eff7df88b96299d69254f1af3b472efde5484bc2caa0c068f989e6a458da0b99ae48d5ecc35acdb3b2991963c3c42d8eb9e82bb4438b608"
+RPM_NAME = "gimp-plugin-lqr-0.7.2-6.14.aarch64.rpm"
+RPM_HASH = "13b5b86127f5953e5446b2debf001a2382c4fc6c413e9c0445b918ca87c1697bd33910e4274b86bffba3d0b2eb9847b0fd670a60adf9cdcf5d5e6d984c69a1ac"
 
 RPROVIDES:${PN} += "gimp-lqr-plugin \
 gimp-plugin-lqr"

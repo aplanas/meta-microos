@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.0"
 
-RPM_NAME = "python39-pyramid-mako-1.1.0-3.8.noarch.rpm"
-RPM_HASH = "e19482f3b34032960aee8a6c05e9bfb26e07c732ecd5d77595ba3ad72462338ac92dff62d4e3b4f6e813117c16ea2369fafe2b8560b3f56a984c93d55493fed5"
+RPM_NAME = "python39-pyramid-mako-1.1.0-3.10.noarch.rpm"
+RPM_HASH = "5fe9ea8df95501822931604c9fbd4e49918a71f6b78c8b0310b4030f32b108c43462bc8f86d19cb9e3a2a40896c18fb49dab4ea8209ccb44f85248f3fdfc55a7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyramid-mako \

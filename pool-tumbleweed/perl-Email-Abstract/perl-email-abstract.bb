@@ -17,8 +17,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "3.009"
 
-RPM_NAME = "perl-Email-Abstract-3.009-1.9.noarch.rpm"
-RPM_HASH = "9c2cfca58f1416a89c091eef325ce29edb04e4a23de1bf927cd724611558f1eb91600b5f84e5180bb340d217bbcda59b1bd2c296e05ceecce7991bcb5510783a"
+RPM_NAME = "perl-Email-Abstract-3.009-1.10.noarch.rpm"
+RPM_HASH = "ade1e759178cffc1e6214f6e6cebb8d7fdfb4c7abbca3086b50cf65b21de9bf3286ed83af58a25c8207f7cd37e2be44e54204f231543cd85713203f5ef715875"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Email--Abstract \
@@ -30,7 +30,7 @@ perl-Email--Abstract--MailMessage \
 perl-Email--Abstract--Plugin \
 perl-Email-Abstract"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Email--Simple \
 perl-MRO--Compat \
 perl-Module--Pluggable"

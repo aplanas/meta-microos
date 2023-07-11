@@ -5,11 +5,12 @@ LICENSE = "Apache-2.0"
 
 PV = "1.6"
 
-RPM_NAME = "python311-monotonic-1.6-1.8.noarch.rpm"
-RPM_HASH = "1088a4f607aa8e85bd04606187c584a42b43c61cc9b9ad4fe361327031d2ea0b9fe0cecca52aba2d0fcffb1d6b0634a810307e8af7542d7d8d2404da5392e16f"
+RPM_NAME = "python311-monotonic-1.6-1.9.noarch.rpm"
+RPM_HASH = "4d21c6bedb0c903e9afb70721c9852de9007c9c9b98f935edd785e6e23206630d1592ce97338191090030b2912d18b0bbb10dfbb5232d04da913149a50b1794a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-monotonic \
+RPROVIDES:${PN} += "python3-monotonic \
+python3.11dist-monotonic \
 python311-monotonic \
 python3dist-monotonic"
 

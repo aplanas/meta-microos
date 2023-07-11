@@ -17,13 +17,14 @@ virtualenv environments (and optionally doesnt use the globally installed \
 libraries either)."
 LICENSE = "MIT"
 
-PV = "20.23.0"
+PV = "20.23.1"
 
-RPM_NAME = "python311-virtualenv-20.23.0-1.1.noarch.rpm"
-RPM_HASH = "437ab049b8314d1afbd00bcdbec80e866f06173f356f6d6d374d7be1962e26f4becb67153c2a5614eefba136e9db6cda5cf9fa4d56205b2948ecb2634910bb32"
+RPM_NAME = "python311-virtualenv-20.23.1-1.1.noarch.rpm"
+RPM_HASH = "88e7c146123e2b03a0413b63a96e2c3ab2649dd9527bf2482fac003db1e9c6a54870a966d291bf3c1e3b1a6a7c4c4f28bfd760ba629d7c951db6dd9d319fb7ca"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-virtualenv \
+RPROVIDES:${PN} += "python3-virtualenv \
+python3.11dist-virtualenv \
 python311-virtualenv \
 python3dist-virtualenv"
 

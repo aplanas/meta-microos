@@ -6,10 +6,10 @@ Helmify reads a list of supported k8s objects from stdin and converts it to a he
 Supports Helm >=v3.6.0"
 LICENSE = "MIT"
 
-PV = "0.4.3"
+PV = "0.4.5"
 
-RPM_NAME = "helmify-0.4.3-1.2.aarch64.rpm"
-RPM_HASH = "fab9db527a0dfc32057d99d54673ca02db913ee95d697b73c13ae5ff1e9a62b98f87087e29db131a081061a0f764f3d29084856a4d83dd8d39d18d6f3240ae43"
+RPM_NAME = "helmify-0.4.5-1.1.aarch64.rpm"
+RPM_HASH = "eedddc9785deb201559d6f8344cb14ab7f72859a98a01ab3d6e422503d70af3ebd912b66b9e09a624fcbcd4ef2adaee96a11afa79eaf4a9fe81ea14c30cd939e"
 
 RPROVIDES:${PN} += "helmify"
 

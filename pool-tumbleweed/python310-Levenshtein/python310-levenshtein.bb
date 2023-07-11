@@ -12,11 +12,10 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.12.0"
 
-RPM_NAME = "python310-Levenshtein-0.12.0-4.19.aarch64.rpm"
-RPM_HASH = "2a7420d9971f78e129193a8c0c40ef1e19885fbd97a03151ae5c49663d56a246ae4d28d085227af2e43bf13dbbd2d6c24763d74b669b2b2f09956a1a98952e38"
+RPM_NAME = "python310-Levenshtein-0.12.0-4.21.aarch64.rpm"
+RPM_HASH = "13a5e350abfb2cd4cd675dedfb50594212013a408a819d3d3c6859e53ee602b5821e32920c7966f7175c7c664e42ecde20a62f548b0d5cca06029b26366bcdff"
 
-RPROVIDES:${PN} += "python3-Levenshtein \
-python3.10dist-python-levenshtein \
+RPROVIDES:${PN} += "python3.10dist-python-levenshtein \
 python310-Levenshtein \
 python3dist-python-levenshtein"
 

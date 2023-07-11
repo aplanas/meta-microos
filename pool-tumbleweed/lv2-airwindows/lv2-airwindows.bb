@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "18.0"
 
-RPM_NAME = "lv2-airwindows-18.0-1.1.aarch64.rpm"
-RPM_HASH = "66e67e57fff401947edb98e8ab04e00545a2b8c938a0fc127d55bad6d573de639365d8c8aa6c1106193c9d90cb9edb768d2cb5cdf39a3584f377351d6086766c"
+RPM_NAME = "lv2-airwindows-18.0-1.2.aarch64.rpm"
+RPM_HASH = "91cdd4576055418f63c1d8899da2a0f682ecb2ba90a5123d9680ac866a27128ee99d5a23fc0d0e605044c24d885f78d6e6ee0ab4cca4d3998ad4e071c3d145b8"
 
 RPROVIDES:${PN} += "lv2-airwindows"
 

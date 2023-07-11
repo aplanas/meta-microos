@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause & LGPL-2.1-only & LGPL-3.0-only"
 
 PV = "5.2.0"
 
-RPM_NAME = "python39-apptools-5.2.0-1.3.noarch.rpm"
-RPM_HASH = "334063a47ff965a02a9828b4a3fb63d82e0c5322f8f659950bff9be1b1c77127a46ad161582f5a958520aea3cb32b5aeee66c17a1e44da68f67ac273a0a7c39d"
+RPM_NAME = "python39-apptools-5.2.0-1.5.noarch.rpm"
+RPM_HASH = "431979c068733d52cdfe6ce64d890e1e76f69ef2bf97db74cb6479cb8e21e9ba5e87f8602d099f6b7c9be850b99f4d18c640c18c311a8c2e4a275c95e3210d4b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-apptools \

@@ -44,8 +44,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.57"
 
-RPM_NAME = "perl-Log-Log4perl-1.57-1.2.noarch.rpm"
-RPM_HASH = "027d4498e98e2cba459a5f35b6554d95baaa7abdb453698ad7af029f69ba7693e3e96495b54442a32335e17bd7af834589ead97bea2a5511be18bb54ede63f33"
+RPM_NAME = "perl-Log-Log4perl-1.57-1.3.noarch.rpm"
+RPM_HASH = "08f936d7014b3381693f4d5ea14a834d4ad59358d6f24dd225fad9d649df860b5792cb0630bab9b12b8392ebf172541679f7552e018915067a25c2e0da234f03"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Log--Log4perl \
@@ -101,7 +101,7 @@ perl-Log--Log4perl--Util--TimeTracker \
 perl-Log-Log4perl"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-File--Path"
 
 inherit rpm

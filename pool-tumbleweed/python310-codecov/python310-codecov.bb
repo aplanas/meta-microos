@@ -4,12 +4,11 @@ LICENSE = "Apache-2.0"
 
 PV = "2.1.13"
 
-RPM_NAME = "python310-codecov-2.1.13-1.1.noarch.rpm"
-RPM_HASH = "edc52d4fdd30078e0a71ffd508456e0b8b980e1972404b599555a02a4fffb3d16bafcccad6e110ddb871c268bf7511460beffc7513abd16096a4cbd7213d4e81"
+RPM_NAME = "python310-codecov-2.1.13-1.3.noarch.rpm"
+RPM_HASH = "890d916892c22323663d81804a9127c4c9358be430dbc511c157ab1f7b412c6617baad6cc50597f3b5779f60397a55160d05253e718f72769bdb181759817db3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-codecov \
-python3.10dist-codecov \
+RPROVIDES:${PN} += "python3.10dist-codecov \
 python310-codecov \
 python3dist-codecov"
 

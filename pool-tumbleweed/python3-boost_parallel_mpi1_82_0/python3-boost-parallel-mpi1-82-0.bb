@@ -4,8 +4,8 @@ LICENSE = "BSL-1.0"
 
 PV = "1.82.0"
 
-RPM_NAME = "python3-boost_parallel_mpi1_82_0-1.82.0-1.1.aarch64.rpm"
-RPM_HASH = "c8e1595b23c28858ba547653dee8fab37fbde705ae2788840e506851a086c2405f27d006cc8d5aef35800079b70da1df33763e051bea4cd60dee68ab56afeac2"
+RPM_NAME = "python3-boost_parallel_mpi1_82_0-1.82.0-1.2.aarch64.rpm"
+RPM_HASH = "98415cda69110f3e05c492894f74e28c411d790f3dc19d2c804391a1068e0609b8e22e433bc2f29eba563a8ebbab18c5b908e004d0bebd41b21b35c443a95c5e"
 
 RPROVIDES:${PN} += "python3-boost-parallel-mpi-impl \
 python3-boost-parallel-mpi1-82-0"

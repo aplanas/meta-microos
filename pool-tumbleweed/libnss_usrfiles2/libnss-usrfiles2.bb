@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "2.27"
 
-RPM_NAME = "libnss_usrfiles2-2.27-3.14.aarch64.rpm"
-RPM_HASH = "1d0d37868af4532d7f3e4164bd00b9117c11f00b08dda74e4631296c9d9d6573eb2abded5bc43e4989898ce267fbea24e4d1e35ba0f43621f5621fb4d02392b1"
+RPM_NAME = "libnss_usrfiles2-2.27-3.15.aarch64.rpm"
+RPM_HASH = "19ee32a217f939a7f49b631f16f745e7b5546b0982122879f5d1a5a159336c5b6f2155bbe22c4a82e0f9278db4d80774e2923bd2dfe889c847141576c52cb107"
 
 RPROVIDES:${PN} += "libnss-usrfiles.so.2 \
 libnss-usrfiles2"

@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.20.0"
 
-RPM_NAME = "libgpgmepp6-1.20.0-1.1.aarch64.rpm"
-RPM_HASH = "1e65fc5302815e096265ccc19423f6d1bf994f40e008507657a9ce9c2efa456626e833c1902bae3511209788d6eada72bb68e50c919b88685ae1e48acc41546f"
+RPM_NAME = "libgpgmepp6-1.20.0-1.3.aarch64.rpm"
+RPM_HASH = "9cace98622e1e561955e1112b9ee6eb8d1871ff8acc4ccebd897e210736be33b65c8499eb0ba8b2faa0d38d2492e65c29d11a97e4428286f5c97d12023c0f5ce"
 
 RPROVIDES:${PN} += "libgpgmepp.so.6 \
 libgpgmepp6"

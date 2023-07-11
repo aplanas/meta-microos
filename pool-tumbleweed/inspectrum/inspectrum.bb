@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.2.3"
 
-RPM_NAME = "inspectrum-0.2.3-1.10.aarch64.rpm"
-RPM_HASH = "f33c38134344b6e92a29ebbb523384c9de9affdbacc56e851961b6b71ee7be68753ba04a577004c67e89973bd9eca5a21c5faec4de61efe7c0a94fe6e4f15d15"
+RPM_NAME = "inspectrum-0.2.3-1.11.aarch64.rpm"
+RPM_HASH = "5e242edeab1c1c18bdb1dc80b968290dc2414c1265f0a1827fd170f0a7692ca5d58423098ddeeecef6fd94b102e138e444b36a5c1d381da9de39b3f4ce9927db"
 
 RPROVIDES:${PN} += "inspectrum"
 

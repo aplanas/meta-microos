@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.5.1"
 
-RPM_NAME = "python39-cairocffi-1.5.1-1.1.noarch.rpm"
-RPM_HASH = "aa6ec3a0e5361e1ae78e4f5a15a3e1cd1c2d7e3544d5893d316cda8d2785a7d64e8d2b0e26d466fdd71eabab562daaa91a7cf35022c56ca99a8d6f63c2e53351"
+RPM_NAME = "python39-cairocffi-1.5.1-1.3.noarch.rpm"
+RPM_HASH = "537a2ed5786482f1999eb9c6ab1927a5e29b370aada7fd1fdafd22fa6d36814b4dba1a051c9eb82df7f2fc5f923ccfb4499ba7e0bf3f72393d95e5fdb0e44434"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-cairocffi \

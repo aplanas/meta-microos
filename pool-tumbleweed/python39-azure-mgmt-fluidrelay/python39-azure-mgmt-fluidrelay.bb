@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0.0"
 
-RPM_NAME = "python39-azure-mgmt-fluidrelay-1.0.0.0-1.4.noarch.rpm"
-RPM_HASH = "07fec79a38bc389d1d44397d26e3eccd15403cfcd71fc3c90fc00abafe0eebd181e6586f90cc69278c84e23d5a3ca526eee1181710afa988951db5be936900fb"
+RPM_NAME = "python39-azure-mgmt-fluidrelay-1.0.0.0-1.5.noarch.rpm"
+RPM_HASH = "1708791b2d43f557dba1cd74aaa9d2c97d7890ce4cd0c850117a129e16d7942632fc1da613998221f8c219ff3f4ad78aeb8529070ff90ea84c1e5bf09a402f4f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-fluidrelay \

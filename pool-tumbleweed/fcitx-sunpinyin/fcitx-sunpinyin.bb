@@ -17,8 +17,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "0.4.2"
 
-RPM_NAME = "fcitx-sunpinyin-0.4.2-1.26.aarch64.rpm"
-RPM_HASH = "561723b71222d480d84ac4a6232a3454adfa2584851ccb46e389824dabbffa7009cd35190e8ba33be8d0866abad4d15139163c45dbc72cd79319e0a74bc88508"
+RPM_NAME = "fcitx-sunpinyin-0.4.2-1.27.aarch64.rpm"
+RPM_HASH = "4c4b3d83da17c12e5861d1965b448f658ae84ac197804914d57010e1a254ec23be40d4176fe60b68e21129201428f813cb1c967ada88e53cf2dafe226947085d"
 
 RPROVIDES:${PN} += "fcitx-sunpinyin \
 locale-fcitx-zh-CN;zh-SG"

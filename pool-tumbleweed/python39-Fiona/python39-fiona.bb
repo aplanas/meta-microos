@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.9.1"
 
-RPM_NAME = "python39-Fiona-1.9.1-1.3.aarch64.rpm"
-RPM_HASH = "ad47c1b6d956cddda0a47006ad26b68405c95f97a02ef81da2ee19c3d80f72d4f28987d5e7fd031727c8218fccedb1c02fde4da978939a6565c10df2715ae729"
+RPM_NAME = "python39-Fiona-1.9.1-1.6.aarch64.rpm"
+RPM_HASH = "9c8c0d2b00da4f66f549893b8d3a2313ae1e70afa07d5dd65d1ac6a22cd81a6fd23e29ea5d157ed1d6da1c5c9b5dfeee3d4e4554da69994cd66f0645a69809d6"
 
 RPROVIDES:${PN} += "python3.9dist-fiona \
 python39-Fiona \

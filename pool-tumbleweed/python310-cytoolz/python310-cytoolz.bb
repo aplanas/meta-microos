@@ -6,11 +6,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.12.1"
 
-RPM_NAME = "python310-cytoolz-0.12.1-1.4.aarch64.rpm"
-RPM_HASH = "aa898d62a370176adf0cdbc04ff35ad020937421fd6948ca1f6ed2d11e3079a0d7492a176716767374803b83f7d4fb69a0efcf5e4e1b6c5acfc97cac5c1a2eaf"
+RPM_NAME = "python310-cytoolz-0.12.1-1.6.aarch64.rpm"
+RPM_HASH = "f8fb808801753e9efa9d6998bff7d4da03a0e6116270f4c877e9e00101cc2085cad927106c0c113fcf4fcbef3e04c68ebb67c008918ab696ce726e6a31ecd2b0"
 
-RPROVIDES:${PN} += "python3-cytoolz \
-python3.10dist-cytoolz \
+RPROVIDES:${PN} += "python3.10dist-cytoolz \
 python310-cytoolz \
 python3dist-cytoolz"
 

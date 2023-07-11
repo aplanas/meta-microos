@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.13"
 
-RPM_NAME = "power-profiles-daemon-doc-0.13-1.1.noarch.rpm"
-RPM_HASH = "758ed3f96f981f17a50384a32a7418e80e926d0fdec8754f6a822ac23700aee7e0924ee97d88dfdfce360eca13fd284be2a7380e2924ce4b8d09db5d5ba43151"
+RPM_NAME = "power-profiles-daemon-doc-0.13-1.2.noarch.rpm"
+RPM_HASH = "d4bb95751cda33bb4cff116885016332e4ed2f3224fec2556d18f0a3a2cf94b62bad7eb3709e0ebaf584b737ac31dfc7632a3d79d9e3c366f9993e2ec605eb0b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "power-profiles-daemon-doc"

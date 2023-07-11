@@ -4,8 +4,8 @@ LICENSE = "(Apache-2.0 | MIT) & Unicode-DFS-2016 & (Apache-2.0 | BSL-1.0) & (Apa
 
 PV = "1.14.0"
 
-RPM_NAME = "just-zsh-completion-1.14.0-1.1.noarch.rpm"
-RPM_HASH = "8be7259f6b5365a6558ec496c29da2e2245580f61b718b63402be56b6a71b58161f0dffa3bfb43f2436292d4c46e03d403bf65969ae7fa8d647ba0ac6dc6d609"
+RPM_NAME = "just-zsh-completion-1.14.0-1.2.noarch.rpm"
+RPM_HASH = "08f7bc85188fff8d14570700f064889e052a8f459c8492ef8ff675113f0c51a6cff7b5ad7862c7ea314913533f2f40c57840917efd7a8c32a2810bdd59803dff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "just-zsh-completion"

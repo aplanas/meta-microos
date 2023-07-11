@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "typelib-1_0-GnomeRR-4_0-44.0-1.1.aarch64.rpm"
-RPM_HASH = "711a295b604ec6aa0b6ecd4edf7c38df9a472ee44ff075397f4606758bdde418fd7d70eb80afcbe4a1961f6567324d2946d2a8b4c472d2057b3328d6126502aa"
+RPM_NAME = "typelib-1_0-GnomeRR-4_0-44.0-1.2.aarch64.rpm"
+RPM_HASH = "c9618945840bda75dd7a1a48d192a61ab5a51665fb68de1bf0888cf08320fb7e09dce9765c0c7d2ba1d59e8ee5c90c3a35445c841f5a23ad7b5eb48b35b01dcd"
 
 RPROVIDES:${PN} += "typelib-1-0-GnomeRR-4-0 \
 typelib-GnomeRR"

@@ -8,8 +8,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.3.6"
 
-RPM_NAME = "python39-simplekml-1.3.6-1.3.noarch.rpm"
-RPM_HASH = "64ce112429d01f6f2828f5338b08d2a46e93f3b2d8c222f83aac91ba7412b8b9dd13320f121535cbe335325f93972f138ee2b9eff50437618c425838123e0795"
+RPM_NAME = "python39-simplekml-1.3.6-1.4.noarch.rpm"
+RPM_HASH = "f91193640703c5d81eb0c985fdff10db7f5e7132f724dbd6fd1b14a17c7fe5898525364117c4513601f48b311cbc9594f5130ab27feff0b397988c6952890554"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-simplekml \

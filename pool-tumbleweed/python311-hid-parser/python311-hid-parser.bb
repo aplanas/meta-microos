@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.0.3"
 
-RPM_NAME = "python311-hid-parser-0.0.3-1.3.noarch.rpm"
-RPM_HASH = "59a844218318bf34c89168befbcb7ea56a24dd8bb202fc88d25a9f64feeb26239bb1454e463807542a469df0c85aa5431de0d06797173b8699a6ba31c039f423"
+RPM_NAME = "python311-hid-parser-0.0.3-1.5.noarch.rpm"
+RPM_HASH = "054ca1be8291d1b5ba519d3a2a044b4f67b106161e1b2fade11a35c4cef264efe730ae39440e19928c076501ffce382afb42769c8fe70562a7f03b6403b0dfb1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-hid-parser \
+RPROVIDES:${PN} += "python3-hid-parser \
+python3.11dist-hid-parser \
 python311-hid-parser \
 python3dist-hid-parser"
 

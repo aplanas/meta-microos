@@ -4,11 +4,10 @@ LICENSE = "MIT"
 
 PV = "1.0.9.2"
 
-RPM_NAME = "python310-brotlicffi-1.0.9.2-1.11.aarch64.rpm"
-RPM_HASH = "5c7f75bc3502fb5435d2a1f60e09125b8739b1b1488eb829ddc557d2f8a1c4237fe6a661c8d8746a7914607ce56abc79594d1dc4aaa67c77f2ddd5d4a542dd03"
+RPM_NAME = "python310-brotlicffi-1.0.9.2-2.1.aarch64.rpm"
+RPM_HASH = "db3250d62716fb0944985d5f987fd6fb601406f84c87794089638675fd8bdd45a2de195259143327e35c9235dd476296fec67cd3d51b3d61ae3a4f6cb80edf48"
 
-RPROVIDES:${PN} += "python3-brotlicffi \
-python3.10dist-brotlicffi \
+RPROVIDES:${PN} += "python3.10dist-brotlicffi \
 python310-brotlicffi \
 python3dist-brotlicffi"
 

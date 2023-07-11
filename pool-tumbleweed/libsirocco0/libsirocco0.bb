@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.1.0"
 
-RPM_NAME = "libsirocco0-2.1.0-1.8.aarch64.rpm"
-RPM_HASH = "9c4a400434c22d3ae61b48c608619d209450e5ab77bc927e80d04ce1f8d867295e31c410020b2c3bcd13dbbb38ea92f03673982285f55085909b6301ac47f36a"
+RPM_NAME = "libsirocco0-2.1.0-1.9.aarch64.rpm"
+RPM_HASH = "2a528e792c84e54e3ef87b86b9382a23e8f1bb486a4e7fcd8204044e6e868b504bbbc6be2c9d2aa31b6f50c4f1f093119b417a428cb547c6d9961bd434b21c6e"
 
 RPROVIDES:${PN} += "libsirocco.so.0 \
 libsirocco0"

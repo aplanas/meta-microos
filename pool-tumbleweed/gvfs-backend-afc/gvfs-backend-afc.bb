@@ -2,10 +2,10 @@ SUMMARY = "VFS functionality for GLib -- iPod / iPhone Support"
 DESCRIPTION = "This package provides a gvfs backend that supports iPod / iPhone devices."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "1.50.4"
+PV = "1.50.5"
 
-RPM_NAME = "gvfs-backend-afc-1.50.4-2.1.aarch64.rpm"
-RPM_HASH = "a033263695a1c1a292f12cb2ebbba2b3cb2e71619b5287d0cc1105b0461d2d121edb1efd7f232e1b4efea603e9b10157e9af91e05afc6e6b7c4d09ccb89a7ecf"
+RPM_NAME = "gvfs-backend-afc-1.50.5-1.1.aarch64.rpm"
+RPM_HASH = "1aa31f827456a5f40b3f8e4bc964dde4f1b528134bd15bac3459c32211008c2cb4c9a7a9b9af338255bc0689f53ef5c8cf3b68d8de442e9e719a59238d5ce53b"
 
 RPROVIDES:${PN} += "gvfs-backend-afc"
 
@@ -18,6 +18,6 @@ libgobject-2.0.so.0 \
 libgvfscommon.so \
 libgvfsdaemon.so \
 libimobiledevice-1.0.so.6 \
-libplist-2.0.so.3"
+libplist-2.0.so.4"
 
 inherit rpm

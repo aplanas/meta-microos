@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.10.3"
 
-RPM_NAME = "python39-pytest-mypy-0.10.3-1.3.noarch.rpm"
-RPM_HASH = "38aaaa61b71cd5daa9131d6eb8bb1aa9a2ef2b8f99e2cb22659e274275a89461257f410beb4868336bdfc95db89714c727c37f73ea54922f853e515e6afeea91"
+RPM_NAME = "python39-pytest-mypy-0.10.3-1.5.noarch.rpm"
+RPM_HASH = "83ff4c8c5180cca34437c71a2c703a28e68a6edd6519a9da4b45fd18339ad2e66686f47325e84e03d2421718fc46e83a4eba4563278ab7310bf470c47b1f08d3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytest-mypy \

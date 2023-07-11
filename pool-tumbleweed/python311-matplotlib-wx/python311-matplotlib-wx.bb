@@ -5,10 +5,11 @@ LICENSE = "SUSE-Matplotlib"
 
 PV = "3.6.3"
 
-RPM_NAME = "python311-matplotlib-wx-3.6.3-2.1.aarch64.rpm"
-RPM_HASH = "62794e3f12bdc79dae089bfa572dab7803985505ac64ec9d83c1935039aab4558df00302b5cbd3b3f27f20a5b73d310cd3cbbd1ff032062460adaf511a186983"
+RPM_NAME = "python311-matplotlib-wx-3.6.3-2.3.aarch64.rpm"
+RPM_HASH = "31ac5d18e365f5272ba04219ab3b10d0b7affe9cd305597753e79dda31f0573d185f21faed0a8f992aaf2a44fa4dfe5997003a6bb5b39eb50b6076df7547b378"
 
-RPROVIDES:${PN} += "python311-matplotlib-wx"
+RPROVIDES:${PN} += "python3-matplotlib-wx \
+python311-matplotlib-wx"
 
 RDEPENDS:${PN} += "python-abi \
 python311-matplotlib \

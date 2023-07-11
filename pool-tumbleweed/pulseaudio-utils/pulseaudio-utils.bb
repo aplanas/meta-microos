@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "16.1"
 
-RPM_NAME = "pulseaudio-utils-16.1-3.1.aarch64.rpm"
-RPM_HASH = "faa88366de6e624c94a63dbacd42ffe555e7dea8fa20b318a49a2b1d54377c5e9d40730dcea6b8eddd2dfb0de31d3941e06a9eaa2ac511ae54cf6177afcb4456"
+RPM_NAME = "pulseaudio-utils-16.1-4.1.aarch64.rpm"
+RPM_HASH = "476acc65fb45354308545d08483006210cde058a4f6c9975601b3315ad0578e30e87444689e9a50576d954f9c593e8d957cd8ef2a3ebf2a9c4ce97c1335d312f"
 
 RPROVIDES:${PN} += "libpulsedsp.so \
 pulseaudio-utils"

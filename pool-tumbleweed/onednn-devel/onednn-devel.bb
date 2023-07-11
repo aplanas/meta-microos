@@ -11,8 +11,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.0.1"
 
-RPM_NAME = "onednn-devel-3.0.1-1.2.aarch64.rpm"
-RPM_HASH = "3d958a882cbbda4670c88c0f2011951db3634a966a760d7fd1aeea768fb63047e3105f2dc6b519f438076364e606582545f8e4c7febf33602dbcee069219b993"
+RPM_NAME = "onednn-devel-3.0.1-1.3.aarch64.rpm"
+RPM_HASH = "85f9c4dff03bb0402c3ee5d6e6b6dc4046b38449cb5f6482a18a6f83add1fba3af228b8febde5350b5ed1ab4d1cb202e22f0e1e8c7fbb76a34f6943c95c983b2"
 
 RPROVIDES:${PN} += "cmake-dnnl \
 mkl-dnn-devel \

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "3.6.5"
 
-RPM_NAME = "libsass-3_6_5-1-3.6.5-1.8.aarch64.rpm"
-RPM_HASH = "bd97dda04941f86394deaec858477bf9b94a74e542700d9b866405f98705f6bec46458fa173210da98f3f584866ac040c1075c571070d19b0da117ff241d6b89"
+RPM_NAME = "libsass-3_6_5-1-3.6.5-1.9.aarch64.rpm"
+RPM_HASH = "aea28e7a1b36cb8aa5717291ca5af75d8e8982d48bd82214eddce01ca3b496991cb741f8ddb66c525c16a004072a9fa3ffcd43f69aa7c122aee00c169860ad96"
 
 RPROVIDES:${PN} += "libsass-3-6-5-1 \
 libsass-3.6.5.so.1"

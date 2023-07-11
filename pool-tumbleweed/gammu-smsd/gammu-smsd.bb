@@ -20,8 +20,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.42.0"
 
-RPM_NAME = "gammu-smsd-1.42.0-4.6.aarch64.rpm"
-RPM_HASH = "044f9ce6abc8ba006ed40cbfec618066b894c5b0a70c72778dfd5a37737f361aae057f991187339355fbe77e11544b488d580f91500dfbdfb92dcfbed0ee0f09"
+RPM_NAME = "gammu-smsd-1.42.0-4.7.aarch64.rpm"
+RPM_HASH = "7adb5b943a0a256daaef052a3a47372d810d65e8e95be1015a4593aed20c6d160fd305616d3103ec4440a90eb7995f5bcdee7aa3227c956beec3801428ddb8c6"
 
 RPROVIDES:${PN} += "config-gammu-smsd \
 gammu-smsd"

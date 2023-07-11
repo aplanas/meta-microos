@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "2.8"
 
-RPM_NAME = "libbytesize-devel-2.8-1.1.aarch64.rpm"
-RPM_HASH = "70307d514c29bdf19c95e564301e6932f4320cee2703431d0bc7a525280e6b95d2885cef52a61a4ccbe03a3314ad6f4b4b5f5e80f26b1878e680c9e00e08bfd4"
+RPM_NAME = "libbytesize-devel-2.8-1.2.aarch64.rpm"
+RPM_HASH = "c91b0cf88eb194f8011759c66fa5c330c3c913dc1de2e72b262554cdf7ef132f00bab78f5903936d7ebbe3c0756c4b7b452760f9eee63f74c0f99544f9704a29"
 
 RPROVIDES:${PN} += "libbytesize-devel \
 pkgconfig-bytesize"

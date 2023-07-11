@@ -4,8 +4,8 @@ LICENSE = "(Apache-2.0 | MIT) & BSD-3-Clause & (Apache-2.0 | BSL-1.0) & (Apache-
 
 PV = "23.05"
 
-RPM_NAME = "helix-bash-completion-23.05-1.1.noarch.rpm"
-RPM_HASH = "a65f73061dce5a916d39ab467b3bce86a7583ef4e790765a2cfa8d3b72202347c184a1d6776214a8ebd4c12063a3894b070c8b48777c4599f47a50db155506e4"
+RPM_NAME = "helix-bash-completion-23.05-2.1.noarch.rpm"
+RPM_HASH = "f305418d289a1d8e1af120e75ceeff1600c21ae51ab48f10adf2fe0df12f8186e4853478d1e858b4faa9838ef8d12e6b7256ff2ed1a8285b5c783fe07966d2e0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "helix-bash-completion"

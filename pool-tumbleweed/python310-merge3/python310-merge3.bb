@@ -4,12 +4,11 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.0.12"
 
-RPM_NAME = "python310-merge3-0.0.12-1.3.noarch.rpm"
-RPM_HASH = "f924146389ffc3d5cb4c466b2e30414c56fe86dd6b5a23c276cf943d8909e471f98c71efdb637e2592a57a49dcbb96531241a76633811621662b7ea5fc7d3608"
+RPM_NAME = "python310-merge3-0.0.12-1.5.noarch.rpm"
+RPM_HASH = "15f6a9521d99d5bcb7463bc33745061646355d3ed0b4b8ead2fd28f6d9d892d9a6d96b6293d2b87e3b8a26e249128a8902894532c8687707717ac332ce80e69f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-merge3 \
-python3.10dist-merge3 \
+RPROVIDES:${PN} += "python3.10dist-merge3 \
 python310-merge3 \
 python3dist-merge3"
 

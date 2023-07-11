@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "1.22.8"
 
-RPM_NAME = "typelib-1_0-CoglPango-1_0-1.22.8-2.11.aarch64.rpm"
-RPM_HASH = "c55ec55b2f9f16fa090bfe1c37d4d906197e244fca7acfa6cd91b19a278cab988df0e84079a62bff9209150379b1f6fab647bbf0639864b34b8cc2c2217dee8f"
+RPM_NAME = "typelib-1_0-CoglPango-1_0-1.22.8-2.12.aarch64.rpm"
+RPM_HASH = "1f9577498f8a52f5d7d112cefda9a9df927c5a15ca0906d640d22271cfe3c549333d3b3f2ad82ff9b3219f3ddf2c454897d1231194170af4e7ad5d3b3e34c4bd"
 
 RPROVIDES:${PN} += "typelib-1-0-CoglPango-1-0 \
 typelib-CoglPango"

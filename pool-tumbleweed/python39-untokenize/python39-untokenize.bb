@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.1.1"
 
-RPM_NAME = "python39-untokenize-0.1.1-2.15.noarch.rpm"
-RPM_HASH = "e7df45e6e7b13bae11996de8741424e377be874ff658b98931659bee3c85072e78e6396353ecea63fa234a4eaf4c5b44c676af3611c451b88670576a5413a6e8"
+RPM_NAME = "python39-untokenize-0.1.1-2.16.noarch.rpm"
+RPM_HASH = "14c164d61e7baf7252f76ab85fbc075bfc22be5d1929feff9013d3915e9f1f3aa20ebd42bbb040422010ccf8526f41fb5613b1661ae75ad628bb05e80d824533"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-untokenize \

@@ -12,8 +12,8 @@ LICENSE = "Artistic-1.0 & GPL-2.0-or-later"
 
 PV = "4.3.8"
 
-RPM_NAME = "collectl-4.3.8-1.1.noarch.rpm"
-RPM_HASH = "33ee9ff8f2bf4590b312fadd0e58f7b027ffef8e0a72db4c04fb3a77c280a8f194cb366ed50d5430c94fccffc7969859e4f56ee83bd27a7ba1c8c12e6592d60b"
+RPM_NAME = "collectl-4.3.8-1.2.noarch.rpm"
+RPM_HASH = "589cb47d56a8dd70702c191d9e3c95a5ae99d91c7e6ce321fba74c012bccd82c355fb3bb931207dba3912873968ac2f868d903f15269aa499b9bd0f463126795"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "collectl \

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "2.2.0"
 
-RPM_NAME = "pfstmo-2.2.0-3.14.aarch64.rpm"
-RPM_HASH = "cfd0bb5818c7213b46d58a877f332d1898e155a85b51a12f6889f01888e1123c35e9630febffefcad0cd535da6b43ee5ccee36643dea02b1e933bd34b0ee5a4d"
+RPM_NAME = "pfstmo-2.2.0-3.15.aarch64.rpm"
+RPM_HASH = "b53eb552a8b391ac505983ebb955c043f49340c80530fe597a5dc0d667f2b0d6b4ee7f299dc96ac6591decd86ca55d42afd405b52e7e10d3f2f7befb0e420623"
 
 RPROVIDES:${PN} += "pfstmo"
 

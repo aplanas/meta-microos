@@ -7,8 +7,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.43"
 
-RPM_NAME = "perl-MooseX-Declare-0.43-1.23.noarch.rpm"
-RPM_HASH = "15331ef63a67a20242abd214b2376c6c00548753202e0bb26e1f602360144887e8ff9dc0f31781f8e4b7e1ce27bd8d0959d691aaa24e07f7df8f27aa2a7fd360"
+RPM_NAME = "perl-MooseX-Declare-0.43-1.24.noarch.rpm"
+RPM_HASH = "e7789492f52b6f98ac50fff645f7ed7401419bf096b230347257d129be254729a516404638e0e3096c3928489ecd7848172f9288e1800cc59f9b2675f0c22f65"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooseX--Declare \
@@ -34,7 +34,7 @@ perl-MooseX--Declare--Syntax--RoleApplication \
 perl-MooseX--Declare--Util \
 perl-MooseX-Declare"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Devel--Declare \
 perl-Devel--Declare--Context--Simple \
 perl-Module--Runtime \

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.5.0"
 
-RPM_NAME = "festival-devel-2.5.0-8.9.aarch64.rpm"
-RPM_HASH = "60457954720b3579c14f8943c4c06f1a8ebe9dde6d00158dd3ae08f309b1076abb26baf1b6c796d0f860e9ace38511fa5752104e946f056e7b37f56f4605d79f"
+RPM_NAME = "festival-devel-2.5.0-8.10.aarch64.rpm"
+RPM_HASH = "48fa50c5b9835e23f1c6fc0b1abb8f1dda2a2956422e0c5bb080c915f3332ce4e12403bdd77eae85ac78160ae9a969649724f0cfc57a2c468e8f2efa751021d8"
 
 RPROVIDES:${PN} += "festival-devel"
 

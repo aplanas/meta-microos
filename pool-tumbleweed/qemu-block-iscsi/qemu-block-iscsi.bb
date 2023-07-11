@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-
 
 PV = "8.0.2"
 
-RPM_NAME = "qemu-block-iscsi-8.0.2-1.1.aarch64.rpm"
-RPM_HASH = "0704a788d263b75daec955cf7248d4ad585f513b18fd48f50878fc60d87d27a425d1228703136ab93c7ff09e60e1c7ba8c5631137d9d25eaca89529ac92410b9"
+RPM_NAME = "qemu-block-iscsi-8.0.2-2.1.aarch64.rpm"
+RPM_HASH = "a7be870505e20924cb1cd95037c67752cd6ad8b041bc22b0128f6da4c1aae42dac2b136858311f239a7300fc22ba1fedd0155f95f16ca14884a6989ea43556ad"
 
 RPROVIDES:${PN} += "qemu-block-iscsi"
 

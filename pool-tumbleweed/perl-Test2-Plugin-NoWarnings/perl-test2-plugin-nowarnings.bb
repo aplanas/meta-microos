@@ -9,15 +9,15 @@ LICENSE = "Artistic-2.0"
 
 PV = "0.09"
 
-RPM_NAME = "perl-Test2-Plugin-NoWarnings-0.09-1.13.noarch.rpm"
-RPM_HASH = "6309e9a7f1437ba17fd0c043b1195ab0f54cda4e4aab4ff90fc5036f8fdb10e125a04db4d66b25caff89555721a96e79c0d8e3a6c54044bc81473e2021a0ecd9"
+RPM_NAME = "perl-Test2-Plugin-NoWarnings-0.09-1.14.noarch.rpm"
+RPM_HASH = "ee8de9af2dd15610c98a4cf89ca53e343c91f847e1bd54d0638e18f99c6527ac076f3cd17bcc2dd8d7b3c2f67eb84f5a732d6dbb472ca7afbcc8517310efd240"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test2--Event--Warning \
 perl-Test2--Plugin--NoWarnings \
 perl-Test2-Plugin-NoWarnings"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Test2 \
 perl-Test2--API \
 perl-Test2--Event \

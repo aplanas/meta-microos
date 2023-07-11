@@ -39,8 +39,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.11"
 
-RPM_NAME = "perl-Test-Magpie-0.11-1.11.noarch.rpm"
-RPM_HASH = "cfe3ae8586decb621a2d6fad787f39f7c0da43c8944e33395d1d9078836b80c877416160fc65e4a72f5d8650a268ecf8498ef2934fe7ebbded2fedb099e00835"
+RPM_NAME = "perl-Test-Magpie-0.11-1.12.noarch.rpm"
+RPM_HASH = "4acf1da5ab57d589628d7e372dd4b29ce89edd64070c012d6e5cdc73b752fbf49bf274ccc5090a198e53c78213318a56d66fd4815d1ef923fad638338cfd416e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Magpie \
@@ -58,7 +58,7 @@ perl-Test--Magpie--Verify \
 perl-Test--Magpie--When \
 perl-Test-Magpie"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Devel--PartialDump \
 perl-Moose \
 perl-Moose--Meta--Class \

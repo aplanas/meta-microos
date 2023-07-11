@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.6.0"
 
-RPM_NAME = "budgie-hotcorners-applet-1.6.0-1.1.aarch64.rpm"
-RPM_HASH = "a29379f216cf14d506f03c9157c11e9334abd2109a2153d9a81212d180dfd093038c3ca9ebd53a61e113272ca2aa17669559ba3a6d797c89a3f6aad7911fb327"
+RPM_NAME = "budgie-hotcorners-applet-1.6.0-1.2.aarch64.rpm"
+RPM_HASH = "b1a88044efde99648b88bca169a90494b6dbe52debc2b58319885f85ee9315f5ac5cfd4e12377580c9db7be2774fa00f6d1ab096f2e50d3f4fe3321ee0df67f1"
 
 RPROVIDES:${PN} += "budgie-hotcorners-applet \
 libhotcorners.so"

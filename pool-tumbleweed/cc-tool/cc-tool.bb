@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.26"
 
-RPM_NAME = "cc-tool-0.26-1.33.aarch64.rpm"
-RPM_HASH = "1b533adb983727e7deed128d2c29d531931f172ef186a92b15ba43047756b84b6d8a43304031bccb270b58af6d49e670a7b62a94dda74bf698416d9f12912ed3"
+RPM_NAME = "cc-tool-0.26-1.34.aarch64.rpm"
+RPM_HASH = "0589cb75321c59ca11ebc2e7da119bb266fefb29f36d2d47d2fb92ccc0f890ce60ab1b0c4efee4b5bb9d81ed990b18c049ce125a5bd28ccb178878ef1ae40baf"
 
 RPROVIDES:${PN} += "cc-tool"
 

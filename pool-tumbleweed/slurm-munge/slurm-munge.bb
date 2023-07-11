@@ -4,8 +4,8 @@ LICENSE = "SUSE-GPL-2.0-with-openssl-exception"
 
 PV = "23.02.2"
 
-RPM_NAME = "slurm-munge-23.02.2-1.1.aarch64.rpm"
-RPM_HASH = "cd05e3c17cf9158070fa034ef5771073a6d785aaac41acd7885eb45f4b4203fea48a3f714b64340264bde52d8cc61ba69796b23eee6ce06e4c2574e40c4fdf9e"
+RPM_NAME = "slurm-munge-23.02.2-1.3.aarch64.rpm"
+RPM_HASH = "25fd9e5c760149caacf8cfc8ca5cda5d4241b87c2b19ce74e1f0c5ec33f34c106bdbeab8d63b4e3b1221a1019d7e1b67ffef262df3bafa4d88c4c195591ca05d"
 
 RPROVIDES:${PN} += "slurm-auth-munge \
 slurm-munge"

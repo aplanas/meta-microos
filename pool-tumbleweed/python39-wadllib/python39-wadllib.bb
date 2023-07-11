@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.3.6"
 
-RPM_NAME = "python39-wadllib-1.3.6-1.8.noarch.rpm"
-RPM_HASH = "ede281adccc99d4c102c451c4a8b178c2ea1e1c55f9e735b7c267f917fb4474b4cb757df1fa4b857619b69a76d252519df0c02139bd4a076c393328eb5e72f44"
+RPM_NAME = "python39-wadllib-1.3.6-1.10.noarch.rpm"
+RPM_HASH = "8147507f41606e81de45a0ba2691f7ae7b1b590f236ca02bb381eb01085de9d590e15390a22ba0aed0354688b06be6b4ded1bdbc660d2cb7579054b0d82bcfb3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-wadllib \

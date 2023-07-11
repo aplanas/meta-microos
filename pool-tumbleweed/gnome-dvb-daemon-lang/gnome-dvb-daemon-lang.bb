@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.2.90"
 
-RPM_NAME = "gnome-dvb-daemon-lang-0.2.90-4.10.noarch.rpm"
-RPM_HASH = "b8a556f637c596011bb50f6aa86eae9cda4c382fadd63ee31cbffa17ecf3134880d0fdbc74370e6488cd90cfb05fa0b969440beb330f8f85ade426b2c88690c2"
+RPM_NAME = "gnome-dvb-daemon-lang-0.2.90-4.11.noarch.rpm"
+RPM_HASH = "787029a02472718dd0f0ac2dfffe90054e504bcad5bf075b2fd7a52f97036983c14e2c08141c799fdc2f353edfae3bbc964f65b357326f3e4b8af05d5816e146"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-dvb-daemon-lang \

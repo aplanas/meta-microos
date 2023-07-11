@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.6.3"
 
-RPM_NAME = "nfs-client-2.6.3-39.1.aarch64.rpm"
-RPM_HASH = "e033a304f0ddf509a1236b808db1764e8cf77d35b9e89b4b0cbbd6a669bc5ec85ff04ba1862ba6a450ca54cc5d73c3be807a8d85bfee5187c22371f3a4132033"
+RPM_NAME = "nfs-client-2.6.3-39.2.aarch64.rpm"
+RPM_HASH = "6c5321994730b195201fcd1621637a7a1c0350ba692b9d36521282135c06cd75ba75dea115a396a68d1aad4f38b4ff6c6175351b8c0427353a5e5da56e36435a"
 
 RPROVIDES:${PN} += "config-nfs-client \
 group-statd \

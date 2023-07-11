@@ -12,12 +12,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.2"
 
-RPM_NAME = "gcovr-5.2-1.2.noarch.rpm"
-RPM_HASH = "c4a3194eb67ae168bf1c9bf5ce7519a4df130bee701482ca74a0133e1ef0f989fe0f8083c72a730da43ce0a617314c9aeba6c9051912ec405f3026cf4a45669b"
+RPM_NAME = "gcovr-5.2-1.3.noarch.rpm"
+RPM_HASH = "92d772d7616a45d485c7bfb3fdf4026b5fb0ca7a79ee73c213651ecc34a28b8d2313d8dba44b3a9ed62bcfdb9134eae31c9722498fdf9b4744c27be66492411b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gcovr \
-python3.10dist-gcovr \
+python3.11dist-gcovr \
 python3dist-gcovr"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

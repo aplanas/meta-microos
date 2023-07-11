@@ -5,11 +5,12 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.6"
 
-RPM_NAME = "python311-nocaselist-1.0.6-1.3.noarch.rpm"
-RPM_HASH = "74c448a9aa9919745056412168b34e2fec76f1c07f62b427dff0efdabd1ede4eb4eb82d9d06c6f3a86cab0fcc477ad536fb5069e6efec80d17501fc30e5d0852"
+RPM_NAME = "python311-nocaselist-1.0.6-1.5.noarch.rpm"
+RPM_HASH = "9eca9eb5d4b5acbec70f39b4bc9fad4b491cd2991f195d18f3ecc2a891ffecd0b6717c2b0367e36a4847be102c7cdc676a9bf16b81634f158a7fe9928626b3c8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-nocaselist \
+RPROVIDES:${PN} += "python3-nocaselist \
+python3.11dist-nocaselist \
 python311-nocaselist \
 python3dist-nocaselist"
 

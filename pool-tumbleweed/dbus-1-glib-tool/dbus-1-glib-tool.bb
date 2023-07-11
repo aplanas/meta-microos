@@ -7,8 +7,8 @@ LICENSE = "AFL-2.1 | GPL-2.0-or-later"
 
 PV = "0.112"
 
-RPM_NAME = "dbus-1-glib-tool-0.112-3.3.aarch64.rpm"
-RPM_HASH = "92127284b87ffa49dacc5bea16f0784a73b32cb0b55d4595bdef40a6eae678d90a45349d5f06821fa6edbbd90b5edd106fcd52dbeb8bc25be23cfd9d3289bd4a"
+RPM_NAME = "dbus-1-glib-tool-0.112-3.4.aarch64.rpm"
+RPM_HASH = "c57abeafe32cbb4ca04461c2d5dbbdec725ec294c536127bf17b6ea520b7bc127cecfbd6ccedb94718fcdeade14554bd5ea592bd76dfa4e7eff055a776195554"
 
 RPROVIDES:${PN} += "dbus-1-glib-tool"
 

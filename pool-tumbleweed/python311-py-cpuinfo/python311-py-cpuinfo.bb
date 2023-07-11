@@ -18,11 +18,12 @@ LICENSE = "MIT"
 
 PV = "9.0.0"
 
-RPM_NAME = "python311-py-cpuinfo-9.0.0-2.1.noarch.rpm"
-RPM_HASH = "2e0b3eb5fbfbd5b5ee429f700b34b7969991db68031953cd4150a4a568d58efac07fbc4ff9828342df879ce0e379d56fdd1229492d8e3a18265eaff1bd9ff910"
+RPM_NAME = "python311-py-cpuinfo-9.0.0-2.2.noarch.rpm"
+RPM_HASH = "62bda31c1819c9ec53bfe7ae07dd3f97983a50124de24c2f016ab8af6affd433b507e3af241e43bd1d232ba54fa5680a758de82e0cb1d6e48ab33a5b94de4961"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-py-cpuinfo \
+RPROVIDES:${PN} += "python3-py-cpuinfo \
+python3.11dist-py-cpuinfo \
 python311-py-cpuinfo \
 python3dist-py-cpuinfo"
 

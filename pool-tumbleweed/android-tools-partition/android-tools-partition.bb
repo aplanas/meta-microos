@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & MIT"
 
 PV = "34.0.1"
 
-RPM_NAME = "android-tools-partition-34.0.1-1.1.aarch64.rpm"
-RPM_HASH = "cb0a22e0100f48fda358a98918bc135af41bbbd0c0cab054dde35300ce7281a7157cd1057b50e506b7fdbcc90e79ac68f8f21538f51f9970616cba3d5ccf93a7"
+RPM_NAME = "android-tools-partition-34.0.1-2.1.aarch64.rpm"
+RPM_HASH = "effb53f55fde6e783a4412cfd446a365363e22a2e9fa5b5bd41a303500d403f1944534eca87ebdcfc8f48d3708a39650dbc29848a36e505af58cef3bbe07ac55"
 
 RPROVIDES:${PN} += "android-tools-partition"
 

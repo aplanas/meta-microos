@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kmplot"
 DESCRIPTION = "Provides translations for the 'kmplot' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kmplot-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "d7e36b83cbc9b1925c44bc087b770172199482da81f7fe7b1206f5ab7206ca25be99b76211d497f78a50a1de17c9373bb600943977aff1af4f192f1d5172eb9a"
+RPM_NAME = "kmplot-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "125be77bf5c19b5d286a7bbf48274bf923c38cebafae1e8cea85cc5707cc8942c9c43200dcc0028bd103bc5188bfd940f8a3934c0c19cc7aad693eb52ba97af4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kmplot-lang \

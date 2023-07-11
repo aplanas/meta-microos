@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0 & (EPL-2.0 | GPL-2.0-only-with-Classpath-exception-2.0)"
 
 PV = "5.0.0"
 
-RPM_NAME = "jakarta-servlet-5.0.0-1.7.noarch.rpm"
-RPM_HASH = "26ad5fa7aecae489b5a10614fe846bc5f151b157bb54acb9efd1f49d4196128485ef47394f6d7630d0b9cb5b9ca03a75907c81e56320265e57c2a0b87f48dd6b"
+RPM_NAME = "jakarta-servlet-5.0.0-1.8.noarch.rpm"
+RPM_HASH = "df545fade844627f38f37b717ce415f855e2ca443afc89bbed1d028474f963c95ff34557a06c4dd2ec46e47eec38cc7f2b0362e12e1c31e444e89f54e15f68ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jakarta-servlet \

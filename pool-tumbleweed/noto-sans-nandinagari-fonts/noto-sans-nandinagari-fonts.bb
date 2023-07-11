@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-nandinagari-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "d097b610d2c2b37ec46c23fe9c77bb5a0cee5aee6fcbf5d4268f18808c085a577102508a4f4ef484a4738d2b281a102058fdfc6b7f30485feb4049f6a4b27d73"
+RPM_NAME = "noto-sans-nandinagari-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "c70d5b008b117863b1143bba8038d79a67bf8057a018c95cb6a33d3a921c9c3144b0c7036b08019a0f6ef8c71e30511793495743b91f84fae74c7552cd0a7ac4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-nandinagari \

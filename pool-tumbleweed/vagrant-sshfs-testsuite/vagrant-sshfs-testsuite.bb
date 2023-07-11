@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.3.7"
 
-RPM_NAME = "vagrant-sshfs-testsuite-1.3.7-3.4.aarch64.rpm"
-RPM_HASH = "54f5b96ebf0bb6eed9fed39f503f01ca5e6b3ebd05ec600bb2f1db3d79a3a4c49504707b0a93e691d3d272758cef005e1ba683004f247542c462d57b8899ba8e"
+RPM_NAME = "vagrant-sshfs-testsuite-1.3.7-3.5.aarch64.rpm"
+RPM_HASH = "ba44267d1f8e505d06806351e3c800346573d475728c24f8136a425e8e8d3f27647fad1ab64ebe7663b222853015e5b53a85f107cbd37eeeb4802d4a2ca82eab"
 
 RPROVIDES:${PN} += "vagrant-sshfs-testsuite"
 

@@ -4,11 +4,10 @@ LICENSE = "MIT"
 
 PV = "1.5"
 
-RPM_NAME = "python310-ed25519-1.5-3.11.aarch64.rpm"
-RPM_HASH = "21f36fefafa05b6e85f8955b4a8330e639ab014936d684bcf9df1f02f94df0427aad67f3226b56754ee49838c2ea3fcfc739bdc38dd7e4eaca39e74d716b4223"
+RPM_NAME = "python310-ed25519-1.5-3.13.aarch64.rpm"
+RPM_HASH = "07f2a62d2315889ddb1f31ebf32d4adde190aee3e61455ee75c700b463611e9c94091bacbe9813f01d729334d725a5dbd53a425fa8fff870ea83d525d9640af3"
 
-RPROVIDES:${PN} += "python3-ed25519 \
-python3.10dist-ed25519 \
+RPROVIDES:${PN} += "python3.10dist-ed25519 \
 python310-ed25519 \
 python3dist-ed25519"
 

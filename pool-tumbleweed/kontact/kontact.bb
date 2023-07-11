@@ -3,10 +3,10 @@ DESCRIPTION = "Kontact combines the individual applications KMail, KAddressBook 
 KOrganizer as views in one window."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kontact-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "4fe0d503a8817d9a469e57ab85ed26c3f8e360b6d840300517269c3b774b4562adeafcc51745409d7a2edc166aa467c40333b71a56f2ce58b27101eae0c2e8f5"
+RPM_NAME = "kontact-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "92eb09d3b31b0922efa579467a2245446df3900f9623498ba377a015d97243043fd91be46125bc2d9eabd4d8af03ccdb47d38ffbfd8635e3696fed5cd5c422b4"
 
 RPROVIDES:${PN} += "kontact \
 kontact5 \

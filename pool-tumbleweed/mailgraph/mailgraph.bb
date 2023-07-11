@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.14"
 
-RPM_NAME = "mailgraph-1.14-9.6.noarch.rpm"
-RPM_HASH = "1ea9c08f32cb634cd6ab6ccf59c33596949b244856dfcc635322f03d3430ac7c65f671a11142f57c833e34254d4f1ba6252c54e2208078ab3ee507e46d6b8845"
+RPM_NAME = "mailgraph-1.14-9.7.noarch.rpm"
+RPM_HASH = "f5ddd57d2f566d853225de9d51a5009ba93471bf0017112b89bb328936f2d5d50851aaf465577d501a5ebe1558c67a2934b153e31624642dc346e393dfac695e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "/srv/www/htdocs/css \

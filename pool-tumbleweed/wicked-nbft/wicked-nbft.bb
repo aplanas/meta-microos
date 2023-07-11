@@ -4,15 +4,16 @@ network interface configuration according to the NVM Express Boot \
 Specification 1.0 and convert it to wicked configuration."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.6.72"
+PV = "0.6.73"
 
-RPM_NAME = "wicked-nbft-0.6.72-2.3.aarch64.rpm"
-RPM_HASH = "1a75d7c9f6a014fe706e0b49690738aac0ceb865c32ff4ec2af9c98306ab4bc21262ee0c915915a187011a8cd2f19493cf6e5070a0c02e9eca548bb08473800e"
+RPM_NAME = "wicked-nbft-0.6.73-2.1.aarch64.rpm"
+RPM_HASH = "89ac6d6ae4aec91845d0365437cda411d598719c1efd2c1f29d7d8f2e7284e6a6e6f9b39a53c52910ff49f2a4f780c00588d406069560b43aff2db9c3a63fbf0"
 
 RPROVIDES:${PN} += "config-wicked-nbft \
 wicked-nbft"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
 jq \
 nvme-cli \
 wicked"

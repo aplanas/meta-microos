@@ -3,10 +3,10 @@ DESCRIPTION = "Koko is a simple image gallery application that is designed to vi
 share images."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "koko-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "e9fe320e5c60478827fd3cfa82293a7ddb0ba9b9527970f7581bdfeefb3bb843282789559f556363aa7e656701bb4b1fb6a306bb48448ffaa8bd9839d51081d2"
+RPM_NAME = "koko-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "08d7d2e599b450bb3f1f6078257c206b3eedf7a895376cc4ae00e27aca4dbdc6381216fb251226b0c1ad85455e72278a6ca7106ff98f68143c02eea9af69cdae"
 
 RPROVIDES:${PN} += "koko \
 libkokocommon.so.0.0.1 \
@@ -38,7 +38,7 @@ libQt5Svg.so.5 \
 libQt5Widgets.so.5 \
 libQt5X11Extras.so.5 \
 libc.so.6 \
-libexiv2.so.27 \
+libexiv2.so.28 \
 libgcc-s.so.1 \
 libstdc++.so.6 \
 libxcb.so.1"

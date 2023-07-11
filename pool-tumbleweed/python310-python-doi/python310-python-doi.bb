@@ -4,12 +4,11 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.2.0"
 
-RPM_NAME = "python310-python-doi-0.2.0-1.3.noarch.rpm"
-RPM_HASH = "c2433482c3f31d144bde8811e08f6e17924954398fb865811e6e7b9d25b23664432deb2dedd34ab4d490e921846a5e5c143a30ed2869a18b9b8e0af173125fbc"
+RPM_NAME = "python310-python-doi-0.2.0-1.5.noarch.rpm"
+RPM_HASH = "1e9689308c677f3a5dd14c79d1c1ba860117b85b6cdf7b1a7809757e45354183ccbf22ba2e7427a652ede2e38299f129fda9f0cc933a6961fafa159ad86332ed"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-python-doi \
-python3.10dist-python-doi \
+RPROVIDES:${PN} += "python3.10dist-python-doi \
 python310-python-doi \
 python3dist-python-doi"
 

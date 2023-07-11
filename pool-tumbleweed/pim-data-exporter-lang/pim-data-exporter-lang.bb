@@ -2,10 +2,10 @@ SUMMARY = "Translations for package pim-data-exporter"
 DESCRIPTION = "Provides translations for the 'pim-data-exporter' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "pim-data-exporter-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "13cb813ad58c4e8d72724e849114a794d8c008ced049c8c8011a4305a38a620c313b595acdcfea37c1f08b5d73a5ba27b3c20094cb0bf97ab6adfd923fbc5a01"
+RPM_NAME = "pim-data-exporter-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "e576a3dfe2a769f4a9e98a1f55d41d1829b059ae39b2f6bc339d7ee39a73090b61575ed5fe152eddd1dbbbb9ad19fb0128bb34bb44bb1ee2b3fe5f952f53093c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-pim-data-exporter-ar \

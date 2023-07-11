@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause & MIT"
 
 PV = "1.54.06"
 
-RPM_NAME = "xmlrpc-c-devel-1.54.06-1.3.aarch64.rpm"
-RPM_HASH = "e677b569d671955ab96522e6e0b637a635bf67f1f2f31b3115452e6e23e57587069e6dce90348d27f36db5357e1135580629f0eb3ff1cbf8d1e0ae54378a8b9f"
+RPM_NAME = "xmlrpc-c-devel-1.54.06-1.4.aarch64.rpm"
+RPM_HASH = "ce67b80b99f6b7f4349e7dcfd46668208d51ca8cd9cb690af833a139b0a24587c0f0b4e1e7d6097d28377336c428548ce2098b83950fe03b29734c5563d49fc1"
 
 RPROVIDES:${PN} += "pkgconfig-xmlrpc \
 pkgconfig-xmlrpc++ \

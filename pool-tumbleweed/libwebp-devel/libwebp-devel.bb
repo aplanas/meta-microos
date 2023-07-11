@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.0"
 
-RPM_NAME = "libwebp-devel-1.3.0-1.1.aarch64.rpm"
-RPM_HASH = "bc5390758e8ac11eab5f84b2904dc66b0c28cf4b062ce8ee98fc949e2b0d03ddbe28847973dfe2b298b7b7cb2c0d938c470d288f488513dc578b63331fa0b779"
+RPM_NAME = "libwebp-devel-1.3.0-2.1.aarch64.rpm"
+RPM_HASH = "078a140f897c7d2db56093f70899aebeafb35fc4cbccb94856c77b381476caf3d1d75b734aaee5f98d8d1f845b8498741a9dc47a6f141698cb8b0f0b4e92937c"
 
 RPROVIDES:${PN} += "libwebp-devel \
 pkgconfig-libsharpyuv \

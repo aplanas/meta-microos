@@ -6,11 +6,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.1.3"
 
-RPM_NAME = "python311-MouseInfo-0.1.3-1.12.noarch.rpm"
-RPM_HASH = "2df1af248d073efbb6f8f7a1c99f4cb73d62b0bf7d596e26ca414ffbe1791cb005ac7f3fe42359f20673c36725cd470fa7def793cc5823209a7d0ca0cf8ff6ae"
+RPM_NAME = "python311-MouseInfo-0.1.3-1.14.noarch.rpm"
+RPM_HASH = "47f50b33fa7c64b8b7e41f7df43b579dfd2a857fdea8206888c6ddd3f3311f8730760132740fe1d34e4f02b41cb61cdc0c31f2371291d16a3dbd3e4831c4a536"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-mouseinfo \
+RPROVIDES:${PN} += "python3-MouseInfo \
+python3.11dist-mouseinfo \
 python311-MouseInfo \
 python3dist-mouseinfo"
 

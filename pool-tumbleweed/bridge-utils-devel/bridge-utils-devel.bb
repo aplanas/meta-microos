@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.7.1"
 
-RPM_NAME = "bridge-utils-devel-1.7.1-1.9.aarch64.rpm"
-RPM_HASH = "66ffc3977725055444051b9dad128ae3505dcfe7afb7e9b3b742b2af1ee764968b2147a254045eb053fd879d50260cf60c95aa5d00ab821864f5bc3452ef4e93"
+RPM_NAME = "bridge-utils-devel-1.7.1-1.10.aarch64.rpm"
+RPM_HASH = "4b2e7aecf6833d7e96f422d3da80f1e2f851c4c66322a6e9d5f823c9566c5c2bc14804c22cd04fdc8cd2dfbc7f509b53850dd418dcd6a5741f367ec6a44298d7"
 
 RPROVIDES:${PN} += "bridge-utils-devel"
 

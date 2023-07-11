@@ -19,8 +19,8 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.0701"
 
-RPM_NAME = "perl-MooseX-GlobRef-0.0701-9.24.noarch.rpm"
-RPM_HASH = "39a8e08a1697bdc1bb5496bf13cc8d60dd5a3624dfa6898d935691798f7a7e60594608d257ee2eec0cfa70aae5ff6c6d29f85422e7374afac6d7b431b92bbaeb"
+RPM_NAME = "perl-MooseX-GlobRef-0.0701-9.25.noarch.rpm"
+RPM_HASH = "2730a93457481062cda57d1078110fd413482b98a69150cfca5864638c7042b934208dad8cd1831fa12485b26609a4fb5d85ae6180d7f732bdc236a97d802b6b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooseX--GlobRef \
@@ -29,7 +29,7 @@ perl-MooseX--GlobRef--Role--Meta--Instance \
 perl-MooseX--GlobRef--Role--Object \
 perl-MooseX-GlobRef"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Moose"
 
 inherit rpm

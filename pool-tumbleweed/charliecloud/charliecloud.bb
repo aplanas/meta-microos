@@ -16,8 +16,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.23"
 
-RPM_NAME = "charliecloud-0.23-1.8.aarch64.rpm"
-RPM_HASH = "69d9f26eec3c7fd29094e0b61fbd035733b6a21a3e0d85421617cc8326976e72d2bd00c4e0773afc6ed8c90d12a06a2ab008afe64ec6deee02087182c44cab94"
+RPM_NAME = "charliecloud-0.23-1.9.aarch64.rpm"
+RPM_HASH = "4db3447f2f512faad4b6170535f8ad68e431e79ce55ed5545b958dfd23011e5faa4a539058295e4bfbb60a4d3547a5a8562270ee3f240df0f90a7d3095a821cb"
 
 RPROVIDES:${PN} += "charliecloud"
 

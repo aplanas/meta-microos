@@ -4,11 +4,10 @@ LICENSE = "MIT"
 
 PV = "5.3.1"
 
-RPM_NAME = "python310-influxdb-5.3.1-2.3.aarch64.rpm"
-RPM_HASH = "e1534351d478d9e386e41b892913444aa052b6a0f751241ebcebb7b2d663744264395ccf555d8be5efe93caeb9542162704fdf4a81496c2f3e8d1eb4a4bb6b53"
+RPM_NAME = "python310-influxdb-5.3.1-4.1.aarch64.rpm"
+RPM_HASH = "fe3711c1cb3c5a286a0e7e1a25bff406683dffda3c5d5f3aee6eb2675405f6945d47a02f1ca23b10d3320f63f69675d1030206e3012e9361a9c93c976d5f7bde"
 
-RPROVIDES:${PN} += "python3-influxdb \
-python3.10dist-influxdb \
+RPROVIDES:${PN} += "python3.10dist-influxdb \
 python310-influxdb \
 python3dist-influxdb"
 
@@ -16,7 +15,6 @@ RDEPENDS:${PN} += "python-abi \
 python310-msgpack \
 python310-python-dateutil \
 python310-pytz \
-python310-requests \
-python310-six"
+python310-requests"
 
 inherit rpm

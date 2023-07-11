@@ -4,8 +4,8 @@ LICENSE = "Zlib"
 
 PV = "1.5.1+git20210305.c5cbd53"
 
-RPM_NAME = "libDebugUtils1-1.5.1+git20210305.c5cbd53-1.7.aarch64.rpm"
-RPM_HASH = "7aa2cdbf192eed89750548ea31c1c9bf3aace75eab0a3091c8b99b21390615ed7f1b0b2f21ccfbf392f9c75c2c942501c0a86fe155eb580bd88a00bd664b9ee1"
+RPM_NAME = "libDebugUtils1-1.5.1+git20210305.c5cbd53-1.8.aarch64.rpm"
+RPM_HASH = "a8de3285c45ae52be9014f728d5790ea29bbe1acc277720643e2b16abdb3ede2cc75e0898b5c74ade2df73129113fc2b9392dd4474a1f366c449a96acbf0d529"
 
 RPROVIDES:${PN} += "libDebugUtils.so.1 \
 libDebugUtils1"

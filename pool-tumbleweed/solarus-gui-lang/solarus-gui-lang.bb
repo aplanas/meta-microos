@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.6.5"
 
-RPM_NAME = "solarus-gui-lang-1.6.5-2.15.noarch.rpm"
-RPM_HASH = "e78ca2a8628f1b0c111f4cd1157378572733139fdede367c307d0af1b2e9058ce251aa0bc842e7f6ca4ea7884cd40ed967f4c2e594c72817312685db81bc0e12"
+RPM_NAME = "solarus-gui-lang-1.6.5-2.16.noarch.rpm"
+RPM_HASH = "ca814ae62434d4e19512c3f85b49254d18b1f1c9f266e498a2619b761a50f4b10cb6c5dd58a4c62e1120eab1ceb5cde6a5b98b49fd4299e747305a8cc0bc1ed4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "solarus-gui-lang \

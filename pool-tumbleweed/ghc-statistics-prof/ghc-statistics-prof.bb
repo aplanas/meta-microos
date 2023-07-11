@@ -4,13 +4,13 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.16.2.0"
 
-RPM_NAME = "ghc-statistics-prof-0.16.2.0-1.3.aarch64.rpm"
-RPM_HASH = "73e0345e2a84c5ab16363c02b25d3a8e6c80b1e088811ca1f47158fdaef3851c0717c376cd801659a76a802c11f60acb7facc05c1d0e9b34137a4d5b7ca4f46d"
+RPM_NAME = "ghc-statistics-prof-0.16.2.0-1.6.aarch64.rpm"
+RPM_HASH = "6069bba1f58fdb64150e0e83079c56674f6b8e380db7af2b6236c99307e7efeabf07968ce5341403b17660d7664af6a9bb17f8dcbfd6de4bd7f28834e298819d"
 
-RPROVIDES:${PN} += "ghc-prof-statistics-0.16.2.0-LfIwroNJuQDMt3pStkU86 \
+RPROVIDES:${PN} += "ghc-prof-statistics-0.16.2.0-KAkoTXt1eFLCqUuIxaQQe3 \
 ghc-statistics-prof"
 
-RDEPENDS:${PN} += "ghc-prof-aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP \
+RDEPENDS:${PN} += "ghc-prof-aeson-2.1.2.1-HkN6OtqTngQ9De3CKBnfov \
 ghc-prof-async-2.2.4-Is3H7ZPNMkM5reIoCaqYrF \
 ghc-prof-base-4.17.1.0 \
 ghc-prof-binary-0.8.9.1 \

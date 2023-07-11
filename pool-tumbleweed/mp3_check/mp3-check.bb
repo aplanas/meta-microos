@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.98"
 
-RPM_NAME = "mp3_check-1.98-3.11.aarch64.rpm"
-RPM_HASH = "1de83347b95da1a3db43ed2fd0c3d0c3a7c7a67cf2c3197469cfefe361604735731c12125c23bb27ce67e9b2762bf90db94bd024c623b56e2d988e8bd3b7af93"
+RPM_NAME = "mp3_check-1.98-3.12.aarch64.rpm"
+RPM_HASH = "edbeb6518a344fea191a242638a8fb53f00fd82aa4dbc9ed898d574ada129354ba86d582a5a9151bf1ed15381de6e3b6f94ba51ffba4e8c7b978d32bf4d567aa"
 
 RPROVIDES:${PN} += "mp3-check"
 

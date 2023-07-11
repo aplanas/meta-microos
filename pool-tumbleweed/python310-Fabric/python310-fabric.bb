@@ -14,18 +14,13 @@ suite at a higher level than that provided by e.g. Paramiko (which \
 Fabric itself leverages)."
 LICENSE = "BSD-2-Clause"
 
-PV = "2.7.1"
+PV = "3.0.1"
 
-RPM_NAME = "python310-Fabric-2.7.1-3.4.noarch.rpm"
-RPM_HASH = "6857f95677f2334f919009c9870d0175c72de8237490a4842e833944daface743877c096fdec1ae34f4f54cf1d5386a71b6bae97fe9e26c50017006be4c35dba"
+RPM_NAME = "python310-Fabric-3.0.1-1.1.noarch.rpm"
+RPM_HASH = "df816ca9f3689492df4eacc0ef32594505d27a28222595337da821c1b3cdc9d92eb411ffbe5f2d9bf25513242fb2eff7175e23a80df6a6d7b070db792917d4f2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-Fabric \
-python3-Fabric2 \
-python3-Fabric3 \
-python3-fabric \
-python3-fabric2 \
-python3.10dist-fabric \
+RPROVIDES:${PN} += "python3.10dist-fabric \
 python310-Fabric \
 python310-Fabric2 \
 python310-Fabric3 \
@@ -36,12 +31,9 @@ python3dist-fabric"
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
 /usr/bin/sh \
 python-abi \
-python310-cryptography \
 python310-decorator \
 python310-invoke \
 python310-paramiko \
-python310-setuptools \
-python310-six \
 update-alternatives"
 
 inherit rpm

@@ -6,10 +6,11 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20221103"
 
-RPM_NAME = "python311-libluksde-20221103-3.9.aarch64.rpm"
-RPM_HASH = "15b673051eeccc8f9fbe46e15a8c9e415d7bd3c5811e46e6a0f6c76f5e9b54608acd1a0f380eb5f80c9e288952969fad0815a9b9dc9721313893acdb5923007b"
+RPM_NAME = "python311-libluksde-20221103-3.11.aarch64.rpm"
+RPM_HASH = "409bfb7eb898af31b19c3f69670838d1ce1d9c90671ffb7d8ffb6c7799f9f3145fd86eb1afdbd1228c32bfccdabbdd4641cfa0e133952cbdbaf8b8ba5b077fe4"
 
-RPROVIDES:${PN} += "python311-libluksde"
+RPROVIDES:${PN} += "python3-libluksde \
+python311-libluksde"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libbfio.so.1 \

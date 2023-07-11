@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.3svn38172"
 
-RPM_NAME = "texlive-ecclesiastic-doc-2023.201.0.0.3svn38172-53.1.noarch.rpm"
-RPM_HASH = "31232f03a9b51954a8b244b3fcf8fdfec5b18396a83ffb134a1ec19810ab24842e1e7d53c38fb6cf97c42458c534380e1ddd142d1da100e3d78d12fa967550f9"
+RPM_NAME = "texlive-ecclesiastic-doc-2023.201.0.0.3svn38172-53.2.noarch.rpm"
+RPM_HASH = "d56ed761fe4435893f5731761cb75ef55236c434127ff4e831a043acb9611349d9f9853f5eddebb6680a6971a394bd30d4efa03454d2dbe4d4201446c421ec03"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ecclesiastic-doc"

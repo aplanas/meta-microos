@@ -12,11 +12,10 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.0.0"
 
-RPM_NAME = "python310-pyppmd-1.0.0-1.5.aarch64.rpm"
-RPM_HASH = "605516a40193dcd6c6d6511a6296abe6613d956408c9cf4a59bfe9e84a0ea10ea960d4ac3dcf4cc1b0820194eb7203a8d666f0e0f3343a5fc39211eea5fa33ca"
+RPM_NAME = "python310-pyppmd-1.0.0-2.1.aarch64.rpm"
+RPM_HASH = "c8a296d7b8f23e4abdf9212df1a61c3354fe7b602fe2410a3fd6e0d5c9521193f3e5376b9b2f1b60c544f568abf2633a857792380f0c80e6150dea03fe984ef9"
 
-RPROVIDES:${PN} += "python3-pyppmd \
-python3.10dist-pyppmd \
+RPROVIDES:${PN} += "python3.10dist-pyppmd \
 python310-pyppmd \
 python3dist-pyppmd"
 

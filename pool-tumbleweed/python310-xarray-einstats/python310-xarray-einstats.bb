@@ -4,12 +4,11 @@ LICENSE = "Apache-2.0"
 
 PV = "0.5.1"
 
-RPM_NAME = "python310-xarray-einstats-0.5.1-1.1.noarch.rpm"
-RPM_HASH = "b6ec624221b6998747e4d48683c34213d8f1517a787b0160918eaccbbaeb1ebff28df9a774215355d3996555439dfa3d164d1d02a75546851c3732526dde9146"
+RPM_NAME = "python310-xarray-einstats-0.5.1-1.3.noarch.rpm"
+RPM_HASH = "231e79ac09fb433412571cfbbca58560615b65c2be21f36ea0f7b1349f1d135f52cdd0ee58e954b2ea4a9ecfaebccfc14f6a4a31cf0041ce311d9520f20aa4bb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-xarray-einstats \
-python3.10dist-xarray-einstats \
+RPROVIDES:${PN} += "python3.10dist-xarray-einstats \
 python310-xarray-einstats \
 python3dist-xarray-einstats"
 

@@ -4,13 +4,13 @@ LICENSE = "MIT"
 
 PV = "2.3.4"
 
-RPM_NAME = "python3-ctypeslib2-2.3.4-1.1.noarch.rpm"
-RPM_HASH = "49099df56f1eed2a2fd14cb9cdb662261186aecf58ac1408902deead86aceacb6f0d7e95cdcda271f0206114684efb2eab9075cfb54072dfc8327f6f718eae64"
+RPM_NAME = "python3-ctypeslib2-2.3.4-1.2.noarch.rpm"
+RPM_HASH = "a06c1c6c86af7c25725f8827b34416691c01c03d1e3af08388d5ae686ee9e827961a49fc5f293864e91e32775ac1a4b722604461a14bc4861084aa761badc990"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ctypeslib2 \
-python3.10dist-ctypeslib2 \
-python310-ctypeslib2 \
+python3.11dist-ctypeslib2 \
+python311-ctypeslib2 \
 python3dist-ctypeslib2"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

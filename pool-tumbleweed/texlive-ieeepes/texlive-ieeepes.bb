@@ -4,10 +4,10 @@ and closures, for the IEEE Power Engineering Society \
 Transactions journals."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.4.0svn17359"
+PV = "2023.208.4.0svn17359"
 
-RPM_NAME = "texlive-ieeepes-2023.201.4.0svn17359-52.1.noarch.rpm"
-RPM_HASH = "b8688987454c78e6c4d9496a6652d5e93ca46d3ee842a6d84ba4af91ac32008ef6ab5870a94f72a0b03145eb085ca0ccf0b1581f4f2dc550162880e8ee8f5bdc"
+RPM_NAME = "texlive-ieeepes-2023.208.4.0svn17359-53.1.noarch.rpm"
+RPM_HASH = "0a82f898a08798020429b307c96fd72e983a173e0cce6c928fc48766c6d3fcdb03e0b761447b2dd02918a96785de34be351348280882c8795b7cca8d7085570c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ieeepes.sty \

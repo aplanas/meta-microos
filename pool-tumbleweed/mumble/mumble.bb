@@ -7,8 +7,8 @@ LICENSE = "BSD-2-Clause & BSD-3-Clause"
 
 PV = "1.5.517"
 
-RPM_NAME = "mumble-1.5.517-1.1.aarch64.rpm"
-RPM_HASH = "2cf677d3d68a352dc6d7ad6264f0ba7aea28a13a00302511aac7ff8c1a520c7773de5d3b16e7b8ab5ef8292c31a616583f7550abf70d89892b0773111fbc7f94"
+RPM_NAME = "mumble-1.5.517-1.2.aarch64.rpm"
+RPM_HASH = "4f2a2343cbeffb44d6fe80e06a59db079f2d8c7b422d8f6c8c254be2071b9513d7e7eff66803a4b1e83b1afcd7f0c0c0f10980159d7327d1d481b90f40e19149"
 
 RPROVIDES:${PN} += "libamongus.so \
 libaoc.so \

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.8.5"
 
-RPM_NAME = "picard-lang-2.8.5-1.3.noarch.rpm"
-RPM_HASH = "9745cc1349a5cdb85cae606959345b2d78b263a6d75ab54dfc7ec4f4fa1e335d256fa14f50def7fad0cbe237b1ba06856a9ceb6352c846340b71f9b2e5bfffb3"
+RPM_NAME = "picard-lang-2.8.5-2.1.noarch.rpm"
+RPM_HASH = "f1206f45a35c7ab1acaf3a0beab8a26389b8c91d8d06f3839009f989af88048fbc918a58ac4f5d1d05b45f08f8a69b8e1d8a55b6b14901a8e454dc8dc995fc24"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-picard-af \

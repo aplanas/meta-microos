@@ -43,8 +43,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "6+git20230220.2a49e32"
 
-RPM_NAME = "printer-driver-brlaser-6+git20230220.2a49e32-1.1.aarch64.rpm"
-RPM_HASH = "573ec53f5554f144af0f467867040c3456c0a25a581fdb438251a8a915a19751f35e9067a67283291f9e14d21c749b90a6c2ca115dd89582b50d0f1e572d8d08"
+RPM_NAME = "printer-driver-brlaser-6+git20230220.2a49e32-1.2.aarch64.rpm"
+RPM_HASH = "66a48bd49f4c24a53a20621bcc024527535c2be57ad6718a611f680e3cf5426136ee242a7c5b36a154983958018c6f617b9264eec36575f3a1a5dcde4382d398"
 
 RPROVIDES:${PN} += "postscriptdriver-brother;dcp-1510-series; \
 postscriptdriver-brother;dcp-1600-series; \

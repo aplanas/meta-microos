@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.14"
 
-RPM_NAME = "ghc-foldl-1.4.14-2.3.aarch64.rpm"
-RPM_HASH = "cc8bcc0253fc6dbd7133837cb77d9c97dc26f64e7c5de048904881ade806c87931db4bc58e0920da4a714f1fca44bcf8bbb1e0d7fe1ccad18959ffe20741c17e"
+RPM_NAME = "ghc-foldl-1.4.14-2.6.aarch64.rpm"
+RPM_HASH = "fe237e192e2f820472827cbcd5ff029d47eff28959909c263a3198e9b30aff41165c968f0b3d7fde816b1539acf8d3a98f3e1719efdb13ad85095128647b839f"
 
 RPROVIDES:${PN} += "ghc-foldl \
 libHSfoldl-1.4.14-6AA7lw3dsEK1uUeCGro40c-ghc9.4.5.so"

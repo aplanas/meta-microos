@@ -5,10 +5,10 @@ odsfile package. The documentation was created by automatic \
 conversion of original documentation in the source code."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1qsvn60709"
+PV = "2023.208.0.0.1qsvn60709"
 
-RPM_NAME = "texlive-luaxml-2023.201.0.0.1qsvn60709-52.1.noarch.rpm"
-RPM_HASH = "79d08e70841910589a3b9cac0d5377057965f9ee4c7e80d11c0ce27fb96eeaf4294ee006a38195a126b68d54bf8e309dc32c47e9c8e6e2430ea39c7e863196de"
+RPM_NAME = "texlive-luaxml-2023.208.0.0.1qsvn60709-53.1.noarch.rpm"
+RPM_HASH = "0826b0ba727d3bb2c3cbd895008498c22972879433566c223c04a6c74dbaa5155f5ec06de2fa7c74742b804d7525d65a9bcfd4eefd0408d3a4bb38ea943d8406"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-luaxml"

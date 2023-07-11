@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "python311-schedule-1.1.0-3.6.noarch.rpm"
-RPM_HASH = "ebdb4d77aeb8376238351cb43fae6840f3e70917897e155f95271783be5be5deacd5f2f7a12a0459818cde2fa73305705fa8fcd107bbf10c681f2f35ae8fe392"
+RPM_NAME = "python311-schedule-1.1.0-3.8.noarch.rpm"
+RPM_HASH = "f000524c9f941891762ad81d8afd161474ff5e08d06453ab9b2884242a7124d47f03d86900e6f40cd1f98233f423f5e8fd7b210789f3d286dd397c8159e2454f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-schedule \
+RPROVIDES:${PN} += "python3-schedule \
+python3.11dist-schedule \
 python311-schedule \
 python3dist-schedule"
 

@@ -7,8 +7,8 @@ LICENSE = "CPL-1.0 & IPL-1.0 & GPL-2.0-or-later"
 
 PV = "4.12.0"
 
-RPM_NAME = "sleuthkit-4.12.0-1.3.aarch64.rpm"
-RPM_HASH = "9ea1797fb98d77e98ab2322e3941d0231ba8700457b54737a4810fb375b77014b4baf9fddedb214b12439568bcdb774100d3ebbb2ab08849d16b886ea57b33fb"
+RPM_NAME = "sleuthkit-4.12.0-1.4.aarch64.rpm"
+RPM_HASH = "54cdc9891fd3e772c49abc82de16389d5792fe806569d0f31541d802f9f3b7463df7bab0eeeaec9cc642fc5db49bed7be93a904d58430a2dc23e3375f622eddd"
 
 RPROVIDES:${PN} += "fiwalk \
 sleuthkit"

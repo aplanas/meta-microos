@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.3.17"
 
-RPM_NAME = "libprocps8-3.3.17-12.3.aarch64.rpm"
-RPM_HASH = "87e036f1497055819b7304baa111354f21880332332d7eb6a775855c9d38d7a2196be16a6f401b944986fdc6c99e8e95b6bf7abe09cbc08d5e59a14dca3fa193"
+RPM_NAME = "libprocps8-3.3.17-12.4.aarch64.rpm"
+RPM_HASH = "4c64c01a608d906daf243bf0f76f870011eb488fb52f16f327a00a6677778e0faced64df8c0fd2b56f4df3af7b448b14ace5099314dce50202aeb21fbe4e70ce"
 
 RPROVIDES:${PN} += "libprocps.so.8 \
 libprocps8"

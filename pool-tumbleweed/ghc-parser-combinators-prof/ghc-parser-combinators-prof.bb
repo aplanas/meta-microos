@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.0"
 
-RPM_NAME = "ghc-parser-combinators-prof-1.3.0-2.3.aarch64.rpm"
-RPM_HASH = "3f91046c29aed7710a900f7b1acc65cb0d08a5349816db8779b9af79ddf5237ccded541ac5872944809bc7b8ad4cb8ed8057188366b58e84fdf67b02eb0ec2fc"
+RPM_NAME = "ghc-parser-combinators-prof-1.3.0-2.6.aarch64.rpm"
+RPM_HASH = "7194ac9a4dd6e3a46ca9743335a7de2718f5b217a28bd11cfa4257fe82ce673752e99b5b756f6dc8dc6b47fc28a0c93eaf51499b8c57e0cabdfbe85169ffd08b"
 
 RPROVIDES:${PN} += "ghc-parser-combinators-prof \
 ghc-prof-parser-combinators-1.3.0-69OkkuibEVDB76y6u8xJBt"

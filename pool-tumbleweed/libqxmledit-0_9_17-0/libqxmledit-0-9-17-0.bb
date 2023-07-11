@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.0-or-later & LGPL-3.0-or-later"
 
 PV = "0.9.17"
 
-RPM_NAME = "libqxmledit-0_9_17-0-0.9.17-1.5.aarch64.rpm"
-RPM_HASH = "a520e5260c950d1b89537dfda61c60e19b16b72c8abcc72c23b364e1fe82b0a877a7b2edd1d83a20ac7fb9fc4696d595bec4fda288a1d421067b638aa12f72d5"
+RPM_NAME = "libqxmledit-0_9_17-0-0.9.17-1.6.aarch64.rpm"
+RPM_HASH = "d311c9ee08cffa18561e8e12be2c7ab2b34d2ceaa6c9bf240693e25f32e9c50b12da07c0c2bad5b446c0642f673fc5d735eaeb048544b242da9bfab177e1de3e"
 
 RPROVIDES:${PN} += "libQXmlEditSessions.so.0 \
 libQXmlEditWidget.so.0 \

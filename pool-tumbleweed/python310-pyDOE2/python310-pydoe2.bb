@@ -9,12 +9,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.0"
 
-RPM_NAME = "python310-pyDOE2-1.3.0-2.9.noarch.rpm"
-RPM_HASH = "3ce513c80b14800cd0d8f93211a8bb03ffcdcabc8434cc69cfee88a008652ba2e95cd0dd4a241e501cd1dc8fe51c2ebc635ded487559dc800203ae7789a82c16"
+RPM_NAME = "python310-pyDOE2-1.3.0-2.11.noarch.rpm"
+RPM_HASH = "270a0a5cfc60522dd0b3a82e4d48ec719add0cfef05e06c5f6e03257236ee589a250a20aed970c14e89f5724fd4d03568bc2c0d4f116473f3d07f5559d9c3fe9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pyDOE2 \
-python3.10dist-pydoe2 \
+RPROVIDES:${PN} += "python3.10dist-pydoe2 \
 python310-pyDOE2 \
 python3dist-pydoe2"
 

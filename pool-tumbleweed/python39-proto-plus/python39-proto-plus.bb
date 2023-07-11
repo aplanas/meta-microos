@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.22.2"
 
-RPM_NAME = "python39-proto-plus-1.22.2-1.2.noarch.rpm"
-RPM_HASH = "fd438821b991804801265ce27d3b2130a72e0fe433d7b210d064a21476944f9e8bc90b8d6032daea70d2411f69a2b793946b803217e2e3b7fd2a160d0dd36699"
+RPM_NAME = "python39-proto-plus-1.22.2-1.4.noarch.rpm"
+RPM_HASH = "e387750c1331bdc600a7caa2a4334837baafade8afad622a5a95b6359d37ff770f0e01e99c886e8223c5b07ce760860a6fcf8e7d30dcc6f211fb533545b64694"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-proto-plus \

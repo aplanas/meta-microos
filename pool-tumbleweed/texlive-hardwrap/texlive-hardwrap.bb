@@ -9,8 +9,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.2svn21396"
 
-RPM_NAME = "texlive-hardwrap-2023.201.0.0.2svn21396-53.1.noarch.rpm"
-RPM_HASH = "ed9c890949af1d2e886b60091e8e853d9ee2eb928009a2f81e22b146043da0ae6ed2973223aebfeb30fc52acc5ea4c2d12b72d3a0c5dabd43bdb9c22263446f1"
+RPM_NAME = "texlive-hardwrap-2023.201.0.0.2svn21396-53.2.noarch.rpm"
+RPM_HASH = "19a73eb29048f09dcb478e8ad8492576cf417594f0ec8bae6902eacc51651a651b5d2b782c2636aecefc601bfc8063246509bcf1ff0af17d13d96b854e839116"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hardwrap.sty \

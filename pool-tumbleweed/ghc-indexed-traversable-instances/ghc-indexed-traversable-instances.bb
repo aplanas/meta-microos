@@ -11,13 +11,13 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.1.1.2"
 
-RPM_NAME = "ghc-indexed-traversable-instances-0.1.1.2-1.2.aarch64.rpm"
-RPM_HASH = "4e9da1b75277a6e73f0a900f07e9f33ec8c02542eccb827e937f37843519183211f0de64b19953c44f0cf444d1a8c8e37531caec55bbe74f58a963cec4eed4dc"
+RPM_NAME = "ghc-indexed-traversable-instances-0.1.1.2-1.3.aarch64.rpm"
+RPM_HASH = "f13d9b61432315110f5821fa795fc8e6b42dde79142e1d19489cc706466d963c13687ba6aca8d2a8aa3c49c65f8776088e85d4c0963bc3f5217560bcecd9637e"
 
 RPROVIDES:${PN} += "ghc-indexed-traversable-instances \
-libHSindexed-traversable-instances-0.1.1.2-9bsLKqKio7c19LOJlUsRRO-ghc9.4.5.so"
+libHSindexed-traversable-instances-0.1.1.2-5OovVMCdJKzAImUo6B0vBJ-ghc9.4.5.so"
 
-RDEPENDS:${PN} += "libHSOneTuple-0.3.1-IKxZBiZNgF5H3QnFEzgDrd-ghc9.4.5.so \
+RDEPENDS:${PN} += "libHSOneTuple-0.4.1.1-Fgk8ylTtnzLBSBvZAI1OoV-ghc9.4.5.so \
 libHSarray-0.5.4.0-ghc9.4.5.so \
 libHSbase-4.17.1.0-ghc9.4.5.so \
 libHSbinary-0.8.9.1-ghc9.4.5.so \

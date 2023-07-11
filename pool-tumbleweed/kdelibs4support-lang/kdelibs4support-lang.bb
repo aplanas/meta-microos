@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kdelibs4support"
 DESCRIPTION = "Provides translations for the 'kdelibs4support' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "kdelibs4support-lang-5.106.0-1.1.noarch.rpm"
-RPM_HASH = "c9f9b079b11b6704127e24a61275a3103682476ba93ef420e44f179f9329389fff5081771d95afe7a80392ff53123e690b653e700ac04b3e86b8c9a819728004"
+RPM_NAME = "kdelibs4support-lang-5.107.0-1.1.noarch.rpm"
+RPM_HASH = "8c093b1a84ab0c9e6e61bffc190ab8436a67d54675902d60ca1bcc45c0088d8e878b6c3c4fea72599d73509f9b2b5339663ba7b24fee086e31efa369d9359e66"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kdelibs4support-lang \

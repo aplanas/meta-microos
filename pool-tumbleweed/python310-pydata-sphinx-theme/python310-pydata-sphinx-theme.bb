@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.13.1"
 
-RPM_NAME = "python310-pydata-sphinx-theme-0.13.1-2.1.noarch.rpm"
-RPM_HASH = "9c9145b802b9aadecbbc23832d7ff1ecd6cee34480ee97879e3aa0b0b7ae4027aeb5946e29b70d0257b2ae5fc66314ed9e4ee2b2875e2cc2c248ae96e16fe59f"
+RPM_NAME = "python310-pydata-sphinx-theme-0.13.1-2.2.noarch.rpm"
+RPM_HASH = "ee0dea4dc3e20fdade0287deee9bd65ce7cb90a13a14c60b7f5cf549513597bb18ac3988d6f31276ffe7619deb4b35ba23725ad13b7c7a52e352de9411570de2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pydata-sphinx-theme \
-python3.10dist-pydata-sphinx-theme \
+RPROVIDES:${PN} += "python3.10dist-pydata-sphinx-theme \
 python310-pydata-sphinx-theme \
 python3dist-pydata-sphinx-theme"
 

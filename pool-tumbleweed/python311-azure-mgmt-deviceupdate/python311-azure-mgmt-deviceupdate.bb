@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "1.0.0.0"
 
-RPM_NAME = "python311-azure-mgmt-deviceupdate-1.0.0.0-1.3.noarch.rpm"
-RPM_HASH = "7f437d34fcfe10f38b286855c5a743d64cf3d607f49b61879e0ea458fb6722658c7a1cba05e69d1cbb14928c0f99ee1e55986b1af2c24c6f76ed355d31efba2b"
+RPM_NAME = "python311-azure-mgmt-deviceupdate-1.0.0.0-1.4.noarch.rpm"
+RPM_HASH = "b5a400ed67f4906b3332ebdf0433a85caabb2c1f08759982a69d67187405c7828f7280417a6caa9b99883a294cb44a37bea735de64343aa6ee9d3a38302b8448"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-deviceupdate \
+RPROVIDES:${PN} += "python3-azure-mgmt-deviceupdate \
+python3.11dist-azure-mgmt-deviceupdate \
 python311-azure-mgmt-deviceupdate \
 python3dist-azure-mgmt-deviceupdate"
 

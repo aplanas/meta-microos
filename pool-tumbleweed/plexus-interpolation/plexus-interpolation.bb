@@ -7,8 +7,8 @@ LICENSE = "Apache-1.1 & Apache-2.0 & MIT"
 
 PV = "1.26"
 
-RPM_NAME = "plexus-interpolation-1.26-2.6.noarch.rpm"
-RPM_HASH = "3bc420488f87907a5adac9ca9b100f43c4de9742d8a93965db58d702c6dc26bbaf9bb669b6e8143cee638055e38ea62c29b5d47ec476d75c44576d964f4e83c1"
+RPM_NAME = "plexus-interpolation-1.26-2.7.noarch.rpm"
+RPM_HASH = "f37d731060dd33444da77066effb721c2090bac506223f4c965098fe53dab97eba0a9d63590b85d702ba8c735443c765288552b3007977e894eb23636694b8ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.codehaus.plexus-plexus-interpolation \

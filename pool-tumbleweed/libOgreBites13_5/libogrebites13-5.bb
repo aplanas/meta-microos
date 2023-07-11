@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "13.5.3"
 
-RPM_NAME = "libOgreBites13_5-13.5.3-1.5.aarch64.rpm"
-RPM_HASH = "974f620f62092c2764a7be360ce6a860c852ac069ec12cf0c703ac8e8266cac3323e44d8ed367ad0e78ebbb2f1d836316e6b00be4a46d0df93a4e5b7395bceff"
+RPM_NAME = "libOgreBites13_5-13.5.3-2.2.aarch64.rpm"
+RPM_HASH = "3c420051fd7861830485a1ed450d358459c0d56bb4b6afc11b44a32d93230d1e46f94103ae2b146970130cf1f210bb2546a93bd5334ca71405c25d0777aff67b"
 
 RPROVIDES:${PN} += "libOgreBites.so.13.5 \
 libOgreBites13-5"
@@ -22,7 +22,6 @@ libXaw.so.7 \
 libXt.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
-libm.so.6 \
 libstdc++.so.6"
 
 inherit rpm

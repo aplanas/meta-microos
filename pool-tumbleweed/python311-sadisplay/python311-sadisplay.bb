@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.9"
 
-RPM_NAME = "python311-sadisplay-0.4.9-2.17.noarch.rpm"
-RPM_HASH = "956c7f6d38a097895fd8e71e00e4499db6df2491ae2dce12b8184359ce5541ff6556d48459981645cf1d25a099092017ec193af45b352e55637806000e504c56"
+RPM_NAME = "python311-sadisplay-0.4.9-2.18.noarch.rpm"
+RPM_HASH = "f621ee7586bc4ffa5c93a251784d2369a0de523ec568831b9d3b81877e9e66492644cb22b09e3f37ddbccc9f55ad70fa0eeb632049141872c305845c261750b5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-sadisplay \
+RPROVIDES:${PN} += "python3-sadisplay \
+python3.11dist-sadisplay \
 python311-sadisplay \
 python3dist-sadisplay"
 

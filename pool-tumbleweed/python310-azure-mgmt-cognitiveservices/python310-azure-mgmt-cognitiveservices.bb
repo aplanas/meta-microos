@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "13.4.0"
 
-RPM_NAME = "python310-azure-mgmt-cognitiveservices-13.4.0-1.3.noarch.rpm"
-RPM_HASH = "5e5e0deb33fdcf065d9214e60882e40bfd153ffc5853837124a8006b7798503ac427e19ca444c2ff65ad593b38b8e89ce9f3d9ad685a600128e053fdfda77a26"
+RPM_NAME = "python310-azure-mgmt-cognitiveservices-13.4.0-1.4.noarch.rpm"
+RPM_HASH = "f6da2e96175743576439fa87efc47692c96ff3611c11bee8ef70c50954910c138e555dec405f79737c1c452a0d5c42a2ea9809901783a19fd5640d4363639b62"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-cognitiveservices \
-python3.10dist-azure-mgmt-cognitiveservices \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-cognitiveservices \
 python310-azure-mgmt-cognitiveservices \
 python3dist-azure-mgmt-cognitiveservices"
 

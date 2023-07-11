@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "4.6.2"
 
-RPM_NAME = "yast2-ruby-bindings-4.6.2-1.1.aarch64.rpm"
-RPM_HASH = "4553f65cb6f2b4e2868987062921e30aa949d26522732f5d3fc8dfc6ff932868e8d665f2cc2d24fcf6a44d286c1dfe467578090bda18678f06161d225139cfdb"
+RPM_NAME = "yast2-ruby-bindings-4.6.2-1.2.aarch64.rpm"
+RPM_HASH = "674b17a9b028d12f7f14d75e3913f70c173187301cd113f59874e0653cc82b88bd296392397123e0b033a3a6d7fb8c3f9eb13868df1631885447354411154aa1"
 
 RPROVIDES:${PN} += "libpy2lang-ruby.so \
 yast2-ruby-bindings"

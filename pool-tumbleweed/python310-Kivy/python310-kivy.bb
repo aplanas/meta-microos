@@ -3,13 +3,12 @@ DESCRIPTION = "Kivy is a library for development of applications that make use o
 user interfaces, such as multi-touch apps."
 LICENSE = "Apache-2.0 & MIT & LGPL-2.1-or-later & GPL-2.0-or-later & GPL-3.0-only & BSD-3-Clause"
 
-PV = "2.1.0"
+PV = "2.2.0"
 
-RPM_NAME = "python310-Kivy-2.1.0-3.6.aarch64.rpm"
-RPM_HASH = "c44864b98bfbd9f9e93fbecc2d37aa9b92f5a514d9666106eb877dd216162b00338c399b11749ca94a66777ed1c8b1a13d97a71bf4cf4104fd55700df6010dcf"
+RPM_NAME = "python310-Kivy-2.2.0-1.2.aarch64.rpm"
+RPM_HASH = "68bd4bf8e635363ad9c96cab0a174ad41cd073d5a0fade08a195380af8348e7cd697464cf0baed8323296c32c87df17ca20164cf84de033181fbe9780a518b8f"
 
-RPROVIDES:${PN} += "python3-Kivy \
-python3.10dist-kivy \
+RPROVIDES:${PN} += "python3.10dist-kivy \
 python310-Kivy \
 python3dist-kivy"
 

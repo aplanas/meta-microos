@@ -2,12 +2,12 @@ SUMMARY = "Haskell easy-file library development files"
 DESCRIPTION = "This package provides the Haskell easy-file library development files."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.2.3"
+PV = "0.2.5"
 
-RPM_NAME = "ghc-easy-file-devel-0.2.3-1.3.aarch64.rpm"
-RPM_HASH = "6dfe5ea481ae968ed5d6f36c9f92b13f3108cdc8256615a7159f959b0dcb010daeeffb2784c55bc660a37a89d57dbbe9e9651aa456c1b7da5565b7860f8dc176"
+RPM_NAME = "ghc-easy-file-devel-0.2.5-1.3.aarch64.rpm"
+RPM_HASH = "083e322f2c3532ea93e565501fcd3133a96e30bd4bde000f8d7bd8b6afe2a8f69bb57488b0883accf2d316637006e781a98620690939b94a25bbefdeb41d763c"
 
-RPROVIDES:${PN} += "ghc-devel-easy-file-0.2.3-Bwh7vXkS9r2GpL1fsuKjo4 \
+RPROVIDES:${PN} += "ghc-devel-easy-file-0.2.5-Eune3nGPx4BABAmiN3TyxF \
 ghc-easy-file-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

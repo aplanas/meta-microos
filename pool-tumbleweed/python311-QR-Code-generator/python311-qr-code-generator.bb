@@ -6,10 +6,11 @@ LICENSE = "MIT"
 
 PV = "1.6.0"
 
-RPM_NAME = "python311-QR-Code-generator-1.6.0-1.12.aarch64.rpm"
-RPM_HASH = "43fc7fba12df88004d1d3d42f7560a9d32392902dfa107c73897528db422f54886f07b337fd1623599a941f081bf7223ff7783df11696fefc8d96d2652654ff4"
+RPM_NAME = "python311-QR-Code-generator-1.6.0-1.13.aarch64.rpm"
+RPM_HASH = "a909395982f641413cf18f006a812bef86bf3601d6ce570dccd8b1b8a179ad9d8f4f8a85fd4cafd2cfe10649b87d730e172902ddad907e13078c69d4a90949f2"
 
-RPROVIDES:${PN} += "python3.11dist-qrcodegen \
+RPROVIDES:${PN} += "python3-QR-Code-generator \
+python3.11dist-qrcodegen \
 python311-QR-Code-generator \
 python3dist-qrcodegen"
 

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.4+git20180804.fff99cd"
 
-RPM_NAME = "libquicktime-tools-1.2.4+git20180804.fff99cd-4.1.aarch64.rpm"
-RPM_HASH = "c3c6489c9262d0105811722b681e6cc1f602dcceca46cfacb11316fbd295f976a0b70ba0d5cd1eaae335d7dd9118addbcdd68289e50e848d8f0bc62677ded98d"
+RPM_NAME = "libquicktime-tools-1.2.4+git20180804.fff99cd-4.2.aarch64.rpm"
+RPM_HASH = "83856bf12cd622379c3b2874ae448e8f4facf463062a796c89e30b1675f7a554fd7174184370daa2f539ab010daf128f5ef0eeb354b648da846beffe7a375524"
 
 RPROVIDES:${PN} += "libquicktime-tools"
 

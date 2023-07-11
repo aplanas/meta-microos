@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.7.0"
 
-RPM_NAME = "xfburn-0.7.0-1.3.aarch64.rpm"
-RPM_HASH = "b4f08eebeac79e3a432e951a1adc451de99ba628c6509cdb51a8ff903c10ca04dd1d4c6a8a90b6067b6e7f3c10e38a00bcfb1accfbe14730c770153432646337"
+RPM_NAME = "xfburn-0.7.0-1.4.aarch64.rpm"
+RPM_HASH = "c8e1e74cab208fa1b05748e1b5f39c616500fad6f2cbd910d24485af30b6eeb74e9fc36855eea72d7dba9474795983150d4ad9074e52e61d9789a366acee15af"
 
 RPROVIDES:${PN} += "xfburn"
 

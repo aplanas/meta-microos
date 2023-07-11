@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.10.34"
 
-RPM_NAME = "gimp-plugin-aa-2.10.34-4.1.aarch64.rpm"
-RPM_HASH = "0bef46ae201bf0c1883833661e7e35460ba8a7445ab35caf1ecb1880a5cbb718cede9f2067b30890c25f7ea42c98de3977c7c61078e0cfd93e41907a62ac26ff"
+RPM_NAME = "gimp-plugin-aa-2.10.34-5.1.aarch64.rpm"
+RPM_HASH = "2f18ca2a725f8cf7d07cb70c0e3ce37d8e40eebc6aaea7fc883aa5ad3bf1483a4c87f1f49e22bacd7f159fd468eb4fe68e9c3fb079a6a148702cb6172a9d97fe"
 
 RPROVIDES:${PN} += "gimp-plugin-aa"
 

@@ -10,8 +10,8 @@ LICENSE = "Apache-2.0"
 
 PV = "4.3"
 
-RPM_NAME = "avalon-framework-4.3-4.6.noarch.rpm"
-RPM_HASH = "a451800260d1aaf3a55e58062c75632b9f033f570805d7d0545577c41be1aeccff2869b2d1e7d5833b14c3f8a2b882b2e0d2b632de9fa41d0dee794360c783bc"
+RPM_NAME = "avalon-framework-4.3-4.7.noarch.rpm"
+RPM_HASH = "3705cbe5415b12eaf4a1fd3d5341d606b272fe68fad57caafb84595582b3d0bbb4ed7e92083d442ededa33bac6f23fbadf6468a54e8ba6e018ab5d12d2c8f864"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "avalon-framework \

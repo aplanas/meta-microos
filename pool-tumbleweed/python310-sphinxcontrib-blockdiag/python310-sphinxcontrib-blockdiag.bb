@@ -4,12 +4,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "3.0.0"
 
-RPM_NAME = "python310-sphinxcontrib-blockdiag-3.0.0-3.3.noarch.rpm"
-RPM_HASH = "8cbd411578997258633f76d8fa794f668b62da64d574cd9a29c34d179d17b5bfb4bef0cd37f03f973ea6774b13b72f04a8dcfd89b9c90b393a21321c53a08608"
+RPM_NAME = "python310-sphinxcontrib-blockdiag-3.0.0-3.5.noarch.rpm"
+RPM_HASH = "25ad0f1777dcdefc94a091f389f0adb1b6b7d9f4283da34af7ce6741c217b7b99bb61def0bd2dc9a9a69e1f5d2793fcbe084059ccc7c4079ca8acd6a550d80a2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-sphinxcontrib-blockdiag \
-python3.10dist-sphinxcontrib-blockdiag \
+RPROVIDES:${PN} += "python3.10dist-sphinxcontrib-blockdiag \
 python310-sphinxcontrib-blockdiag \
 python3dist-sphinxcontrib-blockdiag"
 

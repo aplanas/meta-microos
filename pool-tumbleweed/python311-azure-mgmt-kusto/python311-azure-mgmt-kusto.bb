@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "3.1.0"
 
-RPM_NAME = "python311-azure-mgmt-kusto-3.1.0-1.2.noarch.rpm"
-RPM_HASH = "ba8445c57129b0615ac21d208cda83aff5783bd1b2aacae8b0bc415615d13b1eb0a4464b529812107758a0f18a549e0b2d04f5deb08bac13f60943077e6b06bd"
+RPM_NAME = "python311-azure-mgmt-kusto-3.1.0-1.3.noarch.rpm"
+RPM_HASH = "b99753289f05fac8c7bf8af92cc61fed494ae3418e75ad13e69177d67ca21d5ea75f896c5a53ad4259313e940be0ce43603362f0d82973e50a2c7f6823a567eb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-kusto \
+RPROVIDES:${PN} += "python3-azure-mgmt-kusto \
+python3.11dist-azure-mgmt-kusto \
 python311-azure-mgmt-kusto \
 python3dist-azure-mgmt-kusto"
 

@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "4.1.0"
 
-RPM_NAME = "python310-pytest-cov-4.1.0-1.1.noarch.rpm"
-RPM_HASH = "974ec0fd508fbc267227d126d8e0444fcdda018a46834990854e77df9f782829add8015fe990c3269d59eccd0153f1a21241d3334a2ae22abea19898f0b6c732"
+RPM_NAME = "python310-pytest-cov-4.1.0-1.2.noarch.rpm"
+RPM_HASH = "d8dd5feac15bd6da8226c16bac42cbaa38f6e3308ebf4e2582a2a820dfadaf9884ceeafaada775405215e78d5b86c4ef262c50acec0afba6f72f3a1fb1f7907e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pytest-cov \
-python3.10dist-pytest-cov \
+RPROVIDES:${PN} += "python3.10dist-pytest-cov \
 python310-pytest-cov \
 python3dist-pytest-cov"
 

@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains all necessary include files and libraries n
 to develop applications that require these."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.3"
+PV = "1.22.4"
 
-RPM_NAME = "gstreamer-devel-1.22.3-1.1.aarch64.rpm"
-RPM_HASH = "72598d2e0de6f0f2696470cdf428856ba70f8e6e51ebc48967d51da7ccbdf06fcf0128bca1a8ee25c2d4259d190ae5a252f6ba75db59281a4548bfb3205489f5"
+RPM_NAME = "gstreamer-devel-1.22.4-1.1.aarch64.rpm"
+RPM_HASH = "e13d402733a999aaa8cc92e5142c209386910e4d6d215eb0f6f76145176647a4b3ec30ad7bd9ba421ca9e6465671a3b5fe7cc22c8f9ebee985fbeee6e493bf9c"
 
 RPROVIDES:${PN} += "gstreamer-devel \
 pkgconfig-gstreamer-1.0 \

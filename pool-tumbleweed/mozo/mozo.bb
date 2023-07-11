@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.26.2"
 
-RPM_NAME = "mozo-1.26.2-1.2.noarch.rpm"
-RPM_HASH = "4844bdcf19841cf10b9211b1855f39a45f837373ebac012ea23a953511eb08ee90664134fabc486a0bca6c32e3e04696e3801b303f62d6fa23ab2f4002c85b1f"
+RPM_NAME = "mozo-1.26.2-1.3.noarch.rpm"
+RPM_HASH = "1d2feb095e93418f030ffcc7faffbff4b35fdd890cdf019a67ebbd25fa3fe963118783305f1541f759499a0e03c9254be0cc0cb38ba595235c00dbe2991a8062"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mate-menu-editor \

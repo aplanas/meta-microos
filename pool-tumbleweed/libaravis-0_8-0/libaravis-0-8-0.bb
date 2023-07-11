@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.8.26"
 
-RPM_NAME = "libaravis-0_8-0-0.8.26-1.1.aarch64.rpm"
-RPM_HASH = "0af0e1ba052e6e2b3576f0d6f9d0945f9eb9d590f7007f4bf5c57ccd2e980bfc3f14494073058ea2f8436cc1806be71c9942cb67d2e2d3f7f0c387d71fe48c82"
+RPM_NAME = "libaravis-0_8-0-0.8.26-1.2.aarch64.rpm"
+RPM_HASH = "ec13b8c32db92c4fe482d3e7dc8ebbc2c2deef492d97ba67993c5d58f8de3b7cc552640926bd0bf8598976fffe2f59eebbac8afa3f9213c29f7cd868edf5f0da"
 
 RPROVIDES:${PN} += "libaravis-0-8-0 \
 libaravis-0.8.so.0"

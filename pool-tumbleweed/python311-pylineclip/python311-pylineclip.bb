@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python311-pylineclip-1.0.0-2.10.noarch.rpm"
-RPM_HASH = "a1bbb46cd23d83fc2cd8ef1376fe0fd955d12b1662994ce85b9c8fb5527f55964df9f3dc53d564b99008250cfdc8e5ecc6192f802f578f056f5cdeacc0c7b7e4"
+RPM_NAME = "python311-pylineclip-1.0.0-2.12.noarch.rpm"
+RPM_HASH = "ce952cb9b04ef623716feb0ea6aacf769722df6712c5629c3554393b5a85b3c6bf0bb916002acb3eebbc6625a1aa0165d288e324970c83288b8d8b35ad19b495"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pylineclip \
+RPROVIDES:${PN} += "python3-pylineclip \
+python3.11dist-pylineclip \
 python311-pylineclip \
 python3dist-pylineclip"
 

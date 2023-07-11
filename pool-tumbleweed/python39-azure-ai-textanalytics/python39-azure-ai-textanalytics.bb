@@ -10,10 +10,10 @@ processing over raw text, and includes six main functions: \
 * Key Phrase Extraction"
 LICENSE = "MIT"
 
-PV = "5.2.1"
+PV = "5.3.0"
 
-RPM_NAME = "python39-azure-ai-textanalytics-5.2.1-1.3.noarch.rpm"
-RPM_HASH = "a194ac1cff053e9408f772953885f541901d568f4bfd2fa6f644a2e583d179585378b4a87add02845f5680ebef4ba6b240fd2a861d8c101b2999e68a03360386"
+RPM_NAME = "python39-azure-ai-textanalytics-5.3.0-1.1.noarch.rpm"
+RPM_HASH = "750752f9ccac2cc9285c2575e7c32889a06472e138c2605baf894da5809a3295112e31992c0aa19dd5dbbce461967c501c7437607cb9bd268e8bc3216c992b5b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-ai-textanalytics \
@@ -24,7 +24,7 @@ RDEPENDS:${PN} += "python-abi \
 python39-azure-ai-nspkg \
 python39-azure-common \
 python39-azure-core \
-python39-msrest \
+python39-isodate \
 python39-typing-extensions"
 
 inherit rpm

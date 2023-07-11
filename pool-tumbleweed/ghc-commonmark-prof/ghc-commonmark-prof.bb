@@ -2,13 +2,13 @@ SUMMARY = "Haskell commonmark profiling library"
 DESCRIPTION = "This package provides the Haskell commonmark profiling library."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.2.2"
+PV = "0.2.3"
 
-RPM_NAME = "ghc-commonmark-prof-0.2.2-2.3.aarch64.rpm"
-RPM_HASH = "c7bc234a2e72482a901c4ade1833e846827f30391cc741145ea0dee6ca06a0c61e6801b0da1047fc3b6bdfdd874c8f8c9329937f836e1511a3f8117b3365fd19"
+RPM_NAME = "ghc-commonmark-prof-0.2.3-1.2.aarch64.rpm"
+RPM_HASH = "1601a3c6419192cb45402b7c09c836fa9797d55cde1e122206f199c4028150e4d8760d6bdfe6f27ddc71bb8461ad7d09a2cdf6d6753ee1b1b524bc746c1f122d"
 
 RPROVIDES:${PN} += "ghc-commonmark-prof \
-ghc-prof-commonmark-0.2.2-3PrTrnYGJolB2uRqWVubZz"
+ghc-prof-commonmark-0.2.3-I1mjDgOYrWfJTVx5dvVv0G"
 
 RDEPENDS:${PN} += "ghc-commonmark-devel \
 ghc-prof-base-4.17.1.0 \

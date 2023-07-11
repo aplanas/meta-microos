@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.5.1"
 
-RPM_NAME = "thunar-plugin-archive-lang-0.5.1-1.1.noarch.rpm"
-RPM_HASH = "9750ebcf1212fd67207965ac1e69822baf691f9bdfc7abb6e93fe1f94bfd18ff066a7b20ec5e6481451cd12aafadd945f9cd35c5b8bdfb45e4dd15e7e62d76ff"
+RPM_NAME = "thunar-plugin-archive-lang-0.5.1-1.2.noarch.rpm"
+RPM_HASH = "66c61df76b21f92b0c9f2999ce433512504115f96e3fe40521772f302e3790db87dcaf406ecfa048af8f0b15a2d005464a3694c9151b2c095bcb51355ab9ed36"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-thunar-plugin-archive-ar \

@@ -7,11 +7,12 @@ LICENSE = "Apache-2.0"
 
 PV = "0.1.0"
 
-RPM_NAME = "python311-rfc6555-0.1.0-1.5.noarch.rpm"
-RPM_HASH = "e44c04f43f5e5ad9f53f69750f547654c41d519f5f8377889ba0f842638ebcfe3bf8d30cf3f16731d7ffad205cb252b501a8e9831180646b4337a1c3eea5485e"
+RPM_NAME = "python311-rfc6555-0.1.0-1.7.noarch.rpm"
+RPM_HASH = "a950a18837a6a139a2130f4d6bc19ea3c31b7e3ea259413b5982a9f14192f0e7d4066374f76bfaf024f0491259563189cd8d5ee5ed5dff55e97d8f0d9952ea3f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-rfc6555 \
+RPROVIDES:${PN} += "python3-rfc6555 \
+python3.11dist-rfc6555 \
 python311-rfc6555 \
 python3dist-rfc6555"
 

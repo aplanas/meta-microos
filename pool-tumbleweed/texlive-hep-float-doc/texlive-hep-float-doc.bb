@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.1svn64904"
 
-RPM_NAME = "texlive-hep-float-doc-2023.201.1.1svn64904-53.1.noarch.rpm"
-RPM_HASH = "c5480d5034f52eee149ac9bff3139ba3e58b577c358c35af54a303127c9514c64dc6758f43b213b40251f893ad7031c8bdef03fae6c93ebbb1f680afcc6d359b"
+RPM_NAME = "texlive-hep-float-doc-2023.201.1.1svn64904-53.2.noarch.rpm"
+RPM_HASH = "a5d02ac1b127d29b5f613f0eb11c80c186f20ba8c319a5a586be2cd5eb04ddef67a328c8d76a65143f06e802fee99841afb5257c9cefe4036f3113d0e0710a0e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hep-float-doc"

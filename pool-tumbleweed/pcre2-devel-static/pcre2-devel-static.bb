@@ -11,8 +11,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "10.42"
 
-RPM_NAME = "pcre2-devel-static-10.42-3.3.aarch64.rpm"
-RPM_HASH = "d0988fe8c1d5f8a9d53652ecbf687233588e77afd74bbe4e133437166d24d88f400ca9112e1827ae7c179364e703c93b2305cedba3b56b436952af5821950c3b"
+RPM_NAME = "pcre2-devel-static-10.42-3.5.aarch64.rpm"
+RPM_HASH = "2e965f854f2ba091384bfaf307ba2e38378463460f366f4af55a1731aaf9a8504a7ecfe0d39b880589fbd9279adac95afafa3136e2a381ae9a7ea710f651b0e1"
 
 RPROVIDES:${PN} += "pcre2-devel-static"
 

@@ -8,8 +8,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.001039"
 
-RPM_NAME = "perl-DBIx-Class-Fixtures-1.001039-1.17.noarch.rpm"
-RPM_HASH = "285a1d058be9da38aa450df5b36f08304a5374942227f9a5c899e2d0b6a8797c48528630644b3fb31630ebbb429ddc234c97f0b016421ec638f9e5b2ff423dbd"
+RPM_NAME = "perl-DBIx-Class-Fixtures-1.001039-1.18.noarch.rpm"
+RPM_HASH = "b92ccff7637735a95563f5a18b9c2f4db205b45bb447a3125439aef47b3832cec6b4469dbc425fcd90f05c8ff38b23ad7671e396692a52e5c61224ce9f8006c4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DBIx--Class--Fixtures \
@@ -20,7 +20,7 @@ perl-DBIx--Class--Fixtures--External--File \
 perl-DBIx--Class--Fixtures--Schema \
 perl-DBIx-Class-Fixtures"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Class--Accessor--Grouped \
 perl-Config--Any \
 perl-DBIx--Class \

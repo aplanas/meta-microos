@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "3.6.2"
 
-RPM_NAME = "python311-anyio-3.6.2-5.1.noarch.rpm"
-RPM_HASH = "b12fc42b9e8d9eaa70d33efe71096dd5dd24111d4f5ab23e62b7cb199933a1f931c1c06994835dc4f008d842645cee7b6fad3f90bc8e6c5537f03b7815d22471"
+RPM_NAME = "python311-anyio-3.6.2-5.3.noarch.rpm"
+RPM_HASH = "c4cb226c3059cb4e9aa35b46eb64ca74b74fba452fe3796f0bb4a8c05e7aa8730b612d7645304c9a68a4a90137273fb7134c757777daedba5f9a4aed8895ff7a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-anyio \
+RPROVIDES:${PN} += "python3-anyio \
+python3.11dist-anyio \
 python311-anyio \
 python3dist-anyio"
 

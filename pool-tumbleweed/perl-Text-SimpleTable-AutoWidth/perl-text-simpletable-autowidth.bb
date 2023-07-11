@@ -5,14 +5,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.09"
 
-RPM_NAME = "perl-Text-SimpleTable-AutoWidth-0.09-1.10.noarch.rpm"
-RPM_HASH = "a8d3da847ee1d7ee77faaf3a23a6a4baa75a87f69bb26bb9e989e3d6d1c336a82ace4b86129cc8866ed065150893fb54e3a3859af2993844233d0fe5f75f1de3"
+RPM_NAME = "perl-Text-SimpleTable-AutoWidth-0.09-1.11.noarch.rpm"
+RPM_HASH = "b4941dc3e8f9c3b2eb1bc03372a0eb165f78c47f29da00db0da2cfdf2125d2f76812373cd7d0df4221079ce8b4a761144b7d82f4faac1ce99b0a16916271c614"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Text--SimpleTable--AutoWidth \
 perl-Text-SimpleTable-AutoWidth"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Moo \
 perl-Text--SimpleTable"
 

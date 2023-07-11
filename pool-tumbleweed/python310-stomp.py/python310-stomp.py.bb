@@ -4,12 +4,11 @@ LICENSE = "Apache-2.0"
 
 PV = "8.1.0"
 
-RPM_NAME = "python310-stomp.py-8.1.0-1.3.noarch.rpm"
-RPM_HASH = "c65aee470580b4bf53b6251142b5310da658349d27e122385ac9d65bffee2bcc5055b1fa3025f8109285245b5b1caaaad2d25dcbbd1653519e72658a16b95d1a"
+RPM_NAME = "python310-stomp.py-8.1.0-1.4.noarch.rpm"
+RPM_HASH = "d05d62d041ed95118ec330a9c3d7e81651f32f0f3d5e7e4b6e4e9620ef4f4c14991dca51002da00368d12d180a38100582b632e3329e104684dbdc5882a92ebc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-stomp.py \
-python3.10dist-stomp-py \
+RPROVIDES:${PN} += "python3.10dist-stomp-py \
 python310-stomp.py \
 python3dist-stomp-py"
 

@@ -3,13 +3,15 @@ DESCRIPTION = "CacheControl is a port of the caching algorithms in httplib2 for 
 requests session object."
 LICENSE = "Apache-2.0"
 
-PV = "0.12.11"
+PV = "0.13.1"
 
-RPM_NAME = "python311-CacheControl-0.12.11-3.1.noarch.rpm"
-RPM_HASH = "3f5944029958e701cf86b4fa0c55281d606615dac24712a5f374d360b1fb6523e56b813e1e77c038f5d1ad3b2265458f7f2ede6bfa080a646e7a593d301e4b15"
+RPM_NAME = "python311-CacheControl-0.13.1-1.1.noarch.rpm"
+RPM_HASH = "cd7c0aea88778bc2675ed92fcd524366ce85c40b09a144ce9f82f52b0e0f93c2d5dc0b1d84c169eaa389c0b4a63e247f1d6437174a96f4f1f1a7869be9ad0f5f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-cachecontrol \
+RPROVIDES:${PN} += "python3-CacheControl \
+python3-cachecontrol \
+python3.11dist-cachecontrol \
 python311-CacheControl \
 python311-cachecontrol \
 python3dist-cachecontrol"

@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "0.17.2"
 
-RPM_NAME = "python311-myst-parser-0.17.2-2.10.noarch.rpm"
-RPM_HASH = "4f135eeceeb1c86d18e183e6993cac3b56145cecf79ed360fe863330a4df2139af0823fa35f89f736ef6ba35651b881ea7c71711c795536eb820988b7fecd135"
+RPM_NAME = "python311-myst-parser-0.17.2-3.3.noarch.rpm"
+RPM_HASH = "50bf25dc603565662114d9a0709cf5538ca90b61bc06286b6b940bdc4f7867c62ec5c964eca8c16492e7cf5d84b32cf4ae77095149c4200c1dafffedb51bd682"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-myst-parser \
+RPROVIDES:${PN} += "python3-myst-parser \
+python3.11dist-myst-parser \
 python311-myst-parser \
 python3dist-myst-parser"
 

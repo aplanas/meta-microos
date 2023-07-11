@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xfce4-pulseaudio-plugin"
 DESCRIPTION = "Provides translations for the 'xfce4-pulseaudio-plugin' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.4.6"
+PV = "0.4.7"
 
-RPM_NAME = "xfce4-pulseaudio-plugin-lang-0.4.6-1.1.noarch.rpm"
-RPM_HASH = "dcc8f78e20c1fc71377fcf5fbc263716e3a59266c3fe03aff4d56864099d67d58652f9a0268d99c308700a3086e4f624a0093a57c25b3fe65e5570ac1c99c43c"
+RPM_NAME = "xfce4-pulseaudio-plugin-lang-0.4.7-1.1.noarch.rpm"
+RPM_HASH = "506a28773162fefdebee7ee8c48c72ca729405b0c950a2f8b5da958be0c25fad55b249fe74601d7186129c7f3aa9882fdb210c40c503b5fe4f4671f4b9290435"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-pulseaudio-plugin-ar \
@@ -18,6 +18,7 @@ locale-xfce4-pulseaudio-plugin-de \
 locale-xfce4-pulseaudio-plugin-el \
 locale-xfce4-pulseaudio-plugin-en-AU \
 locale-xfce4-pulseaudio-plugin-en-CA \
+locale-xfce4-pulseaudio-plugin-en-GB \
 locale-xfce4-pulseaudio-plugin-es \
 locale-xfce4-pulseaudio-plugin-eu \
 locale-xfce4-pulseaudio-plugin-fi \

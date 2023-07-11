@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "5.4.6"
 
-RPM_NAME = "lua54-devel-5.4.6-1.1.aarch64.rpm"
-RPM_HASH = "b1eeed5376da444c5f68e05a164d7527238608ab8a358ec952e0c02fbccca321442b80ce5c5e8dab7d57814a363c41d78af9b84e1d861323c637230be5d1cd0d"
+RPM_NAME = "lua54-devel-5.4.6-1.2.aarch64.rpm"
+RPM_HASH = "704294209cb08573ef714b5dc01d615634dcd3b0d15c6df5fb325919857e3011493a7c767a0b6d4f77796a1a89bfd8d69fb4cf8dcba8512eb6ec24dd18608942"
 
 RPROVIDES:${PN} += "Lua-devel \
 lua-devel \

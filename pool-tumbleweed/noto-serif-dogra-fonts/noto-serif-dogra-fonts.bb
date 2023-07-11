@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-serif-dogra-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "56e86871a8ea9e3c4a330322e44a29c12381c0077485a40b178250c22e66adb0b896222e3f0a345bbc170d8d2daefbcebb49fd5edcbbfe0c58f57defcb1c50fc"
+RPM_NAME = "noto-serif-dogra-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "dc192238d40dfe79383aa2e8cf61f23a29aa3f25090c23a7aa90fc85bd6e11b2f4487ccbc5bc56c2c19aea09086c33f7e1c4623ee9fa4e6521bef4da43c475c0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-serif-dogra \

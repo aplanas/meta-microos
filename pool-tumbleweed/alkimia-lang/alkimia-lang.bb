@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "8.1.1"
 
-RPM_NAME = "alkimia-lang-8.1.1-1.4.noarch.rpm"
-RPM_HASH = "cad3fbceb6cc7cdc028a2607d55c9118d25a46d71f82e21496b6f9e7025b1c606b178f30473b6080e69fe9c400bfec213f29b762d2a9bcf2a9ab0b925ad22272"
+RPM_NAME = "alkimia-lang-8.1.1-1.5.noarch.rpm"
+RPM_HASH = "3a4829c2a77935949472180cbf7881269d1177494ecdca220e36278d6f37a37453285f3c6acd7cbe13eddaa601d268cc7038ce50ff333076af6100d35700af0e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "alkimia-lang \

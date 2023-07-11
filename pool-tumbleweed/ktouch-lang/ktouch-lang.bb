@@ -2,10 +2,10 @@ SUMMARY = "Translations for package ktouch"
 DESCRIPTION = "Provides translations for the 'ktouch' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "ktouch-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "51119af7b3eb30221f077d48668d19e1781385be8eb4c92f9331c3c7f4e4403b810d257a1f2544d717c20a5afe775c9bfd47a4f8381fe143cb1913e9f8655cb8"
+RPM_NAME = "ktouch-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "daa511fe49c9be013c592c619fcb0b9e259caa2dcb09d2263641bfb4289be9a217c6310c3dc516a79b88c5319e01d5d975051ab19e59572fa823198caf89c6f8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ktouch-lang \

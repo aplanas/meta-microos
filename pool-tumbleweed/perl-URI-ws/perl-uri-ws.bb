@@ -6,15 +6,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.03"
 
-RPM_NAME = "perl-URI-ws-0.03-1.11.noarch.rpm"
-RPM_HASH = "3b40c7d3b4968809918a289bfb7037c0a037718b4eecaec3a686c417a4566b805f789d13298f63e09a15744b7afbde2c320938fd003b4046fd1d6a20766acdad"
+RPM_NAME = "perl-URI-ws-0.03-1.12.noarch.rpm"
+RPM_HASH = "34ff9cb4ae07f3d79a3ebf02946cfaf5f584a5350a1d736129b769bfb9bfb7c90f40b1f1e4c05206cff5c9eada9686d9a375b6a4fc3589826c4d9017b8760660"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-URI--ws \
 perl-URI--wss \
 perl-URI-ws"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-URI"
 
 inherit rpm

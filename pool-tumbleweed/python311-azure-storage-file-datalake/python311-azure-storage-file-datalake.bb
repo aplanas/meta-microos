@@ -13,11 +13,12 @@ LICENSE = "MIT"
 
 PV = "12.11.0"
 
-RPM_NAME = "python311-azure-storage-file-datalake-12.11.0-1.1.noarch.rpm"
-RPM_HASH = "c0fe1ee80074787b205cbec6c6b847fc046a9dd897b2c559047705d672cb71589406e5700a8d7f64e2a992f08e32a98468b55768153a10eaf9cd8bff0cff5697"
+RPM_NAME = "python311-azure-storage-file-datalake-12.11.0-1.3.noarch.rpm"
+RPM_HASH = "cb0aefbeb7ad73e7edfa080d1a6eff85865ae7b1186d97bccc912364dd0537aba3917dfe87737c28ca2a05f59f83b2fce14bd4a0bb6408655adad2182e8778e3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-storage-file-datalake \
+RPROVIDES:${PN} += "python3-azure-storage-file-datalake \
+python3.11dist-azure-storage-file-datalake \
 python311-azure-storage-file-datalake \
 python3dist-azure-storage-file-datalake"
 

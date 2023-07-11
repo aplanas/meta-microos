@@ -6,8 +6,8 @@ LICENSE = "BSD-4-Clause & ZPL-2.1 & MIT"
 
 PV = "0.6"
 
-RPM_NAME = "python39-peppercorn-0.6-4.1.noarch.rpm"
-RPM_HASH = "a04accb08df284b389c1844ab452f886b5af6ceed202b60b97c859f1f46411662b3db5d1fdf6d3b0dc8e0bfafd4952f0829264f2cbbe64274554ab3003666fc4"
+RPM_NAME = "python39-peppercorn-0.6-4.3.noarch.rpm"
+RPM_HASH = "6ba43ec8bcc62eb7d3d3aaf82358ab2480a3e64fd974d784400aaadb6215a6419cd0c10097e30cd361bf7943216b53f24dc6192b90f95c465653c7abbbb35202"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-peppercorn \

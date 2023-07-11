@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause & MIT"
 
 PV = "5.2.5"
 
-RPM_NAME = "libassimp5-5.2.5-2.1.aarch64.rpm"
-RPM_HASH = "146500244a030edc7f86da1f1875c4ff2a1c882834daa18ed457b1792847992a26a3c8aabbc98588d016f846fae02c8e3057d633a9e20553eb549d0c8418649e"
+RPM_NAME = "libassimp5-5.2.5-2.2.aarch64.rpm"
+RPM_HASH = "7290f061fd92a93e3ee7b3d0e436becbaf9ce997498a6fc2b5c70d8899200a1a9a82572b459ac186241638039fa2fb44e4ef90fb80c8eb1b4be0d450584273b1"
 
 RPROVIDES:${PN} += "libassimp.so.5 \
 libassimp5"

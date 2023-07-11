@@ -14,10 +14,10 @@ denotes the tilde which, in TeX, is used for 'unbreakable \
 spaces'."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1jsvn64142"
+PV = "2023.208.0.0.1jsvn64142"
 
-RPM_NAME = "texlive-luavlna-2023.201.0.0.1jsvn64142-52.1.noarch.rpm"
-RPM_HASH = "761ddd9ee2f82b3d7447d3f898d2d4257b5920d3d5affd053342cfc1d44013d7f245c8e4619e899e20e1c6366f4e75a6d5c9475c87edcce94e99e71e21eada6b"
+RPM_NAME = "texlive-luavlna-2023.208.0.0.1jsvn64142-53.1.noarch.rpm"
+RPM_HASH = "0ddb0f2a0e1d2d4a055bc26e8fcfaa859150680ea2543ce3dc8216549d7d3514909fb4989f777e51d1494303703c30bf378c55215ab7502915e946896f351234"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-luavlna.sty \

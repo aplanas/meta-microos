@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-marcellus"
 DESCRIPTION = "The  separated fonts package for texlive-marcellus"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn64451"
+PV = "2023.208.svn64451"
 
-RPM_NAME = "texlive-marcellus-fonts-2023.201.svn64451-52.1.noarch.rpm"
-RPM_HASH = "92f7583633f086673e5e042d8f4efecc151df412121fb220c52cbc5aeaf1969beb53852ac0bbd8d27a18f8eab5d02628582b3ab5508ecf6fbd9bdcc5b02c6ba6"
+RPM_NAME = "texlive-marcellus-fonts-2023.208.svn64451-53.1.noarch.rpm"
+RPM_HASH = "b07a9949248f01be8db05dfb7909fc3b782af524a041612d54304c2d1b18d93012369e9e55314edf62ba7869bd735d503a9b7118239bec35fd974fc8ad7907be"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-marcellus-fonts \

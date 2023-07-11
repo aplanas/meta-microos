@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "43.0"
 
-RPM_NAME = "file-roller-43.0-1.3.aarch64.rpm"
-RPM_HASH = "3b46e27c86235545eb291de7b888857afd2997f21298b05ae727604fbd00deac992508da7d9e9933b6ad91cd5dc6b0876e864d289837c09e60c0c79794ae2f5a"
+RPM_NAME = "file-roller-43.0-1.4.aarch64.rpm"
+RPM_HASH = "aeb12e420f12a311421c8e467f3523d5696ca41534c34010bdac39fc45f21aca9925ad05dad1dd9fce0b6942eeed546cd2dfcca7a1277c90d66cd1752e47dd8f"
 
 RPROVIDES:${PN} += "file-roller"
 

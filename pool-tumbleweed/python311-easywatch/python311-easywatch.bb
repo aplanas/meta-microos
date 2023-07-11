@@ -13,11 +13,12 @@ LICENSE = "MIT"
 
 PV = "0.0.5"
 
-RPM_NAME = "python311-easywatch-0.0.5-2.17.noarch.rpm"
-RPM_HASH = "32554b4cc55f20b0a2eaa766decef39d9f2e4372b6b6148a91af83da7604538c57efb6732b6d9743672156aaf4257e8ec79caa7e915bd67a09bc75444c2908bd"
+RPM_NAME = "python311-easywatch-0.0.5-2.18.noarch.rpm"
+RPM_HASH = "8b8791b1e51e4f58f9b6f68bc2730b1fdbc8b996a4f16dd735f2d2e5b458801c98df39d6570dd49b5fc3eac0a0f98cd4207d3ecbdbcb64887a7c63edaa6be582"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-easywatch \
+RPROVIDES:${PN} += "python3-easywatch \
+python3.11dist-easywatch \
 python311-easywatch \
 python3dist-easywatch"
 

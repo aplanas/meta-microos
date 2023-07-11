@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-hyphen-spanish"
 DESCRIPTION = "This package includes the documentation for texlive-hyphen-spanish"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.5.0svn58652"
+PV = "2023.208.5.0svn58652"
 
-RPM_NAME = "texlive-hyphen-spanish-doc-2023.201.5.0svn58652-52.1.noarch.rpm"
-RPM_HASH = "554cf01e858830eeb2a7f3559db68388b2d9efee76a5491036287dd9720bd7ed004f155bb016d257cdc5f5263eeba8e0398b4918b864e437e97642a6d83d507b"
+RPM_NAME = "texlive-hyphen-spanish-doc-2023.208.5.0svn58652-53.1.noarch.rpm"
+RPM_HASH = "6ae1a63192fae21c5b152222c8ed77c672a20fbd219f1f689a4627dd3dcbe06aa7e024c1de679990b559280463a51f67d399f7af2c9ebaa82982b76501a5c582"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-hyphen-spanish-doc-es \

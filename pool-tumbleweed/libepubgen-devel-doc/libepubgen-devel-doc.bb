@@ -4,8 +4,8 @@ LICENSE = "MPL-2.0"
 
 PV = "0.1.1"
 
-RPM_NAME = "libepubgen-devel-doc-0.1.1-1.21.noarch.rpm"
-RPM_HASH = "23b9f227fd6ced83dfe2ab253423659b42681404d603fb34d6b0a83eb405e4c8655e711a81819f2163b8ffcde1b46d10cc7a276a5b317e0d71c3af8ae57ec889"
+RPM_NAME = "libepubgen-devel-doc-0.1.1-1.22.noarch.rpm"
+RPM_HASH = "3c04dd42e76b5b98895f0c68c61bede5496c8177f48f98467f7ec15da326a63c69fa483a39d8f218e010154ba0acea49357bba991cfeec69710df18482d9befe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libepubgen-devel-doc"

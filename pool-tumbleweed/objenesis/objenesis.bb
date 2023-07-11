@@ -21,8 +21,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.1"
 
-RPM_NAME = "objenesis-3.1-2.6.noarch.rpm"
-RPM_HASH = "e25d2a57309e30e9caef326592cb53985222e2a27bcba4bdd0bcdb4437cb600a02c5e2372d3a3bf0fe752623b1f231f8d8bb501c0e22af6b17c62b9b13806fd9"
+RPM_NAME = "objenesis-3.1-2.7.noarch.rpm"
+RPM_HASH = "2bd4ca496b942b9fa4359984d7fe22628f8dcf4c151f5dc66fca0b28e052044704bdd194cb646b9b545e6a3e556bca1c3dc26f2a0b76f1444116b54580cc975c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.objenesis-objenesis \

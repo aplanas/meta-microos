@@ -7,8 +7,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.76"
 
-RPM_NAME = "perl-GD-2.76-2.1.aarch64.rpm"
-RPM_HASH = "8078ab6c54a3df27de75d4a5a5d8e7cfddfca894cc27a1fc2dc47103d1e95efaeee8ca1908b0938142740cc3058c05f40e9215dd3c0815f81d65c2788d64f093"
+RPM_NAME = "perl-GD-2.76-2.2.aarch64.rpm"
+RPM_HASH = "efac72c5036848ce0454664ff1b9682940344caea966c4e1b025d420d54cf04d4d79f8820147aa34836f3961465a846b7a931087bd01998c210db7c3e9c611f4"
 
 RPROVIDES:${PN} += "perl-GD \
 perl-GD--Group \
@@ -22,6 +22,6 @@ gd \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgd.so.3 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

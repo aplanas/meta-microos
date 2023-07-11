@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "3.22.0"
 
-RPM_NAME = "checker-qual-javadoc-3.22.0-1.4.noarch.rpm"
-RPM_HASH = "ca6c20eac4a0d313fc6629c77a0d668d79a4383d498132dc7d8601f662b95736f6c9f9ff987282110ca1b511973f62d18efe9e498eb3a29c2833cfea92b43cd0"
+RPM_NAME = "checker-qual-javadoc-3.22.0-1.5.noarch.rpm"
+RPM_HASH = "7bfe89bc1c5e8195fe9a4dd12b6dd84b4937f8ab5479cd15b2b949c163ef0dcb0d7cb0e45d129687f241ebfe910a9c05db292d03c832bf6b1ca447145a24f512"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "checker-qual-javadoc"

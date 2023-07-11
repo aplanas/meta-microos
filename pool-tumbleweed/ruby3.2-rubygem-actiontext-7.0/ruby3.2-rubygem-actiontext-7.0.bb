@@ -2,17 +2,17 @@ SUMMARY = "Rich text framework"
 DESCRIPTION = "Edit and display rich text in Rails applications."
 LICENSE = "MIT"
 
-PV = "7.0.4.3"
+PV = "7.0.5.1"
 
-RPM_NAME = "ruby3.2-rubygem-actiontext-7.0-7.0.4.3-1.1.aarch64.rpm"
-RPM_HASH = "3bcf438e4413d2fea2a5b3f66c70cdc0c421884d73c8a3584c78cb77f9d20e522bf68c67d8c10560041dbf4add1c1a32543515c5791485784aab090ff06b203c"
+RPM_NAME = "ruby3.2-rubygem-actiontext-7.0-7.0.5.1-1.1.aarch64.rpm"
+RPM_HASH = "6f8501987378fad19de88ea3eadefbc76415187fab14d145e89620b85e8a09d1ca16f0f9af4090e6aaf5f46949dbee797281662dd57375be8959c0c95b62160c"
 
 RPROVIDES:${PN} += "ruby3.2-rubygem-actiontext-7.0 \
 rubygem-actiontext \
 rubygem-ruby-3.2.0-actiontext \
 rubygem-ruby-3.2.0-actiontext-7 \
 rubygem-ruby-3.2.0-actiontext-7.0 \
-rubygem-ruby-3.2.0-actiontext-7.0.4"
+rubygem-ruby-3.2.0-actiontext-7.0.5"
 
 RDEPENDS:${PN} += "ruby-abi \
 rubygem-ruby-3.2.0-actionpack \

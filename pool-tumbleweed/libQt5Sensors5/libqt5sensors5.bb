@@ -4,10 +4,10 @@ interfaces. The Qt Sensors API also provides a motion gesture \
 recognition API for devices."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libQt5Sensors5-5.15.9+kde0-1.1.aarch64.rpm"
-RPM_HASH = "16076097badd2627b5ff5a58b5491de760558259030cc178d755e0223613306468d52102cb0da456163c73147952457411917661d1770b639466a7e2b6f0890c"
+RPM_NAME = "libQt5Sensors5-5.15.10+kde0-1.1.aarch64.rpm"
+RPM_HASH = "2a335e8de33f2526f3b40f086e3540f4d1817b03f62fc2d8d07fde2404bfdf95059f5d80820fa5837c33d0dc7d2672f69277ead092152c8f5d68b444f1f9990c"
 
 RPROVIDES:${PN} += "libQt5Sensors.so.5 \
 libQt5Sensors5 \

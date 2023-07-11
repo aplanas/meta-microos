@@ -14,8 +14,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.7.0"
 
-RPM_NAME = "python39-ntfy-2.7.0-9.4.noarch.rpm"
-RPM_HASH = "6bef8eb7b70fe709dd56a98d21f682ff04cc9f07cc0ed8250472a869bbf719e56b810d5aaf53cfd68cf6e6e2ecee881916876060203a9ebb377c7ffe7692007f"
+RPM_NAME = "python39-ntfy-2.7.0-9.6.noarch.rpm"
+RPM_HASH = "2f3fa97e446c8ca57debc27ad6b21e6ebd163d6fc87635196044766b0ef44d25d1ebe6fa6bf938127b6f5302b4f4e666bb5b69bff96fbfcb505049be7fdc6759"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-ntfy \

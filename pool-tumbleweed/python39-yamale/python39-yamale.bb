@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "4.0.4"
 
-RPM_NAME = "python39-yamale-4.0.4-2.1.noarch.rpm"
-RPM_HASH = "3b445da396d45f28155c432b885ab829d029f8aa99a1b9663da747545013519a6bce6f84a636241d90195f2a3291a350dfaa584d4e7f5c46b85666d781c0e4de"
+RPM_NAME = "python39-yamale-4.0.4-2.3.noarch.rpm"
+RPM_HASH = "0995eecd024ed61c63af1339af66a9da243539eb3391d606ffa6cdc298f400e83d4dab7ece4c0cb1c723307347b7cc0cfe5d076d4c78946a1be697f28432f2fc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-yamale \

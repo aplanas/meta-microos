@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "python311-re-assert-1.1.0-2.1.noarch.rpm"
-RPM_HASH = "a09eb634757d4b3ca79447f37533aff6178c5c2f3bbd3b4836e85d6e96e215e0f39ba4ba5f952fe6e9bfd0d5c6078cf6903e117cfd1620f1c7f5759e6416b6ce"
+RPM_NAME = "python311-re-assert-1.1.0-2.3.noarch.rpm"
+RPM_HASH = "0bef98ec935057d622ec355e608af2ec46662fb639e5c8ced1281b104d57f485c98798d85d627887038237f04daf37277ef06d6b9ecf043b68708dde9ca90aa6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-re-assert \
+RPROVIDES:${PN} += "python3-re-assert \
+python3.11dist-re-assert \
 python311-re-assert \
 python3dist-re-assert"
 

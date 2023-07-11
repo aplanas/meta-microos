@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "8.45"
 
-RPM_NAME = "libpcre1-8.45-2.6.aarch64.rpm"
-RPM_HASH = "03dddff9cae93c80d8941c9d0fa9c7b6b0167d5b1ba0e7b8d20e95c241b54fb689d93e07c0c5eb3bd21739679998c050abee0d0eacf735719c6377b401b8fc03"
+RPM_NAME = "libpcre1-8.45-2.7.aarch64.rpm"
+RPM_HASH = "05d4eda9d2b260a1107e697502f4def176aef15617cdd199cad1808bae7c054b2be5b850aeab2dcd7c4b7b77df4014826aae7e3bd1dd4ddbcd098adb0e2d9d66"
 
 RPROVIDES:${PN} += "libpcre.so.1 \
 libpcre1 \

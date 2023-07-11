@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "2.0.4"
 
-RPM_NAME = "goocanvas2-devel-2.0.4-2.9.aarch64.rpm"
-RPM_HASH = "97359ec7ccad7ec483860c78b240a7407dcee3a2cde3c7cdafa9cfecde1ed537257a50110141fa347a94d23ac375fce773a0581de9657498fdb7d46ca8f23bfd"
+RPM_NAME = "goocanvas2-devel-2.0.4-2.10.aarch64.rpm"
+RPM_HASH = "8ebc7fec6818b66ba58b6c40b186549d11c2205325df6a5d20ae12ceaf4e7415213e116faae7a7425e5fa61142cfb87834cee849f234db3e16b0b6a6a32aa7eb"
 
 RPROVIDES:${PN} += "goocanvas2-devel \
 pkgconfig-goocanvas-2.0"

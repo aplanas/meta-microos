@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.11.4"
 
-RPM_NAME = "icingaweb2-vendor-JShrink-2.11.4-2.1.noarch.rpm"
-RPM_HASH = "83eaf094d0f4bd723ada36151a0e8cba180ea885bce2aaa38050600ecd93d7eb17609340e3e2fad3674628529cd864b851fc350d0a4549a07747c42ca013d2fa"
+RPM_NAME = "icingaweb2-vendor-JShrink-2.11.4-3.1.noarch.rpm"
+RPM_HASH = "5f4cb3d596c34847c14c79c733446b5bd831aec8d39362f87c4efb5271464b980abe7c8e492b0428690f1d453a1b8714df032f62635cfdb075c9bf5a0db462ae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icingaweb2-vendor-JShrink"

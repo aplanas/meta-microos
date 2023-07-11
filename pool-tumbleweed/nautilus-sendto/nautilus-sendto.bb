@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.8.6"
 
-RPM_NAME = "nautilus-sendto-3.8.6-6.7.aarch64.rpm"
-RPM_HASH = "81057b09fd883eb6d1e09cbf73930f40154148fae659c67852726dbe08ab3a5876dc3116e80197c25a48cb66436fa8763f360bee3762894c6f8a7af14b9a47cc"
+RPM_NAME = "nautilus-sendto-3.8.6-6.8.aarch64.rpm"
+RPM_HASH = "5fd52cf352a57fbb976ceed6c2ae80de8936703c61019821f0a529c0327579094f6dbfca7160d0999b1f564e241f681442a8e4ea84cd5fe9ad7d5439d37d98a6"
 
 RPROVIDES:${PN} += "nautilus-sendto"
 

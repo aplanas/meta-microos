@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.5.2"
 
-RPM_NAME = "python310-mplcursors-0.5.2-1.3.noarch.rpm"
-RPM_HASH = "6b3fe909931dccbfda4c54c7a2c5d21348d5654c33c9d9f1354989b24884ffd49db29eb4d832f8ad4e4a89e5cedf9c454db8776db33676a28805c9ca5c47de2c"
+RPM_NAME = "python310-mplcursors-0.5.2-1.5.noarch.rpm"
+RPM_HASH = "7f796259e22ade92bba5d566ad782109ab10f426e47b73bb5496680e0f0428d3f6848d09cfbe103fa8bebe1d1d748ae0ef01b317ff3400eaa1badd6fe7435131"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-mplcursors \
-python3.10dist-mplcursors \
+RPROVIDES:${PN} += "python3.10dist-mplcursors \
 python310-mplcursors \
 python3dist-mplcursors"
 

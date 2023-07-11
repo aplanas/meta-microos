@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "16.1"
 
-RPM_NAME = "pulseaudio-module-jack-16.1-3.1.aarch64.rpm"
-RPM_HASH = "94fcf957e1d50c9703d48b18756445ce4495352be5d75ec771a6c197c72eea2614e81bacde794bcc30ad0bdd0853d58203945f92c5cd88c90514428d8fc78693"
+RPM_NAME = "pulseaudio-module-jack-16.1-4.1.aarch64.rpm"
+RPM_HASH = "34093e6cb5d1743592ac3f8f46748d0a704d9e37913648bb19a9b15f2f318e9ce208f60a1df5c312ab81a928c61f9cd304f651ddad24fb61d9c796953ab4f242"
 
 RPROVIDES:${PN} += "pulseaudio-module-jack"
 

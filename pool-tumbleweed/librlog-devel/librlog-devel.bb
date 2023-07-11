@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.4"
 
-RPM_NAME = "librlog-devel-1.4-19.4.aarch64.rpm"
-RPM_HASH = "929dab1136b65b71618beb6a2b37238fe18dea9dd7197f2d3047c11ed1eee4786803a468b73ba7d5c9254277e7fd6c119d7ebab8c71d9643eea51a1af1967ce1"
+RPM_NAME = "librlog-devel-1.4-19.5.aarch64.rpm"
+RPM_HASH = "c13c42e708a5a8562f74f6383b9de74c2ec959e7bcae6f1e52c4e1d4d40856da0e53e34bb079d0caae5925bcc1f4d54c926cf25100509df296381b87ed4f33fa"
 
 RPROVIDES:${PN} += "librlog-devel \
 pkgconfig-librlog \

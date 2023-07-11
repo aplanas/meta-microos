@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.9.5"
 
-RPM_NAME = "svgcleaner-gui-0.9.5-2.25.aarch64.rpm"
-RPM_HASH = "ed36094aed728edb6c07a6df24219142484ad78a901a5760e6676b9760f5383f6fa2ea010d22de9874902df370bd6eca37683fa73818cbd7262b09385d9d23e1"
+RPM_NAME = "svgcleaner-gui-0.9.5-2.26.aarch64.rpm"
+RPM_HASH = "6dc34a0de018ebda93abdcb236fef3227f32af851ca33e5e4326040fa0e4aead31ef4d109e3b5dd35c58d2ce635a348932f2f60ff10ae743fd97c38ceaba5f85"
 
 RPROVIDES:${PN} += "svgcleaner-gui"
 

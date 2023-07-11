@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.1.5"
 
-RPM_NAME = "gramps-lang-5.1.5-1.7.noarch.rpm"
-RPM_HASH = "55268c39063c33249b0a0f72f3715705fb2f3ebf74d1c0312897b6db041f935e9c1f10fc275d41be81757633d05bdb82f76aa52f7c3c7392a83e8f184d9dab58"
+RPM_NAME = "gramps-lang-5.1.5-1.8.noarch.rpm"
+RPM_HASH = "2864d718b5157dfb1b848960b9e4e9cb80ad43522b895438089598eb253683aede6d16f7842b2c136c76c45fe7e8042cc128428785ae1734a3bdcc6eaaa9c709"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gramps-lang \

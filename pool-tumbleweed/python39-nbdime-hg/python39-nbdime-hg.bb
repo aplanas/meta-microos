@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.2.1"
 
-RPM_NAME = "python39-nbdime-hg-3.2.1-12.2.noarch.rpm"
-RPM_HASH = "d568d827e23d1f91688453b4ba264c81c61a9bb04ee2c1d7048191eb981e107b55f16cf5bb6843530990da338546ee8039462953ffac64e30ad4367b130ddd7b"
+RPM_NAME = "python39-nbdime-hg-3.2.1-12.3.noarch.rpm"
+RPM_HASH = "66f153ec0c154a50491c2285deb77bfe3744515040ddf3c04a676c039c4a9f247db88b4cc9a4899acda310892713c3dcaed01f93c3d5906b47c69b5c2fc63295"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-jupyter-nbdime-hg \

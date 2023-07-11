@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.8.0"
 
-RPM_NAME = "osmo-bsc-meas-utils-1.8.0-1.11.aarch64.rpm"
-RPM_HASH = "35a9143d6ea3b7e1f03e93a85a27be84ff20ec8d739d7bc9bed2dd391ec7503aa3c66834977d3df14950574821ccc5c7b35697020c6bb34fa9e5666b5cf449cf"
+RPM_NAME = "osmo-bsc-meas-utils-1.8.0-1.12.aarch64.rpm"
+RPM_HASH = "1a06bc5e4163a4934cb21a041c83713d86252a37e1b5cff9bfc6250509211b546769d37c8e5ed397a28e57b8c71f237590eca5acadde9c141ef007125a633aae"
 
 RPROVIDES:${PN} += "osmo-bsc-meas-utils"
 

@@ -7,11 +7,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.7.13"
 
-RPM_NAME = "python311-alabaster-0.7.13-2.1.noarch.rpm"
-RPM_HASH = "f8ec56caa231419ff0b4519e68988afa175cb2e07f1c63e1529e354cc2bc24929e6f4ef8518933c511a50ad59de7bc6aad9e4adfb5008bfac1596f1e388a8a69"
+RPM_NAME = "python311-alabaster-0.7.13-2.2.noarch.rpm"
+RPM_HASH = "ab6d52ffb48256f44d0e920de58ae3f56d1f0a8a71621daba2e3d796159a2bd146d6158895e582838712ef75d3585f0f2b4e1506edc6fac669d7aa888f865cc9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-alabaster \
+RPROVIDES:${PN} += "python3-alabaster \
+python3.11dist-alabaster \
 python311-alabaster \
 python3dist-alabaster"
 

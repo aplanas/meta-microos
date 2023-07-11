@@ -29,8 +29,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "7.13.0"
 
-RPM_NAME = "phpPgAdmin-7.13.0-3.1.noarch.rpm"
-RPM_HASH = "fa3bb0fcbc772667d123efd94a3ce181af9e58b233174b029c8fea65f5282c105fb6c561f359aa659176e6d2fefbd50ea47efb8f4c540bea6f8de35ea774b284"
+RPM_NAME = "phpPgAdmin-7.13.0-3.2.noarch.rpm"
+RPM_HASH = "91f89a5223367928c6a8a81cca7d081c4467b6163f10251830274037ed2331fb8bf649ebe9cd182ae0f95bc55a513624176c8d949da38048a481f87e7048d57b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-phpPgAdmin \

@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "8.307"
 
-RPM_NAME = "pythia-doc-8.307-1.14.aarch64.rpm"
-RPM_HASH = "f65e88242a77b89bed185909508c9d7abc3921416e1abddf8b69d32a7e449cb795a3a4aba91410b6f0abaeeb35655044ae43c91ce4794a5139f1ca8b68daa824"
+RPM_NAME = "pythia-doc-8.307-1.15.aarch64.rpm"
+RPM_HASH = "d66015b20062a36ebd3a43152bad28ffd29c200ea98a37bd742ce24c16d4ed73b0d9e3c8dd84d2ccab84d29ea8d9e488076af86d493958d430717f86c4ef3776"
 
 RPROVIDES:${PN} += "pythia-doc"
 

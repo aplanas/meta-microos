@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.10.0"
 
-RPM_NAME = "coredns-1.10.0-1.4.aarch64.rpm"
-RPM_HASH = "97d8c423824746f62c0c603dafdfbe7e7ec6907d38b4ca0afbe673e8e6e7a4e260100e4e672e1f5e370f45a02f584035f6f6bc8f0e9c14fec16d55db45ec8577"
+RPM_NAME = "coredns-1.10.0-1.5.aarch64.rpm"
+RPM_HASH = "76ad483f7a9d31779281c778d124fd10c8774bcddc31b355ff9dea5e9b0ac1c917233e579f731ac8bd17a093cb57aadfdb20d4008486a4e51659ec14a8c5146a"
 
 RPROVIDES:${PN} += "coredns \
 dns-daemon"

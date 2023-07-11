@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0.2"
 
-RPM_NAME = "libsymspg1-2.0.2-1.3.aarch64.rpm"
-RPM_HASH = "45496e97aa9dca3666053d2820f3a0b1b78fe5b5cf2c7603af032917d4893f81fcda057cf6c000f69dc9d600dd8f163672619a5d2439f2e5c981fd3dff80d4ed"
+RPM_NAME = "libsymspg1-2.0.2-1.4.aarch64.rpm"
+RPM_HASH = "ec82516d40527b143237f033a6d7fc9a93bf0bb3f5e9b82c5b2e26333efbb2df99aa5dcd8ace36081734e2e502e54854741d3056888997047d3631ad7b1bace2"
 
 RPROVIDES:${PN} += "libsymspg.so.1 \
 libsymspg1"

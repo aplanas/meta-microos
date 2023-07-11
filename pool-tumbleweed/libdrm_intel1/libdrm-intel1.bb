@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "2.4.115"
 
-RPM_NAME = "libdrm_intel1-2.4.115-2.3.aarch64.rpm"
-RPM_HASH = "3496d2487611833294dbe44a80c7018c92f095dea6ce28d908ae35e29f224777380925cca4e409a3abcb759fbf423f98c16a75d3a15af9cf4021b62cab9eefcc"
+RPM_NAME = "libdrm_intel1-2.4.115-2.4.aarch64.rpm"
+RPM_HASH = "27c9cbe40c61c87ba804726d615433b6efa75543f22ba877fb1e75cce1ac582eb04c9baab667f302d2b8e928361c1d4eb3c9da9b6a4622790dd41dcce36ef439"
 
 RPROVIDES:${PN} += "libdrm-intel.so.1 \
 libdrm-intel1"

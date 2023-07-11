@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.1"
 
-RPM_NAME = "liboggz2-1.1.1-15.28.aarch64.rpm"
-RPM_HASH = "545e95acfc709091c396a5c2ecd651a7e91be23c137dc8190378ab173306ceca9657ceef14585d9ff6a60742ae773022146c210f343807ec8aa2ef2fb6b1e762"
+RPM_NAME = "liboggz2-1.1.1-15.29.aarch64.rpm"
+RPM_HASH = "bff7341ccc40dd1bc7d260d2b94bb4a98145cf051cc40af4b18862d23e414ffabaceff617d143e64d329828dc36ad93759cc49860e3532b43ab4bcfde4d2378f"
 
 RPROVIDES:${PN} += "liboggz.so.2 \
 liboggz2"

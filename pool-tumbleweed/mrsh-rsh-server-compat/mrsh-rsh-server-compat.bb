@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.12"
 
-RPM_NAME = "mrsh-rsh-server-compat-2.12-13.3.aarch64.rpm"
-RPM_HASH = "ea4363626d426bddeaf5da841c0f1cc3f8e69da44eb4ac1557b003ce8446265929537ca77c0d2ab6373c6cf2e9e1024db4db8671a5eecb300bdc9b7e96fa6b6b"
+RPM_NAME = "mrsh-rsh-server-compat-2.12-13.4.aarch64.rpm"
+RPM_HASH = "60396a4dbe4f68a0876e7795ffd10fbff406b516a78d9157c833d8dc1ef84ce71896c82fce28a2cc921b779ec536f7bc9a8e4ecea4ed47a93eae11f01c5d6c8c"
 
 RPROVIDES:${PN} += "mrsh-rsh-server-compat \
 rsh-server"

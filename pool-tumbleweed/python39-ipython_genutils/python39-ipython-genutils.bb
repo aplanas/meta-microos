@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.0"
 
-RPM_NAME = "python39-ipython_genutils-0.2.0-3.11.noarch.rpm"
-RPM_HASH = "fb850037ecdb0a15689d152c566ad8b053ee2ad2c828ce9eb9dbc0841c6df0e0be2b11931227ec1d9435d573c112ff2053a7cc95326fc859ce47b4fa0df8622f"
+RPM_NAME = "python39-ipython_genutils-0.2.0-3.13.noarch.rpm"
+RPM_HASH = "c522415529c633db7226175e0c3e2f6a77e984a10f4d0acee2cbb6a1ae57a8d7e774d0c734958f7f1c6c97db3f625c61e836b056525734b07ae3e8127f0389a1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-ipython-genutils \

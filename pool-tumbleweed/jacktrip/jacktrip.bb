@@ -5,10 +5,10 @@ computer/network can handle) of bidirectional, high quality, uncompressed \
 audio signal streaming."
 LICENSE = "MIT"
 
-PV = "1.9.0"
+PV = "1.10.0"
 
-RPM_NAME = "jacktrip-1.9.0-1.1.aarch64.rpm"
-RPM_HASH = "611a6fe794b098f6554737e85d974670d575e31d4da57d48945a598d798fd5345e9187a95f7aa3adf4566b5461c379b1d97185dd2a1e343532ce171bdd20c623"
+RPM_NAME = "jacktrip-1.10.0-1.1.aarch64.rpm"
+RPM_HASH = "40b9fded0122e1a4c83fd9aecd6d22080316a2d028859f6d9dea4f4357bba93a9e7dbce25b83af1ba98ce19acf5ed8069add8e653c9a52d6d251f8b5b0c05b7e"
 
 RPROVIDES:${PN} += "jacktrip"
 
@@ -16,7 +16,6 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libQt5Core.so.5 \
 libQt5Gui.so.5 \
 libQt5Network.so.5 \
-libQt5NetworkAuth.so.5 \
 libQt5Qml.so.5 \
 libQt5Quick.so.5 \
 libQt5WebSockets.so.5 \

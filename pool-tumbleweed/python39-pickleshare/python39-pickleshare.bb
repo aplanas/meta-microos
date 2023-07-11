@@ -17,8 +17,8 @@ LICENSE = "MIT"
 
 PV = "0.7.5"
 
-RPM_NAME = "python39-pickleshare-0.7.5-5.1.noarch.rpm"
-RPM_HASH = "de9417ffdb055abc8296d5d479a157e1e555206c01d860126fca7a7ef2ce5c90e4affa7b1b9480c3bbce32b4f2f27cb59c6d2adbded5bcffd8fd84fc649b8b6c"
+RPM_NAME = "python39-pickleshare-0.7.5-5.3.noarch.rpm"
+RPM_HASH = "5d57dc7cc0eb5cc2d141742dd65638df15a6b4cf670fba49920ef515f391944957619c25ff12aa732959a6678705238e9adc3c12044175d910e35b6b26d913a2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pickleshare \

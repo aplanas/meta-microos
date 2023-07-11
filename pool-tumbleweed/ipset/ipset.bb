@@ -16,8 +16,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "7.17"
 
-RPM_NAME = "ipset-7.17-1.2.aarch64.rpm"
-RPM_HASH = "d69c5374df6ba3b70b8c113d1a854ed3790ba4bf268cf2d30ff4a7424eb7dee9904ddfaab61d664ba8684635da0e516b9cf3afb38cf3399cac82b869c2d3ec29"
+RPM_NAME = "ipset-7.17-1.3.aarch64.rpm"
+RPM_HASH = "1d4468ee8623adcb5826e32bac7dc18bbfcd475e2a93beb2660158cfc08dd51e896fd49470610c163972c58276e98a4e61fe985b933015a5f764e4ccff23c360"
 
 RPROVIDES:${PN} += "ipset"
 

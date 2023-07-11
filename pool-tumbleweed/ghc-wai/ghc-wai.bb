@@ -7,11 +7,11 @@ LICENSE = "MIT"
 
 PV = "3.2.3"
 
-RPM_NAME = "ghc-wai-3.2.3-2.2.aarch64.rpm"
-RPM_HASH = "1763b3a338cdd3faa06bccb8c0106876010030b934303a595f4a6e10902f2e7047cd225e8eb8f484fd8f7d047861bf2354d2f5d6ea0fe36f2b66c9320cb27fd6"
+RPM_NAME = "ghc-wai-3.2.3-2.3.aarch64.rpm"
+RPM_HASH = "0d86ecc87ae9520416de822d0159d599a304555c9955149ae27df6d4f3cbbd7d1cf867c217e1bbb67b24ac250744098519a7bb20bf10e9fb27c767e3d7274cba"
 
 RPROVIDES:${PN} += "ghc-wai \
-libHSwai-3.2.3-LsLg4DRwusRI7b3SRdjDzn-ghc9.4.5.so"
+libHSwai-3.2.3-B6oJGZed88IFIvDpwN5I7x-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
 libHSbase-4.17.1.0-ghc9.4.5.so \
@@ -27,7 +27,7 @@ libHSghc-boot-th-9.4.5-ghc9.4.5.so \
 libHSghc-prim-0.9.0-ghc9.4.5.so \
 libHShashable-1.4.2.0-FFBRhuY0w4YLmuLEs5uQAt-ghc9.4.5.so \
 libHShttp-types-0.12.3-4BrMFwRucoT4fBt8cCVFS6-ghc9.4.5.so \
-libHSnetwork-3.1.2.8-HNDBp0HF6t0D1fzE2MDtPd-ghc9.4.5.so \
+libHSnetwork-3.1.4.0-FvtFepOtuCUH79FCWyNxIc-ghc9.4.5.so \
 libHSpretty-1.1.3.6-ghc9.4.5.so \
 libHStemplate-haskell-2.19.0.0-ghc9.4.5.so \
 libHStext-2.0.2-ghc9.4.5.so \

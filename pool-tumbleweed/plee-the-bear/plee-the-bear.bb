@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.7.1"
 
-RPM_NAME = "plee-the-bear-0.7.1-2.23.aarch64.rpm"
-RPM_HASH = "27a2f19de44beb6fbbd2213d48f3c66c8c615ffac27682b53a8215d8c10b8484da5b222f1a6e88a5ac4f13d5e32fb676e343987c28ac863ade44e1dca5618d5d"
+RPM_NAME = "plee-the-bear-0.7.1-2.24.aarch64.rpm"
+RPM_HASH = "49ed67c0f4cb11121d8cdb909810557ed1b4b1484cb7d67fd88701dbdf749ac0156ed3a49d1dc81fd903762f1d49f550aa34d2d4cb21ca84f76a9ec017d7e5ea"
 
 RPROVIDES:${PN} += "libbear-audio.so \
 libbear-communication.so \

@@ -16,8 +16,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.9.4"
 
-RPM_NAME = "normaliz-3.9.4-1.4.aarch64.rpm"
-RPM_HASH = "5203fce9e30da1f1972a0dc47bebb4732fe31a3861a1a9bb3f0999d0abab6e1daecd48089e40f5a8ba95a6f43b76c899e68676799ab415cf8a1e9097f1c73a00"
+RPM_NAME = "normaliz-3.9.4-1.5.aarch64.rpm"
+RPM_HASH = "8e23d5a4e33409cc6798c6d3d233aae65e6ccf0b420d716c9a20440f7b39d12f6b55d0136647c58f0c485a339fadcf585cc2dec3d267bcb2f70a6df2c46b62da"
 
 RPROVIDES:${PN} += "normaliz"
 

@@ -4,11 +4,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.0.0"
 
-RPM_NAME = "tuimoji-1.0.0-1.9.noarch.rpm"
-RPM_HASH = "db499056a2c7c4ba0cd575447c36c338c695fdd3c2ecd111ebb4a973da962fe42770941e7a8b995a926345946700e0f76c6525acbbce798725ec91d331e3a9f1"
+RPM_NAME = "tuimoji-1.0.0-1.10.noarch.rpm"
+RPM_HASH = "e37cc45b148b31bff72f686aee1a32157e906c3e1f31e25f4fddd47f42261efd30579186235dac005d95a659021043f59542a4ad8848aa82a87c14aaccf2549b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-tuimoji \
+RPROVIDES:${PN} += "python3.11dist-tuimoji \
 python3dist-tuimoji \
 tuimoji"
 

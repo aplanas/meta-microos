@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.9"
 
-RPM_NAME = "systemtap-headers-4.9-1.1.aarch64.rpm"
-RPM_HASH = "8301c043ed12ed6b1eb3e8f0ae15e31a57b9748446db73cf209cc4651e727380ae93dc7b18c2beac3722406063a1bedb4e1ec984f68ae5ddb312817bdcb4fdd4"
+RPM_NAME = "systemtap-headers-4.9-1.2.aarch64.rpm"
+RPM_HASH = "1c5da450851db51030f0f5f0fe301be897a0791b0b437dc90ce74ee2b0456db98bc53692d81d36d75e5e9b09aa7a6d75adffda6ce2825c19e98bd89c508fa98c"
 
 RPROVIDES:${PN} += "systemtap-headers"
 

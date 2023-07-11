@@ -3,10 +3,10 @@ DESCRIPTION = "Development headers for applications with the need to call \
 socket_wrapper_enabled()."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.4.0"
+PV = "1.4.2"
 
-RPM_NAME = "libsocket_wrapper_noop-devel-1.4.0-2.3.aarch64.rpm"
-RPM_HASH = "ea7c3fdc70366c1b09ac78f10879ad46d2e8123a8974ce6701b92241dcdae3ceb0b53e07b1e38bdaedd25c0482c52c1eb7e04e89783fcb0a086fb22b8a9764b0"
+RPM_NAME = "libsocket_wrapper_noop-devel-1.4.2-1.1.aarch64.rpm"
+RPM_HASH = "771f39e6792e60e849906b8e199c6a76da49ea7f58770df9871f28bed8009af8b35081f58071634c91e099eaacf72cbeadb1216b9349b477b122bec715fa831c"
 
 RPROVIDES:${PN} += "cmake-socket-wrapper \
 cmake-socket-wrapper-noop \

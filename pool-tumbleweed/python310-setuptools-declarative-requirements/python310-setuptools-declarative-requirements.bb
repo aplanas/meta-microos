@@ -4,12 +4,11 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2.0"
 
-RPM_NAME = "python310-setuptools-declarative-requirements-1.2.0-2.1.noarch.rpm"
-RPM_HASH = "5b7e5dabbf8771557372b8ffdd6f8d23841ebb33cbe9e515643e9265b4fcfda262993052db5de284a421893d24daa211e1aa79b35fd357e1f87b6cd730e6900a"
+RPM_NAME = "python310-setuptools-declarative-requirements-1.2.0-2.3.noarch.rpm"
+RPM_HASH = "9e6c94ed26b092f4f79a86687eedc471ec2281cb46b668ea6f43d6f502d1163244ca0bf6a3c87cf5e746ac76b9fb0ba718b729816332401ad4d3403cb23b52bd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-setuptools-declarative-requirements \
-python3.10dist-setuptools-declarative-requirements \
+RPROVIDES:${PN} += "python3.10dist-setuptools-declarative-requirements \
 python310-setuptools-declarative-requirements \
 python3dist-setuptools-declarative-requirements"
 

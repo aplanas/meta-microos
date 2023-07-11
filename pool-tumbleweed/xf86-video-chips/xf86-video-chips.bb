@@ -13,8 +13,8 @@ LICENSE = "MIT"
 
 PV = "1.4.0"
 
-RPM_NAME = "xf86-video-chips-1.4.0-1.19.aarch64.rpm"
-RPM_HASH = "ee34e3a4b7c5f63e3df4d7a00367ebde4ab17d27e12029c7ccb61526db45d7249a20c8c42984cad2d23f1f380a36463d0ee94b008ed472c11ea8e514a908a407"
+RPM_NAME = "xf86-video-chips-1.4.0-1.20.aarch64.rpm"
+RPM_HASH = "a967fe3910bec9c0c16585a500e3bec0bd874d3d41e9cbb18e97fc9d5ff6cd7dae0530ac1813fd1d9ef28804c70bf8aa02b25c62b07869db4933953d9871bf65"
 
 RPROVIDES:${PN} += "xf86-video-chips"
 

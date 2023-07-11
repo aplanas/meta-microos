@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "1.1.1"
 
-RPM_NAME = "python310-csvkit-1.1.1-4.1.noarch.rpm"
-RPM_HASH = "1ec1423f518b4c4b8c0ff5545cd831eafddb1aa581e4d8c152ea0b6e8117f6c62d252df41bd8e1df4d331464e48aea0accd45c038f93d2a6823ea65e3b618cfe"
+RPM_NAME = "python310-csvkit-1.1.1-4.2.noarch.rpm"
+RPM_HASH = "4014ba7da5fe66bebdc7dcb09be9f32d10574b2b4927a1220915b052a267ebbd6023100bcbe542b9080d83f2c400eee5ccc1681d11f443aba2e8b7e2f9aba3a0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-csvkit \
-python3.10dist-csvkit \
+RPROVIDES:${PN} += "python3.10dist-csvkit \
 python310-csvkit \
 python3dist-csvkit"
 

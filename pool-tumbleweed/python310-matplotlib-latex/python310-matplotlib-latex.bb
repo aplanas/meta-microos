@@ -5,12 +5,11 @@ LICENSE = "SUSE-Matplotlib"
 
 PV = "3.6.3"
 
-RPM_NAME = "python310-matplotlib-latex-3.6.3-2.1.noarch.rpm"
-RPM_HASH = "6e70d1a79c6858d38f71d2b11c1207dde45c86548b83c18999bb8f714d2fa1a1cb8b95ded853cff002770526e7ce63a67587d23123a12f8b56640885726b70a1"
+RPM_NAME = "python310-matplotlib-latex-3.6.3-2.3.noarch.rpm"
+RPM_HASH = "963354a18699a599ca62742fc4d09192a742993acd5ea81b27673f044716482811cb66faf3a23be8814aecd5dae0bdb483a72e556fba287d65b2a270bdd8246c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-matplotlib-latex \
-python310-matplotlib-latex"
+RPROVIDES:${PN} += "python310-matplotlib-latex"
 
 RDEPENDS:${PN} += "python310-matplotlib \
 tex-avant.sty \

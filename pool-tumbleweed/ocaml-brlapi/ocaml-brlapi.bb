@@ -13,8 +13,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "6.5"
 
-RPM_NAME = "ocaml-brlapi-6.5-2.4.aarch64.rpm"
-RPM_HASH = "716d8ec04061793e8a2b962546fa73b8cb2af31aa52cf7c93827d2b118b0c6f818ceb073f0d913f5741bb4db854c6490c147fcff6642b9d79c997bc5612a55ad"
+RPM_NAME = "ocaml-brlapi-6.5-3.1.aarch64.rpm"
+RPM_HASH = "c35b232bdacc8d14f05907ccafc7d0f743cabb574affdd422036b89117ec6952f46980783f4458090b30203ef550c54ffca8053ac0946aca222cedd594dda963"
 
 RPROVIDES:${PN} += "ocaml-brlapi"
 

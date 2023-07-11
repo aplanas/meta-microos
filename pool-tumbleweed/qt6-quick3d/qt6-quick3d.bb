@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-quick3d-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "bb612f8cdc0c7609d6f9f81f6b718e56d0b69939c045eb1acefbbddd0e4d0fb1343f5237a0b37e2d2787d6ae4efb4f69c6475a7254f0aa2504cd4ce73c5229e1"
+RPM_NAME = "qt6-quick3d-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "244e28d038e407e5227f2933f58d74bb0607b9d3ab3e7609f474628a3f5cdd940b3c0d3257508d030acd1b62fdb1b5ed118cbea689a08f713e844a7a3657c3b9"
 
 RPROVIDES:${PN} += "libassimp.so \
 qt6-quick3d"

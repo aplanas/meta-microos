@@ -9,11 +9,13 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.12.2"
 
-RPM_NAME = "python311-Yapsy-1.12.2-3.8.noarch.rpm"
-RPM_HASH = "b0306804cba466d81735e040b180c3cdfa1d6ae6ef3640e3789d01e55e7cca94f3073a5c29e15d480af3193ef64439b3b4983993af741dcc0b51e0a460ae9169"
+RPM_NAME = "python311-Yapsy-1.12.2-3.9.noarch.rpm"
+RPM_HASH = "cb5fe82e80548ed0b12b51fe7d68c57e9e4b8c8abe469e391904c0a897dd1624fea1943e9f14e762063fea5619d3ce3193096109729037d5785750c75ce3d231"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-yapsy \
+RPROVIDES:${PN} += "python3-Yapsy \
+python3-yapsy \
+python3.11dist-yapsy \
 python311-Yapsy \
 python311-yapsy \
 python3dist-yapsy"

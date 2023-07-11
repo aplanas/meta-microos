@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0 & MIT"
 
 PV = "0.17.0"
 
-RPM_NAME = "python39-uvloop-0.17.0-1.5.aarch64.rpm"
-RPM_HASH = "358c123b67c9d087cc79b7d5597e03a1c53c0ec461cf949d8c118ddff685a1060dca6ccc95bd4e9848a052410ecac6f1b1d7ceddea7e09dc1701a3ae71816860"
+RPM_NAME = "python39-uvloop-0.17.0-2.1.aarch64.rpm"
+RPM_HASH = "d525354f88c54ad932a9f380a1b0abd4fe36e1b898c7616a5a2a16e2b67d3d046559a8bd516a81acf424ec34e2cc7a8ee2b46a6cc86b4a5d8c6889e8dc1aef6d"
 
 RPROVIDES:${PN} += "python3.9dist-uvloop \
 python39-uvloop \

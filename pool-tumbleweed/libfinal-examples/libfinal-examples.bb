@@ -10,8 +10,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.9.0"
 
-RPM_NAME = "libfinal-examples-0.9.0-1.1.aarch64.rpm"
-RPM_HASH = "e6e224e6b47ccdfc533ef81c6c3b4e8d68f2701c41f82bf45090e06efb31be7d988a5a63b4217c92d42dfd2f7082d3234f0ec767ee9169c2660a881d519f2c64"
+RPM_NAME = "libfinal-examples-0.9.0-1.2.aarch64.rpm"
+RPM_HASH = "783a87724b4f4b3f39ae3ff9358df83cfdf381d53b385abd549516969b8ecf8d439c52589379582a11a355e09ae935b6b7d03962f815ae5b9a96a61938be0114"
 
 RPROVIDES:${PN} += "libfinal-examples"
 

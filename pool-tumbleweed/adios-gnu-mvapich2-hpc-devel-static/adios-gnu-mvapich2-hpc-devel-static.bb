@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause & LGPL-2.1-or-later & BSD-2-Clause"
 
 PV = "1.13.1"
 
-RPM_NAME = "adios-gnu-mvapich2-hpc-devel-static-1.13.1-5.14.noarch.rpm"
-RPM_HASH = "2c64cd564400ba550eeeeb329a6dc1bc6d089aac074b64a67eae158e0ee5e93b5575d91148c216e1b213577955567cca9aa628f4ad0bdb7af6fe985862eae649"
+RPM_NAME = "adios-gnu-mvapich2-hpc-devel-static-1.13.1-5.15.noarch.rpm"
+RPM_HASH = "c17f167b071533843b9829f6d325758dd7a676549d0d605db4b3da7929a8cce16461209cb52612668ea18488808c2286acf7de59a02db48bccf67c1f36240763"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "adios-gnu-mvapich2-hpc-devel-static"

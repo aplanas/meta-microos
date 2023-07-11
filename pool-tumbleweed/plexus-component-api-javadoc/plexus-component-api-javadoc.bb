@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0~alpha15"
 
-RPM_NAME = "plexus-component-api-javadoc-1.0~alpha15-2.6.noarch.rpm"
-RPM_HASH = "c4256e7052be4db8e072c1872852094ad3ef444e080b5883c97b1682c43708846c783419a1b4e71be86d3f9bf18804ec676542434462c089ca7b9329c9903682"
+RPM_NAME = "plexus-component-api-javadoc-1.0~alpha15-2.7.noarch.rpm"
+RPM_HASH = "098fadd878ec3515e35b90afd6997323d42b33e3fd2e61dd6dde3159265ba0ddc2bd2b899c1b3948b0c37890b3d8470fba03c58a2fd36ae20a36086991ea9bba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "plexus-component-api-javadoc"

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.26.0"
 
-RPM_NAME = "mate-calc-lang-1.26.0-1.9.noarch.rpm"
-RPM_HASH = "37b49cd1e5580adc6f912fc6332406afa50d7a0373cfd512e90fd3513357e8dee2aa60ec0528d217ec68d090501139a4f2d977ce03eadf58537288d76703f1ae"
+RPM_NAME = "mate-calc-lang-1.26.0-1.10.noarch.rpm"
+RPM_HASH = "55bed40ad9e95f0bed810e2bc4e28ffa9ecb54ec37a8121b5d0e8e088769bbffeae89268b0aef39e704c5f8facf57e52f0f5b0d751bbdcd0e20561791d62e3f0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mate-calc-af \

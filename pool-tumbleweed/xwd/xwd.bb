@@ -5,10 +5,10 @@ then be read by various other X utilities for redisplay, printing, \
 editing, formatting, archiving, image processing, etc."
 LICENSE = "MIT"
 
-PV = "1.0.8"
+PV = "1.0.9"
 
-RPM_NAME = "xwd-1.0.8-1.7.aarch64.rpm"
-RPM_HASH = "93d927ea083b5e028faa2efa80139e57071efde101e37425ab87f83671ece93a4f75b5411bb95f048e3b780cc8c4a2c5fc96bbc29ef3fdf045d7503d232530c8"
+RPM_NAME = "xwd-1.0.9-1.1.aarch64.rpm"
+RPM_HASH = "a3a81cb110a97d0b0d5821ba0360fe8a53e00b9b576526061daf9e45e0fc90fc773e16826d7a9a3e2d190197a9ed215f5168a7bcb5643c04bd6c9e4942d76b7d"
 
 RPROVIDES:${PN} += "xwd"
 

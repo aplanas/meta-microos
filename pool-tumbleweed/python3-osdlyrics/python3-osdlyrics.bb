@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.5.13"
 
-RPM_NAME = "python3-osdlyrics-0.5.13-1.3.aarch64.rpm"
-RPM_HASH = "38978875330883a8a77f0383441d6906c8dae1b99f6a3a21665f61b2a58de38eae26a6ceaaf887f5b4612d4a39c02cf87c91c0c7eab480945a90eb95ef33fab4"
+RPM_NAME = "python3-osdlyrics-0.5.13-1.4.aarch64.rpm"
+RPM_HASH = "34d4d68aff4baa96db6c25e2f1c62be5995742708d3b53d0614343c6727fad2d231683d9b35910c2fa8b199e9cb27c8ab472660d19ec54e27dc31900d8efb67c"
 
 RPROVIDES:${PN} += "python3-osdlyrics"
 

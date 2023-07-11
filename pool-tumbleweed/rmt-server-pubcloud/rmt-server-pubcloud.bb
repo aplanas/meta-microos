@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.13"
 
-RPM_NAME = "rmt-server-pubcloud-2.13-1.1.aarch64.rpm"
-RPM_HASH = "98b48424ecebea142e1ab0bbdaa7c0a15635d367a1266db821522e607763cfb96ef42d7f05d6355b1dc632e3630ba96fcf285a19af8e4268fa84ff5cd10a1d63"
+RPM_NAME = "rmt-server-pubcloud-2.13-1.2.aarch64.rpm"
+RPM_HASH = "2e2eb9173097b6a6094675d9c2f1492054f4862b97d1c058df584226c9603c1efeb7c0d4755960648a1dae4ebf539e70248972e10dfe99c49a00289d81ecb91c"
 
 RPROVIDES:${PN} += "config-rmt-server-pubcloud \
 rmt-server-configuration \

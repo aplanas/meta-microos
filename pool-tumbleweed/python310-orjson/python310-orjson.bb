@@ -5,11 +5,10 @@ LICENSE = "Apache-2.0 | MIT"
 
 PV = "3.8.10"
 
-RPM_NAME = "python310-orjson-3.8.10-1.1.aarch64.rpm"
-RPM_HASH = "4c29da1cde8dbc19741256a3cf2b18877b0aa1b03f58b17f93fe68b715581a76a884fdb51762f203fa038cdcbf102804d622b8f55543a5ecfb33edc9505b77bd"
+RPM_NAME = "python310-orjson-3.8.10-2.3.aarch64.rpm"
+RPM_HASH = "7e9b273476ba8fdd8eb8faad93313c64cc5e4f2f0209e9d61ae4190cf9c41cdcc1868152c1f61e019bb0c1ca8fe74efc431fc6445bbfc9bc117aa4be66fd56b3"
 
-RPROVIDES:${PN} += "python3-orjson \
-python3.10dist-orjson \
+RPROVIDES:${PN} += "python3.10dist-orjson \
 python310-orjson \
 python3dist-orjson"
 

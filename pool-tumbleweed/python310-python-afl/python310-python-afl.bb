@@ -6,11 +6,10 @@ LICENSE = "MIT"
 
 PV = "0.7.3"
 
-RPM_NAME = "python310-python-afl-0.7.3-3.11.aarch64.rpm"
-RPM_HASH = "77df376ebc4adf1cb8fe92131295cef7ec255231d420be636bacae79aa1d9cdcd22a98d04aeb6dba5d7797e8274ea3a18aebbd0cf2aba37eb5186ebd2fa0d72e"
+RPM_NAME = "python310-python-afl-0.7.3-3.13.aarch64.rpm"
+RPM_HASH = "aa7f725b7b2a7b4e176839d1c01586285b535a3a175a5576a5919e8834d5dafdcb75a0149feefcdb57399c42fee8a05c05e012bdd3bbee299540e137421964c7"
 
-RPROVIDES:${PN} += "python3-python-afl \
-python3.10dist-python-afl \
+RPROVIDES:${PN} += "python3.10dist-python-afl \
 python310-python-afl \
 python3dist-python-afl"
 

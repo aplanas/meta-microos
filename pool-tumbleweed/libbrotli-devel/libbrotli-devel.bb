@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "1.0.9"
 
-RPM_NAME = "libbrotli-devel-1.0.9-3.3.aarch64.rpm"
-RPM_HASH = "3c49df9b9e56a695fe939988fca6dcbc39fb2e78c9f7c8e805a31a14a561e17db557277ea4231d0b602abe175cbcdd08b0e9999863bc4594e4846dd8277bd99f"
+RPM_NAME = "libbrotli-devel-1.0.9-3.4.aarch64.rpm"
+RPM_HASH = "7d16c5684cd3274c6301e1f2791c5778a4553cf7ce6092a518ea1ec405075d431040bf00bc3e032b18017c180f82c377ff05ab1f82f06193edb1b3ba992918bd"
 
 RPROVIDES:${PN} += "libbrotli-devel \
 libbrotlicommon-devel \

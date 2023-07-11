@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.2.2"
 
-RPM_NAME = "libffmpegthumbnailer4-2.2.2-2.6.aarch64.rpm"
-RPM_HASH = "ba22d6c0ea8e821337c7f04cef880c262943aee80c9fbeac9a5b8bbb0cdcbf3e16291f2b0dfc51117656113fdbaf94979075d07f1078be857f20dd5ab5cf3917"
+RPM_NAME = "libffmpegthumbnailer4-2.2.2-2.7.aarch64.rpm"
+RPM_HASH = "4eddb1920e83fbf66b634206522984ac02dc79ba7b5e4e7b3af4f6322ae96935515384156847206daefcf5540fd5313cb699cd5bae2f5e86e0ddf5d67ee3acc7"
 
 RPROVIDES:${PN} += "libffmpegthumbnailer.so.4 \
 libffmpegthumbnailer4"

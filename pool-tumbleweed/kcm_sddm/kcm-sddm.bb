@@ -3,10 +3,10 @@ DESCRIPTION = "SDDM control module for KDE. It provides a graphical frontend for
 sddm."
 LICENSE = "GPL-2.0-only"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "kcm_sddm-5.27.5-1.2.aarch64.rpm"
-RPM_HASH = "459d4239903cc74b58452fe1423ec984a86d5037651f0177a635ada95a1710e5ba6a50d89ff9d75bf11fddb42456b6f16f6d804cf46985a94211ad48390016ba"
+RPM_NAME = "kcm_sddm-5.27.6-1.1.aarch64.rpm"
+RPM_HASH = "9a8895fa09e3c7c49a34e4b28e450888d63a6ee3bf2e50ef3acd51e77e7258a12c8d2c593f712d3e2f362f30a004832634d5f24deaae6bb5c46c1cdc8f62a766"
 
 RPROVIDES:${PN} += "kcm-sddm"
 

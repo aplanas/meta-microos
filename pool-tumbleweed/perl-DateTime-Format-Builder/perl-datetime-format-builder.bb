@@ -12,8 +12,8 @@ LICENSE = "Artistic-2.0"
 
 PV = "0.83"
 
-RPM_NAME = "perl-DateTime-Format-Builder-0.83-1.13.noarch.rpm"
-RPM_HASH = "eba9bf4631bb36d1ee7594d9de3a632511aa2c52c5bf041bc55c4c73dff237b75d110c6a2a69aa0be63d8b795ed36b04ebfe8ab24d8dd670982f63f88150fce9"
+RPM_NAME = "perl-DateTime-Format-Builder-0.83-1.14.noarch.rpm"
+RPM_HASH = "6575843ba2087345fdf7ec3564ae7b53847afafb6b986e54336d8385d19f1f2fabec6a4795db941fcce2d94eeaf972f37b7380d4e98b441f6c9cfc287f1e6ec3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DateTime--Format--Builder \
@@ -25,7 +25,7 @@ perl-DateTime--Format--Builder--Parser--Strptime \
 perl-DateTime--Format--Builder--Parser--generic \
 perl-DateTime-Format-Builder"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-DateTime \
 perl-DateTime--Format--Strptime \
 perl-Params--Validate \

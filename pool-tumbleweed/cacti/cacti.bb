@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.24"
 
-RPM_NAME = "cacti-1.2.24-1.1.noarch.rpm"
-RPM_HASH = "14258c3f6d9d65dd4bacec455cfc8a693dcbeba535561525579fc18fa70a02a9ea511cfdd2646fd25ae81f468afc106d8a228113577e0334636d5f6039742711"
+RPM_NAME = "cacti-1.2.24-1.2.noarch.rpm"
+RPM_HASH = "ccf3fa81845a1859194d6a7b3a4c2da549cfc4a0b97e631fe38432cdf880dcca0680ef335b43f5528e94f3aa44c6b5a1b72b210e1ff37c70c474af5a1a65939c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cacti \

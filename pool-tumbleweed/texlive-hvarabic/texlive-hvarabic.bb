@@ -5,10 +5,10 @@ and ALM fixed, the only monospaced arabic font. The package \
 works with LuaLaTeX or XeLaTeX, but not with pdfLaTeX or latex."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.02svn59423"
+PV = "2023.208.0.0.02svn59423"
 
-RPM_NAME = "texlive-hvarabic-2023.201.0.0.02svn59423-52.1.noarch.rpm"
-RPM_HASH = "baf56caf7dc802e45bab1632a7d7390798f5de57dbb9fe35ccebcd7d48c5ae33f98e86aa9a30af43305955c90e2fdb7d9f011aba69bf1872c939989b347aba23"
+RPM_NAME = "texlive-hvarabic-2023.208.0.0.02svn59423-53.1.noarch.rpm"
+RPM_HASH = "66c8d9058d73fd29405571bbdaf8c412ac9e593921f5e5bef9bf81f22f00e42ed0e7b6865f770da6af924409b3fc36337c026bb9843792c30a3dea7e825b3b16"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hvarabic.sty \

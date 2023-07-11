@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "8.2.0.0"
 
-RPM_NAME = "python311-azure-servicefabric-8.2.0.0-1.8.noarch.rpm"
-RPM_HASH = "a9bd1d11fb75d72e9eaed5a4cbde5285db3d872a1556c30524b3eba176fb2e868284116b73e4750e10c11789cd23206010cdf57ec5f49c71bfb30bac8a8927da"
+RPM_NAME = "python311-azure-servicefabric-8.2.0.0-1.9.noarch.rpm"
+RPM_HASH = "17b0deb67d5d060131b016aecfe2f1d114f6d1be0b4b55de9f1444d2cdcdd2b4d7fe6df817cdbcf30fdb141a4738ca6e0f2f5c50286d50ee9e25188c1ae7fa4e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-servicefabric \
+RPROVIDES:${PN} += "python3-azure-servicefabric \
+python3.11dist-azure-servicefabric \
 python311-azure-servicefabric \
 python3dist-azure-servicefabric"
 

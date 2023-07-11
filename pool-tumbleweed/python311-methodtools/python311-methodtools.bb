@@ -5,11 +5,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.4.2"
 
-RPM_NAME = "python311-methodtools-0.4.2-1.12.noarch.rpm"
-RPM_HASH = "093acd327b6c3fa59bb333ab513308822a1d4016469fa78deeb6634f2d178cb08825fe55671d100341950e42e702fc769675e5438fccd9ecef365770f3cdfbec"
+RPM_NAME = "python311-methodtools-0.4.2-1.14.noarch.rpm"
+RPM_HASH = "51f6b4004e4d10aa291a165a25c5fcf33fccdbb8035c57857e43154b8c76b20f89bb09b23a339a74fb2577fc51b2f2954c11d6f9db86f652bedde6cedf650e5e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-methodtools \
+RPROVIDES:${PN} += "python3-methodtools \
+python3.11dist-methodtools \
 python311-methodtools \
 python3dist-methodtools"
 

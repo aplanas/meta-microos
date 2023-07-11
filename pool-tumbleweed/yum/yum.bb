@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & GPL-2.0-or-later"
 
 PV = "4.14.0"
 
-RPM_NAME = "yum-4.14.0-3.1.noarch.rpm"
-RPM_HASH = "f7d99d0b81668a726ad8aceace4a37eaa6c432fec1dbed49336a00018bd01042de30cb14662334fe873406694a5699e9764fa3e456951c821d6c88d5c198e21c"
+RPM_NAME = "yum-4.14.0-3.2.noarch.rpm"
+RPM_HASH = "619b2e680d9623b77c1bdc29ee329dd3fe3032e07b96bc6e47172a2587dad1be7aa787399935007b8656b4330fa6f3da4790d6cbfab94d709c7ea924c24b9e51"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-yum \

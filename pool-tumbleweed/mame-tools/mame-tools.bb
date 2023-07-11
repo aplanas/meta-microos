@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "0.254"
 
-RPM_NAME = "mame-tools-0.254-1.1.aarch64.rpm"
-RPM_HASH = "bee71c21e9e5fb01013948f5fb1ec13a939b035307eebb3fcd40e39d1661715ff2e3ffdc3547b6f445ee169613e145fc3dbc71ff84859fcf5fc7548b832207ac"
+RPM_NAME = "mame-tools-0.254-1.2.aarch64.rpm"
+RPM_HASH = "b1f4208f11a6ebe3f7d1781745a3ec1b675220e5a85050e240328ea7dec739384cfea9fb3314a6551a0fabc8f4155bf7505b2cefbd5d684bcc8283cd51a2c879"
 
 RPROVIDES:${PN} += "mame-tools"
 

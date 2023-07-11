@@ -12,8 +12,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.11"
 
-RPM_NAME = "python-ply-doc-3.11-5.1.noarch.rpm"
-RPM_HASH = "11d5679e9cdc457d2673548116c913e394cdbdde0ead0dc13bbce4188062332a38f8d557dc183adb1cf9ddd3cc956fd92a10a82bfac06b0956f5d0457ff45d5b"
+RPM_NAME = "python-ply-doc-3.11-5.2.noarch.rpm"
+RPM_HASH = "a047ae74ca2b09d121ba269532df2881217e773c64e75251a6459386f72226122ceb6d1a3b9c7091e830fe15b7a4b87a7f893346ca82dcf057254c2a43450a58"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-ply-doc"

@@ -6,12 +6,11 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.0"
 
-RPM_NAME = "python310-adapt-parser-1.0.0-2.3.noarch.rpm"
-RPM_HASH = "ad54d0be0c6bde1d0c96df06d114e690de276eb0491e0f6e6bc37713b0fad56e6549fe6adbe9b1949be4e8b739a88fdfce79286ab1a8355cb7517dc78317d79d"
+RPM_NAME = "python310-adapt-parser-1.0.0-2.5.noarch.rpm"
+RPM_HASH = "57de617d1b52f8ebd89bce8480619f961d97f6b3f77b2969cb0761b34051b6b06362f117600339850c537a7eef300fc204c76f81b48c2e43f6e41ca5f5d3266e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-adapt-parser \
-python3.10dist-adapt-parser \
+RPROVIDES:${PN} += "python3.10dist-adapt-parser \
 python310-adapt-parser \
 python3dist-adapt-parser"
 

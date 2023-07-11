@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "13.5.3"
 
-RPM_NAME = "libOgreBites-devel-13.5.3-1.5.aarch64.rpm"
-RPM_HASH = "bca5b4b2eb3b5ac633e093b0f8f20289f90ba0410f41515b3ba1388eb5db31d70ea8edeeb3990fb4264ac4a95b17704d7ade1523cf179f2c9dca0d9431353901"
+RPM_NAME = "libOgreBites-devel-13.5.3-2.2.aarch64.rpm"
+RPM_HASH = "a15cfee9c30edaff7baba104037e5774a9c50ab502d620e7902e95125a76ad4f7ed941867b5ea2b2bf35d41d12de06cf1a5743c4b3f5c7d1716e92214d936e5c"
 
 RPROVIDES:${PN} += "libOgreBites-devel \
 pkgconfig-OGRE-Bites"

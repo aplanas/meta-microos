@@ -2,10 +2,10 @@ SUMMARY = "Development package for libkdepim"
 DESCRIPTION = "The development package for the libkdepim libraries"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libkdepim-devel-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "4e4545ad776e6dc33ca552e6e0da8f3dfa73f2b0524528e6bbf9757319701a3db87de0e2886cefd788faebae43fab7df5571af2ef828b9e50f2e2af23e896a40"
+RPM_NAME = "libkdepim-devel-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "76f3f27fd765e360bcf5f4f966ec989bd2055dc2b417c6ef570d0110a8ddb66cdbd080cb5a593fec03c3ad1ebe36d56c4ec3d99d2d9a11545213eadaba79ed45"
 
 RPROVIDES:${PN} += "cmake-KF5Libkdepim \
 cmake-KPim5Libkdepim \

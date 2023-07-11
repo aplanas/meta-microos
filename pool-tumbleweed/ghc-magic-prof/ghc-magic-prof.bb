@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1"
 
-RPM_NAME = "ghc-magic-prof-1.1-4.3.aarch64.rpm"
-RPM_HASH = "4492ec4f53535086b21cb543046cf86f2f54c8ad3bfda0ad361d6f2ffbba88101440496d3fe96d4608193d000598a7770c6a4a0202121ab4f6baa029fec9162d"
+RPM_NAME = "ghc-magic-prof-1.1-4.6.aarch64.rpm"
+RPM_HASH = "fbf5bab37602fef4dbf76bd17154cb8079561b0270751ea389cc5ea071a9ffd8358521b4a0f900eba5f1b17b31cf99781560c3a5a90a7ab513592cf1b881e38a"
 
 RPROVIDES:${PN} += "ghc-magic-prof \
 ghc-prof-magic-1.1-FZjtT3pxmlr6oRrs4QNuLe"

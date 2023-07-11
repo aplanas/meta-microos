@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause-LBNL"
 
 PV = "2.3.23"
 
-RPM_NAME = "libqd0-2.3.23-1.2.aarch64.rpm"
-RPM_HASH = "8a71967f1b23a381edc1cb6b901bf7611c450af83674f61c4d57fc125b8ef3f8f0bfc37ba31fba5628f51d6010deeae34638498a51da133328e9af979227e7f9"
+RPM_NAME = "libqd0-2.3.23-1.3.aarch64.rpm"
+RPM_HASH = "91524a8108f481bbcbf30c50260295c7e0fc3688d49bc596fcebcba7781edece7c179706a7143d143ff6a85565df7399be6bc40d08a0dd03cdad8545f607b099"
 
 RPROVIDES:${PN} += "libqd-f-main.so.0 \
 libqd.so.0 \

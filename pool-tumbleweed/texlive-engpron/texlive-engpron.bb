@@ -8,8 +8,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.2svn16558"
 
-RPM_NAME = "texlive-engpron-2023.201.2svn16558-53.1.noarch.rpm"
-RPM_HASH = "838f91d0c156262cb27868b4e090ece53b51867bf27666d0a58c7c5d2ee6c8c908b733f0cfd12429ce7b12c69e1b696d5d82dc6ac0d628b7d51b226c1d8a5c62"
+RPM_NAME = "texlive-engpron-2023.201.2svn16558-53.2.noarch.rpm"
+RPM_HASH = "f48aff5e86ad712feb0474dca079cf29eac795d84fad10eb3d21219337722c9d25105a498f279d971a4a47b200d9021be9a07a433fed591a3be77aae0d904e93"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-engpron-tools.sty \

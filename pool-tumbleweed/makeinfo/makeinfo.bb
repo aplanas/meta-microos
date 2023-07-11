@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "7.0.3"
 
-RPM_NAME = "makeinfo-7.0.3-1.1.aarch64.rpm"
-RPM_HASH = "a592e2b9a5bbd781cd7940c38d69d9ded88c2ed77a5410e15b425f14c5f52d1cb1d3eb3a1e6289d25e56e9f54c29d0220a989553b14a7d5f839963508154296c"
+RPM_NAME = "makeinfo-7.0.3-1.3.aarch64.rpm"
+RPM_HASH = "c38cf6add911ba930489f02304d9b55d3e2eabc9561a0e1495dd80171f950705934b8d3e4af590e19ca0b1116be7ae7347523925cf0ddf74d6fc7a2975f7d61b"
 
 RPROVIDES:${PN} += "makeinfo \
 texinfo-/usr/bin/makeinfo"

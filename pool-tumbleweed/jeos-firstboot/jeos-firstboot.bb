@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.2.0.6"
 
-RPM_NAME = "jeos-firstboot-1.2.0.6-1.1.noarch.rpm"
-RPM_HASH = "7b32928b46eb1792f820bb1330f02fe63f9f5528c5c8eed849b847f87a6a7e13c2c43eb955cfc20de42c2d2a5631da16325e00a6806ac43697532c88d42a8711"
+RPM_NAME = "jeos-firstboot-1.2.0.6-1.2.noarch.rpm"
+RPM_HASH = "f5091041b2f5c8360db562a8ffc6258f52040e0f926b5a483bad3cb7e8b966e8d4b9dc861ba3d6badfb8ce56974d5bfbbccc7745061c1fce5f3b20d0f629d283"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jeos-firstboot"

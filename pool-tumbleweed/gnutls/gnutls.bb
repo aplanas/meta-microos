@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.8.0"
 
-RPM_NAME = "gnutls-3.8.0-4.1.aarch64.rpm"
-RPM_HASH = "ccbd23760633665316af4cb7c7f432a177994618a2035641158bfdbca658ca21edd029577521b998603df47abbd266c3b6385fce9dc3befa5ac9185ce011e8b0"
+RPM_NAME = "gnutls-3.8.0-4.2.aarch64.rpm"
+RPM_HASH = "33619542a58b3490767eb52587f797d4b33535d712870d89d5869d4c6ccb3c49972a4cfe75ead88820e0f5845d3ca1fcbdc99eff4f35bacce5275e10d88d1631"
 
 RPROVIDES:${PN} += "gnutls"
 

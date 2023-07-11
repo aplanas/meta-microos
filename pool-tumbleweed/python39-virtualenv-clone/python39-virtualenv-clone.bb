@@ -34,8 +34,8 @@ LICENSE = "MIT"
 
 PV = "0.5.7"
 
-RPM_NAME = "python39-virtualenv-clone-0.5.7-1.4.noarch.rpm"
-RPM_HASH = "f7ea43171f4d77ed3fc61dc3b6cd4c28e3b457f27c560a3539ce8c974ff4c16aa33759d98ef135edf7f2b488018fb3a0dbcbc040f345c26ed5c262179ec6c31c"
+RPM_NAME = "python39-virtualenv-clone-0.5.7-1.6.noarch.rpm"
+RPM_HASH = "929a2010decab2b3743b4643bde2804db35d53a2c00743f24d6a5025ddffa7b597fef6e628aec35a77fa8da6ec279f64659043ca2ecb8fe96e9d5d44581a6f0c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-virtualenv-clone \

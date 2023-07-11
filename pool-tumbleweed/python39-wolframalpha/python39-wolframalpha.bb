@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "5.0.0"
 
-RPM_NAME = "python39-wolframalpha-5.0.0-2.3.noarch.rpm"
-RPM_HASH = "bb1b9c8c4a7b79b0549003be06b8eedc66d927116c57274dd4340c62e620a821793caee593823cb770d9a2425e3da3a2f2bd09d0057ae58ce6431686e3256695"
+RPM_NAME = "python39-wolframalpha-5.0.0-2.5.noarch.rpm"
+RPM_HASH = "378e2ca2a2ebc24191216743adbc6c62ddafd8ce0ef0955e383c3928f3ca4869f89683720328c33f1f639f23ab433051658e8723aebe998a086e345c3e6e2ff8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-wolframalpha \

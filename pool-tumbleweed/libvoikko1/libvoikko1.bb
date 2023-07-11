@@ -17,10 +17,10 @@ morphological analysis for Finnish language. Spell checking is \
 supported for other languages through the HFST backend."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.3.1"
+PV = "4.3.2"
 
-RPM_NAME = "libvoikko1-4.3.1-1.10.aarch64.rpm"
-RPM_HASH = "67fbd6aa18dd524a2c00cb320381f5d085db2c63ef1c142739f7c7db5477136135103b2dc05542aed77d3da431e71085428ea2722aa6d072f15629e56302a53b"
+RPM_NAME = "libvoikko1-4.3.2-1.1.aarch64.rpm"
+RPM_HASH = "7f0eaf014e81e8d2818df4bff9198af91346881ef9f12432045617b430a0f4ab3ac617db883298e7a853c7980de0d8ab906885840095b46612dc6c666f650dd6"
 
 RPROVIDES:${PN} += "libvoikko.so.1 \
 libvoikko1"

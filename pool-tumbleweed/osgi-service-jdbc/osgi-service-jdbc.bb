@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.0"
 
-RPM_NAME = "osgi-service-jdbc-1.0.0-1.1.noarch.rpm"
-RPM_HASH = "4df1a90f3b8b9d93844c0f4ddc37119a3e9aeb6251081ac38ac1ddf2e6496a0bebcfcfc8e50e736a746b3065231b64e96b4ddda7a1e7bebd22954ea8590cd426"
+RPM_NAME = "osgi-service-jdbc-1.0.0-1.2.noarch.rpm"
+RPM_HASH = "4a11cc3e26bf4e488095d9caf26beccfb4bad57b6c42bf5c75d1ca7aa1d73c6bac33008b684fce6bfafa79d76663e03945d807dd5478ad4b9909e64f1da79b40"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.osgi-org.osgi.service.jdbc \

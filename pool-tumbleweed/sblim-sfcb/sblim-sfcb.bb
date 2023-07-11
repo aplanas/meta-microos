@@ -8,8 +8,8 @@ LICENSE = "EPL-1.0"
 
 PV = "1.4.9"
 
-RPM_NAME = "sblim-sfcb-1.4.9-15.4.aarch64.rpm"
-RPM_HASH = "a2e9605bae62c52a4e5cab08ddf5a25a180386561156cc4919421f6f3a1ddccd37cc6cc5e524f7c7ef99b32a158240d4bbedb21f2b94e2b034f020c222b08c3d"
+RPM_NAME = "sblim-sfcb-1.4.9-15.5.aarch64.rpm"
+RPM_HASH = "264fa93dddcffc786801f8e8b85c2772b4827a2bc6dfb680a60b8391fcbc08c09b249b378ded1d7a6d3b1f507212289557e75f65a9b92b0c6dd92ce9afddad30"
 
 RPROVIDES:${PN} += "cim-server \
 cimserver \

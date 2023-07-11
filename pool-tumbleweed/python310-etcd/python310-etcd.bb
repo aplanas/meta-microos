@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.4.5"
 
-RPM_NAME = "python310-etcd-0.4.5-4.11.noarch.rpm"
-RPM_HASH = "f358fd277bb7d3c8190ec2a10c39a15bfdb019e1ca80242fc08f73305f4f6c6b99faffbb1850c16823c50b415b7d37daef9add9481b34e946682c9632879379b"
+RPM_NAME = "python310-etcd-0.4.5-4.13.noarch.rpm"
+RPM_HASH = "2fcf95d9d80df2e9eaa066678f98306d9e18b37e005a226728de21d112762730de7321aaf573d3d74e3bda951bd5c2dbfb3371cb6afae04d90b8a47b7a276c20"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-etcd \
-python3.10dist-python-etcd \
+RPROVIDES:${PN} += "python3.10dist-python-etcd \
 python310-etcd \
 python3dist-python-etcd"
 

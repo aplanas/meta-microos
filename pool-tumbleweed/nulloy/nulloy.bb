@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.9.5"
 
-RPM_NAME = "nulloy-0.9.5-1.9.aarch64.rpm"
-RPM_HASH = "0060c8453d6bf8aa9635cb2a380805d03b342ad77a1322c523ba4165a90294054ea5f65e6ed2cb4c785befeeffab603063fd70892afe6be1809190081aa4cdde"
+RPM_NAME = "nulloy-0.9.5-1.11.aarch64.rpm"
+RPM_HASH = "8a59a960f463b11bbda1c0ffaeaf7691e83b290f7b99fe393fdb282d89b5429978e5818c1ed6370b74fd8bf83a6f9307d2ab48f4ad351e78abc0b06ff270489d"
 
 RPROVIDES:${PN} += "nulloy"
 

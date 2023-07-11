@@ -8,11 +8,12 @@ LICENSE = "ISC"
 
 PV = "4.0"
 
-RPM_NAME = "python311-rarfile-4.0-3.5.noarch.rpm"
-RPM_HASH = "1f8f8266321287ec932a53351da34a9699814d16c0bb2d8603b8b7911522bf57ee4312f33c4f13a0cee3e6a24e63776cc69999f8edc017da4861f2b59d1eae3d"
+RPM_NAME = "python311-rarfile-4.0-3.7.noarch.rpm"
+RPM_HASH = "ab8798a267648ca7ca31600670b053b86baa6dd8e49761ddfbe621eca5185e64139ee38bc03763c48e65d0b4d5cadea2dec3175164f22008a7f7131e6859eb9d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-rarfile \
+RPROVIDES:${PN} += "python3-rarfile \
+python3.11dist-rarfile \
 python311-rarfile \
 python3dist-rarfile"
 

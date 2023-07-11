@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-positioning-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "802b1ba53ea541dce6f2aef021d1cccf6ad9b38f004a0419ea43885b66f31e512950920e591ac8b11ab5a37e8f0c380f394a09fdc5e2e63358a63a5f97f26630"
+RPM_NAME = "qt6-positioning-devel-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "28d2281a2e3f11a3615ac2a95e5177dec89364d43f1f6fa2e5c5d7da4566d44f18bdf622e76089675b601ff88fcaf06ac801cdf0ddd7fc2924a986b603de8ecb"
 
 RPROVIDES:${PN} += "cmake-Qt6Positioning \
 pkgconfig-Qt6Positioning \

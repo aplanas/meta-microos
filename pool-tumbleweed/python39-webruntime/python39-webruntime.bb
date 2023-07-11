@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.5.8"
 
-RPM_NAME = "python39-webruntime-0.5.8-1.5.noarch.rpm"
-RPM_HASH = "f4aa76e325e544d631491d5a88109a87906023190b116ac974139767501f393119bf83b3b1177444ef267bfba4661fb8595270a4d5ec141f2ecbb36e4a601d60"
+RPM_NAME = "python39-webruntime-0.5.8-1.7.noarch.rpm"
+RPM_HASH = "c56cd79c2cc93df09b75970b8a3c40f5c3bbc0fab0b1d84c6f1b8fb9ba63dd890edf318ce7396c367b2e18dddf3305e9069911b0155168d31eea7d4e6556660b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-webruntime \

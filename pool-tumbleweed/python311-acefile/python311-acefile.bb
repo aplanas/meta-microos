@@ -4,10 +4,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.6.12"
 
-RPM_NAME = "python311-acefile-0.6.12-3.16.aarch64.rpm"
-RPM_HASH = "332258c447b2bd0f228881ad43d2e56f20e91bfb5aa9238dde29e9c6f8a261b27783b93772d421ad173e4d712dc314657c555c43e8092a10496430a88469c16a"
+RPM_NAME = "python311-acefile-0.6.12-3.18.aarch64.rpm"
+RPM_HASH = "57c9e28d2772344aae9dd56de22bd150d62b676df69f53e75027ddda73aa36db965278ca7bde224b135093395b3cad041895861ed2aa1971e8259c4849cf3213"
 
-RPROVIDES:${PN} += "python3.11dist-acefile \
+RPROVIDES:${PN} += "python3-acefile \
+python3.11dist-acefile \
 python311-acefile \
 python3dist-acefile"
 

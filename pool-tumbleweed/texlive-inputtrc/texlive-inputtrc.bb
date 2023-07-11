@@ -7,10 +7,10 @@ and the unit of indentation may be adjusted. The implementation \
 somewhat resembles those of packages FiNK and inputfile."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3svn28019"
+PV = "2023.208.0.0.3svn28019"
 
-RPM_NAME = "texlive-inputtrc-2023.201.0.0.3svn28019-52.1.noarch.rpm"
-RPM_HASH = "9e9cdd55d9d3e4dd2aa96112c314add938f940824cb742273143d3cdc93e5095b30596e5a51ec21111c8be10be599891d029e5d02efff0d74d3ed550fc95a488"
+RPM_NAME = "texlive-inputtrc-2023.208.0.0.3svn28019-53.1.noarch.rpm"
+RPM_HASH = "79338ca9b260ad1353887626425e1348024169c93d5ae02dfaa998b36bbccef99c43ce1a048831bd6d3582365897b776314c8e1caf059aa5cbe29ec92ee81de7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-inputtrc.sty \

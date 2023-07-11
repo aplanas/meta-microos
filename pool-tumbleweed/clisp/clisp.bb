@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
 PV = "2.49.92"
 
-RPM_NAME = "clisp-2.49.92-5.4.aarch64.rpm"
-RPM_HASH = "b4fd1ff54f630063d86ef3abf4af3b56586208a613bcc7f6a24b8b1bf6a1d3a29541d7e2ce6c882a0cec6f73751d3d4f9fc2e65112bc47c6486f443003d710e7"
+RPM_NAME = "clisp-2.49.92-5.6.aarch64.rpm"
+RPM_HASH = "e7aeaaf84344777f052e17c4617e3f604d39519630e8171810ca4b0b2ef6824939064307d876e624f85214a527f377f93bed016739e877cc7f9cccd5ed7384f7"
 
 RPROVIDES:${PN} += "clisp \
 clisp-devel \

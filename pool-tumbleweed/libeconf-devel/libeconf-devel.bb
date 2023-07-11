@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.5.2"
 
-RPM_NAME = "libeconf-devel-0.5.2-1.1.aarch64.rpm"
-RPM_HASH = "53673748afdb34f43f877dd9de0ee20ca99c4e57689d7d9bb851e917e012d263cbb086317c4d4e87cc2e10d7b5a7000a6d8e5d0ad4506fb98e0b4c8ffad3f79d"
+RPM_NAME = "libeconf-devel-0.5.2-1.4.aarch64.rpm"
+RPM_HASH = "735cdf012884fe5d1ca11871f10cd49191092319319b8b44d1df20af2029d18c99a050d303482a8a7b0eb29472507a4c94863b00689339e44b256a139f557426"
 
 RPROVIDES:${PN} += "libeconf-devel \
 pkgconfig-libeconf"

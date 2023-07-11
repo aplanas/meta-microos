@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.1.5"
 
-RPM_NAME = "python310-zhon-1.1.5-4.1.noarch.rpm"
-RPM_HASH = "5bf68c156d0c5175e0920cfe5ae443be5152937cc05e342a3d3aa0d91c060362b66e1c143742a204cb96840968f9d6b5dc4cd7ce1341fe312183a7d8b2dc4ad5"
+RPM_NAME = "python310-zhon-1.1.5-4.3.noarch.rpm"
+RPM_HASH = "9f610c408d5811cb7dafa6c91843662ea458d2bfcbe4f314d7874250d3417e90ffaf451ff4337d4ffec4bee59557fc18d0cd209c80b8530185db45c88c5ac68b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-zhon \
-python3.10dist-zhon \
+RPROVIDES:${PN} += "python3.10dist-zhon \
 python310-zhon \
 python3dist-zhon"
 

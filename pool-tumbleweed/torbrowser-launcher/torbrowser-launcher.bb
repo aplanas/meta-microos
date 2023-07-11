@@ -21,11 +21,11 @@ LICENSE = "MIT"
 
 PV = "0.3.6"
 
-RPM_NAME = "torbrowser-launcher-0.3.6-1.2.noarch.rpm"
-RPM_HASH = "b0c1d9abf6ef882b9ce8b2f493abd229762ca759e653bc6eb8b030ccf886529d1ade9785f4ec86dc4cd63c47f25f7585357c66450d6a00672f99fa1b35c86929"
+RPM_NAME = "torbrowser-launcher-0.3.6-1.3.noarch.rpm"
+RPM_HASH = "a4fd0f8ed0f71a869f4bcb4c4814406c24ed949eaf37d640ff7eaff14a5308c2cb9a08c445b0930a7c570006df4f3bc8f1a6c72c850b83d96f09045770d2d558"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-torbrowser-launcher \
+RPROVIDES:${PN} += "python3.11dist-torbrowser-launcher \
 python3dist-torbrowser-launcher \
 torbrowser-launcher"
 

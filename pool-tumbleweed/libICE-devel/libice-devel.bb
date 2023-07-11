@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "1.1.1"
 
-RPM_NAME = "libICE-devel-1.1.1-1.3.aarch64.rpm"
-RPM_HASH = "221d455beb47d265f2bc598b20d4bab14bbd6cf04930ad1639a6e94cc9d9b47884bada471edb9e7f17d94846c7551c10ac964ce3530506ab8991ba4a11a88d14"
+RPM_NAME = "libICE-devel-1.1.1-1.4.aarch64.rpm"
+RPM_HASH = "443309c501ab5c247aa07333bc9cfca57a49064aac7f466eed3d61ccf24ad651a64a48e4b77f0b664338d48f1ab8eb4d849bba0a6929e42c647d3a1a65974c0a"
 
 RPROVIDES:${PN} += "libICE-devel \
 pkgconfig-ice \

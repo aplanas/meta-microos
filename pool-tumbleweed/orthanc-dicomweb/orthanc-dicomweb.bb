@@ -4,8 +4,8 @@ LICENSE = "AGPL-3.0-or-later"
 
 PV = "1.13"
 
-RPM_NAME = "orthanc-dicomweb-1.13-1.2.aarch64.rpm"
-RPM_HASH = "2f53efbb52b02c80a41edc6de9d650ada9733d8710b3a5fbc393e4f588d98b828c3177337d88f67e074e701c213b7dbd8b3f9f138f9e3d80fea89a309ed71113"
+RPM_NAME = "orthanc-dicomweb-1.13-1.3.aarch64.rpm"
+RPM_HASH = "0bf3a0229a916c97f826ea1d244d7acde558555534cea77579ac5f09327a2f1e408c8ed65fc677c03ecc5ab6034b4bfeeaef8eba51b6379fb7547b8ba854aa40"
 
 RPROVIDES:${PN} += "libOrthancDicomWeb.so.1.13 \
 orthanc-dicomweb"

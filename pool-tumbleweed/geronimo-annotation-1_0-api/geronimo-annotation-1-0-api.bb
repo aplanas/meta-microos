@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2"
 
-RPM_NAME = "geronimo-annotation-1_0-api-1.2-36.11.noarch.rpm"
-RPM_HASH = "76d70b233bff4f3691a9a8d87a1d5b8542d2d76b22b361f1bf7be8a61c2588f50179dd094eac580b6db0d46160e8dc6ee47035fcb1c541b7e6503cda91bb3acc"
+RPM_NAME = "geronimo-annotation-1_0-api-1.2-36.12.noarch.rpm"
+RPM_HASH = "19ac869cf0121d08de8dd1804ba784e888e9f3c6cb1de9cabdb65e89856b7ce3b920c67775d09f70c40f3dbcb713af036cfee1b438ea7fc1f058bc0d45961871"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "annotation-1-0-api \

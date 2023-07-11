@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.6.1.2.0svn66472"
 
-RPM_NAME = "texlive-xduts-doc-2023.201.6.1.2.0svn66472-52.1.noarch.rpm"
-RPM_HASH = "7045b23d40290183d35148f28e4d321a84481b7dc143c73da7fecb1fd10abcb0de9f4b819989430fd4ff98d3e902949e07ad45d2ea927740aa4afea5594009bc"
+RPM_NAME = "texlive-xduts-doc-2023.201.6.1.2.0svn66472-52.2.noarch.rpm"
+RPM_HASH = "280018ddd4e8bd0c12067585d7e96326e77347523a72912fa5e9bf85552ee931805a0e3d29cebf5a67d39a3f86307ab95932ffc4aeb47e1f2d8d122e18ccfcd8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-xduts-doc-zh \

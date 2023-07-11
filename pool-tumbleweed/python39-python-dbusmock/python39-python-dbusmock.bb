@@ -8,8 +8,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.24.1"
 
-RPM_NAME = "python39-python-dbusmock-0.24.1-3.1.noarch.rpm"
-RPM_HASH = "cbec3f7a4ab5dafb6412a4a3a5bedaca903894e0ff8dbad1bb268c11c094e00c80bf754b9094f0107d2a84592a8f2138e10571d012f2347c6382a690344ac394"
+RPM_NAME = "python39-python-dbusmock-0.24.1-3.2.noarch.rpm"
+RPM_HASH = "e5087719f5579d97f1bd261cab1d4611eb1998e30c9b317ba06f94eeb29f681a1b1c9333309263a6870e20235c67d9a15fec728cdb675649f063c233f785cdc4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-python-dbusmock \

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "4.33.3"
 
-RPM_NAME = "yq-bash-completion-4.33.3-1.2.noarch.rpm"
-RPM_HASH = "7a70d2c6e8fb38cc78d82a272ee4dcf9dbf929ff9d3082c47885ea9af98e56c5dd23c649d699091fe62bc6beffeb93c9cdba71d8d03623e4602020ec5ad5ba18"
+RPM_NAME = "yq-bash-completion-4.33.3-1.3.noarch.rpm"
+RPM_HASH = "a01d99ef053f9efe6c8e97fe41d9fc3e43664fd62f2e3d85aa217b0d5c9c4edce38a4c78b3f9b03e6f84faeb1e5de3e6f5f2db777b26e90321f51ee95320b6c5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yq-bash-completion"

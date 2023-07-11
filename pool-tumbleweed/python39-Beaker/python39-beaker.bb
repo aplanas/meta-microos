@@ -32,8 +32,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.12.1"
 
-RPM_NAME = "python39-Beaker-1.12.1-1.4.noarch.rpm"
-RPM_HASH = "2fc59f9357bf4ff779b5a3394746297340d6603a32987a9de1a3f953727c95f707cdf32f5776e07063784d8a4b7f591abf5f12c4b735bc64cfb3dd4a996a1cf7"
+RPM_NAME = "python39-Beaker-1.12.1-1.6.noarch.rpm"
+RPM_HASH = "9df5c0f79a587f4890451c903f8002a3150d33b421db765d01e3b2f18d570c2b40bce41d6e5ee574bc977e84e81b02f1294ffd0d4ddb32a3d7d9bbf9a35842c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-beaker \

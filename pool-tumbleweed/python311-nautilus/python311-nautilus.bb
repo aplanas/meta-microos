@@ -6,10 +6,11 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.0"
 
-RPM_NAME = "python311-nautilus-4.0-1.5.aarch64.rpm"
-RPM_HASH = "72d54b05db307541486c2ea64e76054b87ecac5c7607dbcfe35f0780dd316b53a3374692463488aba1c2e845ccf383cf3d8a4bbe28a75abcc63600a23e1afe7c"
+RPM_NAME = "python311-nautilus-4.0-2.1.aarch64.rpm"
+RPM_HASH = "a56057a4e07ab005c942cbbfe215cc6acdcc8be39ab843ee02a02e56f4eef92b6009417b922a9edc42b2a25c5d6ace65a672d544399417e6c77c6a5ee697d2c3"
 
-RPROVIDES:${PN} += "python311-nautilus"
+RPROVIDES:${PN} += "python3-nautilus \
+python311-nautilus"
 
 RDEPENDS:${PN} += "python311-gobject \
 python311-nautilus-common-files \

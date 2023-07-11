@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.6.5"
 
-RPM_NAME = "python39-slip-dbus-0.6.5-6.15.noarch.rpm"
-RPM_HASH = "ba3614f7318d6d1c45f9dc8d2d88866bce578e42dbad80021e811be29299dd73aeb34f8b6b176affeecfe08dde440aa318ce0afbb0f59647863ec2f2c8464bc9"
+RPM_NAME = "python39-slip-dbus-0.6.5-6.16.noarch.rpm"
+RPM_HASH = "a44dcf2ac28fcd8afa29089bb0294f02e40ac4fe4818ca468cea73a192887ced9c1c78dbfe2e4e72af3870eab5634616b33cd5b13c0d90edfe5f599d6dfa991a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-slip.dbus \

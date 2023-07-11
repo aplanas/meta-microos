@@ -4,10 +4,10 @@ DESCRIPTION = "StrongSwan is an IPsec-based VPN solution for Linux. \
 This package provides the strongswan mysql plugin."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.9.10"
+PV = "5.9.11"
 
-RPM_NAME = "strongswan-mysql-5.9.10-2.1.aarch64.rpm"
-RPM_HASH = "49f911cc76ed7a65f2fec441579d8eeb0906547a8fb10f834a8cd642d7128565962b22a47c08a6ac84479777c1ee9c67cc37e476bab000ebbb5a5944ebcbe832"
+RPM_NAME = "strongswan-mysql-5.9.11-2.1.aarch64.rpm"
+RPM_HASH = "6ff41ad424c6e844bfc0b04f949622e775d8894d0ef497bca62e4e8376221e8707dfa1e420210e1497f7e358c1e89ff22f3ebe35ec9e9ea8a432dc5da899b133"
 
 RPROVIDES:${PN} += "config-strongswan-mysql \
 libstrongswan-mysql.so \

@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "5.0.0"
 
-RPM_NAME = "python-oslo.serialization-doc-5.0.0-1.3.noarch.rpm"
-RPM_HASH = "713085d3c95851e197bb03d2c40fca2ba6ddc115c0e1c123cb02fc3739d14cb930ab75acc566d6dc6dac4bef76246695eb1d40c98d41d85eb94ae7ef1a7b57a1"
+RPM_NAME = "python-oslo.serialization-doc-5.0.0-1.4.noarch.rpm"
+RPM_HASH = "5f317eb9e6d963ef17f5267572c8ecaf40369b44618c35b29f6cb6b78560cbb030d21d4d17ff94fa1d755af143f4a01ab7079d0c027049ae25f1bc038ad7f912"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-oslo.serialization-doc"

@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.3.5"
 
-RPM_NAME = "shadowsocks-libev-doc-3.3.5-3.1.noarch.rpm"
-RPM_HASH = "1332d4c7f5b0e21f417d5822ad08e8a2f74463700cb6ce94cd2ac7371a38d0d54ff40d1227d0b8530c54f2ffeb54b76bb8e0be58a8af4d97ef2b361bec5b64f5"
+RPM_NAME = "shadowsocks-libev-doc-3.3.5-3.2.noarch.rpm"
+RPM_HASH = "540ebc8dfb97eb9362320f3030a6689fb1fcb7255b81c38e959f8ecc01e85e038694c50dcdbeeed5032758b14182824ac3f441a7e2e8735315b1715642349ff5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "shadowsocks-libev-doc"

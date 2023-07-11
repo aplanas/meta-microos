@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the files needed to compile programs that u
 the FLAC library."
 LICENSE = "BSD-3-Clause & GPL-2.0-or-later & GFDL-1.2-only"
 
-PV = "1.4.2"
+PV = "1.4.3"
 
-RPM_NAME = "flac-devel-1.4.2-2.3.aarch64.rpm"
-RPM_HASH = "22b2bd50e18e4ba77f847afd55800bbb9bdc072e38decdac968781f8f007cf8757ba4d7d9d8680e1a8351a9ee3f924c48fc4829daf5a36611afe19286244f80c"
+RPM_NAME = "flac-devel-1.4.3-1.1.aarch64.rpm"
+RPM_HASH = "34c21a3d2d9f5040a1321b9ad6668ef61ecbdad61151cc9772fa33c024d2e71c8eb26a7ae55389b27cb7578f24bdee466014e1e7a0d59e035d96f4c88d1221f9"
 
 RPROVIDES:${PN} += "flac-devel \
 pkgconfig-flac \

@@ -8,15 +8,13 @@ There is no reason to install this package on its own.  It will be pulled in \
 as a dependency by packages that require it."
 LICENSE = "BSD-3-Clause"
 
-PV = "5.3.0"
+PV = "5.3.1"
 
-RPM_NAME = "python310-jupyter-core-5.3.0-1.2.noarch.rpm"
-RPM_HASH = "65d3cecff9f5eeed0182655ab4935a57cc76b0b0df786e6c5f36f2036df7fe02cee03ea214401bc37882fa09dcfc76a53963e84d1e976bcc7e024ace62bfe752"
+RPM_NAME = "python310-jupyter-core-5.3.1-1.1.noarch.rpm"
+RPM_HASH = "b60ee606a8816d0b464f356d031a617f6ef80d580b26972163e5d2c90b4c73a3a752f540d9511971fe053ddfb239a3da2ca703f2d25798f712aafcdf81abfc2c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jupyter-jupyter-core \
-python3-jupyter-core \
-python3.10dist-jupyter-core \
+RPROVIDES:${PN} += "python3.10dist-jupyter-core \
 python310-jupyter-core \
 python3dist-jupyter-core"
 

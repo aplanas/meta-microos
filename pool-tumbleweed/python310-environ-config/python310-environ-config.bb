@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "23.2.0"
 
-RPM_NAME = "python310-environ-config-23.2.0-1.1.noarch.rpm"
-RPM_HASH = "29cfc251f5f7f834f3df928a5f6e5972e49da9129deedbd9f64b1bcd06d74fc91a7b90461caf373f005f31b2a024702e2feeb7b79e3a5bf415e816c100320bfe"
+RPM_NAME = "python310-environ-config-23.2.0-1.2.noarch.rpm"
+RPM_HASH = "69f58efe8cd06e6a4617a2b570cff0861b65a33168578ce5472afe963a1f7a92603596f49cddce055f005a36a2dea06bd4e9668f885d9d21ec942ff2313aaa9f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-environ-config \
-python3.10dist-environ-config \
+RPROVIDES:${PN} += "python3.10dist-environ-config \
 python310-environ-config \
 python3dist-environ-config"
 

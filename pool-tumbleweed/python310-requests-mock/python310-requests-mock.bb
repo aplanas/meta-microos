@@ -5,12 +5,11 @@ LICENSE = "Apache-2.0"
 
 PV = "1.10.0"
 
-RPM_NAME = "python310-requests-mock-1.10.0-3.1.noarch.rpm"
-RPM_HASH = "19f3d1878471c571fe1233b2ad87dfe605872211d9eb2a067e56f8681acef908cc00cd5f3981201b80214db5180705814f2f01f95dad56cd6b39f8c4cc6b2e95"
+RPM_NAME = "python310-requests-mock-1.10.0-3.3.noarch.rpm"
+RPM_HASH = "feca61ea5ab3174ccb52c36bf94fc3738b12def258451283860fd5b94e18293d0853b0feb40efdc226221b02bb9c9694565e725496fe6af26cf90b5bba33a8ac"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-requests-mock \
-python3.10dist-requests-mock \
+RPROVIDES:${PN} += "python3.10dist-requests-mock \
 python310-requests-mock \
 python3dist-requests-mock"
 

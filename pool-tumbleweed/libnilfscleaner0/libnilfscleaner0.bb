@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.2.9"
 
-RPM_NAME = "libnilfscleaner0-2.2.9-1.4.aarch64.rpm"
-RPM_HASH = "31b588929de8c8a3304ffdc042de2446886804055845e1c49c8a1da2043896c2e790dd238fdc89ae9b592c7a047ff9612cfdfcacf233c529122122e61b5f14bf"
+RPM_NAME = "libnilfscleaner0-2.2.9-1.5.aarch64.rpm"
+RPM_HASH = "cb86e6e57306589520e654fba0006097b58768d629defa6198d4c8d0e448f5cf0ff5f41deae0c7c37477b84038f438ea98f47ad728d5c112cb3afeaae7496728"
 
 RPROVIDES:${PN} += "libnilfscleaner.so.0 \
 libnilfscleaner0"

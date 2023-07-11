@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "76"
 
-RPM_NAME = "libndctl6-76-1.3.aarch64.rpm"
-RPM_HASH = "4e213179d1447ee4a2b86656afd63cf6ec4ac1fa5a182230e6666c041f9b1674989c5fe112ab506c0c0dc90e00dbda49a6ff13f3accfe7a82ddb63cad5dce80d"
+RPM_NAME = "libndctl6-76-1.4.aarch64.rpm"
+RPM_HASH = "9489910ca9200c55417d05dcc2b0d1ee45637a07f0845d4c0f4fd27c7d47878acebd335b3a4b943b94f20de5bcf207e4e23f83bee3b2215909fc31a4f0119a62"
 
 RPROVIDES:${PN} += "libcxl.so.1 \
 libdaxctl.so.1 \

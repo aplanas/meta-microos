@@ -4,12 +4,12 @@ driver, and provides an API to control them. \
  \
 This package contains the development headers for the libteam and \
 libteamdctl libraries."
-LICENSE = "LGPL-2.1+"
+LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.31"
 
-RPM_NAME = "libteam-devel-1.31-3.8.aarch64.rpm"
-RPM_HASH = "4dff7ae39fb5ea2d40be7575c4ba2b84ce5e19aea7710722833c8d324468669dac9e0c9b584b343ce6d4f04f82048eb13fd9c6f686e1dcbfa4b0dc083484700a"
+RPM_NAME = "libteam-devel-1.31-4.1.aarch64.rpm"
+RPM_HASH = "7bdfb767bb0536edba411faa59dfeb1fe08a2f7488be29af39d46632611f599692bf59b61a92a2c5d1989cc161f7917d695bdc0d15ad798a10d7659b2607d002"
 
 RPROVIDES:${PN} += "libteam-devel \
 pkgconfig-libteam \

@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.6.11"
 
-RPM_NAME = "python310-Wand-0.6.11-1.3.noarch.rpm"
-RPM_HASH = "376992b8c7fbe6728e44ac475f60c129c51dfb1a6869ea160d5a4b8e648ecbc01c59536b31e67e0e4a6667f40d8bbd147eed794ff9d037fa9201014eeb74df70"
+RPM_NAME = "python310-Wand-0.6.11-1.5.noarch.rpm"
+RPM_HASH = "748332f92f8f5d8df72d481cba55cbd997c8c27d74e06ba30eeec290674356ae792f6257dc528a1b9af23fd4a61389e72588632c66c0bba61e044f8a68bf0b3e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-Wand \
-python3.10dist-wand \
+RPROVIDES:${PN} += "python3.10dist-wand \
 python310-Wand \
 python3dist-wand"
 

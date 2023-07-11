@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-only & MIT"
 
 PV = "1.6.1"
 
-RPM_NAME = "cronie-anacron-1.6.1-91.3.aarch64.rpm"
-RPM_HASH = "17841e16fc4b57a5dd86541a55cffab72724dcb0c5abb694e11261240ce047eec7840ec9a8f74bc37130fda58df5f674fcfdb587434a5787811d9d514b82398c"
+RPM_NAME = "cronie-anacron-1.6.1-91.4.aarch64.rpm"
+RPM_HASH = "69f7af711b967da14db384ad72b153e2e322e2d649f16c4c6eea7f3577b867ec43e8e82f2591cccfc2634158cd9cdbd0073f9b273a242d6a6893498ef45723f6"
 
 RPROVIDES:${PN} += "config-cronie-anacron \
 cronie-anacron"

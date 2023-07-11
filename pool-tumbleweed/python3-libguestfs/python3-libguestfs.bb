@@ -4,10 +4,10 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.50.1"
 
-RPM_NAME = "python3-libguestfs-1.50.1-3.1.aarch64.rpm"
-RPM_HASH = "46416ba9cbbd6a0e33149bcbefc19c1e3493d8cf1217578c19650672ed6c1405a398be3e1120cbbce521ac77491a215984614d3994a823bc71a59ccd9b8b99ef"
+RPM_NAME = "python3-libguestfs-1.50.1-3.3.aarch64.rpm"
+RPM_HASH = "706fc5f60ec6ef8aae35b3a8359adee40acb31fb148eade49774d0b19f5a5ec45136147ab8be66fb9763c7cd9a8eb7ad98c0a9079551f14533be8fc25cf86b37"
 
-RPROVIDES:${PN} += "libguestfsmod.cpython-310-aarch64-linux-gnu.so \
+RPROVIDES:${PN} += "libguestfsmod.cpython-311-aarch64-linux-gnu.so \
 python3-libguestfs"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \

@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "1.13.0.1"
 
-RPM_NAME = "python311-XStatic-jquery-ui-1.13.0.1-1.8.noarch.rpm"
-RPM_HASH = "bfd1bdddbf62ab63ea0d16c8c953538d6a47969a6c44f3c79f24b362637210d537702c5fc895c33222ef8b33e38f4b3fa8cf256916585357d810b90c0a2f2d86"
+RPM_NAME = "python311-XStatic-jquery-ui-1.13.0.1-1.9.noarch.rpm"
+RPM_HASH = "30895589958922af59c0392f967b4969ed6f48bc8ed5091e448a93dc1e055c134bed0cd5d06e2860c121810c47afc89df747d3053f9c9c0c9d8f66ee83fd3a53"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-xstatic-jquery-ui \
+RPROVIDES:${PN} += "python3-XStatic-jquery-ui \
+python3.11dist-xstatic-jquery-ui \
 python311-XStatic-jquery-ui \
 python3dist-xstatic-jquery-ui"
 

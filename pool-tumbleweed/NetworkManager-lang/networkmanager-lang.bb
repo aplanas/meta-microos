@@ -2,10 +2,10 @@ SUMMARY = "Translations for package NetworkManager"
 DESCRIPTION = "Provides translations for the 'NetworkManager' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.42.6"
+PV = "1.42.8"
 
-RPM_NAME = "NetworkManager-lang-1.42.6-2.1.noarch.rpm"
-RPM_HASH = "319447af0db1f7c16cb3df3c06409033ed93be481c0973f1ce30c4b525fe49a020e1c28f3ac9025a1eebce3db527ff32c892845132084c13681065cb92e2db46"
+RPM_NAME = "NetworkManager-lang-1.42.8-1.1.noarch.rpm"
+RPM_HASH = "6c7e5b889ed750f060afd4a85f6dfa0cf071d7231dbddc92c85cf95505ab67b724671ff2be5b935f49276de340441e526c2bf78668ae6221c940a84abe8ce1bf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "NetworkManager-lang \

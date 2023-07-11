@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains compressed kernel firmware files for \
 Qualcomm device drivers."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230517"
+PV = "20230620"
 
-RPM_NAME = "kernel-firmware-qcom-20230517-1.1.noarch.rpm"
-RPM_HASH = "56ef6111eb5fe8a793d779996cec45482d94bc98bcfd67205ad7830fc6e5073b65ac621fcba7e79b670385797a5926cb9045539cac285924a189e17a83d7324b"
+RPM_NAME = "kernel-firmware-qcom-20230620-1.1.noarch.rpm"
+RPM_HASH = "97669b5219dc07e7a4547c0087b4e0804bd2921cbc701b87b0b49268c7436cbaecfe878473112e999e3c73288670dea579a7eb0ab823f704e35f80ba989ec92f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-a300-pfp.fw \
@@ -27,6 +27,10 @@ firmware-qcom/a650-gmu.bin \
 firmware-qcom/a650-sqe.fw \
 firmware-qcom/a660-gmu.bin \
 firmware-qcom/a660-sqe.fw \
+firmware-qcom/apq8016/WCNSS-qcom-wlan-nv-sbc.bin \
+firmware-qcom/apq8016/mba.mbn \
+firmware-qcom/apq8016/modem.mbn \
+firmware-qcom/apq8016/wcnss.mbn \
 firmware-qcom/apq8096/a530-zap.mbn \
 firmware-qcom/apq8096/adsp.mbn \
 firmware-qcom/apq8096/adspr.jsn \
@@ -51,6 +55,7 @@ firmware-qcom/sdm845/adspua.jsn \
 firmware-qcom/sdm845/cdsp.mbn \
 firmware-qcom/sdm845/cdspr.jsn \
 firmware-qcom/sdm845/mba.mbn \
+firmware-qcom/sdm845/modem-nm.mbn \
 firmware-qcom/sdm845/modem.mbn \
 firmware-qcom/sdm845/modemuw.jsn \
 firmware-qcom/sm8250/a650-zap.mbn \

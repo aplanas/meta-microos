@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0.5"
 
-RPM_NAME = "libopenvas_wmiclient-devel-1.0.5-2.1.aarch64.rpm"
-RPM_HASH = "c326ed3918f6ec7ea3719f264dfc29390824a2c11eee2e8ae19ba8391e8e5fabeaa3458ee437ed1277b7445c4146ad8f129da3aa17cb359e6906d7a9a7627798"
+RPM_NAME = "libopenvas_wmiclient-devel-1.0.5-2.2.aarch64.rpm"
+RPM_HASH = "0238b82164d364fa658a1664f3f3006088d61b623b58c1d3c4048628a4aee71eed0b131736cd002505e4d875c33f0cee1e84a4485ea9da38908f78fa53b8f02c"
 
 RPROVIDES:${PN} += "libopenvas-wmiclient-devel \
 pkgconfig-libopenvas-wmiclient"

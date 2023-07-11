@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.14"
 
-RPM_NAME = "fbpdf-2.14-4.1.aarch64.rpm"
-RPM_HASH = "cf5b651bd8320ef41c198ee9cbf30c8aaa5bf3b4d71a5ae510e685fd0271067767d0bdcc27c8cd5994050b03d7be66e10bb728224c4f1676978f2e42aaba8204"
+RPM_NAME = "fbpdf-2.14-4.2.aarch64.rpm"
+RPM_HASH = "7665faf292282b6fb99eb6bf7e69cd89ffd42d39138e2ba98f31240667f7c2a2aa389a546741c8e11c9142715f70626b9dcd4ed16eb4a6bafad19f676cdc10ce"
 
 RPROVIDES:${PN} += "fbpdf"
 

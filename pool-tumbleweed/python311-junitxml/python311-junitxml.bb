@@ -4,11 +4,12 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.7"
 
-RPM_NAME = "python311-junitxml-0.7-4.7.noarch.rpm"
-RPM_HASH = "149e9512895ae83392eb59b6632b40cf5463075972b4ff5bfdc40f48bf8b7b10393bfbdf6353958c52894e05cc9292e773c0529b8685f98aace258f007d62244"
+RPM_NAME = "python311-junitxml-0.7-4.9.noarch.rpm"
+RPM_HASH = "b8cfaf69edac1af7058218776fa916892fc60fadea03177d58f56795d48793437071c832a595fee5cdd30f0b7dd0c0391e5e3bbdfc73d30b2b03c9f1bc015403"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-junitxml \
+RPROVIDES:${PN} += "python3-junitxml \
+python3.11dist-junitxml \
 python311-junitxml \
 python3dist-junitxml"
 

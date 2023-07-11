@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2022_08_R1"
 
-RPM_NAME = "kismet-logtools-2022_08_R1-2.3.aarch64.rpm"
-RPM_HASH = "8fb4a2057e9b3c3c75d25cd4e2aa41f0c9a77ad03b2aea6c671502a54a44a2e89320483052cadfa8c9dab1db6fe766cda349e25850f8a7d6498e4f3e2375b4ce"
+RPM_NAME = "kismet-logtools-2022_08_R1-2.5.aarch64.rpm"
+RPM_HASH = "f1a903614a67c4002858b33ccad021b8072d6d4bb1dd9e06365b1291323b057d13159e63f69f1c220bdc56e1b585e6ce5297da80c84464655e87ebb13325f625"
 
 RPROVIDES:${PN} += "kismet-logtools"
 

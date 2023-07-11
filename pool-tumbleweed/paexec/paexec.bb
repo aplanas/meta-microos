@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.1.4"
 
-RPM_NAME = "paexec-1.1.4-2.9.aarch64.rpm"
-RPM_HASH = "3aaac3ea30fda5056d97993154457656fcc21e35b1c643e98361ffd1db86ab855bbdb654f6a9d495c5c888fd7c99cd5ab2de0eadbec1b2cf7ef9ca8c18d64c8c"
+RPM_NAME = "paexec-1.1.4-2.10.aarch64.rpm"
+RPM_HASH = "d38e68f08a7335e2169e3a772fb3ff96a4a0e4e8979e7784458b5a0b9bc4d408c6da34e7172b291fbf85edd82880e2678838dde5fcaaaf5ac04a72668654b65d"
 
 RPROVIDES:${PN} += "paexec"
 

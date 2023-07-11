@@ -10,8 +10,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.0svn21838"
 
-RPM_NAME = "texlive-pxgreeks-2023.201.1.0svn21838-53.1.noarch.rpm"
-RPM_HASH = "b54508e19037f30e60fdb0d0706c95ec179c8426603a2c24e3f1325ac66b7444c5fbf4e40ed6e8d8248fc71e34e5f57c0b9411e0f2f7bf6501e9ff331f10cb66"
+RPM_NAME = "texlive-pxgreeks-2023.201.1.0svn21838-53.2.noarch.rpm"
+RPM_HASH = "ac159918b707bc0add6c828da3a6d2db3aecd9287905d06ba757058bb520de5c8bc5391d58c20a6d79bdaf462fa086a4a65184915ae69dc9137f2043c883e6ac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pxgreeks.sty \

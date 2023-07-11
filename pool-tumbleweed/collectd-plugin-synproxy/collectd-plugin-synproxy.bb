@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & MIT"
 
 PV = "5.12.0.134.g4cebbfc"
 
-RPM_NAME = "collectd-plugin-synproxy-5.12.0.134.g4cebbfc-1.4.aarch64.rpm"
-RPM_HASH = "71f225c42fe58a10b9a99db9c94093615e4d4f28e89fe1fc822c6219121059394ff23e7d2f717a87e2ce73b5a2b85c3efca34f0f6103530ee364980a85ef0465"
+RPM_NAME = "collectd-plugin-synproxy-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
+RPM_HASH = "58167a1178d329c348834084777a83dd2a2483f2a8fa064ff3424b39b44257ee7aa0c8a0d673bbe05dc8656aa88e0b9fc8ea32291857b22d54678a3936d00e81"
 
 RPROVIDES:${PN} += "collectd-plugin-synproxy"
 

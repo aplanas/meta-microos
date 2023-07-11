@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "2.5.0"
 
-RPM_NAME = "libwacom-devel-2.5.0-1.3.aarch64.rpm"
-RPM_HASH = "714a058d02d985d64663bf58eded9d0534e67c3489bb66dae8fb66185bf4e4fc9b64973f6ac04a2e6c8e80fba16faa99aeb24ff16c411cb2002944066121f30f"
+RPM_NAME = "libwacom-devel-2.5.0-1.4.aarch64.rpm"
+RPM_HASH = "f61bac5307e7855cc9a7b9c37a1657965af074c258e6eba3380ef9e81bb269d8d89173e45961f0f4e95d45596d63d4d4b8ae29ff8f2f482b7d1cd730adf62b7e"
 
 RPROVIDES:${PN} += "libwacom-devel \
 pkgconfig-libwacom"

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.7.0"
 
-RPM_NAME = "python39-pytest-profiling-1.7.0-3.3.noarch.rpm"
-RPM_HASH = "28c267d8785254a407449211d95ce1dec544ab7cc93d131eb888ab34bd18feaa70e425abba1b7fecef5d0d8913e98537fe1d599790f9017d8ae2a8c0870131c1"
+RPM_NAME = "python39-pytest-profiling-1.7.0-3.5.noarch.rpm"
+RPM_HASH = "a7de072cbac2658214abf89578cdd01bd05ed08b9365de4ad86e4d8b40d030f3fc452907b031c8873007d8324dc4f9bf00534670e1f0c4c7915b93abc6d408c0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytest-profiling \

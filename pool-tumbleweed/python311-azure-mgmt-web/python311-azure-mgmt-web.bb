@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "7.1.0"
 
-RPM_NAME = "python311-azure-mgmt-web-7.1.0-1.1.noarch.rpm"
-RPM_HASH = "e280631aa3d75b969671419d6c09190f4da12689cc54fae8ead3f318498874677331cf2ff6c78fe353de55c5af822eac477f1d81e187cc52938e846ba925f1ec"
+RPM_NAME = "python311-azure-mgmt-web-7.1.0-1.2.noarch.rpm"
+RPM_HASH = "ec02ab1e2001053ea3ce96691e03db866a01219c3dc593d444f4a25b8051ed87a5501ed07056fc60c61e34528ec462e8e311e43c03ab16a23a24fae98fafe313"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-web \
+RPROVIDES:${PN} += "python3-azure-mgmt-web \
+python3.11dist-azure-mgmt-web \
 python311-azure-mgmt-web \
 python3dist-azure-mgmt-web"
 

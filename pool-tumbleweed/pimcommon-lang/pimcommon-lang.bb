@@ -2,10 +2,10 @@ SUMMARY = "Translations for package pimcommon"
 DESCRIPTION = "Provides translations for the 'pimcommon' package."
 LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "pimcommon-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "da42ca7766afb4c22758df090012b5a882ea7e06cb436dbe50258b788c1e7ef67a0f77a7e5a69423f5da3b221ad701775f86b6a3e17390030c49aa0ff3442648"
+RPM_NAME = "pimcommon-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "e7f863afb6f9419ac5e226873a2ac4e13bdb901389943eab0dc00106787559dce5c3e92f2559ac8e14de27bcbf0e9473d3f87782333db3f3725a783c8391b560"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-pimcommon-ar \

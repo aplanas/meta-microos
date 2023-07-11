@@ -4,10 +4,10 @@ Original patterns 'skhyphen' are still distributed in the \
 'csplain' package and loaded with ISO Latin 2 encoding (IL2)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn58609"
+PV = "2023.208.svn58609"
 
-RPM_NAME = "texlive-hyphen-slovak-2023.201.svn58609-52.1.noarch.rpm"
-RPM_HASH = "af70b5021160b8b4ac4a043498b2da42c3c10146b06895f51231eb9b3d9f45deadf8d87b9e1e5639761c0177c6ea65190a1dd2fa696352b2b406aff346c1862e"
+RPM_NAME = "texlive-hyphen-slovak-2023.208.svn58609-53.1.noarch.rpm"
+RPM_HASH = "f44c356b8ca3d1eac9a31615172be973d74538f18ddea28077f21bce0e881f3b280059f3b2f64d6dc02d8bf421d96f332b129a3002cb736e19a72e5654f2190f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-sk.ec.tex \

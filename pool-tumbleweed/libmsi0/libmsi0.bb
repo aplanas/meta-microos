@@ -3,10 +3,10 @@ DESCRIPTION = "libmsi is a port of (and a subset of) Wine's implementation of th
 Installer."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.101"
+PV = "0.102"
 
-RPM_NAME = "libmsi0-0.101-1.10.aarch64.rpm"
-RPM_HASH = "98071eb22073e58bf7ed2dcc40d15e207dcd3a625c2d986c5b13ed1eb4d05e80ae3a54880734d785b72688b7b9fc2d0ac69e148d2a76f7d859850dff48280e0f"
+RPM_NAME = "libmsi0-0.102-1.1.aarch64.rpm"
+RPM_HASH = "d6340033c82abe48c002707d25b3db2b816fa76838f3f5e923c951865b3d7299868cf8c396f01da924d7cc84a9da191ec42baffecf48143b751d90ba63559283"
 
 RPROVIDES:${PN} += "libmsi.so.0 \
 libmsi0"

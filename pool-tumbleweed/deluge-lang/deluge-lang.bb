@@ -4,8 +4,8 @@ LICENSE = "SUSE-GPL-3.0-with-openssl-exception"
 
 PV = "2.1.1"
 
-RPM_NAME = "deluge-lang-2.1.1-3.3.noarch.rpm"
-RPM_HASH = "7a78934af66578e7b9024775cb043b07cbec10ff5ab86dd0143bdc0e1903ccf8b638dbec189df1eedf7b87e7b37de18029f495b1dd59e9c329c52357318f6e37"
+RPM_NAME = "deluge-lang-2.1.1-3.6.noarch.rpm"
+RPM_HASH = "5cbbf2ae82717daaac748c3360a5d4b3d3615fa441647ac9fca378df5a19190a8df6c9dbce9b2592f715730652ae65afbee940948d3a54764c3a7af722fc062a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deluge-lang \

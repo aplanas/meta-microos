@@ -4,8 +4,8 @@ LICENSE = "AGPL-3.0-or-later"
 
 PV = "4.0"
 
-RPM_NAME = "orthanc-postgresql-4.0-1.16.aarch64.rpm"
-RPM_HASH = "a09eada562851611dc38438371b2964bf91f9ca8b5eb774625ac9131c8f9e9eb184e3ce071625d9b6ad268d5fb3b9a7a8e62701578fafbe17684baae9a1c0227"
+RPM_NAME = "orthanc-postgresql-4.0-1.17.aarch64.rpm"
+RPM_HASH = "1b57c1a016612fa9b89b2bfce2fd5b1561354ef9d55bda21264e795df5c48c2da2691fabada0fae251caaef4bf61a46c9d5357108beaca43ff7eef91d9c74109"
 
 RPROVIDES:${PN} += "libOrthancPostgreSQLIndex.so.4.0 \
 libOrthancPostgreSQLStorage.so.4.0 \

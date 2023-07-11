@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.8.1"
 
-RPM_NAME = "perseus-sdr-tools-0.8.1-1.22.aarch64.rpm"
-RPM_HASH = "24b773b5b7e533644034e82e764156f7393b8556aa93b0dd3807214f6dcaec1ad7d247725d2ef253a524b462d03845dd1ecb8615eeec9140719a4f2a8dafd8c5"
+RPM_NAME = "perseus-sdr-tools-0.8.1-1.23.aarch64.rpm"
+RPM_HASH = "acbfa3fd1d28fbcb848759c004746e3d3f8fe235e5319e990974ac39c4716ffd3ae2cf2ca2bd4d2a39cc88d057483cfa80ad442e35e626f95e0ac67fc7d7dda7"
 
 RPROVIDES:${PN} += "perseus-sdr-tools"
 

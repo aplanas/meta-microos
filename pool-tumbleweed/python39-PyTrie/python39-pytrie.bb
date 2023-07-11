@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.0"
 
-RPM_NAME = "python39-PyTrie-0.4.0-1.11.noarch.rpm"
-RPM_HASH = "8aedef1d380884e191136ccf3facbba9e161432a5bfd0c5c082fbccdac955b7023f70c8ea607d53d7cbd94518c04d58b2b332749b9b8f4a60e3e19e66f7c5f57"
+RPM_NAME = "python39-PyTrie-0.4.0-1.13.noarch.rpm"
+RPM_HASH = "de1397bb9353c3f3b057de221807f0996dd4e265ecf93b5a44647057ad971f3ac75fc4c5d5c303c37109ebed39baaed168d792fccf1f5e0db2a92675cac5a666"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytrie \

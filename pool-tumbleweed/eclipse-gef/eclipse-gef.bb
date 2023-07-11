@@ -8,8 +8,8 @@ LICENSE = "EPL-1.0"
 
 PV = "3.11.0"
 
-RPM_NAME = "eclipse-gef-3.11.0-2.7.noarch.rpm"
-RPM_HASH = "80fab57c12eb94e7377fcf17d63a2516e12e726e424996953c53b71d712e503574e13e58206c59156c1930c2943a2a660bf7828a44d362cd7650b417dc2b21bd"
+RPM_NAME = "eclipse-gef-3.11.0-2.8.noarch.rpm"
+RPM_HASH = "fed41a76a42f6e1296e4dd191e0b239e1127a65ad24c9a06c72d5717421384ccc23427fadbe7705facaf559b09993eb5ccb1470f1a3ecbde77de74a60f72332a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eclipse-gef \

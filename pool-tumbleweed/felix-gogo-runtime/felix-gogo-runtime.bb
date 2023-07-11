@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.1.0"
 
-RPM_NAME = "felix-gogo-runtime-1.1.0-4.2.noarch.rpm"
-RPM_HASH = "332bcd1f4a9750a166c279ab2782ba560956f80f96ce89843166bdac9783deb59678c54730334e0064d0b8425f60fe95470a6518b924387e0c6e553afcaaee54"
+RPM_NAME = "felix-gogo-runtime-1.1.0-4.3.noarch.rpm"
+RPM_HASH = "d736e8a9f7eabc8ce990da8bbbd7ed4f53fb33348abe733f0911b34d2165eb9c5869d06460f5501a5cb9e1a914e1f5a5aad07e2ce1ce080d4a85fd36786c9f4d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "felix-gogo-runtime \

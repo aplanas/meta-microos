@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.0.43"
 
-RPM_NAME = "mtools-4.0.43-1.1.aarch64.rpm"
-RPM_HASH = "a7aaf5c967df31aae435a891a41440942882417181a23faba0675ad22d0600e51bd1583bdaa5146c1a2ef1f8f6a0bcecdcdce1995bce510be507ee3abd00495b"
+RPM_NAME = "mtools-4.0.43-1.2.aarch64.rpm"
+RPM_HASH = "31bb879dcc41dae342754cf6bed3da9ae4ae055c8a6b776b916208d8c271f6d4759207c6e8401d09ad49067d627144ef59f3f3762dd10f69ce6d23e9af02a8a6"
 
 RPROVIDES:${PN} += "config-mtools \
 mtools"

@@ -3,10 +3,10 @@ DESCRIPTION = "Configuration for Apache to pass all requests for PHP scripts to 
 PHP-FPM server using reverse proxy."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.1.19"
+PV = "8.2.7"
 
-RPM_NAME = "php8-fpm-apache-8.1.19-2.1.noarch.rpm"
-RPM_HASH = "a634f37c784bb31ce676a24aadf1459edf30018e1dd800843e2062f95cc9aef61841321f1bb196366753ed29fc2563314d27fc550cadb62fee5dd164e1555327"
+RPM_NAME = "php8-fpm-apache-8.2.7-1.1.noarch.rpm"
+RPM_HASH = "bf79f30f7981753e95c2fa8a777a270f1f62590cce239be2341786568db881305ade7ffe59f96c503e9cb4a7b2b592d2f1a183ea629638bdb3e762e76b02a48d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-php8-fpm-apache \

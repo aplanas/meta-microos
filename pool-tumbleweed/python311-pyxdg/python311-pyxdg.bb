@@ -10,11 +10,12 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.28"
 
-RPM_NAME = "python311-pyxdg-0.28-2.1.noarch.rpm"
-RPM_HASH = "64b013e8acd1f7db4f5c67cda2f36522aeee5ecc4582e6bf981fe3d57b3eae9fa15b12a90cc76b25b9d3b51bd9b930f072c4fdda67d429994a63267003b5aefd"
+RPM_NAME = "python311-pyxdg-0.28-2.3.noarch.rpm"
+RPM_HASH = "a00d05ce476fccba37d0516a7d38c86da413495b0f2cea8a7d71aa366cb327efca294598f2290a6758db4c3b76ddffc2eb53cc3780c8125fb9bec8a42816eee7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pyxdg \
+RPROVIDES:${PN} += "python3-pyxdg \
+python3.11dist-pyxdg \
 python311-pyxdg \
 python3dist-pyxdg"
 

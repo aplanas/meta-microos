@@ -4,11 +4,10 @@ LICENSE = "MIT"
 
 PV = "6.1.4"
 
-RPM_NAME = "python310-softlayer-6.1.4-1.3.aarch64.rpm"
-RPM_HASH = "efd74c8b811b48a6cde31545c6c74a1ffa90e863df7baf405b1ad531f72b24c2d55d868d838e735544abf918fc92ca2f46b4a9608f1d78f95f04b58af03b5968"
+RPM_NAME = "python310-softlayer-6.1.4-2.1.aarch64.rpm"
+RPM_HASH = "8f13790dbf0d34c825cdb0c835167c9d1b2144748d87013a6dcc5d930c53e52d8f0dae223d3d008aab92205c4be2101ba7fed6007dcdc8cd060f246abff25759"
 
-RPROVIDES:${PN} += "python3-softlayer \
-python3.10dist-softlayer \
+RPROVIDES:${PN} += "python3.10dist-softlayer \
 python310-softlayer \
 python3dist-softlayer"
 

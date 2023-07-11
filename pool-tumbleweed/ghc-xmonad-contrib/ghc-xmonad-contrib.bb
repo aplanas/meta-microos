@@ -15,8 +15,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.17.1"
 
-RPM_NAME = "ghc-xmonad-contrib-0.17.1-3.4.aarch64.rpm"
-RPM_HASH = "6d5f18a3b130b59e98965e8878882fce54407f39992314085f8dca9f0f9ded0673dbab0ea4d84dc62845a29726ce85c2d760f1395c765aad5b53f5b28e35338a"
+RPM_NAME = "ghc-xmonad-contrib-0.17.1-3.7.aarch64.rpm"
+RPM_HASH = "2df20b3de36503bd6e01fe85d93f8947b3506e20e7607d047a6ef955ebfeb030c9c0835ae367bd2919b11150be180a031cd8529f784db4b7848dacdde9f2df60"
 
 RPROVIDES:${PN} += "ghc-xmonad-contrib \
 libHSxmonad-contrib-0.17.1-4q9MntM3g8MH8PR7JoUT1u-ghc9.4.5.so"

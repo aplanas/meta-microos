@@ -4,12 +4,11 @@ LICENSE = "MPL-2.0"
 
 PV = "6.0.1"
 
-RPM_NAME = "python310-cornice-6.0.1-1.6.noarch.rpm"
-RPM_HASH = "85317f384c8d8f967940d7395e3746f0b0e532f4e221ca095fd4fa483b2744c3a11915e7baf8d5a12357f17d7e8098914a6e559beaaf5d49f72502d175735217"
+RPM_NAME = "python310-cornice-6.0.1-1.8.noarch.rpm"
+RPM_HASH = "651cfe3f0521479074639b2df04f5410650b8d440a9cf8540e699ab5ddc7fa030488eba04d52926dc0c4ca09d80491b5e25e895062f0c8986076a78fb87f2537"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-cornice \
-python3.10dist-cornice \
+RPROVIDES:${PN} += "python3.10dist-cornice \
 python310-cornice \
 python3dist-cornice"
 

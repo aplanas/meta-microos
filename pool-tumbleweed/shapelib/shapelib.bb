@@ -8,14 +8,13 @@ LICENSE = "GPL-2.0-or-later & (LGPL-2.0-or-later | MIT) & SUSE-Public-Domain"
 
 PV = "1.5.0"
 
-RPM_NAME = "shapelib-1.5.0-2.7.aarch64.rpm"
-RPM_HASH = "8ebdd46001f21b8ff59a56e69efc7c4854bcf3386d90eb50c4185dc1ac78665bd1b952bb0587f20e6566c84fa957c79fc468e8fa7c852f5b5f2dd2ef5ea630e9"
+RPM_NAME = "shapelib-1.5.0-2.8.aarch64.rpm"
+RPM_HASH = "f112554e8407ee0f4cc781158bb4b8af12c15e44c5521eb8dc63ec3234c5bfe139bcc0ae0554c86386f670b6d2c729fb37ad5895975d0a08684b21cc9d1fc272"
 
 RPROVIDES:${PN} += "shapelib"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libm.so.6 \
 libshp.so.2 \
 libstdc++.so.6"
 

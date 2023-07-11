@@ -4,8 +4,8 @@ LICENSE = "MPL-2.0"
 
 PV = "2.23.0"
 
-RPM_NAME = "dlt-viewer-2.23.0-1.3.aarch64.rpm"
-RPM_HASH = "e1ec4a21f69038a7ed86b0e32e7fc1b0f4f9c7dbc2702ac8bd92b494f963cce9a17fca6669ae8c1213549972bf83a59682a8d99ffee49f1a650e5768c6ee2828"
+RPM_NAME = "dlt-viewer-2.23.0-1.4.aarch64.rpm"
+RPM_HASH = "10d59376d0f6943ad60c927121bd82aaa6d39643b146134f1a874911148645895df18b7281beceb475452b8caf358110f7223ca8bcccf8f5e0461da289c4be27"
 
 RPROVIDES:${PN} += "dlt-viewer \
 libdltdbusplugin.so \

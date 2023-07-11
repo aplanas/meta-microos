@@ -4,10 +4,10 @@ DESCRIPTION = "An AV1 encoder for video streams from Intel. \
 This package contains the header files for svt-av1."
 LICENSE = "BSD-3-Clause-Clear"
 
-PV = "1.4.1"
+PV = "1.6.0"
 
-RPM_NAME = "SVT-AV1-devel-1.4.1-2.1.aarch64.rpm"
-RPM_HASH = "3496afe155001a7c5d0cae84461d82b7991327365855f8633aa0b7402bee78e2f8aa292ca707b09bd9609b5499183f0452060b0e621af5a7ffbfab38142b3e9c"
+RPM_NAME = "SVT-AV1-devel-1.6.0-1.1.aarch64.rpm"
+RPM_HASH = "0b682e0a06c8e6c8475c7c854c26d0dd711e4f0334f586662b0df3d1a7a2492d7f906a77111b03b1f72e69913ebff5a889ccc4b0aaec22c4ea2ba4931f74590e"
 
 RPROVIDES:${PN} += "SVT-AV1-devel \
 pkgconfig-SvtAv1Dec \

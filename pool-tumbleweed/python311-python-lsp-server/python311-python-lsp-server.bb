@@ -16,13 +16,14 @@ will be enabled: \
 - YAPF for code formatting (preferred over autopep8)"
 LICENSE = "MIT"
 
-PV = "1.7.2"
+PV = "1.7.4"
 
-RPM_NAME = "python311-python-lsp-server-1.7.2-2.1.noarch.rpm"
-RPM_HASH = "9e2975dbb0b6ddda9b1722ca0e2d1b6c45706b347981aacfc9e790a9986bd2a27a23cd93f547cc3a4d6744fc9df6d027e373ff5c9dbe6931cdde13148b99045e"
+RPM_NAME = "python311-python-lsp-server-1.7.4-1.1.noarch.rpm"
+RPM_HASH = "d8c212b82d4f15cdcc18941263080ae03303bc536000171aa08c31ecdad2b4dbeaec623949b11e66b3761af63ddd76dc5c842555318f1091a88583adab8fc401"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-python-lsp-server \
+RPROVIDES:${PN} += "python3-python-lsp-server \
+python3.11dist-python-lsp-server \
 python311-python-lsp-server \
 python3dist-python-lsp-server"
 

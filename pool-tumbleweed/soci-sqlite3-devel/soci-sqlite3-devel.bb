@@ -10,8 +10,8 @@ LICENSE = "BSL-1.0"
 
 PV = "4.0.2"
 
-RPM_NAME = "soci-sqlite3-devel-4.0.2-4.4.aarch64.rpm"
-RPM_HASH = "5f7247fac6aef026c65173759c4aa3886de346d3b9a85565632d5b561fd1aac44315898c06faea4cb94dbc773d413b14d5382f285583da947afcd4ac9df16357"
+RPM_NAME = "soci-sqlite3-devel-4.0.2-4.5.aarch64.rpm"
+RPM_HASH = "e227b46e8b8c9ba3b487c1ff0d45f1c7f3be454cbb444db9b13f02364e3b0ee794af528a7108b23317189da2d91f06019f517f4cb77ea57afeee2cbe004e67b6"
 
 RPROVIDES:${PN} += "soci-sqlite3-devel"
 

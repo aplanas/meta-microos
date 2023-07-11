@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-only & LGPL-2.1-only"
 
 PV = "0.1.0"
 
-RPM_NAME = "libfeedback-0_0-0-0.1.0-2.2.aarch64.rpm"
-RPM_HASH = "978cdabe175016b99f06d4cfa407c1f4e9911ad7b2522aeb8791aaafbe165d793df0c2ce34c8739a243b01e1eb1d325fada4f21f493dc6e8fac9a26e06c35cfa"
+RPM_NAME = "libfeedback-0_0-0-0.1.0-2.3.aarch64.rpm"
+RPM_HASH = "3c61620cc217745c9227b08fe67cefb8eeceb804d481437575811eca5a975775bea746dedd44e35e7e5f7e34a8a8c9446a97418ae73dfece3ecb9b1908cb2468"
 
 RPROVIDES:${PN} += "libfeedback-0-0-0 \
 libfeedback-0.0.so.0"

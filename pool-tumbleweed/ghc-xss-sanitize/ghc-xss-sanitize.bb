@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.3.7.2"
 
-RPM_NAME = "ghc-xss-sanitize-0.3.7.2-1.3.aarch64.rpm"
-RPM_HASH = "b05ae3abcfa15c56b89dceea5009987f48bb96b14fab37f91c9c77bf0f601144fdf17038c47566dd329ab60fffb57dc6890cd2071e9161c4b13a3d94faafd105"
+RPM_NAME = "ghc-xss-sanitize-0.3.7.2-1.6.aarch64.rpm"
+RPM_HASH = "f6894ddfda95c332b9c3bf734e42d0d0acb208a120ff16311c55a4358cfd6a83d1951ca048ebed6da2f18a17097f9f17903e44de2f00735f3d24978da7b03459"
 
 RPROVIDES:${PN} += "ghc-xss-sanitize \
 libHSxss-sanitize-0.3.7.2-FCgYumvpQn8Hd22tbbEcXW-ghc9.4.5.so"

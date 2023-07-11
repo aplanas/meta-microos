@@ -17,11 +17,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.5+1679292226.g8769429"
 
-RPM_NAME = "ceph-iscsi-3.5+1679292226.g8769429-1.1.aarch64.rpm"
-RPM_HASH = "6cfa60be90c5d745e538524d9fc70fd23dac17da7bbe5965d1d60aa4d558dc1e806ae8c52d9281980c5885881847711f6fb5e63be0fec995ef04d535df1de5f0"
+RPM_NAME = "ceph-iscsi-3.5+1679292226.g8769429-1.2.aarch64.rpm"
+RPM_HASH = "a0e1291f952643d1cec1bee55a3e5846d4b7a27ebc5e84a6f60f2331c0bdfd4f6f8ae682b14b40d9e1081095a21dfd010df364694d4b52150b9f3d37ffc1fcae"
 
 RPROVIDES:${PN} += "ceph-iscsi \
-python3.10dist-ceph-iscsi \
+python3.11dist-ceph-iscsi \
 python3dist-ceph-iscsi"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

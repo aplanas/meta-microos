@@ -7,11 +7,10 @@ LICENSE = "MIT"
 
 PV = "0.12.0"
 
-RPM_NAME = "python310-pomegranate-devel-0.12.0-2.13.aarch64.rpm"
-RPM_HASH = "445ae84510e8532bf25ce4dbe0cdc8d679c4917d0e3cb17f1944ffd6f7dfce6f85f66781b3e28ef01bee0d864b6a8874c316e6e4edaa0047f939e1cbbb5b9c16"
+RPM_NAME = "python310-pomegranate-devel-0.12.0-2.15.aarch64.rpm"
+RPM_HASH = "7075d3676a65dd9095b1a4c9e997184edd2856b17787b21971bd711e34c0a2495f37599390d46aa811803c90d73981267ee009ccad39847ce8e9a694c743080b"
 
-RPROVIDES:${PN} += "python3-pomegranate-devel \
-python310-pomegranate-devel"
+RPROVIDES:${PN} += "python310-pomegranate-devel"
 
 RDEPENDS:${PN} += "python310-pomegranate"
 

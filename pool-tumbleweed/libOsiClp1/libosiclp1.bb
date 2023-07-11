@@ -6,8 +6,8 @@ LICENSE = "EPL-2.0"
 
 PV = "1.17.7"
 
-RPM_NAME = "libOsiClp1-1.17.7-1.3.aarch64.rpm"
-RPM_HASH = "0c58b4ea1d9dec0a2e77a850e3e17c4bd00948e93045235197922a304bf0f07dd2223eea1c6bd6b38bfaedaf3d4d70c4d32177b1dd2a86a18229fad6fb906e86"
+RPM_NAME = "libOsiClp1-1.17.7-1.4.aarch64.rpm"
+RPM_HASH = "b26ab8d9f1d6db701b1c84fb806576b27c2ab248de2abc6d083b30194f271d600e56d9422ec1993f875e8129113ba67d62df28012fb8ab2b47fdd16b738d8e7f"
 
 RPROVIDES:${PN} += "libOsiClp.so.1 \
 libOsiClp1"

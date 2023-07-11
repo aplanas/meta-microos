@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "1.6.5.1"
 
-RPM_NAME = "swingx-1.6.5.1-1.10.noarch.rpm"
-RPM_HASH = "2fc5faff75a3cd5dde76f003aab9fbca9e6e61a718e2356319f4d528695211a84117bb8c2a9f2473eb2518a20c07d98d24005fab77e88fc16e60748a553db496"
+RPM_NAME = "swingx-1.6.5.1-1.11.noarch.rpm"
+RPM_HASH = "92f0c8a5245582c104f0e4c84c6df0f974148ce3268f9ef737dfe89bc3eba8aad576d326c552b665ca4d222e9741b9f94ccac23d01f14ab8ee6fa28a3a8c8ee8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.swinglabs.swingx-swingx-action \

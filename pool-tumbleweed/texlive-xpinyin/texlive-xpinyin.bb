@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.3.1svn66115"
 
-RPM_NAME = "texlive-xpinyin-2023.201.3.1svn66115-52.1.noarch.rpm"
-RPM_HASH = "580d24595e1586ad818da79f72cd955e0bf4825757d71be5924f81d19fda2c643e31e42f511226d33db1ac135e94a1a40a9f836a618f73dee0175d2fae29642c"
+RPM_NAME = "texlive-xpinyin-2023.201.3.1svn66115-52.2.noarch.rpm"
+RPM_HASH = "63df91b9e821ed05c1c665efd75da8faf49a9b4d11b8d3b9e0a36c51aa92691ea23d957024e59cdb6a3dbc4de01f176165a51f2bf805380e2f01561da1695da3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xpinyin-database.def \

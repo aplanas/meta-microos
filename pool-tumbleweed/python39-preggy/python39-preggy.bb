@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.4.4"
 
-RPM_NAME = "python39-preggy-1.4.4-2.12.noarch.rpm"
-RPM_HASH = "40ed00fbd3862e2576bd5b6175a0ec42107088641fda080566831bd4c53dd17ce26ffb4b4af038aade4f426a4f3fa4c2cf3b148007c066db46c2a582ebd53fa9"
+RPM_NAME = "python39-preggy-1.4.4-2.14.noarch.rpm"
+RPM_HASH = "9728c57aebf27b60ba8f5ec62856cd7eb0cd2fc8e42c2ffb18366d224077974d2d1ef05c8bff160f1662d255018132cd46567a43721b06a4af1cd0cdd2a4f926"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-preggy \

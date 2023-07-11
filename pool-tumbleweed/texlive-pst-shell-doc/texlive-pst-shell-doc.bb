@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.03svn56070"
 
-RPM_NAME = "texlive-pst-shell-doc-2023.201.0.0.03svn56070-53.1.noarch.rpm"
-RPM_HASH = "1c7b12a943e8f2fd1de407acf16f510c2596a3ea75c948b568c5ceffd98bc04914bf9bd93ba21f348001d9902d227b417136f788da47eaf633dadbd5e1438863"
+RPM_NAME = "texlive-pst-shell-doc-2023.201.0.0.03svn56070-53.2.noarch.rpm"
+RPM_HASH = "cbff3a9901155db44e7ecfd7d47d22bbd6bc9e8ebdebcfb77ee7b671be8e18c411cdab017fe3c75ae107eccb891c49b1388f50029443a65ed58506134327eccc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-shell-doc"

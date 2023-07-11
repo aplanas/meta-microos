@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.9.9"
 
-RPM_NAME = "python39-python-crfsuite-0.9.9-1.4.aarch64.rpm"
-RPM_HASH = "8bcecd634d5095751a5491ab16385996c391a909b79171c3b65f1aea298b88e7f076446b49060fc80a607c7191d51c7014e835cd4e7fe02adf967a56f4ad9688"
+RPM_NAME = "python39-python-crfsuite-0.9.9-1.6.aarch64.rpm"
+RPM_HASH = "9a5373b5dc5d454fb9be676904deb5fe3252ddc73f7a1b3e99912fded688c3353946ba87aa84249ab95d36bc24f3d48a299722cd02f96732eb907051e631aab0"
 
 RPROVIDES:${PN} += "python3.9dist-python-crfsuite \
 python39-python-crfsuite \

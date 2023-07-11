@@ -5,10 +5,10 @@ This package contains a search provider to enable GNOME Shell to get \
 search results from Web (epiphany)"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "44.3"
+PV = "44.5"
 
-RPM_NAME = "gnome-shell-search-provider-epiphany-44.3-1.1.aarch64.rpm"
-RPM_HASH = "694187d2ddb59fe61ef3c477e772b894154acd7678d802c11adfab363714fa9744db9128bbe94a03a76f1ef52b2120eafe4cfbf93208f6c20115570baf69d3fa"
+RPM_NAME = "gnome-shell-search-provider-epiphany-44.5-1.1.aarch64.rpm"
+RPM_HASH = "a155cb12326c346badb51fc5dbb4f4ad7b1c9adc2358f32ac45be797b1ac93eadcf76dad187232238ad5e9a3c35d66a2bb87daf433557a3ae67e7711e133f81f"
 
 RPROVIDES:${PN} += "gnome-shell-search-provider-epiphany"
 

@@ -10,8 +10,8 @@ LICENSE = "Saxpath"
 
 PV = "2.0.6.1"
 
-RPM_NAME = "jdom2-2.0.6.1-1.6.noarch.rpm"
-RPM_HASH = "c1707ac98c08be6fed81a774a917ff8abfbf41a2c1f9e6d14e8ca0e76f6636ac5df0866e4f9edc932823539c820b33b211533c6b7aa9e3018e6a4c02a2e6747a"
+RPM_NAME = "jdom2-2.0.6.1-1.7.noarch.rpm"
+RPM_HASH = "e229007d153d2a57f6d444ea9151790ed3a15381e829fd3d0c219c2dced2256456a721c6b0fb5308646822eba3be9ad3a54d3b5ed28bb611cdbb5510c363d2c3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jdom2 \

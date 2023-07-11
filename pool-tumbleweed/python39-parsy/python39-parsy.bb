@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.3.0"
 
-RPM_NAME = "python39-parsy-1.3.0-1.8.noarch.rpm"
-RPM_HASH = "7fb99aababf0ccc16389db8e12de907d0829f75496d673a6873753980805cc4c6c07946e6d0a43851ee5e85f4a69909167051cded0622bd92c27a215d35e8a51"
+RPM_NAME = "python39-parsy-1.3.0-1.9.noarch.rpm"
+RPM_HASH = "b6922acf7e323fd0ef8727509b8df4c89a85c49551d9d6d3fdc69623916843af7e381f8141e0f6cb44c1d5965bd41b30fa1b57eb8e020d9c6ac9ad283eb33f02"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-parsy \

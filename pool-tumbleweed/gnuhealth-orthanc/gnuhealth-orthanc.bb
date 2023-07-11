@@ -4,12 +4,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.2.1"
 
-RPM_NAME = "gnuhealth-orthanc-4.2.1-1.1.noarch.rpm"
-RPM_HASH = "0cfb53e6a2cc313bc58ba34afb5c9434705c09f10bc69cdea3225435cdb18782b161a8562ccd0bf28327eaae1ecea04aed1b472cdf6a598f55c26a29134bc4af"
+RPM_NAME = "gnuhealth-orthanc-4.2.1-1.3.noarch.rpm"
+RPM_HASH = "cc90267c10e0336fc3f55f8f8ea062a1a66d824402b58dfd5158e35e22cd903746b02402a2223dbc1ea15d337e485ba4f095792a8bcd695b60c921ad75380ba7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnuhealth-orthanc \
-python3.10dist-gnuhealth-orthanc \
+python3.11dist-gnuhealth-orthanc \
 python3dist-gnuhealth-orthanc"
 
 RDEPENDS:${PN} += "gnuhealth \

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0.1.0"
 
-RPM_NAME = "ghc-bloomfilter-devel-2.0.1.0-6.3.aarch64.rpm"
-RPM_HASH = "cc77d59f4e7b4a7d6e18b9abc86c9cad88290b68a4e6edf6311dd785208cb337c8db66a75c01f3d48ade8ad358c8a7265391efca12ecfd98c0650495cea7f1e8"
+RPM_NAME = "ghc-bloomfilter-devel-2.0.1.0-6.6.aarch64.rpm"
+RPM_HASH = "b5a9938e618bc06b5a27b3a6ecf7b71b270297949f8779cc18aa0d675138c0573c0f9df4f251ea3aef15472a815ba120ab45d40f23be438d8377b7c4e049a9d7"
 
 RPROVIDES:${PN} += "ghc-bloomfilter-devel \
 ghc-devel-bloomfilter-2.0.1.0-3hF1ySDPbPQA7KQQeHgCqI"

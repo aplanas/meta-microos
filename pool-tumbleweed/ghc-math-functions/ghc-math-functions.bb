@@ -7,8 +7,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.3.4.2"
 
-RPM_NAME = "ghc-math-functions-0.3.4.2-2.3.aarch64.rpm"
-RPM_HASH = "020e09fb254a23c438c83ff6888c413355fe6337fb776a0e896c754fc41752fb7280a08825e6c0c6e66dfd2eb8a74304ec54675cf25d6e17011cafb859b3a0a1"
+RPM_NAME = "ghc-math-functions-0.3.4.2-2.6.aarch64.rpm"
+RPM_HASH = "c2bd2f38be2e7ad833a75854d34227894219b577611d2ada6c3e5b8562513118240b1041c8ae2399968d4eedf2249f9b93fb65dc165512b73db29eab05364391"
 
 RPROVIDES:${PN} += "ghc-math-functions \
 libHSmath-functions-0.3.4.2-9rV4yQVX6xI3LaPo90WsZk-ghc9.4.5.so"

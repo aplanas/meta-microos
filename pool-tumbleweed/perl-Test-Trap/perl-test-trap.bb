@@ -10,8 +10,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.3.5"
 
-RPM_NAME = "perl-Test-Trap-0.3.5-1.2.noarch.rpm"
-RPM_HASH = "5346c098596b16b335082bf5f069455ed9446ce1dc78014f024b8f550b9edaaa90af91a1a8f88ce0a16574f51bddd2e81754483db6de23567183803db903881a"
+RPM_NAME = "perl-Test-Trap-0.3.5-1.3.noarch.rpm"
+RPM_HASH = "4f9ac7006e41bab186f3bf746fde20f9429e94f2fbbb07f1c455389d6e9508ede622fbddc70f43b447a4bb097ed83b77d5430b2023dffb0ebc5f080e9a7d0b44"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Trap \
@@ -21,7 +21,7 @@ perl-Test--Trap--Builder--SystemSafe \
 perl-Test--Trap--Builder--TempFile \
 perl-Test-Trap"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Data--Dump \
 perl-Test--Tester \
 perl-version"

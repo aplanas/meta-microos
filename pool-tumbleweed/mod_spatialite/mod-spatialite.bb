@@ -5,8 +5,8 @@ LICENSE = "MPL-1.1"
 
 PV = "5.0.1"
 
-RPM_NAME = "mod_spatialite-5.0.1-2.10.aarch64.rpm"
-RPM_HASH = "53d087a9e18a6fc8fe23890f082aca6e3bbb9ac66e384520ca4440eee91e6745d817cb2ec4d27fec730db53adb896da5a2ef29897052deb9f8ee13fbdd157f22"
+RPM_NAME = "mod_spatialite-5.0.1-2.11.aarch64.rpm"
+RPM_HASH = "a783cf2952392f22eb94b942c214354669858869af3c92d8f5ebbff1f65bc98fd2f2e313838f21ce50d5c7d995eb5b207c22de4d7d1754eac0721e815fa97803"
 
 RPROVIDES:${PN} += "mod-spatialite"
 

@@ -2,10 +2,10 @@ SUMMARY = "HTML Image Map Editor"
 DESCRIPTION = "A tool to edit image maps of HTML files"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kimagemapeditor-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "35db55564b28febb83fb3711182a51181db1c3871621a8058d121754183ef85555d3bb3d6bc53781d132b69fc18cd02072df95fff779347275778365d8f6d258"
+RPM_NAME = "kimagemapeditor-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "0f7aeab01b8b1463362d141cb2d640b1e5ac93916db4513ccee90295531a02a8278a4865bd79420c00817bea5e3e8d5f775d55a2f5bd3cf40a233171ed54baa7"
 
 RPROVIDES:${PN} += "kimagemapeditor"
 

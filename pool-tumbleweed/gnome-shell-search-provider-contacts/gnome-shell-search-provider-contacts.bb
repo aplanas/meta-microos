@@ -14,8 +14,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "gnome-shell-search-provider-contacts-44.0-1.1.aarch64.rpm"
-RPM_HASH = "9526972655a5397aba20860c54c5249171d2e5b58f4769cba7fa891877bbc9de4e146a19f7ef970ea3fc2f2d0c19ad69a9d95b2d544c51e79a1b3b31c3037f7a"
+RPM_NAME = "gnome-shell-search-provider-contacts-44.0-1.2.aarch64.rpm"
+RPM_HASH = "fe77b9f73dce98b702dafebc07e7ec8ebb7a73d04ef7894b02c0acc7f42e4b8137d309722f620a70fb0a429576a40d65066c1337f75a2a368be68e7fb562e5c9"
 
 RPROVIDES:${PN} += "gnome-shell-search-provider-contacts"
 

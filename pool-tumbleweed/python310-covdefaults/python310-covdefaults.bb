@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "2.3.0"
 
-RPM_NAME = "python310-covdefaults-2.3.0-1.2.noarch.rpm"
-RPM_HASH = "f489f46f88dce564940c052023be0da5fce3089d4ee4d8be9f9e1a9cb506337962daeb4002a29efe5249367541720b3f9acb4b5fdc429ba5a0663ac56152b7f6"
+RPM_NAME = "python310-covdefaults-2.3.0-2.3.noarch.rpm"
+RPM_HASH = "f76bcc9a9343806e83390ae37f08b7e3356f7ba90773cbb8cc0f4342022ca946a09d8bf7fcaf37cc9c1a87e8bef5f6dfb094f3a779794d208ec1c210861787cb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-covdefaults \
-python3.10dist-covdefaults \
+RPROVIDES:${PN} += "python3.10dist-covdefaults \
 python310-covdefaults \
 python3dist-covdefaults"
 

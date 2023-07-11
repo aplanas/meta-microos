@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "0.0.12~rc5"
 
-RPM_NAME = "libax25io0-0.0.12~rc5-1.9.aarch64.rpm"
-RPM_HASH = "04e213b53a87f61bb5e505c88ac536dbf8a610f11117ce59a2809f276b1513cce77e51c64c0dc616a0a8b4dba7d8f9545c7642035bb9043ebb80d32d1ace5d70"
+RPM_NAME = "libax25io0-0.0.12~rc5-1.10.aarch64.rpm"
+RPM_HASH = "b77baa594846af66988eaeea57fd292fb3c0f91a7943256f1f3f77d50534cfec539326edd1ec12ccd1476db3eeefa04881ec4119ba75b99390ec9bbb9c43a859"
 
 RPROVIDES:${PN} += "libax25io.so.0 \
 libax25io0"

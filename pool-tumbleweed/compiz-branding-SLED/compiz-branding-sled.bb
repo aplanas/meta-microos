@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
 PV = "0.8.18"
 
-RPM_NAME = "compiz-branding-SLED-0.8.18-2.8.aarch64.rpm"
-RPM_HASH = "9fe0d5be9b1cbc02b44c4a5501ad6eabcc581493b08e7bc7b0b835056970cf5fdb07b3fede4dc27eb2220d94bd318662740c92efd36bf0af39dc49da15aeb752"
+RPM_NAME = "compiz-branding-SLED-0.8.18-2.9.aarch64.rpm"
+RPM_HASH = "5c2031082d49152f8196fbf1559b3ecd02a1ba28124f07536daea6299ed7da003fcdd2f66a16421d77600f4b688512de9f8d316461c1366033f64f860abb420b"
 
 RPROVIDES:${PN} += "compiz-branding \
 compiz-branding-SLE \

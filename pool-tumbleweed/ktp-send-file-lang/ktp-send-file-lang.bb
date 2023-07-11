@@ -2,10 +2,10 @@ SUMMARY = "Translations for package ktp-send-file"
 DESCRIPTION = "Provides translations for the 'ktp-send-file' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "ktp-send-file-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "bef67bcd4cfab230564f12f5c0b38a6ec2dd0042b2a0e5f52a071dcf950ad5be7607d846223491ffd4bd4f42b9de7d41f6562e7a4a66a5c76fa9b6bcef796d63"
+RPM_NAME = "ktp-send-file-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "d1e9f77e125b28692c0af22e1e461a5447fe2e01635bb8c17f5c0ca5c4d03fe7d49f4094c1aa65dd0dcbecf43b0e5eb1cb938938833f68b361cf5d368c32f2a0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ktp-send-file-lang \

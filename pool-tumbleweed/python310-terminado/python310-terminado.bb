@@ -9,12 +9,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.17.1"
 
-RPM_NAME = "python310-terminado-0.17.1-1.3.noarch.rpm"
-RPM_HASH = "662c22dabd95930bed00c922fbc29b46000fea01c362c2dd1ebb170673375408cb0180859c4287bc467ce2e37d2087659713badc0c95fca2040aff12873ef306"
+RPM_NAME = "python310-terminado-0.17.1-1.5.noarch.rpm"
+RPM_HASH = "1663382eb72dc407db2985d3eac01d91b961c3d23c62f665f40bd0cca0b763c7f0ec61fdac22bbaa7145e62fc95ca81df969a5554a26e88e800a416d034f2944"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-terminado \
-python3.10dist-terminado \
+RPROVIDES:${PN} += "python3.10dist-terminado \
 python310-terminado \
 python3dist-terminado"
 

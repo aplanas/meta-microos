@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.20.6"
 
-RPM_NAME = "typelib-1_0-Gee-0_8-0.20.6-1.3.aarch64.rpm"
-RPM_HASH = "ae591786cf77af69a4a3c46c3916e50a4abe17e2eed67cd00cb9e7c6349f053f87bae9cf2dd94bdae7626f00c033b46ac824428e2d7c91257221f40ff2dc61c6"
+RPM_NAME = "typelib-1_0-Gee-0_8-0.20.6-1.4.aarch64.rpm"
+RPM_HASH = "845443ff6055cf336910ef9b3347d3c6020b4f3efc7071171870f6ea2ea13a801fa55d7b0933c102edcfb57d8d9298cf6cf64647bbde463a97657a2271d89bdb"
 
 RPROVIDES:${PN} += "typelib-1-0-Gee-0-8 \
 typelib-Gee"

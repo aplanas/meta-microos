@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.2.13"
 
-RPM_NAME = "librcc-devel-0.2.13-1.3.aarch64.rpm"
-RPM_HASH = "47e5d9eca77d1d30bcdd82768adda8aea720b7375d1cb1ed9c2ae8b5b4f56f18ad453dbabb0e6d0e244388c6ba4319081c4cf3cf7785be5f1d223f9cec8b9678"
+RPM_NAME = "librcc-devel-0.2.13-1.4.aarch64.rpm"
+RPM_HASH = "881b0010c361c2b90b5302e4f1e519f161cc3a3f9bec6e86b8c13edf33ffbae1e43fe2b4d0b888c6dbd269d5acda878e45b0ba1ad190e4cb7882175be2e8d63a"
 
 RPROVIDES:${PN} += "librcc-devel \
 pkgconfig-librcc"

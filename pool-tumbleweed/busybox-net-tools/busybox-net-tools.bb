@@ -2,10 +2,10 @@ SUMMARY = "Busybox applets replacing net-tools"
 DESCRIPTION = "This package contains the symlinks to replace net-tools with busybox."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.36.0"
+PV = "1.36.1"
 
-RPM_NAME = "busybox-net-tools-1.36.0-26.3.noarch.rpm"
-RPM_HASH = "2e7d56b376e79b8914ab8e0da8aa6ecb449436e2e41df3961a3ff28c221ef5ee0555af0b899fe0cdeee89f03d885569be6cc223d7aa576eb6e2d3525b554fc6c"
+RPM_NAME = "busybox-net-tools-1.36.1-27.1.noarch.rpm"
+RPM_HASH = "8dafc0fb7bcf2b4655d5e579309cfd375de9df34eb504461c22a48702e4365a4f0b5cae63e72bee17bb91bed66bf6047a85d4436126b44c4009036a88acb30cf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "busybox-net-tools"

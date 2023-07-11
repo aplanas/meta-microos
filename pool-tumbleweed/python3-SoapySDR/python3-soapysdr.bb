@@ -5,8 +5,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.8.1"
 
-RPM_NAME = "python3-SoapySDR-0.8.1-1.11.aarch64.rpm"
-RPM_HASH = "586c82e3a2cd4bc5ba4a7e5f394a4ddd1834ab801fa5ce5278d2aacf869545e160a85bf0005d010508e8e9783c115e3cc17e9e2dbbc3fcc0c6524e60d1a3e73c"
+RPM_NAME = "python3-SoapySDR-0.8.1-1.12.aarch64.rpm"
+RPM_HASH = "b790a6a0677f204465e0234f826275d70e0ea777a5c4b6a5d9c9bf89155031019be76cdb9e30df686deed1b2f89470c390adec0adcaddb6a7c441750035f84ba"
 
 RPROVIDES:${PN} += "python-soapy-sdr \
 python3-SoapySDR"

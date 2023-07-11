@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "0.1.0"
 
-RPM_NAME = "python310-azure-cognitiveservices-personalizer-0.1.0-2.11.noarch.rpm"
-RPM_HASH = "727e541c591bc568c1c7d810c88c66baf73383a026b9d20ab4f4506adbf48c47a5ff49e691c08c2e01a81e41adc1fab2b7769574b78a8f3c0108d70fa0d68c2f"
+RPM_NAME = "python310-azure-cognitiveservices-personalizer-0.1.0-2.12.noarch.rpm"
+RPM_HASH = "26683af87d703bb2b07ddc9a85c56bdd9d3d439fe9970f07f1c198df5f4494280dc8f3a77d4df2493c9817083b59e5ffdc13c58930eb9d747dde6fcbad09b9dc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-cognitiveservices-personalizer \
-python3.10dist-azure-cognitiveservices-personalizer \
+RPROVIDES:${PN} += "python3.10dist-azure-cognitiveservices-personalizer \
 python310-azure-cognitiveservices-personalizer \
 python3dist-azure-cognitiveservices-personalizer"
 

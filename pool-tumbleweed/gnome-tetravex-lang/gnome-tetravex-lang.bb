@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.38.2"
 
-RPM_NAME = "gnome-tetravex-lang-3.38.2-2.7.noarch.rpm"
-RPM_HASH = "4b7353ec73a8668934d8549a483394dfe04992c11c1c31d9e4a26ffe1b531711a794eb941cc24bec29a0287086e09c5c177033dbde3ef714a46b6ba2f29a0aac"
+RPM_NAME = "gnome-tetravex-lang-3.38.2-2.8.noarch.rpm"
+RPM_HASH = "e354b4d9fc460de40f4a5ff1ecb48506a535157e8804b4060b6701264b48ec4de358990920c4b6ff33710b268a18704cefbe72f568324997a9325ae93815fd91"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-tetravex-lang \

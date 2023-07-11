@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-or-later & GPL-3.0-or-later"
 
 PV = "2.7.2"
 
-RPM_NAME = "libdrumstick-rt2-plugins-2.7.2-1.3.aarch64.rpm"
-RPM_HASH = "4c35d3c0b5103210195566dc13e501889c2d788d6c49ca64c52b3bd03c349f5583d901cdfa5cde4730a30f191b6b38c05b11f3b928959d47a5540e41b9d86854"
+RPM_NAME = "libdrumstick-rt2-plugins-2.7.2-1.4.aarch64.rpm"
+RPM_HASH = "10af36d914811c72db99ea0c2840ae70403be84cb6a13b36e4f320c91e27b0d1b92a730818cf38379c0426887664421c16ab93f5486664e0173f8b3f27a7bc06"
 
 RPROVIDES:${PN} += "libdrumstick-rt-alsa-in.so \
 libdrumstick-rt-alsa-out.so \

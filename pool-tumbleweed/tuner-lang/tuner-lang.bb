@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.5.1"
 
-RPM_NAME = "tuner-lang-1.5.1-1.7.noarch.rpm"
-RPM_HASH = "3eacdbbf3c4a50ddd53f68dd6ce3f8bcf6f0b735c86a4e6efa2143143e97d8dc5f69df62339815a35d805fce51a31d1d60739b00a31f922c4d49814761c32dfb"
+RPM_NAME = "tuner-lang-1.5.1-1.8.noarch.rpm"
+RPM_HASH = "893db9fdf5fd69332e784c3ba97ac4bc940f0d347fc35b0c4bfb479535be8159e210266d3d93de11e7a70dd5db7128cb6eb4228c8584a75d802497ec0716c20d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-tuner-de \

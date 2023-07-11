@@ -4,11 +4,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.1.5"
 
-RPM_NAME = "python3-kiwi_crossprepare_plugin-0.1.5-11.8.aarch64.rpm"
-RPM_HASH = "18e50151664fcf55ca40e10be3edf30af8365d5d5d31a10d5c510d20717cda023155fce4df9feb64a8b9bfa8cdb6c40b624dd77794f11506c317289a6fc6994d"
+RPM_NAME = "python3-kiwi_crossprepare_plugin-0.1.5-11.9.aarch64.rpm"
+RPM_HASH = "4c4f69dc32ffb50db0a867f32f04d55aeb336042f80aa5c9f6d5ec109d7cbcdeb5c261c1375abf19d81d9b32c253d97d17b39881335834c93590cfa75e564dfb"
 
 RPROVIDES:${PN} += "python3-kiwi-crossprepare-plugin \
-python3.10dist-kiwi-crossprepare-plugin \
+python3.11dist-kiwi-crossprepare-plugin \
 python3dist-kiwi-crossprepare-plugin"
 
 RDEPENDS:${PN} += "python-abi \

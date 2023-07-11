@@ -12,8 +12,8 @@ LICENSE = "MIT"
 
 PV = "7.0.4"
 
-RPM_NAME = "python39-testfixtures-7.0.4-1.3.noarch.rpm"
-RPM_HASH = "19a58b3f8b59a490d5ca83afda3d3eb2aacb55b3dee119172a57b4fbcf76d07103541924a48fc72c25c27ad80851d1b46e3f8986f17d1b71fefd55fb1a334f02"
+RPM_NAME = "python39-testfixtures-7.0.4-1.5.noarch.rpm"
+RPM_HASH = "4910995b03e0f857bf75bb350984461a4735dd8fbdbdc49540b64aeea0ebd010304e361a31c48b5ca219bacf1f71b4d8e4df6bf603206d78a088b848cf29699d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-testfixtures \

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later & (LGPL-3.0-only | GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt6WaylandCompositor6-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "de321cac60953f4134051eb9e7cfddc0bbd6c3a26dda3d4233aa648f40ae3b71c25e73a65a6c49fe4d78e257d3b170d19c5711e83f69bcc4d9eba7de65a0bf65"
+RPM_NAME = "libQt6WaylandCompositor6-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "e088a1e674bb06948e4076f4c7c4232908ad205cb88bc21a9a4e7fe30797a7adf4303c6d0cf1d48b9b61f6f7b5901b3eb2d3d8c8bc1cfb3f566e3d2f45b69658"
 
 RPROVIDES:${PN} += "libQt6WaylandCompositor.so.6 \
 libQt6WaylandCompositor6"

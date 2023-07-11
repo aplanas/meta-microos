@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "2.0.0"
 
-RPM_NAME = "python311-azure-mgmt-redisenterprise-2.0.0-1.6.noarch.rpm"
-RPM_HASH = "2116f9374baac4e1efe460f8a7f354908e118f10ac1d3275d56c934f50d27fd6844405645bb4fbcc271d6da66a5d1f9d49bfea7e5152c84a1937bed3a0353c0e"
+RPM_NAME = "python311-azure-mgmt-redisenterprise-2.0.0-1.7.noarch.rpm"
+RPM_HASH = "a59c44955e7df60663a652f8fa3314f994a00d1a18ce9d329655b9779f2eada181a9012c30873ee5d8976e83ae2dc679dd4088f18940ae8f868446671f539e8b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-redisenterprise \
+RPROVIDES:${PN} += "python3-azure-mgmt-redisenterprise \
+python3.11dist-azure-mgmt-redisenterprise \
 python311-azure-mgmt-redisenterprise \
 python3dist-azure-mgmt-redisenterprise"
 

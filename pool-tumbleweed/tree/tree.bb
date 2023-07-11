@@ -4,10 +4,10 @@ indented listing of files, which is colorized ala dircolors if the \
 LS_COLORS environment variable is set and output is to tty."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.1.0"
+PV = "2.1.1"
 
-RPM_NAME = "tree-2.1.0-1.3.aarch64.rpm"
-RPM_HASH = "967381b26570ef37b9f324a0b42ce7f9837983e35f137a1a47309066a45851c2a4b1c023342298482e26d4b01d888a0ea5f820bba88e948b679433bb79aeb48e"
+RPM_NAME = "tree-2.1.1-1.1.aarch64.rpm"
+RPM_HASH = "c8b64bcd3446c1f1ee9df4501e7f210d51ff608f495d5d00bfa14598fefb75fbf1d389e078026a12f480d45f52de4a8637f39f58aed32804b2abcf4b8d2579c8"
 
 RPROVIDES:${PN} += "tree"
 

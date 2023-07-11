@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.2.2"
 
-RPM_NAME = "mkfontscale-1.2.2-1.6.aarch64.rpm"
-RPM_HASH = "e83f76a2716bf14c21fdda6d576bd968294443fc17c40c2f4a71f155b8e0ff1afb46ca67396fc784a33c682045d277bdddc833a08167fbaf59341bd37c580bf0"
+RPM_NAME = "mkfontscale-1.2.2-1.7.aarch64.rpm"
+RPM_HASH = "6bd0f274cdde7c54bbc9facb62b08e6c14cf64bc70c16b339798ef64daeb6d80ce0dcf68622cb3f968cd1efb8e0e2bf1900877da44a22ddda379a20d580e544a"
 
 RPROVIDES:${PN} += "mkfontdir \
 mkfontscale"

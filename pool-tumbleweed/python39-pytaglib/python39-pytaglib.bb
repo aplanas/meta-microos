@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only | MIT"
 
 PV = "1.5.0"
 
-RPM_NAME = "python39-pytaglib-1.5.0-1.5.aarch64.rpm"
-RPM_HASH = "c994d691f75af82a4e989e6c4d0f73d4f61acb4e6a67cc44031694993e70270707ab7a5d03bc76f68e326e6388b15a64271ec85b6e5120eda0e227071b30eb65"
+RPM_NAME = "python39-pytaglib-1.5.0-1.7.aarch64.rpm"
+RPM_HASH = "2fb39efdec826c8c89b7841b86697ee558c5601c1794f0966ebe81465a9eea2fc7f6dc4e4f1b304966a0ff806f2a05e5f2e0e51627dc0e9e0503ef8e41798917"
 
 RPROVIDES:${PN} += "python3.9dist-pytaglib \
 python39-pytaglib \

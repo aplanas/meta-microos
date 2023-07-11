@@ -11,8 +11,8 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.12"
 
-RPM_NAME = "perl-Net-LibIDN-0.12-16.38.aarch64.rpm"
-RPM_HASH = "305221fc27da7a37ffa524c0ee0ff49a7ea643a2543b2717076bebbe37e9ba0a5e5140db649c2c153062c332fb098b526a6a99f27b9dc4ab892d9d4741f462e1"
+RPM_NAME = "perl-Net-LibIDN-0.12-16.39.aarch64.rpm"
+RPM_HASH = "e627d3a42b50d4cebd6584f263f47f3f9382cde31da1f0bc40218dd5c075f4a9ad350c94521b02d9c0ffde09ff1de998b5a568493c4324588ce0d6b0365a1f5b"
 
 RPROVIDES:${PN} += "perl-Net--LibIDN \
 perl-Net-LibIDN"
@@ -20,6 +20,6 @@ perl-Net-LibIDN"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libidn.so.12 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

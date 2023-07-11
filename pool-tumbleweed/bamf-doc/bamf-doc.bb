@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only & LGPL-3.0-only"
 
 PV = "0.5.6"
 
-RPM_NAME = "bamf-doc-0.5.6-1.4.noarch.rpm"
-RPM_HASH = "f9fe74154c8fa11393eb125f4763eabe7c2d06da82163ecb353e60cdb09cfecf9992725fa347059fff3faecaf78d6006dbee0188c54185a2b3b51e04113f1676"
+RPM_NAME = "bamf-doc-0.5.6-1.5.noarch.rpm"
+RPM_HASH = "f819f806426fa19d1dd3cbe1fb4b397abacba907903e8a4f56a1b421a1886783b6bff04996f666a56877ebca1418ad07322963ae182b4f572228423f75c0e912"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bamf-doc"

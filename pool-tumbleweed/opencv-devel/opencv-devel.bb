@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.7.0"
 
-RPM_NAME = "opencv-devel-4.7.0-1.6.aarch64.rpm"
-RPM_HASH = "afd642423de1b59b4899e5599fc756e0f5af94c3ec40d76f59818c397301235b58a1da4ec592025bcb7a04a4ed03451213c602ce45c106d6c8963e898ea72a1d"
+RPM_NAME = "opencv-devel-4.7.0-1.8.aarch64.rpm"
+RPM_HASH = "9aea654b162902a13e67b9d2b81c0e6b6a1d6845e4ead90765b0caa2b9d5dcbfe0b6c6565b6497644f821a1f0d92240ba5589d080120257287da8e667743f3da"
 
 RPROVIDES:${PN} += "cmake-OpenCV \
 opencv-devel \

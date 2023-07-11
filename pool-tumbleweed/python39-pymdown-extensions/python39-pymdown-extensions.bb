@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "9.11"
 
-RPM_NAME = "python39-pymdown-extensions-9.11-1.1.noarch.rpm"
-RPM_HASH = "8dce33131099946d335805ebe8eb3845119ac3532140defd048cfaa8fc8c5dab745d9b0f8993910be153c434560ce9bea827aca499e0b5511950ac7df4b128ba"
+RPM_NAME = "python39-pymdown-extensions-9.11-1.3.noarch.rpm"
+RPM_HASH = "c81ebdbc003d8d2e8af09176ddf3d23a4d3121c71c58797213eb386573ce5cfc1485297593fb2cb25abde1dac99982e943a3dc8c3d76725ba28d93b4a05e6be3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pymdown-extensions \

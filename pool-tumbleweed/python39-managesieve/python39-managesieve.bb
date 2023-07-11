@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later & Python-2.0"
 
 PV = "0.7.1"
 
-RPM_NAME = "python39-managesieve-0.7.1-1.9.noarch.rpm"
-RPM_HASH = "d30d65f2888e8cd7cadf42edf28e833cd0a0b2ad97370a7e170fc1068a0144bfb4fdcb44602ccb2115cc665ae71da9b062891ea6501e0755b722af6d1fce5bf5"
+RPM_NAME = "python39-managesieve-0.7.1-1.11.noarch.rpm"
+RPM_HASH = "23528f702c29f4ddc99f4ad2e6a950f727bbb7ab1df6e22c07d442d5b704f6aa401526affad27b79f2be52432f80924609b0d09f079c534aa9e453c69f59e598"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-managesieve \

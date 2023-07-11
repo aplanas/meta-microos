@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-serif-armenian-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "6d55f4b2d0c6f741f510854d75e89556a75b7f912233ab1410b09337e112d2ad17af1060f4bf7f64b9274a59739996068d9107f92e7aa1881bbb0766ed0d7787"
+RPM_NAME = "noto-serif-armenian-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "9f27bd67a181eae257f197f0babc346820e4da7f46ebc2981229e2bb5698dc7409afa73620e6e5a042810a4dc0c8dfb5f0f39336acc94d9a119ff3f52deb4456"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-serif-armenian \

@@ -10,8 +10,8 @@ LICENSE = "NetCDF"
 
 PV = "1.12.3"
 
-RPM_NAME = "libpnetcdf4-mpich-1.12.3-1.3.aarch64.rpm"
-RPM_HASH = "9a382e0bcdca15171f5700f29d1091e9c7623ae3d51e92dbfcfc4c0ef928a5f743138d944409d2c5dbb10066c1f91cc3eaead3b83e7ac4bac7f4ba2fe5257730"
+RPM_NAME = "libpnetcdf4-mpich-1.12.3-1.4.aarch64.rpm"
+RPM_HASH = "68fce7f49c067a0475eac1250ac832e7161f4f9724c880957b79f7de9ef1f3ad40ef358a82aba5c5a5e0e6271dcbcb12177d4561c9e6681619185908720feba5"
 
 RPROVIDES:${PN} += "libpnetcdf-mpich \
 libpnetcdf.so.4 \

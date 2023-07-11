@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.13"
 
-RPM_NAME = "klavaro-3.13-1.7.aarch64.rpm"
-RPM_HASH = "46e5a0d7ea9ee05a29ff90f2f3cfe96cb7b9e2c5ce946c13aa512ab0fec538f53833d2bd3b72bf17d5e1bee4fda2404a141779d7363cf73632b63aafca9354a6"
+RPM_NAME = "klavaro-3.13-1.8.aarch64.rpm"
+RPM_HASH = "b03a589d86eb1ffe15f565a0878234533f6f70521164d2a1eca9e8204fb75190f45d4ecd3675a5dd4d9aec766a5f5f7f78e14d00d6d32bb4fc72f7ca66a4e2dd"
 
 RPROVIDES:${PN} += "klavaro"
 

@@ -10,13 +10,13 @@ tutorial with usage examples; see also \
 regular expression support in Haskell."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.3.2"
+PV = "1.3.2.1"
 
-RPM_NAME = "ghc-regex-tdfa-1.3.2-2.3.aarch64.rpm"
-RPM_HASH = "a545fe840f74aa8dbe6c6105d5dec5dc45c69dd0658a7513b888484daaa5acbae1cf976e989e5210ea990eba75899601830eb527240e22d7733bd01f18bb656e"
+RPM_NAME = "ghc-regex-tdfa-1.3.2.1-1.3.aarch64.rpm"
+RPM_HASH = "095d8c29564e4cddbc57f5ed7bbac87734a0ab701c166b0894b89424e2f5cf1e79fc0f641cb7083ab9ccf635b1e6f89970c4b13973f736f01cf35444cfd8a6ba"
 
 RPROVIDES:${PN} += "ghc-regex-tdfa \
-libHSregex-tdfa-1.3.2-CiIqW6NRXBXL0jfv03YXoU-ghc9.4.5.so"
+libHSregex-tdfa-1.3.2.1-IjrqGmQfrKa7qAUI2VJCmV-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
 libHSbase-4.17.1.0-ghc9.4.5.so \

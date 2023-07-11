@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-ethiopic-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "310f69f918df2aafedf4d7c080b8b51bf50e2528a85b84fa7257a57261ed2bc8dbef91d758d526ed288ae009c3964210fb117ed07e3c9edf0803d9037cf8ca79"
+RPM_NAME = "noto-sans-ethiopic-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "ec8abbd6ca5b183ffe94f2475e8026fa05ed682eee5f75a1cd3a4549d70a3f4d442f2569a4821740cc8402c98bdb18badbb073e0cf132c7f7409dfc02bfc666b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-ethiopic \

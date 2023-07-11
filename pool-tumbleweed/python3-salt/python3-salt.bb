@@ -4,12 +4,12 @@ LICENSE = "Apache-2.0"
 
 PV = "3006.0"
 
-RPM_NAME = "python3-salt-3006.0-1.1.aarch64.rpm"
-RPM_HASH = "e5d79b78fead94c23e6656db96c6a3d488a4598fda2def7c525254b3378fe49c25a926d9da35add5a5676c3848ca018e701a51d29fdeb9c421c5878788e1a0df"
+RPM_NAME = "python3-salt-3006.0-1.4.aarch64.rpm"
+RPM_HASH = "b687c9afcfc4b85861b08b631e00742bc9f8179d186ae2e5170d7d799c952964eb1d92f06e0f486a526e27eb8f182a8dd79dea8dc9709dd5c51ba75e8515f576"
 
 RPROVIDES:${PN} += "bundled-python3-tornado \
 python3-salt \
-python3.10dist-salt \
+python3.11dist-salt \
 python3dist-salt"
 
 RDEPENDS:${PN} += "/usr/bin/env \

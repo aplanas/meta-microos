@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.1"
 
-RPM_NAME = "wizznic-1.1-1.13.aarch64.rpm"
-RPM_HASH = "8aff345defcbce5662b268b2b8e819ea273891c71b45bb8e3e36ac52ef9064954bf825f108b36318f2d9199f0e21882326e89eb0f4fef5cb01bbc1ad5045f2c1"
+RPM_NAME = "wizznic-1.1-1.14.aarch64.rpm"
+RPM_HASH = "0756c0a48d66f58a5e9a9b5c7d515d516a40272c3c1cc2b433c8ccca20230e4acded27babe9aad71cce2feda75b943156cef0d78b9387424a34dfd4485f169e9"
 
 RPROVIDES:${PN} += "wizznic"
 

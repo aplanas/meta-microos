@@ -14,8 +14,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.3.19"
 
-RPM_NAME = "jcifs-javadoc-1.3.19-3.6.noarch.rpm"
-RPM_HASH = "9d3d1aead542ba09f2ef16d51e00d9e2e6c50ba04826160b3397d451dc5bde704d9c2cb37de019ffe9c246320b03560d367115947b4600162b7b59c647fd2fbb"
+RPM_NAME = "jcifs-javadoc-1.3.19-3.7.noarch.rpm"
+RPM_HASH = "28a237159966a2fe201ecb5cb043747903e53422f925e5c5a9dabc9e5d63df7622379df34198a4146a09613166c300443a754481f7ee2e668a644c0d2c74d484"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jcifs-javadoc"

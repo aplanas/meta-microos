@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "3.1.0"
 
-RPM_NAME = "python39-terminaltables-3.1.0-2.15.noarch.rpm"
-RPM_HASH = "de5e374ea282f592640fb4ed564eccb75fb78f26064a79b222330ce5f07a2814b1d91d0558c79e9db33c60014e3cdf068a0232f5803b3cb66146ec14037eddaf"
+RPM_NAME = "python39-terminaltables-3.1.0-2.16.noarch.rpm"
+RPM_HASH = "7a4785da5917b6e257e8ae12a3fa09a25b00b40c5a79387db1e1ade63c1b84f5c1153cc7bb6c22c9737b00ca0a658484c9efda0e57b27842ecd081deceb13b1a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-terminaltables \

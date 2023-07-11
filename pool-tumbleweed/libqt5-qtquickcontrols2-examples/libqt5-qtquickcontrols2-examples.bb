@@ -2,10 +2,10 @@ SUMMARY = "Qt5 quickcontrols2 examples"
 DESCRIPTION = "Examples for libqt5-qtquickcontrols2 module."
 LICENSE = "BSD-3-Clause"
 
-PV = "5.15.9+kde5"
+PV = "5.15.10+kde6"
 
-RPM_NAME = "libqt5-qtquickcontrols2-examples-5.15.9+kde5-1.1.aarch64.rpm"
-RPM_HASH = "7fa135a207adcac616c6d478d1ec569877b2218a182745e58e9356f9c6721b490c1b4a9458840025fa90b7f947bbdce9b8fd0f07ea3fbeb6a6903a08fb2ca6c2"
+RPM_NAME = "libqt5-qtquickcontrols2-examples-5.15.10+kde6-1.1.aarch64.rpm"
+RPM_HASH = "142474f92edf696c3bd11141a5caaf2d171419a44d50afde5e28b7c8917f161b5132db3d13a5502883e97df1e9bc637f0bdabfd524dbcf2142160cfc368daa95"
 
 RPROVIDES:${PN} += "libqt5-qtquickcontrols2-examples"
 

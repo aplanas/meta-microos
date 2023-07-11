@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6.9"
 
-RPM_NAME = "ghc-ansi-wl-pprint-doc-0.6.9-10.2.noarch.rpm"
-RPM_HASH = "d2cbba4475e1d2aad78ecfc947258a6e176b328486cae7aa3d274996066d712fee727bc28ebd93ac0a17ecadcd5874b1845bb046b83fff2ceead71f77b070c47"
+RPM_NAME = "ghc-ansi-wl-pprint-doc-0.6.9-11.1.noarch.rpm"
+RPM_HASH = "1d81f4c63b29202ba66961fb7be0c5bbe583cf46aedaf21c1f5435bafb8c7d22de3c3ee3552fa4047da9d6302f47cb3413abfc8eb617676d3708de73151fbb7e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-ansi-wl-pprint-doc"

@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.12.2"
 
-RPM_NAME = "libhdf5_1_12_2-gnu-openmpi3-hpc-1.12.2-5.1.aarch64.rpm"
-RPM_HASH = "8ff96d081e86e1c86919eef0a4bb84f8b22bfb444616894c902617be46dd83a51b84f665682fe96ef9f04a9be2044f8fefb98da524b8e6d88bdaacde34d94b8a"
+RPM_NAME = "libhdf5_1_12_2-gnu-openmpi3-hpc-1.12.2-5.2.aarch64.rpm"
+RPM_HASH = "eb8c5fac8694b13759fdfe25c48d0ebfd1df03b04b071fe0de7b11c7bf3c3af31c3998564512ff6c3c63da5d675d187d6422a192e656d31d72d4f2e5fa0a88f4"
 
 RPROVIDES:${PN} += "libhdf5-1-12-2-gnu-openmpi3-hpc"
 

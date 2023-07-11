@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-or-later"
 
 PV = "1.5.1615+0"
 
-RPM_NAME = "psi+-plugins-gomokugameplugin-1.5.1615+0-3.1.aarch64.rpm"
-RPM_HASH = "f611293fecccca2b26ac7ed46792eba5ef88997aa9a2630101e2c43a4cb7f2897438a73be96b1fc608d77cce804ef928fb960acbc1a709dc52b402c4183dead9"
+RPM_NAME = "psi+-plugins-gomokugameplugin-1.5.1615+0-3.2.aarch64.rpm"
+RPM_HASH = "eedd446819acf6d2fdda0b16597252bd3f988569982b2e1219f6e091837893b3fe026710ba7ddaf983df3748ff4659d9b35bfbda08544f2cf81f8ac813692797"
 
 RPROVIDES:${PN} += "libgomokugameplugin.so \
 psi+-plugins-gomokugameplugin"

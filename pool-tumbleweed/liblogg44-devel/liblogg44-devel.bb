@@ -4,8 +4,8 @@ LICENSE = "SUSE-Permissive"
 
 PV = "4.4.3.1"
 
-RPM_NAME = "liblogg44-devel-4.4.3.1-1.15.aarch64.rpm"
-RPM_HASH = "47361bd20368fc5381be4640284c347ae27a99a90503a4a5c277e2391d28ac19babf5e6bbca1aac56f7d484e8878b769104a0cbbd19fe0889de85e1b1344e8c3"
+RPM_NAME = "liblogg44-devel-4.4.3.1-1.16.aarch64.rpm"
+RPM_HASH = "d4d90ac00f1944c61cbc1066e97679c155ccd04cdb04fb03c105eb0eb2c2732c3883b25ec79dfa844eca8f7fdafc3a8313866b5c3f4e4c7116e89d221fb7b4f7"
 
 RPROVIDES:${PN} += "liblogg-devel \
 liblogg44-devel \

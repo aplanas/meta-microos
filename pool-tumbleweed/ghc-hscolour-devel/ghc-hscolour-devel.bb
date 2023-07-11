@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.24.4"
 
-RPM_NAME = "ghc-hscolour-devel-1.24.4-4.3.aarch64.rpm"
-RPM_HASH = "3991f5100a0aea9a3de78e4101bee17e1e2ca1df51fa3f7f2d3cf2a91fc3e688930acb6f46adeb5412f6f98829841275b5cea55e4ea341463154780c4fa5145c"
+RPM_NAME = "ghc-hscolour-devel-1.24.4-4.6.aarch64.rpm"
+RPM_HASH = "b46d5fafa58782f562942137675f658cc9c7b0f5955aacc7cf56c9ce3ad8e3333f3166857be95a5819d14a47f1b580eeca28dbc4a7ca23e11c5ed39f7fcf369e"
 
 RPROVIDES:${PN} += "ghc-devel-hscolour-1.24.4-B0NmEhYuPI790UQrsiXLka \
 ghc-hscolour-devel"

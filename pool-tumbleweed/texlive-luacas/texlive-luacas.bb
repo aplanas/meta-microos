@@ -11,10 +11,10 @@ like some ability to perform basic symbolic computations within \
 LaTeX without the need for laborious and technical setup."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0.1svn65042"
+PV = "2023.208.1.0.1svn65042"
 
-RPM_NAME = "texlive-luacas-2023.201.1.0.1svn65042-52.1.noarch.rpm"
-RPM_HASH = "aca81cdcc5b8c00c589cba306b98fc0d6b7119a6a72f3ce409d0883fec783634983a7bf999f461af711f6b02391ab84c86879a2b035d86e0690b176f58e82045"
+RPM_NAME = "texlive-luacas-2023.208.1.0.1svn65042-53.1.noarch.rpm"
+RPM_HASH = "77acb2c2afd69194d7bad06340fa9f6ddb454228424866584cee33651950a8f0c368bf1d2d7dbeb6bfe2f77455ade376b98b9b317267c7c6ba1da930b67a14c6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-luacas.sty \

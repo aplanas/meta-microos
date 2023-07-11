@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.7.1"
 
-RPM_NAME = "python39-pipdeptree-2.7.1-1.1.noarch.rpm"
-RPM_HASH = "2123bda579797432d021ff38817abf8093deebc2186f5a8a177eb1da23f65b171f9d8a1b7296ff6dd4629d9e3fb47688b22afe7680f2be8ff6efd4b84b9c2482"
+RPM_NAME = "python39-pipdeptree-2.7.1-1.3.noarch.rpm"
+RPM_HASH = "582d1c95e846baa8d17dd892c935596cac9876a317274241cba2736a30bf43b5fc45b378f329184a1853929305b6a6c7f8d5af4bc014dd01880de777c509a993"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pipdeptree \

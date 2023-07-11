@@ -5,8 +5,8 @@ LICENSE = "CPL-1.0 & IPL-1.0 & GPL-2.0-or-later"
 
 PV = "4.12.0"
 
-RPM_NAME = "sleuthkit-devel-4.12.0-1.3.aarch64.rpm"
-RPM_HASH = "1297827293e85d8f9c74e0808ccd806148cb5084f08a8879afab0353d5e102972b3fa297b1cfc875c49a5a77ad6119dce2d9937b61c8f56563a68b1b07bd691b"
+RPM_NAME = "sleuthkit-devel-4.12.0-1.4.aarch64.rpm"
+RPM_HASH = "831fd9f87714bf24678b2c6c13e4106f787b1d456df7c4d4d96492b837bdddb7132a65bd7d823a9d39eff87ad700107f9ccd5bf298d19833b74a704c9a679ce8"
 
 RPROVIDES:${PN} += "pkgconfig-tsk \
 sleuthkit-devel"

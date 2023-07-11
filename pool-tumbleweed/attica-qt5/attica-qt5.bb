@@ -2,10 +2,10 @@ SUMMARY = "Open Collaboration Service client library"
 DESCRIPTION = "Attica is a library to access Open Collaboration Service servers."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "attica-qt5-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "c948cf66064b154478db5c0859e0ca52819aba616f118d9c8d800c8fd3f118d4b644a3bee3b4c632164b37a252bd97cc33fbbc5e87cc6762591209c1f627461c"
+RPM_NAME = "attica-qt5-5.107.0-1.1.aarch64.rpm"
+RPM_HASH = "64eb37b15a41690edb1d9aa6649bb494c4d88fdbe1460172f5ad73e968d7dca2900f96a883b0b83f3dcd99fe9afe32f0a84818f171546479fd16c48e066994b4"
 
 RPROVIDES:${PN} += "attica-qt5"
 

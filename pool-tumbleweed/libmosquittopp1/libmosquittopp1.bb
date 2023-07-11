@@ -8,8 +8,8 @@ LICENSE = "EPL-1.0"
 
 PV = "2.0.15"
 
-RPM_NAME = "libmosquittopp1-2.0.15-1.4.aarch64.rpm"
-RPM_HASH = "6f329fe13c0f02ebab55eeb4b74b217aacdc0193604ff12739061b24b231b9a48ec3890f96e35f235bb5d705cd9d8447ca7ba709909c1f731ee743f145dd1971"
+RPM_NAME = "libmosquittopp1-2.0.15-1.5.aarch64.rpm"
+RPM_HASH = "5ce1ffe9fa983b3f424d8e9ba31d707e160458b0a3da4d390505913f641f960669c682e7cbe1fe56a2dd210ee0bf9343767b83e6dbcfd2683f82390a66755886"
 
 RPROVIDES:${PN} += "libmosquittopp.so.1 \
 libmosquittopp1"

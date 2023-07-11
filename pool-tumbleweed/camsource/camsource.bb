@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.7.1"
 
-RPM_NAME = "camsource-0.7.1-3.13.aarch64.rpm"
-RPM_HASH = "c690fee85d72cc0062a538016890f08bdf306a8c856c3fa28e912726c4f61d9eb13d856139134b9e78819cc95b5640d83d7cef25d736004340b747669e7217ca"
+RPM_NAME = "camsource-0.7.1-3.14.aarch64.rpm"
+RPM_HASH = "0d029f4fccd66409f92997bbc40d8ce101b6c2a007a39ffcfce15cdf8e8a30b47fdb9751ec1c2eae56d3a726ffa6e6260dcadc87dd86d980db805b08e5b0be3e"
 
 RPROVIDES:${PN} += "camsource \
 config-camsource \

@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.6"
 
-RPM_NAME = "libtun6-0-1.2.6-5.7.aarch64.rpm"
-RPM_HASH = "1a0c6cc0df75619d23a03073668b364edd8a518aacd69d21b08a36f68b09cb2b6e97a360df027aea334bf5edfe37a57d212bad43eb4ea6a396c318bc356ee3d4"
+RPM_NAME = "libtun6-0-1.2.6-5.8.aarch64.rpm"
+RPM_HASH = "7da16e358d377b2cb55d1ace21bd20ac53e19afbf0d6723e17155288f59fdb29010ebf885eaf6c9f5dfa943610b408992d963850c91cc113d1debe41abc7cb4f"
 
 RPROVIDES:${PN} += "libtun6-0 \
 libtun6.so.0"

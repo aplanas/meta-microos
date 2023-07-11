@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python310-azure-mgmt-confidentialledger-1.0.0-1.5.noarch.rpm"
-RPM_HASH = "af5f9533c1cfe8ff4b5e617281d9003f26213d61bd6394f0a14032e6cd90a7f9ba0e136d63d325a5cbeb94b9d7d5c35af6d707788e57dd1be270860000d498bc"
+RPM_NAME = "python310-azure-mgmt-confidentialledger-1.0.0-1.6.noarch.rpm"
+RPM_HASH = "efcba777d6839fffb7864ba95165a79f8b488938ee2b440837eb71505ae604a9951fa15802b1e8c5af5135c2e0d77d7cc1a3f3266a9cd4e0846d2765af979b39"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-confidentialledger \
-python3.10dist-azure-mgmt-confidentialledger \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-confidentialledger \
 python310-azure-mgmt-confidentialledger \
 python3dist-azure-mgmt-confidentialledger"
 

@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "0.10.4"
 
-RPM_NAME = "typelib-1_0-Malcontent-0-0.10.4-1.5.aarch64.rpm"
-RPM_HASH = "9cb78cad054a26c21222f00408dc523e442fe1b6acb544b5a10da0ca23d428a5127d7d2b10a1c32ae1fc14ce848caf3b8d50b43cc184b17049028474c7a5602e"
+RPM_NAME = "typelib-1_0-Malcontent-0-0.10.4-1.6.aarch64.rpm"
+RPM_HASH = "55c965343cce34a1223f73b63f68b919aba67b3897076d867d3e55bc9b2bf0100da0627db42123a19351d8cbe3c1c6fa4f833629ad426acc9160c5be0c146ad2"
 
 RPROVIDES:${PN} += "typelib-1-0-Malcontent-0 \
 typelib-Malcontent"

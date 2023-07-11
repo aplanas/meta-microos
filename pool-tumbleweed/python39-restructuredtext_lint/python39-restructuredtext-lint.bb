@@ -8,8 +8,8 @@ LICENSE = "Unlicense"
 
 PV = "1.4.0"
 
-RPM_NAME = "python39-restructuredtext_lint-1.4.0-1.4.noarch.rpm"
-RPM_HASH = "7fabc5ad77bb66915a7cf69ecc5d10310c232fbc81f59934edd67f57c9d784b4d4e10f93dd4b2d2fd2e506dce53f04ce479899e38d97b5c963063661a9cee592"
+RPM_NAME = "python39-restructuredtext_lint-1.4.0-1.6.noarch.rpm"
+RPM_HASH = "65dc405cb16853b74f50244bf23d1b9191e64f7d364a7bfb5975612717e619062387e23e8f69ea251e3cbc15439ab0bafde1c66bbd6824a0aef0f27c5da9c695"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-restructuredtext-lint \

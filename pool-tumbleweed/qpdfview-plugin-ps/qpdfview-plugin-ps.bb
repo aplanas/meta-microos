@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.5.0"
 
-RPM_NAME = "qpdfview-plugin-ps-0.5.0-1.3.aarch64.rpm"
-RPM_HASH = "5ad91e0296d6bef80c681760fa5e3165b9821df4c082c3f7c47b57dffe1819b94d060a97eae15b6095f675a78f5194597db280fc3134567e329b77c6823e3e5e"
+RPM_NAME = "qpdfview-plugin-ps-0.5.0-1.4.aarch64.rpm"
+RPM_HASH = "9c6e3c1cb1594a3dce550a1461b6c8636dfc32320b3a72a8ffdda9e75c56cbec341758f49e797a0c6db80c62f7766a17afb34be79d94c239e4624a72792b39e3"
 
 RPROVIDES:${PN} += "libqpdfview-ps.so \
 qpdfview-plugin-ps"

@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.26"
 
-RPM_NAME = "mlocate-0.26-33.1.aarch64.rpm"
-RPM_HASH = "ad2e4c0918e10dd754276b78c685438086bbf0a6f65a5d1fa5baf75bddfd29be27aa88bb5a0674b2a1272b7c7280300cd39289f02d0b582339ba26456917bdd0"
+RPM_NAME = "mlocate-0.26-33.2.aarch64.rpm"
+RPM_HASH = "ad452ccde906988be763f1543b599f84fde39c47a8549865749d7a5ff143c00e56944993ef7f59ea4ff10f5a1ba869fd16b3e6007147ce0d7dba25b0c6a11c28"
 
 RPROVIDES:${PN} += "config-mlocate \
 findutils-/usr/bin/locate \

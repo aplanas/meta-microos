@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.6"
 
-RPM_NAME = "python39-parsedatetime-2.6-2.8.noarch.rpm"
-RPM_HASH = "5f0361089ab65327ed41fc3781ec026085a077be976890ec52dd0a2200bb32aeb4afabf2ef4028667a0ef038aa0a11270e6e561a12c157c9191ff6e368f7ea10"
+RPM_NAME = "python39-parsedatetime-2.6-3.3.noarch.rpm"
+RPM_HASH = "0e13794200e5a239b5881e70db7e66d60555aa3ad46d962b006cbef32388b3324c94f0e608345b9e1219f78a946a1f9147f7dbf807ae24a48d43fb58738b8d01"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-parsedatetime \

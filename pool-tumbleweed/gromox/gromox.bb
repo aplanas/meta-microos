@@ -12,10 +12,10 @@ grommunio-web. The grommunio appliance ships these essentials and has a \
 ready-to-run installation of Gromox."
 LICENSE = "AGPL-3.0-or-later & GPL-2.0-only & GPL-3.0-or-later"
 
-PV = "2.9"
+PV = "2.10"
 
-RPM_NAME = "gromox-2.9-1.1.aarch64.rpm"
-RPM_HASH = "04af1266f559021f24b341c7ee30998e06efd874ff3f929f074f5a5143090361791f317b64f4d0627726a3d6ab41c4439d129d76123f219fed9d409763f244bc"
+RPM_NAME = "gromox-2.10-1.2.aarch64.rpm"
+RPM_HASH = "f84449cf112ce58a7a6c12a6d6cd045c717d92d4da7732557b56898e8572cd18e9b8093f7fb60e923ddfe74bb2565ac17218c8dfe8a61278eabdf699a65895d7"
 
 RPROVIDES:${PN} += "bundled-tzcode \
 gromox \
@@ -40,11 +40,10 @@ libgxp-exchange-emsmdb.so \
 libgxp-exchange-nsp.so \
 libgxp-exchange-rfr.so \
 libgxs-authmgr.so \
+libgxs-dnsbl-filter.so \
 libgxs-event-proxy.so \
 libgxs-event-stub.so \
 libgxs-exmdb-provider.so \
-libgxs-ip6-container.so \
-libgxs-ip6-filter.so \
 libgxs-ldap-adaptor.so \
 libgxs-midb-agent.so \
 libgxs-mysql-adaptor.so \

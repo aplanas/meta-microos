@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
 PV = "2.9.4"
 
-RPM_NAME = "udisks2-lang-2.9.4-6.3.noarch.rpm"
-RPM_HASH = "9120aeab21997c54bb8224f9d2bc28d13679ea87e0087a742d56673de8b7f8cef37870afcb809ae9aac7ca2ad13c47952690d6c9064adb78ec293ae8a01b0672"
+RPM_NAME = "udisks2-lang-2.9.4-6.4.noarch.rpm"
+RPM_HASH = "3b8c990b26eafa5e2ed50cb1f9f06ab1e5b332be9c667185415a9e04429a5c0b6185ab581862b0d5be3a0d8effd4657b2095629f52e2236a8bd4355a0a857585"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-udisks2-af \

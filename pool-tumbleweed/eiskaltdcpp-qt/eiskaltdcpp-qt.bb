@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.4.2"
 
-RPM_NAME = "eiskaltdcpp-qt-2.4.2-1.13.aarch64.rpm"
-RPM_HASH = "aca91401ca84a25406cd3d80fa511185ddfd30a8ec77d6939c99817a0cd482a410f1894d3e0190c5c191782eb9c0a5c5af76d93785a2439738f5c4c6062487f6"
+RPM_NAME = "eiskaltdcpp-qt-2.4.2-1.14.aarch64.rpm"
+RPM_HASH = "ac1eaceef72bff942f600f75ae0ab7483545e969b5ad68a404b2abcc6879f7b2f9ff95c3ada2f9e5a726481b82ff0f68e6e7fa6c906fe80834fd12c21d13dd94"
 
 RPROVIDES:${PN} += "eiskaltdcpp-qt"
 

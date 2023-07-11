@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.90"
 
-RPM_NAME = "xgboost-0.90-3.3.aarch64.rpm"
-RPM_HASH = "3d9bd6991310d8b829d6c4c23292a9da87b159562ee150d0fcd8770c8c2192f935b189aff7af6732a2f6b05ef9619938750a2b2482a5fd3f327a53c9805daa84"
+RPM_NAME = "xgboost-0.90-3.4.aarch64.rpm"
+RPM_HASH = "e7c24f06c8073aba15450adc978c43e8b654cb8097e03bbf2196a1984be1180cc8ed50f005f536adb3f8f2f74f93ef67f35a5b713a668749ec9eb01566833eba"
 
 RPROVIDES:${PN} += "mvn-ml.dmlc-xgboost-jvm-pom- \
 mvn-ml.dmlc-xgboost4j \

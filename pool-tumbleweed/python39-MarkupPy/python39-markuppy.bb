@@ -5,8 +5,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "1.14"
 
-RPM_NAME = "python39-MarkupPy-1.14-1.14.noarch.rpm"
-RPM_HASH = "6833e7e36c78ed5659d2b5a8273c98048ebf19e4635b0a47101fd71c8bb4e318203bb0e5a11c2e277789aaf2cd3283053ba6598f26e0918862e61b5f9d2bf0a9"
+RPM_NAME = "python39-MarkupPy-1.14-1.16.noarch.rpm"
+RPM_HASH = "87ad8a04e22f9358d387e3c7fced137c01995ba46508192ee37079448f23820b21dfdf767acc320fd70714a62b0634f4ac9de71bbc63e6d4e451f4b781de5d7e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-markuppy \

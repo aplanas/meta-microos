@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "1.1.1"
 
-RPM_NAME = "python311-aiomisc-pytest-1.1.1-1.1.noarch.rpm"
-RPM_HASH = "13e2cbbc9243cf2941d89a12f6cee781f24308c8e44a6d4d55fd72e0166e3f5711f4d1faf84c1f30cff254edbe84fde78ae43c121f84400ba8f0d63d5577d18d"
+RPM_NAME = "python311-aiomisc-pytest-1.1.1-1.3.noarch.rpm"
+RPM_HASH = "95757ae1f54843222d1db3438484f6fc1b90fd6da221dcf52d55803ef75894c2ea9726e9523fff12ff5177462bc0c34425585d30ccec8e57e344ab1f712279f3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-aiomisc-pytest \
+RPROVIDES:${PN} += "python3-aiomisc-pytest \
+python3.11dist-aiomisc-pytest \
 python311-aiomisc-pytest \
 python3dist-aiomisc-pytest"
 

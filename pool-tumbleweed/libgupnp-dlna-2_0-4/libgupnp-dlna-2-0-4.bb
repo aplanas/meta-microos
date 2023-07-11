@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.12.0"
 
-RPM_NAME = "libgupnp-dlna-2_0-4-0.12.0-1.10.aarch64.rpm"
-RPM_HASH = "1977fc489e690068838c499c1ea325d49f359a5d1a98e1fa3238b1b396406e803c99de6490f29a14d26cfb70bf2c86582a556222cab728dbd8f96c829ccfc40b"
+RPM_NAME = "libgupnp-dlna-2_0-4-0.12.0-1.11.aarch64.rpm"
+RPM_HASH = "037190261ba2eda3768afd6261836f44349e0bbacc264a1b26d5bd78d2171c7f153518c9a7d7ae2f8a96981116fae64c14940b18bc6a587c7b553e5d3e6af00a"
 
 RPROVIDES:${PN} += "libgupnp-dlna-2-0-4 \
 libgupnp-dlna-2.0.so.4 \

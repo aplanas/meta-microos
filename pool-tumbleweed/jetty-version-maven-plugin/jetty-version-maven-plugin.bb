@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 | EPL-1.0"
 
 PV = "1.0.10"
 
-RPM_NAME = "jetty-version-maven-plugin-1.0.10-2.9.noarch.rpm"
-RPM_HASH = "debbc82eb2352aaee5e828db7309d64575b2e026a7d2c5d47514f388f3a1c255bcaaf8c59c05be054e8a8b20c769adab6a81984295aec396a18baf3471d32f9a"
+RPM_NAME = "jetty-version-maven-plugin-1.0.10-2.10.noarch.rpm"
+RPM_HASH = "b8c5c859ee12f25846550e3891f2ff39a274fb470b0c9473e6e7474724c9fb8417be34009ac49836ac74127f6a512637f2402d6d025bcc4e09586ae0561a2cf3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jetty-version-maven-plugin \

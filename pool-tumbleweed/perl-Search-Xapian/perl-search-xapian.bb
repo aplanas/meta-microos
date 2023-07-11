@@ -21,8 +21,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.2.25.5"
 
-RPM_NAME = "perl-Search-Xapian-1.2.25.5-1.9.aarch64.rpm"
-RPM_HASH = "1fd3b4ba0d7c4719c6dbdf3174cd762a3c710680d1bb89f02d96275d4d768792a4ef34fd95f84185685b3d9101183721f34bcc2b944728e50ef5529a83260397"
+RPM_NAME = "perl-Search-Xapian-1.2.25.5-1.10.aarch64.rpm"
+RPM_HASH = "b2c7379e0bd87dffd54bf8a3b0170a8c6a3521f83250e952972c997874756936ed613a0496ea88e131f334169f80539d0120786069f335184634e2ec6a06977c"
 
 RPROVIDES:${PN} += "perl-Search--Xapian \
 perl-Search--Xapian--AssertionError \
@@ -86,6 +86,6 @@ libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6 \
 libxapian.so.30 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

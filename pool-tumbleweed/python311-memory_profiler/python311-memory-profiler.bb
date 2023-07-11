@@ -7,11 +7,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.57.0"
 
-RPM_NAME = "python311-memory_profiler-0.57.0-2.13.noarch.rpm"
-RPM_HASH = "aac0e38dff75a3fb47a8aa44dae9777ca0988d454043d2dbc599113dd35bf5fa877603303c5f9cd9c894df76c7d465eb83f5ac0e3ebdeebdc56503f5a7f390a8"
+RPM_NAME = "python311-memory_profiler-0.57.0-2.14.noarch.rpm"
+RPM_HASH = "5551ec48ec31a7d84c9e50341a005eb986336ea0952f1e585babdda7606b10f8677bf22bad5b329506593d85a96d5366beebea4b9bdb64d100bf9b5e0c5a0b7d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-memory-profiler \
+RPROVIDES:${PN} += "python3-memory-profiler \
+python3.11dist-memory-profiler \
 python311-memory-profiler \
 python3dist-memory-profiler"
 

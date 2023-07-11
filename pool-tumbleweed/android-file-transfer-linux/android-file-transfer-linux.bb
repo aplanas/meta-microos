@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1"
 
 PV = "4.3.0~git.20221105T214638.9967dec"
 
-RPM_NAME = "android-file-transfer-linux-4.3.0~git.20221105T214638.9967dec-1.1.aarch64.rpm"
-RPM_HASH = "bae45db365cbe3747ec2f61000bc017c06b3fd4ebcc0cbde01483a1786e5be68df1eea328b7038d790eb21753c4701d59a7b85fb099c8288d7743a4f24498870"
+RPM_NAME = "android-file-transfer-linux-4.3.0~git.20221105T214638.9967dec-1.2.aarch64.rpm"
+RPM_HASH = "5cfb0ef60a93aa7c14e13234ed82489c0f46238dd5566e5c2165fcb9295a7073908582823818e2ad8e54dd86adcd83c7373fd525baa1be4f00ba5b9a55e04eab"
 
 RPROVIDES:${PN} += "android-file-transfer-linux"
 

@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "1.0.8"
 
-RPM_NAME = "python311-dirtyjson-1.0.8-1.3.noarch.rpm"
-RPM_HASH = "e0c9f519715bfe168df39cc001b90a3cc919682156da6e6548fb859d92b5efd481c65d7149e43a09270d111de10a3838c28af5829c5a05a66e9c2202eed5b61d"
+RPM_NAME = "python311-dirtyjson-1.0.8-1.5.noarch.rpm"
+RPM_HASH = "25acbf3e5f555e7a9576f34d400a73676cbb8c8137db2e1a9664dc1d023a4b52bb39ae89172b85ec412627a076b0d09d51a53d537a85ab17261fd26264eff64e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-dirtyjson \
+RPROVIDES:${PN} += "python3-dirtyjson \
+python3.11dist-dirtyjson \
 python311-dirtyjson \
 python3dist-dirtyjson"
 

@@ -6,8 +6,8 @@ LICENSE = "NetCDF"
 
 PV = "1.12.3"
 
-RPM_NAME = "pnetcdf-gnu-mpich-hpc-devel-1.12.3-1.3.noarch.rpm"
-RPM_HASH = "f4778195b5f5566be371bcfb8a19cf0c143ad21e18cb6163ba6f425530b9a7b1e747511f8e2f8015811d48d2d18d73a7d9943a960727a74e023716f75c07b4c2"
+RPM_NAME = "pnetcdf-gnu-mpich-hpc-devel-1.12.3-1.4.noarch.rpm"
+RPM_HASH = "cbac8d514aa70e31dd10bf9d2f68df41011f4c2b3bd6011ebebbf72b2d77d8c03c3637acb6014706814db003d84eb0f046e72618eda0bbb3012d0adebeb702d5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pnetcdf-gnu-mpich-hpc-devel"

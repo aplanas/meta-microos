@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.1"
 
-RPM_NAME = "liboggz-doc-1.1.1-15.28.noarch.rpm"
-RPM_HASH = "a9efc8ca890ddc76e9a11505b6c3b6796b64bc0b301c5bfa20692d2da7c1a53a911c616ade07a309e381b5d3dcad80a8a1528ecaf2b698bc78a067d43ee0f31a"
+RPM_NAME = "liboggz-doc-1.1.1-15.29.noarch.rpm"
+RPM_HASH = "3f96ebc1c66aa61fd46aa2a8259b4970b052b0c79193228b4e0293a6f2163b8fe637d2a13ac30ca296b7b889468b745da3b626966f5e22882c57b87788916021"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "liboggz-doc"

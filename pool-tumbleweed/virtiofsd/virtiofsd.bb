@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.6.1"
 
-RPM_NAME = "virtiofsd-1.6.1-2.1.aarch64.rpm"
-RPM_HASH = "3531d8311daa1d59eae9443ce748c2d71357bdf6466b726c8484a2f7fd7c634d88fdd5681ccc2b9c5a5ab5b384dad2dc41bfb68af2c88efad450036617ffea68"
+RPM_NAME = "virtiofsd-1.6.1-2.2.aarch64.rpm"
+RPM_HASH = "62006f26bffcee1fa1626cea506389e280b3c7821bb9b8582be7e096834265c5ce92c4849c4b47bbcaf0f8cd2bc27bfd44764bddd288e7f6dc3264930c4419b6"
 
 RPROVIDES:${PN} += "bundled-rust-crate-aho-corasick \
 bundled-rust-crate-ansi-term \

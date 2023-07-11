@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1+ & GPL-2.0+"
 
 PV = "1.10.0"
 
-RPM_NAME = "osinfo-db-tools-1.10.0-2.3.aarch64.rpm"
-RPM_HASH = "a910923d198cb434fce9df6f25c4ad79ba33d97a1de4fa43fa7ca637f45f43fe0afee0925a5353c708ac45a593377abb07f7af38496ad8c509a8b465401266a2"
+RPM_NAME = "osinfo-db-tools-1.10.0-2.4.aarch64.rpm"
+RPM_HASH = "de1f2ce0f7f773847fa40191647d214c70f8b9c98853cb07e09aeabad0260d124742a6d6b438e88cd8bfe452514d52af55b034ecc7cb1e671d2cfed482ab8615"
 
 RPROVIDES:${PN} += "osinfo-db-tools"
 

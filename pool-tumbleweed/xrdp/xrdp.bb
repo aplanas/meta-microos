@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-or-later"
 
 PV = "0.9.20"
 
-RPM_NAME = "xrdp-0.9.20-7.3.aarch64.rpm"
-RPM_HASH = "9df0ba6b1be311208391af1f82e3ce7a3b292e466043954fdee08a648fa9f2598f87b5669a8444c7eb6678ff7614eedaaa58d26717dd2e3f8aa857ac90b691b9"
+RPM_NAME = "xrdp-0.9.20-8.1.aarch64.rpm"
+RPM_HASH = "9c0a9e9ec3711c2a0cc93e4134c019e8a9d0fd59ba89f7a37f7079c09ce13cbc66b95c6cbd841c4122bcf244638dbed603852c7fa206a7074536b639f8ee4ae6"
 
 RPROVIDES:${PN} += "config-xrdp \
 libcommon.so.0 \

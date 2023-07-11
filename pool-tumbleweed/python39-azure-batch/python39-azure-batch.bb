@@ -4,10 +4,10 @@ DESCRIPTION = "This is the Microsoft Azure Batch Client Library. \
 This package has been tested with Python 2.7, 3.4, 3.5, 3.6 and 3.7."
 LICENSE = "MIT"
 
-PV = "13.0.0"
+PV = "14.0.0"
 
-RPM_NAME = "python39-azure-batch-13.0.0-1.3.noarch.rpm"
-RPM_HASH = "a976cf090b2391c83e8b541225890864612f032ddfad7e975e122c655770f8aa62539958b47d29e8796feb392491aaf205827d765c80f829a41d6b08d706339e"
+RPM_NAME = "python39-azure-batch-14.0.0-1.2.noarch.rpm"
+RPM_HASH = "1fbcec062d7e64a70112474d12e92073539765138ed19f54355692bdfb694d783e6539d293a031158b47cc1f393b17f93b5a4d5bbdf21bd3952ba9f24279bc04"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-batch \

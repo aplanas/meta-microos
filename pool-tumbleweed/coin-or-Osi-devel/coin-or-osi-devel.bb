@@ -7,8 +7,8 @@ LICENSE = "EPL-2.0"
 
 PV = "0.108.7"
 
-RPM_NAME = "coin-or-Osi-devel-0.108.7-1.3.aarch64.rpm"
-RPM_HASH = "6d916e2689539751491cf382e5b38bf72977b03a7a38607362c1f275a9849e33e384393b6863587572c5e159ff18a94d89fb0cfacebacc0994735102d1229a8f"
+RPM_NAME = "coin-or-Osi-devel-0.108.7-1.4.aarch64.rpm"
+RPM_HASH = "ee37b3066fe8e0baaefb063f811dd4abc5030d31ac32659baa72e3e02702ae584696aeda071d571747158de99d89ed7a793077ba1f92923b7f4e37d958e6c4e1"
 
 RPROVIDES:${PN} += "coin-or-Osi-devel \
 pkgconfig-osi"

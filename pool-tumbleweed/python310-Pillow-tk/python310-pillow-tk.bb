@@ -5,11 +5,10 @@ LICENSE = "HPND"
 
 PV = "9.5.0"
 
-RPM_NAME = "python310-Pillow-tk-9.5.0-2.1.aarch64.rpm"
-RPM_HASH = "38675a21cd6755b87b70460e066f089447687ef0d387b8b109d2af6de4488ae441f3f13e788407ee6044e9db94d51e8fa9a815389c3684afe2e0ccf080fc40e9"
+RPM_NAME = "python310-Pillow-tk-9.5.0-2.3.aarch64.rpm"
+RPM_HASH = "931eaf01b797945a7d708dd3cf1baecb6bbb6ce07a3e998ec4e4203f7d623935eb4aeb872c9c758751cc80811a480a93aea90bdfc3d64c0d43ad8584bc6cf3b4"
 
-RPROVIDES:${PN} += "python3-Pillow-tk \
-python310-Pillow-tk"
+RPROVIDES:${PN} += "python310-Pillow-tk"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \

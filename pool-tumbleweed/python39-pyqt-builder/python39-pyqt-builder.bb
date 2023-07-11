@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-only | GPL-3.0-only | SUSE-SIP"
 
 PV = "1.15.1"
 
-RPM_NAME = "python39-pyqt-builder-1.15.1-1.1.noarch.rpm"
-RPM_HASH = "30d56871274ab67c5990d50ba82d01da420f97d7bd5be1c2930832557d536eefdf60b59c57b16f12a5162875854141eaa316a46fca0558e120fedb40cbde3530"
+RPM_NAME = "python39-pyqt-builder-1.15.1-2.3.noarch.rpm"
+RPM_HASH = "da1e94ec016990baf73d4db75c51cd866d1beacaeeaf58eb80b5ef17d1d5d8c9534d6cd4921129500c846bc653946208e45cf86b317f24a296c11623d8548457"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyqt-builder \

@@ -6,8 +6,8 @@ LICENSE = "BSL-1.0"
 
 PV = "1.82.0"
 
-RPM_NAME = "boost-gnu-mpich-hpc-1.82.0-1.1.noarch.rpm"
-RPM_HASH = "65013768991b4ba7b01bb394692a5623e65a7743e26f4a4ae482d2ae829f223499d2e05d3b48eda7cbf86169a356547d8c308a6fc05afb533fd68acdd6075a68"
+RPM_NAME = "boost-gnu-mpich-hpc-1.82.0-1.2.noarch.rpm"
+RPM_HASH = "ef1a5292fcbe8b575170b6f7bec42ef55e72ea64aa8f2757258f5fd61fd0ea59bc8da1351a37043427bc11aaedab0cd2cd1acd2795b1a26df0a25d53289c370d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "boost-gnu-mpich-hpc"

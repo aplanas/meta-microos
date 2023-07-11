@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause | GPL-2.0-only"
 
 PV = "2.69"
 
-RPM_NAME = "libcap-progs-2.69-1.1.aarch64.rpm"
-RPM_HASH = "2c4ea196d28b3ea4875f1a8859d942c83353d6ee4e64e242ff677e94e2dfe10df52d4dcdcf2c14b6554f7dc15b8ac16cf2c5bea0690390fd58e1021863e7e797"
+RPM_NAME = "libcap-progs-2.69-1.2.aarch64.rpm"
+RPM_HASH = "812ba289706ef6bb9db61e0129377f22c2c3a0195b57a61f5d65b63a364c962553bed8b90e86bb38a94e9ac5570726d9649eefb13b05743ec34409e0b5018219"
 
 RPROVIDES:${PN} += "libcap-progs"
 

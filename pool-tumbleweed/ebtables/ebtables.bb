@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.0.11"
 
-RPM_NAME = "ebtables-2.0.11-5.7.aarch64.rpm"
-RPM_HASH = "b4bef4f4c67b855a5de5b7bdac6ce32492a3086bb92118e77bd9fb727c927fc28a1dedeb4abf4d01a7972c5ff0c1ece8094e095704fd57f6c3350f6849180208"
+RPM_NAME = "ebtables-2.0.11-5.8.aarch64.rpm"
+RPM_HASH = "a1dd9f398185254a0755070dd5dca54245ad410c7aafa2dfb89f26020c58fb438de4eeae2125fc6e3a2b51700dc8d36efec86b50568c769c3f0b90beb3b5947a"
 
 RPROVIDES:${PN} += "ebtables"
 

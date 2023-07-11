@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.0.0"
 
-RPM_NAME = "python39-actdiag-3.0.0-1.5.noarch.rpm"
-RPM_HASH = "b9a1bcfad49c8c54c2ef6bb157891c4e9a1f74ede07e73f9beda515e6677abc766a375a6ef2866d987ef1a6b6064b5a43a63ecac228e7af70c905f32e604e06a"
+RPM_NAME = "python39-actdiag-3.0.0-1.7.noarch.rpm"
+RPM_HASH = "e6dfbd75c5b9b541fd5bb359a86c5119cefa600c39e420aaba71ff7c3707c8937e99f4068671acbf90565edfb146b758cb28918a9c60fc7f14b34d21de360d9c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-actdiag \

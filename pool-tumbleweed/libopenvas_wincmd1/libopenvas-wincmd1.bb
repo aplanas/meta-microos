@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0.5"
 
-RPM_NAME = "libopenvas_wincmd1-1.0.5-2.1.aarch64.rpm"
-RPM_HASH = "510c5258658a36ec5c18074f1cf2f85370a1c3bf75a116e6becfb983a8ac9bcdeb8efea25223a4e43bcc973cad326e0316559f8959f6349c11200c767f682fe5"
+RPM_NAME = "libopenvas_wincmd1-1.0.5-2.2.aarch64.rpm"
+RPM_HASH = "f8b79c0df889725bdcd5738c24edaaa508455f4392a00690d29108e0163c3f40215f6cf166a9cf46af875468de673787271fb29142260853fdbde5c6ffc3e631"
 
 RPROVIDES:${PN} += "libopenvas-wincmd.so.1 \
 libopenvas-wincmd1"

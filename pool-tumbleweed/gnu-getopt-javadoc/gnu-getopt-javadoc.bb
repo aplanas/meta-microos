@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.0.14"
 
-RPM_NAME = "gnu-getopt-javadoc-1.0.14-1.13.noarch.rpm"
-RPM_HASH = "6c9dddb8c9130f3777b2200d1d0aaafaf67af96a9dfe536a18641dd51eb2145480efe88dbca88a8fb1d88a4ecc1900891326331b1a0be577649909f687f81d75"
+RPM_NAME = "gnu-getopt-javadoc-1.0.14-1.14.noarch.rpm"
+RPM_HASH = "4535af7a9c6c503847ece63d415398f92e02acb58700ee3cdc3b88103172c08026f103e4313a2a7b885aef2f8d8a6afdd7e409c11f9eb46fd0a787b7c3d80f90"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnu-getopt-javadoc"

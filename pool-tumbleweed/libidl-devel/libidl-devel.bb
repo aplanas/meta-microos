@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.8.14"
 
-RPM_NAME = "libidl-devel-0.8.14-23.24.aarch64.rpm"
-RPM_HASH = "6a44e373baf2e9d7a6cc0df20447be6a3562777e444558f8540d2416ecbdf381d820971354ecd244944c602b90f36c1c52a3bf337ff13f0344a8a99b121ffa53"
+RPM_NAME = "libidl-devel-0.8.14-23.25.aarch64.rpm"
+RPM_HASH = "08d92b9f9dc98878e36fad65a2d073ae46a103c18c0a9e852667258cad4cff17905d4129c30d0f249b93efc5e2482397bac4799c512ba41cf31607ff034e94cd"
 
 RPROVIDES:${PN} += "libidl-devel \
 pkgconfig-libIDL-2.0"

@@ -4,11 +4,10 @@ LICENSE = "MIT"
 
 PV = "2022.10.27"
 
-RPM_NAME = "python310-cmarkgfm-2022.10.27-2.1.aarch64.rpm"
-RPM_HASH = "15ed485903964a6f789f8454d2bf308457828bd06a6188d3d05ae89c95d7e992f821e534a0222aa907ba01c732de293b4a2037fec4b15b617f5f2ab6e6709c41"
+RPM_NAME = "python310-cmarkgfm-2022.10.27-2.3.aarch64.rpm"
+RPM_HASH = "590c22320f89cc2fc456a42d3478ee9b91ad103c725d1b946ae417064aee1f375740f79288f9db5fafbc468214b66c41819569adcdbcde6773d523ed67385888"
 
-RPROVIDES:${PN} += "python3-cmarkgfm \
-python3.10dist-cmarkgfm \
+RPROVIDES:${PN} += "python3.10dist-cmarkgfm \
 python310-cmarkgfm \
 python3dist-cmarkgfm"
 

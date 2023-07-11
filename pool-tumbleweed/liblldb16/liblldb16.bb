@@ -2,10 +2,10 @@ SUMMARY = "LLDB software debugger runtime library"
 DESCRIPTION = "This subpackage contains the main LLDB component."
 LICENSE = "Apache-2.0-with-LLVM-exception & NCSA"
 
-PV = "16.0.4"
+PV = "16.0.6"
 
-RPM_NAME = "liblldb16-16.0.4-1.1.aarch64.rpm"
-RPM_HASH = "fd4b67eba0e19a69e70eee959252ff583d6367a26bca1626679402f4054653bed457055bf00f13f8b94b34f0a113a2b99b8a169d7d048d3d9d0d83ff7c58a880"
+RPM_NAME = "liblldb16-16.0.6-1.1.aarch64.rpm"
+RPM_HASH = "a1c2ebc7d3b4d6f29ad34f733ff269ec9863717e34b56efbdbc37ecc60617668b378538a21020d52388db7e02155714c4012fad00ef021701503c9b7d5c1ff73"
 
 RPROVIDES:${PN} += "liblldb.so.16 \
 liblldb16 \
@@ -22,7 +22,7 @@ liblzma.so.5 \
 libm.so.6 \
 libncurses.so.6 \
 libpanel.so.6 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libstdc++.so.6 \
 libtinfo.so.6 \
 libxml2.so.2 \

@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.10.34"
 
-RPM_NAME = "libgimpui-2_0-0-2.10.34-4.1.aarch64.rpm"
-RPM_HASH = "929378dcc679fb3701336077ea5e7bd57d811738820dba636dbaa15ea1f30023978a7f0a4b5742618ab218f01e3f87adc3a0d9083fe32e0b50acaa59710251d7"
+RPM_NAME = "libgimpui-2_0-0-2.10.34-5.1.aarch64.rpm"
+RPM_HASH = "6036a41c1bdae4f1c65d1e4ce57fb5be5173644f8b79b2b2b0a019374bba6935f60c9c1ca685601b405ac50915d9fbb46650bf2ebd9d2e5432d63cfcb9a0213a"
 
 RPROVIDES:${PN} += "libgimpthumb-2.0.so.0 \
 libgimpui-2-0-0 \

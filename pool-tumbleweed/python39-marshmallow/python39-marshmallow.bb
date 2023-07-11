@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause & MIT"
 
 PV = "3.19.0"
 
-RPM_NAME = "python39-marshmallow-3.19.0-4.1.noarch.rpm"
-RPM_HASH = "55ae3031e4784287a9aadc12a3ace1b781970b1d531fbbe4fe14c63e05629287bd4748abc0bfb26d5d0f496b00264a23a7215fc83a0e609811279d12f3f2f8b8"
+RPM_NAME = "python39-marshmallow-3.19.0-4.2.noarch.rpm"
+RPM_HASH = "c8f651dd6c0bb0472df03c28e4c56b91aceab449de826b08e626bd1949c5aee21e8253b4e2edddb0408ac1c7efe5a739963ae3801f54738ddf01a4062965d648"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-marshmallow \

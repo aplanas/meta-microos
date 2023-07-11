@@ -8,11 +8,12 @@ LICENSE = "MIT"
 
 PV = "3.0.0"
 
-RPM_NAME = "python311-WebTest-3.0.0-4.1.noarch.rpm"
-RPM_HASH = "705800174c5a4f58a025a37d549b0a9974dd0ef23f4575d1c2b6c61e317875f0e601c9417c17ca52d9462f0d8332c6d0ec9467925a89553bcf6e31c7fbb4d101"
+RPM_NAME = "python311-WebTest-3.0.0-4.3.noarch.rpm"
+RPM_HASH = "2628853e5bd9f7bf2ed2ddb55e7f4ab1c254bfefaabc68308efadf46313791771484af311ee9e013a2cc88d131dba4af296a813df8480151707664d757f7dbab"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-webtest \
+RPROVIDES:${PN} += "python3-WebTest \
+python3.11dist-webtest \
 python311-WebTest \
 python3dist-webtest"
 

@@ -8,14 +8,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.11"
 
-RPM_NAME = "perl-Test-JSON-0.11-1.24.noarch.rpm"
-RPM_HASH = "8844deb4421393dbb3b0bf9d39a96b7b66bf45c7a531802ef759b08db6b739c8df6575c735971b62b5a9d90821314983d9dd862a768b99c34243ff0a8d61d8d2"
+RPM_NAME = "perl-Test-JSON-0.11-1.25.noarch.rpm"
+RPM_HASH = "3655525015a651a3490f2d4e0944f69a3e807d97c02da70bae6c8fcce5987afd0390c1582941457ed1ffd4889153cb3e84a08cfb0e3c1594a04fb3e2d2c06b32"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--JSON \
 perl-Test-JSON"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-JSON--Any \
 perl-Test--Differences \
 perl-Test--Tester"

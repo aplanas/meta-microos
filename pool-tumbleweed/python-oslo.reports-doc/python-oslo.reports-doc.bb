@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.4.0"
 
-RPM_NAME = "python-oslo.reports-doc-2.4.0-1.4.noarch.rpm"
-RPM_HASH = "9b37d03bc6409cb48c6aa933bc7fe9a0e74f83209c1bd914b514ca4679b431e027e5abfc29c031c821f605f9985c88782cbcc69e4194557e86851cdd1b24c0ee"
+RPM_NAME = "python-oslo.reports-doc-2.4.0-1.5.noarch.rpm"
+RPM_HASH = "f288f0150dc11430b1af5920e8050e12367cd55586ca90c8d7bc8ebc22e72909787847db86ec8adb8c1a1869e892bb18ee4f286a54d5ed010485611b1968d278"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-oslo.reports-doc"

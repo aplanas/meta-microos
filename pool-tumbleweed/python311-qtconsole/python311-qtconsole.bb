@@ -5,11 +5,14 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.4.3"
 
-RPM_NAME = "python311-qtconsole-5.4.3-1.1.noarch.rpm"
-RPM_HASH = "c72eaa24670b7dfdc7c7e085e7043f2e8627f8e3637ab69b41875aa8e107f5b31c49ad57cb192231971ca0a0251b0804927ff2c1eb71d0bb594b84e566123586"
+RPM_NAME = "python311-qtconsole-5.4.3-1.2.noarch.rpm"
+RPM_HASH = "cd47a74b2684ce3bde8bb03a9f8f451844f7a0c23b673dad9a3176fe3bebd92b0536589f9b1175a25b0478c55e0488d52ddbede045ff65f6c841567624e857a7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-qtconsole \
+RPROVIDES:${PN} += "jupyter-qtconsole \
+python3-jupyter-qtconsole \
+python3-qtconsole \
+python3.11dist-qtconsole \
 python311-jupyter-qtconsole \
 python311-qtconsole \
 python3dist-qtconsole"

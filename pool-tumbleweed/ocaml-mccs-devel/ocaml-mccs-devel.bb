@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only-with-OCaml-LGPL-linking-exception & BSD-3-Clause & GPL-
 
 PV = "1.1+14"
 
-RPM_NAME = "ocaml-mccs-devel-1.1+14-1.7.aarch64.rpm"
-RPM_HASH = "e3a24f87c7553334ea1eed0ad8f27316c4abb36686351009e6b1139b64b5f501b4018f1f3c5da5434ec75b699c59ebf04c1ff1348b8f3b212041dfff5550f5fa"
+RPM_NAME = "ocaml-mccs-devel-1.1+14-1.8.aarch64.rpm"
+RPM_HASH = "8fc8192fc04e304765a1e3b0054505c549655006afcaf7609b9d326dc79a39b89a8dd7799522ae5779e76e21372a5ee5e16521c2e83f4e2be5e1079e24837f0d"
 
 RPROVIDES:${PN} += "ocaml-Mccs \
 ocaml-Ocaml-mccs-glpk \

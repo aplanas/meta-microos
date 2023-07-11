@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.12.0"
 
-RPM_NAME = "onnx-devel-1.12.0-2.9.aarch64.rpm"
-RPM_HASH = "7aba91137b938ab6791843e1160bfed6c5e62e986b6559c09172710d71b89650612b4dfbd99aa92fa82f5b01eb46c668e2a6c1d09c592d9164f41742421dcfa2"
+RPM_NAME = "onnx-devel-1.12.0-2.10.aarch64.rpm"
+RPM_HASH = "06aad37aae8459149e543b5a128cf0f80e5c4ce5ae195d909b544c60b1f9fe58295d252f23b8a2319f6e54abcaaf0de41541e8454d6ecd3163cd3ac68c99e6cc"
 
 RPROVIDES:${PN} += "cmake-ONNX \
 onnx-devel"

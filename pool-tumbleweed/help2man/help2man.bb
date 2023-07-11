@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.49.3"
 
-RPM_NAME = "help2man-1.49.3-1.3.aarch64.rpm"
-RPM_HASH = "d23eb9cd48fc69a250b7c20d677e3625fab3582442b0fcae9fb7eebe63fcda2b6ae8f6b03b8a818b689b8d15c6dd581277d7355dc82ffd6e0bd36059f963cd02"
+RPM_NAME = "help2man-1.49.3-1.4.aarch64.rpm"
+RPM_HASH = "f2b162597a0104fd4c9f40ef0eff30760a7738cf44d960a145035f81ff649b7d41d91e20d6818678d70bed95ec16c6b99f343b6adf05a4307da909afb104fd69"
 
 RPROVIDES:${PN} += "help2man"
 

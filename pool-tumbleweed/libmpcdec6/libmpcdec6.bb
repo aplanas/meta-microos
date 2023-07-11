@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause & Zlib"
 
 PV = "r475"
 
-RPM_NAME = "libmpcdec6-r475-4.11.aarch64.rpm"
-RPM_HASH = "ee70173593e9e147795a78dc60a4bb3841b20d1db7a6bae1f834f6b099c746fa970e017972cd5ac1f8d85529c0ebcd16a26118863957fb4606e12bb86ff46444"
+RPM_NAME = "libmpcdec6-r475-4.12.aarch64.rpm"
+RPM_HASH = "815457922697e9e8ba8525a78846ceb2f170af4702dd18dc19b53d9682498a1ff666a76556d95a3447afb9625f7a7fa56aacb06fb5cb12af42ee2ad0471a17b2"
 
 RPROVIDES:${PN} += "libmpcdec.so.6 \
 libmpcdec6"

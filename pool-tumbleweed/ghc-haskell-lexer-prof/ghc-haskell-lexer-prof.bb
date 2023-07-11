@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.1.1"
 
-RPM_NAME = "ghc-haskell-lexer-prof-1.1.1-2.3.aarch64.rpm"
-RPM_HASH = "9a3b82a765f08e72039f0c413661c5b1909ab98a62d73785e10830fa9167cf61118609262137275b880232c1e7d418d9fbcabf325fdc571451d094f9d44ba1fe"
+RPM_NAME = "ghc-haskell-lexer-prof-1.1.1-2.6.aarch64.rpm"
+RPM_HASH = "f961a9afceb04a984db46a77ea6859381810ad523a41954de98eaf04e40bf9708891c89a146dc6b5c4ee8666427edbf4770a50d27e709acf241b221b9f16d683"
 
 RPROVIDES:${PN} += "ghc-haskell-lexer-prof \
 ghc-prof-haskell-lexer-1.1.1-FBBQnuYVuwZ6NRUVHfUjFR"

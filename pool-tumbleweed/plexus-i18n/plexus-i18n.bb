@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0~beta10"
 
-RPM_NAME = "plexus-i18n-1.0~beta10-3.6.noarch.rpm"
-RPM_HASH = "1e6956cf114bd0958c133f0db619296c8191a9cbff95a59a38ae5ad4be92f3e71b09d4c8c32f969ab0c28fe47762063e867bff02762e724c4a58fc2472c37976"
+RPM_NAME = "plexus-i18n-1.0~beta10-3.7.noarch.rpm"
+RPM_HASH = "a9bed32ffe729ec40639bac08bcabd2936cb86feed8e56bc6e04dde2da8320677dbb31c8c95e2d8959830c6973784baa8ad050b48c2c1eafc1192db585d31cc4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.codehaus.plexus-plexus-i18n \

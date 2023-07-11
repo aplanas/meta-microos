@@ -8,10 +8,10 @@ mailbox status, and a digital clock. It is fast and small. \
 Configuration files from upstream provider without suse branding"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.3.5"
+PV = "3.4.0"
 
-RPM_NAME = "icewm-config-upstream-3.3.5-1.1.noarch.rpm"
-RPM_HASH = "8a48fee813d59fe9df2b773ac35a21ae1d013baa1b53ccc57baee062b480fb403404a474a37b0b7000f4e8708fd71b1c06edcfc8ec62975fd13ed0495a1834fe"
+RPM_NAME = "icewm-config-upstream-3.4.0-1.1.noarch.rpm"
+RPM_HASH = "ea52be42d213d486f041c58ed6790b28f317cbca11e8d3512ab7342f747d006d9227230e3c863b5ede2e22c9fb3cc2cb08b7a86932bd6616c514f411a1fc1ac1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-icewm-config-upstream \

@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "8.45"
 
-RPM_NAME = "libpcreposix0-8.45-2.6.aarch64.rpm"
-RPM_HASH = "8176f65088fa7282bc7e9d62bad33dcf78568e4a6ed4b9f429818a67daa93a48b8f3836d837de5ab5ac57b477f9cc47d3746554bc5686b9270610e10e91a2713"
+RPM_NAME = "libpcreposix0-8.45-2.7.aarch64.rpm"
+RPM_HASH = "43bf731ee90634a6c35e78b42c7ea180365fecc73966a06a4ff419b30301453757c544e1ac6dde4a0aba1aa086562c032b89e2206125b24b83026b71d46b4fc2"
 
 RPROVIDES:${PN} += "libpcreposix.so.0 \
 libpcreposix0"

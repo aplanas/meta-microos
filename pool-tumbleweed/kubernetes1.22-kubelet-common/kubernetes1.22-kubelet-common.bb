@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.22.17"
 
-RPM_NAME = "kubernetes1.22-kubelet-common-1.22.17-2.2.aarch64.rpm"
-RPM_HASH = "0b42874b4034be07013c0517e40d75b67f719d83066fd0c2795ec7a43f0a1904c9b2375f756f3ffa8c23f7803eb1461387a22f6c35b2869860abaf722fd93696"
+RPM_NAME = "kubernetes1.22-kubelet-common-1.22.17-2.3.aarch64.rpm"
+RPM_HASH = "d7ba299d9c8d8e6f014ef17f4ea3e1cb8248d9e52318e6ba58493d327be51e662030ca07ea0099330999b0424c04f2837aa3958919a6ee5879b69429b19f90c3"
 
 RPROVIDES:${PN} += "kubernetes-kubelet-common \
 kubernetes1.22-kubelet-common"

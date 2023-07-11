@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
 PV = "1.42_bld232"
 
-RPM_NAME = "asl-1.42_bld232-1.3.aarch64.rpm"
-RPM_HASH = "2015a662b2cb8299914aa8250a3db7ed23771c8de5d9d6bb350ce6d23ddbf88f883544110656e594255d9329b1eb2ef799db6286d27771f9f220877c4b5bcddc"
+RPM_NAME = "asl-1.42_bld232-1.4.aarch64.rpm"
+RPM_HASH = "0d81124ea2b510abdcc0dc64b7d2b01d3b4a60c920966e021d7dfb6e98426ddd9545f7dfe31ada4fb0fed06ebcf96821f90cb24f6fc152e55e50ffbce4520e9e"
 
 RPROVIDES:${PN} += "asl"
 

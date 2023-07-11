@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0.0"
 
-RPM_NAME = "python39-azure-mgmt-serialconsole-1.0.0.0-1.3.noarch.rpm"
-RPM_HASH = "2729fb98a9a364aa4589d15e83594dfa30ad9ab47104dc8d510bc1f0c6c16fd17a4f9a80c5431849589b773b3c68305ec2d61147f5fff640e7bf6ea484582521"
+RPM_NAME = "python39-azure-mgmt-serialconsole-1.0.0.0-1.4.noarch.rpm"
+RPM_HASH = "1c9709fa9f8985de364fea11f28b3b5f5f373a253f9417531ccb44de5202a7a590485234a15f2b8681035070c20a7dc4377d68178620195e046cb86212c5a23e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-serialconsole \

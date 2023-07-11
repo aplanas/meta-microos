@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2.0"
 
-RPM_NAME = "apache2-mod_maxminddb-1.2.0-1.13.aarch64.rpm"
-RPM_HASH = "f1f53e1b810d1ac15a67b402d06a259112e3b51ab13363be5fcdf7c163b4f05686a0f1448a94abfbda429e10f69cf2f93d142dd753f1aeddf1706c3e87122179"
+RPM_NAME = "apache2-mod_maxminddb-1.2.0-1.14.aarch64.rpm"
+RPM_HASH = "b353aa40eeed9515b4c9bac4276fab13314e78ab52e431c72e2798698ad7c01c479e8df054ca04cc476a986070b8ba229c7538c641b49e2f7883d1ee333fb153"
 
 RPROVIDES:${PN} += "apache2-mod-maxminddb \
 config-apache2-mod-maxminddb"

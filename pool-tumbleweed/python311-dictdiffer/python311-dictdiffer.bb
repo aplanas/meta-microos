@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.9.0"
 
-RPM_NAME = "python311-dictdiffer-0.9.0-2.6.noarch.rpm"
-RPM_HASH = "26e60edf21225074d1f62bdcac9fb860a0d547c5a1a03d142b3468e819762e5b43bc7108ecc783ea3b72fd35b2b57e08778ba93f88625b561141e581221ba353"
+RPM_NAME = "python311-dictdiffer-0.9.0-2.8.noarch.rpm"
+RPM_HASH = "8639643e9eb13dd8edf5fea9b0e344e91316dfb60d8f1e4ef632fec4f85357ab843344215b453076a5c68a8b1478b125b6f2cc264fe1eaff736421614ad44084"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-dictdiffer \
+RPROVIDES:${PN} += "python3-dictdiffer \
+python3.11dist-dictdiffer \
 python311-dictdiffer \
 python3dist-dictdiffer"
 

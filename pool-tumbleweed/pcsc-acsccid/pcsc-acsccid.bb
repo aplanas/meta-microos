@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.1.9"
 
-RPM_NAME = "pcsc-acsccid-1.1.9-1.1.aarch64.rpm"
-RPM_HASH = "fd05c875ac3458701213120cf2f2021dbb4c2420244f34a974e456c9780943971738b489713403c49e4ff2b385cb2ece61635ad329df6da9ae34c3fbe30ea78f"
+RPM_NAME = "pcsc-acsccid-1.1.9-1.2.aarch64.rpm"
+RPM_HASH = "2e606bc36d5b3a00858b7683bbda26910d2d8216c77e6a72afd2b8e894fee2384cc182bd1e1d6ad8b944969744886afa2344717287b3d48fa6444a3b39b940fc"
 
 RPROVIDES:${PN} += "libacsccid.so \
 pcsc-acsccid"

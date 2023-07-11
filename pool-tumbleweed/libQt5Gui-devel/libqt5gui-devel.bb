@@ -2,10 +2,10 @@ SUMMARY = "Development files for the Qt5 GUI library"
 DESCRIPTION = "Development files for the Qt5 GUI library."
 LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
-PV = "5.15.9+kde154"
+PV = "5.15.10+kde129"
 
-RPM_NAME = "libQt5Gui-devel-5.15.9+kde154-1.2.aarch64.rpm"
-RPM_HASH = "ad3958cdaf92b4b1f20c649d8abf2779d7e00c530478a90a62dd5a4e5c38a87deae6eafabb89890555320f1916cdf893e43d494e2d53ce283717ecd95e566256"
+RPM_NAME = "libQt5Gui-devel-5.15.10+kde129-1.1.aarch64.rpm"
+RPM_HASH = "ebddaeb704489250fcd851967c69335b4ee21e6431f1b8fee2b09a2d3742586dd9d40367442a028408d75747847235a22ecc78084395a7177b11327dea3856dd"
 
 RPROVIDES:${PN} += "cmake-Qt5EglFSDeviceIntegration \
 cmake-Qt5EglFsKmsSupport \

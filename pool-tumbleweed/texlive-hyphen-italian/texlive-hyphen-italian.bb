@@ -5,10 +5,10 @@ Italian Standards Institution (Ente Nazionale di Unificazione \
 UNI)."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2023.201.4.8gsvn58652"
+PV = "2023.208.4.8gsvn58652"
 
-RPM_NAME = "texlive-hyphen-italian-2023.201.4.8gsvn58652-52.1.noarch.rpm"
-RPM_HASH = "1755a9126a2f20d65cc1fb075f28c5fc1a52f3d346ac88d2a5d7d88af9be49765e0d243c02ad84558c921290aff8c4253424c10fbabe0277f19e6de12ffa55c1"
+RPM_NAME = "texlive-hyphen-italian-2023.208.4.8gsvn58652-53.1.noarch.rpm"
+RPM_HASH = "a9098d20efd26f3e218a5f2fa25438a838059048276aa9315144567d46a871ec7402874a58fba5547e4c995454e7c57ca65507f307abef0dff1cd46598a802d5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-it.tex \

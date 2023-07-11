@@ -6,12 +6,11 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.15.2"
 
-RPM_NAME = "python310-pyPEG2-2.15.2-3.23.noarch.rpm"
-RPM_HASH = "c29d70dd6a0c32d1db62c5b325b2acd0e0578039749c7d1152e7dbaee541c2965d0da4c527d15e5b44fd840b0b7de26959a7161cc46156802438d4d9222ebc41"
+RPM_NAME = "python310-pyPEG2-2.15.2-3.25.noarch.rpm"
+RPM_HASH = "e52b4d5af5fd2a386943d2d788ea9e1a99ea695035375bd80d0f2683c13d05adc477178e0c7c5b9a6f23a4966a8ff33c535e47c24117b09c3f516385e7f8b48f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pyPEG2 \
-python3.10dist-pypeg2 \
+RPROVIDES:${PN} += "python3.10dist-pypeg2 \
 python310-pyPEG2 \
 python3dist-pypeg2"
 

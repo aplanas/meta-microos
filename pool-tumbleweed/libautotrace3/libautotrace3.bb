@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "0.31.1"
 
-RPM_NAME = "libautotrace3-0.31.1-646.3.aarch64.rpm"
-RPM_HASH = "6a899c60501257406ba295d36982f5ee0f7f461f99dc8c6955c1ace4f9db64d161dc0ba1d7fe99c6ecc66f1fcb7aacba09824e1d57ad78024cd5b2a0addda058"
+RPM_NAME = "libautotrace3-0.31.1-646.4.aarch64.rpm"
+RPM_HASH = "dc96efc5c311b0ce401d8d48170b5392d218d5e3bd476981c0287f007a337127f337da25e379e1eb13f39a5b77681a5de6123d7025ea99a68087617a5f3d3dc7"
 
 RPROVIDES:${PN} += "libautotrace.so.3 \
 libautotrace3"

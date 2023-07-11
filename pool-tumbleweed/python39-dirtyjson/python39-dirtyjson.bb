@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.0.8"
 
-RPM_NAME = "python39-dirtyjson-1.0.8-1.3.noarch.rpm"
-RPM_HASH = "89c49b4de31f962c32058d83a92d87162e58992a7fbeda9c97d237df58aa143b7eb35abc524bee948859ded3dad42e7ecf9810db153442e4f46dae05f2ea648f"
+RPM_NAME = "python39-dirtyjson-1.0.8-1.5.noarch.rpm"
+RPM_HASH = "029c6816d38dcc61d133dd4dd2cef074954055e7ed4a848fd6c66ad72efe46c3c3a8951758faaf877153ee3cf4e52e4367bc79c43fc8b9e5a53d500fe1267fa2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-dirtyjson \

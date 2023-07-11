@@ -7,8 +7,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.2.01ysvn56223"
 
-RPM_NAME = "texlive-edichokey-2023.201.2.01ysvn56223-53.1.noarch.rpm"
-RPM_HASH = "c8856819360e1ecd1628c8494c68383554d8924126ddc7dd34a3dcbca8fdedd3b3d7274bb628027e2f3a0627b00042cb8fb7a4af1c0d0ac54ebcb8013f1369dd"
+RPM_NAME = "texlive-edichokey-2023.201.2.01ysvn56223-53.2.noarch.rpm"
+RPM_HASH = "ef2932e4ace9316d36789532990507c97f92de840cc23afc1bf674145a93476f61f999948aa30e7e04baf6c5ac62a9407c47e766d56b3b56e30b3040d5b8e78e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-edichokey.sty \

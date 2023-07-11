@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.4.6"
 
-RPM_NAME = "python39-pyshark-0.4.6-1.5.noarch.rpm"
-RPM_HASH = "24eafdeffee550200f33a8560778b4667eb4c29edecc51c97fd4349c7fb9871e861346e6d4f34d5f1a69eb6ab93280f4c5a93b5a8a1d825a2b61c171ff1f237e"
+RPM_NAME = "python39-pyshark-0.4.6-1.7.noarch.rpm"
+RPM_HASH = "79280476ac1e338017484504b1bda90d5303e1891563b015d50037173f0ec99f19476c2cc2aeb7db97d458c49fa9e5ea4510257fae7e578fcd6323fa133beccd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyshark \

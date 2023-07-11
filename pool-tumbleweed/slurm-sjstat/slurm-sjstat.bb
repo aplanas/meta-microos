@@ -4,14 +4,14 @@ LICENSE = "SUSE-GPL-2.0-with-openssl-exception"
 
 PV = "23.02.2"
 
-RPM_NAME = "slurm-sjstat-23.02.2-1.1.noarch.rpm"
-RPM_HASH = "c6f1dcd126dee6bcb286d2bea92678b182a206a2db4d33b63b2a88981802102200bcddbbf86628ec740f230abe930aeabd30d18674c389207bdf3a4421b38e6b"
+RPM_NAME = "slurm-sjstat-23.02.2-1.3.noarch.rpm"
+RPM_HASH = "b19e54a47d5e3caf0c6e4ec46368fca5718b60926ef27841c3f706987c16dc70198cd4c7a43a7cb31c34e90664feafe9638645554fe2c25d67cf96a05f55e77e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "slurm-sjstat"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 slurm"
 
 inherit rpm

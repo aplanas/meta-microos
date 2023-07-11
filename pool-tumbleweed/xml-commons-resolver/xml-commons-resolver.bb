@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2"
 
-RPM_NAME = "xml-commons-resolver-1.2-4.6.noarch.rpm"
-RPM_HASH = "247cb420382bc24595f8ed009eed3b2400577ca3db3ae737f883b5735a6f16d857775cd7dc11af6d5c9661f77c412bbd01477645c6965f362b1a973732ccb945"
+RPM_NAME = "xml-commons-resolver-1.2-4.7.noarch.rpm"
+RPM_HASH = "72f8911eae8d41c2330f6da83922443d53d7fdb435ac15137be78198d66909423300501d1b6e9f66a680f969821b0e74edf6352ba4992f930190298265e9ff81"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-xml-commons-resolver \

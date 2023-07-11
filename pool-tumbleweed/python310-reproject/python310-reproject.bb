@@ -4,11 +4,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.9.1"
 
-RPM_NAME = "python310-reproject-0.9.1-1.5.aarch64.rpm"
-RPM_HASH = "24aaaaa5e075944c7b15e28d23a009ca3024d33b00ac891d347798c8c785ee6ca3e43f494dfd21396f5f751af7ad2fe2a0b836095691e5dc98671e3dd30b8833"
+RPM_NAME = "python310-reproject-0.9.1-1.7.aarch64.rpm"
+RPM_HASH = "1a285ccb82792b1c250432edb5a7f167bc1dfca99fb71e6729a238a9c5723ad4618a2d746d6f91383fdf9a60f11ffb67a0bb19d34010a168cea03204bcb3226f"
 
-RPROVIDES:${PN} += "python3-reproject \
-python3.10dist-reproject \
+RPROVIDES:${PN} += "python3.10dist-reproject \
 python310-reproject \
 python3dist-reproject"
 

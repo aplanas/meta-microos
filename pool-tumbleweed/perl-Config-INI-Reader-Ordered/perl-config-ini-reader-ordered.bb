@@ -6,14 +6,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.022"
 
-RPM_NAME = "perl-Config-INI-Reader-Ordered-0.022-1.2.noarch.rpm"
-RPM_HASH = "6cad86a518e1a523519ad845c22424de39900559f9d380f16662b22ec01dd805cd3a3dac5ee56d33eb7aee4fda127c6cb915a216f788a7d76d7f53dd6cff457e"
+RPM_NAME = "perl-Config-INI-Reader-Ordered-0.022-1.3.noarch.rpm"
+RPM_HASH = "6dccd105a71c8ca3cb25ad399560597e617ea131d4b78924ae54535139f2e660d35f7604becb0b046344cae1026044894018006a1c4805ec407b2dba46adf8c6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Config--INI--Reader--Ordered \
 perl-Config-INI-Reader-Ordered"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Config--INI--Reader"
 
 inherit rpm

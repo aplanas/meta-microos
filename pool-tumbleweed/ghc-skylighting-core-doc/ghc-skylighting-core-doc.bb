@@ -2,10 +2,10 @@ SUMMARY = "Haskell skylighting-core library documentation"
 DESCRIPTION = "This package provides the Haskell skylighting-core library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.13.2.1"
+PV = "0.13.3"
 
-RPM_NAME = "ghc-skylighting-core-doc-0.13.2.1-1.4.noarch.rpm"
-RPM_HASH = "9092c54262d344e9df51aa4a64e04e30d978e24668287bcf716b0d1d0b52eef60c000fe60808c47077d961a7cf3e522f72b4126bc67444941d6aca24de74db35"
+RPM_NAME = "ghc-skylighting-core-doc-0.13.3-1.2.noarch.rpm"
+RPM_HASH = "38e01309680388bb7befead141f5a481d600ccbaef234c5a5b079f6156adaa7b792d71aedc439d703fe0767bd4683a0654bb4e380d70bc8913af40f6dc4504e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-skylighting-core-doc"

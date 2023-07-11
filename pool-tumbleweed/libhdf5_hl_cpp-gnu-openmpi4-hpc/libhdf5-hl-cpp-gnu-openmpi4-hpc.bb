@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.12.2"
 
-RPM_NAME = "libhdf5_hl_cpp-gnu-openmpi4-hpc-1.12.2-5.1.aarch64.rpm"
-RPM_HASH = "3fea1906c2b63a31cf77e15620b04a1cbe1e671c9383d2f23ec69483998ce1f07d68e03c8f136b63d3a31f945e5d3875a849391bd74d8b539e4b5e0cb51a7d0d"
+RPM_NAME = "libhdf5_hl_cpp-gnu-openmpi4-hpc-1.12.2-5.2.aarch64.rpm"
+RPM_HASH = "df979057fca4ef1dc9e422403076b21336fad3c229ab5478d7ee3faa3b77d265bad675d9912d676559927b24aca2be965c491850681b6bbbed3c5a895a70297e"
 
 RPROVIDES:${PN} += "libhdf5-hl-cpp-gnu-openmpi4-hpc"
 

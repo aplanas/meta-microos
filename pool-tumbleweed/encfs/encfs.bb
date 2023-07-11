@@ -19,8 +19,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
 PV = "1.9.5"
 
-RPM_NAME = "encfs-1.9.5-2.16.aarch64.rpm"
-RPM_HASH = "c8df014214939e39f760d7093c9dcab0241a3ad75a81408a23cfbb3ccfd514f13527e74f8c67da4811245a52d3e14f194b38d48b00b4d2125c79894aa0a77198"
+RPM_NAME = "encfs-1.9.5-2.17.aarch64.rpm"
+RPM_HASH = "8737d799a55c34127be957d7a6f89cb50fe734d2034c4ca0efe338ebeebf2097eaeab41303dca480fe452ba38cbc76a3abaca1e80e2ba9527bcac7dc0037b38f"
 
 RPROVIDES:${PN} += "encfs \
 libencfs.so.1.9"

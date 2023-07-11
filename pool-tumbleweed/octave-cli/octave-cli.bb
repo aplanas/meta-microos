@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "8.2.0"
 
-RPM_NAME = "octave-cli-8.2.0-1.1.aarch64.rpm"
-RPM_HASH = "07e8c532755051d62273f82961e3809fcb06db75b650cc8c51801a662cc7b62be1e68ce017d966bd65549999d2c9dad28a3fa3010851dc7b32f7051578ac6c6b"
+RPM_NAME = "octave-cli-8.2.0-1.2.aarch64.rpm"
+RPM_HASH = "5a97bb6869ea8f52ca6d825426fc52de07c6ad8b8133f74beeb8baf4100ca00e3b51561d4ecd890a7546f7c09803b17f52f7731147721330668f91e80228189e"
 
 RPROVIDES:${PN} += "config-octave-cli \
 liboctave.so.10 \

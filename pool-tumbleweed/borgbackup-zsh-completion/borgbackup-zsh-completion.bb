@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2.4"
 
-RPM_NAME = "borgbackup-zsh-completion-1.2.4-1.1.noarch.rpm"
-RPM_HASH = "cd378b09849cd140543b54009daf993cd9a642f274a0d07b577db655d94cfee0a8413e50c26b22c9bb88617c0e3fbd407c72bc99bc5e0277433c2710fc11d9a8"
+RPM_NAME = "borgbackup-zsh-completion-1.2.4-1.3.noarch.rpm"
+RPM_HASH = "6cd731fa3bdbd1101f81d66f979b34463bb73003103e6d55821bd6a1f86626b43f7fc50530bf6aa3c6999534ac441281fa673ac333bf479a1233bfd2bd7f560b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "borgbackup-zsh-completion"

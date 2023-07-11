@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.26.0"
 
-RPM_NAME = "mate-system-monitor-1.26.0-1.9.aarch64.rpm"
-RPM_HASH = "3b9f3699b8fda5312bfa61303a093096b4a24e55d0f0fe6dd8110a9fb8f046bb8d254103031f9c5ef22947fe44c78ae3fd7f14328ef63f74b93c7bb43aa7e396"
+RPM_NAME = "mate-system-monitor-1.26.0-1.10.aarch64.rpm"
+RPM_HASH = "ad81f358cef1010de996a97d01b615e21c09200c29e11a288864ce2f3eaa262c939697c96831f9a12b3ed103599f5ac6d6be3994973648a2d3079238d896a224"
 
 RPROVIDES:${PN} += "mate-system-monitor"
 

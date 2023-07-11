@@ -8,14 +8,14 @@ LICENSE = "MIT"
 
 PV = "0.4"
 
-RPM_NAME = "jupyter-imatlab-0.4-6.1.noarch.rpm"
-RPM_HASH = "1374cc25f20e889327ca139cf22db3500135bfb8d447eaeb8aa47093adfad46fb47273f8f1b65a2afbe43e6dea846a00c5f9b3757d3565aef09d990a9b557e9f"
+RPM_NAME = "jupyter-imatlab-0.4-6.2.noarch.rpm"
+RPM_HASH = "670241b153dfaa4d8e283eb37b0a056ab7e085243d0dd4d1ef89e3f699c0a56dca13482dd4f58c63d3970abbb07ba52a1ca6777f28c424034f0d5994d9d494d8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-imatlab \
 python3-imatlab \
 python3-jupyter-imatlab-kernel \
-python3.10dist-imatlab \
+python3.11dist-imatlab \
 python3dist-imatlab"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "3.0+git.20190226.91432e4"
 
-RPM_NAME = "texamator-3.0+git.20190226.91432e4-1.19.noarch.rpm"
-RPM_HASH = "21aef2c4f8ac3849a8998436e57daff5073fec39eaf623709d36b6802454b40e819fb76577c52822b0ad3db562ef47edabf1d4f12c6c76d6edc6306480ec426b"
+RPM_NAME = "texamator-3.0+git.20190226.91432e4-1.20.noarch.rpm"
+RPM_HASH = "f068cfe3a1c565aebdb1dc5fa9f42fa0a53b3d0672bf141af96639481a805f583edb1e99e4c853ccd15eeea0c854bbbbed7e93a9af7938639e3bdd707691cc6c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texamator"

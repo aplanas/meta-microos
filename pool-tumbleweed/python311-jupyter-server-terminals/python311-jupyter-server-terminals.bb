@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.4"
 
-RPM_NAME = "python311-jupyter-server-terminals-0.4.4-1.3.noarch.rpm"
-RPM_HASH = "261df5ba4a4e3f96f8833effce128cdea453b226ed50e32d3185033a96ad103158faae241392d8392f73b746f59634b2289c397ef5eb8f300b63011637cd2e3d"
+RPM_NAME = "python311-jupyter-server-terminals-0.4.4-1.5.noarch.rpm"
+RPM_HASH = "7e09ef6e9182b85dc01b51a4405d2d2a4e2dd67f465daf07ec661fcc9a0c96ae7d46df248a68f05f1f34a3f315356643679713a71e4278e93055d57a55dc7c42"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-jupyter-server-terminals \
+RPROVIDES:${PN} += "python3-jupyter-server-terminals \
+python3.11dist-jupyter-server-terminals \
 python311-jupyter-server-terminals \
 python3dist-jupyter-server-terminals"
 

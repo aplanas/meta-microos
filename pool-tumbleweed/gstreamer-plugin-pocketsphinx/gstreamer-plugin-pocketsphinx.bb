@@ -7,8 +7,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "5~git20200227.e40da77"
 
-RPM_NAME = "gstreamer-plugin-pocketsphinx-5~git20200227.e40da77-2.3.aarch64.rpm"
-RPM_HASH = "83ef7757ab7a88fd3fc07d1e7a5ee28bb773fa1463985e24df89bbdf90dfd4afb5006508dd637273cf6562eaf80952c446cbc9d82f77b80239369135723066cc"
+RPM_NAME = "gstreamer-plugin-pocketsphinx-5~git20200227.e40da77-2.4.aarch64.rpm"
+RPM_HASH = "fcd1971537317dd6a3f46d8be9f221a6c1270e04261822a2291ed4bbe99b8f8891d1021c7a0937e9c78dd7c0a55a355591330593a8b6bd0cacd82dee08df8c09"
 
 RPROVIDES:${PN} += "gstreamer-plugin-pocketsphinx \
 gstreamer1 \

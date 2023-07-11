@@ -6,10 +6,10 @@ via the system message bus. Some operations (such as suspending the \
 system) are restricted using PolicyKit."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.90.0"
+PV = "1.90.1"
 
-RPM_NAME = "libupower-glib-devel-1.90.0-1.4.aarch64.rpm"
-RPM_HASH = "ce99857df33995972454600f95b39878cee1219eaf9fc331e9d1eda25286480ebede8745f974d9fdc2136cae60f9b633b9e64c87056cbd32d73645659ed94abf"
+RPM_NAME = "libupower-glib-devel-1.90.1-1.1.aarch64.rpm"
+RPM_HASH = "84d18d429271518bc4541d0bd524987d84de7cbd878a1266d2e2ff5489d2513bf072f3ce7a3ab8db218027c80d37a429f1483584d8845d69e2044d9c670fa21d"
 
 RPROVIDES:${PN} += "libupower-glib-devel \
 pkgconfig-upower-glib \

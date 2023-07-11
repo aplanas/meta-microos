@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-sogdian-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "d1a6543e436ae11e73b9644419a03bf2fe37bed224fc609a6a9e400b62bc807d4c432b465cd06185073dd9a2148b9298ff5d31c9faa8ad1a56828efa4eebc519"
+RPM_NAME = "noto-sans-sogdian-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "06a0957596edb6ddef2ca70e82f789b46d64cb62728c0ecd10b3ef71b4677c554b12472e7f05bce69ee2b8b076239841dbb222a4a1b5bca5adf07963f5947402"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-sogdian \

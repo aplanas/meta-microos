@@ -9,8 +9,8 @@ LICENSE = "ISC"
 
 PV = "1.3.1.2"
 
-RPM_NAME = "libkeccak1-1.3.1.2-2.3.aarch64.rpm"
-RPM_HASH = "899a3cd9eab2309813a15969ee2368d1b072173f51440e24044db052b1616f19562fbcccef1d1ac1445242f1d4c00d2d9d852949c25357d22cc8d16712a658a3"
+RPM_NAME = "libkeccak1-1.3.1.2-2.4.aarch64.rpm"
+RPM_HASH = "b3cff4e37744f90ed39981045b4dc51c9d83c1e8db5b82c671d5d6da6090950d0c791dfeb3fae33207a7eefcb761923263f8a28324cc7c44e770d9eeeb9f86cd"
 
 RPROVIDES:${PN} += "libkeccak.so.1 \
 libkeccak1"

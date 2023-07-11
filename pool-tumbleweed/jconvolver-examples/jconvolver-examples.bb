@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.1.0"
 
-RPM_NAME = "jconvolver-examples-1.1.0-1.3.noarch.rpm"
-RPM_HASH = "5a9aab47df6cf62799556b11844fe6c2ff1a7846d62eadc981dd6632392af4b3bb2242909ece67ee0142b0da46216e8fad1139f8c64022d51569b0fe09407157"
+RPM_NAME = "jconvolver-examples-1.1.0-1.4.noarch.rpm"
+RPM_HASH = "5a875328ad03675671402383dd9df18ebbaa671bb31ae4af55d31be971f7b52f99017f0e1db9b4de4e4671b553586e4ee0dcdd822801194cc47bbc80a1a46f6a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jconvolver-examples"

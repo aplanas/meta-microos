@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20220113"
 
-RPM_NAME = "libfguid-devel-20220113-3.2.aarch64.rpm"
-RPM_HASH = "4a868b79598a83a5fc09667f809a279eba3a650075b029cd7cbd7e386a2f5e0ddd3e5a14b91d3f383d9c98050f76c55a222181318209857e088e3316e41b221a"
+RPM_NAME = "libfguid-devel-20220113-3.3.aarch64.rpm"
+RPM_HASH = "3927cc53cc4446cd3f6c6889dde0a3d71e220667d6cf5db7cf023eda7fe4a7dd6c7a15c14520a256b8d786128ff8d60be897c708bf46f863d2183ce58799136a"
 
 RPROVIDES:${PN} += "libfguid-devel \
 pkgconfig-libfguid"

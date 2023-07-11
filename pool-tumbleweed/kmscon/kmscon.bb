@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "9.0.0"
 
-RPM_NAME = "kmscon-9.0.0-1.3.aarch64.rpm"
-RPM_HASH = "6bbbe20fa92b10a38e551731d8eb19caabc2d3a10d68733e8f926e15489fff47c85cd03c172a4bc87cee300ee317e242de4ecee68a52b72c17c499e7901d68da"
+RPM_NAME = "kmscon-9.0.0-1.4.aarch64.rpm"
+RPM_HASH = "a910c3ce37a422ad13beca8fa37f7f31495dea8904c56ec6eb0e8089589fc34673a5e9079cf06790b71b616f01faa0a725048a4ba050cdd0e4124f6d61199ee2"
 
 RPROVIDES:${PN} += "kmscon \
 kmscon-service"

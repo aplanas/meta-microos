@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.7"
 
-RPM_NAME = "python39-strict-rfc3339-0.7-4.1.noarch.rpm"
-RPM_HASH = "1f2fd4fcdf5bad1f5b573711bca551495bd5f857f22df7ae84267aa40eaef1dfeca1a89c70e5d03f90eaeca35b0ed4d4053c1755a10dae152c585dc8d3c4227c"
+RPM_NAME = "python39-strict-rfc3339-0.7-4.3.noarch.rpm"
+RPM_HASH = "e4a3c7369dfa12dd2bd744e5f159b432e953a0bb2c13beeeefefa2cdaf76793e902f06589e3cd9daaaf1371d8b097c120eae0f52b22f5566fb28972ae477750f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-strict-rfc3339 \

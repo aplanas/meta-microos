@@ -2,10 +2,10 @@ SUMMARY = "Data loading and cataloging system"
 DESCRIPTION = "A plugin system for loading your data and making data catalogs."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.6.8"
+PV = "0.7.0"
 
-RPM_NAME = "python39-intake-0.6.8-1.1.noarch.rpm"
-RPM_HASH = "5139d34d21815b3875de8abe2af9f537b8848bae74b4bfa46fcb7f1292c565fea1edde4a2cff31b70e9cb1c8263f9a2c56e6663c1e5987eb2f7feac7fcb02a63"
+RPM_NAME = "python39-intake-0.7.0-1.1.noarch.rpm"
+RPM_HASH = "d5153fd2d275f6ff29fd4ecf675892d473b3c0b647d62a5ff8ec3220d2246347c300e776d82ea8b62e526be2ea8f15c22881a35571c41270b571e58026579f36"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-intake \
@@ -19,10 +19,10 @@ python39-Jinja2 \
 python39-PyYAML \
 python39-appdirs \
 python39-dask \
-python39-dask-bag \
 python39-entrypoints \
 python39-fsspec \
 python39-msgpack \
+python39-requests \
 update-alternatives"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "Kollision game"
 DESCRIPTION = "KDE version of a classic arcade game"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kollision-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "f370ead8293efd63ef1b83e937a1fee5f4fe8804bda5ea683781d3c3ad30d33924088910a978a12590470110d5088310c17c152ecb5317db3db1b0b5706aa04a"
+RPM_NAME = "kollision-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "b041275181f560d003c2294f708292498c2ad964c66a4630025f8fbe69fd4a6fe428d226cbf38c781a1c0eaa02517c647f05c9298768ebb44baf2aa29fd5f31b"
 
 RPROVIDES:${PN} += "kollision \
 kollision5"

@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.9.1"
 
-RPM_NAME = "qsynergy-1.9.1-4.9.aarch64.rpm"
-RPM_HASH = "e018ed5e9f0f0ce4f588dd5f19020c0e9e38dfc4008c48101f6b54b830c23874b2e1c9a624f4c0b0bd14ca47a8ac7c509c08a790fa52d21c8091c88eda5db939"
+RPM_NAME = "qsynergy-1.9.1-4.10.aarch64.rpm"
+RPM_HASH = "9fe847dac0d145eabd676f3ca8dfeaec53d4fc2bd395377b30a0fd9b03cc9a3632f619e4608baf8601fe9ad2d448806f53bf18888dc6d52ebad121690572933f"
 
 RPROVIDES:${PN} += "qsynergy"
 

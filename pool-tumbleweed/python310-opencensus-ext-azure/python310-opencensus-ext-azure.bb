@@ -4,12 +4,11 @@ LICENSE = "Apache-2.0"
 
 PV = "1.1.6"
 
-RPM_NAME = "python310-opencensus-ext-azure-1.1.6-1.3.noarch.rpm"
-RPM_HASH = "9eed745f74b3d7d5e8943ef87e9abde087d23464d14fd831f3ce596bfe85cd2be1bdfb2e2fd5522e0df8c80321e9f7e8e1f1a115bac0079e59996186ee0a0a71"
+RPM_NAME = "python310-opencensus-ext-azure-1.1.6-1.5.noarch.rpm"
+RPM_HASH = "d5567fe6ddb1bef248340d37d1e0950bc9400d7fb40a818481bb3e32f135eb35df7e5f6cb636fd2ff8a191cec212d5c59f88be077a10121edc815b3642d19a53"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-opencensus-ext-azure \
-python3.10dist-opencensus-ext-azure \
+RPROVIDES:${PN} += "python3.10dist-opencensus-ext-azure \
 python310-opencensus-ext-azure \
 python3dist-opencensus-ext-azure"
 

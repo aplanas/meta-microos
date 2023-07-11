@@ -5,8 +5,8 @@ LICENSE = "OFL-1.1"
 
 PV = "2023.201.0.0.56svn65684"
 
-RPM_NAME = "texlive-erewhon-math-2023.201.0.0.56svn65684-53.1.noarch.rpm"
-RPM_HASH = "9423c6dc0a6355163222114a57333c717c68a3cc5dcae765c852664f9312b694073587703fbf63d2e0984a8e8dea9a3f640d09a8950688530d9b70d9d0a16b02"
+RPM_NAME = "texlive-erewhon-math-2023.201.0.0.56svn65684-53.2.noarch.rpm"
+RPM_HASH = "c68da33fc3e867f7a9da886e42eb0275e06dde7ec540f3a02be5ff35e718d666afc788c4e13f33c5e1ec7312c0bada444d72be6ce992d9aa4c88d9f97306de00"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fourier-otf.sty \

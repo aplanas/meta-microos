@@ -7,12 +7,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python310-azure-iot-deviceupdate-1.0.0-1.3.noarch.rpm"
-RPM_HASH = "4603a4b70f430933c5d3563f7b7d096c258d4642e15c401ce790e677c444e6d3bfffd1dfb8346ee4639c760509d6f656c3300870ff87ccbacf86091c8c6e5929"
+RPM_NAME = "python310-azure-iot-deviceupdate-1.0.0-1.4.noarch.rpm"
+RPM_HASH = "20fc52a3691d90d86c499422ddafb362cd38063a258c60a4f52c60b77228e6abc01378f10a68a0c5770069e8f8158607926dbc1c1baf8374ccec47e04c3c5521"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-iot-deviceupdate \
-python3.10dist-azure-iot-deviceupdate \
+RPROVIDES:${PN} += "python3.10dist-azure-iot-deviceupdate \
 python310-azure-iot-deviceupdate \
 python3dist-azure-iot-deviceupdate"
 

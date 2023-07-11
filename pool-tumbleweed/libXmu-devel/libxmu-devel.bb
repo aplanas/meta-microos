@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "1.1.4"
 
-RPM_NAME = "libXmu-devel-1.1.4-1.2.aarch64.rpm"
-RPM_HASH = "c425ae6854d1209c0a61a9e1d526df0b6047172b185731b63db969495e4f0e36bc2a6f5e8f7f0085278b9dd3370b37d7d867b27ca654b2d51c04c47b316f7266"
+RPM_NAME = "libXmu-devel-1.1.4-1.3.aarch64.rpm"
+RPM_HASH = "84f135f841e15e1c669147fde3726f294cd5e4487aeb217ccff881dc38f746e0f8c1b5e65e0c94a82e2f5885d259902291fa96a1de7e43abd95269c665cddcb1"
 
 RPROVIDES:${PN} += "libXmu-devel \
 pkgconfig-xmu \

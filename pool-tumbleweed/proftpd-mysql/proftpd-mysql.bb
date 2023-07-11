@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.3.7f"
 
-RPM_NAME = "proftpd-mysql-1.3.7f-1.3.aarch64.rpm"
-RPM_HASH = "1f7e4c9d2b72d7a390af5308a3a3276887c986e3ba5327f409e715e0e0fa58e438ad2e170951c9c0868a0cb5f5d08d004e117ef631ccae2c0a6f28b4c4bc958e"
+RPM_NAME = "proftpd-mysql-1.3.7f-1.4.aarch64.rpm"
+RPM_HASH = "8517e5981ff47f3c749ac6d19d4db197a996c20589d11bdaf5681319d8baeeeca4a8075dc73113cefd3043f72e71098577734bb531ae1c99c2aa39039fe8692f"
 
 RPROVIDES:${PN} += "proftpd-mysql"
 

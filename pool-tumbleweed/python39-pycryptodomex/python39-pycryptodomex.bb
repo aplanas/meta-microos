@@ -37,8 +37,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "3.18.0"
 
-RPM_NAME = "python39-pycryptodomex-3.18.0-1.1.aarch64.rpm"
-RPM_HASH = "e1676b7ffa76c4623532f698d743d3e931c9b79c2c48c4d2061fe1d859e929ca5d54e8275ff8047a28a5d26502b594d1a6f83a113875234e8dae1f232b98a87a"
+RPM_NAME = "python39-pycryptodomex-3.18.0-2.1.aarch64.rpm"
+RPM_HASH = "beed9923987b47979e378e75444047eb5ded286918a0ee47c08ab7acd24da3f0b6e249f95b0310a31caed62edbfcbcc842e69641b27d143876c740261464a307"
 
 RPROVIDES:${PN} += "python3.9dist-pycryptodomex \
 python39-pycryptodomex \

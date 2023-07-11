@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "13.0.7"
 
-RPM_NAME = "python39-PyChromecast-13.0.7-1.1.noarch.rpm"
-RPM_HASH = "c54c0a1eeda8a680028a6771c0d44d74de50c8b2aec60c7bb78d55cd7cd6d9fed755d0b83038366e188d4e0457916c6a55cdabd76ace010f083be10f6fd5c485"
+RPM_NAME = "python39-PyChromecast-13.0.7-1.2.noarch.rpm"
+RPM_HASH = "e93975b381f97d256f374cab3805ffa725fbafc8dc62964dd2f6df3885eac44460c96c315baa8f0367cb8acfd61793720d88abded3b574496bf9670df1136887"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pychromecast \

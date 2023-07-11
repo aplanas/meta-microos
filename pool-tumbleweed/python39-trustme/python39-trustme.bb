@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0 | MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python39-trustme-1.0.0-1.1.noarch.rpm"
-RPM_HASH = "57ceaa12fc2c221e081e7a32707d1ad7cb2df89489293bba89652832918b5b304b1da6e59f62e1791a0b53bf4a2cf08945bb265043103a30d3155c20818f8a0d"
+RPM_NAME = "python39-trustme-1.0.0-1.3.noarch.rpm"
+RPM_HASH = "22c0d64a7bd2d58bdd706ff8fdb085e3c1889bf88511fb6036b94f6eb040c5e90187c26ba6da0ac9c3309f9297194d6683a359257969dcf58d97acc534e293a1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-trustme \

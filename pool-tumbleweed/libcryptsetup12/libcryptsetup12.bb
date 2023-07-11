@@ -8,11 +8,12 @@ LICENSE = "LGPL-2.0-or-later & SUSE-GPL-2.0-with-openssl-exception"
 
 PV = "2.6.1"
 
-RPM_NAME = "libcryptsetup12-2.6.1-1.3.aarch64.rpm"
-RPM_HASH = "214bfc6c000c81bee002cc70c63633db5751c9917884e81faf5c45c24b465791bf16d867cee41589f8e6036d9b95550256a6297a298de9758387eb132fc6985c"
+RPM_NAME = "libcryptsetup12-2.6.1-2.1.aarch64.rpm"
+RPM_HASH = "137dfa5a1b9f7c43b7ef41921c44ead1d8f17e6dbc8f282096e9723389588499240000f802cf610d402c2461a588999f14214728b766bc62a0b1a81bc14fd268"
 
 RPROVIDES:${PN} += "libcryptsetup.so.12 \
-libcryptsetup12"
+libcryptsetup12 \
+libcryptsetup12-hmac"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \

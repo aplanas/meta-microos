@@ -14,10 +14,10 @@ Features over classic Scikit-build: \
   - SDists are reproducible by default (UNIX, Python 3.9+)"
 LICENSE = "Apache-2.0"
 
-PV = "0.2.2"
+PV = "0.4.7"
 
-RPM_NAME = "python39-scikit-build-core-0.2.2-1.1.noarch.rpm"
-RPM_HASH = "bf4f56a990f6bb6d11c7aba49e7dff53ac274048a3dc82238195ba1266ffdf204a56680bec702e4714495e26e174e63f654501a87eb69de8c7dca8511b45a3ba"
+RPM_NAME = "python39-scikit-build-core-0.4.7-1.1.noarch.rpm"
+RPM_HASH = "863063f5e804e59a91e41d04bb709281e116ba62a40e85fd74a7b22c6a89b0a32072571d044f63145fabb8837bf404c286ee72c2ecd5a96521a28b0ecbab8014"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-scikit-build-core \

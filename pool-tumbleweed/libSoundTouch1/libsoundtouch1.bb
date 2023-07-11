@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.3.2"
 
-RPM_NAME = "libSoundTouch1-2.3.2-1.2.aarch64.rpm"
-RPM_HASH = "985b8fd0b7abe1ce7ccc5eac4f7a932f505cb8da717b39b4db293d91f99e5ebebe970080bf509a305e914bd93e1b6b7e5b66dee52e1048b7d69f265ab555ab28"
+RPM_NAME = "libSoundTouch1-2.3.2-1.3.aarch64.rpm"
+RPM_HASH = "d1385396d159fe0526f9e5f008696c6c4baee24a3eb2811098e0df658186526699fbd366c396a80ee6ccd8404a49d4a3737a9b08e7716cb4e103e5340c9f15be"
 
 RPROVIDES:${PN} += "libSoundTouch.so.1 \
 libSoundTouch1"

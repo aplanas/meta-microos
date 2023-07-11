@@ -4,11 +4,10 @@ LICENSE = "MIT"
 
 PV = "0.4.9"
 
-RPM_NAME = "python310-libcst-0.4.9-2.1.aarch64.rpm"
-RPM_HASH = "cdb471276aab352feb37fefbdccbf4cdea27834bcb56c234f1ac9141a0587ac1f9269dca938f2c5964b3da688355277b7291a660ec10739e43cdc9f13c54570b"
+RPM_NAME = "python310-libcst-0.4.9-2.3.aarch64.rpm"
+RPM_HASH = "fe932804514069c15347e9e4e2c7a43076fc37d8e6f347c6bd9ad0135e9c50195f569bc4ed9afec4b2a7acd21953455e1cf51e3bcc798ba287a91d1e560510a0"
 
-RPROVIDES:${PN} += "python3-libcst \
-python3.10dist-libcst \
+RPROVIDES:${PN} += "python3.10dist-libcst \
 python310-libcst \
 python3dist-libcst"
 

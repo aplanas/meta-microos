@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.1.1+git20221230.4e272c3"
 
-RPM_NAME = "lite-xl-2.1.1+git20221230.4e272c3-1.3.aarch64.rpm"
-RPM_HASH = "58e9cac2935aa4bb5c55681b9be761bc4f3501a4aea5e9aee566a4c898c2dc57ce7d58c6f672223bbae35c51da0c6d8ea8193fe3d7f3c287a1f03bbe04b2cd4a"
+RPM_NAME = "lite-xl-2.1.1+git20221230.4e272c3-1.4.aarch64.rpm"
+RPM_HASH = "82afd5d348fbae17359a2b7b8c2c0a25e37fde8cab1a2044dc9d1538126d95d7049940474eda0bbe2fbf168de1144d8c32c298dbdf9ebdafea468ed6a6fe4091"
 
 RPROVIDES:${PN} += "lite-xl"
 

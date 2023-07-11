@@ -5,10 +5,11 @@ LICENSE = "SUSE-Matplotlib"
 
 PV = "3.6.3"
 
-RPM_NAME = "python311-matplotlib-web-3.6.3-2.1.aarch64.rpm"
-RPM_HASH = "c2c9e64f524b313922bf82af73e3a390be93d7f5ce713e73871afe10d0d034ed62f901d50f9ff779da20034a4438be88d6931cb5701c4c8dddf87187c97818a0"
+RPM_NAME = "python311-matplotlib-web-3.6.3-2.3.aarch64.rpm"
+RPM_HASH = "07f91247438b271b951fa55d13b122688eb618d5883dd783bba84f90c649679d72340c848997491ee325c4bf6058bd056091bd79cfdca9035cc2d6cd78b67fc0"
 
-RPROVIDES:${PN} += "python311-matplotlib-web"
+RPROVIDES:${PN} += "python3-matplotlib-web \
+python311-matplotlib-web"
 
 RDEPENDS:${PN} += "python-abi \
 python311-matplotlib \

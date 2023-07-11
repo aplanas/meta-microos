@@ -4,8 +4,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-laughty-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "35e30d4378126e3cd288ed661163c7776d3e7a3a2f36d789766b2ca1ac06a95b12c90c1413ebad2c11b6187ad73fac5c3184d194ac2735c5aeba48fdab6707f0"
+RPM_NAME = "leechcraft-laughty-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "48ffa1396939e5881dc302027cf3c0ebed00d2b1a3acffd930a1fd80ea13cb0cae55b51424265abd0a60dca14dd75255b40bca920815d352a28a15e0e57491a7"
 
 RPROVIDES:${PN} += "leechcraft-laughty \
 libleechcraft-laughty.so"

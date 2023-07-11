@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.1"
 
-RPM_NAME = "python310-mpl-animators-1.0.1-1.6.noarch.rpm"
-RPM_HASH = "a029da45208eb12038942d0ab706b77a1a0d8c84afc72b8b44a8d7c7853d3239037eb39d8968cea15425ab80253d38799970add7e9fdb6d926492a11cb263b84"
+RPM_NAME = "python310-mpl-animators-1.0.1-1.8.noarch.rpm"
+RPM_HASH = "5e0e2ba8e82206c46951eaef2a45435f21c5df1d56de3d07f3c4121ba913f69b4422def03bef8836ed01ffe35b66773e8a4272f66ffafc6249bf7125fca3f0b7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-mpl-animators \
-python3.10dist-mpl-animators \
+RPROVIDES:${PN} += "python3.10dist-mpl-animators \
 python310-mpl-animators \
 python3dist-mpl-animators"
 

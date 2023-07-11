@@ -23,13 +23,14 @@ all other Enum capabilities, however; consequently, it can have \
 duplicate values."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.1.11"
+PV = "3.1.12"
 
-RPM_NAME = "python311-aenum-3.1.11-1.3.noarch.rpm"
-RPM_HASH = "f9bbf980862ac1f59a750dd7ca1980cd6425382372e92fbf882b2a7fc6539d1074cdf24dfcecb09474502a0eabce4cd107850ac14f10596f50f69014f651a0c5"
+RPM_NAME = "python311-aenum-3.1.12-1.1.noarch.rpm"
+RPM_HASH = "c95c4b5fa9823916f26c857be47bd44f4da168abfb4f5050caa1b2cba41d00969cebafa465b15ae103e7521874475e3f625fffa2274c7138724382c97fcf844f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-aenum \
+RPROVIDES:${PN} += "python3-aenum \
+python3.11dist-aenum \
 python311-aenum \
 python3dist-aenum"
 

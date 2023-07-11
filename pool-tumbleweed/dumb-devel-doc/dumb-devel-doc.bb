@@ -8,8 +8,8 @@ LICENSE = "Zlib"
 
 PV = "2.0.3"
 
-RPM_NAME = "dumb-devel-doc-2.0.3-1.9.aarch64.rpm"
-RPM_HASH = "09944c8114789e70919ec9374b3097f5aaca30ee334366026d2e8b7296f9d991651d23ba439a7d42adebb35c664a14e87e870f43018a20659945e820b6b8fa41"
+RPM_NAME = "dumb-devel-doc-2.0.3-1.10.aarch64.rpm"
+RPM_HASH = "aaeaf0b700b5b5de185f4613442dd47c35cd43b87f3247b1af9b3212fdeeca73ed105168989dc18891f8a287c2b659cd72ed6133abefd696eb7a1090d752c8c3"
 
 RPROVIDES:${PN} += "dumb-devel-doc"
 

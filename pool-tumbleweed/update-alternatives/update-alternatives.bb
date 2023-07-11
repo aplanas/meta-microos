@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.21.8"
 
-RPM_NAME = "update-alternatives-1.21.8-2.1.aarch64.rpm"
-RPM_HASH = "d8fc3a3607b765e00c12be80ac75c3755f628ef17beb4ffe0edda5e2ca4e20779718700fa3f2d8d3459ae3cce52ca228522be1ef78d0bf10bfbb971cf8c21018"
+RPM_NAME = "update-alternatives-1.21.8-2.2.aarch64.rpm"
+RPM_HASH = "83c1cabe6072afaaab62dfe0e92f731edf98c53cff92cce244e0a6d8e7d535f16efe58adfe6421d791cecb6d93961499731cc44150c78c83f9a57b50e513875b"
 
 RPROVIDES:${PN} += "alternatives \
 update-alternatives"

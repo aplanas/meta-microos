@@ -7,10 +7,10 @@ This environment is maintained by the Fedora MinGW SIG at: \
   http://fedoraproject.org/wiki/SIGs/MinGW"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "20230401"
+PV = "20230614"
 
-RPM_NAME = "mingw64-filesystem-20230401-1.1.noarch.rpm"
-RPM_HASH = "3727b8e1374a858dd681e10e8eff751bd584f8dffcd3c52d82558787414dc42db5a856b623c896ffd02e7bf0be5a9128dd883efd283dd37c35c91a0fc5a89e76"
+RPM_NAME = "mingw64-filesystem-20230614-1.1.noarch.rpm"
+RPM_HASH = "c10fb1e07787e2ec8789a58c7973ad103ffb53b231231e0efba7ed2d4e15fe6a7b58a8edc7596bffd668e8260f252699877f122b8bcf61209a82def2dc0eaaea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw64-bcrypt.dll \

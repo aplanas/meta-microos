@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.12"
 
-RPM_NAME = "brial-devel-1.2.12-1.3.aarch64.rpm"
-RPM_HASH = "e7c70d6929a13c84dc429ce2ca25ce9de8263696b0325e368a7a3e20a31b60a843c3209d79d5dee5350cdbf75c8c2cbb1fe9d181b2bfdaba1583131a7433cf88"
+RPM_NAME = "brial-devel-1.2.12-1.4.aarch64.rpm"
+RPM_HASH = "a66545fb5d445c40faad46366e4a2c5a599c76e8d84168bfe0841cbdac03f2a1259da0127ff11717553cb7e51aa588ee5b586f445ed6287476b4d88d876b5b3b"
 
 RPROVIDES:${PN} += "brial-devel"
 

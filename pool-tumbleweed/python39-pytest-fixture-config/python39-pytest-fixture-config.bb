@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.7.0"
 
-RPM_NAME = "python39-pytest-fixture-config-1.7.0-3.3.noarch.rpm"
-RPM_HASH = "2e5f57903cab0f297785cf9223ed522dc003e839a82c8e7909c18f232c6b910bf3f8a2148109dc7444f5fe51e67abc86121b8a6b89e7ea26a6cca3ce0ac2f941"
+RPM_NAME = "python39-pytest-fixture-config-1.7.0-4.3.noarch.rpm"
+RPM_HASH = "ba8aefccf08ef008b8efbacf71cc99727f0382bf742e2481ad6f580fcedb6c2837a6a9d06cab16f3c5f45a9a5f621b7054e42ddfdcd993229a44af71e2f99d26"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytest-fixture-config \

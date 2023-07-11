@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.6.0"
 
-RPM_NAME = "budgie-rotation-lock-applet-1.6.0-1.1.aarch64.rpm"
-RPM_HASH = "c223de586b4c21c79cd197db96859ef3a08ac2747016dbeea3189cc326f377342f774d37a8e80a58ff7bcfb8b47ca028706fe6a33312c56986d17ed714b17736"
+RPM_NAME = "budgie-rotation-lock-applet-1.6.0-1.2.aarch64.rpm"
+RPM_HASH = "43e9b8b77dd37e90aca1b84fa27dd79e158f2f81922e9b3b024f6d40d79913f8f65b85182702e639da0f6e18734d936e5c385e977aaf46ea3d89f62f0f835151"
 
 RPROVIDES:${PN} += "budgie-rotation-lock-applet"
 

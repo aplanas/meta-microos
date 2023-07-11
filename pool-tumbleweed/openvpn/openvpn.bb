@@ -15,10 +15,10 @@ OpenVPN is not a web application proxy and does not operate through a \
 web browser."
 LICENSE = "GPL-2.0-only-with-openvpn-openssl-exception"
 
-PV = "2.6.4"
+PV = "2.6.5"
 
-RPM_NAME = "openvpn-2.6.4-1.1.aarch64.rpm"
-RPM_HASH = "688f96a3ca4ab284154231bdbe89a13bb0176c797bfe6302ec14fa608140094926e076e09619b49035b0b1f4ad344e7a11914b0df19f446695b4da7aebe7d25e"
+RPM_NAME = "openvpn-2.6.5-1.1.aarch64.rpm"
+RPM_HASH = "37e621ffee48ee03fd796f832954ba776fcd4b4a09a7b1f5ae6196f849604de2f4f0317846f0e6bf2401d3f327afa976aaa34ec72c198b6737c93f48233be855"
 
 RPROVIDES:${PN} += "openvpn"
 

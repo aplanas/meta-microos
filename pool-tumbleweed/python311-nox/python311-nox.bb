@@ -4,11 +4,12 @@ LICENSE = "Apache-2.0"
 
 PV = "2023.4.22"
 
-RPM_NAME = "python311-nox-2023.4.22-1.1.noarch.rpm"
-RPM_HASH = "c695d211915bc07a67f9a6899caeb2627886464ed36b4a06512b97e85ad79aa6c3abd3a1b8878736c5b541ce47ff8f70ead80275e7814290531a5b39a89224ec"
+RPM_NAME = "python311-nox-2023.4.22-2.1.noarch.rpm"
+RPM_HASH = "90b4b6bc4393489f6847c2a00dded7bf3bd02079c659bb48fe0032e232f4500cd4cbf86030345bc9289f4cef6330169c9662aa277efc8cf4c9bd0eb40ae593b5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-nox \
+RPROVIDES:${PN} += "python3-nox \
+python3.11dist-nox \
 python311-nox \
 python3dist-nox"
 

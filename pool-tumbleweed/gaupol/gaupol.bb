@@ -12,15 +12,15 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.12"
 
-RPM_NAME = "gaupol-1.12-1.3.noarch.rpm"
-RPM_HASH = "f87adad4d700dfe54da237ff83ad4a6e688e76abee2550b2857205d43678b547e97d797d02c0fe8a8fb54c5e6abe5e4e2045b5be37952d17ff49b5ee14d88c2d"
+RPM_NAME = "gaupol-1.12-1.4.noarch.rpm"
+RPM_HASH = "e89ea6bf0b2afcfbe1601aa0d3d4c6dd8b2631d92c98b1e4919c67152550d96392bf79d073237577c386558fa2dad358b401b83d16ac7d1283549dd652c316eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gaupol \
-python3.10dist-gaupol \
+python3.11dist-gaupol \
 python3dist-gaupol"
 
-RDEPENDS:${PN} += "/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
 python-abi \
 python3 \
 python3-aeidon \

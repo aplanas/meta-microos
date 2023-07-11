@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.13"
 
-RPM_NAME = "libtag-devel-1.13-1.3.aarch64.rpm"
-RPM_HASH = "79a045670e5f05b828e802e488933b2c6e53b6dc255318aaf7fff7eeed6ba840169bac3f2cedaa04b9f3c11eff0acd67cace71b0f9d98bff23ce8af9a20075d7"
+RPM_NAME = "libtag-devel-1.13-1.4.aarch64.rpm"
+RPM_HASH = "c3fd09895b37387c0499200b85085f3dc277705571492ad3e0af441406c903f42aef120987ea66e9b634c5a855cc4324dde3d1862d959f2fd317e926e5efcabc"
 
 RPROVIDES:${PN} += "libtag-devel \
 pkgconfig-taglib \

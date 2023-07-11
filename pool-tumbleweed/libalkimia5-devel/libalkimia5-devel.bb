@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "8.1.1"
 
-RPM_NAME = "libalkimia5-devel-8.1.1-1.4.aarch64.rpm"
-RPM_HASH = "6385956efe54b68535701657d669c3170d4b6a82d7b2e041cca4348b2b5e605759330441ef7928d964f8f8aa2306e5998f4db153b181b40d6327ca056cf1aa8f"
+RPM_NAME = "libalkimia5-devel-8.1.1-1.5.aarch64.rpm"
+RPM_HASH = "dd0634b5d4a7c601809bdd3df1fcf244f5adbc4df7ae1fe121317e5e7309e150d69518fb4ad27331b0a353e508fee837a0de565da586d4ecb477d0c15bbeeaa2"
 
 RPROVIDES:${PN} += "cmake-LibAlkimia5 \
 libalkimia5-devel \

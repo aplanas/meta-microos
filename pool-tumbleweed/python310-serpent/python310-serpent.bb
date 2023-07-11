@@ -8,12 +8,11 @@ LICENSE = "MIT"
 
 PV = "1.41"
 
-RPM_NAME = "python310-serpent-1.41-2.3.noarch.rpm"
-RPM_HASH = "86d73345e86fd435263cf863d7a4f926ca0c1c28dc2f211a983630a27f9da19b9d0b97d6894e70c22d46bc5b33302e970fbaa5c6c8ec42b0e42cd93a10a096b1"
+RPM_NAME = "python310-serpent-1.41-3.3.noarch.rpm"
+RPM_HASH = "f8fd24d3a661a6013a69b0a6d359b69f67c41331d47df6267c53702bdc0d00c6a9fef02fe98a3941684e82e4db70581fc5e08e76212488f362814621264fa987"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-serpent \
-python3.10dist-serpent \
+RPROVIDES:${PN} += "python3.10dist-serpent \
 python310-serpent \
 python3dist-serpent"
 

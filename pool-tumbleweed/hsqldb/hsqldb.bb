@@ -18,10 +18,10 @@ BSD License. Yes, that's right, completely free of cost or \
 restrictions!"
 LICENSE = "BSD-3-Clause"
 
-PV = "2.7.1"
+PV = "2.7.2"
 
-RPM_NAME = "hsqldb-2.7.1-1.2.noarch.rpm"
-RPM_HASH = "8dc98172131cb9ae05ebca6be90d57906d765e1f1a1107c1f5c5993da2190254d927dc1cb83cfc699cabc315800c317c0864a72904cecb64a87ff256d44d3ae7"
+RPM_NAME = "hsqldb-2.7.2-1.1.noarch.rpm"
+RPM_HASH = "1dd0f13c212d840df62530c81b5d1c464adaf8b0cdd31878f83512e973d4cd42d9e4469d56a461080861c8e7516ccd08f764fc8460efe77138319f285563a656"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-hsqldb \

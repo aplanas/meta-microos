@@ -4,8 +4,8 @@ LICENSE = "OpenSSL"
 
 PV = "0.0.20021209"
 
-RPM_NAME = "libiconv_hook-devel-0.0.20021209-1.27.aarch64.rpm"
-RPM_HASH = "f4fcb9497bff0347b2c7ae56dfb77d9aa9ccfe8d2f7f83c76f40a215c72ca9241baea8525ffa6f155e8b0899c207bf3788b228cfe6fbe39bd16100324f608980"
+RPM_NAME = "libiconv_hook-devel-0.0.20021209-1.28.aarch64.rpm"
+RPM_HASH = "6a8be6c5e8b50808e8b03566f2664ec7eee9ae811412fcdba23dc3cf5ba169af52cc7e9eadab203230fd3934d50dcae0e0be9be37bfd7801371793b72ede796b"
 
 RPROVIDES:${PN} += "libiconv-hook-devel"
 

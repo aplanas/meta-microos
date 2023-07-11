@@ -6,10 +6,10 @@ the visual effect of the applied theme. \
 This package provides the GTK 3 version."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.6.0"
+PV = "2.7.0"
 
-RPM_NAME = "awf-gtk3-2.6.0-1.9.aarch64.rpm"
-RPM_HASH = "c638b6ac649cbf8b7404668607bae677cf34cf4e2d397a671e89c675e28acafbf087260a34f68b4d661980cbeef96b6b356e8bf70e884d973f679d433b7adc80"
+RPM_NAME = "awf-gtk3-2.7.0-2.1.aarch64.rpm"
+RPM_HASH = "ae5a8a8a7231f40736b0c2786c89cf5f792b8d13807a5cb4d75d71c9e659c65d9256e02b57d4cca82c02ce04dd2e8dcec66700a20bc80e6f30a0bad1d1cd0d03"
 
 RPROVIDES:${PN} += "awf-gtk3"
 

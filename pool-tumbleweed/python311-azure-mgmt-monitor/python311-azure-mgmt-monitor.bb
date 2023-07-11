@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "6.0.1"
 
-RPM_NAME = "python311-azure-mgmt-monitor-6.0.1-1.1.noarch.rpm"
-RPM_HASH = "4692ac971a53df688fab7eb98942fd8f33c2646180fb06847be511f8a475fbde5d940bf5adcf128a8ebf6dffa2e45e625fd92b40018db27b6660033e3ceb90be"
+RPM_NAME = "python311-azure-mgmt-monitor-6.0.1-1.2.noarch.rpm"
+RPM_HASH = "353fcace6b429da9be12b62c7341841266088cf8a6ff38eb64a4484c26098bf23224cf281d92b892207e8a34f3692a8d2c3aaf68bad450fa23d355da58700132"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-monitor \
+RPROVIDES:${PN} += "python3-azure-mgmt-monitor \
+python3.11dist-azure-mgmt-monitor \
 python311-azure-mgmt-monitor \
 python3dist-azure-mgmt-monitor"
 

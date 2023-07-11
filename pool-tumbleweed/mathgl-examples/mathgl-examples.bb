@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "8.0.1"
 
-RPM_NAME = "mathgl-examples-8.0.1-3.3.aarch64.rpm"
-RPM_HASH = "3d170376212a13a3f69aa5464e0eac7d8c760f182f543775c5055b3c8f7d1dd210d1b4a9f8adf218a1650e2f54f572564b96956dfb246ad77d6e659cb0194618"
+RPM_NAME = "mathgl-examples-8.0.1-4.2.aarch64.rpm"
+RPM_HASH = "341cf03cf45ce9e4657e5d217b266f3911072c1c8f36bb6746749ebcf5a0cc4bc0fb23933bb010bb5ec4a1ace04aaf96006c2ef226d69d756708d0ced9e178fa"
 
 RPROVIDES:${PN} += "mathgl-examples"
 
@@ -25,7 +25,7 @@ libgomp.so.1 \
 libgsl.so.27 \
 libgslcblas.so.0 \
 libhdf5.so.200 \
-libhpdf.so \
+libhpdf.so.2 \
 libjpeg.so.8 \
 libltdl.so.7 \
 libm.so.6 \
@@ -36,8 +36,8 @@ libmgl-wx.so.8 \
 libmgl.so.8 \
 libpng16.so.16 \
 libstdc++.so.6 \
-libwx-baseu-suse.so.8.0.0 \
-libwx-gtk3u-core-suse.so.8.0.0 \
+libwx-baseu-suse.so.9.0.0 \
+libwx-gtk3u-core-suse.so.9.0.0 \
 libz.so.1"
 
 inherit rpm

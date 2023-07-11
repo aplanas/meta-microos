@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20220915"
 
-RPM_NAME = "libfvde1-20220915-3.11.aarch64.rpm"
-RPM_HASH = "f579c9daa7aec9c4d0fc6337f8d613282bb49906eeb7d56f6a3bb01c2e068be768577ae7de9eaa582bbf17630a5f4e7ec6f4a6cb93e2709a14c0fc1c08725466"
+RPM_NAME = "libfvde1-20220915-3.14.aarch64.rpm"
+RPM_HASH = "237503cbdab0067e62f8fa912d2a26a0d41f5e1280cf0aceecf4468563b0c520cc5c005bf3f2022746d347264ee7a8bec490e4ee91a552958f28a3d3cfc3cae8"
 
 RPROVIDES:${PN} += "libfvde.so.1 \
 libfvde1"

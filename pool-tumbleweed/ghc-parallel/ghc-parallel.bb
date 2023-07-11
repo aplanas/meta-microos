@@ -14,8 +14,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.2.2.0"
 
-RPM_NAME = "ghc-parallel-3.2.2.0-12.3.aarch64.rpm"
-RPM_HASH = "c15928807e17c2a7565607171e50cde11705c6fa6f5fb156fb984d524395e1878f1cf09754b7022432f1b53b17375fab85c9ec0cb6a00baa37dc1257002e5da2"
+RPM_NAME = "ghc-parallel-3.2.2.0-12.6.aarch64.rpm"
+RPM_HASH = "b14de6fe6a6fdd35e8273d0266ea9590126cb274864fadd5437732239d9bf5df1cee5eee2adb28e1f4da5fb1009eed7adff9b39622c94f2a09d350f5c7cd9e76"
 
 RPROVIDES:${PN} += "ghc-parallel \
 libHSparallel-3.2.2.0-36KAHtmQlbB59K6tPbQ0Jr-ghc9.4.5.so"

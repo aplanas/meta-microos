@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "6.00"
 
-RPM_NAME = "unzip-rcc-6.00-41.3.aarch64.rpm"
-RPM_HASH = "891e9294e26ce6fa7f2a94041227a890a3ec6d9483fa9daecd1b4a7021ced5b263bcd88e14c825fcbc6d56ecca206630d3dac24c8d97db00d66b0b8d5e696a2c"
+RPM_NAME = "unzip-rcc-6.00-41.4.aarch64.rpm"
+RPM_HASH = "3aa5934763a830ea6f82777e2e19fe7268de7508f87c9f8baa03d67c82a106a35ad8b927c2aaa74ab7a0b52366e75d36245a4a1e3f2e4aabc4ac9dfdee944e7b"
 
 RPROVIDES:${PN} += "unzip \
 unzip-rcc"

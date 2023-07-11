@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "0.8.10"
 
-RPM_NAME = "python311-transitions-0.8.10-2.6.noarch.rpm"
-RPM_HASH = "593452249bf1af7200dc9f365a04cb451ea4fe39df4c6dc7cdb3f477995df10fa38ace248ce8bf00a06be6b8e85e064a179f32f88cd37f66ce247ae1117fcea8"
+RPM_NAME = "python311-transitions-0.8.10-2.8.noarch.rpm"
+RPM_HASH = "d81dd884056706dee0171b8d86cbe8258513d0ee20016ef9c0ee8e213e103139f54e2485bb37a547d585a0980bcff51a3a8115e8f9c2b3fc597c35b817e45181"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-transitions \
+RPROVIDES:${PN} += "python3-transitions \
+python3.11dist-transitions \
 python311-transitions \
 python3dist-transitions"
 

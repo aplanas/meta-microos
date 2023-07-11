@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.1.0.0"
 
-RPM_NAME = "ghc-timerep-devel-2.1.0.0-1.5.aarch64.rpm"
-RPM_HASH = "624eb7e4def741877e6dc139286d3d5ecc2a30c6132439df7bccc9584cd125899e6de6735efb3c00f92b07749e0a4a4074b0da5d4731081e36d6c033a92d744f"
+RPM_NAME = "ghc-timerep-devel-2.1.0.0-1.8.aarch64.rpm"
+RPM_HASH = "16e9ba086eb325c24b69b362ad5e8996531e257d7fa1e46d9c36a485efb6e0d989abab3cb23563e9b273c8ac1f278c618663516decef3fe60ab9e32f427a3b3e"
 
 RPROVIDES:${PN} += "ghc-devel-timerep-2.1.0.0-I3sgV342xF22sEKbdw3Ltk \
 ghc-timerep-devel"

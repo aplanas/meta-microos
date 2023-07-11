@@ -16,8 +16,8 @@ LICENSE = "PostgreSQL"
 
 PV = "15.3"
 
-RPM_NAME = "postgresql15-devel-mini-15.3-1.1.aarch64.rpm"
-RPM_HASH = "5dae0cf88a1f754d68e84943cc95aa28d80e29576c67c062436c7b8f4a3c7948907cf024516e27c2f1dcec3ecba7ecc3c6de37e0e9a0d7e48157791f1a7b895b"
+RPM_NAME = "postgresql15-devel-mini-15.3-1.2.aarch64.rpm"
+RPM_HASH = "e6f1d8b7d61c31288561807c02a0948340257c282a28bec4c6c8afc7df3fc453221ff3542f7ad8ad8f7e5eee42976e24f13d1cea47639915a4c03e51aaccf56f"
 
 RPROVIDES:${PN} += "libecpg-compat.so.3 \
 libecpg.so.6 \

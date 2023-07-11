@@ -19,8 +19,8 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "1.45"
 
-RPM_NAME = "perl-Config-Crontab-1.45-1.23.noarch.rpm"
-RPM_HASH = "b0165c43e6fafbad959da2cee7ef136754fa5d1001906f126675ba933b9f1b2dc60d386514c11ba2963cc54af648330a3e00ad1b1f95d6bd41c42287990a0df0"
+RPM_NAME = "perl-Config-Crontab-1.45-1.24.noarch.rpm"
+RPM_HASH = "39fff61144c890197895c4d0e91cf4d47350b5ce1e2b56d01001801037a562b202a73d96422aeacad232b780ca48c91d8e0e57a6f7bdd5a9cb04ffcae58dec27"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Config--Crontab \
@@ -32,6 +32,6 @@ perl-Config--Crontab--Env \
 perl-Config--Crontab--Event \
 perl-Config-Crontab"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

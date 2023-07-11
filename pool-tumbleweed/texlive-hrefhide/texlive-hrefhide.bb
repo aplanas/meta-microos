@@ -14,8 +14,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.1asvn66189"
 
-RPM_NAME = "texlive-hrefhide-2023.201.1.1asvn66189-53.1.noarch.rpm"
-RPM_HASH = "ab868160de7f91849273365d64b34b434c4c8e2f5f0c2a43198124d7d265b23fc9a704a1228aeaacfbf324b86f99bb0f29a3f99c6282b326eccdcb7d25fa698b"
+RPM_NAME = "texlive-hrefhide-2023.201.1.1asvn66189-53.2.noarch.rpm"
+RPM_HASH = "cdc1ec41388d542febe6dff5a52e9bd62222476b4d78ae356aaa8867e0facc809e24bbd1ce3f00445edfb6976867fc0bff64e7b38989f78724d380eea21deebf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hrefhide.sty \

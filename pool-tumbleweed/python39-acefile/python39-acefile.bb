@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.6.12"
 
-RPM_NAME = "python39-acefile-0.6.12-3.16.aarch64.rpm"
-RPM_HASH = "088bc3e4ed4e835d0df2b4db8bb44fb06537ff1cc32a44557b8276bdd28eea6fbd40fa3b688cb9ec1e857c2ada1c83530cd6bfde0d4d2d8b734d67915ebb49b4"
+RPM_NAME = "python39-acefile-0.6.12-3.18.aarch64.rpm"
+RPM_HASH = "7fa7e0cfe624ffa791f020a1de25feb6634ca992a2f9a57550fa456e97ab7ac590e8eab2ecc1b37b7a7bc0d3b86e3c31ca104831492ee94fee6f0f38cb3cdc40"
 
 RPROVIDES:${PN} += "python3.9dist-acefile \
 python39-acefile \

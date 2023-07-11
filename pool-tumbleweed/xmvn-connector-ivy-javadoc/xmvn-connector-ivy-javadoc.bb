@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "4.0.0~20220623.8da91ea"
 
-RPM_NAME = "xmvn-connector-ivy-javadoc-4.0.0~20220623.8da91ea-1.1.noarch.rpm"
-RPM_HASH = "4c16c3e22f76b4ce82c8754914fd8edf40835fbd23310b12c7b7fca1637a7075c183746dcedd9ef3ef7259ad12ee957bd483aa36152972d30eaba61a3435a632"
+RPM_NAME = "xmvn-connector-ivy-javadoc-4.0.0~20220623.8da91ea-1.2.noarch.rpm"
+RPM_HASH = "e3735ee5041adfe97ba8b319b2a16ecd49e65a08adaa48151467b0b87e7e780e171a829a87e2067cc8c7774a508541e69f2e84ba528a2f0610fb74ed08cea5dc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xmvn-connector-ivy-javadoc"

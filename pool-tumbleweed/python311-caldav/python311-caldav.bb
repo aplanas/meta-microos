@@ -7,11 +7,12 @@ LICENSE = "Apache-2.0 & GPL-3.0-or-later"
 
 PV = "0.10.0"
 
-RPM_NAME = "python311-caldav-0.10.0-1.3.noarch.rpm"
-RPM_HASH = "4fe49974763830b74db8f3037bf09c1ef145bb3f7d9aa9f86ac1589395575e652de25231d77d28887276939bb1edc103657e069ffb47858798077b7b2b4a9601"
+RPM_NAME = "python311-caldav-0.10.0-1.5.noarch.rpm"
+RPM_HASH = "a375f98dc65d8d4d633e021a74a24b41cf9c72707b8da34caf2c23f2b8fae5cfff924ec2c7168ac20900823b548698070179adccf58cbb1600d8d98be3b12256"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-caldav \
+RPROVIDES:${PN} += "python3-caldav \
+python3.11dist-caldav \
 python311-caldav \
 python3dist-caldav"
 

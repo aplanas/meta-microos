@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.5.22"
 
-RPM_NAME = "libdframeworkdbus2-5.5.22-1.6.aarch64.rpm"
-RPM_HASH = "c74c4401f53074e00d441d4ed9fea6daa8ef4e1ecb66432a8bd138f2b672def4ec0f4c1d73bb617afdafec0dd40c33a7ba0aa15963591f6cb94ef2066faad9e7"
+RPM_NAME = "libdframeworkdbus2-5.5.22-1.7.aarch64.rpm"
+RPM_HASH = "4bef669edc4686a19cc8020402abe1fdf01fc8a14310b2d5e21a0439a4bc573be48807d14f2e5dd0d9f2f091c167bf15aff5b9f68dbfc71acfaed6e3f7f16378"
 
 RPROVIDES:${PN} += "libdframeworkdbus.so.2 \
 libdframeworkdbus2"

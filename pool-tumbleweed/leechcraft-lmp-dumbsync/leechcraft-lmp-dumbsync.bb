@@ -5,8 +5,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-lmp-dumbsync-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "e1777705e97f42d0eb1440f097c20be4684d1c69f037f0b1c247f207029c7200a8fd0aa64d9bf12318f17d65eb0eb956acda4e385433f8062307d0e8b4feb566"
+RPM_NAME = "leechcraft-lmp-dumbsync-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "4bcb1067289cee8b78c66d1d6bf203c55af13265916ddd30c082c94e4f4419027017b29fc5b213b2f97d9c1896532bd4b061db7e3d615a7d5fecc3453392b61d"
 
 RPROVIDES:${PN} += "leechcraft-lmp-dumbsync \
 libleechcraft-lmp-dumbsync.so"

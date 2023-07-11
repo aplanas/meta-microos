@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.0+git.20150524"
 
-RPM_NAME = "fastlzlib-0.0+git.20150524-2.19.aarch64.rpm"
-RPM_HASH = "09af61cd1929deb3e5af6e727b087871f1e6dba0dfd9b25f05f4d0b724daf877d7e762dec945f32eb63bd44781710006a0a38bee39c00ca36adfd75e2a3983d2"
+RPM_NAME = "fastlzlib-0.0+git.20150524-2.20.aarch64.rpm"
+RPM_HASH = "346cb7f80ba32a96a8e631cbc80412cec1e0be80166faaa3232fef604d028f55644c941f9f05755aac6a741a60a85e1f42bce3c5162b44212f08f33c1685dd2c"
 
 RPROVIDES:${PN} += "fastlzlib"
 

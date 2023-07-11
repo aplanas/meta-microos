@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2019.7.2"
 
-RPM_NAME = "python39-czifile-2019.7.2-2.9.noarch.rpm"
-RPM_HASH = "e1974985491ddea39846f80c5ab5297525017838c8f80bab064bd2a68604f2dbd3efc2cbfb85cf4271ebbe5604523ba954e68352582c8b07aba2454e931e0c21"
+RPM_NAME = "python39-czifile-2019.7.2-2.11.noarch.rpm"
+RPM_HASH = "9314fb9bb10fafb204cdca8525a4248c968ddbe810a41883994bb0069ae74a4fd89a4ea246d273285c312d52f8a4c0901a89740aa624e82d416f01c6c57a2631"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-czifile \

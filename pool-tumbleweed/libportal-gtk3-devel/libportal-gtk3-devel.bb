@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.6"
 
-RPM_NAME = "libportal-gtk3-devel-0.6-1.7.aarch64.rpm"
-RPM_HASH = "b238dabea5a55fb1fb46085fce19dc38f7321225a28f3e3be14132420321c384357a46e7fe50e4b87cb236ec5daea383a2d24bfeb2ef1521e553580daf65ecce"
+RPM_NAME = "libportal-gtk3-devel-0.6-1.8.aarch64.rpm"
+RPM_HASH = "08fd1f63d60521e8255f5e528deaa96586b80f8757ac8cac18bedaf86649e389b449a570234a5ed86eb5342eb8c95191e918624e34339b46823ac182c324c243"
 
 RPROVIDES:${PN} += "libportal-gtk3-devel \
 pkgconfig-libportal-gtk3"

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.1.2"
 
-RPM_NAME = "python39-pytest-percent-0.1.2-1.12.noarch.rpm"
-RPM_HASH = "a6c8f08ffada4d96c71363ce7a233e147ce2450a4c5ef6182450426dc6fbc5503116c7f413976b9b5f814378bcd7fd933d36394cd92d00af1d1f05a5eadda34f"
+RPM_NAME = "python39-pytest-percent-0.1.2-1.14.noarch.rpm"
+RPM_HASH = "2b296fdb2d5ab9f6a7f0825f6a15c48d8076ba30033581d9bf67f6e32b2b8b82c578bf6a48691d9aa5c02de297f5d4bbaa1b6d362f442e00454def81bb25566f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytest-percent \

@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "7.1.14"
 
-RPM_NAME = "python39-minio-7.1.14-1.2.noarch.rpm"
-RPM_HASH = "69d77f079ed113f7216ca8be1f7e793dc7c36d5a77f29c8d1098c8f8c5d1005352691c28c6758d756a77180de4ea721fb03a441df6cff4cd75aca673f6d7b778"
+RPM_NAME = "python39-minio-7.1.14-1.4.noarch.rpm"
+RPM_HASH = "13e79306606ae3c24d6badb81d9e252d05475b44d34aef9cef71e0247d95edc4c91f9c66e92a590486cdc1bc39e9957f6ac4058e4514dd6d0a7580d3c7a2758f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-minio \

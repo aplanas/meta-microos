@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.11.3"
 
-RPM_NAME = "phonon4qt5-backend-vlc-lang-0.11.3-1.14.noarch.rpm"
-RPM_HASH = "e6047e894ac9a73c89e6cf1f7eadb1dcdabef10d71573050db4fd9990b15857a64a30f879e2e4ba5c85ab7cfb17a3f27d8f2146e4cca2ed5fe8a8b035f436096"
+RPM_NAME = "phonon4qt5-backend-vlc-lang-0.11.3-1.15.noarch.rpm"
+RPM_HASH = "acfd84116b87f0bd3c4b4650afbdab5a94d321dafc3b36ae27c7480ab521d992e9774592608ce9351a5aa1072a553331ffe3a46c945ab7663fae6f41f87192d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-phonon4qt5-backend-vlc-ca \

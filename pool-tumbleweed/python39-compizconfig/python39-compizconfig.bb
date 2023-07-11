@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.8.18"
 
-RPM_NAME = "python39-compizconfig-0.8.18-2.21.aarch64.rpm"
-RPM_HASH = "91eaea6a0d92a60a4987fda63bc6689e0ea73adc3c2286673df6823df15823de2300db7d54a4a86ca94a71154ead35cf524b1ef2d1cdda4d08ac3f499e1e8004"
+RPM_NAME = "python39-compizconfig-0.8.18-2.22.aarch64.rpm"
+RPM_HASH = "ee06e3627942a306ae001c0f5f6f37535362d0c8ca297801b7bc6d73ebb7bd7846b4f6ca840aec1b37fa00d02e3c210be1dfd4cc043524da69495f70de7de972"
 
 RPROVIDES:${PN} += "python39-compizconfig"
 

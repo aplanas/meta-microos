@@ -64,8 +64,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.50.1"
 
-RPM_NAME = "guestfs-tools-1.50.1-1.1.aarch64.rpm"
-RPM_HASH = "6e4e0cb39393a17c45ea65bb613af49c71c3d6e982fc56dcfb39b34957078868848ed1c09fada357621b605e8b03e52ff06a641e4f6982c917f0e0b617bb58f8"
+RPM_NAME = "guestfs-tools-1.50.1-1.2.aarch64.rpm"
+RPM_HASH = "e7ccc26ffb16f0925e0cdd6047b0743aa2407662f1e670fed039f3921531a9e9cfcce80cccfe36daa5472494f96f670dac8d9622cf47daafae563c7dcbccaf1f"
 
 RPROVIDES:${PN} += "config-guestfs-tools \
 guestfs-tools"

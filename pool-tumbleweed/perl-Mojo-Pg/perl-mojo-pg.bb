@@ -11,8 +11,8 @@ LICENSE = "Artistic-2.0"
 
 PV = "4.27"
 
-RPM_NAME = "perl-Mojo-Pg-4.27-1.7.noarch.rpm"
-RPM_HASH = "b634d0f4ec3b145eb0e1bc3f3e9884904680ca1c6b7fe915f093802ad4da8e1b262a8ac728a3336151e6fc249af6968875333dac91adef7bd3922be1a08ce84f"
+RPM_NAME = "perl-Mojo-Pg-4.27-1.8.noarch.rpm"
+RPM_HASH = "a0e7ef5b59bd7fe2c1539bb10333af2dca22412882a61927f0b02dfd2d4b705c8867b302c9e3d32752465865abe0c199c5ecd8facf71e519deca0d2dfbc20c5c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mojo--Pg \
@@ -23,7 +23,7 @@ perl-Mojo--Pg--Results \
 perl-Mojo--Pg--Transaction \
 perl-Mojo-Pg"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-DBD--Pg \
 perl-Mojolicious \
 perl-SQL--Abstract--Pg"

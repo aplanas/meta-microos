@@ -10,8 +10,8 @@ LICENSE = "BSD-2-Clause & GPL-2.0-or-later"
 
 PV = "1.13"
 
-RPM_NAME = "lzlib-devel-1.13-1.7.aarch64.rpm"
-RPM_HASH = "99989c49f70aa52c82607b855ab32d54f79e7ac8acbf804304bed30b45fbd9ef17e0b8a5b88bb65320886187c9d09f1a918ff3de7d812e2dd1ff10d11efc308d"
+RPM_NAME = "lzlib-devel-1.13-1.8.aarch64.rpm"
+RPM_HASH = "82f24bed5fcbd205fe75f34df2fb3add62aa14adc816f921dcb9639848fcee4d96682059be57ec9620418d67cc7936a371bcacedcb2053a353a63eebcf3d9f2b"
 
 RPROVIDES:${PN} += "lzlib-devel"
 

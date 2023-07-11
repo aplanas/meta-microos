@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "3.6.0"
 
-RPM_NAME = "python39-jaraco.functools-3.6.0-2.1.noarch.rpm"
-RPM_HASH = "b50ef895ff3b06f0e8fb2242f4deff3f0119789257050e7bff692e46c15718c4ba67db4517326e81782ffb1b8d3177d56426957a9a8ba8fdc6177fbd2f52aca7"
+RPM_NAME = "python39-jaraco.functools-3.6.0-2.3.noarch.rpm"
+RPM_HASH = "93e657a1063b00c37552e406e75d1dc4d0910ef3a3952d8df538d5459734b3f7cacc7911b097b6c3fa604ac383407f3e03f4f3eb416ea832d6babbb2ecbe7032"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-jaraco.functools \

@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.6.2"
 
-RPM_NAME = "python39-iwlib-1.6.2-1.20.aarch64.rpm"
-RPM_HASH = "58733f79089bec641d8c91441cb803c28a2bef930684a820447f75abc46a7ffd377dee3f89c7b8ea7461a9a6f5f75fe37e52aa43699c5f2c3dba8a3beb2860d7"
+RPM_NAME = "python39-iwlib-1.6.2-1.22.aarch64.rpm"
+RPM_HASH = "1710f00381feb619ed83b5240037ec1bcabb00666c0598123c928ded4c7a36c128ab8f7bac373f546d992337ee40edecbaadc76d4ea22c71046be4407592f8be"
 
 RPROVIDES:${PN} += "python3.9dist-iwlib \
 python39-iwlib \

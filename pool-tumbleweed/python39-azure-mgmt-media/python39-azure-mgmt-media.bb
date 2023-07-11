@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "10.2.0"
 
-RPM_NAME = "python39-azure-mgmt-media-10.2.0-1.3.noarch.rpm"
-RPM_HASH = "532bcdfeee0093bf8a3e222df4c337fb46bcf79848b561fc0cd5ef11a2df1c791bbeeebb1cd36538c41c1011885630275e3f20316b6f2656cea59c6c51d14cec"
+RPM_NAME = "python39-azure-mgmt-media-10.2.0-1.4.noarch.rpm"
+RPM_HASH = "72983ce92e44161a2d05502e400e40251f41b06b7cacd40b212dffe52d0501cad9e93cfb80ac706c3040ef8326c7c14da8332c052e16e2fb3f5349e6a0cbff85"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-media \

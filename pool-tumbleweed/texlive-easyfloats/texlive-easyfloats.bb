@@ -9,8 +9,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.0.0svn57204"
 
-RPM_NAME = "texlive-easyfloats-2023.201.1.0.0svn57204-53.1.noarch.rpm"
-RPM_HASH = "60097bb8a1e32bb52a8331897ea33afaa28c067df28cfe534a870519ae56b18e7854de60a0f8a578f27b5c4860a4cf2bc3259d58e2f50f4ef442c5f8b022c7b5"
+RPM_NAME = "texlive-easyfloats-2023.201.1.0.0svn57204-53.2.noarch.rpm"
+RPM_HASH = "1e920b3f97375b40881edbad807919206021e7f8b48a7af975e2ec7992bdeb0a9ccc61b993b5ec2361018e0af279adda8f2f365631b77ca6531dfe1ce33d99dd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-easyfloats.sty \

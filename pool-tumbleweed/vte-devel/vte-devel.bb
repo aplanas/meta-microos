@@ -7,10 +7,10 @@ This package contains the files needed for building applications using \
 VTE."
 LICENSE = "LGPL-2.0-only"
 
-PV = "0.72.1"
+PV = "0.72.2"
 
-RPM_NAME = "vte-devel-0.72.1-2.2.aarch64.rpm"
-RPM_HASH = "03ac586e0d80f844dca301d2f97bee4b1498ada543e2de44575fbeb3e4486b63f8fb81b205a39aca379c6cde8e48a7df55421344eee2ff6c8ece9b812354c895"
+RPM_NAME = "vte-devel-0.72.2-1.1.aarch64.rpm"
+RPM_HASH = "935cdf982026983f1800638c845e75cba1570be2acc7b069e3977a7072d439d6d7a27d47b719694096b04dc207010c1476e0a73bc5e6635e724d1b56133319b8"
 
 RPROVIDES:${PN} += "pkgconfig-vte-2.91 \
 pkgconfig-vte-2.91-gtk4 \

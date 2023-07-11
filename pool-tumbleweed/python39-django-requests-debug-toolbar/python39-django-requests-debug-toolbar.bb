@@ -3,10 +3,10 @@ DESCRIPTION = "Django Requests Debug Toolbar tracks all HTTP requests made with 
 requests library."
 LICENSE = "MIT"
 
-PV = "0.0.3"
+PV = "0.0.5"
 
-RPM_NAME = "python39-django-requests-debug-toolbar-0.0.3-1.3.noarch.rpm"
-RPM_HASH = "adb04b101d1bd748e00d8b9b86cc947ac0ba0ed363e5bd18be269d3ad772821f69e2eb1149d8372f764bc38025809b1ddd20aa40dfbcba095fcc553ec895fdcf"
+RPM_NAME = "python39-django-requests-debug-toolbar-0.0.5-1.1.noarch.rpm"
+RPM_HASH = "bdb8d52bcde01c946012d33ff33ae815e57112d2f8933690260a1284a75ba24ea7954d13b9ea037d4472d8c1e1002d15a54f5d1c0678d28a9a376bb65393760f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-django-requests-debug-toolbar \

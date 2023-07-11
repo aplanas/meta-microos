@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.15.1"
 
-RPM_NAME = "librepo0-1.15.1-1.4.aarch64.rpm"
-RPM_HASH = "e7a4fea20ca1ad7a970205e5834da252be82ca99254287884379dece63c2c2dcd4cda163b2c36f570a51fd3d1510973a997e8ad33f2fbb9a69f45f3bd31a8fba"
+RPM_NAME = "librepo0-1.15.1-1.6.aarch64.rpm"
+RPM_HASH = "60d84a00943d99f05a069235a6485a6d018e84f7ef2253eab5777f4989eb4b09fdfd61183ccf1eff7e120f4dfd0e3546c677fd9b93f81140a487871fe82d4fa6"
 
 RPROVIDES:${PN} += "librepo.so.0 \
 librepo0"

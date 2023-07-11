@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.2.0"
 
-RPM_NAME = "plasma-pass-lang-1.2.0-3.8.noarch.rpm"
-RPM_HASH = "7f363941136bed3b32008b59130f3dfee0696cdf10cf0bce54733da4e5bb0655a9bf7f332f413ac6a0ed7d8838f6ac7d894b0aeb3bcbc673a1db8394b5fe8721"
+RPM_NAME = "plasma-pass-lang-1.2.0-3.9.noarch.rpm"
+RPM_HASH = "fbd92991c697580f38163d2fcdd9848b93c25a5652e457782fb870be7d8c0bf5e81db5da8b115fbb36da8fcdce721501b028dfdb463caf9799fbc279843ed632"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-plasma-pass-ast \

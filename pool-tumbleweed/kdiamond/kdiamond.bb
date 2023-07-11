@@ -2,10 +2,10 @@ SUMMARY = "Single player puzzle game"
 DESCRIPTION = "The objective of the game is to build lines of three similar diamonds."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kdiamond-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "751428293abe0f7656733ff33f89a300949aaca3a509b697568c411034f70af3c4493aa9d5a863aca32ffe1548b13fc3b547e5d806609140ca8f1d72a50c15e1"
+RPM_NAME = "kdiamond-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "1b6364f4d8330a0b8b2150695d77960cf86f9ab9d60705f649fd8b9bdbc5e95f52aeb622f746e6b6edbb806922f84fe9ffc1ae3795834dc18b882bac6ddd3cad"
 
 RPROVIDES:${PN} += "kdiamond \
 kdiamond5"

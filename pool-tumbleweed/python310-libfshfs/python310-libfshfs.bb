@@ -24,11 +24,10 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20220831"
 
-RPM_NAME = "python310-libfshfs-20220831-3.9.aarch64.rpm"
-RPM_HASH = "ce8d8ff7f2a4e20a8dd6eb1d61dc5fc71fd07e9f01eb6bb0d99c9016bf271fd02588fa29db227535517293e9058d2f199b1b32df7f3bd0e2a54f052371ea19c8"
+RPM_NAME = "python310-libfshfs-20220831-3.13.aarch64.rpm"
+RPM_HASH = "fb49625af4f86162752d1228142382e6ba74ec4b061f91f017fcf465d8ae656be29c4e43243ae44cf151db5292cf45e2d29480d82d7da7d15b2359b20c4db266"
 
-RPROVIDES:${PN} += "python3-libfshfs \
-python310-libfshfs"
+RPROVIDES:${PN} += "python310-libfshfs"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libbfio.so.1 \

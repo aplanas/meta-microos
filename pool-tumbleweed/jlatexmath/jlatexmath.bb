@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0.3"
 
-RPM_NAME = "jlatexmath-1.0.3-6.6.noarch.rpm"
-RPM_HASH = "119ad8f89bea4514d2e8d68bb4b2bc688b6c99235f089e86381ce811e415c2c4e35b5bb0ea9acb26e36f12ef79d196ccded5edb3e98458ecaf0db86ecc9d4a9d"
+RPM_NAME = "jlatexmath-1.0.3-6.7.noarch.rpm"
+RPM_HASH = "b27ff666dca513f3756c3f47ef2c8b5411b477866966b558bf42f2dbf7fa4d9034c0ddf069cb1c1438d5c771763ae488b7005090fc6f9ef6325ff6ac07069424"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jlatexmath"

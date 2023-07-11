@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.2.0"
 
-RPM_NAME = "python39-fedora-messaging-3.2.0-2.4.noarch.rpm"
-RPM_HASH = "cf4091d986462b0ab18c38febb52df85f2d67c50a0443af1fea1f7ecff80843b597dd2a3d4e89c5826357911cf7505399b7b241472b9006f5b20bdd8734a102c"
+RPM_NAME = "python39-fedora-messaging-3.2.0-2.6.noarch.rpm"
+RPM_HASH = "017f81036ad2a9f3dc29d10344d7bd8788e1f03f83b38453160183029478baa06596a2a66fe3a9ca471c118a71eb8bb55db427249656eeeddd2280bc0acaed2e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-fedora-messaging \

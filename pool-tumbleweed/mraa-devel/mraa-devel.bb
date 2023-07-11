@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "2.2.0"
 
-RPM_NAME = "mraa-devel-2.2.0-2.10.aarch64.rpm"
-RPM_HASH = "afa1d28220372ccd9bd6271d8e498d5fb65e514c635063509a363ee90ebc0cc3fa93400c74ed813f1d3e3754dc895d3cdfe73db34f06f956dd6aeb988ac9d14a"
+RPM_NAME = "mraa-devel-2.2.0-2.11.aarch64.rpm"
+RPM_HASH = "047f8119b007dfb4af670995530f3ce196dff5a6127710e66024971d55405c2a8fd8af61b675f7144e7f569935cbcda6b607bc27db48cb9735b0d175415f6933"
 
 RPROVIDES:${PN} += "mraa-devel \
 pkgconfig-mraa"

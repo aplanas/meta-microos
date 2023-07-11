@@ -2,10 +2,10 @@ SUMMARY = "Mesa Gallium GPU drivers"
 DESCRIPTION = "This package contains Mesa Gallium drivers for 3D acceleration."
 LICENSE = "MIT"
 
-PV = "23.0.3"
+PV = "23.1.3"
 
-RPM_NAME = "Mesa-gallium-23.0.3-349.2.aarch64.rpm"
-RPM_HASH = "18c923c5077daaddeaa86f84b8298085305f7858e4fcfc4818f8c9fb6e644f0073164c431802545900aea30e6a377250abec4ae2fc0e092397a59e6337783919"
+RPM_NAME = "Mesa-gallium-23.1.3-353.1.aarch64.rpm"
+RPM_HASH = "0f4a86607ef07ce6cbd042bb7f7f4df6a7bdbb9c9d5409491c5458378a79a11ea6caa2f4e18d57f20e937f90d73e50b2372895d6030ba3116d1903b9c6e44e81"
 
 RPROVIDES:${PN} += "Mesa-gallium"
 
@@ -22,7 +22,6 @@ libexpat.so.1 \
 libgcc-s.so.1 \
 libm.so.6 \
 libstdc++.so.6 \
-libz.so.1 \
-libzstd.so.1"
+libz.so.1"
 
 inherit rpm

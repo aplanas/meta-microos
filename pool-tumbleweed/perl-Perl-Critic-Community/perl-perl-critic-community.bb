@@ -8,8 +8,8 @@ LICENSE = "Artistic-2.0"
 
 PV = "1.0.3"
 
-RPM_NAME = "perl-Perl-Critic-Community-1.0.3-1.3.noarch.rpm"
-RPM_HASH = "348e27881aafdc1ada74ab07504fc88e8e20e40cba0aaa2538cd11b4fddffb0c23024134eecb422c56afe57f68f8f4097f58fde699acb79541f749edceaec6d7"
+RPM_NAME = "perl-Perl-Critic-Community-1.0.3-1.4.noarch.rpm"
+RPM_HASH = "a8748cec57db931decea57d22e5e575841cdd7a58ffbc20208d3e310ea6edfc6c81ce287a36695f93479572b20ebe8a396e4e4c30c9bb25bfbb613c1aadbafb4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Perl--Critic--Community \
@@ -70,7 +70,7 @@ perl-Perl--Critic--Policy--Freenode--WarningsSwitch \
 perl-Perl--Critic--Policy--Freenode--WhileDiamondDefaultAssignment \
 perl-Perl-Critic-Community"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-List--Util \
 perl-PPI \
 perl-Path--Tiny \

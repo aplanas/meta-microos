@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "1.8.7"
 
-RPM_NAME = "python310-WebOb-1.8.7-6.1.noarch.rpm"
-RPM_HASH = "d63f091b56bd419acf7526d96655e3fa0861315b046b681c311b4cfc8ff4abe9c3ad1ca41ca8e9eb2560fae56c37393d111358f02c0ce7c4c620e27d5d59580e"
+RPM_NAME = "python310-WebOb-1.8.7-6.3.noarch.rpm"
+RPM_HASH = "6dfa4811a143e5abcbb641ea8c4334d43bf736ff61c6c16afe1fcbd2f256ecf4914fae0751a61f131164b10ff0b9288d0cc339ebf8e9d50377d29863e81f8261"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-WebOb \
-python3.10dist-webob \
+RPROVIDES:${PN} += "python3.10dist-webob \
 python310-WebOb \
 python3dist-webob"
 

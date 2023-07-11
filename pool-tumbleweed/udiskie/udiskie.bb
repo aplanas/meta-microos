@@ -15,11 +15,11 @@ LICENSE = "MIT"
 
 PV = "2.4.2"
 
-RPM_NAME = "udiskie-2.4.2-1.6.noarch.rpm"
-RPM_HASH = "479a88907c93f3d8a7a5ec7404edca96305799dad12ca31feb4a090b998be0f59efe250902f31d01cf27110ee10d326ffaed5f17f4d0802b1cf11d4e2daf80dd"
+RPM_NAME = "udiskie-2.4.2-1.7.noarch.rpm"
+RPM_HASH = "46ffc59e4ba52b9e5e0b9d921286a62dd38b059d174606c14a175f0c5f586aaa784d6dee06f98850733b708b278bef91aac78ba42733cf8803362bc4a97705d0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-udiskie \
+RPROVIDES:${PN} += "python3.11dist-udiskie \
 python3dist-udiskie \
 udiskie"
 

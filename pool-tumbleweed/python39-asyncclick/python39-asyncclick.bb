@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "8.1.3.4"
 
-RPM_NAME = "python39-asyncclick-8.1.3.4-2.1.noarch.rpm"
-RPM_HASH = "6aef2000680e7580be892784b1a998f44ade73dc499dcd1b64994f6d9e124504808936d514c262cc7435cc967f31030eb87fa74086b07558aa62452c62d8f6a8"
+RPM_NAME = "python39-asyncclick-8.1.3.4-2.3.noarch.rpm"
+RPM_HASH = "7461f5cab5331d5b7cdd6b92b0271655f6d0d6d04b39261ff601c418227db7b90fe395ae036a103aa2bfaadcc32cc7fd725f02066714cbf63d440347accd97a2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-asyncclick \

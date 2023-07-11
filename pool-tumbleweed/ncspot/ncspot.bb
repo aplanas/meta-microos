@@ -3,10 +3,10 @@ DESCRIPTION = "Cross-platform ncurses Spotify client written in Rust, inspired \
 by ncmpc and the likes."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.13.2"
+PV = "0.13.3"
 
-RPM_NAME = "ncspot-0.13.2-1.1.aarch64.rpm"
-RPM_HASH = "1b093b80eb8d4a103979e334aa8297071590a88d10a3d186d78053aec6cdf59cc21dc8525b9b7f76d01db67795f20e4143dd6bb00c9bccc3972848edb6270aa9"
+RPM_NAME = "ncspot-0.13.3-1.1.aarch64.rpm"
+RPM_HASH = "04827f3c93582fa2385d9777accdd953ffc5cca31aaad18e7fefe07ca75662348bb225d69b24b98d9afa2fceb2f102229ad84b0c6b628498c5050f8a9bb22d06"
 
 RPROVIDES:${PN} += "ncspot"
 

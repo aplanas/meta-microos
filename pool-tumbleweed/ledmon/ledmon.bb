@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
 PV = "0.97"
 
-RPM_NAME = "ledmon-0.97-1.1.aarch64.rpm"
-RPM_HASH = "85df7d500ff7010ba5da4c7770dc49d6fe67b4fdf3954d9e9e7948d87cddc47b9f2526d4c009aced797482a2aa78a3a1b1174f37ba1861f93b5534e9559092ef"
+RPM_NAME = "ledmon-0.97-1.2.aarch64.rpm"
+RPM_HASH = "4c072861e5afa4483ffab603a253d75aafbe6a8126cfcf730678bd9bb1623f2009b64d93e7c4d062dbaa3d2797b8d0d0033b8dad28de0a527fe881582be297ac"
 
 RPROVIDES:${PN} += "ledmon \
 sgpio-/sbin/ledmon \

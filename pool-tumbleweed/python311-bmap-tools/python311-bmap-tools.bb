@@ -7,11 +7,12 @@ LICENSE = "GPL-2.0-only"
 
 PV = "3.6"
 
-RPM_NAME = "python311-bmap-tools-3.6-2.3.noarch.rpm"
-RPM_HASH = "b7cbb8ca18e26a192a30a1ed7a077e9fb9ae1c21d69c54b5e394f1f413908e2a1e08b12be31b1c39611b037e8219b0c4bd217fc12f45b51537ffea2379b11a70"
+RPM_NAME = "python311-bmap-tools-3.6-2.5.noarch.rpm"
+RPM_HASH = "78ee3e2dadd05172531f5140b65c4ecf6639c70510a334e59eb81c8f3c0bef048e1357e2750da056fd828ac77cde7713d6b8c77f4e2cfac769b161a157ecfa20"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-bmap-tools \
+RPROVIDES:${PN} += "python3-bmap-tools \
+python3.11dist-bmap-tools \
 python311-bmap-tools \
 python3dist-bmap-tools"
 

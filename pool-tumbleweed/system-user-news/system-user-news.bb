@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "20170617"
 
-RPM_NAME = "system-user-news-20170617-24.14.noarch.rpm"
-RPM_HASH = "de9a818a7879b2887e10a1a8af5edf27e8019150c00cd51caaa21de9478b7bbf6d0e6544c1dfdb03620df65be4ad54ebea9e09facb613b301a48fea911208257"
+RPM_NAME = "system-user-news-20170617-24.16.noarch.rpm"
+RPM_HASH = "bfa3bf5d18c33ad56cfa7b2d442dea672d0a81440fbf4fe1b040ec0297782d73beaec9f7009e8fb4fb362c7f3893292b94666d313843e5cb267c3924f9a5d84b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "group-news \

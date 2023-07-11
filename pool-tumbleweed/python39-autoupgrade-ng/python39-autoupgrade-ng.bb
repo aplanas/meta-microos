@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "0.3.0"
 
-RPM_NAME = "python39-autoupgrade-ng-0.3.0-3.15.noarch.rpm"
-RPM_HASH = "e65a5c74ed5ea35c6c5626c29750168812b0234bd1204e75de4547b1ea5457f9dbec95939bd8cac95550e057d886e6ddae6eb6da1309674d654daf93fa1a3801"
+RPM_NAME = "python39-autoupgrade-ng-0.3.0-3.16.noarch.rpm"
+RPM_HASH = "9fe2aa6eefe02bfe2928d8fc285d64d6f60a37596821bd11add51f250199e4c2f25aea7bd144218a5f8bcdf388883c6612911850b841578cc362ac69d622db0f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-autoupgrade-ng \

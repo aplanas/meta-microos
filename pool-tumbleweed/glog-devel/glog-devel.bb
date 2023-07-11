@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.0"
 
-RPM_NAME = "glog-devel-0.5.0-1.8.aarch64.rpm"
-RPM_HASH = "db4dab0940f71e92df6aa7af4731837b10a0f23b5a6039ef3e261ebacddeb0b3d5a4edd152c49c01e147ee2b3995d17c1dd5d021268b82afcbdb1bd89ddbe06b"
+RPM_NAME = "glog-devel-0.5.0-1.9.aarch64.rpm"
+RPM_HASH = "41576da8cebbab2bb1e448295473dc637940039e8b9d3a1d17944f411a5e20331ff5662dde76e0e9261fe618ca7e3a27d9713eba2604efcb7fad000b9b0d5c9b"
 
 RPROVIDES:${PN} += "cmake-glog \
 glog-devel \

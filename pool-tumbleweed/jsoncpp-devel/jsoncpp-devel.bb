@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "1.9.5"
 
-RPM_NAME = "jsoncpp-devel-1.9.5-2.3.aarch64.rpm"
-RPM_HASH = "4df7d654d48331240513a6df821a4159d30a65f3e809b6c511ed68f8170d4101ac59b099797603bb653cf51bfe73a866f112c512773c02b30fd69c431fb6a339"
+RPM_NAME = "jsoncpp-devel-1.9.5-2.4.aarch64.rpm"
+RPM_HASH = "f2f05c5266dc062d65f1c51ffe676b7293f2add0a7ec8b9ba1ae7e05cc7441927d07a53accbfc74aaec52728d0144d46ea0e01cf1874b75ceaff4f418a7e924d"
 
 RPROVIDES:${PN} += "jsoncpp-devel \
 pkgconfig-jsoncpp"

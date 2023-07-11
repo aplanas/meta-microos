@@ -5,10 +5,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libfsntfs."
 LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
-PV = "20230427"
+PV = "20230606"
 
-RPM_NAME = "libfsntfs-devel-20230427-1.1.aarch64.rpm"
-RPM_HASH = "8237043fedfc1abb0e54de0a71827c2d6e05fef0d0babc9b0fb828889b11a70652eb6ca4b32be26b2bf7d5108f39b2537eff80982aab148fcd14893a1be60c7d"
+RPM_NAME = "libfsntfs-devel-20230606-1.4.aarch64.rpm"
+RPM_HASH = "d8cd6bde90483180bb9c7119515e3128ef57dc53cf455c683ed2b1ba4d30d527302b8405b27cb86ec6c0503bf38cfdadbdf826fdd0242570e2e0f6f1616e9b1b"
 
 RPROVIDES:${PN} += "libfsntfs-devel \
 pkgconfig-libfsntfs"

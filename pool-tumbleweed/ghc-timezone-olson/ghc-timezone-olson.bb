@@ -13,8 +13,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.1"
 
-RPM_NAME = "ghc-timezone-olson-0.2.1-2.3.aarch64.rpm"
-RPM_HASH = "55933c77286b8b69ad51e64208fa67446b9ae17ddee0a8267436f19c5c3b918654cc185535134d18958636dd2ed1db6be4f74eb3dc05f53fc666576af7db4a08"
+RPM_NAME = "ghc-timezone-olson-0.2.1-2.6.aarch64.rpm"
+RPM_HASH = "b2034e5b1978a0fc67721d76470edfd472dd1fc9dce4b2b62e475fda8bbba93d3ae19c87abe9b17e0a2b2d9ada5f7ac498f82aba85d6d5fde3e90373c73e1415"
 
 RPROVIDES:${PN} += "ghc-timezone-olson \
 libHStimezone-olson-0.2.1-GQQU9hvoQrwIpL0LHxa8ME-ghc9.4.5.so"

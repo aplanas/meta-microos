@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.8.8"
 
-RPM_NAME = "thunar-font-manager-0.8.8-2.3.aarch64.rpm"
-RPM_HASH = "6fc263363965959565b0a173c54f2dfc7096f1f75fda723a8b5c6416ff09f5af461461b17f71da5b8cd1ab6efd02210f0ef715a34a03b3950f56074e3aa77f47"
+RPM_NAME = "thunar-font-manager-0.8.8-2.4.aarch64.rpm"
+RPM_HASH = "50508bf5169498fd5cb7e7071c09a2cda3cc53039178d809c3a32bbfd39826dc6b7a770cc79ccd3022ca2831df98814a66b986e3aa01bcd3ad3be9cb2f776f19"
 
 RPROVIDES:${PN} += "thunar-font-manager"
 

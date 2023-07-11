@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.6.0"
 
-RPM_NAME = "ghc-tls-doc-1.6.0-2.3.noarch.rpm"
-RPM_HASH = "cb7174092a865707f30d1fd32b8bf338aa573e7e8b2e0150be1493bb112d7f3807b9d797ad8d8b8c124d85a4da97684cb99087c59acc95098ed9409e97740af4"
+RPM_NAME = "ghc-tls-doc-1.6.0-2.6.noarch.rpm"
+RPM_HASH = "fd98c50cc95333730f050c576b8e453e06c0b21d93065abebebffca30eafb0e5c1fd2d9c698928d17ce9305e22cbfd18198cce532518c58f4df3952b954e73d3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-tls-doc"

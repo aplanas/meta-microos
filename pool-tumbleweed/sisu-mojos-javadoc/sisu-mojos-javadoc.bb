@@ -4,8 +4,8 @@ LICENSE = "EPL-1.0"
 
 PV = "0.3.1"
 
-RPM_NAME = "sisu-mojos-javadoc-0.3.1-1.1.noarch.rpm"
-RPM_HASH = "c0ba64d7652d11e1085cf4612e7eb1b93c45263093a2d4b375ac49adb3e90faaa9d525f1c1162bf342baaea498319703eb262e3d9a80d56c3d7652ec2178793c"
+RPM_NAME = "sisu-mojos-javadoc-0.3.1-1.2.noarch.rpm"
+RPM_HASH = "c225b0e9e69cde3ab1710d5dce22e98ba745ccb2577ece6485dbbdfc4e39b70461b2ea1ad8288e842df22cb5199042617bd5ecabe1aff342f39a0bce9739aa33"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sisu-mojos-javadoc"

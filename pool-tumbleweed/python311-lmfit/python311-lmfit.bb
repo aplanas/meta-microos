@@ -20,11 +20,12 @@ LICENSE = "BSD-3-Clause & MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "python311-lmfit-1.1.0-1.3.noarch.rpm"
-RPM_HASH = "314036870e48c21d3d29e534511077a77811c2d6c574771eb3521aedc74f1a8e781c385ddc25c3ae7232dcd3eeb42471ba13bae5b0ff38af5f35ed3d409caf4c"
+RPM_NAME = "python311-lmfit-1.1.0-1.5.noarch.rpm"
+RPM_HASH = "cec72ad0f47d0f34fd22a763a88726e8d7ef7cc142c4364b113c824ba23e838894be80d19bb5d4544f1ff2ab518161099865603694bdeb1b565c60e32ad6a942"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-lmfit \
+RPROVIDES:${PN} += "python3-lmfit \
+python3.11dist-lmfit \
 python311-lmfit \
 python3dist-lmfit"
 

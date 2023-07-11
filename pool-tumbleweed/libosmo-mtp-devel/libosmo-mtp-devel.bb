@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.7.0"
 
-RPM_NAME = "libosmo-mtp-devel-1.7.0-1.1.aarch64.rpm"
-RPM_HASH = "33bfdb6aba24282805af0c3216aa19981d366b4d029bb10b9ccffef2053719d0a6711641483766f93d352aa3ae1ef7fefd216fe9871876bac52e2ad65160b06f"
+RPM_NAME = "libosmo-mtp-devel-1.7.0-1.2.aarch64.rpm"
+RPM_HASH = "62b406a1c7a30f3311a0776680b689a0e10193419bc2b486f16d8d84b13d01995f86e8a5d49e430c4460261d9435582a348320a1969fde6a7081178123a56456"
 
 RPROVIDES:${PN} += "libosmo-mtp-devel \
 pkgconfig-libosmo-mtp"

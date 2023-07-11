@@ -11,13 +11,13 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "1.75"
 
-RPM_NAME = "perl-Net-Domain-TLD-1.75-1.23.noarch.rpm"
-RPM_HASH = "3eaa9b7301108e07982ed547356e8be37210a7ec6b702605abcbd75968f8839bc217dbca8c0d1f4427777a1c0941355bd32a509e150f982c77d902f953983aba"
+RPM_NAME = "perl-Net-Domain-TLD-1.75-1.24.noarch.rpm"
+RPM_HASH = "086f8f23fce59347f498fd5d17d0ed1112d31f7cfc4dfabd41abb519ad9c4829868d776514514ea28bf46976f05f8b48f3374777e7babdb2c28bb518cdb5f4dd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Net--Domain--TLD \
 perl-Net-Domain-TLD"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

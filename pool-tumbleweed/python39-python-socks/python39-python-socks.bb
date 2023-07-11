@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.1.1"
 
-RPM_NAME = "python39-python-socks-2.1.1-1.2.noarch.rpm"
-RPM_HASH = "0eba2fe008179bd07f74592e76ca650102abf45c6bfae52c79b1349d1705f98dcc188f2b41546a7e26f05d38030d99df4a6c21f6b958e79673ad4cb078cfb5e7"
+RPM_NAME = "python39-python-socks-2.1.1-2.1.noarch.rpm"
+RPM_HASH = "7c77e0d132a7d4cd48d9e150c00b31f7f6c525cafe3eb49c8d574dcdfe6b28d88ac2ce3493b6e4e3bed74c440171037dd9aa0ce28ea252f9dc86e53b2f7267da"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-python-socks \

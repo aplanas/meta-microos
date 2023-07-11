@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.2.8"
 
-RPM_NAME = "xed-lang-3.2.8-1.3.noarch.rpm"
-RPM_HASH = "a7e4b3256394d3cb6dbceddd3efd93617d19f94fa12e9bf3233e0186a34936c5df5c2e65cbd749c06707904474c885c1b1460bd71cfa7f20e49324e229f38f1a"
+RPM_NAME = "xed-lang-3.2.8-1.4.noarch.rpm"
+RPM_HASH = "a31046a716123aa657c1a704977bc773bf2a30145a2e6b843cfb047ac911b4aba47c370ee0d4af64fe7764d6648023ba95e2b5c01f8ebb10d4c2e0a4fb20ff9d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xed-af \

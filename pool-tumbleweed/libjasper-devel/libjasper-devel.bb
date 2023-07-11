@@ -5,8 +5,8 @@ LICENSE = "JasPer-2.0"
 
 PV = "4.0.0"
 
-RPM_NAME = "libjasper-devel-4.0.0-1.3.aarch64.rpm"
-RPM_HASH = "fedfa9376d9900620536c5f36a7ffe34ce26fc9cbcb9085af0058f0751500f8cc3c519b23aaae3cb4842dae331854e462364e6a36150e2486579940ae9ae967f"
+RPM_NAME = "libjasper-devel-4.0.0-1.4.aarch64.rpm"
+RPM_HASH = "d313bdd7d7db6d2196930175929756547fde0bde9eacc9925025bd72ddba3a002ec8ab5f752dcc7355e1367531557d5ae5994001d6408f992235e23a363eb0be"
 
 RPROVIDES:${PN} += "libjasper-devel \
 pkgconfig-jasper"

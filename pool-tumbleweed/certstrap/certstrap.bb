@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.3.0+git20220701.1377eab"
 
-RPM_NAME = "certstrap-1.3.0+git20220701.1377eab-1.6.aarch64.rpm"
-RPM_HASH = "6f7cde0b5e2a76db09c5ca10adb608e9d926aa2aa62ca4656dfb0b633a2255c46afb2d05fda280ead308b62b49a6018cf28d124dd47bb7091cfa2290fa5234de"
+RPM_NAME = "certstrap-1.3.0+git20220701.1377eab-1.7.aarch64.rpm"
+RPM_HASH = "24ce366e20e2ca10ec27220ca52594dde048774d259d916af38639dec46d067b11bad84eae9fb58b035dfd0ba0e39bfd4d8b9d94b5c741ab674ffbe03b3015d7"
 
 RPROVIDES:${PN} += "certstrap"
 

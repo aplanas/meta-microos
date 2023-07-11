@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.201.1.15svn29349"
 
-RPM_NAME = "texlive-hfoldsty-2023.201.1.15svn29349-53.1.noarch.rpm"
-RPM_HASH = "e6dd2004bf2ce762ac432b54d47b1a43f3f51ac764ef0d9eee7790378f6e6232dbfae0a1235c9223a6a95c456ba0fe5353042b69d6783ab2fa75aef5adff9e50"
+RPM_NAME = "texlive-hfoldsty-2023.201.1.15svn29349-53.2.noarch.rpm"
+RPM_HASH = "ac961b20e49d99058bd025552d195fcb7cc70e0431efa86f441af43bfb8225eba328722ce5aa77d58b29e4dfccddc6d53d5e6e106cc53090deff2722d7c40ba1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hfobi0500.tfm \

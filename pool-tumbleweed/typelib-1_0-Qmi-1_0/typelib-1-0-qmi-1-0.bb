@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later & GPL-2.0-or-later"
 
 PV = "1.32.4"
 
-RPM_NAME = "typelib-1_0-Qmi-1_0-1.32.4-1.1.aarch64.rpm"
-RPM_HASH = "892808a0bc3a6b7bbf1610594cee3a566541694935c82eefe81d9d5b68ce5d362fd615ed96ead4a2b66802be35f8f0c84c57519d789864e6210d813c06660738"
+RPM_NAME = "typelib-1_0-Qmi-1_0-1.32.4-1.2.aarch64.rpm"
+RPM_HASH = "af805cd8d6916b8f0c6e84bba6f499f496b3dea65d18a4c485767a66ef340ce1e1d460027b193dcef621e676fafe16bfaa6ede8a0b97dae3f286a13921349c60"
 
 RPROVIDES:${PN} += "typelib-1-0-Qmi-1-0 \
 typelib-Qmi"

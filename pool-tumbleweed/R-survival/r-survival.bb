@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
 PV = "3.5.5"
 
-RPM_NAME = "R-survival-3.5.5-45.2.aarch64.rpm"
-RPM_HASH = "cd782e9d446b780ff48f17d6f57feb69c91ad609d5288cf2d898223039b9bfab5b4b729ec0a3ea1c8b498727f3a8e2008905c0fd5de42fb3f4392188080ebba3"
+RPM_NAME = "R-survival-3.5.5-46.1.aarch64.rpm"
+RPM_HASH = "839977ecd667b243293e8b334cb4a88b29e07b397a8b606fb7eba4d148caec3a60f6f8bfffa83c36289f98ca8af65b4e60d864841d1fc2e59d02a21476f5ec7f"
 
 RPROVIDES:${PN} += "R-survival"
 

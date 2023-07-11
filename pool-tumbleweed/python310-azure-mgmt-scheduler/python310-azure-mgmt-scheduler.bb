@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "2.0.0"
 
-RPM_NAME = "python310-azure-mgmt-scheduler-2.0.0-4.11.noarch.rpm"
-RPM_HASH = "039a1d3e5b4ec2870c906406dbe13ca9f2495caca30a3478e994381ad9abc8883dad8254fc8c207cd1f0d28d3c70a93c222baaebf89cab381916b1fcddf9fc1a"
+RPM_NAME = "python310-azure-mgmt-scheduler-2.0.0-4.12.noarch.rpm"
+RPM_HASH = "2ed4585f05568f2825ea7918800d923eb3158eaca3220107a8fc34ddd44e38cdf75776abc72fd86917dcecc44b5719005aa218be72d1a5502ed395ff3e56bec3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-scheduler \
-python3.10dist-azure-mgmt-scheduler \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-scheduler \
 python310-azure-mgmt-scheduler \
 python3dist-azure-mgmt-scheduler"
 

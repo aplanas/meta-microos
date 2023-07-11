@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.0.1"
 
-RPM_NAME = "taglib-extras-devel-1.0.1-24.16.aarch64.rpm"
-RPM_HASH = "2ddf3099d98fb108984dfc0216025c736cfa34b8b680b4e68d2d297150f701b8768e7cf636c6f71b278af2561d94f654a9f21d90e0ef04b6947c2d08d06e6a3d"
+RPM_NAME = "taglib-extras-devel-1.0.1-24.17.aarch64.rpm"
+RPM_HASH = "ac1c0ef55763e1a9dfda177597bbf28e3925eba710533ee0ae9a4c9c62b250c6acb599afec58a8fcd078a862619b80371dc8c68ef91c63b5f8ad165154d58545"
 
 RPROVIDES:${PN} += "pkgconfig-taglib-extras \
 taglib-extras-devel"

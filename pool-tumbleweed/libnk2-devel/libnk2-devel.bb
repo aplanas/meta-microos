@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20221122"
 
-RPM_NAME = "libnk2-devel-20221122-3.3.aarch64.rpm"
-RPM_HASH = "a832a7911b1a2c295b490ea5a8ce0bbeff67f1023c98e3a3ea2bc0a6b33bc351b73b00e89368a8481c8d8d6fcee8b0327a2bd8358e7555f8be04478f4318da1b"
+RPM_NAME = "libnk2-devel-20221122-3.5.aarch64.rpm"
+RPM_HASH = "50dff127190e3d6c66685d514a490fb32c86f9243159950829f8dec7d843223dcac73bc11a8231d91c6edfb3f6751a4c35bdef905c66144e1291d32bb174a055"
 
 RPROVIDES:${PN} += "libnk2-devel \
 pkgconfig-libnk2"

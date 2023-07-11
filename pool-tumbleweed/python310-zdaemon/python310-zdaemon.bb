@@ -7,12 +7,11 @@ LICENSE = "ZPL-2.1"
 
 PV = "4.4"
 
-RPM_NAME = "python310-zdaemon-4.4-1.4.noarch.rpm"
-RPM_HASH = "4152de72656acbced3431bc40678728428b304f6baef867387602b67b02bae82759f0cacdc6a84de598855b699bed4041befcf00501b8a1c817754602c4219dc"
+RPM_NAME = "python310-zdaemon-4.4-1.6.noarch.rpm"
+RPM_HASH = "0b78053d2316b4d855ce2532f3a918c0c09190a3cfd93f0e68acd5be76eea43aa9d490b89e1cdc1cc88111bb54f08063009f6b748b685625bcd74dc67b843661"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-zdaemon \
-python3.10dist-zdaemon \
+RPROVIDES:${PN} += "python3.10dist-zdaemon \
 python310-zdaemon \
 python3dist-zdaemon"
 

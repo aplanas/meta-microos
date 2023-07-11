@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the mailcommon library, a base KDE PIM libr
 to build email-handling applications."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libKPim5MailCommon5-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "672edf462e9e475f717f98409d213a56b8a99e6c3d1b1102182ff52aaca21cc5fc7530f581fab3a8b23ee3e991d3691e3e6143e2034e28ff4b0e53217630d6e2"
+RPM_NAME = "libKPim5MailCommon5-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "1d7ca66cb3901d8b40ee37159f9b48119950ee6a0d32d3962b39dff380778ed26c098a40846e8dfca5281ec10afa76ec4dc344d920a2ab0483b5d5209658fd5b"
 
 RPROVIDES:${PN} += "libKPim5MailCommon.so.5 \
 libKPim5MailCommon5"

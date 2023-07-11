@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "7.5.0+r278197"
 
-RPM_NAME = "cross-sparc-gcc7-7.5.0+r278197-14.1.aarch64.rpm"
-RPM_HASH = "2a8e4fae27653421732ccbc30f94a12f90761d52e3b765208b20f4cd2f10853dfbc57ab1d5b7fadcd341da1a3d95bc3ee0a06a0d3ffef3c6548c5c38e85de29c"
+RPM_NAME = "cross-sparc-gcc7-7.5.0+r278197-14.2.aarch64.rpm"
+RPM_HASH = "b9b9f8cdf1d29903c3dc15c2d77d54d20fbc66c818dd5a997bb662d26faca5d46479c7d05419d80d82107666cd68716db02661786ecc8fe2ea40cf20dac4ff04"
 
 RPROVIDES:${PN} += "cross-sparc-gcc7 \
 liblto-plugin.so.0"

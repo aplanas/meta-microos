@@ -5,11 +5,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.8.3"
 
-RPM_NAME = "python311-pyocr-0.8.3-1.3.noarch.rpm"
-RPM_HASH = "52f0984842bc23ca8eec93cdb1d641811584901ba81f79bbb47528c2dc0382f07968738948bdf2570299dbfca17d8e11ac266f2dbad0802fdd7cd6d28dbfea37"
+RPM_NAME = "python311-pyocr-0.8.3-1.5.noarch.rpm"
+RPM_HASH = "510cbf7c1c053bedfc075ce92a81509beafdcac74abc16d8a437ac03b7d8f5e2097bc4daa19e051407d585c16e0ce383400e031b79d7a5c9c7c1a870db67801e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pyocr \
+RPROVIDES:${PN} += "python3-pyocr \
+python3.11dist-pyocr \
 python311-pyocr \
 python3dist-pyocr"
 

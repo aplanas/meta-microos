@@ -5,10 +5,10 @@ facilities of multirow and makecell with an easy to use syntax. \
 It also adds some enhanced rules for the booktabs package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn65153"
+PV = "2023.208.svn65153"
 
-RPM_NAME = "texlive-lutabulartools-2023.201.svn65153-52.1.noarch.rpm"
-RPM_HASH = "57dcf9c5cdc1087f8320e0d5eac06c91eac301619c87918ac454f679c87d41c48c803e3c10827ba90476dd38d4975fb04ed543cde60eae57b72390feade612b8"
+RPM_NAME = "texlive-lutabulartools-2023.208.svn65153-53.1.noarch.rpm"
+RPM_HASH = "54ec9c491dd77840844d140fef930368efac9bc99c05b57b94cdec9744e4c4d6955e1e67d5cde814581c2b137e5d47951bf69004228bd7fbc5192ec15d4059d1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lutabulartools.sty \

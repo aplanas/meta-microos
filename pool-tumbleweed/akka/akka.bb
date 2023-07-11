@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.3.16"
 
-RPM_NAME = "akka-2.3.16-8.9.noarch.rpm"
-RPM_HASH = "517d006732c6f2d0c197dbc9026463dd71852c60c248584d9125ad2056bcdfd7c6c15f4cd20e9b3734bf61ffea9b393f547fcdb883ac8dddfb8a005f49b9a2ea"
+RPM_NAME = "akka-2.3.16-8.10.noarch.rpm"
+RPM_HASH = "e3406bd954bf9e999fe1f39127611f3efa7122492a7ec3668336337aabc08bd8e07aa7c7888fd6782645c335aaca35ba918a2950052a8acf38b81baef09cbd3f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "akka \

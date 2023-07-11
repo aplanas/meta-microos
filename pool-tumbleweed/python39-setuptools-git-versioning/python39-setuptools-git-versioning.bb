@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "1.13.2"
 
-RPM_NAME = "python39-setuptools-git-versioning-1.13.2-2.2.noarch.rpm"
-RPM_HASH = "e9939d3d0adf68cf8a9b709512f0879754dcc340a6d726c6dbf6d058519bcd2887fea63ab923d119519d60b2b13ff37a50b2ff01c520abd2a783910f9df06517"
+RPM_NAME = "python39-setuptools-git-versioning-1.13.2-3.3.noarch.rpm"
+RPM_HASH = "1b49017515ba2ab5131c76a4f891716870920a8c62e4f7f88615e4ef05da1669b3fc5c6f4a03eb6da89f0249b609004f52712ec6f06fffafeb6831b13e7b237d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-setuptools-git-versioning \

@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "2.3.4"
 
-RPM_NAME = "libmuparser2_3_4-2.3.4-1.3.aarch64.rpm"
-RPM_HASH = "c631ab87637e8d76bfc15aa48099fcf8714c6f331ee825bcd5116bca5e2bf2d8ea717ce47dbba5a24e15f92bec35f63a07002f58b70219eec9bff2bda67718a9"
+RPM_NAME = "libmuparser2_3_4-2.3.4-1.4.aarch64.rpm"
+RPM_HASH = "503b1521fc3e7a497bb5754406db5b5c55f361770b6f616d597dcf725211164aab3845ddda5813fb0892cffee7d503c37082015c6bfaf9a2b384ae122b796541"
 
 RPROVIDES:${PN} += "libmuparser.so.2.3.4 \
 libmuparser2-3-4"

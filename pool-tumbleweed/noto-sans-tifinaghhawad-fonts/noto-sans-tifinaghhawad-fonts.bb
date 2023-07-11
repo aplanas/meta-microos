@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-tifinaghhawad-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "6041e2b5cda440204458d89e2f189b798dc22ee48383785fc278302aae2ea60e8f1d1597def99e40f813e1c9dc04b775c6d884857f5bfd84fbbe30053dc6b7df"
+RPM_NAME = "noto-sans-tifinaghhawad-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "edf35d3f2136b5cc229575951b58491f0167c1b68eaf2887130232c848608c578863a5d32e0e5ad373db3b053c4929d02ad5544d587dcfac8bbfe2f9a4c321d0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-tifinaghhawad \

@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.3.16"
 
-RPM_NAME = "grilo-plugin-dleyna-0.3.16-1.1.aarch64.rpm"
-RPM_HASH = "394c914b6cc216e7a09d5b6e65e52b5808d05203498bcd3c9add4f45c591a6a4a335630cd4d29119d6112292b28b8fb00b249432497e89c1b2c8f16b9683cf15"
+RPM_NAME = "grilo-plugin-dleyna-0.3.16-1.2.aarch64.rpm"
+RPM_HASH = "64a94c04a722c3d81d24cafe1f39d5545a30048845fa060b5d483b9eddff496791e8d75a2b0bf3001418626a8387b24686cc7cba64555c72618b133155de108c"
 
 RPROVIDES:${PN} += "grilo-plugin-dleyna \
 grilo-plugin-upnp \

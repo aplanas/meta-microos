@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "2023.2.0"
 
-RPM_NAME = "libvpl2-2023.2.0-1.1.aarch64.rpm"
-RPM_HASH = "9c2154fae43c5238ecca9928507543ffec397b42b8ed363257bae3a7a7a3efa4bebea1ad1c50c88e826bbb7d3d2042e93ec8c110f91531e90bc546785b272202"
+RPM_NAME = "libvpl2-2023.2.0-1.2.aarch64.rpm"
+RPM_HASH = "43b5ff3ff5c032cca29fbeb6098bc652a8de771cbd494135dd234461cea49ba8c0b940bd2b7294b4dd675d54995472cc2e1352ffedce361b6cb9589dc923723d"
 
 RPROVIDES:${PN} += "libvpl.so.2 \
 libvpl2"

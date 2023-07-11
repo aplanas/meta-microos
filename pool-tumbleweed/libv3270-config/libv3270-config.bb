@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "5.4"
 
-RPM_NAME = "libv3270-config-5.4-1.9.noarch.rpm"
-RPM_HASH = "bf3acc8564c4bb5236f307ceed0528bf0a75fa531ee659555e3f70e2a73b7781aa9e3875d763d987abd5d4bfd4aefee84a53b0ae57f29b1ac75b4cdd875f6d00"
+RPM_NAME = "libv3270-config-5.4-1.10.noarch.rpm"
+RPM_HASH = "015d05a4e7107604367444bbaffd62cbf9d4b93d216f3cd31dbfd1b9775c388758c60d50623908393365713ea4be7eb5176b58cfd4e262ae15e67282e30c445c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-libv3270-config \

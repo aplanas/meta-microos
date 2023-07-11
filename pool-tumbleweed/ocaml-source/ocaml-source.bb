@@ -7,8 +7,8 @@ LICENSE = "QPL-1.0 & SUSE-LGPL-2.0-with-linking-exception"
 
 PV = "4.14.1"
 
-RPM_NAME = "ocaml-source-4.14.1-1.3.aarch64.rpm"
-RPM_HASH = "d9a6caa714fcd0fa2539366e9b3016546caddab94214cc0a98a5fee2ef1c138420c498c8370e3599b2e5899bf13fc57810c1e600557b43ad090114299e668491"
+RPM_NAME = "ocaml-source-4.14.1-1.4.aarch64.rpm"
+RPM_HASH = "12aa91422d185d42b811d0eebc2f462cc666a5b2e76b4a4a3322dff45a78d42374919751fea958066dbcf3ec246ea7d94a7248e4b2acb43e9c7cba77c0d81b62"
 
 RPROVIDES:${PN} += "ocaml-source"
 

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later & MIT"
 
 PV = "0.8.1"
 
-RPM_NAME = "libgtk-layer-shell0-0.8.1-1.1.aarch64.rpm"
-RPM_HASH = "4754a654d3b8bce052734164c62a330dca1aeab8979312cd187a2318855f40003f0b7690c1b5ab166ccc8334ea74d9dc55d61314946f695541dfff993574c202"
+RPM_NAME = "libgtk-layer-shell0-0.8.1-1.2.aarch64.rpm"
+RPM_HASH = "4066fc6bfce43d13386bd926d8d3b60c4d3b5862eed4d7ccbe023d57c9582704789840f777fead4111ffa97d687f2d6251e533f4cf02329a2808a8c4e8ec1854"
 
 RPROVIDES:${PN} += "libgtk-layer-shell.so.0 \
 libgtk-layer-shell0"

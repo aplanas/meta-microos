@@ -11,12 +11,12 @@ LICENSE = "Apache-2.0"
 
 PV = "4.1.1"
 
-RPM_NAME = "python3-oslo.vmware-4.1.1-1.2.noarch.rpm"
-RPM_HASH = "6c3a91b35e02e62a5a34771cf66ae33f8ce939a51b50ef7e5eff64c30cd37911be4a8eb6699705c4f903de8a35791e7725c1148e123c8353fe0cb63d783f61da"
+RPM_NAME = "python3-oslo.vmware-4.1.1-1.3.noarch.rpm"
+RPM_HASH = "abaeb602e853c56866b92f3aa18c7e0a1e6a15c542188884c545ed9bfe16ca5dd91912476cc63c0535190c450eb9688158ce517377f46e50cf4c578e9dfdbcfa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-oslo.vmware \
-python3.10dist-oslo.vmware \
+python3.11dist-oslo.vmware \
 python3dist-oslo.vmware"
 
 RDEPENDS:${PN} += "python-abi \

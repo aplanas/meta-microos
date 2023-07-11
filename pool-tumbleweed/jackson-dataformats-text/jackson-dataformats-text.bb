@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.13.3"
 
-RPM_NAME = "jackson-dataformats-text-2.13.3-1.7.noarch.rpm"
-RPM_HASH = "f598a22a491b9fda911f636561cc88e324d291a6d50a5eaacf35ce7e8c98cef5076b47747aed6cc64a01481ec1aa3f296956ecfe9985b42f8f113f02307d3be6"
+RPM_NAME = "jackson-dataformats-text-2.13.3-1.8.noarch.rpm"
+RPM_HASH = "1a672792b108b5a36be911b059bdfa1dfedd6fb73c8b60a0cdce49c8008f9b8acdba2414f7b932c3c438a5acacc444252626e70b3ef8cc60714ef046bd8246dd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-dataformats-text \

@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "2.0.0"
 
-RPM_NAME = "python311-subprocrunner-2.0.0-2.3.noarch.rpm"
-RPM_HASH = "d4a8911267d9183cb4c3b5dc4a3d47128e59e0bfcbee11797c88baf053ec0e7447a30c8638fab252267757f4e05f4ed77655b84dedc4e2713e007aa36017b8f6"
+RPM_NAME = "python311-subprocrunner-2.0.0-2.5.noarch.rpm"
+RPM_HASH = "b1956dda2a1646935f22440eb43f8a674ad0194c4af00b80cea89d0c81f415f80fedeea5f294637ad961bd347bb10f9dff21559f47dc131239add685d991aaba"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-subprocrunner \
+RPROVIDES:${PN} += "python3-subprocrunner \
+python3.11dist-subprocrunner \
 python311-subprocrunner \
 python3dist-subprocrunner"
 

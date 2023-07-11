@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "0.56.0"
 
-RPM_NAME = "python39-zeroconf-0.56.0-1.1.aarch64.rpm"
-RPM_HASH = "ab0caf9f0a6ce42e77e507ae9ba7b370fc6c125f64756d34dfd39c9740503cf84598321b334c99140e511f1a634d080e4ddb7bdc5d3dc6d43fa5f81892180518"
+RPM_NAME = "python39-zeroconf-0.56.0-2.1.aarch64.rpm"
+RPM_HASH = "77d9e6e00691103bb3ba888b7d3a047dec93bb8dabc78b3067e53fce80f6199f3bae1a94aa8d5987e8aa154902d9c8f4d943fd791e0311fc6c0feddb6712e084"
 
 RPROVIDES:${PN} += "python3.9dist-zeroconf \
 python39-zeroconf \

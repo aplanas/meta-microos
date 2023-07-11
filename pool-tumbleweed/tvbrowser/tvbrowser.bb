@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.2.7"
 
-RPM_NAME = "tvbrowser-4.2.7-1.2.noarch.rpm"
-RPM_HASH = "d39256efa700bdb5af86e8417b6d4bf1d35135a8502a65ad1981d7b114fb142260d8aeb9995d78ae9b53c107678a8d1fcaa45bcd6e65f793dbee55e526028c46"
+RPM_NAME = "tvbrowser-4.2.7-1.3.noarch.rpm"
+RPM_HASH = "e3ca49ab2010948d85738386b510bf3d262803081f2f9c89e63899ce65d028f5ea6124d1cfe51095b6aaf8d97ccd0d5402437f6926d8058c076c85c49251e3ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tvbrowser"

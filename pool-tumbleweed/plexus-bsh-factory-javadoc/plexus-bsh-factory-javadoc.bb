@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.0~a7"
 
-RPM_NAME = "plexus-bsh-factory-javadoc-1.0~a7-2.6.noarch.rpm"
-RPM_HASH = "80d324b7172660fcff93ac67937a3e2a9314dad047c3ad9ba17f55427fe4bf132c3ca5be159db5853f1db753f9cc855a868df64fea6ed8a54846cacb1806538a"
+RPM_NAME = "plexus-bsh-factory-javadoc-1.0~a7-2.7.noarch.rpm"
+RPM_HASH = "a30646edec728337fa218bef265385640c5a1bb632c0235ec016e054d938f66088156477d23315cd96685df75f80abfc34511ab8f093257cebae2f7427918990"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "plexus-bsh-factory-javadoc"

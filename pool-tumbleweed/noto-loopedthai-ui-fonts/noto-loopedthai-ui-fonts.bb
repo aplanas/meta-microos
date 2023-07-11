@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-loopedthai-ui-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "33c48ece638d10f16673e72e3b93da6daa2c94bd28b9f8edd773b8807d07478ba05c5aa5aa1bd1eda294d40d2b6a122401824c1388fb52aa27415fa9c94fdfe9"
+RPM_NAME = "noto-loopedthai-ui-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "072d007fce5b88ea98f38979b47f8eb10c7148763b90b95f212c4ca621267ec61d045a297ef58a99eb72a295f3b0443b7c476f12a95ebed23d60f9678b22cd9f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-loopedthai-ui \

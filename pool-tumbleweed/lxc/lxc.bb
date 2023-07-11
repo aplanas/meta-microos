@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "5.0.2"
 
-RPM_NAME = "lxc-5.0.2-1.1.aarch64.rpm"
-RPM_HASH = "e0aadacf610a044046180a95b6023a4e9ce44b956ee95f48d5552109c8c762c95cb5c7c61544e40de3dd8a1dd1c2ff8b3eca65b29dcfbd1ddfb20dfcb6956f6f"
+RPM_NAME = "lxc-5.0.2-1.2.aarch64.rpm"
+RPM_HASH = "09a430f24481a3794ada9a8e804a43b432fefa55a99cbccf6d236c4ab60d5156852a4796a19be787bb825bc1d71d4d8f6655ee752b2e5b316bd85f7b8a78de1e"
 
 RPROVIDES:${PN} += "config-lxc \
 lxc"

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.0.35"
 
-RPM_NAME = "libopenEMS0-0.0.35-5.36.aarch64.rpm"
-RPM_HASH = "2ff1665b08dbce441c1af00fa6617b2054ada45a84df7d1989ec0bf4f7ca9aa6b0cfd554e09ff906869502344cfbd31f2034fd750a1d13001a6cf770e2aadff8"
+RPM_NAME = "libopenEMS0-0.0.35-5.37.aarch64.rpm"
+RPM_HASH = "da0b5a86f85faa44557d124bfa3fec52bd23ecbfe2d9f86956422525afa08243b5bd143cf1a895fe969fb56136d8d40e99e4fc0eeefe9380079ae9a7450edcc1"
 
 RPROVIDES:${PN} += "libopenEMS.so.0 \
 libopenEMS0"

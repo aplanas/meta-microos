@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.2.8.3.5"
 
-RPM_NAME = "armagetron-0.2.8.3.5-1.15.aarch64.rpm"
-RPM_HASH = "c4f4827fab8ce5711b7be16e5cd6ba9bbc62391fb940958a880a6a8fef4a5cc207640fa9c06655bffe44ba7345b9a9dc4d1864ae3cb542f8077b83145edb0d2c"
+RPM_NAME = "armagetron-0.2.8.3.5-1.16.aarch64.rpm"
+RPM_HASH = "ba9c4c393ec668473bb778b786ae97eb61cc81b4257d097bbd1e47df024e8249020001e414a59f2c1f44c4ce4e56131c931213f0d941459c60c9d082374665ba"
 
 RPROVIDES:${PN} += "armagetron \
 config-armagetron"

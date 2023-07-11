@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.11.89"
 
-RPM_NAME = "libplank1-0.11.89-2.4.aarch64.rpm"
-RPM_HASH = "9ea0061d611e80c8fac2e8adf1bbf58cf342ee99cd286ea6cff7839afaa0a88ec310738f4a2765656c9ad6cfaa8fc062d2e51f33b2443cb793cdb68fc41f3488"
+RPM_NAME = "libplank1-0.11.89-2.5.aarch64.rpm"
+RPM_HASH = "4f401166cf85de206d27afb0673b02c43eb9de39ebe27150ce9b2bab144d7f092dc9ed394cdb565717c17e0409a6cea2b19fe50d83f049953adb09d34c7dcf60"
 
 RPROVIDES:${PN} += "libplank.so.1 \
 libplank1"

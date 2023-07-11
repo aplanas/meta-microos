@@ -6,12 +6,11 @@ LICENSE = "Apache-2.0"
 
 PV = "1.10.1"
 
-RPM_NAME = "python310-pydrive2-1.10.1-1.5.noarch.rpm"
-RPM_HASH = "441f1ee0403efd313fda41257ead89897a5ac8118c51221f2cb9a78f792a694a2fbe2062d3ea00b3bd594cebeb43ca64045d0204d11d3f159e8fbd7477b89e7b"
+RPM_NAME = "python310-pydrive2-1.10.1-1.7.noarch.rpm"
+RPM_HASH = "1a0ca9ebbf6599ee960b39b681d9795e6e14f3346ec684db9a5ba574545202388ae031790a822570c17f7b4f26a39408730d35fcb63322de2a540438381c82c0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pydrive2 \
-python3.10dist-pydrive2 \
+RPROVIDES:${PN} += "python3.10dist-pydrive2 \
 python310-pydrive2 \
 python3dist-pydrive2"
 

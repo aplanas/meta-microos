@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.15"
 
-RPM_NAME = "python39-PyX-0.15-2.11.noarch.rpm"
-RPM_HASH = "341f70c68812876cc0d82b4b7921fbcea9e0701765a05b56bf6c1cf79269b5792c32a5fc7d2976f10108d2287e5b99d8c61f70e8cc0f27d1a16694fbe59f475b"
+RPM_NAME = "python39-PyX-0.15-2.13.noarch.rpm"
+RPM_HASH = "20b374c4c5ebc623299f50754beb7a00d0aeae91c0466d05d5ae19673dfc2667ec904cb3c86d297414160b1e94f78a09a01d59e27a1c9ac3fe2fdc902740a3b4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyx \

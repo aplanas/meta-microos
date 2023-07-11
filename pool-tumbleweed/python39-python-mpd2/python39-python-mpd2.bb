@@ -9,8 +9,8 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "3.0.5"
 
-RPM_NAME = "python39-python-mpd2-3.0.5-1.5.noarch.rpm"
-RPM_HASH = "1938f4621b8de32f58d6e9d1a6f7ab67eb302d8da4ae7bf0fa316e8dc689c06325c603d93e26372f81d24c43f92a78f234946b111837e94e0b6d600c466d8abb"
+RPM_NAME = "python39-python-mpd2-3.0.5-1.7.noarch.rpm"
+RPM_HASH = "191dc4d8c336cf88c6760ec3f6531a2fc172e2f9ba74157a87d7b675277ac2691e872e9db6cc70c15ac87fe05b8199cc4c116285838519662d8b98729488fe72"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-python-mpd2 \

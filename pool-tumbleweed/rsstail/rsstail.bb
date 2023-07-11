@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0"
 
 PV = "2.1"
 
-RPM_NAME = "rsstail-2.1-1.23.aarch64.rpm"
-RPM_HASH = "e500aa1e92cdd551b84eabfac04c1417ad0eb48c61f72f3f1303ad40d91e0814ef5f1c629cc5230a01e67fe3fece493933c5ddbe6857cbc084cfd49ae3502c8d"
+RPM_NAME = "rsstail-2.1-1.24.aarch64.rpm"
+RPM_HASH = "c2addc0f40e72494a36276c76b4731b5846081a869b2f4b83ead4295402bc8e09393bfe9022354fabe3e0928cbf8954098ead8454a7674c84c40a79d5e8cfe0e"
 
 RPROVIDES:${PN} += "rsstail"
 

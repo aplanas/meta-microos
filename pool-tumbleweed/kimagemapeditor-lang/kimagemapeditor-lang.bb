@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kimagemapeditor"
 DESCRIPTION = "Provides translations for the 'kimagemapeditor' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kimagemapeditor-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "634f86de872896d16936fee3f08cd786f192751c5a35fe42647aa6a5a4bb6cdcf1cf04d42ea0d3aa8b90d1bab9e991f4fb245a37167ad5df2efe48e4cee44607"
+RPM_NAME = "kimagemapeditor-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "01e7f25c8f870d09b1e8252d7e0bcc5f64cde498c203dbd0daf5d74af8496ae1d1fcae5732395586b63bb24fb4fafaa9914f8d49f7b871ac15c77626c1e0768d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kimagemapeditor-lang \

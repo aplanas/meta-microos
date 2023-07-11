@@ -25,8 +25,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.8.1"
 
-RPM_NAME = "python39-astor-0.8.1-9.1.noarch.rpm"
-RPM_HASH = "d8d4094f971f2ff71c4080bcfb3363bd75ff36288dd5828f21f5cbd8462b49060bdf214020ee4158c14d1a78fb5c58e72bb2d3134d9ada960c53816666fb08bb"
+RPM_NAME = "python39-astor-0.8.1-9.3.noarch.rpm"
+RPM_HASH = "2970e51b175735da68363fc48515ef56cc0b7f81ba046450fd03d2a257d020919957105e8c652d153cee50823b9527660d8ae1527f70d7d4910ee88dbfa572a2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-astor \

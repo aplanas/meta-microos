@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "1.5.8"
 
-RPM_NAME = "python310-simplebayes-1.5.8-2.32.noarch.rpm"
-RPM_HASH = "f2d6c780bd8e653e5d3ff2c24127fed656ae89df844ce6eb01a360098da060e16081515e5cf4eda077c70cdc4235d97347245822d919eb575a4177791baa8a2e"
+RPM_NAME = "python310-simplebayes-1.5.8-2.33.noarch.rpm"
+RPM_HASH = "06cf5aedea6daf7a31655508fd41e1620746447a502ce19b69fd7dc562866460aa9f07c0a52dee3726ea7a880f578c9adca15bdcd6b7bbd4b22890287639465b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-simplebayes \
-python3.10dist-simplebayes \
+RPROVIDES:${PN} += "python3.10dist-simplebayes \
 python310-simplebayes \
 python3dist-simplebayes"
 

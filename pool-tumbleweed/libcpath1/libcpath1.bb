@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20220108"
 
-RPM_NAME = "libcpath1-20220108-4.3.aarch64.rpm"
-RPM_HASH = "d4540d9ecf168bc1a237743d13af06e379c5a5d51a8b0e53ca7cd1605e776acb25cebcfae269a70f262438b73a1dbc7b477a176bda8a9ac0c6cfc82c57cc3cbb"
+RPM_NAME = "libcpath1-20220108-4.5.aarch64.rpm"
+RPM_HASH = "b4711ca57ef7aa92c8de2d7050777f834a259e8a27fb55e331f16695fefeb0325e4508d408dbe549ec20cad9acd8dd3848c03497489fc30b1c44b8907fa004b3"
 
 RPROVIDES:${PN} += "libcpath.so.1 \
 libcpath1"

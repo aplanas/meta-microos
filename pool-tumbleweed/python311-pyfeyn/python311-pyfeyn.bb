@@ -9,11 +9,12 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0.0"
 
-RPM_NAME = "python311-pyfeyn-1.0.0-4.18.noarch.rpm"
-RPM_HASH = "119a8a6b7a390bac5610fdb19c011ad7a43422ad04517eece59f864d875893a42d43f4bc581af0853b70bec3876f07f8d2904a05e5ef45ea5367ee06ad583cd5"
+RPM_NAME = "python311-pyfeyn-1.0.0-4.19.noarch.rpm"
+RPM_HASH = "c309f32d04571b915e08f81ec0401bcead048ab0456c7b1dbd3695e1b8d0f0cae78433236ce024aae9e3d8e2ea34b7884b9c63783c0f1a54a3d6742384f46188"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pyfeyn \
+RPROVIDES:${PN} += "python3-pyfeyn \
+python3.11dist-pyfeyn \
 python311-pyfeyn \
 python3dist-pyfeyn"
 

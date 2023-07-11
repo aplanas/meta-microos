@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.26.0"
 
-RPM_NAME = "mate-calc-1.26.0-1.9.aarch64.rpm"
-RPM_HASH = "64350f7a0e8ac979323dea79003958fbbd7a0cd406aa66e31d1dbfd65240b2ae76aeece2af9c16c512cdaaf0eb67370cbab9020900d5bb88c70746e7805456ad"
+RPM_NAME = "mate-calc-1.26.0-1.10.aarch64.rpm"
+RPM_HASH = "1e428215c6700d9a6989bcb5db1106b72ad2e7e48046b60057cf2ab224a36ad232b86bc840bedc6dcc292b4e70d1e25ba8653f323e33babfc8de4119797ab600"
 
 RPROVIDES:${PN} += "mate-calc"
 

@@ -7,8 +7,8 @@ LICENSE = "EPL-2.0"
 
 PV = "2.10.8"
 
-RPM_NAME = "libOsiCbc3-2.10.8-1.3.aarch64.rpm"
-RPM_HASH = "a7c955e76d2e0b718f53b32d2c3bd8a957e4f34fab05d6baae10587536fd70769b0fd811720bec49f8ff44c9aeffca28eff025e908961a410afccc400d4bd294"
+RPM_NAME = "libOsiCbc3-2.10.8-1.4.aarch64.rpm"
+RPM_HASH = "b62f2d841f5f5e45b07277827a1cc12c6a45c6adf213de1a3b7aa8b60c1e053d1b2c43da5bb41402d65bde690892b8f1f907d88cedd46ac65556bb707a557c94"
 
 RPROVIDES:${PN} += "libOsiCbc.so.3 \
 libOsiCbc3"

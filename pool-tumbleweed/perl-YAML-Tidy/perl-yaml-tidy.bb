@@ -7,8 +7,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.007"
 
-RPM_NAME = "perl-YAML-Tidy-0.007-1.1.noarch.rpm"
-RPM_HASH = "fd277a206141ffe005938c97d4992e0ec9e6f9a11867788bf20000c0522534946d5d30cfda9ade47edc43b2d705cffff99ba22a372623c2a8e230c7f4627c97c"
+RPM_NAME = "perl-YAML-Tidy-0.007-1.2.noarch.rpm"
+RPM_HASH = "c854af8783a8aa5d65fa6459338337fa7eaf3513a0b5fe48fc6e36dd81cd40c4a6253f773be5a325bedc979449f6c10b2f7cb37e44501949e03f6b17908c60e4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-YAML--Tidy \
@@ -19,7 +19,7 @@ perl-YAML--Tidy--Node--Scalar \
 perl-YAML-Tidy"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-Getopt--Long--Descriptive \
 perl-YAML--LibYAML--API \
 perl-YAML--LibYAML--API--XS \

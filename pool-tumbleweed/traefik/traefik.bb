@@ -7,10 +7,10 @@ Etcd, Rancher, Amazon ECS) and configures itself automatically and dynamically. 
 Pointing Traefik at your orchestrator should be the only configuration step you need."
 LICENSE = "MIT"
 
-PV = "2.9.6"
+PV = "2.10.1"
 
-RPM_NAME = "traefik-2.9.6-1.3.aarch64.rpm"
-RPM_HASH = "fea9c75a10fce6fa080464674824ee96fd053d50bdff8eb14eaa54fdf7c2492ef787d0c2e12e3428ea4a155db4863e4ce0bfd7004a733ddd351c699505a1533e"
+RPM_NAME = "traefik-2.10.1-1.1.aarch64.rpm"
+RPM_HASH = "38b65424ce2cebb2949ee523c2556d0a14b32462e42e9b071868a47804b1f3c271a3068dc7a6f90cd6e487638ce79d136408e3bc12731f177457548222b1cdc2"
 
 RPROVIDES:${PN} += "config-traefik \
 traefik"

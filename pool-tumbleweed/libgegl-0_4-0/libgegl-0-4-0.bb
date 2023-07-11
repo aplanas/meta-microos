@@ -5,10 +5,10 @@ support for a wide range of color models and pixel storage formats for \
 input and output."
 LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
-PV = "0.4.44"
+PV = "0.4.46"
 
-RPM_NAME = "libgegl-0_4-0-0.4.44-1.2.aarch64.rpm"
-RPM_HASH = "17a3c175791d94f8ca265c5fffb1a2b24502f6f43b33c82d59aca912523d59e126b8eab494037a16e4eaca880e80d8dc0dc5906285435d19176b25e7208385bc"
+RPM_NAME = "libgegl-0_4-0-0.4.46-1.1.aarch64.rpm"
+RPM_HASH = "32db2569576e19550ba8e080297ac01334483faf65a79b3a6d97e54df8660269d72e6848cdd3645928481ca3e89c2d2d864df048af3f3e26c80232db05aa4f0c"
 
 RPROVIDES:${PN} += "libgegl-0-4-0 \
 libgegl-0.4.so.0"

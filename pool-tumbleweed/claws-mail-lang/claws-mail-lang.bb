@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.1.1"
 
-RPM_NAME = "claws-mail-lang-4.1.1-2.3.noarch.rpm"
-RPM_HASH = "10e38df406a5fcb3bc9d50479a3c06fe608c65c7616beb7d1aa8468c1b42b6fd6570c5208a841131c99003b4d949fd5b900b461e8a6ae3febc1ff4960007b0ab"
+RPM_NAME = "claws-mail-lang-4.1.1-2.6.noarch.rpm"
+RPM_HASH = "133358a80cb983a2ea8946493b8be39678574726cddf32ec523651d88f38e99ace827d376c0df58a88d336fc2938efd425c29e8f95bbee8ee67f20e843a3ab5c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "claws-mail-lang \

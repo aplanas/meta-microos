@@ -4,11 +4,12 @@ LICENSE = "ZPL-2.1"
 
 PV = "4.3"
 
-RPM_NAME = "python311-zope.location-4.3-1.3.noarch.rpm"
-RPM_HASH = "695fbcc81d017f44c360455813116d10be982d33915c72b0208bbb7bb1db67f2ea59d5ab0bc23fd67b6753990b620de3fe8785bc7372c6e738e8b961dc974a55"
+RPM_NAME = "python311-zope.location-4.3-2.3.noarch.rpm"
+RPM_HASH = "b9e20169850d85770e92b7906350395df6c3b8a8fa3cd0bbb9ac416a3fedd15c0254bb6f82d9fbc8ee613d8ac9ee6ebfa4eafcf4348a7ccab4b6f299dd8af40c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-zope.location \
+RPROVIDES:${PN} += "python3-zope.location \
+python3.11dist-zope.location \
 python311-zope.location \
 python3dist-zope.location"
 

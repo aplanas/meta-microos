@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "0.23.90"
 
-RPM_NAME = "libzbarqt0-0.23.90-3.1.aarch64.rpm"
-RPM_HASH = "feb5600c1b55334da41c599ae8a08926ab41a86e1983dc3a1e0a3469d3fe79a1ba9bbf3c61dc0cc43dabd919f9a6efca46f0db7ebddb51000d151ddfaeb63f01"
+RPM_NAME = "libzbarqt0-0.23.90-4.1.aarch64.rpm"
+RPM_HASH = "80bfef925da8bbde17536a23db6d9bfce97a033c69e30608d34ff47303fee413850d68ba03ce0bb5dfef456f426efab7f807d0cb10922be93747122cb0f46f7e"
 
 RPROVIDES:${PN} += "libzbarqt.so.0 \
 libzbarqt0"

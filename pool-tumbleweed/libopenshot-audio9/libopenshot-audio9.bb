@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.3.1"
 
-RPM_NAME = "libopenshot-audio9-0.3.1-1.1.aarch64.rpm"
-RPM_HASH = "898910bf782f4d321014990352c2dc15906759377ca9624d2623f4fd00913d9974603124d6b622aaf7449a09da3e5d276ea55bdcd28a29f6eddb2df54bc29624"
+RPM_NAME = "libopenshot-audio9-0.3.1-1.2.aarch64.rpm"
+RPM_HASH = "cfd9baa686b09e5ab5e535ad6d841d95ffac57dcd0cf7b7b5f95611e3b03da4fd054f2df8f732976838188128f2ebf97ddf6f1fed2be2414bff90a88afef83b1"
 
 RPROVIDES:${PN} += "libopenshot-audio.so.9 \
 libopenshot-audio9"

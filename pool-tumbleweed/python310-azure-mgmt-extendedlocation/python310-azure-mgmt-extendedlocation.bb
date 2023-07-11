@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "python310-azure-mgmt-extendedlocation-1.1.0-1.4.noarch.rpm"
-RPM_HASH = "9a14d1f70ba32100d6ede9fb48337e5a1cd29713bb8c78054d794bc0d474d44fef8aced1865a376a6e2ad8b669b50f589811a33e4e1a8d3ec26b143595a26a35"
+RPM_NAME = "python310-azure-mgmt-extendedlocation-1.1.0-1.5.noarch.rpm"
+RPM_HASH = "ca3e0988198340be7ecaf3e9690e982385c0956963fa592a7e6e2c8ba674964ab74439f008170d645150b9afebd1630d690d4c4939a5d4d606b7104a7cfe6743"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-extendedlocation \
-python3.10dist-azure-mgmt-extendedlocation \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-extendedlocation \
 python310-azure-mgmt-extendedlocation \
 python3dist-azure-mgmt-extendedlocation"
 

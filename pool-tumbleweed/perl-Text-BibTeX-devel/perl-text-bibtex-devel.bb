@@ -7,8 +7,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.88"
 
-RPM_NAME = "perl-Text-BibTeX-devel-0.88-1.21.aarch64.rpm"
-RPM_HASH = "e41660072482c1fdafdc6b3a1bc8b2520159d7ea9bd941afc161f0136d94a944e2786ac45d95aa5b7f5ab0ad89cb7f3f38aa689aa593d749d8b8d78cccdcbaa2"
+RPM_NAME = "perl-Text-BibTeX-devel-0.88-1.22.aarch64.rpm"
+RPM_HASH = "1eb6c5a0e9f3771f9dcba97d067f1f429ae81c75781eadbf3ac5a81ae461fa90c41d99957907caf7d72a7e0d363d32b25ab1761a8d5b8fa8e9803a2a8748bfcc"
 
 RPROVIDES:${PN} += "libbtparse.so \
 perl-Text-BibTeX-/usr/lib64/libbtparse.so \

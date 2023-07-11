@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.1.7"
 
-RPM_NAME = "fuc-1.1.7-1.1.aarch64.rpm"
-RPM_HASH = "41632b1450c0c97d2dedab08c67c04f797cd064601ecb3596ecd093488d3a4a55927a1acff2e645d49d198fc9771c9a4e60a4add558d556f42f39f300d4f7c9d"
+RPM_NAME = "fuc-1.1.7-1.2.aarch64.rpm"
+RPM_HASH = "cf5128755bb0a1299cce021949183396ed9806bc4996fa19b233e22459f1eba8fc8d2ee6a440412c8ac225d0f114a70c66e383baf162ad66a711eb152b7ee06f"
 
 RPROVIDES:${PN} += "bundled-rust-crate-anyhow \
 bundled-rust-crate-bitflags \

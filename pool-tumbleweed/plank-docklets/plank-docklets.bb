@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.11.89"
 
-RPM_NAME = "plank-docklets-0.11.89-2.4.aarch64.rpm"
-RPM_HASH = "5b3addb463b53eaae264d4a38003a41ac23d0191c88280a889ad823961676871137f20985b57e5fd5e108ce9748b483713af788df2f2504272e7d43e559fc16a"
+RPM_NAME = "plank-docklets-0.11.89-2.5.aarch64.rpm"
+RPM_HASH = "9805c2f2af8a866a0e70b90b7543869a77889896cedcf6535adab6511800eb22df30f6aa932e25fa64f781ba67be94ff844f3ca57617f51fbaf6b1b7674a2cd0"
 
 RPROVIDES:${PN} += "plank-docklets"
 

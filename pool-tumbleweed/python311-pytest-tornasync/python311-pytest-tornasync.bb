@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "0.6.0.post2"
 
-RPM_NAME = "python311-pytest-tornasync-0.6.0.post2-1.13.noarch.rpm"
-RPM_HASH = "60cb50509cff8d2c089ce0961a7a751265c71f8884dec6d02ac9f8b6f1ea2a992236164337fea45036e7eeeb7838bbb70ac4e54871d670ad3b1295a346f9f14b"
+RPM_NAME = "python311-pytest-tornasync-0.6.0.post2-1.15.noarch.rpm"
+RPM_HASH = "1af5099c331bc8f2fb02c5ecdf5c8513549e057a182e635cc0ec2fde807049566b4799a74d15d1d19a2d7935eed8612361462787e4495f0013df91924064e711"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pytest-tornasync \
+RPROVIDES:${PN} += "python3-pytest-tornasync \
+python3.11dist-pytest-tornasync \
 python311-pytest-tornasync \
 python3dist-pytest-tornasync"
 

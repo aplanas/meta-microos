@@ -11,8 +11,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.161520"
 
-RPM_NAME = "perl-Crypt-PBKDF2-0.161520-1.9.noarch.rpm"
-RPM_HASH = "25c99a914065857f434bc7bd9b6a608873fc8c0b07d968c52eef8c277bcf0a8e80670460f724295639cce7a875e8adc91ef4ebf264ee1536168cac8db3b3118d"
+RPM_NAME = "perl-Crypt-PBKDF2-0.161520-1.10.noarch.rpm"
+RPM_HASH = "3e568d72994dc22f208b820f55b2ffbdd5d659193e6dd40152451af715a72c9f3ddeedecca8ab34fb69b8f0b6620a521f38d9ed4d4a36c45528f2ea096743106"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Crypt--PBKDF2 \
@@ -23,7 +23,7 @@ perl-Crypt--PBKDF2--Hash--HMACSHA2 \
 perl-Crypt--PBKDF2--Hash--HMACSHA3 \
 perl-Crypt-PBKDF2"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Digest \
 perl-Digest--HMAC \
 perl-Digest--SHA \

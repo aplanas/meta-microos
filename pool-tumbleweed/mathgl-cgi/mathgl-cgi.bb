@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "8.0.1"
 
-RPM_NAME = "mathgl-cgi-8.0.1-3.3.aarch64.rpm"
-RPM_HASH = "1297be9529ece5f5ce8d2be2c574d1691b0f62832508b1491b627a985ff6e45c4f5c498d2383eb328e2acad4989295af71bdf051b10e4cc7c554cb18fadaa8e0"
+RPM_NAME = "mathgl-cgi-8.0.1-4.2.aarch64.rpm"
+RPM_HASH = "631f17167286f033d8813e23f9b64e638124618e80f797eb56d82cce0d81ab49ba455d1bc2d5bdf84d031a9328495f2bf3c129f5364e042eb3f149ef97f46bf5"
 
 RPROVIDES:${PN} += "mathgl-cgi"
 
@@ -18,7 +18,7 @@ libgomp.so.1 \
 libgsl.so.27 \
 libgslcblas.so.0 \
 libhdf5.so.200 \
-libhpdf.so \
+libhpdf.so.2 \
 libjpeg.so.8 \
 libltdl.so.7 \
 libm.so.6 \

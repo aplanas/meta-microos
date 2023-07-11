@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1 & LGPL-3.0 & CC-BY-SA-3.0 & GPL-2.0 & BSL-1.0 & BSD-3-Clause
 
 PV = "16.2.13.66+g54799ee0666"
 
-RPM_NAME = "ceph-mgr-16.2.13.66+g54799ee0666-2.1.aarch64.rpm"
-RPM_HASH = "af3e90e1c66875109c0212b697087f05cf87a89bbb1ca61fe2a7ee14e833935e1a816f15b13c91b29bc927ffdb4174fff715cf3c36b0c89a31b5fb9e2e910b6b"
+RPM_NAME = "ceph-mgr-16.2.13.66+g54799ee0666-3.1.aarch64.rpm"
+RPM_HASH = "19f79e90cfcf3f4a34b584f2160467631a474d77a2489c6b52ffac693bc89300ee9039609ba8216a182cbd8ac28c360eab3de8df7e530be6e11b27efc30502d0"
 
 RPROVIDES:${PN} += "ceph-mgr"
 
@@ -21,7 +21,7 @@ libceph-common.so.2 \
 libcephsqlite \
 libfmt.so.9 \
 libgcc-s.so.1 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libstdc++.so.6 \
 libtcmalloc.so.4"
 

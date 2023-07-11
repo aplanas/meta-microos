@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "1.4.8"
 
-RPM_NAME = "python311-django-widget-tweaks-1.4.8-1.11.noarch.rpm"
-RPM_HASH = "15f4c641c342e9a630e6305bcb6ef4c3c4f52f92959f6abd84a294972757a5ac502759e46a6b71aa7ccd69a440c355f687dc8260cade9d544901824e1186a297"
+RPM_NAME = "python311-django-widget-tweaks-1.4.8-1.13.noarch.rpm"
+RPM_HASH = "cc95fad48a3fe8a71225cc6ac0c83ce8b93ee4bcb71b343d3bb074a6f1a788e685011cf4a53862de292a15f66a10ceb9f35250b8d00dab80ab6ac1f70a609f40"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-django-widget-tweaks \
+RPROVIDES:${PN} += "python3-django-widget-tweaks \
+python3.11dist-django-widget-tweaks \
 python311-django-widget-tweaks \
 python3dist-django-widget-tweaks"
 

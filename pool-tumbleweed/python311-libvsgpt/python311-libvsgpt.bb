@@ -7,10 +7,11 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20221029"
 
-RPM_NAME = "python311-libvsgpt-20221029-3.7.aarch64.rpm"
-RPM_HASH = "f2e20f96e9fe3a667ad0df9db52fd95159d7afd40b58b2a52e2c12269591b8ec63c52116d2326194499cee6b33677998934cbe83fa7f59172278250ae7dd0307"
+RPM_NAME = "python311-libvsgpt-20221029-3.9.aarch64.rpm"
+RPM_HASH = "017bb0e02454d5a616637e68ced8ef8d4def706c35146634df6f3c5e7187e34fd4069a8d49caac097bf35f94090f1f83bdbd5bb36a0d1fb62d4169b6f1845ec7"
 
-RPROVIDES:${PN} += "python311-libvsgpt"
+RPROVIDES:${PN} += "python3-libvsgpt \
+python311-libvsgpt"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libbfio.so.1 \

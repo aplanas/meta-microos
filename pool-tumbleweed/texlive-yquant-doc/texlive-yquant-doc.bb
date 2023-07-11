@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.7.3svn65933"
 
-RPM_NAME = "texlive-yquant-doc-2023.201.0.0.7.3svn65933-52.1.noarch.rpm"
-RPM_HASH = "4f90e7d8824a7881746436b30f61f80405e7aeac14110c2aaf7fcfbdfb1849f830b4e25e86df018a8ca3a447b811a9cea3c9189e272010c00f8944d8ee876f95"
+RPM_NAME = "texlive-yquant-doc-2023.201.0.0.7.3svn65933-52.2.noarch.rpm"
+RPM_HASH = "ffc66b7263b24cdc6ce24f12372f2e422a7b551211dca2a4bd3038d7bb3f13b2b2f27ea5b7015e9bb9730360d8e09181e1f040bcfe6fd003914b2c679aff0c84"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-yquant-doc"

@@ -8,12 +8,11 @@ LICENSE = "MIT"
 
 PV = "0.1.21"
 
-RPM_NAME = "python310-pytoml-0.1.21-3.1.noarch.rpm"
-RPM_HASH = "633cd3a7361ccd4eb0280348fae8ddb174167a6d16fda45de0358cf17c0b4fdf9bdbd2a803753daba2d0a35c4ea82135992e6109fece004414de29aa8b1c61d4"
+RPM_NAME = "python310-pytoml-0.1.21-3.2.noarch.rpm"
+RPM_HASH = "71f8705ee4e5ee76ce6273011261dbe5563c7ace96584594aee22aade4aaac22906e163fc1b354d2fc94483b7e33806b3ef27148941233bc4e8859cb44fd7e77"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pytoml \
-python3.10dist-pytoml \
+RPROVIDES:${PN} += "python3.10dist-pytoml \
 python310-pytoml \
 python3dist-pytoml"
 

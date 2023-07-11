@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
 PV = "2.0"
 
-RPM_NAME = "rebootmgr-2.0-1.2.aarch64.rpm"
-RPM_HASH = "c35790631b3bcb20c1257aeaa03f607bcb7318f356ada8fbd818cf89de280fc4f9bdf977704223eead04fbff8527974b41a0e67c4d88f095f9e44022c6a4457b"
+RPM_NAME = "rebootmgr-2.0-1.3.aarch64.rpm"
+RPM_HASH = "5579cf50fa547e8d910c67fce68548531bc81233c021870aaace127879f4df8edb88a95bd8c07cd45299e27ee724bb8b73b724a41fb0369325021cd5e8a37d2c"
 
 RPROVIDES:${PN} += "rebootmgr"
 

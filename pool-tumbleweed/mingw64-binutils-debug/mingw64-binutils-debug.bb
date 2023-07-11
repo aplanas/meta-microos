@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & GPL-3.0-or-later & LGPL-3.0-or
 
 PV = "2.39"
 
-RPM_NAME = "mingw64-binutils-debug-2.39-4.3.noarch.rpm"
-RPM_HASH = "6ff1505ba4836b6af6e9f87a7b8897fb22ed97ee4edd244d3d126704ff025d984a7948d80cba1b81340abe64ea5824f53be09c2b8ff4b1e3e40b28cdeb2de651"
+RPM_NAME = "mingw64-binutils-debug-2.39-4.5.noarch.rpm"
+RPM_HASH = "d388bb3c82413e46d8ac2179e62a03f39e50dbe379a26123ccb2fab27f29e4960c1d3852ae091f6195d3412fa8301b31e44baa43e4552d77e49f1ded11f824bc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw64-binutils-debug"

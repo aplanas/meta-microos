@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later | MPL-1.1"
 
 PV = "1.23.0"
 
-RPM_NAME = "python-pycairo-common-devel-1.23.0-2.1.aarch64.rpm"
-RPM_HASH = "512acd79f69369022d8a4a33bf778d527f860ec2b55a3ad0392b0797e1f1ef5c2fc775e7f50c19f53ce274139611b4406435af29c2412e0ce948e2cbae2750f0"
+RPM_NAME = "python-pycairo-common-devel-1.23.0-2.2.aarch64.rpm"
+RPM_HASH = "78804eb98a929d02c4848b3c1e4fa64ad2d8b4e0c6f922cafa41cb09f96b1f024a60e4f7d6ccd33d659a05a330dd28a1c1b48d8cba153fa0141385d9dc966d93"
 
 RPROVIDES:${PN} += "pkgconfig-py3cairo \
 python-cairo-common-devel \

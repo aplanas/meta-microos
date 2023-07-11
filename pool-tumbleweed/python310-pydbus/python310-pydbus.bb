@@ -4,12 +4,11 @@ LICENSE = "LGPL-2.1+"
 
 PV = "0.6.0"
 
-RPM_NAME = "python310-pydbus-0.6.0-1.17.noarch.rpm"
-RPM_HASH = "8f19ffb31b118b60ce146b97e3ac7295f639eb67c4679c0df72fade0adf1b796c5cea72b5cee49eeafb32a1e23fd7a6d40fe93dc2b13f6344d40ab9a56c5af1a"
+RPM_NAME = "python310-pydbus-0.6.0-1.18.noarch.rpm"
+RPM_HASH = "bb027df2ddfb6cd387655a17625d84c987ca8cd82e2be3b934697c944816b1214b00e95a9832067780939a05e07540c1930597baf46be8590e9970c0c224a1c1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pydbus \
-python3.10dist-pydbus \
+RPROVIDES:${PN} += "python3.10dist-pydbus \
 python310-pydbus \
 python3dist-pydbus"
 

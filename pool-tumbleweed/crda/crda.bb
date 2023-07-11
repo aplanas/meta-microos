@@ -3,10 +3,10 @@ DESCRIPTION = "The crda binary provides access to the wireless-regdb to the kern
 through udev."
 LICENSE = "SUSE-Copyleft-Next-0.3.0"
 
-PV = "4.14"
+PV = "4.15"
 
-RPM_NAME = "crda-4.14-2.2.aarch64.rpm"
-RPM_HASH = "3554d239304e3f2448d663880180c381a8766b0d710123dfc6425f932a89b94fccc2057eb400230b7e9c420fe65951685a463397190f4079fedaaf1fed9c4226"
+RPM_NAME = "crda-4.15-1.1.aarch64.rpm"
+RPM_HASH = "7cc8dc33076695027cb3f7f9e453f19cc0a2933d7ae176ac555d538aeb54944a37484ad1e491a6963f9d803fbcdab94731f9f1eba6aa58afafbcfc7209059529"
 
 RPROVIDES:${PN} += "crda \
 libreg.so"

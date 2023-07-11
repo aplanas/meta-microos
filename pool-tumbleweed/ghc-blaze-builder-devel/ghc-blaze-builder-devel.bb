@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.2.2"
 
-RPM_NAME = "ghc-blaze-builder-devel-0.4.2.2-3.3.aarch64.rpm"
-RPM_HASH = "f5ae7d9bbd3bb5cd9b04dfb990e1d672c2bfefa13571700ee7d651f7f4a1d9b1c41027c74f8f70634c2a49ed243754923f35fbaa7dfdbf5d33c280f4e33cc265"
+RPM_NAME = "ghc-blaze-builder-devel-0.4.2.2-3.6.aarch64.rpm"
+RPM_HASH = "fb3c583d8362ad0d347552a2105d60fa8ce189dde50465de5b19892c6aefdee587272b1b57a870ea7fbb219013ee88b491af01ed0c4f98133a8c26e42cd22add"
 
 RPROVIDES:${PN} += "ghc-blaze-builder-devel \
 ghc-devel-blaze-builder-0.4.2.2-1GcRIc7N7YHId5Q5gRvlvW"

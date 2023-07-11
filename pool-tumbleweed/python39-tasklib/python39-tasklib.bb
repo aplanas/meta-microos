@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.5.1"
 
-RPM_NAME = "python39-tasklib-2.5.1-1.3.noarch.rpm"
-RPM_HASH = "1f3afd3847f7284d959e501a2618882c50266efee57fc852e7de3fd33e5f49c393ce53c0569717f990a6e33d4b8ce64efa60838797b7ee9b0d6203d6524d44f0"
+RPM_NAME = "python39-tasklib-2.5.1-1.5.noarch.rpm"
+RPM_HASH = "b87a337d4a03ea283226dabe09fe9c2c8e17733b7f449bb15fe219aa02256fc9804e448427e434ff6770dc3125a4a06f5a18b588f524962d778f47b0b0ccd28f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-tasklib \

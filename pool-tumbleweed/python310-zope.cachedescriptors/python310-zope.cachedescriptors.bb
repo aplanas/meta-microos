@@ -11,12 +11,11 @@ LICENSE = "ZPL-2.1"
 
 PV = "5.0"
 
-RPM_NAME = "python310-zope.cachedescriptors-5.0-1.1.noarch.rpm"
-RPM_HASH = "ceea30cfe9f8dbbb33b32a3a27b53da74c842f0bcb99149af8efec5328303eabc69cfe122ee1e4b41bb25218b1720777e467121291ef8b6bdd83e0a8cecae6e1"
+RPM_NAME = "python310-zope.cachedescriptors-5.0-1.2.noarch.rpm"
+RPM_HASH = "b7c7add068da2faba6e308dccab1a54011d8a53b281c2f51933fbf1840139cebb444fc29f830d2e4e5bf97e8e79f443fbc4c07459c12b2678fc5d025358b78ef"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-zope.cachedescriptors \
-python3.10dist-zope.cachedescriptors \
+RPROVIDES:${PN} += "python3.10dist-zope.cachedescriptors \
 python310-zope.cachedescriptors \
 python3dist-zope.cachedescriptors"
 

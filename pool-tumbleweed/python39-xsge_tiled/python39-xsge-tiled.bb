@@ -14,8 +14,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.0"
 
-RPM_NAME = "python39-xsge_tiled-2.0-1.3.noarch.rpm"
-RPM_HASH = "37bf6854c62a797465c42a86b449f0680714b38a351654164cbe2391f5f667693c766fd1d4bc61c6de93aeeca2e7cf8b89e51147b9a605f2763fbb4a2f348bcc"
+RPM_NAME = "python39-xsge_tiled-2.0-1.4.noarch.rpm"
+RPM_HASH = "cfaa655ad58593874ad2664b4fa386d8fef7049410c0040dc17b7e48c80fb4d2f40f65cbe1ece08cd3849a4bb2a45fdb37430f77eb1016ba617cc940f60490bd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-xsge-tiled \

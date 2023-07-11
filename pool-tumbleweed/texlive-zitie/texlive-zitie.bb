@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.4.0svn60676"
 
-RPM_NAME = "texlive-zitie-2023.201.1.4.0svn60676-52.1.noarch.rpm"
-RPM_HASH = "016b2a244529c227804f14e1e2942b5dbbcec34c04af1605c3b07e93be9f816231911f71eae32ce71073dfe3b03b1afd094eb823c0eb7ba6a216db48aa0e8d1c"
+RPM_NAME = "texlive-zitie-2023.201.1.4.0svn60676-52.2.noarch.rpm"
+RPM_HASH = "b3238491401351ca5de6f9bce83e65dfe0fdfcf2774c9f5ff6f9f218ba9e0d15250af40512322d1826127a0944b2e2382f8dc54701c8c88ef0a8ffde665e02fc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-zitie.luatex.def \

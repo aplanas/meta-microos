@@ -7,8 +7,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.2svn63255"
 
-RPM_NAME = "texlive-ektype-tanka-2023.201.0.0.2svn63255-53.1.noarch.rpm"
-RPM_HASH = "755164df8f8a413ca8854fee260565877195fcfe1f30490cbcda713e86485c420aa7260365c9042575bd00d3da16ca252772b0ee272ee24e03f1846e9ba07ae6"
+RPM_NAME = "texlive-ektype-tanka-2023.201.0.0.2svn63255-53.2.noarch.rpm"
+RPM_HASH = "ca0adacc3e89eed26809cabd28282cf6c85b4cf7601e499a02ea6647bcff2c1d417a157647021d6d6718e6d1e6596f436421d98d8d2322daabd2af36c335e971"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ektype-tanka"

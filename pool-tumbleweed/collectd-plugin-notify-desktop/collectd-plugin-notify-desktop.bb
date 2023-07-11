@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only & MIT"
 
 PV = "5.12.0.134.g4cebbfc"
 
-RPM_NAME = "collectd-plugin-notify-desktop-5.12.0.134.g4cebbfc-1.4.aarch64.rpm"
-RPM_HASH = "b8f3ac64239074eb74cec67f138e99bbd079d60b5dbb571ae48016f49afb4cfd4cf83594ed0c653e4233661bfa9d669d599ee1234e033ef5b899d430fe6e1b54"
+RPM_NAME = "collectd-plugin-notify-desktop-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
+RPM_HASH = "0b85280d4a89047cd350dc86554d813c8739a0248f7698bc4eb3844f5489754049959b6439550677dd0b09c916c4d23f00afe345a01d718143b82860df6646af"
 
 RPROVIDES:${PN} += "collectd-plugin-notify-desktop"
 

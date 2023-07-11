@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.9.0"
 
-RPM_NAME = "libblas3-3.9.0-9.1.aarch64.rpm"
-RPM_HASH = "11d10673f6ed16bd8b915fffc7a0dcc9a5a1d60271ddbb9020215e3e2cbbbb526392eabcb189ed4979f043cc23f08e98caedf154f45fb5ebfa2731ff8ddf9246"
+RPM_NAME = "libblas3-3.9.0-9.2.aarch64.rpm"
+RPM_HASH = "a01cc66dce96796941bb1632b01c7e3a84139c177e95033f286a20a5e9bebfe150860613947ff27a0c8c7fa42c6c5ad1dbf205e0cd2e84d9d69ebfb2ea39938e"
 
 RPROVIDES:${PN} += "libblas.so.3 \
 libblas3"

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.48.1"
 
-RPM_NAME = "gnome-terminal-lang-3.48.1-1.1.noarch.rpm"
-RPM_HASH = "461b8ae061291e3e848f4764352b7630b2077f26b42b2dc6ba5d4bfc93fce0c4c54c81b964bf7d21ac9c0023f68527a2d5888eb203544b44de2b79b726814f79"
+RPM_NAME = "gnome-terminal-lang-3.48.1-1.2.noarch.rpm"
+RPM_HASH = "0fe1361c17228bdbad8d8dfe4a38c0d26a6ffafeb34e3bf69c9c5b2b9df125754a3086b34f7d1bc89e93d3343870a07c8dd6aff319dac7b00ad4f20a8b5272ea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-terminal-lang \

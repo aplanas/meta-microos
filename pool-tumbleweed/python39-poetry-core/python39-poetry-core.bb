@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0 & BSD-2-Clause & MIT & Python-2.0"
 
 PV = "1.6.1"
 
-RPM_NAME = "python39-poetry-core-1.6.1-1.1.noarch.rpm"
-RPM_HASH = "48fa781d924645b92de64deac642ddd01de882f0fc16fe2cf3df395662b1318c2dc3fe4417a6d58cc2dc77bb973124537375e770149ab9e810952807477a589a"
+RPM_NAME = "python39-poetry-core-1.6.1-1.3.noarch.rpm"
+RPM_HASH = "35765b3b5632dbbcfcb98f32b964a6e8b5d1544e4d125ded17e8095cb99fcb7e94818ef986d029efed6da77b2139c1d12696b4689a61e3f02eeaff9fd50757e2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-poetry-core \

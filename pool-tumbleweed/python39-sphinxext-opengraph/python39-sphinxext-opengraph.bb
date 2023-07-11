@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.7.5"
 
-RPM_NAME = "python39-sphinxext-opengraph-0.7.5-1.3.noarch.rpm"
-RPM_HASH = "b63115c8ecef682470609c27d6e874b27b4e1ab342624cf917a261c59675be247e22df9139f5e9fde2cb1a883767067cc59b1224abf6c653a1c7d98fb544dce6"
+RPM_NAME = "python39-sphinxext-opengraph-0.7.5-1.5.noarch.rpm"
+RPM_HASH = "37951f491ca9aa47b1bc6e7a115125747dd4a2663ea55000511c2948c4944f27ddbddacfbe9b2ac75696dc5a7e05655ce68f05b6203177d6385fa03d98b206ea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sphinxext-opengraph \

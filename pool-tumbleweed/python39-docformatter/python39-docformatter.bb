@@ -21,8 +21,8 @@ LICENSE = "MIT"
 
 PV = "1.4"
 
-RPM_NAME = "python39-docformatter-1.4-1.9.noarch.rpm"
-RPM_HASH = "bd7d3d95db5c72943f364c30fe25c9602b19108864b58b692b1d3fbd5083f23b26e801bd15a8e88535ff365ec577417a8c7844026c7a2351823351a3f255a6a8"
+RPM_NAME = "python39-docformatter-1.4-1.11.noarch.rpm"
+RPM_HASH = "2ff21740fd2ce45aa73d27307aa6bffd8dbe323f0e71fa574ba518c01daec81cb5edfad41fa09458d0462223bd1c63b343c90dc41f62df52536c862368e4c4c5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-docformatter \

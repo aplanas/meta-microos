@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "1.2.5"
 
-RPM_NAME = "python39-suntime-1.2.5-1.14.noarch.rpm"
-RPM_HASH = "31a2d1ef945692800ac54f8a9195796d7fa92fd9a5f0f7409f28c76668b092820a987e359e1fe6442f179b8bb7a8c98f9444832d42c2350c88c8b33b244af584"
+RPM_NAME = "python39-suntime-1.2.5-1.16.noarch.rpm"
+RPM_HASH = "f0a83bdf00d786a042ce2f257fdf40d50092a301c6f9d7b499d8fa30a7ba24d51dd382bb462eea40fd0aa4f2e472ccfd5b3d1fd48b30717176a2fcda9bd73073"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-suntime \

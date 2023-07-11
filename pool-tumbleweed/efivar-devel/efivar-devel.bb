@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "38"
 
-RPM_NAME = "efivar-devel-38-1.3.aarch64.rpm"
-RPM_HASH = "dd207c735bb1e27a88eccb485ed6f82bd8e1eaf0eff5889501a80ea2f87c289e602a6982a0c9d23767cca7c5a8d5fa7dd2d5aedc2279e81c24fcd93baff80fd4"
+RPM_NAME = "efivar-devel-38-1.4.aarch64.rpm"
+RPM_HASH = "8424233dd8b8cd4dac79c435e68641406c8edd9dc2d44a329d472fb74e412c7c764b779de029851bcfc3e6db59f4bdb5dfb5d5ef48718812c5f90bd93410b97c"
 
 RPROVIDES:${PN} += "efivar-devel \
 pkgconfig-efiboot \

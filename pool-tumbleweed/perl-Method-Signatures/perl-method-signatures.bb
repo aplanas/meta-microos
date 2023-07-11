@@ -14,8 +14,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "20170211"
 
-RPM_NAME = "perl-Method-Signatures-20170211-1.21.noarch.rpm"
-RPM_HASH = "03f7a7bee9e5a3073b52fa1a9ab0e5a7416a7afee83489cd612e091bf5ae61ff0572b7b05359a334781880d55b35e12fec584880b298e2cb51c46bd2c267819e"
+RPM_NAME = "perl-Method-Signatures-20170211-1.22.noarch.rpm"
+RPM_HASH = "23055ab8cef303ec559bf71378b5b4586008243a1d07eb45a5a7c3de58febb744c46dbaea9a1c03f6af2903792d575bb68f1d92341b54f5a99fec19ff0550d15"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Method--Signatures \
@@ -26,7 +26,7 @@ perl-Method--Signatures--Types \
 perl-Method--Signatures--Utils \
 perl-Method-Signatures"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Any--Moose \
 perl-Const--Fast \
 perl-Devel--Declare \

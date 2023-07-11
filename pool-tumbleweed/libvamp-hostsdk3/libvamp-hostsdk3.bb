@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "2.10.0"
 
-RPM_NAME = "libvamp-hostsdk3-2.10.0-1.12.aarch64.rpm"
-RPM_HASH = "7f72a7526bf1ece3875955a48480addb6bb7759029c9f379e9220b3b04e328227cb263f338ad5fbd5f973de1567924f6b0e0e6c8c7e5cc0cd6632634985b4108"
+RPM_NAME = "libvamp-hostsdk3-2.10.0-1.13.aarch64.rpm"
+RPM_HASH = "0a762a974ccce2d6b6e4c7ebdcf5cf0b6c6738ee9894dff4d46c56092552970eaced185d6d1b27a780b251af383ca2a35c9b7683262644b0a73ef379b66c5abc"
 
 RPROVIDES:${PN} += "libvamp-hostsdk.so.3 \
 libvamp-hostsdk3"

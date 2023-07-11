@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.1.2"
 
-RPM_NAME = "python39-python-qprogedit-4.1.2-2.19.noarch.rpm"
-RPM_HASH = "386d00d1fbced5ef0ad424e8829ad13e4669020929d40aaee79e4340c11b5b2a8229590f9cd33bec3a9a315cb5f774b5e33974f73cfa1b28b086207615db8fd5"
+RPM_NAME = "python39-python-qprogedit-4.1.2-2.21.noarch.rpm"
+RPM_HASH = "8b9748577a0b53f7ba8456d433c7b8e6de74b5e30ceb24f978cc3daceecc4520e46f8ed6b80e32f3036d192717a3e8d1c781921614f863786f341d320b46a25c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-python-qprogedit \

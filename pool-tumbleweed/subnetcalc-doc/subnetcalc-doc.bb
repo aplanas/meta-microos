@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.4.21"
 
-RPM_NAME = "subnetcalc-doc-2.4.21-1.2.noarch.rpm"
-RPM_HASH = "b74a258fd832a303b61cfbe6f28b046a4f9a3b8a91b596e3c3ea0a16b1af521426d7aeebe218d7fd991e61777f4fb9bd4b97caef49db4ab7b2f66585359a2043"
+RPM_NAME = "subnetcalc-doc-2.4.21-1.3.noarch.rpm"
+RPM_HASH = "d91596f4bbbbe9d50767387909449991f924c05ec79ce66f1d64b7ce88b9d7fbd7cd295c017d89dbd6febd6bb516f8e4f26575e442f8135eed8648a3b54ae930"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "subnetcalc-doc"

@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn42300"
 
-RPM_NAME = "texlive-latex2nemeth-bin-2023.20230311.svn42300-91.1.aarch64.rpm"
-RPM_HASH = "1d5c5da6ddbf57e3917c891ec6e54cacb5f90e1234763617913f51ccbca0154bb9ae7c79469aa21e9a5bf1c30395a556ca8da6c6708ee6a10ea847f670399f58"
+RPM_NAME = "texlive-latex2nemeth-bin-2023.20230311.svn42300-92.1.aarch64.rpm"
+RPM_HASH = "76adc326900f49fa58eabd0ddc18fb88e00589412e9e33439050e3503c1ff8553dec3b6584c0078893bd24c9358a1fdbd4c15a1d873d08febe1c8563bc79c3b4"
 
 RPROVIDES:${PN} += "texlive-latex2nemeth-bin"
 

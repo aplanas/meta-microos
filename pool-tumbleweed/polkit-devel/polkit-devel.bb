@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "121"
 
-RPM_NAME = "polkit-devel-121-4.2.aarch64.rpm"
-RPM_HASH = "25814ca56ff5a99bed3f1665e573993435469302c26ca73004ad5e562a806d4f681d0863593322fcc8c40d13e9e4b869013d42daa3ddfca2fe5d66ce890e7c4d"
+RPM_NAME = "polkit-devel-121-4.3.aarch64.rpm"
+RPM_HASH = "8326dfc97ec1829d7efd93848f7758f4a0064c1540c379480513d3cb0fdaf2196c766392bfc21a386d297098ae7263e28a449a794dca44fdfcd67fc4db2b9ac6"
 
 RPROVIDES:${PN} += "pkgconfig-polkit-agent-1 \
 pkgconfig-polkit-gobject-1 \

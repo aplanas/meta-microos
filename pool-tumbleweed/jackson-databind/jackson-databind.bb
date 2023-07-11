@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0 & LGPL-2.1-or-later"
 
 PV = "2.13.4.2"
 
-RPM_NAME = "jackson-databind-2.13.4.2-1.2.noarch.rpm"
-RPM_HASH = "cb0554cd9b1bfac399ff92a3d9c88b0224d3f218c532a4c9fefea87e3f4f5721f0d5039761c99a0a73d5db8b6e759ad3b3d4910e4035b3ff8b3cca8f007be6fd"
+RPM_NAME = "jackson-databind-2.13.4.2-1.3.noarch.rpm"
+RPM_HASH = "ac71d8a5256c6135c0b1ba2438ba2fd3200a1ce9ecbf62ff5b39edeae29df576eaf2329a331e1683faaa4a1ba21d8d55fcf537fa6093d63ae11bb39ccd8da179"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-databind \

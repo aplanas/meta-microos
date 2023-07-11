@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only | LGPL-3.0-only"
 
 PV = "4.10.0"
 
-RPM_NAME = "phonon4qt5-backend-gstreamer-lang-4.10.0-1.20.noarch.rpm"
-RPM_HASH = "5ab0914af67996696873595726e6f333fea89fd23810bba8d2ba780e6ed27a39ce8363c14595c2974ffe4c184ba4f9dd0d069daf4d550a0574f1160a0c687f7d"
+RPM_NAME = "phonon4qt5-backend-gstreamer-lang-4.10.0-1.21.noarch.rpm"
+RPM_HASH = "91246896710d1f83437b8d62a936e0d85edd3831c1b8a189429541aee866908a748d78f716262fe61f5fc0339c5770c24ce537cbc56f1716b9f36a1912a2dfd3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-phonon4qt5-backend-gstreamer-ar \

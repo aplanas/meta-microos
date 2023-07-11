@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "8.60"
 
-RPM_NAME = "libsignon-qt5-devel-8.60-2.18.aarch64.rpm"
-RPM_HASH = "edac879822af85849acd03d8dc4cdeaf5752e563bed0332fd1cb5afe136dac6787d41f6885333718600b76893d5835fe41f4cbb3cc1a6fa2812e1cbd98f1436f"
+RPM_NAME = "libsignon-qt5-devel-8.60-2.19.aarch64.rpm"
+RPM_HASH = "1d5da0afee00c05ace5771c7aae93834976e88a6ab26db7e8062d57e670b1e3d8ddb42a973aaa47317519aa844c9781eea1c7a92b1fc08387276e316cfef836e"
 
 RPROVIDES:${PN} += "cmake-SignOnQt5 \
 libsignon-qt5-devel \

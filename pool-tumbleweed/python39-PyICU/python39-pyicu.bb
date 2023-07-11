@@ -3,10 +3,10 @@ DESCRIPTION = "Python extension wrapping IBM's International Components for Unic
 library (ICU)."
 LICENSE = "MIT"
 
-PV = "2.10.2"
+PV = "2.11"
 
-RPM_NAME = "python39-PyICU-2.10.2-1.6.aarch64.rpm"
-RPM_HASH = "919ca5966da84d79ff6c56220ae9dd9717b1b1742dc5d31832aec70b3e8bd1655ff583b2c7a3290a93af9eeee7c6b60b278728f797f6869116979ebca84d953c"
+RPM_NAME = "python39-PyICU-2.11-2.1.aarch64.rpm"
+RPM_HASH = "7a6881af2c56373909ea54e33584a9ba70bb48bee997fd9bd7b0f396d68afe08584dfea996132a56ed984621b1c1c54171121f317df59ddf7807932358d5fd3e"
 
 RPROVIDES:${PN} += "PyICU \
 python3.9dist-pyicu \

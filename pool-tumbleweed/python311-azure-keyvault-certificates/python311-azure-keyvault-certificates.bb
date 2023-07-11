@@ -10,11 +10,12 @@ LICENSE = "MIT"
 
 PV = "4.7.0"
 
-RPM_NAME = "python311-azure-keyvault-certificates-4.7.0-1.2.noarch.rpm"
-RPM_HASH = "1f9c8e17ca4ce2432e85cbdda35c5b402a189c4887df3e6e5f5d487829fb303d5ba8f75d8a4bf50bebb2bcb93d4ed40fd7cbb1aca288c02196392679017329af"
+RPM_NAME = "python311-azure-keyvault-certificates-4.7.0-1.4.noarch.rpm"
+RPM_HASH = "e2256832a10aa7620c1503d349581e7d9790be3d2950c0289ace4b40193ddd7b8751fefac8ad92669773ea41057d2204f739f8ef0f140a7622a3625e9f4fdbaa"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-keyvault-certificates \
+RPROVIDES:${PN} += "python3-azure-keyvault-certificates \
+python3.11dist-azure-keyvault-certificates \
 python311-azure-keyvault-certificates \
 python3dist-azure-keyvault-certificates"
 

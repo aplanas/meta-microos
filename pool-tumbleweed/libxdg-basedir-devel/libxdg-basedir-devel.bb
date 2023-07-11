@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "1.2.3"
 
-RPM_NAME = "libxdg-basedir-devel-1.2.3-1.6.aarch64.rpm"
-RPM_HASH = "48fc66d2c0ff6b5eeb24e66352a6589ce74db3b5f9772ded582319edca6efdf977882d4539c64c60daff6f65b31f5281407b1c7142ee8b1b10e159120887d9ff"
+RPM_NAME = "libxdg-basedir-devel-1.2.3-1.7.aarch64.rpm"
+RPM_HASH = "0c3df7bb6a2c206685e8f757e644259b9beaf74634ab6bb42d8bc4327695fe798c492568ca28ed0e920ed1d06699935932be51a0ba469a615c9808ee6bd8fb85"
 
 RPROVIDES:${PN} += "libxdg-basedir-devel \
 pkgconfig-libxdg-basedir"

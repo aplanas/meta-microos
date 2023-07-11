@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "0.2.0"
 
-RPM_NAME = "python311-azure-cognitiveservices-search-autosuggest-0.2.0-2.11.noarch.rpm"
-RPM_HASH = "6e0290ac0b0b4e9728bb83dae6352e7c41f41983beb6455db67a471d2a613e1c049324075bcb07160f8c627cda3efff4eea9b17fdfc64322ac47af2b71380179"
+RPM_NAME = "python311-azure-cognitiveservices-search-autosuggest-0.2.0-2.12.noarch.rpm"
+RPM_HASH = "fef578599b2d849cfb4f52ae08e26154c114ca0a9b25a7243b2791a73df2516b5943503a2460fc99a48adaa824c39093d688ce44d1ed3caed7f0c6ce72a79ccb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-cognitiveservices-search-autosuggest \
+RPROVIDES:${PN} += "python3-azure-cognitiveservices-search-autosuggest \
+python3.11dist-azure-cognitiveservices-search-autosuggest \
 python311-azure-cognitiveservices-search-autosuggest \
 python3dist-azure-cognitiveservices-search-autosuggest"
 

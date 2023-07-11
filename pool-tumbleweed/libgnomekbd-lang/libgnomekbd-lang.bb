@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.28.1"
 
-RPM_NAME = "libgnomekbd-lang-3.28.1-1.3.noarch.rpm"
-RPM_HASH = "dd8e1c404e4ef3637bbb9c28a01ab61bcf2d2d3ca721d68c83cf2c6fca1885cc9e3bad9c1a2ffdf9524bb0c0a5fa0b9b10c9c0d94507f90f60c5964beb35dd1c"
+RPM_NAME = "libgnomekbd-lang-3.28.1-1.4.noarch.rpm"
+RPM_HASH = "6f98641da5cbc1ea7d8c477b869e092aecf9478a43f385c2201bd251b9120a7de8cd814f76fe5fb2dc35c36fbb976d761aeb4988f5cd58255f617d8eecc111ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libgnomekbd-lang \

@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "2.0.0"
 
-RPM_NAME = "python311-jsondiff-2.0.0-1.6.noarch.rpm"
-RPM_HASH = "4ccba1679ce1cdce3828a912526197fdf3bd51348236017686d2158d35fe8a71beaf06ee5f75f186dbe04be97e9f8a9c9b07755aa74f626397ea61c52add8129"
+RPM_NAME = "python311-jsondiff-2.0.0-2.3.noarch.rpm"
+RPM_HASH = "082e675c6128b7abaa8a05ed54caefd419d188c9323b33d4b92d2c98c462c09f3b3570fe4fd618871f84a25faecbbfd93d1629aed349f15dbbcd6d8d4440478f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-jsondiff \
+RPROVIDES:${PN} += "python3-jsondiff \
+python3.11dist-jsondiff \
 python311-jsondiff \
 python3dist-jsondiff"
 

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.29"
 
-RPM_NAME = "nfoview-lang-1.29-1.2.noarch.rpm"
-RPM_HASH = "09a14682df24276a9010a4ffaa2dd9afd4f96a8af1de7e8d86748c173a7264c01817f4806eaad8125c8f7b9911ab786188f6cc094dfde62dfbf3f93861668894"
+RPM_NAME = "nfoview-lang-1.29-1.3.noarch.rpm"
+RPM_HASH = "f38f74dad2576c77f66a5dde7feff4ee71590aaa0c3429f40a82a13913ac973054d1ddda48939400e013bcfbfb86840c7edca4021d827e366645fcdba2095c4e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-nfoview-bg \

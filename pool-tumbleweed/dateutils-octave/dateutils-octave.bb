@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.10"
 
-RPM_NAME = "dateutils-octave-0.4.10-2.3.aarch64.rpm"
-RPM_HASH = "3b6ba31a64d37d92b880baa20d5d564c80747079a9c99c175905cc58b18d767ea8f89f77f0de380f41b4189a6d044e3a6fd4f7c57630efe5c1ca4e734c54b6b8"
+RPM_NAME = "dateutils-octave-0.4.10-2.4.aarch64.rpm"
+RPM_HASH = "9adb7d98b71d783198cb4e4240001ea56b2122b617ab07b764cc21399ada91e9a1a2862d35b7838f67abd7fafd40a81d2ba24bbff9932116754b048b6eec2843"
 
 RPROVIDES:${PN} += "dateutils-octave"
 

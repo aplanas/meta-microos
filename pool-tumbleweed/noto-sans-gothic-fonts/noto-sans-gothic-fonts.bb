@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-gothic-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "88e9f7db0321b38002ff1e4a20df2531338b2270fd45134e1825a2ba91cf2be57dbd21d491f718ffd07ba70de64c196733caf277b13db22d9bf5f2ecffa6c735"
+RPM_NAME = "noto-sans-gothic-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "f8b719c72ee05ef236296759e0f8c3679d9e833ded2552907e6fd5ae1ea44f7f90fd86a6060b8ae462a89eb9c33277822bb9abc91f754b2eb783e9c298686056"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-gothic \

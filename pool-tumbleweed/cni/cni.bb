@@ -10,8 +10,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.1.2"
 
-RPM_NAME = "cni-1.1.2-2.4.aarch64.rpm"
-RPM_HASH = "9c24c348fcb517bb7d01c4bf7592ffbb2700bd738fdbe5ba4db4c8d3e063f065a326fe4f7fcd86a531a9055c0487b4c06d8fcf3391bdb32d9fd9c854d42138d5"
+RPM_NAME = "cni-1.1.2-2.5.aarch64.rpm"
+RPM_HASH = "8444d9a468c57a8f918c621bcc5cf4c4d02d53036e812daca096797d014765bb5b5fbd6b37a2a49be40f27f5ab1d800743d1719b0ca6394e340179cd28109189"
 
 RPROVIDES:${PN} += "cni \
 config-cni"

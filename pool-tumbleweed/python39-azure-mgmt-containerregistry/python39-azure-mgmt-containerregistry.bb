@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "10.1.0"
 
-RPM_NAME = "python39-azure-mgmt-containerregistry-10.1.0-1.2.noarch.rpm"
-RPM_HASH = "4e30a20af0de74efbdaaf79f62fa8ec62bbd38cc5f9e8b77bf3c50f7170b230e5e408364194163ac2d539ee9d54200c959ff8b07cfe46bfcce3f41a3b773ed2c"
+RPM_NAME = "python39-azure-mgmt-containerregistry-10.1.0-1.3.noarch.rpm"
+RPM_HASH = "9dfe18f11b6e1e1e054583bc89f42b6213df5148c15b89f70a1bc6d9180ac06cf8ec53bb96bf993462a00c23e5d2b7b4af17565dbe9748f08d61a833b2409205"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-containerregistry \

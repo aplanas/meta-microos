@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0+ & LGPL-2.1+"
 
 PV = "5.2.5"
 
-RPM_NAME = "pcp-devel-5.2.5-3.4.aarch64.rpm"
-RPM_HASH = "05ce8a23e4e40288e9bbc71d90e227702cf5d78c65242c9045808ebf298dd4e4e1cbb3b316221e7c3c14323a46150c2726f3295634c97167cdf561523d41139b"
+RPM_NAME = "pcp-devel-5.2.5-3.7.aarch64.rpm"
+RPM_HASH = "e1668794149116c6fb55114013a3388aa98be1ec145fd5daaeace0666c1fe1072e0560adb9ba93ab9b791874c8eb0dc5c9f0fc864283e731d6d6f4e2d452e097"
 
 RPROVIDES:${PN} += "config-pcp-devel \
 pcp-devel"

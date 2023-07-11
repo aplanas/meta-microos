@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.7.0"
 
-RPM_NAME = "python39-pytest-listener-1.7.0-4.3.noarch.rpm"
-RPM_HASH = "6860b213066424274c4a98cac93a002e937071ef8b0738e49cc58552670f4009be89aac08b192906a9af52a67f0788625721e2800a9c73dc0fb22e361abd84ea"
+RPM_NAME = "python39-pytest-listener-1.7.0-4.5.noarch.rpm"
+RPM_HASH = "968fca51c0cc1d5063d71237a0aadf95095c5eb7a124b50d245b9b419efa5ea661c6099865fa0cee8b8211980574a7c4d38ed6af54b3db460a80307d6c3e7632"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytest-listener \

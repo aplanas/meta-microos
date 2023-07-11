@@ -4,10 +4,10 @@ DESCRIPTION = "StrongSwan is an OpenSource IPsec-based VPN solution for Linux. \
 This package provides the strongswan sqlite plugin."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.9.10"
+PV = "5.9.11"
 
-RPM_NAME = "strongswan-sqlite-5.9.10-2.1.aarch64.rpm"
-RPM_HASH = "42e5018bc0605bdc4c73c4ef6fa0b96d32e98de339b5b36255ab4cfa9f7955fc28f4dc5c43560416eef71981572b4deba19be9fea0cd952a3947cbd5179a4461"
+RPM_NAME = "strongswan-sqlite-5.9.11-2.1.aarch64.rpm"
+RPM_HASH = "665ed7ef124328e0e354fdcbdf989d0eb15b189a80d9669964a48065737458fea625aba8e58df427a07b46e6d22e4dc7077c894bea4db9c4f0b1cefdfbe0d065"
 
 RPROVIDES:${PN} += "config-strongswan-sqlite \
 libstrongswan-sqlite.so \

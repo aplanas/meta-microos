@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2"
 
-RPM_NAME = "hdsploader-1.2-24.3.aarch64.rpm"
-RPM_HASH = "6e108a9849dd795ed5c76a8be316cb8983b673539394399609e5af49bb9de059f98bac1dc8181fe7118e0213b35e7ea22d2f830f2936e690cfe92fd221736ef5"
+RPM_NAME = "hdsploader-1.2-24.4.aarch64.rpm"
+RPM_HASH = "698a3daf270160425dd41b3417b6d01964e1c7dedf897e0eae5b7cb1d0f401fa893eea492d60fc5771386bb13e5f6a4e55ec6ab1898820a07548238f94fe8bae"
 
 RPROVIDES:${PN} += "alsa-tools-/usr/bin/hdsploader \
 hdsploader"

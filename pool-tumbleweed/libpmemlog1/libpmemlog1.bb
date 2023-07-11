@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.11.1"
 
-RPM_NAME = "libpmemlog1-1.11.1-1.8.aarch64.rpm"
-RPM_HASH = "38b39e63c3a00376dc73472fdf2b084b5a359e5cc84105dc3b15f270658c5172b40a8ed429906231cc94cd865f835f6fae485a8bac1ed26decc1ec68b95fb8da"
+RPM_NAME = "libpmemlog1-1.11.1-1.9.aarch64.rpm"
+RPM_HASH = "ffc266047105cbf29f3dea32d1dc2f7c3ac9a8b89ab8e98a268f084e2f88f675b722a30fd171b410c4323036444daa0db5ab359fbcec4d32b9393ffe25ca2514"
 
 RPROVIDES:${PN} += "libpmemlog.so.1 \
 libpmemlog1"

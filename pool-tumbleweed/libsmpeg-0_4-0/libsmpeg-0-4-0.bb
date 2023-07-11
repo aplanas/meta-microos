@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "0.4.5"
 
-RPM_NAME = "libsmpeg-0_4-0-0.4.5-3.3.aarch64.rpm"
-RPM_HASH = "f3f350f76dc56f9a7eb4abc5518bb4c7a14113938c09cdcc534852df702bd724ecfa409fb283a0f08cca4e45e4ddf7cc71fc7524bae53d036c6b9a299bde5887"
+RPM_NAME = "libsmpeg-0_4-0-0.4.5-3.4.aarch64.rpm"
+RPM_HASH = "1f3a26f41747af989410ff420b8aeac381165b0cbca8265531abb65f1d3d44be46d929cbc3212e2cbe5078b0ecae137cc14ba82dd45b0d15281b706b4db01883"
 
 RPROVIDES:${PN} += "libsmpeg-0-4-0 \
 libsmpeg-0.4.so.0"

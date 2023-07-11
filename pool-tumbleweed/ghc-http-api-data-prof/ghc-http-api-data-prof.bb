@@ -4,17 +4,17 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.5"
 
-RPM_NAME = "ghc-http-api-data-prof-0.5-3.2.aarch64.rpm"
-RPM_HASH = "c61a00bae43e5a438f9b01ee24dd827706e2ddaa44e89e50624b5a7af1e654be0ec69d0ad9db64b15c0c57b44d32c9a8da26610a6e4ca680b6b29cb9578e5a43"
+RPM_NAME = "ghc-http-api-data-prof-0.5-4.1.aarch64.rpm"
+RPM_HASH = "95125f56b4f8a1b549578c355f859e5df5342a44baa639641501c4efdfdaab2d99a7b5a7748846bd75f27261723b3fce9809763c83e4534576b67882586a4eb4"
 
 RPROVIDES:${PN} += "ghc-http-api-data-prof \
-ghc-prof-http-api-data-0.5-Ipkpz3wcjEIJthDto7snfd"
+ghc-prof-http-api-data-0.5-V3iAwM0FHG5XKNP6QkA7J"
 
 RDEPENDS:${PN} += "ghc-http-api-data-devel \
 ghc-prof-attoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3 \
-ghc-prof-attoparsec-iso8601-1.1.0.0-2S5wwgpuLNfEy2BIFZOtUU \
+ghc-prof-attoparsec-iso8601-1.1.0.0-7warWbAa4NQL4IDzyErxXZ \
 ghc-prof-base-4.17.1.0 \
-ghc-prof-base-compat-0.12.2-L1DEOlMQJOdFOKsjHoWYov \
+ghc-prof-base-compat-0.13.0-Cvz3167VMpo6rdOohSlum3 \
 ghc-prof-bytestring-0.11.4.0 \
 ghc-prof-containers-0.6.7 \
 ghc-prof-cookie-0.4.6-Dg4BNZOQbFj7M1J2IgDFKE \

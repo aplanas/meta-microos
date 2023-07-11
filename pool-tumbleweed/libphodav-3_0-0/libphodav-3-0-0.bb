@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "3.0"
 
-RPM_NAME = "libphodav-3_0-0-3.0-1.3.aarch64.rpm"
-RPM_HASH = "24679a7fd55227a65b58942cd1259e91c36537b14f1c20580607dd360e1b70d6f934322916369e8f18f267a76dea8c1714b1fbc13834aacc9857c23f0a76c4cc"
+RPM_NAME = "libphodav-3_0-0-3.0-1.4.aarch64.rpm"
+RPM_HASH = "7bc73e61976f0dd2f95c4bd95b13631a3d61d261e6ee968c0663fbf2155453c8d51c0a0852ff0b8f0abdd918fa6e64fc524744a87fa56a49d9b00a72071436c8"
 
 RPROVIDES:${PN} += "libphodav-3-0-0 \
 libphodav-3.0.so.0"

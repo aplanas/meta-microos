@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.8.0"
 
-RPM_NAME = "swtpm-0.8.0-3.1.aarch64.rpm"
-RPM_HASH = "2bafa11d559f625a4f615eec52ea8159a75cc603054aece1fc548b9c87b40cd3f71ce41ac9a4aaf5f3df3027cb87ead6f8011b4206e94762eabbea1b44bd1a51"
+RPM_NAME = "swtpm-0.8.0-4.1.aarch64.rpm"
+RPM_HASH = "b84e12ac93cf32b8ffae891f31827a745aa9064abda9e44c7f9eadb277c21b851d9c03d6c34bcb482b0fe14465ac659220bdb4817b3a8c186a2e9b4a52beb5c5"
 
 RPROVIDES:${PN} += "config-swtpm \
 libswtpm-libtpms.so.0 \

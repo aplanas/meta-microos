@@ -2,10 +2,10 @@ SUMMARY = "Haskell utility-ht library documentation"
 DESCRIPTION = "This package provides the Haskell utility-ht library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.0.16"
+PV = "0.0.17"
 
-RPM_NAME = "ghc-utility-ht-doc-0.0.16-2.3.noarch.rpm"
-RPM_HASH = "2ded364450b3d21c7f1cb37e316a0256849ce93da76ab679516e99ae63e8743506f0f0b4ad506638a60785d5411e50b42cd49ed5d4e01c740ec5c93d90c25664"
+RPM_NAME = "ghc-utility-ht-doc-0.0.17-1.3.noarch.rpm"
+RPM_HASH = "89ca0b8e25e9a4c20eafbccf328e3790f25e25be7d8a144e9bf48feb5728b4d65ded2bf01970085143a9c2f3467c47992420ecfeb0b42a8293b327e8b4cb8600"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-utility-ht-doc"

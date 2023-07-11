@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.0.0"
 
-RPM_NAME = "libancient2-2.0.0-1.3.aarch64.rpm"
-RPM_HASH = "43f3bc1a08266635461ff873d76abb1c983bc71880793d236b28acef5a564396121810fd8388884d6de174f6edb29375f743f59c504c46e08ec1cc8c96b0d6aa"
+RPM_NAME = "libancient2-2.0.0-1.4.aarch64.rpm"
+RPM_HASH = "e0fa8f37b66fadcecc50f828a1d9e274cbd3820323fab8732f6fffc3101ff63bed6caf8873ab21edf828cef8efe61e81867cd3be4fa7994f7d85442e692e4e5e"
 
 RPROVIDES:${PN} += "libancient.so.2 \
 libancient2"

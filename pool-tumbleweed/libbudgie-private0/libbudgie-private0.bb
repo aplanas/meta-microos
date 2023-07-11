@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "10.7.2+0"
 
-RPM_NAME = "libbudgie-private0-10.7.2+0-1.1.aarch64.rpm"
-RPM_HASH = "bfa201fe4b4388d54f49f5c1a407db8d87a2a98795ec400883e3c4c637a91edc1b6dab0d184b5746eff2c073486109ad053d504fa10ac623c9fe9181cdcdbe95"
+RPM_NAME = "libbudgie-private0-10.7.2+0-1.2.aarch64.rpm"
+RPM_HASH = "2a24696d17914b48faaf7b862c7b36b303944217d7dc1f8ece4bc61ac966432d0b423b5853b7900548d551b5491f07291fad3e5ecbd7a1913410971bd248d993"
 
 RPROVIDES:${PN} += "libbudgie-private.so.0 \
 libbudgie-private0"

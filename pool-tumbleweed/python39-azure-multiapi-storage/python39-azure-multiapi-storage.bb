@@ -12,10 +12,10 @@ Handles multi-API versions of Azure Storage Data Plane originally from https://g
 - The official Azure Storage SDK is at https://github.com/Azure/azure-storage-python."
 LICENSE = "MIT"
 
-PV = "1.1.0"
+PV = "1.2.0"
 
-RPM_NAME = "python39-azure-multiapi-storage-1.1.0-1.1.noarch.rpm"
-RPM_HASH = "73742b617ae3a9b696a4be2cbd4bfea8fdbe7aa68397bd2f0b0b49b0a2217c93d8d9c007df92af63dcd1c3cacd71567f03a30626062798761f4b9f7db82ad860"
+RPM_NAME = "python39-azure-multiapi-storage-1.2.0-1.2.noarch.rpm"
+RPM_HASH = "5e48f9919a342f2ede45e552305865e0ccd7ee7219d25f2be45d2d567879f60eb3524bb6831c07764608701936ad27c9fd12931abc789cfe48d7803843eaa9d3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-multiapi-storage \

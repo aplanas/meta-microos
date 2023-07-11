@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause | GPL-2.0-or-later"
 
 PV = "3.4.1"
 
-RPM_NAME = "libjitterentropy3-3.4.1-2.1.aarch64.rpm"
-RPM_HASH = "d88a458ae4048b1c34b0c6b7a64edb889ba18002dc00f82fea02889a688c71cd9d4da21fae9a71f8c1fbcf5d383d32485f155039ba27179d501e1f2dde8ff6de"
+RPM_NAME = "libjitterentropy3-3.4.1-2.2.aarch64.rpm"
+RPM_HASH = "814edc4a5195d46a3480150c23fdc9f4314f3872a296da98a1b5ec28784d8ae45acb1aaac3a0aa4cc2cd1fb42757b10e3ddc00c06c9e5741c1638e29ed90f647"
 
 RPROVIDES:${PN} += "libjitterentropy.so.3 \
 libjitterentropy3"

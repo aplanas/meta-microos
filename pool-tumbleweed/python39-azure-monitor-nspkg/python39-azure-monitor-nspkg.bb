@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python39-azure-monitor-nspkg-1.0.0-1.7.noarch.rpm"
-RPM_HASH = "eace811a093e44c351daf9703a54c010192f499b2c243cdc6502c0d849799f059f69ec7b56cc78b3901c975eeb70a2cda30984ef92965154187a581b0f7e8f58"
+RPM_NAME = "python39-azure-monitor-nspkg-1.0.0-1.8.noarch.rpm"
+RPM_HASH = "c08b4ca8560b3770008bc3fccd8a52960e294660fca9e8fa9ccbd4e169739699f8f4d79be9632d6ad6d410090bc47902f88132261e91db0bb450e3f956338816"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-monitor-nspkg \

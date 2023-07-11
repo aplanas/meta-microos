@@ -2,10 +2,10 @@ SUMMARY = "Translations for package konqueror"
 DESCRIPTION = "Provides translations for the 'konqueror' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "konqueror-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "f5d99b4aa861fabb800e002d7ad5f651e4f16b60dd3bcc6cde0f72cd9cbb1cd1daf40adeaacbfb598641a67e47fddb2bc72924323807c841e620310bdf678238"
+RPM_NAME = "konqueror-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "c500ca6aa05aa7a17a436ba0063750db5284482eb63a4f1620e0e8a303bfdf6dc12c0e889df7df0dd9be15e97c5d35c930e46a2aa38d2a26ca547860b15fe6c6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "konqueror-lang \

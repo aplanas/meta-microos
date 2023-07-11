@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause & Python-2.0 & GPL-2.0-or-later & GPL-3.0-or-later & SUS
 
 PV = "0.19"
 
-RPM_NAME = "python39-docutils-0.19-4.1.noarch.rpm"
-RPM_HASH = "24654657ee4bd7cdd87d69a6f48d1a2e051c470488863504f25595c12dffa9582342f92e067517eb3ae9d3eced9a2ec322d076f5574f39f405b116d720e7f5c2"
+RPM_NAME = "python39-docutils-0.19-4.3.noarch.rpm"
+RPM_HASH = "ef26e14fe6213de4949cc1db0e7c4cf5de7636984bb5d70a4b0f8ed64ae16967531a76883cffc0be7beb10d36d6a5606dd135d80ab30f0bba19627cf9e9b2ec5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-docutils \

@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-qmldebug-devel-static-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "72caf0b8954197b7d67238c3da4237628ce01f84c2d870301880fcbdeaef166f88fcde34f2e2d9fabc440b5c21cf1d4b19807ab83e0bea4e79127e233414dda1"
+RPM_NAME = "qt6-qmldebug-devel-static-6.5.1-1.3.aarch64.rpm"
+RPM_HASH = "d2c5d6d3b1fee5666769c0732dd402782ab13b28f22f78bf2c7faeb8c565ec2a7fe9ed04cadc311548e7a386db02692be1a71fe9c86f4c1d33f0740df775bb69"
 
 RPROVIDES:${PN} += "cmake-Qt6QmlDebugPrivate \
 qt6-qmldebug-devel-static \

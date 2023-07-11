@@ -10,8 +10,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.014"
 
-RPM_NAME = "perl-Test-WriteVariants-0.014-1.17.noarch.rpm"
-RPM_HASH = "9741ab9de50b38967f2504314c9c013374c04ef63ee7597c58b1a06d2ba30794b45462f50e4b845c00a931d122fba1e969addd1923516ae38b4f3057d173d230"
+RPM_NAME = "perl-Test-WriteVariants-0.014-1.18.noarch.rpm"
+RPM_HASH = "53ff77066b2736a9790b158f6002ad11512a6798ade4d4359c5674815d55c85b26695748af452dd665c62bbf0cdaec68bcd56efa5abcd2b2f4bd0c476462fffc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--WriteVariants \
@@ -23,7 +23,7 @@ perl-Test--WriteVariants--Context--ModuleUse \
 perl-Test--WriteVariants--Context--OurVar \
 perl-Test-WriteVariants"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Data--Tumbler \
 perl-Module--Pluggable--Object \
 perl-Module--Runtime"

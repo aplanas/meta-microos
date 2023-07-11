@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.1.8"
 
-RPM_NAME = "python39-sphinxcontrib-autoprogram-doc-0.1.8-2.1.noarch.rpm"
-RPM_HASH = "3eca3066b45f039a6930467a1c05de260f3e7c18d9449e06db2f5fffbcc72fd5575da99170e15628dfabcd403411204f74df29a13dd0b77b6492775dc8b2c46c"
+RPM_NAME = "python39-sphinxcontrib-autoprogram-doc-0.1.8-2.3.noarch.rpm"
+RPM_HASH = "0abfdfcc4628da358a3e865b8b307997b77f496d77dc52c18fd8d370377d0140b30a357fed1d58caf53d424db5f20071c8a0fae9b76cbfe554d35f4d48513bc7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-sphinxcontrib-autoprogram-doc"

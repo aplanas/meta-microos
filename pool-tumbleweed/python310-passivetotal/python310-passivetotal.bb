@@ -11,12 +11,11 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.5.9"
 
-RPM_NAME = "python310-passivetotal-2.5.9-1.7.noarch.rpm"
-RPM_HASH = "e55fa4210780e42ef95c1d9facfa65171bffd2fa563932a61b8685e9e834c7e778b64f3fecf73fe834cc5384d2b95cac9db05675ea19d8a572f4aeb576bc7f53"
+RPM_NAME = "python310-passivetotal-2.5.9-1.9.noarch.rpm"
+RPM_HASH = "49030aba1014b7ea4004ecc255c77e473c40c1d8a8ad6939cb8a27a6165856379af8313c1de2df4c92aacbc184e012ae1935898388d179322491ed4d72e57d52"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-passivetotal \
-python3.10dist-passivetotal \
+RPROVIDES:${PN} += "python3.10dist-passivetotal \
 python310-passivetotal \
 python3dist-passivetotal"
 

@@ -5,10 +5,11 @@ LICENSE = "MIT"
 
 PV = "0.16.3"
 
-RPM_NAME = "python311-ezdxf-0.16.3-1.10.aarch64.rpm"
-RPM_HASH = "56a4df3041df233e5b89d386cd2d9b9c50e17ecb4747e1dd931fce6c215fb70198c149d7f5e93509b8cda94f25a8cb5e52d7e0775b65d870e39001341e6dc794"
+RPM_NAME = "python311-ezdxf-0.16.3-1.12.aarch64.rpm"
+RPM_HASH = "d07828b26835777bfc7411f2233e40dfb1d58d02c9adc93e98760c58f196ce2f08ba174349f55b41c61f65cc981aed748da514e52a760ce07b48fea6350f1c2f"
 
-RPROVIDES:${PN} += "python3.11dist-ezdxf \
+RPROVIDES:${PN} += "python3-ezdxf \
+python3.11dist-ezdxf \
 python311-ezdxf \
 python3dist-ezdxf"
 

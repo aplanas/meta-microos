@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "42.5"
 
-RPM_NAME = "gnome-bluetooth-devel-42.5-1.3.aarch64.rpm"
-RPM_HASH = "3284c1e309c2c3089ad863deefbfd4ee4be922c781bfe2fb36d48c4127bc3b0cc839b0040544d95df570f8ff9a7bfd72e1d95e668429e741e49f0465f5f393c0"
+RPM_NAME = "gnome-bluetooth-devel-42.5-1.4.aarch64.rpm"
+RPM_HASH = "5347b6ac41ddb917763583b30363ba887ee2e1740a253aed25d1b8f48c22ef6a50500714eca395409d6f11566579123922f05053432e23e7153a8486b88f2eb9"
 
 RPROVIDES:${PN} += "gnome-bluetooth-devel \
 pkgconfig-gnome-bluetooth-3.0 \

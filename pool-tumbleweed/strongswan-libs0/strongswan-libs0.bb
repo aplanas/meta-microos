@@ -4,10 +4,10 @@ DESCRIPTION = "StrongSwan is an IPsec-based VPN solution for Linux. \
 This package provides the strongswan library and plugins."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.9.10"
+PV = "5.9.11"
 
-RPM_NAME = "strongswan-libs0-5.9.10-2.1.aarch64.rpm"
-RPM_HASH = "7af2bc5095ac6753ff122698c21c4bd0c72002f6c5638f293e178b6ce77814755b9e11ef90947c507474f99ac136343de679113a22aa11ed36df973155810c3c"
+RPM_NAME = "strongswan-libs0-5.9.11-2.1.aarch64.rpm"
+RPM_HASH = "ea8fc2c333539a1d4c8038ebe3353241a17730f9a9ed3742b746da99bb89c6cd91189142ad7ad0d569637dc2f279e29e6aea491e7397d8ad2e49a53b2c144f43"
 
 RPROVIDES:${PN} += "config-strongswan-libs0 \
 libcharon.so.0 \

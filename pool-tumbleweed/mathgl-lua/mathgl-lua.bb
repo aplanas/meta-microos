@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "8.0.1"
 
-RPM_NAME = "mathgl-lua-8.0.1-3.3.aarch64.rpm"
-RPM_HASH = "06dc502689f0cc10f147e2988f2f2d190bab68c843f822088ae631f9426974748f1d7fbc4dd232795d9669efc28ac35f0e0aac44a716bc5f667c5e030efd432c"
+RPM_NAME = "mathgl-lua-8.0.1-4.2.aarch64.rpm"
+RPM_HASH = "33061ed8e540bfa80452ccfbac515302f2d752b055274e8fec52bf4db856e3d1feb78cc52c56e67a6a8b7b3f95ff0b36a20efc542abafb8ecafcb9d12a5be97f"
 
 RPROVIDES:${PN} += "mathgl-lua"
 

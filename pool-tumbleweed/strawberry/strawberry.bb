@@ -13,7 +13,7 @@ Features: \
   - Edit tags on music files \
   - Fetch tags from MusicBrainz \
   - Album cover art from Last.fm, Musicbrainz, Discogs, Musixmatch, Deezer, Tidal, Qobuz and Spotify \
-  - Song lyrics from Lyrics.com, AudD, Genius, Musixmatch, ChartLyrics, lyrics.ovh and lololyrics.com \
+  - Song lyrics from Lyrics.com, Genius, Musixmatch, ChartLyrics, lyrics.ovh and lololyrics.com \
   - Support for multiple backends \
   - Audio analyzer \
   - Equalizer \
@@ -22,10 +22,10 @@ Features: \
   - Subsonic streaming support"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.0.17"
+PV = "1.0.18"
 
-RPM_NAME = "strawberry-1.0.17-1.2.aarch64.rpm"
-RPM_HASH = "c79b8e884f218c0e9acfb5671e3e8845afd10b374bcd50f86cf30a756eec45b3bbe9b5fe71e43df98be41bcdb173badafbe68b14262d58baeef6f07d3e105b7b"
+RPM_NAME = "strawberry-1.0.18-1.2.aarch64.rpm"
+RPM_HASH = "6a5ffd6c0bfce5d246950b26cbceddd49bda5d79a9c567a09bb363b0430bf3b1902a4ce8723fbbe4e8d421b8b62d29f1ff32a5a13e90c1066005ed7e0d6b194c"
 
 RPROVIDES:${PN} += "strawberry"
 
@@ -59,7 +59,7 @@ libicui18n.so.73 \
 libicuuc.so.73 \
 libm.so.6 \
 libmtp.so.9 \
-libprotobuf-3.21.12.so \
+libprotobuf.so.23.3.0 \
 libpulse.so.0 \
 libsqlite3.so.0 \
 libstdc++.so.6 \

@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "6.0.2"
 
-RPM_NAME = "python3-libcec-6.0.2-2.9.aarch64.rpm"
-RPM_HASH = "b94e4fcf224e99bbbdf4d3eba2e94c75bbc529c57df8925d6bff338751dd71a74f62486772180c91af66964103289d21a9484fd7d512194b07387282034c69b0"
+RPM_NAME = "python3-libcec-6.0.2-3.1.aarch64.rpm"
+RPM_HASH = "59d38489b4ab78847ef4cea1f91eb47655c07cb67407383048c3af3299ef307c485fb1783aa557a3e8acbf8652979d5e8207f45cab12e2fedf7f4cb3cc6c1e13"
 
 RPROVIDES:${PN} += "python3-libcec"
 
@@ -24,7 +24,7 @@ libc.so.6 \
 libcec.so.6 \
 libgcc-s.so.1 \
 libp8-platform.so.2 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libstdc++.so.6 \
 python-abi"
 

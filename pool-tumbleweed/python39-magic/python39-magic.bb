@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause & BSD-4-Clause"
 
 PV = "5.44"
 
-RPM_NAME = "python39-magic-5.44-2.1.aarch64.rpm"
-RPM_HASH = "a503b9eb9da70e32559ac2b878bff3fe43c6aaebbe9fb684ea4ebb0eb69f3da688b4ed85fb50a5c27cc9396b0408cae2ed15ba45c26e335277e87a130ae5b71c"
+RPM_NAME = "python39-magic-5.44-2.3.aarch64.rpm"
+RPM_HASH = "fdeb97f225ce393220210a567473f5d3b650fe66e139e0b42b990330b66ca564649835c768614eb1fa937f8db09b206e87b39d4b87f7318c3193369ea6e4b390"
 
 RPROVIDES:${PN} += "python3.9dist-file-magic \
 python39-file-magic \

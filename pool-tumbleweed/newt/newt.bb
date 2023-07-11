@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.52.23"
 
-RPM_NAME = "newt-0.52.23-2.1.aarch64.rpm"
-RPM_HASH = "f693da93ba65b1c2bfe9c31f74cdfb4f7d17dc604ab2c5c68387ea5ed7ef1c6f28b2e45c61e6760d76abfb420b4bc243cb1ba63ccc1b3a6d34bf3bcfc1fe956f"
+RPM_NAME = "newt-0.52.23-2.2.aarch64.rpm"
+RPM_HASH = "7df8f29bff144437d8de4b2da5006bac215817ca19e3643e3195e6964e8666593e615bd2d388cfafeb85cacfd9086ed12b425c088032d3a4618d5f10d3689949"
 
 RPROVIDES:${PN} += "newt"
 

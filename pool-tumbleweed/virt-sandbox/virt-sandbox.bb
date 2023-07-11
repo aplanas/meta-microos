@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "0.8.0"
 
-RPM_NAME = "virt-sandbox-0.8.0-5.3.aarch64.rpm"
-RPM_HASH = "e3a7d55f7bc15c974e7af2c40f2f7887d697453d0c65a5e9c9d0725f5c6cbfb8a637931ec8b7d553295626be63e6b40166d28b0468d75e190b3c1de6d5adab15"
+RPM_NAME = "virt-sandbox-0.8.0-5.4.aarch64.rpm"
+RPM_HASH = "988fe8a8772d9a7d84483f9f6edcda9c9507f36786f92a4b64608cc67a565df594921ae66725fbeb7fb63c9cfc4ceb957e24f4e03ba4b7a29a1364b9324e48a3"
 
 RPROVIDES:${PN} += "virt-sandbox"
 

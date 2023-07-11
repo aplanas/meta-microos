@@ -4,8 +4,8 @@ LICENSE = "WTFPL"
 
 PV = "0.99.beta20"
 
-RPM_NAME = "libcaca0-plugins-0.99.beta20-1.4.aarch64.rpm"
-RPM_HASH = "f8b52ff0bfa7a8eb7453b3aa335b9e3f46ef7f9cfdcaecc1347d766e8342e5e384039081711352c2dc41d417c2959fc4a3e2ef89638ba29454dfe298425cd7b4"
+RPM_NAME = "libcaca0-plugins-0.99.beta20-1.5.aarch64.rpm"
+RPM_HASH = "9d1ee25903ace3862d34215963a1fce24766a9856fbfeb050b51a5ec454f36bda2b79a30aacb2dec3dcc93a06abbf7b56f40b023d123136f740e4fa195a7c875"
 
 RPROVIDES:${PN} += "libcaca0-plugins \
 libgl-plugin.so.0 \

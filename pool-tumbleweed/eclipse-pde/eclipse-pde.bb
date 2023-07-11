@@ -6,8 +6,8 @@ LICENSE = "EPL-2.0"
 
 PV = "4.15"
 
-RPM_NAME = "eclipse-pde-4.15-9.3.aarch64.rpm"
-RPM_HASH = "e98cd5e068e4001722f318b7023d0d00d82df7213bdcc1a2000482924c0479111cabad2f5c5201f50c16df0229a78465bcb57add2a1f5c7cd77a0ecacecb7aa2"
+RPM_NAME = "eclipse-pde-4.15-9.4.aarch64.rpm"
+RPM_HASH = "80febc3483f516ad869868d6a631d1a9d57f24f19447263bfba9108e5112639d3ecab947a84632d3cc054c8c4491af25a0a73820c4b4cd045e9fa4f6bf137e2d"
 
 RPROVIDES:${PN} += "eclipse-pde \
 mvn-eclipse.pde.ui-org.eclipse.pde.api.tools.ee.cdcfoundation10 \

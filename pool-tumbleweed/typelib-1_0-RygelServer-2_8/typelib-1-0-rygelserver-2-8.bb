@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "0.42.3"
 
-RPM_NAME = "typelib-1_0-RygelServer-2_8-0.42.3-1.1.aarch64.rpm"
-RPM_HASH = "cd11bc46e586e8a18c0f0672d2e3bebecedce34318004eb88f8c620d22c5c9707537d11ee208bc918d5a6caaa8c7338c7d5dda3f8d8a9c21ab9a453923ed0e46"
+RPM_NAME = "typelib-1_0-RygelServer-2_8-0.42.3-1.2.aarch64.rpm"
+RPM_HASH = "b9fcf8943440ee75268d0a14360f8b335206b776ffdf4e861b1983e8e948eef8226f9879ca985728c5c6f9aebac3cb2a8d739b3f7a2c7af041886909b9a50233"
 
 RPROVIDES:${PN} += "typelib-1-0-RygelServer-2-8 \
 typelib-RygelServer"

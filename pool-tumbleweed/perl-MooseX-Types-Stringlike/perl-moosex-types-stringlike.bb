@@ -6,14 +6,14 @@ LICENSE = "Apache-2.0"
 
 PV = "0.003"
 
-RPM_NAME = "perl-MooseX-Types-Stringlike-0.003-3.25.noarch.rpm"
-RPM_HASH = "b4a6d96f99b8428fe4e8d9f94a3f86491f55670c300c8ff1e3d1bb2da8b5502b5937fb6a5f27f2dc3a2970407e1be4c73b5f345fdf85c7a1905e4b0c1b8974cc"
+RPM_NAME = "perl-MooseX-Types-Stringlike-0.003-3.26.noarch.rpm"
+RPM_HASH = "d5e5752c807ff3fb37ebcd81f73c31661c2aca4ab2b0c96a9f71a7eee1b7ecd9f1bbb214884b7b20bc21788a06b15efff5470fc6c83f715e9544d7b0acff30a6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooseX--Types--Stringlike \
 perl-MooseX-Types-Stringlike"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-MooseX--Types \
 perl-MooseX--Types--Moose"
 

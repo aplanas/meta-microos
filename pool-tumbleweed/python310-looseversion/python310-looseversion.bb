@@ -8,12 +8,11 @@ LICENSE = "PSF-2.0"
 
 PV = "1.1.2"
 
-RPM_NAME = "python310-looseversion-1.1.2-1.2.noarch.rpm"
-RPM_HASH = "8bf2a034fdadd81cfba71a24d1dff57687c1328dca077273e50232698baceee6a4dcc46c4eac29f7d6a62836db614aae718a8d0e8ef4674426c9988cfacb9f79"
+RPM_NAME = "python310-looseversion-1.1.2-1.4.noarch.rpm"
+RPM_HASH = "e49041bee52a35bbd5615bf0cbe9501bb08175a908c6a1b1de2db8d12e0adcb2ab4849d98a9d45fdea49486dad7a8ff5d7f209c23b2fb969dc17dff191a76af2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-looseversion \
-python3.10dist-looseversion \
+RPROVIDES:${PN} += "python3.10dist-looseversion \
 python310-looseversion \
 python3dist-looseversion"
 

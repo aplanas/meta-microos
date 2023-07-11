@@ -16,8 +16,8 @@ LICENSE = "Artistic-2.0"
 
 PV = "1.42"
 
-RPM_NAME = "perl-Set-Object-1.42-1.8.aarch64.rpm"
-RPM_HASH = "5c994524fd8872458d5861dc04f322b6421b6489ee41a0219cc764c9ae127d6b75a091431d31a0ae16aa247d5a5a73bdbaf9b089c98d67c298c79cf0aedac5dc"
+RPM_NAME = "perl-Set-Object-1.42-1.9.aarch64.rpm"
+RPM_HASH = "4a2c69ec323e0c3cb8717ba3bd40212eed7f453eec33fda90dcbda3c632814743c5c38aad532c5735153128ec53adbaba92ad15393950f8c18af10b2796ec6aa"
 
 RPROVIDES:${PN} += "perl-Set--Object \
 perl-Set--Object--Weak \
@@ -25,6 +25,6 @@ perl-Set-Object"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python310-azure-cognitiveservices-vision-contentmoderator-1.0.0-3.11.noarch.rpm"
-RPM_HASH = "29180bbd6da0d7528a8f20b8d0f977c2e7564e4236149dbdaab313ecff9544dc5e31050971a666c48a7907b42a7cbca18ba68dc6def9a2690a8cd9c9f020f7b5"
+RPM_NAME = "python310-azure-cognitiveservices-vision-contentmoderator-1.0.0-3.12.noarch.rpm"
+RPM_HASH = "ba7cccc0a21b38277384020b8e7a29e8d8be60e57f225ece6db2129caa36c1e62dd7e2affe8a350c4c21b7b4072783257bffe7a8474958625551b23c9f6e8317"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-cognitiveservices-vision-contentmoderator \
-python3.10dist-azure-cognitiveservices-vision-contentmoderator \
+RPROVIDES:${PN} += "python3.10dist-azure-cognitiveservices-vision-contentmoderator \
 python310-azure-cognitiveservices-vision-contentmoderator \
 python3dist-azure-cognitiveservices-vision-contentmoderator"
 

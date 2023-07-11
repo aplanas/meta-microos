@@ -10,10 +10,10 @@ when related resources fail and can be configured to periodically check \
 resource health."
 LICENSE = "GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "2.1.5+20230320.22590c566"
+PV = "2.1.6+20230524.6fdc9deea"
 
-RPM_NAME = "pacemaker-2.1.5+20230320.22590c566-1.1.aarch64.rpm"
-RPM_HASH = "2dfa33014e83a4abb1dd5c24a711e31c129921063cb47b9b96f4c8c8b0f3feb94f9bb0fcf91e32a894a6eb9d5379c14c0f2cd7e7ed3e64e0a578be1f269775db"
+RPM_NAME = "pacemaker-2.1.6+20230524.6fdc9deea-1.1.aarch64.rpm"
+RPM_HASH = "576d97f9203938b65b3100a09531145730a555ece99112919105799580a5e5eea8ac493c2a25187bcc22e8f13c8dc00a8ee3a663f8e47c8f39da65a61b9b876b"
 
 RPROVIDES:${PN} += "pacemaker \
 pacemaker-ticket-support"

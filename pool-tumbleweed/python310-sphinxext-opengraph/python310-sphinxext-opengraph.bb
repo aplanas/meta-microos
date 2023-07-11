@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.7.5"
 
-RPM_NAME = "python310-sphinxext-opengraph-0.7.5-1.3.noarch.rpm"
-RPM_HASH = "0078ceff7bf83df661340cebe1ba866980615202a7ad550ddaa3f47859b65975cd1c87dece81f71734a942f76a73e82281b804b090c52f012f4ed52e19ccc163"
+RPM_NAME = "python310-sphinxext-opengraph-0.7.5-1.5.noarch.rpm"
+RPM_HASH = "b19ece2a67340ac1757c45395f552cbc4c7db541826c68af3a9aeb31c0c7130c767dd07a1295e54a3fd63749f16147a0e8b9963fa943ade94b443b144846fe5b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-sphinxext-opengraph \
-python3.10dist-sphinxext-opengraph \
+RPROVIDES:${PN} += "python3.10dist-sphinxext-opengraph \
 python310-sphinxext-opengraph \
 python3dist-sphinxext-opengraph"
 

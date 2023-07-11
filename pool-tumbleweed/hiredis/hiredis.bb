@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.0"
 
-RPM_NAME = "hiredis-1.1.0-1.3.aarch64.rpm"
-RPM_HASH = "8b4914edf1d903fe7babe55d82a6aa0ceff712e4ae65bd0309b6965b217b5712c28211d8c7bed57cb552cadb0cbf06fc4f83f6fdced94d801564c06bccdd490b"
+RPM_NAME = "hiredis-1.1.0-1.4.aarch64.rpm"
+RPM_HASH = "e5510cd6d5214cde7d1d48ac39078ad245affb4548366c9b356a751e05b5b1ee95b9fd9047e27e8defcf09cbe079a22f359d8e858b888939441756311caf6543"
 
 RPROVIDES:${PN} += "hiredis"
 

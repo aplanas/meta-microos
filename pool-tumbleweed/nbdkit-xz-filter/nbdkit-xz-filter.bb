@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.32.2"
 
-RPM_NAME = "nbdkit-xz-filter-1.32.2-1.3.aarch64.rpm"
-RPM_HASH = "28821f55f4576be3d1e53c2ccc5a3873718b0779a5a1269b8125013140f701c47cbbfe6f6241b5949f666132917691bf9ddd21e051ebdca150d602019bdc7373"
+RPM_NAME = "nbdkit-xz-filter-1.32.2-1.4.aarch64.rpm"
+RPM_HASH = "c6a7afe9ef4d56e885d8e414c8bbc95dacf56595f7c3ccdba84b2dff470f6b975761c9d5ee3af2563389693c04ca073afdd7bb3da797bebd175ec2491b85a0ab"
 
 RPROVIDES:${PN} += "nbdkit-xz-filter"
 

@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.6"
 
-RPM_NAME = "libportal-1-0.6-1.7.aarch64.rpm"
-RPM_HASH = "57c2d2e6e6fff18e00312d60c739d4d52870c2e0ad1df9d48290bb161fef082b970e83da400424507724b0a87d150ab4d0bf39c4731502e08f02e2ad6f5c9fe6"
+RPM_NAME = "libportal-1-0.6-1.8.aarch64.rpm"
+RPM_HASH = "9e7d9b6fe3aded07cc129b9ccdf22c09606d6aae461f118ec8023396ebfb09378ae13fcbd7b17edcefa9cdc7b396bf1c1a4ccd9abc3844db4014ba45a3168191"
 
 RPROVIDES:${PN} += "libportal-1 \
 libportal.so.1"

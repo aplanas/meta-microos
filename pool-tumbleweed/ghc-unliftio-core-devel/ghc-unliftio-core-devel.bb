@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.2.1.0"
 
-RPM_NAME = "ghc-unliftio-core-devel-0.2.1.0-1.3.aarch64.rpm"
-RPM_HASH = "2ffb7247acec34f71e4442005f073b60e79716df920e3a0abf4dd1f955f11104867d7f8cf947897d03f3a5bcbdf095dc3122afacaeddf6aed5ddc156d523e1f3"
+RPM_NAME = "ghc-unliftio-core-devel-0.2.1.0-1.6.aarch64.rpm"
+RPM_HASH = "997ff9f312b8471fc1f4df9e6e2d9bdce876633ec62a3121ef344a97f6705aec491911180115fced54afb40f2644c82c89faf151c17fb303407080917a513bd8"
 
 RPROVIDES:${PN} += "ghc-devel-unliftio-core-0.2.1.0-AEtYfdyUWlJCLfz2d4hPbj \
 ghc-unliftio-core-devel"

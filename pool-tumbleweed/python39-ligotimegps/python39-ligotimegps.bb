@@ -16,8 +16,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.0.1"
 
-RPM_NAME = "python39-ligotimegps-2.0.1-3.2.noarch.rpm"
-RPM_HASH = "7beab521e798579f00f86283b9d6f25cb0b9e8d81c5ba59f6b6324a6e02f639ad1261f480bc836d705c01a47b6a6fe57746dc75b03279f50158d5215fb22ab07"
+RPM_NAME = "python39-ligotimegps-2.0.1-3.4.noarch.rpm"
+RPM_HASH = "6eca2e8f3bcca8f67c58e17311a9cae66112f59b75139a53551498d0711987e451f3623e811732a76391556e733201295e06fdab62442a87cad254c447898288"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-ligotimegps \

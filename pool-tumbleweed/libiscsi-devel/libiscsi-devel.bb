@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
 PV = "1.19.0+git.20230208"
 
-RPM_NAME = "libiscsi-devel-1.19.0+git.20230208-1.3.aarch64.rpm"
-RPM_HASH = "caf9e8e736f12ee95700a12582af13b927a79eaaf3c1cb53f9773a6ce73a511a184d4af6503e65c119e6b0329c577c0ef85d18bbe9dc2bf61d14a8b8477dbb73"
+RPM_NAME = "libiscsi-devel-1.19.0+git.20230208-1.4.aarch64.rpm"
+RPM_HASH = "3c16e207c79dbc431245fd25e135e659a8959a58960beb20a41d807a5a2c28664983e564aebd820307ab1fbc5f64453a3c1c8a11af8123c33d44b9c98e668f72"
 
 RPROVIDES:${PN} += "libiscsi-devel \
 pkgconfig-libiscsi"

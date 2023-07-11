@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.0.1"
 
-RPM_NAME = "python39-bokcolmaps-2.0.1-2.9.noarch.rpm"
-RPM_HASH = "0e0f64cf38de9422073ecbc55bdaf34d3cf4f9abd6e611855c029390231b5f0bddf27abee1257bcd7c57a159f270c9a73ee44a94a8be7ca68031e8791c0a9db8"
+RPM_NAME = "python39-bokcolmaps-2.0.1-2.11.noarch.rpm"
+RPM_HASH = "1602c0d14874871ecbf8d4fe12a79525d7ae4aa2167dc809d57cb5d334a02ccfb6f289117d887f5664900ee2f39f5dc320d80aa878ebc27452beeb20cef80f0c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-bokcolmaps \

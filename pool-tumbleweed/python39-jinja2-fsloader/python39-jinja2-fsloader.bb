@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "0.3.0"
 
-RPM_NAME = "python39-jinja2-fsloader-0.3.0-3.6.noarch.rpm"
-RPM_HASH = "906e6c07be0d5cc576c450c36a856db97d07619c9613f9d4386ff1a623a44f4268e969eaacb19b840a68806aa8484d0986aad6b28bab33f39e52452d7a447eb8"
+RPM_NAME = "python39-jinja2-fsloader-0.3.0-3.8.noarch.rpm"
+RPM_HASH = "242a77318afb33f6c4a73aa701a0dd9d24ee8b36e2ebb6b5a26ebd3a29c7026d77e8eff0062d451debf2cac2821f7d1c6938b28c7fdb1118a8775ae68166ed31"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-jinja2-fsloader \

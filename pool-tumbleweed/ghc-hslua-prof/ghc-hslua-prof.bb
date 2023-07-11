@@ -4,18 +4,18 @@ LICENSE = "MIT"
 
 PV = "2.3.0"
 
-RPM_NAME = "ghc-hslua-prof-2.3.0-1.2.aarch64.rpm"
-RPM_HASH = "9e582ff194fdffdcf9c11d7d342816febb5d0e1dced920a9640fa148db7f7e5331f01a1dc19cc2baa192bd7d2294ed9cb10cfb379d77664f7b6fcadb658e2677"
+RPM_NAME = "ghc-hslua-prof-2.3.0-1.3.aarch64.rpm"
+RPM_HASH = "4dc7ef8e12a9af273b61da808ad3a0b7f7038aadbcb132f0e1ce2305fab5a1da7665d0af67208d94bb8d4c6ca0eb681a1fe39f3dd89d3e40d6e9008d286d356e"
 
 RPROVIDES:${PN} += "ghc-hslua-prof \
-ghc-prof-hslua-2.3.0-1soYqkTydt2HAPmAXqHREY"
+ghc-prof-hslua-2.3.0-AU21dADSMqd8jVkw5fw6gb"
 
 RDEPENDS:${PN} += "ghc-hslua-devel \
 ghc-prof-base-4.17.1.0 \
 ghc-prof-bytestring-0.11.4.0 \
 ghc-prof-containers-0.6.7 \
 ghc-prof-exceptions-0.10.5 \
-ghc-prof-hslua-aeson-2.3.0.1-E4tasg1dFJ86CDrMHWRi4i \
+ghc-prof-hslua-aeson-2.3.0.1-6DckHj1FyFIAboJpo8be6E \
 ghc-prof-hslua-classes-2.3.0-FmFATpNcre9GneTlejjsY7 \
 ghc-prof-hslua-core-2.3.1-S0Tmk0QBS1InOMEfkNHVC \
 ghc-prof-hslua-marshalling-2.3.0-1lHdh994uwdEmrYudOnEBq \

@@ -16,8 +16,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.2.0"
 
-RPM_NAME = "python39-discid-1.2.0-1.15.noarch.rpm"
-RPM_HASH = "257fd6be01ac1a717dff3914a1b2fe98869d285dc6b20b3252f76eaafb95d11e3434a60638857e391ff3673c95482a8da514e8efa6df5993fde00790f778f536"
+RPM_NAME = "python39-discid-1.2.0-2.1.noarch.rpm"
+RPM_HASH = "9bdbe06bfee889b41baa4b36148607454df7ebb7eae41fc0e393ae349137994f850c4dc1891347ce4d3191f2a50695faa7205151790543fe464f5e590b52b04e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-discid \

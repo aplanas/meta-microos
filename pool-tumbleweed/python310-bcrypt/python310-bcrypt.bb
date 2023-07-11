@@ -5,12 +5,10 @@ LICENSE = "Apache-2.0"
 
 PV = "4.0.1"
 
-RPM_NAME = "python310-bcrypt-4.0.1-2.1.aarch64.rpm"
-RPM_HASH = "cff615222b9efb51314932b13c7d04196da2e60ab266621ec696c3cb7b43d0765e076995095f0b94e4ca01cb8dffc3bde6850a845e2c0e0f91de2c8c8d7b9970"
+RPM_NAME = "python310-bcrypt-4.0.1-2.3.aarch64.rpm"
+RPM_HASH = "627bdfe1db8b6936955c1d4be7d341734082e2b27e0c80d364e636d5e05a5ffeeac698b62c757380d30eb7b5c0a0a3a02d7fee0ca8c3fab5fd45444bca4638c7"
 
-RPROVIDES:${PN} += "python3-bcrypt \
-python3-py-bcrypt \
-python3.10dist-bcrypt \
+RPROVIDES:${PN} += "python3.10dist-bcrypt \
 python310-bcrypt \
 python310-py-bcrypt \
 python3dist-bcrypt"

@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.3"
 
-RPM_NAME = "python310-jsonpointer-2.3-2.1.noarch.rpm"
-RPM_HASH = "0dd2e491f7e3b73db8b9be771e6984e13e86cd3aef6033dc2bb2770aefa47a1cd119030dd6e54393e54f152ef0f2859b546656109bd65e355f3ce43972c0cc76"
+RPM_NAME = "python310-jsonpointer-2.3-2.2.noarch.rpm"
+RPM_HASH = "f513e026aa4976faed3a4f75c80344441e668394c6d61ac69e44e38484556ebffc48019855331918654f8547f1675b7100e000a084d1c0a23c54fe0c098e6ac2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-jsonpointer \
-python3.10dist-jsonpointer \
+RPROVIDES:${PN} += "python3.10dist-jsonpointer \
 python310-jsonpointer \
 python3dist-jsonpointer"
 

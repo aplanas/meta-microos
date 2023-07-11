@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2"
 
-RPM_NAME = "plexus-velocity-1.2-4.6.noarch.rpm"
-RPM_HASH = "2192d2516ee0dea195ddf48a85a4404c378ca8f59bb7a3e319f69dfd9aa75522addc17462f8f78045c4f5b973b0985fee2ba6314b0e05041433e9c535f1882f5"
+RPM_NAME = "plexus-velocity-1.2-4.7.noarch.rpm"
+RPM_HASH = "c1895d20014188d57130ada146ae16a0041e0d2d6dec1fc7f62b245e618208f6b8854c06b2a9fe7d42b1f9a1965d95eaf5452c4dca7114c7b9243152a2342bcd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.codehaus.plexus-plexus-velocity \

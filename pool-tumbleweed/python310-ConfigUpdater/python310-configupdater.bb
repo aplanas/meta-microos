@@ -9,13 +9,11 @@ LICENSE = "MIT"
 
 PV = "3.1.1"
 
-RPM_NAME = "python310-ConfigUpdater-3.1.1-1.4.noarch.rpm"
-RPM_HASH = "3faf09c6093882e0ae8bb14c4f2b2c8cb87bb5a06fad3039ecb3d3f0889fa2f8a7fcc4bc52d2e6277695a71d50e7251b90673504430b2161cd582587e79620fb"
+RPM_NAME = "python310-ConfigUpdater-3.1.1-1.6.noarch.rpm"
+RPM_HASH = "19c46c6ad8e4dc871774c5feec974eda19f3019a7e1e84cfc2bb7db8a950993ace755779b44b812d34512fcb7a47e9fd48ab35894128826f7ce18720808a8721"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-ConfigUpdater \
-python3-configupdater \
-python3.10dist-configupdater \
+RPROVIDES:${PN} += "python3.10dist-configupdater \
 python310-ConfigUpdater \
 python310-configupdater \
 python3dist-configupdater"

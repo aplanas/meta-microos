@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "gnome-shell-search-provider-gnome-photos-44.0-1.1.aarch64.rpm"
-RPM_HASH = "d7628fb33acf5faef5d0e677ae1c765d5e7757292ce8c8f8a20a99ee57ca5861893d2c2ade15168437f7296e0aee093d43ea9971bd7c8d53e439fb1fac2668e4"
+RPM_NAME = "gnome-shell-search-provider-gnome-photos-44.0-1.2.aarch64.rpm"
+RPM_HASH = "deafcd9917322835b6ef1e0fb2fd8e664cf9085465cb8cffc408c33a59e5aa95e86f36632ac0c0ef35a2bffe59f180399d975031c4fcd28a7493928c6a5a3389"
 
 RPROVIDES:${PN} += "gnome-shell-search-provider-gnome-photos"
 

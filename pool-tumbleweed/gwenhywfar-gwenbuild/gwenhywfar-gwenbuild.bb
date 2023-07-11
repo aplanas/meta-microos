@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "5.10.1"
 
-RPM_NAME = "gwenhywfar-gwenbuild-5.10.1-1.4.aarch64.rpm"
-RPM_HASH = "1bbf9e87b2f58fb3774b2a8977b9d51437d473769421f4f64a174bbb88336038b9dd41917e776d6a7c88b6820ba978abee6a8ea3dfd3d4a9ab802db9309e61e6"
+RPM_NAME = "gwenhywfar-gwenbuild-5.10.1-1.5.aarch64.rpm"
+RPM_HASH = "6f7968c840d2a6b11c207cffc587b82d4ad45dbfe3b10ea56d09950d66b62146a81e1277b4896524a94c969a1fb9f1867a5f1f8d40e4c2c04dc6af00f0b27f73"
 
 RPROVIDES:${PN} += "gwenhywfar-gwenbuild"
 

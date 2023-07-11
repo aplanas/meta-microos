@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.0.0"
 
-RPM_NAME = "libdde-wayland-client0-1.0.0-1.11.aarch64.rpm"
-RPM_HASH = "a44e9f711d730ad661a6804e111d0f4d7d66f02ee8148418aebea4d351b198aa5780cd7fb2191de14e41dcff23f361b7d41486fe6a2dee82ea8c576a5b87d619"
+RPM_NAME = "libdde-wayland-client0-1.0.0-1.12.aarch64.rpm"
+RPM_HASH = "176de1468e92bde7fc85952cd255e4968428246b6bfcb8b7797dc4fbba7fbbd7c571056d6d33580dbe9f7411ec8979be5c698b410b9e80671217deb90e4580a7"
 
 RPROVIDES:${PN} += "libdde-wayland-client.so.0 \
 libdde-wayland-client0"

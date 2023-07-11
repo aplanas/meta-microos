@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.4"
 
-RPM_NAME = "tntdb-replicate-1.4-1.12.aarch64.rpm"
-RPM_HASH = "9e33751d1c6f758461def69c6e5c7fd4efb9e770d13e21aaed84d8bc1af2e4eaac9172a78cbdddf16baf48b8512ba885120bdc8e3df95fa919488e5a3912ed12"
+RPM_NAME = "tntdb-replicate-1.4-1.13.aarch64.rpm"
+RPM_HASH = "12de7f0ab7fee3383ac8054e395c0478ca4acbc33183ed0509271eb5cf86b0e8aec71fc9c2f4ac8e92ed803d6299fbb153c2e70f12d4a97b2e9d33ad0e658277"
 
 RPROVIDES:${PN} += "tntdb-replicate"
 

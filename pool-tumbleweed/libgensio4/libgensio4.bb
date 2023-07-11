@@ -12,8 +12,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-only & LGPL-2.1-only"
 
 PV = "2.6.1"
 
-RPM_NAME = "libgensio4-2.6.1-1.4.aarch64.rpm"
-RPM_HASH = "088dfbc4d165554ca3f39dee1eaa87d9bfd4ed5d4922a3eefb93d51d717ff6bcb11476495b9e8cd178ed1b784e3b5033bf814b7e41a1f0806208c398b2366cc8"
+RPM_NAME = "libgensio4-2.6.1-1.6.aarch64.rpm"
+RPM_HASH = "58c2683df85c615e16b206ecb93eee6b7dc4cc7eecbcf21d1c743f77205ccfb2b4993121a14fa03a67c27a8b986717884470e45955c3a1a7324b94e1075e38be"
 
 RPROVIDES:${PN} += "libgensio-afskmdm.so \
 libgensio-ax25.so \

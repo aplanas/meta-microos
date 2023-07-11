@@ -11,10 +11,10 @@ font in the same document. Of course, using one font for two \
 purposes helps produce smaller PDF files."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3ysvn64930"
+PV = "2023.208.1.3ysvn64930"
 
-RPM_NAME = "texlive-mathastext-2023.201.1.3ysvn64930-52.1.noarch.rpm"
-RPM_HASH = "ec269d83d7bdc7cbea3f2b24014732fc15fc8a865a811ef227938e0135540a58dc0e22a1ea19943e86f2483a4629f800121c609cb06f238f63b8ffb6e3378c1f"
+RPM_NAME = "texlive-mathastext-2023.208.1.3ysvn64930-53.1.noarch.rpm"
+RPM_HASH = "13f52f0faabba278581fdbaf8b3e61cf54f02e536d7a42c130a8cc5fe8fcf644f7b37eae91c553a94f1a0018e28e673c2972e409e7a48d84d58cc402a601f898"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mathastext.sty \

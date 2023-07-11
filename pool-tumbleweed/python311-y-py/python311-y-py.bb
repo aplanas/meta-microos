@@ -9,12 +9,13 @@ Project is still experimental. Expect the API to change before a version 1.0 \
 stable release."
 LICENSE = "MIT"
 
-PV = "0.5.5"
+PV = "0.6.1"
 
-RPM_NAME = "python311-y-py-0.5.5-1.3.aarch64.rpm"
-RPM_HASH = "bc6cbce6cb926820838c5f57b434e22059d643855bc55d020fe6392f16a7d9b965da50d02ff315b6cf2f5e69f4f1dbdd7e7f318a9232dfae54118e3ddeb2fb9d"
+RPM_NAME = "python311-y-py-0.6.1-1.3.aarch64.rpm"
+RPM_HASH = "2a59f4c9362f11306bb31501810a3d88c49303dfcef854844934591c23a5e4fddb6b9f3ed82afade5be3be3b78b1e061c1a51ac795a1f0a08ae6cf753ac893ac"
 
-RPROVIDES:${PN} += "python3.11dist-y-py \
+RPROVIDES:${PN} += "python3-y-py \
+python3.11dist-y-py \
 python311-y-py \
 python3dist-y-py"
 

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-virtualkeyboard-examples-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "6358fa2b6d41707ff4716b7a05d9a30cd256be8a7fd8e034ea92708fff161db7a4be49b3844019af12f44776323316d76b646c629e9d25127f6cc48955798a0e"
+RPM_NAME = "qt6-virtualkeyboard-examples-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "7863a51786bd2d2a3049da018c0c2ebccaaabe55d520e2e0002fbd37cedbcde4377d6ed8e71512b7130bf00d38fc2d1c1157aa9369f8caebfd43fee9057d6843"
 
 RPROVIDES:${PN} += "qt6-virtualkeyboard-examples"
 

@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later & GPL-2.0-or-later"
 
 PV = "1.8.0"
 
-RPM_NAME = "m17n-lib-1.8.0-1.12.aarch64.rpm"
-RPM_HASH = "f015e22d733bf95f47ea33a6874369dcc1170b8757c4d572ae8d2cbf375fb11f9a3415bb7c0cbcdd5ac83bdd2604d62038a76ae994f8ebdf72ddca14527dbbdd"
+RPM_NAME = "m17n-lib-1.8.0-1.13.aarch64.rpm"
+RPM_HASH = "4d522a6f3cfb158b16ec2711234a264df6f25fb5a959095a1850e5cc7a6929a2b11638dacab5a82db742f5f9216cb3ee5f15208d2e1f7769c08b98ca4de3a6cb"
 
 RPROVIDES:${PN} += "m17n-lib"
 

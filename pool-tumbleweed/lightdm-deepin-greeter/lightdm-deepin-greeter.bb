@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0+"
 
 PV = "5.5.48"
 
-RPM_NAME = "lightdm-deepin-greeter-5.5.48-1.4.aarch64.rpm"
-RPM_HASH = "fae73e6d8500c5d86d60ebb1c1bdd44be3063744b66f1a00e78cb6b73cf13c76a03707df241414b6389e23d34248dcb0360b292b6827fdf3723024f38b0cfe3a"
+RPM_NAME = "lightdm-deepin-greeter-5.5.48-1.5.aarch64.rpm"
+RPM_HASH = "4933cc7cf2e5cd27a5ac7e5d3eb58ae76f669fa4b95171e17a11f9de0f5d4fcb74640f6aabd07434418f451e5b46e29896fd80861117c5b03fe0ffb6926db834"
 
 RPROVIDES:${PN} += "config-lightdm-deepin-greeter \
 lightdm-deepin-greeter"

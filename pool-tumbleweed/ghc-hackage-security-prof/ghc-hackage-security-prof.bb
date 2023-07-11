@@ -4,11 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6.2.3"
 
-RPM_NAME = "ghc-hackage-security-prof-0.6.2.3-1.3.aarch64.rpm"
-RPM_HASH = "dd17d2dcdd20549326204fd8ee6ea15b5ec5352b6633af948600e1088714bc1d75435c9176009573c0786ac19599c3da6b686ad9a3a8383af419d7f7516ade61"
+RPM_NAME = "ghc-hackage-security-prof-0.6.2.3-1.7.aarch64.rpm"
+RPM_HASH = "7a87b0fc24d65d92337da4f3ab5e113ce47759c42fd75720f954da5da2c692cb7c12878d047ab57b641ae79625fe0627e60a7a830940b1987f651f022977dc98"
 
 RPROVIDES:${PN} += "ghc-hackage-security-prof \
-ghc-prof-hackage-security-0.6.2.3-Km2R5J8alEh3bTkVIJr5Mq"
+ghc-prof-hackage-security-0.6.2.3-BVLL0begiUMDlGngVjOMXt"
 
 RDEPENDS:${PN} += "ghc-hackage-security-devel \
 ghc-prof-Cabal-syntax-3.8.1.0 \
@@ -24,7 +24,7 @@ ghc-prof-filepath-1.4.2.2 \
 ghc-prof-ghc-prim-0.9.0 \
 ghc-prof-lukko-0.1.1.3-7Ko9x6wnjxCV3NuL9k89V \
 ghc-prof-mtl-2.2.2 \
-ghc-prof-network-3.1.2.8-HNDBp0HF6t0D1fzE2MDtPd \
+ghc-prof-network-3.1.4.0-FvtFepOtuCUH79FCWyNxIc \
 ghc-prof-network-uri-2.6.4.2-4kNQnaE9heqEL1mH8FE5xH \
 ghc-prof-parsec-3.1.16.1 \
 ghc-prof-pretty-1.1.3.6 \

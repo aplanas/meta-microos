@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.3.11"
 
-RPM_NAME = "gkrellm-lang-2.3.11-2.10.noarch.rpm"
-RPM_HASH = "7a05da9941f9a74ca2206fefe39de2b3958d425913898a008ba082fe2c32bc5c53c7a79ab0582c2bc0706f81e7c62206406ea2ffae0dde489d99036d2a617596"
+RPM_NAME = "gkrellm-lang-2.3.11-2.11.noarch.rpm"
+RPM_HASH = "6d142e5fa5515a93511779983b550045632dfafccb385f9a4231db4ab3ea9ac7172970f10512db164792f85304ff4d91356ce73b8a97f6c4ee99fc63a17b21e1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gkrellm-lang \

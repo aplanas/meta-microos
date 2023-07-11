@@ -10,8 +10,8 @@ LICENSE = "BSL-1.0"
 
 PV = "4.0.2"
 
-RPM_NAME = "soci-odbc-devel-4.0.2-4.4.aarch64.rpm"
-RPM_HASH = "98cfd565bd77d5f731d48b662f65b47985ff4b29e66e039e5a60d34370d12d9b7aa5dcc44f13db391a66b43701355ac5f79d825550da562276344da9692111de"
+RPM_NAME = "soci-odbc-devel-4.0.2-4.5.aarch64.rpm"
+RPM_HASH = "7b68d132c96d667dd74b856c01192de3de59ae71daa2c11b8c622c1941bcc70950f6f9a26de4b50cd9821f3c08ecdcb9263e3813eaa4e9e2098356518cd48dcd"
 
 RPROVIDES:${PN} += "soci-odbc-devel"
 

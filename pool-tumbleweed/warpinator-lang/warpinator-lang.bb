@@ -2,10 +2,10 @@ SUMMARY = "Translations for package warpinator"
 DESCRIPTION = "Provides translations for the 'warpinator' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.6.1"
+PV = "1.6.3"
 
-RPM_NAME = "warpinator-lang-1.6.1-1.1.noarch.rpm"
-RPM_HASH = "5d53bfbb91232f95c032a3cbc77ffa3ebb0d928553c113924fec1080f01e1d1ac54d46edb9ec3ec30b2c9b3f6c1e0c499cf9b04fb4cbcec6c8f0fce3d8249e60"
+RPM_NAME = "warpinator-lang-1.6.3-1.2.noarch.rpm"
+RPM_HASH = "a96007b62345ead32d2bf77fa0a662068611a146aefaa44c5a2d4b99f9b720479065efc1307a3c5c8390bb669677ff7141ee8c3d6035b608ba110214c6cb62f9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-warpinator-ar \

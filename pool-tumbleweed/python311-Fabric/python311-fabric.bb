@@ -14,13 +14,18 @@ suite at a higher level than that provided by e.g. Paramiko (which \
 Fabric itself leverages)."
 LICENSE = "BSD-2-Clause"
 
-PV = "2.7.1"
+PV = "3.0.1"
 
-RPM_NAME = "python311-Fabric-2.7.1-3.4.noarch.rpm"
-RPM_HASH = "d4078cdd8024267bb2649aa715587f9ade99ca97dc6806da90290b30b003087d3b840168dec3a2672aac95c27f67d98b77864efefce3c2721591affa75f3ecd6"
+RPM_NAME = "python311-Fabric-3.0.1-1.1.noarch.rpm"
+RPM_HASH = "190176f339fd74480834ac8c8d7309167bfc01670c74b1c121f5ea0d3df1406052b3b98672e6d5aefd3bd70b1947def4da6c046df7de18b1f8fa57355f5a7fd8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-fabric \
+RPROVIDES:${PN} += "python3-Fabric \
+python3-Fabric2 \
+python3-Fabric3 \
+python3-fabric \
+python3-fabric2 \
+python3.11dist-fabric \
 python311-Fabric \
 python311-Fabric2 \
 python311-Fabric3 \
@@ -31,12 +36,9 @@ python3dist-fabric"
 RDEPENDS:${PN} += "/usr/bin/python3.11 \
 /usr/bin/sh \
 python-abi \
-python311-cryptography \
 python311-decorator \
 python311-invoke \
 python311-paramiko \
-python311-setuptools \
-python311-six \
 update-alternatives"
 
 inherit rpm

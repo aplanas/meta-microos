@@ -5,11 +5,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.0.1"
 
-RPM_NAME = "python310-pyRXP-3.0.1-2.9.aarch64.rpm"
-RPM_HASH = "61bbdcd73542ed0329455d14529165c7ef6d290f4cfd8bb609eb91299f8b4ba1f797877fb8f202237fd75ca8c91aed3f1d23304f839183a69a09c8279d643ad5"
+RPM_NAME = "python310-pyRXP-3.0.1-2.11.aarch64.rpm"
+RPM_HASH = "7f6c12eb6efeb1380ac88a85f18659705b126f0a55b1943521925acd1002cb36a5a928de422b57a01d5a14d6fcad2d7a2761ac735f0e165d16c1f9e6a8d8a062"
 
-RPROVIDES:${PN} += "python3-pyRXP \
-python3.10dist-pyrxp \
+RPROVIDES:${PN} += "python3.10dist-pyrxp \
 python310-pyRXP \
 python3dist-pyrxp"
 

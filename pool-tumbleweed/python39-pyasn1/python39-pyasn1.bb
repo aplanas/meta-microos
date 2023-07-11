@@ -7,8 +7,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.5.0"
 
-RPM_NAME = "python39-pyasn1-0.5.0-1.1.noarch.rpm"
-RPM_HASH = "3195e79f36aee08ed3e727e97076f8a305c2d690d21a970da46cf3b765f7eef7e6aef79013744a4ccce2398a63a10b1009ba7a41f2676495f0e8b02c18e8d933"
+RPM_NAME = "python39-pyasn1-0.5.0-1.3.noarch.rpm"
+RPM_HASH = "1971c17aed82b640fef0a948fc2a622ab032fc11200d3c2a3b7ef2a22d9b75a3bcbc92b6cc3a3b8819a8c75770c0b44b8fd20351c023dccc170b45b20ba099a3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyasn1 \

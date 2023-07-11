@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.3.4"
 
-RPM_NAME = "libbluray2-1.3.4-1.3.aarch64.rpm"
-RPM_HASH = "b883e0399860ef27fe456c4d31958d170193731affda915272154ee8d65e39939b1c3c1a36c8846ecea0ec66ca9e37687a8010c1fffcbc32e1594c90845a7678"
+RPM_NAME = "libbluray2-1.3.4-1.4.aarch64.rpm"
+RPM_HASH = "5ac27dac81f648ae08e82c6117f523630a6d3fc5ee1b3e0c8e04ab277929bad61ee8cfeb34655e59b63d38cc3ffa3eb72ce60158e867f4545975f87ef0883d2e"
 
 RPROVIDES:${PN} += "libbluray.so.2 \
 libbluray2"

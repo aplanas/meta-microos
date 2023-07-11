@@ -11,8 +11,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.30"
 
-RPM_NAME = "perl-YAML-1.30-1.13.noarch.rpm"
-RPM_HASH = "3d023fd2b2e6a78e0259370c29b431e5fcded92a16a0ecc30439c0343b9e3f13090d5c3c63ae3a96c88b220372b5cc04a6ae6b076a4dbaad7d12b7518486884e"
+RPM_NAME = "perl-YAML-1.30-1.14.noarch.rpm"
+RPM_HASH = "c13534bfbc874b30925d8ae2f9f68a616530e0d92e59f0531803ba395015f148d99c0abce386e35e2089fd02c2471194b5085ab586ab35fd539cc7d602415523"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-YAML \
@@ -38,6 +38,6 @@ perl-yaml-mapping \
 perl-yaml-scalar \
 perl-yaml-sequence"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

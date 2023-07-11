@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.9.22"
 
-RPM_NAME = "libjack-devel-1.9.22-2.1.aarch64.rpm"
-RPM_HASH = "47114739f96904f4d114eb5ded63c1530760fecfbbc9439e612f3be3d2b021ba543794d9045a566a5004cfb0a7841b89e9a2fcea5011ba378680f78a31b89391"
+RPM_NAME = "libjack-devel-1.9.22-2.2.aarch64.rpm"
+RPM_HASH = "e1cf185dec4521157198e6ad8e97e9cba1d92faa509d880ce45eca691a35713a547c9594204f8f4bee5efbaac893cd88ffefd229189cf9e432e3926d605d0192"
 
 RPROVIDES:${PN} += "jack-audio-connection-kit-devel \
 jack-devel \

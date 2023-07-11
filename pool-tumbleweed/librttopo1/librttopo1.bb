@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.1.0"
 
-RPM_NAME = "librttopo1-1.1.0-2.4.aarch64.rpm"
-RPM_HASH = "06eb908970692b09cf98388b7b47ba4fb0bd552b9e740c32b02a3ffcc1a0f68c21eebc98052ff5cf775d5e346a3a8ba115053436018a8930a93c0aa8c79db133"
+RPM_NAME = "librttopo1-1.1.0-2.5.aarch64.rpm"
+RPM_HASH = "b87e25789792d59674d334daf00ab22991f9f86a0689fba0938d0bf253394b98bffba7409a3315edcb98c7fe168d133f4f086b75bf54ba423d06e8a15d151a8b"
 
 RPROVIDES:${PN} += "librttopo.so.1 \
 librttopo1"

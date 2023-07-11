@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.12.0"
 
-RPM_NAME = "typelib-1_0-GnomeKeyring-1_0-3.12.0-9.8.aarch64.rpm"
-RPM_HASH = "e7e8a79fe201770db1e2b2ec30af6c2d2114f544b0c1e3a702164a7c62b7d698d427e52b01e6a16f7736a3866a5c0fdf7a341d3a47d314102057df2eb95aa58f"
+RPM_NAME = "typelib-1_0-GnomeKeyring-1_0-3.12.0-9.9.aarch64.rpm"
+RPM_HASH = "77cb2f842ac660afd2b93a0dfb959242e4ae7d63526c89bb7ace68176d44e6168136e35e7c0f1ee9d75932fc9e574836544ed234ded7d102379bbf67b41c4be3"
 
 RPROVIDES:${PN} += "typelib-1-0-GnomeKeyring-1-0 \
 typelib-GnomeKeyring"

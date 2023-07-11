@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the necessary development headers and \
 libraries to allow you to devel with R-base."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "4.3.0"
+PV = "4.3.1"
 
-RPM_NAME = "R-core-devel-4.3.0-45.2.aarch64.rpm"
-RPM_HASH = "05096342dae83d77fe30d19654957f420d63abb4346f898a7d1085d41aefe628dd372f71969c89fa7d2e75fc1c3814e14c68af7ffb9ccd55cde76eae18f088d4"
+RPM_NAME = "R-core-devel-4.3.1-46.1.aarch64.rpm"
+RPM_HASH = "2f191e9cdc46ea71ecacd28137e4c730e544b7911c3628e9f5b5e82729f2eecb94e20cfc0f7023973d2754f984db720556b61b9d1012aa60265e2211af00cbde"
 
 RPROVIDES:${PN} += "R-core-devel \
 R-devel \

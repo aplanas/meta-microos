@@ -17,15 +17,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.006"
 
-RPM_NAME = "perl-XML-LibXML-PrettyPrint-0.006-1.15.noarch.rpm"
-RPM_HASH = "f9cba42fc30eb04e5ec8d6a67ee5c462b6d4a1e31acdf429c0665a40f838c01e250eecc1ec8ba216a4c459b4fb445ebbe82976239ec78535293198c961cbf4f1"
+RPM_NAME = "perl-XML-LibXML-PrettyPrint-0.006-1.16.noarch.rpm"
+RPM_HASH = "5e00822202a2bc4daec6c8ebb0a8f05531dea0c3b8d98e3b2fcdd489c4d83ef26649ed3934a27d22086dcae7ead3a5cb419dd7374d4c36c64fe8e111d7901683"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-XML--LibXML--PrettyPrint \
 perl-XML-LibXML-PrettyPrint"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-Exporter--Tiny \
 perl-XML--LibXML \
 perl-XML--Simple"

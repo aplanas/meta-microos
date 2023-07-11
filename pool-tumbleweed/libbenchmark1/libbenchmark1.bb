@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.7.1"
 
-RPM_NAME = "libbenchmark1-1.7.1-1.3.aarch64.rpm"
-RPM_HASH = "ff376c592e48778c95eeae4e57657dbb75ee0d646154f418b16d92ae1dda20a781f4ae0d56f565c2513c69357228fe57edc7a5ca4c97d131236c99a849802eae"
+RPM_NAME = "libbenchmark1-1.7.1-1.4.aarch64.rpm"
+RPM_HASH = "7d69644d80fa4e702dd2666810bdd3806b297db404879604c830e620ee0a0feac880ba950d6f49a0049dd9a4c2bd896b4386e7c96e3623edc27eef1b8bbebf5a"
 
 RPROVIDES:${PN} += "libbenchmark-main.so.1 \
 libbenchmark.so.1 \

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "8.2"
 
-RPM_NAME = "readline-devel-8.2-2.3.aarch64.rpm"
-RPM_HASH = "e6e593afdb8142fee1505d4c86dc0de9773f6a7b23acbdd24f92c1ecd5d9afdc4280254ac9bf6c674ec2fc1d6c8b989cb9ab59f710de806eec7c7aa6f8af9b2a"
+RPM_NAME = "readline-devel-8.2-2.4.aarch64.rpm"
+RPM_HASH = "5ab797eb509eabb0a374916f90b5f93d6a64b6f61facc700ac03d7ee7fc365320794bc5a8947d0bfae3e450b094d72855f5f98f9475e04b64d196a965d81de35"
 
 RPROVIDES:${PN} += "pkgconfig-history \
 pkgconfig-readline \

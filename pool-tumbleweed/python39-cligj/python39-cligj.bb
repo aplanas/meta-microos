@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.7.2"
 
-RPM_NAME = "python39-cligj-0.7.2-1.5.noarch.rpm"
-RPM_HASH = "ea2df8fc6a83d8328127ead09d93d149a512582fa6791e1b779b2543c9ac26b5ed98cc1e5f09b08dc18cb5304b641509ae16b940b52c08af2960254573565d65"
+RPM_NAME = "python39-cligj-0.7.2-1.7.noarch.rpm"
+RPM_HASH = "58cda2e442754db742c914f4cd3ff7a38339b17c224a81bd72d74b1b282c0647e025eb5c16028d73386a6eabda4fea2718f81c1afde403119f363143850cde78"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-cligj \

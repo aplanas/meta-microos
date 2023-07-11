@@ -9,11 +9,12 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.2.0"
 
-RPM_NAME = "python311-bugzilla-3.2.0-1.4.noarch.rpm"
-RPM_HASH = "404bccde3adf0c87e182977351696b064c6965acf665c10b70e89ac49df19020b6dd9b8cbe583e52d113e101ac06fc1b6a31f1a9cba2ce43da08cf0b9834ad18"
+RPM_NAME = "python311-bugzilla-3.2.0-1.6.noarch.rpm"
+RPM_HASH = "3b50a92bb93fbdf9e6475949a7dc48cf7b5fa516f4a22ba3c588879845bb8811454d76bb5967a09a29e23e8f9b5eb4a7f41174aef74449c66bce40fb3e079171"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-python-bugzilla \
+RPROVIDES:${PN} += "python3-bugzilla \
+python3.11dist-python-bugzilla \
 python311-bugzilla \
 python3dist-python-bugzilla"
 

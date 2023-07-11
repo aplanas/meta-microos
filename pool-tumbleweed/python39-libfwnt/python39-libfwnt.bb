@@ -5,8 +5,8 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20220922"
 
-RPM_NAME = "python39-libfwnt-20220922-2.5.aarch64.rpm"
-RPM_HASH = "e9df69040766a009b85b0222b79445e0fa7a848863d6dba12745026bff2d43a1f420e24fbe23b21c88f6b487b8e78275446f6cdb55fce9b1dae47fd9805aec7a"
+RPM_NAME = "python39-libfwnt-20220922-2.7.aarch64.rpm"
+RPM_HASH = "03aea374b0a14f276eb451d4cf3f4b794b22c44a644a5ba7c38a49cde3c5284e91685d4808f60808530c578f96e4b2b7340bd1781b4c6f3bd7b8786ebbead13d"
 
 RPROVIDES:${PN} += "python39-libfwnt"
 

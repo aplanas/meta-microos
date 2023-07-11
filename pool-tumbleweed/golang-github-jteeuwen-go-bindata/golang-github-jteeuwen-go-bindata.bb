@@ -6,8 +6,8 @@ LICENSE = "CC0-1.0"
 
 PV = "3.0.7+git20151023.72.a0ff256"
 
-RPM_NAME = "golang-github-jteeuwen-go-bindata-3.0.7+git20151023.72.a0ff256-5.12.aarch64.rpm"
-RPM_HASH = "4a2bce69a93ea65d830ba5989cfa58df971a3219eeb9bf1408556e5949f0d9c5e0d30b7764c87b14fd8c255c03f5f7b0b477fe62df2ac6893e3b9fe14b0a0538"
+RPM_NAME = "golang-github-jteeuwen-go-bindata-3.0.7+git20151023.72.a0ff256-5.13.aarch64.rpm"
+RPM_HASH = "06c3b46a16f45113fe73c87582ad67be2f5dbf95eef332b8e1709d4b50f3d60eedfd9d788257187ec4b9f13da6b089cfd9da8f88afe0f1e5c9123184f0c12ade"
 
 RPROVIDES:${PN} += "go-bindata \
 golang-github-jteeuwen-go-bindata \

@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 | MIT"
 
 PV = "0.23.0"
 
-RPM_NAME = "bat-zsh-completion-0.23.0-1.1.noarch.rpm"
-RPM_HASH = "d6550403c0083de802b49827ddb500d48aeab5fec96fbea186dda7f104096feda7ec18e698b88a982eae18e6d15f520cca12d01870a3eebd977c31147fd76e20"
+RPM_NAME = "bat-zsh-completion-0.23.0-1.2.noarch.rpm"
+RPM_HASH = "a6a1f6a66d6b818e61b1eed1a39cfc29a742c5d2053730865f555ffa2c26f0eed5039e7564d47514a95cd9296bd28175ec095c69f8eb32cdc223a2b50b814bad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bat-zsh-completion"

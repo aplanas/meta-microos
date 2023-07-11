@@ -11,12 +11,11 @@ LICENSE = "MIT"
 
 PV = "0.33.3"
 
-RPM_NAME = "python310-eventlet-0.33.3-4.1.noarch.rpm"
-RPM_HASH = "0dfc661d2e0b74c5ab2e2fb634a3796403ea8d9192f65a6fb66b59a94d297785c41793ec5bc0809a6643e32c9d9855d3e22f4290925c4504bedcf8a081d43f24"
+RPM_NAME = "python310-eventlet-0.33.3-5.1.noarch.rpm"
+RPM_HASH = "24345eccb6183123177d626a8b0d96e268c40c0f0a3c53470c671e41d63b70845943484481da7f81e9cfc3ad7f9f1be02a91b7af536faad4563687ba165a72f0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-eventlet \
-python3.10dist-eventlet \
+RPROVIDES:${PN} += "python3.10dist-eventlet \
 python310-eventlet \
 python3dist-eventlet"
 

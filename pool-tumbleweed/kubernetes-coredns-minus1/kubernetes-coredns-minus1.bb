@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.9.3"
 
-RPM_NAME = "kubernetes-coredns-minus1-1.9.3-30.1.aarch64.rpm"
-RPM_HASH = "54bdb503de43575be27eb2a1a4e91f5f273d56a6b1a4a61b1361e9c4b69c58e39efc073c28d5ac34f27b345c376c8bf8bc5f3e9e26feab3d645d62e861d578b1"
+RPM_NAME = "kubernetes-coredns-minus1-1.9.3-32.1.aarch64.rpm"
+RPM_HASH = "790b30e36ee8e5989d55d11010a15455f1528c89fd112296f800632f257acb743d4b855967484d4a7a008e2a390d95beec1c8e2ed68cd24d5bf15768206fb147"
 
 RPROVIDES:${PN} += "kubernetes-coredns-minus1"
 

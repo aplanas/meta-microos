@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.0.1"
 
-RPM_NAME = "kdbg-lang-3.0.1-1.17.noarch.rpm"
-RPM_HASH = "eeb0e99f07a0f0f0c2b986531421d655a8836a7ca7e3dae0f4c7e7d12ffc0375d478e3456852dafefd9375cac67a2eb0fdb014a02cea20b89d15de6fcba9daaa"
+RPM_NAME = "kdbg-lang-3.0.1-1.18.noarch.rpm"
+RPM_HASH = "a43a4f622072eb6e868b4b387abccdd3130f85b7424f8b6a317a0d58df4be7e39691bb31b50fda038227447893b218d26d705487cd6c105f639084f998b094fd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kdbg-lang \

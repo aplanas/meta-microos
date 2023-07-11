@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "7.5.0+r278197"
 
-RPM_NAME = "cross-s390x-gcc7-7.5.0+r278197-14.1.aarch64.rpm"
-RPM_HASH = "780408664566bc7897eb68aa34e558a5ae6f56dd690a464e14ceb1932ae6113eb345220c4a860c60d10631e4cd6ec0674ff84e306dfe197143cb63efaf6c7ec5"
+RPM_NAME = "cross-s390x-gcc7-7.5.0+r278197-14.2.aarch64.rpm"
+RPM_HASH = "3d9655a3485cbb69cb94fa1ddf7d1e4d8d0f99870aae56cebf2a5099a369a961823135f8acdfedf70a9971a09186bcc777beed0f27309e705f1e773d3801303c"
 
 RPROVIDES:${PN} += "cross-s390x-gcc7 \
 liblto-plugin.so.0"

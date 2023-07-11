@@ -2,10 +2,10 @@ SUMMARY = "Translations for package klickety"
 DESCRIPTION = "Provides translations for the 'klickety' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "klickety-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "6dd8469525e323d7742c4681d778999329013e648e9fb494b0aae62b6866eafcbf0709a35028621f0fb575a5907a311d71910685614d41c4dde654e5e2c2c75e"
+RPM_NAME = "klickety-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "67297380bfc43feea59b5334e7a92c8604d2fe6aed0b1aa26b2cf0bc8407d58a9953d8d8b948292f4128bacb1706a320d4381fc89f7b8a47c81f3c1cb76b921d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "klickety-lang \

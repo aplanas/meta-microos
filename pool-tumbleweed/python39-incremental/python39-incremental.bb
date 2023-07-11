@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "22.10.0"
 
-RPM_NAME = "python39-incremental-22.10.0-2.1.noarch.rpm"
-RPM_HASH = "0e94a05c6f642b68556f1762c6950e97cfb55d8139703033f33a4476911a022dbb72a54cfb452fcd89d2d2c881f361fcb40a668e650e6bafae70bb49a8262817"
+RPM_NAME = "python39-incremental-22.10.0-2.2.noarch.rpm"
+RPM_HASH = "9a05523137d6a188782d2acaba4e90b9011151f50abc74499b93b429e80082b359052f90755cd74ac9dc3eb26055ed6aff78208e2cc6553a8dad2d6e86311808"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-incremental \

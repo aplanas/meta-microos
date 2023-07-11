@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "6.3.0"
 
-RPM_NAME = "libsundials_sunmatrix4-openmpi3-6.3.0-2.4.aarch64.rpm"
-RPM_HASH = "7f3f4b5c7e583b550ae58226f0b639420ffc1b0ea04e760ad33a86d910705cb51a72506f6f60de972f20db1ef96189dfdd11cc094c4bbfea4b3726d8224b3c6b"
+RPM_NAME = "libsundials_sunmatrix4-openmpi3-6.3.0-2.5.aarch64.rpm"
+RPM_HASH = "560ee95addcd5899017dc29926d252b19cf74328cc78801779e7b99015082a02c685bcfec8f9ee7bffc6c5f724fc8cdfddaf7e6ef43148b45cb906ae36353167"
 
 RPROVIDES:${PN} += "libsundials-sunmatrix4-openmpi3 \
 libsundials-sunmatrixband.so.4 \

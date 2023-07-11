@@ -10,12 +10,12 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "14"
 
-RPM_NAME = "mkosi-14-1.2.noarch.rpm"
-RPM_HASH = "ce3bc9563e371d71c595843dcb5b569381813e61ab594ed20630d253f012ae1c179226a88d770247454e4a8d768f78e618eab251f504c53ce3dd45742737bcda"
+RPM_NAME = "mkosi-14-1.3.noarch.rpm"
+RPM_HASH = "5bb7e84011dd6b248e2562f6f6e06ea7fcf8455a1ba24836d2f1a9e38c285453976bf6ea8f17eb0d651330ff32a2b5fd6f1cd0c074c1ae901c9c5dd85ce8d831"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mkosi \
-python3.10dist-mkosi \
+python3.11dist-mkosi \
 python3dist-mkosi"
 
 RDEPENDS:${PN} += "/usr/bin/bash \

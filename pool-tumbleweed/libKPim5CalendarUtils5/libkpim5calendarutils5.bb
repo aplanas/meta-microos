@@ -3,10 +3,10 @@ DESCRIPTION = "This library provides a set of utility functions that help \
 applications access and use calendar data via the KCalCore library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libKPim5CalendarUtils5-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "80efc00000bd0cbb51eb1668aae4d954a0feafcfe44bf359cdb1176e12a5cb328d38a4196d49b0f3bc1b368e81198539f14f2da6a649a4603d4e3a72e089a4e7"
+RPM_NAME = "libKPim5CalendarUtils5-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "b5c894acaf3e4d545640c8b5d117c84fa6d2e2a68f72ed5440e03f9cf44fd7f3c13f47f6b5da2ca075a2e49ebb2fc8bcb65f166958898a07e4342c0b107d53b6"
 
 RPROVIDES:${PN} += "libKPim5CalendarUtils.so.5 \
 libKPim5CalendarUtils5"

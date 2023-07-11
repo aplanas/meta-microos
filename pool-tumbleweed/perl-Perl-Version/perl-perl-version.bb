@@ -58,15 +58,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.013"
 
-RPM_NAME = "perl-Perl-Version-1.013-3.26.noarch.rpm"
-RPM_HASH = "0ac1c45605c8f639423598aedaf3c28e128dd62e1126fc33a67526ab78150cbbdef4a33ff9d8ae6c8c41d84f8df9893f59fe67f216018ceb214f19d3e4f9d377"
+RPM_NAME = "perl-Perl-Version-1.013-3.27.noarch.rpm"
+RPM_HASH = "4006173907c307d27df06b0b14f26748e553f98daf00e6fca86c72f4b1aec4c293aa76517744eef932e7210646adb988203729c67360fb33a256801b4613a041"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Perl--Version \
 perl-Perl-Version"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-File--Slurp--Tiny"
 
 inherit rpm

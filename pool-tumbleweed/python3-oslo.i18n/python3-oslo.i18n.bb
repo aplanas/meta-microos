@@ -8,12 +8,12 @@ LICENSE = "Apache-2.0"
 
 PV = "6.0.0"
 
-RPM_NAME = "python3-oslo.i18n-6.0.0-1.2.noarch.rpm"
-RPM_HASH = "99e6f4e9d7c9caab75a7af5ed785d0fd1324b2ce6dfc5705f81208bc42a158c3a4495d896824a2f49abd7d3a91c3c267ee246367b286dbac3b23403be54dc3e5"
+RPM_NAME = "python3-oslo.i18n-6.0.0-2.1.noarch.rpm"
+RPM_HASH = "8ee31ef766ba605585d1d5b41b781bcd4d1234384980748a9c539381db4a1eb66e63d2795fa5bc93dd633df2d02e5e49898546f9c671e70bf444796eedbbc5e5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-oslo.i18n \
-python3.10dist-oslo.i18n \
+python3.11dist-oslo.i18n \
 python3dist-oslo.i18n"
 
 RDEPENDS:${PN} += "python-abi"

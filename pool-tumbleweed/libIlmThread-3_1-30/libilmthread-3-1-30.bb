@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.1.7"
 
-RPM_NAME = "libIlmThread-3_1-30-3.1.7-1.1.aarch64.rpm"
-RPM_HASH = "d300964b7319db3a387039ec33e86db7210c6cac603db0e0bd3a0b97a7275a5d2892b588902eead79ce95fa0a51f5937ed5b366200942544282e3e0d52e55e38"
+RPM_NAME = "libIlmThread-3_1-30-3.1.7-1.2.aarch64.rpm"
+RPM_HASH = "868e1a36f9163f2fff7448b9a877da150dac9cd12766558c8ce44dd419aeaaf2dadf152044a2bdd290da65bd5b1600f1a3544e63e7c080f3cc6ae2834e098990"
 
 RPROVIDES:${PN} += "libIlmThread-3-1-30 \
 libIlmThread-3-1.so.30"

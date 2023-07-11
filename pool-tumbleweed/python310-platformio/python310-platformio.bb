@@ -6,12 +6,11 @@ LICENSE = "Apache-2.0"
 
 PV = "6.1.5"
 
-RPM_NAME = "python310-platformio-6.1.5-2.4.noarch.rpm"
-RPM_HASH = "d444f6db86b10020c879319aec4be224d947c172bb66f1a3dc8eaeb10dc6df03fbcdb64a462d2aa7df0250f33c9040ebf688968753b5b571f8cde92d3d50045b"
+RPM_NAME = "python310-platformio-6.1.5-2.6.noarch.rpm"
+RPM_HASH = "ae07b8ba768b0b3588d0fae609b24a1ef54363f5fa7ccb9c69550569221020ba152938fa36070425e2f9c033f67da5a80e2b64cbcbf2e5ad96d5d4f27730f4a1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-platformio \
-python3.10dist-platformio \
+RPROVIDES:${PN} += "python3.10dist-platformio \
 python310-platformio \
 python3dist-platformio"
 

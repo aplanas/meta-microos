@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "1.0.2"
 
-RPM_NAME = "woff2-devel-1.0.2-4.3.aarch64.rpm"
-RPM_HASH = "d28af735dc22d6133c068e09b258472bc07ef5d7a60ce9fdfa0da2c6bcddbc02f6f6f601ef3c5f5627bad6adb64722f03bd2d3ad4d71b17d96895278c6baff86"
+RPM_NAME = "woff2-devel-1.0.2-4.4.aarch64.rpm"
+RPM_HASH = "11e044000a23bb72451c7c29d336510281c8701107c2a1bafdb5390863836eae7a8f7ca93308f4899f24210dcfa870f1ebef3bfebe54c694f4f5c824c66d40b7"
 
 RPROVIDES:${PN} += "pkgconfig-libwoff2common \
 pkgconfig-libwoff2dec \

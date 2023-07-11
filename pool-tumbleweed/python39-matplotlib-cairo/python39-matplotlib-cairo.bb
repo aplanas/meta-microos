@@ -5,8 +5,8 @@ LICENSE = "SUSE-Matplotlib"
 
 PV = "3.6.3"
 
-RPM_NAME = "python39-matplotlib-cairo-3.6.3-2.1.aarch64.rpm"
-RPM_HASH = "42ce14f8d8aa90ae12505d875367449a80992527586025788614992e9d498c7ee6b8cfa175cdd265913e12fc1ce4a67b461c74dce067a0f213092558d60c8c5c"
+RPM_NAME = "python39-matplotlib-cairo-3.6.3-2.3.aarch64.rpm"
+RPM_HASH = "dfa7769787185ebdce4ca21b65074c5a0be0d6895a948e769bc138bed765d2141b061228bb5a3419ba4459005b41d1632a0950e5f9566e6f7f880eff4de4eb23"
 
 RPROVIDES:${PN} += "python39-matplotlib-cairo"
 

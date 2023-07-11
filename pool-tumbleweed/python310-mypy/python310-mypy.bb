@@ -10,15 +10,13 @@ Mypy's type system features type inference, gradual typing, generics \
 and union types."
 LICENSE = "MIT"
 
-PV = "1.3.0"
+PV = "1.4.0"
 
-RPM_NAME = "python310-mypy-1.3.0-1.1.noarch.rpm"
-RPM_HASH = "5d777d03afa460e07f35f0852e88791bf8059815d0304c0395d849d07b60c9548d2a87e3b8b86c3db5025159e472e136f0a1bf9b4cd2cb01886a962d46c81a2d"
+RPM_NAME = "python310-mypy-1.4.0-1.1.noarch.rpm"
+RPM_HASH = "85d9041088b4fc28ec4dc3eff8d930addc8d3b5dec874fb148050d95b395477286eb9b5a8e18cd6cd4d67921fe09dc5e3ad2fe65c488957818f064976c050c3a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "mypy \
-python3-mypy \
-python3.10dist-mypy \
+RPROVIDES:${PN} += "python3.10dist-mypy \
 python310-mypy \
 python3dist-mypy"
 
@@ -26,7 +24,6 @@ RDEPENDS:${PN} += "/usr/bin/python3.10 \
 /usr/bin/sh \
 python-abi \
 python310-mypy-extensions \
-python310-tomli \
 python310-typing-extensions \
 update-alternatives"
 

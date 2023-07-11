@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-serif-khojki-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "6c0931afe58122718396fe959f872d3701e4bd86976acdfab739aa93c74a4a875e2c1563b0407c4caf98627249def315c700832dd0253bb005ca7d8634cd19bf"
+RPM_NAME = "noto-serif-khojki-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "33c800aed291a0e17ae7421e6704319e2ab9b9c3bc2ac6fb2d15de9cddef268ad3d1df60f06366e629fe7b5f698eacd194b5d58998b799f4d1e0de78dd57a6e7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-serif-khojki \

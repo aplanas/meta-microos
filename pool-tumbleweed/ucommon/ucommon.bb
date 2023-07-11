@@ -10,8 +10,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "7.0.1"
 
-RPM_NAME = "ucommon-7.0.1-1.9.aarch64.rpm"
-RPM_HASH = "cde670eea9e88e575018e3071845f33c8908d965f006477a5b6972913b7a68cbd7cdfdf99f24171bc0b8d307100ed2a3458322d4935538cac3c0ffad36164417"
+RPM_NAME = "ucommon-7.0.1-1.10.aarch64.rpm"
+RPM_HASH = "daf7a61161fc6ab5eb01a17efede968776e5081a17098448ca5916defd1b769104cb2d73d6c5c5ff007c6c1feb52d4ac14acf44135ecd1745b074fc891adcf15"
 
 RPROVIDES:${PN} += "ucommon \
 ucommon-bin"

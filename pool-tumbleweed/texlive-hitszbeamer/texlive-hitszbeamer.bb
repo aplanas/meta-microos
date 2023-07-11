@@ -5,8 +5,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.0.0svn54381"
 
-RPM_NAME = "texlive-hitszbeamer-2023.201.1.0.0svn54381-53.1.noarch.rpm"
-RPM_HASH = "6c5a24c53fad729011a7186f26e1160d12e41edae6fb4887a8795621d0c63b8aa907025e7a2ac2bcbe37b48756b97535cea4c5d177046c4ebb5ac18b13ab9a26"
+RPM_NAME = "texlive-hitszbeamer-2023.201.1.0.0svn54381-53.2.noarch.rpm"
+RPM_HASH = "74c3fea8b4033f1751eeb4b0dded3322eb4b13c71f853ddd0f45e764bfe91692cd115c349bf166a8e705499a8790bd29eb8b1fc4b1797a0617291d82ab616b04"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beamercolorthemehitszbeamer.sty \

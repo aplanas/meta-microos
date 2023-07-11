@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "6.3.0"
 
-RPM_NAME = "libsundials_arkode5-openmpi1-6.3.0-2.4.aarch64.rpm"
-RPM_HASH = "09796d2ca5225100ae879a87fcbf5cf293d6f031174fd48a9c8bc4aa3c9424df498ab248e8bdd65044be22f495add70f64ff18a213a6ab64d275656ca4d445e0"
+RPM_NAME = "libsundials_arkode5-openmpi1-6.3.0-2.5.aarch64.rpm"
+RPM_HASH = "af776d26387367110e52f7b730e922f9be3f73830ebb84269f6e7d7f946f4901b6fae6ca68c29ce863a3fcb65c388673707f4d727c08953c1351f017e18751d1"
 
 RPROVIDES:${PN} += "libsundials-arkode.so.5 \
 libsundials-arkode5-openmpi1"

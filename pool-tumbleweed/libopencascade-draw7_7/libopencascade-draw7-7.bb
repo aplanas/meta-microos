@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only-with-OCCT-exception-1.0"
 
 PV = "7.7.0"
 
-RPM_NAME = "libopencascade-draw7_7-7.7.0-1.3.aarch64.rpm"
-RPM_HASH = "06fa717ac14de9aacf10b86dd8892a9157e8c7cf3d1d33095d9db4ae3aaba8e4caf065a736ee0b42afe8bd6d97c7026dd611ed8d55924497721178b1f50cfc00"
+RPM_NAME = "libopencascade-draw7_7-7.7.0-1.4.aarch64.rpm"
+RPM_HASH = "5824a8e527a359d7ddbb33d40b21ecc2436c5847ec64d83bc69cfacbc9d2bf1e665b5b36675ccb9831339acf7ef093138a8a065d436a8b6ffe56b4ae83247c6d"
 
 RPROVIDES:${PN} += "libTKDCAF.so.7.7 \
 libTKDraw.so.7.7 \

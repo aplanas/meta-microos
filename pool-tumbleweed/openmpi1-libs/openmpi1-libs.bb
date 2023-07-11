@@ -15,8 +15,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.10.7"
 
-RPM_NAME = "openmpi1-libs-1.10.7-7.5.aarch64.rpm"
-RPM_HASH = "e9edc64d3bd274206887e220fd0c99c50a6a0484ecd3e70b5f1f1469f9647da41456106c360b6495c16e39aa0adc0cc51cce4151c4af7c7ef3c06cb4b862517f"
+RPM_NAME = "openmpi1-libs-1.10.7-7.6.aarch64.rpm"
+RPM_HASH = "5a7d9e2ce803d05c53ba1d3ce3c04d3ceaab4a371294757275c1372494a712b7be9cc2c09a8f0f85496cce86287a4b9d021d6d881f192570d8637f0bd0a2efa8"
 
 RPROVIDES:${PN} += "libmca-common-sm.so.4 \
 libmca-common-verbs.so.7 \

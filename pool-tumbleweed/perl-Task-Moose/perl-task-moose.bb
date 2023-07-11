@@ -6,14 +6,14 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.03"
 
-RPM_NAME = "perl-Task-Moose-0.03-10.19.noarch.rpm"
-RPM_HASH = "34a3ad172530c58c896171f2628001ee3060d1dfd4caccabcea275a4629e7310d46334d94e56c6303a53a3fab6d6c7362ec7d2c7268421a608b3a81349911c8c"
+RPM_NAME = "perl-Task-Moose-0.03-10.20.noarch.rpm"
+RPM_HASH = "c2577fd9cad2539631a3283a8c0ee5326680c5ed634a1b20ad1c080694a5bc832b96890aa1eb127c05e90d2cd3b7dfe808d24102c6ff0865abd571c1d5b48016"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Task--Moose \
 perl-Task-Moose"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Moose"
 
 inherit rpm

@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "2.0.0"
 
-RPM_NAME = "python39-azure-purview-nspkg-2.0.0-1.8.noarch.rpm"
-RPM_HASH = "1728488a138c0594e188c1fb8d0b5f74957c7c12a6408d0b56c73d0d54525eb9c73f192ffe01e0367b6b3ebb5b2d75751b2aa0126585f983a4a4eb020e6d35ca"
+RPM_NAME = "python39-azure-purview-nspkg-2.0.0-1.9.noarch.rpm"
+RPM_HASH = "37eb71a83367062371bb47ff6349239abdf1197303a00ed32e4e25705b33829acb8288744a7dd9b91be9bcd102106632e5cd375abe693c6c6f8de5125bd3e28b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-purview-nspkg \

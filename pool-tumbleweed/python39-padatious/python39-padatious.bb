@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.4.8"
 
-RPM_NAME = "python39-padatious-0.4.8-1.4.noarch.rpm"
-RPM_HASH = "4d5173b16cba4aa847ac6c7e0264f7cb6b3c6f68a0a0a68dd6709132bc70dbaa31894f50c84773ad80f2838dbc8679e0b10ebfde5791cf20c69bfe31aa79b9e4"
+RPM_NAME = "python39-padatious-0.4.8-1.6.noarch.rpm"
+RPM_HASH = "12e0441140e5ebf3880796c1cb4ce9a281a62b0d16e1bd178c46fb682e2aac255951b1654e021d4a1c6ecc0f367b50820fa7a80d950fe053c625591b2182374b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-padatious \

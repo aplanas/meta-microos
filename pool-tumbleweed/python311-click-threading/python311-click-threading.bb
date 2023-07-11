@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "0.5.0"
 
-RPM_NAME = "python311-click-threading-0.5.0-1.8.noarch.rpm"
-RPM_HASH = "3e5a9d34968d144de643184b838a34cfabc2ec623033ecc8783cb427b1d0ee9a0768f276378c5c867ddebd0e4e41366dae030e815d245b5002ad2bb267716e39"
+RPM_NAME = "python311-click-threading-0.5.0-1.10.noarch.rpm"
+RPM_HASH = "84e480b23d49476be440238d1398f4eeee7b38f4b0ccdb2d8e1b70164ef273afa4e1d56b8384e46b704ad8d34601b0dc2ec2034eac9f618d56de146a542e481f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-click-threading \
+RPROVIDES:${PN} += "python3-click-threading \
+python3.11dist-click-threading \
 python311-click-threading \
 python3dist-click-threading"
 

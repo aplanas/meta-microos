@@ -8,10 +8,10 @@ robust \\index command. It supplies short hand notations for the \
 well as creating an index entry for it."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.4.1betasvn24099"
+PV = "2023.208.4.1betasvn24099"
 
-RPM_NAME = "texlive-index-2023.201.4.1betasvn24099-52.1.noarch.rpm"
-RPM_HASH = "83d97091c5cbffcce115ae2fca418d764300c953f185e7ccc6117a2a2814cced287bdb88a6edb66e90932a4c52cbe0fdd1873186c08e9c7e485fb8ce27d08010"
+RPM_NAME = "texlive-index-2023.208.4.1betasvn24099-53.1.noarch.rpm"
+RPM_HASH = "c6e87b9c9035ed7fb565465d8e6b27c9de281f1867f334f16819d9776538a0167c2b31dfc427b2096e1aabff9e15ff242d6d6dc7b6ebd95fac28962355bbf272"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-autind.sty \

@@ -8,8 +8,8 @@ LICENSE = "ISC"
 
 PV = "0.5.1"
 
-RPM_NAME = "python39-clint-0.5.1-5.3.noarch.rpm"
-RPM_HASH = "b29d5006ae33db7b60181d8d3f5fc18cf1d937c738033a9efc8abfabb0761e70b4f07170b3a25f70333d37b08dcdd14c5670b9e6da5a84d13090a124076e5d40"
+RPM_NAME = "python39-clint-0.5.1-5.5.noarch.rpm"
+RPM_HASH = "3c95a2c40ee20ff807ac1fde7e13f29e03cbf46cdfe2d6335acefca781a3c7f30ab30874f9193af832ab12f18191e6d38a7e824eab5b234247ace16c322d2eb4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-clint \

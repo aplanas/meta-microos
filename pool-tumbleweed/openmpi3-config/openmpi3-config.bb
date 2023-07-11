@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.1.6"
 
-RPM_NAME = "openmpi3-config-3.1.6-7.3.aarch64.rpm"
-RPM_HASH = "1b4a7bc32d774e6ad8c7c96e938d7e61abb46da925667275794473a35f77d714987e5b2e5eca42547e9112a5494f4055ffa1988b93c5a1617e221eb0a55c7836"
+RPM_NAME = "openmpi3-config-3.1.6-7.4.aarch64.rpm"
+RPM_HASH = "4abfba4eb8e2d229972164aa0086716d75c65aefa8137caca53837a2671d50efb32793bbb9ebd18461eda02b8f3e6fcb39f72aa7c1b73d56646dc05b1ef192ed"
 
 RPROVIDES:${PN} += "config-openmpi3-config \
 openmpi-runtime-config \

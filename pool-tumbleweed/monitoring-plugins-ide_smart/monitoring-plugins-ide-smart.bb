@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
 PV = "2.3.1"
 
-RPM_NAME = "monitoring-plugins-ide_smart-2.3.1-9.4.aarch64.rpm"
-RPM_HASH = "d4a08c41658fe969a7b402cfc1cc355ca3bb487f00776bab8f724888317e7832dc3f65b7dedf16342bbd7344ec25f8dff0ee4c8deab5609d4fb120c8f01309bc"
+RPM_NAME = "monitoring-plugins-ide_smart-2.3.1-9.5.aarch64.rpm"
+RPM_HASH = "cc75e4e693b30534995ddb672dba19f687a11201adf3aa37df2c28fa0be6650c4f2d4ed01e4c2496e12763eae284a2f437a3634608f423ae47ded9eb99b15469"
 
 RPROVIDES:${PN} += "config-monitoring-plugins-ide-smart \
 monitoring-plugins-ide-smart \

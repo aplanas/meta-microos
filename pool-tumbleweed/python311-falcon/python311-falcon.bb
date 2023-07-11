@@ -6,11 +6,12 @@ LICENSE = "Apache-2.0"
 
 PV = "3.1.1"
 
-RPM_NAME = "python311-falcon-3.1.1-1.4.noarch.rpm"
-RPM_HASH = "be77e1073498fc728fc33b228ffa0a5705fd018f9abc186047d702fbbb34d390bb0017f28764b11cd59171c27b344939392afdb694fb2464493d21e8db49247a"
+RPM_NAME = "python311-falcon-3.1.1-2.3.noarch.rpm"
+RPM_HASH = "33cceb6e46400b639c366cb6d807545ead264b4ada0768249dc297b59365720ff2584eed9b9f24c7f5297b2f21768553511afc34b69536feb420ebdd6a1171b7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-falcon \
+RPROVIDES:${PN} += "python3-falcon \
+python3.11dist-falcon \
 python311-falcon \
 python3dist-falcon"
 

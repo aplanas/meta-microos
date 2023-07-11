@@ -3,10 +3,10 @@ DESCRIPTION = "kpartloader is a debugging tool used to test \
 loading of KParts."
 LICENSE = "GPL-2.0-only & GFDL-1.2-only & LGPL-2.0-only"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kpartloader-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "c0791f3e7d94f329b8b619a07ef6e231b55d53d9faa1cd2c60b23ad5e099c59baec7849abd9c6c069488bba738aff1827d41f2ee20fad14ac0f021e439f01cfa"
+RPM_NAME = "kpartloader-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "f2fdb9a43d60b67fbae4d373cde5461a54eb759ee9d92e5bb8bf0f890476847c097cdf103e52cd284b649de4aee776afa1749d21ec729a38efc7d9878396a27b"
 
 RPROVIDES:${PN} += "kpartloader"
 

@@ -3,10 +3,10 @@ DESCRIPTION = "libxmp is a module player library which supports many module form
 including Protacker MOD, ScreamTracker S3M and ImpulseTracker IT."
 LICENSE = "LGPL-2.1-only"
 
-PV = "4.5.0+g613.8e4a5e15"
+PV = "4.6.0"
 
-RPM_NAME = "libxmp4-4.5.0+g613.8e4a5e15-1.4.aarch64.rpm"
-RPM_HASH = "090ab7b599668c5c1ea737e77f5c6cdbcfadb61d8044d75085ceeccac894aec2e80f1e9da319d65cb6008d2e7f787accc5edd8793c377826c1ee3ac5232b299f"
+RPM_NAME = "libxmp4-4.6.0-1.1.aarch64.rpm"
+RPM_HASH = "54189e7596e092de9d93d03d36839975449ea96e88c8aaaf6cd7eeb6f6afab1b2a0a14709c937eca2d99f70d53a254d47320eb7c5b9ff47089affe804242640d"
 
 RPROVIDES:${PN} += "libxmp.so.4 \
 libxmp4"

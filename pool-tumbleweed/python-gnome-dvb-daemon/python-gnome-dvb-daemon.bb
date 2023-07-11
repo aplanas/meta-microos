@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.2.90"
 
-RPM_NAME = "python-gnome-dvb-daemon-0.2.90-4.10.aarch64.rpm"
-RPM_HASH = "b876e6b72a0e5b49440b96c2175f4a0b2dcacd210df44200790c2dd0eea7228cb1e64154f09ac2e0b755552ae03402c8e4201fbc835a0b9ef018bcca2262fd71"
+RPM_NAME = "python-gnome-dvb-daemon-0.2.90-4.11.aarch64.rpm"
+RPM_HASH = "7579bbdc982868f4e9ea805c2554bb91bdd451bd0d51ef9e88f5426cdd37f33028f401955a8216a96191c5d5fc1f7eebd8dacc936dc19b5a8c6a7b4ea9611980"
 
 RPROVIDES:${PN} += "python-gnome-dvb-daemon \
 python-gnomedvb"

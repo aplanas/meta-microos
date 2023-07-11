@@ -6,11 +6,10 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.6.0"
 
-RPM_NAME = "python310-pylibacl-0.6.0-1.8.aarch64.rpm"
-RPM_HASH = "72b1ed97016c294442df5d8da4659f08ccf70fe5bb16b0479dc7a94473f711ded3dec6caf71681fb1655464ba3594e8e00652d216f2763e53fbfa04acad66e5d"
+RPM_NAME = "python310-pylibacl-0.6.0-1.10.aarch64.rpm"
+RPM_HASH = "7e5450a6ed6910ee7039e22e246fd18d1a8f2d297ffe31acc55ec6e5e35c2b1c5b4d686b9d9b702abf0da8733902dab034648be50ac400c68dc1d5d49a2bd48a"
 
-RPROVIDES:${PN} += "python3-pylibacl \
-python3.10dist-pylibacl \
+RPROVIDES:${PN} += "python3.10dist-pylibacl \
 python310-pylibacl \
 python3dist-pylibacl"
 

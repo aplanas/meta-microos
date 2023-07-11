@@ -4,8 +4,8 @@ LICENSE = "CC-BY-SA-3.0 & GPL-2.0-only"
 
 PV = "4.18.0+git0.9a2f754"
 
-RPM_NAME = "libgarcon-branding-openSUSE-4.18.0+git0.9a2f754-1.5.noarch.rpm"
-RPM_HASH = "1429ad2e7ddeed51a1f4776bf9e62ea7207184c801564ca5ce45c98219c3e105ef2429973e3df700988dda6dffdbd647927131b7c8ee09dc901ff4ef46b1d169"
+RPM_NAME = "libgarcon-branding-openSUSE-4.18.0+git0.9a2f754-1.6.noarch.rpm"
+RPM_HASH = "d6ee99a50e76e5f5aeeb22141b6dd5d9daceab2be6aa449da88c24fbcdf4f0870a7db249bd7971eaf920f387019bce66c03f5d42fca32f38ff00e955d72aeae5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-libgarcon-branding-openSUSE \

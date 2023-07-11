@@ -12,13 +12,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.11"
 
-RPM_NAME = "perl-Algorithm-C3-0.11-1.11.noarch.rpm"
-RPM_HASH = "1cb26b229a14460377d853853058b2ec96fdb108b629fb0b5cce1a4e12c0d96ac3ebde130e5010d96f8953794ec51927101347b782f9c5b1e0f18f24ff7bdbe8"
+RPM_NAME = "perl-Algorithm-C3-0.11-1.12.noarch.rpm"
+RPM_HASH = "358d6be666126d84a45a343d45f6264ddad5e06637e4ddf9fe2e516a89e9047b83a2aa35aa6a6789ccc71b0dd25eff260d78bab7602671502111f7da1124e314"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Algorithm--C3 \
 perl-Algorithm-C3"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

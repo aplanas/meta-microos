@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.6.2"
 
-RPM_NAME = "coturn-utils-4.6.2-1.1.aarch64.rpm"
-RPM_HASH = "4806d376b81370c13ff716f2531c6fc05c18700564d89ecd65dd443aa5c3d81e657e341dcb09fefabea4ff26976afb2cd5c4840c8b4c0c63f960f7199a0188f4"
+RPM_NAME = "coturn-utils-4.6.2-1.3.aarch64.rpm"
+RPM_HASH = "917e32204ef5f9f3e00cab5ebc8b256b7fce829247c5d7582553caa95505fadc965e41dabe07551c9ea693209d3e34f139131b7844d7045e5cbb0c729c5cecba"
 
 RPROVIDES:${PN} += "coturn-utils"
 

@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.10"
 
-RPM_NAME = "complexity-1.10-5.6.aarch64.rpm"
-RPM_HASH = "9831c04677b3cb94bcaabbf86061964c559b00409735be9c8b48c7eddb8c2753b55a3f1fbdbfe01346b6d96691966957ac3119b565b1b47baffaf562c1cf99ac"
+RPM_NAME = "complexity-1.10-5.7.aarch64.rpm"
+RPM_HASH = "05db0d883206c8cce04b28df1f24198bc5355939d3126cbdf2ea33299c55e1a6ef1e5ee158b90d22462cf1b3991d4b9851b8ac5a4433a0f8240065e15012fa7c"
 
 RPROVIDES:${PN} += "complexity"
 

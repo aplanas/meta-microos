@@ -4,10 +4,10 @@ supposed to comply with the rules indicated by the Lia \
 Rumantscha (Romansh language society)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn58652"
+PV = "2023.208.svn58652"
 
-RPM_NAME = "texlive-hyphen-romansh-2023.201.svn58652-52.1.noarch.rpm"
-RPM_HASH = "3f22482c089dd474c7ac7206e294f114e150d5caaa1e4ede1864d1695a82d68324839d98a24ee9cce3515c938f6f1430e533139c3308c8a10978a8c9a376d2de"
+RPM_NAME = "texlive-hyphen-romansh-2023.208.svn58652-53.1.noarch.rpm"
+RPM_HASH = "cf49b4d654e4de89824a9d6972a4a2dd26a472138b50cec7db5dc01512eadf0611c1e7ce3b117fdd3ba53ca2775f0f890c83b65f5af84d4368fedaa56849111b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-quote-rm.tex \

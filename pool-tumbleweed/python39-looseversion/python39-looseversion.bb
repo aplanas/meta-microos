@@ -8,8 +8,8 @@ LICENSE = "PSF-2.0"
 
 PV = "1.1.2"
 
-RPM_NAME = "python39-looseversion-1.1.2-1.2.noarch.rpm"
-RPM_HASH = "5e4e893dbf5ca6e02ab4696d76c03d046b55ea132a71faa89487e839bbf252ea4fa07292cedcc9e9f4ab435772068fb918a1e7ccc2be5aa76a03121705f15b72"
+RPM_NAME = "python39-looseversion-1.1.2-1.4.noarch.rpm"
+RPM_HASH = "978ef0e04d9707eb5285041572d9f820485c6be18251c2d31b122b91b8f6f71816704f8e5e0c2a002db22682e3a4571fd9298effd43070948dfa7b5502188425"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-looseversion \

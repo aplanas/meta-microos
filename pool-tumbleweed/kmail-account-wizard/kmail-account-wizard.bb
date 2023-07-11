@@ -2,10 +2,10 @@ SUMMARY = "Account wizard for KMail"
 DESCRIPTION = "An application which assists you with the configuration of accounts in KMail."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kmail-account-wizard-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "8a8c11fcf952b506526cc78353c6c90f04153735d3303e891b282efb7c0a06a15a023c2d4cdd9b7948e01709576075237bbbfddfc41560e6774025b164eee3ce"
+RPM_NAME = "kmail-account-wizard-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "ac60bd9c697a79531a4f75c34fb861eb49444b5604ee083b6caa52ad9e152564ab0871235001c2e3a4c915c953569eb3f7d05fb2e5b8c86ea002cc887c20c96f"
 
 RPROVIDES:${PN} += "kmail-account-wizard"
 

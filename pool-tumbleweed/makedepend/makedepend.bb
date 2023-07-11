@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "1.0.8"
 
-RPM_NAME = "makedepend-1.0.8-2.3.aarch64.rpm"
-RPM_HASH = "d639d1fba75616055a499ac61174ce22822c328906c74d16b7a752b66245084be4aa9843eaaebb6e3d3e7bea4d721fc61097fa3aa55e64e2d38ad4b388adaab1"
+RPM_NAME = "makedepend-1.0.8-2.4.aarch64.rpm"
+RPM_HASH = "1ffc3bd70a1d3df8bd8c0cd6646b004abe3fd909358777439e81b735d4f61b0babe9a822409d4f0e0a60a8874da5a3f017da475a24e8b4482d3a15069440ab6d"
 
 RPROVIDES:${PN} += "makedepend"
 

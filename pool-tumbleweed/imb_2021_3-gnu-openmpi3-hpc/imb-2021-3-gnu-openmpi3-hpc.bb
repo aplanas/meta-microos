@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2021.3"
 
-RPM_NAME = "imb_2021_3-gnu-openmpi3-hpc-2021.3-1.2.aarch64.rpm"
-RPM_HASH = "ce3be2b589654799bc675a70cfc698acd8bb15f9abd029d58449782824b223a3119c71863dfe970d845c71ced4d7d84cdc9b4c067ac9a367fa56726b1d986b05"
+RPM_NAME = "imb_2021_3-gnu-openmpi3-hpc-2021.3-1.3.aarch64.rpm"
+RPM_HASH = "926bbdce87a4d761cfb6cb5485ac9bd6ee24069223b20b151234aa2486f5cc26a8cc5f1ae7e61f0323aff7e98acf8b927372d583f106985a171f6b024dfea324"
 
 RPROVIDES:${PN} += "imb-2021-3-gnu-openmpi3-hpc"
 

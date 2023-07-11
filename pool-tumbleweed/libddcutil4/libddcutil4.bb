@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4.1"
 
-RPM_NAME = "libddcutil4-1.4.1-2.1.aarch64.rpm"
-RPM_HASH = "7fe1de40d3ae404668e40cd06e23af0071464d6241b3d04845cc525338e4415d5b5333b8154cd70cae6324541a17e6d9268f2a482fd169bb19d283fa1eb172ce"
+RPM_NAME = "libddcutil4-1.4.1-2.2.aarch64.rpm"
+RPM_HASH = "6baf4476420fd967e8d0630ab6598639ff70f6845791ad9beb8aae30986db1f3a6c14552937d1350ed157d13d1466e42ee4b7644f50af8bb67f5cac2f651f6b7"
 
 RPROVIDES:${PN} += "libddcutil.so.4 \
 libddcutil4"

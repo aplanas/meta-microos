@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only & MIT"
 
 PV = "5.12.0.134.g4cebbfc"
 
-RPM_NAME = "collectd-plugin-dbi-5.12.0.134.g4cebbfc-1.4.aarch64.rpm"
-RPM_HASH = "f64c5c85de1952b45a783a98f12850f74f8083ba11fd4dd80d03644287c8c30864d1d3aeb6a7283ea5899ce925eae2f68b28e64f299ba252412a00db18736107"
+RPM_NAME = "collectd-plugin-dbi-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
+RPM_HASH = "b2df1dabfcfad97fe831008da8138a56b435d2d4b3baf717e32fe1c603d9d2ec587e32efce6df57f81f44400d7adb4fa5bef8c1dd44bca6263eece28f3aa145a"
 
 RPROVIDES:${PN} += "collectd-plugin-dbi"
 

@@ -12,8 +12,8 @@ LICENSE = "Apache-1.1 & Zlib"
 
 PV = "6.7"
 
-RPM_NAME = "skinlf-javadoc-6.7-9.2.noarch.rpm"
-RPM_HASH = "310bb7e5ab2370f4d48fed4c18671c65b205b4c9469fead460e2b9799b3f2b830ef02b3e1049100135dd3609c03d15d5531e10cac8e4f6417c1e27772be28b4a"
+RPM_NAME = "skinlf-javadoc-6.7-9.3.noarch.rpm"
+RPM_HASH = "30ccb4952ebbd43931332c90e8a3d820ab6ff3f9c9b1600c1e377c343203e7b842700fa7e2b695280b7cef005a8bb31e3422cf769b922d81686ae8cfcf19c431"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "skinlf-javadoc"

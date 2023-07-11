@@ -12,13 +12,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.28"
 
-RPM_NAME = "hledger-1.28-2.5.aarch64.rpm"
-RPM_HASH = "504466a5508988ab5ab1598dd4bc1c76dbe938984f3381ac3f39c6b68cd3ec187704ebe1ce07d4fbb76ad33e79ab11777e5ce90f91d0729397dddd147ae26ab8"
+RPM_NAME = "hledger-1.28-2.8.aarch64.rpm"
+RPM_HASH = "4bb93cfc72063b2780a20156b0a78d97817227daf287506f0c6a11e3d4447980927a710ed911c6a90cb5e86d1d99179160aa87b11ad7f22492ca16930e22f7b7"
 
 RPROVIDES:${PN} += "hledger"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libatomic.so.1 \
 libc.so.6 \
 libffi.so.8 \
 libgmp.so.10 \

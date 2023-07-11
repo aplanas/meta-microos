@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.1"
 
-RPM_NAME = "verdict-devel-1.4.1-1.3.aarch64.rpm"
-RPM_HASH = "88b8fca37930d19c570febe64734d61ec9a40ed132fd006c4d02e170796df0f8ca3b4b83391db00fced6ad51fbc70c7ef0973d075c921670b787d679c6ead76b"
+RPM_NAME = "verdict-devel-1.4.1-1.4.aarch64.rpm"
+RPM_HASH = "1967c081395df585c162e7153716bd1b10c4c603adb3c955d50852bc69b006035cf35dc3bb7723e29477d2585bef785f01ea696a014a8d6da450244d41976804"
 
 RPROVIDES:${PN} += "cmake-Verdict \
 verdict-devel"

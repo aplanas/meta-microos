@@ -5,8 +5,8 @@ LICENSE = "GFDL-1.3-only & GPL-3.0-or-later"
 
 PV = "2.40"
 
-RPM_NAME = "libctf-nobfd0-2.40-5.1.aarch64.rpm"
-RPM_HASH = "b10cdc7f2805d295edaf2d26c7e52768ed19e51f4cd6379dab0564e702b9f230e16f2806c1df8755bc103000d7811c6cbbd8d6013a561427551451ccb584d2f3"
+RPM_NAME = "libctf-nobfd0-2.40-5.3.aarch64.rpm"
+RPM_HASH = "0bd6a8053682ec6f351d3b6a588053c2932d0e3a605aef3586e5877cc67f1f24b18c5dca0de81504b08e808802ab7f156e67bedfa72b28a9cbeaf80111ccbfe5"
 
 RPROVIDES:${PN} += "libctf-nobfd.so.0 \
 libctf-nobfd0"

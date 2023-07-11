@@ -8,10 +8,10 @@ that statsmodels fully meets their needs for statistical computing \
 and data analysis in Python."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.13.5"
+PV = "0.14.0"
 
-RPM_NAME = "python39-statsmodels-0.13.5-2.5.aarch64.rpm"
-RPM_HASH = "ae450f688a27cc72596f35f845ffff799d1ffde110273e7900b479d185ad96627287c120cb0f9026163e697809ed46ca02d27cc66f4e804223933b1fbcbaf601"
+RPM_NAME = "python39-statsmodels-0.14.0-1.1.aarch64.rpm"
+RPM_HASH = "ff357abd6ac797897a573e1ea0a184d25e190c3bd6646e1d6bedb8ad528fdd7987b29396b2baede09bbe7b4bffb7ed0667fd980e81afd3d2a253606711bc3cb9"
 
 RPROVIDES:${PN} += "python3.9dist-statsmodels \
 python39-statsmodels \
@@ -21,6 +21,7 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 python-abi \
 python39-numpy \
+python39-packaging \
 python39-pandas \
 python39-patsy \
 python39-scipy"

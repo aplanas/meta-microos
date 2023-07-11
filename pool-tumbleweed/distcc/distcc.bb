@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.4"
 
-RPM_NAME = "distcc-3.4-5.4.aarch64.rpm"
-RPM_HASH = "da1a7389976739e19b23a76f1c1db2765fa2a0b78036dabbcc54007a654b4d3bc513cc61daf682fb1f4a8f19a20bc3ae8711fd156290d9c08e3dd3fe58361c99"
+RPM_NAME = "distcc-3.4-5.5.aarch64.rpm"
+RPM_HASH = "4cae9a22bb6d7061d26fd3f039664a7807759d1d4b51f1afbc97777dae9fef0bbfbb74c5a823bfeaa4580b1212d1b0abea171d8bda8477e147d6316e6d826376"
 
 RPROVIDES:${PN} += "config-distcc \
 distcc"

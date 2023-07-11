@@ -4,8 +4,8 @@ LICENSE = "X11"
 
 PV = "0.9.19"
 
-RPM_NAME = "xorgxrdp-0.9.19-1.2.aarch64.rpm"
-RPM_HASH = "a4988778d252032b886590adcd38b7d6efa5beccbf3790a2fe92ffbefa780137088c4598761bb5b70ed9b401b9161ca55f3d8b9d57c2b6e428c0e4059dd31def"
+RPM_NAME = "xorgxrdp-0.9.19-1.3.aarch64.rpm"
+RPM_HASH = "f5121f9a446082a6040fb719ee724a4c5104c93a794dbd1cdd2b353ae67947e5108ee25b5f6e685ac20763e2a0af3ec0d19b8017168cf369b5738118a1f58240"
 
 RPROVIDES:${PN} += "config-xorgxrdp \
 libxorgxrdp.so \

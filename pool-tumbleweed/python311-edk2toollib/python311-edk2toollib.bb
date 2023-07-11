@@ -4,11 +4,12 @@ LICENSE = "BSD-2-Clause-Patent"
 
 PV = "0.10.13"
 
-RPM_NAME = "python311-edk2toollib-0.10.13-1.3.noarch.rpm"
-RPM_HASH = "011b1c297fc640e00d13a597b98f658dc4d9814beae74e13b897923a8db86ccde807a16acc7920cc3da5d8767ed76ea9864aa4d9506556f1ead099bd0dc2e8c8"
+RPM_NAME = "python311-edk2toollib-0.10.13-1.5.noarch.rpm"
+RPM_HASH = "00497340132f9ec340f3eed35f3e02296ddf6925b16c284412618fc55450e75f7d5807c2bdff9a1c2ccbbf230fe03d4509a2ce9be0742b5568a5ea78fe428813"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-edk2-pytool-library \
+RPROVIDES:${PN} += "python3-edk2toollib \
+python3.11dist-edk2-pytool-library \
 python311-edk2toollib \
 python3dist-edk2-pytool-library"
 

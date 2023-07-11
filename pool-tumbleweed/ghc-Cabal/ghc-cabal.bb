@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.8.1.0"
 
-RPM_NAME = "ghc-Cabal-3.8.1.0-3.1.aarch64.rpm"
-RPM_HASH = "375f168445c95715edac7c1f8d2b80cf0730a3789179944bd952973948095bc85b094be778773d6236ca026d341375250c55c29d5d1bc291c16a1e8ce0ddcccf"
+RPM_NAME = "ghc-Cabal-3.8.1.0-3.2.aarch64.rpm"
+RPM_HASH = "a845ca92ca99cd6aa46fc87fb0af68f0413eb21237fd3166f94402d729a3cab659bbaa4a9210d11d6d0860d17d2c96dd81af6da91ed80475d9bd2e0a353d66e9"
 
 RPROVIDES:${PN} += "ghc-Cabal \
 libHSCabal-3.8.1.0-ghc9.4.5.so"

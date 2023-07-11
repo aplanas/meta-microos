@@ -2,10 +2,10 @@ SUMMARY = "Zsh Completion for rclone"
 DESCRIPTION = "Zsh command line completion support for rclone."
 LICENSE = "MIT"
 
-PV = "1.62.2"
+PV = "1.63.0"
 
-RPM_NAME = "rclone-zsh-completion-1.62.2-2.2.noarch.rpm"
-RPM_HASH = "a61c9f3ce722ded726fd5ad03ba78c429f6146847ed5b6fbdccce13f83f707023d77abd53d84db7824d3c3def959be81930240a026be20c973d3ea97c1143091"
+RPM_NAME = "rclone-zsh-completion-1.63.0-1.1.noarch.rpm"
+RPM_HASH = "07245e7be977ac9ab96b77a920744b655498fa45435bf640e7aded399892e8b51b8bfc162a4b17539f9bddda324cdb072ab7f11e1e3cf26c832749d042002d52"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rclone-zsh-completion"

@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.1.3"
 
-RPM_NAME = "log4cpp-doc-1.1.3-2.19.noarch.rpm"
-RPM_HASH = "acc9f3e3ec331a89fd05d6f6043f5ac97570f6e1da6fb19eb91cf45dffdb5c0fa031311820b9c6f44c758c4472b693221e7457b9d647076fbe6ae5bee2d40f1a"
+RPM_NAME = "log4cpp-doc-1.1.3-2.20.noarch.rpm"
+RPM_HASH = "cf8410f4451c6a12ec302ea48807fdafd825b5f614db1d7e3735a6d385cfdd2c011953cce8af6277bf05c0f7ff2a02f8749599e5ffd1c304391a52dff6437d0d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "log4cpp-doc"

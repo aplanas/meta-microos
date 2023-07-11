@@ -7,13 +7,11 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "19.0.1"
 
-RPM_NAME = "python310-irc-19.0.1-1.8.noarch.rpm"
-RPM_HASH = "51f5d9c95f4407a1335d304b24c00b9aa86f6e398ed18e34133bb43c9a1ca6476eaddcdd6bffca3fe5dbc79b3e236537a4d8301a1d7d5ede5bfafec3e3816a56"
+RPM_NAME = "python310-irc-19.0.1-1.10.noarch.rpm"
+RPM_HASH = "124cd154919ffc2c0ea2cff83e96a3d93053e918716cc42d44441059378e51d4e2a5b5226e78be81cd55746699be6b1012114e00158be483f0e9282498fa3636"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-irc \
-python3-irclib \
-python3.10dist-irc \
+RPROVIDES:${PN} += "python3.10dist-irc \
 python310-irc \
 python310-irclib \
 python3dist-irc"

@@ -10,19 +10,19 @@ To avoid unexpected results you should make sure yapf and autopep8 are not insta
 - python-lsp-black will use your project's pyproject.toml if it has one."
 LICENSE = "MIT"
 
-PV = "1.2.1"
+PV = "1.3.0"
 
-RPM_NAME = "python311-python-lsp-black-1.2.1-1.4.noarch.rpm"
-RPM_HASH = "cc261a646a6e595415ddcbf8a09bf2ad8103babfdc5a27546eaeac797b47cd8e5a090d79789faa682195e27162399c1eec9abb7518afe6bbb4abbfcc9791c84d"
+RPM_NAME = "python311-python-lsp-black-1.3.0-1.1.noarch.rpm"
+RPM_HASH = "9c18f449feaf1b7e3834946b7519a90adecf10343506e7ebbf4fd138e0b80cdbd401e7ae3294aee53b842c97794dc0eac73a10debde7d24009d4a6fe3eba2f72"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-python-lsp-black \
+RPROVIDES:${PN} += "python3-python-lsp-black \
+python3.11dist-python-lsp-black \
 python311-python-lsp-black \
 python3dist-python-lsp-black"
 
 RDEPENDS:${PN} += "python-abi \
 python311-black \
-python311-python-lsp-server \
-python311-toml"
+python311-python-lsp-server"
 
 inherit rpm

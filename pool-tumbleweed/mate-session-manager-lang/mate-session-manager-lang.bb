@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.26.1"
 
-RPM_NAME = "mate-session-manager-lang-1.26.1-1.1.noarch.rpm"
-RPM_HASH = "293238f21348e4109b894d729edccc96547c09fb3de0650f76b0c1e6c3f1c81ed39fba83f1fa2107b1cbf4861fb2e906bdb4648bd392b37e7d2b224b18b7c796"
+RPM_NAME = "mate-session-manager-lang-1.26.1-2.1.noarch.rpm"
+RPM_HASH = "e0890d88a00f03057cf6a8e5c2ba15c1564e8f09ca077a1168de35165b5a9d6e2cdf47b3f7873043636e8f8a2dfa2e441ff95adb2936ba29984bd588fc81c41d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mate-session-manager-af \

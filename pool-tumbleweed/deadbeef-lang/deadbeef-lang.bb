@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-or-later & Zlib & LGPL-2.1-or-later"
 
 PV = "1.9.5"
 
-RPM_NAME = "deadbeef-lang-1.9.5-2.1.noarch.rpm"
-RPM_HASH = "7d2f5f8f8d5d5b48a3cfd8811ab10cd11fda961dc7a46f4a83720bc863daa310efd06114229741245fe6d1069408d169c8c71450e0c7475ab8eab48dd6404bbc"
+RPM_NAME = "deadbeef-lang-1.9.5-2.2.noarch.rpm"
+RPM_HASH = "e1c4205beb8addc85f6540b33fdd6ebada7853a9956504da6e7d0b99de3c61a08c6cf1208e944bbfae56ba3b0a19249ddb4b048a67f573759d98ab615c965afc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deadbeef-lang \

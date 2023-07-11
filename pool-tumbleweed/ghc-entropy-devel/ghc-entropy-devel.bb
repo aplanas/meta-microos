@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.1.10"
 
-RPM_NAME = "ghc-entropy-devel-0.4.1.10-3.2.aarch64.rpm"
-RPM_HASH = "88ce23004c9341cbbd916c194a28934e3753ca9b086653268e5a9fbc8323ff5d97a4ded700e40bef70179f631048b6584bd05fc219c2a71f93a7039c4dcacc2e"
+RPM_NAME = "ghc-entropy-devel-0.4.1.10-3.3.aarch64.rpm"
+RPM_HASH = "e97c9ab64378ca8faf70f0677e8c931a828d3b23cf4b582843cb98ea3ac780fcd19438973a31de4912ed1b243a09082444530c001e5bc14289a88f5b67add674"
 
 RPROVIDES:${PN} += "ghc-devel-entropy-0.4.1.10-HkaMHQZP8nyRj15panvtP \
 ghc-entropy-devel"

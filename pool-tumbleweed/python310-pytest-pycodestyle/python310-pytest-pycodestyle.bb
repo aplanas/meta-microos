@@ -4,13 +4,11 @@ LICENSE = "MIT"
 
 PV = "2.3.1"
 
-RPM_NAME = "python310-pytest-pycodestyle-2.3.1-1.3.noarch.rpm"
-RPM_HASH = "5a796bb49e6cc93334e58d6e3cc429d9f1172bd32cc3de0a7bcae5bd890b3cd5c76244eb725085a09e52589997ecfdb504bd058d7b876be1f339103af3ff4194"
+RPM_NAME = "python310-pytest-pycodestyle-2.3.1-1.5.noarch.rpm"
+RPM_HASH = "48e323cdd2cf1d760d4ce7e9d1022afd081d3087737117b7786a50de41a5d541bf86ed99146209cc048b5d48a3169529c0d38b71f905b86197522a6c9cf70d90"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pytest-codestyle \
-python3-pytest-pycodestyle \
-python3.10dist-pytest-pycodestyle \
+RPROVIDES:${PN} += "python3.10dist-pytest-pycodestyle \
 python310-pytest-codestyle \
 python310-pytest-pycodestyle \
 python3dist-pytest-pycodestyle"

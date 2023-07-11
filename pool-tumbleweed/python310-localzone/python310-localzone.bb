@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.9.8"
 
-RPM_NAME = "python310-localzone-0.9.8-1.3.noarch.rpm"
-RPM_HASH = "b88c072988ca495e02f09b07361c74e9011139a6d1506e6d6f4d29d702054bcb4d11239e573ac84729d081fb5367ec11f80b6bc31908678a4059e21d628c07e9"
+RPM_NAME = "python310-localzone-0.9.8-2.1.noarch.rpm"
+RPM_HASH = "065aa959051859522c81113f97148921e1a18b5dfb00b58afe58ed19c75816a4ace2e6790d445354905b50023c9fffbd819348a65bd359007d3bafe45b201ca0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-localzone \
-python3.10dist-localzone \
+RPROVIDES:${PN} += "python3.10dist-localzone \
 python310-localzone \
 python3dist-localzone"
 

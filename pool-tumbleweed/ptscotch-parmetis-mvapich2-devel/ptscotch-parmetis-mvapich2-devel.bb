@@ -5,8 +5,8 @@ LICENSE = "CECILL-C"
 
 PV = "6.1.0"
 
-RPM_NAME = "ptscotch-parmetis-mvapich2-devel-6.1.0-2.9.aarch64.rpm"
-RPM_HASH = "c58d1d0ac3e8e8995031f84ec22547d7e9df04c13d2574f3bb59a7b115aeffaa41b172b72a7b01f49646c38c92999897a6c9ac7e1b093f6f6b67c51c1099e557"
+RPM_NAME = "ptscotch-parmetis-mvapich2-devel-6.1.0-2.10.aarch64.rpm"
+RPM_HASH = "ecdde9cc5891a1b5811ec0a3de7261f4ffcb9d2990292b4a8cea1f77bf9c5005089443d428b3d6284b929cc28124de0ff8993aa685345e216af4268618807733"
 
 RPROVIDES:${PN} += "ptscotch-parmetis-mvapich2-devel"
 

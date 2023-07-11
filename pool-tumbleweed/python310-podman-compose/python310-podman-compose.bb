@@ -13,12 +13,11 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.0.6"
 
-RPM_NAME = "python310-podman-compose-1.0.6-2.1.noarch.rpm"
-RPM_HASH = "a952f97bce5951842f800c676eae81937247ce11ba1c6c20f8cbd5c355ef82070c1e7f01849b5d1bf592de45ec48671133c5b651d736d99c6c84af9fa6a5f9d7"
+RPM_NAME = "python310-podman-compose-1.0.6-2.3.noarch.rpm"
+RPM_HASH = "d836f089104185b9276bac9201e898e4fd42dccc5fc513d28d77b352a346e3aab2d1e55f32e66ceaeb747ab960c72dcd9613ed3fc242277a012af58e9588223d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "podman-compose \
-python3-podman-compose \
 python3.10dist-podman-compose \
 python310-podman-compose \
 python3dist-podman-compose"

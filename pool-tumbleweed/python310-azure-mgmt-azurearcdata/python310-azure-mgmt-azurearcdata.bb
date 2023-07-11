@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python310-azure-mgmt-azurearcdata-1.0.0-1.3.noarch.rpm"
-RPM_HASH = "46aa34152fc7d69d9e22bb23e4f6826ae106d356d7776972d5bbf53489581e47ade1fe91564269019176930010fd104dca64550bd75477cdd9e20946b5b6f0df"
+RPM_NAME = "python310-azure-mgmt-azurearcdata-1.0.0-1.4.noarch.rpm"
+RPM_HASH = "6e1a4f88473a0dac4d5c15b5dcec629da09f2df2796b736b6059ec0541f5503e5f3adc3bd32ee9c708cfaba8ab3dd519116c92b071ce0d6ee9b83d34cef76013"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-azurearcdata \
-python3.10dist-azure-mgmt-azurearcdata \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-azurearcdata \
 python310-azure-mgmt-azurearcdata \
 python3dist-azure-mgmt-azurearcdata"
 

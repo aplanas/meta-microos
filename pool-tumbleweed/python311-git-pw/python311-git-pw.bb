@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "2.4.0"
 
-RPM_NAME = "python311-git-pw-2.4.0-2.2.noarch.rpm"
-RPM_HASH = "6cfddc60825af4060d1f25135bf488d76675a6de372725aa562b9af3db80d8438aed028da139466d2b306b843f21c1cae220a8494c90d48318a6542a88591dac"
+RPM_NAME = "python311-git-pw-2.4.0-2.4.noarch.rpm"
+RPM_HASH = "e278a9eecefddb8c0207005b9bc1bd804c419982e89c65fdf6a838e0aa502bf793ce88f2d7a65de5d7cc566d1ca469febadeeebda15a33635911a8cfdab4e26b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "git-pw \
+python3-git-pw \
 python3.11dist-git-pw \
 python311-git-pw \
 python3dist-git-pw"

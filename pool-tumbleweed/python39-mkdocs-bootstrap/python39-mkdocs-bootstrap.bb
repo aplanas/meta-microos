@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.1"
 
-RPM_NAME = "python39-mkdocs-bootstrap-1.1-1.8.noarch.rpm"
-RPM_HASH = "39994c9b06642df8b610333999b90c63533dc12cbbbb2a1fd56d313c61a1e73a759f3e91df18df1af7a6a00244ea3329594d39e9d7d42925c2df7f0b45e8b750"
+RPM_NAME = "python39-mkdocs-bootstrap-1.1-1.10.noarch.rpm"
+RPM_HASH = "2b28d08229aefaabf5b906c4389dbff96d7dd863d5d6e4008c8d203e0d7657090bc8ed474e29104b205b47d3f958a0dfab487a2ff838d02b2dd888e10af0ef4c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-mkdocs-bootstrap \

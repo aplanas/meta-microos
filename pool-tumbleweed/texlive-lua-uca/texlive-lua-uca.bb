@@ -7,10 +7,10 @@ dependent way, like indexing processors, bibliographic \
 generators, etc."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1bsvn61023"
+PV = "2023.208.0.0.1bsvn61023"
 
-RPM_NAME = "texlive-lua-uca-2023.201.0.0.1bsvn61023-52.1.noarch.rpm"
-RPM_HASH = "06e4231aec2183d2e143db5ddbdc2edee86197a0178e71331b891b2df8f4081d87409069fc2f01458ee89b9f8b29d6544f90cd20a9a5f20fef04563cce029145"
+RPM_NAME = "texlive-lua-uca-2023.208.0.0.1bsvn61023-53.1.noarch.rpm"
+RPM_HASH = "c9fe462eb4152f65987072b7bee80c920a93b93d3953fa510b0d36fbbb486f8fa63beecc12f8e7827f1709ae6d1da7c97326721ba7fd91e6286df856ad00a007"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lua-uca"

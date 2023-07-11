@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.13.0"
 
-RPM_NAME = "python39-azure-identity-1.13.0-1.1.noarch.rpm"
-RPM_HASH = "38a8c43d62ce21e160c707f0cf63fab5a518cdd08c7926f9834f96e0cb26e6a210782d0d901884b5c2ce6d730d89c4bdcc41f424061f987b3bb94bebbb1c484e"
+RPM_NAME = "python39-azure-identity-1.13.0-1.2.noarch.rpm"
+RPM_HASH = "d0acbb25ae73a977e81d4dc6a4f5ffd4fcaec6c27774bdd2296d25a65e9f040e7ddfbefd888d6dd2b3fbd43c6adfa4c4633b8b0a2da96ffa8e3be36a68e3d8a0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-identity \

@@ -4,10 +4,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.6.7"
 
-RPM_NAME = "ghc-x509-system-prof-1.6.7-2.3.aarch64.rpm"
-RPM_HASH = "b705adb3c31bf69cea65be671e3ecbc40ee98582abfd9e1091b33c36507a096c3ca58ac1f0faf9f914e30c66180744e7da53aee3e634ebb4874fad77f1649e84"
+RPM_NAME = "ghc-x509-system-prof-1.6.7-2.6.aarch64.rpm"
+RPM_HASH = "4e9df68dfdcb85105c87fd4b0be6e589b460209edc8a54fc6cf1b9dff97ab857619e49deffc2590a4e04ce9c59337392e4f87d067a7cdd6e80eaec8d55a5a913"
 
-RPROVIDES:${PN} += "ghc-prof-x509-system-1.6.7-BOgSBhUS7jg4riLu2Dt4H7 \
+RPROVIDES:${PN} += "ghc-prof-x509-system-1.6.7-Bno2ph8WTqq8aOWeNLot6t \
 ghc-x509-system-prof"
 
 RDEPENDS:${PN} += "ghc-prof-base-4.17.1.0 \
@@ -16,10 +16,10 @@ ghc-prof-containers-0.6.7 \
 ghc-prof-directory-1.3.7.1 \
 ghc-prof-filepath-1.4.2.2 \
 ghc-prof-mtl-2.2.2 \
-ghc-prof-pem-0.2.4-GVwv4fsQYoEEDbQiUNwxns \
+ghc-prof-pem-0.2.4-7ofxEvI1NwqKqDFtfJ1pS \
 ghc-prof-process-1.6.16.0 \
-ghc-prof-x509-1.7.7-6vFRDfbnKcXIbE0ZlEHitw \
-ghc-prof-x509-store-1.6.9-A3hCCAbvLt52rXl7zDFmSt \
+ghc-prof-x509-1.7.7-LWFKTxQvdZ8EaEcgjVF4la \
+ghc-prof-x509-store-1.6.9-KWawLwgFfWnohDCwWLuXH \
 ghc-x509-system-devel"
 
 inherit rpm

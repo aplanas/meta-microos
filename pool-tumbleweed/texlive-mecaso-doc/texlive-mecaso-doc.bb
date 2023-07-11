@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-mecaso"
 DESCRIPTION = "This package includes the documentation for texlive-mecaso"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.0svn60346"
+PV = "2023.208.1.0svn60346"
 
-RPM_NAME = "texlive-mecaso-doc-2023.201.1.0svn60346-52.1.noarch.rpm"
-RPM_HASH = "57309b3a6ea3758bf561c9ace0eb13f1631d21a83db624b3cd094577d19a752b86b9f2a678c23f8a1699ceae18d62e5e670a793bb2ccbf2c99627bed5a02b3e8"
+RPM_NAME = "texlive-mecaso-doc-2023.208.1.0svn60346-53.1.noarch.rpm"
+RPM_HASH = "3d6541908fbb0542ffeb0093a07a84a6339481391772fc727717ef09397ffd4977cb4c8dab36e84c4543f429bd46028bbbbedc9fcaa87dd33d70022062f9c8f1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-mecaso-doc-fr \

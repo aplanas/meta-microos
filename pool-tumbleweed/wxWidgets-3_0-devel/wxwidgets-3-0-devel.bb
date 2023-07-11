@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.0.5.1"
 
-RPM_NAME = "wxWidgets-3_0-devel-3.0.5.1-4.1.aarch64.rpm"
-RPM_HASH = "e359f3a3260c919a78edd6a67c525e9bce20a12d2dcf03c5716cf5e365456e71199bf9eee34da726b30189e306cb96c67fd748d546e73f3f89f07ad7c7430373"
+RPM_NAME = "wxWidgets-3_0-devel-3.0.5.1-4.2.aarch64.rpm"
+RPM_HASH = "23863941d13e16584b8b12bf428b7981980e354af6f1b8ab0816c00e7bddea9a43be926946d509e8b901120db6be47644a6b28ec3620a9d7e927d4512a646e05"
 
 RPROVIDES:${PN} += "wxGTK-devel \
 wxGTK2-devel \

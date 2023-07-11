@@ -6,11 +6,12 @@ LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
 PV = "3.14"
 
-RPM_NAME = "python311-rss2email-3.14-1.5.noarch.rpm"
-RPM_HASH = "0eaa212e3a442d557dd65770ee554c7410aec638ca318b4cdb9a0280ab89cac83cb2a921ea3670b71fed0d3d9ebab9486f1c1fb81425bef7c7952f82c279755c"
+RPM_NAME = "python311-rss2email-3.14-1.6.noarch.rpm"
+RPM_HASH = "80b348b2658f9c38f821666f17073a52a23b40cad707133b8e875789b542a0e61ffdf0043d503a41afafb49880eb2113051f85135bfed0012cef5fe4668a3682"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-rss2email \
+RPROVIDES:${PN} += "python3-rss2email \
+python3.11dist-rss2email \
 python311-rss2email \
 python3dist-rss2email"
 

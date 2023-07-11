@@ -7,8 +7,8 @@ LICENSE = "BSL-1.0"
 
 PV = "8.7.0"
 
-RPM_NAME = "libcryptopp-devel-8.7.0-1.3.aarch64.rpm"
-RPM_HASH = "500f3cb56a469456989618e2007e598fe161d3eed493a31446a7587f922ce3a5bd90471b1a03f3a0d5af50c23edaccdb520217837dca983a47a42029ad0dda17"
+RPM_NAME = "libcryptopp-devel-8.7.0-1.4.aarch64.rpm"
+RPM_HASH = "73eba3f1d3a838977da0af646c05c92112bbfa8f2a50abc15bd1d21ac64cff5ffd61c8e113566c3b5b0e6978c38d6645ca31c62cfa5fe89a0874602cc471d67d"
 
 RPROVIDES:${PN} += "libcryptopp-devel \
 pkgconfig-cryptopp"

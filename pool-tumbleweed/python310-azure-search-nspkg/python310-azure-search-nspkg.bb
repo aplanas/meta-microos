@@ -10,12 +10,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python310-azure-search-nspkg-1.0.0-3.9.noarch.rpm"
-RPM_HASH = "b3603315743ef2e6d2da91ab5b0fba6d366a28c98e8e3c4f46d933410751ad332c214d59ed8b79968ff60a4b1218c5c014947343e50d891b6906546c518e3083"
+RPM_NAME = "python310-azure-search-nspkg-1.0.0-3.10.noarch.rpm"
+RPM_HASH = "fd4d399890a59ca2f8e954377bf876dd50b4c74870c8f0f2625c705e2360acece97e2c4412358409f75025829b43f3f50e6cf3a52c18b0c25e35e212e21063d4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-search-nspkg \
-python3.10dist-azure-search-nspkg \
+RPROVIDES:${PN} += "python3.10dist-azure-search-nspkg \
 python310-azure-search-nspkg \
 python3dist-azure-search-nspkg"
 

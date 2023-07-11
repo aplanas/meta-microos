@@ -2,10 +2,10 @@ SUMMARY = "Telepathy common module"
 DESCRIPTION = "ktp-common-internals is the base library for all the KDE Telepathy packages."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "ktp-common-internals-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "d138241345179201486409bd4a898f8b20813092496c4b315f5890be5353ea1353c9de228c60f9137f973524c9645fa438b4ca41b6ea0178718bbceaaa63c86d"
+RPM_NAME = "ktp-common-internals-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "bf9f9ac67b89dbd17bae1f7a2ca8f5245a372bd2228a681910b8120c2df4a50cce972b44a4f54812c9011796fac6be5f5a964fbaf6246330862731ffce41990d"
 
 RPROVIDES:${PN} += "ktp-common-internals \
 ktp-common-internals5 \

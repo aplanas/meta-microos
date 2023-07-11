@@ -9,8 +9,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-monocle-doc-0.6.70+git.14794.g33744ae6ce-3.1.noarch.rpm"
-RPM_HASH = "91f8583a1a276cdf1c519a361fdc11565d1f815a65fdf767ae0574f4f543eef130cae79a761366b96c0b03f6f68e9ed8f82d142323f733813d7ecde44eb046f7"
+RPM_NAME = "leechcraft-monocle-doc-0.6.70+git.14794.g33744ae6ce-3.3.noarch.rpm"
+RPM_HASH = "c59ba286e1134c168285c86c4d36ed33e593331149ad16ea4ded45512ae4d54067375d9da1e6d57b6a79d9d56566171c46f662043017280079b654b8ab1e7dc2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "leechcraft-monocle-doc"

@@ -8,12 +8,12 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.5.2"
 
-RPM_NAME = "python3-inspektor-0.5.2-2.8.noarch.rpm"
-RPM_HASH = "2a97f9dddb1e0e7d7e497615c0e9a03ea2ccde17c6d4080292be050e1b73af626b03c501db736a72058273dd6574b7b1a2c1bfe2bafe49ed1fade37381790bf8"
+RPM_NAME = "python3-inspektor-0.5.2-2.9.noarch.rpm"
+RPM_HASH = "2779f3aa2e714f9f52c7781244462a8ce9af944cdf51663ca7338d3f4ef0ad3e535c5cf751b83a883456b34a6949363afe7319babb0297ebf25e5fdaf875471b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-inspektor \
-python3.10dist-inspektor \
+python3.11dist-inspektor \
 python3dist-inspektor"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

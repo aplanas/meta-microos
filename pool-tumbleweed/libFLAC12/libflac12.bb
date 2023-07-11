@@ -6,10 +6,10 @@ includes a codec implementation. \
 This package contains the C API library for FLAC."
 LICENSE = "BSD-3-Clause & GPL-2.0-or-later & GFDL-1.2-only"
 
-PV = "1.4.2"
+PV = "1.4.3"
 
-RPM_NAME = "libFLAC12-1.4.2-2.3.aarch64.rpm"
-RPM_HASH = "8675d8fa7f5537d5a2193700db568dd94133e29a8c51b1e09d9c8edfe0db8fa1aed7d369b99b6a9a38b680ea634e009ec35e6d4d8ec6dbce98a064868e424008"
+RPM_NAME = "libFLAC12-1.4.3-1.1.aarch64.rpm"
+RPM_HASH = "b4424674f31f82b59a9c21137c391b225805e1e4cf0d4a7d7fdd1f5486951cbbfb534da65bc15a813349df2a8e9fcfcd11c43ba285fcd54d8860fb91a56aa598"
 
 RPROVIDES:${PN} += "libFLAC.so.12 \
 libFLAC12 \

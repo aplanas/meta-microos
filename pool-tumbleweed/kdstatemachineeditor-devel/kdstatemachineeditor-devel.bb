@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.2.8"
 
-RPM_NAME = "kdstatemachineeditor-devel-1.2.8-2.16.aarch64.rpm"
-RPM_HASH = "f840fa9edf4808143e3be5033d6f597630bb52ffd3375ea158c5e0b7fe2b5e99382ec2e65e4579461e13142464254a6c118f00cd12300f4da9e22623fd711fa2"
+RPM_NAME = "kdstatemachineeditor-devel-1.2.8-2.18.aarch64.rpm"
+RPM_HASH = "57d1fbe48e9f54d566f7ed36a569496800a553431f8f0447329171e282c6f8791732eecee745c67b58d2172972571b7569bb45ab6c8070a6f7a20fce4b2308fc"
 
 RPROVIDES:${PN} += "cmake-KDSME \
 kdstatemachineeditor \

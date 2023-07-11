@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.6"
 
-RPM_NAME = "ocaml-augeas-0.6-1.3.aarch64.rpm"
-RPM_HASH = "33768545a597cf5268411248cda1b1328ecc215634f9947c53626766f2483e8a1dc57c58ef869cc52f971bee825ca33e80918fbd128c2b3ff2d00ffac16a0b1c"
+RPM_NAME = "ocaml-augeas-0.6-1.4.aarch64.rpm"
+RPM_HASH = "55d127b52ee407d00e2c2bf6832aa7cb0ba8c1b718a774a024e8e90fd7c0478fee7da2cd7a2c108f00989cfe18ca34263f1ed6831a50556968d960dd280481e7"
 
 RPROVIDES:${PN} += "ocaml-augeas"
 

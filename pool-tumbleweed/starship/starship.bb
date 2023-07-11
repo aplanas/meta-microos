@@ -8,10 +8,10 @@ The default setup requires Nerd Font and a terminal in dark colors. \
 dash is not supported as of 1.10.2."
 LICENSE = "ISC"
 
-PV = "1.14.2"
+PV = "1.15.0"
 
-RPM_NAME = "starship-1.14.2-1.1.aarch64.rpm"
-RPM_HASH = "e0575156a29568a1b4b89f69705b59fbfba10aaecf3e5af2436b889897f90a994dac31412aafe6ffabc54f0b9f35ed655485112fa615983f63e481d40b5c27b5"
+RPM_NAME = "starship-1.15.0-1.1.aarch64.rpm"
+RPM_HASH = "1b262020415f55eb0b97687973cf39064e8fe7ba8f4ff1f40267a071d7802beca549ac5a6147e350832d554f765e44d6c3643767cbd7644345ef08847583c479"
 
 RPROVIDES:${PN} += "bundled-rust-crate-adler \
 bundled-rust-crate-ahash \
@@ -54,6 +54,8 @@ bundled-rust-crate-colorchoice \
 bundled-rust-crate-concurrent-queue \
 bundled-rust-crate-const-format \
 bundled-rust-crate-const-format-proc-macros \
+bundled-rust-crate-const-random \
+bundled-rust-crate-const-random-macro \
 bundled-rust-crate-cpufeatures \
 bundled-rust-crate-crc32fast \
 bundled-rust-crate-crossbeam \
@@ -62,12 +64,11 @@ bundled-rust-crate-crossbeam-deque \
 bundled-rust-crate-crossbeam-epoch \
 bundled-rust-crate-crossbeam-queue \
 bundled-rust-crate-crossbeam-utils \
+bundled-rust-crate-crunchy \
 bundled-rust-crate-crypto-common \
 bundled-rust-crate-derivative \
 bundled-rust-crate-digest \
-bundled-rust-crate-dirs \
 bundled-rust-crate-dirs-next \
-bundled-rust-crate-dirs-sys \
 bundled-rust-crate-dirs-sys-next \
 bundled-rust-crate-dlv-list \
 bundled-rust-crate-dunce \
@@ -102,9 +103,11 @@ bundled-rust-crate-gix-date \
 bundled-rust-crate-gix-diff \
 bundled-rust-crate-gix-discover \
 bundled-rust-crate-gix-features \
+bundled-rust-crate-gix-fs \
 bundled-rust-crate-gix-glob \
 bundled-rust-crate-gix-hash \
 bundled-rust-crate-gix-hashtable \
+bundled-rust-crate-gix-ignore \
 bundled-rust-crate-gix-index \
 bundled-rust-crate-gix-lock \
 bundled-rust-crate-gix-mailmap \
@@ -121,6 +124,7 @@ bundled-rust-crate-gix-sec \
 bundled-rust-crate-gix-tempfile \
 bundled-rust-crate-gix-traverse \
 bundled-rust-crate-gix-url \
+bundled-rust-crate-gix-utils \
 bundled-rust-crate-gix-validate \
 bundled-rust-crate-gix-worktree \
 bundled-rust-crate-guess-host-triple \
@@ -135,10 +139,13 @@ bundled-rust-crate-indexmap \
 bundled-rust-crate-io-close \
 bundled-rust-crate-io-lifetimes \
 bundled-rust-crate-is-debug \
+bundled-rust-crate-is-docker \
 bundled-rust-crate-is-terminal \
+bundled-rust-crate-is-wsl \
 bundled-rust-crate-itertools \
 bundled-rust-crate-itoa \
 bundled-rust-crate-jwalk \
+bundled-rust-crate-kstring \
 bundled-rust-crate-lazy-static \
 bundled-rust-crate-lazycell \
 bundled-rust-crate-libc \
@@ -157,7 +164,6 @@ bundled-rust-crate-nom \
 bundled-rust-crate-notify-rust \
 bundled-rust-crate-nu-ansi-term \
 bundled-rust-crate-num-cpus \
-bundled-rust-crate-num-integer \
 bundled-rust-crate-num-threads \
 bundled-rust-crate-num-traits \
 bundled-rust-crate-once-cell \
@@ -180,6 +186,7 @@ bundled-rust-crate-pin-utils \
 bundled-rust-crate-polling \
 bundled-rust-crate-ppv-lite86 \
 bundled-rust-crate-proc-macro-crate \
+bundled-rust-crate-proc-macro-hack \
 bundled-rust-crate-proc-macro2 \
 bundled-rust-crate-process-control \
 bundled-rust-crate-prodash \
@@ -228,6 +235,7 @@ bundled-rust-crate-thiserror-impl \
 bundled-rust-crate-time \
 bundled-rust-crate-time-core \
 bundled-rust-crate-time-macros \
+bundled-rust-crate-tiny-keccak \
 bundled-rust-crate-tinyvec \
 bundled-rust-crate-tinyvec-macros \
 bundled-rust-crate-toml \
@@ -257,6 +265,7 @@ bundled-rust-crate-waker-fn \
 bundled-rust-crate-walkdir \
 bundled-rust-crate-which \
 bundled-rust-crate-winnow \
+bundled-rust-crate-xdg-home \
 bundled-rust-crate-yaml-rust \
 bundled-rust-crate-zbus \
 bundled-rust-crate-zbus-macros \

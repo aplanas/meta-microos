@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "4.3.0"
 
-RPM_NAME = "omniORB-devel-4.3.0-2.6.aarch64.rpm"
-RPM_HASH = "be550a87a4fc8be1d596f76515a513ba896c4a3d115b76ba54392dc786c6f4b14e8fe390512126c2b2b1667c70d790998acd5b7b9353591bcb502d253e978959"
+RPM_NAME = "omniORB-devel-4.3.0-2.8.aarch64.rpm"
+RPM_HASH = "4a3515590049ab8fd78eb857679be74a61c9d8e5df137e286a1e1595c75f0e35a6609eb407856afbc8e06396b3513b5e5eccb5d0a9d80577dc8a00ec80c5d99a"
 
 RPROVIDES:${PN} += "omniORB-devel \
 pkgconfig-omniCOS4 \

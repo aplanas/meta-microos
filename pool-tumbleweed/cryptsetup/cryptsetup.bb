@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.0-or-later & SUSE-GPL-2.0-with-openssl-exception"
 
 PV = "2.6.1"
 
-RPM_NAME = "cryptsetup-2.6.1-1.3.aarch64.rpm"
-RPM_HASH = "e1248fff1168e3fd15ffaa2e02b5a1dff5bedbbaef110cf272757de02b02364beb1417479440e7e0dd5ed772b819449ef1433a918ab90b9a4d00c99e1fe1f70c"
+RPM_NAME = "cryptsetup-2.6.1-2.1.aarch64.rpm"
+RPM_HASH = "aa4853c7ab6fa2674eee82b70377d5a22c38b347fe65f13fbb272d796e073599e9df5beb05c96fc3ed3d3ea2e29b062b4f1d260fdd3373b7c8e281bcd1d44e0e"
 
 RPROVIDES:${PN} += "cryptsetup \
 integritysetup \

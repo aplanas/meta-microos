@@ -6,8 +6,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "1.2.sakura.5"
 
-RPM_NAME = "oneko-1.2.sakura.5-1.8.aarch64.rpm"
-RPM_HASH = "c19f115b598343d0aa699fad43f47c481f8480a8cad2d4caa44f2980d50df3b0c54fd5ec3d18d529d7baf3c786af5f4e54a00ee641bf2972d71d9ddc371818a9"
+RPM_NAME = "oneko-1.2.sakura.5-1.9.aarch64.rpm"
+RPM_HASH = "fcc20f7861304b4d479a747d9570623feb2ce356ef753a79e6ea45f26209ec7f75138a51f3004a9a89abb070af073928c1c1741c41b971c622a09249d43d93a0"
 
 RPROVIDES:${PN} += "oneko"
 

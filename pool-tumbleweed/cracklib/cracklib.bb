@@ -5,10 +5,10 @@ stopusers from choosing passwords that are too simple.This package \
 contains a full dictionary file used by cracklib."
 LICENSE = "LGPL-2.1-only"
 
-PV = "2.9.8"
+PV = "2.9.11"
 
-RPM_NAME = "cracklib-2.9.8-1.2.aarch64.rpm"
-RPM_HASH = "19f59ee66e8721f73d2ce4ede07a367c04d4b747d2282b23242fd8a9b3a80b6bf2fe408ff3e4cc1a9a2a50fc4561d70f2fb03fbf4da11cc4a94cbcafeb68d9c2"
+RPM_NAME = "cracklib-2.9.11-1.1.aarch64.rpm"
+RPM_HASH = "e583d4394457542d7b9ad5d30782320347770f2e00e4fcb03210fe77547e74def448d9df5e3322faf96fb4e98c934feff8764b7848c74c7c1149e94cd30e07c6"
 
 RPROVIDES:${PN} += "cracklib"
 

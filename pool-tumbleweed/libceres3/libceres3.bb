@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0 & BSD-3-Clause"
 
 PV = "2.1.0"
 
-RPM_NAME = "libceres3-2.1.0-1.4.aarch64.rpm"
-RPM_HASH = "1653c068816e88152a331165d3320f10031429a48bd106ca3431efaa2e0ebf5a8d0e025fb29ffe855938adfc57fa802d7f1602878f215255d7e2ea736ff7c837"
+RPM_NAME = "libceres3-2.1.0-1.5.aarch64.rpm"
+RPM_HASH = "9da1bd70fa266ad5601ec412b2ffb1d2ed2806c535ea3918c2b6f20ae464aab21ac725df103a380caca97d19a3e87a7d69136e0cb0c6fdffae57892ee466516a"
 
 RPROVIDES:${PN} += "libceres.so.3 \
 libceres3"

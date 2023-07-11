@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.4.1"
 
-RPM_NAME = "pspp-devel-1.4.1-3.12.aarch64.rpm"
-RPM_HASH = "e5411fb7c58a5583ac5eb7a716bd8f7a852e0d216c13cc3384662ab16e35d0ab5466279405682f212084bf239f3c77477b5e5893c933ffb970693184f3ee1e18"
+RPM_NAME = "pspp-devel-1.4.1-3.14.aarch64.rpm"
+RPM_HASH = "b307f05e3f7ce781683016bca245f78b3309187bedf5f16d3f3b3e706e6fc6f97de6fe2aa7ae3fc6bd68a9f5fa58c30ed46407b2bd8c7e90395ecd891be75f23"
 
 RPROVIDES:${PN} += "pspp-devel"
 

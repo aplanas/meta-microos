@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0.13"
 
-RPM_NAME = "libEMF-utils-1.0.13-3.3.aarch64.rpm"
-RPM_HASH = "ddd5946fda8b51e3c0de3be9ef1f26172721ff4358bc8f31b6a9441db41183d7a3ab2bac8c4d9c947b8963365cb12fe68b4fed0d4632b0435fa401d909644a32"
+RPM_NAME = "libEMF-utils-1.0.13-3.4.aarch64.rpm"
+RPM_HASH = "0127898ab472ae9985528dd3254cf04c71f04a95b775c8470ec72a163542eee886002ab13fcde0034df70c510f37d9d95a543a45e08cdc95d6007ff5801e8dac"
 
 RPROVIDES:${PN} += "libEMF-/usr/bin/printemf \
 libEMF-utils"

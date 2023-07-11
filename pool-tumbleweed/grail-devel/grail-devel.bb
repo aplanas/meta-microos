@@ -6,8 +6,8 @@ LICENSE = "LGPL-3.0 & GPL-3.0"
 
 PV = "3.1.1"
 
-RPM_NAME = "grail-devel-3.1.1-1.22.aarch64.rpm"
-RPM_HASH = "aacd5c8b71128998e89b64e677edaaf1430227ec8fc538c6adc666f16ee79bf8a671029aa6b87a6491ac9be7c96309a52730a438282881979efd77339cc5d6c6"
+RPM_NAME = "grail-devel-3.1.1-1.23.aarch64.rpm"
+RPM_HASH = "ee969df3a459c21a091b2577232a6ad95f0721464518076a4190734dc5e3d3a82066514f4a3cea82a255ac5c99d3240e14df32e2b04fe86039bb6a9fe000a638"
 
 RPROVIDES:${PN} += "grail-devel \
 pkgconfig-grail"

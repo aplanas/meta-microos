@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.2.0"
 
-RPM_NAME = "kuserfeedback-devel-1.2.0-1.14.aarch64.rpm"
-RPM_HASH = "686efd97a08c801375db4890e72f0bd2f73bd56b58ca61df48b4117e3feb232972488a19e9c13ea2e5b87e6ce2602b92ea474540e2f553068d8564ea24e1de0d"
+RPM_NAME = "kuserfeedback-devel-1.2.0-1.15.aarch64.rpm"
+RPM_HASH = "546b75fcdee1227b7b6a16cf41f29f0b3561ae5595863dcaf2c7d00274e6bb9f8e065e2e88ee246c3931b767098c7082545b36a250d02995b0503ab1d47b64a4"
 
 RPROVIDES:${PN} += "cmake-KUserFeedback \
 kuserfeedback-devel"

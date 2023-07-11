@@ -11,10 +11,11 @@ LICENSE = "GPL-2.0-only | GPL-3.0-only | SUSE-SIP"
 
 PV = "13.5.1"
 
-RPM_NAME = "python311-PyQt6-sip-13.5.1-1.1.aarch64.rpm"
-RPM_HASH = "dde54b5923db621114e48abb343cabec08b4f2d8a8c4a5cb79508e5844148b2529e5f26483c49b38811586124a467f8810b5752842bd1bc8aad91dc36f4c1ce4"
+RPM_NAME = "python311-PyQt6-sip-13.5.1-2.3.aarch64.rpm"
+RPM_HASH = "5e1180ea9fba7fb4286336421d433cf6f8071cd1335e20ec16dffe1ca9db751645482d327cc1dc156a89dd103b1d8dcba82d07d746f7b11d6cb871d2adec170b"
 
-RPROVIDES:${PN} += "python3.11dist-pyqt6-sip \
+RPROVIDES:${PN} += "python3-PyQt6-sip \
+python3.11dist-pyqt6-sip \
 python311-PyQt6-sip \
 python3dist-pyqt6-sip"
 

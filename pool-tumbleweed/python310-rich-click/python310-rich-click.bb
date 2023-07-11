@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.6.1"
 
-RPM_NAME = "python310-rich-click-1.6.1-1.1.noarch.rpm"
-RPM_HASH = "42469d5a14e6226433657ef45484baa1f46717902f5af46877f171542d234ef6a19c12bc8c4381eff75930ae6318323667543148b3555e0077fa276982ca4b4e"
+RPM_NAME = "python310-rich-click-1.6.1-1.3.noarch.rpm"
+RPM_HASH = "6dd10bb6ace635962744fadf669c50b9f6d50acaef5fb681e19669b133bd94c9a8ee6927c9a73106d2406462d76e9222e8c92aa3246dd191895a39709c46a285"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-rich-click \
-python3.10dist-rich-click \
+RPROVIDES:${PN} += "python3.10dist-rich-click \
 python310-rich-click \
 python3dist-rich-click"
 

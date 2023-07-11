@@ -10,8 +10,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.10.6.0"
 
-RPM_NAME = "gnuradio-doc-3.10.6.0-4.2.noarch.rpm"
-RPM_HASH = "83b64646ba89922552914a7d4d3c22f9839f1d17efcbdfe0c158b1009a4101f1d128faad745ed3b5a75a8682d53e60898e698a8c065330cf949546bf928173fc"
+RPM_NAME = "gnuradio-doc-3.10.6.0-4.3.noarch.rpm"
+RPM_HASH = "86b1e3dc61ffe941ab93202b481b5e7d7a07d5771181951e5aa78ec080f385d7ff9ed5cbd33f4330b2fbe5bb0fc361e12440649fb5d7505a13c2c23913295ea4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnuradio-doc"

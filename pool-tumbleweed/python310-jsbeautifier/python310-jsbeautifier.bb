@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.14.7"
 
-RPM_NAME = "python310-jsbeautifier-1.14.7-1.4.noarch.rpm"
-RPM_HASH = "c4ac539f90966217a13b8f262eeb80a4cdf9491f2cdb59270a49da50f0623c12f0349e7b84e6f0d4fc4dfbac297bbb67bc8be34f73988125e65dcec7a1357355"
+RPM_NAME = "python310-jsbeautifier-1.14.7-1.6.noarch.rpm"
+RPM_HASH = "afa284adb75c23bd993755d5766ff7f74862dec59f8f7147a4c77a5562779cc1b274f9d08a4f9b87d57f09a63b6a5663569ba2aec7e78d8b1947026efc419049"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-jsbeautifier \
-python3.10dist-jsbeautifier \
+RPROVIDES:${PN} += "python3.10dist-jsbeautifier \
 python310-jsbeautifier \
 python3dist-jsbeautifier"
 

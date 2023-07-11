@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libKPim5TextEdit5"
 DESCRIPTION = "Provides translations for the 'libKPim5TextEdit5' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libKPim5TextEdit5-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "706a00ff632a74ab7ea384b7aad35d75597d8a2683346b40d12a52c4199ae9c7d5e9d9dc0e4a731ee612aaee5d6714ca8605656c87ed9fc13aa553bd3b18cf4d"
+RPM_NAME = "libKPim5TextEdit5-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "8b352b69cb10a4aa5b6ed7819840f4372b01a857b6983421ccf5f1eccea001dbd0aa9057504993b90bc9a0776204540c9309cc9295449ec1d0c1ec690d93f865"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libKPim5TextEdit5-lang \

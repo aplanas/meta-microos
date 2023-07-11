@@ -13,8 +13,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.0.9"
 
-RPM_NAME = "python39-css-parser-1.0.9-1.1.noarch.rpm"
-RPM_HASH = "1a236b39edae875cca7229d9fef1d58f96fa23af96ceca152dcf74ca9abb99fc9a7074d2aa537a3b0dc926209a9683e9f192ae7de1f7def6b2006573b8f41a9d"
+RPM_NAME = "python39-css-parser-1.0.9-1.3.noarch.rpm"
+RPM_HASH = "3c972c7a7a21ebb1fe1906a24ab32500502ac4888423e12a701ae7e0e034f4d5a59027685ac89019479467577e99246e8d0dc54f60d2447cc17d80474e0205ae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-css-parser \

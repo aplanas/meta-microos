@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.1dsvn34486"
 
-RPM_NAME = "texlive-endiagram-2023.201.0.0.1dsvn34486-53.1.noarch.rpm"
-RPM_HASH = "7e268c4721f1df853bf683580b1b88b839eacb125ad3be6d9ce0a3a5088a883e0e1098177ef689cf07eb8d360b8fc5670e1d89b37b92afa1c3816dff36421dba"
+RPM_NAME = "texlive-endiagram-2023.201.0.0.1dsvn34486-53.2.noarch.rpm"
+RPM_HASH = "ef0b4d8f8b988373466dfa068d9519fc89136fe6b305625b77eda249ab73c7b14e0eaa4ca1507a61ff0ad1f71e86218b757d7c8853a885b89ff39c94fb9c75cf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-endiagram.sty \

@@ -12,8 +12,8 @@ LICENSE = "Apache-2.0"
 
 PV = "4.7.0"
 
-RPM_NAME = "python3-ironic-inspector-client-4.7.0-1.4.noarch.rpm"
-RPM_HASH = "4155e74901649c911c81247c6a741c9abbd7688399b50a903f89a57e5e6a4661327889ff0f73d677fe722afeaf65ffd96ce6828fb723fdb27183489d50267322"
+RPM_NAME = "python3-ironic-inspector-client-4.7.0-1.5.noarch.rpm"
+RPM_HASH = "f9c7940d27e09637bbe2543db7afab1e0df0fe01bff60792c7ec77ac9975d1cd0268158d7dd757554592a590eaa03daae707bd16ce02d74734862cf800107154"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ironic-inspector-client \

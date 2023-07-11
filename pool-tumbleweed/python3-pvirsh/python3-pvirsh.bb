@@ -6,13 +6,13 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.2"
 
-RPM_NAME = "python3-pvirsh-2.2-1.2.noarch.rpm"
-RPM_HASH = "6fc47d4e5be4f614ca4a0dc3d09f95c11787f97523e7341c488c2867dfdb1541fe25baccebc66b44276da7ad637641580f0013eca485ff66c86c4fb77b210d0d"
+RPM_NAME = "python3-pvirsh-2.2-1.3.noarch.rpm"
+RPM_HASH = "cfa2af46fc677dfbc1f4a9a7738603ee71798884a2af713a3320b8b76b54907fe615e7b18279faf5ff3b5b200f8e04a5e9e842638324e2030e5382f033b514cb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-python3-pvirsh \
 python3-pvirsh \
-python3.10dist-pvirsh \
+python3.11dist-pvirsh \
 python3dist-pvirsh"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

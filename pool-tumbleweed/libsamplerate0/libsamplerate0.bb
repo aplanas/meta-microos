@@ -12,8 +12,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.2.2"
 
-RPM_NAME = "libsamplerate0-0.2.2-1.7.aarch64.rpm"
-RPM_HASH = "edc0f67eb8136b342b7da54ad491d9543f0848cc586d653c408d597fde67d39e829005aa436fbfa8f401b248c8bf47a3c7bfd93a8d6bd2f4805a21895c8f4a06"
+RPM_NAME = "libsamplerate0-0.2.2-1.8.aarch64.rpm"
+RPM_HASH = "40737ea36e2ad7d3ac3514c4048d4b3e0ee787cdc31df1b8a5ff1e375b9ddaa85a2868a2558a6dcf6c097a9af0e62eda6ee681b28b87838289b48c709d0e20f0"
 
 RPROVIDES:${PN} += "libsamplerate \
 libsamplerate.so.0 \

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.1.6"
 
-RPM_NAME = "janino-javadoc-3.1.6-1.10.noarch.rpm"
-RPM_HASH = "47919bf780df2bc7b80b775bd7528c7656dabd5b514063bb9d66f6bb4b7d7bd38caf21bff3bb5274f94becf1605aee4df4e9b7fcc21dd53b04bcea273da3af97"
+RPM_NAME = "janino-javadoc-3.1.6-1.11.noarch.rpm"
+RPM_HASH = "34231caf218941211c20147262d799c092664b5ea9a61882976bab38b35f077ec2f2cf3c3027c136b41bc7126bd0a36465eeb67773f7e12e397862770216d8fc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "janino-javadoc"

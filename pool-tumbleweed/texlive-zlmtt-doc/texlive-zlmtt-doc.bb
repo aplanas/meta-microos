@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.032svn64076"
 
-RPM_NAME = "texlive-zlmtt-doc-2023.201.1.032svn64076-52.1.noarch.rpm"
-RPM_HASH = "53dab59dfc47ed0c7278999c85e5b85dc985710f5887b66805915d0fdbf30a51dee0ffca3419a7324eb7e8fbf6089663fad179c6ac6d1f211e00741a42b640a1"
+RPM_NAME = "texlive-zlmtt-doc-2023.201.1.032svn64076-52.2.noarch.rpm"
+RPM_HASH = "5dd9bf59979c88cc1ac9774838845e1eedbed2309b443cff90af6f791c079f9abeac32a9c94bc468f0f1f64f07a52a93b8a9d4908baf8f4421c48af8b504215a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-zlmtt-doc"

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "5.15.5"
 
-RPM_NAME = "python39-qtdatavis3d-qt5-doc-5.15.5-1.5.noarch.rpm"
-RPM_HASH = "c3f60dabaae1fefddc8c4b8efc37d79cb648e73c860ad822ca7c8c409237724c053ebcce7734b05371bf1caf12bd367ec32344a7a2b996d62e11ca5abac391eb"
+RPM_NAME = "python39-qtdatavis3d-qt5-doc-5.15.5-1.6.noarch.rpm"
+RPM_HASH = "20ba4ee3a8deb75f054f6ee543dbd53ac1be398aab3256256ccf74b9fbb4d055ddfd169535fec16b2f631913c7517a999040f560cfae72257a1820c4624de6cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python310-qtdatavis3d-qt5-examples \

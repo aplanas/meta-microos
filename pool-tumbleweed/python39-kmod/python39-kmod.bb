@@ -15,8 +15,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.9.1"
 
-RPM_NAME = "python39-kmod-0.9.1-3.16.aarch64.rpm"
-RPM_HASH = "5ba867c3f530f68946d180c5cd97fb815abc9c416fa98759406f7c87a5eb9dfd0910ee8f0f146a2464b8921bbd93aedda79642d8c6f94ad33f12b5455505c0e3"
+RPM_NAME = "python39-kmod-0.9.1-3.18.aarch64.rpm"
+RPM_HASH = "60ce71c8f4634160527ed82bb7abdaf726bac107b5bcc6bbf543c5175d26afb1cb026a6e174ee16d8c7fd86dc5cc9adc836cff5bcb83500794fc492981e09292"
 
 RPROVIDES:${PN} += "python3.9dist-kmod \
 python39-kmod \

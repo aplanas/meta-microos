@@ -8,11 +8,12 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2.4.3"
 
-RPM_NAME = "python311-URLObject-2.4.3-4.12.noarch.rpm"
-RPM_HASH = "1d65d3d9b2bd1481f5297645817a499ef3c050976f70dfcd2a34010a019580012768699173558191bea9aaf39cea546ed564254263072093a6cca149417317e1"
+RPM_NAME = "python311-URLObject-2.4.3-4.14.noarch.rpm"
+RPM_HASH = "48f6b6effaa32ef3fd591004b5ae77435bf7e53a9d3abf23a54e83d5c9c02cd2f0c374f837c674a64bcb0464e3d3da3ba271600aefe5cce537f74c9e5e4b931a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-urlobject \
+RPROVIDES:${PN} += "python3-URLObject \
+python3.11dist-urlobject \
 python311-URLObject \
 python3dist-urlobject"
 

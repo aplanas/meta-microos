@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "5.10.1"
 
-RPM_NAME = "gwenhywfar-tools-5.10.1-1.4.aarch64.rpm"
-RPM_HASH = "b1052bf5999374b9bc40f31e42fff3809e002e2a5c488b33e569456fae4bd35226e7d60c5355753ba601e344904ab30779b05b788403ec20dfb76ea94f052eba"
+RPM_NAME = "gwenhywfar-tools-5.10.1-1.5.aarch64.rpm"
+RPM_HASH = "f6034c20ae5944e7f57f63611b004d9c824f0546873538ee9fd439b9e277ee3a7f06d66126f6e96e9fb12d05f1ca766174e81628f5b6b307f0d5e483ace2c9d7"
 
 RPROVIDES:${PN} += "gwenhywfar-tools"
 

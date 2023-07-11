@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0 & GPL-3.0-or-later"
 
 PV = "8.2212.0"
 
-RPM_NAME = "rsyslog-module-snmp-8.2212.0-2.4.aarch64.rpm"
-RPM_HASH = "382215112a290352a7600977bf0e3da6de8b7c11f14016bd18efc0fd26cbb67138800e81a43428623d5a1e747f40602a0a88011f89297d0a1d175f098a8f6fd7"
+RPM_NAME = "rsyslog-module-snmp-8.2212.0-2.5.aarch64.rpm"
+RPM_HASH = "5da2320364ca453d5b60f22c9fff7d11a50f9fe384598069ff1dceba4b9f0419944cf3ed2312de02c705f5eb57d3008dcdfc259a3b44f7b2c6957f81ea9c38a1"
 
 RPROVIDES:${PN} += "config-rsyslog-module-snmp \
 rsyslog-module-snmp"

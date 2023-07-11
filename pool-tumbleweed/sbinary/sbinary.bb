@@ -13,8 +13,8 @@ LICENSE = "MIT"
 
 PV = "0.4.2"
 
-RPM_NAME = "sbinary-0.4.2-4.1.noarch.rpm"
-RPM_HASH = "b0bc3a611674b00a31dca6ce4520155af6fbc2f09646001f89422a28da0e75c4f35db35c486b1402726218a05decb266bca1703cf2cfef6f6aa286b3dd196379"
+RPM_NAME = "sbinary-0.4.2-4.2.noarch.rpm"
+RPM_HASH = "1821c0570fd07845a218913fb924932a58e1a4d4966d40f85412e5b71717e25f115a543dc4755cd4ed37dac9ba443e191a3de55c4d703bee901483458b15baca"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.scala-tools.sbinary-sbinary-2.10 \

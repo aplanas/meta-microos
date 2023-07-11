@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "20230603+git.5fdd2d6"
 
-RPM_NAME = "rime-schema-luna-pinyin-20230603+git.5fdd2d6-1.1.noarch.rpm"
-RPM_HASH = "c997f9906e3c21ed11bd3d3e1af1e13dcbf95a2694397faf665c924629b281250e396db0b336de15925c3247479111bbbad7d6022ef204da723e385d4485aff0"
+RPM_NAME = "rime-schema-luna-pinyin-20230603+git.5fdd2d6-1.2.noarch.rpm"
+RPM_HASH = "616aeda78ccbe048da642ea8e974e2e846ee9881a2a51557373f523f614edbb80e2510ee2dd4919fc47d888d5c82ee7bded804f37a19ab0282ac2f1912b71bb2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rime-schema-luna-pinyin"

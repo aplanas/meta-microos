@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later-with-GCC-exception-3.1"
 
 PV = "13.1.1+git7364"
 
-RPM_NAME = "libobjc4-13.1.1+git7364-1.1.aarch64.rpm"
-RPM_HASH = "94261470c9d6aebef215b2f622ea42d0a361ee4db3a1c3bd3c4c27c328dc5e9daafbe3aa29268fea3f7b87155fc0da1a2bc2b57d72eb72bff393672e45753cb7"
+RPM_NAME = "libobjc4-13.1.1+git7364-1.2.aarch64.rpm"
+RPM_HASH = "6a7f9655c3f0dfc711e5d1cd6b25eef515f67a6f84ca277488cbb8b2ea63f68e15668ee81ca37883bde177c9dffdaf0aa0dd118029427ff733235322101a2943"
 
 RPROVIDES:${PN} += "libobjc.so.4 \
 libobjc4"

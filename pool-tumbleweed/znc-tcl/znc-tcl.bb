@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.8.2"
 
-RPM_NAME = "znc-tcl-1.8.2-3.7.aarch64.rpm"
-RPM_HASH = "11f7a3f382bfd49b46a3deb93d01aa21d7aeb16c6c645ffc259400551a1b9cb14af63f30a905268211e159f6ab2a660e3120bb63df15ad6a43444507a1bd2b05"
+RPM_NAME = "znc-tcl-1.8.2-3.8.aarch64.rpm"
+RPM_HASH = "bb9d39050f89cc474c4c6a13a87cd61259ba902c56c0608e6724eb2b9f5828bd99b959277b8d1bec6cc917bfaa16fa411377e1bd5e60f8db354afe5afad35f77"
 
 RPROVIDES:${PN} += "znc-tcl"
 

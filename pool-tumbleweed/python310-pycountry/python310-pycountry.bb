@@ -8,12 +8,11 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "22.3.5"
 
-RPM_NAME = "python310-pycountry-22.3.5-2.1.noarch.rpm"
-RPM_HASH = "3593a852a14e52c5251ba17893a421a6af7104f1acb8ee956fd19322a3da901ab8f8d2bbe794a54bd941549b64af10a3471aa9751db2c085aee17315fed6e66c"
+RPM_NAME = "python310-pycountry-22.3.5-2.3.noarch.rpm"
+RPM_HASH = "cb897ec98852edab71fc9e3919aa05e7e4b3beac4d56989dc1b4bbf6fa88c70b84914d53989e9dd43d8deac309bf826db964df7af9b73fedebb1519084fcbb00"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pycountry \
-python3.10dist-pycountry \
+RPROVIDES:${PN} += "python3.10dist-pycountry \
 python310-pycountry \
 python3dist-pycountry"
 

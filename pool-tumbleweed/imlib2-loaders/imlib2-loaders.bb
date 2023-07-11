@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.11.1"
 
-RPM_NAME = "imlib2-loaders-1.11.1-1.1.aarch64.rpm"
-RPM_HASH = "8c4cb3337b5062020c024b2fefaa9731d1c9f62fed1a4d8c6ba5d3d0cc2baec1bea2da5eb80aef7984915ba1e6be777ee1b4662fd1e5b1e56d27c393346b4a81"
+RPM_NAME = "imlib2-loaders-1.11.1-2.1.aarch64.rpm"
+RPM_HASH = "6fa73ddfc5bb7e8bf9f47555bd30cf92bfdf4ca47a8546a63f66317f3001705d2faddc9aef1cd70e061bc9d4f6068d16deea6a9953c3233691cdd1470284b72a"
 
 RPROVIDES:${PN} += "imlib2-loader-argb \
 imlib2-loader-bmp \

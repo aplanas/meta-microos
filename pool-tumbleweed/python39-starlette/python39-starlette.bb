@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.27.0"
 
-RPM_NAME = "python39-starlette-0.27.0-1.1.noarch.rpm"
-RPM_HASH = "dce9b16a2dcbe206920766d5886a121ebc78fa7db7d7fe5889429a6c40646be048a12b031f9d3465e0cd75bf9ab27dfdccf6e49d0f937030020fc36593406a17"
+RPM_NAME = "python39-starlette-0.27.0-2.3.noarch.rpm"
+RPM_HASH = "c510092cb9405bf96605966eadfc2bdd5b9809ff7091b47386416b1d8c37f72ba023c991d259648d2caf4cae39250064f5e9ff494f4acfb56c1f4324d87467b7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-starlette \

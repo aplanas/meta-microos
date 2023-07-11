@@ -4,10 +4,10 @@ that are necessary for a Linux system to function. It contains the \
 mount program, the fdisk configuration tool, and more."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.38.1"
+PV = "2.39"
 
-RPM_NAME = "util-linux-systemd-2.38.1-13.1.aarch64.rpm"
-RPM_HASH = "7eb1d5fa8e46c87756821ea629c3f3b5f11bdab4a13ff49983f3ef78151465534719cedb45fce9fdaf25fc71b278b5204be755eeb531d660237f7f1a84d06638"
+RPM_NAME = "util-linux-systemd-2.39-1.1.aarch64.rpm"
+RPM_HASH = "ba79db92635ebf83992da152ec3b2744bbc6997ec815d72d2d29052b3fe5cab7f2fd61fa6cd26aca7b92937d8f03934fd4f1da37c4312fda73bfa67a4f8c4197"
 
 RPROVIDES:${PN} += "/usr/bin/logger \
 util-linux-systemd"

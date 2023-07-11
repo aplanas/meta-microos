@@ -13,8 +13,8 @@ LICENSE = "MIT"
 
 PV = "3.2.1"
 
-RPM_NAME = "python39-fastnumbers-3.2.1-1.8.aarch64.rpm"
-RPM_HASH = "ff96e7cd86af4246967ab1e3c64f0c2b527d66c27156ac3240fff16a528a4b951f75f6a3a132cbcfa7e4d8dc18abcd44d10a906458ef347e6a61807e18d29cbd"
+RPM_NAME = "python39-fastnumbers-3.2.1-1.9.aarch64.rpm"
+RPM_HASH = "7876965b9dbca6dbe0b5d0b2fa0a5d0ea343b4e838a3d0707ab1eb5bae98b07facaee9346d78b6613621eee059e4e2877279d4f74c3abbfd3e18869f5bc42e99"
 
 RPROVIDES:${PN} += "python3.9dist-fastnumbers \
 python39-fastnumbers \

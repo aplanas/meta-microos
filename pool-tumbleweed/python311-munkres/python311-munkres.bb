@@ -13,11 +13,12 @@ LICENSE = "Apache-2.0"
 
 PV = "1.1.4"
 
-RPM_NAME = "python311-munkres-1.1.4-4.1.noarch.rpm"
-RPM_HASH = "e2748799c46efde7de0d0e1c70464a544244fa4d243b7cd5df83ef94b093aa78b81baa752ae390312516c117805f721b99191db10cf5923ae441b4d17bfd9242"
+RPM_NAME = "python311-munkres-1.1.4-4.3.noarch.rpm"
+RPM_HASH = "86576398ccf99363850df382a6f6c9030b4c41b60c98c69af37005a528e0833452a361f5081819fda83f3bb61dd82d74101add3810ba443cce63adaccdb8bccf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-munkres \
+RPROVIDES:${PN} += "python3-munkres \
+python3.11dist-munkres \
 python311-munkres \
 python3dist-munkres"
 

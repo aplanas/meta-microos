@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.4.5"
 
-RPM_NAME = "wildmidi-devel-0.4.5-1.3.aarch64.rpm"
-RPM_HASH = "684e2037df38e285b7656dd5f8b51f4a169ee42154372e72a962623cf3f4bf1ef45ecd29e2f1e30cd50cd9ad7da50570b7846c331c38889972b430f0d0466eef"
+RPM_NAME = "wildmidi-devel-0.4.5-1.4.aarch64.rpm"
+RPM_HASH = "ec9424f3e40998f8208e154050aef1536833fc6ba1b6a0ae01fbd9da96d7364df97c22dc58e4be77318f89331b2d2af47cdfd7c765cb5ebdf886647ca41be95c"
 
 RPROVIDES:${PN} += "cmake-WildMidi \
 pkgconfig-wildmidi \

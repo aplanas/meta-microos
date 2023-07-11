@@ -6,8 +6,8 @@ LICENSE = "(Artistic-1.0 | GPL-1.0-or-later) & CC-BY-ND-2.0"
 
 PV = "1.27"
 
-RPM_NAME = "perl-SOAP-Lite-1.27-3.10.noarch.rpm"
-RPM_HASH = "e954e060c43fe83ae73a6c6bf208cbcdcb2e27eb3975e210488a3c44bf66dd04dea3731d40f99203c4adc754579387272e963698fb66628bebf2e0711133e5cf"
+RPM_NAME = "perl-SOAP-Lite-1.27-3.11.noarch.rpm"
+RPM_HASH = "a43a1c019b0d38f1482fcfe15e52eee4c7d43f38328601803b27a8135cff54b1670c4972e55de7dec152114f57a459e607c85f808f08dc2633dd03801a8afb53"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Apache--SOAP \
@@ -75,7 +75,7 @@ perl-SOAP--XMLSchemaApacheSOAP--Deserializer \
 perl-SOAP-Lite"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-Class--Inspector \
 perl-Compress--Zlib \
 perl-IO--SessionData \

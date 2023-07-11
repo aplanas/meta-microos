@@ -5,8 +5,8 @@ LICENSE = "(Apache-2.0 | SUSE-GPL-3.0+-with-font-exception) & GPL-2.0-only"
 
 PV = "2.2.0"
 
-RPM_NAME = "librecad-2.2.0-1.3.aarch64.rpm"
-RPM_HASH = "d4d1b5266c1939ba0bf0c550a5594baf60b035738de679f9dc370057767c8945984fe3faf1682b703c463fb128c6083264f656cff0b5e3a692cb2010d3461798"
+RPM_NAME = "librecad-2.2.0-1.4.aarch64.rpm"
+RPM_HASH = "5a18f0f9a7f571653c126706cbf7c18800c80a33002c422c81af3dc7d7aee7616be83d9e3286009000fa1549b4b49cbf1964bb548b1401b43bc349d1afd2d91c"
 
 RPROVIDES:${PN} += "libalign.so \
 libasciifile.so \

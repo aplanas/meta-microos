@@ -11,8 +11,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.10.1"
 
-RPM_NAME = "joda-time-2.10.1-2.6.noarch.rpm"
-RPM_HASH = "83dea4b64fdc041d5c4c937d529a00c4950995a7c3404f9bf814c10c6ffce0cbab4af503430461315b79de80780cdbbf2e16e57950e06845a7e78fd97572f361"
+RPM_NAME = "joda-time-2.10.1-2.7.noarch.rpm"
+RPM_HASH = "2e2db0ea0a45b8141e71d6fedc76bf2c5ebdf601510e3bd40ceb3ba6da85772ae2fac4eeddc8830c946cd4d510b9fb92a1c8b56237fb702f8ff38ba881b09d56"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "joda-time \

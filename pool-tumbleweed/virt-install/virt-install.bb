@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.1.0"
 
-RPM_NAME = "virt-install-4.1.0-8.1.noarch.rpm"
-RPM_HASH = "44b880812ba117bd7cad8f1341275217e635247f878e2cb921083c86a6c1700b7fdae35f645dc3e0b25f2fa3704642c29ece1fd110da53d01d98526ad5bcaf53"
+RPM_NAME = "virt-install-4.1.0-9.1.noarch.rpm"
+RPM_HASH = "1cbd6816bf64fa85fed9702897f968a72cf02a8be0bfeeff9ff0f1a9b549b8a061f2b440dc9e8728c9eafed377147ad1581dae8ffbddd5065659e93837087393"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-virtinst \

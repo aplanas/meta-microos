@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.9.1"
 
-RPM_NAME = "python39-reproject-0.9.1-1.5.aarch64.rpm"
-RPM_HASH = "b4b08dd8e37426b5a06eec8c3e779703c4e116de388bbae03adb65bccec86f00efc18ff1d4a7b142d8a8ebdff9aa6926cac01804edf34f3a119810c8ee335a25"
+RPM_NAME = "python39-reproject-0.9.1-1.7.aarch64.rpm"
+RPM_HASH = "8d89cd9a916862f129c9a80763d99696defe006d74690a17a13725fb5fd4d91ebcb26b65a4738395a224b0d18b8f127b05b3ce74b484f39c8b77a46b8e05894e"
 
 RPROVIDES:${PN} += "python3.9dist-reproject \
 python39-reproject \

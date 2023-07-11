@@ -13,8 +13,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.9.0"
 
-RPM_NAME = "python39-lancet-ioam-0.9.0-2.22.noarch.rpm"
-RPM_HASH = "163f1159b50b2435bfc3564d5705c8a2d1e6d44f4070631da3461ed10f40ba9bb932b3b8d51703e9bf7ec7ebcb9f2068e028f4f6d79e8a1c3e8ce00399a291c1"
+RPM_NAME = "python39-lancet-ioam-0.9.0-2.23.noarch.rpm"
+RPM_HASH = "4a6a5f638ae5e5e781da9018464fb5026864a006435bfa88f9b69513b0128948f901a0390b3cebfaa284f2d27015e5baa7879763aeb6fb44256c65598754f4a2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-lancet-ioam \

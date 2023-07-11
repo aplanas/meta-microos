@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-khudawadi-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "3e641acaab679f4e90dcdbfe3b7b4d034543e19f855a90c9a2e43d3fe3e5af7b8ab391d919db772af0b167790283dfda3ee69a617f8ea51dcfe542743e05750b"
+RPM_NAME = "noto-sans-khudawadi-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "2f108b5f5acd62cc774a226ad31053bb7be09686b4493526ebf37c569f6d95a1db73f18d9357b300dd503ad3099dc857f747df69d4970efb6a323484c0e3816c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-khudawadi \

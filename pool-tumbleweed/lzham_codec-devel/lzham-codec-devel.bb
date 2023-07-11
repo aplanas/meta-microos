@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1_0_stable1"
 
-RPM_NAME = "lzham_codec-devel-1_0_stable1-2.19.aarch64.rpm"
-RPM_HASH = "edd4ea7174fa7f30cbfa63e63953921df08900166fdc47182626467d65475d42cb82bb4bf8d2f3890665a454182031d008becb1cb6ad4036ffb2685290452873"
+RPM_NAME = "lzham_codec-devel-1_0_stable1-2.20.aarch64.rpm"
+RPM_HASH = "59009c737653d5533b1223508f123fa5a6a9abf7007f6b289201dd16d703b3d2db9a63f0b603821a772c63cf8a531e8aa1df41f02ff864260bbd0345c1df9d7f"
 
 RPROVIDES:${PN} += "lzham-codec-devel \
 pkgconfig-lzham-codec"

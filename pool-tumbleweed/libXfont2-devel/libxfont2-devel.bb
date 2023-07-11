@@ -13,8 +13,8 @@ LICENSE = "MIT"
 
 PV = "2.0.6"
 
-RPM_NAME = "libXfont2-devel-2.0.6-1.4.aarch64.rpm"
-RPM_HASH = "431a718292345ba9c6c3b98e7592c3d39e62aaa33eab6b3e9f318a94e18224ec28f688d1cb850707886039317626a8dc09067880483c1ef705a6ccc1e068420e"
+RPM_NAME = "libXfont2-devel-2.0.6-1.5.aarch64.rpm"
+RPM_HASH = "6ee9216fe9f90d6461eecccbf5ea0af543b8d511f597ec3762e5cb6101edcbd8b8582b2d9b71708f95bce9c494bcd3b3492b86c69228a031fdd007f7416a843d"
 
 RPROVIDES:${PN} += "libXfont2-devel \
 pkgconfig-xfont2"

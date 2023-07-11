@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "5.15.0"
 
-RPM_NAME = "plplot-driver-xfig-5.15.0-16.2.aarch64.rpm"
-RPM_HASH = "fa5047710fbf9605663395274ff1e3d5e4033095d5857544a598dcedb533b3802bae2d26e6a163e843f1a37582c654b22143a8bfe8fe1c1b893551761195a7d1"
+RPM_NAME = "plplot-driver-xfig-5.15.0-17.1.aarch64.rpm"
+RPM_HASH = "1d822e8b7e9079b7933e80bbd6701e847a43e8828c4f1bf712dcf716069e6fc0df352d89ef7f3361e2380f03ccb489d44d6eeab3267f842879e74eef4f606248"
 
 RPROVIDES:${PN} += "plplot-driver-xfig"
 

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.2.3"
 
-RPM_NAME = "pmix-test-3.2.3-10.1.aarch64.rpm"
-RPM_HASH = "ddf2d08dbd25535ad3cdd3c62c2d7075f4fa7b4a2262e2bbedd5bf60a0eba7f48154e1847c4ceecdc1cd896587a80b088bbff7672b357e17568995df3512e053"
+RPM_NAME = "pmix-test-3.2.3-10.2.aarch64.rpm"
+RPM_HASH = "bed440ee8e2bd6da08fda07682678e21d5be56fcdac96b153d6c8eee32ec68cda3a3e59953365137ee9a75b35b814c02a0bfa2e28c1e383918b6bf2eca87683d"
 
 RPROVIDES:${PN} += "pmix-test"
 

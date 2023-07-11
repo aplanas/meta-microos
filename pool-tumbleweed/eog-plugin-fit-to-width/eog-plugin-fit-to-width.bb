@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "eog-plugin-fit-to-width-44.0-1.1.aarch64.rpm"
-RPM_HASH = "9150c5421667e8327f15bd1b649f3872f1194e042bcea19c6f347b3141e4bbf511f043e0160554423b9e4cc80168f3418b179147a453708446f28ea87bfd0a2e"
+RPM_NAME = "eog-plugin-fit-to-width-44.0-1.2.aarch64.rpm"
+RPM_HASH = "d09d3fb3782ac1a852e934077a3af71dbeb3a7b7f8b8ec4ebfb0ce7edc2b31be578abd4965c4cb5d1d7e76abfe4b48e3980cf97a80bbf16a5e7294feda4fc08a"
 
 RPROVIDES:${PN} += "eog-plugin-fit-to-width \
 eog-plugins-/usr/lib64/eog/plugins/fit-to-width.plugin \

@@ -25,11 +25,10 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.15.0"
 
-RPM_NAME = "python310-wrapt-1.15.0-1.1.aarch64.rpm"
-RPM_HASH = "3d79c023488aa7357e1d6395070e8cbd4f398eb8a577f5736d013499494f35a6d75bcdcc937688f96286414372a44efeed29044ee4874db24b513601d8267fb3"
+RPM_NAME = "python310-wrapt-1.15.0-1.3.aarch64.rpm"
+RPM_HASH = "6b79054a55b1ae45997aad198576750f84b7a8d2e1101be0b3ed55cee3502341a9874a1560e254f3e93ad7c38b024ac27c1dbafb0a952603b9504aecbcf9418c"
 
-RPROVIDES:${PN} += "python3-wrapt \
-python3.10dist-wrapt \
+RPROVIDES:${PN} += "python3.10dist-wrapt \
 python310-wrapt \
 python3dist-wrapt"
 

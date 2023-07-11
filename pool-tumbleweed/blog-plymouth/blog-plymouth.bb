@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.26"
 
-RPM_NAME = "blog-plymouth-2.26-2.2.aarch64.rpm"
-RPM_HASH = "bcf5bbc538482d0b65443f0225611717f6e11a8c107ee26beebb784383ee960eddb9eb722ec38ae2a9dc69ee85107e9ef56da23c3971119b8f299b0611635174"
+RPM_NAME = "blog-plymouth-2.26-2.3.aarch64.rpm"
+RPM_HASH = "2c36cd7aec2a8b73c9cb03abbd708844363b3823d050d1a3319233e9b661325ddbf0a45ad9a84e59cb7343c12cfa2a0a0e8cd1ef54eb0a69606b9ae88ef6bec4"
 
 RPROVIDES:${PN} += "blog-plymouth"
 

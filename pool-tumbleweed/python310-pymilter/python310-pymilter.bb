@@ -6,11 +6,10 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0.4"
 
-RPM_NAME = "python310-pymilter-1.0.4-3.12.aarch64.rpm"
-RPM_HASH = "0176b3ec659ebf7e18e71c4a9fe8cc8cd25433fb82ba806eb666604ba414eba167439789b508713908a7c732ece8ae1448b949f5f3a69f2c70fed9b444ad9a82"
+RPM_NAME = "python310-pymilter-1.0.4-3.14.aarch64.rpm"
+RPM_HASH = "981189c0f58b3cd5d9253cb729a2e56faf02527b872d1cc74cad2a2c7e3f97c59d8181ba32c2307d8da56f05518a1b6892ac1e1fccf25d344b0a0a1e013925a2"
 
-RPROVIDES:${PN} += "python3-pymilter \
-python3.10dist-pymilter \
+RPROVIDES:${PN} += "python3.10dist-pymilter \
 python310-pymilter \
 python3dist-pymilter"
 

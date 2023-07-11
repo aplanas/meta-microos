@@ -5,8 +5,8 @@ LICENSE = "Apache-1.1"
 
 PV = "1.0"
 
-RPM_NAME = "apache-commons-el-1.0-3.6.noarch.rpm"
-RPM_HASH = "1fe55427aa1e3307dc7d8aec6bad0a0982241d5e922d112e09bb0908f769da842313c40a01852fdaac4cc5f26917c1bb7425f7e20df9e79ea2b7f79f1b35c6d4"
+RPM_NAME = "apache-commons-el-1.0-3.7.noarch.rpm"
+RPM_HASH = "630b7f760c2e57b66264c260d83b9892f052917f4780cdf55095fe3b1bc7c3ff731789dbe759d4b65041dd8971403a8136263ff7e3057aadf92a0239155e78b1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-el \

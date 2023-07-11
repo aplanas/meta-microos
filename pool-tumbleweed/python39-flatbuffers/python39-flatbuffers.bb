@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "23.3.3"
 
-RPM_NAME = "python39-flatbuffers-23.3.3-2.1.noarch.rpm"
-RPM_HASH = "7613627b4ad781fa377d1576e576bd94057ca9bbbc89c98661d974e7d13fbe85835be94ca1f27fb4ece569f48fa1331d945c7094ed61237c86051e1068b16929"
+RPM_NAME = "python39-flatbuffers-23.3.3-2.2.noarch.rpm"
+RPM_HASH = "e54d6c7e10762d5828770e26f603d2fda5d253d021e25585bc1954bb343bd7df9b96d963b912a381b6d71cbd3e2ff72afd71e0046fe720abcae0a7a809a2bfb7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-flatbuffers \

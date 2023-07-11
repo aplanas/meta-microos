@@ -38,11 +38,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.8.1.0"
 
-RPM_NAME = "ghc-network-bsd-2.8.1.0-7.2.aarch64.rpm"
-RPM_HASH = "7724bde2704a2fa9f54220037bec7f37d020e6c5af393bb30031739a2d839edc797d936fd9ef30cd0d9f53271500006f1ced12b643a7941d17a8b7eb9c73dbe9"
+RPM_NAME = "ghc-network-bsd-2.8.1.0-7.3.aarch64.rpm"
+RPM_HASH = "a740e87507dd13219e50b8053752cde2b16659ad632e00ae356c65db4b7bab25e3ed25df10b41c1a74451cfd8ce2ecddb17081c454fc50a80fc919883838fcf0"
 
 RPROVIDES:${PN} += "ghc-network-bsd \
-libHSnetwork-bsd-2.8.1.0-D1RjTzX7Byx4U4fOdbAEll-ghc9.4.5.so"
+libHSnetwork-bsd-2.8.1.0-K9geVudEUPh9zpSal1iibE-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
 libHSbase-4.17.1.0-ghc9.4.5.so \
@@ -53,7 +53,7 @@ libHSfilepath-1.4.2.2-ghc9.4.5.so \
 libHSghc-bignum-1.3-ghc9.4.5.so \
 libHSghc-boot-th-9.4.5-ghc9.4.5.so \
 libHSghc-prim-0.9.0-ghc9.4.5.so \
-libHSnetwork-3.1.2.8-HNDBp0HF6t0D1fzE2MDtPd-ghc9.4.5.so \
+libHSnetwork-3.1.4.0-FvtFepOtuCUH79FCWyNxIc-ghc9.4.5.so \
 libHSpretty-1.1.3.6-ghc9.4.5.so \
 libHStemplate-haskell-2.19.0.0-ghc9.4.5.so \
 libHStime-1.12.2-ghc9.4.5.so \

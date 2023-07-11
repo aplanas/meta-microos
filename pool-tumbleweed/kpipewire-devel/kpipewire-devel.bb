@@ -4,10 +4,10 @@ This package provides the development files needed to build applications \
 which use KPipeWire."
 LICENSE = "LGPL-2.0-only & LGPL-3.0-only"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "kpipewire-devel-5.27.5-1.1.aarch64.rpm"
-RPM_HASH = "602fbfd137b4c6478bdbe0c920c0adb6bb18a5c462f3064f8e86c88e119522adf96f892ecb86eb18880bbaab9aa69c497789c78fd4e480eb440b33cef87311c0"
+RPM_NAME = "kpipewire-devel-5.27.6-1.1.aarch64.rpm"
+RPM_HASH = "74cbd2a0042e0b2774d323fdd59cae7f8fde6a6e3f4e3eab3e8db58b29d1d85f2d669fce8d610b62b5afb7e7dba721e678c9e28f94d6e871ff1f26a297faf5a9"
 
 RPROVIDES:${PN} += "cmake-KPipeWire \
 kpipewire-devel"

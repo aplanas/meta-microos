@@ -13,10 +13,10 @@ even if you drop openvpn daemon privileges using the user, group, or \
 chroot directives."
 LICENSE = "GPL-2.0-only-with-openvpn-openssl-exception"
 
-PV = "2.6.4"
+PV = "2.6.5"
 
-RPM_NAME = "openvpn-auth-pam-plugin-2.6.4-1.1.aarch64.rpm"
-RPM_HASH = "d6c37c6bd6327caeb65b22d9ebeb5c66081dc05a44cfe6e4dc9946bd8a60d823dd9717c9a54fd0385e19341c63f019a673bac3f4c75c4545774feb24a094cff6"
+RPM_NAME = "openvpn-auth-pam-plugin-2.6.5-1.1.aarch64.rpm"
+RPM_HASH = "79377c848ef9d5d9c474fbc51689ebc43b7c6111117787f39ef003c5e6ccd1d8348479b602a0801186ddda47670e0e0aede5347e3ecd8f1c7bfc477cbba3363e"
 
 RPROVIDES:${PN} += "openvpn-auth-pam-plugin"
 

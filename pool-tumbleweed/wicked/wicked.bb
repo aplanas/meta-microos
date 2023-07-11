@@ -4,14 +4,14 @@ of existing frameworks into a unified architecture, providing a DBUS \
 interface to network configuration."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.6.72"
+PV = "0.6.73"
 
-RPM_NAME = "wicked-0.6.72-2.3.aarch64.rpm"
-RPM_HASH = "c0e3202d7aeac87899e44e0a25bee186b55df07198a5171c1f252931f7ee9c8e755d521bea6c179ce115f984461a479516c4a9b0848f85489646957f794c02b3"
+RPM_NAME = "wicked-0.6.73-2.1.aarch64.rpm"
+RPM_HASH = "b86288be1ad77529cec3354644ca1fc27926e798db378f0d821bb88a9939ec3d2f7a69403f5fd336617f1a1dd1b3f937917b5e2aacc75d77ad9968938992f9b6"
 
 RPROVIDES:${PN} += "config-wicked \
 libwicked-0-6 \
-libwicked-0.6.72.so \
+libwicked-0.6.73.so \
 wicked"
 
 RDEPENDS:${PN} += "/usr/bin/bash \

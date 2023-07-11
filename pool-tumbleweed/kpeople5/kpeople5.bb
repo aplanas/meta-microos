@@ -2,10 +2,10 @@ SUMMARY = "Library for access to contacts and identity holders"
 DESCRIPTION = "A library that provides access to all contacts and the people who hold them."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "kpeople5-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "d4a793f795fd8fb17591112483551ed938c9282d20bdbd6e1e00c79abfbe0bc5b564fbcc5675d715b2effa2b7ad3c84805e79f0d6a970b5ea8b5ecf8c2e01e89"
+RPM_NAME = "kpeople5-5.107.0-1.1.aarch64.rpm"
+RPM_HASH = "8380dfb0cd8acb0546e0f1e96a1aea2c4c1a0b492e43becc05f75c128326dcb15d1e8218abab646352cf5f2c6b19d42fb5db916a7277fb79157fce6f7b751aba"
 
 RPROVIDES:${PN} += "kpeople5 \
 libKF5People.so.5 \

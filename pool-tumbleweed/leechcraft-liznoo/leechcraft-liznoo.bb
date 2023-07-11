@@ -15,8 +15,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-liznoo-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "4ccc210db9b5a7df7e755d9a3afc1f3d5bf81e067c96eb50f8ade51c9231e6762d12460b0088e98084fa4344241acecf57a6460f33f60fa6f191ec0512b69cdf"
+RPM_NAME = "leechcraft-liznoo-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "e375c7139773968e4e181288847c5fd155191e70e3df07127b3c6cac492fc68a914e57c86f0a3940d6d008069b18791fe37e729bda8e4a398daefbe686074364"
 
 RPROVIDES:${PN} += "leechcraft-liznoo \
 libleechcraft-liznoo.so"

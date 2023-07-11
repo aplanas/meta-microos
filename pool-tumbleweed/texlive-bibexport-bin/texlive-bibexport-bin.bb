@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn16219"
 
-RPM_NAME = "texlive-bibexport-bin-2023.20230311.svn16219-91.1.aarch64.rpm"
-RPM_HASH = "6209beb539ab546edfe1249c1b57ebde1a25f57d58c0e156837db834db62cc02b417e5e91d8f18e48febc1f0a31612fe101e3b16875d2dd79d0c6fd797fb0358"
+RPM_NAME = "texlive-bibexport-bin-2023.20230311.svn16219-92.1.aarch64.rpm"
+RPM_HASH = "728fff355cdb4b3983513966d2282d4e59c7a17605b2ebce9dfb172cdc7a4ec4046b7158dadd4ae1e9044438853a8f06810d4e8cdf5e2d368a841f5e67e68819"
 
 RPROVIDES:${PN} += "texlive-bibexport-bin"
 

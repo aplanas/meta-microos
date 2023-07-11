@@ -11,12 +11,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.11.0"
 
-RPM_NAME = "python310-Cycler-0.11.0-2.1.noarch.rpm"
-RPM_HASH = "8f60376c18220662733c6dc62200d752e09e5a257e24aed9fa069c5a7f232fd23a2b6cddce768e14e02c3e2bf38fcc7223bb4535894efe87630be1799dc72506"
+RPM_NAME = "python310-Cycler-0.11.0-2.3.noarch.rpm"
+RPM_HASH = "56b96abcbb0980f97d4c11fee15126ad8409af9bd9ca892c1881124b11b36cf69fd64379799c7f90e7e974a5481a89b99fe7dec204c83622b6deaef0afe966f3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-Cycler \
-python3.10dist-cycler \
+RPROVIDES:${PN} += "python3.10dist-cycler \
 python310-Cycler \
 python3dist-cycler"
 

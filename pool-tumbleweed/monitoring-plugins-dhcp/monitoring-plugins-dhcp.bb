@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
 PV = "2.3.1"
 
-RPM_NAME = "monitoring-plugins-dhcp-2.3.1-9.4.aarch64.rpm"
-RPM_HASH = "8dd2ba79e6a80d9f2c8312fbb6f310dc1aba61d0dfa161f1bc13ff5fd497b1e8bed69490137cc62ad78b90d47ec321a7f36063fea024bb54f5b6e646385a1161"
+RPM_NAME = "monitoring-plugins-dhcp-2.3.1-9.5.aarch64.rpm"
+RPM_HASH = "33472c9e63bf760baa9b2316de12173dc37c6581a5260e650ff03c2a27b918e9c046db578a393a219bc1181c619be88199ca15eec3cc8bd064b251914b7f1404"
 
 RPROVIDES:${PN} += "config-monitoring-plugins-dhcp \
 monitoring-plugins-dhcp \

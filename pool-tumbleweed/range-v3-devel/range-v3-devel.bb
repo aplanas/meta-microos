@@ -4,8 +4,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.12.0"
 
-RPM_NAME = "range-v3-devel-0.12.0-1.3.aarch64.rpm"
-RPM_HASH = "5b29b9c702adbda3f7c6041bb50ad42fb9c4580088d05b1e05b6990829e9646ccf380f9452d94709487e39b661687a1aad8fee4cab69b5259a672bbfba1fa63f"
+RPM_NAME = "range-v3-devel-0.12.0-1.4.aarch64.rpm"
+RPM_HASH = "ab2224b16b2291f3ceb92e33f113522ad0eddd588cba9f4450a7dd66f605582a3a4811d073af5a9c407877ad417c9535f2412d808a0a7c79d5d6388fc762cc6c"
 
 RPROVIDES:${PN} += "cmake-range-v3 \
 range-v3-devel \

@@ -5,12 +5,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.0.post25"
 
-RPM_NAME = "python310-threevis-0.1.0.post25-6.3.noarch.rpm"
-RPM_HASH = "8cbb7119e814807b7e47ec95eac86a0de36052b55c3c483859a97dd1c1605a427ae54e63e47c44d59194c582db06f57ea3740f44c803bc8eeec166867f030b1a"
+RPM_NAME = "python310-threevis-0.1.0.post25-6.4.noarch.rpm"
+RPM_HASH = "c4a638b9870d25449513f9c8b6bc2e62b66374b6317272a564e0348ad406342d56007e20072725df580b69ad9b1f0218f1499d07bc3504646b40af3789efab6b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-threevis \
-python3.10dist-threevis \
+RPROVIDES:${PN} += "python3.10dist-threevis \
 python310-threevis \
 python3dist-threevis"
 

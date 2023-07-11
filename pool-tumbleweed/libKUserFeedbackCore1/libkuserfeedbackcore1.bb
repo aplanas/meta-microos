@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.2.0"
 
-RPM_NAME = "libKUserFeedbackCore1-1.2.0-1.14.aarch64.rpm"
-RPM_HASH = "46570fe2023fc6cabd62b1f59aa30f3b1c2fcde9d4206ed67625c80200112ecf7a366302c7a0359c81981ee8bbe9bec851e64308300fcd6d374498e398c38bcf"
+RPM_NAME = "libKUserFeedbackCore1-1.2.0-1.15.aarch64.rpm"
+RPM_HASH = "f61a4523d73dca0f90dfa6ce7424bf3205e995058a57557d2463d4f47601262f9e4bddafa7a4b76bdef22eae4fcc9b08e0a65f6734e5ccfd16d386cb3f88e900"
 
 RPROVIDES:${PN} += "kuserfeedback \
 libKUserFeedbackCore.so.1 \

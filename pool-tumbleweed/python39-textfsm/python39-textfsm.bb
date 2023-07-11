@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.1.3"
 
-RPM_NAME = "python39-textfsm-1.1.3-1.6.noarch.rpm"
-RPM_HASH = "16916a03def79ec0831afafad5bf75a168c59de2aa1a5cfa76fe8590ba95d3e2d180f045483985cb8be2dd72111520f8efe36aa2c3a8313ba712d703b566a430"
+RPM_NAME = "python39-textfsm-1.1.3-1.8.noarch.rpm"
+RPM_HASH = "6bd5b922e4d0f4ad0b1c5064c6ff0b9b6aaafdad6a2c02347e9a11eabb12d50815198f6bf56ebeb2da40a6d0e4473c601ec8fcff042ae9a988c9d7033126aff2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-textfsm \

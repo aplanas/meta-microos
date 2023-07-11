@@ -6,8 +6,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-sysnotify-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "cf5d42bc869d79ad99dd6b167f5d31f76ff97de95b1056f80fc5b585cbd46e76ab44830b31ef76cb34f2ab52c91481ffe3b0ccec5799592b6e63b69dfe03eadb"
+RPM_NAME = "leechcraft-sysnotify-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "d43ce5fbaf9a88d32d3a233f920ce0875510a50f1ec87cd574b5e87a7a411c891483c9f48f5503ebcd5d1e3ec0ba34610cc2f7455c41a84e7824a7f3161e00d9"
 
 RPROVIDES:${PN} += "leechcraft-sysnotify \
 leechcraft-visualnotifications \

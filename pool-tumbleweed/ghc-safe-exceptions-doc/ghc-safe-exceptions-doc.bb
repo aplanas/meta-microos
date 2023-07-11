@@ -2,10 +2,10 @@ SUMMARY = "Haskell safe-exceptions library documentation"
 DESCRIPTION = "This package provides the Haskell safe-exceptions library documentation."
 LICENSE = "MIT"
 
-PV = "0.1.7.3"
+PV = "0.1.7.4"
 
-RPM_NAME = "ghc-safe-exceptions-doc-0.1.7.3-2.2.noarch.rpm"
-RPM_HASH = "3ab45b06ee7d18906cfb8ca88277d273f8eb9b185ba541f42b4feb7f5e41a90db06c2c502208eacfc17464c4dae3144dbdec6ddb8ba2398d2e4a12b21ec48e06"
+RPM_NAME = "ghc-safe-exceptions-doc-0.1.7.4-1.1.noarch.rpm"
+RPM_HASH = "d2a8d952a2f83a539f9b3432997c3bda86d09faf8bb6014d0def850c3c2183b155809206133115477134700586d9e4e33c4a8d3c51923d4a0ce0e6ccfb17f6a3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-safe-exceptions-doc"

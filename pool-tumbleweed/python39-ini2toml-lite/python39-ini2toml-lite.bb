@@ -4,8 +4,8 @@ LICENSE = "MPL-2.0"
 
 PV = "0.12"
 
-RPM_NAME = "python39-ini2toml-lite-0.12-2.1.noarch.rpm"
-RPM_HASH = "1213218448726f9138077e13f86460ae619e2415b4c1aa3d90be79b034ef75ee52bd2a46c4704593e53ef6268c7deba946de5513c4b93d82d3a66e29679694f4"
+RPM_NAME = "python39-ini2toml-lite-0.12-2.2.noarch.rpm"
+RPM_HASH = "b331e5c840d7a53cfaaea45c7418ab23231ad920f179c769f8486f3b91c83af847955a3f70d6bfe0014fb4cffc3580fb42049c5f0f596e1a0887939e9f1bda18"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-ini2toml-lite"

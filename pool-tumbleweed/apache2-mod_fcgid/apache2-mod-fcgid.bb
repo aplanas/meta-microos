@@ -15,8 +15,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.3.9"
 
-RPM_NAME = "apache2-mod_fcgid-2.3.9-11.11.aarch64.rpm"
-RPM_HASH = "1f41673f5a0ed42f2eb43a98ec6a1be9caf3f4881a83ff1367506bab0972b51731c79b91d80db4153f882f8c51ae3f09c5abc6dbb8f612aea28ede4cb8add63c"
+RPM_NAME = "apache2-mod_fcgid-2.3.9-11.12.aarch64.rpm"
+RPM_HASH = "711f878143a8adcf51992697c63a35f81d645993f2642619b22e6cfe878ad1b8ba25c72f1b386782d22e38db7b6028f465bfbef9d11014e9c6d8b59fe42349c1"
 
 RPROVIDES:${PN} += "apache2-mod-fcgid \
 config-apache2-mod-fcgid"

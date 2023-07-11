@@ -11,10 +11,10 @@ On top of Lunamark sits code for the plain TeX, LaTeX, and \
 ConTeXt formats by Vit Novotny."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.21.0_0_gee15b88svn66257"
+PV = "2023.208.2.21.0_0_gee15b88svn66257"
 
-RPM_NAME = "texlive-markdown-2023.201.2.21.0_0_gee15b88svn66257-52.1.noarch.rpm"
-RPM_HASH = "67eb4d1f1eac591a34b6130166ae0ecbe1c4ea21b656c49990c9cd128a49b0428d9dea66a1ee77a416239829887ef5d70443e65eb9410cee8650cd29f469478f"
+RPM_NAME = "texlive-markdown-2023.208.2.21.0_0_gee15b88svn66257-53.1.noarch.rpm"
+RPM_HASH = "40c501fd8121fe42a009e678a18ad2f05b9f0c7594e27304fae9c6b3fc4c518d3477c3a82bf5531f2473630d15d0cbb6857b7d4fb1f827986d7fb435cee9c979"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-markdown.sty \

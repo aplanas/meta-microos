@@ -6,12 +6,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.4.7"
 
-RPM_NAME = "python310-wirerope-0.4.7-1.2.noarch.rpm"
-RPM_HASH = "abc97240990f404bbc285262aabbcaf6f2f085684ed022ca5984ca1ad16d49a462b265a9decb47ca293723d4e106c7d35df61562eb9246eb64ed7f983c9e2eca"
+RPM_NAME = "python310-wirerope-0.4.7-1.4.noarch.rpm"
+RPM_HASH = "d1705390135c43844880c60e472c71e80517bdb78c66e35b79c21608ec64e6f5ee1d024a092ac4bad845c80036d05ead5b987c4bafdbe919f3ea1b9776841c98"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-wirerope \
-python3.10dist-wirerope \
+RPROVIDES:${PN} += "python3.10dist-wirerope \
 python310-wirerope \
 python3dist-wirerope"
 

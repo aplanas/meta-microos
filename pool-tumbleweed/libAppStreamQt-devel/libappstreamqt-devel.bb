@@ -4,10 +4,10 @@ configuration files and development tools (with manual pages) needed to \
 compile and link applications using the Qt bindings for AppStream."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "0.16.1"
+PV = "0.16.2"
 
-RPM_NAME = "libAppStreamQt-devel-0.16.1-3.1.aarch64.rpm"
-RPM_HASH = "12e324995e6ce6f9a4be8ba0d964ebd4c72a4e823e9dc35fa603768090da2f533a9817f8f1ec7e76dacb938731265d68e89eed7585dd1fb4921256ed7bb95cbc"
+RPM_NAME = "libAppStreamQt-devel-0.16.2-1.1.aarch64.rpm"
+RPM_HASH = "aeb5c1d83c5e98541021c5a2f7f656b2d2af95d0852a955114de3073d5931d0be112fdeb9d166ece250b85c79c2af55ff90fdb61cf0f942d3484fa4ffdb2b1cb"
 
 RPROVIDES:${PN} += "cmake-AppStreamQt \
 libAppStreamQt-devel"

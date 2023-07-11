@@ -5,10 +5,10 @@ Qt 3D Logic module enables synchronizing frames with the Qt 3D \
 backend."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libQt53DLogic5-5.15.9+kde0-1.1.aarch64.rpm"
-RPM_HASH = "f2c4201c24ac39d1f572dfcf08e26533ad5e4fa5f63202615b8913f89ec952e3effd10e5c0037798685c23ce8c7343e882332d00828ec65d381f998e5c5c9ca8"
+RPM_NAME = "libQt53DLogic5-5.15.10+kde0-1.1.aarch64.rpm"
+RPM_HASH = "5dbe74044b7391a9384b393de7810d7cfd829559da69355bab4e645705ca2b5cfd0afa2e5320abcdf79c9561c7b8ef570547d29d1526a4199058cf39a2f7c6b1"
 
 RPROVIDES:${PN} += "libQt53DLogic.so.5 \
 libQt53DLogic5"

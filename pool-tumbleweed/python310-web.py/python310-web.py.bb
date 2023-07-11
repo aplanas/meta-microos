@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause & SUSE-Public-Domain"
 
 PV = "0.62"
 
-RPM_NAME = "python310-web.py-0.62-3.8.noarch.rpm"
-RPM_HASH = "35f36f3878644d3e73c5be02b8c5420c21fb56716afb036e1945c41194b899a596414281dd239ade23c49449f20024f0c8e63cb1d1c2fb72fb3ec50c9c055596"
+RPM_NAME = "python310-web.py-0.62-3.10.noarch.rpm"
+RPM_HASH = "49eaaef94db1d1fafa95d0bb9c3b1bbfc426dcff691fae9cc7d1648855f7a88ccd2a082a6902ae060567a6269601df4c644648ca88621d1c036c41d5b88df654"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-web.py \
-python3.10dist-web.py \
+RPROVIDES:${PN} += "python3.10dist-web.py \
 python310-web.py \
 python3dist-web.py"
 

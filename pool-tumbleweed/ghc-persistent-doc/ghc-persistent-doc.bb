@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.14.5.0"
 
-RPM_NAME = "ghc-persistent-doc-2.14.5.0-1.4.noarch.rpm"
-RPM_HASH = "7dc751023fd58fe79725e5c6d4b4feae6dd227c94a32d956cd080af3c402b576aaf1196bfd71b24f0352d44efedb9ed80b1b95e3a9f6a2b746df0a2f12941d34"
+RPM_NAME = "ghc-persistent-doc-2.14.5.0-1.7.noarch.rpm"
+RPM_HASH = "683a04e2447434213eed4ee8f2e8fc50491a9ab41cc82888fba20a35cd1b2f517b6a109fbd470a9f544532f5cc40f021ba03cb6a7c83b4c38737bf5a4263b5ea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-persistent-doc"

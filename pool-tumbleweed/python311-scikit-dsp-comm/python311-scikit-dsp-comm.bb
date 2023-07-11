@@ -6,11 +6,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.2.0"
 
-RPM_NAME = "python311-scikit-dsp-comm-1.2.0-3.8.noarch.rpm"
-RPM_HASH = "bc555024197a36615b1e67e02664f0b5f702e626dbb3bcfec67d7eba4823f4ed06f89e9bfe7f4e8050a5de827a008785534580f0001c391604e86453e9346a4f"
+RPM_NAME = "python311-scikit-dsp-comm-1.2.0-3.10.noarch.rpm"
+RPM_HASH = "ab97d8f61bb70dd100519d53415c30ef02a5380e7d5c8522423e77d76c0b45a4cdddaca8158c31f01c4596cb7d9aeb027c824bccacf9302a39e6d7a169c1c60c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-scikit-dsp-comm \
+RPROVIDES:${PN} += "python3-scikit-dsp-comm \
+python3.11dist-scikit-dsp-comm \
 python311-scikit-dsp-comm \
 python3dist-scikit-dsp-comm"
 

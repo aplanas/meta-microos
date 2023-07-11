@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later & WTFPL"
 
 PV = "20230411"
 
-RPM_NAME = "hxtools-20230411-1.1.aarch64.rpm"
-RPM_HASH = "b688c90cd8618a41a683a6c31a298f3c9c7b80754e97cd4bc374adfbcaabf3940aee41244fe4c3c74ffaf59f77141800b406d913ced9753f6f334d5cab460c4d"
+RPM_NAME = "hxtools-20230411-1.2.aarch64.rpm"
+RPM_HASH = "d047b6e9119558d152aba25a5dd2ec39c361c44c69ff9d3fb43afa9d563e52baa70c45abef06821838c2f5edb2b3abfcf6ad44c607cda01a86c2fb94f94c980a"
 
 RPROVIDES:${PN} += "hxtools"
 

@@ -15,8 +15,8 @@ LICENSE = "Apache-2.0"
 
 PV = "6.0.0"
 
-RPM_NAME = "python39-bleach-6.0.0-1.1.noarch.rpm"
-RPM_HASH = "d7b1c79d8e43b7f48a24de7e12ccc22ea353a053d3b442596a18491bcb2f25b47adf9ed5ae6735e54dbe105456272a0c84602ab6f0af5bdf8fd7aa621e7c6ba5"
+RPM_NAME = "python39-bleach-6.0.0-2.1.noarch.rpm"
+RPM_HASH = "714880aa811f2f363ea1cb09f22a62abe8574a43bf973858a75732e42a770443da8dc71c2a4412a26e3f30f663ef89d1cf701f8064eadd08843d77abfa36a210"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-bleach \

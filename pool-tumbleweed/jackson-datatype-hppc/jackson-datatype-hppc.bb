@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.13.3"
 
-RPM_NAME = "jackson-datatype-hppc-2.13.3-1.7.noarch.rpm"
-RPM_HASH = "e9d06f23b72fd87792917ad9bbf56793bbc2eecd955ef9a26f802d9da1dfb087bbadc874961ea8bb72229658f749d5bde08e2b1133bc567e95312c1a139dd88d"
+RPM_NAME = "jackson-datatype-hppc-2.13.3-1.8.noarch.rpm"
+RPM_HASH = "b0feb8d5765e9f1d134398f5dd14a88333136de419c65a9b18e6a983ebd1f94268975b6262859f795026c62a9611f5bf1b9ef26b46acea3ca14e4342ad9b5cad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-datatype-hppc \

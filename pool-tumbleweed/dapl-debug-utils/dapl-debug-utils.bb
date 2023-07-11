@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause | GPL-2.0-or-later | CPL-1.0"
 
 PV = "2.1.10"
 
-RPM_NAME = "dapl-debug-utils-2.1.10-5.1.aarch64.rpm"
-RPM_HASH = "2f6bb2602f28259a9c288201816173948777965fcb0fd9e3f9548bff349690ef04140fee6cb8d74cce4ab29dd61077d9307f70e82a6801dca2ce8c3d234c1872"
+RPM_NAME = "dapl-debug-utils-2.1.10-5.2.aarch64.rpm"
+RPM_HASH = "f6b137d2fafe39d929f51f1505caeeed0da2aaed0c3548b30d0efd2a48385180009c16e78ff3253943290b2308d4b9e5e837d365cd381adec7a0088c3e73de7c"
 
 RPROVIDES:${PN} += "dapl-debug-utils"
 

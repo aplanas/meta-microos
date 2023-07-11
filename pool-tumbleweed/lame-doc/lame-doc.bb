@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "3.100"
 
-RPM_NAME = "lame-doc-3.100-5.3.aarch64.rpm"
-RPM_HASH = "1242f441e6854c62925dc6e2dd5e53cfc1dbeeedad9e941ffcfe9140ac9c8b03522af37b7a8d3fe9ce9d84dcebf6e9cc6ba629f0b9d9bfb179e001173872ea5e"
+RPM_NAME = "lame-doc-3.100-5.4.aarch64.rpm"
+RPM_HASH = "7dc6a6d63097c8184d634fd3d8c554c231a945631c2e1ac5fc3891fd7af8b70e2d7460d4c681de2d2ab69e849547cdc8436aa99c270d73bd99867908ad12256d"
 
 RPROVIDES:${PN} += "lame-doc"
 

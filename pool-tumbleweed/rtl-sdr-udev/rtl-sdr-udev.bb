@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.6.0"
 
-RPM_NAME = "rtl-sdr-udev-0.6.0-2.8.aarch64.rpm"
-RPM_HASH = "ab65daf2858123d4354240e937c74a06e1b663e3695b4417c53e89bd54536c7f545dfa3f2ea01d730ec664e9ef977a1c3411db9aa33baa6c5cd4f54573090499"
+RPM_NAME = "rtl-sdr-udev-0.6.0-2.9.aarch64.rpm"
+RPM_HASH = "9635e9aa5446ab835938bd9366fd91bdacc57600ca562164b0ab2cccb8900b16728f40ba24ca0cc3cb044ce2c93dbc9fbb9daf37b51ab9fe91c90bd1248dc0c1"
 
 RPROVIDES:${PN} += "rtl-sdr-udev"
 

@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-or-later"
 
 PV = "1.5.1615+0"
 
-RPM_NAME = "psi+-plugins-videostatusplugin-1.5.1615+0-3.1.aarch64.rpm"
-RPM_HASH = "2c980aa98ad53128d639dc4b1dcef35f0c9b43f7a3d876a1b75a71ce53e5122b3f8bee9ef67b93c30a46cd9bc35399774bc08bdb36a5d2b702c8f9fe735c8bca"
+RPM_NAME = "psi+-plugins-videostatusplugin-1.5.1615+0-3.2.aarch64.rpm"
+RPM_HASH = "67a2d32bcfef0f5ba188b6fe0b47de77ba5d5cca9b767a4419f87647407619a56cc3c6b8b04fb3320fd02f6e14e81e50f2574c68336441e6a7f630b13d8d4f7f"
 
 RPROVIDES:${PN} += "libvideostatusplugin.so \
 psi+-plugins-videostatusplugin"

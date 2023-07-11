@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "2.3.0"
 
-RPM_NAME = "python311-pylint-venv-2.3.0-1.3.noarch.rpm"
-RPM_HASH = "a1c22f98d2dac1afe1c20d8faea2759ebc389675838bbcaaf43d634db8397565e3fb3f5676a5031a63df7182bef525dd9a5c441bf25685ad8371fca7fc2c8c81"
+RPM_NAME = "python311-pylint-venv-2.3.0-1.5.noarch.rpm"
+RPM_HASH = "53b2ab63af1d098763c489a52b772b4d92d6c13bb76e0c31413b8a0e700b1a939e0356c91df5cc9d5a576805470c55427bb5caf65a4cee18afd7cc74e480bc0d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pylint-venv \
+RPROVIDES:${PN} += "python3-pylint-venv \
+python3.11dist-pylint-venv \
 python311-pylint-venv \
 python3dist-pylint-venv"
 

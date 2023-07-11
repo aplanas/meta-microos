@@ -7,8 +7,8 @@ LICENSE = "Artistic-2.0"
 
 PV = "5.14"
 
-RPM_NAME = "perl-JSON-Validator-5.14-1.1.noarch.rpm"
-RPM_HASH = "95d8670aed94ca031b277e5699bf2d41a55bf2e94753c53cb7094753c85bc04427d94d22423f6eaa707478f718922cb5457274c6f150bd83b333946637b4f3e0"
+RPM_NAME = "perl-JSON-Validator-5.14-1.2.noarch.rpm"
+RPM_HASH = "696303bde7a7aa34ceb76a91ac1dd8f16fc50114b1b205bc700c994e4a53e98b6e07738780075569370c515ee58aaef41e804815fad0c62847cb93f6f9e1e256"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-JSON--Validator \
@@ -27,7 +27,7 @@ perl-JSON--Validator--URI \
 perl-JSON--Validator--Util \
 perl-JSON-Validator"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-List--Util \
 perl-Mojolicious \
 perl-YAML--XS"

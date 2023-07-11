@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.5.0"
 
-RPM_NAME = "python39-geojson-2.5.0-1.8.noarch.rpm"
-RPM_HASH = "f0340f4518d1660c8dc758a3bc3ef7e1e1f4fe97b8395c3553652bfd6ac9467d8154e9c908eefe7a8d76ab7140617754902d9aa0af7ece240dbbc01110aa1697"
+RPM_NAME = "python39-geojson-2.5.0-1.9.noarch.rpm"
+RPM_HASH = "9c80e2c45ab8ff686fa370d60efe6c758859e4e7de4119fded2893f7bf6ff9a4875d48a524b70731ddde7157f0fbc7219b55dd669e5cc88815a3805fdf52d979"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-geojson \

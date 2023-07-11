@@ -5,10 +5,10 @@ and calendar in the GNOME Desktop. \
 This package contains a shared system library for messaging."
 LICENSE = "LGPL-2.0-only"
 
-PV = "3.48.2"
+PV = "3.48.4"
 
-RPM_NAME = "libcamel-1_2-64-3.48.2-1.1.aarch64.rpm"
-RPM_HASH = "7c953d02ea9c5e2f9bb324cdff47cc43d7bd13cd12a3c20016f8860a366d051812ff9e3120f8da161eeced0e7d70a3b15528f10939a711499ff21f2af5f3a286"
+RPM_NAME = "libcamel-1_2-64-3.48.4-1.1.aarch64.rpm"
+RPM_HASH = "323d998334cc3ae9db2fec5b91efae209ec2eb2d2ed46ec7a652864788763d954e7fec060a2b328cb690b6611e5e1f24198a47232b5017f9986723e2225bb776"
 
 RPROVIDES:${PN} += "libcamel-1-2-64 \
 libcamel-1.2.so.64"

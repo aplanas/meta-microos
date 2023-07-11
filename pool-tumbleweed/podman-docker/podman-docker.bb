@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "4.5.1"
 
-RPM_NAME = "podman-docker-4.5.1-1.1.noarch.rpm"
-RPM_HASH = "b5a1e58fd133104b8a64d2cc467ce135255b1a4c7388a26009035e1fb7628d1c52d741a0bb19f52605f52b54bd475ca8e844c4edd26475eba10aac90997afaee"
+RPM_NAME = "podman-docker-4.5.1-1.2.noarch.rpm"
+RPM_HASH = "dfe0c591c71de6fd03560950c581fbbf916b40d7677352c0e675abd667a7e98340c85bdbc8a77db750f5bf5d722fb363324ae4fd1d1b151b65c67dcdcfc5d6b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "podman-docker"

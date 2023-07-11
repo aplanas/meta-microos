@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.svn22050"
 
-RPM_NAME = "texlive-relenc-doc-2023.201.svn22050-53.1.noarch.rpm"
-RPM_HASH = "d2e55ab4d26a3bfae1a09fc8f11c5e3d2de495eaf81cb9611c3e880eb726aba0ada753761f181bcea44446236218ee2d37c3a954387adc98f2c58b335150bcfb"
+RPM_NAME = "texlive-relenc-doc-2023.201.svn22050-53.2.noarch.rpm"
+RPM_HASH = "c54a960c0dd3427952b2ac73ea8efb65fcf329d3877a517af032c0ff0c69d70f68e202a9cba04ff2188ed5bfc262ce3d2ed53ac769bbb7cf36e25eae8a1581db"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-relenc-doc"

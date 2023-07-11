@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "0.14.1"
 
-RPM_NAME = "jawn-parser-0.14.1-2.10.noarch.rpm"
-RPM_HASH = "dd6fd708b326c53d201237f2df23819dc8c1ba6a5ec1426971ff9c03f4a799568683dc94398f99f4673c78d575cbe833ee5d0c00efa45d8dd100d632267cfe27"
+RPM_NAME = "jawn-parser-0.14.1-2.11.noarch.rpm"
+RPM_HASH = "8ace6d9746992a6d3367e728f2e5f8f8d06df5a13c7ae6528a8077f11147e0aa9c5820047ec61ada3675538c88e447d2c2c26827b78a0f44c9ef07c82c9a6b8c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jawn-parser \

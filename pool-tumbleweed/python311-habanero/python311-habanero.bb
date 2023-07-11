@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "1.2.3"
 
-RPM_NAME = "python311-habanero-1.2.3-1.3.noarch.rpm"
-RPM_HASH = "815ea2c2d0b22acb73675c36dca85e4309647401233d5e25da6b6e80a78ef8e30f40145eb0ed501e38474b25523e191ef1dbb86f0e6465da13d66e6e3d5d6968"
+RPM_NAME = "python311-habanero-1.2.3-1.5.noarch.rpm"
+RPM_HASH = "3938e5f633210b54eebe2851a5c6ba259346358675d5024c0d85364eb53144bae46e4c2f2ea8c91854d5e0c60de1b4e915ea6c3ed074523ff62b09655240b943"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-habanero \
+RPROVIDES:${PN} += "python3-habanero \
+python3.11dist-habanero \
 python311-habanero \
 python3dist-habanero"
 

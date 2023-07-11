@@ -5,8 +5,8 @@ LICENSE = "Artistic-2.0"
 
 PV = "0.0.8"
 
-RPM_NAME = "perl-Net-OBS-Client-0.0.8-1.10.noarch.rpm"
-RPM_HASH = "3f3ad6735d77ececc2a252f82d3a2ee5e74242b1efa88dcdf2b33386a12b38982dc1d7f0c5cf94ba33a14836daa24049757121c69ae7c19d8a1b251d669d2c87"
+RPM_NAME = "perl-Net-OBS-Client-0.0.8-1.11.noarch.rpm"
+RPM_HASH = "3ecba8b9a7d70d3bbed0537461904631ddb46a3f5693ff4e86cfc5b513e67391e7ecf165f24863190a89b723ec77f6ebe0ee4bd95beb678882603ff90c7042be"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Net--OBS--Client \
@@ -18,7 +18,7 @@ perl-Net--OBS--Client--Roles--BuildStatus \
 perl-Net--OBS--Client--Roles--Client \
 perl-Net-OBS-Client"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Config--INI--Reader \
 perl-Config--Tiny \
 perl-HTTP--Cookies \

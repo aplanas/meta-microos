@@ -7,12 +7,12 @@ LICENSE = "Apache-2.0"
 
 PV = "7.0.1"
 
-RPM_NAME = "python3-oslo.rootwrap-7.0.1-1.2.noarch.rpm"
-RPM_HASH = "b1cde539662cec061ed1063f38dc318798c23337c8876c0fb9da381d8540832ca01552469b1727244c947f12d85d2e899a44e1054c5c5d0d36c5552f8b67d0c8"
+RPM_NAME = "python3-oslo.rootwrap-7.0.1-1.3.noarch.rpm"
+RPM_HASH = "2577b6ef3ade8327288dd1a3475667c15da4971cb8a0bb477a8726f94dba48a1f7ff6a1539c3b0ed4d061f55f49e1819a9302e2e25f73d5a6b1083e97e13f33f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-oslo.rootwrap \
-python3.10dist-oslo.rootwrap \
+python3.11dist-oslo.rootwrap \
 python3dist-oslo.rootwrap"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

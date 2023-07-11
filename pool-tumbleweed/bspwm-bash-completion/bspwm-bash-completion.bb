@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.9.10"
 
-RPM_NAME = "bspwm-bash-completion-0.9.10-1.11.noarch.rpm"
-RPM_HASH = "6127381ccd24df0dbee52dc026947b3673a6ae255cb572ecc4220ed1b8b1ce54f4967ceae1b2243112246c85d1ae9835c59c314288096d73cc8c19ade5491167"
+RPM_NAME = "bspwm-bash-completion-0.9.10-1.12.noarch.rpm"
+RPM_HASH = "093dd119387e006b7edda4f54a3f0117565ccbfb4d0f9d7e5a6f993df724003488461cc55d8ebb868715024ba1c4c76e3b9fe78b663ed9956ce21add781ff16a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bspwm-bash-completion"

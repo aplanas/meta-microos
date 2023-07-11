@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later & MIT"
 
 PV = "5.6.4"
 
-RPM_NAME = "deepin-file-manager-dbus-5.6.4-3.7.noarch.rpm"
-RPM_HASH = "87a963cfd6a9e55ff129464960ab3abdd324485156ec545f7ed4018c43ffae5e7aebe37120c3b38e7954e9f11b67a3fefa56ab8a386d8ddd62bb412671b54bd4"
+RPM_NAME = "deepin-file-manager-dbus-5.6.4-3.9.noarch.rpm"
+RPM_HASH = "b4eae3c8c8c5609cb431caaae92f5b8ee0e4b43cef22623b7dfda2424eb5725493444597e102cdd8c69ef7d89d2e40fff3eeb2b4ffd372d36136e8d4250c31de"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-file-manager-dbus"

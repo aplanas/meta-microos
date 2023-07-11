@@ -6,13 +6,11 @@ LICENSE = "MIT"
 
 PV = "0.7.0"
 
-RPM_NAME = "python310-azure-synapse-accesscontrol-0.7.0-1.8.noarch.rpm"
-RPM_HASH = "69aaf6e220374ce64ad12399ae54fd878e2e99e8fe79e581cba88ea4c8d3272b79815c5c868b09079fb2a6575bcaa299f71abd250bef7044e83bace031e1d040"
+RPM_NAME = "python310-azure-synapse-accesscontrol-0.7.0-1.10.noarch.rpm"
+RPM_HASH = "4d4aedef4a3748600a724bbcaaf8d9cfae7f8f615b8aaff12782a8440c585c9de45e5ff3cde60bff1ea4e4620dcfa5659738a4b494a3a4275d0a30b4867fd533"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-synapse \
-python3-azure-synapse-accesscontrol \
-python3.10dist-azure-synapse-accesscontrol \
+RPROVIDES:${PN} += "python3.10dist-azure-synapse-accesscontrol \
 python310-azure-synapse \
 python310-azure-synapse-accesscontrol \
 python3dist-azure-synapse-accesscontrol"

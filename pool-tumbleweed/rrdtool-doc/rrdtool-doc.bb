@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
 PV = "1.8.0"
 
-RPM_NAME = "rrdtool-doc-1.8.0-3.1.aarch64.rpm"
-RPM_HASH = "db8ce1d37d5a73d0cc254d3eb921011e71458a6f2dc8fb7ce78216b948ba68d3bb3f3d0e26128fd607fbef2a8071a7a2b3e7df70b96abb0b301cdd8b85145112"
+RPM_NAME = "rrdtool-doc-1.8.0-3.4.aarch64.rpm"
+RPM_HASH = "31426887886b128d094e0f5ec6f70bb56b02b5b859c3e7d67564f5d2a671d7d2b7c993edbbbb04d8de952ed4f5b8d49429350d36ef232ec30e300e9b31db1c10"
 
 RPROVIDES:${PN} += "rrdtool-doc"
 

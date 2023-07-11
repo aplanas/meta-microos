@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6.1"
 
-RPM_NAME = "python310-ufonormalizer-0.6.1-1.7.noarch.rpm"
-RPM_HASH = "3ef7cdf621a3812bae842dc7082db7d93efec382ec7819791a4202894fccc607c7758307581a167f5684a45a7e63c862e1bd04c1621ce930954f8d27890e05c4"
+RPM_NAME = "python310-ufonormalizer-0.6.1-1.9.noarch.rpm"
+RPM_HASH = "f7ffd8b94c7fcdf8d295544da4f4500e83619caf30d4611067c531a66c715406a81f8b7e3969d6f407ef55948d18081444f7dd459764e74de14128947e002f38"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-ufonormalizer \
-python3.10dist-ufonormalizer \
+RPROVIDES:${PN} += "python3.10dist-ufonormalizer \
 python310-ufonormalizer \
 python3dist-ufonormalizer"
 

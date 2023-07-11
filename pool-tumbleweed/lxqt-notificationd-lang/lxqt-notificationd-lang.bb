@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.3.0"
 
-RPM_NAME = "lxqt-notificationd-lang-1.3.0-1.1.noarch.rpm"
-RPM_HASH = "88b6229cb54c6e619247ebdad5b72ea3df4013e79746cfb8fab2380502ca3fdde865b0ad8b3fc0a9bcbd874c1aae30b22bda69f5a85608a265905369e3305a8b"
+RPM_NAME = "lxqt-notificationd-lang-1.3.0-1.2.noarch.rpm"
+RPM_HASH = "04955715eec2d8f269be4fa62be8bb141387f54111587592bd075ddb2b0baec31d05211c4f7b5d95238da03cbeaf8ca912e1f6f7631cd5131d7ec124721dda6d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lxqt-notificationd-lang \

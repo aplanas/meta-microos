@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.4.1"
 
-RPM_NAME = "glabels-3.4.1-4.12.aarch64.rpm"
-RPM_HASH = "f3b5d2991f8f28ac8e61de82c760410a6e9aa90ace72beae98529d9a254a879c856803904277312d2deca89aba7ac8d1b02670885470e4c4de9e9487f1579bc2"
+RPM_NAME = "glabels-3.4.1-4.13.aarch64.rpm"
+RPM_HASH = "c7eca108a547376548a9e64c2927e7fb80e263ccf32155834f18cb75d39a905a6c72889d52aed63c8562f265ad5b4a472f198d7933c00d6d0d01b38716fed012"
 
 RPROVIDES:${PN} += "glabels \
 libglabels-3.0.so.8 \

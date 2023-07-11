@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.4.2"
 
-RPM_NAME = "python39-pytest-freezegun-0.4.2-3.1.noarch.rpm"
-RPM_HASH = "20c28769448b1991fa151b19ab7ebc21985813203a0db6e7e120983ea4e3ba3a41ff29bc928c0bef12e3a309e53bfb47a1876f6dbdad3777c31053a21ab033d2"
+RPM_NAME = "python39-pytest-freezegun-0.4.2-3.3.noarch.rpm"
+RPM_HASH = "4adea65b04fab74c5391eef2f004d74a3fcb005354b199d63c062956acde26105d93805993e2d25e3c63d95b154488393458aa01d9434d11f9dcce4e52111efd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytest-freezegun \

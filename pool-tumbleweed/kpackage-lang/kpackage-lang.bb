@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kpackage"
 DESCRIPTION = "Provides translations for the 'kpackage' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "kpackage-lang-5.106.0-1.1.noarch.rpm"
-RPM_HASH = "951b1118a70f3a1ed1fb2964d2cf29a0fa2660f0a6f44a9d039d9f2cdab622e30be9ea168438cefd94bb2a1800a3f5a9ea1cefa2fb3d70446a02bb70aa8d5138"
+RPM_NAME = "kpackage-lang-5.107.0-1.1.noarch.rpm"
+RPM_HASH = "c43b000b522587db7ebfefb0286aa2b26e0ac157bee2b70591155849489ea913dff78afac7e1d4c2bb5b2bb2e2e3c9a27c7201cd402c856791b3a73dd967e151"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kpackage-lang \

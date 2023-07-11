@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.4.1"
 
-RPM_NAME = "xfce4-docklike-plugin-0.4.1-1.1.aarch64.rpm"
-RPM_HASH = "a480fb5a6430831528561fd58dd81ff32b8560efabb78812e9489f9c0c31899393573f8fa2e880bd96968b3c53ecfa03ca5eabfecb5b13066ce67999457c9202"
+RPM_NAME = "xfce4-docklike-plugin-0.4.1-1.2.aarch64.rpm"
+RPM_HASH = "0dcb69880ec90e8ece0e39b4d23f5d562494f0cf04b17e59d803428c72cab5bea0b9b7dd41f40e72b6dfc453d7255d426222139a92fadfd58cfa9abba852613e"
 
 RPROVIDES:${PN} += "libdocklike.so \
 xfce4-docklike-plugin"

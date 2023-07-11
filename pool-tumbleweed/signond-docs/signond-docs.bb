@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "8.60"
 
-RPM_NAME = "signond-docs-8.60-2.18.noarch.rpm"
-RPM_HASH = "3eef6f5ef7992344734b471bc2129cd4473c74347c08e7dcc50c4dc7d901fbff618506fc4d3fefe8f1f6a908218c83b5c0058acb56bbc6deb37c72d289a461af"
+RPM_NAME = "signond-docs-8.60-2.19.noarch.rpm"
+RPM_HASH = "18601cd1eff6381ed95dde5bc80d056ff8b9827d7f55bc39981114e995949bd60571781cf8731c5cdfd9b353865cc9cfaaf9e7946fdba5a9731bdfb4efb0ff77"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "signond-docs"

@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.9.3"
 
-RPM_NAME = "python311-fontMath-0.9.3-1.3.noarch.rpm"
-RPM_HASH = "d8ec23b9a404422a941a2ab862084c8f92bbed6b87915b0b98eb853caebed12a6288e6278187d5efef5b5d33bda31f868a58a799437aa106fd327e9323e47c75"
+RPM_NAME = "python311-fontMath-0.9.3-1.5.noarch.rpm"
+RPM_HASH = "319db9976e4db441bb7bfa0f2d147d6dfc7da911d21b0c1ac8cbdd9ab11b285aa959293b8cc346bdce46dfa2d2ff476121cba7630efc51cd17a92d22da42378d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-fontmath \
+RPROVIDES:${PN} += "python3-fontMath \
+python3.11dist-fontmath \
 python311-fontMath \
 python3dist-fontmath"
 

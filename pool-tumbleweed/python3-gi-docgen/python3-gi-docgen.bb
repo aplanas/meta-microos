@@ -4,13 +4,13 @@ LICENSE = "Apache-2.0 & GPL-3.0-or-later & CC0-1.0"
 
 PV = "2023.1"
 
-RPM_NAME = "python3-gi-docgen-2023.1-1.1.noarch.rpm"
-RPM_HASH = "b07beb4c4865f9495671f58b992787cf753c7dd79980c3faeaf99fde977926c7223fb4bf474a10f8f441ebdac613a7f48ade7ed532eb6a171245d7530a6a1ebc"
+RPM_NAME = "python3-gi-docgen-2023.1-1.2.noarch.rpm"
+RPM_HASH = "08c6a22b5efa7bbfe3c230bc5d21855f57dfb328229acaec565b47e066f7525f635b5558ee56c0b389523a97af5c9c9b1389247700db0baa4ee2d7240afc6fa2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pkgconfig-gi-docgen \
 python3-gi-docgen \
-python3.10dist-gi-docgen \
+python3.11dist-gi-docgen \
 python3dist-gi-docgen"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \

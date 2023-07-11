@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "3.1.7"
 
-RPM_NAME = "python3-Rivet-3.1.7-1.1.aarch64.rpm"
-RPM_HASH = "8f7d91a1d58576301d45a531c6ed242319d2b38131918e62c5fa7820c5fb7234cc0655c0cc1f84a953ef092a855fedeb4a13ea5c8fbe706c86f2e3b4ef00923a"
+RPM_NAME = "python3-Rivet-3.1.7-1.2.aarch64.rpm"
+RPM_HASH = "a24f5170b9b619b9fdcf1705eef9fec4767ac168022814d3a1330dd1fe8c7ebfe0471d5ed58bc66a7eff6e5c86dced25de269b6ccc98d8ec295ce88195cef548"
 
 RPROVIDES:${PN} += "python-Rivet \
 python3-Rivet"
@@ -27,7 +27,7 @@ libHepMC3.so.3 \
 libRivet-3.1.7.so \
 libc.so.6 \
 libgcc-s.so.1 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libstdc++.so.6 \
 libz.so.1 \
 python-abi"

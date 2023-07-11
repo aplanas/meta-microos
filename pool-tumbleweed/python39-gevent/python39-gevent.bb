@@ -18,8 +18,8 @@ LICENSE = "MIT"
 
 PV = "22.10.2"
 
-RPM_NAME = "python39-gevent-22.10.2-2.1.aarch64.rpm"
-RPM_HASH = "02166df230d3b9d5bbad3e2bf9eb81feb24d8f87f30f7fc97e72cecce0cbd1e0f8442882b13fe26d89a57bb899fa9fe3317ed22d1f99eaffcf28ab4aeead86e3"
+RPM_NAME = "python39-gevent-22.10.2-3.2.aarch64.rpm"
+RPM_HASH = "ab3aa2d23afc983156f4b708fdc7f3701fa61cf3cdf11e8975f16ffca8e1d10e8a6f0520f33b3a423e9a3dc9dbfe14ffbf5c26ad97d900ac06546c96639ddfc4"
 
 RPROVIDES:${PN} += "python3.9dist-gevent \
 python39-gevent \

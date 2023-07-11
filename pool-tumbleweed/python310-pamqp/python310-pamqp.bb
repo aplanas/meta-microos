@@ -12,12 +12,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.2.1"
 
-RPM_NAME = "python310-pamqp-3.2.1-1.3.noarch.rpm"
-RPM_HASH = "da97e88f3b5602927c287ced36b3f6d009a5d861183060a7b74effb6bf2b3dbe59127bad021b27f45ad61a69d21aa6ba78b5bac4882329ee75ceb339e2aa1701"
+RPM_NAME = "python310-pamqp-3.2.1-1.5.noarch.rpm"
+RPM_HASH = "f4d02de65ae11c2738c9407a6ce6dc1ad14735f5811b8e8e321c04eda8fc115ff16c708f16166b36be2e20bc158b5afd3e1f7eaa837f3121677b05685d76b908"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pamqp \
-python3.10dist-pamqp \
+RPROVIDES:${PN} += "python3.10dist-pamqp \
 python310-pamqp \
 python3dist-pamqp"
 

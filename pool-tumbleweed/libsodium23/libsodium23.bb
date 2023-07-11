@@ -9,8 +9,8 @@ LICENSE = "ISC"
 
 PV = "1.0.18"
 
-RPM_NAME = "libsodium23-1.0.18-2.14.aarch64.rpm"
-RPM_HASH = "5b62d4a7f2ef8e24f005b79a56bdb1c0a13781f6644cb79585a015ba06bce2f7c733c5fe81403127d80eaa7534423a2d96a2f562b8724b1a7d10892ae56ab330"
+RPM_NAME = "libsodium23-1.0.18-2.15.aarch64.rpm"
+RPM_HASH = "5fd8c10b334e5453870808687d49ba8061becb4fd456ac86702843c5bc8ff19f3df3f2eaca2224fb8eb7d4c69c5b9f06a94d783ccee413efda3bc42bceadfaa4"
 
 RPROVIDES:${PN} += "libsodium.so.23 \
 libsodium23"

@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.1.3"
 
-RPM_NAME = "libdnf-plugin-txnupd-0.1.3-1.12.aarch64.rpm"
-RPM_HASH = "b162244db489b04a919fab516d4a424859969cf44c7d99173d9c5b4c685f0765ef53f8938e7e7bb168fc3d64af6cf9d8f532f9af092152663912c77a3cfae95d"
+RPM_NAME = "libdnf-plugin-txnupd-0.1.3-1.13.aarch64.rpm"
+RPM_HASH = "dbc6078d8b22cc77b466d3a7ab7252a34c1b6eb88b1195bc26dc688282498835fbb5c8afb8f239cff15ca74485585fb53643eb3d4e59c97ae382d2cdbaa347ce"
 
 RPROVIDES:${PN} += "libdnf-plugin-txnupd"
 

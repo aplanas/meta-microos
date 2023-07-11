@@ -7,12 +7,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.1.4"
 
-RPM_NAME = "python310-zipstream-1.1.4-4.12.noarch.rpm"
-RPM_HASH = "3c86c64a60919657d9c672822d613c2709895a432556f62430ac392aecbf244a67617b9503b3dab1edc1af6d38157f4cc2d9d852a3efe4f75c3e47ac8f7d9cc6"
+RPM_NAME = "python310-zipstream-1.1.4-4.14.noarch.rpm"
+RPM_HASH = "d38057f80f3120223e09059299da60547210bfe2dd447f6e7f2e4cf79a905fde0b0aa1db424298b828a040d8db6d7699051f960a73f9453c837d5876bdc49a12"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-zipstream \
-python3.10dist-zipstream \
+RPROVIDES:${PN} += "python3.10dist-zipstream \
 python310-zipstream \
 python3dist-zipstream"
 

@@ -13,8 +13,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.1.4"
 
-RPM_NAME = "python39-munkres-1.1.4-4.1.noarch.rpm"
-RPM_HASH = "edb3704091942b81d7652419a34b54e3e546a5865cb88d0c4ca8f090131d42f975daae060886dcf2bce3d6aece6b0a4cb37f87d2f7ade07f90ca7d4f2b9652c1"
+RPM_NAME = "python39-munkres-1.1.4-4.3.noarch.rpm"
+RPM_HASH = "d05fd6cfd59ec7a4b0267624f2e135aba4a942ead820a00084566c00f74e055147b9c7be6ca3818c3286e95c8888d859ab8960486fabfaf2754fd407399e4c3b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-munkres \

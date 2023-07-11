@@ -5,10 +5,10 @@ Included are QtAssistant (help browser), QtDesigner (GUI design), QDbusViewer \
 and several more."
 LICENSE = "(LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)) & GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
-PV = "5.15.9+kde1"
+PV = "5.15.10+kde3"
 
-RPM_NAME = "libqt5-qttools-5.15.9+kde1-1.1.aarch64.rpm"
-RPM_HASH = "15903b9874613f84bb038cb7ac5a14c2f12a41e97f68a56675b072e22ac29ed1d0ffe94b68e41e5286ec78cd549e673a91a47c41b0e3bcaddd2bde007efbcc54"
+RPM_NAME = "libqt5-qttools-5.15.10+kde3-1.1.aarch64.rpm"
+RPM_HASH = "6e3eaf4b2f980df1bc2b7909b14304ba078fd188fc2a3839e63b3f22849d832e32fc2f575d653d9f814f9f2117ff799a91a5dc55e4eef9de7449029a682f5321"
 
 RPROVIDES:${PN} += "cmake-Qt5AttributionsScannerTools \
 libqquickwidget.so \

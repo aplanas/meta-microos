@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.11.2"
 
-RPM_NAME = "libisds-devel-0.11.2-1.4.aarch64.rpm"
-RPM_HASH = "462e27a71854aa30774c54050bb7736c90742222190df534f6676d01f8247430ae6be551f269db2188f2edf90ce16e1476014231c0563cb240058d8e611677d8"
+RPM_NAME = "libisds-devel-0.11.2-1.5.aarch64.rpm"
+RPM_HASH = "3bb1cbe11135b21e1cc2956b2779b8b1c220b6be1259c7b3fa0028a117c7f19ceeced5bd73a47a121241e572abb092231aadb47352b0c087e0eba3642e2d71c1"
 
 RPROVIDES:${PN} += "libisds-devel \
 pkgconfig-libisds"

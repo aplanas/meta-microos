@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & EPL-1.0"
 
 PV = "0.3.5"
 
-RPM_NAME = "sisu-plexus-0.3.5-3.5.noarch.rpm"
-RPM_HASH = "1c0a8817e3678d05bbc84754b78f85ddf14cd38cb0a3901f030e742b7b4be7ddb1a8ce7c1c35494e4cb41b4f6dae56b0fc0a8d326737fbeca3e7fc72470cfbac"
+RPM_NAME = "sisu-plexus-0.3.5-3.6.noarch.rpm"
+RPM_HASH = "2508c0f5b9fe0059188dec72623b4de7d0b9c957d81d4c9be028d1307b0a87f8b38167d4e03c435ef1e55f15c2f7889a859e1a17877c06cb6dc72ee77b6e2e83"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.eclipse.sisu-org.eclipse.sisu.plexus \

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & MIT"
 
 PV = "5.12.0.134.g4cebbfc"
 
-RPM_NAME = "collectd-plugin-mysql-5.12.0.134.g4cebbfc-1.4.aarch64.rpm"
-RPM_HASH = "203eb57ba8f4ceab70d6904449d969b9b6d60072100e2ced505f633ce416a722100f38aecab8980c5f1937c5496a643691014d3a56249c25e089946d14c1aca9"
+RPM_NAME = "collectd-plugin-mysql-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
+RPM_HASH = "ef24f2b883d3d7f399fb9f05f2933c69273fb80ce362e63d69e3abc7306fff154eeff437c620accd53166201053983738e2dbb48af0c6e4b53a85cfb0277c50d"
 
 RPROVIDES:${PN} += "collectd-plugin-mysql"
 

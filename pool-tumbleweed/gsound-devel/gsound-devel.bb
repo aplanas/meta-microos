@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.0.3"
 
-RPM_NAME = "gsound-devel-1.0.3-2.8.aarch64.rpm"
-RPM_HASH = "0d8600c08da7cee3aeb3f2b4c500baecdee40702411c0a43a47ca5deeb25b8b4f473309ce7767d8772b3ae65f0a423de63913f44880cbfcaa8466f3ca8f075a6"
+RPM_NAME = "gsound-devel-1.0.3-2.9.aarch64.rpm"
+RPM_HASH = "bc6cb8c36e16884b053ebde7ff52ef575f0f417387f3c91e2ee6e4c8d26b236737d57ee8fb83b3ac1cd885d6fae5313ed18af236ff1a09e515f2fd0eb068fcd1"
 
 RPROVIDES:${PN} += "gsound-devel \
 pkgconfig-gsound"

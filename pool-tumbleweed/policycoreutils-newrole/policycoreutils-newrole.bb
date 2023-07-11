@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.5"
 
-RPM_NAME = "policycoreutils-newrole-3.5-2.1.aarch64.rpm"
-RPM_HASH = "2ff1d18b5a4fc7bbc1a80c47a0fc29e7d34516707bc71b0acd930854656f3d8d40e6749cd765cb80d227869501871d1ea3f32090fca864ad30cdddb5211e394e"
+RPM_NAME = "policycoreutils-newrole-3.5-4.1.aarch64.rpm"
+RPM_HASH = "61ab0c189e3b7946709dc1dbc449a9e7de08338b0d93b2728eec01e95bbdccc54c5038910a331f70230e920d6f45d4c251cb8cec5f96565204f08dc4a837f662"
 
 RPROVIDES:${PN} += "policycoreutils-newrole"
 

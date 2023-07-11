@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.14.17"
 
-RPM_NAME = "libupnp-devel-1.14.17-1.1.aarch64.rpm"
-RPM_HASH = "7e8f33d38190fc9d92e9614815ae353202262545109f99d44646f8b0c04313c49d2068ecaa43bea8690f84e4b3ee864bd814abf04a43d109ea4ea2d931e33764"
+RPM_NAME = "libupnp-devel-1.14.17-1.2.aarch64.rpm"
+RPM_HASH = "a7bc6a3a35b8260135da22f7aad1c87031f00db8faff5b8319ee40f3d469caa37654222f3d49c4cc4ccd63862b27ce199d0053e625e20461bd2e38383e727db0"
 
 RPROVIDES:${PN} += "libixml-devel \
 libupnp-devel \

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.8.3"
 
-RPM_NAME = "ghc-cereal-doc-0.5.8.3-2.3.noarch.rpm"
-RPM_HASH = "5fd765a138ef1a9e94ae01714f1a939b8c79ea4c26b2dae739f183cf778cd36a9d3124c86617d4cf9155710a55a057fc053ff7f4adf5d1fdb1fe65165e648d8e"
+RPM_NAME = "ghc-cereal-doc-0.5.8.3-2.6.noarch.rpm"
+RPM_HASH = "ea4e13c4a49eb43b933174bc9f65a3808262d0c6c24ea7d09dc12f3ad374452752394f38ab1961e124d3ebc53e526f1038c101eea7cfc4d36809ffc63be2859f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-cereal-doc"

@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "python310-azure-communication-chat-1.1.0-1.8.noarch.rpm"
-RPM_HASH = "2cb7862d7c14fe2113b44c1a6a64d540b65bfba2dd621b78fc67d36f3f1fdef200ac292e5b76c4ef86e74b5fa13caf88e46e332327fbe007d8c2463830f9e215"
+RPM_NAME = "python310-azure-communication-chat-1.1.0-1.10.noarch.rpm"
+RPM_HASH = "40a1090227a8a214b81a4dd53fce75b3be193e84002a5d1b4f38baeadd3df18cf63c1671351fdfaef154eeace2713f52bb01d1ea11e1ed95b5e0a63866bdfbe5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-communication-chat \
-python3.10dist-azure-communication-chat \
+RPROVIDES:${PN} += "python3.10dist-azure-communication-chat \
 python310-azure-communication-chat \
 python3dist-azure-communication-chat"
 

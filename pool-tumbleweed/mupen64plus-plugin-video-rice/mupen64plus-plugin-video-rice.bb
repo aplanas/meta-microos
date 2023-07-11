@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.5.9"
 
-RPM_NAME = "mupen64plus-plugin-video-rice-2.5.9-2.8.aarch64.rpm"
-RPM_HASH = "07ca00b58346492f3a88bde2fc0655235908bfe58756dd57c2ed82e2fd8458508a48adbfe1f706aa9485379868cc770adc473b622f4be41f572d1d0d59fd6114"
+RPM_NAME = "mupen64plus-plugin-video-rice-2.5.9-2.9.aarch64.rpm"
+RPM_HASH = "4b192333b3bd39124329716c726c8195a02d2a1a2ebf4f05751efeab2f4a6dc9ae479f82f16ab9760b603481af939fa96d3b8fe574179f02989a6a325d27b5a0"
 
 RPROVIDES:${PN} += "mupen64plus-plugin-video \
 mupen64plus-plugin-video-rice"

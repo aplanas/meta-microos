@@ -6,8 +6,8 @@ LICENSE = "BSL-1.0"
 
 PV = "1.82.0"
 
-RPM_NAME = "boost1_82_0-quickbook-1.82.0-1.1.aarch64.rpm"
-RPM_HASH = "eb9062a2cf6d6b58ae33f684519a42fa996f2263c5f95c944d3f9d68aca021c67020fa6159bcdfba1b391f747b7114fe99e4fd595a085ac2dfb49597bcf4d2aa"
+RPM_NAME = "boost1_82_0-quickbook-1.82.0-1.2.aarch64.rpm"
+RPM_HASH = "c420d7822c1d91851ee49a318b9f90ac908b61c337ae2119f2973fe57feb4b06ebd225cd59620475b02d1d780788d97823f908b9b2d7f8ed92dd6686db4d5e03"
 
 RPROVIDES:${PN} += "boost1-82-0-quickbook \
 quickbook"

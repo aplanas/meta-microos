@@ -5,8 +5,8 @@ LICENSE = "JasPer-2.0"
 
 PV = "4.0.0"
 
-RPM_NAME = "libjasper7-4.0.0-1.3.aarch64.rpm"
-RPM_HASH = "c4222cbbac97bdc8113fabd1f905733fb46184087b206544cdbd442abc4ca35685c3c4bfaa16e87e9aa29917a88858349dd15a8312df288d0d91923ce0a2f52c"
+RPM_NAME = "libjasper7-4.0.0-1.4.aarch64.rpm"
+RPM_HASH = "58774914bc957ae5f63ec86e0f20e048de690c0d650797df1758d6bde3a71ab4d5d5676c07fd5fb4f35d98a093aee38ccc0c4bd3b9b419f4041d3197600758ff"
 
 RPROVIDES:${PN} += "libjasper.so.7 \
 libjasper7"

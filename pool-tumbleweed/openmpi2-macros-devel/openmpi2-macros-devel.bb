@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.1.6"
 
-RPM_NAME = "openmpi2-macros-devel-2.1.6-14.3.aarch64.rpm"
-RPM_HASH = "5a66678f11a5f46a216dc9075bb5bc9d28d0ceddbfb1e85d311b99759ffa4f69e81dc45eab714955bf9d16e595c4489d0eacf5309967d28db1ec10340c1793fd"
+RPM_NAME = "openmpi2-macros-devel-2.1.6-14.4.aarch64.rpm"
+RPM_HASH = "8a1e93634c34638232639d958ad63d274af8d3c43b594e648dda5674b3c3fa1ebe41dee562c451b5a53c1580e85793a26816c3232a0c8d51b54a0144ff1a1550"
 
 RPROVIDES:${PN} += "config-openmpi2-macros-devel \
 openmpi-macros-provider \

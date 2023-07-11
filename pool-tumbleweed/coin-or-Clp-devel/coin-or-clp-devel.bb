@@ -6,8 +6,8 @@ LICENSE = "EPL-2.0"
 
 PV = "1.17.7"
 
-RPM_NAME = "coin-or-Clp-devel-1.17.7-1.3.aarch64.rpm"
-RPM_HASH = "0636d2e0f09ef8bcc8a98ad94c5f8bbdfd4975ede66f1b416ab6404513173af0b595487207256d8700356819aa831574d1180b6b28f7a4d59113f718b1ac27b7"
+RPM_NAME = "coin-or-Clp-devel-1.17.7-1.4.aarch64.rpm"
+RPM_HASH = "4918a6e395572674aa8cfea201653c50f40dc62ba8235b028df5d0420915fbacf11bedf3e339985cb792158f2bc9eb0753dc00d733599547929fb00cab6d8d97"
 
 RPROVIDES:${PN} += "coin-or-Clp-devel \
 pkgconfig-clp \

@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.24.0"
 
-RPM_NAME = "python-gtk-devel-2.24.0-22.8.aarch64.rpm"
-RPM_HASH = "faf1a08ec25e73230438eef0714f23d16c610a82d9f6c3dcee137905ecc3ad46ad62ba9784c313b24717e69f773a7ba84034cadae15e7f23ebb2a31f80c91129"
+RPM_NAME = "python-gtk-devel-2.24.0-22.9.aarch64.rpm"
+RPM_HASH = "148bb80e114cdc1c8c07948da73adaf9d72d1484ba236e918fd9afa1a9f1e1a1f130ec0ede3d6eee90ab828430565a2d52e4be5d5153d5071a74c29458b3b0fb"
 
 RPROVIDES:${PN} += "pkgconfig-pygtk-2.0 \
 python-gtk-devel \

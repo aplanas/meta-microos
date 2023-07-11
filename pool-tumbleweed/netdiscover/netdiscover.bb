@@ -11,8 +11,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.10"
 
-RPM_NAME = "netdiscover-0.10-1.3.aarch64.rpm"
-RPM_HASH = "ffe2e709ce9c32869626f5d6f8bcab494be552f27ff797a785caf6b1cf7246cddd9bcf613f8aa0a01f5639da2efb8f5b70d841b76c562d68c554e55cdaae1cf4"
+RPM_NAME = "netdiscover-0.10-1.5.aarch64.rpm"
+RPM_HASH = "436b4993de68cca28b2f873325b1b33eba472da298fe6545633b1f390f4d96b1a4bcce404217cd83bccd7b4436bf47ac4a356b3042ec05c75397762c2fd68795"
 
 RPROVIDES:${PN} += "netdiscover"
 

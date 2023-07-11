@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.1"
 
-RPM_NAME = "vm-dump-metrics-1.1-5.6.aarch64.rpm"
-RPM_HASH = "b9d079cd8168c0fd5e3ec23a3daf7797f879a58ecd1133bf9b5e4be049d64d130da10990d1e3bc05627de64b14a2614ff14d7a10e94fa2fbcf86052f44b7a56c"
+RPM_NAME = "vm-dump-metrics-1.1-5.7.aarch64.rpm"
+RPM_HASH = "c7d52bb95028819cff2e8fcae28901e1cabfc0c2087d7ef5464bb81b0642d6f7a4ac4b9815859d8a344ae0fb1e2e2d4aef0a09889063597dd0a993c44e614266"
 
 RPROVIDES:${PN} += "vm-dump-metrics"
 

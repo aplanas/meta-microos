@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "9.0.4"
 
-RPM_NAME = "python311-pyee-9.0.4-1.3.noarch.rpm"
-RPM_HASH = "35f93579740dc1577f9264f66d09d31c75a992e127f86bdbc67a913f5d427cb3b40c8a40ac6d21873d911ef7040bdf34e77eac85781aa127db2f18a4019f736c"
+RPM_NAME = "python311-pyee-9.0.4-1.5.noarch.rpm"
+RPM_HASH = "e66ee5a82d9eb021c799ab3f393c27157076060ac0150ab2083e2548e0db91593ac95d50dbeb8957f5e03ba05ad022326ed6a69265544f2138b1bf7d2c64f8aa"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pyee \
+RPROVIDES:${PN} += "python3-pyee \
+python3.11dist-pyee \
 python311-pyee \
 python3dist-pyee"
 

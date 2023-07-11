@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.1.1"
 
-RPM_NAME = "python-pycadf-doc-3.1.1-2.5.noarch.rpm"
-RPM_HASH = "f408477f889e4973027a36bfc5157ac7c81cf79cea31a2d228af510c50e643fb856b18de000d54e0c4081443b3185544f8bf115b78a45ffdf365342b1f370a7a"
+RPM_NAME = "python-pycadf-doc-3.1.1-2.6.noarch.rpm"
+RPM_HASH = "0c03a3e5754e3a12995fe098b3114eee6027801dffa3c9ec713140f38ed08b202af123305ac108503558150520e5b9f381edaf1b1aaf62a7017fb8c7db973d5d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-pycadf-doc"

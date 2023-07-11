@@ -14,8 +14,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.2.0"
 
-RPM_NAME = "multimon-ng-1.2.0-1.3.aarch64.rpm"
-RPM_HASH = "e227e1c630a7e6e18fb3f9420b7b8eeabcc9f61164d10d90bad07c6e9cc2fccafaa61707358652537c5c0c04c59309818fb41bca857d6c99ff5b1d6f64fda543"
+RPM_NAME = "multimon-ng-1.2.0-1.4.aarch64.rpm"
+RPM_HASH = "90533d131a554ff150e182e868084bf58aab520086c9a8164c247fc694149442bbd64c254df0362ee3e7e841e8d115bcbe1c3566dbe877b4d66949bade028d8a"
 
 RPROVIDES:${PN} += "multimon-ng"
 

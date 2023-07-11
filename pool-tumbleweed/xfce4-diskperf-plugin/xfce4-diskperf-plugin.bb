@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.7.0"
 
-RPM_NAME = "xfce4-diskperf-plugin-2.7.0-1.7.aarch64.rpm"
-RPM_HASH = "c4bd162e75b48a604153d982b5ab63c0b3a6bdeeab8487cba2250346ca4bd37fa49a125606ea58bd7c8f3f5cd638491aed62a32d36aa3e4ddde1b3b8761235d4"
+RPM_NAME = "xfce4-diskperf-plugin-2.7.0-1.8.aarch64.rpm"
+RPM_HASH = "47e15146ca72bd426f4e72070a01f847525c69eae9f66f76b7e331583ae1e50c7865cf5f87ef98e5bdde3b8c4c23a36f64bbefd6eb8e6e76a7f6b3886928a9ac"
 
 RPROVIDES:${PN} += "libdiskperf.so \
 xfce4-diskperf-plugin \

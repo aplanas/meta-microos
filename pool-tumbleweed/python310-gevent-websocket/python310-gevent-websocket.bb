@@ -4,12 +4,11 @@ LICENSE = "Apache-2.0"
 
 PV = "0.10.1"
 
-RPM_NAME = "python310-gevent-websocket-0.10.1-1.3.noarch.rpm"
-RPM_HASH = "22618c938a35c61b0d04e95b7bc40958f857c1e4c2866575bb18b9bbe31ba01cdea09716976ab43bb6c671b5485d38fae56a4bad5487b4e7f94d0933772c104e"
+RPM_NAME = "python310-gevent-websocket-0.10.1-1.4.noarch.rpm"
+RPM_HASH = "040e45c1b6a3422b81e7ce279e5ab1036593edb98dea783d3fc4a82cc11a00bf58738aad243acc45df1f6ab9b38b0060816d1ceae74d937076ec27add97d77e1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-gevent-websocket \
-python3.10dist-gevent-websocket \
+RPROVIDES:${PN} += "python3.10dist-gevent-websocket \
 python310-gevent-websocket \
 python3dist-gevent-websocket"
 

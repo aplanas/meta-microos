@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.3.2"
 
-RPM_NAME = "python39-genty-1.3.2-5.1.noarch.rpm"
-RPM_HASH = "e24cf51841e0b4d583a97079c7b65cf4d66d36a1e038804caa01947859bddb573eb71d3f93665b8a734e31f5c16fa36c88f17d7d3b506a7b55895c63a6e834da"
+RPM_NAME = "python39-genty-1.3.2-5.3.noarch.rpm"
+RPM_HASH = "bbc271ac0c453c557bd447061fc15c7ea3e415be9e3c2bdd419d010448793e384276a0b8e9cc21f4b5da6713df9dfce7e46d19ddc45162573449454a67992c21"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-genty \

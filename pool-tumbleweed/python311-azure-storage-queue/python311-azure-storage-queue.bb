@@ -7,11 +7,12 @@ LICENSE = "MIT"
 
 PV = "12.6.0"
 
-RPM_NAME = "python311-azure-storage-queue-12.6.0-1.2.noarch.rpm"
-RPM_HASH = "65adc292dffedc018521127a768a63ed0edd12cec8182edc848120e920dd2ec7dc5dee48a7bbd3a4f753eb46e9a4be9533baa6bae562e46df99585e1434b6d19"
+RPM_NAME = "python311-azure-storage-queue-12.6.0-1.4.noarch.rpm"
+RPM_HASH = "b6a941cb0a7a6d395d4aa2ca377419f2437681bccb26790274c15eabd006d147417f86bb2d00d04b6e51316ac06c789655d31b19736b26b105623672c102257a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-storage-queue \
+RPROVIDES:${PN} += "python3-azure-storage-queue \
+python3.11dist-azure-storage-queue \
 python311-azure-storage-queue \
 python3dist-azure-storage-queue"
 

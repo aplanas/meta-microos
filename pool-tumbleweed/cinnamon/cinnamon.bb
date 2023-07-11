@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-only"
 
 PV = "5.2.7"
 
-RPM_NAME = "cinnamon-5.2.7-2.7.aarch64.rpm"
-RPM_HASH = "07f4ed7c4361fcc8af18b31f9aede5dba9e4514221114854c35f1f48c3211de5bf2e76a23c9226395deac3109bec4b61c76dd58f88767e595a831a6e83ad7249"
+RPM_NAME = "cinnamon-5.2.7-2.8.aarch64.rpm"
+RPM_HASH = "bb7b4b566d47a660442078e2f6fce9dfd022f011cb6e91b1736aad9eb4a448c0fb6a9722ea1a3d4f8384cc44fa72533b9b2af17670b289dd19af06490008c74c"
 
 RPROVIDES:${PN} += "cinnamon \
 cinnamon-2d \

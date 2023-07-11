@@ -5,8 +5,8 @@ LICENSE = "MPL-1.1"
 
 PV = "B.8.8"
 
-RPM_NAME = "saxon8-xpath-B.8.8-133.6.noarch.rpm"
-RPM_HASH = "ac3c3d99f692f1254b53178ca1ba0aaac17218cfb54fe74a92ae7841a13db32f9adc7747278d9ec4a9828ec74a9984362503282b60e41acbea9471243dd1407a"
+RPM_NAME = "saxon8-xpath-B.8.8-133.7.noarch.rpm"
+RPM_HASH = "86d8bbfe3bccd63ca3a008602f250d9ca6567b3b35b1f69cf6c8104047d8a2e8fe9cb997d5a029728c8b5e6aef5017781fb7f284a0d40205abbf65e95b02c2b0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "saxon8-xpath"

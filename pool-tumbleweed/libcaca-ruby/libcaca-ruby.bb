@@ -4,8 +4,8 @@ LICENSE = "WTFPL"
 
 PV = "0.99.beta20"
 
-RPM_NAME = "libcaca-ruby-0.99.beta20-1.4.aarch64.rpm"
-RPM_HASH = "a4949951c20dcf5a9be983f92e0c651a6eeeb1c5b71c143376524521c3a0663885f81376e7b0e848e63778bc793db9defbd59c970df0657cf38a92c0f73889b5"
+RPM_NAME = "libcaca-ruby-0.99.beta20-1.5.aarch64.rpm"
+RPM_HASH = "9d029bbfbea8a97a6614dfbc46a2734468530b93fc0c615e4eaad2639b364a395f23e138e1f73f80cfd55d60edda38a9ad12e5656ec948c88cdc6eadd1a16a10"
 
 RPROVIDES:${PN} += "libcaca-ruby"
 

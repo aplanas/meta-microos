@@ -9,8 +9,8 @@ LICENSE = "CDDL-1.1 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "0~20140925"
 
-RPM_NAME = "xsom-0~20140925-4.4.noarch.rpm"
-RPM_HASH = "456e08d4de4e9bc5d849503c38bf0365071822b82a539f1d8a2c9b7adf3666f795ea19f0e7e3237c6df0e1f7cba5019ad75768b8b7614f932cfca76de07029d1"
+RPM_NAME = "xsom-0~20140925-4.5.noarch.rpm"
+RPM_HASH = "eddd6ae10bbe38ed766d40611bd00d83567011333bef40e0c282be1026df905a8a2c4df5f295c86565e5b9559b20bfb1d262aed9169989a6b9db112671da0830"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-com.sun.xsom-xsom \

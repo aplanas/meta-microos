@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.2.12"
 
-RPM_NAME = "python311-vcver-0.2.12-1.3.noarch.rpm"
-RPM_HASH = "f8f8fdd20754c8731a9d99051f8b959d18c5e59f3f08fd406e0a04004e7e6ef01957d82aa475db67801ac470549b2e37d5313b7469b0c30bcbcf99226a52c538"
+RPM_NAME = "python311-vcver-0.2.12-1.5.noarch.rpm"
+RPM_HASH = "7ac47c6eb9e00cbc2579ccfa3095ddc1139d284edb038e2a4423977d5523902b73fbba135c38f55f88d80eabd441cfd3074aea9e423d67c3c2984697e6cf5d3b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-vcver \
+RPROVIDES:${PN} += "python3-vcver \
+python3.11dist-vcver \
 python311-vcver \
 python3dist-vcver"
 

@@ -18,8 +18,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.3.3"
 
-RPM_NAME = "python39-distob-0.3.3-3.7.noarch.rpm"
-RPM_HASH = "bcbbc06f3a454f98d02f95dc719e0c9d4aa2e8acda31545ac348c1f555aed0ca6e693ccdcbca00e7af5958a7638da65bae277d276b6d2c235d2bf8829df82546"
+RPM_NAME = "python39-distob-0.3.3-3.9.noarch.rpm"
+RPM_HASH = "3bf5a6e8983d261a1d32937ff6a63209d315ba39501ae5a56009de518976ad7167fffb8f08028beeb211fd26c5669ea9a437500ccfa0418aaceae90abf69b4ff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-distob \

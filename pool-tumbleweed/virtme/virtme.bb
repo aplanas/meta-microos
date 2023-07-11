@@ -9,11 +9,11 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.1.2"
 
-RPM_NAME = "virtme-0.1.2-1.1.noarch.rpm"
-RPM_HASH = "188fe4a2efe45568293713d6f21011711631a35b871e929d343bade34344101d69271e75d0def4fcdf060ba00050982360aecc062351b2f08348276bd855303d"
+RPM_NAME = "virtme-0.1.2-1.2.noarch.rpm"
+RPM_HASH = "ed6fcd0e68014ee9f43fdf634e845a28415701051193643948a87a59dd08688ccdc6d3d170c74ebbd06140bcfb4f93e8337db8f3d41ca298c71a81b3c25612d0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-virtme \
+RPROVIDES:${PN} += "python3.11dist-virtme \
 python3dist-virtme \
 virtme"
 

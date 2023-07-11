@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.92"
 
-RPM_NAME = "unmass-0.92-3.13.aarch64.rpm"
-RPM_HASH = "e942f4357d006eac872576a3fcc21d1acef09e669d6fbff491b14a2a4262f7cbbde48c811f24d7b8d51f8298dea2668ae2d32c7f939fb97a751bfa64c6c76cec"
+RPM_NAME = "unmass-0.92-3.14.aarch64.rpm"
+RPM_HASH = "a086774703fbe03fa2cff45be8a8fbf0f075c52c30b35d0cc4d4af712bf4454092ccfb2d8083a35dd967345e3074e95c9d7470f5cddcab2af898f30a55e7442c"
 
 RPROVIDES:${PN} += "unmass"
 

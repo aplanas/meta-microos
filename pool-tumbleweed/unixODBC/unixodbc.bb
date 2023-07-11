@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "2.3.11"
 
-RPM_NAME = "unixODBC-2.3.11-2.4.aarch64.rpm"
-RPM_HASH = "de6662e3f4c84fa37c4efad14b49bb6d3060c99b381c50d20c80db5d1b121ec2c9be9cc5055f42b733ac504f16ba331b016c8e73e0a6682f4cca9ed0917edee1"
+RPM_NAME = "unixODBC-2.3.11-2.5.aarch64.rpm"
+RPM_HASH = "3fb6484e3b09a7df7ac92bae2f2b67e452f2e4af92760d8621a794e2174b33b7a74fdeb0b518845c49e2c5d708b8cd6e9ba615755453eb0bf4fd374a6e150067"
 
 RPROVIDES:${PN} += "config-unixODBC \
 libnn.so.1 \

@@ -4,8 +4,8 @@ LICENSE = "BSD-4-Clause & GPL-2.0-or-later"
 
 PV = "2.6.5"
 
-RPM_NAME = "inn-2.6.5-1.6.aarch64.rpm"
-RPM_HASH = "cfff9db5b9b20fa739ff5ee964aec032768289de8d7271aca0ddc7059da6a5bb81bb19bdf0bdecc969730f55badb4cf64a413f7ad1ce54a54ea2d18dd7d2309b"
+RPM_NAME = "inn-2.6.5-1.9.aarch64.rpm"
+RPM_HASH = "df03bb2a6ab40c8d9478e275cbb4c804bb4f5a8cac7572e85c03d58dfcbc95e175ffa6eddb5a38a9345d4085b12242a6f5204e9d8e9302741a47e8deb5b9f913"
 
 RPROVIDES:${PN} += "config-inn \
 inn \
@@ -26,7 +26,7 @@ libcrypto.so.3 \
 libgdbm-compat.so.4 \
 libpam.so.0 \
 libperl.so \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libssl.so.3 \
 libz.so.1 \
 perl \

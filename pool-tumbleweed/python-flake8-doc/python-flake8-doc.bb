@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "6.0.0"
 
-RPM_NAME = "python-flake8-doc-6.0.0-2.1.noarch.rpm"
-RPM_HASH = "7d7811061273fa427ee1422c01213595c93f8a939914b683f821da664d9cda67a2a92df39bf96cbf450c491b3c57bde6bcdf5514fd3fae38b41652ce6099f187"
+RPM_NAME = "python-flake8-doc-6.0.0-2.3.noarch.rpm"
+RPM_HASH = "3aee9aa7b0fd1ec64a08eb37efcbba319e7ac263e4dff1e09b2f58b6dc4ab76e5bd88f2a2e2850467af8a0e9fee51f60448344cc86bf3178fa0e962f253791db"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-flake8-doc"

@@ -10,11 +10,10 @@ LICENSE = "MIT"
 
 PV = "0.0.7.0"
 
-RPM_NAME = "python310-XStatic-term.js-0.0.7.0-1.15.aarch64.rpm"
-RPM_HASH = "33f3c1715a9cb87ebbcb73394705fbfe498fec1ab91a7f8b262f2a626a6767f1277429abcf97bdf061d4bd6159f6f483b4c73d082c035b702f0dd34f4122fc27"
+RPM_NAME = "python310-XStatic-term.js-0.0.7.0-1.16.aarch64.rpm"
+RPM_HASH = "5bf4f8bb41dbd5fa20c5e3173c4fc0069403997e05e44bcd054b4db1d427b1a235d7fa32351d5747ea683e5f69de48d8d36b77c1c5cdf6b4dd7c28799a78d76f"
 
-RPROVIDES:${PN} += "python3-XStatic-term.js \
-python3.10dist-xstatic-term.js \
+RPROVIDES:${PN} += "python3.10dist-xstatic-term.js \
 python310-XStatic-term.js \
 python3dist-xstatic-term.js"
 

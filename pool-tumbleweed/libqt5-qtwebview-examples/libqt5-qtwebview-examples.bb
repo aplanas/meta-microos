@@ -2,10 +2,10 @@ SUMMARY = "Qt5 webview examples"
 DESCRIPTION = "Examples for libqt5-qtwebview module."
 LICENSE = "BSD-3-Clause"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libqt5-qtwebview-examples-5.15.9+kde0-1.1.aarch64.rpm"
-RPM_HASH = "dbd8d05d26e6e545334f1ecb8ad18040dc1c3c0278114a8bb5491fd5048135174645e073d9faba5b63ba1401f118bbf3eb975637072b7cb45aa471a6117ccfac"
+RPM_NAME = "libqt5-qtwebview-examples-5.15.10+kde0-1.1.aarch64.rpm"
+RPM_HASH = "be419e11da85bdeea2919e76a3bf473b9802945aa700ca86a5186e67c0ed8a532b1851bb81c186be9bffb60d121409fb58e6c13c0a2f888b6ba86b4bcd27be16"
 
 RPROVIDES:${PN} += "libqt5-qtwebview-examples"
 

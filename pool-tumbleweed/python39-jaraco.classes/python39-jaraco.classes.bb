@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "3.2.3"
 
-RPM_NAME = "python39-jaraco.classes-3.2.3-2.1.noarch.rpm"
-RPM_HASH = "1c94ec01665c1dfac84cd8b15cf0a936c90cdc8b3f21836934a0f4547f1dd002c6307e0ed746f3c451da4c66c241f7a27ef6ee66fe83cc9d67d1fff7787503b9"
+RPM_NAME = "python39-jaraco.classes-3.2.3-2.3.noarch.rpm"
+RPM_HASH = "c80491ac302656c4be20f8dde18d6a1c9f057dc79537321fed3e1fd5fb7a6ca87767a91c905bf63f099c10eb1b0e879f948c776e45b97f21a4e0e0508d152cb5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-jaraco.classes \

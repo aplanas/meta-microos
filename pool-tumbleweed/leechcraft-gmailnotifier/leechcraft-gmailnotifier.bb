@@ -8,8 +8,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-gmailnotifier-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "0c60110f4560e3e633e513b4da5dbc17409a9a77913d24e0836959674d2387b8ff5204ba35fb7df01e6ed6e990cec700ebb4d676dbe046fd5c437c52d6e5be3c"
+RPM_NAME = "leechcraft-gmailnotifier-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "522cfe221478f6b4591382eb383d67c52ba457d1a77c791efdc4eb49add0404a2c198c6d19dbf996f1ea9bd45df3207b1f9100833ac9182bd567c25ff88070d1"
 
 RPROVIDES:${PN} += "leechcraft-gmailnotifier \
 libleechcraft-gmailnotifier.so"

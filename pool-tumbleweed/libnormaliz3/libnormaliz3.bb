@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.9.4"
 
-RPM_NAME = "libnormaliz3-3.9.4-1.4.aarch64.rpm"
-RPM_HASH = "dd3b62e94eff35d9ca675213787ce6d0e24f1f8e0295c4a781bb109eee0465edbbca5bc762dba3e1eaa8c2eb5b23f68ac126eeb283bc1117536e1b238700bf0f"
+RPM_NAME = "libnormaliz3-3.9.4-1.5.aarch64.rpm"
+RPM_HASH = "a174fef1eca70ffd14dfe95760f82371cbeeac10088285ba45489fc3b37b77af91b416933fd9675039b906d61b33aa20aab6b501151d40d69bbb001b28ce8c9d"
 
 RPROVIDES:${PN} += "libnormaliz.so.3 \
 libnormaliz3"

@@ -5,10 +5,10 @@ printers (including many color devices and pseudodevices like LaTeX) \
 and can easily be extended to include new devices."
 LICENSE = "GPL-2.0-or-later & SUSE-Gnuplot"
 
-PV = "5.4.7"
+PV = "5.4.8"
 
-RPM_NAME = "gnuplot-5.4.7-1.1.aarch64.rpm"
-RPM_HASH = "a8f75aff5eb8a7b8e7fdb64092def9e4ed97daedd4b8ebdd0b724e152a5795f664267b05883a9b1a4d2671449f9b40704d56ec80b8973c1754c90bb3cdb13a61"
+RPM_NAME = "gnuplot-5.4.8-1.1.aarch64.rpm"
+RPM_HASH = "9744c381296ad3ffa085751a3753e010e9b0568a2ebab2d4fa07e151e2e7eddb833f2b9ace1410119030bf4998bcce9b3f36c55f32329e8123223cba060192c7"
 
 RPROVIDES:${PN} += "gnuplot"
 

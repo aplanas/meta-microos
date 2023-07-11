@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "7.5.0"
 
-RPM_NAME = "libazurestorage7-7.5.0-1.16.aarch64.rpm"
-RPM_HASH = "0cbcf6c579dda70bc52c571f324ac3bf10cbd35970195111e02b33a7eef4b923319ee027736a792cb235e0afa070d51960c2cde0376905ccc368d2ecd25582a1"
+RPM_NAME = "libazurestorage7-7.5.0-1.17.aarch64.rpm"
+RPM_HASH = "d9e83403e2c9ad15f38f88f530dd859850b4aae155143a3f16b47b6c867d1fbb6492a2d1bde4fc03ac8bf6d8fba90c0eef02364117eb581226a83726cce43f98"
 
 RPROVIDES:${PN} += "libazurestorage.so.7 \
 libazurestorage7"

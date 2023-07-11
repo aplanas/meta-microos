@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "2.3.5"
 
-RPM_NAME = "python39-frozendict-2.3.5-2.4.aarch64.rpm"
-RPM_HASH = "b8cc9828f234bb4fc6e49fc02ccc31586bb7d5bc7c410d803e90b81138915e84a67d44fc22c13f0d6c2a82bd19d74133ca10ea52f7ea18c19bd65e6e16d16d19"
+RPM_NAME = "python39-frozendict-2.3.5-3.3.aarch64.rpm"
+RPM_HASH = "71bc5c0c61667635ba3e34f199e8da2823007d98a873d3563392f89cb8b14b206ec643f1f2fb92964f6ac1f633cb49c68b1954f1040e363a04141b8eafbf8909"
 
 RPROVIDES:${PN} += "python3.9dist-frozendict \
 python39-frozendict \

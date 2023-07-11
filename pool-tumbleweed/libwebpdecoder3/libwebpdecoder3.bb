@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.0"
 
-RPM_NAME = "libwebpdecoder3-1.3.0-1.1.aarch64.rpm"
-RPM_HASH = "5fc07b32947ec1386b2b7c6fdc0c6d700b4b866aec977d826b18cc28746a3ece365530a84499bf54bc11af0ab0ba261d9f42560865544ba132cdb68d11029886"
+RPM_NAME = "libwebpdecoder3-1.3.0-2.1.aarch64.rpm"
+RPM_HASH = "9cfec718471dffcf4171b4c567816f0f0c773d3c5477245b1b4a88c1cda6321bbee649a1d0ed18ad4a7108285d1ca95de9d88c48818e7e5bf30cb0b88904e726"
 
 RPROVIDES:${PN} += "libwebpdecoder.so.3 \
 libwebpdecoder3"

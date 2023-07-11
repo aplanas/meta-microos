@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.0"
 
-RPM_NAME = "certbot-systemd-timer-0.0-3.10.noarch.rpm"
-RPM_HASH = "87646253101507b665d94ed570de51160030feb74d332157ba63499ad90ae0a45ad086fcfbc95aed480516274112add51e84e25278f2ea5dd66aae1476169dbf"
+RPM_NAME = "certbot-systemd-timer-0.0-3.11.noarch.rpm"
+RPM_HASH = "230a5d3e7939e1231d5c31f1641b91bb539b0cd81cf71810a1ff824fea45704d8c4334342e66ecd0e40845cb1d35e1c8f58e413f11a1ead2cc7faa817e7c4148"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "certbot-systemd-timer"

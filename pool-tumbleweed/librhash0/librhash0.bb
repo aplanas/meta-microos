@@ -9,8 +9,8 @@ LICENSE = "0BSD"
 
 PV = "1.4.3"
 
-RPM_NAME = "librhash0-1.4.3-1.5.aarch64.rpm"
-RPM_HASH = "291e73d3806da098386fd9ed266732f5f130507240561982f70668b04aa811f6ede07adf270aa1a362c88635e72b8ea38f6f0fa375ecc0e00cf6c62a4bfdbe51"
+RPM_NAME = "librhash0-1.4.3-1.6.aarch64.rpm"
+RPM_HASH = "1ef97707a62bb1b2ddbebe959ca2d27cb59e0fb909dc8e374a5c27a7a746c84f8fe0aa251c0983c691c9d62bb86721a54a0f31711251ac4ae42984661ad66ea0"
 
 RPROVIDES:${PN} += "librhash.so.0 \
 librhash0"

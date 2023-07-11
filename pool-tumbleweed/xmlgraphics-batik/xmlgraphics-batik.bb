@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.15"
 
-RPM_NAME = "xmlgraphics-batik-1.15-2.3.noarch.rpm"
-RPM_HASH = "52e179800286fb7d94e4f6250929279defe2c17366a3ec865fa48bd2b94a7a78df7b9081febca328a35505875b903bd128ea1fd50eae277f8aeb6502bbcca5be"
+RPM_NAME = "xmlgraphics-batik-1.15-3.1.noarch.rpm"
+RPM_HASH = "b2fa5d76fe1200c6dfa8bb7def50f8207baaa3902a3acb8f1cedac4046d36bec9d6bbfa7bdc750f5d9a00e4d2465c9dda492b69e918c857256da26a6de4e6481"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "batik \

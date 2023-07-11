@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.2.1+git20221219.10c1929"
 
-RPM_NAME = "scap-workbench-doc-1.2.1+git20221219.10c1929-1.1.aarch64.rpm"
-RPM_HASH = "03acbbacb31318bb4245e8e23df13898b0b2f6b4a57382d7a2f93687d3010544a0a2bea0c32f176d0294fc7cd336e6dc95830f63bffd1518b27462a961d8690c"
+RPM_NAME = "scap-workbench-doc-1.2.1+git20221219.10c1929-1.2.aarch64.rpm"
+RPM_HASH = "383029736619b82e34817ecd71956d0a66fef66f8b9a33df590de10cd6e6530a06d8fd3ed95f5cc6e9e7d628fd967a7ecd8e43df17865e06afe1df150569df16"
 
 RPROVIDES:${PN} += "scap-workbench-doc"
 

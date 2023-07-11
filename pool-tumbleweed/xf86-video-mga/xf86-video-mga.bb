@@ -17,8 +17,8 @@ LICENSE = "MIT"
 
 PV = "2.0.1"
 
-RPM_NAME = "xf86-video-mga-2.0.1-1.4.aarch64.rpm"
-RPM_HASH = "05e6f15fff9d4f39ba6c8beda4da7b57350d8f8833e14e6dddba063fd38540ed9b6b8327ec672359af2cae94a4c953e55d17a81d1e10cb093a547fdaba43cfbf"
+RPM_NAME = "xf86-video-mga-2.0.1-1.5.aarch64.rpm"
+RPM_HASH = "185f11b9218260990811a330299c7a1c71bb1d304bbd5fe4c147de788b14502e03298ac8a87c34aeec3dffa9d4aba1472c649b1b16bf6aeaf2c10d072754d410"
 
 RPROVIDES:${PN} += "xf86-video-mga"
 

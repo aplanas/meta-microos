@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.0.1"
 
-RPM_NAME = "bean-validation-api-2.0.1-1.17.noarch.rpm"
-RPM_HASH = "de64c8662648659b1614a40a0b19b96f953a88c66aebbdac602e9e3a03253b2d6fc1cc8c537777f0df3c921be464b98207968fb6b0e059f2b587b192f3249d67"
+RPM_NAME = "bean-validation-api-2.0.1-1.18.noarch.rpm"
+RPM_HASH = "8bc9edb4b4b50638604d3aa69709b67b96170b8f4c5ee59b815028285e60f20311ef457f3a42e7fd403e1a6b82a3ada009056a65c90213681988314e6c47ae2e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bean-validation-api \

@@ -6,12 +6,12 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.1.11"
 
-RPM_NAME = "arandr-0.1.11-1.2.noarch.rpm"
-RPM_HASH = "a614aa3330ebaa8fe5d7356284be31ff6bc19a5f36b04fe6169f36ff72635fb0229b1c316c5da0d189e91f2242877f5b3951725aa84ae1c167e70325813cf372"
+RPM_NAME = "arandr-0.1.11-1.3.noarch.rpm"
+RPM_HASH = "f0cdd6ae3128d27149d59803430fd51a91ec55ff0a6e07be347637d5a9f880a8040d9732ade4568cf71a0486092c15a6908c1b14300cb630b9a0a76963d3384c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "arandr \
-python3.10dist-arandr \
+python3.11dist-arandr \
 python3dist-arandr"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

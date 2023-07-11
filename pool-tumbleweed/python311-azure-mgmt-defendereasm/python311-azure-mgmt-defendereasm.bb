@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "1.0.0~b1"
 
-RPM_NAME = "python311-azure-mgmt-defendereasm-1.0.0~b1-1.2.noarch.rpm"
-RPM_HASH = "e4b4cec2d5ba7db3fbc3d84987021ec7bf1617daca3b0dfe869a87b5d7e5ae348698912fafba766dedc42631038c4471e930aead8db5a23b9c21e5f2e488ed55"
+RPM_NAME = "python311-azure-mgmt-defendereasm-1.0.0~b1-1.3.noarch.rpm"
+RPM_HASH = "139fbe24d68bd1a80204a1134b92f32bfea3e7c12921e9c42d614260e7eedc744cc85d1fc6aa4f215e65d5de9ffaaf3b358a7b98abbe03149bd501f1efc0ebce"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-defendereasm \
+RPROVIDES:${PN} += "python3-azure-mgmt-defendereasm \
+python3.11dist-azure-mgmt-defendereasm \
 python311-azure-mgmt-defendereasm \
 python3dist-azure-mgmt-defendereasm"
 

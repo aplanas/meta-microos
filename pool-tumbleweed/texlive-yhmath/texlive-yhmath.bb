@@ -5,8 +5,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.6svn54377"
 
-RPM_NAME = "texlive-yhmath-2023.201.1.6svn54377-52.1.noarch.rpm"
-RPM_HASH = "e1b03a8365e30e53e9fcbee379067618cb77130eeb8811ec1721ee084f224bcaa536beab8fb6fff66befaf858434e2eaa1f6461ec69fbc004b783e20c125b915"
+RPM_NAME = "texlive-yhmath-2023.201.1.6svn54377-52.2.noarch.rpm"
+RPM_HASH = "a7d7a2303b1c2826ccd65e69734e1aa6068dde4beaba9500fda9ff0d964ab45ec78315a5bafe171d603d7b753d2e2f32235c7ba7fd9d5030b6ded1a9992497d0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-OMXyhex.fd \

@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20210503"
 
-RPM_NAME = "libodraw-tools-20210503-3.6.aarch64.rpm"
-RPM_HASH = "ba980e96a123ff27c0e9021bc0ba2008bb0e2a61cf093c0e689addfa791dad44694e224060dde310e2a92d54e2c97d6f6608f1e4ce1578180b3e45b01fd66d92"
+RPM_NAME = "libodraw-tools-20210503-3.8.aarch64.rpm"
+RPM_HASH = "cc47d6844a78b10f2a07dea22f5966a520844a88aab8d4a86f7fff64079c929efac2573044aba14b77c6f0a7d55939568969eb8e8167bf9cb048f0f5022b68e7"
 
 RPROVIDES:${PN} += "libodraw-tools"
 

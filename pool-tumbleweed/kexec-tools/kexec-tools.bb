@@ -5,15 +5,14 @@ kernel may be asked to start the loaded kernel on reboot, or to start \
 the loaded kernel after it panics."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.0.26"
+PV = "2.0.26.0"
 
-RPM_NAME = "kexec-tools-2.0.26-3.1.aarch64.rpm"
-RPM_HASH = "6c25b94053f9a120f115d976c25b0dd7f3f26d1e1632c3dcc06895d97fefbd18a0cf73028eb1ce4123dfd26ab9ad2803629436906ec2b90d9bcbc5c97f4c30ac"
+RPM_NAME = "kexec-tools-2.0.26.0-1.1.aarch64.rpm"
+RPM_HASH = "3ba5efe2ae1749e4cfc8c322c067e1bf41bd9bc151ca292618f169ca3d86fb90e1fc170e3a589c77bf32076073bca3cdc6d5a5ab4b07508f65e50f85258df9ce"
 
 RPROVIDES:${PN} += "kexec-tools"
 
-RDEPENDS:${PN} += "/usr/bin/perl \
-/usr/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libz.so.1 \

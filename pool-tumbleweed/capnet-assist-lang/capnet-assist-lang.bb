@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.4.2"
 
-RPM_NAME = "capnet-assist-lang-2.4.2-1.4.noarch.rpm"
-RPM_HASH = "db4af9aeaf4d85d8b0b7c1ba831237aaa52bc9c31afe126dbf125015519e858db3d20918cbfb38372fb16ef77e6bdbb13b64f1243badc7605babf50e41e8638a"
+RPM_NAME = "capnet-assist-lang-2.4.2-1.5.noarch.rpm"
+RPM_HASH = "1ca72c8530a138357ff42ff3a8664d1d38a99c0d44d23b7e39cf25fa057220a5980173873ec63c2b8adac6efcc1c35a8b87ffcb9701c011d33259e141df5cc5b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "capnet-assist-lang \

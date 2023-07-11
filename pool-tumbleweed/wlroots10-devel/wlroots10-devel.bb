@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.15.1"
 
-RPM_NAME = "wlroots10-devel-0.15.1-2.1.aarch64.rpm"
-RPM_HASH = "d3ccaaa59eb1162b9f0f322f2c017643a5ff30c644f3b3b1b98cfc75c126ae93e53da76a0c7ae40bbdcdf2d440ef2ad921310279e5b6bc49709b301ebad18f86"
+RPM_NAME = "wlroots10-devel-0.15.1-2.2.aarch64.rpm"
+RPM_HASH = "1674ffff0c9ecc842a0ca293b25e3c9433d53669bc671d02d34540b02d8ca5d9d9d77222881a4e4981c82f0f6ddea1afb8f1c9240d1e1076b1eb1219eab6b7e3"
 
 RPROVIDES:${PN} += "pkgconfig-wlroots \
 wlroots10-devel"

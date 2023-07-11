@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.2.9.9"
 
-RPM_NAME = "fcitx-table-cn-wubi-4.2.9.9-1.5.noarch.rpm"
-RPM_HASH = "31a3d695a5d4ba994a9d852019b19d31b7543c6ba4410f9b3a80f52cb1c10bddc0ea8b716f98572abe2f9c401d4d0f31a081c3e14464adfd50daf5860f314229"
+RPM_NAME = "fcitx-table-cn-wubi-4.2.9.9-1.6.noarch.rpm"
+RPM_HASH = "fa1e1211be48298ef966994101869101b0b238ffdf03b477e0d17da639a6c00d969328f9ee4a44851b780094f0b8bf18b2946ea2cb5a4b11ad6b0cca3f008060"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fcitx-table-cn-wubi \

@@ -5,12 +5,12 @@ LICENSE = "GPL-2.0-only"
 
 PV = "69.0"
 
-RPM_NAME = "python3-avocado-plugins-varianter-yaml-to-mux-69.0-6.10.noarch.rpm"
-RPM_HASH = "d2dbf1ce88471b4c32b13e49831a220098449f44997880a12f14746a38bd97a6918882fde1a2312f4514ca8832e168b88ae1f4689ec83faa13ba13c17fba6e71"
+RPM_NAME = "python3-avocado-plugins-varianter-yaml-to-mux-69.0-6.11.noarch.rpm"
+RPM_HASH = "5a4d444521d217629a6c4eae5c23df9e95d7fb79aaccb1cbdcd39c911628fdb23dc0d122c60a2551fcb69b3346c5b108405f1ae45745991007e469775f99acc8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-avocado-plugins-varianter-yaml-to-mux \
-python3.10dist-avocado-framework-plugin-varianter-yaml-to-mux \
+python3.11dist-avocado-framework-plugin-varianter-yaml-to-mux \
 python3dist-avocado-framework-plugin-varianter-yaml-to-mux"
 
 RDEPENDS:${PN} += "python-abi \

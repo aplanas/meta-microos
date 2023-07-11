@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.2.5"
 
-RPM_NAME = "HepMC-doc-3.2.5-2.5.aarch64.rpm"
-RPM_HASH = "e5b52d6dc5a0aa3c98535f2daaff040db81cd11a7ee63f08ae5b5979a3f890892fe2915c00bd4f58f8c7ca82edd0ff7f6b50ce4cd603f0a8e6ab4d09ca7a196a"
+RPM_NAME = "HepMC-doc-3.2.5-2.6.aarch64.rpm"
+RPM_HASH = "6caad78b6bd819662a8885ef6745a8fdfef0995ed12b28dc96b7212249059b6434590a9763ba5f9d56cf4d44503bf9374087f3bdd4ff6926f959e88bab1483a5"
 
 RPROVIDES:${PN} += "HepMC-doc"
 

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "5.4.33"
 
-RPM_NAME = "libterminalwidget5-0-5.4.33-1.7.aarch64.rpm"
-RPM_HASH = "86dc1b8af8cc2c818e0a78ea0887f2a0d2f21fcc2c8add9ae3b7c4be2cdaa2292840e3a3273d0d93789f8967ed7e09ef3d161963216ab592490fc04db8c5299f"
+RPM_NAME = "libterminalwidget5-0-5.4.33-1.8.aarch64.rpm"
+RPM_HASH = "56cedb670b2470d3f37b377636ce4449ccd6390206f376eae69e77a57fb85ec5ae5a43f78669fddaf1fd950a579e1270d0745dfee1053647e32370ff35c82e76"
 
 RPROVIDES:${PN} += "libterminalwidget5-0 \
 libterminalwidget5.so.0"

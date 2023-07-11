@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "postgresql12-pgsql-ogr-fdw-llvmjit-1.1.0-4.2.aarch64.rpm"
-RPM_HASH = "bf06c5354aca810e4aab3f7a674a06971d3cbe081a2b5e06873c8e1d5dcb7269077703ea0ba7cf4394a16ecef20ef72e1c4bad627654fe3ca761e5f7f9834327"
+RPM_NAME = "postgresql12-pgsql-ogr-fdw-llvmjit-1.1.0-4.4.aarch64.rpm"
+RPM_HASH = "d0ebbbb4725b44d10c66e3108274f3fe5fa69ac12196f811e56c32e8a53bc5356409c13607e340c7a12718357f8cfa8197bda5b7e4b66278fd9c33f2efc60d24"
 
 RPROVIDES:${PN} += "postgresql12-pgsql-ogr-fdw-llvmjit"
 

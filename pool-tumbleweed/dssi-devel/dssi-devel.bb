@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0+ & LGPL-2.1+ & SUSE-Public-Domain"
 
 PV = "1.1.1"
 
-RPM_NAME = "dssi-devel-1.1.1-11.27.aarch64.rpm"
-RPM_HASH = "944c6e2afa55fe22d1b77f901f086dc5cce00e6e9e61872bffd6f6b56c543385c0f8f2edbfb8143776102649cf43832b94d8b39ec33f6695aef7799505cbf6a4"
+RPM_NAME = "dssi-devel-1.1.1-11.28.aarch64.rpm"
+RPM_HASH = "9a6acef21202b4765f5606c53b9cb87bec3ea7f7b8d2af4f51e6d66aa9ddd44525af198ccd14f52581fa4cd7ce7ada43aa2b9ea5e35218c541783bce4e75c24b"
 
 RPROVIDES:${PN} += "dssi-devel \
 pkgconfig-dssi"

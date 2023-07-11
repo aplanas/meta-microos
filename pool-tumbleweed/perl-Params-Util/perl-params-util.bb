@@ -29,8 +29,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.102"
 
-RPM_NAME = "perl-Params-Util-1.102-1.14.aarch64.rpm"
-RPM_HASH = "ae403c79a8ddc8e95bbc1aa3891fe392951970b8bdc893cbf8e75f3e4cf815f3c6595a6dabd4e4b2691eb282ec30955e7feb34ae6e62c523cec724f2d707474f"
+RPM_NAME = "perl-Params-Util-1.102-1.15.aarch64.rpm"
+RPM_HASH = "eb98ea64ded0bf6618b8c5e7557d12f09018e3217664e74c0f3fb7443b9f4e04c75ab573aef681e64ff267f1c74cb4470501314bf347dc807da46a2ec0230f03"
 
 RPROVIDES:${PN} += "perl-Params--Util \
 perl-Params--Util--PP \
@@ -38,7 +38,7 @@ perl-Params-Util"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-XSLoader"
 
 inherit rpm

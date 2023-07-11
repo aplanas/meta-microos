@@ -4,12 +4,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.2.0"
 
-RPM_NAME = "nemo-extension-audio-tab-5.2.0-3.4.noarch.rpm"
-RPM_HASH = "f4dc64ebc7a1d7c5d51f6d8a1318f7da72e40305b13d9aa8c12910661d8f396ca8464dde8aaa8bc2a8a9b281b4f376077f607285f2ea9f33449d362690291ba3"
+RPM_NAME = "nemo-extension-audio-tab-5.2.0-3.6.noarch.rpm"
+RPM_HASH = "2949070349968217e4b90fb26b16080ffe15ae2383f6890446bd98a4d501caeb3bd97cbc6db7f57768939bedd7471b06c672f0b5059a07bf2d7e8afe487174bd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nemo-extension-audio-tab \
-python3.10dist-nemo-audio-tab \
+python3.11dist-nemo-audio-tab \
 python3dist-nemo-audio-tab"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

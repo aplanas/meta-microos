@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "0.4.0"
 
-RPM_NAME = "python39-sshtunnel-0.4.0-2.6.noarch.rpm"
-RPM_HASH = "820bc1b37131194a3fe7779e6e7bcc8b4ade6700f091f37b52d6fa1bdf9557b8a4567ddef32ed667f02c590294bdfb9b6b186bd053ea051f3871210641e92f26"
+RPM_NAME = "python39-sshtunnel-0.4.0-2.8.noarch.rpm"
+RPM_HASH = "31dd67a3cb15d9aaa8f57bcb3728cf18bc4b9b44ec76f9334604bda5572abab99c651e92e266da2464aacdac192befedae8505949fdc3f4556d7dd107f4eba49"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sshtunnel \

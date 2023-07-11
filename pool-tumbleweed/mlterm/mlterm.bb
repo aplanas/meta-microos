@@ -27,10 +27,10 @@ Other features: \
 * scrollbar plug-in API (unstable)"
 LICENSE = "BSD-3-Clause"
 
-PV = "3.9.2"
+PV = "3.9.3"
 
-RPM_NAME = "mlterm-3.9.2-3.3.aarch64.rpm"
-RPM_HASH = "3caf97a4d868e88ea2f1658c1017d18845a58f891bfe5b9e5b50828c8eed89b89ed7adde48f9fc93960eb784a278d829ac5f1fe1546aa3dae92fb32c08027625"
+RPM_NAME = "mlterm-3.9.3-1.1.aarch64.rpm"
+RPM_HASH = "c15fb7e6cef4824ea3d35ab2154f177eb4010b788b5b62a481bb3f4153940ad090b34e6842826f7d3c644627ade42c710ee7a93317483c9fbfd7df7deb284e26"
 
 RPROVIDES:${PN} += "config-mlterm \
 libathena.so \

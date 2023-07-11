@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.0.2"
 
-RPM_NAME = "python39-python-datamatrix-1.0.2-1.1.noarch.rpm"
-RPM_HASH = "533198a00df4fb382a0db7045b233174c19f1dacf996f2003558b424f37a46515e2643b20fe8a7ed02a3286aab9f11c9448369dcf9176ab3dd7146d440a1b085"
+RPM_NAME = "python39-python-datamatrix-1.0.2-1.3.noarch.rpm"
+RPM_HASH = "c367cb778f0cad1801b1f2a068958c239be90b715470113b4f4b7e97cb84506579576f8c03d8deda53129ecd12f10c0e4ce5257ee8802b923012e1f5b39361cf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-datamatrix \

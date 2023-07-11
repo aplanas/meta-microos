@@ -4,10 +4,10 @@ of implementation and conceptual gaps in db-lib (libsybdb). libct is \
 not the most complete implementation yet."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.3.17"
+PV = "1.3.18"
 
-RPM_NAME = "libct4-1.3.17-1.3.aarch64.rpm"
-RPM_HASH = "8de3151d7eb90f38945a55ac28579b74edfac286793f9d26e7bb5965256b9b1289ab6ad9bcb60b79f538303c38bdd3f502560e09d6b656d03cf068c6b36c0ce7"
+RPM_NAME = "libct4-1.3.18-1.1.aarch64.rpm"
+RPM_HASH = "1d12923013d0af5428ee98dbc86815445b285e0e4926d1c52f8295ec717d0a50b672d7bd9473fe3657a476f5e5a6e856b713122995e776d5bd96a8bf5a14744c"
 
 RPROVIDES:${PN} += "libct.so.4 \
 libct4"

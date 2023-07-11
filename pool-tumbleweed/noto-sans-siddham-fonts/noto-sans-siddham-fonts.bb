@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-siddham-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "0a0556a7fc5b4602b887291d16485ae8a81415120d2c07e73307fd3e906a78173bc6853a203868b6a0db5b3db73cec3921b4ec26b7e846f953483d27004372f0"
+RPM_NAME = "noto-sans-siddham-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "dd8874bd7fbd4341b276ec1e02abbccef8f7ba91b78a7eca80a43216e8438d4892dcb8d398dc4994e1f612483cdf727e9721e34c0db106c6bccb7d5974860d94"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-siddham \

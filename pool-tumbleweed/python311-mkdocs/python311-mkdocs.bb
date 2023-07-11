@@ -6,11 +6,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.4.2"
 
-RPM_NAME = "python311-mkdocs-1.4.2-1.2.noarch.rpm"
-RPM_HASH = "4799f2bf96f56e2bcfb256ad2b34cea639dbf6f50d1b8b319fbd19f9ae994799da13760160d7359afc27f0adcf936b06cec91e2d082c19ff4f0beb86e61d2597"
+RPM_NAME = "python311-mkdocs-1.4.2-2.1.noarch.rpm"
+RPM_HASH = "ea069e2509cf4c5cca3067549659ae9a76f0bdb895fc3bae8cd9f44730b761273bcabb6c0be3c5a1c873d31629b75ec2be1631c736effa03b8bb0711132e1a45"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-mkdocs \
+RPROVIDES:${PN} += "python3-mkdocs \
+python3.11dist-mkdocs \
 python311-mkdocs \
 python3dist-mkdocs"
 

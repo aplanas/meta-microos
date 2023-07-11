@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.20.1"
 
-RPM_NAME = "libcreaterepo_c0-0.20.1-3.1.aarch64.rpm"
-RPM_HASH = "4bbe0b476a2b0c1e2eca4dc14d67053de45ce1caa65e26947dd7c7c5e6d9540edf04475dfe2dd077637545ab76661ffdd826f4b95490bf700d90778633fc0e61"
+RPM_NAME = "libcreaterepo_c0-0.20.1-3.2.aarch64.rpm"
+RPM_HASH = "8343f2b06d43ddf6500b9813417302af2a5f7fb9c777c6d0c89fe9c652b87312b3242214d2ea78967f37d11c4c31c2f0f302029e8eb72a1b1332560a8207e064"
 
 RPROVIDES:${PN} += "libcreaterepo-c.so.0 \
 libcreaterepo-c0"

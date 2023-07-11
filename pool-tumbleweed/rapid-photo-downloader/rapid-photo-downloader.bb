@@ -10,11 +10,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.9.34"
 
-RPM_NAME = "rapid-photo-downloader-0.9.34-2.1.noarch.rpm"
-RPM_HASH = "541d8f9217a2ccfdf7d866e23a62dd1f571b35fb969f998b0cb5ab30c51a844ec4cc9791bdf96f17fecd9af03787c0b7ffe6d86b3f7fb31d1619aa9ac15cf970"
+RPM_NAME = "rapid-photo-downloader-0.9.34-2.2.noarch.rpm"
+RPM_HASH = "34e7f8892d530a00add5c0d82c11b81dba973e5e61de5ccf9fc3bf9d5d06560107481550700012e9772e141a7c87455ed8886e22c1a42201ee39341f35855fb9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-rapid-photo-downloader \
+RPROVIDES:${PN} += "python3.11dist-rapid-photo-downloader \
 python3dist-rapid-photo-downloader \
 rapid-photo-downloader"
 

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.26"
 
-RPM_NAME = "libaccounts-glib0-1.26-1.3.aarch64.rpm"
-RPM_HASH = "caa4424ddab519854055a39000ba0f2b02b7427244d4b2407f1495d04838830dc1d5e772023725f0db8c4abad0638e6cbf50a641cde2873bbab1d2eb609fe657"
+RPM_NAME = "libaccounts-glib0-1.26-1.4.aarch64.rpm"
+RPM_HASH = "cdd24d3a8ec0da38ea5367714058db0957446ed317c5ff3b137a96308112040247525bd5b34f669f303ab2891ad5e8c17fed1770e12c72469bd093b4d6cbb862"
 
 RPROVIDES:${PN} += "libaccounts-glib.so.0 \
 libaccounts-glib0"

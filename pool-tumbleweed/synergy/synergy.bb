@@ -15,8 +15,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.9.1"
 
-RPM_NAME = "synergy-1.9.1-4.9.aarch64.rpm"
-RPM_HASH = "d50e0862d62233d292d6004ba0d9a5f8ed24d563ff7679abcafc44212e39c286e056605a2a0e01fd8cce87bed5c947b6599a3d542a1fd36ed498a22120b07e22"
+RPM_NAME = "synergy-1.9.1-4.10.aarch64.rpm"
+RPM_HASH = "2c29a613214a9ffbd0ddbadc8a0dcb3359010279dbc7f68d91d8c4ed7d8811722ae788a706c3127541701d808ff1a1a0e65f7550d24e74eaf5f643d54b2ce23f"
 
 RPROVIDES:${PN} += "config-synergy \
 synergy \

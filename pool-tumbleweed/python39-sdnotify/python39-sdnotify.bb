@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.3.2"
 
-RPM_NAME = "python39-sdnotify-0.3.2-2.7.noarch.rpm"
-RPM_HASH = "69fa6aef8ffe8fe3201d7e2516135281441a01b202a333fed1a019772b0feac25e0bedf2103afb4b076e462709df9f81cdeea4c8fafbc695cb53e8ea2dafb0b1"
+RPM_NAME = "python39-sdnotify-0.3.2-2.9.noarch.rpm"
+RPM_HASH = "8ad9a368e90003f8da1f8fdb92c08c3997fd951564979e09903026b78aacd2f7aee6c933e5b8671ff4e44c34c66e8096f3e645ebd7e689729e5b9a221dfdd5c3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sdnotify \

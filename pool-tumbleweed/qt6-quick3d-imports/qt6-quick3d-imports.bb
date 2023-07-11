@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-quick3d-imports-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "7a25751f08bfd2c16b9ed051813dc80a8c77c7f180b97a6ab31f7b6ef495daac4b6d6c2f35f19cd64270a01dd1d9b7e38e62d5514fc5a60ad4781f9af700343e"
+RPM_NAME = "qt6-quick3d-imports-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "7e830d1698c007e19c601d5c58abaff38b3d6f103e153a503768d354d795ac5ac66b3304c63fb5892e5dc0aec7ae92955859f44c8467078a9dd8da858b199102"
 
 RPROVIDES:${PN} += "libqquick3dplugin.so \
 libqtquick3dassetutilsplugin.so \

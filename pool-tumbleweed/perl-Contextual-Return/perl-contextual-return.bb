@@ -49,8 +49,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.004014"
 
-RPM_NAME = "perl-Contextual-Return-0.004014-1.23.noarch.rpm"
-RPM_HASH = "d98dfa7d20cb7cb8c4a258b6fa6ea955ba8870e30a59a5012b2daa20d1dfda1879f889b9f483aafa9b63ca18539dc694575720bf5a5914e6862bcebbd297e2af"
+RPM_NAME = "perl-Contextual-Return-0.004014-1.24.noarch.rpm"
+RPM_HASH = "9cb4c1d78a16dc97c53efabe62f08ff5eee120b6b37ee2367a9aad445173b44005ae50a629a0cad8af2b44bb070083b6b721a11abc90f27b8f386e4b57e774d0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Contextual--Return \
@@ -60,7 +60,7 @@ perl-Contextual--Return--Value \
 perl-Contextual-Return \
 perl-DB"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Want \
 perl-version"
 

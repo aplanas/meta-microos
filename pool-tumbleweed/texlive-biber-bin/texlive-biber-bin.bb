@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn66402"
 
-RPM_NAME = "texlive-biber-bin-2023.20230311.svn66402-91.1.noarch.rpm"
-RPM_HASH = "201170b8f98488a24bec98eb15cfdc9f49738f734e68017b23c2ca3d543fcf5319f5e788af5e78f037c6b27d475364ae3fc9cedb37754b0fb46bbc2f4e761e19"
+RPM_NAME = "texlive-biber-bin-2023.20230311.svn66402-92.1.noarch.rpm"
+RPM_HASH = "ba17e70ad41f2fadab2c79bfc73cbc30a537bd9534b2f957b1129b1dfb369ba28d28bafdfb14819a9f6d345c66d5a26e9683f43f6e238276c41f4a788803157c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-biber-bin"

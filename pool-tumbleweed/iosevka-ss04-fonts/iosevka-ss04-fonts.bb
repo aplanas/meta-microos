@@ -6,10 +6,10 @@ preparing technical documents. \
 This package contains the Iosevka SS04 typeface (monospace, Menlo style)."
 LICENSE = "OFL-1.1"
 
-PV = "24.0.0"
+PV = "24.1.4"
 
-RPM_NAME = "iosevka-ss04-fonts-24.0.0-1.1.noarch.rpm"
-RPM_HASH = "9e813c38c9e9b0afaca0e3e8de3c6d88418a2569937b38f7445ad0155a52912ba6d993ed8e21f1f7e265d41b2acf63ec68ab27559c107c00d0ef8ce4e9169e0c"
+RPM_NAME = "iosevka-ss04-fonts-24.1.4-1.1.noarch.rpm"
+RPM_HASH = "247061d8777889d190174e1ae3725d980adf743c5695829be6a2cbcb3ee3e08e7f59d18ddb59fd58eb3b7a11b79221d4c065b547eac18f057f4134ed1339f3ae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "iosevka-ss04-fonts"

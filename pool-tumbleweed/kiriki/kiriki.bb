@@ -3,10 +3,10 @@ DESCRIPTION = "Kiriki is the KDE version of the dice game Yahtzee where you roll
 to get higher scores in several combinations"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kiriki-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "4398ab860eb92f9b0f2d77ef1b810fd8dc06b58de0edbc45fa90cb306babcc4802ea86d41e22020a419d528894e2272e72081ec04e797413cdc658c1021d2a86"
+RPM_NAME = "kiriki-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "ae2f556327cf0da7282de1cff6d6fc7a430ae73b5c79053451c56b2d44384be4f5fd64db0117684dc51984d91cea133a9fe714057397d925c6fd625875dd6681"
 
 RPROVIDES:${PN} += "kiriki \
 kiriki5"

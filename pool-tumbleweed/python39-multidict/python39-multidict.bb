@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "6.0.4"
 
-RPM_NAME = "python39-multidict-6.0.4-2.1.aarch64.rpm"
-RPM_HASH = "8aee45fa52067ec913d1c0b3c2d7f2e1f08365edf522eb299df9b8720067fdcd94d4780048b46e1e48b22893d59c2d41b99520e900cdd89f26d1a5413147fde0"
+RPM_NAME = "python39-multidict-6.0.4-2.3.aarch64.rpm"
+RPM_HASH = "e7d5b1fc2feeaa281538e447cd5ec58a0995003310ce687a0b249bfdc2aff469f9b0eea73bd48f30218270c8cf7b83dd3ff9fe9e965af24c75913a5390842c10"
 
 RPROVIDES:${PN} += "python3.9dist-multidict \
 python39-multidict \

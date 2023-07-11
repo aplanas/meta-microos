@@ -4,8 +4,8 @@ LICENSE = "(GPL-2.0-or-later | LGPL-3.0-or-later) & GPL-3.0-or-later"
 
 PV = "2.3.4"
 
-RPM_NAME = "libidn2-devel-2.3.4-1.3.aarch64.rpm"
-RPM_HASH = "3f586aff7e34ddd946a662b069e282dc3e6fb15199c7b1905d31224769e1aeb620ac278c72870d92041ca17680f95903f8183371cc55d2cb039d45ccc9367b1c"
+RPM_NAME = "libidn2-devel-2.3.4-1.4.aarch64.rpm"
+RPM_HASH = "363f65b002f92afb69829d3e080ebedce1b4776741af2b7463e8ba2a29cabead13a9e7bc30ebc100f11e6227487580edbadc49313cfeae8231e281bbfca9d2b5"
 
 RPROVIDES:${PN} += "libidn2-devel \
 pkgconfig-libidn2"

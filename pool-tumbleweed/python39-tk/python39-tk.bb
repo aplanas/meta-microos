@@ -2,10 +2,10 @@ SUMMARY = "TkInter, a Python Tk Interface"
 DESCRIPTION = "Python interface to Tk. Tk is the GUI toolkit that comes with Tcl."
 LICENSE = "Python-2.0"
 
-PV = "3.9.16"
+PV = "3.9.17"
 
-RPM_NAME = "python39-tk-3.9.16-8.1.aarch64.rpm"
-RPM_HASH = "dcd324693f157dad275b148c71bf76e4ba654b5aace8e4109f2911e3cbbeade026c0ef0b8a4de8cdaba7259e440da9a2c1b7fd0ce7b60fcb3520a6342a5f801c"
+RPM_NAME = "python39-tk-3.9.17-1.1.aarch64.rpm"
+RPM_HASH = "f853917735c5ecf9893a4030d3c593f46ef61609c60937d868c95e817018ff899272773e031a609fd64af5f89ade123ff55e2445a9270ef9c7fbde64ac53b8f1"
 
 RPROVIDES:${PN} += "python39-tk"
 

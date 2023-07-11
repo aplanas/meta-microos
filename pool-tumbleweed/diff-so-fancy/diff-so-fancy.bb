@@ -2,10 +2,10 @@ SUMMARY = "Strives to make your diffs human readable"
 DESCRIPTION = "diff-so-fancy strives to make your diffs human readable instead of machine readable. This helps improve code quality and helps you spot defects faster."
 LICENSE = "MIT"
 
-PV = "1.4.3"
+PV = "1.4.4"
 
-RPM_NAME = "diff-so-fancy-1.4.3-1.4.noarch.rpm"
-RPM_HASH = "7be2e236c990d80e3b18dae55fbd496f2e69aa48dca5292643a3721eb0d99e96def41e15a521b25dd841ab71fd77b0af5e10ebd3310bed55db47b71037a20831"
+RPM_NAME = "diff-so-fancy-1.4.4-1.1.noarch.rpm"
+RPM_HASH = "8c297f20c628c5edfe9c653d9229b5edeb589a7e41c721da8fa893ced7929d4ec557aea15aa12172170b28cee377ec3672d754ee2b6fd311cf88d436959b3540"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "diff-so-fancy \

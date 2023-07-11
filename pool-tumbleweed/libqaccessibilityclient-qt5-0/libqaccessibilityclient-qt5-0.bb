@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-only | LGPL-3.0-only"
 
 PV = "0.4.1"
 
-RPM_NAME = "libqaccessibilityclient-qt5-0-0.4.1-1.11.aarch64.rpm"
-RPM_HASH = "625f193fc3d939702ba5f9c21581c58549348e8897049f7938dd1c1703d9951310a8f8ed456f6a479ffb1c3a2d843e3b753758da26035f76773cad3dc8cbb606"
+RPM_NAME = "libqaccessibilityclient-qt5-0-0.4.1-1.12.aarch64.rpm"
+RPM_HASH = "06d07ee8be17ea5b0ce10daeb757f876799985142b428206d4a38d0b403c27bfbe79e2bf495ea6404e6aee5ef4ba3781d0e45ed1900f7dfe3ad9805235306567"
 
 RPROVIDES:${PN} += "libqaccessibilityclient-qt5-0 \
 libqaccessibilityclient-qt5.so.0"

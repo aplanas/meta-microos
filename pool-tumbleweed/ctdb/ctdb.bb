@@ -2,10 +2,10 @@ SUMMARY = "Clustered TDB"
 DESCRIPTION = "ctdb is the clustered database used by Samba"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.18.1+git.298.4ccf830b2a4"
+PV = "4.18.3+git.303.c08b73d523c"
 
-RPM_NAME = "ctdb-4.18.1+git.298.4ccf830b2a4-1.1.aarch64.rpm"
-RPM_HASH = "033c37fa98c7bef77b66bc1297be91546874c5c8a316ddddf339ebfcf4de0836a95bceda1ced0fc9a81178dfe68c1cf077a9c967dd4758ba81d854034f6f8927"
+RPM_NAME = "ctdb-4.18.3+git.303.c08b73d523c-1.2.aarch64.rpm"
+RPM_HASH = "2ff543b6d91b7dc335fa4315c22083d0218074dcdaed79d8769cf47a676cfb82a618e93313cae6a0e79fb4d94db1cd9db465dfbd32a21aa311a25d5495524b2b"
 
 RPROVIDES:${PN} += "config-ctdb \
 ctdb \

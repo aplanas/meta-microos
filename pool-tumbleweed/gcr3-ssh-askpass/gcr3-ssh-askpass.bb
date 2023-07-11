@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.41.0"
 
-RPM_NAME = "gcr3-ssh-askpass-3.41.0-3.3.aarch64.rpm"
-RPM_HASH = "b3e889fe4639abe69006eb34f05ab6d423e1b439ebabb7b0950e2f619989ae5945dca262fdf0a8427386b512a198cc2066a6fd05f20ddf2d13ad458ce3535921"
+RPM_NAME = "gcr3-ssh-askpass-3.41.0-3.4.aarch64.rpm"
+RPM_HASH = "6b8b3efd6223edff938b09a0706f4a50dbe7a74cd1e061fa3d2dffd8bce243cbb8a6869e99ae2d4c0e6c185b605d8f723755e9885174b277eb8a18a386cf4298"
 
 RPROVIDES:${PN} += "gcr3-ssh-askpass"
 

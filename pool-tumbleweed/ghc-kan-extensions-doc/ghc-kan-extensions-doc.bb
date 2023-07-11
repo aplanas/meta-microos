@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.2.5"
 
-RPM_NAME = "ghc-kan-extensions-doc-5.2.5-2.3.noarch.rpm"
-RPM_HASH = "d9ea41c2f8587f7d932215cee3936949e75abc71118dee6bb79e1605ec4edf0487ce9471aaa701aaec3497c05b8bb8feab21a80eca84a11084daa5d99b007375"
+RPM_NAME = "ghc-kan-extensions-doc-5.2.5-2.6.noarch.rpm"
+RPM_HASH = "160e4ac4747a5464d5f9b26052b96d0c24342ceda1bad500d2a4a98adbe2951beb9aeed7cd54a82233784e0d72094b0fbd4006486b5dda46edcf61893c8893cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-kan-extensions-doc"

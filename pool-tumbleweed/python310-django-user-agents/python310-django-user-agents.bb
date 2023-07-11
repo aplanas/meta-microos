@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "0.4.0"
 
-RPM_NAME = "python310-django-user-agents-0.4.0-2.8.noarch.rpm"
-RPM_HASH = "51a79daa2d2b85b55314e0b7ecd8354362c8bfe459721a80b8d86cd356e10eccdd7687f17a39fd6bb8b6cc5d9334257dd921b12496b3c147d79b6a19344e5fd3"
+RPM_NAME = "python310-django-user-agents-0.4.0-2.10.noarch.rpm"
+RPM_HASH = "b86c21465275edc1d33ec87211a8a0c59cbeb9a4f8321b790f67716838233d435893537d7860738b1a11a7360c05799c163405544b95727b17ab702adfd7d650"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-django-user-agents \
-python3.10dist-django-user-agents \
+RPROVIDES:${PN} += "python3.10dist-django-user-agents \
 python310-django-user-agents \
 python3dist-django-user-agents"
 

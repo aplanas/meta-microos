@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.3.2"
 
-RPM_NAME = "python39-ipydatawidgets-4.3.2-9.2.noarch.rpm"
-RPM_HASH = "3b77b26afa88fd10df0be0ff743170521691e1ba1d2350cd219ac0b2c289155854ef311c9d94576e8dac6d96ab3e2a6685d6b9ccabe549ee2fb52ca0a2700455"
+RPM_NAME = "python39-ipydatawidgets-4.3.2-9.3.noarch.rpm"
+RPM_HASH = "75f85c087b6a8a77b63f22aaca94512bb23e8e0b4eb171986eee460881a0e6dd92a2754bfd1420f34f31e46e5351569670426458d3aaa9d8b68de8d7613161b9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-ipydatawidgets \

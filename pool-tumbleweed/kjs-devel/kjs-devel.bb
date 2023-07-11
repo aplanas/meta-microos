@@ -4,10 +4,10 @@ is based on well known scripting languages such as Netscape's JavaScript and \
 Microsoft's JScript. Development files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "kjs-devel-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "44fd7d14afe504e98f66708e77cc2122aaebb222a05f558a0f32d15edbe909ab2c30076550b0063089c230df5292a95ef3a77062ba6b870c2b73bc8446609187"
+RPM_NAME = "kjs-devel-5.107.0-1.1.aarch64.rpm"
+RPM_HASH = "c65fcd392a35a9048de101bdab0a6336254a351bedf51892f8397958c9891ff674ba4f6ad39a7fea6cd7cb281ad3eefc1e5fd8643c60be11ead1d5f00186e6af"
 
 RPROVIDES:${PN} += "cmake-KF5JS \
 kjs-devel"

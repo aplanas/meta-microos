@@ -14,8 +14,8 @@ LICENSE = "CC0-1.0"
 
 PV = "0.3.0"
 
-RPM_NAME = "ed25519-java-0.3.0-2.10.noarch.rpm"
-RPM_HASH = "6a5ca4177d38b22b2d673105a5ddbaead49864224c92b43f8cff0edffa8aded4d04299ff5ceb9fffddfc27eed67cea3184c8075e5700ac1fb335284f0ed16fad"
+RPM_NAME = "ed25519-java-0.3.0-2.11.noarch.rpm"
+RPM_HASH = "64004791c5d22c455e9a29fab14a802f188cd02f3cd6d16bdb0ffe5b0bd73416d885fdb2284a6fd385ee2c52767377a3aa2e68793aa489c08a795b14d9458b3f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ed25519-java \

@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "2.0.0"
 
-RPM_NAME = "python310-crochet-2.0.0-1.8.noarch.rpm"
-RPM_HASH = "30e7eae6e64a4399418ae651a5654f27a1033fe7a4285de66b9cebcbe1ea1a424beb11b954c876be14cd1dae528208eaebf2667d8ed289ae20dd79caa2809b87"
+RPM_NAME = "python310-crochet-2.0.0-1.10.noarch.rpm"
+RPM_HASH = "94bef6e778de4bf5bfe7e4f4fa6bbee910aa1250e3f5fa5cb874201d763ed834db887b68a9cae721ca459bf85685230fd5ea0f58bf17e4c0ab54349a81353b0d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-crochet \
-python3.10dist-crochet \
+RPROVIDES:${PN} += "python3.10dist-crochet \
 python310-crochet \
 python3dist-crochet"
 

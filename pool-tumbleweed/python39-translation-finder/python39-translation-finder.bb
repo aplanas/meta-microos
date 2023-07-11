@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.15"
 
-RPM_NAME = "python39-translation-finder-2.15-1.2.noarch.rpm"
-RPM_HASH = "41683fb00e1f5763fb05e0d81cf0bf67cfd5a42db08bc9384aa702a2e488e82723bfd170e9db255481a0649529a06a63529293bcd9f192588270ce33121f4ff3"
+RPM_NAME = "python39-translation-finder-2.15-1.4.noarch.rpm"
+RPM_HASH = "b1a963d30f844cdf0a39a56e21b90b2cc121a420189147d90df64862b41855db10811f7088a66a7f34ee58b0c8f69bce3992c0b4e92036f8bba79214b1931c46"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-translation-finder \

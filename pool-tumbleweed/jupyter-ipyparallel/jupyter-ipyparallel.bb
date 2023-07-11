@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "8.6.1"
 
-RPM_NAME = "jupyter-ipyparallel-8.6.1-1.2.noarch.rpm"
-RPM_HASH = "e726f2fd9e6fc0d540f30b9925c944572982f606939c40750a9ce7b412a1844e508c6d6a7c0017bb80af7aab36656662262ef8aa891e9417d08e971c1ef962e1"
+RPM_NAME = "jupyter-ipyparallel-8.6.1-1.3.noarch.rpm"
+RPM_HASH = "54fe0a3ed1fb4776c3829683f78c115fb67aa2a652acca5573eb22727c27ae0f2cb8bd5b1952e1deb9669ab9ec296ec8ce792c4e70d1b381c088de62d390414c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-ipyparallel \

@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.3"
 
-RPM_NAME = "python39-biplist-1.0.3-4.8.noarch.rpm"
-RPM_HASH = "e116568f4b4cf97ee53ce4268cdca9f2e3cb6b86635ccabde2e5d46643865fe83b2955ff0e8b5e789556a2e71398f9fa574a0801181709920330089717d6210f"
+RPM_NAME = "python39-biplist-1.0.3-4.10.noarch.rpm"
+RPM_HASH = "15ba4f5dd1efa41cb24836d467b33019d1daa93128bee7a6d822512a99e072302b7e7e8e8e9cd057cf8037140c33f4d28d70252a38b3e2725850dc281bfd5701"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-biplist \

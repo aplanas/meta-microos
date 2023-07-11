@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.0"
 
-RPM_NAME = "python39-django-assets-2.0-5.2.noarch.rpm"
-RPM_HASH = "11f855685b55c356b714a8bc342271ef8f73d68bf6131a956479e6b57c740bb6d7e739d3d77cd616cc6f3d2c4402b82b2b7eb0a291c1c5aea676bcb6ae98c9bf"
+RPM_NAME = "python39-django-assets-2.0-5.4.noarch.rpm"
+RPM_HASH = "dc513363dde62cbb698a3bbcd08334dacd99483140ac3cadfd961527c7f0b086f9dcc1c97ceace16e284ad7e34510d223a440901b50674a00cf0b77300d72b58"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-django-assets \

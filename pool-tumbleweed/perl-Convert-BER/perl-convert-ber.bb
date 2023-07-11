@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "1.32"
 
-RPM_NAME = "perl-Convert-BER-1.32-27.29.aarch64.rpm"
-RPM_HASH = "926f67833dd30d7b01b6812a767e1598001583d3f96769e800e031f95dad218afb3f6c24db614573b4b743d915dde4df6dc1cd86b0414095a8b7cbdb8d5dd881"
+RPM_NAME = "perl-Convert-BER-1.32-27.30.aarch64.rpm"
+RPM_HASH = "3d7928ef6aa124baddc0f973c40c34b43decbc148fcde5095f9a87ef2a98aaf5e912f10ff8b430875d4dadf8b2395f3281ade71fea5aece219ad83546d41355c"
 
 RPROVIDES:${PN} += "perl-Convert--BER \
 perl-Convert--BER---Time-generic \
@@ -31,6 +31,6 @@ perl-Convert--BER--STRING \
 perl-Convert-BER \
 perl-ber"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

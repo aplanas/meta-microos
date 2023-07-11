@@ -4,8 +4,8 @@ LICENSE = "SUSE-TeX"
 
 PV = "2023.201.svn27388"
 
-RPM_NAME = "texlive-punk-doc-2023.201.svn27388-53.1.noarch.rpm"
-RPM_HASH = "3b1835b6addbf201b490632bf4096b5538c5b6042d5b1aabddcef6738cf7953f2674f3335300bf7528e45a641de16bfcf62c58117e6779f56338a7b119f36dad"
+RPM_NAME = "texlive-punk-doc-2023.201.svn27388-53.2.noarch.rpm"
+RPM_HASH = "d24f0ebf577a42a12493f24821dc77cc77e5cb86bb7e8527560fc6eb1ab81f0f73f94856f50d0e3e07fe59e778a38cbc85a33f45479ff3f0cb22d6a83304db8e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-punk-doc"

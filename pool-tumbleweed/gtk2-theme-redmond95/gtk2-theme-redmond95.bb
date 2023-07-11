@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "2.20.2"
 
-RPM_NAME = "gtk2-theme-redmond95-2.20.2-19.42.noarch.rpm"
-RPM_HASH = "b1a6c424592f73d0684219d5951a700ed57de4581e42f048a81a78d56a4755be8402e46a0935383c17e50038597b43df3b16a6dc98b9caaeb2ebf8493e98cc17"
+RPM_NAME = "gtk2-theme-redmond95-2.20.2-19.43.noarch.rpm"
+RPM_HASH = "9b5d521625f66a8e4352bf795d8da2d11df86253a49f8a20847f3fb7d3f7cb5a5bd54e42d82993d9db8922c5da0af90250d8a352c986bd6793e96ea040baeed5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk2-theme-redmond95"

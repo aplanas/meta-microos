@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "1.9.0.post1"
 
-RPM_NAME = "python39-oauth2-1.9.0.post1-5.5.noarch.rpm"
-RPM_HASH = "f5a3048328c70b2ce0ffb191820724dcc2bca24f21721f2c18dd8a73bbdca4a4c0ba029f3fb0afe017b40ce24b837767e325242fb87e471a46312220d80d8a3b"
+RPM_NAME = "python39-oauth2-1.9.0.post1-5.7.noarch.rpm"
+RPM_HASH = "d774d577697891669183c2e7de5554343cd186222b9eef306ca7e1a0a9e95de345e8728bf58fcf4c1730209893105481056a26892240e854aaa069d4692793ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-oauth2 \

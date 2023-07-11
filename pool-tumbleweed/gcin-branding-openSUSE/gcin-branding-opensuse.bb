@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1"
 
 PV = "12.1"
 
-RPM_NAME = "gcin-branding-openSUSE-12.1-10.32.noarch.rpm"
-RPM_HASH = "c44c832b1d4269a53683f21860827d88e2e73202b62697d2652ed0d78c09eaf9d79952c25c15002294c34b545ebdce162b3984632d11cd899e23a254afacb04d"
+RPM_NAME = "gcin-branding-openSUSE-12.1-10.33.noarch.rpm"
+RPM_HASH = "da6f66de13bb15fa15c844f66b3afa45d6f4aeb530279378f7d8a4616c3b0aa1d3ed61130c9c029a676ee8fff1b2393bbee98d68ee5d5491487c95532bef3e85"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gcin-branding \

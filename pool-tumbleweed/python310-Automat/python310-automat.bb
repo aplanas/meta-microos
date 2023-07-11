@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "22.10.0"
 
-RPM_NAME = "python310-Automat-22.10.0-2.1.noarch.rpm"
-RPM_HASH = "bcbdf83271fdbd10edd1c2b00444cc4e7d2b38579a794fcae47604b8668d4e8d86e82516dfe9a52a0f1b0256b280fe0df0fe2ffa231baccbfa8ae03c0d8bfb6e"
+RPM_NAME = "python310-Automat-22.10.0-2.3.noarch.rpm"
+RPM_HASH = "ccb22af13426d7f71c65267295d6e1768583c3c77415147f3e27fbf1bdf22d46378c9ea759e833c4aa84437e848dea7e7839e68bb4a69840757128035f613068"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-Automat \
-python3.10dist-automat \
+RPROVIDES:${PN} += "python3.10dist-automat \
 python310-Automat \
 python3dist-automat"
 

@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.1"
 
-RPM_NAME = "libpurple-plugin-mattermost-2.1-1.4.aarch64.rpm"
-RPM_HASH = "2751ac3b00cec9207ee787b8d5a1f3b4e676fc244836c0f00f2c6f8d04ce30600bc983c076e16f76f157cdb331bd849db20721dafa68c7b8974fae55af2b330e"
+RPM_NAME = "libpurple-plugin-mattermost-2.1-1.5.aarch64.rpm"
+RPM_HASH = "0f0174f0added2e081a769f974160ea0ba92ea5af78e4e6e5e5eeb1d8b452977c390d3c8656034b5a899c415c29b628bd58d2dc808cab7d367cbde703426d548"
 
 RPROVIDES:${PN} += "libmattermost.so \
 libpurple-plugin-mattermost"

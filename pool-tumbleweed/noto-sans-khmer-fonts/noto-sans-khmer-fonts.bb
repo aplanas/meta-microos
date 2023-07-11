@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-khmer-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "9479e41069f76151d8dba210e9449f1863384035d9931c0fc3f9780738441e40278694153d0cffc349d37191be4fd83d676d3ede9c0750a9646a6bcca269eaea"
+RPM_NAME = "noto-sans-khmer-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "7bd4f6ab80f6d5873f3036382dd55b3668f757cd6ad5e4f50b8744c37e675aa79f7cd8475a96380d4feb018a17fc3afbbf25846b568ff467c30c722256520ac1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-khmer \

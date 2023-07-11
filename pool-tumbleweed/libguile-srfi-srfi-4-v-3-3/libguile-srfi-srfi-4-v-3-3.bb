@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.8.8"
 
-RPM_NAME = "libguile-srfi-srfi-4-v-3-3-1.8.8-23.11.aarch64.rpm"
-RPM_HASH = "7af32f42abf6e07a4d4b7a68e2b8de921166ed79d8bb22c5eaafd032ed3271dd6692eb7dd87165a50158efed923e0cc7a36b46a44f9277b3fbf7fcfcba3102d1"
+RPM_NAME = "libguile-srfi-srfi-4-v-3-3-1.8.8-23.12.aarch64.rpm"
+RPM_HASH = "87a619103f2f2aee3f832049ff052541047550ad19cff873dcebc5d56e6d05df7be48b2363ad489ec7d251a2a23b2835692b4072f43e08d09a6d20065cbf7328"
 
 RPROVIDES:${PN} += "libguile-srfi-srfi-4-v-3-3 \
 libguile-srfi-srfi-4-v-3.so.3"

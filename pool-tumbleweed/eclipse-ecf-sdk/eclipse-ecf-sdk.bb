@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0 & EPL-2.0 & BSD-3-Clause"
 
 PV = "3.14.8"
 
-RPM_NAME = "eclipse-ecf-sdk-3.14.8-4.5.noarch.rpm"
-RPM_HASH = "9f8c583eb503b6bc4b1bba74d215ad51abc451f36fe5d863522acb0b89509f575d03f8efc89ec2ec8cc2874b08cecb92892b108b66eb2a0dfbccb3dfaa2c3e20"
+RPM_NAME = "eclipse-ecf-sdk-3.14.8-4.6.noarch.rpm"
+RPM_HASH = "4eba6b4159aa0a40d526cf5fdff06b7071e9cdcb7d4532883aed8fe212f91495eeae416608a800fae45c5aa4d79eb6b1f030cf2ebba5c2636d33bf6ba2c6cf75"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eclipse-ecf-sdk \

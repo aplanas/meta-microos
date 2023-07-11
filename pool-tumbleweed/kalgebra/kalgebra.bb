@@ -2,10 +2,10 @@ SUMMARY = "Math Expression Solver and Plotter"
 DESCRIPTION = "KAlgebra is a math expression solver and plotter."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kalgebra-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "60bea48346b7b163405eff5c426e786b9d24f65152addceb6616bfd3071a5d5687bf641165f9ea1208f762ccb5a5b08298832dfdf85eb74901b248f4b31d59f0"
+RPM_NAME = "kalgebra-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "d4f1340a7ddb1df6e7d48098a9b93c1c92a56062abede7a03f11b2cba983599b073fb78afa4c9b25ac3c565bb82ce7ef6e1fb8ef4975ff315c21d8d499632f3e"
 
 RPROVIDES:${PN} += "kalgebra \
 kalgebra5"

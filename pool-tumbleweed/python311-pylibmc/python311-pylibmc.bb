@@ -9,10 +9,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.6.3"
 
-RPM_NAME = "python311-pylibmc-1.6.3-2.1.aarch64.rpm"
-RPM_HASH = "e7d94e816884f8583476f926a19364284eb2d2822fa298cec05f36a61aecbfd06959941517018eaa393442926b6453887683b72699d047cb3cb4e61f5181d01a"
+RPM_NAME = "python311-pylibmc-1.6.3-2.3.aarch64.rpm"
+RPM_HASH = "21fd8182e087999fdc03a36e51bbfcfda3700b2b43270671706d0e6133c322d7b90084af8396d66d5ab7fa04cd6254f88458851aa651d82f1dc938c18fa259b0"
 
-RPROVIDES:${PN} += "python3.11dist-pylibmc \
+RPROVIDES:${PN} += "python3-pylibmc \
+python3.11dist-pylibmc \
 python311-pylibmc \
 python3dist-pylibmc"
 

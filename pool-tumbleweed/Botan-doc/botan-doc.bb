@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.19.3"
 
-RPM_NAME = "Botan-doc-2.19.3-1.4.noarch.rpm"
-RPM_HASH = "7e6bb353bd8819e8a5d24c37ee16288f73d5dc57229b0c353cfd082fcec95c5158c602f2d376dd2db594c7a4eb2e42cf8cac4ce9a5b019df3a7537aa791ef6b7"
+RPM_NAME = "Botan-doc-2.19.3-1.6.noarch.rpm"
+RPM_HASH = "19c7e5ae6b51c8e4c49b2de9a83c18bd72b2edc7963d08ad0c657c8ed46cbc9335c78ce083e4077a59a4a0af42ee185dbdeeea88a812856e5f177b215232b0a0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "Botan-doc"

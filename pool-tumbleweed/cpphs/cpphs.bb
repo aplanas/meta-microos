@@ -11,13 +11,12 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
 PV = "1.20.9.1"
 
-RPM_NAME = "cpphs-1.20.9.1-5.3.aarch64.rpm"
-RPM_HASH = "6535b49fd58ea2003943203e653ff96ec72b38c51fbb0759146bb0ddc2982ecb402186e6417320564a77e3981c2cb8988bb329d168c6c1975cd8c69c635d1bc0"
+RPM_NAME = "cpphs-1.20.9.1-5.6.aarch64.rpm"
+RPM_HASH = "e2b62ec38f6ce00725e960926017d84b7dc126bed5bde8f5a7d6323eb30d7981e16d634e54ba68bedc22560ba58a334ee917fd4b5f15390cd63883f843279ed2"
 
 RPROVIDES:${PN} += "cpphs"
 
-RDEPENDS:${PN} += "libatomic.so.1 \
-libc.so.6 \
+RDEPENDS:${PN} += "libc.so.6 \
 libffi.so.8 \
 libgmp.so.10 \
 libm.so.6 \

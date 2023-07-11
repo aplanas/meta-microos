@@ -9,8 +9,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "4.03"
 
-RPM_NAME = "perl-JSON-XS-4.03-1.15.aarch64.rpm"
-RPM_HASH = "6cb5375edeea99053f5f4c9f08342fef9e42de1e19a4d57922fb59e087c02e9f18c79bd526eb2b975b0f732c08af3aa442ec4ef9c3bf72d50a6c12bfdceca3b3"
+RPM_NAME = "perl-JSON-XS-4.03-1.16.aarch64.rpm"
+RPM_HASH = "5e66981db05bc3f6e638464b57716e63e6aab7173b592a45cd71ef20a665e7abb0290b797b9eede413ab2ed85cfe90ed756938cac0c767924e933302781b61bc"
 
 RPROVIDES:${PN} += "perl-JSON--XS \
 perl-JSON-XS"
@@ -18,7 +18,7 @@ perl-JSON-XS"
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-Types--Serialiser \
 perl-common--sense"
 

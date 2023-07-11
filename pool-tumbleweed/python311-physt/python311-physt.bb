@@ -10,11 +10,12 @@ LICENSE = "MIT"
 
 PV = "0.5.3"
 
-RPM_NAME = "python311-physt-0.5.3-1.3.noarch.rpm"
-RPM_HASH = "f7d6abeeca2386baf8c4d576b7c286fb5980bc8abd66740f8b362ce68f4b52e796bc588bb4eda496e255c8687da38219bcd036af9633e9554b3901095bcbb73b"
+RPM_NAME = "python311-physt-0.5.3-1.5.noarch.rpm"
+RPM_HASH = "b2e726b34d6c21e8f26139db0f8e9291b9d423dc18ce586236bb184108a7f9e7d83d7faef8f052613d2af18f056e4c55a1fb7fadb682abcebf84a0f1971f132e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-physt \
+RPROVIDES:${PN} += "python3-physt \
+python3.11dist-physt \
 python311-physt \
 python3dist-physt"
 

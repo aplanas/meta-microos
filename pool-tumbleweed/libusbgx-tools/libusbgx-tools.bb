@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.2.0"
 
-RPM_NAME = "libusbgx-tools-0.2.0-1.13.aarch64.rpm"
-RPM_HASH = "ff2c188565c11363f8a6e3119c26ae0b12087e35827ab7e864ecfa135d8ee5847eda4e382327a79ee8caf66a943b8e4f89859ebd6f043f4ab9133dfcf4dd105b"
+RPM_NAME = "libusbgx-tools-0.2.0-1.14.aarch64.rpm"
+RPM_HASH = "1561846fa4e4a65232d2e00349f70612897a52e5c8e70b2e8bb3ebf604f7d51c3ca98a5ad06912e648d71e5826860bf908879c9f712182eb7e219d81114cd128"
 
 RPROVIDES:${PN} += "libusbgx-tools"
 

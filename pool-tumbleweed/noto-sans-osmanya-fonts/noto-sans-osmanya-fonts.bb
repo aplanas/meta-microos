@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-osmanya-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "cbb36b5f2ea8ca68efac51ec6fa653e0c3edb1c18aa05228ccd364dceadaa94a986ca0bbc0693162db7e88576429d6f492851181a6cb60b640a102c4956e7188"
+RPM_NAME = "noto-sans-osmanya-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "3c3503e3689681871e1947cb5dfc6f973dca89854973298d9ff1815458d1992c5350fac87633bc1340cd9061849b64f3490c31a4f04969f77b2c3668382046ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-osmanya \

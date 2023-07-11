@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "0.8.9"
 
-RPM_NAME = "qhexedit2-0.8.9-1.15.aarch64.rpm"
-RPM_HASH = "598c274874c5c3a863bc65f52959179b0cf2f6a2bd92a121df7960cdc33597e5518b8a9b3cfb1c5e597ceb987ddce04931a207c9d266a47dfd533c13da2318b1"
+RPM_NAME = "qhexedit2-0.8.9-1.16.aarch64.rpm"
+RPM_HASH = "4b5cfe8d7cdbe86fdbac228d81a44fd3cc2fab416867002868de4c133c1fe9042d4dab9109c68e9d2d683bfba8d0f8af1c535a398394487a730fda6964fbcfb8"
 
 RPROVIDES:${PN} += "qhexedit2"
 

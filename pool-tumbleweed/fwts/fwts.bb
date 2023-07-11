@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "23.05.00"
 
-RPM_NAME = "fwts-23.05.00-1.1.aarch64.rpm"
-RPM_HASH = "f0f2362e47f647cae35f333be09d168bc36e566ec9c062ad221c1144c02e9af45dea8865d7bf65857726a31c082debe60d7e78ded326deff45c877808449db06"
+RPM_NAME = "fwts-23.05.00-1.2.aarch64.rpm"
+RPM_HASH = "82b2db8d07b09e1b662e25eae8ff94c238b6e0554e2a1b4c32bb7700caebaee4d2c852d3f7f505469f250235423cedb13cc4408ae9475feb90e8f6a116de77d4"
 
 RPROVIDES:${PN} += "fwts \
 libfwts.so.1 \

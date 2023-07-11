@@ -13,12 +13,11 @@ LICENSE = "Python-2.0"
 
 PV = "1.0.1"
 
-RPM_NAME = "python310-random2-1.0.1-8.1.noarch.rpm"
-RPM_HASH = "a654488bbc7878ad401cd74bc4d4d32eca2cf75565e5dc3ea103a82cb5d5241d582da4695e19f5853f5fe8611c8cf6a5e6e8012f34bf03f6e1618b17a5c27e6c"
+RPM_NAME = "python310-random2-1.0.1-8.3.noarch.rpm"
+RPM_HASH = "b03082a395a7a43766ebea6531fce9f0ff44a966768f68709edb97ea294c7893ecfd766b16d8fa79fb6aa77549ba72b29aa368371a18789d6b269672989d2b93"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-random2 \
-python3.10dist-random2 \
+RPROVIDES:${PN} += "python3.10dist-random2 \
 python310-random2 \
 python3dist-random2"
 

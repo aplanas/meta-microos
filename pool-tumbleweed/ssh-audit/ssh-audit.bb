@@ -14,11 +14,11 @@ LICENSE = "MIT"
 
 PV = "2.9.0"
 
-RPM_NAME = "ssh-audit-2.9.0-1.1.noarch.rpm"
-RPM_HASH = "5e5279b0f94fc5f04554a099439da8e06ce883c1711198031016e35d04732c2d7bb9fd88bf23d4bda91590c4c0ebcf59dfbb609c7d83f0457a2e625268e05b13"
+RPM_NAME = "ssh-audit-2.9.0-1.2.noarch.rpm"
+RPM_HASH = "b43a5b7dd099fd0ef3ab01b5bf603238f327f7e71d6cd53b8823d6e7d7b43bd9cd6cfa11e745fa4e1fb7ef7eef703164496d86f878a746871a954dc1b5389c51"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-ssh-audit \
+RPROVIDES:${PN} += "python3.11dist-ssh-audit \
 python3dist-ssh-audit \
 ssh-audit"
 

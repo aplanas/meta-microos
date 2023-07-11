@@ -4,11 +4,12 @@ LICENSE = "Apache-2.0"
 
 PV = "3.0.0"
 
-RPM_NAME = "python311-django-coverage-plugin-3.0.0-2.1.noarch.rpm"
-RPM_HASH = "c7cd7052f093dfc4f2313e759836f4cf625e53351e2ca0b26b924e24b4ad66e8a50db0553dc8a0c74cd32b844ac8063a87baf6c29c4d5f83bfafd30d139949a8"
+RPM_NAME = "python311-django-coverage-plugin-3.0.0-2.3.noarch.rpm"
+RPM_HASH = "669bada303e0c86049d80a54ba59834c8338d373121eac6bb4a5062f6b9968b99bc16e3b13295d82005f27be96e4424ee337f7aa23aea2429a3538fab13a81b4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-django-coverage-plugin \
+RPROVIDES:${PN} += "python3-django-coverage-plugin \
+python3.11dist-django-coverage-plugin \
 python311-django-coverage-plugin \
 python3dist-django-coverage-plugin"
 

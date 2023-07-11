@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "2.1"
 
-RPM_NAME = "libobjc2-devel-2.1-2.3.aarch64.rpm"
-RPM_HASH = "4fa81b463030cad25152c2aa800dd6ee857a75c0db8c210fd7d342b3978775d3e372e5cf95fe4baf7fb563afe4f411b27845388a870a574ac4a3230f64bc7f9d"
+RPM_NAME = "libobjc2-devel-2.1-2.4.aarch64.rpm"
+RPM_HASH = "b7c0930b88608b108bdd73c487fb5080547b9874b2f8c886c55b6440c7f1064b2d636150edb8b61bb5998c842750558a1954b9ba414ab0e13e0914baef052141"
 
 RPROVIDES:${PN} += "libobjc2-devel \
 pkgconfig-libobjc"

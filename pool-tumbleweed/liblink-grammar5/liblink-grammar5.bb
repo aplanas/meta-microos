@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "5.10.5"
 
-RPM_NAME = "liblink-grammar5-5.10.5-1.5.aarch64.rpm"
-RPM_HASH = "0625ac89fabdcdddb384ab881f93b220f36e45dc5c99e0e2c97280a19761c0db1e54550e84f8c99fc20b1e4d8563c5ef2bda9653beb4645e9a3bc33d29e9b893"
+RPM_NAME = "liblink-grammar5-5.10.5-1.6.aarch64.rpm"
+RPM_HASH = "276b63dd3a411f9cdb77c2729b7cd11e1f4ca196597f3a2e0f7509997288fa5ae458f2920ec27ff6661e3275aa52dd076a637192fc8d11508869b849357b839a"
 
 RPROVIDES:${PN} += "liblink-grammar.so.5 \
 liblink-grammar5"

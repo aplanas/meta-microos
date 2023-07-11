@@ -2,10 +2,10 @@ SUMMARY = "tool to generate man pages from Doxygen XML files"
 DESCRIPTION = "The doxygen2man package contains the doxygen2man utility."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.0.6+20220323.758044b"
+PV = "2.0.7+20230607.06c8641"
 
-RPM_NAME = "doxygen2man-2.0.6+20220323.758044b-1.3.aarch64.rpm"
-RPM_HASH = "a48dd4a56661517e387dd3ed5e86e014998af19222ccb30fcdcd32cb9ec351a6a01f05c6faa4d5bf5109b34e8b9fd1b859a78151cf96072c7f3ef42b723c1d09"
+RPM_NAME = "doxygen2man-2.0.7+20230607.06c8641-1.1.aarch64.rpm"
+RPM_HASH = "6dcd6a462a87174c936dff93ccc29c4d8f1bdb641b1b1de11cdcb0735941355a8f711108b1153f8a28b4d85ab35de6fb61cf56886154a32c0033550c8463d38a"
 
 RPROVIDES:${PN} += "doxygen2man"
 

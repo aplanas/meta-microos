@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1"
 
-RPM_NAME = "python310-PyRSS2Gen-1.1-2.13.noarch.rpm"
-RPM_HASH = "52977f15d3ce7a7c283fa20537af1cbf395f8a7938814f176606b99dc2d5418d253f15279235ea6ff0eaad08cdf34859216250c4898946671a62ecf852864e1f"
+RPM_NAME = "python310-PyRSS2Gen-1.1-2.15.noarch.rpm"
+RPM_HASH = "ace99ed8123fdf09ddef5fc6dcaeba57baf39aa7f278309af0625f13d0c61a6f37979e0f2cf70bd47ab07eb793dba48826474e9a412bf58318aae801af5b860d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-pyrss2gen \
-python3-PyRSS2Gen \
 python3.10dist-pyrss2gen \
 python310-PyRSS2Gen \
 python3dist-pyrss2gen"

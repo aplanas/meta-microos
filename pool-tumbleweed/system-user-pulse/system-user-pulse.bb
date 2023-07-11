@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "16.1"
 
-RPM_NAME = "system-user-pulse-16.1-3.1.noarch.rpm"
-RPM_HASH = "932cbb4043103c1bbfbe0b4d60de1990680ddc46526100865ff6ecaeb67123763796f936af0cc5cda9dbdb74f97d49139d31b498bf616e65dfde4485a969aa93"
+RPM_NAME = "system-user-pulse-16.1-4.1.noarch.rpm"
+RPM_HASH = "4ade37809e319bcb29fa6acb3699915808f4d13a415ddce548ae4ea08b6b98c48fe724e2d5fe29f4e5888f06ffaeb9bb65cca0fa61744cabc03c6ba7d3f2a481"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "group-pulse \

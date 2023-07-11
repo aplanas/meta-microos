@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.22.4"
 
-RPM_NAME = "gxditview-1.22.4-10.3.aarch64.rpm"
-RPM_HASH = "7f9fae3f9d3c017bfa39636bdcc13f4fe5bb53790248ea5e7f0929e7dfc82ee6facd76548937dc54d3f901d26d1a176933194b2d6657cd7916fe2719c58ebc57"
+RPM_NAME = "gxditview-1.22.4-10.5.aarch64.rpm"
+RPM_HASH = "0879bc48adcc6ba11523d5bf9a02dcfdac21466a7cc3d1ffde815785e60fbe7fb14e66b634baa6e60d5b9d38805e54c33e792cdc4611300342c119fcf9a240b7"
 
 RPROVIDES:${PN} += "gxditview \
 gxdview"

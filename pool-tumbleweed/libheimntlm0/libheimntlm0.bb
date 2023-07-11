@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "7.8.0"
 
-RPM_NAME = "libheimntlm0-7.8.0-3.1.aarch64.rpm"
-RPM_HASH = "582641e1eb7c899ddc74a2ad530b75d654deb53c95d02cd9a25ac131e1374ae186b0297451f4a5f7c5bc53cd509093e9e8f0eeadbd7a7114fdc9e3a3465f389e"
+RPM_NAME = "libheimntlm0-7.8.0-3.2.aarch64.rpm"
+RPM_HASH = "b8bbb1980fc59f3364ead377e9a92706a2608b3fe510d0954e5f536fd8510b89ae092352d90343a2c6d7364584bade8b2629aba6dec6ee9a1d80949485794290"
 
 RPROVIDES:${PN} += "libheimntlm.so.0 \
 libheimntlm0"

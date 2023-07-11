@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "3.100"
 
-RPM_NAME = "lame-mp3rtp-3.100-5.3.aarch64.rpm"
-RPM_HASH = "e84cf2ec7e0dc9c9220ea9e81d315cd6b86ccc21e2caa9bdc5a2d8be3f9f217727892040a9474174ffcf67e628fb48daed58db44f659e4811a20b35dea86cc2e"
+RPM_NAME = "lame-mp3rtp-3.100-5.4.aarch64.rpm"
+RPM_HASH = "fef5592d71b4030ef65ca5c31f731763b986c8df4734857acd0eb7b661201c5631e8a99b40e645c8ce36bd87d1fb32f8fdd15a4241ef7690fe0dcf4bd576aa0b"
 
 RPROVIDES:${PN} += "lame-mp3rtp"
 

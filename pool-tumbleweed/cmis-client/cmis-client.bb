@@ -4,8 +4,8 @@ LICENSE = "MPL-1.1 | GPL-2.0-or-later | LGPL-2.1-or-later"
 
 PV = "0.5.2"
 
-RPM_NAME = "cmis-client-0.5.2-1.24.aarch64.rpm"
-RPM_HASH = "c2b0b07ec024411eae26e170a0189eb2513feaace9be82f2c8e6673ca52117238f38c6518e763e748b5665ce3914c6deb329795e9c45a5107e8c4ee84faa4047"
+RPM_NAME = "cmis-client-0.5.2-1.25.aarch64.rpm"
+RPM_HASH = "f9d42945e1e0d1ae74b6becd597d0b8112737636ed5a58d958edee83e54bcc19fb46b4962d2022bd2f8d27f43c7c9c277de2bd32c1540c74e5e69be19c6cc1d5"
 
 RPROVIDES:${PN} += "cmis-client"
 

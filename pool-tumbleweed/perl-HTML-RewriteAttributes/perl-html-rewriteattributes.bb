@@ -11,8 +11,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.05"
 
-RPM_NAME = "perl-HTML-RewriteAttributes-0.05-8.20.noarch.rpm"
-RPM_HASH = "0bb7b6c858c13127df0f2bfc2a174ac09291c924ebdd7f77e7156947c4e59bd991f13936ac63773cffaeaf335879a0e4a60b02f3fa3c30c7c72954cc64284d35"
+RPM_NAME = "perl-HTML-RewriteAttributes-0.05-8.21.noarch.rpm"
+RPM_HASH = "6e2f472353513491edf5ffe7068cec269bb463fdc5ac852295b260111a7f9054333e07cb59b90caa4b94e16f915989bde5a71073ec9c5e72124c8e5f56742df8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTML--RewriteAttributes \
@@ -20,7 +20,7 @@ perl-HTML--RewriteAttributes--Links \
 perl-HTML--RewriteAttributes--Resources \
 perl-HTML-RewriteAttributes"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-HTML--Entities \
 perl-HTML--Parser \
 perl-HTML--Tagset \

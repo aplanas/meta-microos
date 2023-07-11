@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & LGPL-2.1-or-later & (BSD-3-Clause | LGPL-2.0-only)"
 
 PV = "1.8.8"
 
-RPM_NAME = "uim-1.8.8-9.9.aarch64.rpm"
-RPM_HASH = "06dbc336846b6d1cb0d109fc96254d203e35ee18563bb8990fee64c5ffe16ca5a4183f45d74bc5b5e429d9cb711caee1837e3729a1f9742335fc1c9416e83b36"
+RPM_NAME = "uim-1.8.8-9.10.aarch64.rpm"
+RPM_HASH = "79a1703fc048e27ef7f9a3c63a28d3d1595dc7b63bd55e9b547e2f1e570377c2f6a22ee17659f189cafcb0e83e3c053bea4c5e93eec06e612790ea8d9696220d"
 
 RPROVIDES:${PN} += "libgcroots.so.0 \
 libuim-anthy-utf8.so \

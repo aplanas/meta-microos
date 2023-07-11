@@ -10,11 +10,12 @@ LICENSE = "MIT"
 
 PV = "3.1"
 
-RPM_NAME = "python311-pyroma-3.1-1.9.noarch.rpm"
-RPM_HASH = "cf47906808ba91206d1612728fe69614389ecf515d51de54ea94ee3bb6fb25e8aeeb6737e7e9f9d9693d81c9e0961a53ae485efaff7b5dc9f7168d8b29eee4be"
+RPM_NAME = "python311-pyroma-3.1-1.11.noarch.rpm"
+RPM_HASH = "c6ccfd93cff637d022076c99c011d5371d967fdd46832a015d8e27b0be5d599f560848a26d4554a3772d72b88ad1bb8e34c110cab4610d7eed709497818aa695"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pyroma \
+RPROVIDES:${PN} += "python3-pyroma \
+python3.11dist-pyroma \
 python311-pyroma \
 python3dist-pyroma"
 

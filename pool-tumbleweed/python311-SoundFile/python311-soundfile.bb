@@ -10,11 +10,14 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.12.1"
 
-RPM_NAME = "python311-SoundFile-0.12.1-1.2.noarch.rpm"
-RPM_HASH = "400c01ef419b8b6d7a03bf6fb4d0e8674058682218d2aa34561f6584d1e199f0e9e4df8a0d949ae154ab0d348d7ef1212484d278cb8f850b4314c89bee5c75c2"
+RPM_NAME = "python311-SoundFile-0.12.1-1.4.noarch.rpm"
+RPM_HASH = "7694d3942440cf86355e75edfe3cb4291108c82c844f9a89a71d13f5d25bdb21f096adab6543c481db78234bdf8487091ae9a14466b74151209fa0c08cbf3463"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-soundfile \
+RPROVIDES:${PN} += "python3-PySoundFile \
+python3-SoundFile \
+python3-soundfile \
+python3.11dist-soundfile \
 python311-PySoundFile \
 python311-SoundFile \
 python311-soundfile \

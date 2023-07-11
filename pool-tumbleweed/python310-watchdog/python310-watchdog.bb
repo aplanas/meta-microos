@@ -4,12 +4,11 @@ LICENSE = "Apache-2.0"
 
 PV = "3.0.0"
 
-RPM_NAME = "python310-watchdog-3.0.0-1.2.noarch.rpm"
-RPM_HASH = "7a84654eb36ec6783490a174cc3beb0ec4bccd4fbf88d4cab042524a6c94387c2db362f21131d06c711443224b8d0efb7c947599d962a712d62edb615859604c"
+RPM_NAME = "python310-watchdog-3.0.0-2.3.noarch.rpm"
+RPM_HASH = "440b1771a644e1b08496d3be717c276e78704718d2b85118e1923c08ea418ae8fbb8910a5dd46377ab8ac76fce544c448f2265f8956ee7e50ac65508469b6c2d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-watchdog \
-python3.10dist-watchdog \
+RPROVIDES:${PN} += "python3.10dist-watchdog \
 python310-watchdog \
 python3dist-watchdog"
 

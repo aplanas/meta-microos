@@ -4,11 +4,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.0"
 
-RPM_NAME = "python311-django-assets-2.0-5.2.noarch.rpm"
-RPM_HASH = "d5820654dde49a1e4717aca795058202acd2ebe57c24bdf3012bbbeece22ad8a2604bb607a944fa283d6fd565c4c7c16e11896868a009152a7069d36a1b52593"
+RPM_NAME = "python311-django-assets-2.0-5.4.noarch.rpm"
+RPM_HASH = "f9b1572e9a9ac3c1d257848f65a0da8acecb51e7f3f6e007b719182af85515c47f2eba0ca35b94ed23e1fab58c4ce3460461865b5c2dbde5135f91e064be263c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-django-assets \
+RPROVIDES:${PN} += "python3-django-assets \
+python3.11dist-django-assets \
 python311-django-assets \
 python3dist-django-assets"
 

@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.6.4"
 
-RPM_NAME = "python39-aexpect-1.6.4-2.4.noarch.rpm"
-RPM_HASH = "da4398a958d923e3c2eb2913d4c9eb74cd14235ebf33cfa58eedc202a221c79d693cc3a6f68e06438227d71e9cc968aa3995fdcc66bd31273998e2275a960e96"
+RPM_NAME = "python39-aexpect-1.6.4-2.5.noarch.rpm"
+RPM_HASH = "916948013818cebc8d06a15c1abdc476a12a5e62cb65214e8a3c89c9374a3911593a157e4dd0fb2f3f5b689b92a667385c423cbee3f094ab044b52a74b27555e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-aexpect \

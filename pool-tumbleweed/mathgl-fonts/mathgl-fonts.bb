@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "8.0.1"
 
-RPM_NAME = "mathgl-fonts-8.0.1-3.3.noarch.rpm"
-RPM_HASH = "a69c62e356675f07a65fb0abc05fb9998b172da8461a3bfe5d5e6cbf95bca77237791ac57c20eaa3424d76d59a05d9c55a14cf10bcb0ed712c13acb1b16e2d96"
+RPM_NAME = "mathgl-fonts-8.0.1-4.2.noarch.rpm"
+RPM_HASH = "6c83df71160a7611e1f856dbf6a63b25c160cc3ad79f93aaef0d6e10afecf83649acb309f565c4018a9416118e2da42801d2af284f92912ccacb68bce12fd912"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mathgl-fonts"

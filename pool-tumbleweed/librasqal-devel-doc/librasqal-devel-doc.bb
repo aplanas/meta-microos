@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1+ | GPL-2.0+ | Apache-2.0+"
 
 PV = "0.9.33"
 
-RPM_NAME = "librasqal-devel-doc-0.9.33-1.30.aarch64.rpm"
-RPM_HASH = "6195b75a7f59379d7990317377b89f5a8d6d565cccf38f428f1e09d9a287157c411254ebcb5217d30789d3c2305c1248958d835ed55f25837615829d9ae18d5b"
+RPM_NAME = "librasqal-devel-doc-0.9.33-1.31.aarch64.rpm"
+RPM_HASH = "77c1c3f50ccc73c849dcf5f8417012916409f8f67da60120687ab1c7eb3e33bb5e269754c3192dc6c3c36677a0f4f10338ebfec30de90c0f3ea2f4349477f5a6"
 
 RPROVIDES:${PN} += "librasqal-devel-doc"
 

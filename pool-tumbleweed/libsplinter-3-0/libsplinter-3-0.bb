@@ -16,8 +16,8 @@ LICENSE = "MPL-2.0"
 
 PV = "3.0"
 
-RPM_NAME = "libsplinter-3-0-3.0-2.22.aarch64.rpm"
-RPM_HASH = "f8cea8b885e776a66ae1d4a1e3f8453fc64c89046c54e9a5f98cf884e98288f7f482740cd5585f822f26e9a8df05acef64dcb5e1d166dcdc0ef753c57e91e7d6"
+RPM_NAME = "libsplinter-3-0-3.0-2.23.aarch64.rpm"
+RPM_HASH = "3775ab4a637a9e48303a4650048f7911b9bcde7412dcfedb885c62e174e4caa5b0ff0bc96a0ec17b67b3931ca0a300a8559d6e1f5044231add6495a4b596f909"
 
 RPROVIDES:${PN} += "libsplinter-3-0 \
 libsplinter-3-0.so"

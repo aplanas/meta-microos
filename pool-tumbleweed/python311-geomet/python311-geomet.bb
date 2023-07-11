@@ -4,11 +4,12 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.0"
 
-RPM_NAME = "python311-geomet-1.0.0-1.1.noarch.rpm"
-RPM_HASH = "9182ea72a5af7fa583135e74b4bafcb87a23a20289270666238d37b441c197907e50276764ed73e745b3cd5363a8754f7fea890fcaae014990e06bb186b60dcc"
+RPM_NAME = "python311-geomet-1.0.0-1.3.noarch.rpm"
+RPM_HASH = "523e8a318b7be133d6ab25700e437264043d3905457d2b8ff6d75231f4be7012f9c3b498fa658a6345f151367b2658904035e06d21eb3216a496bbe302b782cb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-geomet \
+RPROVIDES:${PN} += "python3-geomet \
+python3.11dist-geomet \
 python311-geomet \
 python3dist-geomet"
 

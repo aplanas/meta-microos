@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.0.38"
 
-RPM_NAME = "python39-prompt_toolkit-3.0.38-2.1.noarch.rpm"
-RPM_HASH = "8e0a274182ceccdc2a13ae754d0cbe77e5e1129ead4f2c64275a59b40c59eb2742460d12a28ee47d82715169324da74d1ef78dfd925bf5cad8f085a6771ef7ef"
+RPM_NAME = "python39-prompt_toolkit-3.0.38-2.3.noarch.rpm"
+RPM_HASH = "f582ade16099c6ab280a91f0c9a2a9ee2c4188a5a2da761333ab4e43c8ad70df744b37c4e620dbde785f65b6ade1d383d00c8a124853190fe3c40919d703899a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-prompt-toolkit \

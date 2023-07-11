@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.0.9"
 
-RPM_NAME = "python3-audit-3.0.9-1.3.aarch64.rpm"
-RPM_HASH = "bd141aa7af0e33081c409fca221c930af89ec2d3090e7bc30916863dc64a8c9550b4ed91bc013f3a5f4bada37e238528756af4d4be6890d5cc13c57f62b26988"
+RPM_NAME = "python3-audit-3.0.9-1.5.aarch64.rpm"
+RPM_HASH = "c3d96c1b28416d26f7d709eec7619c062936afeeef95e1ea4d03b983adaee46eb9b91557caf6ae8a701d770010722e9208f598777da6a531856329924169aef7"
 
 RPROVIDES:${PN} += "audit-libs-python3 \
 python3-audit"

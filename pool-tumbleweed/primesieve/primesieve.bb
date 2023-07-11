@@ -7,8 +7,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "11.1"
 
-RPM_NAME = "primesieve-11.1-1.1.aarch64.rpm"
-RPM_HASH = "9744bdb9941e97b20c2e214e2ecce6c318537d4def392c3c8c4cd117e410b40d58d3e44c4175b3ff2a361a8e606f86e4f6a5f1ca6fa275c753914396ebc7fbb4"
+RPM_NAME = "primesieve-11.1-1.2.aarch64.rpm"
+RPM_HASH = "50b52e64dbac2f4dfc8368096105f6ceffb1b8853f5b7d583bd02f0c1f62136a5c941f24063bb92b0d7a533ca026f5f5a78e60bc33a76ff7abdbb6537c456d57"
 
 RPROVIDES:${PN} += "primesieve"
 

@@ -7,8 +7,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.01svn64695"
 
-RPM_NAME = "texlive-heros-otf-2023.201.0.0.01svn64695-53.1.noarch.rpm"
-RPM_HASH = "f4d47d0eb5a10098a70ebb6c0116c0ae6ab1c8678143b4622159194c8d46cc7e2f2279ca87a2b1d2fabacc24d0962821ad5ef01ddd63a985735953300acbdc38"
+RPM_NAME = "texlive-heros-otf-2023.201.0.0.01svn64695-53.2.noarch.rpm"
+RPM_HASH = "e0cd04ffaec49bfb78c3835ef239bba96d6c0d2dce8f9c543b58a372d8b18f1e987b1b16dc153584a2f5fa24b5dda8ca00d74c9ad2099e46c2cca211593df2fe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-heros-otf.sty \

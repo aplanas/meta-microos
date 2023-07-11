@@ -18,8 +18,8 @@ LICENSE = "MIT"
 
 PV = "1.6.2"
 
-RPM_NAME = "ossp-uuid-1.6.2-19.45.aarch64.rpm"
-RPM_HASH = "506fb99c3e1873d26102fd30ed5138116058c7d20d7de050f3ec9a32f379c042ee85678b66fc5c02e95755e034db3904393726791d3787210c89a2b56576fd0c"
+RPM_NAME = "ossp-uuid-1.6.2-19.46.aarch64.rpm"
+RPM_HASH = "7b8c8de6f2bd2dab917f54ad842c40cedabddbe49fbac1c5dcccb964651f1b13e86932d0c87315ebb57520e61ed8e45c7c0fe0cc0afef8cb87beec8db4d7a953"
 
 RPROVIDES:${PN} += "ossp-uuid \
 uuid"

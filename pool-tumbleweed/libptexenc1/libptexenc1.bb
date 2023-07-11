@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.3"
 
-RPM_NAME = "libptexenc1-1.4.3-91.1.aarch64.rpm"
-RPM_HASH = "bae31bc5f448a2fdc7c6c1c68510cad2556c1964ec8bb61deaf5e6c43f3d9a91a8eafa6fc9b4c8094f50dc55e58dfa7a5999f76583c1a1e31e1a4a0a684e50ff"
+RPM_NAME = "libptexenc1-1.4.3-92.1.aarch64.rpm"
+RPM_HASH = "70b2ad44ffbb07aa7f172fb653df9ba9097ca7cccce7ab86ed3a7c0d169ba502e4aaa4731ba17a4c294e54b77acffc33ff36b062c62293532c721a70421fff21"
 
 RPROVIDES:${PN} += "libptexenc.so.1 \
 libptexenc1"

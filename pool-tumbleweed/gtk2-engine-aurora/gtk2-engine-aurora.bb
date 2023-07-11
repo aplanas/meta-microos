@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0"
 
 PV = "1.5.1"
 
-RPM_NAME = "gtk2-engine-aurora-1.5.1-16.29.aarch64.rpm"
-RPM_HASH = "eb3b64c55670adaa10bf7e08bf932b63351a914209a0e808dc733254acf9639e7399dbe3dc0e797bca1e70a4ce136bb0d1aec660069ff4446218acacc60d67f0"
+RPM_NAME = "gtk2-engine-aurora-1.5.1-16.30.aarch64.rpm"
+RPM_HASH = "da05eb9e3ee5ba209a892d9adf78f9ac67deb6a0cf49be0d88c8d4ce659d7711633540114daa72f712c95d1249480ff69a63ded5b65b04056ea0d21ba10b3eac"
 
 RPROVIDES:${PN} += "gtk2-engine-aurora \
 libaurora.so"

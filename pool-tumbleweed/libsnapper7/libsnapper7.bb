@@ -2,10 +2,10 @@ SUMMARY = "Library for filesystem snapshot management"
 DESCRIPTION = "This package contains libsnapper, a library for filesystem snapshot management."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.10.4"
+PV = "0.10.5"
 
-RPM_NAME = "libsnapper7-0.10.4-13.2.aarch64.rpm"
-RPM_HASH = "19277569f1ae15c9d85788d8641d93a7bd76e2cd7675a2af3c65e46270a72bac67d429834bb8ab628bcba1b03cb6d0685bca0d887f42f927b8550a25af04e175"
+RPM_NAME = "libsnapper7-0.10.5-1.1.aarch64.rpm"
+RPM_HASH = "d472621e6238d39089474c3d7699002e88ab5ad2f5b5aee8e684c6fcd24ceae1f10a8a129f363433c094322dc79afceba577f34064e1e9de5d5545d89225a5a7"
 
 RPROVIDES:${PN} += "libsnapper.so.7 \
 libsnapper7"

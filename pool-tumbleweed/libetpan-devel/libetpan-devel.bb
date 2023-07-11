@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.9.4"
 
-RPM_NAME = "libetpan-devel-1.9.4-1.13.aarch64.rpm"
-RPM_HASH = "1b765db46f81493b89a76701bc946a83b4c6dc2118437feed5ef7e12261a583c2b7664508c70bedcc48640150e4c66dbd1b2581ed1fd9803d21e3a54ecd6ffed"
+RPM_NAME = "libetpan-devel-1.9.4-1.14.aarch64.rpm"
+RPM_HASH = "ebe64870359fb5b7fdd4e7fc1dd33cde78e59bb4503db9ed7a2bc1b380a787a679618d52188531919239c25db9e172a65c6e1edf81b6237f0c4a1e87e7236679"
 
 RPROVIDES:${PN} += "libetpan-devel \
 pkgconfig-libetpan"

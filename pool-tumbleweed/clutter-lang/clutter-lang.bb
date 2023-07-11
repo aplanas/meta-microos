@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.26.4"
 
-RPM_NAME = "clutter-lang-1.26.4-4.10.noarch.rpm"
-RPM_HASH = "25a9c3c73dc097e9c84ec0808a173ca566cf38d48e5b4e1d3aee7e810e3f9364564324c4921aa43f3cccac561a315bbff21231a0743f896e815c9a15dd5c2667"
+RPM_NAME = "clutter-lang-1.26.4-4.11.noarch.rpm"
+RPM_HASH = "009d7f370cce882c2291e98688beb32602eaa98b212689c3480c24676e0eb7fb0709fa8a524dba61f53e2c5d0564c9482a52c4aaa51c43881b67b94d9e82c6e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "clutter-lang \

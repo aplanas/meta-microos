@@ -4,30 +4,34 @@ dashboards by connecting user-defined widgets to plots, images, tables, or \
 text."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.14.4"
+PV = "1.1.1"
 
-RPM_NAME = "python311-panel-0.14.4-1.2.noarch.rpm"
-RPM_HASH = "1927443b6b24aa8a3cd80d3fd45a03edf18279ae71b587ecbe926b826e4becf48d8c03a0d5a5d171c85e4314ef7b433655e09091e18639aea536f4958b845ed9"
+RPM_NAME = "python311-panel-1.1.1-1.1.noarch.rpm"
+RPM_HASH = "46161ef28e659202a9eb422468bdc6cb72a9bce8ef14f423124a72596b537c7c2a60e05e38e1c3303c1000f938a367122065c18680e8cba02c9ea8fa6d8dacbd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-panel \
+RPROVIDES:${PN} += "python3-panel \
+python3.11dist-panel \
 python311-panel \
 python3dist-panel"
 
-RDEPENDS:${PN} += "-python311-bokeh >= 2.4.3 with python311-bokeh < 2.5 \
+RDEPENDS:${PN} += "-python311-bokeh >= 3.1.1 with python311-bokeh < 3.3.0 \
 /usr/bin/python3.11 \
 /usr/bin/sh \
 jupyter-panel \
 python-abi \
 python311-Markdown \
 python311-bleach \
+python311-linkify-it-py \
+python311-markdown-it-py \
+python311-mdit-py-plugins \
+python311-pandas \
 python311-param \
-python311-pyct \
 python311-pyviz-comms \
 python311-requests \
-python311-setuptools \
 python311-tqdm \
 python311-typing-extensions \
+python311-xyzservices \
 update-alternatives"
 
 inherit rpm

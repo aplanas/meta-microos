@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.0.2"
 
-RPM_NAME = "upx-4.0.2-1.3.aarch64.rpm"
-RPM_HASH = "e62276a546d926423961b6ed9acb149bfbe8bce7299b580ef27186f8559c63af9d56a45cef97e2bc02c73c3cfb803ce672cd69d2d8e864e70ac2a097d79c29c8"
+RPM_NAME = "upx-4.0.2-1.4.aarch64.rpm"
+RPM_HASH = "25e7ffa39a3eead64de8d506ef1428a6c3896008c47c29d1a4e9fbdbf312c1b559bafb124fc535a8218b848da1d1c034447be503e04a4a12a29a054ea7425ca4"
 
 RPROVIDES:${PN} += "upx"
 

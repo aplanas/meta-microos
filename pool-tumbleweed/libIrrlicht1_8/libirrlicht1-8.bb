@@ -7,8 +7,8 @@ LICENSE = "Zlib"
 
 PV = "1.8.5"
 
-RPM_NAME = "libIrrlicht1_8-1.8.5-1.9.aarch64.rpm"
-RPM_HASH = "82053338a496e858a36e5a3b5b0521358010cacd4b11ba7a246927ae304eb7c949b6907486a7aa125578a602fafadce6df721884aa0c1878cd7e2441115ea9fe"
+RPM_NAME = "libIrrlicht1_8-1.8.5-1.10.aarch64.rpm"
+RPM_HASH = "d9c908dbdc94da0cfdd4a727d0d73ca24644e09fc383325d1b9542b9daf2b31dc31967a3b15df39c939efc7a35fc01f2c16e5dd8195fd696d5887856dad77aba"
 
 RPROVIDES:${PN} += "libIrrlicht.so.1.8 \
 libIrrlicht1-8"

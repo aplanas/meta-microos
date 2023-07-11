@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.53.0"
 
-RPM_NAME = "amazon-ecs-init-1.53.0-1.10.aarch64.rpm"
-RPM_HASH = "13e5b5915d0328590eb0733065bcde50b0e7135a7e5ceb8567a8790315d389d6781eaa2b9f4f736bbca679f83b55310329fc2f43c7f313ea89fc4a4cbc5e957d"
+RPM_NAME = "amazon-ecs-init-1.53.0-1.11.aarch64.rpm"
+RPM_HASH = "f27bc53a17650cc6435187c289c1be4ed265db4e3cdd9b20024660f4c1982525bf0bb045116b3da9d9a1d74594b1ef470b59ba6c4a62ac9608cba498f0c62d69"
 
 RPROVIDES:${PN} += "amazon-ecs-init \
 bundled-golang(github.com/Azure/go-ansiterm) \

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.1.0"
 
-RPM_NAME = "wl-clipboard-zsh-completion-2.1.0-1.6.noarch.rpm"
-RPM_HASH = "aead849fbaa35626f41d17036a2e8057a65a1baf4ad1a326684ffd20177841bb399ffc9a0c698eb1988aaa5cf13ca52bd48357ea74826296be4f45f25b57e85e"
+RPM_NAME = "wl-clipboard-zsh-completion-2.1.0-1.7.noarch.rpm"
+RPM_HASH = "137916c3cc74ea500349228899b2a2f3833623970202c7f330866b8473614044dc6c8e459c2e8934ddaa5c50137d6acf569dc374cb0b1d4b9ac1598cca668d64"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "wl-clipboard-zsh-completion"

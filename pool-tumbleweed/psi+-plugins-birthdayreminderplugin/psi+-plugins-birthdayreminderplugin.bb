@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-or-later"
 
 PV = "1.5.1615+0"
 
-RPM_NAME = "psi+-plugins-birthdayreminderplugin-1.5.1615+0-3.1.aarch64.rpm"
-RPM_HASH = "2481a10598792c698c29f001b0b1aa68f4bc00e4464257257917734f188971db8fd33f0a6a8ba151bce5ac868d8b5034a817a655739b3df006ff22b6d814d5a6"
+RPM_NAME = "psi+-plugins-birthdayreminderplugin-1.5.1615+0-3.2.aarch64.rpm"
+RPM_HASH = "6182533f73488c509a8faf563b071ec80bcc0e54a5d11014f6b597f6b24622ce0c8efd8f8b2f4184d3d11f2179701e6e572d1609c4aa612d06195b9216943f7b"
 
 RPROVIDES:${PN} += "libbirthdayreminderplugin.so \
 psi+-plugins-birthdayreminderplugin"

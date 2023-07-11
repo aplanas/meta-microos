@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "43.2+6"
 
-RPM_NAME = "libgpaste-gtk4-0-43.2+6-2.1.aarch64.rpm"
-RPM_HASH = "e893d3cc15015124ba37b8e84c50455809c012bdacbeeabf1637a834edfb18f57441d2006de1b5bc821bd56f7860bb97e39d7eeb6ae31162757f1246049752fe"
+RPM_NAME = "libgpaste-gtk4-0-43.2+6-2.2.aarch64.rpm"
+RPM_HASH = "756e1bd553b08f0cbb216dae1912eb15f62053fcfe13c8963da046874d5db1c048e07cf820660e86f60a14545f6b98fc678cc2b3d3c0fd0964b0fe3c43ad678f"
 
 RPROVIDES:${PN} += "libgpaste-gtk4-0 \
 libgpaste-gtk4.so.0"

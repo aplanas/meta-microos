@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.8.0"
 
-RPM_NAME = "frei0r-plugins-opencv-1.8.0-2.4.aarch64.rpm"
-RPM_HASH = "a46f3d138474290fbc64c1f34d911c5aedb7fb4b2c8b71e51ff67d2805fbccfab9b819adc7d3442569a25e10cc15cb2bee2829095d40f3486234507eb86ecc9a"
+RPM_NAME = "frei0r-plugins-opencv-1.8.0-2.5.aarch64.rpm"
+RPM_HASH = "357a166da8eeebd958076b339593e4298834d228c30f42579b25d0a268c766c70ecd85c49bbac78c72bf667322e38a3efc45de326534863f23d8a3ca51ebb940"
 
 RPROVIDES:${PN} += "frei0r-plugins-opencv"
 

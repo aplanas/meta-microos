@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.9.0"
 
-RPM_NAME = "python39-model-bakery-1.9.0-1.3.noarch.rpm"
-RPM_HASH = "7972cd77324c91680eb72a5d904d4ae542e8663018c9a29de625c3cddb9abce1f1c6530ae069d0f32009816e629f1e663948fa6e760f7c1015bbbda203f28f0e"
+RPM_NAME = "python39-model-bakery-1.9.0-1.5.noarch.rpm"
+RPM_HASH = "98ad1b086862a444deffe157694655d000ffc7f18cd20eb5f511c65aa01b3f57491d26122dbfae7710f62036fcfed6ab780aad4159816bda49f33ffa92b511bc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-model-bakery \

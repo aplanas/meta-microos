@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-lutabulartools"
 DESCRIPTION = "This package includes the documentation for texlive-lutabulartools"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn65153"
+PV = "2023.208.svn65153"
 
-RPM_NAME = "texlive-lutabulartools-doc-2023.201.svn65153-52.1.noarch.rpm"
-RPM_HASH = "89d50a6eb66696ca861309d8baecd3d3dbf27f630daf5c56ec2aa89f87a6dfaa598f6fc09a304c74a208bef1d71ce6459467a3628bbd67612aa27ff9695c8b2d"
+RPM_NAME = "texlive-lutabulartools-doc-2023.208.svn65153-53.1.noarch.rpm"
+RPM_HASH = "ece5a3b3d1b74bb710a7603dc28023d09d139dc01687ed1c80410571644070c8639a457a13fc74a238684e9c8945c1e8e5555db53a9c134b9ea15340ab6be13b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lutabulartools-doc"

@@ -18,8 +18,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.6.1svn65242"
 
-RPM_NAME = "texlive-quantumarticle-2023.201.6.1svn65242-53.1.noarch.rpm"
-RPM_HASH = "f84bb181df08eec6571e03f79ce6391ebb83922511b89fd11013df854aac040fa42dc4196247adde586f0c9c2c16caafe6516f526bee0f33c477ebcf6058153b"
+RPM_NAME = "texlive-quantumarticle-2023.201.6.1svn65242-53.2.noarch.rpm"
+RPM_HASH = "ae1547abdeca1daf6dcfc61e16d1a3040fb8a502f1c2c1d32916421868b32bc49d17a169c75fd92de3330c2828a47eec683d0f91935f97a356350ff53cb2920b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-quantumarticle.cls \

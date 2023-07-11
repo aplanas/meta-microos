@@ -4,8 +4,8 @@ LICENSE = "OFL-1.1"
 
 PV = "2023.201.0.0.0.1svn57360"
 
-RPM_NAME = "texlive-hindmadurai-doc-2023.201.0.0.0.1svn57360-53.1.noarch.rpm"
-RPM_HASH = "2a18c13e5848e28ac1e92ede5ff36c5d31808301ebb12c9fa7991507db0bf5cef4d18ec762b8d98898ed965e697585e1be393e581ca180c1b65e66a01e2a527a"
+RPM_NAME = "texlive-hindmadurai-doc-2023.201.0.0.0.1svn57360-53.2.noarch.rpm"
+RPM_HASH = "dae16583e3db5fd2ba5e13848f3a6c7ea65b462c9e0c9c611a46b8cba0c98ecf32b26ab83132b5ab0317f19b10ae34dc18d1be4c3143e1f5b960f4e59f9d20b4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hindmadurai-doc"

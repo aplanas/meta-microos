@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.94svn65346"
 
-RPM_NAME = "texlive-pst-plot-doc-2023.201.1.94svn65346-53.1.noarch.rpm"
-RPM_HASH = "c0dd4408db33badef560f1a545c3ed7182c9e3753d2d83d5f37a1220b44f2fb5f3597db1d97a7198099bf29de9eff5203238199d7b5e43412c5742a8451941b7"
+RPM_NAME = "texlive-pst-plot-doc-2023.201.1.94svn65346-53.2.noarch.rpm"
+RPM_HASH = "e7e0ef4aae204a7bd71f329224341d03812cd9bfa06ab1f6b6f933a55bb72b56f4dfd753574a8cc2fc42b5db1592914ebe9b2781a5ef20cc997b69542af2245a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-pst-plot-doc-en \

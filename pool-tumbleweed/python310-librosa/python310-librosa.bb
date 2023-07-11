@@ -6,12 +6,11 @@ LICENSE = "CC-BY-3.0 & ISC"
 
 PV = "0.9.2"
 
-RPM_NAME = "python310-librosa-0.9.2-4.2.noarch.rpm"
-RPM_HASH = "e44e4105393e1a55f8e5b2df89112fa14240fe3b6447f240c8c2d0e9395c96b6e59194063c43e41e48a39bc61d651a13bc1a849f64450c22bb2c3b9a485b3619"
+RPM_NAME = "python310-librosa-0.9.2-5.1.noarch.rpm"
+RPM_HASH = "5f13fcf7d8e5a75cb0d477a5ea09665d3b46d5841040089daeab4895b0281f852dc0de5c75878817cf98dfb33fb5e55d8cbb84a66ae42c22dba0838c2445f271"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-librosa \
-python3.10dist-librosa \
+RPROVIDES:${PN} += "python3.10dist-librosa \
 python310-librosa \
 python3dist-librosa"
 

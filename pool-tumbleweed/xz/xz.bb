@@ -14,8 +14,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later & LGPL-2.1-or-later & SUSE-Public
 
 PV = "5.4.3"
 
-RPM_NAME = "xz-5.4.3-1.1.aarch64.rpm"
-RPM_HASH = "2455a8bf1bcbed4638aa883cf7935b54c67b0b2c4670a88064b8e69e2317cc37b8202693a4af660af4e503c197f61dbbc1990efe5f0e70965705934437fe9435"
+RPM_NAME = "xz-5.4.3-1.3.aarch64.rpm"
+RPM_HASH = "9da1f2ced78e297eca0253adb224ed249ceb03ea300c60e178a04dc4d0e69f385818121c480e243ec04ba588cdde25ef66fab0962f81f77d86f99b793e56ae1c"
 
 RPROVIDES:${PN} += "lzma \
 xz"

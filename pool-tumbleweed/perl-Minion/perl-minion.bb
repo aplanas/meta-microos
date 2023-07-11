@@ -18,8 +18,8 @@ LICENSE = "Artistic-2.0"
 
 PV = "10.25"
 
-RPM_NAME = "perl-Minion-10.25-1.4.noarch.rpm"
-RPM_HASH = "21bd974d89cf7d723802b39fc01062989d5ed2e8c3844a0ada77e241ada0c073a9d0a76f5a45ca34ca9f245801fafa527f46932da64eebb4bfe46ad1487eb287"
+RPM_NAME = "perl-Minion-10.25-1.5.noarch.rpm"
+RPM_HASH = "758cd70c9aef9fbbdcefe19fb2319da50a747420c775584895cfc6e3aeaf5056bafecfc93f2371ba10ae3730cfe55a3d53b8e7168a872c40baa56f8295db698b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Minion \
@@ -34,7 +34,7 @@ perl-Minion--Worker \
 perl-Mojolicious--Plugin--Minion \
 perl-Mojolicious--Plugin--Minion--Admin"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Mojolicious \
 perl-YAML--XS"
 

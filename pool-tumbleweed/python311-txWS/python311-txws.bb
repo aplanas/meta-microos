@@ -5,11 +5,12 @@ LICENSE = "X11"
 
 PV = "0.9.1"
 
-RPM_NAME = "python311-txWS-0.9.1-4.1.noarch.rpm"
-RPM_HASH = "d98659e44ef9412b9a3d39c134fb8550c4aa8bceaa6b7e453c72c3ed880300f70fade2e4ccd74a61b36b2060a02083a373cfc40afa058a4fd32389ba98d639b1"
+RPM_NAME = "python311-txWS-0.9.1-4.2.noarch.rpm"
+RPM_HASH = "d63abd2f55d03b2d0ea33d714e69e59e037298b675f71999976de5f656a8bdb305a7f8cd41f9dd4d8803bbcb1307bd14011e7fd161ef4f95c5b4db83fa6c7182"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-txws \
+RPROVIDES:${PN} += "python3-txWS \
+python3.11dist-txws \
 python311-txWS \
 python3dist-txws"
 

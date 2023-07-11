@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4.1"
 
-RPM_NAME = "ddcutil-i2c-udev-rules-1.4.1-2.1.noarch.rpm"
-RPM_HASH = "dca0d2c602030aee67675c3333398bce3d0e6002bf6d2fc175f4837a5a724bbd7024a8b1802a334d562886df3b610d9999658570f6a3bb9294688346af734b47"
+RPM_NAME = "ddcutil-i2c-udev-rules-1.4.1-2.2.noarch.rpm"
+RPM_HASH = "a79e8da77b71bdaff5aedf0136df9731ce6170b82136d66e1e8412bdb225e425d90fec5e3124b6e49c1f8ac1438a14ca5c0c41b73dc0f7fa57a954aab82b52ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ddcutil-/usr/lib/udev/rules.d/60-ddcutil.rules \

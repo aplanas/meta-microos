@@ -10,10 +10,10 @@ DESCRIPTION = "This package contains tools and scripts for using Clang, includin
 * a script for using find-all-symbols: run-find-all-symbols."
 LICENSE = "Apache-2.0-with-LLVM-exception & NCSA"
 
-PV = "16.0.4"
+PV = "16.0.6"
 
-RPM_NAME = "clang-tools-16.0.4-1.1.aarch64.rpm"
-RPM_HASH = "bcaa4a83623c915d2e241ef2dae9ea6ca842d3c89252d0a6d37861a77579afb004fe47c027d3f6ead9ee7f7924fc611968487b431a595df544f4f16b302cef6b"
+RPM_NAME = "clang-tools-16.0.6-1.1.aarch64.rpm"
+RPM_HASH = "deb4cb4546e8316e3fba42e6467789d9abb6e18f1de991735c481fa38965c0becc5ca1ada4c0c97ccf2b0f1c3bcdc903ac621ab721c615defe3acfda190fd92d"
 
 RPROVIDES:${PN} += "clang-tools \
 emacs-llvm \

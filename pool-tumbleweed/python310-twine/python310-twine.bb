@@ -7,12 +7,11 @@ LICENSE = "Apache-2.0"
 
 PV = "4.0.2"
 
-RPM_NAME = "python310-twine-4.0.2-1.1.noarch.rpm"
-RPM_HASH = "65883732bcc5e31bafa802dd26b1c3180246d7ce520be88dcd4a28bdc62c7e5209cb78a2f97d1ea4c08ae7ed1bf54ea539369634c2ca65902890d56005c52f8c"
+RPM_NAME = "python310-twine-4.0.2-1.3.noarch.rpm"
+RPM_HASH = "0448ceae314c2d508b6cd215bf025bdae5ce2b26b38c06014562de816ac12b561ced77b17af32c4f1c6bd57d22f77b9d047f0e3ae8b3432635c68057a087db9b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-twine \
-python3.10dist-twine \
+RPROVIDES:${PN} += "python3.10dist-twine \
 python310-twine \
 python3dist-twine"
 

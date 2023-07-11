@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.1.2"
 
-RPM_NAME = "python310-pytest-percent-0.1.2-1.12.noarch.rpm"
-RPM_HASH = "b1ac0d656051d9242100007d6326200dd503b6319735e29ca0b086be69d8f4e1a566c3fbd45e3522222eaf17dc50d21fd4792bdd271663553be428c915eedb80"
+RPM_NAME = "python310-pytest-percent-0.1.2-1.14.noarch.rpm"
+RPM_HASH = "a4e91422576ce92246e546a5361e354e36afb071ff48ed18220ccf99ca8fd5b2071db328822d7372e042752b5570f1287ad248ef13e3c11b751c795a4a84a0b4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pytest-percent \
-python3.10dist-pytest-percent \
+RPROVIDES:${PN} += "python3.10dist-pytest-percent \
 python310-pytest-percent \
 python3dist-pytest-percent"
 

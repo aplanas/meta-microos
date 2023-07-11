@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "43.0"
 
-RPM_NAME = "typelib-1_0-Wnck-3_0-43.0-3.3.aarch64.rpm"
-RPM_HASH = "5de51ad49a5f314666bd65e6d0bb3d11c1dfe07544ca09ce87fd650dd937f3ca25c6c31aa6e55b3602f874805d0bd28a7a3fb29136ff3107cf4a3f79d2827aee"
+RPM_NAME = "typelib-1_0-Wnck-3_0-43.0-3.4.aarch64.rpm"
+RPM_HASH = "8275fd915e7719ec4fab0cda61992fbde35962663e1a054b989b8eff67a8238d10cad61c680cd93ea2f935eb7b64ae76968b65b9df68a4a358d95cabbf35da34"
 
 RPROVIDES:${PN} += "typelib-1-0-Wnck-3-0 \
 typelib-Wnck"

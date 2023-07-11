@@ -8,8 +8,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.7046"
 
-RPM_NAME = "perl-App-cpanminus-1.7046-1.6.noarch.rpm"
-RPM_HASH = "dfaaba4916f2c6e712395301d0797a18811a6b9cd23b3f6761e2812af17377f0d1227322bbbb17b0509696ede496ff33204488eabef5d13dc5867dde223926c4"
+RPM_NAME = "perl-App-cpanminus-1.7046-1.7.noarch.rpm"
+RPM_HASH = "08915135f2c6a563eb83ac6cdfdcbdeb772d46d40f4f5f5d9d310042ed49a644e4f0ffaf4c2a1443168b1bad6e6e5ad1c2e328df72bb351ea775884f4e8aed57"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cpanm \
@@ -21,7 +21,7 @@ perl-App-cpanminus \
 perl-ModuleBuildSkipMan"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-CPAN--DistnameInfo \
 perl-CPAN--Meta \
 perl-CPAN--Meta--Check \

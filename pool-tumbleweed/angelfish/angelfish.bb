@@ -3,10 +3,10 @@ DESCRIPTION = "Angelfish is a mobile web browser. It supports typical browser fe
 as bookmarks, history and tabs."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "angelfish-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "293c4f4fea73599849fb54fc5552665cdd2c48dc7eb9e79cb59393cdadedf992b6298f67da840d35bae29eb51a5795dbc30bf6b7d5e3a8f54dbf6b2d93921d7f"
+RPM_NAME = "angelfish-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "f686953e49968cd2646e2b30e8a18c68dff4ab31cebd995f45dcaf576d0c78948d3fe661b0f216158d0174a075653702b45d6fdacea381a9ef4764d4129b6734"
 
 RPROVIDES:${PN} += "angelfish"
 

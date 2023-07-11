@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "20201124"
 
-RPM_NAME = "apache-rpm-macros-20201124-1.10.aarch64.rpm"
-RPM_HASH = "c0ead8ee37330358ab1826c3c44c95a40fac6659aa07e8e75da1b5fbabb4893ec97dbeff4da6da6bba03a1b2ba5a94200eb62072256f41290c9b5b7a57e9191b"
+RPM_NAME = "apache-rpm-macros-20201124-1.11.aarch64.rpm"
+RPM_HASH = "d7e6c3156e5ce33f374d57ef4d33503fdc87913b50cead71711588edfc1e70528579b4aa5598d32813b3c81665cd1fd3966bca6e3f4d38b9df3081813f1892ff"
 
 RPROVIDES:${PN} += "apache-rpm-macros \
 rpm-macro-apache-access-syntax-version \

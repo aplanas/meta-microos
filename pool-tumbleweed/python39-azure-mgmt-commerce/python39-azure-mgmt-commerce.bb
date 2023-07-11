@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "6.0.0"
 
-RPM_NAME = "python39-azure-mgmt-commerce-6.0.0-1.10.noarch.rpm"
-RPM_HASH = "5d37bf3811dac38ab5307b2c6839f2c313a09ae8b834fb7ba3aaaf8f1bc4dcc34eb94d4fcce6631a4f326e46e8391489c388732ebfbcd41fdc72f1901aa1bb68"
+RPM_NAME = "python39-azure-mgmt-commerce-6.0.0-1.11.noarch.rpm"
+RPM_HASH = "57a829757f580891422690bd8d2082b30ead42c68c0fbc0fd43416824d984fd08a4b7e50c7ec3d6710278659e1403dc18426e61657d6e72cf328f3ce1415e347"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-commerce \

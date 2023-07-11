@@ -2,10 +2,10 @@ SUMMARY = "Bash completion for pyenv"
 DESCRIPTION = "Bash command line completion support for pyenv."
 LICENSE = "MIT"
 
-PV = "2.3.17"
+PV = "2.3.21"
 
-RPM_NAME = "pyenv-bash-completion-2.3.17-1.1.noarch.rpm"
-RPM_HASH = "92d5ce7da31a8ea5c04d90fac8dfc63909b05632f347922ade2f007ba542f6790cbbcdfcb046996e3102f0fa8571fed98aa834b300b57c1411d1ddf200fd0f51"
+RPM_NAME = "pyenv-bash-completion-2.3.21-1.1.noarch.rpm"
+RPM_HASH = "e1a27a4f299fc24927e4722a8484d418e484a45a711971f1afe8e78e99a5b604c3828bf7c0bd8a9e57132e790b86b1bb9ba5260cf2f48e353bef161af70c9d11"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pyenv-bash-completion"

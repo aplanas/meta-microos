@@ -14,14 +14,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.99"
 
-RPM_NAME = "perl-Sys-MemInfo-0.99-1.13.aarch64.rpm"
-RPM_HASH = "9e4c4366954b08724b43c13332e1730f5e7a7af3558d7d10f95d767032fa989d4ba977ed66864260876280411525d5b7f23ae6ab4aab350f6e97328fd5a450e9"
+RPM_NAME = "perl-Sys-MemInfo-0.99-1.14.aarch64.rpm"
+RPM_HASH = "4f7581fc1553df78ac2796c63032b3153744701110ef20bf3622a9cfd1db65099c8efbf0ccb0fa38fa32b38fcaa8526ccaf15116c60cd92445194ad9874b5232"
 
 RPROVIDES:${PN} += "perl-Sys--MemInfo \
 perl-Sys-MemInfo"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

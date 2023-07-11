@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.5"
 
-RPM_NAME = "apache-commons-email-1.5-5.6.noarch.rpm"
-RPM_HASH = "af0539ddceb5c07d4929c284c64f42367e565e920fa82800babeb566fe1344f6be0424e8ba9c9572e95eeb86ca2a9f20a7860f765d529d13f729a547b9a38d6f"
+RPM_NAME = "apache-commons-email-1.5-5.7.noarch.rpm"
+RPM_HASH = "04620e7a898bce46d0df5a15676abea7b74e83d665aa1b36ef21600a5eb52b7adb2ae5ea751a7426323e3c6f51e8f2562db5198afeb529f7292c868c93ca73fb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-email"

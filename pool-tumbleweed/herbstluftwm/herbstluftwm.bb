@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.9.5"
 
-RPM_NAME = "herbstluftwm-0.9.5-1.4.aarch64.rpm"
-RPM_HASH = "eccaeb5e1629ca5bff5a77e6f05fe96fe355dcab95bb650bcbb5167dce79127df9d7d1b277feb1deb6cb0a5bb6e3b16529a08b4c34b43c8059d565ce53639b47"
+RPM_NAME = "herbstluftwm-0.9.5-1.5.aarch64.rpm"
+RPM_HASH = "d4a5aa045d9606bba55c4c49810eb3a46512e08ab562026754c861dcb7252878b047456cc842f789cc7f3c1a170a5245d3a8daf355505ea3e0ec0212905da4f5"
 
 RPROVIDES:${PN} += "herbstluftwm"
 

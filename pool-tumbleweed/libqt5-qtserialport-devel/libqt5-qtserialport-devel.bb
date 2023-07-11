@@ -2,10 +2,10 @@ SUMMARY = "Development files for the Qt5 SerialPort library"
 DESCRIPTION = "You need this package if you want to compile programs with qtserialport."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libqt5-qtserialport-devel-5.15.9+kde0-1.1.aarch64.rpm"
-RPM_HASH = "530efadd2b5887630616e9fe50e0fbab182d041ef885995ba92ef1e0a7ae5e3d1f24900233d102f0904b939f477e36cd9c3ed92b1c38c6f37282f7ef0b07656a"
+RPM_NAME = "libqt5-qtserialport-devel-5.15.10+kde0-1.1.aarch64.rpm"
+RPM_HASH = "ce61b780df6663fea43670589787b472f72460a7dd4d65f1cc1be58e654398e82829bf5746c08424fba2e5d9349d13e3e31c9393fa1de17d7279e6bba88b3969"
 
 RPROVIDES:${PN} += "cmake-Qt5SerialPort \
 libQt5SerialPort-devel \

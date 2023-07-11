@@ -12,13 +12,13 @@ LICENSE = "GPL-2.0-or-later | MPL-1.1 | LGPL-2.1-or-later"
 
 PV = "20221114"
 
-RPM_NAME = "perl-Mozilla-CA-20221114-1.1.noarch.rpm"
-RPM_HASH = "fb11111f74dfba23c09117c15ac6d76a5ed0ea9406b197833066a94be888ee13a668d6af0b4464d191e76cab7917fd2f828b1a99527f365fbb43b7df08cfa4ea"
+RPM_NAME = "perl-Mozilla-CA-20221114-1.2.noarch.rpm"
+RPM_HASH = "86974b8fe496511edb93abb6e37318b902f2567628cf1111428d583255811157dc1dac163c7b8153d60de879f68048b28ae5b000dff51655d262143d911982d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mozilla--CA \
 perl-Mozilla-CA"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

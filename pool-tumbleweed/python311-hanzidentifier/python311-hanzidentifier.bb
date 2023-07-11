@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "python311-hanzidentifier-1.1.0-2.1.noarch.rpm"
-RPM_HASH = "ed869e47a0875742610c6fb82e92208995fc3da345a0d8cc35d1f54b1cc80f15a570e70ddc825f0857e8291feee084d2b5a70efad9c91a2e8bedb4fe6f0ed8b2"
+RPM_NAME = "python311-hanzidentifier-1.1.0-2.3.noarch.rpm"
+RPM_HASH = "38f0306ab89a239336623294e4845cd9ba2d65d3efd2f1c5111913920a46d48d5ca2924620203bd8dfd555c235dcfc5aacaeef8eeeee5858c27fd0947626f610"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-hanzidentifier \
+RPROVIDES:${PN} += "python3-hanzidentifier \
+python3.11dist-hanzidentifier \
 python311-hanzidentifier \
 python3dist-hanzidentifier"
 

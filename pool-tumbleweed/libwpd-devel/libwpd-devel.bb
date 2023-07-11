@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later & MPL-2.0"
 
 PV = "0.10.3"
 
-RPM_NAME = "libwpd-devel-0.10.3-3.8.aarch64.rpm"
-RPM_HASH = "b03f36847e58f5d5c664af485af468a3a060156900e95c93cc65f4d5223b896aab867f3da448a09c9756567dbc2e6c557b43463a91e7a9535d7579fc58b8c3f4"
+RPM_NAME = "libwpd-devel-0.10.3-3.9.aarch64.rpm"
+RPM_HASH = "9abf7ba2955f6b9f6e6ccf1a048c9472fc4bebab63edc225f1ae5aede69a914b76723934c691f5c730b9f2170fcb6e969cf53e1005918a1d1fe689d537d4c163"
 
 RPROVIDES:${PN} += "libwpd-devel \
 pkgconfig-libwpd-0.10"

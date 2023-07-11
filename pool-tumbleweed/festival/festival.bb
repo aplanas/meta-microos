@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.5.0"
 
-RPM_NAME = "festival-2.5.0-8.9.aarch64.rpm"
-RPM_HASH = "496b302ae2ee057527c71ad773531ce78e3d94c61c1a1198e3b03a2e20155d8cfe1642ebcbbfdf250b8f81ceb6c1c563a2907d22b7e087369eca83be4ba29c23"
+RPM_NAME = "festival-2.5.0-8.10.aarch64.rpm"
+RPM_HASH = "df3bd3f404fbebd8e437e1a5120740a40cb67e180938d9ab1cd614f7b302f3504d08c1d1c26554ae683ad99bd3df8ab0464883fa8e7639d10891fa25c6e14d79"
 
 RPROVIDES:${PN} += "config-festival \
 festival"

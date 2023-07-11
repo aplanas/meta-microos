@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.27"
 
-RPM_NAME = "gnu_ddrescue-1.27-1.3.aarch64.rpm"
-RPM_HASH = "08568de62a7e3cd867554611f92cd246cf6c036a189f061b05ec7cab224603a26297053fd765d509c5371c8b3376e604694dbaa5f236ab94cdb79bce60b566be"
+RPM_NAME = "gnu_ddrescue-1.27-1.4.aarch64.rpm"
+RPM_HASH = "6ad5a3c88be87801654a0ba7155230e456efdc92ac227bfa923947ff74a7b794651ae4739528be51a7eba34e0f976985974c245bfc85ab46b1dd393495db81b7"
 
 RPROVIDES:${PN} += "gnu-ddrescue"
 

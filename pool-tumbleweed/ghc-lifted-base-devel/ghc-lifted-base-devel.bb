@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.3.12"
 
-RPM_NAME = "ghc-lifted-base-devel-0.2.3.12-8.3.aarch64.rpm"
-RPM_HASH = "0ebc1dcc4ae2956a3665522bd63e0b39fc414ee4ab055a75249fff8b4acb5f510a6e7211331414b76807a7f0d7e5482ceae2a65262a5eb1a682d9fbbce821828"
+RPM_NAME = "ghc-lifted-base-devel-0.2.3.12-8.6.aarch64.rpm"
+RPM_HASH = "413c38abef0414a06a0748ea2dbf415981ac1b505cadcd83c5cc1f86c21e8b080f03b7189de234d495acc71888d5970c4b6268e051bad76fb2bc7b93e86e2007"
 
 RPROVIDES:${PN} += "ghc-devel-lifted-base-0.2.3.12-2PslaVNAATq3HzvkpdIGSo \
 ghc-lifted-base-devel"

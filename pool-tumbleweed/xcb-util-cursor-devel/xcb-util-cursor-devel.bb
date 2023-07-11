@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "0.1.4"
 
-RPM_NAME = "xcb-util-cursor-devel-0.1.4-1.3.aarch64.rpm"
-RPM_HASH = "6ac5adc9fdf277c960029d0d9161cee7721dce2d6f4b2a3ab7bf6d0e2bce97149768f03966307f56a8af54a2eaff2e444f2f48202f45dd26d1c971e2cfa34b01"
+RPM_NAME = "xcb-util-cursor-devel-0.1.4-1.4.aarch64.rpm"
+RPM_HASH = "596574bb57ec38f8c70c0635a314b6b1efb545161e8fd7e141672b66ff29e121f3d9502a2f8aa3e3aba7583247c4356a46cd388699bc09764fd2824b55ca94d2"
 
 RPROVIDES:${PN} += "pkgconfig-xcb-cursor \
 xcb-util-cursor-devel"

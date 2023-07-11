@@ -2,10 +2,10 @@ SUMMARY = "VDPAU state tracker for VirtIO GPU"
 DESCRIPTION = "This package contains the VDPAU state tracker for VirtIO GPU."
 LICENSE = "MIT"
 
-PV = "23.0.3"
+PV = "23.1.3"
 
-RPM_NAME = "libvdpau_virtio_gpu-23.0.3-349.2.aarch64.rpm"
-RPM_HASH = "d8dbc63c75b03184e74dcd2beeeb60df0b50d1606135068cfb966b6ee2d9049c58ea5bccd4c81cc4a8fd0b7b1f540899180fd52ca55c48f1e3b00d6cfbff7a82"
+RPM_NAME = "libvdpau_virtio_gpu-23.1.3-353.1.aarch64.rpm"
+RPM_HASH = "0ea194d997e86087be63aedc175c1767a183b88adaa6d53b28914cd326b6e098642063dd6415db34d7ff2c84ebefcccdd3efd330fb6a41a74fbd1ce1fc1471e0"
 
 RPROVIDES:${PN} += "libvdpau-gallium.so.1.0.0 \
 libvdpau-virtio-gpu"
@@ -30,7 +30,6 @@ libxcb-sync.so.1 \
 libxcb-xfixes.so.0 \
 libxcb.so.1 \
 libxshmfence.so.1 \
-libz.so.1 \
-libzstd.so.1"
+libz.so.1"
 
 inherit rpm

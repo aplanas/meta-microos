@@ -13,8 +13,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.9.12"
 
-RPM_NAME = "nss-pam-ldapd-0.9.12-1.8.aarch64.rpm"
-RPM_HASH = "84b6496d4c03eff457f7c92bcf11ec0a4eb3baa33686cc337bb98ccf808cc75f956a5e10e6b74d3b573859faf75d8723c808a3b85937862bd8e402f79e0595c7"
+RPM_NAME = "nss-pam-ldapd-0.9.12-1.9.aarch64.rpm"
+RPM_HASH = "ca103d33b3a0eaa89692917c3e23133566fef1c84c98be8d9c91d2f26c1c4205e93f7bd07c2659068ece97be04abbe6a5c7daff9a75a0965c0a60fcf27875ea5"
 
 RPROVIDES:${PN} += "config-nss-pam-ldapd \
 libnss-ldap.so.2 \

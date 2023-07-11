@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "9.0.0"
 
-RPM_NAME = "python311-azure-mgmt-hdinsight-9.0.0-1.8.noarch.rpm"
-RPM_HASH = "5ff3257c476868f4fb1bdec5378b0749d781d3dd4880806d3b0191f601c77ce89d9df855fd018135022465acda24a9c2c7c2d13e0616f8eef05e0d7fcc2960a5"
+RPM_NAME = "python311-azure-mgmt-hdinsight-9.0.0-1.9.noarch.rpm"
+RPM_HASH = "2f52f0a05525e1da2f0de77a60dbb5471d0d563b426301886bb3b4c7952604ee7ee8633bf760912e45fccf2a98452facd551a7cbd0dd9070f44ee487e092dace"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-hdinsight \
+RPROVIDES:${PN} += "python3-azure-mgmt-hdinsight \
+python3.11dist-azure-mgmt-hdinsight \
 python311-azure-mgmt-hdinsight \
 python3dist-azure-mgmt-hdinsight"
 

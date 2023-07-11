@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.71"
 
-RPM_NAME = "lighttpd-mod_maxminddb-1.4.71-1.1.aarch64.rpm"
-RPM_HASH = "6b1975dd2fa146db0f59cbaec360012628247084d09dfe38968f0ecdab97246890225be784241c05eeb059f342ec9762115bc7fe6205a17e9caa9f959357efef"
+RPM_NAME = "lighttpd-mod_maxminddb-1.4.71-1.2.aarch64.rpm"
+RPM_HASH = "fe07fabe39a663c830ea92be81ae898666bd4843d24d02e79dec07113e2a57a06fd97c7178fa49659537bd90b12a0ec00e6833e6b215a94817d494807b3c066b"
 
 RPROVIDES:${PN} += "lighttpd-mod-maxminddb"
 

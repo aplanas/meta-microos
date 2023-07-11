@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.1.5"
 
-RPM_NAME = "ghc-terminfo-0.4.1.5-3.1.aarch64.rpm"
-RPM_HASH = "646565f57e72ffa1be6c9c76d2435eb5778ce8fd456e052993ee703292872f3611d07310bfce7800ac417e46836fafb27099501909470c5e341767d599b77a81"
+RPM_NAME = "ghc-terminfo-0.4.1.5-3.2.aarch64.rpm"
+RPM_HASH = "01e3f9ea13a5ef94d00d78d65f3516488eab3fd5f86955c7702ec044f2b5a4819042dc8bce74ce3b0e763757f9241ee692d2991e8bb754fda3a741708ef4d4fc"
 
 RPROVIDES:${PN} += "ghc-terminfo \
 libHSterminfo-0.4.1.5-ghc9.4.5.so"

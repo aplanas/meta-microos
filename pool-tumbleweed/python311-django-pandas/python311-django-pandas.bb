@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6.6"
 
-RPM_NAME = "python311-django-pandas-0.6.6-2.4.noarch.rpm"
-RPM_HASH = "bc78effc7184c75aad5ffd67d0884ab30c28be4ffcd5891fa06115d5a5bc6af7d2400318f78b475ad870d9c69e2bb51063d759917ba463635f671e61fb2311e1"
+RPM_NAME = "python311-django-pandas-0.6.6-2.6.noarch.rpm"
+RPM_HASH = "dcaeb3579f059300634726ba6cca0219a8420c89b1fb95bc5407b4e4eb0baef2ab06b53aba9baf08810075efe69b9772f160f2c29dff1cecb7878acd9bf2c483"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-django-pandas \
+RPROVIDES:${PN} += "python3-django-pandas \
+python3.11dist-django-pandas \
 python311-django-pandas \
 python3dist-django-pandas"
 

@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.926"
 
-RPM_NAME = "libo2scl0-0.926-3.5.aarch64.rpm"
-RPM_HASH = "80ca70d0487fe811b160b41a455652c136aebc52e2b71934c683b614de9aa20b4e07ee7bfa60f36bf622391778c28c543bf0d49b362d9f8d464ddcfedd30f70f"
+RPM_NAME = "libo2scl0-0.926-3.6.aarch64.rpm"
+RPM_HASH = "7125b07191886cb4d50a0b03859810ea2ee85c230a9cd89ca72bee692f2b619223dfc3919c2ac18b89ae4682e0c518f5d7edf78c0550f6151dff4c13460bd5a2"
 
 RPROVIDES:${PN} += "libo2scl-eos.so.0 \
 libo2scl-hdf.so.0 \

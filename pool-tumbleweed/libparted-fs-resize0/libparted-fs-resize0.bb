@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.5"
 
-RPM_NAME = "libparted-fs-resize0-3.5-4.4.aarch64.rpm"
-RPM_HASH = "b23f2fed8c49d7cb4c3202077584d874fe426b2dd13f3cdc090997aacb613d41eb6e8518a819358b3cdcdf5a2c698dc3563e333974134524b443318887ee77e1"
+RPM_NAME = "libparted-fs-resize0-3.5-4.5.aarch64.rpm"
+RPM_HASH = "b0649a46404e83e211b4d8c31b1c0cb8bdd958d7f4d62870724375e67c53e4ca579b3c5b640da70c2f795336e68a7babff6486de503eba87f88bfe9c3c87cac4"
 
 RPROVIDES:${PN} += "libparted-fs-resize.so.0 \
 libparted-fs-resize0"

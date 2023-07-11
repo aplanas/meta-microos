@@ -6,8 +6,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20220109"
 
-RPM_NAME = "libcsplit1-20220109-3.2.aarch64.rpm"
-RPM_HASH = "7a550de6747c4d05368b5ecab638ab26fa06de95ce97435522b1bd3e1a064a128f0733b49efd395ccf80b8d37c57b5f2c71bbc38890bbaf3cf287fc59482bc77"
+RPM_NAME = "libcsplit1-20220109-3.3.aarch64.rpm"
+RPM_HASH = "aa431a5fc2baed09c48d5db28f7cb09b8d2278856fe3eae1f419c01d2ccbcfc535018cbf61168c92058be7f63c42da86f2c5625b31df963479b9ba3b69f0dc24"
 
 RPROVIDES:${PN} += "libcsplit.so.1 \
 libcsplit1"

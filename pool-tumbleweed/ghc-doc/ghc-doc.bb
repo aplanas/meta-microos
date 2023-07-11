@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "9.4.5"
 
-RPM_NAME = "ghc-doc-9.4.5-3.1.aarch64.rpm"
-RPM_HASH = "531b7420df866fe9adfd54e7d3a802b6af20329222374fd13236fa9686dd7a122ace713ae2cb5e43128681bcb9a3ab3273f53291989f074af28c82ff78ff27e8"
+RPM_NAME = "ghc-doc-9.4.5-3.2.aarch64.rpm"
+RPM_HASH = "639e4a3b1cb81eab4db38a56b24f48690fbea1b3001e5c131a0721dec7486b96354cc5fdfc3fc38bac48be0bb079efaf0856b085f325d19eb6bc6ee5593f79c0"
 
 RPROVIDES:${PN} += "ghc-doc"
 

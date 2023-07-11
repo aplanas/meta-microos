@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.28"
 
-RPM_NAME = "ocrad-devel-0.28-1.7.aarch64.rpm"
-RPM_HASH = "1dc8e681ea5bd1096ab92e0ac5fcbb40a5983e78e7ef0c4cbc425295bcdedd9646c28b5046aa6a3d3e08106e56be394683cb5b2d8260bcf50e1b78e05ff6a301"
+RPM_NAME = "ocrad-devel-0.28-1.8.aarch64.rpm"
+RPM_HASH = "751b7c7077434c9cf1d7e86de602c8d19ef3683c13dca6305437b41bc698feec5f8c33b0070595c59f2c6cefe9c6a864b71ca5026c18da63d5babcfdd96dd337"
 
 RPROVIDES:${PN} += "ocrad-devel"
 

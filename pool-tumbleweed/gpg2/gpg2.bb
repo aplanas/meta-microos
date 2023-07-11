@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.3.8"
 
-RPM_NAME = "gpg2-2.3.8-2.1.aarch64.rpm"
-RPM_HASH = "0b17a3d72865db5698bb684351916465c08eaaedbb4015e26a5f0d2c3c9652c08b12aaddf8d7e3cefd5da8381576a589579eb49e35ac30a55b076c222bb2dd6c"
+RPM_NAME = "gpg2-2.3.8-3.1.aarch64.rpm"
+RPM_HASH = "032f8b5e722b4140caa14c59c3db9620e54f226b0ba980f287a984902130fe7bd52c4d2d8fa7f8722b609a0cec8be4b1959d04d2e76a2d13a5fe9098eac4b7a4"
 
 RPROVIDES:${PN} += "config-gpg2 \
 gnupg \

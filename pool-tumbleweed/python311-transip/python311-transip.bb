@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "2.1.2"
 
-RPM_NAME = "python311-transip-2.1.2-4.6.noarch.rpm"
-RPM_HASH = "abfa22365a55cb32e667705431849e41de3cdf8f70a12a82b4b4a5c14b821e39838ab2feb9ce40d37fad3712b068df5482d6dea928b987efb3245f1f6d10a5d1"
+RPM_NAME = "python311-transip-2.1.2-4.8.noarch.rpm"
+RPM_HASH = "e9ba8b2323ba271d61636d8784f3808d973a104908a3632aa6a57693f3dfb57f2543d9077cda91104a542fbbe67a3f1c09549a92f032bdd9acd06af49d3e92ed"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-transip \
+RPROVIDES:${PN} += "python3-transip \
+python3.11dist-transip \
 python311-transip \
 python3dist-transip"
 

@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "12.3.0+git1204"
 
-RPM_NAME = "gcc12-locale-12.3.0+git1204-1.1.aarch64.rpm"
-RPM_HASH = "6c0b19517eb49cd9e5b8d406711814fbcaae11312f777c1f24ffd1215ac8c14e99ba03212fa106ef403286ebb2a5c92e6c633e4f51b3261898aa27504bb14a48"
+RPM_NAME = "gcc12-locale-12.3.0+git1204-1.33.aarch64.rpm"
+RPM_HASH = "169292799a00513152ddfb0c4316580d7e0df009ac69eefc4e451efabc282df04dad19b5414cdc7716d918f370bd21c46a3a3e613d26d5d1f22da068cfd0d725"
 
 RPROVIDES:${PN} += "gcc12-locale \
 locale-gcc12-be \

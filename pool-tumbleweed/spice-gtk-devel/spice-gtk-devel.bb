@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "0.42"
 
-RPM_NAME = "spice-gtk-devel-0.42-1.3.aarch64.rpm"
-RPM_HASH = "3e08652bc4d5b3c2ad7d6f319bc4f5e3de82066aebc0376148cb7c61f5fa5260283e8ef174d1a719204652af2a57fa223a2b569b47ccab31dd5bed4d92b527f2"
+RPM_NAME = "spice-gtk-devel-0.42-1.5.aarch64.rpm"
+RPM_HASH = "38e5fb4a9f3f2a6a6ae9fdde40abaca73b8360c268482f1e96d9b55c5410c9a9eb2ffcf9347c0e0869f0550f17de50a26326801617583001fa58d4c2fe5f226a"
 
 RPROVIDES:${PN} += "pkgconfig-spice-client-glib-2.0 \
 pkgconfig-spice-client-gtk-3.0 \

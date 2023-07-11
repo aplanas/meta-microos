@@ -11,15 +11,15 @@ instead of IO::Socket::INET for transparent support for both IPv4 and IPv6. \
 Cookie support requires HTTP::CookieJar or an equivalent class."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.082"
+PV = "0.086"
 
-RPM_NAME = "perl-HTTP-Tiny-0.082-1.2.noarch.rpm"
-RPM_HASH = "708bab69ad09660e908260976727b1b52e86ef1d22c01546acea8301d467ad4112f6b7dbaae8fc1ee4630b2247d944767d40ad7746a4bbfcce6b0907c3d010dc"
+RPM_NAME = "perl-HTTP-Tiny-0.086-1.1.noarch.rpm"
+RPM_HASH = "5fb33106289f2c73bb214822a14a2d0af2ce40240ed25c296647c68b22a3fd87fb2867609f802f05804e38155fb0f227a840470abbc1d39aac679232c9c01ba6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTTP--Tiny \
 perl-HTTP-Tiny"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

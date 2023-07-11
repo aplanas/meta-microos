@@ -11,8 +11,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "4.0.0"
 
-RPM_NAME = "typelib-1_0-LibvirtGLib-1_0-4.0.0-1.10.aarch64.rpm"
-RPM_HASH = "730305504932f5a5525159f4a016d68a1b1698c8666016a152d902bd0e3d5234a21665f252818078fe53c57e964fef4041c7217bdb10e739ad5f6fb44ed162c2"
+RPM_NAME = "typelib-1_0-LibvirtGLib-1_0-4.0.0-1.11.aarch64.rpm"
+RPM_HASH = "05107c6961309b5f20c77603188f9447d006cf2a1c4eb3ef1b2dcefbb7c8e0e1a12fb3097a5ab8367929e09fe64ae0b91b5f396f43db06778b28c07217f831e7"
 
 RPROVIDES:${PN} += "typelib-1-0-LibvirtGLib-1-0 \
 typelib-LibvirtGLib"

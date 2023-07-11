@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "5.2.5"
 
-RPM_NAME = "pcp-pmda-roomtemp-5.2.5-3.4.aarch64.rpm"
-RPM_HASH = "d71237cd614a076498d310094de5aa716250c9cfb01f01b8a7b2c81bdc1caef04de491f38cab8bbbc4d098b1cc5beda37ffb98df6cfd8b1180fd0ca280b4ad4d"
+RPM_NAME = "pcp-pmda-roomtemp-5.2.5-3.7.aarch64.rpm"
+RPM_HASH = "ff3a74a036d32982e52abe74e66e3f9f1aea1850f8bf198088a4dc97fd52f472d4d7472cb6a8750c69a6ac351d1f36b480a77d106ef843944f3966639c2dd3db"
 
 RPROVIDES:${PN} += "pcp-pmda-roomtemp"
 

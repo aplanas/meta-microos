@@ -5,10 +5,10 @@ re-formats C / C++ / C# / Java source files. It can be used from a command \
 line, or it can be incorporated as classes in another C++ program."
 LICENSE = "MIT"
 
-PV = "3.3.1"
+PV = "3.4"
 
-RPM_NAME = "astyle-3.3.1-1.1.aarch64.rpm"
-RPM_HASH = "52c0b2fb88806910e0a6651468d05905589e17e2d22058035a7ed74a6086f0bf0f4e3f903a9b1ae1c6b8fade414bdf95f87a2029f7b81e1e35f55f19f3341e8b"
+RPM_NAME = "astyle-3.4-1.1.aarch64.rpm"
+RPM_HASH = "ab5873468923379412ea22c6de9e5f2ed5c59d6a28e40fadfccc8c7d90fd2074c11f8cda45f94309c622484bbf6a142e7d033ed175f0d8b0f7c9912d7da96652"
 
 RPROVIDES:${PN} += "astyle"
 

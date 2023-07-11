@@ -4,10 +4,10 @@ forward and inverse transformation of cartographic data to or from cartesian \
 data with a wide range of selectable projection functions."
 LICENSE = "MIT"
 
-PV = "9.2.0"
+PV = "9.2.1"
 
-RPM_NAME = "proj-9.2.0-1.3.aarch64.rpm"
-RPM_HASH = "4d9ae2a0bbeb32a232a2444c19cb3a58f575cee3e643d935525d8b4d3f11a8a2ec5ef08cb398280e0e371712bd44ae7923154e4ea6af68361f461d3f02575010"
+RPM_NAME = "proj-9.2.1-1.1.aarch64.rpm"
+RPM_HASH = "08a34cb9980b63d0308c12a6fa9a7c4fa0816fc726cb05f75ea970ccabda8f3e80bf235fab357ff104abfebd6cfad09f47564329e9977353a6c47539ae68634e"
 
 RPROVIDES:${PN} += "libproj \
 proj"

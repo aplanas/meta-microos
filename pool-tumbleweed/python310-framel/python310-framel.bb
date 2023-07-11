@@ -7,11 +7,10 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "8.42.3"
 
-RPM_NAME = "python310-framel-8.42.3-1.5.aarch64.rpm"
-RPM_HASH = "5cc82964ff20329c292414358f68cd66e92443ad264a7f4f606ddc9df10d3d5f4de5e4ca751799b28846462f11c2c9f70f9bba4dd3757da5670fcfc217ab919e"
+RPM_NAME = "python310-framel-8.42.3-1.6.aarch64.rpm"
+RPM_HASH = "c84a3879de3dedb273e3a040c2d3a7eb649c1a6dbe7d67aa5dac216f91008ce13f1e0bdeb65933e9f21e9c76775696b39fb28681ade60e4ec2ecd2e987183416"
 
-RPROVIDES:${PN} += "python3-framel \
-python3.10dist-framel \
+RPROVIDES:${PN} += "python3.10dist-framel \
 python310-framel \
 python3dist-framel"
 

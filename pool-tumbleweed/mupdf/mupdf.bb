@@ -10,10 +10,10 @@ annotations and search. MuPDF can also read XPS documents \
 (OpenXPS/ECMA-388)."
 LICENSE = "AGPL-3.0-or-later"
 
-PV = "1.22.1"
+PV = "1.22.2"
 
-RPM_NAME = "mupdf-1.22.1-1.1.aarch64.rpm"
-RPM_HASH = "0ae35715f46eb0a983463f8b4b6365c071356eeb1195753f18fd678429444510d6de2718a014807b074f6755a15cc6c41a0f1a1c36d8bbbc0fe8d2cfb9ef1cda"
+RPM_NAME = "mupdf-1.22.2-1.1.aarch64.rpm"
+RPM_HASH = "a483dcdf9144ae5dad86d3f3fd8362a7ae92f69a0efc6a33cec9c87dc17586c5f43f95f21ce64f96cf2d0c7b7f465fed2de3a1fe3aaf1a90312233fdf93dbcc1"
 
 RPROVIDES:${PN} += "bundled-freeglut \
 bundled-freeglut-art \

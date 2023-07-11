@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause & MIT-CMU"
 
 PV = "1.3.0.1"
 
-RPM_NAME = "mimic-devel-1.3.0.1-2.3.aarch64.rpm"
-RPM_HASH = "f4cac2ec736e664daaa9e7bbdce937c5e8a18fb4dc102e01eeb30fd71f0f41926d08032e5743497345b7f2e3ae198b7429f3bafe524814263f46b57de3e7c1db"
+RPM_NAME = "mimic-devel-1.3.0.1-2.4.aarch64.rpm"
+RPM_HASH = "9c4d3105c69b99613aa21efd1ba3dbebaf1fb4c90ebc1be451f960453500b6718cb9d75c4af4e0b1662e23947b9ba4aea95056c6c3ac7dc6d5d8023043047b35"
 
 RPROVIDES:${PN} += "mimic-devel \
 pkgconfig-mimic"

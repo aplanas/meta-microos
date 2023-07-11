@@ -13,11 +13,13 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.15.1"
 
-RPM_NAME = "python311-Pygments-2.15.1-2.1.noarch.rpm"
-RPM_HASH = "e6bce2ef6605491bc89145d6e4d76c7fc6a3e1ae85fb36e634933f53c4a475b7bf1587134b15fa1bb165d7fe1779e61473f6400bd498755b722b7d6df4f9144e"
+RPM_NAME = "python311-Pygments-2.15.1-2.3.noarch.rpm"
+RPM_HASH = "e6e9547b132c9e5e6e86ac8ddf1c46c6c8429f1b027cc25d4663ff7da280b22682bd469b21882cd1236713b8c574a0bc239709f62a3bf8dee96d8d98e20e4113"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pygments \
+RPROVIDES:${PN} += "python3-Pygments \
+python3-pygments \
+python3.11dist-pygments \
 python311-Pygments \
 python311-pygments \
 python3dist-pygments"

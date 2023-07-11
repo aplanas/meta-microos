@@ -9,14 +9,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.50"
 
-RPM_NAME = "perl-Text-CSV_XS-1.50-1.2.aarch64.rpm"
-RPM_HASH = "31136e3e48c346d2a3f2b2a4105e6c0fa29b50993ab811e448be4944ae2d1a4b0020526626817e1f44eb1de24174f655f37b38669744aa887ee9da45c4e39666"
+RPM_NAME = "perl-Text-CSV_XS-1.50-1.3.aarch64.rpm"
+RPM_HASH = "cfcc83e9829d6367717775c102848f01aa278d91755ea5c40860ac99b0accad50c424ba5b377a21cbbd87026a296f2edcbc39340f4a0305fcca3c09fa3f1d94c"
 
 RPROVIDES:${PN} += "perl-Text--CSV-XS \
 perl-Text-CSV-XS"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

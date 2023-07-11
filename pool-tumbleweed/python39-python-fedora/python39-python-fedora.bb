@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.1.1"
 
-RPM_NAME = "python39-python-fedora-1.1.1-1.4.noarch.rpm"
-RPM_HASH = "8988ee1e6880263774d9842d285e245471ca67b9ef9f7d0914e97aea75988a2ad42963a34989bc3d0f589248d64ed6a547ae2c500696c42c799ff86e9bb63eef"
+RPM_NAME = "python39-python-fedora-1.1.1-1.6.noarch.rpm"
+RPM_HASH = "3aad0ca23641811910c81212fe0b3e70132dfb80c3ef8f50d00feb96726e4e68512d4ce8c5b20d7346ab8942eb75ee3a761adcd45479d84cd130a64850099d0b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-python-fedora \

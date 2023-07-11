@@ -20,8 +20,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "0.111"
 
-RPM_NAME = "driverctl-0.111-2.1.noarch.rpm"
-RPM_HASH = "f9677e7123e80ec568b1d3301667759e4aebbd15008d419aee2530254960b23b0128f2a00ee65c2a10a7a0f29f7c4614be05b2bae63470a15f1565dbad41435c"
+RPM_NAME = "driverctl-0.111-2.2.noarch.rpm"
+RPM_HASH = "c1089efa55ca3a7e9004d47b4c03d6e098bfe3f1559b2f94ba6fbf2b105ee2dac1d0616168875c6ad3c61b977b06a6fed0324add6ea233052ecde970a868e21e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "driverctl"

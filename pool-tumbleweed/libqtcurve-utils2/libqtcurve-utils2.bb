@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.9.0"
 
-RPM_NAME = "libqtcurve-utils2-1.9.0-6.16.aarch64.rpm"
-RPM_HASH = "6eec9d7fe29cf1ba0f47de34db40875655b460dff25fd322a71cf9baa8b66091268731148148b2157c423d638cc10dd57e9d43abcf97a50aa90a18ac46d798db"
+RPM_NAME = "libqtcurve-utils2-1.9.0-6.18.aarch64.rpm"
+RPM_HASH = "ce986204f4bd120aca3dea34f1746334081b9f4c8095da1e53294be7645fcce733ffe41c0cecaf1374eb2fba7e0a85b86eff07ddd39cdc0ece80398d955f3ba1"
 
 RPROVIDES:${PN} += "libqtcurve-utils.so.2 \
 libqtcurve-utils2"

@@ -18,8 +18,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.40.0"
 
-RPM_NAME = "python39-llvmlite-0.40.0-1.1.aarch64.rpm"
-RPM_HASH = "b188601ac58d3eb30dfb37784bb38869ba0b7683ac2438fb7926783df61f6068e5c1e23b6f8caa4faada4063bbcde052e10569a939f82290e46e066e41684db9"
+RPM_NAME = "python39-llvmlite-0.40.0-1.2.aarch64.rpm"
+RPM_HASH = "0bca6ebcc79a07f515e9a2147dc07a33c783520b33b52d9508d14e9b3200dc3018569710c039dd41b4edf2f32ad3b51a6cbe330d75315df2638452eb0da20ac3"
 
 RPROVIDES:${PN} += "libllvmlite.so \
 python3.9dist-llvmlite \

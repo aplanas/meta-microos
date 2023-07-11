@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "4.1.1"
 
-RPM_NAME = "flocq-doc-4.1.1-1.3.noarch.rpm"
-RPM_HASH = "cee642c8bab95471905a811d499c2d709782aa3a1de9921a09721157cd92e713767bedc6997a70a650732869d1f2739ae671658bcb47f572201d2fd3c2126e15"
+RPM_NAME = "flocq-doc-4.1.1-1.5.noarch.rpm"
+RPM_HASH = "6dece66ab1227f68e5e1df35a9aa1ed4459f895805c142791ddbc105341d21bb6af269add1af15e294ceff8c596124b2c36dfb1fff31ab98de18be8ab9e546e5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "flocq-doc"

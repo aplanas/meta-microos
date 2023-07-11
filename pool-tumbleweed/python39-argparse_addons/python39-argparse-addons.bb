@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.12.0"
 
-RPM_NAME = "python39-argparse_addons-0.12.0-1.1.noarch.rpm"
-RPM_HASH = "891b3d14dc9678419a25c1862aae1bb51f1300c17b99c19650c3dfde880bb4bb7415339bf87902ce10876b1b5bbd1cc6149b8eedb710fe7b5d11cd44ee29f009"
+RPM_NAME = "python39-argparse_addons-0.12.0-1.3.noarch.rpm"
+RPM_HASH = "9c6ae94cc05243fce40a669aa5d7a447fb3c81c13c26414dcb37419f535e01c28fca788a90996dd5fc8b5f92db3cd432b6a8a13d890d1b73ecedd3e68bbe08eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-argparse-addons \

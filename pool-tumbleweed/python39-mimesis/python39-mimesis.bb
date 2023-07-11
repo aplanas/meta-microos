@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "4.0.0"
 
-RPM_NAME = "python39-mimesis-4.0.0-1.12.noarch.rpm"
-RPM_HASH = "f77942330ebc23f6212984faadbae6482d73d6e49eabe7a0ef1f18aef2f6dce60c0283751b4d551d5e33fd0a862a11b5d13b09dc0cd5fe7e884784c7736e5a84"
+RPM_NAME = "python39-mimesis-4.0.0-1.14.noarch.rpm"
+RPM_HASH = "2dfdfa9e6337fb61ba70e427dcb3fed6fc7a3365522859338f2caf4aef7a6cf1d2f6e1498dda1c6976c5c5a3685a82b9fdc72e7713639c103a25fde70042a184"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-mimesis \

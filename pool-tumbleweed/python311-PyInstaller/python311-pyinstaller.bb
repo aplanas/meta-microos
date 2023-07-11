@@ -6,10 +6,11 @@ LICENSE = "GPL-2.0-only"
 
 PV = "5.6.2"
 
-RPM_NAME = "python311-PyInstaller-5.6.2-2.1.aarch64.rpm"
-RPM_HASH = "f83967e519dd7ded1dc9ed1640ca6e0c833ec78e463cac0df9a2f3175c80b11be81c794e1c5c53354b45d0549e7cbb42e9f218cf5eb03fc94c5046fb1d8d2fb0"
+RPM_NAME = "python311-PyInstaller-5.6.2-2.3.aarch64.rpm"
+RPM_HASH = "55dc975d31522a27d43a16c0d6fa100d0489728c092e0c0ead892a750b470f44ef9ff6d275bef9009548950d190f168536e5aa76f3836dd8d6a9cbe1698ba51d"
 
-RPROVIDES:${PN} += "python3.11dist-pyinstaller \
+RPROVIDES:${PN} += "python3-PyInstaller \
+python3.11dist-pyinstaller \
 python311-PyInstaller \
 python3dist-pyinstaller"
 

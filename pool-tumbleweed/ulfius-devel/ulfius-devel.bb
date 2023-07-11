@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.7.12"
 
-RPM_NAME = "ulfius-devel-2.7.12-1.3.aarch64.rpm"
-RPM_HASH = "85d6da50a38160080e02d598a92a332d33d7e7f95d1df34634a867ef07c4195a1fc00909b38e6e1a2296bfd4c36143e2922de887581a96b83b9c7ed91d597cbd"
+RPM_NAME = "ulfius-devel-2.7.12-1.4.aarch64.rpm"
+RPM_HASH = "cb37ed20a0296e50c6e66f37665252b2970d151452ab1c8fc6fda2b09f492d4c505e5b45efcc37dd956ca44ab96866b9e18af932c5cafecc46604b3effdb333d"
 
 RPROVIDES:${PN} += "cmake-Ulfius \
 pkgconfig-libulfius \

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.2.4"
 
-RPM_NAME = "xviewer-lang-3.2.4-1.7.noarch.rpm"
-RPM_HASH = "4b08608160794c08687a91dd69c6ae05e41f07a5675d023f87544d37e75d7e6777940dcebd0c9fe99b66b89f823540e8f30d6940f9953ead8f83caadbf2a6d15"
+RPM_NAME = "xviewer-lang-3.2.4-1.8.noarch.rpm"
+RPM_HASH = "1195082c36cfdca4037800178ef56b85096983f43efd59b9a2908cf08cca1ce224cfb246b05bd930d54e7e5b3301e45956c793a74e72c42374ebcb0ff512b3fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xviewer-af \

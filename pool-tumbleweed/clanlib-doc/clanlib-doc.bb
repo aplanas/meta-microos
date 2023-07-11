@@ -4,8 +4,8 @@ LICENSE = "Zlib"
 
 PV = "4.1.0"
 
-RPM_NAME = "clanlib-doc-4.1.0-2.10.noarch.rpm"
-RPM_HASH = "2d00ced6e44341791619887340c0dcc4333b78eb68dbcb1d1ad240c2316d39525013f431f6552eca22f01eb6bcd545703794f2148b8008279e8a275aae253b46"
+RPM_NAME = "clanlib-doc-4.1.0-2.11.noarch.rpm"
+RPM_HASH = "a494d5045e735ce1de6ba5c59b752793b6c1af9d0a1d6146a93146087ba27ba8e263b113b9c7157bcce23dcd35f7990692b4acbc924dcedb07b94632197089f0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "clanlib-doc"

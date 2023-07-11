@@ -6,10 +6,10 @@ videos. Its plug-in-based architecture means that new data types or \
 processing capabilities can be added simply by installing new plug-ins."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.3"
+PV = "1.22.4"
 
-RPM_NAME = "libgstbasecamerabinsrc-1_0-0-1.22.3-1.1.aarch64.rpm"
-RPM_HASH = "a4abeda10a10c799b7a9c9c2008f8f4b3e61aea53d6cad155665d7155f3b3b804b09533afbdbe0d4e433490579e2f230a3e41d04864b75faaee37a28b145c054"
+RPM_NAME = "libgstbasecamerabinsrc-1_0-0-1.22.4-1.1.aarch64.rpm"
+RPM_HASH = "8fa9d8062da2e2d4cba0d36f7be15064e62c0303562e49b9fd615eb275e61c3adf3c0063ad675cc72befd4c131ba2444089b85752ad904afcb84f0b22a347cb9"
 
 RPROVIDES:${PN} += "libgstbasecamerabinsrc-1-0-0 \
 libgstbasecamerabinsrc-1.0.so.0"

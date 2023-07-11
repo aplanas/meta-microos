@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.7.1"
 
-RPM_NAME = "libmatroska7-1.7.1-1.3.aarch64.rpm"
-RPM_HASH = "ef7611e087d49df93553df0a0a9a07af9a39672158e793b9c7e22df1a3b0ced08cad9f8805a465a72805aa7247dcd9ae9d80ee34d6a9027710d780b98a717bb7"
+RPM_NAME = "libmatroska7-1.7.1-1.4.aarch64.rpm"
+RPM_HASH = "517a7bbbd43cd11723a026655c04fdb0fee614fad030300d99f738f82a24a379e4c350d22b0d66aeb895605e7f89c0e90310c8ee684c8bf9dce966f7429d9a66"
 
 RPROVIDES:${PN} += "libmatroska.so.7 \
 libmatroska7"

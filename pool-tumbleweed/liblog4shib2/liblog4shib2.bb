@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "2.0.1"
 
-RPM_NAME = "liblog4shib2-2.0.1-1.9.aarch64.rpm"
-RPM_HASH = "c4a7bb646a5b640566445a4bbb446c569ba183362aad760a7f4efc0cdcc7a29543980c2dff021ddfcfd08fb6ab0c27c6236ca464855a04c31525cf1023aee084"
+RPM_NAME = "liblog4shib2-2.0.1-1.10.aarch64.rpm"
+RPM_HASH = "38ab7c18e483d0b203bd8072b24ab4426fc1a2c481378d020e3de8682cae22911192e02d2e9676efef5ea11a4b09a4c8e0a477374b2d2aff16f96608a513c4f6"
 
 RPROVIDES:${PN} += "liblog4shib.so.2 \
 liblog4shib2 \

@@ -7,11 +7,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.5.1"
 
-RPM_NAME = "python311-ndg-httpsclient-0.5.1-3.13.noarch.rpm"
-RPM_HASH = "6db87d5dc81d931c2495a5b2020d6242d7db0cf0a995f3d292691c49ec022b9bb499e64b9afde135fdc0fa62abd4e75e572a11ce758aae37172d329579940ed1"
+RPM_NAME = "python311-ndg-httpsclient-0.5.1-3.14.noarch.rpm"
+RPM_HASH = "7f05a571f6f3c11904c1ac6889f71104408b3ccbd736273243011746c9d4ff4e2f80fe35bc63198164325573008c08e2d0bc4c38177b89bd848adaf21bb8ea4e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-ndg-httpsclient \
+RPROVIDES:${PN} += "python3-ndg-httpsclient \
+python3.11dist-ndg-httpsclient \
 python311-ndg-httpsclient \
 python3dist-ndg-httpsclient"
 

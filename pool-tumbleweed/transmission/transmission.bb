@@ -7,8 +7,8 @@ LICENSE = "(GPL-2.0-only | GPL-3.0-only) & MIT"
 
 PV = "4.0.3"
 
-RPM_NAME = "transmission-4.0.3-2.1.aarch64.rpm"
-RPM_HASH = "b0e6a139db7ee23e7491c01b4dfa46ae2fa3f290b4c998708d0351e1434e9b7bb41ca31de11170fecbae9538af51d428bbf732734ca33ca0c589950b39d5670c"
+RPM_NAME = "transmission-4.0.3-2.2.aarch64.rpm"
+RPM_HASH = "706f77de5d88b9b836a0eb635d5da06f10135193f0fcd1afbf3823e94ec7f9530151c245aa76e883aa278ae872ba75d10fd14509eac8b5267b1b280b74193a59"
 
 RPROVIDES:${PN} += "transmission \
 transmission-ui"

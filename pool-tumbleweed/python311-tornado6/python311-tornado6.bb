@@ -17,10 +17,14 @@ LICENSE = "Apache-2.0"
 
 PV = "6.3.2"
 
-RPM_NAME = "python311-tornado6-6.3.2-1.1.aarch64.rpm"
-RPM_HASH = "897503fdeb0d1e522cf8d502e0a02f250fb020a845016ff6d424f2f6b38cc2bfe7fab272a82e491182622ae8ae996b7ad0e11dc20b05b44549ac41d72f9d0f64"
+RPM_NAME = "python311-tornado6-6.3.2-1.3.aarch64.rpm"
+RPM_HASH = "1b8ed61c21219f186968a0021ed822c368c3d85c5f9a425510ff93b1c2cd69eb0010dc08e0e17f6d79ace1cf683381d9bf012fb53f56898ff96df445da6f5e15"
 
-RPROVIDES:${PN} += "python3.11dist-tornado \
+RPROVIDES:${PN} += "python3-tornado \
+python3-tornado-impl \
+python3-tornado6 \
+python3-toro \
+python3.11dist-tornado \
 python311-tornado \
 python311-tornado-impl \
 python311-tornado6 \

@@ -7,13 +7,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.006"
 
-RPM_NAME = "perl-Devel-TakeHashArgs-0.006-1.23.noarch.rpm"
-RPM_HASH = "f85d5d136b456117b0e797ad965c28cc2384bf73d10a7fb0b4f7703ab0c52e463413a84f599fda4a8310db80861cdad51f7e81192234efcd68962fbbaded20be"
+RPM_NAME = "perl-Devel-TakeHashArgs-0.006-1.24.noarch.rpm"
+RPM_HASH = "d53eb405d436fc0b8cfdc98471f6076ff5dcb2e6cf02c47e94fa01019c971c92d4c59a040a00a9fc0d61f5db981e73d5bb567037c9c580848d037be9baa9e404"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Devel--TakeHashArgs \
 perl-Devel-TakeHashArgs"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

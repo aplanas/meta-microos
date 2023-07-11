@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains all necessary include files and libraries n
 to build programs that use the KSMTP library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "ksmtp-devel-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "16235c9b689ad6cdc33afd04e821a5f4d485f80a2ad56bec8cd34743968510c92ba56d655693fba89e0de4e2f8698613ea8bd80ddb425f54ecb0db57bcc3e218"
+RPM_NAME = "ksmtp-devel-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "a1cafc76ee073bf7943cf65495d5b4c4cef5224a1f9f9bf847a4a772b7666b76256e0cc8f2547f2f5750f5f4127678b923a418568f0e05e3df60b83c87e89aa2"
 
 RPROVIDES:${PN} += "cmake-KPim5SMTP \
 cmake-KPimSMTP \

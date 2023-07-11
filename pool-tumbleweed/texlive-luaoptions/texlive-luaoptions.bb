@@ -12,10 +12,10 @@ options, or it can be used to simply handle the parsing of \
 optional key=value arguments into proper Lua tables."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.8svn64870"
+PV = "2023.208.0.0.8svn64870"
 
-RPM_NAME = "texlive-luaoptions-2023.201.0.0.8svn64870-52.1.noarch.rpm"
-RPM_HASH = "ba8d9d9841d5eb8a82ebcd364532ab9528482093f7ed4ec1c3b3fb25f834569afc9a9a7337a19b60492a92efeaaf3e3cca254f35c7c1ebf1d7aa516145c8d81e"
+RPM_NAME = "texlive-luaoptions-2023.208.0.0.8svn64870-53.1.noarch.rpm"
+RPM_HASH = "7b6f9be9330924e4b16f641fab257a16f784172f823fd2ebdd619fa715b2b6ec54dbb26caa4863cb6e37fe196602f7baf510462c3d843ed43a39f6dc21803eba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-luaoptions.sty \

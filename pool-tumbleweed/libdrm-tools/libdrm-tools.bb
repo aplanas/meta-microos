@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "2.4.115"
 
-RPM_NAME = "libdrm-tools-2.4.115-2.3.aarch64.rpm"
-RPM_HASH = "a3aab1717bbb1634d7387af21c7d704f11b9d1346955a1d00626d2ae5ce7bb20e6254bcd02e82c98c5d20a5bb0255f17924af04f3b21438154f0ab621b0f2b58"
+RPM_NAME = "libdrm-tools-2.4.115-2.4.aarch64.rpm"
+RPM_HASH = "2b77cda940b119c1797d410c99e551736c938615ba32fa42f4ecbfbe8cbab67f9c438db3f96e7d7accdb6f90f76d0e67a2b8b4f4c48c84eceef6f964427e222f"
 
 RPROVIDES:${PN} += "libdrm \
 libdrm-tools"

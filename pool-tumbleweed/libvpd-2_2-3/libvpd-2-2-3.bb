@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.2.9"
 
-RPM_NAME = "libvpd-2_2-3-2.2.9-3.3.aarch64.rpm"
-RPM_HASH = "f2fb814dd5e38c140f0b3efcdb043e60a94fd467a65416847091082b5618e1ad79128c2491ad6a26ded41325140e40e8d312b130c113efc7a59fa7106b46f557"
+RPM_NAME = "libvpd-2_2-3-2.2.9-3.4.aarch64.rpm"
+RPM_HASH = "361b5ba0fd82379e4aab7973ca11a52a936c73068cc89a18b380a5122ee700425e642e90c1b4d21cbd44ebf5fdc004cbab4e953a7fb7b5ebcaf04e3b5996c6ff"
 
 RPROVIDES:${PN} += "libvpd-2-2-3 \
 libvpd-2.2.so.3 \

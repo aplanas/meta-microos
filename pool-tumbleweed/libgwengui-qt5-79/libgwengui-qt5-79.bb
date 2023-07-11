@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "5.10.1"
 
-RPM_NAME = "libgwengui-qt5-79-5.10.1-1.4.aarch64.rpm"
-RPM_HASH = "0aaec0402133eccbcb8e3db279165c117628f91480ea732677ebf92e428946dff236b04b03446f2b4b446b0ed909798332a3e4aebd516baafd462ddb713d3e38"
+RPM_NAME = "libgwengui-qt5-79-5.10.1-1.5.aarch64.rpm"
+RPM_HASH = "3816447dcf79cd230dc3bfabaa243de87e5b5172f089f651ed37811c89e521815977d0a0d357a13ac4788e818daab4a4bfa8fa85282a16fdc5d7ea8a70b89bd8"
 
 RPROVIDES:${PN} += "libgwengui-qt4-0 \
 libgwengui-qt5-79 \

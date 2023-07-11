@@ -10,11 +10,12 @@ LICENSE = "MIT"
 
 PV = "0.9.12"
 
-RPM_NAME = "python311-simpleeval-0.9.12-1.7.noarch.rpm"
-RPM_HASH = "290888f426d34edd6a504e85f07a2b7f3088ad5aaeb619d85475028cb291c2767bcbe3390daf09e6c41b95baeb596c23e21c388d602ea35d79bed638166e43fc"
+RPM_NAME = "python311-simpleeval-0.9.12-1.9.noarch.rpm"
+RPM_HASH = "79e0aad7515a64b74c675a9f0749c95b794e32a7253fd5a8461fd4f124dbfc45b1b10b38efaa11fe8c40dfa82bcb179c7e39b26eb5cb36225f3a86102d25e12f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-simpleeval \
+RPROVIDES:${PN} += "python3-simpleeval \
+python3.11dist-simpleeval \
 python311-simpleeval \
 python3dist-simpleeval"
 

@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2"
 
-RPM_NAME = "libguess-devel-1.2-1.26.aarch64.rpm"
-RPM_HASH = "8017715b693c7169d99fd726f1db6c4d1c830da79e585fd41ba2d2876565a34e51280f8d1c3a53c99a15592e6a6887ef056a5e89541d721fe97e009cb8d9876b"
+RPM_NAME = "libguess-devel-1.2-1.27.aarch64.rpm"
+RPM_HASH = "ae7718662c610adfea20e228e44da233e1ce760e05783854db7e3e7d144743b7dacc1144937d75ad0edb5347226139fad2f86a09a167851b4f69641c942fa16b"
 
 RPROVIDES:${PN} += "libguess-devel \
 pkgconfig-libguess"
@@ -16,6 +16,6 @@ pkgconfig-libguess"
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libguess1 \
 libmowgli2-devel \
-pkgconf-pkg-config"
+pkg-config"
 
 inherit rpm

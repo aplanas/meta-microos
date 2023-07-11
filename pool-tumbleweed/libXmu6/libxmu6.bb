@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.1.4"
 
-RPM_NAME = "libXmu6-1.1.4-1.2.aarch64.rpm"
-RPM_HASH = "fdc056c8c06ffdd0f4c85f14e40ca907ccf643cf29282a00de50ce623476cae82fe29cbd3255e665f80d046cd6c872414fd11743ec36a8e4aeb8c5b4f7dd707c"
+RPM_NAME = "libXmu6-1.1.4-1.3.aarch64.rpm"
+RPM_HASH = "efcf4ae076ed70bf467a8837f21992213810e5bc1fbf16c9847f0fe9585e7d017d47ce00a78e3bc45a92d29c25d5eab0f68fffe6eb626dd72ac2d716a6050850"
 
 RPROVIDES:${PN} += "libXmu.so.6 \
 libXmu6 \

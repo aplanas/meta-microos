@@ -8,8 +8,8 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.11"
 
-RPM_NAME = "perl-Math-Base-Convert-0.11-2.23.noarch.rpm"
-RPM_HASH = "9b6094c881563ec6a4b9915c127159ad9e0ed677da0f61491f2d6b48e74dbabed18ca2e71141ab6555eeab116e8c32ec88c22be20ff1cc5102bef7037364fbab"
+RPM_NAME = "perl-Math-Base-Convert-0.11-2.24.noarch.rpm"
+RPM_HASH = "26180110c067a62dc9b19e1cf1ed00847829d8a524754493d96d574eeb212fe695d94fc6444a35602efa3f05b7679f359f6197edaf389db00a035d0eb787107d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Math--Base--Convert \
@@ -19,6 +19,6 @@ perl-Math--Base--Convert--CalcPP \
 perl-Math--Base--Convert--Shortcuts \
 perl-Math-Base-Convert"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

@@ -8,8 +8,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.4.8"
 
-RPM_NAME = "libtdb-devel-1.4.8-1.1.aarch64.rpm"
-RPM_HASH = "765ea61182e51c71183e0fad2dc202c0db114144b10cfc0ab66422331bc61075708e8cff4723f38fbfecd0e777b3d578b8ec2480e836dd70ac304c85e7a236d3"
+RPM_NAME = "libtdb-devel-1.4.8-1.2.aarch64.rpm"
+RPM_HASH = "a058dcf98d255b7cbe54c8dbe4b14a2008b6573a5b2eb7842e303eedbbf62f31f32e2b5805aca9a9d886b8dde58657537e792362da1fdc8f5b7b9156dd7e52f3"
 
 RPROVIDES:${PN} += "libtdb-devel \
 pkgconfig-tdb"

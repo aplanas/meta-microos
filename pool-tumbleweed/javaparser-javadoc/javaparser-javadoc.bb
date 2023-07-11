@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 | LGPL-3.0-or-later"
 
 PV = "3.25.3"
 
-RPM_NAME = "javaparser-javadoc-3.25.3-1.1.noarch.rpm"
-RPM_HASH = "9da259f3a92fec9cb9f73ed8cabbce8482c01480befdccd007ef09b63cc26b26615cea284278692ef324a3b5899342528c605b70b19f513891504019b2c3b478"
+RPM_NAME = "javaparser-javadoc-3.25.3-1.2.noarch.rpm"
+RPM_HASH = "30e30754cc22fc4d78dfa9b72df5f6a846c59a9a364f174786b16b40309fe210b2985d2c8982b82104d033040f02545641cc0bde059291bb7a79ea08e143cf9a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "javaparser-javadoc"

@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.05svn39585"
 
-RPM_NAME = "texlive-pst-perspective-2023.201.1.05svn39585-53.1.noarch.rpm"
-RPM_HASH = "51a899d78afeb4d4ecec14cc8d4faa5cb619ba82f942cc261dc9bcdb22e83197b1927346b24084e283e39a399ce3a4a3f9cc246740cb8c90aaa5f5211d4eab6f"
+RPM_NAME = "texlive-pst-perspective-2023.201.1.05svn39585-53.2.noarch.rpm"
+RPM_HASH = "b7f0db69fbae12185b1403287d9d8905f5027daac57e20c29850459d49752abcdc05f8032c75aaea6f9aae18ab4f8b64b34889ce045ccb586873d1316fe66069"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-perspective.sty \

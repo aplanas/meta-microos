@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only & MIT"
 
 PV = "5.12.0.134.g4cebbfc"
 
-RPM_NAME = "collectd-5.12.0.134.g4cebbfc-1.4.aarch64.rpm"
-RPM_HASH = "76272728c3daa26742382e227a65ff5c04c3f498cac91060ddd7e8db65e0b5184d733992f6219339bf117bc479534c0b4c95ae027a4bf35da2620e014670692a"
+RPM_NAME = "collectd-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
+RPM_HASH = "11f89a25e617ba98ed7366e45c3dc4fbe0cb4ba9e3dd0e605b3be502a9334129f9da4f4d889d8f2ee54ffd39a02f7655b0cbbc1863c3c221e3aeb55e3501b016"
 
 RPROVIDES:${PN} += "collectd \
 collectd-beta \

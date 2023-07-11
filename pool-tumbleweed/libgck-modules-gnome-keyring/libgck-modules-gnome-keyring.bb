@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "42.1"
 
-RPM_NAME = "libgck-modules-gnome-keyring-42.1-2.3.aarch64.rpm"
-RPM_HASH = "aabe2cf35b7b046dba423dfc6d37b8f652253f262e25a0e43819efc728972e77e9c1dbada97d64e95a5921c45a1da91253327af0afd717ce52d122e9410826ef"
+RPM_NAME = "libgck-modules-gnome-keyring-42.1-2.4.aarch64.rpm"
+RPM_HASH = "5ee877b3de6b5462a64f6923e119d46533306903ab1816fe877c48148f9d3950a68ceda70c1c153b000e4374998cff478a7433cf6fc533b23d50127097940612"
 
 RPROVIDES:${PN} += "libgck-modules-gnome-keyring"
 

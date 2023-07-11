@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.11.0"
 
-RPM_NAME = "python311-confpy-0.11.0-1.12.noarch.rpm"
-RPM_HASH = "a38e047be7923cfd2684d2bda83638514218a7a2f5482238ce901d823c08688fae288440bb18d33c0cd8a3b9434dc753c0f3cb5d2722939f0b57ab9de4074eac"
+RPM_NAME = "python311-confpy-0.11.0-1.14.noarch.rpm"
+RPM_HASH = "0190ad793dada974548cff655c09bfce8fb094458de7026ee76d5c84139a2f15a3411fdcfa5015bffc22ca7ae23f9381bbf12a281f915c2d439b8dcf54533f77"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-confpy \
+RPROVIDES:${PN} += "python3-confpy \
+python3.11dist-confpy \
 python311-confpy \
 python3dist-confpy"
 

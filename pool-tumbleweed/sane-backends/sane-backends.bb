@@ -15,8 +15,8 @@ LICENSE = "GPL-2.0-or-later & SUSE-GPL-2.0+-with-sane-exception & SUSE-Public-Do
 
 PV = "1.2.1"
 
-RPM_NAME = "sane-backends-1.2.1-1.1.aarch64.rpm"
-RPM_HASH = "202a2434e35a58c60fd7fdc40162d74778e2d91f08e388b5b1f050a8555f05d38ce0b4eb8837c100f6ee86e8904b3cc8046a1ae47da9a501de04ba56d1dae137"
+RPM_NAME = "sane-backends-1.2.1-1.2.aarch64.rpm"
+RPM_HASH = "eb662cd6eac9221b3c52dfe31bcf5f019ca237476c873227513046ca45fccd58f14886d9f4b88bd367f5063c5a300ca5492032c973bc55e939f27be18dfc5051"
 
 RPROVIDES:${PN} += "config-sane-backends \
 sane \

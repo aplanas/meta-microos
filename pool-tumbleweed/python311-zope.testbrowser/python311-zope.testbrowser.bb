@@ -7,11 +7,12 @@ LICENSE = "ZPL-2.1"
 
 PV = "6.0"
 
-RPM_NAME = "python311-zope.testbrowser-6.0-1.1.noarch.rpm"
-RPM_HASH = "1922df45baf5a758e0625d51afd22b9f33972cbdd1f5a9e127a7ae950a814685bfcead2e81e542096c6f1fa1e733ced341ce910a6f3c0f7b3b7266bbf3142ab0"
+RPM_NAME = "python311-zope.testbrowser-6.0-1.2.noarch.rpm"
+RPM_HASH = "3c6332167a9d384148bc2228e7b417e298cdff8da80d94e96575d3ec7c2cec53db353f86b8469df32b425e2dc00e357b5e148aab37592a5c80881a7eda1d5a34"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-zope.testbrowser \
+RPROVIDES:${PN} += "python3-zope.testbrowser \
+python3.11dist-zope.testbrowser \
 python311-zope.testbrowser \
 python3dist-zope.testbrowser"
 

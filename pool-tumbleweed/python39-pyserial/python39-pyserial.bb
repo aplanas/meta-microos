@@ -4,8 +4,8 @@ LICENSE = "Python-2.0"
 
 PV = "3.5"
 
-RPM_NAME = "python39-pyserial-3.5-3.1.noarch.rpm"
-RPM_HASH = "5f985770ab0b26600eca41e72395541c578a399ea97856b30fbc9ae87fd2879aba5721ad59aa0885b8ee9bc06930b3522634226394dc77ec233f183594c07159"
+RPM_NAME = "python39-pyserial-3.5-3.2.noarch.rpm"
+RPM_HASH = "b1800fb9c9eba0f9242a93ccb64f123bcb71b28dc2f143ab165227a0bf4dbc423fe60afffc39f6fb022c38cc904f06d5162a18b4067f9b65029a41d728a3492f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyserial \

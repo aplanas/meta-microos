@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "2.4.115"
 
-RPM_NAME = "libdrm_etnaviv1-2.4.115-2.3.aarch64.rpm"
-RPM_HASH = "6dceb0dc2422b1d950af8cbc69883f0461cfaea810f49fd8adb35d0d061eb9249bdded3bd1f1d9f638c7ce3dce09ed18eec7581f54336a1ca98e78322d416415"
+RPM_NAME = "libdrm_etnaviv1-2.4.115-2.4.aarch64.rpm"
+RPM_HASH = "93abaa0c11fdc8b588e327210ee3a424fbd803ccc28fc596d5b40ff7efa9c2b88619a33e8a863653c536c9e06591b0006649428c331ab6ed0eeec9bf0e594002"
 
 RPROVIDES:${PN} += "libdrm-etnaviv.so.1 \
 libdrm-etnaviv1"

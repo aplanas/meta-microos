@@ -10,8 +10,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.5.0"
 
-RPM_NAME = "apache-commons-validator-1.5.0-3.4.noarch.rpm"
-RPM_HASH = "a2cce86b92f9b79df48c1600f09fc2f9c5997d39d8652dd6997f174f35355dc23871f7e5d8712755714657262b5a9010fc75c0e8dd05938d6918f045dd7a8e03"
+RPM_NAME = "apache-commons-validator-1.5.0-3.5.noarch.rpm"
+RPM_HASH = "28a1b2166f222fd105e91bbb2cd9e2460f07ff13ce079b4264a80b94d3140778f47be6bf7a4b908a40928f5a768585166b187361eab71e035a790858721d83b3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-validator \

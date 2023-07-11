@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.8.26"
 
-RPM_NAME = "gstreamer-plugin-aravis-0.8.26-1.1.aarch64.rpm"
-RPM_HASH = "1db753ca1aba3b36d94c465e6f5657d9ee68c0c75367dfe9fcc599b541869db86b8f308a2d7eb8ce018ca4db2dc3c992a104e4ff0f3f4cdfe81f6cc6ca4477b5"
+RPM_NAME = "gstreamer-plugin-aravis-0.8.26-1.2.aarch64.rpm"
+RPM_HASH = "aacabd0f7d71b3fb958d5cd207e7da2c6f841752767039518819d2d3a0622a759cd85a8e9f2229c56833d40bc6a8d6ebb053c4fecb5ae58ff2885afa37f3b209"
 
 RPROVIDES:${PN} += "gstreamer-plugin-aravis \
 gstreamer1 \

@@ -8,8 +8,8 @@ LICENSE = "LPPL-1.3c"
 
 PV = "2.1.0"
 
-RPM_NAME = "jaxodraw-latex-2.1.0-6.6.noarch.rpm"
-RPM_HASH = "0261fb01cad47acab4bf07046af5283f959bacf5c36c10c5615c1bac764a623cac5551f3d0a49b7204daaf648f667d9e26bbcef91058efa65dee06e3a1ebe8f2"
+RPM_NAME = "jaxodraw-latex-2.1.0-6.7.noarch.rpm"
+RPM_HASH = "fc2321b7975920795ad5792bf0ce957a9e4c6a27c8e19e0d3070d6524de3a3fcbfc9cab9ade9306a8333025467324667dccaf01ef6187ab40f2977b9e472d6e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jaxodraw-latex"

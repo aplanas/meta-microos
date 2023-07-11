@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.11.1"
 
-RPM_NAME = "python-tooz-doc-2.11.1-2.4.noarch.rpm"
-RPM_HASH = "5552c8a75ba690287cf1f73dcdeca89b369f3ceb36bb9546ad8f845b37b99a4fe4343f870484eb36168d486f42dc54bf2f5229069420959e35a13c47250f8b45"
+RPM_NAME = "python-tooz-doc-2.11.1-2.5.noarch.rpm"
+RPM_HASH = "26a01693e0d9808e3372a04ddab9cef12f934fa1c0dd14b05e3d4ebe934abac2062460b9dbd1b96762925cd9af7daa156e4b3e5a59c323428f82a8454c541ccf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-tooz-doc"

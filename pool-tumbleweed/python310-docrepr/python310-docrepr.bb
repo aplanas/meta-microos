@@ -6,12 +6,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.1"
 
-RPM_NAME = "python310-docrepr-0.1.1-2.16.noarch.rpm"
-RPM_HASH = "e323b387d63dd53719106ed429c18cb6f3af2013609e112790f5ae9557d9a5c4c309464b0f9c0a87d102e551e2311fae656432ab8691428b70b994a4e221c90a"
+RPM_NAME = "python310-docrepr-0.1.1-2.18.noarch.rpm"
+RPM_HASH = "6228afb0d6c8a33c4a2081c42e181abd580a18c4860da7b336b65b05a49eb2ab12f768d22c5711c23374dcf784a56de4cf9f5d24e76d8009afd81cfe353b7cb4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-docrepr \
-python3.10dist-docrepr \
+RPROVIDES:${PN} += "python3.10dist-docrepr \
 python310-docrepr \
 python3dist-docrepr"
 

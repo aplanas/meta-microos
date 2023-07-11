@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.17"
 
-RPM_NAME = "python39-sphinxcontrib-programoutput-0.17-2.8.noarch.rpm"
-RPM_HASH = "133babd6c8cd3f3a51d12eb3eaadfe1b681a1bb468c5730eb6acc610edab54914b0600ec92f2043e093bfe0615806f41c99bd9aac32fcfe7a68b08322edf74b7"
+RPM_NAME = "python39-sphinxcontrib-programoutput-0.17-2.10.noarch.rpm"
+RPM_HASH = "593ad0d292be7db10b3a2d7e2b77cc48dad670a5a6f89ccae8bef4ac00fab8b87e6f9163204e05579b5650a047082bc8152f575f4f762ca352a2b04fb78a6579"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sphinxcontrib-programoutput \

@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.0.3"
 
-RPM_NAME = "libgsound0-1.0.3-2.8.aarch64.rpm"
-RPM_HASH = "5644623ace9cee0aa96cc0f9d5483bd5e502504ce052ca1ac70a33fca15c4b268c8c85e0ed6a033591a92674041cdca56bdbc21807fa87534fbd986ee4c9f815"
+RPM_NAME = "libgsound0-1.0.3-2.9.aarch64.rpm"
+RPM_HASH = "ce84c5c9347268889d8ed4576090ddc2d1fedad44675979d2f6cde41823111d18108c95b16759b718f36f29c996a359b5c36886bebb211196c815d1110984c12"
 
 RPROVIDES:${PN} += "libgsound.so.0 \
 libgsound0"

@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.17.3"
 
-RPM_NAME = "python39-fasteners-0.17.3-1.4.noarch.rpm"
-RPM_HASH = "d6d7626457da383b83df96c219c4b537335ad78f606dd7e4f7a47c956a6acd31e65b941fde186f1684d790e47f5f7da39ac3e287c33e441afaaa9079a714e39c"
+RPM_NAME = "python39-fasteners-0.17.3-1.6.noarch.rpm"
+RPM_HASH = "653c790fdfcd1866ab832faa5876bad3c431b9e212f1ae00059ddc22913bf02e586b70bd3cf8e9baece4da7ec4713b5558cadaa69479cf1119631da255ab6dd5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-fasteners \

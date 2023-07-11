@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.5.0"
 
-RPM_NAME = "python39-PyNaCl-1.5.0-3.1.aarch64.rpm"
-RPM_HASH = "3531b0a89193bc76d7058066b5ee2a8c1324bd7f28cd4b1bd66398611a808129ebb0c29f410b18861062c4ad8496316f58e0389589c897cc41b01ded003dcdd5"
+RPM_NAME = "python39-PyNaCl-1.5.0-3.3.aarch64.rpm"
+RPM_HASH = "5eac8e06f60f759c9ccfd516e7685af0c70d583532850b7778b35b114a3360dd26651079e68a7a7f8e45efd21d57ce937fe8b0ecd4478bdab5d5bebdedbda89c"
 
 RPROVIDES:${PN} += "python3.9dist-pynacl \
 python39-PyNaCl \

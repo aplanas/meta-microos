@@ -6,8 +6,8 @@ LICENSE = "X11"
 
 PV = "7.6_1.15.2"
 
-RPM_NAME = "python3-xcb-proto-devel-7.6_1.15.2-2.1.aarch64.rpm"
-RPM_HASH = "8e884fcc2d9744411929e18af33f73e8858bc3a8caf77d24bf4e7097701af648a1fbe8640041a4b8ac2ea69d5c9c0cdc20815d9d75c0715e0bdcdf6d2d797b6e"
+RPM_NAME = "python3-xcb-proto-devel-7.6_1.15.2-2.2.aarch64.rpm"
+RPM_HASH = "e8955b7bc9d7a1feb54c535db14d4e42dfd9704c36b040c35e1eca942cd30ec00994733f7faf2855ee4f556f8e5ba92a24fb15148a35b010eb59c3ebae745880"
 
 RPROVIDES:${PN} += "python3-xcb-proto-devel"
 

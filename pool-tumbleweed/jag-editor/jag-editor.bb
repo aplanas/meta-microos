@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.3.8"
 
-RPM_NAME = "jag-editor-0.3.8-2.11.aarch64.rpm"
-RPM_HASH = "4f3fa5c8b4e1a214c10e6695bb88687838dc73fd01219d1506ce654a612f72fde3d7fc14401992c045edc3c24cb9ecc6ba82983a91f3bc147c76d1a4ce61e32f"
+RPM_NAME = "jag-editor-0.3.8-2.12.aarch64.rpm"
+RPM_HASH = "1a464cae41ae9dec2d6c8b1ce09124cd794d84a1271d2f23b4d3a17b5370328d46f6cfbd9fb2990e7a0c14fb40a8074ce8ddb7ad955ca874e15ddbdfde7bf94b"
 
 RPROVIDES:${PN} += "jag-editor \
 jag-level-editor"

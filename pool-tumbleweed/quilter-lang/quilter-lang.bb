@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "3.3.4"
 
-RPM_NAME = "quilter-lang-3.3.4-1.11.noarch.rpm"
-RPM_HASH = "fddadda96a051a94fcf24300584eecaa293b554a8dc30c8111ea6e96b203bafb06a013dedd97219a098c49819c4518b235159922f34163ea64b3c6794bcf9e22"
+RPM_NAME = "quilter-lang-3.3.4-1.12.noarch.rpm"
+RPM_HASH = "178efb26b5666f5a07275f74dd611cdf7472613f6512b4608180c0d885627479e7d1ced061fac1a9c3ba51e8313ce5b126907be2101b6e642d8d2c3a6e745008"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-quilter-ca \

@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "4.3.4"
 
-RPM_NAME = "python311-python-engineio-4.3.4-2.2.noarch.rpm"
-RPM_HASH = "9d72abfadf883e1af8c48d7a416b22d4075ff7c17179a2850201ac77e928bbb36c2c7c5adf89a9f1994acd4deb2447d02194c66ee8c49f45a3e7bf293e8ba5a4"
+RPM_NAME = "python311-python-engineio-4.3.4-2.4.noarch.rpm"
+RPM_HASH = "a261fefbf392b47c98ceaa60cbb319168a122a289afde7ab4e117985920d999d0bc6616659794ca15a6af2384af2ee36d57555145e99dd8d2b6bfcd21616bbc7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-python-engineio \
+RPROVIDES:${PN} += "python3-python-engineio \
+python3.11dist-python-engineio \
 python311-python-engineio \
 python3dist-python-engineio"
 

@@ -7,11 +7,12 @@ LICENSE = "MIT"
 
 PV = "1.2.0"
 
-RPM_NAME = "python311-azure-schemaregistry-1.2.0-1.3.noarch.rpm"
-RPM_HASH = "8fc28773426aecd3cdf0521ff5f59dc79ebb63e1898dac3fc0428f56eb95af7fd6e0f73beb76bb3e1d77e1a020b5d1064a6504c09339ba63c748091476993ae1"
+RPM_NAME = "python311-azure-schemaregistry-1.2.0-1.4.noarch.rpm"
+RPM_HASH = "4388859818d094ea6596acad5eaaacad52be98bc10d9edd8c00bca85102b10d7647e7c3f24769ec0e74c9714dde89685ffe2e1fa0a72e9a55195391a8ba77606"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-schemaregistry \
+RPROVIDES:${PN} += "python3-azure-schemaregistry \
+python3.11dist-azure-schemaregistry \
 python311-azure-schemaregistry \
 python3dist-azure-schemaregistry"
 

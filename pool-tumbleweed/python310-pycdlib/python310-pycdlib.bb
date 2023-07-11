@@ -10,12 +10,11 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "1.14.0"
 
-RPM_NAME = "python310-pycdlib-1.14.0-1.4.noarch.rpm"
-RPM_HASH = "2b867f73c8b4bd4d73fcd9560acd5300c6ed4cc19b51ba6a767ed6d9d9ec764ad8000d8953710e4f806439643fc7bdc0eccf1966e57b4d792ea7a04b6a9b244a"
+RPM_NAME = "python310-pycdlib-1.14.0-1.6.noarch.rpm"
+RPM_HASH = "78b61c2dda3022e6a10ff580a33643a788ad2c459d8316c7e88ab5825d5bca80ab2036c0fca22ec1b495e2e10ca71df567c307172e6ea944d00075f1b1465351"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pycdlib \
-python3.10dist-pycdlib \
+RPROVIDES:${PN} += "python3.10dist-pycdlib \
 python310-pycdlib \
 python3dist-pycdlib"
 

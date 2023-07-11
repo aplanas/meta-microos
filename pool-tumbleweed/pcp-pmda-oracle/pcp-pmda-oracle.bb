@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "5.2.5"
 
-RPM_NAME = "pcp-pmda-oracle-5.2.5-3.4.aarch64.rpm"
-RPM_HASH = "6995d763bbff5562bc960d89b09732ee472ceb28c228353ce841b787acaa6a1be55dc2dae83865b218b58d426d2e1b521183e0fe354d352833ffdf50d7c620dd"
+RPM_NAME = "pcp-pmda-oracle-5.2.5-3.7.aarch64.rpm"
+RPM_HASH = "4acc403191c82a3bb0875171542d168b5534cf6345c0e2bc0d3d3b997805834929047f24eb2e087e0dac8135a3cb2ceb1f3e728bb277e78b8b47025303ba45ed"
 
 RPROVIDES:${PN} += "config-pcp-pmda-oracle \
 pcp-pmda-oracle"

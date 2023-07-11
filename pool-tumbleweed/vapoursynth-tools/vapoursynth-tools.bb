@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the vspipe tool for interfacing with \
 VapourSynth."
 LICENSE = "LGPL-2.1-only"
 
-PV = "62"
+PV = "63"
 
-RPM_NAME = "vapoursynth-tools-62-1.2.aarch64.rpm"
-RPM_HASH = "ac442dafacacec26cebb4355373dfdeb2b10f1e46104909a658b749357250cf104f90f8769a1c94ea5d3af86856bd1e32cbebbaaf7f2d2cb583ab80b3f023207"
+RPM_NAME = "vapoursynth-tools-63-1.1.aarch64.rpm"
+RPM_HASH = "446081db26c4c8cf6bdb5a9e9b3dd5db3e27a012020f3547c79a4a9bf314a87789ff7c21a878df231d39e5651862eaaf5592f061a4298277212bdcee44dbf127"
 
 RPROVIDES:${PN} += "vapoursynth-tools"
 

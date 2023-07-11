@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 | EPL-1.0"
 
 PV = "9.4.51"
 
-RPM_NAME = "jetty-minimal-javadoc-9.4.51-1.1.noarch.rpm"
-RPM_HASH = "bc628d2e25127347c2def9c0a9fffc7d1523c207b8969ac9db078f37b29df1a1d1a832523957002796576e87577832992d4d28bd548a8d9a8afaba6ba7002157"
+RPM_NAME = "jetty-minimal-javadoc-9.4.51-1.2.noarch.rpm"
+RPM_HASH = "b3624b805ad6da330b32fcc27855c0e2e4c9c24c6b911a33a6bc8c3831a734cf18a52322d9190c2f565c5d6bd5cf3ad0b1c0416df104df59ad068342cbaf6f25"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jetty-minimal-javadoc"

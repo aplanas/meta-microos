@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.5"
 
-RPM_NAME = "libx86emu-devel-3.5-1.8.aarch64.rpm"
-RPM_HASH = "81e79974c7950e358c452144528cdf154b009142ffda2df3bab2383e7a8bbab187fc206df34b9b064cbf193e86324f835cfdd791adfc89ac0660fa0d76fdd4d4"
+RPM_NAME = "libx86emu-devel-3.5-1.9.aarch64.rpm"
+RPM_HASH = "ca9ec4fab8f13b4186a067ee96320e29da43231ac0537ea4e68189668bf1b1aadb3d21f966b55e3b0270db44f97206596136b194b9aed5c62e81f0363ea28ffa"
 
 RPROVIDES:${PN} += "libx86emu-devel"
 

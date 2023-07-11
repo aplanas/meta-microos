@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.15.0"
 
-RPM_NAME = "timidity-2.15.0-3.10.aarch64.rpm"
-RPM_HASH = "abc7a8b9c233c7c5cacebaaefe41809948c99180a44170bc43b1c93796363ab79b45b62b8796be64a92e9da2959ab2a64b4e5a10041436597ed20ef3182dcee9"
+RPM_NAME = "timidity-2.15.0-3.11.aarch64.rpm"
+RPM_HASH = "4a3a6ad8921f3b50a99212a2520f63a3265502c3f7814cacee7f1f444b0f8f25c944415e89c76fcad7d1eb64ea44c17cc225735ca7f2d0adca92c52c2c4d18e8"
 
 RPROVIDES:${PN} += "config-timidity \
 timidity"

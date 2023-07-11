@@ -3,10 +3,10 @@ DESCRIPTION = "This is a class for the french journal 'MATAPLI' of the Societe \
 de Mathematiques Appliquees et Industrielles (SMAI)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2.0svn62632"
+PV = "2023.208.1.2.0svn62632"
 
-RPM_NAME = "texlive-matapli-2023.201.1.2.0svn62632-52.1.noarch.rpm"
-RPM_HASH = "12154d07e0ea90252ec63c12247984049d5e5a8c9f2e69c5f0b1af3de58ddb6fbf648a9266d509b24a3b80b4d6b4353ec15c6f8858741aad689f4f193f815cc5"
+RPM_NAME = "texlive-matapli-2023.208.1.2.0svn62632-53.1.noarch.rpm"
+RPM_HASH = "4be9f80e3f590d6ba8982cb2a852a39acaddf9623d79d25f87609a21f88407e9c90598da49ac8c92b98cb640d234607bb1d98a92c2dcc39c724ee98ced193f29"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-matapli.cls \

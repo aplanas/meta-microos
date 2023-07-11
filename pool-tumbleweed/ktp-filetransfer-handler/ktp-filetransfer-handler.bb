@@ -2,10 +2,10 @@ SUMMARY = "Telepathy filetransfer handler"
 DESCRIPTION = "Telepathy text filetransfer handler"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "ktp-filetransfer-handler-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "0af1539f822107685c1a7e26310b9a4aa548a912be313e20339fab5dee900f9b793ec1cf669bf1272b8d6cb57730c012fffb237373854c7fccee890d1d178a4a"
+RPM_NAME = "ktp-filetransfer-handler-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "275e8e3433260c1e720b3c44336cd7323367e8ca0b528b030f29461abc5b179a3b3f611ca872094476c6ea26e34925af6470cde5c88bfd9bd4780bff452c2bc0"
 
 RPROVIDES:${PN} += "ktp-filetransfer-handler \
 ktp-filetransfer-handler5"

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package minuet"
 DESCRIPTION = "Provides translations for the 'minuet' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "minuet-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "0a8230dd5a163b6e3c95a69b16d18bfd5084eb91645cfe0e84aae40d4af9fb45d7c70ca2fd0b0219c1f475f3af25de2e8a28cc0c74c377a8a72bc1e6f1e3b511"
+RPM_NAME = "minuet-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "b7861db1b04313a3b0bcdacf0d4cdbad02ee3c85f5fcaf5623d425f8b0c8a09a020170af142d644f79bda75ed1a3678b1c6172f740361a41e86cd72fe9f4819e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-minuet-ar \

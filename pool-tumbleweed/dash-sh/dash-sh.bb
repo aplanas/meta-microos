@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.12"
 
-RPM_NAME = "dash-sh-0.5.12-2.2.noarch.rpm"
-RPM_HASH = "b6668a9e94afbb6de90fc8b65174f8365a7359567bd97f600228066afe615e08aebc186ac2a7797bd2601fc23b4a47cd7ab259a976c4d38cac845a724843604b"
+RPM_NAME = "dash-sh-0.5.12-2.3.noarch.rpm"
+RPM_HASH = "b3670a8edd25568ac1a28966696676d0a2be6dcb941643bb814788c8bb930d706eedc1d95ab91ef5ce9acc86d3767d38d122702478bca88decee33e40335c92b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "/usr/bin/sh \

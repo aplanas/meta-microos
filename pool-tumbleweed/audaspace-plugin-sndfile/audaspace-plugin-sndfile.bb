@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.4.0"
 
-RPM_NAME = "audaspace-plugin-sndfile-1.4.0-1.4.aarch64.rpm"
-RPM_HASH = "17ed483b286c6459321f92937bcd0422f651af4e8af076d3b6a8a03e80e006096b9eb3fdaeea45d2654033506c1ef8f9168aebeb22167e52a2941e813a286b90"
+RPM_NAME = "audaspace-plugin-sndfile-1.4.0-1.5.aarch64.rpm"
+RPM_HASH = "5890ea6f917ae423eeb5b9694bb0131aa362bd6744f41b4917e6e0f674f4f4f90128624385ab09f11601cc6efc4da8e89fc5c66477b32fa756b733a0b851616e"
 
 RPROVIDES:${PN} += "audaspace-fileplugin \
 audaspace-plugin-sndfile \

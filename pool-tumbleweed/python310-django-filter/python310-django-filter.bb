@@ -5,12 +5,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "23.1"
 
-RPM_NAME = "python310-django-filter-23.1-1.2.noarch.rpm"
-RPM_HASH = "b408d17e38c1732c7c3c1069c7dde99b61f6cf700e643c691e0fca12ead5ca5c777e43caf4afdb6bfabd09df24fbfc7051a1d5b2bebb7e2b46642b74eccdf1d7"
+RPM_NAME = "python310-django-filter-23.1-1.4.noarch.rpm"
+RPM_HASH = "c006ceed1f83649e37ec4c6807144918a07c4d19436c1bee4088e1a2b9820877d489cd58eb4c9fdb6f85dd53620670a50a3965730b00c5dc67e275ea389943d1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-django-filter \
-python3.10dist-django-filter \
+RPROVIDES:${PN} += "python3.10dist-django-filter \
 python310-django-filter \
 python3dist-django-filter"
 

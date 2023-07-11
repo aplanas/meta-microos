@@ -7,8 +7,8 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20230114"
 
-RPM_NAME = "libfwsi-devel-20230114-1.4.aarch64.rpm"
-RPM_HASH = "64248441e4473ae726250ee489e978f148d085b5407d9a225253e119351101ee9fd488cc10a87aab75c40ca1a7dd8621e9e39a76bf5418432c9039940e63e51e"
+RPM_NAME = "libfwsi-devel-20230114-1.7.aarch64.rpm"
+RPM_HASH = "ae9cbd6ebfc09a314a9be5f95cb7d17623fd98700b64ef34f4bc05c83ddb3478897813f27fb90598cc4f9a3ef76da900ddec90d58b89d0286629c18e0742507d"
 
 RPROVIDES:${PN} += "libfwsi-devel \
 pkgconfig-libfwsi"

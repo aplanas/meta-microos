@@ -12,14 +12,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.15"
 
-RPM_NAME = "perl-Test-Kit-2.15-1.15.noarch.rpm"
-RPM_HASH = "fa5b5a094f767505c7a15c3995bf3c4dddc8b3111c32cb91a0ab9611155b6c6f890091388ef39428dac7108ecd1bb8c72658130cfe19c5416aa8d2334fb7c1c2"
+RPM_NAME = "perl-Test-Kit-2.15-1.16.noarch.rpm"
+RPM_HASH = "a5c6cc64e62d0392ed260389cd860d893e79f0659267d7778f5c88d3a8a6b30678d3ac1f75be089e196a258f2ae08d8a4a2a9b6d258c1e24ae0c83cec92a0a77"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Kit \
 perl-Test-Kit"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Hook--LexWrap \
 perl-Import--Into \
 perl-Module--Runtime \

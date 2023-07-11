@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause & GPL-2.0-or-later & MIT"
 
 PV = "4.3"
 
-RPM_NAME = "audacious-plugins-extra-4.3-1.4.aarch64.rpm"
-RPM_HASH = "9419eff2005362acb05a311934e55763b056c20c72d942a3f1cf3be9688aaddbe122c4343056d06213724a12ac83d3a3feb72582f6c12b0c98a5100d53728ea1"
+RPM_NAME = "audacious-plugins-extra-4.3-1.6.aarch64.rpm"
+RPM_HASH = "719ebed0a822de7a71ca46d5212b202fe42278799364427780f881d554d531835ab53cb7d6cd508086c34b4853e69a3028a6c99df56119c8c20883a4314c1e05"
 
 RPROVIDES:${PN} += "audacious-plugins-extra"
 

@@ -4,8 +4,8 @@ LICENSE = "GFDL-1.1-only & GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "43.0"
 
-RPM_NAME = "seahorse-lang-43.0-3.4.noarch.rpm"
-RPM_HASH = "3b3d2d05c3d125f888dc64a193601fbe49d546a76320d9376941f2fb9bb20ccecee2c5e2e4bb38573ce8be8ae6a5faeef69185e62abe2650bfb77075b1ecb2ef"
+RPM_NAME = "seahorse-lang-43.0-3.6.noarch.rpm"
+RPM_HASH = "d1f44c3dfbbee04b0b1225007b2668fca27143dbd059b9e6b52828466a092cbc74c0689f3b7382ae224fef95584aaf0e6f78bd9c59b30c4121902248359b32d0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-seahorse-ar \

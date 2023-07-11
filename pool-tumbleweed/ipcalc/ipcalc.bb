@@ -8,10 +8,10 @@ support, and in addition it will use libGeoIP if available to provide \
 geographic information."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.0.2"
+PV = "1.0.3"
 
-RPM_NAME = "ipcalc-1.0.2-1.2.aarch64.rpm"
-RPM_HASH = "0bf6507d21c2b1a3fd25c374214f5f9c32a30b6cf56f1f6c82c42041565d54cc21b07b677a73ae725ba2529da12dde484c200acad421950e925f749c180fd9b9"
+RPM_NAME = "ipcalc-1.0.3-1.1.aarch64.rpm"
+RPM_HASH = "2449073b498f6d417cf7707499bf4b274852a7d5463a9487bd6ac1d7dd9271934f1a80bc578d2ea5d9a3e0921b1c6c180ed17e1179b9559c7e6bae7740b042b0"
 
 RPROVIDES:${PN} += "ipcalc"
 

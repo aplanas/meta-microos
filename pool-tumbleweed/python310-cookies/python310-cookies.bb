@@ -32,12 +32,11 @@ LICENSE = "MIT"
 
 PV = "2.2.1"
 
-RPM_NAME = "python310-cookies-2.2.1-5.1.noarch.rpm"
-RPM_HASH = "b8fce059c7cae014033d54c20d00456820f0ff77d0355a63f16b0d34442b2b0313b2161e5c757382e82369b07de247f13524ead835ddcabcf5853f7a70d93289"
+RPM_NAME = "python310-cookies-2.2.1-6.3.noarch.rpm"
+RPM_HASH = "07ba5667d8633dc2412d366ac8d945176664283f4d80b62ffc34422abaf7e594d23657653fac6c7e94e73b353245c1e36b84146aeaf6da07d2d054cb5e48422c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-cookies \
-python3.10dist-cookies \
+RPROVIDES:${PN} += "python3.10dist-cookies \
 python310-cookies \
 python3dist-cookies"
 

@@ -4,11 +4,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.09"
 
-RPM_NAME = "python311-mulpyplexer-0.09-1.3.noarch.rpm"
-RPM_HASH = "ea951e0069427fecc90f46e2137fdf659bac0f50c295acba72ba77b907a8372a97b23992d3f78538c6e96c07e4a63333758f03da63ca6b883ea8122fc8224bf3"
+RPM_NAME = "python311-mulpyplexer-0.09-1.4.noarch.rpm"
+RPM_HASH = "f337358964a0665ebc7f229fd8f6f144f1a5ca024e14242c8d5036afd7b0b7674c37d1793011afe50217a2569417cfe56de749a5af9c7f31c82d157a790ae8d8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-mulpyplexer \
+RPROVIDES:${PN} += "python3-mulpyplexer \
+python3.11dist-mulpyplexer \
 python311-mulpyplexer \
 python3dist-mulpyplexer"
 

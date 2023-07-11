@@ -4,10 +4,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.1.2.0"
 
-RPM_NAME = "ghc-pretty-simple-devel-4.1.2.0-1.3.aarch64.rpm"
-RPM_HASH = "6b50ad8c89d86c98af9a064bac8ce0cbb0f693571987295de675406563b91ad409e3b986726a1a34c3dcb12e994a2987e5267c736b90a994a5777ec6ba5420da"
+RPM_NAME = "ghc-pretty-simple-devel-4.1.2.0-1.6.aarch64.rpm"
+RPM_HASH = "e0277781e8688b345f660ceabab28e29c442b5dd5799088a5e52e5a3308b155ae99b23abcc9d0839d533dde534e1d8c28d697575d2cf5015d84eef2f0a763359"
 
-RPROVIDES:${PN} += "ghc-devel-pretty-simple-4.1.2.0-LfjX2FlO3KCJ7V5IZrf6zY \
+RPROVIDES:${PN} += "ghc-devel-pretty-simple-4.1.2.0-AmUJ4bdBPRILOonshKqIvK \
 ghc-pretty-simple-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

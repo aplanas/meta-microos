@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.1.4"
 
-RPM_NAME = "python310-ephemeral-port-reserve-1.1.4-2.1.noarch.rpm"
-RPM_HASH = "ff6bae088a9b697e49f95fc6421e37e5a8f182a02e4ee8aadb378a1a15f375c3e2e9e4b9d00e910ea29a452a409daeee09030836753190b447b1e4fb0e6bb0ca"
+RPM_NAME = "python310-ephemeral-port-reserve-1.1.4-2.3.noarch.rpm"
+RPM_HASH = "7c77b5c8111e2563764dd0d410d36f516819c16bfd3c09cc842ed6b0391b73cc8d23f48cff2dc1c1ab8d692bff1feb4ec079283b60bacb9e8e7660c202ea0a60"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-ephemeral-port-reserve \
-python3.10dist-ephemeral-port-reserve \
+RPROVIDES:${PN} += "python3.10dist-ephemeral-port-reserve \
 python310-ephemeral-port-reserve \
 python3dist-ephemeral-port-reserve"
 

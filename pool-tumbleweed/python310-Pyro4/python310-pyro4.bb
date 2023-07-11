@@ -12,18 +12,14 @@ LICENSE = "MIT"
 
 PV = "4.82"
 
-RPM_NAME = "python310-Pyro4-4.82-1.3.noarch.rpm"
-RPM_HASH = "82cd919cf399446519bb14b8f1190d1d5aafcc68db1da0894f1741ca47d792a31a2317f9a0a631797b3bb67f77ca2e7edd3c9d42ab7869a69c3325736c319fda"
+RPM_NAME = "python310-Pyro4-4.82-1.4.noarch.rpm"
+RPM_HASH = "0ad09473313fa6474abfb2ee2a5eb80b5f43066dd91be0b08a9f10049e48182434331da0034f74b3780ee59b0a19f5767fa71683c277ef2db0bc7a22923cd733"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-Pyro4 \
-python3.10dist-pyro4 \
-python310-Pyro4 \
-python3dist-pyro4"
+RPROVIDES:${PN} += "python310-Pyro4"
 
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
 /usr/bin/sh \
-python-abi \
 python310-serpent \
 update-alternatives"
 

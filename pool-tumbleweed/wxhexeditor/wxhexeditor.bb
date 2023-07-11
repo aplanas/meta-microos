@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.24"
 
-RPM_NAME = "wxhexeditor-0.24-3.14.aarch64.rpm"
-RPM_HASH = "ead9be342bea4be915055d9d2b626294f06bc976868ac8901f90682895502efa5c1d1404b93d847a4611e737ebbcc38e4dc12c9829b4ecff4dd21da64c74fe5a"
+RPM_NAME = "wxhexeditor-0.24-3.15.aarch64.rpm"
+RPM_HASH = "8dd81d4ce7fb90c6b81ddb1c5ed44987268788f8de69dd6e84f7ba0e7ccaddf45ce01b3be18947f3abd02e8477c0589452a22058ab7487a31908912c88c7a93b"
 
 RPROVIDES:${PN} += "wxhexeditor"
 

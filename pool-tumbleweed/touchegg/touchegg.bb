@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
 PV = "2.0.16"
 
-RPM_NAME = "touchegg-2.0.16-1.1.aarch64.rpm"
-RPM_HASH = "04ec0284b797ffd69492bf430a50795d00d912bef80ec87d51be6860aeb4a17db01170723be105ce90f31c9b1278e03cb034946fc25f6197f2c086bc54eba1c6"
+RPM_NAME = "touchegg-2.0.16-1.2.aarch64.rpm"
+RPM_HASH = "f234f625697c2f0ef11a183b4fe603f86d29d19b1ddda52ea761d00293bd987a24588c035e43371f749fa9d93709bb317d184e62aec326fbc8861d1fbc87a9f8"
 
 RPROVIDES:${PN} += "touchegg"
 

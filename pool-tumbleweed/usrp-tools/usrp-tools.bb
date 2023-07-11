@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.4.7"
 
-RPM_NAME = "usrp-tools-3.4.7-1.4.aarch64.rpm"
-RPM_HASH = "b0fd3043dab9551bb02f3261361da3471d84b89e09e96f687d73f3fc24fea0b2f0b5c75d50bca7df3197bb18af0a0a9e8e6a24fe779e4166a1f18c5f68cc9e60"
+RPM_NAME = "usrp-tools-3.4.7-1.5.aarch64.rpm"
+RPM_HASH = "d37415bb9a0e1a1dedff022c423920c77d1ea134f0f4c2d4b7906e1c73927882a6946b2ecb438ea5d95530b78ab4f2d21ed2d73ccfa7d5cdc817e0d4427e52b5"
 
 RPROVIDES:${PN} += "usrp-tools"
 

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.4.0"
 
-RPM_NAME = "python39-sphinx-argparse-0.4.0-1.1.noarch.rpm"
-RPM_HASH = "4a14140ab2b4dbc8da21bf89649acf3d5596f1feb2036c356f71e2ff5fbe771ba7c0e7f8a6771eb7146f5a949d24c1171a9b345587409535ee069019fcecae3f"
+RPM_NAME = "python39-sphinx-argparse-0.4.0-1.3.noarch.rpm"
+RPM_HASH = "1f663636776fc2e81e1c7023e649f9514f7dd3625333f0b8e9c307687475407084c8ad112b3adde7ec4aa429dea8fa6a1920a46717936ad73978d71ad88ef73d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sphinx-argparse \

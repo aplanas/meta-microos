@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "3.1.7"
 
-RPM_NAME = "Rivet-plugins-3.1.7-1.1.aarch64.rpm"
-RPM_HASH = "f5c8153cd47b5a106e087d195257297f15532337ae8d4a2dd24a9ef726a82d97535caaf9f4b9993d5cd748c58f37b4ad84f21fae9c721dad195466dd42efd740"
+RPM_NAME = "Rivet-plugins-3.1.7-1.2.aarch64.rpm"
+RPM_HASH = "b969950894b42cbac2bd2673fef5c2706769ad50c798007a0349561a03154e77f9b268b3d65a79bddc0cd9208ae47f1b43757088ca07710de6517fd0ec3436af"
 
 RPROVIDES:${PN} += "Rivet-plugins \
 config-Rivet-plugins"

@@ -5,10 +5,10 @@ graphics in the style of D3.js, and favors delivering this capability \
 with interactivity over large or streaming datasets."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.1.1"
+PV = "3.2.0"
 
-RPM_NAME = "python39-bokeh-3.1.1-1.1.noarch.rpm"
-RPM_HASH = "ba4ffbef385069c32b646ad535a153cf9c3f785cd48f9a823b05ce683ae17b9d351143e9f96f9e42bfdcbccc552b3ccf0d43558f96562f788baf98880729d6d3"
+RPM_NAME = "python39-bokeh-3.2.0-1.1.noarch.rpm"
+RPM_HASH = "4b5d1e4a886798677adf58b7fa36681afe1bc3ff12dbe4a5d9a4b16f730e8beee03ba94ed6833a0814d9cab4370a16dc5eb791fb126a6d62fdc30ef0a1824e50"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-bokeh \

@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.26.1"
 
-RPM_NAME = "python310-mycli-1.26.1-2.5.noarch.rpm"
-RPM_HASH = "4db943ceb3e61644868e8d450b29f99f14f5b0c61628e3f821c7544d348ce5ae1a6f3218854f26b4f6851dab8f63d556701a38094dbb0602be2680fdf942a8ff"
+RPM_NAME = "python310-mycli-1.26.1-2.7.noarch.rpm"
+RPM_HASH = "49477b78e5bb652dc3a74347b50cdd3e40fedf66f2ab0d85a921400eaf206fec657fae857ecd2c206f3bd9271c3412f2cf6b2e9950a942c5ee70f0f05ef309bc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-mycli \
-python3.10dist-mycli \
+RPROVIDES:${PN} += "python3.10dist-mycli \
 python310-mycli \
 python3dist-mycli"
 

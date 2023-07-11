@@ -12,12 +12,11 @@ LICENSE = "Apache-2.0"
 
 PV = "4.0.0"
 
-RPM_NAME = "python310-pymemcache-4.0.0-3.1.noarch.rpm"
-RPM_HASH = "27d74971c89afdb8878b9687c659acdb01b3bcaf4cb234c70c1e30eb2aebc847ec8c88486d7e26546782f4813ccbb2431ee9c62e1706ef82e3d329ed01b40c69"
+RPM_NAME = "python310-pymemcache-4.0.0-3.3.noarch.rpm"
+RPM_HASH = "ff9eb84a21f362d575f8f239fed23bec4f91f35db417b1528c0d72a19d998031a907cac61472bc960e04400e9a2f9f6fa70f247585bc60b4180d11128b1ec646"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pymemcache \
-python3.10dist-pymemcache \
+RPROVIDES:${PN} += "python3.10dist-pymemcache \
 python310-pymemcache \
 python3dist-pymemcache"
 

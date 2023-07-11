@@ -5,11 +5,12 @@ LICENSE = "BSD-3-Clause & MIT"
 
 PV = "0.7.0"
 
-RPM_NAME = "python311-pytest-jupyter-server-0.7.0-1.1.noarch.rpm"
-RPM_HASH = "4342fd6ecd66db054a47e7dd69ae22fbcf3d5805d3d54ada8d3ef82fe67dc8df4e50df34e50207561596c6b4c5e257d180d311f3cc07d850dc674a902b908239"
+RPM_NAME = "python311-pytest-jupyter-server-0.7.0-1.3.noarch.rpm"
+RPM_HASH = "e06788ddd7898b5ff9b03d407c77ea16cbe14fd3694ee0f9ec6b85d870239f65b1914bb5bd3d18fa308c472f927c1b0a9cf3778850bfec36b32ba275d4d25dbc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python311-pytest-jupyter-server"
+RPROVIDES:${PN} += "python3-pytest-jupyter-server \
+python311-pytest-jupyter-server"
 
 RDEPENDS:${PN} += "python311-jupyter-server \
 python311-nbformat \

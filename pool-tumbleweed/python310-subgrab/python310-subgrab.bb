@@ -5,12 +5,11 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.0.4"
 
-RPM_NAME = "python310-subgrab-1.0.4-1.17.noarch.rpm"
-RPM_HASH = "fbc4a509365dbcf41299c0cc83c124191b9fff77393d4f8bb8d0a2e892a8872b3916792790b00ab2a3111bc8ef2a1ff55f62db191e4b564144d6161a2c780502"
+RPM_NAME = "python310-subgrab-1.0.4-1.19.noarch.rpm"
+RPM_HASH = "164ff465d586257fffa889aaa0071f549a498ea05550090b5b7f45869985def68fd1abad2251a08f96bb2f134871300f437d56fe63425fa53716d704d3ccadcb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-subgrab \
-python3.10dist-subgrab \
+RPROVIDES:${PN} += "python3.10dist-subgrab \
 python310-subgrab \
 python3dist-subgrab"
 

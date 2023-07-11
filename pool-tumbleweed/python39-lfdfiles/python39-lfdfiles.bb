@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2023.4.20"
 
-RPM_NAME = "python39-lfdfiles-2023.4.20-1.1.aarch64.rpm"
-RPM_HASH = "d8b668d1134010a0045d13ec71b83c29e6273d556190c2bdac8017eda51669975f5e43c2877282c2707f278898372bb25e7f245cb84f5a167a08a32c8f548c02"
+RPM_NAME = "python39-lfdfiles-2023.4.20-1.3.aarch64.rpm"
+RPM_HASH = "a1b270e6050faccbfa51591901ec1078f3521b2fcdabfcee22c932714b191c4a5c819a4f06cb22dd53d4c536582a237f5e3cba9d6b18a060dbb6317e5c1a6a58"
 
 RPROVIDES:${PN} += "python3.9dist-lfdfiles \
 python39-lfdfiles \

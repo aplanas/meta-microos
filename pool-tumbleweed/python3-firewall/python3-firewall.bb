@@ -2,10 +2,10 @@ SUMMARY = "Python3 bindings for FirewallD"
 DESCRIPTION = "The python3 bindings for firewalld."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.3.2"
+PV = "2.0.0"
 
-RPM_NAME = "python3-firewall-1.3.2-2.1.noarch.rpm"
-RPM_HASH = "d850b13426c4dc4d058e23f58e47098bd552a2cd5ca4e18193a2c10b56c8ba71cc4ae6ee051cef7c7ad6f0a409fcd49aeb2ff408dccf35facc51447663dc3705"
+RPM_NAME = "python3-firewall-2.0.0-1.1.noarch.rpm"
+RPM_HASH = "388f388860ca7e03bf56296178d4a16052b9308895dcf53086402b0934cb03ec637c7014f592100198156075141bf6cd87cf830dc6b89983fb143138af90599f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-firewall"

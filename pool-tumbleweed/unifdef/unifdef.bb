@@ -7,8 +7,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.12"
 
-RPM_NAME = "unifdef-2.12-2.4.aarch64.rpm"
-RPM_HASH = "b9a42dd7968104da8510f1f76313ee066f58ab387d9179dfbf7b09c2ac69fd0002b34a6b9cdf41e9acc7be6acfa6615f5c510cb11f353e2e99e4325c05fda4a1"
+RPM_NAME = "unifdef-2.12-2.5.aarch64.rpm"
+RPM_HASH = "f4fb0e9494693199d7c99712d46e64ff8b241b48e4cedf14dc53e21a9a8315547fc7eb1fd4cbf07f75cefbd8a924b527ff7e18e74fcb263bc94a7a7430a3d17e"
 
 RPROVIDES:${PN} += "unifdef"
 

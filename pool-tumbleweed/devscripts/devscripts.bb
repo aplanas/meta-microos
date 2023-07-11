@@ -19,8 +19,8 @@ LICENSE = "(Artistic-1.0 | GPL-1.0-or-later) & Artistic-2.0 & GPL-2.0-only & GPL
 
 PV = "2.22.2"
 
-RPM_NAME = "devscripts-2.22.2-1.3.aarch64.rpm"
-RPM_HASH = "2dc6611689170ee602f5f3338675a325a6ab9fd813011e7ac43aff853f34b1eb3b7693aecc7ed1709e121f3d5290201bbe414a926dff9e247c20e63ab31b3ce2"
+RPM_NAME = "devscripts-2.22.2-1.5.aarch64.rpm"
+RPM_HASH = "7f3629a231df49b3a980e51187f68af5a13d832b2d9c447319d38a365d09c0ab8cbba14955d936af46f45580a7c55a4e8ada293c9fa3bda0a426190cdb55cb3b"
 
 RPROVIDES:${PN} += "deb-/usr/bin/debchange \
 devscripts \
@@ -86,7 +86,7 @@ perl-Devscripts--Uscan--http \
 perl-Devscripts--Uscan--svn \
 perl-Devscripts--Utils \
 perl-Devscripts--Versort \
-python3.10dist-devscripts \
+python3.11dist-devscripts \
 python3dist-devscripts"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
@@ -97,7 +97,7 @@ checkbashisms \
 dpkg \
 html2text \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-File-HomeDir \
 perl-IPC-Run \
 perl-Moo \

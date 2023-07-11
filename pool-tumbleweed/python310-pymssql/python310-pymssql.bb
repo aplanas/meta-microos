@@ -6,11 +6,10 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "2.1.5"
 
-RPM_NAME = "python310-pymssql-2.1.5-1.15.aarch64.rpm"
-RPM_HASH = "e7804db9fcd804e707713364b8bc71d9e229a346e15c3e7ac2e9a745e7b3497ddcd43e9880d592a8ab6ae200cb313d32fec58fc73ba1aa8db27f94289b153877"
+RPM_NAME = "python310-pymssql-2.1.5-1.17.aarch64.rpm"
+RPM_HASH = "766ea4c6eaeeb2820c70e3920ba17c53f6d7f1d036129c034ff6f05cecc77683f69ddcf7c1445112839ff1d79a712ab6045220aa4bfd9bf71694139f76e0092d"
 
-RPROVIDES:${PN} += "python3-pymssql \
-python3.10dist-pymssql \
+RPROVIDES:${PN} += "python3.10dist-pymssql \
 python310-pymssql \
 python3dist-pymssql"
 

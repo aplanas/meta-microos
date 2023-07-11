@@ -8,11 +8,12 @@ LICENSE = "MIT"
 
 PV = "2.3.0"
 
-RPM_NAME = "python311-QtPy-test-2.3.0-1.4.noarch.rpm"
-RPM_HASH = "8ef7b078b2c88715c8a7f8f47d4e07190596e0590409f5cde6e02f4d256d5a72171fbff04708667c853fa635058def4793002a4fc14422ef77b795eb2f6af815"
+RPM_NAME = "python311-QtPy-test-2.3.0-2.3.noarch.rpm"
+RPM_HASH = "15f93379a8e5158fb3b7fc324a0e10ec015d526e4991459dd25d9b82ccaaf7c977194b0761dcfd4262bc6b77c19657b8e7299f502f643a93af930ca191ebe231"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python311-QtPy-test"
+RPROVIDES:${PN} += "python3-QtPy-test \
+python311-QtPy-test"
 
 RDEPENDS:${PN} += "python-abi \
 python311-QtPy"

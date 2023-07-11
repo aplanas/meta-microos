@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "3.4.1"
 
-RPM_NAME = "openslide-doc-3.4.1-2.25.noarch.rpm"
-RPM_HASH = "db9d0a534775b8f9b5941ca7ae9e1aa46ee07c60627b183863e27dd2623bbf1e8cf1cf0034cb7760beb781eb7423fa9a7170324864046b8c4dc57393ee33ec49"
+RPM_NAME = "openslide-doc-3.4.1-2.26.noarch.rpm"
+RPM_HASH = "a9a71647c2323889e5703316498ccb4d7bd5f3ed97c2031caf697c5f3686d46b963365abf0023f2ce222246c65e0ef7e98061b64721e84c22bf2c5b33818a81a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openslide-doc"

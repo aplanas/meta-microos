@@ -4,12 +4,11 @@ LICENSE = "Apache-2.0"
 
 PV = "3.1.1"
 
-RPM_NAME = "python310-atpublic-3.1.1-2.2.noarch.rpm"
-RPM_HASH = "250d1ccc0fd101671c94667a2853b96f89c9692da4f2a68aa4f19b81dd64344ae65e829a8cd43ddb307c713a1b726913917724998ed89aeb130cfed18def682d"
+RPM_NAME = "python310-atpublic-3.1.1-3.3.noarch.rpm"
+RPM_HASH = "265228876e9e4c85c64e230071fc1f2c7689b5603f4e192ce2b24fe01cee9abda9b994fc3f4144ada764c5c68f08e6e163cdd75b409b1caa4920c429a5646056"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-atpublic \
-python3.10dist-atpublic \
+RPROVIDES:${PN} += "python3.10dist-atpublic \
 python310-atpublic \
 python3dist-atpublic"
 

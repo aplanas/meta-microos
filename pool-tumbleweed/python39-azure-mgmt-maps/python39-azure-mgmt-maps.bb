@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "2.0.0"
 
-RPM_NAME = "python39-azure-mgmt-maps-2.0.0-1.8.noarch.rpm"
-RPM_HASH = "f6d3dc36c75ae266214d7c558be50261a41692e5d7d936bb59df41697cb9f952656324b4dd56cc92ebc468a033559a719223c52bf8a2ce2ba19083e02959d62b"
+RPM_NAME = "python39-azure-mgmt-maps-2.0.0-1.9.noarch.rpm"
+RPM_HASH = "5c931cf734c853f3b9a02467b9c3cb4d4f86191755d986a4c2b93d1406db0636a252647ba8c5a7e4497e2d3d3e02a40ac8ccfd1addf0830dc7642d37585a671b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-maps \

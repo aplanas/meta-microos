@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "1.26.0"
 
-RPM_NAME = "python311-Telethon-1.26.0-1.5.noarch.rpm"
-RPM_HASH = "f12a2c05841ef551a7092e820f9e25efda76de2c47c984ff7d84a337cb76a59a4b6fa4eb490ed9cfc95de2974d6432caa6804382968767498ee9e63c225edef4"
+RPM_NAME = "python311-Telethon-1.26.0-1.7.noarch.rpm"
+RPM_HASH = "d4177f73af6a98752e6afc660b5ecb171e2b1c37c02b0c53be5494aee68ef396236ea0934e7554af6f275fb71664cf1f090de230771b6c13364bb8dfbfeaf5b9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-telethon \
+RPROVIDES:${PN} += "python3-Telethon \
+python3.11dist-telethon \
 python311-Telethon \
 python3dist-telethon"
 

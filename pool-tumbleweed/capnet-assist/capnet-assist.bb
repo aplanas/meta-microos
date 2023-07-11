@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.4.2"
 
-RPM_NAME = "capnet-assist-2.4.2-1.4.aarch64.rpm"
-RPM_HASH = "85ef7d2099afd0fc4f266d9cdacf729958b974bf518c9c0641556bacd65d7e6dd3b4b0d897d0025e787d7bb39eec284918dc90cac4022b022efb5208bfad3005"
+RPM_NAME = "capnet-assist-2.4.2-1.5.aarch64.rpm"
+RPM_HASH = "1dfa4c61a244a2497c7f27e4d24dc68b4fd57e433533c27d3eb722099d7456a4cc1f5db10d8a393562103c0d0e3467c24048019bdbe2c02dd6bda66facfd5ba1"
 
 RPROVIDES:${PN} += "capnet-assist \
 elementary-capnet-assist"

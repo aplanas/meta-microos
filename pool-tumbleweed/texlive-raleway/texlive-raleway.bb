@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "2023.201.1.4svn42629"
 
-RPM_NAME = "texlive-raleway-2023.201.1.4svn42629-53.1.noarch.rpm"
-RPM_HASH = "ba974a11862c5d513e6d2f138cb967056f83967fa04a3e06416e9b3cb9a33f9a27b9a265e5fa215c5bc9d4ddebc53e95fa54b4a77415b8efed8c56761b5caecf"
+RPM_NAME = "texlive-raleway-2023.201.1.4svn42629-53.2.noarch.rpm"
+RPM_HASH = "88d1e16d0ade899a2f718a2ef942c1942f4782cd0e1b6c2408a310a727b4fa8c4d3e6af0c38b089a2ad1422551a9c081f5a2f76b4405fe0aab5238b5a7e92668"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LY1Raleway-TLF.fd \

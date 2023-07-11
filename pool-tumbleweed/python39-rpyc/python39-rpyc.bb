@@ -9,15 +9,15 @@ LICENSE = "MIT"
 
 PV = "5.3.0"
 
-RPM_NAME = "python39-rpyc-5.3.0-2.3.noarch.rpm"
-RPM_HASH = "846c5c46877027b101c55e9d4c5c033d439d5609cf393db4c98acac217f8eaea7abba1886ce8cedbae8c6ea31d7794bc16d188807bfb24f8b1c5fff55bbce09a"
+RPM_NAME = "python39-rpyc-5.3.0-2.5.noarch.rpm"
+RPM_HASH = "3162fcd8a212db21914afcff370979a033223d127d9a36ed5000960e2615970f872114e136a923688c33a6a031132feccfa6024cc227097e35916969d570889f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-rpyc \
 python39-rpyc \
 python3dist-rpyc"
 
-RDEPENDS:${PN} += "/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
 /usr/bin/python3.9 \
 /usr/bin/sh \
 python-abi \

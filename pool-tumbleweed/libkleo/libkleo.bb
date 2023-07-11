@@ -3,10 +3,10 @@ DESCRIPTION = "libkleo is a library used by KDE PIM applications to handle crypt
 and certificate management."
 LICENSE = "GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libkleo-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "92ab394a0bc3e6cbe86dc2bcdb6d73087675e9149daa26721731b6755d787b0595e8aa4673a2f10735b292fbba77defa60c2a955b0a023c27a39a27eb51c63ed"
+RPM_NAME = "libkleo-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "1ceb872ed6c895dad655b45a43c6333ea9818531548807d5984f171e767d079632872904c18f1c3f6973662cfc5c2fa361eabf1038b4dcb81b912a46be398f21"
 
 RPROVIDES:${PN} += "config-libkleo \
 libkleo"

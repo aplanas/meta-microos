@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.4.0"
 
-RPM_NAME = "nerdctl-1.4.0-1.1.aarch64.rpm"
-RPM_HASH = "2c06fd36943c4821190ef1ad664ead7547d5f89b2905d91b29c42e00350938e33a9909afedb28ce96fea358b62e49432b7ffb59fb2cc443fb14cb3821f03f4bb"
+RPM_NAME = "nerdctl-1.4.0-1.2.aarch64.rpm"
+RPM_HASH = "3b44e048b9fc8566fe860feb6a7149a27a53cd78e08bfb58fe4fe32d0dec3f18ad02ad432687820547d35e8723a0db096ff6b634575f2ebdc9b716bddc036d9f"
 
 RPROVIDES:${PN} += "nerdctl"
 

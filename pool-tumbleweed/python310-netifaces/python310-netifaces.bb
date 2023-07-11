@@ -14,11 +14,10 @@ LICENSE = "MIT"
 
 PV = "0.11.0"
 
-RPM_NAME = "python310-netifaces-0.11.0-2.1.aarch64.rpm"
-RPM_HASH = "64113b557775b8e3fce1d706fcf477071545a3d2268036facb286a26182ae8ef0d05aa6219ebdfc4fabae712dedcd58538837a789a27ffd80ce043e14a012116"
+RPM_NAME = "python310-netifaces-0.11.0-2.3.aarch64.rpm"
+RPM_HASH = "bc00eda1a83883101afbb4bdeb5e6f70cccc1cad2debf1ad9fb31f1ff36d0cc5f51e9d48f69d5fd3fc033ae9e17fbf91ce46a2becba026d0c105dea8d63c5101"
 
-RPROVIDES:${PN} += "python3-netifaces \
-python3.10dist-netifaces \
+RPROVIDES:${PN} += "python3.10dist-netifaces \
 python310-netifaces \
 python3dist-netifaces"
 

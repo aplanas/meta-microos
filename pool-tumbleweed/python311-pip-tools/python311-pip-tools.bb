@@ -2,13 +2,14 @@ SUMMARY = "Tool to keep pinned dependencies up to date"
 DESCRIPTION = "pip-tools keeps pinned dependencies inside a project up to date."
 LICENSE = "BSD-3-Clause"
 
-PV = "6.12.2"
+PV = "6.13.0"
 
-RPM_NAME = "python311-pip-tools-6.12.2-1.2.noarch.rpm"
-RPM_HASH = "0541d7a549c7b1c74ffaf21ce3e037af24c500f86a91c31483187f94bbfb4b17d7a702fe78639c48b60fee3eedc5033f2acf11ef5ee3500c1a971393c231a5fc"
+RPM_NAME = "python311-pip-tools-6.13.0-1.1.noarch.rpm"
+RPM_HASH = "73c53b8581b5b26970060956c91fc1c9384b2343952ae362cded8050b3698fc2cbff4272ffb94f74c253485ce65328240fd42ed5868e01aeb185bc1cdd29c25d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pip-tools \
+RPROVIDES:${PN} += "python3-pip-tools \
+python3.11dist-pip-tools \
 python311-pip-tools \
 python3dist-pip-tools"
 

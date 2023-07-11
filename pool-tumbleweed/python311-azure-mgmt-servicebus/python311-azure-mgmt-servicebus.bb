@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "8.2.0"
 
-RPM_NAME = "python311-azure-mgmt-servicebus-8.2.0-1.3.noarch.rpm"
-RPM_HASH = "8603f330cbc746d064b0eeece20aa81243af2b59b7f2250e33c420eb2195575bbc19c4b2bde3c941c21fa3d6895c037552fc6606ef1bbce976c7fc80a0304ed4"
+RPM_NAME = "python311-azure-mgmt-servicebus-8.2.0-1.4.noarch.rpm"
+RPM_HASH = "f18139df281b727eae3aeb78cfdd547c294a71507d70c892d2eafb2ed95c6e85b27905c7e438c5f538935e70eeca896f817cbcbdc31af4b94cd007fa9fdcf0df"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-servicebus \
+RPROVIDES:${PN} += "python3-azure-mgmt-servicebus \
+python3.11dist-azure-mgmt-servicebus \
 python311-azure-mgmt-servicebus \
 python3dist-azure-mgmt-servicebus"
 

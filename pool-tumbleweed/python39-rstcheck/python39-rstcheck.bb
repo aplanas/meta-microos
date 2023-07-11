@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "3.3.1"
 
-RPM_NAME = "python39-rstcheck-3.3.1-5.11.noarch.rpm"
-RPM_HASH = "874f3c04015068d5e9a2a230f9022d5f0683835e1ee0228f3ce0a1b65dbcaef37d0a8ebf2f9d412e172f9fd5c5881f6de5a3c9df4b88f7d87243c66e702eac8f"
+RPM_NAME = "python39-rstcheck-3.3.1-5.13.noarch.rpm"
+RPM_HASH = "3016054d8b05bc18f3fc0bbf2524a496a6cc95a176f08b70da1736ac869cba6a934c3b33f2a88f1fae155fbaa1b23c8e4b9a79296391562d912d60793b0fa325"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-rstcheck \

@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "3.2.0"
 
-RPM_NAME = "maven-plugin-build-helper-3.2.0-2.8.noarch.rpm"
-RPM_HASH = "ea90a56704801a9b0a8630c47c3bcd8781713a3ffaa76a4c3caca5e2f66ffcfcc8303130f507dcd1846d3c63b9102f5eb2d11c92c952befb175fe80ebd83b53a"
+RPM_NAME = "maven-plugin-build-helper-3.2.0-2.9.noarch.rpm"
+RPM_HASH = "6a70e1b21236101e717f2302f845756e763b7db579fa4cb7a19a7068d905989597156c6b6b3dcdd0743fe2feb28d68861aa1442c0d41724a7c5a76dcd111025a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-plugin-build-helper \

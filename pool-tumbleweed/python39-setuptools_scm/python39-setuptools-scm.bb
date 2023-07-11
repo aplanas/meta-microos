@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "7.1.0"
 
-RPM_NAME = "python39-setuptools_scm-7.1.0-1.1.noarch.rpm"
-RPM_HASH = "a15ec7dc73b0b714ca8329656dd968116a84457221dd7d66e424e05d8259a49f837a38b4725891b452bab5179f8a7d588854351e7c961aa7cf142c0055b72e52"
+RPM_NAME = "python39-setuptools_scm-7.1.0-1.3.noarch.rpm"
+RPM_HASH = "3e9306960040c50ee7a21e77cf87ae4f09fa0b057a8c77f35acb47c69b00eeffed5cd79a9ab7270c9bff195b4f2cb40fb97dcc863aa2566411d3221dac8cf675"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-setuptools-scm \

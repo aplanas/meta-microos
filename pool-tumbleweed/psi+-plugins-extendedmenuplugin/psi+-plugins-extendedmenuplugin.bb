@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-or-later"
 
 PV = "1.5.1615+0"
 
-RPM_NAME = "psi+-plugins-extendedmenuplugin-1.5.1615+0-3.1.aarch64.rpm"
-RPM_HASH = "969caf1ba02e263d6be403b21130e1184786c758adb70db3fc1cf5812509f82f8456678eec65d14bed834acc886ae059cd76c4d05b28f90dc709624dcae5812b"
+RPM_NAME = "psi+-plugins-extendedmenuplugin-1.5.1615+0-3.2.aarch64.rpm"
+RPM_HASH = "2dab9d1c790480ea0bcd92f0bda59081dca6def00e18753fd9cd1c7f076d6f01b25ba1e39a88c08522240ec790ac9437ad4e4b39dd70314cacf6326690441684"
 
 RPROVIDES:${PN} += "libextendedmenuplugin.so \
 psi+-plugins-extendedmenuplugin"

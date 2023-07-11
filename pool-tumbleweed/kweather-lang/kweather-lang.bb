@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kweather"
 DESCRIPTION = "Provides translations for the 'kweather' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kweather-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "1ca9bb7e1c664a85f1b053e5d8d698aeb05a8b6830ce231dcc8bbc34d14af0d184181586f762cee78867636a01f0113d9aeb83e0af5ee54d705280f8d73ca622"
+RPM_NAME = "kweather-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "de6328002ceef29c901c4dd7d306fa6b4b8f801c6f3d9a7aaf9eda3b24b4e45b5f589c658a26d057591bd520b2cc79650da64626d341a548452fdf1110da2886"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kweather-lang \
@@ -22,6 +22,7 @@ locale-kweather-et \
 locale-kweather-eu \
 locale-kweather-fi \
 locale-kweather-fr \
+locale-kweather-gl \
 locale-kweather-is \
 locale-kweather-it \
 locale-kweather-ja \

@@ -5,12 +5,11 @@ LICENSE = "Apache-2.0"
 
 PV = "3.0.0"
 
-RPM_NAME = "python310-blockdiag-3.0.0-2.1.noarch.rpm"
-RPM_HASH = "4429a5b4bc1cd389a306a96c0d61d7da1a08479e66fad1b9317070f69a6f63936fd6dadb684965138444d5cc7a2687b502c91c454c1eaa87682777055c19205a"
+RPM_NAME = "python310-blockdiag-3.0.0-2.3.noarch.rpm"
+RPM_HASH = "beea220fdec9fc0704cbe14611400132265e7a160c0c1d147b87a7046ba2194102ed802074dc9b5fa67be5442839425daea85fc44e72da0a1bf5be2a729e86f0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-blockdiag \
-python3.10dist-blockdiag \
+RPROVIDES:${PN} += "python3.10dist-blockdiag \
 python310-blockdiag \
 python3dist-blockdiag"
 

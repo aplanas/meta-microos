@@ -3,10 +3,10 @@ DESCRIPTION = "A CLI tool that parses and manipulates URLs, designed to help \
 shell script authors everywhere."
 LICENSE = "MIT"
 
-PV = "0.6"
+PV = "0.8"
 
-RPM_NAME = "trurl-0.6-1.1.aarch64.rpm"
-RPM_HASH = "26de98f9212c2ee67ef2456a4ba5123dc08907fca097d02d6c73edd57bff14e1ddfe136c8a57c1e228b4cde90cf14597ba6e00031bc20ea03f9b3448651b5f3f"
+RPM_NAME = "trurl-0.8-1.1.aarch64.rpm"
+RPM_HASH = "4718d9d3c8f42ace4fecdccf0ec5a23a13c6783f5bb11fbb4b11d3a9732c6863ebf9eae2b27af8e9111cf4a417990551c4924fb19f2eb4a89dee4ffbb02599d6"
 
 RPROVIDES:${PN} += "trurl"
 

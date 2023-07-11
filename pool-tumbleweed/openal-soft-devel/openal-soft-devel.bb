@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.22.2"
 
-RPM_NAME = "openal-soft-devel-1.22.2-1.4.aarch64.rpm"
-RPM_HASH = "7df9c7323f5380773486e62b981aeb289cd7f450b38f122de974bcd6ef33e9ccca9215e4caa2a1a2d7615d17b83fe4fd71df3627ef5118bac2c39ec0baa04ac1"
+RPM_NAME = "openal-soft-devel-1.22.2-1.5.aarch64.rpm"
+RPM_HASH = "b36b474784a49140cc879d60b66191b45d8fb10af01b68f24796a7adbb51a4a5cbcff5e18216957363c81a1a68bc42dc25a9dabaa1d22344cf1276033e4c35da"
 
 RPROVIDES:${PN} += "cmake-OpenAL \
 openal-devel \

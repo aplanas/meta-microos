@@ -5,11 +5,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.1.5"
 
-RPM_NAME = "python311-sphinxcontrib-serializinghtml-1.1.5-2.1.noarch.rpm"
-RPM_HASH = "222e39e88bdc8eb35e9068bcba2d204e94e37bfe0a954a5290001a584cb1d1bf6d159ef97f751b123b1d8ac3d8cf69206f6c132cc0082ff04e37b584d4106785"
+RPM_NAME = "python311-sphinxcontrib-serializinghtml-1.1.5-2.2.noarch.rpm"
+RPM_HASH = "12db2fbe1f7b1c00e2eabfa28c6e774d0abaa394225a0942c9fd1f1fee1a7399e7f6ec5f4f8f32d94899796fcc8a9a8c62106af2628b4cfcc5d208f9bd39e91b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-sphinxcontrib-serializinghtml \
+RPROVIDES:${PN} += "python3-sphinxcontrib-serializinghtml \
+python3.11dist-sphinxcontrib-serializinghtml \
 python311-sphinxcontrib-serializinghtml \
 python3dist-sphinxcontrib-serializinghtml"
 

@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.242"
 
-RPM_NAME = "python311-duckduckgo2-0.242-3.13.noarch.rpm"
-RPM_HASH = "64a52231318d4ce6534696a50f6278e2bb978486ab29e48126fef06dea6f946fa22ee20c02f7124f86dd23707895699bdd7efbba213a8eee6a7cd3a8691246e0"
+RPM_NAME = "python311-duckduckgo2-0.242-3.14.noarch.rpm"
+RPM_HASH = "4d71f429e29f7e83af259a89c6bbb9d7ee5c15f3202a8354a19659c907535bc63e5ce1a453f32fc3a0f7de8fdb244188e5478c95e0c3c96c682642938578c415"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-duckduckgo2 \
+RPROVIDES:${PN} += "python3-duckduckgo2 \
+python3.11dist-duckduckgo2 \
 python311-duckduckgo2 \
 python3dist-duckduckgo2"
 

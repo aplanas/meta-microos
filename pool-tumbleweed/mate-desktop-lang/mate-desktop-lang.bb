@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
 PV = "1.26.1"
 
-RPM_NAME = "mate-desktop-lang-1.26.1-1.1.noarch.rpm"
-RPM_HASH = "5927723f7f0e717d2caff9b073f8b817a07e41ebb8345d1af4242505cca456b3a6ae5efdc677f6474d2e15b383a9d0f9a54aadbf9f90dacedda730ebc0d4a776"
+RPM_NAME = "mate-desktop-lang-1.26.1-1.2.noarch.rpm"
+RPM_HASH = "be3c4a83a7ecac5f82c164cce210551daa9ad28d801ba4435034f0824eaa823700a3eca5f1a83d6859374864b1b6f2511ddb0cb8bb6792a286567a3bb8246536"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mate-desktop-af \

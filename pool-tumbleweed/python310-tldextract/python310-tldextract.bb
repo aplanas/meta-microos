@@ -8,12 +8,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.4.4"
 
-RPM_NAME = "python310-tldextract-3.4.4-1.1.noarch.rpm"
-RPM_HASH = "e6b1e9cf762a48d9ecddabb34914245ed3a9cb2b9f015f7aa405e9cd620897a40c09ad6bfa8f5feaf83aa78dbb2009a3fe5771cbfdb40269143c1ad43d6dcbfe"
+RPM_NAME = "python310-tldextract-3.4.4-2.1.noarch.rpm"
+RPM_HASH = "5bbdf65565fd487ec13553880f44a29c6e7d4cb74c380c2e70deca27417c22a5a0bb54b5ef463727053f4e7106f648c8ef708abe796caf4f3fc82b08fa9ddb75"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-tldextract \
-python3.10dist-tldextract \
+RPROVIDES:${PN} += "python3.10dist-tldextract \
 python310-tldextract \
 python3dist-tldextract"
 

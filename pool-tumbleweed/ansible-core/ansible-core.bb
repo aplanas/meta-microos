@@ -5,15 +5,15 @@ ad-hoc task execution, network automation, and multi-node orchestration. Ansible
 changes like zero-downtime rolling updates with load balancers easy. More information on the Ansible `website <https://ansible.com/>`_."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.15.0"
+PV = "2.15.1"
 
-RPM_NAME = "ansible-core-2.15.0-1.1.noarch.rpm"
-RPM_HASH = "abb22a814a9ee3c1f5fa0ac40c73f95c0f55f006aa8e2dc9ea042887c8f027161a210066f9ca44a81a65ea32406b784c7b7dabe79adc00332d0dba731eb90d05"
+RPM_NAME = "ansible-core-2.15.1-1.1.noarch.rpm"
+RPM_HASH = "87bc107c91bd509bf8908e4b39c1fb3594270e004db7894871bffbfed5cd89a157cda2e17011efbf16c6d8ef8d0e2c2f422c1049f3805fb6aa2717c944022d52"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ansible-core \
 config-ansible-core \
-python3.10dist-ansible-core \
+python3.11dist-ansible-core \
 python3dist-ansible-core"
 
 RDEPENDS:${PN} += "-python3-resolvelib >= 0.5.3 with python3-resolvelib < 1.1.0 \

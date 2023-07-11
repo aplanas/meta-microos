@@ -2,10 +2,10 @@ SUMMARY = "Tsonga localization files for LibreOffice"
 DESCRIPTION = "Provides Tsonga translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.1"
+PV = "7.5.4.2"
 
-RPM_NAME = "libreoffice-l10n-ts-7.5.4.1-1.1.noarch.rpm"
-RPM_HASH = "b1b97f2c03e5cd575849f7c7b641a22ae7e9af6ef22059948cd09b87c997e75eef57916ab1c78dfe22a24f9c52788e10a2d0bb4b5b7e82a5ce3087bc70c4bd12"
+RPM_NAME = "libreoffice-l10n-ts-7.5.4.2-1.3.noarch.rpm"
+RPM_HASH = "066480b7650a81b8e25dffdfb24cf5da02c2f711c43ac4aeff79a7e415741f1a9288cdf62995b77c65f185b2ed41d0d4d6bb7d10279701941db73ae546826bdb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-ts \

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later-with-WxWindows-exception-3.1"
 
 PV = "3.1.0.0+42"
 
-RPM_NAME = "wxlua-devel-3.1.0.0+42-2.2.aarch64.rpm"
-RPM_HASH = "38661df64fcafd445ea92c4419a65ca762858a17b36ee44e294d6c3e0c8bd64386991d9b49bd3d40e89017a3bcd9b791e72e3486e3cc3f0c576d80803a0df1ab"
+RPM_NAME = "wxlua-devel-3.1.0.0+42-2.3.aarch64.rpm"
+RPM_HASH = "0422cd371ffe503a2f1a30d9317ed4f8d8aa5d1c44a42d21a4334b4f9d9f9346725e3e75a64de8dba2c12c7e9cd946f52ea9eb34b4d16fcf2e71d4ccf8637ea7"
 
 RPROVIDES:${PN} += "wxlua-devel"
 

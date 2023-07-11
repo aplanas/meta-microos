@@ -6,17 +6,17 @@ such as Rubinius and JRuby as well as as providing process worker support to \
 support CRuby well."
 LICENSE = "BSD-3-Clause"
 
-PV = "6.0.0"
+PV = "6.2.2"
 
-RPM_NAME = "ruby3.2-rubygem-puma-6.0.0-2.1.aarch64.rpm"
-RPM_HASH = "868a6bdb217874039f0172137be494649c8694754bcb80f889280799eaa5cf45b1fa28b8c262d1191856fb2a2f403f8f5e9466cf9c8bebfb088f89071213c48d"
+RPM_NAME = "ruby3.2-rubygem-puma-6.2.2-1.1.aarch64.rpm"
+RPM_HASH = "b844db4ffc3aeb673549002b9408469a4df5c58b300eaea231f98f70b54f96df9ebe20254d057751c208b27da1af6e2c1a7db5ac6134b4d2e3df33c2bab1afd9"
 
 RPROVIDES:${PN} += "ruby3.2-rubygem-puma \
 rubygem-puma \
 rubygem-ruby-3.2.0-puma \
 rubygem-ruby-3.2.0-puma-6 \
-rubygem-ruby-3.2.0-puma-6.0 \
-rubygem-ruby-3.2.0-puma-6.0.0"
+rubygem-ruby-3.2.0-puma-6.2 \
+rubygem-ruby-3.2.0-puma-6.2.2"
 
 RDEPENDS:${PN} += "/usr/bin/ruby.ruby3.2 \
 /usr/bin/sh \

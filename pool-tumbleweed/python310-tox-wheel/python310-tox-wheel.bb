@@ -4,12 +4,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.0.0"
 
-RPM_NAME = "python310-tox-wheel-1.0.0-1.3.noarch.rpm"
-RPM_HASH = "944dc90bab8343d40c7a75e4d45db29cfa256a945861e3357315e4420ac96deb17d1dd3de9cd14e8d613ebcfe55aff4e155c1b87794702fc3dddc9b58f85261d"
+RPM_NAME = "python310-tox-wheel-1.0.0-1.5.noarch.rpm"
+RPM_HASH = "5ef868a952aacdc191dde9d0852bf71c51b33e80efa70169d2fcd73e491847649158f7f24eaf34b2a57a3a9e907331339946cb9d70931c574902a97fbfd426ff"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-tox-wheel \
-python3.10dist-tox-wheel \
+RPROVIDES:${PN} += "python3.10dist-tox-wheel \
 python310-tox-wheel \
 python3dist-tox-wheel"
 

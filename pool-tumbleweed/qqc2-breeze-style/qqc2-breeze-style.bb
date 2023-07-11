@@ -3,10 +3,10 @@ DESCRIPTION = "A Qt Quick Controls 2 style engine that uses the desktop style \
 to draw controls with QStyle."
 LICENSE = "LGPL-2.1-only | LGPL-3.0-only"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "qqc2-breeze-style-5.27.5-1.1.aarch64.rpm"
-RPM_HASH = "aecb0574fb39aa454ed3085268ccc2587af8efd99ed37021a71555b2de56cf0f4ec61a39cd04e7e50245bb2a7be26a324012d9dc77cf6b7e7829e0c3535c7cbb"
+RPM_NAME = "qqc2-breeze-style-5.27.6-1.1.aarch64.rpm"
+RPM_HASH = "bac917d22609c6d6caa74f0e2359ed293ba7eec621d2761d8bdd38242719686857acc50d05a2d52dba398f0dfac5b457711a29a9335f82fa4cb390c92178783d"
 
 RPROVIDES:${PN} += "libqqc2breezestyleplugin.so \
 qqc2-breeze-style \

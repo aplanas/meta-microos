@@ -10,12 +10,12 @@ LICENSE = "MIT"
 
 PV = "1.6.0"
 
-RPM_NAME = "python3-coconut-1.6.0-1.4.noarch.rpm"
-RPM_HASH = "18a4dffbb3b0331137e369b4d35146e553250c26dce885fdc24f08c09109b67b05f9d1bcb61339724891833cb7773238f09a5aec80c5e1607a463921a13c589b"
+RPM_NAME = "python3-coconut-1.6.0-1.5.noarch.rpm"
+RPM_HASH = "bc1a70fc89d1644abb3eddbced41d7e3c4b7160633f87be79492f98c81ddf497145d276928715b387a7e9fb5a8101fe1bc14d52c6435b0c6705e0127fc3f1b9b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-coconut \
-python3.10dist-coconut \
+python3.11dist-coconut \
 python3dist-coconut"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

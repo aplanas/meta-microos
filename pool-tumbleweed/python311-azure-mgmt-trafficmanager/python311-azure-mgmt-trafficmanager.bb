@@ -7,13 +7,14 @@ replace the old Azure Service Management (ASM). \
 This package has been tested with Python 2.7, 3.4, 3.5, 3.6 and 3.7."
 LICENSE = "MIT"
 
-PV = "1.0.0"
+PV = "1.1.0"
 
-RPM_NAME = "python311-azure-mgmt-trafficmanager-1.0.0-1.6.noarch.rpm"
-RPM_HASH = "95bdcfd530c4a7ab23cb73a7c3bce24a94e8bb4f444e76a648d896f716262af1e49bbbae8da1b6cf9e7745033c0bd8efa1f2acf502055997cfbe2a2c66716ff5"
+RPM_NAME = "python311-azure-mgmt-trafficmanager-1.1.0-1.1.noarch.rpm"
+RPM_HASH = "d50d66fa5da6979b9dbf6eb29be392aeb4ff770b2eccc4d8e770a96d79c8b1f08f331ffa96c15156cb9166011d0884700a21b955a8e33046e39b8e62656b12f2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-trafficmanager \
+RPROVIDES:${PN} += "python3-azure-mgmt-trafficmanager \
+python3.11dist-azure-mgmt-trafficmanager \
 python311-azure-mgmt-trafficmanager \
 python3dist-azure-mgmt-trafficmanager"
 
@@ -22,6 +23,6 @@ python311-azure-common \
 python311-azure-mgmt-core \
 python311-azure-mgmt-nspkg \
 python311-azure-nspkg \
-python311-msrest"
+python311-isodate"
 
 inherit rpm

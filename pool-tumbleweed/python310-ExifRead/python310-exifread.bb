@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.0.0"
 
-RPM_NAME = "python310-ExifRead-3.0.0-1.5.noarch.rpm"
-RPM_HASH = "bc5311e53394ce8c5849a86763518cd69056a33f3e2583184f6f5ffc200d4a78e537c4cc008d89b7e43d7b01500dd613c236714d853d70ea31585d6e1f95970f"
+RPM_NAME = "python310-ExifRead-3.0.0-1.6.noarch.rpm"
+RPM_HASH = "92a25044660c20e175011322feea33d184a1f68ead5b7630dd70bd42ef3661f442c7d2a0a5ddcabc6352d3cdd32c3b6cd8215ed8770abad7e3d212841fcd7e84"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-ExifRead \
-python3.10dist-exifread \
+RPROVIDES:${PN} += "python3.10dist-exifread \
 python310-ExifRead \
 python3dist-exifread"
 

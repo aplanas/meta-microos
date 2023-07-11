@@ -4,10 +4,10 @@ You should BuildRequire this package unless you are sure that you \
 are only building for distros newer than Leap 42.2"
 LICENSE = "WTFPL"
 
-PV = "20230403.29b58f8"
+PV = "20230609.6fe8111"
 
-RPM_NAME = "python-rpm-macros-20230403.29b58f8-1.1.noarch.rpm"
-RPM_HASH = "0ddf9e362591af3834a24e705c711c9a28fc71ad0d2b1effeab8b098f45d871d31cc6912ec76509bd802ec434139afdc87123cbbc06a2614bd8ac42b28903dc2"
+RPM_NAME = "python-rpm-macros-20230609.6fe8111-2.1.noarch.rpm"
+RPM_HASH = "a4c50bf20914ca5dc7c61e9906a9649ca26716de53600b2f91c575882844950a9cfaaa7207c4efa705fef702d22ad7c635198cdab0788e8dece61c15fffc842a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-rpm-macros \

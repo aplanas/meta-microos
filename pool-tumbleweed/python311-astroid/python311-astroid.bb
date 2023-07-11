@@ -14,11 +14,12 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.15.5"
 
-RPM_NAME = "python311-astroid-2.15.5-1.1.noarch.rpm"
-RPM_HASH = "2ca455a0192976ad73f11f413c4371eb6864b84ead21ca491ea8ba4eaefda447e32ddf9ca731733e3f8719ca153bf366b05681d8ac45e543c3f5cd965d88f515"
+RPM_NAME = "python311-astroid-2.15.5-1.3.noarch.rpm"
+RPM_HASH = "ad80211efd90ea2eb83ab90b91d4b03e022dfc6542b5675e06dc5aa9d1ac3b7aa8fe66f6404f63e9d73a06ea86e45e3c21b579701938a1f72a00f784b8ba9e72"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-astroid \
+RPROVIDES:${PN} += "python3-astroid \
+python3.11dist-astroid \
 python311-astroid \
 python3dist-astroid"
 

@@ -5,10 +5,10 @@ parses your Lua codebase, and prints it back out from scratch, enforcing a \
 consistent code style."
 LICENSE = "(Apache-2.0 | MIT) & Unicode-DFS-2016 & (Apache-2.0 | BSL-1.0) & (Apache-2.0 | MIT) & (MIT | Unlicense) & Apache-2.0 & MIT & MPL-2.0 & MPL-2.0"
 
-PV = "0.17.0"
+PV = "0.18.0"
 
-RPM_NAME = "StyLua-0.17.0-1.1.aarch64.rpm"
-RPM_HASH = "78ebde7cd85def1fea4540d0d1a8bd9ca2e4db53590d6d7f7335579ce6c02eb6ccf275b72d6b37744286428cc07d30fdd3620573a5c1bd672b8174582d551a50"
+RPM_NAME = "StyLua-0.18.0-1.1.aarch64.rpm"
+RPM_HASH = "2b7d9d25766234e77aa7bbad06d931d76620614b5eb7147ae3be7810e2a20b73ac1972efa8992c4f4258452576f662a3b813d2f984b747a6e90a74d640820152"
 
 RPROVIDES:${PN} += "StyLua \
 bundled-rust-crate-aho-corasick \
@@ -49,10 +49,8 @@ bundled-rust-crate-num-cpus \
 bundled-rust-crate-once-cell \
 bundled-rust-crate-os-str-bytes \
 bundled-rust-crate-paste \
-bundled-rust-crate-paste-impl \
 bundled-rust-crate-proc-macro-error \
 bundled-rust-crate-proc-macro-error-attr \
-bundled-rust-crate-proc-macro-hack \
 bundled-rust-crate-proc-macro2 \
 bundled-rust-crate-quote \
 bundled-rust-crate-regex \

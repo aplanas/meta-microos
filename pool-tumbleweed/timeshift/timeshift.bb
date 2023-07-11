@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "22.11.2"
 
-RPM_NAME = "timeshift-22.11.2-1.3.aarch64.rpm"
-RPM_HASH = "8ac2fa91672bc78f5ee7f96ef2673d4077f431dfe23af444520805d43087ea44eb0ad727f2c97b9c5ec486c26e6e35ccb91fcd42267f2a23b6757e9483c7060a"
+RPM_NAME = "timeshift-22.11.2-1.4.aarch64.rpm"
+RPM_HASH = "d27b70ceafc7d1ee272dce35317c89691be50811740baefbb259ef0b172c8ae09f5b038c3c26ff6272537fbb5adc3c0cbdf9a4e11d8824577dff90a558c064d0"
 
 RPROVIDES:${PN} += "config-timeshift \
 timeshift"

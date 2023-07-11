@@ -3,10 +3,10 @@ DESCRIPTION = "D-Bus is a message bus system, The dbus-common package provides t
 implementations to provide a System and User Message Bus."
 LICENSE = "AFL-2.1 | GPL-2.0-or-later"
 
-PV = "1.14.6"
+PV = "1.14.8"
 
-RPM_NAME = "dbus-1-common-1.14.6-2.3.noarch.rpm"
-RPM_HASH = "e0b7e6fdaf5e69b09252b4295636cf75530f655899b1d093941049a1877872120106bd1d910b701d1ab966d2fee2e0c22be48f57db2bf89bd5c990f68582e121"
+RPM_NAME = "dbus-1-common-1.14.8-1.1.noarch.rpm"
+RPM_HASH = "87485a900b18a04e0485d7374355dd6102aa362f689dedcf48500542ce28cc2a8cf497fbc118260ea96a18bae275875238089c6c8d4b55a936d07e23347aee01"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-dbus-1-common \

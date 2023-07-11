@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "2.4"
 
-RPM_NAME = "python310-xmldiff-2.4-4.4.noarch.rpm"
-RPM_HASH = "9a407f52e415e361dd4ff21d752737a1ef790f4db6b2a259aed21f94c29f90490c0061495f9734c741f3ed85f7c528850a036e4b7b8bba65cdebac35af6590f3"
+RPM_NAME = "python310-xmldiff-2.4-4.6.noarch.rpm"
+RPM_HASH = "be146ae56419d34966b142a12aeb23a66d1f939db878956590452820402d0f352525d97f348623f4f8279c36a9adfacc45288743c13bc9f35c3b194a89010bfa"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-xmldiff \
-python3.10dist-xmldiff \
+RPROVIDES:${PN} += "python3.10dist-xmldiff \
 python310-xmldiff \
 python3dist-xmldiff"
 

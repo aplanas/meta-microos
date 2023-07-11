@@ -9,12 +9,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.9.5"
 
-RPM_NAME = "python310-unyt-2.9.5-1.1.noarch.rpm"
-RPM_HASH = "04a3c95c57cb5718b1479781026d42cdf33992305d85f28e4c1e44e153a0fdb2bafb42c8dfb4bca567f4ab414a50d1a5cf32f420a337074aa23e5bc7b450f67d"
+RPM_NAME = "python310-unyt-2.9.5-1.3.noarch.rpm"
+RPM_HASH = "d692574748cc5a2de034be0aebf80064ae915cf15101cb704b72fa9682640a41d192a97640fb49cffc8338d1ab3ef98d2c1928c714b4012fb1553d37f2a2e67b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-unyt \
-python3.10dist-unyt \
+RPROVIDES:${PN} += "python3.10dist-unyt \
 python310-unyt \
 python3dist-unyt"
 

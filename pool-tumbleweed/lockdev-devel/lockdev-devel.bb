@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "1.0.3_git201003141408"
 
-RPM_NAME = "lockdev-devel-1.0.3_git201003141408-31.20.aarch64.rpm"
-RPM_HASH = "e81e59cf5a518d17868841485a1b390ab71e16803ac844e5afc77a1fc8b7a64e06e06c8419cedabb4f48874af202b90d2acb9edf7b6b5a8b2bc4d1bd2c3ccd85"
+RPM_NAME = "lockdev-devel-1.0.3_git201003141408-32.1.aarch64.rpm"
+RPM_HASH = "e0f89dd1f85fbfc0115f96e769cecf78ef01abda1ebe79b5c425da43a81110a57c073322c876cbdecb730786d97988eeb9891464f630d3713922a386b2f31c4f"
 
 RPROVIDES:${PN} += "lockdev-devel \
 pkgconfig-lockdev"

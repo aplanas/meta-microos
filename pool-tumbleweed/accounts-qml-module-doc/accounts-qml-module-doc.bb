@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.7"
 
-RPM_NAME = "accounts-qml-module-doc-0.7-2.14.noarch.rpm"
-RPM_HASH = "b68c80b18c40a039b2fb8a1a5d35f7ed7151bfd0cc93a01957ade2e0a997c4d9dcc295d993c6584e03bd8ee2b18275be84208391ecb2ab6bf1023d0c7ea46821"
+RPM_NAME = "accounts-qml-module-doc-0.7-2.15.noarch.rpm"
+RPM_HASH = "77a298672dbd366c40bf8de11f736b9a15c810c01cb7785a81aabeffbc2a88c2930a10807271294089d431e6f101a5673f166a476441b5cc773ba8646e54339b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "accounts-qml-module-doc"

@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.3.2+cvs20070731"
 
-RPM_NAME = "smilutils-0.3.2+cvs20070731-22.14.aarch64.rpm"
-RPM_HASH = "f613a6981f8b490376db2f48dca80f3f7863c43d71801b3fbe24cc97c6b3e0ab5be0fbfb1941795cb52116326fb0e4392785d962f27d4a84b00cd4d424d55e35"
+RPM_NAME = "smilutils-0.3.2+cvs20070731-22.15.aarch64.rpm"
+RPM_HASH = "45d34d8cc3eb0ca9a2ff8bb5732c08107aabe59bc7a4b00f0e2d0ea3d3d49cc6ffb8eb76fd31498805f3da95909c0c93220da297a16d022ec975c3d4500ec649"
 
 RPROVIDES:${PN} += "libkinoextensions.so.0 \
 libkinolegacy.so.0 \

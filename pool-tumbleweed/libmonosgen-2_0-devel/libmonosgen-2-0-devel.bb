@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "6.12.0"
 
-RPM_NAME = "libmonosgen-2_0-devel-6.12.0-5.3.aarch64.rpm"
-RPM_HASH = "b0b431c455fca4620b376918c141e2aaa9ab1319b792610114433587312851efa9f42a44d9850b43460dcba0214f04ce0b4c80e6dfaba45865eb4acd4ebb9b8e"
+RPM_NAME = "libmonosgen-2_0-devel-6.12.0-5.4.aarch64.rpm"
+RPM_HASH = "50eedb3a7081a3138a78112da6ca3657cb6315289987fc76b58f037fe6d2fedf140519bb62ebfd80c3a9f622cf31e69c4d67749d725d5dbeed585f428e38682d"
 
 RPROVIDES:${PN} += "libmonosgen-2-0-devel \
 pkgconfig-monosgen-2"

@@ -8,16 +8,16 @@ timers. \
 other related modules (Time::HiRes, Mojolicious, EV, etc.)."
 LICENSE = "MIT"
 
-PV = "0.1.7"
+PV = "0.2.0"
 
-RPM_NAME = "perl-Test-Mock-Time-0.1.7-1.18.noarch.rpm"
-RPM_HASH = "c6ac8be2ec172f2c038be943dd1badc66f1608e65e1814bd887d69fbdadca90a3723abff0667b0e47111b32b1c15de094ac85ee24033d6c9d59f744c6a2feaef"
+RPM_NAME = "perl-Test-Mock-Time-0.2.0-1.1.noarch.rpm"
+RPM_HASH = "ae462074421e694257719c02685d890eb65d5e4ddcd9b504421ac5adebb9ced132dfc769afdfede8bba76a36295cfcbcc007b459fc59a1bac27b4be97c97ab32"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Mock--Time \
 perl-Test-Mock-Time"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Export--Attrs \
 perl-List--Util \
 perl-Test--MockModule"

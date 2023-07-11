@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "eog-plugin-map-44.0-1.1.aarch64.rpm"
-RPM_HASH = "f389990d4234d522a653055ec632edba19015e8d6c50dd6279d0daa2e9e0346d6b2331452d6c88b327937bfec6607fdd61fd53f3b9a603f98a9968a13c9be1e0"
+RPM_NAME = "eog-plugin-map-44.0-1.2.aarch64.rpm"
+RPM_HASH = "4b27d54906b2cc06d7441903d76d2ef41d9f6f1f64efe88c782cf70830530c72915ee8213acd381312334ef074051a70da9775c634a09d4f002dfc02fccf5e57"
 
 RPROVIDES:${PN} += "eog-plugin-map \
 eog-plugins-/usr/lib64/eog/plugins/map.plugin \

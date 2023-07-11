@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.2.0"
 
-RPM_NAME = "libKUserFeedbackWidgets1-1.2.0-1.14.aarch64.rpm"
-RPM_HASH = "ea20b828ef65af362fc87989d75e71426905790e0d63fe5cda7e9efff0fff0dff17ed0a7d81d8e98d15dc7fe9383b937f429a508f12fbe5ed2b2c42d157cfe7d"
+RPM_NAME = "libKUserFeedbackWidgets1-1.2.0-1.15.aarch64.rpm"
+RPM_HASH = "30f938c5c3e1d700df3798431015a2096bf999dc8df8e6f9fa5a3354a2be9f109c725de1b2e6106eeeb5a2de3ae77143dbc846368fc3db42f91ca83b4c2f20e7"
 
 RPROVIDES:${PN} += "libKUserFeedbackWidgets.so.1 \
 libKUserFeedbackWidgets1"

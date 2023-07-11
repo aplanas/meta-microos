@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "2.1.0"
 
-RPM_NAME = "python311-gscholar-2.1.0-1.4.noarch.rpm"
-RPM_HASH = "ebe6d87994748a84f02eea16297e6bb69c8922ceac683d4b6beece8d285e13ef04e59d9b7b1988d25b2182121923eb344f92b7a73bc28c280122513dced8b2f1"
+RPM_NAME = "python311-gscholar-2.1.0-1.6.noarch.rpm"
+RPM_HASH = "c48b28e4fe0e9e92345e13d294520500761cb7e2beb7fdad2a7d99b7776b1f80d07b5799daa213fceecb39e8981be2ec8257ace025030e066f55de34e6fb33d5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-gscholar \
+RPROVIDES:${PN} += "python3-gscholar \
+python3.11dist-gscholar \
 python311-gscholar \
 python3dist-gscholar"
 

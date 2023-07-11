@@ -1,16 +1,16 @@
-SUMMARY = "Network Link Manager and user applications for it"
+SUMMARY = "Standard Linux network configuration tool suite"
 DESCRIPTION = "NetworkManager attempts to keep an active network connection available \
-at all times.  The point of NetworkManager is to make networking \
-configuration and setup as painless and automatic as possible.	If \
+at all times. The point of NetworkManager is to make networking \
+configuration and setup as painless and automatic as possible. If \
 using DHCP, NetworkManager is intended to replace default routes, \
 obtain IP addresses from a DHCP server, and change name servers \
 whenever it sees fit."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.42.6"
+PV = "1.42.8"
 
-RPM_NAME = "NetworkManager-1.42.6-2.1.aarch64.rpm"
-RPM_HASH = "d18bedb438a15f3f549fbb1405aff1c36fa43871aa14f1aab9b328f13bd37d63eb804953b8f9244ce0dba22585e8d091d18926982ab4d80bf30c238381d81828"
+RPM_NAME = "NetworkManager-1.42.8-1.1.aarch64.rpm"
+RPM_HASH = "587bcbf45a73744a9915755e6cd10f5b90580be0cdc662f7517775a1620d5d66c45547a34420c11ba18c7d13735a13d2c35f7bf1cc81b60489145286ac158a0d"
 
 RPROVIDES:${PN} += "NetworkManager \
 NetworkManager-wifi \

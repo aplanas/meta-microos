@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "3.1.0"
 
-RPM_NAME = "python39-azure-mgmt-datafactory-3.1.0-1.2.noarch.rpm"
-RPM_HASH = "8a53c7d2418d0976029fcdd51307fa81caeb17c2c70f0a14f4ba67de6a3c4bc9052eccc03733b2b28aebee2a949e4ef71986f905abac39863d095c5f018898f1"
+RPM_NAME = "python39-azure-mgmt-datafactory-3.1.0-1.3.noarch.rpm"
+RPM_HASH = "18c9e0fb2c1100ea884a0e41ae69f26521a8810acb6a62f1cc7679ce1c559c812baad6f6c7f3e10c1467985cde8142b50a103d3a45a55c0ef07f66a53420970f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-datafactory \

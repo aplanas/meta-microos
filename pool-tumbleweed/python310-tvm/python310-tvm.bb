@@ -4,12 +4,11 @@ LICENSE = "Apache-2.0"
 
 PV = "0.11.0"
 
-RPM_NAME = "python310-tvm-0.11.0-2.6.aarch64.rpm"
-RPM_HASH = "1d61d51b3d990f86762ebee7898eb5405a3e1997f3dc533881d4037c8f63002fe36469748c29c1afb0c8cf7ef48377d95a927a55d8574045cd306702d91bdab7"
+RPM_NAME = "python310-tvm-0.11.0-2.7.aarch64.rpm"
+RPM_HASH = "3eb67e23d69803b366a8866f933a0ef1c340cfd5cc64b967cdb8d9660491654f26cc79036915677f94ea0c6d2f6841ba30bd1cb566d277b5cfbf7f853eacb375"
 
 RPROVIDES:${PN} += "libtvm-runtime.so \
 libtvm.so \
-python3-tvm \
 python3.10dist-tvm \
 python310-tvm \
 python3dist-tvm"

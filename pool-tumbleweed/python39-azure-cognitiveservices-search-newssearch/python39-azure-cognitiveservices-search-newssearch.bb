@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "2.0.0"
 
-RPM_NAME = "python39-azure-cognitiveservices-search-newssearch-2.0.0-2.11.noarch.rpm"
-RPM_HASH = "8257d3393860305dec33f018ccdac82609e9958839c401d5c394f7d27104923bedeea61a7c686810d814ce4a33829178d26ed594de3a7f103c95d27649a35ea8"
+RPM_NAME = "python39-azure-cognitiveservices-search-newssearch-2.0.0-2.12.noarch.rpm"
+RPM_HASH = "85996ed9f2706d09109132c609f92159ffe539f1a93e4e1bb49a6fd0afe6eb56fc6a3febde92401bd6235df077b58f4203034cfcc672a84e7e151c357eb4b59e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-cognitiveservices-search-newssearch \

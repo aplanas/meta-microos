@@ -12,8 +12,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.17.1"
 
-RPM_NAME = "unbound-1.17.1-1.3.aarch64.rpm"
-RPM_HASH = "196416edf77f33f5ad951c61821685edbea2ca4388dd1f8042494112a53c7ebac67dd634e6bb614a34c3ac5f3e610f9f08afdcc8ccfd06e85aa92d25a959a5d1"
+RPM_NAME = "unbound-1.17.1-1.5.aarch64.rpm"
+RPM_HASH = "c944f0c00f3667f90a8f4f60ba2a85610a6fb9fb9b81c0437755840d6a3c6299c24a180d4605a3ec5e3533f15463cd6f3326ed97cfe3a76504c60b98d338f9b6"
 
 RPROVIDES:${PN} += "config-unbound \
 unbound"
@@ -26,7 +26,7 @@ libcrypto.so.3 \
 libevent-2.1.so.7 \
 libnghttp2.so.14 \
 libprotobuf-c.so.1 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libsodium.so.23 \
 libssl.so.3 \
 libunbound.so.8 \

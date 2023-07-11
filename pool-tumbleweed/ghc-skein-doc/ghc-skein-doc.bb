@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.9.4"
 
-RPM_NAME = "ghc-skein-doc-1.0.9.4-4.2.noarch.rpm"
-RPM_HASH = "a3969cb7f04c88d44f4eed6691b42f493744962f7000ac74ca533ea17dbc9d2ec253a6e24b99e4326ebb1e3f863ac3878b03869ecddce9d13c2388425d9ea4f9"
+RPM_NAME = "ghc-skein-doc-1.0.9.4-4.3.noarch.rpm"
+RPM_HASH = "f8817471334155a310f18342ef456a68da60696e8c5a8fb5b70eacfd0f72d84031fe87bb0e4574418f8849979812715cf79f9bd955eec7ece13cfc4f615225c5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-skein-doc"

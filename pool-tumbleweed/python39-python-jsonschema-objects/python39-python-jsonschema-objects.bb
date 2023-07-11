@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.4.1"
 
-RPM_NAME = "python39-python-jsonschema-objects-0.4.1-3.3.noarch.rpm"
-RPM_HASH = "d60049d8f986412e2217ddde5a70f5ce224fe577ea0a95c80e987eaf3ae4fc5af04213149a01f7a84fdc5912cf1d8ecf73c3ca152706e95c3bd6d51a8576c3fa"
+RPM_NAME = "python39-python-jsonschema-objects-0.4.1-3.5.noarch.rpm"
+RPM_HASH = "ae79da289d4353eaf403a6e2f1a0b8196d2871a1b9812e3b1899bdcfb6e634bb7b5d947e226245427c39b2e7952de3dc3d92c031f3b78aa15301bab392e3d0c3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-python-jsonschema-objects \

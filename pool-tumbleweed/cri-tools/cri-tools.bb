@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.24.1"
 
-RPM_NAME = "cri-tools-1.24.1-1.6.aarch64.rpm"
-RPM_HASH = "e137c09f002d89e00b0a0b5728e78de36d4aa427ac0c30d8dc010a4328e94c757427a9a63f5f8ab8e6323a262475d970ffbfe49f568c8e5231b4fb5ef7e2a86a"
+RPM_NAME = "cri-tools-1.24.1-1.7.aarch64.rpm"
+RPM_HASH = "7d541c677ef50ad7812bc6e5895e07068e0920ec21f810dd8fc9305f5ae874fd11a4c4865574def451cb6bb39806fe52df45e9b9518a9b63012be09aca23ec15"
 
 RPROVIDES:${PN} += "config-cri-tools \
 cri-tools"

@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1"
 
-RPM_NAME = "ghc-magic-1.1-4.3.aarch64.rpm"
-RPM_HASH = "9940e6ee93ead6a722cb6445aaa2888dea3e68633665b3bf9f03444da36a980d687f1ee79794fc22aa0adcfd13eb753fab6dfdb47def4381b31d118d785a4f05"
+RPM_NAME = "ghc-magic-1.1-4.6.aarch64.rpm"
+RPM_HASH = "2f30c7c3ad79674765cba2f769121636a3b44f59e1e3cd89152257fe826409635c0cb49c6ac1414bfdf8706c2f22b27a4e6885f0dd55f4986823c651b19ccf83"
 
 RPROVIDES:${PN} += "ghc-magic \
 libHSmagic-1.1-FZjtT3pxmlr6oRrs4QNuLe-ghc9.4.5.so"

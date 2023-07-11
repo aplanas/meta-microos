@@ -4,13 +4,13 @@ Megaparsec is a feature-rich package that tries to find a nice balance between \
 speed, flexibility, and quality of parse errors."
 LICENSE = "BSD-2-Clause"
 
-PV = "9.3.0"
+PV = "9.3.1"
 
-RPM_NAME = "ghc-megaparsec-9.3.0-1.3.aarch64.rpm"
-RPM_HASH = "cb0d49188a66f10949946ca63f2c47bb335d47435085e6d966caf6aa0d7e2d8683056d4762d05501b6e81752dd26b115dababb0a6040b5c29cf13db3c1aabcbf"
+RPM_NAME = "ghc-megaparsec-9.3.1-1.3.aarch64.rpm"
+RPM_HASH = "55615214851ff32c54d253bd28e625308738ffa6ebce218e2b770ae3a01737ef7c41698b7bef3e216eaf5a6f5849d2ee2235a3c1ee1eef127072da0027e758ad"
 
 RPROVIDES:${PN} += "ghc-megaparsec \
-libHSmegaparsec-9.3.0-9LuWCOgzW7qD3PYWTEm9Pv-ghc9.4.5.so"
+libHSmegaparsec-9.3.1-Lptmv1Cc41nKt1ZYt8kXVr-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
 libHSbase-4.17.1.0-ghc9.4.5.so \

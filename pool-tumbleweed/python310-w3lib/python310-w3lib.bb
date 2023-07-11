@@ -24,12 +24,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.22.0"
 
-RPM_NAME = "python310-w3lib-1.22.0-3.3.noarch.rpm"
-RPM_HASH = "07d27aad792bb8f3803a34e7700c8a0f021a12259e9176cfd7c05e2a0915a8337fe175186b21b5fd39c0f680fb8d795b1096ec84e4d7293bdc7dfb1cad5630e4"
+RPM_NAME = "python310-w3lib-1.22.0-3.5.noarch.rpm"
+RPM_HASH = "84f7c3b71068c8954e76e16403b8989d0aee94f29dc29a09024b8630e86a688805916e4643fd72e8e4d4914542f808f4f1f95239c44da71fc46140ea22f4134d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-w3lib \
-python3.10dist-w3lib \
+RPROVIDES:${PN} += "python3.10dist-w3lib \
 python310-w3lib \
 python3dist-w3lib"
 

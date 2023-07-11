@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.5"
 
-RPM_NAME = "python39-pyssim-0.5-1.2.noarch.rpm"
-RPM_HASH = "c17852f96656db4d3b4e6d41b9ed18a41fe4a97108089534688fa499284800b01463a2fadc248d9896afe0dbc85c7405a6804539d562601a195bf7a4f5105a2e"
+RPM_NAME = "python39-pyssim-0.5-1.4.noarch.rpm"
+RPM_HASH = "fca7ee1a9b88964d4f36227c59b7248cb877640dc9b53a6ee3bb7ceba33917a119c8faef459045d3f1f9c5524335db40fbd103a997fed8a7e3ba5bdb0bf14993"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyssim \

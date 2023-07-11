@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.25.1"
 
-RPM_NAME = "python310-pydub-0.25.1-2.3.noarch.rpm"
-RPM_HASH = "635affc11bf5a12c765d4e168241568bbdea3dcf5436506094d6cf8cb4a9a108d4cc03517fca27948ac97415d420f668b338311a48f955b19954ccdadbc540db"
+RPM_NAME = "python310-pydub-0.25.1-2.4.noarch.rpm"
+RPM_HASH = "a231d77c4a9f5a7fd456f03d5386cd69cfe09efb1203e609d80c52319d8b9f1aa94489129eaff2d818e6132d506eb0459b5235c809aa78aff807cd9001034aab"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pydub \
-python3.10dist-pydub \
+RPROVIDES:${PN} += "python3.10dist-pydub \
 python310-pydub \
 python3dist-pydub"
 

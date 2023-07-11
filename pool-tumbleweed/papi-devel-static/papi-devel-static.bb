@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "7.0.0"
 
-RPM_NAME = "papi-devel-static-7.0.0-1.3.aarch64.rpm"
-RPM_HASH = "5c0dde0ea0420654e27c1fedbf3f4d6d29d31f606e8c0820998f8a5a49f1a2428cf732100bd1fd945c9af9355ed3a50122b8c96e20bc837af521a7e3315965e9"
+RPM_NAME = "papi-devel-static-7.0.0-1.4.aarch64.rpm"
+RPM_HASH = "591ee2692bcbdfa6c80c17c605011d454b12ae90a0ee1de4d6f9aae6bab236c8f3e79bf9fd1a99a5a8b81f463a335ec06ee7579c14b9cc4e0539ea1998d0c7a3"
 
 RPROVIDES:${PN} += "papi-devel-static"
 

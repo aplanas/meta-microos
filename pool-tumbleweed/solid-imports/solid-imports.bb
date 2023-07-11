@@ -4,10 +4,10 @@ interacting with hardware independently of the underlying operating system. \
 QML imports."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "solid-imports-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "5530ccfee819edb420541e991042d9bba3c3e84249a64b88063f3ecdc51dc7aeabbfb5f55cfc7ed7bbc6045feeab55f973783937773f3121c7132ae249a9a8f1"
+RPM_NAME = "solid-imports-5.107.0-1.1.aarch64.rpm"
+RPM_HASH = "fafd4ee95e36c628a65ac166ff2f34cbe8703e938261aefff3aad895a494678efacc598a457033f1980fd75f12226a2e2789fa725ec6a37fca61b266f23a8153"
 
 RPROVIDES:${PN} += "libsolidextensionplugin.so \
 qt5qmlimport-org.kde.solid.1 \

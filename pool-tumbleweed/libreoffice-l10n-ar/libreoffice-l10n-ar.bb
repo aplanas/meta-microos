@@ -2,10 +2,10 @@ SUMMARY = "Arabic localization files for LibreOffice"
 DESCRIPTION = "Provides Arabic translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.1"
+PV = "7.5.4.2"
 
-RPM_NAME = "libreoffice-l10n-ar-7.5.4.1-1.1.noarch.rpm"
-RPM_HASH = "7226716f4be5aa84da4b69e9c56af8c7aa20c948185b6d8660db807faab268fa105872c3943d820ffab0274922a5e23e093de87410a7757fe3b938b021135934"
+RPM_NAME = "libreoffice-l10n-ar-7.5.4.2-1.3.noarch.rpm"
+RPM_HASH = "caa3685117872edd3afc3f5816b6eae195880b962a4ad6df8381c4f01646f69372ab4f86906366ea8b09d81190105c89200a1e3f4925ad03fa5d56ecbf0be058"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-ar \

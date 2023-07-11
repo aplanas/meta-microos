@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.3.7"
 
-RPM_NAME = "mvapich2-2.3.7-4.3.aarch64.rpm"
-RPM_HASH = "d56cee5fd493515ccace903037c25df0366bc8db5b63a4df3dadaa23af3fffac5c19f046137639180f017af9e576c65e2e50f4d3af75ce39b02f29ab38ec0740"
+RPM_NAME = "mvapich2-2.3.7-4.4.aarch64.rpm"
+RPM_HASH = "a11ccdfa92a1690fdf1364aa890895184f7dcbca22a46235eb987ac619305b364364260883bcdb0a9e341945201d97b00b66e1a7955aac2f67438e600f94d531"
 
 RPROVIDES:${PN} += "libmpi.so.12 \
 libmpicxx.so.12 \

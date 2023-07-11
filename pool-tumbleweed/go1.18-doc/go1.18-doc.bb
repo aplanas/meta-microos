@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.18.10"
 
-RPM_NAME = "go1.18-doc-1.18.10-4.1.aarch64.rpm"
-RPM_HASH = "28cd3bc3dd8ce3c69ea6ebcf3815fa46b15977996370565a6294b77f25e3b7fccb5a7fa4f1f73463afe1dfd837bf5280fc26455a9ea258cf9d28c17f4f5acfd2"
+RPM_NAME = "go1.18-doc-1.18.10-4.2.aarch64.rpm"
+RPM_HASH = "9ee1c9ac6f8b3070bbcef6c5137b8cc942eee8007a2d0dcd26a33e7654e6bdcca17c41de610b6c5fc2806404c125fa6aa0e18f1b0d273675a3f01cfe71a46cef"
 
 RPROVIDES:${PN} += "go-doc \
 go1.18-doc"

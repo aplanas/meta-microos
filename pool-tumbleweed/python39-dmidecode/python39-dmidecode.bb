@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "3.12.3"
 
-RPM_NAME = "python39-dmidecode-3.12.3-4.1.aarch64.rpm"
-RPM_HASH = "29b4fa5b6da0866a7071c3c4a0e3657bbc9f97407e3c1272a1fbee5ba9197b4d0d87b031afce520c98328d4d6dea6f0dc974aa4e6588031805038b904a6dc976"
+RPM_NAME = "python39-dmidecode-3.12.3-4.3.aarch64.rpm"
+RPM_HASH = "fdd47d619285cb96e4ffce1de7529bb73afc4e25a7801cedf29e3ede6efd25adb27ed49ac5c9689c1849dd94c0ff9c02305468bb7fc874bb94ec3703432a5bb2"
 
 RPROVIDES:${PN} += "python3.9dist-python-dmidecode \
 python39-dmidecode \

@@ -7,11 +7,10 @@ LICENSE = "MIT"
 
 PV = "0.2.0.post0"
 
-RPM_NAME = "python310-pastream-0.2.0.post0-4.10.aarch64.rpm"
-RPM_HASH = "c80f9871161347be0687b4ec2e28f0946185ebe2666688a0c50eb8c5dda80f9e1c9171ce24aeddaedefeb7e37565b056a6e6c835a5a593e2d261b03e2a3b0c45"
+RPM_NAME = "python310-pastream-0.2.0.post0-4.12.aarch64.rpm"
+RPM_HASH = "b7ba9cfb7482d301827355a6e5adce30d474b98f88c05c146277670f710751dd11a457647a5331456b53b9bd7df0f8012f13d2447e2d284fd62e7f2651b9dfcc"
 
-RPROVIDES:${PN} += "python3-pastream \
-python3.10dist-pastream \
+RPROVIDES:${PN} += "python3.10dist-pastream \
 python310-pastream \
 python3dist-pastream"
 

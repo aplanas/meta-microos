@@ -20,12 +20,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.3.3"
 
-RPM_NAME = "python310-SecretStorage-3.3.3-4.1.noarch.rpm"
-RPM_HASH = "b860dd603ea5da9b7cbfd64ae231be6d8ecd6a2660e2a2e709d50990371696adb569183104ce25e2b83d1c5a9041d562789c4532c2a0bdf26583e91070cde986"
+RPM_NAME = "python310-SecretStorage-3.3.3-4.2.noarch.rpm"
+RPM_HASH = "30aff8cac7199ade4313c9f8c6519b19f3f80a417b961c9a85ba7aaa37159689267160157b3126669b240b60d3ebc1967ffd73ced0a1e68cdbcf553757bbbe28"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-SecretStorage \
-python3.10dist-secretstorage \
+RPROVIDES:${PN} += "python3.10dist-secretstorage \
 python310-SecretStorage \
 python3dist-secretstorage"
 

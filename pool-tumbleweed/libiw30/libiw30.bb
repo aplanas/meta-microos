@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "30.pre9"
 
-RPM_NAME = "libiw30-30.pre9-40.7.aarch64.rpm"
-RPM_HASH = "e68d451982515b85d45a19df62881c19b263c2b399bf182d45e45e93cea506d39cc1f7db39296b7c7c070e6be399514d40fe073bac5117b74a01e77abcc3e13d"
+RPM_NAME = "libiw30-30.pre9-40.8.aarch64.rpm"
+RPM_HASH = "5eb11ee793bbd43f6cf9f12e88663fb984b17dd329b8f4b2972b0f2a4017b18f8a9a6d83c62175357318d4b46309cb524ac1a81bee3fbbab2899cd344de6d055"
 
 RPROVIDES:${PN} += "libiw \
 libiw.so.30 \

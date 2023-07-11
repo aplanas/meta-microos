@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.3.2"
 
-RPM_NAME = "fityk-1.3.2-1.4.aarch64.rpm"
-RPM_HASH = "58c08aa444a9e483fe31eaf87fc1fdbc04fac67e0a037ddf40fa3ae50828bbe347e732273a41fd405b20dc1f6f756b10cf3a49fd50a1f84f6f4f7e5725ad5ece"
+RPM_NAME = "fityk-1.3.2-1.5.aarch64.rpm"
+RPM_HASH = "5422addcaf309dacf43d0588fbc52da59408bafb524af46a1ea98cc0effd15bd8c5e7cde057a26cde9636f6ecfe204158f8dace5d207605c7bb476cb42fd50aa"
 
 RPROVIDES:${PN} += "fityk"
 

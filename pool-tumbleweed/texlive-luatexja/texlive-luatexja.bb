@@ -4,10 +4,10 @@ with LuaTeX. Either of the Plain and LaTeX2e formats may be \
 used with the package."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.201.20230211.0svn65790"
+PV = "2023.208.20230211.0svn65790"
 
-RPM_NAME = "texlive-luatexja-2023.201.20230211.0svn65790-52.1.noarch.rpm"
-RPM_HASH = "fbc5a63e7b9a6700764218e63f5a227c4e2bab54bd2897320ded05dbeb198166d8977d68859ac6d6614a7f70c2fb5fd5d265e5b6308f51f53fd49e178b07afd2"
+RPM_NAME = "texlive-luatexja-2023.208.20230211.0svn65790-53.1.noarch.rpm"
+RPM_HASH = "1c8ed635212e95425385e64eeea580760615659475b3f8c8a451cc5c2ae8a0e9e3f81083004ead25b713ce45e5f855ce1fdd32216d533b91ebf0a478f85bb76e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lltjcore.sty \

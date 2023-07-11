@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides development headers for Node.js needed for 
 of binary modules."
 LICENSE = "MIT"
 
-PV = "20.2.0"
+PV = "20.3.1"
 
-RPM_NAME = "nodejs20-devel-20.2.0-2.1.aarch64.rpm"
-RPM_HASH = "c23d1086ed0f24d78a44f508b92ef5a1f2353accb2affed5ca5d5006acc00204c7c98a76c203ea1293953e4d5a1073157c0d5ebadd10f67ae5e75a8573a85501"
+RPM_NAME = "nodejs20-devel-20.3.1-1.1.aarch64.rpm"
+RPM_HASH = "105ad478681dbfd41a1b8dd9c7f22a539f84a832c61bcd052c861897143a24236c23e2d4b8d34bf3a36760fb552fa3e60ecfda033a7c8d544ebd24a8e89d230d"
 
 RPROVIDES:${PN} += "nodejs-devel \
 nodejs20-devel"

@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.6.0"
 
-RPM_NAME = "python311-zignal-0.6.0-5.4.noarch.rpm"
-RPM_HASH = "19500d8d1410bcabdc7a9432c95bcd02d76d6840b0c19034cb5ce1ee70e5141f93d887ec0a7e8e2fd0dced4b72a30b4f85e0b77923a1e1ab3474b3fbfd45ed7d"
+RPM_NAME = "python311-zignal-0.6.0-5.6.noarch.rpm"
+RPM_HASH = "d04cfe470c9f48f05dc95cb25ad154dca8c5c3cdd8458b561077ae26d550272d223b9faa8d007cc9660803f30f4377cac865d622fe8646d213c49586573398f1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-zignal \
+RPROVIDES:${PN} += "python3-zignal \
+python3.11dist-zignal \
 python311-zignal \
 python3dist-zignal"
 

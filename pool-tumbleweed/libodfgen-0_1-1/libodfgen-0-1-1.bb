@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later & MPL-2.0"
 
 PV = "0.1.8"
 
-RPM_NAME = "libodfgen-0_1-1-0.1.8-3.8.aarch64.rpm"
-RPM_HASH = "b01414be30c6b263026d8ce97b5de09099db844e9af92b090ad25f6d849b87d6061be651bb0f24e5d389795555ec218cd093dc8bf8a099df4d7f4d3d9261ba69"
+RPM_NAME = "libodfgen-0_1-1-0.1.8-3.9.aarch64.rpm"
+RPM_HASH = "2ff0f9f9ff5c5309afd82661883c932d616fbb61aa62b62e1c28371824563c15772f510b4e2574895a8087a3a3d6101ea9a85b495c9bb447ac0a5dc5f0e94377"
 
 RPROVIDES:${PN} += "libodfgen-0-1-1 \
 libodfgen-0.1.so.1"

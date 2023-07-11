@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.8.0"
 
-RPM_NAME = "libnutclientstub1-2.8.0-2.1.aarch64.rpm"
-RPM_HASH = "ea59d3512ef6f2da8174980af4a3d2b7dda47fa355506df3da471d5d394a2974259a56a9eeef2ac5a3d8586ecdd68083c13e771cd0427168b08a75e2508b82be"
+RPM_NAME = "libnutclientstub1-2.8.0-3.1.aarch64.rpm"
+RPM_HASH = "a50548bcaa75bec53a6c72808ded1a59db22a261e1fa1c06b5bb2150a4df3516737fa4630ef48db9bf0a651e5ec81ee0757dfeccaf1a643fadfa9ba47854c1f9"
 
 RPROVIDES:${PN} += "libnutclientstub.so.1 \
 libnutclientstub1"

@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.3.4"
 
-RPM_NAME = "liboaml1-1.3.4-1.14.aarch64.rpm"
-RPM_HASH = "aa4d183d73c54dd3bad286b574816992f9225eb8a026e04b1cb33a9e40bfc9e5910be1359b5a9dcf1f9788b2eccdd75a6989890b4cb54b6e8573506ce0bee1ab"
+RPM_NAME = "liboaml1-1.3.4-1.15.aarch64.rpm"
+RPM_HASH = "568d35d88f028c08a6b81c9ddb9b22dc6b7e4766a78760a229f53e1f219135956dcd9fbb07682336bf0bdb529f3416af77bc7f0eef0b5a8a41f40598e5447558"
 
 RPROVIDES:${PN} += "liboaml.so.1 \
 liboaml1"

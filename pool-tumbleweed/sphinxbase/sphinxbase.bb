@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause & MIT"
 
 PV = "0.8"
 
-RPM_NAME = "sphinxbase-0.8-6.6.aarch64.rpm"
-RPM_HASH = "77f873ab8548ffccc403d11944f1fdd97b5b5a8c820e973b5c67f606874b1227ca7b4ae375ed349bdff0cf2882799b04228704988acb3cc0e42ae8ca7d14d58e"
+RPM_NAME = "sphinxbase-0.8-6.7.aarch64.rpm"
+RPM_HASH = "69c63f28badef252d8bea9014fc57dfa22086bd63600a57cc0f4aeb30f3272e85fef25ae8f0fb519afadf4b724af0cf6fb7e2a66c089781fc9c614a5d4524d64"
 
 RPROVIDES:${PN} += "sphinxbase"
 

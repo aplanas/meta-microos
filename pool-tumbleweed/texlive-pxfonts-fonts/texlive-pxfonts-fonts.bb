@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.201.svn15878"
 
-RPM_NAME = "texlive-pxfonts-fonts-2023.201.svn15878-53.1.noarch.rpm"
-RPM_HASH = "7646b04981370a836194f24bc4ac410d8354fb73cf0f2792e664602173c00c99c84e774c479f0318bad2798bc2d0a1d3a0d2f63bf925b0b3cfd928b7e2b9b270"
+RPM_NAME = "texlive-pxfonts-fonts-2023.201.svn15878-53.2.noarch.rpm"
+RPM_HASH = "97b9eaa5ae65fb32d21550069909613892f7238e9c4e8483f9d71379765002e61c8d92b892c7000ea0e5c6baac621bd96b77db22ad03d8dc8016508d0dc0da01"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=fj \

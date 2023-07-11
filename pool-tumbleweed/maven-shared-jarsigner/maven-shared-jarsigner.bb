@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.0.0"
 
-RPM_NAME = "maven-shared-jarsigner-3.0.0-2.21.noarch.rpm"
-RPM_HASH = "86cbb9dacbce250c7b4217b9d202598b685bdab9470e2a4ab7323d7f5665dad7182d34addf5a5589fa8c1ddb753092faa5eee123e544b59db607901ff563be9c"
+RPM_NAME = "maven-shared-jarsigner-3.0.0-2.22.noarch.rpm"
+RPM_HASH = "b7709ad0fce6505f7354e92f87dd6da47df8a86b6b4eb0b5e9efa9afe66e2eca23cb67a04a5de22f15b556336787f4ee01734ea0149715f5c8612a39678beddc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-shared-jarsigner \

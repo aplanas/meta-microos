@@ -3,10 +3,10 @@ DESCRIPTION = "A library with common code used by libraries and tools around the
 It does not depend on any existing libraries from Apple."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0~git.20210925"
+PV = "1.0.0+git3.20230513"
 
-RPM_NAME = "libimobiledevice-glue-1_0-0-0~git.20210925-1.7.aarch64.rpm"
-RPM_HASH = "9e337f15874a5792286a6f76a7d97793187192f66f60159e60b3728e0d14eaf4eb0c60f46e70797730cb44a5fe2b19d39ccd6120818f5274314219bc82ecbd69"
+RPM_NAME = "libimobiledevice-glue-1_0-0-1.0.0+git3.20230513-1.1.aarch64.rpm"
+RPM_HASH = "47ef8bfb2e272efe36b6140ff9c6306a6e5bb5bdb0e27919ffa98b0e643be9e169cd4c4bed3a4ce7ac6e70a2fcd074b590f99e1ea95bf91a39852641f86af6bc"
 
 RPROVIDES:${PN} += "libimobiledevice-glue-1-0-0 \
 libimobiledevice-glue-1.0.so.0"
@@ -14,6 +14,6 @@ libimobiledevice-glue-1.0.so.0"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libplist-2.0.so.3"
+libplist-2.0.so.4"
 
 inherit rpm

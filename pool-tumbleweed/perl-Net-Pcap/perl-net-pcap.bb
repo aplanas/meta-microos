@@ -11,8 +11,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.21"
 
-RPM_NAME = "perl-Net-Pcap-0.21-1.3.aarch64.rpm"
-RPM_HASH = "6d261d50432932a23ef5b655f699cccdd45717f0d034ee8a29783e0aecb3105c946a37290b0c942441791f79af925fd1fe38f95afe2f4b7bf37af43e0d7f3e12"
+RPM_NAME = "perl-Net-Pcap-0.21-1.4.aarch64.rpm"
+RPM_HASH = "ca43b4f880db3a8a0c7abde8119c2bf3b2cc97f2e6cc1b2c09eac58900452697e5646fc766295dc081e45bd4655b47045057d7389e7831e7ff5f95965421db2c"
 
 RPROVIDES:${PN} += "perl-Net--Pcap \
 perl-Net-Pcap"
@@ -20,7 +20,7 @@ perl-Net-Pcap"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libpcap.so.1 \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-Data--Hexdumper \
 perl-NetPacket"
 

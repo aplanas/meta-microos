@@ -15,15 +15,17 @@ This subpackage contains the include files and library links for \
 developing with PolyLib."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.41.6"
+PV = "0.41.7"
 
-RPM_NAME = "barvinok-devel-0.41.6-1.4.aarch64.rpm"
-RPM_HASH = "87d7eec4381638f78328fa32399752a3995e49b547c04fb0499c274451a1c5c26cae015031b899d4cd6cce548c6f2b5d211b31b9e2dd3d56036a45965e368c24"
+RPM_NAME = "barvinok-devel-0.41.7-1.1.aarch64.rpm"
+RPM_HASH = "e279285e69d006132758ac3f50e06bbff74500ff0d9b15dd160f56016962e8172d017c128dc219a653ce489613238ff2ab4a006d83c6a7adb0e5d7acc81a2736"
 
 RPROVIDES:${PN} += "barvinok-devel \
 pkgconfig-barvinok"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libbarvinok23"
+libbarvinok23 \
+pkgconfig-gmp \
+pkgconfig-isl"
 
 inherit rpm

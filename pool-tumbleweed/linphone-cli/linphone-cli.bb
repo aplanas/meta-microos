@@ -11,8 +11,8 @@ LICENSE = "AGPL-3.0-or-later"
 
 PV = "5.2.50"
 
-RPM_NAME = "linphone-cli-5.2.50-1.1.aarch64.rpm"
-RPM_HASH = "1387181efe6985c16bacc73ef952a4e8e8f0055fc292a130e00f64de7c9bdec15780807a0f1014a16689585552f9c363cd90d9edd4de6412ad8267a15cd97c40"
+RPM_NAME = "linphone-cli-5.2.50-1.3.aarch64.rpm"
+RPM_HASH = "55013121dafce3defc127d8a1e01bd15bcc518ee3e961bd761f4d98a4cbccff8d393892b59f125ff918d01c64d025d13b39947539f8753c80db2acf58a4b87d7"
 
 RPROVIDES:${PN} += "linphone-cli"
 

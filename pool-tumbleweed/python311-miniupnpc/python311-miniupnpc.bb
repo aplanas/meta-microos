@@ -5,10 +5,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.2.4"
 
-RPM_NAME = "python311-miniupnpc-2.2.4-1.4.aarch64.rpm"
-RPM_HASH = "90bad9850468203c5876843692630a4cdd999d0e4fb3d2d87ea5225f5284769ba286bd8e4958fd68368c37022407a5a00d9bf463e17945b0fb74196c3575abf6"
+RPM_NAME = "python311-miniupnpc-2.2.4-1.6.aarch64.rpm"
+RPM_HASH = "245a06fd2c407b2c6b47e9ef6cabeef8b7bac6f1d079e4d6aa0917e2c3a7016a8a93be2bd94d6d2425e54bd5dd345a50adddd90227cb0cb91b60e8608e3f48f3"
 
-RPROVIDES:${PN} += "python3.11dist-miniupnpc \
+RPROVIDES:${PN} += "python3-miniupnpc \
+python3.11dist-miniupnpc \
 python311-miniupnpc \
 python3dist-miniupnpc"
 

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.1.3"
 
-RPM_NAME = "terminator-lang-2.1.3-1.2.noarch.rpm"
-RPM_HASH = "8b9f6a12f91b4d3d040584401cee0547d624c5cf2bbb9a5ae2394819827d939691768cd0c468deedc844a7947faa9a83f7e5c33fb40274432a42fef4e659cfa6"
+RPM_NAME = "terminator-lang-2.1.3-1.3.noarch.rpm"
+RPM_HASH = "3d619ca69e03744a0414f5ac62d43194bc7a288b9ea0a79a1ee363d21624aded9d45b06c3a4755d94f8f3368e25ec9704ea131a87d791ed2ad07a30012a5adc9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-terminator-af \

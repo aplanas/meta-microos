@@ -4,12 +4,11 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.0.1"
 
-RPM_NAME = "python310-before-after-1.0.1-2.6.noarch.rpm"
-RPM_HASH = "37f6cfeb33303647c900a0e6135887dea135689befd83e342d44b019b941fe16b2fa81176f5d47eb7ec1b469b07cb473e3ff48140834240198e8e19f0f8acebb"
+RPM_NAME = "python310-before-after-1.0.1-3.1.noarch.rpm"
+RPM_HASH = "a1e72ebd85522e3ff16b82b0cf3d103cb975d7a0901dab626e74f16ff084612e4b2a40a83dc32aad48fda5fe0cdf2ba89a3454157d76a17628d608db0fe97b89"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-before-after \
-python3.10dist-before-after \
+RPROVIDES:${PN} += "python3.10dist-before-after \
 python310-before-after \
 python3dist-before-after"
 

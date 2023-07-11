@@ -3,13 +3,14 @@ DESCRIPTION = "webpack can be used to generate static bundles without Django's \
 staticfiles or opaque wrappers."
 LICENSE = "MIT"
 
-PV = "2.0.0"
+PV = "2.0.1"
 
-RPM_NAME = "python311-django-webpack-loader-2.0.0-1.1.noarch.rpm"
-RPM_HASH = "632b600a159fa39c1d196fc21d50d489ccc6fbc6af9e99631879da1c79c251650b9012863e44876bbde20e93128b1702649c86545d8edfd0bc800c81891dcee0"
+RPM_NAME = "python311-django-webpack-loader-2.0.1-1.1.noarch.rpm"
+RPM_HASH = "96fefbd45398d8a01bb9e6b086ed58625ccf9af4f37827c7cd54ed6fe002221f60073fa83f39b8b29c9b790580417c3cb466678ff2b5fc6a9464a46ea1e5327b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-django-webpack-loader \
+RPROVIDES:${PN} += "python3-django-webpack-loader \
+python3.11dist-django-webpack-loader \
 python311-django-webpack-loader \
 python3dist-django-webpack-loader"
 

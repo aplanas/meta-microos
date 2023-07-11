@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "1.11"
 
-RPM_NAME = "python311-django-attachments-1.11-1.1.noarch.rpm"
-RPM_HASH = "e2dcea753a2db6e90f5910e497916344c56045f28f26c7d89ff56d0e4c4f2dc9f9d89e333ca7ba1e15a816708cdd3433a607ec0371dc10122852d0f82a605289"
+RPM_NAME = "python311-django-attachments-1.11-1.3.noarch.rpm"
+RPM_HASH = "45456db87757b71534274eb37e12a5e42fc26df0a7862986140c7555c8caed4df5f7ed3e33aa990efbdf2ae9d1150e7f08865a187fe3903e32eebe90343f9def"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-django-attachments \
+RPROVIDES:${PN} += "python3-django-attachments \
+python3.11dist-django-attachments \
 python311-django-attachments \
 python3dist-django-attachments"
 

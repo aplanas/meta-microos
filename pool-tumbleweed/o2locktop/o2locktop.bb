@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0.10+git.1564463799.6f331ba"
 
-RPM_NAME = "o2locktop-1.0.10+git.1564463799.6f331ba-2.10.noarch.rpm"
-RPM_HASH = "c69958e68dfe8c7b5a1572105e8191f15e4b863426426baedc09b933f2f529fd2e0b0091259be8b7ed55b16deac58038b068071348f0c133b01d498fed0bdbc2"
+RPM_NAME = "o2locktop-1.0.10+git.1564463799.6f331ba-2.11.noarch.rpm"
+RPM_HASH = "1bfdaebbd1dc1d6ac10ff9f6c3f254e912472ac1ddc4bd1c6f5b167d7cee7c323db865288f64f050bca67fe03ab4208834d5d6a359c849cd2f208b652ba7b6ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "o2locktop"

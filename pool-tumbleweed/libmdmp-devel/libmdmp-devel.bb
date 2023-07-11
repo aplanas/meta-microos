@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20210420"
 
-RPM_NAME = "libmdmp-devel-20210420-3.4.aarch64.rpm"
-RPM_HASH = "2924111681ab6a651def4616a34e5ef80fd47d5e2ebb508c0d0a184b3a0c2e7d73931c3943cb2b949005222b8ec64aadcb62f471aa267bef1587dc7b4e0c2b6c"
+RPM_NAME = "libmdmp-devel-20210420-3.5.aarch64.rpm"
+RPM_HASH = "6b18133a0b8ac2fa3791c6548a325369314918cc88cf9edd52e1f24a9cb6f7b7df045dab753738485f0fd934ed24a11c69283b83491934bb518648cf6dce907b"
 
 RPROVIDES:${PN} += "libmdmp-devel \
 pkgconfig-libmdmp"

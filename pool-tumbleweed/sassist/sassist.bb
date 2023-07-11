@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.8.6"
 
-RPM_NAME = "sassist-0.8.6-1.8.noarch.rpm"
-RPM_HASH = "c5c36418957a8b37f0557d23a219de812b3b9ded336178e9c5cb57030a63c184bc2f7cfbed4be1dd5ba031c93cf9dee65ade5a796e0f3260bf0f96a43c74ff5e"
+RPM_NAME = "sassist-0.8.6-1.9.noarch.rpm"
+RPM_HASH = "6a7d5289989d7a23b3ebed4974d12e6814c88047bd183f490ac2befbcda286d8f27ab3755ddd2e41dc208e2555de3b329af9742ef0be2d27a11e6d0ec3b076f6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sassist"

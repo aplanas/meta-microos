@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "44.1"
 
-RPM_NAME = "xdg-desktop-portal-gnome-44.1-1.1.aarch64.rpm"
-RPM_HASH = "a7665efc31b406131c6c9c1584bddbc950915e810c95ed685e7101231fa17e374de296a01b59087556a20ebe09720c1c154aff1c7aa9c684fc2c99e77acde443"
+RPM_NAME = "xdg-desktop-portal-gnome-44.1-1.2.aarch64.rpm"
+RPM_HASH = "0f789e7aa88e11f53219b0928e59fef0c6af6b31a2adfb3503ab67afe409c021aa54e465fe87ad843ed14d6aa0555be6ef1aaf2a88d200231a9e07b3ae60e531"
 
 RPROVIDES:${PN} += "xdg-desktop-portal-gnome"
 

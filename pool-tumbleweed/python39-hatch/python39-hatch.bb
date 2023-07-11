@@ -12,8 +12,8 @@ LICENSE = "MIT"
 
 PV = "1.7.0"
 
-RPM_NAME = "python39-hatch-1.7.0-1.1.noarch.rpm"
-RPM_HASH = "d433146d050ce252c24191ab07df15f69c1a1902811920c813a5fa716ecba68234af235da574c71c292f64dc684631540c8f05d5de4e49e6e5208f989dfb6d7e"
+RPM_NAME = "python39-hatch-1.7.0-2.1.noarch.rpm"
+RPM_HASH = "288c62210c3a563ecbcef4d01c9f4cd8783414635d8b5ac91a92a78c23408b3518bac6ebd5f81a35c233c00e1ef7eddc442f91f501311be7135e6388f149d838"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-hatch \

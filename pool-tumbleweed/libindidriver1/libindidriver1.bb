@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & GPL-3.0-or-later"
 
 PV = "1.9.9"
 
-RPM_NAME = "libindidriver1-1.9.9-2.2.aarch64.rpm"
-RPM_HASH = "66df25e72e2825e84c6fae309d32cfcd9d307ddd299afaf5e2455cdca0d469a86d07e30c6a97646993616c7f8c6a7186cfa75a894a1a729ff057b654c1dd80a1"
+RPM_NAME = "libindidriver1-1.9.9-2.3.aarch64.rpm"
+RPM_HASH = "378e8a699210aa624ffccdb71fec1ef4bbfe6f97b7f2424a3d7b34b9b4cf12c9fc09152604a9edbaf6cea41e5afb0895e9371a6aa73d3f430ad184ca009fc72b"
 
 RPROVIDES:${PN} += "libindidriver.so.1 \
 libindidriver1"

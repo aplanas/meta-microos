@@ -6,11 +6,12 @@ LICENSE = "Apache-2.0 & BSD-2-Clause & MIT & Python-2.0"
 
 PV = "1.6.1"
 
-RPM_NAME = "python311-poetry-core-1.6.1-1.1.noarch.rpm"
-RPM_HASH = "255e8064b6328793c1ed4031d65e25d2c8e289b3cdb86b04991fde08dc11a5c1a6c1bfccacc2e2ab61773b5b8c84d99ee37a5da26fb8651324ae822ee11e8f3e"
+RPM_NAME = "python311-poetry-core-1.6.1-1.3.noarch.rpm"
+RPM_HASH = "a2c1b6c61866c82e140414d1bbbf733ec947021fe6ac1083bac48ed0c60fa4fc49979e471cb3039c5233dd81933c34d853848955514c8aba5566f2ac486d5a11"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-poetry-core \
+RPROVIDES:${PN} += "python3-poetry-core \
+python3.11dist-poetry-core \
 python311-poetry-core \
 python3dist-poetry-core"
 

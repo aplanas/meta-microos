@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.1.3"
 
-RPM_NAME = "lbreakouthd-1.1.3-1.1.aarch64.rpm"
-RPM_HASH = "b2bad558a1f94f61b04de5fafaba8e20ec742976803292549850acde7d6e49a8b64ded65d796b8fc7821355d290f6bda6628cfa5494cc4fcda7430f94eee459d"
+RPM_NAME = "lbreakouthd-1.1.3-1.2.aarch64.rpm"
+RPM_HASH = "e4374445e818d6815980eebee507e59b5520bd2daf6b0fcc4a247c1d8e8c491398374d74c0299d49a6e5dbe5f4c60e4d2a20a4ed72d4ea4625366bb11c0e8daf"
 
 RPROVIDES:${PN} += "lbreakouthd"
 

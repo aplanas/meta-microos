@@ -2,10 +2,10 @@ SUMMARY = "Command-line utilities to convert from/to JPEG XL"
 DESCRIPTION = "Command-line utilities to convert from/to JPEG XL."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.8.1"
+PV = "0.8.2"
 
-RPM_NAME = "libjxl-tools-0.8.1-3.1.aarch64.rpm"
-RPM_HASH = "7c3827756511ab2ebe13380c4fb163d6e8a16952a91020135204a1753d2abed1a0dde6985e42e7a780009c0ba87b51281e761b1660c3c2e623b54311d628264f"
+RPM_NAME = "libjxl-tools-0.8.2-1.1.aarch64.rpm"
+RPM_HASH = "726e4a44f38ae5f8a00c826b6700bbaf2ab51d14236dc8c3dc27373b45ad2166e1c1a9d3ab63010110c7b128c97573b78864cadc1938bde8f7f83d0250e5b525"
 
 RPROVIDES:${PN} += "libjxl-tools"
 

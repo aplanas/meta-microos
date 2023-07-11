@@ -10,8 +10,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.0.27"
 
-RPM_NAME = "genius-1.0.27-1.9.aarch64.rpm"
-RPM_HASH = "51fe2a446c99dbe0c9fe06a65341728d0645057efadece8cef99813a316d47aca6c46df0df5d227ce621069f2eb075978f84b3889a3aef0f8e79e0564befe072"
+RPM_NAME = "genius-1.0.27-1.10.aarch64.rpm"
+RPM_HASH = "ff46cf8c57ed6efe7c0d9276aadc11a7847371ca1006627aaec6a5cffcb87ad159de59865b6f86931f0b419c43bf63b4a7de9c9c6c5368acdd803f0626def8c6"
 
 RPROVIDES:${PN} += "genius"
 

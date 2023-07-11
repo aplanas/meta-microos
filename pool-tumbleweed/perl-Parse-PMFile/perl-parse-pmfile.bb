@@ -11,14 +11,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.44"
 
-RPM_NAME = "perl-Parse-PMFile-0.44-1.1.noarch.rpm"
-RPM_HASH = "dff6107dcd521490922caffd9e831383bf94acdff8a96bc29c7982344eed4977e6ae56c291e04e2c0f9f46b0715636276e08848fd8d70830153ec1af8f32878b"
+RPM_NAME = "perl-Parse-PMFile-0.44-1.2.noarch.rpm"
+RPM_HASH = "02c8746667fa854b8d4cce3bfea99455d441c74b6820838768cb5423766eff6dcfefe990cc507423c9a15fa4441b4d6963ec56ecb77c5902a85849b1df324a9b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Parse--PMFile \
 perl-Parse-PMFile"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-JSON--PP \
 perl-version"
 

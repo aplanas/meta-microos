@@ -5,8 +5,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.1svn63116"
 
-RPM_NAME = "texlive-robotarm-2023.201.0.0.1svn63116-53.1.noarch.rpm"
-RPM_HASH = "2dafa3730f24ea3c9a16a638b6add5c7c08fe4d070337db9ed46c2f8b500fb7bde0b6c4c6e952205d8c13d2dbf120443ea32491b4d5dc9f8fc8629c750b78ab3"
+RPM_NAME = "texlive-robotarm-2023.201.0.0.1svn63116-53.2.noarch.rpm"
+RPM_HASH = "ceb66d6dc8713f390aed1862e7477cb525a4211c72470273fb488d3faf4352d6f87bece0cfa81d809f8d225f2846c4cc93e5a77f5121333d5bc70aff3b124fd0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-robotarm.sty \

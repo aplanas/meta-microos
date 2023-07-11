@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.66"
 
-RPM_NAME = "bluez-obexd-5.66-1.6.aarch64.rpm"
-RPM_HASH = "4f25bbd910220b835e6d67a0f9f3a98b9ccb8e3fc08cd9d0507fb59b6a601a2ea724b5a20008cdef5c5b0d91b51bb26996f242d5a811320cd9b5a3b5ff9560a2"
+RPM_NAME = "bluez-obexd-5.66-1.8.aarch64.rpm"
+RPM_HASH = "3bd72b86b004bb662da106db7aa0709db895ca57e12e8db02156b7b320d53140b710b8ff161bce1d6ee12e625eeaee167c06a0ccfe836d918829811c1616d563"
 
 RPROVIDES:${PN} += "bluez-obexd"
 

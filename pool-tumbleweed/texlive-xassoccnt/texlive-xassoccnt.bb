@@ -12,8 +12,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.2.0svn61112"
 
-RPM_NAME = "texlive-xassoccnt-2023.201.2.0svn61112-52.1.noarch.rpm"
-RPM_HASH = "96aa4f486719936770135eabf7d45db530d1fb105f01174ff6d415befd2f95cfc5a1794383d80c5fe3fa4056c71fb20869e208cfeb9cba5426cc8b2796ba267a"
+RPM_NAME = "texlive-xassoccnt-2023.201.2.0svn61112-52.2.noarch.rpm"
+RPM_HASH = "5e8c6bfcb87e52addd5ad1993684f6a6f71d170f070166e2907e14c6e57bb4669c3bc745d8f1008628a03dd7bee36957212cc3f8260229e10d075fcb53c8963c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xassoccnt.sty \

@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4g"
 
-RPM_NAME = "autossh-1.4g-2.13.aarch64.rpm"
-RPM_HASH = "7c88d1c10a4ab341272eeec704f52554ff5ac582fe1d27e43d890ad86a1ddf16e4b06087c0992a1549c42c30dc64fe3f6640e265317719ec38ba30a17dfd49a1"
+RPM_NAME = "autossh-1.4g-2.14.aarch64.rpm"
+RPM_HASH = "f13245aabe7b7d77a54353cd4c8fb3c56cbfcf91be3610e6a4dcb611f9c8551eaf7809f69a79b279a13d3b7d40a18c46e3a0314a753f468559fe3be6b32cd3ae"
 
 RPROVIDES:${PN} += "autossh"
 

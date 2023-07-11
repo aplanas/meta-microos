@@ -4,12 +4,11 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "1.1.0"
 
-RPM_NAME = "python310-svglib-1.1.0-2.8.noarch.rpm"
-RPM_HASH = "e18023bce56f9ebb16357429cf8edd5aaf120f25324fae4942b18830765bd135a67d346716d4c1fa60951706c2bedf5f6a681e79dde2a9101967b60189363143"
+RPM_NAME = "python310-svglib-1.1.0-2.10.noarch.rpm"
+RPM_HASH = "1d7a4ac083958fb7d856071a48938825975cb76f349bbaee95e88a5e9474d416a533314ecff18c892587369b1efb31de127c667b9144b6f17a5bf8cd82f74154"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-svglib \
-python3.10dist-svglib \
+RPROVIDES:${PN} += "python3.10dist-svglib \
 python310-svglib \
 python3dist-svglib"
 

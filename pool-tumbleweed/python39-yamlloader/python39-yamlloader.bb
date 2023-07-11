@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "1.2.2"
 
-RPM_NAME = "python39-yamlloader-1.2.2-1.3.noarch.rpm"
-RPM_HASH = "133ac0f50d8bcd3250505c6cf2d1836305c4753bf009088442788a7906650c45deae0fa3d8a389f1a0e8ec07db5342482fa25ae907a8e4eb01e1a8342218413d"
+RPM_NAME = "python39-yamlloader-1.2.2-1.5.noarch.rpm"
+RPM_HASH = "316312f0d6df0d379f1ec875cf2f3bc27b01cd7293bd3b7b1cb974aa0562fed1c51cfabcfd664b1b00789561e1b43629f92109a0aa468e97a27c20b8e6a2c58f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-yamlloader \

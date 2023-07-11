@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "2.1.1"
 
-RPM_NAME = "libkdsoap-server2-2.1.1-1.3.aarch64.rpm"
-RPM_HASH = "f500afbfa9440aa21fba22131a1b6bffd39e33f10230c932c994197cf6269a5fac053aa046889ee66ec08027f38d1eedef2ffe05bf570d73785e60e3c38d8bac"
+RPM_NAME = "libkdsoap-server2-2.1.1-1.4.aarch64.rpm"
+RPM_HASH = "07dbba5cd7775b81bf76ea7d4991771a6397e37210bc83f2699f0bcfa357fbd2bae4864c4587b9f05da41f531850973584f07afb6bfd75e393260ef552400b60"
 
 RPROVIDES:${PN} += "libkdsoap-server.so.2 \
 libkdsoap-server2"

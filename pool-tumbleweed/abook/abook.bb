@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.6.1"
 
-RPM_NAME = "abook-0.6.1-3.13.aarch64.rpm"
-RPM_HASH = "8124f3d8f12a8cd65a353c3d7c7796e7aef70efc173a72d13b3efeb957e501f89b432c106f12dac01419e8eca53c829042c653127d85d2ee0337facc0bd74cd3"
+RPM_NAME = "abook-0.6.1-3.14.aarch64.rpm"
+RPM_HASH = "56991891a6757a5ec967694b7b5018aca34b4894b4bcacf2b948cb997d8bb7f93aefc60a2ef5366d8b32df37b60055693f0c5bcfacfe39475e94ff77d8d1670c"
 
 RPROVIDES:${PN} += "abook"
 

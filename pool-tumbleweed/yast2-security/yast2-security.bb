@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "4.6.0"
 
-RPM_NAME = "yast2-security-4.6.0-1.1.noarch.rpm"
-RPM_HASH = "ab9e8ee476ed5dfbb8683a897bc3e6405bc76d5bd3d9ee11a805498b8e5499199c6420ab3810088467622c75c2623d2aa5033d06df37ec004d891bd2203e34b7"
+RPM_NAME = "yast2-security-4.6.0-1.2.noarch.rpm"
+RPM_HASH = "328c893b96a717a649d90b1d03cc0c6c36970fa19b0cc437ef5cf8d8d5701d7689472ae9397d16724ea2a1f677a4e8e58a14332e8fcb232cd6101425dcdef9b7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "y2c-sec \

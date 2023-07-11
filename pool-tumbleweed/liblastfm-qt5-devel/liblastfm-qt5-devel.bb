@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.1.0"
 
-RPM_NAME = "liblastfm-qt5-devel-1.1.0-1.10.aarch64.rpm"
-RPM_HASH = "bd8c3c60c79910068735f08137e7dae31e677d7698e47f282f6a9513afdd81c73efbb538b4c5cfa7a1dda7b632c1ef470f04b238788b1286a23c26880be87a5c"
+RPM_NAME = "liblastfm-qt5-devel-1.1.0-1.11.aarch64.rpm"
+RPM_HASH = "a7a85390143b6919df24002ba67144dc7c25a6c813a55d537bad53c581d0b486dc278e49726594798bb2748dd04707b9915f97c7472b8fbcb8e2dc7963b0fd0c"
 
 RPROVIDES:${PN} += "liblastfm-qt5-devel"
 

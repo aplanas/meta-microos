@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.2.2"
 
-RPM_NAME = "python39-python-poppler-0.2.2-3.11.aarch64.rpm"
-RPM_HASH = "1dd853c2da43ec86589e35c62ecccb666b73febca31323f57bd1335a1ae5449cd99c8e4518573819fc0b9f8df0f40599638c24ea54e091df0a0b807e8c1c3867"
+RPM_NAME = "python39-python-poppler-0.2.2-3.12.aarch64.rpm"
+RPM_HASH = "ae5735ab96e4d68312dc655af4a879990245d2a1a038d2d4c77320e0a17efaf7cd525e51ce1b602d84ef934d3e41e5a1097b8dc28213dc4d283700bfc0c9a110"
 
 RPROVIDES:${PN} += "python3.9dist-python-poppler \
 python39-python-poppler \

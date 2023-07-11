@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later & BSD-3-Clause"
 
 PV = "2.0.3"
 
-RPM_NAME = "octave-forge-octclip-2.0.3-1.3.aarch64.rpm"
-RPM_HASH = "dc57fe655028665d5078d50f1ff0d5071abf250cecb3177005162655d28f22fb7a0696dbadf53a072d0ac3253e5ab27be26b4cca951c3eb19765d466a902376a"
+RPM_NAME = "octave-forge-octclip-2.0.3-1.4.aarch64.rpm"
+RPM_HASH = "66dfab100b7f65a6469132f886083ab350064c97f6b65ea3f0745ea3dcc3030658a3e5c46864c726ca1f16ff2c33c0d94d06635eaf3d73a5942d295be9711b33"
 
 RPROVIDES:${PN} += "octave-forge-octclip"
 

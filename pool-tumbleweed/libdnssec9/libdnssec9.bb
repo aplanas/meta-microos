@@ -7,10 +7,10 @@ removal. \
 This package contains a library for DNSSEC support functions."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.2.6"
+PV = "3.2.8"
 
-RPM_NAME = "libdnssec9-3.2.6-1.1.aarch64.rpm"
-RPM_HASH = "1a929d02984dfc554292f9d2ce9cded473b863314da2a861342d698d75fe41eb657fcb2f388109c391d68f665bafc71079a45d47ed05e4dd11b32b0ddbac494f"
+RPM_NAME = "libdnssec9-3.2.8-1.1.aarch64.rpm"
+RPM_HASH = "61d1cadcb39b2a5a816b97bf5ebe4947411174c6e2b422461f0658d8c920b3e1ddb2eaaefe5eb02e7333f4302919d36d5baa2bd5a39fe05f19fc1e8cb0cf4eac"
 
 RPROVIDES:${PN} += "libdnssec.so.9 \
 libdnssec9"

@@ -15,15 +15,15 @@ LICENSE = "Artistic-2.0"
 
 PV = "3.0.1"
 
-RPM_NAME = "perl-autobox-3.0.1-1.25.aarch64.rpm"
-RPM_HASH = "c583fb9843d67bf2718ec6523925ea5c03b5816fcffa3fd6d1aea44d87628f19aa17e6c9c6c3543f855b11f01f011375049ee965ff3d7aea6a6ae077a66442a2"
+RPM_NAME = "perl-autobox-3.0.1-1.26.aarch64.rpm"
+RPM_HASH = "78290be304ea685560d2a97dbc80bca51186690d4495e7e84097f114b676f76236824735e71c764f5575ec202a2080ca96d2f2b2f4c594e8bb3f209b521360eb"
 
 RPROVIDES:${PN} += "perl-autobox \
 perl-autobox--universal"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-Scope--Guard \
 perl-version"
 

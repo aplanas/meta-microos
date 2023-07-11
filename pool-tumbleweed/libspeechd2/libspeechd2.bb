@@ -11,8 +11,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.11.4"
 
-RPM_NAME = "libspeechd2-0.11.4-1.3.aarch64.rpm"
-RPM_HASH = "fb541b34140da698e048a1e5477408899317daec09057a427e5975313d2a854d96b91d6209361f75236ce65b17c97e3ee6a4bee8e9da8f0c2a8f1549fcf86d83"
+RPM_NAME = "libspeechd2-0.11.4-2.1.aarch64.rpm"
+RPM_HASH = "e10d98fbab49606d9d4f7955c19803aa00ebbf49f59e08ad7bceb5a482d61da873fbe6290bc339fe1472f6eff33f38632c47f6ae008ba735beaab4d888ee5c1f"
 
 RPROVIDES:${PN} += "libspeechd.so.2 \
 libspeechd2"

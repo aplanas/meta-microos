@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "1.7.0"
 
-RPM_NAME = "python311-pytest-virtualenv-1.7.0-3.8.noarch.rpm"
-RPM_HASH = "c35cc74e0590f90b2f8ec15982cc509dad0ab11e96f656711a50a4077ee52cec138ebe9bc197c46be48ac1e23158dce1634b8ac77d6aeae1eed616004f6ed935"
+RPM_NAME = "python311-pytest-virtualenv-1.7.0-4.3.noarch.rpm"
+RPM_HASH = "0766bb4b956deacb612b621e871d14f6521faf99bfc99e893619ae121c9c1548ea586e041ff11072f9b055400e21fbba04608877cfbab2dd584d09b9588a091d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pytest-virtualenv \
+RPROVIDES:${PN} += "python3-pytest-virtualenv \
+python3.11dist-pytest-virtualenv \
 python311-pytest-virtualenv \
 python3dist-pytest-virtualenv"
 

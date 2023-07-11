@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later) & GPL-3.0-only-with
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-designercomponents-private-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "1efe68a3dfd476e6457aee9ca2a603df09b8b0591e1165fbd39c05579b7d47e68d917ff55080758bedf8ca834bad28fad1264b7cc45a677f32c1fb20c29b3244"
+RPM_NAME = "qt6-designercomponents-private-devel-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "d18d89b5a1a79393e4405d0736c9d9c101c5783d1ea8eb95309a7bb9dcb8bb8218a70b7abff32d346701bce414ac640ba921724d645701497095ccc435282c91"
 
 RPROVIDES:${PN} += "cmake-Qt6DesignerComponentsPrivate \
 qt6-designercomponents-private-devel"

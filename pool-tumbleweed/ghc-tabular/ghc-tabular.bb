@@ -18,8 +18,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.2.8"
 
-RPM_NAME = "ghc-tabular-0.2.2.8-4.3.aarch64.rpm"
-RPM_HASH = "850e4e866fde2a88a644c0093bb5d943f7de9c2d6e4017f93283b3481cc3be04555ec4798ae88b5ce57e0b8bd6d3e71e53d04d24ad84726644980f81f05c2f81"
+RPM_NAME = "ghc-tabular-0.2.2.8-4.6.aarch64.rpm"
+RPM_HASH = "d66c6714f01d40949810f0464c93d8c0000b0028e15ba5bdd7f6293f516078d29cab68ab3675b49f139a0769db7f731b74a9fdb140ba802da815892b4475cdde"
 
 RPROVIDES:${PN} += "ghc-tabular \
 libHStabular-0.2.2.8-5oBUDJP9F9qUMGPeotGAp-ghc9.4.5.so"

@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn13663"
 
-RPM_NAME = "texlive-texloganalyser-bin-2023.20230311.svn13663-91.1.aarch64.rpm"
-RPM_HASH = "063818e98e5dbebd426e4156e69f80f6b526e0977fdb15147593b6328de52704bc19731d3effd544db6c269d5cc7c0113b46220ac7c8264e09d66f1fe9e735f4"
+RPM_NAME = "texlive-texloganalyser-bin-2023.20230311.svn13663-92.1.aarch64.rpm"
+RPM_HASH = "1b5ce22221b3f4fc3855972ffe437f23b51543eb48acc0eda0405c5f4e930e87c7f1351f057f38ffbbda5fcb6bad561828598b754d91179cba16481e2c65a35d"
 
 RPROVIDES:${PN} += "texlive-texloganalyser-bin"
 

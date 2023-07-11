@@ -7,11 +7,12 @@ LICENSE = "Apache-2.0"
 
 PV = "2.12.0"
 
-RPM_NAME = "python311-aws-xray-sdk-mysql-connector-2.12.0-1.1.noarch.rpm"
-RPM_HASH = "9dd40e48d6ac60b26a47198ed4239bd16a08a30e0d46894032cc11de7d63c94ad65021549f8c46ce7957b46c789b08718855958f326ce1ad582dec88f071ceac"
+RPM_NAME = "python311-aws-xray-sdk-mysql-connector-2.12.0-2.3.noarch.rpm"
+RPM_HASH = "488c7687ec3d646ca1565e62ede94d1875e6f99e545bba51c116ddfac2614d831f9db842db107f3cbcaf66ca26805a74947a2f98a20181a79760cb2a724adb84"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python311-aws-xray-sdk-mysql-connector"
+RPROVIDES:${PN} += "python3-aws-xray-sdk-mysql-connector \
+python311-aws-xray-sdk-mysql-connector"
 
 RDEPENDS:${PN} += "python-abi \
 python311-aws-xray-sdk \

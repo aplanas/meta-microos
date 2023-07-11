@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.8.0"
 
-RPM_NAME = "libosmovty-devel-1.8.0-1.1.aarch64.rpm"
-RPM_HASH = "bfec05ed69ff28005126c6c25c36aff9b537a1a3de2d55e574e643b63aa634ba732c4371e28714bde31ba70aee949d3950cfe505c8d96dae24ef2898578d36e9"
+RPM_NAME = "libosmovty-devel-1.8.0-1.2.aarch64.rpm"
+RPM_HASH = "b283677329e9a047c2426f310eb3c587d759355dd16740f472ba6e06b4b0dc45cef565812ae36af8456e4e6f27f0cc7031b494e5d78a7d427a33ddb08cd15491"
 
 RPROVIDES:${PN} += "libosmovty-devel \
 pkgconfig-libosmovty"

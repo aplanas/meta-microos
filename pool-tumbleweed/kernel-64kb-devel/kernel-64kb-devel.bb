@@ -3,15 +3,15 @@ DESCRIPTION = "This package contains files necessary for building kernel modules
 kernel module packages) against the 64kb flavor of the kernel. \
  \
  \
-Source Timestamp: 2023-05-29 06:22:29 +0000 \
-GIT Revision: 2c66b1f470678d30f7dc560d1f3770e6e13b5e65 \
+Source Timestamp: 2023-06-22 03:53:43 +0000 \
+GIT Revision: 0df701dd2c208f4843cf219b4b26b533ada9bd34 \
 GIT Branch: stable"
 LICENSE = "GPL-2.0-only"
 
-PV = "6.3.4"
+PV = "6.3.9"
 
-RPM_NAME = "kernel-64kb-devel-6.3.4-1.1.aarch64.rpm"
-RPM_HASH = "704c5a97c9a78772b934490cfd4305444727cb703244fa0704effe048220b525cb84138a5efcb5fd91be1f3f2064faee3c2ffcb8cba5f81d5a4179d544263f44"
+RPM_NAME = "kernel-64kb-devel-6.3.9-1.1.aarch64.rpm"
+RPM_HASH = "6568f0be744f219ffa2621fce7fdb7112c1ba2792527ca4f003b28d9ad31f127658809826a6e114a02b81ef8957a0a6172fde0bad9eb269bcac6964888bc1a2e"
 
 RPROVIDES:${PN} += "kernel-64kb-devel \
 multiversion-kernel"

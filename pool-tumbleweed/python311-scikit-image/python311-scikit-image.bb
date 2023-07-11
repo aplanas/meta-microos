@@ -5,10 +5,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.19.3"
 
-RPM_NAME = "python311-scikit-image-0.19.3-1.8.aarch64.rpm"
-RPM_HASH = "b4ad4974def3242a3290342cac9c0c6253c20a37802bda55f0ada54a80eaf68460ca6fcfe488ec14f22d4e7a10a1058c8a4356dc4b86251e0eee61bdf14b78d3"
+RPM_NAME = "python311-scikit-image-0.19.3-1.10.aarch64.rpm"
+RPM_HASH = "fb5feef266e6d32177e5e7f1978e2943ecf9af34ff94e00220d875433ec523981f4761d49dd8a86f33348951823f80f9bb5b5a94fcf469907bedc9dcbc35cb74"
 
-RPROVIDES:${PN} += "python3.11dist-scikit-image \
+RPROVIDES:${PN} += "python3-scikit-image \
+python3.11dist-scikit-image \
 python311-scikit-image \
 python3dist-scikit-image"
 

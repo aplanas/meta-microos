@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
 PV = "3.16"
 
-RPM_NAME = "mailutils-notify-3.16-1.2.aarch64.rpm"
-RPM_HASH = "86d7db3abccbf15743553dd49329841303bd736eaf8a7a47962439bef50a09f205ed327c0a89dc6e762414b23a4b8bd9ea8a7d4d321a9e644886f736dc8c0da8"
+RPM_NAME = "mailutils-notify-3.16-1.3.aarch64.rpm"
+RPM_HASH = "dac81d04416872d1e8019a657c4fd090d6a8aa0da09505a74f13f51a71913ca429410a8d66bb00d68902b3f755d247d35d57de697d333da2441576ea3305846b"
 
 RPROVIDES:${PN} += "mailutils-notify"
 

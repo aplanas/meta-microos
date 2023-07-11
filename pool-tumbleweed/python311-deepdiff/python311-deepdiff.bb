@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "6.3.0"
 
-RPM_NAME = "python311-deepdiff-6.3.0-1.1.noarch.rpm"
-RPM_HASH = "ca2b7294272579039ff5d3d692b235714253fdd4db7c44e4160b41712656679e7a681e1c5d1624087a61514e3c03198d6a27237f3ec24bebec3eb02ed4fc4dbc"
+RPM_NAME = "python311-deepdiff-6.3.0-2.3.noarch.rpm"
+RPM_HASH = "51923c13cc74385c8f8356d0a4f182849ffbcaff6d423809b808ecb0f0a82e6be14b931c80c580c38e49b2fcc1784ba6a5dbce49cdde46007722ec78c9be82a4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-deepdiff \
+RPROVIDES:${PN} += "python3-deepdiff \
+python3.11dist-deepdiff \
 python311-deepdiff \
 python3dist-deepdiff"
 

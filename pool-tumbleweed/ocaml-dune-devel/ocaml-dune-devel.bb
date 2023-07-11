@@ -15,10 +15,10 @@ stdune \
 xdg"
 LICENSE = "MIT"
 
-PV = "3.7.1"
+PV = "3.8.3"
 
-RPM_NAME = "ocaml-dune-devel-3.7.1-1.1.aarch64.rpm"
-RPM_HASH = "28b4aefb90faba43cd9d34278173d640bf81b18b781a6e57d690274be5b38e24e48876ec63b94030d64181b1a01eab9594d86248b8c38375825ad9a1ac88409c"
+RPM_NAME = "ocaml-dune-devel-3.8.3-1.1.aarch64.rpm"
+RPM_HASH = "1edbf35aa6985b0ef81bf63e62865662d4046ade2afeaab453c1bec9d9f88c4e0d75ac414bb46b2f6a17640144394de1974c33b6d23bf1e2db3116b51cfde41b"
 
 RPROVIDES:${PN} += "ocaml-Build-info \
 ocaml-Build-info-- \
@@ -83,6 +83,10 @@ ocaml-Dune-site \
 ocaml-Dune-site-- \
 ocaml-Dune-site--Dune-site-data \
 ocaml-Dune-site--Helpers \
+ocaml-Dune-site-backend \
+ocaml-Dune-site-backend--Linker \
+ocaml-Dune-site-backend--dune-site-dynlink-linker-- \
+ocaml-Dune-site-backend--dune-site-toplevel-linker-- \
 ocaml-Dune-site-plugins \
 ocaml-Dune-site-plugins-- \
 ocaml-Dune-site-plugins--Dune-site-plugins-data \
@@ -113,6 +117,8 @@ ocaml-Stdune--Code-error \
 ocaml-Stdune--Comparable \
 ocaml-Stdune--Comparable-intf \
 ocaml-Stdune--Comparator \
+ocaml-Stdune--Dev-null \
+ocaml-Stdune--Dune-either \
 ocaml-Stdune--Either \
 ocaml-Stdune--Env \
 ocaml-Stdune--Env-path \
@@ -147,6 +153,7 @@ ocaml-Stdune--Or-exn \
 ocaml-Stdune--Path \
 ocaml-Stdune--Path-intf \
 ocaml-Stdune--Pid \
+ocaml-Stdune--Platform \
 ocaml-Stdune--Poly \
 ocaml-Stdune--Predicate \
 ocaml-Stdune--Proc \
@@ -193,8 +200,11 @@ ocamlfind-dune-private-libs.ocaml-config \
 ocamlfind-dune-rpc \
 ocamlfind-dune-rpc.private \
 ocamlfind-dune-site \
+ocamlfind-dune-site.dynlink \
+ocamlfind-dune-site.linker \
 ocamlfind-dune-site.plugins \
 ocamlfind-dune-site.private \
+ocamlfind-dune-site.toplevel \
 ocamlfind-dune.configurator \
 ocamlfind-dyn \
 ocamlfind-dyn.pp \
@@ -265,6 +275,9 @@ ocamlx-Dune-section \
 ocamlx-Dune-site \
 ocamlx-Dune-site-- \
 ocamlx-Dune-site--Helpers \
+ocamlx-Dune-site-backend \
+ocamlx-Dune-site-backend--Linker \
+ocamlx-Dune-site-backend--dune-site-dynlink-linker-- \
 ocamlx-Dune-site-plugins \
 ocamlx-Dune-site-plugins-- \
 ocamlx-Dune-site-plugins--Meta-parser \
@@ -294,6 +307,8 @@ ocamlx-Stdune--Code-error \
 ocamlx-Stdune--Comparable \
 ocamlx-Stdune--Comparable-intf \
 ocamlx-Stdune--Comparator \
+ocamlx-Stdune--Dev-null \
+ocamlx-Stdune--Dune-either \
 ocamlx-Stdune--Either \
 ocamlx-Stdune--Env \
 ocamlx-Stdune--Env-path \
@@ -328,6 +343,7 @@ ocamlx-Stdune--Or-exn \
 ocamlx-Stdune--Path \
 ocamlx-Stdune--Path-intf \
 ocamlx-Stdune--Pid \
+ocamlx-Stdune--Platform \
 ocamlx-Stdune--Poly \
 ocamlx-Stdune--Predicate \
 ocamlx-Stdune--Proc \
@@ -359,9 +375,24 @@ ocamlx-Stdune--User-warning \
 ocamlx-Xdg"
 
 RDEPENDS:${PN} += "libc.so.6 \
+ocaml-Asttypes \
+ocaml-Build-path-prefix-map \
 ocaml-CamlinternalFormatBasics \
 ocaml-CamlinternalLazy \
+ocaml-Cmi-format \
 ocaml-Dynlink \
+ocaml-Env \
+ocaml-Ident \
+ocaml-Identifiable \
+ocaml-Load-path \
+ocaml-Location \
+ocaml-Longident \
+ocaml-Misc \
+ocaml-Outcometree \
+ocaml-Parsetree \
+ocaml-Path \
+ocaml-Primitive \
+ocaml-Shape \
 ocaml-Stdlib \
 ocaml-Stdlib--Arg \
 ocaml-Stdlib--Array \
@@ -372,6 +403,7 @@ ocaml-Stdlib--Bytes \
 ocaml-Stdlib--BytesLabels \
 ocaml-Stdlib--Char \
 ocaml-Stdlib--Complex \
+ocaml-Stdlib--Digest \
 ocaml-Stdlib--Either \
 ocaml-Stdlib--Filename \
 ocaml-Stdlib--Format \
@@ -402,8 +434,15 @@ ocaml-Stdlib--String \
 ocaml-Stdlib--StringLabels \
 ocaml-Stdlib--Sys \
 ocaml-Stdlib--Uchar \
+ocaml-Subst \
+ocaml-Topdirs \
+ocaml-Toploop \
+ocaml-Type-immediacy \
+ocaml-Types \
 ocaml-Unix \
+ocaml-Warnings \
 ocamlfind-compiler-libs \
+ocamlfind-compiler-libs.toplevel \
 ocamlfind-dynlink \
 ocamlfind-unix \
 ocamlx-CamlinternalLazy \

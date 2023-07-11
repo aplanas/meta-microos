@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-pdfwidgets-private-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "add8afb0ef277196f371f612d54c1796ca15162c368a08a5ffb38431176a62116b97473185424472e8e08f95efd55046b841667a01f8c5ef86d8e9f0cb28bbf7"
+RPM_NAME = "qt6-pdfwidgets-private-devel-6.5.1-1.3.aarch64.rpm"
+RPM_HASH = "07ef99dae3f41b39776dca7bfef4c8801fe56bd135629bc1a8e7676c4752ee284633d7cdbe46fc7b6b461527b5984419789bb2e2c71941d99e0e402d2fcb0157"
 
 RPROVIDES:${PN} += "qt6-pdfwidgets-private-devel"
 

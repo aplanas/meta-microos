@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.4.0"
 
-RPM_NAME = "remontoire-1.4.0-1.13.aarch64.rpm"
-RPM_HASH = "1f961961c66d41070858e0e7effde45fb5bbf459d1037b24b0e4e26c1958400ff0c6b517c8f5080f70a1ca1bb7c1aef083c30f15f10fdcff5b648ad5aef28c74"
+RPM_NAME = "remontoire-1.4.0-1.14.aarch64.rpm"
+RPM_HASH = "393cba89019c3db535a727ad059393b00c41824c9fab7fc0c5a455a35f54fc8b383ef329e74a75f01ae4b0b60a47e3ae47e73ac24ed97f4af312f5b27697054a"
 
 RPROVIDES:${PN} += "remontoire"
 

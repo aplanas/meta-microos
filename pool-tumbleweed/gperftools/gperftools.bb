@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.10"
 
-RPM_NAME = "gperftools-2.10-1.5.aarch64.rpm"
-RPM_HASH = "28479ad16a6423fb4ba2c9d045115237f10efb2d1a5b6b0a56303ccf4d60609a1ad7d76624a915d858d0893080c2b0b3f7b66e486ffbcf0cce078adec16fc9da"
+RPM_NAME = "gperftools-2.10-1.6.aarch64.rpm"
+RPM_HASH = "a613a48ba1d50cc6eb1bdc9b5f6f0ebff549f135885bf9f7cf012aed5ef8e82115c49ce0a7c04e1319dfd44b605ff7118c84a6d3ad6fdf3cb2faebf69775e0e7"
 
 RPROVIDES:${PN} += "google-perftools \
 gperftools"

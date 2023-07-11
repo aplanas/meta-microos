@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "9.24.61"
 
-RPM_NAME = "kiwi-systemdeps-iso-media-9.24.61-1.1.aarch64.rpm"
-RPM_HASH = "b873b3ae4575ddacab7ae975dde3931e93c06d2432044cb11f58baeb0b92223711225231d8fc95142be30f9d98dda6fc3865228bd82ac04f407edb94b2477804"
+RPM_NAME = "kiwi-systemdeps-iso-media-9.24.61-1.2.aarch64.rpm"
+RPM_HASH = "b4502862681a3b021d1aee481423ade5fcdf5fdfa4edc40f766f25f6a08272c54615516518cafb7921b2ddf0e20b0890ed5f723e45464ccae2339166d07a9ff5"
 
 RPROVIDES:${PN} += "kiwi-image-iso \
 kiwi-image-iso-requires \

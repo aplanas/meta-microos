@@ -2,10 +2,10 @@ SUMMARY = "Translations for package mutter"
 DESCRIPTION = "Provides translations for the 'mutter' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.1+2"
+PV = "44.2"
 
-RPM_NAME = "mutter-lang-44.1+2-3.1.noarch.rpm"
-RPM_HASH = "fadc3cb62a81f26130a3b1219e2ecfd464fa2ae576fc58c65051fda74d3b97232f53bc85bdc53e45b29b9e35f1e0a0ac208483601d3b6ad7e4ce1b2972b22d55"
+RPM_NAME = "mutter-lang-44.2-1.1.noarch.rpm"
+RPM_HASH = "3d8ef8dc6179b40ad1bcbb7a1fd275d703d054ad46cf356027cb8d809460b7d3fcfe0057db58f6bdb7d19832569510e95fab6e6d23c94d1c7f2e434941e7b890"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mutter-ar \

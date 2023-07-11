@@ -5,12 +5,11 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "3.0.0"
 
-RPM_NAME = "python310-pygal-3.0.0-3.1.noarch.rpm"
-RPM_HASH = "939546204c8f61bc9165f8fbee52efb7a784e76352fdb1902f6e39f3ed1bf22e9328413bb8f38a86a912cb8cb4c7ca7feac36d09a8a25f455d965eb0feea00e3"
+RPM_NAME = "python310-pygal-3.0.0-3.3.noarch.rpm"
+RPM_HASH = "cb30b6157ee8f8b81be659d728fb66e9664ede99d5a58db3f7a6759e23b5030015695120bf42d967e5d9ccd18c4b8c0cc936d45dcf82812c8b9227ef18fa48fc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pygal \
-python3.10dist-pygal \
+RPROVIDES:${PN} += "python3.10dist-pygal \
 python310-pygal \
 python3dist-pygal"
 

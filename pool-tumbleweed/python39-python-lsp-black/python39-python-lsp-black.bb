@@ -10,10 +10,10 @@ To avoid unexpected results you should make sure yapf and autopep8 are not insta
 - python-lsp-black will use your project's pyproject.toml if it has one."
 LICENSE = "MIT"
 
-PV = "1.2.1"
+PV = "1.3.0"
 
-RPM_NAME = "python39-python-lsp-black-1.2.1-1.4.noarch.rpm"
-RPM_HASH = "96307f0b05114fdc4143a6477dc115b42405a59a82a17f33cc2e46f8e10dd33224b66dc3c1874cf65fc5f674af455e04ff8ecc77d0ff52b127037a4cb42ca375"
+RPM_NAME = "python39-python-lsp-black-1.3.0-1.1.noarch.rpm"
+RPM_HASH = "c3574cb1b2d1977a58ad009268ec2645a865c1d59a92a7ca3780f887cf1e969b600fe0a1fe2b906a67fa2b453475d676cc2d1f0efce3426cb0dca62d21adb551"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-python-lsp-black \
@@ -23,6 +23,6 @@ python3dist-python-lsp-black"
 RDEPENDS:${PN} += "python-abi \
 python39-black \
 python39-python-lsp-server \
-python39-toml"
+python39-tomli"
 
 inherit rpm

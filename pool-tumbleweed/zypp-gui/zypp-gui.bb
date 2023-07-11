@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.2.0"
 
-RPM_NAME = "zypp-gui-0.2.0-1.1.aarch64.rpm"
-RPM_HASH = "b56d969941d812ba87f860404b32947be227369fa3f3da98cfb5d2b7e7709d8c41095f61be6f6a4a390a42b4686f31a21e2f978bf377863e2d57d44fac654a8b"
+RPM_NAME = "zypp-gui-0.2.0-1.2.aarch64.rpm"
+RPM_HASH = "530992b43181814b1304a3531b95b30642d35e9cac43fef1f79f9a251089e5eae50f127749ff9a0a6eb6a042da08fc2059be2d9d5f4ac7d0f61275fbac43bccf"
 
 RPROVIDES:${PN} += "zypp-gui"
 

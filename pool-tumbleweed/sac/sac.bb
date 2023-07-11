@@ -5,8 +5,8 @@ LICENSE = "W3C"
 
 PV = "1.3"
 
-RPM_NAME = "sac-1.3-11.5.noarch.rpm"
-RPM_HASH = "4406e60ded7409dc59cf6acaf27ca9a59d06fb42c89f863eaae2a39600873891483e9886641d8b1e188293ab74f5d47bd74af4415181a4bfcf6a7c8eace5e8c7"
+RPM_NAME = "sac-1.3-11.6.noarch.rpm"
+RPM_HASH = "f05e8b209a1288b60a2ade40f176d82752984d225f0c9d8856adb8387504cb210d87616b000da0f9f197baa7fc07726e6bed627ed304cac7f1f0dcc508417677"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.w3c.css-sac \

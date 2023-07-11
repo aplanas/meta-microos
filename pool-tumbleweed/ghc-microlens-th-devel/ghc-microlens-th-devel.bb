@@ -2,12 +2,12 @@ SUMMARY = "Haskell microlens-th library development files"
 DESCRIPTION = "This package provides the Haskell microlens-th library development files."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.4.3.12"
+PV = "0.4.3.13"
 
-RPM_NAME = "ghc-microlens-th-devel-0.4.3.12-1.2.aarch64.rpm"
-RPM_HASH = "9d95bdbbba21e7604e30f84a7e8abee6e8bc8ef424f574250a6ff2d51a154c0db8049f4220852667cff80d8c2c95651920ac6a742c1fce52b9e49fefb0ad5a62"
+RPM_NAME = "ghc-microlens-th-devel-0.4.3.13-1.1.aarch64.rpm"
+RPM_HASH = "5a62c2a705013cc2a486e7b85409cb6ab0c621e33ca008674d220d9818663fcdf0545b8c1ce4a5a94b4f89306d8498e4b38228363635eb2d036fe9d85bc976d7"
 
-RPROVIDES:${PN} += "ghc-devel-microlens-th-0.4.3.12-A1OnPrF7gbKLp2skY17lAG \
+RPROVIDES:${PN} += "ghc-devel-microlens-th-0.4.3.13-4M5tTOX0ioLGTMiKBp6v2C \
 ghc-microlens-th-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

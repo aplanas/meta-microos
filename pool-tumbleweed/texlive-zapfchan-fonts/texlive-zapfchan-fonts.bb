@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.201.svn61719"
 
-RPM_NAME = "texlive-zapfchan-fonts-2023.201.svn61719-52.1.noarch.rpm"
-RPM_HASH = "d8a34aa4275b93a0d8c44b9f1faf6b98d9603f3fa0658ddade2726764201ada3e54a421b11a96d849a38033a3095a8b8536fdfab241b3e959a995ea290165f30"
+RPM_NAME = "texlive-zapfchan-fonts-2023.201.svn61719-52.2.noarch.rpm"
+RPM_HASH = "0791440ef499f31cb634edbda2972226acf140ff787ab03fd0618975d12fba2885fd2ef31aca04430e40d0253a99673a379c217bca41fb5b7c4faf4995d28bbe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

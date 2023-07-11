@@ -16,8 +16,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "3.300"
 
-RPM_NAME = "perl-Pod-Markdown-3.300-1.11.noarch.rpm"
-RPM_HASH = "45859b29e343c37c337b5ad3ecfd40e477668f57a13c46556a136fbc856d2ebb36b1fa86a7f8d9b0f731e3edc8a2914e9933677b2d5cde982da1238b355f9e97"
+RPM_NAME = "perl-Pod-Markdown-3.300-1.12.noarch.rpm"
+RPM_HASH = "553594c1575f51e40e2d73c8752c2a4910ee1b8003f20efb5a40c55a2159782e8178a4fb1f5e2fa65f27c709b4f9a6a0256597563f059f6bd178c3952d03ed1a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Pod--Markdown \
@@ -25,7 +25,7 @@ perl-Pod--Perldoc--ToMarkdown \
 perl-Pod-Markdown"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-Pod--Simple \
 perl-Pod--Simple--Methody \
 perl-URI--Escape \

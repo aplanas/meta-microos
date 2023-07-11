@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "5.2.5"
 
-RPM_NAME = "pcp-pmda-shping-5.2.5-3.4.aarch64.rpm"
-RPM_HASH = "496d51a304ccdf3717914fbb16f786afe3f2568d0d2036dd1bb85aecd9584d2825d57196254f9b075c0d64fc1ae81cc23c7c02d02aa802b7db432884e4d0df03"
+RPM_NAME = "pcp-pmda-shping-5.2.5-3.7.aarch64.rpm"
+RPM_HASH = "075cf4bd1a7662ace702be2eb7efd1ccc09b1fcf158b30d401f40b9eb79242fee54e044a0c610fdca81ecbd99d57935bd43b3674002d31dbee1a6733f5646091"
 
 RPROVIDES:${PN} += "config-pcp-pmda-shping \
 pcp-pmda-shping"

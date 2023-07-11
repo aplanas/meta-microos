@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.9"
 
-RPM_NAME = "systemtap-sdt-devel-4.9-1.1.aarch64.rpm"
-RPM_HASH = "fd86012dbec35579880f2797b6dd627e067767fd05a8048d3ae943a0acb5ad79072826c32aee8844b8befe393e29b80d6f90a7ed6ea1523a25619900f47f6f5b"
+RPM_NAME = "systemtap-sdt-devel-4.9-1.2.aarch64.rpm"
+RPM_HASH = "add8d9c752d30db6fd19a6040f253f4c635d189725a314163f28a3c2f35956d684155935546136de8bb54b5741ba126128c8be97761ddc80d71d879acb967bca"
 
 RPROVIDES:${PN} += "systemtap-sdt-devel"
 

@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.8.2"
 
-RPM_NAME = "dLeyna-0.8.2-2.3.aarch64.rpm"
-RPM_HASH = "f8574a647eccca7281dbe1b6ea7baa63864be1e9b92e3d10928b7c004e8e00bc76e069233484793bab290d7512b1f6deccda07b724ab528c522e00c476cb40f5"
+RPM_NAME = "dLeyna-0.8.2-2.4.aarch64.rpm"
+RPM_HASH = "fc834448b0afd51944a9002d3344d00c548e90d5624ec6beafaa240cfb90e983447b996addac70891c7472d81a80b5e298ccfc34c069f9d3bd6d794f77448b9e"
 
 RPROVIDES:${PN} += "config-dLeyna \
 dLeyna \

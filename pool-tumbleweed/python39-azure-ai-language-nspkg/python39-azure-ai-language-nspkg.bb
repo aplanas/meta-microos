@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python39-azure-ai-language-nspkg-1.0.0-1.7.noarch.rpm"
-RPM_HASH = "f017eb3cca9392e080f268e50533bc00e57b3d4f09b09b21265ce4cbfa5a23281edbadc2488d70a1529c7369f38311e35add09548eb079aa6fb2be573cec2976"
+RPM_NAME = "python39-azure-ai-language-nspkg-1.0.0-1.8.noarch.rpm"
+RPM_HASH = "2ad1ebfa1b255f1ab15d5c7b95b1a779617302e094218cb940d966b78195361fe549e05417b0148e5b87c9650826404e0c70a731ad66c9aa3ad4d6ef7c59b0bd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-ai-language-nspkg \

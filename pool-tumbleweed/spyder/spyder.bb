@@ -13,13 +13,13 @@ LICENSE = "MIT"
 
 PV = "5.4.3"
 
-RPM_NAME = "spyder-5.4.3-1.1.noarch.rpm"
-RPM_HASH = "5b2564f49aadde9780291474c40bb49a36774eb6c8fddeebb74eae558716908a6b44f5cb67f819ea01ec47677f314c97077f91ab9c657e25685a375aff4f9f2e"
+RPM_NAME = "spyder-5.4.3-1.2.noarch.rpm"
+RPM_HASH = "f61bb24829edc6c0b228b2d20c59106d591b1ec430ee1616fec3fb58cd13b6bd15ff1c2b0cdba781d44235c1f7ca7cb786e657c897d068bf4857e3bca30bb0c4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-spyder \
 python3-spyderlib \
-python3.10dist-spyder \
+python3.11dist-spyder \
 python3dist-spyder \
 spyder \
 spyder3 \
@@ -34,7 +34,7 @@ RDEPENDS:${PN} += "-python3-QDarkStyle >= 3.0.2 with python3-QDarkStyle < 3.2.0 
 -python3-qtconsole >= 5.4.2 with python3-qtconsole < 5.5.0 \
 -python3-spyder-kernels >= 2.4.3 with python3-spyder-kernels < 2.5 \
 /usr/bin/bash \
-/usr/bin/python3.10 \
+/usr/bin/python3.11 \
 cookiecutter \
 python-abi \
 python3-Pygments \

@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.8.7"
 
-RPM_NAME = "pulseeffects-4.8.7-1.8.aarch64.rpm"
-RPM_HASH = "b2d5be8a4d195566d4ae5aa7c60e07033a212d4c75e13ecc2aab076db54a33cc0fba4a4815d4876d42a905b5103501dcfd7ab34d3b30a99f86632e6300044ae6"
+RPM_NAME = "pulseeffects-4.8.7-1.9.aarch64.rpm"
+RPM_HASH = "8bfde0cd82cea20c0717855cc3aff39b1d3157f3f6ede8d48aa066a70c4d2d3e51a677dea4a72ae58451f44609b0db2b00e400bff798ec833cc6e722d11809ca"
 
 RPROVIDES:${PN} += "gstreamer1 \
 libgstpeadapter.so \

@@ -13,11 +13,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "4.4.12"
 
-RPM_NAME = "python311-pysnmp-4.4.12-2.13.noarch.rpm"
-RPM_HASH = "1179226c3a940d7c7e770e8546568e58339572ddbde73d75cae371a36835737fcd6385ee5bbd358850e0eab1e2c3b2b3dcb41f7c4ddee72b46428aa15e9be330"
+RPM_NAME = "python311-pysnmp-4.4.12-2.15.noarch.rpm"
+RPM_HASH = "c2d1381dd14920f2358a7b07e05982d3339200d71a6a2c2e93d5572a3db46a1647d87347980e0b11f5d0ccf6b331a8ac4b33407f5452e5c85105f5e9969fb5e2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pysnmp \
+RPROVIDES:${PN} += "python3-pysnmp \
+python3.11dist-pysnmp \
 python311-pysnmp \
 python3dist-pysnmp"
 

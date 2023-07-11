@@ -2,14 +2,13 @@ SUMMARY = "LuaDNS Authenticator plugin for Certbot"
 DESCRIPTION = "LuaDNS DNS Authenticator plugin for Certbot."
 LICENSE = "Apache-2.0"
 
-PV = "1.31.0"
+PV = "2.6.0"
 
-RPM_NAME = "python310-certbot-dns-luadns-1.31.0-1.4.noarch.rpm"
-RPM_HASH = "b0bed8eff67d8e0607231dccabe118171cc1fae25f7fe4e44f999af687cb501240840223f5db11b08ebe9b032a9aedc8b2224d86f64bed6d5a55ee6d99785abf"
+RPM_NAME = "python310-certbot-dns-luadns-2.6.0-1.3.noarch.rpm"
+RPM_HASH = "386f4158b3aebef81f313fe2aec25fae71a0fcde59984fa1e591b26b875ecd1b63d9262d64b7359756a7c530217f955c96c94bb9ca2155884c3ef53295fd2121"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-certbot-dns-luadns \
-python3.10dist-certbot-dns-luadns \
+RPROVIDES:${PN} += "python3.10dist-certbot-dns-luadns \
 python310-certbot-dns-luadns \
 python3dist-certbot-dns-luadns"
 

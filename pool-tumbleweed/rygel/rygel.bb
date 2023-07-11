@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "0.42.3"
 
-RPM_NAME = "rygel-0.42.3-1.1.aarch64.rpm"
-RPM_HASH = "c5118fbc7f03e0c45e31a4ad1b9f5b21ae1e6eca1ac35ff9ed454074d8fcd3197a56219a79aca9e6eb37879286e40f6316bfb826cadc5f5991bf1d3b66fbca2a"
+RPM_NAME = "rygel-0.42.3-1.2.aarch64.rpm"
+RPM_HASH = "36d78d7ea16f26c938ca34554a1efe94e56fd45d68c09bdb06bb13b4e29712024dfaeaff2b933e44e1dd3305504464d24d8748ccd7e2b8d06b012247db3e34a9"
 
 RPROVIDES:${PN} += "config-rygel \
 librygel-external.so \

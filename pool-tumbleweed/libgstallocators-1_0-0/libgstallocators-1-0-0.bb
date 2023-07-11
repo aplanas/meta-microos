@@ -6,10 +6,10 @@ videos. Its plug-in-based architecture means that new data types or \
 processing capabilities can be added simply by installing new plug-ins."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.22.3"
+PV = "1.22.4"
 
-RPM_NAME = "libgstallocators-1_0-0-1.22.3-1.1.aarch64.rpm"
-RPM_HASH = "6925bf4e6e72cbdd6af38287dcb7958b73d32055a4fcf27cee7d853d9ee3ed4527f1aaf2cb94f56f970fcfa6c46c930546ab97188139d31831bf630db449d778"
+RPM_NAME = "libgstallocators-1_0-0-1.22.4-1.1.aarch64.rpm"
+RPM_HASH = "5f0cad27c0809b26b1a9a78ebaf69363b1c4da1490ac2f44274e2a1ff9bfbbe62d8fafb9e7106e6dcf67d152932b9eb790fdfb5f00cd736f1b2adaf0d1409d4d"
 
 RPROVIDES:${PN} += "libgstallocators-1-0-0 \
 libgstallocators-1.0.so.0"

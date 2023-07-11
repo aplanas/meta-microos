@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.12.0"
 
-RPM_NAME = "crispy-doom-bash-completion-5.12.0-1.1.noarch.rpm"
-RPM_HASH = "7514edaaf8a668fe545f3e914fb99c58a85895f80f7ad92fc5692c8595565a743f16d33cc7bd16f1d1f6151d3841a0a35866cbf8ac65475b65a219394f30386a"
+RPM_NAME = "crispy-doom-bash-completion-5.12.0-1.2.noarch.rpm"
+RPM_HASH = "195fd1d8e6a53b4a3809f8c3657a7a445bf065a20f64913e4e954448e1821b36ae1a12715df0447b4f121413aeeb9eb2c4608885caea61d825ba19ee46574bf8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "crispy-doom-bash-completion"

@@ -7,13 +7,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.25"
 
-RPM_NAME = "perl-Net-Ident-1.25-1.13.noarch.rpm"
-RPM_HASH = "affddcee0d2ad6d74e662b4204ad46787230fe91af5ced4d66ff215faf3f2f09354d931bfa429ec6265757f1b33f10473c58258f9d4e4b346930a8ee0e248544"
+RPM_NAME = "perl-Net-Ident-1.25-1.14.noarch.rpm"
+RPM_HASH = "fb773d54f84dbef8593b9e2cad91e9b3fc41ba59c861dae73ddfe7fc5dd935eeb8461577047d0b7ea6b82b8dc066f581e09643e59a74e1ed98547f14a4584297"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Net--Ident \
 perl-Net-Ident"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

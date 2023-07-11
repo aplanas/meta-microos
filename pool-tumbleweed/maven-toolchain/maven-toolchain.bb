@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.2.1"
 
-RPM_NAME = "maven-toolchain-2.2.1-3.8.noarch.rpm"
-RPM_HASH = "e75ada6b989082450e1908e38f7a0d9a86c8c693fbd28ba07ba6eecf2d811e9bfb1c8f3f4a86778a9ce6b92f4fe8960e8595c452565f5c9f6e0c890c8edb1ddb"
+RPM_NAME = "maven-toolchain-2.2.1-3.9.noarch.rpm"
+RPM_HASH = "56e7c5aae0cb7e2638fdc4f94f5c7146ab7b6fb4964e56aafa662386851245eaee25c29086efc67f7574fc5faf474652f132bc203dbcf6e460f42f24495ab38e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-toolchain \

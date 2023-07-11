@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.0.1"
 
-RPM_NAME = "python39-click-aliases-1.0.1-3.12.noarch.rpm"
-RPM_HASH = "b422eae0306a0cbb20695bddcee04786b0fa0f391e7fc0393d59922726b6e6a56474bc68547c00c82515aac32054634a31f2d83614be6be3d4aad3a0e1a7323c"
+RPM_NAME = "python39-click-aliases-1.0.1-3.14.noarch.rpm"
+RPM_HASH = "3f71acda74c9552c2f7eb435c7109607af62a7ec1798a1b53dd2afb566f1559bd59cac381d748a1b214e2ca326048b07de7f283b3b2f351929caa56b63ea4940"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-click-aliases \

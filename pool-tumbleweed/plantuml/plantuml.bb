@@ -15,8 +15,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.2023.1"
 
-RPM_NAME = "plantuml-1.2023.1-1.3.noarch.rpm"
-RPM_HASH = "768ce7a42f4d2de10b6eada30e265f99632cf7452ea159cdc0624bedc0b35d9bb95ea572e086952492724b1532db1f5daa7d1db84a492fd28379fcca9b6497c7"
+RPM_NAME = "plantuml-1.2023.1-1.4.noarch.rpm"
+RPM_HASH = "98fbd3b8b4cdb4b50e8a9e688529609b02dd3d497027b2c2fcc39a5b33b170b62b01f19d3b0250775ed54237e7a5f93dc6f84e5c0bd76c22b0aaa3ada2e7ca80"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-net.sourceforge.plantuml-plantuml \

@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "python310-azure-mgmt-frontdoor-1.1.0-1.1.noarch.rpm"
-RPM_HASH = "65c14b44619c38d588d5a13ea69ead2ab726fa6b1224d08c841ea0d33d61b6a746003b7ddffef045b0b1366370c19f85ca55cd947584611ff5ebc06a7b27eafd"
+RPM_NAME = "python310-azure-mgmt-frontdoor-1.1.0-1.2.noarch.rpm"
+RPM_HASH = "69f76d4ea274692f4f41c92b8da32cfd154535b0b32e1bf3d31a66a181f1380c63da81551244c6b04fbb03d18a9d854aba40cf7ed58044465aaff513592fe911"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-frontdoor \
-python3.10dist-azure-mgmt-frontdoor \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-frontdoor \
 python310-azure-mgmt-frontdoor \
 python3dist-azure-mgmt-frontdoor"
 

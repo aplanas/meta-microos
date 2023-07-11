@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.53"
 
-RPM_NAME = "ktoblzcheck-1.53-1.4.aarch64.rpm"
-RPM_HASH = "82fbe386745baf29f2279f4a4eb273c3a2f5970d1ff5f26f4d53bc888ccbd1adeaafbea55fbdea69855cbd1ce5ffe736e0d24939d9c3a2950e0eb64c6eeea58e"
+RPM_NAME = "ktoblzcheck-1.53-1.5.aarch64.rpm"
+RPM_HASH = "342228f130a2a9112e1224e790fa31a8af5052a15d97fc1087ac134a74a86d9d5e2a035e76b3886298a8f7225db558017e22dd3ba68cd5296e6daa8789b82fd6"
 
 RPROVIDES:${PN} += "ktoblzcheck"
 

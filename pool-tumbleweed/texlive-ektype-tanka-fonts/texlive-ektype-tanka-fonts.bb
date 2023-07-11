@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.2svn63255"
 
-RPM_NAME = "texlive-ektype-tanka-fonts-2023.201.0.0.2svn63255-53.1.noarch.rpm"
-RPM_HASH = "37e07b08fb11ac405b1ee9c4b1d09d41e812b0220d071b614d80c5bb2136a884ec0b86df829ca75c8746703f791fef1fcabb1426586a5d4774c4b6647309b15f"
+RPM_NAME = "texlive-ektype-tanka-fonts-2023.201.0.0.2svn63255-53.2.noarch.rpm"
+RPM_HASH = "ee0fbdde506a58d46ab0673991b7a14d0368f11513e6bd4d9cdf610ff69555830fa06a83bf9a13bbe4cecc87cff59049b8ba7e348b396fc4472b7fb89e796ea2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

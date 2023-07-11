@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.33.3+git.20171101"
 
-RPM_NAME = "python311-gps3-0.33.3+git.20171101-1.19.noarch.rpm"
-RPM_HASH = "dde823fc69e710eba07b30752aa13afbf5118d18d0d13e6d552c741f3096a53256e8baea55020df321f38ad09ae2dee1fb8e782ad8469be05bc6763c22b5cf15"
+RPM_NAME = "python311-gps3-0.33.3+git.20171101-1.20.noarch.rpm"
+RPM_HASH = "21e78a7efa37afd590411a865e520a80b879e7a72207e14f9d2cab3d90d58ebe2690c64384bbd3a7eece3230a31fe79acbb490a4817640ae278032f793f0995a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-gps3 \
+RPROVIDES:${PN} += "python3-gps3 \
+python3.11dist-gps3 \
 python311-gps3 \
 python3dist-gps3"
 

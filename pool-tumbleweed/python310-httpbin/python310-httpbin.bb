@@ -11,12 +11,11 @@ LICENSE = "MIT"
 
 PV = "0.7.0+git20181107.f8ec666"
 
-RPM_NAME = "python310-httpbin-0.7.0+git20181107.f8ec666-6.1.noarch.rpm"
-RPM_HASH = "602df21f5b19941c43625a4f47fee00ca57c45729cdc2fdf6aff54fc13543615476287b223f6cf807152d68e267f33650816edf77888a34695e509b873b118ba"
+RPM_NAME = "python310-httpbin-0.7.0+git20181107.f8ec666-7.1.noarch.rpm"
+RPM_HASH = "f0d08042b810a74c1ca3ca05ed8f253e5fdc40de7e1ff344c390d094ab37d350b11bd4bec694313d127021d29dd04d71f46b52e9b8899eb12c808c1a9c59b5a4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-httpbin \
-python3.10dist-httpbin \
+RPROVIDES:${PN} += "python3.10dist-httpbin \
 python310-httpbin \
 python3dist-httpbin"
 
@@ -25,7 +24,6 @@ python310-Brotli \
 python310-Flask \
 python310-MarkupSafe \
 python310-Werkzeug \
-python310-blinker \
 python310-decorator \
 python310-flasgger \
 python310-gevent \

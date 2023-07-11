@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2.16"
 
-RPM_NAME = "stuntman-1.2.16-2.10.aarch64.rpm"
-RPM_HASH = "04e7eb91b95a9504b133b4130df02fd57d2e12397bf97b52f54cbcb341e097c1d3d7c97a8ad3eb22156c233988227d43b20ffc99180aa7facea520dd204adf31"
+RPM_NAME = "stuntman-1.2.16-2.11.aarch64.rpm"
+RPM_HASH = "71eab121793f9896148b3c1dd5efa69fd3f4fe71c55bf0b31ac1788a584de312286058b8f3cae26147be5a896aa03abdcc8e397eb023cb5b589d28a22b17a71b"
 
 RPROVIDES:${PN} += "stuntman"
 

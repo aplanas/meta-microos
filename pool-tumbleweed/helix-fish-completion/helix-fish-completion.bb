@@ -4,8 +4,8 @@ LICENSE = "(Apache-2.0 | MIT) & BSD-3-Clause & (Apache-2.0 | BSL-1.0) & (Apache-
 
 PV = "23.05"
 
-RPM_NAME = "helix-fish-completion-23.05-1.1.noarch.rpm"
-RPM_HASH = "932c722ee109bb96b4f45162f8ce8ff1fc4606a79d69665e831a3f2e4c8f062431cc643005b85907f4916365a39ecfa27dafa3c03c28ffd9b0d5f9cb0bcbf65e"
+RPM_NAME = "helix-fish-completion-23.05-2.1.noarch.rpm"
+RPM_HASH = "0b9256ea62cd041f7ca25978053828251c9c4864733c22afbfd5cab5982e19efe43b6f1d460454c990aff73480d3b891aaf4ed84021cc10edc7e1d58dd06e63a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "helix-fish-completion"

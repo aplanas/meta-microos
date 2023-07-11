@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.18.1"
 
-RPM_NAME = "libgdata-devel-0.18.1-3.3.aarch64.rpm"
-RPM_HASH = "33c12d4d0caba014e734c605c475caa1e45a3d16b877e90dd859ecee532a0df49a09b530add1f4b27ce0e72f79d71175504d602c457c59270d67835661691f83"
+RPM_NAME = "libgdata-devel-0.18.1-3.4.aarch64.rpm"
+RPM_HASH = "02d74e4e264be380191c73976b3d90ceb8c59ed34b7406eb6423b2c32ef1e5b8e7cc70e7e5b6569e9f61411d20ee4e1860bbe3f9f92f301ef789c5afa0550636"
 
 RPROVIDES:${PN} += "libgdata-devel \
 pkgconfig-libgdata"

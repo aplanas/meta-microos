@@ -4,10 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.4.0"
 
-RPM_NAME = "python311-yappi-1.4.0-2.5.aarch64.rpm"
-RPM_HASH = "f76abd1f4bd02d267a93ccba2afea4aa22205ee1436e32e6b93dadb33ea431902c45d29c0abd770535f6519af0f808aaf76ff42f072617a706997d6f6454312e"
+RPM_NAME = "python311-yappi-1.4.0-2.6.aarch64.rpm"
+RPM_HASH = "664663885567488e74bacf410a8e6ea76725bd4ca1996535b57974b5dd1e30e096b4da16e032651b61e922b59a1dfda0f8f70f26679a9969b9783e7d5a55a85d"
 
-RPROVIDES:${PN} += "python3.11dist-yappi \
+RPROVIDES:${PN} += "python3-yappi \
+python3.11dist-yappi \
 python311-yappi \
 python3dist-yappi"
 

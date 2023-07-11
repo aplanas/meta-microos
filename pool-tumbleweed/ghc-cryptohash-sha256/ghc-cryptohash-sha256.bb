@@ -41,8 +41,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.11.102.1"
 
-RPM_NAME = "ghc-cryptohash-sha256-0.11.102.1-3.3.aarch64.rpm"
-RPM_HASH = "f1b5100e8c8f1abdf818d9888cbcfbac18636e8be1f970a6e14f3da8d996dff9f575c7339511ed4bad204bdfb4a9298d1dbb0b53dff16ee6745bafc219b35437"
+RPM_NAME = "ghc-cryptohash-sha256-0.11.102.1-3.6.aarch64.rpm"
+RPM_HASH = "099e04c781a7926fd2c664bf09cac822356caa7af36983940bf61cb9b45e5b29d8986351e0d9dd1c5e7b243a050b7223dcb58851f6d522ddbe5849cbb07bedc1"
 
 RPROVIDES:${PN} += "ghc-cryptohash-sha256 \
 libHScryptohash-sha256-0.11.102.1-Hqbk8cbDzn9JgCAqvbhMBD-ghc9.4.5.so"

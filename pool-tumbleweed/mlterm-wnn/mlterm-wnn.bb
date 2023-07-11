@@ -2,10 +2,10 @@ SUMMARY = "Wnn plugin for mlterm"
 DESCRIPTION = "A plugin to use the wnn input methods directly from mlterm."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.9.2"
+PV = "3.9.3"
 
-RPM_NAME = "mlterm-wnn-3.9.2-3.3.aarch64.rpm"
-RPM_HASH = "bd2255aa491ed009f2f8fde45ff1675123d6f1cfdc7b8ba655f8f0a840a7bd840f9af2c4baa8082576addac2e45f6a9ea302ce9f4b2b014d8f12658b7ab8e575"
+RPM_NAME = "mlterm-wnn-3.9.3-1.1.aarch64.rpm"
+RPM_HASH = "412b492ce141c482867430af194a7da1fb37099d996edd6af09eb11c33e5b19f28f9887474db366b0549f3141f0d7c68fdcba6af1256cc847b54dec798e56616"
 
 RPROVIDES:${PN} += "libim-wnn-sdl2.so \
 libim-wnn-wl.so \

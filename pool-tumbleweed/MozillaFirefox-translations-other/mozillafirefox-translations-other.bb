@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains rarely used languages for the user interfac
 of Firefox."
 LICENSE = "MPL-2.0"
 
-PV = "113.0.2"
+PV = "115.0"
 
-RPM_NAME = "MozillaFirefox-translations-other-113.0.2-1.1.aarch64.rpm"
-RPM_HASH = "d6689862f39ffa1c6c7fce6a6a9d22192ee48eebb1850c4d17d0a75464c0e123272ac5487dc76d2381982067f6c71c553f3b28e79aed49859f3a3f8420aa5b01"
+RPM_NAME = "MozillaFirefox-translations-other-115.0-1.1.aarch64.rpm"
+RPM_HASH = "4b541240c00bbaf0c9c660dffac99694dd9d68a45b471885c2690b49bf9934393bfd8ece35a6c993803966bb64f028d54e4850438c9c3060e46a4bfe2a977424"
 
 RPROVIDES:${PN} += "MozillaFirefox-translations-other \
 locale-MozillaFirefox-ach;af;an;ast;az;be;bg;bn;br;bs;cak;cy;dsb;en-CA;eo;es-MX;et;eu;fa;ff;fy-NL;ga-IE;gd;gl;gn;gu-IN;he;hi-IN;hr;hsb;hy-AM;ia;id;is;ka;kab;kk;km;kn;lij;lt;lv;mk;mr;ms;my;ne-NP;nn-NO;oc;pa-IN;rm;ro;si;sk;sl;son;sq;sr;ta;te;th;tr;uk;ur;uz;vi;xh"

@@ -15,8 +15,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.1.6"
 
-RPM_NAME = "java-libkolabxml1-1.1.6-13.11.aarch64.rpm"
-RPM_HASH = "cbfa93094b3cfbbf0ca6beef89b0a86d0641d4e7d6ca39eedca09a75b6bf7f648d5f5c00f3c43935beb2e77c9d6999dd3305a92bb3fcddb2b7875428b1c9613c"
+RPM_NAME = "java-libkolabxml1-1.1.6-13.12.aarch64.rpm"
+RPM_HASH = "835271890c13abce40da6951b884371de9834cf0f90b01747dafbda30c7d264de4a0025238e14f07294002468e8588b22d89ff8bcd8ae9b2db677045f1fc8f5a"
 
 RPROVIDES:${PN} += "java-kolabformat \
 java-libkolabxml1"

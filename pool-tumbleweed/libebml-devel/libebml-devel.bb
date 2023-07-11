@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.4.4"
 
-RPM_NAME = "libebml-devel-1.4.4-1.3.aarch64.rpm"
-RPM_HASH = "9d5424e9bf2e7408de053d2ef13a6c7b93d023e430293c50df1b22db21b6973d0d8be226ecf6e1984e06ee435c1409698109926a0bdc171600cbb0d0abad6390"
+RPM_NAME = "libebml-devel-1.4.4-1.4.aarch64.rpm"
+RPM_HASH = "98fd9b9dbf7fa28ae34605bc7d48fad9d29f805a4fcf1558d359e7b737103ceec5f3494e9b350066dc7a8a91f2a583d7ff2e8571b93b436ca6bb737d4b42339c"
 
 RPROVIDES:${PN} += "cmake-EBML \
 libebml-devel \

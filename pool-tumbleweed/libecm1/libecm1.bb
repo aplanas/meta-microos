@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "7.0.5"
 
-RPM_NAME = "libecm1-7.0.5-1.3.aarch64.rpm"
-RPM_HASH = "934e94cc1abc0d9e383990ca5bfa4d06b6ded7655591c0bf33f0bf2359e0f43ec36e5ba9bc7e38977c38285a6b875fb403785ca23eee5ec507339c84fe139582"
+RPM_NAME = "libecm1-7.0.5-1.4.aarch64.rpm"
+RPM_HASH = "19ca425ca1ecd498f22da671edaacd49dd0779b231d1c2e871d1c8f9b25faf3de8c83a368b7547284bbc2b09289405497a968cc8b56da4bf4809cc3c600d8f9a"
 
 RPROVIDES:${PN} += "libecm.so.1 \
 libecm1"

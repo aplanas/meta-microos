@@ -3,10 +3,10 @@ DESCRIPTION = "This program allows to tune the debug output of KDE applications,
 from verbose to completely silent."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kdebugsettings-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "451fd39eb774beacb87b76737e1d01faa0bd48ca258266e2f4d50a26309207942372d02cadf33f9f0b1ea84da20c4dc49477a0bbb4da7e97c3d9106dbcee4533"
+RPM_NAME = "kdebugsettings-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "5308c5e31041092f6046e73f87e02587dd1361d97b479bdbfa3915514fe60882ef1cec2fe38b796010d0ea913036f534cdeaa7db5840f3ebd60b5d5a97062ac3"
 
 RPROVIDES:${PN} += "kdebugsettings \
 kdebugsettings5 \

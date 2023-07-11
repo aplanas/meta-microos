@@ -2,10 +2,10 @@ SUMMARY = "Tools to create documentation from DocBook"
 DESCRIPTION = "Provides tools to generate documentation in various format from DocBook files."
 LICENSE = "LGPL-2.1-or-later & MIT"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "kdoctools-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "fc3fb022e10da57e791059a70b5ec07b49a24f25c5c702e4b53f19fab518edabb70ae6308c53a67b192f9ce560807d3950bcf6b8e8904727b7c63f8603c4ffb8"
+RPM_NAME = "kdoctools-5.107.0-1.1.aarch64.rpm"
+RPM_HASH = "21d57b33a23b36c08aa393b78e262b44907b2a553e809f9f5b43d1e0b46f1f6ec3e0015756830e4e19dbe090dc42703e6d284c722b7ccfe0836df865c1a177c7"
 
 RPROVIDES:${PN} += "kdoctools"
 

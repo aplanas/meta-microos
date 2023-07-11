@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
 PV = "3.4.1"
 
-RPM_NAME = "gfs2-utils-3.4.1-1.8.aarch64.rpm"
-RPM_HASH = "c1d8ce1e773f40be8e59d770eb3119c7f16b8bbf6f2ec8c2d308383fd3a2cdec85e053b0692aac5bb94c8cd3ca6d02c13eb3e177c4f76e093be59821a174af6a"
+RPM_NAME = "gfs2-utils-3.4.1-1.9.aarch64.rpm"
+RPM_HASH = "119e0cd186187c62d94acafd936a2cf8366ca71d5f14a9d1b45bfe15b20909ed330f8ec3bd4f6bf73aa1c0850bbfe49a7e9d3f9ce15b8c13d356c865ad099642"
 
 RPROVIDES:${PN} += "gfs2-utils"
 

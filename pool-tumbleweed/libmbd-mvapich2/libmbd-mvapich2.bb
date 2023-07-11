@@ -6,8 +6,8 @@ LICENSE = "MPL-2.0"
 
 PV = "0.12.6"
 
-RPM_NAME = "libmbd-mvapich2-0.12.6-1.3.aarch64.rpm"
-RPM_HASH = "942c143dfcfd70a5c3e1697419fa5d55fc097b6e61cf9afba4e57b8b8b49240461b5379dc1c4a8ed0e4b84cc795681a3eb8e4bb75f0c6918a43510704f1e6aaf"
+RPM_NAME = "libmbd-mvapich2-0.12.6-1.4.aarch64.rpm"
+RPM_HASH = "ab68c52c2633ff76e991be5ea1171ffc40149fe1e016e15ab7397d4b0998a1eb0391b2a7de9545f0a91e2b17d754d84cb034fa94fd1022c7279acb23b4d601f5"
 
 RPROVIDES:${PN} += "libmbd-mvapich2 \
 libmbd.so"

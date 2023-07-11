@@ -12,8 +12,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.4"
 
-RPM_NAME = "python39-idna-3.4-2.1.noarch.rpm"
-RPM_HASH = "f3f21a7ae1fbc411a82804f6231173e5031f6fb147e904ef43af4f18cd24fa42101acc7931cc70c652e071bec493bf0e2824738a8a29a33b15c7de1f4de9aa00"
+RPM_NAME = "python39-idna-3.4-2.3.noarch.rpm"
+RPM_HASH = "a9c79f18957fbd0df1d92d32229af62ca0df80e81a55a37d2e72c6487c73b26849fb518d4d22dca83129dfda0c62c03c3683d5bc4993d8cfb91e7c376d5538c8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-idna \

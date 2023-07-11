@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "4.0.2"
 
-RPM_NAME = "mpich-ofi-devel-4.0.2-3.3.aarch64.rpm"
-RPM_HASH = "e77740b093e39ca1825c531fb6f4e1dc6939bd5adcba268f35ed0d248156dfa9a8f2757aa713f691266bff494bda94b952b7dea615f7400b04ea2854c970d91c"
+RPM_NAME = "mpich-ofi-devel-4.0.2-3.4.aarch64.rpm"
+RPM_HASH = "a467a72298662f1e045c47a7636832be9eaf65021273b9756c92ea66b72feba22cc8b228e6ef402135f1953d1301e4f71d2bb01e349370df335adb8956c86ea3"
 
 RPROVIDES:${PN} += "mpich-ofi-devel"
 

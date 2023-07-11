@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.1.0"
 
-RPM_NAME = "python-paramiko-doc-3.1.0-1.1.noarch.rpm"
-RPM_HASH = "afcace68102a2d3fce5d23b35ca4ffa8c0dd4aeb7508a130ca6248c7e4c9637f1ecafd4ceb7a8c264dcf6a8af58f3982172ed03bc2ed084873c98d68322688a9"
+RPM_NAME = "python-paramiko-doc-3.1.0-1.3.noarch.rpm"
+RPM_HASH = "f20f45bd333b5854d53f5ff5230cb5b273d10a9c6e4661b977319db4dfa59aa386e681f5e4efa48db23c9c8cd8be0f0becc28aca087303e3419ddca482fc980a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-paramiko-doc \

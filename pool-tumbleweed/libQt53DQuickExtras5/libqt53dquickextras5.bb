@@ -5,10 +5,10 @@ This Qt 3D module contains functionality to support near-realtime \
 simulation systems."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libQt53DQuickExtras5-5.15.9+kde0-1.1.aarch64.rpm"
-RPM_HASH = "69bf9c094b041b1ec5efd8c136d3a80d6401b0a089941e6d363cdf696e30663e52370c9211d2066794021ed3be8084c8d6e642d7d73c98e74df832476fd693a8"
+RPM_NAME = "libQt53DQuickExtras5-5.15.10+kde0-1.1.aarch64.rpm"
+RPM_HASH = "70c410839c10c3d6d37c487732afd85b3d46a586b609f53ded62e5c32c67207d9ccd2894188245b8edbec88f34d7d6fb973c3cb772c1c4f54368d323b7fe1d65"
 
 RPROVIDES:${PN} += "libQt53DQuickExtras.so.5 \
 libQt53DQuickExtras5"

@@ -6,8 +6,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "2.0.0"
 
-RPM_NAME = "libgnome-games-support-2-4-2.0.0-1.7.aarch64.rpm"
-RPM_HASH = "85a152588f9d921530e97c443a473dd06a3a87076763ba08f07df9296d1b49a981519e18d0faa686c6126728f7f9490633052156f374402521587f91d3def63b"
+RPM_NAME = "libgnome-games-support-2-4-2.0.0-1.8.aarch64.rpm"
+RPM_HASH = "0444cc023899d6a09319f2dee8a4894440e7278290f00d78d855d287e9e3e1d1b2a9bc58d3b7ab04139e05ebe1e4eb17858b3d3149f88bda41ec1e8698564cea"
 
 RPROVIDES:${PN} += "libgnome-games-support \
 libgnome-games-support-2-4 \

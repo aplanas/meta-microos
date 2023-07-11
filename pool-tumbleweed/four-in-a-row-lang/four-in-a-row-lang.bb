@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
 PV = "3.38.1"
 
-RPM_NAME = "four-in-a-row-lang-3.38.1-1.14.noarch.rpm"
-RPM_HASH = "a3367b8fdfb7a899d788a24d47c2354fee957caf033ceedea20afbc1261d81b0735bb5536922976fa155f55aa4bceca1b8ea8e74b9b14e1b45904f97ed283ec7"
+RPM_NAME = "four-in-a-row-lang-3.38.1-1.15.noarch.rpm"
+RPM_HASH = "beacef495d808a2f009ef4de4c6c97e34b902978c547b7e7f2c21477e971df35ced0a8b2c03e25445a97d08b32b2cb3aaa362258b239bdb33fadd4fda42eb0e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "four-in-a-row-lang \

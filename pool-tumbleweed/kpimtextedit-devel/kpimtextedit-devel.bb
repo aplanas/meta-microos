@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains necessary include files and libraries neede
 to develop KDE PIM applications."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kpimtextedit-devel-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "8cfd4e17a6710fbd9023512c45e4b576bdfd2a50543d00bb91924d5ef07f244c9b56f9e7e92668ac58c97d9375da7c397df86520c09633bfa75cded19c519e15"
+RPM_NAME = "kpimtextedit-devel-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "3197af9a15e443c808023faa5197b61e6d1d42e19578feaf1aafb05da1c135910d85a3c298d259204761df6296b5f83b5929080542e9111dd67fa1ec0d06503f"
 
 RPROVIDES:${PN} += "cmake-KF5PimTextEdit \
 cmake-KPim5TextEdit \

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later & SUSE-GPL-2.0-with-plugin-exception"
 
 PV = "44.0"
 
-RPM_NAME = "gnome-music-44.0-1.1.noarch.rpm"
-RPM_HASH = "c7761042bc4905e0066c4a06dbe2bdec37b62e8f1c02a5411701a5041956ce6902aa510a0509e418de6cc28805c8733a7bc430e3e6c4620bde0df6c50a481337"
+RPM_NAME = "gnome-music-44.0-1.2.noarch.rpm"
+RPM_HASH = "21d10c995d29f1a859e5be4f8810e5b211a0f6caeed948a30fc6e1994ee0166d7d318e1d49b840300da56050f837eee5d89a8f121117205a9e8debda80359541"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-music"

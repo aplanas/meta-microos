@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.0"
 
-RPM_NAME = "debugedit-5.0-5.3.aarch64.rpm"
-RPM_HASH = "c4938e9a5ded0e4f36caa47f9a7e547d15917f81fb302205f517867d376dc53cd47e39335ad5ffb3ad6c299ab689551dab0f7e8ddc5ec2bf158254b5eaae9fc4"
+RPM_NAME = "debugedit-5.0-5.5.aarch64.rpm"
+RPM_HASH = "836d7cda59ce72f57f8d7fc4aa15a1308d20446b886da050e845b1cc8da2cff25c5f2058cd292c559ab4440a88c227442be930c81dfe0bd0abaf0ede439058a9"
 
 RPROVIDES:${PN} += "debugedit"
 

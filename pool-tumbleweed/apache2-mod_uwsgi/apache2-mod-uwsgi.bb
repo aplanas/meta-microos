@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-only-with-GCC-exception-2.0"
 
 PV = "2.0.21"
 
-RPM_NAME = "apache2-mod_uwsgi-2.0.21-2.1.aarch64.rpm"
-RPM_HASH = "9a625bcbae8a250b3eab398d88acc74ce06d9356f03540e1fd925303a9df4b82e68cad951e8c6b46b1029cd2ca1689eb9afec7d09c57aa6ded5a65856004f67c"
+RPM_NAME = "apache2-mod_uwsgi-2.0.21-3.1.aarch64.rpm"
+RPM_HASH = "40199e0e74081dc766bec49fe98092f0c32ace71401b1d01ddddffcb07fa940a802a5f7256b7a63ead5bde481a464898b0baf06ae0822ff94a6ebb82f296e2f2"
 
 RPROVIDES:${PN} += "apache2-mod-uwsgi"
 

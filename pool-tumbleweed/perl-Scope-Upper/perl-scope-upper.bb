@@ -19,14 +19,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.34"
 
-RPM_NAME = "perl-Scope-Upper-0.34-1.1.aarch64.rpm"
-RPM_HASH = "9520aa9c63f5bbcdaf1830be7a1aac7a221c55e22c3f59f9d8e778d73483d8df694b8ad97a9fbe2e783cb91a7b860a12ce70fecd2cdec80cbff3bc799124f323"
+RPM_NAME = "perl-Scope-Upper-0.34-1.2.aarch64.rpm"
+RPM_HASH = "37ae359c67b4772b8b96c02a1675b8fd97fdeceda43028bf5b715e9af5c9305a07fe450b88eaa9ca38142719de58626cb5bc5915e167132eabeea81cc988f38e"
 
 RPROVIDES:${PN} += "perl-Scope--Upper \
 perl-Scope-Upper"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.5.1"
 
-RPM_NAME = "mpdecimal-devel-2.5.1-2.13.aarch64.rpm"
-RPM_HASH = "f24314afe5111be16906717bee38dcacd926df951de91d4d704938d5ec418bd52be434e89ea50ba15e0747548b1b2ac083ddbbc612c8c1e08226ac9f2575025d"
+RPM_NAME = "mpdecimal-devel-2.5.1-2.14.aarch64.rpm"
+RPM_HASH = "454f5150bd5b89f848430f884c8148b1735600043e97a4c2cce30178558b53b7536c18d05c6172f21b70eab5d7a5ac824c96992bf1ff953f9c7320bd9f0e1d8b"
 
 RPROVIDES:${PN} += "mpdecimal-devel"
 

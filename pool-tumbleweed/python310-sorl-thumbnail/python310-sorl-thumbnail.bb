@@ -17,12 +17,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "12.7.0"
 
-RPM_NAME = "python310-sorl-thumbnail-12.7.0-6.3.noarch.rpm"
-RPM_HASH = "5afc3224b9e3f5eceaed748478c970eee6e1f42e406c448d03a34378af0b1ad388af839fb1f515d17cf874533ed43ac0d5b835898c3b4d143ca688cf4b2d4bcb"
+RPM_NAME = "python310-sorl-thumbnail-12.7.0-6.5.noarch.rpm"
+RPM_HASH = "4133a2038ad3f7d0340b6b6a63726540cea979ff43d916e10d682385661fa63cf19b2baed624c0c49dc99a7a6d016d1b3a3a31cddaa37dde34435cf3fade7659"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-sorl-thumbnail \
-python3.10dist-sorl-thumbnail \
+RPROVIDES:${PN} += "python3.10dist-sorl-thumbnail \
 python310-sorl-thumbnail \
 python3dist-sorl-thumbnail"
 

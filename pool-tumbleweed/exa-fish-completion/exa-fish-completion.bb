@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.10.1"
 
-RPM_NAME = "exa-fish-completion-0.10.1-3.4.noarch.rpm"
-RPM_HASH = "1cc43be8cf29d3e0c5347bbfea02893275085e3069f12aca7e8d69cd60ee85a70be520f64898b0cb6c05aa95b61ecc7d7ea8eac78cb341f58cacf10919dc9c88"
+RPM_NAME = "exa-fish-completion-0.10.1-3.5.noarch.rpm"
+RPM_HASH = "de208d6b2fb9073def565f67803adefd693f04a114680653ab872f365e7edce71e047de7e52ce0b4bf7b456b2ac93e00585a473d7e470424e3e4d443f84388de"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "exa-fish-completion"

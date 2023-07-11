@@ -5,8 +5,8 @@ LICENSE = "CDDL-1.0 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "1.5.2"
 
-RPM_NAME = "javamail-1.5.2-7.4.noarch.rpm"
-RPM_HASH = "33a9b59dbe35f09498499aabbfc8164ef75ad19b9568303369b8432956fb4a74ccaeaef3aaa7bf3cc6cdd58a16bf92086d2d11cd7c78c1e1ee64c52fa53f2b71"
+RPM_NAME = "javamail-1.5.2-7.5.noarch.rpm"
+RPM_HASH = "9c592c2760869eb761e8c058110fa734b5ec079441f174e7356949b11752dcaf79c2bca494e50e59e3ce01fb7e3299d0f1c0fde2d81c23a3503a2fc32b96dd34"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "javamail \

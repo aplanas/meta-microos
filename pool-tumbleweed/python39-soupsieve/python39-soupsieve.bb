@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.4.1"
 
-RPM_NAME = "python39-soupsieve-2.4.1-1.1.noarch.rpm"
-RPM_HASH = "9d3da9f6242f01f60010b464c42fa42d1e9df096ba1b23ce60a34bfa2f35311e66e9803e7161eb0ba1ad0972c6b201b6e9246d19fad29281674d5ba81bb33668"
+RPM_NAME = "python39-soupsieve-2.4.1-1.3.noarch.rpm"
+RPM_HASH = "55f9f3f42ed57fc1554ced956ec64ea43b8793defb217f7e37e398fe12cd7de2687361e6b46a1cb7c3dcab43d237bb805fc3e23e421f10b286b459df637e31ee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-soupsieve \

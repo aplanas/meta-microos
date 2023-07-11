@@ -4,11 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.1"
 
-RPM_NAME = "ghc-hjsmin-prof-0.2.1-1.2.aarch64.rpm"
-RPM_HASH = "52d56e72125707e0d7c2087ca65fd7a28d58aa93d8e85b98d278276f165591cc8c8c004efa75430fc3c96547ce43ad397598236b0bb7ec203a83a0dd5dec8d06"
+RPM_NAME = "ghc-hjsmin-prof-0.2.1-1.5.aarch64.rpm"
+RPM_HASH = "a665322847c8cac69ff6a6659a2893fe8084bd4307c01c29ac720b5af3b226a0f9132d21fcfc61f483f964a47d94bc88370988da5059106ecc5592c0b92fced3"
 
 RPROVIDES:${PN} += "ghc-hjsmin-prof \
-ghc-prof-hjsmin-0.2.1-G11T0ofJtyz5gQQf6GRgL1"
+ghc-prof-hjsmin-0.2.1-E05vLEwNeV76Uzm2zhD4uI"
 
 RDEPENDS:${PN} += "ghc-hjsmin-devel \
 ghc-prof-base-4.17.1.0 \

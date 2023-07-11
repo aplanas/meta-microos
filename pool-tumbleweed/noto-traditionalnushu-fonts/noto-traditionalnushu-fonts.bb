@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-traditionalnushu-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "ef186db3426dada965079b0146f7f4f899fccb58acf8b88351c35fa5df4a6c34201d2cbbe1a487dfdb0a33ba46b3cc8931471b9ec83209f9ae21f3d263dd7c3a"
+RPM_NAME = "noto-traditionalnushu-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "cb5758c6b95fb82b61db986cfc69d448a93d4ec125a7869519492c2ee6e49e345358fec3e07fc58900bfc9e6a1e9ea13bdea84b82c66dcc7a635c8619c1574eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-traditionalnushu \

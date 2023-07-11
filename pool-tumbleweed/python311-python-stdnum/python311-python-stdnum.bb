@@ -8,11 +8,12 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "1.17"
 
-RPM_NAME = "python311-python-stdnum-1.17-1.8.noarch.rpm"
-RPM_HASH = "4d21f4bcb75ee36a8647d83314f16ec0af0bb5af8af76c5baaa8cca1bb715d6eb0ce6f60208663f8613d2af99f65a295c07ce07e29fdb89c6af5932ccab59ece"
+RPM_NAME = "python311-python-stdnum-1.17-1.10.noarch.rpm"
+RPM_HASH = "cbf95b46624270151acd5aa03c31527bcaffdc761fa93e6c76a4d45962fca05d31bf73104bb259ecf3e45fa55a8e681566a36afcefc4ae6bf00f351b88719a73"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-python-stdnum \
+RPROVIDES:${PN} += "python3-python-stdnum \
+python3.11dist-python-stdnum \
 python311-python-stdnum \
 python3dist-python-stdnum"
 

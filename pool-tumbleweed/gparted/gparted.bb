@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.5.0"
 
-RPM_NAME = "gparted-1.5.0-1.3.aarch64.rpm"
-RPM_HASH = "9412dc7b8791dbfc9a8656d8c09b1e777a0951beb481ce3ccbce8c18fc3da48c337ab02ca1874dae9c2e422d5e983486178be42cdd2a9d191da952b3db6955e7"
+RPM_NAME = "gparted-1.5.0-1.4.aarch64.rpm"
+RPM_HASH = "58c7eba5a777a44bcd7ebc4d0709bcfdc2ba251b49c8dd9f9032ea1da402aae358452dc4c0647ead75991b60862584482d3b654118a51b63981c7e01d09e702f"
 
 RPROVIDES:${PN} += "gparted"
 

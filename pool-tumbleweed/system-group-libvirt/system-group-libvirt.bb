@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "20170617"
 
-RPM_NAME = "system-group-libvirt-20170617-24.14.noarch.rpm"
-RPM_HASH = "3c0ed7abfaf33bf00b88f945028d71e076657315bc8c516e4724988f160c357e3d5aecb63352e9fdeb381b29f6ce616f14e17ac5b85546547280f84196e09531"
+RPM_NAME = "system-group-libvirt-20170617-24.16.noarch.rpm"
+RPM_HASH = "a2929d4df8a36d94159d432a395234df2172df030ea12cda8be1489ead5ad15f6b3e857be79b468be5244751dfe5ecf14c27f48d5fb9560ec595f1ac16c187bc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "group-libvirt \

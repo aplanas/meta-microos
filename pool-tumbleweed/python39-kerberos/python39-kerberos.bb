@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.3.1"
 
-RPM_NAME = "python39-kerberos-1.3.1-2.1.aarch64.rpm"
-RPM_HASH = "cf211ca384c5a0cf7f6d9ef116bc6f0e23c60e9a9caa354bfe6ec2f65ab9b36d0dbf68b476cba860bdc4ff11104661f93deb93c04c73560c1702c5aa7001eb0d"
+RPM_NAME = "python39-kerberos-1.3.1-2.3.aarch64.rpm"
+RPM_HASH = "47070faed6e80a28d344849e8d011dad65fefe7ae017a17a6eb925bcb7f0f7d0f1c65d9e331a5d20cedbfb4756a158560822d91be914b5ab6ab2f1b5fac85863"
 
 RPROVIDES:${PN} += "python3.9dist-kerberos \
 python39-kerberos \

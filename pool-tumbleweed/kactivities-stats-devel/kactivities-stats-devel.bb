@@ -3,10 +3,10 @@ DESCRIPTION = "Kactivities provides an API for using and interacting with the Pl
 Development files."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "kactivities-stats-devel-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "b8cae443702b2c3194ff7655b9200522f59ebc73be47c94deb66cb79d1443e3d930e65a4a2a624ad3baa2cf912139255b361d68ed9fb816e033c6f548a2de305"
+RPM_NAME = "kactivities-stats-devel-5.107.0-1.1.aarch64.rpm"
+RPM_HASH = "517d175962d8785e83f4e8db5c58944ccad67afc4315b5d938ca5e7dffab594fddca2ea6cdf899d759ef6697c2d4b3be4d3a4eb555b7ba4cb4d5ac0cc488692e"
 
 RPROVIDES:${PN} += "cmake-KF5ActivitiesStats \
 kactivities-stats-devel \

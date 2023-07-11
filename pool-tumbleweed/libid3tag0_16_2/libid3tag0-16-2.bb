@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.16.2"
 
-RPM_NAME = "libid3tag0_16_2-0.16.2-1.5.aarch64.rpm"
-RPM_HASH = "ed591c29e7fd4e0398aa85258f106f9deca2df522f799532a48c31582502e33393f76c9012bc5450c1cd8a3267a82f103c10b907cfc5c88efd3fe36677342605"
+RPM_NAME = "libid3tag0_16_2-0.16.2-1.6.aarch64.rpm"
+RPM_HASH = "015d47b472caa3a63cae860d474ec82676a2b16869da10f2e7d308b786f62ad12bed13e9e91dcdd03733db3cb29bbfa4e7a43cc447cf2338b9fc7dde9d15ce94"
 
 RPROVIDES:${PN} += "libid3tag.so.0.16.2 \
 libid3tag0-16-2"

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.5.0"
 
-RPM_NAME = "python39-pyperf-2.5.0-1.4.noarch.rpm"
-RPM_HASH = "13b1790c801e097dc31018646b04bc3a6aa26ceca1ec5708ecd076cca67ac66db079a19e0e3d866eebe379f605223445b14a7243baabf0dfb595cf112f07b311"
+RPM_NAME = "python39-pyperf-2.5.0-1.6.noarch.rpm"
+RPM_HASH = "710b128dd3f82465107215be65c709517305b96ffdf5a4d60e206b4501bab58bc1bf4f5db733c96c1477c1b516fe843dea5d59c0f5f11c21d6bf1e3a897ee772"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyperf \

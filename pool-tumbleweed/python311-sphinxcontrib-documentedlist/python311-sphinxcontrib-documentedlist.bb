@@ -12,11 +12,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.6"
 
-RPM_NAME = "python311-sphinxcontrib-documentedlist-0.6-3.1.noarch.rpm"
-RPM_HASH = "58e6fa5c573bfe77c5c8d4749ab190fa1e085066a7b10a76f4ffd63c2f31ad35506a696ddde57350ab8a3330bd0d2a060e829cf812aef0332580bf05279021ec"
+RPM_NAME = "python311-sphinxcontrib-documentedlist-0.6-3.3.noarch.rpm"
+RPM_HASH = "d8cf4b128acfd53ad39817331b4d72d01c0529a3d4c8fd5e67d913f1db086f4275ba079db328f2a3461e0ea116904a09f86161ee93c117b873345455c795b89b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-sphinxcontrib-documentedlist \
+RPROVIDES:${PN} += "python3-sphinxcontrib-documentedlist \
+python3.11dist-sphinxcontrib-documentedlist \
 python311-sphinxcontrib-documentedlist \
 python3dist-sphinxcontrib-documentedlist"
 

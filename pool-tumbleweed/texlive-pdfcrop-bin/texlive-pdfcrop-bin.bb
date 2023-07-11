@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn14387"
 
-RPM_NAME = "texlive-pdfcrop-bin-2023.20230311.svn14387-91.1.aarch64.rpm"
-RPM_HASH = "76253a3ced35c564c8b3758e14b67376bc06b8add9b60ae1946c3ee82573925864ef49504d11d6e64cb37be77a3314a0e08319d60cb67979cff71d1ad813d6b1"
+RPM_NAME = "texlive-pdfcrop-bin-2023.20230311.svn14387-92.1.aarch64.rpm"
+RPM_HASH = "a663091de6d782cffccf0d4a7fde247f261e6ef2bdacb831d217dda8a965c9c32ba5d60646ebad7af444849db795c25b15cb2cf463f2780a6123c8e42c27fe8b"
 
 RPROVIDES:${PN} += "texlive-pdfcrop-bin"
 

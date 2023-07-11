@@ -2,12 +2,12 @@ SUMMARY = "Library for controlling the team network device daemon"
 DESCRIPTION = "Linux kernel 3.3 and above offer a so-called 'team' network driver - \
 a lightweight mechanism for bonding multiple interfaces together. \
 It is a userspace-driven alternative to the existing bonding driver."
-LICENSE = "LGPL-2.1+"
+LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.31"
 
-RPM_NAME = "libteamdctl0-1.31-3.8.aarch64.rpm"
-RPM_HASH = "ad0ead86c0092cb77ecb05d1bb7f29e10df196005f4167bdfa37197d1e58413bfef5e5064e4592b786acb036f92cc10592e927a6dd3d82687e61c2ab948b1676"
+RPM_NAME = "libteamdctl0-1.31-4.1.aarch64.rpm"
+RPM_HASH = "de1937b2e72616a147ae7a790e5f982f8d8442e8c64377608ecb9243bbe31f8b4080e614fa9dd2a201bcf8b693c2a54f057a4eaf95b319df1ac4d9eb52504abe"
 
 RPROVIDES:${PN} += "libteamdctl.so.0 \
 libteamdctl0"

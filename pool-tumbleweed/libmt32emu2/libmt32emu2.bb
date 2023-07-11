@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
 PV = "2.7.0"
 
-RPM_NAME = "libmt32emu2-2.7.0-1.3.aarch64.rpm"
-RPM_HASH = "62dcdfddd6bcd448fca8abab3eac979e0ebbd004ca55c8c918a5e523e6f83858b3030a73376c1983fa34919e22f8653629d0eebb8b9d07ff9b0ee722960bd9f2"
+RPM_NAME = "libmt32emu2-2.7.0-1.4.aarch64.rpm"
+RPM_HASH = "30e2778fd0edf450c29e93a0d54015dee26594cabf26c6366f1b9c60ed7da4e15e19454771b4a4e22cd24a810d1115caa7321420f182c8e74b02aca5952e2a53"
 
 RPROVIDES:${PN} += "libmt32emu.so.2 \
 libmt32emu2"

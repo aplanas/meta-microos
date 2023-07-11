@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "2.0.1"
 
-RPM_NAME = "python310-confuse-2.0.1-1.1.noarch.rpm"
-RPM_HASH = "f50067b394de9d6aece2a35542db225eb06b6aa405fd22aa5bc1490b95a952bcfee1211bf29666742a62eebde60a5e2b36d0ab921f58e04f0f09144b5f9ef21f"
+RPM_NAME = "python310-confuse-2.0.1-1.3.noarch.rpm"
+RPM_HASH = "af378574759bc5e1ae5a825b838f53b00d81da11032aad5bff4d1e29a2f7111d39b378b42c22c8ee6bbdea60fba58769f6b703001bb6a6152ffee7280f5e6366"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-confuse \
-python3.10dist-confuse \
+RPROVIDES:${PN} += "python3.10dist-confuse \
 python310-confuse \
 python3dist-confuse"
 

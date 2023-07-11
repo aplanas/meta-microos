@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "6.3"
 
-RPM_NAME = "btrfsprogs-6.3-1.1.aarch64.rpm"
-RPM_HASH = "496d1d69d9dc3055a9af5103f1a4c6bf539c4531174711ed5b1f45f4afc32104623a56c60d94b1ca245f7722a9023b5898d0bbcae847904a27f8a8499b6f61f9"
+RPM_NAME = "btrfsprogs-6.3-2.2.aarch64.rpm"
+RPM_HASH = "7d2647194e52b19c50f30f1c347a9e6fbc494df7e5355b31f1549bdf35c8aa597d8d3db83de944434d806c53542e6d1d8d9bd7c0ce918a5b84c6c874a6e7b63e"
 
 RPROVIDES:${PN} += "btrfs-progs \
 btrfs-progs-aarch64 \

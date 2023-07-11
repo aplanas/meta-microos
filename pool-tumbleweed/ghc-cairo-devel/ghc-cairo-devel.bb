@@ -2,13 +2,13 @@ SUMMARY = "Haskell cairo library development files"
 DESCRIPTION = "This package provides the Haskell cairo library development files."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.13.8.2"
+PV = "0.13.10.0"
 
-RPM_NAME = "ghc-cairo-devel-0.13.8.2-2.3.aarch64.rpm"
-RPM_HASH = "7e91bee7ee5b2713f5e4d3aee342c15a26789c0179b5ab609f247f07dd02580f1fd7c2e2959e4dc634499896c117623314cc8de02487a2f6aba46a1bb1a029f7"
+RPM_NAME = "ghc-cairo-devel-0.13.10.0-1.3.aarch64.rpm"
+RPM_HASH = "50f46b8549fe51691b70a2a9c8f15206b19658726e44edfa3e46f0f30bbbca65459ea3f55cbe7ebc93a88b1d52b9097e493f2380968580005b24deaf60f6097f"
 
 RPROVIDES:${PN} += "ghc-cairo-devel \
-ghc-devel-cairo-0.13.8.2-84nOBKgVLz3788JDxxB5om"
+ghc-devel-cairo-0.13.10.0-79KHEyza8Yx2ITjvRp5k2b"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-cairo \

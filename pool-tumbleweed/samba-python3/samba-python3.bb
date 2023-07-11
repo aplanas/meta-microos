@@ -3,10 +3,10 @@ DESCRIPTION = "The samba-python3 package contains the Python libraries needed by
 that use SMB, RPC and other Samba provided protocols in Python3 programs."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.18.1+git.298.4ccf830b2a4"
+PV = "4.18.3+git.303.c08b73d523c"
 
-RPM_NAME = "samba-python3-4.18.1+git.298.4ccf830b2a4-1.1.aarch64.rpm"
-RPM_HASH = "1c6f8b9506f4248830cae48a5c9c58c39956ae66fce0570542052a16a77149d71ffb7c1d0516578afae041db4feb24b85c8eea1f675dec3a877bbef08e5b1332"
+RPM_NAME = "samba-python3-4.18.3+git.303.c08b73d523c-1.2.aarch64.rpm"
+RPM_HASH = "8a06d780f52f14bd0d731a7981cf6884729d8257cff339743cd5985596dac22200be865bf4891cfd4ebb94a88e70b1eceafa1070ea50ce6494f1da27fa4aab8f"
 
 RPROVIDES:${PN} += "samba-python3"
 
@@ -59,20 +59,20 @@ libndr-standard.so.0 \
 libndr.so.3 \
 libnetif-samba4.so \
 libposix-eadb-samba4.so \
-libpyldb-util.cpython-310-aarch64-linux-gnu.so.2 \
-libpytalloc-util.cpython-310-aarch64-linux-gnu.so.2 \
-libpython3.10.so.1.0 \
+libpyldb-util.cpython-311-aarch64-linux-gnu.so.2 \
+libpytalloc-util.cpython-311-aarch64-linux-gnu.so.2 \
+libpython3.11.so.1.0 \
 libregistry-samba4.so \
 libreplace-samba4.so \
 libsamba-credentials.so.1 \
 libsamba-debug-samba4.so \
 libsamba-errors.so.1 \
 libsamba-hostconfig.so.0 \
-libsamba-net.cpython-310-aarch64-linux-gnu-samba4.so \
+libsamba-net.cpython-311-aarch64-linux-gnu-samba4.so \
 libsamba-passdb.so.0 \
-libsamba-policy.cpython-310-aarch64-linux-gnu.so.0 \
+libsamba-policy.cpython-311-aarch64-linux-gnu.so.0 \
 libsamba-policy0-python3 \
-libsamba-python.cpython-310-aarch64-linux-gnu-samba4.so \
+libsamba-python.cpython-311-aarch64-linux-gnu-samba4.so \
 libsamba-security-samba4.so \
 libsamba-util.so.0 \
 libsamba3-util-samba4.so \

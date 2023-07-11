@@ -6,11 +6,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.10.1"
 
-RPM_NAME = "python311-relatorio-0.10.1-1.6.noarch.rpm"
-RPM_HASH = "3b82ccf3129d94c3ede341a63307494f222500f4c77086b24d89c7880174d1999f1ea4a6dda2bbf6fad9214a321f21962d86a6d53c4181dab3be9e16e8f30506"
+RPM_NAME = "python311-relatorio-0.10.1-1.8.noarch.rpm"
+RPM_HASH = "5bd1e6ae58862c112f4909ea42f45ba99d6b28e1da71e38036322fb4a659641225163a190b0055864a893d5e739bfde8775ee6823f0d9b2678bdcb92671cc2f2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-relatorio \
+RPROVIDES:${PN} += "python3-relatorio \
+python3.11dist-relatorio \
 python311-relatorio \
 python3dist-relatorio"
 

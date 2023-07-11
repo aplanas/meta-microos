@@ -10,10 +10,10 @@ It also is friendly to screen readers by adding alt-text \
 indicating redacted content."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1.0svn62167"
+PV = "2023.208.1.1.0svn62167"
 
-RPM_NAME = "texlive-luacensor-2023.201.1.1.0svn62167-52.1.noarch.rpm"
-RPM_HASH = "fd571720f8e672475608316ef9089fcdeb80870039ff07d51ed06a8b9fbb0370b6070bb077a38b38298d05de3f0beea72717ac8e1f760d2edc71dd98cddc6240"
+RPM_NAME = "texlive-luacensor-2023.208.1.1.0svn62167-53.1.noarch.rpm"
+RPM_HASH = "0c177d05bacac16d8465ed8e697222f020a17ce789d00f21c4f1d6b16227df4bbd30e285eb829df3d5c8d0fab9e4a26e7784fc5366a9c4442887635fb3d6b6b1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-luacensor.sty \

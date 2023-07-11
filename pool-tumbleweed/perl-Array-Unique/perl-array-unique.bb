@@ -16,8 +16,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.09"
 
-RPM_NAME = "perl-Array-Unique-0.09-1.1.noarch.rpm"
-RPM_HASH = "77ea4c02791eb90a0899e9bd2d27ff2f6cabaa3b0e3f77bf0d8eee7d1edc3c5c860c1c586652a90823893f57b8c81c48e5c9d31107989a8bc16840c51fcf24cc"
+RPM_NAME = "perl-Array-Unique-0.09-1.2.noarch.rpm"
+RPM_HASH = "61252edebd11ec5220d9a8d0fea2136fe068bdfeaa0b1eea82b4a246a3466988df7f2a96d4543a82bdc98b6eb09091192b3fac2d8ec80b483ccf54d6c9aee506"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Array--Unique \
@@ -27,6 +27,6 @@ perl-Array--Unique--Quick \
 perl-Array--Unique--Std \
 perl-Array-Unique"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

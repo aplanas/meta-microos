@@ -14,8 +14,8 @@ LICENSE = "MIT"
 
 PV = "0.1.0"
 
-RPM_NAME = "python39-samplerate-0.1.0-2.7.noarch.rpm"
-RPM_HASH = "93223c9f75e8fb7ec8cac175dd4638252759974321d30988c61f92c1a603fe6148f184df92a4f02fbc58b868b935f03decce412430d67dda80f650bea7348467"
+RPM_NAME = "python39-samplerate-0.1.0-2.9.noarch.rpm"
+RPM_HASH = "e56318ea027925f8379b96878646857f681656d8016657b7d16d6f6b3f0e24a4d82a42bbaf5e943e6bb6a5d64d61277b80abd39b6e7f47136b901186dcec26b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-samplerate \

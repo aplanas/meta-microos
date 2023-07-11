@@ -6,15 +6,15 @@ LICENSE = "GPL-2.0-only"
 
 PV = "3.0.2"
 
-RPM_NAME = "OpenLP-3.0.2-1.2.noarch.rpm"
-RPM_HASH = "5011a560fd1c54d2f0deb552e5425a9de142583e9e9d208e35f734bb5626fc8f13f373bea908b343afd16fb1b5ab49b7db23a499c15a992cc62b580b3a1786d6"
+RPM_NAME = "OpenLP-3.0.2-1.3.noarch.rpm"
+RPM_HASH = "6918e3e5d8169f702951108db4be4e96047ce94231a4a642e74909da845a874f9546c3c2f960aeb2ef6d161cbcb793cf24d0315acf6f56342ab7d49952131f96"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "OpenLP \
-python3.10dist-openlp \
+python3.11dist-openlp \
 python3dist-openlp"
 
-RDEPENDS:${PN} += "/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
 /usr/bin/sh \
 hicolor-icon-theme \
 python-abi \

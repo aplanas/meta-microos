@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-only"
 
 PV = "2.7.2"
 
-RPM_NAME = "openwsman-ruby-docs-2.7.2-2.5.noarch.rpm"
-RPM_HASH = "255749c9b1a0bc20b17ea2199b0e605b25bde10d21d833f7a07f9bcffbd622aa2850deb5bfb5ed1458ea77914b018d852d62066cf05f0b2debd20854d237feca"
+RPM_NAME = "openwsman-ruby-docs-2.7.2-2.8.noarch.rpm"
+RPM_HASH = "cfccc99caa76cc0fb41a5e94c8b17c1723898018c9e79759c0225735c42d5e15c90fafdff62f88f62a0060f695a04e18c76d99de1537755e2ac37815cdfee715"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openwsman-ruby-docs"

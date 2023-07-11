@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.2.3"
 
-RPM_NAME = "pmix-devel-3.2.3-10.1.aarch64.rpm"
-RPM_HASH = "78576b46f0f7ede42408e955b38ee3f61aea3f2fb6e9d5e431659d0f3999267bfdea6175856377400b98b5a8bd96cfcf5adb08442167e28649987e85ddc60c7f"
+RPM_NAME = "pmix-devel-3.2.3-10.2.aarch64.rpm"
+RPM_HASH = "204d7eb25b37e50c83e5cb98a5ac5ad384d875639a35538b41aa3068834061ccbbc6af2393740e3adb94ccdb8967e99195553a0c034ae3b1e5def93b575a31c9"
 
 RPROVIDES:${PN} += "pkgconfig-pmix \
 pmix-devel"

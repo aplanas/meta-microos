@@ -17,8 +17,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.288"
 
-RPM_NAME = "perl-Web-MREST-0.288-1.19.noarch.rpm"
-RPM_HASH = "d3da987d9a33615bad56791913b289f741009c167cda909135bf4afec51746f1e0ce07cdc74e0c64349f0da2d03f7a17b2a933fc307748a424ed22ae46a154c2"
+RPM_NAME = "perl-Web-MREST-0.288-1.20.noarch.rpm"
+RPM_HASH = "f954e0fb56a13806cdaeff2137c6873d70df23f02fee813cfa78566abc476a5884cf0c8cc66e7547b567df5cc6e8b2ed5a91aadbcb973c6a82dd24b177de2d54"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Web--MREST \
@@ -36,7 +36,7 @@ perl-Web-MREST"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 /usr/bin/sh \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-App--CELL \
 perl-File--ShareDir \
 perl-HTTP--Request \

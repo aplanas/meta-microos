@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.9.0"
 
-RPM_NAME = "python39-azure-cognitiveservices-vision-computervision-0.9.0-1.8.noarch.rpm"
-RPM_HASH = "f86ea32ff619a92296779471fa46645b8210c5c6eb525d820e6ba667fc369881555a21e584b27a359c27da389c8d63b04e72cd273a9a9e0eeebcfdc7849f2faa"
+RPM_NAME = "python39-azure-cognitiveservices-vision-computervision-0.9.0-1.9.noarch.rpm"
+RPM_HASH = "9c293529a2ce1ad925cfe7dd181c5b2dbd98c4854a81841207ca2dd26f43fabf647db1b03d424dd0f7d85c8defaf01c3fafe1d47f166cfda16376f86f85a8158"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-cognitiveservices-vision-computervision \

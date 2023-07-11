@@ -3,10 +3,10 @@ DESCRIPTION = "The samba-libs package contains the libraries needed by programs 
 link against the SMB, RPC and other protocols provided by the Samba suite."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.18.1+git.298.4ccf830b2a4"
+PV = "4.18.3+git.303.c08b73d523c"
 
-RPM_NAME = "samba-libs-4.18.1+git.298.4ccf830b2a4-1.1.aarch64.rpm"
-RPM_HASH = "122e6d8a069f5ed1e635cb117b0fd0fc7ddb41a9d9f45419782e1372f8941395a70d760fa8895bcecffe761b9b4f447b5499fa3f99758fb1ec97e6a076dc2231"
+RPM_NAME = "samba-libs-4.18.3+git.303.c08b73d523c-1.2.aarch64.rpm"
+RPM_HASH = "5cc8aa699bed03db51da161f8d0277fcf409de37df387224ac5f8047b35170988b700672398a7b5e7b09b8d95d744aaeb9c17566dcd99818e61d537b7977a7ac"
 
 RPROVIDES:${PN} += "libLIBWBCLIENT-OLD-samba4.so \
 libREG-FULL-samba4.so \

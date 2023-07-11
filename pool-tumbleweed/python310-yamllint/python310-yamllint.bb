@@ -8,12 +8,11 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.32.0"
 
-RPM_NAME = "python310-yamllint-1.32.0-1.1.noarch.rpm"
-RPM_HASH = "15e77ae7066795fcfaed67a68ca91d0b7fd7d4e7a69b961a246986091538b4d9ab1d96c186c8a98cf4f830631f8bfe6836a16f011d56609d53ba54188343f812"
+RPM_NAME = "python310-yamllint-1.32.0-1.3.noarch.rpm"
+RPM_HASH = "a3d4e054d30250034cda7aebbd9b2a90ab1afd88a3b6d0724f117ec79a42e0693405083b979f2ecef9b76938f4983d57dfedacfad8be9e7db6f28a52fdb385f4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-yamllint \
-python3.10dist-yamllint \
+RPROVIDES:${PN} += "python3.10dist-yamllint \
 python310-yamllint \
 python3dist-yamllint"
 

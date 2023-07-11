@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.2.1"
 
-RPM_NAME = "liblavfile-2_2-0-2.2.1-2.5.aarch64.rpm"
-RPM_HASH = "2a9149e2eca258c2edce68677455ce6dccf3fe4f035e84e9c6662460a69d783457d976208aa7d57136a62625b26b676824a1dc2d7a2528f24b55ccfede485db9"
+RPM_NAME = "liblavfile-2_2-0-2.2.1-2.6.aarch64.rpm"
+RPM_HASH = "d04c32fbc514c45cd03755164e8b4cd6c540f7e28037e3750f6755730e5a6c52bd7caa49d910017118dcbefe4ca45235e358ba037ad6f97469d13a675a4ae413"
 
 RPROVIDES:${PN} += "liblavfile-2-2-0 \
 liblavfile-2.2.so.0"

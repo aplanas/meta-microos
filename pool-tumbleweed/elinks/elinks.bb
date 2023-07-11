@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.16.1.1"
 
-RPM_NAME = "elinks-0.16.1.1-1.1.aarch64.rpm"
-RPM_HASH = "378ed4b3462e73e9747436ba83d51de5b98d588bc4d8d3e7fb054b7e869f33e2aa376c5899de60a1648074d21454cdae1259dac2fd4f1ebb788d0bed67f2986a"
+RPM_NAME = "elinks-0.16.1.1-1.3.aarch64.rpm"
+RPM_HASH = "7ba1c98bb94c56328891b981d9cb18aedfeae075be322e3849d8626629d40ab44c4f26d83bb5ba8aa73e819b5c443ba7a23df7e59015ef5681919f5f3231b337"
 
 RPROVIDES:${PN} += "elinks \
 web-browser"
@@ -35,6 +35,6 @@ libxml++-5.0.so.1 \
 libxml2.so.2 \
 libz.so.1 \
 perl \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

@@ -20,8 +20,8 @@ LICENSE = "(CPL-1.0 | LGPL-2.1-or-later) & Zlib"
 
 PV = "3.2.0"
 
-RPM_NAME = "libphysfs1-3.2.0-1.3.aarch64.rpm"
-RPM_HASH = "292eb878772477d419136b38264d12afd429813c68f56a0a6f4ea45d4135d0ad55a86716f502dcfa3a38b3c9634818b491b088fdf3b9440b360253f9a4e51c23"
+RPM_NAME = "libphysfs1-3.2.0-1.4.aarch64.rpm"
+RPM_HASH = "874e7bcaae21cc970d4e3e03a3fdf3994f3311cd280a51a73d5aff3b87ecfe88d43f2658d8d4abeb08f0a6ddbcd8408cc672c7ade65c45176cbcf33ab67f6d2d"
 
 RPROVIDES:${PN} += "libphysfs.so.1 \
 libphysfs1 \

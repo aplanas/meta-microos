@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.1.1~git20180606.42f7640"
 
-RPM_NAME = "libhangul-devel-0.1.1~git20180606.42f7640-1.15.aarch64.rpm"
-RPM_HASH = "4d9a294c1519be945ea62d126af965a00e41328333de446be034a6fc4e051b7d4e492fe87709838c31e411c769f2d90d06463183ca300f7bc053a49b1b3cefb5"
+RPM_NAME = "libhangul-devel-0.1.1~git20180606.42f7640-1.16.aarch64.rpm"
+RPM_HASH = "e174e1566ad1e6ef393f4ac8635a863e14557ab2f2cd4582d33fb03c0a08251dc8742f5dcf1f9530d2ea1dde32a6494f2002ca82441840f0383114a51e37266f"
 
 RPROVIDES:${PN} += "libhangul-devel \
 pkgconfig-libhangul"

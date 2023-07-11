@@ -6,12 +6,11 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2020.1.29.1857"
 
-RPM_NAME = "python310-shijian-2020.1.29.1857-2.9.noarch.rpm"
-RPM_HASH = "dcd6bdc048217af43850a846ef56e60f924db76a0bcc4a62f33d13d433d1a64d0f3d6feeca7df354b09cf4fc3634854f2a8b0e56981d0acfaf16ce9858f36b6d"
+RPM_NAME = "python310-shijian-2020.1.29.1857-2.10.noarch.rpm"
+RPM_HASH = "46e893e9b632e54214ec8e73a84f516f59298490307ff51082662c1f961ad6e0ff8ef3fe660739561cb67750a49ac913a111f767ee632643c994394307e246df"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-shijian \
-python3.10dist-shijian \
+RPROVIDES:${PN} += "python3.10dist-shijian \
 python310-shijian \
 python3dist-shijian"
 

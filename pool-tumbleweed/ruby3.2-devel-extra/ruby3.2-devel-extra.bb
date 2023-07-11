@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause | Ruby"
 
 PV = "3.2.2"
 
-RPM_NAME = "ruby3.2-devel-extra-3.2.2-1.1.aarch64.rpm"
-RPM_HASH = "656037ea5519b536b787789252447e7275770f8a23927ab633db5c903e61850c3ddbd1d52c3f32de15c6dabe79002bbd2c3d367b6cbca3ec37e8b844d69193da"
+RPM_NAME = "ruby3.2-devel-extra-3.2.2-1.2.aarch64.rpm"
+RPM_HASH = "96580a7803271b9005cafb9663d2fdbe8095ebe804054d80b53396f78669cfd0f548d45b3e7fe50dbd15145fe390accdab80c2e8005e58c47877a1c515a0f9f6"
 
 RPROVIDES:${PN} += "ruby3.2-devel-extra"
 

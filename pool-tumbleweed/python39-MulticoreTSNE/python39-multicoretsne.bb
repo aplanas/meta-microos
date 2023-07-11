@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1"
 
-RPM_NAME = "python39-MulticoreTSNE-0.1-5.4.aarch64.rpm"
-RPM_HASH = "b7dda896da8bbecbccf46f25960a01c0ef5754d4f966177206fafca4d905f1257effb21c38ee50997a2bce45154749eb0bd2c91f9e9398768564212c66850199"
+RPM_NAME = "python39-MulticoreTSNE-0.1-5.5.aarch64.rpm"
+RPM_HASH = "20b5633d26e0fce27654f619669ff6b9632b123b5527b9c4dc58e0252b6dee82179f880808fca3645308e405ee07e8aa193f2aae7f9e0b0f1c46ae4a9ed254bb"
 
 RPROVIDES:${PN} += "libtsne-multicore.so \
 python3.9dist-multicoretsne \

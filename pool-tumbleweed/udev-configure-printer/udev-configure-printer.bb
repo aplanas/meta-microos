@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.5.18"
 
-RPM_NAME = "udev-configure-printer-1.5.18-2.1.aarch64.rpm"
-RPM_HASH = "b7417193c136c942604b2456c6f8ee9656aa4345bd67b07dc943193cc39a56d20b3d6798414b7eb627d1205096df6737e92235c49fa3cd278a4bda748069e44b"
+RPM_NAME = "udev-configure-printer-1.5.18-2.2.aarch64.rpm"
+RPM_HASH = "27854c86a3456abebeab2a1633042842f1501809ec933290d95eef3813efdb19f6fa45e6ea8763b2f0776d52ebf03cd8d6f421a3a0f6ccd0b8f949038ecbdb8d"
 
 RPROVIDES:${PN} += "udev-configure-printer"
 

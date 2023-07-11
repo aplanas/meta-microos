@@ -20,8 +20,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.13"
 
-RPM_NAME = "python39-webcolors-1.13-1.1.noarch.rpm"
-RPM_HASH = "69284079ba4334d3c95813e16498bcb981450d6a0c8877fec0219979613b7cfc1bb703f59db42533302e0c1bead1c3c6ad350b727a3fdb31c347ca1f89d23c43"
+RPM_NAME = "python39-webcolors-1.13-1.3.noarch.rpm"
+RPM_HASH = "3b9c3863c45acfe72be153fcf8475e24dc6b30d127376963399e508f373ed03204db8ddcb9d05987768058fec422e1d3b7f36f891d7fab62c2a7afbe8593e068"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-webcolors \

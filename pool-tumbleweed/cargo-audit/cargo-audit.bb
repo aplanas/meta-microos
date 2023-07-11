@@ -4,8 +4,8 @@ LICENSE = "( 0BSD | MIT | Apache-2.0 ) & ( Apache-2.0 | BSL-1.0 ) & ( Apache-2.0
 
 PV = "0.17.5~git0.dc8ec71"
 
-RPM_NAME = "cargo-audit-0.17.5~git0.dc8ec71-1.1.aarch64.rpm"
-RPM_HASH = "325e9e0c9c3924b62abfb3a7d25ca7f642354ae32b5aa756136d13524616ab4e165d8df068533ce89a0653f18f2b9fa8dab9adf8630a8e1f112690775ba87850"
+RPM_NAME = "cargo-audit-0.17.5~git0.dc8ec71-1.3.aarch64.rpm"
+RPM_HASH = "775a3f814276d87ac6abf5205ebd683224d8c1c538d3a892527bba2d5a5ef8fbead6dfafd742d20e43e81e7d1da7c0843c08d569e176c335008cf6d1cf3e06a6"
 
 RPROVIDES:${PN} += "bundled-rust-crate-abscissa-core \
 bundled-rust-crate-abscissa-derive \

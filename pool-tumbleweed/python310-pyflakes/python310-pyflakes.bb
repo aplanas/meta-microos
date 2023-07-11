@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "3.0.1"
 
-RPM_NAME = "python310-pyflakes-3.0.1-4.1.noarch.rpm"
-RPM_HASH = "4b718dce04cc5917e534e8d50c70a8a4bccd87497b07d8d5cace18aa7c3d53d75e04c089ee739fabf1428942e42e7d632c44c92048e5c52f81c580befecbde6b"
+RPM_NAME = "python310-pyflakes-3.0.1-4.3.noarch.rpm"
+RPM_HASH = "acb234a68ea532ae093f861c7ca0d433583ff17a65f4e4481d43df60e2c0116dec1cdc735637503db5bb22926479e74493e69c42ae59cf2585c0328c08eff2b6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pyflakes \
-python3.10dist-pyflakes \
+RPROVIDES:${PN} += "python3.10dist-pyflakes \
 python310-pyflakes \
 python3dist-pyflakes"
 

@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "3.0.0"
 
-RPM_NAME = "python310-wakeonlan-3.0.0-1.1.noarch.rpm"
-RPM_HASH = "2334708f83bf1b347ec82aee77e2e92707cceb48ad9a747bc94f6c1438549e9e0c4aaac38beb381d9c84f7dc2371976ddb160f9cfa684a9af43a6258316be802"
+RPM_NAME = "python310-wakeonlan-3.0.0-1.3.noarch.rpm"
+RPM_HASH = "6e77c042b16e5672f29aac1766f5630fd3dde26ae448c30b7dadfd739610f93696d5b78dff826fe3ead27114bee5386e2a44d80a4dc841ac7f521201008e1228"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-wakeonlan \
-python3.10dist-wakeonlan \
+RPROVIDES:${PN} += "python3.10dist-wakeonlan \
 python310-wakeonlan \
 python3dist-wakeonlan"
 

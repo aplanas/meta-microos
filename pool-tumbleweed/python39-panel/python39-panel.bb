@@ -4,30 +4,33 @@ dashboards by connecting user-defined widgets to plots, images, tables, or \
 text."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.14.4"
+PV = "1.1.1"
 
-RPM_NAME = "python39-panel-0.14.4-1.2.noarch.rpm"
-RPM_HASH = "8656578f93a50dc39e01b48f009fea64be9bd2579f82faba7e749b6be7a3bf75e48acef039a91c8bc30c7ae2947992f1e26db85961f59bdbd4ed28d8a0fbd051"
+RPM_NAME = "python39-panel-1.1.1-1.1.noarch.rpm"
+RPM_HASH = "622769cea704d2dc751666c1c5df719ab9d6b3c70fa6d2d93ff5e7bdeaf255c45fd47d7251b461526add5698040a09797d262ad42f29a4fef426a001549dd4f2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-panel \
 python39-panel \
 python3dist-panel"
 
-RDEPENDS:${PN} += "-python39-bokeh >= 2.4.3 with python39-bokeh < 2.5 \
+RDEPENDS:${PN} += "-python39-bokeh >= 3.1.1 with python39-bokeh < 3.3.0 \
 /usr/bin/python3.9 \
 /usr/bin/sh \
 jupyter-panel \
 python-abi \
 python39-Markdown \
 python39-bleach \
+python39-linkify-it-py \
+python39-markdown-it-py \
+python39-mdit-py-plugins \
+python39-pandas \
 python39-param \
-python39-pyct \
 python39-pyviz-comms \
 python39-requests \
-python39-setuptools \
 python39-tqdm \
 python39-typing-extensions \
+python39-xyzservices \
 update-alternatives"
 
 inherit rpm

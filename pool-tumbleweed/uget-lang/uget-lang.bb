@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.2.3"
 
-RPM_NAME = "uget-lang-2.2.3-3.14.noarch.rpm"
-RPM_HASH = "2e4b81ccccf3d9389e2d867b4459a86e063d114c733a8694eff5ba1cdca878070529ef898bfab0722c448385ce11022d725cdc80fed58be16d15af8d39e4e1b0"
+RPM_NAME = "uget-lang-2.2.3-3.15.noarch.rpm"
+RPM_HASH = "426c761ba12fd155f4bd11a75c22366b35b074aa6b807da6c5226aaf09a96ead4678f4efa4a52cf23892d0d84245a3a7f8a9083fc74f54e5107caab1d5bbbe68"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-uget-ar \

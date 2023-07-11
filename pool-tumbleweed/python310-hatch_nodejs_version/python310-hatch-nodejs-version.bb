@@ -11,12 +11,11 @@ LICENSE = "MIT"
 
 PV = "0.3.1"
 
-RPM_NAME = "python310-hatch_nodejs_version-0.3.1-2.3.noarch.rpm"
-RPM_HASH = "e8a28480accbe56052d2d34e00120d34e9f2d15f378721f523d63fbade89cd03003400dae9a339c133baf3c5c8dd5ee46fb5c697278d832c815d4db4646ca568"
+RPM_NAME = "python310-hatch_nodejs_version-0.3.1-2.5.noarch.rpm"
+RPM_HASH = "15ce5872d6d0ba67faf9d0fb645877071b7a87e64507baf1c0990defdc1d030a4bd285d787fbcd74da9003aafac91a7b819f26779c8de49a3cfc1d8086a89dac"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-hatch-nodejs-version \
-python3.10dist-hatch-nodejs-version \
+RPROVIDES:${PN} += "python3.10dist-hatch-nodejs-version \
 python310-hatch-nodejs-version \
 python3dist-hatch-nodejs-version"
 

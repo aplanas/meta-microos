@@ -6,10 +6,10 @@ via the system message bus. Some operations (such as suspending the \
 system) are restricted using PolicyKit."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.90.0"
+PV = "1.90.1"
 
-RPM_NAME = "upower-1.90.0-1.4.aarch64.rpm"
-RPM_HASH = "d2695bc09fd978d9a8157b38c6c3a55cedc385fd651b2543ce2e9a05295350d8e1e9523c4ba5b6d4275c8c09194d8ac272e104bd0f4563a5b2b92443000c7172"
+RPM_NAME = "upower-1.90.1-1.1.aarch64.rpm"
+RPM_HASH = "dc6fa761a2f671379688f68e26e53c885263d8c6861cc9c3617c85faee2c99b3d2c608b0834df25a6c6e16e04f9f6c397a4ad4747b48e456af489d4a8ed3157b"
 
 RPROVIDES:${PN} += "config-upower \
 upower"
@@ -21,6 +21,8 @@ libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgudev-1.0.so.0 \
+libimobiledevice-1.0.so.6 \
+libplist-2.0.so.4 \
 libupower-glib.so.3 \
 systemd"
 

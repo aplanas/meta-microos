@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later-with-WxWindows-exception-3.1"
 
 PV = "1.5.23"
 
-RPM_NAME = "wxsvg-1.5.23-4.3.aarch64.rpm"
-RPM_HASH = "d82b580ca58c1c3b074de3ff3ff0595ec27f1279cf93fffe9d5276c15917ce801fe5efb041969cc52e0e71c5c0d368598e1642533654621e3337982cd181cce3"
+RPM_NAME = "wxsvg-1.5.23-4.4.aarch64.rpm"
+RPM_HASH = "76cce9c408d5477d407f672193103808526bc96ff5d3cbdbfdce57e9ba0fb47720970c74c819a4ac78098e4b9f724192fce8f0519f9227432c62ccce1fde5520"
 
 RPROVIDES:${PN} += "wxsvg"
 

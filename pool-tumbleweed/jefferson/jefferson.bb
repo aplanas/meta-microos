@@ -14,12 +14,12 @@ LICENSE = "MIT"
 
 PV = "0.4.1+git.20220705"
 
-RPM_NAME = "jefferson-0.4.1+git.20220705-1.3.noarch.rpm"
-RPM_HASH = "cadb9d8505153b37d4b065728659629dc843d96631051fe1315fb2cfed2cffb4095a8584420654d1c8744edc9a6b0343457f89aa3aa9bf6bb0d11fe9ca6be73c"
+RPM_NAME = "jefferson-0.4.1+git.20220705-1.4.noarch.rpm"
+RPM_HASH = "2250671881cdd5be00ebe98aca75d920684419dae1dec6ff7c6627f2c92a0c838060e3064e43c83476187bfda656aa77fd401865771f5e77505fbb3ed1466715"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jefferson \
-python3.10dist-jefferson \
+python3.11dist-jefferson \
 python3dist-jefferson"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

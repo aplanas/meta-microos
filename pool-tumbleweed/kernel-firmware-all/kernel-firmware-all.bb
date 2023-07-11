@@ -3,10 +3,10 @@ DESCRIPTION = "This package is a catch-all compatibility metapackage for providi
 all files that have been provided by kernel-firmware package."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230517"
+PV = "20230620"
 
-RPM_NAME = "kernel-firmware-all-20230517-1.1.noarch.rpm"
-RPM_HASH = "7fbab7d776f0ef5005043363426aa3a0f273b9beb9a50e40fc5367507cccadd3023ee93114067c9b3d4e2f70c197e8a114483b30f35520108d961d3d7d65a2d8"
+RPM_NAME = "kernel-firmware-all-20230620-1.1.noarch.rpm"
+RPM_HASH = "de0eb863e8bf41344a5dc24cdc2a14496d23dd72f55313cc80eb94c9203d4ca1fb92fee244bd623928311741cb5754a14921fb14008ae426fdab3155ca54b07e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "compat-wireless-firmware \

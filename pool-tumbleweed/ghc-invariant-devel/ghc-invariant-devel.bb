@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.6.1"
 
-RPM_NAME = "ghc-invariant-devel-0.6.1-1.3.aarch64.rpm"
-RPM_HASH = "a16c56955f087877d9ce65bc52b7b0b55a226ff60cb47c5bfd4c293353f786d319f4e9fd5388779ec3b4cb0aa03b1bfa25e2aab027022196695b757fc9e0727a"
+RPM_NAME = "ghc-invariant-devel-0.6.1-1.6.aarch64.rpm"
+RPM_HASH = "71a774e146b1e67184138e18c480d713b19c41bc2caeddca9273ea0a55de2b58f3dc9cf26b5e23b92b0e441f273a0364dc7ab462183ac286ace602f19dffd1c0"
 
 RPROVIDES:${PN} += "ghc-devel-invariant-0.6.1-B19sct74tP6Cqvpbmm6WZv \
 ghc-invariant-devel"

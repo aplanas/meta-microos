@@ -9,8 +9,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "2.4.0"
 
-RPM_NAME = "libtalloc2-2.4.0-3.1.aarch64.rpm"
-RPM_HASH = "db34074f7833b9c231668fc74a4ff7cf14ad042a1558764b07a40735766e9faeacd4eff910cb0472cd456ee3941e98494501fbb3cd4ae36f147a06c1e3e467a7"
+RPM_NAME = "libtalloc2-2.4.0-3.2.aarch64.rpm"
+RPM_HASH = "82521fa74cd784d3355cd44c979ebb87f4fcfb1696e5c1e9d977037a937f72b505df33dca95d024cb3b7dcc28545938a0bbf26c776d7836ac5d4f5e9d0b7b040"
 
 RPROVIDES:${PN} += "bundled-libreplace \
 libtalloc.so.2 \

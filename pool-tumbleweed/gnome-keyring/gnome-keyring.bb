@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "42.1"
 
-RPM_NAME = "gnome-keyring-42.1-2.3.aarch64.rpm"
-RPM_HASH = "d0ed5744af09383f63604d337c4fe7d9f5ab88d4338caff53ddcc0b66a49bed94321333bd9c6fac78dd2599315c452caf5a7d18b57bac5ce2f590c7fc0b8fc10"
+RPM_NAME = "gnome-keyring-42.1-2.4.aarch64.rpm"
+RPM_HASH = "168daa0c68c45c3160c4e2d579e19139db86e3b5097b1f0673404fb523fb6e2d120998b94bb784b331ca0df7c30eaf29cc9b34456e6c2cc34d32bd3307643416"
 
 RPROVIDES:${PN} += "dbus-org.freedesktop.secrets \
 dbus-org.gnome.keyring \

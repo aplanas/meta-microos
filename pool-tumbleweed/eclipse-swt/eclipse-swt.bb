@@ -5,8 +5,8 @@ LICENSE = "EPL-2.0"
 
 PV = "4.15"
 
-RPM_NAME = "eclipse-swt-4.15-9.3.aarch64.rpm"
-RPM_HASH = "ad014bfadd7989f2354faa6f30d9db7efc92646ceccd0266e3d043ee4514529ccaec256ec843e713322dfd2903ee0b7a84b862964be377f45d2d5a32239aae02"
+RPM_NAME = "eclipse-swt-4.15-9.4.aarch64.rpm"
+RPM_HASH = "a44c2fd5dc88ea76c61309d5056819f5653fb72cd379dc2c2e68d76963a47f4d3cdde23c5f1e3880a614971c68823c339e249a4b105cd43fe6b47816f234bc68"
 
 RPROVIDES:${PN} += "eclipse-swt \
 libswt-atk-gtk-4932r18.so \

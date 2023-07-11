@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.12.3"
 
-RPM_NAME = "brasero-lang-3.12.3-2.7.noarch.rpm"
-RPM_HASH = "4f5ed736aba799b72ece85af2c9c9bfc0a171d058616ba12cff691e048d348480728b43d0eb6cdc16ac7b6dab9d4e495b0a985aa0131d4fadce3f1c351c07276"
+RPM_NAME = "brasero-lang-3.12.3-2.8.noarch.rpm"
+RPM_HASH = "88bd20c6c4af4be2c0fa8df504892d25057b9896e7c24e6df0d6b6d478ab32219988de47b582335ab2a06363618470bc2c49dd424d3328fe7851c4a48133f5bf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "brasero-lang \

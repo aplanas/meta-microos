@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.4.3"
 
-RPM_NAME = "python310-url-normalize-1.4.3-2.1.noarch.rpm"
-RPM_HASH = "f16044145f8a79a486ebefc1ca6ff8e7f1273271ce52016fda691111b95ec302492e34f72485f6d05ff088ba45ea74e772d5b8b9adbec6b60d5a23df8ee7bc8a"
+RPM_NAME = "python310-url-normalize-1.4.3-2.3.noarch.rpm"
+RPM_HASH = "f7477dd967ffc743c1ab8d09f07f8b333e247329b3049dc11a010d1e40524ab5ea9e7a0433cb5d5b97406353d27c3f6635ea29544f55a76ac3f65c9586b014ae"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-url-normalize \
-python3.10dist-url-normalize \
+RPROVIDES:${PN} += "python3.10dist-url-normalize \
 python310-url-normalize \
 python3dist-url-normalize"
 

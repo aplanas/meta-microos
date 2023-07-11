@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0 & SUSE-Public-Domain"
 
 PV = "1.11.3"
 
-RPM_NAME = "aws-sdk-java-glacier-1.11.3-7.8.noarch.rpm"
-RPM_HASH = "b67ea7a57f8cf2555038d6d3212ffa93adaf648a837d1aa4d130548975dfc96b7cf9aa5609d19dd06b3a5c3dd45a12b2d41d03e03f1ba21cd8382ad209f13712"
+RPM_NAME = "aws-sdk-java-glacier-1.11.3-7.9.noarch.rpm"
+RPM_HASH = "525877e0fe43173aba6cf47a9bb5e01845349dca693e7a10284db506c1227dce608a1d11ea140064e8ab15d4bb1ab2bd71828a57ea09e7a5500173b15bf0a25e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-glacier \

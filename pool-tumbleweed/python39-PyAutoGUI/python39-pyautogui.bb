@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.9.53"
 
-RPM_NAME = "python39-PyAutoGUI-0.9.53-1.3.noarch.rpm"
-RPM_HASH = "27755ba67b69c477b937afbf112ca2f31dea2b52ec63a07bcf7377d3a760884da8e41db594ecbfb27633ae4812960def7e8d141a5604537011ffc0f3588fcedc"
+RPM_NAME = "python39-PyAutoGUI-0.9.53-1.5.noarch.rpm"
+RPM_HASH = "3531367aa277cfb3696b46d9f329bc168337ca3bd4af581d140e395a69aee1b7c875e66584acebf55ab0ae3be90be792e41f18abe7c4e833351a4b96569c6533"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyautogui \

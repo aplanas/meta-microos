@@ -8,10 +8,10 @@ modification – across Arm Cortex CPUs and Arm Mali GPUs. \
 This package contains the libarmnnTfLiteParser library from armnn."
 LICENSE = "MIT"
 
-PV = "23.02"
+PV = "23.05"
 
-RPM_NAME = "libarmnnTfLiteParser24-23.02-2.1.aarch64.rpm"
-RPM_HASH = "9e55d194634a077982045d958e4c309c2fd4f4c80721d285996aaed6e118e02cf205235577037b32dc32189e844f19bc02538ee78dc07572e814e23785d1b452"
+RPM_NAME = "libarmnnTfLiteParser24-23.05-1.1.aarch64.rpm"
+RPM_HASH = "276de64a8848947b39c5cbbda929c038c933dd5f83a2dfa404b4bd81511d9ac712eee01f766dc6647aa2f6d66f305efed99902a938ca61e5d2c106bec1182293"
 
 RPROVIDES:${PN} += "libarmnnTfLiteParser.so.24 \
 libarmnnTfLiteParser24"

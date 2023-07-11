@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.1.6"
 
-RPM_NAME = "4store-1.1.6-3.14.aarch64.rpm"
-RPM_HASH = "b635d7ffa51162af6101b5fc696eac0a6b256b9fc038436e5c30ac72cb9f05336f0112e612cd7d0fb3e20952268f5169563ad6dc3cd8cfbfb6dabe95e57479a8"
+RPM_NAME = "4store-1.1.6-3.15.aarch64.rpm"
+RPM_HASH = "8630eeeccd67bffeb293daf2e460cf2cef6de9a63bb1b084664402475f5f8ac129d2277f07a8ce591f952fa8fc5fe52e5c484406a5575b00fed5efd26c2cf3ff"
 
 RPROVIDES:${PN} += "4store"
 

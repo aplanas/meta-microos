@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.1.3"
 
-RPM_NAME = "ffmpeg-5-libavfilter-devel-5.1.3-1.2.aarch64.rpm"
-RPM_HASH = "11d6414fe01c533a92c24e45cfbdb96c8d7b29a2d1ce93bc53316fbc37ddcdc11e1f5cbc3eee6443a291f2823fbaf093f56fec8d59f7f09192dd255645864484"
+RPM_NAME = "ffmpeg-5-libavfilter-devel-5.1.3-2.1.aarch64.rpm"
+RPM_HASH = "2087ff8c21b3c3cc98097d9081b0f87202f8997ddf039bd1de5e476b83d9d975d7c7523cb15a3b581e9df247f197591f6129645fa4559ce599118aee9d91763d"
 
 RPROVIDES:${PN} += "ffmpeg-5-libavfilter-devel \
 libavfilter-devel \

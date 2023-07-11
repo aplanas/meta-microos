@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.4.2"
 
-RPM_NAME = "vorbis-tools-1.4.2-1.11.aarch64.rpm"
-RPM_HASH = "bdc105b36ab884f19c4702434c2ade989aadcddcd98c2149fe091ede5ad21a5ed8f8764465bba083d2d68ef4662ce75e915b26506653b790d175b8a63606081b"
+RPM_NAME = "vorbis-tools-1.4.2-1.12.aarch64.rpm"
+RPM_HASH = "f951067f529fd4ad3b28f6928d62023000c5806d77db7dc04901061fe5829d2a0d9df06c5e31cd19fd453d008ee9cf0929b5e617838bbf1ee8de8cc720fae09e"
 
 RPROVIDES:${PN} += "vorbis-tools"
 

@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "43.2+6"
 
-RPM_NAME = "gpaste-lang-43.2+6-2.1.noarch.rpm"
-RPM_HASH = "b424207571b60ae545ff312c4fb5eefb65cc91c5137b031692df11ec557c9f5ec88809faa6bbe74147190a487f62cad8f1d5bd64cf07c718a69a14f83285b1c7"
+RPM_NAME = "gpaste-lang-43.2+6-2.2.noarch.rpm"
+RPM_HASH = "1c324c633ec8856e8040dd1d1decdc766623b81da48f36a8d3ccdf13674a3d68eec6633a267e48038008f8dbe9587a17c94f56bb3bb72b20e9a04df49cd77404"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gpaste-lang \

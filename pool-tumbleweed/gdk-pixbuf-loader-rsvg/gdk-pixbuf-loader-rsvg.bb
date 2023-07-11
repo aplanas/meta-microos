@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "2.56.1"
 
-RPM_NAME = "gdk-pixbuf-loader-rsvg-2.56.1-1.1.aarch64.rpm"
-RPM_HASH = "3b8bafd5b84d8b42753885be5a084b03673518b3c8be86dc9ea1f48a657da92eceaf9248fe9ee2e82b891ffabad32607109d9af418990b36c931efa82638546a"
+RPM_NAME = "gdk-pixbuf-loader-rsvg-2.56.1-3.1.aarch64.rpm"
+RPM_HASH = "38461fc0c4eafea18c92fb6cab4626cd3835089c33b18f1e2879340e655dd2c100eb43ccbaada97057f793ec5cb80eb44b530823d4569c2e78230299811adf4f"
 
 RPROVIDES:${PN} += "gdk-pixbuf-loader-rsvg \
 libpixbufloader-svg.so"

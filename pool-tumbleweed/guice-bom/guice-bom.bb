@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "5.1.0"
 
-RPM_NAME = "guice-bom-5.1.0-1.1.noarch.rpm"
-RPM_HASH = "f7ff9129a86535343b04d9eb4ebe80279574735d083310f768c4dbfbb501ca427eecf0ad664dda8fa37f09ca4baffd9c2fe258e7e504d2885ba5d3bc7b7f4b2c"
+RPM_NAME = "guice-bom-5.1.0-1.2.noarch.rpm"
+RPM_HASH = "4b6a2fc428e13a07c10bfc8be440bc8eb36e3f52a4911f274fd6fbb4fed2b82d97f1379055af36d7de29ba3bbd3ff330966efdf8b331ed9b21bdf8a2b650c78c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "guice-bom \

@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.3.30"
 
-RPM_NAME = "setroubleshoot-3.3.30-2.2.aarch64.rpm"
-RPM_HASH = "730844273e3345c128a12824018c0b29bd05dd61817af26721410337bb48e2930efa29be83a2463a5180b84164c9d96b69d2f1e595fa19289aeb77f03a486614"
+RPM_NAME = "setroubleshoot-3.3.30-2.3.aarch64.rpm"
+RPM_HASH = "8f2f1bfa778d0a794d4695b3843d3d9f0e8648449541fb839749eada62512037990da24b539c4f19d97dc67fc754c431c6a7db50758af84c461d6a7040067b1f"
 
 RPROVIDES:${PN} += "config-setroubleshoot \
 setroubleshoot"

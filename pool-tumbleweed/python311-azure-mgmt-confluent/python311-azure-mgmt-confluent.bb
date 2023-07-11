@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "1.0.0.0"
 
-RPM_NAME = "python311-azure-mgmt-confluent-1.0.0.0-1.10.noarch.rpm"
-RPM_HASH = "a9ffb2f4cee3431d87260af1c9dc883d4bbc3682fd27d24cdf66023ad04dc56936c70a9c4f517cbedebae34275f0bff13cf0d69cd17bf3f762a057c2ac2453a0"
+RPM_NAME = "python311-azure-mgmt-confluent-1.0.0.0-1.11.noarch.rpm"
+RPM_HASH = "06db0a79e81a89c72dda60bc5934a29314cd4680a74232192c08153ad8080694d9c4ef73b89b5e5a76a775b43df469a105a1f1c1fcf35fd93e581676858c66a8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-confluent \
+RPROVIDES:${PN} += "python3-azure-mgmt-confluent \
+python3.11dist-azure-mgmt-confluent \
 python311-azure-mgmt-confluent \
 python3dist-azure-mgmt-confluent"
 

@@ -4,12 +4,11 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.0.12"
 
-RPM_NAME = "python310-LTTL-2.0.12-2.9.noarch.rpm"
-RPM_HASH = "a456e9d10be9495496f11605c8d80bb6c939b75b79c015d21057618c96f6499f894f714164747afba1a3bce40c5464f9778cd283be1689c3eed6ce31d80dd1a7"
+RPM_NAME = "python310-LTTL-2.0.12-2.11.noarch.rpm"
+RPM_HASH = "ccfd311a260d2afa2fb5f8d35a9bc632ea3eab56296236de58ae9c9a33df81e8e21e9fc422f8efc0d019e7d89cc645b5f81847560e131cfc9673642383693add"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-LTTL \
-python3.10dist-lttl \
+RPROVIDES:${PN} += "python3.10dist-lttl \
 python310-LTTL \
 python3dist-lttl"
 

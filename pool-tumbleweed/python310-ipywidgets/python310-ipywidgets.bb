@@ -4,14 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "8.0.6"
 
-RPM_NAME = "python310-ipywidgets-8.0.6-1.1.noarch.rpm"
-RPM_HASH = "5a6b5a93220bc84c74382a002a7856adb9b3adfadd447d290f2b51774d1ef4d40e93ed4a9da971e66efea013eb7e0a5c900ea39bb33c6b77a77851bf21bf107a"
+RPM_NAME = "python310-ipywidgets-8.0.6-1.3.noarch.rpm"
+RPM_HASH = "93df825f4ba76c971e4c4df602046530d34a3131e8efa682edceecae4b1ca1b3714494c270cf132f8d0ffad21839892ce7a89acc422d0c8f20b9386f8354332c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jupyter-ipywidgets \
-python3-ipywidgets \
-python3-jupyter-ipywidgets \
-python3.10dist-ipywidgets \
+RPROVIDES:${PN} += "python3.10dist-ipywidgets \
 python310-ipywidgets \
 python310-jupyter-ipywidgets \
 python3dist-ipywidgets"

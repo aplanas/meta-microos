@@ -2,10 +2,10 @@ SUMMARY = "Slovak introduction to LaTeX"
 DESCRIPTION = "A Slovak translation of Oetiker's (not so) short introduction."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.208.svn15878"
 
-RPM_NAME = "texlive-lshort-slovak-2023.201.svn15878-52.1.noarch.rpm"
-RPM_HASH = "7a7e136ae52d99d3030b01690f272f044709e97ca64a1652404c046fec9c202bfc5e383b7917892e7ed027509bdf4b5fd41d82732f533f37abd7b9b6a568272c"
+RPM_NAME = "texlive-lshort-slovak-2023.208.svn15878-53.1.noarch.rpm"
+RPM_HASH = "41fb09e8bbf90c84f6619d5bb34d5d34e11ae98bb6c488bf0d979815cc216e74fe90ccd4214b481dfa1be864427c9ca575316ee0096ac5badd95275e0f0d7f51"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lshort-slovak"

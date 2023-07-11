@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.6.0"
 
-RPM_NAME = "python39-patchy-2.6.0-1.3.noarch.rpm"
-RPM_HASH = "872d0c792ce8eafe8fb8a3517ec7d7a5e0729458d9e6437383b9876b83ce3495060ab2fe5f9805672da114acaed566f196972018e940bdb9c96087a30b11dad3"
+RPM_NAME = "python39-patchy-2.6.0-1.5.noarch.rpm"
+RPM_HASH = "9c8792b51a8ba547151f0e4eba079aa418de67eea8f07f14df954af85d3a4a0739dfde5eab946aed56409b7beba69de2e62b5aba868cddf6fc5838cacc81a815"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-patchy \

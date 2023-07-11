@@ -6,8 +6,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2023.201.0.0.11svn23818"
 
-RPM_NAME = "texlive-hatching-2023.201.0.0.11svn23818-53.1.noarch.rpm"
-RPM_HASH = "cb82c8e194b929e3c6d8b9537d04e2e17aa04fbe3e02b3ca902e8a878545e577aae376522e4e160d0a83a4ed69604f8c72145b04fbf72445bdcef2fc3319c1be"
+RPM_NAME = "texlive-hatching-2023.201.0.0.11svn23818-53.2.noarch.rpm"
+RPM_HASH = "0ccfbda85f5e05b5c89e03739159b42767f6eee4cf8b7d6dfebd5398ec81ded86823096ce9d811bee4f699b3452ff3471b8037ddb58bdc4d35f1f849b8269f79"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hatching"

@@ -9,12 +9,11 @@ LICENSE = "MIT-0"
 
 PV = "0.6.3"
 
-RPM_NAME = "python310-patatt-0.6.3-1.1.noarch.rpm"
-RPM_HASH = "fca6b6a108aaa346cda10b3667a90772e3b202d1f82946f42e1c29eb0fbf0462d5faee4b30bfeabc57521fbb1696f5fbfdf5f4cd74edfd57c47c00b374b30d2e"
+RPM_NAME = "python310-patatt-0.6.3-1.3.noarch.rpm"
+RPM_HASH = "7634d626691b7cd8281122ac3787a59042fa412596dd111d79b12aa225c01a9d87b8718ba35bc2cd3019914eb1db83f43ad28d5202d212ee1f370adc04734b26"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-patatt \
-python3.10dist-patatt \
+RPROVIDES:${PN} += "python3.10dist-patatt \
 python310-patatt \
 python3dist-patatt"
 

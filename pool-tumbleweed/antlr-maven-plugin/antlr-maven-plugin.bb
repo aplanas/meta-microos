@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.2"
 
-RPM_NAME = "antlr-maven-plugin-2.2-3.10.noarch.rpm"
-RPM_HASH = "209b69dd23642e2eed77dfe1733cc6b656c58ef17d251113924ff02d1397bcd0626bab0a7c33aa9fff31df5073f7564c6bdd4f1a38235a21ab01b33850134462"
+RPM_NAME = "antlr-maven-plugin-2.2-3.11.noarch.rpm"
+RPM_HASH = "5e5319ee32b53d81322adb4c0c03cabf95ae91dd5f1189a5139faee1a9dc79e6e888638ae472a930dc03ba1ac6c1bb500ebec2ddff9be17d583cf7d3f3e8b7ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "antlr-maven-plugin \

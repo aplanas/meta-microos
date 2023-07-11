@@ -18,8 +18,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.643"
 
-RPM_NAME = "perl-DBI-1.643-2.15.aarch64.rpm"
-RPM_HASH = "4769adb40a28645dfd902f963a565a60f7c4d09999635fb114c54974cb1f8685b005a75c072964164050359715b03d862f9e37c76fcae6c188ffee9f8e59c663"
+RPM_NAME = "perl-DBI-1.643-2.16.aarch64.rpm"
+RPM_HASH = "3f7f6198a016a4a23d106bdb324fd428fbe62fba9a664b71cf0564e483fd62d3532b096f588116853497a59a26c02a928140bcd250c429976bfa918ea7ddf159"
 
 RPROVIDES:${PN} += "perl-Bundle--DBI \
 perl-DBD--DBM \
@@ -107,6 +107,6 @@ perl-DBI--common"
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

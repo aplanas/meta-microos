@@ -6,11 +6,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.98.3"
 
-RPM_NAME = "python311-easygui-0.98.3-1.5.noarch.rpm"
-RPM_HASH = "426395256ec0bccca26162a2dd7174d262900af91cbed9e2aeab2347ce55ccb8a9573a34a8e7b48c52dca96ffbf20ee1c4fb47dae9d786a67c950d6f98376ddf"
+RPM_NAME = "python311-easygui-0.98.3-1.6.noarch.rpm"
+RPM_HASH = "4a8a2dd5b42c819a120f8ca4f47e2357bbed2f42954d463be6ae1c888944cd6b162e8d0cff4246dd16ffafa01b9ba3be5b2c79bf727e381d578c558819061eca"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-easygui \
+RPROVIDES:${PN} += "python3-easygui \
+python3.11dist-easygui \
 python311-easygui \
 python3dist-easygui"
 

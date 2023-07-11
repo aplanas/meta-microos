@@ -20,8 +20,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.8.6"
 
-RPM_NAME = "python39-translate-toolkit-3.8.6-1.2.noarch.rpm"
-RPM_HASH = "f3da5a0606e7fcad4767f6b03e13b9ecc03ddd9d69af0ff1035213d97f3111ec45fbe7ee233a6ee5cb47c5a1c6d5d233d1d616a4624582784e09f5cba17c4553"
+RPM_NAME = "python39-translate-toolkit-3.8.6-1.4.noarch.rpm"
+RPM_HASH = "7aa0cb5b805011e33080900d148b6921689d7f255e2b0785f9af69b9c0b70ca25556b667626686adb415e7f38d5647043f966724f280a8bf0e1852845710834b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-translate-toolkit \

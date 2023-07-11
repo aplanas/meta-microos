@@ -6,11 +6,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.4.7.12"
 
-RPM_NAME = "python311-PsyLab-0.4.7.12-3.13.noarch.rpm"
-RPM_HASH = "c254c8d9dfef9fd6aa1c01fbefa97fd9e2e5cfb4614797b5a856a4d25e05479b17a7e66311a3ae2c9769b540c4ce937647460b367d2fd921344a7d355088630b"
+RPM_NAME = "python311-PsyLab-0.4.7.12-3.15.noarch.rpm"
+RPM_HASH = "7712599499ae482664ff35fb485a27588d9d3f67d5c9f83cab5638ec5f3ad258387754665506a0026d8961efb3d554a7c978590763b680128a2c2f8d45201e41"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-psylab \
+RPROVIDES:${PN} += "python3-PsyLab \
+python3.11dist-psylab \
 python311-PsyLab \
 python3dist-psylab"
 

@@ -2,24 +2,24 @@ SUMMARY = "Haskell http-conduit library development files"
 DESCRIPTION = "This package provides the Haskell http-conduit library development files."
 LICENSE = "BSD-2-Clause"
 
-PV = "2.3.8"
+PV = "2.3.8.2"
 
-RPM_NAME = "ghc-http-conduit-devel-2.3.8-2.4.aarch64.rpm"
-RPM_HASH = "ee5ce011746da310d22eb2259bdb37f4d70629e833101ab905b7ecd1d8fc3cd3e4e6f80f59a3f12106a57c324e7dcf55bac87b3382754689e00519fedda6e751"
+RPM_NAME = "ghc-http-conduit-devel-2.3.8.2-1.2.aarch64.rpm"
+RPM_HASH = "d5c79abfc7a7b92cbbc2ea7c78f31ed10d47964861d24e4262f5cd085acbc5f50212b303486edb114b675b039f8dea1d709d915ccde427a6233eceb1fbddfe5a"
 
-RPROVIDES:${PN} += "ghc-devel-http-conduit-2.3.8-9gcbWW2UjPVHQDceZSAOIR \
+RPROVIDES:${PN} += "ghc-devel-http-conduit-2.3.8.2-8tllEf20Pfc53Ypql5ryYG \
 ghc-http-conduit-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP \
+ghc-devel-aeson-2.1.2.1-HkN6OtqTngQ9De3CKBnfov \
 ghc-devel-attoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3 \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-bytestring-0.11.4.0 \
-ghc-devel-conduit-1.3.4.3-dAZVHPSYjL2zQ4RzAuWi2 \
-ghc-devel-conduit-extra-1.3.6-F6u9UYzIZvy2L2764Izuhr \
-ghc-devel-http-client-0.7.13.1-zzcC5JvmJYD0Lc0D9h215 \
-ghc-devel-http-client-tls-0.3.6.1-1pQpHwWyWRWKJTeRlrZZA0 \
+ghc-devel-conduit-1.3.5-EjJ71P6EbmSGTrvJLquwgr \
+ghc-devel-conduit-extra-1.3.6-1ns4btxv78gDsSQyRueTL2 \
+ghc-devel-http-client-0.7.13.1-LvoiBjsIce7LUIKGveF6IJ \
+ghc-devel-http-client-tls-0.3.6.1-JGexjE6a1aDBtZfhjHdqL7 \
 ghc-devel-http-types-0.12.3-4BrMFwRucoT4fBt8cCVFS6 \
 ghc-devel-mtl-2.2.2 \
 ghc-devel-resourcet-1.2.6-69eF6Rrz9wX13sOJF59GPv \

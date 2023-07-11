@@ -14,8 +14,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.25"
 
-RPM_NAME = "gpsd-clients-3.25-1.3.aarch64.rpm"
-RPM_HASH = "bd6cfe5f20b5267ad964516dd64f685b9abf4e8d5cb67153c564dbae37cb24d883adea747caa92f9f2b92caa11f763ffca10de2de0902811633b7b6bd01b0db0"
+RPM_NAME = "gpsd-clients-3.25-1.4.aarch64.rpm"
+RPM_HASH = "05ec4827d2c59b5a1cc37235e2d67eaaf17f571b1ed80b7bd7b238a4df8d5a84d1a96284a1608828f7b9432c3c90d411cd1806cd2dd200d8c5afed41aaec4cbc"
 
 RPROVIDES:${PN} += "gpsd-clients"
 

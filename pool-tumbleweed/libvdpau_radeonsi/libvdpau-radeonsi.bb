@@ -2,10 +2,10 @@ SUMMARY = "VDPAU state tracker for radeonsi"
 DESCRIPTION = "This package contains the VDPAU state tracker for radeonsi."
 LICENSE = "MIT"
 
-PV = "23.0.3"
+PV = "23.1.3"
 
-RPM_NAME = "libvdpau_radeonsi-23.0.3-349.2.aarch64.rpm"
-RPM_HASH = "a13db48b1c0e9bf2cafda8a910e374f2eba69b37b04deda3a76544754db12dfe2720e56b38d563bbca311f33a18b8db8e453a46595fe16adc0ce70e1a4f024ca"
+RPM_NAME = "libvdpau_radeonsi-23.1.3-353.1.aarch64.rpm"
+RPM_HASH = "61a4f192ef19425d50f0fe9e5d3c8addf3ef5784abd3c777b1441a843ab2728eacedfb01c40b646c34debc4d37f0bda01a12eabef0f4298a4129336453205a27"
 
 RPROVIDES:${PN} += "libvdpau-gallium.so.1.0.0 \
 libvdpau-radeonsi"
@@ -30,7 +30,6 @@ libxcb-sync.so.1 \
 libxcb-xfixes.so.0 \
 libxcb.so.1 \
 libxshmfence.so.1 \
-libz.so.1 \
-libzstd.so.1"
+libz.so.1"
 
 inherit rpm

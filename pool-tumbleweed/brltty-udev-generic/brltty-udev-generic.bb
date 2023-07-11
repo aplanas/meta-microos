@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "6.5"
 
-RPM_NAME = "brltty-udev-generic-6.5-2.4.aarch64.rpm"
-RPM_HASH = "93ad50fa6877badc7d3dc4923ed5f102c65b40d0f0c81c9776dab5b5a9f902e4396ddc3c2549b51ca38495deb0d756d17d88bb90a54e944857b1b697b774b98a"
+RPM_NAME = "brltty-udev-generic-6.5-3.1.aarch64.rpm"
+RPM_HASH = "78215eba0b6e33c50265d38f2b993f1a03f58a3dd72291e7aa5a5b724f0cea84a08e579133089ec30ca17c32cb1409ce70f400ef1028b7986b254b67a17a89be"
 
 RPROVIDES:${PN} += "brltty-udev-generic"
 

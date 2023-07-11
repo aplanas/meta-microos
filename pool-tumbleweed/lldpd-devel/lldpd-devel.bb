@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "1.0.17"
 
-RPM_NAME = "lldpd-devel-1.0.17-1.1.aarch64.rpm"
-RPM_HASH = "b8370cdaf4633596a9204c155c755d3f0d6bc19b3837f31cf6ea81dbea8756a6f9056115204cf567116c925fc794f71645c0d220b55ea990d2ebf8822a2371a0"
+RPM_NAME = "lldpd-devel-1.0.17-1.2.aarch64.rpm"
+RPM_HASH = "79dc8d149e8cc158a75ac9f7407d7e7e762506ac0cefbfa6c8979acaa93d15b7a08a91e479cf4a04ef2970a706fc35fb7acfeadcd36d6c5d7b5e3544077b7759"
 
 RPROVIDES:${PN} += "lldpd-devel \
 pkgconfig-lldpctl"

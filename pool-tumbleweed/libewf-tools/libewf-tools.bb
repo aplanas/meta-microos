@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20230212"
 
-RPM_NAME = "libewf-tools-20230212-2.3.aarch64.rpm"
-RPM_HASH = "0f83fdfbdcd34c60a1dd32f4813b06bf6f8df31adcd70163a1dc14eea42b8f163573738c0593c163d953e4ba1f8eafa37db0c38ef22951ec3c8010d38ca59f44"
+RPM_NAME = "libewf-tools-20230212-2.7.aarch64.rpm"
+RPM_HASH = "5d35ef769fd54b02cc24702523cbf3c69dda97a9d96ce54e36317504611cdeca589fa3483a3c57695bdbb356f6250a5b4a9ed12edf3cc0cfadac2952ffadd3e7"
 
 RPROVIDES:${PN} += "libewf-tools"
 

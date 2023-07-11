@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0.0"
 
-RPM_NAME = "python39-azure-mgmt-dashboard-1.0.0.0-1.3.noarch.rpm"
-RPM_HASH = "e9929eab318ca6debd06002db177e28c684f4f4a0d91930e3d411a22c7f50b075703e580b9ae2e73f40690388bd1449e54878bb27e93df7123f857fefb4f0022"
+RPM_NAME = "python39-azure-mgmt-dashboard-1.0.0.0-1.4.noarch.rpm"
+RPM_HASH = "8fcab2970e6fc3f6028d11037783a504aa0ad9054c4b1c7ec01a2cdad108ccca860a835d4dbb790ed4974b9dc38b258ae082b20641129911fa75bebfdeb712ba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-dashboard \

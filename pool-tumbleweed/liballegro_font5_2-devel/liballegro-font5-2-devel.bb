@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & Zlib"
 
 PV = "5.2.8.0"
 
-RPM_NAME = "liballegro_font5_2-devel-5.2.8.0-1.3.aarch64.rpm"
-RPM_HASH = "98d534dc57115f1627708a68521e7388a3084fd85d0d71765c863efac88b02da90c83709e3cb1719d108c5d9574bc5743511ea632b8866d77791f9b1319173ac"
+RPM_NAME = "liballegro_font5_2-devel-5.2.8.0-1.4.aarch64.rpm"
+RPM_HASH = "960e1a6f2c4e0a2554d90124910e25d0bc49ff831dafb4a08533b62cf06b6db418352ba2f28d16104eca1bc148e9a8fd0128e7b945e5e9d0d949cdebb4c8a914"
 
 RPROVIDES:${PN} += "liballegro-font5-2-devel \
 pkgconfig-allegro-font-5"

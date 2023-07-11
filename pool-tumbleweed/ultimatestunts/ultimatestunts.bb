@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.7.7.1"
 
-RPM_NAME = "ultimatestunts-0.7.7.1-2.3.aarch64.rpm"
-RPM_HASH = "020e6ed99b2d28d6f8f45457f284df9f4bb6534e560e1494d811716b88092aa3a73647056fe3fb8d046f8eb87ad43516b9abe61f25a3742ac82f449912574d1f"
+RPM_NAME = "ultimatestunts-0.7.7.1-2.4.aarch64.rpm"
+RPM_HASH = "4d95c2b2fc004a7ea38bde532479354473efd4f821ee70d319943f3010c21963e25ceabcaf8e1cf5e8a672d5c8a1e2624573a002328461900d11cbae6aa848fc"
 
 RPROVIDES:${PN} += "config-ultimatestunts \
 ultimatestunts"

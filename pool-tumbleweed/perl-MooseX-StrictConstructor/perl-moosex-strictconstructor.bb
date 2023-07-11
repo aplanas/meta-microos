@@ -7,8 +7,8 @@ LICENSE = "Artistic-2.0"
 
 PV = "0.21"
 
-RPM_NAME = "perl-MooseX-StrictConstructor-0.21-1.22.noarch.rpm"
-RPM_HASH = "a2cef0777ea0d0112167a23a8b6233d5f085fc15b3dd4d9bbb68429a11f7811b9f35885d487d69639ebdfece15b8f0a46f856f7feab88128e21bfa806a14e3a9"
+RPM_NAME = "perl-MooseX-StrictConstructor-0.21-1.23.noarch.rpm"
+RPM_HASH = "ffbe9205f30c2c3d809bd5452976ee455162216e9b809f7574b05a55c02e4a540cbe87af1869e7bb4756b2643d48bf1c888845ad482c7338dc8ddc090e9c18bb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooseX--StrictConstructor \
@@ -16,7 +16,7 @@ perl-MooseX--StrictConstructor--Trait--Class \
 perl-MooseX--StrictConstructor--Trait--Method--Constructor \
 perl-MooseX-StrictConstructor"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Moose \
 perl-Moose--Exporter \
 perl-Moose--Role \

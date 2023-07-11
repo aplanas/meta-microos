@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.6.10"
 
-RPM_NAME = "plasma-applet-weather-widget-lang-1.6.10-5.7.noarch.rpm"
-RPM_HASH = "7acdf3d570df5fac4185b8e4f9d2eae99419a913bfa1bede89e91bb1bc22e70f658cd73c7ecb30ecd869fb2e25aec0a17a0c73fa47bb108032d471d274f24a82"
+RPM_NAME = "plasma-applet-weather-widget-lang-1.6.10-5.8.noarch.rpm"
+RPM_HASH = "193d68ff1254da10121fe9879db96195745f25218138e8d10b2ca542d79198472f276445c17e39e0b2552ca2a145ed63a8e73ccc330e0ea6c934744d24529cd2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-plasma-applet-weather-widget-bg \

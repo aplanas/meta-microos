@@ -4,8 +4,8 @@ LICENSE = "Zlib"
 
 PV = "2.2.0"
 
-RPM_NAME = "SDL2_net-devel-2.2.0-1.2.aarch64.rpm"
-RPM_HASH = "21a60ec6aff029342b60d0f0807db1e8ea818920898af92bc19dd8d0f64162580d08d804e392643cf98821cce38b5c312cc3833e5e7029ef246a7597dc185586"
+RPM_NAME = "SDL2_net-devel-2.2.0-1.3.aarch64.rpm"
+RPM_HASH = "bdd3a9032c9080873924399bb4136f7b7c2e81fd7b300da07da0af46e9415930c031c508e9c2ffeeec02cfdd4fda912b8210ac69292935e61bdda6a91f1d55aa"
 
 RPROVIDES:${PN} += "SDL2-net-devel \
 libSDL2-net-devel \

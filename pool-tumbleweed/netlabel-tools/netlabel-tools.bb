@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.21"
 
-RPM_NAME = "netlabel-tools-0.21-3.6.aarch64.rpm"
-RPM_HASH = "d04ea74c01cfb22c4f3abe102aea6f4b2685098f62e96628dd5234b38335d9cc8d9f717b12951086b3a917e153d72283f2b2472fc3cdff689c46b1d9f45ef79e"
+RPM_NAME = "netlabel-tools-0.21-3.7.aarch64.rpm"
+RPM_HASH = "44cca4b04feb03010dd8bafe9a1c09ee2a7e314096e565af9f651070da8c5de4342aa3b85bf35593e5ea60836d96af17a61734bc78d5dedb3527e28327cfb11b"
 
 RPROVIDES:${PN} += "config-netlabel-tools \
 netlabel-tools"

@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "1.5.0"
 
-RPM_NAME = "libxkbcommon0-1.5.0-1.3.aarch64.rpm"
-RPM_HASH = "073419c29d21b3e1ddde85cbc973c89fe84f3c1d2c9ddf3ee8b14c4f6ea9846b60dba6e29890dfabd326499b6a7697756db15608b9c497f73a03f3c37c26dede"
+RPM_NAME = "libxkbcommon0-1.5.0-1.4.aarch64.rpm"
+RPM_HASH = "a91a4642e7f0b511fc1bf6b335cf85b13f047f9fcd89dc047bc30404337b903cc89a0a02ca78ba6d4728cdd51c827a684c86589a68b207083663a0c17e0ccdf6"
 
 RPROVIDES:${PN} += "libxkbcommon.so.0 \
 libxkbcommon0"

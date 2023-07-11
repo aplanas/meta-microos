@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.4"
 
-RPM_NAME = "dynare-doc-html-5.4-1.1.noarch.rpm"
-RPM_HASH = "cc5b741a6eb574cb845e3f33b972f74c71008fb818a05bf118df8f7fec1abd6c6eb75c4f8e48723663d4e922b41a9e91c942cc17c79948a6bb8b12a320cfaa3f"
+RPM_NAME = "dynare-doc-html-5.4-1.2.noarch.rpm"
+RPM_HASH = "661125b416dfa0ddba0b19b009e7781d9817ac955c63ce25bc9ccae8d45807d58a06bc9202c192718f614bd3f3b7e718db3e8852da912ccb966d13255cf2c83a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dynare-doc-html"

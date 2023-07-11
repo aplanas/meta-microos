@@ -7,8 +7,8 @@ LICENSE = "ZPL-2.1"
 
 PV = "2.4.0"
 
-RPM_NAME = "python39-bobodoctestumentation-2.4.0-3.8.noarch.rpm"
-RPM_HASH = "3904d20d237d8b953e44fe92d0378f1b4c4f8b3426a906424fe2338e0c00f8b43fd7ab910879d7ee2aa328a32e39e0903af180fba49e65dad9d4c5ae33e7c2f9"
+RPM_NAME = "python39-bobodoctestumentation-2.4.0-3.10.noarch.rpm"
+RPM_HASH = "4ca566713582856f65d2bdbc48b4047e5045b58f74984a920d36fb585f6c8a1c54fac362c631dc312e23b2e700514baf4df0dd70d6246cb9963b8fa5e1a90961"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-bobodoctestumentation \

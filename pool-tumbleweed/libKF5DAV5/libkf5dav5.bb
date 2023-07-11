@@ -3,10 +3,10 @@ DESCRIPTION = "kdav is a library providing a KJob-based implementation of DAV pr
 CardDAV, WebDAV, and CalDAV."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "libKF5DAV5-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "cb3c7775e7ea0fd3c3c271722f990c5ed5eda43f0fc399a6735f730404cdaa7775a80f43f478f400d93fba131b368cd63d25ff7dade6a83aae2d193bd3b06549"
+RPM_NAME = "libKF5DAV5-5.107.0-1.1.aarch64.rpm"
+RPM_HASH = "5592cf9d7d50e2e4bb290344204c0623cc30a6f2540289f4965b544c18ea51831283560797362bfeced2fdcc2793788a5992efcd94f7424eeb20aae34cbf9a67"
 
 RPROVIDES:${PN} += "libKF5DAV.so.5 \
 libKF5DAV5"

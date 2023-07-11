@@ -25,8 +25,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.17"
 
-RPM_NAME = "perl-TheSchwartz-1.17-1.7.noarch.rpm"
-RPM_HASH = "da9ac6fa9a0cd102d2f98fd9249c6cc9ad30c633bc4e1854a0025d3ff39bb32866f0a3e3a11d94feaf2ef62316cb1be0b8a95ef6732cc59be5c9fc7e764970fc"
+RPM_NAME = "perl-TheSchwartz-1.17-1.8.noarch.rpm"
+RPM_HASH = "d2f425ea7e7e428538403cf0079905c5f3b2a8805a5a70e86cc12a9e99b3623512d517d546ecdbb13bd0c27a4f695893d2d7bf34b227b75df3b4287004a6838d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-TheSchwartz \
@@ -38,7 +38,7 @@ perl-TheSchwartz--JobHandle \
 perl-TheSchwartz--Worker"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-Class--Accessor--Fast \
 perl-Data--ObjectDriver"
 

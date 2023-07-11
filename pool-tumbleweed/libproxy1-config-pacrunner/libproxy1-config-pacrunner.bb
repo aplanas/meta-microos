@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "0.4.18"
 
-RPM_NAME = "libproxy1-config-pacrunner-0.4.18-2.1.aarch64.rpm"
-RPM_HASH = "0ebb5376b6e8f7397846f535bda7ce05eb52edb015c50fb8a738cce6cc1430d2c08eecfb13899f394351f69d1432be4bd665344499f7cc04f7c986414e2708f1"
+RPM_NAME = "libproxy1-config-pacrunner-0.4.18-2.3.aarch64.rpm"
+RPM_HASH = "b9346a9e3998883ac853ffee4663ecd98d20cad0d8368b443ae8222a5059e3c3c75e32c4d33fda48f6341d7718eae6c633c2ee6990e03319b5327d8864a27638"
 
 RPROVIDES:${PN} += "libproxy1-config-pacrunner"
 

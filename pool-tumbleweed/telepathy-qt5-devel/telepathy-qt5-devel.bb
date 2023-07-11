@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.9.8"
 
-RPM_NAME = "telepathy-qt5-devel-0.9.8-1.15.aarch64.rpm"
-RPM_HASH = "bd434dfe24a7c0d8d90a673994eb1731be59274ee86e3d1c0b77a8b49b79ccaf29833edd81ebd3530d2c24c2d1835b71163d73f4f3998d8f813cbf219cff47ee"
+RPM_NAME = "telepathy-qt5-devel-0.9.8-1.16.aarch64.rpm"
+RPM_HASH = "2557b506f1daded2d442fb963f4dbf1a17bd67f5a1c59c101d86860706725df477e475f1dd72af39f9daaccf66bc3190cbdd0f50395b2391f735f16997c04538"
 
 RPROVIDES:${PN} += "cmake-TelepathyQt5 \
 cmake-TelepathyQt5Farstream \

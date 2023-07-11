@@ -12,8 +12,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-poshuku-fua-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "eb46ddb42a2a74787d20693477352f5c87dd0a52243af7f63a52b25d01b95667ba875b8de33babd7c4b6cab66aeca4492be6136cf9f4e3dce19e516f6045a3ec"
+RPM_NAME = "leechcraft-poshuku-fua-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "3d5a3aaadc7b957d69052e157b300a2d60e9081cf24a70ef35e3484ff0b1377bde9ea8e1ed96026ae62451b8048a8c0647dd09201b427b8b6d2e2ffc0daaa719"
 
 RPROVIDES:${PN} += "leechcraft-poshuku-fua \
 libleechcraft-poshuku-fua.so"

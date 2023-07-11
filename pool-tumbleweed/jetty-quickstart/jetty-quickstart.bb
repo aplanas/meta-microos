@@ -15,8 +15,8 @@ LICENSE = "Apache-2.0 | EPL-1.0"
 
 PV = "9.4.51"
 
-RPM_NAME = "jetty-quickstart-9.4.51-1.1.noarch.rpm"
-RPM_HASH = "6e5b59bf84c03943a90cf7056a5bf3e1ebcbeba3f2f028bba002bb81d4d1c3def6582b3b492f121cc5f42286f7c2953dead40a020fd5fb77d3977bc16c59c8c9"
+RPM_NAME = "jetty-quickstart-9.4.51-1.2.noarch.rpm"
+RPM_HASH = "e3e996f9242424137c2c2a425b2da46c286e6a997172b27f95f5be1981fee6d947625de6121d346e26fdb3605316016fdcd842cafc2c7f96b1248137e56198ce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jetty-quickstart \

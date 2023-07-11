@@ -7,13 +7,13 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.29"
 
-RPM_NAME = "perl-Socket6-0.29-1.17.aarch64.rpm"
-RPM_HASH = "c4e6a0f3821e09b7b12919eef10dcb361ff6c4e3a81fa94453508a3a268824c4216538174b6ce51705e39630e61f0422ca21d95fd49354b647d57077b7108c9b"
+RPM_NAME = "perl-Socket6-0.29-1.18.aarch64.rpm"
+RPM_HASH = "14f4debde930ceff50f567a274dfcd166809fb81663fb432d60d56b9aa9cc406425f91c242d7d47b26ce8e10c4501a763cdafac48eba722a4cc54e19f17b29d8"
 
 RPROVIDES:${PN} += "perl-Socket6"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

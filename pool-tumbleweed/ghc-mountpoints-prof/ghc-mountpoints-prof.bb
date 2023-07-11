@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later & BSD-3-Clause"
 
 PV = "1.0.2"
 
-RPM_NAME = "ghc-mountpoints-prof-1.0.2-4.2.aarch64.rpm"
-RPM_HASH = "8407461d9315136b2a4b07bfe310852e352ec07e903050e076d44eea2e5491a64f335db1414bffa898d9d41f5309cac5a730e6ef5af960b1bad91bfd5c9f92fd"
+RPM_NAME = "ghc-mountpoints-prof-1.0.2-4.3.aarch64.rpm"
+RPM_HASH = "f9aea20552623fdf15330113f9d35898d860b0b5bb51e5c5229c1ebea911e6e034913a6e66d4066e1e5c23e6e3c2551f411cd367874f0e2e783991775e395267"
 
 RPROVIDES:${PN} += "ghc-mountpoints-prof \
 ghc-prof-mountpoints-1.0.2-1s316lA2PKMJiFY8pZCQYD"

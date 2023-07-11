@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.0.27"
 
-RPM_NAME = "genius-devel-1.0.27-1.9.aarch64.rpm"
-RPM_HASH = "753264f2b49a9a656156dfef5f10dde178205c23e386b48b5ee5d5489e052fd113f4de92a2508cd3bb7384cfe4a4a06b7e303920607be27263e70f269b74b551"
+RPM_NAME = "genius-devel-1.0.27-1.10.aarch64.rpm"
+RPM_HASH = "deb2fd1f73295ada9ad2acb5c0fde13315744b71d5f46bcc8ff702d29f27793d09684059ef3d3c2d0c9159dfe436d88ed295090f7da25d31423d9fe1b282f02d"
 
 RPROVIDES:${PN} += "genius-devel"
 

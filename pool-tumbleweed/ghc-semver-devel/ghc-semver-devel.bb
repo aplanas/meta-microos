@@ -4,8 +4,8 @@ LICENSE = "MPL-2.0"
 
 PV = "0.4.0.1"
 
-RPM_NAME = "ghc-semver-devel-0.4.0.1-1.3.aarch64.rpm"
-RPM_HASH = "7d7f26136dd316739151eea1fddff470d43df28e1d6d6bae1c6d712eebc53aacd2acf1f5a4ae307dac59d0aa80fb8d9e81f454e85d76cc2b742ee82060244dbf"
+RPM_NAME = "ghc-semver-devel-0.4.0.1-1.6.aarch64.rpm"
+RPM_HASH = "b6ba01a781e47dd8241ebe6c47da4dc06621fafda4419536dd33f3a768ee44ef6efaaecc61c80fbd83aa14e52b2c33d365c3e9b245ba91037be2ee0ab84ec3b3"
 
 RPROVIDES:${PN} += "ghc-devel-semver-0.4.0.1-ExZNCX3NISc5JbXfrvXt6N \
 ghc-semver-devel"

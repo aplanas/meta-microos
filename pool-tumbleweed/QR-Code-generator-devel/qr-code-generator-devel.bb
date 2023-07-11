@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.6.0"
 
-RPM_NAME = "QR-Code-generator-devel-1.6.0-1.12.aarch64.rpm"
-RPM_HASH = "a3ae53812b39fabb88c758f3ac74fff67523995a54594efdd50d4726e094f3045a94b5b386d3de1891d4ec1bc7678a9330895de899749e96d5d90156074645c0"
+RPM_NAME = "QR-Code-generator-devel-1.6.0-1.13.aarch64.rpm"
+RPM_HASH = "7c8bc0cb5a3c49d83ca6ff02b9379cd9218e22c390b8ddaf369deeab9bb8d5b1bb092250c2ba5a712da0d32185aadccc3a4a738c2f931d1e413eda0abf78e133"
 
 RPROVIDES:${PN} += "QR-Code-generator-devel \
 qrcodegen-devel"

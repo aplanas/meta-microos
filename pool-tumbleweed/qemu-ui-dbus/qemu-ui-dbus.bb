@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-
 
 PV = "8.0.2"
 
-RPM_NAME = "qemu-ui-dbus-8.0.2-1.1.aarch64.rpm"
-RPM_HASH = "031296526e6342cab61c9f56570323012bb04d305481413460858254e9378fe24cc3b752efab5ff8f7edebd76c777401e6df691cf85e72502bb034afd1fcfc1e"
+RPM_NAME = "qemu-ui-dbus-8.0.2-2.1.aarch64.rpm"
+RPM_HASH = "ef8cd24ebd64b4f21bf1a44d38453eeff09672e179caf2c51599df85e7b5c1b762213a08a1d8ab48fd05cadb845e984c49f8d5023cb065c038bd4526c0801ced"
 
 RPROVIDES:${PN} += "qemu-ui-dbus"
 

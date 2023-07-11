@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4.1"
 
-RPM_NAME = "openbsc-bs11-utils-1.4.1-1.10.aarch64.rpm"
-RPM_HASH = "4b7282e61f66921a12619dfd96a09873e367ee3218a740134bf2644eff5a3484203800a308609610ef0bff334243369ce99d534ab680a0acdfa4e51b0a4fd66b"
+RPM_NAME = "openbsc-bs11-utils-1.4.1-1.11.aarch64.rpm"
+RPM_HASH = "cb656d947c44f21f69ee27e7ca5aff25778dbb95d9c4d1d5cf978d68b7f9a825b0a5919fb0885116a6b0426a5dbbc2d461a83b1e676a7cf8fd79a13f80a26916"
 
 RPROVIDES:${PN} += "openbsc-bs11-utils"
 

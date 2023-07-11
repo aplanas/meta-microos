@@ -14,8 +14,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.71"
 
-RPM_NAME = "autoconf-2.71-2.3.noarch.rpm"
-RPM_HASH = "1cf7d2d33fb931150e2198bdbf86b419e0e78b7672dda2569c24e77b43e0fbb5ace37dff206c21cbd21f3ae0b1e7e7b35cbd0107152daf44c541d5b70004ed52"
+RPM_NAME = "autoconf-2.71-2.4.noarch.rpm"
+RPM_HASH = "f19265c2f39dc32b5e84ba10d7b9e6b11fbd72f92dfc947544b971cbccfae9c94a84dce67b5c4508a43a783760d31d09d3cde5987f46adf43f301e5eee996170"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "autoconf \

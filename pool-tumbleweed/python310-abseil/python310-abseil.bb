@@ -10,13 +10,11 @@ LICENSE = "Apache-2.0"
 
 PV = "1.4.0"
 
-RPM_NAME = "python310-abseil-1.4.0-1.1.noarch.rpm"
-RPM_HASH = "26bb96308b8b10f863da3c49696c67693c529bf13d5b3c7c659fa5cda7944e9855018a31b9d0bd3c320ad24305e55494be5043e046adce16d0db93a78d7024eb"
+RPM_NAME = "python310-abseil-1.4.0-1.2.noarch.rpm"
+RPM_HASH = "f6c2b319bc08ca319dd3134b1171b8a1773753e7f8f6235d6627931f4a73147d2d0b3f17b81257d0be03dc43f0b70fbee087ab560ee8c92d89761d5febfc8a36"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-abseil \
-python3-absl-py \
-python3.10dist-absl-py \
+RPROVIDES:${PN} += "python3.10dist-absl-py \
 python310-abseil \
 python310-absl-py \
 python3dist-absl-py"

@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "0.2.0"
 
-RPM_NAME = "python310-ifaddr-0.2.0-2.3.noarch.rpm"
-RPM_HASH = "eba76ebc68e416a3e9f33e6e388b413dc25ee1d910d2d162197149829003883496444d5f3a75f7930c48f4dc77521bfa73d13c09d419384e6621e36c8bdac08d"
+RPM_NAME = "python310-ifaddr-0.2.0-3.1.noarch.rpm"
+RPM_HASH = "704d8fbdb4c46b46c0effe6974657bd568b913553f04e431d5414fa2a04310f8ef808bebadcdf702ba7c5de5d74ec31f64a21065674a1ef9dde8ec0682362a46"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-ifaddr \
-python3.10dist-ifaddr \
+RPROVIDES:${PN} += "python3.10dist-ifaddr \
 python310-ifaddr \
 python3dist-ifaddr"
 

@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0 & SUSE-Public-Domain"
 
 PV = "1.11.3"
 
-RPM_NAME = "aws-sdk-java-applicationautoscaling-1.11.3-7.8.noarch.rpm"
-RPM_HASH = "f0a4d082184155256dd00013f5190c0277ff1015ae19db2c2a58bdd1d03bf7138e390237472e04663f06a05c4e62e7408d8d8b5ad1b8da5e28399436ac8a7b58"
+RPM_NAME = "aws-sdk-java-applicationautoscaling-1.11.3-7.9.noarch.rpm"
+RPM_HASH = "8c85749f856426ac56a80d6da48e8bf7feccfa03666cc134b03d7a0c8d862bf9bfa20474ca277d545c5f9deade7aa2e5c64e5ac3afcbefe8f6035c1afdf827d5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-applicationautoscaling \

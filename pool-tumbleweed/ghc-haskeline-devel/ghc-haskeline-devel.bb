@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.8.2"
 
-RPM_NAME = "ghc-haskeline-devel-0.8.2-3.1.aarch64.rpm"
-RPM_HASH = "d91b9d166dff5681a633839a85c963e3ad814b233a24662acd65d18b8b12bed06f4973abe3c635cbfefb1f2d17af4eaf048b07b76951083da6044023957aeefc"
+RPM_NAME = "ghc-haskeline-devel-0.8.2-3.2.aarch64.rpm"
+RPM_HASH = "1aeb9e14b32d81fb8891048748866b9f44b1345f6ace335c903ad4d72920d4190128d6a81283423b93beb9a619e44813d5fb5201bc7dc0cf3e9e80eb5f761537"
 
 RPROVIDES:${PN} += "ghc-devel-haskeline-0.8.2 \
 ghc-haskeline-devel \

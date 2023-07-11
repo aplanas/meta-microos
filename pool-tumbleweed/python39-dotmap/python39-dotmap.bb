@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.3.30"
 
-RPM_NAME = "python39-dotmap-1.3.30-1.3.noarch.rpm"
-RPM_HASH = "98dd7fde06307f97555eb034165f986dea0e28509432d4694d9bbbaafe93e0b7e3b25d4e111f15b4789dc11bb745821a5ed0eba03e2606389709f0afa3dd2e22"
+RPM_NAME = "python39-dotmap-1.3.30-1.4.noarch.rpm"
+RPM_HASH = "eab2730a8c7efd11c932d8fcd9f58c4613a570498a754d3c04dae38915dcfbbc3e31d54ba3115118c55e6dfce6bf8973d89e19b82f7f48ad71a9bcbbe4535856"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-dotmap \

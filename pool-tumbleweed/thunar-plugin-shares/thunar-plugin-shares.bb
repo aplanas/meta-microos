@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.3.2"
 
-RPM_NAME = "thunar-plugin-shares-0.3.2-1.3.aarch64.rpm"
-RPM_HASH = "6b5e51cf29633f1306407f1a5355bce12048abded9629957610e9d00e2e8c66355b6dcf5af60b100876bbdcba4228cafbcc0e3c823a4bc03fbc198d95ad2ad9e"
+RPM_NAME = "thunar-plugin-shares-0.3.2-1.4.aarch64.rpm"
+RPM_HASH = "ee923ef6861adcaf88df812950eb7b686d0957f46931d87b01d76214d8e7d227b6d65448442a4245d627e48ba8da5b8dee1a61d11a5bb6305244493c166be880"
 
 RPROVIDES:${PN} += "thunar-plugin-shares \
 thunar-shares-plugin"

@@ -13,8 +13,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.40"
 
-RPM_NAME = "perl-Monitoring-Plugin-0.40-1.15.noarch.rpm"
-RPM_HASH = "50490b55807534007614765b56addaa54f733758d0417d2f18f159caeeb817f4dc203a93bdf0085c19db4bb5ededc799b0366c81e9c5c43c67d17105d4cc4a4d"
+RPM_NAME = "perl-Monitoring-Plugin-0.40-1.16.noarch.rpm"
+RPM_HASH = "577c866161605ad5c42cf39f691088402b94ef48b86a7432014a5fb422855e5ea4283d27c0b6f1de2489f7e05ba40ea8bc7672dbd4251b60c8929facb2b826f3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Monitoring--Plugin \
@@ -27,7 +27,7 @@ perl-Monitoring--Plugin--Range \
 perl-Monitoring--Plugin--Threshold \
 perl-Monitoring-Plugin"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Class--Accessor \
 perl-Config--Tiny \
 perl-Math--Calc--Units \

@@ -11,10 +11,11 @@ LICENSE = "MIT"
 
 PV = "0.1.8"
 
-RPM_NAME = "python311-jsonslicer-0.1.8-1.4.aarch64.rpm"
-RPM_HASH = "a0ce939ae3615ef8961b9c4e78c1cf90d5fcef57cd328cd824a10f6cd33bdfe01f37dbaefcaf207af2d65dafdc72a67381013ab30c935439d2ce0e86e94634a0"
+RPM_NAME = "python311-jsonslicer-0.1.8-1.6.aarch64.rpm"
+RPM_HASH = "4262ba2be1aa17bab2b893859112b99771ba1bd470fc5601ab96efb20314161efd417648341d5dd0f4b0a42c27d0e651fefa25415e11efdfe4930a5787f1344f"
 
-RPROVIDES:${PN} += "python3.11dist-jsonslicer \
+RPROVIDES:${PN} += "python3-jsonslicer \
+python3.11dist-jsonslicer \
 python311-jsonslicer \
 python3dist-jsonslicer"
 

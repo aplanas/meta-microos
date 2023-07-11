@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.49.2"
 
-RPM_NAME = "libhttrack2-3.49.2-2.8.aarch64.rpm"
-RPM_HASH = "fbc89195c344a2d01d90a73f69689557bc752d71da905743abd8b9ed0a2a20e439358cf458b0aef89972a3b68ecbccfd2e5237fec2d7ceaa6c0dc4f54c9c4192"
+RPM_NAME = "libhttrack2-3.49.2-2.9.aarch64.rpm"
+RPM_HASH = "bff07c1a211e57c60f019576ce45d5ed16c53eb367cfdb58c9049e2412cee8b1425c15515d7e5386d996704b185c0195f9f83d0f81f41468dacccb20b36c58d0"
 
 RPROVIDES:${PN} += "libbaselinks.so.1 \
 libchangecontent.so.1 \

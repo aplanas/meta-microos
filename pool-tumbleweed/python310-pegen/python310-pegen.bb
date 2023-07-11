@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.2.0"
 
-RPM_NAME = "python310-pegen-0.2.0-1.2.noarch.rpm"
-RPM_HASH = "238ff773c21b8edce8d88c60c2d2335ad19cce33de0b8299b2e11b4d796b742760a59088d9c834d555be7b81b19eb750259e67d9724e0bba3e296ebcc6596e4d"
+RPM_NAME = "python310-pegen-0.2.0-1.4.noarch.rpm"
+RPM_HASH = "0449c1d93047d52adfbb50d24eacd8692d1a7c921c12dc1f800d96b4ba2ff09c1aefe72aba415ba784b1aee7427377af95dacff880e1c240dd5d22805a5261db"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pegen \
-python3.10dist-pegen \
+RPROVIDES:${PN} += "python3.10dist-pegen \
 python310-pegen \
 python3dist-pegen"
 

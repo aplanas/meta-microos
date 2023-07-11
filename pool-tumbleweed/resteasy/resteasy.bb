@@ -10,8 +10,8 @@ LICENSE = "Apache-2.0 & CDDL-1.0"
 
 PV = "3.0.26"
 
-RPM_NAME = "resteasy-3.0.26-3.10.noarch.rpm"
-RPM_HASH = "83c7eb43d37a62f7115ea8a30408a893234fc7fcb243bff6215a7c7dca9bdac2cb6862a59db216a10be095cf0314b992befaff0b764233fcd076c9a5690529ca"
+RPM_NAME = "resteasy-3.0.26-3.11.noarch.rpm"
+RPM_HASH = "a39b0f6df363f67135050a2de4adafe3f49730b39bd4e52ed5baa1d4de393f4ede69014112e06d0ce61786cd2da30d82e79561c14fcc1c5c30841e3c65ba47eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "resteasy"

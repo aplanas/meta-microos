@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.23.4"
 
-RPM_NAME = "solfege-3.23.4-5.7.aarch64.rpm"
-RPM_HASH = "584d291ebde6c01cd0fbd11352077abaebed8d131574fa46cf1188783ee5f3e7d831722e259cb79007618b74823393be3591f8ed6d0b5975c7afc2b1ddc2e4d0"
+RPM_NAME = "solfege-3.23.4-5.8.aarch64.rpm"
+RPM_HASH = "bdc1d5ea3e4045d87f339c51f642154ed0860dcfb310913b60a310dd82dd2e32921438bc66eb0c13dbc7da5627d79b816144f95b8dc067b9de7b354250ba113f"
 
 RPROVIDES:${PN} += "config-solfege \
 solfege"

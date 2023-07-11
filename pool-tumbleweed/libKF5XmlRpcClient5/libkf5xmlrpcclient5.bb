@@ -2,10 +2,10 @@ SUMMARY = "Library containing simple XML-RPC Client support"
 DESCRIPTION = "Library containing simple XML-RPC Client support."
 LICENSE = "BSD-2-Clause"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "libKF5XmlRpcClient5-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "c617e4d8f6522b303deb2b7ff6f3c7877d6b3d4c49ab0c5351228c532ffccc4f69de9b71870ffa39bf9aaf852011f56c495d1baee02b9f80fb19f273c1f9f6a0"
+RPM_NAME = "libKF5XmlRpcClient5-5.107.0-1.1.aarch64.rpm"
+RPM_HASH = "cfa336bc199b548fe1e3fcb32c8cbab9484e59bb97461718ae721aae939b6d487a9b6cc2446aaa0f260c4d095644409207a6e845e3fdbae7dc787e6e153ef637"
 
 RPROVIDES:${PN} += "libKF5XmlRpcClient.so.5 \
 libKF5XmlRpcClient5"

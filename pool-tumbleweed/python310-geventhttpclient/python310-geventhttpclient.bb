@@ -12,11 +12,10 @@ LICENSE = "MIT"
 
 PV = "2.0.9"
 
-RPM_NAME = "python310-geventhttpclient-2.0.9-1.1.aarch64.rpm"
-RPM_HASH = "8729d35f667cea66cc608538eefa921aa0dc5583a2b9e75440defb96d63d2ec4781e9d6ee68375674b58d8c72fc771ec43a9e6bd8df1a8df9c512eb32285f254"
+RPM_NAME = "python310-geventhttpclient-2.0.9-1.3.aarch64.rpm"
+RPM_HASH = "bbd0a2e33a7e9e33c0c1bcf49fa7b22299cd3c100b3cd1e9a25e385de359efc95c85baccda57a6ee8cdf9fa2d20aa951696190406e71a331171ccdc554abedb4"
 
-RPROVIDES:${PN} += "python3-geventhttpclient \
-python3.10dist-geventhttpclient \
+RPROVIDES:${PN} += "python3.10dist-geventhttpclient \
 python310-geventhttpclient \
 python3dist-geventhttpclient"
 

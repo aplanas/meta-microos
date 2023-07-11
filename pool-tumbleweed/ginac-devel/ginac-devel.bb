@@ -6,10 +6,10 @@ This package contains the libraries, include files and other resources you \
 use to develop GiNaC applications."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.8.5"
+PV = "1.8.6"
 
-RPM_NAME = "ginac-devel-1.8.5-2.3.aarch64.rpm"
-RPM_HASH = "0dba51952cbd1be3539ba14dba27252df1082bd2cb683732d547f7171994b24e60a4b045c5df285763f02097ee218a5f104c12f489e1ddce0bacb5d2bc4db3f0"
+RPM_NAME = "ginac-devel-1.8.6-1.1.aarch64.rpm"
+RPM_HASH = "e9013b58cbd9f82bb29226239831c9f886b4a13fe5b136b5af4670d2de96bf7f3634df62d9031cbe37efa8365b433f313df74a79953c3a653740ccd02dc3cd25"
 
 RPROVIDES:${PN} += "cmake-ginac \
 ginac-devel \

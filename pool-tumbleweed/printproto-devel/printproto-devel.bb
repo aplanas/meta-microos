@@ -6,8 +6,8 @@ LICENSE = "X11"
 
 PV = "1.0.5"
 
-RPM_NAME = "printproto-devel-1.0.5-4.18.aarch64.rpm"
-RPM_HASH = "48125604edf69dbf23c77e32d3457f499985b5e80915677aa1d102b0b8c85825d61ba853b3265189800a835d701aef098f33f77b484099dfabe142fa823ba022"
+RPM_NAME = "printproto-devel-1.0.5-4.19.aarch64.rpm"
+RPM_HASH = "4211b75b58e4c63cec5029977f7d0603a54faf20132172ef64422b5f1c9811a20f1974abb8a809bfe7d0368820b9164fb1992008fd1047d5e1a36627ede7234d"
 
 RPROVIDES:${PN} += "pkgconfig-printproto \
 printproto-devel \

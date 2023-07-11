@@ -22,31 +22,34 @@ Features: \
  * Other features via plugins."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.7.3"
+PV = "1.8.0"
 
-RPM_NAME = "gajim-1.7.3-1.1.noarch.rpm"
-RPM_HASH = "976a521f91e5ea9b27c5a407c4304f81359bdb5226a204fd96fdd656e9d00c2f4f7afd158438447fbc83f261a682ae517f329b03566db38b854d8d4c1617ffae"
+RPM_NAME = "gajim-1.8.0-1.2.noarch.rpm"
+RPM_HASH = "c98531fa321cae46bc6fa033e8cb1e260dac5e77ff459ed07f11301c49891047e87f6c1b4f59404e2c7e4ba5c069aba0159b4e5212eb44c9b2799c359de0bb56"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gajim \
-python3.10dist-gajim \
+python3.11dist-gajim \
 python3dist-gajim"
 
-RDEPENDS:${PN} += "-python3.10dist(nbxmpp) < 5 with python3.10dist(nbxmpp) >= 4.2.2 \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "-python3.11dist(nbxmpp) < 5 with python3.11dist(nbxmpp) >= 4.3 \
+-python3.11dist(omemo-dr) < 2 with python3.11dist(omemo-dr) >= 1 \
+/usr/bin/python3.11 \
 ca-certificates-mozilla \
 python-abi \
-python3.10dist-cryptography \
-python3.10dist-css-parser \
-python3.10dist-gssapi \
-python3.10dist-keyring \
-python3.10dist-packaging \
-python3.10dist-pillow \
-python3.10dist-precis-i18n \
-python3.10dist-pycairo \
-python3.10dist-pygobject \
-python310-gobject-Gdk \
-python310-gobject-cairo \
+python3.11dist-cryptography \
+python3.11dist-css-parser \
+python3.11dist-gssapi \
+python3.11dist-keyring \
+python3.11dist-omemo-dr \
+python3.11dist-packaging \
+python3.11dist-pillow \
+python3.11dist-precis-i18n \
+python3.11dist-pycairo \
+python3.11dist-pygobject \
+python3.11dist-qrcode \
+python311-gobject-Gdk \
+python311-gobject-cairo \
 typelib-AyatanaAppIndicator3 \
 typelib-Farstream \
 typelib-GLib \

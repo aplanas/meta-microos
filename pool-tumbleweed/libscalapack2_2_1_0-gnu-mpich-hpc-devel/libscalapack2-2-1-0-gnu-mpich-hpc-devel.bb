@@ -4,8 +4,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2.1.0"
 
-RPM_NAME = "libscalapack2_2_1_0-gnu-mpich-hpc-devel-2.1.0-9.20.aarch64.rpm"
-RPM_HASH = "1841294c3e3eba4c990e27265b98b46ab9b9483c412ce873b8d4973c4334ab941e6dcedecaf15c460aa258d49163316549c22424de9488291d3204bc5ef7a49c"
+RPM_NAME = "libscalapack2_2_1_0-gnu-mpich-hpc-devel-2.1.0-9.21.aarch64.rpm"
+RPM_HASH = "cdb7e8adf04b2fd1b1246751137a63ba193cd40d001e1c0992b367790aca2893895f714dd0a2e9db4484e0754a5cde058ce7ae01f7d864277b9d31bd55679a8d"
 
 RPROVIDES:${PN} += "libblacs2-2-1-0-gnu-mpich-hpc-devel \
 libscalapack2-2-1-0-gnu-mpich-hpc-devel \

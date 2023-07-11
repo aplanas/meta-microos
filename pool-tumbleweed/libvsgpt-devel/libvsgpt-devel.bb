@@ -8,8 +8,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20221029"
 
-RPM_NAME = "libvsgpt-devel-20221029-3.7.aarch64.rpm"
-RPM_HASH = "fed0d74a2b9efe46fee2688af14df5f1cd5783251958470d251073707317e6f0dded9831b6de9c8e170b6d4ebacdb7c1cfad58ba9bbaecad771b7b84021bb67c"
+RPM_NAME = "libvsgpt-devel-20221029-3.9.aarch64.rpm"
+RPM_HASH = "39cc0c896b346e90b50746fb8b331bcff44e5dc4f6624060ecddaeebd6230150d6045ec5896f9cd06059f4a6aed23d93da4d4cea9132d38b78714e802ed082e2"
 
 RPROVIDES:${PN} += "libvsgpt-devel \
 pkgconfig-libvsgpt"

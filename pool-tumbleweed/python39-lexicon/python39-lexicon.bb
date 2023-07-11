@@ -8,8 +8,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.0.1"
 
-RPM_NAME = "python39-lexicon-2.0.1-4.1.noarch.rpm"
-RPM_HASH = "2ac95c133cf417ca69e97f50c55e2e126b9cdcef6e0a4455063700d9b61b87b9802360d5f9791ade6f0725f9257a772bffb24286c4c9cdc1fc264965977ffb6e"
+RPM_NAME = "python39-lexicon-2.0.1-4.3.noarch.rpm"
+RPM_HASH = "616b269155c421fb2c69f4780aa1ce4bd90e785d677a2b9878c802a400c99146db91a231cf7fa985e6be902fa24e3389ce98b474ad6437e6c57e8455747d8b3c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-lexicon \

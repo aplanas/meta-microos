@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.3.0"
 
-RPM_NAME = "colord-gtk-doc-0.3.0-1.4.noarch.rpm"
-RPM_HASH = "ea0547501adffb63ccf52458bf8e43bfed957bb5aa1226b841e7fd277affdc039999b9f5223588e1ade0df2ef357bc787212c919e88507f31d423f8a85dcb686"
+RPM_NAME = "colord-gtk-doc-0.3.0-2.1.noarch.rpm"
+RPM_HASH = "15eba4514b38ecd3646275b15fd7a41b60e5f6970eb8a881da2ccf241152bc9cb4e07294bda8f5ccca65262f9b0272bd40839d3229a3a3a98247dfbfe90c7510"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "colord-gtk-doc"

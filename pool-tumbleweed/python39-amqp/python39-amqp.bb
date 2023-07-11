@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "5.1.1"
 
-RPM_NAME = "python39-amqp-5.1.1-1.5.noarch.rpm"
-RPM_HASH = "27c13ebd7261a8f9ecc2c2304ffc692c0bb3620b24159a43c687409c4003f66f2424739acc2775b79cb2edefb1d4e884afc3a11327c9cad1f5c819dae824cbe7"
+RPM_NAME = "python39-amqp-5.1.1-2.3.noarch.rpm"
+RPM_HASH = "982c688bc93d0739f27eb29412c86a9f90348ccca952cd1eb25743c6831d4ea00929dbe2879c65004e0b9d8e7b9707d5d86bca988f49358b98e2a9c29409edef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-amqp \

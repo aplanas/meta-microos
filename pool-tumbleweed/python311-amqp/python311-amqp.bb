@@ -7,11 +7,12 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "5.1.1"
 
-RPM_NAME = "python311-amqp-5.1.1-1.5.noarch.rpm"
-RPM_HASH = "876d2c427deeb4a57079c242018f811d107b297000394d2632060afc9114b4f43876a2165f00712e990df67a42ad94a6213ac544643cc6f434d5c8142d1b57de"
+RPM_NAME = "python311-amqp-5.1.1-2.3.noarch.rpm"
+RPM_HASH = "b5b7e85325f63666894375b79578fbf738561ceae7e33a593f2c51642fac77af2aaf803c1b641ff80a2d3de567845bbbe88b5487e00aebc7d731e79d5b79eb96"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-amqp \
+RPROVIDES:${PN} += "python3-amqp \
+python3.11dist-amqp \
 python311-amqp \
 python3dist-amqp"
 

@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.1.9"
 
-RPM_NAME = "python39-template-remover-0.1.9-3.17.noarch.rpm"
-RPM_HASH = "88574036f13c681572cc1aa10048336f252cb2fb3deca76229d89505f1f165376fe8a6ebc6ce8576d25f8b00f19c5c4a4c96386066701b2856240e2a1945b840"
+RPM_NAME = "python39-template-remover-0.1.9-3.19.noarch.rpm"
+RPM_HASH = "cef0da0a5fbdc2ed8cd16e0298ea9e01152b4edf86391b97d484948034c7531c93a58186e1fcfb925e18c4a84a64158203d4a8f0432671c692a1897e9650e9f2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-template-remover \

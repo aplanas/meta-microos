@@ -9,11 +9,10 @@ LICENSE = "MIT"
 
 PV = "0.10.1"
 
-RPM_NAME = "python310-xattr-0.10.1-1.4.aarch64.rpm"
-RPM_HASH = "f0f24255afea653329b2987804f426e38fd5a5df90e305b437d6274f1569f864a9bda5d69cb72210fb88aa96d47a67d070c8b8e41d515fd6cb389ff89db8d825"
+RPM_NAME = "python310-xattr-0.10.1-2.1.aarch64.rpm"
+RPM_HASH = "543fe5bcf0efabce20151947405cd48df409927573a728f03be984fb206071a9486db727a5df9b69e2ce5f5c2139625603542e26815f394abb9039e92b5df107"
 
-RPROVIDES:${PN} += "python3-xattr \
-python3.10dist-xattr \
+RPROVIDES:${PN} += "python3.10dist-xattr \
 python310-xattr \
 python3dist-xattr"
 

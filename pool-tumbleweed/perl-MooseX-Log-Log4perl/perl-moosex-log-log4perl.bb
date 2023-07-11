@@ -35,15 +35,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.47"
 
-RPM_NAME = "perl-MooseX-Log-Log4perl-0.47-2.19.noarch.rpm"
-RPM_HASH = "e4e80de297292308142b12e3b5bf58e8ba973f8de3cdd62f60b26c4258dc29161d5d2a4142f242689bbeb497f5887022be13bd57a96394bc4f9cb742c0369e3b"
+RPM_NAME = "perl-MooseX-Log-Log4perl-0.47-2.20.noarch.rpm"
+RPM_HASH = "4c8e6edfd723e01f8605313a97811ea584545d599294efd94f0b8068936c4c0d9fd4e62b136971be72258d748668f3241cfc793c6f238090aaa83032b9b26657"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooseX--Log--Log4perl \
 perl-MooseX--Log--Log4perl--Easy \
 perl-MooseX-Log-Log4perl"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Log--Log4perl \
 perl-Moo"
 

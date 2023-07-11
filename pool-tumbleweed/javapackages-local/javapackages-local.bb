@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "6.1.0"
 
-RPM_NAME = "javapackages-local-6.1.0-3.1.noarch.rpm"
-RPM_HASH = "6ed6101304366ca9bd2f71a7387219e80aea6047aba89645f424b3856c06f462929ac33b58cafb74698ab83213803dff7fa2ebf957806e54e212f50446d33354"
+RPM_NAME = "javapackages-local-6.1.0-3.2.noarch.rpm"
+RPM_HASH = "af04d2aafae7447cba3efac862073a56d68193bcc6c7a60d44bd5ed900638cd0e8c0382a78816c3948030f5cb7f51af062bb69ba14ae9899923ad1638f961774"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-javapackages-local \

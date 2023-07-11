@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.5.0"
 
-RPM_NAME = "vala-panel-plugins-base-0.5.0-1.6.aarch64.rpm"
-RPM_HASH = "f40a1a134c711a68b1eff34a8a8c8cf4fee8924e6d9797a1781c12e85baf07b1b71038902775b3bced97b7ba233913bc7c0598384a58c0151dcf0ed2c0633742"
+RPM_NAME = "vala-panel-plugins-base-0.5.0-1.7.aarch64.rpm"
+RPM_HASH = "51117e59ae4c4b01090d8086790f71bdccb9abd6a4155102d1fdf5f863eb100c9613030f5fc5989691518514be961e56a15a994865f2cbe83e178028019f32dd"
 
 RPROVIDES:${PN} += "libclock.so \
 libcpu.so \

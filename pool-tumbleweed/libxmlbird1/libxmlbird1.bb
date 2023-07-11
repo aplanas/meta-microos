@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.2.12"
 
-RPM_NAME = "libxmlbird1-1.2.12-1.3.aarch64.rpm"
-RPM_HASH = "297641a9f3ccce6b99c298cbff40a642339c287cf9c9d0ec9077db91eeade07779d4e110b65854a4eebaf14f33eda754a1b5313408040599298b02335b2ac8c7"
+RPM_NAME = "libxmlbird1-1.2.12-1.4.aarch64.rpm"
+RPM_HASH = "e1e1cd5ddba7bde14ac2341a34b034dbdd94c703324960e876f5c06454d379671edc071e81c889a8791453e8c3345912f3a8eee81e086251a90465eebde466f8"
 
 RPROVIDES:${PN} += "libxmlbird.so.1 \
 libxmlbird1"

@@ -10,8 +10,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.13.3"
 
-RPM_NAME = "jackson-datatypes-collections-2.13.3-1.7.noarch.rpm"
-RPM_HASH = "8587eff5ba8d31fa96645e1b8823bac20fc5efa2f07be51dbb732612748552fb14c8ec740b3462dbe07da432f5dc2521c6c941339e6307885ada74a73bb37789"
+RPM_NAME = "jackson-datatypes-collections-2.13.3-1.8.noarch.rpm"
+RPM_HASH = "d7ae12d5aded8c9eba3a859cc7bb107701e6d40bb9daddb97af0e74c51e560098c2e87571f3c3b9d3908ee6cb4c2db21d3d41ce0ddb6f478bca10e135d5bd730"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-datatypes-collections \

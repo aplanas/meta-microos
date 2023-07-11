@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.0.27"
 
-RPM_NAME = "typelib-1_0-ClutterGst-3_0-3.0.27-2.4.aarch64.rpm"
-RPM_HASH = "c1c1e5efce0a4bf92741245b8b1af49327ad51a71edd34a67905958ca812dcb7dee26e9316dd69bb27648ab07c3c2cc4c86898bf9c4ff353f6fb85c87fb5d1eb"
+RPM_NAME = "typelib-1_0-ClutterGst-3_0-3.0.27-2.5.aarch64.rpm"
+RPM_HASH = "fdda4c087649e220a7ceb29209b5a329ff23166cde040b8a586ee690f173049c5272ef446007d354d045c067fdc02c99122b0a2d09ce889e5c73f6bbd7887cbb"
 
 RPROVIDES:${PN} += "typelib-1-0-ClutterGst-3-0 \
 typelib-ClutterGst"

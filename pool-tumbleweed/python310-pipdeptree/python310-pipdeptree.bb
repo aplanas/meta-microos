@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "2.7.1"
 
-RPM_NAME = "python310-pipdeptree-2.7.1-1.1.noarch.rpm"
-RPM_HASH = "5109fca718a7db4dc22de8a60933026d3488889fb1f4b4524817d35943d2636aa0660a96259a29b0dd00664a27649758dc0a277aac69d8d94a456154473d1c99"
+RPM_NAME = "python310-pipdeptree-2.7.1-1.3.noarch.rpm"
+RPM_HASH = "6a1150c6ab974f2b8b965627f2daa031d8765bdec74d4ec1bf6d8b4ff3205bb496be8209b729bfe52cf017a872c3f1a8c88f181d2f077f5c17b1b64a5e694cca"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pipdeptree \
-python3.10dist-pipdeptree \
+RPROVIDES:${PN} += "python3.10dist-pipdeptree \
 python310-pipdeptree \
 python3dist-pipdeptree"
 

@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "20190610"
 
-RPM_NAME = "libprotobuf-mutator0-20190610-1.28.aarch64.rpm"
-RPM_HASH = "c5ae3666deabd27a40fdf666a9e78dc77d3f0f9662634bc4589382cc5797b450e05cd7c66c942110e58e7a1629ba5216b3e614c060038de6fbf76757082e913a"
+RPM_NAME = "libprotobuf-mutator0-20190610-1.29.aarch64.rpm"
+RPM_HASH = "2b479db66a072e6cf598a25dcbb6365c21f862becc7065620235d1cb72905880edff2cae5262957ee17ce723cf783a7a71d901ee36aaec442cf519fdc2c1b48b"
 
 RPROVIDES:${PN} += "libprotobuf-mutator-libfuzzer.so.0 \
 libprotobuf-mutator.so.0 \

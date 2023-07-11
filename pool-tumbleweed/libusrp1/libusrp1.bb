@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.4.7"
 
-RPM_NAME = "libusrp1-3.4.7-1.4.aarch64.rpm"
-RPM_HASH = "a4686df8e18dd6094890b940379f6756be023acf96bab0f93567c6deb5c59ef1a259a5a26b3921e1b32a0d359b22c13dfddb9cfa69537b58b963874642458075"
+RPM_NAME = "libusrp1-3.4.7-1.5.aarch64.rpm"
+RPM_HASH = "cbb71104d37be82672d8024d24a11ff78887eb1fa9af91e9bee6dddf49208fd23d1ab28c6ed2da95c819a23abdec4db82115c50b92c1cb366f1680ba0b716ce3"
 
 RPROVIDES:${PN} += "libusrp.so.1 \
 libusrp1"

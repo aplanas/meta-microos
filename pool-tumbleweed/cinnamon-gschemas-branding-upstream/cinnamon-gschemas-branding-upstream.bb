@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-only"
 
 PV = "5.2.7"
 
-RPM_NAME = "cinnamon-gschemas-branding-upstream-5.2.7-2.7.noarch.rpm"
-RPM_HASH = "ef6868263ecae90d002441d0b284071fe8aef4b979f454dd263f869bebc895af3485aa1c04492dfa7d70d2a6ad95ee13c71b70eeda6a94b3bb3430723efb87a2"
+RPM_NAME = "cinnamon-gschemas-branding-upstream-5.2.7-2.8.noarch.rpm"
+RPM_HASH = "a25688e4126da26777b67a3545f4478108a7c9ec0792e7e7753bbbdaffd7741ae516c211abc0def388bc17db25ba42442290db11da040ce2ec9e78d7e3a88112"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cinnamon-branding-upstream \

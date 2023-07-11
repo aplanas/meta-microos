@@ -7,11 +7,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2.4"
 
-RPM_NAME = "borgbackup-1.2.4-1.1.aarch64.rpm"
-RPM_HASH = "926a07a6e191aab49f3c989f59f90ca6b240374116c6176a1c75522cfe33bb1779474bff2bcb5fb05f20ee8fa04aadebb7b49fc83270231f344cd6e9bce80c3e"
+RPM_NAME = "borgbackup-1.2.4-1.3.aarch64.rpm"
+RPM_HASH = "e6635ed36cce6faa275ac2526274ac829b7d38451b7b3609d9e50f5fa524c6c882f870a4163cd61b189539616b214eda4391f6e1e5fec583b67925a05720289a"
 
 RPROVIDES:${PN} += "borgbackup \
-python3.10dist-borgbackup \
+python3.11dist-borgbackup \
 python3dist-borgbackup"
 
 RDEPENDS:${PN} += "-python3-msgpack >= 0.5.6 with python3-msgpack <= 1.0.5 \

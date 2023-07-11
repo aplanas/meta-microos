@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0 & BSD-2-Clause & GPL-3.0-or-later & Unicode-DFS-2015"
 
 PV = "1.51"
 
-RPM_NAME = "espeak-ng-1.51-1.8.aarch64.rpm"
-RPM_HASH = "96a95436653fc8ad3067b1b316023f3e71943fc39027e18c827658ab897ad72738ae2e69a85a1b1515ff3c6b32d18973044f9654d00b32fc40724aeebb4d9324"
+RPM_NAME = "espeak-ng-1.51-1.9.aarch64.rpm"
+RPM_HASH = "78b2c1cc5a447fde6e6ce04cad9debef95440dd73ac30946226a5d8d795a7b31d021b36f57a1e1fc7d745ce7a229ff965e12b484e697dd2ef8019091466359fd"
 
 RPROVIDES:${PN} += "espeak-ng"
 

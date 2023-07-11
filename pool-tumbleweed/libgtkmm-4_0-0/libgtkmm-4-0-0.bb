@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "4.10.0"
 
-RPM_NAME = "libgtkmm-4_0-0-4.10.0-1.1.aarch64.rpm"
-RPM_HASH = "5fa257a49be6c6233d7ce80162749374b6bbb43ec70aa3840cc77ad3ea84affd02ec17a3da19ca608e946095e0d293d8ba09f48cd3aa2ca9ac300e6a21205dc1"
+RPM_NAME = "libgtkmm-4_0-0-4.10.0-1.2.aarch64.rpm"
+RPM_HASH = "af1fab39ac52787c5cc844f5d2f2f55884560d93df47d81159370edd121d57da692c1fbf2accde2a537fa3484b16191d0642b83a4ba0e4595e4d4ac4704c636b"
 
 RPROVIDES:${PN} += "libgtkmm-4-0-0 \
 libgtkmm-4.0.so.0"

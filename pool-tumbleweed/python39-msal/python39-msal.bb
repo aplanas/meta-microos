@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "1.22.0"
 
-RPM_NAME = "python39-msal-1.22.0-1.1.noarch.rpm"
-RPM_HASH = "c3e27293a9a57af5a4d692b5224140a154ca4a5309e2683481429b4442ead3686578bd138a9959a93234b55c792eae0b8a3dcacab2f30eed1d70a7de09d79b7b"
+RPM_NAME = "python39-msal-1.22.0-1.3.noarch.rpm"
+RPM_HASH = "15242dc5c19cd73103b79ff51ffb6d45539f1b8149f65946a6bd9db99d5370d489ec1e142652db4a255961ebedf7eab089bd3a0efa2b4db17a3fc3d16e8069d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-msal \

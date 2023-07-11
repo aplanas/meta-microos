@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides overlay icons to visualize the synchronizat
 in the Nautilus file manager."
 LICENSE = "GPL-2.0-only & GPL-3.0-only"
 
-PV = "3.2.0"
+PV = "4.1.0"
 
-RPM_NAME = "owncloud-client-nautilus-3.2.0-2.3.aarch64.rpm"
-RPM_HASH = "e20f8e6b7cb799ca2298dc60a80657b83f0db47e1887b99d12fecf2c50c33e84a6137cd1280caf5c5745f1c3b92f08395ad07ca85fe864d385eb6997f3581fe0"
+RPM_NAME = "owncloud-client-nautilus-4.1.0-1.1.aarch64.rpm"
+RPM_HASH = "4b5105d35a2825bdc4a8e14a9eedd168297026e05617a9a8fa3f0704f60ee45226c727fd238641f32708caac7961cce33576324820d9328ac48c774c96304dc3"
 
 RPROVIDES:${PN} += "owncloud-client-nautilus"
 

@@ -6,14 +6,14 @@ LICENSE = "GPL-1.0-or-later | Artistic-1.0"
 
 PV = "0.2800"
 
-RPM_NAME = "perl-Sub-Uplevel-0.2800-1.16.noarch.rpm"
-RPM_HASH = "cd563f96348cbbb4e23a84419c30b3d22de2d832e64c422c5f42566561c10ed62f355164b2956bb0afacdd60f05cb61051f02eae65050767e41b9adc1e1bcab5"
+RPM_NAME = "perl-Sub-Uplevel-0.2800-1.17.noarch.rpm"
+RPM_HASH = "5dedb69ff73307b82d3b87fe4bdd6bea2dd44ba03ea1ab5cbbe2246053e8cb826e5b13ed79a092f374bf9867e5f481199890395c82dc272cfe617b365cea2052"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DB \
 perl-Sub--Uplevel \
 perl-Sub-Uplevel"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

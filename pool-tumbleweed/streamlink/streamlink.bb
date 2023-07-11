@@ -5,17 +5,17 @@ avoid resource-heavy and unoptimized websites, while still allowing the user to 
 enjoy various streamed content."
 LICENSE = "BSD-2-Clause"
 
-PV = "5.3.1"
+PV = "5.5.1"
 
-RPM_NAME = "streamlink-5.3.1-1.1.noarch.rpm"
-RPM_HASH = "e1a6ed8833dfe40e709c9ab9f7400f2426636504aa4d452e87ba855c2f1d04d49608dcaffb728dcc717c4a2267555f03abfc68caace6b4cfe9b0bbfc2155aaea"
+RPM_NAME = "streamlink-5.5.1-1.2.noarch.rpm"
+RPM_HASH = "65d66e4764b5b5178ad22ce444ba5687a8a7db9b941c14f4fc775ed1673256c5e2b8f1e32bc4be240c61b7e21db8b3117192b0a781b2b3379f3f1582a24f8613"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-streamlink \
+RPROVIDES:${PN} += "python3.11dist-streamlink \
 python3dist-streamlink \
 streamlink"
 
-RDEPENDS:${PN} += "/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
 python-abi \
 python3-PySocks \
 python3-certifi \

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kblocks"
 DESCRIPTION = "Provides translations for the 'kblocks' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kblocks-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "77378cbd367976fd3254115009da6ab31bc3770e6b7fb7985bd5bf5b92fe70a661d48cb34cd8fc4d2118f1fe6237c04d98e955e94f3ab6146a357999765b63c0"
+RPM_NAME = "kblocks-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "6a8859c13e54cabf1659835a055ff0c9ccc5f8b0ea0a1dfe8b5c86798b906990d5c21ecfe701f4b96dfb9df33fe1cc407b9cc0d68a666c77b6f06d4d5689239d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kblocks-lang \

@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2"
 
-RPM_NAME = "geronimo-javamail-1_3_1-api-1.2-36.11.noarch.rpm"
-RPM_HASH = "3446d5f69a2444cdfeb870ed85eeac525530343b9e7f243120a84eb04884cc2424221345e2a92c953978237e5d5bb81b7b16b97bb5cb58c17dc55e211c139adc"
+RPM_NAME = "geronimo-javamail-1_3_1-api-1.2-36.12.noarch.rpm"
+RPM_HASH = "4cf1878aa05003fb21574ae7443da8c9c02cf77c623d4cce5a7c238cc514d44e82d41d8710c716375c6baeb5e457669751a759c7d121e8c438e522fc95ea6b06"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "geronimo-javamail-1-3-1-api \

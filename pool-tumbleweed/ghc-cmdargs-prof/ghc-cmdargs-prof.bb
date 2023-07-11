@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.10.22"
 
-RPM_NAME = "ghc-cmdargs-prof-0.10.22-1.3.aarch64.rpm"
-RPM_HASH = "9b63b4113252175c73141ab03e35c98a5eb09d694025b8e4561aef7dcb4ccc893bd0e9b6a8e04895cb07d1a2c86b6a005f7b859ed6797b9efe1fbc307809e16b"
+RPM_NAME = "ghc-cmdargs-prof-0.10.22-1.6.aarch64.rpm"
+RPM_HASH = "4aab96cb0189bdb7b5d95d72d49cb0a6474583b9cbe77050f9f8eaa6e222fa58e4f41c17dfc2aec46ff91b092cdeed94c41847e535a248a5f739d7fbaae54662"
 
 RPROVIDES:${PN} += "ghc-cmdargs-prof \
 ghc-prof-cmdargs-0.10.22-JxALoPeruUH3tSM40P8Mx"

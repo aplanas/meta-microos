@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "0.1.1"
 
-RPM_NAME = "python39-azure-applicationinsights-0.1.1-2.3.noarch.rpm"
-RPM_HASH = "4e42aaf22ae26cfffcee722f18ba96b91f57e6a00c932665ce095b45422807962cbcdf1e1a88431bcf5d4c6469a75d07fa5d86354c9c25a8e6987769643188de"
+RPM_NAME = "python39-azure-applicationinsights-0.1.1-2.5.noarch.rpm"
+RPM_HASH = "4bceea5dda890566e88514aee8ca5f59c6d6e0681bf94d761bffb8fc191998792867b9e8e76eff83e13f8c41380cb4cc6ba264b1c12e7f9a26492197abe0bd95"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-applicationinsights \

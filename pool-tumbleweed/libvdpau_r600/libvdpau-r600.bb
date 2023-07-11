@@ -2,10 +2,10 @@ SUMMARY = "VDPAU state tracker for R600"
 DESCRIPTION = "This package contains the VDPAU state tracker for R600."
 LICENSE = "MIT"
 
-PV = "23.0.3"
+PV = "23.1.3"
 
-RPM_NAME = "libvdpau_r600-23.0.3-349.2.aarch64.rpm"
-RPM_HASH = "d2d2b7b9b2aefb92567239f168b43d8a4ffde91e119f772a56c67c79f9cf48b38f5f2df2f55872c75709545716abb1268fd15ddd7f0068aab8a0a12021e9d0e3"
+RPM_NAME = "libvdpau_r600-23.1.3-353.1.aarch64.rpm"
+RPM_HASH = "7227857e2113f644126f44727bb4558ecf5e1a9aa6b2108b086571e89e3e854f6caebb2d6e8522484ce6d2bb4c4515131561f1af4f7d604aa1ee182f182023ad"
 
 RPROVIDES:${PN} += "libvdpau-gallium.so.1.0.0 \
 libvdpau-r600"
@@ -30,7 +30,6 @@ libxcb-sync.so.1 \
 libxcb-xfixes.so.0 \
 libxcb.so.1 \
 libxshmfence.so.1 \
-libz.so.1 \
-libzstd.so.1"
+libz.so.1"
 
 inherit rpm

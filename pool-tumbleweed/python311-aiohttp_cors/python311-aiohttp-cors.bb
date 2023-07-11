@@ -8,11 +8,12 @@ LICENSE = "Apache-2.0"
 
 PV = "0.7.0"
 
-RPM_NAME = "python311-aiohttp_cors-0.7.0-5.1.noarch.rpm"
-RPM_HASH = "28d4519a159c5f8cbe77a13f9279a2eb4db7fa546701a3eed262d8d11718cf166536cec25dcbeb7c7abd7759a80ba5b18791291e86757f429e5214dcb7306082"
+RPM_NAME = "python311-aiohttp_cors-0.7.0-5.2.noarch.rpm"
+RPM_HASH = "3f3ef4146ae7897f5234cbbfa3b6d3bfc2ff06a0e72f1aebb12fe7007d3533549f08adc87691b8d81cb0b050deeebd2526bb1a22d14442c330c6425ca5ce1bd0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-aiohttp-cors \
+RPROVIDES:${PN} += "python3-aiohttp-cors \
+python3.11dist-aiohttp-cors \
 python311-aiohttp-cors \
 python3dist-aiohttp-cors"
 

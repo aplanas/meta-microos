@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "1.23.0"
 
-RPM_NAME = "libinput-devel-1.23.0-1.1.aarch64.rpm"
-RPM_HASH = "adb2a5e094829b7692ca2f60b09b0dc450bf533934a31380d3c44f88a4a73feb36c8fd2eabce024f0e2362b95e0ba194e3e3be531408f0bfbf16eed7255b21d2"
+RPM_NAME = "libinput-devel-1.23.0-1.2.aarch64.rpm"
+RPM_HASH = "fa26c2540f41e66eb9f2ff8d329a6db28819bfb0f977f2915cd0c70dbb6d13d6b2e1a52a94babbae8e828e6965e4f09ef9dad49da3f4822b7570cfc2c40aa7c9"
 
 RPROVIDES:${PN} += "libinput-devel \
 pkgconfig-libinput"

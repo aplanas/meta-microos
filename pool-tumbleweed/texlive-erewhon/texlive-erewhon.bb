@@ -9,8 +9,8 @@ LICENSE = "OFL-1.1"
 
 PV = "2023.201.1.12svn63312"
 
-RPM_NAME = "texlive-erewhon-2023.201.1.12svn63312-53.1.noarch.rpm"
-RPM_HASH = "c9442d8d128928bf2f7d498c1cb130927afca0c11bde3c17fc5f628667187fe1625ee162955666dd7e644c4db9ee43b96fa789cb62a2c99af40745d70554b91d"
+RPM_NAME = "texlive-erewhon-2023.201.1.12svn63312-53.2.noarch.rpm"
+RPM_HASH = "d591a936d401805d628ee89491ce7fc89ee7bad9b4e455016f277862408fc1bbf4b87757dc9ef5a2d89d10fc4d876b790ae00a4c8c93095f6743b8702b485edc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Erewhon-Bold-dnom-ly1.tfm \

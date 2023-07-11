@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0 & SUSE-Public-Domain"
 
 PV = "1.11.3"
 
-RPM_NAME = "aws-sdk-java-machinelearning-1.11.3-7.8.noarch.rpm"
-RPM_HASH = "b4a8973705aff714e45646aa9f102c95473d44d56bd3eeae0b72029cbeb3d3d466ff8d2605edf25cc5abb91d691c1a4dd832ac14b0a782245440ea035b959a5a"
+RPM_NAME = "aws-sdk-java-machinelearning-1.11.3-7.9.noarch.rpm"
+RPM_HASH = "8abbeab1f453034d79e40ac63955b8528f8b9b3a811863bb35d54665107b776dfed77dd14f6e5de4051fa5959edef2062026a1bcdf6741f26cfea3df360ab146"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-machinelearning \

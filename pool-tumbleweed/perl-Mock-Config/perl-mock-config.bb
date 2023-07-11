@@ -4,13 +4,13 @@ LICENSE = "Artistic-2.0"
 
 PV = "0.03"
 
-RPM_NAME = "perl-Mock-Config-0.03-1.21.noarch.rpm"
-RPM_HASH = "f7211b7540c1b7b6bb613d697f4cd1ec6b7bd36c94d0ef4570dc250fbb336741c987ad137adb99c7e07c9c3218fe248a6c4a8dfa63b85b078ce28b973d810a0e"
+RPM_NAME = "perl-Mock-Config-0.03-1.22.noarch.rpm"
+RPM_HASH = "c499b96e5deec7ff08d536f395d0553cb595a4415602a315e627bfbb4fa29a375736e53413e307f79ac47951ff7d80747f915b9e98db79c26ea192d3ed86ec1d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mock--Config \
 perl-Mock-Config"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

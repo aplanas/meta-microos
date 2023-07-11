@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.0-only"
 
 PV = "1.26.1"
 
-RPM_NAME = "caja-1.26.1-1.4.aarch64.rpm"
-RPM_HASH = "31ef805cc21f41fce3a9cf9f925cb738972ebce56e63421c387713d7b8af2b4d92267f3c63dde8829ebe6f4d96ef6409ff203c7b6a8b2f8f549d8c31e5cf420e"
+RPM_NAME = "caja-1.26.1-1.5.aarch64.rpm"
+RPM_HASH = "b03f3abab3d803acbb6cb6aa47bc360344045993f9c3b38ba0300d474a43b68d1de30c299e3c80d0ca57cacafeb714067e90da180c67bbc3456d950a9acd6204"
 
 RPROVIDES:${PN} += "caja \
 mate-file-manager"

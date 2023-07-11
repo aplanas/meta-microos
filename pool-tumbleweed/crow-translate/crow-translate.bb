@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.10.0"
 
-RPM_NAME = "crow-translate-2.10.0-1.4.aarch64.rpm"
-RPM_HASH = "32fbcf58dfeeb4ee16e9ab0653d959208adffc7191670ac3d9163979c419f3da2a2d12293f158037d5bda68be8a2aa7128077dc9ec7e71849b3e3f0cb02a3ba6"
+RPM_NAME = "crow-translate-2.10.0-1.5.aarch64.rpm"
+RPM_HASH = "742695cf3f135834595a0661367536af382c4b785e5a581537534f053fdb8c9d5646ae816b401378a84d4df0076db136fee9a87a20fb51be51e199cbdbd145c8"
 
 RPROVIDES:${PN} += "crow-translate"
 
@@ -24,7 +24,7 @@ libX11.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6 \
-libtesseract.so.5.3.0 \
+libtesseract.so.5 \
 libxcb.so.1"
 
 inherit rpm

@@ -2,19 +2,19 @@ SUMMARY = "The Linux Kernel Sources"
 DESCRIPTION = "Linux kernel sources with many fixes and improvements. \
  \
  \
-Source Timestamp: 2023-05-29 06:22:29 +0000 \
-GIT Revision: 2c66b1f470678d30f7dc560d1f3770e6e13b5e65 \
+Source Timestamp: 2023-06-22 03:53:43 +0000 \
+GIT Revision: 0df701dd2c208f4843cf219b4b26b533ada9bd34 \
 GIT Branch: stable"
 LICENSE = "GPL-2.0-only"
 
-PV = "6.3.4"
+PV = "6.3.9"
 
-RPM_NAME = "kernel-source-6.3.4-1.1.noarch.rpm"
-RPM_HASH = "7cb788c47906fd9fc9606a40b2a0c38647bb0682aa281c4d0ab344ae7221494aefa810ca3b659832c9f547dfa41bbe09450c16f3043b7d791b0d30ab5dd96f48"
+RPM_NAME = "kernel-source-6.3.9-1.1.noarch.rpm"
+RPM_HASH = "76d271c50a758d2fd49efd5b7898c0b5f4679436c4491265b6b62eb2a690ee1d09249aabd7f10e7bdb6c344b5f6da23c422c10d32a77f3e1fabfaaa093b4d27a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kernel-source \
-kernel-source-srchash-2c66b1f470678d30f7dc560d1f3770e6e13b5e65 \
+kernel-source-srchash-0df701dd2c208f4843cf219b4b26b533ada9bd34 \
 linux \
 multiversion-kernel"
 

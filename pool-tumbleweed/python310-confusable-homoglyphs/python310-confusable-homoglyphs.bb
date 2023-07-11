@@ -7,12 +7,11 @@ LICENSE = "MIT"
 
 PV = "3.2.0"
 
-RPM_NAME = "python310-confusable-homoglyphs-3.2.0-3.9.noarch.rpm"
-RPM_HASH = "b68fdfdd5282fddbbdebb325f7a3943ba69d612e50cbe57d811691f2b8cf8a04d9fd285ae5cb29718ec67bc2dd67f9fdb02769b8d2745ccabe088d94ea4ca6d3"
+RPM_NAME = "python310-confusable-homoglyphs-3.2.0-3.11.noarch.rpm"
+RPM_HASH = "f6157a5e1c78da18ae345d4fe33bed1361a5bdb2515ce5afdb56021525d5531a883f3a41c54d61c52d152535bce9bc53e117156683b59c9375b92217aa707b45"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-confusable-homoglyphs \
-python3.10dist-confusable-homoglyphs \
+RPROVIDES:${PN} += "python3.10dist-confusable-homoglyphs \
 python310-confusable-homoglyphs \
 python3dist-confusable-homoglyphs"
 

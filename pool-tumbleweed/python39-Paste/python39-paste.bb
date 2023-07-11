@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "3.5.2"
 
-RPM_NAME = "python39-Paste-3.5.2-3.1.noarch.rpm"
-RPM_HASH = "24b1f5ee39549d5540ea2eb3b6cadbc2172f7213e92209c38482cd135d2d5e6e78ee7aba9a4299546a81b4251fdaa4aa70f6925d8306d2ab8b59f562baa970b2"
+RPM_NAME = "python39-Paste-3.5.2-3.3.noarch.rpm"
+RPM_HASH = "32f04262413fa20ae8f3236f436333d86c0f863963ec117c7371bc717300ceecfae17b0be2dc265206b4bcdbc2232e29e94be07e5017cb60d5e74e7e5d36c1fd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-paste \

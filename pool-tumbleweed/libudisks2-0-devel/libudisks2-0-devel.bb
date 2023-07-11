@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "2.9.4"
 
-RPM_NAME = "libudisks2-0-devel-2.9.4-6.3.aarch64.rpm"
-RPM_HASH = "19de8eecf1ae2c17c6d4a62267eb3b5ef4469a65276bcfbeb60a968b22b4719b4fad3031a6204ad77be20c8c30d4717a8c2c70367f29e3d010a77b32cb2a3a3c"
+RPM_NAME = "libudisks2-0-devel-2.9.4-6.4.aarch64.rpm"
+RPM_HASH = "52e3ec0f6b4a1bdae4fc39b293b03d8ec48ec45c826fc6bca8d2227c52d3f2e807357f94c9cd49ac43ee5e29572937911457c330bb710c68a8fa4e4c6b959da6"
 
 RPROVIDES:${PN} += "libudisks2-0-devel \
 pkgconfig-udisks2 \

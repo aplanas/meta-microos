@@ -2,10 +2,10 @@ SUMMARY = "Translations for package ksnakeduel"
 DESCRIPTION = "Provides translations for the 'ksnakeduel' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "ksnakeduel-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "82a4459f2acf22ccf5dce05448b72f20d138c2d4de594d53a482285ca035885ae73694ba1a877fce96cf1d4402d5687f02435eed58b0615fda2d879daf15af4d"
+RPM_NAME = "ksnakeduel-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "109ddaa2a127ffc8199836d8030342f306432a78fe0adeb4406011d1fb7cba77aad661f24cd49bbe29942e149d95a755bbff4d2855c1fedd2999d82062481ad5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ksnakeduel-lang \

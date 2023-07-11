@@ -2,10 +2,10 @@ SUMMARY = "KDE Find File Utility"
 DESCRIPTION = "KFind allows you to search for directories and files."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kfind-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "73d631d202475ef4fee77341ea21c6d0a7bebf25ad3712679c61fecfe6fe208357f011ad979ba9c4b08bd7ffb8c1b83928264800814b909ad4a72506cdb01342"
+RPM_NAME = "kfind-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "11e8fc154140a505e7c5b00901f23cbfc8a53343a4880bca4a026374ff1e110fb2a40c70152afbef7c99d2a6e55e96bf8ddf72f00ed259a3b64bd82c787c8b72"
 
 RPROVIDES:${PN} += "kfind"
 

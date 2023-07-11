@@ -5,8 +5,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.9.6svn54911"
 
-RPM_NAME = "texlive-quantikz-2023.201.0.0.9.6svn54911-53.1.noarch.rpm"
-RPM_HASH = "4e09adcae7533c276fb81e9c834276163737565eb377e8f55e1194653ef54f1d3300a4227aa4f7b94cd3a222b8badfe5fcb58cd1ed918a10d67e0e6f09a43d2a"
+RPM_NAME = "texlive-quantikz-2023.201.0.0.9.6svn54911-53.2.noarch.rpm"
+RPM_HASH = "cdc799fc98363683c929902ed1159badd220b9e886863b758ebe2bb2fcf87481670ef88f766b9aa5bf08e5083f4760f979fb37b87802040c3ac639821bc7d63a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-quantikz.sty \

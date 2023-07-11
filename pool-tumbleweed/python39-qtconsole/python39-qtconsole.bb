@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.4.3"
 
-RPM_NAME = "python39-qtconsole-5.4.3-1.1.noarch.rpm"
-RPM_HASH = "bfd52223dd80084f1f074a5acde806f9f7237033c7206aa784ffe492881949b7484ddbe539be14d40a9cc2ec5562e912c2365144414753a8f55dfb3cdd49a43a"
+RPM_NAME = "python39-qtconsole-5.4.3-1.2.noarch.rpm"
+RPM_HASH = "30560fcf6456484d49532359444d8716d36030e730551be67a12a6197f942ed940dcd37c69d00f6abeb0416463899e2e35de8c767f90d0987c3e7218773d2675"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-qtconsole \

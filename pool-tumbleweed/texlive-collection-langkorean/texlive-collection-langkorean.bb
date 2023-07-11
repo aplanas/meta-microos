@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.208.svn54074"
 
-RPM_NAME = "texlive-collection-langkorean-2023.208.svn54074-58.1.noarch.rpm"
-RPM_HASH = "e16dee0f2ac94f13798ee9f61b3338a194ff9d30b518590fa3c7a189a378d6b55a927691cdd1a48e1e3c8c15f20b0cb6fe8613d14e2bcddd8057bf385732abbd"
+RPM_NAME = "texlive-collection-langkorean-2023.208.svn54074-60.1.noarch.rpm"
+RPM_HASH = "9ecac0da6e9097b4e7474e8d96ae344d80a43c91ce7d822960120618bf826473ac21b184b385d36ec1a1ed62ebb705049d48f57067a9a46c0ccd85f477b30362"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-langkorean"

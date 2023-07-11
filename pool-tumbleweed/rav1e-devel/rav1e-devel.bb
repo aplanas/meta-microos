@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.6.4+0"
 
-RPM_NAME = "rav1e-devel-0.6.4+0-1.1.aarch64.rpm"
-RPM_HASH = "663e1b7c638cd9faebc2f1eb9859875e72c550f804b0e3db257f99d0b74fda27856d6c2b540db5c9160cd79a89f79b7012d6967362b82f5bd02484067f4a0b64"
+RPM_NAME = "rav1e-devel-0.6.4+0-1.2.aarch64.rpm"
+RPM_HASH = "56ee25f202046a5e930dfd550b1e661e7d625027ef8eb6de8318685bc8646c9546d37a21628c8bcebd04203ffbc63d5e8aae7827ec334357c3f9b7cdfcc7f80c"
 
 RPROVIDES:${PN} += "pkgconfig-rav1e \
 rav1e-devel"

@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.2~pre2"
 
-RPM_NAME = "librxtx2-2.2~pre2-4.3.aarch64.rpm"
-RPM_HASH = "3c3d3766600b48651e48fd46cee94fa4ca66a835b48f97f025fa0d7fb679c86eb955d154114777713660cc07755cb01e0ec883e3ddb26c506cb3d9a0935ceea3"
+RPM_NAME = "librxtx2-2.2~pre2-5.1.aarch64.rpm"
+RPM_HASH = "2114d8d3d930879ba8f0abfe57e7938e8fe2c5693d888bb7af3930649af9dd486cd43e3d247bf429a1886280adb53d7041a1335bb9c15b6e82d230e674b0ce47"
 
 RPROVIDES:${PN} += "librxtx2 \
 librxtxI2C-2.2pre2.so \
@@ -17,7 +17,6 @@ librxtxRaw-2.2pre2.so \
 librxtxSerial-2.2pre2.so"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libc.so.6 \
-liblockdev.so.1"
+libc.so.6"
 
 inherit rpm

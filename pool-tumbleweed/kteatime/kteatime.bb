@@ -3,10 +3,10 @@ DESCRIPTION = "Timer utility by KDE where the user can select a particular type 
 and be reminded when the associated hardcoded time is over."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kteatime-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "f7036028b57b4db1b4205c5f2d51f90da4f2d1541f88371ebeb85985b3399a49ac002d0b1c602ff9eba3fb1f95cde056ffa73c11434433165b99c4d354b72cb1"
+RPM_NAME = "kteatime-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "8e4828177d093592681b66b720e12230041ca87914f4c59c7cfe7e27836f9f7e25386adc4c355aa21809b6f9236ea93ae0105b272e790efff5aa0937452e37c4"
 
 RPROVIDES:${PN} += "kteatime \
 kteatime5"

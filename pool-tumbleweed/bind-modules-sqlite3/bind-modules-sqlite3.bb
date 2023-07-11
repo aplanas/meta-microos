@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the externally loadable SQLitee DLZ module,
 update support."
 LICENSE = "MPL-2.0"
 
-PV = "9.18.15"
+PV = "9.18.16"
 
-RPM_NAME = "bind-modules-sqlite3-9.18.15-1.1.aarch64.rpm"
-RPM_HASH = "0a38ceeff9a9568fbacd8765fc96534bfae77320cc7cd677d343362fa172d07b08019b0388239b7d3fe5002edfc048a9c0429af7a8c8ce96739e195a2ae5123c"
+RPM_NAME = "bind-modules-sqlite3-9.18.16-2.1.aarch64.rpm"
+RPM_HASH = "aa5cee327f9a71e5d648834e6e0ed03992a32dcd154124a27f564e36b2349e460c2eb4e365f76351430f870ef2af6912dfb1b8dd6890cd7a4e858ef09981e782"
 
 RPROVIDES:${PN} += "bind-modules-sqlite3"
 

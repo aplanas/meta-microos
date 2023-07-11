@@ -17,12 +17,11 @@ LICENSE = "MIT"
 
 PV = "0.7.5"
 
-RPM_NAME = "python310-pickleshare-0.7.5-5.1.noarch.rpm"
-RPM_HASH = "60fa5491da983d91dad06571f123a3be9468329ae6b3fdb16e113c285c6ed005523b79e501ba2e17cd568d9ba88995aacd8058d291c4f6828a37900669cfddd6"
+RPM_NAME = "python310-pickleshare-0.7.5-5.3.noarch.rpm"
+RPM_HASH = "debd12f9cb84051b26c6e261209f143b9eefe372e06f27f1f94ff2e7d33cc507e98ae1a871c29bc93de6844483e86e840e26799d16552465374d005d72a58ae8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pickleshare \
-python3.10dist-pickleshare \
+RPROVIDES:${PN} += "python3.10dist-pickleshare \
 python310-pickleshare \
 python3dist-pickleshare"
 

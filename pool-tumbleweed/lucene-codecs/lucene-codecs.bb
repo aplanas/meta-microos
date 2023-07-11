@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "8.5.0"
 
-RPM_NAME = "lucene-codecs-8.5.0-3.4.noarch.rpm"
-RPM_HASH = "d25a7fbd843ad9d7346e7ef171ee2acbd574c66b34bbb8a28e2812da5dcb606b88dac11b3658a5be9321a424006f5e9bd9e9c983f350402fe4495fe3388afcac"
+RPM_NAME = "lucene-codecs-8.5.0-3.5.noarch.rpm"
+RPM_HASH = "cf4e0da7cf013b1fda2c9dd952c9352730f9b96a06d536d7c262d728e8e557a64f89972c3830a350830d65af6f6def95c648dc8314eb64a3d67dd270e57b8df6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lucene-codecs \

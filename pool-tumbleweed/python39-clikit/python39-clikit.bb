@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.6.2"
 
-RPM_NAME = "python39-clikit-0.6.2-2.16.noarch.rpm"
-RPM_HASH = "50074d17ba4be263631f3ab130a3602771d87cc4e61dfa28312f2adf011f955cc4b60bb8acc6b966dd3d1a0b6e5e2e1f7ac8a1b2e66ca8b6c5e4516e854b1b12"
+RPM_NAME = "python39-clikit-0.6.2-3.1.noarch.rpm"
+RPM_HASH = "eb114c910a3dd27efcc628800133c23cc5c852175759ebc094ca2fca77c4f7a1c82eca2ee7f0053d8e407989519cd6a9da3c2d175b117b9a6fe97cf8e0c04f49"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-clikit \

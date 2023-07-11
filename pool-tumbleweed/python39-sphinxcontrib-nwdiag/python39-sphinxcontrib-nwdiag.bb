@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.0.0"
 
-RPM_NAME = "python39-sphinxcontrib-nwdiag-2.0.0-1.13.noarch.rpm"
-RPM_HASH = "b94136324b05f702511e00d79c6968d64b03663b62c3c1ff8471e7f5e4e3299fcba914dae9e7b5720ddbd9aeb864ccee15ba727391fed6dfe7bc16c549755727"
+RPM_NAME = "python39-sphinxcontrib-nwdiag-2.0.0-1.14.noarch.rpm"
+RPM_HASH = "090e4497632c150dda439e2c6314d422963449179ff7afcc04ffa52e6732c9f3f8651ef63c9001b5d9bab4112c5cc8c2d32859b1aae2bf8b68412a1d387867b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sphinxcontrib-nwdiag \

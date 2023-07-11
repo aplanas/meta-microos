@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "6.12.0"
 
-RPM_NAME = "mono-data-6.12.0-5.3.aarch64.rpm"
-RPM_HASH = "13521378f9c40c7febf262bd7905e940a57bb014bf3a3658b16ca0e450c95616f701deb4c0c7c06b217fd76aaa9c7a00966cf129c2c45f401f2b893aae6ee852"
+RPM_NAME = "mono-data-6.12.0-5.4.aarch64.rpm"
+RPM_HASH = "41bf4749db99122a447452ead79a6cf137e102743e7d09693149e31af356501ceae1988279d6594abf7e00f7bd6e8cda1fc28d6e2b8c1ba1c2741096d3e06c83"
 
 RPROVIDES:${PN} += "mono-Mono.Data.Tds \
 mono-Novell.Directory.Ldap \

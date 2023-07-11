@@ -4,8 +4,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-kbswitch-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "277dc5ec42099b24dd3fb044de4bc84c310ff41f6d642fbee79c27a76e1523d80dc306c823851c1f408db7e5e461912c2744a9620c68e08647c83419fe6afcee"
+RPM_NAME = "leechcraft-kbswitch-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "8e80fd82ed2eae4c8705a3c7b1a747f12ca1cbb5c8c462fb2d8c05802ded6819e1f2928c1cd09957575e6f9793e519ebf7a0757841b1938146dfa7b69970d459"
 
 RPROVIDES:${PN} += "leechcraft-kbswitch \
 libleechcraft-kbswitch.so"

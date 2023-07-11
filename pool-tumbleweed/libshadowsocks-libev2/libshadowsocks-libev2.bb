@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.3.5"
 
-RPM_NAME = "libshadowsocks-libev2-3.3.5-3.1.aarch64.rpm"
-RPM_HASH = "4500b7635231bda7cf98a2dab70cf3eb66be71ab034e90d363562b69d931a25596e0a608b88d732efdeedf9d6e1aea62638433f66f2c21095459b0d2bf170ca8"
+RPM_NAME = "libshadowsocks-libev2-3.3.5-3.2.aarch64.rpm"
+RPM_HASH = "77fbc3acc244731dba3ec22d34906f688f1b1a1fdc8d23eb834444ce6605b09c8a5ea008489b12fdb6e7aeaf2adeec3d403cdad78ad5cc410bd2cb0d60f53dff"
 
 RPROVIDES:${PN} += "libshadowsocks-libev.so.2 \
 libshadowsocks-libev2"

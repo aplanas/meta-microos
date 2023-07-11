@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "43.0"
 
-RPM_NAME = "totem-43.0-2.3.aarch64.rpm"
-RPM_HASH = "4d6a12fe767c4227d0309ebf794bc220418681bd3b73026943b54bbe3e29e5e825f60c68f9e5b3d7721e63ac4c7f771b50c9bdeefd5d22db84ca72bbf6143b3c"
+RPM_NAME = "totem-43.0-2.4.aarch64.rpm"
+RPM_HASH = "00e75be9905941f69ce20cf65e9453b9a2e0608d12e98461b9de1a0df53cebc4d3ee17cbf2d36ba7b9780f9ff72cc235e1a7b522aca5ba684614967a5793814b"
 
 RPROVIDES:${PN} += "libtotem.so.0 \
 totem \

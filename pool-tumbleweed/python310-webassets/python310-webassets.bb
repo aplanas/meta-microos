@@ -6,12 +6,11 @@ LICENSE = "Apache-2.0 & BSD-2-Clause & LGPL-2.1-only & BSD-3-Clause & MIT"
 
 PV = "2.0"
 
-RPM_NAME = "python310-webassets-2.0-3.11.noarch.rpm"
-RPM_HASH = "4b103bfaf898e7ae25b562c419eaaee8e5c2122e6feb15306c45bbfd64eb68aaca668e0fad31e21b1d22a77101842632a8e10c44566d45f2dfbd0b3eeb07fdf5"
+RPM_NAME = "python310-webassets-2.0-3.13.noarch.rpm"
+RPM_HASH = "a0e228777dcf219e419bc4219f3881babd7ee21f50e91d7b1865bb5f0d6c7de00f04132de077f5a225b067d9ab0de3cb9e5b83d58462ca9e90b47ea19af4bf44"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-webassets \
-python3.10dist-webassets \
+RPROVIDES:${PN} += "python3.10dist-webassets \
 python310-webassets \
 python3dist-webassets"
 

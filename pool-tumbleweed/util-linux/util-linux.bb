@@ -4,10 +4,10 @@ that are necessary for a Linux system to function. It contains the \
 mount program, the fdisk configuration tool, and more."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.38.1"
+PV = "2.39"
 
-RPM_NAME = "util-linux-2.38.1-13.1.aarch64.rpm"
-RPM_HASH = "29985d064be558c78735a93b83977053fa0d13b29aa939d46a15eaf2466e3b7ee27af60c121a848837faa4130949e105a9262a977079dc1c8331e7684266ee1a"
+RPM_NAME = "util-linux-2.39-1.1.aarch64.rpm"
+RPM_HASH = "12bba424b3fff88c03b2d3ad4aeb9704211333371b8ed1526a871e15346af6e52d4cd23e40723618d0779dd6433b875800e75b9f727a408c3cd11a178a21dcf5"
 
 RPROVIDES:${PN} += "/usr/bin/kill \
 /usr/bin/more \

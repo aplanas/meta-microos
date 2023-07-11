@@ -2,10 +2,10 @@ SUMMARY = "Kubevirt functional tests"
 DESCRIPTION = "The package provides Kubevirt end-to-end tests."
 LICENSE = "Apache-2.0"
 
-PV = "0.59.0"
+PV = "0.59.2"
 
-RPM_NAME = "kubevirt-tests-0.59.0-3.2.aarch64.rpm"
-RPM_HASH = "f69f7ed8b4bb341adbf7d208675e6b7bfdcb3303f7316a015e87facc1a895726840a880df69edd239ca1c3455ae5804e562b97f1f038f7bca30d9372bdf700ae"
+RPM_NAME = "kubevirt-tests-0.59.2-1.1.aarch64.rpm"
+RPM_HASH = "3a1e66877892c049ab13939ae8c55933cf02056be723943ee34b89d9a15eff313f43897663eca55487d2b2e0ed2bce93289f038eb7db17c6fbce79ad121ef10f"
 
 RPROVIDES:${PN} += "kubevirt-tests"
 

@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "1.25"
 
-RPM_NAME = "python39-numericalunits-1.25-1.8.noarch.rpm"
-RPM_HASH = "d4f1dd88f0bd338746c024b7bc58871c00adce46bfc8280f116525cc11dcefdc14f981a980a5b9f216c7788add2e21dbdbb9688dc7a81c7094da42202a7d6031"
+RPM_NAME = "python39-numericalunits-1.25-1.9.noarch.rpm"
+RPM_HASH = "92cfc5c9fbf31f59a7c0703ab8993b2cb1c613db9506196a6f0f56b4635c12f0aefd87bb139d5d8e2a867802d0df754a5d1365c450f33b850f5728320acc9325"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-numericalunits \

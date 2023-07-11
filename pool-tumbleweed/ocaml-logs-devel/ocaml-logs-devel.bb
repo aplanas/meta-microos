@@ -5,8 +5,8 @@ LICENSE = "ISC"
 
 PV = "0.7.0"
 
-RPM_NAME = "ocaml-logs-devel-0.7.0-3.4.aarch64.rpm"
-RPM_HASH = "8a5e03152a1d1ff3cb6907bedf956cf1dcf54a32a3d4d72d1b71f363d039fb1b212b11a5634b2dd0f0d1fed2857538a32eb81036eb9b89484a53a35862e75b83"
+RPM_NAME = "ocaml-logs-devel-0.7.0-3.5.aarch64.rpm"
+RPM_HASH = "4f3e14440776ff01691b732f79a8b680b4baba3ddbc3dd601ee06fe1ffe3ecfd4b21c9824d8cd9a9325469d84828bde238c01f6f5100d5ca5cc39df18052f1ab"
 
 RPROVIDES:${PN} += "ocaml-Logs \
 ocaml-Logs-cli \

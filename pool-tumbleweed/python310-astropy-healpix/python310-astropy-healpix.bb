@@ -5,11 +5,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.7"
 
-RPM_NAME = "python310-astropy-healpix-0.7-1.5.aarch64.rpm"
-RPM_HASH = "f8759f1c70434a1a4f267e7e4d8a6e3aebb6e4fdf53860dd703adad736c03047de4125e82b00f1ca47fc5096b3342f5a71079ccc535271709e504710e0153d0f"
+RPM_NAME = "python310-astropy-healpix-0.7-1.7.aarch64.rpm"
+RPM_HASH = "66d28a9a6cbc58debd6b2f645133ff23764dc0d8b08add78ff29ce795ef07b3e84f8aa52130914727d5a172fb459cd0cc98c74be620403251718bdc3cc59071f"
 
-RPROVIDES:${PN} += "python3-astropy-healpix \
-python3.10dist-astropy-healpix \
+RPROVIDES:${PN} += "python3.10dist-astropy-healpix \
 python310-astropy-healpix \
 python3dist-astropy-healpix"
 

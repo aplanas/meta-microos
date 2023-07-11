@@ -6,11 +6,10 @@ LICENSE = "MIT"
 
 PV = "0.19.0"
 
-RPM_NAME = "python310-watchfiles-0.19.0-1.1.aarch64.rpm"
-RPM_HASH = "194558d08d8532cb78dba3c4e78c1f6f0c0be2faf6220211ab4ac5d015e4c1b20eaf20e6efabecfe45d1d83c0020d14d3ad5d006413e80577c53acc646e8d03b"
+RPM_NAME = "python310-watchfiles-0.19.0-1.2.aarch64.rpm"
+RPM_HASH = "7a5148f90e2418c31b2a3a81a218e71045cc4abc5c3bc7c4673b18177ed09989e44a4a38eeee8c3fa08757e45e4737898055a70dd1c018d9b456bd0a2986467e"
 
-RPROVIDES:${PN} += "python3-watchfiles \
-python3.10dist-watchfiles \
+RPROVIDES:${PN} += "python3.10dist-watchfiles \
 python310-watchfiles \
 python3dist-watchfiles"
 

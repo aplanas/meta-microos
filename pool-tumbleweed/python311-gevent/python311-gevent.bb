@@ -18,10 +18,11 @@ LICENSE = "MIT"
 
 PV = "22.10.2"
 
-RPM_NAME = "python311-gevent-22.10.2-2.1.aarch64.rpm"
-RPM_HASH = "44d4ab94bb6ef9a9e70333b7db0347afa43210e8d5f7c02ba442ac558888c56b1aaeb70291ff7570cae1fb38a15f0edd1530400c9a71a9e56b331665b56672b9"
+RPM_NAME = "python311-gevent-22.10.2-3.2.aarch64.rpm"
+RPM_HASH = "04381e6526be59fca909d953f3b359eeedcfe3edcad847d7759c4349c4cd751bd1a93e9c3a83f5e5d4cf13069a346cf4690123a55b8511100fcc189914f4092a"
 
-RPROVIDES:${PN} += "python3.11dist-gevent \
+RPROVIDES:${PN} += "python3-gevent \
+python3.11dist-gevent \
 python311-gevent \
 python3dist-gevent"
 

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.6.0"
 
-RPM_NAME = "libqrcodegen1-1.6.0-1.12.aarch64.rpm"
-RPM_HASH = "7448052823b09d4aaa362517c242e21ba5d53f7f662307d0997babdd3a4b2b11f4825309965ca5016aa7726372fb9f9a301e97b8a450870d4dfc3985cc30efa1"
+RPM_NAME = "libqrcodegen1-1.6.0-1.13.aarch64.rpm"
+RPM_HASH = "9b380542422a15cb4fc9c6cecd5123b06d9c7a849b7144ca3aa18f9681a4934ed05e3a09f24173d6fe21a0ee42fd0e168c75ea188d3c0afee68c3fe8e9ee98af"
 
 RPROVIDES:${PN} += "libqrcodegen.so.1 \
 libqrcodegen1"

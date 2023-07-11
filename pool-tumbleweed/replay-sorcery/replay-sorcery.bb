@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.6.0"
 
-RPM_NAME = "replay-sorcery-0.6.0-2.6.aarch64.rpm"
-RPM_HASH = "a64860bd3d370e6a3e951a178a3fbd632c66dd9e34663d11f07a582a22484419ff027e969d861ba523b6807971cd4490c57130a2344f9e9b8373fa3c9d8f564d"
+RPM_NAME = "replay-sorcery-0.6.0-2.7.aarch64.rpm"
+RPM_HASH = "82e569b31c2de2fa1c25f6582c967e47f6340a6914f38c1f79d90d4c39aebb7909fa96f9fc6d60be4eb9cc1c275c16aecc78fda97d61478094eee839339cece6"
 
 RPROVIDES:${PN} += "replay-sorcery"
 

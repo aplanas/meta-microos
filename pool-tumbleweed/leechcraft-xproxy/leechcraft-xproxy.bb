@@ -5,8 +5,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-xproxy-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "44fb0a46335aa628c4bef8bc48635526b4f30acd3f4307d931a82ac8e0d29477f4d5f29ed1b896cc1db5d7dc96aadaba803cf4a75b9f7c271aed2d08ba4107de"
+RPM_NAME = "leechcraft-xproxy-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "812c4282aa2c29f497970d68f8ce6e829e4bb28a9a8a48c72d9413251078c169419d6af57fa8f96596cbb1ebce79c491d77e8d80f1d5d8017c8a7ce257dea98a"
 
 RPROVIDES:${PN} += "leechcraft-xproxy \
 libleechcraft-xproxy.so"

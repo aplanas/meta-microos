@@ -9,13 +9,11 @@ LICENSE = "Apache-2.0"
 
 PV = "8.1.0"
 
-RPM_NAME = "python310-pytest-testinfra-8.1.0-1.1.noarch.rpm"
-RPM_HASH = "93b0f58fd0317949a5dd01c026297a17350b675273880797b8a5bd0de8f5b69266b320f2a474d267b1836a1f8249f7d8745c4d6aecca55f81a0cb84883204a6d"
+RPM_NAME = "python310-pytest-testinfra-8.1.0-1.2.noarch.rpm"
+RPM_HASH = "3c9378ce19bbd77a680f5eb94159135995f2a27a86ce6f3cab5415ed9bb099d14818f1af8a617c14a051988a60c06ee55e4a5876e504539adbaaf0add2690b71"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pytest-testinfra \
-python3-testinfra \
-python3.10dist-pytest-testinfra \
+RPROVIDES:${PN} += "python3.10dist-pytest-testinfra \
 python310-pytest-testinfra \
 python310-testinfra \
 python3dist-pytest-testinfra"

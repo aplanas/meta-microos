@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-cherokee-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "e7ca8ea95a6f1aeedd33693c703c17be08aa2a6663ee4d501ea9f85171c9cac079b3d965fa761f66c2c6bf18c72abe24650a040e305f4b559a449035ec9ac2d9"
+RPM_NAME = "noto-sans-cherokee-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "21cbcf57d28d4ca077d7066c20a3033d18bc1bb835a5ff5d6044608d9683ce2acbc4f5adf3b410a6e4b0e2b35a4b719d224683b304828c7fd620a34e691a0412"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-cherokee \

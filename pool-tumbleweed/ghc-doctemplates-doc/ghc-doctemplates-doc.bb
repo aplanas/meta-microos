@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.11"
 
-RPM_NAME = "ghc-doctemplates-doc-0.11-1.2.noarch.rpm"
-RPM_HASH = "b957894f9772516fc93c2ae017616a6859e378491c20fc3822fef9f04472696c07c4c5990f5705ae5440432f0c7b031e88214ee871674e823bf0579b85cfbcea"
+RPM_NAME = "ghc-doctemplates-doc-0.11-1.3.noarch.rpm"
+RPM_HASH = "76454439d49b962441b05f2e1b430587df4e707e4df28a2c2af281b757735ccff26c366d39e8dc530e9ce7b22c0e4ea3ef552e0276c07715770bb4a01be7c6f6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-doctemplates-doc"

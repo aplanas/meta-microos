@@ -16,11 +16,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.3.1"
 
-RPM_NAME = "python311-IMAPClient-2.3.1-2.3.noarch.rpm"
-RPM_HASH = "9840ba42677f642878a63cfe3e82f267cdf6bae39349a52fc4fedb772f311aa4d933eb7d3ca1bee1be5290312803998ce684cce3bc20dbd805f1924bb58cdf53"
+RPM_NAME = "python311-IMAPClient-2.3.1-2.5.noarch.rpm"
+RPM_HASH = "2fe3f0519b5b1f64877e905cba22eece8a4d52ea11e85fe2153f85d2b0d145d4cb3eba8f742f07df89ade73c0567f818170713f4c7b30719bd90bc7e25d28999"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-imapclient \
+RPROVIDES:${PN} += "python3-IMAPClient \
+python3.11dist-imapclient \
 python311-IMAPClient \
 python3dist-imapclient"
 

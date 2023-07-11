@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.1"
 
-RPM_NAME = "libmysofa1-1.3.1-1.4.aarch64.rpm"
-RPM_HASH = "70c1d98d07d7e455abed3fd885b6c4b18ac4134ce761694ceb0e6c27a4dd373eeed8e77647519f8971ae229cb2ad94ad827e000a369f2b523f812379c66b2489"
+RPM_NAME = "libmysofa1-1.3.1-2.1.aarch64.rpm"
+RPM_HASH = "466442f58edc9bd147d46f337d319316f3b36ab754965a47e5dc02e6274f66b8dbd65e3f32a4d4cafd7d02d0d4334569e50ae617d8f13c5d4137589a4f6df399"
 
 RPROVIDES:${PN} += "libmysofa.so.1 \
 libmysofa1"

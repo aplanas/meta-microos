@@ -4,8 +4,8 @@ LICENSE = "MPL-2.0"
 
 PV = "2.2.0"
 
-RPM_NAME = "kea-devel-2.2.0-2.4.aarch64.rpm"
-RPM_HASH = "e065a0da1107d67f68ee81b0f2cfc3dd0ed390c1fc95cac49080c6c6bd74d456ac644cf8b39d8da4795d24ca91538577fb0b6a3858c02acc7f63c5de57f4f95c"
+RPM_NAME = "kea-devel-2.2.0-2.6.aarch64.rpm"
+RPM_HASH = "071e6296ecbd655d6ea8907ec4726fbde10449ea3e0f495802513f68cf96d49dfb20f903533d3cc1abf7f73584854f28884a1eec2b5fb75871bf7d911aae09f1"
 
 RPROVIDES:${PN} += "kea-devel"
 

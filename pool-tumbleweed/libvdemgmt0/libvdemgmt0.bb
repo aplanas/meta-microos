@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0"
 
 PV = "2.3.2+svn587"
 
-RPM_NAME = "libvdemgmt0-2.3.2+svn587-3.23.aarch64.rpm"
-RPM_HASH = "0a1dbcf17cb23f17396a218e8b60e6cc2b8adcfca6223d64937bd51b3dfe3623db6622327dd13d41729da292780a52ac889b3c9b16b4f5899270d71c6fdb6d98"
+RPM_NAME = "libvdemgmt0-2.3.2+svn587-3.24.aarch64.rpm"
+RPM_HASH = "2c54dc92678c61dc42a09a3ef608c7108884679f0a8e7e08eb83b25539090c7226b2e9ddcac4667027e00848612b5790f1a18eca29b532abfeb7b19c171328ad"
 
 RPROVIDES:${PN} += "config-libvdemgmt0 \
 libvdemgmt.so.0 \

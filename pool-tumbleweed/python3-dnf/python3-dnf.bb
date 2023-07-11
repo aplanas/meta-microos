@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & GPL-2.0-or-later"
 
 PV = "4.14.0"
 
-RPM_NAME = "python3-dnf-4.14.0-3.1.noarch.rpm"
-RPM_HASH = "22a1c7da52b4aab6c4dca1c5004bd8ca8b70dca945f7b625b27b9868bbc6313d407981d49b4a8effdd1e209292bab953ac8cfb2a9e1d48218412908e695115de"
+RPM_NAME = "python3-dnf-4.14.0-3.2.noarch.rpm"
+RPM_HASH = "fa4b37732cf7b3d7f6866ca2feaf8d7c1b2ec3821667f76e22289a86ffcb15510bf5ab37b550e76ce0d9c8da183f96c8eb79be98d3102caa71cf13dfe22d7dc7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-dnf"

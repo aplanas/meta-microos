@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.1.4"
 
-RPM_NAME = "nco-doc-5.1.4-1.4.noarch.rpm"
-RPM_HASH = "f596e1e750bbf6ff22d07280972df09e096704c999b2b49277b30d8b44e785bbe0facf54c7cd6de308e70ecab7d0ca386b23d475f32c9319833a08c63e23e8c8"
+RPM_NAME = "nco-doc-5.1.4-1.6.noarch.rpm"
+RPM_HASH = "c3b31f6cca0fb450c5fea23a6de01ac9d78b295d59e9ec50004907f7f39fb725bfa831597f261be65ecae1b42c80fea8c0fb9bd047735c4c1b856829505ad16e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nco-doc"

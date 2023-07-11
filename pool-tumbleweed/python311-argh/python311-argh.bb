@@ -19,13 +19,14 @@ can be mixed. Keep in mind that argh.dispatch does some extra \
 work that a custom dispatcher may not do."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "0.26.2"
+PV = "0.28.1"
 
-RPM_NAME = "python311-argh-0.26.2-5.6.noarch.rpm"
-RPM_HASH = "291332ef2082cc0637e9014b5655a03db4b75a43bef2cf09e0706f892a56076c1cca3b4220337c0ed260ccb3c318524c4928b2c62b11b813fe148300f53ce9b3"
+RPM_NAME = "python311-argh-0.28.1-1.3.noarch.rpm"
+RPM_HASH = "8a1ae6cbe433ad99625daf371d431be611c8df53dd5a002c57e9a92d2bff3f692b6d598a0238bbd7a8f4d98a6d64ae679f12c2f4459798e1893bc1cf2dcd3c92"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-argh \
+RPROVIDES:${PN} += "python3-argh \
+python3.11dist-argh \
 python311-argh \
 python3dist-argh"
 

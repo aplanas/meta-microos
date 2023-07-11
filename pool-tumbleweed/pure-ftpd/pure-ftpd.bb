@@ -11,8 +11,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.51"
 
-RPM_NAME = "pure-ftpd-1.0.51-2.1.aarch64.rpm"
-RPM_HASH = "55e7130e7537a39ae9da66e141c6407a63f54196f1e121853b5e1a45b76570b504ac346aa18600c77e3fa8f7c36121a036aa71eb2336902ae3644fa697625336"
+RPM_NAME = "pure-ftpd-1.0.51-2.2.aarch64.rpm"
+RPM_HASH = "ce4c7607a68347f56d5c3088a6f66751222f4b46f7ecbce3f12b5e923105074b9accfe3aac0daeff1c0f2fbfbbc1548396c792a11acd12b8ddc8f5574351147f"
 
 RPROVIDES:${PN} += "config-pure-ftpd \
 ftp-server \

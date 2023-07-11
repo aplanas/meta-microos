@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.1.3"
 
-RPM_NAME = "appeditor-lang-1.1.3-2.4.noarch.rpm"
-RPM_HASH = "c78eb74e0af4fb3bb213a79920227f39f16336c0b63e1728f39c04f238942c3c9c108d5982571bdb0ebbdf5fb40e56d3b5e5b9ecf8855cdc64a999c58c2896eb"
+RPM_NAME = "appeditor-lang-1.1.3-2.5.noarch.rpm"
+RPM_HASH = "04d32fc23c63a13321124dd54c5f7fcd0a7c17f8c2d724a671f641c0e9ad5c10c8f4d730c3d497f2cdc2c36b553da5a63999459324062f8502671ac7ea83229e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "appeditor-lang \

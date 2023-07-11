@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.3.0"
 
-RPM_NAME = "lxqt-config-1.3.0-1.1.aarch64.rpm"
-RPM_HASH = "4bddef414040e96f76943011088b32d7cf9cd4b504d2ce4d5c3784dbca73e15017d3cf0d89ba06084cab780186eb535bb7258024f608eb5217a108c2a6618d19"
+RPM_NAME = "lxqt-config-1.3.0-1.2.aarch64.rpm"
+RPM_HASH = "631486e7b4a268dc917bb2cc95355c0f752df1c9c39468ecd6a0e373c9bedc3416bda83f059c8a7cc6b4968d02e976acc1076b9e0c2997b9a7b9dbbff66b1190"
 
 RPROVIDES:${PN} += "config-lxqt-config \
 liblxqt-config-cursor.so \

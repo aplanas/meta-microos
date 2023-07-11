@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-multimediaquick-private-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "de046c482dab0a059a986555ce8ff45aa7081eb479e3d2bb9361c59863c3e8c866bdb431b9b9b100df5bc1e03a696267d33e0e50c862d34bae0340bd4a3737d2"
+RPM_NAME = "qt6-multimediaquick-private-devel-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "784d6cc425de41e1aca1e95c5e4076392003f838dd22736f08530af0d5479e094e4ed1a8aa888e89bc728f42033b7926d2606c2a91cd3d5a5e08003fe707aba2"
 
 RPROVIDES:${PN} += "cmake-Qt6MultimediaQuickPrivate \
 qt6-multimediaquick-private-devel"

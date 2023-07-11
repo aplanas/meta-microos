@@ -5,10 +5,11 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20230320"
 
-RPM_NAME = "python311-libsmraw-20230320-1.3.aarch64.rpm"
-RPM_HASH = "80092bf873c45736f7171e91dd998e99096824bae1a1a44d08d0d2d0b6db3534357f21fc00fdcba6dfb6738ce77effb1f7bdbe61e3feecc18740a4679d336ec1"
+RPM_NAME = "python311-libsmraw-20230320-1.7.aarch64.rpm"
+RPM_HASH = "f90d334a18ec0423ea4a7db4d9b59fe9c663fa18214ece9ae586859e1a175871c03770509d635bfe0cdfbc24c38c451737356c34684601622ce87b916d807d1e"
 
-RPROVIDES:${PN} += "python311-libsmraw"
+RPROVIDES:${PN} += "python3-libsmraw \
+python311-libsmraw"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libbfio.so.1 \

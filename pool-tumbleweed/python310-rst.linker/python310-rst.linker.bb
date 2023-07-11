@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "2.4.0"
 
-RPM_NAME = "python310-rst.linker-2.4.0-1.1.noarch.rpm"
-RPM_HASH = "b2e2330ebe1149808ebae601cd2440d60e1eb3eff0b3c7a39091edbfbf8b2c78547fcca6faa403d2063238d4520a45eca5aaf5046f0e05340a76e61accb921a4"
+RPM_NAME = "python310-rst.linker-2.4.0-1.3.noarch.rpm"
+RPM_HASH = "acdef15318f698f4f1cab36f8f26824bf065494b0eba9fb4b940413d8d02ad4b3fb735dbdacc691d2f7dd1a4337e9fc0865a54e8a958f495f829a5356522c411"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-rst.linker \
-python3.10dist-rst.linker \
+RPROVIDES:${PN} += "python3.10dist-rst.linker \
 python310-rst.linker \
 python3dist-rst.linker"
 

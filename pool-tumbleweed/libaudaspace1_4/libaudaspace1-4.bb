@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.4.0"
 
-RPM_NAME = "libaudaspace1_4-1.4.0-1.4.aarch64.rpm"
-RPM_HASH = "3929923a51bf634606c3b2ca6cecd31656f364b6652f29f1f19d1c1f70fa496114ce8facd3183a0a3fc57b4a0a4044455c0d5852f821f7b5c173871664874779"
+RPM_NAME = "libaudaspace1_4-1.4.0-1.5.aarch64.rpm"
+RPM_HASH = "0b28775eabb6e954f1b0de7b98f7ca7e155bd81c9c66e06772add8784f537ac4b7891c30a21eef77af09ac586c534fd5904f4325925e0b37713dd0b49f0e2e93"
 
 RPROVIDES:${PN} += "libaudaspace.so.1.4 \
 libaudaspace1-4"

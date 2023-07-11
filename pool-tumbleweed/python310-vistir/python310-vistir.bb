@@ -5,12 +5,11 @@ LICENSE = "ISC"
 
 PV = "0.8.0"
 
-RPM_NAME = "python310-vistir-0.8.0-1.1.noarch.rpm"
-RPM_HASH = "0935d33f8842662f688dc70cee226efeb73e78fd1517105062f5bd2c6958b7b7052d0499bdd3dfa8ccdb7c0a4352f07234a6001856349dbe83e905b4bec8432e"
+RPM_NAME = "python310-vistir-0.8.0-1.3.noarch.rpm"
+RPM_HASH = "9bd8827bb42259a96a4140754e51ee1cfdcf4ca4605beea4b42a13ae889345ec4e95f38a2a581e974e5c40964d2e45bea6e06989739e98d1ac6522c1d7324d13"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-vistir \
-python3.10dist-vistir \
+RPROVIDES:${PN} += "python3.10dist-vistir \
 python310-vistir \
 python3dist-vistir"
 

@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & GPL-3.0-or-later"
 
 PV = "1.9.9"
 
-RPM_NAME = "indi-1.9.9-2.2.aarch64.rpm"
-RPM_HASH = "3ffe106fd02860c8ec966f63902c08a89426d6d66569088d248009ca642cf59fd70e840a0fb6d4e72a63c0a9bb41a131da547141034aaf6ca3ea05884f4cb3fb"
+RPM_NAME = "indi-1.9.9-2.3.aarch64.rpm"
+RPM_HASH = "27f798cb2749c91e3be5cb4fbf5381c92e2338edfb8f40ea55cb81d9a33848ba700b31c477f13520609012bc60c165a6a154d250a7cfef9b3e59c704bc1ca1b9"
 
 RPROVIDES:${PN} += "indi"
 

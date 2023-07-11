@@ -4,11 +4,12 @@ LICENSE = "ISC"
 
 PV = "0.7.1"
 
-RPM_NAME = "python311-requestbuilder-0.7.1-1.15.noarch.rpm"
-RPM_HASH = "a62d646ab8735471f8a2f7721429ce596559911f0832834aba83f8e82d43860a40cc2116e6a5245c9d4730967751feae75b97c1b9dcc8cc9c39409dd7e9d4a98"
+RPM_NAME = "python311-requestbuilder-0.7.1-1.17.noarch.rpm"
+RPM_HASH = "3f971087769fb6f94ce6502b54f84360e3eeb248dccf1ba2a71ca1da489b0210da79483fd9954f5f97e87abcef383436c0a96292dc04f39cf07e0c0d13da3b65"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-requestbuilder \
+RPROVIDES:${PN} += "python3-requestbuilder \
+python3.11dist-requestbuilder \
 python311-requestbuilder \
 python3dist-requestbuilder"
 

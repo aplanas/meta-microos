@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.7.7"
 
-RPM_NAME = "libdmtx-devel-0.7.7-1.4.aarch64.rpm"
-RPM_HASH = "7778fd73728a9be38f01fb4d2897674041a7479d4f6e510435db4aa3cdc9f778f8653b38d03f983aa9e97bb6126549bde5772d93e7108862f582ba3f54514796"
+RPM_NAME = "libdmtx-devel-0.7.7-1.5.aarch64.rpm"
+RPM_HASH = "e6ce66fb03defe8edd517f17a3cf82b3c0dc240c55965082847971716769f0bbcd7ac2dcf449d8e591d7c7030f5bec1b68bd3b71b44c8980b2060a4fc0a19f7a"
 
 RPROVIDES:${PN} += "libdmtx-devel \
 pkgconfig-libdmtx"

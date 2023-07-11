@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "4.6.0"
 
-RPM_NAME = "yast2-ldap-4.6.0-1.3.aarch64.rpm"
-RPM_HASH = "5ecad06ed54fbb1392f5deb5410b3dee21f2c39e132048038d8f5786806eac8caa0b7b946fa0d7cf2ed1a3da9763c0ce5d4e362596d0c11368d9588f446b1256"
+RPM_NAME = "yast2-ldap-4.6.0-1.4.aarch64.rpm"
+RPM_HASH = "fd30e98491285023e311d1fd1306d75078e111fd420ebd3d00113d74bde805fd014a43e81cb54691ba7b4825f290e5a4545e3b2e16a88322d5f12639b5498921"
 
 RPROVIDES:${PN} += "libpy2ag-ldap.so.2 \
 perl-LdapServerAccess \

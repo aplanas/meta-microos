@@ -2,10 +2,10 @@ SUMMARY = "Python plugin support for trace-cmd"
 DESCRIPTION = "Python plugin support for trace-cmd"
 LICENSE = "GPL-2.0-only"
 
-PV = "3.1.6"
+PV = "3.2"
 
-RPM_NAME = "trace-cmd-python3-3.1.6-1.3.aarch64.rpm"
-RPM_HASH = "6861660214c178a4e3aa4d404a4399e52cc2687ad4e94a00153c19aa034f6f45f7685856e8157aecdb745f14526194331de81580c605a56b2a4dc8ed54dc9e94"
+RPM_NAME = "trace-cmd-python3-3.2-1.1.aarch64.rpm"
+RPM_HASH = "00316b3aac2779be948b63e26c7c2e519addd2b44c8c26cf8128c467cbc596c4a2881fb0e348a1f8190c0e68e076b0230595ebfd3ca4a6515b03fbdf6c61d15b"
 
 RPROVIDES:${PN} += "trace-cmd-python \
 trace-cmd-python3"

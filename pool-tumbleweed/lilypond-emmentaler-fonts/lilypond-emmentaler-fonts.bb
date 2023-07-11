@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.24.1"
 
-RPM_NAME = "lilypond-emmentaler-fonts-2.24.1-2.3.noarch.rpm"
-RPM_HASH = "2ffe960ff5f2bcb1035b126901b3edab829d1dc080275959c01695b807e5b97fe430cec8d7cc2ba6a4b5de2009ab739e359e648e0c8aae2d0fc6fce454238ae8"
+RPM_NAME = "lilypond-emmentaler-fonts-2.24.1-2.4.noarch.rpm"
+RPM_HASH = "f862059e44fdfe25846f9293ab694d0916bdcac8c5b638588dd244fc44a7c804b10cb710dc443071797a4ad8acbe51d124e521c2f4d2aecd7f39d83a661d5b33"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-emmentaler-11 \

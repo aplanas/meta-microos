@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.12"
 
-RPM_NAME = "opusfile-devel-0.12-2.3.aarch64.rpm"
-RPM_HASH = "43a7c79c1e78711a158ca5088e722cf0c04bd4e77f0daad60195ec51bb87597cab1f08afb8e25ecd588f9ca4f96f13cd3301d3f8011f5ced6cced6bb8037eb3d"
+RPM_NAME = "opusfile-devel-0.12-2.4.aarch64.rpm"
+RPM_HASH = "15994b607f554391d7adb38a469383536849cb24deb23729014d4c1b392806dc7a1085864a2c6633dec38f3a2ed4caa1bd31b5c4ee9eaa60a86b73da5f2ba42c"
 
 RPROVIDES:${PN} += "opusfile-devel \
 pkgconfig-opusfile \

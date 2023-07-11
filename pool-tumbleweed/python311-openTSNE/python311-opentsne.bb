@@ -4,10 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6.2"
 
-RPM_NAME = "python311-openTSNE-0.6.2-1.9.aarch64.rpm"
-RPM_HASH = "d44cfcb3b7599ab875781389bdb5087827d277d957d53ed082195760448f60b6f904f49b5833a7393c4053383384dbe89b557c515341ab7386f33e3220c23b14"
+RPM_NAME = "python311-openTSNE-0.6.2-1.11.aarch64.rpm"
+RPM_HASH = "383eb136c938b6ba144da0d48d9b7689e27cdf804fa249de9f671ca9395a263cbc669e699da6e91c64b683ad3a9f1e27fa33603f6b234dee76f87faa50ba7df7"
 
-RPROVIDES:${PN} += "python3.11dist-opentsne \
+RPROVIDES:${PN} += "python3-fastTSNE \
+python3-openTSNE \
+python3.11dist-opentsne \
 python311-fastTSNE \
 python311-openTSNE \
 python3dist-opentsne"

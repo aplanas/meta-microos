@@ -14,12 +14,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2.0"
 
-RPM_NAME = "python310-joblib-1.2.0-1.3.noarch.rpm"
-RPM_HASH = "7402c6c1e3dfa3b26d5fe47248c9f404f4e3d0c164b97575fef1c4ea2d0d8f7bd04c98944f3a371a3129fd455c65248e8a099dbd7abd6760c8046566340b2296"
+RPM_NAME = "python310-joblib-1.2.0-2.3.noarch.rpm"
+RPM_HASH = "ba414fc14983ba2307a121e923397384a80b81db32d89b04aa1d9d6d596b3a1dd6c5fe60a4322f831306757c280ca9ac0308801828f271ee21d25cb3af063643"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-joblib \
-python3.10dist-joblib \
+RPROVIDES:${PN} += "python3.10dist-joblib \
 python310-joblib \
 python3dist-joblib"
 

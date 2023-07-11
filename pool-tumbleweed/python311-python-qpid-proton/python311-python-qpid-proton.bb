@@ -6,10 +6,12 @@ LICENSE = "Apache-2.0"
 
 PV = "0.38.0"
 
-RPM_NAME = "python311-python-qpid-proton-0.38.0-1.4.aarch64.rpm"
-RPM_HASH = "8c55c965df8d5109eff05a6e8668c0dfe47572f5cf43a597a2a2e6ba99e97e9f0eb8451bf1338b3fc317d409fbe57c173f9629fe60898a329db2318409ac7ee0"
+RPM_NAME = "python311-python-qpid-proton-0.38.0-1.6.aarch64.rpm"
+RPM_HASH = "54afe18de9395f3e1d3f7a20c9c753ef0902b235e3330e54fc516617e8c99cb7b760e08cf2d57ede8aee09aa3ee5a13cfd31e3692a1ab8347f78d43c28db8ff4"
 
-RPROVIDES:${PN} += "python3.11dist-python-qpid-proton \
+RPROVIDES:${PN} += "python3-python-qpid-proton \
+python3-qpid-proton \
+python3.11dist-python-qpid-proton \
 python311-python-qpid-proton \
 python311-qpid-proton \
 python3dist-python-qpid-proton"

@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python39-azure-mgmt-newrelicobservability-1.0.0-1.1.noarch.rpm"
-RPM_HASH = "bc199a5b14922797b9bbb7882c25db410be976049d40aa0294a517fe4a2a2b3c519d4a5b9ceacb66b50bcca2ba3e22a697a858c680534cd991c1ab0936a6e7b2"
+RPM_NAME = "python39-azure-mgmt-newrelicobservability-1.0.0-1.2.noarch.rpm"
+RPM_HASH = "b88991e6f5546692fab14393c285d5a670df75692167742d400e3ccbc4acf6125cde53991f929f7a611ef3cf7d83cfc5cc24a6d1cd6dd486d3e6d2d3c545e427"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-newrelicobservability \

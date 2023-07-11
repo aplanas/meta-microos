@@ -10,10 +10,10 @@ one-liner defining the name \\MakeRobustCommand as an alias for \
 documents."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0svn52811"
+PV = "2023.208.2.0svn52811"
 
-RPM_NAME = "texlive-makerobust-2023.201.2.0svn52811-52.1.noarch.rpm"
-RPM_HASH = "57629d13820306338369d8780b74e3f180397d61cfaa15138be5057a70cb92e122cbdbecae705bfb724cd247ab6378ac3fd85bbfc33262197b24f749a3f33be7"
+RPM_NAME = "texlive-makerobust-2023.208.2.0svn52811-53.1.noarch.rpm"
+RPM_HASH = "27962f69a99257de37e65d9f94d3ae5e2f4a8711f795fcb23e9d1d205a9395be6afde8c54ef66be412189b8037a2a3df56f3471a85eaaddaeac3378ed6d79553"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-makerobust.sty \

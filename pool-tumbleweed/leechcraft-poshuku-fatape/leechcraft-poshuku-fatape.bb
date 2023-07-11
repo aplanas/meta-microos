@@ -13,8 +13,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-poshuku-fatape-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "55a8e3f0535929109a2499e5e30566c410342154b36ce8845d35f3f8d5ff0a4c273abaf95675d3c88a871e081a461d07beb08981e9a635280e59d299414110a9"
+RPM_NAME = "leechcraft-poshuku-fatape-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "0be3e20f782ff2ec4234094c2e7a0dfec53568f90171e48f0fadfa599b5353049fb63c6a79861f7a8457c19a87f0cda964cfc8671770e4599a96357e4abdacf1"
 
 RPROVIDES:${PN} += "leechcraft-poshuku-fatape \
 libleechcraft-poshuku-fatape.so"

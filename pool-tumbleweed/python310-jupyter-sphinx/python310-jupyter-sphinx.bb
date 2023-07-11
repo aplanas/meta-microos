@@ -4,13 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.0"
 
-RPM_NAME = "python310-jupyter-sphinx-0.4.0-1.5.noarch.rpm"
-RPM_HASH = "f69b9a3328fbe0542ad51a86751671f8a30be33e0a42a258a210a11996b30c4432772aef5d0718ab9a4ab620bea35bd45dc266d4d89a8b56c38b7644f9eb296e"
+RPM_NAME = "python310-jupyter-sphinx-0.4.0-1.6.noarch.rpm"
+RPM_HASH = "f239ab6386c9639e0a8e9dc68b9acdd08c622d766f02e5d94bfe493c98ad5c3a4fcffbb48ffd3664ef3481ac8b2337e689965fe9d8a209a3a94c314e8c172366"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jupyter-jupyter-sphinx \
-python3-jupyter-sphinx \
-python3.10dist-jupyter-sphinx \
+RPROVIDES:${PN} += "python3.10dist-jupyter-sphinx \
 python310-jupyter-sphinx \
 python3dist-jupyter-sphinx"
 

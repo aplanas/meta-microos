@@ -22,8 +22,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.9.18"
 
-RPM_NAME = "irda-0.9.18-233.8.aarch64.rpm"
-RPM_HASH = "a8232c22973f46f4a9867209b49d11e3dee1db404466ac13308d95e238a3fdbb348681bb98f5f0e63194f3f8bedd6a9be98be8a1059e4162d6616fdad096f2a2"
+RPM_NAME = "irda-0.9.18-233.9.aarch64.rpm"
+RPM_HASH = "da4ce52b43d852edf80aa535eb5d4dfe1e37cf9c41abf1deea0eaacab66dd080a651e3f0c46453104d8158324287dbfd924816eb87c7b7f75fd9ba5a7d4deeec"
 
 RPROVIDES:${PN} += "irda"
 

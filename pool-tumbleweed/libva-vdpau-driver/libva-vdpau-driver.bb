@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.7.4"
 
-RPM_NAME = "libva-vdpau-driver-0.7.4-7.11.aarch64.rpm"
-RPM_HASH = "6ab6532adfd6603617664f76aa9824411541861b3b494089463b0ecbbe990f2490f405dc7911553285a6f3fe22ee7355ace8bec4778879d02a450a89b4a2c12b"
+RPM_NAME = "libva-vdpau-driver-0.7.4-7.12.aarch64.rpm"
+RPM_HASH = "4897504a68955366c06a032a691fe0e4dd562a4a77409f4fc279c6d683f1e72b1ed71fc53b765bb555853410eb1e87ef7374b944d13a7e4876878e300ccedf30"
 
 RPROVIDES:${PN} += "config-libva-vdpau-driver \
 libva-vdpau-driver \

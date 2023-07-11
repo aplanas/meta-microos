@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.201.3.13svn64721"
 
-RPM_NAME = "texlive-eplain-2023.201.3.13svn64721-53.1.noarch.rpm"
-RPM_HASH = "2473709a3799dbc16369a897f3523f010de23690f48589b282ced576021ccd0f19e09d31cb2fcced38c2c0cf7a6793076972df87e428a495b7ee3e7bb5db4b3a"
+RPM_NAME = "texlive-eplain-2023.201.3.13svn64721-53.2.noarch.rpm"
+RPM_HASH = "99f340e95fa0924656fbe62b87d1ac0041d83a1af045cf06db2d7495e82b391bbe607e55cf366e0449d08ab1dfbf9ca3dde7263af3edf0e0413c77f9b52d84b5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-arrow.tex \

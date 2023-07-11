@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2023.04"
 
-RPM_NAME = "u-boot-mvebudb-88f3720-2023.04-2.1.aarch64.rpm"
-RPM_HASH = "3c8f7068645ad979f9589d1bb9ee5f35ff71157ebd75dfded2c55ec39f3e5eee903c2be7d1143a3c1aface6e80be66bc8bab94dcbf20e6ec2bee5ce9dd09f672"
+RPM_NAME = "u-boot-mvebudb-88f3720-2023.04-2.2.aarch64.rpm"
+RPM_HASH = "4043c807498561dc8b9836aeed0a4831eea9e1788c58beda08c5b3cd06140b6b7190885d89ddced1ccf0f0d6778b6813db12ce4c5a48da67f7c08aa400c2b791"
 
 RPROVIDES:${PN} += "u-boot-loader \
 u-boot-mvebudb-88f3720"

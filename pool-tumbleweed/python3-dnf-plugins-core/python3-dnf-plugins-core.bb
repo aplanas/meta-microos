@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.3.1"
 
-RPM_NAME = "python3-dnf-plugins-core-4.3.1-2.1.noarch.rpm"
-RPM_HASH = "f5caa873b6742e19b2d1bdc8f39207570b2db7f2a52b24bb59cdd084354479b15b71720174e241ebcc6134b0333e027b4f8c528628d22573ca69455656ab380b"
+RPM_NAME = "python3-dnf-plugins-core-4.3.1-2.2.noarch.rpm"
+RPM_HASH = "993792119acca5ba8baf3fedc185dee682c26f7a27f8a8a8c6337c8bdb40b2910feb71dd6f01312a1d7b6c1dbab422e5cfa9b874ccba079277a1ce870e855dd0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-dnf-plugins-core \

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.0.17"
 
-RPM_NAME = "python3-dnf-plugin-showvars-4.0.17-2.1.noarch.rpm"
-RPM_HASH = "0c7509a0081f043ed1e31b003256f77bf5021217010034fe9ed5de87cb15b27e74b61542ff34114b9dce081b2b87888ed524c4ae1b001db693719ceaaa618b6a"
+RPM_NAME = "python3-dnf-plugin-showvars-4.0.17-2.2.noarch.rpm"
+RPM_HASH = "87915ab665aa7bb4460a1a7550d9a5f7363bd8940eac5e996a70d1fb4f84ad1deb30bb6a4fbb7d4efb86d1920daf2767b6da82b61c1aa2bbd0f465f457f8a9fe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dnf-plugin-showvars \

@@ -4,11 +4,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.1"
 
-RPM_NAME = "python311-mkdocs-bootstrap-1.1-1.8.noarch.rpm"
-RPM_HASH = "3742a0d49f36152fa2f62f9e3dd63c7e998d9ef9ce91d4787c261cb6ab3905a245618dcbca3e258a36976d11a9a0bffbf098bfbebb3735a1f6fdb44073aea202"
+RPM_NAME = "python311-mkdocs-bootstrap-1.1-1.10.noarch.rpm"
+RPM_HASH = "3147d6877fe59f1a2a398ea6b964a0a76400b2b48eec6dab46199b249e18db0d7ff7d760ccf6c5766f572ad6658883398177a3197e05ac55e80c95ec80e97417"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-mkdocs-bootstrap \
+RPROVIDES:${PN} += "python3-mkdocs-bootstrap \
+python3.11dist-mkdocs-bootstrap \
 python311-mkdocs-bootstrap \
 python3dist-mkdocs-bootstrap"
 

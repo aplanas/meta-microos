@@ -2,12 +2,12 @@ SUMMARY = "Haskell glib library development files"
 DESCRIPTION = "This package provides the Haskell glib library development files."
 LICENSE = "LGPL-2.1-only"
 
-PV = "0.13.8.2"
+PV = "0.13.10.0"
 
-RPM_NAME = "ghc-glib-devel-0.13.8.2-2.3.aarch64.rpm"
-RPM_HASH = "b73365485f6179e9b6b4920f69d01dbe0b0c8e25ee98e33d1bfe4e200b867e5cc0c885cad140cd14c69ac5426d706d3581ed8ba32273422a66f84819338fee87"
+RPM_NAME = "ghc-glib-devel-0.13.10.0-1.3.aarch64.rpm"
+RPM_HASH = "45d481eb25c3980d9addd24de895421cf088c4168403abe6ddb4cb6f07289d667d1c295fe2a93b3257a7e1c4f0e587c20b9946cfa43b7a337a6ccc6313b330d1"
 
-RPROVIDES:${PN} += "ghc-devel-glib-0.13.8.2-DQyux8etmkJKUbOUWF524Z \
+RPROVIDES:${PN} += "ghc-devel-glib-0.13.10.0-3OTFLQKlfVK7JIaqsLt0K \
 ghc-glib-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

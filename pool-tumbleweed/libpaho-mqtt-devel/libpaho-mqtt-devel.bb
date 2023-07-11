@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & EPL-1.0"
 
 PV = "1.3.12"
 
-RPM_NAME = "libpaho-mqtt-devel-1.3.12-1.3.aarch64.rpm"
-RPM_HASH = "019245f67f35d103f4bbd218425e234d31f699d8cc83a85a430e0e11cbdc70b6cdd56e71864ac9f883a726d82cc218c4ab479af99dfd09518f25985c3aa1416c"
+RPM_NAME = "libpaho-mqtt-devel-1.3.12-1.4.aarch64.rpm"
+RPM_HASH = "15fcfdd5bb8c557ffd0bbe8ab84c473bcbcd41c8f7b5e040152813142c5fc944f022587dbcb0d486822885b612768ecae52b53fdd4b0437fb0b9798997d08591"
 
 RPROVIDES:${PN} += "cmake-eclipse-paho-mqtt-c \
 libpaho-mqtt-devel"

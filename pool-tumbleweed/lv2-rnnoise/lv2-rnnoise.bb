@@ -17,8 +17,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.03+git1.226f03b"
 
-RPM_NAME = "lv2-rnnoise-1.03+git1.226f03b-1.4.aarch64.rpm"
-RPM_HASH = "7f10f72bda93fa174d825a0cd61c9f3519b28dcef3b6200fff435220159db27d35da611111636d2a55d4b6c21735b06377f8566cee9114db32d25f2d2ce836ea"
+RPM_NAME = "lv2-rnnoise-1.03+git1.226f03b-1.5.aarch64.rpm"
+RPM_HASH = "472ff229b212bfd217f5a8badaa56a23cf1586712cf9c212ae29f26961aca736fa3c00ef4fc74cc8edbef9917f55bee085b75a1469217605dd764eaef932adfe"
 
 RPROVIDES:${PN} += "librnnoise-mono.so \
 librnnoise-stereo.so \

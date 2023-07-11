@@ -9,12 +9,11 @@ LICENSE = "Apache-2.0"
 
 PV = "2.11.0"
 
-RPM_NAME = "python310-bindep-2.11.0-3.1.noarch.rpm"
-RPM_HASH = "0671f1daf120365ec2af070b916e645db645189ed5ffca767e81564137df7687198c1427f37b0434b040c7e9ce60583d3783dcb7d568c70eba533137c2c656b6"
+RPM_NAME = "python310-bindep-2.11.0-3.3.noarch.rpm"
+RPM_HASH = "0998ffb3c46d53c52d6f19403521a4aac180fb985556297d6f329c5d160d587e321293e286a320d94f071e9d60105ea62a54cb21e1f6c209fc6447782cfcc093"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-bindep \
-python3.10dist-bindep \
+RPROVIDES:${PN} += "python3.10dist-bindep \
 python310-bindep \
 python3dist-bindep"
 

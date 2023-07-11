@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "6.51.0"
 
-RPM_NAME = "cf-cli-6.51.0-2.11.aarch64.rpm"
-RPM_HASH = "9a973b9da94d3fef95be367f54128a96b3ea14e4a5870f8ee892e6b6ce6afcef7f9c571c42217e26988a56e3ef260bc30d1c6578120df72e4e06b0b7b6579b7c"
+RPM_NAME = "cf-cli-6.51.0-2.12.aarch64.rpm"
+RPM_HASH = "0019cd99815b9cf74f52ed54787d5629f1b16d72b5ddb6c659a073956f563cccbfe3e3a6a0ddaa6aead976c8718af139a93194f729769f40ebe3e80f242b6cdf"
 
 RPROVIDES:${PN} += "cf-cli \
 config-cf-cli"

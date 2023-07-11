@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.20.0.18+git.7b1a20b"
 
-RPM_NAME = "tuned-profiles-spectrumscale-2.20.0.18+git.7b1a20b-1.1.noarch.rpm"
-RPM_HASH = "d49f8dfafb18b5e46f5fa19bf8e94327a40d0edb33428dec0f59cf9ab3470f16476f279d01b538368d7645856ee8fa4db5efad71170470aa8bf2544bcf376ed8"
+RPM_NAME = "tuned-profiles-spectrumscale-2.20.0.18+git.7b1a20b-1.2.noarch.rpm"
+RPM_HASH = "4b48bc5706583db82d2558be3e297d13e280596a98d5bfbed18e49a6c89ee4855a0b72f91478f4b3338e68b7dff2664911b55ecc9a1f615ca01cd45b649904e1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tuned-profiles-spectrumscale"

@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.3.22"
 
-RPM_NAME = "python39-spur-0.3.22-1.4.noarch.rpm"
-RPM_HASH = "ed374eac1696424f3c37deea2adebda75ad0a581199665afebf166f4a9ee45ac5225b18f7f3f8215ddb15349ecb669e4bef77f7f73a36f0293cb3caf22c41fd7"
+RPM_NAME = "python39-spur-0.3.22-1.6.noarch.rpm"
+RPM_HASH = "34b8f91b38ad4c684188ce6347695acb2a26bb98acf686cae87a17313b85f3e3afc1df38bb55628c30cc96a9d13f644753fb60a59d4ee2ceaaad0b0f12d50fea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-spur \

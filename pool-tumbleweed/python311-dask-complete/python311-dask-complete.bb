@@ -13,23 +13,22 @@ Dask is composed of two parts: \
 This package pulls in all the optional dask components."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.3.2"
+PV = "2023.5.1"
 
-RPM_NAME = "python311-dask-complete-2023.3.2-3.1.noarch.rpm"
-RPM_HASH = "464789f4fd13a0afc579d506eaa9319f90dded81db04daecd76d255ada15973b91ff2739c7f0271b687189fa4391d0a1701d7cbc59364b143f5d897d72c20de8"
+RPM_NAME = "python311-dask-complete-2023.5.1-2.3.noarch.rpm"
+RPM_HASH = "ed1ed752e10437de5830ef44cf959f447fb9b6656ca591740cda29d00442b90353d81dbcb432dd8657f7d72d6dfda1b79e45f54faf072ecacb1d05bb07ecb285"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python311-dask-all \
+RPROVIDES:${PN} += "python3-dask-all \
+python3-dask-complete \
+python311-dask-all \
 python311-dask-complete"
 
 RDEPENDS:${PN} += "python311-dask \
 python311-dask-array \
-python311-dask-bag \
 python311-dask-dataframe \
-python311-dask-delayed \
 python311-dask-diagnostics \
 python311-dask-distributed \
-python311-dask-dot \
 python311-lz4 \
 python311-pyarrow"
 

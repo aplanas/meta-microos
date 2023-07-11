@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.4.18"
 
-RPM_NAME = "scim-devel-1.4.18-5.10.aarch64.rpm"
-RPM_HASH = "6bd3bb0a59661c87793cb71214206f71c17764f7b9f983fd32f70d4a483b5fcd9045fcd375266672b5324ad2496619a3955098514c300d8167dbd53c1976fdc0"
+RPM_NAME = "scim-devel-1.4.18-5.11.aarch64.rpm"
+RPM_HASH = "e123e9c8570df1c7a95006e6fe37b286aee3392976db64cef9941aae585ae485ab41f533633acefe209d64c1e7f7fd2341f2b693bf57cef6887a326e78a20de1"
 
 RPROVIDES:${PN} += "pkgconfig-scim \
 pkgconfig-scim-gtkutils \

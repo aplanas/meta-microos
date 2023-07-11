@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the ABI for libc++, a new implementation \
 of the C++ standard library, targeting C++11."
 LICENSE = "Apache-2.0-with-LLVM-exception & NCSA"
 
-PV = "16.0.4"
+PV = "16.0.6"
 
-RPM_NAME = "libc++abi1-16.0.4-1.1.aarch64.rpm"
-RPM_HASH = "63ea9beb0362d4ba6149ac6e78861e1d6b995905daeae0009d8f312483874ba8c6657112c4d35792559119f3764d9b9d59c647c28b3d42a182ebfd6c12bcbfab"
+RPM_NAME = "libc++abi1-16.0.6-1.1.aarch64.rpm"
+RPM_HASH = "8122f1c308c6b1d731b7ace0c5aa1989a01236ae0be8993e340e81b0d9c51d5efb6d91b27e16f4187cb0125ccd9112793fe5980f376e30bf956b2c3f14c7af27"
 
 RPROVIDES:${PN} += "libc++abi.so.1 \
 libc++abi1"

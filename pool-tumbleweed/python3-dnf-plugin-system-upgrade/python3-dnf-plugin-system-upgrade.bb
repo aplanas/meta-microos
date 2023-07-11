@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.0.17"
 
-RPM_NAME = "python3-dnf-plugin-system-upgrade-4.0.17-2.1.noarch.rpm"
-RPM_HASH = "92c0c439aad74190fcd07d1a9915fdd098cc674017885b6a720de163b5335bd44f36e82807be8e82fd8bd1e80e158f98b927409c96cf1c1fa9845165a975300b"
+RPM_NAME = "python3-dnf-plugin-system-upgrade-4.0.17-2.2.noarch.rpm"
+RPM_HASH = "8a03c3c070edb111616dfbe13b357c67991a4d36c9f848a2a36bd1ead5b6e0232efbbe85946fc927022f96de364f93a0b92da74cfa03f5fa5e32a985fdba920a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dnf-command-offline-distrosync \

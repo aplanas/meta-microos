@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "4.2.0"
 
-RPM_NAME = "PlatformFolders-devel-4.2.0-1.3.aarch64.rpm"
-RPM_HASH = "a31db32401ce8cd431f5035a703b52c01dbe3171b700b82615a0a66fb8b5a19c4519cdcb5991b6de165901182d2a361365c55d5b19c29c08c2a95e76e251c445"
+RPM_NAME = "PlatformFolders-devel-4.2.0-1.4.aarch64.rpm"
+RPM_HASH = "71d46f31d436a682c7fdb8ca3653fc8004bcae98e91d4a2f76cb97cc4a3c71b448ec8bc13c70794e1e8aac725b512d462c0e31bbc56c3c3d5359db8065ec9f30"
 
 RPROVIDES:${PN} += "PlatformFolders-devel \
 cmake-platform-folders"

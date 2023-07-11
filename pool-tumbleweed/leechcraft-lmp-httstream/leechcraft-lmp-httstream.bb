@@ -5,8 +5,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-lmp-httstream-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "1a0dff5e625bd82ac3d13612c0d237690805fc2e7f768e04d92d4f32e2d855358364bbb54df74ab20173e2c86055572f108abd85bcf7954bec0f4bc432d39bcb"
+RPM_NAME = "leechcraft-lmp-httstream-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "79363cc4ba13ef1b81ac33d0bbf7ef5dca8b85f30668d0b1a7c6792a1f0576a330b4bdb7871300fd8ed5e6d3f617eaf3e34fbe27bfbad8387037f1631760c34f"
 
 RPROVIDES:${PN} += "leechcraft-lmp-httstream \
 libleechcraft-lmp-httstream.so"

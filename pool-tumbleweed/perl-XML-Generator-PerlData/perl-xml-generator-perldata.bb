@@ -15,14 +15,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.95"
 
-RPM_NAME = "perl-XML-Generator-PerlData-0.95-1.25.noarch.rpm"
-RPM_HASH = "95d1bee08b71ee8de0f4d5eac9d31a10467f0602b5f2fc1bf51045c8cf8e072ecee4a6f1186dcdc3db325f14f88fb6a52511a2b0fe9394dbd0b083dbef9d6be1"
+RPM_NAME = "perl-XML-Generator-PerlData-0.95-1.26.noarch.rpm"
+RPM_HASH = "cf1502416d226d82bf198cfe1f31bb5c6d509377de9aa6477140cad0c61b0d95658f6b6539d486c557b36c3c1788b1f9eaf92cd65e56bdadfd991abd9952f9fd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-XML--Generator--PerlData \
 perl-XML-Generator-PerlData"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-XML--SAX--Base"
 
 inherit rpm

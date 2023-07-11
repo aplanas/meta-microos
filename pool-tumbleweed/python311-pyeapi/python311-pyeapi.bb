@@ -15,11 +15,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.8.4"
 
-RPM_NAME = "python311-pyeapi-0.8.4-3.6.noarch.rpm"
-RPM_HASH = "4b9ee456c980bb9f2c98b4fbe3ef1461679242e1b1a3c55f86790cc9bf331a2ad5153a87317a4313fd23e7b3dfc2804df5e8699bb4ba667781bed88c971c139e"
+RPM_NAME = "python311-pyeapi-0.8.4-3.8.noarch.rpm"
+RPM_HASH = "af5fbee5b0d346f5ab37b843c9bbaea528d0058a349a2562e8a9206db1f8b4933f7cacfe6402f5bcb60b31230c9fd461d472ec23d28c958a399c11ca32e9df0f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pyeapi \
+RPROVIDES:${PN} += "python3-pyeapi \
+python3.11dist-pyeapi \
 python311-pyeapi \
 python3dist-pyeapi"
 

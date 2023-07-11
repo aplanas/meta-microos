@@ -2,10 +2,10 @@ SUMMARY = "KDE's screen management library"
 DESCRIPTION = "Shared library for dynamic display management in KDE"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "libKF5Screen8-5.27.5-1.1.aarch64.rpm"
-RPM_HASH = "00fc81dff3d311f689f7865842bf6f7b90040759186f8a800cd5b955449fd79368677737a1a385f621037882ae610c5e48aef0eaee48d2c8f6492a9b83b6f156"
+RPM_NAME = "libKF5Screen8-5.27.6-1.1.aarch64.rpm"
+RPM_HASH = "170b61834588ea662b8882536ce99267533f8d54bd86f97dee608ac189cad4c1bb3e4bf274900dc181595232fb5ec53cc3ebfa8fe72fdad34a9b10d6477d1881"
 
 RPROVIDES:${PN} += "libKF5Screen.so.8 \
 libKF5Screen8"

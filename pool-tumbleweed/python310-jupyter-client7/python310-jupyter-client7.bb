@@ -8,15 +8,13 @@ LICENSE = "BSD-3-Clause"
 
 PV = "7.4.9"
 
-RPM_NAME = "python310-jupyter-client7-7.4.9-2.1.noarch.rpm"
-RPM_HASH = "ab369ddddd65484b78c78b4f53ade1d79b4064510d9186753bbb61f11b9461d8447e30ca55d8797025168251279adcaedfe2cc702d7ee10d19079a00d00ed9f7"
+RPM_NAME = "python310-jupyter-client7-7.4.9-2.3.noarch.rpm"
+RPM_HASH = "80ce332aede10a0bebbfc5ef74d4f2e35c24d5ae00b4169826c6b572664598d3b455dc884bd15efb0c06b204f491443f67115acc9fa0c722bdd766e3f07f8f54"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-jupyter-client \
 jupyter-jupyter-client-doc \
 jupyter-jupyter-client7 \
-python3-jupyter-client \
-python3-jupyter-client7 \
 python3.10dist-jupyter-client \
 python310-jupyter-client \
 python310-jupyter-client7 \

@@ -2,10 +2,10 @@ SUMMARY = "Vocabulary Trainer"
 DESCRIPTION = "Parley is a vocabulary trainer by KDE."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "parley-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "3116827de6485b81e6bf8f332576d14d05356979242f4fd52eaa50961cefcf91828d95af7019dcf9d9c212bf8a2c216fb3e2e2504dedcae113cb450abfff282f"
+RPM_NAME = "parley-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "88a090329d7495d6d1268863025d3feaa01607f9710493bf0c646da40798b00a0f5ecf47e54c4603cd6215e39208475c4ea948dd003c6fea267a3222a0e6075e"
 
 RPROVIDES:${PN} += "parley \
 parley5"

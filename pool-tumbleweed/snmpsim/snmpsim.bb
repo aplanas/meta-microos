@@ -17,11 +17,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.7"
 
-RPM_NAME = "snmpsim-0.4.7-2.6.noarch.rpm"
-RPM_HASH = "4062c945550eda04572864e0b0161d7c6819d148802433e0568f9200f17a430fd962de8d5ed2d502c20185f73b219f5a63435f02d5f1c7f7dc6647622bcea190"
+RPM_NAME = "snmpsim-0.4.7-2.7.noarch.rpm"
+RPM_HASH = "6bdd3286a53801cac0ce19e895a96aa290b1400ceb27bd688504d8efe4d10884774f24f39eb5eb44cd90bbf213f6e2729d93926c11aa44bc95ca29d025c077dc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-snmpsim \
+RPROVIDES:${PN} += "python3.11dist-snmpsim \
 python3dist-snmpsim \
 snmpsim"
 

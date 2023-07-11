@@ -5,10 +5,11 @@ LICENSE = "BSD-3-Clause & GPL-3.0-only"
 
 PV = "0.4.1.2"
 
-RPM_NAME = "python311-axolotl-curve25519-0.4.1.2-1.7.aarch64.rpm"
-RPM_HASH = "6fc5b146f84832967458d4bb9b50a5c287af52188b7819aa5b37596e4bda5bb4b5c3a07e12e7703b5f0def49b1dda4bdd0eb743179736d298460000c41a0ad56"
+RPM_NAME = "python311-axolotl-curve25519-0.4.1.2-1.9.aarch64.rpm"
+RPM_HASH = "dbdfca951595ad510ca22f57e05fc4f09cd8c6221fb0d3291004a6e5f958557c5b1d4f6c5a317b15e969f864cc7ef4f999e8940033afa840a1b747092f9f1e23"
 
-RPROVIDES:${PN} += "python3.11dist-python-axolotl-curve25519 \
+RPROVIDES:${PN} += "python3-axolotl-curve25519 \
+python3.11dist-python-axolotl-curve25519 \
 python311-axolotl-curve25519 \
 python3dist-python-axolotl-curve25519"
 

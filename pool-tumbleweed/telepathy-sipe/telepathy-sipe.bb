@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.25.0"
 
-RPM_NAME = "telepathy-sipe-1.25.0-2.10.aarch64.rpm"
-RPM_HASH = "3525bc604c65e70fdf6ad29fc5e88200ff1e3d877d302d203929be8834255e7444b92faa8f63e9c8a989220f1ff86546c34819df8416b552a73e0c01aaceca54"
+RPM_NAME = "telepathy-sipe-1.25.0-2.12.aarch64.rpm"
+RPM_HASH = "3c9e6ea50b1fef77de40074b4c6b4317329b9e5ed1b2eba891ae91b75467a70ae35e875163ac78b6773118b338567845f5f50697967e3cd1478bc3c32415b28a"
 
 RPROVIDES:${PN} += "telepathy-plugin-sipe \
 telepathy-sipe"

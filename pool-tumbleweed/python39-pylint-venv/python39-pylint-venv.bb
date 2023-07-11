@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.3.0"
 
-RPM_NAME = "python39-pylint-venv-2.3.0-1.3.noarch.rpm"
-RPM_HASH = "f26fdeca62eeee629936c276208eaa63ece44e906750a5fa185871a905f8f9ddd7851645753125d856b0e9ffd4930995af214f93735386a472b57d387b6d8c4b"
+RPM_NAME = "python39-pylint-venv-2.3.0-1.5.noarch.rpm"
+RPM_HASH = "6ccd56151b99fae267bbd0c5f151736ab3c3aa257a9fd027bdef9ecb0e5005cf3aaf11e2bd9aabdb0f2c2f02af0e205fe1beede53d2fe6f41a3910910967fa9f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pylint-venv \

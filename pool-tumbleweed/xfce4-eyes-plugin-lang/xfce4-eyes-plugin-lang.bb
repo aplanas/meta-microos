@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.6.0"
 
-RPM_NAME = "xfce4-eyes-plugin-lang-4.6.0-1.7.noarch.rpm"
-RPM_HASH = "c8d430264406e51939412e1e18921928ed6494959da0a74823e83862994271fb3b0dc37b718d7368f77624a8df6b248d1192bf2ecfaa52bd19cd68bd7d1f0bd4"
+RPM_NAME = "xfce4-eyes-plugin-lang-4.6.0-1.8.noarch.rpm"
+RPM_HASH = "86d83278d392d8dd93f998eff5408c9a414dca0ba41c5abb8671131bbf31342097bedf8aa1cd61797bccd38940a4b550d2b4568a365fd27ef22bed010d238289"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-eyes-plugin-ar \

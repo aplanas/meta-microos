@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "gnome-contacts-lang-44.0-1.1.noarch.rpm"
-RPM_HASH = "c07d2c2eb3535e060cb1a086f66beb322566041873262f7be3ef81ce40554a9eb4d67cc7b587888355c1d5e6438fde80e318f02ed6bdfb99177dcc5b98f0ea4d"
+RPM_NAME = "gnome-contacts-lang-44.0-1.2.noarch.rpm"
+RPM_HASH = "65e611f46871da9807ea4d378854d85cfbce6ef5647cbb4ca62968c5ed9d11704bda96b289a3b7387ffcd95778eedc7d34825cb7f42c97a4568b14754556be53"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-contacts-lang \

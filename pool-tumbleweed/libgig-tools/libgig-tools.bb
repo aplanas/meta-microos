@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.3.0"
 
-RPM_NAME = "libgig-tools-4.3.0-1.9.aarch64.rpm"
-RPM_HASH = "07bb8eb655a9519383791a1e9a3b5f11231e6bf701d03d2a1e2a447b68baa065725ff4f7f86bc4d2d9284793ad4c4f6243f19774eecd9d99faa9dae5657bfb30"
+RPM_NAME = "libgig-tools-4.3.0-1.10.aarch64.rpm"
+RPM_HASH = "d7e82c65586126cd4aea02edb004616ff6f0da97e91d1cf461fce15ac984479671c19d186f71ae0be2043dcf61f7917d3d8120fc4706025f160595c4b09afefa"
 
 RPROVIDES:${PN} += "libgig-tools \
 libgig6-tools"

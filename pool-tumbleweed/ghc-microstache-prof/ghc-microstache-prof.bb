@@ -4,14 +4,14 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.2.3"
 
-RPM_NAME = "ghc-microstache-prof-1.0.2.3-2.3.aarch64.rpm"
-RPM_HASH = "75857963cad91c9aaaad375942b398fcddd264c18e235a0d42281949f4bc9ef3c3279bdc65fc8fde8f79b913c7dcbc77d21cd418d52daa4cd56f7e6d30df58dd"
+RPM_NAME = "ghc-microstache-prof-1.0.2.3-3.2.aarch64.rpm"
+RPM_HASH = "1e68aa35dd809f4320ae2acde50d44944c43bf677536035ec61ee5d537379e463f5d60f43eb0775b4ec1c7b7a793de25ccfdf65239621db22bdae20674f6dca0"
 
 RPROVIDES:${PN} += "ghc-microstache-prof \
-ghc-prof-microstache-1.0.2.3-AHAKnK06lT6DHccapktUKL"
+ghc-prof-microstache-1.0.2.3-HPIMoirZDKg7hPtdxDNWtL"
 
 RDEPENDS:${PN} += "ghc-microstache-devel \
-ghc-prof-aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP \
+ghc-prof-aeson-2.1.2.1-HkN6OtqTngQ9De3CKBnfov \
 ghc-prof-base-4.17.1.0 \
 ghc-prof-containers-0.6.7 \
 ghc-prof-deepseq-1.4.8.0 \

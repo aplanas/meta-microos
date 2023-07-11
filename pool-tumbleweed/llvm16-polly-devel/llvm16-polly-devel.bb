@@ -2,10 +2,10 @@ SUMMARY = "Development files for Polly"
 DESCRIPTION = "This package contains the development files for Polly."
 LICENSE = "Apache-2.0-with-LLVM-exception & NCSA"
 
-PV = "16.0.4"
+PV = "16.0.6"
 
-RPM_NAME = "llvm16-polly-devel-16.0.4-1.1.aarch64.rpm"
-RPM_HASH = "397d8141a8aa792c97b4ed349662704b349d942626f2e0bbe96b450b5cd5718f82c2732b36f741d48b0239f261204be8db9487cd802c93043b2312414043d74a"
+RPM_NAME = "llvm16-polly-devel-16.0.6-1.1.aarch64.rpm"
+RPM_HASH = "130f20f75795aa553ce9d6e52123d16b8bc70e021d9f0a2278a019c8b5dbd0aca8985487974568877daf911a3fae767a8c6c0f8269588369264f0ed6677ecda2"
 
 RPROVIDES:${PN} += "cmake-Polly \
 llvm-polly-devel-provider \

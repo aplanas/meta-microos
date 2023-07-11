@@ -5,12 +5,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.2"
 
-RPM_NAME = "python310-chai-1.1.2-6.1.noarch.rpm"
-RPM_HASH = "69bfaa7c3f6ad8f42ba65cada7ffae8bc4b41709ae038def9234d55a3fe6d3286fc5fffcfc617967c3d9aa80863d4621ce8addd7092edf158f915fafeec70a23"
+RPM_NAME = "python310-chai-1.1.2-6.2.noarch.rpm"
+RPM_HASH = "62fa9618897f83eb4bcfc893c6405d84ae750aa73b024ba784a20b1c1dbf3de4910e2284f4a7789f541838e5396b6a876ff70c0b3cb542d1025929bddce64d47"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-chai \
-python3.10dist-chai \
+RPROVIDES:${PN} += "python3.10dist-chai \
 python310-chai \
 python3dist-chai"
 

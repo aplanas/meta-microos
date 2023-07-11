@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.1"
 
-RPM_NAME = "python39-docrepr-0.1.1-2.16.noarch.rpm"
-RPM_HASH = "db548880656e31b81a07cc3988e7c69ec0ccab6b9159fa4794fdee443bf14bb74225ca8ff0a412497b8c3fd380ac426939f68612ce2e5ca1ebda2c8e51dcf11d"
+RPM_NAME = "python39-docrepr-0.1.1-2.18.noarch.rpm"
+RPM_HASH = "209cbb4330e336481637b68833c54ce86bc3ef7e35300c37f8461b752ba2f30017ebe3953cfd6e190c33d6ecda9c6ea5c3b7f3cec99fa6cb4a1f241838588b5d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-docrepr \

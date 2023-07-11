@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.14.12"
 
-RPM_NAME = "libpurple-plugin-sametime-2.14.12-1.3.aarch64.rpm"
-RPM_HASH = "5cb232858dc908dfb8eb45e0d7a8644e76abf76e41cc54bd096abfa844aac73576ca67a0e9b033aef0f73317d9956a18da5eaaa2a04fcffd59f871690b877dad"
+RPM_NAME = "libpurple-plugin-sametime-2.14.12-1.4.aarch64.rpm"
+RPM_HASH = "96c0424b7848acd52bc80368b31b5fef36d258c48bb47e4c1a7f64169343f7fc8230414ac119d7f55ad3a850b813a081b31e558f7bccae6c33ce82f9cfb62784"
 
 RPROVIDES:${PN} += "libpurple-meanwhile \
 libpurple-plugin-sametime \

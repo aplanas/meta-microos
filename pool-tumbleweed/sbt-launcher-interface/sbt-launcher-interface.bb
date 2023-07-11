@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & BSD-3-Clause"
 
 PV = "1.1.2"
 
-RPM_NAME = "sbt-launcher-interface-1.1.2-2.9.noarch.rpm"
-RPM_HASH = "f6cd180416a3274f1d4920377ea664f0120e48e1a6c1cb94f13165ef5aaaa0bf8850146208608f104f83a20584afd431bbdf9c793c4bbdde882349ec81f2b7a9"
+RPM_NAME = "sbt-launcher-interface-1.1.2-2.10.noarch.rpm"
+RPM_HASH = "244249d0517cfa25bfd6d8fb66a0976ec2b0aa2ecd8a2020050d184c78fa1fc9a314b4da0d9aa17cd09f7c6f8ff170bb5a57d2c9880a6786d28093436e8cffde"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.scala-sbt-launcher-interface \

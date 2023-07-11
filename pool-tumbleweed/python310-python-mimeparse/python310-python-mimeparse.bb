@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "1.6.0"
 
-RPM_NAME = "python310-python-mimeparse-1.6.0-5.1.noarch.rpm"
-RPM_HASH = "a389513e3d908cc8f36f68c281610405957779221bafcc5cd70ddc29aaf682bffacae65008bcca54e4f6031c966da1fd68fa0a73c8731ae0d17151c78d5336a2"
+RPM_NAME = "python310-python-mimeparse-1.6.0-5.2.noarch.rpm"
+RPM_HASH = "be3d6fe4ec53cd66f67f5f189d9eebf89f235555e573dcdcb0c6cdd9202f4ab88ea5930eb5bcb23bcaccac2e590a1fe137e82b471f692394c9b5d5c7d8a38a63"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-python-mimeparse \
-python3.10dist-python-mimeparse \
+RPROVIDES:${PN} += "python3.10dist-python-mimeparse \
 python310-python-mimeparse \
 python3dist-python-mimeparse"
 

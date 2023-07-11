@@ -6,12 +6,11 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "1.1.0"
 
-RPM_NAME = "python310-nine-1.1.0-1.13.noarch.rpm"
-RPM_HASH = "d6273959d6ad2c72a74c40672c60a0772b802d848dcd4b2bfdae904cf6f45f39aad037809c691d5b28e07bb89cf8d60d86fa5707e3a4699fd10f5b8603ffd182"
+RPM_NAME = "python310-nine-1.1.0-1.15.noarch.rpm"
+RPM_HASH = "24c3ae3172940de85e3b9e08992c34e1305f1afc7b69f3504370ecc56c725757fa0b0fc85d10049e0305d72e3886bdab1452da75466a3616421584a83d416c5a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-nine \
-python3.10dist-nine \
+RPROVIDES:${PN} += "python3.10dist-nine \
 python310-nine \
 python3dist-nine"
 

@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "2.0.0+git.1677927696.44d2783"
 
-RPM_NAME = "leafnode-2.0.0+git.1677927696.44d2783-3.3.aarch64.rpm"
-RPM_HASH = "08619155e646e23942079f40c6e1807ed39c020686fe8cb4c431b09d1446c445ec26ed2b0b8f489f3d6d1216f11130aecdad3c42944001705cf80b473a4fffc6"
+RPM_NAME = "leafnode-2.0.0+git.1677927696.44d2783-3.4.aarch64.rpm"
+RPM_HASH = "eba562c695eefe74959f7ea609405125b98ddcba84a6af4bf85ebe5d302b53aacc04f4fc5a2f848760d22e70aee0b84a7c25b4ec59e38d0cfb40aeacea4c8bc6"
 
 RPROVIDES:${PN} += "config-leafnode \
 leafnode"

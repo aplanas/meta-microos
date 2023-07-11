@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.2svn16558"
 
-RPM_NAME = "texlive-engpron-doc-2023.201.2svn16558-53.1.noarch.rpm"
-RPM_HASH = "377d9f9dd5e0b47ec4cd7bb5e3c53af09fa44e126432cccf6b749497227332996ef63a1da697765d1b5a9102833e3fd983212959ac92bcbaff4cfcbbd3cb3a1b"
+RPM_NAME = "texlive-engpron-doc-2023.201.2svn16558-53.2.noarch.rpm"
+RPM_HASH = "7c44fb4b925e29e58ea43807b00ae5bbce0e629f658f58555aff6fc86ebd45823388c87cf128a1b503f708e126248f9ed355a388be2bceff6d0d37e6035352c4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-engpron-doc-fr;en \

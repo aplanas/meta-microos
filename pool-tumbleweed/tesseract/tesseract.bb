@@ -9,8 +9,8 @@ LICENSE = "Zlib"
 
 PV = "2018_02_01"
 
-RPM_NAME = "tesseract-2018_02_01-3.11.aarch64.rpm"
-RPM_HASH = "19a629b7626d7da7dbf17d8ba75fdd9f7f994e45f6c02d54b6316ed778ada01d3fcc12a2333e3c0f105a7d0bc93fbf7fa217a81a0ecdbbc4b867815b5261683d"
+RPM_NAME = "tesseract-2018_02_01-3.12.aarch64.rpm"
+RPM_HASH = "2e6aff1135b6bdf0f03da437c3e379cba1bdb2272b3e597dccb59d12df12fc912caa3b772b1558d8fcf723cfb8aa8a9da8728575a03850e175677c1b109b0bbe"
 
 RPROVIDES:${PN} += "tesseract"
 

@@ -3,10 +3,10 @@ DESCRIPTION = "Evolution Data Server provides a central location for your addres
 and calendar in the GNOME Desktop."
 LICENSE = "LGPL-2.0-only"
 
-PV = "3.48.2"
+PV = "3.48.4"
 
-RPM_NAME = "evolution-data-server-3.48.2-1.1.aarch64.rpm"
-RPM_HASH = "1e0a36b1261f2e982623932ffbc75d68185239ce40df5d2122f7a302942ebf3e0dbf4072d7195fb1dff5225331ab1923b2fe7507e5a5b4367ada9de9a344229d"
+RPM_NAME = "evolution-data-server-3.48.4-1.1.aarch64.rpm"
+RPM_HASH = "7bcd27f26fd756f4123a2d36fdf6cffd6501aa3b4136bddd94d114e9637c3ac3dbba49e0ea74d752a8d1681da8d4fd65dab9f92a04f7db5a82354336f765ec1a"
 
 RPROVIDES:${PN} += "evolution-data-server \
 libcamelimapx.so \

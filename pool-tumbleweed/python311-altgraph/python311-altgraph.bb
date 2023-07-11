@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "0.17.3"
 
-RPM_NAME = "python311-altgraph-0.17.3-1.3.noarch.rpm"
-RPM_HASH = "e8b76e671175191009f10d4c6b9b36b71f6a2a8f62da029dbd5adfb81706ab3af18e629eb5fca221584594386059dadf22807085a71ae0e2b718454b0524be41"
+RPM_NAME = "python311-altgraph-0.17.3-2.3.noarch.rpm"
+RPM_HASH = "b15cb19ed880a37d925f2a2da2eee5a2cf558351fd9a2ccb949dcbdbce72fe344e652f6b57578a9c1f4e6f8c4ee800efae0b08fe64fa27b89670117aefedc336"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-altgraph \
+RPROVIDES:${PN} += "python3-altgraph \
+python3.11dist-altgraph \
 python311-altgraph \
 python3dist-altgraph"
 

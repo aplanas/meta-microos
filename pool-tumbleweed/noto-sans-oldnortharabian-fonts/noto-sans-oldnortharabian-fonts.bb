@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-oldnortharabian-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "5594b997158f01c81efc18849d7b2d9082f8214c60905a2eec479d079a94e762a0668dee3452b77979b06657b72b2fb77ce79a9a78b87081a9cc708a22f238a4"
+RPM_NAME = "noto-sans-oldnortharabian-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "31c28583fb5e8e893ca0e311cf5a7cc1af1b06b171a8051b425356162a7e5f078a43d6c53cbe833d23b54a46b41b1fc96c77242b0dc127a3b23094fe5325a4e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-oldnortharabian \

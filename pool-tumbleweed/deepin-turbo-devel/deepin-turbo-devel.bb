@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "0.0.5"
 
-RPM_NAME = "deepin-turbo-devel-0.0.5-2.9.aarch64.rpm"
-RPM_HASH = "8ebd67baf497f6067431d1764caae7c86756dc4f5b750f8a5a0c813ef188cc029ec3321c1bd4eb08f42f50642608e8aeda5b71fb3fb1036899936e22f9eb5d20"
+RPM_NAME = "deepin-turbo-devel-0.0.5-2.10.aarch64.rpm"
+RPM_HASH = "479eace0289b7d59277935197411d2ff53b459352878f2da0a6eecdc267961575c509284cee85944c9be5fd15ecd3823030eeccb3a45370e7ba8a4695af9e558"
 
 RPROVIDES:${PN} += "deepin-turbo-devel"
 

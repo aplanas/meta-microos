@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.0.11"
 
-RPM_NAME = "fcitx5-libthai-5.0.11-1.3.aarch64.rpm"
-RPM_HASH = "59f931bf373431740a805adf8a9c901d8a6315eb6bb032ded8f65d13f64e4658739d67f07cfe7aeb80d3e8524001b5ae5f4a8a45d3e4ee2fc2dd5e369b8e900f"
+RPM_NAME = "fcitx5-libthai-5.0.11-1.4.aarch64.rpm"
+RPM_HASH = "ccf05b5fa33b555cf5d31342a0b8f4eb6447323ef915609fbb523bce18c19213dc73c959a3d5b71099cd64bd9eafd51552535263a72e16982c865a2a4d30a6a6"
 
 RPROVIDES:${PN} += "fcitx5-libthai \
 libthai.so"

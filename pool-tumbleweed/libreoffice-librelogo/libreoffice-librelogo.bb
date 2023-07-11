@@ -4,10 +4,10 @@ programming language with interactive vectorgraphics for education and \
 DTP."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.1"
+PV = "7.5.4.2"
 
-RPM_NAME = "libreoffice-librelogo-7.5.4.1-1.1.aarch64.rpm"
-RPM_HASH = "f0723a65ed35d38ae86c6d6eb0b88dc9300b630a3287932650997f33b944ee9cb1ab30721acfaf9ac5a3ebf1f6b089b502267ba4ba183b321ef0f5eb75b4bb61"
+RPM_NAME = "libreoffice-librelogo-7.5.4.2-1.3.aarch64.rpm"
+RPM_HASH = "efd209d36b638cc6a4fa6bf9da43ce31c7bba631bd970d678b02d4d51926bfb39e2f494f09779a4f2c6c81ca430c740381f62fac16606dd4121d58232c464fc5"
 
 RPROVIDES:${PN} += "libreoffice-librelogo"
 

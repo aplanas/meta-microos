@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.9"
 
-RPM_NAME = "python310-pretend-1.0.9-3.1.noarch.rpm"
-RPM_HASH = "adeb3a7d86533d0c4d7b694cbf77519a00f3b826f30337faaaf272e1d62394741d8ef55cb4f4b25c3853f7c2f4ca5cfb6e53f90530d025bdae822b28f019d83b"
+RPM_NAME = "python310-pretend-1.0.9-3.3.noarch.rpm"
+RPM_HASH = "41e400ae4ceec0db9784ce66bff93d68c8d45cb108e0e7abd59f0cdf0024114e881d0ac41188780af7bb2aeaae5e6627a39b996d867c20ac78c60d79228178e2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pretend \
-python3.10dist-pretend \
+RPROVIDES:${PN} += "python3.10dist-pretend \
 python310-pretend \
 python3dist-pretend"
 

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "41.1"
 
-RPM_NAME = "swell-foop-lang-41.1-1.6.noarch.rpm"
-RPM_HASH = "5b1a2b7f5c4901a4fce6fcebab2673bb945bbba7c74cab59e55f6c3aa904b1c7158d40a27ecc32e41cf6f547c44b01209b87a876f7adea3d031b84bf15dffcef"
+RPM_NAME = "swell-foop-lang-41.1-1.7.noarch.rpm"
+RPM_HASH = "8071328c1770a74c9975840b6b8dbf37dee962e5cff57eb98114a157311912a5f9d55743ec150f0e77e39c3f587a856a9edef4f2cd92c7b6a362a41a453e6689"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-swell-foop-af \

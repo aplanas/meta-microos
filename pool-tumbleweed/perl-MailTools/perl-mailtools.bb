@@ -11,8 +11,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.21"
 
-RPM_NAME = "perl-MailTools-2.21-1.15.noarch.rpm"
-RPM_HASH = "ea5ff8d765c8a3727997617bec0b535ac7a18e9dd019d3a0dcd911b649d6996253ab8267970bfa8ff0717b1cc8fa608d046725715fdfa4bd7b97d6c14326d04d"
+RPM_NAME = "perl-MailTools-2.21-1.16.noarch.rpm"
+RPM_HASH = "c588862984945b5b345efc60ed824cb52ca78d9fcf092cec5ef1c06539fd47f41e5a56ee3524391310bb6140de82a4eea65c4aa8730d032f8ee23e8ac5740e09"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mail--Address \
@@ -38,7 +38,7 @@ perl-Mail--Send \
 perl-Mail--Util \
 perl-MailTools"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Date--Format \
 perl-Date--Parse"
 

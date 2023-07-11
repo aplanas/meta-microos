@@ -4,8 +4,8 @@ LICENSE = "BSD-4-Clause"
 
 PV = "2.1.28"
 
-RPM_NAME = "cyrus-sasl-sqlauxprop-2.1.28-5.1.aarch64.rpm"
-RPM_HASH = "7183c756980ace6dd167c3653fc50dfd2585e671131c60d0a0b3d1b191e274e480afe6686f3174c4b8fd4b31d6c72b3d59edb5db422979c97f544972a4dd614a"
+RPM_NAME = "cyrus-sasl-sqlauxprop-2.1.28-5.2.aarch64.rpm"
+RPM_HASH = "40fb85f50ddaba61cc164dee4a57e1a021facae0f405642bca41eb0148f37b1c68648494670dea33421f23b45f77d13bdd3477bd55e652ff7ba1345617ced0be"
 
 RPROVIDES:${PN} += "cyrus-sasl-sqlauxprop \
 libsql.so.3"

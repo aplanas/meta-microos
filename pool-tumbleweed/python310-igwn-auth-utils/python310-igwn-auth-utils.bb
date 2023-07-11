@@ -8,13 +8,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.0"
 
-RPM_NAME = "python310-igwn-auth-utils-0.4.0-1.2.noarch.rpm"
-RPM_HASH = "a3a9ac661b46b22bae1c3c51650695aa3493a87bb9bdd23a94e5522764e60778f9ae3ea533d11207f0722dd0a48a5b1a64a78fcdcd12caa7c7beec8a6ac5ef4c"
+RPM_NAME = "python310-igwn-auth-utils-0.4.0-1.4.noarch.rpm"
+RPM_HASH = "9f5986cd5c5237215f97ed232cb82ad0bd65bf812664e3b832d1405069f5f5f2eb02f395987cf8693defbc94e926453571c37abd8d12dab457b34348e3124de4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-igwn-auth-utils \
-python3-igwn-auth-utils-requests \
-python3.10dist-igwn-auth-utils \
+RPROVIDES:${PN} += "python3.10dist-igwn-auth-utils \
 python310-igwn-auth-utils \
 python310-igwn-auth-utils-requests \
 python3dist-igwn-auth-utils"

@@ -3,16 +3,14 @@ DESCRIPTION = "This package contains command line tools for processing large ima
 the VIPS library."
 LICENSE = "LGPL-2.1-only"
 
-PV = "8.13.3"
+PV = "8.14.2"
 
-RPM_NAME = "vips-tools-8.13.3-1.5.aarch64.rpm"
-RPM_HASH = "197811ce510d1fda862b9603a2a78d112dda729928e4b6575cf4d7cacdd118ef03a129bae1a2726378742ddb9483e04aded70b094d494bf1efa0e1f144905214"
+RPM_NAME = "vips-tools-8.14.2-1.1.aarch64.rpm"
+RPM_HASH = "4e7a9fc2cd61175deefb84004bca4b3ee965900dd55e5241cc62c0846082b9304c3ec7db4affe40c28a66a17cad5dd9f9eab24f78c3b862304d16996c1b04da7"
 
 RPROVIDES:${PN} += "vips-tools"
 
-RDEPENDS:${PN} += "/usr/bin/bash \
-/usr/bin/python3 \
-/usr/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/python3 \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libglib-2.0.so.0 \

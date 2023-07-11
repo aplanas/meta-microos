@@ -2,10 +2,10 @@ SUMMARY = "Translations for package lskat"
 DESCRIPTION = "Provides translations for the 'lskat' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "lskat-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "2bbedc3b6bdf6c0cc7cc79ea7fe8cbeacc33270bed0d50ba481486e5e82eca8af9bf88aec896901c917545815cbe1a79daa4d3120a01ddb706234f5c5bb76dfb"
+RPM_NAME = "lskat-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "27255c86bed7f2a3c246da1c425524b3fabc50508c7d84d00a17a58db6fdefab06bffbc7904d81d52a822bd6019ddeb7cb6db515439052cc02ea35abb24a767e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-lskat-af \

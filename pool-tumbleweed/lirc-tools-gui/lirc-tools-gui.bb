@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.10.1"
 
-RPM_NAME = "lirc-tools-gui-0.10.1-10.1.aarch64.rpm"
-RPM_HASH = "1e4b939bf01ac7280ca27a879e2b441d4df2ff75989f2ac84adea3d300a2557edacaec2c2e6ca385668f1a0222a9fe4e2978a023856e2a321ff4179e279f0d27"
+RPM_NAME = "lirc-tools-gui-0.10.1-10.2.aarch64.rpm"
+RPM_HASH = "b1ec7b35de23f01969afa764f4787ab446ab68f2f0e14cd0953615f4c14f6ee19cf536989ad2f25d3240273558c407057de3f75da07ace77dc3897ca607c1257"
 
 RPROVIDES:${PN} += "lirc-tools-gui"
 

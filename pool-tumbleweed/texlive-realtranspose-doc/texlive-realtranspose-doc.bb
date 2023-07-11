@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.1svn56623"
 
-RPM_NAME = "texlive-realtranspose-doc-2023.201.1.1svn56623-53.1.noarch.rpm"
-RPM_HASH = "49e3786df837da42c369c620a6f992eea1fc000ae6f206d8afe86e65ed220981833a0c815565a68bc0d03950d221bf830ba3d91aa170265392e43ed932b491fe"
+RPM_NAME = "texlive-realtranspose-doc-2023.201.1.1svn56623-53.2.noarch.rpm"
+RPM_HASH = "40ef336846808809003732d2c001654a9d01700f589df0ef5f0a6e1bb20c3e83921125797203b32a5e1f4d52dc2b90e411d6dceb5f88511a97ebadfba58a3f98"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-realtranspose-doc"

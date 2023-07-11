@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "2.40+44"
 
-RPM_NAME = "libffms2-devel-2.40+44-1.5.aarch64.rpm"
-RPM_HASH = "c4d779f7c7f63900c1a1a2e72050892bfe43b2171a88a6982c95a55bab5c140f37be7c45cae889d794a2c942fc553226a6309de60dc7a02c0beb31eee14b9674"
+RPM_NAME = "libffms2-devel-2.40+44-1.6.aarch64.rpm"
+RPM_HASH = "ee4fb8cb4ddfb4a2f61528682c6b9a490362b085fcdd7177a5e0f1aef4734cf65c945f145e2c6bbfd05673aabe5c273270a9585a264f94dea386bed231cdf855"
 
 RPROVIDES:${PN} += "libffms2-devel \
 pkgconfig-ffms2"

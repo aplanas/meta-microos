@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.2.0"
 
-RPM_NAME = "soapysdr0.8-module-airspy-0.2.0-2.8.aarch64.rpm"
-RPM_HASH = "84212dad6f9a6c3d9de4011e3d1556c420425000a0e3b13599d61a2724cfc3558d6a21e40befe51e3f49678e5a6ce1b1e9c248b1de3e52fe2470aca4273f3935"
+RPM_NAME = "soapysdr0.8-module-airspy-0.2.0-2.9.aarch64.rpm"
+RPM_HASH = "cc23e413077338218875d3862d2cea7ceb06a2dda64fdc33362cb90182f0bec860b90f08e584adb6c2cda56481e9530a06b8e361410419930ac7e7335cfe5fc8"
 
 RPROVIDES:${PN} += "libairspySupport.so \
 soapysdr0.8-module-airspy"

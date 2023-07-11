@@ -7,10 +7,10 @@ libpng is the official reference library for the Portable Network \
 Graphics (PNG) format."
 LICENSE = "libpng-2.0"
 
-PV = "1.6.39"
+PV = "1.6.40"
 
-RPM_NAME = "libpng16-devel-1.6.39-4.1.aarch64.rpm"
-RPM_HASH = "06663b505e5511b3c8bb18992586d0e42f33133d950cd00fda71ac71aa9e7efe741166aef46f3d220ec08d3e23e72506ad019543d5f2424add6d12a040ed8a5c"
+RPM_NAME = "libpng16-devel-1.6.40-1.1.aarch64.rpm"
+RPM_HASH = "e256045e8813b51a763785f3b95676c6db8fb1f5b308a9e282ff38ed94903fd260c672b1e79e67a87052006b7585b84730e07b9a0ae1be1edcaf048fbb781bcb"
 
 RPROVIDES:${PN} += "libpng16-devel \
 pkgconfig-libpng16"

@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.4.7.12"
 
-RPM_NAME = "python39-PsyLab-0.4.7.12-3.13.noarch.rpm"
-RPM_HASH = "5f9d9bd88faeff9c698fdd35c2d4870925379ba547b54b60e736c0a73eb9eddfdb1511ae3f21d0d1d14643ef0dc589f719f8c79adbfee5ccc101baaea77befc9"
+RPM_NAME = "python39-PsyLab-0.4.7.12-3.15.noarch.rpm"
+RPM_HASH = "caa1083bc241f4365cfbf68f8cef4eb45476537a650b7b596fa8f4b423fb2db0153380e65ea68dec7ddb98bbdc43fa38ec09d658a1a238e71c17ce743384fe21"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-psylab \

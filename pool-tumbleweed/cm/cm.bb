@@ -4,17 +4,18 @@ imaginary quadratic number fields and of elliptic curves with complex \
 multiplication via floating point approximations."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.4.0+gb2b8d4bd"
+PV = "0.4.2"
 
-RPM_NAME = "cm-0.4.0+gb2b8d4bd-1.4.aarch64.rpm"
-RPM_HASH = "03abb098f4507c854c8f14c9d66194a6b4744ba115241d9738ef62be0811fcb744cfbc3ab43d2ee0efd35c299386279badad59a946b3b306cc7407768222ee6c"
+RPM_NAME = "cm-0.4.2-1.1.aarch64.rpm"
+RPM_HASH = "68f1e97023bfb82a3756e71c1c1d324364d2a06db3e2e69660eb9619ac0b2a4c34b0f15e4a93c4fa050eb63800fcc82ad792d4138a1ecac31080d03f7fb4f135"
 
 RPROVIDES:${PN} += "cm"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libcm.so.0 \
+libcm.so.1 \
+libflint.so.17 \
 libgmp.so.10 \
 libmpc.so.3 \
 libmpfr.so.6 \

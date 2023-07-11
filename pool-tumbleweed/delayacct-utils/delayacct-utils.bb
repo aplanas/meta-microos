@@ -4,10 +4,10 @@ application spends waiting on disk I/O, swap I/O and CPU scheduling. \
 This can help pin-point resource shortages in a system configuration."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.3.4"
+PV = "6.3.9"
 
-RPM_NAME = "delayacct-utils-6.3.4-31.57.aarch64.rpm"
-RPM_HASH = "b1dcee8dc09a4f41130ef16e6a9e1de2c8b98847e36222279b54791c512fd690d951219c85f6b7ee8334d8ef5db0bca5e131c28c21980d1f7133f5767b279d51"
+RPM_NAME = "delayacct-utils-6.3.9-31.60.aarch64.rpm"
+RPM_HASH = "526582e005f5ccf91d6f25782ba9280c36e20139ee9cfa282bef0c58854c667c9f7ae9f30df92ec27248d61ef15c9848eb36d182c0645cf90b710af55341ce12"
 
 RPROVIDES:${PN} += "delayacct-utils"
 

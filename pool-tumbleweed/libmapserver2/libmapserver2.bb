@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "8.0.0"
 
-RPM_NAME = "libmapserver2-8.0.0-2.5.aarch64.rpm"
-RPM_HASH = "2429e06adf262fb2af8b8900a8a91a34aec6ecb001b3d17b49199feea3e317c4b9c7bce28a70a2bca6fc66a4425e4f78b860624b253e58842e81668185c5f260"
+RPM_NAME = "libmapserver2-8.0.0-2.7.aarch64.rpm"
+RPM_HASH = "a7edfdd40d0098b2f4ca3599d7520df01185b5a17ef766f1486834da952d29eef531ca8e20e84fec77d02bfc476f76e39b0a4e8a2215cfbf183d5f38281a2505"
 
 RPROVIDES:${PN} += "libmapserver.so.2 \
 libmapserver2"

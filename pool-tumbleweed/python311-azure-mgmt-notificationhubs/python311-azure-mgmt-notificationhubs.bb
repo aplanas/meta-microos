@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "8.0.0"
 
-RPM_NAME = "python311-azure-mgmt-notificationhubs-8.0.0-1.7.noarch.rpm"
-RPM_HASH = "02634caabb7ecce6d93494564a4286619a60768ab29fe1f158d35d2d03c9bf707dbf5d8668ebd3dcab335cde3a34c657442ba52ea3cab203f46ee133b16f2b68"
+RPM_NAME = "python311-azure-mgmt-notificationhubs-8.0.0-1.8.noarch.rpm"
+RPM_HASH = "50672110d98358142e75ba545fea85b6c9de6b601eba43e1599c153b40857148d3566d4e4c3eb18a77804e93cb60866f38f2dff8951c98460ad7ef04f40b4275"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-notificationhubs \
+RPROVIDES:${PN} += "python3-azure-mgmt-notificationhubs \
+python3.11dist-azure-mgmt-notificationhubs \
 python311-azure-mgmt-notificationhubs \
 python3dist-azure-mgmt-notificationhubs"
 

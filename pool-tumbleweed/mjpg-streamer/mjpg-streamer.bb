@@ -15,8 +15,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.0.0"
 
-RPM_NAME = "mjpg-streamer-1.0.0-1.1.aarch64.rpm"
-RPM_HASH = "1bca7a530541d2b9a55ba358a20063c26e57197090a7f80c65d1bde7c566390b341c745ff1eb910ff7a537d83e1dd2373661b612c0236c4a5f269933fa2623d6"
+RPM_NAME = "mjpg-streamer-1.0.0-1.2.aarch64.rpm"
+RPM_HASH = "6a7e0df7b84c8403d10ce1c1a728fcf06e9b988c96b946303752d5b757d6f200bf28b8f810952fedc38c0b8588c49755f96be82bae85b0740a809a65daab3c2a"
 
 RPROVIDES:${PN} += "mjpg-streamer"
 

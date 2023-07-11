@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.22.0"
 
-RPM_NAME = "vinagre-lang-3.22.0-15.10.noarch.rpm"
-RPM_HASH = "34283abb4bff8f06156b46f7f2f5623c8e8b417db655e38f01ad1b36b7937ab5f8f9ffe46458963961ecc654b3da1e50a2f12740f59608865678b6d10a5bfca4"
+RPM_NAME = "vinagre-lang-3.22.0-15.11.noarch.rpm"
+RPM_HASH = "995f6536faba0caac13261af0d5bd671cb202cb424d0c1f8674d720c2b2117e6ce63a2769e839748430f9223eda8292fb7cee06ad3b119c66b9a22b3050eca3d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-vinagre-ar \

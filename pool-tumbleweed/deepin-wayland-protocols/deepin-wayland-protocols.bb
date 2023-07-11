@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.6.0"
 
-RPM_NAME = "deepin-wayland-protocols-1.6.0-1.3.aarch64.rpm"
-RPM_HASH = "164193ee7d908fee9e9b9ca934d6658f077c64e72ee1286f5103d977b2869e5802f96319bda4f73bc54328480f9dd75159545ca91227931246977284237f8dea"
+RPM_NAME = "deepin-wayland-protocols-1.6.0-1.4.aarch64.rpm"
+RPM_HASH = "1786aa599af3984400cd36f7d8ce1d09c74e35d7bae59266623e9717e7c70bbf06b16ee6775e05d0fc54858b758534e8d4dd7b3565bc8137451eee805c99b338"
 
 RPROVIDES:${PN} += "cmake-DeepinWaylandProtocols \
 deepin-wayland-protocols"

@@ -2,10 +2,10 @@ SUMMARY = "The KDE Plasma Workspace Cursors"
 DESCRIPTION = "This package contains the Oxygen cursor set."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "oxygen5-cursors-5.27.5-1.1.noarch.rpm"
-RPM_HASH = "71418299e410e7d700c9459d1a9a5a2e17d30d393ae25e7b30e7353001fb288cc01d7d5268293b49b06785fb31ad2cd71feb7ebadae792f82c2160042f223f41"
+RPM_NAME = "oxygen5-cursors-5.27.6-1.1.noarch.rpm"
+RPM_HASH = "c0dc275b04eddce90249260df12b91e65c5d797ec14bb2bc60917b033d9c221128e87483633b82def6ed463d74eb4accf4a640e186160499d5a2fafc129bf933"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "oxygen-cursors \

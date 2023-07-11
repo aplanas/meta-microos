@@ -7,10 +7,10 @@ that allows the user to load only those symbols needed in a \
 document."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn24868"
+PV = "2023.208.svn24868"
 
-RPM_NAME = "texlive-ifsym-2023.201.svn24868-52.1.noarch.rpm"
-RPM_HASH = "98ef8003170898a30a57f12604ea3b692e053ae99cba598d5d5d8e4c41d9572b956d9fffcde94c6f083b993b6d2c89003a4e6f2c46618e57f0b0b6ee3076cc74"
+RPM_NAME = "texlive-ifsym-2023.208.svn24868-53.1.noarch.rpm"
+RPM_HASH = "39503bbd480fece58791c4e6fba41a1b197c2c945ae29d23488dc67f43b6aed01945a62e2cbc7ac61675678b073b9e8a2c468d8cee9294f0515836a32b67103e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ifclk10.tfm \

@@ -13,11 +13,12 @@ LICENSE = "MIT"
 
 PV = "0.10.0"
 
-RPM_NAME = "python311-stdeb-0.10.0-1.6.noarch.rpm"
-RPM_HASH = "5b224ad42ed4edf1e5809793147f5ebf7a38e1e5f054dedf9d9d6e0316e4cbe9ac117f4328c1d8c16b72ff51aa2de2b5769f4176ceffbde67929a4e3c3166b0a"
+RPM_NAME = "python311-stdeb-0.10.0-1.7.noarch.rpm"
+RPM_HASH = "5c45b0a4a9829777c2c925e59d08e5ffedd577005143a40b427ce73895af15c7a66c1384e34f2d9cceafce939c2d3fef5d2b7d36b40f1e0cb30472ac7ebae8eb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-stdeb \
+RPROVIDES:${PN} += "python3-stdeb \
+python3.11dist-stdeb \
 python311-stdeb \
 python3dist-stdeb"
 

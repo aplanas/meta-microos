@@ -10,12 +10,11 @@ LICENSE = "MIT"
 
 PV = "1.1.0b1"
 
-RPM_NAME = "python310-azure-ai-language-conversations-1.1.0b1-1.5.noarch.rpm"
-RPM_HASH = "28ef3af292273029f29b45cb9263f7f489e32205c3eabfd2170b3e07eb234753f6d68d72c0b6c3a629ead51e8b0bf735180b0e1e53a5bc1a9bd1592a764b5b65"
+RPM_NAME = "python310-azure-ai-language-conversations-1.1.0b1-1.6.noarch.rpm"
+RPM_HASH = "0cad07abd70015bc196619bc5d40629c68eb3d1d978b78b550320d4f1a7b2eef5683c04fcee4be017f2e34b131431ff6e34d86125307e6d80d0019f3a2825572"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-ai-language-conversations \
-python3.10dist-azure-ai-language-conversations \
+RPROVIDES:${PN} += "python3.10dist-azure-ai-language-conversations \
 python310-azure-ai-language-conversations \
 python3dist-azure-ai-language-conversations"
 

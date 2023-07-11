@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "9.4.2"
 
-RPM_NAME = "deal_II-openmpi3-devel-9.4.2-1.4.aarch64.rpm"
-RPM_HASH = "9b4f4ca63063542f9ba3ac9b5cbcd4ecca76c95d956b9e9df769c673c91b2a993c5208112f361e5945fb274a0651a00b0e5800b6abb0be5c1d1baed45717bf06"
+RPM_NAME = "deal_II-openmpi3-devel-9.4.2-1.5.aarch64.rpm"
+RPM_HASH = "4e7e63c2ea39f42ac6863617a664336eaefe8c10d5ca29ec2c7264caac84a927bf279dfe7910a339aa8d74c3a0085be645a758f5cda41db01d10afe7dc91e564"
 
 RPROVIDES:${PN} += "deal-II-openmpi3-devel \
 dealii-openmpi3-openmpi3-devel"

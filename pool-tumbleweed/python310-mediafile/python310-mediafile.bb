@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.11.0"
 
-RPM_NAME = "python310-mediafile-0.11.0-2.1.noarch.rpm"
-RPM_HASH = "23ee7562075ef78410e65b85bf1587e8fb06ca471310d682e95876a37f3afd63dfe2db9897a3110d1a6a7767f6cff267754b95eb0fe497747cf83a1908b84e48"
+RPM_NAME = "python310-mediafile-0.11.0-2.3.noarch.rpm"
+RPM_HASH = "80da37b176edc50e213f26e4609506db4fd940930ee2e711ce88c898fa071769f006b4f5c8f65f1f8613b9e74b38664c4455ace79670ee9a4fab69253a22855b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-mediafile \
-python3.10dist-mediafile \
+RPROVIDES:${PN} += "python3.10dist-mediafile \
 python310-mediafile \
 python3dist-mediafile"
 

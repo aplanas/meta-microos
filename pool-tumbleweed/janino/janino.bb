@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.1.6"
 
-RPM_NAME = "janino-3.1.6-1.10.noarch.rpm"
-RPM_HASH = "ccc13778153e81703cecc7fac1e9d62c506f3e4e66ceee7149383828dd6cc05bd033b868e9360349324fe9cb67cde50a600d2a00a187d7acb3dee9a721e5b100"
+RPM_NAME = "janino-3.1.6-1.11.noarch.rpm"
+RPM_HASH = "6da22752f2f80abd7cfb5c57519baa2f6b71d9d4bb888e7d828fe0d96aae2161564ff3172a536ad74fedc5526656d79a238ec31d908e4d27035bda4211feb315"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "janino \

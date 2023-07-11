@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "2.0.0"
 
-RPM_NAME = "python39-azure-mgmt-datadog-2.0.0-1.8.noarch.rpm"
-RPM_HASH = "b171a6f6c4d6dafda9872cc321bfaddce2cd23fbf18370a6c8122f093f3efa2f7602e7e5f608ec7145b0f131408ca40e3a1af130734849ec02b04cc138351d77"
+RPM_NAME = "python39-azure-mgmt-datadog-2.0.0-1.9.noarch.rpm"
+RPM_HASH = "dd5018e9d8fffcba29f4f6439828669686cc9d3d8c42e9f571d1c6962f256d75864b6fa2fba95cc9554c0773b9c16d00656e22bbe77ada0495a01026a9f43dce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-datadog \

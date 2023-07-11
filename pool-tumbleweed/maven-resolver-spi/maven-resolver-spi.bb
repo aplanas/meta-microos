@@ -3,10 +3,10 @@ DESCRIPTION = "The service provider interface for repository system implementati
 repository connectors."
 LICENSE = "Apache-2.0"
 
-PV = "1.9.8"
+PV = "1.9.12"
 
-RPM_NAME = "maven-resolver-spi-1.9.8-1.1.noarch.rpm"
-RPM_HASH = "21c6fbb645d0fd9185453da4918fe3adebe2ecbf34363a95628dbc1a835cefe7f7b146b739b544645c879fc3d89c78abe5855b12d64f53aac0613accc5e88230"
+RPM_NAME = "maven-resolver-spi-1.9.12-1.1.noarch.rpm"
+RPM_HASH = "6b2aed9e475ee1bc903db84269ed0e60da7091523710757b2b335fa2b7cf66f3e1eff06b7d6d9da0d5eb1a935a5d4beaac422d22a535889c5390671218257a9d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-resolver-spi \

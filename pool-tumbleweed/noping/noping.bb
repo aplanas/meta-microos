@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.10.0"
 
-RPM_NAME = "noping-1.10.0-1.18.aarch64.rpm"
-RPM_HASH = "235cc1821b906dbf31f332566babadac7a62c4c39abe649bcf89d7ae315e5346ce375e0c9c3f294c175c41bfa892971dd26e228ed2eca40329c10855eb03bf8e"
+RPM_NAME = "noping-1.10.0-1.19.aarch64.rpm"
+RPM_HASH = "30216dd6baa7ecdbf0aba57c80b40d537c9c2321393a567c553ae0af65e9964be087224ab3e60f5c6591244d50c602d41bf3320e3f3d72a8bda8e4f62ff4fc37"
 
 RPROVIDES:${PN} += "noping"
 

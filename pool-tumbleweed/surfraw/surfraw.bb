@@ -8,8 +8,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2.3.0"
 
-RPM_NAME = "surfraw-2.3.0-3.6.noarch.rpm"
-RPM_HASH = "2432b818afa4901e796d085cf0479b28136a6408c8a2709274855ef69b23d5ed634859c4b35116d7156422c2db6387ce38f7461c647ee184bd97bfa637f29eb9"
+RPM_NAME = "surfraw-2.3.0-3.7.noarch.rpm"
+RPM_HASH = "ca2345ef23c795a9ae8835b66493bc2c2fe88480d39a5ee3bedaf2d4f97b1ed98407846ed59dc24610c384ffe9eec27c1238ee4c27f263a9a0ed19fc8eb1601c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-surfraw \

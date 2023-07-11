@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.3"
 
-RPM_NAME = "ghc-filepattern-prof-0.1.3-2.4.aarch64.rpm"
-RPM_HASH = "0e937a75230e89e0ebb7e2d179e06454cab4bf3ba8b54f3be6facfbfe244bb6b0bb37748f66dee7de904fdf3ab18cea46d3c4dd5da34b3a27ab34b5bd514c50f"
+RPM_NAME = "ghc-filepattern-prof-0.1.3-2.7.aarch64.rpm"
+RPM_HASH = "94497aade5fc7341464bbe9f8e89dbe6f1bdc108ce3ac9db14fc3a5bb6ab74580c6afeaea8169e48b83f57379b598c9beb89fccf5701b8ba7aedde4aa9c5b650"
 
 RPROVIDES:${PN} += "ghc-filepattern-prof \
 ghc-prof-filepattern-0.1.3-CFBsL0RN2YG3tR2tZTKdgo"

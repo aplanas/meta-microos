@@ -3,10 +3,10 @@ DESCRIPTION = "Baloo is a framework for searching and managing metadata. This \
 package contains KIO slave components."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & LGPL-3.0-only"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "baloo5-kioslaves-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "ef6648c77d588682b2818441ec7a64e2520c4ea472e6c36b84d419a54f4ee634ac56570cfdedd0fee5a52bd550374c2b6691158c3dad9ff915b62614a6630558"
+RPM_NAME = "baloo5-kioslaves-5.107.0-1.1.aarch64.rpm"
+RPM_HASH = "7d5f8f1e85406c273448073fbcdc1cf93fd1e746503ffd0d814ee94a8b7b696eb103344dd5775ef099f0c7d285d5fed696264ee32afd460452f5432a83f4e259"
 
 RPROVIDES:${PN} += "baloo5-kioslaves"
 

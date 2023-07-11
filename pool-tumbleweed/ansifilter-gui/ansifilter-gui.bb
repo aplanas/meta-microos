@@ -2,10 +2,10 @@ SUMMARY = "ANSI Terminal Escape Code Converter - Qt GUI"
 DESCRIPTION = "This package provides a Qt Graphical User Interface to run ansifilter."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.19"
+PV = "2.20"
 
-RPM_NAME = "ansifilter-gui-2.19-1.3.aarch64.rpm"
-RPM_HASH = "99dccf6908bd0f3ba3e6b518ae8e6cd17fa838c90634c42cdefe30a4b6291b91014f98d47f01a1150d48263275b3e5740ebb140f0cbea5d5a74eefaaf67d3924"
+RPM_NAME = "ansifilter-gui-2.20-1.1.aarch64.rpm"
+RPM_HASH = "c51e099cdcc94fbda0859379e71d95ee8ad6d8abf926572bf756b5517babea809ee55437d0bd50dd30f800c6afe1dd9fd8b765c220ee60ffc6de9f0b94fa973a"
 
 RPROVIDES:${PN} += "ansifilter-gui"
 

@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "4.1.1"
 
-RPM_NAME = "python-oslo.policy-doc-4.1.1-1.2.noarch.rpm"
-RPM_HASH = "87e61d09bae36727206b6bdb4a2075be8dc6637e1edc60672447b900b637ee965589af63449981ef74dd4bcd2112cbb01b593b228e25ff1ff97d8ae1a191981c"
+RPM_NAME = "python-oslo.policy-doc-4.1.1-1.3.noarch.rpm"
+RPM_HASH = "a782ade4dfbf698dfb9899c4f9f5842992fc33bd2b6384d96a7292bba17af51901c72085937681b641a40445a94ee56897282afbc53c5258c36be99b1711ad0d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-oslo.policy-doc"

@@ -7,8 +7,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.4svn65803"
 
-RPM_NAME = "texlive-pxpic-2023.201.1.4svn65803-53.1.noarch.rpm"
-RPM_HASH = "e15b9bbb4c7284f6738abd0e8676d8175525cf47685530c27d5053b826afd75e425f0b28fac555a843d12ee1ff982645c1b21f4f0f5ee3fe98e19c9a9a7a8a79"
+RPM_NAME = "texlive-pxpic-2023.201.1.4svn65803-53.2.noarch.rpm"
+RPM_HASH = "1e585abd7fcde95654efd68ea214f6333524bfeb4c6e2b7dc2164a0fe3aa6805fc868c30f8aae342cfd7ff83530da616c44146addceb37e5c10de5d34c6fc85e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pxpic.sty \

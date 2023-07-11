@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.6.11"
 
-RPM_NAME = "libQuotient0_6-0.6.11-2.3.aarch64.rpm"
-RPM_HASH = "ffdd9ed1810455a817531f531e971a8a0bf4100f3972c3eac0a728c078dcb6a030e8315db69e448dc6e5fbf84ad4ed21d05c1740778a4edc12eb64c64aaf44d4"
+RPM_NAME = "libQuotient0_6-0.6.11-2.4.aarch64.rpm"
+RPM_HASH = "1433a14291c2fbefa1d8ebe284c617c59db48b5e9a0e7ddb059eafef4820c108ddcfd5e7f8982150fc5d40030d2658fe567a07b864eeacd2368c450ad92ffeba"
 
 RPROVIDES:${PN} += "libQuotient.so.0.6 \
 libQuotient0-6"

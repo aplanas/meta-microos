@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.13.1"
 
-RPM_NAME = "gmavenplus-plugin-javadoc-1.13.1-1.14.noarch.rpm"
-RPM_HASH = "d8a175a3af9fdbaf0f5d9f6550160304d34b201ced8fe9613a6d104b30be211eb02317af871631724b549c85f7cbda0e434848d1974039bbe0f9429135a1c2dd"
+RPM_NAME = "gmavenplus-plugin-javadoc-1.13.1-1.15.noarch.rpm"
+RPM_HASH = "6c2aac912513c37abfb3482dab6e0fffed14e11daf8996ec54cfd34576c83d33d5ced0476ffb123f0425c6baa5d7eab4c7ffaa36f23ef7c51e8be5a73125c728"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gmavenplus-plugin-javadoc"

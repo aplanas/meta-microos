@@ -8,11 +8,12 @@ LICENSE = "MIT"
 
 PV = "0.0.0b1"
 
-RPM_NAME = "python311-azure-communication-nspkg-0.0.0b1-2.11.noarch.rpm"
-RPM_HASH = "4b15914a01bb07f3191f62b6615d7b184e602d7487412f2ea163eaa50a7e7744e0ec83e03da1f3d7e0b86b37b5d0553149a8f1bb1f929b86ff6b4ac4000f733e"
+RPM_NAME = "python311-azure-communication-nspkg-0.0.0b1-2.12.noarch.rpm"
+RPM_HASH = "df6b12bf61b9151e72849e4bb51484b2b92a00e4e3424e3c3fc401ce831003b793cb5154073505c9083a8e27449b65043ef851cbee25a037a33876c34d80c4c5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-communication-nspkg \
+RPROVIDES:${PN} += "python3-azure-communication-nspkg \
+python3.11dist-azure-communication-nspkg \
 python311-azure-communication-nspkg \
 python3dist-azure-communication-nspkg"
 

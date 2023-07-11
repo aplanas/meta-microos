@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.0.1"
 
-RPM_NAME = "libXpresent-devel-1.0.1-1.3.aarch64.rpm"
-RPM_HASH = "020619c42d9113b0a4f440e889ab47cb0ace32f3400e7016e464b0810748da90dff44c007efc1ed7a4bc84d20a8fe2add1c4cde0d09a0b624670d5b102512eef"
+RPM_NAME = "libXpresent-devel-1.0.1-2.1.aarch64.rpm"
+RPM_HASH = "0cb2ade2688494da866ae7eeae45a841a90bd1f61621ede4fd3dedfd647481efd057bc9a0d5df65785c16d19088bb5557df8d6be10fddc29a0de0fe0e3eb209a"
 
 RPROVIDES:${PN} += "libXpresent-devel \
 pkgconfig-xpresent"

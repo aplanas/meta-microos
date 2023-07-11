@@ -5,12 +5,11 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.2.1"
 
-RPM_NAME = "python310-xapp-2.2.1-1.16.noarch.rpm"
-RPM_HASH = "551770c6186dd86ccd1f774a397395b15a4dc431d1c88c25bdba125adb8a80e45c6a5e74358da79672191a61797d047616befc1b728f59e81350c53199ece839"
+RPM_NAME = "python310-xapp-2.2.1-1.18.noarch.rpm"
+RPM_HASH = "aae70b16393895d1eb53b70365fb1b1a0dd68a78bda6a3954aceb32d8c027e4100a8dcfc5888b54224ec396ca82ae1b82f849c62557c127e59e8b7453e281f73"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-xapp \
-python3.10dist-python-xapp \
+RPROVIDES:${PN} += "python3.10dist-python-xapp \
 python310-xapp \
 python3dist-python-xapp"
 

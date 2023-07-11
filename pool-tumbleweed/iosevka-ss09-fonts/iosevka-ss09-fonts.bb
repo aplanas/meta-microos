@@ -7,10 +7,10 @@ This package contains the Iosevka SS09 typeface (monospace, Source Code Pro \
 style)."
 LICENSE = "OFL-1.1"
 
-PV = "24.0.0"
+PV = "24.1.4"
 
-RPM_NAME = "iosevka-ss09-fonts-24.0.0-1.1.noarch.rpm"
-RPM_HASH = "430fc5c1da6ca8d4a9abbfdef2e7f541c8bca24c4798f2b88c174c8eb7dae4aca3565830eac37c520d912762c32ce382f1ea0a4c07125d5b5960f8afefd8d4f2"
+RPM_NAME = "iosevka-ss09-fonts-24.1.4-1.1.noarch.rpm"
+RPM_HASH = "4c9f241362abf0e0448b38d1797ced3e1e8994a9f34d18a9276c2cf4ef743fe9ce92839af413055a050350c4bff8ccc8ba804d51fa19d04fcf9bfcf5313acc5b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "iosevka-ss09-fonts"

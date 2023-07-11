@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.9.20"
 
-RPM_NAME = "etherape-lang-0.9.20-3.3.noarch.rpm"
-RPM_HASH = "8796aaca45e9e797e1454ba55b0f92c7c52d96e9ae617fad901f03c4db366e621fd4d9b3b779ac4564e5e99a8bf2ed89c62059104d1e967f22fd4aa9dc539e02"
+RPM_NAME = "etherape-lang-0.9.20-3.4.noarch.rpm"
+RPM_HASH = "761520c97b4807036f226438a4a20c74bba82d409574f663069243719267ee2efa9ab6f7004f595bb28e700a705c33aebaf2e071a073f60b49a706e17ad10cb2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "etherape-lang \

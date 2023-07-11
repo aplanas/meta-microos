@@ -5,12 +5,12 @@ LICENSE = "GPL-3.0"
 
 PV = "23.1"
 
-RPM_NAME = "cloud-init-23.1-1.3.aarch64.rpm"
-RPM_HASH = "9d02c8cd2f1f3e114bbbd9df43a409693c0d23cd131fea361c7498449cfcdf28dc0ac447c3f2dd76d8e6e55699bfb6bd2b3a6cd381ebbf34e895ed9546181cd0"
+RPM_NAME = "cloud-init-23.1-1.4.aarch64.rpm"
+RPM_HASH = "e3b2df18e65a30a3d172621b708a3e5f5a5320aca62aa4877b787fda948acf81da7727cff1ad3d54bf1cbf92f1524fc71914db43a94c7d8efc019305c6a17dec"
 
 RPROVIDES:${PN} += "cloud-init \
 config-cloud-init \
-python3.10dist-cloud-init \
+python3.11dist-cloud-init \
 python3dist-cloud-init"
 
 RDEPENDS:${PN} += "/usr/bin/bash \

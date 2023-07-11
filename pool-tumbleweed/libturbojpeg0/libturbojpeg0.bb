@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "8.2.2"
 
-RPM_NAME = "libturbojpeg0-8.2.2-75.1.aarch64.rpm"
-RPM_HASH = "61b1365f7f95c9317964ca18fd9074116d4b71f271c743451d06a3cac245c6ea29767eb7cec0832cddef35e2a35873b7122dbc6198f6f9fde01bfd4fcc33e08a"
+RPM_NAME = "libturbojpeg0-8.2.2-76.1.aarch64.rpm"
+RPM_HASH = "b7ce4364721a4551411eb311566c1d693683c9d877bc810a63e9eb0a0ae643e7c53de2b53b3422c9550731eec7353d774aa8df8025fcaa2da11dd1ac738c3aaa"
 
 RPROVIDES:${PN} += "libturbojpeg.so.0 \
 libturbojpeg0"

@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.9.5"
 
-RPM_NAME = "herbstluftwm-bash-completion-0.9.5-1.4.noarch.rpm"
-RPM_HASH = "0dd1ed4595dbfa72ca610371c95cccabefef265019df8cef27c51d715d9808a84029ebf1678d91f164ef84fce09f9d58e1000867783c4a0adb8dfd8fb9db8e81"
+RPM_NAME = "herbstluftwm-bash-completion-0.9.5-1.5.noarch.rpm"
+RPM_HASH = "5a496384387b019a367b69d42bd782178c63a14e1ddc15db4ae8f92cee5142597711dd6a7d7f65917ac0a7723bf00666ae17e00f80bf7da0227f3f2d799bb389"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "herbstluftwm-bash-completion"

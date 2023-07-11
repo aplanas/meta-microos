@@ -4,12 +4,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "3.1"
 
-RPM_NAME = "python310-tap.py-3.1-1.6.noarch.rpm"
-RPM_HASH = "2e7a0ee80e07cd21e4440c52b5cf0ab510d262ad2513c54f99799e84b8db211becae9d9f439a7268fbb20b6136973249058652196be94da448f17fbb960c5c79"
+RPM_NAME = "python310-tap.py-3.1-1.8.noarch.rpm"
+RPM_HASH = "37191cb74276d2be7d17f5fe3bd05f2d980b8736f08389ea4c41e451daf66ae7a5f4b34627a10ac34b6ba22dcbb71098a0eb1140aec6846a3d2cd53e144c29d5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-tap.py \
-python3.10dist-tap.py \
+RPROVIDES:${PN} += "python3.10dist-tap.py \
 python310-tap.py \
 python3dist-tap.py"
 

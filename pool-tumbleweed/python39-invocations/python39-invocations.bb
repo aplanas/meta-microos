@@ -12,8 +12,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "3.0.2"
 
-RPM_NAME = "python39-invocations-3.0.2-1.1.noarch.rpm"
-RPM_HASH = "6acc3417137666624d608e5178753c89cb906d1d837229bf7daa50bee0c1b844b0436f0d7a79dc05603d2c3af6f5bcaa21275b7c39d23e983cb8dfd8427b628c"
+RPM_NAME = "python39-invocations-3.0.2-2.3.noarch.rpm"
+RPM_HASH = "3f692087fdd6997b74a19195028a4e13fcb7c628606fb4e2bd9a83f844cad777e9b9c452da85c04622885cdf682600648f55012e07281407085cb9ecf5b73bbc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-invocations \
@@ -26,7 +26,6 @@ python39-invoke \
 python39-lexicon \
 python39-releases \
 python39-semantic-version \
-python39-six \
 python39-tabulate \
 python39-tqdm \
 python39-twine \

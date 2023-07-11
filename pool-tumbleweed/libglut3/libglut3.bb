@@ -12,8 +12,8 @@ LICENSE = "MIT"
 
 PV = "3.2.2"
 
-RPM_NAME = "libglut3-3.2.2-1.7.aarch64.rpm"
-RPM_HASH = "067e2969df233ea0fdf048fe662563ad18e3635b1952ed9774958330fbb7cde4fc0ae4cceb76d4b907084bdbac5a775ceab3c4a68eb5be2f7ae7b72017256500"
+RPM_NAME = "libglut3-3.2.2-1.8.aarch64.rpm"
+RPM_HASH = "b2d4da171b75eb8f8b87fb513c020d801bf907abbe84a751651e22fa474d39e6550f9a87c9be0cc6177ad8585998408fc5aeb1941160e4096ec7f9b555e11cd5"
 
 RPROVIDES:${PN} += "libglut.so.3 \
 libglut3"

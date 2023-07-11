@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.0.11svn66146"
 
-RPM_NAME = "texlive-yathesis-doc-2023.201.1.0.11svn66146-52.1.noarch.rpm"
-RPM_HASH = "5ee65a94f57c629553723c240dd1ca597ff8f27439d09f5b2b7d32dea9c754579771b230f39e2e89e8dc24242ebb393e842ecfff1419ba4ae97d59c53d2bdd5a"
+RPM_NAME = "texlive-yathesis-doc-2023.201.1.0.11svn66146-52.2.noarch.rpm"
+RPM_HASH = "4221429e73e80b71b1ffeace13556b23212fe1e14889ede5779ba7ceec7fee056fb0158709cb9e21f482d0e9569469b6da2be971f17282c43a6075b75e3e51bc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-yathesis-doc-fr \

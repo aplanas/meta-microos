@@ -4,10 +4,10 @@ plugin to use Belgian eID (electronic identity) card in order to access \
 websites and/or sign documents. This package contains the actual libraries."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "5.1.4"
+PV = "5.1.11"
 
-RPM_NAME = "eid-mw-libs-5.1.4-1.4.aarch64.rpm"
-RPM_HASH = "151b60594b74ebecd14a33ca07a10a013bb0f4d176fb1f112f8e3c9f5179c89dd44b8823ed6c48788ccb2c36588e5523ffa88f4d5caa63fe583b8172a4b31ea9"
+RPM_NAME = "eid-mw-libs-5.1.11-1.1.aarch64.rpm"
+RPM_HASH = "41e2ab59c3d636c5058a1f17549e425e32098d5e4c2acc34a24bd4cc4a10556e9c4bc4207e996d6002d838bba1cd8a9c3c26d0708ac0e666c47eb14e1740dd00"
 
 RPROVIDES:${PN} += "eid-mw-libs \
 libbeidpkcs11.so.0 \

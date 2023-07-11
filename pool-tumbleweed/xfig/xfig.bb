@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "3.2.8a"
 
-RPM_NAME = "xfig-3.2.8a-3.8.aarch64.rpm"
-RPM_HASH = "bb00dd96e7864fe9b8e98ca363ab381dd6ea45f941467e16e3852e903e849a0b3bca565a9cb4c522629b1ab0e171615ddb4ad57b4be65b1edb8be5a2bea512e8"
+RPM_NAME = "xfig-3.2.8a-3.9.aarch64.rpm"
+RPM_HASH = "aad49cc92a35493ed6eb4622a9d15843ac164660982e246018a7876e34ab0a0e822d331a32a866181c9fb0d77ecfe5f0e1fdc916f615d6a930e6f03b8a3c9573"
 
 RPROVIDES:${PN} += "xfig \
 xfig.3.2.3d"

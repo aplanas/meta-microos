@@ -2,10 +2,10 @@ SUMMARY = "Command-line tool to sign files and verify signatures"
 DESCRIPTION = "Rust implementation of Minisign, a tool to sign files and verify signatures."
 LICENSE = "MIT"
 
-PV = "0.6.1+0"
+PV = "0.6.3+0"
 
-RPM_NAME = "rsign2-0.6.1+0-2.7.aarch64.rpm"
-RPM_HASH = "1efd5041399bc21ae93a3314d32f904d711f00a7cc094ee5705f432455eef618a4c7fdea39faf1614f9d93cd8f1e3d2a0ae87f35ade6991fcc582af2886a5af3"
+RPM_NAME = "rsign2-0.6.3+0-1.1.aarch64.rpm"
+RPM_HASH = "41996c41c05e077118c8d034eef3d5aeda21700bcb92b793b1d6c0c0767d853d2a460c31057b41178a432830ae1932e2d809b8d01a87b0be1d6e12c172af1437"
 
 RPROVIDES:${PN} += "rsign \
 rsign2"

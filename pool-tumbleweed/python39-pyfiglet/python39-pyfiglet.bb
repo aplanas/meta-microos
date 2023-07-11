@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.8.post1"
 
-RPM_NAME = "python39-pyfiglet-0.8.post1-2.13.noarch.rpm"
-RPM_HASH = "8f71b3087862e252f491720eacb58cd338d022a72b9576d6fec7ed8738461e595012f0efa6e742304e0394677815b4158482e38f72204cc02c33f8e9a6ba157b"
+RPM_NAME = "python39-pyfiglet-0.8.post1-2.14.noarch.rpm"
+RPM_HASH = "c203e4fb56fd3132f331fb735705c3491c7714760945b8ec23dd8f9fd5e1e05b4c0cc37532b22ee96d3e0e60e74c55902d32a55439c65614434c657009d7f92c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyfiglet \

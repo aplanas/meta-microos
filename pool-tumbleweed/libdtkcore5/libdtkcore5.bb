@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "5.5.33"
 
-RPM_NAME = "libdtkcore5-5.5.33-1.7.aarch64.rpm"
-RPM_HASH = "d051596d43f081b5d66e77cec9d6990509cc1986707901aaa237124cac23d32deec78a6a708ad73d20b6f967a2798853dba07c57cc0ccae07746b4e6a2666c3c"
+RPM_NAME = "libdtkcore5-5.5.33-1.9.aarch64.rpm"
+RPM_HASH = "30b0620cff4a74ebc39aa5919341cb5d3e071a0e149c9ffd8976397cf1fade1100ce45a55a0a6fc8de0ccb7d78c9bf2989b52b365e0aaaa117972ab0e6992ea7"
 
 RPROVIDES:${PN} += "libdtkcore.so.5 \
 libdtkcore5"

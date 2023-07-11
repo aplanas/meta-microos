@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the Cockpit user interface integration with
 utility setroubleshoot to diagnose and resolve SELinux issues."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "276.1"
+PV = "293"
 
-RPM_NAME = "cockpit-selinux-276.1-4.4.noarch.rpm"
-RPM_HASH = "b2394eb27148254499376783b6255ea89d0ea16db6d53d1a92196d6c3028610b0cb309bcfe3b78ab3c6cfda288f7e27b7a9f9ee4bdb630e71bb19b3e930ccb42"
+RPM_NAME = "cockpit-selinux-293-1.1.noarch.rpm"
+RPM_HASH = "e57b40caf00e074dfc484249d2c2e3f63b9ca0ddf94e2ba9693610e41df0c64804da290bc80ea69395ff9248b19b733cd6fad63ae90fffd04cf6209bc54bc66d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cockpit-selinux"

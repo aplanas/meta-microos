@@ -12,11 +12,12 @@ LICENSE = "MIT"
 
 PV = "0.4.17"
 
-RPM_NAME = "python311-wptools-0.4.17-4.17.noarch.rpm"
-RPM_HASH = "3c003889db8105445334ef93e075aaf5883d53818a5dbab12635ba6c24a18276c9a3a8365784094893363b061c859bd68a8626ef127326cb235cc7ec61002e9c"
+RPM_NAME = "python311-wptools-0.4.17-4.18.noarch.rpm"
+RPM_HASH = "77b764f5227c9d4a223b4a287c8b8eaeb4c897d172eab0cc59b051715c405659dc7c956960d96b1134a58545a3b9ca80bf6d449a030d35f1f3abf741dc818f4c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-wptools \
+RPROVIDES:${PN} += "python3-wptools \
+python3.11dist-wptools \
 python311-wptools \
 python3dist-wptools"
 

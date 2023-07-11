@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.1.2"
 
-RPM_NAME = "python39-tcolorpy-0.1.2-1.3.noarch.rpm"
-RPM_HASH = "bcf39d0d0187ae3689bae7265b6e96abc9c04b4b259f0b7d8039982a836f5a8f171884df8d9be01a7985718fe9b2b98c98cd0a09d155a266344e3686daf41c2e"
+RPM_NAME = "python39-tcolorpy-0.1.2-1.5.noarch.rpm"
+RPM_HASH = "4096f28d286669df3f6fc378e3fc6c71a2f47dd7d3bd5e896eed047c78d80de9f6d26bb0c9bbbc1cc4615a45705b70457bc5ab251a00ce410bf4a882fe5d69de"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-tcolorpy \

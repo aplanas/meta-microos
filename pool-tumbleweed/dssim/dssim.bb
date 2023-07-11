@@ -5,8 +5,8 @@ LICENSE = "AGPL-3.0-only"
 
 PV = "3.2.3"
 
-RPM_NAME = "dssim-3.2.3-1.1.aarch64.rpm"
-RPM_HASH = "03963408f5717d7fb200bdd6b7c52b0213e44975400b06498c40af00d517caf4202ccbcaca8250772636a2be68c7de7b8a51512ad5a859d998a45d08c98a1271"
+RPM_NAME = "dssim-3.2.3-1.2.aarch64.rpm"
+RPM_HASH = "c3128f337e0e7c6bb932e83436b9c23df1292ba0e8055a70d36f579093c2852944919ff9a4c27f7db78a804a1639bf673d9ac152e45dc059ff8ddadf6283834e"
 
 RPROVIDES:${PN} += "bundled-rust-crate-adler \
 bundled-rust-crate-ahash \

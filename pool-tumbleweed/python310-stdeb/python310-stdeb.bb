@@ -13,12 +13,11 @@ LICENSE = "MIT"
 
 PV = "0.10.0"
 
-RPM_NAME = "python310-stdeb-0.10.0-1.6.noarch.rpm"
-RPM_HASH = "d2ca4e7d17e9440dd7c95ffd2c559060636da733f54c631a95c909f90e490fb5d1cbe05c12886f41076fccea049907f7f6ece985933a332f572bf8128f2ee372"
+RPM_NAME = "python310-stdeb-0.10.0-1.7.noarch.rpm"
+RPM_HASH = "64555226d64e1856385ecbdd9da8b058c1d0404df0b6e45b395ec03b10e30383e073d5ef481901f0bf57f7b3310ca89e6a547c3a8815b19fb7e58be8548b4361"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-stdeb \
-python3.10dist-stdeb \
+RPROVIDES:${PN} += "python3.10dist-stdeb \
 python310-stdeb \
 python3dist-stdeb"
 

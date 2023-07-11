@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.6.0"
 
-RPM_NAME = "python310-PyCondor-0.6.0-1.4.noarch.rpm"
-RPM_HASH = "c77f8540605e973c13ce8e35040083e937325a72794d72b54ab30ee6e066e20f6c0707c140404d2a6a558707596d6f21a473d0cef159c8d3aaa5696ed4351838"
+RPM_NAME = "python310-PyCondor-0.6.0-1.6.noarch.rpm"
+RPM_HASH = "d3b68f8480371a8539e50bb7db2e90645fe25fd56166738212c6661322c5732c4c71570e8fccf61c8fa84ef154881e7bf36d971e869a18d99332de8817028627"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-PyCondor \
-python3.10dist-pycondor \
+RPROVIDES:${PN} += "python3.10dist-pycondor \
 python310-PyCondor \
 python3dist-pycondor"
 

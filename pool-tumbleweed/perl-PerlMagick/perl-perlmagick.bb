@@ -4,10 +4,10 @@ the module to read, manipulate, or write an image or image sequence \
 from within a Perl script. This makes it suitable for Web CGI scripts."
 LICENSE = "ImageMagick"
 
-PV = "7.1.1.11"
+PV = "7.1.1.12"
 
-RPM_NAME = "perl-PerlMagick-7.1.1.11-1.1.aarch64.rpm"
-RPM_HASH = "f3d189534f1afb3f3e65b7db8a8a5a22e48e388b280360926ddc5fee76e0821868e9e56f2b757471307279445fc12664f5a22ef98512c9f6d91129b85a2b3f85"
+RPM_NAME = "perl-PerlMagick-7.1.1.12-1.1.aarch64.rpm"
+RPM_HASH = "c4da6029597a28bc6faaa1311426f3624ab373cf427766598834a9f7cfaa113abd2a11b46dfe5b9a9cee8747a92c1cf83e03e4e5d23cd1b9e05dbc0702b20dd8"
 
 RPROVIDES:${PN} += "perl-Image--Magick \
 perl-Image--Magick--Q16HDRI \

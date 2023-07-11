@@ -15,14 +15,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.25026"
 
-RPM_NAME = "perl-PkgConfig-0.25026-1.3.aarch64.rpm"
-RPM_HASH = "7401f837407c9779cc418cfadfff336aa3cb09d3829f3fda0d309649c605922f86df6be4b00779fc4c357eb3673f5daf21677803e51528939adb333d0898181e"
+RPM_NAME = "perl-PkgConfig-0.25026-1.4.aarch64.rpm"
+RPM_HASH = "f04b15f6e8e3288fabbe06a61c55b0d7d1b878df862691d1a43d7ebf01baee6d0064d72b7bf754afc1828a3c8850be9a1e4918e17f037eb6389b68d12e8b075e"
 
 RPROVIDES:${PN} += "perl-PkgConfig \
 perl-PkgConfig--Script"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-Test--More"
 
 inherit rpm

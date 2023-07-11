@@ -4,14 +4,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.9"
 
-RPM_NAME = "perl-Net-Dropbox-API-1.9-2.18.noarch.rpm"
-RPM_HASH = "47387efd9b78ccf0d164681efe95b37d1a938dddefca4deb9e9f25118b3d1fa3733569ceba8baf677f16ef0a2cf6414e1b71cae6ee1f5e8f440d7ff544c2dd0f"
+RPM_NAME = "perl-Net-Dropbox-API-1.9-2.19.noarch.rpm"
+RPM_HASH = "c6afaf5ecc4d4b044d308b3cd7ddc20b2bdd597d0af1fbe8087bd5809b8816e369ff1faaabba51b7f24781ac4aa5ccbc0923550e841f40322fed522a4b2942bd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Net--Dropbox--API \
 perl-Net-Dropbox-API"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Data--Random \
 perl-HTTP--Request--Common \
 perl-JSON \

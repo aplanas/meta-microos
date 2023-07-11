@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.16.0"
 
-RPM_NAME = "xdg-desktop-portal-1.16.0-1.3.aarch64.rpm"
-RPM_HASH = "25d75899b25adabd4d40ad5b7c830db7a68b9fa6781cf6ac4a0a82a83820a91a04e2af6046b0f9ad2ce51fd999b3e24196623e9822cddfda8a52f88a3931917b"
+RPM_NAME = "xdg-desktop-portal-1.16.0-2.1.aarch64.rpm"
+RPM_HASH = "cf49cbf2ddc08981f85e55556d8875aa86938042fc22859babaa08b4d1f7dfabfc279374c31d357b7094342a22b0c8fe8ffabdb0529615fd1bcfc31a0b93f242"
 
 RPROVIDES:${PN} += "xdg-desktop-portal"
 

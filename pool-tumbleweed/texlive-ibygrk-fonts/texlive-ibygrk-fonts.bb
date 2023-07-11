@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-ibygrk"
 DESCRIPTION = "The  separated fonts package for texlive-ibygrk"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.4.5svn15878"
+PV = "2023.208.4.5svn15878"
 
-RPM_NAME = "texlive-ibygrk-fonts-2023.201.4.5svn15878-52.1.noarch.rpm"
-RPM_HASH = "64158a97fb529d92e37dd75416bc494d689234348cd07bb606918ef6a867a77401a4f684cef6a8fe7af469a09ef0eecea19cdd22a406cdc783aa2709f2886ad5"
+RPM_NAME = "texlive-ibygrk-fonts-2023.208.4.5svn15878-53.1.noarch.rpm"
+RPM_HASH = "f8f834e6765bd31ebbe64bc46e13fa30afd9c5828e18ba77217988d4af5a123334688300ae5844fab0c2c885f11f825470eb795d84f0bcfdb09f6b91f7ed3753"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-ibycushtgpolytonicgreek \

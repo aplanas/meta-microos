@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "2.0.0"
 
-RPM_NAME = "python310-azure-mgmt-databox-2.0.0-1.1.noarch.rpm"
-RPM_HASH = "26468cc1faf04c24c8dae6124d520abdb32c8ae9d9a62dca17dfb35c669c8c043d55470fa37a968bcc5ae2dc58142ae7bf691b78b19035a8ae8bc412c33532a3"
+RPM_NAME = "python310-azure-mgmt-databox-2.0.0-1.2.noarch.rpm"
+RPM_HASH = "19638b9099a5f3e748aa6ea440e22f8322e96abe1acbf718f38839ac64f8758e4030dcc36f32263a7b8a462d123a4df6d0020c412ce09c1e3fc6205da8646678"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-databox \
-python3.10dist-azure-mgmt-databox \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-databox \
 python310-azure-mgmt-databox \
 python3dist-azure-mgmt-databox"
 

@@ -13,8 +13,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2.0"
 
-RPM_NAME = "jmock-javadoc-1.2.0-30.6.noarch.rpm"
-RPM_HASH = "269afcdbd9bd548da484609f8f9d8eda598d7568876aff69c759de769608aff92d6c2e93874e28c2dc003b7c778f64ffb1677c7dd160632965cbcf6a8770ebde"
+RPM_NAME = "jmock-javadoc-1.2.0-30.7.noarch.rpm"
+RPM_HASH = "8c964bb3804ab7de369966067ca5dea09a64fb03fc033179675630f027ac6619e1c13c4d14f7a0fc5b523b92ddf531213eda8e73de3f359fa1b85d521a419dd2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jmock-javadoc"

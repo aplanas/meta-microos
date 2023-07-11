@@ -10,8 +10,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.1csvn32818"
 
-RPM_NAME = "texlive-quoting-2023.201.0.0.1csvn32818-53.1.noarch.rpm"
-RPM_HASH = "0e8fa0537be65a3ef272ab59884776d39aba32153ce64e9e3c6c9b502dd78ec253341722f7aaa9afcae71750aa51cdadec204b80657b8ad99eaab4179d462cca"
+RPM_NAME = "texlive-quoting-2023.201.0.0.1csvn32818-53.2.noarch.rpm"
+RPM_HASH = "343a8557d36e36fac506b979542ca50f3fcc4d300a44f1a442b19563f5025aa5b192906cdbb05a107cff3e4115571fbfa18d30ff9058f53b5bbdc736ababe2ae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-quoting.sty \

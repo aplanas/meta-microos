@@ -4,12 +4,12 @@ DESCRIPTION = "provides compatibility to YUM needs-restarting command using zypp
 Authors: \
 -------- \
     Michael Andres <ma@suse.de>"
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
-PV = "1.14.60"
+PV = "1.14.61"
 
-RPM_NAME = "zypper-needs-restarting-1.14.60-1.1.noarch.rpm"
-RPM_HASH = "d9cd3ee445af5c6fd0554c1989ce9bada9f1d9f4a3adb57f1d7768521effd566129a0046e3d30f8a44646f591fb61a840ab0a58cbc4b6eeace8602b2230fc956"
+RPM_NAME = "zypper-needs-restarting-1.14.61-1.1.noarch.rpm"
+RPM_HASH = "1e005e99e6d7d4f18cf3782b2e079fef83ea60253f3d0736c5b74e6f82f46d2a4b3cf4dea7a4a952493a9f9be9256651f7957afffe96b62276a779270e6fd8f4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "zypper-needs-restarting"

@@ -14,8 +14,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.0svn24504"
 
-RPM_NAME = "texlive-emarks-2023.201.1.0svn24504-53.1.noarch.rpm"
-RPM_HASH = "7288d259b40cd55a3e287bf66345115cb99d29f502c321c51822bc2dab5e346ee52e2fe920f096d4c2261b7fcfb08a0131c3ee528aa6159f1ef3efaebc8e5bd1"
+RPM_NAME = "texlive-emarks-2023.201.1.0svn24504-53.2.noarch.rpm"
+RPM_HASH = "49d46793c333afbe0bdbb51f003764e53a2a7e7ca4c932011dfc96c1ac0697c8b7da0c850ec8bd4d5b4a9f0634970c6611e756f2555ac720efe1d6769c9d1809"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-emarks.sty \

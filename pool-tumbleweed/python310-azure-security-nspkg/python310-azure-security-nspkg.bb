@@ -8,12 +8,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python310-azure-security-nspkg-1.0.0-1.10.noarch.rpm"
-RPM_HASH = "93fed4dba2cbd77e2c3dc984f961054d65a70fc656a0deaa21358984483b73a6fd96bc60a107ce9b6e18fba8ac31edb6fba56530759831d893c86e18bdaa21c4"
+RPM_NAME = "python310-azure-security-nspkg-1.0.0-1.11.noarch.rpm"
+RPM_HASH = "e7842a00c6f91e3a8334e2f5fa2cb99df6e7542a8a3f0bc9dd6a2ea571125dcfeb781008a2cf4d2164559d68d5f8eab204b2dd41a88ad6520ebcae054d2415ed"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-security-nspkg \
-python3.10dist-azure-security-nspkg \
+RPROVIDES:${PN} += "python3.10dist-azure-security-nspkg \
 python310-azure-security-nspkg \
 python3dist-azure-security-nspkg"
 

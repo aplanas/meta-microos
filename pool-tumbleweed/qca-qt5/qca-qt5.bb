@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.3.6"
 
-RPM_NAME = "qca-qt5-2.3.6-1.1.aarch64.rpm"
-RPM_HASH = "88ba9c70f415f57fc50c05ecb582e56d0525141c0152f25b7d1cc027cb97ef97a35afbc6dcaa09ad8a6833dec4c0ec52a18ac9a255819b3ed6b5483604e2fab1"
+RPM_NAME = "qca-qt5-2.3.6-1.2.aarch64.rpm"
+RPM_HASH = "7fdffd90149234fe611d80a5f0853c41a50c2a9d0113ca826bd8bc0cdbf1efab766f87c613fc914ed14b145b2202f56076e83a5ede5c1e4bb975d4b1d1198264"
 
 RPROVIDES:${PN} += "libqca-gcrypt.so \
 libqca-gnupg.so \

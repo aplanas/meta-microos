@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "5.0.0"
 
-RPM_NAME = "python311-wolframalpha-5.0.0-2.3.noarch.rpm"
-RPM_HASH = "e2717d4562eb8093bcfc73559788ed7fd56a8a1bb962d296a8a2b5c443d9ad78afe71ca9a2d5e102d434cb9ad5eef4a4d3a0bfa55c678018accae166e111100e"
+RPM_NAME = "python311-wolframalpha-5.0.0-2.5.noarch.rpm"
+RPM_HASH = "0b354bf9ee0b774db2de8886fc0fae4140e696eab9b076936c89e20a83ede361c563cc8840bd764249e185623e1b56ebf0452c110457d4d181d2e01260f8a32d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-wolframalpha \
+RPROVIDES:${PN} += "python3-wolframalpha \
+python3.11dist-wolframalpha \
 python311-wolframalpha \
 python3dist-wolframalpha"
 

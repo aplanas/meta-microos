@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "6.6.0"
 
-RPM_NAME = "MultiMarkdown-6-6.6.0-1.11.aarch64.rpm"
-RPM_HASH = "e2a5e397b6605bcf1ea1af5a626f44826f1f507ffb08d6d736269d12066e30b6d1024e701622636be16ea700d5365bb5575a4947d886acc31f9eb118aead52e4"
+RPM_NAME = "MultiMarkdown-6-6.6.0-1.12.aarch64.rpm"
+RPM_HASH = "fa1aafcd9776a8afefe665b44b94e621ef67ad7e594363bf727497a03807d5a7476fc0135bf037e8a8893f3ab7a0387e054e9b82967598c129577c8fa0ee86ee"
 
 RPROVIDES:${PN} += "MultiMarkdown-6 \
 markdown"

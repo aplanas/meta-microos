@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "10.0.0"
 
-RPM_NAME = "python39-azure-mgmt-netapp-10.0.0-1.1.noarch.rpm"
-RPM_HASH = "79b2d691a646fb2f9e66dd9acade647792c3126d58065cc77fd5d14d36e4772559fd15278c12facf1a4c17f7b30d5e6432b7e1ef70cecee02a6cc1482c506c3a"
+RPM_NAME = "python39-azure-mgmt-netapp-10.0.0-1.2.noarch.rpm"
+RPM_HASH = "40d6a4a8b7fe9c5252cbe158649493e577adeb31f22f43dcd614301c36334f834f217d0b28d29b03571d8b002083a424083719e9cfc0cb96921fe77406188128"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-netapp \

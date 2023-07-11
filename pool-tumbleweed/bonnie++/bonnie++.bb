@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "2.00a"
 
-RPM_NAME = "bonnie++-2.00a-1.3.aarch64.rpm"
-RPM_HASH = "bc53f13ce9f4ea9cc650ce041c778d2d247c9d033678f89eea3b2de4e60380ca547860d54c9a6541b15712e309d5c201940916a5eebe043af9cd52b35ae0dee0"
+RPM_NAME = "bonnie++-2.00a-1.4.aarch64.rpm"
+RPM_HASH = "924675052e4d4b6dd359959e2d2b0c82bf010c9a44559f264bc6c635cefe1ac127bfb3c628e4d17d8ade31e4991157d899cc17e998c7e425a0cdd19540bda5bc"
 
 RPROVIDES:${PN} += "bonnie++"
 

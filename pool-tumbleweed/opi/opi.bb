@@ -2,15 +2,15 @@ SUMMARY = "OBS Package Installer (CLI)"
 DESCRIPTION = "OBS Package Installer (CLI)"
 LICENSE = "GPL-3.0-only"
 
-PV = "2.17.0"
+PV = "3.0.0"
 
-RPM_NAME = "opi-2.17.0-1.1.noarch.rpm"
-RPM_HASH = "9ff33877a93825c36170540c1bbb52d42f89892acea9e27fb43860c80834bae06eb64daf061040284c7158970209e6f5a8f273d99bf868bc6819e9692a8b52ac"
+RPM_NAME = "opi-3.0.0-1.1.noarch.rpm"
+RPM_HASH = "b6d55ebdea3a6a61c1d019439c81ebef69c2271c6e185cbb503ba1a61fb55a93b3d30dcc367d602b3c847f7dd0fda2aaa66f1fd850bfc938574366d4588e1764"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-opi \
 opi \
-python3.10dist-opi \
+python3.11dist-opi \
 python3dist-opi"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
@@ -19,6 +19,7 @@ python-abi \
 python3-curses \
 python3-lxml \
 python3-requests \
+python3-rpm \
 python3-termcolor \
 sudo \
 zypper"

@@ -38,14 +38,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.05"
 
-RPM_NAME = "perl-Email-Address-XS-1.05-1.3.aarch64.rpm"
-RPM_HASH = "fe80daaa94adf5da866a6f7b3a0f5213655abfdc343f9dd74f81eb89c557d11972287813686271139076c9c5be6feac9658d3816f128a4c772f12145d22e6723"
+RPM_NAME = "perl-Email-Address-XS-1.05-1.4.aarch64.rpm"
+RPM_HASH = "9c92ea2355fda178b1e0792751527ba5592d0b26ba65c0aa38a860a5303bd74cd3ed3f91d7bcaa47fe5f718ac601c9cd31b90b88faa0a4bab8982187a2891acf"
 
 RPROVIDES:${PN} += "perl-Email--Address--XS \
 perl-Email-Address-XS"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

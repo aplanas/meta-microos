@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.3.2"
 
-RPM_NAME = "melange-zsh-completion-0.3.2-1.2.noarch.rpm"
-RPM_HASH = "0219c47f65d65d0f4cca48a41440b1ceccaada899ef164c03f37b52b16df9ae7843dddbb360c664055d6a27af9eb6e186551115ffdbe53a6c3a283f5cfaa6dbb"
+RPM_NAME = "melange-zsh-completion-0.3.2-1.3.noarch.rpm"
+RPM_HASH = "50f4563d5e737280a8c2a0634913b26b119cae84e6d5a82b6044be94ce99a18f97361c0d281e30b25d0f1ef419d5ee41e7edbd32676b0c63224241e09b9155ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "melange-zsh-completion"

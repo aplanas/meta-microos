@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-or-later"
 
 PV = "0.6"
 
-RPM_NAME = "abootimg-0.6-9.8.aarch64.rpm"
-RPM_HASH = "c3b846878e73dc93ec3c174f9cdd497fcc043c42abb6d2cd5db70ded646a7ce18619c7c0d150f59a2683dcedaf57cc703fc8369545a6f6fa4e91e5fc6b6171f6"
+RPM_NAME = "abootimg-0.6-9.9.aarch64.rpm"
+RPM_HASH = "4da00e876df7dd3e762250c5df7510c5ff530a9f15f7365a3222b9530cadefb88861fd0fa7bd06a567bd5d72b74f0d43ce4b770091fc60e572741e7ee14fd91f"
 
 RPROVIDES:${PN} += "abootimg"
 

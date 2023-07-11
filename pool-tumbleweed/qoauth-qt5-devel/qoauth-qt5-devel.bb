@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.0.0"
 
-RPM_NAME = "qoauth-qt5-devel-2.0.0-3.22.aarch64.rpm"
-RPM_HASH = "80f063ac7ff8d649935b18c8a011b2a558d7b6c921cbacdcbbe4bcbae1781652a1f5c12908fa169b560a98b9b2565a35403deb1a531e17d59a2fcf30da1a9826"
+RPM_NAME = "qoauth-qt5-devel-2.0.0-3.23.aarch64.rpm"
+RPM_HASH = "5beb21e1445a1d9c0840e9a2dc5ac69f9601c1713b53f890a5b949b17c8f70207a657740288119cf3aa81b186caf43055ba1a935425be3509cc460dd4a7d7a25"
 
 RPROVIDES:${PN} += "pkgconfig-qoauth \
 qoauth-qt5-devel"

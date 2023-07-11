@@ -4,12 +4,11 @@ LICENSE = "Apache-2.0"
 
 PV = "3.1.0"
 
-RPM_NAME = "python310-ntc-templates-3.1.0-1.3.noarch.rpm"
-RPM_HASH = "7b16142bfabc0711c2d231b5b2374812bb652a723c883e85cf316a2f0ecc5fe27d3ef63f83c80eb3394a2458e8152c98cd56c3a8459a9b40a6f12028cdd13aec"
+RPM_NAME = "python310-ntc-templates-3.1.0-1.5.noarch.rpm"
+RPM_HASH = "de7afaee58d184018ffb3e51f494a2d324c508516673b4f2bd9d88c74a7d51fa0f0abac5e654ed0a435fcdf23b05b2e42c99ba1e6b79aeb2b2270444266a29d9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-ntc-templates \
-python3.10dist-ntc-templates \
+RPROVIDES:${PN} += "python3.10dist-ntc-templates \
 python310-ntc-templates \
 python3dist-ntc-templates"
 

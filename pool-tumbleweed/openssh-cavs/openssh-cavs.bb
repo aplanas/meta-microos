@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the FIPS-140 CAVS (Cryptographic Algorithm 
 Validation Program/Suite) related tests of OpenSSH."
 LICENSE = "BSD-2-Clause & MIT"
 
-PV = "8.9p1"
+PV = "9.3p1"
 
-RPM_NAME = "openssh-cavs-8.9p1-9.2.aarch64.rpm"
-RPM_HASH = "84d61e88a7f007f0f1eb75f8526f481dd59fca0c275a20a96d0865ed19551bfd383da48298bf7f263b97452d5daa5bd73f7a193ad23ef0f95a932b69e4fb6cb2"
+RPM_NAME = "openssh-cavs-9.3p1-1.2.aarch64.rpm"
+RPM_HASH = "13f1fb4b869e1adec4a3604cbdde9a25cac197c393b49d8beef2436c100a30230e2d27937b16af4426774d903da8a5e5091bb9728e2971ea121862c89e98e296"
 
 RPROVIDES:${PN} += "openssh-cavs"
 

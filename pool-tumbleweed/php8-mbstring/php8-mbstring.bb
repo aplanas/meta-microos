@@ -6,10 +6,10 @@ handles Unicode-based encodings such as UTF-8 and UCS-2 and many \
 single-byte encodings for convenience."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.1.19"
+PV = "8.2.7"
 
-RPM_NAME = "php8-mbstring-8.1.19-2.2.aarch64.rpm"
-RPM_HASH = "3201f6f4d4d0e4868acbfb5327676971564ce7ab5d9b1ea95b3c429a672110bb0c317e4c5cb79eccd9ced26c28b49bc47bd341ed2b8ee0edd2631b1124974180"
+RPM_NAME = "php8-mbstring-8.2.7-1.1.aarch64.rpm"
+RPM_HASH = "82f2743a44a8965d282aca29ff1ff1fd6cc33114d4865647486ab82d1d78b6089cea4d0465746968dfee69ed7817b68910a88a3f30b1fd37de584a16164e3571"
 
 RPROVIDES:${PN} += "config-php8-mbstring \
 php-mbstring \

@@ -3,13 +3,12 @@ DESCRIPTION = "This is a Python implementation of the parquet format \
 for integrating it into python-based Big Data workflows."
 LICENSE = "Apache-2.0"
 
-PV = "2023.4.0"
+PV = "2023.7.0"
 
-RPM_NAME = "python310-fastparquet-2023.4.0-1.1.aarch64.rpm"
-RPM_HASH = "d847d08a855431860584e745324f67e8b071f8babca6bb221ba75547076dc3a595cb6381e7b183e30f8ca2b2984839a2d21f1488bf929b9fe7d17284467759eb"
+RPM_NAME = "python310-fastparquet-2023.7.0-1.1.aarch64.rpm"
+RPM_HASH = "8df5c6410abf36fd490f973044459c49576f9865ffa5609d5312adfcc8f02b8b86a273b1f25e75ffd4105b428b1a6ed8d2e1749a0a4c75c89a1b7acf32bd2e21"
 
-RPROVIDES:${PN} += "python3-fastparquet \
-python3.10dist-fastparquet \
+RPROVIDES:${PN} += "python3.10dist-fastparquet \
 python310-fastparquet \
 python3dist-fastparquet"
 

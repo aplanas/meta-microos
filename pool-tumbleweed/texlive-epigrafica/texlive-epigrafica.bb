@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.201.1.01svn17210"
 
-RPM_NAME = "texlive-epigrafica-2023.201.1.01svn17210-53.1.noarch.rpm"
-RPM_HASH = "5347414c317a418a798c62b0bfc5cc352eca35e1cb455c8c50664b7501d6111f92c4034c563c7a5ccbb2df39e8e1decc7fa2bfbe7be3b5118388ffbfeb0028d0"
+RPM_NAME = "texlive-epigrafica-2023.201.1.01svn17210-53.2.noarch.rpm"
+RPM_HASH = "d33b2ca9d44078d01b1fb79ac1befe23e7bb8cf0c1e331fd91bd7d5e36a342fafc3449b562e93d03258ac46b55d7094bf96d7ae19f79343f8489dd3409bbffa9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-epigrafica.map \

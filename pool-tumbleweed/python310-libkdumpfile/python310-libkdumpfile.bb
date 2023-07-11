@@ -10,11 +10,10 @@ LICENSE = "GPL-2.0-or-later | LGPL-3.0-or-later"
 
 PV = "0.5.1+git3.g97c716a"
 
-RPM_NAME = "python310-libkdumpfile-0.5.1+git3.g97c716a-3.1.aarch64.rpm"
-RPM_HASH = "3cad986651ecb1e3594ba3455b26cce9fc9dd752659464b9c8a11decab5c284daedc1a25d71548ece62e6cfd7d15dc0144a6b757b3ed3503c22f87e7058cdc91"
+RPM_NAME = "python310-libkdumpfile-0.5.1+git3.g97c716a-3.2.aarch64.rpm"
+RPM_HASH = "b0f75aff3136d33796103cefdd47cff92548392bae438662d5b33f2a4ff586749a5fc25ed56e535e9afbcecc333d7b46334111f708fcbb5fc3871e8b66e6ae92"
 
-RPROVIDES:${PN} += "python3-libkdumpfile \
-python3.10dist-libkdumpfile \
+RPROVIDES:${PN} += "python3.10dist-libkdumpfile \
 python310-libkdumpfile \
 python3dist-libkdumpfile"
 

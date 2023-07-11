@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.2.58"
 
-RPM_NAME = "python39-cloudscraper-1.2.58-3.11.noarch.rpm"
-RPM_HASH = "d2634bb1b51bc475c30801d635f2a23ed111278de25881b9266ac58902e6bcf2c0593b30ccd4e0361e857509d59f27fd646afe433b88aee48f38534172cca847"
+RPM_NAME = "python39-cloudscraper-1.2.58-3.13.noarch.rpm"
+RPM_HASH = "e1e4e79fa5c6a2e996c1dade96cd26337d328ff9ff1759daf8d8953691d24c1f82982a762560f828d57266ba297c094da27b72955fad0ce5e68c06c83bc9c917"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-cloudscraper \

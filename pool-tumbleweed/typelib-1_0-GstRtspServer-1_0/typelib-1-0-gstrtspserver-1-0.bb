@@ -2,10 +2,10 @@ SUMMARY = "Introspection bindings for the GStreamer-based RTSP server library"
 DESCRIPTION = "Introspection bindings for the GStreamer library for building an RTSP server."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "1.22.3"
+PV = "1.22.4"
 
-RPM_NAME = "typelib-1_0-GstRtspServer-1_0-1.22.3-1.1.aarch64.rpm"
-RPM_HASH = "cbd1b33801f60aff1f811c8171320ef5f9414935681a2d67f3eddfa954250917462cc679b9f58b8fc06c52631280b7bc19f537d3ed2732a1cb3496f0343f6b42"
+RPM_NAME = "typelib-1_0-GstRtspServer-1_0-1.22.4-1.1.aarch64.rpm"
+RPM_HASH = "22f885d74dd071c6320bcb9f5015a5467d09dc14af17ac455c6829eb4f9de83ba63c29d6061eec4439c0d2432f74a3ff06849c0a0f37aede0ccdf69305d59401"
 
 RPROVIDES:${PN} += "typelib-1-0-GstRtspServer-1-0 \
 typelib-GstRtspServer"

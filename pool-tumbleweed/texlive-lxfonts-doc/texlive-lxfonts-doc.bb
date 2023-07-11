@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-lxfonts"
 DESCRIPTION = "This package includes the documentation for texlive-lxfonts"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0bsvn32354"
+PV = "2023.208.2.0bsvn32354"
 
-RPM_NAME = "texlive-lxfonts-doc-2023.201.2.0bsvn32354-52.1.noarch.rpm"
-RPM_HASH = "69323f877964b3cbc50e34f65f52136b480657881fd1fa9f159d21cca2efe0d678695464604e8611165e6608d5eb9a6cea05cd9b32f2113422850f0f6b52e039"
+RPM_NAME = "texlive-lxfonts-doc-2023.208.2.0bsvn32354-53.1.noarch.rpm"
+RPM_HASH = "4749667b38c498bcda51d0c69b4ece1b901035fa2cd4a52b46c14f35a44f3a48b9510ba188d7f11d68dfd299a9fa375424ec19bc638c8a75a10ff826620baa37"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lxfonts-doc"

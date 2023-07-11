@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0 & SUSE-Public-Domain"
 
 PV = "1.11.3"
 
-RPM_NAME = "aws-sdk-java-iam-1.11.3-7.8.noarch.rpm"
-RPM_HASH = "b7c78162af7def7f65b4b182e731281aa2ee5b796f63b72708942daf0ffaf07317288d56a8e901bcdeedb902854e8b7d533df8f90d098c88d8be6948a1ad19ac"
+RPM_NAME = "aws-sdk-java-iam-1.11.3-7.9.noarch.rpm"
+RPM_HASH = "db2151359c391e14054a26109fbf9dd15ba72a14df3c8547044ef79fd75194f59803f9aa19d016cfcf8b623c61648643c8eff6b7ac61378d1dad9dea6b89d0f9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-iam \

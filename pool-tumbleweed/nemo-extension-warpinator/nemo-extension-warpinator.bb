@@ -4,10 +4,10 @@ DESCRIPTION = "Warpinator is a simple app that allows users to share files acros
 This package provides an extension to use warpinator from nemo file browser."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.6.1"
+PV = "1.6.3"
 
-RPM_NAME = "nemo-extension-warpinator-1.6.1-1.1.noarch.rpm"
-RPM_HASH = "30d1a83be5c06fbf991955612b15fe39785ec3d91539f88ad490826e6c88520275b15eb2d1075e996045472bcd4c43a48b46e79e51739d9bfadd7c510aa7ddcb"
+RPM_NAME = "nemo-extension-warpinator-1.6.3-1.2.noarch.rpm"
+RPM_HASH = "987c095c7a21595719f09e5be5448fa2f82b5ec10a3e1a31a730bf9238a90f450f4db0a66eb53a7d9506f04953b832d9975ccffc9f8ee7ff6c4e779df953fee9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nemo-extension-warpinator"

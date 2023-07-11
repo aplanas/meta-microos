@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.11.1"
 
-RPM_NAME = "python39-avro-1.11.1-2.4.noarch.rpm"
-RPM_HASH = "9575a9dd23e7936f1235fd21eb6e63811e052b3749a7236c5d7b1aece3e11ba7e532a0f53e0c1ff9bf33d2673d4e41c6506fa97fd519c8cfcae0043c472a2c82"
+RPM_NAME = "python39-avro-1.11.1-2.6.noarch.rpm"
+RPM_HASH = "f14640049d52c646c6d7ed33dcfde1cfa3c826fda5e365c28926875cd3ac7d0331c3bb9c0e7294daba2b8ef705acc82d1f3f33c5059e8f1863457f2f06fe1546"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-avro \

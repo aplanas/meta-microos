@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.26.4"
 
-RPM_NAME = "cmake-full-3.26.4-1.1.aarch64.rpm"
-RPM_HASH = "3375cb302c0dda401fdc13a666f8f1484a27664e36983472e51b8ee7432f0d1cdb3493fa14a811f9c72a351a3da94d7edc51b88f46934ab4173197e0c9337c7c"
+RPM_NAME = "cmake-full-3.26.4-3.1.aarch64.rpm"
+RPM_HASH = "c08d08cc6b24015eb12be808c5115da5ded9cb609b9ca78d74dfac5fac150aca5ee9cc4677e7e70325ee70b88e4cf4219d23305033e062484205c008144d1d3d"
 
 RPROVIDES:${PN} += "cmake-full \
 cmake-implementation \
@@ -30,6 +30,7 @@ librhash.so.0 \
 libstdc++.so.6 \
 libtinfo.so.6 \
 libuv.so.1 \
+libuv1 \
 libz.so.1 \
 make \
 python3-base"

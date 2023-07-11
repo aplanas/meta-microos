@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "6.3.0"
 
-RPM_NAME = "libsundials_nvec6-openmpi3-6.3.0-2.4.aarch64.rpm"
-RPM_HASH = "f8ccdf186c071847d65f9068423278378647306050f254b592d32dc70c22175431445eae44cc576ee8ab0ceb07c271d3eeb6120fcd06eb34838a8e86ca1c93aa"
+RPM_NAME = "libsundials_nvec6-openmpi3-6.3.0-2.5.aarch64.rpm"
+RPM_HASH = "6300001c7eca4ec00ba79f3eef5ee5326d53bc5f590118f9c53f8b2b73ebee1d7d67f5a3700359cbec2a5a550b1921cae3d22268fadcf3ab572c136b90cf2dbd"
 
 RPROVIDES:${PN} += "libsundials-nvec6-openmpi3 \
 libsundials-nvecmanyvector.so.6 \

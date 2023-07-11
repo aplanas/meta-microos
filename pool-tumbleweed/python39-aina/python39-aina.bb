@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.1.3"
 
-RPM_NAME = "python39-aina-0.1.3-4.9.noarch.rpm"
-RPM_HASH = "d0677798bef265034901b1c1f25421342d7dc65e207ec77a45933dd39ef273501fbbb864fa3516b355e5c00c28be4731ab8b1f8a4b4055691527ba1a8fa3ffea"
+RPM_NAME = "python39-aina-0.1.3-4.11.noarch.rpm"
+RPM_HASH = "9bcbe09e9a6f170a4bf88ca6e06ae06f097b5222f398ba7778fb66b021234e241eb586f83ae74c41b196d867f92c8536d8121312ee9cc2e32bea272dfad520a6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-aina \

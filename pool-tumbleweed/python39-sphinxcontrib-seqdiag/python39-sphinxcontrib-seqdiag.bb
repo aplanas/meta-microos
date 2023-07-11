@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "3.0.0"
 
-RPM_NAME = "python39-sphinxcontrib-seqdiag-3.0.0-1.6.noarch.rpm"
-RPM_HASH = "0c2927ab18a7d8d27f4fcc8fe61af7efbd21ce0bc32046944a5dbf09b0c25a543bcf4ee971fe9edf6d9795dd833f462120260796bf10837dbf3c1cbaecce7a66"
+RPM_NAME = "python39-sphinxcontrib-seqdiag-3.0.0-1.8.noarch.rpm"
+RPM_HASH = "731460f54cc664ec55342f31f9dade5b87167c482792ff581f9833751bc5b52e12ba887d35913e85960251628d1cf9669e5b79b98afc195db0737e1cc7d44d09"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sphinxcontrib-seqdiag \

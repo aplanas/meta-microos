@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.0+0"
 
-RPM_NAME = "budgie-control-center-bash-completion-1.2.0+0-1.3.aarch64.rpm"
-RPM_HASH = "241dfa1ebfdec808c80fb8bcec9dd443c45a1ed1792809759b14f09032d41c71004a52e10ea3e040f0c4a74ce97a438bfdb52d0c2d5a6d200569290f6c447f17"
+RPM_NAME = "budgie-control-center-bash-completion-1.2.0+0-1.4.aarch64.rpm"
+RPM_HASH = "2a964710c315f9a527577101d598c2a1435db803832269057a02970785beab2075f1e09ea0b840bf2697094ee5e9b4e2407e54e8f1488eeb7ae74b2dc28cc260"
 
 RPROVIDES:${PN} += "budgie-control-center-bash-completion"
 

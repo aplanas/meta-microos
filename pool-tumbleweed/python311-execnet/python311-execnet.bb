@@ -12,11 +12,12 @@ LICENSE = "MIT"
 
 PV = "1.9.0"
 
-RPM_NAME = "python311-execnet-1.9.0-3.1.noarch.rpm"
-RPM_HASH = "e1fa417dcd720d4527f3b710ac168f82356ce73636cb77968251705fe1d2519166986136531331eaa0f931bd986c4aaa4e3ec63dbb8c39b0f7e8208bda496f52"
+RPM_NAME = "python311-execnet-1.9.0-3.3.noarch.rpm"
+RPM_HASH = "56eb62af3da43a294fb91086b0db040fb671c3cc939a4de577facfb038f1cc4a0d88947aad4f65f890d74e9276b55f327c17ab3d69f9908cc7a1b4a6d0685e98"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-execnet \
+RPROVIDES:${PN} += "python3-execnet \
+python3.11dist-execnet \
 python311-execnet \
 python3dist-execnet"
 

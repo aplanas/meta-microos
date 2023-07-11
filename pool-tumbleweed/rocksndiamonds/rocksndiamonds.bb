@@ -7,10 +7,10 @@ If you know the game Boulder Dash (Commodore C64) or Emerald Mine (Amiga), \
 you know what Rocks'n'Diamonds is about."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.3.4.0"
+PV = "4.3.6.0"
 
-RPM_NAME = "rocksndiamonds-4.3.4.0-1.3.aarch64.rpm"
-RPM_HASH = "e95f9891ff0908c6f0238dd11400e03748e744e076bbfd151442dd3a7cd852b32f8aad6e036f4be6a543e6798266aea1479ef01906b5668c92f40cb771b3785b"
+RPM_NAME = "rocksndiamonds-4.3.6.0-1.1.aarch64.rpm"
+RPM_HASH = "3c5ab623bad712f5bb1eeed88cccd9097eeaee5fe5683a8f792fb4bd6b14363f2ad3666621f2642f2463d1993c8ea6981b895f032216d861da1f750a27cbb2bd"
 
 RPROVIDES:${PN} += "rocksndiamonds"
 

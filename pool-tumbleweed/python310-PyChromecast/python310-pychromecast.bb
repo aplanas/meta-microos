@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "13.0.7"
 
-RPM_NAME = "python310-PyChromecast-13.0.7-1.1.noarch.rpm"
-RPM_HASH = "cddecd606a79813c168341821fc157aa830cc0e947cef1a1c99659967332feaee3ac5a68f60018944cf8798b51d8b6fa5b68656bad47d795f698c958b9ade3ac"
+RPM_NAME = "python310-PyChromecast-13.0.7-1.2.noarch.rpm"
+RPM_HASH = "d70b35dbfd035012c59442e5e5c76becb7f5c3bcf2f5b819de765d2d070de95528db7a1ea719a8ca1f9fb5f5603106e2de03525742308ec9ccc472e85d1b6bcd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-PyChromecast \
-python3.10dist-pychromecast \
+RPROVIDES:${PN} += "python3.10dist-pychromecast \
 python310-PyChromecast \
 python3dist-pychromecast"
 

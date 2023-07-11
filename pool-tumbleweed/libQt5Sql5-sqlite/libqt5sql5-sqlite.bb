@@ -9,10 +9,10 @@ file, which must be set as the database name when opening a \
 connection."
 LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
-PV = "5.15.9+kde154"
+PV = "5.15.10+kde129"
 
-RPM_NAME = "libQt5Sql5-sqlite-5.15.9+kde154-1.2.aarch64.rpm"
-RPM_HASH = "cfed1783f250e74102f262a67e727e40694dfb099421d60c7d3c2a3b40e1d5a74b8ee08bef73f4d59337035d8669630b1fb0f893759cd068ef6ba3cdf523a529"
+RPM_NAME = "libQt5Sql5-sqlite-5.15.10+kde129-1.1.aarch64.rpm"
+RPM_HASH = "4d12356670dc746113174232ef28fce5d595a6ac4831b4b611ef33b8a39edc194fae8a3ab8ec042f48c5b096db7464cacc7f1b1f8f524de4fcfbf06bf0ab5582"
 
 RPROVIDES:${PN} += "libQt5Sql5-sqlite \
 libqsqlite.so \

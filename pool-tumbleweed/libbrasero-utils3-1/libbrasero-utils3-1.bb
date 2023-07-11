@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.12.3"
 
-RPM_NAME = "libbrasero-utils3-1-3.12.3-2.7.aarch64.rpm"
-RPM_HASH = "bf5417d714f447cbbbd5bbc43f96d731892523526589d474497749a116850404b5a59b8023a35aac0e8a375189f6331251e430f2de566852432c2029e9441d9d"
+RPM_NAME = "libbrasero-utils3-1-3.12.3-2.8.aarch64.rpm"
+RPM_HASH = "51dcaf00f0d1146888f0160b987fa9f304b36d3f2bf7ed5699bf26a7109c9d474dec346f85dd68376a63f094902f6395d3fc7ddba23b81d43457474e79334aff"
 
 RPROVIDES:${PN} += "libbrasero-utils3-1 \
 libbrasero-utils3.so.1"

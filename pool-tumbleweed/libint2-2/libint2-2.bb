@@ -14,14 +14,15 @@ LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
 PV = "2.7.2"
 
-RPM_NAME = "libint2-2-2.7.2-2.3.aarch64.rpm"
-RPM_HASH = "2c3597c45ed4de62eed8178354a6cc81e41fd079a5c1d9e0321bed56c3ca79fa1ad24a62cd289f075e32218502714f4f39727799c9b6fa70c9e9c49f8ecdf728"
+RPM_NAME = "libint2-2-2.7.2-2.4.aarch64.rpm"
+RPM_HASH = "df3d39342c0757df5e5cb30f7e0d275b004398a010874f968275f6aa40452ece192e2782a38faeb46c86d1eb780f0d069556d0c18e6203b70e5c947ff298842f"
 
 RPROVIDES:${PN} += "libint2-2 \
 libint2.so.2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libc.so.6"
+libc.so.6 \
+libstdc++.so.6"
 
 inherit rpm

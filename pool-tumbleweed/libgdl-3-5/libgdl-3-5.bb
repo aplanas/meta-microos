@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.40.0"
 
-RPM_NAME = "libgdl-3-5-3.40.0-2.9.aarch64.rpm"
-RPM_HASH = "83c7da38086f94e4b4774f20bceb10849d048be4d8d734d23cf3c17cab69b41ba6c3ba7f9dc014a017432f5afc77555a7f6863fbb98376d1035b21cf14bc3e0c"
+RPM_NAME = "libgdl-3-5-3.40.0-2.10.aarch64.rpm"
+RPM_HASH = "323ddced457a46e9a4950812b6aa596fbc75c6a12b0498f53d799cedcc89da81be5b00fe70eb084d663d60e9f975448e0204a4cbf2f5c9fbd9d14a828845762f"
 
 RPROVIDES:${PN} += "gdl \
 libgdl-3-5 \

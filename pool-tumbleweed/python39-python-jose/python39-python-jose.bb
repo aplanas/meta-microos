@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "3.3.0"
 
-RPM_NAME = "python39-python-jose-3.3.0-1.5.noarch.rpm"
-RPM_HASH = "8fd5990be4e76bb0d84ca649cdd5c45c55e5fb7a2664a03e7f7b9896aaa8517216777b67e03177c192e5df6ac377474ce3483590d769234c6273dd9c7037bb19"
+RPM_NAME = "python39-python-jose-3.3.0-2.2.noarch.rpm"
+RPM_HASH = "087bd85d9201199d6416aa56c265f09154ced88fc366962588ccf234c736556ed160858ef698b25d32e7298b5dd5e7d2a0fb4cbac8f357e54f191548d4d0aff0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-python-jose \

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "20230603+git.5fdd2d6"
 
-RPM_NAME = "rime-schema-quick-20230603+git.5fdd2d6-1.1.noarch.rpm"
-RPM_HASH = "bd94e97b9bbf46db629c77641ba6d43f9666adf396081ad649eceb3e49124b5fab3c08dbe4661fe743b4bff23d46552f671eab6acf26c370dfa9cd3172357122"
+RPM_NAME = "rime-schema-quick-20230603+git.5fdd2d6-1.2.noarch.rpm"
+RPM_HASH = "1d2046b7c2d54fe030c01e772dd28409d91cf1cbec7b6b13417d5fa86e28889d3ee5f44de794954922192d9e9c23920863a2793be07f9a616910567179def482"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rime-schema-quick"

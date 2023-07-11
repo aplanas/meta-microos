@@ -4,8 +4,8 @@ LICENSE = "OFL-1.1"
 
 PV = "2023.201.20230223svn66115"
 
-RPM_NAME = "texlive-haranoaji-extra-fonts-2023.201.20230223svn66115-53.1.noarch.rpm"
-RPM_HASH = "f92a7f66f14726120f3b49e68457e5bc9482a63671bae99b5c17f4734bf842f055536da941886d6df89706861d1dd2def13f0ad36c77495ff67fbbff93363b2f"
+RPM_NAME = "texlive-haranoaji-extra-fonts-2023.201.20230223svn66115-53.2.noarch.rpm"
+RPM_HASH = "32041ebec543379586a80f4ad753024ed2e395ef354edbeca2ec7ec3358e6bbc6d5e2d4e2e5ef51a821bb53631e77719d537f62525a4157390af8115edd1f8ac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

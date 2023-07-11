@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "5.15.0"
 
-RPM_NAME = "libplplotfortran0-5.15.0-16.2.aarch64.rpm"
-RPM_HASH = "46c6604cc590351639f821e4672a6fd41773e6324a60a36ad5482f501bb71a0a49a9b9ef1e3dbb8269c9380c6ba1454da4572571cf3169f791f99f4de15d7341"
+RPM_NAME = "libplplotfortran0-5.15.0-17.1.aarch64.rpm"
+RPM_HASH = "f26ceb00db5e1cc49398af0701f5fe59fa7cdd36793ab3273a726c6fe7bd5dbf7bfed1685267f4e0269479370d2a44054a20300bc4a62bcd38a5b9dec88b0989"
 
 RPROVIDES:${PN} += "libplplotfortran.so.0 \
 libplplotfortran0"

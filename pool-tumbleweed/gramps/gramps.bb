@@ -7,12 +7,12 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.1.5"
 
-RPM_NAME = "gramps-5.1.5-1.7.noarch.rpm"
-RPM_HASH = "088f11f9b048283cd388d1d27ccd7df88f19a9e6a0564eb438b95221945b764218b25aa7c4765897058dc4543c1bfba0e4688890be56ee4fe507968be9e77ba7"
+RPM_NAME = "gramps-5.1.5-1.8.noarch.rpm"
+RPM_HASH = "9ebb9880eaa821468e8678e85ba21d9b6c89efac6f11704eeedfcc974a316bf514bd88d5ae785509d4f8d96d2bb8ca591d1979b85a7afb1d2fda3df455ba15dd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gramps \
-python3.10dist-gramps \
+python3.11dist-gramps \
 python3dist-gramps"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

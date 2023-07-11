@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.32"
 
-RPM_NAME = "python39-jsonpatch-1.32-4.1.noarch.rpm"
-RPM_HASH = "e64694aed67dde9d70b942122b55039da5d05b12e04f99d3a5be688da231d43c670b4b826104a81c8da4b5a00d2477ca9af00614ac37000a57a9535bf820f361"
+RPM_NAME = "python39-jsonpatch-1.32-4.3.noarch.rpm"
+RPM_HASH = "220bc45df63fa7ae5d8d1da88a4ca50f3395f6d3149e340c7a2cca1cacaa3a3762b56f53c85f479f0f988f631ff93864459472078e8756445525daca6e253091"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-jsonpatch \

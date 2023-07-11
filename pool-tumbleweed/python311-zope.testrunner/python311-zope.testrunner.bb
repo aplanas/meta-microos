@@ -4,11 +4,12 @@ LICENSE = "ZPL-2.1"
 
 PV = "6.0"
 
-RPM_NAME = "python311-zope.testrunner-6.0-1.1.noarch.rpm"
-RPM_HASH = "675415ba0fe21d0ebda260357a8ad0716501d94f79bfe06bb518b8e21ba4c820b057ccc87498ca1e3b5b3398f761f9c9ae9d8c2571d7e8e1c57ed2396222386c"
+RPM_NAME = "python311-zope.testrunner-6.0-2.3.noarch.rpm"
+RPM_HASH = "3837ae58d9d412b6985efdb8e484d50a8102da03ecd70ebdb2abff944e595b2b1477f1e3942f3f02138dd659014765b61982b106d1e5384c1043c1d722138ffa"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-zope.testrunner \
+RPROVIDES:${PN} += "python3-zope.testrunner \
+python3.11dist-zope.testrunner \
 python311-zope.testrunner \
 python3dist-zope.testrunner"
 

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.10.1"
 
-RPM_NAME = "lirc-disable-kernel-rc-0.10.1-10.1.aarch64.rpm"
-RPM_HASH = "e2cc369e7ac404b5b700744d57ccf7f77ac8e84fec91b09f69d5dc44c3d82d3a3b669c09fecad77503a88993674ae63aebe4f72e42096df550a240aca628b833"
+RPM_NAME = "lirc-disable-kernel-rc-0.10.1-10.2.aarch64.rpm"
+RPM_HASH = "7a0db20b26eb2c061408b6fde58c0713f85aa28f7fb99125a2911b3b24c4532e262dfd58847e5a8c2012de31b6045f6c10aa604f1492fb42292b288dad6149be"
 
 RPROVIDES:${PN} += "lirc-disable-kernel-rc"
 

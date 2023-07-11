@@ -4,8 +4,8 @@ LICENSE = "ISC"
 
 PV = "0.7.1"
 
-RPM_NAME = "python39-requestbuilder-0.7.1-1.15.noarch.rpm"
-RPM_HASH = "15a1978e75b4a4486c63fa7ea5dc6a7ada8a47ebab6da0093e9c20bc6620bc11f3299d168a72f0ba2a10d0868a92ae8f2f961f773b7f239d1ac88f4740046a29"
+RPM_NAME = "python39-requestbuilder-0.7.1-1.17.noarch.rpm"
+RPM_HASH = "e6e49b1db3f99fdced1e10f52ec90995684a3b3e95cc9af47b36320425648029210cfbdd2d0f12358767108d4245c756c626bff0a6745555b50d1e906c7f9e5a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-requestbuilder \

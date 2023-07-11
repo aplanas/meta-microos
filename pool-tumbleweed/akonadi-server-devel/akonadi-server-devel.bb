@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains development files of Akonadi, the KDE PIM s
 service."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "akonadi-server-devel-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "02c756a31751eb8e432e9c9b95291415755763880102b9d80d2a69bd0416bfbcaf567cff0239e6a29d6cbf475673239999d54d78aeaa7c73f342c5ad5a208911"
+RPM_NAME = "akonadi-server-devel-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "86c81368a095f761a1b65360724754773e1ef1eb87f25ac2fe3545d751628ef70ad8dbf8411459b3246dadb51e7a6b7ac0c65f4536f3b371b363b1fe23fa44fa"
 
 RPROVIDES:${PN} += "akonadi-server-devel \
 cmake-KF5Akonadi \

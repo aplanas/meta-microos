@@ -2,10 +2,10 @@ SUMMARY = "Linux kernel trace file system library"
 DESCRIPTION = "This library provides C APIs to access the kernel trace file system."
 LICENSE = "LGPL-2.1-only"
 
-PV = "1.6.4"
+PV = "1.7.0"
 
-RPM_NAME = "libtracefs1-1.6.4-2.3.aarch64.rpm"
-RPM_HASH = "b250426c53dbf7d6929ee26a5a84565ec10d6493ea485297d0d3c21b02161803124329ab1d180ec1a4514b8df52bacdd124d623dc39c8bf9071132baa6d9a9bd"
+RPM_NAME = "libtracefs1-1.7.0-1.1.aarch64.rpm"
+RPM_HASH = "d5b0b2b07067be3ed36cbaac8b5f339e27fee1a5b08e5c99c718f9d3685799dc23d9d1c13eb78b9d6f95ae023472365123d5411e31e234664e02d7a0b8abdc6f"
 
 RPROVIDES:${PN} += "libtracefs.so.1 \
 libtracefs1"

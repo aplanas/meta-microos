@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.2.1"
 
-RPM_NAME = "python310-magic-wormhole-transit-relay-0.2.1-3.5.noarch.rpm"
-RPM_HASH = "fa2b566ecfbb1cd4e3f04f129a40abed892f55eb28edb1f5e0c5912bd1dde35386cfe896d8551bbc1b0ceb4dcc2382afceb3644eb54be27ac2b05c7639a80d69"
+RPM_NAME = "python310-magic-wormhole-transit-relay-0.2.1-3.7.noarch.rpm"
+RPM_HASH = "9f0f9b648855c056a57f2474ad02efaa8d92649e27ba15a62544945b21dd8e17754b170de2e51f4c3d5058c012448bf7392f57b2d342b4718999c9cb1eb02748"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-magic-wormhole-transit-relay \
-python3.10dist-magic-wormhole-transit-relay \
+RPROVIDES:${PN} += "python3.10dist-magic-wormhole-transit-relay \
 python310-magic-wormhole-transit-relay \
 python3dist-magic-wormhole-transit-relay"
 

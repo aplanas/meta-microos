@@ -5,8 +5,8 @@ LICENSE = "MPL-1.1"
 
 PV = "5.0.1"
 
-RPM_NAME = "libspatialite-devel-5.0.1-2.10.aarch64.rpm"
-RPM_HASH = "cc5af8647e5872f5383eac108927cf5c4fe2a7ea134fc4fb5ad5554264f8f2e113fffc7392ab8f2ef7bf06fbccee13fb1c9213937534dcd5fefb7fbac5046a4d"
+RPM_NAME = "libspatialite-devel-5.0.1-2.11.aarch64.rpm"
+RPM_HASH = "e0012cfad3be23afef80fea65154b410caa29651261af1de26ab67d23a84b68a2ecb69a796d5e279f4e8b740c76c6cbb8d20cadc993231c4c207cadee2958ad8"
 
 RPROVIDES:${PN} += "libspatialite-devel \
 pkgconfig-spatialite"

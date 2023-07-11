@@ -5,10 +5,10 @@ generating random sequences, performing text manipulations such as macro \
 replacement, accessing user information and many more. Development files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "kcoreaddons-devel-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "c8961d5820f1eb9210d69037d6d966b28261ecce5d0b5ae2caa3423d1919300016780dfac7481fe81a67483d2141fb43a4a096d889e9c6622732dc7b960dcccf"
+RPM_NAME = "kcoreaddons-devel-5.107.0-1.1.aarch64.rpm"
+RPM_HASH = "70839b820ac3ce610a8faa77f3529cb4f7d8c6c77ac178a268dfd28f74833e51b7115bf101555aa79622cfec25baa06a48efa57b1683a39340f7fbad2b6b8fc1"
 
 RPROVIDES:${PN} += "cmake-KF5CoreAddons \
 kcoreaddons-devel"

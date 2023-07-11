@@ -6,8 +6,8 @@ LICENSE = "CC-BY-3.0 & ISC"
 
 PV = "0.9.2"
 
-RPM_NAME = "python39-librosa-0.9.2-4.2.noarch.rpm"
-RPM_HASH = "94667a0f3532468f88653099857c7e71c908fcc407be777ab2a9b47bfcb1ec506459cdfcb6848260795f6e6bcc88a7efc9d2f6017ecbc86435c51f705da20468"
+RPM_NAME = "python39-librosa-0.9.2-5.1.noarch.rpm"
+RPM_HASH = "c28c428b6af3e6a42cdd434106de77a581ad733e10e8f2e8b89ce34b9fb89f1a5fffb00f2d0c536d4683ffe98084396af7044f82f57008e2b7e9df9c9b76d824"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-librosa \

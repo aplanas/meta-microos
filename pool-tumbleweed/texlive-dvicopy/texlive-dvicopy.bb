@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.201.1.5svn66186"
 
-RPM_NAME = "texlive-dvicopy-2023.201.1.5svn66186-53.1.noarch.rpm"
-RPM_HASH = "aa12c1dd8e96f515e60d3a0d9df1686f66f3e847f9b295d08428558e64826fb5f81fd531789c640349d51dac9df2246cd9fd150a4fc97a23de202d2d27d6ce52"
+RPM_NAME = "texlive-dvicopy-2023.201.1.5svn66186-53.2.noarch.rpm"
+RPM_HASH = "8bae7f70d2ad3af955d234508b7e76d7fa477a0bff8b46207eb88ebf847f5552ca080de53fe81e9c71150ea0239c51df76e0c1ffdc9104acd8ff3e85f00b676f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-dvicopy.1 \

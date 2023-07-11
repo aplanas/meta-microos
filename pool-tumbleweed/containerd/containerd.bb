@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.6.21"
 
-RPM_NAME = "containerd-1.6.21-1.1.aarch64.rpm"
-RPM_HASH = "2b98e7311dc1520b1eb76380e815bb10872b81a2560466d070f7bbbc7d252f39cf6bcaf5e5a146680508503e073afdb92a91a931fe221a25262ee1b588a4562a"
+RPM_NAME = "containerd-1.6.21-1.2.aarch64.rpm"
+RPM_HASH = "81f4c6a89d9e23deae951163663808360e6f38084a78e8ff5aa231bf8a319c3a33372ffaa381ceb5da68ed67ddb6d25456c0122de695250ad179cf5e7f33c3b1"
 
 RPROVIDES:${PN} += "config-containerd \
 containerd \

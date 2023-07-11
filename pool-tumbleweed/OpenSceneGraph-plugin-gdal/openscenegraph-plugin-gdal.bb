@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-only-with-WxWindows-exception-3.1"
 
 PV = "3.6.5"
 
-RPM_NAME = "OpenSceneGraph-plugin-gdal-3.6.5-8.6.aarch64.rpm"
-RPM_HASH = "997736ab1705a095ca001a21d75872b62dfa06897b6ef8ac998d77dd41a6226da4be76e42d9ae88555a941bb29b9bd83d5e19d10e1fc049553431da5d8df8328"
+RPM_NAME = "OpenSceneGraph-plugin-gdal-3.6.5-8.7.aarch64.rpm"
+RPM_HASH = "d0e601cdbe8d2c0a6fcd562811d28bb1f0c84f6979ddd0c58d37eb29374a01b5cd19c149f3dabd8a02004e98983f3b3f9ca3d77541644281f835864aded1abd4"
 
 RPROVIDES:${PN} += "OpenSceneGraph-plugin-gdal \
 OpenSceneGraph-plugins-/usr/lib64/osgPlugins-3.6.5/osgdb-gdal.so \

@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "8.2.0"
 
-RPM_NAME = "octave-8.2.0-1.1.aarch64.rpm"
-RPM_HASH = "d4f6cb9b60b3b5f09084c6e6ea05891c1cc2d21a12e9fe59799e9cd3b3458a30bf025e91e6af9bb5dfce3be6628278be54e36f946fbc67abe96fafd334395c5b"
+RPM_NAME = "octave-8.2.0-1.2.aarch64.rpm"
+RPM_HASH = "1ee9619ff9abe8088839a810a1dca7e11d9c135f76d56211f0fbffd43634a69120cedb91c59fc9fb3ede211e85790d4cb925a72d279f03df539eed8382db98bb"
 
 RPROVIDES:${PN} += "liboctgui.so.9 \
 octave \

@@ -18,10 +18,10 @@ included for each of the major operating systems and TeX \
 distributions. A quick-start tutorial is provided."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.911svn66259"
+PV = "2023.208.0.0.911svn66259"
 
-RPM_NAME = "texlive-lwarp-2023.201.0.0.911svn66259-52.1.noarch.rpm"
-RPM_HASH = "55182ba8c252a344a952bdc6e6d8b7d9a56c0474ec83a6c5142bf184382c187c4c6c635dfd64118570b477622668c3c0aa815c78848ae0e135f0c903ff8f3e71"
+RPM_NAME = "texlive-lwarp-2023.208.0.0.911svn66259-53.1.noarch.rpm"
+RPM_HASH = "9dd701ac288f7b97cc0a9c26c6aeab779ece39ea626988c266b94b9cef5a0c12d2430e2ba2735aeeb3c20c2dcd24e815ccdbe1c9c1cca45c19923942a5d47d04"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lwarp-2in1.sty \

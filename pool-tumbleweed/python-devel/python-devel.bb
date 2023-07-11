@@ -9,8 +9,8 @@ LICENSE = "Python-2.0"
 
 PV = "2.7.18"
 
-RPM_NAME = "python-devel-2.7.18-34.1.aarch64.rpm"
-RPM_HASH = "833f90614660614ed36a0f055d3723db523a82ddd9326079229798284700d03eeaf8acbb3271cbef271993589dd2c740fc257262616bda2fbb93137a11c7d39a"
+RPM_NAME = "python-devel-2.7.18-36.1.aarch64.rpm"
+RPM_HASH = "680fd411ff56768ff11146bf769c137d6d866cf5aabe7070ba1b5e248dd4c8bfc4026d67871d84ea79a17103c76b5d4399b90fcbd816df3f65fa918dd0e8bc2c"
 
 RPROVIDES:${PN} += "pkgconfig-python \
 pkgconfig-python-2.7 \

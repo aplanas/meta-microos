@@ -9,8 +9,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2023.201.svn41448"
 
-RPM_NAME = "texlive-graphics-cfg-2023.201.svn41448-53.1.noarch.rpm"
-RPM_HASH = "73409d197aba790ae56bedb5b246fb0da6e1808150a393c4d502593b06ac81346eb03f881ece52a1c39de174a70f73a0ffea46dfdae39aa5d5a0a0a60170ee9a"
+RPM_NAME = "texlive-graphics-cfg-2023.201.svn41448-53.2.noarch.rpm"
+RPM_HASH = "ef13c59e9a05f3f8fa7b300b42eed063549298f46d3e01d3937040bdc57358b0b17c7f2474bc929c95db9dc67c6a40af31b9d4255ee7eae765412765dca785ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-color.cfg \

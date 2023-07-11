@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-2.1-only"
 
 PV = "0.99.55"
 
-RPM_NAME = "cherrytree-0.99.55-1.3.aarch64.rpm"
-RPM_HASH = "e9ee34b62f0c2214100e4685e49d1650cfc16da66c697d6c07d9ed88db7f454e6d2da5a2de74f9a2b9ab990e049c68fa9690847556f15673eb2489163acb8d4f"
+RPM_NAME = "cherrytree-0.99.55-1.4.aarch64.rpm"
+RPM_HASH = "f6392c537b06edfa17979a239aecdd2c23cbea7fab2f27c6564e84239cbeeafeae89500396f5b7280c9ff4ce631d0a0a950b3b2bf0260b38df70c34d4e3e7777"
 
 RPROVIDES:${PN} += "cherrytree"
 

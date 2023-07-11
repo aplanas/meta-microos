@@ -4,13 +4,13 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.0.0"
 
-RPM_NAME = "python3-ec2metadata-4.0.0-1.2.noarch.rpm"
-RPM_HASH = "1592021c543d82e958f8f5f15b75ef27af0539fea4403cf71bce77047ce41d58dc9ff093c0553fcf4a81ec10a974789f4197af14839dcffc48f5c59f6bb1f39f"
+RPM_NAME = "python3-ec2metadata-4.0.0-1.3.noarch.rpm"
+RPM_HASH = "6d1da7362377ba99790c7ebb8e562948b2f260a34d7905605896d7900ff6bc1f13c385a85719b713ac4c5dec0094dcaff07bc61f873e648c4e5e4236d3d41739"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-ec2metadata \
 python3-ec2metadata \
-python3.10dist-ec2metadata \
+python3.11dist-ec2metadata \
 python3dist-ec2metadata"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
 PV = "3.26.6"
 
-RPM_NAME = "totem-pl-parser-lang-3.26.6-2.8.noarch.rpm"
-RPM_HASH = "383bb14d9a68713eef937807ec1a4eb3c28a30097d855778dcf448e8a1c68dc6c95f8b46137047be49d1a69e714bee1761fa6f8f8c1f09310ef0efbab4411c96"
+RPM_NAME = "totem-pl-parser-lang-3.26.6-2.9.noarch.rpm"
+RPM_HASH = "39283a9f9fea3934e552e7b2f73a1fddb3e81110036141e1685b74c613eb6370fcf4f2808fddf1677e3176831274de0897fa3dbd4e1851c67100bb8de7611a6f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-totem-pl-parser-af \

@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.22.3"
 
-RPM_NAME = "watchexec-1.22.3-1.1.aarch64.rpm"
-RPM_HASH = "48893eca95d95e2b458c4e3667ef8d7467ad1f3b77dd02aaaa2063025d74bb1c820c198c3c2acc11ad375d4b60aeb8ccb03bb60d67a70c2d24e33e58243b7a93"
+RPM_NAME = "watchexec-1.22.3-1.2.aarch64.rpm"
+RPM_HASH = "a2bb6c52fd2d26e6ad18679de48a774e82e1509558883c9490be6ef4e71eb5a39a07e1201ba5c3d8c1e6d7c3b4d19655a9130d8aca9084bc8d947846f09d54ac"
 
 RPROVIDES:${PN} += "bundled-rust-crate-BROKEN \
 watchexec"

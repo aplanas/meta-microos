@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0 | MIT"
 
 PV = "1.3.0"
 
-RPM_NAME = "python39-sniffio-1.3.0-2.1.noarch.rpm"
-RPM_HASH = "8f2334746d9011f583e9f5bf3fe5b998cb9b32e261b14f38d0b2e97e71d0f1ac8460ecfa04e23ccff38370f847e42084cddd4d9acf99542339a5412cb9bd428e"
+RPM_NAME = "python39-sniffio-1.3.0-2.3.noarch.rpm"
+RPM_HASH = "2f821694aebb9f15ae52b8cab772d7920a7cf199c9448301c73f53323ec3c2da3b900396c52a470233dd47b0d9e199225ecae203bdc85e9636b6fa0fe07f9618"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sniffio \

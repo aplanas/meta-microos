@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.46.1"
 
-RPM_NAME = "metacity-devel-3.46.1-1.1.aarch64.rpm"
-RPM_HASH = "e2ead4fbb15b015fe445480bcce15fd465ecc01ca60d5d004d0a9c52b12020e1f8f48a95626fbab3014f794da40d13337f94ebed1ffa873fc8cdf023567519e2"
+RPM_NAME = "metacity-devel-3.46.1-1.2.aarch64.rpm"
+RPM_HASH = "53937f04f42e0f61bd99e3ac63c8ca13178ae744e8eb529f407b4327ca7b82a666205ce4f29a7f30770ed4b322b7df568168bff75ecb89e41cda957155ed9e87"
 
 RPROVIDES:${PN} += "metacity-devel \
 pkgconfig-libmetacity"

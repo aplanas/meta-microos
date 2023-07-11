@@ -6,10 +6,10 @@ It is designed to be stable across major versions of LLVM. \
 It corresponds to the header files in /usr/include/clang-c."
 LICENSE = "Apache-2.0-with-LLVM-exception & NCSA"
 
-PV = "16.0.4"
+PV = "16.0.6"
 
-RPM_NAME = "libclang13-16.0.4-1.1.aarch64.rpm"
-RPM_HASH = "30eacf95af4b3252f40a323ec1725a563fe90ab8f31dad2c9b38b71d2c8aa0215350a8ac92246997443dd1662b859cbdfa35ce7f5068cd245fe24f5e54a98f8e"
+RPM_NAME = "libclang13-16.0.6-1.1.aarch64.rpm"
+RPM_HASH = "d99425123f9391787921cd4d9503c2f4fa81c5e8294b1cc9603c4d6ac619a129eee2ea19da7e79b2948a7018e9404364785c20f5eda9ef1fb39f7001d5bc5177"
 
 RPROVIDES:${PN} += "libclang.so.13 \
 libclang13"

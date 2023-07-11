@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.17.1"
 
-RPM_NAME = "python39-annoy-1.17.1-1.5.aarch64.rpm"
-RPM_HASH = "1a039ca34bb7513be712c78bfdd151a9d3be2d2682cbefec77239688aefde7d90cc79b5a475be40b2e6b77d4de25b9d8ed931b171ce213e5e211f710bbc44cb9"
+RPM_NAME = "python39-annoy-1.17.1-1.7.aarch64.rpm"
+RPM_HASH = "f82f422def5c9eb1fe2b4292c85c03014171e84d382ee7a09f33b1f0ab6263da5b519daa30e8d9e92abf35e530e171a67a48b79fcdd8c598ebe2c05b1e6b1eab"
 
 RPROVIDES:${PN} += "python3.9dist-annoy \
 python39-annoy \

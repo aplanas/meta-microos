@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause | GPL-2.0-only"
 
 PV = "45.0"
 
-RPM_NAME = "libmlx4-1-45.0-1.1.aarch64.rpm"
-RPM_HASH = "554d4d81b3aa9c41de10dc9e1d69dc4bfc45203cdf71e72c9da0fc58dffbd7d136c79ebe1a760c157a6602f9a80abbca17b2fd6de3b3621911db9685954d338e"
+RPM_NAME = "libmlx4-1-45.0-1.2.aarch64.rpm"
+RPM_HASH = "852491167af710e6a67e8286d848b1c9ddae792e3adccbbcaac9ba4d9fbe60f2810fa5855dc5feafbb8752eb45c662f46107621489ee8f1a44c4eec900b13fc0"
 
 RPROVIDES:${PN} += "libmlx4-1 \
 libmlx4.so.1"

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.9.4"
 
-RPM_NAME = "python39-ttp-0.9.4-1.1.noarch.rpm"
-RPM_HASH = "3017a41f19f8324dd809fbd0307db87e1ac2c8dbf8bfbd09a6e2ca30cba7251194b94f7a58931870e3dc5f291d17a9e60e0f854a76fe418d125ffdff5abf30db"
+RPM_NAME = "python39-ttp-0.9.4-1.3.noarch.rpm"
+RPM_HASH = "e65ecc237a300466bba02c9b69a5a429172a26e9b4fb633da5e194a1649e6d66774b92aabfd819f433e4c394903a25eb43b2527abd69629bdd0c31e5df44b7d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-ttp \

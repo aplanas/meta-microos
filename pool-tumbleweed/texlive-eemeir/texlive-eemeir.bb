@@ -12,8 +12,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.1bsvn15878"
 
-RPM_NAME = "texlive-eemeir-2023.201.1.1bsvn15878-53.1.noarch.rpm"
-RPM_HASH = "7cb4253155398ae7d10aa06d4c9a0744a092f0058a685ea22987ae19d8da1760463754645e5add0003b025e55bddaab855928c9fe4c6b31892c169ac0c1db7ee"
+RPM_NAME = "texlive-eemeir-2023.201.1.1bsvn15878-53.2.noarch.rpm"
+RPM_HASH = "d3ed8d7e7e17ebb961082d9dd505b90d33eb392b478eeb904460ae96a5ba97f496e7c2a1d55bfec6bc3fdf54b2471e0a8d2dac8fc3577b083bf3d76ac30fd3f6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-eemeir.sty \

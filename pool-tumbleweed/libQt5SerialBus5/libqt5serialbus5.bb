@@ -7,10 +7,10 @@ This package contains base tools, like string, xml, and network \
 handling."
 LICENSE = "LGPL-3.0-only | GPL-2.0-or-later"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libQt5SerialBus5-5.15.9+kde0-1.1.aarch64.rpm"
-RPM_HASH = "0474b27754cf5fda12e3ecf419cacd8855b7251b9d467f4fbf74a84200f92344d3ad08dc6a2f664593dc1d25260ef17edab87584469ffcb4eafe30bc73e39e2d"
+RPM_NAME = "libQt5SerialBus5-5.15.10+kde0-1.1.aarch64.rpm"
+RPM_HASH = "79a1e5bdc0e6fe9487d96eb61374ca6e103a8c77f69db7d4090638b5be9a3b7a4482a1d4f0bc54d99b0f8b0fc2acc6f15932ef31d6014d1ce106c866ad7694c1"
 
 RPROVIDES:${PN} += "libQt5SerialBus.so.5 \
 libQt5SerialBus5"

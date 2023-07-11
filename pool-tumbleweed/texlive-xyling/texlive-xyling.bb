@@ -10,8 +10,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.1svn15878"
 
-RPM_NAME = "texlive-xyling-2023.201.1.1svn15878-52.1.noarch.rpm"
-RPM_HASH = "310b9f2b16a1a574cd4c69d962f4bea1823b47b8a2c56f7b62131ee3c6f22d89f3d20556f86dda270085780e7dad4e52bf21bd556fec2a50bed198b0b6b60039"
+RPM_NAME = "texlive-xyling-2023.201.1.1svn15878-52.2.noarch.rpm"
+RPM_HASH = "382cf68bdc9573b72074811b2c1260f5a767e76b88d35ddfe2ca3ade5a36c68f5bac5f46627ab8fd2cf62437dd80e2841a334c94267d3acf5b85d427b5c807d1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xyling.sty \

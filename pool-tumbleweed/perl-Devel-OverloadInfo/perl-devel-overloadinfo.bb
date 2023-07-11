@@ -6,14 +6,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.007"
 
-RPM_NAME = "perl-Devel-OverloadInfo-0.007-1.9.noarch.rpm"
-RPM_HASH = "4a9ad4df34b57333f4bbc28d7119ca1cd0d02984affa1cd53fcfbe44ea96139131c3bd20642a5ef225f98fe9ffd7dd83f0f1f0140b4eb912c8480473a7b7933c"
+RPM_NAME = "perl-Devel-OverloadInfo-0.007-1.10.noarch.rpm"
+RPM_HASH = "9cff0376ef58541d6d898496b131b6c1c7f322c8b69e8ada20aa488deccce9a7bbe04f3af6edde932b9199e9889fcb8f08e02847c28f091d62761391ca35e61a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Devel--OverloadInfo \
 perl-Devel-OverloadInfo"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-MRO--Compat \
 perl-Package--Stash \
 perl-Sub--Util"

@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "5.0.0"
 
-RPM_NAME = "python311-django-ipware-5.0.0-1.1.noarch.rpm"
-RPM_HASH = "5d6c7faf48fa75c41a8142739d578bfbaeea152e999d9b235270be402a5de4582af3e7f8c29297fdce7f7011423bf83f5b33af10261e3dd4d5847ad7e73cd805"
+RPM_NAME = "python311-django-ipware-5.0.0-1.3.noarch.rpm"
+RPM_HASH = "2415d212534e220e264b2e89169af41e5e475701b13d0ec4f96853fe512c62d93ddef141e02c03f55dc830ddd223b8476cb8eda757ed4f20245b5bc655ec11e5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-django-ipware \
+RPROVIDES:${PN} += "python3-django-ipware \
+python3.11dist-django-ipware \
 python311-django-ipware \
 python3dist-django-ipware"
 

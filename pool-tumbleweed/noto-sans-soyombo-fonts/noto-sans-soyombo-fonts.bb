@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-soyombo-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "f371505d9e1a5aa213bd6f0f61726bde88c3446ec2fae2ed08507bb3071a38ff358c740c0a124ad66a590e7172e467a8fb8382db8fd8428f9676e7135a98eecd"
+RPM_NAME = "noto-sans-soyombo-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "7658430291ac08dd1be42de94c60315164b097325c6a234a98380e35ce657e0e6d59b5a3cceda4af59c501227bba4c1f4d7962bab985bcbc9564e00286c3af9e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-soyombo \

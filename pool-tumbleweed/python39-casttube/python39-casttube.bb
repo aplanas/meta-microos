@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.2.1"
 
-RPM_NAME = "python39-casttube-0.2.1-2.3.noarch.rpm"
-RPM_HASH = "6e7ecd3884bfe1092e9fcfb1855adec03aaa3ca80a4b249f54925a7b9e71728965bf75859453a6e3871d0f71c30a4b4d1a05fe7c0d5e73a1dc0c64c97669075a"
+RPM_NAME = "python39-casttube-0.2.1-2.4.noarch.rpm"
+RPM_HASH = "f378dbe65baebdd3b21b7cfe53fcd15ea1d01aa9ab1801ddf093794f97b7654ef841394f8ade4f9166c536673243bc4689b1d13427ea6bcd0a7baf6749197e56"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-casttube \

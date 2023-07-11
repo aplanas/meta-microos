@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "6.18.1"
 
-RPM_NAME = "libcsound64-6_0-6.18.1-3.1.aarch64.rpm"
-RPM_HASH = "eec392545d07e02572b35dc36468efe843470b37190e261830c29e3992ea581c879e756015b8cb2046c71b3293378649ca88e7fb7fa915354dbfb1dcbdba9928"
+RPM_NAME = "libcsound64-6_0-6.18.1-3.2.aarch64.rpm"
+RPM_HASH = "5ea04954a7762d47045b702f5b49e6e0279ee0e91213a429d16f012ccced161311cc59d5bed75bf328370a6e9c69b3a7bf1afcefb422d387b5072b586d8146da"
 
 RPROVIDES:${PN} += "libcsound64-6-0 \
 libcsound64.so.6.0"

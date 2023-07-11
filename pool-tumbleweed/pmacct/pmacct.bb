@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.7.8"
 
-RPM_NAME = "pmacct-1.7.8-1.4.aarch64.rpm"
-RPM_HASH = "8bc5aafa4cf989785ec964f55ad77dcc23a801312f93f70f8f09dd081820a046b025a8dd36a39fe935086b181777cb29d7968e0e985707d2b1fb40f5d3316995"
+RPM_NAME = "pmacct-1.7.8-1.5.aarch64.rpm"
+RPM_HASH = "89a8fbbf768269b2d463638e7e03fbc7451f5bd316dee9540f152ffb55bdad91715ebcbba932f52298cedb0bba4fd79160f2c1c9351af2f47d22f3b8eabe0457"
 
 RPROVIDES:${PN} += "config-pmacct \
 pmacct"

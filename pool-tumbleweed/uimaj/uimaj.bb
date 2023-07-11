@@ -14,8 +14,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.8.1"
 
-RPM_NAME = "uimaj-2.8.1-3.10.aarch64.rpm"
-RPM_HASH = "0851ccf501e2a73cbda8100939c1ff1fabdfe69280c05dd82539775bb574ecd8d29c37211249fb52d8544685bbf0b359a73c7c885e8af26c3c16e126f3dbe6ba"
+RPM_NAME = "uimaj-2.8.1-3.11.aarch64.rpm"
+RPM_HASH = "9282e22d8baabe0aa271bace5ce5a0d90a7e6d7cdcb5ad0a8cecbaea5e9185df2214b472a70126f2b88a70a653dfcba910af80cb747d519f006d30b954b5af1f"
 
 RPROVIDES:${PN} += "mvn-org.apache.uima-aggregate-uimaj-pom- \
 mvn-org.apache.uima-jVinci \

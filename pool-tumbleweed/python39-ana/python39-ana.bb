@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.06"
 
-RPM_NAME = "python39-ana-0.06-3.3.noarch.rpm"
-RPM_HASH = "25fb3a319aaf371c1ba2cf2ce7127588c8c5f1031f17494ef5e62b0592cb7ccb4b195f2b197d8bfcabf9334532455f88bf6ec5e843c0b7dcae055d8b9c69e946"
+RPM_NAME = "python39-ana-0.06-3.5.noarch.rpm"
+RPM_HASH = "e70572b70c0a1306999d0770af1c0c9ec59cd39cc2e8a73c3170aaeb0330add5d918f9834b41aaed06a5aac1570b513d0d1bb140615e6ef04aeb54870518c23a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-ana \

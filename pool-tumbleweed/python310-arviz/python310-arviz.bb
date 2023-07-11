@@ -6,12 +6,11 @@ LICENSE = "Apache-2.0"
 
 PV = "0.15.1"
 
-RPM_NAME = "python310-arviz-0.15.1-1.2.noarch.rpm"
-RPM_HASH = "12afdf1716bccc5f2650160229d4932a6238b8275a52ec3f66f618e6ec5dc514ece5fd1e2e6f2af26a84fbbefd2c4cf5d38d80a04c3de3f6ea05b7c0f928a83a"
+RPM_NAME = "python310-arviz-0.15.1-2.1.noarch.rpm"
+RPM_HASH = "e536288ea71218f17e4b13a6bde2a4f62b8d92aaf7b4a0e98f33a1a5132946ea47a9ed0ea4649f020e60d15d7a6048a8cfd6da8353db4bb70bd2a37c666ec089"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-arviz \
-python3.10dist-arviz \
+RPROVIDES:${PN} += "python3.10dist-arviz \
 python310-arviz \
 python3dist-arviz"
 

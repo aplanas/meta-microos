@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "3.1.5"
 
-RPM_NAME = "fcft-devel-3.1.5-1.3.aarch64.rpm"
-RPM_HASH = "30aa515e4c0b0c3222c12719249135e84507d45c814d6b0ecde833d6bd7112a77b75e67b6e1636ef1d0e35d9608a8843ba88fcd6b29c475a33d2d6c193c9a4c7"
+RPM_NAME = "fcft-devel-3.1.5-1.4.aarch64.rpm"
+RPM_HASH = "ac9d647411d50e8a0c4cd99169c3da9c8bef08917100cd45cb5f870b10d3705c92aabc338fdf30c068c1ac3ebe25d8142579580baa584213cb2fdd42186a79b3"
 
 RPROVIDES:${PN} += "fcft-devel \
 pkgconfig-fcft"

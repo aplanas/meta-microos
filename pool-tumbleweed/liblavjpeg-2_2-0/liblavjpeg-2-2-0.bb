@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.2.1"
 
-RPM_NAME = "liblavjpeg-2_2-0-2.2.1-2.5.aarch64.rpm"
-RPM_HASH = "38cd9f2ac5fc86b7a1a9a704e496c36749d6d76072ad6e9f9758a58fb7ac3f798ff503e98e2714ee69de93c298880c5b421049b481ba76d6d1904eb60393eec0"
+RPM_NAME = "liblavjpeg-2_2-0-2.2.1-2.6.aarch64.rpm"
+RPM_HASH = "d26e335ac927c0896b8642e5fadee8c3d3b9ddcb4a3461364f19396dfc796a9dc669812fe1b624bdf8b8e3a6bfff988d1fa06971bc682015bc6b38594b7c0f2a"
 
 RPROVIDES:${PN} += "liblavjpeg-2-2-0 \
 liblavjpeg-2.2.so.0"

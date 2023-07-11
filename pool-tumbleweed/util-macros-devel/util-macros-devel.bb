@@ -4,8 +4,8 @@ LICENSE = "HPND"
 
 PV = "1.20.0"
 
-RPM_NAME = "util-macros-devel-1.20.0-1.3.aarch64.rpm"
-RPM_HASH = "7eaa684f93233b57daa24636492cf7ee6b71cf43e7e0e468959b140c174f935625f73e3da5d3367613f7961ccd1f6e29ba66fb222e5e4153bceaea27b842cb14"
+RPM_NAME = "util-macros-devel-1.20.0-1.4.aarch64.rpm"
+RPM_HASH = "90d5dc3306d5a0c07c322d4ddb31e8c3b652ae0929d94647dc5c376c4f1e32162f9b27324de54d88a649e1a6967f6179dc30c6e73ffd9fccb1f88dd96e3d4e4c"
 
 RPROVIDES:${PN} += "pkgconfig-xorg-macros \
 util-macros-devel \

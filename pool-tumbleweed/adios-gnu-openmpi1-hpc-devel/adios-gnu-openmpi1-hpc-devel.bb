@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause & LGPL-2.1-or-later & BSD-2-Clause"
 
 PV = "1.13.1"
 
-RPM_NAME = "adios-gnu-openmpi1-hpc-devel-1.13.1-5.13.noarch.rpm"
-RPM_HASH = "9ffe15f87fdd97010bc0b752af2a80ff136c9c3a160985b639227513ad0b8737e1cc867c2f7b1fa3e92c5e2c5b280e99b8c1974e5b808f139c0061458cc3db7b"
+RPM_NAME = "adios-gnu-openmpi1-hpc-devel-1.13.1-5.14.noarch.rpm"
+RPM_HASH = "af15818df330cd76638c92cadb148eac2745b0275893ec23ea5c15ffd0af8ee4dc12979e460d7374f243975cdd427874b1f60c9d90199284c0a5bc130861d037"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "adios-gnu-openmpi1-hpc-devel"

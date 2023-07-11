@@ -7,8 +7,8 @@ LICENSE = "(CDDL-1.0 | GPL-2.0-only-with-Classpath-exception-2.0) & Apache-2.0"
 
 PV = "3.1.0"
 
-RPM_NAME = "glassfish-servlet-api-3.1.0-2.19.noarch.rpm"
-RPM_HASH = "82dd3859aeb09ca21f5d9c0f52bf0bef1356f2a7a8ebe488a2e90f38a7e9dcf29e1878b29fca68420aeca5ffe8e656f587d91d43279f959072e631bc598645a0"
+RPM_NAME = "glassfish-servlet-api-3.1.0-2.20.noarch.rpm"
+RPM_HASH = "ac3a72a2a4ad56a167bd98bfed381a7d01f0c6c9e303008c0fe0749469d37ed86ac5a603196e40abf2aafdd3eec90b5ee62de46038338ca3d462e8d82a850e42"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-servlet-api \

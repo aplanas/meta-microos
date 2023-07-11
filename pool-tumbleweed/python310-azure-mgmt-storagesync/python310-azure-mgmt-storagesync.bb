@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0.0"
 
-RPM_NAME = "python310-azure-mgmt-storagesync-1.0.0.0-1.8.noarch.rpm"
-RPM_HASH = "f50b3d3ce9469f2cc8deed27c820c2772ef8031dffc441effd8546b925af102e53768490195009ba6db1bc6aef8ae4e2aba25ed36118ef1643f848fe9211e31f"
+RPM_NAME = "python310-azure-mgmt-storagesync-1.0.0.0-1.9.noarch.rpm"
+RPM_HASH = "b5848a494923c45aac79f4b69601ce2ba556e39fd1445c35a703f0d20c5c9d71dc60a649a767af03d04fe21b802b1d183b3185d55c323d57c05ed695c6a0947c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-storagesync \
-python3.10dist-azure-mgmt-storagesync \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-storagesync \
 python310-azure-mgmt-storagesync \
 python3dist-azure-mgmt-storagesync"
 

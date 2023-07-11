@@ -10,8 +10,8 @@ LICENSE = "Artistic-2.0"
 
 PV = "9.32"
 
-RPM_NAME = "perl-Mojolicious-9.32-1.1.noarch.rpm"
-RPM_HASH = "bffd3bae4ee67b496ff22aca074a13809a206ee9df04823ee40d486d30ee1f3eedbf1f192f0fd6288e4e8b87768ed55e9d6cb5cfcb2fa2376bd950b4afd8df8e"
+RPM_NAME = "perl-Mojolicious-9.32-1.2.noarch.rpm"
+RPM_HASH = "e93646cd0c1485e6768f36c45784627cb0b0c7ec75616905ca4c06050a26ccc230b1f9183c9f6a8b219ba1d82bc90d9acd23a509fe73e624ef02871a770dd4b9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mojo \
@@ -129,7 +129,7 @@ perl-Test--Mojo \
 perl-ojo"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-IO--Socket--IP \
 perl-Sub--Util"
 

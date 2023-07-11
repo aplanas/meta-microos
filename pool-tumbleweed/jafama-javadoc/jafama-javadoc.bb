@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.3.1"
 
-RPM_NAME = "jafama-javadoc-2.3.1-1.18.noarch.rpm"
-RPM_HASH = "4a6ed8e44b8f2a05f7f14494ad275e5e2366e5eb8264829fad5c5900dabbd44a734817a80746704adcb8f003471958dbab044bf3f94151388230960bcc0479ad"
+RPM_NAME = "jafama-javadoc-2.3.1-1.19.noarch.rpm"
+RPM_HASH = "e6411a20dc87e413e45795329c458dfbaf9b593304bcd6a8f8a4fea9a120cb1a4e41f74481feefc3e4524b2f0f5fb961a1dd39948b498c8cdee33b2d96bbf031"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jafama-javadoc"

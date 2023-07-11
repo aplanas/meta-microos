@@ -4,8 +4,8 @@ LICENSE = "ISC"
 
 PV = "1.6.1"
 
-RPM_NAME = "libmypaint-lang-1.6.1-2.3.noarch.rpm"
-RPM_HASH = "152340f73a6627c9d7e3cd2c6daa362b1ac29ceabccde1cd465a4f7432e6b179d71a196cd32e6e5e159d7ed657125a5618d0d114d152463b39e39ddebf32eb95"
+RPM_NAME = "libmypaint-lang-1.6.1-2.4.noarch.rpm"
+RPM_HASH = "2dc36e6474d8d1f5e74b7842b3dcfc98e3ca6572d4713370b82c3b0340c5372c242ae16820c56dfb6ca316e3f8f53e9c7f48d9a4af506791e84b2ab25fb7c9a6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libmypaint-lang \

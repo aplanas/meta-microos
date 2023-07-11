@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "4.18.1"
 
-RPM_NAME = "libxfce4util-devel-4.18.1-1.3.aarch64.rpm"
-RPM_HASH = "62a25861c929e17a6391441ff3b511207ea9ea1c6adc672c5978fb7a00f9ba58d62fb878104344658d946b08d23ec0358f5419a8b962ac11989cc660d1f5cc2b"
+RPM_NAME = "libxfce4util-devel-4.18.1-1.4.aarch64.rpm"
+RPM_HASH = "9d555616217f8f000cfbe163cfc05b725ae44b357a7d0d9344d768bae3e8a00f1e6f4f1967c94f9c640d988e83befc5367e05d25ce9824c6d1359d22ee75cee5"
 
 RPROVIDES:${PN} += "libxfce4util-devel \
 pkgconfig-libxfce4util-1.0"

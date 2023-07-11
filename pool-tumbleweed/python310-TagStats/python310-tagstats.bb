@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "0.1.2"
 
-RPM_NAME = "python310-TagStats-0.1.2-4.13.noarch.rpm"
-RPM_HASH = "7a279206695d0f14dd77160a1ffb5617a22901425ccb9fae7e0ae4a631f42aee3da4eaea062bbd3f3450349c07931fcf677c679ae75f00e57e212b1ced377008"
+RPM_NAME = "python310-TagStats-0.1.2-4.15.noarch.rpm"
+RPM_HASH = "ecc558ae6748fec89b1d2f73774733736c1b143ce4c067e115816da1f6306da6cb783daa4d9d314fc04deb5f14682a58bffc5a88ffdf940a5189770700c7278e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-TagStats \
-python3.10dist-tagstats \
+RPROVIDES:${PN} += "python3.10dist-tagstats \
 python310-TagStats \
 python3dist-tagstats"
 

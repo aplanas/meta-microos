@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "9.0.75"
 
-RPM_NAME = "tomcat-embed-9.0.75-1.1.noarch.rpm"
-RPM_HASH = "34672133f4ac36f2c379df5e63e25cdffa205309ea578a94bfc8dc9e8b62479188be28e0d02f560b643db88eff49054b460d2b65885798e2904d8d25e415204f"
+RPM_NAME = "tomcat-embed-9.0.75-1.2.noarch.rpm"
+RPM_HASH = "c7d9b737a09084c847b21c05dbcbe9dd2fe37f7d30ad16b8eb67c2ebf0b76d11370e58fad0552d0831e593711d0a585d532caa73519d80b2e88128279c81a2d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.apache.tomcat.embed-tomcat-embed-core \

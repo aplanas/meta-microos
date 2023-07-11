@@ -4,8 +4,8 @@ LICENSE = "ZPL-2.1"
 
 PV = "4.6"
 
-RPM_NAME = "python-zope.event-doc-4.6-4.1.noarch.rpm"
-RPM_HASH = "9fe91715e67db97efa20146b840a2d55cdd2dce001b9c1a8ce11b1510f39baca287b663b0c217e631e040fa6d86a90202b800f88130398990cd7681267f7a671"
+RPM_NAME = "python-zope.event-doc-4.6-4.2.noarch.rpm"
+RPM_HASH = "2f3033123a852d905110f7195aab071e2f4ed1c1ee1956e0f21ddf2e6226696707576492e24f64776e09cebd75fe22fc0536500266b89480afc2b2add2f147d8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-zope.event-doc"

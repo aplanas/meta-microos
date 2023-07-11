@@ -4,12 +4,11 @@ LICENSE = "BSD-Source-Code"
 
 PV = "1.6"
 
-RPM_NAME = "python310-curio-1.6-3.1.noarch.rpm"
-RPM_HASH = "27e64a76557db577794597b7f2287606db8c3220c1a55d787d8b015621011bedc3afec456af94c31652e4d8896f2cd002d84ca2a2a85cba9739aa35d8c49a9fc"
+RPM_NAME = "python310-curio-1.6-3.3.noarch.rpm"
+RPM_HASH = "b5d9f4f78339ffba16518a4de1bf86cfec8a58add3d228678264372f2b71b3625d166bb4bcb696f05c350d592a01f4c5937ff4ac1d0515a8d8bf0f76240934b5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-curio \
-python3.10dist-curio \
+RPROVIDES:${PN} += "python3.10dist-curio \
 python310-curio \
 python3dist-curio"
 

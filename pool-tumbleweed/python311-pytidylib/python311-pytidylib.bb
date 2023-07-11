@@ -25,11 +25,12 @@ LICENSE = "MIT"
 
 PV = "0.3.2"
 
-RPM_NAME = "python311-pytidylib-0.3.2-2.6.noarch.rpm"
-RPM_HASH = "035b43df2c502b94ae2474d6becd46087c52efd90a37e0e291af599e744853e538f9d29700b0bc6627e005df206bdd21ee0b3e0887c1f45c2f3112195167a130"
+RPM_NAME = "python311-pytidylib-0.3.2-2.8.noarch.rpm"
+RPM_HASH = "666ff6e091a4c6dfddf018efad969021d3eb6a8228b792dc2fb1975752cc2242c058da514d81d45c8e686bac4eeab224857fd2c43a9c206a0fd1f2f0dbfedbc1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pytidylib \
+RPROVIDES:${PN} += "python3-pytidylib \
+python3.11dist-pytidylib \
 python311-pytidylib \
 python3dist-pytidylib"
 

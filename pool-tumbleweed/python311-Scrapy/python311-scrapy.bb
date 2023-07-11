@@ -6,11 +6,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.7.1"
 
-RPM_NAME = "python311-Scrapy-2.7.1-1.5.noarch.rpm"
-RPM_HASH = "5d6aa03bcc4ba36f9a57860b07957cb53d79691594c4de057a16f6a365fef035d27eb0648eb920c1c53757cf65848742bd5dd3a788187d70823bc79183cc1671"
+RPM_NAME = "python311-Scrapy-2.7.1-1.7.noarch.rpm"
+RPM_HASH = "ffa1e3f99aaca589590fd523f13327877b2f846addb43e72e538d1067df4494414fa43cda9c65972210c5878d4e5461e2c84ccc4878e44f5a1bc3f045ecb76b7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-scrapy \
+RPROVIDES:${PN} += "python3-Scrapy \
+python3.11dist-scrapy \
 python311-Scrapy \
 python3dist-scrapy"
 

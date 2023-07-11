@@ -2,10 +2,10 @@ SUMMARY = "Command line client to QStandardPaths"
 DESCRIPTION = "Command line client to QStandardPaths."
 LICENSE = "BSD-3-Clause"
 
-PV = "5.15.9+kde1"
+PV = "5.15.10+kde3"
 
-RPM_NAME = "libqt5-qtpaths-5.15.9+kde1-1.1.aarch64.rpm"
-RPM_HASH = "6aa30ab644c120f92be635fce173e39b9e35402174f0d5ca0c641aa716e0afb94f7a998f92c0c2d3d2e5f04a98b3a5c7c25680e68821f992acb7ff58415a40b3"
+RPM_NAME = "libqt5-qtpaths-5.15.10+kde3-1.1.aarch64.rpm"
+RPM_HASH = "2530d744e090a050ceceb4c087485db8b240d5acc69a72254a98f4ca04eb7d31bb8dfa8cb9c3f52f6d8817b3b384d595e350dced1226aa339fb762be9affbee3"
 
 RPROVIDES:${PN} += "libqt5-qtpaths"
 

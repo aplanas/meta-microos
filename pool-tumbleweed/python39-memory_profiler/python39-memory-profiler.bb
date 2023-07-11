@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.57.0"
 
-RPM_NAME = "python39-memory_profiler-0.57.0-2.13.noarch.rpm"
-RPM_HASH = "554a7bb6b86605b662d5d86ba13454a40e1e1f86f4e9cb165a8bf6caf246b0feec50c5859a02045324c71872dd5fc21509a33cf965d35a1606a94f07f53ed1be"
+RPM_NAME = "python39-memory_profiler-0.57.0-2.14.noarch.rpm"
+RPM_HASH = "e862ab7e9f20c3435bd21f89c366659dd50ff32c7ed4716280d2734514e32caeb4bbc029f962491c3622e4eb5fe554e5bab2dc92436f2844ee4ca849ceb0f192"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-memory-profiler \

@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-only | LGPL-3.0-or-later"
 
 PV = "11.0"
 
-RPM_NAME = "glusterfs-11.0-2.1.aarch64.rpm"
-RPM_HASH = "ee408f343f0509a4a46f6502a562ef43acdfb695044dbeba17d0978de1322a07a4b4c5f6b74a37a5300df82074bf865300cd61bb9688ed81cf07248d42d0fd0e"
+RPM_NAME = "glusterfs-11.0-3.1.aarch64.rpm"
+RPM_HASH = "2c146e64784dfae3bef99297c335f0f4a8a5483ed32e4e14eff690e5efc93c8c331fca775cc11fd2b2adbd811adb081c5e3682b55ef23b20522030c767d27bda"
 
 RPROVIDES:${PN} += "config-glusterfs \
 glusterfs"
@@ -38,7 +38,6 @@ libreadline.so.8 \
 libssl.so.3 \
 libtirpc.so.3 \
 liburcu-bp.so.8 \
-liburing.so.2 \
 libuuid.so.1 \
 libxml2.so.2 \
 libz.so.1"

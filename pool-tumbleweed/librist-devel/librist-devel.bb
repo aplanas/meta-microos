@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.2.7"
 
-RPM_NAME = "librist-devel-0.2.7-2.3.aarch64.rpm"
-RPM_HASH = "c460c07af2127c97ce15241fd9309c3965448b900065088a9096f42a62f2e0815732d83594e6de668fecdf93672c05481c010de26e70519d9a87923b143811eb"
+RPM_NAME = "librist-devel-0.2.7-2.4.aarch64.rpm"
+RPM_HASH = "cda0798cb15db65b97d7036dfef817b35bd9ad6ccfc79aff64cc138a806ba1465534d3e9c69fa4f5fc9be15c21f95baad0fb66b68ccb592856eeb5d917bd1e08"
 
 RPROVIDES:${PN} += "librist-devel \
 pkgconfig-librist"

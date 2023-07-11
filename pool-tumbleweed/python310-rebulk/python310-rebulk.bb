@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "3.2.0"
 
-RPM_NAME = "python310-rebulk-3.2.0-1.2.noarch.rpm"
-RPM_HASH = "0ee007885005db08c60a5b685ef0b2de102538991d0bf59fdb94576992789501e7ee211fe2a821da255ad4470c40bb74292b653d1b76d7ee0574b4cf8bc4b2fd"
+RPM_NAME = "python310-rebulk-3.2.0-1.4.noarch.rpm"
+RPM_HASH = "137ec78503f19dfa0a57f28b627a9f4f1bcf8bfe2d89ec1208aa9e155ae9cbfbee7fe7eb5e7b42b39b3a4be2adef27b2d63a0da1620dfac6a31925520eb7c320"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-rebulk \
-python3.10dist-rebulk \
+RPROVIDES:${PN} += "python3.10dist-rebulk \
 python310-rebulk \
 python3dist-rebulk"
 

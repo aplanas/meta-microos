@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0"
 
 PV = "0.54.0"
 
-RPM_NAME = "subtitleeditor-lang-0.54.0-4.16.noarch.rpm"
-RPM_HASH = "af6e2fa3e07dca868922519414b6fb4d34161eafa7bcb86cb0ae2dcb4611197ff0fab5cb168039305e04924cfcdda125e910992b2b05eb2f5ef804de567c7af9"
+RPM_NAME = "subtitleeditor-lang-0.54.0-4.17.noarch.rpm"
+RPM_HASH = "c613a0ee874c53561febbd365eeabf7b9953fe9525c47b6e5e1ae3bdfde87827cf8d2f0d72bd9d799e574064b9a065a06044304e4d509dfbcdf7b240f952ef3b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-subtitleeditor-bg \

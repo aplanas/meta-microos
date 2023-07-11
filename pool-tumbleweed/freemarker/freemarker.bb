@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.3.31"
 
-RPM_NAME = "freemarker-2.3.31-2.8.noarch.rpm"
-RPM_HASH = "0e51abfe6eb1820cae8d0079a4e651bdc21126ccd1b7e342cd160c6c36c6b54d6897506dc7b4950cb6b1e368782a138b28ff201276112c52ac8accae87d489df"
+RPM_NAME = "freemarker-2.3.31-3.1.noarch.rpm"
+RPM_HASH = "503cd6282540b32b5e506f98fc6335c6831a4d20ba08e1650513dab71d8e73a237f8526ef6dbbce2f9a89f15f6c754e8d36bb30a80ad0e5a382e58847832958d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "freemarker \

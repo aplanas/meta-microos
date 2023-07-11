@@ -4,10 +4,10 @@ that supports both Time-based One-time Passwords (TOTP) and \
 HMAC-Based One-Time Passwords (HOTP)."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.1.7"
+PV = "3.1.9"
 
-RPM_NAME = "otpclient-3.1.7-1.1.aarch64.rpm"
-RPM_HASH = "6d976f761fbc04289ce10ec1d3ab691756258d1c6800da3b3a93f90be124db4831347a0e1f55781d05212a01e19bab67dac011ded6ea58e93801978e8280eb3b"
+RPM_NAME = "otpclient-3.1.9-1.1.aarch64.rpm"
+RPM_HASH = "ccf6f78992f68ca8009e18a59ece97227a8bc7036cc8f23a6293549c1edfe43e6154491565ecf07d178cbeb1082fbac450835c0b20c4bd5009d67b345863460d"
 
 RPROVIDES:${PN} += "otpclient"
 

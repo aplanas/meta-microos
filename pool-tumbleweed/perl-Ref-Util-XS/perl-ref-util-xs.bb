@@ -13,12 +13,12 @@ LICENSE = "MIT"
 
 PV = "0.117"
 
-RPM_NAME = "perl-Ref-Util-XS-0.117-1.15.aarch64.rpm"
-RPM_HASH = "cd2ccbc2037a45f15771ffaf3fcccb4fc4f272ddf09ba29384484f78454ceff2d1a22f514d70cf185230b4a53315e3b6fd3b11d080b0ae275e8749496b27e9cc"
+RPM_NAME = "perl-Ref-Util-XS-0.117-1.16.aarch64.rpm"
+RPM_HASH = "0ee6addf84acccf8a810866a57b38d8f577ff71da3bdbb7a63dee5776fbf56b18e5e4468a72bfa2b2e54db7fb422c6bb1fee4f7237a512304a0d5985c820f04f"
 
 RPROVIDES:${PN} += "perl-Ref--Util--XS \
 perl-Ref-Util-XS"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.50"
 
-RPM_NAME = "python39-distutils-extra-2.50-1.1.noarch.rpm"
-RPM_HASH = "4abf1bc9fc1282d3e357fd278d1908f592a202c359757bb0aa0108d082ba30caf35e1164d8fa807fb5fb71d3bd23f9d52c16f25e52385de7f67d095e82769013"
+RPM_NAME = "python39-distutils-extra-2.50-1.2.noarch.rpm"
+RPM_HASH = "6ad1b58e72707bc8cdfa827f44623c6a213bd7cdf93c7859feed46eadc46f96ac281898f85c393dc27d24d2ff99a03f32fdf1b231ca016c246f9703c895e967b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-python-distutils-extra \

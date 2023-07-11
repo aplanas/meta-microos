@@ -4,12 +4,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.0.3"
 
-RPM_NAME = "python3-kiwi-keg-2.0.3-1.1.noarch.rpm"
-RPM_HASH = "ba1fb402dc47e05768f6fa749a0f20aa896c243deffd390e0cd14da12a3f3fa54927773a872a279150261ac2b5080d774306fd8aaaada69c53999cce1121727d"
+RPM_NAME = "python3-kiwi-keg-2.0.3-1.2.noarch.rpm"
+RPM_HASH = "ff32a2e011dcbf89f4d94245f0708a9034405d35c630e5167a49226acba606a6fb13d27b4321fc25d79e214b022b0c35628de77b6c8b722dc45d12bb2b1f8023"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-kiwi-keg \
-python3.10dist-kiwi-keg \
+python3.11dist-kiwi-keg \
 python3dist-kiwi-keg"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

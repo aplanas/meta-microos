@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4"
 
-RPM_NAME = "libopus0-1.4-1.1.aarch64.rpm"
-RPM_HASH = "8c396d6052c6a6a32c84e3cd2f70f1591171bc1cda3c29a5737f288bfc559ed5f3e642b590d95ebd3a31552f26f4a4af0ecf67ac9598cbb15f31a99a60129cfd"
+RPM_NAME = "libopus0-1.4-1.2.aarch64.rpm"
+RPM_HASH = "a1ee58511233d2271daa69d4985542c4cb474904cb4562424b3cd59a9e4cb4f28c73dac78b43cab60aa933aed1067b7ece2ec2f1c700115f0d63529519a8e121"
 
 RPROVIDES:${PN} += "libopus.so.0 \
 libopus0"

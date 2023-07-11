@@ -5,10 +5,11 @@ LICENSE = "MIT"
 
 PV = "0.4.16"
 
-RPM_NAME = "python311-thriftpy2-0.4.16-1.4.aarch64.rpm"
-RPM_HASH = "84fda8013b0e5179d3e2936f0a53e5f4cb964e0e4ca5dee10520bddf88317968a42230957cf2c602077e72cadfc663bdb9c77dc1b1756c45a6660128d55c3320"
+RPM_NAME = "python311-thriftpy2-0.4.16-1.5.aarch64.rpm"
+RPM_HASH = "a3a493db36bf635b3f939353d3bec13b10779874addb91cd63e0c8a66150bc5577dbe75be2ec1bf8537c2a5b5e42c9c691c44ad66fd6d8184a68eef381e962d3"
 
-RPROVIDES:${PN} += "python3.11dist-thriftpy2 \
+RPROVIDES:${PN} += "python3-thriftpy2 \
+python3.11dist-thriftpy2 \
 python311-thriftpy2 \
 python3dist-thriftpy2"
 

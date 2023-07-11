@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.9.1"
 
-RPM_NAME = "libcss-devel-0.9.1-2.9.aarch64.rpm"
-RPM_HASH = "90a65dc3932e7cbea780612cc16e1909531cd351522d22f74e511368673849cbd874532254b33a779ac3c7f5b3a0b99067c166313c18b73635f37316ee3138be"
+RPM_NAME = "libcss-devel-0.9.1-2.10.aarch64.rpm"
+RPM_HASH = "0cf496a49597864841833540ad61fbe5de02173fbeea8e8b6f36a0df105d33fa9f3e37c23d47ad1dc81de41cc40eca17871903b502e17c26f3ff09c27135c027"
 
 RPROVIDES:${PN} += "libcss-devel \
 pkgconfig-libcss"

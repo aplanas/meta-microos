@@ -8,11 +8,12 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "3.0"
 
-RPM_NAME = "python311-liblarch-gtk-3.0-2.15.noarch.rpm"
-RPM_HASH = "816267d3cadaed30ce1b2cdc1da0b0ee280a5434da256deb6b8f662e13192be949eced99f1bdcf499a37b40c91d5143be961811bc21e696337bdbaf25406d283"
+RPM_NAME = "python311-liblarch-gtk-3.0-2.17.noarch.rpm"
+RPM_HASH = "d83a4d3a4bf2fd18f669de460d5644cbfb8a076410debd9b16a4e14b3fbcc677580b8d07700fb099a95f25a6ce4d1aa64314428a26d7892d77a90ebe4eda23b2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python311-liblarch-gtk"
+RPROVIDES:${PN} += "python3-liblarch-gtk \
+python311-liblarch-gtk"
 
 RDEPENDS:${PN} += "python-abi \
 python311-gobject \

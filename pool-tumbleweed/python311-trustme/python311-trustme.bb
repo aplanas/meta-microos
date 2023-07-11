@@ -8,11 +8,12 @@ LICENSE = "Apache-2.0 | MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python311-trustme-1.0.0-1.1.noarch.rpm"
-RPM_HASH = "62a3a9ee254f4b413514330df2e751a50b9a43111a24244fd519011fbb2aad6e2f7fbe88a9a9e01d4a2a502684f7a80f68e32335e3e26db05fb60fe6f7646e66"
+RPM_NAME = "python311-trustme-1.0.0-1.3.noarch.rpm"
+RPM_HASH = "510c28de1ae3d9c5290b3e342193e4b39671fca5e9ccfcb3294fa5be03211ff6303c874478a15ecfe1dd97c80aedb18b8253c5fd82f7316ed0fbb84520a83e01"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-trustme \
+RPROVIDES:${PN} += "python3-trustme \
+python3.11dist-trustme \
 python311-trustme \
 python3dist-trustme"
 

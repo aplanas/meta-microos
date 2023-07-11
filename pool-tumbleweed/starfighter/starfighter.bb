@@ -11,8 +11,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.4"
 
-RPM_NAME = "starfighter-2.4-1.13.aarch64.rpm"
-RPM_HASH = "77d121ee432e204be4e7d3f90727fb6341ad3bc1faff573f21392fb6417805ca671247c08d156f9ab00e63a6de5d310464a414dc75dafaa0d9cc791bb7853ad4"
+RPM_NAME = "starfighter-2.4-1.14.aarch64.rpm"
+RPM_HASH = "92d378f4b463758bc93c896b16ae5dd98ea1e846ef41c913f2637cb8b4dfaaf58767cce1f14f1420721688990db85d5e16f0c74f05854ce6f0429461203cc2ea"
 
 RPROVIDES:${PN} += "starfighter"
 

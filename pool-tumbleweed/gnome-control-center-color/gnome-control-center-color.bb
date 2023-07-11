@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the color management configuration panel fo
 GNOME control center."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.2"
+PV = "44.3"
 
-RPM_NAME = "gnome-control-center-color-44.2-1.1.noarch.rpm"
-RPM_HASH = "aba1d6d802908b7c9e78702966c25c82122fe98b0a435a5ff713324f374d1dd0b01aa54030571d76b2a988cfab9b5f74972baddd33db45a1faf625b659d8cda9"
+RPM_NAME = "gnome-control-center-color-44.3-1.1.noarch.rpm"
+RPM_HASH = "8416a3169b550e88aab5989423a088aaebd0c379f4f4bb2759faed904c9b05e0e3c6805eec5cd80e0de247f41b022ee0e1d9c65cd12438a0ade5f6f7e9e6aae0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-control-center-color"

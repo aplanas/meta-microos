@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "9.0.0"
 
-RPM_NAME = "openvdb-devel-9.0.0-3.5.aarch64.rpm"
-RPM_HASH = "4398f2959cad90a16eca2016e8ffa0693c9259cc1e64468fc4189117a9b99676fb8c26124517c8a2473ba10cb51e1317e476ca15b8f76fbd040b0b12268a08cb"
+RPM_NAME = "openvdb-devel-9.0.0-3.6.aarch64.rpm"
+RPM_HASH = "6f81628b3f4d23f6e2a049bed5e47a5d735dbd1f88ad07fea2823ce751c0db2a610464a197f2e50c0d6f24cefdb5406112cf664bda078057a882c71ccb770f5d"
 
 RPROVIDES:${PN} += "openvdb-devel"
 

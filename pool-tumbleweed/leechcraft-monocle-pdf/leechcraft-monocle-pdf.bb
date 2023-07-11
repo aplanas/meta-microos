@@ -5,8 +5,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-monocle-pdf-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "b775a84bbcd56adff63c819a2024898f222f5780613c539dab8f2ab28907780c7049cdcb0ec1db7ea2fde7915388e00d63ab6b9ed2a42abd68e62da7a02ee4b8"
+RPM_NAME = "leechcraft-monocle-pdf-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "6b860cb076f1403f9fcb1ab3e7d2131942666a393ddd52af845595ffbbcfb0363be00d83be9d3504b0103e544b41af997b4a77d490ccca2aba2df1a705494ab7"
 
 RPROVIDES:${PN} += "leechcraft-monocle-pdf \
 leechcraft-monocle-subplugin \

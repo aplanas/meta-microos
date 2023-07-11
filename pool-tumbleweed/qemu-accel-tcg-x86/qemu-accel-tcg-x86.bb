@@ -7,8 +7,8 @@ LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-
 
 PV = "8.0.2"
 
-RPM_NAME = "qemu-accel-tcg-x86-8.0.2-1.1.aarch64.rpm"
-RPM_HASH = "c46756ae67fc3b899015cab7ef951ed6abdf329a186591ec1bf478eead4e6166bcc87b87fe408d6720e3cc7b82deef91267d257f502dc03d40d063bb968dd791"
+RPM_NAME = "qemu-accel-tcg-x86-8.0.2-2.1.aarch64.rpm"
+RPM_HASH = "653e415cf6cc8d86d92e010ea73bb71eddbbaa4b99bde6494d1dc1e54cdf048933ea3653e90619a681e502a46746e6db7392c60b113a03e4fac1566c700f6ceb"
 
 RPROVIDES:${PN} += "qemu-accel-tcg-x86"
 

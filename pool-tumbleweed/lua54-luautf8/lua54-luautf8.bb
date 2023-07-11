@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "0.1.5"
 
-RPM_NAME = "lua54-luautf8-0.1.5-2.4.aarch64.rpm"
-RPM_HASH = "a6ce3cd0fb43d9cb76bbc6d5a71ad5e32b9072f61dab8e778a2bedfaef634fe7f006d972e03801d468c61ebf0bb0830eb8b580ee6be5f28128f6b5aa50615f6b"
+RPM_NAME = "lua54-luautf8-0.1.5-2.5.aarch64.rpm"
+RPM_HASH = "d6a38ade1bcd479b0b01443e13aa74c0653cb7bf866f604bd74eb9eeb3e519db012cad04d57d7570164c5fe76dcf3437aaec78520c873ef6e203282ef7f6e7e0"
 
 RPROVIDES:${PN} += "lua-luautf8 \
 lua54-luautf8"

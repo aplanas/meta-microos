@@ -8,17 +8,19 @@ Plotly figures are shared, tracked, and edited all online and the data is \
 always accessible from the graph."
 LICENSE = "MIT"
 
-PV = "5.13.1"
+PV = "5.14.1"
 
-RPM_NAME = "python311-plotly-5.13.1-1.3.noarch.rpm"
-RPM_HASH = "3e81e15bade9119d35ce5b87a124f0e41aca11b44bd91132ca94eff615e4c3a5f5fe4a9a24c2caf51af9179678d250956617a0eabda1c58ab1c18df379619838"
+RPM_NAME = "python311-plotly-5.14.1-1.2.noarch.rpm"
+RPM_HASH = "4cab2175958c9bf098a4d9b1df2adbcd5a9c6ac9d2cbb7fa3e6e1019ad93edf91cc5dfd99976a359a4e33a8ff48256f9404b93a42b1d96c65224dea6528de578"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-plotly \
+RPROVIDES:${PN} += "python3-plotly \
+python3.11dist-plotly \
 python311-plotly \
 python3dist-plotly"
 
 RDEPENDS:${PN} += "python-abi \
+python311-packaging \
 python311-tenacity"
 
 inherit rpm

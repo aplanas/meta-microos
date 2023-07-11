@@ -16,8 +16,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.2.0"
 
-RPM_NAME = "python39-AnyQt-0.2.0-1.3.noarch.rpm"
-RPM_HASH = "48ce7c38a99e268ac6654dae293fe43a5943184d9bbe184f3d798b97b487592a24b53f8dff2b85e5a5400d57fc0cb47966cacf633a860677a84464f737c8a2a4"
+RPM_NAME = "python39-AnyQt-0.2.0-2.1.noarch.rpm"
+RPM_HASH = "7ab7690312850e6dcdb0b5c167eb05549042f38d2b862fcfe946ef20dd9ae20968218632ccff7229ba98a946088bda4cee4399c78bb1edd6a06bb598106d92a8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-anyqt \

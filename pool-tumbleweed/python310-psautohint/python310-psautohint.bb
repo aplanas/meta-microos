@@ -4,11 +4,10 @@ LICENSE = "Apache-2.0"
 
 PV = "2.4.0"
 
-RPM_NAME = "python310-psautohint-2.4.0-1.9.aarch64.rpm"
-RPM_HASH = "8e104c6b0c2ef3d2f9d6e85606795144296164c9a811e80cc9db2cca610848fa74b1da0d3fab5a66597543ca24f197e69bdeb669396a27f48af918ffb7cfc73d"
+RPM_NAME = "python310-psautohint-2.4.0-1.11.aarch64.rpm"
+RPM_HASH = "676b5ff8d26dfbe3315d0ff1283dafcf4fe1d1b8fa44fdd84f6000473cb8bc2774238704bd4029337a1f2405fe67555424a1cc4fce9571a85665006551cae102"
 
-RPROVIDES:${PN} += "python3-psautohint \
-python3.10dist-psautohint \
+RPROVIDES:${PN} += "python3.10dist-psautohint \
 python310-psautohint \
 python3dist-psautohint"
 

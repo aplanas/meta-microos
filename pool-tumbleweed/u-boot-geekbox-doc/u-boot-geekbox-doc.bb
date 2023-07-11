@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2023.04"
 
-RPM_NAME = "u-boot-geekbox-doc-2023.04-2.1.aarch64.rpm"
-RPM_HASH = "a6960959fa2769c466a8112bfc3492479014d9e9d1af49105985e130a8c49e24b6fb8b7a0ca5e69d1c53efe9decc725c984ed75c7a7d98e2b486e61d11f83fae"
+RPM_NAME = "u-boot-geekbox-doc-2023.04-2.2.aarch64.rpm"
+RPM_HASH = "1024702171cefb15d656dfac88b7ee01d0c60a3e9b7baeeaf40635e8ba48f49cfd070927b5bd3450b2b0895cb5da09c7a5a5d7ee5f930dccf10d78c2999c4f9b"
 
 RPROVIDES:${PN} += "u-boot-geekbox-doc"
 

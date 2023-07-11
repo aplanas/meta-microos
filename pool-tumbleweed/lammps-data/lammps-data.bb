@@ -16,8 +16,8 @@ LICENSE = "GPL-2.0-only & GPL-3.0-or-later"
 
 PV = "20201029"
 
-RPM_NAME = "lammps-data-20201029-5.1.noarch.rpm"
-RPM_HASH = "127f6ff89f882684381890a86009edaa2bf2649398c6f45513b6fc031bbcf52e4f9ad8f7cf35c0b1e4bb7dce5a1e9c3fb6950189936c9af2ced20e483fbf7beb"
+RPM_NAME = "lammps-data-20201029-5.2.noarch.rpm"
+RPM_HASH = "4182306ab37a269df55225b583545f33b6e4934c503dac5c283091ceacf30fb19bb0e0404358ccd079f4ddacc3ea7956333c43c32d030c3b3127357b9cdc9365"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-lammps-data \

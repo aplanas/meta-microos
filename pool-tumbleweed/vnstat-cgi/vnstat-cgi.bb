@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.10"
 
-RPM_NAME = "vnstat-cgi-2.10-2.2.aarch64.rpm"
-RPM_HASH = "b276eec07703caa961a1dfcdec04449a9becb130a0ecc7d56b27785516ae84ce5d04b7c4b2aa0a751b00fac727dda000f61b8dc123705d3801351de7fcaf057c"
+RPM_NAME = "vnstat-cgi-2.10-2.3.aarch64.rpm"
+RPM_HASH = "000547f0016041fd2bbd54300ca7076c3493d04d3d5a7cd63907f13a1d357e7bfaaf0506ea07b9aec0d66f6d105dfa48c7f938e9697efac6b373e886f71f4348"
 
 RPROVIDES:${PN} += "config-vnstat-cgi \
 vnstat-cgi"

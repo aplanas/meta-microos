@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-mathdesign"
 DESCRIPTION = "The  separated fonts package for texlive-mathdesign"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.2.31svn31639"
+PV = "2023.208.2.31svn31639"
 
-RPM_NAME = "texlive-mathdesign-fonts-2023.201.2.31svn31639-52.1.noarch.rpm"
-RPM_HASH = "388ac29e5ea53f2d1929999503e70d6389862d819cc279c10c703d22f456a4181aa3f9756f6ff4c17ac5f88b9c9bd980d082045616aad1ec6238213efd179dbf"
+RPM_NAME = "texlive-mathdesign-fonts-2023.208.2.31svn31639-53.1.noarch.rpm"
+RPM_HASH = "a18329a08f88ee486cf49143322bd2bacbfdcddac7b13ba273c7f808ee6aa782c6b8b841ebf74f1e1f2392ff10328ce844a9488610aa67b9f4f1b1bc77e52378"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

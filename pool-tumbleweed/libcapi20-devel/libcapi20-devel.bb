@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.27"
 
-RPM_NAME = "libcapi20-devel-3.27-2.8.aarch64.rpm"
-RPM_HASH = "efdfe543fb04db8b96462ce7f81b77bd9aa89d2130f46f863c9412a601a8058fe012903f5b3fae42cde01e1171db1975d0514ee722bf7f4041aa4ef532970cdf"
+RPM_NAME = "libcapi20-devel-3.27-2.9.aarch64.rpm"
+RPM_HASH = "122ea31f74f3e7cee755549dbaec903154d7050ffcc03d98e70a2ea3b4489662776c1c0a969ea839446f3678e265d39fe01dfffd0e3a59fe7f04fd7b32afed4b"
 
 RPROVIDES:${PN} += "capi4linux-devel \
 libcapi20-devel \

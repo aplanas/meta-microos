@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libkdegames"
 DESCRIPTION = "Provides translations for the 'libkdegames' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libkdegames-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "18e7f4fef43f92c06bd28b26189488ff6bf723e4a308e9082b9331a9dda1e1be53c2cfd75d04485a63d54cd364a0f903d09933fb04a0c2575835d8819b70bac8"
+RPM_NAME = "libkdegames-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "8b6237109668111e893ef70d5dcb6ebe2d2097c32edf47589a35992b047836d0a7329ea8953970691732d731a2b6892c741d7b535880e51adcb5c15d25c44fa2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libkdegames-lang \

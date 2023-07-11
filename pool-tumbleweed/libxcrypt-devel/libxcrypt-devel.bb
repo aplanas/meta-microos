@@ -3,10 +3,10 @@ DESCRIPTION = "The libxcrypt-devel package contains libraries and header files f
 developing applications that use libxcrypt."
 LICENSE = "BSD-2-Clause & LGPL-2.1-or-later & BSD-3-Clause & SUSE-Public-Domain"
 
-PV = "4.4.34"
+PV = "4.4.35"
 
-RPM_NAME = "libxcrypt-devel-4.4.34-1.1.aarch64.rpm"
-RPM_HASH = "8994a7e75f29022db6d28b7b1c6199f992093acd4feb50c22e64a0bce8e665f9ead358ff6848fc1c2208cc5c1e1155f320218b20f448247c2d376fa14e8c575c"
+RPM_NAME = "libxcrypt-devel-4.4.35-1.1.aarch64.rpm"
+RPM_HASH = "771dd659a6a51aec4e5ec70fb1ebd037e37cc7cb7fa9373a81523458385dd30120b251c95f83398e346891e21454e8c5948a70b9ef163e44017e9cb2f83a0ce3"
 
 RPROVIDES:${PN} += "glibc-devel-/usr/lib64/libcrypt.so \
 libxcrypt-devel \

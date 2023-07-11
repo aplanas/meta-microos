@@ -11,8 +11,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.5.0"
 
-RPM_NAME = "vala-panel-0.5.0-1.6.aarch64.rpm"
-RPM_HASH = "7f1fe608bc3a952648242c7ac1b4ffba8cc558a2ec31bce9b6ce553df7dfe31d4a74bde8bd73b08f12740cd1d50de127fd301dcc722fae5e2f8646d12491d5a2"
+RPM_NAME = "vala-panel-0.5.0-1.7.aarch64.rpm"
+RPM_HASH = "b23571e2e796801605776f32b878ea0aedc82fd64aa93edc8794fe6ef1dfe85380d1efe6d223e233623c48e3f2a6d0ec7c26338d0680ef86a2455e58d7432563"
 
 RPROVIDES:${PN} += "config-vala-panel \
 libvalapanel.so.0 \

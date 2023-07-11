@@ -28,8 +28,8 @@ LICENSE = "MIT"
 
 PV = "4.12.2"
 
-RPM_NAME = "python39-beautifulsoup4-4.12.2-1.1.noarch.rpm"
-RPM_HASH = "f2ff2d8d06c7051c59a74a738b931d89f82f7333825722c036ef6e52527c38e2af673026374f8eb1eeeae2c3eb681d99b1cfed194166203dc91a7834eccbdb70"
+RPM_NAME = "python39-beautifulsoup4-4.12.2-1.3.noarch.rpm"
+RPM_HASH = "199beb931ed77c31e28ca2540cae0e564fb490f86ee01a0c1c36e5694aac3018eb5ff8628b367f2decf189d3d6aa7232dd603c754ef5aaa0b992d36f67c291e9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-beautifulsoup4 \

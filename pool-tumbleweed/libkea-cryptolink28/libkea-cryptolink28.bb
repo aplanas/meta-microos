@@ -5,8 +5,8 @@ LICENSE = "MPL-2.0"
 
 PV = "2.2.0"
 
-RPM_NAME = "libkea-cryptolink28-2.2.0-2.4.aarch64.rpm"
-RPM_HASH = "ae37e01255ba6fcc03993fa86557fc6fd8a6e4df124619d5a88888ee1f12433b13da6afaa3ff07d29e2786c3f9fec5b24406299c8e60b2c6ee8a4064efcebc66"
+RPM_NAME = "libkea-cryptolink28-2.2.0-2.6.aarch64.rpm"
+RPM_HASH = "81aabbd714889e1e04017cff5a0162bc08e2d56aff3fc60e4b3a035eb2372eaa99b0e5bd3c4b2b3cecbd4d41c71cc6857510f1fc16e0990cfe4808eb69285f34"
 
 RPROVIDES:${PN} += "libkea-cryptolink.so.28 \
 libkea-cryptolink28"

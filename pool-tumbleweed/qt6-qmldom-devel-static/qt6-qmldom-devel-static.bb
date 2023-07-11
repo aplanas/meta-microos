@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-qmldom-devel-static-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "75f71e2f7ab545516967e74ee91c480b2eace10cd9662e96c80ac40178bd123fac69beb6045e674a3d8bd042db5db2d0ff7880cff89e0d0472f589f051bc3090"
+RPM_NAME = "qt6-qmldom-devel-static-6.5.1-1.3.aarch64.rpm"
+RPM_HASH = "3f20cc3a1b6809dfe381d268d56bef3db9b67f82c7454169a20b5215c379f5f9c0a48787acaf66c9a10933d85042f2470fbcb6c4a0af0c2f90cd514fd858fc29"
 
 RPROVIDES:${PN} += "cmake-Qt6QmlDomPrivate \
 qt6-qmldom-devel-static \

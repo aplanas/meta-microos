@@ -5,8 +5,8 @@ LICENSE = "MPL-2.0"
 
 PV = "2.2.0"
 
-RPM_NAME = "kea-hooks-2.2.0-2.4.aarch64.rpm"
-RPM_HASH = "bf09e159137ca4786599a24a8974b4af16798213998648de22a7f7cc917693d5d3c4294e94c997f00fe9ed865135235ec22cb2dc20dcc31df216db972d34cb20"
+RPM_NAME = "kea-hooks-2.2.0-2.6.aarch64.rpm"
+RPM_HASH = "4ea7fef851cc4e5f90060022f9d0b14c28b12d436ba97a7edcc58038e12dbafb9a0b4299ee101076294cb8700bc86c65d697e6d17c42194ce9e55502bd610331"
 
 RPROVIDES:${PN} += "kea-hooks \
 libdhcp-bootp.so \

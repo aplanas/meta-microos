@@ -7,11 +7,12 @@ LICENSE = "MIT"
 
 PV = "22.10.0"
 
-RPM_NAME = "python311-Twisted-all_non_platform-22.10.0-6.1.noarch.rpm"
-RPM_HASH = "eb9e55f74695faffcf561c69578e00eda3d1a23860db43675262e22674f78bb4a294ed7aa3658cec1ec21f0ad454bb2a8ac915c1a3de4817c327a4a94235e587"
+RPM_NAME = "python311-Twisted-all_non_platform-22.10.0-7.1.noarch.rpm"
+RPM_HASH = "64aaf0a4be46530fb02d2230b41a4701474039a235543e1410c300b898aa61fb38f136a6757d4f04dbba1678af503140209944189d0d7b34cece9baccafe1321"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python311-Twisted-all-non-platform"
+RPROVIDES:${PN} += "python3-Twisted-all-non-platform \
+python311-Twisted-all-non-platform"
 
 RDEPENDS:${PN} += "python311-PyHamcrest \
 python311-Twisted-conch \

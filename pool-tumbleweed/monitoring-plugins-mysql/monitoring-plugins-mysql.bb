@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
 PV = "2.3.1"
 
-RPM_NAME = "monitoring-plugins-mysql-2.3.1-9.4.aarch64.rpm"
-RPM_HASH = "9d3d82e2b8e71b564c199942cd440d31348e625c804ed08d1965433680eef5d4ab73500888b67a5820fc8fa27e158f7771accf6295cb5c95fbf102d75c8ae4e9"
+RPM_NAME = "monitoring-plugins-mysql-2.3.1-9.5.aarch64.rpm"
+RPM_HASH = "2f4b354626e2b7e8e682a4d01129c8ae59654e1d61724b351d606727025718380e68f3590890581ed2ef2d06993959520b7d467e7e0441218ec71eadb3ea65c5"
 
 RPROVIDES:${PN} += "config-monitoring-plugins-mysql \
 monitoring-plugins-mysql \

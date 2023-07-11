@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.0"
 
-RPM_NAME = "libta_lib0-0.4.0-1.9.aarch64.rpm"
-RPM_HASH = "65f70dd5d51b9c2c86e2ba95024d88d0da08e460ea8fe5b046ec49afb8bfb14076abe1a05f1ec258db5434f33cf4545a71914cf2e60ce4a6d4ffdeffc3ba2329"
+RPM_NAME = "libta_lib0-0.4.0-1.10.aarch64.rpm"
+RPM_HASH = "af8d40a2f23b72245df4ed089862b34302e937466de86cb2b85c785ff761d8b85814aba69d5980f737ada433ffc6d9a59c46375f2dbbac284fa53098dee8aef2"
 
 RPROVIDES:${PN} += "libta-lib.so.0 \
 libta-lib0 \

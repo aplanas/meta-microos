@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause & LGPL-2.1-only & Zlib"
 
 PV = "1.26.3"
 
-RPM_NAME = "efl-1.26.3-30.6.aarch64.rpm"
-RPM_HASH = "dca3abf6c0c392c1b057c5697d93939b06122833dc3d359dfe90d9ceb6ac5ca59220c6f10d8749d38d430cca494bf4e0706bf97ec67c58effb93428255d4a15b"
+RPM_NAME = "efl-1.26.3-30.8.aarch64.rpm"
+RPM_HASH = "11be69d4a24f77cf87c695f991fd5178092cb8b61836447cc3d3732f3f4f01835533262b68f3ade0bcb8628af07eab4ab294ce7e94eca53dd4e8b2808518515e"
 
 RPROVIDES:${PN} += "ecore \
 edje \

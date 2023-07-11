@@ -21,8 +21,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.14.1"
 
-RPM_NAME = "libnbd-1.14.1-2.1.aarch64.rpm"
-RPM_HASH = "e7fc86cf88a4bf5eefc6db5e922c7b6e4e27e331e2cf4aa60f9870c7f787dddcbb65dae23671ced9e938f810df2407737c52a560478d73ef3914c84ab7ec340c"
+RPM_NAME = "libnbd-1.14.1-2.2.aarch64.rpm"
+RPM_HASH = "c1bfed27e977797a83f34fe75bf1596c771ffcf2f9e9a2ca220cb1e1b0af6fb6cfb2720faaca4b7c3b98d96a8408bc5be3e87a3547a1c970cb1d0aba68b12757"
 
 RPROVIDES:${PN} += "libnbd"
 

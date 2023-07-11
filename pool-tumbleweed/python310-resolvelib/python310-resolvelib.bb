@@ -4,12 +4,11 @@ LICENSE = "ISC"
 
 PV = "0.8.1"
 
-RPM_NAME = "python310-resolvelib-0.8.1-7.1.noarch.rpm"
-RPM_HASH = "2cac7acc09565a3f86d6358da5a56305d78d17ba3849d7264ad45ffbec7aa27cf878f4504484500d309ab39a1eb15f86e38271b5f738c04f9988f66904c75a2c"
+RPM_NAME = "python310-resolvelib-0.8.1-7.3.noarch.rpm"
+RPM_HASH = "38254c35fed8df9a0307441ceb8f252aede2dd2efd0c301bc428954d1af58746b9d262cfe4352758107c549afde0197d27ee8c71d3c8d324aff467c2047a4395"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-resolvelib \
-python3.10dist-resolvelib \
+RPROVIDES:${PN} += "python3.10dist-resolvelib \
 python310-resolvelib \
 python3dist-resolvelib"
 

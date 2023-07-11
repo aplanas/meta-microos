@@ -7,10 +7,10 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.10.0"
 
-RPM_NAME = "whipper-0.10.0-3.7.aarch64.rpm"
-RPM_HASH = "fa10a65a248be6c2e531561bdeb7ccb5b9c0ea2c536ec7922035745eb3750204644f72083725ca662b2186613f9bcf0c6a1ba1d2ed5f524421de7816a783843c"
+RPM_NAME = "whipper-0.10.0-3.8.aarch64.rpm"
+RPM_HASH = "22f263f333e083de02cd0be356cacadcd61f2d4ae2f3126d970720e49f53cce747d17e58bc515b7760ec8d3a2c05d53d79c6aafc0ffe64c26b65f1da6062855c"
 
-RPROVIDES:${PN} += "python3.10dist-whipper \
+RPROVIDES:${PN} += "python3.11dist-whipper \
 python3dist-whipper \
 whipper"
 

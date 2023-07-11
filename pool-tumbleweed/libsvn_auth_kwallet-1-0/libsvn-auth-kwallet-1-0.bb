@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.14.2"
 
-RPM_NAME = "libsvn_auth_kwallet-1-0-1.14.2-5.3.aarch64.rpm"
-RPM_HASH = "656908019dffd3206aef616596b458edb0f863d9166504ab049fa5cabf7168c9ea37d850b19ae26d129ba6e7ede35140c96630adb7c26755fea9f44b7997e3c4"
+RPM_NAME = "libsvn_auth_kwallet-1-0-1.14.2-6.1.aarch64.rpm"
+RPM_HASH = "f81d8c3aa556d2215fa7e5ed62f6778d9fe1e92999cb57e16f3d59c47ed7197ec9d4bbb4cece5ca7e2014d3d7d185f51be7a2898ed40dea26c5d8a6a462916e7"
 
 RPROVIDES:${PN} += "libsvn-auth-kwallet-1-0 \
 libsvn-auth-kwallet-1.so.0"

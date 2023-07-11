@@ -2,10 +2,10 @@ SUMMARY = "Maven Artifact Resolver Named Locks"
 DESCRIPTION = "A synchronization utility implementation using Named locks"
 LICENSE = "Apache-2.0"
 
-PV = "1.9.8"
+PV = "1.9.12"
 
-RPM_NAME = "maven-resolver-named-locks-1.9.8-1.1.noarch.rpm"
-RPM_HASH = "ff83739e907f52e694b6cd4e3f91166ab593f6b3837b62a757bd6563923aed6b7e312ebcfe174caa7e2a74a54f8a539a84bfa327f01295308356e59f42d9ba3b"
+RPM_NAME = "maven-resolver-named-locks-1.9.12-1.1.noarch.rpm"
+RPM_HASH = "16f2cf369cff487d49e75fe869ceac965f82d1bb156baa99904ecf9475cff61dd1638cf063531a27e3edf6e64a4ee1cc0980627ad04e5a7b18913e4b7bfb80a4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-resolver-named-locks \

@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.0"
 
-RPM_NAME = "libavdevice60-6.0-2.2.aarch64.rpm"
-RPM_HASH = "0831ff68546a134098b22deaf5cf5d90135287b8988c48e7507f9cfca871a864c8c818fcab4f4e8ab638ad004f7598ec03929bbaa07e43af37374d7c80ed8e57"
+RPM_NAME = "libavdevice60-6.0-2.4.aarch64.rpm"
+RPM_HASH = "e3f614ce3822fa57d02573b163e63643b394d1ef00e1e06aef7bc325fe891f5c548d0ea12d946cb81f6f4ee88f905b09cdac7f1b003d33bbde0e2e413dda7dcc"
 
 RPROVIDES:${PN} += "libavdevice.so.60 \
 libavdevice60"
@@ -28,7 +28,7 @@ libavutil58 \
 libc.so.6 \
 libcdio-cdda.so.2 \
 libcdio-paranoia.so.2 \
-libdc1394.so.25 \
+libdc1394.so.26 \
 libdrm.so.2 \
 libjack.so.0 \
 libpulse.so.0 \

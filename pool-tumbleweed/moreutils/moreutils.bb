@@ -25,8 +25,8 @@ LICENSE = "GPL-2.0-only & GPL-2.0-or-later & (GPL-2.0-or-later | MIT) & BSD-2-Cl
 
 PV = "0.67"
 
-RPM_NAME = "moreutils-0.67-2.2.aarch64.rpm"
-RPM_HASH = "4184fd455e84c5ff6f8c26155ab170c23b0d0e7df979e8a741e5f020970c8fee4504305dc75414fefa4fdf60bd1033799790c9427da73d8645c0afd6d86a63ab"
+RPM_NAME = "moreutils-0.67-2.3.aarch64.rpm"
+RPM_HASH = "64ce8b15810b4d664b1daa9a98403cb4c3f6680aef3e8f8c2df0911a766082f01d01deffe665e7659fcab2730f9e9bfd29f357676a090a02e7115d8f7d6d04ff"
 
 RPROVIDES:${PN} += "moreutils"
 

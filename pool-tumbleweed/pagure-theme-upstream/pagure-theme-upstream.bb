@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "5.13.3"
 
-RPM_NAME = "pagure-theme-upstream-5.13.3-1.4.noarch.rpm"
-RPM_HASH = "38bb35c1f239874285050863070d887db7c0e8e76da676f66a6615637d9981eb363789f6d905344479e46dfc6fa24b19234da0d77ca1d1b63f2a24dc5ff792bc"
+RPM_NAME = "pagure-theme-upstream-5.13.3-1.5.noarch.rpm"
+RPM_HASH = "d007d890fcdb786288784f27c35c587ffd9a695fc549d3ec6e80ac4159f5dfcb5b126a86d55235e8ffee076b2263a9197d5a379339d54d1a60c1d5b1f26f9b73"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pagure-theme-upstream"

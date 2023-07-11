@@ -2,14 +2,14 @@ SUMMARY = "Support for Hercules DJ Devices"
 DESCRIPTION = "This is the Hercules DJ Series Kernel Module, which supports Hercules DJ Devices."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.34_k6.3.4_1"
+PV = "1.34_k6.3.9_1"
 
-RPM_NAME = "hdjmod-kmp-64kb-1.34_k6.3.4_1-1.4.aarch64.rpm"
-RPM_HASH = "a20260677e456691165168dcb5ed3d3d3c9e9a1e7babadc0d9c724682306e7aa36f928aa1aa8ea0ae37fe9211467e27ffc4ff9944f8e78759bc3f319fa81ad17"
+RPM_NAME = "hdjmod-kmp-64kb-1.34_k6.3.9_1-1.10.aarch64.rpm"
+RPM_HASH = "4fe7587187e14be5ee36425b518c7c341b6a9a2a58d01780b6449ec72af3d19cdf0e212bdabca3214479c2ca7398a9e4572ee916d13880a3a0d5acb384207ee6"
 
 RPROVIDES:${PN} += "hdjmod-kmp \
 hdjmod-kmp-64kb \
-hdjmod-kmp-64kb-k6.3.4-1 \
+hdjmod-kmp-64kb-k6.3.9-1 \
 kmod-hdj-mod.ko \
 multiversion-kernel"
 

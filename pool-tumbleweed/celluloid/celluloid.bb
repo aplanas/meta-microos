@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.25"
 
-RPM_NAME = "celluloid-0.25-1.1.aarch64.rpm"
-RPM_HASH = "2ea70a5a11c82aff9876b1289b3626fe75e28f693054c24fe94dac67be8c7b3992871ef89182daa43fdb198ec1b71691bea695d8033ceae5e5035ba49df556e9"
+RPM_NAME = "celluloid-0.25-1.2.aarch64.rpm"
+RPM_HASH = "652955119271b4f8c7f50dff099407a6f4274bbc3b26907a757880ae9cc8076844cebafca6f8f16c8ee2eb629e83bfe4e63a7e38b033bfdb6af23481726cb411"
 
 RPROVIDES:${PN} += "celluloid \
 gnome-mpv"

@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-gunjalagondi-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "dacc99d994431779914017ab731b50b034868c85295bd76eccc55e319852d8dc2d409fa418dc1d3a869a2e001b32b02bf80d7a37b16db2388a195d47d09fe629"
+RPM_NAME = "noto-sans-gunjalagondi-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "6e33533f354efcf2cc58ec14722922ea800b5d30955dbb2381ed80315f4378002a3ecc227296c27270ded6b908c34f2e1c2c9ae97bd868e17891f26b88f7fe2b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-gunjalagondi \

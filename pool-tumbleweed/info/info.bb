@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "7.0.3"
 
-RPM_NAME = "info-7.0.3-1.1.aarch64.rpm"
-RPM_HASH = "dbd65aa1768b954b1337eb25b0af5e8c83a7ffa9b0d54a37e9f86420fbb19ac62314f6b3f2f73bacc5ea00334b767acf39d7d8a26f66e9f194af99f1a992e032"
+RPM_NAME = "info-7.0.3-1.3.aarch64.rpm"
+RPM_HASH = "28dc6cce92d2edb9ca3ce84de851196ba4848ca873dca204a44667f219c1658d6d629ffe4f61caf00ff23ea52e26df52d9de81f5da7fbb406f27b2ab345b82e6"
 
 RPROVIDES:${PN} += "/sbin/install-info \
 info"

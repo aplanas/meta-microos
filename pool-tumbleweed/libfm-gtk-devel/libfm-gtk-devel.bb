@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.3.2"
 
-RPM_NAME = "libfm-gtk-devel-1.3.2-1.12.aarch64.rpm"
-RPM_HASH = "3f1e7b7d32374cf024f07275b18b9934e00c552f0dff2df00fcf115117ece2cacdde29d3a2ce3ad8016d46a419a3a3745858a3dfb30e31a279f72b51204de75a"
+RPM_NAME = "libfm-gtk-devel-1.3.2-1.13.aarch64.rpm"
+RPM_HASH = "fb4e430ba0f991f703caabdb36f6416de9a58f1e57432dc8095c5d793a87ebb3f41c91bbc48c7f836426c2bd74dd71c687af559f4e4d75b003b65742a3910e29"
 
 RPROVIDES:${PN} += "libfm-gtk-devel \
 pkgconfig-libfm-gtk"

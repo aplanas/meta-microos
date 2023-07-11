@@ -19,13 +19,13 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.21"
 
-RPM_NAME = "perl-Tie-Cache-0.21-1.27.noarch.rpm"
-RPM_HASH = "23180452600a6e590ca5d7ed274ec326179426d8984c45ebfa7208cdea5ee7be64ead5cb24520fc25536a5dddc2fcec95f1ca0d9c083f2a12820bbe6327136cc"
+RPM_NAME = "perl-Tie-Cache-0.21-1.28.noarch.rpm"
+RPM_HASH = "dab30201d0bbabbd54f7c900926ae78791823fc56634ab60ddc8a2d57cec9dcec1db92f48c7c2bf4bc11f33a64562255a8f8268d1aed926311e2908974169fad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Tie--Cache \
 perl-Tie-Cache"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

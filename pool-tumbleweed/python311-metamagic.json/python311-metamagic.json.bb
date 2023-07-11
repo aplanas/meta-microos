@@ -5,10 +5,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.9.6"
 
-RPM_NAME = "python311-metamagic.json-0.9.6-4.10.aarch64.rpm"
-RPM_HASH = "94fd5375c4a3ebfbe896c3e289c9d6853be5f4cded0de692ef616536aca70d767e298ce50e87999083789409b43633efd516712fa30472d9b5c0f66a308438ba"
+RPM_NAME = "python311-metamagic.json-0.9.6-4.12.aarch64.rpm"
+RPM_HASH = "95573265479340a56239e14b33d8032872c144256ddb59c3b8816246bb08ab1948f7ab78665c9d84269e7afe922aa388a5e2eafeb8ff7b58ce9af9f66f612500"
 
-RPROVIDES:${PN} += "python3.11dist-metamagic.json \
+RPROVIDES:${PN} += "python3-metamagic.json \
+python3.11dist-metamagic.json \
 python311-metamagic.json \
 python3dist-metamagic.json"
 

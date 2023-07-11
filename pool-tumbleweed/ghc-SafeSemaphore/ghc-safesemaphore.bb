@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.10.1"
 
-RPM_NAME = "ghc-SafeSemaphore-0.10.1-5.3.aarch64.rpm"
-RPM_HASH = "8638ae27a31be8a639ad115640cf38f449af9ce92ed295658e6e084977e8794ac722b903bfb67c0f4efb7b5e01e0c56965568df159cd1146d758b3aa68103952"
+RPM_NAME = "ghc-SafeSemaphore-0.10.1-5.6.aarch64.rpm"
+RPM_HASH = "3212345cc212ea6055334ac0ce2c481f4450b9c9ee1e82abaa788e6f7d17d637b320619e37dcd12092f58aad6e281273ee7068d8fce08edc03599126b22f9ca4"
 
 RPROVIDES:${PN} += "ghc-SafeSemaphore \
 libHSSafeSemaphore-0.10.1-4RgR0Mf1NXcDYTDfcuJnia-ghc9.4.5.so"

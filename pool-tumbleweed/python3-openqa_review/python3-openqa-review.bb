@@ -4,12 +4,12 @@ LICENSE = "MIT"
 
 PV = "1.30.0"
 
-RPM_NAME = "python3-openqa_review-1.30.0-1.3.noarch.rpm"
-RPM_HASH = "37271705a9fb2a690e0b0b2cea688fff66c326609cb5d0d4bb5caac59d40c653702daab926d92109fd596243135338daa4898ae8aee1e5d58ca23c5e5580894a"
+RPM_NAME = "python3-openqa_review-1.30.0-1.4.noarch.rpm"
+RPM_HASH = "b67d34bb24d00676b75f755a3d071bbb88a0ce41aae659c76ac9c5983b24cb94dcffde08bab52d04de2ff083287ec5b218faf8bc56d3954c751588f1f1a75d5d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-openqa-review \
-python3.10dist-openqa-review \
+python3.11dist-openqa-review \
 python3dist-openqa-review"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

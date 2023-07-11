@@ -9,11 +9,12 @@ LICENSE = "Apache-2.0 & GPL-3.0-only"
 
 PV = "2.3.2"
 
-RPM_NAME = "python311-python-daemon-2.3.2-2.1.noarch.rpm"
-RPM_HASH = "ba0ab03443d688640ea8f26c3d2ec2e45512ea56e89ac9b483b77431b490c6f98ce96ac532b502e201cfaf47b2a9496e462f3cf81d2ccefc6dd5f1cd8e4c2286"
+RPM_NAME = "python311-python-daemon-2.3.2-2.3.noarch.rpm"
+RPM_HASH = "62ec8e9504bd8d1a3b79351a2841beee710982b534b0bc77bf4d1caf7c5e3eae02b72116f9b5e3013cee4c0a559572f04c7deff970bc1099ad27e21779a26353"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-python-daemon \
+RPROVIDES:${PN} += "python3-python-daemon \
+python3.11dist-python-daemon \
 python311-python-daemon \
 python3dist-python-daemon"
 

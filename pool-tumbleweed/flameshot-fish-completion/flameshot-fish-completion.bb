@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "12.1.0"
 
-RPM_NAME = "flameshot-fish-completion-12.1.0-2.1.noarch.rpm"
-RPM_HASH = "54133ea8350190cf50cae57e4220301676f217c7803286a810a0b46b6845d31771ade39a3bf91d957b6c1a451687233f4f6f7e9f6b8caaaec16fd235378b8c1e"
+RPM_NAME = "flameshot-fish-completion-12.1.0-2.2.noarch.rpm"
+RPM_HASH = "051d601ef1306aff4b159931e6fb7420dc08a8dbcab6cb3d5da53758c09775b4039f3a2f2ce5c1697dbc74563a0f6a364109df29dfbd63fe498af0fa0c399256"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "flameshot-fish-completion"

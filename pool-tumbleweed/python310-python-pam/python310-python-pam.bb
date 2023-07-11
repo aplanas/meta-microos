@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.8.4"
 
-RPM_NAME = "python310-python-pam-1.8.4-1.15.noarch.rpm"
-RPM_HASH = "3f8821d0f024069781596e8978ac557bf018463bea5b6f06450f0b5d6a88e3f9a4e97ae337da516d392fa456671a683ff2c71ed0f86b546dea080aadc99ae934"
+RPM_NAME = "python310-python-pam-1.8.4-1.16.noarch.rpm"
+RPM_HASH = "fdf2acc79f5b6ccfc4468fee3bf86788cbf060e91d67621302f17f6a09b9ca21f774b108c46816b563838aab13207f789d055442ed7da462e3c4c4eeafcb6e42"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-python-pam \
-python3.10dist-python-pam \
+RPROVIDES:${PN} += "python3.10dist-python-pam \
 python310-python-pam \
 python3dist-python-pam"
 

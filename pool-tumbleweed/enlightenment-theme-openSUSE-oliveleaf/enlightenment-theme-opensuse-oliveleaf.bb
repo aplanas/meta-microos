@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause & LGPL-2.1 & CC-BY-SA-3.0"
 
 PV = "20220219.1.26"
 
-RPM_NAME = "enlightenment-theme-openSUSE-oliveleaf-20220219.1.26-1.10.noarch.rpm"
-RPM_HASH = "99d4f001d06e5bc46f9687999f975a0ce021abbc4cc9a5815c1d0a0b2322930938c37824305aac1caf61646716dd5ef3cc3ef8a8851273a935ff0e82c421436f"
+RPM_NAME = "enlightenment-theme-openSUSE-oliveleaf-20220219.1.26-1.12.noarch.rpm"
+RPM_HASH = "e8a35cc235513a626f9458ce6f7fc344817cf1b04c40cab87ffa4bc5a8359ce2b289dc8b35941a449969d2fa18560eace1cd2349370a7c018d1845c9a480ec40"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "enlightenment-theme \

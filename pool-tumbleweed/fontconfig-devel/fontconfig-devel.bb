@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "2.14.2"
 
-RPM_NAME = "fontconfig-devel-2.14.2-1.3.aarch64.rpm"
-RPM_HASH = "38ce0aa65920eb07f6df2df931820d3cbbf6dcff964d4ae7f1b1e73dea0c49f1698a1b4b376cf05e9e5d4ac5dadceaf8a5986217044ba688903d0d1a4047188e"
+RPM_NAME = "fontconfig-devel-2.14.2-1.4.aarch64.rpm"
+RPM_HASH = "269ba26e3f663647785b44d0b855b62c1f9e20ccf3a3ed97b66091173595f3d4df5a25c77635b91b0ae14e769f4a58b5faa4162d9fef74dd7be1ed352877959e"
 
 RPROVIDES:${PN} += "fontconfig-devel \
 pkgconfig-fontconfig"

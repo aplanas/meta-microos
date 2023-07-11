@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "0.7.0"
 
-RPM_NAME = "python310-loguru-0.7.0-2.1.noarch.rpm"
-RPM_HASH = "d05ccd0365a49d30ff0b853df7e34a4cfdd8deebca2039c31d46b2877935b3d7f2dd4418f5a953f607a2d6b5310543f22e2b0fdc6d5ad7a5920309f81308c05d"
+RPM_NAME = "python310-loguru-0.7.0-2.3.noarch.rpm"
+RPM_HASH = "7d9d5ebf9818c89401d3d140e7e91ace5281949812a497ae94868726bb1b7046efb4e70ea18ee7c75b170c0f991ba2a0d20066fac63d5e6eaa43648f29ac50ac"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-loguru \
-python3.10dist-loguru \
+RPROVIDES:${PN} += "python3.10dist-loguru \
 python310-loguru \
 python3dist-loguru"
 

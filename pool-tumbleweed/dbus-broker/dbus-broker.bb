@@ -15,8 +15,8 @@ LICENSE = "Apache-2.0"
 
 PV = "33"
 
-RPM_NAME = "dbus-broker-33-1.3.aarch64.rpm"
-RPM_HASH = "24a946f13d82c648d4dafc2e924e2c9c30e8c933ba6a63bf25bd80d053816af94d2337f6863d7b416fe5a7f53d957cfda1ed2e0b7a47cbfc4cb0c9b6e8c21f2a"
+RPM_NAME = "dbus-broker-33-1.4.aarch64.rpm"
+RPM_HASH = "fa32861137c8408df2880b9bdfca6938856e72538db838619fb55a63ae58dead50f3d31d58f222b914951e15b73999e4ec2516f35388799dd231a1fcf754de02"
 
 RPROVIDES:${PN} += "bundled-c-dvar \
 bundled-c-ini \

@@ -3,10 +3,10 @@ DESCRIPTION = "This library implements the algorithm as described in 'Unicode \
 Standard Annex #9, the Bidirectional Algorithm'."
 LICENSE = "LGPL-2.1-only"
 
-PV = "1.0.12"
+PV = "1.0.13"
 
-RPM_NAME = "fribidi-1.0.12-1.6.aarch64.rpm"
-RPM_HASH = "43fdeac3e13d28a81b30d1988482ff747373be072510f6a3fb55e18dfba4eb6bd5273f891bc8d5af139bb8dd83474aa178c01d50f24b0fdd0816c2d66e208236"
+RPM_NAME = "fribidi-1.0.13-1.1.aarch64.rpm"
+RPM_HASH = "b1b32403e028ced3ad984d922b5aa8ffa24a055db2be2adaf2f346b6aba84671239bc8aac8decbe5e6504480275ebd829eb7780d2a3d8b57187010abc80dd3b3"
 
 RPROVIDES:${PN} += "fribidi \
 locale-ar;he"

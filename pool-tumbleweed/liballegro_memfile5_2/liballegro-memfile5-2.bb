@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause & Zlib"
 
 PV = "5.2.8.0"
 
-RPM_NAME = "liballegro_memfile5_2-5.2.8.0-1.3.aarch64.rpm"
-RPM_HASH = "30163e306079e113845e3ba01466ebdf5588600f700beee05312eaeff13e0fd9dff572cc74254f1252db256126442147e6511a1080b024544b2ee4a6ea607bb5"
+RPM_NAME = "liballegro_memfile5_2-5.2.8.0-1.4.aarch64.rpm"
+RPM_HASH = "bfb3421e73897b01fc2e560de577316246fdb3708fbe554b0953bb28f4098cbbb4b8488da1e9f69d7b9d34ce6fa1f33009cd58b03cf1beef2f3836410a69e0ad"
 
 RPROVIDES:${PN} += "liballegro-memfile.so.5.2 \
 liballegro-memfile5-2"

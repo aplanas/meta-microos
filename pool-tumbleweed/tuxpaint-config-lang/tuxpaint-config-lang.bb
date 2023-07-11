@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.0.18"
 
-RPM_NAME = "tuxpaint-config-lang-0.0.18-1.7.noarch.rpm"
-RPM_HASH = "05c1d5dd52be1c7278b6d3ca055635206667b300821b818579d3e60f507163dfd01936053facdfe8066f948df2db7d5dfdda49279f0c99bf49ce3c4ca116e736"
+RPM_NAME = "tuxpaint-config-lang-0.0.18-1.8.noarch.rpm"
+RPM_HASH = "696592b92f6575781df084363a8697a5c3c43e8932a245cbf0136eee8c99bc9e569b6255f3ca96566168fe1b9776179cd2253ededcb936d359bbc24ac249c532"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-tuxpaint-config-ar \

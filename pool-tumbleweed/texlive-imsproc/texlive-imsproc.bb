@@ -4,10 +4,10 @@ Society) conference proceedings. The class uses the XePersian \
 package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn29803"
+PV = "2023.208.0.0.1svn29803"
 
-RPM_NAME = "texlive-imsproc-2023.201.0.0.1svn29803-52.1.noarch.rpm"
-RPM_HASH = "545c971386f87fae7ce6fe77531db21f965604a521dc635b53755086a163cc6ec4c7870c4d11b70211c7dd885167cf3b2ebaf1ce7a962bd4ee233c63aaa36ace"
+RPM_NAME = "texlive-imsproc-2023.208.0.0.1svn29803-53.1.noarch.rpm"
+RPM_HASH = "33357da0bc73ebca64d3d10dd2ef6326e2cc4317738386b5d6711adf68d393d66d9bddef21839f868a0233e5a2f1759cee72ad39ea27415637381cface3f3a59"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-imsproc.cls \

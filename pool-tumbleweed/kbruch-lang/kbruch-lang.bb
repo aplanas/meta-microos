@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kbruch"
 DESCRIPTION = "Provides translations for the 'kbruch' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kbruch-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "b11da2c3a14f0b5bcded2a96abd41fde1af008ec34d3eaf733e955fdec95c922a6dc79acebbb19d85cb66ab7abea167a8866b34ac8d2f18c4b66a59c43e598f2"
+RPM_NAME = "kbruch-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "9fffbc3e87ea684d00b6b7c88b441a43d198a6ad7d071387ddcf5bca3192c7fa852c7ffad725849e2df447e75d8380b0f160e1af7f3c455e9656d09139282853"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kbruch-lang \

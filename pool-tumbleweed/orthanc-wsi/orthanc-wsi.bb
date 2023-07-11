@@ -7,8 +7,8 @@ LICENSE = "AGPL-3.0-or-later"
 
 PV = "1.1"
 
-RPM_NAME = "orthanc-wsi-1.1-2.11.aarch64.rpm"
-RPM_HASH = "2c58a3d5ff4656e668c30ef927590abf42cc50d6f384db3f87a6ac7cfb7387818cc5aade91c8d91afd903cd1acb4b05e8edaf76683cee7d567fc6e779250fe47"
+RPM_NAME = "orthanc-wsi-1.1-2.12.aarch64.rpm"
+RPM_HASH = "777fb4029c54ca42e41b7ed0df02329e8ed3f7e53c580b64198651621a06e171c50b58fb76c184236a6fa22467d76c1b5c27615aedcc41af2af617402f6ef2d0"
 
 RPROVIDES:${PN} += "libOrthancWSI.so.1.1 \
 orthanc-wsi"

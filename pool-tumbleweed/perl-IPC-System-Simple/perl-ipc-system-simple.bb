@@ -33,13 +33,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.30"
 
-RPM_NAME = "perl-IPC-System-Simple-1.30-1.13.noarch.rpm"
-RPM_HASH = "e2a66180ea5fe94a9a42912c9e99c8d6b72f9ecd843fd296f55e70489ebe68bf8346f0302bb6f11b93c3170c1d8696bf0b337bde489eb8260dab629ea65287e3"
+RPM_NAME = "perl-IPC-System-Simple-1.30-1.14.noarch.rpm"
+RPM_HASH = "b75647a7af80e16737376608d51cfa1c8f0a328c7455c1c72b31bb0bc3d8d4c735e4ed043ed32342c693c444526c97c5693ea6a5880b2f3f4bf13f9b6500a7a4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-IPC--System--Simple \
 perl-IPC-System-Simple"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

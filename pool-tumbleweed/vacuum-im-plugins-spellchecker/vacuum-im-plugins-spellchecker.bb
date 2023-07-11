@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.3.0+git1571036065.9f3952b2"
 
-RPM_NAME = "vacuum-im-plugins-spellchecker-1.3.0+git1571036065.9f3952b2-1.20.aarch64.rpm"
-RPM_HASH = "dbd288518619b4171b363209d49b2fa98475ba96d81df21bc26e2fead8aa16c451654a88e7f37ffe73f6db998253360929bf406382eb2bbfb60e392bd183b937"
+RPM_NAME = "vacuum-im-plugins-spellchecker-1.3.0+git1571036065.9f3952b2-1.21.aarch64.rpm"
+RPM_HASH = "514dbc315c40b0cdb2cf08a88b27e191485094f151ef1046d21cb9985c466019bd4e414fd285ae3130105de1a5f93b76f3335e09ec156ceea7f1300f8e056800"
 
 RPROVIDES:${PN} += "libspellchecker.so \
 vacuum-im-plugins-spellchecker"

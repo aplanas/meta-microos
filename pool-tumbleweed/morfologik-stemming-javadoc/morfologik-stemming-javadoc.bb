@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.1.9"
 
-RPM_NAME = "morfologik-stemming-javadoc-2.1.9-1.1.noarch.rpm"
-RPM_HASH = "95ea05ea0f664a62277f8f874ebc359a07d162fa42c47007cbf194e91128a3203e0e870fde0170c7692a245fe616fa394e9c6e5d00c037f7825fa4e513985cde"
+RPM_NAME = "morfologik-stemming-javadoc-2.1.9-1.2.noarch.rpm"
+RPM_HASH = "913f8ee60580e24225c00db798701cb8896a11267c763a66040d51c9bccc7607583399fba50fc1a0088ad3a178e4048e630a2c96eec7fe638b0bccc7023bbfb0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "morfologik-stemming-javadoc"

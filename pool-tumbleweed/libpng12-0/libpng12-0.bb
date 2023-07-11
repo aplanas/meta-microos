@@ -5,8 +5,8 @@ LICENSE = "Zlib"
 
 PV = "1.2.59"
 
-RPM_NAME = "libpng12-0-1.2.59-2.6.aarch64.rpm"
-RPM_HASH = "02ab22c3b3fa72e3a53a90d8fe49deb7b8a6af3a6ebc3d57aa50079953e40bf6cc253ac660255931a1ab830c140b6508af25b5fc40d34fcbfe00cb29d0268dc0"
+RPM_NAME = "libpng12-0-1.2.59-2.7.aarch64.rpm"
+RPM_HASH = "19ef37930d4877b7aec4a48c7edce88ea2981a16fb566cc6836d51e358e77733f4e1e261cd02b245d0b55fad3ea27f14a59e57ac5187e07fa2baac5fb6baa30f"
 
 RPROVIDES:${PN} += "libpng \
 libpng12-0 \

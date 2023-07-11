@@ -9,14 +9,13 @@ DESCRIPTION = "This project exists as the last piece to complete the puzzle of a
 They provide all the low-level functionalities that are needed to resolve and install packages."
 LICENSE = "MIT"
 
-PV = "0.7.0"
+PV = "0.9.1"
 
-RPM_NAME = "python310-unearth-0.7.0-1.4.noarch.rpm"
-RPM_HASH = "6e205b7911e83a8606b7da8cfdae936c84342db1ef2d8ccb4fd7b14270eb8477d5b444c15132509b3e42839496715c4b6fcc38e967226a2857172f9837233893"
+RPM_NAME = "python310-unearth-0.9.1-1.1.noarch.rpm"
+RPM_HASH = "3965eab72211e5d6f0daedeabc0bf5a384cbe14a39d2bea89c72c02371c92207017b70bac9ebd0d24e51b0713008264e15b2bfe9af30b513684cf72badcbbbc5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-unearth \
-python3.10dist-unearth \
+RPROVIDES:${PN} += "python3.10dist-unearth \
 python310-unearth \
 python3dist-unearth"
 

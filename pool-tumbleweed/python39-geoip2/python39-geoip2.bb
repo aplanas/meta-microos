@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "4.6.0"
 
-RPM_NAME = "python39-geoip2-4.6.0-3.2.noarch.rpm"
-RPM_HASH = "d24abc6490d2e96b4e738dc4932738277f598295fba8cbacc3db3fac38fe592fd2152904fd60a0ad2859174a5177b5cc130aa5ba8cff9b3bc3cba328799bc7d1"
+RPM_NAME = "python39-geoip2-4.6.0-4.3.noarch.rpm"
+RPM_HASH = "086305eafe1a67369d22f316ed623fceb85877ed7c7c055e5576dd65a7522e6bed3f80979ec7496366fc8c31eafad5341558d7c12a324fa15823e669002e42b1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-geoip2 \

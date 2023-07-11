@@ -9,14 +9,11 @@ LICENSE = "MIT"
 
 PV = "0.9.2"
 
-RPM_NAME = "python310-nbsphinx-0.9.2-1.1.noarch.rpm"
-RPM_HASH = "45e09ae48ef0dead5730505962a2278cb8fcb5cc1421682ade39af57d3d9e4292ed4de40541bc4cdf23893f9d9983a857e561078485e9c13b9164995e443c36f"
+RPM_NAME = "python310-nbsphinx-0.9.2-1.2.noarch.rpm"
+RPM_HASH = "ce8ac142692438c2330dc88f6afff50b8b37d8568b31b1ade9790337cc9b4ab38b835a9fafa363a56da4f228dc74a605ad5e63a7019944d502ef7920c183287e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jupyter-nbsphinx \
-python3-jupyter-nbsphinx \
-python3-nbsphinx \
-python3.10dist-nbsphinx \
+RPROVIDES:${PN} += "python3.10dist-nbsphinx \
 python310-jupyter-nbsphinx \
 python310-nbsphinx \
 python3dist-nbsphinx"

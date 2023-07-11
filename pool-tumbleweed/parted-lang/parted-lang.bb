@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.5"
 
-RPM_NAME = "parted-lang-3.5-4.4.noarch.rpm"
-RPM_HASH = "4556416f86b50614117e72e419adc67ee4da1c5094f5034bd85a3980c3d2127cad0f87d698d21ee37d6f4c6cf32a66e847f1b9044a9f8e880f158aa1bcf22364"
+RPM_NAME = "parted-lang-3.5-4.5.noarch.rpm"
+RPM_HASH = "b391ffe9f482c10242636b5d684f29522310db0b432efd6ba335b2ae293c2afbce151c191d6dc51241f76ff8ae044bb1973ad1e73e7f50c386306d516ab0724d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-parted-ca \

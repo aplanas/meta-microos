@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "12.2.0"
 
-RPM_NAME = "mingw32-cross-gcc-12.2.0-2.1.aarch64.rpm"
-RPM_HASH = "d749492bc59c063dbbf451e888babcf9581694c3c4140c41f5635f245942154c0c20d9fdcfc3b1a91714419330559435df04f83983d48aae8c48200f8369efab"
+RPM_NAME = "mingw32-cross-gcc-12.2.0-3.1.aarch64.rpm"
+RPM_HASH = "bb2379e84a7e4631f339edc71e0da3422bae7df9ef6eebc5cd098e02ea2a5a0e66cbda80fd8ff25f248ab5b25b6c630b52259d9833c33d76b0ee5e752e560e8c"
 
 RPROVIDES:${PN} += "liblto-plugin.so \
 mingw32-cross-gcc"

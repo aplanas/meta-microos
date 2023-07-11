@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-only"
 
 PV = "1.29.0"
 
-RPM_NAME = "pkcs11-helper-1.29.0-1.3.aarch64.rpm"
-RPM_HASH = "361cb30caa000ff607f76a547dd5607c0d564e899ed1c73d427af0dd30216da73e6639fdb23f2022b1b89c0c7631d138a18c4a5c145a6dcc182d80d5858a539f"
+RPM_NAME = "pkcs11-helper-1.29.0-1.4.aarch64.rpm"
+RPM_HASH = "2d3f213e245ab2aabb3a01d4cf81ae14c4973663d00b1eac6c46841aec9314bb7f25eb182b74041a5e5f2cc75a1a61fdc5d6f054154b323e5df89dd46f0dc804"
 
 RPROVIDES:${PN} += "pkcs11-helper"
 

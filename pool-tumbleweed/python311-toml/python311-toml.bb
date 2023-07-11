@@ -17,11 +17,12 @@ LICENSE = "MIT"
 
 PV = "0.10.2"
 
-RPM_NAME = "python311-toml-0.10.2-3.1.noarch.rpm"
-RPM_HASH = "f0fdce4bb6e4abef281d9b23ab992d486864639b2e4ac5155330c6b428f312c745a66e0e7cb2919630777e13d615f45d650e7b7440f1cbaa2b8dfa96b9087775"
+RPM_NAME = "python311-toml-0.10.2-3.2.noarch.rpm"
+RPM_HASH = "39b84602167a027af522fa33fdd857ea44171eda85435d9ddc498a2d156a4f64ae0ef20e7935b179e46aa8489479309046f1b19737314c0dbf7c16ff71a7869e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-toml \
+RPROVIDES:${PN} += "python3-toml \
+python3.11dist-toml \
 python311-toml \
 python3dist-toml"
 

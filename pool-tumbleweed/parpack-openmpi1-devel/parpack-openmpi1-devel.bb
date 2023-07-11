@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.9.0"
 
-RPM_NAME = "parpack-openmpi1-devel-3.9.0-1.3.aarch64.rpm"
-RPM_HASH = "c04cb6e3e0071205e19a28c36c320fb8141db4de520a1082bebd1594ee237d34272eff3efcd2b2be07235ced51a9a92f907f3082bd8c502d909c9be027936f8c"
+RPM_NAME = "parpack-openmpi1-devel-3.9.0-1.4.aarch64.rpm"
+RPM_HASH = "bc450e91a8feb1f3fd503d35249e489b9394cbe2bedb04a218537b2c2be6d2dc4ae004392c7091f13503e8e724cfa57b73ad0f4439807a7b29826ce04db20218"
 
 RPROVIDES:${PN} += "parpack-openmpi-devel \
 parpack-openmpi1-devel"

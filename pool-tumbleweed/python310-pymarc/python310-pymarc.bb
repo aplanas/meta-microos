@@ -8,12 +8,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "4.2.2"
 
-RPM_NAME = "python310-pymarc-4.2.2-1.1.noarch.rpm"
-RPM_HASH = "8dce99c7f55ff4d8bb4651331ae21451a371de60f180b321f9073643d1a5d22148cb727d47bd5f61d51861af4feef8063849fceb1f8d89d290af2e35e508443b"
+RPM_NAME = "python310-pymarc-4.2.2-1.3.noarch.rpm"
+RPM_HASH = "aeb780c00cb7fb5af6cfbe95fbab1bd01226ee846b9217feba95634b3790b0f1ebd6d648dd1efd937b9b879a4e24c133c9cdbc061bc909a52f34c5c4b5127ec7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pymarc \
-python3.10dist-pymarc \
+RPROVIDES:${PN} += "python3.10dist-pymarc \
 python310-pymarc \
 python3dist-pymarc"
 

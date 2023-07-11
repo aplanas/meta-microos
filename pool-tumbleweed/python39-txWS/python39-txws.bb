@@ -5,8 +5,8 @@ LICENSE = "X11"
 
 PV = "0.9.1"
 
-RPM_NAME = "python39-txWS-0.9.1-4.1.noarch.rpm"
-RPM_HASH = "46f9ed1a4ae042206b73e357572367e9ff42e82ea6899e54ae607bb811fedf5d80b69e42ca3c21cc3dccb69ef092b979b47724dc23c0f0115f3fab1098b9baa6"
+RPM_NAME = "python39-txWS-0.9.1-4.2.noarch.rpm"
+RPM_HASH = "40f334d7f40a0de3f37c589f8800c0b449bda89575a31e7b4446900dacc9af9cfdbfba92adca2ac1a00719dae2e5cf232276280d6e1673574419e8e3e9ee45e6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-txws \

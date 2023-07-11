@@ -14,13 +14,13 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "1.05"
 
-RPM_NAME = "perl-FindBin-Real-1.05-14.26.noarch.rpm"
-RPM_HASH = "cef72eed95a0ed4b193fa4d041ed65baa9e144fc88f0246def22a81f476072aa7f8f875d34088501ac6a822c9ff0d8b3c0126f65f47feb0d633aa42e141124d9"
+RPM_NAME = "perl-FindBin-Real-1.05-14.27.noarch.rpm"
+RPM_HASH = "dd79e3927723f5444145beb4ac2e50c1f37cdd3d2d1195269e1f031dcd91645c020332f382857f1fa782865fbb59b64d53a13f79f614a760163527f86614e54c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-FindBin--Real \
 perl-FindBin-Real"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

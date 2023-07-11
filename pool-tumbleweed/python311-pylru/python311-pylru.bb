@@ -4,11 +4,12 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.2.1"
 
-RPM_NAME = "python311-pylru-1.2.1-1.3.noarch.rpm"
-RPM_HASH = "30f4fc83f84f67edd0e18fd7dc3027c220b91dec87db9e3b00a9c2fe2d7c72f9d168b86ea1f43911b823423b7074e4fdc02400ac441e2ed4d32ab796b59d9d6c"
+RPM_NAME = "python311-pylru-1.2.1-1.4.noarch.rpm"
+RPM_HASH = "f2fafdf0713f1c54332026ba299453d934ad91a8f2a05d5cf4e96dbd4c8586ecbba2cd53458a5a07659a837969739de87dfe4b43c12d90c3011c531927c41cc3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pylru \
+RPROVIDES:${PN} += "python3-pylru \
+python3.11dist-pylru \
 python311-pylru \
 python3dist-pylru"
 

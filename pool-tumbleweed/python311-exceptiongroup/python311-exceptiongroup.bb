@@ -26,13 +26,14 @@ exception group classes are used instead, ``TracebackException`` is not monkey p
 and the exception hook won't be installed."
 LICENSE = "MIT & Python-2.0"
 
-PV = "1.1.1"
+PV = "1.1.2"
 
-RPM_NAME = "python311-exceptiongroup-1.1.1-2.1.noarch.rpm"
-RPM_HASH = "16144a54e9f0294e26e651ed3e0f8e16ba2980e6a64f98a7ddd9d516c64f83d92aadf1e2074f2177d125d78580ba3bd07aaf943fe61bb827fb8a805cdd759a15"
+RPM_NAME = "python311-exceptiongroup-1.1.2-1.1.noarch.rpm"
+RPM_HASH = "752ccefa15e5e89a55f735d5b2f2eb2b207aecd7761e6a6eb65a324c6d4f8145ecd897f284a84b5274b364066a085a3acb34c5129b71615a77cacca715ee89a7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-exceptiongroup \
+RPROVIDES:${PN} += "python3-exceptiongroup \
+python3.11dist-exceptiongroup \
 python311-exceptiongroup \
 python3dist-exceptiongroup"
 

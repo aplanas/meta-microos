@@ -2,10 +2,10 @@ SUMMARY = "KDE Text Editor"
 DESCRIPTION = "KWrite is a text editor by KDE."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kwrite-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "5bf301c329dbdc775990c3208ddf18e3cb3bb5566db999c1d8f8be17d07129fc5a9245b8331c7cd798913c7f6772240d246187224f3f5ba7fc9b02462f619f48"
+RPM_NAME = "kwrite-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "540462c69f0a8f70b2641272ec77b62f1e84e0c3826153adaf5dec720baa511a4e12f52a327782a4b8a6ca8fdbbb27124fc1f8096032384f0e64b260e51b1dcc"
 
 RPROVIDES:${PN} += "kwrite"
 
@@ -18,6 +18,6 @@ libQt5Core.so.5 \
 libQt5Gui.so.5 \
 libQt5Widgets.so.5 \
 libc.so.6 \
-libkateprivate.so.23.04.1"
+libkateprivate.so.23.04.3"
 
 inherit rpm

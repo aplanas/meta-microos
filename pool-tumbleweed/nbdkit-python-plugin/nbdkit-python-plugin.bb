@@ -4,14 +4,14 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.32.2"
 
-RPM_NAME = "nbdkit-python-plugin-1.32.2-1.3.aarch64.rpm"
-RPM_HASH = "bfde118156c10519095df04a6182f37dc49db4eabcf699da1df6577bbefc228765e049e1f50f2d53f33eddebb43f897e10f8c02b046bd63227d0a9c73aa9a709"
+RPM_NAME = "nbdkit-python-plugin-1.32.2-1.4.aarch64.rpm"
+RPM_HASH = "eaa770932e58a7c0e79bc5c8ebe355055275ab25ae202af5c2b890d612c9b4387b6c5ae85f91dc9d13090019a87ff614ca0b00d175ccce25b8508ad80aad4dde"
 
 RPROVIDES:${PN} += "nbdkit-python-plugin"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 nbdkit-server"
 
 inherit rpm

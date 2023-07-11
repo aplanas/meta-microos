@@ -2,10 +2,10 @@ SUMMARY = "Generic map viewer: data"
 DESCRIPTION = "Marble is a viewer of map data. This package contains its data."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "marble-data-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "2b753574393bc9be4df5902f6d3a170482fc191f13732ab4546fd4e06db17ae3712e2ad782df7a534727a37f7a4c1da5b7522c2c6c85e7529800ca27b6d55b0d"
+RPM_NAME = "marble-data-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "c8295ae2925a6a1a2663183f5f8b4308d4334446923e21722cb6881165702573ce3071f4ac5769386cb8e303412dab94b6d8a7696644cc1b0cca15a289b7efc8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "marble-data \

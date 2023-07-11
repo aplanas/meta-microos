@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.3.3"
 
-RPM_NAME = "mono-addins-1.3.3-2.16.noarch.rpm"
-RPM_HASH = "3fa9d050c2482d433bd9279b25099462a4721ca950b9b4afcc868f0702b33dae2e2c6d88aaadd267caba252bcdf0a45bc0e22338d3d831988027af25a4afdaea"
+RPM_NAME = "mono-addins-1.3.3-2.17.noarch.rpm"
+RPM_HASH = "8b48b87e8dbb2fff60094a17071b297b77c74d6ad6bdd7fd8bde2ba41dde36b554052e8365ac96d3e645241ad88d29f1cdbd833cdfea5518b046282c4876a69a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mono-Mono.Addins \

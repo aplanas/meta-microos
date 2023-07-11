@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.7.0"
 
-RPM_NAME = "libopencv_highgui407-4.7.0-1.6.aarch64.rpm"
-RPM_HASH = "7be83d037965eb7d006c0fee2cc44fa440b0ddf9ee3a43997fb8e12d87f52e5d7bf40129bc7d8f11b658f9d3bf75b9155f5028771edeb95598ad93abcf463524"
+RPM_NAME = "libopencv_highgui407-4.7.0-1.8.aarch64.rpm"
+RPM_HASH = "20c6be392139d77b85eeb4d265c25a56b7efc385b34e5b14b0da6157ad01d900b59545938070b6c35e1ec27b3472d9ea62696e51c11162a00261c3abd09bb824"
 
 RPROVIDES:${PN} += "libopencv-highgui.so.407 \
 libopencv-highgui407"

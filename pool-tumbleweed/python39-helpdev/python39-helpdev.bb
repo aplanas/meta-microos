@@ -4,8 +4,8 @@ LICENSE = "MIT & CC-BY-4.0"
 
 PV = "0.7.1"
 
-RPM_NAME = "python39-helpdev-0.7.1-2.13.noarch.rpm"
-RPM_HASH = "dbff9d3f1ad03dc4617f9467fe555c5a422dd1c2bf9ca1146b727f84123ba409db4efa28c0ee6c2476d12c9a7ef9af22e95fd18eae90801487fe31807d0eaead"
+RPM_NAME = "python39-helpdev-0.7.1-2.15.noarch.rpm"
+RPM_HASH = "4314f5fbaca47b2dc658f00ef0321b2da0232d2d3786cffab36b73c51b871229d45cbd8f443700d613a2842277d9e9792bbfd91c33aeb94abdc7734956bc72da"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-helpdev \

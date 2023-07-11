@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2022_08_R1"
 
-RPM_NAME = "kismet-capture-nrf-51822-2022_08_R1-2.3.aarch64.rpm"
-RPM_HASH = "d041e0fe30093d5fd2824d34fd8e015ef0f883f7b85d05ab028293461eed00426051d76e0ddcbb3bddc30510e96ee18eeafef5e6d6766bc33947a37cff5b8a8c"
+RPM_NAME = "kismet-capture-nrf-51822-2022_08_R1-2.5.aarch64.rpm"
+RPM_HASH = "b86211a9f9a16e778315c98438c9142157327884474cc6e6b97e458838bcd6054262a368f4a8da95f612fc498b13a0d40dc7b3e98f65bec4ca976e11c096cd6b"
 
 RPROVIDES:${PN} += "kismet-capture-nrf-51822"
 

@@ -8,8 +8,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.9asvn57814"
 
-RPM_NAME = "texlive-embrac-2023.201.0.0.9asvn57814-53.1.noarch.rpm"
-RPM_HASH = "99bbbe7a6822a126ed5c7b763e6352011e0c7c5e1956bda3a18f759832b324372fc4de2c87eaf4d5a0f01a303085283f2cb6f04f4a328035b7ce0f7e86f0c875"
+RPM_NAME = "texlive-embrac-2023.201.0.0.9asvn57814-53.2.noarch.rpm"
+RPM_HASH = "44a6e7ee3b5751f11569da6529ec7455d17ef1bec700a8822ce1b90d31243a8ba9ae0add484e8fbd78f47fa72d9644f8018be9423096556903ad58aeab6108fd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-embrac.sty \

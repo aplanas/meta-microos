@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "44.1"
 
-RPM_NAME = "gnome-connections-lang-44.1-1.1.noarch.rpm"
-RPM_HASH = "e764f7353c9f0f82c75e243d08b6928dafeb39c9707772080dc5f6d6ffa2dd5b5e0ca7bb2a708f61c2ce0c5d6102dab8991b7fb1767b85290a1b4188d4fd34bf"
+RPM_NAME = "gnome-connections-lang-44.1-1.3.noarch.rpm"
+RPM_HASH = "f07fb5ad2d1f3b494a145030da8a12661ae7f81f63b13284ece0224deac901af67d4bb5bbd39b88b9bee7314ae7f4563c39d119a038433628465cdec26528957"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-connections-lang \

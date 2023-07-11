@@ -10,8 +10,8 @@ LICENSE = "MPL-1.1"
 
 PV = "2.40010"
 
-RPM_NAME = "perl-Net-AMQP-RabbitMQ-2.40010-1.3.aarch64.rpm"
-RPM_HASH = "f11aae97f6154e101e097acb06e76918998c9b0b8e41fd02241ae6f90e309304d709e0ca3a59efbebd8c4c2b1797019a98d589c24cb1bcf1566e08b2ea9f89f3"
+RPM_NAME = "perl-Net-AMQP-RabbitMQ-2.40010-1.4.aarch64.rpm"
+RPM_HASH = "4d3f78f4588576b6487fa716fa8f0b74cbd4b1906b2290bebb61daeae63fb9d887f83569572e660b3681992ad5f474e564864e8c248a958afe1f4d10788672e0"
 
 RPROVIDES:${PN} += "perl-Net--AMQP--RabbitMQ \
 perl-Net-AMQP-RabbitMQ"
@@ -20,7 +20,7 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \
 libssl.so.3 \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-Math--Int64"
 
 inherit rpm

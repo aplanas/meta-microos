@@ -2,10 +2,10 @@ SUMMARY = "Maven Artifact Resolver Implementation"
 DESCRIPTION = "An implementation of the repository system."
 LICENSE = "Apache-2.0"
 
-PV = "1.9.8"
+PV = "1.9.12"
 
-RPM_NAME = "maven-resolver-impl-1.9.8-1.1.noarch.rpm"
-RPM_HASH = "8e8ce059c6fefbb62f5eabff7d4210d7fe9fe1d2918a1cef098f510d8b0d354354adecb2d5cda8fcf3d214964167c7b2e3d038566d6d0f750536fe142cc9061a"
+RPM_NAME = "maven-resolver-impl-1.9.12-1.1.noarch.rpm"
+RPM_HASH = "5035408bb4e1205da7ead059f10693d41602af4f399ffaaa6d638a00204b417cfcd143dd50035288b8da8bae1a859903828677dd18a9e830a8d333d1bd11c9ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-resolver-impl \

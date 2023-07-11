@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "0.1.1"
 
-RPM_NAME = "python310-SimpleWebSocketServer-0.1.1-2.14.noarch.rpm"
-RPM_HASH = "09f07de08b0a863a2a31ddecc5dcae418fd2eb13bb30a13824c9ff51e340c5b0fb315d374afcc0ff3adc47a9ebd4af03bc3c07b102091b364eb7bd32a4abfb3f"
+RPM_NAME = "python310-SimpleWebSocketServer-0.1.1-2.15.noarch.rpm"
+RPM_HASH = "f72bbf6c7eae724ed180bbf0dbacbd58c031b12335d1baf64b4d5ebb00403308bed31e3a84b4d7aadcc49c90c25be16543706713a48511e4e909c9b8c524c91b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-SimpleWebSocketServer \
-python3.10dist-simplewebsocketserver \
+RPROVIDES:${PN} += "python3.10dist-simplewebsocketserver \
 python310-SimpleWebSocketServer \
 python3dist-simplewebsocketserver"
 

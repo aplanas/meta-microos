@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "9.0.0"
 
-RPM_NAME = "python311-azure-mgmt-search-9.0.0-1.3.noarch.rpm"
-RPM_HASH = "3cd8327f5c8972734380f3b8d9ce52a6cfaa7835bbbf0e1cf582a9c9ebb178b9e4c41a66d12b44cac7a271fe77e04940c581188c69d625c74fc9598697f2312d"
+RPM_NAME = "python311-azure-mgmt-search-9.0.0-1.4.noarch.rpm"
+RPM_HASH = "583d5d9303c07992893f072d16b2bea963a0a4e55f20bb01677bdd38a89c9fc3145cec056c6e46b0d9e40a298c346de9bd9c3c47bc113271ee4a7f9a37e16c69"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-search \
+RPROVIDES:${PN} += "python3-azure-mgmt-search \
+python3.11dist-azure-mgmt-search \
 python311-azure-mgmt-search \
 python3dist-azure-mgmt-search"
 

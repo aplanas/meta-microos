@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.4.1"
 
-RPM_NAME = "pspp-lang-1.4.1-3.12.noarch.rpm"
-RPM_HASH = "43261856af32d436e9f29b4e6aa89c8a2426caff38e1c1348af0bd8bed67b49595159834ab08655a6a849651f6cea69deb089d2e5b77e6aadf3792dab92e288d"
+RPM_NAME = "pspp-lang-1.4.1-3.14.noarch.rpm"
+RPM_HASH = "1c540e8db0f1174384fd85a4f9f58dee0b6e1adebe2e63ccaad7ab4741ab1e143360f16aa060d4a1ea4456d88473d3379e9d6d60bc734ea7ee8678569e3a9d3c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-pspp-ca \

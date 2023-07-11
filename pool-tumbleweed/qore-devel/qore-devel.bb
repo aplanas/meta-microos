@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later | LGPL-2.0-or-later | MIT"
 
 PV = "1.13.0"
 
-RPM_NAME = "qore-devel-1.13.0-1.4.aarch64.rpm"
-RPM_HASH = "0bcb6668bce2b60110557fff4b25a4e35e996c938ab4707f2aa7a20fbe7aace1c87345e39617abe50ecaa26c7d91a3686aa83d0e21245e76738f3667f1b96b54"
+RPM_NAME = "qore-devel-1.13.0-1.6.aarch64.rpm"
+RPM_HASH = "7e881491d7d50baa82d4b41029aaa8d9db31c831ae5b038fa9fa7040daa0b1917a4308daa99761bc3fdb1b73d7f3e7dace5a67dae4882ed61784a18df4ba15aa"
 
 RPROVIDES:${PN} += "pkgconfig-qore \
 qore-devel"

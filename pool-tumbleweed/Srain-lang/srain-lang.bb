@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later & ISC"
 
 PV = "1.5.0"
 
-RPM_NAME = "Srain-lang-1.5.0-1.4.noarch.rpm"
-RPM_HASH = "339ff7269678afc7027c0f2a17211adf6a05266e9dfcd7c1e6204e729c121bf7932ee3ae8ce97bb9509ac1146454df43eff86f117fe68b65e864378d75e90fb9"
+RPM_NAME = "Srain-lang-1.5.0-1.5.noarch.rpm"
+RPM_HASH = "4545b590c44fbd4a85058ebdb7e7aac12ed552aa6bad7bdfe74b5a52454f8cd2b51972129d2c1b516a14653a1bbf7d20acdcec229d6576e02c386d4181b5e9a2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "Srain-lang \

@@ -17,8 +17,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.03+git1.226f03b"
 
-RPM_NAME = "vst3-rnnoise-1.03+git1.226f03b-1.4.aarch64.rpm"
-RPM_HASH = "99eaf0f63e740c24b557e77eb7bd795f1d79cbfbce155ee5de7d1d09cd70107b360f1ad1d372f281546c592b02b23c7cd90c1c20c3e32f24aa0c21c9e063c117"
+RPM_NAME = "vst3-rnnoise-1.03+git1.226f03b-1.5.aarch64.rpm"
+RPM_HASH = "5cd1f73382eb214adbe573029b41b63e1c905f87af6b2e12e85a3c379287db3740feaed0853f8fb5224f71955d0ffa05dc229094ba2865d12bcd50b2acad8c4c"
 
 RPROVIDES:${PN} += "vst3-rnnoise"
 

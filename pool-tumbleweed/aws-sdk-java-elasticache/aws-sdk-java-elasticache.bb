@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0 & SUSE-Public-Domain"
 
 PV = "1.11.3"
 
-RPM_NAME = "aws-sdk-java-elasticache-1.11.3-7.8.noarch.rpm"
-RPM_HASH = "8373acf87acf07f0e2ee652f3f4a07e36771fd457440f07cb96976b9717399901a16d98335e124636a9d8469d293254b881a3f57916aa2216714680fd2d882b8"
+RPM_NAME = "aws-sdk-java-elasticache-1.11.3-7.9.noarch.rpm"
+RPM_HASH = "d15a1fcbd5710835f3078ac4a985ed26d49c3fbee14572ef11bdcca16d25e8dcf575af00059980ccf527591c7583d564ee20f884780b407699172810acc82129"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-elasticache \

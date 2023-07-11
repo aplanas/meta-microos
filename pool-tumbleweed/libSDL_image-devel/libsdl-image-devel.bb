@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.2.12+hg695"
 
-RPM_NAME = "libSDL_image-devel-1.2.12+hg695-1.14.aarch64.rpm"
-RPM_HASH = "c122f82b1e151f4ed1610275a87a6d42f10336ffb59e5cd50c59642146a06c0e5e095a01b036d4547ff27e798662a62e3f6abc96ac7d354c60aad5f51ab58968"
+RPM_NAME = "libSDL_image-devel-1.2.12+hg695-1.15.aarch64.rpm"
+RPM_HASH = "5cef22fa22d1760c0ca9ed0b8552e073b1c2d147f4f95af32b350c11b1aeb8cd71db7b14c019132c6547069b708e69dd0490d732044dd8252d9f0625c4f2667c"
 
 RPROVIDES:${PN} += "SDL-image-devel \
 libSDL-image-devel \

@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.9.5"
 
-RPM_NAME = "ocaml-findlib-devel-1.9.5-1.5.aarch64.rpm"
-RPM_HASH = "3320f8192c6c7b52b2617e1de0f1cfe79fa746ba8fe81771639d49e2c0e4aaa9ef88f687d2c81040e7e5f0ffae13164cfda2c833ec3f39cdbab6f11b86cbfbf7"
+RPM_NAME = "ocaml-findlib-devel-1.9.5-1.6.aarch64.rpm"
+RPM_HASH = "a410ded9aa98718a7c539773c2eeffbf2c1581713baad87a7d707b47581d96647134e4c7c27f746b85973d8c3bcbbf48b83ab04b0ddc222b7d27c5f1518355a3"
 
 RPROVIDES:${PN} += "ocaml-Findlib \
 ocaml-Findlib-config \

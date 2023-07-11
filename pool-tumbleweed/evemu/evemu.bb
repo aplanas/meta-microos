@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.7.0"
 
-RPM_NAME = "evemu-2.7.0-3.12.aarch64.rpm"
-RPM_HASH = "5834ecd70961105e0cbc74ab7946ac53659a02a9350e5163d642c387a16499a14e3e16886ad6b5d0ded2a6b158fedc5dbaa261c39f112bfda5d6c6209e76cbed"
+RPM_NAME = "evemu-2.7.0-3.13.aarch64.rpm"
+RPM_HASH = "b7958b2f68d5806d2cae9e8fbbfa122ecd503d8f9e2f78105729b0819eac26a20c055d4c4df96d530e6dfd589c4772068f714660cbd4b1f3962e719c3504ed20"
 
 RPROVIDES:${PN} += "evemu \
 evemu-tools"

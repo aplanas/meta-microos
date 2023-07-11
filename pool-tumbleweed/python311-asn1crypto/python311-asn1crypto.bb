@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "1.5.1"
 
-RPM_NAME = "python311-asn1crypto-1.5.1-3.1.noarch.rpm"
-RPM_HASH = "0611288213d0e55ca347ccbf63ef40adcd3b4bf15ab7cbe0f24398082c2f51643a375118d7a138a88ec3d4387181ee392c7fd7369c342b52a65105ef62a4802b"
+RPM_NAME = "python311-asn1crypto-1.5.1-3.3.noarch.rpm"
+RPM_HASH = "cec1d8a2bd2b2342355612d0933c76f75eee35d4e84725003b4e35ccce352bb1563fea498e38c339d84e2533a9bae7950d9d1acfab4e97ebc0c6cf04ba967f42"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-asn1crypto \
+RPROVIDES:${PN} += "python3-asn1crypto \
+python3.11dist-asn1crypto \
 python311-asn1crypto \
 python3dist-asn1crypto"
 

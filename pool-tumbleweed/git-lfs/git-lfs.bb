@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "3.3.0"
 
-RPM_NAME = "git-lfs-3.3.0-1.5.aarch64.rpm"
-RPM_HASH = "6788989a860aa6dc241d899eca6ff511ba3be517c94d717c196521c41a6eda7d12d907d22c50f3f42b40e75441a1c1de5d251ccd46e81043065c1843f8311fff"
+RPM_NAME = "git-lfs-3.3.0-1.6.aarch64.rpm"
+RPM_HASH = "c0aa0609a19d3eaebb0d1841adf1c333685570d7ac2c8d7db96d20bcf56f8d2fd9ec7c4edbbb04a4fabdf7cb5227bc6b4c115db33c1855ed5539f51d1f3edd5b"
 
 RPROVIDES:${PN} += "git-lfs"
 

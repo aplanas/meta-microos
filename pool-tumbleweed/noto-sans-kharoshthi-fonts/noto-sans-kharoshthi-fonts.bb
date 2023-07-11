@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-kharoshthi-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "772530cee3ea670d79e597b514524d8725e7419612bbf133a2f750ff377452beaee1d8c8573400260a7015087244ec96082a5670e0f21b914760514ce0363cf5"
+RPM_NAME = "noto-sans-kharoshthi-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "6646569cdb506944cca30abdb754b6101542711fb358ee2b1383ce2dc429fea62a2b3a2c7777a5f8ce4afe229543eabb220696af1281813a01ad99ad949c96ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-kharoshthi \

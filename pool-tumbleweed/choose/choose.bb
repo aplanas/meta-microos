@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.3.4~0"
 
-RPM_NAME = "choose-1.3.4~0-1.3.aarch64.rpm"
-RPM_HASH = "15b839603248342593efd3a0ade92fba4adf1c393ea97484faab0f65d77946c0050e81002afc5897279fe572495e433bebc5e8997e0b21848184e06d42f8501d"
+RPM_NAME = "choose-1.3.4~0-1.5.aarch64.rpm"
+RPM_HASH = "02510f23f12eb59bc6cfcdcf6f9ffb302cf70a41a58fa1d6522eb45289c9d81a7d2ff40181c680e4d72fc8fb9c00e745b3a3f94b9ab008af691773fc2885e7f7"
 
 RPROVIDES:${PN} += "bundled-rust-crate-aho-corasick \
 bundled-rust-crate-ansi-term \

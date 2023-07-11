@@ -4,10 +4,11 @@ LICENSE = "Apache-2.0"
 
 PV = "4.4.9"
 
-RPM_NAME = "python311-ovirt-engine-sdk-4.4.9-1.13.aarch64.rpm"
-RPM_HASH = "2a9b70b87f895e47434731ef78f473aeeb29eb10db3081c3c63e5e12878c65458c7b5a24f434a78f17fa66f21fd9ae43bd7ffb12e0b0ea1f1f10e2b690c65eed"
+RPM_NAME = "python311-ovirt-engine-sdk-4.4.9-1.15.aarch64.rpm"
+RPM_HASH = "bd2c5b199538e72369dda3a6d078d21b151512310a7fb9ac192cc6f24b4934a2abe0242b0fc3f448102c702f54434eb0dfceef9507185c66fcbc7dbcb56c0fbd"
 
-RPROVIDES:${PN} += "python3.11dist-ovirt-engine-sdk-python \
+RPROVIDES:${PN} += "python3-ovirt-engine-sdk \
+python3.11dist-ovirt-engine-sdk-python \
 python311-ovirt-engine-sdk \
 python3dist-ovirt-engine-sdk-python"
 

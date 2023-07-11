@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.7.0"
 
-RPM_NAME = "python311-installer-0.7.0-2.1.noarch.rpm"
-RPM_HASH = "136a36eb9f8ebf5ff9e63eca75655f92f3bb1ccc4bf06147fb96190b419f31dd72e24893f6b3d9f112984fd87091cd3d73752b2d696052015616ad17ce9547f3"
+RPM_NAME = "python311-installer-0.7.0-2.3.noarch.rpm"
+RPM_HASH = "afcc3dd952635e1ff674c92b547290f4e591b15708742fd4e4d380b61ec1c7f903e6ca46b8d4473ad21154587f7bb1c1328f2dd0915f4eea0b0e4ef7d33853e7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-installer \
+RPROVIDES:${PN} += "python3-installer \
+python3.11dist-installer \
 python311-installer \
 python3dist-installer"
 

@@ -8,8 +8,8 @@ LICENSE = "CC-BY-SA-3.0"
 
 PV = "0.7.1"
 
-RPM_NAME = "plee-the-bear-data-0.7.1-2.23.noarch.rpm"
-RPM_HASH = "ed4eb507a64625792ad548966c64a93aceceba431973d3ab1352f38b9941167352634e2815d87afd9c2dc2e0bb0b50713da8d777cf7ddbe69c33798f07efaaab"
+RPM_NAME = "plee-the-bear-data-0.7.1-2.24.noarch.rpm"
+RPM_HASH = "67fcf45c5fdc8cf08f2f16b9d04482ab1c2baf101fe788dfb5633ba4372fc949fb6c6978195744a8940618316ebf344bdf107983c01483651a0e1b7964591804"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cmake-bear \

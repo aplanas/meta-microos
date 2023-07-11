@@ -4,11 +4,12 @@ LICENSE = "ZPL-2.1"
 
 PV = "5.4.0"
 
-RPM_NAME = "python311-ZEO-5.4.0-1.1.noarch.rpm"
-RPM_HASH = "31c85a8bf50e3b0f7ff2d8a22ba2bc5784c16fd008c9956ff1a82834dc0a3b603415ec2dadae860254250b77cf3f634e5f960619d9cd361c6c584c3332612da8"
+RPM_NAME = "python311-ZEO-5.4.0-1.3.noarch.rpm"
+RPM_HASH = "ec7f12e0709939ea98696b2dddb9117909ff4be848d078f1abeb9769fe9c3542d0199c64373d2eb1a71d28fc7ba4cbfac8832d0597e3607e81fc1d16dbaeed28"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-zeo \
+RPROVIDES:${PN} += "python3-ZEO \
+python3.11dist-zeo \
 python311-ZEO \
 python3dist-zeo"
 

@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-cyprominoan-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "93bfd6abd00687878dc0bf399d19f731025c2a0dcb7018982aaddaeeaae41464f1db94588216969b67ee66f48a5709002577fe823bd27f6bbbc0f1a5f32f7618"
+RPM_NAME = "noto-sans-cyprominoan-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "ea2b5a0a04acf5c9f91efd86b709408c3e9adf7a00dcef65e6897354f84054f3335d6d45abaa4eef1bfab8e9156db49056d159a8696204737075011acc58e948"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-cyprominoan \

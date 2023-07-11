@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.2.0"
 
-RPM_NAME = "python39-tinyrecord-0.2.0-2.7.noarch.rpm"
-RPM_HASH = "3e25bfc5946b433daf562157faff0db3db2309b33634dd6f7752f032e0d1e976e62c300d3b95008e57199934590d87ea12482c84d8b734142116fc59699a42af"
+RPM_NAME = "python39-tinyrecord-0.2.0-2.9.noarch.rpm"
+RPM_HASH = "2566089833701dba0b1d432d4005a8443ad9c3dbc38466bf3c7acfa74328f81df57abdd0abbc5f1165af56526b22daa749c6675075cb5ed2375d03373b8dd18a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-tinyrecord \

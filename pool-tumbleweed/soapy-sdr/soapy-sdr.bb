@@ -4,8 +4,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.8.1"
 
-RPM_NAME = "soapy-sdr-0.8.1-1.11.aarch64.rpm"
-RPM_HASH = "3938242e3b41bdecdc45399fc9bf2e2c70e06ecce14054820bdee4e9cd83f8804b5a072f8f0cd9117b8b60a74ddb3f7b8a900809f7bdd6b828a5b77a3afc6e3d"
+RPM_NAME = "soapy-sdr-0.8.1-1.12.aarch64.rpm"
+RPM_HASH = "62843838579846abb0e8d9e4a6f5d048fd4d6895eb74f9cf3d6d0a831f6585988cdb395959c17e674d5fec87d7553288a4acf3aabbe736b39756ff0d4c79dbb3"
 
 RPROVIDES:${PN} += "soapy-sdr"
 

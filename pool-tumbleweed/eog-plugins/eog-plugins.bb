@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "eog-plugins-44.0-1.1.aarch64.rpm"
-RPM_HASH = "3bda64e615b6ef0be60317ca05007c089ef329ee8b4fb100f19fa9ebfe1f804c37ee7f9baa26a527152558d6d2100a96424459e1168204c3d57b919ebbe37c14"
+RPM_NAME = "eog-plugins-44.0-1.2.aarch64.rpm"
+RPM_HASH = "b6c9337ec5e4c0dc0b3d7e23803a255708112a38cbb7bf46f7139ad050e8c35e089d9eae85517f14190fbb7b59bafd021e07217d69e014dd5dfb474802931410"
 
 RPROVIDES:${PN} += "eog-plugins"
 

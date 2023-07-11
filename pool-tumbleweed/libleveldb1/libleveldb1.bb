@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.23"
 
-RPM_NAME = "libleveldb1-1.23-2.3.aarch64.rpm"
-RPM_HASH = "95761c5d2bad671e3f247423c6380ebcdb21ee3de998b214964b43efcf0bd6a0f627d28ac182fdae5321cb194e503d552ecbc85ab17feaee9d7501de0a275e00"
+RPM_NAME = "libleveldb1-1.23-2.4.aarch64.rpm"
+RPM_HASH = "5ecd8fc06a7b74d07243a478cc0bd5f4875e3ad296ebcfae4b17a5890747bce0b106970887fe6712e2a3f5d32427605bee04003b69f0561bb3bcc3fcc1609656"
 
 RPROVIDES:${PN} += "leveldb \
 libleveldb.so.1 \

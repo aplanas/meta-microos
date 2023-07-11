@@ -12,8 +12,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.4.3"
 
-RPM_NAME = "python39-kwant-1.4.3-1.1.aarch64.rpm"
-RPM_HASH = "e74c4b6ee1b301bde6336d3f843792957aeb1f14c1a714f8317bf0178b6f506fcd3e64b9719a7738d6e3255e707a03977a1971d163543439ab79cc9aee96ff6b"
+RPM_NAME = "python39-kwant-1.4.3-1.2.aarch64.rpm"
+RPM_HASH = "db48063d5b6227489f8fcc2974532bd1a40595561961e82460064358be2e202da8adb6fbad02db35618d4aadc7d5b50b7a15c26b4c16c732e40f1651d4c8ea2f"
 
 RPROVIDES:${PN} += "python3.9dist-kwant \
 python39-kwant \

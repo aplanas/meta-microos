@@ -25,8 +25,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.63"
 
-RPM_NAME = "perl-XML-Feed-0.63-1.9.noarch.rpm"
-RPM_HASH = "9c99c805e93002a6915974ebe14bf457134b1a193d090ed8a52cbeb12493175fb2d8a70f07c5f5835bd197c9f0363361e9d8c29f012bef69b0f603b6ef016fd3"
+RPM_NAME = "perl-XML-Feed-0.63-1.10.noarch.rpm"
+RPM_HASH = "3d2c74f9ce8dee46902935ce3bcaa8e5a81b36b974d53a4a1e345ef35ffcb4bf5220a5d35000792ba561fbb514a1b5b026a1c02df4dd4a051c261f6f748fc8c5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-XML--Feed \
@@ -40,7 +40,7 @@ perl-XML--Feed--Format--RSS \
 perl-XML--Feed--Util \
 perl-XML-Feed"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Class--ErrorHandler \
 perl-DateTime \
 perl-DateTime--Format--Flexible \

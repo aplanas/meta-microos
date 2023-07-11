@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "5.0.0"
 
-RPM_NAME = "python39-django-ipware-5.0.0-1.1.noarch.rpm"
-RPM_HASH = "582af9c062bad201c7ffcbaf16f7acd133d0e7d01837a1fbed08e7d8fef45eac7a692c686454104c3874d900a9c3d30c9f5918af9fb5ed217d9f0680db5c4548"
+RPM_NAME = "python39-django-ipware-5.0.0-1.3.noarch.rpm"
+RPM_HASH = "7d03ef67aa9e05e4e8b4a9091d90446ebb01a5fb5da4a0bf60fcf587e03f5d5c2988a4c1b1c65c2a3d1cc4ae3b95ffd5124642a9bb9f4d19aa65b84f063d1d6f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-django-ipware \

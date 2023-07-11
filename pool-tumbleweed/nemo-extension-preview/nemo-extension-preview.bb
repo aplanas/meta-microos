@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.2.0"
 
-RPM_NAME = "nemo-extension-preview-5.2.0-3.4.aarch64.rpm"
-RPM_HASH = "ef0fe5242669ac9629787ae611ef8c750b54acafa1d7285746d8b68b65307597dec39ed8e7c3f74aa24ac387cdf42cfc437b30f533ba9e42f49f80ed3c8a268e"
+RPM_NAME = "nemo-extension-preview-5.2.0-3.6.aarch64.rpm"
+RPM_HASH = "0cdb522d5bd35578a06ca00d2ba0b83fad5dc72c393491a17ca2516870d05da86a7027164e375e5694d0966de834d088bb00aaadc40de6ca772f48947087e1e8"
 
 RPROVIDES:${PN} += "libnemo-preview-1.0.so \
 nemo-extension-preview \

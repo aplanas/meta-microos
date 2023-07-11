@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0"
 
 PV = "0.3.2"
 
-RPM_NAME = "scim-unikey-0.3.2-1.28.aarch64.rpm"
-RPM_HASH = "90ea309a8c6acac1b666b1f585476556ecb634b32547b9ce7df1d9bac52476850fb94a60d35e6f823061a8c8c15392107229f82ba6c8ef7ba527d71bcb60605c"
+RPM_NAME = "scim-unikey-0.3.2-1.29.aarch64.rpm"
+RPM_HASH = "3278c40190f448f84c7b8fbcca8b23ae24ba22798d60ccdfa5f498e8e074aa4064eb1a49e111c41caa02171c483db4292701fbd2f0bd3d76ef37e86f1d8f6359"
 
 RPROVIDES:${PN} += "libunikey-scim.so.1 \
 scim-unikey"

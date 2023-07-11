@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "42.5"
 
-RPM_NAME = "typelib-1_0-GnomeBluetooth-3_0-42.5-1.3.aarch64.rpm"
-RPM_HASH = "80ca710819731bbe5120a8627dd42b06687023890b547228c83520a16d6a152b6293cfde4fe5ce47080b17743c9a869183a44ba6be34245177bdb4b1c1e68a64"
+RPM_NAME = "typelib-1_0-GnomeBluetooth-3_0-42.5-1.4.aarch64.rpm"
+RPM_HASH = "dedf82d0a9a195beccc4f92de35a7844c9dbf06941ae5f3c25db2ad4130b7ed9d1f4d12f38e7de6535f102176e5e735b75e00b718abcaa2e2466a874bf790962"
 
 RPROVIDES:${PN} += "typelib-1-0-GnomeBluetooth-3-0 \
 typelib-GnomeBluetooth"

@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "6.24.10"
 
-RPM_NAME = "tcsh-6.24.10-1.1.aarch64.rpm"
-RPM_HASH = "42f0761b910be5ead2e2184cf4ab4c38bdd16640da23caa375ec736a5f8ce3ea7a93e8c0aa8718174c401f411dbe813542aca842c8806155cca79e1f6f460030"
+RPM_NAME = "tcsh-6.24.10-1.2.aarch64.rpm"
+RPM_HASH = "edfb7d8925e148d57b685def0c80cbc15ae5fa844f8f72fb0aea8b56695de10d25b42f67e04e543c91b6368efc59d3c38820ff7d712fafe59f2f0fc59b7053a7"
 
 RPROVIDES:${PN} += "/usr/bin/csh \
 config-tcsh \

@@ -13,11 +13,12 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "1.4.1.post2"
 
-RPM_NAME = "python311-cluster-1.4.1.post2-2.8.noarch.rpm"
-RPM_HASH = "cca8318fc486f909055f0d4425e9f54564e8748a488038cb38de8e01149744b65203169bf08088756a361da5d1b41ba3c3caad5d99884584def2c0486117c5a0"
+RPM_NAME = "python311-cluster-1.4.1.post2-2.10.noarch.rpm"
+RPM_HASH = "457502b43b4b6881a63972fed92bd8acd6205921de0255f5cf99fd961a3a9378c194fc0482712453ea404b648134f85c961195f432bbba33418aa2ea65e53279"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-cluster \
+RPROVIDES:${PN} += "python3-cluster \
+python3.11dist-cluster \
 python311-cluster \
 python3dist-cluster"
 

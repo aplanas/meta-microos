@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.6.0"
 
-RPM_NAME = "blueprint-compiler-devel-0.6.0-1.1.noarch.rpm"
-RPM_HASH = "8e812ee6271505abc879868c5abdcfe28a9f92d0328800569c71074c1d4b3905b3f35f2e6366998e1556f4c8e1695533da2d4aca249880b7b26eb606ef6422e5"
+RPM_NAME = "blueprint-compiler-devel-0.6.0-1.2.noarch.rpm"
+RPM_HASH = "abe3f21053fb41d709c9f0159ea798d2794161c353a4eb354de6d578895d8a06315c0a49565af89817f00a25b8caeecb72c00b804c54f1baa247251baf1b3995"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "blueprint-compiler-devel \

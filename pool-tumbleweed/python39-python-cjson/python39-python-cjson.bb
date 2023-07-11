@@ -11,8 +11,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.2.2"
 
-RPM_NAME = "python39-python-cjson-1.2.2-2.12.aarch64.rpm"
-RPM_HASH = "edade261d172e074bb1b0619b85a2635facfa83ba4132c92a7a5d87dba3b2b418bad8bf3b415ef42e318ede16467f5839ba80c95bfc05e713dc599f6729f1114"
+RPM_NAME = "python39-python-cjson-1.2.2-2.14.aarch64.rpm"
+RPM_HASH = "74c1a3f6a9b7c4f86f5ece568d2a4ec6390d252940dd791d06d0e23e41dcb0f3afda54d2396cc7a8f0cd7c05e8843146553aac94bd5e74e73b7e5fb2204e4287"
 
 RPROVIDES:${PN} += "python3.9dist-python-cjson \
 python39-python-cjson \

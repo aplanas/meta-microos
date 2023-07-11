@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.13.0"
 
-RPM_NAME = "libcamd-doc-5.13.0-49.1.aarch64.rpm"
-RPM_HASH = "c3d2047adfc5af4972f16c060c2ad8c1f5aa632c8430199e2286f873486b2577c229b17d5a3a25e1c1f116da077237765b15d6cfc3a6a7bcf4b6401b5f8c3bb9"
+RPM_NAME = "libcamd-doc-5.13.0-49.2.aarch64.rpm"
+RPM_HASH = "543f2f00bdd2c11f00d56a672105b8325e1b54527ada53ac13895f0af8f1a1ccd82db0572c805aef844d5ef9aa370b058c27717e002bbbb30f38320a47b9cbdc"
 
 RPROVIDES:${PN} += "libcamd-doc"
 

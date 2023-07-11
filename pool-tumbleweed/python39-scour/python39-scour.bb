@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.38.2"
 
-RPM_NAME = "python39-scour-0.38.2-1.11.noarch.rpm"
-RPM_HASH = "16505e40f4731033f0ddd72671b3f31e6f635b86af89b70a1a5a9be637c8c5b9580563c3ed68212c72d542aeebf53ec15a630db17c6d59d7eada1c5153b56121"
+RPM_NAME = "python39-scour-0.38.2-2.3.noarch.rpm"
+RPM_HASH = "630866433266d0a862781d8b91be628807a15740174e4f634932688c809c702d91214c8957e329eda02d04298f0db8e0ebd9ccb91f8db32d1d6b71ecf78455ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-scour \
@@ -20,7 +20,6 @@ RDEPENDS:${PN} += "/usr/bin/python3.9 \
 /usr/bin/sh \
 python-abi \
 python39-setuptools \
-python39-six \
 update-alternatives"
 
 inherit rpm

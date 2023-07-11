@@ -4,11 +4,12 @@ LICENSE = "Apache-2.0"
 
 PV = "2.6"
 
-RPM_NAME = "python311-parsedatetime-2.6-2.8.noarch.rpm"
-RPM_HASH = "d16683e70fc704169ccada6d55258ec54eafffd1322b981b43723ef552e6d3a9c44f9f8fb899f06dfe2e8810314775c68c2e66bc644849344a83f17e219e4cad"
+RPM_NAME = "python311-parsedatetime-2.6-3.3.noarch.rpm"
+RPM_HASH = "fcbbffc05d458b1fc25b78980ef0617e44d1cfdf4e73618157714f1fb609102017867d99d97db08cb3113f2478798c51424399185952cd751f982abea9f00b90"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-parsedatetime \
+RPROVIDES:${PN} += "python3-parsedatetime \
+python3.11dist-parsedatetime \
 python311-parsedatetime \
 python3dist-parsedatetime"
 

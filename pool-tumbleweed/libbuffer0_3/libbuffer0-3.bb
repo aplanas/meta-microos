@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.6.68"
 
-RPM_NAME = "libbuffer0_3-1.6.68-1.12.aarch64.rpm"
-RPM_HASH = "ec0591b034fc78e4581f9ff89171e0a5df770487e91fe5fb3d276c34d11387d7f2608cb29f32931b38da19e6d36602d265712e0ef381397e9e4f002f4001a142"
+RPM_NAME = "libbuffer0_3-1.6.68-1.13.aarch64.rpm"
+RPM_HASH = "430bdc5362ee90cfe6109376c4d42dfe64cc2244ece05ee33f7ebdcb7d583eede569119ea44603bfc0803309b02d4d3a94990bb6dc66bf7b23d29d00a8c9fab0"
 
 RPROVIDES:${PN} += "libbuffer.so.0.3 \
 libbuffer0-3"

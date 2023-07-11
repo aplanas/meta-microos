@@ -4,8 +4,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-poshuku-autosearch-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "87b64c87e36968dc92bd205eae22492e1475c14d22226c575961f50d4363cf879152530b9efddffff0d911e1e7bf8336b0a6037b5edeba7e3b6a844c1b10c1a1"
+RPM_NAME = "leechcraft-poshuku-autosearch-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "973f7966bf6e3d7272cae033c24ffa7936e1b9c0b8ff7d7e6aa823c144d29b4292eb74569e594e0164f770d77c0d8df91274b6ba70b64ae507f4aeb169921a6f"
 
 RPROVIDES:${PN} += "leechcraft-poshuku-autosearch \
 libleechcraft-poshuku-autosearch.so"

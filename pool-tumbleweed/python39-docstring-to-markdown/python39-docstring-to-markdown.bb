@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.12"
 
-RPM_NAME = "python39-docstring-to-markdown-0.12-1.2.noarch.rpm"
-RPM_HASH = "3fc6cd6f2029fd7c036e30fed89a0bc62db164cdedaa228aecc20cb781e9ac00ceea707824f7a8f450c1494ee5e4be0851e7c525471247377186a5cc07baac29"
+RPM_NAME = "python39-docstring-to-markdown-0.12-1.4.noarch.rpm"
+RPM_HASH = "b748aa44591e69ec96102c3da3b121cdd425c1315a5bcc2fd6f5962d1a889efdf9c379c1cce0270c3aad9f089ee974cf47eba421bcca55e31139b2b4b45471a3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-docstring-to-markdown \

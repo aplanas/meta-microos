@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.13.1"
 
-RPM_NAME = "python311-pythran-0.13.1-1.1.noarch.rpm"
-RPM_HASH = "07bb06666d181c0cbb88b9dee1b8ba49d073314eb830f9b9ab54e18dd60a46276b8522ee0f03e645382813d5ae06d89d9fe8aa1fea2c9bea85181878b1c85f66"
+RPM_NAME = "python311-pythran-0.13.1-2.2.noarch.rpm"
+RPM_HASH = "2c4c0b852703d6b4dcb3b54dbeac4d93b972d4b106799fff7c9a703bee90d6726c5a1ed8ce65f9f90df4fc7e687eda47e3af3d6721516cc6a7cafca8fb19d652"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pythran \
+RPROVIDES:${PN} += "python3-pythran \
+python3.11dist-pythran \
 python311-pythran \
 python3dist-pythran"
 

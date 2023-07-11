@@ -14,14 +14,14 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.5.28"
 
-RPM_NAME = "gphoto-2.5.28-2.5.aarch64.rpm"
-RPM_HASH = "dd43348159458f57bf7cf49285e9f5f5235f6c8ef968c8ffae047d6d38e7f511a962d47e72f5963b16e738b8a1f9f441081ec1190b43abd4c5dbed4872f1e09a"
+RPM_NAME = "gphoto-2.5.28-2.7.aarch64.rpm"
+RPM_HASH = "acd0ed7def88c31ed18812f8e1334ad4f1e22dd4912827ac0f00f3ba4926a3540017cb7531fadf2adc5d7f43067acbb909e0f5d550f91bcf7e9012feeb7f4551"
 
 RPROVIDES:${PN} += "gphoto"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libcdk.so.6.2.4 \
+libcdk.so.6.3.4 \
 libexif.so.12 \
 libgphoto2-port.so.12 \
 libgphoto2.so.6 \

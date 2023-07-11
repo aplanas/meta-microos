@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "9.4.5"
 
-RPM_NAME = "ghc-ghci-9.4.5-3.1.aarch64.rpm"
-RPM_HASH = "691226d86fe283ca803be6fe317dd3c376b944751b18aee253c380e588f26cdf2c6c1e832347df8096e7b0243d32e76b32d56c39f60e4f85c004ce505b6d8b8c"
+RPM_NAME = "ghc-ghci-9.4.5-3.2.aarch64.rpm"
+RPM_HASH = "07dc22160dac272badbc26d905119595d6ce22de7cf5073d1a4dd7c086e1862fb4b6509719b2fe6a9adbeddac936341016aaefdf795d722c87f7e2829e1b8e47"
 
 RPROVIDES:${PN} += "ghc-ghci \
 libHSghci-9.4.5-ghc9.4.5.so"

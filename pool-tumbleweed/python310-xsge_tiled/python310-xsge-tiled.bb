@@ -14,12 +14,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.0"
 
-RPM_NAME = "python310-xsge_tiled-2.0-1.3.noarch.rpm"
-RPM_HASH = "27f2409b8e4bb81f91fedc264614fb4755af0ea801fc49d312194947eb1bafcda6f1ee14f71af9ed15f66e9ca2bf54f95b86807bceb7e5f6172de16fc2f3c5a0"
+RPM_NAME = "python310-xsge_tiled-2.0-1.4.noarch.rpm"
+RPM_HASH = "3893d04b3f96d7f3376ccd1f029e71106c8183273a14ed8f059b4fc8a9293279d4bb39598bd9859486c1690823fbece0484875dbca6c9a5eae49803df52ed678"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-xsge-tiled \
-python3.10dist-xsge-tiled \
+RPROVIDES:${PN} += "python3.10dist-xsge-tiled \
 python310-xsge-tiled \
 python3dist-xsge-tiled"
 

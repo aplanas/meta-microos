@@ -11,8 +11,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "4.0.2"
 
-RPM_NAME = "libtsm-devel-4.0.2-1.3.aarch64.rpm"
-RPM_HASH = "48ce0c048c3a395a52591e77043b719989c4cc022fea7d8b5f620593ff1c57f1d0d58282329b19a5ae5f6763a6179dfaf51c7e065fee093496aed7c8687f22c3"
+RPM_NAME = "libtsm-devel-4.0.2-1.4.aarch64.rpm"
+RPM_HASH = "000d2694977f5e7617ba795d3d6aa96a8c139943519cb534466643b2b2e9955eb20e6c22901855dcd6a67d2a38124dede34fac15e6639a79e55933308d0f8ad5"
 
 RPROVIDES:${PN} += "cmake-libtsm \
 libtsm-devel \

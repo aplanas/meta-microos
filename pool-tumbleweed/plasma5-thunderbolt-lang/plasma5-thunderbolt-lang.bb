@@ -2,10 +2,10 @@ SUMMARY = "Translations for package plasma5-thunderbolt"
 DESCRIPTION = "Provides translations for the 'plasma5-thunderbolt' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "plasma5-thunderbolt-lang-5.27.5-1.1.noarch.rpm"
-RPM_HASH = "a562a22ccc2ba1941097ea2ef175c5da2cc77cf9d043bcd7215d25a9c6be240856689fd9b37dad609d13b14862b208d953bab647e761a6d7260023a962d16a3b"
+RPM_NAME = "plasma5-thunderbolt-lang-5.27.6-1.1.noarch.rpm"
+RPM_HASH = "ad95066c7cfd4f9da91538075ae04618cefe8d13eda974a1a997057756a2db7f495996cd2988b1623156a65ea316cfda38f75dd5874a2478b5eb586a5b7a0807"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-plasma5-thunderbolt-ar \

@@ -8,8 +8,8 @@ LICENSE = "GFDL-1.3-only"
 
 PV = "git.20211127.db493d1ce"
 
-RPM_NAME = "gnulib-docs-git.20211127.db493d1ce-2.6.noarch.rpm"
-RPM_HASH = "86e16695faf56c75e07b50b1b4a398ac3d7a8cb267c8b9d14c7e0a30e1fcbf74ad6f67e04673cfdf7bcfd9a3f711855aa1e5017389173c2ca2abcaff0e42f236"
+RPM_NAME = "gnulib-docs-git.20211127.db493d1ce-2.7.noarch.rpm"
+RPM_HASH = "3b90d7b4f12b14af2fc2da81abc082fd9f872d741de541817f1d006973428d9b0f62c01f25f218fde7270094f296266544cdce6406c306507c5fc7aacfc1f52c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnulib-docs"

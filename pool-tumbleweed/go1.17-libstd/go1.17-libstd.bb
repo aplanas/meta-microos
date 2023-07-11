@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.17.13"
 
-RPM_NAME = "go1.17-libstd-1.17.13-5.1.aarch64.rpm"
-RPM_HASH = "215a7f7a376787ffb13ab0912bb1689bb188fd83b70bdca1d5711b81677c8a0cd5fdd3140f8ff53387330621a69ffec1112d0357f8a0f74263e75b2d276d167f"
+RPM_NAME = "go1.17-libstd-1.17.13-5.2.aarch64.rpm"
+RPM_HASH = "c9f543ac7526cccdf29466d5aa03ed8ddf73ecfbfcd906f1169abdb8d3f1b8d14e3e9f41c51d1679cc9e1aee0c0ec0b20a43f4ca0dada26a55f5404a1a68f7bd"
 
 RPROVIDES:${PN} += "go-libstd \
 go1.17-libstd \

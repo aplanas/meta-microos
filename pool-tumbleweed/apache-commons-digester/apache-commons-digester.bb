@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.1"
 
-RPM_NAME = "apache-commons-digester-2.1-4.6.noarch.rpm"
-RPM_HASH = "92c47b69099e700daf6c9767fb251bd2413942b8aa9168760374df1f25033f5a13fc3c3493c57a2d3ea60a37e5f0a01e04c180f2db1f89e34a15c6289135e54e"
+RPM_NAME = "apache-commons-digester-2.1-4.7.noarch.rpm"
+RPM_HASH = "e187d63fc5ebd8635ba38b6707a7b37b66677ad486cad62dd925a74a652cf156879e971ebc9d656e58b407b99dafb12b5a2d70d490699cca19820017de23d12c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-digester \

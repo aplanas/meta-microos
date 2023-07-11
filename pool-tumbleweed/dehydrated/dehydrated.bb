@@ -12,8 +12,8 @@ LICENSE = "MIT"
 
 PV = "0.7.1"
 
-RPM_NAME = "dehydrated-0.7.1-1.2.noarch.rpm"
-RPM_HASH = "7d8c22f8c8d40bf1fb8662002f1ffe4fa80dec5543cedca8acf42a7641b22e1652ca89ac40d54c490e8befe4a4e716885545cef838d0c5d42648d1a2c8bf21b2"
+RPM_NAME = "dehydrated-0.7.1-1.3.noarch.rpm"
+RPM_HASH = "67b84c6d4a40e864b7ced410784bf4357dcc8fe54c395909b6272622656e20a9be2a7cdc4eeca775716cb243c003f2a58ebad4d7ff85e1e9970d23d5495cf08f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-dehydrated \

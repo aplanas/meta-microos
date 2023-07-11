@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "4.2.1"
 
-RPM_NAME = "plexus-archiver-4.2.1-2.8.noarch.rpm"
-RPM_HASH = "8919380d234b6ff44dc1483cb3b1afecd934473b5660779aca47ce78b07a24e2f7aaf146108b07abe47f73452a2294ac9c3ae21bd60f13a3731c195f1e512146"
+RPM_NAME = "plexus-archiver-4.2.1-2.9.noarch.rpm"
+RPM_HASH = "8b1a64496835f57303f1b368b6aa7a885102a2dc2db54db1fb8b5c99a6b7af9070c36cf1496f4d388318832fa4a01c82b6b6365e690b619634b78fec369edd2c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.codehaus.plexus-plexus-archiver \

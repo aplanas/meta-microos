@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause & NTP & BSD-3-Clause & MIT"
 
 PV = "1.2.2"
 
-RPM_NAME = "libntpc1-1.2.2-1.3.aarch64.rpm"
-RPM_HASH = "8055d39aba61d03a0624337d6a582a2786f8e2a824bde9cdad6b45786fc793f9094a29752ebd8055d78df3a87866e37c6e6a12e518018e399e817881c9dad54a"
+RPM_NAME = "libntpc1-1.2.2-1.5.aarch64.rpm"
+RPM_HASH = "a12cb3b483bd42c0e5eb2e08dcca0855a46ed2b9f2b7cd095d4a1ad7aa44e67cb6a19b399e3e0a0c77b2251e4ac83f40583d78524bb35046a0f1facbae28a8b1"
 
 RPROVIDES:${PN} += "libntpc.so.1 \
 libntpc1"

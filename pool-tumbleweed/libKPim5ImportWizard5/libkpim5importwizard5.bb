@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the shared libraries used to provide the ma
 wizard functionality to KDE PIM applications."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libKPim5ImportWizard5-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "29d1c4de52046a562bfc0db0ec8e22bbba246fc9483ccb885b4308a769e0b562096a0d02d48d32fc0f19551261502a67059fdba6b1add4b06a47001ee26715b8"
+RPM_NAME = "libKPim5ImportWizard5-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "c373e662591986a5f989d371cbda83592e69fc06c16a84b44e098f3ef23915d63f7c128612cd8f1827af986592aef9682310a413fe2adf5179aa6f4b61b2a8c3"
 
 RPROVIDES:${PN} += "libKPim5ImportWizard.so.5 \
 libKPim5ImportWizard5"

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kcm_flatpak"
 DESCRIPTION = "Provides translations for the 'kcm_flatpak' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "kcm_flatpak-lang-5.27.5-1.1.noarch.rpm"
-RPM_HASH = "f468fe6acf6abbb07efef500020434c64a20466c558793b330b0eb8b8c287f48ec444cbc0bb9a88eabef779c27e2643a13f6f14c7e56a88028fb91c86afcea2e"
+RPM_NAME = "kcm_flatpak-lang-5.27.6-1.1.noarch.rpm"
+RPM_HASH = "8e1c0e165c609fa2d8ee4943dd0ffc78864a2c524e26258c7341b3a0dfbd03491707f24e83e90902146123e05042dfe70eca2e1362a9cf66a70a03a74d184540"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kcm-flatpak-lang \
@@ -20,6 +20,8 @@ locale-kcm-flatpak-es \
 locale-kcm-flatpak-eu \
 locale-kcm-flatpak-fi \
 locale-kcm-flatpak-fr \
+locale-kcm-flatpak-gl \
+locale-kcm-flatpak-id \
 locale-kcm-flatpak-it \
 locale-kcm-flatpak-ja \
 locale-kcm-flatpak-ka \

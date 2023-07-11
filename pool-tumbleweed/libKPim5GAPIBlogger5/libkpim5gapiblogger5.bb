@@ -3,10 +3,10 @@ DESCRIPTION = "An extension for accessing some Google services, such as Google C
 Google Contacts and Google tasks."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libKPim5GAPIBlogger5-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "f9f96ac6100b925fb27a764b93224a0fcc52a5175e85f52839bfd4e8d3959978312b395a3399ba734f6d1ff6964d754c7e4167e005ac641f6dda38ffcd8a08b7"
+RPM_NAME = "libKPim5GAPIBlogger5-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "b23d594ce1d282a1231e265d853e2b67178d63101dc4b6b3c2e919ce25e38020ebefdfb04b00e5ffd18fef06b1f323395544326b1d9958248ab5e8ed902cf05f"
 
 RPROVIDES:${PN} += "libKPim5GAPIBlogger.so.5 \
 libKPim5GAPIBlogger5"

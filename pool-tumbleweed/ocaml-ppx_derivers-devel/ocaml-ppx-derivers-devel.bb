@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2.1"
 
-RPM_NAME = "ocaml-ppx_derivers-devel-1.2.1-4.9.aarch64.rpm"
-RPM_HASH = "699b95d61eefa95f03f657edef9300b84658b8619edd760b102a73ffcda206acab03147157031628f28fab6c6d130bfb7b0eee8f33cadfac8935a89a1d9f16a7"
+RPM_NAME = "ocaml-ppx_derivers-devel-1.2.1-4.10.aarch64.rpm"
+RPM_HASH = "89b30a11daa5c2f9581400cf803a55a44955f4f4eae79f262235b5201c42db53dd0f00fa210e174d67ed4fabc83e60525d38f8597cfe9aa8ca856102f6d3f6d5"
 
 RPROVIDES:${PN} += "ocaml-Ppx-derivers \
 ocaml-ppx-derivers-devel \

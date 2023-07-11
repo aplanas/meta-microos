@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4.0"
 
-RPM_NAME = "aalib-1.4.0-513.3.aarch64.rpm"
-RPM_HASH = "54bee63310ee9f63e4c034c4db950b82d65b4bb5cf2f2efb7daad35d62e2cea946fca512359944bb00fadb343b705a00032ee2b2539f9a67cfdfd41453e1b31e"
+RPM_NAME = "aalib-1.4.0-513.4.aarch64.rpm"
+RPM_HASH = "2838ed514c2df811773bb986b227a049273d9b348a7afa4896cad068b50caf77c4fbefd16cffcb800b196a09c73e836d9d490b763fdd5293084deb2d6e327c6d"
 
 RPROVIDES:${PN} += "aalib"
 

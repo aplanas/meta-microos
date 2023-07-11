@@ -2,10 +2,10 @@ SUMMARY = "Qt 5 Bluez Addon"
 DESCRIPTION = "Qt is a set of libraries for developing applications."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.9+kde5"
+PV = "5.15.10+kde4"
 
-RPM_NAME = "libQt5Bluetooth5-5.15.9+kde5-1.1.aarch64.rpm"
-RPM_HASH = "9a2dc709ea0a7eebfde8c177d238f6e0ac965a57070eaeac79fb60156bdced7e4110f1dc56d5886cb427d3028a72ec76da37c6a47eaf672e8fb15d20e1e98b5a"
+RPM_NAME = "libQt5Bluetooth5-5.15.10+kde4-1.1.aarch64.rpm"
+RPM_HASH = "722d102e429a181bd22fd232ecad84a3fec8f3e8207b69dd51c4867d099ed62e3bd8aad34925449c4960cfcc02d343a60ae02023b443cf1eb47dfad59a686f4c"
 
 RPROVIDES:${PN} += "libQt5Bluetooth.so.5 \
 libQt5Bluetooth5"

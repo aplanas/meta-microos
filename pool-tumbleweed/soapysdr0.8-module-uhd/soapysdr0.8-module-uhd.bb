@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.4.1"
 
-RPM_NAME = "soapysdr0.8-module-uhd-0.4.1-2.13.aarch64.rpm"
-RPM_HASH = "03aeed632499c8f9e5b52549510220c05753f407dc0c681b99d156e96057e5bc188004f67d059561b24ba61651799deb3d27a7551fba5995264c5535c5d5bc22"
+RPM_NAME = "soapysdr0.8-module-uhd-0.4.1-2.14.aarch64.rpm"
+RPM_HASH = "2089af5095c8567c90770d95c3671d2b74a92a5f90847e7cccc3d04f95da5ef7a1cc122ad2dc29a2b48b455b4341565067c154bc16dd239ce37502aa1e792fc7"
 
 RPROVIDES:${PN} += "libsoapySupport.so \
 libuhdSupport.so \

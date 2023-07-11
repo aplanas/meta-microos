@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "0.2.8"
 
-RPM_NAME = "colorhug-client-lang-0.2.8-1.26.noarch.rpm"
-RPM_HASH = "85ae71d8c0b911132e1f93af4906d65e7a5c90ed9c2c37baf42749d57aa89b4833a99b6839492162d95134f37f68413f73a8f963cd59ed63b8ec9a2fd3ec8e21"
+RPM_NAME = "colorhug-client-lang-0.2.8-1.27.noarch.rpm"
+RPM_HASH = "1a2731b98988d0ebcdfb1a15aa488debf73d0b7eaea3a477e82067aaf938c95acd641aa8b6b8b56b8a0c52f6ff110b0f19b5087f107e689c2783fd0fabe22cfe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "colorhug-client-lang \

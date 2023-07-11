@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "1.6.4"
 
-RPM_NAME = "libgtkimageview0-1.6.4-22.21.aarch64.rpm"
-RPM_HASH = "3284db04a6d3e6542992c108a9476cfa8c025ecf00ddcb828bc0282c75603b64c34cb8d5488984f0efa30ec4d8947bef25aebdbfef1b318bf5b97da2c5a469d4"
+RPM_NAME = "libgtkimageview0-1.6.4-22.22.aarch64.rpm"
+RPM_HASH = "aeef2791bff2e05113c3930d22defe092a478f07cd0dfa2510a27220beff013e072e0644e60894862f74d9437064d70d0dc36914ef0a4de4295f085f99ca2bb5"
 
 RPROVIDES:${PN} += "libgtkimageview.so.0 \
 libgtkimageview0"

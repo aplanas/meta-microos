@@ -3,13 +3,14 @@ DESCRIPTION = "This module implements i18n and l10n support for Flask. It is bas
 the Python babel module as well as pytz."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.0.0"
+PV = "3.1.0"
 
-RPM_NAME = "python311-Flask-Babel-2.0.0-1.11.noarch.rpm"
-RPM_HASH = "02665e577fd26b09f234fce08dba1c1dd8856ce0b12a665a1dfda400fbf49ef89eb48cc353eac592e736600b69b69a1dd391e596a9c7797af8a2436f943c4fe6"
+RPM_NAME = "python311-Flask-Babel-3.1.0-1.1.noarch.rpm"
+RPM_HASH = "57a048858f050974a1fcced54eb12e85043c038b6c40c163ffa7d1132540c85938606892a6e843c2309c1227fed52b9d94394fe4449abfba71efea522bf89157"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-flask-babel \
+RPROVIDES:${PN} += "python3-Flask-Babel \
+python3.11dist-flask-babel \
 python311-Flask-Babel \
 python3dist-flask-babel"
 

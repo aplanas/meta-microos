@@ -7,8 +7,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "43.2+6"
 
-RPM_NAME = "typelib-1_0-GPasteGtk-4-43.2+6-2.1.aarch64.rpm"
-RPM_HASH = "5b9ca9ac9be82d7357f62d99f30b59e54ff40e27d185f6ed692202bb32943d4f0b066cb68a21fd7efd564add47a6c9e5f371faf82552e3300893d17b726a9287"
+RPM_NAME = "typelib-1_0-GPasteGtk-4-43.2+6-2.2.aarch64.rpm"
+RPM_HASH = "588317305abfc71d4a7a6c1a9284e8ec592184e312e7885e04063d8033e862abfdd071e89ff92fdf010f21f666d55679e7ba45c8f145fa6ab8fc2115bdbb4e09"
 
 RPROVIDES:${PN} += "typelib-1-0-GPasteGtk-4 \
 typelib-GPasteGtk"

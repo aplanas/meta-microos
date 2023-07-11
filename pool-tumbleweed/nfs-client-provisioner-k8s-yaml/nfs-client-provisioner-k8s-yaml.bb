@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "4.0.0+git20210204.23ecb30"
 
-RPM_NAME = "nfs-client-provisioner-k8s-yaml-4.0.0+git20210204.23ecb30-1.11.aarch64.rpm"
-RPM_HASH = "41ab01527663f2b32c5857c26a633896c5edcaa89a7cdbb36cecb89f0b584070be475847649d3e8605ebc5e808ecb3f8d244a83ef60535894c7887800e65e629"
+RPM_NAME = "nfs-client-provisioner-k8s-yaml-4.0.0+git20210204.23ecb30-1.12.aarch64.rpm"
+RPM_HASH = "ad551f2ee1193f457e6aaf51eab7ad69280f56712a48f8e5c8047ea55e0fd770243da590c665c33eca92b89a426b9c4bb1eede84222d3d8f7d6690c51aa480e5"
 
 RPROVIDES:${PN} += "nfs-client-provisioner-k8s-yaml"
 

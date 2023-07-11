@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "8.60"
 
-RPM_NAME = "signond-libs-8.60-2.18.aarch64.rpm"
-RPM_HASH = "3c52fae53cbe2cfe5e08f0884e9d6dcea9e882d2a8e4434c45d8d4d3336f159702fc452ae19d3cc2b240bc094d3e82fccf3d4191242b3489b78101781f7e9521"
+RPM_NAME = "signond-libs-8.60-2.19.aarch64.rpm"
+RPM_HASH = "f2133fb01dc3bc11de689cfa841fe115730157206fffb7bb3ca2382755cf676a10ade7a9a31b22133d3b70e0ff16818c7b6b4746c89279c30564ac6868883293"
 
 RPROVIDES:${PN} += "libsignon-extension.so.1 \
 libsignon-plugins-common.so.1 \

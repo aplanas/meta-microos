@@ -3,10 +3,10 @@ DESCRIPTION = "This shared library allows using gmic functionality from other \
 programs."
 LICENSE = "CECILL-2.1"
 
-PV = "3.2.5"
+PV = "3.2.6"
 
-RPM_NAME = "libgmic3-3.2.5-1.1.aarch64.rpm"
-RPM_HASH = "aac8fb1983e0cdec606fd3a99725aff0747af6453b4dc6c3a9d907e599baa86cccce34aa908f4cb96e64bf2d29b75f05fcaa2c673965efa385a9131a43300c81"
+RPM_NAME = "libgmic3-3.2.6-1.1.aarch64.rpm"
+RPM_HASH = "f32c7afef1752831640aee3c6d27ad793c11483a7f8b4b80076107121f783eb3c49b8240096e9ff32324da975d3f5c77f13168d66d5ac9bff179b096089ed0cd"
 
 RPROVIDES:${PN} += "libgmic.so.3 \
 libgmic3"

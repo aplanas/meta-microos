@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.2.10"
 
-RPM_NAME = "libt3key-devel-0.2.10-1.14.aarch64.rpm"
-RPM_HASH = "9f8ffe0c55c2926fa39aa6b298b791fe5e1dc6c7581783e9c9e62517da37f82176a8acd5b60ca4188c18e897db065fc2bde02cd1cd327a6e61fd2d1ebf397359"
+RPM_NAME = "libt3key-devel-0.2.10-1.15.aarch64.rpm"
+RPM_HASH = "471496f1835440d49947c82a581a95a97f797e405df9a78432156538e476622d43635bba0a610f574b89d0f0da20efad674b480c8205f60bbd95243be3a32545"
 
 RPROVIDES:${PN} += "libt3key-devel \
 pkgconfig-libt3key"

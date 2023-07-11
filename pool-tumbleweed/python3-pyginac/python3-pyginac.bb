@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.5.5"
 
-RPM_NAME = "python3-pyginac-1.5.5-2.23.aarch64.rpm"
-RPM_HASH = "5b842296c87495f358256b2378f253e7372f97fd9cd5574e33619d2ab81c92bc45114815150d4ae1428263b6674ae066f0210bb04bf55d1ab73dcf6d439b0076"
+RPM_NAME = "python3-pyginac-1.5.5-2.24.aarch64.rpm"
+RPM_HASH = "d8bd36dd9436f31a8c76cc66e18953525174ebf3c5e381bea905b1f7d3b29430a2137982c075cabd42b6923c7b00652e04d2b519a17847c3f1c61f65258f3b28"
 
 RPROVIDES:${PN} += "python3-pyginac"
 
@@ -17,7 +17,7 @@ libc.so.6 \
 libcln.so.6 \
 libgcc-s.so.1 \
 libginac.so.11 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libstdc++.so.6 \
 python-abi"
 

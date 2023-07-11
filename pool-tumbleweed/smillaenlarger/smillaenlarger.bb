@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.9.0+git.2017.11.21"
 
-RPM_NAME = "smillaenlarger-0.9.0+git.2017.11.21-1.25.aarch64.rpm"
-RPM_HASH = "d13bfb5e3057431eda8390c7b893e25e329f541b1acb187bb73dccf3d63a52894b61542a6a8e75a12608c89444e55ac40c11daa034fea5487fc46ec48c3f205f"
+RPM_NAME = "smillaenlarger-0.9.0+git.2017.11.21-1.26.aarch64.rpm"
+RPM_HASH = "422d822cf1edb8bb8f8298b4b4a509e2b8ac3951dfda44e005972a9e2efe9eb606b5cee0d66130b616201607077f53fb4d453e6923f7e72e8939edc0151a65e7"
 
 RPROVIDES:${PN} += "smillaenlarger"
 

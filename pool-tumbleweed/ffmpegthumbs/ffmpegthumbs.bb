@@ -2,10 +2,10 @@ SUMMARY = "FFmpeg-based thumbnail creator for video files"
 DESCRIPTION = "FFmpeg-based thumbnail creator for video files."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "ffmpegthumbs-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "e31cc3c3133477c939f91fa72c1910a55c891b6cf5f6b7caf7436f5b34f22ec171cfd01a8b291bcdc32e544287289a971d1d5af178b99bdc92a7581fb03b3727"
+RPM_NAME = "ffmpegthumbs-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "93a06f068f9f2313b7af9386f4445f4f6130ad1cc09af7fc7cca7a54eee23a15a09d2b9025cbf1ab8747e628c005cadf24e05f9c7c10d3faf74a666745cf718c"
 
 RPROVIDES:${PN} += "ffmpegthumbs"
 

@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "10.4.1"
 
-RPM_NAME = "python310-dropbox-10.4.1-2.8.noarch.rpm"
-RPM_HASH = "d5ccf2705412803acc2b9b34ab7329f8541fa45759a9b36dc0dfba318a1d9aa36501b7d47778623b52cb13914c4474d7865240927484d94840c0e40d5221cd0c"
+RPM_NAME = "python310-dropbox-10.4.1-2.10.noarch.rpm"
+RPM_HASH = "97053b0bc9ca50984cd2d0f6d21e346b78b01ebacf6e69c64ffc12c476fcda1f5593a3d9f72eb66b052f04294acd2b4c5df5912ee89ca42916b7cb01014fb1cf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-dropbox \
-python3.10dist-dropbox \
+RPROVIDES:${PN} += "python3.10dist-dropbox \
 python310-dropbox \
 python3dist-dropbox"
 

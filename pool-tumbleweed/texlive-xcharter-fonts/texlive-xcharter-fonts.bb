@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.24svn63057"
 
-RPM_NAME = "texlive-xcharter-fonts-2023.201.1.24svn63057-52.1.noarch.rpm"
-RPM_HASH = "59e384a7bf8ca53adf3af01ffd6deefe89866f7e2886557454b7c8ede3a236abb0aa80563245e91b73301bedc23ceb53dd75818ba2a69a00a0e8da6b5d08f6f7"
+RPM_NAME = "texlive-xcharter-fonts-2023.201.1.24svn63057-52.2.noarch.rpm"
+RPM_HASH = "4092154a55c897ccd2672fc3cb4675224787bc43f3df728a4ba0758b06f88b1d478e694488a436046e4696b402ea6c8a8d76f06d329c15df9b964fb03db972e2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-xcharter-fonts \

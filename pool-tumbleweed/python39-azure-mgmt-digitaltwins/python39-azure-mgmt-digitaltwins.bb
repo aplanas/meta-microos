@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "6.4.0"
 
-RPM_NAME = "python39-azure-mgmt-digitaltwins-6.4.0-1.2.noarch.rpm"
-RPM_HASH = "18e1d7ed7e4dc78c2ab7870df0e0095136a877f8a865d04e77ce68d89003ae6a329d0d7af191173cad582c60fbb140676784a43367716cadcfc21eb865c34693"
+RPM_NAME = "python39-azure-mgmt-digitaltwins-6.4.0-1.3.noarch.rpm"
+RPM_HASH = "b6fe13a6a06b32d272a1ce8e9e8922dd158a285d59b7989db79919c3d7696636c119a58b4a8a654882e42d7ca6eea22298b418bbb2eed1197bf934199d53f29b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-digitaltwins \

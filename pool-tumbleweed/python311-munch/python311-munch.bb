@@ -2,17 +2,17 @@ SUMMARY = "A dot-accessible dictionary"
 DESCRIPTION = "A dot-accessible dictionary (a la JavaScript objects)."
 LICENSE = "MIT"
 
-PV = "2.5.0"
+PV = "3.0.0"
 
-RPM_NAME = "python311-munch-2.5.0-2.1.noarch.rpm"
-RPM_HASH = "258c0ecbccb40e1a95d4feeb63c5435f90f4877c8036a3d235ffd0f8eb81e1991d49d7a1d6c5eac9409d01f65b57d2dea4c9865334f8180c99acdd60e4fcd7da"
+RPM_NAME = "python311-munch-3.0.0-1.3.noarch.rpm"
+RPM_HASH = "30771506e42dc0e27df8a3b51c22bb892a308855e2c5bab40e57371ca8ce264809b43a5470162736d2eb461a4b50b34fba08185230748b7155209ae1559a5835"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-munch \
+RPROVIDES:${PN} += "python3-munch \
+python3.11dist-munch \
 python311-munch \
 python3dist-munch"
 
-RDEPENDS:${PN} += "python-abi \
-python311-six"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

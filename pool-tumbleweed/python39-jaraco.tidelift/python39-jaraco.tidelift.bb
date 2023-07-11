@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.5.1"
 
-RPM_NAME = "python39-jaraco.tidelift-1.5.1-1.1.noarch.rpm"
-RPM_HASH = "b5eafc33edefbd48d1f6c123686db10921d6cd9544c088f628d47c75aaeb71f768a97440fc71632a9cb7509c4f6356f777e7bb1435376cc28b53360992cb8e81"
+RPM_NAME = "python39-jaraco.tidelift-1.5.1-1.3.noarch.rpm"
+RPM_HASH = "0f1dd47cae5255788c945ef797a3457e776825e3dd4712a742500d9e51eef922992b74c1b08f4e224ffb1cbfca5710fbaec819ad06145aad5ed15220e7e5c64b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-jaraco.tidelift \

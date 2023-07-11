@@ -18,11 +18,12 @@ LICENSE = "Python-2.0"
 
 PV = "0.9.2"
 
-RPM_NAME = "python311-textwrap3-0.9.2-1.14.noarch.rpm"
-RPM_HASH = "3990bf62e428b236573f2221cce67e10aa3fa4f69ff638b33f65e523dffbed1b991ca01204501d71885b82eaf9f6ab8be176c2b11d01194c5e37ad21539186e7"
+RPM_NAME = "python311-textwrap3-0.9.2-1.16.noarch.rpm"
+RPM_HASH = "1058f3d15776e8a10b0d9fede9d3843584804d0126e0776dd73a6dd98fcb8e943a3de42e776bc4db27b8b96306a663289965620ed8776c363dcb5398cd6257fc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-textwrap3 \
+RPROVIDES:${PN} += "python3-textwrap3 \
+python3.11dist-textwrap3 \
 python311-textwrap3 \
 python3dist-textwrap3"
 

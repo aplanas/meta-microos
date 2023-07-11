@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.22.0"
 
-RPM_NAME = "vino-3.22.0-9.8.aarch64.rpm"
-RPM_HASH = "3607274ba2eee4d820ba79b9b8ddb8738b5f2699495437df4d9181a43c68de128696df0ee7039425b26fec9b2cbfb40178ae4a754ead8d3af2e7c4e2c7eff91c"
+RPM_NAME = "vino-3.22.0-9.9.aarch64.rpm"
+RPM_HASH = "75ebf8d0c6ca0d8bc545a39b9bf0ba3c29add08e766c94feec2840af831f85883c87205fd8bc3e02814310e115a9941eb9dc8235c19942ccb8017a84bb801a5b"
 
 RPROVIDES:${PN} += "vino"
 

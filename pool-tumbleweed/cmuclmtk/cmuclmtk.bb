@@ -10,8 +10,8 @@ LICENSE = "AFL-2.1 & BSD-3-Clause"
 
 PV = "0.7"
 
-RPM_NAME = "cmuclmtk-0.7-11.21.aarch64.rpm"
-RPM_HASH = "16a0d1d7fc2024d68ae3c3a2327a001b82a9303301b9d6f06adc79af93f1488ce9b5a00aff9cfd59c2f9a6feb0cb8f345ed9e0d799e0806c1d1f6fbdd20371d7"
+RPM_NAME = "cmuclmtk-0.7-11.22.aarch64.rpm"
+RPM_HASH = "ac9671505cfd37634d7e266740585af407f451f4d6bee8ed4223565f9a865a6d6b06013f0339f275ef7d0e2bff9605774fae09e53bdf3575343dda47d2de98f2"
 
 RPROVIDES:${PN} += "cmuclmtk"
 

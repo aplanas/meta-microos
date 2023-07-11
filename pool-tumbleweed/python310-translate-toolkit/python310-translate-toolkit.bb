@@ -20,15 +20,13 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.8.6"
 
-RPM_NAME = "python310-translate-toolkit-3.8.6-1.2.noarch.rpm"
-RPM_HASH = "6b775f37b7bcdb94028904f25fa9fda7a477ff02aeb40787c381e3781dbce91e8b9a8624470f4b74cc132ab8965d40b83435adbf5519665f846c576b9e4e35dc"
+RPM_NAME = "python310-translate-toolkit-3.8.6-1.4.noarch.rpm"
+RPM_HASH = "901e36d3828280fbe50fc4963e20494fe0da6871ad32b8eef126301f4800207068baab1ffe8f5aa44593ca2ec0458c2af027e9551569d9bcc8c1eba4f1895f70"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-translate-toolkit \
-python3.10dist-translate-toolkit \
+RPROVIDES:${PN} += "python3.10dist-translate-toolkit \
 python310-translate-toolkit \
-python3dist-translate-toolkit \
-translate-toolkit"
+python3dist-translate-toolkit"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3.10 \

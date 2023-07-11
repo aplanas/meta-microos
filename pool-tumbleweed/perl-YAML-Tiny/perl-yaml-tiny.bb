@@ -38,13 +38,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.74"
 
-RPM_NAME = "perl-YAML-Tiny-1.74-1.1.noarch.rpm"
-RPM_HASH = "cf5aa780cb1673abd9fffa05d02da1f7f695f4d43beefacac3bd85955bce51d5ee7503b4d7e9bcbe36b217a3064116ea27d90572038933a2a0c793fee3fca331"
+RPM_NAME = "perl-YAML-Tiny-1.74-1.2.noarch.rpm"
+RPM_HASH = "5c8b725c7cb248b588b4462bc2895cd8b34f75d6c19945117dcf068184f81ac4cea1fb089feb2d0f9dc29bc757776691278dff5f8744b21311d10bb751d4fc3f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-YAML--Tiny \
 perl-YAML-Tiny"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

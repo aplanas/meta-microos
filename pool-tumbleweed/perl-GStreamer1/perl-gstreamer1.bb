@@ -8,13 +8,13 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.003"
 
-RPM_NAME = "perl-GStreamer1-0.003-1.29.aarch64.rpm"
-RPM_HASH = "52d056e875c97c75dc2b288968cf2d5b21e01e8c28dbd96af5b4955c8efb586f32e3d99c076c11c842947353f6625b7b778d93a7f33b1cb6aa3c88417a740d06"
+RPM_NAME = "perl-GStreamer1-0.003-1.30.aarch64.rpm"
+RPM_HASH = "55e864238c6e37cf3673cd8827875d4fb71b5b8475e67d35c081e8374c249449156d70f979713bdc28b25022158b9a9959c87a42c4f1cc3a06aa82f99818b560"
 
 RPROVIDES:${PN} += "perl-GStreamer1 \
 perl-GStreamer1--Caps--Simple"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Glib--Object--Introspection \
 typelib-1-0-Gst-1-0 \
 typelib-1-0-GstApp-1-0"

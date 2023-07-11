@@ -6,12 +6,11 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.5.12"
 
-RPM_NAME = "python310-num2words-0.5.12-1.4.noarch.rpm"
-RPM_HASH = "d5ebbbcc42edfc9eea07633b61cf1d84a81e59f843166398c5212b55c88af7294d7069feda73c1ad5adc3c647192e9f5cc2fdfdca3d0eb80b6e6ad629e78df85"
+RPM_NAME = "python310-num2words-0.5.12-1.6.noarch.rpm"
+RPM_HASH = "80af227e37114c5e3bde863352f844cb2551acef4cabc344ccb38a74a963252d23e50cdf97b24fe79d38fed9f82339d19fd3f9a791b2f335a1b3b8732b1d8a60"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-num2words \
-python3.10dist-num2words \
+RPROVIDES:${PN} += "python3.10dist-num2words \
 python310-num2words \
 python3dist-num2words"
 

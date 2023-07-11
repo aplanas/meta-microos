@@ -8,10 +8,10 @@ modification – across Arm Cortex CPUs and Arm Mali GPUs. \
 This package contains the libarmnnBasePipeServer library from armnn."
 LICENSE = "MIT"
 
-PV = "23.02"
+PV = "23.05"
 
-RPM_NAME = "libarmnnBasePipeServer32-opencl-23.02-2.1.aarch64.rpm"
-RPM_HASH = "4962f7011061822af492b912df50711325c51ca14ef348fe4ba48847cf0241e8fe8193b81d368b22ffbcad38fa17fb05deb95ed1355d2b867832ef7e633a3a55"
+RPM_NAME = "libarmnnBasePipeServer32-opencl-23.05-1.1.aarch64.rpm"
+RPM_HASH = "2648620e640153343a76b9f48d11466b12a6200ff7cb7901045920eadeaf9d2e20c855abc00243945f455eb7ab00d8f751192457f60dd0a9af01176aeda8ee80"
 
 RPROVIDES:${PN} += "libarmnnBasePipeServer.so.32 \
 libarmnnBasePipeServer32-opencl"

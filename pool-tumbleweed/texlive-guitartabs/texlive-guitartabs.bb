@@ -9,8 +9,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.svn48102"
 
-RPM_NAME = "texlive-guitartabs-2023.201.svn48102-53.1.noarch.rpm"
-RPM_HASH = "93917a3956ec5f4dc3497ecec267022924a61a4720cc6c9af9c13511e84b0fda91c0d0528f03f2c81b30cdc3be9384875bff13eee2b5005055fe75c359f3e26f"
+RPM_NAME = "texlive-guitartabs-2023.201.svn48102-53.2.noarch.rpm"
+RPM_HASH = "b880c672260c9688b8052a09777150f06b4750fe491d865eddaa197afce77785ee0447a4b8fdbf018bfa6a8f68f79a16e059abf60f304068cc0f76c29d3f4d77"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-guitartabs.cls \

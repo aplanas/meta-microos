@@ -7,8 +7,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.2.1svn58212"
 
-RPM_NAME = "texlive-xespotcolor-2023.201.2.1svn58212-52.1.noarch.rpm"
-RPM_HASH = "6d81f10e6e73b796f3aab9ed9a2673b86b3b029cdf8362cb995e3a26b42d7c08710f26eb6c0738fe7dffd14e3bcbca9ecfe1dea5949f9792c31e7ca55271b225"
+RPM_NAME = "texlive-xespotcolor-2023.201.2.1svn58212-52.2.noarch.rpm"
+RPM_HASH = "c3cea731db124597b7eef9ed6c1d5c21c731718df4cca10a1fe2390891e7d65cc7853339dfa60bcc5cbe122ff453056e5b4ad35257ac2be3bfa38afe57856b60"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xespotcolor.sty \

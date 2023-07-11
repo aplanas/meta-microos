@@ -2,10 +2,10 @@ SUMMARY = "Development Files for libisofs"
 DESCRIPTION = "Development files for developing applications using libisofs."
 LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
-PV = "1.5.4"
+PV = "1.5.6"
 
-RPM_NAME = "libisofs-devel-1.5.4-2.11.aarch64.rpm"
-RPM_HASH = "86b457e6449e9b8d65fa5396b48c9ad7194068b4e6b1deb90f460efe6f4dcd800536169347d3eab74d8216245f9bbe4890f8e76aa57d6628b9e31d71b25cad2c"
+RPM_NAME = "libisofs-devel-1.5.6-1.1.aarch64.rpm"
+RPM_HASH = "aa887990959659913ee4743c8d658f727fd1e6434bdb818a631bd7167a8bad87e846196add34707727e54addcf26a0382a427c44baf02977e5fc8cda4294d09b"
 
 RPROVIDES:${PN} += "libisofs-devel \
 pkgconfig-libisofs-1"

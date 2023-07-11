@@ -19,8 +19,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.3.4"
 
-RPM_NAME = "diskmonitor-0.3.4-3.8.aarch64.rpm"
-RPM_HASH = "a7901b9ad6c456a003bc483970b11ef4b496834d74586a529c8e4de50b275d8bb3c5d460546636afd6fb634d964b3adc9b9268a417ac99e418ebba246a2b37d4"
+RPM_NAME = "diskmonitor-0.3.4-3.9.aarch64.rpm"
+RPM_HASH = "33d539b6280720952b9957b7e91d1c56b0d5729bbb43c6bc90b4dca74cda76268696391faa1bb53af40f190c8ea31be0656afbee5ba8419ced96f97f2eaca331"
 
 RPROVIDES:${PN} += "diskmonitor \
 libdiskmonitor-qmlplugins.so \

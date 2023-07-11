@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.4.7.1.2.1"
 
-RPM_NAME = "python39-cPyparsing-2.4.7.1.2.1-1.1.aarch64.rpm"
-RPM_HASH = "ce974fa7762b8071e0629824dce096d862f93fe503676e34132c08345249de9b65ea3647dbb420f589672be6985f2db63193cf5ada1ab481fb95e05976122e53"
+RPM_NAME = "python39-cPyparsing-2.4.7.1.2.1-1.3.aarch64.rpm"
+RPM_HASH = "20a711f116a554312de8faa06770d0d504a419a3114bdcc6bb30e6362eebc7a3e30abee1b10bcfafdddf220e7b19caeae2de25a3ff837a328d23475064fb1830"
 
 RPROVIDES:${PN} += "python3.9dist-cpyparsing \
 python39-cPyparsing \

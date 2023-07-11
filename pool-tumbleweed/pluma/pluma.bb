@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.26.1"
 
-RPM_NAME = "pluma-1.26.1-1.1.aarch64.rpm"
-RPM_HASH = "cd1ad90a59433e48443cc020c9b1b793346b746c476e5ae3acb264000ddb87cf95439e4d10b1692adc321a4125e8db310c4acdce9c2557c8cc00ab1d48ca3daf"
+RPM_NAME = "pluma-1.26.1-1.2.aarch64.rpm"
+RPM_HASH = "0712010547dbcc92e05039afbf4d361d2084d02973e64285e132124c7a62f90367c0ea8c75b72da5e40dabb6ab07cbe2c21fbc6e5cf961d289d440e96e6a936f"
 
 RPROVIDES:${PN} += "libdocinfo.so \
 libfilebrowser.so \

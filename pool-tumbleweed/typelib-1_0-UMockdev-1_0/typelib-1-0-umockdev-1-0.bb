@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.17.17"
 
-RPM_NAME = "typelib-1_0-UMockdev-1_0-0.17.17-1.1.aarch64.rpm"
-RPM_HASH = "913a8ae4d84d5e22642be0bdb6ce160fd8fc4555de1a5549f47c6194b2ecac30a3842dea98868e011e878044d1e63276e811b1745ecf1f04fc86558d1c1f45e8"
+RPM_NAME = "typelib-1_0-UMockdev-1_0-0.17.17-1.2.aarch64.rpm"
+RPM_HASH = "1f944d049bd13b7c0d4ede1d442fcb241d0c10937533fbfe49eedda25735161b244d8fb9b4b6999d10bd20efac72ed345779eaa3fb6b304f593cf7988b099e5e"
 
 RPROVIDES:${PN} += "typelib-1-0-UMockdev-1-0 \
 typelib-UMockdev"

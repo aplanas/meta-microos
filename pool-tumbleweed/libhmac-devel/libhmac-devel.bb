@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20230407"
 
-RPM_NAME = "libhmac-devel-20230407-1.1.aarch64.rpm"
-RPM_HASH = "4ea851e058f9fc2143e8abaf1b7023e45f9f263ca2eabd4eac704d152b18beda32df3c9273ffa4bbecd3c00c3724e594a29eb61e74c6b61932636ac515737cfd"
+RPM_NAME = "libhmac-devel-20230407-1.2.aarch64.rpm"
+RPM_HASH = "41e8823301f9cc5ce5f228b748d6754eb534931a8d31ccb64aa28565385c6d4eb4bad1b0769f9bdb603b37db51b46f6b6f2253cab5a8aa1112e9bc88bca047ba"
 
 RPROVIDES:${PN} += "libhmac-devel \
 pkgconfig-libhmac"

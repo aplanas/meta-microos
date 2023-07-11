@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains scripts to find out if the build result dif
 to a former build."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "20230428T221133.82ffb27"
+PV = "20230617T171717.50241a8"
 
-RPM_NAME = "build-compare-20230428T221133.82ffb27-1.1.noarch.rpm"
-RPM_HASH = "3d52b2f5c1fdc606d741b2dcbd5564febd866da755feab211dcafa4279dd094c6afaca0816b57862aa9297e9f71c1a18e592db60f886f8b2ab4dc2a290bc5e6d"
+RPM_NAME = "build-compare-20230617T171717.50241a8-1.1.noarch.rpm"
+RPM_HASH = "0c863ee5bdb4d32b06b761cc8a371b7140931d7d26c35cbe73e07a0cbc21158cbbc604e8023fc21f10be98aff9b6858d5e9113a90c162222c6ca76f2fcdb8ef9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "build-compare"

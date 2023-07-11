@@ -9,10 +9,10 @@ xf86dgaproto, xf86driproto, xf86miscproto, xf86vidmodeproto, xineramaproto, \
 xproto and xproxymngproto."
 LICENSE = "MIT"
 
-PV = "2022.2"
+PV = "2023.2"
 
-RPM_NAME = "xorgproto-devel-2022.2-2.1.noarch.rpm"
-RPM_HASH = "8f00419141710bc8ee5415c418cf6b61ee8aa88d25c6474ae071378a983366bc7a831d17d7693b5c99545f97a5b1c9cf317edb087bf2ffb7430b3ca7e3e0b996"
+RPM_NAME = "xorgproto-devel-2023.2-1.1.noarch.rpm"
+RPM_HASH = "78461854580822167569cea67a48875cf15eed9d7e23f0f6bdf6a0df6eccb223a0d75b23aa6351572dd5fab9f424abbf5ab62b820160f06356038dd44de648af"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bigreqsproto-devel \

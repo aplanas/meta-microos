@@ -32,8 +32,8 @@ LICENSE = "NetCDF"
 
 PV = "4.9.2"
 
-RPM_NAME = "libnetcdf19-4.9.2-1.1.aarch64.rpm"
-RPM_HASH = "59f0fd44de33a7919ace9f2106b066abf707545b8351a886ab09904cbcf6db8e35d7456a0bd6e9a75fbcbbf4b5a7ade20e3659af75e417207efe725b178570b4"
+RPM_NAME = "libnetcdf19-4.9.2-1.2.aarch64.rpm"
+RPM_HASH = "f41f8fccb9bbd00002cd5390dd59414070857ba5f338b47877226f42875e095ed5023157a2b402c2ea2ab54aaa13caccb4cf10eee14c85f69e30bcfb835d00f4"
 
 RPROVIDES:${PN} += "libnetcdf.so.19 \
 libnetcdf19"

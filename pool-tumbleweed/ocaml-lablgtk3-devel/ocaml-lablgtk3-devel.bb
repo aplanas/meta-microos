@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "3.1.3"
 
-RPM_NAME = "ocaml-lablgtk3-devel-3.1.3-2.3.aarch64.rpm"
-RPM_HASH = "2dfa303910a130d888a39fbd8e1097e6fc7abaab3212830ae930290c1bf77bdfe9f1220dbba8b4de7f54d6b5a1902006d18985721b0b93a7dd4ae17d8bad54f8"
+RPM_NAME = "ocaml-lablgtk3-devel-3.1.3-2.4.aarch64.rpm"
+RPM_HASH = "d2fdd0617b3bb4cd8b4b0162ff7fa9d38850abbe5ec222a45198d4c80fedd8a61da2826a184c1293ba3aecbe72b03bd448e8419e4f56cfe94c2336f55f8ab2fc"
 
 RPROVIDES:${PN} += "ocaml-Cairo-pango \
 ocaml-GAction \

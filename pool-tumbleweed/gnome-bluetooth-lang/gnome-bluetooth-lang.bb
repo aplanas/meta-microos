@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "42.5"
 
-RPM_NAME = "gnome-bluetooth-lang-42.5-1.3.noarch.rpm"
-RPM_HASH = "a9dda7689af62e4c942ebc1052bc980b0ec67109fd7936829a5d59ebc025f01013c4f21d4f49f8c299b82141283658594d8bad9816fcf2622150aa0d773bff42"
+RPM_NAME = "gnome-bluetooth-lang-42.5-1.4.noarch.rpm"
+RPM_HASH = "bc1826bc95038d8cc9158067bd39f297443771c2c677357c42ac464c58e146868e6271bb3dc4d83781d0f6c40cda84e7b15523da750cf03accc4a121b5e6c165"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-bluetooth-lang \

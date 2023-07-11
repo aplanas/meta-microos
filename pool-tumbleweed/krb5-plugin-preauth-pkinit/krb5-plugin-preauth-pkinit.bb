@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.20.1"
 
-RPM_NAME = "krb5-plugin-preauth-pkinit-1.20.1-6.1.aarch64.rpm"
-RPM_HASH = "484c137cc9d88ac6cee5e19068136d82b0044f4dd3017986535b307036e66bbe63f3716323c25d2a6b2b186e1005b0afd46bfae4ca4046bca961ed54138d46f2"
+RPM_NAME = "krb5-plugin-preauth-pkinit-1.20.1-6.2.aarch64.rpm"
+RPM_HASH = "61e186f15d0736c332469c149a71404c3a80c46c09b1861d6cb66aecc8ce70e2c5646ab5816ec9ba7b5b5dff31510750211dd4afa6bc39e1e06b3c14aa3cfc3e"
 
 RPROVIDES:${PN} += "krb5-plugin-preauth-pkinit"
 

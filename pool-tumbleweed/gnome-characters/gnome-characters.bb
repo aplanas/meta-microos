@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "gnome-characters-44.0-2.1.aarch64.rpm"
-RPM_HASH = "488481738273cb66a2a02f9580c0e3e46e1f4c7b478f652d193b6b2cf29e4173df4bb07e9d99a81bbf6defe97fe82ff9f889a4680767f599c0ffaaef01a13fb4"
+RPM_NAME = "gnome-characters-44.0-2.2.aarch64.rpm"
+RPM_HASH = "693faf315bef613dc3c516674bedc950a3968ccb080f3dd31554225b353f9ccb2397c6249e46ef72a1ecf941e34cde2f0972224c4364b077ddc4a796d06cc19c"
 
 RPROVIDES:${PN} += "gnome-characters \
 libgc.so \

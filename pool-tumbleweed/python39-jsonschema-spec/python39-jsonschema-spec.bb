@@ -2,10 +2,10 @@ SUMMARY = "JSONSchema Spec with object-oriented paths"
 DESCRIPTION = "JSONSchema Spec with object-oriented paths."
 LICENSE = "Apache-2.0"
 
-PV = "0.1.4"
+PV = "0.1.6"
 
-RPM_NAME = "python39-jsonschema-spec-0.1.4-2.1.noarch.rpm"
-RPM_HASH = "e3bae40ee0871c99cce7b220b12507e78114630d8f3d03f4b5eacbd8af1c21d46d9bb0c7d633855d98e75b9272a141080a58cffe9eca15f7fa716dcc6eb34456"
+RPM_NAME = "python39-jsonschema-spec-0.1.6-1.1.noarch.rpm"
+RPM_HASH = "cd3cc97565ef08f3ae204ff79f1923c9f1c112284ee162fd5b98c64ef23911ac7184231327fcece3fe29a35753046330c5a47e5b82f6be7bb0e9f9db867e10bf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-jsonschema-spec \

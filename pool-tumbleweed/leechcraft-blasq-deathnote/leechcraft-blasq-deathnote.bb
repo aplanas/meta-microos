@@ -5,8 +5,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-blasq-deathnote-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "55f06fabcca7c3f3ea7f36bad59446c2fc641dfb398bb348b714d3d2e55976fbacd66e16343e0420d116a2049bfee74867040a8fdb0e0b87ee1c81129d67cb2c"
+RPM_NAME = "leechcraft-blasq-deathnote-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "3471683832f4be9ca2146a8e8322932d9976c8f83d7322bb4ba799b71e716d0f863b25865fe4a280ae11083b5b1b166128bc701f2c961b15e6ef928256e8ab32"
 
 RPROVIDES:${PN} += "leechcraft-blasq-deathnote \
 leechcraft-blasq-subplugin \

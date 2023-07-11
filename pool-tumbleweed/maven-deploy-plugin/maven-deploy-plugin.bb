@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.0.0~M2"
 
-RPM_NAME = "maven-deploy-plugin-3.0.0~M2-1.8.noarch.rpm"
-RPM_HASH = "38adbb87fbe2d5c827eec5eb9f334886a0dcdc0d2d65d3a803e036fab114d45a980a146d86ef6bf8e9dce30f5b2fd133418029b095d580ad6e560d4b37d80bd3"
+RPM_NAME = "maven-deploy-plugin-3.0.0~M2-1.9.noarch.rpm"
+RPM_HASH = "9d334c08d940a38b413638e4e3e20fc0a6742522d857358978c1031caf76523c701887924fbfcf29901523e17a3f7760f97fdf58af0b32fad75ca7e9a845479e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-deploy-plugin \

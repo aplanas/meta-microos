@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.2.15"
 
-RPM_NAME = "bash-doc-5.2.15-8.3.noarch.rpm"
-RPM_HASH = "a198101aab5a67887057ab90aba531b2117350e0daf57e3bacd4e1cebbc94f210d23d8093a45d6bf53f379cb183a08abe9ad9eac0e04a3d5f6678daa918aaeaf"
+RPM_NAME = "bash-doc-5.2.15-8.6.noarch.rpm"
+RPM_HASH = "53d5483dd4ddcb90b8c76bb3568b69343ab802953bec181e3848092b3794e48327a71cbc590ef52c6cb04bdfa90fd2bf86f620105bcb9e9dd4a057a4b7a15244"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bash-/usr/share/info/bash.info.gz \

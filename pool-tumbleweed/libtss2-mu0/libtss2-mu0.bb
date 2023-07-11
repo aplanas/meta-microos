@@ -7,8 +7,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "4.0.1"
 
-RPM_NAME = "libtss2-mu0-4.0.1-1.3.aarch64.rpm"
-RPM_HASH = "3b93aeb61bb2484d1c24f09fd5464058ef57f0000c477fc224f7c6fa7cdd492017764f8651256baf0dfe8bcc16ede16d418acdfed2cc4745a3c5a196e547840c"
+RPM_NAME = "libtss2-mu0-4.0.1-1.4.aarch64.rpm"
+RPM_HASH = "478f2ce62550d7ac51fcb77700b707aeb4ae8da9755ebcfffc552fa24c104263aa018573a1b490d6e6587e337f9b5b775d9c1220c4ff7c8f4f351b5891d02018"
 
 RPROVIDES:${PN} += "libtss2-mu.so.0 \
 libtss2-mu0"

@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.0"
 
-RPM_NAME = "libwebpdemux2-1.3.0-1.1.aarch64.rpm"
-RPM_HASH = "0cc82b82d6500fde9ba8104aadb68f346dc09163f0b7e37231131a20304c4346890e6ec006101ad96ef52f6573ec88eee28819e2c20de5b6df4cdac69ef8572c"
+RPM_NAME = "libwebpdemux2-1.3.0-2.1.aarch64.rpm"
+RPM_HASH = "204f39d26cd3e29369e74d2e2c503a0c285be829f129981f64804db98a6ee15f4eb4a3560324b51c961dc85f7720765f04d677113a1898dbdfdfe8839fe36fc4"
 
 RPROVIDES:${PN} += "libwebpdemux.so.2 \
 libwebpdemux2"

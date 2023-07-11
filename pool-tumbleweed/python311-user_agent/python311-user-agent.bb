@@ -4,18 +4,18 @@ LICENSE = "MIT"
 
 PV = "0.1.10"
 
-RPM_NAME = "python311-user_agent-0.1.10-1.4.noarch.rpm"
-RPM_HASH = "612c0a572860544c6c9771b1ae7f0f8b9eabbe63ff43499f015d54f7b6b1c1faf055ca1baeebb43e0e71deedb64ed8e22e4288beb3e6ba09e8a5643e51842ac4"
+RPM_NAME = "python311-user_agent-0.1.10-2.3.noarch.rpm"
+RPM_HASH = "64cd700f5b975e9cc21e2ad67c2b4a31bfed46d5969c42db9d2333e994877400d4b27a0d7aa92cecf8d604a83d7ce8d3991a70df8445ce1f6447d068faf37f38"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-user-agent \
+RPROVIDES:${PN} += "python3-user-agent \
+python3.11dist-user-agent \
 python311-user-agent \
 python3dist-user-agent"
 
 RDEPENDS:${PN} += "/usr/bin/python3.11 \
 /usr/bin/sh \
 python-abi \
-python311-six \
 update-alternatives"
 
 inherit rpm

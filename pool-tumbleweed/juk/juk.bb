@@ -2,10 +2,10 @@ SUMMARY = "Jukebox"
 DESCRIPTION = "Jukebox and music manager by KDE"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "juk-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "acb8aafc6a07dbfc3c3d5d2090917bc411e3a884bbcb24c155b0a3ea52fdcb586d9ade8215ad1837f3900ee3a057c8c964d049c0b379c1ca6afad3fc84944fac"
+RPM_NAME = "juk-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "bcfbef86dd4d6628780ffb528321646d67b94e8dc2c97e4464ba2546c978bef8d4c5c86adf379c28904771281451f09eb5c345ca7df6158d411c13b3131c1fa8"
 
 RPROVIDES:${PN} += "juk"
 

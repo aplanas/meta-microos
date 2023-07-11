@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "git.20211127.db493d1ce"
 
-RPM_NAME = "git-merge-changelog-git.20211127.db493d1ce-2.6.aarch64.rpm"
-RPM_HASH = "f5a723db589ca0ee32a8d7c09868bbeab19533722458e14c231f802817adb018d49ec838da42ec4c2f285ed56a98e4d2da06da8f2c36aa0c4ba4e257971272c0"
+RPM_NAME = "git-merge-changelog-git.20211127.db493d1ce-2.7.aarch64.rpm"
+RPM_HASH = "c796e15fb2bc4e34cc0db7dd0a28873ddbb32811182caaa56c9a8badd0ff8c5097e5d18fc9d742f92061a7a26f32b73e4de59a4cd8ab7105166a87ddbfaf8cfc"
 
 RPROVIDES:${PN} += "git-merge-changelog"
 

@@ -4,8 +4,8 @@ LICENSE = "Artistic-1.0 & BSD-3-Clause"
 
 PV = "1.32.0"
 
-RPM_NAME = "libphobos2-ldc102-1.32.0-1.1.aarch64.rpm"
-RPM_HASH = "c48d241726317c410136e47e9e4e5611b912c3f828a630c1a7421d3bdcbeac8302aff3a36ec76f425b7adcb85e7b12c22b8ead390e729ebad3e3490841deda59"
+RPM_NAME = "libphobos2-ldc102-1.32.0-1.2.aarch64.rpm"
+RPM_HASH = "1fe483f1a30b669306037019dd4f7f5045d4331e72a03e1ad3febc65980eac026e1f5982875bcabe6782cbe5ac98692f997b2fe07eada29858042eb73c1768fb"
 
 RPROVIDES:${PN} += "libphobos2-ldc-debug-shared.so.102 \
 libphobos2-ldc-shared.so.102 \

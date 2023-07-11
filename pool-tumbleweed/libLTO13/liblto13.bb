@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0-with-LLVM-exception & NCSA"
 
 PV = "13.0.1"
 
-RPM_NAME = "libLTO13-13.0.1-9.1.aarch64.rpm"
-RPM_HASH = "cf4bdfbb75f849b4f41adc1dfbc97dadc62de930b13545cc5a5c109a9d1ba11fc74c2a5f6339234cd45db2436d1ba545b3f887273b29555d25b301403ddc404e"
+RPM_NAME = "libLTO13-13.0.1-10.1.aarch64.rpm"
+RPM_HASH = "affbba527d89b803ddf8fb343736a5704ff0c6c2d5faacba71af2dfe6d78211f699fa0815a0539a26fd1b50071c97547d93b25c47280717acd0ba7e043c82eaa"
 
 RPROVIDES:${PN} += "libLTO.so.13 \
 libLTO13"

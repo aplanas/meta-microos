@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.6.0"
 
-RPM_NAME = "sensord-3.6.0-8.7.aarch64.rpm"
-RPM_HASH = "4bd470eaf70dae8a1da4faddb8bb389dc0a7d07055a99e96a54f74e3410f2f25cb8e4543bfa52ed5ef08ba1515fa1d9d785ed398834ec36c1a15ce9b8f2ef115"
+RPM_NAME = "sensord-3.6.0-8.8.aarch64.rpm"
+RPM_HASH = "78ec552fad59de623898aead49ceabc9c5c3ed37182c1cf66916433c45370c7f206769b016d4d4b1b8d7a193df40c9e3ebfc1cbe3bbb1a3e13eb53ad1a99069b"
 
 RPROVIDES:${PN} += "sensord \
 sensors-/usr/sbin/sensord"

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.4.1"
 
-RPM_NAME = "python39-xerox-0.4.1-2.14.noarch.rpm"
-RPM_HASH = "4fd1a49c0d8b51b5215cb5ea5ce2cfb650f12e3dc1a4cada3164c9db68ad274ac42abd622e28c54782a2b62154a10cc30a5a7eb4e298bf8db8659e23bb236fe4"
+RPM_NAME = "python39-xerox-0.4.1-2.16.noarch.rpm"
+RPM_HASH = "0b68209f354f8858d91156ee5faa8b7b603da12f11d75509aaa50687f28267a6cf9c898c9d8e9560a25e69b5480c5fadc220a0731f3534d914a169d9941652b1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-xerox \

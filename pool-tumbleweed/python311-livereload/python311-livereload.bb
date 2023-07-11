@@ -4,11 +4,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.6.3"
 
-RPM_NAME = "python311-livereload-2.6.3-5.2.noarch.rpm"
-RPM_HASH = "fdc2e9f1e6c9ef5f79e45cc5f13827007a1d1724a5002459502d6f4593f4d253b2bb015c545be038e33a3d6225f9a7da65556144d0efafa1772975c6fddfcc5f"
+RPM_NAME = "python311-livereload-2.6.3-5.4.noarch.rpm"
+RPM_HASH = "9ffc9a04896b5a78ccd4230c47cfaf5974867483ed1173d853afd4ef2d3f3e26cd77e6ec33e4588b8864de12fbcee2dfa6783a2139f02122f2084286a4d6c65d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-livereload \
+RPROVIDES:${PN} += "python3-livereload \
+python3.11dist-livereload \
 python311-livereload \
 python3dist-livereload"
 

@@ -13,10 +13,10 @@ the command line as well as through C, C++, and Perl-based programming \
 interfaces."
 LICENSE = "ImageMagick"
 
-PV = "7.1.1.11"
+PV = "7.1.1.12"
 
-RPM_NAME = "ImageMagick-extra-7.1.1.11-1.1.aarch64.rpm"
-RPM_HASH = "b071a37f75eb0f4c5f0062bb8cc430a1f4188a1df1612d50c174a21d2869479b06e53d58ebb5a528d73dc45fc845b7fba0a2ee7337262406452f41840523820f"
+RPM_NAME = "ImageMagick-extra-7.1.1.12-1.1.aarch64.rpm"
+RPM_HASH = "3ba2b15a7e98060cbfe941ad14ffa1ee1e8bf77398be185bd062388ca4542cfa68db9ec71cdfaffbcfc7a5fdd87f11e3a2961e034151d29003e71ea778570b3f"
 
 RPROVIDES:${PN} += "ImageMagick-extra"
 

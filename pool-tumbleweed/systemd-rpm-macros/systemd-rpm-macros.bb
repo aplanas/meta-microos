@@ -3,10 +3,10 @@ DESCRIPTION = "Starting with openSUSE 12.1, several RPM macros must be used to p
 services files. This package provides these macros."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "22"
+PV = "24"
 
-RPM_NAME = "systemd-rpm-macros-22-1.1.noarch.rpm"
-RPM_HASH = "af7ac80f4c7b79977926f0350f34dd0613ba7f3f222652a3965bce3b676f8473a1d003cbf1ae3bce474f0b678b44c9c33d4e76b31f7f427f925859fe81a6255e"
+RPM_NAME = "systemd-rpm-macros-24-1.1.noarch.rpm"
+RPM_HASH = "ed7bc70b1bd5bd7ffeb9f1c7cca42b3a2fb491644ae10f2153b36e3b159502696f64fb2a9abc02af980d88475f66896abcd9096bc6b8788e4d565f28d3da5b02"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rpm-macro--binfmtdir \
@@ -52,10 +52,8 @@ rpm-macro-systemd-user-postun-with-restart \
 rpm-macro-systemd-user-pre \
 rpm-macro-systemd-user-preun \
 rpm-macro-sysusers-create \
-rpm-macro-sysusers-create-inline \
 rpm-macro-sysusers-create-package \
 rpm-macro-tmpfiles-create \
-rpm-macro-tmpfiles-create-package \
 rpm-macro-udev-hwdb-update \
 rpm-macro-udev-rules-update \
 systemd-rpm-macros"

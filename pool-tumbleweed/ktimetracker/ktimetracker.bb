@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.0.1"
 
-RPM_NAME = "ktimetracker-5.0.1-1.18.aarch64.rpm"
-RPM_HASH = "19456eba335f30ae1244a52de74c3288866ec066816c550b34f2e5e264fc381588d27e99c8b7b414750cf4e6b931b1438d56114bffdda88a8e0c25a29eef3555"
+RPM_NAME = "ktimetracker-5.0.1-1.19.aarch64.rpm"
+RPM_HASH = "330a4b9bff29448af8bb4a46ea0b0ef936311f1d230a5a7d7418736137bfeddfaf50a92c97061f4020aa42cb797c0b156e364b130ac4016aa277badc5aa42bba"
 
 RPROVIDES:${PN} += "ktimetracker"
 

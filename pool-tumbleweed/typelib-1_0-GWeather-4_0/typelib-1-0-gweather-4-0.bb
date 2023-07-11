@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.2.0"
 
-RPM_NAME = "typelib-1_0-GWeather-4_0-4.2.0-2.1.aarch64.rpm"
-RPM_HASH = "6e4851d373807c6de9fc8508f619b2a35817d6fb3874c15275a6aac47dea79907efcbf8b5e62860ee0966488ad8ab70c08d8d7f1505e7617c4892d583b7af75e"
+RPM_NAME = "typelib-1_0-GWeather-4_0-4.2.0-2.2.aarch64.rpm"
+RPM_HASH = "b3b210e5e45bb3cf70c06ca8827be55153697f2fabea77b198c35a41f951f7138d2c66c81da76c25f0de1908dbb72b091c58f0572f99eda045e6d984737f780f"
 
 RPROVIDES:${PN} += "typelib-1-0-GWeather-4-0 \
 typelib-GWeather"

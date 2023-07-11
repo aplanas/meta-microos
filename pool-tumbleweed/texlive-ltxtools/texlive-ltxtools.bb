@@ -3,10 +3,10 @@ DESCRIPTION = "This is a bundle of macros that the author uses in the coding \
 of others of his macro files."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.0.1asvn24897"
+PV = "2023.208.0.0.0.1asvn24897"
 
-RPM_NAME = "texlive-ltxtools-2023.201.0.0.0.1asvn24897-52.1.noarch.rpm"
-RPM_HASH = "cb35acbce9591567ac3b78d126e6d1246d8da45683b08eb36aeed9a0d6509e38b9928b015c10081ae44dcd6cc0c555c40e29fd511b562a043c1e74160c8a64dc"
+RPM_NAME = "texlive-ltxtools-2023.208.0.0.0.1asvn24897-53.1.noarch.rpm"
+RPM_HASH = "31ab576747f4af9b2ffd9dc1448d554827b2eac0310d144c95c20a4014ada7480504332a09d435f671e09da98d86de8299c58e5feb92f4cede0fe9fcdc04728a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ltxtools-base.sty \

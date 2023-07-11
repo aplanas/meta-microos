@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.9.1"
 
-RPM_NAME = "maven-doxia-module-confluence-1.9.1-6.7.noarch.rpm"
-RPM_HASH = "514392682c98ffb32d1ca29456577408b69293b1cbf5708b3cbbe5a7fa6dde0fce64ca59e3ce00e39bd8c945fa072994619f79b9dff07035f2ddd194bc04f210"
+RPM_NAME = "maven-doxia-module-confluence-1.9.1-6.8.noarch.rpm"
+RPM_HASH = "f5e43653723785239ee0a72ddcef3f29edf6711c9c0e719e4cda67b94440aac132c713efe5b896711c0107e802e2d49d17ef08a652dc04d67536e5823d1447ca"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-doxia-module-confluence \

@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.0.9"
 
-RPM_NAME = "libauparse0-3.0.9-1.3.aarch64.rpm"
-RPM_HASH = "1b7538a96260a13e0164bb47182fcd6c5a0b93a2b4a9361a8a8fdb1e08bbca72c9dbd60e0f25a5cdd4e5342704beeeeb1b43677e9fad862df016e845dbdb9db9"
+RPM_NAME = "libauparse0-3.0.9-1.5.aarch64.rpm"
+RPM_HASH = "9a8778264f82235e1cdce4a8f91c763f68a5ad359008f7848ae0425ea9d0e548a49fa33dac0989b506481bed986261619f1b9fa75330d51d51b224e9094133a4"
 
 RPROVIDES:${PN} += "libauparse.so.0 \
 libauparse0"

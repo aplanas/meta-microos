@@ -5,12 +5,10 @@ LICENSE = "GPL-3.0-only"
 
 PV = "5.15.5"
 
-RPM_NAME = "python310-qtdatavis3d-qt5-5.15.5-1.5.aarch64.rpm"
-RPM_HASH = "d717ffe5a583da9d2c67f92bc4bd2dcc4d9d17dd42f32feb1fe87bb6a2b0279591713e58de12790ba129ee7f423569f01ef470fa44cec82edde86ca4a005ebe8"
+RPM_NAME = "python310-qtdatavis3d-qt5-5.15.5-1.6.aarch64.rpm"
+RPM_HASH = "442aa2a6861cbc6dcc35ac3fd20373986114ce9fb83538bb7b25213538bd014c17a9638b055eb147fc132da6703fdf0d5d2cdd3e8bfa6f875e8284da708c9274"
 
-RPROVIDES:${PN} += "python3-PyQtDataVisualization \
-python3-qtdatavis3d-qt5 \
-python3.10dist-pyqtdatavisualization \
+RPROVIDES:${PN} += "python3.10dist-pyqtdatavisualization \
 python310-PyQtDataVisualization \
 python310-qtdatavis3d-qt5 \
 python3dist-pyqtdatavisualization"

@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "0.9"
 
-RPM_NAME = "python39-ez_setup-0.9-3.3.noarch.rpm"
-RPM_HASH = "c85c35a1f6a0aef06173d427215141eb9892bfcf31e410e79144eaf2a5f4dcdefa922427aac4754c6c927b57814bd0420d13e75dcf724c15eab6b4e807fa34dc"
+RPM_NAME = "python39-ez_setup-0.9-3.4.noarch.rpm"
+RPM_HASH = "638678452e51cc02e10e84483c7f0a9e19d2354b000acb0af4a2f6d1a30efb9631341d1d6d877852da7f8cedf04eb58913c0337a4274776332f67a169389dbd8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-ez-setup \

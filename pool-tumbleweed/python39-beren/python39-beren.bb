@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.7.1"
 
-RPM_NAME = "python39-beren-0.7.1-3.6.aarch64.rpm"
-RPM_HASH = "2ae5332eea2cb388ecf8e72d84d9ec2a690ba1b4104ca46f6065d96b12666e1e88e301db0b3f3412db0de5646ce711d4c29c77bfca993a9466db383d172c28b0"
+RPM_NAME = "python39-beren-0.7.1-3.8.aarch64.rpm"
+RPM_HASH = "2a1fa4befeb4a9f64b4efa54258ab024052563d62b98866b3f74d979e61f6f9f9493f956f6298bc292fd26e4d99e9b862f8d85acb89c1e514a856cef92b3b1a4"
 
 RPROVIDES:${PN} += "python3.9dist-beren \
 python39-beren \

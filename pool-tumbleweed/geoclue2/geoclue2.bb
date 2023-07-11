@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.7.0"
 
-RPM_NAME = "geoclue2-2.7.0-1.3.aarch64.rpm"
-RPM_HASH = "9f9795f4129b9d63409511202848572d1620707bb319932a5435b19e16474a41dcc5e5bbad2072cc4dcdd46bd9adb0672bb95caeeab4c83ab7d77c6171504925"
+RPM_NAME = "geoclue2-2.7.0-1.4.aarch64.rpm"
+RPM_HASH = "e5c2aaa44c5e030167ff7d578cdb0c1f0fef628a43f3695a6623168695819700088033bf9be2eb8cda28537b4daa05b160316089210c91f984332cfd0b6d76cb"
 
 RPROVIDES:${PN} += "config-geoclue2 \
 dbus-org.freedesktop.GeoClue2 \

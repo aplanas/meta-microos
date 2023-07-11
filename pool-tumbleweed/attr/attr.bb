@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "2.5.1"
 
-RPM_NAME = "attr-2.5.1-1.20.aarch64.rpm"
-RPM_HASH = "048c9448894ed06ed3d31f2df941b5846238029da368c63bb0d728cf718471604cbd0ed808604421a3b25ac10811af8daaa56875f1a5d2290f23952a2b88a82d"
+RPM_NAME = "attr-2.5.1-1.21.aarch64.rpm"
+RPM_HASH = "9d37deda0cce05c106bd250db7351b3dcc4c881c960849ba688deb7b8aa331692723fa4598c78dbfca67c71b32cc4b0a37d4c74cd62aa9e9b7b52041e4fc1bc2"
 
 RPROVIDES:${PN} += "attr"
 

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.7.4"
 
-RPM_NAME = "python39-unidiff-0.7.4-1.5.noarch.rpm"
-RPM_HASH = "39e52ea5b2893365ae5d9310f4f9cb28756b9849f9d592f869fb10c23ede5d380881f90f695e71aad2926bd34671c562bea106637180c89cd29471a1db676ee0"
+RPM_NAME = "python39-unidiff-0.7.4-1.7.noarch.rpm"
+RPM_HASH = "eda193a5f9b51ce5c81881501eb3d980ca282f184efc367023c2ef58d3c643caa8254beef6bd12233d2a0946722de819471ccbc7fcc87aeaea4c9c4ccd68bfe5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-unidiff \

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.2"
 
-RPM_NAME = "ghc-witherable-doc-0.4.2-4.2.noarch.rpm"
-RPM_HASH = "769996040e7944dd78b42d8b0daf25bee6aeccb4d2393d450fc7ffd175821f2b83aa24f0aea7a65213ba977deb18b3e82acfd40117c09e7b5c59657f9a294624"
+RPM_NAME = "ghc-witherable-doc-0.4.2-4.3.noarch.rpm"
+RPM_HASH = "2d3dbc969ffa6af4ed3bbe22323a73cbc6f5a2fff52fbf4a30530757795b8aadf9caf910824e26073ddb3620ed49dc8134152db56467d4966746288509959bf7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-witherable-doc"

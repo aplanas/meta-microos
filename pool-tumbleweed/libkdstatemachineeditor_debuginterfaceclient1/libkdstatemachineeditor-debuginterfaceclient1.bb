@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.2.8"
 
-RPM_NAME = "libkdstatemachineeditor_debuginterfaceclient1-1.2.8-2.16.aarch64.rpm"
-RPM_HASH = "3e48475815445e2038d1854d945efe2de993811a678cdbb49955fe3a519a1ca9b944240129424a538f0b95aebe82e812961b6a19548c7e295a60abca785630c5"
+RPM_NAME = "libkdstatemachineeditor_debuginterfaceclient1-1.2.8-2.18.aarch64.rpm"
+RPM_HASH = "43bba1e8b492af424e7d2647048be5f10d5b7d9afe39eb091239d249df3f446f6c12c37d5be4ffaaef803714eb4cc8140542c79d6774c234214d3c2e2aa8c845"
 
 RPROVIDES:${PN} += "libkdstatemachineeditor-debuginterfaceclient.so.1 \
 libkdstatemachineeditor-debuginterfaceclient1"

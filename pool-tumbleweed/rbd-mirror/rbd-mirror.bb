@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1 & LGPL-3.0 & CC-BY-SA-3.0 & GPL-2.0 & BSL-1.0 & BSD-3-Clause
 
 PV = "16.2.13.66+g54799ee0666"
 
-RPM_NAME = "rbd-mirror-16.2.13.66+g54799ee0666-2.1.aarch64.rpm"
-RPM_HASH = "e3e6991f022adea5efd3b0fa1b0ed7cb13e0462cbc7f92330fb44a09398060fea01da56a28910bd6aaee214f0aecdae231d0d930a3b3c92d522326687e2975d3"
+RPM_NAME = "rbd-mirror-16.2.13.66+g54799ee0666-3.1.aarch64.rpm"
+RPM_HASH = "9f72f3056beffd164ce29b1b683c9b08c2f5a18929c577deecf53895d3e4e37910bebface34b5c4b27ff4b5fbb0633bdf5bdc2f33158c10da8cb139b0d8a5d56"
 
 RPROVIDES:${PN} += "rbd-mirror"
 

@@ -8,11 +8,11 @@ LICENSE = "MIT"
 
 PV = "1.12.1+1619444076.g04475be"
 
-RPM_NAME = "sesdev-1.12.1+1619444076.g04475be-1.6.noarch.rpm"
-RPM_HASH = "a1a27bb77b42abcda9e632f06e2e07679e841fe74dff8e41f2cea16ad0140bc882f15b55ce80418c5d36ca698f067f94ac9b8778db3ec391bb5b1560faaf7488"
+RPM_NAME = "sesdev-1.12.1+1619444076.g04475be-1.7.noarch.rpm"
+RPM_HASH = "05a2112ff93cfda642fe0393e51d14be8bb8bd6f3f8f7f35d4a1395b1911c42f6c9a4fb530ef92fa8e7e170052fc2dd8cc062798da82eb288834ee34ef716e43"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-sesdev \
+RPROVIDES:${PN} += "python3.11dist-sesdev \
 python3dist-sesdev \
 sesdev"
 

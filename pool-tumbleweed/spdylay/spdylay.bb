@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "1.4.0"
 
-RPM_NAME = "spdylay-1.4.0-3.26.aarch64.rpm"
-RPM_HASH = "a8ab74f26ec5f67a2d3fd3f4ce4f7ce2924fc374eff546614cb369a6704970fe2e84e728e8a76f9acda707c8c74813f58731bb95da63371805df3833b8a209ce"
+RPM_NAME = "spdylay-1.4.0-3.27.aarch64.rpm"
+RPM_HASH = "7150b533f9eca213a051970715bb3e09f7ef91270c03ae750738fc89f3eaa95f378fd3de28fbbc846fdeeaec04f96a22e64cb7bbaf815efddc0ad6347ff02919"
 
 RPROVIDES:${PN} += "spdylay"
 

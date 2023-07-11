@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "2.3.1"
 
-RPM_NAME = "python39-pydicom-2.3.1-1.4.noarch.rpm"
-RPM_HASH = "bd91aaaba920a9bc4c279ac382cbf98bf4024c7308f248e372b747efa0877eb0a59e3a0b2a789f4bb02329fe4c0b214a63eb6b8dd42c22e3274a5707359b8825"
+RPM_NAME = "python39-pydicom-2.3.1-1.6.noarch.rpm"
+RPM_HASH = "28a743c73b19fb1d24a15be0fca0a277ecbccdce0b5b996ccae42f26f56630ff3891280c7ddfc10e431436f0eb3d773c028927cec2275f2a5a1706b69267740c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pydicom \

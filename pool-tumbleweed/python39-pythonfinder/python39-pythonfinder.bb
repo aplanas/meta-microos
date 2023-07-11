@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.3.1"
 
-RPM_NAME = "python39-pythonfinder-1.3.1-3.4.noarch.rpm"
-RPM_HASH = "27b8a02cd8d175de1f13427afdc619c2b19567b03ecc021731adf15b42ae049ff136596847c22ba44050e537052ca4618fb3dd418d660ecee15e3a2e1926eb9a"
+RPM_NAME = "python39-pythonfinder-1.3.1-3.6.noarch.rpm"
+RPM_HASH = "fbd00ad2080f518a4b6faf38c5bba6ceb32b9af0b91c53ac7f911cd541175511e8f73131477e0db12381c0ac6884a6b6d7d8d253104d57b3194005a4b7a8e4e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pythonfinder \

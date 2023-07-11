@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.1.2"
 
-RPM_NAME = "agenda-1.1.2-1.10.aarch64.rpm"
-RPM_HASH = "a8cbc4c610cf5b9619b202f08aa21c18819ef39819ecdefcbf192abd27761af76c72597ff12892e6597cc893aab46f0cb2ec2e014298a87248a667fd29b9cde9"
+RPM_NAME = "agenda-1.1.2-1.11.aarch64.rpm"
+RPM_HASH = "2da6291677b40c5c8c4f2963494d4d75b37edd94b10db9ecb13319c9d7eeb6ec5f9ccf433dda66e1390fd6699699ce5fea20f93c2fad1c55c65380e0f80edcec"
 
 RPROVIDES:${PN} += "agenda \
 agenda-tasks"

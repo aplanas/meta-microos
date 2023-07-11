@@ -18,8 +18,8 @@ LICENSE = "MIT"
 
 PV = "1.1.3+20210805"
 
-RPM_NAME = "xdg-utils-1.1.3+20210805-2.2.noarch.rpm"
-RPM_HASH = "8d0443bddeaabd6ce4d5c8f07cca0dbf5af3ee1118e2facbdbe398f9d78eb2a48e4635a34b04e235d039bd4a9042e3e9d785b7b070f0da18b5191480fc591b07"
+RPM_NAME = "xdg-utils-1.1.3+20210805-2.3.noarch.rpm"
+RPM_HASH = "933af97ffaafea17b97bff35983061af341363efac74ce6c478f948fdd7085467e7068760e35513a84f2d2142f14f366dfddccbb8c80268854a9dcab7b8c185f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xdg-utils"

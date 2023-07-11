@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "4.2.0"
 
-RPM_NAME = "xmvn-connector-javadoc-4.2.0-2.1.noarch.rpm"
-RPM_HASH = "36a01ffc2866993f696dd65a00be4e65708eb9b737e687c2fdfc5546cfa594bdc3ab14acf2379df6df503b537964339d74c24f48483e1bc6bcdfdd2f61e3844f"
+RPM_NAME = "xmvn-connector-javadoc-4.2.0-2.2.noarch.rpm"
+RPM_HASH = "37a62e1aa1751b1566b38513de6503395b9d4b06354a157717baaf61d65ab47fc53665c8a5721aa15b5f3016d2b071f09a31a38eeb354c053465d26366101fd6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xmvn-connector-javadoc"

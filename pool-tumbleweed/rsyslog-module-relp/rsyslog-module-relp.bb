@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0 & GPL-3.0-or-later"
 
 PV = "8.2212.0"
 
-RPM_NAME = "rsyslog-module-relp-8.2212.0-2.4.aarch64.rpm"
-RPM_HASH = "cfd3158e313cfddb32652a36cad9991423b8d10003bc1aa87bb7134a8d00f5d001438abc6ea4207e45e7537feafc1ec79add922c44d3b786b9b3d0b1f2880c8a"
+RPM_NAME = "rsyslog-module-relp-8.2212.0-2.5.aarch64.rpm"
+RPM_HASH = "b3f46c786451a6fc6da44bfd6fee143a01f69fd93fe8a1ccebaa1cc90ce3060e58543750088de0494200980a4ba6cfd703daee26a29808fe7974b35588f579a9"
 
 RPROVIDES:${PN} += "rsyslog-module-relp"
 

@@ -7,8 +7,8 @@ LICENSE = "BSD-2-Clause & OFL-1.1"
 
 PV = "1.13.0"
 
-RPM_NAME = "terminology-theme-upstream-1.13.0-1.2.aarch64.rpm"
-RPM_HASH = "3ac26a6fabceaf2bc6c56c7b14782e39441886b9c8c16753655dc158551b3b277b66388ac8d8215b441bd32174724af64767d818c2041b1a39b86555639c9dc1"
+RPM_NAME = "terminology-theme-upstream-1.13.0-1.3.aarch64.rpm"
+RPM_HASH = "2cff8f10ce9ec93457185e2a1611591efbb962f9c0696761daed1d64ccb682671a073bdfb17352bfea996ba3fd64f3452279441c817e5261a95e05ae05824c5f"
 
 RPROVIDES:${PN} += "terminology-theme \
 terminology-theme-dft \

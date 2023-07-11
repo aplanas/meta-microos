@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "5.6.3"
 
-RPM_NAME = "libdispatch1_3-5.6.3-1.2.aarch64.rpm"
-RPM_HASH = "396196b4b12093850cc68c6d3cfb643385123b650be63dd0b43610f5b741657a88eda38eacc631563b2aee927e7f195beb2961a48db4084fdb625d41862d8e34"
+RPM_NAME = "libdispatch1_3-5.6.3-1.3.aarch64.rpm"
+RPM_HASH = "b795a4f7aceca9589881ccb0782de3ab6988172072fed9e40ea5fbc2ecde447f51407240e921ddf6562d94f71fc44fa1519aa44e9944940142519ee8ea6e1610"
 
 RPROVIDES:${PN} += "libBlocksRuntime.so.1.3 \
 libdispatch \

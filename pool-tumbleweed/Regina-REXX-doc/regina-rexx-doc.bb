@@ -5,8 +5,8 @@ LICENSE = "GFDL-1.1-only & LGPL-2.1-or-later"
 
 PV = "3.9.1"
 
-RPM_NAME = "Regina-REXX-doc-3.9.1-6.9.aarch64.rpm"
-RPM_HASH = "aab3b295ab44b2023dbb33dfe1533c9dd927fb39c17dfe67a67935291905d142275ac88dc7cd4ef76b9f6719f40f50beabbed0bdb2a29df14e1cf9049c17883d"
+RPM_NAME = "Regina-REXX-doc-3.9.1-6.10.aarch64.rpm"
+RPM_HASH = "29f8fa37f546a6ec3391b4bd57a7a2fe875a38a9380ae384c755d938ebd3f0f42108d515915849acdacd5d15dad1746b74d8d7026c287073ae25f9295fb6f028"
 
 RPROVIDES:${PN} += "Regina-REXX-doc"
 

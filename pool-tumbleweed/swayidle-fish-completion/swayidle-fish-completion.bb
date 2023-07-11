@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.8.0"
 
-RPM_NAME = "swayidle-fish-completion-1.8.0-1.2.noarch.rpm"
-RPM_HASH = "47c0c3650befbc1fc05a5e2244a798dd34e08c62e747968c5e61d6e036682e92ff681438ed0e11a7b3e8ab89181028fb2c4f888d136ca730e6e753b330aecc53"
+RPM_NAME = "swayidle-fish-completion-1.8.0-1.3.noarch.rpm"
+RPM_HASH = "02485912dbd788f1213a4cb1aa109d03c0ce2ddee61c5da9efb24e4bef1ffb645b46d7c399deb61c70fc6c56d0ff8633b07f95b21188a9dfa1cd293f03fbe0b7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "swayidle-fish-completion"

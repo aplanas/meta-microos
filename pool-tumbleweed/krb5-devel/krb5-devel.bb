@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "1.20.1"
 
-RPM_NAME = "krb5-devel-1.20.1-6.1.aarch64.rpm"
-RPM_HASH = "ae2189a49eefe2033e44801bc465b0502f325b27c2cd2207a7052150cd86de44ff08964599f5d1b320e9c44b2c1fbbf7a7d238574c404b4109eeef4fa2bf395d"
+RPM_NAME = "krb5-devel-1.20.1-6.2.aarch64.rpm"
+RPM_HASH = "35da7fe5166cd628dfceb279e80a8ea43081570bb84f4c6d76f48b77db34f0d1370d44c48a060bf9c18ec9539eabc5903502e615f44b67633ee72e59aff84c85"
 
 RPROVIDES:${PN} += "krb5-devel \
 pkgconfig-gssrpc \

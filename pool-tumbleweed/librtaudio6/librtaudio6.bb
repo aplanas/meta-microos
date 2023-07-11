@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "5.1.0"
 
-RPM_NAME = "librtaudio6-5.1.0-1.15.aarch64.rpm"
-RPM_HASH = "f619324ce36209602d642dd2e9a18184426b22f00d048e8d8ffc7f58a081bcb2397d4106da7931d7d52edf46fd5a7832f67d567ba9d3ba68e2debe4b7a3bc08b"
+RPM_NAME = "librtaudio6-5.1.0-1.16.aarch64.rpm"
+RPM_HASH = "089fba5f7af39961253859b00f502171290b4db9ac2a0194ed707d3f0b4d0a9c89890cb51bd2fb48ee7994817375c765705ef7c5d7b8fbf856d73b3c878b5c18"
 
 RPROVIDES:${PN} += "librtaudio.so.6 \
 librtaudio6"

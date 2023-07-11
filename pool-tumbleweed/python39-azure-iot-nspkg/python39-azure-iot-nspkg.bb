@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "1.0.1"
 
-RPM_NAME = "python39-azure-iot-nspkg-1.0.1-1.2.noarch.rpm"
-RPM_HASH = "8bc738331b374db0e779a22cd150eb52bed5255b6734ce8109c438fefbab07c235dd0416017d58d4fd83ac6d23973c6556df3bc46be866558a4b3e3fd5532dc4"
+RPM_NAME = "python39-azure-iot-nspkg-1.0.1-1.3.noarch.rpm"
+RPM_HASH = "37fadcff6bf0f323dd40e681784a8a2aa031088f7903d639da1a81e20fdc972c7cb3df5838affa4c951589f6fd725e1738d54e808ce98155d843888979b15725"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-iot-nspkg \

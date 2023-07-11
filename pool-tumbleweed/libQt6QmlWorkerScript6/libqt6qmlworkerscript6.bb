@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt6QmlWorkerScript6-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "0a1ff25ee70e2833937d18e48ab5109d02924fabd14e997b9fa632a28c52862667d570d164310c22866bd5af8ec5cad1e31da59b15e5d55e2f936d36aaf4291e"
+RPM_NAME = "libQt6QmlWorkerScript6-6.5.1-1.3.aarch64.rpm"
+RPM_HASH = "2f83c11ddda96afbe159b3dae0cd22e074a04baf8260b97aa413d0d678b83e4fc4a99cc8b76097ac8a17c5d1ba9844b55f76fd03c3a72d62461d0d86fab46952"
 
 RPROVIDES:${PN} += "libQt6QmlWorkerScript.so.6 \
 libQt6QmlWorkerScript6"

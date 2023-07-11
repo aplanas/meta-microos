@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.9.3"
 
-RPM_NAME = "lunar-date-lang-2.9.3-2.14.noarch.rpm"
-RPM_HASH = "5a42c0445147e4e43ea7d0e3dccaa07f66ade6cc746de254b581e9b4a9f918405bb6e5a7bebe9352e3dfe23349ebb82a380e820426630999c13f28f351a43694"
+RPM_NAME = "lunar-date-lang-2.9.3-2.15.noarch.rpm"
+RPM_HASH = "32d4550a01d58fc9287dfeabf30b675873b6adb08b8361f9ae33f873170fe24719cbd4fff7de6bc5f9224ecbe308c273fd57ef09ec5f222fe1205de16c8e890b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-lunar-date-zh-CN \

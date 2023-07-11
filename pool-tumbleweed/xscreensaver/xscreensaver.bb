@@ -25,8 +25,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-or-later"
 
 PV = "6.06"
 
-RPM_NAME = "xscreensaver-6.06-4.3.aarch64.rpm"
-RPM_HASH = "a97ebd3cbc7311d9cdecdcf23c01a14debfe98e99d6beb54f54dc55e3bcd6772a3e98322c842047b844f698e362707794c7a505d065b9cb2af5c932d7554e2cc"
+RPM_NAME = "xscreensaver-6.06-4.4.aarch64.rpm"
+RPM_HASH = "c1d9671be110837612d4252a71eecc0b881ccade7b2c69b6b214a1eaa90839e558d51b912f4ffc5c07fa5114562d4eeda78f2811e7d81ccbe70e9220b9838117"
 
 RPROVIDES:${PN} += "config-xscreensaver \
 font--lang=aa \

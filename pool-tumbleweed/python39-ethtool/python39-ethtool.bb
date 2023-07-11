@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.15"
 
-RPM_NAME = "python39-ethtool-0.15-1.8.aarch64.rpm"
-RPM_HASH = "7ad697b2a6810e7c08894e5672ab9bb44e1e0fe97dcd1bf17b6e0ee4d66794f7c9af6cbe5447841488cf458fd301f6cc0736f7c3a9c593a7aa32a130d407a02b"
+RPM_NAME = "python39-ethtool-0.15-1.10.aarch64.rpm"
+RPM_HASH = "a07535e41c9bcd765998f256e463cf3ac1b89257c43f35f0dd155e2189da77a05990a598d918530fcc7a5d3534e44eb0ad05f958dcb8317736846d391e6cf940"
 
 RPROVIDES:${PN} += "python3.9dist-ethtool \
 python39-ethtool \

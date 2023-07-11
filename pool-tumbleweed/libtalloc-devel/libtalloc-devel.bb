@@ -9,8 +9,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "2.4.0"
 
-RPM_NAME = "libtalloc-devel-2.4.0-3.1.aarch64.rpm"
-RPM_HASH = "8b5056b9f92be2e12fc9d45acc435d7730d180d24e497f3ad931ae2b07d7f1c074898818ece94e150ec383e0495f92236d0afe046b1bd9358222b4e0969c4ee8"
+RPM_NAME = "libtalloc-devel-2.4.0-3.2.aarch64.rpm"
+RPM_HASH = "0c686e8829d2b6292e21050d83103b8b06fc40d3fb7ad8d0b7a32416728b1e8e6c02f7b63d8b9e3d5320c6fe2714405b57f57c3c1ee7e84bcc7d87da2feff372"
 
 RPROVIDES:${PN} += "libtalloc-devel \
 pkgconfig-talloc"

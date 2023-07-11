@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.9"
 
-RPM_NAME = "ocaml-cudf-devel-0.9-2.15.aarch64.rpm"
-RPM_HASH = "7338d3f6a26f765b90c46c1954898fbaf24006d9863a8bd819f5805fd13dc52967cb385c8c87b5588038c391e7846c22ab56604385cd8a6e10b021a2d85082d0"
+RPM_NAME = "ocaml-cudf-devel-0.9-2.16.aarch64.rpm"
+RPM_HASH = "8906e916e22c8cad269b9521b01ca923b0cd1777b1fb118e2b71a56fb7be8a7de6d8898f7478630f1616394631c3c82fb558ec2865f058bdd3b52314cbf05956"
 
 RPROVIDES:${PN} += "ocaml-Cudf \
 ocaml-Cudf-822-lexer \

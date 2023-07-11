@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.1.1"
 
-RPM_NAME = "bcg729-devel-1.1.1-2.7.aarch64.rpm"
-RPM_HASH = "9b82f783649a5bd839b874d0567887cd241b60c35dc1dd141ba316ea04250d538b73cc93432d568f172e87781dbc7aa798e6ec3014d835b7af35bcf8f9469846"
+RPM_NAME = "bcg729-devel-1.1.1-2.8.aarch64.rpm"
+RPM_HASH = "01465c915b0c7728adafaa40cc75b804de9ddeb998988cbb41f5137feacdc4a6488e6913d5dcec7d78c63036e709a58ca94365c39deb924f8da16d5426ef7d8c"
 
 RPROVIDES:${PN} += "bcg729-devel \
 pkgconfig-libbcg729"

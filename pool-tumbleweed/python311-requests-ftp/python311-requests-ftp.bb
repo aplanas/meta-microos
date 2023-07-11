@@ -11,11 +11,12 @@ LICENSE = "Apache-2.0"
 
 PV = "0.3.1"
 
-RPM_NAME = "python311-requests-ftp-0.3.1-3.15.noarch.rpm"
-RPM_HASH = "ef2f1b58e67de0c85f8840b695ca7941c6381897fb9b33da22163e963791687b6a556c6ba246e4ddfa3e38d7eb58e4448b5da75e38e6788a1df34a036ed1bc75"
+RPM_NAME = "python311-requests-ftp-0.3.1-3.16.noarch.rpm"
+RPM_HASH = "a9229e9ae9ec5e57736d862cf7a2db9cb7d787dba957000de8e1e042b128afba12e9cb9b912f4db88518f478c96f3ebd318ed280b97477525b08f74c19a4bf64"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-requests-ftp \
+RPROVIDES:${PN} += "python3-requests-ftp \
+python3.11dist-requests-ftp \
 python311-requests-ftp \
 python3dist-requests-ftp"
 

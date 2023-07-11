@@ -7,8 +7,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-networkmonitor-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "235e33de82bab607db6afc8fb84b16de7b0a038b977e5737e88c299ed9afc2df01717e4e951cf5871ec2a54730a0722affdcc1a4f65ef3a12740503e296c505f"
+RPM_NAME = "leechcraft-networkmonitor-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "6ba4fdcda67f1fa8fc56e4474b0c8f1fb1cfee6d59c50e889f2a66a19c7a9176363ab160b85e79777d546d615b3d40a4c971c404a5420fa684fd03a8e8c8d09e"
 
 RPROVIDES:${PN} += "leechcraft-networkmonitor \
 libleechcraft-networkmonitor.so"

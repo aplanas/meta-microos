@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "1.5+git20181206"
 
-RPM_NAME = "libsqlparser1-1.5+git20181206-2.12.aarch64.rpm"
-RPM_HASH = "5d0060639107aff2132d83bf78684f6d144b3ca2e553de2baabef54e52c462e26c299f5d3b8abce9e587aa600a829dc249240c6a075b570203774b7db838b2c3"
+RPM_NAME = "libsqlparser1-1.5+git20181206-2.13.aarch64.rpm"
+RPM_HASH = "fe2abb795b3d22a0b2a8c777b2558a2ab5023e6b82aa7b2bb1f9f3c66a02005ffdc0b1036827a317a7d9ff73dd83e665bd9cdf6565db904492edd51ab2a952bf"
 
 RPROVIDES:${PN} += "libsqlparser.so.1 \
 libsqlparser1"

@@ -12,8 +12,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.1011"
 
-RPM_NAME = "perl-File-chdir-0.1011-1.10.noarch.rpm"
-RPM_HASH = "77b3ef652f1d4e9c162a34a6336be468ddf2348d476ee39bd818ff249f3a9ed9a6ee0b21e80869c90548302727463b8dedbc720dba135940cafc80e3df47fa2b"
+RPM_NAME = "perl-File-chdir-0.1011-1.11.noarch.rpm"
+RPM_HASH = "3d8497eeb78b4de5dca2a7ab724a09d3c9a4a322c707dedc872049804beaddf86cf0a231809381d5bee8fe3fbca8d78597d0a60193a834690cfd7fd4c6aa12f4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-File--chdir \
@@ -21,7 +21,7 @@ perl-File--chdir--ARRAY \
 perl-File--chdir--SCALAR \
 perl-File-chdir"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Cwd \
 perl-File--Spec--Functions"
 

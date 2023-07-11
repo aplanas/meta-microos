@@ -4,10 +4,10 @@ consists of squares that contains points which can be increased. By \
 this you can gain more fields and finally win the board over."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kjumpingcube-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "a6812056086f3f1f64c08cd536f2da66a52bedd7b8b152c06459e9e7b37f8f6129471eb5fdbc118a268190689e12daf5568606be2e39d7bf840eec176ec22a24"
+RPM_NAME = "kjumpingcube-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "3a9324bbdf861f66fb03953f141c90be0c0d1f31f3e6c0d2dbe5349a276c6d94ca8f9cd16f6a7dc8cc3a4abaf7c3f8a1078e728f6e59c6bbc7c7506eea6a29e9"
 
 RPROVIDES:${PN} += "kjumpingcube \
 kjumpingcube5"

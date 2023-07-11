@@ -6,15 +6,15 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.182"
 
-RPM_NAME = "perl-App-MFILE-0.182-1.19.noarch.rpm"
-RPM_HASH = "76c9832b2e33446ac730800c89a5a76c8f7889e1f9960b2672d392905bc4892a142d52f7d290b0dd7a9725f78e2cb3bcec5883c6c32df30e982da0e180a0a49f"
+RPM_NAME = "perl-App-MFILE-0.182-1.20.noarch.rpm"
+RPM_HASH = "8368b5aead56cbc9832fb1b83378ffbef378fdf8b60ff2ac5037e7259d3e22b445a071e60471d9be41355cbb7268a5ff6cc2c68748155dd96beb3c1bb4af5583"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-App--MFILE \
 perl-App--MFILE--HTTP \
 perl-App-MFILE"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-App--CELL \
 perl-HTTP--Request--Common \
 perl-JSON \

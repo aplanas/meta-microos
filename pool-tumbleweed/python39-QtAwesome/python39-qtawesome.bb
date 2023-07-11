@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "1.2.1"
 
-RPM_NAME = "python39-QtAwesome-1.2.1-1.5.noarch.rpm"
-RPM_HASH = "7bbda549df9326fadb4de5053e17ef858d4df7adcd7875572ab79f0e5d249f51fab0748b66c82c5e9a8d8d2beacbe25703723807a74c9e18b42f03bbd67afdc7"
+RPM_NAME = "python39-QtAwesome-1.2.1-2.3.noarch.rpm"
+RPM_HASH = "d4d801603f3a8a97c54097fd72560903fe692e1b8d28e63975cc3c96e1dcb5f620a7fe457cfc093426e3bf97f1c6b331172d842382b71878d5b47762aa6cb983"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-qtawesome \

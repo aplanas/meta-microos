@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.12.2"
 
-RPM_NAME = "hdf5-devel-static-1.12.2-5.2.aarch64.rpm"
-RPM_HASH = "734315d4ed6fe0ffd6d106f23aee34e6cc6512e6f0ceb74b607d575a12d88a167756b4a9a077c7edd1caa989074fc1ccac66d87296fc8981a195d11ff9b07953"
+RPM_NAME = "hdf5-devel-static-1.12.2-5.3.aarch64.rpm"
+RPM_HASH = "2fadf5f54d9ea7483ddd1cca8d7983ba467478778d9b3f17a507048c359339ce5fa60a53d4a2881a1cb5bcbace50d4f794969906ebddf4befeb24600a20ce882"
 
 RPROVIDES:${PN} += "hdf5-devel-static"
 

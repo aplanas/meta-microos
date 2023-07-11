@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "0.3.0"
 
-RPM_NAME = "python310-azure-cognitiveservices-search-customsearch-0.3.0-2.11.noarch.rpm"
-RPM_HASH = "01a94aa84616d6de8b8abfdbdfb400a8d73b3b9a25efff3aac296fad6fdf7dae55424127de51d13d992e1434b9bbe0d2d600ccade6e7f10808c75ac6df4874ac"
+RPM_NAME = "python310-azure-cognitiveservices-search-customsearch-0.3.0-2.12.noarch.rpm"
+RPM_HASH = "2eba1374ee8f4d0f230799f54211b2d5cceb6ce704498e91291d3cc7d6813994c5d1ce79fb72ed2bb5db966d9fbd06fec3517377a0edda66d8f9f8781f3590af"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-cognitiveservices-search-customsearch \
-python3.10dist-azure-cognitiveservices-search-customsearch \
+RPROVIDES:${PN} += "python3.10dist-azure-cognitiveservices-search-customsearch \
 python310-azure-cognitiveservices-search-customsearch \
 python3dist-azure-cognitiveservices-search-customsearch"
 

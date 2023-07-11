@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.6.2+git0.ge8fd65f08"
 
-RPM_NAME = "rook-rookflex-1.6.2+git0.ge8fd65f08-2.8.aarch64.rpm"
-RPM_HASH = "b3b520c3690d7f8e1f1501c1a38a0e1c330c4aae967ba757e13c193ed6282c7b61ef6152d43c70f8d4b6a25e6243222cbf12f98fdf54da87548978776fe9c181"
+RPM_NAME = "rook-rookflex-1.6.2+git0.ge8fd65f08-2.9.aarch64.rpm"
+RPM_HASH = "78201e91174b4500acaa6302a7375bc0dab9a634b1457dd7a70f2eb656033737bc7c51b3a0e122f08b7a7bb12f03a583f67f8da21939b96d2269bead309c4702"
 
 RPROVIDES:${PN} += "rook-rookflex"
 

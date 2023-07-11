@@ -7,10 +7,10 @@ This package contains the Iosevka Aile typeface (quasi-proportional, \
 sans-serif)."
 LICENSE = "OFL-1.1"
 
-PV = "24.0.0"
+PV = "24.1.4"
 
-RPM_NAME = "iosevka-aile-fonts-24.0.0-1.1.noarch.rpm"
-RPM_HASH = "fac98b7c24e9a7bdbc8384512b8a634d96ed3cff9d44bebab32574ba162d669f2eb0186be96c3971a55d0d3096d1c1e72dfd0bbf70ca077ec171ab1967d2ed24"
+RPM_NAME = "iosevka-aile-fonts-24.1.4-1.1.noarch.rpm"
+RPM_HASH = "9e1d200ec89fb4fedf67febf1619534497f765ffa09664cccc192ad6e640b1eeaa6d6e8f3685486f650dc772cbd64d55d162c801efcad6e954acf45781136388"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "iosevka-aile-fonts"

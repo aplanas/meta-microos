@@ -18,8 +18,8 @@ LICENSE = "BSD-3-Clause & CC-BY-SA-3.0 & GPL-3.0-or-later & CC0-1.0 & LGPL-2.1-o
 
 PV = "4.3.5"
 
-RPM_NAME = "warzone2100-data-4.3.5-1.1.noarch.rpm"
-RPM_HASH = "141e97622583e3ac2c84491135d4c6047c2f4fc89894d8bf35c171ec7aaa573120d1413beb9cc1abc93d030db3a26ae757115c87d3fe873daabe049867c1e932"
+RPM_NAME = "warzone2100-data-4.3.5-1.2.noarch.rpm"
+RPM_HASH = "d130a74d730b0eaf2ee9f3dc875e652108c9fa742fd0d711df0c144288835bece635e19783d79edf45d34ff72f198ffebee6c753fa04aeb19f8babbfd6e9f6a5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "warzone2100-data"

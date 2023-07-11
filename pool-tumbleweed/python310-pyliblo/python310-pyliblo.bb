@@ -6,11 +6,10 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.10.0"
 
-RPM_NAME = "python310-pyliblo-0.10.0-2.11.aarch64.rpm"
-RPM_HASH = "ef9cefc3664608ffe3da7e43d5b1719485c4a83d83950fbabded6010abb10f555fb3240c529535d43346adef4793e364a39d57109c4669e6fc95245c044b7ff8"
+RPM_NAME = "python310-pyliblo-0.10.0-2.12.aarch64.rpm"
+RPM_HASH = "312b96721f5b793d1642ee16cf250874809e8dd39c251fb2bc34b3dcbda69fcf42adaf6a7a10a49dab5547d8bf801d1ded9b5aedf23a6a23a3399dff5f962ed3"
 
 RPROVIDES:${PN} += "liblo.cpython-310-aarch64-linux-gnu.so \
-python3-pyliblo \
 python3.10dist-pyliblo \
 python310-pyliblo \
 python3dist-pyliblo"

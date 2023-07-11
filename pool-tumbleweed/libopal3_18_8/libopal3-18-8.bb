@@ -6,8 +6,8 @@ LICENSE = "MPL-1.0"
 
 PV = "3.18.8"
 
-RPM_NAME = "libopal3_18_8-3.18.8-2.9.aarch64.rpm"
-RPM_HASH = "2847e5055dc93fbec60a1a4f911912a28f3c521bd63a6d1a32d43b75f4417fabad65d2e6febdef5c1ff60231aeb36cc3941198d7d614706a94986e3c2acbbee1"
+RPM_NAME = "libopal3_18_8-3.18.8-2.10.aarch64.rpm"
+RPM_HASH = "60dcf7dd82420b385c440d5ebaefc5eb5f557ea79607f80dac53270916b89d033b0c01dda9d2b92fd9eedc271205072aa1a0ee3560dbb899c7cc559a6e971515"
 
 RPROVIDES:${PN} += "libopal.so.3.18.8 \
 libopal3-18-8"

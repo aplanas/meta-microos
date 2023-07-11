@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.10.0"
 
-RPM_NAME = "winpr-devel-2.10.0-3.1.aarch64.rpm"
-RPM_HASH = "dc3e9701e4f51e0f0a675b79a3b3815fc08f4ac17adab827a21900d8faeed26d7096ffcd8697dab2679c0531bf352dd7d1d853def1081dd742d1e32080a3041c"
+RPM_NAME = "winpr-devel-2.10.0-3.2.aarch64.rpm"
+RPM_HASH = "f51b219b5b338c3431771bf07afb9eb50d32ae81b5993e48c8b7321f5f9a865aba9a91991500bc00f6e54ba485099bb9c34425b6e0229d01ce34100c4aa5d047"
 
 RPROVIDES:${PN} += "cmake-WinPR \
 libwinpr2-devel \

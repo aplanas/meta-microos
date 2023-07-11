@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.31.2"
 
-RPM_NAME = "python310-python-binary-memcached-0.31.2-1.1.noarch.rpm"
-RPM_HASH = "a7a9e6820a896f5fd879e3eb5dcd0a1f91aaf023391de0e339bda0c804f9f68077da9dbe37d80475b83ab5e7ca63951a30a8c49cde639fdae18d35bd25401404"
+RPM_NAME = "python310-python-binary-memcached-0.31.2-1.3.noarch.rpm"
+RPM_HASH = "30090fe5d8a38f109111bbb3aa611bde91bbf18e5963dc59f18ca5a8da24001770db2b777cc9c3ff3165f519363c780f1753d42e894415a1a5b4f9ef985d33ff"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-python-binary-memcached \
-python3.10dist-python-binary-memcached \
+RPROVIDES:${PN} += "python3.10dist-python-binary-memcached \
 python310-python-binary-memcached \
 python3dist-python-binary-memcached"
 

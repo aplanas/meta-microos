@@ -20,11 +20,10 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20230603"
 
-RPM_NAME = "python310-libfsext-20230603-1.1.aarch64.rpm"
-RPM_HASH = "c2e56d35b8f7e2d458bc4840deeee293943fd2ca4c6ec581874b21887790d7d75e79d5351c8fdb748cb60dac327894c0590d8f6a0433d2f6797682c46e457d58"
+RPM_NAME = "python310-libfsext-20230603-1.4.aarch64.rpm"
+RPM_HASH = "12df3e134766f7e52ad36418b6ea6ddeab71d14831be462828a7d0ec6e8b9d1e4fece0463bd4e28a62012d93289b6f14f21dd18ee0302be1060550beee065956"
 
-RPROVIDES:${PN} += "python3-libfsext \
-python310-libfsext"
+RPROVIDES:${PN} += "python310-libfsext"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libbfio.so.1 \

@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.0.22"
 
-RPM_NAME = "dbh-devel-5.0.22-1.15.aarch64.rpm"
-RPM_HASH = "d1998e533ede778f7259d499609446726491de9d992825a009be0978dff92db0a3a7db21d452d244b4cf0ee717997e9f19e92923aed0f7d2779665363123cbe0"
+RPM_NAME = "dbh-devel-5.0.22-1.16.aarch64.rpm"
+RPM_HASH = "57c1fdbefdc63a9bed75caf353e8659351ade24518b3b46386a38405b1c8fab32087746f5b30a6ba701f4f16c1f2e8adc0218a38ffce63202ea783b26489ac7c"
 
 RPROVIDES:${PN} += "dbh-devel \
 pkgconfig-dbh2"

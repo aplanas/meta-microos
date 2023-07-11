@@ -16,8 +16,8 @@ LICENSE = "PostgreSQL"
 
 PV = "15.3"
 
-RPM_NAME = "postgresql15-devel-15.3-1.2.aarch64.rpm"
-RPM_HASH = "a974c8734128975249d77c397799c383ecd1dae7c33d81c57ab563cdff9594bf4c590d7ddf9355b1fde76396c3d3db8d2b93a8814886751c1a12296702c5f8d4"
+RPM_NAME = "postgresql15-devel-15.3-1.5.aarch64.rpm"
+RPM_HASH = "8a5e42a5a6d4dcb19ed132c38247d92c4fcb3237ffb105deed585df04d0a3401d5381fe5cabb97404a2ead7d6572af36e100e2a03654c02d656a0f528010a95b"
 
 RPROVIDES:${PN} += "pkgconfig-libecpg \
 pkgconfig-libecpg-compat \

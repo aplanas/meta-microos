@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.5.2"
 
-RPM_NAME = "clapper-0.5.2-1.3.aarch64.rpm"
-RPM_HASH = "3dc3006bba0ff657289f30e205aaa8f7ce9ab9a1aa1a0ab8ac81efcd5752841d43d59fb240b34980b7b7eb894158a1161100559b6fb063277f7fe1be5f7f2eb7"
+RPM_NAME = "clapper-0.5.2-1.4.aarch64.rpm"
+RPM_HASH = "d0d4bce83c068bd19c1b1d4845422fc43f20e69802b1ca7c176f5f4facb0afa2e4ddd025cbb4cfa5780ca671eb6bcbd7b8f2f756810e3829a8f14580598f2e6d"
 
 RPROVIDES:${PN} += "clapper \
 gstreamer1 \

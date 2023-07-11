@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.41.0"
 
-RPM_NAME = "gcr3-prompter-3.41.0-3.3.aarch64.rpm"
-RPM_HASH = "2f4ce5d03db589d9e01e9b63cdfed25d900e724240849dace6dc4125a651135817d1669ac3b04894f2a4ad074d4c9971428b1948a05db8d840609f3eb5ebc5ef"
+RPM_NAME = "gcr3-prompter-3.41.0-3.4.aarch64.rpm"
+RPM_HASH = "9158b6d284f35e59534f46eab7eeb7b3d6f3b288c243a24d18083286cde709f572abb176d28304d499eb81740d746cb98bef68c9b4be10bc923eae62379eeae1"
 
 RPROVIDES:${PN} += "gcr-prompter \
 gcr3-prompter"

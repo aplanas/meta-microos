@@ -7,12 +7,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0b4"
 
-RPM_NAME = "python310-azure-schemaregistry-avroserializer-1.0.0b4-1.6.noarch.rpm"
-RPM_HASH = "a2cb82e53b9a2eb696d42527531ac5cb4160e82de9be1ade0d8851a638b64db17642e7da0fa4b4c182000c2f43654714a3c45198443602a2af9771f9f9888751"
+RPM_NAME = "python310-azure-schemaregistry-avroserializer-1.0.0b4-1.8.noarch.rpm"
+RPM_HASH = "625b79cf506b9ea68f2ad5c7f1a5707454f578b7379dd3062656cedc6f702657918ceabe082f6db60729b0ef91bc4560587a5ff6fb5174ef3c4c9552bec5c43a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-schemaregistry-avroserializer \
-python3.10dist-azure-schemaregistry-avroserializer \
+RPROVIDES:${PN} += "python3.10dist-azure-schemaregistry-avroserializer \
 python310-azure-schemaregistry-avroserializer \
 python3dist-azure-schemaregistry-avroserializer"
 

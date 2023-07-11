@@ -9,8 +9,8 @@ LICENSE = "NetCDF"
 
 PV = "4.5.3"
 
-RPM_NAME = "netcdf-fortran_4_5_3-gnu-openmpi2-hpc-devel-4.5.3-4.5.aarch64.rpm"
-RPM_HASH = "eeffcc1bfedffce12c4a6d35e41528c5f637721e519ab6936d75b20c8a2f7541c6147ddc27e9e485904ed2a4e98cadc5c6cf0a910c9e1704b9593bd060b85764"
+RPM_NAME = "netcdf-fortran_4_5_3-gnu-openmpi2-hpc-devel-4.5.3-4.6.aarch64.rpm"
+RPM_HASH = "40ff7246c6e3f4047b5b7907fefb54f4eabc2745526da6899b083b3d0a0e924d09858c866fd21faa94256511d38eaf8cd27b92c7a113e7fe2dddaa896792159c"
 
 RPROVIDES:${PN} += "netcdf-fortran-4-5-3-gnu-openmpi2-hpc \
 netcdf-fortran-4-5-3-gnu-openmpi2-hpc-devel"

@@ -6,11 +6,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.0"
 
-RPM_NAME = "python311-pytest-openfiles-0.5.0-1.13.noarch.rpm"
-RPM_HASH = "e7bd4005175d1c0704a5517bff902ac43b537bdd9d0f27c4fd40df14db0c3925551cdf986094592094b417e53677cf33da6988532e8841f3b09d0fbc2cf391ce"
+RPM_NAME = "python311-pytest-openfiles-0.5.0-1.15.noarch.rpm"
+RPM_HASH = "d62179e9033d1b1766e6ad1c50c99634590c1731c671a7bb1507e70ebc6b34937bb1f23cf74ade9112e3a62efe9ec28e5940f7a7379ce05113e0c92234c3ec49"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pytest-openfiles \
+RPROVIDES:${PN} += "python3-pytest-openfiles \
+python3.11dist-pytest-openfiles \
 python311-pytest-openfiles \
 python3dist-pytest-openfiles"
 

@@ -2,10 +2,10 @@ SUMMARY = "Framework which lets applications perform actions as a privileged use
 DESCRIPTION = "KAuth is a framework to let applications perform actions as a privileged user."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "libKF5Auth5-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "1c27f4b47aa643b4523893c89f44bf42a7dd3025a4486cfe773fab8e63e3007bc6750d96270be54babd1f09fc0f38007da0bdf5fd6199c604141512c8a492002"
+RPM_NAME = "libKF5Auth5-5.107.0-1.1.aarch64.rpm"
+RPM_HASH = "d7f767448ffd884962f4f15cc3ba3a719faa6af9294cf83ca31e3943be1f45f6443b2f2bd506cc239b93a1d9040fcc191545d21fb27acce3a619badff160cced"
 
 RPROVIDES:${PN} += "libKF5Auth.so.5 \
 libKF5Auth5"

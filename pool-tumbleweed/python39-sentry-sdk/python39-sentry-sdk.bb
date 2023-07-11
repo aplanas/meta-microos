@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.24.0"
 
-RPM_NAME = "python39-sentry-sdk-1.24.0-1.1.noarch.rpm"
-RPM_HASH = "82efd7af3104685bef1ab00ad5d29e260ceb212a4a2a8fbe30c4ee3013ec5e52fba25b8e98149c61703c529deeefd5f127e1e193eb95c319f4af9606725f6c50"
+RPM_NAME = "python39-sentry-sdk-1.24.0-2.3.noarch.rpm"
+RPM_HASH = "93f3686dc2c621fd33dad3caa4b224b8c6c44bb20e2dd6de9393000004e3434d4e6c7d543f51f91592ab870c83a967341c456cd97bf4d6442a310b7ac1ac9513"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sentry-sdk \

@@ -6,11 +6,12 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.1.6.3"
 
-RPM_NAME = "python311-PyRIC-0.1.6.3-3.14.noarch.rpm"
-RPM_HASH = "84c056c7dcf51fbdaed873680c4f99ccbd5ba029128e154fb598a683b16f2ab00ecb6a72440d12767f264d8a296e509ec2256ad896deb7fe8ac10c3c7057b936"
+RPM_NAME = "python311-PyRIC-0.1.6.3-3.15.noarch.rpm"
+RPM_HASH = "66b2a3c170ae2186dcce94a636ec15493885c7dc076598bc82442d7e4cf1ce4d95e80f72052f70978f12b70f2be037bee056b764c8a19e2c642b915380057322"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pyric \
+RPROVIDES:${PN} += "python3-PyRIC \
+python3.11dist-pyric \
 python311-PyRIC \
 python3dist-pyric"
 

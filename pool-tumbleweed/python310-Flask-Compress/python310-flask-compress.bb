@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "1.13"
 
-RPM_NAME = "python310-Flask-Compress-1.13-1.3.noarch.rpm"
-RPM_HASH = "99b0aaab33eecb0065f37cda17de64cdfd5fe6acda69d6a3cbe72086878e728a332c5a720d3334ef2928bef590a5b938439032f8e4a73ae08cb76b748b54b31c"
+RPM_NAME = "python310-Flask-Compress-1.13-1.5.noarch.rpm"
+RPM_HASH = "c87d0430cf37f745059845a6cb6df7a95a9eeec92979ca77e3bab96ef72fc4406f7092b3723def3fdc9143cd9a87f5029dc53406e2e3e87aa5101101e2511baa"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-Flask-Compress \
-python3.10dist-flask-compress \
+RPROVIDES:${PN} += "python3.10dist-flask-compress \
 python310-Flask-Compress \
 python3dist-flask-compress"
 

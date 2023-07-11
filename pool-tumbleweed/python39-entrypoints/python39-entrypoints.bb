@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "0.4"
 
-RPM_NAME = "python39-entrypoints-0.4-1.3.noarch.rpm"
-RPM_HASH = "7e68dc773c232b4afb68cd34aef5224b1a925d87c964896f69f69427378eceadc27bf2a031eeb9759a932b67ff71dc1a0fdca23a721db19af056adab630f61f9"
+RPM_NAME = "python39-entrypoints-0.4-2.1.noarch.rpm"
+RPM_HASH = "ab33c262961986960de2598c5b25a5ac3d74229c29edc3fcd1565a8fc55378aa82935e57e493ac38187b8f568cba97f5a17323acd9d7e1dfd014820ab36bd177"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-entrypoints \

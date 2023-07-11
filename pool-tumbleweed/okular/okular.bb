@@ -3,10 +3,10 @@ DESCRIPTION = "Document viewing program; supports document in PDF, PS and \
 many other formats."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "okular-23.04.1-1.2.aarch64.rpm"
-RPM_HASH = "461ddd3d5b5f11424c18b160a5445ca7b7707d18ca76196465d4a1f6ed94d5b7487e093fe2bfbd6e57b651312ba3f42971c896cad36dc76d34abc3acb5dba203"
+RPM_NAME = "okular-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "2df8d027f6c3b4ea7b8bb2b2a55dee0816b30a2857a751d59bb6144cf27e20046b055834c356263882da2d88371092908226fee83f772c63557ac136eda1defa"
 
 RPROVIDES:${PN} += "libOkular5Core.so.10 \
 okular \

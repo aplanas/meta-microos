@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.4"
 
-RPM_NAME = "ocaml-easy-format-devel-1.3.4-1.4.aarch64.rpm"
-RPM_HASH = "896e5c3adc62a3fb870ef7156734d5a151f65fc08ee489feb9816cd1d04a0a8df0ab3607ecf23355f7df24c48a859ca79c65937cdfa6ca3e0a916d0740462a20"
+RPM_NAME = "ocaml-easy-format-devel-1.3.4-1.5.aarch64.rpm"
+RPM_HASH = "dd4aad460b62b5c81c21d954f54c6224a608d9a89f5232443fda95997fc7d3a05be15e3b6562c6c2234328fcda8ae6f8f4fc75a8d5a7e560559197d521d81f52"
 
 RPROVIDES:${PN} += "ocaml-Easy-format \
 ocaml-easy-format-devel \

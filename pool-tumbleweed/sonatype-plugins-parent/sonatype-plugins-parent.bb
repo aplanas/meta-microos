@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "8"
 
-RPM_NAME = "sonatype-plugins-parent-8-1.23.noarch.rpm"
-RPM_HASH = "a48add1deaffcacfacaaab749db0347d817920dc9d94a76b6a67ccc653cdf52695a6497d20dc330f5133119881790d5ad9fdbc067af135961cd0e6531338488d"
+RPM_NAME = "sonatype-plugins-parent-8-1.24.noarch.rpm"
+RPM_HASH = "4a8a1fa781ecd109edeeae726504448fe6239d61a71c191dd39b882483a2b52121ffdd495f42801ff8b3a71a084565499d773976d5bc4cb6d85183db085c2855"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.sonatype.plugins-plugins-parent-pom- \

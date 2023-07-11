@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause | GPL-2.0-or-later"
 
 PV = "1.4.5"
 
-RPM_NAME = "libpwquality-lang-1.4.5-1.2.noarch.rpm"
-RPM_HASH = "87ee414c9d345d3f29302c9c8d6c66c32f0398a44267a2e2d3c97276da520b7716cd6763eb227ea775deb0021981f04aec293a3d208f09347e27acd9a4d46f92"
+RPM_NAME = "libpwquality-lang-1.4.5-1.3.noarch.rpm"
+RPM_HASH = "9b4600d0d8d12a143d1c37f03634b1bf399480f0382bcfe06fd00848c6c5462d0d8a9de4b4aefb50f62004d3e509041cc53df17e9d95df44e12a0f2f0d3ae68c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libpwquality-lang \

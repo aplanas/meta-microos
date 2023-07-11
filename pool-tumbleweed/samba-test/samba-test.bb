@@ -3,10 +3,10 @@ DESCRIPTION = "samba-test provides testing tools for both the server and client 
 packages of Samba."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.18.1+git.298.4ccf830b2a4"
+PV = "4.18.3+git.303.c08b73d523c"
 
-RPM_NAME = "samba-test-4.18.1+git.298.4ccf830b2a4-1.1.aarch64.rpm"
-RPM_HASH = "c9a7098d66deed3559790fe12194b463d774430eb07762eaa3c7e8cb5d7cd660514afbfb7bd0a97458c8c32b998f1c4114cd2e1fe2831153fd13d54e93d01310"
+RPM_NAME = "samba-test-4.18.3+git.303.c08b73d523c-1.2.aarch64.rpm"
+RPM_HASH = "74e7fa8875f2ec9ad1e9769c3caf180028b702a944d2523299f2f1e504b6d9e3dd1be8f8a622e8fef274a76049421dd27cf1b7cbc70e84a1c00c3cd57409cfad"
 
 RPROVIDES:${PN} += "samba-test"
 
@@ -77,7 +77,7 @@ libsamba-debug-samba4.so \
 libsamba-errors.so.1 \
 libsamba-hostconfig.so.0 \
 libsamba-modules-samba4.so \
-libsamba-net.cpython-310-aarch64-linux-gnu-samba4.so \
+libsamba-net.cpython-311-aarch64-linux-gnu-samba4.so \
 libsamba-passdb.so.0 \
 libsamba-security-samba4.so \
 libsamba-sockets-samba4.so \

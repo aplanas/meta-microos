@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.5.0"
 
-RPM_NAME = "libxcam1-1.5.0-4.5.aarch64.rpm"
-RPM_HASH = "43a1fdc483bbdc3239ce90f791300f6a4c859f573f256ed6a8f588f6345957817234225232549ef970ad83e5231110c5e423cc0a55137e32c2b5fdc4a90131cb"
+RPM_NAME = "libxcam1-1.5.0-4.6.aarch64.rpm"
+RPM_HASH = "37a9c2120e4df303397ae8a352483a16c8a36a076e15dcc10a926cd2787e27dfbe718d5009cd7448eed1f8abec637d5fae327466bac1d2318bb8a1cc9528697c"
 
 RPROVIDES:${PN} += "gstreamer1 \
 libgstxcamfilter.so \

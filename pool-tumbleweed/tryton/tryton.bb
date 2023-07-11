@@ -8,11 +8,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.0.27"
 
-RPM_NAME = "tryton-6.0.27-1.1.noarch.rpm"
-RPM_HASH = "b3320f550bc712a9073849efc5d99d978036cebde075eacd70a3bd14cf3afdd27ef60dfcf2175e55e13f7efe49f3850db73ccc4509f29b1e579353514f3c958a"
+RPM_NAME = "tryton-6.0.27-1.2.noarch.rpm"
+RPM_HASH = "9134df1b2d8986417e0ce7ca47418ae005cb1697cc834b4f4ab9c4ca66cb3025ed0eff0119183116988c74649a6067f2f3a0cb25e815cb94da0c6ba762a3b835"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-tryton \
+RPROVIDES:${PN} += "python3.11dist-tryton \
 python3dist-tryton \
 tryton"
 

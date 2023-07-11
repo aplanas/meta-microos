@@ -6,10 +6,10 @@ videos. Its plug-in-based architecture means that new data types or \
 processing capabilities can be added simply by installing new plug-ins."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.3"
+PV = "1.22.4"
 
-RPM_NAME = "libgstphotography-1_0-0-1.22.3-1.1.aarch64.rpm"
-RPM_HASH = "5eab9356c61000fb3d2e72f0dc12827fbcda6ce6cc522b838677325c58735e112f49459db7dfb511f808507673eee52a46f59978e3caaf2734080a0c7ab463c4"
+RPM_NAME = "libgstphotography-1_0-0-1.22.4-1.1.aarch64.rpm"
+RPM_HASH = "9f442d4e4d2a247098dacbe5fc6ab4ff9ed5ba44dc48cff038a3267da0f2462a3ba2f493c4db081a38834940678dddb8e7ba0fa792543042f10272f5bf60c998"
 
 RPROVIDES:${PN} += "libgstphotography-1-0-0 \
 libgstphotography-1.0.so.0"

@@ -4,8 +4,8 @@ LICENSE = "CDDL-1.1 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "0~20140925"
 
-RPM_NAME = "xsom-javadoc-0~20140925-4.4.noarch.rpm"
-RPM_HASH = "21a0285f14e64057bbad880eb9d42baf78f4cba25ebdfe3109c51cfaf637c83068e371eb70f64459b04cadc78d58c0ecf415668501ea263ea2b67c5dd5fd2e0e"
+RPM_NAME = "xsom-javadoc-0~20140925-4.5.noarch.rpm"
+RPM_HASH = "e6679937b9446a64abf21ffb202dda2ed1aa7979aeb0ef011f2f68ff6fe925e811174d69599dadbb4578229137e491ed6c9673475fb338552952c51aa136073a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xsom-javadoc"

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.1.2"
 
-RPM_NAME = "cinema-1.1.2-1.24.aarch64.rpm"
-RPM_HASH = "8860012d78f27fc136d57425876cac3dcc563a56dd175207a9627b4ef8a27f08af4e9d411dbfea078e856ec592ecfcb01dd403cf8333cbe886dca9ce67622e40"
+RPM_NAME = "cinema-1.1.2-1.25.aarch64.rpm"
+RPM_HASH = "18896d343aa1d285805b90fce0cad768d37d2d28edfa6c59cfd744afb9834f443ccf7cb6ebc9f074e1f8d387f7185a086eeb1fa1a7b2880be84743b4dfcb1f0f"
 
 RPROVIDES:${PN} += "cinema"
 

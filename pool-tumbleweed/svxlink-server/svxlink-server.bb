@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.5.0"
 
-RPM_NAME = "svxlink-server-1.5.0-5.9.aarch64.rpm"
-RPM_HASH = "9a7eaf805e9166f08de06e5c09abac8c68acf192aeb345262b2f22982bf23ea5e3c3c59b642dc4cb7c1c10c2254fb4150e3cc6e63046f348e15beda29014a379"
+RPM_NAME = "svxlink-server-1.5.0-5.10.aarch64.rpm"
+RPM_HASH = "8f18f51090ae615ba6165699c0ca9633473ab02b7a7e727fb59648599e45a332beb9b8ca7a12f91d43a1aa168f0a945f1feeda818ed0c95506cd61901c040d1e"
 
 RPROVIDES:${PN} += "config-svxlink-server \
 svxlink-server"

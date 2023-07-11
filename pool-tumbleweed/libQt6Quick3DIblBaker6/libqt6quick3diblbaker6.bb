@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt6Quick3DIblBaker6-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "4c859ab4cb8f8a9e5c27e3587b08b6a1bce60ba8764809c9f1facb8560a65fe6f6ce18dc23cbe6bc745911d03adc5451f7daf6c33a0422d51189fee9cd0bca9c"
+RPM_NAME = "libQt6Quick3DIblBaker6-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "dc6a799d869d2d256b2d7d149e77a00a1c30e2eae17f6d1fb45a0bf692e8f6d425d734a67e93d39537bb4aa9386238baaa1849676493a74862c403014ea8694b"
 
 RPROVIDES:${PN} += "libQt6Quick3DIblBaker.so.6 \
 libQt6Quick3DIblBaker6"

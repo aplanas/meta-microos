@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "5.1.1"
 
-RPM_NAME = "python39-Flask-Security-Too-5.1.1-2.1.noarch.rpm"
-RPM_HASH = "d8f1f453bb608f7d81fa004e9f3c59e3535a7390b8f1f7868981a39dc165d710fa3a840ebbe658e5ab1747b9be0f1012df1e896f7efaee6cf181b9f4c2c6e605"
+RPM_NAME = "python39-Flask-Security-Too-5.1.1-2.3.noarch.rpm"
+RPM_HASH = "d10a200f3cd77fdd963e4c467f1588fc073a90f038123d8ec504da0d47a67e190c793030080bbf60302abc420e959d03d423550622b2bf0dc4d357c3dd1fef2a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-flask-security-too \

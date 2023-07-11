@@ -13,8 +13,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.0.6"
 
-RPM_NAME = "libaec0-1.0.6-1.7.aarch64.rpm"
-RPM_HASH = "2f214009ed0488e25383c7cb1331ab0178a986cc6385e51ee42896fd27f43f54ba0b3665cdade97c848a1132812ebc2694e605c44f38cee3cf095eada549b3aa"
+RPM_NAME = "libaec0-1.0.6-1.8.aarch64.rpm"
+RPM_HASH = "647af8adeaafb61fdf40f9828f214f36c394a25f275af9cc9d549d45f21f74bb95eceeea681c5808b4f4aa1a800ec42af696576643a95d849d65e19c82c0bb6e"
 
 RPROVIDES:${PN} += "libaec.so.0 \
 libaec0"

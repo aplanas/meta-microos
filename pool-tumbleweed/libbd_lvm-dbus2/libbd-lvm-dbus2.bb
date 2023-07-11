@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "2.28"
 
-RPM_NAME = "libbd_lvm-dbus2-2.28-1.4.aarch64.rpm"
-RPM_HASH = "6f45644ad22ee5d6feff81a044073b21a39a3f8213660215e8c89d66b812a3f82d994011e58e0009dd51e2ccada6dc0ad0866cdbc5d214aa4c3bd1095a6cbe2b"
+RPM_NAME = "libbd_lvm-dbus2-2.28-1.6.aarch64.rpm"
+RPM_HASH = "0d4594b2b4aa645baa1e9d24f3e48a5049aa48115f28f6ab84c1ca56c3f5122cdb5c3cd813cfe07669d17d204a14d52060ce6b72ebf566ef9871efe4da41ec95"
 
 RPROVIDES:${PN} += "config-libbd-lvm-dbus2 \
 libbd-lvm-dbus.so.2 \

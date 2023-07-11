@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.9"
 
-RPM_NAME = "alsa-utils-1.2.9-1.1.aarch64.rpm"
-RPM_HASH = "c0d52cee2e800bed983ca42cc6eed82695fb37bcf5b64cac260d608b7d1754fdc52abc55375c6ca438d932df40032e44a85470c930d1f764a82f49c63b0f3bc1"
+RPM_NAME = "alsa-utils-1.2.9-1.2.aarch64.rpm"
+RPM_HASH = "dc8442b90a24c89c508cd13196f11c5b6840c397c3189a73cf309a9ae011317a7890b5a9801907e1f682c860f93a608df7e7bfd8fbe92e160c12e8437b2d73be"
 
 RPROVIDES:${PN} += "alsa-utils \
 libalsatplg-module-nhlt.so"

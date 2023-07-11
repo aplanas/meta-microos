@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "44.1"
 
-RPM_NAME = "gdm-devel-44.1-1.1.aarch64.rpm"
-RPM_HASH = "980b8f6e96a3de740557445eebccf7c4be40fcbe33469dd6c58481aac7e6adbcc6b2e2fdb37dd7b96dcff2ca8e8abcc1d9c4fa24f8851a6704b3e4fda0d539a8"
+RPM_NAME = "gdm-devel-44.1-2.1.aarch64.rpm"
+RPM_HASH = "fbe9a3d11b98acc77314fa03e196ad2aa07d1d2b18b03d3cd2db33f7d016931cf82552bc92907c4992bec31a2fbcf84ba51532dd9dd0abff5b1aa100fa7f8c83"
 
 RPROVIDES:${PN} += "gdm-devel \
 pkgconfig-gdm \

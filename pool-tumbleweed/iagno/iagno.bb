@@ -10,8 +10,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.38.1"
 
-RPM_NAME = "iagno-3.38.1-2.12.aarch64.rpm"
-RPM_HASH = "4a7108dbcfab146b7fe3a325dfc98febbe5dd6d31f5ecf0d7d258eb76aa35cc48a6b7a619e2208b943830b50fd3df32b0d52f5328ddb08b717e4c3132557f203"
+RPM_NAME = "iagno-3.38.1-2.13.aarch64.rpm"
+RPM_HASH = "958a80c1c8a5cc9ed0cb7df344fb93d32d166bc90fbdc253d1f5eb21b68f5a377ac263c9d031b864ed66e554ad35256d23c4c67607981f83da461f80c2ae2192"
 
 RPROVIDES:${PN} += "iagno"
 

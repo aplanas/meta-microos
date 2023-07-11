@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "5.15.0"
 
-RPM_NAME = "libqsastime0-5.15.0-16.2.aarch64.rpm"
-RPM_HASH = "10a7b071b1ee30a580a3fec915d9eb97adf441b715d03a4b155eb4bc3f4fb65dee849aa7ebb68f303bc6cf192ea700db2dbb918f60c3409586dd64cf0a83f87f"
+RPM_NAME = "libqsastime0-5.15.0-17.1.aarch64.rpm"
+RPM_HASH = "e1f71ebb4b99237f384548f8f1d4ea60177cbd8ba3730f8287f9289ace6244d45426d0f90521666b907f95b6e4c03faae88e75a4826086eadb4d339db8800716"
 
 RPROVIDES:${PN} += "libqsastime.so.0 \
 libqsastime0"

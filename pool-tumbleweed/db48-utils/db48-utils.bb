@@ -4,12 +4,12 @@ database support for applications. \
  \
 This package contains the command line tools for managing Berkeley DB \
 databases."
-LICENSE = "Sleepycat"
+LICENSE = "BSD-3-Clause & Sleepycat"
 
 PV = "4.8.30"
 
-RPM_NAME = "db48-utils-4.8.30-41.1.aarch64.rpm"
-RPM_HASH = "077509e05e0c7af1545b66ec98fc4cb8c454cfe203da15583509a8e601ea79e134fed70ea822bedacc7bf79746ed5664b4d8720778859765cf082fcf768f74ba"
+RPM_NAME = "db48-utils-4.8.30-42.1.aarch64.rpm"
+RPM_HASH = "4a02d79103079e1e34e5d3f9736213e0a75a6911bb695f7182297f08d94c843acfdecacf4b75aef97b7359c3bc1808270a6496c5ed89b5a17fbdbf37774ef835"
 
 RPROVIDES:${PN} += "db-utils \
 db48-utils"

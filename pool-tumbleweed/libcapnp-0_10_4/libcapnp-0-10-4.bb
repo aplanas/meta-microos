@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "0.10.4"
 
-RPM_NAME = "libcapnp-0_10_4-0.10.4-1.1.aarch64.rpm"
-RPM_HASH = "4d60346802f8d3894a297b2f8a85d497de7206e43b903c9f82feb28fe05f7f1cd1e08a3fd918f67d978800b859a458ee8bf4ca9c4f713d942e9a3afccfc11e6d"
+RPM_NAME = "libcapnp-0_10_4-0.10.4-1.2.aarch64.rpm"
+RPM_HASH = "00b5d3b4f371aa8ce159805c88367cbd222eab7d7179cba731a33e92b5033d858e5e43b9c4e7f76fc933bf65ef220d573085173b8880fdb4f640f7078d3dffd2"
 
 RPROVIDES:${PN} += "libcapnp-0-10-4 \
 libcapnp-0.10.4.so \

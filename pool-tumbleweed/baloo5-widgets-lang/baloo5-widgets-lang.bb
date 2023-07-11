@@ -2,10 +2,10 @@ SUMMARY = "Translations for package baloo5-widgets"
 DESCRIPTION = "Provides translations for the 'baloo5-widgets' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & LGPL-3.0-only"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "baloo5-widgets-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "09064daaeb3c9721e5cbf1fc20764f45cdda0384396eb2a125291f8221d8a165cf50fbe507e6e8168fbcadefe7f0b21ceafcbbdfccbe90dbc7791eac24c874fc"
+RPM_NAME = "baloo5-widgets-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "bbff25a65241762d32eca7975e9bd0f6d37b7a34aca3304f452510cf0071fbd3a3a5533a036519e035a75f93f732ae9fc85fd8a719c60e2bae401ca171aeb0b1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "baloo5-widgets-lang \

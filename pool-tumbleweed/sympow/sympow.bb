@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.023.6"
 
-RPM_NAME = "sympow-2.023.6-1.11.aarch64.rpm"
-RPM_HASH = "3d75eb0d327f68e95e4e6232f2dcf8509b1202bc1c60fe7de6be0d960d150e97df3fe3a40d4be81e2a290ae8aa4e48370e5e4da74479744bfbfffedce603f03f"
+RPM_NAME = "sympow-2.023.6-1.12.aarch64.rpm"
+RPM_HASH = "fe41431b6e57e761ceb6bcf5e612f74c0606fd7566777fa3363d73cf257db65ecaadf5aa4a824cbd15d005f9e18a783156a70337dd320ab0060d3a5ac524460b"
 
 RPROVIDES:${PN} += "sympow"
 

@@ -3,10 +3,10 @@ DESCRIPTION = "Project V is a set of network tools for building a computer netwo
 It secures network connections and protects privacy."
 LICENSE = "MIT"
 
-PV = "5.2.0"
+PV = "5.7.0"
 
-RPM_NAME = "v2ray-core-5.2.0-2.3.aarch64.rpm"
-RPM_HASH = "aa92829f82164e5d6dd33f1453f631eb5b20fd210973cd123ca52cdaf0fddc5c477e3ea73f21df0c73790a34590b123c510a981a4daecf32f89e3820d02cd1c9"
+RPM_NAME = "v2ray-core-5.7.0-2.1.aarch64.rpm"
+RPM_HASH = "6cbd5e1a422ab58fdf7d9d49b31ae1659157e133565a2973f788b2361eda2e3ee0148fd95b1bea630a84e636112c5d783b217755db1d800b041c3d5820e6808b"
 
 RPROVIDES:${PN} += "v2ray \
 v2ray-core"

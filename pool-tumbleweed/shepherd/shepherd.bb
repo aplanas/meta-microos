@@ -10,8 +10,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.8.1"
 
-RPM_NAME = "shepherd-0.8.1-1.9.aarch64.rpm"
-RPM_HASH = "1ea0d385f6cc7c00d0e065effc4b9341cb0a668629a17ce932fd9ba6027e7c2a0516a133516574a00a1498c06074d051b316359f0e4ff813e6f95fb1c9ededae"
+RPM_NAME = "shepherd-0.8.1-1.10.aarch64.rpm"
+RPM_HASH = "f62cc9c9d949b2451b78a20d5f33cf1ad0c9e8cc5a29329be80caa200ff5d3149b743f45e470b2fd8cba783c062dba707f8a9e615da0fa9fc65ed2de93096160"
 
 RPROVIDES:${PN} += "shepherd"
 

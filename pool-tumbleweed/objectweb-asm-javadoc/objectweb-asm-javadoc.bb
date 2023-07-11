@@ -12,8 +12,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "9.5"
 
-RPM_NAME = "objectweb-asm-javadoc-9.5-1.1.noarch.rpm"
-RPM_HASH = "e22afae4bd1f9fb1e9637587938a2c6743d1877f098eef1694e9f54bbf79f398259297b2f14fa9080a1d02d0c782884d1c9ade97fbcf8ca325890c2af1ab5d88"
+RPM_NAME = "objectweb-asm-javadoc-9.5-1.2.noarch.rpm"
+RPM_HASH = "ff1447933ee180e292069014fa73fd95eeaa241e8f13415f5d419566aaae625382d50bb3451e54dde7856347befbb6ed6dbd16d5427a44f8d3ee2fd13407e075"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "objectweb-asm-javadoc"

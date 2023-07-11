@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.1"
 
-RPM_NAME = "picotool-1.1.1-1.3.aarch64.rpm"
-RPM_HASH = "47e0b3bcedb663af310cb1a65f8a88f98fa4109501a247400f89670e8a521c4d8c63f1d8b0f4cbefa7a6258148fb64945d76c8454f52eefbd4fc2bebb8fc98a2"
+RPM_NAME = "picotool-1.1.1-1.4.aarch64.rpm"
+RPM_HASH = "dab772bcab9b3b24ec87e79149af06aa18743ec93fdbde27742e2e2084ff9c5514f1d4923a29678489fbfcba3b2e2526c0992f73d264a562bfe53fea4495cae3"
 
 RPROVIDES:${PN} += "picotool"
 

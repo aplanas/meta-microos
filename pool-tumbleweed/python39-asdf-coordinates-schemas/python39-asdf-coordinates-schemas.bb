@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.0"
 
-RPM_NAME = "python39-asdf-coordinates-schemas-0.1.0-1.7.noarch.rpm"
-RPM_HASH = "2a6d3d74954fccf3f61d6802cfde7787805c8f74b9bb99d673b8a92b836523007a7061631fa6674060ed27217d00d7e6441c9d3b7b17d9c0888baf79eb3290f5"
+RPM_NAME = "python39-asdf-coordinates-schemas-0.1.0-1.9.noarch.rpm"
+RPM_HASH = "ea36fdabb5181347c05a988192988cce65971a8fec758e7d766f713941b6718910e04c273bb994a3729ee604199d3fdf841cc9907dd7183f7bba0ea883b2326d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-asdf-coordinates-schemas \

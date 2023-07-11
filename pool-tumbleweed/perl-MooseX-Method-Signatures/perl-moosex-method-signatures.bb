@@ -5,8 +5,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.49"
 
-RPM_NAME = "perl-MooseX-Method-Signatures-0.49-1.23.noarch.rpm"
-RPM_HASH = "f5dd5be27d816ee9af00547d2d238e7351491258a3fd5eb7edcbad98de8b23a0ef3e1eac4ff24dd2d2138ef12758a93318a822fc8cc478b7cbb2de13ed907ebe"
+RPM_NAME = "perl-MooseX-Method-Signatures-0.49-1.24.noarch.rpm"
+RPM_HASH = "34858831c63f1975fab3a5acae01d1e26f92e970b56818b2e1ea274431b987b6fa9ef254ed7a24d8dec1be3ca0d5364ded788aaac2b9019f6e85ce9675b031e0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooseX--Method--Signatures \
@@ -14,7 +14,7 @@ perl-MooseX--Method--Signatures--Meta--Method \
 perl-MooseX--Method--Signatures--Types \
 perl-MooseX-Method-Signatures"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-B--Hooks--EndOfScope \
 perl-Context--Preserve \
 perl-Devel--Declare \

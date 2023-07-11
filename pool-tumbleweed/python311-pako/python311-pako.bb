@@ -13,11 +13,12 @@ LICENSE = "Apache-2.0"
 
 PV = "0.3.1"
 
-RPM_NAME = "python311-pako-0.3.1-1.4.noarch.rpm"
-RPM_HASH = "2f540a7f917a369548039fab2821ff27f62ef0c17e52cdb2454ddb989473d32dae47942184889567daea6f11017d029a5eb8ced13644a0df74856891c809b86a"
+RPM_NAME = "python311-pako-0.3.1-1.5.noarch.rpm"
+RPM_HASH = "6b1713e3941e10eee5d02dda3b83b6c8fa94a890a53c67a5a7c5a5d12e3bf06fccfaff571f4d2496c7fc3b2336cebed604975ee5336c0828c801a71dd9a57bc4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pako \
+RPROVIDES:${PN} += "python3-pako \
+python3.11dist-pako \
 python311-pako \
 python3dist-pako"
 

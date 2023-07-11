@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "1.3.40"
 
-RPM_NAME = "GraphicsMagick-devel-1.3.40-2.3.aarch64.rpm"
-RPM_HASH = "3fb4c42861f17d737302476d4bf239224caa4a3ab2ea78de58cbbec6302e58a9c06e09231e02fcb5b4171a310e12bb12282b48d0bb618c95ae2479f78977c9c7"
+RPM_NAME = "GraphicsMagick-devel-1.3.40-2.4.aarch64.rpm"
+RPM_HASH = "e8b7fdedf0b248a14884857cec66da5b0d7dfd357c631e09ff07e350e95ce09336b889d26d0820dfe837611ab5f619c61f6c1f8a668dfcbc46044dda36f5ad17"
 
 RPROVIDES:${PN} += "GraphicsMagick-devel \
 pkgconfig-GraphicsMagick \

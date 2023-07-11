@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.0.0"
 
-RPM_NAME = "maven-file-management-3.0.0-3.8.noarch.rpm"
-RPM_HASH = "6238d81d22ba28e5ac7813909d1dcdc43c24ebbaeda4352afcce3a901244e39ea898c364229ba2eef9576fdbc8ef53e5f1e2e1eea16ff6c87835a0694f6888a0"
+RPM_NAME = "maven-file-management-3.0.0-3.9.noarch.rpm"
+RPM_HASH = "0ac2b93fd14bb43586786d04144cd04db1f7b6936c2e1732d45e25d4ef6b1e2238d9fca6d86c7fb2e34fdb32bf0aa8548639e9d2337a4c0591ed23dd3783242f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-file-management \

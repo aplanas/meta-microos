@@ -13,8 +13,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.1.55"
 
-RPM_NAME = "libyang-devel-2.1.55-1.1.aarch64.rpm"
-RPM_HASH = "feddf9a6c365bb105ee3b960d10fc7846bff22088cd61cd825a1235f541e57f4d80bb01ec64c09861912e4d4b70e8e4be9330b362e5433398128cb0c0b2e065c"
+RPM_NAME = "libyang-devel-2.1.55-1.2.aarch64.rpm"
+RPM_HASH = "89d6d58cdf56770b28082e3fd48e25c38242da9d066c6ad721c1e1d3c4015a97aea106cdec93edd389afae72407e04241a451a139c55cc1014196690e037b7ea"
 
 RPROVIDES:${PN} += "libyang-devel \
 pkgconfig-libyang"

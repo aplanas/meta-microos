@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.0.betasvn38932"
 
-RPM_NAME = "texlive-gitlog-doc-2023.201.0.0.0.betasvn38932-53.1.noarch.rpm"
-RPM_HASH = "d0005e19cd8fb11e7db290c374fb44aaa280cbbe112a70725d2e329de492af5ffef27b3470e08a081c82eb2950279cfb559c3b4f2ccbe9ae5a3ec910133c313e"
+RPM_NAME = "texlive-gitlog-doc-2023.201.0.0.0.betasvn38932-53.2.noarch.rpm"
+RPM_HASH = "21ca4ba4222d82d1e49971390a5c1fee5c1f09900511678f8131f7643ca9f6af74c0706bcb6533d2b9672d07005e90ac6cf1f4d9950a4787a875ead10af7c424"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gitlog-doc"

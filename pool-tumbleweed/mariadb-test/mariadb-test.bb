@@ -4,10 +4,10 @@ DESCRIPTION = "This package contains the test scripts and data for MariaDB. \
 To run the testsuite, run /usr/share/mysql-test/suse-test-run."
 LICENSE = "SUSE-GPL-2.0-with-FLOSS-exception"
 
-PV = "10.11.3"
+PV = "11.0.2"
 
-RPM_NAME = "mariadb-test-10.11.3-1.1.aarch64.rpm"
-RPM_HASH = "4d1f9f3a5f7e0c3e40bb9d7d580ef9fb64c7316860585dbf0d4dbe15b45b8fba3ccca816239e7cf3e0c058dd4afd9cac412fa3c1da918c265df32eba5de578ad"
+RPM_NAME = "mariadb-test-11.0.2-1.1.aarch64.rpm"
+RPM_HASH = "bd77c2945655b752af09cbe3fe5cdeb741711ab4293ba200a7f57ae83a5b62a4d658d1c039af8394f608ab8d95b94d1e5babbb4c86f9beac5e7e5f3de2e51947"
 
 RPROVIDES:${PN} += "mariadb-test \
 mysql-test \

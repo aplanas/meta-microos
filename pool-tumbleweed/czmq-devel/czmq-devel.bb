@@ -8,8 +8,8 @@ LICENSE = "MPL-2.0"
 
 PV = "4.2.1"
 
-RPM_NAME = "czmq-devel-4.2.1-1.8.aarch64.rpm"
-RPM_HASH = "a3b4d95cafbd897a98592eec1c537e8f0b4260ecd55c0ac0d5b9b662b95af99c6fb0d4415234eb1debfafc5fe790f4e7251745e11858b466c955fd65969110c3"
+RPM_NAME = "czmq-devel-4.2.1-1.9.aarch64.rpm"
+RPM_HASH = "e923537229517bd15333c741eb4243a298090b1a19dafed31ef5aa28b0d95b370f8d0ee15e26d0711d3d25dc77001203a99e461e423e833417f22f27ffd70cc7"
 
 RPROVIDES:${PN} += "czmq-devel \
 pkgconfig-libczmq"

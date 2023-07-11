@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.4"
 
-RPM_NAME = "python-acitoolkit-doc-applications-0.4-5.5.noarch.rpm"
-RPM_HASH = "6ecb514609a7b07eaf1228b8db993db1b1fd627bd4167c79ac6f65dad2856f27bf8078e5bc7194e901293415edb9deb095ae29d287f2e2e659397a6b80c02e19"
+RPM_NAME = "python-acitoolkit-doc-applications-0.4-6.1.noarch.rpm"
+RPM_HASH = "ed9e9ca92e63812be3ca83eb36ddaf4428845c93082899b291bb42329a2fa26dd713590773c0c6898b2dfee51edf0dfdf9ebb071a8f7664c4dfd320bd5febc2a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-acitoolkit-doc-applications"

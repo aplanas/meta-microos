@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.29.0"
 
-RPM_NAME = "python311-referencing-0.29.0-1.1.noarch.rpm"
-RPM_HASH = "da6ed3727da5ab84255c86d2d3fb8e4ef5c8a999c183afa71e2b5dae6a4c495a6881a1fb11b4431baebe72f73207ebe484e163d07ecf1f9942f6fe7816f052ef"
+RPM_NAME = "python311-referencing-0.29.0-1.3.noarch.rpm"
+RPM_HASH = "4bc4096de0276a04fff6bed7d8991b78a2c1c2784ac560b949c27f013c39f6b54df95e30bbf260e1ee5e5bc7c2fbfb017e6bee86d170a1ea8baddb9005c12870"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-referencing \
+RPROVIDES:${PN} += "python3-referencing \
+python3.11dist-referencing \
 python311-referencing \
 python3dist-referencing"
 

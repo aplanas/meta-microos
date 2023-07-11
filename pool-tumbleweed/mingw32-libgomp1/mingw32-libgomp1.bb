@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "12.2.0"
 
-RPM_NAME = "mingw32-libgomp1-12.2.0-2.1.aarch64.rpm"
-RPM_HASH = "7fe852bb3e5cc71e28acaf051b9d5afbc4f51d1a91cfba6ff573c4054fc0db3f9450419a0d74c8906ca9a609c35640bd5f4d82abb01f75fc057945e78c23d031"
+RPM_NAME = "mingw32-libgomp1-12.2.0-3.1.aarch64.rpm"
+RPM_HASH = "0771f45eee51e85a87f4a89eef5a4ab88e9f2fe3ca338c55bdfa457632db97e2d3d44bf3cad73f45a2e1b17865e7921cdb9e9442bed956a7e5106e48dff83cd3"
 
 RPROVIDES:${PN} += "mingw32-libgomp \
 mingw32-libgomp-1.dll \

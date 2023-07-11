@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.0.9"
 
-RPM_NAME = "system-group-audit-3.0.9-1.3.aarch64.rpm"
-RPM_HASH = "7b136f40f0e4fe8b58ef4a217a637fc5a49bc5f6c53e463b9443d7d0407ed572c46675c5bdcf0cc39b4e6e15eb1935ccba95779d463e6789a2f9d09054d91061"
+RPM_NAME = "system-group-audit-3.0.9-1.5.aarch64.rpm"
+RPM_HASH = "c0c4a0b055198949c933c045ce404de6db5a761e8e8e9de27916c73ee0c004129a8e9927d7f55268022d2c6cf3481a4a612a553e9d075e2f367e36b3f82f9772"
 
 RPROVIDES:${PN} += "group-audit \
 system-group-audit"

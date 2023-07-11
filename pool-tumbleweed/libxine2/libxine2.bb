@@ -21,8 +21,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.13"
 
-RPM_NAME = "libxine2-1.2.13-2.2.aarch64.rpm"
-RPM_HASH = "62f13a469919fa7d77ae7e361dbfcd4f614f475da08ada3e78e36df95242919f96e94885c56d111c1137cb70117af7212fafcaaae9824c252fd14e1f1f6c9e12"
+RPM_NAME = "libxine2-1.2.13-2.3.aarch64.rpm"
+RPM_HASH = "105c30ca2a28d98dac1f161023a3d8e63692af921f110eb71afccc2bd8b3fba6dc36d908fa1a6f07ac5a1432f30c89e4545e61e66a7bdd90ce3becf5788ee5be"
 
 RPROVIDES:${PN} += "libxine.so.2 \
 libxine2 \

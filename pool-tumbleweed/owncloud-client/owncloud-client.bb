@@ -15,10 +15,10 @@ flexible and controlled architecture. You can extend ownCloud \
 with plug-ins from the community, or that you build yourself."
 LICENSE = "GPL-2.0-only & GPL-3.0-only"
 
-PV = "3.2.0"
+PV = "4.1.0"
 
-RPM_NAME = "owncloud-client-3.2.0-2.3.aarch64.rpm"
-RPM_HASH = "498fdda4a8bb9c340018918a3b89e098601e58c2cdc38c417d549eca82dab16adec9ac94472d52f1c028105fe1e9530a47aab07780770f58fce357f4e85204c0"
+RPM_NAME = "owncloud-client-4.1.0-1.1.aarch64.rpm"
+RPM_HASH = "ef958411e7ca6ab51266160bede7ff8ea4454e9f21d0016b07b5848f606bb27a14a7e627e050cde798e58941bcb6030dbeb3385eec077e78c8957ebc1808cea8"
 
 RPROVIDES:${PN} += "config-owncloud-client \
 owncloud-client"
@@ -30,7 +30,6 @@ libQt5DBus.so.5 \
 libQt5Gui.so.5 \
 libQt5Network.so.5 \
 libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
 libc.so.6 \
 libcloudproviders.so.0 \
 libgio-2.0.so.0 \

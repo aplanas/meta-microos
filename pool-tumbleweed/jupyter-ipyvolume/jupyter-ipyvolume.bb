@@ -4,10 +4,10 @@ DESCRIPTION = "3d plotting for Python in the Jupyter notebook based on IPython w
 This package provides the jupyter notebook extension."
 LICENSE = "MIT"
 
-PV = "0.6.1"
+PV = "0.6.3"
 
-RPM_NAME = "jupyter-ipyvolume-0.6.1-1.3.noarch.rpm"
-RPM_HASH = "35d4922d6745d9c157eb98134fd15469582fb853943c32b23feb93913990d6f4ca279aa8aeddd89d1876d25cfe7a3a0e296f433ba0077bc652ea086f4a087a0e"
+RPM_NAME = "jupyter-ipyvolume-0.6.3-1.2.noarch.rpm"
+RPM_HASH = "492c3921226daa9ea5bf3a9a85765d8c8c4f92182b7414a2696f397e50b68671847543ab6292e6e0080c9afe04fa44be891b556e2974a16425fc2a1d50f551c1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-ipyvolume"

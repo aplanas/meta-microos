@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "2.0.1"
 
-RPM_NAME = "liblog4shib-devel-2.0.1-1.9.aarch64.rpm"
-RPM_HASH = "d5a60f827f1659449dd0f05e78170c8268796bbe6f8097803090b6590a1730d8bfcf05c7c7578c4fa193888329381726a390582e450de83bcc61ebec02161420"
+RPM_NAME = "liblog4shib-devel-2.0.1-1.10.aarch64.rpm"
+RPM_HASH = "97afe0f094a6c5da68f9bb9e953991d3913042c82d9945d1a6f034ca3475303e984b6a975af969df50af2032b5ad045cdbb44d1f5e3beacc758118a46f8d0926"
 
 RPROVIDES:${PN} += "liblog4shib-devel \
 log4shib-devel \

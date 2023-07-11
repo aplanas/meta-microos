@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.7.24"
 
-RPM_NAME = "libsolv-tools-0.7.24-1.1.aarch64.rpm"
-RPM_HASH = "13b84654c2ab6f4cd7e4339b6b9491c26012ffe7f50678ce17894cd2563c777e015b263cce688dd9f40e6b828bb5026e97e4e6f699120d4d3ce5982d6330d676"
+RPM_NAME = "libsolv-tools-0.7.24-1.3.aarch64.rpm"
+RPM_HASH = "51a38784b54223807a51444005756666626c0c683bc9fe4abe197d56024bc093b0fd421dce24c7e881f5ee362bcfb17827782140abde42df7ed46e0e7252c90a"
 
 RPROVIDES:${PN} += "libsolv-tools \
 satsolver-tools"

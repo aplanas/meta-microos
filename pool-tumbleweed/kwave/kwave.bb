@@ -8,10 +8,10 @@ wave-file in several ways and presents a graphical view with a complete zoom- \
 and scroll capability."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kwave-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "2fb55b01b502e07709614e32fb974a688e1826b32ca1c10408fc9211b83b961bc6d2a8df6ba4969592feb354e32cf1fef39b6a6a9b61a6461c971c7b0d48ac32"
+RPM_NAME = "kwave-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "8087a084f892df093f2cea82455ea680419a558ce9273e9e608e514137c704ea413c363f9da2f5b1afaf4bf2fba90a57102076b750f177baee7dd7e3301e00c0"
 
 RPROVIDES:${PN} += "kwave \
 libkwave.so.23 \

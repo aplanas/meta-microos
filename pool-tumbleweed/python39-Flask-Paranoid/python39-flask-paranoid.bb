@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "0.3.0"
 
-RPM_NAME = "python39-Flask-Paranoid-0.3.0-1.5.noarch.rpm"
-RPM_HASH = "0daa4252813f6becf4af37511ea23418a8e0089b7ebf4bcf68ef283ffe95a9dd6fc323a694ad39dbf881784d329c1bae9e96893972ac7bd62f0b9bd5dc31c5cb"
+RPM_NAME = "python39-Flask-Paranoid-0.3.0-1.7.noarch.rpm"
+RPM_HASH = "970e83d7a937f4473cbf3a8d5c72adf24ca25adfbcd05904723802f36e05e0272a67a358d110aeeb1772258b0a4545529d331b3f7c0fe2e3f4e2f891a9ab358a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-flask-paranoid \

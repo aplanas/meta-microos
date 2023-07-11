@@ -15,8 +15,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-or-later"
 
 PV = "0.13.1"
 
-RPM_NAME = "python39-pyFFTW-0.13.1-1.4.aarch64.rpm"
-RPM_HASH = "e2f32e30454be860cb2042b8bd1dc7f7b5900b7c4d7a36cbe1ad67ae11fbca9dac5343effe7af9e139bbf1391fadda26a9b425a3b6057e0be3b7878f2eb6da27"
+RPM_NAME = "python39-pyFFTW-0.13.1-1.6.aarch64.rpm"
+RPM_HASH = "daa682acf62eda77827783429df33615fb7e9cc6760418eca17aa81884d6e65be0bdc730ba9fb5e04770704b48d7eb302e4e181169678dcaf50949758d39feb7"
 
 RPROVIDES:${PN} += "python3.9dist-pyfftw \
 python39-pyFFTW \

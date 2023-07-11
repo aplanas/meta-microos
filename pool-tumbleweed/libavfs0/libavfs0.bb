@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.1.5"
 
-RPM_NAME = "libavfs0-1.1.5-1.2.aarch64.rpm"
-RPM_HASH = "a8fd485156b2ac76ad22f5b6e6589a79fde2b7555797f47c1f36d1cf4cc32569bb5e1b724c9990b8448094ebf959b310f1ef090a640d169bfe2b7abf0bcb9155"
+RPM_NAME = "libavfs0-1.1.5-1.3.aarch64.rpm"
+RPM_HASH = "559bcb0f7a364f697b09ff9dab68886247801da7a18954662e1db6eeafa2712df1c44601525643b953778d4e2fcb14da749e602870e8bf41ef27269fbd2b97b8"
 
 RPROVIDES:${PN} += "libavfs.so.0 \
 libavfs0"

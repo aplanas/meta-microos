@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.189"
 
-RPM_NAME = "elfutils-0.189-3.1.aarch64.rpm"
-RPM_HASH = "cc528036a532d4ad674a6865e37dac794d9b6796d786552bb8add23fc5e82913e37cad6acbf961d93c328b5ce3f30b2f6cd5af49656d40ecc65fb410cfd011b1"
+RPM_NAME = "elfutils-0.189-3.3.aarch64.rpm"
+RPM_HASH = "04f85a6a4d7214d8cb396e856e392af1799f7361def1ce9617186b5e69449f21b7a99b2bdf38dbb75f0bd85f3c41735c0aa6d1073374cab299abd9acc3642940"
 
 RPROVIDES:${PN} += "elfutils"
 

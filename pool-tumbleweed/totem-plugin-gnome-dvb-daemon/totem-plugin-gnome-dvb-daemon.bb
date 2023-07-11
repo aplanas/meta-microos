@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.2.90"
 
-RPM_NAME = "totem-plugin-gnome-dvb-daemon-0.2.90-4.10.aarch64.rpm"
-RPM_HASH = "b24f71157c743cb5238652943ed35dffc1e12fc3fb51c99b3e0d9dbfdc0517d0a6d3637bd5e8d90f8cd8acbf813ca75b97abfa9f9047d4582901b8725badacdb"
+RPM_NAME = "totem-plugin-gnome-dvb-daemon-0.2.90-4.11.aarch64.rpm"
+RPM_HASH = "26354cd6e0b009aef5462a40794e84c2a2e2409e107c1dff2e773318df88b6680cf6cb82833a2a55996c50ef262de2f73ab05fe1cf591230fe115a9603da5316"
 
 RPROVIDES:${PN} += "totem-plugin-gnome-dvb-daemon"
 

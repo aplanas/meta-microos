@@ -8,12 +8,10 @@ LICENSE = "SUSE-Matplotlib"
 
 PV = "3.6.3"
 
-RPM_NAME = "python310-matplotlib-3.6.3-2.1.aarch64.rpm"
-RPM_HASH = "b4ff3ea9d5c5f6cd937ec6ed73aae95ede938b8b1b8447ad509722dd78f2aad3732d55ad55a24495b30cec76634bb3929105e0c388e51222082b51380c8ff064"
+RPM_NAME = "python310-matplotlib-3.6.3-2.3.aarch64.rpm"
+RPM_HASH = "ebbfb675fbc5e40a871a9570a195c83d702763fbe9bb7fc66344f3173a0e3df6a54de90eb3a473754b3b5e78435635a1ed2d84c47d028f015a0cffff598c7009"
 
-RPROVIDES:${PN} += "python3-matplotlib \
-python3-matplotlib-gtk \
-python3.10dist-matplotlib \
+RPROVIDES:${PN} += "python3.10dist-matplotlib \
 python310-matplotlib \
 python310-matplotlib-gtk \
 python3dist-matplotlib"

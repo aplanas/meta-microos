@@ -13,8 +13,8 @@ LICENSE = "(CC-BY-SA-3.0 | CC-BY-SA-4.0) & GPL-3.0-or-later"
 
 PV = "1.14"
 
-RPM_NAME = "flare-1.14-1.3.aarch64.rpm"
-RPM_HASH = "acec35639f9d07d0f60cc19f9aa8bbff8111323450036c1a18887d6e199e90220109b853ff4d90b0c7040bfafe137184071d477308287ef381bbcd41dce772e4"
+RPM_NAME = "flare-1.14-1.4.aarch64.rpm"
+RPM_HASH = "f2f3c180b929aa70707d7e7c279a405c0a22da3b134605a9d7d73a36ddc118adc6a897c04a154108638eca13ca13adfaf739b6b5e04fa56e5743b96cde4822ee"
 
 RPROVIDES:${PN} += "flare \
 flare-engine"

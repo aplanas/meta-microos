@@ -8,8 +8,8 @@ LICENSE = "BSD-2-Clause-Patent"
 
 PV = "202302"
 
-RPM_NAME = "qemu-ovmf-ia32-202302-2.2.noarch.rpm"
-RPM_HASH = "3b16ea1fa991519d5773c09794f6f854e8745028cde625a5de28dad8e4e849c26dbfcee37f66ba183731772d678dc16fb9eea26cb6af2768f7038041183d9977"
+RPM_NAME = "qemu-ovmf-ia32-202302-3.1.noarch.rpm"
+RPM_HASH = "98027acf7db79ae8299edc43f288078f146ac595a4b19b295b3f11b712993ce7fa735df2c13c6fd7175c6401afb93d672b8fafd98c7f54493b3387e19f9b29f3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qemu-ovmf-ia32"

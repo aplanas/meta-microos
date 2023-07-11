@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "2.4.4"
 
-RPM_NAME = "xplayer-2.4.4-1.3.aarch64.rpm"
-RPM_HASH = "1ed1baad44c623fcc6db8b4b74f5c4c13e755ba56d14a557c5d23b7459389fd94a0bc4020fcf4223a4b2d5b85b068582ca02d3943df3601cd43d44d3c528f3ce"
+RPM_NAME = "xplayer-2.4.4-1.4.aarch64.rpm"
+RPM_HASH = "f34f24eeadd15b4ddb2933a9a2f7dae3b477e47ee4f65781790a5d066d3a46c2beaa640fb9a1f0966cb77a645cb5c37cf2c16ddf04e2617b71b7409923cfc57a"
 
 RPROVIDES:${PN} += "libxplayer.so.0 \
 typelib-Xplayer \

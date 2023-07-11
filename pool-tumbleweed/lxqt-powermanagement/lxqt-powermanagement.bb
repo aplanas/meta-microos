@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.3.0"
 
-RPM_NAME = "lxqt-powermanagement-1.3.0-1.3.aarch64.rpm"
-RPM_HASH = "26565742afb212b9c278089de515af4778c0bd189d968f294ed5c274203c7ac6013e28498a75923dd522bd46de69ea62071e466e12ec73c6af4732f8a26717c9"
+RPM_NAME = "lxqt-powermanagement-1.3.0-1.4.aarch64.rpm"
+RPM_HASH = "74c985255db122b2d238c0c42917d22fea29f76a87c57e5574fed87a08960058ca1d205aa6c7943cfada1a4ddbfb9610d481db404d1467f395913806fbe19b0d"
 
 RPROVIDES:${PN} += "config-lxqt-powermanagement \
 lxqt-powermanagement"

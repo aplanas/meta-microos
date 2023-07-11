@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.9.6"
 
-RPM_NAME = "libtpms0-0.9.6-1.3.aarch64.rpm"
-RPM_HASH = "d14d19ae6f274d92b75fa42f5dab59269b412efb91e95d5809bb5382c0a0dcc4462a4e6dbc9bddc97893f44eccf425100a96537e32f97fc60ab7edab05f47dbc"
+RPM_NAME = "libtpms0-0.9.6-1.4.aarch64.rpm"
+RPM_HASH = "725af968e870ced2c2d457e8d3233de2d529fd5386105203f0d5fbf054bd59ac096ae88ce94b1b1b9b0d634b06e2c3191b0831f103135d55c566f02c1c08e417"
 
 RPROVIDES:${PN} += "libtpms.so.0 \
 libtpms0"

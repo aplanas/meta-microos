@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.6.3"
 
-RPM_NAME = "libexempi-devel-2.6.3-1.3.aarch64.rpm"
-RPM_HASH = "5e79f866afe9182ff6ed319713a75ad8e5694587d989689a95c76081761834512c5637f9b1b4243f21cae0c448bcfd3d2795bf8405b9630dd57084830579cc0e"
+RPM_NAME = "libexempi-devel-2.6.3-1.4.aarch64.rpm"
+RPM_HASH = "060f02198bab6fc0dbce1d2ced545b6617f24a01ef4d75173946114c4fc22012a0778037b3e99dc5aa45e079be082b0beb914701c4dab52eec76ee9b6986f64b"
 
 RPROVIDES:${PN} += "libexempi-devel \
 pkgconfig-exempi-2.0"

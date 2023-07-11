@@ -12,11 +12,10 @@ LICENSE = "Python-2.0 & ZPL-2.1"
 
 PV = "2.6"
 
-RPM_NAME = "python310-zodbpickle-2.6-1.5.aarch64.rpm"
-RPM_HASH = "0dece52754f5414270c116ac61d1d774ebf227cc977d5dec099d764e2482623bf674816e62e9a48ce6bce4b067682207d33417beb5a28008e838662cb9f43b1f"
+RPM_NAME = "python310-zodbpickle-2.6-1.7.aarch64.rpm"
+RPM_HASH = "471a15efccc4bc96eb212c4ffbf6cbbc60c38740e96affe2eef248a8f2c2cc0b6ae5c7738d6802e06022014f3401177fd6556c37b01d76b7118e865c9d88fa10"
 
-RPROVIDES:${PN} += "python3-zodbpickle \
-python3.10dist-zodbpickle \
+RPROVIDES:${PN} += "python3.10dist-zodbpickle \
 python310-zodbpickle \
 python3dist-zodbpickle"
 

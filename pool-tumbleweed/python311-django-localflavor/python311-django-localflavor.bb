@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.0"
 
-RPM_NAME = "python311-django-localflavor-4.0-1.1.noarch.rpm"
-RPM_HASH = "bb29e7fc22d4aec5e7c2ee99839b15d9a9e3b84e96b22a66480e956072987ed0431c0698cc1c354df4ec5d341b551c8c8271ce1e0bb4e71b646f121b058a13a7"
+RPM_NAME = "python311-django-localflavor-4.0-1.3.noarch.rpm"
+RPM_HASH = "eb48f7c452d675df22c823ed4d2435974c8e7fbcf3775078899708372d46f60c1d7158f4f5f7d73ff14d2f0f0cabc1e20f60e8f9266bcf021fb1d514955913c8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-django-localflavor \
+RPROVIDES:${PN} += "python3-django-localflavor \
+python3.11dist-django-localflavor \
 python311-django-localflavor \
 python3dist-django-localflavor"
 

@@ -19,8 +19,8 @@ LICENSE = "GPL-3.0"
 
 PV = "0.8.4"
 
-RPM_NAME = "cardpeek-0.8.4-5.16.aarch64.rpm"
-RPM_HASH = "c96153cdd6cf7ee802e3a149c0f5bd5d6f9104a7adf2289b0724bcb9566e34fc9adbdebfa5aaac96347fb98e8c9a9884d017604811fb748de84b43e3fc118a26"
+RPM_NAME = "cardpeek-0.8.4-5.17.aarch64.rpm"
+RPM_HASH = "27566aa3e46285fa089e37a6fef426ed9b2318a924e923e4b3f919dac3ee04e5455d97ebed901edcb0c8d9695d9e68e7d3a6be10c960401aa0f578928d8aaa0f"
 
 RPROVIDES:${PN} += "cardpeek"
 

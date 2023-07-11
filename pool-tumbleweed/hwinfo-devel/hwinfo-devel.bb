@@ -3,10 +3,10 @@ DESCRIPTION = "This library collects information about the hardware installed on
 system."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "22.2"
+PV = "23.1"
 
-RPM_NAME = "hwinfo-devel-22.2-1.3.aarch64.rpm"
-RPM_HASH = "1ef60d134ed44352c8c3fb91e3a304d060b29c85874b732cd761fe619560e733d10309721742492c9cd67f35e4e5e052e47231827ff58ac65fd2f6d490adfd4b"
+RPM_NAME = "hwinfo-devel-23.1-1.1.aarch64.rpm"
+RPM_HASH = "11cd59623b658557c2049f9534dc6617867d06665f58344587f669598028bc9153f97f500f3eb4d18d475a926902efbefa307fcbb446c803e534c2d14b10fb95"
 
 RPROVIDES:${PN} += "hwinfo-devel \
 libhddev \
@@ -17,7 +17,7 @@ RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libexpat-devel \
-libhd22 \
+libhd23 \
 perl-XML-Parser \
 perl-XML-Writer \
 udev \

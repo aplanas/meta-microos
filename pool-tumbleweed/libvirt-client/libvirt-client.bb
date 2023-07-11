@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "9.4.0"
 
-RPM_NAME = "libvirt-client-9.4.0-1.1.aarch64.rpm"
-RPM_HASH = "d28c8faa98961f21a708ef042623d16a40b4addc35913b378034f66c0064da67afea80a1165416013b5f08b485ca415f2e9a486051ab6d228fbe60e4828dfc5b"
+RPM_NAME = "libvirt-client-9.4.0-3.1.aarch64.rpm"
+RPM_HASH = "6f9b642f0a9cd6c0a2317ac17bb239c1766f4ce7dcd417b0d6ad252f82ee6d5852e0536a1517e29f4d14587f04209e70c3235a0f5bda8f5d9865b67dd6b96580"
 
 RPROVIDES:${PN} += "libvirt-client"
 

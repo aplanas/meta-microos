@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.11.0"
 
-RPM_NAME = "google-errorprone-parent-2.11.0-2.1.noarch.rpm"
-RPM_HASH = "e918b0d5bd35f5be1d1385994fba5e4ea54d76b1d565e667a0ebbc3d3e75cb2a0c4a8aad8ca24021664f4cc2151b3773f2ce0e07fa5db2cdedfc263705fa0123"
+RPM_NAME = "google-errorprone-parent-2.11.0-2.2.noarch.rpm"
+RPM_HASH = "70582e521b1b181e949e8d3eae2ca782931818c2900e6e0cc0f315d342a3f36b643b43ca2e52268d821b58bb286450126a9737a6de47b5cd4bab2657879b0ca3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-errorprone-parent \

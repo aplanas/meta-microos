@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.15"
 
-RPM_NAME = "ima-inspect-0.15-1.1.aarch64.rpm"
-RPM_HASH = "51d1670face6e0192f1c151696d57920ed842be44fa7b2222fb3ecd6e68584d8d684d5ad3a33db70b75e169fc21e5a766360376eda8757578b9a5280de8ee27b"
+RPM_NAME = "ima-inspect-0.15-1.2.aarch64.rpm"
+RPM_HASH = "236716c814dc8ac465a8a71a7b6d54430fed5e5b2d93a275e3deb2cb7e2bcce363534b415d9eee98352c1ef9440804674ef4514eb459c193548eb1307c4b2ebb"
 
 RPROVIDES:${PN} += "ima-inspect"
 

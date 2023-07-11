@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
 PV = "3.3+git0.39e0cf712"
 
-RPM_NAME = "nfs-ganesha-ceph-3.3+git0.39e0cf712-5.8.aarch64.rpm"
-RPM_HASH = "7dae87c11868c29b121357e032d07359bed2decfbc1bb4ea480c9ea96306bc1603d109e3b8601688913e50538a493702f3b58d34af780884b5fb9c2272e60538"
+RPM_NAME = "nfs-ganesha-ceph-3.3+git0.39e0cf712-5.9.aarch64.rpm"
+RPM_HASH = "a02b941b63f73f46b9c500b2e36e9af497ad4d67806ea4a88e8dfde6624d14ebc0e274d50c45ead0c8743fd1ead6387c91f0c9bbbffb63d8c625159fde5be0a4"
 
 RPROVIDES:${PN} += "config-nfs-ganesha-ceph \
 libfsalceph.so \

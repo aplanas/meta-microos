@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "0.14.7"
 
-RPM_NAME = "colm-devel-0.14.7-2.4.aarch64.rpm"
-RPM_HASH = "613417928235a5afb27ded221f7108123b3e32d27dfcb558d29b0cf0683e7fa15c895446f89dc9928c1b2f23785775cc89358170f9185443bcbb3eb1c2467603"
+RPM_NAME = "colm-devel-0.14.7-2.5.aarch64.rpm"
+RPM_HASH = "632f2de4a08dc5fcc2901dde5b9edb9b70ce531cd1bfd5e25d32604dd398ff7112a6304c7d3de8ba861ebd58ffa7c79a8309064c4c27c3905d22dc646433cf5a"
 
 RPROVIDES:${PN} += "colm-devel \
 ragel-devel"

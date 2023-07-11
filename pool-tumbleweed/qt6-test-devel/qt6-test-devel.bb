@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-test-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "dcf6dbad98ddc5e4046bb93c15d2d168625c72dd905d662a868bb0e2892847ef40bb9117cd399d43c24584f5f26614f4562e30093cf288102fdb068ee49a4f8a"
+RPM_NAME = "qt6-test-devel-6.5.1-3.1.aarch64.rpm"
+RPM_HASH = "e09e8b5d6f70f17f1ef7c17dfe58bc8c16c2eb8aad659e3964377c985fc0db1c5bdcbdb56ec0aa0f41c4a568068ec8ba869d8a69ff0730d5050cc31c4b9a0204"
 
 RPROVIDES:${PN} += "cmake-Qt6Test \
 pkgconfig-Qt6Test \

@@ -6,8 +6,8 @@ LICENSE = "NetCDF"
 
 PV = "4.5.3"
 
-RPM_NAME = "libnetcdf-fortran-gnu-hpc-4.5.3-4.5.aarch64.rpm"
-RPM_HASH = "61064d4c0f42cc2be386233ccbd047f8c0579d4c00733e3c9f922b871175ce8309c79193d11879e2d3d73f5a5e00db961897647a9826ee42c72141c56ad82b59"
+RPM_NAME = "libnetcdf-fortran-gnu-hpc-4.5.3-4.6.aarch64.rpm"
+RPM_HASH = "ff517298e271ca6c589522baebd66069f087f7a06c1fe89762054e0052fd5a0eccb9f2edd3314f9da9ec6baad8bf3bb7b758c411f756505e477b32f967dc732a"
 
 RPROVIDES:${PN} += "libnetcdf-fortran-gnu-hpc"
 

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "22.11.2"
 
-RPM_NAME = "timeshift-lang-22.11.2-1.3.noarch.rpm"
-RPM_HASH = "48e927460a0e89b53f12703f6da6f7bf7f87a820c6533030a7daa487aa1ad68d03e72c83299fff332fc0b7c5a67740cca69f484d94f9c46dc5798a448bc29684"
+RPM_NAME = "timeshift-lang-22.11.2-1.4.noarch.rpm"
+RPM_HASH = "2962fda17abbf7ee60a4b2d0d58f0f94ca1ed03188b2fc8eecc084e857e7c7befdd4e8057a648d377629d1c9ac73917a297391dc9a12e09879cbff0a5032221e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-timeshift-ar \

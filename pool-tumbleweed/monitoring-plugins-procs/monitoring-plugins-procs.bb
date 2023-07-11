@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
 PV = "2.3.1"
 
-RPM_NAME = "monitoring-plugins-procs-2.3.1-9.4.aarch64.rpm"
-RPM_HASH = "589b6f5dfd4f7de9996f9225d06c7304e69b62a0bc3dbafb9b821d367746c49253f86d1bd14766097f58ee13ec735f2a9b352d0398ecea8b22af420cc7fc14eb"
+RPM_NAME = "monitoring-plugins-procs-2.3.1-9.5.aarch64.rpm"
+RPM_HASH = "7e70d5ad87fade95482f014fb62301677f626bf68907fabeb0137d8b90e7c72e9677030ddf3e4a033e1d5362e343cea02af6ca9c81f1213d74fa1ff593bd217f"
 
 RPROVIDES:${PN} += "config-monitoring-plugins-procs \
 monitoring-plugins-procs \

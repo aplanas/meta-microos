@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "4.4.0"
 
-RPM_NAME = "python39-sphinx-click-4.4.0-2.1.noarch.rpm"
-RPM_HASH = "bb0501d1bb0e43edae47bd200b329db646317828bbe63e23800f14238762f96c7e2fcd30de07213d2e1bba0e38e2e28c5a36a5a6e52f2778393e3dead78e6035"
+RPM_NAME = "python39-sphinx-click-4.4.0-2.2.noarch.rpm"
+RPM_HASH = "758466dadd2192ab4996facb3a73481432d1e00ed33e825cb3433a0a0d393eb3d96e5fb1987ce187723e4a85d62a13584e94b22cf5c520beae04a4ed12693803"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sphinx-click \

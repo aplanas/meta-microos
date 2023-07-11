@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.9.0"
 
-RPM_NAME = "python310-jupyter-server-fileid-0.9.0-1.1.noarch.rpm"
-RPM_HASH = "f3df782d09c25d0b6cb82f4f7223b4372a758955a9f53ada2e72c59f30f3424e7ce2bc019c946ddcdb9db72142289b4dd4cfd3c0059bedd80cd418b06c2a9c9b"
+RPM_NAME = "python310-jupyter-server-fileid-0.9.0-1.2.noarch.rpm"
+RPM_HASH = "cc06e9a8821b1c07427952918451fd4441028df34fc7518d8b4ab974254910ac39bdf118cc8d9aed0f032918c47ea3c2dcffabae3879d5cb5c31424492aea629"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-jupyter-server-fileid \
-python3.10dist-jupyter-server-fileid \
+RPROVIDES:${PN} += "python3.10dist-jupyter-server-fileid \
 python310-jupyter-server-fileid \
 python3dist-jupyter-server-fileid"
 

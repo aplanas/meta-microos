@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.3.1"
 
-RPM_NAME = "python39-qet_tb_generator-1.3.1-1.4.noarch.rpm"
-RPM_HASH = "a74f13d295102c615d678e0e5bcc7c4463b69b7c81c794244434020fe1acd140a2d1bab5bcf8cff022e4817f94c7b46f566c9296a8fafa6dddba7d92e8b9c57a"
+RPM_NAME = "python39-qet_tb_generator-1.3.1-1.6.noarch.rpm"
+RPM_HASH = "d9682e0caa50a7492c2d18f2bdd32ba51c4022a3143303fe93d23e52f9c55ffd4485d6c192b64758d43a0e78ac3937710437293c89779ba8af721832320df8c3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-qet-tb-generator \

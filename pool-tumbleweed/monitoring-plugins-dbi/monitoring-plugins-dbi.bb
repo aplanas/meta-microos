@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
 PV = "2.3.1"
 
-RPM_NAME = "monitoring-plugins-dbi-2.3.1-9.4.aarch64.rpm"
-RPM_HASH = "aef6e5f2da153447e379954154c8af34c579b71e64b6c493d8e439bd50808c46aab77932f6a69795e0da53f0180dde36158a4117bf5849b843a8f12f250dfc5a"
+RPM_NAME = "monitoring-plugins-dbi-2.3.1-9.5.aarch64.rpm"
+RPM_HASH = "ab8b38e984163fc8ea9690441d590285f010f19b6c193d647853fe88ec5f03eb60f036d2314c571e536807e9eedef30f4991f4822402d8d21aeee28e4fdd7aef"
 
 RPROVIDES:${PN} += "monitoring-plugins-dbi \
 nagios-plugins-dbi"

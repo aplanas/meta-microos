@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.15.6"
 
-RPM_NAME = "folks-lang-0.15.6-1.1.noarch.rpm"
-RPM_HASH = "56634a6a68323cafa97799aa519a7aab7769d4eeebec43b743600178f8c9763bade1bca356809fe7de102000a23bb2264eb7f66ddc70c71947a77c0ad78d4c77"
+RPM_NAME = "folks-lang-0.15.6-1.2.noarch.rpm"
+RPM_HASH = "236cc3ef1d7e782226a8888aa05f1fd776d7c2b507ffb84a7d2da90a585fc7a6dd4ee2d68d16f5d35e363a69e7a29973b67fc95e7766918ad990ce5830e25599"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "folks-lang \

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.6.1"
 
-RPM_NAME = "abook-lang-0.6.1-3.13.noarch.rpm"
-RPM_HASH = "7c9c611d4b787eed418f66788376b4c1a5c18979270ad8c26a8fbd4db29a83b231252bf29aa634fb0ce2e5a19bf04935dd1f8162b5c2ea0b07a0440bef3090a6"
+RPM_NAME = "abook-lang-0.6.1-3.14.noarch.rpm"
+RPM_HASH = "5b1e4b233c5dabcdac2f828b797702b3cc99744a65d1e4d4252bf2980a9ec18614af4635dffad652ce0086143c8392854cf840d8efffe0b93d842cc447e5b2b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "abook-lang \

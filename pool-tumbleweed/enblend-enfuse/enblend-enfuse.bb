@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.2"
 
-RPM_NAME = "enblend-enfuse-4.2-6.14.aarch64.rpm"
-RPM_HASH = "957692bb26b491f822178bbe4ffda7589dcb8ba5b09d883cf470be48d4cf3bd8b7ce8d7d54c4bdcf3da2dd916ed86409da6000c5b7ecc9a6f0efcb8917726a44"
+RPM_NAME = "enblend-enfuse-4.2-6.15.aarch64.rpm"
+RPM_HASH = "dd2d56b47375b75a5d7ef5a75738799176c306df6e6963c6b8568bc99bb340320cb797411fb0da4793590aaf7324320492f739069d29725e6485d97639692f60"
 
 RPROVIDES:${PN} += "enblend \
 enblend-enfuse \

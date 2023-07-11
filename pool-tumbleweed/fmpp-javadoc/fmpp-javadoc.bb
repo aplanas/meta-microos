@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.9.16"
 
-RPM_NAME = "fmpp-javadoc-0.9.16-2.10.noarch.rpm"
-RPM_HASH = "004c2499a7cd2cf7a5f97b019747f50fb996a9d4eba3e2f7d2c1247e46346f57c5ff6e26fe96075d24c9132af68e87e5e21d3352e5a8449ded006ea520d19c2a"
+RPM_NAME = "fmpp-javadoc-0.9.16-2.11.noarch.rpm"
+RPM_HASH = "b0580cfa7871616ccc94a5b14b3c475a9aeb90b57dcf4e6fdb3fe85f7eac2633ee629bd5e87dcfb7c033815c87c8a1e91725177f1538e782e045ee13ef3c317c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fmpp-javadoc"

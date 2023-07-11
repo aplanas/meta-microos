@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.1.8"
 
-RPM_NAME = "python39-cwcwidth-0.1.8-1.5.aarch64.rpm"
-RPM_HASH = "72bf1710680d01c61a00e81743d5dea571b6e66db60e5193133061b927060075460a351c0bccdc4bbc99625af12cdb1b868e0c7f15cc1b18d1f440eccf7ef949"
+RPM_NAME = "python39-cwcwidth-0.1.8-1.7.aarch64.rpm"
+RPM_HASH = "a4249bda932ebffb3c6aa90d9ad442f137c3bda835901cf803f38e7a2a2a8bf405f775665982cea7141c479e7beeaf6c7efe58d2664b1ab7f9e691b8ecbf0f9e"
 
 RPROVIDES:${PN} += "python3.9dist-cwcwidth \
 python39-cwcwidth \

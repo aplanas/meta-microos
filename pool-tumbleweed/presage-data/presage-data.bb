@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.9.1"
 
-RPM_NAME = "presage-data-0.9.1-13.1.aarch64.rpm"
-RPM_HASH = "0c25fcbc23fa17e1e75cea1ede303aabe2be04a6beceeeaae9d89f309893c32271eecf91d981704a9ba6f3cd90861824d8944c594e8a3d937aaa1c6b6b28fe60"
+RPM_NAME = "presage-data-0.9.1-13.2.aarch64.rpm"
+RPM_HASH = "335b21fcf0627aaa8cda50d3b413e00d8741d1e5ae21b4e7a5f3f204ea0aff30f19c4767d8d23dc78042a6af097a12bc092946b5a1e9e39da5a2f2c420f0a07a"
 
 RPROVIDES:${PN} += "config-presage-data \
 libpresage-data \

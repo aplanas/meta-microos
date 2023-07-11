@@ -13,8 +13,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2023.5.5"
 
-RPM_NAME = "python39-regex-2023.5.5-1.1.aarch64.rpm"
-RPM_HASH = "272c04f84de982f1c375e16f390fea5acdc0862688e0f151176f30ed7ffe7bb1d0734054e18f9bff505c80322b3ef4d734f4ff3db52d772ef82419e9fdf56107"
+RPM_NAME = "python39-regex-2023.5.5-1.2.aarch64.rpm"
+RPM_HASH = "628a0df4803bcb1b4ed9032691261effcfc8b028a0ac382d9fc62b4d09a6a7247a366ac5ffd1412df5230dc2197a2c0ce224d56f8e823a31d5bac1140730393d"
 
 RPROVIDES:${PN} += "python3.9dist-regex \
 python39-regex \

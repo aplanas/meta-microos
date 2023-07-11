@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only-with-Linux-syscall-note & GPL-2.0-or-later"
 
 PV = "3.22.6.0"
 
-RPM_NAME = "inotify-tools-doc-3.22.6.0-1.4.noarch.rpm"
-RPM_HASH = "692c24e7c45a9ef2f9de6ba41f58205c383169803137a1e836bdbc7822aa9bf2e117fc51ac80f67568d29c169b5e3cd86ddfc296f0af5b5f99d073edd4254b1b"
+RPM_NAME = "inotify-tools-doc-3.22.6.0-1.5.noarch.rpm"
+RPM_HASH = "5e09c0027f258e47b549e6ebf2f9558a6df0a92c11297783701b84585bc90f97010ab0fa879c00779869e78356285c5ee4eb8551e596b156896e8d4cc5e948e6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "inotify-tools-doc"

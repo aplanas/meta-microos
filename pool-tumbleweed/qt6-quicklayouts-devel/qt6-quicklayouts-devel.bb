@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-quicklayouts-devel-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "d56742f1490acfa352ac802a5c7447b46e4e734d31642224c77c652f23dce93eafec90b33c3a0aef2253b4a767a4f25a6afbc15b672b62e00abde61fa628b4b5"
+RPM_NAME = "qt6-quicklayouts-devel-6.5.1-1.3.aarch64.rpm"
+RPM_HASH = "cfa07b9df4d8546bf58720d450a6c96dc7b573619dea44c57d6a871052e49fb8a84b9cfe355d7475593bbf42c75e00d83adde7f41f6a8c0ba980c5e92cbfb43e"
 
 RPROVIDES:${PN} += "cmake-Qt6QuickLayouts \
 pkgconfig-Qt6QuickLayouts \

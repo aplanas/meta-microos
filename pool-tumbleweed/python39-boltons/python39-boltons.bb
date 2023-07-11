@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "21.0.0"
 
-RPM_NAME = "python39-boltons-21.0.0-2.3.noarch.rpm"
-RPM_HASH = "1d2e2b32dbc2051077588fa730467faa7018051a46aad89ae2746711946c9971aabf7727da487b70721a48f2cd43c6e8037d73f83f6bd6923adb85afa2b1d7ab"
+RPM_NAME = "python39-boltons-21.0.0-2.5.noarch.rpm"
+RPM_HASH = "02cae51ce255a67dc432ed75987e13b3092329ca1c60d2ed7abcb25bad498440616fcdb369b89283d49ca31165310f5b53a5957fdbab28d0aff35549546e1b77"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-boltons \

@@ -9,8 +9,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.005_bsvn19705"
 
-RPM_NAME = "texlive-electrum-2023.201.1.005_bsvn19705-53.1.noarch.rpm"
-RPM_HASH = "946b79985263ed44adf8bb745bfa02d98f62810f815b8f7e60d14196dbd7d7a5855a30d6333b8bc2ee5819ffa81511019bf79175b4885da08244d2f7ea949869"
+RPM_NAME = "texlive-electrum-2023.201.1.005_bsvn19705-53.2.noarch.rpm"
+RPM_HASH = "cc31d5a076cb6aceffac271b0bd27f260e4bfe10c450145436fca30fd8ae7324eb87f43ddaefda25b45df9fe63ca9bac07af07a59c23b745bb47a5fe36984623"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-electrum.sty \

@@ -16,11 +16,12 @@ LICENSE = "MIT"
 
 PV = "0.2"
 
-RPM_NAME = "python311-jsonref-0.2-1.14.noarch.rpm"
-RPM_HASH = "020572e0a78376730852787211313aa1ac0964538f6c54931cf36f67f70fb253afcf950dc8b642bb4d4e7723273c60e32baeac0a05882a4883a5c5a3c2d2f65f"
+RPM_NAME = "python311-jsonref-0.2-1.16.noarch.rpm"
+RPM_HASH = "178c0419fa84ce121c8be9d051ac51f1c948630cc74525aca73da9cde3fd379f1709f3f0dd419caa8f26ad2d40653306180cd8c23e8b856aac20c429a54930ea"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-jsonref \
+RPROVIDES:${PN} += "python3-jsonref \
+python3.11dist-jsonref \
 python311-jsonref \
 python3dist-jsonref"
 

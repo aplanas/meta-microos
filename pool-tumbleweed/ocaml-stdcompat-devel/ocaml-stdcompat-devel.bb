@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "19"
 
-RPM_NAME = "ocaml-stdcompat-devel-19-2.4.aarch64.rpm"
-RPM_HASH = "bbec8de01ff0cac61ed30a7c0b2d5f6d3c1fdd834b329c4252c5932aa8f799345ffdf833ebd2685bc95a419a91a0f908f1acd819875367849c2e9cc8f122eeba"
+RPM_NAME = "ocaml-stdcompat-devel-19-2.5.aarch64.rpm"
+RPM_HASH = "e08e6267a33592ae6f0356385caf932d76e79d5265c01859ee720fe05a897a2d08e94e99557731eb76fa04a78b9f310ca88dce4ab5225d9c53b7f09df050a854"
 
 RPROVIDES:${PN} += "ocaml-Stdcompat \
 ocaml-Stdcompat--arg \

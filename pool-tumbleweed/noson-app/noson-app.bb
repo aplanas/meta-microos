@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.4.0"
 
-RPM_NAME = "noson-app-5.4.0-1.3.aarch64.rpm"
-RPM_HASH = "0916aad35e0ab7a0069fc20fa701fb81e52a85341a4aadd641fe5972c79533752c420f162eb8c1e0acf0ef98f9a7d26ecf8e4c544dbf0e723c5c2a6a52e47e08"
+RPM_NAME = "noson-app-5.4.0-1.4.aarch64.rpm"
+RPM_HASH = "2db6b5c4e69210448a5a78c93f9c805123b300ec8addcee87d9ebe34c9e08609dbb348f58ecb07da7f0805a44d7ab4f722643d1186f19721a14856e5b265cae3"
 
 RPROVIDES:${PN} += "libNosonApp.so \
 libNosonMediaScanner.so \

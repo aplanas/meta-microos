@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20230603"
 
-RPM_NAME = "libfsext-tools-20230603-1.1.aarch64.rpm"
-RPM_HASH = "80b0b9db38d886074b1f1a9f03a613afade22d9524fc4686e2919358fb883e5007f73cdfb6a03fa5ba0d20284431ba6492b2387c873ac1a47effc6905128f881"
+RPM_NAME = "libfsext-tools-20230603-1.4.aarch64.rpm"
+RPM_HASH = "4e2ed4f63aec8f086ba2abf6e30ca6c02e4aaed410576262fe7eced1f42780df89a2fe1a4b887e499bb347c0fd2cb3d558cc06d7a575ced800ec4caf642b4dc8"
 
 RPROVIDES:${PN} += "libfsext-tools"
 

@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-only-with-WxWindows-exception-3.1"
 
 PV = "3.6.5"
 
-RPM_NAME = "OpenSceneGraph-plugin-gstreamer-3.6.5-8.6.aarch64.rpm"
-RPM_HASH = "03bac1173a2ada823ae8ccfb9057fe2accd3de1dbe66f710867a148583fa42d66904ba969ed4e541371b47d03728465bba17ba7179bf375c0fbb79882f85c032"
+RPM_NAME = "OpenSceneGraph-plugin-gstreamer-3.6.5-8.7.aarch64.rpm"
+RPM_HASH = "0c31fffba90668a4e324ce1036803c69a3f1d2d83a86f59f7923c9a168594729b2509e6d9c7ce651b727fde625a5b2b185de5d2541ae30eee1cf9f684f2182f1"
 
 RPROVIDES:${PN} += "OpenSceneGraph-plugin-gstreamer \
 OpenSceneGraph-plugins-/usr/lib64/osgPlugins-3.6.5/osgdb-gstreamer.so \

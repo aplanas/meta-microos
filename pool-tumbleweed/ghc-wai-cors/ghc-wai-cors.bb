@@ -6,11 +6,11 @@ LICENSE = "MIT"
 
 PV = "0.2.7"
 
-RPM_NAME = "ghc-wai-cors-0.2.7-1.2.aarch64.rpm"
-RPM_HASH = "b88a528490a0c9e3536274031c3697a5e7131dd8e1458fb9c9e6a75fb2543ce2a2330e58117cd94ac35b261340577c6b81ab17a734c167f65967dc02b4a98e59"
+RPM_NAME = "ghc-wai-cors-0.2.7-1.3.aarch64.rpm"
+RPM_HASH = "318b1dc447f480906edb996bf00099b937d39d1403457b19f67cd6e624eba9f30c248fcfc010d3a7ea687eb0e40da1a82e98cee6f43b44fdcdfe0737e963f6b2"
 
 RPROVIDES:${PN} += "ghc-wai-cors \
-libHSwai-cors-0.2.7-CSepwpjFO1f9DnlkYc71mV-ghc9.4.5.so"
+libHSwai-cors-0.2.7-837xDMoVzk8L5Mw3yyuBT9-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
 libHSattoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3-ghc9.4.5.so \
@@ -31,7 +31,7 @@ libHShashable-1.4.2.0-FFBRhuY0w4YLmuLEs5uQAt-ghc9.4.5.so \
 libHShttp-types-0.12.3-4BrMFwRucoT4fBt8cCVFS6-ghc9.4.5.so \
 libHSinteger-logarithms-1.0.3.1-Hm9v2fsfG1DA5soPSLssZu-ghc9.4.5.so \
 libHSmtl-2.2.2-ghc9.4.5.so \
-libHSnetwork-3.1.2.8-HNDBp0HF6t0D1fzE2MDtPd-ghc9.4.5.so \
+libHSnetwork-3.1.4.0-FvtFepOtuCUH79FCWyNxIc-ghc9.4.5.so \
 libHSpretty-1.1.3.6-ghc9.4.5.so \
 libHSprimitive-0.7.4.0-AeB0oysC3TAJw9tDpuX8hq-ghc9.4.5.so \
 libHSscientific-0.3.7.0-D5F2vql7x79Dy9hx72OES1-ghc9.4.5.so \
@@ -42,7 +42,7 @@ libHStransformers-0.5.6.2-ghc9.4.5.so \
 libHSunix-2.7.3-ghc9.4.5.so \
 libHSunordered-containers-0.2.19.1-KblUXVJ0SvRCcK89PoBx7E-ghc9.4.5.so \
 libHSvault-0.3.1.5-1nJxIV9kR8e5L3ZIpYZHc-ghc9.4.5.so \
-libHSwai-3.2.3-LsLg4DRwusRI7b3SRdjDzn-ghc9.4.5.so \
+libHSwai-3.2.3-B6oJGZed88IFIvDpwN5I7x-ghc9.4.5.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

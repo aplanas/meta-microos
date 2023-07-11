@@ -11,8 +11,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "14.0.0"
 
-RPM_NAME = "trilinos-devel-14.0.0-1.1.aarch64.rpm"
-RPM_HASH = "7c8f9ba6bfe630f079a3977eca0932a0b86e2730dd91f8bcbb8fb736f07661ee52068bd68e388f6384ecce96f27d0b1414c2de6fa3e3c88bc625439889b46b8f"
+RPM_NAME = "trilinos-devel-14.0.0-1.2.aarch64.rpm"
+RPM_HASH = "27038259e5d310021b39266f192aef874f16d06e473912ca462960d39d7a39e2026ebd4117ee8069d8c346a11ecf27a4865abc0597d1e5740c355a7e3df95a46"
 
 RPROVIDES:${PN} += "cmake-Amesos \
 cmake-Amesos2 \

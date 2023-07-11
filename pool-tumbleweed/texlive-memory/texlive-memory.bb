@@ -3,10 +3,10 @@ DESCRIPTION = "The package allows the user to declare single object or array \
 containers."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn30452"
+PV = "2023.208.1.2svn30452"
 
-RPM_NAME = "texlive-memory-2023.201.1.2svn30452-52.1.noarch.rpm"
-RPM_HASH = "c4228f29374c761aac866c6aac3fc7ac86323ee156a113cc9f19f102118e23e907d991683cd2493f177cc6b2748be5519991f9be7b6539abb1f5e788a9d57e7c"
+RPM_NAME = "texlive-memory-2023.208.1.2svn30452-53.1.noarch.rpm"
+RPM_HASH = "4e0bb57e3ca5ab08566298aa70b566a4b7578b92385ce1318f3f194a636590cd98a3d31d2982f69c5ef42d132cd99509084cab23d392feb1c0a2a5a5778305f6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-memory.sty \

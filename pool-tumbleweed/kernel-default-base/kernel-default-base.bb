@@ -2,8 +2,8 @@ SUMMARY = "The Standard Kernel - base modules"
 DESCRIPTION = "The standard kernel for both uniprocessor and multiprocessor systems. \
  \
  \
-Source Timestamp: 2023-05-29 06:22:29 +0000 \
-GIT Revision: 2c66b1f470678d30f7dc560d1f3770e6e13b5e65 \
+Source Timestamp: 2023-06-22 03:53:43 +0000 \
+GIT Revision: 0df701dd2c208f4843cf219b4b26b533ada9bd34 \
 GIT Branch: stable \
 This package contains only the base modules, required in all installs. \
  \
@@ -12,19 +12,21 @@ kernel-default-devel, sources in kernel-source, and \
 debug information in kernel-default-debuginfo."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.3.4"
+PV = "6.3.9"
 
-RPM_NAME = "kernel-default-base-6.3.4-1.1.27.5.aarch64.rpm"
-RPM_HASH = "9114e091d8aa1d47351e2d6fe9b757972b8b5af9c638b966e9c1ac46c350c4aa769101e389c96e12aa083d763ec1dbf01d1c96a3a77e5d8571bb278222fa9273"
+RPM_NAME = "kernel-default-base-6.3.9-1.1.28.1.aarch64.rpm"
+RPM_HASH = "66c74bb394870bd6817cd8b2fefa8ea3d759fc5171a68f805a7ecb66997ef78946b0fbb7ab16ee0472f85ec1530cb048436117a2472090221e162031eef07d19"
 
 RPROVIDES:${PN} += "kernel \
 kernel-base \
 kernel-default \
-kernel-default-6.3.4-1 \
+kernel-default-6.3.9-1 \
 kernel-default-aarch64 \
 kernel-default-base \
-kernel-default-base-srchash-2c66b1f470678d30f7dc560d1f3770e6e13b5e65 \
-kernel-srchash-2c66b1f470678d30f7dc560d1f3770e6e13b5e65 \
+kernel-default-base-srchash-0df701dd2c208f4843cf219b4b26b533ada9bd34 \
+kernel-preempt \
+kernel-preempt-aarch64 \
+kernel-srchash-0df701dd2c208f4843cf219b4b26b533ada9bd34 \
 kernel-uname-r \
 kmod-8139cp.ko \
 kmod-8139too.ko \
@@ -683,6 +685,7 @@ kmod-pretimeout-noop.ko \
 kmod-processor.ko \
 kmod-psmouse.ko \
 kmod-pstore.ko \
+kmod-ptp-kvm.ko \
 kmod-ptp.ko \
 kmod-public-key.ko \
 kmod-pwc-rzv2m.ko \

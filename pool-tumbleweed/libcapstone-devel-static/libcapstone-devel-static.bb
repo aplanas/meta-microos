@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.0.2"
 
-RPM_NAME = "libcapstone-devel-static-4.0.2-2.3.aarch64.rpm"
-RPM_HASH = "abe5cca61643af1d7c15eacbff0b72454b46ca9fd83d3a61c933494737d52cbc0e0941b9fb6e2d1c6f7eb0b239f8d488f388b11af5d3a2a769856ea3bb6eafff"
+RPM_NAME = "libcapstone-devel-static-4.0.2-2.4.aarch64.rpm"
+RPM_HASH = "230753ef8663886e4fee6c5cb68b5e7ec0e9309d5c5d28c25d7a076ea1d685d7b57bb84be608afe03cf99d54952828dfbb99ea271f5deca1391786ab0acfe2e4"
 
 RPROVIDES:${PN} += "libcapstone-devel-static"
 

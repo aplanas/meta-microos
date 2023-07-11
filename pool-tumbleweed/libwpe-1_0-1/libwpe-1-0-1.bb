@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.14.0"
 
-RPM_NAME = "libwpe-1_0-1-1.14.0-1.2.aarch64.rpm"
-RPM_HASH = "6d782d89861118150af5cee7747047e58f9295bc1730e165ccd140defd17a12078542c2bd2fb70f87c198abb4a8781042555d540dfce2a41a2915221f9b0a704"
+RPM_NAME = "libwpe-1_0-1-1.14.0-1.3.aarch64.rpm"
+RPM_HASH = "ea4b9d3573ad25dbf129815ae0e7d0b1b41dd0ad38bfd2075ed94cd30ebc4f5bcb47772487335b0ad65797b26f459ed1748afcf3cf9087c92ab60efe8768718a"
 
 RPROVIDES:${PN} += "libwpe-1-0-1 \
 libwpe-1.0.so.1"

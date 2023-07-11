@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0"
 
 PV = "1.4.6"
 
-RPM_NAME = "clicfs-1.4.6-7.28.aarch64.rpm"
-RPM_HASH = "fc3975063c67aab62b6a064b1fbcdc2b6ec6fc3f5dfcd833b2616bfbc23c60b21bfdc1aaca89990ff46c53d376f5352bb6579cc2d7b4f2cf7008659d3602d076"
+RPM_NAME = "clicfs-1.4.6-7.29.aarch64.rpm"
+RPM_HASH = "65bc47a4decde6a4ec21b353e8a5987753f5d00e369cd7ef59e088ebf15c839eb5f8e91af29e89ee0af5b071368fab24ec62d545a1012434c14ac8fbb1fbad70"
 
 RPROVIDES:${PN} += "clicfs"
 

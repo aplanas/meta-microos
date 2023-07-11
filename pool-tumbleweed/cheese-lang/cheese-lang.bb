@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "44.0.1"
 
-RPM_NAME = "cheese-lang-44.0.1-1.1.noarch.rpm"
-RPM_HASH = "6d8de199201354f5514f70789fc7b6dd9a013304df8da6d9178059a9e2d691dab840a353907474a8c17ad7984b7542d1bf66af9218458049daf027c9f3faac88"
+RPM_NAME = "cheese-lang-44.0.1-1.2.noarch.rpm"
+RPM_HASH = "de888d3c5548a9be47f3367854b4b30ecd788a98e64d3e32487012897489f8ab30593dc38efe382bb07c4bfb2dc6c3f98a314ac0a12367154858c5b6f2c0601f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cheese-lang \

@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "1.0.0.0"
 
-RPM_NAME = "python311-azure-mgmt-serialconsole-1.0.0.0-1.3.noarch.rpm"
-RPM_HASH = "883099c8693051efe5e4f0339a9a647b0f9dafb30f57618fe55b0017c28321af72f5089e2f687c340cdf3915d1cbc9c1c022d456b5e5d25abb29e2b9b469fea6"
+RPM_NAME = "python311-azure-mgmt-serialconsole-1.0.0.0-1.4.noarch.rpm"
+RPM_HASH = "562bf682166f71480baa3c95d33bff3333eb122039eeec1d97f35f12ac496617308dba046d931580d312c9fac4854c4057649d57a529ed8be4866ddbdbf0596a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-serialconsole \
+RPROVIDES:${PN} += "python3-azure-mgmt-serialconsole \
+python3.11dist-azure-mgmt-serialconsole \
 python311-azure-mgmt-serialconsole \
 python3dist-azure-mgmt-serialconsole"
 

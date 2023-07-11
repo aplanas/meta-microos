@@ -4,10 +4,10 @@ digital negatives in a database and can show them through a zoomable \
 lighttable. It also enables developing raw images and enhance them."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.2.1"
+PV = "4.4.0"
 
-RPM_NAME = "darktable-4.2.1-1.4.aarch64.rpm"
-RPM_HASH = "707d34fb4e1911b73946913a7220bb25cca805ae55041a507e5c53066a597d029274d226514db5672a805f864597cc418124a00702db7b357f74d03c3afbfb93"
+RPM_NAME = "darktable-4.4.0-1.2.aarch64.rpm"
+RPM_HASH = "1975aa0f9962034a75820c475f97fb564b9bf806bc48ef11718aa36121cd320582dc43612610816df3ea35074f8eaa56f8cec294050813424c4b5094eecfa15d"
 
 RPROVIDES:${PN} += "darktable \
 darktable-docs \
@@ -185,7 +185,7 @@ libcolord-gtk.so.1 \
 libcolord.so.2 \
 libcups.so.2 \
 libcurl.so.4 \
-libexiv2.so.27 \
+libexiv2.so.28 \
 libgcc-s.so.1 \
 libgdk-3.so.0 \
 libgdk-pixbuf-2.0.so.0 \
@@ -218,7 +218,6 @@ libportmidi.so.2 \
 libpugixml.so.1 \
 librsvg-2.so.2 \
 libsecret-1.so.0 \
-libsoup-2.4.so.1 \
 libsqlite3.so.0 \
 libstdc++.so.6 \
 libtiff.so.6 \

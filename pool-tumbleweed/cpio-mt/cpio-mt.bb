@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.13"
 
-RPM_NAME = "cpio-mt-2.13-5.3.aarch64.rpm"
-RPM_HASH = "e45a5717878af02508302706b64bbfae1fca5de6fa57635ffa8a20eb8ed451162749dac1eba9562e56da12df4296a7bf0567bdba3a4bc8a720e3e2f8cdc8bdd7"
+RPM_NAME = "cpio-mt-2.13-5.5.aarch64.rpm"
+RPM_HASH = "0f329fd05151b0a7b80f3797ab1249f9e1d5f4df8f1dc3ff8d2bf431f0816d461556652a2bf0c8c622cce0e94efdf637d9ceb416f5cb9d9bad7e5abb482465f5"
 
 RPROVIDES:${PN} += "cpio-mt \
 mt"

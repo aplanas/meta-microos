@@ -5,10 +5,10 @@ SOAP extension can be used to write SOAP Servers and Clients. It \
 supports subsets of SOAP 1.1, SOAP 1.2 and WSDL 1.1 specifications."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.1.19"
+PV = "8.2.7"
 
-RPM_NAME = "php8-soap-8.1.19-2.2.aarch64.rpm"
-RPM_HASH = "3ee45cd9d999d94430b691c9ef1475f85883ef728268969bc98163b2c313ac225f7ceff1f53f72c424ccd5e60da5f4aae024be73edfdac9ab44855a2266adcda"
+RPM_NAME = "php8-soap-8.2.7-1.1.aarch64.rpm"
+RPM_HASH = "a034524319d5bf584071894d58d91fc14422a34dd2d94ae1605af5751c878d29f7c54fa3dc73a5343a4e42afa31f9807feec8c4070c8b85b96cbc3a6201e83e4"
 
 RPROVIDES:${PN} += "config-php8-soap \
 php-soap \

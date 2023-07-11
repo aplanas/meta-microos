@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.81"
 
-RPM_NAME = "chealpix-devel-3.81-1.7.aarch64.rpm"
-RPM_HASH = "7e3063b0cc0a7c24e47ca62208186f426cddd312dac28ab3ce0d717598eb3e7feba9130ec3c3af0666cb197e787d7af71f1da1ec01eeb9392b5f0eb20161f5d1"
+RPM_NAME = "chealpix-devel-3.81-1.8.aarch64.rpm"
+RPM_HASH = "9059e4d285295a229511cfdb3a563271deb1760b4a8fb69bfdec5191d47e3f2c029b502c7fc52f2168215e9b081e61821e6511650caf83ee7e177a0ab8ac102d"
 
 RPROVIDES:${PN} += "chealpix-devel \
 pkgconfig-chealpix"

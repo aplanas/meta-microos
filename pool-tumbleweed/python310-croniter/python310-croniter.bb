@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.3.15"
 
-RPM_NAME = "python310-croniter-1.3.15-1.1.noarch.rpm"
-RPM_HASH = "7e14a84b1ce35f993227d31ecf6b470e8c469aa9bbf8f9f05b735658a2af990134332de389526111ff4f9143774ed7ef4a0ea8f63378fd743c9135d2ed6fb47e"
+RPM_NAME = "python310-croniter-1.3.15-2.1.noarch.rpm"
+RPM_HASH = "04e06b5d791f987d2544a7bfb7f42e9c27440a1c21dec2a40bc78768d6240bc8f6a3dbc9eeac5630523927762f0bae30b9d02986fd466baea063b01cdd203ba9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-croniter \
-python3.10dist-croniter \
+RPROVIDES:${PN} += "python3.10dist-croniter \
 python310-croniter \
 python3dist-croniter"
 

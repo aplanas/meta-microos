@@ -10,8 +10,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.20.0"
 
-RPM_NAME = "libgpgme-devel-1.20.0-1.1.aarch64.rpm"
-RPM_HASH = "38a5b9105103dfb578f89256286268ff5b574f2db30a28ab8c05d6d38538a93e62b7a1ce22f8864c18de691fd818e1d29260cec57d973988692b5b265a8d426d"
+RPM_NAME = "libgpgme-devel-1.20.0-1.3.aarch64.rpm"
+RPM_HASH = "72bf3a1b199520ee2bb05c49b4419ca41e223e3ae6115f7ce16ec6f3d48a1cc55394106b9a0f96eb1452e8079b654ac9fa44168b5b8bc69bcc6643f13df5efb8"
 
 RPROVIDES:${PN} += "gpgme-devel \
 libgpgme-devel \

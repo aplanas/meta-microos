@@ -5,10 +5,10 @@ This package contains base tools, like string, xml, and network \
 handling."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libqt5-qtgraphicaleffects-5.15.9+kde0-1.1.aarch64.rpm"
-RPM_HASH = "0bb43f64ab7e4f9b2d39346f2c8061fe32e013d13156b04fecd6601057ce9837c12b7862657868b73d891e224c8810c6e2a418eb36bc070c58e7405d60022854"
+RPM_NAME = "libqt5-qtgraphicaleffects-5.15.10+kde0-1.1.aarch64.rpm"
+RPM_HASH = "c5d3c074d2232cda07284e111db6e3a77077869bf1bfd141e48b537f8081fa4e3c3bfd78d0f9c7f2d8c1742bfb44ba52a8cc323e9b30d446db60948299ea5510"
 
 RPROVIDES:${PN} += "libqt5-qtgraphicaleffects \
 libqtgraphicaleffectsplugin.so \

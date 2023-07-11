@@ -3,10 +3,10 @@ DESCRIPTION = "You can create an initrd for MicroOS installation. Useful, for ex
 up a UML or XEN environment."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "17.87"
+PV = "17.89"
 
-RPM_NAME = "install-initrd-MicroOS-17.87-1.9.aarch64.rpm"
-RPM_HASH = "b715dcdbbbd74e0ad1289722266269e7d0415c8f2d52b35a0413d8daf91ab1aee95f72b74c170ea448ad9cffc775ff2efe7e15ac571c0f453ab54fe2725d9396"
+RPM_NAME = "install-initrd-MicroOS-17.89-1.31.aarch64.rpm"
+RPM_HASH = "ee7565f3dbcfc1afca081784b881b51fc19e9b1ae3d6d7f5f120b1344aa0355fe18d78a2714e20a43be200e55d82ed0d641810bf79328b5b2f28dff2d8a1d596"
 
 RPROVIDES:${PN} += "install-initrd \
 install-initrd-MicroOS"

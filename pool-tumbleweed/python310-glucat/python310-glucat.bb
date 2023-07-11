@@ -8,11 +8,10 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "0.12.0"
 
-RPM_NAME = "python310-glucat-0.12.0-3.4.aarch64.rpm"
-RPM_HASH = "a52b0ac89d5712203caa5fcde46c66a924c93143a7d54217bb91e320423ac1ddb590c29c2b073cea8f2b47216fc8f2baf90540fe4f42af426bca45b8e5c9e345"
+RPM_NAME = "python310-glucat-0.12.0-3.6.aarch64.rpm"
+RPM_HASH = "636646be72c06b72e7bac2d2728d7d6b2ddebbeb0c9b381a4efe5680f070ce9bdd56afda49400d1b9024a2a4753aad6ecf7a073a8e47454419c267af25338ab5"
 
-RPROVIDES:${PN} += "python3-glucat \
-python310-glucat"
+RPROVIDES:${PN} += "python310-glucat"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \

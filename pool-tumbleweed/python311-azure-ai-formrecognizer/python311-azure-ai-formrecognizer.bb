@@ -12,11 +12,12 @@ LICENSE = "MIT"
 
 PV = "3.2.1"
 
-RPM_NAME = "python311-azure-ai-formrecognizer-3.2.1-1.2.noarch.rpm"
-RPM_HASH = "4ad44addae976c58c0bc35047d3fbee01be4bc2938fa580b7c670d3a244e4860a16f6dae1b5cc6008d3411064cebd6ee7173055d3e742b3c9219ca49193c9783"
+RPM_NAME = "python311-azure-ai-formrecognizer-3.2.1-1.3.noarch.rpm"
+RPM_HASH = "ff196f38b5c82b4c92bbfc694984fbc142635d14d5269bea9390e3cb374b27e26fd170972fd03553341a16467319dcfa3369d2bf5a71dbd0b240e0dedb86d6ad"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-ai-formrecognizer \
+RPROVIDES:${PN} += "python3-azure-ai-formrecognizer \
+python3.11dist-azure-ai-formrecognizer \
 python311-azure-ai-formrecognizer \
 python3dist-azure-ai-formrecognizer"
 

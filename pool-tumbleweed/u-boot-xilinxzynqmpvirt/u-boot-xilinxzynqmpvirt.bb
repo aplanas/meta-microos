@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2023.04"
 
-RPM_NAME = "u-boot-xilinxzynqmpvirt-2023.04-2.1.aarch64.rpm"
-RPM_HASH = "0d5da690a36edd6ee35944816339c8fec80ad38d80157359e1f569b3fb2e87d69ac81cd1a4180a017bb06ac148ffbcb5fa6a78b9d2f5664e3fc93ef6c170e0b4"
+RPM_NAME = "u-boot-xilinxzynqmpvirt-2023.04-2.2.aarch64.rpm"
+RPM_HASH = "6235224b8d60b0a076d4418392b3ac8ed8675c9ff57be9f339a78b4952c00c6f4b233eac0f0ad32a39da232ca971ff7a01e825aebb807f183598e361f493b1e6"
 
 RPROVIDES:${PN} += "u-boot-loader \
 u-boot-xilinxzynqmpgeneric \

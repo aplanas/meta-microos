@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later & LGPL-3.0-or-later"
 
 PV = "1.3.0"
 
-RPM_NAME = "e-antic-devel-1.3.0-1.5.aarch64.rpm"
-RPM_HASH = "e78dd79803368216c29b174a7efdee3eb0d61c4a61c4cd671304b42282aa7436dfe052623253e31f8e96355f81e2fa851a398d98105296de2464f8cf7f8a5c8f"
+RPM_NAME = "e-antic-devel-1.3.0-1.6.aarch64.rpm"
+RPM_HASH = "6d89d4961b3be1cd89895a3d9d60b600901dd6e5c0daa6f78a60a96eb5e934df97f83e9e5dd4e60a1a152e6e79b6160d934bb566b359264496a7d7b0e59006ab"
 
 RPROVIDES:${PN} += "e-antic-devel"
 

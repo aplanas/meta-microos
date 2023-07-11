@@ -7,10 +7,11 @@ LICENSE = "Apache-2.0"
 
 PV = "6.0.4"
 
-RPM_NAME = "python311-multidict-6.0.4-2.1.aarch64.rpm"
-RPM_HASH = "9a863b184212bcc1c9aaa14de71a2d747663edb6fecd124897c6508ac295d19309be24c697a51b5faad4f3a523384e53528ea05dd2d383d823a365336d597e81"
+RPM_NAME = "python311-multidict-6.0.4-2.3.aarch64.rpm"
+RPM_HASH = "9c89502d4b121bc1e9c73ce4d318799dc38001999312d7da2a14942050d90bb73989bb2e516afa8356afa9110cc46f021a9360d06d39416905189b3c0e376bab"
 
-RPROVIDES:${PN} += "python3.11dist-multidict \
+RPROVIDES:${PN} += "python3-multidict \
+python3.11dist-multidict \
 python311-multidict \
 python3dist-multidict"
 

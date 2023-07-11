@@ -8,8 +8,8 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "1.3.1"
 
-RPM_NAME = "python39-deap-1.3.1-4.6.aarch64.rpm"
-RPM_HASH = "289f7057f448f59e2b1f5e9e4b92ffaa5da959990bc073a3e087c7f764d6fc45b5a3bde914428fb27e33d0dbd3e8d610d71bb15784cbe86c703f39a4940993ca"
+RPM_NAME = "python39-deap-1.3.1-4.8.aarch64.rpm"
+RPM_HASH = "3286223222dc34d9cfa193212128de07f3b584b4b8b2dbb797a0c85c94c269a2e6e5353c46e312f1bbac15b855bd14a51ce433edd597398d12eb4349be5c3a2f"
 
 RPROVIDES:${PN} += "python3.9dist-deap \
 python39-deap \

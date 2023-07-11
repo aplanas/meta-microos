@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "2.0.2"
 
-RPM_NAME = "python310-greenlet-devel-2.0.2-1.1.noarch.rpm"
-RPM_HASH = "9a1eb51af708a632c4d3c1543c0108e797a9cee522af093a14f51c10528ad8598563a15f330bd3128148184c378d3081114b4e18755278ed622df2351a22cd7b"
+RPM_NAME = "python310-greenlet-devel-2.0.2-1.3.noarch.rpm"
+RPM_HASH = "166d77fbd810ac10e688d79126fb238fbde05d4b0c3d17709c68153a35348e2df712b31961bea3cd51d51d7646bc56b3ba9487eb7af07bc371e546deb8adefc3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-greenlet-devel \
-python310-greenlet-devel"
+RPROVIDES:${PN} += "python310-greenlet-devel"
 
 RDEPENDS:${PN} += "python310-greenlet"
 

@@ -7,8 +7,8 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20221124"
 
-RPM_NAME = "libvhdi-devel-20221124-3.7.aarch64.rpm"
-RPM_HASH = "dac856e77cfa94d4d23ec74449a9fc5c95da965624244ec6c8d3aa681f1c37b0aa96b12aad7ac9c0ab6a47afc9fa897a77bf5d3def97b53b2bc3f588ab7fb5c7"
+RPM_NAME = "libvhdi-devel-20221124-3.10.aarch64.rpm"
+RPM_HASH = "d56d9ce4d857f4c223b4f31327a23c970417ded79c0ada454547e31459a635b84de01f79f7b52ca5f96d159739586d896b8efc367339ca0c029a1cf771d0996d"
 
 RPROVIDES:${PN} += "libvhdi-devel \
 pkgconfig-libvhdi"

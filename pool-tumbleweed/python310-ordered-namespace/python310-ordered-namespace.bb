@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "2019.6.8"
 
-RPM_NAME = "python310-ordered-namespace-2019.6.8-1.19.noarch.rpm"
-RPM_HASH = "fc54107e5cd08494e2b5c4ff89ef12c4e7bcd9b91d127e07600bb692de066b42f8ede9c32fb5a6dd25beeb0fcd6100bca4e9093fef1ea5a6a7c58319fee3f210"
+RPM_NAME = "python310-ordered-namespace-2019.6.8-1.20.noarch.rpm"
+RPM_HASH = "728a22297034a377dda53a9b30e3b6ebb03d555ef6a65ba5992c94a01345a85ce2aa7764f4ffb3ecb706cd7ef454ef3ec09facae9bb5f09d57c5807c73bbeb60"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-ordered-namespace \
-python3.10dist-ordered-namespace \
+RPROVIDES:${PN} += "python3.10dist-ordered-namespace \
 python310-ordered-namespace \
 python3dist-ordered-namespace"
 

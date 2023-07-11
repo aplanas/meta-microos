@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "2.36.2"
 
-RPM_NAME = "atkmm-doc-2.36.2-2.3.noarch.rpm"
-RPM_HASH = "226e3bbd1b175e38a275fc62c7d520fa48422eebe12fab2bd6868013dc77a598770d39a3a3eec0f15909ad0a258ae5ebc157ee6ef740d6b999e18b0475f4fb20"
+RPM_NAME = "atkmm-doc-2.36.2-2.4.noarch.rpm"
+RPM_HASH = "0e615616282cc45eed275390b71d88959f745f4cbf841f7fc475e2c053a82e1d7e2bd67745236f50c9834cc393e59d57f16138b01e4e989838c353af3b2052a5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "atkmm-doc"

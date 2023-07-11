@@ -5,11 +5,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.12.2"
 
-RPM_NAME = "python310-vispy-0.12.2-1.2.aarch64.rpm"
-RPM_HASH = "177e3dab92b7f0c6f3edc3e90fc9d47f02b9965767a354ddf57360c06ff38d2ca583c78c1a195d27727da1ec1300e2f8ac8bc6db4f09890837ed431c25666e70"
+RPM_NAME = "python310-vispy-0.12.2-1.4.aarch64.rpm"
+RPM_HASH = "1a5ad00f262195eaeaf6dacf435085c402730366f40f63c0e323f2ad300e02480cd1ddc8073809c54c04f3b2909a5c4b1d4e2e0a48373e6df8b26e587911a98b"
 
-RPROVIDES:${PN} += "python3-vispy \
-python3.10dist-vispy \
+RPROVIDES:${PN} += "python3.10dist-vispy \
 python310-vispy \
 python3dist-vispy"
 

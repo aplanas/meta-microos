@@ -14,8 +14,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.6"
 
-RPM_NAME = "liblevmar2-2.6-2.3.aarch64.rpm"
-RPM_HASH = "bd6e48467e080ec58a91d51233c2adfd837d269db413a652b5743125ad64748b062f425de385880fab96ae132ed3da3c0008eba9ba5d78e200d6727c9f08d7b0"
+RPM_NAME = "liblevmar2-2.6-2.4.aarch64.rpm"
+RPM_HASH = "66f2c43a21a2981ed04fda3ae6bf758b5fde80e842793130945b788660cf96bb09215b2576886fd693cf57c7772a5abe9880c70389b51f33e8175d7dfbe2ef3b"
 
 RPROVIDES:${PN} += "liblevmar.so.2 \
 liblevmar2"

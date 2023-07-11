@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.0"
 
-RPM_NAME = "python310-blurb-1.1.0-2.1.noarch.rpm"
-RPM_HASH = "f21e27edf9128b2e5c669cad25c56bc5806f97ea8501dc9df47c910d0fd88abe546158e1f45cb3cee6a145842bfd6a95b9d8cc28a8bac238fcaddd79960d6367"
+RPM_NAME = "python310-blurb-1.1.0-2.3.noarch.rpm"
+RPM_HASH = "24c1754599032d5f9888f06d8cdec4ca4fdfc731fde048bb2d69e35aa108e68c5030c25504c48beaac0f6a989cf683aca780fcf4fd52e8896a9f3a1ef8a5ee69"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-blurb \
-python3.10dist-blurb \
+RPROVIDES:${PN} += "python3.10dist-blurb \
 python310-blurb \
 python3dist-blurb"
 

@@ -12,12 +12,12 @@ LICENSE = "Apache-2.0"
 
 PV = "9.1.1"
 
-RPM_NAME = "python3-oslo.config-9.1.1-1.1.noarch.rpm"
-RPM_HASH = "d34a79ee434f04477525266eec7b2a8c4a85f95f7315075a70498508e132f732e1ed2c1043719485dda75b67886e3475dd07cbcc2376675e0b55029fc8171e8d"
+RPM_NAME = "python3-oslo.config-9.1.1-1.2.noarch.rpm"
+RPM_HASH = "cf063b3470095d80ea9e8c613abf804050897bb5e2f71b3898fe10583887492213eb69df14a33f05d0924433c1e1e207b5d538a2b342403d32199e2b2ae50209"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-oslo.config \
-python3.10dist-oslo.config \
+python3.11dist-oslo.config \
 python3dist-oslo.config"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

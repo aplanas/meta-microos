@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "0.71"
 
-RPM_NAME = "python39-pytlv-0.71-1.16.noarch.rpm"
-RPM_HASH = "43d2e21ba0b245dababe5d17b84147fc02725c46e06ac421bb04d6e43ce93d250a8ba1d87b522273056d60f6fc4fa8c67e7c36b2064bddcb951bcd2557631d3e"
+RPM_NAME = "python39-pytlv-0.71-1.17.noarch.rpm"
+RPM_HASH = "c4d7af3a50ed597a424660273f2459c0aa2bdd2a2776b1788c5175f7019a02cbb3973015a92f9f0924bd49faefbe9a351afc6c80f73f9efb6f5333d008555b03"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytlv \

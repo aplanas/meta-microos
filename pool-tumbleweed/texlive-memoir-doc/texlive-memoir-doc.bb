@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-memoir"
 DESCRIPTION = "This package includes the documentation for texlive-memoir"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.7.19svn65040"
+PV = "2023.208.3.7.19svn65040"
 
-RPM_NAME = "texlive-memoir-doc-2023.201.3.7.19svn65040-52.1.noarch.rpm"
-RPM_HASH = "913895d12e73331b32b59945207b853116b511b13d806a8c699442e07d35bde12fad520e07e0aef7bfd01206703c6b7bb8d17e62cb91e97998af70e1d1c95a6c"
+RPM_NAME = "texlive-memoir-doc-2023.208.3.7.19svn65040-53.1.noarch.rpm"
+RPM_HASH = "3fd2e6c4fd9eb17d934e4c3bb68d89d534228c122041dd6e1482696b518fbba5ab90eea4e4998bdfdc0c8b578057dae25527cc98fb6553dd70ab7375eff35da2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-memoir-doc"

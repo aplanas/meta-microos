@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.8"
 
-RPM_NAME = "libavahi-client3-0.8-23.1.aarch64.rpm"
-RPM_HASH = "4c166a31fc2a2340d496f8f585dc71745a58391cf6d11e21184d7b7289bee3475af8214501449c89a378469eb3fb770ccc2c0bc941710f21c31c3b1691cf0076"
+RPM_NAME = "libavahi-client3-0.8-23.3.aarch64.rpm"
+RPM_HASH = "c9aa465f21db4bf48e016c30d873526b783a1f685d1a11fea3633f54f7b570041ca6cec68047e893c5907abd7d4b8b0bef018d8a73c048725fdb42503fbfd6d2"
 
 RPROVIDES:${PN} += "libavahi-client.so.3 \
 libavahi-client3"

@@ -13,8 +13,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "6.5"
 
-RPM_NAME = "brlapi-devel-6.5-2.4.aarch64.rpm"
-RPM_HASH = "69ba91e07b8c9ddcfd89121fb667b16e408560268dd22ea0b87d238781d1164656397dbc6fb2bfc8db598352cce89a1e9f1b7f21cd275868612bcea6c9e8ccb6"
+RPM_NAME = "brlapi-devel-6.5-3.1.aarch64.rpm"
+RPM_HASH = "d874bacf4e0ae90bec7163a0c85020234465ddbe597da28f1832cbf96a0facb2413fe3c2f96fabb33179a03d2749b468fbeaac0450b1bf5281163a34c74771b7"
 
 RPROVIDES:${PN} += "brlapi-devel \
 pkgconfig-brltty"

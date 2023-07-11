@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.9.22"
 
-RPM_NAME = "libjacknet0-1.9.22-2.1.aarch64.rpm"
-RPM_HASH = "9328f857c422ad07016e2576e50cbf872a5c6a259a8340a56142d40953b9cc205908a3017f1cc037a23d72960e09df178a43d722cddd649f517c5b9dbc88b98d"
+RPM_NAME = "libjacknet0-1.9.22-2.2.aarch64.rpm"
+RPM_HASH = "a067aa8dbdce5b9d4bd9899d6e6003e01410f1395fa7bdfedd1f48a06ccadef0d9009ddc9949251ffedf70aeb6585dd30d92360ca7f8faae884b4ee5e90986e4"
 
 RPROVIDES:${PN} += "libjack0-/usr/lib64/libjacknet.so.0* \
 libjacknet.so.0 \

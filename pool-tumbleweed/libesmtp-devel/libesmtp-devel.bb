@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.1.0"
 
-RPM_NAME = "libesmtp-devel-1.1.0-1.4.aarch64.rpm"
-RPM_HASH = "b6b7470ce2f642a7c33250c3f71ca7cf98f3a720d4e01fac1a13da67729970c3d8a37ed5c754e533201d1b04219f5e4983bd267082c961095e020e8219059594"
+RPM_NAME = "libesmtp-devel-1.1.0-1.5.aarch64.rpm"
+RPM_HASH = "246ceffe76a402dbf8915614fcd3c6ff4fdc7700933f284d2cc75ec6e92dadca05c1fdbd618a77f3ecdaf1f7adb4daaad04e9910b56375922dcb886a76c77c68"
 
 RPROVIDES:${PN} += "libesmtp-devel \
 pkgconfig-libesmtp-1.0"

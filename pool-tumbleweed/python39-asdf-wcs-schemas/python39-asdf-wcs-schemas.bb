@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.1"
 
-RPM_NAME = "python39-asdf-wcs-schemas-0.1.1-1.7.noarch.rpm"
-RPM_HASH = "4cf6f24ba03a0d4669bb0860eab02234dd90572499583827706d7e564e49c200194a19b5624f08643607b35846f4d9486d7f08323777128102de5f5b5e286bf4"
+RPM_NAME = "python39-asdf-wcs-schemas-0.1.1-1.9.noarch.rpm"
+RPM_HASH = "e531722092ed2041b32a72b014233303a9ff2f687a37954e5bf9ad7c05ffecfde13b03e7e74735904b2efd8eea4ad2cdbd89fda08cba2f967950158a7099c4b0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-asdf-wcs-schemas \

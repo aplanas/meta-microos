@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.0.2"
 
-RPM_NAME = "python39-xsge_path-1.0.2-1.7.noarch.rpm"
-RPM_HASH = "00d31e5c96d345e0c0843d2c0501385a22251964990f3448a0b45d13d67520ac6ff97cf5deafbf7ee275018498e35106cb3eb207299fce0397820e12ff735883"
+RPM_NAME = "python39-xsge_path-1.0.2-1.8.noarch.rpm"
+RPM_HASH = "97f7fd985717060eb7131b7ec300bc1c1c53518d4977eef13c88146e6ef739b656359e6e5e349b42c475f7a6cc73f1d4126be13ed98a9c83d1df2693d9be473a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-xsge-path \

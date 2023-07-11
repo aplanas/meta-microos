@@ -10,8 +10,8 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.717"
 
-RPM_NAME = "perl-XMLRPC-Lite-0.717-1.20.noarch.rpm"
-RPM_HASH = "89d3b885ae79c6f973c49625ba1926dc93dda210b9ea0df1c2d30ec617c9f795dc4735376ab56e6f7e49224426924e12d9dc44ea106c13717720a340f8dd4d74"
+RPM_NAME = "perl-XMLRPC-Lite-0.717-1.21.noarch.rpm"
+RPM_HASH = "775edd7d64acfe75f91b90d7a09024f7d8ef192a755d46e135c0617d75ae18fde8ea090a82f4a0a4bca52652949d35dac40649413130a655433a50a7d4b84e22"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Apache--XMLRPC--Lite \
@@ -37,7 +37,7 @@ perl-XMLRPC--Transport--TCP \
 perl-XMLRPC--Transport--TCP--Server \
 perl-XMLRPC-Lite"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-SOAP--Lite \
 perl-SOAP--Transport--TCP"
 

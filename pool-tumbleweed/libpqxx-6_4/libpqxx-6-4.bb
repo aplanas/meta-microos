@@ -11,8 +11,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "6.4.5"
 
-RPM_NAME = "libpqxx-6_4-6.4.5-1.19.aarch64.rpm"
-RPM_HASH = "311a0757cd41fad5e7bdbafda93f70dc4aacc2753cf1b0f39e1c394b85402105b6799e475da5909da6e6c9f040784ab32b68154f51278b7576bb55922c4742f6"
+RPM_NAME = "libpqxx-6_4-6.4.5-1.20.aarch64.rpm"
+RPM_HASH = "3cfbbc69af6cc6ab0d46f18e165d9192e8a0b3f10c95130af2338e0ad00275bdce3e5e865dde69a3fce3f03c24f294d7a5b8250283e87c02ed1ed5495b02c420"
 
 RPROVIDES:${PN} += "libpqxx-6-4 \
 libpqxx-6.4.so"

@@ -5,11 +5,12 @@ LICENSE = "Apache-2.0"
 
 PV = "3.2.1"
 
-RPM_NAME = "python311-daiquiri-3.2.1-1.3.noarch.rpm"
-RPM_HASH = "7593aefa0bbe41dd9298a0363ce4723550fc059fbccbccd442f371cce5d1b9f855facedf41ae2af2b173b8fa426db1308fa1de2e5b0c3d2a714c8d324453e724"
+RPM_NAME = "python311-daiquiri-3.2.1-1.5.noarch.rpm"
+RPM_HASH = "d6c6f5af8ae388161a61b387658dbbd7e90823b60779221354e7e1ec2c16890e9548ea460282d875fcc1e0b21e78b6c7dbaab5fb5b4518448959ceeb9a3455ed"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-daiquiri \
+RPROVIDES:${PN} += "python3-daiquiri \
+python3.11dist-daiquiri \
 python311-daiquiri \
 python3dist-daiquiri"
 

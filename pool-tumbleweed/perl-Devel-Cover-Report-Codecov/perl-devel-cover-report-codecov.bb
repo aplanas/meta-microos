@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.25"
 
-RPM_NAME = "perl-Devel-Cover-Report-Codecov-0.25-1.15.noarch.rpm"
-RPM_HASH = "b590325a3177b8d733fb93538fd810c27eaea8165d39031125d546fe3f97c054549eba6d431230118a587b6a33dcd722e233f5a2d5734fe22b4b2f4bc3e9433a"
+RPM_NAME = "perl-Devel-Cover-Report-Codecov-0.25-1.16.noarch.rpm"
+RPM_HASH = "c840e3f01f90ab36fc30c15ee8c92ec8faa7cc53c4fe00f29eebb521a196947734f9bbefe51f5e68a8b299f418eee1d9652a8a0219c1fb8c9ab61217fd607e85"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Devel--Cover--Report--Codecov \
@@ -24,7 +24,7 @@ perl-Devel--Cover--Report--Codecov--Service--Travis \
 perl-Devel--Cover--Report--Codecov--Service--Wercker \
 perl-Devel-Cover-Report-Codecov"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Capture--Tiny \
 perl-Devel--Cover \
 perl-Furl \

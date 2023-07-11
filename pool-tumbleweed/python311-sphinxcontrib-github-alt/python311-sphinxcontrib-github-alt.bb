@@ -8,11 +8,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.2"
 
-RPM_NAME = "python311-sphinxcontrib-github-alt-1.2-1.12.noarch.rpm"
-RPM_HASH = "d7cf051cebb4ccdb6e275077417e08cccb18f9125193ec58d83b11f4256a4737124b76cb7492c24623a8cc66bd75642baae25b7cfb1e14c6627af9f16530eff4"
+RPM_NAME = "python311-sphinxcontrib-github-alt-1.2-1.14.noarch.rpm"
+RPM_HASH = "3e454f5548b7040c506b80e83e1aeedf7a7f52f1034bf88139a3ce82a48ebae872615a127933ae21b490423d84c19b19116f296856a97ff7e6ca3317794f5055"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-sphinxcontrib-github-alt \
+RPROVIDES:${PN} += "python3-sphinxcontrib-github-alt \
+python3.11dist-sphinxcontrib-github-alt \
 python311-sphinxcontrib-github-alt \
 python3dist-sphinxcontrib-github-alt"
 

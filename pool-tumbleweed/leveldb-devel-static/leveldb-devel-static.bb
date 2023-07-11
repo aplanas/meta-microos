@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.23"
 
-RPM_NAME = "leveldb-devel-static-1.23-2.3.aarch64.rpm"
-RPM_HASH = "dfe0e3c5faf713f6870c818c305e8fb6a32f98c640005742e79e31ed52ae712bbdff5de6d5e78d3e342041949482623fa5f9e400cdf3d1d6d0ef47519384ac00"
+RPM_NAME = "leveldb-devel-static-1.23-2.4.aarch64.rpm"
+RPM_HASH = "2cc3a18b156708e50c49bd730aad1ace1eab41180c02a9417739f08f543a5e2cd3ef1b1645d17b0dd5b80477d3945fa2beba2fece334a3f495f07be7b63c78be"
 
 RPROVIDES:${PN} += "leveldb-devel-static"
 

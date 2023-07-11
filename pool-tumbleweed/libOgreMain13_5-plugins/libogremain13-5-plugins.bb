@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "13.5.3"
 
-RPM_NAME = "libOgreMain13_5-plugins-13.5.3-1.5.aarch64.rpm"
-RPM_HASH = "36da74332798869f918d1bf5c957ddd47dbd3045185964d986b7db08cc337e8016d5e5bb787e7d31a9f52986ce3e1754567bc8b1b6ea028e6a56ab5427c4a5f0"
+RPM_NAME = "libOgreMain13_5-plugins-13.5.3-2.2.aarch64.rpm"
+RPM_HASH = "0089f85ce5258a4703f5545c88b56d6ea38fc59b686617a14c11f2e8ca7c254ec73d44a3fa94d30287158b9e863750a72cbf3468aa159014b0b11dd57700c629"
 
 RPROVIDES:${PN} += "libOgreMain-plugins \
 libOgreMain13-5-plugins"

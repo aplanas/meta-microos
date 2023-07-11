@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.2.1"
 
-RPM_NAME = "liblavplay-2_2-0-2.2.1-2.5.aarch64.rpm"
-RPM_HASH = "86f9ce57ec1b6af61bfb17ee6dfa9eda3d42f6c62f9ded20505315e3cff853cfedb0b5a8ff53cec1208c80bbb0cde2efbce2999404e67e34d3c0168d585b456c"
+RPM_NAME = "liblavplay-2_2-0-2.2.1-2.6.aarch64.rpm"
+RPM_HASH = "f2e27241659b5dd46ac2464917028b1c5db53d98d576edca73324043ad966497134129b9c0f7af17697f1d72190e48f4dab6268f686b914b351977bdaec315bb"
 
 RPROVIDES:${PN} += "liblavplay-2-2-0 \
 liblavplay-2.2.so.0"

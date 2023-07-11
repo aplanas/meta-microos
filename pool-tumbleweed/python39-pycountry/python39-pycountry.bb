@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "22.3.5"
 
-RPM_NAME = "python39-pycountry-22.3.5-2.1.noarch.rpm"
-RPM_HASH = "a334a4d23df646bbee999255dda0ceb779f3a3f3f9f38fb134cd48c50c3fb14633d8b28bdeb395f4dcce77dcd29b3023622de799ecee50813d99156b9b08c59e"
+RPM_NAME = "python39-pycountry-22.3.5-2.3.noarch.rpm"
+RPM_HASH = "a3fb4ce95a539c5318b8c05c4a00a07177396ee4f9ac6212d9e2935d039a606831a0f8499340bd48c657f35f0bcba3ec7f1fdb36f3a75ea1b11cdb01aa69d534"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pycountry \

@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "5.4"
 
-RPM_NAME = "pw3270-branding-5.4-2.1.noarch.rpm"
-RPM_HASH = "a5c9238e4388dee1caed8c3a1e44c1119ae7dd1efb8a0bebc173fccc04f5b83769e9d3ecd34f9728532c1c73030bab8a2b0d4e33ad8c820e1b67d468d1cf2c34"
+RPM_NAME = "pw3270-branding-5.4-2.2.noarch.rpm"
+RPM_HASH = "9ca7f0dab7d7ca9142b12f0e025ecb1ae5e59e720aafd3fe35ebeaa58740a01baf2fe33f6c52a8d65641a561c6d2b140b6df887a7aae1fb5f73a5817bf1643af"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pw3270-branding"

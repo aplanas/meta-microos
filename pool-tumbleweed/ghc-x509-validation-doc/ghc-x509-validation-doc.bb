@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.6.12"
 
-RPM_NAME = "ghc-x509-validation-doc-1.6.12-2.3.noarch.rpm"
-RPM_HASH = "0afaa9790f616b49b81afc2f4258368282cf23d9a47af3fbf5c443c4eee8251a88cd4cbe8538376d6e7976da4d37c975b03ee4d8bc7549f65c583760322340ec"
+RPM_NAME = "ghc-x509-validation-doc-1.6.12-2.6.noarch.rpm"
+RPM_HASH = "13b735ca6452105641ccccd9035207db1db8873b32415ace5288c8055a31d42543a69992f9c623c4b1edbb37db8e9f65eca8bb52549b4916db1d8fba3d3119b1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-x509-validation-doc"

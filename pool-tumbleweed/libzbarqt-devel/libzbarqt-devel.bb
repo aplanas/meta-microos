@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "0.23.90"
 
-RPM_NAME = "libzbarqt-devel-0.23.90-3.1.aarch64.rpm"
-RPM_HASH = "abba3bf94220ef5c5dc83531014fb636ccb8c3693c828fa4e802556a879b3954dcfe7a0d5f54886ca67e117eef7a0fc05487d14d2073326b5835ae11471491e1"
+RPM_NAME = "libzbarqt-devel-0.23.90-4.1.aarch64.rpm"
+RPM_HASH = "8ffeff3188782b6d5968551d3ef9d0c3de4245320b699b29eda0bd3bb5a0005120a476b423c65767c4756d1b2c89616a61809bfdf459bb3b50e4edd7936ca7cf"
 
 RPROVIDES:${PN} += "libzbarqt-devel \
 pkgconfig-zbar-qt"

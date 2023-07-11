@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.0.2.3"
 
-RPM_NAME = "libldac2-2.0.2.3-4.9.aarch64.rpm"
-RPM_HASH = "3bbd6537b0489fd0c9eb27179c97cff5c38fccab2dff30e6fc35c0df01a838c3970f8789bc4e2912b40269746671a3f325b9262e18b41dcbf5f3cd37e0738fdb"
+RPM_NAME = "libldac2-2.0.2.3-4.10.aarch64.rpm"
+RPM_HASH = "5c1eb5f47c722fd5470f159e6a3e188951be5f29092da86dae3abacb386306495a3cc1b450f11b8817432be68c81117db36bb15e015c9fdf4015e8d2c14f4e99"
 
 RPROVIDES:${PN} += "libldac2 \
 libldacBT-abr.so.2 \

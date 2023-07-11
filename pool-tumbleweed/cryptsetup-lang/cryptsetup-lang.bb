@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.0-or-later & SUSE-GPL-2.0-with-openssl-exception"
 
 PV = "2.6.1"
 
-RPM_NAME = "cryptsetup-lang-2.6.1-1.3.noarch.rpm"
-RPM_HASH = "df52b22ce98bf5908d83a8e45efe38d8beeb638d1c0a398672978a81bee8b0dde9904706559d01585e4a7bef4f5360063b89da0af4788ee6b259583646d0b704"
+RPM_NAME = "cryptsetup-lang-2.6.1-2.1.noarch.rpm"
+RPM_HASH = "c4de83ecfb118756e393589fc414478913e5f9f44a1f986b8e83705e1bc520c95b51310061ad7a4190ac53631084ee827aa303869a369cc8678fded8fa064def"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cryptsetup-lang \

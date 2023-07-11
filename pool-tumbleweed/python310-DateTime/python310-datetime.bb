@@ -6,12 +6,11 @@ LICENSE = "ZPL-2.1"
 
 PV = "5.1"
 
-RPM_NAME = "python310-DateTime-5.1-1.1.noarch.rpm"
-RPM_HASH = "5fc973e641d5da600042daba97f78032015f4813b43ade3aaa3669fcd32573aaae6c30ec58800fb2fd2abdcf9568f300ac6dd2aee24c1a35744e829cf34086e7"
+RPM_NAME = "python310-DateTime-5.1-1.3.noarch.rpm"
+RPM_HASH = "37be5bbf73530d2468733cee822a9cadab958eaad2622841fa45d17887cb0fe335eb8bbaea5c2658f5fa886cfa9b50c0da738be193c9ac4a2d097167d2d2b282"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-DateTime \
-python3.10dist-datetime \
+RPROVIDES:${PN} += "python3.10dist-datetime \
 python310-DateTime \
 python3dist-datetime"
 

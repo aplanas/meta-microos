@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "2.20.2"
 
-RPM_NAME = "gtk2-theme-clearlooks-2.20.2-19.42.noarch.rpm"
-RPM_HASH = "26a9b31d56cb3675fa46dd78ffd28d79e41841ea58768cba2f6714cbbe682d1da0d6acdf8daad506561c51a82e26faef64eea86c06c01d04af573a28071f848d"
+RPM_NAME = "gtk2-theme-clearlooks-2.20.2-19.43.noarch.rpm"
+RPM_HASH = "abffc247a0ab868d960f77d180e710ba22f761e64e9bc3e99841e48ec02c5bff8608c9552b7c349909cec6ed768d5934e3e1f83c71bf5a23abd0cb346ade9876"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk2-theme-clearlooks"

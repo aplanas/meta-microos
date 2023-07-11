@@ -6,8 +6,8 @@ LICENSE = "Zlib"
 
 PV = "1.2.12"
 
-RPM_NAME = "libSDL_mixer-devel-1.2.12-8.29.aarch64.rpm"
-RPM_HASH = "747eddd0b0e45ca6bb0ba6d421c92ad7de5643803777191ae58f4ac3e58c44e28bfc66fec0536aada72d5c2b8a66a076785565ad4155cb87638d59fbc8bcd1e2"
+RPM_NAME = "libSDL_mixer-devel-1.2.12-8.30.aarch64.rpm"
+RPM_HASH = "e9022e8ad13b33549f39dfd9076874b669ab4678cc3d536ce74a3f369a2382a0d86a648dc2b70fef841951c7f662cf6908bff1869beb7fa9975afa7142780dbe"
 
 RPROVIDES:${PN} += "SDL-mixer-devel \
 libSDL-mixer-devel \

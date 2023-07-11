@@ -24,13 +24,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "5.004"
 
-RPM_NAME = "perl-Sereal-5.004-1.1.noarch.rpm"
-RPM_HASH = "b87872aab6ef550204962421f92050285b1edf0a867731653baf4532da37081c084779619544d236d76251d79bec3ac6fb579ca3b6afb75add16365eb12cfa1d"
+RPM_NAME = "perl-Sereal-5.004-1.2.noarch.rpm"
+RPM_HASH = "40fc5ccb92b6ce3ab81670d8783a31d3fe6f1edcbc489c49b701b39deafcd2215366bc5cddd16e4b1a1c137accd75c4f20df7347e35fdaaa6df087e78a923655"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Sereal"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Sereal--Decoder \
 perl-Sereal--Encoder"
 

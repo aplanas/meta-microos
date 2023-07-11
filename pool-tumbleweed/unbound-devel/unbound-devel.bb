@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.17.1"
 
-RPM_NAME = "unbound-devel-1.17.1-1.3.aarch64.rpm"
-RPM_HASH = "00842367953c96e761a697957508dec88a7e9ce020940134c92df3c381eedd7bef70c9599c4d354688c6f387ac5b335598b52b557e6274464275595647b18d7a"
+RPM_NAME = "unbound-devel-1.17.1-1.5.aarch64.rpm"
+RPM_HASH = "a407822b9f801a2722ca19f6a81bec3ec1283a84fac0621a67a00023587aa7a5f97b70ecb13103aea6573eb84d7ade9fed765a6039c7507b77774224f56deda3"
 
 RPROVIDES:${PN} += "libunbound-devel \
 pkgconfig-libunbound \

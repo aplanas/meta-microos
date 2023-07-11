@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.0"
 
-RPM_NAME = "libwebp-tools-1.3.0-1.1.aarch64.rpm"
-RPM_HASH = "fc8e6c2419d19b6299cad5728ecb6cfd7411e718d582916c044948a1e05f106286d391f743c51e02dd00070c5072e9c924b34b4e61f6832b993415e1b757410e"
+RPM_NAME = "libwebp-tools-1.3.0-2.1.aarch64.rpm"
+RPM_HASH = "9ed94f976bb19adbb12877540b5fce494c9226b0ab3115b68808b3f3b7afd09205d0586565a0e4bcc34459cecf60b197edb4a748c1b1c1f8021efb4f86e381e5"
 
 RPROVIDES:${PN} += "libwebp-tools \
 webp-tools"

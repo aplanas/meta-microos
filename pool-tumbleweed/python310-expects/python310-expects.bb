@@ -5,12 +5,11 @@ LICENSE = "Apache-2.0"
 
 PV = "0.9.0"
 
-RPM_NAME = "python310-expects-0.9.0-1.16.noarch.rpm"
-RPM_HASH = "c02fbdb5390f50b783483f9ad6c762786e260724e8d2a673dfbc8a4ecca49b04a90538e82e0930d13309065b87b2e1fbf08bc62f1bf4921455d2aeafba28418e"
+RPM_NAME = "python310-expects-0.9.0-1.17.noarch.rpm"
+RPM_HASH = "0213dc0746d62dd0092e302b23a3d54c385f386b242865b93e2581aaa90aa76db41ef5e3d59987d114284c906bf120425d1b43b1af07e5d3500d671504e0573f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-expects \
-python3.10dist-expects \
+RPROVIDES:${PN} += "python3.10dist-expects \
 python310-expects \
 python3dist-expects"
 

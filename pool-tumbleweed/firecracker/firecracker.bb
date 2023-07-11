@@ -3,10 +3,10 @@ DESCRIPTION = "Firecracker is a virtualization technology for creating and manag
 multi-tenant container and function-based services."
 LICENSE = "Apache-2.0"
 
-PV = "1.2.0"
+PV = "1.3.2"
 
-RPM_NAME = "firecracker-1.2.0-1.3.aarch64.rpm"
-RPM_HASH = "d8fe6736c58e767399dfedb06f2a7a26c4ae8e0c61097649c366b0824feb196c6dbf02b8b9285d81822404159925df338b82b7ada2801efa06e812c9b2cbdca2"
+RPM_NAME = "firecracker-1.3.2-1.2.aarch64.rpm"
+RPM_HASH = "25f3ba18041b3c54333e5d65c2c94314dca31c4a6ba673eb9cfd8c685ffa64515fcac2f3b853b6dd9adc2f3108e3fe0b1d5a9b8170fc8342cbefc52369f0719b"
 
 RPROVIDES:${PN} += "firecracker"
 

@@ -5,13 +5,14 @@ LICENSE = "OpenSSL"
 
 PV = "1.1.1u"
 
-RPM_NAME = "libopenssl-1_1-devel-1.1.1u-1.1.aarch64.rpm"
-RPM_HASH = "99395851a7ddeaa3594c0861a8648ad47f4242be153ba2f7a8568a8a3d9dff5b1caaacf6b083098bf679fafb9805a7ec863dfaa72f4f3ea950d4c593009a68db"
+RPM_NAME = "libopenssl-1_1-devel-1.1.1u-4.1.aarch64.rpm"
+RPM_HASH = "89d533036d0cc8e226fe545ca352d464fc24b28d54db3043a19a8827e4782251476625eb48dfd9f5a0ec1e3278c28c2b7b3193ec25e371b8fe1bf87de4c14b91"
 
 RPROVIDES:${PN} += "libopenssl-1-1-devel \
 pkgconfig-libcrypto \
 pkgconfig-libssl \
-pkgconfig-openssl"
+pkgconfig-openssl \
+ssl-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libopenssl1-1 \

@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "0.2.3"
 
-RPM_NAME = "fcitx-chewing-0.2.3-1.27.aarch64.rpm"
-RPM_HASH = "58b0ccff2bfecb642c0949ef19fcddbf3bd7b8b3be0398c31421d6dc220010ad285a6328bed90e7bfd542bbac2e24c4001ea288f1f0454889fd9552fae281281"
+RPM_NAME = "fcitx-chewing-0.2.3-1.28.aarch64.rpm"
+RPM_HASH = "a6443953b260e1e4adb047144e86e0ca3176e63707d38e521afd7d6a9abbb9737604cc095dee454b41e3a97b0eb53a43394d28bbcdb772ba9ac4479b1bf15225"
 
 RPROVIDES:${PN} += "fcitx-chewing \
 locale-fcitx-zh-TW"

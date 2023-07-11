@@ -14,8 +14,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.31"
 
-RPM_NAME = "perl-File-Rename-1.31-1.6.noarch.rpm"
-RPM_HASH = "e71198b5389d45b70f59af637dcfe2e2de62396c092ac4fc5c97452ce6733cf861d98226a8ac1ee1603e04f03dcb36207014a7828ca570be236dc70d7855f45c"
+RPM_NAME = "perl-File-Rename-1.31-1.7.noarch.rpm"
+RPM_HASH = "c1b74bab3956ad2cbb5bbf6f5b37861ce43d9cc7d3c077abe7b0895d776bb371071549690f18bee04e8348326265e3fd29e405bbdb36ccaa5acd903b6eb5283c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-File--Rename \
@@ -24,6 +24,6 @@ perl-File--Rename--Unicode \
 perl-File-Rename"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

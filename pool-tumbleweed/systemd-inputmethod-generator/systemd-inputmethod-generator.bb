@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.0.5"
 
-RPM_NAME = "systemd-inputmethod-generator-1.0.5-1.2.noarch.rpm"
-RPM_HASH = "09d8fa53c6d7d4a4cba989769d63d76c57cad9d38b8160104ec52b0893977cef057821de7886c0e8eeb6f44df17025fde3fcbbc0abdebe96328084c484c35b84"
+RPM_NAME = "systemd-inputmethod-generator-1.0.5-1.3.noarch.rpm"
+RPM_HASH = "937c20bf93a086a7dffda4d86b11999b1ee3749e271db13bb2cb43b873636763daa21869547bf934970b95e01f18f90b8630e450ed96014aa7cd56c55260abe6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "systemd-inputmethod-generator"

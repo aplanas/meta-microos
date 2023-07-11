@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.0.99.2"
 
-RPM_NAME = "sunpinyin-tools-2.0.99.2-2.2.aarch64.rpm"
-RPM_HASH = "04231630da4c08d65d166c9c25e49a4a3201dd5226e76f5b64654f56b2186d2a079c46c1143feaf6408c70db12d8079303cd8920acc4c881e0e6d4123a1d496f"
+RPM_NAME = "sunpinyin-tools-2.0.99.2-2.3.aarch64.rpm"
+RPM_HASH = "253d65757e8daa87e2620df8a830ac19cb4a4347b09f82cab05605a45cca08cb6a199d788e7622d43253d1283a73d0e01d7b495471af3925f6d5b0f3af1f94a3"
 
 RPROVIDES:${PN} += "sunpinyin-tools"
 

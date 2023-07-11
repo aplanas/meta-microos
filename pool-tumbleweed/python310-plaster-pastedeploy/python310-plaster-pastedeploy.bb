@@ -7,12 +7,11 @@ LICENSE = "MIT"
 
 PV = "1.0.1"
 
-RPM_NAME = "python310-plaster-pastedeploy-1.0.1-1.3.noarch.rpm"
-RPM_HASH = "eb9ec3d5e01a54fb51c17c0ea3ce77f9f03c908e4823e8f042d904a0955dd4ef5465a52a8faf813fdfc916457eaaded4441c7bf7fab4dcfc9f96c29eb23f40b0"
+RPM_NAME = "python310-plaster-pastedeploy-1.0.1-2.3.noarch.rpm"
+RPM_HASH = "b1b59a7d128d0ef592509ef679c4d65eb7a1b96a4f67f212d28f7e12fdb159c251cea9c71eebb25bd823a3c4fb538bd9eec8469dd0820245e0e13097c44ffbfd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-plaster-pastedeploy \
-python3.10dist-plaster-pastedeploy \
+RPROVIDES:${PN} += "python3.10dist-plaster-pastedeploy \
 python310-plaster-pastedeploy \
 python3dist-plaster-pastedeploy"
 

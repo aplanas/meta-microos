@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "6.3.0"
 
-RPM_NAME = "sundials-openmpi4-devel-6.3.0-2.4.aarch64.rpm"
-RPM_HASH = "f65f739503f069fc035b32dfd5f66346c6fe0033f70fc399c8d642a1763a03d8a0e6eba0590653defa197238c9688e9ac7102ea8945ebc96428e6109c629bba5"
+RPM_NAME = "sundials-openmpi4-devel-6.3.0-2.5.aarch64.rpm"
+RPM_HASH = "86e7a4c4e6c2b2db39d8343781e0628a3cc9f923e6f9530a40226b70bcccbbf742ad4e80e293d2da1954deb2d9cdc0b8cef9cacf79436ea57b89c2abe63b82c4"
 
 RPROVIDES:${PN} += "sundials-openmpi4-devel"
 

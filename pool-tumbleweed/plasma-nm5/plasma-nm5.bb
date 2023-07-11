@@ -3,10 +3,10 @@ DESCRIPTION = "Plasma applet for controlling network connections on systems \
 that use the NetworkManager service."
 LICENSE = "(GPL-2.0-only | GPL-3.0-only) & (LGPL-2.1-only | LGPL-3.0-only)"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "plasma-nm5-5.27.5-1.1.aarch64.rpm"
-RPM_HASH = "93f5dbd5ee3ee8fbbcff9780dfcf70f0b9148e1c4e2c40fb9df2faf44dd697508487f4dcf63f3903b23021259722808763a27ff4b270073e5b335df1e28a57df"
+RPM_NAME = "plasma-nm5-5.27.6-1.1.aarch64.rpm"
+RPM_HASH = "1d843be09386afa9ebd9aaa024c1307f787024dc32e6d01ff8aedffcaf372d8c226b9ee0a8529db3307728c3b1f1ec576fc2b4a2fcb367a5bde4e8d9d077ad75"
 
 RPROVIDES:${PN} += "NetworkManager-client \
 libplasmanm-editor.so \

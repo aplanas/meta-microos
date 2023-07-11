@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.44.1"
 
-RPM_NAME = "bestplugins-0.44.1-2.2.aarch64.rpm"
-RPM_HASH = "342f0b74370f09a51ac10594eece2d340a451b3a08dc088507f6c13d86564a22ae139e684a0cbff76900357a3135fad9f7ea36edf8e510d37e9b23f0e1c57ee0"
+RPM_NAME = "bestplugins-0.44.1-2.3.aarch64.rpm"
+RPM_HASH = "8e43aa1b23df2862a778fc45ef2261a139d06e9562b4c5192fe12276b27905264cd5890779212d9b1f3791d6a8b8b7a5f41ff8c8bde9ce96fc5b52a0227bb698"
 
 RPROVIDES:${PN} += "bestplugins"
 

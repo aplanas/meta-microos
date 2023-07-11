@@ -12,12 +12,11 @@ LICENSE = "Apache-2.0"
 
 PV = "5.12.0"
 
-RPM_NAME = "python310-importlib-resources-5.12.0-1.1.noarch.rpm"
-RPM_HASH = "9578f4b1e6704a076b3826a50b8d1d34f70c7822c03baa78e2f9b1c1eee82dd9f1888ce62918a44932c6825ee9919d6bace6da6ac72045dc7a0b46a337dd59c7"
+RPM_NAME = "python310-importlib-resources-5.12.0-1.3.noarch.rpm"
+RPM_HASH = "b149a8731aff1f13a1b12926a9e5dc54476f19dcd0b9ba21144a88813ae7c7db16aef773d3fe75c568971fdcf9d9cb2d396c4675c59c7411c640e470d3ab6ae2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-importlib-resources \
-python3.10dist-importlib-resources \
+RPROVIDES:${PN} += "python3.10dist-importlib-resources \
 python310-importlib-resources \
 python3dist-importlib-resources"
 

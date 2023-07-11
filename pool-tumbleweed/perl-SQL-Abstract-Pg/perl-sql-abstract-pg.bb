@@ -5,14 +5,14 @@ LICENSE = "Artistic-2.0"
 
 PV = "1.0"
 
-RPM_NAME = "perl-SQL-Abstract-Pg-1.0-1.10.noarch.rpm"
-RPM_HASH = "1743c77a1695243db03ec84658230ff3939c60729e13e017c086b6f6797c5360625771876f8671c7c2523c9d20f090410e173a62f0e25219d33fc8c1c91086ff"
+RPM_NAME = "perl-SQL-Abstract-Pg-1.0-1.11.noarch.rpm"
+RPM_HASH = "d8e30404f0566f4b556f3ff22f8c80c29e503f2de9057957764a166b528ffc1c53e654c75cfa5c6caa9cbdab1911536f1e45d567a8a53ba228ef40d5eba542b6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-SQL--Abstract--Pg \
 perl-SQL-Abstract-Pg"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-SQL--Abstract"
 
 inherit rpm

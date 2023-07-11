@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.1.16.1"
 
-RPM_NAME = "ghc-parsec-3.1.16.1-3.1.aarch64.rpm"
-RPM_HASH = "b0a0ec08bc3ccdd6c50930450b3ca54d21c92c1a8f12fcba06cd14ade747e98af50bcf2f8efd363a78b2c62140eecd3e2d9a844a1ebcdd1daf8d9bf6072eeca6"
+RPM_NAME = "ghc-parsec-3.1.16.1-3.2.aarch64.rpm"
+RPM_HASH = "dd71d3ad7d21d2e692d9d64ff70962e9a00fdb1d843c275f41a7eee3c7b0e420a65b7651b82954948ae9290d50ca438cec1e6e290d341020b9245bb725143331"
 
 RPROVIDES:${PN} += "ghc-parsec \
 libHSparsec-3.1.16.1-ghc9.4.5.so"

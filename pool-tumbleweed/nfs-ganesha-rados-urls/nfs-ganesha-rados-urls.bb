@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
 PV = "3.3+git0.39e0cf712"
 
-RPM_NAME = "nfs-ganesha-rados-urls-3.3+git0.39e0cf712-5.8.aarch64.rpm"
-RPM_HASH = "cec0e2d90b5337c06563a29a595697d263856c877172077dc64fc630823dfa052ba8eb29ecc4afe56da13314443e9f335bc692c6d7406e8ec870bf2dccd20a46"
+RPM_NAME = "nfs-ganesha-rados-urls-3.3+git0.39e0cf712-5.9.aarch64.rpm"
+RPM_HASH = "537578942223584bc138ec9c663b6c25955a78b27bf841457b3470ee94cc8e0896c7684539c972268f8fcd1722a4c6aa0c4870ce079f0fb354ad9086a581a948"
 
 RPROVIDES:${PN} += "libganesha-rados-urls.so \
 nfs-ganesha-rados-urls"

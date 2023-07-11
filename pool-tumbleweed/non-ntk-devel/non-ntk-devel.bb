@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.3.1001"
 
-RPM_NAME = "non-ntk-devel-1.3.1001-1.6.aarch64.rpm"
-RPM_HASH = "f91d1cc7238e207cfb0cc5259b79263ce1b971eda854a1121b5ec5f87f728cf38ed6304bd5871c2994f67726681c043dc2b9dd91a25cc08105b692d29ccf0745"
+RPM_NAME = "non-ntk-devel-1.3.1001-1.7.aarch64.rpm"
+RPM_HASH = "3b20729c32ea4fa30ea293da3ba17995182f18cd235f85eb18944ccde8fa00024474aaf9d824b32419928f80ab9e404a972329b826709a3a72184dd6c152fa5e"
 
 RPROVIDES:${PN} += "non-ntk-devel \
 pkgconfig-ntk \

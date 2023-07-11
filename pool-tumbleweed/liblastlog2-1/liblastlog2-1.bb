@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.1.0"
 
-RPM_NAME = "liblastlog2-1-1.1.0-2.1.aarch64.rpm"
-RPM_HASH = "210aacd2dee06207cd6fd898239020b705444af27a33ce75bd244a06c91ef70d7563a08e1cd14cb76c7f3771c0ab0de0a846030325a016fb5286781ad5e56478"
+RPM_NAME = "liblastlog2-1-1.1.0-2.2.aarch64.rpm"
+RPM_HASH = "8026fe94926b4eb753d063ac63efc0ae45dda715b5162599db051ee61f40053a20522e00ddca07acffe83ae9db67f71802cc008ff933367d13542de9b8f2a348"
 
 RPROVIDES:${PN} += "liblastlog2-1 \
 liblastlog2.so.1"

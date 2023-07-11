@@ -14,8 +14,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
 PV = "3.3+git0.39e0cf712"
 
-RPM_NAME = "libntirpc3_3-3.3+git0.39e0cf712-5.8.aarch64.rpm"
-RPM_HASH = "4303b9774ca8d7168cab1bae9d08d9e1e366dec750e6cb5307fddf4fe4acf1159cea5ce095959da61e4510c64f4e093fea801c1f912c1fbeef38850a65662c05"
+RPM_NAME = "libntirpc3_3-3.3+git0.39e0cf712-5.9.aarch64.rpm"
+RPM_HASH = "a26256ba9766241b0b077db42b8a2430fff8cd96f94dc4eff0efd80a4195805fdae076d7d9461d88911a6fbba47c9ed2897f9c7c1d65642b543cd3f0b49b0f6f"
 
 RPROVIDES:${PN} += "libntirpc.so.3.3 \
 libntirpc3-3"

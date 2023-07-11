@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.7.0"
 
-RPM_NAME = "python39-napalm-procurve-0.7.0-6.4.noarch.rpm"
-RPM_HASH = "bff96c535d5df49f7bb1fd3de75f31c6e5584e6ee99ed8d606b3a4fee99bdcf024847cfc2b03e6f1826d5f095c71be5ef36e9cda5b6999f1b878a77a14f10904"
+RPM_NAME = "python39-napalm-procurve-0.7.0-6.6.noarch.rpm"
+RPM_HASH = "6ab63fb5eb70471ab6de14cb0062f01f489c36aeae85ab05b59641f8810991aef0129a53eac607488a082df8177d826da0f4d4fa4445ad44622d19b460d0de4b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-napalm-procurve \

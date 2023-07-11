@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.3.4"
 
-RPM_NAME = "libidn2-tools-2.3.4-1.3.aarch64.rpm"
-RPM_HASH = "ba2ba53fd6113a952f287443996fc30429bd924c334cc6ccd5d3dae5e5de77c4e05fa475bbc3790c42fe407e20842c537aae01ccb094a5b874a00b4a53018621"
+RPM_NAME = "libidn2-tools-2.3.4-1.4.aarch64.rpm"
+RPM_HASH = "f54ff1194ec76445b6d02d1d111ab3b47de612c7c61ddbb435d1ac5867c73536bc3658bf511ac875a0bc96f9d91889e4206a726e1caacf00e14ffc0f29f58f25"
 
 RPROVIDES:${PN} += "libidn2-tools"
 

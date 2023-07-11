@@ -7,10 +7,10 @@ the drawn graph and every change in the graph with the script is \
 reflected on the drawn one."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "librocsgraphtheory0-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "786519e87ef1e9a1bc0bed5ea2f75efa1f2a3f6823e46a22cb5593ea01b4f9b6dc02c220ea4214a4cb51d2d28457c15ff6feab7bfcbd4b51695ebcbbdd43b3c5"
+RPM_NAME = "librocsgraphtheory0-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "dfd83ed3c704555c26b58cdee4389174109b2703621bb1b6d552f0668355474ad65ffcd4dd2e8046cf05b67631abe57d2ae7fc8d64b14cfd20a833fd0072754f"
 
 RPROVIDES:${PN} += "librocsgraphtheory.so.0 \
 librocsgraphtheory0"

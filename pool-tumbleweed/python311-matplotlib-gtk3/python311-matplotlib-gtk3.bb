@@ -5,10 +5,11 @@ LICENSE = "SUSE-Matplotlib"
 
 PV = "3.6.3"
 
-RPM_NAME = "python311-matplotlib-gtk3-3.6.3-2.1.aarch64.rpm"
-RPM_HASH = "53e5797b939763f9b78035efba754fdb73f0589fe738fd298ff539378c56720a66cc2ffecf730a4a2c1a412de6a35fa38e3ba8564c324a41ee07dea5e2312e73"
+RPM_NAME = "python311-matplotlib-gtk3-3.6.3-2.3.aarch64.rpm"
+RPM_HASH = "e4d295e8aff4479fdc037f7e3e1fb29dee8b55a87be1343d9c90186d377583e54ae13c1f5018e41f69bc47501fb0eaa78ea46c11a648c6da3d21294ced3c73d8"
 
-RPROVIDES:${PN} += "python311-matplotlib-gtk3"
+RPROVIDES:${PN} += "python3-matplotlib-gtk3 \
+python311-matplotlib-gtk3"
 
 RDEPENDS:${PN} += "python-abi \
 python311-matplotlib \

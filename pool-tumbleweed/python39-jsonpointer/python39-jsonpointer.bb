@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.3"
 
-RPM_NAME = "python39-jsonpointer-2.3-2.1.noarch.rpm"
-RPM_HASH = "35b49f80c7beb77de521a87dda132f84ad9170285d95e79d492880ae01a4e100bcdb7332ec4d1530a23cd4aaa6956aec6247703762611d11e5478de96c532bdf"
+RPM_NAME = "python39-jsonpointer-2.3-2.2.noarch.rpm"
+RPM_HASH = "b7c7b49fe9e81c5930ba007ef9e3c7f42424ab061fa1b8a237882d2713343130e502088abb9f589e5d405de4a5447514091ea37fca9e393714d521dbeddb3c5f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-jsonpointer \

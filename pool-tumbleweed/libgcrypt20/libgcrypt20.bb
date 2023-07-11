@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.10.2"
 
-RPM_NAME = "libgcrypt20-1.10.2-2.1.aarch64.rpm"
-RPM_HASH = "c74135b9cbc009c04632002894ec9ff9578421ffbc80bc7e2d6e07e20521825e3071c47a7af3c4bdc7ee797064bf04d07b51778e9c264f73d31b97fb3a7b6245"
+RPM_NAME = "libgcrypt20-1.10.2-2.2.aarch64.rpm"
+RPM_HASH = "a5ad21c89ea9e8065f32e0121402c7c72592a0aa2b6d4925c4d1fb8e122d4c80d97270225d23f4334e4722d33dd3c058ad61f8b8732226517bdd6f501fe406d9"
 
 RPROVIDES:${PN} += "config-libgcrypt20 \
 libgcrypt.so.20 \

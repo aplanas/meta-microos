@@ -8,12 +8,11 @@ LICENSE = "MIT"
 
 PV = "0.13.3"
 
-RPM_NAME = "python310-pep8-naming-0.13.3-1.3.noarch.rpm"
-RPM_HASH = "a0683801c2d736de3527e5aa13ba4065ca67baf336d0c564edc4fe1ad08d62f1bf7f161ca56d622cca43519944c336a27ad93da75709844d78388064bfebc0bd"
+RPM_NAME = "python310-pep8-naming-0.13.3-1.5.noarch.rpm"
+RPM_HASH = "289bf7ece57de34defb3cd665420a0ee30250c4a0d23d72ffeed8a6cc12aab4ddf381a34d9f1bfe95adc7d91caa56507a2e74f8f818ca1bec01fba408f3cce6f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pep8-naming \
-python3.10dist-pep8-naming \
+RPROVIDES:${PN} += "python3.10dist-pep8-naming \
 python310-pep8-naming \
 python3dist-pep8-naming"
 

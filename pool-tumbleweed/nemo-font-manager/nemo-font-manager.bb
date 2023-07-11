@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.8.8"
 
-RPM_NAME = "nemo-font-manager-0.8.8-2.3.aarch64.rpm"
-RPM_HASH = "cba945b6c6c4d66ec3960b970da534b2316556a0ea627e07e21cd33f38ab7eb893ecfbbd73cac2d8743355232b8edd55f8a3d8fc00ecbc4bdce0b3f13339536e"
+RPM_NAME = "nemo-font-manager-0.8.8-2.4.aarch64.rpm"
+RPM_HASH = "e69b7e059fb4bbae7db9c158a90bab1886a22934d3890a869e14385225540fe4093db0dfd7df731012fc6159dd89dbd01a0c8735a9f8f8240814de0a4fe7851e"
 
 RPROVIDES:${PN} += "nemo-font-manager"
 

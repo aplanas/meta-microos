@@ -41,8 +41,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "5.3.7"
 
-RPM_NAME = "ghc-semigroupoids-5.3.7-2.3.aarch64.rpm"
-RPM_HASH = "29b8e17842f02518fa84db1e1c35a4284b7bdc38e6c0bc6177382d7f5d2202f7a5ce504eff5333c5842a1560e09a88a93ce0c49e6961c1087e41246eb0ec8b6c"
+RPM_NAME = "ghc-semigroupoids-5.3.7-2.6.aarch64.rpm"
+RPM_HASH = "f1dc9c131153f8192b7f1e3489d4113802d2bc2ba527030bd8220bbbb71826db417938f50cc34dd12fd1418b92e1fb8b1d83032effb2ee7d7381c4e597188cac"
 
 RPROVIDES:${PN} += "ghc-semigroupoids \
 libHSsemigroupoids-5.3.7-Ju2oK8NLhZKHdQ6h8GWNM1-ghc9.4.5.so"

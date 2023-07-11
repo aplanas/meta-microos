@@ -10,8 +10,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.5.3"
 
-RPM_NAME = "libsigrokdecode-devel-0.5.3-2.4.aarch64.rpm"
-RPM_HASH = "b23b81783a357514efd335aaf6f17c3023c0a334978e633609eb17edff2e0908b2a563d634de27880eae7849c07cb6a607f8b63508d32187203b6b759dd31ea3"
+RPM_NAME = "libsigrokdecode-devel-0.5.3-2.5.aarch64.rpm"
+RPM_HASH = "fb0f8ea49f9eb40364d83c2dfc9aaf5b11bc4102671190c154567d26bfdaa07c708c7970a0dafb98d0aab67a52ad7b7e19534d2d007f8525bb2b36edc85d79de"
 
 RPROVIDES:${PN} += "libsigrokdecode-devel \
 pkgconfig-libsigrokdecode"

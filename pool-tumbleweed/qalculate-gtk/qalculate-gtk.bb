@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.6.1"
 
-RPM_NAME = "qalculate-gtk-4.6.1-1.1.aarch64.rpm"
-RPM_HASH = "78ec4a1c8583b3eee952b5556a93dde3274c3a3b18fb36af79b7f3ef0fb1f1ee541aeb74a84ba58f86bc28dab0ef8f01ce44e811005166d6e407611aa664ecdc"
+RPM_NAME = "qalculate-gtk-4.6.1-1.2.aarch64.rpm"
+RPM_HASH = "5bded07afccd72480b255b9da97dde18fa2104188eb97b40f182262b62b50889efcfc97719e63194bb05375363568f8c537ca4366d7a96e9771e5ab745dfb6eb"
 
 RPROVIDES:${PN} += "qalculate-gtk"
 

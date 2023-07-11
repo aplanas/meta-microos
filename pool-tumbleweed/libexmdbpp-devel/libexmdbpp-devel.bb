@@ -7,8 +7,8 @@ LICENSE = "AGPL-3.0-or-later"
 
 PV = "1.10.4.b7a36f2"
 
-RPM_NAME = "libexmdbpp-devel-1.10.4.b7a36f2-1.1.aarch64.rpm"
-RPM_HASH = "6a65de4df40dc10c1a0089c6ee65a459040b653d9a19371da31cafaa6141cc92963bbf52fbb5b64d4d580fa4b33ef126a96fb47ce70385af2088a0ce61de716b"
+RPM_NAME = "libexmdbpp-devel-1.10.4.b7a36f2-1.2.aarch64.rpm"
+RPM_HASH = "f194d7a3fa7768c066f1c1d823bdf0ada0b62fb2583dd006f703869da91a0bcc9bf48f52a0dd64c504ca8b894a66ad1ac1af7f2efa9d9699c66855d0f0ee67b0"
 
 RPROVIDES:${PN} += "libexmdbpp-devel"
 

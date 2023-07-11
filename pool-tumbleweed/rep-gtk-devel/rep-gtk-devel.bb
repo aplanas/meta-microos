@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "0.90.8.2"
 
-RPM_NAME = "rep-gtk-devel-0.90.8.2-1.30.aarch64.rpm"
-RPM_HASH = "d7f8da87fac4d77ae97582977f38843d470506906852bf762c37c97960be487b30fbcac190781781b4c10ca20dd9d1831e5e8ae0410d8cfc32094cf40b993ef8"
+RPM_NAME = "rep-gtk-devel-0.90.8.2-1.31.aarch64.rpm"
+RPM_HASH = "c1782cf1ab17a9aee5ad8719d586f24b82d5fa9f1f57919bb561f2c41bdcc14b0056a28133ec3e4160fb7366a43dfb930c6dcfa4e576068141a366adb325c95b"
 
 RPROVIDES:${PN} += "pkgconfig-rep-gtk \
 rep-gtk-devel"

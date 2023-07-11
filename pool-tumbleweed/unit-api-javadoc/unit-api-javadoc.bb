@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0"
 
-RPM_NAME = "unit-api-javadoc-1.0-1.18.noarch.rpm"
-RPM_HASH = "7827080c22d845ad3e2114eb4786489699e5ad38a561524e8e870c2f67368acb194f395cd3cd13d62e50cc5455e85c6e3ac8c4c100c6812b625441425f864cab"
+RPM_NAME = "unit-api-javadoc-1.0-1.19.noarch.rpm"
+RPM_HASH = "202a6f4054e57da87998c017aced225c454123afc7ba943ae9fc7aeaf70f3bbe531f17f9269111884c033f9bab68942a8f7ffff75fa7f86f46f3f33e1c44658c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "unit-api-javadoc"

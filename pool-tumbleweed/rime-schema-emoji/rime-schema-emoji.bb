@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "20230603+git.5fdd2d6"
 
-RPM_NAME = "rime-schema-emoji-20230603+git.5fdd2d6-1.1.noarch.rpm"
-RPM_HASH = "01b7ea0f97e3d8a8ecbddbc5f2ddb424edf4629a340839954c28cff16f619ab118b963e4413aafb8ef2d04fac1701b4ed7c7b311ee1f9ea2cd2f3a7d71de719f"
+RPM_NAME = "rime-schema-emoji-20230603+git.5fdd2d6-1.2.noarch.rpm"
+RPM_HASH = "91474dcd0e2f14df9bd040918edbc3b6a2dd9beed2f85828280c1d20124d90ce79cc3b9a9de043b1ae0d6b3640add2e526f73fe5ba6ec6ce957829c29631837a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rime-schema-emoji"

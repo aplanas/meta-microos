@@ -10,8 +10,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.2.4"
 
-RPM_NAME = "python39-tinyarray-1.2.4-2.5.aarch64.rpm"
-RPM_HASH = "a70a9b0c139a2f2a5f140f9ca45be5e3a87b5b96677c7d4f6e8fe94166cc3536121eb08fa36d483566e401eb618cc0626e56e3260e5f8250fae466e514a37bca"
+RPM_NAME = "python39-tinyarray-1.2.4-2.7.aarch64.rpm"
+RPM_HASH = "bed338bca3ce756308d288a4afe5eb96bb0808a9dfb7927271ccaba7cbc256a7a44c6c5918d32bc4fa69f6479a2cf348221931028a1a970191261cd2e705bd4c"
 
 RPROVIDES:${PN} += "python3.9dist-tinyarray \
 python39-tinyarray \

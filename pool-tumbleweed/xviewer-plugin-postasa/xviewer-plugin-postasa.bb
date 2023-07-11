@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4.1"
 
-RPM_NAME = "xviewer-plugin-postasa-1.4.1-1.6.aarch64.rpm"
-RPM_HASH = "904321342c77078665357adcb50eebcba88af828d12554622feebc7dac1604e6ca6473f389c7c0e1d10514b7f1bd0c6ab141ae6c309afff8fc7f5ae8024c79cd"
+RPM_NAME = "xviewer-plugin-postasa-1.4.1-1.7.aarch64.rpm"
+RPM_HASH = "0e00a840c2e5ef01c8fd25be1214145804e3a14d5e832744851917d2d455e32edad1d641eec618df75cc84abf4ba10a573344e6607f31bd62650c89fd8c8667c"
 
 RPROVIDES:${PN} += "libpostasa.so \
 xviewer-plugin-postasa \

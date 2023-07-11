@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-psalterpahlavi-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "c8f659097142aa00529a593bbb4e6be94c777ad3bbd7d45454187b5b0892cbd1803e1f6a885a00d86b8a801047609eaddf2774ba07d3c036ab6896141dcb6ef7"
+RPM_NAME = "noto-sans-psalterpahlavi-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "3edfd71c65117eb79ddb9a11dde6db36c1177a6e0a64f36477401370976b9bdcae7ef512c9ef55c9ad3efe1f26dce729f6a5347a7017abbc01e4af91f085df56"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-psalterpahlavi \

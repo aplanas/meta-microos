@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.6.3"
 
-RPM_NAME = "python39-zypp-plugin-0.6.3-4.21.noarch.rpm"
-RPM_HASH = "de69a1f5655d79d2b454f71f7e050aa0375f81666cbaa829d3b280b6bb5ca14b85d9561c33f661ce11997637693cef4ee3cb4f4f59b71fa8799deefb1a8b39eb"
+RPM_NAME = "python39-zypp-plugin-0.6.3-4.23.noarch.rpm"
+RPM_HASH = "a1348de3e7bdbcfcdc4c8e60b2d39a92755263bd3e020b51b260c4daed857747f65f4286f661db3119f29fc08a6ee666638ebe692761df0c9982e435a03a4124"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-zypp-plugin"

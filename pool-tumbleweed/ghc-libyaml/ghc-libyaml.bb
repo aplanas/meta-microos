@@ -5,18 +5,18 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.2"
 
-RPM_NAME = "ghc-libyaml-0.1.2-6.3.aarch64.rpm"
-RPM_HASH = "af0dac99610c087334d94ebf5078159917e02ed721682ccae219e4f02f17bcffbed47d0fa8eb6675a00e9f4325e7b15eac798abf90908309dc4330f9dd2a29c4"
+RPM_NAME = "ghc-libyaml-0.1.2-6.7.aarch64.rpm"
+RPM_HASH = "f4a9de71ce82e8c54642a316bd0794b66350bce4dec86ab39e0b586a17c6efb8c5dc02d0785a66bff5c2d5804952eb0095d7b7a5362cd243b7ae3738af619edc"
 
 RPROVIDES:${PN} += "ghc-libyaml \
-libHSlibyaml-0.1.2-HGo47aMnIYAKZUBwKE0axw-ghc9.4.5.so"
+libHSlibyaml-0.1.2-6Gx0z1LjMeG6dZCnkkkmHj-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
 libHSbase-4.17.1.0-ghc9.4.5.so \
 libHSbinary-0.8.9.1-ghc9.4.5.so \
 libHSbitvec-1.1.4.0-FzBtDnbj1qCBVRHTrZUOXy-ghc9.4.5.so \
 libHSbytestring-0.11.4.0-ghc9.4.5.so \
-libHSconduit-1.3.4.3-dAZVHPSYjL2zQ4RzAuWi2-ghc9.4.5.so \
+libHSconduit-1.3.5-EjJ71P6EbmSGTrvJLquwgr-ghc9.4.5.so \
 libHScontainers-0.6.7-ghc9.4.5.so \
 libHSdeepseq-1.4.8.0-ghc9.4.5.so \
 libHSdirectory-1.3.7.1-ghc9.4.5.so \

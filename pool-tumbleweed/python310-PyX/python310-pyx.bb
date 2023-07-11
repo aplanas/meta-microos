@@ -7,13 +7,11 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.15"
 
-RPM_NAME = "python310-PyX-0.15-2.11.noarch.rpm"
-RPM_HASH = "134d3d0c8323d836f2cb4ddb95d464897f47c57e4d8c62a0cf5a99585985b73534ea04130e5b21a2c8a19a7148e115f2433a91b31b5816de8a0682373c6594f5"
+RPM_NAME = "python310-PyX-0.15-2.13.noarch.rpm"
+RPM_HASH = "7476f20b988bf44262a12e141b47d3ab718fac6cc8af6b578addfb34cec29b7d15872cf8b137325f0b90f6d1b4f35d27f0323b3487e20b72cc1f20dc2f231a11"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-PyX \
-python3-pyx \
-python3.10dist-pyx \
+RPROVIDES:${PN} += "python3.10dist-pyx \
 python310-PyX \
 python310-pyx \
 python3dist-pyx"

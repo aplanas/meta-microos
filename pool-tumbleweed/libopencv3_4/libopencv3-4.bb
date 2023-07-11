@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.4.19"
 
-RPM_NAME = "libopencv3_4-3.4.19-1.1.aarch64.rpm"
-RPM_HASH = "6cb588215f4ffbd060a7f5f784e192cf8423b101c3c0908f8c5e62bd33f2da480764a5e6d881455731f077dd3f57a81998ab4d6e32ae606e282ae22d1d966267"
+RPM_NAME = "libopencv3_4-3.4.19-1.3.aarch64.rpm"
+RPM_HASH = "da4f72aa128dff07f6a2202e7bd418b9cb6b6ff6cefc856b893205c03ee36ac59736894f32466336895da772fae926fef44da7cfc3b9e3006fedb2b010d8ba26"
 
 RPROVIDES:${PN} += "libopencv-calib3d.so.3.4 \
 libopencv-core.so.3.4 \
@@ -44,7 +44,7 @@ libavcodec.so.58.134 \
 libavformat.so.58.76 \
 libavutil.so.56.70 \
 libc.so.6 \
-libdc1394.so.25 \
+libdc1394.so.26 \
 libgcc-s.so.1 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \

@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "7.12"
 
-RPM_NAME = "wcslib-tools-7.12-1.6.aarch64.rpm"
-RPM_HASH = "ccea4b73dd353ee5311c10d67c74861c5faf9b40d95a461e84d9e7039d4f673e0773a8d449cd507a85406f66942fe205c46e512e23c333ae4b64386c8c6a66f6"
+RPM_NAME = "wcslib-tools-7.12-1.7.aarch64.rpm"
+RPM_HASH = "7d4c090eb3a6f52f736d8ae05c97b15ae6e94fbf9152b8fb0acf4c19ac2c17be2012f59193fcf8935d6136f23875052070748a1014563583cba0872733eae7da"
 
 RPROVIDES:${PN} += "libwcs-tools \
 wcslib-tools"

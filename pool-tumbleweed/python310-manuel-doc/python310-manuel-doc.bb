@@ -4,12 +4,11 @@ LICENSE = "Apache-2.0"
 
 PV = "1.12.4"
 
-RPM_NAME = "python310-manuel-doc-1.12.4-4.1.noarch.rpm"
-RPM_HASH = "01e854f27bece889bc30feef26f672d43cdacca0a30339b38ad17535726bbe55609a23ee8fb56cf6667afefa602020db26e66352f8c1eae9e07c8cfc8e7dd403"
+RPM_NAME = "python310-manuel-doc-1.12.4-4.2.noarch.rpm"
+RPM_HASH = "6428a06c603482d646310996ad585a8de99d705020e5baab67d94b34fa42ad7e189c4ca20eb500be8159fbe25b8f08db6332a00d1790d9a5d8e35257522034cd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-manuel-doc \
-python310-manuel-doc"
+RPROVIDES:${PN} += "python310-manuel-doc"
 
 RDEPENDS:${PN} += ""
 

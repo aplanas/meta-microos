@@ -2,10 +2,10 @@ SUMMARY = "Keylime tenant command line tool"
 DESCRIPTION = "Subpackage of keylime for tenant command line tool."
 LICENSE = "Apache-2.0 & MIT"
 
-PV = "7.0.0"
+PV = "7.2.5"
 
-RPM_NAME = "keylime-tenant-7.0.0-2.1.noarch.rpm"
-RPM_HASH = "91f2e1e51f3154054044998e066c7be5a72d290b25b86059d2be31479de245c46aeaca623d0b82d3d6a39d7fbf9f218ab6d9a9c322bac5674ba7de2fb0f43ed0"
+RPM_NAME = "keylime-tenant-7.2.5-1.3.noarch.rpm"
+RPM_HASH = "95fffcae44b30e96192ff353c7f022555549023c00a7f4227a78975ccf52ec32931e6874fd2074ac6f981860bf10babed2f34ea22183e8bdd632a64c29662548"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "keylime-tenant"

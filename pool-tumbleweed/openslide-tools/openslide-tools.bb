@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "3.4.1"
 
-RPM_NAME = "openslide-tools-3.4.1-2.25.aarch64.rpm"
-RPM_HASH = "c3a3e84e5d4bf36ce3180608887d53ef17ec3755e37d3e7423766a38f8f3de6928cd008f635b4a53e4f76da202b0c7c9d7b7d70e684ed263215645984673ac19"
+RPM_NAME = "openslide-tools-3.4.1-2.26.aarch64.rpm"
+RPM_HASH = "aafeec2e5e2764da91755f8341b9d0839f65709424a01c228ca45b707f0afd4a91d9e543f4fe559a366cd4110db469bd28f6f5bbee920f1eabca353f9202940c"
 
 RPROVIDES:${PN} += "openslide-tools"
 

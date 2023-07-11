@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.0.18"
 
-RPM_NAME = "vlc-vdpau-3.0.18-7.1.aarch64.rpm"
-RPM_HASH = "c2ab4a7679e9f4d7fb9a0d5027a7e34244425f373ba9832b5f366898dec73fbaf5ade2a81e0b5d3ed7e5b1d18b7642ae7bac6bc9b0400c387b7d9da57b0cb4bf"
+RPM_NAME = "vlc-vdpau-3.0.18-7.3.aarch64.rpm"
+RPM_HASH = "36f4c6995cfaa47cab4f2e8a1b682b2a4a2dd53903b7654b93408a6ba2f1c9cdd20bad8d675548b8682e057ab5c3d9b0b9822abcfe174ebd7aacd86dc14a95cb"
 
 RPROVIDES:${PN} += "libglconv-vdpau-plugin.so \
 libvdpau-adjust-plugin.so \

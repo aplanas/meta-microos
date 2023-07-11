@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "0.3.0"
 
-RPM_NAME = "python311-azure-cognitiveservices-anomalydetector-0.3.0-2.11.noarch.rpm"
-RPM_HASH = "e569e82ea65ce8c8e65d91eb2dde11bb84c578d146ec21a6c9bbd096edbe5c5d50f06d9821aed3d23f0c55055782c41f3e89ad6b99e0cedee64367b2f01a29cb"
+RPM_NAME = "python311-azure-cognitiveservices-anomalydetector-0.3.0-2.12.noarch.rpm"
+RPM_HASH = "969891763e1a03630e422c9f4a4cf5b3c9964d88d549222160407ab9c52c52110bfa83e2e5af289fcff24a8d1ada38e42f7f925bac5c3e709bfa691a086acdb2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-cognitiveservices-anomalydetector \
+RPROVIDES:${PN} += "python3-azure-cognitiveservices-anomalydetector \
+python3.11dist-azure-cognitiveservices-anomalydetector \
 python311-azure-cognitiveservices-anomalydetector \
 python3dist-azure-cognitiveservices-anomalydetector"
 

@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.5.1"
 
-RPM_NAME = "python39-websocket-client-1.5.1-1.1.noarch.rpm"
-RPM_HASH = "462e5ca0bebd171600a778787952d17904d1fb549e0f6ff4cf24ed1c6165c2af281eed358319954565ed989fe07f376d455ca77b249b201b713b7c22c0af5d0a"
+RPM_NAME = "python39-websocket-client-1.5.1-1.3.noarch.rpm"
+RPM_HASH = "944ef61f0992edd40adb6eb0cc31d921868d715a1108422fd90bdc6abcb0b9942f19e58520ecb8976c81db025bb299cbeb4a92c1c4c42d19dbdf065b79167ac6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-websocket-client \

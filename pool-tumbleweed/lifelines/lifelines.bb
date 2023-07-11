@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "3.1.1+3ad4571"
 
-RPM_NAME = "lifelines-3.1.1+3ad4571-3.13.aarch64.rpm"
-RPM_HASH = "d00bfbe721a74bf57266d8882cfbacc7979ea938d627a3bde0f25fb534c4ef2b8e3d14824590580fa1934ffe996e462ffb940b1b3caa6ecdf2808a69b91fa0f7"
+RPM_NAME = "lifelines-3.1.1+3ad4571-4.1.aarch64.rpm"
+RPM_HASH = "a61e481c8225d97c8f7211042ff9aa776d3a2a4d7e86a49590ed5caaf84ec2ebc9b617aab9e5427c6606ed44b2113cb87757d2078e4c9b52c09d3d2adf8eaf31"
 
 RPROVIDES:${PN} += "config-lifelines \
 lifelines"

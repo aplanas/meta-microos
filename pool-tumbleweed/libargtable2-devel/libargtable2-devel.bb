@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.0+"
 
 PV = "2.13"
 
-RPM_NAME = "libargtable2-devel-2.13-2.23.aarch64.rpm"
-RPM_HASH = "49dd01f25d8491a5899ab792d85d87fc1fc47a2066d552cd98d6efba6c6786bce6ef1724dc4db684f2a43fb72d8ff452d77e17370d1a3c129cc02419a2cdba13"
+RPM_NAME = "libargtable2-devel-2.13-2.24.aarch64.rpm"
+RPM_HASH = "403e4ad8c17b5741032c9411fde5b13829ac0fe1db6e6cd6bb7f568a7e3cdc21ab89f167e8507a195395fa6aa39f995b3737a509d22167e9265d72f12564afda"
 
 RPROVIDES:${PN} += "libargtable2-devel \
 pkgconfig-argtable2"

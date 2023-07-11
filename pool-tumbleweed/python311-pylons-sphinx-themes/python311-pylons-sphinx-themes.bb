@@ -9,11 +9,14 @@ LICENSE = "SUSE-Repoze"
 
 PV = "1.0.13"
 
-RPM_NAME = "python311-pylons-sphinx-themes-1.0.13-1.3.noarch.rpm"
-RPM_HASH = "a8cbd6227677fee24b4d52aaa938421f9a8a4212aa922870e89ad3027247d9ef3a41089686758c954307563b92ad5e174fbdb3e8878d05286861b2a8d80de7bf"
+RPM_NAME = "python311-pylons-sphinx-themes-1.0.13-2.2.noarch.rpm"
+RPM_HASH = "8136827cd9bf8103e5280dc1913e7ab2e7fd4b1a9ef67acd72c0786699b835151d817800c24805615bbe49afd3ebf75c122fc10ed511a71453be3c46c533263d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pylons-sphinx-themes \
+RPROVIDES:${PN} += "python3-pylons-sphinx-theme \
+python3-pylons-sphinx-themes \
+python3-pylons-theme-support \
+python3.11dist-pylons-sphinx-themes \
 python311-pylons-sphinx-theme \
 python311-pylons-sphinx-themes \
 python311-pylons-theme-support \

@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "2.0.0"
 
-RPM_NAME = "python311-azure-cognitiveservices-search-websearch-2.0.0-2.11.noarch.rpm"
-RPM_HASH = "ace38cf10bac81bd4a81de7aecc8b67e79932f0e757a501f6f66bd626958961252147e1fd86ff133d28dcae48072ae1438929037d5a7efdf2194abd5559f0287"
+RPM_NAME = "python311-azure-cognitiveservices-search-websearch-2.0.0-2.12.noarch.rpm"
+RPM_HASH = "c293c860e06abd7da3c38c5d52297114c779dcb887b82746a2568e46e71da147ef1a10e71e69b8933f3c6455aa01347f87692562ecaa68eb0653081e990acd48"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-cognitiveservices-search-websearch \
+RPROVIDES:${PN} += "python3-azure-cognitiveservices-search-websearch \
+python3.11dist-azure-cognitiveservices-search-websearch \
 python311-azure-cognitiveservices-search-websearch \
 python3dist-azure-cognitiveservices-search-websearch"
 

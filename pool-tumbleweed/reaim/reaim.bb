@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "7.0.1.13"
 
-RPM_NAME = "reaim-7.0.1.13-1.12.aarch64.rpm"
-RPM_HASH = "425ea95fcd23a964f72c2e22ec53a2d180b5e09fb81456279c4e171d59a1431ff4a16fcfad4a35b6b3de0b019b0b9cb64f8b6d94fe1bcadc75d818444bdb9415"
+RPM_NAME = "reaim-7.0.1.13-1.13.aarch64.rpm"
+RPM_HASH = "e9744e8f07b4ecf6eda5066020d6cf074b4bdad1ce41435051905dc3da4f5ee9def2d1e6d3745d4bc461633fc866e5b5ada79ad2a17363b4b1ad0cd29d1d0726"
 
 RPROVIDES:${PN} += "reaim"
 

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package ksquares"
 DESCRIPTION = "Provides translations for the 'ksquares' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "ksquares-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "543e647c5d8423464e5ffd19be3a3c5fc05b06332de285c15c444e84e1858929f962102c0bfbcd658b5b04303691ee34214e399232eb140a1130d6b6c32e775e"
+RPM_NAME = "ksquares-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "2338e93747029a6c8e689f339e82dfa9edd1ad8193ced200c0daf68e126d472da6a853f678dbe377dfe41bd823bcb04f81a4a761bc764d0fe0912206b34a0046"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ksquares-lang \

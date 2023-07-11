@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.23.0"
 
-RPM_NAME = "python39-crontab-0.23.0-1.8.noarch.rpm"
-RPM_HASH = "1d9208b61b08622f854039a6058b80bcec05b3b2515ab8cfbff7f0c0b3c80ccd289631e59b11ea10765cbd8d6e97d78c6bfca347ac03a4f138157a3a91eaf20d"
+RPM_NAME = "python39-crontab-0.23.0-1.10.noarch.rpm"
+RPM_HASH = "586dd7a579e427f9c9ce1d403925f71648d8fdc7ef6c4c1255efe335152f19513d7f5cb52f4c19ed0d90d0c3704a42eb52ff712fbf47af8500852b81d014df09"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-crontab \

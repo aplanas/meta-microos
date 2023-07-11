@@ -13,8 +13,8 @@ LICENSE = "SGI-B-2.0"
 
 PV = "9.0.2"
 
-RPM_NAME = "glu-devel-9.0.2-2.3.aarch64.rpm"
-RPM_HASH = "a5dc165970bc3f5fab108f117b9ae8d53fcec2bb3ac8ce15d7f884c04e2950fc6adbbcea8fc43162222041bdcbe49ff8cb40ee39c497917c04d660da5f3f2fb3"
+RPM_NAME = "glu-devel-9.0.2-2.4.aarch64.rpm"
+RPM_HASH = "a4b6d7bbc1a53241efda0b092932018464444b366f15529e57b13df8d6ef09f71bb468b02b68b648ace973635662dac35a82e7b49b5cbe8c25bbadb92e5e1c65"
 
 RPROVIDES:${PN} += "Mesa-libGLU-devel \
 glu-devel \

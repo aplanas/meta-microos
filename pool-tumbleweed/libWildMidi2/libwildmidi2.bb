@@ -6,8 +6,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.4.5"
 
-RPM_NAME = "libWildMidi2-0.4.5-1.3.aarch64.rpm"
-RPM_HASH = "32fd13d6996f58b7ddebc850b027d79567dd6cdae8aed4009f671e9e1b173e7b0571aa70d7f077a4524242482717e9a1bff1e5099032dde1cf9e7552da827ed2"
+RPM_NAME = "libWildMidi2-0.4.5-1.4.aarch64.rpm"
+RPM_HASH = "ae373bc37c2bc04060b61572da685f8e46b0a79476cd843588f586a4734bef596155de732393a8eec6983ebbb87d01e415233abf6fc099a3406fe8973f2de57e"
 
 RPROVIDES:${PN} += "config-libWildMidi2 \
 libWildMidi.so.2 \

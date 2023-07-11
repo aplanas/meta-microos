@@ -2,10 +2,10 @@ SUMMARY = "RFC 2136 DNS Authenticator plugin for Certbot"
 DESCRIPTION = "RFC 2136 DNS Authenticator plugin for Certbot."
 LICENSE = "Apache-2.0"
 
-PV = "1.31.0"
+PV = "2.6.0"
 
-RPM_NAME = "python39-certbot-dns-rfc2136-1.31.0-1.3.noarch.rpm"
-RPM_HASH = "ad3ca44c30a5cef4aaf6ad540b37e25a0fa40ae12668acb6e50c422525d6c8ca700a746786d7019826e75deacf04746ea1cda5e287451d92f035c4b1910158b6"
+RPM_NAME = "python39-certbot-dns-rfc2136-2.6.0-1.3.noarch.rpm"
+RPM_HASH = "742c3caff114fb0a2488668b32ca417b84280c72021df0ee2944bb36a03d185f0529da61ae187499d60f2cb095921b42599a6b652b8d616e90c87706bf4440ee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-certbot-dns-rfc2136 \

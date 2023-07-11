@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.3.0"
 
-RPM_NAME = "python311-cachy-0.3.0-5.1.noarch.rpm"
-RPM_HASH = "7c8c0bd141e007ec24c850b379fddea5adca52f54b601804ddc66e2053dea063988c1940ab80a1bb9c9106b9f631e9e96151b942de2f878439524a748b0a9cdf"
+RPM_NAME = "python311-cachy-0.3.0-5.3.noarch.rpm"
+RPM_HASH = "382be90e78b99d147eabd49130ce9bff1cd020b0973fd473c05018b0366e37611f4b406cc9fc5d17bfddc4bb20b6c57b8cffb17a45b42b3c7d5aa422ca6e7da4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-cachy \
+RPROVIDES:${PN} += "python3-cachy \
+python3.11dist-cachy \
 python311-cachy \
 python3dist-cachy"
 

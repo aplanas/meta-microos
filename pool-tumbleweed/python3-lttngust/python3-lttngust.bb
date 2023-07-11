@@ -7,11 +7,11 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.13.5"
 
-RPM_NAME = "python3-lttngust-2.13.5-1.3.aarch64.rpm"
-RPM_HASH = "83157f3e1eddc3973cde841a926733133b376890ac88ec38825a592899bd69de09e238df00719f9a0619fa1ced47c3e8ad969c5a7399da43c6b7ca65ab4d43e3"
+RPM_NAME = "python3-lttngust-2.13.5-1.4.aarch64.rpm"
+RPM_HASH = "0ab7f21abd4de2804498cdb3b66eaa7507258d575b2b433bfc6c0060dff41cbb3f6716a5ec6bce8a0301ddfa6abb4c66b72d54da4556042e14441c6d0a39cf04"
 
 RPROVIDES:${PN} += "python3-lttngust \
-python3.10dist-lttngust \
+python3.11dist-lttngust \
 python3dist-lttngust"
 
 RDEPENDS:${PN} += "liblttng-ust-python-agent1 \

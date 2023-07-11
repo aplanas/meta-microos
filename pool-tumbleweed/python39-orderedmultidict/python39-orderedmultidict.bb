@@ -4,8 +4,8 @@ LICENSE = "Unlicense"
 
 PV = "1.0.1"
 
-RPM_NAME = "python39-orderedmultidict-1.0.1-3.1.noarch.rpm"
-RPM_HASH = "dfe78e09c63b27c7d29a5386dff7bcae9cfca03d1ab6926f5dc4fae839d4f41653301ab4623d01a30e725eb41a74741db53546f7ee7bb53dba562dddfe12cb10"
+RPM_NAME = "python39-orderedmultidict-1.0.1-3.2.noarch.rpm"
+RPM_HASH = "da505000cd8228bafd02daa7de7bc9f15326dcce737c5128554a278ad7623b38887edff3958bb7c60a2a720c88c583fa51b6377852733c9feeb6b46916d3251c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-orderedmultidict \

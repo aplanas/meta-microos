@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.0.0"
 
-RPM_NAME = "libCoin80-4.0.0-1.7.aarch64.rpm"
-RPM_HASH = "0f6a41a433862495cf6bf3012224278856d6cdd7937ae7244f1f5f538fd5308cdca7ef5f48f98facd2de0ef2dbf67f771f890b0633a651c4bf7f5b242b37abcd"
+RPM_NAME = "libCoin80-4.0.0-1.8.aarch64.rpm"
+RPM_HASH = "53830b448f6edd6201fea7e073eb1623fd56c6d14685eb3894e559fb1b1bcfe313b61a4179ba7034f2c76524b1f3da350f6bb0b97ed7c63d5af9f14a86487757"
 
 RPROVIDES:${PN} += "libCoin.so.80 \
 libCoin80"

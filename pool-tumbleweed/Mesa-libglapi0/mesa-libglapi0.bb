@@ -4,10 +4,10 @@ functions. It is intended to be mainly used by the Mesa-libGLES* \
 packages."
 LICENSE = "MIT"
 
-PV = "23.0.3"
+PV = "23.1.3"
 
-RPM_NAME = "Mesa-libglapi0-23.0.3-349.1.aarch64.rpm"
-RPM_HASH = "47d371d3774f18a4e33cb1860d583544082d5a1f2bf323784afbecf1bde52873872ae7e263d89c4e29ce591c5fe47808001a5a4a4bb0ad9bdcbc8d3a699d6560"
+RPM_NAME = "Mesa-libglapi0-23.1.3-353.1.aarch64.rpm"
+RPM_HASH = "09028d490d8743a328fdde105bb547ac07336df4039fc126eed6dc1955c397df1b6d812d0a2167394ad6751d384a9ded68788c0a8f21611aad1edaceb51361d7"
 
 RPROVIDES:${PN} += "Mesa-libglapi0 \
 libglapi.so.0"

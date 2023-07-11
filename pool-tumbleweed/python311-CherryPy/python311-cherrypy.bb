@@ -14,11 +14,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "18.8.0"
 
-RPM_NAME = "python311-CherryPy-18.8.0-3.1.noarch.rpm"
-RPM_HASH = "981977c3c5523cc12b21493285fbdfb34ff7fe9f2176cc28bacb0e88f34af4ca7a08d66aa6eca8b330e3008eb5c728c0502f04365ea2f761b245735dc25988c1"
+RPM_NAME = "python311-CherryPy-18.8.0-3.3.noarch.rpm"
+RPM_HASH = "a7841f7c3fbcb412c576286eab48ad043729ed3ece7b5e1378ef3f66f9a0525a76cc0643962ab0a1e3b0fa7e5c005852b7562c3c1a7a75c51cac5b75245910e6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-cherrypy \
+RPROVIDES:${PN} += "python3-CherryPy \
+python3.11dist-cherrypy \
 python311-CherryPy \
 python3dist-cherrypy"
 

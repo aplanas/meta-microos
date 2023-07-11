@@ -5,10 +5,10 @@ page for more information about the cassette (table of contents \
 e.g.). The rotating package is required."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn15878"
+PV = "2023.208.svn15878"
 
-RPM_NAME = "texlive-mceinleger-2023.201.svn15878-52.1.noarch.rpm"
-RPM_HASH = "babd78df76eff8be460d47e02d68af219ab885986cfe1c46566d73672edbc5ae07d5646ba403c5ad0aeeb832836dd994e717e2f6799514064de33cbe2ca63012"
+RPM_NAME = "texlive-mceinleger-2023.208.svn15878-53.1.noarch.rpm"
+RPM_HASH = "c8a1cdbb1f953f2528edc1d02b0716cd2d31b122df9e7530e6039042b5c752758580e5185f894e45d82e0ba7443e2817eed8481268bd192c2b7d75f5c357260a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mceinleger.sty \

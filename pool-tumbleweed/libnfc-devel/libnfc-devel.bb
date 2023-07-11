@@ -11,8 +11,8 @@ LICENSE = "LGPL-3.0-or-later & GPL-2.0-or-later"
 
 PV = "1.8.0"
 
-RPM_NAME = "libnfc-devel-1.8.0-1.12.aarch64.rpm"
-RPM_HASH = "600a8ff2fcc3c6184ac5040116b3ee141d708faec3dc6c5d74e714441e832318896169947e54dc5b5fd077ae6c53182c0cfe5cba3e7a435775fefb2f11e0c27b"
+RPM_NAME = "libnfc-devel-1.8.0-1.13.aarch64.rpm"
+RPM_HASH = "f3265d4d68b690afc50531d62b723f6a40c73500df7c2b19e71b456b6350d1a2b784f95b6e4987a277208bbc69b62d7541774c9918157e12ed9b028a832a22c1"
 
 RPROVIDES:${PN} += "libnfc-devel \
 pkgconfig-libnfc"

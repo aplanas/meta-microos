@@ -12,8 +12,8 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "1.33"
 
-RPM_NAME = "perl-Sort-Key-1.33-1.32.aarch64.rpm"
-RPM_HASH = "22f6bcc95b8ebcb5e2e918a6de3926a92769996dd5fc4fb42af312697cc67d9e21e0d2c79d3f04a8a52b9af89a120c953ea48ddde35eb61a8bb0701bccd96c4d"
+RPM_NAME = "perl-Sort-Key-1.33-1.33.aarch64.rpm"
+RPM_HASH = "038b98fa55740bfaa1f69678ffef4a847ac276fb6d1a35f63773fff9977f4237202ab853c2c2f5ca80ed52f6d3fdd0494d0f4013b58f836107af074f3b732314"
 
 RPROVIDES:${PN} += "perl-Sort--Key \
 perl-Sort--Key--Maker \
@@ -25,6 +25,6 @@ perl-Sort-Key"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

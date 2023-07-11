@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.5"
 
-RPM_NAME = "parkverbot-1.5-1.5.aarch64.rpm"
-RPM_HASH = "b737beab8cf14a7524fc9ca40c1ec3381e210c74bce63fc19f9ea8fa2847dbce4d5bbcec20e8c18cb37394bdad543cf5614beda61f5a07f8c05fb250b411b29b"
+RPM_NAME = "parkverbot-1.5-1.6.aarch64.rpm"
+RPM_HASH = "495926dac638335c6a5a9822ac273fecd3915b0da8f63f511387946870b61fac9c65c4d7d9e33ab6e2889b681cf1fa127df217015511bc37d661ddd65251aed2"
 
 RPROVIDES:${PN} += "parkverbot"
 

@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.7.3"
 
-RPM_NAME = "libconfig++-devel-1.7.3-1.8.aarch64.rpm"
-RPM_HASH = "05222dc44c3088aac89131dec18fc794903a155ed17e5ca4868812ec4613259b46ad58ddd9fb0c73ca816eb504bf60ab9067d180b9ca33d92a253944141cdc6d"
+RPM_NAME = "libconfig++-devel-1.7.3-1.9.aarch64.rpm"
+RPM_HASH = "a9cb9a211aa20150f18ca1bca755f5524f6ef282ce2c319ac743a8d97ba5140fe512d1783df635785179247ec7f3779c6f9c08faa721ef7a0d4d4ee3b60b929f"
 
 RPROVIDES:${PN} += "libconfig++-devel \
 pkgconfig-libconfig++"

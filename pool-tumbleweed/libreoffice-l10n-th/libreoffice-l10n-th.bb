@@ -2,10 +2,10 @@ SUMMARY = "Thai localization files for LibreOffice"
 DESCRIPTION = "Provides Thai translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.1"
+PV = "7.5.4.2"
 
-RPM_NAME = "libreoffice-l10n-th-7.5.4.1-1.1.noarch.rpm"
-RPM_HASH = "a43fb5d1ddd6452d1480b62729943c781c5456b0060a0533e5ea6eebfdb8c5078ef4e5f566d15f92281ccae8e769aceb5e6c2cb90683ae996c3ca6aa01aa2234"
+RPM_NAME = "libreoffice-l10n-th-7.5.4.2-1.3.noarch.rpm"
+RPM_HASH = "cef982454c8321e6dfb627054fa038bcbd3739c9493855b6ca1bd0e1118dc1b5b3669aa8891ea565063b8aa29b55373437786a5f4617d4f67d15f98a05d798af"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-th \

@@ -12,8 +12,8 @@ LICENSE = "MIT"
 
 PV = "1.1.1"
 
-RPM_NAME = "libwslay0-1.1.1-2.8.aarch64.rpm"
-RPM_HASH = "72504b6dee3f8692867027adb01ee85b14acc737f5ed7cb8427cb92f2b63dc47c9ecb0b54374ab97498568dd1d11c50daf9e5e326c6cadf290252b3cc609f4fa"
+RPM_NAME = "libwslay0-1.1.1-2.9.aarch64.rpm"
+RPM_HASH = "8c747ad4e184b9905952817cdc0cccbd1c8036b543e9291f7c638f19dbe7de9410938a6c966a5cd8347a31e86e9414c6da4b28d1afc1035cd088d4bae65da3ef"
 
 RPROVIDES:${PN} += "libwslay.so.0 \
 libwslay0"

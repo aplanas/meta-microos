@@ -4,8 +4,8 @@ LICENSE = "CECILL-C"
 
 PV = "6.1.0"
 
-RPM_NAME = "ptscotch-mpich-devel-static-6.1.0-2.9.aarch64.rpm"
-RPM_HASH = "b18974ff66576791d23528fbd3fa2f14dc014f0f7a7492ee91fec5588468081cf471608653a3de013a3bf270296c451ddf46b2babefadc80501e125d3f3309b1"
+RPM_NAME = "ptscotch-mpich-devel-static-6.1.0-2.10.aarch64.rpm"
+RPM_HASH = "b046c390da11da37bee68d772962e59acdb0c166e0bdf31e6df0d50cece5e06edaa5fa38c38df4ea3327e4ea9e1e35bff4974575667050509e0ae364695532cc"
 
 RPROVIDES:${PN} += "ptscotch-mpich-devel-static \
 scotch-devel-static"

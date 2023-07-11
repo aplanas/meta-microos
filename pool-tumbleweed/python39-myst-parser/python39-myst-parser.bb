@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.17.2"
 
-RPM_NAME = "python39-myst-parser-0.17.2-2.10.noarch.rpm"
-RPM_HASH = "8e0ca478d759d36b096b0dfb63ffa3a01a4860035e029d47e5ee00ce84c8cc9142681009d5896580ee0d96bf7e04fb0243c6efb8821b1950962bc07d02832c0b"
+RPM_NAME = "python39-myst-parser-0.17.2-3.3.noarch.rpm"
+RPM_HASH = "098f8f6a65165726392e0b079123e27c7b5aa24be71c4e4cfafbf226831cad0cc76ceffa518ba2feabaf9d603f3f8fe1a25818c1a41684f2bf73d30db4553dc5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-myst-parser \

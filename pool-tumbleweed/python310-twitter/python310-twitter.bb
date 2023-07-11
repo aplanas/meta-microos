@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "1.19.6"
 
-RPM_NAME = "python310-twitter-1.19.6-1.4.noarch.rpm"
-RPM_HASH = "12e43bf27abb32922bcfa2ad8020e61ab8c6ac6056b8bd177c4fb9a028175a7251d1766ec48b8f47af6d781efb035569f9b74647c3322a068b33014844cbce49"
+RPM_NAME = "python310-twitter-1.19.6-1.5.noarch.rpm"
+RPM_HASH = "ba36e5a8fd8ae17e6f15119f0322ac288ef9321a72a57a275750472cb70b12c32864b1760af02b2d77487bbdaabcf28e63e6e91571ec07a1eaa02089f36897b6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-twitter \
-python3.10dist-twitter \
+RPROVIDES:${PN} += "python3.10dist-twitter \
 python310-twitter \
 python3dist-twitter"
 

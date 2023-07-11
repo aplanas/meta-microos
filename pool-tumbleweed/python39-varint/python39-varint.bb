@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.0.2"
 
-RPM_NAME = "python39-varint-1.0.2-1.12.noarch.rpm"
-RPM_HASH = "24c7c3cbb582d44ceb11c31a9398d87aef31786082fed07d4903e312fb36f15ba203f36f042ad16c8575377bdd0adb9a6ec559bb26dbe75f93653313be977cc6"
+RPM_NAME = "python39-varint-1.0.2-1.13.noarch.rpm"
+RPM_HASH = "5152cdf8d39af26cd7475293ce2c04aaed8a95110f8d619b6b49edd2bfbad5c3ff97bd8e7901f46e95e833f4d63aeecfbfa0e8440906522dc3d32829426d1089"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-varint \

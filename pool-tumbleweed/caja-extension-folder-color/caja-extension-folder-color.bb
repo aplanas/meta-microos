@@ -4,13 +4,13 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.0.88"
 
-RPM_NAME = "caja-extension-folder-color-0.0.88-2.8.noarch.rpm"
-RPM_HASH = "4ddf247f9f4df20d59d57c378b01aba68d195cbb2834b3fd47187f242ae3b15e45d47bd44a65b778cfafbb68e7ef727e33073233e4781926918199f37559e29d"
+RPM_NAME = "caja-extension-folder-color-0.0.88-2.9.noarch.rpm"
+RPM_HASH = "bda73e64b0f0f870eac8bd9beab62aede2e3945f00d5be14ceb0cb49ff461fa3ae7cc67cf9c46391c0a164df53fa8ef1faa1739543504ea785c32da3db5b78ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "caja-extension-folder-color \
 folder-color-caja \
-python3.10dist-folder-color-caja \
+python3.11dist-folder-color-caja \
 python3dist-folder-color-caja"
 
 RDEPENDS:${PN} += "caja \

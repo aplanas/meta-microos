@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "10.7.2+0"
 
-RPM_NAME = "libbudgietheme0-10.7.2+0-1.1.aarch64.rpm"
-RPM_HASH = "3135942d99dbaf3b509892ffc80b5d30e1816c6902bc04636fa9d27328330dae8c4e95721123572fcb0afaeb44d964371bac5a7459393ae16241bc70ada06726"
+RPM_NAME = "libbudgietheme0-10.7.2+0-1.2.aarch64.rpm"
+RPM_HASH = "5129d5413579789dab73688de817f77c381caca46956412918f6c88b0200f575ee5b8c4f6eb9a067f2b4bd51568040c5f3411e844f15cfa2d8f832ba7f37b1fd"
 
 RPROVIDES:${PN} += "libbudgietheme.so.0 \
 libbudgietheme0"

@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.6.4"
 
-RPM_NAME = "libfl2-2.6.4-6.20.aarch64.rpm"
-RPM_HASH = "d548579a06b1f04d4c14866a8b8895e9a50e8132a8e6e079eeabe345af495eb46e4ea6c6b78396e73e80c39539593cebafa793556960d307351f4baafa88e8be"
+RPM_NAME = "libfl2-2.6.4-6.21.aarch64.rpm"
+RPM_HASH = "ff83730acfdcfb62debd61a69d5f348274f7b0091d7763d0826351d9fe3991b143de65795afbe744e34ebea8d7ab57cee4acadc20c9c7246300bd7b689750fe9"
 
 RPROVIDES:${PN} += "libfl.so.2 \
 libfl2"

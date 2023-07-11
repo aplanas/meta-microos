@@ -2,10 +2,10 @@ SUMMARY = "Translations for package discover"
 DESCRIPTION = "Provides translations for the 'discover' package."
 LICENSE = "GPL-2.0-only & GPL-3.0-only & GPL-3.0-or-later"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "discover-lang-5.27.5-1.1.noarch.rpm"
-RPM_HASH = "b3c9a5ac1e2fdd05047fc17cd5f5333552d0a1f1d96fad3182c85278637b3b6b65bd64ecea49a7f95835d78ee0eb5988577cf1f66eae4675af807ba83350dcc2"
+RPM_NAME = "discover-lang-5.27.6-1.1.noarch.rpm"
+RPM_HASH = "7fb7e4ca654e8c35bb2ca72a8f2cebcc19667a046a3c0686ff343b74d652a9dab3025c2aecd40bd7a4494dfe98e46a2db9070ebc4e71a7d7b7465ce25011a3f1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "discover-lang \

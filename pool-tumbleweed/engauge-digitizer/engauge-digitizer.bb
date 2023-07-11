@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "12.1"
 
-RPM_NAME = "engauge-digitizer-12.1-2.4.aarch64.rpm"
-RPM_HASH = "4a524fd3cb3b3e04b41cdbfcc0d2203f3d973b724f794a093158e8c415a7902f0c1e1a26d524563b1eb4d33a6af4005ebe3213ef1a4657e774604f91f8c362d1"
+RPM_NAME = "engauge-digitizer-12.1-2.5.aarch64.rpm"
+RPM_HASH = "9f9b19cb2301afe68d23db7a98fdafa0d6b8a6d3fc6abd8d07ccda81c54b09efdcfacc688d49a598e769b74991673e8b771ab84a2303faa86efebc3354006fd4"
 
 RPROVIDES:${PN} += "engauge-digitizer"
 

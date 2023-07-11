@@ -2,10 +2,10 @@ SUMMARY = "Translations for package colord-kde"
 DESCRIPTION = "Provides translations for the 'colord-kde' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "colord-kde-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "13a64e54c9098f7cef50468bb725539a00e90de1a3ee4a7b4f68e812ae68e70cab80b6767c3ffc062cbd8dd2853150d3a2f500f0d8e660978da56a2d2ee94b62"
+RPM_NAME = "colord-kde-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "a101986631a9d25d5ed3e1ea160c16a5a33f155b2d971c1852808c909480456ea14ba556a7880789e0040fca4de43ae891d27efd72b9f09782c5fafeb9a306b5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "colord-kde-lang \
@@ -29,6 +29,7 @@ locale-colord-kde-fr \
 locale-colord-kde-ga \
 locale-colord-kde-gl \
 locale-colord-kde-hu \
+locale-colord-kde-ia \
 locale-colord-kde-id \
 locale-colord-kde-it \
 locale-colord-kde-ja \

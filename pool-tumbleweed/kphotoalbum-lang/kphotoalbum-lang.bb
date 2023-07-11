@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.10.0"
 
-RPM_NAME = "kphotoalbum-lang-5.10.0-1.1.noarch.rpm"
-RPM_HASH = "cb5192383b48e4d4f27aba4705cd442156c53f939521f677a6cf8adbbe1976d991c43789f2baabfd946545b5c7f81d90c4ff3cfdb8fad97dab96236a94881877"
+RPM_NAME = "kphotoalbum-lang-5.10.0-2.1.noarch.rpm"
+RPM_HASH = "8ad352ed08c89c143578842c515d8ef9ce8bad301a55182a7f33f9b92488bbc1b55ab3f1b3f74c8a836c03fe923257ac5c1d4fef18a0623562b873a7e4fa8da3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kphotoalbum-lang \

@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.1.0"
 
-RPM_NAME = "klftools-devel-4.1.0-1.13.aarch64.rpm"
-RPM_HASH = "f04e7426467bf2967585f818bf2253c882e89fd6a12409ba92b19cea74fe61e11897119fa5691c6dc3ade98dcbe4482bf82898dcc86286e7311c196117b96c62"
+RPM_NAME = "klftools-devel-4.1.0-1.14.aarch64.rpm"
+RPM_HASH = "3cb64606252707738e1c5e1d83841b4682370b6a695792ef8e2a24abce939c6bd29c5b4c7ce2eb72b9e5544e91ed1065ccecdae674532d9f3c05c8ebb4f7ebaa"
 
 RPROVIDES:${PN} += "klatexformula-devel \
 klftools-devel \

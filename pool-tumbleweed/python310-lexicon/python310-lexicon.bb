@@ -8,12 +8,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.0.1"
 
-RPM_NAME = "python310-lexicon-2.0.1-4.1.noarch.rpm"
-RPM_HASH = "f4c1d3c5c9ba8a2d868a38606d50e8ec56f2b90085251d1d4ee496cfd58ea4710d64103e701023500ea2c813c02677231e0f09bb7d6793434373c3b2406ee3a1"
+RPM_NAME = "python310-lexicon-2.0.1-4.3.noarch.rpm"
+RPM_HASH = "2aa46b0b48be4f1db313ee68338a598eb7e48f44cae05b990682bdf3b4462c6de7c378fee6d509317ccdf2da7b447baace5946a96745826ea9fa064ebaff083f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-lexicon \
-python3.10dist-lexicon \
+RPROVIDES:${PN} += "python3.10dist-lexicon \
 python310-lexicon \
 python3dist-lexicon"
 

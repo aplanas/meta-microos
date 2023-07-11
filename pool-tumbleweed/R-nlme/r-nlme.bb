@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
 PV = "3.1.162"
 
-RPM_NAME = "R-nlme-3.1.162-45.2.aarch64.rpm"
-RPM_HASH = "22b99db86b8b0dbae2a6562bc5299360ca9f625717ccf35f30ae84d2b78c29b57b0932349dca6fb88758ce7d56191f6b91c0f6eb2eed0111abfd897d84705eea"
+RPM_NAME = "R-nlme-3.1.162-46.1.aarch64.rpm"
+RPM_HASH = "86985dd3f5ee3ac0da1b766879a2d3bcd2abc4f057bb7cb8aeaf6d46681215dce2ab2028a7e54c5850173d219a01d7db7b3ab516175eb1ee223c7b4b039d3f15"
 
 RPROVIDES:${PN} += "R-nlme"
 

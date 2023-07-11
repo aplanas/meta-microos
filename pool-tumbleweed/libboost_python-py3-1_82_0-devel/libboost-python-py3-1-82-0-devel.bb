@@ -5,8 +5,8 @@ LICENSE = "BSL-1.0"
 
 PV = "1.82.0"
 
-RPM_NAME = "libboost_python-py3-1_82_0-devel-1.82.0-1.1.aarch64.rpm"
-RPM_HASH = "377de8a5e969928340cebfc11bd3a0917c1cd1a3dbcb3bb01456ad8e08e0710f2f3cc1f9b94b9714f17ace533ce23091fbd5bb6aba02717fcc2fe99a3cd9e868"
+RPM_NAME = "libboost_python-py3-1_82_0-devel-1.82.0-1.2.aarch64.rpm"
+RPM_HASH = "e8cdd8278dc5ed75a92f8e34e5f7b8178f486487bc0d6058922ade83548e816e001ea9b0d9ad7a9e93fe01ff8d5af251c5769bb81c3e27402754751fb09ddb60"
 
 RPROVIDES:${PN} += "libboost-python-py3-1-82-0-devel \
 libboost-python3-devel-impl"

@@ -4,12 +4,11 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.0.0"
 
-RPM_NAME = "python310-flake8-pep3101-2.0.0-1.4.noarch.rpm"
-RPM_HASH = "4d781bceea6e7c14cc265432d93adeb954f4b7e5f4e6ac6d64919d056a40ba857b425eb4b16cde3b5fcdd6a1d11da54ca098d06d82be602c129a8d177b2746cb"
+RPM_NAME = "python310-flake8-pep3101-2.0.0-1.6.noarch.rpm"
+RPM_HASH = "98686e7f5700fe62a43a10f0826cdcd689173306d2eb767397b8bf0d36ce84974209b44cd4133c6454fca124706ec77cb3482c46f8723192a69da57072060f54"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-flake8-pep3101 \
-python3.10dist-flake8-pep3101 \
+RPROVIDES:${PN} += "python3.10dist-flake8-pep3101 \
 python310-flake8-pep3101 \
 python3dist-flake8-pep3101"
 

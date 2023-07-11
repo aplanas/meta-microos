@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "3.1.9"
 
-RPM_NAME = "source-highlight-3.1.9-5.7.aarch64.rpm"
-RPM_HASH = "7d03dff7cf5b25afc393185c6c1783a9bbe6fae666dab2ae782e037b1bcc0aa7825effbd99e64b4e9bae9f64ed64e7c8e8718966fd6eda7f6a321243fbd76f30"
+RPM_NAME = "source-highlight-3.1.9-5.8.aarch64.rpm"
+RPM_HASH = "06d6c11a77445157283f93e2b8bb7f5b20dec8df948d690a0aff7e69018c195e55f293e1ab3677084843d42975ad39c55251865dcd4a836af4368009cebf6569"
 
 RPROVIDES:${PN} += "config-source-highlight \
 source-highlight"

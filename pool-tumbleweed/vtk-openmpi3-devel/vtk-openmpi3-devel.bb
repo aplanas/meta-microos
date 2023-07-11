@@ -11,8 +11,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "9.2.6"
 
-RPM_NAME = "vtk-openmpi3-devel-9.2.6-2.2.aarch64.rpm"
-RPM_HASH = "54aa34ab5aa21ba6bac0cb511f453802ce6adcd4bc72c8c4ee1b36287b6f283afd71e7b5bf6bf9f64b006a56dfc9725d2e3a8da5b9bbee381b4281054457dc99"
+RPM_NAME = "vtk-openmpi3-devel-9.2.6-2.5.aarch64.rpm"
+RPM_HASH = "5b9ce803ba98c243636f0d93cd6dc646a6b7912a51f703f12a396a4f92d61389e53db56dd67dabcc1517bd2d7183029c7453a8f0ad72684ca013d8603cc7d5e8"
 
 RPROVIDES:${PN} += "vtk-openmpi3-devel"
 

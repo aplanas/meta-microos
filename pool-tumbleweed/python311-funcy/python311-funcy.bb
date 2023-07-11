@@ -6,11 +6,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.18"
 
-RPM_NAME = "python311-funcy-1.18-1.2.noarch.rpm"
-RPM_HASH = "14779730049964c5c1cff8099e9106367c92f6cdc7092ff46a0501372b85786b0550fe13dc6fd68cb79eb1e2d5b3a1bc3283d3aa05764d49d064aa7f8a769492"
+RPM_NAME = "python311-funcy-1.18-1.4.noarch.rpm"
+RPM_HASH = "9841378f046ab1be09c73d9bc722d5f41eb443550e611b0e8227a203f4ff4741e6e3ddac6773045eb982eec0f73f1b51490d80af8d666f1cc1a49ada7eba635b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-funcy \
+RPROVIDES:${PN} += "python3-funcy \
+python3.11dist-funcy \
 python311-funcy \
 python3dist-funcy"
 

@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.7.6"
 
-RPM_NAME = "goodvibes-0.7.6-1.3.aarch64.rpm"
-RPM_HASH = "2911c6f94f22f0a76561783faa91c07d2d1f8c44c27b80f76c7948cf479d797374ab00fc6c9fbffd246c614ba1f5f8dff95be8d7a6bce15aa04cf0bb995e1c2a"
+RPM_NAME = "goodvibes-0.7.6-1.4.aarch64.rpm"
+RPM_HASH = "0baa88f455b39c69c4df1f8305f4b4a6a8933fa91edd138b3004eaa2544d0de0c0287fad10d39ee13687be00ea43949e135c51f8f840f8ba9310a33b480e9e15"
 
 RPROVIDES:${PN} += "goodvibes"
 

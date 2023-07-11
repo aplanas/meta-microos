@@ -10,12 +10,11 @@ LICENSE = "Apache-2.0"
 
 PV = "3.7.0"
 
-RPM_NAME = "python310-flaky-3.7.0-3.1.noarch.rpm"
-RPM_HASH = "696c8df4c2d4570e159a100e2a90b3d2b5917ef9b52a46a03b0abe3ac1c7b8194adb41309350e168274f1f72a5176b78a500228677e6b04389f6f1adb467a035"
+RPM_NAME = "python310-flaky-3.7.0-3.2.noarch.rpm"
+RPM_HASH = "c349366be620d543100ac233540c104ca4c5e3f75989131a7ffe8b022cf466ed81e4c90712801e073ac214e71665c657a1ec6e5b560891f3e27386d2f4ac0d34"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-flaky \
-python3.10dist-flaky \
+RPROVIDES:${PN} += "python3.10dist-flaky \
 python310-flaky \
 python3dist-flaky"
 

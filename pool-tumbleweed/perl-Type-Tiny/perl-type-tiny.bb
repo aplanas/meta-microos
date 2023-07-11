@@ -8,8 +8,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.004000"
 
-RPM_NAME = "perl-Type-Tiny-2.004000-1.1.noarch.rpm"
-RPM_HASH = "af7681424d5887c7c4e46c9226765506c5f78c395f71d8211e266575291997b647ce4723e4608f05f1a1eaa93b666fd50ee227c2b6200be4b628af7d4ec73252"
+RPM_NAME = "perl-Type-Tiny-2.004000-1.2.noarch.rpm"
+RPM_HASH = "7a225ab20197e62a56aa5143071249844952d968be4e17483be67d33a8ec7e154b54dd90d10e783ede9fdb42dd335051a514d7e98b0edef42b1d15012f449a08"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Devel--TypeTiny--Perl58Compat \
@@ -67,7 +67,7 @@ perl-Types--Standard--Tied \
 perl-Types--Standard--Tuple \
 perl-Types--TypeTiny"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Exporter--Tiny"
 
 inherit rpm

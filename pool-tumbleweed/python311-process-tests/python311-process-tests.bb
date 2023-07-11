@@ -4,11 +4,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.1.2"
 
-RPM_NAME = "python311-process-tests-2.1.2-2.1.noarch.rpm"
-RPM_HASH = "ef55f203d4388dbbdc2f92e72e6da3ead1d625e24525b802bb0cf3d4cc67669b2eed7a7207a7cf992e93e1a3a9b42dcdde6d6ea51fa7053b20c426e7aea942e0"
+RPM_NAME = "python311-process-tests-2.1.2-2.2.noarch.rpm"
+RPM_HASH = "e540257cd983255b8dc29688d8e6fa33c8fb0320b014ea06baf3dd546626c3fcdc7a6b7a6891e327e5094e95dcf42e7ae2a36d2f46b981fb7077673ac39d7d25"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-process-tests \
+RPROVIDES:${PN} += "python3-process-tests \
+python3.11dist-process-tests \
 python311-process-tests \
 python3dist-process-tests"
 

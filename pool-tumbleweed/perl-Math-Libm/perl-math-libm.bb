@@ -5,8 +5,8 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "1.00"
 
-RPM_NAME = "perl-Math-Libm-1.00-3.36.aarch64.rpm"
-RPM_HASH = "fb6550f8bd4247c8a6badab6846fb273bcd9d998284e053af5db45214277eab7cd96e18658ee23a88d81858cc33ae7ee2c2e4bd2482e5c69e105653d39d8cfd4"
+RPM_NAME = "perl-Math-Libm-1.00-3.37.aarch64.rpm"
+RPM_HASH = "f50a9e0101680a5168fac9fd4cee05503f44b06e3ebe2637dfd09ca89e96ec22c38b7acc0972abd141d40ff1d7c83569f4e2a1bf2e07d4a87e5f7b95e4721e29"
 
 RPROVIDES:${PN} += "perl-Math--Libm \
 perl-Math-Libm"
@@ -14,6 +14,6 @@ perl-Math-Libm"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

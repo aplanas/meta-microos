@@ -10,12 +10,11 @@ LICENSE = "MIT"
 
 PV = "1.1.2"
 
-RPM_NAME = "python310-plaster-1.1.2-1.3.noarch.rpm"
-RPM_HASH = "d764ec12db603a75d71a6d3f7dfd2c285f37ddcfcc06b4d3089a6a66d5aacec4f4b387328247ffc9e21c1edb1a14cba8d48173dfde404543592dac309fd4b7f0"
+RPM_NAME = "python310-plaster-1.1.2-2.3.noarch.rpm"
+RPM_HASH = "05ef0cfe7c329eb25e5aa3016763e3a05dc28311e403e7d92df6bd17961ec903048515507a09c30661dbce6105427419b9984cdb56ecfb81657d260fe21d2072"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-plaster \
-python3.10dist-plaster \
+RPROVIDES:${PN} += "python3.10dist-plaster \
 python310-plaster \
 python3dist-plaster"
 

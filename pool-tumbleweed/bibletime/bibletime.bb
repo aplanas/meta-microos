@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.0.3"
 
-RPM_NAME = "bibletime-3.0.3-1.7.aarch64.rpm"
-RPM_HASH = "c33181fbaaa5e7e978b16d8b0194648080c9b9bffc109fd013a7c56ef073b5fdf0202bb222051d2cdb3cdee7ffea03e6498a2714ebf95886d32bca80e163a62b"
+RPM_NAME = "bibletime-3.0.3-1.8.aarch64.rpm"
+RPM_HASH = "d56edfcbff862ca30debfadc6a9f7402fd23b3450ade9afd52298541aea41b7b9591ed9073fa73fd4783326bc2c578997ba9ed337103af3435627e90901d0fb8"
 
 RPROVIDES:${PN} += "bibletime"
 

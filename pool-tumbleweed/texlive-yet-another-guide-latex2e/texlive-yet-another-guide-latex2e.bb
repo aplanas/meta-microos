@@ -9,8 +9,8 @@ LICENSE = "GFDL-1.3-or-later"
 
 PV = "2023.201.1.1svn65714"
 
-RPM_NAME = "texlive-yet-another-guide-latex2e-2023.201.1.1svn65714-52.1.noarch.rpm"
-RPM_HASH = "b3f4cda31d6dea7e839f05d77fcb8ac4b3d01defc82f42abfdbda82f702e5cd68ace7b463e61aa7627ee0e31a3e4dd0b5ae838fef9cd53f94dacff688fe64c46"
+RPM_NAME = "texlive-yet-another-guide-latex2e-2023.201.1.1svn65714-52.2.noarch.rpm"
+RPM_HASH = "fd9e9d9142ed34bfd46c62cb1347083342f214a6eac407ae8080f154037a7ad3cdeed39013ee8b67a0d11afa9a3c01a08abc71453e8793aed9aae03f22b9a4f1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-yet-another-guide-latex2e"

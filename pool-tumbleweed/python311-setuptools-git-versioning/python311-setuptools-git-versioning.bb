@@ -11,11 +11,12 @@ LICENSE = "MIT"
 
 PV = "1.13.2"
 
-RPM_NAME = "python311-setuptools-git-versioning-1.13.2-2.2.noarch.rpm"
-RPM_HASH = "8f5e9a90c8061cafccbb007a33dc65047464bead2a9142c885f26478792336c266d0ebe3980a82a507accb40f7db8fc14c654f533c6a003cc64dfe3832ac37c4"
+RPM_NAME = "python311-setuptools-git-versioning-1.13.2-3.3.noarch.rpm"
+RPM_HASH = "bd051aa6f7eee0cd16332c355edee464541621e064bfc09ce8c9799e921b5e645d97d52ed15113ab66b9eeff398118091a0742ec007aa7ecaad9d89706bc7c5e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-setuptools-git-versioning \
+RPROVIDES:${PN} += "python3-setuptools-git-versioning \
+python3.11dist-setuptools-git-versioning \
 python311-setuptools-git-versioning \
 python3dist-setuptools-git-versioning"
 

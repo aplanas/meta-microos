@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.1svn29725"
 
-RPM_NAME = "texlive-purifyeps-doc-2023.201.1.1svn29725-53.1.noarch.rpm"
-RPM_HASH = "3695b4976da200772d4f84213836fea283a74129a9fa96f4b3e00503e77c8e324f9c51db5a6f7f5428932651e00c8d75f2f62fedc9f3af6eea60e9e2d39f45dd"
+RPM_NAME = "texlive-purifyeps-doc-2023.201.1.1svn29725-53.2.noarch.rpm"
+RPM_HASH = "0f0a6f9a8e4f44198c140504dc2620510afece010f549d7c4950fb5db1fb87b83a91025584217a2d1bda27bed049e5d1e6be4d6079ae63b2a6df8618ce042c4e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-purifyeps.1 \

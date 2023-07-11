@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.0-only"
 
 PV = "1.26.1"
 
-RPM_NAME = "atril-backends-1.26.1-1.1.aarch64.rpm"
-RPM_HASH = "305fb8d4007834d0844808c7291e8adc84b21ff3e1d4b1793da02712444cc8fb3556e581bb68332b9e4b1aebb65f09bcb356a16e9edc251cdf26bf6ae3849063"
+RPM_NAME = "atril-backends-1.26.1-1.2.aarch64.rpm"
+RPM_HASH = "b43d7a1041f8452c25020b694ee0c4a7974875e960a567705d5bccdadc7236705964602ea43a99d3b80dede24ea2cf66cafa628d45b4852a8b099add46b5c585"
 
 RPROVIDES:${PN} += "atril-backends \
 libcomicsdocument.so \

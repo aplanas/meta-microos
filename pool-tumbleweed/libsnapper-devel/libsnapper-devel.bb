@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains header files and documentation for developi
 libsnapper."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.10.4"
+PV = "0.10.5"
 
-RPM_NAME = "libsnapper-devel-0.10.4-13.2.aarch64.rpm"
-RPM_HASH = "315b231049ff94101424376a70cd90d236167aaa4703dd9cfcde68e572b65af1c4aeceac1b4228c3e7949174e995a1a40f17fc10cb5b520125767e8cbbcae6a7"
+RPM_NAME = "libsnapper-devel-0.10.5-1.1.aarch64.rpm"
+RPM_HASH = "4d2766ca9c527c16b358977d520cdabd559492d6f1788478b47538bcf3ccf8eecc832b60700d2e76c432d326c8e5d33238717e038bfd190fa5f9ed16adc0002e"
 
 RPROVIDES:${PN} += "libsnapper-devel"
 

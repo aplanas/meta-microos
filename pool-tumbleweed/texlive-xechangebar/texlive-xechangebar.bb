@@ -7,8 +7,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.0svn54080"
 
-RPM_NAME = "texlive-xechangebar-2023.201.1.0svn54080-52.1.noarch.rpm"
-RPM_HASH = "f6fa3017dcd1bb29b316c79f46214c42eb9ff51b8e48c7b9eed31efdccf8a675c7ebaef98c10ceaac9ac78e150662944d024b1a2f88659698310dede935021f2"
+RPM_NAME = "texlive-xechangebar-2023.201.1.0svn54080-52.2.noarch.rpm"
+RPM_HASH = "1e590cd6e3ad7cf2ee3f2c523f87341c3ea961221f11c726e9f594c99fc6ee0e0fec4439b43c95372cd7843f79a4e147ccb2a9fa14fbeb9888c6cbc966f0a533"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xechangebar.sty \

@@ -7,12 +7,11 @@ LICENSE = "MIT"
 
 PV = "1.0.8"
 
-RPM_NAME = "python310-pytest-httpserver-1.0.8-1.1.noarch.rpm"
-RPM_HASH = "0bb72631ee5236ceaf26e48c95987da5d9d783dfcc27aec974a7dfcaeb3fb8d6797a1d8435dcae45a578ae9940925d52fe630ff44b9283c4513ded5e6cde2099"
+RPM_NAME = "python310-pytest-httpserver-1.0.8-1.3.noarch.rpm"
+RPM_HASH = "6ee788dc76b2db4fb8e4f24b1ca4f443e023f25db2066b684d2fd6fa0c8e05296073e0107096f33ef53df724dd11b95010b137a4792b24f2c4a7ba8887721488"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pytest-httpserver \
-python3.10dist-pytest-httpserver \
+RPROVIDES:${PN} += "python3.10dist-pytest-httpserver \
 python310-pytest-httpserver \
 python3dist-pytest-httpserver"
 

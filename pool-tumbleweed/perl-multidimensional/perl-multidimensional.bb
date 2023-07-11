@@ -9,12 +9,12 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.014"
 
-RPM_NAME = "perl-multidimensional-0.014-1.26.aarch64.rpm"
-RPM_HASH = "4b3e1171739084abb4330800a4007a3d694abba61281a423ff2b5d86dec32ab9db1a42fb324f832d5aa9511f8bfc9e8882113c04f46eceed5671ae1debf25b45"
+RPM_NAME = "perl-multidimensional-0.014-1.27.aarch64.rpm"
+RPM_HASH = "a84561490e01dc7f160106d2720c81439b6a15726b36f3ceafe4781659cab98139f105910dc39a30c9f03a0ecf3f4dd59b36243616645b3eed6c05e6ac9a70f0"
 
 RPROVIDES:${PN} += "perl-multidimensional"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-B--Hooks--OP--Check"
 
 inherit rpm

@@ -7,11 +7,13 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.15"
 
-RPM_NAME = "python311-PyX-0.15-2.11.noarch.rpm"
-RPM_HASH = "202d7ffe762b5e662f5055e15828c1ec5deebee6635b0e394ef90b6e4067a11d3f0f27a353de50e0adabe9b61344d770509aeb25f973406bcff9fd017fcd50bc"
+RPM_NAME = "python311-PyX-0.15-2.13.noarch.rpm"
+RPM_HASH = "1f28966581a1ee3863cdcbe59afe4d8f746bc7f9e09f058a3e967f7d750f5fac6a335ba3f3934fe8620b4dcadb86284cf03714c77bb3292e5577ad67947d0cb3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pyx \
+RPROVIDES:${PN} += "python3-PyX \
+python3-pyx \
+python3.11dist-pyx \
 python311-PyX \
 python311-pyx \
 python3dist-pyx"

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.5"
 
-RPM_NAME = "PackageKit-gstreamer-plugin-1.2.5-9.3.aarch64.rpm"
-RPM_HASH = "37943b57cc3cefc5ef9e45658dbe844df42d6a955388d3e1c27d9fa55114ac91d7929228a1051076336f06eb7fbc61481cba0acb8325c9ac9403b523edc3be75"
+RPM_NAME = "PackageKit-gstreamer-plugin-1.2.5-9.4.aarch64.rpm"
+RPM_HASH = "c431d7bb9cf12018ae64c341666639f4e646e1efcac8a45a2d01bd4c3f6585a9cdfb328a109a89298393091892fd9a937bc3a9323e43edef70e4e0c45d5eaf25"
 
 RPROVIDES:${PN} += "PackageKit-gstreamer-plugin"
 

@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "7.6"
 
-RPM_NAME = "xorg-x11-fonts-converted-7.6-45.3.noarch.rpm"
-RPM_HASH = "00cf49329d82b579e1fbb8e6c966eaf12b4e66461f6fe4bc8cfcb6cc7b5210d20f752e7246ef7032e7f6f68927b7fd0e06400eccc4787b2bb315e66ba4df2ac1"
+RPM_NAME = "xorg-x11-fonts-converted-7.6-45.4.noarch.rpm"
+RPM_HASH = "90367c185b67207a4a054b59fd72891a9fba8edde79404b405e2f55d079ca3fa24eefc71cd8f78c1a8af29ca0c413bfa527e8178b09926f178d4055ed87438dd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

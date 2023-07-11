@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
 PV = "2.7.2"
 
-RPM_NAME = "libdrumstick-rt2-2.7.2-1.3.aarch64.rpm"
-RPM_HASH = "367ae149f6c78ac4f9692ba0371c6557938d841f41dbd3e757df82367a8f7e458cad0f01b44c37579370463900b3343dbe7a17f7c84d1fd3f9c8ac1876992647"
+RPM_NAME = "libdrumstick-rt2-2.7.2-1.4.aarch64.rpm"
+RPM_HASH = "41297fa8df05391e97efa88837d039d89a5475bfeaa079b2982686692f3f84fdb2c67a27b896ca27c0444f3d0a1fc978cab0519e3e2712fed778eef7bf129a4f"
 
 RPROVIDES:${PN} += "libdrumstick-rt.so.2 \
 libdrumstick-rt2"

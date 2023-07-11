@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.3"
 
-RPM_NAME = "libdialog15-1.3-9.7.aarch64.rpm"
-RPM_HASH = "a606d2546a4c2ee64466eaf267d513998a4f3e571e3292c6a0336d729f40671994dcc1324a4b07273e1b27ce8399cd03aebe66424df1c09d33f343e3f965faed"
+RPM_NAME = "libdialog15-1.3-10.1.aarch64.rpm"
+RPM_HASH = "a0bded24dd9a035e4bdd5a97e0bbb3ea85aabc6ff04ca8a51773fc355e9dbc5f46c1f41ca9e4a6a7184539270961296e95d3128f9c521f61c56ec07e494531c8"
 
 RPROVIDES:${PN} += "libdialog.so.15 \
 libdialog15"

@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn62210"
 
-RPM_NAME = "texlive-musixtnt-bin-2023.20230311.svn62210-91.1.aarch64.rpm"
-RPM_HASH = "216e232aaeceb639526f132163cc949ca0abfb7a8d6fb94a08f7b27de6b4b58c0a0bfc00ff6193655dce1701aea2479f0ac60d5a300f678e0310b8fdde92dab2"
+RPM_NAME = "texlive-musixtnt-bin-2023.20230311.svn62210-92.1.aarch64.rpm"
+RPM_HASH = "24e6eea4a1ae76ee99c1d470b3801dc3e108cef3979eaf0a6c7555666df723e383acfc69ad98396bc4c1ee9b4a164d1f90024e5a00c76608b063995e6f6c44a3"
 
 RPROVIDES:${PN} += "texlive-musixtnt-bin"
 

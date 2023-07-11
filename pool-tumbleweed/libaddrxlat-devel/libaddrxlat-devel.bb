@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later | LGPL-3.0-or-later"
 
 PV = "0.5.1+git3.g97c716a"
 
-RPM_NAME = "libaddrxlat-devel-0.5.1+git3.g97c716a-3.1.aarch64.rpm"
-RPM_HASH = "1172790d164703b2d96a5570d9f40c92ac1b4dd82176453efdc1185d561d606f2f7cd9b76f723a552fe10533ee6a5c477371df1239c708f104bfd455334bde53"
+RPM_NAME = "libaddrxlat-devel-0.5.1+git3.g97c716a-3.2.aarch64.rpm"
+RPM_HASH = "3383f7d5ff8751e5c3578f4e31cbff340d73f8fc08e0ac10851f59b595922673a573b4ed618a2f960cf062c1c934137f53c039f08cb0714b3895f29673e74a8b"
 
 RPROVIDES:${PN} += "libaddrxlat-devel \
 pkgconfig-libaddrxlat"

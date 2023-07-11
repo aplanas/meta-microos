@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.8.3"
 
-RPM_NAME = "ldns-devel-1.8.3-1.4.aarch64.rpm"
-RPM_HASH = "59793833beb1dddfa89784a99574fb2da519ed0e38734b48d10b0779f45b015c0fe43b7908e5834569a6e038f422713ff9c326e44f802d47b84b75aac644d9d6"
+RPM_NAME = "ldns-devel-1.8.3-1.7.aarch64.rpm"
+RPM_HASH = "df13bb0688275dc5ca44302c34268bd69d22953f5613db3033c61aebb9734c0f777f0be0edd52a28fbcf5122ea3ee7b85ec2438b4b1a8c043c755dccbfcfd9f0"
 
 RPROVIDES:${PN} += "ldns-devel \
 pkgconfig-ldns"

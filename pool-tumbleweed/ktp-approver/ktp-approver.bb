@@ -2,10 +2,10 @@ SUMMARY = "Channel Approver for KDE Telepathy implementation"
 DESCRIPTION = "A channel approver for KDE's Telepathy implementation."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "ktp-approver-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "1b92495ca10ec6072445404327fc7e82aa635b655d0d319f9a9ed8a97a88e74fcb2e2168a645f50bb3b26ff0dfdbec593e860b3a0b07950d1485ee7dd009c0d8"
+RPM_NAME = "ktp-approver-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "f21953c7d979b200c307e5a5945ead81be70a21e9ee437ccf1350df50b71d8b6a3379b4123aa4c94839075e4d60f3c08e3fc7555e2a48b1ed3442d631ad8663e"
 
 RPROVIDES:${PN} += "config-ktp-approver \
 ktp-approver \

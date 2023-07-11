@@ -2,10 +2,10 @@ SUMMARY = "Development files for the Qt5 testing library"
 DESCRIPTION = "Development files for the Qt5 testing library."
 LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
-PV = "5.15.9+kde154"
+PV = "5.15.10+kde129"
 
-RPM_NAME = "libQt5Test-devel-5.15.9+kde154-1.2.aarch64.rpm"
-RPM_HASH = "5b8f6186ef779db1f27292d7b80a90683ea19824b4ae114f87ade91da98fd8f8b5b816259e0c280524b6efe5eee17d2c78220f364157ac1bb9dca008ac8e4ee7"
+RPM_NAME = "libQt5Test-devel-5.15.10+kde129-1.1.aarch64.rpm"
+RPM_HASH = "541caaa32bd170665f22ec1bc99add1c21dd3cb6e3baee12bc01c0b8a0987751a9311b3fcc2c56a78e2adcf8e446a8f2810a80d30db2f5f6eb9a3a4d8394bad6"
 
 RPROVIDES:${PN} += "cmake-Qt5Test \
 libQt5Test-devel \

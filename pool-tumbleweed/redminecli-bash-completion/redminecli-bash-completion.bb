@@ -4,8 +4,8 @@ LICENSE = "CECILL-B"
 
 PV = "1.3.0"
 
-RPM_NAME = "redminecli-bash-completion-1.3.0-1.10.noarch.rpm"
-RPM_HASH = "9c5279fb2d063211add9fe7876f2a119e1fe5d2a607eaf48a7a51b4eae388cd985873122d420302bae57b18d8242270cdc51d4bff9cc85c09a75aa17c182d3d6"
+RPM_NAME = "redminecli-bash-completion-1.3.0-1.11.noarch.rpm"
+RPM_HASH = "4154b8558f826d9b05f6d6b76287c7d0e15e2f1e2f5f6e49de5de795d20851ed7bfae53d8e032cd27b5da17a31ec39fdfdee7f691cbec4ffb2b2468afaf6f98f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "redminecli-bash-completion"

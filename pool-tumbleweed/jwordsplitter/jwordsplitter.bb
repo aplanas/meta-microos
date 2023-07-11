@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "4.4"
 
-RPM_NAME = "jwordsplitter-4.4-1.18.noarch.rpm"
-RPM_HASH = "6b87b4d678f8c86bbadeed429d5c7842e86adbd3e59427494e5424b56322dd12f6a960de42eb51ecebcebb9ae6e5b0c545de43621752ca28dd6efc710c021332"
+RPM_NAME = "jwordsplitter-4.4-1.19.noarch.rpm"
+RPM_HASH = "f89b7680a34b511ee80e15d6903016b265d19b6e15aa51c7ac960f4b4efe89e16a07a6ab49173660371bbf79f4256991e7476b832416fdca36d4d7b7518d40d2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jwordsplitter \

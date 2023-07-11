@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "69.0"
 
-RPM_NAME = "avocado-common-69.0-6.10.noarch.rpm"
-RPM_HASH = "de3db5a06d9947ca237acf55885a5f57057b25e216b2a261ed2b979f4ff63edbd16baec1218758cbe8bc49305ef081f84cb5766e14b96374ebc4e854fbbe6aa5"
+RPM_NAME = "avocado-common-69.0-6.11.noarch.rpm"
+RPM_HASH = "bc965c2f7f1110f91e07b1d69441fd988e019f91d4e642154807953106a03e1fd692bebe64b12df3175b21336d0f680402e0734612dd76c5e2900cd6e030afaa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "avocado-common \

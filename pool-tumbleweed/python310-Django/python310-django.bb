@@ -2,16 +2,13 @@ SUMMARY = "A high-level Python Web framework"
 DESCRIPTION = "Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design."
 LICENSE = "BSD-3-Clause"
 
-PV = "4.2.1"
+PV = "4.2.2"
 
-RPM_NAME = "python310-Django-4.2.1-1.1.noarch.rpm"
-RPM_HASH = "af85c77e4716b7154ba1c55d1aaf138351106ef0b4899a1def9eb4d40b68da8312cf91dd34fb7de89e46a4296e6120f30fdb00f97f9680639447d89897959356"
+RPM_NAME = "python310-Django-4.2.2-2.3.noarch.rpm"
+RPM_HASH = "939c25cb3144fd2b3e1a8b39ab7842ab585a6b9b7308a2b6b8ae851e231e5e6f062dc42bea60dfc222ecac3408ddece92e97d9a7bdcefb974abdfd0c7b121c04"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-Django \
-python3-South \
-python3-django \
-python3.10dist-django \
+RPROVIDES:${PN} += "python3.10dist-django \
 python310-Django \
 python310-South \
 python310-django \

@@ -33,14 +33,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.41"
 
-RPM_NAME = "perl-Task-Kensho-Testing-0.41-1.9.noarch.rpm"
-RPM_HASH = "1f2f2403abc1a2af26a8865bab16fcd41b4007ad679109d61e5ca047e57949d55b4ca6159abdea3bccecf273b08f74bc5b0bddaecd5413087b3047d95369459d"
+RPM_NAME = "perl-Task-Kensho-Testing-0.41-1.10.noarch.rpm"
+RPM_HASH = "e96493ffa6602f82e0a5428ec4b77a6f5591a9123d91f4730d656ec46d2ccf2afe07afb690109f992a9786d95f3493bd4b229af8750c840e58ad76de632da644"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Task--Kensho--Testing \
 perl-Task-Kensho-Testing"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Devel--Cover \
 perl-Test--Deep \
 perl-Test--Fatal \

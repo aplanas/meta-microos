@@ -10,12 +10,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0b4"
 
-RPM_NAME = "python310-azure-purview-catalog-1.0.0b4-1.3.noarch.rpm"
-RPM_HASH = "ebba494a061bc962b223c7058f6af75914154430289ef486f5eb4f48fcecc345dfe9da2e9fcaf68f2c975fb51494a94a7ce885a5fd86d7565a68ae9d1a267120"
+RPM_NAME = "python310-azure-purview-catalog-1.0.0b4-1.5.noarch.rpm"
+RPM_HASH = "de51420246fe526cec560a962e033f1b13f0ebaf42a0968a5c372899ba902d31bd48a899a6dca4fa1037ff903d46449dc58a994bfa4b434e97b511f18840142a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-purview-catalog \
-python3.10dist-azure-purview-catalog \
+RPROVIDES:${PN} += "python3.10dist-azure-purview-catalog \
 python310-azure-purview-catalog \
 python3dist-azure-purview-catalog"
 

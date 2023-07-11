@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "0.17"
 
-RPM_NAME = "libratbag-tools-0.17-2.1.aarch64.rpm"
-RPM_HASH = "d91f201b777566fed1d67b417b940528caa5bd2c74198d46c3f01b595f3f13c8ea69a338bccb2385a0ac2769dd8927db08ff66ae161d5929172ccc6b3b666bca"
+RPM_NAME = "libratbag-tools-0.17-2.2.aarch64.rpm"
+RPM_HASH = "672e1475523c31237a7af2295f53f4e2315f9fa76c08ddadb72c72ebad4be3f2ba9df1beff3c9df284c4dc6b252f712cdb7a8b07b6504d9497110d4641561c6c"
 
 RPROVIDES:${PN} += "libratbag-tools"
 

@@ -11,8 +11,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "3.11.2"
 
-RPM_NAME = "geos-devel-3.11.2-2.1.aarch64.rpm"
-RPM_HASH = "07fc96ebf5698863aa7d12aa6e9ea85fc19b8632b807f60e676714390ac6dc966bafcac65fe93672d169fa15066e6d0f812d158fa4a843881f53a2e83cb53e10"
+RPM_NAME = "geos-devel-3.11.2-2.2.aarch64.rpm"
+RPM_HASH = "d1c902b6cbbdcc37e8d913687ba7a7581602dff8d9d81a81dbc85f13f9acf75bbe683d0a821e75adf2071d0305d4125d5891913dcd0fc62f1429db296d97c1d8"
 
 RPROVIDES:${PN} += "cmake-geos \
 geos-devel \

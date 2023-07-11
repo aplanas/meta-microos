@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later & MIT"
 
 PV = "7.45.2"
 
-RPM_NAME = "python39-pycurl-7.45.2-4.1.aarch64.rpm"
-RPM_HASH = "b5f23835eb71a6d9f58e0e7b2fb3bd04abfdfb15270c96fc0d48ca0ee11e02cb6ccd29f0e0e6f81a787e7f69ec5830b9a9fb57d0ca7566264d054ebb2067f8d0"
+RPM_NAME = "python39-pycurl-7.45.2-4.4.aarch64.rpm"
+RPM_HASH = "fe9c0cb80b24f27fd990fdd3764699cb24786eb8923ef776d45262bab82a0395520865de9d23a460990c94abc81f838f7dbdab9cdf8532cbe84c27e632237ca0"
 
 RPROVIDES:${PN} += "python3.9dist-pycurl \
 python39-pycurl \

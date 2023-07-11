@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.42.2"
 
-RPM_NAME = "lout-3.42.2-1.3.aarch64.rpm"
-RPM_HASH = "2f1b932946441db6ad3c6cfbc472201924ee5a89a601a905dc6bfb2c1a46379388d06395ec757e1d9cdda0b29ef9dbc03ed02bf95ca63693adbb7db7ccfe7953"
+RPM_NAME = "lout-3.42.2-1.5.aarch64.rpm"
+RPM_HASH = "5d7d449a675b1e7b3a6f4c8f941709a97829c0ef1997e91cca791affd26262e36abad1a15e215a3759c9674bf6f91ca6b2df401f6bb8d124611acad50f620c23"
 
 RPROVIDES:${PN} += "lout"
 

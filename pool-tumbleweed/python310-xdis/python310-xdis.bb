@@ -4,12 +4,11 @@ LICENSE = "GPL-2.0-only"
 
 PV = "6.0.5"
 
-RPM_NAME = "python310-xdis-6.0.5-1.3.noarch.rpm"
-RPM_HASH = "8756ba319de5886f68b76148539685bb554856f96f7b7308e6d2b6fb2ed4c887878b9ea14732c6e0a2a63d149bcf0199e0b70138f4db3671228a23f83f4334c1"
+RPM_NAME = "python310-xdis-6.0.5-1.4.noarch.rpm"
+RPM_HASH = "b00ab1f569ca5043102eeb1028a4790b15f4aa983c1e1adefc1a9dac6d156e5372cbfba1f619c3911daa60b0ef2cfe8052067ca07eda7eb1c824f44d1e1d0fcd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-xdis \
-python3.10dist-xdis \
+RPROVIDES:${PN} += "python3.10dist-xdis \
 python310-xdis \
 python3dist-xdis"
 

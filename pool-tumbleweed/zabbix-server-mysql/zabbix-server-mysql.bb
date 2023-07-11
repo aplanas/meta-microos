@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "6.0.17"
 
-RPM_NAME = "zabbix-server-mysql-6.0.17-1.1.aarch64.rpm"
-RPM_HASH = "070c53b7b49704997c4d484492426204070e2cc7a70d34731e0164a6008a76122b2afde56333697fb9dc6a767324a386e4a4df15bbe4dfbad3a76954c5c66566"
+RPM_NAME = "zabbix-server-mysql-6.0.17-1.2.aarch64.rpm"
+RPM_HASH = "c82b08fef0041874dcf0c1aae083d8c810236c91b32c94e70b8c4705b749686d318806380838c7b820019842c2e00dd918743535d5fda0a5b0ed71b4951d3da1"
 
 RPROVIDES:${PN} += "zabbix \
 zabbix-server-binary \

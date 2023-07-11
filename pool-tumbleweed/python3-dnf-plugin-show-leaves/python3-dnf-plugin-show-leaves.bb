@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.3.1"
 
-RPM_NAME = "python3-dnf-plugin-show-leaves-4.3.1-2.1.noarch.rpm"
-RPM_HASH = "fb0b8704e2a6a4d9cefceb267fcbfb23fcd727addc4b73eff02af89403c135aff1018c0c85ebbf1351b6ee9f6ab712f87f5132c6e97833d146bad858c7bd51d5"
+RPM_NAME = "python3-dnf-plugin-show-leaves-4.3.1-2.2.noarch.rpm"
+RPM_HASH = "147a2cc344b742494d142c3821adef68d6cec34f0208afa7c44734cc81744468cc5231e692e6bea943728436ad87f6d1f24ae271936a264414bab778d5fbb77f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dnf-command-show-leaves \

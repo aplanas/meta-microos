@@ -5,12 +5,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.2"
 
-RPM_NAME = "python310-pytest-filter-subpackage-0.1.2-1.1.noarch.rpm"
-RPM_HASH = "987bf2274e83eea9b08b9c20cecc25240e7a7cc54a44dfc22f7f12150278a73cf725e2251d57a9631d697781a4a0bdfe55c555a6fc20d97d79123eb874ebeaab"
+RPM_NAME = "python310-pytest-filter-subpackage-0.1.2-1.3.noarch.rpm"
+RPM_HASH = "cba1559987a256321f9099fbc0ebaae54529fac4f6398f14f53b57d2d200969e8f264ec2f24adbca2d05b56773cb1b0b16ffb1b540a4254ff4f198f73080f095"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pytest-filter-subpackage \
-python3.10dist-pytest-filter-subpackage \
+RPROVIDES:${PN} += "python3.10dist-pytest-filter-subpackage \
 python310-pytest-filter-subpackage \
 python3dist-pytest-filter-subpackage"
 

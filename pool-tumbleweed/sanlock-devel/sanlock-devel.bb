@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.8.5"
 
-RPM_NAME = "sanlock-devel-3.8.5-1.3.aarch64.rpm"
-RPM_HASH = "01729722c551145f5410b092864adfcdcf9468ed0b677ef0f1c35879b31885b2d411e5aa856f529f27e571830c7f57470569364678d2e5b2161de55b538fc68e"
+RPM_NAME = "sanlock-devel-3.8.5-1.4.aarch64.rpm"
+RPM_HASH = "94f8a2668d81aeba530ea551a22b12bb16617eadcd4d59ac0beb641a05b715ccbd08a906bbcc531335b229815f468bb1fe03caa0afcad426e79271bd4dfce269"
 
 RPROVIDES:${PN} += "pkgconfig-libsanlock \
 pkgconfig-libsanlock-client \

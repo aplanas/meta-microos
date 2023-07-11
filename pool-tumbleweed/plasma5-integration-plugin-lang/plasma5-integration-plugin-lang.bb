@@ -2,10 +2,10 @@ SUMMARY = "Translations for package plasma5-integration-plugin"
 DESCRIPTION = "Provides translations for the 'plasma5-integration-plugin' package."
 LICENSE = "GPL-2.0+"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "plasma5-integration-plugin-lang-5.27.5-1.2.noarch.rpm"
-RPM_HASH = "7e6f0b9db1489ef329aaba93ced276e6eb564a64fe48731b5bda76e28fdf036a7a312f5023b0891f34ed4919fa15fdedcfaeb8a61bff223912763dfa418bdfe3"
+RPM_NAME = "plasma5-integration-plugin-lang-5.27.6-1.1.noarch.rpm"
+RPM_HASH = "02b8c15f23f6dcfadc14d23715dfc548b9932a8fd7c13fe9d0eac5f24117ff3a54f007a25eaba3c069c9a19b4336bfca3b8a440b15a33bc726e143b5fadef7a8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-plasma5-integration-plugin-ar \

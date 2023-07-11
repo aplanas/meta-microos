@@ -3,10 +3,10 @@ DESCRIPTION = "Small Footprint CIM Client Library (sfcc) Header Files and Link \
 Libraries"
 LICENSE = "EPL-1.0"
 
-PV = "2.2.8"
+PV = "2.2.9~rc1"
 
-RPM_NAME = "sblim-sfcc-devel-2.2.8-1.23.aarch64.rpm"
-RPM_HASH = "1ee2eef0fc20d368cdfeb1bb68b548b055653db561cad282dc3c16859b30c13da69444b5829e2b31e16adac1436a36bd2ef528cfcb238b835bf175188e354df6"
+RPM_NAME = "sblim-sfcc-devel-2.2.9~rc1-1.1.aarch64.rpm"
+RPM_HASH = "d47118e45141570271832c50e623b56e71ddb633042da28d8a94c491fa1f8b5e61c2c9338b2415002b706c719d578319a7ef2a8bf2f2b99ad7fe67561d088fa6"
 
 RPROVIDES:${PN} += "sblim-sfcc-devel"
 

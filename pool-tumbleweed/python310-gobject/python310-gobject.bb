@@ -5,11 +5,10 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.44.1"
 
-RPM_NAME = "python310-gobject-3.44.1-1.2.aarch64.rpm"
-RPM_HASH = "6ab3e253cda5dbf14af573a8a915490c810beb90f82f4f24424d886cd33212db3e0af8ece5172a0d1c63aaf611a89bdf9de286e21d55db36bef20eee566497e2"
+RPM_NAME = "python310-gobject-3.44.1-2.1.aarch64.rpm"
+RPM_HASH = "676df8f02cbb318ae2b6f36fd6e3adbad44eb1fe6eaf7c35c81814afdeba85df157f9e915d70ea4207f350564fe79c1e238c3cad88cf7707dcc9a33609d2d242"
 
-RPROVIDES:${PN} += "python3-gobject \
-python3.10dist-pygobject \
+RPROVIDES:${PN} += "python3.10dist-pygobject \
 python310-gobject \
 python3dist-pygobject"
 

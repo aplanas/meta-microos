@@ -6,12 +6,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6.0"
 
-RPM_NAME = "python310-pyjokes-0.6.0-2.13.noarch.rpm"
-RPM_HASH = "245f2603d7e7813e5e8746b83af568f9ec9109386d4110edcd6a19a2b39b1b1b1d23dbc31773e36ad8ae472758f9d65e6ed434dcd1bbdbd3abf2783788d11398"
+RPM_NAME = "python310-pyjokes-0.6.0-2.14.noarch.rpm"
+RPM_HASH = "499e94c77c3865dae7718791cd6be7d623990f058fbc46d1c4a3d4103968f3851063a9cd347315565d43b2a3ff71bff3fac1d8c6cb9e9606af82ab701da37664"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pyjokes \
-python3.10dist-pyjokes \
+RPROVIDES:${PN} += "python3.10dist-pyjokes \
 python310-pyjokes \
 python3dist-pyjokes"
 

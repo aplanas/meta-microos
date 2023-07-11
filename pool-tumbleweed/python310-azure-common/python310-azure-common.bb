@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "1.1.28"
 
-RPM_NAME = "python310-azure-common-1.1.28-1.6.noarch.rpm"
-RPM_HASH = "5cb47c83bd5180dffc9eb0f82e05de64ced0ff5cd81928b6de0d19367b789d60a181ca470018629fd4d38226c4c55bb487c170b2f8d7f931243247ea89daf291"
+RPM_NAME = "python310-azure-common-1.1.28-1.7.noarch.rpm"
+RPM_HASH = "27ee2423d3102af2f22452ae69d52e3b70763abbe03f7996b1a86052dd602813f87e40336205072bf52b6128f1acf7541e86aef531860cb41d08775ba62de029"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-common \
-python3.10dist-azure-common \
+RPROVIDES:${PN} += "python3.10dist-azure-common \
 python310-azure-common \
 python3dist-azure-common"
 

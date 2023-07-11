@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause & MIT-CMU"
 
 PV = "1.3.0.1"
 
-RPM_NAME = "libttsmimic0-1.3.0.1-2.3.aarch64.rpm"
-RPM_HASH = "c35077cf9081f52c43a444f9762e7c144b5b3c2cefdf4457cc6668c95e7296e4e95eec57935a2541ad913699442cb6aed48faa46dd40f4b2b4de977cb379dd92"
+RPM_NAME = "libttsmimic0-1.3.0.1-2.4.aarch64.rpm"
+RPM_HASH = "6f6411f893299fa7b6c9e6889bc9a5bbb14a8196c61b17c0e8bfeba4c32e2b6e489f8b27742911be79a3db5886297b9fabdc5201b47ff53e73c98446c6d10ff4"
 
 RPROVIDES:${PN} += "libttsmimic-lang-all-langs.so.0 \
 libttsmimic-lang-all-voices.so.0 \

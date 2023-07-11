@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python310-azure-mgmt-voiceservices-1.0.0-1.1.noarch.rpm"
-RPM_HASH = "5aa6141b295924ea660039e400bd8c21516d54bfb904c288616b9f666aec6fe8690a0ca7250a6b85a66527fee6b0712587274ed57c736c9ed26b2b8652674816"
+RPM_NAME = "python310-azure-mgmt-voiceservices-1.0.0-1.2.noarch.rpm"
+RPM_HASH = "56a1ef6fe7f303d8bbf76091b5cc7626509c20f6273fb7b96747fb79ca37f86d20d1b50276b37d55dd15d05b2dec6d87630edbf8aec3cd6fa6642677e9cd67e0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-voiceservices \
-python3.10dist-azure-mgmt-voiceservices \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-voiceservices \
 python310-azure-mgmt-voiceservices \
 python3dist-azure-mgmt-voiceservices"
 

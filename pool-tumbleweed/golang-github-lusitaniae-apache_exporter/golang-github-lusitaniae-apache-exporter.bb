@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.11.0"
 
-RPM_NAME = "golang-github-lusitaniae-apache_exporter-0.11.0-5.3.aarch64.rpm"
-RPM_HASH = "6ee1f7fe5520357c82804ce60ae41be5893f4cd4a1519e68108b9d638b4972567a83f4e9af030c50626efaf0ee2ef02ae7e7763bd6e324d85b78122fbc29ebeb"
+RPM_NAME = "golang-github-lusitaniae-apache_exporter-0.11.0-5.4.aarch64.rpm"
+RPM_HASH = "5d32aa0e5897cff93b2d339192d68f13d9e32268975f67189defe98bd6f0b4e03bdd4f2f1810c8696f95a4315c0df2fe8a6ab64031c0412b08be72e9fa567a1c"
 
 RPROVIDES:${PN} += "config-golang-github-lusitaniae-apache-exporter \
 golang-github-lusitaniae-apache-exporter"

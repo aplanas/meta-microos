@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.2.0"
 
-RPM_NAME = "ghc-hashable-devel-1.4.2.0-1.3.aarch64.rpm"
-RPM_HASH = "73e86d3b09d22064dcbe4122e04ce3fb353ed73669a86f63cab810a6aab4271e4a0666d661a2f94257699f0baee8d8529adb3f3df7c6532f6d37b3d3823b40c5"
+RPM_NAME = "ghc-hashable-devel-1.4.2.0-1.5.aarch64.rpm"
+RPM_HASH = "5e22f8e10b5b0954e77d7785397e8b8f3692e2a73e17b45f626b22a22be8e9f58e0f839fe5f8617bd8d384debafe1345df07f403cc75aa8d43cb4c7808f8bcef"
 
 RPROVIDES:${PN} += "ghc-devel-hashable-1.4.2.0-FFBRhuY0w4YLmuLEs5uQAt \
 ghc-hashable-devel"

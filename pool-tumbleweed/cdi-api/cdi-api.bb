@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.0.2"
 
-RPM_NAME = "cdi-api-2.0.2-2.3.noarch.rpm"
-RPM_HASH = "bba805f9e89a265a3ae2d591a3fcfbb73334c002aa44cf2c0f5bdc8bc3d51827470f8482c16edb540605f652a80193060f5addfdf1dc867702ed4bd8e861a36a"
+RPM_NAME = "cdi-api-2.0.2-2.4.noarch.rpm"
+RPM_HASH = "76b84354baa636acf9b106ea5f2c96e6e90dc00bb2c9a8b8be85a8616f62d98b6ae3593f1da84b93918a7e8744b4a410dca9e370180a9249751fb9cea5a35ab5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cdi-api \

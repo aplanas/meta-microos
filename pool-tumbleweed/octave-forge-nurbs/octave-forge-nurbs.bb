@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.4.3"
 
-RPM_NAME = "octave-forge-nurbs-1.4.3-1.3.aarch64.rpm"
-RPM_HASH = "2efe95b30c5fa9d52bc57d61815e1ce8f7a6741c3b30ef6e612f5fa36c59eb119431fce740d8ba63e7a07b05b0d3ac5ab4985dae699abe758d2b9762dd35952c"
+RPM_NAME = "octave-forge-nurbs-1.4.3-1.4.aarch64.rpm"
+RPM_HASH = "b98837ce8251c1435f377af59df2ab738bc6e7565318aaafc32cc659131e5bce418057e59110fa7e50ceafcc77b63c27ee1c60908eafe31960b6cdab2fe81010"
 
 RPROVIDES:${PN} += "octave-forge-nurbs"
 

@@ -8,11 +8,10 @@ LICENSE = "Apache-2.0"
 
 PV = "1.17.1"
 
-RPM_NAME = "python310-annoy-1.17.1-1.5.aarch64.rpm"
-RPM_HASH = "dbc5754ba996aba8dc999221aea22d7a6d1d05af07c313066ab1fdd876aec0622ffd682b45d6a839370cf1a531f31d1026bfb5392fb0dac4f6635294dd39e6ce"
+RPM_NAME = "python310-annoy-1.17.1-1.7.aarch64.rpm"
+RPM_HASH = "39f82c893bf5f74b6f1af5edff6dbc7cab474a207109797c527ac2a41d70697dfcabfe097e814ef4071621e2284272efed8189923829e079b1546463cbe73cc2"
 
-RPROVIDES:${PN} += "python3-annoy \
-python3.10dist-annoy \
+RPROVIDES:${PN} += "python3.10dist-annoy \
 python310-annoy \
 python3dist-annoy"
 

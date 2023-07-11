@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "56"
 
-RPM_NAME = "libinih0-56-1.4.aarch64.rpm"
-RPM_HASH = "89dfec8df8cd509f8e10f57b91f0d2d7834b8e8177b07877535d3f4e095e7b78cbcc2acf576cd9f826c1adb1c8b8fbe6c5caf25ad8a183c66af403c678a25106"
+RPM_NAME = "libinih0-56-1.5.aarch64.rpm"
+RPM_HASH = "28db40151c040c4a8ee4332982693c3dc1fb04a08e90b0d30eba7a891a94c9884b839872dfdad5e9b9e84eb995e39c15fc19a42b1d7d3259108252072a274683"
 
 RPROVIDES:${PN} += "libINIReader.so.0 \
 libinih.so.0 \

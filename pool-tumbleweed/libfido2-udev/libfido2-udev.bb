@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.13.0"
 
-RPM_NAME = "libfido2-udev-1.13.0-1.2.noarch.rpm"
-RPM_HASH = "ba9bb1d2d9d1a5f01b5a50f4eb411413079752651353752d724d8a22577e348bf84566a3041666a1df14124cfa9ec0cdec6dc4381df80821e0c8d8fcf3a77392"
+RPM_NAME = "libfido2-udev-1.13.0-1.3.noarch.rpm"
+RPM_HASH = "ca60c60029cfb905cad76fdb7e7cd60e00944c3545e8f49732efed407eb38e93d0467721c27695a23b5121652dbf0d7c61f08cd3de854b3a6afb51d4c156f4e3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libfido2-udev"

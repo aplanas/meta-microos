@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "16.1"
 
-RPM_NAME = "pulseaudio-system-wide-16.1-3.1.aarch64.rpm"
-RPM_HASH = "e190cc59dc71293e7f9da3db14cdee1efd50052b4e0547500f0a668ea9062acd827aaffccbdfcc47c0751dbe439ff5ca59af0eca9fb11514d261df31610248e8"
+RPM_NAME = "pulseaudio-system-wide-16.1-4.1.aarch64.rpm"
+RPM_HASH = "65243ef7a49ef7d769861e25244ac898f6e96c997292f5ad66d830f9c4f92c9b6fbf3d5113a7021307f0b15267176708e6a6aa37de0747c5ecc06f06e4fd7863"
 
 RPROVIDES:${PN} += "pulseaudio-system-wide"
 

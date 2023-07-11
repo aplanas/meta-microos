@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.4.1"
 
-RPM_NAME = "maven-shade-plugin-javadoc-3.4.1-1.1.noarch.rpm"
-RPM_HASH = "2ad8d607d1de8c4292802a96b633dc0878e99ee893659c0d02199027091dae59de3b3a392afbab47e7e6d4071001289fe8e30162871c368ec360ece70a4596d2"
+RPM_NAME = "maven-shade-plugin-javadoc-3.4.1-1.2.noarch.rpm"
+RPM_HASH = "9bca1bf9565ec8df6743d6209ba3c4be6b1589c8d35e55afb8d7216a319b1006d4dcca9440f7e472afc634987d3691109366b15fe1f0bdae71d68d40aa2932d8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-shade-plugin-javadoc"

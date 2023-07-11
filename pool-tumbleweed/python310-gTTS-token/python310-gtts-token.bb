@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "1.1.4"
 
-RPM_NAME = "python310-gTTS-token-1.1.4-1.3.noarch.rpm"
-RPM_HASH = "cf78c8d44ac08e5920510d48eaf3e2ce609d2edb673f0b4d17b17cc9d75d34d4b205e6430cef39c76498363c0e181401c87859dd762feeff13bc1056fa7ca356"
+RPM_NAME = "python310-gTTS-token-1.1.4-1.4.noarch.rpm"
+RPM_HASH = "a8bd19d65d85da789a8443dec79a9c7766b45e67c81b9b778891d71cc6c069f09a407111034faa63fc96c94fa088b265797b30b1bc02961b2d1697e3d77b795b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-gTTS-token \
-python3.10dist-gtts-token \
+RPROVIDES:${PN} += "python3.10dist-gtts-token \
 python310-gTTS-token \
 python3dist-gtts-token"
 

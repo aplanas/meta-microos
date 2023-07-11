@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.0"
 
-RPM_NAME = "wxmp3gain-lang-4.0-1.23.noarch.rpm"
-RPM_HASH = "1483411e93f8f69cbabba9c6d201d7915591e54bdc3c2f7fc569f504944e31a5750336a3ef740aafd38b497881f0bf3a07087d076c33fa2a8047c544de04a3dd"
+RPM_NAME = "wxmp3gain-lang-4.0-1.24.noarch.rpm"
+RPM_HASH = "01055c4d007ac8be945d035255503a9a6f512bb6ab9bc3499393fe456d824d2ea459ea94160487e4373ff917b4cd4eb3790a1c13c7ed86a315eeb1e95b7cfd70"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "wxmp3gain-lang \

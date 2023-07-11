@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "5.3.4"
 
-RPM_NAME = "python39-pynamodb-5.3.4-1.2.noarch.rpm"
-RPM_HASH = "b74bd04b2e15ba8faf5717d9bd7bc379d8371e54e3795492f42a9b1c8e36ab0e75a5efa6e203475fe2091c4ab2fb019805604e7f379bd276843e38ed4450e159"
+RPM_NAME = "python39-pynamodb-5.3.4-1.4.noarch.rpm"
+RPM_HASH = "74b82a94da05efb255c1432dafd6147d7e7fd072d0065741b2fc0b09926e9c484f028b29bc6e74de9c66eca99276f074cbd58412c7ed381802d22729b6dd6f48"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pynamodb \

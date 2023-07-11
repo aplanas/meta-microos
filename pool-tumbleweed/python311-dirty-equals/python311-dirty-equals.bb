@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.5.0"
 
-RPM_NAME = "python311-dirty-equals-0.5.0-1.3.noarch.rpm"
-RPM_HASH = "e0f18f797ae518a144f8472ec350adeb5d9464cf2e41a6ce1aad46be3bd809eb027f95971f7b6abd264e0f96a40137a86fc9a6e6e307931f4a5446f81272fe0c"
+RPM_NAME = "python311-dirty-equals-0.5.0-1.5.noarch.rpm"
+RPM_HASH = "c07eaa0ad4723569b55c0f6217795959c92921a845dc63a1b76b39ec3113f0689198f3bf92bdfaf163c8738ab18d6cbbb082283c1e8cc446b445857a3d7ac334"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-dirty-equals \
+RPROVIDES:${PN} += "python3-dirty-equals \
+python3.11dist-dirty-equals \
 python311-dirty-equals \
 python3dist-dirty-equals"
 

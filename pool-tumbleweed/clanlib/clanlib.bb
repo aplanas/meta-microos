@@ -4,8 +4,8 @@ LICENSE = "Zlib"
 
 PV = "4.1.0"
 
-RPM_NAME = "clanlib-4.1.0-2.10.aarch64.rpm"
-RPM_HASH = "cf6674257ae32abc70eda433b33283ab8a051e30cb6bb815c7ef7e381bbed4cdab57077e238805c40d9fbe08ec9022c81dd00a5711e9faf38af57c7c435c9f4f"
+RPM_NAME = "clanlib-4.1.0-2.11.aarch64.rpm"
+RPM_HASH = "08ce8d0fde48544054bd236b6956859641e1b11014ecd3acf1311543bc08d8588c89c18fc382aeb91b0ccf2217bd4cc1404d25b0c41caeb151fcf97c69b18247"
 
 RPROVIDES:${PN} += "clanlib \
 libclan41App-4.1.so.1 \

@@ -4,8 +4,8 @@ LICENSE = "Unlicense"
 
 PV = "3.6"
 
-RPM_NAME = "mg-3.6-1.1.aarch64.rpm"
-RPM_HASH = "183bcc3484e56e083688dbdd4df3acf5d9cab744bf0774733a25dfac269208626cc5a0d6996d48bf7415fc2340b39ae6cd7cef021dca6803c20925a397591c56"
+RPM_NAME = "mg-3.6-1.2.aarch64.rpm"
+RPM_HASH = "c9118b009b7c9080ca0be206ceeb6976b0b7795cb855db35eaf037f176ecbd5a7776815c149c1b55bcbfbfd11ef7fc10bcc36925b5b998f0e5a08c60eeb006e3"
 
 RPROVIDES:${PN} += "mg"
 

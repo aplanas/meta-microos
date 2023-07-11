@@ -6,10 +6,10 @@ Furthermore, it is possible to watch two different chess engines playing \
 against each other."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "knights-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "aa4b797360f2100d3da4c3aca8349c7991f8237e18acb6a9ea799614bdbf5b455332779c62c7d00207aeec12161e53ecb85d7ada782b015355d8d8b05445a949"
+RPM_NAME = "knights-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "f5e1887096f851d255df6daa2cc2a916015ea0239f48872042084990078c912ca2fd6979a6b501321104e0df78113a21f5660405d6511e3b08704c3281d97d8d"
 
 RPROVIDES:${PN} += "knights"
 

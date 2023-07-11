@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later | MIT"
 
 PV = "0.10.1"
 
-RPM_NAME = "libmesode-devel-0.10.1-1.11.aarch64.rpm"
-RPM_HASH = "5b7cefd283b9c28cbb450f48fb03add2db0b3bc4794af171ce438df976c2473826a171fff70b20423123f7030bcfd84c2f1797cf6f5d9fb100b6115d97f0ea40"
+RPM_NAME = "libmesode-devel-0.10.1-1.12.aarch64.rpm"
+RPM_HASH = "4ef9d5b89582ebce0c44d384990d3983bf7d60f4b1ed5c050f55387109bfbca231cbdaa06afaf01e33e3cc0a2fbd072415a0e997cb62c4682c1a13c7350f2346"
 
 RPROVIDES:${PN} += "libmesode-devel \
 pkgconfig-libmesode"

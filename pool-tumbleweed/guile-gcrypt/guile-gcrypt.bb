@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.4.0"
 
-RPM_NAME = "guile-gcrypt-0.4.0-1.2.aarch64.rpm"
-RPM_HASH = "360dfc70560f7ac8441ed8fbeefbc6e4520cf970b3e28b843f4adbb213eebcdbca293f70bfce0dd7441235ee24c1919300f13bb5bcb0bf01a40dac9a04aad29c"
+RPM_NAME = "guile-gcrypt-0.4.0-1.3.aarch64.rpm"
+RPM_HASH = "c8032d0de5de6b0b1bd38b2c1ba49a0f693384c255bda70387c36a28ff5a7205e260616f9385b365c24eb3b53f6bd19aa6c40601aa2a92040b99e92bb22140a8"
 
 RPROVIDES:${PN} += "guile-gcrypt"
 

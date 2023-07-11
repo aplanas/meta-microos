@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.0.12"
 
-RPM_NAME = "apache2-mod_perl-devel-2.0.12-1.8.aarch64.rpm"
-RPM_HASH = "7af432681e20db52f147eb26f3349af3ab043d8ea9c0c48612855cf9fd4f0338a124cb641679dbc6240ac6a659dd98acf36390069b6981d17b233be3e2baf3d0"
+RPM_NAME = "apache2-mod_perl-devel-2.0.12-1.9.aarch64.rpm"
+RPM_HASH = "7ca13d5c01b993b2fcdb2885138473ead5ceb00151e50dca807fa576e537099ab3568f06cf512872a36eae3990eafa87c1f0be41581e543cc77bf08ea846766d"
 
 RPROVIDES:${PN} += "apache2-mod-perl-devel"
 

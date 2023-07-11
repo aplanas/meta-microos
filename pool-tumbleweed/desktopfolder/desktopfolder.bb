@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.1.3"
 
-RPM_NAME = "desktopfolder-1.1.3-3.7.aarch64.rpm"
-RPM_HASH = "c9d6e48a908660792a675df2181b4461f51c744bfffd7a246cd7f1b0cb24142756654fd22c4c1c5a246c817da6d1f8c77c57c0257010ff6e5a409cfb3cd8ddb5"
+RPM_NAME = "desktopfolder-1.1.3-3.8.aarch64.rpm"
+RPM_HASH = "63034fd1ea8dee841ec0d48776b03f31ea5063e34558b8ce844f28e486428059aa3549a69e19bedc7b58c352a187ce62c0593b0e3fb3f214d1cc39a5012e54f9"
 
 RPROVIDES:${PN} += "desktopfolder"
 

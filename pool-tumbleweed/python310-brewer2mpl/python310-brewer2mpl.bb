@@ -10,12 +10,11 @@ LICENSE = "Apache-2.0 & MIT"
 
 PV = "1.4.1"
 
-RPM_NAME = "python310-brewer2mpl-1.4.1-3.2.noarch.rpm"
-RPM_HASH = "8ed4e4869f2b50c5c493a200773cd07ff51fa7f9cae9d1a82f8a9e705c762dd62cb2aa09468bd7ac91d1075ef8499f85432d0c0caac0206bedba96d916c1e885"
+RPM_NAME = "python310-brewer2mpl-1.4.1-3.4.noarch.rpm"
+RPM_HASH = "0994ecd53211a53f4c27a7ba9ec258efa0b35a25dd6a89ca97d49a5d9f4919ddb00b7937d0aaa294b752cf664c9693db4ec13b9a425bfe5b470b8b024231afdc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-brewer2mpl \
-python3.10dist-brewer2mpl \
+RPROVIDES:${PN} += "python3.10dist-brewer2mpl \
 python310-brewer2mpl \
 python3dist-brewer2mpl"
 

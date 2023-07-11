@@ -8,10 +8,10 @@ Armadillo C++ library. It contains header files, example programs, \
 and user documentation (reference guide)."
 LICENSE = "Apache-2.0"
 
-PV = "12.2.0"
+PV = "12.4.1"
 
-RPM_NAME = "armadillo-devel-12.2.0-1.1.aarch64.rpm"
-RPM_HASH = "b24ff9d78b40063846173f4c8b424df72e64e8a6192e0911e96b7abbca1a8c7eed93964f807e60d73c7e2f9465a09fe79929a397ae28fdd19908ed4ec3880cc6"
+RPM_NAME = "armadillo-devel-12.4.1-1.1.aarch64.rpm"
+RPM_HASH = "7070791116892981052565a5e1c706d1e1f46f8d670f836ce086a98824d22e286264fd83f8ede7ab519605379e12dd16ff346916092bc2f3f45b1c4e932eb1eb"
 
 RPROVIDES:${PN} += "armadillo-devel \
 pkgconfig-armadillo"

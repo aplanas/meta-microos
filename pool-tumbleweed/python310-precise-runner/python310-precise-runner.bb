@@ -4,12 +4,11 @@ LICENSE = "Apache-2.0"
 
 PV = "0.3.1"
 
-RPM_NAME = "python310-precise-runner-0.3.1-1.15.noarch.rpm"
-RPM_HASH = "f6f0caed456cec9927a54c5f3a096ff3eee3a1db66dea585d070b12ed5ac04498589cbd9d1f36da7e2901e0195c6c56be89b447dcc75fc09880014475933f96b"
+RPM_NAME = "python310-precise-runner-0.3.1-1.17.noarch.rpm"
+RPM_HASH = "f7c972e4a8a508081072079b6aa3c63ea3456185d640ecf1a33b215c97925864f211fde82c4551a46f25aaf919d0c5f66d7622fc16711068965ab1e252c6c431"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-precise-runner \
-python3.10dist-precise-runner \
+RPROVIDES:${PN} += "python3.10dist-precise-runner \
 python310-precise-runner \
 python3dist-precise-runner"
 

@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only & LGPL-3.0-only"
 
 PV = "0.5.6"
 
-RPM_NAME = "bamf-devel-0.5.6-1.4.aarch64.rpm"
-RPM_HASH = "01a72e234292f90796743a0574aeab446382c89bc81d894b4e6ee648e800b41b2d836af438af247a0cc1dc8ba0ac3bd78771e9a97bd09f05374b10d869bea8c8"
+RPM_NAME = "bamf-devel-0.5.6-1.5.aarch64.rpm"
+RPM_HASH = "cd63bd5734fc5cb4e57af9680295058bf2e37d7d834e164bb5bd939644a6676fbb89dbbce493294d6ff4ff594294bc12b903e4d98db2da3b9cba07cc650b2815"
 
 RPROVIDES:${PN} += "bamf-devel \
 pkgconfig-libbamf3"

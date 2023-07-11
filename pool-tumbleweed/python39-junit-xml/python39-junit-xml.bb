@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.9"
 
-RPM_NAME = "python39-junit-xml-1.9-1.13.noarch.rpm"
-RPM_HASH = "0ef931c7427d1a267d45fc023da27ae373bc2772f212cf466e1d76c56501c6f813d5d4aea578e389797cf9a867b18c05032650e80f93379e0ad24ecc6cc714aa"
+RPM_NAME = "python39-junit-xml-1.9-2.3.noarch.rpm"
+RPM_HASH = "604ed6dddedb73acde4d1376a1b7b354fe99cf02ea5f584cff7472fd3645fe56f94b05080969faf0b1ef3cd19102ba6eeae7887205ac7f65217025e0becc4991"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-junit-xml \

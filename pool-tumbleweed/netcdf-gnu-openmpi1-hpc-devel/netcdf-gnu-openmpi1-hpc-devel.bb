@@ -6,8 +6,8 @@ LICENSE = "NetCDF"
 
 PV = "4.9.2"
 
-RPM_NAME = "netcdf-gnu-openmpi1-hpc-devel-4.9.2-1.1.noarch.rpm"
-RPM_HASH = "108df45495fda2427396b306321f8e6e4b0d7757dda7926130343d6e1cc86e999ccbc2a46c429f4c19b9fbf51953f0d7349f36759f69ca048369e00725aea382"
+RPM_NAME = "netcdf-gnu-openmpi1-hpc-devel-4.9.2-1.2.noarch.rpm"
+RPM_HASH = "6ef1ab61f7fe2d7f12589d04d2a1d6bed1e258811f41db49d74edf2294c4a1439610d15ce346324a1af1c4876520e1381a1456ceb6232f4fb7a878bdaac38fac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "netcdf-gnu-openmpi1-hpc-devel"

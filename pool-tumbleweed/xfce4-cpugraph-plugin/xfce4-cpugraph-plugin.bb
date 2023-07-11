@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.7"
 
-RPM_NAME = "xfce4-cpugraph-plugin-1.2.7-1.3.aarch64.rpm"
-RPM_HASH = "bf6447c8a00a2d8f5e6392a74ab293be55e088e763829af68b21a7b00bcb7da7f24fc79c815673c70398ba301d62dc52f49029aac396323dbed7a67a7e33d9f2"
+RPM_NAME = "xfce4-cpugraph-plugin-1.2.7-1.4.aarch64.rpm"
+RPM_HASH = "ff00ea8ab6ab51c863ba8074500131752c7dfc9d12a82b15bd6c98502cd57e8e58f3627b28f22f1a7f92f387cf17ae0b591567a407ffebd38b16b950bb48e72b"
 
 RPROVIDES:${PN} += "libcpugraph.so \
 xfce4-cpugraph-plugin \

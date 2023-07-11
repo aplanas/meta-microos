@@ -4,8 +4,8 @@ LICENSE = "EPL-2.0"
 
 PV = "0.13.0"
 
-RPM_NAME = "eclipse-swtchart-0.13.0-3.7.noarch.rpm"
-RPM_HASH = "e37b4fc7b8c8560448f5866ad87b7a63212365baaf40b66cc6c01878bd12274ba12044c499cdc7ca778d8e9f2e41ff2d053b9649889603e8d2ff36ba317fc7e4"
+RPM_NAME = "eclipse-swtchart-0.13.0-3.8.noarch.rpm"
+RPM_HASH = "f25a9444690e2864ebb1ada2fa8502acf88408f95b94400118570fbd907838b38cb108eddd9f51ad2b4b547ab7b7d1132986dcf29d138708cc442157bb07a823"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eclipse-swtchart \

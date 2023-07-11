@@ -6,11 +6,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.14.0"
 
-RPM_NAME = "python311-pytest-twisted-1.14.0-1.1.noarch.rpm"
-RPM_HASH = "75a7dcb046f7bf64c878f62e91c24eade15794603a7e0efeab210c14dab5056e2f85639223263a7f3038ed0bbd296a588b86d71d90e828769d8ec191c2b440c7"
+RPM_NAME = "python311-pytest-twisted-1.14.0-1.3.noarch.rpm"
+RPM_HASH = "64ad1f5a817e743613c7fd66edbf9362ab104b7699021c56ba7facb5c04966c99b28e24d39c63cdd2ac0ad1399ade096cc9677c614dba9cb7fef9ffe9a4d7061"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pytest-twisted \
+RPROVIDES:${PN} += "python3-pytest-twisted \
+python3.11dist-pytest-twisted \
 python311-pytest-twisted \
 python3dist-pytest-twisted"
 

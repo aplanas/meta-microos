@@ -5,11 +5,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.3.0"
 
-RPM_NAME = "python311-freetype-py-2.3.0-1.3.noarch.rpm"
-RPM_HASH = "ecf8fd4e320a66ed652cf6f32e2253724f7619b3684735736c25b09188501028d461b2ddf2645494e90ae397a251526f7e3a45258c01b6712b2df826ce486c5d"
+RPM_NAME = "python311-freetype-py-2.3.0-1.5.noarch.rpm"
+RPM_HASH = "f53aae2205b68462710b55ee49e2de2d605f7daeefbd5375b26b4068f535a07945032f6b2a95365f176f6c32f2c646a3c9fd62f32410e620484a981090b1e4bd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-freetype-py \
+RPROVIDES:${PN} += "python3-freetype-py \
+python3.11dist-freetype-py \
 python311-freetype-py \
 python3dist-freetype-py"
 

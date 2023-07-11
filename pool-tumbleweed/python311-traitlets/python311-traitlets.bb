@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.9.0"
 
-RPM_NAME = "python311-traitlets-5.9.0-2.1.noarch.rpm"
-RPM_HASH = "d5fba313365bbc1dce723b5080d375e1f47e75e640faa2aea9b02126bd70d63e4ba1ae44eef1b04c078be43b2b2ab097e9c640bf76398f199a8dde7a616a1bb6"
+RPM_NAME = "python311-traitlets-5.9.0-2.3.noarch.rpm"
+RPM_HASH = "4e391866a29bae0da9d9d8eb1def1245d9d3f93890c729c6446e1840bb252c458a3ee6aa5ca26581dddff391ab7c136542908d9c50fe79ebb0062d8ae91a8741"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-traitlets \
+RPROVIDES:${PN} += "python3-traitlets \
+python3.11dist-traitlets \
 python311-traitlets \
 python3dist-traitlets"
 

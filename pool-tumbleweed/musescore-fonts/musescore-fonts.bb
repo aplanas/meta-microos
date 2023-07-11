@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later-with-Font-exception-2.0 & OFL-1.1"
 
 PV = "4.0.2"
 
-RPM_NAME = "musescore-fonts-4.0.2-2.1.noarch.rpm"
-RPM_HASH = "f800aba038e1bfc54e8e4a28b5ec54b07b1c0de9c996f8967d7729fe570ff9f2286bb2ddbc90ef1ff5f53d2425a7ff60969b587842a83d39d38cfb6784200905"
+RPM_NAME = "musescore-fonts-4.0.2-2.3.noarch.rpm"
+RPM_HASH = "abc6cc2f944edeb88c679d356a842d8432f776736cb4784531096be32ba51e34ce2b3a21e4ef60bbabc54c4b2a691119e2cec4f7123acbd66d1a45bd9ac9f7f3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

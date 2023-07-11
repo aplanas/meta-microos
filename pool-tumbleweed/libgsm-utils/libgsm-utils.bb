@@ -13,8 +13,8 @@ LICENSE = "ISC"
 
 PV = "1.0.22"
 
-RPM_NAME = "libgsm-utils-1.0.22-1.2.aarch64.rpm"
-RPM_HASH = "a1b3407cf6cabd256dc9acb6db584b041c66bd226aa965daa402eb9fb32fe9e4851725d89dc33b6b5a537dffe1369330cd620ead0588d87d615684e4b03337ab"
+RPM_NAME = "libgsm-utils-1.0.22-1.3.aarch64.rpm"
+RPM_HASH = "28b60777ce0b6ce03479c8f1917214b8bae1158dd60df4d8a753aa41e7d43c3d61d3d2a44867b565c95bcefa469a7fac073605008e93fd8cfda6420145bb99a6"
 
 RPROVIDES:${PN} += "libgsm-utils"
 

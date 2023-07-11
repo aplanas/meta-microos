@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0 & SUSE-Public-Domain"
 
 PV = "1.11.3"
 
-RPM_NAME = "aws-sdk-java-simpledb-1.11.3-7.8.noarch.rpm"
-RPM_HASH = "01b076dc8962a3cd44c7a708f06be9d1c150274c8503966f82f95435890380bb4e6f0f7d792a3f4c173d1a5370e3c23efb5f2309d8b8c6f15765d5f1aec9c597"
+RPM_NAME = "aws-sdk-java-simpledb-1.11.3-7.9.noarch.rpm"
+RPM_HASH = "1910aef982a9cf2209f959570fd41aef8c09bf61d418073de2ba220540be5ee7b463d636b568f9fda1c8a6875d5cc37f4d10ebf36a8b04020e1af0a1a268932e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-simpledb \

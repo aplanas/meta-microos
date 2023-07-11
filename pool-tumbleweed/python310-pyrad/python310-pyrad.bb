@@ -6,12 +6,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.4"
 
-RPM_NAME = "python310-pyrad-2.4-3.8.noarch.rpm"
-RPM_HASH = "d1237b4efb1c7faf5ec41a97d638d6753f05659dfb79702d820317026b34ec1e1a5949eeb1eed62addf7f53906dfef542093696d8d48d50857165232e775a47f"
+RPM_NAME = "python310-pyrad-2.4-3.10.noarch.rpm"
+RPM_HASH = "bf876568e1a979fa2f8885e1363ea4065d661c1c82b217a30b457a02217e07667252f1a84204b29ef3053f5c54a9372f72f54e6c79a0b8bd753e732318ebb92f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pyrad \
-python3.10dist-pyrad \
+RPROVIDES:${PN} += "python3.10dist-pyrad \
 python310-pyrad \
 python3dist-pyrad"
 

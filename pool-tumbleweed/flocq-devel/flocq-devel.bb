@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "4.1.1"
 
-RPM_NAME = "flocq-devel-4.1.1-1.3.aarch64.rpm"
-RPM_HASH = "da232ad405910af9c260971e5d1d718c4e6d9dd354ec999d6cfed69a3b90cd9e9d0c347e4b73eb1c80c0779069d26e2f56075450b9d8101d4af7b2bca7ae00d4"
+RPM_NAME = "flocq-devel-4.1.1-1.5.aarch64.rpm"
+RPM_HASH = "de764247033505476311dae1dcb878a8892053db7ac93497da49bfc2ec6b39aaacabb76357ea7aac9d16d221eb489d86ef3e6924d280b9613ec7bf77b0edda2a"
 
 RPROVIDES:${PN} += "flocq-devel \
 ocaml-NFlocq-Calc-Bracket \

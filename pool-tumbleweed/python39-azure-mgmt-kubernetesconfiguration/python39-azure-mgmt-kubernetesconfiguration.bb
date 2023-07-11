@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "3.0.0"
 
-RPM_NAME = "python39-azure-mgmt-kubernetesconfiguration-3.0.0-1.1.noarch.rpm"
-RPM_HASH = "b0f8e2e2911bffcd63732bf80cc45239bbea944a5f96431d9600fe1734f42453726370da8e02644e3cf65abede329b7f42f773b79753ff8cd3793c6b16314503"
+RPM_NAME = "python39-azure-mgmt-kubernetesconfiguration-3.0.0-1.2.noarch.rpm"
+RPM_HASH = "37301311e94a04507a1aacb24b388d5400aa01e15729366c91d960b62dc044b0e9301a1c2f24e34990f53ce9efd590607d5b9255a21ae05f06015afb64447bdb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-kubernetesconfiguration \

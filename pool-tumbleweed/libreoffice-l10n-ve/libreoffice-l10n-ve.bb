@@ -2,10 +2,10 @@ SUMMARY = "Venda localization files for LibreOffice"
 DESCRIPTION = "Provides Venda translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.1"
+PV = "7.5.4.2"
 
-RPM_NAME = "libreoffice-l10n-ve-7.5.4.1-1.1.noarch.rpm"
-RPM_HASH = "1d5b069de3cd17cd139dc80c8482a2951dd2eeffb066d3d4a00e59fb14f34a7b5401b5a6f1548e8571ae865fbc5a644008438409d52f3c1d48fdb0429e0b4333"
+RPM_NAME = "libreoffice-l10n-ve-7.5.4.2-1.3.noarch.rpm"
+RPM_HASH = "4c8c5097fbdba91297002f2d2af1646cfb9b3b5257c709996578cbc79d6aa04c552140790b709cb2158e7013e3943d76e1227908b4be0845e2b93b60b0db5f05"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-ve \

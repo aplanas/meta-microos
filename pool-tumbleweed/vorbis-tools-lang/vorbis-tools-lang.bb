@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.4.2"
 
-RPM_NAME = "vorbis-tools-lang-1.4.2-1.11.noarch.rpm"
-RPM_HASH = "52da11f904e713a00772e5e4f7ccd7c5ee5d2aa433828933b34bfd096106bca97df777df42740969218ebff71140f7b5382d93f09432aaf22827f0e35a99b1f6"
+RPM_NAME = "vorbis-tools-lang-1.4.2-1.12.noarch.rpm"
+RPM_HASH = "26ccfd4f2233c7e7f8948f22f02ba380a383ed7a834dacb3013b71146376b8994dbe2e72d10aa99a5d9d581d04d6a9f5f0db5d23278ba582e7d8c3054c5f9fa0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-vorbis-tools-be \

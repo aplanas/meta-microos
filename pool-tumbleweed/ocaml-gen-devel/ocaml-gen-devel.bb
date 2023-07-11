@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.1"
 
-RPM_NAME = "ocaml-gen-devel-1.1-1.1.aarch64.rpm"
-RPM_HASH = "9fdee52b9a7fe5f1952fab0b993b1202d2d871b0fa5761d19c5e4567514ed1a3641e1b3d30a2945a66934c8b8be5b6b8c5d039cbb189d5a530f51f930ea1f0b7"
+RPM_NAME = "ocaml-gen-devel-1.1-1.2.aarch64.rpm"
+RPM_HASH = "53395b50f85655e3f816d0815388816a0bc9bae1a5865710e188a035080b1816439237da5d865445483012d3420b8910fe781bc8ebe5275cd32a3e9310007b9e"
 
 RPROVIDES:${PN} += "ocaml-Gen \
 ocaml-Gen-intf \

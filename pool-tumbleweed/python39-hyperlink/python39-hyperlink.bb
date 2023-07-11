@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "21.0.0"
 
-RPM_NAME = "python39-hyperlink-21.0.0-2.1.noarch.rpm"
-RPM_HASH = "faa2beaf2fab245ef6db4f534172bc91860ce14b2a5f66a539c230189dd247383e53f8fc7cd50a8395f02b7cded81d6d4fe3e1dec4fc672fb9ff390756ca37b0"
+RPM_NAME = "python39-hyperlink-21.0.0-2.3.noarch.rpm"
+RPM_HASH = "bac546471d57322b3f3d4e3449c89c8b22f9fe37323fe8e5a1f216328a87026f00a589bd61920044c8281b8334d10e7092cbfba75dea1fc96ad02f31b896e699"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-hyperlink \

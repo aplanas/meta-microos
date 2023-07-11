@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.7.1"
 
-RPM_NAME = "python310-keyring-pass-0.7.1-1.3.noarch.rpm"
-RPM_HASH = "fa12ea69e7cb2cc79ff7b9d9b2da95fd681cbb5fa86d2d06f4798e2edf7278849d862d0942f4a3b60da362a38c0767541a85f7314353cd142895274459d5ce65"
+RPM_NAME = "python310-keyring-pass-0.7.1-1.5.noarch.rpm"
+RPM_HASH = "a8987794d7dd70c824957f4c5bf43e6ccd1aa05080225ffd4c92717f933b15bcf8164f098a67df33e04b3070fc537a19aa96df99209486558fe9f4549f84af53"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-keyring-pass \
-python3.10dist-keyring-pass \
+RPROVIDES:${PN} += "python3.10dist-keyring-pass \
 python310-keyring-pass \
 python3dist-keyring-pass"
 

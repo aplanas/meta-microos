@@ -18,8 +18,8 @@ LICENSE = "MIT"
 
 PV = "0.1.4"
 
-RPM_NAME = "python39-pa-ringbuffer-0.1.4-1.3.noarch.rpm"
-RPM_HASH = "5f3a943ca978237c2561b6ee0588847c9594678fc19ff86081fee57e06d3debf624acf775c3577ac01a59097a6e3c2c6337336c8e72c26376baef8ea9b9d1872"
+RPM_NAME = "python39-pa-ringbuffer-0.1.4-1.4.noarch.rpm"
+RPM_HASH = "57cae3e283e4db18a6a5d8544430690f0c2cb663fc5503c05b6d3b2bdb878649dd9e454f6ca2589a838f346fb11b01636e19998dbf1f23536e775fd3f4bebd75"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pa-ringbuffer \

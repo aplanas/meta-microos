@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.5"
 
-RPM_NAME = "mpiP-gnu-mpich-hpc-devel-3.5-3.3.noarch.rpm"
-RPM_HASH = "0c21048f47728c65f792e4e039840fa752bc2d53e2de8ef2f60cb0753a394c5cf4ccc9bf71b95b29d9fd860f49d2c1c92e9e0bdc3fc7c7b76201e975ce4b829e"
+RPM_NAME = "mpiP-gnu-mpich-hpc-devel-3.5-3.4.noarch.rpm"
+RPM_HASH = "d271ce37a03610faf138f66a267037211b15466c09e2212d9f9766395d9364244d32d6836845d95dfb793f18bbde4e384691dd5aaffa2360be49c956013318a0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mpiP-gnu-mpich-hpc-devel"

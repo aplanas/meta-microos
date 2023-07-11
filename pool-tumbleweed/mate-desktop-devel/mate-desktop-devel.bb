@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
 PV = "1.26.1"
 
-RPM_NAME = "mate-desktop-devel-1.26.1-1.1.aarch64.rpm"
-RPM_HASH = "6dd1f1ab3e7d1377f193a32fd54554d3a58f74cee51266873d8d30a2058e22da4608373745d1183b9850a797806b4200d9ff22e63dc019f6e70611bfa8578624"
+RPM_NAME = "mate-desktop-devel-1.26.1-1.2.aarch64.rpm"
+RPM_HASH = "45760806e4a7c64101cf03af8a65df85f99f63ce72a8150d8162527856b47b786cbc78a7084a947e8376816e1e13d1365649112ac789c5f19c72f6907784e5c6"
 
 RPROVIDES:${PN} += "mate-desktop-devel \
 pkgconfig-mate-desktop-2.0"

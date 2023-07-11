@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4"
 
-RPM_NAME = "libopus-devel-1.4-1.1.aarch64.rpm"
-RPM_HASH = "92a9c8c7a9f2dee07120685fee9114cb733d34cc4f0b9878feb7f67866be621ab72e1ee6eff83be316b951a600e6596dc5848d138d927064b65394b813d0da73"
+RPM_NAME = "libopus-devel-1.4-1.2.aarch64.rpm"
+RPM_HASH = "2264457889939c358ad3923acde7e0fd8dbb8fea98b81910d1de747892e02d041680e337ad1a3ed73015edb462751db47b3afdbdb44415e42dafb5918942a254"
 
 RPROVIDES:${PN} += "libopus-devel \
 pkgconfig-opus"

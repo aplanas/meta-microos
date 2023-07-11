@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.10.0"
 
-RPM_NAME = "python39-sphinxcontrib-pecanwsme-0.10.0-3.1.noarch.rpm"
-RPM_HASH = "603687f28dcb61c2e0585d57af38a466e18b581943595fadb3e0ad75de606376422f4493546802af13e51174c02312b2c2a2f3cc06da678cc6f11f4f37ed583e"
+RPM_NAME = "python39-sphinxcontrib-pecanwsme-0.10.0-3.3.noarch.rpm"
+RPM_HASH = "3ecfbbba1f94c34cce3ba268f937b2a54bc613202ee9edf25d38e75a2418c273c560b42b07d3de2cd7d5b1e23bcc6e1d6fad4bfdc524088c1dc5b173ada15101"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sphinxcontrib-pecanwsme \

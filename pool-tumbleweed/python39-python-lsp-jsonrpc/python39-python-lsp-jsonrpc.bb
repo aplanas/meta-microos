@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python39-python-lsp-jsonrpc-1.0.0-1.8.noarch.rpm"
-RPM_HASH = "d89a90a9e813efd7273a006320cc18129c44de62634c1b725207a2437442d8932aa7343b2a9035b5ff12322851c40b9797b3bacb2c8c370e287d4a02bda3f8c6"
+RPM_NAME = "python39-python-lsp-jsonrpc-1.0.0-1.10.noarch.rpm"
+RPM_HASH = "45adbc298ac14fd68e108aa327b94727c427f26b971246801354840cc9448bebb8c4f40f3c592b94196237b1bbd8fad161557f1eae6698963861c621eae83705"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-python-lsp-jsonrpc \

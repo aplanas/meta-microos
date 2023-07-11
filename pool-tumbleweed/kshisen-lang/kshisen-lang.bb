@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kshisen"
 DESCRIPTION = "Provides translations for the 'kshisen' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kshisen-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "aa094c736b3872a503b91922a3f2492b5ed2564f65ff33ac0e9beb59306a7f07bc4b2c229a42b470a3d08ddafb186f127afb2142d86e471435e3d952f54bff79"
+RPM_NAME = "kshisen-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "cf8d67735f2d468fc9e62678479ca157c3ed87a5770c9fb0255401a9f9f30067df7825915bb484aa1b34e3bbb9d2b6d602a883a759ec4b5bf96862ef5492ded8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kshisen-lang \

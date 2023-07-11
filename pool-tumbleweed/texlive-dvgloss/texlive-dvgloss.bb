@@ -8,8 +8,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.1svn29103"
 
-RPM_NAME = "texlive-dvgloss-2023.201.0.0.1svn29103-53.1.noarch.rpm"
-RPM_HASH = "cc292e51d3f386794a62987c3970c347e24a81d5b358dba6feb08bbe4e2a8df13b3fa5b302afcdf65fe9b5ada618fadb9fd5b0ca65b28f9df0aeede8bb77ca88"
+RPM_NAME = "texlive-dvgloss-2023.201.0.0.1svn29103-53.2.noarch.rpm"
+RPM_HASH = "40bccb4fb341aef3a1a7406e34a3c567d69537322b1fec4b5964281ca9781bb65d490e5792365a41a93aa899efa851250b457d92ab5fb4bfa7f8855cdf0c52f5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dvgloss.sty \

@@ -7,12 +7,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.5.1"
 
-RPM_NAME = "python310-cairocffi-1.5.1-1.1.noarch.rpm"
-RPM_HASH = "8a062a9800e931e128b54bbc55825dfd312b7d6b15cac1aa046d45fe8a4ee4baafc3cf208fd27a61a336371569f54c7fc7db72af8419c74891b741ae4096f70b"
+RPM_NAME = "python310-cairocffi-1.5.1-1.3.noarch.rpm"
+RPM_HASH = "9ea4d72c72c3d5aa0e61c9ca4d9486aaa9622e9516601ba4489b01d1da574c17b2fc3c3e7912cb64160a956a926a5c668fd9bc96ce67a3de4893ea75498f4b9c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-cairocffi \
-python3.10dist-cairocffi \
+RPROVIDES:${PN} += "python3.10dist-cairocffi \
 python310-cairocffi \
 python3dist-cairocffi"
 

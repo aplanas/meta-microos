@@ -9,8 +9,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.6svn32258"
 
-RPM_NAME = "texlive-guitar-2023.201.1.6svn32258-53.1.noarch.rpm"
-RPM_HASH = "3180d5aed7f2d92c114b9caf6224a83d05e1bbf76c6aa4f5bd992e0b5872063e49eb5d1ee4a1b6e0095db053da7d3de1899a5ea7468b759d5a608a021adf64aa"
+RPM_NAME = "texlive-guitar-2023.201.1.6svn32258-53.2.noarch.rpm"
+RPM_HASH = "a34cf4de51584200e13aa62659128301a1b9a9b5d693ac163bf9518414d15faaedbac94f4ec5ec3c64c69d4aed78fa0208043f56b5890c9fe43e924d07fb7319"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-guitar.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libKPim5AkonadiCalendar5"
 DESCRIPTION = "Provides translations for the 'libKPim5AkonadiCalendar5' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libKPim5AkonadiCalendar5-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "12008dd66997538505800989a580ab5bafa79c622dd49ca0ca357efa01dc43ca725f25b0fc016d1276f2f014455bac496bdc01b2cf26bdc8c831a9c03865a259"
+RPM_NAME = "libKPim5AkonadiCalendar5-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "e66a7e0abd4c70d2e4146bc30b3a3ef434f69ab819c1164f6d73e709ed8852140f8bb2085a26ba44b4378309b7f250854db8e791a6136109f30833e515755c3a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libKPim5AkonadiCalendar5-lang \

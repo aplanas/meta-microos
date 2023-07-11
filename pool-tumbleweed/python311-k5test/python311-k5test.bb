@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "0.10.3"
 
-RPM_NAME = "python311-k5test-0.10.3-2.1.noarch.rpm"
-RPM_HASH = "b0fda8cc710150145f0f80057f81778ad97ba41d504d272bd96aec2d70eba8852c19be1715170eca86af79df5cdc65953faacbaab369a6905641e58f4e303341"
+RPM_NAME = "python311-k5test-0.10.3-2.2.noarch.rpm"
+RPM_HASH = "5b4887be8f6aed879cd0aff5a32bca558bf98b73da0153980cf8cc6a4f4cfb7ddb719a6304edff12f78da5ce0e9bd6e77ebdbbd0fc17b753805fe22a9d61eab0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-k5test \
+RPROVIDES:${PN} += "python3-k5test \
+python3.11dist-k5test \
 python311-k5test \
 python3dist-k5test"
 

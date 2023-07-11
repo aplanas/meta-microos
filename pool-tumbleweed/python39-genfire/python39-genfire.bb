@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.1.11"
 
-RPM_NAME = "python39-genfire-1.1.11-5.4.noarch.rpm"
-RPM_HASH = "364f952c7e1d07556b9a167aeda50cf3591e991c071a67e9c56f3fc9e237b2aeb99e03c854f686546d568e913da98ab486253850147c37ec571a1c0d3954a855"
+RPM_NAME = "python39-genfire-1.1.11-5.6.noarch.rpm"
+RPM_HASH = "8d607ad6a3b6ca62b0f772e1e2a1396c20c48384f67f3d8a6fee70fec62e65204b56a8c9b7f93de22d742c40c93d3354613623009585e44453a823fc0ec17b2f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-genfire \

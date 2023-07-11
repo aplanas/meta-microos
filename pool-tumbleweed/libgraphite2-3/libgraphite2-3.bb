@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later | MPL-2.0"
 
 PV = "1.3.14"
 
-RPM_NAME = "libgraphite2-3-1.3.14-3.7.aarch64.rpm"
-RPM_HASH = "1f0cd0e16c50766736683732ded5d5bcb55f1ef7966feb8e05d39ff7de0905ec5e6f2e38e5ea24e1143b2314a7dbf7b0eed225a1b3f05fcf1787fd67aa1594d7"
+RPM_NAME = "libgraphite2-3-1.3.14-3.8.aarch64.rpm"
+RPM_HASH = "03c3634fb592e5c460fbe1b9785b31693a5b83ba5643d555a460cf85fe57c34036ae0b71a671af4c3e230cd3696cfd70fb0073e569db74658355c49ebd751de2"
 
 RPROVIDES:${PN} += "libgraphite2-3 \
 libgraphite2.so.3"

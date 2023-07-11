@@ -16,8 +16,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.5.2"
 
-RPM_NAME = "python39-pytest-django-4.5.2-4.4.noarch.rpm"
-RPM_HASH = "7824cfadb562ac8045ea9c8b3ebca48835cd923d3818d13bdd4046bed213cb96f33dfc81ccb74c85242cc6ae2599263499c556aa5893a18fd1490efb3e10e7a6"
+RPM_NAME = "python39-pytest-django-4.5.2-5.1.noarch.rpm"
+RPM_HASH = "4723008c7c19ab8a0ce5bcf255c2422cd24239ccd5d1427f855658550941815ca8cdc7c03de2ba1520faa193bf9e2b605855e61c4cc78c935b9680fdde875c5a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytest-django \

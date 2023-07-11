@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.38.0"
 
-RPM_NAME = "libqpid-proton-core10-0.38.0-1.4.aarch64.rpm"
-RPM_HASH = "5b4fe2c0f6837f9ba0b06c4b7c75bc17111f9224411ca0a341758b5f92064db365e7652617db0f33b43039a20725ccd694ce886445cd0b5a47ae517c0e3f386d"
+RPM_NAME = "libqpid-proton-core10-0.38.0-1.6.aarch64.rpm"
+RPM_HASH = "c3ed0f304b95e0d5dc8cea2c24f988a6a054f03c348e99f2efde6f5dc0473372419f87ea5067b900a02f5078886ad2cea492754dfea6201907567831be35e5ab"
 
 RPROVIDES:${PN} += "libqpid-proton-core.so.10 \
 libqpid-proton-core10"

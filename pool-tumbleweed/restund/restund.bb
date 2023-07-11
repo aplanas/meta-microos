@@ -16,8 +16,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.12"
 
-RPM_NAME = "restund-0.4.12-2.3.aarch64.rpm"
-RPM_HASH = "e996c68e7520108ddbc606a63ad85d40bd14f5c0210bcab2d1b5e160f0159f9a5727b67156b8d1a7bad3f6a49531324e6490764f8987e37774b7e7e15fcf6f06"
+RPM_NAME = "restund-0.4.12-2.4.aarch64.rpm"
+RPM_HASH = "00be8ee736b79c2c891e914c16d7a8fb18e37f7b62cdedf5d47647343da5c6ee5a68fa215d12223f21e0f66e190692bca870ad165331385804f5ca8c0cf4bfac"
 
 RPROVIDES:${PN} += "config-restund \
 restund"

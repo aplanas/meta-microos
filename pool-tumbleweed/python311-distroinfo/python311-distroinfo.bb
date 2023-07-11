@@ -5,11 +5,12 @@ LICENSE = "Apache-2.0"
 
 PV = "0.6.2"
 
-RPM_NAME = "python311-distroinfo-0.6.2-1.2.noarch.rpm"
-RPM_HASH = "4e09825b01f29e0c57e697bfd8324edb6816ecc9ae2bb6b26bc140f84af95e0601fec27d21cf3c0c323d7a9720ad01e08ab1f85f91218e20c6e3965ed6ea2403"
+RPM_NAME = "python311-distroinfo-0.6.2-1.4.noarch.rpm"
+RPM_HASH = "eefa3a602b4a096a44d68610cdd8c2b4ee4f115437b60d42f916b9f90bee52969647ce1499b133c57eeb9a7e5c817648bca4a7d8c7ebb2b52e93af25dbb1ba51"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-distroinfo \
+RPROVIDES:${PN} += "python3-distroinfo \
+python3.11dist-distroinfo \
 python311-distroinfo \
 python3dist-distroinfo"
 

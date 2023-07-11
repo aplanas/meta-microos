@@ -9,15 +9,18 @@ rtslib, and configshell, or stick with all non-fb versions, since they are \
 no longer strictly compatible."
 LICENSE = "Apache-2.0"
 
-PV = "2.1.54"
+PV = "2.1.56"
 
-RPM_NAME = "python311-targetcli-fb-2.1.54-2.1.noarch.rpm"
-RPM_HASH = "4dc190b8a60a61c027fe2b2751e30133d6cdd66a68d0ca1f30b2a6b10d14d330ac7e1d755b3f91f250ab2d431961507fec64ba8edcf8f8353b8ea67d51cd88d2"
+RPM_NAME = "python311-targetcli-fb-2.1.56-1.3.noarch.rpm"
+RPM_HASH = "92a03d598979234a76496e24c8384901b292490b3aa28fa20ebf059abaad58c9a81c835294f89f534454337d761f0c4df73dbb48f331ead777a458193ce44705"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-targetcli-fb \
+RPROVIDES:${PN} += "python3-targetcli-fb \
+python3.11dist-targetcli-fb \
 python311-targetcli-fb \
-python3dist-targetcli-fb"
+python3dist-targetcli-fb \
+targetcli \
+targetcli-fb"
 
 RDEPENDS:${PN} += "/usr/bin/python3.11 \
 /usr/bin/sh \

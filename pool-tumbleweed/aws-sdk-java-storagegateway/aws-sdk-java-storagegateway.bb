@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0 & SUSE-Public-Domain"
 
 PV = "1.11.3"
 
-RPM_NAME = "aws-sdk-java-storagegateway-1.11.3-7.8.noarch.rpm"
-RPM_HASH = "05211178c39dcf0f9ca557a859234c67247ad944e8236c6065a62aaa4019b30b5708dca9eefa4fd9cda9fdc8af4493c10dc67f5c75ef8344833c394beab4144b"
+RPM_NAME = "aws-sdk-java-storagegateway-1.11.3-7.9.noarch.rpm"
+RPM_HASH = "005b390f5ac47c9d10de55888544fa66de26febdcf83bfafa8bd79ddc5bffeb533ed822bc3dcc0b13f9980e780fb766e454756ba636dbd40648e2b1f02458a96"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-storagegateway \

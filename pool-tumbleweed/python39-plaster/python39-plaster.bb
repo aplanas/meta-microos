@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "1.1.2"
 
-RPM_NAME = "python39-plaster-1.1.2-1.3.noarch.rpm"
-RPM_HASH = "82f744a5e4b96cc0f4d4e6c7796a6ada7936897553a2fd55f65bbf1abf2b73b06c539f79f95f3e60b27a55336c19a27688527a05f501e9b5456dde45ebd1a173"
+RPM_NAME = "python39-plaster-1.1.2-2.3.noarch.rpm"
+RPM_HASH = "6cc7420cc700349c9d38877918fd4922fae53599b2f1b48122e59d0b0d82436a155a59c8ededdd2f2b08319f0db1dbae8e79f0b1f713f401ca28ffff169806eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-plaster \

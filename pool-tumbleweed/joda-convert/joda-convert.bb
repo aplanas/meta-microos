@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.9.2"
 
-RPM_NAME = "joda-convert-1.9.2-3.6.noarch.rpm"
-RPM_HASH = "1d3a3d58e9c324b524bc869f6fe3cce4e0df7335a3c846aed6825c9bc3906f5fa314b7f9f5649efaa119caedda7c1d138fdf387f14d978db07981163b43a2e5a"
+RPM_NAME = "joda-convert-1.9.2-3.7.noarch.rpm"
+RPM_HASH = "1fdc40247e11dc038640710bfd49c0b302ff962fc61878ceb14afc61a9026b929a8b1576039348886a1ee5259c7e815d52d324a0dcf559ed39afae9bd903e785"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "joda-convert \

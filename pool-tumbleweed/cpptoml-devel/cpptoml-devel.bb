@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.1.1"
 
-RPM_NAME = "cpptoml-devel-0.1.1-3.7.aarch64.rpm"
-RPM_HASH = "1b9e26cf6452d0b6fec8b74b75d7762e57b6735bc614884f65568fc47cbda753de29d2da7913f049b5da74c9692e86c8cc6eb216954ec330230421eacb3a4168"
+RPM_NAME = "cpptoml-devel-0.1.1-3.8.aarch64.rpm"
+RPM_HASH = "f3563598cf8abea1acdc9c890a2acf1a1326baa18553dbd7f9a4726b5f37e52a793ed9b3577388f386c5e8f0417c9f93cd3d214dbcb77353df76667fc5662f9a"
 
 RPROVIDES:${PN} += "cmake-cpptoml \
 cpptoml-devel"

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package utsushi"
 DESCRIPTION = "Provides translations for the 'utsushi' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1638580181.839d06a"
+PV = "1684035837.b296671"
 
-RPM_NAME = "utsushi-lang-1638580181.839d06a-2.9.noarch.rpm"
-RPM_HASH = "d044d0f4c107ab352804d14a14bb1398f1dcfd2cc9ed7aa5b2ce37f9e29e405b0d324efe0f4697890ea67850d68bc27953ebbc0148cc8552d5e12fa34c1824a3"
+RPM_NAME = "utsushi-lang-1684035837.b296671-4.1.noarch.rpm"
+RPM_HASH = "b4c323c4f631b30478a4f7d61c4ebd4288ced3cb242c478c2a92698b5b3aa09a4130693dfe01b6bd664cc89f98f49b997fa11eb583a9ed316b97a1cc4a694050"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-utsushi-de \

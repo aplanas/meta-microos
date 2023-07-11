@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "2.12.45"
 
-RPM_NAME = "gtk-sharp2-complete-2.12.45-3.8.aarch64.rpm"
-RPM_HASH = "9bdc3c91f93441b28b50c12fe650ca79fbc4bac1904dc23f39412e5bb29c5799c7e837516ca94042b2acf6dbd5c64ff012a3430193bd7ec99bd7465c98135fdc"
+RPM_NAME = "gtk-sharp2-complete-2.12.45-3.9.aarch64.rpm"
+RPM_HASH = "851260897be32d2d3574d66aff1aabefcc9727261456f8591a9efc7668353d11d34360894dba916325cffe42b32b9bad3241dd11bf104ae0d7beaa7639c037b7"
 
 RPROVIDES:${PN} += "gtk-sharp2-complete"
 

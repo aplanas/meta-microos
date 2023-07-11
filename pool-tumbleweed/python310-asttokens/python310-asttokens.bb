@@ -4,12 +4,11 @@ LICENSE = "Apache-2.0"
 
 PV = "2.2.1"
 
-RPM_NAME = "python310-asttokens-2.2.1-2.1.noarch.rpm"
-RPM_HASH = "b9624d11775e28839a561f61d1b595a94de6cc57fada0dd1431d1af7791c9ed5496a47652a185434fcb3b3c9cbe8d477f7261457a6db79500b33352706b4cbc5"
+RPM_NAME = "python310-asttokens-2.2.1-2.3.noarch.rpm"
+RPM_HASH = "034cc211386a79cd27607067e9da770a2b787d67140039bd60c5d9d191c23631328671e7f2e851f8a91da95f880ca7b8d763026da9b13cde9b0cf25fd8a54fe2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-asttokens \
-python3.10dist-asttokens \
+RPROVIDES:${PN} += "python3.10dist-asttokens \
 python310-asttokens \
 python3dist-asttokens"
 

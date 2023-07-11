@@ -15,8 +15,8 @@ LICENSE = "MIT"
 
 PV = "1.2.0"
 
-RPM_NAME = "python39-wsproto-1.2.0-3.1.noarch.rpm"
-RPM_HASH = "e89935367ed29f0962587ca644b0a73ffbdc7793a0ac0847201d2fd709cccc13316c09cb8806ec3c1db6714144171b21d721d488a5e191771e88dbf79f157a99"
+RPM_NAME = "python39-wsproto-1.2.0-3.3.noarch.rpm"
+RPM_HASH = "40d7ad02688d0bc2fa6dc655dd0a709bac7a4370dff92adb2b96931b7dafaf7a6aae7d1d15de7be2509050027ea6d04a08ea39f25c8b391654488107d30c1994"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-wsproto \

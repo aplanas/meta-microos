@@ -5,8 +5,8 @@ LICENSE = "CPL-1.0"
 
 PV = "4.2.0"
 
-RPM_NAME = "ooRexx-devel-4.2.0-18.12.aarch64.rpm"
-RPM_HASH = "fd48ce60e721518b5c5b4ef8ccddd9350071ba7e694b4c8b52ffeddfb7d4ad7131de6a69ab421c8208f4dd8b7f327f15b3fb8cec7792f6aee0d4febcf3b59458"
+RPM_NAME = "ooRexx-devel-4.2.0-18.13.aarch64.rpm"
+RPM_HASH = "a8491cedab239b7acfcc8252df4ab9cec51e59d789453719c7488d9826fecc186f4dd34eb15984ed8c953a236e479b4cfdce3c38c885fc70fd3e248b531952f3"
 
 RPROVIDES:${PN} += "ooRexx-devel \
 pkgconfig-ooRexx"

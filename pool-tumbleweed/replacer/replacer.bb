@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "1.6"
 
-RPM_NAME = "replacer-1.6-3.10.noarch.rpm"
-RPM_HASH = "aad65ca8352bd1638444b73adf811accd193131344d3341179cacaf9e18a35bc61863a8c81a8e8e83a332e03a69532ac7e94fce7b559073e3fbe0cc7e215d40b"
+RPM_NAME = "replacer-1.6-3.11.noarch.rpm"
+RPM_HASH = "d0c2981be751463b37b4d6943ef38640fe40cea9e21848a86bcdfd725bca2c6c252954035c40a35af0eb98246815ba6939b6072fb3d7d9e3bdda9c8c894d69e0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-com.google.code.maven-replacer-plugin-maven-replacer-plugin \

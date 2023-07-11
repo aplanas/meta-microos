@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2023.04"
 
-RPM_NAME = "u-boot-mvebuespressobin-88f3720-doc-2023.04-2.1.aarch64.rpm"
-RPM_HASH = "d6cf677bc994e35fceed046f184ae47e9bb2c7776bc57b8627cccfcd1f0d1c131bd8bb2723fe9198cc4a65c7a1c5cd8ac08c8cf93eaf3d5288142b825e284d72"
+RPM_NAME = "u-boot-mvebuespressobin-88f3720-doc-2023.04-2.2.aarch64.rpm"
+RPM_HASH = "4d799d55d75c64269a434ec3aac4cc59265fe97823b213ad0ea32a648731d7198b56f073b4c7944c4b68743f84b2f3f4c53da7e312538506d3e199b445c04908"
 
 RPROVIDES:${PN} += "u-boot-mvebuespressobin-88f3720-doc"
 

@@ -12,10 +12,10 @@ environ, etoolbox, longtable, newfile, pgffor (from the \
 PGF/TikZ bundle), xkeyval, and xstring."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.5svn60481"
+PV = "2023.208.0.0.5svn60481"
 
-RPM_NAME = "texlive-mcexam-2023.201.0.0.5svn60481-52.1.noarch.rpm"
-RPM_HASH = "8ad3a7399286022816199ff9f2a2fa90a55e74afef49a1ddc96c045ecff4bea24e6879364c26103a13ea647c9d48da143cdc2956b3c1be38f1f2966f2f9855a9"
+RPM_NAME = "texlive-mcexam-2023.208.0.0.5svn60481-53.1.noarch.rpm"
+RPM_HASH = "1049dbb92b76bd25121554b4e3c57efdcb45253c747dbdc8f9bada4527dc982694195fe8aa231fd23ccc560a3934e7951475056e675ded36ad8d3f351e888e20"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mcexam.sty \

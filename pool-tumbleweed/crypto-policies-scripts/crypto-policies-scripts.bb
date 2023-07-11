@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "20230420.3d08ae7"
 
-RPM_NAME = "crypto-policies-scripts-20230420.3d08ae7-1.1.noarch.rpm"
-RPM_HASH = "c12b5b56e315ff377256d689e67be5c7d54f76623a0d73d16ff6da50d233367abc67133f5b14445c6224b7819d4856073c4c1550c2c625d4afb00cae0b69f54e"
+RPM_NAME = "crypto-policies-scripts-20230420.3d08ae7-1.4.noarch.rpm"
+RPM_HASH = "580a03200e697054bae299c6d18d60f4cc3834570b16c46eed33997eacaaf6bd9795aa39b6c8c5b03cdb300203d7ab46a5616e5cc411763bb2ae478e81f9e047"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "crypto-policies-scripts"

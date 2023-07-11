@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.4.5"
 
-RPM_NAME = "python311-etcd-0.4.5-4.11.noarch.rpm"
-RPM_HASH = "d566992b43ddcc91f68f5ead2f342d48026c14ecfd8e31ae44d6d4e10f537cc7552fbad476dced0306870ba1f1eb1cb1f61c6dd8a431ba1b94f06b457238463a"
+RPM_NAME = "python311-etcd-0.4.5-4.13.noarch.rpm"
+RPM_HASH = "eeee2f10978f90833d16c399f3d172e83ef56c84057b7623d988de60dbebed533abb3161b4d2bd093a56b96f4d3fde906b1b2ad941368f36410a63935f9c4f9a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-python-etcd \
+RPROVIDES:${PN} += "python3-etcd \
+python3.11dist-python-etcd \
 python311-etcd \
 python3dist-python-etcd"
 

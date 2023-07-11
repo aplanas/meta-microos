@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.30"
 
-RPM_NAME = "libsvm-devel-3.30-1.4.aarch64.rpm"
-RPM_HASH = "ac20f1d8cdb8e490f64a2489d0bae336069d986a4cc9f84a44a25c3f28144c5612e89c4da759a6da8b23a1491d4f35e30e090e5b4ccb4f66081092ce99b6084c"
+RPM_NAME = "libsvm-devel-3.30-1.6.aarch64.rpm"
+RPM_HASH = "866bac910118379e090da04bd801132b9a4d21ecc6cb31dac087433cfeb471bfa22f28d61eabf5869e3469a81b2be985532ad2b7833c2b572df5f7389ed0cd3e"
 
 RPROVIDES:${PN} += "libsvm-devel"
 

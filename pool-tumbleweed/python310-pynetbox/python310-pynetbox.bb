@@ -4,12 +4,11 @@ LICENSE = "Apache-2.0"
 
 PV = "7.0.1"
 
-RPM_NAME = "python310-pynetbox-7.0.1-1.3.noarch.rpm"
-RPM_HASH = "6ca6b0d3dfbfe9f4a7ec3600c5831824b6bbbb006df07b4ebbff7510ee2243a6bfe5f9e4edc8e8a5621ce41d57819b9006bb8cd4a4c9c51c454f87192dfecf7f"
+RPM_NAME = "python310-pynetbox-7.0.1-1.5.noarch.rpm"
+RPM_HASH = "2dbf69c0e8bab145dacb905a5e5248d7d494488d6c088421d326c1b8776033d58a84e274c1c957d1b1e0a703c5390775a66a79a0acfda37f77b67605461bcf38"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pynetbox \
-python3.10dist-pynetbox \
+RPROVIDES:${PN} += "python3.10dist-pynetbox \
 python310-pynetbox \
 python3dist-pynetbox"
 

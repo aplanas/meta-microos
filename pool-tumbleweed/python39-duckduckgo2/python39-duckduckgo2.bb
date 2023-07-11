@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.242"
 
-RPM_NAME = "python39-duckduckgo2-0.242-3.13.noarch.rpm"
-RPM_HASH = "99088a1006750bd0fdcb720c20f8f0601f518a251236194a4d3b0acdd253af86c60c5054cb7873908eb14f59c64a6ee3fba28981098501864d877039eb98a84b"
+RPM_NAME = "python39-duckduckgo2-0.242-3.14.noarch.rpm"
+RPM_HASH = "220e4dee034d39aa46b7cd291479652722596266f8c0bcce5690ce66590394f7ad5a93383a6ba01d29eb0b8db89ea288aa340a4b96dbd58a404cdbc7e115fcff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-duckduckgo2 \

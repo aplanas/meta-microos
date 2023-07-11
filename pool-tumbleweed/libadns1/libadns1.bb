@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.6.0"
 
-RPM_NAME = "libadns1-1.6.0-1.12.aarch64.rpm"
-RPM_HASH = "c6415b8baf6920a0e72fe808e632f220421ea3fbf5715b3c20f53ece96555eebef59f7bd4f1f1491e51f51a5d37587e8354e443baae082cbd3762f1ab127e7e5"
+RPM_NAME = "libadns1-1.6.0-1.13.aarch64.rpm"
+RPM_HASH = "8c090f94f2bc9469451810f9fd184cd3cf6e11e88437dd50015c7c1fc8fd06eaeaa548fa90e8dcd288cd2c65259c225a2a86e8f9cd0bd009e9ab0ce64c786917"
 
 RPROVIDES:${PN} += "libadns \
 libadns.so.1 \

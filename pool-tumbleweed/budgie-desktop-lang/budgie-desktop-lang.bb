@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "10.7.2+0"
 
-RPM_NAME = "budgie-desktop-lang-10.7.2+0-1.1.noarch.rpm"
-RPM_HASH = "1ee79f56a80704909fe4360b99e5a5e03f621e7dd47c6e4cc130d4fd7a522796d75ec5041ff557b9037416bd0a32f1801d27c9e7c35fcabd3c7ced183235f132"
+RPM_NAME = "budgie-desktop-lang-10.7.2+0-1.2.noarch.rpm"
+RPM_HASH = "08324997f6a56f92369cc57fe1487bf6adc66cda46fc672de78fb34d5668da45010b80f0697c9492bac77024d516c33461876e1a368784be9902a440143189a4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "budgie-desktop-lang \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-hyphen-hungarian"
 DESCRIPTION = "This package includes the documentation for texlive-hyphen-hungarian"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn58652"
+PV = "2023.208.svn58652"
 
-RPM_NAME = "texlive-hyphen-hungarian-doc-2023.201.svn58652-52.1.noarch.rpm"
-RPM_HASH = "9368c4181cc164189c71252e221eae3d6c594c9197a77020c8267bb826d7a307f7ec07df573e75c3ee7210a342d6fbf3196f9ed4949c86c8defbebaeebc52dfe"
+RPM_NAME = "texlive-hyphen-hungarian-doc-2023.208.svn58652-53.1.noarch.rpm"
+RPM_HASH = "963f1e77365b26ad7c2f7f43bb2ac3350661332cf67cc769b0dffe48c882fa0ea5a2c8b9c0d850573c1ca8a3b849a6df7d6febdd1d3f14937e90afc2c728ca04"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hyphen-hungarian-doc"

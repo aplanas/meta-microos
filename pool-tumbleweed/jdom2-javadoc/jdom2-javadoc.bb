@@ -4,8 +4,8 @@ LICENSE = "Saxpath"
 
 PV = "2.0.6.1"
 
-RPM_NAME = "jdom2-javadoc-2.0.6.1-1.6.noarch.rpm"
-RPM_HASH = "9a5bc57610dd4c77fd12097054f45a3fe36e4346c590a761aa3940a4fbbe91cf42525e5d82024c1075aeb7422c9c3aea3c5332d095746f3eba3aab69238c3b4f"
+RPM_NAME = "jdom2-javadoc-2.0.6.1-1.7.noarch.rpm"
+RPM_HASH = "b6c232bdbbb88deaf1fd1b9d752dbb9c53359b1eb363a7d88360b4c61559c17c29860e358497ebb3bd8be280ef40633e4d3f6de23a506b190fa9e52f0707542e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jdom2-javadoc"

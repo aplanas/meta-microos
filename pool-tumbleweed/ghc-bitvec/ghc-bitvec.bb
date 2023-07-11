@@ -29,8 +29,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.4.0"
 
-RPM_NAME = "ghc-bitvec-1.1.4.0-1.3.aarch64.rpm"
-RPM_HASH = "c90f80d00cf4cc47c61bb1f4e16246718f3d32b98d426df833c9f732e56edbd24a53fcd8af79472241ae2fbace461132756824dac1a32538ed43b98e9befe56a"
+RPM_NAME = "ghc-bitvec-1.1.4.0-1.6.aarch64.rpm"
+RPM_HASH = "401e4f0ab47fe7934fe5182705f4f6b4d942184be8e50c657e85af1a227cbb8e175bfaec944d3d19871b2a4addf7e3d4dc174ce09a4c19477a1392465c7173ec"
 
 RPROVIDES:${PN} += "ghc-bitvec \
 libHSbitvec-1.1.4.0-FzBtDnbj1qCBVRHTrZUOXy-ghc9.4.5.so"

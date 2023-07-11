@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "3.1"
 
-RPM_NAME = "python39-tap.py-3.1-1.6.noarch.rpm"
-RPM_HASH = "da04faf9086c11782838ef3e88fa0d899dc5a0a2c7d6831c481597e9da84a3ca0c58343a97732cbc7caffc74b5c518f58f6333275591593e93e89a4437e7c71e"
+RPM_NAME = "python39-tap.py-3.1-1.8.noarch.rpm"
+RPM_HASH = "27afc6b66d4e9043de7660bb29c08b256c88afd9578aa07014c941c66a7ab908d50c007372091ba85ec0e12051609767c5cd7466719b06630795228c96b5e4e2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-tap.py \

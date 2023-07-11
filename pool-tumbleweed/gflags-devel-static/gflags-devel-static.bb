@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.2.2"
 
-RPM_NAME = "gflags-devel-static-2.2.2-3.1.aarch64.rpm"
-RPM_HASH = "d7599e5b6a12ca6881e6991780cf31e3f50c4e418dbb671d5035ae1be6cd2941fc77eb359f226823761ebb497b52c2bd30df41254cfa3060f6fb3e224c6f8c5d"
+RPM_NAME = "gflags-devel-static-2.2.2-3.2.aarch64.rpm"
+RPM_HASH = "8f29b4653921ee2cf45f803299f346ae7cdc58800d16faf73f08b46c8e0fec8046dfc8d443d34a74d188126d2c40b2cb16d917646c99e19fb5d9634e68f7a2a0"
 
 RPROVIDES:${PN} += "cmake-gflags \
 gflags-devel-static \

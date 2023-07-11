@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.0"
 
-RPM_NAME = "python311-python-sql-1.4.0-1.5.noarch.rpm"
-RPM_HASH = "7af09eb0f9c868a4f0cd9a0c696864d991df47cf5fc612e46f5d07a6a574639ac59ca5f8f3cfee1393ddd9725ddb0f81f399aa69f4d2278ef2efe836c3fcac7e"
+RPM_NAME = "python311-python-sql-1.4.0-1.6.noarch.rpm"
+RPM_HASH = "0b8795b0cb62ab673354292d7d167cd1d46af24938ff7bdea31c8ad817dfc75725f0c0ba95cd4bd904afa48b090c225f1cb5552ad45c3db3f98adf0d77f6fcf1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-python-sql \
+RPROVIDES:${PN} += "python3-python-sql \
+python3.11dist-python-sql \
 python311-python-sql \
 python3dist-python-sql"
 

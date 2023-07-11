@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn37645"
 
-RPM_NAME = "texlive-diadia-bin-2023.20230311.svn37645-91.1.noarch.rpm"
-RPM_HASH = "2c5446a4c1270f46bc8d512a359dcfdf8d20f6e6a3ea3dfdcffacd00752612dcddff184c17512277ba7a3f2e2a78dae672a8cbd98cd5fac6e4369ba63a4037e9"
+RPM_NAME = "texlive-diadia-bin-2023.20230311.svn37645-92.1.noarch.rpm"
+RPM_HASH = "48bd04b1969a43c5b4d1d9c812f44b9204fc081f609a7fd1e6b8f07b93d32545909a05e72cde112fb49e6f298cadead9d3e5ed90efac1c85c3da96236cccc78d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-diadia-bin"

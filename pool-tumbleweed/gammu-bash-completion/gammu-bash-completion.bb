@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.42.0"
 
-RPM_NAME = "gammu-bash-completion-1.42.0-4.6.aarch64.rpm"
-RPM_HASH = "6cebf246c5b3af472dfc3bd12b6e07cf6a801c82fa6dca64aa22c5a34cebf5fea0dd5776cb7c11785bfcd2551984dff32cce4dbc81908021e967064b1a1bb0df"
+RPM_NAME = "gammu-bash-completion-1.42.0-4.7.aarch64.rpm"
+RPM_HASH = "59ac340bec832dfa5f9cdbf85a8e3f9dee55877502cee1f3b2066ea794d1cf88da17b33629165d2cea9af82870119cfbe581a7cb02e0ab0ee35718b8df7d7c9a"
 
 RPROVIDES:${PN} += "gammu-bash-completion"
 

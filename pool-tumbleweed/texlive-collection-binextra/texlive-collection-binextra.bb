@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.208.svn66381"
 
-RPM_NAME = "texlive-collection-binextra-2023.208.svn66381-58.1.noarch.rpm"
-RPM_HASH = "0ecffc40285efd91c1f5df1520796c53f9e0a9f370b964293d187fa074bb1334a658da24aa0469945f133b5389d614c4f7b6e833f5894a261b71bdc45a61ad7b"
+RPM_NAME = "texlive-collection-binextra-2023.208.svn66381-60.1.noarch.rpm"
+RPM_HASH = "51952bb951f5f0372ce59bfde09cf18af052309799f3b097f52d85442909bca640f40ad819b077c5911b08b9e98cfb6db266318690bf13ff894c01793df5091e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-binextra"

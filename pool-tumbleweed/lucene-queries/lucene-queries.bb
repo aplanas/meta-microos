@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "8.5.0"
 
-RPM_NAME = "lucene-queries-8.5.0-3.4.noarch.rpm"
-RPM_HASH = "e785c640d627b1b3d5c6b22df4c342c0c748278a5ef73dad741d4641043ee833ebb5be823a0828fb60a1ec5fef3d01a29694f64856c543a49be14acea2dddd58"
+RPM_NAME = "lucene-queries-8.5.0-3.5.noarch.rpm"
+RPM_HASH = "e163c4ba2c046fb9c6d3b51b6089bf0ea2c8b2df25f9c8654b633d548e10833cf8a127c44853c51f0a442fa3012d3ca49636a0f0ab782bfab44ab89990baaf82"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lucene-queries \

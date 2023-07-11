@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "0.3.1"
 
-RPM_NAME = "python39-hatch_nodejs_version-0.3.1-2.3.noarch.rpm"
-RPM_HASH = "f1eca854cd9889dec67667d5a358ab2367f9027c813be91337d29907d3c73c24c1edeaf4a97e493d1a7722fd2f88eb0a486bc01da22538127452494b327d2b8e"
+RPM_NAME = "python39-hatch_nodejs_version-0.3.1-2.5.noarch.rpm"
+RPM_HASH = "2e6cd2b9e7e5a8d4222d4292aabf15707ea89bc78f2b006cb56bb6cf79f75504f21d102853cce809d97b160c97e413ea49c153a109e362a8bc7a30d27b44a126"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-hatch-nodejs-version \

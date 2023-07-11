@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.4.0"
 
-RPM_NAME = "audaspace-plugin-ffmpeg-1.4.0-1.4.aarch64.rpm"
-RPM_HASH = "00e17b905bb45912de291f638a9561dc9291a4099ccd5117475303fadb21c03762e23241321b83d3ca37b3fca67475b4f10d62577ff51e222946e9c54f627fe3"
+RPM_NAME = "audaspace-plugin-ffmpeg-1.4.0-1.5.aarch64.rpm"
+RPM_HASH = "c8684dd6f03ced7a1212c774643b02a4e8c39a69a718171da2362f103a47b044ad2301e13785e690a9a6b455460733636834d3ba9bccbc350af381c39916f3e0"
 
 RPROVIDES:${PN} += "audaspace-fileplugin \
 audaspace-plugin-ffmpeg \

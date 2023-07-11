@@ -6,8 +6,8 @@ LICENSE = "(Apache-2.0 | MIT) & Unicode-DFS-2016 & (Apache-2.0 | BSL-1.0) & (Apa
 
 PV = "1.14.0"
 
-RPM_NAME = "just-1.14.0-1.1.aarch64.rpm"
-RPM_HASH = "44fb0d31dafd1908d6016887879e73a6652f473d06be398139193ed195a917ded19720e0e0ffc3eadf1b5c61015a9b8007fff28de8230977bf3b2f30ad594961"
+RPM_NAME = "just-1.14.0-1.2.aarch64.rpm"
+RPM_HASH = "daf86617759686400ee1ec4e27b0088b425c563968dfee64dbbf9d211e036801b5928b3cc4643550e4b0a8f74c74db09b3107beb3713f24ee03b1cce0aaf226f"
 
 RPROVIDES:${PN} += "bundled-rust-crate-aho-corasick \
 bundled-rust-crate-ansi-term \

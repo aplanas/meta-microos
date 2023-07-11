@@ -6,12 +6,11 @@ LICENSE = "MIT & Python-2.0"
 
 PV = "0.18.3"
 
-RPM_NAME = "python310-future-0.18.3-3.1.noarch.rpm"
-RPM_HASH = "b1bb90ab1c3474a68736633db5a6bf679ac8d6c5de93e5cb85888160fb62ea55f236b93a7892753baecaed029973f5e71515de9f9c43d5119d951e0127817498"
+RPM_NAME = "python310-future-0.18.3-4.1.noarch.rpm"
+RPM_HASH = "80ad1442cc6fd42211c96a400c4f12984d6ce49b2caaad14f08ef7f03472b87fb0fca7231c80bcfcb6ba6cda2158818924d195eafe731340b109706e62e6a907"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-future \
-python3.10dist-future \
+RPROVIDES:${PN} += "python3.10dist-future \
 python310-future \
 python3dist-future"
 

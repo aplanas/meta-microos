@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.7.0"
 
-RPM_NAME = "libosmo-sccp-1_7_0-1.7.0-1.1.aarch64.rpm"
-RPM_HASH = "42e82e7f757290c10047e26e3ae02bf463f50c64d1b93e1ec1c4a0ab88da7609093323429a79b039b68b8d2c59dbbad9da759cb6d8b1a1f2ee08ef7532180fa7"
+RPM_NAME = "libosmo-sccp-1_7_0-1.7.0-1.2.aarch64.rpm"
+RPM_HASH = "ec2cd829947fedf502b79930eeda38e69438062be0077754ebc0e3d04051fe41aee67d72a35e28a578914477c307e8274fde22438996e21595460686c6e9c08c"
 
 RPROVIDES:${PN} += "libosmo-sccp-1-7-0 \
 libosmo-sccp-1.7.0.so"

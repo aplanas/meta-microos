@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.14.2"
 
-RPM_NAME = "subversion-perl-1.14.2-5.3.aarch64.rpm"
-RPM_HASH = "afe238b1051a1657be1892667de36ac022185110efc5288483b8cabe4f915edb34fc2f774f058b14d33908ce3993c17f2a37def5950e9b5efea84155487a38df"
+RPM_NAME = "subversion-perl-1.14.2-6.1.aarch64.rpm"
+RPM_HASH = "dcaa9747a5be81cc5daa9ba66aa11d8a3c9d9ad0b8a785df1f0fe82d3877213b58d8c85f3ca3d5e1bd2effa09aef4324ab80ab77e7b28a478acc75d7fc4920bf"
 
 RPROVIDES:${PN} += "libsvn-swig-perl-1.so.0 \
 perl--p-apr-pool-t \

@@ -5,8 +5,8 @@ LICENSE = "SUSE-GPL-2.0+-with-openssl-exception"
 
 PV = "2.1.2"
 
-RPM_NAME = "ccrtp-doc-2.1.2-2.27.noarch.rpm"
-RPM_HASH = "23b5b4ba14313920db0371344862e0291570819a9559c3478e54a9ff0d4e9f26a58e72936d64b16faba64ae95cbbe54996aff3a46b9b83a67a0153a3b42edec0"
+RPM_NAME = "ccrtp-doc-2.1.2-2.28.noarch.rpm"
+RPM_HASH = "9a3dc3c75dfd605dd2733605b5670c15d5814d6481c83370bbb4bf48a6a9aa0e636f09416be8534feb384b1b942b7d105d5bdbaa64087a7c51d0db339c4a1b10"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ccrtp-doc"

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.0"
 
-RPM_NAME = "python39-jupyter-sphinx-0.4.0-1.5.noarch.rpm"
-RPM_HASH = "e7cfd64960d0a82bc558438bbc3f3422bd3d5ee3aa8c58bef1d8e321e5ad939c3b1dd091cd9b1c13ea6782a8ac4285c5cb801a3b909ac0c4a1b9e8ee65d0886a"
+RPM_NAME = "python39-jupyter-sphinx-0.4.0-1.6.noarch.rpm"
+RPM_HASH = "53e7b0781a1b6eb8a36c03ef0b5f55f7dcbac5b8c195397f41c8ac9c216c3085a9a27ef5a3be5fea8e76ff0d60e5dde3ad6a4365caf477882953ac7b912e8a26"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-jupyter-sphinx \

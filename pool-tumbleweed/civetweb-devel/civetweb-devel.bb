@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "1.16"
 
-RPM_NAME = "civetweb-devel-1.16-1.1.aarch64.rpm"
-RPM_HASH = "8bfc12ddbf6600ecd9c38a9b303e9f4a77267856b78aa4d7abb03982f513fc766f429e1d5552e5b5e2440795ac74a73202059d8766fbf130c24fda1caefaa5d1"
+RPM_NAME = "civetweb-devel-1.16-1.2.aarch64.rpm"
+RPM_HASH = "8e6f1fbb6cdc3a3a6787a125905b27077e5109dc49673d794966da1a5694322db12604f9e64c5023121e78d5c7e6dae78a8800749531e4fecbfadc3394af41fb"
 
 RPROVIDES:${PN} += "civetweb-devel \
 cmake-civetweb \

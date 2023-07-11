@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.0.2"
 
-RPM_NAME = "python310-Flask-SQLAlchemy-3.0.2-1.4.noarch.rpm"
-RPM_HASH = "9f2530c980b8d77d723e44b69630927c41b8421d295bc752d7bc8480f3a2b99cec34508913dfd5eb42c9792d5c12779eb5e66eaedfc9a178af19f632db74db7c"
+RPM_NAME = "python310-Flask-SQLAlchemy-3.0.2-2.3.noarch.rpm"
+RPM_HASH = "ce0322099b23c0e6920ef6e48a0caf5d0a778e8c50d3be3bf446b23b5b0aaf67b443abecf928b0db3174cd3fcca1719476e287b6d305fb8aefa6c01a2ebe171d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-Flask-SQLAlchemy \
-python3.10dist-flask-sqlalchemy \
+RPROVIDES:${PN} += "python3.10dist-flask-sqlalchemy \
 python310-Flask-SQLAlchemy \
 python3dist-flask-sqlalchemy"
 

@@ -4,10 +4,10 @@ DESCRIPTION = "This is the Microsoft Azure Dataprotection Management Client Libr
 This package has been tested with Python 2.7, 3.6+."
 LICENSE = "MIT"
 
-PV = "1.0.0.0"
+PV = "1.1.0"
 
-RPM_NAME = "python39-azure-mgmt-dataprotection-1.0.0.0-1.2.noarch.rpm"
-RPM_HASH = "38398c0859013e4f34e82db4cbd29db6614c778b63e85359d020b00ad55378d8865dd67460f123a6530a64965e1edfc77d79b903f9fed8c1d07f2055d46eb94d"
+RPM_NAME = "python39-azure-mgmt-dataprotection-1.1.0-1.1.noarch.rpm"
+RPM_HASH = "a98d3f403c09b1454bb86330092c2179ec2687994db6cab5ef89aac9db64dfa6267ec2fc1b32e9357f3cbb827caf4e71026f08fd124e480381b3ecb5e3206978"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-dataprotection \
@@ -19,6 +19,6 @@ python39-azure-common \
 python39-azure-mgmt-core \
 python39-azure-mgmt-nspkg \
 python39-azure-nspkg \
-python39-msrest"
+python39-isodate"
 
 inherit rpm

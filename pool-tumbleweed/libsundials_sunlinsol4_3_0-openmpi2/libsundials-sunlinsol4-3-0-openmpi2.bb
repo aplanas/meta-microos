@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "6.3.0"
 
-RPM_NAME = "libsundials_sunlinsol4_3_0-openmpi2-6.3.0-2.4.aarch64.rpm"
-RPM_HASH = "e370025f57e4e5ab1dc88c0c77d655d37bc4a8abdf9572f21853c31baec20cc7bde1b29c9fb7d058cbe6b8ba3d51b9cbee9160366e3927ba66e9df754ed0b919"
+RPM_NAME = "libsundials_sunlinsol4_3_0-openmpi2-6.3.0-2.5.aarch64.rpm"
+RPM_HASH = "1e3ca5de027955017152a1dd1924d1f357e9a4876af2397003fd4ce09988194ba9e575a572e20dbbc7ab311046537e484ec34d23373b303d5630e53c73d9374f"
 
 RPROVIDES:${PN} += "libsundials-sunlinsol4-3-0-openmpi2 \
 libsundials-sunlinsolband.so.4.3.0 \

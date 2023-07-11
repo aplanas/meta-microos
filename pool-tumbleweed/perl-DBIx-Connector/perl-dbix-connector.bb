@@ -14,8 +14,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.58"
 
-RPM_NAME = "perl-DBIx-Connector-0.58-1.2.noarch.rpm"
-RPM_HASH = "d6ad22289a076f62dff2d80fee6853ec63a9986cf8f67f3e7ad1366281ad225de3ca0250851142b318348bed31b4c26adbc58447b29ab9ea5981c1e5d37aa866"
+RPM_NAME = "perl-DBIx-Connector-0.58-1.3.noarch.rpm"
+RPM_HASH = "63f502a86d72991ba3113518d18e55bd324ade16959ddbed8e07a3dfa23e2a5fa42e4b15f1cd524eb1c023b1e97aa70c5d633b36fb19c3a8f7c648b991a49036"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DBIx--Connector \
@@ -31,7 +31,7 @@ perl-DBIx--Connector--SvpRollbackError \
 perl-DBIx--Connector--TxnRollbackError \
 perl-DBIx-Connector"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-DBI"
 
 inherit rpm

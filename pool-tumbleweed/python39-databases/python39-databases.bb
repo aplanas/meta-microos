@@ -2,17 +2,17 @@ SUMMARY = "Async database support for Python"
 DESCRIPTION = "Async database support for Python."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.6.2"
+PV = "0.7.0"
 
-RPM_NAME = "python39-databases-0.6.2-1.4.noarch.rpm"
-RPM_HASH = "e8c62186637a17406019a81132b5721f1bba4732746961d7063708573cae55cab5025c0e2426667bd9abe399f214b6302875779cf853084b69f6ac1c522348af"
+RPM_NAME = "python39-databases-0.7.0-2.1.noarch.rpm"
+RPM_HASH = "fb1bba742899dfcc6bdd5e4099d0e9258e2e8b5cc6b297477676ca3043b55e6a4700c51018f8709070e9a7d16ebc0d44b2fb04a222463fc51b5ba0281d293ae6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-databases \
 python39-databases \
 python3dist-databases"
 
-RDEPENDS:${PN} += "python-abi \
-python39-sqlalchemy"
+RDEPENDS:${PN} += "-python39-sqlalchemy >= 1.4 with python39-sqlalchemy < 2 \
+python-abi"
 
 inherit rpm

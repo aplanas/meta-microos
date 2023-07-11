@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.0.12"
 
-RPM_NAME = "libdtkwm5-2.0.12-2.10.aarch64.rpm"
-RPM_HASH = "b1f92fab68f9a92a42c5d27168f4e2f9ca4145930b38b270fe9b1aa98712b97e1f6998108698525a949010e9dcc53a99b312d18cfdbcfea0fe51da3a801dbeec"
+RPM_NAME = "libdtkwm5-2.0.12-2.11.aarch64.rpm"
+RPM_HASH = "dac079df9b21075f81324c063e236fbf22a980440f32621223e0f4bbda6854c7ff0ee1d2df77918a84e4a20f30b7cfc4283eb8934d7abe550f2a6705aabe0316"
 
 RPROVIDES:${PN} += "libdtkwm.so.5 \
 libdtkwm5"

@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.4.2"
 
-RPM_NAME = "eiskaltdcpp-cli-2.4.2-1.13.aarch64.rpm"
-RPM_HASH = "9d4f92ddd21894b90466191e8b3a1e684e872b9399242cfedfb6ad41567d3914efe65da24b5b59928f3139affa47d2c9d26d0e6992b484c8e2a2ed588461a65b"
+RPM_NAME = "eiskaltdcpp-cli-2.4.2-1.14.aarch64.rpm"
+RPM_HASH = "31ea07d3cb2cdbd023be3091e2b93d92736559f5a31342f03ef9368656735316ec76cee397bc3a602bd346a078fcd1b79504be032d1d76bb4eaa2ae047e3f986"
 
 RPROVIDES:${PN} += "eiskaltdcpp-cli"
 

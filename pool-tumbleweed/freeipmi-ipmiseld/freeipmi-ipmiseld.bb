@@ -6,10 +6,10 @@ Recent logging data will be cached to disk to ensure that SEL events are \
 not missed in the event the client or server is rebooted."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.6.10"
+PV = "1.6.11"
 
-RPM_NAME = "freeipmi-ipmiseld-1.6.10-1.3.aarch64.rpm"
-RPM_HASH = "6468fc3843f8e02f913d81b01092483ce0292ee56ed2ad819390ee36cfb229a3e53a175151201f6894f60ef64d887b2abdbecf7343640f740f9199ef2fc231f2"
+RPM_NAME = "freeipmi-ipmiseld-1.6.11-1.1.aarch64.rpm"
+RPM_HASH = "47ea68965d30e09a54b86dfbc45043d782f34435e451981d493bf7c90ced0a561941f3b23a3f3884323ea36ddc623c0b3d720c25402580cc6f7a59ecc377de5a"
 
 RPROVIDES:${PN} += "config-freeipmi-ipmiseld \
 freeipmi-/usr/sbin/ipmiseld \

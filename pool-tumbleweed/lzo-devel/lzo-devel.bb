@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.10"
 
-RPM_NAME = "lzo-devel-2.10-8.2.aarch64.rpm"
-RPM_HASH = "0c8d28fd461b5b69bdba4f116c9e1cc9d070f8ca32631819799f4993809db38379575839375267ee9e7b67549ebc9ef201aca5ee1c7ddb58b4bb8ceb8e09d760"
+RPM_NAME = "lzo-devel-2.10-8.3.aarch64.rpm"
+RPM_HASH = "e649db38fe33ef94e2a8492d2b238da6b34f2027bb91029856424d8c493b16b142ea1289cd4cd45d180d5e0fd8134e939e956acd9293254998ef25a357a971d7"
 
 RPROVIDES:${PN} += "lzo-devel \
 pkgconfig-lzo2"

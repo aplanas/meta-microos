@@ -4,11 +4,12 @@ LICENSE = "Apache-2.0"
 
 PV = "0.3.0"
 
-RPM_NAME = "python311-sphinxcontrib-asyncio-0.3.0-3.6.noarch.rpm"
-RPM_HASH = "473241b4fcb8697d184bf6e376762f566d7124a3c4ea99b7cadcf89aa67135f475cfdb47c5cad94a9f24068530776bf7f8d7e99137386b06ed31bf1ee8a702e1"
+RPM_NAME = "python311-sphinxcontrib-asyncio-0.3.0-3.8.noarch.rpm"
+RPM_HASH = "b44a44c12e8a504ffd3020320cfe350579554e5172dc82c55cbe3b729fa3cc3e03b2f8dacb584e5a2a962c0ad578ea36460db9abbf0f40edbeae832ff3971a6c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-sphinxcontrib-asyncio \
+RPROVIDES:${PN} += "python3-sphinxcontrib-asyncio \
+python3.11dist-sphinxcontrib-asyncio \
 python311-sphinxcontrib-asyncio \
 python3dist-sphinxcontrib-asyncio"
 

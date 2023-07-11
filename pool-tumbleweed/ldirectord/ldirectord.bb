@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
 PV = "4.12.0+git30.7fd7c8fa"
 
-RPM_NAME = "ldirectord-4.12.0+git30.7fd7c8fa-1.1.aarch64.rpm"
-RPM_HASH = "cb24ab2606b0f1eed13c9a55e525337ab8d91876107a84d039c92169091695e82e19bf4a57d658b07e073a079ed1cc895257e487a0c0eb4ccd5952845cdf9ec6"
+RPM_NAME = "ldirectord-4.12.0+git30.7fd7c8fa-1.2.aarch64.rpm"
+RPM_HASH = "d5a9d48b5fdf6198cff28e5244324444935863cb4b7f0a193f968d657af015773eb9dc4ecaaaebd7a0db4eb470970aa7b00de74177d8dc04572f7a8122ed20d6"
 
 RPROVIDES:${PN} += "config-ldirectord \
 heartbeat-ldirectord \

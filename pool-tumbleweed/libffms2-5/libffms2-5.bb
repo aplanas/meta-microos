@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "2.40+44"
 
-RPM_NAME = "libffms2-5-2.40+44-1.5.aarch64.rpm"
-RPM_HASH = "e5edab45aa085da9db1ce06d5d65c275beebbd928baa903a07eb25331c48bebe348f6806e1f5f7702c0296d6553b6691e853c97ba62e7c01c480742c7a3fe98b"
+RPM_NAME = "libffms2-5-2.40+44-1.6.aarch64.rpm"
+RPM_HASH = "8e2a19d985ee3ae14fff99d63aaf2979f55569f58acf5e288afe85959db07f99ec51d7a3c3dd8aa5efb6d0e5871b25f9e400f10cd92918794407b0bb2079946f"
 
 RPROVIDES:${PN} += "libffms2-5 \
 libffms2.so.5"

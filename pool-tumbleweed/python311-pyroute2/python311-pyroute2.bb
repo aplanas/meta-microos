@@ -18,11 +18,19 @@ LICENSE = "Apache-2.0 | GPL-2.0-or-later"
 
 PV = "0.7.3"
 
-RPM_NAME = "python311-pyroute2-0.7.3-1.4.noarch.rpm"
-RPM_HASH = "8f16f0a6d5a233b01757379cc010e7dbeeb30e938f619039ffc81cee77904348c8b349a4ac730b6177aeb12844d68b1974346a3304e2960329adcdb173a9af55"
+RPM_NAME = "python311-pyroute2-0.7.3-1.6.noarch.rpm"
+RPM_HASH = "7fc5da9d53b5b009e44cfb129ab236805ad9ed023d5920c0b6b85880f5b96e9253c6b4e5ce72a78920834b1372e20ea32dc98542c33b19b7eeb5be2494d3e19f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pyroute2 \
+RPROVIDES:${PN} += "python3-pyroute2 \
+python3-pyroute2.core \
+python3-pyroute2.ethtool \
+python3-pyroute2.ipdb \
+python3-pyroute2.ipset \
+python3-pyroute2.ndb \
+python3-pyroute2.nftables \
+python3-pyroute2.nslink \
+python3.11dist-pyroute2 \
 python311-pyroute2 \
 python311-pyroute2.core \
 python311-pyroute2.ethtool \

@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "1.7.0"
 
-RPM_NAME = "python311-pytest-listener-1.7.0-4.3.noarch.rpm"
-RPM_HASH = "45873d959758722fbc2c97407a7254c772b94709bac643f058d9d11216253f460051961655ba7b87080215dc87fcd2b8016081599042775c6ebea8a0fea68287"
+RPM_NAME = "python311-pytest-listener-1.7.0-4.5.noarch.rpm"
+RPM_HASH = "78f4b5b25ce39dbc9cf30d88f99baee6bdfebb5936d9f75e40545e85199529db686952b27dee10f77342162bdf22eca720136a9a7b90a4bb2b8b433ec13a02a6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pytest-listener \
+RPROVIDES:${PN} += "python3-pytest-listener \
+python3.11dist-pytest-listener \
 python311-pytest-listener \
 python3dist-pytest-listener"
 

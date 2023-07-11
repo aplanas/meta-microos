@@ -15,8 +15,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2023.201.0.0.4svn65318"
 
-RPM_NAME = "texlive-graphicscache-2023.201.0.0.4svn65318-53.1.noarch.rpm"
-RPM_HASH = "3b37cf592604d2cb69bc9c872f9d3418532dc3a47f58f2091a75cfa9fcc3a084e03938be4ddb39ef42203bdfef7123fbcad99088bf30f27ca0dbaafc69906e05"
+RPM_NAME = "texlive-graphicscache-2023.201.0.0.4svn65318-53.2.noarch.rpm"
+RPM_HASH = "dd79972a4a4efaa3fbf01ae1bef75225e1799d355f4c4ff549c2417b3270ed9c0f04d69c5c506328b32539038c7b0aee4d9c8e43200d1fbafb550a7b44ae275f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-graphicscache.sty \

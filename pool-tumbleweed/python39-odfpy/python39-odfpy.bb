@@ -28,8 +28,8 @@ LICENSE = "Apache-2.0 | GPL-2.0-or-later"
 
 PV = "1.4.2"
 
-RPM_NAME = "python39-odfpy-1.4.2-1.4.noarch.rpm"
-RPM_HASH = "152e6dd6f53e552ad23156c6d545b21a85fd1677c6730709a1a7d0d09d644bc52f46053e049e2033366dad1b78742aabeb76a6232da26c8a3416d1ba7b50a5d5"
+RPM_NAME = "python39-odfpy-1.4.2-1.6.noarch.rpm"
+RPM_HASH = "32f0d6777929d370ab396dd2f6cee31b7eca09e6e96a6cb282d70ede3574e9b090aad1f43cf6d22974abb48fab5edc9e0f46f2a14348da6f399efa8436843084"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-odfpy \

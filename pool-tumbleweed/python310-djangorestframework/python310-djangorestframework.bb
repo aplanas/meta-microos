@@ -10,13 +10,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "3.14.0"
 
-RPM_NAME = "python310-djangorestframework-3.14.0-2.3.noarch.rpm"
-RPM_HASH = "09bf7e3174052444c143b4d86427327c1b623dabc9fd4acea5239a3ff20655baee133c7fa92a0ea30ba8ae4320a146701fbb833788c9ba74e9e7dc5bbedd087c"
+RPM_NAME = "python310-djangorestframework-3.14.0-3.1.noarch.rpm"
+RPM_HASH = "55d05e657f28f98a51efb1e6aba5b924cec71ff883831848a7d35a94564b6c24abe675cc9fa25fac04fd2cc20bd1cac777698788ce8ca0d99e250d7ebb3d15da"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-django-rest-framework \
-python3-djangorestframework \
-python3.10dist-djangorestframework \
+RPROVIDES:${PN} += "python3.10dist-djangorestframework \
 python310-django-rest-framework \
 python310-djangorestframework \
 python3dist-djangorestframework"

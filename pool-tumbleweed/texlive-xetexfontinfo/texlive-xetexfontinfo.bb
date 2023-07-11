@@ -6,8 +6,8 @@ LICENSE = "Apache-1.0"
 
 PV = "2023.201.svn15878"
 
-RPM_NAME = "texlive-xetexfontinfo-2023.201.svn15878-52.1.noarch.rpm"
-RPM_HASH = "3b6c1d62a37e0fca8421a876d6b337aeacd417eceed31a4d949dee0f6fcf24213f5f1804a1ae41aab68ab9c4915b68f8bea804189cced47517f0e92e61d1cb4b"
+RPM_NAME = "texlive-xetexfontinfo-2023.201.svn15878-52.2.noarch.rpm"
+RPM_HASH = "23cc241a9cba45cbbfd97acc07cf1cda3328ffb51ec15aff42b52c1b00c699175f9776102f2510159c4608f3a2c68e425fbe2d2a7c41dd19fcd8e8c3b7ca4fdf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-aat-info.tex \

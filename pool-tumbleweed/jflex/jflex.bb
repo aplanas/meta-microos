@@ -16,8 +16,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.8.2"
 
-RPM_NAME = "jflex-1.8.2-5.1.noarch.rpm"
-RPM_HASH = "2599cc6cc29d9d5c8b2eb8f22966f9024154afd8f7b1ddda6c893089abaad28dfd3ba4165f309b9e91316c6e9c5cc3a308a39a95ce5c0cb7ac73da223af11b9e"
+RPM_NAME = "jflex-1.8.2-5.2.noarch.rpm"
+RPM_HASH = "b517ea3bfb36b13280f08d6bb5e29cef8a1adc659443e316084d94bfd2064ac6ee327e40a137fbb70df89556edf24cf1908bf0b27030b37997f384cdd223f5b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jflex \

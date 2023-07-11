@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "2.0.0.0"
 
-RPM_NAME = "python310-azure-mgmt-botservice-2.0.0.0-1.3.noarch.rpm"
-RPM_HASH = "c720942a0d4fccec19349d365b94639ff5a7cb84594cf81557d9d1afddc514f1dde7bd472551f6ef7f13cd5cc5854e96a2f9a283e81e72035f5608a36a328509"
+RPM_NAME = "python310-azure-mgmt-botservice-2.0.0.0-1.4.noarch.rpm"
+RPM_HASH = "9c17f899be9155e567943aa5062b4b6d801e181c9f8caf7eb5c4168a8e0c988f5fc1ebb920ef5d95b8a2448e4bc4afa8bbd789823f350e5dfaff46d9382aa120"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-botservice \
-python3.10dist-azure-mgmt-botservice \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-botservice \
 python310-azure-mgmt-botservice \
 python3dist-azure-mgmt-botservice"
 

@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-only & LGPL-2.1-or-later"
 
 PV = "5.2.0"
 
-RPM_NAME = "prelude-tools-5.2.0-2.14.aarch64.rpm"
-RPM_HASH = "6a396e5e8e7e0c421ae9b563542cffd3150260d4b8078014734f5959971fc41f090fcd2930e40f059120c6c9c4a1daffe37147bb3f4976cbeadac6c5d9a2d135"
+RPM_NAME = "prelude-tools-5.2.0-2.16.aarch64.rpm"
+RPM_HASH = "55478d74c2243446ce1d44ea79b6545725ec891d23f53ed07c079088f99952f0cad4e2f2b9ac1eaca35a9e68fae5d16ba15640c5ff650ccba6fa3e19b21b985e"
 
 RPROVIDES:${PN} += "config-prelude-tools \
 prelude-tools"

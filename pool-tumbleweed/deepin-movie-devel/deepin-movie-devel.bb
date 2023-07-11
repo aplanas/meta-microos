@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later & OpenSSL"
 
 PV = "5.10.8"
 
-RPM_NAME = "deepin-movie-devel-5.10.8-1.5.aarch64.rpm"
-RPM_HASH = "11de092cd28f88bf0ec3f58248623adcf9f8afff54be4b4c8931517c421e5885b759cab2d033cb5078405d4a50b7fe52d19dd3cd32f489d8de45eccef2d9d29c"
+RPM_NAME = "deepin-movie-devel-5.10.8-1.6.aarch64.rpm"
+RPM_HASH = "c834ab4be82d46cb4ca5ad4b05d55ff962438f797514f2857a1f6adb6ae9d9a691525e187a961b972914eef59926ad00a1648663902144d91957cbb290364722"
 
 RPROVIDES:${PN} += "deepin-movie-devel \
 pkgconfig-libdmr"

@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
 PV = "0.10.55"
 
-RPM_NAME = "goffice-devel-0.10.55-1.3.aarch64.rpm"
-RPM_HASH = "f7174c52644b9ca171b251cd4c78d8f99d649ea3d1102f2e184e0993b7561e6f99042eb2d185c897d22ab92e21feea1666fdec6efb743d518cc961129735bcc7"
+RPM_NAME = "goffice-devel-0.10.55-1.4.aarch64.rpm"
+RPM_HASH = "68b097076290c811d2e57012d60e51613970ccbd2884da92304927c30ea96f0462a309a2ab006b27c5d220fcf8c5a194c3e43bb7799049022cdc548b6af83e9f"
 
 RPROVIDES:${PN} += "goffice-devel \
 goffice-doc \

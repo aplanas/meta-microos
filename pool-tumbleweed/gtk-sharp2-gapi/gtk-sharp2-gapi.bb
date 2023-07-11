@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.12.45"
 
-RPM_NAME = "gtk-sharp2-gapi-2.12.45-3.8.aarch64.rpm"
-RPM_HASH = "d1d86ec19fd8fff582a9f161f2501f82ab9d1f57978d46f241d9fce56409d9d247e14a5cc251d02ac775aaa2641ff61dffc1cee96282c0a42b895feabcb98393"
+RPM_NAME = "gtk-sharp2-gapi-2.12.45-3.9.aarch64.rpm"
+RPM_HASH = "b3f7d1453b5af1bde2d8961c977be2fa0d36ed70ddc09cb52fcde8bd9d6b7d030b51f0fb3438d5636169d40a0d72a3c1c276b9ca0bf51741c78af48780e68d33"
 
 RPROVIDES:${PN} += "gtk-sharp2-gapi \
 mono-gapi-codegen \

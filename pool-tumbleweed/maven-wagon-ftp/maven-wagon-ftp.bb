@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.5.3"
 
-RPM_NAME = "maven-wagon-ftp-3.5.3-1.1.noarch.rpm"
-RPM_HASH = "b8ff7bac5f2b98052f8a3cb4f2ad197a7bc7ac14930771cedb966a70032840083ce53e28b511e1658b4ea10c931f806fa6a920024e06ff1a7e9e00741c177a37"
+RPM_NAME = "maven-wagon-ftp-3.5.3-1.2.noarch.rpm"
+RPM_HASH = "c2be056d87194c862edbef6a6a42d3af41e6f1c8262270e389b499f7a6a6fde98dec7ebc7d2dd0659cbd4f4110998514bbbb894003bcd3745ba69d89f6a44743"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-wagon-ftp \

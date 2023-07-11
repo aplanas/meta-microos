@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
 PV = "2.3.1"
 
-RPM_NAME = "monitoring-plugins-flexlm-2.3.1-9.4.aarch64.rpm"
-RPM_HASH = "8a96a1d56df3e546d456fc789c6e9ef402d8619fec76532940b9f03cd067178e166d83ba006dfe875e2f9366bea404ceb632044d7392f9b3ae7f7ed27c4e4889"
+RPM_NAME = "monitoring-plugins-flexlm-2.3.1-9.5.aarch64.rpm"
+RPM_HASH = "791604c8237ea7b643274526e57147f6f8d2293cff58738dc330bc1663484570fdbf32f6646a57192c6984d930f9e1cfd6863be6c1a4e4943e584469b981e2b0"
 
 RPROVIDES:${PN} += "monitoring-plugins-flexlm \
 nagios-plugins-flexlm"

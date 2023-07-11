@@ -2,10 +2,10 @@ SUMMARY = "Wallet Management Tool"
 DESCRIPTION = "This application allows you to manage your KDE password wallet."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kwalletmanager5-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "6bd85af039fc5be5c71897d339d038ab65965afcca476d76d0523b1f3f56e024994e62056321f497f2bf9af11f9864a0a026890b330705fc01216e3da70cc3a3"
+RPM_NAME = "kwalletmanager5-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "6d3ac0945e9bcf38edc5e3657139c4b7621e5ef03dc06fd1363ca6ce2d0b067061abfceb89d5a6da1aa0b717284945f8813e9eccdb6f27250a4f00a316ab1fe5"
 
 RPROVIDES:${PN} += "kwalletmanager \
 kwalletmanager5"

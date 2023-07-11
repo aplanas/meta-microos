@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "6.3.0"
 
-RPM_NAME = "sundials-devel-6.3.0-2.4.aarch64.rpm"
-RPM_HASH = "208a232f01d29773001a3d9f5cfa629c9949027368ab6bab8687d802ed14967ceaa13c847fdd0c48d1b19d1be807b65a540a908c60dba04f1bf288d4b830ec74"
+RPM_NAME = "sundials-devel-6.3.0-2.5.aarch64.rpm"
+RPM_HASH = "f88f942b09f00283ba631fcac2693d0be51d81d4bc3d35ec5f09a3a06eacb0144989934936c2cfa1694693dd439f093f2403f2a6da93d3d3ea2ace0d7fcd191b"
 
 RPROVIDES:${PN} += "cmake-SUNDIALS \
 sundials-devel"

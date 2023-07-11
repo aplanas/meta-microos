@@ -2,10 +2,10 @@ SUMMARY = "Deepin Window Manager"
 DESCRIPTION = "deepin-kWin is the window manager of the Deepin desktop environment."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.25.0"
+PV = "5.25.5"
 
-RPM_NAME = "deepin-kwin-5.25.0-1.2.aarch64.rpm"
-RPM_HASH = "b38732709582832adeab7393e3ac84b641733d4c44c17718532b53cf75a5b79bb29f9209d83b06a068affd1aa156a1777dc63af2be30b156bf1e56837e1baf8d"
+RPM_NAME = "deepin-kwin-5.25.5-1.1.aarch64.rpm"
+RPM_HASH = "6b69f3e0594501840815f0c27f96807c9d4917a7f9f798400e7b4b26b95752c27e54d2c5d7817f1e2c47d559d690054e377f255f59d6a4b8b4f2fa949671973b"
 
 RPROVIDES:${PN} += "config-deepin-kwin \
 deepin-kwin \
@@ -76,6 +76,7 @@ libQt5X11Extras.so.5 \
 libX11-xcb.so.1 \
 libX11.so.6 \
 libXi.so.6 \
+libXss.so.1 \
 libXtst.so.6 \
 libc.so.6 \
 libcap.so.2 \

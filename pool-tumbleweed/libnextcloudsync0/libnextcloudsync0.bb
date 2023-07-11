@@ -2,10 +2,10 @@ SUMMARY = "The Nextcloud synchronisation library"
 DESCRIPTION = "The Nextcloud Desktop Client synchronisation library."
 LICENSE = "GPL-2.0-or-later & LGPL-3.0-or-later"
 
-PV = "3.8.2"
+PV = "3.9.0"
 
-RPM_NAME = "libnextcloudsync0-3.8.2-1.1.aarch64.rpm"
-RPM_HASH = "fa37d8b77399883978427ab39cb6a30100c040641fff93d83664a8eb8a7a777374707f34fb3b70f867908c180c832b7ffe0b094bc286063e9cffab90aa82fb2d"
+RPM_NAME = "libnextcloudsync0-3.9.0-3.1.aarch64.rpm"
+RPM_HASH = "91e3ca0f801db6a51c88ecf842917f52418ac3af72dd103e3a1c74600f4e497f115b0e7a969c6a4795ef78fe78cab137d73a9fc4e7667e34efacfb06033c7729"
 
 RPROVIDES:${PN} += "libnextcloud-csync.so.0 \
 libnextcloudsync.so.0 \
@@ -19,6 +19,7 @@ libQt5Network.so.5 \
 libQt5Svg.so.5 \
 libQt5WebSockets.so.5 \
 libQt5Widgets.so.5 \
+libQt5Xml.so.5 \
 libc.so.6 \
 libcrypto.so.3 \
 libgcc-s.so.1 \

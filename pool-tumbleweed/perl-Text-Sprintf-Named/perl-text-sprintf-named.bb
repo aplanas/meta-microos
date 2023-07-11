@@ -9,14 +9,14 @@ LICENSE = "MIT"
 
 PV = "0.0405"
 
-RPM_NAME = "perl-Text-Sprintf-Named-0.0405-1.12.noarch.rpm"
-RPM_HASH = "53ff32e9ef60895718e0343073222c1c3952ae04e8f51b50b6c49d5574cfb0bd033dfae92c6a0fe29f951c6e95116fccec487980049a0b7fff70cb24ad9cae9b"
+RPM_NAME = "perl-Text-Sprintf-Named-0.0405-1.13.noarch.rpm"
+RPM_HASH = "739908ea51434a8704dcaf1a41801930727fb803e7394eea25161c180483a4a57c71ac7b625ad6838564fffd5dd29645f3389ccfa1c16eb732fc86bc7cdeebfb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Text--Sprintf--Named \
 perl-Text-Sprintf-Named"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-parent"
 
 inherit rpm

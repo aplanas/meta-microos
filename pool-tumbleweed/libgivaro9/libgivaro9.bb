@@ -16,8 +16,8 @@ LICENSE = "CECILL-B"
 
 PV = "4.2.0"
 
-RPM_NAME = "libgivaro9-4.2.0-2.1.aarch64.rpm"
-RPM_HASH = "9b75defaf53ff26ba233e377c7b31e3461cd0a356c96b6d8f2a619cc6b187d9a79e4ec7c0e5f8cf507a333d75cf3e0ccc7c70d5eb24c7d40af6ca56ef9ee3152"
+RPM_NAME = "libgivaro9-4.2.0-2.2.aarch64.rpm"
+RPM_HASH = "d64375ec650e8d4d5479c5bb1b35f5afab3a271b1911d78692ac8160930d457b4729d337fb823ce58f481ee8cbd150eab0504366942b5846bba44ac8f05a9e9b"
 
 RPROVIDES:${PN} += "libgivaro.so.9 \
 libgivaro9"

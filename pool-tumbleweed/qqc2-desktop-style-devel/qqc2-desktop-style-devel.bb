@@ -4,10 +4,10 @@ qqc2-desktop-style. \
 Usually not needed as it is only a runtime dependency."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "qqc2-desktop-style-devel-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "3fd25591ae20115b705318b9616662a3d917c73403a20c6004ff3bb1f17b2082f8c402160e455047aac53dbee90c4cd0f8b994e88dfa1e2e62dba994c8d37abf"
+RPM_NAME = "qqc2-desktop-style-devel-5.107.0-1.2.aarch64.rpm"
+RPM_HASH = "217a9e8139fb109f97081e489157bbd76c57146bb2a3a5e8a55a47d0d83d4d4ee63bedaeaad44cb97edf21b6ca1e2bf71bb47788286524619060452ac363c52c"
 
 RPROVIDES:${PN} += "cmake-KF5QQC2DeskopStyle \
 cmake-KF5QQC2DesktopStyle \

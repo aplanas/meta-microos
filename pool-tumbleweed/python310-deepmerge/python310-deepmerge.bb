@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "python310-deepmerge-1.1.0-1.1.noarch.rpm"
-RPM_HASH = "3868804984fd72abb383ba8c986772d5bd28a5ce118b20144e43931490e5ca6ef14c438b226f86495e965dbbfe4c847d0fd5a9c91c154f5527ac0a7dc221bd28"
+RPM_NAME = "python310-deepmerge-1.1.0-1.3.noarch.rpm"
+RPM_HASH = "490536f284fed4e103b04ffd168ac6eabd69c15dc8e9515de0e2bd69a4b8ab8ba9ffe1e36fcd347ba885fc77d8f447f99953f183606b1e9d72ce07ff85d35aa2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-deepmerge \
-python3.10dist-deepmerge \
+RPROVIDES:${PN} += "python3.10dist-deepmerge \
 python310-deepmerge \
 python3dist-deepmerge"
 

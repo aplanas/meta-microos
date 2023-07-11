@@ -4,8 +4,8 @@ LICENSE = "MPL-2.0"
 
 PV = "0.17.2"
 
-RPM_NAME = "python3-liborcus-0.17.2-3.4.aarch64.rpm"
-RPM_HASH = "431ab00a30a3612599de93e2b2bf7fe1d07fc1d99f8cef865c5e7ad02de6b33719e5c2215796da10dd987857e1ae9dd25dcff32423e7c405701b4a1396fd557e"
+RPM_NAME = "python3-liborcus-0.17.2-3.5.aarch64.rpm"
+RPM_HASH = "2cbb502edee99127d101e805fbd304041449da63abfbd8569b8c1559f0e0fb804ffb6439bcfc9e18bb487ca80c1a0d72618e84e8f355ea25d551001c2dd478d2"
 
 RPROVIDES:${PN} += "liborcus-python3 \
 python3-liborcus"

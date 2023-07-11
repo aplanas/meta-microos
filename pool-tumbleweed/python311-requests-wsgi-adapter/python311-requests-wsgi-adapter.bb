@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.1"
 
-RPM_NAME = "python311-requests-wsgi-adapter-0.4.1-1.3.noarch.rpm"
-RPM_HASH = "199634b88503357444782e20c4bd57477f1f7363dec41192376c44321e139145c43f5d4f620f269a9ea6ef362b4a33d42d8b2bde24fa5f080b180b5ee90baaf5"
+RPM_NAME = "python311-requests-wsgi-adapter-0.4.1-2.1.noarch.rpm"
+RPM_HASH = "0810fcac763db24d27488bd1bfc509d0b48966cafe9578cdd363cff6cee5ba899d5013038b874d25e5cb97db453e773db739ed19be6e635c1f8e39a3a42c0f8b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-requests-wsgi-adapter \
+RPROVIDES:${PN} += "python3-requests-wsgi-adapter \
+python3.11dist-requests-wsgi-adapter \
 python311-requests-wsgi-adapter \
 python3dist-requests-wsgi-adapter"
 

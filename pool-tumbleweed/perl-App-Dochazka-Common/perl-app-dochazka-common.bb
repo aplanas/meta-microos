@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.210"
 
-RPM_NAME = "perl-App-Dochazka-Common-0.210-1.2.noarch.rpm"
-RPM_HASH = "eb7f8d37510c9173ebb4a60de27c0b7354e9f1328ac2fb054698ec5c288bc62d2c17dde8c9e29a8bbe176fbbe0efadb25d14ec06ac2f49e0e83612235199a264"
+RPM_NAME = "perl-App-Dochazka-Common-0.210-1.3.noarch.rpm"
+RPM_HASH = "8973b36cb86396052018001b63f15fb2338cbca1d165bf1c2480ab1ec36d2884abcc4ea467a004cbea92e8d830a5f3739e9b025edeabeeac1daa9066f795f3fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-App--Dochazka--Common \
@@ -25,7 +25,7 @@ perl-App--Dochazka--Common--Model--Schedule \
 perl-App--Dochazka--Common--Model--Tempintvl \
 perl-App-Dochazka-Common"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Params--Validate \
 perl-Test--Deep--NoTest \
 perl-Time--Piece \

@@ -12,8 +12,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.54"
 
-RPM_NAME = "perl-Test-Spec-0.54-1.16.noarch.rpm"
-RPM_HASH = "5e9daa3955df299777e3191418cf230b376bee6f97a49917cfdbf8e6ffa06d43953550087e5560f89146131979e112268964ecc81fd0663635ce2750446ab74e"
+RPM_NAME = "perl-Test-Spec-0.54-1.17.noarch.rpm"
+RPM_HASH = "b31b419f26dcb22d58d19bdf72b5b4331daa00401400a47d8e68cb2ddcb628263b88e47a34022c878d22f1eaf2ec20460bf66fbf5f5694d08494d3f12c120f1e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Spec \
@@ -28,7 +28,7 @@ perl-Test--Spec--SharedHash \
 perl-Test--Spec--TodoExample \
 perl-Test-Spec"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Devel--GlobalPhase \
 perl-Package--Stash \
 perl-TAP--Parser \

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "9.3"
 
-RPM_NAME = "coreutils-doc-9.3-1.1.noarch.rpm"
-RPM_HASH = "3f8aae037c7439dadab51a11027b81cf7440d56b3dad25d45aab4a827989b68351dfd71ca8862306567e1d4179491243226f0fe9fc3a6e4478a8a218cefc1d45"
+RPM_NAME = "coreutils-doc-9.3-1.2.noarch.rpm"
+RPM_HASH = "a6634dd7cf5f28c6974b3ddd6694a96a8cc44335da0937294d0785cc90cb8cc67bcc1ebe3fdb6a47be38f8e3cc9427b64e005a0016cb2778c0e07cc87b4ce643"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "coreutils-/usr/share/info/coreutils.info.gz \

@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.5.2"
 
-RPM_NAME = "python39-cached-property-1.5.2-4.1.noarch.rpm"
-RPM_HASH = "b3906a5803992296076025be32d3fcb5fa70ff9414b5eaa65c363fd135e8015b7c115ea6827f57f71621ac2dc6171881915ac839797e46aa9c9b404b6b139633"
+RPM_NAME = "python39-cached-property-1.5.2-4.3.noarch.rpm"
+RPM_HASH = "69e11e627ac4cf87147150bb1d655f32275dc2cf61254220a701a770205123e5827915eeec0e373e5dc01f7494f71e73a9f71fe7e54470c6d41f735818d85b9e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-cached-property \

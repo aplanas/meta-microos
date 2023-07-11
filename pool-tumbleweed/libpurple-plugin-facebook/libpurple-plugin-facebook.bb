@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "0.9.6"
 
-RPM_NAME = "libpurple-plugin-facebook-0.9.6-1.22.aarch64.rpm"
-RPM_HASH = "42657073f43f5b9b3b23a65aefaa23f652ab21991a13ccf2de0cc6b2016cf262b23b3c7164eebafb61b88143b322a871cce586c085da81bea16d93e2e9442652"
+RPM_NAME = "libpurple-plugin-facebook-0.9.6-1.23.aarch64.rpm"
+RPM_HASH = "592bf7317a8873fef9b5c4e875982b09b29ff7fc488fc425d943912825eaef4ca17a577c8b8b7bee12aa3bafcf24b60e09656abffe50d96b3d2d7ddbc3a28966"
 
 RPROVIDES:${PN} += "libfacebook.so \
 libpurple-plugin-facebook \

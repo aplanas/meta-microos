@@ -6,10 +6,11 @@ LICENSE = "MIT"
 
 PV = "0.2.11"
 
-RPM_NAME = "python311-PyAudio-0.2.11-3.8.aarch64.rpm"
-RPM_HASH = "2db5342dd3333593931679c44f2f6bd21b82b2d0d69af498377cca7721952b5b0908dec94587a8180af65da005c3329df1c8bf8565ff3e223e9b7fdb0c547139"
+RPM_NAME = "python311-PyAudio-0.2.11-3.10.aarch64.rpm"
+RPM_HASH = "0d985af922ebb3c9d508a79166c02a1c4f33398cace0ea9bec7f0246938ad69cbfda580fdbb9b4e339ace12e6167a6d2445aed77aabef0f27559ed9aeeb5aad4"
 
-RPROVIDES:${PN} += "python3.11dist-pyaudio \
+RPROVIDES:${PN} += "python3-PyAudio \
+python3.11dist-pyaudio \
 python311-PyAudio \
 python3dist-pyaudio"
 

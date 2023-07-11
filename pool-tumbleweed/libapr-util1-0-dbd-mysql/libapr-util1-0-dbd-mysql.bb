@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.6.3"
 
-RPM_NAME = "libapr-util1-0-dbd-mysql-1.6.3-1.2.aarch64.rpm"
-RPM_HASH = "4e9846c22f3820089c0ca96ea54849374702fcb1248a8f685dacd81f3b0ee4d520af6af03f0b67b716a67a22f2290999807c3714c49f48108d829fd570ae4b32"
+RPM_NAME = "libapr-util1-0-dbd-mysql-1.6.3-1.3.aarch64.rpm"
+RPM_HASH = "5a0c67eb0fb1affd7467adb90cd2f58b0ab6d9ad137db8795e7620dc007bfffe1238a47b6815a22194a492c28754219cc96c42155b0be60b7cb7b865da1d6f5d"
 
 RPROVIDES:${PN} += "libapr-util1-0-dbd-mysql"
 

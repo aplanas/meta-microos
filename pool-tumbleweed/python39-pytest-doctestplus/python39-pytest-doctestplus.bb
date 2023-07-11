@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.12.1"
 
-RPM_NAME = "python39-pytest-doctestplus-0.12.1-1.1.noarch.rpm"
-RPM_HASH = "97596ba433fbc7cabbb149a6eeb524b1763e8ffad3c4fb0f172f2e4761c12641d07a2961aabf6d6185f772bc3d630cc8b2bf46eb80ce01bc78cd76e80fa4ffdb"
+RPM_NAME = "python39-pytest-doctestplus-0.12.1-1.3.noarch.rpm"
+RPM_HASH = "0ac99cf502418e1d95f4de213f8de690dbec38689222ff2c1320682eeae54c6c35b389ffcce96ae2a64fdffb9ae1f1f731ea85895c00c24468b3f362fe82936a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytest-doctestplus \

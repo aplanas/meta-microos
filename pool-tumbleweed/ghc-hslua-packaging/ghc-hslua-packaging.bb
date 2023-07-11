@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "2.3.0"
 
-RPM_NAME = "ghc-hslua-packaging-2.3.0-1.3.aarch64.rpm"
-RPM_HASH = "0fe67f796c44ed78d521f747645feffa21b255d6098e8cb42acc0906b88f84ede7a63b2b8b4b387e55aff968941c5b06c4e330cb3f3a9b48d678315890f95b85"
+RPM_NAME = "ghc-hslua-packaging-2.3.0-1.6.aarch64.rpm"
+RPM_HASH = "cb2716858b4dfdfab6903bd4cf1d887d558caf68cb27c3380e8e9f719511b2ea70e4bb9a938dbeec4b9553be16d4e86fd0b1c7fe0f073124efeffeffb7d40c48"
 
 RPROVIDES:${PN} += "ghc-hslua-packaging \
 libHShslua-packaging-2.3.0-G1L5YnYzXF0JtyxtKuFgZ4-ghc9.4.5.so"

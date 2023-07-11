@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.9.0"
 
-RPM_NAME = "python-py2pack-doc-0.9.0-1.1.noarch.rpm"
-RPM_HASH = "f2ae3d86e958e5add970bfed8db85430f7720823e4eec9c279e63f2740ed59f618bd5a1b8fcc1e4e8b1875c35ff8efde78c89130a907cf5f76d80c80b3b3c97e"
+RPM_NAME = "python-py2pack-doc-0.9.0-2.3.noarch.rpm"
+RPM_HASH = "6cd5371da8eeab6e29a5f1fde77ea21acfa02dfcb27434ff01cd6b5ef8b8e2bd65c4c91a794d345f902be949b19ea26b6bd73cb502844d04b2d104cf29b6f7b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-py2pack-doc \

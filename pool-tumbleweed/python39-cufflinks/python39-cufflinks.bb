@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.17.3"
 
-RPM_NAME = "python39-cufflinks-0.17.3-3.8.noarch.rpm"
-RPM_HASH = "85a61f019591a6c383543e09166384943dbb4a8cd6bcb3de78055373d53b699a175170940eca4d78ce882ed4f23c999a5d7487d2b168ab9f86221c72dbaab6b4"
+RPM_NAME = "python39-cufflinks-0.17.3-3.10.noarch.rpm"
+RPM_HASH = "d1799ce08c74be29557ec538985174f42310904609e9ed8e7f0a3b26559a7dff5a1efb8ff97e646117a03a0354920617f4e07ca8f12f14523ac78b352adc2b9a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-cufflinks \

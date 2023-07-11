@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.2.8"
 
-RPM_NAME = "ghc-tabular-devel-0.2.2.8-4.3.aarch64.rpm"
-RPM_HASH = "80aaaf0ddfd592b0bf569abdbbdbcd514c9b7cad8a213e024b025668b27b4a41253005e097494f89b61b9bbb31823de444decac3dce614290035f955eebe2514"
+RPM_NAME = "ghc-tabular-devel-0.2.2.8-4.6.aarch64.rpm"
+RPM_HASH = "26ae2c1400a3c17ab97c92f051c18f74c8cd7c8fc9faf6c3c0a1062e5d4ae3f69b8bc9cadfdf88b952c26734e9772f1adb622a2e1a3b888e4b7e4a9ba3242d3f"
 
 RPROVIDES:${PN} += "ghc-devel-tabular-0.2.2.8-5oBUDJP9F9qUMGPeotGAp \
 ghc-tabular-devel"

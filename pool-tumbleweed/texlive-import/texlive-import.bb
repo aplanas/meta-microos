@@ -6,10 +6,10 @@ load files relative to the \\import-ed directory. There are also \
 \\includefrom, \\subincludefrom, and * variants of the commands."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.6.2svn54683"
+PV = "2023.208.6.2svn54683"
 
-RPM_NAME = "texlive-import-2023.201.6.2svn54683-52.1.noarch.rpm"
-RPM_HASH = "3aaf3b74235684128a882b2b2656d6e15a431baa63d508e8b782e97790f23326b6e23f1bba2472b8cddc804614d446a93ccfead1a15f03535d10b6d16fa661ee"
+RPM_NAME = "texlive-import-2023.208.6.2svn54683-53.1.noarch.rpm"
+RPM_HASH = "5cec33f89b9758b651ddea87ace42b9d4513bdcb7fa992091e91da102de9643ee8e89b32f9f1173f3b52f032c11f92457bad4b334b4f7d1dbbdbd6a115c92079"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-import.sty \

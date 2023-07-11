@@ -4,10 +4,10 @@ called libraries, and each library can be synced separately. A library can also 
 Seafile also allows users to create groups and easily sharing files into groups."
 LICENSE = "GPL-3.0-only"
 
-PV = "9.0.1"
+PV = "9.0.3"
 
-RPM_NAME = "seafile-client-9.0.1-1.1.aarch64.rpm"
-RPM_HASH = "fe4a9ac0bee9f748f0bca0738714e4b597e4074dbbddeee759cfb667470afa45af491399949b11fe4f657fe54b3ed02b3054e4708d79b93fbe15f096a937aa8e"
+RPM_NAME = "seafile-client-9.0.3-1.1.aarch64.rpm"
+RPM_HASH = "ab56eb5e199626f716d68756ac4435b973117037437b3a9ef393b19eb3173bd8022693c59dd3663a583d7ce50a5cf2da4c7f69cd12ea89794cbd83a5f72fa6a2"
 
 RPROVIDES:${PN} += "seafile-client"
 

@@ -7,8 +7,8 @@ LICENSE = "BSD-2-Clause & BSD-3-Clause"
 
 PV = "1.5.517"
 
-RPM_NAME = "mumble-server-1.5.517-1.1.aarch64.rpm"
-RPM_HASH = "401494ff00a0920e899c34f05d47fcbc98a423bf22bdd34f1dfd98bae9e85187204b0d073b4856ac5db84cc7c14d0d2a579076409fddc38d6ed387e8655d37d9"
+RPM_NAME = "mumble-server-1.5.517-1.2.aarch64.rpm"
+RPM_HASH = "d593a83c2b5ac1f5e98ad5450e5671b708a022ebf55afa1b151b98d870ab06ed151e74df33a7c0ad3329d9b85cd100d63a0de134ad23d323ff7f261cbb4a9d23"
 
 RPROVIDES:${PN} += "config-mumble-server \
 group--mumble-server \

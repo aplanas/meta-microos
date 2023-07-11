@@ -23,14 +23,14 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.7112"
 
-RPM_NAME = "perl-Benchmark-Timer-0.7112-1.16.noarch.rpm"
-RPM_HASH = "33ed1d4df806227ae70b75047db3cbeb883499463316ed2774ceb96fa5cb3ccd9065b4214b80672edc041afe593da8c4d3adbeed8fcfa0921e23a75713dc409f"
+RPM_NAME = "perl-Benchmark-Timer-0.7112-1.17.noarch.rpm"
+RPM_HASH = "5a23e60a0628dad8ddfd151824cf6fb27658dced1d6e00f61e9bdfd5bfd82b1c7f7f8d65625030ba3fc1ad0038e9268350413e070d4c7dd5a074cbb792e40e74"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Benchmark--Timer \
 perl-Benchmark-Timer"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

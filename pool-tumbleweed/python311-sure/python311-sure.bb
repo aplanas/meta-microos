@@ -5,11 +5,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.0.0"
 
-RPM_NAME = "python311-sure-2.0.0-3.5.noarch.rpm"
-RPM_HASH = "275a864e52bef7afa0f29ebfcf1f1f6e05e6925c3057afac07544d81bca084c420e4d9105a1c04a7d5bc6889c8877d0fd6a9672daac1e054eeac56f5facdb08e"
+RPM_NAME = "python311-sure-2.0.0-4.1.noarch.rpm"
+RPM_HASH = "85ad41bfbc96f19e776255995819a347bf76790296aa5d5059fd6771f4d1edfdd33cafbd5e74593175adfb7355d29f91381ac4c125d3c82ec28641ff7deea340"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-sure \
+RPROVIDES:${PN} += "python3-sure \
+python3.11dist-sure \
 python311-sure \
 python3dist-sure"
 

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.1b2"
 
-RPM_NAME = "wordcut-devel-0.5.1b2-205.7.aarch64.rpm"
-RPM_HASH = "48670614b657d2694bb3d6f07193ea48d5562426b91b9e20a1b0a39784b6cfa1f14f6171216dc2d74276574689e2a9785ba850dc2cbe14692cdb3f886fa7962c"
+RPM_NAME = "wordcut-devel-0.5.1b2-206.1.aarch64.rpm"
+RPM_HASH = "86f520d5eac23a2b1fc7f6f29078e4ffa2af70ae12909b56056f301c9ec121c6d607c7e123959954b9ca1299ff0c45b5661b81cf8575830c1e5d317c9ef52965"
 
 RPROVIDES:${PN} += "pkgconfig-wordcut \
 wordcut-devel"

@@ -9,12 +9,11 @@ LICENSE = "Apache-2.0"
 
 PV = "11.3.0"
 
-RPM_NAME = "python310-azure-search-documents-11.3.0-1.3.noarch.rpm"
-RPM_HASH = "c1fc283b305ced9cb98bb41cf9c5a44b9c4fa036531f8ac55a79f50488bce2156364b72c7c2578f98184c5b5169e05aa221737d97876cb6cdf3a350f6567dc9b"
+RPM_NAME = "python310-azure-search-documents-11.3.0-1.4.noarch.rpm"
+RPM_HASH = "eb3324a578bfebec5dd96ecf1234a46d40382e2754d1c54579571d17d60cc7b0ab4141481feb5c3a3a2657a82daa23ce94a0bc8cc494a222ebb16e9bceff6a8a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-search-documents \
-python3.10dist-azure-search-documents \
+RPROVIDES:${PN} += "python3.10dist-azure-search-documents \
 python310-azure-search-documents \
 python3dist-azure-search-documents"
 

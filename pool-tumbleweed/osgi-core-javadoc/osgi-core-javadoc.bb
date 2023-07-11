@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "7.0.0"
 
-RPM_NAME = "osgi-core-javadoc-7.0.0-3.4.noarch.rpm"
-RPM_HASH = "60eb759d07c049575a9ccc752941d0611543ac43744dc080162c6d587d9c2fa50652c414e6bb75dad0c5595acb471efe7ecf71aa5b83f572481a84a5dd3d8445"
+RPM_NAME = "osgi-core-javadoc-7.0.0-3.5.noarch.rpm"
+RPM_HASH = "988aaf6b897d099acae39d6e1cad65433cf1dfa0f10224edd10e45d7b8669d8a76bf0c66aae3926e13b4671e312c538326db8c61f25beeb8bf301bda34fd5311"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "osgi-core-javadoc"

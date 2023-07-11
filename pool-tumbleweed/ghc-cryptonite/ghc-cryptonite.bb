@@ -30,23 +30,23 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.30"
 
-RPM_NAME = "ghc-cryptonite-0.30-2.3.aarch64.rpm"
-RPM_HASH = "f8f7001f0ad6679649d717d7de2e78bc68823b7db62abb71bddbf2b831a0d100ba61d2ff0e1c588877393b27f6dc7fd8cb34bef599ab75da5a98df55f25fef67"
+RPM_NAME = "ghc-cryptonite-0.30-2.6.aarch64.rpm"
+RPM_HASH = "3e04216e3cf680fa44c9498890f099d89e96421288a412aaf1e3bb1189f6ba7ba1165cab9bb9476e817b7eec39d2ae100ed90429765fde12dbee07af2c160b24"
 
 RPROVIDES:${PN} += "ghc-cryptonite \
-libHScryptonite-0.30-AbDFzA14dNKDfU9pLpBLye-ghc9.4.5.so"
+libHScryptonite-0.30-cxpuRFsDaEEZnBeTxvUaJ-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libHSarray-0.5.4.0-ghc9.4.5.so \
 libHSbase-4.17.1.0-ghc9.4.5.so \
-libHSbasement-0.0.15-6OmKTVi2kFpCWMoKDlsO4S-ghc9.4.5.so \
+libHSbasement-0.0.16-J8UFRjmsTYU7wBgfpjdWQn-ghc9.4.5.so \
 libHSbytestring-0.11.4.0-ghc9.4.5.so \
 libHSdeepseq-1.4.8.0-ghc9.4.5.so \
 libHSghc-bignum-1.3-ghc9.4.5.so \
 libHSghc-boot-th-9.4.5-ghc9.4.5.so \
 libHSghc-prim-0.9.0-ghc9.4.5.so \
 libHSinteger-gmp-1.1-ghc9.4.5.so \
-libHSmemory-0.18.0-2DG6nqjfLMK4MSR77XYQqL-ghc9.4.5.so \
+libHSmemory-0.18.0-8CsggfkyXReDSMbRoae4Yp-ghc9.4.5.so \
 libHSpretty-1.1.3.6-ghc9.4.5.so \
 libHStemplate-haskell-2.19.0.0-ghc9.4.5.so \
 libc.so.6 \

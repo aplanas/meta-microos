@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.1.1"
 
-RPM_NAME = "libbasicobjects0-0.1.1-27.18.aarch64.rpm"
-RPM_HASH = "ddb8678319cda361d5bb4847337308312cefa665e38ceab84e79ab237fd5f86f09fca52562ba1ad77551659daad13c005e5ebbe18fabe0465305bb2e5a39cb4a"
+RPM_NAME = "libbasicobjects0-0.1.1-28.1.aarch64.rpm"
+RPM_HASH = "806b980ae4c7d766fe66bbb2de245be36d4797cdc5719fc331a894e7128c084f24956aa726b3f1d00aefd677470197b766d11f5d42348a5db62ca04d5a8c8862"
 
 RPROVIDES:${PN} += "libbasicobjects.so.0 \
 libbasicobjects0"

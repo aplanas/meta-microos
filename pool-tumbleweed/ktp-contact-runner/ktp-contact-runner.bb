@@ -2,10 +2,10 @@ SUMMARY = "Telepathy Krunner plugin"
 DESCRIPTION = "A KRunner plugin to find your Telepathy contacts."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "ktp-contact-runner-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "7aba0142af8281d9024d400123b0acf8ff7e5f1fb12800e03d7f70c9750fb5796024d5b4185bf1c7814f305b6d3832631312eef889b794a2d92105a4bb3719f9"
+RPM_NAME = "ktp-contact-runner-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "d32235944d8c9a6d5c1b8fffed32633add80134128148720d56ca097091f3ef7399253aa3b23d3707568a564db2ed897d21318c62bdc9195039e6b9ce9f3ba9f"
 
 RPROVIDES:${PN} += "ktp-contact-runner \
 ktp-contact-runner5"

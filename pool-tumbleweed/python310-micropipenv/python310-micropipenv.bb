@@ -4,12 +4,11 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.4.5"
 
-RPM_NAME = "python310-micropipenv-1.4.5-1.4.noarch.rpm"
-RPM_HASH = "cb90a702761b797b42e1e983e19610720d025e6c7b9dc4fc678d130a183cd6816e0a071bfb16398afbcad4b7761cf423595d4c4f2768885715c0e81a4ec5fe00"
+RPM_NAME = "python310-micropipenv-1.4.5-1.6.noarch.rpm"
+RPM_HASH = "98aeef51e690e4c2c8660aa63457f9ec2ba781f89c3355b6f2838aa42fb6c97ae81775f23f7100e804453ec180abbcc7f87b30f2e458d114541e5947ffa576ef"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-micropipenv \
-python3.10dist-micropipenv \
+RPROVIDES:${PN} += "python3.10dist-micropipenv \
 python310-micropipenv \
 python3dist-micropipenv"
 

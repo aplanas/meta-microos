@@ -5,12 +5,12 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.6.9"
 
-RPM_NAME = "buildstream-1.6.9-1.2.noarch.rpm"
-RPM_HASH = "8c5852ab31b7d9920de3677d0f7e073f68036303632aabfb7df453efe866e59e1e9260c9d3978d67a994e9227119997a0565109cc34899b00e2b8a9c9de17b6c"
+RPM_NAME = "buildstream-1.6.9-1.3.noarch.rpm"
+RPM_HASH = "fed845ddeeec31ac1e72fb7c544c297161474ffb383763ccfa967a86fea4d00a2d26948801130f93645ed4a66af187b6b9fc5ef5e2274b5143e2352b46e10d78"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "buildstream \
-python3.10dist-buildstream \
+python3.11dist-buildstream \
 python3dist-buildstream"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

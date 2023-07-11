@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.2"
 
-RPM_NAME = "libflashrom1-1.2-4.5.aarch64.rpm"
-RPM_HASH = "eca62fb1c661ebb2f821a15830eac00fd4c270f6ce8aa2c6e04edfa54a67af1ec23ad1914e178c325f086ba31b391188860b150226f7ac0f8fbdeb2481128621"
+RPM_NAME = "libflashrom1-1.2-4.6.aarch64.rpm"
+RPM_HASH = "1d3bcb09a5a5b6dd40395198801ea6aeab491d9f1c81520b237d3435f1c5278a26c18cdf3b24073cd45ee60c19cc19d91fdf6a41df641a4e873bbd4538c85192"
 
 RPROVIDES:${PN} += "libflashrom.so.1 \
 libflashrom1"

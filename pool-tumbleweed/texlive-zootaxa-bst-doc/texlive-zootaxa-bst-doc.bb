@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.0svn50619"
 
-RPM_NAME = "texlive-zootaxa-bst-doc-2023.201.1.0svn50619-52.1.noarch.rpm"
-RPM_HASH = "abedc7f47fe7ea41d7209965b34f6420350c29e65b51c3c8a79199a5ce892757a266519b3ac786a777afcaa558b3899fbe18d8f37d068b0f3933d8a116e99aed"
+RPM_NAME = "texlive-zootaxa-bst-doc-2023.201.1.0svn50619-52.2.noarch.rpm"
+RPM_HASH = "4ad0e56e8509d43281404cbd75a54bed3e25ee1f19e10c61e0414cb853db9c424830596ee1ba35be4f77c3a368bbba38aa755b2d5989f3a26ef758efd4a4c47a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-zootaxa-bst-doc"

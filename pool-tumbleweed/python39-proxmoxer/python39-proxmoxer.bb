@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.0.1"
 
-RPM_NAME = "python39-proxmoxer-2.0.1-1.2.noarch.rpm"
-RPM_HASH = "1a517330f7bcde11a05f6a38a5090278b6df451c2114deefe4f8e040cdbc7412465f85b17dfd7b904c3a07a33c56ae6793ced46d5eebc26ba301b1fa4973e5dd"
+RPM_NAME = "python39-proxmoxer-2.0.1-1.3.noarch.rpm"
+RPM_HASH = "7731b2a620d4b2e03478eec28c0660c70f43ade22862bee87dbaa14c28d71f4b671bf52ce98863c4272113dff5067f5d9292d78a3dec65af608de138e20d8cbc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-proxmoxer \

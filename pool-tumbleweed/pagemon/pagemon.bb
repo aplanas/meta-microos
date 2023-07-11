@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.02.01"
 
-RPM_NAME = "pagemon-0.02.01-1.2.aarch64.rpm"
-RPM_HASH = "360196e669f765a77f0042dacae7f183cd5f912c5e0312e9641a4df2bcb7aedafa3ccc36f212666ab458526e36bc821dc834c1ca13a4f1bc0620b40ed3d4a32b"
+RPM_NAME = "pagemon-0.02.01-1.3.aarch64.rpm"
+RPM_HASH = "de69fb5cbebf3a0d413d094188993880bb5c59809e4275d899405d7c6ada1be05d5c6c58e12d077f1b2271e8729d9b889cf17c7c5e7ec4ca3f83d82d07bef3d2"
 
 RPROVIDES:${PN} += "pagemon"
 

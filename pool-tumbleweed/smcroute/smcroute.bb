@@ -13,8 +13,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.5.6"
 
-RPM_NAME = "smcroute-2.5.6-1.2.aarch64.rpm"
-RPM_HASH = "99a635fec3b0edcfeb718f24c8eef209b9548ffd312defba422cbe8c0bd235bb8ac380a52cb2b1315f02f9603ac43f05ee8baae26afefcc4b853e51d657a40c5"
+RPM_NAME = "smcroute-2.5.6-1.3.aarch64.rpm"
+RPM_HASH = "28adfc4adfc28c15834cc0693bd9ae997859e1777c4d219bc7646644b8ff4e39b224f4315d59f423a441cb656f756933a859812b9f2daa517b97859ae2555fdb"
 
 RPROVIDES:${PN} += "config-smcroute \
 smcroute"

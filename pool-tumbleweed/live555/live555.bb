@@ -4,10 +4,10 @@ using open standard protocols (RTP/RTCP, RTSP, SIP). These libraries \
 can be used to build streaming applications"
 LICENSE = "LGPL-2.1-only"
 
-PV = "2023.01.19"
+PV = "2023.05.10"
 
-RPM_NAME = "live555-2023.01.19-1.4.aarch64.rpm"
-RPM_HASH = "427a9ae916c41a22da7096e0b08598b32c1811ecfcf145b89c074defdb5028515214b7d195510cddc1bb05c805871fe7ab81898eef1f2aa13ac5fc81608771bb"
+RPM_NAME = "live555-2023.05.10-1.1.aarch64.rpm"
+RPM_HASH = "f820f182ac4e5bbb76df7a80d6e453de52aef374930ed224359281dea333aa111b49b84cfd1e987612bb5c4ce87f39328dacdadc515a2e0b438cb2fe19fbca66"
 
 RPROVIDES:${PN} += "live555"
 

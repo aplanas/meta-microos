@@ -4,12 +4,11 @@ LICENSE = "ISC"
 
 PV = "1.1.8"
 
-RPM_NAME = "python310-ansicolors-1.1.8-3.14.noarch.rpm"
-RPM_HASH = "29ec20143afd3a275cc94d0287e0ed5b23a4f1d4e90ee7e52d990bb834842d81b22e14b691269122a782be6ea92076b3e724f7528ca6d6ff21b0a72b33890148"
+RPM_NAME = "python310-ansicolors-1.1.8-3.16.noarch.rpm"
+RPM_HASH = "74a2b4b83d4e7c24c44cf9ba611a313e0e1fc4f399d660e6cdd4fd6bda8a787b0fac78eb5d7f5ac2ab686c4bba8607ada72384cbc685e06021634c44b3ed2ea6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-ansicolors \
-python3.10dist-ansicolors \
+RPROVIDES:${PN} += "python3.10dist-ansicolors \
 python310-ansicolors \
 python3dist-ansicolors"
 

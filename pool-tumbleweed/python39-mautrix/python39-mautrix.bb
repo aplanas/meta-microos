@@ -4,8 +4,8 @@ LICENSE = "MPL-2.0"
 
 PV = "0.19.15"
 
-RPM_NAME = "python39-mautrix-0.19.15-1.1.noarch.rpm"
-RPM_HASH = "439bbcd65b8f2cedf93b6714a5633ddc0aefa9cfe12b825b3b0afa80f9f8ca7d663411ec2d4069618e2565a08f1a34d1736a6d01f51a44fee91c6b2fe07dd0ba"
+RPM_NAME = "python39-mautrix-0.19.15-1.4.noarch.rpm"
+RPM_HASH = "46227a037f8c86a7d82ab74b1f144c10de8aef9898328d62dfca96d813c5fe7d1055c947fb7df76b4c1bb0cc9413052f4903a3e684b0181e7d9ca61492bcef7d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-mautrix \

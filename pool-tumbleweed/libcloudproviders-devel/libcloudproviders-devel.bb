@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.3.1"
 
-RPM_NAME = "libcloudproviders-devel-0.3.1-3.3.aarch64.rpm"
-RPM_HASH = "7f474a43f616eb43fab85746928e0a23b5b73326245084d970c439a179ab29790b381fe354833b3b93b6657e0598e526a76f59b75aa6a97ce29174e8d4b3c399"
+RPM_NAME = "libcloudproviders-devel-0.3.1-3.4.aarch64.rpm"
+RPM_HASH = "feed8f2028ea24a8a2b7e410d9f4af3d2f0cddc0a47d0fc21531fe27f95e341e8a9a247abaf780415fa255cc99773394abc4ee903abe685f205071070c20388c"
 
 RPROVIDES:${PN} += "libcloudproviders-devel \
 pkgconfig-cloudproviders"

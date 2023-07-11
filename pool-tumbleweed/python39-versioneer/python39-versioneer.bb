@@ -6,8 +6,8 @@ LICENSE = "Unlicense"
 
 PV = "0.28"
 
-RPM_NAME = "python39-versioneer-0.28-1.1.noarch.rpm"
-RPM_HASH = "504e0b7ddf3ceb5f1f490a76345e103c4667532da3c9717d864e5f816ade7fd53a5fdff6341f6f341e66a2a8e7499074bf7129c7de6883b20c6520897c708203"
+RPM_NAME = "python39-versioneer-0.28-1.3.noarch.rpm"
+RPM_HASH = "f8f00c1c10439ba7c775785b924a87794764a350f11591bc40b017bb45c52db408b8112883d08522cfb45408a3d65652beaf38b4e1f1332aeec72c0b180ec296"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-versioneer \

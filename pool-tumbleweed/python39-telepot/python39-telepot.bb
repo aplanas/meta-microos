@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "12.7"
 
-RPM_NAME = "python39-telepot-12.7-4.10.noarch.rpm"
-RPM_HASH = "62a16b0115cfbb7e264d2cd3159aa73461901c9fedec59041cfb88907ea295ae6743a17211b09b77c27347d92a7ab01f34e6ddb9c6af148e7f2e3b5e7085a865"
+RPM_NAME = "python39-telepot-12.7-4.12.noarch.rpm"
+RPM_HASH = "7e8866128a67da98652943965be7a847953b32ef905ed788695b487c88259b6ab3572a486daacaa4e0dac7ae2fcf4f550b69522a0c3d42dd03e13ee394d725b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-telepot \

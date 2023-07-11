@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "20230603+git.5fdd2d6"
 
-RPM_NAME = "rime-schema-combo-pinyin-20230603+git.5fdd2d6-1.1.noarch.rpm"
-RPM_HASH = "82c6a06ccdfe7b91a15e965fa8baa2b47c8511baf8a0799fd57ca57df51f48d85f10d7ceadc8e2002fdf92546c758dd0cb561dd84650fe85d199a5a807fb476c"
+RPM_NAME = "rime-schema-combo-pinyin-20230603+git.5fdd2d6-1.2.noarch.rpm"
+RPM_HASH = "9f5cb35eadf163fa748e615f4489ec008662d3652fa9d7912f0fbf13c060a27083b0e407b610c89b7463ba2e6c821ffe99d8612b5bcd95df472020d4062f1ce1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rime-schema-combo-pinyin"

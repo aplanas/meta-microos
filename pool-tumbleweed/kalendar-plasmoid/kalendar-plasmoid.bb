@@ -2,10 +2,10 @@ SUMMARY = "Plasma widget to view address book contacts"
 DESCRIPTION = "This package provides a Plasma widget to view address book contacts."
 LICENSE = "GPL-3.0-only"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kalendar-plasmoid-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "12999e4d492c76d0e3d8b66ee0fa0ba97a3222fd42c64ff2d6d589ffa11def799b6bdb4b216bb88c9c00b050687dfecea3ca10c5e73e8f8b6951d1d33d1233d5"
+RPM_NAME = "kalendar-plasmoid-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "bbc2b6e77bd647b08282edca4f99be931613b27df4fc8b50b1e6f74137fd5fe4962755c2e1137f8aba57effeb15c96a6d3479229f7757a5655f172993eabf0f7"
 
 RPROVIDES:${PN} += "kalendar-plasmoid"
 

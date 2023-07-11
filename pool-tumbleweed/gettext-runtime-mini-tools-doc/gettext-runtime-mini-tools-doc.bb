@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-2.0-or-later"
 
 PV = "0.21.1"
 
-RPM_NAME = "gettext-runtime-mini-tools-doc-0.21.1-2.1.noarch.rpm"
-RPM_HASH = "66e81740d0cf477f9b238de94a5de8f6d64cd3f0ee8d7eff5747786495676a6e753a20190c56c8508001bd3858d4648cc72c5e1ead660e38e42d35bb2f3e2707"
+RPM_NAME = "gettext-runtime-mini-tools-doc-0.21.1-2.2.noarch.rpm"
+RPM_HASH = "083d4d7d5a338890cd36d61847ae8740d479b19fa2566053d7be5ca349e950014c78a68b92ca604f4db98a94decb10183bc649c01b437d11705ffa73f17b5baf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gettext-runtime-mini-tools-doc"

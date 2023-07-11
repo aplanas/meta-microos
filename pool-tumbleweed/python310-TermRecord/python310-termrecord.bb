@@ -8,12 +8,11 @@ LICENSE = "MIT"
 
 PV = "1.2.5"
 
-RPM_NAME = "python310-TermRecord-1.2.5-4.16.noarch.rpm"
-RPM_HASH = "892eecaa57f2a31300a6069bb86655539ac8fd93698cd8d51b2d5a350dc1d58a0b6cece6b67f4bda8bec59beef7951f26b5bb594be6d2033e1780f0f6e494021"
+RPM_NAME = "python310-TermRecord-1.2.5-4.18.noarch.rpm"
+RPM_HASH = "d3d726f747907406473248c8baa0a03b115e6ed864c0ddcbd5b668da2d863b505ee5f8da7cc3603eac0cfe3a93bd4b590e6bd0524b8217430a5587038c66ef61"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-TermRecord \
-python3.10dist-termrecord \
+RPROVIDES:${PN} += "python3.10dist-termrecord \
 python310-TermRecord \
 python3dist-termrecord"
 

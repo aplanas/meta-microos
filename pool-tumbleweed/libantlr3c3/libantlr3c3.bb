@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.4"
 
-RPM_NAME = "libantlr3c3-3.4-4.25.aarch64.rpm"
-RPM_HASH = "8cbd5565502eb87ef0208cde883862f4ff7fa9fa5303d5fdcbec5edfe1e96651cef636417085a4bbf91078fd7e04259e6014b140a9cee5e032adb6a9fe7098ca"
+RPM_NAME = "libantlr3c3-3.4-4.26.aarch64.rpm"
+RPM_HASH = "d233ddfea1725c2309601f8f70f6fc731687f6c153402566f31b3503f107cc5105dc3211c888422671c83161f48366a4ea6a7ca1d3e58837cfe45ce451f577bf"
 
 RPROVIDES:${PN} += "libantlr3c.so.3 \
 libantlr3c3"

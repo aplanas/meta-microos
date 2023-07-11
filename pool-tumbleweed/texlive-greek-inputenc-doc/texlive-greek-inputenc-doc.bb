@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.8.2svn66296"
 
-RPM_NAME = "texlive-greek-inputenc-doc-2023.201.1.8.2svn66296-53.1.noarch.rpm"
-RPM_HASH = "f4382845a3c7929887bce90c172cfef7b7ba2968b32f737de521666e346cf220858dfadfb2a9790edb9a85bb65e14b75dbc0f66e4f2a089aa20efe6620966663"
+RPM_NAME = "texlive-greek-inputenc-doc-2023.201.1.8.2svn66296-53.2.noarch.rpm"
+RPM_HASH = "d867ea19cda41eaa0e85f1fba86891f820cf6b878fdd34efce78d4978414bdd440ed27ce7ff7d562c99ed1daaaeefd045a6d5ce5389088ef04932a2ff40608cd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-greek-inputenc-doc"

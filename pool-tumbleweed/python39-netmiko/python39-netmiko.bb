@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "4.1.2"
 
-RPM_NAME = "python39-netmiko-4.1.2-1.4.noarch.rpm"
-RPM_HASH = "e8c11dcbf006ae1735820ff25eac728bcd50e6ff2c6068e9449409b00d9d2efaa00fdedb16822925f30d3ef36f93c64ca6680a7da3351f181ac333f86b3acc1c"
+RPM_NAME = "python39-netmiko-4.1.2-1.6.noarch.rpm"
+RPM_HASH = "54f1db7550f2a135f84a37d9e522aa3c237e043687f5d30b0a7eb0465542e3aa546562db5ddb6564e9441a44752900f6c520b843057ae393d97d429c352c0dfb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-netmiko \

@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0"
 
 PV = "1.2.2"
 
-RPM_NAME = "backupninja-1.2.2-1.1.aarch64.rpm"
-RPM_HASH = "a8a2e73259901068018ac5e5b575b2b45ad465ea49e56d797d5529f76a673a75e2bab9cb5547cd5245362e311570231994997a4e1541caab4e0ebc9a8fdb7f8e"
+RPM_NAME = "backupninja-1.2.2-1.2.aarch64.rpm"
+RPM_HASH = "34c78e00b8679a25957f99dd8a5844c769fe7b20684a0ee9aa5d6aefa5c9cb842edd40df8d11f79843ca82f292f8db110bb6c00d96d1f8b1ae038f38ade06e19"
 
 RPROVIDES:${PN} += "backupninja \
 config-backupninja"

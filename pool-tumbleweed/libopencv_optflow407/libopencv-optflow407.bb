@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.7.0"
 
-RPM_NAME = "libopencv_optflow407-4.7.0-1.6.aarch64.rpm"
-RPM_HASH = "5fedb5b4ede4978b6f7d45bb84e28ebbcddae647227f236fd2e26a8a900c394e6903fe3529ade085ed057342a72ea54b1cd8709426a109d66d7c09f732aeb1fe"
+RPM_NAME = "libopencv_optflow407-4.7.0-1.8.aarch64.rpm"
+RPM_HASH = "9df9bfdf780943114bb6ee6156b3d6fee92c1ca13e101a8877cb4648989d4ea9c1e9e92aa011de9b76a8d2ab9eda1a1f1f4fdc5dbebaa2321d4a3226ec261b64"
 
 RPROVIDES:${PN} += "libopencv-optflow.so.407 \
 libopencv-optflow407"

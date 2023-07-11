@@ -4,8 +4,8 @@ LICENSE = "OLDAP-2.8"
 
 PV = "2.6.4"
 
-RPM_NAME = "openldap2-doc-2.6.4-1.1.noarch.rpm"
-RPM_HASH = "d03c33db699167491b89fa12f7a39c94c2e18114d8aa9468e7f4858097b3406bd1d54ac2bc69a0456c1b91cba5ac62931c29580fddd6efb2547b2bc7603f2cd8"
+RPM_NAME = "openldap2-doc-2.6.4-2.1.noarch.rpm"
+RPM_HASH = "879fea66cf4a279c810013e58eb808219d9372ddb5a280886c2ee794f9d48e68022e0c54476d4fc4bcf5eeb18c58c37647980fdbfe01154734f3835a1a44faa3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openldap2-/usr/share/doc/packages/openldap2/drafts/README \

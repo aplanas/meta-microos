@@ -9,11 +9,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2.1"
 
-RPM_NAME = "python311-mercantile-1.2.1-1.4.noarch.rpm"
-RPM_HASH = "6c8651116d49f2aa27c489b035fce7102f9bf74f4d770b251664ef7879fc624512f2f397c07eca2aeee6486f58519baf2104caed3178a779197c4165e468c1b1"
+RPM_NAME = "python311-mercantile-1.2.1-1.6.noarch.rpm"
+RPM_HASH = "6eea86c5407ac2459c66c354213d535a601db6046fcecc791860500e59bff8937ac87b99872d3ec68374caa5bbf634d1961328fe084e6a5740120ecd3c348dfa"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-mercantile \
+RPROVIDES:${PN} += "python3-mercantile \
+python3.11dist-mercantile \
 python311-mercantile \
 python3dist-mercantile"
 

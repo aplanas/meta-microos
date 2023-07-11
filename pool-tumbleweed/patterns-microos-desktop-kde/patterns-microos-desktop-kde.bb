@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "5.0"
 
-RPM_NAME = "patterns-microos-desktop-kde-5.0-70.1.aarch64.rpm"
-RPM_HASH = "32b86039a81c83d5a228bbe8cb7902bcaa40375ecf77628f57ea6fdd449f1e6a82fe48022bb67930c4cd2111c9becb1f70b8d3a3fbb7011a3d591dcd1d6050f9"
+RPM_NAME = "patterns-microos-desktop-kde-5.0-72.1.aarch64.rpm"
+RPM_HASH = "3280b6a98e4d15269510a1713103c281f935850d749cbbe2d7432c3783f543be2dff10e9a594dcb4098ede60bf1df3c0da63e2c34541acfa4e70cc93e94285c1"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \
@@ -43,6 +43,7 @@ libqt5-qtimageformats \
 noto-sans-math-fonts \
 openvpn-auth-pam-plugin \
 oxygen5-sounds \
+partitionmanager \
 pattern- \
 phonon4qt5-backend-gstreamer \
 pinentry-qt5 \

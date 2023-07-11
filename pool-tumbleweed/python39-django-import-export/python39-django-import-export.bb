@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.7.1"
 
-RPM_NAME = "python39-django-import-export-2.7.1-1.8.noarch.rpm"
-RPM_HASH = "b418095b8a133e2d8be8a58331babc8a9ab9857a099a10b3c7aab968def7b3b4b8c131a1a71716836489af44191aeec2a0c4a41937ee4111a1f0921ab51b8571"
+RPM_NAME = "python39-django-import-export-2.7.1-1.10.noarch.rpm"
+RPM_HASH = "d8f4f5b99ce80e9dd4f2c3d4fcdd7ef43f10709928409741ce9d8a93468a6d7e0f59aeb03032c0c685c48f82828880ba11b7aa1b03c6463327fdea9206ddab98"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-django-import-export \

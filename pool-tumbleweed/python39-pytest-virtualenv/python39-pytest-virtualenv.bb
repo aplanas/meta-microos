@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.7.0"
 
-RPM_NAME = "python39-pytest-virtualenv-1.7.0-3.8.noarch.rpm"
-RPM_HASH = "01771ddbe04693d5cd3618337af2dfd63c2a971d6ee9681b19ade4eb48596169aff307f57b22f2ab6d12a68aecccf822cdec34f9bd19e127db722f4a77b59e76"
+RPM_NAME = "python39-pytest-virtualenv-1.7.0-4.3.noarch.rpm"
+RPM_HASH = "5ff5bba6fb7f34ce812ba1d4b4f83e8776a6dba582a36f9fe06650891715885e441bde27dda15da762f35f967e68a2aafff3a2fc65f706f4bbaf8ce3ffc78b76"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytest-virtualenv \

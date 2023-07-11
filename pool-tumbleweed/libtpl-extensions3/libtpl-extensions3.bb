@@ -11,8 +11,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.8.2"
 
-RPM_NAME = "libtpl-extensions3-0.8.2-7.9.aarch64.rpm"
-RPM_HASH = "1baafe82886de696a631fc3a2996aa679ec388f4b3e6d3e38af7151d7d47b2a8f16a4b1b98065c85d078758119b91bdea1f9dcbd2ec794bc4870d718ac2d2e88"
+RPM_NAME = "libtpl-extensions3-0.8.2-7.10.aarch64.rpm"
+RPM_HASH = "0bfa14d9ae42506f45fdfa4ab292e76bb110c435550b394292ba990ac0e55f08eee89a0ce60cd7cad740d666f5e3dae36381275e0318c10c2a8e1e594b26cf03"
 
 RPROVIDES:${PN} += "libtpl-extensions.so.3 \
 libtpl-extensions3"

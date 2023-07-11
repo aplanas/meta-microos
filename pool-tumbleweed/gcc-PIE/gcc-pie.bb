@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "13"
 
-RPM_NAME = "gcc-PIE-13-1.3.aarch64.rpm"
-RPM_HASH = "1197a3cbbe2b1f9e09ede453d9573d7922d6af8e736a890b19756029490b2325cc8bba6ea235b44c9f004acc1eac7e6bbc1b8bf2f54f2e56c3da03ff57f786b8"
+RPM_NAME = "gcc-PIE-13-1.5.aarch64.rpm"
+RPM_HASH = "b0fa7a40429a6dd1c4414319e575ebc403f5d687168d2b74dc7857fe153c56c3a5697cc4a2e71ce3f7c85d925c8c2d83cc6f9a0f3789eeca3feb33cc9e3e91aa"
 
 RPROVIDES:${PN} += "gcc-PIE"
 

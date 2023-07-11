@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.2"
 
-RPM_NAME = "python39-boost-histogram-1.3.2-1.5.aarch64.rpm"
-RPM_HASH = "40dcd74754061d7c6b0ba6dd0d5e6389c3a5cb95deaf9c8f4ee0d2e36542e0c3b07095f8ebf4043b9f6fc00d6fc500d126868c75d9e79eb82a06fac866e9b4d8"
+RPM_NAME = "python39-boost-histogram-1.3.2-1.7.aarch64.rpm"
+RPM_HASH = "d27926b476d86932c2565f7b106bc16a3851df963db7ef9653aefb5ddc6fcf8394394f7e27f7d6ff9236a5155f47b04f5f256f3cf2f381b968408e98bc96b812"
 
 RPROVIDES:${PN} += "python3.9dist-boost-histogram \
 python39-boost-histogram \

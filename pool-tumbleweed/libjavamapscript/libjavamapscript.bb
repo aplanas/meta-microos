@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "8.0.0"
 
-RPM_NAME = "libjavamapscript-8.0.0-2.5.aarch64.rpm"
-RPM_HASH = "7ee751fff7b7b58df733bda09ad066bb3068e5d9b62709fc1469bffa9491d887e1a7dd5e8dccfc9fdfa9af2a86eb0bb2a4cb3e045024c0e36a5eb1d368adb37f"
+RPM_NAME = "libjavamapscript-8.0.0-2.7.aarch64.rpm"
+RPM_HASH = "0c92380cdc2b67c68d43a1661e3866e86c7bfe9d7961708e10bb3265e5ed264627f19371e0485998d64219b8e645e8a728459fe2ec32bcccd6e60daaa094b36d"
 
 RPROVIDES:${PN} += "java-mapscript \
 libjavamapscript \

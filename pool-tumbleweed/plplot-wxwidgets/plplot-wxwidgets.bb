@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "5.15.0"
 
-RPM_NAME = "plplot-wxwidgets-5.15.0-16.2.aarch64.rpm"
-RPM_HASH = "542a62e0182f79dc8ca5ac7756c8b2a5db894b38863adeecea129649b5c3dc80d395123090e36ab5a5cb50030911d83567b24fd7e5dd31d1efc8bddebeda4ba0"
+RPM_NAME = "plplot-wxwidgets-5.15.0-17.1.aarch64.rpm"
+RPM_HASH = "ad89e7b17143d138d2f16d3701756736777522113496bde7e5e9d40f833ba49dcb1d5ba2cc52a01ad5894ad8ee04fea77d81a9851fbf4352c6296043b4de5af2"
 
 RPROVIDES:${PN} += "plplot-wxwidgets"
 
@@ -20,7 +20,7 @@ libplplotwxwidgets.so.1 \
 libplplotwxwidgets1 \
 libstdc++.so.6 \
 libwx-baseu-suse.so.9.0.0 \
-libwx-gtk2u-core-suse.so.9.0.0 \
+libwx-gtk3u-core-suse.so.9.0.0 \
 plplot-common"
 
 inherit rpm

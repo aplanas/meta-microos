@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.7.0"
 
-RPM_NAME = "python39-ipyscales-0.7.0-5.4.noarch.rpm"
-RPM_HASH = "5068b698522226ff2a5771cd31e4453ebf1cbf6d393e256be6a46542bc1ca515275c9a45ea69a857291fdabfc2f64237349449d082242eaca1ae346290d84106"
+RPM_NAME = "python39-ipyscales-0.7.0-5.5.noarch.rpm"
+RPM_HASH = "a7e7bc2c4e5e7d1ff016e619dfff081687b9e96bc5ceb43eb0f109d4a16ce5cb739b967d0ec9d3770dcd168319df10f9c7e92f0c2ba721b07cbab3afcef6120f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-ipyscales \

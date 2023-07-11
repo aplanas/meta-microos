@@ -13,8 +13,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.9.1"
 
-RPM_NAME = "librest-1_0-0-0.9.1-3.1.aarch64.rpm"
-RPM_HASH = "ef36eb0fc2b22b5385d25bb43dba48d732a44c41cc57f79b50af17b98b312a461e1b106b273ee72b0d0ece4c41463e12ef3b9036f4575b5f0960b52d24c9b5d6"
+RPM_NAME = "librest-1_0-0-0.9.1-3.2.aarch64.rpm"
+RPM_HASH = "c3dbe78d8241a03fa2b1451e2f1de2d2c150a38eaf2ad6621132a795371f6fa14e0146c0912f051d44cff3906a91ef052888467ca18176b2b6be73e1a47af2ca"
 
 RPROVIDES:${PN} += "librest-1-0-0 \
 librest-1.0.so.0 \

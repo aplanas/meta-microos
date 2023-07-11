@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.25.4"
 
-RPM_NAME = "enlightenment-0.25.4-3.3.aarch64.rpm"
-RPM_HASH = "f8ea2d082014207b8c01e012378285b52a9016452068da1f70fcdc57e17f8cf6d37702db1dcb66227cc104f82cbf0175b3bcd7d65a375077b7060cc0f3fd5137"
+RPM_NAME = "enlightenment-0.25.4-3.4.aarch64.rpm"
+RPM_HASH = "0142bce372454e5089e5f88fc82bc3ec4c90f7f39b1cdea799b75ef7450c1518a4b74a388fe0b104bfd165c7098f9a377111cae4c834e46ffdd69285e3b5b3ef"
 
 RPROVIDES:${PN} += "config-enlightenment \
 e-module-notification \

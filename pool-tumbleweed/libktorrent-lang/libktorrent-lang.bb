@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libktorrent"
 DESCRIPTION = "Provides translations for the 'libktorrent' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libktorrent-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "73ff78728b6e54cb5c541a92d63cd4877412ddfdb44501ebf8eaf22b114267e02390b61bcd91b68a53ea9c5c50102b9cd8cdd66d8f3a3e56055d83d84d86f0c3"
+RPM_NAME = "libktorrent-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "568ae627d10470c79df78104dac52475737ff78a4c574a734133ef6737190bd7bd8d45de1e85610b2aa8694430b12a3c5331d131cc515334d55da7e6331404b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libktorrent-lang \

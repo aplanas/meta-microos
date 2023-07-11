@@ -6,8 +6,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "1.9"
 
-RPM_NAME = "xz-java-1.9-1.2.noarch.rpm"
-RPM_HASH = "9043ddeb78ff98cf5e441e712343c9c4c4b7291d25a752a688d48f4980b47e94b6faba7b6faef08e6755075d5a8bd512850fccf23885d1629362f0c766b99c56"
+RPM_NAME = "xz-java-1.9-1.3.noarch.rpm"
+RPM_HASH = "4f4ceb8081ad99ab6629f5e14896f4f311d9f958e86f35b26bd6b146f59c77abdf73f39d56ac7164959a7725ee903fcfec2947612a9814337a8248a6ec6aad6d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "java-xz \

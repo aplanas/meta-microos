@@ -7,8 +7,8 @@ LICENSE = "BSD-2-Clause & Apache-2.0"
 
 PV = "3.3.7.1"
 
-RPM_NAME = "python39-Flask-Bootstrap-3.3.7.1-1.16.noarch.rpm"
-RPM_HASH = "972e196280471e727beaacf660c71c4487de0bb398737ada400b90fbf87dbe0e8d756caa3527cddeb643e18c8b9f7788f72b6c67f1debe67c26434cec0f1aeff"
+RPM_NAME = "python39-Flask-Bootstrap-3.3.7.1-1.18.noarch.rpm"
+RPM_HASH = "0eaf0d1b74ebed1339f676ee9824329abc780f413d8b0a067fc40c144c99a6151cb94d798ad6723357a86a409c1d636a73ccbc3384b483e8d125599f4f9f21ee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-flask-bootstrap \

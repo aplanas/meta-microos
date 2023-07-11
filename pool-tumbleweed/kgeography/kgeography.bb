@@ -2,10 +2,10 @@ SUMMARY = "Geography Trainer"
 DESCRIPTION = "KGeography is a geography learning program."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kgeography-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "d17b0f133c5b96b92f201fd144206ea067cda3e6d718c9c4149f552569525f820208bda597acf4334746644a7c52157a79739387793893d3164130f9d2ee59bf"
+RPM_NAME = "kgeography-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "ae17ecfef489c6303aeb406d977b161f32ddc0993f91668c99305643ddf4c03155723f3cfc8bf9c10e2978b12c88d822c40d3fea031c5c0110a4a8a26104d4b5"
 
 RPROVIDES:${PN} += "kgeography \
 kgeography5"

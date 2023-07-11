@@ -4,8 +4,8 @@ LICENSE = "AGPL-3.0-or-later & GPL-2.0-or-later"
 
 PV = "1.6.0"
 
-RPM_NAME = "osmo-sip-connector-1.6.0-1.10.aarch64.rpm"
-RPM_HASH = "407961e62041486f389cd740ad20f3e01e4f5aefb098809a4e60f8f1969c62bdec7fe4323af411cfcc86509894156f2c153d5ae957c61ce87873cf152e0aa2ff"
+RPM_NAME = "osmo-sip-connector-1.6.0-1.11.aarch64.rpm"
+RPM_HASH = "dcd075eebe71ce81d1d923ffa37ccfaeff481e2da77ac60284b599acc2fd8a44022c69da6244ccd2f08457e4985f290ae3500ed213af4272dd3bdaee1cd28215"
 
 RPROVIDES:${PN} += "config-osmo-sip-connector \
 osmo-sip-connector"

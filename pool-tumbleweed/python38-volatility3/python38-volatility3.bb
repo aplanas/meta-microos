@@ -8,11 +8,11 @@ LICENSE = "BSD-2-Clause-Patent"
 
 PV = "2.0.1"
 
-RPM_NAME = "python38-volatility3-2.0.1-1.4.noarch.rpm"
-RPM_HASH = "892c59588c975f7470a94592a73fa54a746d5914bc75803f9478b0235aa84dc51bad164d22412b188c87b135234415192aff06ee370e67e8b97608a9ca09322f"
+RPM_NAME = "python38-volatility3-2.0.1-1.5.noarch.rpm"
+RPM_HASH = "e026a5764774f5b2e8db897b25877269870d52f46b14418092aa8666ccf711bd405f8ab8a6444595fe571f0fbd988b1a5a26e2a09400506b12fdc607b54819bf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-volatility3 \
+RPROVIDES:${PN} += "python3.11dist-volatility3 \
 python38-volatility \
 python38-volatility3 \
 python3dist-volatility3 \

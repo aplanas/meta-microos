@@ -4,12 +4,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.1.0"
 
-RPM_NAME = "python310-django-debreach-2.1.0-1.13.noarch.rpm"
-RPM_HASH = "9284ead6ac2b95c8503348f60d8eb5a32c4adacc19e84c2e9ae0d0cb25b80b53f3e884a7a05d5f49ee063b2ecffd58dfaa872b15bd59453db264565dbb2b79f2"
+RPM_NAME = "python310-django-debreach-2.1.0-1.15.noarch.rpm"
+RPM_HASH = "1af86d720bf8fc258e52127e18108b4cdb8439d9694d7964e59d52c4003822998b6d0ba21c4717d9ce33db3f4f07a6b61125b178cd983c2d185c88992cf5624c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-django-debreach \
-python3.10dist-django-debreach \
+RPROVIDES:${PN} += "python3.10dist-django-debreach \
 python310-django-debreach \
 python3dist-django-debreach"
 

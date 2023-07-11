@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "4.8.1"
 
-RPM_NAME = "libwtdbomysql4_8_1-4.8.1-3.6.aarch64.rpm"
-RPM_HASH = "23fec368ce9a6cddb6f4db3f55d437ffd1f9a9a3bf84a490b790c1a8e323e9bd1654fcc3b12b3d2d7cc8de67cde7fcdb634b9cdf25df906bba295f3c27c85a7e"
+RPM_NAME = "libwtdbomysql4_8_1-4.8.1-3.8.aarch64.rpm"
+RPM_HASH = "fa69bef7af0a91fd5998f916cd76a57cc5a7b6e1ef55cd601e49a41056a5ecf244e9ec3aeff64669072082ba722182e95b9ef7f7ebf7c2e996d7d0fb39f9f02a"
 
 RPROVIDES:${PN} += "libwtdbomysql.so.4.8.1 \
 libwtdbomysql4-8-1 \

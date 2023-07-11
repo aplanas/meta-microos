@@ -11,10 +11,10 @@ Features provided by smooth include: \
   * a libxml2-based XML parser"
 LICENSE = "Artistic-2.0"
 
-PV = "0.9.9"
+PV = "0.9.10"
 
-RPM_NAME = "smooth-0.9.9-1.5.aarch64.rpm"
-RPM_HASH = "875a796fe5b1e7607113de9600cced3dc35dfaa9d1d38020a542af229a35a277a400b288a0631196fe5c6ccb8005a5860ffb17f483b597bd68985f9468b94f64"
+RPM_NAME = "smooth-0.9.10-1.1.aarch64.rpm"
+RPM_HASH = "229088ab561fdbed5830daba5c256725b1ffc363d0dab23800561323f1ad12c87b4c30f6e00d724ca7e0b1c32e63bd4b7abd22466f10b23aa72a30b9b2b84e1e"
 
 RPROVIDES:${PN} += "smooth"
 

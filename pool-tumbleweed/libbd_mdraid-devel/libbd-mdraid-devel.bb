@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "2.28"
 
-RPM_NAME = "libbd_mdraid-devel-2.28-1.4.aarch64.rpm"
-RPM_HASH = "4902dc2b41ede4fa94ed8e2b32460b94c2b97cd899586b7c0f23f579aafc936417ef938dd794fa282f7c6b583885f6bd0f44be820fdde8e8b9583864fae832d0"
+RPM_NAME = "libbd_mdraid-devel-2.28-1.6.aarch64.rpm"
+RPM_HASH = "050b3440c4010abcfffd61a8e52a69d92c0d286ef7b4998939dc3eb9817364b015860fcf847998fbf37ee2432d90b181a37450d24b722c953dc06ddf92d7c3a3"
 
 RPROVIDES:${PN} += "libbd-mdraid-devel \
 libblockdev-mdraid-devel"

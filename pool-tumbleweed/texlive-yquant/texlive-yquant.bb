@@ -13,8 +13,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.7.3svn65933"
 
-RPM_NAME = "texlive-yquant-2023.201.0.0.7.3svn65933-52.1.noarch.rpm"
-RPM_HASH = "eddc60acca1e608e4b17239e19923cdb737153d5e1a640a5171ea772cfda35985742cc62ddc557503ee578a8b7619aa942b03600560fc8474706af6b06bb9100"
+RPM_NAME = "texlive-yquant-2023.201.0.0.7.3svn65933-52.2.noarch.rpm"
+RPM_HASH = "4a20cbaefbdd45880018e4fada96cf2400ef15b34edc8c492d808950e6c3ec6d8a1169e08244ebbc42684d606a52102d3e96035eec13b3c7d050f919b9f690e2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-yquant-circuit.tex \

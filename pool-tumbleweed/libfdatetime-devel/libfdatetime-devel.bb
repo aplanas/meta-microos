@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20220112"
 
-RPM_NAME = "libfdatetime-devel-20220112-4.2.aarch64.rpm"
-RPM_HASH = "aef0e0d21efa9b2d018f5b64552a8d4193700bf685d7e1607f864b25fbcddd235ee670b1e959d7c8d25ee53be4bb9d94a6e0f4a030280d08e090225a1104a705"
+RPM_NAME = "libfdatetime-devel-20220112-4.3.aarch64.rpm"
+RPM_HASH = "917c603caa682f1ff0ccc20a1cfaabd13a7b6d6f6f21377037323fa1cb28575ac7f1436a2719c98e2da0e04a09c04fcc8009e68f6a554d9a656d27ed2abc4e61"
 
 RPROVIDES:${PN} += "libfdatetime-devel \
 pkgconfig-libfdatetime"

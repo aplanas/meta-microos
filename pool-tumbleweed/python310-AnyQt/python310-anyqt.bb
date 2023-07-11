@@ -16,12 +16,11 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.2.0"
 
-RPM_NAME = "python310-AnyQt-0.2.0-1.3.noarch.rpm"
-RPM_HASH = "d8d9b53eeb48aca74be680b6bd9633dc7baa6c4b851c11a02ce414d91434b8196c875cb30e6830c601da7a620452b8100ddf30842c1dcff762c2e34d8a6c039e"
+RPM_NAME = "python310-AnyQt-0.2.0-2.1.noarch.rpm"
+RPM_HASH = "11aedc89edab6f44e12a90de4af17e4974eec9cdebcb319613bc67829471de7e827c769b9ffee5ca38c0e903787e1068d8ccddba214b181de964791c975999b9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-AnyQt \
-python3.10dist-anyqt \
+RPROVIDES:${PN} += "python3.10dist-anyqt \
 python310-AnyQt \
 python3dist-anyqt"
 

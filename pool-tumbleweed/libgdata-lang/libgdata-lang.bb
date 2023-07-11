@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.18.1"
 
-RPM_NAME = "libgdata-lang-0.18.1-3.3.noarch.rpm"
-RPM_HASH = "81f30e5db58f109ca56212ff028a9fbccdd783189f242d0f26f6e16cea864a851f970f3b1a69caa2a336954d421c72ceaeca5684a43dc976d486e72175b1e55c"
+RPM_NAME = "libgdata-lang-0.18.1-3.4.noarch.rpm"
+RPM_HASH = "7f58f8709f2f6ba955e085c6439bfc8d357bee74a133a8f06396c00e8cee105bd1b3835edab30ea8be4aab78a435ffa6ac7f8e4f26ea62c7f61c11995bfdb8dd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libgdata-lang \

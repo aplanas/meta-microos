@@ -4,10 +4,10 @@ It displays system information, application structures, process information, \
 ets or mnesia tables and a frontend for tracing with ttb."
 LICENSE = "Apache-2.0"
 
-PV = "25.3.2"
+PV = "25.3.2.2"
 
-RPM_NAME = "erlang-observer-25.3.2-1.1.aarch64.rpm"
-RPM_HASH = "61ed0b764f0e01d464a277c3288dcdb96e1e3c796eeb8c044d6f0f8c045d3deb058403de3ef9ae5aab7d9120d8a1c5b079721fadd11a4d4ef4d1ce39665a8f1a"
+RPM_NAME = "erlang-observer-25.3.2.2-1.1.aarch64.rpm"
+RPM_HASH = "a600895dd4c09de219b235d2a051420341230919302ef02889a88eb28cb0dc6fd7d3094559626423abaa116246cb9af3cce54fc60e65063e667723805681d85d"
 
 RPROVIDES:${PN} += "erlang-observer"
 

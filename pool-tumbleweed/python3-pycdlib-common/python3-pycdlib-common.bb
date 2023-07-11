@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "1.14.0"
 
-RPM_NAME = "python3-pycdlib-common-1.14.0-1.4.noarch.rpm"
-RPM_HASH = "bc1756b1d898fe9358c6e5f4aa9f7b2eee936a7f54706842e12159795aea932618251ac52835dcc6fbf99afdb4fdebe3102a7c4b796cde85478ed81d6277132c"
+RPM_NAME = "python3-pycdlib-common-1.14.0-1.6.noarch.rpm"
+RPM_HASH = "5850d23d03e4ce7f7e2913da0df5eb8f376adc65afb5b441992494ab90881c97031167e5ea0a1998b1c98d4bcbbff1cfcb61b105c3afbbd24fc777ddbf277fe6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pycdlib-common"

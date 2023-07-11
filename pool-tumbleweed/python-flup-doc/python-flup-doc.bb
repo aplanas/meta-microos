@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.0.3.dev20161029"
 
-RPM_NAME = "python-flup-doc-1.0.3.dev20161029-3.1.noarch.rpm"
-RPM_HASH = "365d9e09f96aaaad773f34b610accd0a10be2ea8acf98e3afbb1ec7269dc99d5ccd36cdf7440cc81a72a52c3d86b2b7fb416a0f53d0549d9b45f4deb0d4c315f"
+RPM_NAME = "python-flup-doc-1.0.3.dev20161029-3.2.noarch.rpm"
+RPM_HASH = "491828858f6d9831a49e5ecd140d80b4d3b127960224fc616a8291e3c8d1d14a479918eac90cac7db99fa1ac4ee13339d2188dd855bf5577b5be72d409c2fcb0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-flup-doc \

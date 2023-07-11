@@ -16,12 +16,11 @@ LICENSE = "MIT"
 
 PV = "2.0.0"
 
-RPM_NAME = "python310-pytest-xvfb-2.0.0-2.9.noarch.rpm"
-RPM_HASH = "300d9a31aab058e0348612ae4b0b69f8810667a096af9bb663307d9f2053408a65d78900a37b07949ed506af51a19b661b2dfe37f013ca06d1b97571d2535527"
+RPM_NAME = "python310-pytest-xvfb-2.0.0-3.3.noarch.rpm"
+RPM_HASH = "70cd2cf4c56e9ec6a638f8d43f0484213f7befd53e5fbcbdf8e9ddfdc9f793c5e73ae14c08073ab7dfbfc3904cf6d72c98ded6d03383cc9fe76e0087f4198acb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pytest-xvfb \
-python3.10dist-pytest-xvfb \
+RPROVIDES:${PN} += "python3.10dist-pytest-xvfb \
 python310-pytest-xvfb \
 python3dist-pytest-xvfb"
 

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.9.11.1"
 
-RPM_NAME = "converseen-lang-0.9.11.1-1.1.noarch.rpm"
-RPM_HASH = "6059406dd18bbec4ae890d1e77c0948376866b130b31e8cb4981e71db4d25f5accc19e8a9eb024993ed0c92563347a96b1f9bbf5de1353876850c682425c7570"
+RPM_NAME = "converseen-lang-0.9.11.1-1.2.noarch.rpm"
+RPM_HASH = "d55403c2f2c1ff0ea85121d7747785e86c642bac5653fa7a2212fe577a5d130095f913a8f788658e3aaa010b263c6b5c32d8eb54960ef6b0eb359ea0d9c5ff78"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "converseen-lang \

@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.2.0"
 
-RPM_NAME = "python39-maxminddb-2.2.0-3.1.aarch64.rpm"
-RPM_HASH = "5fa5be721c50c74f592ac71f04a574c750c9c345bcb19b1fe5dade1c30bb54c9df86e57eb43be32f4e20d0150298d0d5d870a33a200ac81ecb00e12f92438673"
+RPM_NAME = "python39-maxminddb-2.2.0-3.3.aarch64.rpm"
+RPM_HASH = "49b951e6eb89fcefc70ed6570f1f37318139ef16b94f2a72e5a2a698feaa7f6f2579de0cd8c8c14de5c4bf3c409b1b67b0e24024d2f4ee133cd7c99cfba4c436"
 
 RPROVIDES:${PN} += "python3.9dist-maxminddb \
 python39-maxminddb \

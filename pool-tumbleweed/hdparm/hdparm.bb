@@ -5,8 +5,8 @@ LICENSE = "SUSE-Permissive"
 
 PV = "9.65"
 
-RPM_NAME = "hdparm-9.65-2.3.aarch64.rpm"
-RPM_HASH = "5aa78ee862442e2be8a5869d528376760af49152d73b3ba7a541b2d3666b02548360ada1d5f4f16eb37c3c20488bef64a1d48fa95050e9aa822ce7fde9985a42"
+RPM_NAME = "hdparm-9.65-2.4.aarch64.rpm"
+RPM_HASH = "380400ba907d4d568b8498297e1aa05e3c5df15e0833af5e9257b1d77f3d5f184a3c20ed5434c1f29d4400791013dfeed8dfacb1610bc56bdc308c3b822bca7b"
 
 RPROVIDES:${PN} += "base-/sbin/hdparm \
 hdparm"

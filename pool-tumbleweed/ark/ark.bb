@@ -2,10 +2,10 @@ SUMMARY = "KDE Archiver Tool"
 DESCRIPTION = "This is a KDE application to work with compressed archives."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "ark-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "62067421d4012fab03a43f02eeaa0bba44e030079a790baf79ebf0b749e80fce77c351b521a28bd63c93c18b99874c6bddd7f76f91e3d6431829148933ae163a"
+RPM_NAME = "ark-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "1ae4e5668baaebd9e3014d68c0269b0dacbe5090115421fc767a1030a9264c992f03e1d675228404d69f233963a21583424f34a95afc61c9d349a0e7ea0301ff"
 
 RPROVIDES:${PN} += "ark"
 

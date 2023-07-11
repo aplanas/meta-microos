@@ -2,10 +2,10 @@ SUMMARY = "Translations for package criterion"
 DESCRIPTION = "Provides translations for the 'criterion' package."
 LICENSE = "MIT"
 
-PV = "2.4.1"
+PV = "2.4.2"
 
-RPM_NAME = "criterion-lang-2.4.1-1.4.noarch.rpm"
-RPM_HASH = "7f4f48945c0b4583a71ea21f877e7380fb92942a523f8964eccfcc18d20cc999715167091d9506a3ea5189b644ed5eb88b0315f9ac2ffa35746488e1aa50058d"
+RPM_NAME = "criterion-lang-2.4.2-1.1.noarch.rpm"
+RPM_HASH = "00e7b473f73078803dfe77be69897818de1bc4a402f5a910ed8a2a9f92b9653bbe91642b871bd2feeac826ae05b720fd67cebd16c73b121d09cb190767b03092"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "criterion-lang \

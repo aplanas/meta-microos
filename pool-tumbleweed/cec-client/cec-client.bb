@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "6.0.2"
 
-RPM_NAME = "cec-client-6.0.2-2.9.aarch64.rpm"
-RPM_HASH = "d27f26aac5a244c25e02e90c1e0c0dc8eb5e6288e1a57d0f6b992f4cc69b03932396ff166f3d7917980912eb1adfba46ca6e70cdc6dfeeaca0c9ddc3434442fe"
+RPM_NAME = "cec-client-6.0.2-3.1.aarch64.rpm"
+RPM_HASH = "821a0e613203339c899e084ad8430e509d0d143eeb5831bc2ada8363bd8141124c414c3dd44f1d7f982731be2912896bd3889ee015ab9acdf02209af6e34b195"
 
 RPROVIDES:${PN} += "cec-client"
 

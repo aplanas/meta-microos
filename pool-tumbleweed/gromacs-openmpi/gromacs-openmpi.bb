@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0 & LGPL-2.1-or-later & BSD-3-Clause"
 
 PV = "2023"
 
-RPM_NAME = "gromacs-openmpi-2023-1.1.aarch64.rpm"
-RPM_HASH = "693995b32d13cfab6f277f7c1a8d03ad01f80ae672fb5a77449add5e0922ea8d6b688970f8fe565ed0155a1220bc9e5da058c5a41a52c7524e7ab36156f8130b"
+RPM_NAME = "gromacs-openmpi-2023-1.2.aarch64.rpm"
+RPM_HASH = "a5153c4449c47e9633b3428607cc7a9cc703d3afb4bfc3e1440869ffd928da6a85a9905ba04aba66aa2f74bb8d17148784bdce0795998597220e854d312e1214"
 
 RPROVIDES:${PN} += "gromacs-openmpi"
 

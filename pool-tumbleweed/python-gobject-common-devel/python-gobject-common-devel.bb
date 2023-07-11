@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.44.1"
 
-RPM_NAME = "python-gobject-common-devel-3.44.1-1.2.aarch64.rpm"
-RPM_HASH = "92d5b5cb857ef999996693143fc924664ffece7a8802662cefd4844bc05c41f99c082eb08f5b1e95bc8445120f2d0972d9b29d58728f214d60ed26a5ca5b9428"
+RPM_NAME = "python-gobject-common-devel-3.44.1-2.1.aarch64.rpm"
+RPM_HASH = "f1e70e172ec13f94d8ca40b0b8ac249399355075e5caeebd550436a2402f2362dd48d27f245364d2375101ba9edf62661d66af4c67b0d7e33a08f31f0362749e"
 
 RPROVIDES:${PN} += "pkgconfig-pygobject-3.0 \
 python-gobject-common-devel \

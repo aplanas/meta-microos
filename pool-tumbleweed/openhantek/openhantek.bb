@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.3.2.2"
 
-RPM_NAME = "openhantek-3.3.2.2-1.1.aarch64.rpm"
-RPM_HASH = "579b6f3272968d02ddecaa05fb0dc269b05645aa706a360230b4555aef76f0dece0992fd1a74c88aaa12785f6ebf3e91ee602a38f1a5065b51e32feb261ead80"
+RPM_NAME = "openhantek-3.3.2.2-1.2.aarch64.rpm"
+RPM_HASH = "ae2dd3cd75cfab72d92c431884d6b255dfa75cd7984ac1cf30f1c39335717c981bd9a716e8738e6e51dc54b0d5592ad6b5dd47c532c21429c353dc37abd6b3f6"
 
 RPROVIDES:${PN} += "openhantek"
 

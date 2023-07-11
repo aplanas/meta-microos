@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.32.2"
 
-RPM_NAME = "nbdkit-tar-filter-1.32.2-1.3.aarch64.rpm"
-RPM_HASH = "a881351cac08db3267ae11b90d072b6110cd334d707aac43cd389fe11717e52355dc25f4544ea3f33cbb00729229f9dc8bfb8a17624761addfd4696144a6363e"
+RPM_NAME = "nbdkit-tar-filter-1.32.2-1.4.aarch64.rpm"
+RPM_HASH = "ff6526b4c50a5c282f27341e1a4d99e465dbdd1cecd1b7beef43ce8d7d4103a3b80d756af020a0b2b5a075e7139829ceb5438646c03fcb82de0b1701d234f4e2"
 
 RPROVIDES:${PN} += "nbdkit-tar-filter"
 

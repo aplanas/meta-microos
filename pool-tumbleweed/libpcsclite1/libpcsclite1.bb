@@ -11,10 +11,10 @@ an APDU like manner sent normally through the SCardTransmit() function. \
 This functionality is exercised in the driver."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.9.9"
+PV = "2.0.0"
 
-RPM_NAME = "libpcsclite1-1.9.9-2.3.aarch64.rpm"
-RPM_HASH = "c1862537003a7e90a3a750cf8e941fc1cf5c4678ec456dbc09923f9509875710de7b62cd550bf3a663a25f2eb412d82d542adaa22ead7dcba3fe3048ef035612"
+RPM_NAME = "libpcsclite1-2.0.0-1.1.aarch64.rpm"
+RPM_HASH = "f8d828813376bbcda989bd38992ef9baf5eb0b599db88536502c177eaf39a27a5cdb651ee25a780a5547281e823a8d304965d05e3bfa06aa1cb362e4576ca7b6"
 
 RPROVIDES:${PN} += "libpcsclite.so.1 \
 libpcsclite1"

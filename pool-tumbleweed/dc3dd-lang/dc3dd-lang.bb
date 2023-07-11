@@ -2,10 +2,10 @@ SUMMARY = "Translations for package dc3dd"
 DESCRIPTION = "Provides translations for the 'dc3dd' package."
 LICENSE = "GPL-3.0-only"
 
-PV = "7.2.646"
+PV = "7.3.1"
 
-RPM_NAME = "dc3dd-lang-7.2.646-4.9.noarch.rpm"
-RPM_HASH = "55a1ba51cd7ad6d7c9c6150833e44e616fff9593515715ecfe3594346ec9751296a107de377fb4f3f441859678d4d3da16b1789320002d103b51b6b90a57e402"
+RPM_NAME = "dc3dd-lang-7.3.1-1.1.noarch.rpm"
+RPM_HASH = "562113f967030cf60b38d2874b84ad5e1fa39e2ad1dc052a8c508e91a225dc0c8b584297a9c81042eedb5334bbcac8314cc7f7ffb5b74ca4688bedea79e94b49"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dc3dd-lang \

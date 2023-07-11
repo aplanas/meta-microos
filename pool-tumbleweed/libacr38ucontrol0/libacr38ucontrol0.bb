@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "1.7.11"
 
-RPM_NAME = "libacr38ucontrol0-1.7.11-7.25.aarch64.rpm"
-RPM_HASH = "97853e47d580e47aa03b2fd5919cbfa4d58662df0946e13ea4eece49eda2d3aa1b68f0676b471d407b589817d162a343befa0fee1cdee00e2f5e13ce70694370"
+RPM_NAME = "libacr38ucontrol0-1.7.11-7.26.aarch64.rpm"
+RPM_HASH = "7f7a5f1e25007e9101a7fe66f576512be267cb5751adeba97066476e04a7c6918b15b00834cd971fa22b4343e7497d1b4521469890a816f8920834c6b841ae6e"
 
 RPROVIDES:${PN} += "libacr38ucontrol.so.0 \
 libacr38ucontrol0"

@@ -2,10 +2,10 @@ SUMMARY = "KDeclarative QML components"
 DESCRIPTION = "KDeclarative provides integration of QML and KDE workspaces."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "kdeclarative-components-5.106.0-1.2.aarch64.rpm"
-RPM_HASH = "edaeb3756f0f3b1e09d2a4e20661300f61470928ef7442636855eddb859df6224ec99b9e30146bc471ae44d0989fb6afa70f9b5285a859d0e6a9aaab959e3d56"
+RPM_NAME = "kdeclarative-components-5.107.0-1.2.aarch64.rpm"
+RPM_HASH = "8d846cd6accb72a086ddaf8e425741225cd90b6355dc96ac8a2f90315948ce114cad61dbd1fb54dd5f0e4629156ecb51d34da7f253326365386966a60b852218"
 
 RPROVIDES:${PN} += "kdeclarative-components \
 libdraganddropplugin.so \

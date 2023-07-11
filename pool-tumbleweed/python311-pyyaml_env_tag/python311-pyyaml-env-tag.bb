@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.1"
 
-RPM_NAME = "python311-pyyaml_env_tag-0.1-2.14.noarch.rpm"
-RPM_HASH = "0962cd89cc2332e6e5ac32c90728168af76d0388f61ec172a9b76339e73bed8b0e9ddf03af1d868b63be9083399f6f8858cb3bd4394f2d251adccb0969241cba"
+RPM_NAME = "python311-pyyaml_env_tag-0.1-2.16.noarch.rpm"
+RPM_HASH = "f4dba8d573e7e2342abba6e600f888f56d06676f2633baf68df3705eb06532ae522fdcb323797414a82c2f98d1c9b65b5cec3810f97b6a1b69259990949376d5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pyyaml-env-tag \
+RPROVIDES:${PN} += "python3-pyyaml-env-tag \
+python3.11dist-pyyaml-env-tag \
 python311-pyyaml-env-tag \
 python3dist-pyyaml-env-tag"
 

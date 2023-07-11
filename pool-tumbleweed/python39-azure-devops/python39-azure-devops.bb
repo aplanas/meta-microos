@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "7.1.0~b1"
 
-RPM_NAME = "python39-azure-devops-7.1.0~b1-1.1.noarch.rpm"
-RPM_HASH = "18352b14b28a7011dc1464db43b170dd6553f87c7d7280333c38d71ed4fcbc8c0dc26e4538848e888d2ab04e5901a9a1b1f787632805af913cab9bbc6800efcd"
+RPM_NAME = "python39-azure-devops-7.1.0~b1-1.3.noarch.rpm"
+RPM_HASH = "9ddc48b76cdc61a1cc9c548901726014465abf7801fdabf3df58cadbe03d376193b166616a92a433b92074fe0daf527aa6ec13bb21d8acbf6bbe6d48f30fad87"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-devops \

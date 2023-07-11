@@ -5,10 +5,10 @@ It takes care of quirks of platforms and scanners. \
 This package provides GObject wrappers around the main library."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "1.0.9"
+PV = "1.0.10"
 
-RPM_NAME = "libinsane_gobject1-1.0.9-1.9.aarch64.rpm"
-RPM_HASH = "d5fefdc870214c8903a05928c60e8161fe5df73df0072a267dfe85992f6528f978507bd1b6fe8768496f5d991abde016addbbffb91a041aceba95b6624f2fb17"
+RPM_NAME = "libinsane_gobject1-1.0.10-1.1.aarch64.rpm"
+RPM_HASH = "3734e4827095d4dd251f48f22cb7075282761db4c3b6e38e5dd1313afdef1b9008268a16b2fb68b63bbf4bda2c61021d61207e8b83da7993d70892afe3d9747b"
 
 RPROVIDES:${PN} += "libinsane-gobject.so.1 \
 libinsane-gobject1"

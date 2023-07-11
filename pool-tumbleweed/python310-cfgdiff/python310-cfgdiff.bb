@@ -13,12 +13,11 @@ LICENSE = "MIT"
 
 PV = "0.0.0+git.1641843506.dc1234a"
 
-RPM_NAME = "python310-cfgdiff-0.0.0+git.1641843506.dc1234a-1.7.noarch.rpm"
-RPM_HASH = "853ef004e05140343005decead36787a79fff2b2f7abf8d8dc38c856c7bdfe371764ad8fe77e21035379b7be7be63d280731b99d7ee5dae05202df2c5817ee64"
+RPM_NAME = "python310-cfgdiff-0.0.0+git.1641843506.dc1234a-1.9.noarch.rpm"
+RPM_HASH = "a43db41d70ad421c065c0b0b09f08150636e15fdfdb54efc780b44b8a23eebb9bb4aea66a6d7b04a8871889bd966b65528ea916a45db1f9be0ed12a758028dd5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cfgdiff \
-python3-cfgdiff \
 python3.10dist-cfgdiff \
 python310-cfgdiff \
 python3dist-cfgdiff"

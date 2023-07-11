@@ -12,8 +12,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.1.6"
 
-RPM_NAME = "javaewah-1.1.6-2.10.noarch.rpm"
-RPM_HASH = "077a8bdb62adbffd2982557266ad01b212db81b57fc8d472b2fdb6c602df98e386a8e9ab02ea166a9b0d98ae8060d311dece89acb8f46e8641763b754fbd1a3a"
+RPM_NAME = "javaewah-1.1.6-2.11.noarch.rpm"
+RPM_HASH = "d3c308541418028415c5ae79e4bd106ab1b8d4e1823a682df79dd7ac768aea7641ce19e14aa284b3f9354774d3e62bbbfc70d3804dbc231266560d3a0cf2904e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "javaewah \

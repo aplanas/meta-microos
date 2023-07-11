@@ -9,8 +9,8 @@ LICENSE = "ZPL-2.1"
 
 PV = "2.1.2"
 
-RPM_NAME = "python39-waitress-2.1.2-4.1.noarch.rpm"
-RPM_HASH = "336e2ff6e42cff6ae405af0baee57eb01965e692628d6d6d4aed26f52bff4def89ef8debb37a14ff2a5d2debf28978b7d794bd284b87d74da9d4199391b2bc17"
+RPM_NAME = "python39-waitress-2.1.2-5.1.noarch.rpm"
+RPM_HASH = "8c9235ab668f9ae9cfe03f535505eb1891c044bc5ed774a5509481ee1087b321f03812e5b2aaa9f4fa814c676077f21d8aeb2aff2c8bc86c0ed16e77abeb1443"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-waitress \

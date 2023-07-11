@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause & GPL-2.0-or-later & LGPL-2.0-or-later & LGPL-2.1-or-lat
 
 PV = "5.1.5"
 
-RPM_NAME = "krita-lang-5.1.5-1.6.noarch.rpm"
-RPM_HASH = "84207e43634eacf1c218c0a59cee3830a47d58e5107fc802055d4ad00fd164a445513d236de88ced4d2492c64e301b6135dd94361f903b0ef86deeb9da11b7db"
+RPM_NAME = "krita-lang-5.1.5-2.1.noarch.rpm"
+RPM_HASH = "2274851096035c39559674c49c226b2aefde1be290682af7a07a088cbe6c5329f7f68ce016e9114af3a317b4eb6271c7ef3479806dade1375f73a9c4ac1ca116"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "krita-lang \

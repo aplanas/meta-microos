@@ -11,8 +11,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.24.11"
 
-RPM_NAME = "glade-catalog-gtksourceview-3.24.11-3.9.aarch64.rpm"
-RPM_HASH = "c5854ef48624f2c7ac4d87e679ba2a06b05394c7db463da89b53c33632a9ec3c83b473d892caedb33772a5234525459ab70fdd3ce5a3ff841fa23c611eb261f9"
+RPM_NAME = "glade-catalog-gtksourceview-3.24.11-3.10.aarch64.rpm"
+RPM_HASH = "cbf8374c96e2381826c38d49be747d96f63a4317d33ccd1a6a65e3fab6ccb45883f5ff78fcd8c9e71448c62d9bde7bc40b5e889d886a049ab0814e068002b874"
 
 RPROVIDES:${PN} += "glade-catalog-gtksourceview"
 

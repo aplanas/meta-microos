@@ -17,8 +17,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "6.5.0"
 
-RPM_NAME = "multitail-6.5.0-1.11.aarch64.rpm"
-RPM_HASH = "6ceaf0fc5ed5f0dc6966a35ca598af3555d1bc7b867b04c2221841c54876f36eacccea908edcf369b6ff4560a760c8b332b1ba5c2931d7c205e411443049cd65"
+RPM_NAME = "multitail-6.5.0-1.12.aarch64.rpm"
+RPM_HASH = "e00fe682353f4fa040c7cc05fa56751defad056f89baeef59da97f57da1fcc3fc41a081a7fe349ca52177e2c271ccd7c9de7d68cfcb92151dc8a812946e2951b"
 
 RPROVIDES:${PN} += "config-multitail \
 multitail"

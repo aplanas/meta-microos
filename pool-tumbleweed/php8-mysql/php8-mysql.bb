@@ -2,10 +2,10 @@ SUMMARY = "MySQL database client for PHP"
 DESCRIPTION = "PHP functions for access to MySQL database servers."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.1.19"
+PV = "8.2.7"
 
-RPM_NAME = "php8-mysql-8.1.19-2.2.aarch64.rpm"
-RPM_HASH = "885be2fe674a71096d69df31a6bc5da4d0c42bba1c20b362d5a4924b1a85b56fc3378b08dc5276770bf5777b2d184fa6c29aa6cc09f4438ddc8e6ba92a887547"
+RPM_NAME = "php8-mysql-8.2.7-1.1.aarch64.rpm"
+RPM_HASH = "5cad02c2e9253ea66b36df474d9cfeb568eca742a1e28840dcc62dba857bc8c4b1db978b78a88df5bacb5251bfc07ccb1005587a4b903429be5c496998e75970"
 
 RPROVIDES:${PN} += "config-php8-mysql \
 php-any-db \

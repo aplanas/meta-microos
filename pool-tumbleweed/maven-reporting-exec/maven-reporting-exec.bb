@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.6.0"
 
-RPM_NAME = "maven-reporting-exec-1.6.0-1.10.noarch.rpm"
-RPM_HASH = "27c967e5e3af7da6a840f1b58d0b4371a05275f08bce105312dd53449135020b2c80f02a5bc9d71676d4327dca49214dd4d0079833cc65ef2e394a8fb5b93087"
+RPM_NAME = "maven-reporting-exec-1.6.0-1.11.noarch.rpm"
+RPM_HASH = "05003fb0a50ef109e0b080b2b811f9b1904dfbf740669fa40253ab47c42c8c456430b5f4b270d8743d966db26df964f7683c6f92b9ef50e8b31ddd6a60b5e70f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-reporting-exec \

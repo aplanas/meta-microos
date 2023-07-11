@@ -2,10 +2,10 @@ SUMMARY = "FreeIPA ID mapping library"
 DESCRIPTION = "A utility library for FreeIPA to map certs."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "2.9.0"
+PV = "2.9.1"
 
-RPM_NAME = "libsss_certmap0-2.9.0-1.1.aarch64.rpm"
-RPM_HASH = "57275d0babcfd3c3bb185278eccbcec0ad20b37f76e2fcb25d6490af7d18dc9d3d031b6f28895d1c50fe15605df07f5ec8d0eb3ed69c30fe83a40ec43bf7f702"
+RPM_NAME = "libsss_certmap0-2.9.1-1.1.aarch64.rpm"
+RPM_HASH = "c775eb2b5e5b325479089d79dc02ad7565e0e6a52d526c6ab8e42d2879138191a41abc3ae1898de184c81099c876ae3d53c6a985f97aa20d1450ff462d455204"
 
 RPROVIDES:${PN} += "libsss-certmap.so.0 \
 libsss-certmap0"

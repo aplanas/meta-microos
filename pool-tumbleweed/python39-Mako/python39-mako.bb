@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "1.2.4"
 
-RPM_NAME = "python39-Mako-1.2.4-1.4.noarch.rpm"
-RPM_HASH = "d8b9c9b0951e3eff1d648008d10ca405dfe4d21f3dba301babc1e3a9754530871e0d888ad4ea0add617df5018016f9d9de95db3c1b0c2e5cf94e40ca85627fed"
+RPM_NAME = "python39-Mako-1.2.4-2.1.noarch.rpm"
+RPM_HASH = "87bc6a9f401c4d7be220f5ef3dfed8a95c6cc618b6513134a65058fed994add8bc6f7f8da3334cae87f0210c8443ecbbbab6be0585647b50f40dd7c102bb72e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-mako \

@@ -5,10 +5,11 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.10.0"
 
-RPM_NAME = "python311-pyliblo-doc-0.10.0-2.11.aarch64.rpm"
-RPM_HASH = "5d02e01dd97c99f782df34f3c393f20775550b4a8edabfad0d25332899e2172edc1520fed8028fe2c4ef1926120fbc2d37b6dfb4c89918a6ee3b36bc32693425"
+RPM_NAME = "python311-pyliblo-doc-0.10.0-2.12.aarch64.rpm"
+RPM_HASH = "282c71f21b647c9f156df174b5b24968f6446fa80f683e91d5c4251f0d5e533b284cbc83aec25ca738cca042518ab73858731f2d0107f718cca7d399ae60033b"
 
-RPROVIDES:${PN} += "python311-pyliblo-doc"
+RPROVIDES:${PN} += "python3-pyliblo-doc \
+python311-pyliblo-doc"
 
 RDEPENDS:${PN} += "python311-pyliblo"
 

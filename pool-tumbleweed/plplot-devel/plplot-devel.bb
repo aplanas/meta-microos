@@ -12,8 +12,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "5.15.0"
 
-RPM_NAME = "plplot-devel-5.15.0-16.2.aarch64.rpm"
-RPM_HASH = "ed6d2d1927b6ce154481b4cccc85722ce340ff8aa05fa9a957322a06e6efe90d96dc0b41fe142c44320a014068565643ce8e75dd885d97a0c6e60fc0fc0da377"
+RPM_NAME = "plplot-devel-5.15.0-17.1.aarch64.rpm"
+RPM_HASH = "bf8d367669ccc90b66b37491758269e2a1d13b671c90f82bf4b2f4d1f1ef4a09fbebf1e0831851bb26d274d13ab522ffd28e721b9d656706755749832cbcc728"
 
 RPROVIDES:${PN} += "cmake-plplot \
 pkgconfig-plplot \

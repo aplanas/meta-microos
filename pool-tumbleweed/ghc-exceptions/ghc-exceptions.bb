@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.10.5"
 
-RPM_NAME = "ghc-exceptions-0.10.5-3.1.aarch64.rpm"
-RPM_HASH = "c7895a1a4f0f2bd59b636a8854f87d760247e59bfd6ae814d3c431715754338ffa99bd7248bcdcae4e72acae9a3f21f2d446724042e48c39610ef5f55dab7492"
+RPM_NAME = "ghc-exceptions-0.10.5-3.2.aarch64.rpm"
+RPM_HASH = "1f3f88beaa9aae049c1a8d8fb3e976613a018f5d3697c49f0d33f77975fd53eab7fb016ff14d29390f696a86002c48e52de0f66997be4b016d47164908b43ebb"
 
 RPROVIDES:${PN} += "ghc-exceptions \
 libHSexceptions-0.10.5-ghc9.4.5.so"

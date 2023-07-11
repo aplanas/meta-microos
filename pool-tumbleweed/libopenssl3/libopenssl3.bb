@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.1.1"
 
-RPM_NAME = "libopenssl3-3.1.1-1.1.aarch64.rpm"
-RPM_HASH = "9505cc6db23f5e66b9aa9242f5af2ab8545252566f0af26763f43297ece9e3be413220f405d9dc4232e6abe5ca98db2ea0cd054955d2fdcda5e4d92838250faf"
+RPM_NAME = "libopenssl3-3.1.1-2.1.aarch64.rpm"
+RPM_HASH = "f12d942e8bfb3a012cf322e4dbd954fb1d3e9a61d8d79fb2dacd1bb08989c5f01aab3a617ae8b7b0e87b2a0d10ad605197ed76e79706ec210b0bc32e1f5371c9"
 
 RPROVIDES:${PN} += "libcrypto.so.3 \
 libopenssl3 \

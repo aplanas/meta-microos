@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
 PV = "3.48.0"
 
-RPM_NAME = "sysprof-devel-3.48.0-2.1.aarch64.rpm"
-RPM_HASH = "ce17697cdf14e16c258bfa7cebc6c66b355abc010ce49c244fb37682565533aaa1036b299fcab93f33707aaf8060d3daeb297ad6ef15fec4c74ae01a28ec8de5"
+RPM_NAME = "sysprof-devel-3.48.0-2.2.aarch64.rpm"
+RPM_HASH = "2968f1f48e2494dff1ceabeacd8ca9dc1031855e8b4766ffafe3b28e83267dd94d8c153c019fec523546c4c7003f3eef71c3d2aaab2cf4457354583c37eab71b"
 
 RPROVIDES:${PN} += "pkgconfig-sysprof-4 \
 sysprof-devel"

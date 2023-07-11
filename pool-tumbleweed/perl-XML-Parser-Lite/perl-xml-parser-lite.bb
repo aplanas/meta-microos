@@ -12,13 +12,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.722"
 
-RPM_NAME = "perl-XML-Parser-Lite-0.722-1.16.noarch.rpm"
-RPM_HASH = "4d9982a9d84ec973bd01d9bfeed45523ce34a2a8febb90b141f08cd8057c55080e7c7f2df436d43eb56e738b918a65e5131ac35e375e8e518d05ec1ebd046435"
+RPM_NAME = "perl-XML-Parser-Lite-0.722-1.17.noarch.rpm"
+RPM_HASH = "09c0b5275e6da5dadeaf77cd2f9b0a2e798189518d88688d3243ec58d13e1eb9a3e54f406dd7a4132f0d35da8b2402db070a696f1075e9b84d820f47b7771998"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-XML--Parser--Lite \
 perl-XML-Parser-Lite"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

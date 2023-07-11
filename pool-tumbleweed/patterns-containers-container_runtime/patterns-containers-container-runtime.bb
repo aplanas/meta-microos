@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "5.1"
 
-RPM_NAME = "patterns-containers-container_runtime-5.1-5.2.aarch64.rpm"
-RPM_HASH = "1ad5cd56043ab4eee45acc908d69c4970773863ba8763112bae0c7cfc07a0b401b6071dc252c4a54546d74f87b33f32b681338b9e809a26fc11dc7080e8395c4"
+RPM_NAME = "patterns-containers-container_runtime-5.1-6.1.aarch64.rpm"
+RPM_HASH = "2655d64d5d17d73d505225823c36588869d1d90810ee5b8c16956e1b4394d8fc66cf0a3b2dd04ccbd94bdab5411148fb3bb0b1ce85d065a1d2f1264289b5f7a0"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \
@@ -17,7 +17,6 @@ patterns-containers-container-runtime"
 
 RDEPENDS:${PN} += "containers-systemd \
 pattern- \
-podman \
-podman-cni-config"
+podman"
 
 inherit rpm

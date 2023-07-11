@@ -3,10 +3,10 @@ DESCRIPTION = "R is a language which is not entirely unlike the S language devel
 AT&T Bell Laboratories by Rick Becker, John Chambers and Allan Wilks."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "4.3.0"
+PV = "4.3.1"
 
-RPM_NAME = "R-base-4.3.0-45.2.aarch64.rpm"
-RPM_HASH = "efdde58e04101d8cfd5a158600aaf6521fed53cab4683ca19be3ff1bfb5dcb24b254c7273bcb476db940042d9071087a3ef52f59a7ccba46c9dfb65f8fe7e951"
+RPM_NAME = "R-base-4.3.1-46.1.aarch64.rpm"
+RPM_HASH = "063ed5d6bf88e96bbb2a5ce2d0c51021df73813a5a03c3787d772312b98c549d1bd425d03f6c1260e52eb5296c166298c5fe333889c3ed73a87a82f58a14f166"
 
 RPROVIDES:${PN} += "R \
 R-base"

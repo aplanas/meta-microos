@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause & Apache-2.0"
 
 PV = "0.14.0"
 
-RPM_NAME = "maven-jaxb2-plugin-0.14.0-1.20.noarch.rpm"
-RPM_HASH = "1e27dce41cecbc00634ee1298d953a4a01ce08b84c62ba6802543f81b9afae14ba79dba0427ac242e7ce2e585be033a99bd328cfcfaad15b4d642d7efc429d4c"
+RPM_NAME = "maven-jaxb2-plugin-0.14.0-1.21.noarch.rpm"
+RPM_HASH = "7814157b9281d6ac5cc0400286f15eb0b3e6c303b5da39252689e9121b2e6c535c90224dc5abea8bbb6f37434ccd40e05079f69e789a23e875040a6fe92d8d1a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-jaxb2-plugin \

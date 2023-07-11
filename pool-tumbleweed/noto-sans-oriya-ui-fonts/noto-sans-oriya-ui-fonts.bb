@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-oriya-ui-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "fcc32a972a2db25e90df8b4701ce16d2d0f423c16c5e1856f66151a3792427af2666d3bfbee97d314190ffed07da9177720e6e003fca8923ae195a488345d133"
+RPM_NAME = "noto-sans-oriya-ui-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "818284ae5d80d9e43dfef4f0e0b00af5fb5b5b5a0c801cc9e3fe98d49638b3d622e5b525c7ec9be5ca5bd6bc9e5e1fab808c694bc14e95919487d39436be1d08"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-oriya-ui \

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2023.04"
 
-RPM_NAME = "u-boot-hikey-2023.04-2.1.aarch64.rpm"
-RPM_HASH = "46ec95c1a8711c6898ab63cd5ac06aad55475ef67685e4768441ded282cf339be394f3769241fbf798d9e6cf5d906f600a8080a547e9df256e73478ba0cdbb64"
+RPM_NAME = "u-boot-hikey-2023.04-2.2.aarch64.rpm"
+RPM_HASH = "374e482f047c0329fd23720123b6a7c633f559e10fdc2950f2d7d43531f8cfc36b334daf7fcd9f6ce9015254fde9acd0e05057f48db31f83409584b6d4369d06"
 
 RPROVIDES:${PN} += "u-boot-hikey \
 u-boot-loader"

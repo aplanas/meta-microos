@@ -37,12 +37,11 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.2"
 
-RPM_NAME = "python310-scspell3k-2.2-4.13.noarch.rpm"
-RPM_HASH = "0d14988ebe75f39f1e7ba1a6dd17cc610fe9c2744abbca6bafd45f81beea13302930d08a02ff9b5062f83cf8e75b99369e86e3eea60897f8e6ad10a22429a228"
+RPM_NAME = "python310-scspell3k-2.2-4.15.noarch.rpm"
+RPM_HASH = "6460e67ba5a5b8849741cb504572bbb71369f57564c6b132f4eac3e8d6a79cb32709f27c9d009e54dd4af61e65884b6519ab97cd19aaffda4b8916cdbbae1dd2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-scspell3k \
-python3.10dist-scspell3k \
+RPROVIDES:${PN} += "python3.10dist-scspell3k \
 python310-scspell3k \
 python3dist-scspell3k"
 

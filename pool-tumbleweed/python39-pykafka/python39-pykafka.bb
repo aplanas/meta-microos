@@ -13,8 +13,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.8.0"
 
-RPM_NAME = "python39-pykafka-2.8.0-2.21.aarch64.rpm"
-RPM_HASH = "b52e140154110d6161124038b850324225b3eacae2deae4eafea8a953c3d4ad406bb74d60ca0c4d98c3f07740eeeb4b7414a4381927fce18b27237e98e302e67"
+RPM_NAME = "python39-pykafka-2.8.0-2.23.aarch64.rpm"
+RPM_HASH = "883df9d007bb0b12aa838ca83994d6741c2492742e021e85f8b5dd43ac071d861d113ad6100e6c289ed9b745d57ce09e22ea9d57dc3147c14c209d176635213d"
 
 RPROVIDES:${PN} += "python3.9dist-pykafka \
 python39-pykafka \

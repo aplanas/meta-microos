@@ -15,8 +15,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "5.0.5"
 
-RPM_NAME = "libzypp-testsuite-tools-5.0.5-1.7.aarch64.rpm"
-RPM_HASH = "000e14579df0b45c5bb338e011825eafa41ccd3af833399cd4ea8e7b0780a7c04260bb5d34a699abf3de86aeaed57802d1db9e5a2b80bfd60a0d132700c71dea"
+RPM_NAME = "libzypp-testsuite-tools-5.0.5-1.8.aarch64.rpm"
+RPM_HASH = "e8972129c1c0f44ea7d58cf13e1ce3ed7f2c92c026c2d89a4a9af6bd989bf37bf16acd077d9387f811bb060e4713b3427f29ef3ab50fdf8fc67d7d17ae8832e4"
 
 RPROVIDES:${PN} += "libzypp-testsuite-tools"
 

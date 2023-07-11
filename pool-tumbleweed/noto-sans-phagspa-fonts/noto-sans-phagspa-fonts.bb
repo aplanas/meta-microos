@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-phagspa-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "0be11c94863dbcf60585685becba789954e8935bae8c5567834d5ce87df767dd7485418a2f728a155aa210c13d135c18310a6192b35d01362810bfe8ef101db7"
+RPM_NAME = "noto-sans-phagspa-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "4cf44ed1fc5dc7aa2fbb8f902da4b0993ae825dcfdad213ee1c50ce94d3579f1f554a1a19a78d7f8a85cb496869111cecdd2b6f4721f2af38767c6b552692d9a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-phagspa \

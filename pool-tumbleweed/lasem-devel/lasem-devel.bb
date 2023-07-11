@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.4.4"
 
-RPM_NAME = "lasem-devel-0.4.4-2.15.aarch64.rpm"
-RPM_HASH = "b9e54bf31cc89556f381dceb5d13b6610974f9fc47259f21676cc9ea9aca1147beb4a3c3e63a8992d35bb8d5afc580436bf5e3fa760e11f4fad3c65a4efc4e6a"
+RPM_NAME = "lasem-devel-0.4.4-2.16.aarch64.rpm"
+RPM_HASH = "a84d99a3d3755a0a88246f57f550e07c11cd6c8bd0917cc635b9f0a9b6c5cac79591860742a96769e891cdff5206af56fa2bfb11381f9acd8b24eb6bd90c2727"
 
 RPROVIDES:${PN} += "lasem-devel \
 pkgconfig-lasem-0.4"

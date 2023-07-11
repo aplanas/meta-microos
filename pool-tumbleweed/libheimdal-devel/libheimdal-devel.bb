@@ -12,8 +12,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "7.8.0"
 
-RPM_NAME = "libheimdal-devel-7.8.0-3.1.aarch64.rpm"
-RPM_HASH = "f2ccf18840e1b66642c86c7abc17fb1340a0f5189c1a0d48d642d36ffa00bac2664e4279dd19cace52bb341db3319e888a4e6aa2028f9e6a7b5b90863edb4b93"
+RPM_NAME = "libheimdal-devel-7.8.0-3.2.aarch64.rpm"
+RPM_HASH = "9b0059b96664588451d620001b3771ca83de0c1cd35a3ccf76918754e1deaf43b14fb728b304159a254560b63ec58da0b532dace97ad4157ef7496a2f90268a4"
 
 RPROVIDES:${PN} += "libheimdal \
 libheimdal-devel"

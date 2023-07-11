@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & CC0-1.0"
 
 PV = "0.8.0"
 
-RPM_NAME = "prometheus-simpleclient-java-guava-0.8.0-6.10.noarch.rpm"
-RPM_HASH = "1246fa432dc4627da34bd6183e362192406f6e268f50cde6be739f6dd259f1958ce124b9d8c5af3e263319927340a53774adba8b37c51e1b86855eb28ca4b332"
+RPM_NAME = "prometheus-simpleclient-java-guava-0.8.0-6.11.noarch.rpm"
+RPM_HASH = "35c2003640e6b126024645dc2a5b05a9f349e73a585accac9475b0e0b7f9ba6ed31386a9f84be1943b3f9fbc4c4c77059e624b7f2ce5afbc8382358cce2e9a12"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-io.prometheus-simpleclient-guava \

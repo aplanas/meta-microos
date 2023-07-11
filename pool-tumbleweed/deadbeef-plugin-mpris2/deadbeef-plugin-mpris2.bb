@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.14"
 
-RPM_NAME = "deadbeef-plugin-mpris2-1.14-2.3.aarch64.rpm"
-RPM_HASH = "c3d396e3888f6b6d86a35a848720e5a48bc4b222b26df828d0db3245c189bf4a18959a8ee739db57837ea9dab03d6c260ef255c8d0d8bda8e6f80b88e8466b31"
+RPM_NAME = "deadbeef-plugin-mpris2-1.14-2.4.aarch64.rpm"
+RPM_HASH = "83d73db580fa64dfe01649469d87b57a3dabf45ee3da37d57b8a77de7a7d06361fab8b391b7d2e43af0942c1f2944aa8395a48536119195cfd1749b17c0c4dda"
 
 RPROVIDES:${PN} += "deadbeef-MPRIS-plugin \
 deadbeef-mpris2-plugin \

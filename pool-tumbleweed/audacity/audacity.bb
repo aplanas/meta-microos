@@ -6,10 +6,10 @@ AU, IRCAM, MP, and Ogg Vorbis. Wave data larger than the available \
 physical memory size can be edited."
 LICENSE = "CC-BY-3.0 & GPL-2.0-or-later & GPL-3.0-only"
 
-PV = "3.3.2"
+PV = "3.3.3"
 
-RPM_NAME = "audacity-3.3.2-1.2.aarch64.rpm"
-RPM_HASH = "0fa69db14350c30271271a8ec401a9727a5a6c26f30bab540fd1f815d02a46484ca94bd88bee54843bd3d6d604342dfefac1e93d50b359ee3daff27f6eccab13"
+RPM_NAME = "audacity-3.3.3-1.1.aarch64.rpm"
+RPM_HASH = "c3bd13acf5c599b4ee679f67c952a886316c0c49940e9f8428d346c5bf047622f9d09ea6fe8e35ac0e9f9d46ad4405200ff9a115167c2551c178adf732c858e7"
 
 RPROVIDES:${PN} += "audacity \
 audacity-plugins \

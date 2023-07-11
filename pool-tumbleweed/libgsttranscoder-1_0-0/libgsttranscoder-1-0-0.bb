@@ -2,10 +2,10 @@ SUMMARY = "GStreamer Transcoder API"
 DESCRIPTION = "This subpackage contains the implementation of the GStreamer API."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.3"
+PV = "1.22.4"
 
-RPM_NAME = "libgsttranscoder-1_0-0-1.22.3-1.1.aarch64.rpm"
-RPM_HASH = "8a8d53be1d8e04adb4f030545aa626d487b1c204375b207bef1e13926ff05b5e426a59a22fa26302ce6a3daecc170b813d9a00e0c39ae61e3fa765b99822b76a"
+RPM_NAME = "libgsttranscoder-1_0-0-1.22.4-1.1.aarch64.rpm"
+RPM_HASH = "61f2e448fe7b6bab87ec94aea8c728835ad593c327b828495714d43eae6c11281df993ecda5ea3b3f657525703a068ba873ca4dfeeba347be1a42ea2b5b4d383"
 
 RPROVIDES:${PN} += "libgsttranscoder-1-0-0 \
 libgsttranscoder-1.0.so.0"

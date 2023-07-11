@@ -5,12 +5,11 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.0.4"
 
-RPM_NAME = "python310-nocasedict-1.0.4-1.3.noarch.rpm"
-RPM_HASH = "d82d15d3f6ff21e7e412499f0cd24558b8477a096cf51ffaad4e8e1d67d6c896f9ef0e8ccc15cb7273c9e30b621418370ab8b401a4cc2dc51720d62f5d9e8fe4"
+RPM_NAME = "python310-nocasedict-1.0.4-1.5.noarch.rpm"
+RPM_HASH = "9ee0b9ffd8bbcf617541d34363fce6a4beb502ec2e6c608ddcd3cbc4c086eb8c300ab85a6975bbbaa1dcf3bea057830dc10ae46e4f2a8850aca9d3997a72ba68"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-nocasedict \
-python3.10dist-nocasedict \
+RPROVIDES:${PN} += "python3.10dist-nocasedict \
 python310-nocasedict \
 python3dist-nocasedict"
 

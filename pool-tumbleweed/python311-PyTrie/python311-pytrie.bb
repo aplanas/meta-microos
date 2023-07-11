@@ -9,11 +9,13 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.0"
 
-RPM_NAME = "python311-PyTrie-0.4.0-1.11.noarch.rpm"
-RPM_HASH = "6786fd7cb638429e47f9cff47606d68e398b9cc265e975f691d4fd8dae5d610d9270e8ec107661e87d950b87a1fa9abd17caaef723147b4ee485da599ae2b074"
+RPM_NAME = "python311-PyTrie-0.4.0-1.13.noarch.rpm"
+RPM_HASH = "761ef54444581d2371ae13bc99853af6a6e77631295a278796e2687120880efa036cbcc54d0553e128b62b202171b2a9d7959674d6b85780b067005c694bda9e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pytrie \
+RPROVIDES:${PN} += "python3-PyTrie \
+python3-pytrie \
+python3.11dist-pytrie \
 python311-PyTrie \
 python311-pytrie \
 python3dist-pytrie"

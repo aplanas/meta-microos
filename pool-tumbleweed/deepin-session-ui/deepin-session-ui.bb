@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.5.24"
 
-RPM_NAME = "deepin-session-ui-5.5.24-1.3.aarch64.rpm"
-RPM_HASH = "e687451a77d3b15e2a0178b92edf0ee43b903b63e6e49c908f20c677bdfac2c11fff9f4e825f1a2e281c525388e37f9899daeb5d12af626a2b9a30ae1748068e"
+RPM_NAME = "deepin-session-ui-5.5.24-1.4.aarch64.rpm"
+RPM_HASH = "1de96dd943061d83d484115d6ddfbbb97f6e889d17e147c9e7bf4baf1ff940087974d62964157e1300305be3a3dc19af31d559c37dccdd9ec7ffac684ac2620b"
 
 RPROVIDES:${PN} += "deepin-session-ui \
 libnotifications.so"

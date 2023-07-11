@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "1.7.11"
 
-RPM_NAME = "pcsc-acr38-devel-1.7.11-7.25.aarch64.rpm"
-RPM_HASH = "4553d25fad7f9024ea8adcc99b72f68419a28a0c3fb6ad043610463994a9d8eaaabd8fd5586b2eae8a6856ace44a8c2b00b4d7512cd1e17dc50d40444b5ad3a9"
+RPM_NAME = "pcsc-acr38-devel-1.7.11-7.26.aarch64.rpm"
+RPM_HASH = "de12ae4cb80bf03676d32579dede7dea1ffcd5f9552452b65ba0d15f3d90941b93b751f776e771b2ffdbb3189a5091374d80a9cebc60ce899319033fc276ef41"
 
 RPROVIDES:${PN} += "pcsc-acr38-devel \
 pkgconfig-libacr38ucontrol"

@@ -20,8 +20,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.2.0"
 
-RPM_NAME = "libcsparse3-3.2.0-49.1.aarch64.rpm"
-RPM_HASH = "d5bf12686cd1de40b8eaa04d5bf895a56a79334b35692d780e926af5e1597bc1bdd445b107d3a5ed88a525a95da314a1806825a33f09e77ad379b6d6a7f07cb8"
+RPM_NAME = "libcsparse3-3.2.0-49.2.aarch64.rpm"
+RPM_HASH = "dc6e30fef5fba464fecafa4087626e943133f769158727a96705d8afa28afef097cfb147baeeb8280d0c9e7c4cf1673cbaf04568aab0438b9c2bf46948d6a676"
 
 RPROVIDES:${PN} += "libcsparse-3-2-0 \
 libcsparse.so.3 \

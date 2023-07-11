@@ -4,8 +4,8 @@ LICENSE = "Zlib"
 
 PV = "2.2.3"
 
-RPM_NAME = "nanoxml-javadoc-2.2.3-4.6.noarch.rpm"
-RPM_HASH = "9d25b4bc5cd9c9d0d5d8e60c129d2f1b8773d8f58c841efcde74e3e8d058291298d8db48f655c7fa0ea05fde4e7a5ca6a1e41fa22c00e39d073b2c4dc6e31e79"
+RPM_NAME = "nanoxml-javadoc-2.2.3-4.7.noarch.rpm"
+RPM_HASH = "bf010482dad4058852befc6823d44d5c1ca79d0a8c78ce3f9746356de8e82e402c572bdc90910a68aad19348b8c3a5e129017964bebaaa36e0b22014d7d2c430"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nanoxml-javadoc"

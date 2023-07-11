@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.0"
 
-RPM_NAME = "python39-igwn-auth-utils-0.4.0-1.2.noarch.rpm"
-RPM_HASH = "4c71b56a84c111d8a5205cf093c06971bcdc8b3666b4e368fba83782ba8671826172cef4bbb37cb39ebd30eb55bd8054a398e2ca55b0b45e8ddd2f34d8268907"
+RPM_NAME = "python39-igwn-auth-utils-0.4.0-1.4.noarch.rpm"
+RPM_HASH = "c64583e5fc82faca6120c3b1e573681508c2134c7fe9d77be5d646fc65d5135775fe1b36fa2de226390d813197854af3f74a1cd31f8d813c6bb11a9bfed7664b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-igwn-auth-utils \

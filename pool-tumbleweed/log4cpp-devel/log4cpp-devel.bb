@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.1.3"
 
-RPM_NAME = "log4cpp-devel-1.1.3-2.19.aarch64.rpm"
-RPM_HASH = "d07fae45cb4e0172af16af4ae784ea88b7826c300e20ad22432743740db218a447aad63516e0aa5dd7f742a2baf067e20bff0fe3181bafb8f117bf5d73c260f0"
+RPM_NAME = "log4cpp-devel-1.1.3-2.20.aarch64.rpm"
+RPM_HASH = "d28e91ceeed00b918997195c51267edbfd291891a8cc1e59790851dbc1fb3b6a7549bd3eef1c1847eb14b09012530757f2f12235bfdb1217c8762bbefb5e2159"
 
 RPROVIDES:${PN} += "log4cpp-devel \
 pkgconfig-log4cpp"

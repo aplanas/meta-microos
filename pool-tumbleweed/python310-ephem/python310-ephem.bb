@@ -4,11 +4,10 @@ LICENSE = "MIT"
 
 PV = "4.1.4"
 
-RPM_NAME = "python310-ephem-4.1.4-1.5.aarch64.rpm"
-RPM_HASH = "ad5f5b89909d30244d88cf2c97cb40d188fd51a464ae4ee459eb4b24d1fc448c6a68257563124e64126be958636abced6cce7fb8bd35fb5f6777ed8950e051ba"
+RPM_NAME = "python310-ephem-4.1.4-1.7.aarch64.rpm"
+RPM_HASH = "d1813f71d0bda5f14e3b78f9f1cf1bcd2934d9d30a44f8afc6e9c22b8ed1c05802f33e4de0a86c4c222c2b6280494cce299c1d9df73d517ab7df1bfe8209d6f4"
 
-RPROVIDES:${PN} += "python3-ephem \
-python3.10dist-ephem \
+RPROVIDES:${PN} += "python3.10dist-ephem \
 python310-ephem \
 python3dist-ephem"
 

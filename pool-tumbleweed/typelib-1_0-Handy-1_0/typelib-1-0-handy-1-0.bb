@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.8.2"
 
-RPM_NAME = "typelib-1_0-Handy-1_0-1.8.2-1.3.aarch64.rpm"
-RPM_HASH = "faf2e80c0b14191bdfd28847a84a0b4c1bac17ee5dfb95683fb61a5789d2e690f9d0237829b256aace8219c8ca2ab8ba8dd79d85aba64dbb774c5844c78594a4"
+RPM_NAME = "typelib-1_0-Handy-1_0-1.8.2-1.4.aarch64.rpm"
+RPM_HASH = "d7ae86127552b0b523aa9b30f3400be66c6d2139517fea9c421a84295a7218da87d101fd0b65fb370f05db3fe14d182689a051965cb20cdbacdc1e60a3ecfadd"
 
 RPROVIDES:${PN} += "typelib-1-0-Handy-1-0 \
 typelib-Handy"

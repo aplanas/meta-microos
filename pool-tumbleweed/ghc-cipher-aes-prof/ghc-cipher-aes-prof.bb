@@ -4,17 +4,17 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.11"
 
-RPM_NAME = "ghc-cipher-aes-prof-0.2.11-4.2.aarch64.rpm"
-RPM_HASH = "e4d068df9e3060b47d7e998c6e55087c4a1b682a2d620ab89418701855469c03385544d2e28c4b519ea81c6c22f65f998e58df8e4967ec88ef610a87d577a417"
+RPM_NAME = "ghc-cipher-aes-prof-0.2.11-4.4.aarch64.rpm"
+RPM_HASH = "56d2157c39d106674a5246a27f68e9bd8d069cedfb0c9faf346eeff7646e0da186c6aedce846dec8cf8c23882a28ca83397d4ad045674f16c49e667cee9e425c"
 
 RPROVIDES:${PN} += "ghc-cipher-aes-prof \
-ghc-prof-cipher-aes-0.2.11-Izmj38K7uNp7rHcFTtfQFi"
+ghc-prof-cipher-aes-0.2.11-AUtsAMArdsjvHtn454bNK"
 
 RDEPENDS:${PN} += "ghc-cipher-aes-devel \
 ghc-prof-base-4.17.1.0 \
 ghc-prof-byteable-0.1.1-KSaZugJOm4ALb4WyX9cufg \
 ghc-prof-bytestring-0.11.4.0 \
-ghc-prof-crypto-cipher-types-0.0.9-4A4LPNV9DwQ1VQ3vwUnE52 \
-ghc-prof-securemem-0.1.10-BbcWu3otOS6JQaPW3JfszZ"
+ghc-prof-crypto-cipher-types-0.0.9-9ncnLpjReeQDgkKFRi4kUz \
+ghc-prof-securemem-0.1.10-14D6arGPELi9Mzd7V4Fyfu"
 
 inherit rpm

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.1.8p1"
 
-RPM_NAME = "ld10k1-0.1.8p1-24.3.aarch64.rpm"
-RPM_HASH = "d2ce8ad90c03fc05e6a8fd9291edd1748263cd576e5788b4982f0b197a259e9a0678b07b2b7633cddedb35ac3eecfc858b92398f620f0f2ba8546caa04813913"
+RPM_NAME = "ld10k1-0.1.8p1-24.4.aarch64.rpm"
+RPM_HASH = "ebd7618b8dc639dcf7371d8e328000875f0e28207508112ee6822ea7ad04154fde1d6469943423d8270a7baa723df0cd52e8ef5af58b8e13d59e796ab4dafaaa"
 
 RPROVIDES:${PN} += "alsa-tools-/usr/bin/lo10k1 \
 ld10k1"

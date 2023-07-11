@@ -6,12 +6,11 @@ LICENSE = "BSD-4-Clause & ZPL-2.1 & MIT"
 
 PV = "0.6"
 
-RPM_NAME = "python310-peppercorn-0.6-4.1.noarch.rpm"
-RPM_HASH = "45a4b0d8eb586f74b29a192b9d0d3525fa60770188f3d0a4ba48d16b2fdd7e88459d446446895cde0e8e70e41af3a837991b321473af3b845b7e9343f54b2ec9"
+RPM_NAME = "python310-peppercorn-0.6-4.3.noarch.rpm"
+RPM_HASH = "5f73a201107619e08f0b11f33abc6e05339762fc413af12ec86b940633a49e7d21e3dc6979426ea056ef82a4d1606ff5c50202b1568b2231c030900ba4833849"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-peppercorn \
-python3.10dist-peppercorn \
+RPROVIDES:${PN} += "python3.10dist-peppercorn \
 python310-peppercorn \
 python3dist-peppercorn"
 

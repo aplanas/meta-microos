@@ -19,15 +19,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "6.10"
 
-RPM_NAME = "perl-LWP-Protocol-https-6.10-1.11.noarch.rpm"
-RPM_HASH = "596828280d01e413dd11163897bee5df4c15af3d5be1beaf87ae4022786d801815c145a660dbee7f8fe04933a691601aa2a5d7d9c450b62f58ad5a3c3514024b"
+RPM_NAME = "perl-LWP-Protocol-https-6.10-1.12.noarch.rpm"
+RPM_HASH = "31f1892c9539912f6f9a0aa02fbc1dd1f61c7cc59f41f4956d8924ecc8584680e900845809161e79b841fdd909730519299e908b4291134946116b37c7545aaa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-LWP--Protocol--https \
 perl-LWP--Protocol--https--Socket \
 perl-LWP-Protocol-https"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-IO--Socket--SSL \
 perl-LWP--Protocol--http \
 perl-LWP--UserAgent \

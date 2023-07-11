@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
 PV = "1.5.0"
 
-RPM_NAME = "tlp-rdw-1.5.0-1.3.noarch.rpm"
-RPM_HASH = "d58ec0dcb3bef322acfae4b58bc0e526079afc9bdbf0f2601d11a1d1289cda1e8d9f7df8c393a238155ae6ac7fcf836f3ce0ff2666dfbbe9d44498c71d60f028"
+RPM_NAME = "tlp-rdw-1.5.0-1.4.noarch.rpm"
+RPM_HASH = "cc0e865c7623062982ba1a5023f309a9aa00b5fcfe082af744464bcd91d46e8e05694fd471449d0b8439b0df06dd9242d2c981bc20743173cdcd5dd212972b47"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tlp-rdw"

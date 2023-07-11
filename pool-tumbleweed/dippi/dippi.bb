@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.1.4"
 
-RPM_NAME = "dippi-3.1.4-1.7.aarch64.rpm"
-RPM_HASH = "fb1f997596c3c92dde7603711741a431052684009b9d007620ddab32f8d958b7118348929d3e16ebebbb31abfce65610cde960172d1003c6514ad18bee34782f"
+RPM_NAME = "dippi-3.1.4-1.8.aarch64.rpm"
+RPM_HASH = "30e4992c2e18dcb7eb4c35e350498372f81cc1d9a7f60f08d69ddb4b952503bec1236a7b36238e1f4f014e05e8d5e1dd434b559ec58cc7ab3524a89034f2a09c"
 
 RPROVIDES:${PN} += "dippi"
 
@@ -19,7 +19,6 @@ libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgranite.so.6 \
 libgtk-3.so.0 \
-libhandy-1.so.0 \
-libm.so.6"
+libhandy-1.so.0"
 
 inherit rpm

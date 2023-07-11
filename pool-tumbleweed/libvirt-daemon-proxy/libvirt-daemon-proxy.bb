@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "9.4.0"
 
-RPM_NAME = "libvirt-daemon-proxy-9.4.0-1.1.aarch64.rpm"
-RPM_HASH = "e5e787f0bad4a7a7b7850daaf6fb6046914057b1d8d9e6b95e7a81c376e325eb435606ca5664a0aee782f0d17c28a819cfd0d86c39cd83f990cbdba7bfb4e3b6"
+RPM_NAME = "libvirt-daemon-proxy-9.4.0-3.1.aarch64.rpm"
+RPM_HASH = "9bddd26ddd5bcffa387e0cf40b810646e93eb0ef79d776f3514d336991bdf616a70b3df1161771be468cfd52065905ca30d749a2bac21feba8366748524f6237"
 
 RPROVIDES:${PN} += "config-libvirt-daemon-proxy \
 libvirt-daemon-proxy"

@@ -6,8 +6,8 @@ LICENSE = "EPL-2.0"
 
 PV = "4.15"
 
-RPM_NAME = "eclipse-contributor-tools-4.15-9.3.aarch64.rpm"
-RPM_HASH = "1613fbf4826b44ee0f0fbe6fa25753762f22abe885e4679f31d5face33c429754f8006464b88330c31065c509428a0581d0b2d10b119e339e6e999f5f1f14590"
+RPM_NAME = "eclipse-contributor-tools-4.15-9.4.aarch64.rpm"
+RPM_HASH = "fb4db90243e69f722451d351488662e1ca134b93447fc13bc0571f4d924d96cc22fdec83cd8bfb7d5e1992020dcb9f1c3dbb910569e75cb299b5361f172ed3c3"
 
 RPROVIDES:${PN} += "eclipse-contributor-tools \
 mvn-eclipse.platform.ui.tool-org.eclipse.e4.tools \

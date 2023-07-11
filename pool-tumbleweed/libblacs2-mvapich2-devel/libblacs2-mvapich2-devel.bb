@@ -4,8 +4,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2.1.0"
 
-RPM_NAME = "libblacs2-mvapich2-devel-2.1.0-9.11.aarch64.rpm"
-RPM_HASH = "e869ca8ee4195f667d6e36e6b708554e3d9981959f294aa010b343e7ac291a360c7a092fec43baff9491deaf94bb9615b5a9d0b833c0d0dc55c69234cd9fe7ea"
+RPM_NAME = "libblacs2-mvapich2-devel-2.1.0-9.12.aarch64.rpm"
+RPM_HASH = "18f592fa589f3cc5a30229e2a7a3f4038143bf13f02539f4d4b42bb8f82002e1207e436b08d1656a7a32e70a01cd8fd590a1b3929c7fd3d6b32bbc599b543244"
 
 RPROVIDES:${PN} += "blacs-mvapich2-devel \
 libblacs.so.2.1.0 \

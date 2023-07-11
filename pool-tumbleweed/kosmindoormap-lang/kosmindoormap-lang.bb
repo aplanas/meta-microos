@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kosmindoormap"
 DESCRIPTION = "Provides translations for the 'kosmindoormap' package."
 LICENSE = "LGPL-2.0-or-later & CC0-1.0"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kosmindoormap-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "223508c1c080e10076c3b298ee743e3ad44d3e7c6c8fdcd87857d262272bca40e3dc187fe645a645606bed19c7a87920a15433c12bb838871f65a8ac9401cb42"
+RPM_NAME = "kosmindoormap-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "96b0b61656a8dde1f4a9e165c3b412641c82d579969856546ba1caf343b0f16113a24e4b29509d4625a645150c01d60f6f5b68d6f47a61227099b1ee7e96eeb2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kosmindoormap-lang \

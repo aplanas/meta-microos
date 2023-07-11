@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.2.1"
 
-RPM_NAME = "libtaginfo_c0-0.2.1-2.4.aarch64.rpm"
-RPM_HASH = "b7495687618cff5f8dbd3fcc9fe7fde347caad4ea9d883476126ec076b5458045a989f26378b2c09d851d39b086ce8e7a161f5b935881dd8b8a2c83cce32fa9f"
+RPM_NAME = "libtaginfo_c0-0.2.1-2.5.aarch64.rpm"
+RPM_HASH = "f99520605a379681b59f28d16bc56e65adc24e6adcf42a78746236bbe38dba40622140bd0df03e56d50db25572e04cdb97eeba626ca8550d5bac5ba4f61cc819"
 
 RPROVIDES:${PN} += "libtaginfo-c.so.0 \
 libtaginfo-c0"

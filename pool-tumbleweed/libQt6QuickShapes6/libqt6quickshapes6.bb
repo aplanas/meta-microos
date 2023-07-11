@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt6QuickShapes6-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "4a545a8f8c7777d9921235553f2737b5b6f7fc27ff3cfab08f8b2798bbf408abc90a87f453bf2443a3be93331682a8060446651bf89251b32e6aab68e7810737"
+RPM_NAME = "libQt6QuickShapes6-6.5.1-1.3.aarch64.rpm"
+RPM_HASH = "1834b59de5d39b9385d0ae9ea890726c1b3e939e2d4b022fab0bf7901bf4308702706b7e09d65fe5a5f51da69c3c308e491943c3c4b45d4e5aee2e5376ee94cd"
 
 RPROVIDES:${PN} += "libQt6QuickShapes.so.6 \
 libQt6QuickShapes6"

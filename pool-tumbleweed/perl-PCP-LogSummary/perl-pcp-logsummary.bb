@@ -9,14 +9,14 @@ LICENSE = "GPL-2.0+"
 
 PV = "5.2.5"
 
-RPM_NAME = "perl-PCP-LogSummary-5.2.5-3.4.aarch64.rpm"
-RPM_HASH = "de9c6ef62be59bd2fd7a4cc8631015fb8a4df7c4150089f047f4940898292117081d5d61cc7241ed2b1e3fb32c773a66042f51143d1a5ec5e0ef3ab997c8e169"
+RPM_NAME = "perl-PCP-LogSummary-5.2.5-3.7.aarch64.rpm"
+RPM_HASH = "801968cb3cf534a89f81f3dafc5c40e94d097d05312b3d9bdf2518d09a4d4bc70327dff8696e39514e3ce37045127dae847bcca75dc13e3a2419cfdc8b21efbe"
 
 RPROVIDES:${PN} += "perl-PCP--LogSummary \
 perl-PCP-LogSummary"
 
 RDEPENDS:${PN} += "/usr/bin/env \
 libpcp3 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

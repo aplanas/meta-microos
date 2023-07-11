@@ -16,8 +16,8 @@ LICENSE = "MIT"
 
 PV = "2.1.0"
 
-RPM_NAME = "python39-pytest-timeout-2.1.0-2.1.noarch.rpm"
-RPM_HASH = "cc890918969c2cb2aeadb52d018e9186ec207d8231bb818aea3e8530767263364cc9435daa225f778f5dd1a518b3c552546b095b392d37580900e2efe7eb8d6c"
+RPM_NAME = "python39-pytest-timeout-2.1.0-2.3.noarch.rpm"
+RPM_HASH = "3f2e6e5d316e3ff51a9dc3613a47497797d70b52d06dfd47e0a2408ff0ef144da4c09d160d4394350ff2795fe45fd6b804f567fd22b4c863f6a6e5752e458d81"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytest-timeout \

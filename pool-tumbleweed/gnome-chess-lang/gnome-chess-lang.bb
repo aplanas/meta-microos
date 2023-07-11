@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "43.2"
 
-RPM_NAME = "gnome-chess-lang-43.2-1.1.noarch.rpm"
-RPM_HASH = "bba79fc84b9762932d527e82f86ada1e95d186ec8e5d11d9d49c50a05c9a0331474d1591e36e984c0e675b6cfe4dd78615321680022d438fb364e10f63ea6c4b"
+RPM_NAME = "gnome-chess-lang-43.2-1.2.noarch.rpm"
+RPM_HASH = "71cb305df522016e2ef5a6344501c6e5c6b8d9390350914b355e2d8d88df3213e358cc6682a198e2bed753b73ef4e67681e11b9561a2a5bd3904b9ab5c9d3d80"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-chess-lang \

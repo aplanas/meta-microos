@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.11.5"
 
-RPM_NAME = "python39-ggplot-0.11.5-3.11.noarch.rpm"
-RPM_HASH = "bdfa21ecce73d916cd16b37a90c88d6c06488356e0ebaec2527a0f696d5d88e5a660267e34b5de45fa0a97302919017e78211f8b5e2796de545038ed9f8bf8e1"
+RPM_NAME = "python39-ggplot-0.11.5-3.13.noarch.rpm"
+RPM_HASH = "62916695b5f729bfed824eb279957f73a79340370d4d6ec222cc952242b777d0212792433c27f28b284181e0fe455c1955450bf6a3e7ffbf87bdd23a10a926d3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-ggplot \

@@ -6,11 +6,14 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.29.4"
 
-RPM_NAME = "python311-metakernel-0.29.4-1.3.noarch.rpm"
-RPM_HASH = "1ea9aae5278bc51e17752711f91c242a55d6871429d7424134c60cc8f95a0f0bcb3ea755779a79c9074ace0d68474473794da474de3e958321e043698e2304ec"
+RPM_NAME = "python311-metakernel-0.29.4-1.5.noarch.rpm"
+RPM_HASH = "f4aa903c7fd296ac1f9a326239fe47876a8f607e1a38d24ad0d6207e83975327cc71ab098837aeccecd604c678580c058517ee3a9a484f8a0d76b5539c8875b6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-metakernel \
+RPROVIDES:${PN} += "jupyter-metakernel \
+python3-jupyter-metakernel \
+python3-metakernel \
+python3.11dist-metakernel \
 python311-jupyter-metakernel \
 python311-metakernel \
 python3dist-metakernel"

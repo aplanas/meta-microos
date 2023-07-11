@@ -14,8 +14,8 @@ LICENSE = "MIT"
 
 PV = "0.13.0"
 
-RPM_NAME = "python39-pymacaroons-0.13.0-4.6.noarch.rpm"
-RPM_HASH = "0050ed5d18689fc0d70bd59d7b96c973088b50882cd1c159da1d22f0f7dcfcbeb12177903008f09360a64af419ad224c27c2d647d8e84bd8707c055d2510adc9"
+RPM_NAME = "python39-pymacaroons-0.13.0-5.3.noarch.rpm"
+RPM_HASH = "7ed324d9e5abb4980040437142bec76a1ec87b768fa0e8c11cec4ce02a04f9c45e11af3a5d1a4ec623d29397b9c09a4a13b7927f2ac2657d31de367acc2f7111"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pymacaroons \

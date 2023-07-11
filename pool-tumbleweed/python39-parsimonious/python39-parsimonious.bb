@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.10.0"
 
-RPM_NAME = "python39-parsimonious-0.10.0-1.2.noarch.rpm"
-RPM_HASH = "4230a4670990ee257c7ffbca3cafe06c30b03f7e720788f5f58df748991ecbaa995edb54e98f044eca18a6b2460bd6298531a024839092048bb2bb0e366cf7e3"
+RPM_NAME = "python39-parsimonious-0.10.0-1.4.noarch.rpm"
+RPM_HASH = "0ffb8854d4d24f1a52f6ac578f199c864b49ab34fbd8205a4147312e94ab2aab25aa1a1aa96551f5e5de6b55f61aafa2bc71845695965b7316b99bebc1c4afcd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-parsimonious \

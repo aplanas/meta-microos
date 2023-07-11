@@ -30,8 +30,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.1.10"
 
-RPM_NAME = "apache2-mod_authn_otp-1.1.10-1.8.aarch64.rpm"
-RPM_HASH = "e971db11801f6e5aa2a199d338c051fe5f569f67130bfdc33af49db571e25b98d2b9601d8c29144f10078c8368ba4d110950222cb3e33f81d9a9690e5d580c55"
+RPM_NAME = "apache2-mod_authn_otp-1.1.10-1.9.aarch64.rpm"
+RPM_HASH = "d192e3b5dc3db6c5f88209ea46667075b36a3e9c3f46b77bb9a76163d3b9bca817ffc2ae835f93d7d80fe23e0dca47453808796849cd81d425f4eb23ff8e918e"
 
 RPROVIDES:${PN} += "apache2-mod-authn-otp \
 otptool"

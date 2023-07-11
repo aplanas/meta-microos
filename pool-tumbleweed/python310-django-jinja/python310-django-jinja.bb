@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.10.2"
 
-RPM_NAME = "python310-django-jinja-2.10.2-1.3.noarch.rpm"
-RPM_HASH = "f0789ac207838e4b688f8cd759a3d62b3a455d78e7cc54b547669acd173fdf5c3156f3aeac668353377160d4fad05d8f0a91f16665a6bcb68c3cf84edc69e0f1"
+RPM_NAME = "python310-django-jinja-2.10.2-2.1.noarch.rpm"
+RPM_HASH = "90d78c6b1c81167be9a2cab148edeb940b97e04faf6558b44d9f500ee376bb0c2311892ce7d33f1b1a97e0eb2b27e8061ec18ca2cf4ea26e8a66c455db97f9a5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-django-jinja \
-python3.10dist-django-jinja \
+RPROVIDES:${PN} += "python3.10dist-django-jinja \
 python310-django-jinja \
 python3dist-django-jinja"
 

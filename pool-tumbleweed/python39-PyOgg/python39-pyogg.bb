@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6.14a1"
 
-RPM_NAME = "python39-PyOgg-0.6.14a1-1.4.noarch.rpm"
-RPM_HASH = "f54f3cfb9fe5b1e50684989e3a2e85f1dd7a4a7657198b19265e2975bee3053f9646e85ec4d5f364199ff64d36f7323432b234ba395c714c1a9d75f0bc4fb38b"
+RPM_NAME = "python39-PyOgg-0.6.14a1-1.5.noarch.rpm"
+RPM_HASH = "dd8f39a599f5b018240f98e9bab17278bc3f3ca65812d3ecfbb2431c36bd6ae06ca699720ac774c26160493a16a6f22efae2207341f487dc59cc5e3f0bc24225"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyogg \

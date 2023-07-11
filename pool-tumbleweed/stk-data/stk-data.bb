@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "4.6.2"
 
-RPM_NAME = "stk-data-4.6.2-1.3.noarch.rpm"
-RPM_HASH = "20d1d099fbea6c825edca42958a0e0fee1337b61fa1cc5795b35d8a69e74233ad79cae22e2431ac1d749ff9adfac9c853d61bc15c350bb4759700baf4439ceec"
+RPM_NAME = "stk-data-4.6.2-1.4.noarch.rpm"
+RPM_HASH = "a795c078cb8460a91758fd4a175d4b1cfd6129c66b00e5f789f0823e63128d921c5efa5e9cdd94579831ec1c6425400915521ddbbc871b15df0ea2726c1a329e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "stk-data"

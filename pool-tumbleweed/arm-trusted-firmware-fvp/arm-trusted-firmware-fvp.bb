@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.8.6"
 
-RPM_NAME = "arm-trusted-firmware-fvp-2.8.6-1.1.noarch.rpm"
-RPM_HASH = "803cf8789ba811f9132ed726bfa4288f0d040e0f1a3c038f88762c2f106412ce851e5687eedc3dc3f17e0b34c5d49eaeb71b84dc9d39f24d4d68bd901f1af6f5"
+RPM_NAME = "arm-trusted-firmware-fvp-2.8.6-1.2.noarch.rpm"
+RPM_HASH = "622bd4ef931f0ced4c4d01875a05766e8fec17dcc1ae2c158e490451d38599cac273c1fc1cf3b835176c700d58865631f04445a9d997a4a5339431d322a01738"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "arm-trusted-firmware-fvp"

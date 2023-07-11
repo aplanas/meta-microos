@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.8.2"
 
-RPM_NAME = "xfce4-notifyd-0.8.2-1.3.aarch64.rpm"
-RPM_HASH = "7c6085748b247f578ab44a2d3596ac7257a84115c33bdda493c2bbf3eef617c01ca0190151733152c23ed4353dffd5f660383683e98a14df8431087675326cc3"
+RPM_NAME = "xfce4-notifyd-0.8.2-1.4.aarch64.rpm"
+RPM_HASH = "48492adb1214f564af18ca85978c5b15df457bf47b13d3cf8cda287c7eff0aa592844ffe2ebfc0b2f41e4068871761d00253231336b05a561f3a73b91e33f2ba"
 
 RPROVIDES:${PN} += "libnotification-plugin.so \
 notification-daemon-xfce \

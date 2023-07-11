@@ -4,12 +4,11 @@ LICENSE = "Apache-2.0"
 
 PV = "0.2.0"
 
-RPM_NAME = "python310-pygments-ansi-color-0.2.0-1.1.noarch.rpm"
-RPM_HASH = "9ce19795ce8bdfd282c6df1c57b7aa4b15df4024d79c64325eceb993ca1dce160fff01ccc61e81924f41d32f5e2c2bef6f421589bcba937cbea2b6a10f668027"
+RPM_NAME = "python310-pygments-ansi-color-0.2.0-1.3.noarch.rpm"
+RPM_HASH = "6ea8b0256dcbb7cd4a03320a42b0407e0dfc4b2c2baa45321c52f92ad23b011fc99aff5ee2830eeaf62eddccef7fab5415e789ebf627691b4a81deafe8b82073"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pygments-ansi-color \
-python3.10dist-pygments-ansi-color \
+RPROVIDES:${PN} += "python3.10dist-pygments-ansi-color \
 python310-pygments-ansi-color \
 python3dist-pygments-ansi-color"
 

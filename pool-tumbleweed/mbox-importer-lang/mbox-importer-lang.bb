@@ -2,10 +2,10 @@ SUMMARY = "Translations for package mbox-importer"
 DESCRIPTION = "Provides translations for the 'mbox-importer' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "mbox-importer-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "d94e8cd796ed4414c5c74ef64499232cf22f00944a23a56e4d88e246d0677881dd385df5d50928d2ebbb56e313ff245b458c43e0deccd966dc949e4fd30e10df"
+RPM_NAME = "mbox-importer-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "80d1a89037a477ad49d106d42c85eccbe0133c4998de63b1bb3387fe86f2386d5b2bbeaeedbdb32ac1ca237976a0b3ea761e993c9c3e0d3f8e05edc5738bc029"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mbox-importer-ar \

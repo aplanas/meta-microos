@@ -5,10 +5,10 @@ consists of conversion routines that have been extracted from the V8 \
 JavaScript engine."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.2.1"
+PV = "3.3.0"
 
-RPM_NAME = "libdouble-conversion3-3.2.1-1.3.aarch64.rpm"
-RPM_HASH = "7732782d94042d04a46f6eadfe72eed2fa4d098e914875029df902bddb80185a43be0ed8de84514bd409c249a6ac2c2f75385d350ff28e36c3c07b1478cef66d"
+RPM_NAME = "libdouble-conversion3-3.3.0-1.1.aarch64.rpm"
+RPM_HASH = "a36a541620eb15854b0a8dd115d658d4f9ccc658164598a9128eaad9dcd81ac5de81acedbe84056e043bc1fa7132d4086c98f84cfca0bc16939e89da630a4a75"
 
 RPROVIDES:${PN} += "libdouble-conversion.so.3 \
 libdouble-conversion3"

@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0 & MIT & (GPL-2.0-or-later | MPL-1.1 | LGPL-2.1-or-later)"
 
 PV = "0.22.0"
 
-RPM_NAME = "python39-httplib2-0.22.0-1.2.noarch.rpm"
-RPM_HASH = "655fe5977c493358b48efaf1d33da06102f94f3f115732e9153772da572699335c0b77a8e1ca737f9b94bc9ea26b76ca5d933b66d3244e49bb51fbd80afda219"
+RPM_NAME = "python39-httplib2-0.22.0-3.1.noarch.rpm"
+RPM_HASH = "16e5cbe1f7a661994f5b453654526bf8f8e581e52aad71c9e71acb553ba6f6a7869969670a95f768d6b00a0063e8b2605be9e006ada77e421b9921c64be5976b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-httplib2 \

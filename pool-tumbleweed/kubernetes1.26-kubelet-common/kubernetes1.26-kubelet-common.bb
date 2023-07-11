@@ -3,10 +3,10 @@ DESCRIPTION = "Manage a cluster of Linux containers as a single system to accele
 kubelet daemon"
 LICENSE = "Apache-2.0"
 
-PV = "1.26.4"
+PV = "1.26.6"
 
-RPM_NAME = "kubernetes1.26-kubelet-common-1.26.4-1.2.aarch64.rpm"
-RPM_HASH = "d2e10df2ccd8c3ba4c27191bdee979049b11f786b21bf243ef3139b6815c242fd9e87dbca04841b0bc0d7099b4a4a245151e7a1e5351a1d223b54641c9b8c672"
+RPM_NAME = "kubernetes1.26-kubelet-common-1.26.6-1.1.aarch64.rpm"
+RPM_HASH = "f2563eff07f9adb78b22f14c146d8996b710a065ea4dfa12fead1abaeef5f0ef42054801b410e50795cf2a4447be0b3f36385c42bffb4823bfe261b5df85508a"
 
 RPROVIDES:${PN} += "kubernetes-kubelet-common \
 kubernetes1.26-kubelet-common"

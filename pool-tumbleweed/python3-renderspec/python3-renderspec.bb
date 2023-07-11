@@ -6,12 +6,12 @@ LICENSE = "Apache-2.0"
 
 PV = "2.2.0"
 
-RPM_NAME = "python3-renderspec-2.2.0-2.2.noarch.rpm"
-RPM_HASH = "08e5c4d36690823f401fd344edcc048b608dd334fe9d24c268fdede03ccbffe4a083edf46357d977e3804453672e9638e4c1e781256cd91f5b7d8a61b0ed9d23"
+RPM_NAME = "python3-renderspec-2.2.0-2.3.noarch.rpm"
+RPM_HASH = "d260785449ca45d3381b5ce15d0d19b8d66f50d6c3c82853c990487bcda31672b10bc3bb40a6a74dfbef92a5c0ec17b47ae4f9a02fc59afeed342c068f9fec73"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-renderspec \
-python3.10dist-renderspec \
+python3.11dist-renderspec \
 python3dist-renderspec"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

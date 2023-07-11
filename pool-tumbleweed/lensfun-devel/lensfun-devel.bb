@@ -5,8 +5,8 @@ LICENSE = "CC-BY-SA-3.0 & LGPL-3.0-only"
 
 PV = "0.3.3"
 
-RPM_NAME = "lensfun-devel-0.3.3-1.7.aarch64.rpm"
-RPM_HASH = "a1c4f6a6b7fcedfbdfee358154adf63848bec5f941ba779e12ab53e6f3c0aac60e382ca6b566a57bb49b4f126d3215baa42dac7c36377c5f70090e0911c82f28"
+RPM_NAME = "lensfun-devel-0.3.3-1.8.aarch64.rpm"
+RPM_HASH = "03331282bed678e35363088bb094ab3e3f7431925bcff14ec76e354d7a5e854ff41abe46402c4ffd12f1292885cf9403e6db3a99d3d0f023b6ae17fd492652b6"
 
 RPROVIDES:${PN} += "lensfun-devel \
 pkgconfig-lensfun"

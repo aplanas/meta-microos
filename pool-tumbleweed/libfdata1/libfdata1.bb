@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20230319"
 
-RPM_NAME = "libfdata1-20230319-1.1.aarch64.rpm"
-RPM_HASH = "f858a68fd95201272c2e0db272abf1d76ffe3ce8206a1e1a97f7fbfe73dddb043e67ddad2f4dcab8c7e1d50e1cca44a40cd32c9634ed3baab072032d1fb4f93b"
+RPM_NAME = "libfdata1-20230319-1.2.aarch64.rpm"
+RPM_HASH = "841ced7dc889e31b845d8ad65e9f52d760c2a35e2c9dc4c9d0ef837011e4534a2755efeb82faaaafcbd4a757141cbde43ed0dea2e15cc93eb909ce3fb39daba1"
 
 RPROVIDES:${PN} += "libfdata.so.1 \
 libfdata1"

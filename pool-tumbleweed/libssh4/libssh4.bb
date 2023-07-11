@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.10.5"
 
-RPM_NAME = "libssh4-0.10.5-1.1.aarch64.rpm"
-RPM_HASH = "d8b9616b3b7ce76f1390981586efcd577969d8aa4f5265924fccbbba908dd04f29fee80a17450e91ed9e76e37d7ed37a15d9c81dcb761c71d92a846eaed98cf1"
+RPM_NAME = "libssh4-0.10.5-1.2.aarch64.rpm"
+RPM_HASH = "5ee1d9a27add4bd998a18b9777528eb1c5374ea2bee2fca8bc2dcd97971a364b353a8165262a024506d3b645e28dd5bbb74fbd9e9da0f9109efe37543eccca6a"
 
 RPROVIDES:${PN} += "libssh.so.4 \
 libssh4"

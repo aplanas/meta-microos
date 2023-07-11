@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "6.0.0"
 
-RPM_NAME = "universal-ctags-6.0.0-1.2.aarch64.rpm"
-RPM_HASH = "9d5979acf1c3d3bad1bb21eff03bb96c75ca37267d63b89cd03f06d22ebafbf6d069528022b09ac4f9b76a7cd3de45010eb47746f171e2ef3029b192f1f17f35"
+RPM_NAME = "universal-ctags-6.0.0-1.3.aarch64.rpm"
+RPM_HASH = "2de2b2395fd17f0172fdf3f8a5dbf6e860a9c763d41ca220751e8bde4f23b18d967969b28c61485cadc23a8beaf8a266678f0c4751bbd342511e6849997f41ba"
 
 RPROVIDES:${PN} += "universal-ctags"
 

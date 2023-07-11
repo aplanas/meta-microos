@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "1.2"
 
-RPM_NAME = "python311-pyuca-1.2-4.12.noarch.rpm"
-RPM_HASH = "98a499c08b4efd042e974a52b2edf483b77bfe1ac23cdd504421d5eb0e869cadbf614298949659bb3cccf4ded1064f1225330c8413329139495cc292816abb9b"
+RPM_NAME = "python311-pyuca-1.2-4.13.noarch.rpm"
+RPM_HASH = "2d05a3fb0773e3aeae40e2d625a3d4306bdafa9b68469fcadc41e62edcd2fc47cdc1e5cf425ff77ae743bd6615df1815f918ee28848640d573d1a7977cbfda14"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pyuca \
+RPROVIDES:${PN} += "python3-pyuca \
+python3.11dist-pyuca \
 python311-pyuca \
 python3dist-pyuca"
 

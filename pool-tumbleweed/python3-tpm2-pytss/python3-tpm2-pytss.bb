@@ -12,11 +12,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.1.0"
 
-RPM_NAME = "python3-tpm2-pytss-2.1.0-2.2.aarch64.rpm"
-RPM_HASH = "2c3f88fd1df2937b2ca77be842a039742f60be67bfb0b128baed99fc4c11fe22a3622fd0dc1068ebecb53860e838692d32e5d680a6f2229aa22d5a151232e71a"
+RPM_NAME = "python3-tpm2-pytss-2.1.0-2.4.aarch64.rpm"
+RPM_HASH = "82d20b45b1f497d1058aecd42d69468bac960549d3e15076f233b5bedf1ef6f5338bf0e7319f4f55be0964251a296192fc79218708c20dd40db38eb000b1a4b0"
 
 RPROVIDES:${PN} += "python3-tpm2-pytss \
-python3.10dist-tpm2-pytss \
+python3.11dist-tpm2-pytss \
 python3dist-tpm2-pytss"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \

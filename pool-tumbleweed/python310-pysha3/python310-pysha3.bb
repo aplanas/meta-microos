@@ -4,16 +4,12 @@ LICENSE = "Python-2.0"
 
 PV = "1.0.2"
 
-RPM_NAME = "python310-pysha3-1.0.2-3.3.aarch64.rpm"
-RPM_HASH = "cb1a70bf1684234a4a194235cf242c9a4e872c4aad67f000ba20d2dc0cdbd90974a289a64d5741d369b5cc632826f0fc7474ca152e2f2bd65af22c31fb2e3f8b"
+RPM_NAME = "python310-pysha3-1.0.2-3.4.aarch64.rpm"
+RPM_HASH = "f4531abfe503ea101f9f6f0bc948c2f65ebf62cacc2b078993eafce44846c7789ed509da88adda665ef9afaf682eda88dcf771d2ecc753e9ab5ac37dcfdd9eca"
 
-RPROVIDES:${PN} += "python3-pysha3 \
-python3.10dist-pysha3 \
-python310-pysha3 \
-python3dist-pysha3"
+RPROVIDES:${PN} += "python310-pysha3"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libc.so.6 \
-python-abi"
+libc.so.6"
 
 inherit rpm

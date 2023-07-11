@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.0.4"
 
-RPM_NAME = "python39-accessible-pygments-0.0.4-1.2.noarch.rpm"
-RPM_HASH = "2160fa16a214394be7e77c5a7354aa0a8063dbf6dcc294b82c6de9cc9da50d72a1d50470be6d400f0bae5382d68f102c20ad8095531ab3f7eedec20d14908d42"
+RPM_NAME = "python39-accessible-pygments-0.0.4-1.4.noarch.rpm"
+RPM_HASH = "49751bf066fe8108c3ff73bd4f95d45404edf6557205c79ce3b4cf5b1b57389100c38f8ba6c8ebffb03c72321d1a891ec970fd1b2855f4cadd8138ab9ebc6e9a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-accessible-pygments \

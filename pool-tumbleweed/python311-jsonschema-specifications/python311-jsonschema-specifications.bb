@@ -2,13 +2,14 @@ SUMMARY = "The JSON Schema meta-schemas and vocabularies, exposed as a Registry"
 DESCRIPTION = "The JSON Schema meta-schemas and vocabularies, exposed as a Registry"
 LICENSE = "MIT"
 
-PV = "2023.5.2"
+PV = "2023.6.1"
 
-RPM_NAME = "python311-jsonschema-specifications-2023.5.2-1.1.noarch.rpm"
-RPM_HASH = "ffa09959e3f6cf871709a62fe8faf92746cb71fd5fd243dd1b7411e04d70a27de0e62a961fe3bed59455369b41340fab3381b057380e5dec7cbc1e30539411d4"
+RPM_NAME = "python311-jsonschema-specifications-2023.6.1-1.1.noarch.rpm"
+RPM_HASH = "8d73b9efeed83662e768e3167589972adfc1bfe002e2f5cdfd4aefb93b03d3f2bf2eb320ddea5db3b6f66a903a0aaf095458b8b0f93b110cb8dc3b975ee438df"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-jsonschema-specifications \
+RPROVIDES:${PN} += "python3-jsonschema-specifications \
+python3.11dist-jsonschema-specifications \
 python311-jsonschema-specifications \
 python3dist-jsonschema-specifications"
 

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.5.0"
 
-RPM_NAME = "python39-interrogate-1.5.0-1.4.noarch.rpm"
-RPM_HASH = "ba6a56a2857b72dcbb4fdb9a41f7477948f5dac88640f25781f2e8f91cb65f052f302ea901cb906250f50054cb4265fb3acb545c62ac534d3a7320096ca53953"
+RPM_NAME = "python39-interrogate-1.5.0-1.6.noarch.rpm"
+RPM_HASH = "a51dbc4822dc133cfebc59c732ea6ee22e730b2826f4ad7ec5ad826803ee5ba94786b0e1a60aba4677d2b9798f66ddd5bfcbbaca157c2c67e680136d829fbebf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-interrogate \

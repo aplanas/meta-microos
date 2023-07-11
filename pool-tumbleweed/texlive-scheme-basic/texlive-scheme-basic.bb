@@ -7,8 +7,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.208.svn54191"
 
-RPM_NAME = "texlive-scheme-basic-2023.208.svn54191-58.1.noarch.rpm"
-RPM_HASH = "3f6d93fa05c1d0498ef53ec6ea4e56f189b10e1bf51bd5abe8feb50ff4c542d27ea2ceb7da28b1f50ed9c0cb986e308afaf5bc05aa479ffec50de30be025f579"
+RPM_NAME = "texlive-scheme-basic-2023.208.svn54191-60.1.noarch.rpm"
+RPM_HASH = "8a1e7f04450b856e417b5066de291841cf47c7f32115f32508fb17fea335dc88597b93ac8d41d240c7e08102b0de598b8fbe47003bf13a564b8e91da60a984ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-scheme-basic"

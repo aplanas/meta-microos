@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.8.0"
 
-RPM_NAME = "libosmousb0-1.8.0-1.1.aarch64.rpm"
-RPM_HASH = "2055a31812ffe79cf53de4e93dd717769df59623f092c9931505291648f4f3979c61a00c242f53e526c2af64b51cd26629cc2b706ad63ca7d2c50b31b55629c0"
+RPM_NAME = "libosmousb0-1.8.0-1.2.aarch64.rpm"
+RPM_HASH = "82826fc5e113e8ca761afbfe4bc166b2ed27b39d0ce7bb59a2c12cc56eaeee44f6f261bdb1845e4a1ff0534a1b42090910b6fdaf9e921f04e57256bb1188f9b1"
 
 RPROVIDES:${PN} += "libosmousb.so.0 \
 libosmousb0"

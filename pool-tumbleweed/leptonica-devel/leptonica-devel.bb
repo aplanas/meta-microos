@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.83.1"
 
-RPM_NAME = "leptonica-devel-1.83.1-1.3.aarch64.rpm"
-RPM_HASH = "6c46a24217ae11240b1e7eb78420dd27cd38407e36975b38998be3d2c50cd2ac8ba8699008dc0bc5538ce05890c38218e6e502f368fe00ef5d34cc900e1537fc"
+RPM_NAME = "leptonica-devel-1.83.1-1.4.aarch64.rpm"
+RPM_HASH = "629b85a71c9bad84bc51e5348b5b73f26adcce46fac4235ba7f911ea9090b90c95927945c92ee354131a3ff0d4e8f804ea85f10794905ebf9a76e7c46ec8e7d0"
 
 RPROVIDES:${PN} += "leptonica-devel \
 liblept-devel \

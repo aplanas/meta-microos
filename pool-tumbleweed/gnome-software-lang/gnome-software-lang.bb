@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gnome-software"
 DESCRIPTION = "Provides translations for the 'gnome-software' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.2"
+PV = "44.3"
 
-RPM_NAME = "gnome-software-lang-44.2-1.1.noarch.rpm"
-RPM_HASH = "10aec573dec2327e3250312d67660dca2ea80e53f395458d9ab4bc1452518bd787a086793908ff3c97a4df9ed6a8c5314c2f4b3a098ebfa4ae623de00130bf82"
+RPM_NAME = "gnome-software-lang-44.3-1.1.noarch.rpm"
+RPM_HASH = "aab3a11ff2aa8378e26cdd1f33abb8138a53b441cb7d70ab7953188b2535339e8ef8e7b11f3a9e3e417b7f1092c139f66aa5a881937954a0307476de7ddc367e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-software-lang \

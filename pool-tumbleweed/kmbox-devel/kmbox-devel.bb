@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains necessary include files and libraries neede
 to develop KDE PIM applications."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kmbox-devel-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "33a6abe4afacbc340aab751b24a3697e4720813b0890b33b136f1713225ef8eeaf5b5b5243319f190363e86e0ca25f317ba2b2a22ced07aece680c187d36bdaa"
+RPM_NAME = "kmbox-devel-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "d87d1fd155763b437c4b9f7b4748c4e4b56e4334ab3e2be315e508c5047a20f011a9fc67c0f04e8a485009341e8fa4194f0bce1a7e97ef44d4d9aceb950890d4"
 
 RPROVIDES:${PN} += "cmake-KF5Mbox \
 cmake-KPim5Mbox \

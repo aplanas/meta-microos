@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the Python bindings to clang (C language) \
 frontend for LLVM."
 LICENSE = "Apache-2.0-with-LLVM-exception | NCSA"
 
-PV = "16.0.4"
+PV = "16.0.6"
 
-RPM_NAME = "python3-clang-16.0.4-1.1.noarch.rpm"
-RPM_HASH = "d508b13d2fdda6bdfc91f70fd9e7e8461b377ba15d0b3f4370b68f84a58ad77ab635a10158560132d4faf2168736ea85fb8e908350d20e579310445c8410ff4a"
+RPM_NAME = "python3-clang-16.0.6-1.1.noarch.rpm"
+RPM_HASH = "d08b3298a8bfdeeea64cf59674d5623be87d9591629fc4669b5079c6eba4c0072e5da3c8a61980d7d9394fa01af987ea6adac3887aa9eaef9c4610ee08dddada"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-clang"

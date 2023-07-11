@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later | LGPL-3.0-or-later"
 
 PV = "0.189"
 
-RPM_NAME = "libasm1-0.189-3.1.aarch64.rpm"
-RPM_HASH = "c79637ee7c1f36b77fa58e2c8a0c5c3855e9dfebe617a52923553f9467cff323b57c6a28e5d0aa87d2b5001279e04efb74ad4dde1936054abdd671f38603209f"
+RPM_NAME = "libasm1-0.189-3.3.aarch64.rpm"
+RPM_HASH = "acd2d3b4f91b80d541baff06683498a266f8a13a118ea6dfc84b1eec27785c4ce1ab06fefc4c7ef83ad1c811525b26402f4046a16b04e3b2ff40a409698720ff"
 
 RPROVIDES:${PN} += "libasm.so.1 \
 libasm1"

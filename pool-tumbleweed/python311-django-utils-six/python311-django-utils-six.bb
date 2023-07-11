@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0"
 
-RPM_NAME = "python311-django-utils-six-2.0-1.11.noarch.rpm"
-RPM_HASH = "0acc048f857ff3a504afe48d1612d9a132a021193cb13e16619d7c4bd9a9abacd188d590191fad11dee6ffcb3b91a8727bb566bb8b689006eebe8ea0b43afb92"
+RPM_NAME = "python311-django-utils-six-2.0-1.13.noarch.rpm"
+RPM_HASH = "2fc5e1a9bd52ddbd50832b3a088e20a94e43413338288310ae6b65c8a9e8096f3b0157e98882a0a05c0b75f3ac1257be6e3dc658190cd0576934d897cfbbe2c1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-django-utils-six \
+RPROVIDES:${PN} += "python3-django-utils-six \
+python3.11dist-django-utils-six \
 python311-django-utils-six \
 python3dist-django-utils-six"
 

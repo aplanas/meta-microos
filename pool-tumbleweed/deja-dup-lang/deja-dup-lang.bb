@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "44.1"
 
-RPM_NAME = "deja-dup-lang-44.1-1.1.noarch.rpm"
-RPM_HASH = "0d5b930a32b69a5d0db2c8604a2407ba963540432b30fdf1d3a8d38f39afb0566954b9b9b5a06abc8bf3816fb78c7e27a3e41b0b79fb943542615b285a3abeee"
+RPM_NAME = "deja-dup-lang-44.1-1.2.noarch.rpm"
+RPM_HASH = "d3c852f3a3c767bde2f99fca0495a2c5d08a05f3ac79d8e63bf6d3f45e24a4b0a12ba12e4583670ff1c9024685772ff9f5ea23886c39db1efbb4ee9b509138d2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deja-dup-lang \

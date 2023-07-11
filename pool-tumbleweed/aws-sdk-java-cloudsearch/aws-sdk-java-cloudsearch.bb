@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0 & SUSE-Public-Domain"
 
 PV = "1.11.3"
 
-RPM_NAME = "aws-sdk-java-cloudsearch-1.11.3-7.8.noarch.rpm"
-RPM_HASH = "1915377024e65c1b16620de7b7f8c16b8b72e72e8888e67374062dbc06244bb6badffaf4e80aa3e6c5aac4cebf929a971e4f2df028b37f82d0503b4f94ea10b5"
+RPM_NAME = "aws-sdk-java-cloudsearch-1.11.3-7.9.noarch.rpm"
+RPM_HASH = "692df35d74b516107dda254bbc3e0cd20c6ad2eab6042978ad308ecada3540ebe62f197b10078104edcf66fc32abdcf8cc3378e71a80333192ac0a5f35bc36e2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-cloudsearch \

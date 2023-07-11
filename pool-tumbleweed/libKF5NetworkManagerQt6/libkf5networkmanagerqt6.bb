@@ -5,10 +5,10 @@ your network devices and also provides a library for parsing connection \
 settings which are used in DBus communication."
 LICENSE = "LGPL-2.1-only | LGPL-3.0-only"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "libKF5NetworkManagerQt6-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "9f0ea1fed08c7d3c2914cc782eefbc3f8aae3e09a4653d3740ae9bd12e47c99c0eddf28d9c544047b4cd56725dd5f7bec24f14eed78579e061a148385892b00b"
+RPM_NAME = "libKF5NetworkManagerQt6-5.107.0-1.1.aarch64.rpm"
+RPM_HASH = "79ce011d9813837b0a0f17479ce2dadca262a0467e57d3d4ccae33d7571350a9aced9f96e64b268389347461323bdea1244f34bae513cdf744648b5eb489488e"
 
 RPROVIDES:${PN} += "libKF5NetworkManagerQt.so.6 \
 libKF5NetworkManagerQt6"

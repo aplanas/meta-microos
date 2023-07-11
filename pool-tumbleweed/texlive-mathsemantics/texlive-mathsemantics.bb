@@ -8,10 +8,10 @@ formulae but also allow to easily adapt notation if a user \
 prefers to. The semantic layer is split into topics."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0.0svn63241"
+PV = "2023.208.1.0.0svn63241"
 
-RPM_NAME = "texlive-mathsemantics-2023.201.1.0.0svn63241-52.1.noarch.rpm"
-RPM_HASH = "6adc4171090afb7822aee65d77cba72017edc58166cf7ddff3a3a780f1c7affb87e48b7cba08b69c6b359e49d4734db014c3268a959bc7e69072aa99722ab373"
+RPM_NAME = "texlive-mathsemantics-2023.208.1.0.0svn63241-53.1.noarch.rpm"
+RPM_HASH = "3965835f566b226a5e3a39d4616bc855fb580d4ff3b6588c552a305e05ca4e929d0b347b2a830e0d34bd1daa18c70b5f30031e428a05721fed9b5bda7183d2b1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mathsemantics-abbreviations.sty \

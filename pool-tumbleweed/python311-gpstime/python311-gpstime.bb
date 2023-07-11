@@ -9,11 +9,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.6.2"
 
-RPM_NAME = "python311-gpstime-0.6.2-1.2.noarch.rpm"
-RPM_HASH = "4f5d6be19323bc239cc9e088020db36decb2d0b71a49b945b7b1dd894265ae8d9c44ef350ac4123c0729e9504310a7e60c9f4129fea7491e4d1bb2155a0c8d2d"
+RPM_NAME = "python311-gpstime-0.6.2-1.4.noarch.rpm"
+RPM_HASH = "b52d4077c2357092d36677b8dba6551518b40791bbdadd9d474957c5aa9870fe2b2181fece0278414d20d3a31ae064be596a761f6832907685ab8bbe2bf1111e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-gpstime \
+RPROVIDES:${PN} += "python3-gpstime \
+python3.11dist-gpstime \
 python311-gpstime \
 python3dist-gpstime"
 

@@ -17,8 +17,8 @@ LICENSE = "MIT"
 
 PV = "0.97"
 
-RPM_NAME = "perl-App-perlbrew-0.97-1.1.noarch.rpm"
-RPM_HASH = "fe18435c196a8bdde155d7eb79fb9950ce946cb4505cda93423d1211572923aea74c4f14ed1cd88a840064d4abe8bb215cb5a85f092818ff629f67a04a40620d"
+RPM_NAME = "perl-App-perlbrew-0.97-1.2.noarch.rpm"
+RPM_HASH = "9c8a996f33e8b4ce81ed1b7d67ba52920d345ea2d2920288ed7982230b81cdb0d49cf6df58c93ba7eff1f0a7d65f3a83e19e75f9bce3bbe1729307b7b77e67d6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-App--Perlbrew--HTTP \
@@ -31,7 +31,7 @@ perl-App--perlbrew \
 perl-App-perlbrew"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-CPAN--Perl--Releases \
 perl-Capture--Tiny \
 perl-Devel--PatchPerl \

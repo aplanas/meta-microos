@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
 PV = "3.16"
 
-RPM_NAME = "mailutils-pop3d-3.16-1.2.aarch64.rpm"
-RPM_HASH = "2affbca4348661b00964a302c62cfed3fd5880931c95d3987827caf874eb010aac29f2267927ab04a04f32b1f9de13d880bdfffc47ed512c76b2effe4928b26e"
+RPM_NAME = "mailutils-pop3d-3.16-1.3.aarch64.rpm"
+RPM_HASH = "508dcf64734150902cf9c4e7fc50560ec548b9b73daaa24ed69b4e1ef5d351affc71030f3b9ddb25c9a6fd01788d111f71ccdff52e4ca4dc10bbf904a822ac7a"
 
 RPROVIDES:${PN} += "mailutils-pop3d"
 

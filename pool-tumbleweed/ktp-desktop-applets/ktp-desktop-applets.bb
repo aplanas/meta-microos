@@ -2,10 +2,10 @@ SUMMARY = "Telepathy presence applet"
 DESCRIPTION = "This package provides a Plasma applet to launch your Telepathy contacts list."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "ktp-desktop-applets-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "0f5b3f7155f641a849cf0aba41c94f50ee5fb753e69bed6d82dd07c6ff4e9284bfe73a4f80e350c830ea8de00cfaec52c3440cb57b7808f49e49e1172e92837b"
+RPM_NAME = "ktp-desktop-applets-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "4ea537dddc4cd46418a105ef3d4d9a7451559fb532cdc01b572fa092d015a2e9bfe45b18d98d83bc708bcd03a379b9c19aeada9611e7300dd99753f2e627ce74"
 
 RPROVIDES:${PN} += "ktp-contact-applet \
 ktp-desktop-applets \

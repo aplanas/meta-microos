@@ -2,10 +2,10 @@ SUMMARY = "GDB testsuite results"
 DESCRIPTION = "Results from running the GDB testsuite."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "12.1"
+PV = "13.2"
 
-RPM_NAME = "gdb-testresults-12.1-8.1.aarch64.rpm"
-RPM_HASH = "45d6a21514ba8c9f94a3bdf7688d2e041aa1605d79619860c5e37c48a8896804e3fa6c42689f04acd909bf386d154b00e140c3dffa3f6a6241648307bcb755ab"
+RPM_NAME = "gdb-testresults-13.2-1.1.aarch64.rpm"
+RPM_HASH = "6bf3f53b099ee78841a94783700e1631d7c1d4a7574196a10fc9bae78fc29d96650fd7788fa2f3e4cdcca65f4aff32add5b5827f9b9f9d63cec412775502cba7"
 
 RPROVIDES:${PN} += "gdb-testresults"
 

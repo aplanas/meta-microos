@@ -9,10 +9,10 @@ shell escape; shell escape is also needed if splitindex is \
 used."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3esvn42287"
+PV = "2023.208.1.3esvn42287"
 
-RPM_NAME = "texlive-imakeidx-2023.201.1.3esvn42287-52.1.noarch.rpm"
-RPM_HASH = "9707ffddb9c4afba9d130c76fc91b0b5055c753d4e5144437949245eb44e3fd59163b2c084b0c9f1855b01cf45ce3efc351cefc8f000419230a172e5deeb1901"
+RPM_NAME = "texlive-imakeidx-2023.208.1.3esvn42287-53.1.noarch.rpm"
+RPM_HASH = "7038f7c33732813ac6fed009139aed78d20ee20d2d83c4fc98fa676bc643afdf4b66ed3758b43d2a982b142b28a6cdc878acb482c3de79d9823fc264920e1f34"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-imakeidx.sty \

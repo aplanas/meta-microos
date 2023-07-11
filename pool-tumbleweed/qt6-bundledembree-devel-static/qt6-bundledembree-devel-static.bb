@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-bundledembree-devel-static-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "0c2b12afe87d78ff705f9c5e1c0262ea484f618b16572046229f41a5884e70f49e4e6697dc6de54ddc442937280adb5bf0e242c8e01246aa6f67e696ed09cd3d"
+RPM_NAME = "qt6-bundledembree-devel-static-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "df0357aa71f2a445f37ede30a988b48508316f6d84efca74f659009355945a7f45ddf46b845eb8c79688606ce3cee226b70ea2849b91428d313757b25c61e499"
 
 RPROVIDES:${PN} += "cmake-Qt6BundledEmbree \
 qt6-bundledembree-devel-static"

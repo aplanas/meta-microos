@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "0.42"
 
-RPM_NAME = "typelib-1_0-SpiceClientGtk-3_0-0.42-1.3.aarch64.rpm"
-RPM_HASH = "e96fb5b77c2d961cd4aa757418c56d4e6b068e6323b70e75a4d2b2efc46e953cf620eba402fcdfbf37af24fe33c0bbc653c256a1bb653de939c39cb4f6676523"
+RPM_NAME = "typelib-1_0-SpiceClientGtk-3_0-0.42-1.5.aarch64.rpm"
+RPM_HASH = "1b2aa28280915421db394daea471fe7187940bade318883c258c13f59d9a37495f3a2a47bb24c3419ae8c8c902767f4647309787ffe2f0290d1401dc35f0b34c"
 
 RPROVIDES:${PN} += "typelib-1-0-SpiceClientGtk-3-0 \
 typelib-SpiceClientGtk"

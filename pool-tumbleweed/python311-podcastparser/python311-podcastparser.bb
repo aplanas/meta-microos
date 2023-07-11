@@ -5,11 +5,12 @@ LICENSE = "ISC"
 
 PV = "0.6.9"
 
-RPM_NAME = "python311-podcastparser-0.6.9-1.3.noarch.rpm"
-RPM_HASH = "b5a3e93a31da9067f9b3ae2542ed5433e9b6e1b9e2d7989d24cfaafc8afa0ce1decc50ad3a518cb7a5555caadcc16db501fbd7c8d7e07e6cac2c282c7fd02987"
+RPM_NAME = "python311-podcastparser-0.6.9-1.5.noarch.rpm"
+RPM_HASH = "a43ee336ba4b1abdc57a3db9be0ebd6262e2c0bb45843c11ca5bb4e16e1a74fee3a1205478dd0f95f418d4b33b9bc719858823488fe448a6f9de089507d83d56"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-podcastparser \
+RPROVIDES:${PN} += "python3-podcastparser \
+python3.11dist-podcastparser \
 python311-podcastparser \
 python3dist-podcastparser"
 

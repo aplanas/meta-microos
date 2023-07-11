@@ -2,10 +2,10 @@ SUMMARY = "Kubernetes apiserver for container image"
 DESCRIPTION = "This subpackage contains the kube-apiserver binary for Kubic images"
 LICENSE = "Apache-2.0"
 
-PV = "1.26.4"
+PV = "1.26.6"
 
-RPM_NAME = "kubernetes1.26-apiserver-1.26.4-1.2.aarch64.rpm"
-RPM_HASH = "69a1f1c3de16158daeb8cb06ec7de5edf09417d30b35d0d942af948f6b1883017a0c2bcd3f2e9f418626d11c182cc291928bf13ef159c054dc004ef513e9ddc2"
+RPM_NAME = "kubernetes1.26-apiserver-1.26.6-1.1.aarch64.rpm"
+RPM_HASH = "a40f3f64a234b745ee7381017add37e8c9e1e92ddac3acc6fd313e25ad3fdd2dfaad4d11d290007826f9346e4a53e655d674094110c3d7824991c97cb919c84e"
 
 RPROVIDES:${PN} += "kubernetes-apiserver-provider \
 kubernetes1.26-apiserver"

@@ -11,8 +11,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.4"
 
-RPM_NAME = "python39-kiwisolver-1.4.4-2.1.aarch64.rpm"
-RPM_HASH = "43229cadf46c78a9f4d826740227571c11a8564f53cc23919d9347a97e343696e1b208507ebff2cb979a23ac3060e5f234b3678d6d3bf05a5c02eeba9b6bcd02"
+RPM_NAME = "python39-kiwisolver-1.4.4-2.3.aarch64.rpm"
+RPM_HASH = "75e8350d2c82da5810130aaf2695413ccae308a4c2d076b169964693a99e109d3ac005555110aea0e8e6acf7bf4665c417f64319cd1d2b669b7a14c57671d896"
 
 RPROVIDES:${PN} += "python3.9dist-kiwisolver \
 python39-kiwisolver \

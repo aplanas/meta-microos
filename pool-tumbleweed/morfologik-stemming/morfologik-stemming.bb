@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.1.9"
 
-RPM_NAME = "morfologik-stemming-2.1.9-1.1.noarch.rpm"
-RPM_HASH = "0f07e8ae5f16c511feef3fd67a5b1e04195f4e64bd74bb0c9b933ce7ad75c681dc28ad4b35d7ae0aa981f3632e41e118b90c5b80a872e9267c4077793c3cb729"
+RPM_NAME = "morfologik-stemming-2.1.9-1.2.noarch.rpm"
+RPM_HASH = "6e1bdcc8e96964718661defb15b9dc1827cac76a8feaa946eed4b1c96e69e79e41e1830e4e01200d645d5946d2303c7ee4c3666dd208b68e77945a7681b1bed9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "morfologik-stemming \

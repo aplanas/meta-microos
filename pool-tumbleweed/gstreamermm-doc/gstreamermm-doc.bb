@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.10.0"
 
-RPM_NAME = "gstreamermm-doc-1.10.0-6.9.noarch.rpm"
-RPM_HASH = "520fa5c270e269d6ac51bf8c76931faf9875bfe6101c4665bc1aaaf9fe4c083f81cfa8e608c206530c62c6966cd61a25972108d63d38b58b7bfd9f1af557541d"
+RPM_NAME = "gstreamermm-doc-1.10.0-6.10.noarch.rpm"
+RPM_HASH = "4338be5380968a4b12e71681356463f9e1f51ad70c6d38f50363391f7775d7d7c29e34b06a881a6e62f9e9ebcf164b79919be98b9a6d394e9a2ca65e9141d5f5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gstreamermm-doc"

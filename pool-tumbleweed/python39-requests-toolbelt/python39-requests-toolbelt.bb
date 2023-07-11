@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.0"
 
-RPM_NAME = "python39-requests-toolbelt-1.0.0-1.1.noarch.rpm"
-RPM_HASH = "71aaa942d8635d31f276794536b2020d874577ad88e0652cc0f975548fefc2d13b72456b51b39968e97a5c7c080d589c05a872b0af724a11d7479510cc3aa0f3"
+RPM_NAME = "python39-requests-toolbelt-1.0.0-1.3.noarch.rpm"
+RPM_HASH = "75ebfdb106e9fe5ab5f03fd9b0e494069a8f293a1ee57bba9ddc74cd165b4f217a590b028fe1210bc6cd31f64425838a904f97bae17055ea494e42ae395783d3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-requests-toolbelt \

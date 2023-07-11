@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "3.16.5"
 
-RPM_NAME = "python39-django-health-check-3.16.5-3.5.noarch.rpm"
-RPM_HASH = "812b0db36d61601e2f815f908b96f858b53d8ba8992a36abd8e3d08ba9ea8933a6335243ef7c90c877954703d56c98de54f5854c069ce209f0f809f0e892da4b"
+RPM_NAME = "python39-django-health-check-3.16.5-3.7.noarch.rpm"
+RPM_HASH = "ba06986dee30d4886c978d025eaeb86b9180334cd213db032b76f1c826ecf20f1f51c04cc9f9a3bb69ecea71fe0813b662caa39bd3ce71d34ad0f05fc4f72829"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-django-health-check \

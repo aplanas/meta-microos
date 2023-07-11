@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.1"
 
-RPM_NAME = "objenesis-javadoc-3.1-2.6.noarch.rpm"
-RPM_HASH = "c2c2331cdeaf37cce0234d9e22402f527be7193c1f977f2d9cead3df3026421ac130a37fb02dd6cf40240256d36b0b18dfce6407d13021a6576b23e970e7a896"
+RPM_NAME = "objenesis-javadoc-3.1-2.7.noarch.rpm"
+RPM_HASH = "6b35a0e14186a12d7fe940a89d308b7d6f3ce9dafa7ad5e1f1f7c2b7e3cbc1e58c8b836b9b1abe8928e2586bd718eeba7843de33a211501ec10d571c764213bb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "objenesis-javadoc"

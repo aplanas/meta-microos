@@ -3,10 +3,10 @@ DESCRIPTION = "Task management and system monitoring library. This package conta
 files."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "libksysguard5-devel-5.27.5-1.1.aarch64.rpm"
-RPM_HASH = "fb1c1186acb60e4cdef203d0299517f31687c016d051205be70bb786913b66517e06840a7c3d4d9a664d88497acb06ca91e9a5a20a6fcab05c68a1cd7d64a816"
+RPM_NAME = "libksysguard5-devel-5.27.6-1.1.aarch64.rpm"
+RPM_HASH = "1e48e7daed0650dc6f7a77a03b91a3dba6f732cca8bb812e61208bcd14b5716c8889f1132d7b8c887e8d5eb39935ae61154c45b987f1ccab090f49ee6bef9885"
 
 RPROVIDES:${PN} += "cmake-KF5SysGuard \
 cmake-KSysGuard \

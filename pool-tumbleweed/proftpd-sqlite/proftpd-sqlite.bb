@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.3.7f"
 
-RPM_NAME = "proftpd-sqlite-1.3.7f-1.3.aarch64.rpm"
-RPM_HASH = "962420c803a77c6db9943b47f9d4c01722290b92296e1b713d09ff972417034a54be51897139a52a120653888acbb9bd22c93dc5d01ae8797b7e6071db3be491"
+RPM_NAME = "proftpd-sqlite-1.3.7f-1.4.aarch64.rpm"
+RPM_HASH = "1c5f40aac63a51618303ee948aaf66228423e7eb21315bcccd2f132e1d51f174a64e925b1c19646d67d30e617f8b6549f0c5970720fd836b7835bbd1d85bbf6a"
 
 RPROVIDES:${PN} += "proftpd-sqlite"
 

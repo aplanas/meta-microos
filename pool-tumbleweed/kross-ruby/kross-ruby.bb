@@ -2,10 +2,10 @@ SUMMARY = "Ruby Bindings for kross"
 DESCRIPTION = "The Ruby bindings which can be used with KROSS"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kross-ruby-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "b6d2b386612dbbdbf0b64aa62ca85f33244f76fdc9c9bfb33ff27bb258de3839a2aa54c1a022ecf94ee6e2c6bbb96a67adee96575ecf4bf0cab461e23603501d"
+RPM_NAME = "kross-ruby-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "5fedf35fb34351642a63ff061bb4ddebcecc479bc4bf2deb749cfa99828444993fdb27e6d9e8eab9c2512b1bdf9bb38cc498ce72a3b94f24fb2b94bd84b84c92"
 
 RPROVIDES:${PN} += "kross-ruby"
 

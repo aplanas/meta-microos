@@ -6,10 +6,10 @@ automatically generates the character table, and also writes \
 the associated installation (.ins) script."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn46702"
+PV = "2023.208.1.2svn46702"
 
-RPM_NAME = "texlive-makedtx-2023.201.1.2svn46702-52.1.noarch.rpm"
-RPM_HASH = "8c3923a0c22659a3aa2c34802607a1697d2fb45a9cb2080dceeffe6425bd2c799a8dbc92a0580b95eeb0c46b87db8fe99819ac0ab9c6cb2ed5425b8170eeae13"
+RPM_NAME = "texlive-makedtx-2023.208.1.2svn46702-53.1.noarch.rpm"
+RPM_HASH = "f444c7cc4286c1dedf858e45705ac782ff2d29296da25d34ceb03533f305c829d028e57e54d6cb8d65e925e6631736b2a92419c8d24ab64cb1d285df8c0d46db"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-createdtx.sty \

@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.9.4"
 
-RPM_NAME = "pentaho-reporting-flow-engine-0.9.4-6.6.noarch.rpm"
-RPM_HASH = "491520538f03bb6deb9c773ba9383edda92c202d1a16f2125ac50ee8445dbf44cb3851f62b1381b516a89a90941ca8e8c657dcb6a27ae276af3d004c195e1a02"
+RPM_NAME = "pentaho-reporting-flow-engine-0.9.4-6.7.noarch.rpm"
+RPM_HASH = "a712facb81a4aa577ae407b854633e6e7000aba1469c764fbbd20cf7a7ca9853da84f2a213774bf5336fca062a9fe0b09c6bb97ec00d82fce8f94c2aa8f2826b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pentaho-reporting-flow-engine"

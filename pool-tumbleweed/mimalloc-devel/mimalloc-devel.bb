@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "2.0.9"
 
-RPM_NAME = "mimalloc-devel-2.0.9-1.3.aarch64.rpm"
-RPM_HASH = "2bc50d10a61f0e84a6c7a9c7651f544ea7a3a029e27b753de7eed8ca2b4987e2a10ad1edf9e1e53a512a95d48e1be12912ff0b629c9f812aa65f055dbc62f478"
+RPM_NAME = "mimalloc-devel-2.0.9-1.4.aarch64.rpm"
+RPM_HASH = "f7dc7acf380ae61d96af1adba55bf54dd5ffdf990baa920e8c1a16863453664ec9ed864dba0c0953decf9336c52abb29a9dcd94630b4407e7e3b7f472409ea35"
 
 RPROVIDES:${PN} += "cmake-mimalloc \
 mimalloc-devel \

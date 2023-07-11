@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.0.1"
 
-RPM_NAME = "vcdimager-2.0.1-3.11.aarch64.rpm"
-RPM_HASH = "ae12584bec4e2665eeebea8e584ed48352542ea7393dbf72c5a8c01c6c06e1c5845bc2f35a31af576dfaeb9afe72b5c90bf0d8840e0b0af948ca4eb1f890585d"
+RPM_NAME = "vcdimager-2.0.1-3.12.aarch64.rpm"
+RPM_HASH = "f4a4412638925d418c37a7992e1da52dab73a6920e6329024e05b5c641a31fda77113134f8f3ab382660ba31d0fa9b83ea8607a8b9b74dda9ecc667340938c3f"
 
 RPROVIDES:${PN} += "vcdimager"
 

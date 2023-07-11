@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.3.11"
 
-RPM_NAME = "gkrellmd-2.3.11-2.10.aarch64.rpm"
-RPM_HASH = "975d64883cf681becfa4e7ac43d425e2bf39e616f85a5ab743b599dbe4eb15edcd012cc39ec8188610b2efbc2344e9890044a5af27f8a2891b12f3fcd3dc0b6b"
+RPM_NAME = "gkrellmd-2.3.11-2.11.aarch64.rpm"
+RPM_HASH = "84eb21e2bce103f8cc2a20a9b6c6d853a5d4c49c0cf8c3bd4f83be98f385ff4677dfff80322a361606cc4fbd23db65bc1d74b6f38e6d9d89e04de65db77b561d"
 
 RPROVIDES:${PN} += "config-gkrellmd \
 gkrellmd"

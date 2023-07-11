@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "5.4.4"
 
-RPM_NAME = "libfplll8-5.4.4-1.3.aarch64.rpm"
-RPM_HASH = "155630725b97446da3b04826b8127fe9b127f24c1d199ec890a511883d6a69b03bf04b254217130bc3e9ccff2d39f1c3eab3ee627903dd168aceb0f4bfc94f5c"
+RPM_NAME = "libfplll8-5.4.4-1.4.aarch64.rpm"
+RPM_HASH = "c554ffead19fe5369b4424e5f129c3ce434b5fa39d15e4fa1541d8c67e75a0b4304f102caf317bba090808b85d4446418eae5a33a5ad36189ae88c0c555f0258"
 
 RPROVIDES:${PN} += "libfplll.so.8 \
 libfplll8"

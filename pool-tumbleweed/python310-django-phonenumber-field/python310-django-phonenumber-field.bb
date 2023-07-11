@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "5.1.0"
 
-RPM_NAME = "python310-django-phonenumber-field-5.1.0-2.7.noarch.rpm"
-RPM_HASH = "9d41eeb95213ed94916d89cdcd9705f2770b9853ee30b8ff0c596ccffa867da20d3a84ce08c19bba6bac96981dcd2cc1f7da7253fde0406054a40a4f40d19403"
+RPM_NAME = "python310-django-phonenumber-field-5.1.0-2.9.noarch.rpm"
+RPM_HASH = "64abd92967e86b20e2083681b3617805f57438563b3bb29a3562eda9bed9ea4fb2f74077840cfca2567be6fa0cd2f11e79708d6c28c6a1b0973b80df21d431c2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-django-phonenumber-field \
-python3.10dist-django-phonenumber-field \
+RPROVIDES:${PN} += "python3.10dist-django-phonenumber-field \
 python310-django-phonenumber-field \
 python3dist-django-phonenumber-field"
 

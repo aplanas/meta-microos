@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.2.3"
 
-RPM_NAME = "python39-jschema-to-python-1.2.3-1.6.noarch.rpm"
-RPM_HASH = "9d8f3d9791c5201d22e32bfd4d119dfe0802c3c54f585293a4abcda1341b8bc95808fa55bc03528e9d06761cbcc419722e55a4313d1190be5ae94f1c56507d1a"
+RPM_NAME = "python39-jschema-to-python-1.2.3-1.8.noarch.rpm"
+RPM_HASH = "dadf3903e5d4b0065afee3d116411b6521c8944bc6bfca5cecdab4a072308886579bd3296b2830bb86b08adf9c91180ef63dd81640b8f4e4a00490ded3e86d2f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-jschema-to-python \

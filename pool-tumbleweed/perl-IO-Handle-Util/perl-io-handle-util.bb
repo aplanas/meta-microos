@@ -5,8 +5,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.02"
 
-RPM_NAME = "perl-IO-Handle-Util-0.02-1.17.noarch.rpm"
-RPM_HASH = "ec8fd7aa32a4980c9dd06811ee2a94fda0420fb88c43dc2bb0c5d46fc3a05805748faea94bbf5c5aa214d0e5bdb876baa2a50e1d5cfcdb14ddbefaecfcfef7ac"
+RPM_NAME = "perl-IO-Handle-Util-0.02-1.18.noarch.rpm"
+RPM_HASH = "d0ad16a411094dc43644d0fe471baed9ee65d081051d3a873539fa69cbde47fba1a214dd15332d1e5af9e887452620439fe2fda2100a9ba0a2bcff4d1820daff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-IO--Handle--Iterator \
@@ -18,7 +18,7 @@ perl-IO--Handle--Util--Overloading \
 perl-IO--Handle--Util--Tie \
 perl-IO-Handle-Util"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-IO--String \
 perl-Sub--Exporter \
 perl-asa \

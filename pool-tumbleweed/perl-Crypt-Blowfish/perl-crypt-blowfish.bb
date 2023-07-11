@@ -6,14 +6,14 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.14"
 
-RPM_NAME = "perl-Crypt-Blowfish-2.14-5.36.aarch64.rpm"
-RPM_HASH = "f68389dd810dfe8b0fc8c0a7395ad7a629563fde4b95cb7a441cd26a921aff33d248b138652a12d298d346756d6c0c41a1d957668158a4ec2aec9371bb214b67"
+RPM_NAME = "perl-Crypt-Blowfish-2.14-5.37.aarch64.rpm"
+RPM_HASH = "fdc99df4874bfc2ce098fc6eca792c9a66f766deac3b7ce72d53886e7ce4458507716f1f45141d6697e08d3f28f9454af3c905e3b8526236d43363bd874a6935"
 
 RPROVIDES:${PN} += "perl-Crypt--Blowfish \
 perl-Crypt-Blowfish"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

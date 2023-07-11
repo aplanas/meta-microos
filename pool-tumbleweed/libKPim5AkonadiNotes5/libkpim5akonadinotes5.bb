@@ -5,10 +5,10 @@ a helper class for note attachments and for wrapping notes into KMime::Message \
 objects."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libKPim5AkonadiNotes5-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "20a42571db969dcd2a60a020db7741f1674b60109d43b3db4a1abfbd57f03a3af94f35432968ef57cf15b8749e82451a27fc8b746a9de7fd18d62fd90553cefe"
+RPM_NAME = "libKPim5AkonadiNotes5-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "7ece77cc338484c13d4c44de168c28709f8c9a818d32f93aeeac8472ec089d26cc4614202dfe299c4b71f42704394188aa544f10eb1a7214a26f5a2952c5c43d"
 
 RPROVIDES:${PN} += "akonadi-notes \
 libKPim5AkonadiNotes.so.5 \

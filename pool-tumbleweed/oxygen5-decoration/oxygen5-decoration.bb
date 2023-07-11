@@ -2,10 +2,10 @@ SUMMARY = "Oxygen's KWin decoration"
 DESCRIPTION = "This package contains the libraries Oxygen's KWin decoration."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "oxygen5-decoration-5.27.5-1.1.aarch64.rpm"
-RPM_HASH = "7667d4a48b76d18dcedbb24533f126a46b1121e6982c4ca0a5c3f4f958252d6aef811f6e69793eaf9670cce37a3d9bf3b754f610040355487b477792c56d46e1"
+RPM_NAME = "oxygen5-decoration-5.27.6-1.1.aarch64.rpm"
+RPM_HASH = "5a84457fd270dac77f75ec7baeb852b710ebe9cd58ccf7a78447b88c21c30585d5c84727f3ecdcaa57ddf8d5d6b901bb286da02be417cf74c0cf0e0d185deafa"
 
 RPROVIDES:${PN} += "oxygen-decoration5 \
 oxygen5-decoration"

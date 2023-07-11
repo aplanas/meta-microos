@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.10.13"
 
-RPM_NAME = "ant-apache-bcel-1.10.13-2.1.noarch.rpm"
-RPM_HASH = "d074a96bf4a2d63102b56f5bf647286ac30558493e85abf677b598556fd20a61a535c34ca1fd63890553f5d91d84c474a00a32180ddfaa9833089b4fa99ab756"
+RPM_NAME = "ant-apache-bcel-1.10.13-2.2.noarch.rpm"
+RPM_HASH = "8b03bd766e01ec6167336e0033ab791c23204ec063896ce4417bbfdc3dd2e13006b904897ea7a0119b7d5efc05a2fb0a23d3d86194c2a49b0bd7b40fa3df1a5d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-apache-bcel \

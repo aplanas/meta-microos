@@ -15,8 +15,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.1"
 
-RPM_NAME = "qpress-1.1-9.12.aarch64.rpm"
-RPM_HASH = "8ddeee3f309f0e47654bb172f8c4b48034bff29a67db41ceb57c39c008440de6b9567e6d5e3915cab600728a9b09a33026391f5c904c81afae7e282d1c6c76f7"
+RPM_NAME = "qpress-1.1-9.13.aarch64.rpm"
+RPM_HASH = "2f2bc6b3f150d47118701e0110712eee3ed61d8cf9cf4fa561b4e1ca8f7ab9b28b4ead16b724e7a44f62b23ab1b846ee8a54d5b96cc70f2ef8d5f489ced16bc3"
 
 RPROVIDES:${PN} += "qpress"
 

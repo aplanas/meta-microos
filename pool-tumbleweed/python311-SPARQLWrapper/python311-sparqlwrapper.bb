@@ -6,11 +6,12 @@ LICENSE = "W3C"
 
 PV = "1.8.5"
 
-RPM_NAME = "python311-SPARQLWrapper-1.8.5-2.6.noarch.rpm"
-RPM_HASH = "9ed1b7ade9db61bfc36e3dedfa84e3c0b7f330a2827cffaf4aa348a77a0b158882301a0dd1f9ff75a2db82d247016f7bd426f29fc33c7ab374e93ba1ab56c827"
+RPM_NAME = "python311-SPARQLWrapper-1.8.5-2.7.noarch.rpm"
+RPM_HASH = "c76cf06e29151a39d0376a440ee444751d90379d90f552ccdbeb421cf4293b5660dbe8cfaeee09f33ad05839f9ceaf4310b76147a2a791ff82b4d78f6d04db99"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-sparqlwrapper \
+RPROVIDES:${PN} += "python3-SPARQLWrapper \
+python3.11dist-sparqlwrapper \
 python311-SPARQLWrapper \
 python3dist-sparqlwrapper"
 

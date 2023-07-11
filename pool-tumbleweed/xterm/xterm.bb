@@ -3,10 +3,10 @@ DESCRIPTION = " \
 This package contains the basic X.Org terminal program desktop launcher."
 LICENSE = "MIT"
 
-PV = "380"
+PV = "382"
 
-RPM_NAME = "xterm-380-1.1.aarch64.rpm"
-RPM_HASH = "999851b66b6aa2ccd7aada8f253cc2b5a3406ccb99fe6a2289e54fb7eba2355a6c2ff72b66e2c3dd3e1a688ca9ee912943c456d8a4817a43cdaf5e032f4eb20a"
+RPM_NAME = "xterm-382-1.1.aarch64.rpm"
+RPM_HASH = "94cc0517819c51bbcee425ac83481b3264a4c454da1f597f69a0418a09849f49c1b9484ea2ef33a037fc9805f2e1c046628b4c5915f80126fb66d4a021c617b3"
 
 RPROVIDES:${PN} += "XFree86-/usr/X11R6/bin/xterm \
 xorg-x11-/usr/X11R6/bin/xterm \

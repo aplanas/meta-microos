@@ -4,10 +4,10 @@ applications. It uses libattica to support the Open Collaboration Services \
 specification. Development files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "knewstuff-core-devel-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "fb96fc13fbc161e03590e0e0ca3c593a303f428868e67598a9515ce41d1e03875c463608faef3556658745445070d70249d7bd8c4f264156c24425e18699ca74"
+RPM_NAME = "knewstuff-core-devel-5.107.0-1.1.aarch64.rpm"
+RPM_HASH = "04cfe4d0239273c578c65b6b86aa95abde1b99addb982e7e87fd1e1c6149725d8a3d9dc6375ba1ae5b397ba6bc35037e0940d87445986bd943fa60bb0ebab34b"
 
 RPROVIDES:${PN} += "cmake-KF5NewStuffCore \
 knewstuff-core-devel"

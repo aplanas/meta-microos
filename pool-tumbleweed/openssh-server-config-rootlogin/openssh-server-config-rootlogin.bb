@@ -5,10 +5,10 @@ to temporarily have a password based login to be able to use \
 ssh-copy-id(1)."
 LICENSE = "BSD-2-Clause & MIT"
 
-PV = "8.9p1"
+PV = "9.3p1"
 
-RPM_NAME = "openssh-server-config-rootlogin-8.9p1-9.2.aarch64.rpm"
-RPM_HASH = "5e785f926c105144112c41075d68be1647e79296c6267fd95193457831e673993744ba8c6c336cc6ab7fbe04f982a54f723a0e3d0002e067d8e1cb77f512f095"
+RPM_NAME = "openssh-server-config-rootlogin-9.3p1-1.2.aarch64.rpm"
+RPM_HASH = "6008bbcec363ff4d9b054177595ba0ab24573dabe70b22c359e983aa217360c180509377b51deb8af0b770441f885441d031b2d6a681f2ac7c7dff7154ce8c40"
 
 RPROVIDES:${PN} += "openssh-server-config-rootlogin"
 

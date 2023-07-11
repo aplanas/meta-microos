@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.14.0"
 
-RPM_NAME = "python39-sparse-0.14.0-1.2.noarch.rpm"
-RPM_HASH = "f000555bcaae26b33dabb4fe7761973458b4ee0081ffd39e635d6c2c0ff0c68416cedc7331e2e05c11828a7b9260ffcf86520d39bf02bd56039f0b469e54c511"
+RPM_NAME = "python39-sparse-0.14.0-2.1.noarch.rpm"
+RPM_HASH = "7a79c5d64e01ac2946d043f249d923aa654393478a32a51a4380b8a5a65f4f81a8b0ab02348ca6948c21fd12087973b3ffbcb57556c2a7337351ce90d6c7f1d8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sparse \

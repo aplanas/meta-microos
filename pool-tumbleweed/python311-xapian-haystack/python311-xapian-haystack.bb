@@ -4,11 +4,12 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.1.1"
 
-RPM_NAME = "python311-xapian-haystack-2.1.1-1.11.noarch.rpm"
-RPM_HASH = "f25e6130ebd58b7889d15207c2d14b1fa0e42291fa7ad30f23fae7ee4b4fe1780faedc76bb76845f355468a5c0df79b69759c4dfd5161dac4cd434f5af969f7a"
+RPM_NAME = "python311-xapian-haystack-2.1.1-2.1.noarch.rpm"
+RPM_HASH = "498dc75c1370867a49c2502862f329b7824a92783e272e8eea4c4370f55b5ee2cdbfa94f43ee30a0664676b5fe6fc2d6f0578d9e8e3d35e710b634323b2f30b6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-xapian-haystack \
+RPROVIDES:${PN} += "python3-xapian-haystack \
+python3.11dist-xapian-haystack \
 python311-xapian-haystack \
 python3dist-xapian-haystack"
 

@@ -4,11 +4,12 @@ LICENSE = "0BSD"
 
 PV = "0.6.12"
 
-RPM_NAME = "python311-dateutils-0.6.12-1.3.noarch.rpm"
-RPM_HASH = "98c2b06f69e7145125ad663a3e1100e8bbdbed6f47c0f8a4974bd6b8858c21be6c7898cc00962941acb7d5f0b217a6db4133143875c5e187201dc3eef3a17401"
+RPM_NAME = "python311-dateutils-0.6.12-2.1.noarch.rpm"
+RPM_HASH = "da89bd82dc3e4dc912b334b73d868874b10553d369a8f5999f09714da84b2469b221075f260eb1addb47567decaa12ac6612c9b277c34ae46def84e7bbc5f6f8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-dateutils \
+RPROVIDES:${PN} += "python3-dateutils \
+python3.11dist-dateutils \
 python311-dateutils \
 python3dist-dateutils"
 

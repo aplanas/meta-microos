@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.3.2"
 
-RPM_NAME = "maven-javadoc-plugin-3.3.2-4.3.noarch.rpm"
-RPM_HASH = "00db1edc1b0296cab5a45b58a5f19daa17d68fd4127f3b3fe70955b4bd7c6986b7ffe7fedf5eefb65dcaf73eb84504074af886d4fcd0be5d7c7d638def6dcd96"
+RPM_NAME = "maven-javadoc-plugin-3.3.2-4.4.noarch.rpm"
+RPM_HASH = "4c8e29cf145e7b68b384551c7003ca9f662746be17a8e71b9cf62058a90f1da1ae83cc6962c1ea5f2bcbfceb4e54e332865c35b9c28c0a15b5a1ad276b39349e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-javadoc-plugin \

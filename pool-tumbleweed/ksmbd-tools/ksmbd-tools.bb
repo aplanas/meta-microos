@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.4.8"
 
-RPM_NAME = "ksmbd-tools-3.4.8-1.1.aarch64.rpm"
-RPM_HASH = "21597a333c8ecb6c48b9626ded2a7573709a3a13ec662a1cdf8314d4129db203cb141a04d64cbb998086af25326d9f070210697da8d6a703d0ef4da5ac37f3a0"
+RPM_NAME = "ksmbd-tools-3.4.8-1.2.aarch64.rpm"
+RPM_HASH = "1c83a831113a091275f6bdc1f8d7b417fb84771967f92df48ec7ab7f32e3beb8670ba799d61ae52a593486d74e5a73e55e52c075a738ed0e8858accfd744365a"
 
 RPROVIDES:${PN} += "ksmbd-tools"
 

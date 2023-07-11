@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0 & LGPL-2.1-only & SISSL"
 
 PV = "3.1.0"
 
-RPM_NAME = "openvswitch-3.1.0-14.1.aarch64.rpm"
-RPM_HASH = "ba94c986a1bb57ba62af9ce2583d9ce165de826637ddcd6a018f71a30c9481e5e3843f6b495b4b1ec266658a9f3a6b41fd78db6643a7e0561db3292e9e0f9a12"
+RPM_NAME = "openvswitch-3.1.0-14.3.aarch64.rpm"
+RPM_HASH = "2a6939842237069e383ce9fd607811369f9143ccac3bd8171320c930b7f7c5ecacefd659e209651c6a056cfbf679dbdd7e6f79971daa8ff19019f542b35dcae9"
 
 RPROVIDES:${PN} += "config-openvswitch \
 openvswitch \

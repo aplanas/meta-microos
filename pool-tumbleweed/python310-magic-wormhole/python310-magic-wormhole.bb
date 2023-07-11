@@ -8,12 +8,11 @@ LICENSE = "MIT"
 
 PV = "0.12.0"
 
-RPM_NAME = "python310-magic-wormhole-0.12.0-6.4.noarch.rpm"
-RPM_HASH = "328e2d389c201a7ab07717e0bba8232642d7b255943c50c4915ba4624ca0545b38207d4533231f0630acac26708bdcc153fa07ee4e7f508c25e8e78e6dbf68c2"
+RPM_NAME = "python310-magic-wormhole-0.12.0-6.6.noarch.rpm"
+RPM_HASH = "449d371e7cac12c5f4b7f59ff291e94a3c0af3fa568368ce4d38c33c893890a03c1608773dfbd2d7499944e0d7e52e3b8f2cf261933cc3f1911fb0810a5f7e28"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-magic-wormhole \
-python3.10dist-magic-wormhole \
+RPROVIDES:${PN} += "python3.10dist-magic-wormhole \
 python310-magic-wormhole \
 python3dist-magic-wormhole"
 

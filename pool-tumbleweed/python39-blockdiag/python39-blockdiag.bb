@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.0.0"
 
-RPM_NAME = "python39-blockdiag-3.0.0-2.1.noarch.rpm"
-RPM_HASH = "d207a4792b145e612bfad8e0dce3b6f4d6cde679b13ffa90679adc4a2c255f81fba44ebe5a673e72db9387a2c4df2cdf70c3f933c7ed5dcb141054472d0b8151"
+RPM_NAME = "python39-blockdiag-3.0.0-2.3.noarch.rpm"
+RPM_HASH = "aee477d013b33957a8124f9de90fa418439a08a6c418cd5ad3fab7ea57657ff9db8f82f05152835f2ec3d89c4ee483704f89badf47eab2c663cc1b74336d4793"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-blockdiag \

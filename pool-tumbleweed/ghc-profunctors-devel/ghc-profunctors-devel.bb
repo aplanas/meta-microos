@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.6.2"
 
-RPM_NAME = "ghc-profunctors-devel-5.6.2-4.3.aarch64.rpm"
-RPM_HASH = "04638db24cd377555e0d4de30784e991cd4e65f42eb86671d9840524828a7bd223b47702193df3a2a77e1cff54f005e09fc5732509e7c20bad16eb7cf5669afb"
+RPM_NAME = "ghc-profunctors-devel-5.6.2-4.6.aarch64.rpm"
+RPM_HASH = "a2b1968db66e5355cb8ef227bf2ffb41e4bfe5d3848778cfb4a46461b1c684c7070cd845b589a5bfb6eadfba074589d354c95ffa00ce167f621cfe3325612887"
 
 RPROVIDES:${PN} += "ghc-devel-profunctors-5.6.2-BxPEMLImcM1AGaSfWljpGV \
 ghc-profunctors-devel"

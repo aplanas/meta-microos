@@ -10,8 +10,8 @@ LICENSE = "Apache-2.0"
 
 PV = "6.12.0"
 
-RPM_NAME = "mono-reactive-6.12.0-5.3.aarch64.rpm"
-RPM_HASH = "26d69cc941f7b972841be8eab0e082ec87e53074ae39b5eb335671773800a6f2d45da612682a824e41f25753fedfd0777a8105efcb4e2d9ea6f3a5415be04e4b"
+RPM_NAME = "mono-reactive-6.12.0-5.4.aarch64.rpm"
+RPM_HASH = "3e390a08216fb42956d5d4f1c4afa96638be1ef7a85b12520b51524fd1330433736d3e26bc00063123659c71dfd52bfe69e265313c174145a491ac65f6837f6f"
 
 RPROVIDES:${PN} += "mono-System.Reactive.Core \
 mono-System.Reactive.Debugger \

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.7"
 
-RPM_NAME = "systemd-default-settings-branding-SLE-Micro-0.7-2.6.noarch.rpm"
-RPM_HASH = "70396bbc3db3eee80bb96c0f5e3b890cf8e2d31f05308a0f50aed8fc24386f38838e91f7f708083727adc7873130ab4518e2b5526369f5664142f90b01704680"
+RPM_NAME = "systemd-default-settings-branding-SLE-Micro-0.7-2.7.noarch.rpm"
+RPM_HASH = "670851194ce25ebe6973298c700cd5281705e46caeadb98fb49f0fa877d411c9318556eaf3c256c771c9c60ff6a325869514dc3ae79fcdc0e9c797eb1021ca0b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "systemd-default-settings-branding \

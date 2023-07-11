@@ -76,8 +76,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.37"
 
-RPM_NAME = "perl-Spreadsheet-ReadSXC-0.37-1.8.noarch.rpm"
-RPM_HASH = "ebe163ede1a3b6034b1b6f9057f156a18e316c409d43f44de7cab2b5811b55d0baabe31c624c3ab0b76d0ed391fcbe5f6fb17eda22cd8dc2843c053dd639e322"
+RPM_NAME = "perl-Spreadsheet-ReadSXC-0.37-1.9.noarch.rpm"
+RPM_HASH = "49eb5b4fb9780693efb2ec6dfaaeda81ff69bd4cff9e6edf7d74a141221f25f0775830977adef6f54797b9c096d4b6ff2e6d772b67107144d125e5871deeeec4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Spreadsheet--ParseODS \
@@ -89,7 +89,7 @@ perl-Spreadsheet--ParseODS--Worksheet \
 perl-Spreadsheet--ReadSXC \
 perl-Spreadsheet-ReadSXC"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Archive--Zip \
 perl-Moo \
 perl-PerlIO--gzip \

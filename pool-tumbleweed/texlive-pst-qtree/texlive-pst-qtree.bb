@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.201.svn15878"
 
-RPM_NAME = "texlive-pst-qtree-2023.201.svn15878-53.1.noarch.rpm"
-RPM_HASH = "e0e8903ca20bee570a4bffa7842cd9a2f3b2b553ea7359518135e1ff1c2c529623eca0e4a457c9302b4b37420d17129f341b1fdf7d98b3615b62854a156a9243"
+RPM_NAME = "texlive-pst-qtree-2023.201.svn15878-53.2.noarch.rpm"
+RPM_HASH = "bf36c0ade20cab633f8eeec946a769178579265c642196ea5abe42dc5008608141bb5b18f41c4b56a851365b4e64695a45a80f1dedefca4e1aad82f967978420"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-qtree.sty \

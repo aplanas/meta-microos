@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later-with-OCaml-linking-exception"
 
 PV = "1.6"
 
-RPM_NAME = "ocaml-benchmark-devel-1.6-1.24.aarch64.rpm"
-RPM_HASH = "eac330a7c5a59123ef585685f8eb24ae9a3b2028541b6ac2cd01e3063d49bf9df8fb6265599b1adfe470631c8f6f2db362b9cc7556b9dc538bd4f18bf9fe8f4a"
+RPM_NAME = "ocaml-benchmark-devel-1.6-1.25.aarch64.rpm"
+RPM_HASH = "30de0f10634f41909c710b99beffa642334c566166352a98e2b970d6b6cd2348aa1e1de590dac8d064cf419e146edd6972e2b1cd7ea047005f480cb06add1569"
 
 RPROVIDES:${PN} += "ocaml-Benchmark \
 ocaml-benchmark-devel \

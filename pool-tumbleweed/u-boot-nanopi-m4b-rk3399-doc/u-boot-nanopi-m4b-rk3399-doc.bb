@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2023.04"
 
-RPM_NAME = "u-boot-nanopi-m4b-rk3399-doc-2023.04-2.1.aarch64.rpm"
-RPM_HASH = "e7b037441db9a481f2553923074907c8edb5a9ce5db5ea035b3bda2de1c0b4499cc837b5a4d7e0a56a73ecc18ec1f4da8f8a26c4e0b4250d400f0bb3f291f005"
+RPM_NAME = "u-boot-nanopi-m4b-rk3399-doc-2023.04-2.2.aarch64.rpm"
+RPM_HASH = "2738bd5e5fe7fbe4b93518e981a0c5906c5a137c0c9494f813b2962614584944c59dcf8c47fd1c434e1a8c0dbe783e6b139dc1793e2b020bf4bfe419b9c24df3"
 
 RPROVIDES:${PN} += "u-boot-nanopi-m4b-rk3399-doc"
 

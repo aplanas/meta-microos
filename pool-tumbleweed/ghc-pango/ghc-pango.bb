@@ -5,19 +5,19 @@ output text in PDF, PS or other documents or with Gtk+ to display text \
 on-screen."
 LICENSE = "LGPL-2.1-only"
 
-PV = "0.13.8.2"
+PV = "0.13.10.0"
 
-RPM_NAME = "ghc-pango-0.13.8.2-2.3.aarch64.rpm"
-RPM_HASH = "403a50bba3239ac435be06ff9639d6366506ab48f06c6080fa3daed865fea2e1821e44d02f51eb2b8cc5f4fc3bcae3cf5c1b2d3ce9729b1a289b972206b7f03a"
+RPM_NAME = "ghc-pango-0.13.10.0-1.3.aarch64.rpm"
+RPM_HASH = "9b82cd9cf8a3cc2b8d666f73b93bc1318595a0a48894feba1d993fd3275dd2d4499ec483da1db5403c823504aa4be45e32bd61bf3dc8691f52e9b702560ddb47"
 
 RPROVIDES:${PN} += "ghc-pango \
-libHSpango-0.13.8.2-AyE0ruIpbddIIASgXg66h2-ghc9.4.5.so"
+libHSpango-0.13.10.0-Es56i1Q8thp2nfdEwUTWXD-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
 libHSbase-4.17.1.0-ghc9.4.5.so \
 libHSbinary-0.8.9.1-ghc9.4.5.so \
 libHSbytestring-0.11.4.0-ghc9.4.5.so \
-libHScairo-0.13.8.2-84nOBKgVLz3788JDxxB5om-ghc9.4.5.so \
+libHScairo-0.13.10.0-79KHEyza8Yx2ITjvRp5k2b-ghc9.4.5.so \
 libHScontainers-0.6.7-ghc9.4.5.so \
 libHSdeepseq-1.4.8.0-ghc9.4.5.so \
 libHSdirectory-1.3.7.1-ghc9.4.5.so \
@@ -25,7 +25,7 @@ libHSfilepath-1.4.2.2-ghc9.4.5.so \
 libHSghc-bignum-1.3-ghc9.4.5.so \
 libHSghc-boot-th-9.4.5-ghc9.4.5.so \
 libHSghc-prim-0.9.0-ghc9.4.5.so \
-libHSglib-0.13.8.2-DQyux8etmkJKUbOUWF524Z-ghc9.4.5.so \
+libHSglib-0.13.10.0-3OTFLQKlfVK7JIaqsLt0K-ghc9.4.5.so \
 libHSmtl-2.2.2-ghc9.4.5.so \
 libHSpretty-1.1.3.6-ghc9.4.5.so \
 libHSprocess-1.6.16.0-ghc9.4.5.so \

@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.26.1"
 
-RPM_NAME = "pluma-devel-1.26.1-1.1.aarch64.rpm"
-RPM_HASH = "a1daccbb51f9f6ecd4f69140b18fa16665f12bae0124f7b04fa978dac8ced551c7b11d99ecf4bf718b79b595f526bd3ab78b24df8451baa97da0c7344378bcf0"
+RPM_NAME = "pluma-devel-1.26.1-1.2.aarch64.rpm"
+RPM_HASH = "9343c6d02d86d2441fb624bca59ee91ff9fb8bf5616c88b9f947bc58068f72bd1d26336c1889f0443bb8812d051f900beaa0b238eac46af805075ec4fcb97296"
 
 RPROVIDES:${PN} += "pkgconfig-pluma \
 pluma-devel"

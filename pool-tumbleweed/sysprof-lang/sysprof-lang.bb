@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
 PV = "3.48.0"
 
-RPM_NAME = "sysprof-lang-3.48.0-2.1.noarch.rpm"
-RPM_HASH = "d351fc59bbe34bcc687b33f3aeef070242a2ae36505d00526071385bdd81e39e981e69f3e6173ae064b9af9976a286fbdb03cb1c245dca90d1ea3db994e31251"
+RPM_NAME = "sysprof-lang-3.48.0-2.2.noarch.rpm"
+RPM_HASH = "f3627a7790048d9b1a33739b0f2ef139bb5b07cb6524f30d1daa21326fc532d1babdf8a4b82472e680085137ce6a061cedda4a842bd8da5b793b599b878072e3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-sysprof-ca \

@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "1.8.8"
 
-RPM_NAME = "icedtea-web-javadoc-1.8.8-1.10.noarch.rpm"
-RPM_HASH = "4faf20c7c9ee37ce0dd1374ff2f4a65acd5b5a34830889a8846f31029bb240a06fb07000fbbdc64467da4b26f1d18e8e9639fd620246da89eab30d3921bc23cd"
+RPM_NAME = "icedtea-web-javadoc-1.8.8-1.11.noarch.rpm"
+RPM_HASH = "bb5609613c666567ed5811a21cfe043ad054d28a2e01d67af33b0ea46326aeade0a7a83d79c3e62dffa202797190389139aa139195fc4995d054f96c4581c38e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icedtea-web-javadoc"

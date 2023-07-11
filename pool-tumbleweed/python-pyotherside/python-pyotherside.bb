@@ -4,8 +4,8 @@ LICENSE = "ISC"
 
 PV = "1.5.9"
 
-RPM_NAME = "python-pyotherside-1.5.9-1.26.aarch64.rpm"
-RPM_HASH = "816c886ab4ad957afab30762535f61c9195b904080e936550be99b280127fdb215b432439c4d08f30519622df4eddb0f8eae0678ef09cbcaa509832ef20549f5"
+RPM_NAME = "python-pyotherside-1.5.9-1.28.aarch64.rpm"
+RPM_HASH = "f61ebfa0c89a15d9c50d4c507689bb7d9671d137ecb1329ceb9cc61b01bbaac73dedf5b91b665335a66f194c22fa22d80003228749e0093ac3dcb7806918902b"
 
 RPROVIDES:${PN} += "libpyothersideplugin.so \
 pyotherside \
@@ -21,7 +21,7 @@ libQt5Quick.so.5 \
 libQt5Svg.so.5 \
 libc.so.6 \
 libgcc-s.so.1 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libstdc++.so.6"
 
 inherit rpm

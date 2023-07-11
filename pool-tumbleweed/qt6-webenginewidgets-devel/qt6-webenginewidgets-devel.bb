@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-webenginewidgets-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "f6d148bb69cb71eef520f7ed486de956ac6d81f72e7409e629cb6f379beb030d0eaacad103425192783ba921017bca3443cd60c535b4c2c5b2c383e74ea45622"
+RPM_NAME = "qt6-webenginewidgets-devel-6.5.1-1.3.aarch64.rpm"
+RPM_HASH = "b663783c89b4bd465e8938d825a3a47443886c01b4b7268ddbe6d23cbac0893e3f0430c70eda5e1ed26005de67238244ccd48947a4bd6e4d00aac120647d3ae9"
 
 RPROVIDES:${PN} += "cmake-Qt6WebEngineWidgets \
 pkgconfig-Qt6WebEngineWidgets \

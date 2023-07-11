@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "20.1.0"
 
-RPM_NAME = "python39-gunicorn-20.1.0-4.1.noarch.rpm"
-RPM_HASH = "2ed3c8b819a6ff976cc0ecc7be9b6835db83b476b909674f64ef9f5b05497db68f8c98932600080f7a1416affd287bbb20e1dc3a5a0c8802444eaf57563fc4eb"
+RPM_NAME = "python39-gunicorn-20.1.0-4.2.noarch.rpm"
+RPM_HASH = "5eec20fcec9dd09984d7dfaa82779c2dc94e385e99d56876a437b2668f84602f1275d8c803bc1b2132e545525d1910f9ff7672b28911fdcd26865d91ccbb8ec3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-gunicorn \

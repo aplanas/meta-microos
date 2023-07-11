@@ -3,10 +3,10 @@ DESCRIPTION = "Hyphenation patterns for Georgian in T8M, T8K and UTF-8 \
 encodings."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn58652"
+PV = "2023.208.svn58652"
 
-RPM_NAME = "texlive-hyphen-georgian-2023.201.svn58652-52.1.noarch.rpm"
-RPM_HASH = "e2bcb4c372fcb18a56b5b7c22952ecfd1232ab0f4a00ce432afbaa5851a69411a101fe2c85f3f04d99be4a9f8810e2357b4e379b0c96b0b316c229683c10c8f7"
+RPM_NAME = "texlive-hyphen-georgian-2023.208.svn58652-53.1.noarch.rpm"
+RPM_HASH = "b72605b3aaa9ec810e5af3394eadf2c2eb77d4b3cd2b40a38a575a8c8e610496aba992e9b21c678f4c1305bcae6cfaa9eb3aa58bb591fdbce89a4c7e1e03ae83"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-ka.t8m.tex \

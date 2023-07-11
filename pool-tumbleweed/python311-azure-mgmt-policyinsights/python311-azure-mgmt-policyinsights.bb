@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "1.1.0b4"
 
-RPM_NAME = "python311-azure-mgmt-policyinsights-1.1.0b4-1.3.noarch.rpm"
-RPM_HASH = "17cf07d7bbcf6920feda3fd0b747e64e7e20234f096a506be3680f440ce372bbf893ab6270380455c98ec0625682929b1373c58f839f2d00d8924156fb3f6f5a"
+RPM_NAME = "python311-azure-mgmt-policyinsights-1.1.0b4-1.4.noarch.rpm"
+RPM_HASH = "04f61626f2d18147ae3296dde73b7c3c5b7b2ac9d34ce691a5a5d31dfb941ab10cf29dfb40a0007b6534386a3fa6f3ca6fdef201089b7cf07a1cde78a9c032e8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-policyinsights \
+RPROVIDES:${PN} += "python3-azure-mgmt-policyinsights \
+python3.11dist-azure-mgmt-policyinsights \
 python311-azure-mgmt-policyinsights \
 python3dist-azure-mgmt-policyinsights"
 

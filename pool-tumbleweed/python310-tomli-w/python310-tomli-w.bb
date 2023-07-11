@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python310-tomli-w-1.0.0-3.1.noarch.rpm"
-RPM_HASH = "2602ee172c003926a1447e0e6e88e1677d1680c54618087aee5ea4b0ceb3b3374e681675ff91f92576fc229b6069629fe69584343ee7a215d2233c2faeb53bc1"
+RPM_NAME = "python310-tomli-w-1.0.0-3.3.noarch.rpm"
+RPM_HASH = "5e8792a3440bf6a31580cb820d80ce1a05673129818f47c6cb9e915edcc98b4b5f3ebe106ae095b0be7f144bb8b9f73a344cd63b4edfd78065901fd23a8940f6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-tomli-w \
-python3.10dist-tomli-w \
+RPROVIDES:${PN} += "python3.10dist-tomli-w \
 python310-tomli-w \
 python3dist-tomli-w"
 

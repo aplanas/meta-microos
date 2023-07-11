@@ -12,8 +12,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.8.6"
 
-RPM_NAME = "arm-trusted-firmware-tools-2.8.6-1.1.aarch64.rpm"
-RPM_HASH = "bc3619835e165b6e56e2da442bbc30635db381a638494c852087ebc68ca3cc26b170064591bd123f340226b1f7812ee800d6d6a0d7a0a573fb19524afe1a08a7"
+RPM_NAME = "arm-trusted-firmware-tools-2.8.6-1.2.aarch64.rpm"
+RPM_HASH = "11a626fa3133c986250d71bd5189a9b1925cd0941d7493af14be17cea6bc5f2f2014556eb144905c44afb28682c9811a42fd88e5e8cc844f883a51f084b5d224"
 
 RPROVIDES:${PN} += "arm-trusted-firmware-tools"
 

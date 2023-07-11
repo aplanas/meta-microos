@@ -2,13 +2,13 @@ SUMMARY = "Haskell easy-file profiling library"
 DESCRIPTION = "This package provides the Haskell easy-file profiling library."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.2.3"
+PV = "0.2.5"
 
-RPM_NAME = "ghc-easy-file-prof-0.2.3-1.3.aarch64.rpm"
-RPM_HASH = "539ab988af36f9650c9c925af449eaced8a16b7727b4ccf03b7d859f0e53b65ae3fe005b2e59f7337a8bf3a25698ae33b0ed4bf777a6f0bc772b69342ab433b2"
+RPM_NAME = "ghc-easy-file-prof-0.2.5-1.3.aarch64.rpm"
+RPM_HASH = "b2b2fca0d477dcea651beee11c4f20b0ae5559c8c32117d787610230fd1f4102afc7e1071f2321f58ded61e1d7865e90560c7cd89a9c5391eeb20d811684ee16"
 
 RPROVIDES:${PN} += "ghc-easy-file-prof \
-ghc-prof-easy-file-0.2.3-Bwh7vXkS9r2GpL1fsuKjo4"
+ghc-prof-easy-file-0.2.5-Eune3nGPx4BABAmiN3TyxF"
 
 RDEPENDS:${PN} += "ghc-easy-file-devel \
 ghc-prof-base-4.17.1.0 \

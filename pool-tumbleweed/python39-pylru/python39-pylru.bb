@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.2.1"
 
-RPM_NAME = "python39-pylru-1.2.1-1.3.noarch.rpm"
-RPM_HASH = "2fed5e4afb6e2c16466e390b591826c90e716b7de377a5a126514748caa93eaacf626ec1a7f10de19ca06a84b2c9fb7ac16003f3bf93f93b20541b7d1ef14092"
+RPM_NAME = "python39-pylru-1.2.1-1.4.noarch.rpm"
+RPM_HASH = "4992fcb7f5a704ebe929dc75209074f028576503e1e89ca9227bb6fed319a27c6d548112b34de2fe0456133f144115664d967e3f862f8cb809bb01cd007bc3fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pylru \

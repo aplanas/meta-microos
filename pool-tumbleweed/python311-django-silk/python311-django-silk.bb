@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "5.0.3"
 
-RPM_NAME = "python311-django-silk-5.0.3-1.4.noarch.rpm"
-RPM_HASH = "b073e1cbd6c82ed655c870e10e6538374f9cf3a934330b7dca9801cb09a6d5c7732a1b3b11289556e164d4eccdbbf150d50a85e89a5aa6b677691bb2a24a6e92"
+RPM_NAME = "python311-django-silk-5.0.3-1.6.noarch.rpm"
+RPM_HASH = "db97a1edfe1fd33927844ab4e99950174c9ce052ffb756f035220c64e0d1d2901996b66517ae0197f20a9b55180794142accd53b29204df4d610dd9147c07699"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-django-silk \
+RPROVIDES:${PN} += "python3-django-silk \
+python3.11dist-django-silk \
 python311-django-silk \
 python3dist-django-silk"
 

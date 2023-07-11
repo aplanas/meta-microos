@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "9.2.6"
 
-RPM_NAME = "vtk-openmpi2-qt-9.2.6-2.2.aarch64.rpm"
-RPM_HASH = "f1bc944f4554e71c993960127080dd58ebdb39847f1109de62c0b6e3b84c5f39e93bf9c341f1db927a773ccac749d46b6845671c64e5afbcb44a3f2f64051299"
+RPM_NAME = "vtk-openmpi2-qt-9.2.6-2.5.aarch64.rpm"
+RPM_HASH = "7f77804e09ce29a7e968feb1cff53484481f33f16b6c43c90777cf4417486be1bb4b6cc6a4809866a71e998dd53d6b1da4f1e3737121881a006cc3312d8ef907"
 
 RPROVIDES:${PN} += "libqmlvtkplugin.so \
 libvtkGUISupportQt.so.1 \

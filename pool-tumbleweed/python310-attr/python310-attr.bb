@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.3.2"
 
-RPM_NAME = "python310-attr-0.3.2-1.4.noarch.rpm"
-RPM_HASH = "6e6dc18387bc49aefcfc8497751e89bb0f4170616f5e1889787c97fbbb4ee055920ddc0f1c5b7e9e644a236e657779b7b12ab3c8f0a6a64fdb8df82aa764cfb5"
+RPM_NAME = "python310-attr-0.3.2-1.5.noarch.rpm"
+RPM_HASH = "82ddc2fb00bd6f125e6f4afd7070ad1c3463ba8c0314e49d6a35fb8944d0e888ca59927eef2ec86c531e08e3f74a8cc532847d8f8e59e2e32b18fe4f7734dc10"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-attr \
-python3.10dist-attr \
+RPROVIDES:${PN} += "python3.10dist-attr \
 python310-attr \
 python3dist-attr"
 

@@ -20,8 +20,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.6.8"
 
-RPM_NAME = "netsniff-ng-0.6.8-2.3.aarch64.rpm"
-RPM_HASH = "fa4ca8c5c867f9c877bef687b310ba3788d13b78acd59e69530aedac3030297267c00affeeea5abe1c23a56a348900c9059fa14ba4153dd2e50320b5b2d2dffd"
+RPM_NAME = "netsniff-ng-0.6.8-2.4.aarch64.rpm"
+RPM_HASH = "6ebbf47b4f81dc5eb13929c3c8f6563ad0fe01d0cadac8ab1823410c758f4d77ff6576353d705364e6504b7fe698760a05c169b866cc2ec1633a1b9e2dff652f"
 
 RPROVIDES:${PN} += "config-netsniff-ng \
 netsniff-ng"

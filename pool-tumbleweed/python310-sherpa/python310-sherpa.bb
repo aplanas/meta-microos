@@ -6,11 +6,10 @@ LICENSE = "GPL-3.0-only"
 
 PV = "4.15.1"
 
-RPM_NAME = "python310-sherpa-4.15.1-1.1.aarch64.rpm"
-RPM_HASH = "a72e84a560aad8142bd53c86c743aba12f7d33695c7c18b2907b518ea07044e20e84a7a2c729016c4fcff1e4c3464b776ce695c06fb67302b90f549b8ac6a8d4"
+RPM_NAME = "python310-sherpa-4.15.1-1.2.aarch64.rpm"
+RPM_HASH = "3623fd33c8be4420b9f49290edf9a250b405435a620b630912250e9112a34d0ae72acd009d0efcc455b3d92bb6848662122949881a47e0b05d62500a7a99211e"
 
-RPROVIDES:${PN} += "python3-sherpa \
-python3.10dist-sherpa \
+RPROVIDES:${PN} += "python3.10dist-sherpa \
 python310-sherpa \
 python3dist-sherpa"
 

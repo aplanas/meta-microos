@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.2.48"
 
-RPM_NAME = "ruby3.2-rubygem-yast-rake-0.2.48-1.1.aarch64.rpm"
-RPM_HASH = "6a3e3b82480d5c8e39aefa14a79d7fbdcd9cff7bd2b962278cb1280867f7e8c7e09da58d16aa910fce5923cdf121c830969b3af2e09c95b30e2b6b05023e8c37"
+RPM_NAME = "ruby3.2-rubygem-yast-rake-0.2.48-1.2.aarch64.rpm"
+RPM_HASH = "445b155ff7ad7ce4f352def1380c26dd253bf91089a603b224b78152b52c41abe29514f5b27a6b9d51d6925c09222f32bd30f605950ba464f2e8924b0cbfafb1"
 
 RPROVIDES:${PN} += "ruby3.2-rubygem-yast-rake \
 rubygem-ruby-3.2.0-yast-rake \

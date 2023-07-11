@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-qmllocalstorage-devel-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "553ed650ec5d83ffc0485161c5f851e5cc7d6359398893360394d6362386e5828ef1aa004eee8d6656215b66001ec0eb06102f970c534dd76d4ef52938c04f36"
+RPM_NAME = "qt6-qmllocalstorage-devel-6.5.1-1.3.aarch64.rpm"
+RPM_HASH = "4560660ecb69028f1ab6367e7b97fe6b9e8cde7524a19a2544eabe4617d35fb5502170397e6773df14ccfe0ef43be26b8dd30d374890e7bd90a33bbdb2d0b5fc"
 
 RPROVIDES:${PN} += "cmake-Qt6QmlLocalStorage \
 pkgconfig-Qt6QmlLocalStorage \

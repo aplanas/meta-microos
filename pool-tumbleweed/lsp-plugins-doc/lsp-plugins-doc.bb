@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.2.7"
 
-RPM_NAME = "lsp-plugins-doc-1.2.7-1.1.noarch.rpm"
-RPM_HASH = "a6bf2ce968ca01bf06f5f90ff87b4d36edea100a21d43dd72af557fc627f939ae5cf71cbe555784e1d7bb0122876e04f89e238c3bf449b11a64f70988231858e"
+RPM_NAME = "lsp-plugins-doc-1.2.7-1.2.noarch.rpm"
+RPM_HASH = "10220d3194e2906cd7d5e6228cc95f11ba3ff09e062e25b9b33f9db36adfef523edf40ce5de84b38fe826bcd08562a5dbe672ee44e87e3202d04d8f6cf9437fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lsp-plugins-doc"

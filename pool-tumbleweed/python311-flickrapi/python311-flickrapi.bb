@@ -7,11 +7,12 @@ LICENSE = "Python-2.0"
 
 PV = "2.4.0"
 
-RPM_NAME = "python311-flickrapi-2.4.0-3.4.noarch.rpm"
-RPM_HASH = "25bff7324e209fb8b9fc77e79481d82b86aaf938296eb96013365ed5e906831e1bf9ae23bbc19feeab24a7e62298f50bd4fea476eea2eb52f8ebcb1c2aeee8b6"
+RPM_NAME = "python311-flickrapi-2.4.0-3.6.noarch.rpm"
+RPM_HASH = "b30b843c553f0f888b1244fdacb5a53561b10211054f01e4416e8c53141c8997ba8aff6ae4ae02ac473b3dfbf66a642820d2ef231375a5e28f7eac064ea36903"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-flickrapi \
+RPROVIDES:${PN} += "python3-flickrapi \
+python3.11dist-flickrapi \
 python311-flickrapi \
 python3dist-flickrapi"
 

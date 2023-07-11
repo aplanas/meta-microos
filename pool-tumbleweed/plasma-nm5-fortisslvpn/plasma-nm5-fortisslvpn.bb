@@ -2,10 +2,10 @@ SUMMARY = "FortiGate SSL VPN support for plasma-nm5"
 DESCRIPTION = "FortiGate SSL VPN plugin for plasma-nm components."
 LICENSE = "(GPL-2.0-only | GPL-3.0-only) & (LGPL-2.1-only | LGPL-3.0-only)"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "plasma-nm5-fortisslvpn-5.27.5-1.1.aarch64.rpm"
-RPM_HASH = "0c0c50ea69ecd9afa72862d7e77c944517ea6bda1bb9b2b9dcfa04fdde98c6d5cf686362d323158c557757a0067ac24d17ebfa90dbce5e61136c0295c4793909"
+RPM_NAME = "plasma-nm5-fortisslvpn-5.27.6-1.1.aarch64.rpm"
+RPM_HASH = "7d07938b6ed8136ebe9268e90f5a9f1a059776c5b2b29aed0e7423b6e929ed105988913ac3375bcf975e51614d2d644f2036b28599f2e89a99fd2604e4a06b45"
 
 RPROVIDES:${PN} += "NetworkManager-fortisslvpn-frontend \
 plasma-nm5-fortisslvpn"

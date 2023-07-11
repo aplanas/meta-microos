@@ -10,14 +10,14 @@ LICENSE = "BSD-3-Clause"
 
 PV = "9.2.6"
 
-RPM_NAME = "python3-vtk-openmpi4-9.2.6-2.2.aarch64.rpm"
-RPM_HASH = "407e3b8a7b9cf40ef1924f8b8e73d369aaad835a1ab6de37a1a714403733e680e98fd827d71b1ae6d132d317a0421a91f2e8c94da4be4f0bfee3898876ffd303"
+RPM_NAME = "python3-vtk-openmpi4-9.2.6-2.5.aarch64.rpm"
+RPM_HASH = "1a49591f435363c3ac64fc47aafca67fc0f4090ca566793229002aafc4ff98d4ae2b8494bf2bfa51ee016dfe6ffae157fcffb4bf5efc810c275e3f87f2ea3b68"
 
 RPROVIDES:${PN} += "libvtkCommonPython.so.1 \
 libvtkFiltersPython.so.1 \
 libvtkPythonContext2D.so.1 \
 libvtkPythonInterpreter.so.1 \
-libvtkWrappingPythonCore3.10.so.1 \
+libvtkWrappingPythonCore3.11.so.1 \
 python3-vtk-openmpi4"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
@@ -26,7 +26,7 @@ libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
 libmpi.so.40 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libstdc++.so.6 \
 libvtk1-openmpi4 \
 libvtkChartsCore.so.1 \

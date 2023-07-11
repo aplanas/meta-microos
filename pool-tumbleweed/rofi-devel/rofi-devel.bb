@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.7.5"
 
-RPM_NAME = "rofi-devel-1.7.5-2.3.aarch64.rpm"
-RPM_HASH = "5784a3da97346a3b4cf2914e60aa435a6cedd608ae22f4ec567727ccc4037db4272d1820638cc606c63964c40a6ad12368db2c80eb4423f1ccc58898a5ff1d9f"
+RPM_NAME = "rofi-devel-1.7.5-2.4.aarch64.rpm"
+RPM_HASH = "2ff7420d0ccc07727c696e8b8cc26d76106e5374b3fd7dd4a82da54ddb9cd8437aa5ba225580fd9996b4bb4ef5850fe05ba898d2e3e86bda07f7ff96e86bce46"
 
 RPROVIDES:${PN} += "pkgconfig-rofi \
 rofi-devel"

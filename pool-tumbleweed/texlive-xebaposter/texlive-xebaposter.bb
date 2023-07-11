@@ -9,8 +9,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.2.53svn63513"
 
-RPM_NAME = "texlive-xebaposter-2023.201.2.53svn63513-52.1.noarch.rpm"
-RPM_HASH = "ab83df9ec87387945fa5c3f7f2de670c7488bd2b90c80a7ee78d5edd863c225b06bae21315eede682ebc0715ffd9955ec1780d8718f424ce7abb2d77a8c5d545"
+RPM_NAME = "texlive-xebaposter-2023.201.2.53svn63513-52.2.noarch.rpm"
+RPM_HASH = "d493030653ba0e3550dae6d79a101102a4733dd1d6b6f040309f17ad2fa7f9052cc798f10f95e51353b8f90f3b7e45d6942c3dc86ee61b145d690b14b41188ae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xebaposter.cls \

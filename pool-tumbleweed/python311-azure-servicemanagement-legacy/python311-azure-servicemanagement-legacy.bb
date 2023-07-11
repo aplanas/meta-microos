@@ -6,11 +6,12 @@ LICENSE = "Apache-2.0"
 
 PV = "0.20.7"
 
-RPM_NAME = "python311-azure-servicemanagement-legacy-0.20.7-2.11.noarch.rpm"
-RPM_HASH = "09e02c45de47671eaa98523d936aa9886c68f2ffdf1eda73dd552b59c9634c03c22d57ee755d4eec8a7a32977dc4e02e9a589651d49c42b9168cac8a4c8a0e5c"
+RPM_NAME = "python311-azure-servicemanagement-legacy-0.20.7-2.12.noarch.rpm"
+RPM_HASH = "3fd7ba9d40563bb32cab72e117bfdca62fbf8f29939a98cb95f54994c67e0bc8e7e75205b252fc5de725b2f6682c0e634e4ff3547c5dde6d1171141294d8b503"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-servicemanagement-legacy \
+RPROVIDES:${PN} += "python3-azure-servicemanagement-legacy \
+python3.11dist-azure-servicemanagement-legacy \
 python311-azure-servicemanagement-legacy \
 python3dist-azure-servicemanagement-legacy"
 

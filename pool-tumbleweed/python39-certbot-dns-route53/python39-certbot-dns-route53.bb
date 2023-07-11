@@ -4,10 +4,10 @@ dns-01 challenge by creating, and subsequently removing, TXT \
 records using AWS Route53."
 LICENSE = "Apache-2.0"
 
-PV = "1.31.0"
+PV = "2.6.0"
 
-RPM_NAME = "python39-certbot-dns-route53-1.31.0-1.3.noarch.rpm"
-RPM_HASH = "2e4cf2fde488159a15ad78210ef2f3bd1c786820c31ab4e7dc4932c2406870458f0d286d6ebdd153bd708aa75b76c1efdecee9c6f11f1b1e7b9f7f73c06d1122"
+RPM_NAME = "python39-certbot-dns-route53-2.6.0-1.3.noarch.rpm"
+RPM_HASH = "26456d5808d222dbe506874cc1c6a01d527d6f8108731974336e21ef2bd4cbccd1dc79ef63f308f25b02ba15258ebb42c246ff8bccdc01d2227c4b8246001ea7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-certbot-dns-route53 \
@@ -17,7 +17,6 @@ python3dist-certbot-dns-route53"
 RDEPENDS:${PN} += "python-abi \
 python39-acme \
 python39-boto3 \
-python39-certbot \
-python39-zope.interface"
+python39-certbot"
 
 inherit rpm

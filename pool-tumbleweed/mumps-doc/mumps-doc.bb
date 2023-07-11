@@ -14,8 +14,8 @@ LICENSE = "CECILL-C"
 
 PV = "5.3.5"
 
-RPM_NAME = "mumps-doc-5.3.5-3.3.noarch.rpm"
-RPM_HASH = "d05dca5854acf4246fd5f7daf12bfbb1afae9e2ada785de9607aec022b9c6246bb96f9d53b6fd0ddd7cd717ed4531afccf7b910b27b86dbf1b3bd39460e13e55"
+RPM_NAME = "mumps-doc-5.3.5-3.4.noarch.rpm"
+RPM_HASH = "859c6985e8b2e391bf426e94687bf3eb7d9d1dd152107469cfa8b1b5721694104d890e695ac55a83a47cbb1c1d7712672591f74b8fea6df84ded4724b007dff9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mumps-doc"

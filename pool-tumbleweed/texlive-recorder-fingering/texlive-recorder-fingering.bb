@@ -8,8 +8,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.1bsvn66008"
 
-RPM_NAME = "texlive-recorder-fingering-2023.201.1.1bsvn66008-53.1.noarch.rpm"
-RPM_HASH = "8ddafb76fbb128f17ea70182eda3f0c654105cfe5cf4833d6de5376af66d262c4002303918421379605281341f3e658770c80defeb4720199c0c0f2e918895b6"
+RPM_NAME = "texlive-recorder-fingering-2023.201.1.1bsvn66008-53.2.noarch.rpm"
+RPM_HASH = "9fd47a1eba0fe3db1f3cd647f61a4982668bedc5d287c9ebd7189d796473cee48d98d19773ab98b62db2a1f306576472ee3de7e6755f8000e3c02f2f032f84c5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-recorder-fingering.sty \

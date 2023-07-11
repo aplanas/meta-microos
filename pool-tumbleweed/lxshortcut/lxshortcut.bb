@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.3.2"
 
-RPM_NAME = "lxshortcut-1.3.2-1.12.aarch64.rpm"
-RPM_HASH = "085521904c809a2f50c7e733a49f2767f63e1aaef5ddc88304a87ecc15ce85555b8fcab67b44ed222fa5d3e1681e4630881b4ff718915d68ae7749bb4c19cdfd"
+RPM_NAME = "lxshortcut-1.3.2-1.13.aarch64.rpm"
+RPM_HASH = "42b1a3603ebe395fd9e3ffb4e9ba3df73229b4e1d41bca3a7930a8882147f868c56fb44a7967ed111f629e96cfe57461a9ee609cbae0fd46f63989b9fa920d34"
 
 RPROVIDES:${PN} += "lxshortcut"
 

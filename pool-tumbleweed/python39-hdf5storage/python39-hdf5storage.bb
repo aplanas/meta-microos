@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.19"
 
-RPM_NAME = "python39-hdf5storage-0.1.19-1.1.aarch64.rpm"
-RPM_HASH = "a815335158aac7ec83fd6096c65d7cea986e699d207ed17b76f5e9f0e46d9889da6d731e58999c393cbef46f27c6563aefd9b0140d06456912c97c02bfcbc6e2"
+RPM_NAME = "python39-hdf5storage-0.1.19-1.3.aarch64.rpm"
+RPM_HASH = "080263c40ae637a30e7312a2baf6e5a849e633d9a91e3a205aba379fa6b0f6d2694fc74462679f8d7ade5322c7004a840117275de8036f01ada908608703b625"
 
 RPROVIDES:${PN} += "python3.9dist-hdf5storage \
 python39-hdf5storage \

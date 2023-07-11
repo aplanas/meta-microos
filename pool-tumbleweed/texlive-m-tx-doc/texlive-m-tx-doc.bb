@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-m-tx"
 DESCRIPTION = "This package includes the documentation for texlive-m-tx"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.63dsvn64182"
+PV = "2023.208.0.0.63dsvn64182"
 
-RPM_NAME = "texlive-m-tx-doc-2023.201.0.0.63dsvn64182-52.1.noarch.rpm"
-RPM_HASH = "e8dca9781543cb9f571cef9248eb14a14abae71c34c792ca2c4bcef9e95f2a4223d0a99bd6f23772e9cef0bd9290bb2397e21329d81def419a1ff1007239725b"
+RPM_NAME = "texlive-m-tx-doc-2023.208.0.0.63dsvn64182-53.1.noarch.rpm"
+RPM_HASH = "fed0277c1756b1891a675684641bfe50c67216e22f307ab300abffc291d942eddcfa00f3b00a0647b0d0e95c513c2045bfa62e91ecdd90441618f0678af3e73d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-prepmx.1 \

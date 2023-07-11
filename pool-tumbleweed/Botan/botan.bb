@@ -7,8 +7,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.19.3"
 
-RPM_NAME = "Botan-2.19.3-1.4.aarch64.rpm"
-RPM_HASH = "06191a7076e79dcf3e54f58c03f9a1710bf8609caaf47ed5a16157e1b40f0ae1abcbec9bf72222b82a83b4cff0f3182b2116e648cf8da4e0461b26a655ba4468"
+RPM_NAME = "Botan-2.19.3-1.6.aarch64.rpm"
+RPM_HASH = "7fcb6c6b3b652d767bc659a21a88f594d4834284eed28267115cffa8432a4e60b59eca4c1c4ead1bcf2d89bcd2b416cbbf06d75c3af9b2fe9a2b53f21c58ba90"
 
 RPROVIDES:${PN} += "Botan"
 

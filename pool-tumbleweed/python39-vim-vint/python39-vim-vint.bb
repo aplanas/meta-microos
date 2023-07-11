@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.3.21"
 
-RPM_NAME = "python39-vim-vint-0.3.21-5.5.noarch.rpm"
-RPM_HASH = "58b30de12cea9e1fc4f0dfd05a954e5a45227ddaf4ae98ead51027bdc6a17f0ced050f0c45ba1acfe41d53565adfc0e3f59b92277fb8e2dfbe58dcdc3242096c"
+RPM_NAME = "python39-vim-vint-0.3.21-5.7.noarch.rpm"
+RPM_HASH = "ceb1255ca4bb54d0b1045d87f550a63bf7c7f19baf19221c448c8e8dd6e89c41335ca21a7692f34faf7a7c3a82bae25530f6ccda6522c4b2af067f42d9455060"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-vim-vint \

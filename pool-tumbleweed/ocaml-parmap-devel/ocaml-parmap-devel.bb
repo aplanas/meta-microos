@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "1.2.5"
 
-RPM_NAME = "ocaml-parmap-devel-1.2.5-1.4.aarch64.rpm"
-RPM_HASH = "e1a712e3631a5cdfc4dbb6d084e9a1b3a774710c75df0c02bea274aed82eb08f293246879cfe250bfe76508a92eee8238b79b410378571ca7d268467099156c3"
+RPM_NAME = "ocaml-parmap-devel-1.2.5-1.5.aarch64.rpm"
+RPM_HASH = "03cbd9b5755d6d89e886857f869cf168db8902ab7719a1b17014ea00130cf23bff89b3afa08045e12ec60bc89f60bb8f172711e61ebe9979e48ec089acb34201"
 
 RPROVIDES:${PN} += "ocaml-Bytearray \
 ocaml-Parmap \

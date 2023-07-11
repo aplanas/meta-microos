@@ -11,12 +11,12 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "22.10.0"
 
-RPM_NAME = "mate-tweak-22.10.0-1.1.noarch.rpm"
-RPM_HASH = "9955b4359828d8454ea85a122ca7f3b581cb4ef3f62b35cf4b826d59cedf4f5616b746f61e912f7b278b8c0af258450b017997165004b715b9bb4d26cc746c30"
+RPM_NAME = "mate-tweak-22.10.0-1.2.noarch.rpm"
+RPM_HASH = "01bf5942515b363b167512a4bbf6b9d59843125396b6a56c5a5485a4b137f98f6fa539c5462311942c77b82f143044d25b17e29b01fb31b9981f3a07ede85fdc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mate-tweak \
-python3.10dist-mate-tweak \
+python3.11dist-mate-tweak \
 python3dist-mate-tweak"
 
 RDEPENDS:${PN} += "/usr/bin/env \

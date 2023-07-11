@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "8.42.3"
 
-RPM_NAME = "libframel8-8.42.3-1.5.aarch64.rpm"
-RPM_HASH = "efaa439ba8a2b8d5c58adf3767ca6410f847a798be50dede1073eb50ed6fa48b4d29da5c3b2081bd36fbb3a34ffebe419989d5d4e08c4629ae01ef018212d2fa"
+RPM_NAME = "libframel8-8.42.3-1.6.aarch64.rpm"
+RPM_HASH = "c6f694ec50fa1c05895f3c358f3334a8a6a9b0b09ecc839d1e75f9a153240561af87e1a2a1b8ec823fd51c2561ef6840ede466e29ad68c1eca8eebaaab29911a"
 
 RPROVIDES:${PN} += "libframel.so.8 \
 libframel8"

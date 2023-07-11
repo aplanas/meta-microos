@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.0.5"
 
-RPM_NAME = "python39-coards-1.0.5-2.14.noarch.rpm"
-RPM_HASH = "082db8f3aba3f05e4254f340be37ffce9cc70a610c396917b67d67832e36a56735a792ee5d9b9cbc3099c5b560131399ec54c37d26d31dd8f6caac888559c5f0"
+RPM_NAME = "python39-coards-1.0.5-2.15.noarch.rpm"
+RPM_HASH = "dc1533f83f4480a290b607967ebc92e6b742f40107dcc22ada2bdf574a83f83c1e855545275939279d13cef592227c3ea6bc4ba6f69a53cd3646363d345a363e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-coards \

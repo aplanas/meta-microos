@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.9.2"
 
-RPM_NAME = "python310-PTable-0.9.2-2.11.noarch.rpm"
-RPM_HASH = "dae17038c94906d9c0e56fa3dc6ea2e189d419b2edb7286c7c43a7a2510774348b0e482c415268c22d5306afb78f32f7bf3eeb36746a244b9a53acf799a3d29a"
+RPM_NAME = "python310-PTable-0.9.2-2.12.noarch.rpm"
+RPM_HASH = "840507c06658a0bed1ac2a9d29db55cde4ec0ba1402a3a2e701953b11e66eccba8993783480628c6d796d24dcb2529ceabfa7e9f460b328cb8c6509e86bf503e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-PTable \
-python3.10dist-ptable \
+RPROVIDES:${PN} += "python3.10dist-ptable \
 python310-PTable \
 python3dist-ptable"
 

@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0 & MIT & xpp"
 
 PV = "2.1.1"
 
-RPM_NAME = "plexus-component-metadata-2.1.1-4.1.noarch.rpm"
-RPM_HASH = "5212845884647a086f5bf5053e3ef73947154caca2891e31dfc0b0e15bccc00b0853d65990b12bfeb7f5257e8f75e04a03c5663d3f1a5c70f48db7223d2fa68e"
+RPM_NAME = "plexus-component-metadata-2.1.1-4.2.noarch.rpm"
+RPM_HASH = "fb5a409846a9250787fc0949d8351b2c252fcc8dc6ca0cb3456efdff54d87ebdfff50b834515bb7597c5ca8c525cd4608746e9a6b27139b6c91b508101754344"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.codehaus.plexus-plexus-component-metadata \

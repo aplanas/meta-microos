@@ -45,8 +45,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.050000"
 
-RPM_NAME = "perl-Sub-HandlesVia-0.050000-1.1.noarch.rpm"
-RPM_HASH = "c6752791bae68c78ad01dcb154b4d4279ace1eb6d57775b52416a26144df172960a246cb77575162e5975d258cf9e196a4f954473cbec230ea0ded855a8a188d"
+RPM_NAME = "perl-Sub-HandlesVia-0.050000-1.2.noarch.rpm"
+RPM_HASH = "0c6ca5b3127f7ca83a3da38745771030963af87d68150c861ef8bdc3579ced524b007ec26eedef4f35795d6a8615ecbea3bac9d17afc8650faac1df4a07c26f4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Sub--HandlesVia \
@@ -80,7 +80,7 @@ perl-Sub--HandlesVia--Toolkit--ObjectPad \
 perl-Sub--HandlesVia--Toolkit--Plain \
 perl-Sub-HandlesVia"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Class--Method--Modifiers \
 perl-Exporter--Shiny \
 perl-List--Util \

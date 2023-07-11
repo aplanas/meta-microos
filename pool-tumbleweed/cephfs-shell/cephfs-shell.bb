@@ -6,14 +6,14 @@ LICENSE = "LGPL-2.1 & LGPL-3.0 & CC-BY-SA-3.0 & GPL-2.0 & BSL-1.0 & BSD-3-Clause
 
 PV = "16.2.13.66+g54799ee0666"
 
-RPM_NAME = "cephfs-shell-16.2.13.66+g54799ee0666-2.1.aarch64.rpm"
-RPM_HASH = "f89d176ca7b3f7ab3fc8b308ec3181b28ddce0a18668d91b513318e32ce55d4f873e8ee8f5830f6466fc6a4cb2cc12cedbed6bbf563050091e544bd6692254b3"
+RPM_NAME = "cephfs-shell-16.2.13.66+g54799ee0666-3.1.aarch64.rpm"
+RPM_HASH = "7ddab129f7e3e499c774cbb3b3adf101404fce1170acd683c6ed03ca4f4efdb9796b40f7292841d457ea737d866b852e6b4650eefb3f3d450d17ae4472132ac6"
 
 RPROVIDES:${PN} += "cephfs-shell \
-python3.10dist-cephfs-shell \
+python3.11dist-cephfs-shell \
 python3dist-cephfs-shell"
 
-RDEPENDS:${PN} += "/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
 python3-cephfs \
 python3-cmd2 \
 python3-colorama"

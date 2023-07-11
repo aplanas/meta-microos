@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.0.6"
 
-RPM_NAME = "zynaddsubfx-common-3.0.6-3.1.noarch.rpm"
-RPM_HASH = "071ad3a684209d0ccd3b975751534089e37e0a5a412e2595c5530dee31d391205549306549e5023f4ebaafc4c8571da786bbd37ff5072e8e2d262afbee80852e"
+RPM_NAME = "zynaddsubfx-common-3.0.6-3.2.noarch.rpm"
+RPM_HASH = "1af18c5e976ab565bf017f6089c975909daf4045e86076d7a5588e28e05f41e86a5959cffee5f5e1027a7714e6aaa937b190a6611e4d162d50ff2d3bab7d379f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ZynAddSubFX-common \

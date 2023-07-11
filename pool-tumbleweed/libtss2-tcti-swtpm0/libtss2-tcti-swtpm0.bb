@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "4.0.1"
 
-RPM_NAME = "libtss2-tcti-swtpm0-4.0.1-1.3.aarch64.rpm"
-RPM_HASH = "a7f2a753d78276b179f75f0fa8de0ef2b1648b78dfd6ab341cc7c22ba011b524d1ea698e37c69b534dac4af1cb4c208585319766986455cf9a91a9a60575adc0"
+RPM_NAME = "libtss2-tcti-swtpm0-4.0.1-1.4.aarch64.rpm"
+RPM_HASH = "907f7e7eb116c9fc194fe5e1f85ac35a80e3db6e72f605be9154061efaeedd9ecf76959d756e420f9fbcca9a9401fcc862b292c862545518b8bb9e633c496606"
 
 RPROVIDES:${PN} += "libtss2-tcti-swtpm.so.0 \
 libtss2-tcti-swtpm0"

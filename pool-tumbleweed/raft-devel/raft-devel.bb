@@ -11,8 +11,8 @@ LICENSE = "LGPL-3.0-only-with-LGPL-3.0-linking-exception"
 
 PV = "0.17.1"
 
-RPM_NAME = "raft-devel-0.17.1-1.3.aarch64.rpm"
-RPM_HASH = "66bf3869156da979ffdddf997da6e934b30cc00498b730652532c7a408b806ac27c2b9d0dd9f262081cfc4eed175a6be62d7e562f8a60a2339f44dff356e9448"
+RPM_NAME = "raft-devel-0.17.1-1.4.aarch64.rpm"
+RPM_HASH = "7eb5b0a8acb89a1c7b4715a2c200f27e89feca5ad2681bd1ea1d77fca5539ace966bb5c11dfbbe49d2d8beb756e5760cc8367348441583482387f814337b0c8d"
 
 RPROVIDES:${PN} += "pkgconfig-raft \
 raft-devel"

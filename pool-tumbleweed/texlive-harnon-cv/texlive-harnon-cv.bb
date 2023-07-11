@@ -5,8 +5,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2023.201.1.0svn26543"
 
-RPM_NAME = "texlive-harnon-cv-2023.201.1.0svn26543-53.1.noarch.rpm"
-RPM_HASH = "02e3011a1ce0d76f1623933ed16d98d45df86ab52091cd4c1b0de963f07306c4a00eca56ef48f18e06dd1d62a8063d0abd6d0bbb4066f02a4c6d5e89c39444ec"
+RPM_NAME = "texlive-harnon-cv-2023.201.1.0svn26543-53.2.noarch.rpm"
+RPM_HASH = "b460910220f0c83760ac1aab570991dc1fdba90b6d3f8be64b473e7eb4ea1f9fa68d279350cb198ea72457e3f85f30e7bde6606ee30c177c9c3f5e259c2aceb8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-harnon-cv.cls \

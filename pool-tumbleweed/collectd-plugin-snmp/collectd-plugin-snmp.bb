@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & MIT"
 
 PV = "5.12.0.134.g4cebbfc"
 
-RPM_NAME = "collectd-plugin-snmp-5.12.0.134.g4cebbfc-1.4.aarch64.rpm"
-RPM_HASH = "ea8f271e1f41749c606a7b15e5c0ca4b97b76708903195b8c309c1700fe054f01b2db939d0eb6611919d9123337b589a6e94030cffdfd8646022e773d5453e74"
+RPM_NAME = "collectd-plugin-snmp-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
+RPM_HASH = "f8c899cfe02965bf9124214f1f0de65c12f659cf71ab74bb406e7d7231930d6b551e2867ef4913e315958edfc270e23f105a0b517da785c2ccd9ececa92bc87a"
 
 RPROVIDES:${PN} += "collectd-plugin-snmp"
 

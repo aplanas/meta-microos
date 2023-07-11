@@ -3,10 +3,10 @@ DESCRIPTION = "Four wins is a two-player board game where you have to align four
 (gravity-affected) pieces of the same colour to win."
 LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kfourinline-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "0ac0de27029ceca12a79c8b9777dd3f595e5f5d3c10a68d09e4b6a5c893abc33c7e8c7edf1f752d8cbd4dc088bfb6ba63b3421951664ae4a0da74fd95fe60833"
+RPM_NAME = "kfourinline-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "cd7272d4381defd20ea6b3587f951d4f5a860f1b8bd657d56aa62dbe4ee6de09fe03389a1db97a0f141341d43660ca3cf5014d1d0bf26b3c60ff619f37306a53"
 
 RPROVIDES:${PN} += "kfourinline \
 kfourinline5"

@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "1.0.4"
 
-RPM_NAME = "ghc-lpeg-1.0.4-1.3.aarch64.rpm"
-RPM_HASH = "8c9a83fb77f73d42ecc6a91a96b8e546c49d7c8cac11f5ea13b3adf463a057af51f464d2a16b3204ab77fda0569084c09d9d99ae0af263f979f23d9b507d266f"
+RPM_NAME = "ghc-lpeg-1.0.4-1.4.aarch64.rpm"
+RPM_HASH = "56fffc3f960d979dd0ed4e83a81c031973e9eb7e2c69efde65df853df5331d8f7c60d6abc865c4a3fcbab2520224f159036e90dba3547479a14c5dae67c2a9c0"
 
 RPROVIDES:${PN} += "ghc-lpeg \
 libHSlpeg-1.0.4-IadFjeA522fGKCuUXCvVP9-ghc9.4.5.so"

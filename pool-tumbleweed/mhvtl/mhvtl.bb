@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.70_release+865.af13081a1ae5"
 
-RPM_NAME = "mhvtl-1.70_release+865.af13081a1ae5-2.23.aarch64.rpm"
-RPM_HASH = "b023915c4dba44387bbf54365385fb823e70a53c5eb0c46cf35e3c1eea52f4b3b1e543768eae8565d02003f8a06325c857f70ae1bb96b53e6fbe393551eb2c8b"
+RPM_NAME = "mhvtl-1.70_release+865.af13081a1ae5-2.29.aarch64.rpm"
+RPM_HASH = "b321098decef706b0a9120149b40d9722458383c6241240302329ce3c82ddd6870286a35cdc1313fa8f876c4e9d4a9289c2fd98b96be2dee0f6dfe23f79a662e"
 
 RPROVIDES:${PN} += "config-mhvtl \
 libvtlcart.so \

@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.0.17"
 
-RPM_NAME = "xf86-video-nouveau-1.0.17-4.4.aarch64.rpm"
-RPM_HASH = "2dafd64c08959cddc0cefc2337fef1829478a955857d05042b5defa01d5c2b3b1c56042ddb3ed9d7b850fe6acce68cd1c76505c4c88f67bebb1289ae1493c202"
+RPM_NAME = "xf86-video-nouveau-1.0.17-4.5.aarch64.rpm"
+RPM_HASH = "ed19474a652330affe13c5c11784346685a133b58657a0cb6ba38ff5affa158710f8f3d48ecc262ff25a0572bbd14903ac51a46c8d8ed39e397a326e1f5970b3"
 
 RPROVIDES:${PN} += "xf86-video-nouveau \
 xorg-x11-driver-video-nouveau"

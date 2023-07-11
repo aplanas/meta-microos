@@ -36,8 +36,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.2b1"
 
-RPM_NAME = "xom-1.2b1-39.6.noarch.rpm"
-RPM_HASH = "a96cbbfca04c1e67e3795eea74b7e2c884133ff02c3dffa2d60b1145ee7aca5df195ef0c03e188c9f7dbc8a28b2d7f0cfd55dfc2f820ca5e534fd120dc5ae2bf"
+RPM_NAME = "xom-1.2b1-39.7.noarch.rpm"
+RPM_HASH = "519a57eb5773fc2567f95880d02600bb81a2270f75c89d419af97cca259f3b330c999d58070bd71d6eac5f63e150164f28e0506ea598ab5b4ab7cdafc8fe02b7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-com.io7m.xom-xom \

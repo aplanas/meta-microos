@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.2.5"
 
-RPM_NAME = "soapysdr0.8-module-osmosdr-0.2.5-8.12.aarch64.rpm"
-RPM_HASH = "5c2a3c11ff1d9c96d8fe0f86b5b229019fc6a0226e4b3ef4a667c7213c8525854e52062ab5e05e393c27fbd1116e63029fc3896b4521d0b2bdd95470e4e63fa3"
+RPM_NAME = "soapysdr0.8-module-osmosdr-0.2.5-8.13.aarch64.rpm"
+RPM_HASH = "873d609955c81325c85df279ae1fc2709bfc25b72ce6ca1cd39ede59ab6e86e080292996b627644876b15932e264ed710cebbaf271218504a01edbd18f82b75d"
 
 RPROVIDES:${PN} += "libosmosdrSupport.so \
 soapysdr0.8-module-osmosdr"

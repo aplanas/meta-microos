@@ -4,18 +4,18 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.8.1.0"
 
-RPM_NAME = "ghc-cabal-install-devel-3.8.1.0-1.3.aarch64.rpm"
-RPM_HASH = "1c55915cb565c77f16d1768d039ece03f7c2e1dd28098f696263251ec43ee342a95d77ca91fdca2da9f384a66492daa5064b91cc86282fc1db2de82e710be281"
+RPM_NAME = "ghc-cabal-install-devel-3.8.1.0-1.7.aarch64.rpm"
+RPM_HASH = "52a9a892d7cee057d60f0ae2dd05aca496f48b5c0df5a5dfbebc67472d5587c1cef6275289090df3476e77dcd98f5c4f624fff03bc73b378c33974329d5c9f55"
 
 RPROVIDES:${PN} += "ghc-cabal-install-devel \
-ghc-devel-cabal-install-3.8.1.0-5UcdOch820LBdlzybhXr39"
+ghc-devel-cabal-install-3.8.1.0-EqoYmuno0LiJ3JWLtQXleA"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-cabal-install \
 ghc-compiler \
 ghc-devel-Cabal-3.8.1.0 \
 ghc-devel-Cabal-syntax-3.8.1.0 \
-ghc-devel-HTTP-4000.4.1-BsHtin5O4EoLpElKRODQk3 \
+ghc-devel-HTTP-4000.4.1-7No2v5wGQP7LivFOppGzbz \
 ghc-devel-array-0.5.4.0 \
 ghc-devel-async-2.2.4-Is3H7ZPNMkM5reIoCaqYrF \
 ghc-devel-base-4.17.1.0 \
@@ -30,7 +30,7 @@ ghc-devel-echo-0.1.4-GGh6ZLKme4z6jywDiYhFOL \
 ghc-devel-edit-distance-0.2.2.1-6sqaVuKvJlk4f2SjC0p5nu \
 ghc-devel-exceptions-0.10.5 \
 ghc-devel-filepath-1.4.2.2 \
-ghc-devel-hackage-security-0.6.2.3-Km2R5J8alEh3bTkVIJr5Mq \
+ghc-devel-hackage-security-0.6.2.3-BVLL0begiUMDlGngVjOMXt \
 ghc-devel-hashable-1.4.2.0-FFBRhuY0w4YLmuLEs5uQAt \
 ghc-devel-lukko-0.1.1.3-7Ko9x6wnjxCV3NuL9k89V \
 ghc-devel-mtl-2.2.2 \
@@ -42,7 +42,7 @@ ghc-devel-random-1.2.1.1-I0wUgAAbf0g3qHR3e8uT0o \
 ghc-devel-regex-base-0.94.0.2-8EhYuxSr6UD5zE7cP6wrkq \
 ghc-devel-regex-posix-0.96.0.1-Db56rsDUom23lFxliY5wt1 \
 ghc-devel-resolv-0.1.2.0-AYruoqdjlgt9u8SdYnpGUr \
-ghc-devel-safe-exceptions-0.1.7.3-4ydW60ruqZ4IdMpKf3b6BD \
+ghc-devel-safe-exceptions-0.1.7.4-8XVKrMBchTjCLhdcvBwBNb \
 ghc-devel-stm-2.5.1.0 \
 ghc-devel-tar-0.5.1.1-Dtsl5am3zST5LscMXaDdU8 \
 ghc-devel-text-2.0.2 \

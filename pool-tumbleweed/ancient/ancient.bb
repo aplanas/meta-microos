@@ -13,8 +13,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.0.0"
 
-RPM_NAME = "ancient-2.0.0-1.3.aarch64.rpm"
-RPM_HASH = "106fa5d5d84de9b4ac2b9798c5edb1e803ca1164b7906b54d283d871c4a76929d7053f18c9ef00b9fe58a8963c475b843e6f12aee8b301d0005dabd22cb8a4ce"
+RPM_NAME = "ancient-2.0.0-1.4.aarch64.rpm"
+RPM_HASH = "0b3a5c40b1f716bab48c967df570b86b9e26da63f43fbd0f3b2075e0e6d564f716784107dae01ee4fd8f9271663de112f9d2b1b7fe63f6af41e091baa13dd1e7"
 
 RPROVIDES:${PN} += "ancient"
 

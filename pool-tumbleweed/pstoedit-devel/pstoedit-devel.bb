@@ -2,10 +2,10 @@ SUMMARY = "PostScript and PDF converter (development files)"
 DESCRIPTION = "PostScript and PDF converter development headers and library files."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.78"
+PV = "4.00"
 
-RPM_NAME = "pstoedit-devel-3.78-2.5.aarch64.rpm"
-RPM_HASH = "57fc7d2a06ab57b122d275699a669fa7229ed37dc5f4eb3dc623adc0acafb0a4b6c341fa9ce2f28f26dd01bdf3a1430ffd2784af6596aed7026525c2b522b4d0"
+RPM_NAME = "pstoedit-devel-4.00-1.1.aarch64.rpm"
+RPM_HASH = "de5cb02ef56472d64a6ffd2788e5956c475dcd242fafed9633c69414b4aa615331dbe7913de4267b658ccfa840fb5e492afdb3f96478b84a72492ea9133a90d0"
 
 RPROVIDES:${PN} += "pkgconfig-pstoedit \
 pstoedit-devel"

@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0 & W3C & SUSE-Public-Domain"
 
 PV = "1.4.01"
 
-RPM_NAME = "xml-commons-apis-1.4.01-4.6.noarch.rpm"
-RPM_HASH = "57836177e028287d2e0dc9703d45db4d67fb46af560f64d50572bd7ddc7aba42c9aacefd3795eab4bee0ba0214317125e505e35e43c1f6678d08adfd71e70c8b"
+RPM_NAME = "xml-commons-apis-1.4.01-4.7.noarch.rpm"
+RPM_HASH = "9f3b4faf445b44dc2df6da747e3f73843d9914af8262508e216d9ba14dd3c01fb0f5135105d02949d30a1b4ce0b3eae9e32d6745012fa1d9eafc140684a45eb6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-xerces-dom3-xml-apis \

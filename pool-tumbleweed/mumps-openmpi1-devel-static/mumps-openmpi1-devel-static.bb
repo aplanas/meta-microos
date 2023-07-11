@@ -9,8 +9,8 @@ LICENSE = "CECILL-C"
 
 PV = "5.3.5"
 
-RPM_NAME = "mumps-openmpi1-devel-static-5.3.5-3.3.aarch64.rpm"
-RPM_HASH = "91be4c67a78a238579e56b7a4bd7d35adaa098d20b0a64ec0d7c521642111e28ddae2cadc5696dca8ca3648523a612613fd43605cd3e241685e4e821cbb3f114"
+RPM_NAME = "mumps-openmpi1-devel-static-5.3.5-3.4.aarch64.rpm"
+RPM_HASH = "b6d0d6b9bae96efa10d2cc95c26c30f2a58acd88e4be6e418fb53807bee7fa8d3dfb9fb18fda6ded73a0962d4fd14650f30fd41a4e8aacf18d8788764e34d0ec"
 
 RPROVIDES:${PN} += "mumps-openmpi1-devel-static"
 

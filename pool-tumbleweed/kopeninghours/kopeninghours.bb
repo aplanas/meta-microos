@@ -2,10 +2,10 @@ SUMMARY = "OSM opening hours expression parser and evaluator"
 DESCRIPTION = "A library for parsing and evaluating OSM opening hours expressions."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kopeninghours-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "e4eeef72888f4538da9dc8caa582c488b6de568a56dd61bc89b346a7528a6f7612c7292e1648a6d9f1d8b459a4b988e95f5583b5dcdde1ea77a90fbe6bfc4fd3"
+RPM_NAME = "kopeninghours-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "93813d189204653833d76d98ab149eb9ed912f09d2decb05c7b9bde05125de16673bc8bda075f9450097dadbad9d94ab65833c844d76edaff111d8ed35c6341b"
 
 RPROVIDES:${PN} += "kopeninghours \
 libkopeninghoursqmlplugin.so \

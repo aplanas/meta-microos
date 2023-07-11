@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.201.1.1svn32003"
 
-RPM_NAME = "texlive-harveyballs-2023.201.1.1svn32003-53.1.noarch.rpm"
-RPM_HASH = "6785ae4546b9a8e81c7b40df81090c9248964b07e33fc1bcfb9f7d4319afaecb51e0d80cb00bb541429e2fe32390f829c8b4dd6f9c9cd5a615cc8a2fac4cc2e4"
+RPM_NAME = "texlive-harveyballs-2023.201.1.1svn32003-53.2.noarch.rpm"
+RPM_HASH = "9dd123613d58ddb2ed590d0fac672a7b84de24c92adbb643d6b4535084ebea539182d37d296af4550d7587364900ff01c3554ea29ed968a6e5befcd8dc67e118"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-harveyballs.sty \

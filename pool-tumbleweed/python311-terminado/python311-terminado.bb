@@ -9,11 +9,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.17.1"
 
-RPM_NAME = "python311-terminado-0.17.1-1.3.noarch.rpm"
-RPM_HASH = "d51948543d1e92cf03192a7d1479f637ada00dfcdd9efce07b04352bf2c59e73aae6466a9c5e4dd7aa8cc6e8ab987835a137a07d08a28220fe3329aed3922a2e"
+RPM_NAME = "python311-terminado-0.17.1-1.5.noarch.rpm"
+RPM_HASH = "ba73b05c1b810d156a6cb4740dd578042fc76a9799e75ccfbbeb9b29317820b99a268974bbd422ee154cc79ac5ebab9afdc93c93ecc3df24d409af9b098c8fc6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-terminado \
+RPROVIDES:${PN} += "python3-terminado \
+python3.11dist-terminado \
 python311-terminado \
 python3dist-terminado"
 

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.94.2"
 
-RPM_NAME = "fprintd-pam-1.94.2-2.4.aarch64.rpm"
-RPM_HASH = "91d0773ee7ed1307180507107e868dd22a9ff965ec49da85d428d99684c71c533b043c7e3913ab2c6dfaf38f3521ca4cfb5ca3e5fa4d0f0790ae39353cc33ac6"
+RPM_NAME = "fprintd-pam-1.94.2-2.5.aarch64.rpm"
+RPM_HASH = "b92b33a0770171a27371bfabb2aafeb74c5f7b5d8d1e331174489bf799dd2793b537827795f8fe30c20daeb7f7de75f2c48b2818039737d66f3cd7bc8a8f5630"
 
 RPROVIDES:${PN} += "fprintd-pam \
 pam-fp \

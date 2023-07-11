@@ -8,12 +8,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.1"
 
-RPM_NAME = "python310-asdf-wcs-schemas-0.1.1-1.7.noarch.rpm"
-RPM_HASH = "d1b2c96d6ce15dd81ecac02e87e1bd500da672644ba781e914bfac0f21adf1ec24034563cb433f1d1ba25a5dc7626831744f5df663a74048899d22a3e8cf3b0c"
+RPM_NAME = "python310-asdf-wcs-schemas-0.1.1-1.9.noarch.rpm"
+RPM_HASH = "972431ec0e1a293f43f6af16e46b1f510c15837887a25128d6425f249606b139bf37ac04b46312c0ef5ee30f4cc6a98352139d4142a82d8fc8cc4575ad8e86fb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-asdf-wcs-schemas \
-python3.10dist-asdf-wcs-schemas \
+RPROVIDES:${PN} += "python3.10dist-asdf-wcs-schemas \
 python310-asdf-wcs-schemas \
 python3dist-asdf-wcs-schemas"
 

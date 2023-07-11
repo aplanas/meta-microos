@@ -3,10 +3,10 @@ DESCRIPTION = "This tool will profile official instances of OpenSUSE mirrorcache
 fastest repositories for your system 🧙"
 LICENSE = "(Apache-2.0 | BSL-1.0) & (Apache-2.0 | MIT) & (Apache-2.0 | MIT | Zlib) & (MIT | Unlicense) & (Apache-2.0 | Zlib | MIT) & BSD-3-Clause & MIT & MPL-2.0"
 
-PV = "0.1.1~0"
+PV = "0.1.1~4"
 
-RPM_NAME = "mirrorsorcerer-0.1.1~0-1.2.aarch64.rpm"
-RPM_HASH = "1f6796c711b998713ffc523f8c7a0ef22f1bb5c712c4db12008d7e858fd36f51de4621632506809171c2ceb09a93b16306291cb28eee11edad1063ce1833659a"
+RPM_NAME = "mirrorsorcerer-0.1.1~4-1.1.aarch64.rpm"
+RPM_HASH = "f612d55da0b127c419fcb572bb256ce144908e28f79c23aa72c34bc6a82d4c8311f0c64c8a91b822d27c2c95856122096104466ed7edf5b6cbd140ab0e0858b9"
 
 RPROVIDES:${PN} += "bundled-rust-crate-ahash \
 bundled-rust-crate-aho-corasick \

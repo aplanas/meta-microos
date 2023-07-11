@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.4.21"
 
-RPM_NAME = "python39-xapian-1.4.21-2.5.aarch64.rpm"
-RPM_HASH = "1a5f0a3cac6b735fddc090aacc5b5494bf2a3b71e6f93f920c8a60cfada9ffd88c2b55283259f526d2df082c8b7e4184256f2caf268e73250af787e2d961c4e0"
+RPM_NAME = "python39-xapian-1.4.21-2.7.aarch64.rpm"
+RPM_HASH = "a1585f922aec1ab9e70a308d53e5028d9398514d6ed0172df575244d3d9ece1807282776fcd86a60fb89e66b3d6d93e129cfb5ed459b4ab316d8bf300bd20fd8"
 
 RPROVIDES:${PN} += "python39-xapian"
 

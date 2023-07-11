@@ -7,8 +7,8 @@ LICENSE = "CECILL-2.0"
 
 PV = "1.1.0"
 
-RPM_NAME = "scirenderer-1.1.0-6.6.noarch.rpm"
-RPM_HASH = "da3e3ad3661b67ef842811b3bc5572942a24e5ed7ec000c1bb272a0bcd6988b84384beb21b944df3e5a10875e61df40b5984f6b1d1ee79fe8e6d8158084c5be4"
+RPM_NAME = "scirenderer-1.1.0-6.7.noarch.rpm"
+RPM_HASH = "778c7892a84a93ffd62940dddbebd3dee95769a1a2c0ccac3f6947a35e0d91b5a9648f2ba8c32a6932412848586ada1b4e1d5ce1fe3d87eb5d7011da6820a914"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "scirenderer"

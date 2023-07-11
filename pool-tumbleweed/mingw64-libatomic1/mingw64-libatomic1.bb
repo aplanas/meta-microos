@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "12.2.0"
 
-RPM_NAME = "mingw64-libatomic1-12.2.0-2.1.aarch64.rpm"
-RPM_HASH = "6c43f7f433b830d3052a16a6f326962538d4d0758ff2cbff712b8aa37e68ac49e49c6be5adbb5513712e4e337d92c7fbb4fbfcb74e87ca60ddf2a45b17615704"
+RPM_NAME = "mingw64-libatomic1-12.2.0-3.1.aarch64.rpm"
+RPM_HASH = "17bffdffb30b9d569ec89a300336e66abd99366d2ecb5fa7a08a8bdce49c52fb29d0f0553abdb577651c42bf54e654ec84376eddb8336a941b15c782e4baeb23"
 
 RPROVIDES:${PN} += "mingw64-libatomic-1.dll \
 mingw64-libatomic1"

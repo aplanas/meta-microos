@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.5.2"
 
-RPM_NAME = "typelib-1_0-GstClapper-1-0.5.2-1.3.aarch64.rpm"
-RPM_HASH = "ec538064bfbc41988745c6bc9e3b8dde4d24146010a2cfff89c083e409850d2caa79d4e3a0f14f9b95670c09731c72b124d6546f9824804bd3a5151b0c2c7a72"
+RPM_NAME = "typelib-1_0-GstClapper-1-0.5.2-1.4.aarch64.rpm"
+RPM_HASH = "a9a00122275058f73fdc6cd787d6064bb17780fa7e899706a3b88c98a03c39f1c8f1f3915d6941c219004c37f197437593bfbab1e8f315d5a7d495bcddf1b622"
 
 RPROVIDES:${PN} += "typelib-1-0-GstClapper-1 \
 typelib-GstClapper"

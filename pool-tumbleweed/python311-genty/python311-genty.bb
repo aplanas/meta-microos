@@ -6,11 +6,12 @@ LICENSE = "Apache-2.0"
 
 PV = "1.3.2"
 
-RPM_NAME = "python311-genty-1.3.2-5.1.noarch.rpm"
-RPM_HASH = "e6a5f007bf4e1642a29931a664de9bb7f8f83393adb5f5bb347c6b33f64757f69d43b6bd94fd7f7616a46a304accee06b6a61c0daa1321e4605ce3c48ffff419"
+RPM_NAME = "python311-genty-1.3.2-5.3.noarch.rpm"
+RPM_HASH = "6be0b2e240c3ab9ad18dbcae33ea258d9c8cd695411fe9b350d4bdec8caa4e2054cfb1b6ad2384bcb1726b8a14fe0bf0275770129b7be745bc0e45b66bb8cc22"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-genty \
+RPROVIDES:${PN} += "python3-genty \
+python3.11dist-genty \
 python311-genty \
 python3dist-genty"
 

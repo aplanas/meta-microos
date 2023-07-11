@@ -5,12 +5,11 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.2.3"
 
-RPM_NAME = "python310-axolotl-0.2.3-2.8.noarch.rpm"
-RPM_HASH = "1abe91e1824f3c7c3137a3625fb82a1c59a680956ed543390f7f950e0881f05b8eab93c352dadc4a56be8c0ec3328097d2c295b38e39bff6fe5f7a035071d268"
+RPM_NAME = "python310-axolotl-0.2.3-2.10.noarch.rpm"
+RPM_HASH = "42abf3558c57b4b2a54b37103cbc0504ee038d8a42e97570c928694006aa944d4d638fdd7e9ae6539290aa351be6fc98c1c26715fcaee2890206ce351399b173"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-axolotl \
-python3.10dist-python-axolotl \
+RPROVIDES:${PN} += "python3.10dist-python-axolotl \
 python310-axolotl \
 python3dist-python-axolotl"
 

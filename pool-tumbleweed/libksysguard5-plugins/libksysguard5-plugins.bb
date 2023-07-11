@@ -2,10 +2,10 @@ SUMMARY = "Task management and system monitoring library -- plugins"
 DESCRIPTION = "Task management and system monitoring library. This package contains plugins."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "libksysguard5-plugins-5.27.5-1.1.aarch64.rpm"
-RPM_HASH = "89aeb517900b61e0b6bcaa64e2ffc980793d7ce1b5760dcde5632a2229bf9110590894183d2f7b816282e04ce6263a13ef4e4c3b49e07f11743506eb3afdd0b1"
+RPM_NAME = "libksysguard5-plugins-5.27.6-1.1.aarch64.rpm"
+RPM_HASH = "2ecbb2e781b5df8976d316b617b6633c34851e5af428f150425dbc8024cfde620aa20984f57d6670cf22a2807c43f27bb123c2fdc148b05418e047cce6ce024a"
 
 RPROVIDES:${PN} += "libksysguard5-helper \
 libksysguard5-plugins"

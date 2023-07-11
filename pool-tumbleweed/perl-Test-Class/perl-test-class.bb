@@ -13,8 +13,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.52"
 
-RPM_NAME = "perl-Test-Class-0.52-1.10.noarch.rpm"
-RPM_HASH = "bf62d68cf86695a946611552d72eb3fe0f16d27b227810a059716cc115d71631d989c077c172df7d4a6806e632d91ea7e9266c414a657b7c55d3b985a8de7705"
+RPM_NAME = "perl-Test-Class-0.52-1.11.noarch.rpm"
+RPM_HASH = "ef8e7a75d7e28544dec82404af2ca1445aef35a0a50f22d9143b7cba72197feacc9066666958b18f5327a59008405e2581de62b9baf33b3bb30f959e1912f925"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Class \
@@ -22,7 +22,7 @@ perl-Test--Class--Load \
 perl-Test--Class--MethodInfo \
 perl-Test-Class"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-MRO--Compat \
 perl-Module--Runtime \
 perl-Test--Builder \

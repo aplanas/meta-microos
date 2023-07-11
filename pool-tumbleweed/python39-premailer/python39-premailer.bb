@@ -7,8 +7,8 @@ LICENSE = "Python-2.0"
 
 PV = "3.10.0"
 
-RPM_NAME = "python39-premailer-3.10.0-1.3.noarch.rpm"
-RPM_HASH = "a5d8a314b1f092eea43c556de0a5cef81aff46b0f00783fbe97b9b6e910f0698e24d49fcbcc24cf6e9a211e8fac2e01e282c56416b45dda45c28de75bf06200e"
+RPM_NAME = "python39-premailer-3.10.0-1.5.noarch.rpm"
+RPM_HASH = "86719265f7f180a25050222113860ae851e3f0e4c94fa3b9ca2af55d5de794d6c2a103d38e86607e1bbb5c328c6c3bcb5e7900c65dfdcc4960aed7dc5844bfe1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-premailer \

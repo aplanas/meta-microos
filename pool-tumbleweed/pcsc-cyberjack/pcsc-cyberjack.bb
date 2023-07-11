@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.99.5final.SP15"
 
-RPM_NAME = "pcsc-cyberjack-3.99.5final.SP15-1.4.aarch64.rpm"
-RPM_HASH = "9c46fe3ce98f33de1c449220c701873a2c4f60265d9640bce555871cac3411c3ca036c8a92fe3f982c80c4984a222aaa381592d14060086c3d51e266a84b7157"
+RPM_NAME = "pcsc-cyberjack-3.99.5final.SP15-1.5.aarch64.rpm"
+RPM_HASH = "2b36420d70452cc7fa9534d46bb9f7e1e1c00d8575a208dff2e92ba922ebccb760b1473d0d56444aa0f6c5b2e3e5a7111a63b3492caf01869ebf714933f04c59"
 
 RPROVIDES:${PN} += "config-pcsc-cyberjack \
 libifd-cyberjack.so.6 \

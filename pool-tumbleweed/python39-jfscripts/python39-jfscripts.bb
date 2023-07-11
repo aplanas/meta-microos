@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "python39-jfscripts-1.1.0-1.4.noarch.rpm"
-RPM_HASH = "421cfc7f91e1f39ff22f25b70a9a41205147f0819f7d72da299036122e0e22457dea6e11fce68fe667d618b64efa3ef1a03b50fc831b023cc6f241e2ad8cbd33"
+RPM_NAME = "python39-jfscripts-1.1.0-1.5.noarch.rpm"
+RPM_HASH = "e12660487603f416699d262053ebf6c0f75d7fc2412b2f5921d2169c931783422c6cbed9278374e50ec3ea95d86af9bfdbf3cebe21d824d1d5adbb35cce280e7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-jfscripts \

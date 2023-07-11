@@ -11,10 +11,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.4"
 
-RPM_NAME = "python311-pyahocorasick-1.4.4-1.4.aarch64.rpm"
-RPM_HASH = "502acbe41ec27cdbd3bc8458ad00143ff9c34929f91ed25023720599b1ddd15ac8a2edb8c3c6711ac805c74a10ce78c5ef48ed2edd2e448cfc6921fca9c2247d"
+RPM_NAME = "python311-pyahocorasick-1.4.4-1.6.aarch64.rpm"
+RPM_HASH = "7cd244c5b7a03da148431736482ce424974416f6109554e3d44cc79527d892108ce7154c11df495e3218b1df8ec06d9dc67ea874351f92c890d029c4caf9f97d"
 
-RPROVIDES:${PN} += "python3.11dist-pyahocorasick \
+RPROVIDES:${PN} += "python3-pyahocorasick \
+python3.11dist-pyahocorasick \
 python311-pyahocorasick \
 python3dist-pyahocorasick"
 

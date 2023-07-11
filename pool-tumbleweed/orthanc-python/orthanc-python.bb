@@ -5,8 +5,8 @@ LICENSE = "AGPL-3.0-or-later"
 
 PV = "4.0"
 
-RPM_NAME = "orthanc-python-4.0-1.5.aarch64.rpm"
-RPM_HASH = "20ca34ee88948b4386ac2d064b24288dc91f80d856f0465d8a8ffad442d1c610b46c7459fbfdca12cdfff6c96702ba822f6525c9589aae161d909b889d3df9ef"
+RPM_NAME = "orthanc-python-4.0-1.6.aarch64.rpm"
+RPM_HASH = "37b27ff6692d4043e60165956a57a5218096bcfe229c9d7a91f52b177591ae4ca8b7ff24ae3973376613daa9617c9e043774e01f864ec2aaec5211dbc89b1287"
 
 RPROVIDES:${PN} += "libOrthancPython.so.4.0 \
 orthanc-python"
@@ -18,7 +18,7 @@ libboost-thread.so.1.82.0 \
 libc.so.6 \
 libgcc-s.so.1 \
 libjsoncpp.so.25 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libstdc++.so.6 \
 orthanc"
 

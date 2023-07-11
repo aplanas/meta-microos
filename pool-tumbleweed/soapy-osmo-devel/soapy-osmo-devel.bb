@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.2.5"
 
-RPM_NAME = "soapy-osmo-devel-0.2.5-8.12.aarch64.rpm"
-RPM_HASH = "0b42bee1ae183b13776ea560cd846adcd0a212b2340f4f294593721599b91113fc18385ce775055820c2f2e4fab7469a854632e3d5fe20e61ef347e0d4f04ecb"
+RPM_NAME = "soapy-osmo-devel-0.2.5-8.13.aarch64.rpm"
+RPM_HASH = "5678eddbd89bfc1ea4bad7277642134a9d56c7f977821fde94efebe085bd847e5e5d2a12c0b46ae4f3459c3c1b076cb8fe1eb1d617687335343583ead3632c46"
 
 RPROVIDES:${PN} += "soapy-osmo-devel"
 

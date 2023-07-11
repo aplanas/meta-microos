@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-buginese-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "012bff5ab3ff7c7f0492d754f560645e7254e876c135ae431150ec59db65aefdff5d32ef29f5562a5d80aad03b0caba0fc69b686d3a16e3284cbdfcab10a6ecf"
+RPM_NAME = "noto-sans-buginese-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "42253d29bba26eb2899c80ea2ebbfc9343583249b07980d07bbdd84fd8821934ebde249c7450c9705c8ca79414451d420469fb6d4a360a81b5d56e10bdf83725"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-buginese \

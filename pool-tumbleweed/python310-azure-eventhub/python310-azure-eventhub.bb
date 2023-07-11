@@ -21,12 +21,11 @@ LICENSE = "MIT"
 
 PV = "5.11.2"
 
-RPM_NAME = "python310-azure-eventhub-5.11.2-1.2.noarch.rpm"
-RPM_HASH = "cd5ec89aae2e8ed64072178f12c2f17bcc64f861217c4d39adafa572edcc5bb1e9cbfb4e6c7da84a9ab160408c220fe9943f3ea5b00c2a4b75cecf083428f022"
+RPM_NAME = "python310-azure-eventhub-5.11.2-1.3.noarch.rpm"
+RPM_HASH = "780ee6b81f34f1bd469eb813379325b4f65190032e8798877eb50d7dd52258a5cc169c9bc9d003ce4fc77cfada86e81e4e442dc87c1420f1413a43cfbde076f8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-eventhub \
-python3.10dist-azure-eventhub \
+RPROVIDES:${PN} += "python3.10dist-azure-eventhub \
 python310-azure-eventhub \
 python3dist-azure-eventhub"
 

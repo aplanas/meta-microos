@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "3.2"
 
-RPM_NAME = "squirrel-doc-3.2-2.2.noarch.rpm"
-RPM_HASH = "8c659043d8b63556f8cf400fe2b044abeb38edbdf31a3ec4f3927264b161cdb75b88d3b195e98f164ab0f85bb3f4af633176225544821e722e7222d762b0e01f"
+RPM_NAME = "squirrel-doc-3.2-2.3.noarch.rpm"
+RPM_HASH = "a4f69de5f09ef150faebb6929bbfba09cc8e8e6084181c937c0ddf5ec90e9ec84062adfa13843938d42e571f2bf3d1c88eca97867bc94fcaee66ac02a7165bf6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "squirrel-doc"

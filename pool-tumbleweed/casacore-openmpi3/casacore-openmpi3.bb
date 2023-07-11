@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "3.5.0"
 
-RPM_NAME = "casacore-openmpi3-3.5.0-2.13.aarch64.rpm"
-RPM_HASH = "06fefe83fce06c2e4a5642900a4ed22beb827f1254cf3718bdfdf52194f60d5a42fda143ca94bcb915c5d798af9d5a2f7b68162356b0bf2b830d69e295b6067a"
+RPM_NAME = "casacore-openmpi3-3.5.0-2.14.aarch64.rpm"
+RPM_HASH = "094a215df69fc71fd773a3787f76c0095088502a9dfac3df3846fc2ee131e756c176baf28c469af45b6c2583f49289efaaf842333ab992c6ea7e5b07e091e5a4"
 
 RPROVIDES:${PN} += "casacore-openmpi3"
 

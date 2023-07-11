@@ -3,10 +3,10 @@ DESCRIPTION = "Tokodon is a Mastodon client. It allows you to interact with the 
 community."
 LICENSE = "GPL-3.0-only"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "tokodon-23.04.1-2.1.aarch64.rpm"
-RPM_HASH = "8ccc2572f3eb7d6087619899fe0ecbbfe1e534d7c3273a8bfa214075be251074e1ab071e4d6955615e86357d10a295a4ace38c01ec5226001b7b03dee97bb6fc"
+RPM_NAME = "tokodon-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "123218b0c001ca949aec3d7f26a38b19cc8d28fe3ba40abeb612da6462be6319ba2a11d66c9745b639c7dbb1e65a5476dfdea47129c1dac86e12e0d804f833ff"
 
 RPROVIDES:${PN} += "tokodon"
 

@@ -10,10 +10,10 @@ envlab package after loading makelabels.lco to get various \
 configuration features."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn60255"
+PV = "2023.208.1.0svn60255"
 
-RPM_NAME = "texlive-makelabels-2023.201.1.0svn60255-52.1.noarch.rpm"
-RPM_HASH = "5d88a7491c3458fe976f3d024e15f11743cf21260381b8b97da0f986f65872704c1e7624f7a24f8da20a410fa0008b7a10aa9f65d54dd0b657a96228c97b7599"
+RPM_NAME = "texlive-makelabels-2023.208.1.0svn60255-53.1.noarch.rpm"
+RPM_HASH = "2c9b4f876e94b9f8c00b1786b43832c212bc3c99efecfcedab542f636a639693446b070d482b17f0a4a83f8b0f5be0eb5752f0573f702991bf42174d322bc874"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-makelabels"

@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.0.3"
 
-RPM_NAME = "libzapojit-devel-0.0.3-8.3.aarch64.rpm"
-RPM_HASH = "a14bfdabcf4635ae05f58322278d4950155e8d3a3b30e25c18f2b16f2a2cb040f999e4d9423a299ca0e5fc3e05bb84003934f32d71d09ab45e2e46ef60869fe3"
+RPM_NAME = "libzapojit-devel-0.0.3-8.4.aarch64.rpm"
+RPM_HASH = "07acc5fa495f7f08bf935baaff4edaccbb6f88e694ec78f50964dfe7c384813950346c1602d37d418c0e0424e19ddaef81f9d890561bd03577bd63630d1300d2"
 
 RPROVIDES:${PN} += "libzapojit-devel \
 pkgconfig-zapojit-0.0"

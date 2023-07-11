@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0-with-LLVM-exception & NCSA"
 
 PV = "15.0.7"
 
-RPM_NAME = "llvm15-libc++-devel-15.0.7-2.4.aarch64.rpm"
-RPM_HASH = "cc8b917378019624ec466abfbaa4e3a95f72b30da3ccf921560ce8c246bbf07b6d5627b8831d239badc97ee59048fee29b81a4892ac84f1afeaefd9798672c7a"
+RPM_NAME = "llvm15-libc++-devel-15.0.7-3.1.aarch64.rpm"
+RPM_HASH = "5cea2be34b74c8e796adec9d01298d29e94011335ffd996dabe37f7717ccbc2fb01e6119df748127f8213ded1450a614db05efc6d96191b16c45a27575eccb6b"
 
 RPROVIDES:${PN} += "libc++.so \
 llvm15-libc++-devel"

@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0.7"
 
-RPM_NAME = "python39-typogrify-2.0.7-1.11.noarch.rpm"
-RPM_HASH = "1bf1d7653aaedeff58c0c4ac6cebe5cc6619a20a1b7106f2446e16b5d17bb713fc190738af49816da4c5a4e86a65352be6e5d050f0a8e21aadb1d0dc7c298e5a"
+RPM_NAME = "python39-typogrify-2.0.7-2.1.noarch.rpm"
+RPM_HASH = "26808c6c2bdb22d2f126c6e0e49d297e6b95e9f6b0494202405c3e6fa3a2ab4531aa30fc419edfb96f33b8253644de7fbe40242db64b97172f55dffa23fd0e40"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-typogrify \

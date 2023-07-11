@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "0.8.0"
 
-RPM_NAME = "python310-jeepney-0.8.0-2.1.noarch.rpm"
-RPM_HASH = "b44185c1e5a16db2852e11762d951ad7f7fa04421dbe80c18cc1bfc5cf37adfa5447362602088803d03813f3f154e81d21234f00781e9d6a0c164a0b2f4fac97"
+RPM_NAME = "python310-jeepney-0.8.0-2.3.noarch.rpm"
+RPM_HASH = "ccb2da31564a86233dcce777f9f74084d351e89f232ee969ea53a7c22b4c282ce913ce3efbd5aff6ff76d8f92b2e9c2e602f5f681bd9b29fbcc64f2c9a59b81e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-jeepney \
-python3.10dist-jeepney \
+RPROVIDES:${PN} += "python3.10dist-jeepney \
 python310-jeepney \
 python3dist-jeepney"
 

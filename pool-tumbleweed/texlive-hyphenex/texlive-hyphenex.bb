@@ -7,10 +7,10 @@ file, together with a recent copy of the article and \
 machine-readable files."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn57387"
+PV = "2023.208.svn57387"
 
-RPM_NAME = "texlive-hyphenex-2023.201.svn57387-52.1.noarch.rpm"
-RPM_HASH = "a1fad2bfb512033c16bf31beb47d1014fd0a9dceeb6c6f35ba9f59b076213d7a3b7c06b8c4d04bb2158bbd44e0796c0a10c1f04f0cf4b271c9096f6851b6ae24"
+RPM_NAME = "texlive-hyphenex-2023.208.svn57387-53.1.noarch.rpm"
+RPM_HASH = "4b488cf71ce4bf4f9a4e9a0a0291eadc189bbae67849ffcfee59a847194f10ca7611d47086e494861157c01b10268edc3633f20a5fb93f12bc8fa3c5307be3fe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ushyphex.tex \

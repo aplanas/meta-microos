@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "4.0.4"
 
-RPM_NAME = "python311-Flask-Migrate-4.0.4-1.1.noarch.rpm"
-RPM_HASH = "7fc9749bb6c4e652df56b93a9e3ac7b7d93431b6332c18a4487312b42b84552bb77a53d206b5ceb2b962b3fb0d61f0a11ddd86003f578bb11a718cb04885b283"
+RPM_NAME = "python311-Flask-Migrate-4.0.4-1.3.noarch.rpm"
+RPM_HASH = "51bc4f14d997185b50f0c9d240d5724e9cb87874a2adc85751ebb819e9624ef0f64fe8022b0a6e2eb15dcf1a1fe38faa6957d84150a39a0329edd22513c7c001"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-flask-migrate \
+RPROVIDES:${PN} += "python3-Flask-Migrate \
+python3.11dist-flask-migrate \
 python311-Flask-Migrate \
 python3dist-flask-migrate"
 

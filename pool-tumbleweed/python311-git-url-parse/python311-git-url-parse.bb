@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "1.2.2"
 
-RPM_NAME = "python311-git-url-parse-1.2.2-1.14.noarch.rpm"
-RPM_HASH = "96d97aab44f9dfe874e9fa9428e25bec37bd92c7f68856fd74106787eea34f327603875f482f2699146bd707697680f9024d0f494ce6952c44ea4e4192d09cdf"
+RPM_NAME = "python311-git-url-parse-1.2.2-1.16.noarch.rpm"
+RPM_HASH = "f759f5c070fb5463782f4748aea9f42dae5378b5319f61410ce57d71fe39ed0dfc3fcb079262edcfb77a37cba74011309e212b1f2de72912fcdc4fb37d6004ef"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-git-url-parse \
+RPROVIDES:${PN} += "python3-git-url-parse \
+python3.11dist-git-url-parse \
 python311-git-url-parse \
 python3dist-git-url-parse"
 

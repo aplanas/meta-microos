@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.5"
 
-RPM_NAME = "python310-system-hotkey310-1.0.5-1.3.noarch.rpm"
-RPM_HASH = "a7f111b26adf2a2ff3a9938c8de38b3ae1e6410fc6f0b5a922d5498a17b2849402ba175d86835b9eb867deef03a1a944c1c305c2465065403252a01e1b8db6d1"
+RPM_NAME = "python310-system-hotkey310-1.0.5-1.5.noarch.rpm"
+RPM_HASH = "d4ec5c8acc8f1653a993e9761b5ce954a7d13f4ac7345db5b5a3ba98db92f74184a8f54b5688049869b0510850247ce410de76f2563e1e10cd5d7c6fd96614a0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-system-hotkey310 \
-python3.10dist-system-hotkey310 \
+RPROVIDES:${PN} += "python3.10dist-system-hotkey310 \
 python310-system-hotkey310 \
 python3dist-system-hotkey310"
 

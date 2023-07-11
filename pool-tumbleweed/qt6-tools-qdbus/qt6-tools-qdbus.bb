@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-tools-qdbus-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "a5d03803ae1a9c2ec86d006380a82fef9de5fc89bc2856341581356c749bda5c709848c4c646053eee00663f882f43848229df44da8a7c336c2e343e8f7593bf"
+RPM_NAME = "qt6-tools-qdbus-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "c3e629e223ab6bf0acc2a45d4b4f4d71ce765c610137dd6995f4d6f1d78e183ec29af5538c4b9728c09feff46059bd1326b05748a5513b821b873f175d164c72"
 
 RPROVIDES:${PN} += "qt6-tools-qdbus"
 

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.049"
 
-RPM_NAME = "fastjet-contrib-devel-static-1.049-1.3.aarch64.rpm"
-RPM_HASH = "646b1fd357afa03193e4b059b04c7c5ff3579225b8a77f6dad40b199a10a29ae000bff01da1002495a412eaaf317cffd386f93c501b8c318decd6be143e49fbb"
+RPM_NAME = "fastjet-contrib-devel-static-1.049-1.4.aarch64.rpm"
+RPM_HASH = "899272035b5b7b3342ff0621e91120879bc10f836257c15335cccfde5ede081b3d84f398beefbc099f9695facdc691fd6edc7a928673ed9d89ef878926ea716a"
 
 RPROVIDES:${PN} += "fastjet-contrib-devel-static"
 

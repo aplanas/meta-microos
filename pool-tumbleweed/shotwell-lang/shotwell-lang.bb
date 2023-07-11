@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.32.1"
 
-RPM_NAME = "shotwell-lang-0.32.1-1.1.noarch.rpm"
-RPM_HASH = "22b2485c45ea9dc475a42cb69b0b3a7abe6458d13da9ad245be5c293cbbdb732dbcd99e5205597aefed8430a0f30c60430d2cf17ea28fa0bcaf98160c778f0db"
+RPM_NAME = "shotwell-lang-0.32.1-1.2.noarch.rpm"
+RPM_HASH = "87e9f34409f2890c35c47ca225aff1706b8ca09e9fb9cef70b297dd5d34521b3c020b678f5aa64ab2b65796079322dc0a86cadc0c70253f7fae1b5d87bd159bd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-shotwell-af \

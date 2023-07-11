@@ -8,12 +8,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.04"
 
-RPM_NAME = "python310-cooldict-1.04-1.14.noarch.rpm"
-RPM_HASH = "773bb286004ed86d203a2f166cd27ed9281b31ec272989ff5936c17b46933f8a2310349b17083a06cec145624a4a60fdc3102832d5876a2fd93a6a02221d8c0a"
+RPM_NAME = "python310-cooldict-1.04-1.16.noarch.rpm"
+RPM_HASH = "6e7a8a1e91eed914b47ca4e9fd0cb5e0680ee665244b37db9a20e7850dbe9cc5ab0dd45007b0447cd19d3490bb33541757832f8c5816cc62f54a61831c34fdfb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-cooldict \
-python3.10dist-cooldict \
+RPROVIDES:${PN} += "python3.10dist-cooldict \
 python310-cooldict \
 python3dist-cooldict"
 

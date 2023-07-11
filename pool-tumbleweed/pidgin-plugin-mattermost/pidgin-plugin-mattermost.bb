@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.1"
 
-RPM_NAME = "pidgin-plugin-mattermost-2.1-1.4.noarch.rpm"
-RPM_HASH = "f23882d138061fbce1a07f577aafd66d8f6e86d8ff8a59c91be5109db552796f932870fc819cc0ece63e847fa1da175b67187e3d651f3e125907d0d726994911"
+RPM_NAME = "pidgin-plugin-mattermost-2.1-1.5.noarch.rpm"
+RPM_HASH = "1080f1d1fa61d4b822cb467e2f1c2d2d4da7e1f7d0e6cf8cd3ccef5d6dc470fdab0e35402612224c5d94903ed6fd94965c102a6b6e44de5b5618cb793d094c5d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pidgin-plugin-mattermost"

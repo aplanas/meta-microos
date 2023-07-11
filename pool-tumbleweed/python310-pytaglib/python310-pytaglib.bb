@@ -5,11 +5,10 @@ LICENSE = "GPL-3.0-only | MIT"
 
 PV = "1.5.0"
 
-RPM_NAME = "python310-pytaglib-1.5.0-1.5.aarch64.rpm"
-RPM_HASH = "5d1933b3e0bf5a9680caed8cccb7fd7221c352523d15639241895b789016ce3a8e338603a8b9d5a66b819290791e171b96f2de4c0ac46ce2966271a8a21492cb"
+RPM_NAME = "python310-pytaglib-1.5.0-1.7.aarch64.rpm"
+RPM_HASH = "b995e548f58925a18eebd2f802fd454272ed42c67fd7cab560907e2820734df804e938b88eba3b18857d0966065325f122271777525a5a521dfee687071bc541"
 
-RPROVIDES:${PN} += "python3-pytaglib \
-python3.10dist-pytaglib \
+RPROVIDES:${PN} += "python3.10dist-pytaglib \
 python310-pytaglib \
 python3dist-pytaglib"
 

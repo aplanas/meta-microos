@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0"
 
 PV = "0.0.0+git.20130608"
 
-RPM_NAME = "libmirisdr-devel-0.0.0+git.20130608-1.24.aarch64.rpm"
-RPM_HASH = "26444a73485233c34a120f8dfcc07373d8e372c3f55ec5a9db3a1e26f27e2d66e94ff008ce4f7263f1811763a69bcfdcf67cb0596060d679475650b6bde357b9"
+RPM_NAME = "libmirisdr-devel-0.0.0+git.20130608-1.25.aarch64.rpm"
+RPM_HASH = "cf3171d9669c61410a8beafe8e4478c17d068e6f86a92567fa045dc3916caa87435f09af46e92b9c5227cd45dd6ad70177c75d316e825f7144ec9210825bb3af"
 
 RPROVIDES:${PN} += "libmirisdr-devel \
 pkgconfig-libmirisdr"

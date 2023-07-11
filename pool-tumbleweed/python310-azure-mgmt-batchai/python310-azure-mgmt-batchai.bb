@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "7.0.0b1"
 
-RPM_NAME = "python310-azure-mgmt-batchai-7.0.0b1-1.8.noarch.rpm"
-RPM_HASH = "7679868d9d94d6cc097acbf65c14a2aa0cba26717c9ac0f64a1df5737b072552c2297fde960be3f48a026f89cfc1b10a4a4a5bc0757cbf21a829144f2191ba60"
+RPM_NAME = "python310-azure-mgmt-batchai-7.0.0b1-1.9.noarch.rpm"
+RPM_HASH = "1aae5ddb1e6fde3bb584f5154aa91bfc04e6fd79c0383bfdcc1f6d5dec50c765d037e75ba972ef7fd29ba1afa89477e82d31b4db0009a4296b160b3d384855e3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-batchai \
-python3.10dist-azure-mgmt-batchai \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-batchai \
 python310-azure-mgmt-batchai \
 python3dist-azure-mgmt-batchai"
 

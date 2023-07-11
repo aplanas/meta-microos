@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0"
 
 PV = "1.0.5+git1518929179.2d687c8"
 
-RPM_NAME = "vacuum-im-plugins-gmailnotify-1.0.5+git1518929179.2d687c8-1.26.aarch64.rpm"
-RPM_HASH = "be4892b601ecf825e258d4bb94ec8c572b340da840de0476ff5a77b72ee4f196e79d449cfab7076492dc5d2b5d9ccf3c1aad0ab89072a521a068b5bc33b3e7c1"
+RPM_NAME = "vacuum-im-plugins-gmailnotify-1.0.5+git1518929179.2d687c8-1.27.aarch64.rpm"
+RPM_HASH = "14ffc7a5ba73c7758b03b283f443d01a57a898f360d0011fd5a70d5575b3a8c2f19014d5d66185b3a4c056e4828cd1f18ab54846be6f70582a750f5551b66658"
 
 RPROVIDES:${PN} += "libgmailnotify.so \
 vacuum-im-plugins-gmailnotify"

@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.13.5"
 
-RPM_NAME = "libembree3-3.13.5-2.3.aarch64.rpm"
-RPM_HASH = "5a04ec0ecdbf64df5437576411fc6febc9da8bce3395402fdc343858abaee7d1d9fc32c975cd1fb3504957a03dd6077e57cfb2f60b3e1c6c291e381f53603ff5"
+RPM_NAME = "libembree3-3.13.5-2.4.aarch64.rpm"
+RPM_HASH = "8e6674a656984754eb4752aa8dc3420f4e24b0a0bdabef27361043b99a3a1efa8d5a4549b5ace6e93057e7570dffcaf54122b5ccf24797a6aaeae837c95977f2"
 
 RPROVIDES:${PN} += "libembree3 \
 libembree3.so.3"

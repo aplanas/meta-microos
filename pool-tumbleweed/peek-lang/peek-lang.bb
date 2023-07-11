@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.5.1"
 
-RPM_NAME = "peek-lang-1.5.1-2.18.noarch.rpm"
-RPM_HASH = "6c3395d90f4860dca1a6474c301260d5e558a435751f3eb356e63ea8fde8491b5c87ba9ca81664ded09dea1fb178ffa118ed25453aed4ccba709028ebc7fcb66"
+RPM_NAME = "peek-lang-1.5.1-2.19.noarch.rpm"
+RPM_HASH = "9b0ac7f34fef67a151945f2e17cc1a6a930ac708f2300cc5414d693f4091a8e607fc0239ae709ccf1ba86e0db0f0c91c10a9e0c4ada5e150acbb33d707d5c226"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-peek-ar \

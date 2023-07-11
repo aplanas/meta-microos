@@ -14,8 +14,8 @@ LICENSE = "Apache-2.0 | MIT"
 
 PV = "1.3.243.0"
 
-RPM_NAME = "spirv-cross-1.3.243.0-1.1.aarch64.rpm"
-RPM_HASH = "5c097b3a7fa6737f6ff87e5faeacd9e89f094f3df789243166eb87521c566e300bbd59cd306b24c81d7de901eda5cc030cf1f07ab7cf3859a9e79cb0275546c0"
+RPM_NAME = "spirv-cross-1.3.243.0-1.2.aarch64.rpm"
+RPM_HASH = "61963013da3b45fe64523bc5c7450ccda0c3f98544744d7ad9ff6abeea2cea9086f58a09f8f258f15a989bea193877bc1c62b29ef79923966c863e0792a96cc4"
 
 RPROVIDES:${PN} += "spirv-cross"
 

@@ -5,8 +5,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-zalil-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "8769aa6399f31961250bc074c4aaa03e07248cd59db4da68ce906cfd8bdaf876ae8d03f0f7d78d182b06f6876da0b5b7c0b09fcfcd152d98a7fe572ad9ef1071"
+RPM_NAME = "leechcraft-zalil-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "ef42c909ffad9f3d08ea152192f7663cfb093d3c6f27bdda1ce61b4d1ae856c50d1a219f0f552e0fe60d4b762cabd3f9b8a83853c70157da7e27c5799a628675"
 
 RPROVIDES:${PN} += "leechcraft-zalil \
 libleechcraft-zalil.so"

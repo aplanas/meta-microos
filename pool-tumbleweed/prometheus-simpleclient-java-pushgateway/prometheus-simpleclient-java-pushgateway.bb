@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & CC0-1.0"
 
 PV = "0.8.0"
 
-RPM_NAME = "prometheus-simpleclient-java-pushgateway-0.8.0-6.10.noarch.rpm"
-RPM_HASH = "ed7da8b5b94f6b39231d81f8b7560fe77b05f462bb68c6f847d678acdec678eb3cccf52bf2726fa8d47e08eec49c373fb0d55721a72c12e3a7df804729e72b39"
+RPM_NAME = "prometheus-simpleclient-java-pushgateway-0.8.0-6.11.noarch.rpm"
+RPM_HASH = "ce02a2c77c15eee208d9cec94365ecfdfbf976205b76e9bb6940103dc4fbeb100dd6fd462d2808ccab21083cde123010b2f7bc2775fdeadb13a7a80945efe502"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-io.prometheus-simpleclient-pushgateway \

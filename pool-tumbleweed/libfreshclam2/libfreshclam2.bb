@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.103.8"
 
-RPM_NAME = "libfreshclam2-0.103.8-1.3.aarch64.rpm"
-RPM_HASH = "c4bb957906b4c06ba43e0ce72a23d1951ba2e4273350a4a810101915b2bd98ce36e5f5d2f6f0c454d48509d4dcdee00c0d7e098760fb7d5bd4cbb8c580615a38"
+RPM_NAME = "libfreshclam2-0.103.8-1.4.aarch64.rpm"
+RPM_HASH = "a84163b35275f2f3aedb7da505e087b3592c43d689a565648b67bf289f3e0543def609e4c54cab6c56d6a03c8fdeaf2df6e77e3e37bd1ca3f84ed72c05637faf"
 
 RPROVIDES:${PN} += "libfreshclam.so.2 \
 libfreshclam2"

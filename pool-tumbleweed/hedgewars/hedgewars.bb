@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.0.2"
 
-RPM_NAME = "hedgewars-1.0.2-1.7.aarch64.rpm"
-RPM_HASH = "265bf3a7374f1d7e55541180eee33801ca8fb390f8af57fdb2128102020c25234a9fc993a4398d0e45c05640da8fbeea50a725a0a332aaaf185019cdb4688588"
+RPM_NAME = "hedgewars-1.0.2-1.9.aarch64.rpm"
+RPM_HASH = "760fb32a9fb9698406395bc794f7e6e73975354822604fdb8d5ce55af8f7941c8fd93f9fdcaac19e1d7a5adf8bdd17c4cb52886696dcc204659f66e63496f506"
 
 RPROVIDES:${PN} += "hedgewars \
 libphyslayer.so.1.0"

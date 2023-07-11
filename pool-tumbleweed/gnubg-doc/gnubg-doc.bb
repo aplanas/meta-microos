@@ -4,8 +4,8 @@ LICENSE = "GFDL-1.3-only"
 
 PV = "1.06.002"
 
-RPM_NAME = "gnubg-doc-1.06.002-3.4.noarch.rpm"
-RPM_HASH = "86e1e9caf22d79b53db08f0a5c1449a6c9d7776f9607e4e476470348d8eb3bf965c7b2d7cecd8485ada21dcf57136358ef675ae56faa00b1d23b76a9bbd0af2e"
+RPM_NAME = "gnubg-doc-1.06.002-3.5.noarch.rpm"
+RPM_HASH = "fbecbfbd0cfbb8d7904d218dc78f3e860d60243d889f15a692dce433dec487ee824e4827dfe1f6935b26e07645067f43129f1ede720680cbf064d8022b731518"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnubg-doc"

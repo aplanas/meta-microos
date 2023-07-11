@@ -5,11 +5,10 @@ LICENSE = "BSD-3-Clause & MIT"
 
 PV = "3.6.16"
 
-RPM_NAME = "python310-gsw-3.6.16-1.5.aarch64.rpm"
-RPM_HASH = "14e1f67b4b061de84ee279c3ada5fe200ba142bf0d90437d7a4891f3ca2729052b64819f4cc606f2b5b9538568f87742e3ad79cb315ed8afe6e3997601aea601"
+RPM_NAME = "python310-gsw-3.6.16-1.6.aarch64.rpm"
+RPM_HASH = "fbbda2971d16e3928f35ccf0ebe994d088c5b9fbb181376f11ef0d99197a6f66ac093d2583b5ff182b40fe13cbb9c487a4d8e6c8ed481393d9e4fdb2cccbab4d"
 
-RPROVIDES:${PN} += "python3-gsw \
-python3.10dist-gsw \
+RPROVIDES:${PN} += "python3.10dist-gsw \
 python310-gsw \
 python3dist-gsw"
 

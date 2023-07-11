@@ -9,13 +9,12 @@ the server. Simply copy a file into the directory and the desktop \
 synchronisation client does the rest."
 LICENSE = "GPL-2.0-or-later & LGPL-3.0-or-later"
 
-PV = "3.8.2"
+PV = "3.9.0"
 
-RPM_NAME = "nextcloud-desktop-3.8.2-1.1.aarch64.rpm"
-RPM_HASH = "3e9188a7d17478c56e2892f4a832b585ec7b31df912005a8d2119280b476939c586c1b55e07650b2a65ecaa84b6797694c79edc66c796502ba90fd29aae6c4c7"
+RPM_NAME = "nextcloud-desktop-3.9.0-3.1.aarch64.rpm"
+RPM_HASH = "e2d6755c46a44d179a89c26ff3934b95ae8eecf2d0cc0156f5f4ecedad161814903bbceef257a4fdecaabf9afe08103919a9a8953a34439fcbc2ce669f99caf6"
 
-RPROVIDES:${PN} += "config-nextcloud-desktop \
-nextcloud-client \
+RPROVIDES:${PN} += "nextcloud-client \
 nextcloud-client-lang \
 nextcloud-desktop"
 
@@ -46,6 +45,7 @@ libnextcloudsync0 \
 libqt5-qtgraphicaleffects \
 libqt5-qtquickcontrols2 \
 libqt5keychain.so.1 \
-libstdc++.so.6"
+libstdc++.so.6 \
+nextcloud-cli"
 
 inherit rpm

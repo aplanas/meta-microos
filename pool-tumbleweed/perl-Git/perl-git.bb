@@ -6,12 +6,12 @@ full access to internals. \
 This package provides the Perl interface to the Git version control system."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.40.1"
+PV = "2.41.0"
 
-RPM_NAME = "perl-Git-2.40.1-1.1.aarch64.rpm"
-RPM_HASH = "22c1e1b9fdc13e1bb151cf7a75792fa5cdd28752c9fb3b4bcd586caf9bdd61eb027f062f346b7a38cf8838283dd1065bc633fe975b5f370f953b03810cf8e15e"
+RPM_NAME = "perl-Git-2.41.0-1.2.aarch64.rpm"
+RPM_HASH = "bf03a4163d210ef2f042e249ae0f08cdf62f8cfbd980f8d558e91fb9f40f2f32571431bcb2c0764b833910e95817e04376e43a02f9726411b6a0d062a65067eb"
 
-RPROVIDES:${PN} += "git-core-/usr/lib/perl5/vendor-perl/5.36.0/Git \
+RPROVIDES:${PN} += "git-core-/usr/lib/perl5/vendor-perl/5.36.1/Git \
 perl-Git \
 perl-Git--Error--Command \
 perl-Git--I18N \
@@ -32,7 +32,7 @@ perl-Git--SVN--Ra \
 perl-Git--SVN--Utils \
 perl-Git--activestate-pipe"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Error"
 
 inherit rpm

@@ -4,25 +4,25 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.0.9"
 
-RPM_NAME = "ghc-crypto-random-0.0.9-5.3.aarch64.rpm"
-RPM_HASH = "d5ba209663665681c5222bf3ea9520cec9c2746609c5a22f68b19d959df0ab72558481bd24dc7fc8f0a2fe959d9718103c037ffa52c3a9818919df3884100c5c"
+RPM_NAME = "ghc-crypto-random-0.0.9-5.6.aarch64.rpm"
+RPM_HASH = "71b53dc54402a9dc599a3a7bafd5c1a7c11fefaec38f7659893b0da7eec94b8b061852f1c034feb2de156a9563f562fc01e643ca9bbfabdbcb9d6c89e5e9ff7f"
 
 RPROVIDES:${PN} += "ghc-crypto-random \
-libHScrypto-random-0.0.9-JRbP8k0BmeXEHkvOdlpIfk-ghc9.4.5.so"
+libHScrypto-random-0.0.9-60vlsiR41hHGmZ9VjOCRvw-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
 libHSbase-4.17.1.0-ghc9.4.5.so \
-libHSbasement-0.0.15-6OmKTVi2kFpCWMoKDlsO4S-ghc9.4.5.so \
+libHSbasement-0.0.16-J8UFRjmsTYU7wBgfpjdWQn-ghc9.4.5.so \
 libHSbyteable-0.1.1-KSaZugJOm4ALb4WyX9cufg-ghc9.4.5.so \
 libHSbytestring-0.11.4.0-ghc9.4.5.so \
 libHSdeepseq-1.4.8.0-ghc9.4.5.so \
 libHSghc-bignum-1.3-ghc9.4.5.so \
 libHSghc-boot-th-9.4.5-ghc9.4.5.so \
 libHSghc-prim-0.9.0-ghc9.4.5.so \
-libHSmemory-0.18.0-2DG6nqjfLMK4MSR77XYQqL-ghc9.4.5.so \
+libHSmemory-0.18.0-8CsggfkyXReDSMbRoae4Yp-ghc9.4.5.so \
 libHSpretty-1.1.3.6-ghc9.4.5.so \
 libHSprimitive-0.7.4.0-AeB0oysC3TAJw9tDpuX8hq-ghc9.4.5.so \
-libHSsecuremem-0.1.10-BbcWu3otOS6JQaPW3JfszZ-ghc9.4.5.so \
+libHSsecuremem-0.1.10-14D6arGPELi9Mzd7V4Fyfu-ghc9.4.5.so \
 libHStemplate-haskell-2.19.0.0-ghc9.4.5.so \
 libHStime-1.12.2-ghc9.4.5.so \
 libHStransformers-0.5.6.2-ghc9.4.5.so \

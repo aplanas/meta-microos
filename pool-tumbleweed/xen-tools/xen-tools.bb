@@ -17,8 +17,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "4.17.1_04"
 
-RPM_NAME = "xen-tools-4.17.1_04-1.1.aarch64.rpm"
-RPM_HASH = "808dc63ad3f2c401c86015b29d61859277be6d9ef6b56e804e9d7ffbcae4098957c6bc1092766074f2f5fce4d2047e64485620cc87dfd6f5ce8b1c59e4583501"
+RPM_NAME = "xen-tools-4.17.1_04-1.2.aarch64.rpm"
+RPM_HASH = "00fdb0df6c0073e5d4442b9e821f76f039acc69cf0561f13676fb9b1db13b6e40287069cd9e2eb019f0a17ea56806cded906e1ab2e12d1a8b015e77f3a958af4"
 
 RPROVIDES:${PN} += "config-xen-tools \
 xen-tools \

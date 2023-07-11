@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "1.11.1"
 
-RPM_NAME = "libvigraimpex11-1.11.1-4.5.aarch64.rpm"
-RPM_HASH = "70602c3543b6f85999b0039caabe02013f134a00aca42a73af5290e6d56572ab487bb883e1cfcf2cd3528046dccc5c8edd2eda693d691513d75407a76b31eb43"
+RPM_NAME = "libvigraimpex11-1.11.1-4.6.aarch64.rpm"
+RPM_HASH = "ada9c2bf981519ea2af59bf7aed220c38ba0ddcd39877c5c55d4d9a2895591a1df5a5efb5d410879d9e5bfc9c8c6ffc0896e75ff7e1e41490a39d5253d9a0f42"
 
 RPROVIDES:${PN} += "libvigraimpex.so.11 \
 libvigraimpex11 \

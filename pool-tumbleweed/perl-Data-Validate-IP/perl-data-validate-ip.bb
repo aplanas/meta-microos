@@ -8,14 +8,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.31"
 
-RPM_NAME = "perl-Data-Validate-IP-0.31-1.2.noarch.rpm"
-RPM_HASH = "ed63bcaa5309a5720f34bc9e92c26df5372d8a54d9a39840f89c08a09ad76fac807f4930ad2e0c0fd3bf0a4ca1b397a6618d83f3e66cc60801088dbebd25496a"
+RPM_NAME = "perl-Data-Validate-IP-0.31-1.3.noarch.rpm"
+RPM_HASH = "37a939a7e66cf73004b2fe45a9694a9a8cb6d8e78d5100d837eeb2caca54a9b43c9ad30c75ffdc5505c6152484b263b3266f2863b15fe8ddc030d1e4d991f9c5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Data--Validate--IP \
 perl-Data-Validate-IP"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-NetAddr--IP"
 
 inherit rpm

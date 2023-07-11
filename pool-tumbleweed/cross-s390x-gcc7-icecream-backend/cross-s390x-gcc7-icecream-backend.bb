@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "7.5.0+r278197"
 
-RPM_NAME = "cross-s390x-gcc7-icecream-backend-7.5.0+r278197-14.1.aarch64.rpm"
-RPM_HASH = "43d6a3b66bb7ffa1b1534bef1853cffa599201e23e86a493e8cf2cc1bfe620a9a4c1e8064b71c3affbb4429cc80ca7f8d6ff6e3e972aa1ae37b3fc287bdc5094"
+RPM_NAME = "cross-s390x-gcc7-icecream-backend-7.5.0+r278197-14.2.aarch64.rpm"
+RPM_HASH = "e362fabdaa73e59b454f3e74255657afe11bee4fc74391bc157d24cae7480f9dbe309dd0d5d53cda8b42ba7c76806daf0149e16eae9d75b67acdec15bdf6fea7"
 
 RPROVIDES:${PN} += "cross-s390x-gcc7-icecream-backend"
 

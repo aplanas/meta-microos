@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.18"
 
-RPM_NAME = "apache2-mod_nss-1.0.18-6.11.aarch64.rpm"
-RPM_HASH = "dad001f7d6f5a43b6309b1941f08e0e5ea7bcdce83ca6d65cdf3b033c6675d05ca7ce44e637cfa4c2a6ea235596054ef72f64125232ea90df96a2665e77e2916"
+RPM_NAME = "apache2-mod_nss-1.0.18-6.13.aarch64.rpm"
+RPM_HASH = "39726fc627c83e4996aa7a47dd0b88909e3f875a5845a5ed5df2d59b2bc81b430c33625df45dde2fb41d90bbeabefd183a8fef2610ceb4787f4c557316f2ddee"
 
 RPROVIDES:${PN} += "apache2-mod-nss \
 config-apache2-mod-nss \

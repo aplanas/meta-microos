@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "7.0"
 
-RPM_NAME = "cifs-utils-7.0-2.3.aarch64.rpm"
-RPM_HASH = "1a0f21dbc8ffc29640a1083ad899af611547799327fa70b82c823558fae582002c3a1cdf8c83cf885d06344ddb98392fadcf51898fb93ef442d4a339e9546e9e"
+RPM_NAME = "cifs-utils-7.0-2.4.aarch64.rpm"
+RPM_HASH = "fb2e5da0136943bb2acbc7acae3aa760c4c3ee4084b8a56e2aee2d36b6b80418356ef580dd44276b2d96559164c15d7334573a514da608099cfa4fde932719cc"
 
 RPROVIDES:${PN} += "cifs-mount \
 cifs-utils \

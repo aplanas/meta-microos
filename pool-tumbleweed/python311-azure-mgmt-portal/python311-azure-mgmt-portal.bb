@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "1.0.0.0"
 
-RPM_NAME = "python311-azure-mgmt-portal-1.0.0.0-1.3.noarch.rpm"
-RPM_HASH = "d59bc2f2084e29d542d6956432bfc34edf96794faa366e8da70276e98a3a750721281289dab5cba4049e77ba6dc9ffde401531d716777c56d34fbeb7e002df9e"
+RPM_NAME = "python311-azure-mgmt-portal-1.0.0.0-1.4.noarch.rpm"
+RPM_HASH = "44d86403181d8aee8329d0f70aff16f90740579e69a3376a60d998c58dd12898b5cde884c1dbc11e73dcb81881798dbb3b110112e36f9ce91eca55d7b3608170"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-portal \
+RPROVIDES:${PN} += "python3-azure-mgmt-portal \
+python3.11dist-azure-mgmt-portal \
 python311-azure-mgmt-portal \
 python3dist-azure-mgmt-portal"
 

@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "3.4.1"
 
-RPM_NAME = "libopenslide-devel-3.4.1-2.25.aarch64.rpm"
-RPM_HASH = "42ec9e7fa378b899d8996bb97455fc9bc1fa9a0c5abcc7e60453f141fa931c8a717e042bbf35a64bcdfc0ee658232cb9edf8dbd8264732729dfe030ebac13207"
+RPM_NAME = "libopenslide-devel-3.4.1-2.26.aarch64.rpm"
+RPM_HASH = "195687653aa342ee9eb35a40d98eff86d41e2cf7d834fe5925c0f8fbf8443a4145d40894a79606a0e7606613142faff7610b23c8aeca66f6ff44a476f484c2ce"
 
 RPROVIDES:${PN} += "libopenslide-devel \
 pkgconfig-openslide"

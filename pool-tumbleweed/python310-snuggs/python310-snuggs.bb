@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.4.7"
 
-RPM_NAME = "python310-snuggs-1.4.7-2.7.noarch.rpm"
-RPM_HASH = "0ce2ebe0d68a3f2fb120982bb519e796c591a939b07c2872ac37b6aee9315e1919a6b0d5484fcbf060b74bec342be3f4d9b5cc7fa9eadd356220402acbd3687b"
+RPM_NAME = "python310-snuggs-1.4.7-2.9.noarch.rpm"
+RPM_HASH = "8a1468326bceb14820c786e4ac9582446fa873edd8a6dbefd675d9b6ac18fdb6fef1d21657bcdefe75be7f724ad06917d24e1f53469f4385c24ec78a8ead7f7f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-snuggs \
-python3.10dist-snuggs \
+RPROVIDES:${PN} += "python3.10dist-snuggs \
 python310-snuggs \
 python3dist-snuggs"
 

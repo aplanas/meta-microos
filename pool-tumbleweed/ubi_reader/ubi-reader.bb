@@ -17,11 +17,11 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.8.5"
 
-RPM_NAME = "ubi_reader-0.8.5-1.2.noarch.rpm"
-RPM_HASH = "8904179dd514499b145250c87580fa2565b9f8ded97091ef32fd4a05de6e57dd567538527510a77d3ecb350e78f6b771bf87d7c2035070dc0927c1a01448ca1b"
+RPM_NAME = "ubi_reader-0.8.5-1.3.noarch.rpm"
+RPM_HASH = "d05e8ab952759cb8ed29294ea4129c3a0cf23d82f084d306ccb5c1e143d32f7c5a6d896bc0dd0e9c2af9510596319fb31acfff81ef65d3260e54cfadd3fd48d0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-ubi-reader \
+RPROVIDES:${PN} += "python3.11dist-ubi-reader \
 python3dist-ubi-reader \
 ubi-reader"
 

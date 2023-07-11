@@ -5,8 +5,8 @@ LICENSE = "EPL-1.0"
 
 PV = "2.49.3"
 
-RPM_NAME = "graphviz-2.49.3-6.3.aarch64.rpm"
-RPM_HASH = "31e70df36285d6e8c8b8af41cbf11dcfaa4f4216a02fba2b535213acc60d7bccdb1c525fa2786d1ac66f1b2ca47d3f74e761fd284c137d3730ff0fb1ad40ab22"
+RPM_NAME = "graphviz-2.49.3-6.4.aarch64.rpm"
+RPM_HASH = "f81a1ba85cad3b7c90a615b2d73b1d874da4fab1358e9c5962a4eb454c71d802ef2ff0c3fb0186e497dc1f9b28be65807cb1a5eb53656f50325a06ea89fbbf83"
 
 RPROVIDES:${PN} += "graphviz"
 

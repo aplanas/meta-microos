@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "5.7.0"
 
-RPM_NAME = "minetestserver-5.7.0-1.1.aarch64.rpm"
-RPM_HASH = "d0f4a7e2100ec39ee39c491bf9ca007ea61bbb8103f7bd12f187f7c91bac1a376d5fbaef614e1c0bc31d5e92045d76d72a734d07ddc93a9fbfd2c4d8efd4b746"
+RPM_NAME = "minetestserver-5.7.0-1.2.aarch64.rpm"
+RPM_HASH = "84931cb10aea7b01febf38924ad6dba8a31d24e11df0967abfe81a336fe2821bd81e888ed04e0edb2d691d660a6f172d23e358d590687bbe0c666f3118ca5516"
 
 RPROVIDES:${PN} += "config-minetestserver \
 minetest-runtime \

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.6"
 
-RPM_NAME = "python39-aiohttp-theme-0.1.6-1.14.noarch.rpm"
-RPM_HASH = "59470eda09b6bf81fd8c72695c171779b4195b6ffe7e73a640466db70f3eca7620cb3996b45679de9e8a527655d40ac920f63193a8eeee6d14274dd42815ac63"
+RPM_NAME = "python39-aiohttp-theme-0.1.6-2.1.noarch.rpm"
+RPM_HASH = "675492892e127ff30a450e7857c26d5f617a6dc9f1910ff410b643cfbdfd27f7de0008ddda967aecda294c2babe231c2a06f3c0ac3f9d451d74a777e7cdf183b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-aiohttp-theme \

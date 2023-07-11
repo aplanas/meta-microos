@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only & MIT"
 
 PV = "5.12.0.134.g4cebbfc"
 
-RPM_NAME = "collectd-plugin-amqp-5.12.0.134.g4cebbfc-1.4.aarch64.rpm"
-RPM_HASH = "0de845745787dd1490a02d5e902743420d2f8bca0ee1ef1a2733ff00e34776628d5515aa5b2be1ea1b8e2111db681def6812ae343b5dde0bfff964bffe80a53e"
+RPM_NAME = "collectd-plugin-amqp-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
+RPM_HASH = "39a2f44500bd96c33ae7bf6c81827d3823f83826966efe0ccef8d5014bc481f0d663b1e7b305e9e2898f8af792ed91276dc380ca5d6b072e757ff461b371a97d"
 
 RPROVIDES:${PN} += "collectd-plugin-amqp"
 

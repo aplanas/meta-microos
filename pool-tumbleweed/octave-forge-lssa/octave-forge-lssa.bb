@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.1.4"
 
-RPM_NAME = "octave-forge-lssa-0.1.4-1.12.aarch64.rpm"
-RPM_HASH = "cce06b1e915dd3e182885b42cc77f3839ba15fac8e1a805ac2a1ca6719234ebc2517cb5384d9dd30d669adce8d20721bb93fce85ed679957948a4e0ad8239aaf"
+RPM_NAME = "octave-forge-lssa-0.1.4-1.13.aarch64.rpm"
+RPM_HASH = "d7d47fceca64d3c687bc9996625ae8377cfa0b27a5f30658e2c0a9ecd37a5ac0c3982a11a2b6f12c9bee5819e4c2efddc30f218add3fdeeb04e1d47556fef3c8"
 
 RPROVIDES:${PN} += "octave-forge-lssa"
 

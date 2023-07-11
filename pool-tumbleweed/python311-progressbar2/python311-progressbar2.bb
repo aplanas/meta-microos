@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.2.0"
 
-RPM_NAME = "python311-progressbar2-4.2.0-2.2.noarch.rpm"
-RPM_HASH = "c45d3dc85a499a64ec38bac71d88162072c6a266c8063b4edf8fd6184a9bdd29cc2c663d5f8073d255211150f88a3952b640ac9dbfbbe2b8d2e577f742aecef1"
+RPM_NAME = "python311-progressbar2-4.2.0-2.4.noarch.rpm"
+RPM_HASH = "4159c26562ac8cf94ccd7a60da1251bb62869083a153ee445ba45ffa54363ac1cce25ee5576562f78d47e4ecca4fb1aae0c1b5d13f7582bdba3d16efc8608ffb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-progressbar2 \
+RPROVIDES:${PN} += "python3-progressbar2 \
+python3.11dist-progressbar2 \
 python311-progressbar2 \
 python3dist-progressbar2"
 

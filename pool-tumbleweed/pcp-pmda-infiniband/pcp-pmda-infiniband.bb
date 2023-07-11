@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "5.2.5"
 
-RPM_NAME = "pcp-pmda-infiniband-5.2.5-3.4.aarch64.rpm"
-RPM_HASH = "18bd7df3d5d898e135ffff737e5297d7eb1715bfb49760683b13158f037a51ac4f15bae5e0049d3bb8662238d9af4c20a36d19eb2c83d5292ad1a0caaf3babd7"
+RPM_NAME = "pcp-pmda-infiniband-5.2.5-3.7.aarch64.rpm"
+RPM_HASH = "4008034671e80825df2cfbb05ca2f1644cd762141e664f747f973d9c457e06079ff8cc016d915c7bece136641d6c252429d8182f336393ac274f2a2c981ce659"
 
 RPROVIDES:${PN} += "pcp-pmda-infiniband"
 

@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.8.9"
 
-RPM_NAME = "groovy18-1.8.9-7.7.noarch.rpm"
-RPM_HASH = "c4c776bba5d9c599bab578d9f719334369d3183f3a504db84de150e3a55890837024e1a2863b34a9e49d19e62dd81de374347eea2d51b68a34ad1d0a60cae1a6"
+RPM_NAME = "groovy18-1.8.9-7.8.noarch.rpm"
+RPM_HASH = "7d095f74e2451a042f3cac75409a2fbd299aaf93998a03612e3e966f5845e681524fe4ecd2dccdde5388e398fb20993ea4c3c0a322d85c844752cb4d05f3da07"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-groovy18 \

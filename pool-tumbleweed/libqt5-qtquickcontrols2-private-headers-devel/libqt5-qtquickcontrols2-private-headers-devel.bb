@@ -3,10 +3,10 @@ DESCRIPTION = "You need this package if you want to compile programs against the
 of the Qt5 QuickControls 2 module."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.9+kde5"
+PV = "5.15.10+kde6"
 
-RPM_NAME = "libqt5-qtquickcontrols2-private-headers-devel-5.15.9+kde5-1.1.aarch64.rpm"
-RPM_HASH = "f5f5f41c4261d32fb99be0a4791a0098c8458c22c8ce876a50a71f6c66fadaa2d25219721baa49df603ded50353e9687f35234dc475cadb783b12d19851b49ae"
+RPM_NAME = "libqt5-qtquickcontrols2-private-headers-devel-5.15.10+kde6-1.1.aarch64.rpm"
+RPM_HASH = "601909248c96c55f60991a6b74f3eba5f282f3a8c78766c74ad43e203c704166ccaf0d2ccbd16f203cc327c2dd8bc38ce5bd1b7f8242e4a54f6adc3c05276422"
 
 RPROVIDES:${PN} += "libqt5-qtquickcontrols2-private-headers-devel"
 

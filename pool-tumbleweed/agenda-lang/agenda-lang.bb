@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.1.2"
 
-RPM_NAME = "agenda-lang-1.1.2-1.10.noarch.rpm"
-RPM_HASH = "2ea652b363378ee9f3bd4df38a8c4dd80c66ebd26c3aa8f06695252aced5ef6c36c02926d2167f1793a66dde5ad775deae653639d53186571b90fefb2f1fedbb"
+RPM_NAME = "agenda-lang-1.1.2-1.11.noarch.rpm"
+RPM_HASH = "e56bdb58d49d627a1903400dfe23fd18c66b44e5495a528e00ef429a22ff7ca6ee3b9a4619861d83c1f9ac83aa1df66d4d54140c77531f3c997ca8c643b77303"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "agenda-lang \

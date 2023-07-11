@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "62.3.0"
 
-RPM_NAME = "libjpeg62-devel-62.3.0-75.1.aarch64.rpm"
-RPM_HASH = "83c8d6362e86fe493fefb273ac1f96b78a03a73ede9362064455e4c2f7a1d19fa817299a9e547762bc80d8f3983b582c043bcdf42f1e0c7b9455abbf89dc5fcb"
+RPM_NAME = "libjpeg62-devel-62.3.0-76.1.aarch64.rpm"
+RPM_HASH = "af98fc9becdd0648a77d818f847302e5638710e26c9e210e95305a6b243ba055a484b22a4f04126a8f7e54871ab7bfc2f4bee141cd14014c98aba77801706dd0"
 
 RPROVIDES:${PN} += "libjpeg-devel \
 libjpeg62-devel \

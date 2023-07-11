@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
 PV = "3.3+git0.39e0cf712"
 
-RPM_NAME = "libganesha_nfsd3_3-3.3+git0.39e0cf712-5.8.aarch64.rpm"
-RPM_HASH = "a6af63be8f6ccd49d829b3226dbe565992d3da6ea37d2a24c79a794f35e0e2d3c0390c8715152e79b305bd28372417e3eafe0e58ab92a5aa61c2fb64b7b14410"
+RPM_NAME = "libganesha_nfsd3_3-3.3+git0.39e0cf712-5.9.aarch64.rpm"
+RPM_HASH = "aba854e4f3c7149e121e3779a352700c8f558bf590566ecd8bf3357a30ae5faa006b230cca289e98b2541695b32f3aa8abce584a36f6cde789eec688c6caba1d"
 
 RPROVIDES:${PN} += "libganesha-nfsd.so.3.3 \
 libganesha-nfsd3-3"

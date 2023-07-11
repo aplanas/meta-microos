@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.0.9"
 
-RPM_NAME = "gptfdisk-1.0.9-3.3.aarch64.rpm"
-RPM_HASH = "c8bb3f2b40e37fcef511a2ff77cae0465c7b4ea5fa3d3ff96f073ccc4e4f67fb29a08f0a11c24731fbf10c5cd28cafb5b9786888cf430dd5748e8557e188c36a"
+RPM_NAME = "gptfdisk-1.0.9-3.4.aarch64.rpm"
+RPM_HASH = "75866c724edc7ef81c0013280f7d5ff81822ad578466be87008e1d18c32b0a65bc30135332dc90c936cbb75c3f8047533d398f0ec802e4554568c666e887e540"
 
 RPROVIDES:${PN} += "gdisk \
 gptfdisk"

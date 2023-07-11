@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.3.0"
 
-RPM_NAME = "libcolord-gtk-devel-0.3.0-1.4.aarch64.rpm"
-RPM_HASH = "346fc2321be99842f1d9f2e848bb8c4e4d9670b88ed8be1bbabc5a1f3dca9529b290a5418198ffd54d8b304a3da91f320ad4d5546b27014a939d9b0cc5d6cc1e"
+RPM_NAME = "libcolord-gtk-devel-0.3.0-2.1.aarch64.rpm"
+RPM_HASH = "fb04899302126b72b747d5abc90e057f79ed7468e6a2bd38365a9771a69a50fae1d3976b8bfbbaf94f212d32b21f55a708ad53fee5923105509d39461c468ba5"
 
 RPROVIDES:${PN} += "libcolord-gtk-devel \
 pkgconfig-colord-gtk \

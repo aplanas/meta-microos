@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "6.1.4"
 
-RPM_NAME = "python39-softlayer-6.1.4-1.3.aarch64.rpm"
-RPM_HASH = "31446353ca85b756fac15b3263fa74b4f47973b700b258ad352ceac192dc956f5310050633cfe9913ee6871d374307656a74a8bafe3b02bec20d9d426d8e34d0"
+RPM_NAME = "python39-softlayer-6.1.4-2.1.aarch64.rpm"
+RPM_HASH = "213438000541ae86b634220e6053f1ff661909342a32392b90ec6260cabfaf2829c1709e3689a5b6bb7cb9117865394fb8dd2ec4a4c67712cc9c19c5c8dd297c"
 
 RPROVIDES:${PN} += "python3.9dist-softlayer \
 python39-softlayer \

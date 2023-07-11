@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0+"
 
 PV = "1.0.13"
 
-RPM_NAME = "octave-forge-vrml-1.0.13-1.22.aarch64.rpm"
-RPM_HASH = "0434fa43882e22d6d4f119a8d95a609f166b7a07a059625a6c9879934b604c4319f14420955cbaf2e0acceac40d20cdd289c41bc3fd7837da60a0f2d8d4770cb"
+RPM_NAME = "octave-forge-vrml-1.0.13-1.23.aarch64.rpm"
+RPM_HASH = "e7fcc07b72ba031d46d11f04b8dc89021c8aca280e323afe8e99b9534044f3a3be62e7d5a10366e165396ef28eeadf2a3fa1254c1bd2f9c67aaa082b3ab08f0e"
 
 RPROVIDES:${PN} += "octave-forge-vrml"
 

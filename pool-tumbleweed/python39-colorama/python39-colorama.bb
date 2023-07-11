@@ -16,8 +16,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.6"
 
-RPM_NAME = "python39-colorama-0.4.6-2.1.noarch.rpm"
-RPM_HASH = "8e5a064f47c31b5d42b4694c30415c32d4182001ef7107e2dff5b3751a0cc68dcd05d6b3dc0b706e2bd801e3b850b3c6d51d3b70744d3d63067f2942c8098214"
+RPM_NAME = "python39-colorama-0.4.6-2.3.noarch.rpm"
+RPM_HASH = "3a1edcb4d67f47d336b2f3d8e3d3f0f97fc850de6ea86c9605f836e58e6e2b11fed61a1b581df99f38dff0181b5c0ccd89a3cf5e3d8a99e2e17813653b7f5fc3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-colorama \

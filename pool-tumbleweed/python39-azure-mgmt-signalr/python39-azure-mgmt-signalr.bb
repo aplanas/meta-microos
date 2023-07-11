@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "1.2.0"
 
-RPM_NAME = "python39-azure-mgmt-signalr-1.2.0-1.2.noarch.rpm"
-RPM_HASH = "f0d146e3a6de5c95bac75ed621caab05214266f9d2911f48aacb1f686d6f66d3c6810d4c59f317f6b29e97618c81c7524ba980a4dd3cd0fa5714e80752614ead"
+RPM_NAME = "python39-azure-mgmt-signalr-1.2.0-1.3.noarch.rpm"
+RPM_HASH = "fc8f9084e957555c7fa50330628e7e801214dc962ecd8ece43dbecf5e2456125f4ee8b1950b7a0e2d271f9bb0956bf39e53058a912c2eace36ea18c7815c6e85"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-signalr \

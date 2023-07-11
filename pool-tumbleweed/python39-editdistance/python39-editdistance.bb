@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "0.6.2"
 
-RPM_NAME = "python39-editdistance-0.6.2-1.4.aarch64.rpm"
-RPM_HASH = "894be8d4180cd5f049b9d8c046659b5372070fb193afc6a152b4742195e1e324dc57c1eee5115caac5ddfcc996cb1d4e668043812dbd60b593ee0e52822a647e"
+RPM_NAME = "python39-editdistance-0.6.2-1.6.aarch64.rpm"
+RPM_HASH = "88312526a62b1f037f9946b445de47f437710339dde6cfd3939cc5da7998bb14e38c06cbd7bcc7298707e248a05fc7663c7eaba76f7e3cc116a33127719d7685"
 
 RPROVIDES:${PN} += "python3.9dist-editdistance \
 python39-editdistance \

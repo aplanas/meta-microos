@@ -2,10 +2,10 @@ SUMMARY = "Qt5 SVG examples"
 DESCRIPTION = "Examples for the libqt5-qtsvg modules."
 LICENSE = "BSD-3-Clause"
 
-PV = "5.15.9+kde8"
+PV = "5.15.10+kde8"
 
-RPM_NAME = "libqt5-qtsvg-examples-5.15.9+kde8-1.1.aarch64.rpm"
-RPM_HASH = "c6c29a2f9077dcb042109e700910a963c0adc53a720f595e6431011fd1a476954af64c4893a83b08af325a879b156697ac6140ee4b1ab577ce4fd323e906046d"
+RPM_NAME = "libqt5-qtsvg-examples-5.15.10+kde8-1.1.aarch64.rpm"
+RPM_HASH = "1949ba290b01019a02defbb3378997392a7767f926b303117daff9937dfeef2ee5464460ba6c5dea07ed1742c71e6645319af0986b49cd984a5f19515225cd5c"
 
 RPROVIDES:${PN} += "libqt5-qtsvg-examples"
 

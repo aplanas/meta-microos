@@ -5,10 +5,10 @@ APIs can be used in conjunction with a JCE/JCA provider such as the one \
 provided with the Bouncy Castle Cryptography APIs."
 LICENSE = "MIT"
 
-PV = "1.73"
+PV = "1.74"
 
-RPM_NAME = "bouncycastle-pkix-1.73-1.1.noarch.rpm"
-RPM_HASH = "527e2db9dbf9597223038a4f45955ea9cd9088b17903a503433e444a89213719003e1332b4ce389dbf97812de7bf4b17bb592de3d1b49549fc271be80d465120"
+RPM_NAME = "bouncycastle-pkix-1.74-1.1.noarch.rpm"
+RPM_HASH = "f191fc8c6a5df9c8513e3dbc8cf18fa37eeb98887b330aff0fb04c0730159b5f6c3d119b5f1c5f28103e9b89aa10bff3d3d4222ad639f51828b0d9d586ea34a8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bouncycastle-pkix \

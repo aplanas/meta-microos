@@ -11,11 +11,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.10.3"
 
-RPM_NAME = "python311-PyWebDAV3-GNUHealth-0.10.3-1.17.noarch.rpm"
-RPM_HASH = "6f5ffc5ec19a26366cf38a640512753491af1f9cdcaa0cc0d40fddb7d5683619caface6c07f94d4e580b41e1ba53b91ac95269a0a4771935351a8b31abb3352f"
+RPM_NAME = "python311-PyWebDAV3-GNUHealth-0.10.3-1.19.noarch.rpm"
+RPM_HASH = "a256982671e1d152180fb84bfdf53b65b5ac6152ce550969fc380c112c1097471ca79bebbea9f68a7cd07deabb6fdd7471e00658b1d9fafdb1179b249f4816e4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pywebdav3-gnuhealth \
+RPROVIDES:${PN} += "python3-PyWebDAV3-GNUHealth \
+python3.11dist-pywebdav3-gnuhealth \
 python311-PyWebDAV3-GNUHealth \
 python3dist-pywebdav3-gnuhealth"
 

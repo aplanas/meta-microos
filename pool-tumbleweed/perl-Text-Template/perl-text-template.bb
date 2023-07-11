@@ -14,14 +14,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.61"
 
-RPM_NAME = "perl-Text-Template-1.61-1.6.noarch.rpm"
-RPM_HASH = "f001dbda73f6973babf2738982240524228e88537230ff3aeaf0a10e06a7b61fd5d1b883530acc8464c386f94b7040963f651110dc49ba032c88e6606a2a4c29"
+RPM_NAME = "perl-Text-Template-1.61-1.7.noarch.rpm"
+RPM_HASH = "5c11401e3739942a7530a76856f941abe9186dfebfe8bb716b820cd62ee796f269eba9b2af1c85ebad8c6370faae4b451759266ae210b0c81633c7924a0e77a9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Text--Template \
 perl-Text--Template--Preprocess \
 perl-Text-Template"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

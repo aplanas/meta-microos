@@ -15,8 +15,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.5.30"
 
-RPM_NAME = "libgphoto2-6-2.5.30-2.1.aarch64.rpm"
-RPM_HASH = "27e84ab1e5851252ef04e4051374cb3e74b51216488b0e57389e9e23aafdd5e0765f4a3e05823906ce9a31c5fa6c7340c0afef41ec55c09d8a69d95026c66791"
+RPM_NAME = "libgphoto2-6-2.5.30-2.2.aarch64.rpm"
+RPM_HASH = "e7443b6e624970bbb836116cb3faffc4fc4f13b9a9f078b9e5fde2b70f966bc90e2be9636caacf8f17f3255c0de91dcf8bdeaa2becbb31006e06d932d63d12b2"
 
 RPROVIDES:${PN} += "libgphoto2-6 \
 libgphoto2.so.6"

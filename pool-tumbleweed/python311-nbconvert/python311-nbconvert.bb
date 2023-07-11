@@ -5,18 +5,21 @@ via Jinja templates. \
 This package provides the python interface."
 LICENSE = "BSD-3-Clause & MIT"
 
-PV = "7.3.1"
+PV = "7.6.0"
 
-RPM_NAME = "python311-nbconvert-7.3.1-2.1.noarch.rpm"
-RPM_HASH = "97c18cd8667cff08cf6d24214d3afa6a5134de95640b231f552d568fa172bb05385c4b35a8290ad169be6d1cff42b5c2c9aaa5eeefaae9e41e406cf64e80bc7a"
+RPM_NAME = "python311-nbconvert-7.6.0-1.2.noarch.rpm"
+RPM_HASH = "90bd4a2f162ccbe2ced463b86f700707eac00eff5b04109e4a268e3873b8095f52439c27e42897a9df394c2e6a4a45c338555918eb1bf09871beb74b97f7b227"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-nbconvert \
+RPROVIDES:${PN} += "python3-jupyter-nbconvert \
+python3-nbconvert \
+python3.11dist-nbconvert \
 python311-jupyter-nbconvert \
 python311-nbconvert \
 python3dist-nbconvert"
 
-RDEPENDS:${PN} += "-python311-mistune >= 2.0.3 with python311-mistune < 3 \
+RDEPENDS:${PN} += "-python311-bleach without python311-bleach = 5.0.0 \
+-python311-mistune >= 2.0.3 with python311-mistune < 4 \
 /usr/bin/python3.11 \
 /usr/bin/sh \
 alts \
@@ -26,11 +29,9 @@ python311-Jinja2 \
 python311-MarkupSafe \
 python311-Pygments \
 python311-beautifulsoup4 \
-python311-bleach \
 python311-defusedxml \
 python311-jupyter-core \
 python311-jupyterlab-pygments \
-python311-lxml \
 python311-nbclient \
 python311-nbformat \
 python311-packaging \

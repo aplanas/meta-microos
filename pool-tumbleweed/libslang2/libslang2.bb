@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.3.3"
 
-RPM_NAME = "libslang2-2.3.3-1.3.aarch64.rpm"
-RPM_HASH = "a8032b6a1b7f8aee329d442a76a2dcdc23d343582856cb8af8f616b1cfaf317537373ecc3e0aef2caa132b5bc2d6882506cfc5fbb37be5dc75abba2d5216647a"
+RPM_NAME = "libslang2-2.3.3-1.4.aarch64.rpm"
+RPM_HASH = "79e341ab380b9e709d206191d99fd5e4f23447f682041b606213d5b566f628fdafb5947015b8e83b918999b49ed83eb03ddb5e378f2d1f621bcc51389f9b1205"
 
 RPROVIDES:${PN} += "libslang.so.2 \
 libslang2"

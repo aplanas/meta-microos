@@ -9,10 +9,10 @@ libdmx allows clients to configure the layout of DMX servers by \
 adding and removing screens, input devices, et al."
 LICENSE = "MIT"
 
-PV = "1.1.4"
+PV = "1.1.5"
 
-RPM_NAME = "libdmx1-1.1.4-1.19.aarch64.rpm"
-RPM_HASH = "d91213b8e17820b76579094c940b1bc87ca7afd2436ee4fed51b93269f1a3821e0cd00152228bfec29eece44fda007d7ddfe5b17a847f49b4ff925bc7d94702b"
+RPM_NAME = "libdmx1-1.1.5-1.1.aarch64.rpm"
+RPM_HASH = "326ba89aaced2c02cbf84fc4c163f51006d6227bf3b037b1c2a9dad571217a34f372f7c7c6db82c39d115c3a6785e7220361eb2fa2c21f7174097e19911b9ccc"
 
 RPROVIDES:${PN} += "libdmx.so.1 \
 libdmx1"

@@ -5,12 +5,11 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.4.4"
 
-RPM_NAME = "python310-calmjs-3.4.4-1.1.noarch.rpm"
-RPM_HASH = "3467b779fc73e0f3590fc3891f816b3ba2a3e9fbfe277150ff2ef1540ebaf635ce2cd95def07089077a7122a59418fd76c15d95398bd872a3da214a218e95164"
+RPM_NAME = "python310-calmjs-3.4.4-2.1.noarch.rpm"
+RPM_HASH = "4a0f73bbd015633e06f2302ca6cb62594a0cf4393b776b22f510a4a008e98364191d19c9ea3d5115a06ce7f35238470f56a2a029a3a576631cabeb287f72373c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-calmjs \
-python3.10dist-calmjs \
+RPROVIDES:${PN} += "python3.10dist-calmjs \
 python310-calmjs \
 python3dist-calmjs"
 

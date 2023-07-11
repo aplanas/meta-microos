@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "5.13.3"
 
-RPM_NAME = "pagure-ci-5.13.3-1.4.noarch.rpm"
-RPM_HASH = "bbfa71a5f6aa9213ec1e2edbd4790b06b1cceab0833b5b6e165a5af5bcf3d6642dd9194c31ba131e009856acc1c6bf64e8ae54bcc17e18bde71f5b9c563912b2"
+RPM_NAME = "pagure-ci-5.13.3-1.5.noarch.rpm"
+RPM_HASH = "a17d0c7f50e53b041f98b0bcc14597bbba3190de7d53f57682340e776e35969aab53779c3b2096c83984da5f743d848e412d9ee9a29553732082e96216a0175c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pagure-ci"

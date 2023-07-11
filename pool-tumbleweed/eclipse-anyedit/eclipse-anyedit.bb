@@ -5,8 +5,8 @@ LICENSE = "EPL-1.0"
 
 PV = "2.7.1"
 
-RPM_NAME = "eclipse-anyedit-2.7.1-2.7.noarch.rpm"
-RPM_HASH = "51561f6955096ea4fcc083ba8dd205156477746273a8ea9fd54312f03d4509e6489d657d72cf23cf0234ec3d9eedcc1ec335acbf0e7c030a45539153ef0d5d3c"
+RPM_NAME = "eclipse-anyedit-2.7.1-2.8.noarch.rpm"
+RPM_HASH = "93d797005311b4f37823b0951cc851ce6374e834367ea932281d10bcb9d9707884428bf8382c4765f8254b204da0afda756a3f9d06a0edf96aa3fbd6b9ad67b3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eclipse-anyedit \

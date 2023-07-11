@@ -15,8 +15,8 @@ LICENSE = "Apache-2.0 | EPL-1.0"
 
 PV = "9.4.51"
 
-RPM_NAME = "jetty-server-9.4.51-1.1.noarch.rpm"
-RPM_HASH = "ab7103a66fba4caf8b8ca5d98ece3cb7971793a242a722e6446744bbda3d1ba3e8d665b440128f6f989bdc64c8f35e1c5ca739af3e175c5015029344efb37738"
+RPM_NAME = "jetty-server-9.4.51-1.2.noarch.rpm"
+RPM_HASH = "5fa6329eeabb632c34d4a85d58ecac0ef375ab18f0adf8bd84159bf1a1a6c3ede41d2705caa9d1a375bedc8510fc94e2310e686aa6a674d8e09ede0582823ae7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jetty-server \

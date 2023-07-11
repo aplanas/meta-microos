@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "3.2.0"
 
-RPM_NAME = "python39-basictracer-3.2.0-2.6.noarch.rpm"
-RPM_HASH = "da0e15249d0cce3218e54fa2c328058cb590fe511d5686f9a82393dc3dbdb708fa3f15932ac8d00eaa1d97c88c654babed568c43f035b2ac7742b7a3d9305e1b"
+RPM_NAME = "python39-basictracer-3.2.0-2.8.noarch.rpm"
+RPM_HASH = "aabef991123a59e1e66d6694de057587a2564ae1089949ecd3efc6aabf8478efb1a70f0ba519cb5d76d181068a52dddbb64729538d91996ac9ca0ce2f42b48e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-basictracer \

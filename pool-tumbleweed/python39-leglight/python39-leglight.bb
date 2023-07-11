@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.2.0"
 
-RPM_NAME = "python39-leglight-0.2.0-1.6.aarch64.rpm"
-RPM_HASH = "173003087700a871e1196abc357f3adca5b729ea530e2aca13646ecd14c963f710320733f3060b56d68e1faaa19d4a104e3d0988c9efa30ffe1df039cdb6d448"
+RPM_NAME = "python39-leglight-0.2.0-1.7.aarch64.rpm"
+RPM_HASH = "4b2fe8e454d0e0bc04add168e45b9acb1ff1a37e8a93eac4e9187b4c38f538cae6d23725d67eed26244e56cd0476861aab84c374f93f5fbf4994cc02a4ddd7c4"
 
 RPROVIDES:${PN} += "python3.9dist-leglight \
 python39-leglight \

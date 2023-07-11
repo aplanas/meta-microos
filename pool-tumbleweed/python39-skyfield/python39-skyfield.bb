@@ -5,16 +5,13 @@ LICENSE = "MIT"
 
 PV = "1.45"
 
-RPM_NAME = "python39-skyfield-1.45-2.4.noarch.rpm"
-RPM_HASH = "0c1d15e2dc1e23e84b20f1f11e1f5f89cf15917db081e270edc7d3d83218c5bb1c8b798c548f486555ad6f5d99625345468e27aba5e74582f500b1a0fe67e975"
+RPM_NAME = "python39-skyfield-1.45-2.5.noarch.rpm"
+RPM_HASH = "a6bf5e865e86d9854f614eb4a8a7fd5071d0d6ede9a0c1114052ca533f195d3748f574e44440f4e12ac62a6d0e09a85df10f7ff90d7913dba594508ce5f22f59"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist-skyfield \
-python39-skyfield \
-python3dist-skyfield"
+RPROVIDES:${PN} += "python39-skyfield"
 
-RDEPENDS:${PN} += "python-abi \
-python39-astropy \
+RDEPENDS:${PN} += "python39-astropy \
 python39-beautifulsoup4 \
 python39-certifi \
 python39-html5lib \

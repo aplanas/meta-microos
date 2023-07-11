@@ -5,10 +5,10 @@ other projects. \
 Development package for kpmcore."
 LICENSE = "GPL-3.0-only"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kpmcore-devel-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "891e958b2f09991c854b96bc0a821262639271f7cd2a2410a67b7f14ff5bf96aae31810adbb928a75679870121221ec16a6b430138b4dbed13f6d8b93f6e65fc"
+RPM_NAME = "kpmcore-devel-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "315ad113605f89d71a1bb46941dd19e202265fcc437217798cf23ea5c3d919a6899e04fb1ac0da12cd554009c4223efcc8e896a3a11eb2ef0677ed8158a8fbaf"
 
 RPROVIDES:${PN} += "cmake-KPMcore \
 kpmcore-devel"

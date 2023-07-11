@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "6.0.3"
 
-RPM_NAME = "python39-ftfy-6.0.3-1.7.noarch.rpm"
-RPM_HASH = "06dd136a8cd224a00ae4a16930e351fdae2869d142980b7aee3fca82253ff88f465c76d6067fbff83f5f89a02a34406c0fa66474ec2b36fb9154221414e1b355"
+RPM_NAME = "python39-ftfy-6.0.3-1.9.noarch.rpm"
+RPM_HASH = "b3575326caa038af7d877c378dc191a4b79d8b0de0cc1fa42f41ba22196a654e91751ee8edf2509dd459e1cde76955a18d8cd0de176ac7e4257f77f2cacb735a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-ftfy \

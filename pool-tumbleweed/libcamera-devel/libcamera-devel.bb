@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "0.0.4"
 
-RPM_NAME = "libcamera-devel-0.0.4-2.3.aarch64.rpm"
-RPM_HASH = "6ece461c6dd722873294c4b72b3ba6f452f86821f8f59712470ce72b97e5293dd5863ca22e55a8b89c3f83301f0cc810411b01caee590238ec899d95114b4087"
+RPM_NAME = "libcamera-devel-0.0.4-2.5.aarch64.rpm"
+RPM_HASH = "d44b2c0dacb4d49e879fac86706ee10df5a22763dbe7d523493e2e7c88b29cb90667498dd2f9d5d6734534bc0066f5af834d0c7e48bebd09e44b7448b543eccd"
 
 RPROVIDES:${PN} += "libcamera-devel \
 pkgconfig-libcamera \

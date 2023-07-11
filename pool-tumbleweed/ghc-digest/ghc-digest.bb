@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.0.1.7"
 
-RPM_NAME = "ghc-digest-0.0.1.7-1.3.aarch64.rpm"
-RPM_HASH = "0a7e3e2b5765c3281b74ae7c6463032c9694b37cd12a5c412dc987ac603b5256dcacdeedcb83ee0bc860106f7b76ff46e57a23198aeeb36a32e0ab2ecd89039e"
+RPM_NAME = "ghc-digest-0.0.1.7-1.6.aarch64.rpm"
+RPM_HASH = "9a0d00bf7d8fea460b9a97b5658bee863ec318188089ee30824274cd2eec2fb30e1a3b0fe588a2c3faf54dd9da5fbb348727b70d3de8895d4800c760ada917d3"
 
 RPROVIDES:${PN} += "ghc-digest \
 libHSdigest-0.0.1.7-CCCN8814sFy3HuiyT8t94G-ghc9.4.5.so"

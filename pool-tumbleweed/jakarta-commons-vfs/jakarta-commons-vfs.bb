@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0"
 
-RPM_NAME = "jakarta-commons-vfs-1.0-33.6.noarch.rpm"
-RPM_HASH = "e4304a4ee2f1eebeea8377ddc8993cadda111a8797d48248fc66e9e4c02fb6186096d8b688854f8b3f481a22ff95fa9418e9258bd1687f0fba2e623fc6820a5b"
+RPM_NAME = "jakarta-commons-vfs-1.0-33.7.noarch.rpm"
+RPM_HASH = "713c84291367463c449af3feb070091a5abb5bfd02b54f7f87398ba6eb6cbfb33dabc174254e82590541a9a2c1892add7d60f083365f13938b4e7b39f1556060"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jakarta-commons-vfs \

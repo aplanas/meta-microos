@@ -4,12 +4,11 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.1.1"
 
-RPM_NAME = "python310-python-fedora-1.1.1-1.4.noarch.rpm"
-RPM_HASH = "b13398eae9ee0f84503833fb19bd2bb1d9961bd530916387b1b86300eeffed46383e1bcb6c18a3e30ed5458c0b4ca7c8fcc0dff357385c4c6d1fad42aae96f29"
+RPM_NAME = "python310-python-fedora-1.1.1-1.6.noarch.rpm"
+RPM_HASH = "bd7a0e3d10d67193b29d1c637c758ee883e0d3fbee8739deb8c5783667b6263918cde841289edf78749ffc7cd2efbb631e80e3893541dd5af4fbe244ec912d6c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-python-fedora \
-python3.10dist-python-fedora \
+RPROVIDES:${PN} += "python3.10dist-python-fedora \
 python310-python-fedora \
 python3dist-python-fedora"
 

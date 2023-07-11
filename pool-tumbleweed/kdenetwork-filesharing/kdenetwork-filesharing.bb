@@ -3,10 +3,10 @@ DESCRIPTION = "Network File Sharing configuration module and plugin. \
 Used for configuring Samba shares."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kdenetwork-filesharing-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "ee5873ad0c7a5fa91e8e66d62e120710c1fc90c959d806c427b768a14f3e7681b5a91ff8085fac5894d17990b294d6a168e3eb120ee5332bca919b41bce3b2c5"
+RPM_NAME = "kdenetwork-filesharing-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "b579884d767a953ed6b8b969878df1d3c022cce7bc0b2cced514ab6168161bb6d97561d019a6cf753aac9998cda05e22da10175c18956ae2e97dc555f7074fc4"
 
 RPROVIDES:${PN} += "kdenetwork-filesharing \
 kdenetwork4-filesharing"

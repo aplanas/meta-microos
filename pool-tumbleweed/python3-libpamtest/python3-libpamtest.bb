@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.1.4"
 
-RPM_NAME = "python3-libpamtest-1.1.4-2.3.aarch64.rpm"
-RPM_HASH = "538c595af7686293d16f4384b3f52b4ac04a9ca05bf88ab2e131338fdbdab875a7303efcc4973eb84987fe985f9e2df7e74b6effcf0f49a478db398aea39454e"
+RPM_NAME = "python3-libpamtest-1.1.4-2.4.aarch64.rpm"
+RPM_HASH = "8cac1752b5bb69992dfb64be12740deb5a35d1a82c95119f9427553d01e95904619d5fade0339ff3f2d8356bdf306d79b35f91297505f767675b83fce85bbfc0"
 
 RPROVIDES:${PN} += "python3-libpamtest"
 
@@ -15,7 +15,7 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libpamtest.so.0 \
 libpamtest0 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 pam-wrapper \
 python-abi"
 

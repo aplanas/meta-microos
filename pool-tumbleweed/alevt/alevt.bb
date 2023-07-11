@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.8.1"
 
-RPM_NAME = "alevt-1.8.1-1.8.aarch64.rpm"
-RPM_HASH = "71f72d107db7080bacfbd681b49c9e96b8a15535f4b55eabc25d70e9a39add9ba2c2f4a16776890c79a217aa01ce2560be9dc71ac76f7e7c50eeccfb694a3def"
+RPM_NAME = "alevt-1.8.1-1.9.aarch64.rpm"
+RPM_HASH = "168630a69c99c4599c28310ceec38a8d5597f21dca9ba4e1c450e56a30cf47cc684fe487c25f4df8af6029266841ab049a0a6b2f83f62c9a4fce9e1710da6cc2"
 
 RPROVIDES:${PN} += "alevt"
 

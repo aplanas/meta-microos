@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.4.0"
 
-RPM_NAME = "python39-azure-synapse-managedprivateendpoints-0.4.0-1.8.noarch.rpm"
-RPM_HASH = "741546f86c9c477bf370d9ed49e82f41d21974745d0d0fac7c0269b3f36bd1b664322850168a84155573dd0a3491c4c256e60f24a7f6d0d30d3d539f8b92d6d0"
+RPM_NAME = "python39-azure-synapse-managedprivateendpoints-0.4.0-1.10.noarch.rpm"
+RPM_HASH = "8b05c809b46de522dd5a936fdaf713860dabdd02c7ec56cdca28f4acecca8f0e563ec4edc039d5e143f3021331fff0f1c404e2e752670d0988c9419f34504ca0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-synapse-managedprivateendpoints \

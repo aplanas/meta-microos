@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.26"
 
-RPM_NAME = "libaccounts-glib-devel-1.26-1.3.aarch64.rpm"
-RPM_HASH = "3e27e1d7c96229240c5301bc3a67c50870343c92bb3834562922784c152b6c6170c3a11cd4ce1145a6ecf6e5b6aae76654da5986ef1b94727d7bce52e937fecb"
+RPM_NAME = "libaccounts-glib-devel-1.26-1.4.aarch64.rpm"
+RPM_HASH = "fb745ba0daa227029d7c7729fa77369e07840c3e8cda7c59b7fd2e88da71cd1d79d010f2ced18e0538af96da35de6beba600f9f765efe9de12744bc4e04a89f1"
 
 RPROVIDES:${PN} += "libaccounts-glib-devel \
 pkgconfig-libaccounts-glib"

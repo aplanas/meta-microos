@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.18.0"
 
-RPM_NAME = "erlang-rebar3-zsh-completion-3.18.0-1.1.noarch.rpm"
-RPM_HASH = "820450d3ec015d50a839a6c20050ef596f322cff9c717a7d4f037a47939a928f5f19a07fb7b57896e5860aa47b14fdb4f538e41e22bbd8b451a26271d86bc14b"
+RPM_NAME = "erlang-rebar3-zsh-completion-3.18.0-1.2.noarch.rpm"
+RPM_HASH = "2ce3926516e975c28b6a1651121da01357cd899b7d21cb423ab942f32ce16ef67fa7cdfc808dbf4dddaeb44d2e63ee84b5787c8f3f009b6e7c1d1737c8dc0b69"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "erlang-rebar3-zsh-completion"

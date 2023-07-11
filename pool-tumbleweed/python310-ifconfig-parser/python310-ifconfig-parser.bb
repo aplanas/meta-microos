@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.0.5"
 
-RPM_NAME = "python310-ifconfig-parser-0.0.5-1.14.noarch.rpm"
-RPM_HASH = "eef19de4f23594d1d658a9b4832d90c8b11f0ebdace8f19cdd64d3e9b87217e72fa7727c1632eec95a94a1eb46ef7d6f438d157678e60824e6314ab3dcc5b49e"
+RPM_NAME = "python310-ifconfig-parser-0.0.5-1.15.noarch.rpm"
+RPM_HASH = "ecc660d326aa7f0ba7512b23ee2d671813d63985a8fb5b820aab4991cfccba4e147555b8f4e61c9783ec22c789797b8e515011b9f22974f48fd62fad2b0cfa2a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-ifconfig-parser \
-python3.10dist-ifconfig-parser \
+RPROVIDES:${PN} += "python3.10dist-ifconfig-parser \
 python310-ifconfig-parser \
 python3dist-ifconfig-parser"
 

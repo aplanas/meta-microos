@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "8.11.7"
 
-RPM_NAME = "docker-client-java-8.11.7-3.10.noarch.rpm"
-RPM_HASH = "ad64f6e01c12dc9f826df081865073fcf6cf99a50c73945ac2fc0acdaa65649dfe073e88b813a9ff3c53ff1ee61b1ee4b716a73bbce6609b18503b2a82b42996"
+RPM_NAME = "docker-client-java-8.11.7-3.11.noarch.rpm"
+RPM_HASH = "9ea2877024e169e788c42f09a6a72d50346e570747c93e81541e21535045ef31c9020dd3c9ca55f48b0241e6b90c8b2ce6ec5837d31e5a2a7858d1304e04d1f9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "docker-client-java \

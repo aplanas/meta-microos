@@ -3,10 +3,10 @@ DESCRIPTION = "Neochat is a client for Matrix, the decentralized communication p
 messaging."
 LICENSE = "GPL-3.0-or-later & GPL-3.0-only & BSD-2-Clause"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "neochat-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "a57b4b896afe31da24833064331d583d5953f3f74158cdd0cc1f244867bb05e85c970f671db49dcaf18166bc7f89a387af6d6a0ea5084728de2c271c90864820"
+RPM_NAME = "neochat-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "c0d532aa57bf72047e1762bc64531c44dafaf5dc7ae7f860874461ff296dc77d48d6d8d5036842d1d415c11965a13eb4d678dffb0b12c98842af52ffc3eed086"
 
 RPROVIDES:${PN} += "neochat"
 

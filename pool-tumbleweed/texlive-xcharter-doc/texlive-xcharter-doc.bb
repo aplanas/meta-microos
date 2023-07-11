@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.24svn63057"
 
-RPM_NAME = "texlive-xcharter-doc-2023.201.1.24svn63057-52.1.noarch.rpm"
-RPM_HASH = "0c2fdbe057a9661ec3d98904aff999cb1a8d2b37819e445bd23c687edbc6e774eb1bc94cf289ea91a0a895e97266d90dcfae9a123e1cfdf752e8a30be1e6adc7"
+RPM_NAME = "texlive-xcharter-doc-2023.201.1.24svn63057-52.2.noarch.rpm"
+RPM_HASH = "22414ec9ea05d56e25da6a5871aac38cbce460475c4eb8e4b0394affbb0ea896c8971910a7db4ef58d40df8a7e78897e13eb5f8a587369eaec80687c7aaf7fb5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xcharter-doc"

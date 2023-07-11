@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "0.6.2"
 
-RPM_NAME = "python311-clikit-0.6.2-2.16.noarch.rpm"
-RPM_HASH = "522366cfadf6de64f11f99cd1450f0ca7a32f80103d559dbe7ec108fbb3ce4db7be732681357245774b2b73725ef87241d7ae6f5c52c891d2918142d950b7602"
+RPM_NAME = "python311-clikit-0.6.2-3.1.noarch.rpm"
+RPM_HASH = "b5581ee469344c2052984bab60d2c2dac7c5e9dcf5808149d4f015564a8a27d1c23d04192fbf1ee4e581497d3045ab7780a06a8cb42cb16188dbc4fc6f822b46"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-clikit \
+RPROVIDES:${PN} += "python3-clikit \
+python3.11dist-clikit \
 python311-clikit \
 python3dist-clikit"
 

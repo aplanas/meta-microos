@@ -3,10 +3,10 @@ DESCRIPTION = "Alacritty is a terminal emulator written in Rust that leverages t
 rendering."
 LICENSE = "Apache-2.0"
 
-PV = "0.12.1"
+PV = "0.12.2"
 
-RPM_NAME = "alacritty-0.12.1-1.1.aarch64.rpm"
-RPM_HASH = "f30b58cf4c1a486ef62cd2062a2ec1bfc2c5e302db8308f0795ffd607895300f8a1d650083c1afc9e1d9470d6cb92f3c2c96fe1f8b08f6f71cf9e3a50acbfe68"
+RPM_NAME = "alacritty-0.12.2-1.1.aarch64.rpm"
+RPM_HASH = "8006c96a1d526869095808960094b5551caccca2d5c0b5a0f6816e3f362d731c7ef4d9cb63205b1fbbaf467d015fd04d4b94df57eed9681c754c7e7ad3c33ad5"
 
 RPROVIDES:${PN} += "alacritty \
 bundled-rust-crate-adler \

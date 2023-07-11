@@ -3,14 +3,13 @@ DESCRIPTION = "Metapackage for the jupyterlab_server[test] requirement specifier
 without code coverage."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.22.1"
+PV = "2.23.0"
 
-RPM_NAME = "python310-jupyterlab-server-test-2.22.1-1.2.noarch.rpm"
-RPM_HASH = "9b833f92a58fcac361da88d1906cf6397a4441d94e625ceec6858a7d991e7d2d5891504273206e6350e548fa1c6894a9af168883d8468aec56df5c979602d041"
+RPM_NAME = "python310-jupyterlab-server-test-2.23.0-1.3.noarch.rpm"
+RPM_HASH = "5ce75dee1118f8fafe3304b5389eb9d63a8ca8003def6638802976bd7bef7773da1c44c9b2032857c3f8154a59782d9612dedcf0068080a1ab8e378813ef0599"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-jupyterlab-server-test \
-python310-jupyterlab-server-test"
+RPROVIDES:${PN} += "python310-jupyterlab-server-test"
 
 RDEPENDS:${PN} += "-python310-openapi-spec-validator >= 0.5.1 with python310-openapi-spec-validator < 0.6 \
 python310-Werkzeug \

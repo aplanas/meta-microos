@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.6.0"
 
-RPM_NAME = "screengrab-2.6.0-1.1.aarch64.rpm"
-RPM_HASH = "14afb1358dc701495b11169c401097ff7adb03d1872f5668062de1e61e72917efa7d6b1e217e2eb5f379e3247be095090aed3ae38b3131a327b203ed4d4cf6a8"
+RPM_NAME = "screengrab-2.6.0-1.2.aarch64.rpm"
+RPM_HASH = "e96cbd99e5feab6eb15dc94d97acfb1009467ff90d0c2e1c8c2405022798d9cfbb1457a6281af84e555ee85629a0f7811a531272c244a107c7e418fb2bfebb63"
 
 RPROVIDES:${PN} += "screengrab"
 

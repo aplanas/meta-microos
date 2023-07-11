@@ -10,8 +10,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.85svn65551"
 
-RPM_NAME = "texlive-xstring-2023.201.1.85svn65551-52.1.noarch.rpm"
-RPM_HASH = "80cfed4ab3166775976da07d8e43458e0524ff2ae9d69945fb8d3601de7ca79b10deeb7ea62ea3e3a58c7a23392ce43ece852db47d8b382911e32a55f24fdf7a"
+RPM_NAME = "texlive-xstring-2023.201.1.85svn65551-52.2.noarch.rpm"
+RPM_HASH = "c2d15d6d7474d4a6954e6a558333f796c6d2f22f4ce6a703982f9933535d4346b900f6da8ed3cdd5ac7a56e2b9cba66ae1e33c7558dd9589047fba8452052e6a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xstring.sty \

@@ -10,8 +10,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.14.1"
 
-RPM_NAME = "libtevent0-0.14.1-2.1.aarch64.rpm"
-RPM_HASH = "daf872aca6273ec683effa70126f4b451dc4958ca7d4e11ec1180327a6bf3702ab020a7036969fa34de652769402fa43b508b58806e8e2bead33f4b8fd33168c"
+RPM_NAME = "libtevent0-0.14.1-2.2.aarch64.rpm"
+RPM_HASH = "b2d024657276c08a3ae76c62abc6b69aa576a77ce1173247d3fa01def0545ebd464154f67bf92973a3390b76288dfae633a53eb0f1d738b9c7db929ac7f8cd4c"
 
 RPROVIDES:${PN} += "libtevent.so.0 \
 libtevent0"

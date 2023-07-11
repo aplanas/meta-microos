@@ -12,10 +12,10 @@ The framework is used to build a modular daemon that can be configured to: \
 This package contains X11 bell support for PipeWire."
 LICENSE = "MIT"
 
-PV = "0.3.71"
+PV = "0.3.72"
 
-RPM_NAME = "pipewire-module-x11-0_3-0.3.71-3.1.aarch64.rpm"
-RPM_HASH = "6527bc02cd18d1f2dfbccb610525f3e53e16b01f2a689a70e145d06e0d54ec41c7469993b27a07b688fb42e94489b1b383c264a20a59a793fc6de10f0cefab20"
+RPM_NAME = "pipewire-module-x11-0_3-0.3.72-1.1.aarch64.rpm"
+RPM_HASH = "01645427cf7c8c035ada8db7c02469e9a9c16b11b1540fd7434f98160b59117877cb67341e69b6eebb85a276dab0e676abed6ca8e2531089f0efc7eb7006d043"
 
 RPROVIDES:${PN} += "libpipewire-module-x11-bell.so \
 pipewire-module-x11-0-3"

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.0"
 
-RPM_NAME = "python39-py-moneyed-3.0-1.3.noarch.rpm"
-RPM_HASH = "bba0adad3b31bd5c9e88f31c2deb36aa126aeaf1ba375313f1bfe70b47a27cda24f3c418ea18f9a7db182829e2408f30f8f5542ce7f7978ab68295618106f204"
+RPM_NAME = "python39-py-moneyed-3.0-1.5.noarch.rpm"
+RPM_HASH = "32efe8ef3aa6085cd5c3a339e6579340814ed0e3a3903d47706c373abf716c5ca249efe92d1cfd61daf8911ba729bb4da816414f513ca920ab454ea3cefb8b99"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-py-moneyed \

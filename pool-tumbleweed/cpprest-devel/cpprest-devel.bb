@@ -8,8 +8,8 @@ LICENSE = "MIT & BSD-3-Clause & Zlib"
 
 PV = "2.10.18"
 
-RPM_NAME = "cpprest-devel-2.10.18-1.14.aarch64.rpm"
-RPM_HASH = "3eb1dad982f36df269ce97302d036ffb13a3ec2d6f27c21cad73fe63943dcc75b7f8756f7f473972a3edf5550ac7ec0b8969beb60a4a1514b7985dabe1aae0ad"
+RPM_NAME = "cpprest-devel-2.10.18-1.15.aarch64.rpm"
+RPM_HASH = "4af9e516351114b6862f9159be5d2efb8aec027f0d67484587295b78fb109082fa560848b8af1c23a641e2fe4007809111ed4e9fb52a298a692d7dd0d5ff526a"
 
 RPROVIDES:${PN} += "cmake-cpprestsdk \
 cpprest-devel \

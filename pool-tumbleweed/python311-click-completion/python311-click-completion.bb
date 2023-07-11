@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.5.2"
 
-RPM_NAME = "python311-click-completion-0.5.2-1.13.noarch.rpm"
-RPM_HASH = "c38540522fe2994f86cea997874dc67124d62fe4eeb53adb9bdd9079f0a5e3a95d2ff7e4d5cfc113d63ccfa9915f7cedace5a053ea7b9fbaac1ae9ece1ac4505"
+RPM_NAME = "python311-click-completion-0.5.2-1.14.noarch.rpm"
+RPM_HASH = "97001bdf523ec97439310649d5cfc1e38ceba322530615305417156d07fd40f3240cbebe4e7d2322ea8b1a56065137164fdb4a7bf72a5cf4d19706bd46e9a950"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-click-completion \
+RPROVIDES:${PN} += "python3-click-completion \
+python3.11dist-click-completion \
 python311-click-completion \
 python3dist-click-completion"
 

@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.0+"
 
 PV = "1.0.2"
 
-RPM_NAME = "ocaml-camomile-1.0.2-3.25.aarch64.rpm"
-RPM_HASH = "f25ae8ec05f5236cb1aa799a1763af2eeea1e4b449c861382eeca217d478542fb100beb188384312e4e8c91157feade763379fe08a904c1b646f39bf79d4b808"
+RPM_NAME = "ocaml-camomile-1.0.2-3.26.aarch64.rpm"
+RPM_HASH = "b0298c0020c03ea0f26ef518e67bc0a258ccca56786827f28b13302ede58f9243090d8052d9f07a49f7f03cf1c9e2cdba753c14fcd52ad05984ed73a53b617a3"
 
 RPROVIDES:${PN} += "ocaml-camomile"
 

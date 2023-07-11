@@ -5,12 +5,11 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.3.6"
 
-RPM_NAME = "python310-wadllib-1.3.6-1.8.noarch.rpm"
-RPM_HASH = "6c4c0b6a4a9edf2b7a4a7581217b411c266025cc2ce05e9fc6b7b372ca0a832f3548f963eda1174b900817644b3e2db8376ae7208a9b06313959c2bf19fa3e84"
+RPM_NAME = "python310-wadllib-1.3.6-1.10.noarch.rpm"
+RPM_HASH = "6eaca4a03e487989363bd2b130a612cac69ff9484716d4a06992d75cc48f17b43b1800e817d7d320cd3be86598579668ab7c4afa8782f9aafebd9824e46b161d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-wadllib \
-python3.10dist-wadllib \
+RPROVIDES:${PN} += "python3.10dist-wadllib \
 python310-wadllib \
 python3dist-wadllib"
 

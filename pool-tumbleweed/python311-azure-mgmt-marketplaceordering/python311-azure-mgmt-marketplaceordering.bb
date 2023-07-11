@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "python311-azure-mgmt-marketplaceordering-1.1.0-1.8.noarch.rpm"
-RPM_HASH = "b63d64881186fcb8b542f9adbef021572492afb6e4b5d4a784059aa6ca810914492a8f621acaf7a2f984d8abb6f9fabfdfc076787abe8120017c07a829c50c99"
+RPM_NAME = "python311-azure-mgmt-marketplaceordering-1.1.0-1.9.noarch.rpm"
+RPM_HASH = "0f5464a82af4ddff4cdabb9d53b67a716384734b2469c4260a9a80a1c950f57f6fd618b57c2a18db40793bab0de9e0c0b02ca27143cbdb7ba06741d1cec1aaed"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-marketplaceordering \
+RPROVIDES:${PN} += "python3-azure-mgmt-marketplaceordering \
+python3.11dist-azure-mgmt-marketplaceordering \
 python311-azure-mgmt-marketplaceordering \
 python3dist-azure-mgmt-marketplaceordering"
 

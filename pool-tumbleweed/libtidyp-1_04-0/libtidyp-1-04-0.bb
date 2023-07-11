@@ -13,8 +13,8 @@ LICENSE = "W3C"
 
 PV = "1.04"
 
-RPM_NAME = "libtidyp-1_04-0-1.04-16.27.aarch64.rpm"
-RPM_HASH = "cde6686fbedbef80cf0883e7a230f61815a4c9ae03403a26e668365237a95722f586b12cd47342095745d1be5b5a30cce013fe2b1bb56bb8575ebe0a7dc44e83"
+RPM_NAME = "libtidyp-1_04-0-1.04-16.28.aarch64.rpm"
+RPM_HASH = "ab5db21c408bf85eebdf28295e5b40cc9a8774fe5c9a6f336d45d0d09c542fefbb33a8e981deecfca31afbf7a2896f88ab985ba6b16bef00d5a7cd5b53ae15bb"
 
 RPROVIDES:${PN} += "libtidyp-1-04-0 \
 libtidyp-1.04.so.0"

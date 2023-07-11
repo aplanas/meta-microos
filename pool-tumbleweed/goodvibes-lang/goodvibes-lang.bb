@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.7.6"
 
-RPM_NAME = "goodvibes-lang-0.7.6-1.3.noarch.rpm"
-RPM_HASH = "230235d79c23a298930e47522b4a456c886e0e5bf495eeb7c99a8883e71bc8847414b4eca648ced0d6b3f66f2be1bbcf7dfcff470ab2349c6bd8870b2ac05e92"
+RPM_NAME = "goodvibes-lang-0.7.6-1.4.noarch.rpm"
+RPM_HASH = "5e981cf71f40a58b762d82054ea3b094d48d0ff1a9ad1612f02e5e34c154b0168c23e71aed424d7db1c6264ba491b4c770301635844f2eb699acf58488ecc2fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "goodvibes-lang \

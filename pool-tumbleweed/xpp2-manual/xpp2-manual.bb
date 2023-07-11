@@ -6,8 +6,8 @@ LICENSE = "Apache-1.1"
 
 PV = "2.1.10"
 
-RPM_NAME = "xpp2-manual-2.1.10-30.6.noarch.rpm"
-RPM_HASH = "908acfe28ee40fe6fb00c4627400245c53678dea079b88bfbe3497b3e428eec389ea422403e535853e44f7313a770a3c95e629ca7d30bf2ece42fbb65d0e2005"
+RPM_NAME = "xpp2-manual-2.1.10-30.7.noarch.rpm"
+RPM_HASH = "e820d5b4877daba84a1a69be8fa6ef509dc706083267e7f9a14551e647732e16520c788bbee166d762b492da9736474bccfeccd5d71a9921538fb7421339af6a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xpp2-manual"

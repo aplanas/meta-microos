@@ -5,8 +5,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "0.6.2"
 
-RPM_NAME = "ghc-control-monad-free-devel-0.6.2-4.3.aarch64.rpm"
-RPM_HASH = "ee04802c00cae2ddade49343ebf303738e7895f9772342ae8ce0b424c2a399dfe3147524a35bb59a00685928009501ea47c812eda04dda53cac04a2162f1b2cb"
+RPM_NAME = "ghc-control-monad-free-devel-0.6.2-4.6.aarch64.rpm"
+RPM_HASH = "0162e2fc35bfc63299586bed9b75ac27df5b7b5b52da87fa372cb7589060222e080e8145c9d061a98b0fb17e51212ec2e76248c26bc5c3ed73c47812a67523a2"
 
 RPROVIDES:${PN} += "ghc-control-monad-free-devel \
 ghc-devel-control-monad-free-0.6.2-AMlHq80A2qJLNQ8iIcl5z7"

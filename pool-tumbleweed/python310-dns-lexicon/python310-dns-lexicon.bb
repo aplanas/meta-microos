@@ -8,12 +8,11 @@ LICENSE = "MIT"
 
 PV = "3.11.7"
 
-RPM_NAME = "python310-dns-lexicon-3.11.7-1.1.noarch.rpm"
-RPM_HASH = "3adf95e29f6590b14fdf272643a8f0103d940638ec7d95ae3379bfcd433df90b686b0c083a9655533d40f1964a3f1880b957cc945bb1bfb6c1a3d13a315e49cc"
+RPM_NAME = "python310-dns-lexicon-3.11.7-2.1.noarch.rpm"
+RPM_HASH = "56ad4fa18f11d796a3f79707368c7781bf1e808936b93d38447fb65ce69ed5d76920f34ce066402b4e0c8c22279e7860c9b38cf76a713a01a1cdf182b72c57e7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-dns-lexicon \
-python3.10dist-dns-lexicon \
+RPROVIDES:${PN} += "python3.10dist-dns-lexicon \
 python310-dns-lexicon \
 python3dist-dns-lexicon"
 

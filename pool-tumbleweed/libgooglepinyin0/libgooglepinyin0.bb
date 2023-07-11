@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.1.2"
 
-RPM_NAME = "libgooglepinyin0-0.1.2-12.28.aarch64.rpm"
-RPM_HASH = "2f3f36f186006937d5288fa455f45899c667f9ca7ba869c9e858da3d0471ae04fd07ac92ebcc1c8e66988edc38633c848f74e79127a263e35e8c80ce74fbc508"
+RPM_NAME = "libgooglepinyin0-0.1.2-12.29.aarch64.rpm"
+RPM_HASH = "b130047c86851a47eb3ed9097876f6b0a28675c68a220de9fe41e88681557f3fa0af6b27de811f1e89f5f2bfa9cbb5bce26db49908ce5527db379baf4cff5589"
 
 RPROVIDES:${PN} += "libgooglepinyin.so.0 \
 libgooglepinyin0"

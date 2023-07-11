@@ -5,8 +5,8 @@ LICENSE = "GFDL-1.1-or-later & LGPL-2.1-only & HPND & SUSE-BSD-Mark-Modification
 
 PV = "0.60.8"
 
-RPM_NAME = "aspell-devel-0.60.8-5.4.aarch64.rpm"
-RPM_HASH = "68fc5ffb5b7db14bb20e0c9557845ef6652febafb2980c4ef0bed1ae7b0084a95d2f57f62ef7bae95338e0018b4f410da018093a5002f70b028e39adb4f20455"
+RPM_NAME = "aspell-devel-0.60.8-5.5.aarch64.rpm"
+RPM_HASH = "1826b4c0137334b7ecfbbb75069f81383471a7cb7a8c30102dc3b5e7a5dd7fb998c46581b5250ab3069a7cb320d300485c4aca09c787db7f9c6eb6d08e6099db"
 
 RPROVIDES:${PN} += "aspell-devel \
 pspell-devel"

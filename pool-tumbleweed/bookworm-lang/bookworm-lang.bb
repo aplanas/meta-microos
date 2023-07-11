@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.1.2"
 
-RPM_NAME = "bookworm-lang-1.1.2-2.10.noarch.rpm"
-RPM_HASH = "bf5e273bea10fd7de7f39b75b1e8faf11938839dbca88f4229d15dd78a052118829c67fddcb6182b734906e4fd7778cde102559ee29a7de13ed1b26ce12c76cb"
+RPM_NAME = "bookworm-lang-1.1.2-2.11.noarch.rpm"
+RPM_HASH = "435f1c5cf9e07395cb5d368037d84d905d62fb931e1c568a260f9c0d76e7c33552a59340776efd863eb7efbb7556832f6009cdf40472cdc895127884947a67e4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bookworm-lang \

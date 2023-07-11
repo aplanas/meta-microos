@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.1.2.post1"
 
-RPM_NAME = "python39-swapper-1.1.2.post1-2.7.noarch.rpm"
-RPM_HASH = "e36fa9c81423e859fb73505ac4573626add4db3bd0b33206d56ae95f634103c75f6f8a07d83fd5e4508326eb4a15e21210c37fea26770a4f5efcc83c7ab819a5"
+RPM_NAME = "python39-swapper-1.1.2.post1-2.9.noarch.rpm"
+RPM_HASH = "30fd484b58bb2db88ab5f5e80aad8bdba63db6c9c15d77693c4b0253a268e4e91c40cca3a0f50adb8c9dfe5fcfe6bf8bed8038984c6c6879bab1360b83b8fdf9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-swapper \

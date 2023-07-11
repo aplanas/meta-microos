@@ -8,11 +8,12 @@ LICENSE = "MIT"
 
 PV = "0.3.0"
 
-RPM_NAME = "python311-autoupgrade-ng-0.3.0-3.15.noarch.rpm"
-RPM_HASH = "ed0a80ba390224eb6280579547defddef8b96f8e19553faaa04adcce259955869f23ed08df55db4511a971995d6c06192e49237185f1907d5efa52d274576ddf"
+RPM_NAME = "python311-autoupgrade-ng-0.3.0-3.16.noarch.rpm"
+RPM_HASH = "bedf1c3c50ce2af2c31ff34e4f91986a54c0b9f65956485324ca9ffb080faa3a9769995d7ae547b7a4df61e5281a11b06ae54eb5fda0a82e0b78197bf4cc7388"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-autoupgrade-ng \
+RPROVIDES:${PN} += "python3-autoupgrade-ng \
+python3.11dist-autoupgrade-ng \
 python311-autoupgrade-ng \
 python3dist-autoupgrade-ng"
 

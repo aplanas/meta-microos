@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.9.5"
 
-RPM_NAME = "nulloy-gstreamer-0.9.5-1.9.aarch64.rpm"
-RPM_HASH = "761e3bc5b8f63c6edec3a644383166f9269e5480457c5ac9bf976a08bbe1709679590fd8f1942a86e572eaed1e1144470356772cf84fdf1a5d5ce93e33be06c0"
+RPM_NAME = "nulloy-gstreamer-0.9.5-1.11.aarch64.rpm"
+RPM_HASH = "7f02b71a0c17f859798084e40231c6aa18151c60cf4fd5ac19aaecdeb221e4eba4c4531879c259e4ea4efb7dd885efe6d09e4edc2b0f9cc9df0de586800001a3"
 
 RPROVIDES:${PN} += "libplugin-gstreamer.so \
 nulloy-gstreamer"

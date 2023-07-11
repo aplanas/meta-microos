@@ -4,8 +4,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-dbusmanager-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "c1ca311ebf13ed5be4eb7c724b031eb3cd870337ff8ee45c478a5f456377c1b60428e7fb4553e806527c74e4d057bddd134fb56d6de2b086cfb16adc5f939745"
+RPM_NAME = "leechcraft-dbusmanager-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "547bd368695acf86cc570fd366549454a07fadd7c4825f12ecac4193544d5cc68abb57f418776542b698eedc42bcca54c3defd6c5ed9ed9c4f79bfe8f0b0574d"
 
 RPROVIDES:${PN} += "leechcraft-dbusmanager \
 libleechcraft-dbusmanager.so"

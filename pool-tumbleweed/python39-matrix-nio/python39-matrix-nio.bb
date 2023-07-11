@@ -4,8 +4,8 @@ LICENSE = "ISC"
 
 PV = "0.19.0"
 
-RPM_NAME = "python39-matrix-nio-0.19.0-1.11.noarch.rpm"
-RPM_HASH = "73d8dac039c1e1c88020bdedc682066fd87ee4fd08dbce52b05a0a4b8136023c151bbbfb4deb2e295ea736ceb0571a3784aa45e0d567e857874a79912b43931d"
+RPM_NAME = "python39-matrix-nio-0.19.0-1.13.noarch.rpm"
+RPM_HASH = "9a24fd3f112d26c503862e392609e66e66b4e8623eada647dafba141df53671975ae131a3bb835f53fae70f6e6881662ce6cf1f49a21c9ea21452553bd6e9670"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-matrix-nio \

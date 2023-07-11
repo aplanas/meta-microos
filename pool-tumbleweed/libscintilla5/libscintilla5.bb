@@ -7,10 +7,10 @@ proportional fonts, multiple fonts and different colors at the same \
 time."
 LICENSE = "MIT"
 
-PV = "5.3.4"
+PV = "5.3.5"
 
-RPM_NAME = "libscintilla5-5.3.4-1.1.aarch64.rpm"
-RPM_HASH = "c0e9c132f17f0fa81c02f871c124ed93d5a4eff874b93fe46268a408de7c79002162ba2136a0d930c3751d80763dbdbb07e5a39e92a9517eafb7cd8954905679"
+RPM_NAME = "libscintilla5-5.3.5-1.1.aarch64.rpm"
+RPM_HASH = "b848e9f2643138820b6d4380214182ca3b5c258589b4730f1e96889039905a4afd3061557a2d76d080d8e9a041f85300ded2e5805b9ce2ba23d8fcf45021e1d4"
 
 RPROVIDES:${PN} += "libscintilla.so.5 \
 libscintilla5"

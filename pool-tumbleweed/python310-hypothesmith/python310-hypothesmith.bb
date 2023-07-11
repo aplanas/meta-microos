@@ -4,12 +4,11 @@ LICENSE = "MPL-2.0"
 
 PV = "0.2.3"
 
-RPM_NAME = "python310-hypothesmith-0.2.3-2.1.noarch.rpm"
-RPM_HASH = "4dee5af3c9ab965d48a96db04eb4df84bc8128fb67870bbbc5350f5c085931db2f68cfa3fd1cad3aa4611480752972915dc9931e307e6777934b4fe9dc41da7e"
+RPM_NAME = "python310-hypothesmith-0.2.3-2.3.noarch.rpm"
+RPM_HASH = "823ce50334a6dc71e40092a5cdca72c3f296d983d4a6d6b1fe34f9df37c5d60708069b4049f9f93cadc928e5dad4ac01488e1127bae012c4cbdd0e2339ca5ce5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-hypothesmith \
-python3.10dist-hypothesmith \
+RPROVIDES:${PN} += "python3.10dist-hypothesmith \
 python310-hypothesmith \
 python3dist-hypothesmith"
 

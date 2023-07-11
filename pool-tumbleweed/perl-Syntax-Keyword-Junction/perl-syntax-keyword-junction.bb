@@ -16,8 +16,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.003008"
 
-RPM_NAME = "perl-Syntax-Keyword-Junction-0.003008-1.25.noarch.rpm"
-RPM_HASH = "1755ce4ae9d175207a6f8df5ceab207f2ce46655da6c65597b54e3e1d7ee3dcf79d72c0d7432da689c49cc054cbf994aa10c153d7d62cc33cae5346bcdb1fb2d"
+RPM_NAME = "perl-Syntax-Keyword-Junction-0.003008-1.26.noarch.rpm"
+RPM_HASH = "157e7f1411ebbe09ec55dbc510fa7acad3e12680cc51ce0db8c05e1131a78d29f13be1c20f1542b7bef9b177bd48602894324fc960ce96147363087de060cf71"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Syntax--Feature--Junction \
@@ -29,7 +29,7 @@ perl-Syntax--Keyword--Junction--None \
 perl-Syntax--Keyword--Junction--One \
 perl-Syntax-Keyword-Junction"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Sub--Exporter--Progressive \
 perl-parent \
 perl-syntax"

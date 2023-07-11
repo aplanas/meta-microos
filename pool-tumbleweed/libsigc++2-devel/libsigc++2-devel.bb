@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.12.0"
 
-RPM_NAME = "libsigc++2-devel-2.12.0-1.1.aarch64.rpm"
-RPM_HASH = "7dc5748194b731b13398a3b07c77b8d48f528b9ffa0088649fb15706daa37659fdead281d88789977ec6d1f9440de3e3fac08413e490f7c8e929c1045ccbc657"
+RPM_NAME = "libsigc++2-devel-2.12.0-1.2.aarch64.rpm"
+RPM_HASH = "2b92c3736a0eea1ff96d86fe995b80276dda924a586442c739ac6816380a15e0d139d60be66e3d9f938ce54b97f1c1937bf39a39993bb179605548cc93f787dc"
 
 RPROVIDES:${PN} += "libsigc++2-devel \
 pkgconfig-sigc++-2.0"

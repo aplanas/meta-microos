@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.3"
 
-RPM_NAME = "bwbar-1.2.3-8.7.aarch64.rpm"
-RPM_HASH = "cddcfd60bfbe82ce733403d1d1f40265579d944c10a66fb50db87a737dd6d9c01df44c5fa16e1599e48f9a917a8604c0fc28a65f8c482cbe49d131d5fff314f4"
+RPM_NAME = "bwbar-1.2.3-8.8.aarch64.rpm"
+RPM_HASH = "f430499066edc74f2dae1f15cc30d6081b425a89dda46a765462bafabfb29146b9f5d895bc07fe029db4ed10fcd5dce489272bb39dffd8c1a6c61a9c1f0553e8"
 
 RPROVIDES:${PN} += "bwbar"
 

@@ -7,11 +7,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.29.6"
 
-RPM_NAME = "rednotebook-2.29.6-1.1.noarch.rpm"
-RPM_HASH = "443d6da99f6d882fa2a52868f2ae465f8e64119ab7320d2e8409426a125f3c66258db4975ff031a8edd45f51aad37af91476e76ad49df96979a25c0c05f2d8ed"
+RPM_NAME = "rednotebook-2.29.6-1.2.noarch.rpm"
+RPM_HASH = "a15d48f4ef6c70628b87c3ea0ea6b1ac3306d4e4e528d47def2ecf3a4f02d2b1e351b685564652aae484f96ef52562ce96dc7aa6b0160b11447b435e191da273"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-rednotebook \
+RPROVIDES:${PN} += "python3.11dist-rednotebook \
 python3dist-rednotebook \
 rednotebook"
 

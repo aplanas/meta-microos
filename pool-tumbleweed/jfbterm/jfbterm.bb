@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.7"
 
-RPM_NAME = "jfbterm-0.4.7-11.27.aarch64.rpm"
-RPM_HASH = "bb5c484cb1506a48ea613f0507ab2cf97e50ccd959ca7adf2119b54aaf8fd5265852e10206ceb9aaafdcedc1bf1a3c7d059d953d3afc5bfcbd3fc8365455ceac"
+RPM_NAME = "jfbterm-0.4.7-11.28.aarch64.rpm"
+RPM_HASH = "fde1a92ea3f4dacc46ecd490acd0ed7ee39bffa59e9eb7263d436f4fbed0a75c629e6873cecd3f77334e844278af6ea83d04f65d1884b8b0d065f3a4a821658d"
 
 RPROVIDES:${PN} += "config-jfbterm \
 jfbterm"

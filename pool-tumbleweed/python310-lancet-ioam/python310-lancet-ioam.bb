@@ -13,12 +13,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.9.0"
 
-RPM_NAME = "python310-lancet-ioam-0.9.0-2.22.noarch.rpm"
-RPM_HASH = "53e10f91421b43d3a14ebedf9c026e8b562affb0ee2c2f286b4e2f2a7c32bcb11053252a32873ebf31226ac6c7d759ce2bc981a09fffaae3fd17f36406809153"
+RPM_NAME = "python310-lancet-ioam-0.9.0-2.23.noarch.rpm"
+RPM_HASH = "8c2f7adabe0aecdcbd272323d7c1c7e5d185a45fbdbaee3aa117f2d5f1477c40759d0bbcabcfc3004b830707ab71ffd0c685b47e56b3060b83ec3ec40928405e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-lancet-ioam \
-python3.10dist-lancet-ioam \
+RPROVIDES:${PN} += "python3.10dist-lancet-ioam \
 python310-lancet-ioam \
 python3dist-lancet-ioam"
 

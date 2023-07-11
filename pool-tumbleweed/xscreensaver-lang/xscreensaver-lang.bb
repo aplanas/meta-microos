@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-or-later"
 
 PV = "6.06"
 
-RPM_NAME = "xscreensaver-lang-6.06-4.3.noarch.rpm"
-RPM_HASH = "af5e7e131e00f7456a74532a20e1530abbb189da31591adcdb5a809ca9687284809f354dd5cb8a3676b49bd367eb96a06ef291cf77ce32fbf8ca372fe2cec5ee"
+RPM_NAME = "xscreensaver-lang-6.06-4.4.noarch.rpm"
+RPM_HASH = "52cf705ba9bd3c474a883ed62ae465aff22d1a7b60571ba296b07f50683a2f4364ca4520750f3d1411c2bf2b68d6b7d8c7a9039aa3dab2148cc638c52917c326"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xscreensaver-da \

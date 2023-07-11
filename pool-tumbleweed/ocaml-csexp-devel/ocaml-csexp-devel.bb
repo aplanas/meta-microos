@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.5.2"
 
-RPM_NAME = "ocaml-csexp-devel-1.5.2-1.1.aarch64.rpm"
-RPM_HASH = "01c82ee5fbc78c4d496b5a163e8e139c27b30869630e1ff2c481fe99407f9060e5503ac3fb92344bab0c903bdc1d2763ee1eb895247b0bf3120cdc2b03903fe5"
+RPM_NAME = "ocaml-csexp-devel-1.5.2-1.2.aarch64.rpm"
+RPM_HASH = "87315e42625590162f9e544fbd1b07f20cf7aa7ace853f2f663ad7975e25f722a3cbb048f2d1d3bf934ef41da94eec359346d04b70f4b03344e1e5e992b8c075"
 
 RPROVIDES:${PN} += "ocaml-Csexp \
 ocaml-csexp-devel \

@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.1+git7"
 
-RPM_NAME = "coxeter-3.1+git7-1.11.aarch64.rpm"
-RPM_HASH = "e4beed23f7b15fc1338a3f3a77116259fcc52e058296ae29ca7369ed48e047f04dcca8010c47d0914dd256c2f1f4d5a35856b4687ad816eeec5b8f3251f3b3f9"
+RPM_NAME = "coxeter-3.1+git7-1.12.aarch64.rpm"
+RPM_HASH = "dc2acc87f89f345abb78b272e122aae0ed389cb24556841832cd6205f5d830d5dd70e2988311e604b556531f958bb4d46811ebbbb39bf6d435161bdae17abc27"
 
 RPROVIDES:${PN} += "coxeter"
 

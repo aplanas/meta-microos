@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.8.0"
 
-RPM_NAME = "swtpm-selinux-0.8.0-3.1.noarch.rpm"
-RPM_HASH = "ab858b827d076c64a114e1a2e5e6bf359d21e9f44cafc2fcdbca8ed7bbc2de4698f19fcfc6257a064379988a83b1d8967adfd9a46c52752b4ccd7dbc82cce30a"
+RPM_NAME = "swtpm-selinux-0.8.0-4.1.noarch.rpm"
+RPM_HASH = "389329e0d49c45f9f8cfe4c92fb4c570d6192fe1755acc64e4921f0879bbe80b18ac83ee951d8fb66525bf831faf1b71d5e47604b2fa04159c46389dd0cad5ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "swtpm-selinux"

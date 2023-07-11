@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "13.5.3"
 
-RPM_NAME = "libOgrePaging13_5-13.5.3-1.5.aarch64.rpm"
-RPM_HASH = "832cc42913ca30b859c8ebf5512e9606acf0dbf7130c9b921a286fa232be42cad30aef8441c079f110bcb35a6366f36468c0d2e7c346e1ac5c00ae631e1b4ceb"
+RPM_NAME = "libOgrePaging13_5-13.5.3-2.2.aarch64.rpm"
+RPM_HASH = "633fe85050125243109a2638c4d0ce3c9dfbac4dc758671106a874f0146e2b4f95dc3f8bf5dc0bb90d099ada00faa49341ced28d2d1fbdee74c4825a64afb02b"
 
 RPROVIDES:${PN} += "libOgrePaging.so.13.5 \
 libOgrePaging13-5"
@@ -20,7 +20,6 @@ ld-linux-aarch64.so.1 \
 libOgreMain.so.13.5 \
 libc.so.6 \
 libgcc-s.so.1 \
-libm.so.6 \
 libstdc++.so.6"
 
 inherit rpm

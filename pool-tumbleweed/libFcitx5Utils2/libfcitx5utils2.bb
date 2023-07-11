@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "5.0.23"
 
-RPM_NAME = "libFcitx5Utils2-5.0.23-1.1.aarch64.rpm"
-RPM_HASH = "b2f95de823e1a7366027dae7d2ee7e9d3d2d7d4a1813c038126cdd4879b5ffc2b0bf4ce32c006ec0686057c9d21a02a0356e7641db0aed1fd74dbeff82087dc9"
+RPM_NAME = "libFcitx5Utils2-5.0.23-1.2.aarch64.rpm"
+RPM_HASH = "b7fb415ca3b139407f3480dbf483ed9d090663c3301b1fdde80177b9dbf63ece3d04e0b08182f4a25262453a00859794f9839b513e20edf704c616801cac9cfa"
 
 RPROVIDES:${PN} += "libFcitx5Utils.so.2 \
 libFcitx5Utils1 \

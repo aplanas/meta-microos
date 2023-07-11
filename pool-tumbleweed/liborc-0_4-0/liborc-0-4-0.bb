@@ -6,10 +6,10 @@ architectures, including saturated addition and subtraction, and many \
 arithmetic operations."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.4.33"
+PV = "0.4.34"
 
-RPM_NAME = "liborc-0_4-0-0.4.33-1.3.aarch64.rpm"
-RPM_HASH = "a12e033be26b3fbefac70fea1fcf078c7f9aedf77a5831dc205b1cae14aaddd4c3259638356d4e215f24772aa147c0a8ca5b8f0960ec18f42dc7a9f490cc2557"
+RPM_NAME = "liborc-0_4-0-0.4.34-1.1.aarch64.rpm"
+RPM_HASH = "e12bbeab6ee95f0b0239d31ee2ffefb56f66e6d6086921b1701c159249a21ff3004ccb5f2e8177d52072d3d6f3924a76119f864dd32dafc74db4f0ef9357bb48"
 
 RPROVIDES:${PN} += "liborc-0-4-0 \
 liborc-0.4.so.0"

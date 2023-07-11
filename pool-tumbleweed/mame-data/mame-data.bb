@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "0.254"
 
-RPM_NAME = "mame-data-0.254-1.1.noarch.rpm"
-RPM_HASH = "efb595c6ec953275f7d5a3a5b96ab8c4fc63436f0e01145bc06938a65992334ace52b2cb75476375f6cf68300b5c2eaca40e017d5e1964777dbeea6ea5faf3c2"
+RPM_NAME = "mame-data-0.254-1.2.noarch.rpm"
+RPM_HASH = "10fafd4afecee4f0ce84595b7ef2bb7cab9c03a037f2c9a6ad2c6e105735b6b864c2d69a00e3bcc894ab3826eb38aaead6d9f6a7a8c0762e54b58cd4b7345d85"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mame-data"

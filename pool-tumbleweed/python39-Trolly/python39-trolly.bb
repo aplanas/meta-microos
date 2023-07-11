@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "0.2.2"
 
-RPM_NAME = "python39-Trolly-0.2.2-4.12.noarch.rpm"
-RPM_HASH = "1a488f5405a98bc7dacaa74833e24b05766ed0c118e976a6a833cdbb045eb1d243e46c17c3b8e16ad85f1e76c0a32562b906a5997f87fae20f0dce966b2f3871"
+RPM_NAME = "python39-Trolly-0.2.2-4.14.noarch.rpm"
+RPM_HASH = "51860f8951e39733c8b7523fdd0d53f99f550a522691cc5b0ad8fb2ed54a197f89062259ebad1ce3b6bbf0053b9bb99980842582f3ebed3e3c80e16aa4752fdb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-trolly \

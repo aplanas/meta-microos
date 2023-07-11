@@ -7,13 +7,13 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.2.0"
 
-RPM_NAME = "nemo-extension-terminal-5.2.0-3.4.noarch.rpm"
-RPM_HASH = "adffda7d71764add9a10c88f1551f784da9ca1aa1a47af055083efc59b1505bd64946f2204f6f17984cf7c7cc09fb049bd8712165276e926b3aa29a53e9dedb8"
+RPM_NAME = "nemo-extension-terminal-5.2.0-3.6.noarch.rpm"
+RPM_HASH = "3fad6b6dce1b66f246ec80d072c2c248bac9713931c0193cd8af48d3866983bf6ee15bba4804cbce9e87506f0354afc5de76bb502bd6b95e38bed09d38e0b65c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nemo-extension-terminal \
 nemo-terminal \
-python3.10dist-nemo-terminal \
+python3.11dist-nemo-terminal \
 python3dist-nemo-terminal"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.0.5"
 
-RPM_NAME = "flatpak-xdg-utils-1.0.5-2.4.aarch64.rpm"
-RPM_HASH = "5e5e1c2f71f6187d8079a462f7de43c82b851f18bc77e152555030d2ae8d22eeffef381472aee0fed5acf2dd3c144d744522f62c8d8664c544cd1add12809882"
+RPM_NAME = "flatpak-xdg-utils-1.0.5-2.5.aarch64.rpm"
+RPM_HASH = "a49cfa495ce6f5ac59158355e7d12d49bfab744c520514400a470a2e203462f4087b9a980f4fd7432d86bb551248f4ff93f317813fea41a432441cd03b7b7b5e"
 
 RPROVIDES:${PN} += "flatpak-xdg-utils"
 

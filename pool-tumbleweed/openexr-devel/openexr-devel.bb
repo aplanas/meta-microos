@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-or-later"
 
 PV = "3.1.7"
 
-RPM_NAME = "openexr-devel-3.1.7-1.1.aarch64.rpm"
-RPM_HASH = "bdb89c865a5d1ddba3c4a035c250ca88303877b82245b8ff9bd30b4ea9c5e8abd08b21f3312d5969d502d0b26c2c0104b4800d9477c32720dfe79b3dd6072159"
+RPM_NAME = "openexr-devel-3.1.7-1.2.aarch64.rpm"
+RPM_HASH = "37317ecbcd322b5a228d6f53cdcd251c6180bb0ba006d968dc9eb3bf0c3c7cdbb1e463d83bbae90927069caae03f944580fa202846f12d760f77629f5ffc9f86"
 
 RPROVIDES:${PN} += "OpenEXR-devel \
 cmake-OpenEXR \

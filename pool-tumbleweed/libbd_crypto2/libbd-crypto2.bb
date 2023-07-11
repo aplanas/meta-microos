@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "2.28"
 
-RPM_NAME = "libbd_crypto2-2.28-1.4.aarch64.rpm"
-RPM_HASH = "96fcb38c18054e89eb3acd3477ab3ed38d2cd3d5eb6f1bf9f84eb10b95f31914b69dfee3c9e9b67e993143d37f439424e4e60b474020aabb564d96ef63ed8643"
+RPM_NAME = "libbd_crypto2-2.28-1.6.aarch64.rpm"
+RPM_HASH = "9bfb06b9fc814c27d7411ee776751ec66538876b19a9d440b54ccde0734d6cf5a10c9733ea98e9ea03b9646edffe1ce3b88940e7125bacebd04e6993c942fa6c"
 
 RPROVIDES:${PN} += "libbd-crypto.so.2 \
 libbd-crypto2 \

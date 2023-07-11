@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kinfocenter5"
 DESCRIPTION = "Provides translations for the 'kinfocenter5' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "kinfocenter5-lang-5.27.5-1.1.noarch.rpm"
-RPM_HASH = "53944cef565a05b859b8b71b9dcb2d9dc6c061eb239e3a10877c90afd70843761dc4d4357f06a70e84ac98d9f21cf157e2d7a2daa8017e2ca78b2e9e4c2002bb"
+RPM_NAME = "kinfocenter5-lang-5.27.6-1.1.noarch.rpm"
+RPM_HASH = "b88574f3a3b12fb7632ce10b29e4d8314373e5329f267387f2189cb1f85d23280d255221f51ceeb3cf855f9548c5d2f0a055afd9c558f14d521e1d2545924a39"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kinfocenter5-lang \

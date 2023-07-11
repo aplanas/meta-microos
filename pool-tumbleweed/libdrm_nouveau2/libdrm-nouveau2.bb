@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "2.4.115"
 
-RPM_NAME = "libdrm_nouveau2-2.4.115-2.3.aarch64.rpm"
-RPM_HASH = "468ae6edbe16111d3cc283c4701d2bad5ff4f94a493355946f3597ab4dd0fb3b4ae18e8d1181c07a569dbacc17040b7d5c130800630ad9a32569ccb44fe3b081"
+RPM_NAME = "libdrm_nouveau2-2.4.115-2.4.aarch64.rpm"
+RPM_HASH = "fc9f7c36de6198d46bba07c37a69e8729192fe8af2cf47dc67e5741f254f434589d44739ecf51ed6e7088a71c19e860f7b3f7c87c9c277e16f1d418ba5b72eb4"
 
 RPROVIDES:${PN} += "libdrm-nouveau.so.2 \
 libdrm-nouveau2"

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-datavisualizationqml-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "6ae31a5ce93fcf5010a801ddde61ea936467e2d997673ef247a757d2e1dcc098a98db44f82985554501748f069e0bc186244661776a079fce020eeacda8faf14"
+RPM_NAME = "qt6-datavisualizationqml-devel-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "d1539ed946e075efc6f50cefe924aba18d0cd9e5a880c21469d0cca9e77b1023cee562cb485f1275f5786e725c07bb2bd6dc7a01cd550811989f686d6f05e2f7"
 
 RPROVIDES:${PN} += "cmake-Qt6DataVisualizationQml \
 pkgconfig-Qt6DataVisualizationQml \

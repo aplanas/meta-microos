@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-kannada-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "66f1aa4c9c95462f38110f42c90a60eb6a55456c1b330bdadcbe64cb6cf1a6370b9977b252ab0a6009769f8f6aed7235260f879e4f6e8b7bcc9ec3f501d30844"
+RPM_NAME = "noto-sans-kannada-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "373f387de38c5bb73b3473d5218e06467f777b97143c1279dd148dac1aae43aaa7e433f5f63195c486af792b61177d07f2095ca7f9b334374bfc8be93045f4c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-kannada \

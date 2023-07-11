@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.8.4"
 
-RPM_NAME = "libAlembic1_8-1.8.4-1.3.aarch64.rpm"
-RPM_HASH = "94d7805c5410190bb13ea8935a063356a832b87be3d738e99cf53f9cb9fbcf3f91bb6784e739f12a65e1f8dd50cf7f1078c01b93f5717fe3e24b9eaea6844eea"
+RPM_NAME = "libAlembic1_8-1.8.4-2.1.aarch64.rpm"
+RPM_HASH = "23ecd63ea2f0fc51ddd68ed74c86204ccc1ff6c247097a72bbf34cb2309cbf78459ee6c6c9a2c86bb1df31eef1195b941a5c3553064542295ac86045b662030c"
 
 RPROVIDES:${PN} += "libAlembic.so.1.8 \
 libAlembic1-8"

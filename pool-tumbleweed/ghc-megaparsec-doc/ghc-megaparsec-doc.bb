@@ -2,10 +2,10 @@ SUMMARY = "Haskell megaparsec library documentation"
 DESCRIPTION = "This package provides the Haskell megaparsec library documentation."
 LICENSE = "BSD-2-Clause"
 
-PV = "9.3.0"
+PV = "9.3.1"
 
-RPM_NAME = "ghc-megaparsec-doc-9.3.0-1.3.noarch.rpm"
-RPM_HASH = "738d57eb47433c805bd1d34459a03f4b0683302a06f00a3f57722989b6ef0147fbae9c7da6ecb5535b462a8c6b58593683949ce46822c5c77398a35138501e47"
+RPM_NAME = "ghc-megaparsec-doc-9.3.1-1.3.noarch.rpm"
+RPM_HASH = "620341a51a9b7b259ac698c0103a488e921be3ff266470ecd8b74058ea58a3d891b71b93ac9f85f0ddfca10ae567df2ad0c0d2477029ed8245ef41081fd1a562"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-megaparsec-doc"

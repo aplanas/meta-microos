@@ -15,8 +15,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "9.3"
 
-RPM_NAME = "coreutils-testsuite-9.3-1.1.aarch64.rpm"
-RPM_HASH = "8ac467a16b3f6b6c6097b75d1e41a2b77e51efb78395bb23c790cf84df8574e5b9815f753f912ac887560458369377f82b7c59c5f8b0af3fa2a9c93ec5383db6"
+RPM_NAME = "coreutils-testsuite-9.3-1.2.aarch64.rpm"
+RPM_HASH = "c0d993149481711fa7f2076c83e2485dc6b65bb55275c61a14b845dd87433f1444d892a94f24e478b8f2bcb7b804e9a19a6d5ccdad3e927631f0af537e31296a"
 
 RPROVIDES:${PN} += "coreutils-testsuite"
 

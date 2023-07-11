@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "3.6.3"
 
-RPM_NAME = "polybar-3.6.3-2.1.aarch64.rpm"
-RPM_HASH = "8bf165e84a9ab6fa2d9582670c30ff48a7193ffcfc585a22e2922e9162efca2ab406780c1707529631f0abfa54e40f2ce4e79ac5d1e4a3c7e51d323b71b0574e"
+RPM_NAME = "polybar-3.6.3-2.2.aarch64.rpm"
+RPM_HASH = "71e1ebc5c39dc706009ef8d1db24c9b9f53f48b602f7babe05900d8dc2f2d8d8b535157f12f1a4ad3ca6722c2a38bea32707bb14cff96fb8005dad1e40637e9c"
 
 RPROVIDES:${PN} += "polybar"
 

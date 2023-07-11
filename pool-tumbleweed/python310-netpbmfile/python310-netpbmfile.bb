@@ -5,12 +5,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2020.10.18"
 
-RPM_NAME = "python310-netpbmfile-2020.10.18-2.10.noarch.rpm"
-RPM_HASH = "ee59c3689100be19f804f153073f0a0a1736d7fe52629c65ec16fc53fc52b57b51dbc2d63a1c1d6e81a58496172020a222b904644eb5c0b627eddf24753229ef"
+RPM_NAME = "python310-netpbmfile-2020.10.18-2.12.noarch.rpm"
+RPM_HASH = "b54a7665800ed0ebc39f8ceee7caecdc6c1c8fc7e96fa49911448e68f6a241110dfca87578e2ecb81a4b5847728156e904a8da7fe8c034c10974f174de087486"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-netpbmfile \
-python3.10dist-netpbmfile \
+RPROVIDES:${PN} += "python3.10dist-netpbmfile \
 python310-netpbmfile \
 python3dist-netpbmfile"
 

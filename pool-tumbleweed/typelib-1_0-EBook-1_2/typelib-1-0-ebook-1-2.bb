@@ -6,10 +6,10 @@ This package provides the GObject Introspection bindings for the library \
 for address book backends."
 LICENSE = "LGPL-2.0-only"
 
-PV = "3.48.2"
+PV = "3.48.4"
 
-RPM_NAME = "typelib-1_0-EBook-1_2-3.48.2-1.1.aarch64.rpm"
-RPM_HASH = "f591c6124394d9b6a0896f8a60ecffa9047d6309344e02b6dd242cf21ee466cf44bea294fe1e3147872d4be912df07a0f9cf81a805dde452d962c3e1264b3a01"
+RPM_NAME = "typelib-1_0-EBook-1_2-3.48.4-1.1.aarch64.rpm"
+RPM_HASH = "302c402b3fcee2e4a8a6dae195daead2f49221b726c8ce499f2651a6407eb425528eb8ab063aefd380a4984d8612ad99fde9cf9eaafedc888a5dd829708bcdc8"
 
 RPROVIDES:${PN} += "typelib-1-0-EBook-1-2 \
 typelib-EBook"

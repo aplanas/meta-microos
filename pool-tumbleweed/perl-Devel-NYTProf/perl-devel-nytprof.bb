@@ -45,8 +45,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "6.12"
 
-RPM_NAME = "perl-Devel-NYTProf-6.12-1.3.aarch64.rpm"
-RPM_HASH = "2d8a28d20e4b3c286cb1f26d864eb40cda8cb6be31d72a561b6c616e6124ad3eeb182c136f510d1d673f1c91293f573999e8205af70945b43f564531c2ba3b82"
+RPM_NAME = "perl-Devel-NYTProf-6.12-1.4.aarch64.rpm"
+RPM_HASH = "9c82abeb3ffa937e6324638860923b8acc10dca0406bd7771254e119deafa1f0b1e90da084ae24ad76bba5eff209422326a535e69cf54139120b4aae0fc705db"
 
 RPROVIDES:${PN} += "perl-Devel--NYTProf \
 perl-Devel--NYTProf--Apache \
@@ -66,7 +66,7 @@ perl-Devel-NYTProf"
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-File--Which \
 perl-JSON--MaybeXS"
 

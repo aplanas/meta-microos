@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.2"
 
-RPM_NAME = "spacenavd-1.2-1.2.aarch64.rpm"
-RPM_HASH = "d59d4f09bd7e35bbb401b6f53dd07a68ba0921f6bdd20e281225d23e1cf140c7e561c5532624d7b525223dedf9f132903dacaa561e6321223d2e37c3a6aabbde"
+RPM_NAME = "spacenavd-1.2-1.3.aarch64.rpm"
+RPM_HASH = "4861f60adbfc00fed8568bf2b8495a5d64ac63c172a240ab5b7127fdd1e26c614a71b5236b3ca1b2fead87e062e97b8378fab230fe95c06eda16e3cd86690dea"
 
 RPROVIDES:${PN} += "config-spacenavd \
 spacenavd"

@@ -5,14 +5,14 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.20"
 
-RPM_NAME = "perl-Date-Holidays-CZ-0.20-2.12.noarch.rpm"
-RPM_HASH = "b81f2791b3512f4036c8e8b48804e6fb6aff3fcfdeebc901efda4b5214452338db791cbff35c57a68af90c451c927b816d31a01795150482a12a2764a9edfe9f"
+RPM_NAME = "perl-Date-Holidays-CZ-0.20-2.13.noarch.rpm"
+RPM_HASH = "a54e8e1bed7eada013ce561c75ef4ecf217a4c08801265f168bc62fc71f042b84de6d3e360ad0bf4342493f28ce9e0673a4b2243ada04023007f6ab23607d8f2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Date--Holidays--CZ \
 perl-Date-Holidays-CZ"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Date--Calc"
 
 inherit rpm

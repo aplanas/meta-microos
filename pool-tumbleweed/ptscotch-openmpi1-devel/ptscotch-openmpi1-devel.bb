@@ -4,8 +4,8 @@ LICENSE = "CECILL-C"
 
 PV = "6.1.0"
 
-RPM_NAME = "ptscotch-openmpi1-devel-6.1.0-2.9.aarch64.rpm"
-RPM_HASH = "cde8598c03259f971e44ef31fca6c90176b20e615840c670ca33d080c13878aceea94f49bde42dcbb541a4a977244f88883b6d52dd72512ff576c9bc87ce5716"
+RPM_NAME = "ptscotch-openmpi1-devel-6.1.0-2.10.aarch64.rpm"
+RPM_HASH = "9a0ebf4fb3e150f5bffb20aba4e58904d3e14e3ff219ae937be0bca70414e10ea4fd5bc51e2fec0a474d86aa6461d48a9cd553297c710a269a29f7306bbee46f"
 
 RPROVIDES:${PN} += "ptscotch-openmpi1-devel"
 

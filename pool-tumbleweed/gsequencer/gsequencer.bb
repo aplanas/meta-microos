@@ -8,10 +8,10 @@ sound with different sequencers. Furthermore, it features a pattern \
 and piano roll and there is an editor to automate ports."
 LICENSE = "AGPL-3.0-or-later & GPL-3.0-or-later & GFDL-1.3-only"
 
-PV = "5.2.5"
+PV = "5.4.0"
 
-RPM_NAME = "gsequencer-5.2.5-1.1.aarch64.rpm"
-RPM_HASH = "a9e883f05cac4dd3d5bbd1cff30bf05eb7a6c31275733fb8701091afc9835d9b06f413e4f34c9aada71af88ebbabd4550329c3cc4cdebb71739d0aee4fc78fac"
+RPM_NAME = "gsequencer-5.4.0-1.1.aarch64.rpm"
+RPM_HASH = "2236dda04325cc1ce8e8e3fe4daa3a84ac52f251440e260f76ada6f1c5235364bedd195d5b4126fb3e4e936403c5f95beadc695e1fe99ab4e0eeb141b9ef8286"
 
 RPROVIDES:${PN} += "gsequencer"
 

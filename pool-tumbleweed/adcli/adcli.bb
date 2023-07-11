@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "0.9.2"
 
-RPM_NAME = "adcli-0.9.2-1.3.aarch64.rpm"
-RPM_HASH = "200c558b262baa6217df5477b3a22899ba266427cb72ecdef982d3fefe14781c02d7d8da2f214aceceecdde11437e04b4839201c9632405ccce976543f753d74"
+RPM_NAME = "adcli-0.9.2-1.4.aarch64.rpm"
+RPM_HASH = "87f92e4a9b87b2ae78e5e9a47aaf99004cd9c7906ffe43a6cfc70db3561040de4efe9a9ab5a54dc190bf15c7e1869d9de7611b2784a7199c2ec539c9384114bc"
 
 RPROVIDES:${PN} += "adcli"
 

@@ -7,12 +7,12 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.11.1"
 
-RPM_NAME = "python3-gmsh-4.11.1-2.1.noarch.rpm"
-RPM_HASH = "83ed5560160839ece7ed8f8fdc88e4b267914b9a7781c9347afe693b775f9a5161f9f905189363526acdd764cf58d96461ac166a6d8cf5f0d17fc4c7e57edcc7"
+RPM_NAME = "python3-gmsh-4.11.1-2.2.noarch.rpm"
+RPM_HASH = "f72ba6370876be67b6547035937eba427c24b20580305aa7b9f20e2a5fc2be3f92488056f4221aa89e25ad8b57f9907e782a1e8c9a2ffc92c4aea31cd98fbe81"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-gmsh \
-python3.10dist-gmsh \
+python3.11dist-gmsh \
 python3dist-gmsh"
 
 RDEPENDS:${PN} += "libgmsh4-11 \

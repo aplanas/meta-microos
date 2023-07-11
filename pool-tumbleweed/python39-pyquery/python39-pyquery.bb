@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0.0"
 
-RPM_NAME = "python39-pyquery-2.0.0-3.1.noarch.rpm"
-RPM_HASH = "f0d59e8ff7c9fa7a104be1157e79038dbc0528a42b7388b37d04a8d67905916783ed69310659f00b7e30bcb52e2ddd7e8772892b44a72b5c710f9f546c7b73ee"
+RPM_NAME = "python39-pyquery-2.0.0-3.3.noarch.rpm"
+RPM_HASH = "e6b38afc6584e7d8e1d7925c72768acb23788544effba4d1a85079df99e382469fb394e426bda35d8aacbc16dbac75a8b917cde3a5baa6a6bed18e155330aebe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyquery \

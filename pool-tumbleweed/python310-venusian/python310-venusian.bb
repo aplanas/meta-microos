@@ -10,12 +10,11 @@ LICENSE = "SUSE-Repoze & ZPL-2.1"
 
 PV = "3.0.0"
 
-RPM_NAME = "python310-venusian-3.0.0-3.1.noarch.rpm"
-RPM_HASH = "258cd942e7290aab9d17632a88958ba789465c845ba6b9baa858ae214f7959085e5f3871b9066b306dc0b002f8f34f56f899e57f0e3631a994fd9cb51c0b8834"
+RPM_NAME = "python310-venusian-3.0.0-4.2.noarch.rpm"
+RPM_HASH = "70752806a5cafa0158c90d8689c4bdc6782150647366f5a99a3c539cf6b5a7eef483131fccc833851dc69a2cd7b541ca6062da6c01d165f4497e345e6428376b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-venusian \
-python3.10dist-venusian \
+RPROVIDES:${PN} += "python3.10dist-venusian \
 python310-venusian \
 python3dist-venusian"
 

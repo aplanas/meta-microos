@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "2.4.2"
 
-RPM_NAME = "python310-pytest-regressions-2.4.2-3.1.noarch.rpm"
-RPM_HASH = "cb3cc8f6c863d214501bac1369b93f89ef0a4f0632f32bc2d105a7cb6238cbba27c06902781085b5a38188115327827f1b75256b48e3cde2a5f32d1b441b83b6"
+RPM_NAME = "python310-pytest-regressions-2.4.2-3.3.noarch.rpm"
+RPM_HASH = "e2789fe866d01ab9b47ed1e401eab93a5d87c72ff343f1b7b6d3d6e2a0d6a227e1170b7dbc0ac1283caff5cb98231122b5373b94538a5cc835a5bddb1b24dd85"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pytest-regressions \
-python3.10dist-pytest-regressions \
+RPROVIDES:${PN} += "python3.10dist-pytest-regressions \
 python310-pytest-regressions \
 python3dist-pytest-regressions"
 

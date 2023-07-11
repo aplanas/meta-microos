@@ -4,10 +4,10 @@ It is written in pure c, with performance and customizability in mind. Currently
 MacOS and Windows 7+ are supported."
 LICENSE = "MIT"
 
-PV = "1.11.0"
+PV = "1.11.3"
 
-RPM_NAME = "fastfetch-1.11.0-1.1.aarch64.rpm"
-RPM_HASH = "bda82e82204e9a9abf7be0c0a8b757d78af6c764f71df0419e582260b5915e58f0a57ec6b0225accc58090570e08e45d1a9d6950674e3c45e9170fdc32dac4b7"
+RPM_NAME = "fastfetch-1.11.3-1.1.aarch64.rpm"
+RPM_HASH = "f350a831c18faace647e9dc95585321648d06ec6c13312aacae5fa9ad0f896e260fa14c095b629faab62a4da841f4727d382e7d5b804c29a12ada02b6299661b"
 
 RPROVIDES:${PN} += "fastfetch"
 

@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.01svn16538"
 
-RPM_NAME = "texlive-pst-platon-doc-2023.201.0.0.01svn16538-53.1.noarch.rpm"
-RPM_HASH = "e33d1c68198d3ae576ecfd7976b39812da9e2fe9058b44da7edf8ceeb10cfeb64de6fcbeaea62d777e69083cdf3ee2f4a5de1591a8de92243385d7b548a6e01f"
+RPM_NAME = "texlive-pst-platon-doc-2023.201.0.0.01svn16538-53.2.noarch.rpm"
+RPM_HASH = "f7a15efdbac584be55b1b413362cd12ba57624adb6b89dedd5341541326571046460b18502820703616a4d28ff8e3718a5c829dd9327e4db00d42bcfcbe0449d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-platon-doc"

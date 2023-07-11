@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.2.2.6"
 
-RPM_NAME = "ghc-streaming-commons-doc-0.2.2.6-1.3.noarch.rpm"
-RPM_HASH = "386a67e643a58a88840a05bc502ec2b61abcc8a57ebe160c32dc688a9592eed300d6ffd319c98998e5368f0a61aeb1b895d551bdacdcbd74c33c1cc35f6045f8"
+RPM_NAME = "ghc-streaming-commons-doc-0.2.2.6-1.7.noarch.rpm"
+RPM_HASH = "031285444ca8b503c7bc259044168b36dbe400fd606cb70489ade62c4f1f79390a1010ebc841c8fa9a24b344db888141d45827366c0fab6a4c23a14df964cd5f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-streaming-commons-doc"

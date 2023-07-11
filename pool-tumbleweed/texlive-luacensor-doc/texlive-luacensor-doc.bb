@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-luacensor"
 DESCRIPTION = "This package includes the documentation for texlive-luacensor"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1.0svn62167"
+PV = "2023.208.1.1.0svn62167"
 
-RPM_NAME = "texlive-luacensor-doc-2023.201.1.1.0svn62167-52.1.noarch.rpm"
-RPM_HASH = "25a23b61447e06baefddc96f77ee138b5a4d1835978d911eb1f3a647dc1192fe5a5e29220247846011a070692c88fe40a03c9b8c5fb52334d3937cdd4331ac7c"
+RPM_NAME = "texlive-luacensor-doc-2023.208.1.1.0svn62167-53.1.noarch.rpm"
+RPM_HASH = "b7f65fb1de0db5c9d18f9e24d0e5e1b66af5941a5ef5ea23060a840d63f162f9efc88d50c8fee0e151106aa49d271c5df4fe22de52b0e747bdd92adc96345a35"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-luacensor-doc"

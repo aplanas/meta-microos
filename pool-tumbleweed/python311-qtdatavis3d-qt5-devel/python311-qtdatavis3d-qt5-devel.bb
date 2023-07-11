@@ -5,11 +5,14 @@ LICENSE = "GPL-3.0-only"
 
 PV = "5.15.5"
 
-RPM_NAME = "python311-qtdatavis3d-qt5-devel-5.15.5-1.5.aarch64.rpm"
-RPM_HASH = "008c519031aa4bc5a1812b137bfef0c08e8cca03c8e9f219836f4ce95a43557cb8aa9add4eba29ce2a3949606eebde6607f8b6938345f52801ad0c401a7140af"
+RPM_NAME = "python311-qtdatavis3d-qt5-devel-5.15.5-1.6.aarch64.rpm"
+RPM_HASH = "29f535a4b476223a8abc9938b3672352fc7616835ee8b983f2774ea6f0b57b639975ca536a7332e0d6c33c9267b79fef38cc7bf1d32bae2f27c1e21dee30c896"
 
 RPROVIDES:${PN} += "python-qtdatavis3d-qt5-api \
 python-qtdatavis3d-qt5-sip \
+python3-qtdatavis3d-qt5-api \
+python3-qtdatavis3d-qt5-devel \
+python3-qtdatavis3d-qt5-sip \
 python311-qtdatavis3d-qt5-api \
 python311-qtdatavis3d-qt5-devel \
 python311-qtdatavis3d-qt5-sip"

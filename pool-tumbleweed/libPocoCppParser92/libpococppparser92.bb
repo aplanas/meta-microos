@@ -5,8 +5,8 @@ LICENSE = "BSL-1.0"
 
 PV = "1.12.2"
 
-RPM_NAME = "libPocoCppParser92-1.12.2-1.4.aarch64.rpm"
-RPM_HASH = "339bd98d1e06cdf7756371fba20e065a230bc1f3e39d0b2e06746214dc994ff36ddddcc1659af08cbf5fda653dbe8c40b21924d35c931af8bb772844ce9ff91d"
+RPM_NAME = "libPocoCppParser92-1.12.2-1.5.aarch64.rpm"
+RPM_HASH = "f65d76a69db1d272472b85d2a28b9a8ba421e92bb852215a45e7480c1d17b87971c9737a88da4b0acc593890807639ede1d4ad5655da54921923558133655ab6"
 
 RPROVIDES:${PN} += "libPocoCppParser.so.92 \
 libPocoCppParser92 \

@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.12.2"
 
-RPM_NAME = "libgadu-devel-1.12.2-2.18.aarch64.rpm"
-RPM_HASH = "551b5421daa3dde519b32b6f33877b1d8395d79b5efef21815cbf27616361874b7c977be2e43a5145f12aa62f26aeb395237a6d8521583d1e4c9392bdaeebf6f"
+RPM_NAME = "libgadu-devel-1.12.2-2.19.aarch64.rpm"
+RPM_HASH = "917552eeb259a7636c9937bbcc7a1f780cadd7917061d6f00a941d067dc7edc2f71955a59c80398c1dfc5b4e1df67fc8721f79f6b128f10486a311e30eb45b6f"
 
 RPROVIDES:${PN} += "libgadu-devel \
 pkgconfig-libgadu"

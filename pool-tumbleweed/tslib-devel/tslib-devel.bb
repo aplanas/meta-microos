@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later & GPL-2.0-only"
 
 PV = "1.22"
 
-RPM_NAME = "tslib-devel-1.22-1.9.aarch64.rpm"
-RPM_HASH = "0e9925dac806ffc4c0040e65189139e7153ed2fc23ccd056e6003ef8e5582df9565044a032e9a7fa82a9df95c343a2a0e8b35cbb5ffe0f7baa2e6eb0788bc465"
+RPM_NAME = "tslib-devel-1.22-1.10.aarch64.rpm"
+RPM_HASH = "4716653ae941831aca40b169a41429eb9af65a399c4596c9ddda13b82cae940d99acaf5cbe07f86eb87895fdd89e1aad89e352a9e81d071d95ebae1d1d766eda"
 
 RPROVIDES:${PN} += "pkgconfig-tslib \
 tslib-devel"

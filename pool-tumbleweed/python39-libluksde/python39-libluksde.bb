@@ -6,8 +6,8 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20221103"
 
-RPM_NAME = "python39-libluksde-20221103-3.9.aarch64.rpm"
-RPM_HASH = "22e69f29f6be8778a7fb36eb658fca9b2f88b7b0558ac5b23d2d41c187280f3dbc3e0e2d3e7750927c8286aa43e0e7cc19f54608020fff65eae7d8b61bfb5c6a"
+RPM_NAME = "python39-libluksde-20221103-3.11.aarch64.rpm"
+RPM_HASH = "b2223cabf802189c4d5bb7579114ef033e97bd3a15134a69651a02e166b07f4ad7988eff33d5432d1f1b11229894a286245be804cb933bcbd1f390d903165d65"
 
 RPROVIDES:${PN} += "python39-libluksde"
 

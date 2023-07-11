@@ -11,8 +11,8 @@ LICENSE = "ISC & BSD-4-Clause"
 
 PV = "0.10.0"
 
-RPM_NAME = "python39-py-radix-0.10.0-1.27.aarch64.rpm"
-RPM_HASH = "8317e85adb3cafe7fb69af3e4675c543eae8daf0beff5a2eed8832dc0773c5f627c194551a422fff55e817ff24e845201db0d829b0e7a8c868604fdfa060f0b0"
+RPM_NAME = "python39-py-radix-0.10.0-1.29.aarch64.rpm"
+RPM_HASH = "11c2d0cca52f173018ec0b3dd6db09ae7efbbb6cbaed270285bcd6a124a3cb5d18894b61aea1ab1cf87b43cad3fe6fb41fbd0f466c15839f56eaeffeae671672"
 
 RPROVIDES:${PN} += "python3.9dist-py-radix \
 python39-py-radix \

@@ -8,11 +8,13 @@ LICENSE = "MIT"
 
 PV = "3.21.3"
 
-RPM_NAME = "python311-slack-sdk-3.21.3-1.1.noarch.rpm"
-RPM_HASH = "ffccd86e630b079696381cbb78383e0e7c607fc8fe03f13d70b92ce3c4f14d54224086ea30ba8fb52ae96544024cccf172f237d72c926832654b490222e479dc"
+RPM_NAME = "python311-slack-sdk-3.21.3-1.2.noarch.rpm"
+RPM_HASH = "c444cf12e3a7187e83da980c2a1b7c8c30c4ce64898bb17e47a86ccd7abeb9470e2df381acf706f187acd324153724d0e5fb0cd2b30350a9cf07a13e830fcc4b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-slack-sdk \
+RPROVIDES:${PN} += "python3-slack-sdk \
+python3-slackclient \
+python3.11dist-slack-sdk \
 python311-slack-sdk \
 python311-slackclient \
 python3dist-slack-sdk"

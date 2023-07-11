@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "10.1.0"
 
-RPM_NAME = "python311-azure-mgmt-containerinstance-10.1.0-1.1.noarch.rpm"
-RPM_HASH = "b36118cb3bc037902b54c001c7686cee3da22f21f2c8a02c5091cd5469f928957e87cf580b1d9033838dd7402188398daafc4eb2f41cb533ae2ee71b40dfdf07"
+RPM_NAME = "python311-azure-mgmt-containerinstance-10.1.0-1.2.noarch.rpm"
+RPM_HASH = "8da7667483cadabfe41dc37b71827cca5dfa6f33e27e02fea531a04675ca4ea2fa715503ff7f2181b381773a98b4cbc16da98124d7048d03b7bfd22e888f1d28"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-containerinstance \
+RPROVIDES:${PN} += "python3-azure-mgmt-containerinstance \
+python3.11dist-azure-mgmt-containerinstance \
 python311-azure-mgmt-containerinstance \
 python3dist-azure-mgmt-containerinstance"
 

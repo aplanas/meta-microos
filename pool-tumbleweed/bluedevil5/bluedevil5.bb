@@ -2,10 +2,10 @@ SUMMARY = "Bluetooth Manager for KDE Plasma"
 DESCRIPTION = "Bluetooth daemon for KDE Plasma, handling connections."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "bluedevil5-5.27.5-1.1.aarch64.rpm"
-RPM_HASH = "0ad313123d74555ec44c4d988910546b54fb235880d754e2d22ebbff957e6e5ff233f02a135de2276164c81dc1e99f0af68d2770334688103820811a25166c1f"
+RPM_NAME = "bluedevil5-5.27.6-1.1.aarch64.rpm"
+RPM_HASH = "49d68b52603c9664c8704a0a3c335db07bcf01f30392ae0a31446769924da91060e0a8d83286de6276533ab5f1c0b72f0b9642fa7428b7035f538e3cbb95b3a2"
 
 RPROVIDES:${PN} += "bluedevil5 \
 libbluetoothplugin.so \

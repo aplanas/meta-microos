@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.6.5+git.20190205"
 
-RPM_NAME = "shadowdive-devel-0.6.5+git.20190205-3.12.aarch64.rpm"
-RPM_HASH = "b3005ec0b775980b7b26a5882b0c5bf304977551e9819d3b2fee9816f15f29c5b162a96b8a6a376dfe8ceb3ef5fd70961df207afcdc8c80131f3eee03eb2d52b"
+RPM_NAME = "shadowdive-devel-0.6.5+git.20190205-3.13.aarch64.rpm"
+RPM_HASH = "950da1e4dcab2d79ef3fe650afcca0d539c657f4166f73743fa395724fbe44e32df0be851ebbaf3afb0c6af1ea2f6679ef3e777ad9ae5c0ad38b6436746d0647"
 
 RPROVIDES:${PN} += "shadowdive-devel"
 

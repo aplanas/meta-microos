@@ -9,10 +9,10 @@ meta-GGAs. The library provides values for the energy density and its \
 This package contains the library of libxc."
 LICENSE = "MPL-2.0"
 
-PV = "6.2.0"
+PV = "6.2.2"
 
-RPM_NAME = "libxc12-6.2.0-1.1.aarch64.rpm"
-RPM_HASH = "7cff205cef847bb573d5f72adc5962e06e0a08c8cef8721cdb6f6119769dac6bcd283397883cf79fee87630fd010f77bd49d7558edb99674df5ef81e78bb5e9f"
+RPM_NAME = "libxc12-6.2.2-1.1.aarch64.rpm"
+RPM_HASH = "5763d4fdab18f52a74037b8f57a56ecd29b7be90d905951fde0b72639f485cc1d0d5ef3966837bd81a85246f6d7e0abf8a11c0143368001c3bb9aa0b3a32e3c7"
 
 RPROVIDES:${PN} += "libxc.so.12 \
 libxc12 \

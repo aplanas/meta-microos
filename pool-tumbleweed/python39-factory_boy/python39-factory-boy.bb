@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "3.2.1"
 
-RPM_NAME = "python39-factory_boy-3.2.1-3.1.noarch.rpm"
-RPM_HASH = "d54d7cbea18909e577e3de842dc34a949be7c2f1296365500d79aeee85ae18ae4b723d82fe0b4e969abf2b496f2d5319143d4fd201335265ff909a55c868e9bc"
+RPM_NAME = "python39-factory_boy-3.2.1-3.3.noarch.rpm"
+RPM_HASH = "85243764fce043c926cf542cd2fc9bdabc162095073e1ffd21327a1da71eb2997b6d2c6e2f67cdb5e0ac431d5e1131aab3b654a15e012bb4723d9b92cae0fe9c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-factory-boy \

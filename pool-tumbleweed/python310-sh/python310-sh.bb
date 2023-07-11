@@ -11,12 +11,11 @@ LICENSE = "MIT"
 
 PV = "2.0.4"
 
-RPM_NAME = "python310-sh-2.0.4-1.1.noarch.rpm"
-RPM_HASH = "71266796e892d21bb4e58467afd77ede59fe0fa60ecff0aedc5c62fded2f540feb163d0cc824695b95cccc4447389654cbab5a4f73fa6b9577da51569ffe74c9"
+RPM_NAME = "python310-sh-2.0.4-1.3.noarch.rpm"
+RPM_HASH = "3b63852a5c733cfc6ae7c1365f311b58a9d74acb287c9e7af94e5de2895e0dbfb16d35dd8d7e8cb3a74100ba46ff14bd3f23e2d9c96234c8128d0b68f391e190"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-sh \
-python3.10dist-sh \
+RPROVIDES:${PN} += "python3.10dist-sh \
 python310-sh \
 python3dist-sh"
 

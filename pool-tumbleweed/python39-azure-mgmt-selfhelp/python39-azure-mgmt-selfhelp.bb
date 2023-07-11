@@ -4,10 +4,10 @@ DESCRIPTION = "This is the Microsoft Azure Selfhelp Management Client Library. \
 This package has been tested with Python 3.7+."
 LICENSE = "MIT"
 
-PV = "1.0.0~b1"
+PV = "1.0.0"
 
-RPM_NAME = "python39-azure-mgmt-selfhelp-1.0.0~b1-1.1.noarch.rpm"
-RPM_HASH = "6be4f4657c277b7eca4706686b4f10ec8814db66bb19a9e18d48174adb0bc1a9514482846e2994b0e585bf4e6ae4bd62a536894c6090dbc50cbef4960d211ff6"
+RPM_NAME = "python39-azure-mgmt-selfhelp-1.0.0-1.1.noarch.rpm"
+RPM_HASH = "c5c0fe592a52b95ce9ca018e8e5dc771ea964dc8ca723975d93ca4a0b222cad78cf0bd481fe8d6af7eba3beb378828a3b8fccc9a76e81c9cd7edf403545a5be7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-selfhelp \

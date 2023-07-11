@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.2.1"
 
-RPM_NAME = "python310-pypi-search-1.2.1-1.9.noarch.rpm"
-RPM_HASH = "389369f2d4c20af3650e3c55403a4de6bad30e13dc8ad9082bd16972b173890a378e943ac946334f2bcd432781dace520730e2e0c9bedb6b5c291eac0fabec1d"
+RPM_NAME = "python310-pypi-search-1.2.1-2.1.noarch.rpm"
+RPM_HASH = "9d8f0328eeb5044f6750a7d975908d5ec780c892b5cd4f730d8cd87b0be98d856562e47d87b53d90a587c707f2c6cf2132e381f28d859dad05c3f4d0312b4d01"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pypi-search \
-python3.10dist-pypi-search \
+RPROVIDES:${PN} += "python3.10dist-pypi-search \
 python310-pypi-search \
 python3dist-pypi-search"
 

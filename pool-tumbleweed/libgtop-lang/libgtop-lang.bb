@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.40.0"
 
-RPM_NAME = "libgtop-lang-2.40.0-4.3.noarch.rpm"
-RPM_HASH = "05c7fa9d41b68f30575496c59d1459cb349bf6d77d0b206339ded056f07fc7a1093875e3f4a68d830efe3b4d4d33ff690b648e4b3f05deb2cd84c7b0c7110724"
+RPM_NAME = "libgtop-lang-2.40.0-4.4.noarch.rpm"
+RPM_HASH = "8f23724d180c352d5ee622c36d2337a6aafcc01cb9670464d3cea9029e722250471cb30d26cb971b0ed237e74878bf8fea3dd03cf2a02fe0f6bc1ee0a075e861"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libgtop-lang \

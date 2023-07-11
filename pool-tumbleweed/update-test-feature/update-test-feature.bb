@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "5.1"
 
-RPM_NAME = "update-test-feature-5.1-1.17.aarch64.rpm"
-RPM_HASH = "2a834ee0deff6b2e874b8f0379e72d1a40a7d5ff0e3334bbb7761238c4689604fc0247e4d1bf84723052c3cbc763a1b87ed3f3c898c8754665da919bdf66dbf2"
+RPM_NAME = "update-test-feature-5.1-1.18.aarch64.rpm"
+RPM_HASH = "f0fcfe747cfb5d28098198fb2908332374fe6b874ea601182becf4e1cf0ffd625f30cbd55bb32f0b9a4b0a58ccb4d1be9dc5a9c58dcbb439f17f2c126e745665"
 
 RPROVIDES:${PN} += "update-test-feature"
 

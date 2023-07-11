@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.22.0"
 
-RPM_NAME = "python39-uvicorn-0.22.0-1.1.noarch.rpm"
-RPM_HASH = "461d854f61363049d07d47de67e1025dae16f2d15b0f95dc255bfcaa458aff5ceaf7c0adf9a255547692faedce99249e607fd61adf74301207ed4154d7bea30f"
+RPM_NAME = "python39-uvicorn-0.22.0-2.1.noarch.rpm"
+RPM_HASH = "fee7348e721830e363d579258674bc90ad9483481bbec5445e5f20884265d2bd77243844c7f80828c8087103091048a91ce8748cdff5014c3739a03f102fedc1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-uvicorn \

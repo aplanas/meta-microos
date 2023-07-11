@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "3.4.4"
 
-RPM_NAME = "libffi-devel-3.4.4-1.3.aarch64.rpm"
-RPM_HASH = "64b02beee99af25afe204c84fc25bdfe0e942a8de026d09e891df2562c1489511635359d4807ed45f49548e01de38ed3a13d510439d476f7856e9b3079f8a726"
+RPM_NAME = "libffi-devel-3.4.4-1.4.aarch64.rpm"
+RPM_HASH = "ecec01166814db4dd0c5abc7245d9c4e8d86c485f1aa3e44660c8fc0e38269a6c4aa566b5c450ed853c73264949c6f398887b7e40135e16cafaca360631cfd20"
 
 RPROVIDES:${PN} += "libffi-devel \
 pkgconfig-libffi"

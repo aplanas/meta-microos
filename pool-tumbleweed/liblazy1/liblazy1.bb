@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "0.2"
 
-RPM_NAME = "liblazy1-0.2-1.25.aarch64.rpm"
-RPM_HASH = "f562ddaaa652cc1fca3df86906b1ad08d49ea6882554a9f02e6102c2662aa426b8551c30db47774ee1e6618d0eae7eddf7b774b2526a039d5d7bbdc9cfae36b9"
+RPM_NAME = "liblazy1-0.2-1.26.aarch64.rpm"
+RPM_HASH = "b27d662a2a25a3652b4c5d567176d8ac6c6f237efc3070b06d404e24c88edc0e3db20cb9ebbbafadef37f3332f21ec94670875d0229206cefc3b2e27446254cc"
 
 RPROVIDES:${PN} += "liblazy.so.1 \
 liblazy1"

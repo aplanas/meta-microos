@@ -11,8 +11,8 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "0.12.0"
 
-RPM_NAME = "glucat-devel-0.12.0-3.3.aarch64.rpm"
-RPM_HASH = "acf9b01f286fb52dc0d954f6643c0f58a59d311f67cfba088e7306ab907fe9386c204f980d192b08f7c983255876c9caf1d64ff2d3ac87862afb036cd467242c"
+RPM_NAME = "glucat-devel-0.12.0-3.5.aarch64.rpm"
+RPM_HASH = "b2255b125cdbc130704c94f799deaee558b7a582cc3c7ddeb154542a4826ec9f17d681897057acf78475fc1a5aa42d1a63fc3a7f60de6483a047fed809e62249"
 
 RPROVIDES:${PN} += "glucat-devel"
 

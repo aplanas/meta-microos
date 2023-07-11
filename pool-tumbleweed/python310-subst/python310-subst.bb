@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.4.0"
 
-RPM_NAME = "python310-subst-0.4.0-3.15.noarch.rpm"
-RPM_HASH = "fa8278fb8da3e6434233330494d1ad17b53fa7487b9d84a59868d03d4ebf7982eb329b76123581cb7443071110b969d0fda0186dc80a81f42d228c85c85bbeec"
+RPM_NAME = "python310-subst-0.4.0-3.17.noarch.rpm"
+RPM_HASH = "f2274ca80280b68e9bbae8ca458f17bdc9ef85eaf8a6f4c5dcd8de666e92fd0191ee5d2a123cf2185db8117ce19662509dccfc9c36937ae4dd1f9f26637e56eb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-subst \
-python3.10dist-subst \
+RPROVIDES:${PN} += "python3.10dist-subst \
 python310-subst \
 python3dist-subst"
 

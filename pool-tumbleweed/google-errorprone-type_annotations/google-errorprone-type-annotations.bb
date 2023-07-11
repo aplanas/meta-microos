@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.11.0"
 
-RPM_NAME = "google-errorprone-type_annotations-2.11.0-2.1.noarch.rpm"
-RPM_HASH = "af01e40e5bd86ff6536b3323d9c9b1d7cbea736ff38187a814cd3a07ec3ccbdc007a1a924aab8a03d8c53e33bf721497e3bebae18b534f157210564000721fc3"
+RPM_NAME = "google-errorprone-type_annotations-2.11.0-2.2.noarch.rpm"
+RPM_HASH = "08e02403fd4bba0382abfcbf75d6cb7e377fe9c1ede2ba1f56a9bd30bac33c9468b4cea3add7618fa1406ad9c371d7b771e8f4303ccec14f1584c174decd3da3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-errorprone-type-annotations \

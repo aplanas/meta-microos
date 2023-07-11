@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.7.0"
 
-RPM_NAME = "libosmo-sccp-devel-1.7.0-1.1.aarch64.rpm"
-RPM_HASH = "f1399b951a41a115ecaeccb31907e9e609fedf7b01fad9e2c54b57a5e9800371f715cc1eb07f3b4b068d9b574a7a3c15a97a2486f09aae296b6d9ffa6e692d41"
+RPM_NAME = "libosmo-sccp-devel-1.7.0-1.2.aarch64.rpm"
+RPM_HASH = "a2a2b78fb75299f7cae531cb6e2fac1d5ed255444d222575fa7a35b349d96f4c0f8612513b26d366a0419d1a15c13da5e04d833c36ee95071bb09bcce0aa763d"
 
 RPROVIDES:${PN} += "libosmo-sccp-devel \
 pkgconfig-libosmo-sccp"

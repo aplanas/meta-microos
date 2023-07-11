@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "1.8.0"
 
-RPM_NAME = "python39-pykwalify-1.8.0-1.10.noarch.rpm"
-RPM_HASH = "ca76eb2fdd24a1e36154ac5b668372a15179ef3bb9ed775870f09e76b2d9f0f3749e5ad8d8219d837f7629c52147c9a349d861d75f94d763a16e4bc936a5bd26"
+RPM_NAME = "python39-pykwalify-1.8.0-1.12.noarch.rpm"
+RPM_HASH = "3ec87942a0239fdd4d14fcdc705964faa3ed75a4b40b6f0a0324f36f67f5b081dad3f9a58812e1766466ae10d532567c2140af244065fe32f6cbed85d4aeaeac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pykwalify \

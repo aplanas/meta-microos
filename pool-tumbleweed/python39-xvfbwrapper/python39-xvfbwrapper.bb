@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "0.2.9"
 
-RPM_NAME = "python39-xvfbwrapper-0.2.9-7.9.noarch.rpm"
-RPM_HASH = "834f7b185c7ae1792c3797fed425732a5ba2e131b3b8580c9717b264f3fee0b6e4a03f420f0aa702b501495150cd16fafbce0fa9e0729cc11129206be46cd4c8"
+RPM_NAME = "python39-xvfbwrapper-0.2.9-7.10.noarch.rpm"
+RPM_HASH = "f3aa496338c8d0db0d4eae070038f2b92a31f6731d09729486150bd01b46b3bae85c768b3bc485a07d3a9e46991612ab1b64ce41284f9c27a2823461a86f1614"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-xvfbwrapper \

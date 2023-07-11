@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.5.0"
 
-RPM_NAME = "python39-voluptuous-serialize-2.5.0-1.3.noarch.rpm"
-RPM_HASH = "619d4a5ab91ea6ece1b2d708e217fbb7a5808b762a2fb19999fd5a2763c21a5377b018d6234eedfa37554a8da6763ae59c485243269a86a03cfdf3a16281992c"
+RPM_NAME = "python39-voluptuous-serialize-2.5.0-1.5.noarch.rpm"
+RPM_HASH = "062103acad4b2e0bcb7bafe3ee12d53f450bd844b64d41b9b5b2c7b7260a928623b4ef1a16d67bd43a2e6e7dabdaeba05fb35ee454b20be61f192ff09c5ddc11"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-voluptuous-serialize \

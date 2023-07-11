@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "4.1.1"
 
-RPM_NAME = "med-tools-4.1.1-1.6.aarch64.rpm"
-RPM_HASH = "e2c8f90cacf2f6ef2667c52ddceae18713c943bde20113261a7d0a9bb21005d3619b1bfe4488331a051916aec8e1ecfe556d4f8b5b0d61e7d0e69d7be0a05755"
+RPM_NAME = "med-tools-4.1.1-1.7.aarch64.rpm"
+RPM_HASH = "53fae75cce105c67acae5a92c8a9e23865bf59db8c12631c3e10f8f5091c56cd3daf3eda18d60ae39269aeab2157cf69747ea889bff6daa7fd4cbd8faea51786"
 
 RPROVIDES:${PN} += "med-tools"
 

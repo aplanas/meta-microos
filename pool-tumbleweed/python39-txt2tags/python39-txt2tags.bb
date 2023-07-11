@@ -7,10 +7,10 @@ There are GUI, Web and cmdline interfaces. It's a single Python script and \
 no external commands or libraries are needed."
 LICENSE = "GPL-2.0-only"
 
-PV = "3.7"
+PV = "3.8"
 
-RPM_NAME = "python39-txt2tags-3.7-2.9.noarch.rpm"
-RPM_HASH = "f0a8e80e4d1757b1be93f74900b106420ede000a09b75c8d6319e8e5a225bcee1e720bc43deb8c34341367edd59f266e84a829ddf5c88237302622222d17d05e"
+RPM_NAME = "python39-txt2tags-3.8-1.1.noarch.rpm"
+RPM_HASH = "202e482e5f1dc15594e0bd47f89605134d57ef9813ed825afb4b73b392ea6d7e44c052847a7cdedc2f53b69cec0c047fd0d898a4b6bdb17061e02d4bd47940d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-txt2tags \

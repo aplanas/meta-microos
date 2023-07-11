@@ -2,10 +2,10 @@ SUMMARY = "Development package pulling in all build+test dependencies"
 DESCRIPTION = "Development package pulling in all build+test dependencies."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.1683886197.05274f7"
+PV = "4.6.1688579291.d13a461"
 
-RPM_NAME = "os-autoinst-devel-4.6.1683886197.05274f7-1.1.aarch64.rpm"
-RPM_HASH = "a54484063f56cbe0fad173bf7cec19c66b3dec3178356ffc5196f8e1ceebbbb48a092f8187d76ebf037f4959a72c934c6626e4b9a994874fc64692896c54997d"
+RPM_NAME = "os-autoinst-devel-4.6.1688579291.d13a461-1.1.aarch64.rpm"
+RPM_HASH = "b4da6c39680f3c9a9e2ea0b691c30a37267811f47a6f29d8a4587b4d619de3ce60dbe3d72e37ea6dd6e4f7c26d331d1adf27f8764d7d4e8f024ccdb63fae3a04"
 
 RPROVIDES:${PN} += "os-autoinst-devel"
 

@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.5"
 
-RPM_NAME = "mpiP_3_5-gnu-openmpi3-hpc-3.5-3.2.aarch64.rpm"
-RPM_HASH = "09be8a8df5275172c37a20470da5151ad0b8463052dacf7243eefb415eb1f3ffc2e6ceb3e29fe2c0885470791182964b97af8138c4a752a93f626f145556eae0"
+RPM_NAME = "mpiP_3_5-gnu-openmpi3-hpc-3.5-3.3.aarch64.rpm"
+RPM_HASH = "e406fea61f3ba5fedb94957e4803f67b94a9084cc8e1b10a28c5932128da5833fe955a69127b95c75fffb4bbb3596e924402e768d4803e0c65658edc0041241e"
 
 RPROVIDES:${PN} += "mpiP-3-5-gnu-openmpi3-hpc"
 

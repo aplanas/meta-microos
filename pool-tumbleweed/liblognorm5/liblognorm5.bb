@@ -21,8 +21,8 @@ LICENSE = "LGPL-2.1-or-later & Apache-2.0"
 
 PV = "2.0.6"
 
-RPM_NAME = "liblognorm5-2.0.6-2.17.aarch64.rpm"
-RPM_HASH = "ed59586cbc3b31752aa5913279e717f1041a6fcb939272b7cc5e48a0183d69a5e5be33bd9deed7ec7769df1e1dae3e35e99e8de2c939f3e73e75f27770953463"
+RPM_NAME = "liblognorm5-2.0.6-2.18.aarch64.rpm"
+RPM_HASH = "6ba2baf206c1f067c47c541ac4aa4c34597ab8043f44289debca6e8bd0d2dc36b6d38501e789127b67a884cb8e51805626bcbce2247e3ac1e040434dfc2ad656"
 
 RPROVIDES:${PN} += "liblognorm.so.5 \
 liblognorm5"

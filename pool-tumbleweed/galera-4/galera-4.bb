@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "26.4.14"
 
-RPM_NAME = "galera-4-26.4.14-1.1.aarch64.rpm"
-RPM_HASH = "bca095b1403296df52885acacfe966cbe3338f3136388ba0e1650b2643247b30a998dea04d1fc61919777dd8015e7816ad4a49e3e606576c1abfef21dfd48336"
+RPM_NAME = "galera-4-26.4.14-1.2.aarch64.rpm"
+RPM_HASH = "c740389f2eb0dab39e424e8d1dcac6aea82fe1a02f2811e5b0d47e008d32b47704cedcfa0c91cfb45c4bb876921dd679a7ccf558fca3b4c5a9a412d746500469"
 
 RPROVIDES:${PN} += "config-galera-4 \
 galera-4 \

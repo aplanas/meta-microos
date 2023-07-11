@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "3.18.5"
 
-RPM_NAME = "libpetsc3_18-openmpi4-3.18.5-1.1.aarch64.rpm"
-RPM_HASH = "03415a60053606d7303be38b2021e1993e6287342308dab05749cd8343a902ce62d7f1a6ae6f61d6b8628b10cacae344e6e419c41f62f63ce221a7d8b153a39b"
+RPM_NAME = "libpetsc3_18-openmpi4-3.18.5-1.2.aarch64.rpm"
+RPM_HASH = "5fe2cea124d9c0356f5704f0cef9928d305ccc8084df1c431fcb9ee545eaa29be4ddb29d6fef5ca091e93033764dc58f9be0f96e4514d83f0e7536907a61772f"
 
 RPROVIDES:${PN} += "libpetsc.so.3.18 \
 libpetsc3-18-openmpi4"

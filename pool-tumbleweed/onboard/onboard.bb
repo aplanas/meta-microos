@@ -4,11 +4,11 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.4.1"
 
-RPM_NAME = "onboard-1.4.1-7.6.aarch64.rpm"
-RPM_HASH = "1a9538f67c8c50763480901aa92950766374dc482093f8e6f7cca2523c0f29d9be60e1e88b9a0e891a3eac6959ca6f0b4fe090ebf375449d32e4957d39153b77"
+RPM_NAME = "onboard-1.4.1-7.7.aarch64.rpm"
+RPM_HASH = "fdebf77b93a57061c7a16b49ec3ca9221cf65ddfe55a717e4309047ec9fef5d2febc584d1668540973141119c2db96379adce7d9fd8d8462c549121ee758ce1e"
 
 RPROVIDES:${PN} += "onboard \
-python3.10dist-onboard \
+python3.11dist-onboard \
 python3dist-onboard"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

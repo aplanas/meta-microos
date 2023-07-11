@@ -4,11 +4,10 @@ LICENSE = "MIT"
 
 PV = "0.5.0"
 
-RPM_NAME = "python310-httptools-0.5.0-2.1.aarch64.rpm"
-RPM_HASH = "8e9fcd4ad5cea7a212948cbe6e6fc9b68f05c9d6cf6ee79a480a72e086ef7139b10c5ff7e177dd69aafbb9fa9c049940d7207313ed3a25f986f6ac6faf2ce09b"
+RPM_NAME = "python310-httptools-0.5.0-2.3.aarch64.rpm"
+RPM_HASH = "b9945dfed55060c4d8f785c20da2440ae63c8ba953d2b75d6b8af479241e8656dd9f7c2ba3e1494ed99dc14fd6821c9b9d93b2e9a69f4e0319b4f98bbc773f0d"
 
-RPROVIDES:${PN} += "python3-httptools \
-python3.10dist-httptools \
+RPROVIDES:${PN} += "python3.10dist-httptools \
 python310-httptools \
 python3dist-httptools"
 

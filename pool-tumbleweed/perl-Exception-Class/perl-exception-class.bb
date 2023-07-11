@@ -27,15 +27,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.45"
 
-RPM_NAME = "perl-Exception-Class-1.45-1.9.noarch.rpm"
-RPM_HASH = "532f07c6de551eb19615ddc8ca2c8989d026e064efe47406c726e0b968c2d82dda65d37ab2e620841d59a878110146179c5738f236e3646883540694b39efd9c"
+RPM_NAME = "perl-Exception-Class-1.45-1.10.noarch.rpm"
+RPM_HASH = "ef8d11e02c2fd840f39bfd1e3e3abef216fddd9893ecaf188d95741d5183a03a31ad102dfc9dc311ebaddd07ec44dab12e6a57bb3746419da2dbb4014c344a45"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Exception--Class \
 perl-Exception--Class--Base \
 perl-Exception-Class"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Class--Data--Inheritable \
 perl-Devel--StackTrace"
 

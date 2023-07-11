@@ -5,12 +5,11 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.1"
 
-RPM_NAME = "python310-pymetar-1.1-2.13.noarch.rpm"
-RPM_HASH = "cbae62286531e1350fa36cbe87caac77d6e35a953529b7e13e9ef372484402e2fc11c5dbab1c228fc58dc553dbb0a6df5a0279624f87abf05f33ab72ea434a2c"
+RPM_NAME = "python310-pymetar-1.1-2.14.noarch.rpm"
+RPM_HASH = "90db1a7609cc918e6aadae4d446a6b89cd5353441cdbbc8e629c4e92e73fa7338cbd81e1442dafc29affeb9bd76afc74167f056bba9536e67b65a51b6a37e6f1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pymetar \
-python3.10dist-pymetar \
+RPROVIDES:${PN} += "python3.10dist-pymetar \
 python310-pymetar \
 python3dist-pymetar"
 

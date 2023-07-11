@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0.0"
 
-RPM_NAME = "xfdashboard-1.0.0-1.4.aarch64.rpm"
-RPM_HASH = "b51c93da63c2cd9b154f93e1377f5ef0395db3f6a383bf6da3bf36f0d785954b1499ede9739e74e04139c803a38facb41c358bd576e467c0faf6319fd203dd1a"
+RPM_NAME = "xfdashboard-1.0.0-1.5.aarch64.rpm"
+RPM_HASH = "594d394a0926c81f188c4aa95b50b81d181bbac9a85e3792e2c048daf121e9f2b775545c031d5bf3fba818dccdcc4bce6d1c257cb2c6d3e34a643678c556f8ee"
 
 RPROVIDES:${PN} += "xfdashboard"
 

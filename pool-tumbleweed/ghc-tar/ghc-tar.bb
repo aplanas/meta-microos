@@ -12,8 +12,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.1.1"
 
-RPM_NAME = "ghc-tar-0.5.1.1-11.3.aarch64.rpm"
-RPM_HASH = "2ee59c6ec047b48a5d01dc5bc97597f202de8935088900b0a517358c336f67df24c539e236a2af34cd765b962d80a922833c07dd9ad30a7c195510d15f9e33cb"
+RPM_NAME = "ghc-tar-0.5.1.1-11.6.aarch64.rpm"
+RPM_HASH = "41c01e25df04b44b2bdad966d13eda0674cd81f19e2dbcd85e3e84753aa3d9073a8dd1e952688c17c4a80b0d53d44b873f51fd81df930ee9a1ed83529a2b2fb4"
 
 RPROVIDES:${PN} += "ghc-tar \
 libHStar-0.5.1.1-Dtsl5am3zST5LscMXaDdU8-ghc9.4.5.so"

@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0 & SUSE-Public-Domain"
 
 PV = "1.11.3"
 
-RPM_NAME = "aws-sdk-java-kinesis-1.11.3-7.8.noarch.rpm"
-RPM_HASH = "f3700412cf4f639d263a96edc73a8f962a62926e9b0c3b779f6a425f656dfd31af08382ac5802161654de97d5bc0caf4150d295cb928847f78e22693559289bb"
+RPM_NAME = "aws-sdk-java-kinesis-1.11.3-7.9.noarch.rpm"
+RPM_HASH = "9e46ad5d0388e15814e414653f7c7a34b5e6d994f1c755bf8872d3dc3f4df5c91c9d07cdbf9ca40e2d574752eb6a6cddfafe20b802b02353d236164929c04b1f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-kinesis \

@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.1.9"
 
-RPM_NAME = "python310-yarg-0.1.9-2.8.noarch.rpm"
-RPM_HASH = "d56d350f9abb4218f59b616b78467595c9e5f5527d048cbe757bf49f94c1d43ee013bd3ab291ab8a55761cbb9d4109aa90e83b00d0390c148bd458a29b452523"
+RPM_NAME = "python310-yarg-0.1.9-3.3.noarch.rpm"
+RPM_HASH = "f66ac0a80d81e46de1756cea27ffe025d719bf359d3068ed7ae91120d268aaa2b51b0c013e6b61b659d90d4c27d9aa5234950c67b7ec9e6b5159f881826953e8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-yarg \
-python3.10dist-yarg \
+RPROVIDES:${PN} += "python3.10dist-yarg \
 python310-yarg \
 python3dist-yarg"
 

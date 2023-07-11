@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "3.2.0"
 
-RPM_NAME = "python311-basictracer-3.2.0-2.6.noarch.rpm"
-RPM_HASH = "6a9f9e7e210bc8812f834d89aef3b22dbc9dfc37f2c984353b342056fdf6c3f6bd770e2823c0c9a93c083589c0da0e9623fbd5b102b8fe8d0d82120ec7d1023c"
+RPM_NAME = "python311-basictracer-3.2.0-2.8.noarch.rpm"
+RPM_HASH = "3b163a76761a50c8895595ee41a6311db96231ce94ffc0f87fbfcb8aa439946d15122e20769926678626a8ef47d0cd4145f2e0b94d32dbbbd9b3b5d38df564ef"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-basictracer \
+RPROVIDES:${PN} += "python3-basictracer \
+python3.11dist-basictracer \
 python311-basictracer \
 python3dist-basictracer"
 

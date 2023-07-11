@@ -12,8 +12,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "3.26.4"
 
-RPM_NAME = "geocode-glib-soup2-devel-3.26.4-1.4.aarch64.rpm"
-RPM_HASH = "23252e820950b39fcb5644911e44f163c60e77a3dacd949ee9c37f51afb897b4fceabeff217e33fac17651554883020ac57862d96b0eb24d7774c9806f419bfb"
+RPM_NAME = "geocode-glib-soup2-devel-3.26.4-1.5.aarch64.rpm"
+RPM_HASH = "0cff3f2fd77897c97a5db88abbac53ecf46a28ea3cc8c1c70d2a5b777354cbb26356ba39dd5b24fe74b838a387ebf4be0f5a0d7302a67ac6e3b795926865cfd2"
 
 RPROVIDES:${PN} += "geocode-glib-soup2-devel \
 pkgconfig-geocode-glib-1.0"

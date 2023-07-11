@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.36.1"
 
-RPM_NAME = "template-glib-lang-3.36.1-1.3.noarch.rpm"
-RPM_HASH = "a1c0d76e21f226da6641702cd6475a9ed4d92040ca6373a4826d4a96329ebac2987d93aff1c3034cf6d4dc99d3727d6cfdbe17968999e9e15673da268dbd1147"
+RPM_NAME = "template-glib-lang-3.36.1-1.4.noarch.rpm"
+RPM_HASH = "29c230c4043d18538c5699209393c271d6c2e8b1e57d6d1e7c39f45e3293eb52a604ce06f8af192175d289f9073426dec8e83da0184e9d9dd1dbec0bf298c74d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-template-glib-ca \

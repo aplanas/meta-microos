@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.8"
 
-RPM_NAME = "weechat-spell-3.8-1.1.aarch64.rpm"
-RPM_HASH = "1bfe46c1aa7f7e055a29794882b80aa04ffd1b9061f173c685ac0571f2f279b2c7719944eef91265382c5afabd39cabba432b91d335d70dee37af1660bba914c"
+RPM_NAME = "weechat-spell-3.8-1.3.aarch64.rpm"
+RPM_HASH = "2e5ef2c9943ff404cc42504ae2bc553d3e78f9a32fe6d57734efbe26b3c584741bd0dfdd88ed40e580a945e7d92743e7e54ed4fb29ed56e4dbf7a634907733c6"
 
 RPROVIDES:${PN} += "weechat-aspell \
 weechat-spell"

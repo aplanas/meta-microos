@@ -5,14 +5,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "6.6.3"
 
-RPM_NAME = "python310-jupyter_console-6.6.3-1.2.noarch.rpm"
-RPM_HASH = "ac5e5f469d1f3b49d6495e37880bd05b70a3c810397b3e273d7c6ac0a76eed49c23bc10b6e4539153e346b6c4b7d9d109247ae454ddad716bb0b735338d2c4cf"
+RPM_NAME = "python310-jupyter_console-6.6.3-1.4.noarch.rpm"
+RPM_HASH = "b5ba13bac5d542a7bce298f55b58b3be642244f710f7213d069b1ab5a081bb88ad8f641f2612106fb94b19f79477c84a6203e3a7bcd51e6ea321708c7c53b069"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jupyter-jupyter-console \
-jupyter-jupyter-console-doc \
-python3-jupyter-console \
-python3.10dist-jupyter-console \
+RPROVIDES:${PN} += "python3.10dist-jupyter-console \
 python310-jupyter-console \
 python3dist-jupyter-console"
 

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.15"
 
-RPM_NAME = "ghc-uuid-doc-1.3.15-4.3.noarch.rpm"
-RPM_HASH = "0d1fbfcd2ab68c73fd55e3f64bd81b26917361f8e6d5e10d1eb289112182a7f5011ebc11198556aed16fea3ac7bf26a86ad738934cac0a973b89ea9750f47e7c"
+RPM_NAME = "ghc-uuid-doc-1.3.15-4.6.noarch.rpm"
+RPM_HASH = "fb89a3ff7c84168576f891d3b03789af3db68829a7b2637f83db4de652ddc95bb11f4bf6fbe99f41bfa699874ae77e721e710ee3210b38254a2cb9617fce26f8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-uuid-doc"

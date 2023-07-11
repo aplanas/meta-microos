@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & MIT"
 
 PV = "1.7.36"
 
-RPM_NAME = "slf4j-ext-1.7.36-4.1.noarch.rpm"
-RPM_HASH = "d7352e5f122d20ac1c0074a81a79e2e38af8fa35a811f266203f05b0179e26d7324fbc5a58e8a3b9f905ced9c61b72b85f0e07c797f7fe12bc279124a72602f1"
+RPM_NAME = "slf4j-ext-1.7.36-4.2.noarch.rpm"
+RPM_HASH = "b95a7358ef2064d92d044ea066beb033af16b0ce6fd076e9d38b216084d953bda45fa970bea4315c7b54ff30ef1dfd068859228f9ccc904c0a5a72d7c0ebd698"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.slf4j-slf4j-ext \

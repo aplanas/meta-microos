@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.3.13+git.1673855974.f208fad"
 
-RPM_NAME = "python39-shaptools-0.3.13+git.1673855974.f208fad-1.4.noarch.rpm"
-RPM_HASH = "8dc5881fbe79831c17ff2a9c094596826350a8d366dc40b7f53d7e274f0a48ce74cabdf2a3e608e5f39239efcaafcdf961d5be9840b24b94c181eadacea5c873"
+RPM_NAME = "python39-shaptools-0.3.13+git.1673855974.f208fad-1.6.noarch.rpm"
+RPM_HASH = "e244f3b727ebf7591d14a310e9a2291624ee3aeef41dcaa6366bf476ed24463015b9cf0299cbd7d9cda407ac8b5b98ada18a535c1eea9e305fcc25dbd4b53e1c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-shaptools \

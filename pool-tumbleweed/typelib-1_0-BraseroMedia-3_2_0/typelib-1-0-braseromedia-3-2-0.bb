@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.12.3"
 
-RPM_NAME = "typelib-1_0-BraseroMedia-3_2_0-3.12.3-2.7.aarch64.rpm"
-RPM_HASH = "e59bd0c383ce7ab4970ce9a6b4e0bbf9a9ded9061b22418a67f5551911ef1d8618bb1748e46c90d4b78519e13c9cb53c1a23f77c5da4778d4d2ae3105a976fce"
+RPM_NAME = "typelib-1_0-BraseroMedia-3_2_0-3.12.3-2.8.aarch64.rpm"
+RPM_HASH = "5056b9fc0857ad28c80adfeb9b43a5736e24eddf387aaac011150305613ec67acdd470320ce84ccb4195b281c158c6b1f66406bec1f9c82b2082b0502b8644cd"
 
 RPROVIDES:${PN} += "typelib-1-0-BraseroMedia-3-2-0 \
 typelib-BraseroMedia"

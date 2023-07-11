@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "5.13.3"
 
-RPM_NAME = "pagure-loadjson-5.13.3-1.4.noarch.rpm"
-RPM_HASH = "f4463308e25271283bbfd3923604ca98232e5e878a29727ba4277e8df991111777f169d83ff6f47b41625bf2b3b5dba5bd8a33a368c81f81672c84604b958109"
+RPM_NAME = "pagure-loadjson-5.13.3-1.5.noarch.rpm"
+RPM_HASH = "f292d7db56620f3e1d3bc2125c467dca5fd2f3e4fa3a60252fa8074b37726c603baf10994fb16410aa81a276c57632f90f52f9d9a58789bc3a4e604d29102a1e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pagure-loadjson"

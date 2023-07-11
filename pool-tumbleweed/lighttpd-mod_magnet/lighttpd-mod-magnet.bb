@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.71"
 
-RPM_NAME = "lighttpd-mod_magnet-1.4.71-1.1.aarch64.rpm"
-RPM_HASH = "bb1b7fd71dfa3fd70abec7435129fa63d4ad7ab2afa6a274f76999a8a03fc23417a5694dd70cea36eb121d6bc5fc324300c3fe09aa54e856d27e8be503a65fff"
+RPM_NAME = "lighttpd-mod_magnet-1.4.71-1.2.aarch64.rpm"
+RPM_HASH = "3dee7aa3fe22549b3a375d5796064be398e0882a5dd0949b71b19315778d846a456788bd643dadf8a4ce1d34e897751d8c72a7d85f2c04de5dabbc297a3e8449"
 
 RPROVIDES:${PN} += "config-lighttpd-mod-magnet \
 lighttpd-mod-magnet"

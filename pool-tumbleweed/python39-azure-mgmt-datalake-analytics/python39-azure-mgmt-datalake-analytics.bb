@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "0.6.0"
 
-RPM_NAME = "python39-azure-mgmt-datalake-analytics-0.6.0-4.11.noarch.rpm"
-RPM_HASH = "3db5e3859704b95e1315beb2cef06b608458341a40dfc2151bab60ff4d3fde3c85de2fa84dd65f3ad9f4063619f4d8d382de6c5d5195ce38f272f4af89229310"
+RPM_NAME = "python39-azure-mgmt-datalake-analytics-0.6.0-4.12.noarch.rpm"
+RPM_HASH = "0eb3aa1b417c9802cb06cfc80f2c33800baba08e4d5eade1c480530780af5846a4d8b9378e027e75e5b6d0d00a6efe9e78acb2c9567f6ce241b99e1c77dd98df"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-datalake-analytics \

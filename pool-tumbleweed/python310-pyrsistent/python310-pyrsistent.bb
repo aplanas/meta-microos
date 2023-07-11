@@ -11,11 +11,10 @@ LICENSE = "MIT"
 
 PV = "0.19.3"
 
-RPM_NAME = "python310-pyrsistent-0.19.3-2.1.aarch64.rpm"
-RPM_HASH = "960b30d54cedf984e42ebafac31cc0f1759414f6be954e4d729ea7ad0142fd4494669254df04b4d22f7e55529915f0fd28dee1c996ab935f74562ba9acbb88d1"
+RPM_NAME = "python310-pyrsistent-0.19.3-2.3.aarch64.rpm"
+RPM_HASH = "d6899fffe60c0d246c3b02935b999a01811aaa2c136a5d0ce5ad258a8de83a3cc641304dd386315e79689453c5ce794e9ae906157387531ac69a2b4f4c77a94a"
 
-RPROVIDES:${PN} += "python3-pyrsistent \
-python3.10dist-pyrsistent \
+RPROVIDES:${PN} += "python3.10dist-pyrsistent \
 python310-pyrsistent \
 python3dist-pyrsistent"
 

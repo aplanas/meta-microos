@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.2.4"
 
-RPM_NAME = "gr-osmosdr-devel-0.2.4-1.1.aarch64.rpm"
-RPM_HASH = "d00d8b88caab00b31e8692593b0e06c40d2de552c40450f91d4eed1755ff5f8bbae9c0dd1bfc9aa53605a1421dfb89cb904e84bf802113e7b9bc2ca08be0ba55"
+RPM_NAME = "gr-osmosdr-devel-0.2.4-1.2.aarch64.rpm"
+RPM_HASH = "abd8cb2628b841910ba289014abc1a2baf053e4eefd9a2856586f0a1897f9de45a071bc4714afc0e284d177df8204d172fdcf14741b2afe19e511ea9df01f95a"
 
 RPROVIDES:${PN} += "cmake-gnuradio-osmosdr \
 gr-osmosdr-devel"

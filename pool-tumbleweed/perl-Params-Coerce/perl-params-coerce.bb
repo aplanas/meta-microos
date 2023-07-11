@@ -9,14 +9,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.15"
 
-RPM_NAME = "perl-Params-Coerce-0.15-1.10.noarch.rpm"
-RPM_HASH = "469b537d49eaa08e17d3148735ba4414c73463a6b41ee0bda9b2dde191fd0da9def3faea132ac3a0577aa2b5cfb177f97d8d1b74b3e461e7eb92956fca801f91"
+RPM_NAME = "perl-Params-Coerce-0.15-1.11.noarch.rpm"
+RPM_HASH = "de2627444ab0f50e12afecd1312139ad2cd4d03a2c3ad9a4c763328955df13a79eda902352d6cc1173dc58529f434c98dc07639b34c83cdb6f3a5ab2be6105ee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Params--Coerce \
 perl-Params-Coerce"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Params--Util"
 
 inherit rpm

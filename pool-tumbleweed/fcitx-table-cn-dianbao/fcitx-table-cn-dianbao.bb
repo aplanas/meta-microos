@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.2.9.9"
 
-RPM_NAME = "fcitx-table-cn-dianbao-4.2.9.9-1.5.noarch.rpm"
-RPM_HASH = "f092b0cff61ad6b59b8e3d9aa5e86c32a17ae95d4d82c37ba36685d5f948faca7e9d3bf8b49216644aa088af9baff61d27c7d34e78295b7468e766e94d53cb6e"
+RPM_NAME = "fcitx-table-cn-dianbao-4.2.9.9-1.6.noarch.rpm"
+RPM_HASH = "0cd8f6be708d7b242d9edae13ad245c15e7612fd3c8d7865f98a7e618e1591c0ed43154687518c607e746e406443be7f1a15914239dea3d398b02f0ad5fe6e6b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fcitx-table-cn-dianbao"

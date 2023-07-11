@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "0.8.1"
 
-RPM_NAME = "python39-slimit-0.8.1-9.26.noarch.rpm"
-RPM_HASH = "9c5e6a282e892fb2ed25407a26b23383d25ec55f35d5fe79d33ecd3a33b821a1bb64fb32b39395e9f9981f6861a58cef986c386b703d6f653362f88a362b8480"
+RPM_NAME = "python39-slimit-0.8.1-10.1.noarch.rpm"
+RPM_HASH = "8635c45b483f01815e9618b70bcc760b86441719398b7f8a0660719833608ddcaa24d4ab804310e30fd2b11a8f8ed9ca501a07e55fd211fc26b99caf199c7bd1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-slimit \

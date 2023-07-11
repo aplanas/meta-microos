@@ -15,8 +15,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "2.97"
 
-RPM_NAME = "perl-HTML-Template-2.97-1.22.noarch.rpm"
-RPM_HASH = "5dfe9649e5cbb0c6f0ee6ba550fb7b916436b66f07a6696e92ce351f67dfbe8fcc61c84b7d8c49f2d585cde46228e1bf628cff928fa8ead57a179092305f1005"
+RPM_NAME = "perl-HTML-Template-2.97-1.23.noarch.rpm"
+RPM_HASH = "33988105605b2c156ff1910147c960631bc7f718303c6fe2df3e024445005e0eba1b59fc1fd8711490c386156d1c95b5030c2250629e5feae466846ce5633491"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTML--Template \
@@ -32,7 +32,7 @@ perl-HTML--Template--URLESCAPE \
 perl-HTML--Template--VAR \
 perl-HTML-Template"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-CGI"
 
 inherit rpm

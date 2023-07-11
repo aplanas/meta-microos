@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "1.3.4"
 
-RPM_NAME = "python39-PeakUtils-1.3.4-1.1.noarch.rpm"
-RPM_HASH = "d7a193c2da1abe78f354bad7140b52dcd153a84118db5d5f2c370fedf9443a62b65d1d0d24ae3fb5db3b9ac5c38cb1808d109ed41906395126fd7dfb4042fa05"
+RPM_NAME = "python39-PeakUtils-1.3.4-1.3.noarch.rpm"
+RPM_HASH = "63bd3c6cf44decf241b91d5c447444a53618303df293aeb9df4582df07688b467363bc34f51f7315598aa1759185b3cd14fe7290a02cc3e995d0ecfc9f49949b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-peakutils \

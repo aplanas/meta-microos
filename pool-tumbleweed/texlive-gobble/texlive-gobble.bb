@@ -13,8 +13,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.2svn64967"
 
-RPM_NAME = "texlive-gobble-2023.201.0.0.2svn64967-53.1.noarch.rpm"
-RPM_HASH = "e8804c7a399ea886822d4b3edce731550ba16da7f9c89fb01fb4da79867374b20c726e1626ced59e9ff22720ea37e454fa9bffdeb6c6e35ed59e050eea15917f"
+RPM_NAME = "texlive-gobble-2023.201.0.0.2svn64967-53.2.noarch.rpm"
+RPM_HASH = "8931cb272a018ab14f7e3e7b195dd8872cd3e315057a48bce2ff1b4ab3e479432ab775e65dc54f6e45d2595109cdb818725391fba0edf7268a6e72ddd903aa44"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gobble-user.sty \

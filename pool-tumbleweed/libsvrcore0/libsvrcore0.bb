@@ -7,8 +7,8 @@ LICENSE = "MPL-2.0"
 
 PV = "2.4.0~git18.37ec5cd"
 
-RPM_NAME = "libsvrcore0-2.4.0~git18.37ec5cd-1.2.aarch64.rpm"
-RPM_HASH = "96a56259c7d7519857bb023d571f3dd14b5b2969ec9e5cd0fc570ac2d283d165bb81cc83c3b499b5a567a00e122b453625c25b0e51cd7709f109b661b330a455"
+RPM_NAME = "libsvrcore0-2.4.0~git18.37ec5cd-1.3.aarch64.rpm"
+RPM_HASH = "008aeb5551924069275aa45dd620c03bfcd06c48cc7eb8ca5cf9f2a35f6ade094f8e6088d0b7cd58a4d4a531dd708bd87ce7e41c09c4695aeb433bec82ada365"
 
 RPROVIDES:${PN} += "libsvrcore.so.0 \
 libsvrcore0"

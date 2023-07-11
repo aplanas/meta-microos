@@ -13,8 +13,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2.1.0"
 
-RPM_NAME = "libbiblesync2_0-2.1.0-1.9.aarch64.rpm"
-RPM_HASH = "21a6942d7ea2312f682bbccfd9bc79a69eee5cb48ebefa0ba3550450cec468c08a7019ecf483b99792c84854b82940fdd7505468cf21bf339881d9ffaebcbe3f"
+RPM_NAME = "libbiblesync2_0-2.1.0-1.10.aarch64.rpm"
+RPM_HASH = "f69e3b70c18276b36a3b13f27a0331dcc866b004e9550a044569f9b08ded1f86a67683ed2d7feb7e18a738c71f9aafcd54706620b51661112ee36e179c4baecd"
 
 RPROVIDES:${PN} += "libbiblesync.so.2.0 \
 libbiblesync2-0"

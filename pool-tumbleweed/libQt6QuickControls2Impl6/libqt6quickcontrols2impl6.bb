@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt6QuickControls2Impl6-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "e010e73df8a1aa1ef2f34d7e7279d77cc552b55e12fd485c6e9c9a14736e06c7752758ba7b7c6ddc14b350ea0b99580f48517803ed28d4c3a447345adbc5ea79"
+RPM_NAME = "libQt6QuickControls2Impl6-6.5.1-1.3.aarch64.rpm"
+RPM_HASH = "321de6df0f35307a1260ee5443b52571389ab649560d4702660d1cc74ce092ee6fc35eaaf44bc83983ff88384636d1c0204405e38c166bac296dbe3f6daac2e6"
 
 RPROVIDES:${PN} += "libQt6QuickControls2Impl.so.6 \
 libQt6QuickControls2Impl6"

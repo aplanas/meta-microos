@@ -6,10 +6,11 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20210509"
 
-RPM_NAME = "python311-libvsmbr-20210509-4.7.aarch64.rpm"
-RPM_HASH = "7c7e575115f40b19e4a7ed556a04f8e90845a425af2a7847c92495106f0de6449c12878e968c07e00d718c38294ad062d2bae8137bdc422cb87fbf280301a33c"
+RPM_NAME = "python311-libvsmbr-20210509-4.9.aarch64.rpm"
+RPM_HASH = "39514164eeadcec6c8e5709ae6448f4e8228967ab10e39f768105d6d0c9be16b47d6be849ca560715766b53af517f9cb9bd37144fbe10510ba9f46ab2e9fea63"
 
-RPROVIDES:${PN} += "python311-libvsmbr"
+RPROVIDES:${PN} += "python3-libvsmbr \
+python311-libvsmbr"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libbfio.so.1 \

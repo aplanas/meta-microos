@@ -60,14 +60,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.012"
 
-RPM_NAME = "perl-ExtUtils-InstallPaths-0.012-1.17.noarch.rpm"
-RPM_HASH = "013c6228e80133f7b1afc3b8aa9acdb5992f3581d25e3686d9290b2d4d1f371213c95e4b9d1c7d819c73a0937c276ea61fbfd5c9275196ddbd23840ed763c3c1"
+RPM_NAME = "perl-ExtUtils-InstallPaths-0.012-1.18.noarch.rpm"
+RPM_HASH = "9484a5a3655418e6185a95e471dca17b06f6c1cd2e68549fc528fb062ac1fd784624c2d4fcf69e51b15f96f97c92b758eaadc407978d3313d11cb4a0ce93e3b5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-ExtUtils--InstallPaths \
 perl-ExtUtils-InstallPaths"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-ExtUtils--Config"
 
 inherit rpm

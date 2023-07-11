@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "1.13.9"
 
-RPM_NAME = "ruby3.2-rubygem-nokogiri-1.13.9-1.8.aarch64.rpm"
-RPM_HASH = "93d982ce90af6b34adc2800f16b2512de1a98d0e55a28877d887776dd060d42e0a9d1358219207d40005fcac4fc6c22483fcc136b68922dd4b9b00e5c4fb4f83"
+RPM_NAME = "ruby3.2-rubygem-nokogiri-1.13.9-1.9.aarch64.rpm"
+RPM_HASH = "0d1a20e5c570be479b4e08b7108b1bf90af74d5954f08177234766af7d5f941fd86b045bc1d1911e8495e0132cc233c6e3c62fc6d4ddd94e6b0de528d34deed3"
 
 RPROVIDES:${PN} += "ruby3.2-rubygem-nokogiri \
 rubygem-nokogiri \

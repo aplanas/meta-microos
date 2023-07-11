@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.4.0+git.0.2c30265"
 
-RPM_NAME = "libauthselect3-1.4.0+git.0.2c30265-3.2.aarch64.rpm"
-RPM_HASH = "bd71328048150724ab83875a3d0e4a32c3c5078cd5f05b9b3db49c906078802cc4ffa006b6a775f7e095f6a2791c78f30a264519115e8d18977c55df154ad29c"
+RPM_NAME = "libauthselect3-1.4.0+git.0.2c30265-3.3.aarch64.rpm"
+RPM_HASH = "68902a575ab50585a7970c5ef15f30202e5834071aa0ac606958340d435221fc53a609dbd940c43b9edd9726bc5b98bfd480ec0c606c9352d7d620dd2ff698b2"
 
 RPROVIDES:${PN} += "libauthselect.so.3 \
 libauthselect3"

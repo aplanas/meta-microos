@@ -8,10 +8,10 @@ to test firefox and openoffice operation on top of a newly \
 installed OS."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.1683886197.05274f7"
+PV = "4.6.1688579291.d13a461"
 
-RPM_NAME = "os-autoinst-4.6.1683886197.05274f7-1.1.aarch64.rpm"
-RPM_HASH = "ba6cf56af50de4e199c7323bc0767f698e057aa2b0724d3e36af4b767f05a518b777450587c4f2df15f8d784e4b3984780ff8c484dd92edd219941a5df106b4b"
+RPM_NAME = "os-autoinst-4.6.1688579291.d13a461-1.1.aarch64.rpm"
+RPM_HASH = "8c7c66447e486bf2078568431a99b93a7684553df1f78d743a095be17b107e2a0c76e656fe4279c874273bd1ae4751db08f33df15bebf40f3868c41674015b94"
 
 RPROVIDES:${PN} += "os-autoinst \
 perl-OpenQA--Benchmark--Stopwatch \
@@ -109,7 +109,7 @@ libsndfile.so.1 \
 libstdc++.so.6 \
 libtheoradec.so.1 \
 libtheoraenc.so.1 \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-B--Deparse \
 perl-Carp \
 perl-Carp--Always \

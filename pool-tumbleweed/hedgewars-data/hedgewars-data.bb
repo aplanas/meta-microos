@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.0.2"
 
-RPM_NAME = "hedgewars-data-1.0.2-1.7.noarch.rpm"
-RPM_HASH = "f6cab441ebff1cf8baafe4c54c53b5410f18a3f13082a18c243617ec8c6699a0b5913f94f7156f3c6f38ef2a828ad0fd815071355ae3258123111a7ceaaf3ce0"
+RPM_NAME = "hedgewars-data-1.0.2-1.9.noarch.rpm"
+RPM_HASH = "52401d2b5a87cf3e160ac91cedadfc7babe7a356ecbfbed35a44cf06cf00aa531d0bea046310f772e894aef18eec8f23bde872fb336c4306beeca468e616a21c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hedgewars-data"

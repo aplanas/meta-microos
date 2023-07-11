@@ -8,12 +8,11 @@ LICENSE = "MIT"
 
 PV = "0.6"
 
-RPM_NAME = "python310-jsonxs-0.6-1.14.noarch.rpm"
-RPM_HASH = "7ba7a1050cac7ccc37b80530a9bc1635a479c0fe92b8f8f8aa6f828869f6c7729f7a8e70b52228972372ac1d7adff025fff1fca6a4506ee3bde0533f355eb75c"
+RPM_NAME = "python310-jsonxs-0.6-1.15.noarch.rpm"
+RPM_HASH = "58cc5fb14223bb39b5894cc0dedbe5d938e14d636fdc7a0f296f6c91cb3e7b9c29aa0f14921baabc405c08c23cedec08f4b5fd0b82b0522993a9c5ff41601a69"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-jsonxs \
-python3.10dist-jsonxs \
+RPROVIDES:${PN} += "python3.10dist-jsonxs \
 python310-jsonxs \
 python3dist-jsonxs"
 

@@ -156,8 +156,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "3.31"
 
-RPM_NAME = "perl-Apache-AuthCookie-3.31-1.7.noarch.rpm"
-RPM_HASH = "0b402957bc6fd578267ad728180e26c0ce70713221846782c1d236aa78c3da4598d964754f1b5a328014723ddaa810724976644867c6859eb950d8baa231c15d"
+RPM_NAME = "perl-Apache-AuthCookie-3.31-1.8.noarch.rpm"
+RPM_HASH = "3f9a313e328d84f8b20cf9211de573ce4a4ad70860ac60d4b73e33d27a7b7792f589ff6ab0e2b49b57aa98ed57cc7217af2164cc5e797def7475a9aa4ce3de72"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Apache--AuthCookie \
@@ -171,7 +171,7 @@ perl-Apache2--AuthCookie--Base \
 perl-Apache2--AuthCookie--Params \
 perl-Apache2-4--AuthCookie"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Class--Load \
 perl-HTTP--Body \
 perl-Hash--MultiValue \

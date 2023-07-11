@@ -9,15 +9,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.001"
 
-RPM_NAME = "perl-Throwable-1.001-1.2.noarch.rpm"
-RPM_HASH = "b19ca05d220550d66b9169992c17d285e1ca08060d59ed0925165e534db2e5bf1e154a431dcc732f069094c750f7d8c623bc3e6b70cb350353feb5bc116c43a0"
+RPM_NAME = "perl-Throwable-1.001-1.3.noarch.rpm"
+RPM_HASH = "642ffef1ddf526c9af72083b8808c643743c07d7d11f56bca2d93f8e7c0766fca474337853a3ef6cc8f4a17c5a9313ea369a53e04a9e1598a4cb6e513b0ac25a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-StackTrace--Auto \
 perl-Throwable \
 perl-Throwable--Error"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Devel--StackTrace \
 perl-Module--Runtime \
 perl-Moo \

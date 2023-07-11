@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.15.1"
 
-RPM_NAME = "libwlroots10-0.15.1-2.1.aarch64.rpm"
-RPM_HASH = "9ddbfd9a0006a2ba4a96bd6b4b0df7a4a880d1726bbefea50f759956d0b75b98fe844b99d979206adafddbff9f897be0ee5d46625ac93586161d70ea72253be7"
+RPM_NAME = "libwlroots10-0.15.1-2.2.aarch64.rpm"
+RPM_HASH = "0b48cf83dc1fffe2c5cdc603b0a64b60e7d88dc79110d1a8ba45a5ae7e8d1f44b41aba9cb44da5170a4a6609729f96837814ba533eff27bc5f0300cf69a99ed2"
 
 RPROVIDES:${PN} += "libwlroots.so.10 \
 libwlroots10"

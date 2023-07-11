@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.7.0"
 
-RPM_NAME = "python39-cssselect2-0.7.0-2.1.noarch.rpm"
-RPM_HASH = "c91cf0bbac755184a38b301357c3cae5de22f41f5099030d1c72859876c538fdac1636c580db1e6f79b7c7bd4c9e8fad4a885ae602274b80238879a68bea5cda"
+RPM_NAME = "python39-cssselect2-0.7.0-2.3.noarch.rpm"
+RPM_HASH = "e23241b601a72610d2ad96db5f3d0f5c16c740ea9cce4d56a4bc48b3d9955f92340aafd60864545bb90496fb9007c5c3a66b44db24f64938a5cc2f7ad99552ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-cssselect2 \

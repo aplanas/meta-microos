@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4.1"
 
-RPM_NAME = "harminv-1.4.1-1.18.aarch64.rpm"
-RPM_HASH = "10382aa5cde3e5239cdb9f25cbe66fd92e42d0ee619d7da400b9cb36c1e4fdff63869b0ed83db1d9869c225e9cd267a457abed83c9a1b6d1ccde7221b2bc6536"
+RPM_NAME = "harminv-1.4.1-1.19.aarch64.rpm"
+RPM_HASH = "5d4856e5d1d03811c2183148793e96507d96f4560e64f49a9b2dc3366bc732da7a5d890e9a14d1acbc6d31fcb7986f862e1b24537612c6ffc75d1d5bb3d69cfb"
 
 RPROVIDES:${PN} += "harminv"
 

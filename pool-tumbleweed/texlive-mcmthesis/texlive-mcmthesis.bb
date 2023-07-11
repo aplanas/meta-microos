@@ -4,10 +4,10 @@ in Modeling) and ICM (The Interdisciplinary Contest in \
 Modeling) for typesetting the submitted paper."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.6.3.1svn57333"
+PV = "2023.208.6.3.1svn57333"
 
-RPM_NAME = "texlive-mcmthesis-2023.201.6.3.1svn57333-52.1.noarch.rpm"
-RPM_HASH = "47d8482698125c08d0cef633f393ae0f2ecd1a7c567be404fef042686f3567d9e9729ac9db364918c4e4e5ae732bdfd3ef33331b44aac544d4f59507b7d693b6"
+RPM_NAME = "texlive-mcmthesis-2023.208.6.3.1svn57333-53.1.noarch.rpm"
+RPM_HASH = "aa0b0bdd259e0173f9899c5b2f54e3a3738f67669d7094590441ae663146a91574cb8049dc099e2f38311123a17de1e4141f56c728ed6d8e9d6d7e2924bf6fd9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mcmthesis.cls \

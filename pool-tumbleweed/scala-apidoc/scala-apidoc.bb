@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause & CC0-1.0 & SUSE-Public-Domain"
 
 PV = "2.10.7"
 
-RPM_NAME = "scala-apidoc-2.10.7-8.8.noarch.rpm"
-RPM_HASH = "794667995831a58b49b62f32a737684b1b0e276b3b99dc248deec5d347f6993bdb9378615685cf72af49282498db37195b30f3de05b5ff11879c841efd582e87"
+RPM_NAME = "scala-apidoc-2.10.7-8.9.noarch.rpm"
+RPM_HASH = "efd379657d8a4deaf2b085e306a0a15495d1ff4abdc211935797116b1ec3148f1ba52ab2689d5fd87f73f8cb9af38f99cbbcdb78c3cab2ba6f0e2bf57f0b1284"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "scala-apidoc"

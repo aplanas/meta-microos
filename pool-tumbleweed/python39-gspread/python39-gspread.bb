@@ -13,8 +13,8 @@ LICENSE = "MIT"
 
 PV = "5.7.2"
 
-RPM_NAME = "python39-gspread-5.7.2-1.4.noarch.rpm"
-RPM_HASH = "13733fda191165cc29ba4430c758b06d9128c018e8e3621a5d5c002baf9d263617219da335398cb6fe8ea4e213829cff41aeba49092920f0853cf661fc5dab7b"
+RPM_NAME = "python39-gspread-5.7.2-1.6.noarch.rpm"
+RPM_HASH = "98ddc58ab352fb1c6f43b794720bb3b8e3423e4b16a7ad4ae7a067487d81c3083be8caba6d4a5726b79188d0e8c6fc900a88c8db8eb8560aef20dfbc5ca979c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-gspread \

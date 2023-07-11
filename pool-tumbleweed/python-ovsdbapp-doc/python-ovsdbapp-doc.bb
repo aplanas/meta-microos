@@ -2,10 +2,10 @@ SUMMARY = "Documentation for OpenStack log library"
 DESCRIPTION = "Documentation for the ovsdbap library."
 LICENSE = "Apache-2.0"
 
-PV = "2.2.1"
+PV = "2.3.0"
 
-RPM_NAME = "python-ovsdbapp-doc-2.2.1-1.2.noarch.rpm"
-RPM_HASH = "c6e9de884ebe4b2f69f16128c9e6452a169d911c8ce32d6ef051a1ea7311e9cb0e56df6f74033cf07397c2848d248923c73baba1f84eeca5751ea7aa64364e8d"
+RPM_NAME = "python-ovsdbapp-doc-2.3.0-1.1.noarch.rpm"
+RPM_HASH = "b84f266065e411e9d792b1f2d8ab571c8f3dafa9836bd15755de222a422dd03512b4b8a96a13862b961d1b619387e6645a505c39f64627f8cbac39fa5a468de1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-ovsdbapp-doc"

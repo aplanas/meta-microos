@@ -2,10 +2,10 @@ SUMMARY = "KDE Translation Editor"
 DESCRIPTION = "This package contains lokalize, an editor for translations"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "lokalize-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "fb2f2154a2511aecafc8a16f5304ae550ce319d45521669a3bab4fd331c9b3b71dc227df5214cef2e39f2cc0d72cd015b9cb6730fe3decbffd5227e610582f1d"
+RPM_NAME = "lokalize-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "df33fa8af1ff9ff063acbcf9c4d52ee148457e94247f245a25221b85e55c379cf5bad98b073fb4f8566a3e9c217338a8b93bbac36b43dfc65533ccf5a3ab42d5"
 
 RPROVIDES:${PN} += "lokalize \
 lokalize5"

@@ -6,12 +6,11 @@ LICENSE = "Python-2.0"
 
 PV = "0.4.27"
 
-RPM_NAME = "python310-python-magic-0.4.27-4.1.noarch.rpm"
-RPM_HASH = "0f6c533fd8a7a517422385a6340399a54ea9e7696aa9774d7bdd42d73ca693bcfb5825eca600dd20c79ceb91f9c2201c8eb04ff139def6d97b7233ec9ddce301"
+RPM_NAME = "python310-python-magic-0.4.27-4.3.noarch.rpm"
+RPM_HASH = "c9e2319bfcbca1ae5e24c01ff8dc9af29cc0cdc881cfd1b12b8af5f262bf6befdc15356d6751b558677f93c81542c40a702ef0ca9e083cfcc4877cc6eaadd1e7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-python-magic \
-python3.10dist-python-magic \
+RPROVIDES:${PN} += "python3.10dist-python-magic \
 python310-python-magic \
 python3dist-python-magic"
 

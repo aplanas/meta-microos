@@ -51,8 +51,8 @@ LICENSE = "ZPL-2.1"
 
 PV = "5.0.1"
 
-RPM_NAME = "python39-zope.testing-5.0.1-2.1.noarch.rpm"
-RPM_HASH = "72677c4bbae0eb9fae04e195b2cb308a3d7a35bec54c9a4546bc3a197482b67f233a7e49c5c9aec40d5207eb1af5c0234310dd3d3c2c3782b78f2a0f590a2bdc"
+RPM_NAME = "python39-zope.testing-5.0.1-2.2.noarch.rpm"
+RPM_HASH = "5f12f584d956040bf71fd48a4621903bba269899a10245b231083c8e02e078a434f71dabbe2d1b0221f9034eb96a8ba5226a7cd0d9936c6ed18b1dc51691a378"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-zope.testing \

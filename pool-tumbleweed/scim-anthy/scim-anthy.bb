@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "1.3.2"
 
-RPM_NAME = "scim-anthy-1.3.2-1.29.aarch64.rpm"
-RPM_HASH = "1df4a6f6b96b3408af6e9dc168ad952d4bfd2a81cf7855e2525372ccfdfdaf9a67273086d1003ec84b3c54a1cd6fc673b106fb06d49d3f46cc19469c55ffca29"
+RPM_NAME = "scim-anthy-1.3.2-1.30.aarch64.rpm"
+RPM_HASH = "e918749c4d1e06db7933b99cae33289c96d2722e0080f8d0b13eecc2dd1a6374204c4aac2d861e2a5ba38e6eb74ba94cceb75a1e9613132337c56430dbbf3130"
 
 RPROVIDES:${PN} += "scim-anthy"
 

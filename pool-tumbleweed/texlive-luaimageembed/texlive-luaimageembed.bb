@@ -5,10 +5,10 @@ package a document with images into a single TeX file, or with \
 automatically generated graphics."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn50788"
+PV = "2023.208.0.0.1svn50788"
 
-RPM_NAME = "texlive-luaimageembed-2023.201.0.0.1svn50788-52.1.noarch.rpm"
-RPM_HASH = "c79796822e751252e0c7316e8c872a1ca20b85f838e640758834940b8b1d283dd54811a7713d7aa00230d8a1c87a84cb049970087090b7d55535061dd9ab1431"
+RPM_NAME = "texlive-luaimageembed-2023.208.0.0.1svn50788-53.1.noarch.rpm"
+RPM_HASH = "bad283427b86fa71ee496553a9f207690d023c3e7294c66ace70d332046bf249c0cd0b1e1fe3f0833944adbae8effcb66732195d56359f25316d2bf2fc3d0809"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-luaimageembed.sty \

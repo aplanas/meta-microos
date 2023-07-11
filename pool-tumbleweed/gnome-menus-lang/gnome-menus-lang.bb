@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.36.0"
 
-RPM_NAME = "gnome-menus-lang-3.36.0-3.3.noarch.rpm"
-RPM_HASH = "e14a3fdf2159f30961e4b8015920a68bd7f7aa80782ad9c65c4de61ce6e0f92a7230321e5f7bda90ac6e6273b3693652719df62de99b15d9cc05c12fbe6cf03d"
+RPM_NAME = "gnome-menus-lang-3.36.0-3.4.noarch.rpm"
+RPM_HASH = "87e76d1cfb645d13a114cf2249b701e50518cb052d6f8514a8446a21161af7d84d53182144f975c8a69cf2d9982dc727f1776113cf42f213642f05ae6434b035"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-menus-lang \

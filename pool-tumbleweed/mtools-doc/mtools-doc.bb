@@ -5,8 +5,8 @@ LICENSE = "GFDL-1.3-only & GPL-3.0-or-later"
 
 PV = "4.0.43"
 
-RPM_NAME = "mtools-doc-4.0.43-1.1.aarch64.rpm"
-RPM_HASH = "72141c24641a7012c3e7c35cb54f00d421ef5e3b0ba6b0a8a739a71f2b2acb4b49f75b21ef16f556df452c01ea9e8fdf9fe566c530ecfcf4bd9d020de0243804"
+RPM_NAME = "mtools-doc-4.0.43-1.2.aarch64.rpm"
+RPM_HASH = "40f3b22f85a8ffa0c0fc5068bb52780dc4a12e38451ac3deab7a02e55c2cfcba5735d57f608aa4b5435374c1ec9517213d062652f1e7d3a29cc612372d5e9b6b"
 
 RPROVIDES:${PN} += "mtools-doc"
 

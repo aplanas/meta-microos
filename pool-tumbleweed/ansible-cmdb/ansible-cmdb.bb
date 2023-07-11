@@ -9,12 +9,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.31"
 
-RPM_NAME = "ansible-cmdb-1.31-1.7.noarch.rpm"
-RPM_HASH = "e91552a26d325e43c9314d338ad7560f8cf77b2fd2ff2852253f4d6ab85e0c50ac6ab3c928eadf15625ffa547d97f42f413f11c8cd9fc1056649b729789bef6c"
+RPM_NAME = "ansible-cmdb-1.31-1.8.noarch.rpm"
+RPM_HASH = "dad2a3732b89ab6ab6febcf0e12890c34f099b57621906334da5a27db64ff1524bcf4c660e097661b0ced06029b477b14385771b9aeb7f69c56f6d770423de44"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ansible-cmdb \
-python3.10dist-ansible-cmdb \
+python3.11dist-ansible-cmdb \
 python3dist-ansible-cmdb"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-egyptianhieroglyphs-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "00e6ddf8eb918980a7b64ee59028bea29441876026589e4ae9160eff569b925525d815a1b146ca4f5c916a7364cfcf3d1faf90f78f08ea643a1f4a9a85783da9"
+RPM_NAME = "noto-sans-egyptianhieroglyphs-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "c25781621c20904128cf5169f2e1cc2515b0efbe60230b6ce0a2131787850435c49ae78b8b964a865e4ae07afabfa67013ef3ac521a3dd01d88e7653e07108b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-egyptianhieroglyphs \

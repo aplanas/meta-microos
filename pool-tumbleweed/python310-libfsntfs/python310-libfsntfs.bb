@@ -4,13 +4,12 @@ DESCRIPTION = "Library and tools to access the New Technology File System (NTFS)
 Note that this project currently only focuses on the analysis of the format."
 LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
-PV = "20230427"
+PV = "20230606"
 
-RPM_NAME = "python310-libfsntfs-20230427-1.1.aarch64.rpm"
-RPM_HASH = "1cfbda81b83eabd0d8329be7e0430e5c5e2b0a720444dcaa05e3069643ffb16958b2693d264747aa9e5b286c01c993b626fbdde520987fd6082c9441b868ec50"
+RPM_NAME = "python310-libfsntfs-20230606-1.4.aarch64.rpm"
+RPM_HASH = "4eda2f5fca9fd03e0bd5c8e2f4d742586f6a6c2718a3a1def806d5c57f3197648cd3b36b7cf1596e77ae8eff64bc2c7fc8f124b9f64b52e889e65b2b8d39e955"
 
-RPROVIDES:${PN} += "python3-libfsntfs \
-python310-libfsntfs"
+RPROVIDES:${PN} += "python310-libfsntfs"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libbfio.so.1 \

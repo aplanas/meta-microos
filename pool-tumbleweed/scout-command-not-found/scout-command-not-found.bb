@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "0.2.7+20230124.b4e3468"
 
-RPM_NAME = "scout-command-not-found-0.2.7+20230124.b4e3468-1.1.noarch.rpm"
-RPM_HASH = "01ba8add4fb205e94be8be15547f6a6015b58699e4bd53697f48542c81cea625320756f122767a2a2a9e6273318de982738bc48dbff56cecf9a798f327d7373a"
+RPM_NAME = "scout-command-not-found-0.2.7+20230124.b4e3468-1.2.noarch.rpm"
+RPM_HASH = "ccf86bab7e7f3b805b5e89e646969bc94d6836585809f22c8a9a38ecf8a8731731fe5b4c0b3e3f43835cf1be446ee694a08618fefa1dc8dafac9274ef94bbb21"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "command-not-found \

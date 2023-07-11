@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0b1"
 
-RPM_NAME = "python39-azure-mixedreality-authentication-1.0.0b1-1.8.noarch.rpm"
-RPM_HASH = "3277544d91a3be76e080e9732fbe2159e30b50dd09dd2bcf860c013fb399b62def7d0024bee394a3743854050a8ba88d977094b8f2219b9fe6934129ec5b7256"
+RPM_NAME = "python39-azure-mixedreality-authentication-1.0.0b1-1.10.noarch.rpm"
+RPM_HASH = "88b7005656e9037f11baac31e02cf49af05ca8cd61757548891a97a907c7798a998d220319adab8b4fe309bf5cdd0a358d86db408d074ee759c0db934b145a25"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mixedreality-authentication \

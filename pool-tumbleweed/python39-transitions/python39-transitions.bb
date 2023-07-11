@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.8.10"
 
-RPM_NAME = "python39-transitions-0.8.10-2.6.noarch.rpm"
-RPM_HASH = "d62ae3a0f136ddf236ceec3defcd70a28a8d5844667d56122c29461516eb13cd653b5da60a925dcfa752c5f09decd514c15bda9bee92107f5aea476d4ef6c287"
+RPM_NAME = "python39-transitions-0.8.10-2.8.noarch.rpm"
+RPM_HASH = "3d39628dd39b7e21937856c3aff078c2a84aa395a72d0002243469f603fde5458c7d33ccd171fac8f043658d8a1775b66732b20cb5b23857b761d4744cd341df"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-transitions \

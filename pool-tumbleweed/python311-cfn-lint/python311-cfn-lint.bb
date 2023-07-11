@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "0.72.10"
 
-RPM_NAME = "python311-cfn-lint-0.72.10-1.5.noarch.rpm"
-RPM_HASH = "29e5fa83eb1b11e0bdf0c96d6e274405a36aa005ab7fe50d0a80b0e904d0574fd0a4592588612fdf5844e7c80d9a8dafb759778b2e0855d590060850da4141d2"
+RPM_NAME = "python311-cfn-lint-0.72.10-1.7.noarch.rpm"
+RPM_HASH = "448128f889721cf19fa2fa585eb0ca2444734d34362c6af76de79b696e737d90d5501364853c09729ebe8cb5fcbd71d697fdbab617bd2c9820286c36a3ef00df"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cfn-lint \
+python3-cfn-lint \
 python3.11dist-cfn-lint \
 python311-cfn-lint \
 python3dist-cfn-lint"

@@ -3,10 +3,10 @@ DESCRIPTION = "gfio is a gtk based graphical front-end for fio.  It is often ins
 testers workstation whereas fio would be installed on the server."
 LICENSE = "GPL-2.0-only"
 
-PV = "3.34"
+PV = "3.35"
 
-RPM_NAME = "gfio-3.34-2.1.aarch64.rpm"
-RPM_HASH = "a7473fbd65211f6064f4c9f8e4440509848f2f93914e38c7f64173a0b2261811ed10b67dc768251463c07406de1513075a126bb75f902d0033bdbfc1a018fcfd"
+RPM_NAME = "gfio-3.35-1.1.aarch64.rpm"
+RPM_HASH = "c531ff0381827a1ade47f437d1a6992cb02513d59c9f52bfe82ec2d8721d361693f35002464373be73140b95560b0c3f3424497b9737a50f3c91844121913a61"
 
 RPROVIDES:${PN} += "gfio"
 

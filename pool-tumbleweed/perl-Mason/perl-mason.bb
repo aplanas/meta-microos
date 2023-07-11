@@ -21,8 +21,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "2.24"
 
-RPM_NAME = "perl-Mason-2.24-1.22.noarch.rpm"
-RPM_HASH = "222800814b1eb4af098f856bc242c0ae7d606648f2fc3d4876b9b9b17c0e383d3db49a962adf0bf8d910aefe1190bb59bb23dcff030d1544bb4e23ecdc343b12"
+RPM_NAME = "perl-Mason-2.24-1.23.noarch.rpm"
+RPM_HASH = "45f4bb7723351e5ca1a56c9f5063949fbfac851c545971654d907de8d1235175208e86672fd1eaee02d3c8d977f69ad28e902b30f13528e7811f30e5dd72d2eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mason \
@@ -107,7 +107,7 @@ perl-Mason--t--Syntax \
 perl-Mason--t--Util"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-Capture--Tiny \
 perl-Class--Load \
 perl-Class--Unload \

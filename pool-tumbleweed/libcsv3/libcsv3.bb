@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "3.0.3"
 
-RPM_NAME = "libcsv3-3.0.3-2.24.aarch64.rpm"
-RPM_HASH = "cf79fee9f5661b30456e013c1c55a8ee768823d3cf913e20ac04fa9369b072577453bf04ccde9d91aba7c0308fae9a7d27650ab14cd99ea05fcdf35dff5adcbc"
+RPM_NAME = "libcsv3-3.0.3-2.25.aarch64.rpm"
+RPM_HASH = "b604002838a66539bd7dc98909a9c7fed57e5e0eec69914cfb9d3f8b493df0e1826952fee7067e8bee180bc20848c47db64b47f0e1b1da29b47a0ad460379607"
 
 RPROVIDES:${PN} += "libcsv.so.3 \
 libcsv3"

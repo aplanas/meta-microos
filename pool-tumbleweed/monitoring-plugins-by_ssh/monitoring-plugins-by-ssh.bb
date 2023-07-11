@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
 PV = "2.3.1"
 
-RPM_NAME = "monitoring-plugins-by_ssh-2.3.1-9.4.aarch64.rpm"
-RPM_HASH = "79935279cdfd8d7858f5cb9de36b875fb89866712f734fa033ab9ca97f182a410dc354041dedf2aa302affd07f984181854df58effe30db4b735ac4e7a44f71a"
+RPM_NAME = "monitoring-plugins-by_ssh-2.3.1-9.5.aarch64.rpm"
+RPM_HASH = "098daf723fd75769dbac44adeb1483f02e635da2a1efad414d657fdc62c2645557e4927960b1dc74de6bfa1f3242e49de9f306c93720e459d0ea83b265bb17b9"
 
 RPROVIDES:${PN} += "monitoring-plugins-by-ssh \
 nagios-plugins-by-ssh"

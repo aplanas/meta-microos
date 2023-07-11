@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.4.1"
 
-RPM_NAME = "liblightlycommon5-5-0.4.1-2.7.aarch64.rpm"
-RPM_HASH = "8031a4aa9d21e336c83b694ce07d58b523bce41750e94ba78c211eb4987d17052211f398585d58afc7aaa5248eee8428fd5c178d39e88e662a495dcbbc4483c8"
+RPM_NAME = "liblightlycommon5-5-0.4.1-2.8.aarch64.rpm"
+RPM_HASH = "1b718521980034c31498725fe55beff7df4c89b19831f015d5e67e8d0eee62b26ac94ddb586290116e1a81f963020ca6cf786b246efadd94b2b8484b479b4c36"
 
 RPROVIDES:${PN} += "liblightlycommon5-5 \
 liblightlycommon5.so.5"

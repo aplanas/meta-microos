@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "8.45"
 
-RPM_NAME = "libpcrecpp0-8.45-2.6.aarch64.rpm"
-RPM_HASH = "a8f51efaaf9e17cfe56c5568d20e5bc0a8c7658b9eb6dc840210e489ec352ae33b39a4859d3fb19b2bdf0c5d11ef8732ad4c1ed2cc459341135ec5d3acc80eae"
+RPM_NAME = "libpcrecpp0-8.45-2.7.aarch64.rpm"
+RPM_HASH = "c587b3571d1f491010596cfeb9e962d994571cb3711361f55e508f1ebf55f4872a6279961105f3486aed684f777dead4ba1e8807c6d1bce2da15689eb4889114"
 
 RPROVIDES:${PN} += "libpcrecpp.so.0 \
 libpcrecpp0"

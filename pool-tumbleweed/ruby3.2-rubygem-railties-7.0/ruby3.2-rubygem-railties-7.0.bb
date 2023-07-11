@@ -2,17 +2,17 @@ SUMMARY = "Tools for creating, working with, and running Rails applications"
 DESCRIPTION = "Rails internals: application bootup, plugins, generators, and rake tasks."
 LICENSE = "MIT"
 
-PV = "7.0.4.3"
+PV = "7.0.5.1"
 
-RPM_NAME = "ruby3.2-rubygem-railties-7.0-7.0.4.3-1.1.aarch64.rpm"
-RPM_HASH = "df6f9ee71ba4f97faf68f96a4fd66e422cce55a3d4e514fdae2838881b852180408d2cb24d0d36bc2a403e6abcdaeebf3db97d4dcacb749aecdf45b31b94f311"
+RPM_NAME = "ruby3.2-rubygem-railties-7.0-7.0.5.1-1.1.aarch64.rpm"
+RPM_HASH = "f3600a3f560281193b6b83ee93e70f9fb4c2b5989763863efe3f424da7d0ef355557d5d96b441abb44633a540374aed190612f989cc0bb919f8204642bc28aa5"
 
 RPROVIDES:${PN} += "ruby3.2-rubygem-railties-7.0 \
 rubygem-railties \
 rubygem-ruby-3.2.0-railties \
 rubygem-ruby-3.2.0-railties-7 \
 rubygem-ruby-3.2.0-railties-7.0 \
-rubygem-ruby-3.2.0-railties-7.0.4"
+rubygem-ruby-3.2.0-railties-7.0.5"
 
 RDEPENDS:${PN} += "/usr/bin/ruby.ruby3.2 \
 /usr/bin/sh \

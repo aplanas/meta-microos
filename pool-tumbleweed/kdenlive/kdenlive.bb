@@ -6,15 +6,16 @@ designed to answer all needs, from basic video editing to semi-professional \
 work."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kdenlive-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "4f35928f714d3b2692d6eddc8e35873cc5df728c9dc37927554fbfecd7a77ce5a02b1d9099f48f61073a4649e07a922d673a86661d70100c711f20a44a324d79"
+RPM_NAME = "kdenlive-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "7070958b81733e37b95753a3e1917ff6393c1ded7b035577ed82c37a07280136e04bdc3079f76c835631d41f9b1709c3ece1d2d0f2e4d733bc210ac401c2a990"
 
 RPROVIDES:${PN} += "kdenlive \
 kdenlive5"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "knewstuff-imports \
+ld-linux-aarch64.so.1 \
 libKF5Archive.so.5 \
 libKF5Bookmarks.so.5 \
 libKF5Codecs.so.5 \

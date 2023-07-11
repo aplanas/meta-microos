@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.5"
 
-RPM_NAME = "libbinio-devel-1.5-1.2.aarch64.rpm"
-RPM_HASH = "d971cffc7a350db48f4782c50cb1903a8b42d7f0f97f23b05a2804a63f725ae4c9b4b3069ec3d2067ec11971daf3cf3626e866bea44822c1990123830b29e0c9"
+RPM_NAME = "libbinio-devel-1.5-1.3.aarch64.rpm"
+RPM_HASH = "e30847436d4eeb391f4e1935daf09d656f452d8a9fa55c94d5e1c9d404391da5a424b8f3b35fb13818b0627d437ba64f72b19cd5e89a621c172590a3ec1f1956"
 
 RPROVIDES:${PN} += "libbinio-devel \
 pkgconfig-libbinio"

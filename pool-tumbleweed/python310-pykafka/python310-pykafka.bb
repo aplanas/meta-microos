@@ -13,11 +13,10 @@ LICENSE = "Apache-2.0"
 
 PV = "2.8.0"
 
-RPM_NAME = "python310-pykafka-2.8.0-2.21.aarch64.rpm"
-RPM_HASH = "ccd5c57143a82d1f1681bb8a755cdcf6f48aec230ea70c773d2d6018bd8f29ab4118a3c492a511a3ff21181ab3f971626ec73356eb68a40b1aa1292f6d69c369"
+RPM_NAME = "python310-pykafka-2.8.0-2.23.aarch64.rpm"
+RPM_HASH = "691192d14e0a4c4805350e1d1601cd3c6c6c7055239406b5380831e019ba2448edaa8e816010128c53ec54577c32525c1f6a0ebe25f69bb13cdcd8252eb49e54"
 
-RPROVIDES:${PN} += "python3-pykafka \
-python3.10dist-pykafka \
+RPROVIDES:${PN} += "python3.10dist-pykafka \
 python310-pykafka \
 python3dist-pykafka"
 

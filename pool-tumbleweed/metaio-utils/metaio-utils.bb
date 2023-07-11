@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "8.5.1"
 
-RPM_NAME = "metaio-utils-8.5.1-1.8.aarch64.rpm"
-RPM_HASH = "53c9076043147f027b6ca8bab920f6b830c344b1d2fd86247da9605269e2917f92953b34fca8f90a4eb5e5b3b3f4b1f8c59f58a14882a03d3adebea4546b6d61"
+RPM_NAME = "metaio-utils-8.5.1-1.9.aarch64.rpm"
+RPM_HASH = "91a0e7048a854faf5981a421555ada82819d162ca7585a3431d9af721a912c0ad196a04ab23bbd7ebe582f52c4327d60d3a26eff49a3dc60097d96366ec8c165"
 
 RPROVIDES:${PN} += "metaio-utils"
 

@@ -13,12 +13,11 @@ LICENSE = "MIT"
 
 PV = "3.3.0"
 
-RPM_NAME = "python310-tablib-3.3.0-1.3.noarch.rpm"
-RPM_HASH = "64c8236465fcd51e7444664216e97a04b50df8fa82001e4098c0b363c0c5e00823d555b338f0340f0032987f576476a4f53ba4a2bbcf8f148429a8f7b7d6e5ed"
+RPM_NAME = "python310-tablib-3.3.0-1.5.noarch.rpm"
+RPM_HASH = "1ca1d561610952dd63907fdb5456a8ba92e0dd57fe140f9e2f5ed3daef11b1d80cdd937994953a03bbabc3d41a12f3055735e2ea6d3d7d70b66aab761896352c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-tablib \
-python3.10dist-tablib \
+RPROVIDES:${PN} += "python3.10dist-tablib \
 python310-tablib \
 python3dist-tablib"
 

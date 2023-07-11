@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "1.2.0"
 
-RPM_NAME = "python39-filetype-1.2.0-1.4.noarch.rpm"
-RPM_HASH = "c46519c20bcb38db992f92b1df26f26d4a2dc0a29698d24f955c74f0a93119b8f268b47f0b63511b70ed5935d25b6bf3c5095649b4b55aca2678f38a288906fe"
+RPM_NAME = "python39-filetype-1.2.0-1.5.noarch.rpm"
+RPM_HASH = "e41dd8b9320cf7f3253d1b45f0fdef8ef62141bd32a64dc7579aeea793445311fb2294a9c761d868cf9157026f6119e802c10e03c54587fa1171a67cac9cf063"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-filetype \

@@ -4,8 +4,8 @@ LICENSE = "CECILL-2.0"
 
 PV = "1.1.0"
 
-RPM_NAME = "scirenderer-javadoc-1.1.0-6.6.noarch.rpm"
-RPM_HASH = "15f24e5e9e066cbc422822027ba5b9d01eb6b134fbcf23ae18fa0427cab27b0bd0684f65e5603ac63a0c1d97d9ea16de063b6cc688de110db0cd893ae4a5da6a"
+RPM_NAME = "scirenderer-javadoc-1.1.0-6.7.noarch.rpm"
+RPM_HASH = "77d9ff894addf28e4cfdb1d744d9d07ee2d993ebdc8e79f0dab631cf82296c674c4fffd25d7c469becc6383b7110fc146d76960f32f574560b1fda766629851f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "scirenderer-javadoc"

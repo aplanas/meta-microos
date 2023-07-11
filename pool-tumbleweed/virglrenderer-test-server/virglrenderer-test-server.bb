@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "0.9.1"
 
-RPM_NAME = "virglrenderer-test-server-0.9.1-3.7.aarch64.rpm"
-RPM_HASH = "c2f77da15c280bbf410f29d6b3ca4cafeeff79543544919f4924ef4a6535abc84ce1e3e140105cedffa9299abf4884888904d9abc2338fefc2da381aabdf2e4c"
+RPM_NAME = "virglrenderer-test-server-0.9.1-3.8.aarch64.rpm"
+RPM_HASH = "4e31abc0a7faa9512d620f19955e028ef4bc44b6a2b3327dc372fe3ff3be579088e37423a8d02c8906a588c988e666110e406a324e30ccbd1754195c720c1e44"
 
 RPROVIDES:${PN} += "virglrenderer-test-server"
 

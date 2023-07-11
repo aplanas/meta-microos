@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.3.8"
 
-RPM_NAME = "ghc-JuicyPixels-3.3.8-1.3.aarch64.rpm"
-RPM_HASH = "e3c57290248272005bdabc5e1f7a6500a7d9435b5d5bfee2e955472594e1ce3e36f8821cc905c92f5614e10d860c7bf60539c30012605879ce3921a432df7d86"
+RPM_NAME = "ghc-JuicyPixels-3.3.8-1.6.aarch64.rpm"
+RPM_HASH = "a478dee6968571b3fba5b42c10a7d384e637b599bcdb0dee6be04615fdbb9db816fc17d198bfb91d216268f0f625fa99610563c25e21f622baf22645bfd412c5"
 
 RPROVIDES:${PN} += "ghc-JuicyPixels \
 libHSJuicyPixels-3.3.8-BQPF2mBCFFj3rGPaZ8nrGS-ghc9.4.5.so"

@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.2.4"
 
-RPM_NAME = "fcitx-anthy-0.2.4-2.7.aarch64.rpm"
-RPM_HASH = "37c562f1b81d29407cb99a5ea8bd4e4d7aee19b16529fd2e815191fded1e4c44057c8789175a123d6a3c06144a4dc4f414d87b35cc0434f42a06e0b147e4fbb7"
+RPM_NAME = "fcitx-anthy-0.2.4-2.8.aarch64.rpm"
+RPM_HASH = "e1a091deb39d4c599d9d6db150ebc458affc350824c30d7132593e35405945685eb20ac2ed2afb60620b6fa27a385b25e43607a1b242c4ac40c3d24085d0aae3"
 
 RPROVIDES:${PN} += "fcitx-anthy"
 

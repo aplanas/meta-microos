@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only-with-Font-exception-2.0 & LPPL-1.3c"
 
 PV = "0.7.3"
 
-RPM_NAME = "thai-fonts-0.7.3-1.7.noarch.rpm"
-RPM_HASH = "9cd10931548a1754bf95de4a70458b967ea4bcfe0f119d6000bcd8ef6ec66855671ac0b6a265939fe763979b3b7398926818a785d533168854b0835c2ea085ee"
+RPM_NAME = "thai-fonts-0.7.3-1.8.noarch.rpm"
+RPM_HASH = "a55a117e96d3d8d4e32ea3aa2e2d3e90b061bab9c6e076211709c47eca380d0d091b907bed4e89a4b415f2a1bb9ac6c1fefd57a5bf266eaa7ec1ca75dd752a24"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

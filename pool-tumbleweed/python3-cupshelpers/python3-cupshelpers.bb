@@ -5,13 +5,13 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.5.18"
 
-RPM_NAME = "python3-cupshelpers-1.5.18-2.1.noarch.rpm"
-RPM_HASH = "12f2fb3d2ab6c769edac8e01b87bf056cddc7b996435f39a3263e575e0066d2e32feaa889a9d9837cfcc0845a512b162ac76e78dfa7547a94683800d019a629c"
+RPM_NAME = "python3-cupshelpers-1.5.18-2.2.noarch.rpm"
+RPM_HASH = "1c82cd9f12f2852e8b78cef4ac5178119dc444c40288bcdd7d8a38d8afd164fe4889c3d0af5a0e50306a962bebba5bf92ce6b51eebf01cd1a6b75f70ad58ba07"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-python3-cupshelpers \
 python3-cupshelpers \
-python3.10dist-cupshelpers \
+python3.11dist-cupshelpers \
 python3dist-cupshelpers"
 
 RDEPENDS:${PN} += "python-abi \

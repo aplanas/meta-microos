@@ -8,11 +8,12 @@ LICENSE = "ISC"
 
 PV = "5.1.1"
 
-RPM_NAME = "python311-xdg-5.1.1-1.4.noarch.rpm"
-RPM_HASH = "ee6496e0ef9c719802160569235c613bdcafe63284d75ebb1cd0a4f8d6e935d6ae204f1427c69d3eebef4383e209417e4fdac0d73af3ae2fc67f6153451bbea1"
+RPM_NAME = "python311-xdg-5.1.1-1.6.noarch.rpm"
+RPM_HASH = "d032c65883423b2aebd5acfc9bd47b1e3a6e092b53df36bb0e66388cd15af007042b94ee085f7b3ba25d6fe0ab0673a7be85cf5aad2214d8f2a20c364ebfa6e1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-xdg \
+RPROVIDES:${PN} += "python3-xdg \
+python3.11dist-xdg \
 python311-xdg \
 python3dist-xdg"
 

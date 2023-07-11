@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.0.5"
 
-RPM_NAME = "flatpak-spawn-1.0.5-2.4.aarch64.rpm"
-RPM_HASH = "1baf1aaef066e3efb86dec5d5e3b92f96d1e559c91814c059f7636bd026250465fe941036e9589d14d839db6bb02d45e09804a4ff153baed2d46a2ce40ad80cc"
+RPM_NAME = "flatpak-spawn-1.0.5-2.5.aarch64.rpm"
+RPM_HASH = "06b912f78e75f4f645902364e8f9704d9c033a02269e61db081bfe8a8793f5305eac658a0daac24a0bdfd7b0cdb40ab0eb2cc9e3f95ab1d764f75adffcc9f2ba"
 
 RPROVIDES:${PN} += "flatpak-spawn"
 

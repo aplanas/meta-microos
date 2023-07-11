@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.06.002"
 
-RPM_NAME = "gnubg-databases-1.06.002-3.4.noarch.rpm"
-RPM_HASH = "8fbdac3ec448216dbb1774b2d3b47681ee6819664126a2eb99c4ea65a53f049359cc2f3986017a18c3e0ef017b48b83b2fafa5c0de3596f3ccfe720cbec72063"
+RPM_NAME = "gnubg-databases-1.06.002-3.5.noarch.rpm"
+RPM_HASH = "40a21928b25fe79b71ea36ea0b156eed14c3aa28ad3a7471ff0332bf9ed9471838a36460a0bf7ab49d2260addb45b9279c350c396e01143513454d69f65cf264"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnubg-databases"

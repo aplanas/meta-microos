@@ -23,8 +23,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-only & GPL-3.0-only & LGPL-2.1-only"
 
 PV = "4.3.1.p3"
 
-RPM_NAME = "singular-4.3.1.p3-1.3.aarch64.rpm"
-RPM_HASH = "843c82257928776a3e80ff87c7021d9ffa9296a85ab1f0244d26692725ff1e33e33a856dc4ca936cd9d9dde447f13ea6522a23d7722a8376f384645e79bd8233"
+RPM_NAME = "singular-4.3.1.p3-1.4.aarch64.rpm"
+RPM_HASH = "092406fdd7a79a1970c564f439e7b322242cf7795e600d93c7671a56c5bd1cf423bcebcfa7951edfa0970ffcd669053dd740092218e2bf5743eb5bbbb8c2184b"
 
 RPROVIDES:${PN} += "singular"
 

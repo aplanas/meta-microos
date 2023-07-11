@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0 & GPL-3.0-or-later"
 
 PV = "8.2212.0"
 
-RPM_NAME = "rsyslog-module-mmnormalize-8.2212.0-2.4.aarch64.rpm"
-RPM_HASH = "c3ecbd1343662ffadaf6bd6acbb92c8fa32417ddee59e04919f46cf89f541d210751c529a75ed0b5defb97c73d6ea10269ceb1dd1558c35cb8bddf660b1cf6de"
+RPM_NAME = "rsyslog-module-mmnormalize-8.2212.0-2.5.aarch64.rpm"
+RPM_HASH = "fdf0a752af3e8446385b08e245b3d67036a56684ec3a5893ff1c6b34a261e424fd8ce34f586e1f683e91d0637829ba1c8e1323865edcfdf7a1c2e013ef4301ad"
 
 RPROVIDES:${PN} += "rsyslog-module-mmnormalize"
 

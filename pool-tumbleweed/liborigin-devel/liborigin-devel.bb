@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.0.1"
 
-RPM_NAME = "liborigin-devel-3.0.1-1.10.aarch64.rpm"
-RPM_HASH = "8f0a716fdb76ce178163b5d459b30fd23fc0237e9ff855d2096fbd03dd23ebaee78dad3f4b88d0db97f16de2f804ac91b07247796d0f60445b43b63ff49902dc"
+RPM_NAME = "liborigin-devel-3.0.1-1.11.aarch64.rpm"
+RPM_HASH = "83bea9a33f017f246dcf279ac9cdaec26430da74bdf86f973d7e9c6b212014a37f4a6fb518b21b181d988ed7486cb578c2ae015a526532fdec8cf6b5a39593bd"
 
 RPROVIDES:${PN} += "liborigin-devel \
 pkgconfig-liborigin"

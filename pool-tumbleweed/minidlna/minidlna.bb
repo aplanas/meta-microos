@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.3.2"
 
-RPM_NAME = "minidlna-1.3.2-1.4.aarch64.rpm"
-RPM_HASH = "f069dce9a176262b1fe16183499290fb2a0e505d12d55a8e9908efe3544fced11e5ce3a2953bd36bd8d839470ef061004e3f0923f384f091fd162b8c4d2cc323"
+RPM_NAME = "minidlna-1.3.2-1.5.aarch64.rpm"
+RPM_HASH = "9d5de65804ec8b2ac5bce4084cb6ade145aa9595e92bae0954e6526a5b4c4709e8349c7fa273fd89a512120195ad835eec51245d7a87785bfacc4d865e3e50e2"
 
 RPROVIDES:${PN} += "ReadyMedia \
 config-minidlna \

@@ -4,10 +4,10 @@ DESCRIPTION = "Xonotic is a free (GPL), fast-paced first-person shooter that wor
 Data (textures, maps, sounds and models) required to play xonotic."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.8.5"
+PV = "0.8.6"
 
-RPM_NAME = "xonotic-data-0.8.5-1.5.noarch.rpm"
-RPM_HASH = "ef8a41fc97c5cc5afbffc7482268edffc2ca947160145e11c3d559750362d30b86c80d2e8daa23515250e36bd0c2d045aa99f011b71192a3c01391eb68b1b522"
+RPM_NAME = "xonotic-data-0.8.6-1.1.noarch.rpm"
+RPM_HASH = "6ea0f1dc074a0f516fcd4de4da61accfaa6f14b3e1ff9828303732fff34cbcff16e7d62cf241bd41a3d4e2df699a83e4c752f720fbb9fdcd2b8916c95127691a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xonotic-data"

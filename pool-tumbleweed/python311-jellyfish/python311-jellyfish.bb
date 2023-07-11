@@ -13,10 +13,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.8.2"
 
-RPM_NAME = "python311-jellyfish-0.8.2-1.16.aarch64.rpm"
-RPM_HASH = "98cfa8b9181797eae5b7a1bd22ed01218e049e430a022aa4ee92ca3709f530dadd37f3dc3ba43d629d7047ec0cb26cf9beb6026d1443bb4a3730610076a64577"
+RPM_NAME = "python311-jellyfish-0.8.2-1.18.aarch64.rpm"
+RPM_HASH = "0d1a1ab9cc4376ac02c6730a351900306964f5e282d6a0600da43c8427754bc0fb1f5f8a2092246167616ea7aea92c0701313efdccb1025ba024a56a80043408"
 
-RPROVIDES:${PN} += "python3.11dist-jellyfish \
+RPROVIDES:${PN} += "python3-jellyfish \
+python3.11dist-jellyfish \
 python311-jellyfish \
 python3dist-jellyfish"
 

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package plasma5-sdk"
 DESCRIPTION = "Provides translations for the 'plasma5-sdk' package."
 LICENSE = "GPL-2.0-only & LGPL-2.0-or-later"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "plasma5-sdk-lang-5.27.5-1.1.noarch.rpm"
-RPM_HASH = "2f2a80934e8f000af0afccefbcb815b76840cb4a393b60b19926be0bed6eb03b98f046004bbc309506e6d0f6e4e5884857c52efb4b768185cdbe97f0cfd508f5"
+RPM_NAME = "plasma5-sdk-lang-5.27.6-1.1.noarch.rpm"
+RPM_HASH = "3663f0d861e9c40d046ba431fbf518e1e8545905c3a30366731620f341f7a45ef89a34a25cdd0614da2ca939867b09d0be32859ce714dae1760bf3998b59979f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-plasma5-sdk-ar \

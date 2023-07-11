@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kwordquiz"
 DESCRIPTION = "Provides translations for the 'kwordquiz' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kwordquiz-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "4dbc5d328591d338fb5799c784b69ce1a4c59245c59c0e6f2fccf416ac29e7b4dbfc0e520cde981b489efc15e34add428bf0662c3af2d8a171a42329f4cb87fa"
+RPM_NAME = "kwordquiz-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "4080753487d047845e70b6d29b64c2b2b575be96f1ed46a3f9a96338d0fc3099a575325a0bc8d3b6c819f630902280578f97018569646f6f563ea4089830a82d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kwordquiz-lang \

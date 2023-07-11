@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.0.3"
 
-RPM_NAME = "python39-PyNamecheap-0.0.3-2.14.noarch.rpm"
-RPM_HASH = "1f5339c8852c3654a901d0801e52cc7ac542d16e60bb444fd45eb1a27c2a302adc3887397bb0b3fcc275e54625ff6bdab060f00b9de177da818aa62aae2e65c9"
+RPM_NAME = "python39-PyNamecheap-0.0.3-2.16.noarch.rpm"
+RPM_HASH = "012ab4c7bebac4b3a48dc5f51edb41a2183ae4bc52d44d195f888e0ddee40450d9dce2aa076d2f3e49df761f887b044c6c80c42c142550d48146ae45c902d9f3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pynamecheap \

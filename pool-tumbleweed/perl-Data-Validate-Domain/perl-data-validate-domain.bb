@@ -4,14 +4,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.15"
 
-RPM_NAME = "perl-Data-Validate-Domain-0.15-1.9.noarch.rpm"
-RPM_HASH = "2a702ce3948dde5293d0e61ddb9f210f085d01e63a46b1598ca76214c4aab608d1aa62b19f5153f0c4fa029a2d3708d290e5e6c442e4280b794820b8e03f549e"
+RPM_NAME = "perl-Data-Validate-Domain-0.15-1.10.noarch.rpm"
+RPM_HASH = "bd16bbb9fd492dc3cab8bd5fe67c4e9c5db6d77bd3c135526d40e69ef1b281edbcddf28869bd464b298fa994d6030f6f17bbdc3c321b61945b035f3bfb195ace"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Data--Validate--Domain \
 perl-Data-Validate-Domain"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Net--Domain--TLD"
 
 inherit rpm

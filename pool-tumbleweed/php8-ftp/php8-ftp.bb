@@ -3,10 +3,10 @@ DESCRIPTION = "PHP functions for access to file servers speaking the File Transf
 Protocol (FTP) as defined in RFC 959."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.1.19"
+PV = "8.2.7"
 
-RPM_NAME = "php8-ftp-8.1.19-2.2.aarch64.rpm"
-RPM_HASH = "b9d7ba56859e8b4ffe3253b5facd2dce2e333b1f61bda85ef6cd5d53c1f849a6cb8c2d3c211c04f8b6dca9f47865c32d8da0c700f981ad1039ea34abf607d356"
+RPM_NAME = "php8-ftp-8.2.7-1.1.aarch64.rpm"
+RPM_HASH = "0c226c5c48edeab1a4a3e69daaae9a9c3aeb959366487012065dcc0ee19b282bffedb757bdba11bbf4e0c84944e644043ea3a6af2162b85f0170541af079684a"
 
 RPROVIDES:${PN} += "config-php8-ftp \
 php-ftp \

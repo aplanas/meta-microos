@@ -10,8 +10,8 @@ LICENSE = "ISC"
 
 PV = "1.9.13p3"
 
-RPM_NAME = "sudo-1.9.13p3-3.1.aarch64.rpm"
-RPM_HASH = "43424f7c99dc5025233a2821619b2fdf52432ab318420f5ea5650612c1f4ceb01ec342f638f92124faeadee455845204ac6e4121831ade1a0d108108298bf2b3"
+RPM_NAME = "sudo-1.9.13p3-3.3.aarch64.rpm"
+RPM_HASH = "bd36c25409d9a8d77c05af6b7d9ad0ca717946db4a4adfe6e13ebb1065bd7df63a4ebeccfa74cc87ba54436c6656b8db83432cd88109a22fd28e6aede3e8bcce"
 
 RPROVIDES:${PN} += "config-sudo \
 libsudo-util.so.0 \

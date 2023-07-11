@@ -4,10 +4,10 @@ LICENSE = "MIT"
 
 PV = "0.10.0.0"
 
-RPM_NAME = "ghc-libmpd-devel-0.10.0.0-2.3.aarch64.rpm"
-RPM_HASH = "dd9fcd3b929a5ca839e3395ddedac38b76a93324920d75b1d1b26d174fdc732f8c91e2eecaff9cff8338e2b198fc9c0f5afb42f5521523afca9b461807b003a0"
+RPM_NAME = "ghc-libmpd-devel-0.10.0.0-2.8.aarch64.rpm"
+RPM_HASH = "f0082706ce310dba9060dd10d3c1a5a262f98431b746ade45d4b382e353fd2f3af3a03281c7d65a791e3d274cb9906949888a121ea27e004ac4da720802193e8"
 
-RPROVIDES:${PN} += "ghc-devel-libmpd-0.10.0.0-LD6WRi8pb0r8mm5YrtyxA5 \
+RPROVIDES:${PN} += "ghc-devel-libmpd-0.10.0.0-1mRX9TQl9aY4gH6teXbpki \
 ghc-libmpd-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -19,8 +19,8 @@ ghc-devel-containers-0.6.7 \
 ghc-devel-data-default-class-0.1.2.0-2LD1I8dZmn7BW4dkzEwdGZ \
 ghc-devel-filepath-1.4.2.2 \
 ghc-devel-mtl-2.2.2 \
-ghc-devel-network-3.1.2.8-HNDBp0HF6t0D1fzE2MDtPd \
-ghc-devel-safe-exceptions-0.1.7.3-4ydW60ruqZ4IdMpKf3b6BD \
+ghc-devel-network-3.1.4.0-FvtFepOtuCUH79FCWyNxIc \
+ghc-devel-safe-exceptions-0.1.7.4-8XVKrMBchTjCLhdcvBwBNb \
 ghc-devel-text-2.0.2 \
 ghc-devel-time-1.12.2 \
 ghc-devel-utf8-string-1.0.2-3yyxPCwARUwDt9ZNWn320Q \

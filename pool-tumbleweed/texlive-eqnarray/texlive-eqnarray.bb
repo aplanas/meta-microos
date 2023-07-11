@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.201.1.3svn20641"
 
-RPM_NAME = "texlive-eqnarray-2023.201.1.3svn20641-53.1.noarch.rpm"
-RPM_HASH = "f74ff0fa26be7f284bcc6a17eb618880d0e2f77843b3e1c01fc5cb0e940ce9cf465d42448079c617ba2b203a1714215c0fc1b0930c9f3d47fe101275beee1c75"
+RPM_NAME = "texlive-eqnarray-2023.201.1.3svn20641-53.2.noarch.rpm"
+RPM_HASH = "0abc1a6db7301f8209481e0a0848b812d3b4f51d845f30651ec0119f34feeccea73a7b94365f1373481c228d52d4647432b93fb4a858a3f7bd3e95ab681baac0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-eqnarray.sty \

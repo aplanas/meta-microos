@@ -4,12 +4,11 @@ LICENSE = "ZPL-2.0"
 
 PV = "0.4.8"
 
-RPM_NAME = "python310-wstools-0.4.8-7.6.noarch.rpm"
-RPM_HASH = "405b4bec02414def278bdf2778962632688715adeae0c70048d88c002bdb7e2b80c6340a1bca17cc3c1cd69b462967ff97dcd6d9604e9f219b281e59cc830da3"
+RPM_NAME = "python310-wstools-0.4.8-7.8.noarch.rpm"
+RPM_HASH = "913da95918b573aa369ac83e3b4c4e774d3f1a3f9abe2ffffbfab9b4cfb3b0e1da9ca0e6b7378da07edf32474c4ace1c81601590eb32279242ceb6de24c75fa4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-wstools \
-python3.10dist-wstools \
+RPROVIDES:${PN} += "python3.10dist-wstools \
 python310-wstools \
 python3dist-wstools"
 

@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "4.0.0"
 
-RPM_NAME = "stax2-api-javadoc-4.0.0-3.10.noarch.rpm"
-RPM_HASH = "09a2024ae7fc28b02dfe4800e3e739ab2fc73cef94a91301e987867ffed17f685eae548b89ed5802cd424b01c5416139f0086c9debf3217ff93b713bdbd5ffcb"
+RPM_NAME = "stax2-api-javadoc-4.0.0-3.11.noarch.rpm"
+RPM_HASH = "2e6e0f1728125ee6d1f8a4dbd8cd88fde6691acb9892ec541db939348199f67a487debdc349ae8235db1eccef423120a508cc2c6f4eed1029bb13b0e60a3757a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "stax2-api-javadoc"

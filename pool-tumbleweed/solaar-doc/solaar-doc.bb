@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.1.9"
 
-RPM_NAME = "solaar-doc-1.1.9-1.1.noarch.rpm"
-RPM_HASH = "b7a8309825ed47c580c98797cf2e3c69966e0768c79ee2f23d1b5b74179d39538155abf04a6abf018fd31e9ad503b28890c242105dc8fa62be2ee9672378777d"
+RPM_NAME = "solaar-doc-1.1.9-1.2.noarch.rpm"
+RPM_HASH = "6ee91eceae18101635102dadf662e56aec7d12c07b7b965dd92dd2c90184fc6785c431445099d7da29504a7b15dec4067737910ed6ee8b2dea84ef6ffdd0233a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "solaar-doc"

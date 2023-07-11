@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.6.2"
 
-RPM_NAME = "libxls-devel-1.6.2-3.5.aarch64.rpm"
-RPM_HASH = "472d796bf8571b4f97ae90f78c0bf9843b7db38ab303798befdd484ee689083b01340833c87516419d9541a0f07c764efc8ff95532957f5be1b95e1a92fd470a"
+RPM_NAME = "libxls-devel-1.6.2-3.6.aarch64.rpm"
+RPM_HASH = "2ccfdd14c51ed5b49cca0a67d0355ff53efc6c0825b71d3b724f718c750091e5ae7c9a3991da2131b56d7d4f41acac9c594109a29fa840c153f400109df67c1f"
 
 RPROVIDES:${PN} += "libxls-devel \
 pkgconfig-libxls"

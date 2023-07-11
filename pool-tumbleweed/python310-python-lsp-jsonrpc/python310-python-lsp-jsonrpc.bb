@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python310-python-lsp-jsonrpc-1.0.0-1.8.noarch.rpm"
-RPM_HASH = "de9267a7aa67832691642143be102404b4a92d636cf065f29a3345e4e0297a8a74b57a8b72def6fd0f75939c85f49a281ad7353802ff2fcedb02926659629b1a"
+RPM_NAME = "python310-python-lsp-jsonrpc-1.0.0-1.10.noarch.rpm"
+RPM_HASH = "90f861ccd15f17b6286e4e3f782ffa5a422b89b355735fae536e0524a116bfdd93cf6a86b47d30b9a9e9df36135c270a616605b14344b62ef176772b975fbcb2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-python-lsp-jsonrpc \
-python3.10dist-python-lsp-jsonrpc \
+RPROVIDES:${PN} += "python3.10dist-python-lsp-jsonrpc \
 python310-python-lsp-jsonrpc \
 python3dist-python-lsp-jsonrpc"
 

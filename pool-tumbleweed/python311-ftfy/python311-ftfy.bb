@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "6.0.3"
 
-RPM_NAME = "python311-ftfy-6.0.3-1.7.noarch.rpm"
-RPM_HASH = "a9abc65595bc30260575b4e81a0bf4cee430d9b343a0d1a4e9e58cab63d56b2269a1375e2f7c0af513df659ff65facbf00d545e7b9007b3571835a332205f030"
+RPM_NAME = "python311-ftfy-6.0.3-1.9.noarch.rpm"
+RPM_HASH = "0e114c9c32b31097bde6ece9ef1e8531ff40bc9b4c6b3e6693fe6110f5940b6cffea997bbac38349cc88614ef18b6b6832c115d9d3ffec2129db660070ff7081"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-ftfy \
+RPROVIDES:${PN} += "python3-ftfy \
+python3.11dist-ftfy \
 python311-ftfy \
 python3dist-ftfy"
 

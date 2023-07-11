@@ -5,8 +5,8 @@ LICENSE = "CC-BY-SA-3.0 & SUSE-Public-Domain"
 
 PV = "2021.12.17"
 
-RPM_NAME = "youtube-dl-2021.12.17-7.1.noarch.rpm"
-RPM_HASH = "d6035f8b7bc14fc3cffdaa8250f71337bb2beb3c37a8dcc4513522860a18c68db9aaf6fbe281c59f3d4b2115affc0db52293a625eb47d6c9854577100f0fecce"
+RPM_NAME = "youtube-dl-2021.12.17-8.1.noarch.rpm"
+RPM_HASH = "9820709dca9242ac682a2c8059ac393001d037e8b4cac9078ccdacea216e5bb42ad97ebf2f4a5fc74e0f52c43f5581db75d21d1481591f041e6513e6b7b37927"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "youtube-dl"

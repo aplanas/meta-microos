@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "3.5.1"
 
-RPM_NAME = "python310-platformdirs-3.5.1-1.1.noarch.rpm"
-RPM_HASH = "2cb0fcba3f959969415ff21c90da1d60419bccef903db51fdfd21fcc1f9db1665bd09be77ede9a1a6d9b5d20eb9e2230cabd293f00357eb209d563c5c4424c94"
+RPM_NAME = "python310-platformdirs-3.5.1-1.3.noarch.rpm"
+RPM_HASH = "2e2edff5339bc9f6c10582aa1194163a7ca7f6363c5953e4db8aae680794d71f3309e240520c81edf0387d4415374caa2b80633ba64bfeaab8253351602ecf88"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-platformdirs \
-python3.10dist-platformdirs \
+RPROVIDES:${PN} += "python3.10dist-platformdirs \
 python310-platformdirs \
 python3dist-platformdirs"
 

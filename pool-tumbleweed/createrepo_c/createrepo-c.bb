@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.20.1"
 
-RPM_NAME = "createrepo_c-0.20.1-3.1.aarch64.rpm"
-RPM_HASH = "83b8ce010e3eff252fade5380c16a3b891db10e40a4ef1c66ae5a7cfc0a95667a44ca36ab006941add7884cc9f959d6de3f9562f7a6c8b0f37b64d9cf9da85f1"
+RPM_NAME = "createrepo_c-0.20.1-3.2.aarch64.rpm"
+RPM_HASH = "6cc0bfb52632491a1716eb491653d07798f6d2ca63ae64dbc970b1b2f775810705f5a2a173d0c3694218cae3c472ba7713ac47864216f9f32eeb0f04c313fdb1"
 
 RPROVIDES:${PN} += "createrepo \
 createrepo-c \

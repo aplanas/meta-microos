@@ -8,12 +8,11 @@ LICENSE = "GPL-3.0-only"
 
 PV = "23.2.0"
 
-RPM_NAME = "python310-python-gvm-23.2.0-1.2.noarch.rpm"
-RPM_HASH = "f1369cda9636b24166059a8e945c78e1c4dc69b0c33287e43aa71c3077b74e36d961f8a8dd2fc3838f16b03ac79f153845e3af8d5a5ff28658d1958cd184bcf9"
+RPM_NAME = "python310-python-gvm-23.2.0-1.4.noarch.rpm"
+RPM_HASH = "819d709b82938a65e1f566ec519bf3aab8a668f9ba118099af60e5eeb479dc8c331aa08829bdf340a544721cb4ce8bd61a71892f9f749f0dd8af818a2d7c4f04"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-python-gvm \
-python3.10dist-python-gvm \
+RPROVIDES:${PN} += "python3.10dist-python-gvm \
 python310-python-gvm \
 python3dist-python-gvm"
 

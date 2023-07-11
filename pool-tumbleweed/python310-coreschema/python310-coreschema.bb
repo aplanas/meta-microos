@@ -5,12 +5,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.0.4"
 
-RPM_NAME = "python310-coreschema-0.0.4-1.16.noarch.rpm"
-RPM_HASH = "46568ef9f48630527bf0272567c68c2e9e00fcaeaae4b58c7d41e6bb6ab74b810c9d398664b9825ddaf249252f48d227f774485891b960194d53ea5b6e740650"
+RPM_NAME = "python310-coreschema-0.0.4-2.1.noarch.rpm"
+RPM_HASH = "d59b8fd45d8711f46ee0d89d274a4d888de1892d44835277b4fb777ecb5eebddfd14f52c4680061a854ebbff957c8fe91c004f9bdf98aa47b54c5254a731eca8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-coreschema \
-python3.10dist-coreschema \
+RPROVIDES:${PN} += "python3.10dist-coreschema \
 python310-coreschema \
 python3dist-coreschema"
 

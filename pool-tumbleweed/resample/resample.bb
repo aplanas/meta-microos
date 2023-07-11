@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "1.8.1"
 
-RPM_NAME = "resample-1.8.1-20.26.aarch64.rpm"
-RPM_HASH = "e537870b7c729effcacc0cc904b9be6b6cee79e65acb4cebd8b8e8bf4ec7bfefea33af22f4efb6192adb52aaee0fd7975768fd28a1d4e19b5c33646c14c63393"
+RPM_NAME = "resample-1.8.1-20.27.aarch64.rpm"
+RPM_HASH = "2494cdaf1a8ffc9a4740f4061f4c059e1d0e8f504c6b6e8e2d032fea10a2447834e86b46df50282b7381179abf4baeb37978eb46e5ac0697fc132e68d4ffae79"
 
 RPROVIDES:${PN} += "resample"
 

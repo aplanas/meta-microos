@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.6.4"
 
-RPM_NAME = "balsa-lang-2.6.4-2.3.noarch.rpm"
-RPM_HASH = "f283ed14b9fd9e04a65bc30aaccfa404b32e882c470368584068443966c3227d54429ed36064b2731c78222a47234b48bf26b082968c3bc8c74b0f44de55dfd9"
+RPM_NAME = "balsa-lang-2.6.4-2.4.noarch.rpm"
+RPM_HASH = "cb6fc3afe147598a9c5e8aa0ff8a8e26c4e7eaa25ac51ac5378b4efc8b458272e4a4158c746b4ae7a859391aa9edee2eaf8e6ef3bae456a8dc5de2895849c62e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "balsa-lang \

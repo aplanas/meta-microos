@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.4.0"
 
-RPM_NAME = "ruby3.2-rubygem-sassc-2.4.0-2.14.aarch64.rpm"
-RPM_HASH = "838ecce7f69a1294ded618d6730aa1e9e9c8b1c52e10b008bf6cabf7c241bad13b0507e76715d9b79c12e6f38b890f0cb93b2167b462adb4e4813749e538869a"
+RPM_NAME = "ruby3.2-rubygem-sassc-2.4.0-2.15.aarch64.rpm"
+RPM_HASH = "437743f52399e03ab1711e4772bb7fef174d9fae7a7d7061e077cf9186fc01843da0fe2c63863f08e2397721ae17ec0e152b3e8fd78042bf676e7ccf29a43027"
 
 RPROVIDES:${PN} += "libsass.so \
 ruby3.2-rubygem-sassc \

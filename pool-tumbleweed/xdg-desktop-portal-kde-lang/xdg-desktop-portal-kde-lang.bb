@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xdg-desktop-portal-kde"
 DESCRIPTION = "Provides translations for the 'xdg-desktop-portal-kde' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "xdg-desktop-portal-kde-lang-5.27.5-1.1.noarch.rpm"
-RPM_HASH = "144e3db7364231cbe5023cae771ef7359b58c3ce29cd2e1066ccf9b5cc232fe4202246af176f54d2fb59c9be957bb2e654a72690c46fe0412c93c67fa6d4c1bd"
+RPM_NAME = "xdg-desktop-portal-kde-lang-5.27.6-1.1.noarch.rpm"
+RPM_HASH = "2dfc4ae5dfbf51a5841af4fdc2414498388a116d5c99df3dfa2635c253c5892266f82ea5678e5659a01640b465a6106e22ca3b4728732051218eaadb68ae73c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xdg-desktop-portal-kde-ar \

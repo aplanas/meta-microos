@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later-with-OCaml-LGPL-linking-exception"
 
 PV = "1.10.4"
 
-RPM_NAME = "ocaml-re-1.10.4-1.5.aarch64.rpm"
-RPM_HASH = "ae933b507eebf478603b9b96825eaab70a9ab741b068e3cd7ffe1fc4d7ebf39d3e0c79bdfcf9c0e1fad036f29e742b338e54d347798038b3c6133b43cfe38a84"
+RPM_NAME = "ocaml-re-1.10.4-1.6.aarch64.rpm"
+RPM_HASH = "1444af6d96161b168eab238f1122dd81b29b88ce89761e0aac57c078dd2fdab3b8663ad6080016054c37f1e554e296bbb1d55fab9ffb63c68dc5b8bd566f2511"
 
 RPROVIDES:${PN} += "ocaml-re"
 

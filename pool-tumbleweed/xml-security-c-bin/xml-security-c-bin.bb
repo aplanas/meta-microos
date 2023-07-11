@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.0.4"
 
-RPM_NAME = "xml-security-c-bin-2.0.4-1.9.aarch64.rpm"
-RPM_HASH = "5cffe161ce4ba229b7fac41dd9bf63405e9037bd38e18fda501c26b04515c960e7cb5c2b46df67304b24e55490a9643e01b1141a9cf602f8d6ccd590e0ab8c68"
+RPM_NAME = "xml-security-c-bin-2.0.4-1.10.aarch64.rpm"
+RPM_HASH = "093c4d9010929ff4b7304a7e1f61f73d67c0b01742bfa164a89eadd6c0f1baa80a4bccc0a2b6a36d4b4dc8b2d0e18facdc552dba1bcbdd38a5f53fe3ac470222"
 
 RPROVIDES:${PN} += "xml-security-c-bin"
 

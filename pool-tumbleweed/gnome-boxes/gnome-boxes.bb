@@ -4,10 +4,10 @@ machines, remote and local virtual machines, and, when technology permits, \
 applications on local virtual machines."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "44.1"
+PV = "44.2"
 
-RPM_NAME = "gnome-boxes-44.1-1.1.aarch64.rpm"
-RPM_HASH = "662f3f3f34f354c3f85fcead5545c98438d12f3b65c0ccd5a1f1b917f91645a0605b15aa7d7f41dc63e08858612d757b0ba40b3299c9555ac9f1f7ecf40449cb"
+RPM_NAME = "gnome-boxes-44.2-1.1.aarch64.rpm"
+RPM_HASH = "cad0ba27de72cfe13f8f7ec8d5e2b5bb3658982bf39a83d3f2d885fa276c5c8211c4577cf2b4f6a8c55fb9573564569dbc60613d9b184a8a3dcdb177c1441168"
 
 RPROVIDES:${PN} += "gnome-boxes \
 libgovf-0.1.so \

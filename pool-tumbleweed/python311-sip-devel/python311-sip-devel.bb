@@ -13,11 +13,12 @@ LICENSE = "GPL-2.0-only | GPL-3.0-only | SUSE-SIP"
 
 PV = "6.7.9"
 
-RPM_NAME = "python311-sip-devel-6.7.9-4.5.noarch.rpm"
-RPM_HASH = "12059a6fe76796682b8f99454f2021eaf876ea64770ac81a022504ee84183d8fd25f38e723f1dd4232fdd64a8edd12503a582c4921cf905168566f518a1c8d78"
+RPM_NAME = "python311-sip-devel-6.7.9-5.3.noarch.rpm"
+RPM_HASH = "e5e077b1ea01fd460c8d972174aff5985672a78c3ce97305b403f9f6c8fa2f8a2cd84a05dbf61431a6928563074d1c4e6d5b0f67320356261a7bc56bcaf955f1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python311-sip-devel"
+RPROVIDES:${PN} += "python3-sip-devel \
+python311-sip-devel"
 
 RDEPENDS:${PN} += "python311-sip6-devel"
 

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.13"
 
-RPM_NAME = "issue-generator-1.13-1.6.noarch.rpm"
-RPM_HASH = "bd99c8580bf97cbea91aca4a4628783e5f168f155725ee11612b56939e633490f997db06347d892f48361bbf2ed9fa7ba6520e48c6f7576ef69c872ae69d9c26"
+RPM_NAME = "issue-generator-1.13-1.7.noarch.rpm"
+RPM_HASH = "d43dad9635953286f05f7d7a57f2be8bdc70665a08621d9cd489aa9737a74aa8b8b82d36861c9764c016b4873dce41aa12ee5b5a74d1f7a178382f4fe0089802"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "issue-generator"

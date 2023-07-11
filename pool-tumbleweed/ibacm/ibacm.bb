@@ -11,8 +11,8 @@ LICENSE = "BSD-2-Clause | GPL-2.0-only"
 
 PV = "45.0"
 
-RPM_NAME = "ibacm-45.0-1.1.aarch64.rpm"
-RPM_HASH = "c830cc30da8f21987d1bbee51de325d5d7b3b9006d0b3d7b4c15f84e138f8985a02341f1f9b7a7ca62688c0dce93a2ac3726f34bd820d9785c718e6bcd811ba9"
+RPM_NAME = "ibacm-45.0-1.2.aarch64.rpm"
+RPM_HASH = "243d7d97bdfb6e314028f7a838c2b4b5d17ee057fc318c930950aa43d53ee6fad6d16b2317d341300f3fe0f1aab6d0ce3cfbf7aa577d3454dcc6a12014cb0cc8"
 
 RPROVIDES:${PN} += "config-ibacm \
 ibacm \

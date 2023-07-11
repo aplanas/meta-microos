@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "22.12.1"
 
-RPM_NAME = "rosegarden-22.12.1-2.1.aarch64.rpm"
-RPM_HASH = "7d6bd9c12edaf7dbac9fa0229ee7bced9fc3a80fb5432170ac787611598698afa009a1ec5b67e08282b9d8960a35d97d9611241969a42bf6a0b692c2d6743d10"
+RPM_NAME = "rosegarden-22.12.1-2.2.aarch64.rpm"
+RPM_HASH = "b4d7f7c9abde66a180125dac81b5c9a28129bf4afd3717d0439c5837cc02eeccfa5b39e1308dd94377489d5e304fea35f9e027ee2fe0e59fdecc33953192c803"
 
 RPROVIDES:${PN} += "librosegardenprivate.so \
 rosegarden"

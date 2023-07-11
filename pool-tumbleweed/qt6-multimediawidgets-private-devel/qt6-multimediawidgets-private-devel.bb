@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-multimediawidgets-private-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "272d6aafc15388b26844b827c759fd57f2425ea93d68731ec7e8ebbadb8a2b8f12ded675d35f3c826360247f353e9ad90ca8c2e168422b1b422daf534a915862"
+RPM_NAME = "qt6-multimediawidgets-private-devel-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "e84b96256b4b5420f5dada1d70c3a16f3aa7ba3d829c9e47fc6f424d3a94ee824eb0c1ae943d720e2aa29e5d28bfaffaceb0e265b4753c3979767096746d87a5"
 
 RPROVIDES:${PN} += "qt6-multimediawidgets-private-devel"
 

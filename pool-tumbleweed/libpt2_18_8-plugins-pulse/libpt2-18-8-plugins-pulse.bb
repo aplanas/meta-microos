@@ -4,8 +4,8 @@ LICENSE = "MPL-1.0"
 
 PV = "2.18.8"
 
-RPM_NAME = "libpt2_18_8-plugins-pulse-2.18.8-1.5.aarch64.rpm"
-RPM_HASH = "9a14fbe2195eeb17d93a356ea29c000c8cdff27e784f38ce35c59e07de19efc5a1ab7fd8ea2bd0bb9eb108669677d8d4875ac5849c5509630a5509bdd4274f98"
+RPM_NAME = "libpt2_18_8-plugins-pulse-2.18.8-1.7.aarch64.rpm"
+RPM_HASH = "fbe7c8ab1631298f60a1e32723f48d6545ac87aa546944321f918f2fa59a6da26c07005f3210816b73fd1fa6744b6704ceb2df7557ac8ab7a4d16862ed41005d"
 
 RPROVIDES:${PN} += "libpt2-18-8-plugins-pulse \
 libpt2-audio-plugin"

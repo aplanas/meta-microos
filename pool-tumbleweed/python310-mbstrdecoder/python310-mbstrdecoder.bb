@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.1.2"
 
-RPM_NAME = "python310-mbstrdecoder-1.1.2-1.1.noarch.rpm"
-RPM_HASH = "2aa0642c188a0835d25c2f6208d88e66b7cb09e23e166b53841712596cf8111920b2da7ab77649ccc691661a5a3c1b1041dd9b15aa74180e977ad0526339d43f"
+RPM_NAME = "python310-mbstrdecoder-1.1.2-1.3.noarch.rpm"
+RPM_HASH = "93530358eb4acf63246a4817b961e23deec2e24e308bf88b27b5f7867be4fec256b422ea992cbf1eb0c39cc29cc972b5513956242dd385504dc2f8c61e71c67f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-mbstrdecoder \
-python3.10dist-mbstrdecoder \
+RPROVIDES:${PN} += "python3.10dist-mbstrdecoder \
 python310-mbstrdecoder \
 python3dist-mbstrdecoder"
 

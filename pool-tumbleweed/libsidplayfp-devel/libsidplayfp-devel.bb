@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.4.2"
 
-RPM_NAME = "libsidplayfp-devel-2.4.2-2.1.aarch64.rpm"
-RPM_HASH = "253ac199e002fb3ccd958add9ccaeb75e783752d72ca4a16b4c8d8780bcc8087f223092cb5d63642b1b6cf686ab7a13160da4d7385b228e29e92e6aaff43121c"
+RPM_NAME = "libsidplayfp-devel-2.4.2-2.2.aarch64.rpm"
+RPM_HASH = "859c98b2875b0abd0e5286a46128c83b92e6aa18b9f790fba08162513b90711a9a7c79b44a7ab66b6eda8b9efe2ec420c17df6493e85722e02f4dc73ac309be2"
 
 RPROVIDES:${PN} += "libsidplayfp-devel \
 pkgconfig-libsidplayfp"

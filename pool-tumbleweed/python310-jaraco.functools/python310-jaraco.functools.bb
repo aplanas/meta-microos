@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "3.6.0"
 
-RPM_NAME = "python310-jaraco.functools-3.6.0-2.1.noarch.rpm"
-RPM_HASH = "3886877f0da9617348e3f164d53f44f72befe247f43f68354f79efb4b356b32b7f4f42c889d385705733603d99d4f89b5a0114e784151a57ed501547177f951d"
+RPM_NAME = "python310-jaraco.functools-3.6.0-2.3.noarch.rpm"
+RPM_HASH = "81374df96d523b6261f21508041ea2037b31e6044ccc37e2fe68bc7ad153e11dcd079127d951422550aee50a05ff9afb19939f435edbbdd6dfd9d06b4285a1c0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-jaraco.functools \
-python3.10dist-jaraco.functools \
+RPROVIDES:${PN} += "python3.10dist-jaraco.functools \
 python310-jaraco.functools \
 python3dist-jaraco.functools"
 

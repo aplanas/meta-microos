@@ -16,11 +16,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.2.2"
 
-RPM_NAME = "python310-blosc2-2.2.2-1.1.aarch64.rpm"
-RPM_HASH = "06d9a0883e5bb0e9076053b4220d49ecd84787c367e28a6d21470eb23671308986928ef3f03d8f882de6ffb125f4d89be4e1849122212d22462061a4dd1e3751"
+RPM_NAME = "python310-blosc2-2.2.2-1.2.aarch64.rpm"
+RPM_HASH = "2cd3106711a9cb32bb97e86e1d6e3a5ddc3e9a5d094df97dccc1eca21ed154a0ef023909d5a96c8cc1d9de95335c170eade405e152207faa09e2d8ba450fc8c2"
 
-RPROVIDES:${PN} += "python3-blosc2 \
-python3.10dist-blosc2 \
+RPROVIDES:${PN} += "python3.10dist-blosc2 \
 python310-blosc2 \
 python3dist-blosc2"
 

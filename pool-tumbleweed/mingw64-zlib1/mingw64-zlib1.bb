@@ -7,8 +7,8 @@ LICENSE = "Zlib"
 
 PV = "1.2.13"
 
-RPM_NAME = "mingw64-zlib1-1.2.13-2.1.noarch.rpm"
-RPM_HASH = "1ac30db693440a737733107f2c4dce5b0df18e164631239d56026fc4b4d69cf11c032db74e54300062e3577b962bb5601e35a5ed3031ae7d555170b115dd7f05"
+RPM_NAME = "mingw64-zlib1-1.2.13-2.2.noarch.rpm"
+RPM_HASH = "dfc6eaa3e23ec20e76767b98032186fbac928d494df80df0a0893594f3ca8f1bddaa242d479bb7eaaea8ea25a733796aebba5debb011a2ece71360addced241b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw64-zlib \

@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.2.64"
 
-RPM_NAME = "sdl12_compat-devel-1.2.64-1.1.aarch64.rpm"
-RPM_HASH = "7ba8bb60026779bd775779c4acdce1abd234575c21072163882d5ab61c9ed18151439c260413f69fbad889e28ff60552fd75526112d9dec2c10c2599121f2a41"
+RPM_NAME = "sdl12_compat-devel-1.2.64-1.3.aarch64.rpm"
+RPM_HASH = "3f4d6cc31d0d22b9a4df7d77da001e1be9617626dd6bb9d70ac3de06b644947e88311940cccb40c3d8483a2c3c56bc591223e8415b1ec7377b5a5d5af3e258cf"
 
 RPROVIDES:${PN} += "SDL-devel \
 libSDL-devel \

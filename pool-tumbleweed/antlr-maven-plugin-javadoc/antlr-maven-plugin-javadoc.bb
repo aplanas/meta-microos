@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.2"
 
-RPM_NAME = "antlr-maven-plugin-javadoc-2.2-3.10.noarch.rpm"
-RPM_HASH = "faf22145f9cd713a398168de5726668182db0a43c5146095c7d4aeffe4df32dc33a707b11d5e39b1f6a85ac20519c497a283b48c078530cdf4c5c2c7c8937343"
+RPM_NAME = "antlr-maven-plugin-javadoc-2.2-3.11.noarch.rpm"
+RPM_HASH = "3f311818e221bbef85973f33419350396240a8dab5e7b38e05ed3890e96d3c30fb567c0b158c235f2dee0026a6e756cdd308a27d1fd9ee5638cc8588ae2b8a2f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "antlr-maven-plugin-javadoc"

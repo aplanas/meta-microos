@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
 PV = "3.48.0"
 
-RPM_NAME = "sysprof-3.48.0-2.1.aarch64.rpm"
-RPM_HASH = "e0d6ddd4187167f4a719af4120db896e239a261053c514f6b95333e286166dbce036bd640e3e2421143e344bddfe4420ab47419b3387acc2ce888aae3599e68d"
+RPM_NAME = "sysprof-3.48.0-2.2.aarch64.rpm"
+RPM_HASH = "325b5df1c80860ab5c3b972128b0e37993fc03b9938547b9f3d067a3dcee18f21f91e967bd90a545fde5ce0c4de21310b09f87a05ba3029f439f4f3b46018b6a"
 
 RPROVIDES:${PN} += "libsysprof-4.so \
 libsysprof-memory-4.so \

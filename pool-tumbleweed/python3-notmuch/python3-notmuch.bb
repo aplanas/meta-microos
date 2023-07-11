@@ -4,11 +4,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.37"
 
-RPM_NAME = "python3-notmuch-0.37-2.4.aarch64.rpm"
-RPM_HASH = "5fb4a3eea0f1bd0935e12893a01ebdad3b2f2297377e1b65f674e261286653b853a0a06ec98dd8756fd8db5b32db7062ecdbd5f628f8ad07cbb8a00fafe96a5b"
+RPM_NAME = "python3-notmuch-0.37-2.6.aarch64.rpm"
+RPM_HASH = "4e0c4bf5b0c8dd554e7cce28d095b7e552981c45f5d072b64b492f0de569823c3a02aa14568059f2e5561eab78892c7a1eb5883590a7e965e3fc20da0b79ec09"
 
 RPROVIDES:${PN} += "python3-notmuch \
-python3.10dist-notmuch \
+python3.11dist-notmuch \
 python3dist-notmuch"
 
 RDEPENDS:${PN} += "python-abi"

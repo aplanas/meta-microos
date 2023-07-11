@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
 PV = "44.2"
 
-RPM_NAME = "typelib-1_0-Nautilus-4_0-44.2-1.1.aarch64.rpm"
-RPM_HASH = "f80b3c5a8cb433251f12d53c02db0eb2a60d886441b9e6076a9629f33423b85a9bd8a88fca548c57d7f5688506e82e34905cf5b78a64b2aa8e4c7e43f0ae8810"
+RPM_NAME = "typelib-1_0-Nautilus-4_0-44.2-2.1.aarch64.rpm"
+RPM_HASH = "592e626d300e70f5e77fd52d281cf5e60c351066615632f90721d91f8148e20331192d8bd5e7beae22f64c0b45a2cbe8f86459f8ccf5c0d152bcbcfd301b6aa1"
 
 RPROVIDES:${PN} += "typelib-1-0-Nautilus-4-0 \
 typelib-Nautilus"

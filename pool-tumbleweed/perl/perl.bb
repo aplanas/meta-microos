@@ -11,14 +11,15 @@ Some of the modules available on CPAN can be found in the 'perl' \
 series."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "5.36.0"
+PV = "5.36.1"
 
-RPM_NAME = "perl-5.36.0-4.3.aarch64.rpm"
-RPM_HASH = "635d95d5880f9fa7aaf2e027e2bbbb8455d867d3de6d481a82feed96af1995eae27abc6b715a4227fe217aa33c5e3e00021006031e2553928ad2ab60e1ece8b0"
+RPM_NAME = "perl-5.36.1-1.3.aarch64.rpm"
+RPM_HASH = "d6c646195a1c28d2156e8e01e04beea1e7ee79765dc0b27af529172f475d394fb96c91fbfea9af638be4a8608a0206b0475639fd87863d423bc3aa070a073b0a"
 
 RPROVIDES:${PN} += "libperl.so \
 perl \
 perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl--charnames \
 perl-500 \
 perl-AnyDBM-File \

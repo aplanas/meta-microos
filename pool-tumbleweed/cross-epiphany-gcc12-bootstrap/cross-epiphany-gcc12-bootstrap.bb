@@ -11,8 +11,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "12.3.0+git1204"
 
-RPM_NAME = "cross-epiphany-gcc12-bootstrap-12.3.0+git1204-1.1.aarch64.rpm"
-RPM_HASH = "c5f33eb689f2574bf71314729ef8dae47a0791982fda6ca66f1db2eb899e6b6baa31bf8d43d70055b1530321ccfe191a685b5828e8f7eeb1f8a866324db430cf"
+RPM_NAME = "cross-epiphany-gcc12-bootstrap-12.3.0+git1204-1.2.aarch64.rpm"
+RPM_HASH = "8291d677cbc8fd62d63ca0e42cb44b26d6a996089ce34bb7df04f6311377bc835b2a6fe307609e1f1038fceded653550bafc7f3173c55e55744f705f3489209b"
 
 RPROVIDES:${PN} += "cross-epiphany-gcc12-bootstrap \
 epiphany-elf-gcc"

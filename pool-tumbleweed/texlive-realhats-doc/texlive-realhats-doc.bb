@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.6.0svn63595"
 
-RPM_NAME = "texlive-realhats-doc-2023.201.6.0svn63595-53.1.noarch.rpm"
-RPM_HASH = "e7a345423417568f5ccf453993e817d108fbdde25eaa0fc08601ffbbbe317b2a75e2c58adadb60b4c747af2585ebfdeaaac2c2f74603b07d7f8ed97ae407b544"
+RPM_NAME = "texlive-realhats-doc-2023.201.6.0svn63595-53.2.noarch.rpm"
+RPM_HASH = "4bfd8563a9c3cc2351518fc905bc0e165f6f7404dd934ca28a6d25297c6c3e5af6a5ca94623b27c45e34ac9740d3feebb015122f1972ff01c9a4d9d0b6135e9a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-realhats-doc"

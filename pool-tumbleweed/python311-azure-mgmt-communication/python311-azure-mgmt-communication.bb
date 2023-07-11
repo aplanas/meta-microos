@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "2.0.0"
 
-RPM_NAME = "python311-azure-mgmt-communication-2.0.0-1.1.noarch.rpm"
-RPM_HASH = "db25a6c7e51563ae2da3faaabb78b86f9d89da5326d93f894f09041f8b640d14baedd35befb0ec69e2ba3b30fa0e2c9945ee63c7edbde75f42b5b699765d320f"
+RPM_NAME = "python311-azure-mgmt-communication-2.0.0-1.2.noarch.rpm"
+RPM_HASH = "37c776064827b0687333d135a846c0665b3d5fc1ea311a5c841aa73d37794707725d1a76fe2edf6732d42c777667ed4652aefc93af1144ee9910c2267516fb96"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-communication \
+RPROVIDES:${PN} += "python3-azure-mgmt-communication \
+python3.11dist-azure-mgmt-communication \
 python311-azure-mgmt-communication \
 python3dist-azure-mgmt-communication"
 

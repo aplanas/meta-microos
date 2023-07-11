@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-takri-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "8ae29f21e21c970e9f430e452c1f5576c5cef85aa9d44e4ca4ba2bfda159f7128ceeb0737542dad5cb4b4bfe7f113a969338dba5ffabe54d1ebbf79a3e9bfa4f"
+RPM_NAME = "noto-sans-takri-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "de2be7a03eafbda8a9fcc68dedae3e592036d81f9f09859545c10c054e630a1e24b40c20b6b38c5cf2dcc405a0305e76bbfdbcfd29c6755ccad8249f26c9cc09"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-takri \

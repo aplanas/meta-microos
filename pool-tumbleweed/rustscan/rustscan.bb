@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.1.1+0"
 
-RPM_NAME = "rustscan-2.1.1+0-1.3.aarch64.rpm"
-RPM_HASH = "539ab900cf539fd53e8aaf69a2a0f95d5fad770818e80559f4fb8bdfbfd89444affa0b380a6c3764f6c068294d357e8db023a03a84ff3d3faeadbbe64254a18d"
+RPM_NAME = "rustscan-2.1.1+0-2.1.aarch64.rpm"
+RPM_HASH = "48f33c0d46782833111414b50de09147cccaedcf9109947799c7f6e18060ae8aa189a1d7cab28d2872ccaa5bfcebf4e48b8f01faa9ce14a3c25c2e998e47a534"
 
 RPROVIDES:${PN} += "bundled-rust-crate-addr2line \
 bundled-rust-crate-adler \

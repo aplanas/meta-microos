@@ -19,8 +19,8 @@ LICENSE = "MIT"
 
 PV = "2.1"
 
-RPM_NAME = "python39-vulture-2.1-1.13.noarch.rpm"
-RPM_HASH = "08b69c5f9114b92d370ff4f613a6f15bb5750f150e4788223ead6df09b1cb56bc2b3f7d5add9d85f4b0836a26f75d2d4eafc9435781c39464bbd3438d405b563"
+RPM_NAME = "python39-vulture-2.1-2.3.noarch.rpm"
+RPM_HASH = "95449f1fc179947221f357193bf73e6a3a3e991b6f5432173e685065236dca463fe705a0d9dec02a5508de58d78beac2559e60c14545cbc9642863e8d06b9498"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-vulture \

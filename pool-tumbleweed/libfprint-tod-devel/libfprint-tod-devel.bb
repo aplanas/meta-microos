@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.94.5+tod1"
 
-RPM_NAME = "libfprint-tod-devel-1.94.5+tod1-1.3.aarch64.rpm"
-RPM_HASH = "72481c418f7d1fb1c9040a6338c0d8987af108b9ff09badf9e4ed8832c7b025864534ca819ca881765689a38be65fcc6e7ff4c4735aa62d5197f08ded609d230"
+RPM_NAME = "libfprint-tod-devel-1.94.5+tod1-1.4.aarch64.rpm"
+RPM_HASH = "692d91d2c0f66e99e7ce7a7110031873d488760cba2761cb8737b37340cb1f442303399b4b3772307ea8eaedc2263a06a968dea11990889595ced97a052d27ef"
 
 RPROVIDES:${PN} += "libfprint-tod-devel \
 pkgconfig-libfprint-2-tod-1"

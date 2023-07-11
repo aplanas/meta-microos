@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
 PV = "1.15.0"
 
-RPM_NAME = "libf2fs_format8-1.15.0-2.3.aarch64.rpm"
-RPM_HASH = "fe3b99a8f97d0f15ead0b456a944a7dd08e8f386ca1586c120bed4d378a03965a695eca8bd5b60912e242649b5468e8f7a913ca0cee10a302945648bf8320a38"
+RPM_NAME = "libf2fs_format8-1.15.0-2.4.aarch64.rpm"
+RPM_HASH = "cf0674dbac5d92dfe1fc0d3142dcb527bca7d002584a5c5779c5782d3c592e8c73ec8472fbcdb9d091652d4e41d4edd0fa684318ccc01ffb8a02bf4a1fc39ac2"
 
 RPROVIDES:${PN} += "libf2fs-format.so.8 \
 libf2fs-format8"

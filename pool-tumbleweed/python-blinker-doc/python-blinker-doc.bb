@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "1.6.2"
 
-RPM_NAME = "python-blinker-doc-1.6.2-1.1.noarch.rpm"
-RPM_HASH = "1ad2be2e686378db5d9adafe3be0740b0d82b84e5a972b3f8d3c7a15cfc4f2f14c8d0e253872df0705938c2d2c92d9aaa21a440a44237ca90e8f8cbb9dc49a78"
+RPM_NAME = "python-blinker-doc-1.6.2-1.3.noarch.rpm"
+RPM_HASH = "70c327a340458b22f391bc83d90434918cd4ac76aa2622027dc3ccf4922c768fe9ae8af5ef59952d312e9486788a136cbdf8a11247e94095fe9e8ca0c9130dd9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-blinker-doc \

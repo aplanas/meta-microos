@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.12"
 
-RPM_NAME = "zutils-1.12-1.3.aarch64.rpm"
-RPM_HASH = "2d625f0fafb596ea776baf3bb1b767395e0973dc98f1ae94bb54fb93466a717288faebed138b2779bd2e162cf3bfb2cd88b60de05ac6bc7a873967dc3bb876b2"
+RPM_NAME = "zutils-1.12-1.4.aarch64.rpm"
+RPM_HASH = "fecc91b6c0eed787e7cb45fb0de60ffca739e95753b6e4b3602a1a5e0ee8f7d2560e116d8564cbb8fee827deab10700f003ff57a97a099a0d0cbaef8f186c3c4"
 
 RPROVIDES:${PN} += "zutils"
 

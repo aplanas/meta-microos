@@ -7,10 +7,11 @@ LICENSE = "MIT"
 
 PV = "2.0.2"
 
-RPM_NAME = "python311-greenlet-2.0.2-1.1.aarch64.rpm"
-RPM_HASH = "c2c8a79ab5b93e761742f28ca4b5354972097d73b1fb65dfcc3ede2cc5cf6739c02113425d619d5ec953c20ddaab88520131d74ba93bbf8999e656967f5baaa4"
+RPM_NAME = "python311-greenlet-2.0.2-1.3.aarch64.rpm"
+RPM_HASH = "06ac8e1d5199175412389cf5b6f95a44d9a398a084c22cc08fff8df0c464ce1b693e84c039908db7ea85f3c5814ffb7e007be6c6938bb1adfcc916dddfa10275"
 
-RPROVIDES:${PN} += "python3.11dist-greenlet \
+RPROVIDES:${PN} += "python3-greenlet \
+python3.11dist-greenlet \
 python311-greenlet \
 python3dist-greenlet"
 

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "20170617"
 
-RPM_NAME = "system-user-vscan-20170617-24.14.noarch.rpm"
-RPM_HASH = "743219170c46a86371709b1a243bd7eb453767d155f96e3e9d4a85f17b27e0cf3da1e17b928bcf0f8d575c7b9bce6a010f76033cd08eec3bbc62c323765d7e95"
+RPM_NAME = "system-user-vscan-20170617-24.16.noarch.rpm"
+RPM_HASH = "65e0f419188ed350e5ddf56f23fbead3421e56ebab8d82c5c58154aedb7d84654342e54d3c1f8414266c699914cb184daa658eab0cee56de101f76632684ee8a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "group-vscan \

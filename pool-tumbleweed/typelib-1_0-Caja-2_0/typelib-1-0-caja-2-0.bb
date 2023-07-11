@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.0-only"
 
 PV = "1.26.1"
 
-RPM_NAME = "typelib-1_0-Caja-2_0-1.26.1-1.4.aarch64.rpm"
-RPM_HASH = "c675d77b0baf629f2651d7d3657b1535799024cda3dba9e7ab82029546630be233daafd411339caaaa3114ee2542c46b2f7884d522deb318c0156f2f3dca588e"
+RPM_NAME = "typelib-1_0-Caja-2_0-1.26.1-1.5.aarch64.rpm"
+RPM_HASH = "34f1b4b27cf1aa81185be29176b6d300f58d2d99197d09dc0daa2730ff40f03e72512f32a16019a9f6fcba3575e3b0d0e783b3dc6793b6237a901fe05c5125c5"
 
 RPROVIDES:${PN} += "typelib-1-0-Caja-2-0 \
 typelib-Caja"

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.20.1"
 
-RPM_NAME = "caja-extension-eiciel-1.20.1-2.9.aarch64.rpm"
-RPM_HASH = "8d3201c9dabb707b20449527a8325c665cc2c93df76ee16f86689dcdb6ad9472d39d560c6461eae227ad0222f50fe31257848bc002c46e9ef51fd07e09c330b0"
+RPM_NAME = "caja-extension-eiciel-1.20.1-2.10.aarch64.rpm"
+RPM_HASH = "6526189da37ad4df56b06a73bfb7c4cd5141036b9de5e85a1efe4124cde71d0e2bc7782192ab53b34185752fe08de2a39961e941e8fe1dd14671ef6e30cec0e9"
 
 RPROVIDES:${PN} += "caja-extension-eiciel \
 libeiciel-caja.so"

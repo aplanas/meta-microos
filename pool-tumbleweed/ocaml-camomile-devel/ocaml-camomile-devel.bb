@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.0+"
 
 PV = "1.0.2"
 
-RPM_NAME = "ocaml-camomile-devel-1.0.2-3.25.aarch64.rpm"
-RPM_HASH = "3964bd24375722ffaef274bcbee8890278479a5706286ae51b81573f055a8e24d1105b041920c779648771be883b007057fc3e6121b435b35bbcf228fc8a39ed"
+RPM_NAME = "ocaml-camomile-devel-1.0.2-3.26.aarch64.rpm"
+RPM_HASH = "24b81c322315049917120ed3dd44a1446707882c1842b75e9da87d639d95d909b5934db91c22403638dcb5c54ce471763f0bca35a9fc9bafbcca0843f206af26"
 
 RPROVIDES:${PN} += "ocaml-Camomile-do-not-use \
 ocaml-CamomileDefaultConfig \

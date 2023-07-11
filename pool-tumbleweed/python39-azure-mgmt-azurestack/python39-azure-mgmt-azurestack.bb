@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python39-azure-mgmt-azurestack-1.0.0-1.8.noarch.rpm"
-RPM_HASH = "024dd8c8567d50150ae667ec169f13714986b532d1d8c57cc3d8470602d5ea1333cef70b048adb94f592cd08df8e7678bce28065612c228864e8b36fdb808390"
+RPM_NAME = "python39-azure-mgmt-azurestack-1.0.0-1.9.noarch.rpm"
+RPM_HASH = "88d625d7b0164a6947a62f0e7240eccef6631889becf90f4544a3370da608aa88d07e95c32ec4f69321f797667ff566fc1d1000dc237c682c80d861e3a8add63"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-azurestack \

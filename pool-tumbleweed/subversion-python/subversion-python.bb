@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.14.2"
 
-RPM_NAME = "subversion-python-1.14.2-5.3.aarch64.rpm"
-RPM_HASH = "f539688557976af5c840b1b2efa3301dcd07a317eabdf5513a6e02d878f96c0626a42b3836e5ff66cdbf757ea3d5f0b035f2df21441f42b061f4215392bf8478"
+RPM_NAME = "subversion-python-1.14.2-6.1.aarch64.rpm"
+RPM_HASH = "b6c68e7c041d8a37929d6e9eb4de42c712c0d1b3252493c253e226b9eb1f1f320bf1c714eee28c23303712e8da8986247cbda9137c0e5540e4974058fe8b20a1"
 
 RPROVIDES:${PN} += "libsvn-swig-py-1.so.0 \
 subversion-python"

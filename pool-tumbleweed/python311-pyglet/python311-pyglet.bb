@@ -5,11 +5,12 @@ LICENSE = "BSD-3-Clause & MIT"
 
 PV = "2.0.5"
 
-RPM_NAME = "python311-pyglet-2.0.5-1.1.noarch.rpm"
-RPM_HASH = "48ec444e584f4d13765da22bc2f8f96cf39c8570a72d6503fa9ff75fb925661da468603d0aa79bd48cc5b157bdc6ea77c2c2a585d442eb56bbdf3f430b973358"
+RPM_NAME = "python311-pyglet-2.0.5-1.2.noarch.rpm"
+RPM_HASH = "2bce2f08816b9cc63c1120dc8625362140d68724f6452316b021702fb33fcf32197373bb2ce9dae214efd1a23fa937633a26d8a6618ce3bccf9379ffa9b1dac2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pyglet \
+RPROVIDES:${PN} += "python3-pyglet \
+python3.11dist-pyglet \
 python311-pyglet \
 python3dist-pyglet"
 

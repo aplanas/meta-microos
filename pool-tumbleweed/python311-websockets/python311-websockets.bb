@@ -10,10 +10,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "11.0.3"
 
-RPM_NAME = "python311-websockets-11.0.3-2.1.aarch64.rpm"
-RPM_HASH = "0d9552225afecf94484341561b14f3b8fa4946788dff9d53e0b80cd8b0a122b999139d3e4a437f9a107f0cd5852965c7900e4deb0c1eeec91880fbe37cfc8443"
+RPM_NAME = "python311-websockets-11.0.3-2.3.aarch64.rpm"
+RPM_HASH = "427efcca94681f177d664c8d85e38d6236dc17deff5a47d1c1a31efba9f878ca44b6a13dc7af9234eeea83e716a3affd18f380c6b5bd86511461e41a3c2ef0ba"
 
-RPROVIDES:${PN} += "python3.11dist-websockets \
+RPROVIDES:${PN} += "python3-websockets \
+python3.11dist-websockets \
 python311-websockets \
 python3dist-websockets"
 

@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.36.0"
 
-RPM_NAME = "gnome-menus-3.36.0-3.3.aarch64.rpm"
-RPM_HASH = "b93639162e27385ad5feea20ba74eb6235d4058f32b8d8d66b83fffceed3d266a7341dbbbcf91937df957cc07dc06237a82a509869753cd5a0e2a99d7a098109"
+RPM_NAME = "gnome-menus-3.36.0-3.4.aarch64.rpm"
+RPM_HASH = "6f027e3ccaa2ceeceb2d2f0e84139bd7fbd0aa234d9293ca87dcc8fff4e3d302acc1c8dbcd458f6ceb14fe880ff76688e38ca0ef3fbc19c234302a188f630f94"
 
 RPROVIDES:${PN} += "gnome-menus"
 

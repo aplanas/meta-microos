@@ -6,8 +6,8 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "3.12.0"
 
-RPM_NAME = "python39-python-gitlab-3.12.0-2.4.noarch.rpm"
-RPM_HASH = "d3ef98cd6cdd831dfd5eeddffbb18c4f685c819459692a9dc6639bb816b477754132280aa8d2152021972f91fd21aa1968dfd71a31b0a902ef3a0e5e0c3c4429"
+RPM_NAME = "python39-python-gitlab-3.12.0-2.6.noarch.rpm"
+RPM_HASH = "3c5a615c499ac2afa0b853d9add802a9bf3becd3de3982e7da0324d93e1630de32d589340a3a9e4c324a0779e0cdb0d632eb8eed7599187c1727f6d11088f05d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-python-gitlab \

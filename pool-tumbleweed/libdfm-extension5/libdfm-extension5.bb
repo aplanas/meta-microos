@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later & MIT"
 
 PV = "5.6.4"
 
-RPM_NAME = "libdfm-extension5-5.6.4-3.7.aarch64.rpm"
-RPM_HASH = "6af728439eb52fc07b2737bd6bf6985fde9002e3647ba0b54b822f419a0909efaa3c6f7a2e13bd2007f6681dbdb7ce0f81bf93bbc3811b0a74d002ffe49f6073"
+RPM_NAME = "libdfm-extension5-5.6.4-3.9.aarch64.rpm"
+RPM_HASH = "3bfd161aebe97ed3bb0bb92010ccedd5efa2cd478258b6e4c9db58811bf896ff465133362f156a857665c739b4d5a9ec1a3eedcb5e8691eb2bfdddebf0b17dd8"
 
 RPROVIDES:${PN} += "libdfm-extension.so.5 \
 libdfm-extension5"

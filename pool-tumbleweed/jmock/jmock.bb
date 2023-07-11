@@ -13,8 +13,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2.0"
 
-RPM_NAME = "jmock-1.2.0-30.6.noarch.rpm"
-RPM_HASH = "8377a57e21acf44cf9a577f6c1a5f2632bb38265eb83731549e293754ae8d09d94b4c914b987503dbba3464db9c644b4bcc8c9b0783eb71e34a25b46519dc71f"
+RPM_NAME = "jmock-1.2.0-30.7.noarch.rpm"
+RPM_HASH = "db3124d9f743ee690b7ee99625faf7f95b625143a29589df5fc3df4ebb913fd1c89865c8e2c4fe4b2264126696db9b3940ef00db552ce7be6fa6d9a5e3bae38d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jmock \

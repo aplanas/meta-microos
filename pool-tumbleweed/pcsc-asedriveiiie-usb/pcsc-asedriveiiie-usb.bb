@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.7"
 
-RPM_NAME = "pcsc-asedriveiiie-usb-3.7-11.12.aarch64.rpm"
-RPM_HASH = "5ab0c4ecaaf123a4966536baa188083cd1934ae779a05000a2e7559974c3c345314b49872b2da7c89ba2fc47234f076aff5949ff81188699493835723b510190"
+RPM_NAME = "pcsc-asedriveiiie-usb-3.7-11.13.aarch64.rpm"
+RPM_HASH = "4665bbb9ed6704c02b16fa9ed895c20b6fd850811c5b3bee1b70b984c13c4173e0a9f0e51d0a3642c69a33862c0242156f19f38bdce5bf8bce14c20ddb1a74b1"
 
 RPROVIDES:${PN} += "libASEDriveIIIe-USB.so \
 pcsc-asedriveiiie-usb"

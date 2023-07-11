@@ -5,10 +5,10 @@ This package contains base tools, like string, xml, and network \
 handling."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.9+kde9"
+PV = "5.15.10+kde9"
 
-RPM_NAME = "libqt5-qtimageformats-5.15.9+kde9-1.1.aarch64.rpm"
-RPM_HASH = "b383b2a4d4925f14db356731a212d9f9b47187ffd58c5533138c98693a0220752fc68f350fa8b6b9eb2fc8b512b8de081f5499c23c95ffedf5d906ec8d54a7a6"
+RPM_NAME = "libqt5-qtimageformats-5.15.10+kde9-1.1.aarch64.rpm"
+RPM_HASH = "a1de3241ebfc08098cd856d8ed8ec3d9695de0e65ae0f9aa41e319a7835825ceb747cdeb6d9b815e54032e9b93ba6af8c7d871c43432d962cd84b9f63efb316d"
 
 RPROVIDES:${PN} += "libqicns.so \
 libqmng.so \

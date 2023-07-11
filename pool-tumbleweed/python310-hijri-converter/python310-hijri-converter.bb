@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "2.2.4"
 
-RPM_NAME = "python310-hijri-converter-2.2.4-1.2.noarch.rpm"
-RPM_HASH = "b51ddf7ecaa8cbdb2989411f8cc0618c37714717cde08e9150474c8be962c2e1e4625b5f768b3759a3862e43d518eb6427e298ec472b8a372165a999260e3098"
+RPM_NAME = "python310-hijri-converter-2.2.4-1.4.noarch.rpm"
+RPM_HASH = "b071a010ea9e5d4ac74de4fe34a244a49fe002e421d41a2f8c13b44f15baf66882120b4592db51ca4588d648125c3dd346b4eb77646b3c56be4da119a31372ec"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-hijri-converter \
-python3.10dist-hijri-converter \
+RPROVIDES:${PN} += "python3.10dist-hijri-converter \
 python310-hijri-converter \
 python3dist-hijri-converter"
 

@@ -6,13 +6,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.20.1.1"
 
-RPM_NAME = "happy-1.20.1.1-1.2.aarch64.rpm"
-RPM_HASH = "3ff6e0f47392da18ada0ec82b7e6ef72c0d523b59bb3d86bbe52dfd9329c975c3ee8a0defec804d01335598612fae959fb021360797a2336037deaca891f7b3c"
+RPM_NAME = "happy-1.20.1.1-1.3.aarch64.rpm"
+RPM_HASH = "54850a2ddac9cc09f9bbebefa24c5eadcf39b6ba99725b1b7bdfd4f207e7ec53433d29aa9989505bc4069cf1fbd9ba2275f560668b4f99da59f7f5592800ed3c"
 
 RPROVIDES:${PN} += "happy"
 
-RDEPENDS:${PN} += "libatomic.so.1 \
-libc.so.6 \
+RDEPENDS:${PN} += "libc.so.6 \
 libffi.so.8 \
 libgmp.so.10 \
 libm.so.6 \

@@ -14,12 +14,11 @@ LICENSE = "GPL-2.0-or-later | MPL-1.1 | LGPL-2.1-or-later"
 
 PV = "3.0.0"
 
-RPM_NAME = "python310-ldappool-3.0.0-3.3.noarch.rpm"
-RPM_HASH = "295ee889e329978ff50461020fda298ed7cc697f7c8d1f9f5217ab2805096eb65c539c36cad9476c50e395c95449488d157c6257db9a52b622ccd332ef9fcf3a"
+RPM_NAME = "python310-ldappool-3.0.0-3.4.noarch.rpm"
+RPM_HASH = "5a3045ae160d4721b6035aea4f5b1b08fab64e6480b0322d425075e3099b2b7140a181bbabc10dee71de51c879d92b60b92ca7e96bf20eac6b4eaeff2f383685"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-ldappool \
-python3.10dist-ldappool \
+RPROVIDES:${PN} += "python3.10dist-ldappool \
 python310-ldappool \
 python3dist-ldappool"
 

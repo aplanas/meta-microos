@@ -3,10 +3,10 @@ DESCRIPTION = "KJobWIdgets provides widgets for showing progress of asynchronous
 Development files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "kjobwidgets-devel-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "19c34915a61d05c393d6642c9434148fdb600e8e0b11eb09b67f9ba64996ce8c1581f1adcd4438a4e92e7fc1befaa10970e488aea7620a51b87a4ab9578a2b2e"
+RPM_NAME = "kjobwidgets-devel-5.107.0-1.1.aarch64.rpm"
+RPM_HASH = "5599b3a351d8e108e67d60628ace6a758959edabc65be2c528cf5f616af8c0bd2e307b7d0d3be014fbd23e560bb199a6e74da33d67638e51e59447578cc20d5a"
 
 RPROVIDES:${PN} += "cmake-KF5JobWidgets \
 kjobwidgets-devel"

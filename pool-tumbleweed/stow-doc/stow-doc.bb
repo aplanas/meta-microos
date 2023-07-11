@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.3.1"
 
-RPM_NAME = "stow-doc-2.3.1-1.10.noarch.rpm"
-RPM_HASH = "97c68d8acc6b877185be6cd1f695dc50f3eb5a1a5d43eca9bc3ffab1b5bc6e913cc2e87564814c2e20faf196ea1a0b0d1d774be6b86502cef3f1f7c2d25d7cb9"
+RPM_NAME = "stow-doc-2.3.1-1.11.noarch.rpm"
+RPM_HASH = "5b75e536320e9c35fe81f2d7e5692b7e6dbf9bcac9ebcf7a70f2008398f124448b769a5f0d4a88b21d755704596b630f894766063ea2a01765b831d178e2c5ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "stow-doc"

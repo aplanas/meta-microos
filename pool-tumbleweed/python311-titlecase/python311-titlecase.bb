@@ -8,11 +8,12 @@ LICENSE = "MIT"
 
 PV = "2.4"
 
-RPM_NAME = "python311-titlecase-2.4-1.4.noarch.rpm"
-RPM_HASH = "4f34714cb53f08eaf172093fc6ca79f9adeac7e47ff2c37093d08fc84093c9d927923932214ce79cb15a8e79113ed58e2b63434bf30e46622131044cb14abf1e"
+RPM_NAME = "python311-titlecase-2.4-1.6.noarch.rpm"
+RPM_HASH = "50f53847e6f24cd55be2f39f63e46b5cfba6369af30379860fa3b543fbbca4f577357dc79f8027b7f0ade9bd6f53292e2295c5faf2d104fdcb7279508d552c87"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-titlecase \
+RPROVIDES:${PN} += "python3-titlecase \
+python3.11dist-titlecase \
 python311-titlecase \
 python3dist-titlecase"
 

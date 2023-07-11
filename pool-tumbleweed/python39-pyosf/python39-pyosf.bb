@@ -17,8 +17,8 @@ LICENSE = "MIT"
 
 PV = "1.0.5"
 
-RPM_NAME = "python39-pyosf-1.0.5-5.8.noarch.rpm"
-RPM_HASH = "a75e2fc83b3d1685d635552a5921a6a452c75a0496f40c8d0d2159eefeb8873aee9e1f9ec4e8fde27eaebf9f508cd3e4332e87ba0a20af69390000f056496d3f"
+RPM_NAME = "python39-pyosf-1.0.5-5.10.noarch.rpm"
+RPM_HASH = "989295ab9a31238edc8905479137359dcb54f06f877dcf03164f3b632e7b1d1a50ab2d0de447ae0f84cd86628be7454f1cf8a008ed0bf164beeb6ea22c2847cf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyosf \

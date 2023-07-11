@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.0.5"
 
-RPM_NAME = "python39-ifconfig-parser-0.0.5-1.14.noarch.rpm"
-RPM_HASH = "5612096eadd3cb5977e8858e1ff495143a268ce18bf04b59f4e9a064e573fcb7b2335bdf9be3304ac01ddc0dce87824a20a5dd78c210764bea607936635b7dfc"
+RPM_NAME = "python39-ifconfig-parser-0.0.5-1.15.noarch.rpm"
+RPM_HASH = "99b20cd40e4fad1e1012e026d6ee1a0928f6ae630e60c3774299c06261b59843a80b018bdde576b2de0bc4bcad658a405f57b0b6a2b321732bf003fa35c23b49"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-ifconfig-parser \

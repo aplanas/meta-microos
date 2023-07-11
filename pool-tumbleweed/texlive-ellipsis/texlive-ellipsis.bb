@@ -7,8 +7,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.8svn55418"
 
-RPM_NAME = "texlive-ellipsis-2023.201.1.8svn55418-53.1.noarch.rpm"
-RPM_HASH = "ee4fb3aa30f5647fabe14082840b050fa8d78989cfa5cdb1e4a356538ca6ddb1d72be95560c81a2b2fb1fb8fd9a0b79a3006d2f07bcc2819db4d540ca7e91e56"
+RPM_NAME = "texlive-ellipsis-2023.201.1.8svn55418-53.2.noarch.rpm"
+RPM_HASH = "2e0c91885c312c516da37b71b729b6d81e7499bef4e3ba539be9dea4a09bec7c99c20996cf8f79e892937f58f002d13d3f9494abb4e32949a6563abdcd51edd8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ellipsis.sty \

@@ -43,14 +43,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.14"
 
-RPM_NAME = "perl-Struct-Dumb-0.14-1.1.noarch.rpm"
-RPM_HASH = "8a4c66693206fa0a61d18591f40a6ec012f3b8e7dd65080eb679807ce7ab1823ff79c720ae4147986f08fd23015866a09f03af4467db6fd712b15a4c92fbc84a"
+RPM_NAME = "perl-Struct-Dumb-0.14-1.2.noarch.rpm"
+RPM_HASH = "ca4919120b3a95ead75076476accefe9efc9c5e02b744ec83f46c49064c25be4f20a4db08e4fc2e3b9b5bd667390a2e8dc905e736ad9c8aa90bacecd0762f254"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Struct--Dumb \
 perl-Struct--Dumb---DestroyWatch \
 perl-Struct-Dumb"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

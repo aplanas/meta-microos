@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains files needed for development with the SDL2 
 library."
 LICENSE = "Zlib"
 
-PV = "2.26.5"
+PV = "2.28.1"
 
-RPM_NAME = "SDL2-devel-2.26.5-1.1.aarch64.rpm"
-RPM_HASH = "a203e73ba73f0de110f63b1a410ee4c5b96b8bce4c35ef72b6a353c7f7f623b5f2a7e17431a0d03661cfcfa76a3ca9e91c7c6958680147c84d150202881c226a"
+RPM_NAME = "SDL2-devel-2.28.1-1.1.aarch64.rpm"
+RPM_HASH = "e3207b83d1338906485fe71390b7cce9c6628c95a5ceb261f9fad4796a89b178d1c5f56bf25a1f0aca37e2a07bb03657313e4a4a1f66d60e399e914a91710cf0"
 
 RPROVIDES:${PN} += "SDL2-devel \
 cmake-sdl2 \

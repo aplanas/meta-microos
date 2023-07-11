@@ -2,10 +2,10 @@ SUMMARY = "Translations for package akonadi-calendar-tools"
 DESCRIPTION = "Provides translations for the 'akonadi-calendar-tools' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "akonadi-calendar-tools-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "82a34e042cd252dc3ff81aaa37b35d524fbbdd5739468c4775164da04cb517a2baaef0debe3e3b020a45bb1fc81ec558d1983410e5d856b6f49d876210b5d288"
+RPM_NAME = "akonadi-calendar-tools-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "edc44bacf1cc792ef55294a65e4cf61c63da6f6875207d90c97e04cf6262795ef50bb9eea7c78df8157ebea2db26e96bee43d380f5b1edfbb40640414c60eeec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "akonadi-calendar-tools-lang \
@@ -38,6 +38,7 @@ locale-akonadi-calendar-tools-hi \
 locale-akonadi-calendar-tools-hr \
 locale-akonadi-calendar-tools-hu \
 locale-akonadi-calendar-tools-ia \
+locale-akonadi-calendar-tools-id \
 locale-akonadi-calendar-tools-is \
 locale-akonadi-calendar-tools-it \
 locale-akonadi-calendar-tools-ja \

@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.50.1"
 
-RPM_NAME = "libguestfs-inspect-icons-1.50.1-3.1.noarch.rpm"
-RPM_HASH = "aeb519a6824a5beaeee63d90b1bdfe725ca36b86fb4c03abd8bf87ed13da69da014b88c788d06a286af0ca7fcd338f2a7b6616f0e92eb92e7b8edbf95f88de87"
+RPM_NAME = "libguestfs-inspect-icons-1.50.1-3.3.noarch.rpm"
+RPM_HASH = "9fa6be7526938bd74c88092a8979121f2a581e3d1c54b9100d28d7a1c5c4bc23aa7036578bcc02d031c7af62fb37187fc0ae9564bb40fa106e9c7a93f1ac09ea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libguestfs-inspect-icons"

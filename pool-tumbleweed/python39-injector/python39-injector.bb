@@ -16,8 +16,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.20.1"
 
-RPM_NAME = "python39-injector-0.20.1-1.3.noarch.rpm"
-RPM_HASH = "9cc5b822bb3f4712ec5880dcbcf44efca71f066b8a4bddae01e5d9ff844f2c724175b89f0793f8e8b3ddc0c13c652e818db6929ae04b39b29fdb311df8b93ad1"
+RPM_NAME = "python39-injector-0.20.1-1.5.noarch.rpm"
+RPM_HASH = "be3a88de76cc6379597df85a37428e3dd68201e7ecf91d1bd9d758f08f7d99fc1951069f9aa8f185a77263e62cf81109722795e9425e690eee096f57a5d6edcd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-injector \

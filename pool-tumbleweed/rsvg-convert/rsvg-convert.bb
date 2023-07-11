@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "2.56.1"
 
-RPM_NAME = "rsvg-convert-2.56.1-1.1.aarch64.rpm"
-RPM_HASH = "27bbecd629e0d9d67458867b0ad08b7b29704c6dc9098797d022079c8c3f82fc28b04514cbc5870d831d5f1aed28c2a0501b4542c2f8e1aed92f80e7069c4c88"
+RPM_NAME = "rsvg-convert-2.56.1-3.1.aarch64.rpm"
+RPM_HASH = "419e0b28479b449d467d0fc430dc8e384b41cdb8810d1efda35cf6ba84b69cd66669ec2bd0233f59054fd73f34e8609d7cb20457997062aee307feb2c372e9b5"
 
 RPROVIDES:${PN} += "rsvg-convert"
 

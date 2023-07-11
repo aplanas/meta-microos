@@ -2,13 +2,13 @@ SUMMARY = "Haskell gtk2hs-buildtools library"
 DESCRIPTION = "This package provides the Haskell gtk2hs-buildtools shared library."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.13.8.3"
+PV = "0.13.10.0"
 
-RPM_NAME = "ghc-gtk2hs-buildtools-0.13.8.3-2.3.aarch64.rpm"
-RPM_HASH = "b6dd64c571dd8836768c451c9e3e672b3c752d9951f3a415cc0137eea58e637a2fd365f89cd6cc51b9c667e9bad265bfb48ae5d77e3444c5012c60fb2af98d50"
+RPM_NAME = "ghc-gtk2hs-buildtools-0.13.10.0-1.3.aarch64.rpm"
+RPM_HASH = "925dd13a6dcff46d9961b9a1d1c1c1f9cd7b4a5c945b3a8b76b0b43fc56a59bfe5dc92606cf4a630d7a1c268591626429cdf2aa31f204e528e423c31a4d3487f"
 
 RPROVIDES:${PN} += "ghc-gtk2hs-buildtools \
-libHSgtk2hs-buildtools-0.13.8.3-1HEgD6xsgMLLqS6Eg0gkhE-ghc9.4.5.so"
+libHSgtk2hs-buildtools-0.13.10.0-GMmATWROlNJH1zTcL3EPcc-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSCabal-3.8.1.0-ghc9.4.5.so \
 libHSCabal-syntax-3.8.1.0-ghc9.4.5.so \

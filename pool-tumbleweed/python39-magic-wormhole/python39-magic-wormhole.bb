@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "0.12.0"
 
-RPM_NAME = "python39-magic-wormhole-0.12.0-6.4.noarch.rpm"
-RPM_HASH = "28e1d149d5cfecc9f4906b09cf9b98f312448d607f6f425474f971d31338704abcefd9a3341ab6dc81fd6e118c80ce9f74d95a16c5bff3467cb81a8dc7f3f7e0"
+RPM_NAME = "python39-magic-wormhole-0.12.0-6.6.noarch.rpm"
+RPM_HASH = "fe041d07cc2967ec37ec982c513b062ae2029523e4501ac64684fdcc3b68bd919483b503fab7f72afd50d79b0eaf3881e47f2feb78f452bcf99c4d9ae759748f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-magic-wormhole \

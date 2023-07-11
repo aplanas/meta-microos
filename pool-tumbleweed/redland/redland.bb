@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later & Apache-2.0"
 
 PV = "1.0.17"
 
-RPM_NAME = "redland-1.0.17-2.20.aarch64.rpm"
-RPM_HASH = "5afd67de2fd6c4ba696d92e9893e11195ec91527237470bc682d833be5581e0f536d86eeb3675b1e69eea3a31c8acd159890118ddc0424b33d3965e27f19d1e9"
+RPM_NAME = "redland-1.0.17-2.21.aarch64.rpm"
+RPM_HASH = "6ba8465f9751d8d9d7d5cd9b8700c1f9c07034a2fd3a917beee1a97d34fa1929b99571f28043fdf59e182cae92a0310862ba5435285739f91b97638cebc9bd5a"
 
 RPROVIDES:${PN} += "librdf-storage-sqlite.so \
 redland"

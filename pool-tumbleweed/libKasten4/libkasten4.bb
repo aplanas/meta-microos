@@ -3,10 +3,10 @@ DESCRIPTION = "Kasten is a WIP higher-level framework for composable document-ce
 applications."
 LICENSE = "GFDL-1.2-only & GPL-2.0-only"
 
-PV = "0.26.10"
+PV = "0.26.11"
 
-RPM_NAME = "libKasten4-0.26.10-1.3.aarch64.rpm"
-RPM_HASH = "6e41b77e07b3a41431ce837974ae608d6ceeee634274cfb3cbcc1a3b20360cbe17bbc3175449cc9e4d348111269a7fb81b479452d695afbe7f769540478a650a"
+RPM_NAME = "libKasten4-0.26.11-1.1.aarch64.rpm"
+RPM_HASH = "8eb8f77909a5c9607c2560e5bce1734b9bbe6f9af35ca156c2ef1c3793147eb1f3aca7a06555fa6692523407aac59b751408c25e9818996192405445fb58eca0"
 
 RPROVIDES:${PN} += "libKasten4 \
 libKasten4Controllers.so.0 \

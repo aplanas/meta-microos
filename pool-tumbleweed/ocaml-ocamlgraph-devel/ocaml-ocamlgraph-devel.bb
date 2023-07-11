@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1"
 
 PV = "2.0.0"
 
-RPM_NAME = "ocaml-ocamlgraph-devel-2.0.0-1.15.aarch64.rpm"
-RPM_HASH = "d5ba20c26879ca5bc9249273c38cc9ee243e19b7b5f35cde43d36973681dac05142929e7ec942b551b72f588e495fe11f43137aece0e1142a3c09ff98fd107cd"
+RPM_NAME = "ocaml-ocamlgraph-devel-2.0.0-1.16.aarch64.rpm"
+RPM_HASH = "3f1f9678a816869e9fe1f62e44e3796316ccb4eebc5fcffeda0220e5933de5696a1241be77bf065d3794520ec731ef2d63a4a362401c345ec639f620381f31ba"
 
 RPROVIDES:${PN} += "ocaml-Graph \
 ocaml-Graph-- \

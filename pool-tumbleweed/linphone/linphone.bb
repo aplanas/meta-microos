@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.0.16"
 
-RPM_NAME = "linphone-5.0.16-1.1.aarch64.rpm"
-RPM_HASH = "f02a0ec8aecdd6003b71ee2c64faf253328a316ef90003bc153fbaefed5b9c423e7b9b09fb19dc905f3ceb7327d8a6b765774b70107e73393ba5ca44b678a020"
+RPM_NAME = "linphone-5.0.16-1.2.aarch64.rpm"
+RPM_HASH = "3e1d4f917dae791b805f4c165914a4aa35e06e2f374b4b8dd678773fe37321f25590828439cb2fb8341abac48d37ae4ae7fc73db02096a5db9a0c7ceff1b8e9c"
 
 RPROVIDES:${PN} += "libapp-plugin.so \
 linphone"

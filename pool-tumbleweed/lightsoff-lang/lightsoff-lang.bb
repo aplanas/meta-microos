@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "40.0.1"
 
-RPM_NAME = "lightsoff-lang-40.0.1-2.3.noarch.rpm"
-RPM_HASH = "7e0faf808856ccf293a717d6470188dd0cb2b774b98289f984ef302305c7186e97256cfea7d0f847ebe0b2b864800db1979659f4c30e80cd2a7642dd877bdb9e"
+RPM_NAME = "lightsoff-lang-40.0.1-2.4.noarch.rpm"
+RPM_HASH = "747b8ce45b4eaff10e5854d701deea779206a51ba856a3a209ad6e7d043b70b5fb847789248008a7c2dd1b6de4a81951dd875cbea5c4657071eacbbb73f7c247"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lightsoff-lang \

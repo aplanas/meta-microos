@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python39-azure-mgmt-elastic-1.0.0-1.8.noarch.rpm"
-RPM_HASH = "b06031d6d2ba41b92d6e7a108257c5e26224bf1f6f380fe4e5483280f77b69ed1cc68946ee29e5381a0bdc88af38411145deb6c3916c3f9a11f2c46ea7cf2c0c"
+RPM_NAME = "python39-azure-mgmt-elastic-1.0.0-1.9.noarch.rpm"
+RPM_HASH = "9e262b144269fa75d22fdcb7c986a55bb8d4dcc9be4670380027349ccbddcce68e03d2583fae67d748292acd7726632749c65b221fc194353654c4c68272bceb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-elastic \

@@ -4,12 +4,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.3.2"
 
-RPM_NAME = "python310-openapi-codec-1.3.2-2.8.noarch.rpm"
-RPM_HASH = "c111b6e5557cd231db5cd6e02c48f056a3dce6033b18980d52e301b2d32bf10bf6febba33edef180df3688b4b5c13d0cccfa398ae6ca78b0be96b77a88c655e4"
+RPM_NAME = "python310-openapi-codec-1.3.2-2.10.noarch.rpm"
+RPM_HASH = "0eb12e9028d439a2f010049db49aeecf0b08104e9c0905096e2d9ff77f0e632be52a3565d57c3daa11b24e23b3d219118cd95765a4da0c5ec8fd85359d4f11f3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-openapi-codec \
-python3.10dist-openapi-codec \
+RPROVIDES:${PN} += "python3.10dist-openapi-codec \
 python310-openapi-codec \
 python3dist-openapi-codec"
 

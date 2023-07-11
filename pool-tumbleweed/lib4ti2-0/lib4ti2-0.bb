@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.6.10"
 
-RPM_NAME = "lib4ti2-0-1.6.10-1.1.aarch64.rpm"
-RPM_HASH = "5ad96b4d7cf5a43bfa6e777a045358d37d7e39a5ab5aa8b228d487dbc0b46c4c79a2436c2862b01615721105c1fd8fe82b43917f3f589ce29dcbd1e6a7f86d29"
+RPM_NAME = "lib4ti2-0-1.6.10-1.2.aarch64.rpm"
+RPM_HASH = "ae043abf9099ccabf6b59c23d2fd1f382324d3ed09275b0ee3d2a568e5f71a10217c3c9c78c5eff6c1be3bfafbec8d074ee325a15be4470e98cfa3ee93c8dbca"
 
 RPROVIDES:${PN} += "lib4ti2-0 \
 lib4ti2common.so.0 \

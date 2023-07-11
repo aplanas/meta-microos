@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.2svn57341"
 
-RPM_NAME = "texlive-graphicxpsd-2023.201.1.2svn57341-53.1.noarch.rpm"
-RPM_HASH = "64cf79bde714af0baeba77851f29f51630176ccdb5405ef2591a631abed774394891b69437f02e5f89af8a0f16b25894c74a76aaa4e4f43994128d6634b92718"
+RPM_NAME = "texlive-graphicxpsd-2023.201.1.2svn57341-53.2.noarch.rpm"
+RPM_HASH = "906eeafb0cceeaba5c761be8800528df91760e2ca517b4a85d9b89cde44d24d26563a1032f36bd7bf75cd3e88e310344d875a80e2293b7ff9fb7cf3c36e044c3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-graphicxpsd.sty \

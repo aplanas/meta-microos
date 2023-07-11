@@ -8,8 +8,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "4.2.0"
 
-RPM_NAME = "mpfr-devel-4.2.0-2.1.aarch64.rpm"
-RPM_HASH = "6d9d713cabd6fe00cd135729922b76cd65e1e89e6c35cce947c0658ec1cc29e42bcb4ab6e753368f95a6be9baff1de2d0cf36e9ff36216190514a5b0b894c1ef"
+RPM_NAME = "mpfr-devel-4.2.0-3.2.aarch64.rpm"
+RPM_HASH = "ce93535eb11bac8cc6e7bf0c72d498d923eba2b161e28d2616860ae0ebebdf999edcbc30bcf10ecf454c849b418ac835fc10af4640d9b67b3cb269ab72bea442"
 
 RPROVIDES:${PN} += "mpfr-devel \
 pkgconfig-mpfr"

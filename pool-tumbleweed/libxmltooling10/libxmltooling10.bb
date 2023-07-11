@@ -8,10 +8,10 @@ support. \
 This package contains just the shared library."
 LICENSE = "Apache-2.0"
 
-PV = "3.2.3"
+PV = "3.2.4"
 
-RPM_NAME = "libxmltooling10-3.2.3-1.4.aarch64.rpm"
-RPM_HASH = "1d80e0889fe6e75ea7405ad88f23296312567ad626f35b61be2f8036ca4f5d71d17360051791d7b338f105d12bfc60c725d357879e3c10d68a9080011f140b4a"
+RPM_NAME = "libxmltooling10-3.2.4-1.1.aarch64.rpm"
+RPM_HASH = "eefdf20f5209383a229e6965eb48be05d5e8746c8cf02d3e47db2e53536b4851c870bc7aa088b46e7e7e6a04f9c4edb830b360779f91c10a6a5bd3f0d6a2ce66"
 
 RPROVIDES:${PN} += "libxmltooling.so.10 \
 libxmltooling10 \

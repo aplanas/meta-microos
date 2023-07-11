@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.0"
 
-RPM_NAME = "python39-python-dotenv-1.0.0-1.1.noarch.rpm"
-RPM_HASH = "cc4979bdac9fc8000bf906e9e0135d6eeb6d6861ade8df8632534fafa1ed3e5b507f0b76d5d7faabcf45a30e7d6540ae50b1f637065da2133b5125d0e5638af5"
+RPM_NAME = "python39-python-dotenv-1.0.0-1.3.noarch.rpm"
+RPM_HASH = "2cb1ea7ffc1c5dfb193e7f63362cda03e3dd7721b0c1e625365566d939a46c405688a41111e635a24e11c1cffe1161893b540df2eb45ea0f5364298505e8fddb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-python-dotenv \

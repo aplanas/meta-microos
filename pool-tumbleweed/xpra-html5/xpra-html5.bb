@@ -4,10 +4,10 @@ which can be made available for browsers by the xpra server \
 or by any other web server."
 LICENSE = "GPL-2.0+ & BSD-3-Clause & LGPL-3.0+ & MIT"
 
-PV = "7.0+git20221227.017148e"
+PV = "9.0+git20230615.cdd9ea7"
 
-RPM_NAME = "xpra-html5-7.0+git20221227.017148e-1.2.noarch.rpm"
-RPM_HASH = "e3852c2b886caa39c0f9493cbe2a7c339f8374a08c7dcbac3e49c184fa27308c614b240ccf5bee3f5c2c9d437455134870c2133de2bf9dcf7c48b431d4b1d55f"
+RPM_NAME = "xpra-html5-9.0+git20230615.cdd9ea7-1.1.noarch.rpm"
+RPM_HASH = "58f35648ffd8879a530b05cb6cc48592a21dd9b1d33b790e4cf358c6e401327e6d35ed60134871ac96179ab3e72a447b198090abe6ab98cabde4eb67e7ded15e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bundled-js-aurora \

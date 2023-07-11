@@ -18,8 +18,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.10~20131207"
 
-RPM_NAME = "jformatstring-0.10~20131207-3.6.noarch.rpm"
-RPM_HASH = "90a7f42238075ed020ac06c6eccb369572e02737c00b6b215c47125c9397c13cb91a793af7a39e29253b862d4a7fb486ada3cce94c75321343dfd2bef6a0f37e"
+RPM_NAME = "jformatstring-0.10~20131207-3.7.noarch.rpm"
+RPM_HASH = "ec19fdbe84b7fbf92f175d7f777398cfa62d01844081193eee992a1227bbfc7786a66efc6ae677e02e2edbc7555a0dc4a9f17d1b6052cc97b77bb7f93174889c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jFormatString \

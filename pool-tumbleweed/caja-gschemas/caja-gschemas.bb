@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.0-only"
 
 PV = "1.26.1"
 
-RPM_NAME = "caja-gschemas-1.26.1-1.4.aarch64.rpm"
-RPM_HASH = "4623d2605e7f9f39c3b2714dca2bdee8cc67c3e6c575a386719591af824b7f9a504f469250851c3a1439d92fd64819e25c623b7cd93eb6be6e1fa03c8e9ac243"
+RPM_NAME = "caja-gschemas-1.26.1-1.5.aarch64.rpm"
+RPM_HASH = "218c058b458fae8b1fdc09792561b10983097cbf44779330299cfa38492afe1105cd1215115bc95251cef87fd0c54ec3714fbad90ecd0f533fc4eeab98a64ecd"
 
 RPROVIDES:${PN} += "caja-gschemas \
 caja-gsettings-schemas"

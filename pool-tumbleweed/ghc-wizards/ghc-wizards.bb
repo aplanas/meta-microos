@@ -25,8 +25,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.3"
 
-RPM_NAME = "ghc-wizards-1.0.3-5.3.aarch64.rpm"
-RPM_HASH = "358e3f6912df0d8c46651b3c38ad8d4387880bd6359fc66ca66e97b97bdaa9f656e7b407ea166ae52a1c9712cf2ddd7aab6703bcdaf1dcc90d427b03b14d6f65"
+RPM_NAME = "ghc-wizards-1.0.3-6.3.aarch64.rpm"
+RPM_HASH = "649de0f9007664d2acbfa29bfecb83fbe00142c8f9687868d29f71cf03d65b0a5773683ee594bb2cded91b888d1071318779c0a621f11f154ce0cbb04e5d1645"
 
 RPROVIDES:${PN} += "ghc-wizards \
 libHSwizards-1.0.3-1eOj2T9eMm8Jj6cnosVGZb-ghc9.4.5.so"

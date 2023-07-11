@@ -7,8 +7,8 @@ LICENSE = "OpenSSL"
 
 PV = "3.7.0"
 
-RPM_NAME = "libressl-devel-doc-3.7.0-1.2.noarch.rpm"
-RPM_HASH = "d3a08ba44b6bed10da610e627920d9896d031b1a642294ed6a8b3fa199bf5d723d66553ac6f37f5721e205414c53135125abda11edb9f9da214ce8da290a56d3"
+RPM_NAME = "libressl-devel-doc-3.7.0-1.3.noarch.rpm"
+RPM_HASH = "5a55a3f99ab58852de9123a8c772a0e2cce9d6ceca23b4a0d986af8af11a417f54893c3d950bc31e78869bdf70690aa9e7a5828731357f8b958346bd829db292"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libressl-devel-doc"

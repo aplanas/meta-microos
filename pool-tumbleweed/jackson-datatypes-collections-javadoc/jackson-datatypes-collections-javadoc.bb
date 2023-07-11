@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.13.3"
 
-RPM_NAME = "jackson-datatypes-collections-javadoc-2.13.3-1.7.noarch.rpm"
-RPM_HASH = "782509acd1b4f5f746f3dc218f720c78122cf0845a493de9cc9ea72ad3fcc06d147812e69888778a33ad47fa2e03be1cab2e7c13f20c9226cf32b9f4c78baaa5"
+RPM_NAME = "jackson-datatypes-collections-javadoc-2.13.3-1.8.noarch.rpm"
+RPM_HASH = "a405458c433c934f42bc955c0f3144c6504f18f97dd8119192ca90516d2d65cb25f3d9f16e80ce337e706f2714266b5fa76068151b28970cb5a08922575318f2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-datatypes-collections-javadoc"

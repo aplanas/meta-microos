@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.5.0"
 
-RPM_NAME = "vala-panel-runner-0.5.0-1.6.aarch64.rpm"
-RPM_HASH = "518abc1c04ef1dc047ac85dc0d1e999a8f860fe7ab8169443c35c56e4e1a02b8ad0b56468cb089dee09797fd349fc248a995d18ef876f13246bc6fdcf3432b51"
+RPM_NAME = "vala-panel-runner-0.5.0-1.7.aarch64.rpm"
+RPM_HASH = "9ccfa850a974c85c7122e3a4d5017333515dfd5341485c6e13bf928bc62f3ce5345337b7a43217608a92a30ffd611f46c5e76bed12d20cad1aa8cf547adc5519"
 
 RPROVIDES:${PN} += "vala-panel-runner"
 

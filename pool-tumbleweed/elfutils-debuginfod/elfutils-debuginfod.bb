@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.189"
 
-RPM_NAME = "elfutils-debuginfod-0.189-3.1.aarch64.rpm"
-RPM_HASH = "66a46eacfadeeb096fb4b43505a453c9d87ff1b6fcaeb8a5e66c2bd7beb768b61b38b0d3e05d65bb58c4bbaaec7fcbdaea8a6f9057165a1880594aff099c1027"
+RPM_NAME = "elfutils-debuginfod-0.189-3.2.aarch64.rpm"
+RPM_HASH = "28362f66d4d8bf0264547e5a578aa13971256701ccb143c4c165c43577af6b7c586ef5f3899d1b30a6bdc4b9a35dcc45cc1d105cd7b6347a2dce2c5505caff8f"
 
 RPROVIDES:${PN} += "elfutils-debuginfod \
 group-debuginfod \

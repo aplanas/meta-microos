@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.36.0"
 
-RPM_NAME = "libpeas-loader-python3-1.36.0-1.1.aarch64.rpm"
-RPM_HASH = "750b19c1e2364b13bc9c6bbf8fda06c3fc8d5ffecc927e96f6d49327481fbc93929212c7265bebd55ba9fabd0b7806de1f00bb112057971e75e8cbae19b21e84"
+RPM_NAME = "libpeas-loader-python3-1.36.0-1.2.aarch64.rpm"
+RPM_HASH = "ab4f363c8beca502ed0ef08dc356ccdd5ff68cd51284e1b074c604fdc4e2a1d00d687b9b2255d499e32372bf70db57ec67876cc7f09b45d85fb1e576b8fdf31f"
 
 RPROVIDES:${PN} += "libpeas-loader-python3 \
 libpython3loader.so"
@@ -19,7 +19,7 @@ libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libpeas-1.0.so.0 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 typelib-GLib \
 typelib-GObject"
 

@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "5.1.0"
 
-RPM_NAME = "guice-servlet-5.1.0-1.1.noarch.rpm"
-RPM_HASH = "da5469fac50262ee13e53bdce7e94678a731a938aa0fdcd0d1e417bdddbb6302cb2fd365b1c47400deb62fc591da7341d925be6fb010f54eeb5dac77f3c539f1"
+RPM_NAME = "guice-servlet-5.1.0-1.2.noarch.rpm"
+RPM_HASH = "332e898aa05b3d1c17fb58fc5e77e88b0b12588abadadc6c16dd7fff5cfae2b24a4cf51ba279e0fe4b9cc75663e4842c95a9e306b826838f2433e5e68906cd05"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "guice-servlet \

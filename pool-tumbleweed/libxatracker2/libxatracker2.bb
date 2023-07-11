@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "libxatracker2-1.0.0-349.2.aarch64.rpm"
-RPM_HASH = "7f8e719deb04a0622b8d18617445ce137f636a97a194ade9fdfc5fec79d78ea2e915309c6446f02e6e1f46a4611f8b0dec640904276b352f28881db1537a576b"
+RPM_NAME = "libxatracker2-1.0.0-353.1.aarch64.rpm"
+RPM_HASH = "a1362c5f5b161f3029902abd8c2aa6176fe0171b0f6b4c3bca216b894279cceaa842d2569c4a6fcc0fe12758e32e6948dbcc724c17e295f0927b26687581da77"
 
 RPROVIDES:${PN} += "libxatracker.so.2 \
 libxatracker2"
@@ -23,7 +23,6 @@ libexpat.so.1 \
 libgcc-s.so.1 \
 libm.so.6 \
 libstdc++.so.6 \
-libz.so.1 \
-libzstd.so.1"
+libz.so.1"
 
 inherit rpm

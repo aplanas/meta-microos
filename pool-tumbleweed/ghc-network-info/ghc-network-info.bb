@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.1"
 
-RPM_NAME = "ghc-network-info-0.2.1-2.2.aarch64.rpm"
-RPM_HASH = "2e79ed55a80639e8d65e08cbfc653dfe3f6e3cd38a434650ea0afa7b5ed1616fafd7c62052eb3cb6c210c930d52ba275561553c564955b428a2e425a6f13a0c8"
+RPM_NAME = "ghc-network-info-0.2.1-2.3.aarch64.rpm"
+RPM_HASH = "e81951fbc2a0742bded63b71d5e7d9e2f64f7836bb62eb41585e86378f2bbaedd38a7f41f93a40adb8b0d8ab31ac0383f143007aa2ac5e9db36500963b85ccd1"
 
 RPROVIDES:${PN} += "ghc-network-info \
 libHSnetwork-info-0.2.1-G9nMDkAKQecAEHIupCmq9I-ghc9.4.5.so"

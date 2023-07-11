@@ -4,15 +4,14 @@ LICENSE = "MIT"
 
 PV = "0.1.4"
 
-RPM_NAME = "python39-rfc3339-validator-0.1.4-2.1.noarch.rpm"
-RPM_HASH = "d802fac7a5fd80d69d44b6c161fb7592538beca1f837f3ca73c772aa17ed3df615ee9c2f0454c3e1c06cdda6a9168804b2a57bffd5816323cf1c498cf7e6d889"
+RPM_NAME = "python39-rfc3339-validator-0.1.4-3.3.noarch.rpm"
+RPM_HASH = "ed1d2c9df5535edbf59c69d7dbdd83efc3a82b6713e183c934b03d4b9b9cbe07f45c54a96a8f42ee7a0f677ab357f2fa923e0fdb56f30b4f9096a2459a822a83"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-rfc3339-validator \
 python39-rfc3339-validator \
 python3dist-rfc3339-validator"
 
-RDEPENDS:${PN} += "python-abi \
-python39-six"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

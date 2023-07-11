@@ -2,10 +2,10 @@ SUMMARY = "Haskell monad-logger library documentation"
 DESCRIPTION = "This package provides the Haskell monad-logger library documentation."
 LICENSE = "MIT"
 
-PV = "0.3.39"
+PV = "0.3.40"
 
-RPM_NAME = "ghc-monad-logger-doc-0.3.39-2.4.noarch.rpm"
-RPM_HASH = "94acbab2be2d0e28932563b1329d44c2abe87d1d0be06ab90c343aad257303d5c7fcab2041a9907ee3cda007dd808754077b5b63814a20492848ba8b728653f1"
+RPM_NAME = "ghc-monad-logger-doc-0.3.40-1.2.noarch.rpm"
+RPM_HASH = "bbdd4f630bd32927dcc43ddbeccd70c48be6d60da16609e25fee1f30cc7b76382ba42d9e4fc65eb13807ea329f1f95e0aea64c2011e972f8cc5b43b48865edd0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-monad-logger-doc"

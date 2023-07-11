@@ -5,11 +5,12 @@ LICENSE = "Python-2.0"
 
 PV = "3.3"
 
-RPM_NAME = "python311-roman-3.3-2.1.noarch.rpm"
-RPM_HASH = "0bda317d25233719f238276a656a5e72685dcc2d368a0567bc4197e10506c61993618d493cf5551157544ee092eb4abb8287cc4cc91b1d21e59e85ef038d404f"
+RPM_NAME = "python311-roman-3.3-2.2.noarch.rpm"
+RPM_HASH = "70b618a5f8421fdf1257919249ec0c662e1c1749023631fd7a90cd70f53aa47cb312c7b2333f5ee69eb42748ac19896fc1d8a821ceb08d0aef75dfea1a170a88"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-roman \
+RPROVIDES:${PN} += "python3-roman \
+python3.11dist-roman \
 python311-roman \
 python3dist-roman"
 

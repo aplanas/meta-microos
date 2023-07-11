@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kwin5"
 DESCRIPTION = "Provides translations for the 'kwin5' package."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "kwin5-lang-5.27.5-2.2.noarch.rpm"
-RPM_HASH = "14b938e94be877b51fe8b58263dd3ac36cb1d9d01ed0851ce920bd60dc23badbb27aab58ac5d6187f9af2a423820e22131c0fda32fdcceca23a01f6fd1a514a2"
+RPM_NAME = "kwin5-lang-5.27.6-1.1.noarch.rpm"
+RPM_HASH = "ae18922c871bece2b63110efbeeab151cee47ac71345726b241ae7c08345db9392d878525c69b94a90a1099fa201eeb9990fd8509bc672528b72fb1cc148b6aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kwin5-lang \

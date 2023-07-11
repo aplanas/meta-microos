@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.8.0"
 
-RPM_NAME = "pix-2.8.0-1.11.aarch64.rpm"
-RPM_HASH = "fcd39d25dfedeb4696b98cceb9720fc91ba84ded4e47940e5d4a815a964e1282fa780df1e4823c3339ec43f45327822b3774fe2a7f5807d39d140059d28ca2d5"
+RPM_NAME = "pix-2.8.0-1.12.aarch64.rpm"
+RPM_HASH = "39bda95b02f67b747c1412daeabfcbcc105679216a2086b69114fd250b0f3fac5257991b70bb0914bd381905b3ef84a684af42f1e10051ba0c05542e9379994a"
 
 RPROVIDES:${PN} += "lib23hq.so \
 libbookmarks.so \

@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.3.1"
 
-RPM_NAME = "mpc-devel-1.3.1-1.3.aarch64.rpm"
-RPM_HASH = "a7a1eac19fa9743dae9c391b36ec7dee79502b3f5444553f1538a116b30c59a377b6c5a3284375881c8c88940820f4a8700d28149f98cf6be5f50add7ef3f801"
+RPM_NAME = "mpc-devel-1.3.1-1.5.aarch64.rpm"
+RPM_HASH = "3a3c4c43d6a0f96d526622f180e05a7567d82d555305c4a030f9ec43fdd0e37d6b3f09b41ea4ac3fa5848f52c4f76c06c23e3d96e5a91f097ae47a5ee90d3ac2"
 
 RPROVIDES:${PN} += "mpc-devel"
 

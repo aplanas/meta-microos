@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.1"
 
-RPM_NAME = "pinentry-gtk2-1.2.1-2.3.aarch64.rpm"
-RPM_HASH = "ad44cced4496b8078c15dc45196e95878ea8c9d2435203c056b140c03925efa83d48232d704d94cb27de19ea76743671d958b926e644725790c86114fc24a3d6"
+RPM_NAME = "pinentry-gtk2-1.2.1-3.1.aarch64.rpm"
+RPM_HASH = "52586a7e859aa965455ed7e0a58fc95dd84b9b047085dadffc1b6c671d196f2370f8aa6d923beac309e98c723884bc5b4ecc9ace1b96f7b67d387133a9791370"
 
 RPROVIDES:${PN} += "pinentry-/usr/bin/pinentry-gtk-2 \
 pinentry-dialog \

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.1.0"
 
-RPM_NAME = "libvidstab-devel-1.1.0-2.19.aarch64.rpm"
-RPM_HASH = "08bdfc5d18c4a7c3861b2a0322805d8bc39cee823a87a93450cfc75fb9ae4da0d130e4464912f060cac2a94e57026a777653454612f9cdddce7c1e96f42fe9a0"
+RPM_NAME = "libvidstab-devel-1.1.0-2.20.aarch64.rpm"
+RPM_HASH = "887634f45c10a05c40453f993217cbe843f3c82571ce39482ee397b96e287dddf0f8e9f93356ee92162e00420267a4917bd97630883d005799c8dc1be2844989"
 
 RPROVIDES:${PN} += "libvidstab-devel \
 pkgconfig-vidstab"

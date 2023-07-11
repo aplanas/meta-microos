@@ -2,10 +2,10 @@ SUMMARY = "Hu old hungarian rovas table for ibus-table"
 DESCRIPTION = "ibus-table-rusle provides the Hu old hungarian rovas table for ibus-table."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.3.13"
+PV = "1.3.16"
 
-RPM_NAME = "ibus-table-hu-old-hungarian-rovas-1.3.13-2.3.noarch.rpm"
-RPM_HASH = "ba7762e45f2efa2702edca02353f01713b5c27921c22145b6cf60718be97af523d068b7ea7f5e42bbc646e6a869d7ff541af585bc82ba0cd41ef9a37846f8c5d"
+RPM_NAME = "ibus-table-hu-old-hungarian-rovas-1.3.16-1.1.noarch.rpm"
+RPM_HASH = "cb7f21dd66fc95752ed100726cbe9220c665c5b43c5c8d9565a612689c94643e8234ad51a0ab88f8f79a8a1b4aec30194b53be1a45ad34252794c56476db915a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ibus-table-hu-old-hungarian-rovas"

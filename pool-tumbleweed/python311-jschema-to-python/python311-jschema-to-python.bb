@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "1.2.3"
 
-RPM_NAME = "python311-jschema-to-python-1.2.3-1.6.noarch.rpm"
-RPM_HASH = "050e0bc00b5c45ce23f8bdae38eb2d6ccb91c8b8852d5c27aa0e6861bf6d4a940579a6eb4c6e7b07004714d002566bd6119e1c6788b847d6967131fa1e2b3b90"
+RPM_NAME = "python311-jschema-to-python-1.2.3-1.8.noarch.rpm"
+RPM_HASH = "25945522b2a4b2a7907227e42a0cfb24d0c603c5370b0e20cf0400401f4c0ce98f57f9ecc136e510d941560b88251c0f3e522c218ffa61554bc01bb42b3160b2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-jschema-to-python \
+RPROVIDES:${PN} += "python3-jschema-to-python \
+python3.11dist-jschema-to-python \
 python311-jschema-to-python \
 python3dist-jschema-to-python"
 

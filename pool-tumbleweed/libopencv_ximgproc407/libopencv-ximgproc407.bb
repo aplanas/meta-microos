@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.7.0"
 
-RPM_NAME = "libopencv_ximgproc407-4.7.0-1.6.aarch64.rpm"
-RPM_HASH = "16071d83c00be6f60774d193373cd83aa3dd006c9e9bd01ac56addc8e1dc7ede9c200d0c6a386f36f0754f1a302feb731a38f6ac031ac39a373e64920c5d174e"
+RPM_NAME = "libopencv_ximgproc407-4.7.0-1.8.aarch64.rpm"
+RPM_HASH = "a5e4b08e752df85e55c1feeefd8e090acc67197ce7c817a2258ceb348af4d79880b4e346454cff4b83cd6af56be079b10b36c8aad565e76f05cb192c308c037c"
 
 RPROVIDES:${PN} += "libopencv-ximgproc.so.407 \
 libopencv-ximgproc407"

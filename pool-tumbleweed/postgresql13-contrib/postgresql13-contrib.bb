@@ -14,8 +14,8 @@ LICENSE = "PostgreSQL"
 
 PV = "13.11"
 
-RPM_NAME = "postgresql13-contrib-13.11-1.2.aarch64.rpm"
-RPM_HASH = "eda0226ce89bb7e8550c65698965b38fe9c591072e7e1362b5aa456ab312f672722b4e2a4ade31eac42dd22679aa24164f9e069b755384aac8a051054a3484da"
+RPM_NAME = "postgresql13-contrib-13.11-1.5.aarch64.rpm"
+RPM_HASH = "c99d538b148e14e294124167b7be8a1fda6f5609db42953722ee2721bd44276ce6219a63cb8a59187b053e8b6457b93ee02cac784d7c1342809a29d6b5e06543"
 
 RPROVIDES:${PN} += "postgresql-contrib-implementation \
 postgresql13-contrib"
@@ -27,7 +27,7 @@ libcrypto.so.3 \
 libm.so.6 \
 libperl.so \
 libpq.so.5 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libselinux.so.1 \
 libssl.so.3 \
 libuuid.so.1 \

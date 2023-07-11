@@ -11,8 +11,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.11.0"
 
-RPM_NAME = "python39-exiv2-0.11.0-1.7.aarch64.rpm"
-RPM_HASH = "d5b5219e2f9a3795df1cd7c7bda05daea4241a09317c07a4740ead7a51ca6c494936baff9081391bea4c89ee8b22ad38895c53d24acacb2f2e0f4cda860af754"
+RPM_NAME = "python39-exiv2-0.11.0-1.9.aarch64.rpm"
+RPM_HASH = "4ae50a935e2fbb105c75ec09e94023db92173274131c25e3b71c36a697ee5813e419e47d47534a0595b332aaac58c29c453226769dd4dc4a56eb48c9ed0e6957"
 
 RPROVIDES:${PN} += "libexiv2python.cpython-39-aarch64-linux-gnu.so \
 python3.9dist-py3exiv2 \

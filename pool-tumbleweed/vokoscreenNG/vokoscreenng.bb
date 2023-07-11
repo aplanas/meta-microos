@@ -2,10 +2,10 @@ SUMMARY = "Screencast creator"
 DESCRIPTION = "vokoscreenNG is a user friendly Open Source screencaster for Linux and Windows."
 LICENSE = "GPL-2.0-only"
 
-PV = "3.6.0"
+PV = "3.7.0"
 
-RPM_NAME = "vokoscreenNG-3.6.0-1.1.aarch64.rpm"
-RPM_HASH = "da3e816e6e30820291a27e32e54e19b0feead2b7faf83945433160b91e28b52c29d26e1f5f4d12a12020edfc58280cee7b47d32483be304441c1309e72264b49"
+RPM_NAME = "vokoscreenNG-3.7.0-1.1.aarch64.rpm"
+RPM_HASH = "a5f31452465997b357d993365953518460819b9c3a36e36a6966c956770688964b9dc1a46dcd8a1a98c9aff2eec7507ab8dea544e78a21b4e68e491aa7179923"
 
 RPROVIDES:${PN} += "vokoscreen \
 vokoscreenNG"

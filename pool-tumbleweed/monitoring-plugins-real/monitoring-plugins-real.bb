@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
 PV = "2.3.1"
 
-RPM_NAME = "monitoring-plugins-real-2.3.1-9.4.aarch64.rpm"
-RPM_HASH = "00f2b97effe17d55e4a1024404aca00a8e8eda8eb544b50dddee2f6004462e9e3cbe3ec8dbe753fdb2425e4862ed911b38101082a84fe36f6c6ef1c9e8d4f53c"
+RPM_NAME = "monitoring-plugins-real-2.3.1-9.5.aarch64.rpm"
+RPM_HASH = "be536d8d262e695a2ffa11bf90977096a26b4da9d99d2a9f8a1516340eaf1a3147995ebaa4bbeb148e089a663f5bd558240f380c0b48c76037cbc15af1f977cd"
 
 RPROVIDES:${PN} += "monitoring-plugins-real \
 nagios-plugins-real"

@@ -5,11 +5,10 @@ LICENSE = "MIT"
 
 PV = "2.6.2"
 
-RPM_NAME = "python310-cramjam-2.6.2-1.5.aarch64.rpm"
-RPM_HASH = "91e1de81d69efd604a8329df8790915cee83ddf2c4846a4df3078f25a647670d79170fbeddeed817d521938878332ec51164290c47dd9a5ad1eca8b8fcc64476"
+RPM_NAME = "python310-cramjam-2.6.2-1.7.aarch64.rpm"
+RPM_HASH = "d9ec977f9d63ec95a15f70beaf1a7cce0be26c85c019cdb25aaf622884cabb757f697019db38115b4806d8a3e74c118c039656ff7866597bdd60e63d3752b6da"
 
-RPROVIDES:${PN} += "python3-cramjam \
-python3.10dist-cramjam \
+RPROVIDES:${PN} += "python3.10dist-cramjam \
 python310-cramjam \
 python3dist-cramjam"
 

@@ -11,11 +11,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.2.1"
 
-RPM_NAME = "python311-i3ipc-2.2.1-4.7.noarch.rpm"
-RPM_HASH = "b90a860b4e0b135dd77432619dd5ea921ed9e91db0b1e51fc606885906168adb38965057c85d192cdf596ba45be1607616d220e62582f67980cad43ac71bdb85"
+RPM_NAME = "python311-i3ipc-2.2.1-4.9.noarch.rpm"
+RPM_HASH = "b3144ae7832c5e4f80b932b6a5dfc8f90b2d928c90550e4b8590c3ee9ab46e54baf93e10cdcc21657e9e078ca51222ae70802b51d4c68db4a7319c57cdcd8682"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-i3ipc \
+RPROVIDES:${PN} += "python3-i3ipc \
+python3.11dist-i3ipc \
 python311-i3ipc \
 python3dist-i3ipc"
 

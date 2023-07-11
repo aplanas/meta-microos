@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "0.4.4"
 
-RPM_NAME = "gnome-autoar-devel-0.4.4-1.1.aarch64.rpm"
-RPM_HASH = "f44850928b2b823b7743d0841ca70dc82d49e5ea76afb07afced623a7efe515f64dc10a3d21dced1945ab5ae98d0c36c24d840676ad0832fa19308ff0ff3fbfa"
+RPM_NAME = "gnome-autoar-devel-0.4.4-1.2.aarch64.rpm"
+RPM_HASH = "97bad22769b7d27e597a0a7a0d1fdda78aeeb0bc6c0412e6783bebd74decf00bf491447e475abf5f44bb3888a7f502076919b25e95a9cf77321d18997845ee7c"
 
 RPROVIDES:${PN} += "gnome-autoar-devel \
 pkgconfig-gnome-autoar-0 \

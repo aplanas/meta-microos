@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0-with-LLVM-exception & NCSA"
 
 PV = "13.0.1"
 
-RPM_NAME = "llvm13-libclang13-13.0.1-9.1.aarch64.rpm"
-RPM_HASH = "1c1fd9a4940c450af054bf24c280577042710451f5ebbb42e247f6409429f99cc4c41b4108e89bcd75ea2880b3a7446b05edb26d6c679a142a7d1b46da57a194"
+RPM_NAME = "llvm13-libclang13-13.0.1-10.1.aarch64.rpm"
+RPM_HASH = "9e1de04475f6fc8c056ece05bb41b7b5ba5e83c0f8da2f5d19766ad97ee5753a2d584439a685cca5e8076455fa7709dc76a777f810408e585d54c6791c10802a"
 
 RPROVIDES:${PN} += "libclang.so.13 \
 libclang13 \

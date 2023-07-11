@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "gnome-photos-44.0-1.1.aarch64.rpm"
-RPM_HASH = "66572765179e42a8754db2893d0c62005ef5eef6ce6a65aaf188d92fcb67a40b1af424dbaf66d4f42690bb11c381e800203cb7fd1f82ab8433116ede3ab6804e"
+RPM_NAME = "gnome-photos-44.0-1.2.aarch64.rpm"
+RPM_HASH = "e7683ac100ec60b07040661d49c4ea9d896c5e8ff6209d023541b603d8d0118ff468380517fdd860e3825305b01eacca9e7bdda4128d649f100cb3f8c788602d"
 
 RPROVIDES:${PN} += "gnome-photos \
 libgnome-photos.so"

@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "9.0.302"
 
-RPM_NAME = "ckermit-9.0.302-14.17.aarch64.rpm"
-RPM_HASH = "24c04b6a7dd817279136b8603e6a3f2ce7ef26350839fb8c63f7eaac3395adaf2b8fb56091964835b9bbd88df784ade5acf2322c3d3cbbae8eda50ed017eab92"
+RPM_NAME = "ckermit-9.0.302-14.18.aarch64.rpm"
+RPM_HASH = "44c7bfe2b61b71f0ce3fc89705860479455cdd06ac5ca5e35758f7a8df79ee64ed86d449ed07dca4a1f4b81d91a5a4572c494afcb73395dc3542f5b90b2041df"
 
 RPROVIDES:${PN} += "ckermit \
 kermit"

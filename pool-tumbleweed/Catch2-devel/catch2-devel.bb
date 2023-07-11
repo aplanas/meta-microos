@@ -6,8 +6,8 @@ LICENSE = "BSL-1.0"
 
 PV = "3.3.2"
 
-RPM_NAME = "Catch2-devel-3.3.2-1.3.aarch64.rpm"
-RPM_HASH = "b1d63f9b124e12e4bfb9829a2ed4ccd0d3f176476726d69ad1810e5c0ec8eda3a06f59f463ae9f073f78c41b76184097a4fcd73634671e90ce35dd59587a9d99"
+RPM_NAME = "Catch2-devel-3.3.2-1.4.aarch64.rpm"
+RPM_HASH = "aed5aedf4c47efe79829bf54e0bac01d91567f71ce0d249b6f40e6f300e4c316186c85428efdffe3aba0d847688fddb9c97f0a17cdeae1e89b1c2686b9fc8cca"
 
 RPROVIDES:${PN} += "Catch2-devel \
 cmake-Catch2 \

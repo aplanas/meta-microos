@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "0.4.4"
 
-RPM_NAME = "typelib-1_0-GnomeAutoar-0_1-0.4.4-1.1.aarch64.rpm"
-RPM_HASH = "6f31ed00a2a546432e84de05262f136bb5e291c59bdee687c12e63cf6c935f1a4eb26a975c302746fe565bc6e4962d800c8cb8ae2201774471f0897d40f02c5d"
+RPM_NAME = "typelib-1_0-GnomeAutoar-0_1-0.4.4-1.2.aarch64.rpm"
+RPM_HASH = "c957e507c19fdbd0727044ca6d8fa70538c914f5146b14387aff97e0a9d4a9e0c15323b83e831c682869206e4153a05e57892e7eed11dd3a78fecc3e3285c4a4"
 
 RPROVIDES:${PN} += "typelib-1-0-GnomeAutoar-0-1 \
 typelib-GnomeAutoar"

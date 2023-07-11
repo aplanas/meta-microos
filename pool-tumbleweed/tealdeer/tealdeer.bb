@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 | MIT"
 
 PV = "1.6.1"
 
-RPM_NAME = "tealdeer-1.6.1-2.1.aarch64.rpm"
-RPM_HASH = "99616c1fcad4cdf890d5fd320aa4c6d18ba1b21317b857a0b4b66fc65b8e4a988d4451b94e37ae35d37281f9d72f632250ebb4755c2c96362e196cf549193676"
+RPM_NAME = "tealdeer-1.6.1-2.3.aarch64.rpm"
+RPM_HASH = "08c5f495d9afa2595686495c6d198992eb1bc914dcfa816c581e8a5d0039074cce9c99600cc4d55af728f40c5b7b7d5bfbd58a527334f6c173fadd9d9cb50b74"
 
 RPROVIDES:${PN} += "bundled-rust-crate-adler \
 bundled-rust-crate-anyhow \

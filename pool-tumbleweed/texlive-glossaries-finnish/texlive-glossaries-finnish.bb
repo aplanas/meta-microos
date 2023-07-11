@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.0svn54080"
 
-RPM_NAME = "texlive-glossaries-finnish-2023.201.1.0svn54080-53.1.noarch.rpm"
-RPM_HASH = "e336d0df2d8016b1e24b532f7212fad7ffe6e2a747b441afa9fa7e24fb9d89964c10461aebdfd7080bf3df55003afa7e4ffa2c19e5eca5ce076f44791657dfd7"
+RPM_NAME = "texlive-glossaries-finnish-2023.201.1.0svn54080-53.2.noarch.rpm"
+RPM_HASH = "ade98aefd7e7f83a3584c27901ec952a5bcc2a70a8a9313437e25074de38ffa04046afd443b0b8dd1fc213f7edbe11074fbfa1bdd293f6eea4944c0fa8b4e183"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-glossaries-finnish-ascii.ldf \

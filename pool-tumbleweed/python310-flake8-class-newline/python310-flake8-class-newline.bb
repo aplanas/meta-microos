@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.6.0"
 
-RPM_NAME = "python310-flake8-class-newline-1.6.0-2.8.noarch.rpm"
-RPM_HASH = "5a54cce07a5d362bd48a3b1cb6dfd7ba5a82ddc13cdcb0c0519a76c773332dc8e31076b873917fbf9f9a84484461f038dcf2ac57b5f014e89f9869e1f9d01558"
+RPM_NAME = "python310-flake8-class-newline-1.6.0-2.10.noarch.rpm"
+RPM_HASH = "b6170a74194cb3257a318e9b702293fe34c2570b27822f31b148a0dd7f02ddf7bb86e9fa684f01d33e694b9be1661638b625e6e313dbb71d19dc6906a3a00ce1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-flake8-class-newline \
-python3.10dist-flake8-class-newline \
+RPROVIDES:${PN} += "python3.10dist-flake8-class-newline \
 python310-flake8-class-newline \
 python3dist-flake8-class-newline"
 

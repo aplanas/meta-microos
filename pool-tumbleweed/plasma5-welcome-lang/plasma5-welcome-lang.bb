@@ -2,10 +2,10 @@ SUMMARY = "Translations for package plasma5-welcome"
 DESCRIPTION = "Provides translations for the 'plasma5-welcome' package."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "plasma5-welcome-lang-5.27.5-1.1.noarch.rpm"
-RPM_HASH = "c042ba1f7d6a3c434b010ee220718031ef435c3e90b0a8ebfdbb01e50a9805d4422dd69f498337d0232727161b347f1a56eab614160d0e3910b360284c633bef"
+RPM_NAME = "plasma5-welcome-lang-5.27.6-1.1.noarch.rpm"
+RPM_HASH = "8a94ebc0125d35653eb36e50d752b5c6c2a84e62dc797f4dd6ad4f963f687747312e7b86709a8756af4f2f6dcf3258178b637b07f4b33e522ce819801998baae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-plasma5-welcome-ar \
@@ -18,6 +18,7 @@ locale-plasma5-welcome-es \
 locale-plasma5-welcome-eu \
 locale-plasma5-welcome-fi \
 locale-plasma5-welcome-fr \
+locale-plasma5-welcome-gl \
 locale-plasma5-welcome-ia \
 locale-plasma5-welcome-id \
 locale-plasma5-welcome-is \

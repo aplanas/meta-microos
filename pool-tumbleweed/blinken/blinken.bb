@@ -2,10 +2,10 @@ SUMMARY = "Simon Says Game"
 DESCRIPTION = "A memory enhancement game."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "blinken-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "59ce523756d83798227058d7d1699f02e62afb1bec3c40b82247667f4688cac034897f8eae1f8f3600602d4d722f68a05a5f48a548c6fbf93ea826e823dbfde3"
+RPM_NAME = "blinken-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "faf1927caa26cbd074ff68d246e59f168e7603874b655f36953e790b2358f414ed317b6e45e12483b9ccdd0e0f1a95f176cca675e55c48c65cdb986a12f233ff"
 
 RPROVIDES:${PN} += "blinken \
 blinken5"

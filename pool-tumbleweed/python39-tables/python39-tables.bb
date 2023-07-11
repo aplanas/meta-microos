@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.8.0"
 
-RPM_NAME = "python39-tables-3.8.0-2.1.aarch64.rpm"
-RPM_HASH = "a26fccd15b03d843459368de949b6c656473d996b85681f8e9e80edd0217f572c931f0eab61eb6b21b87f0bd60d4057f943cf55d3986a894e405910667939bb5"
+RPM_NAME = "python39-tables-3.8.0-2.3.aarch64.rpm"
+RPM_HASH = "6ef31a5418c0e486af8c90fb759909dc6e6b0c3c828607cdcca6ef56992f9d1127bc86261bb916c761b863ed55e81e81dca93e7bc719cf6bf83c5d04305c0143"
 
 RPROVIDES:${PN} += "python3.9dist-tables \
 python39-tables \

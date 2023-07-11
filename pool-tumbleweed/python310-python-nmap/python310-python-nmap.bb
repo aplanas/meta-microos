@@ -4,12 +4,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.6.1"
 
-RPM_NAME = "python310-python-nmap-0.6.1-2.14.noarch.rpm"
-RPM_HASH = "5b9a25542e23b6795c31d67c66ff8b53054fbe89794dc2797093d6d5596f0f8d05f4d61854b6875606d8a40d072431741ef2a78d71764ea37536e738bb5f7601"
+RPM_NAME = "python310-python-nmap-0.6.1-2.15.noarch.rpm"
+RPM_HASH = "17fccf78d472aa89bd316037f2129c925cfd2089c60e0dfd7caf9963f8aaf12570606274645bc6ecdc738200fd2269e7851fd3e7e09c44767661ce98b36ae113"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-python-nmap \
-python3.10dist-python-nmap \
+RPROVIDES:${PN} += "python3.10dist-python-nmap \
 python310-python-nmap \
 python3dist-python-nmap"
 

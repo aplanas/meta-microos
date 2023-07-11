@@ -22,8 +22,8 @@ LICENSE = "CDDL-1.0 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "1.5.4"
 
-RPM_NAME = "xmlstreambuffer-1.5.4-3.4.noarch.rpm"
-RPM_HASH = "88a7ecbd0b27dfb3fe3b25f6ff95005d3e15c811afd013559f5064e4fcef55780eab938f401cee61fe925b2d8e157fe2bc6e2b717768cacac10dbdc6b894afdd"
+RPM_NAME = "xmlstreambuffer-1.5.4-3.5.noarch.rpm"
+RPM_HASH = "aca4bec4ceda0ef609e81485247679a531c87d20dbcfe10f3c0e3dcadf27fe70ee60bd41c9edceab6ae0394c9fb5f97dcea62b48aa51d63ed113dcbf9b2cf028"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-com.sun.xml.stream.buffer-streambuffer \

@@ -7,10 +7,10 @@ are used to highlight these flaws, and the list of pages on \
 which typographical flaws were found is printed."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.65svn66513"
+PV = "2023.208.0.0.65svn66513"
 
-RPM_NAME = "texlive-lua-typo-2023.201.0.0.65svn66513-52.1.noarch.rpm"
-RPM_HASH = "8ae1fff2acea2fda7aba3af2831ba95b623551ff3038c656abb5576a80f9e44343e1db43211161bc936449de38407ee09945f874eccc679f0907ca4345385e83"
+RPM_NAME = "texlive-lua-typo-2023.208.0.0.65svn66513-53.1.noarch.rpm"
+RPM_HASH = "ba7a5dc240b64eaa5631a86eed165adbdb1320a650e1b07217c7340e8f7507b63e0beb99c8105cbd08a0d5e12d6255190b02e7115739e3ac10f104b02f5f8d59"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lua-typo-2021-04-18.sty \

@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.2"
 
-RPM_NAME = "swing-worker-javadoc-1.2-26.6.noarch.rpm"
-RPM_HASH = "9084a9c70e48456c35bd70fc5ab09e4210e4806343b6d2e27b59c1b292a9e23e85a93d4994f981ecab2dc4e1f37aaf3ff6b3519096f2ad378f4016a86fe95d38"
+RPM_NAME = "swing-worker-javadoc-1.2-26.7.noarch.rpm"
+RPM_HASH = "d57944b8a650e7f6af05922a032973ceba46c87181ca6d49e1201af8f91322f597e82c326af7d8e00557a4d0dd46301e50113731546a47201bd6fbdf275624b4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "swing-worker-javadoc"

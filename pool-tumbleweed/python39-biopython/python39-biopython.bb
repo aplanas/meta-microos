@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause & MIT"
 
 PV = "1.81"
 
-RPM_NAME = "python39-biopython-1.81-1.5.aarch64.rpm"
-RPM_HASH = "deba9078c3d6c136f45b9432b57a63e500c4cd5f325bab093b4a767745005f61af7e8e6996c959f9c1528d68ffe7af9b8b995e1dac24bb61e33791b4598431a0"
+RPM_NAME = "python39-biopython-1.81-1.7.aarch64.rpm"
+RPM_HASH = "abbb9bd79194ceda4b292633ca62994f360ec06263a9a9d97aaa0b5de6a76e238012bd70b0483e1b0570ade4da720d354738ff5e91136f6a84ce0996ec5ca31e"
 
 RPROVIDES:${PN} += "python3.9dist-biopython \
 python39-biopython \

@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "3.0.10"
 
-RPM_NAME = "python310-Flask-Cors-3.0.10-3.6.noarch.rpm"
-RPM_HASH = "89819b09a62805bc8b2fda946c8ae2c47a649cb17c18edae0a2e1ff3a6e5bb7750ebbb0495a950581b3c618bc16570ea75a6f09bcc6149307d5ffd9eb8065542"
+RPM_NAME = "python310-Flask-Cors-3.0.10-4.3.noarch.rpm"
+RPM_HASH = "0128d2448bb9efb3fc4d41968402b25735e093b2f50e24354956b762895b0ed458cb16b6b9c7be61400663f6965c78c9a432bfc799053d305da479ee93abc39b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-Flask-Cors \
-python3.10dist-flask-cors \
+RPROVIDES:${PN} += "python3.10dist-flask-cors \
 python310-Flask-Cors \
 python3dist-flask-cors"
 

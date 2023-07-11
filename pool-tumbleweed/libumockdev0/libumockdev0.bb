@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.17.17"
 
-RPM_NAME = "libumockdev0-0.17.17-1.1.aarch64.rpm"
-RPM_HASH = "7af79f1043a3b011d79a836735821445a8d24bad89c33fef20d70e25b7b298c4320603b79bc6f52840d557440e338fe8b8fb1cf8d957ea7cd853341b1e69eb1a"
+RPM_NAME = "libumockdev0-0.17.17-1.2.aarch64.rpm"
+RPM_HASH = "93df88b077c677ec1cf58458b034598db2457258c9e2441b4445e61665b1f5adeb11bc226035e84e7ef541ac5dfbc21321b8fc6800082e52642daffc936d781c"
 
 RPROVIDES:${PN} += "libumockdev.so.0 \
 libumockdev0"

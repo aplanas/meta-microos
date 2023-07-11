@@ -6,11 +6,10 @@ LICENSE = "MIT"
 
 PV = "0.3"
 
-RPM_NAME = "python310-dukpy-kovidgoyal-0.3-3.11.aarch64.rpm"
-RPM_HASH = "eb16541615cb4c9b951e491f293e2dafd9951ec51127f293ca26c23e398a99bd32bd28759c8e8aeaf6a45b656da41fa41db81540e56fbe34c9c5af0868882060"
+RPM_NAME = "python310-dukpy-kovidgoyal-0.3-4.1.aarch64.rpm"
+RPM_HASH = "d2cd510e1391105b34f784ed04aae1e68c6765866fe7e1c10c8c8161d2767387478b3f18c0811cf4df61ea6cca7123e937c7a244bab656f7e0f326625ea40981"
 
-RPROVIDES:${PN} += "python3-dukpy-kovidgoyal \
-python3.10dist-dukpy \
+RPROVIDES:${PN} += "python3.10dist-dukpy \
 python310-dukpy-kovidgoyal \
 python3dist-dukpy"
 

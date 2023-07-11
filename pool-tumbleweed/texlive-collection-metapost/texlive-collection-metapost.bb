@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.208.svn64878"
 
-RPM_NAME = "texlive-collection-metapost-2023.208.svn64878-58.1.noarch.rpm"
-RPM_HASH = "f7b0bf6b730c15614f72dd60c23d14a24c33ec471a1ce59daddd326a9e78c2b8cf2ee3190d47c4af48250c73a71ac8322ad10c48498d4b317d1b1374ee953b96"
+RPM_NAME = "texlive-collection-metapost-2023.208.svn64878-60.1.noarch.rpm"
+RPM_HASH = "b115fefbbd79b675425d86ba655c4c3e36b5b16a58516bc74179b4c3552012067ef4276d10d4eaa725afcbf3616bd677b663a577bab10819e1f1e2b8ae484cc0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-metapost \

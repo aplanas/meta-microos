@@ -8,11 +8,12 @@ LICENSE = "MIT"
 
 PV = "2.0.0"
 
-RPM_NAME = "python311-Arpeggio-2.0.0-3.3.noarch.rpm"
-RPM_HASH = "dd507eabaeee4499c26e29644bb24ca71a5b96cb9f20c87ec7ac9282c4e97136d7d5ba12b1cdc25e6245de0337b5d135046c3a630d90d95011eee91c59f75a2e"
+RPM_NAME = "python311-Arpeggio-2.0.0-3.5.noarch.rpm"
+RPM_HASH = "524d22642b42bb88178dfd75dfaa9db9fe745bac5975b4a761e5c46078b87082fdb4c57a6e1abad69450c8fe74c14324b05429e64e57f1a6d74dba6a96cc2a9c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-arpeggio \
+RPROVIDES:${PN} += "python3-Arpeggio \
+python3.11dist-arpeggio \
 python311-Arpeggio \
 python3dist-arpeggio"
 

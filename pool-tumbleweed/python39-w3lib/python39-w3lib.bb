@@ -24,8 +24,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.22.0"
 
-RPM_NAME = "python39-w3lib-1.22.0-3.3.noarch.rpm"
-RPM_HASH = "5be204ec0bfdbaeb2363e003f96a5330590b5760b8682b49c5b7071ff4c0660f3ec7b3849daba4c4a6bbef08b56d89523012c47547df62037ae03902ad639c92"
+RPM_NAME = "python39-w3lib-1.22.0-3.5.noarch.rpm"
+RPM_HASH = "70928ae15c393b2fbf831c9318b8d37805f2400221347397b741dc2a6ae4e1888282a8d9f0fb1fc1cf227a9010df8fb0dbe0ffde8b13454f1431b036af50d716"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-w3lib \

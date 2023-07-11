@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.2.2"
 
-RPM_NAME = "something-for-reddit-0.2.2-1.6.noarch.rpm"
-RPM_HASH = "368f05a19e64dc17dad7d4599b5d8b9b870936cac146b4d9350503ffc8a70af5a26675ed761d20c724e6572b703a536393fb88e66283992666fb85d34b46f24f"
+RPM_NAME = "something-for-reddit-0.2.2-1.7.noarch.rpm"
+RPM_HASH = "e97429718a321c0653da27c903243e11f271af295ac22b18fae1bd814e84d74b5f58d8c803961bd6a037b3e019f41c83f20eeeb485fdf31d6586bd0f5f828931"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "something-for-reddit"

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.2.1"
 
-RPM_NAME = "gpredict-lang-2.2.1-2.15.noarch.rpm"
-RPM_HASH = "8512ebd781b47e3b37616af5f2525dc153a291342443ecd1b07d086731c7951886feee380a68965cb4fddc76316fb35842b34dd681f94fbe5d01a8563243528a"
+RPM_NAME = "gpredict-lang-2.2.1-2.16.noarch.rpm"
+RPM_HASH = "18ddce7a42361f1d215e8ca2e9a949ffaec5490d31af69f21c09b9c5dd64f5e46a1ee101077e7ce247724a143a7a5b9a1e6cafa5e0b110abeb712ae8b6dad12a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gpredict-lang \

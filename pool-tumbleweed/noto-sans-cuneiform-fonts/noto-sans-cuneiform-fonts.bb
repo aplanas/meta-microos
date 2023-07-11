@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-cuneiform-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "24b98006990eeb56cba7d32c2c9def0ad637df5efd75754746f4fb25dac38e8b2a7ee10f59cce8958a2a994b5b87fa14f60d62e7b35805d16045472256e3c23b"
+RPM_NAME = "noto-sans-cuneiform-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "bb0ddb722623d393efd7478e46bb44b1b5882b5513dbfdac0667d22ec53085703b77c35244eec0f9278613ec3c2355edaf55dd1f390589f25383279076ba38e3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-cuneiform \

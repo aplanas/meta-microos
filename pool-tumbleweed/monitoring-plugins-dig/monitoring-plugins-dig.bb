@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
 PV = "2.3.1"
 
-RPM_NAME = "monitoring-plugins-dig-2.3.1-9.4.aarch64.rpm"
-RPM_HASH = "30979f6f74073015eea682d6fc7f4045163fbe828ee3e28e208c293dffb04d6d3c399128ba59de743d34c33ea246c107406c92486e58d1ad02351a55de282955"
+RPM_NAME = "monitoring-plugins-dig-2.3.1-9.5.aarch64.rpm"
+RPM_HASH = "cc737e73b6b3599ddfa871562fcb3f9d2756351b72b41763922fc4c56bdd992e542dfcc5e0d2548f66cbe4b1f0bc728f7de3e36f20c2716f47a7d9c53bf61247"
 
 RPROVIDES:${PN} += "monitoring-plugins-dig \
 nagios-plugins-dig"

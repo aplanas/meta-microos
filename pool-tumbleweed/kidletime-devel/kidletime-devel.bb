@@ -5,10 +5,10 @@ the current idle time of the PC, but also for getting notified upon \
 idle time events, such as custom timeouts, or user activity."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "kidletime-devel-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "5ae1b23dd9ee0a66f96a69a6a1c1613b8108f2fc1dbd5f1c11fd3d5109b90a21cc50c4d2e28ecfe107271170aa6bf73661407f70fc7f668c92cf05a9a5157d31"
+RPM_NAME = "kidletime-devel-5.107.0-1.1.aarch64.rpm"
+RPM_HASH = "182b3e16a206578f416cb33966bfc6b06bae4139c7204693f75f44bc9bdb54f75f2823f8888c07769437dfc9e3ca963b6d8f5365d32aa69f447ab59ce64ab2c0"
 
 RPROVIDES:${PN} += "cmake-KF5IdleTime \
 kidletime-devel"

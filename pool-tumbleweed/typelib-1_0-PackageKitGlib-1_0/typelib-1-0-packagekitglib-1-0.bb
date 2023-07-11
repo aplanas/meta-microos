@@ -11,8 +11,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.2.5"
 
-RPM_NAME = "typelib-1_0-PackageKitGlib-1_0-1.2.5-9.3.aarch64.rpm"
-RPM_HASH = "56b1b5b4dd7b8eb35bf314f59ae0555b202792fee0de7ad89d59c27f50816436643c54ca68885c967da4f74d0bf0cde49c34bc322675a103dd741fae378a3264"
+RPM_NAME = "typelib-1_0-PackageKitGlib-1_0-1.2.5-9.4.aarch64.rpm"
+RPM_HASH = "1ffc26d9e2f3bd4e4740f3a2e0f7f7074f021a14336d08729e2364dc65ae4ee46867063841b1d2784a9c5735d722620dfd0c584b5b86f8761350bb681f79e687"
 
 RPROVIDES:${PN} += "typelib-1-0-PackageKitGlib-1-0 \
 typelib-PackageKitGlib"

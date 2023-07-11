@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4"
 
-RPM_NAME = "hdspconf-1.4-24.3.aarch64.rpm"
-RPM_HASH = "c219071d0c3aa25c44851c344c77e8a3759fae7f83eb82905183b615e61cba3eaad89342b955b454e7363d3e64bcfed06da3076c1168a56e05534e6ef600937a"
+RPM_NAME = "hdspconf-1.4-24.4.aarch64.rpm"
+RPM_HASH = "cd27b3494a5957efd15b4e80bea0662eeac8f75652c1b15db0c64d7d488b1e0ee63fdf1d0098b1d5c97b70f7b51f1dbff852f73a2390076f055c2c1cae09c3ce"
 
 RPROVIDES:${PN} += "alsa-tools-gui-/usr/bin/hdspconf \
 hdspconf"

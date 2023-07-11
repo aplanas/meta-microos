@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.0"
 
-RPM_NAME = "pavucontrol-5.0-1.9.aarch64.rpm"
-RPM_HASH = "969821875c6c06fd4f1ddc324110f786b37f71f2dd2e1367ccfbcd7e54003fa27ffa5686ae3554b12873bb4bc4d5e658c7571e87bdd1f3b2ce40ad3fc6e6dd57"
+RPM_NAME = "pavucontrol-5.0-1.10.aarch64.rpm"
+RPM_HASH = "3737f35ce971bc79c439ff449e32089fb6e20a3d7844e39e14902b0b5d5dce3bc3d6b5a3ba2b35b8938de61a3485a7671ac2b0abd0cb40ee63a82b533e4ff06d"
 
 RPROVIDES:${PN} += "pavucontrol"
 

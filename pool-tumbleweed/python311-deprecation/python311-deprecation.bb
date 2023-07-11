@@ -6,11 +6,12 @@ LICENSE = "Apache-2.0"
 
 PV = "2.1.0"
 
-RPM_NAME = "python311-deprecation-2.1.0-2.12.noarch.rpm"
-RPM_HASH = "c3d71de109fbfc26551e8044a7eeb3478767165ddbba7c58cdaa344fb0d7a1dcaeca33f3fc2335133849b8835638e23a5996fb3f84cf0f4305f3bb12b04f0a25"
+RPM_NAME = "python311-deprecation-2.1.0-2.14.noarch.rpm"
+RPM_HASH = "61c37db42670b348c78e9f2576b5c8222de9da1f304845dfe9ccd1b3ba06c6bceeab70e65a3e4f141c7ef3f04254ebf1081cefc03fefb9ac613db6612452e916"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-deprecation \
+RPROVIDES:${PN} += "python3-deprecation \
+python3.11dist-deprecation \
 python311-deprecation \
 python3dist-deprecation"
 

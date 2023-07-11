@@ -7,13 +7,13 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.61"
 
-RPM_NAME = "perl-Sys-CPU-0.61-5.27.aarch64.rpm"
-RPM_HASH = "4f5f0440422bffed552a810ec2a8fab93421ff0d01264db02fbad4c54b00feca440f72d151b0eb0e00df036853a214d49fe983a6b80b2673d02da1c54bd08706"
+RPM_NAME = "perl-Sys-CPU-0.61-5.28.aarch64.rpm"
+RPM_HASH = "8524c02884c20aaf21455e14f640992d463b2a41cc78282dfeb6c81ab2c6d5994bd47cb5161145ea4d4046a27446c3b4adc4c6deec11469e31c79da89802c2d9"
 
 RPROVIDES:${PN} += "perl-Sys--CPU \
 perl-Sys-CPU"
 
 RDEPENDS:${PN} += "libc.so.6 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

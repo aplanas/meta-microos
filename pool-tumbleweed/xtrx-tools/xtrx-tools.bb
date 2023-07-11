@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.0.0+git.20201202"
 
-RPM_NAME = "xtrx-tools-0.0.0+git.20201202-3.7.aarch64.rpm"
-RPM_HASH = "52c50bc42bae6c873d486c037029c901aa9a955addab28ee7943b53b045eb0c98aaff647cb088c17562f65c592700dce722226ee80c904a8b6c98bb3a4b65960"
+RPM_NAME = "xtrx-tools-0.0.0+git.20201202-3.8.aarch64.rpm"
+RPM_HASH = "625d39fd0ef7d435e82943427e35cb9aa80e78fc074fb2b55f27645eba3287bc23be8ffc4a6863548cd0de51c5ba2809443958c34fddf13d9d5fe252d1de5f41"
 
 RPROVIDES:${PN} += "xtrx-tools"
 

@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "44.1"
 
-RPM_NAME = "typelib-1_0-Gdm-1_0-44.1-1.1.aarch64.rpm"
-RPM_HASH = "3f43b35ba32c5c1ac31b78a04e43482d2a90b97aa5435b514fc9f61037b77f4258799ba2f43f6130b8e4774439ce3ff1b4c4d740c2ce97b385982f61d07a43a5"
+RPM_NAME = "typelib-1_0-Gdm-1_0-44.1-2.1.aarch64.rpm"
+RPM_HASH = "c92caacabfb4c8f5aa9eda6e5aa3ce3f1f963c3cc9714703c70119a606468e268d5fa3874dbe13b73f4d236453deadbe8a2bc515cb67ceff542d358d33875e65"
 
 RPROVIDES:${PN} += "typelib-1-0-Gdm-1-0 \
 typelib-Gdm"

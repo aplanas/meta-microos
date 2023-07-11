@@ -7,10 +7,10 @@ The functionality of the system is provided via an assortment of \
 tools, XML authoring components, and an plug-in based API."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "7.14.0"
+PV = "7.16.0"
 
-RPM_NAME = "melt-7.14.0-2.2.aarch64.rpm"
-RPM_HASH = "41019a0d403151e64068f64631fb24fe3b52b6c45f7957553a6e0964782bb9b70d2eb240bde06beb0f2e44624c839a4c90bac791656046bd6adb00d0e0d00f31"
+RPM_NAME = "melt-7.16.0-1.2.aarch64.rpm"
+RPM_HASH = "ac719f1b513a4faeff1bc7d825bd5b0d593d6a57fe2b2d289e959edebb5e5e41dd66a660aeffbd3c3d5fc40b5308fe3e8ddcc002824d1e73bdf402879398929a"
 
 RPROVIDES:${PN} += "melt \
 melt7"

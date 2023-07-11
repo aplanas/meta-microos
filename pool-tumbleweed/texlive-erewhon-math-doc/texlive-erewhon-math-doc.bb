@@ -4,8 +4,8 @@ LICENSE = "OFL-1.1"
 
 PV = "2023.201.0.0.56svn65684"
 
-RPM_NAME = "texlive-erewhon-math-doc-2023.201.0.0.56svn65684-53.1.noarch.rpm"
-RPM_HASH = "4c9b1b6fe0a6f1bffdd5be19d0d0d9b968b67886014bb647310d67141d84ce82d322c2d902aec4674c4297697f3ff1f180eca7b0ac683e82561c3370535d4549"
+RPM_NAME = "texlive-erewhon-math-doc-2023.201.0.0.56svn65684-53.2.noarch.rpm"
+RPM_HASH = "0c3a1495889f2e0d3c3fd33f089592b99200fef4bcc2fc93bd784e44ce7fb7a182aae70092298cbba535b8caceb2289e7300a952e65c9280b73cc82f6fe5039d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-erewhon-math-doc"

@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-taiviet-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "09770ac3a40b036947475ce3fac4b96308740664bc90ccc504a0cbd8233f25662e719d431db23ea6406460ec19fc00d1b5b0bb6d62cf9d507ae4c8901d172c0f"
+RPM_NAME = "noto-sans-taiviet-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "94bfd460efbb66818e37e24215ae6e8b98d2bee0857f2c9c09648ddbc8469a69741ffa30ceb3ef7acc8a8c4872503770edcfe75e89c7cc3696918b981f9daca5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-taiviet \

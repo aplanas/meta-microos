@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "3.0.0"
 
-RPM_NAME = "python310-pyVows-3.0.0-2.13.noarch.rpm"
-RPM_HASH = "53b20eb08e6268b059cdb8cdad47646a341e431abbb4076fa05b3430331397b8d511b3c1202fb775dbeff0421500aafb3cd11dda2b7ad0434e7febc4aaedfc88"
+RPM_NAME = "python310-pyVows-3.0.0-2.15.noarch.rpm"
+RPM_HASH = "b982e1e2c6f47edc6c50184944dfe0af17b56f8b1d78238d9f6d18286560b51db4d7359740f4b089317ad231480b675c6336fd1e089babdf4d06d253ed6251f8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pyVows \
-python3.10dist-pyvows \
+RPROVIDES:${PN} += "python3.10dist-pyvows \
 python310-pyVows \
 python3dist-pyvows"
 

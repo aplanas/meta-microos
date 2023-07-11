@@ -5,10 +5,10 @@ Server with dedicated xonotic running as services unter the specific user. \
 service is handle via systemd or init - depends on your version."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.8.5"
+PV = "0.8.6"
 
-RPM_NAME = "xonotic-server-0.8.5-1.5.aarch64.rpm"
-RPM_HASH = "19f6f27e60f1e626839149411d59766bdd7245f5572344e3a7eb4dd16d19ebe64a2104d27e22cc56cce9ccdc8bd064a363be93d44e09fcce3250fa020cc0cb8f"
+RPM_NAME = "xonotic-server-0.8.6-1.1.aarch64.rpm"
+RPM_HASH = "8dfaa1512d35d5d6cc6a5c8357153b8c5d0a880f4b8cffdf004576ffc496923156a904e39867124ae1dadb065ec777ac5356134be898df6751b00c5e5a127a01"
 
 RPROVIDES:${PN} += "xonotic-server"
 

@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later-with-WxWindows-exception-3.1"
 
 PV = "3.1.0.0+42"
 
-RPM_NAME = "libwxlua-3.1.0.0+42-2.2.aarch64.rpm"
-RPM_HASH = "6a90f1c0b4909a69cc0ca23892976124473467cc4573283f158d414ce87a9c74a86f185bf577acff7f56b007b90b0820eb5f4fa7cb34055561c5fc2f34898d1d"
+RPM_NAME = "libwxlua-3.1.0.0+42-2.3.aarch64.rpm"
+RPM_HASH = "a51d1710b67b8ae75e33d51172573b145aa43b6b375d1490790b4eebc7ee2738afeda0cf4b92d270652766133c8fcf55e6ad95717e81608a7b18c309c99cbf5d"
 
 RPROVIDES:${PN} += "libwx.so \
 libwxlua"

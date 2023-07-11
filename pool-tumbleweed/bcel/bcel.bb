@@ -23,8 +23,8 @@ LICENSE = "Apache-2.0"
 
 PV = "5.2"
 
-RPM_NAME = "bcel-5.2-37.2.noarch.rpm"
-RPM_HASH = "b3887659810ded3fc799aa93ff327afd8be8cd797638993c37f1287d684ec02a59db92cc84f7355cad04edd3347871560161f20dbd6a8ef1a6029357a1d7d9d6"
+RPM_NAME = "bcel-5.2-37.3.noarch.rpm"
+RPM_HASH = "2dc585c5c30f76c99534b0fed4ada08d0184ee8be9bf03a06b7496637bd3fb37c497d0c7da9cbdf792290ba8874ed55237eec0653cfa49489b1f28a3e1854b5b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bcel \

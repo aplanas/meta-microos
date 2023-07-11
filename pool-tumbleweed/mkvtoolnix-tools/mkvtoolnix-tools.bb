@@ -2,10 +2,10 @@ SUMMARY = "Additional command line tools for mkv files"
 DESCRIPTION = "This package contains extra command line tools for mkv diagnostic."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "77.0"
+PV = "78.0"
 
-RPM_NAME = "mkvtoolnix-tools-77.0-1.1.aarch64.rpm"
-RPM_HASH = "a1a106b22d58177b34f8b018aa056554a7ff2174cac39c7abf9fb4230ec263c303adee88c9fa1e138261a014725b0cb4362455e823da19aabf6e97152804afa1"
+RPM_NAME = "mkvtoolnix-tools-78.0-1.1.aarch64.rpm"
+RPM_HASH = "7005de8fa4776417402d3cfdc3f287688dde0d518d924472b31b378a17ffa416bc973f46069e4b8bea05a61ebcf90643538fc261c1aed115594ddc0a9808b2a1"
 
 RPROVIDES:${PN} += "mkvtoolnix-tools"
 

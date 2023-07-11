@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.35"
 
-RPM_NAME = "xchm-1.35-1.4.aarch64.rpm"
-RPM_HASH = "bbf82dcccc288bfece35c61c6950b318c96b474845f19d603aad3c864a3fbe1b7df821afdab7993c28da59a5b1cb54a301baf1f2307905bd6e9850af6358368d"
+RPM_NAME = "xchm-1.35-1.5.aarch64.rpm"
+RPM_HASH = "bcce311b17992e6613d8c3f9ba61254e96222ad5b047aea6d2545d26e2b701b1f6ddce9fb7849d88e18a2f3f530c87be2715a71ae85e9001823a9e7c05af31ea"
 
 RPROVIDES:${PN} += "xchm"
 

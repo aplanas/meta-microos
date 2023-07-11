@@ -6,8 +6,8 @@ LICENSE = "SUSE-GPL-3.0-with-openssl-exception"
 
 PV = "0.72.0"
 
-RPM_NAME = "courier-authlib-sqlite-0.72.0-1.4.aarch64.rpm"
-RPM_HASH = "f40a8b21f4b97475e40ccd9f734dc801bba68618bc1bd1be51af511479f532d280a1312299f036ef118a37af589b23de9785995bac4065f48a9b54872b2475c0"
+RPM_NAME = "courier-authlib-sqlite-0.72.0-1.5.aarch64.rpm"
+RPM_HASH = "48b8b76721c7647638da1cd631e78501e46d0af76adbdc9a268d3a59799b55853b0d2389c868ce7974aa7bad778816d04cfabc4df0809d53c406d339f3a9cc49"
 
 RPROVIDES:${PN} += "courier-authlib-sqlite \
 libauthsqlite.so.0"

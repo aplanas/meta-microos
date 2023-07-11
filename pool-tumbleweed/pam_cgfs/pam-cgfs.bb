@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "5.0.2"
 
-RPM_NAME = "pam_cgfs-5.0.2-1.1.aarch64.rpm"
-RPM_HASH = "5b7e53ebdddcff1bb46536dbaf2ee8a5b962c74b214f11c2659775741488a68358044b1d8b84766f6b79cfabd162a6544c8bfc543d0f9a80e9055f58f85fb292"
+RPM_NAME = "pam_cgfs-5.0.2-1.2.aarch64.rpm"
+RPM_HASH = "eb2298007ed2fc083efb30e8fb1e89d256485ef90d3886734a25c2b4d9ab0b9f4303361a9f99610b26def976d692b03c6690e4661c5ad1ee9feab22a6a4ff8f2"
 
 RPROVIDES:${PN} += "pam-cgfs"
 

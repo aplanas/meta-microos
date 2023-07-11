@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "6.0.0.0"
 
-RPM_NAME = "python310-azure-mgmt-billing-6.0.0.0-1.3.noarch.rpm"
-RPM_HASH = "0e054f1cf84432c1d14be5f7447e8a01701429fe0c8bfd8a4bb811e6d606b2553bbdbf23d4fbce72b491bc8db23bc0180683ab0177ad070ab411a7cc87f024be"
+RPM_NAME = "python310-azure-mgmt-billing-6.0.0.0-1.4.noarch.rpm"
+RPM_HASH = "0f3a4ec682919f85fa368320e5aea466c7a51dd2bb7a2805a27fd6450911f45cdee0ce20c79a61526416df8e74a6b99519ad4b5fed98b6d962e6ec631e447576"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-billing \
-python3.10dist-azure-mgmt-billing \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-billing \
 python310-azure-mgmt-billing \
 python3dist-azure-mgmt-billing"
 

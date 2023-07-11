@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "1.0.6"
 
-RPM_NAME = "libmpris-qt5-1-1.0.6-2.7.aarch64.rpm"
-RPM_HASH = "68a2b713cd3b7b211989be2c7e816718e640bd316a7aa1bd102d02865305cf1ff6fdd02990c0902ed0c154e8430ecd7dc9060d6a41ac990e03c48432d7cfe2bc"
+RPM_NAME = "libmpris-qt5-1-1.0.6-2.8.aarch64.rpm"
+RPM_HASH = "40f20efe484059155bdf88744352081d20fc660284f4d7b4944b0d6eed062ed626c0336528081a67eb37de3fd07c75eaa9535581b7e527928a9bd6b5e0829920"
 
 RPROVIDES:${PN} += "libmpris-qt5-1 \
 libmpris-qt5.so.1"

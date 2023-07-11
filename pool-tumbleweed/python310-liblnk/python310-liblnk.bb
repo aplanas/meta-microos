@@ -4,11 +4,10 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20230205"
 
-RPM_NAME = "python310-liblnk-20230205-1.4.aarch64.rpm"
-RPM_HASH = "984ed70c85f8d26aa8e0ce471b3ec5f6cd1f54306148f51cef64e5546297d03566293f87257fd602eab77c7a79fcf2249bd4cc550b4ba4862e672d45fe956d7a"
+RPM_NAME = "python310-liblnk-20230205-1.7.aarch64.rpm"
+RPM_HASH = "5238837c63880435b1659537d6b952c6c50a5ae12c8a0cfff2a689c6fdf64cdb66258c47725f9a9fa21292cec651f585dbd5ac2edd9fef662200cb3c659f6165"
 
-RPROVIDES:${PN} += "python3-liblnk \
-python310-liblnk"
+RPROVIDES:${PN} += "python310-liblnk"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libbfio.so.1 \

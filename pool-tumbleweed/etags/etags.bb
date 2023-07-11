@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "28.2"
 
-RPM_NAME = "etags-28.2-4.2.aarch64.rpm"
-RPM_HASH = "afa208bf8e958ded4e8775d5c69a52c4c63163dc315ee2ee508ead205392e8e1e8082980e1176774614c6de3b0754770828c1d034dbee110548eea6aaccf42dc"
+RPM_NAME = "etags-28.2-4.3.aarch64.rpm"
+RPM_HASH = "75d3da830549bc6d52f94518851615f4b5c25a58d91ff817dbe78bc45b1fe44d745c7500cb7b6edb2ce7515e7619d1661fdcf42c0b35b957d6a9b989959fc131"
 
 RPROVIDES:${PN} += "ctags-/usr/bin/etags \
 etags"

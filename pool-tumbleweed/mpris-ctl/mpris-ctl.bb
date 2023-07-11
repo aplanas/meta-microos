@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.8.5"
 
-RPM_NAME = "mpris-ctl-0.8.5-1.2.aarch64.rpm"
-RPM_HASH = "111fe6efcc9dc2641eac11d6f8aecca8b115c5031b9d78523cac39b76a1f817411f70c49361f7393a2f6525b527cdb970daa9cbc92d75b0ada3615bbf3c27ffa"
+RPM_NAME = "mpris-ctl-0.8.5-1.3.aarch64.rpm"
+RPM_HASH = "2f549c840553f97e0d7f63e8bb26f41332ba5d3f7f297624d2fd6425d34094bc54d268ac47902459069d1fa5cd3ac449a300fded8ee7d29764b95c9254959213"
 
 RPROVIDES:${PN} += "mpris-ctl"
 

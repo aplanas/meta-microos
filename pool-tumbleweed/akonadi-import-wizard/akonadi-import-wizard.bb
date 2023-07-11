@@ -3,10 +3,10 @@ DESCRIPTION = "Assistant to import PIM data from other applications into Akonadi
 KDE PIM applications."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "akonadi-import-wizard-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "81e540d842cf1759509f50de587a5c470946cf23e75acee6290bd6fac25da7558d5af72eb5f9e831648635f33081caa43ce25ea615b88f0fcdd0378abd412f77"
+RPM_NAME = "akonadi-import-wizard-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "822520bce173f9353c6e9a11da000e574730438e3ce6d8ee41fd161ec45ef050e6c659330e147fc28ea7524bb458b9a52f5340a021a56547a946bad5d24c8b11"
 
 RPROVIDES:${PN} += "akonadi-import-wizard"
 

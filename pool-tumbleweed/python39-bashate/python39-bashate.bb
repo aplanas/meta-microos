@@ -13,8 +13,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.1.1"
 
-RPM_NAME = "python39-bashate-2.1.1-1.4.noarch.rpm"
-RPM_HASH = "0b880c851913f2d3d17d8cba2d45614d53b20b732c697c3448de71ec30fb2ff99d458e78651b8f654dd73db95337eec8131422cf83478cdba718cf73188871e3"
+RPM_NAME = "python39-bashate-2.1.1-1.5.noarch.rpm"
+RPM_HASH = "47fb5327fcb1b1c34f0c0cbb33bfd3b39b035cc7ba6180c1ca1c5a79b1d51a03f1dbfff3c4fcd4f3ff63a2e0495e17d0259737857e00ce88b83d91f342b43c60"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-bashate \

@@ -13,8 +13,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.1.6"
 
-RPM_NAME = "libkolabxml-devel-1.1.6-13.11.aarch64.rpm"
-RPM_HASH = "33242f89a348bea91e5f20388291e14c71b5386f34cc19bedd5f1d4122f7c3512c6eb478b4dd867710e9a6f4ab9e48b569413fe3991b0519f7ba47987b640774"
+RPM_NAME = "libkolabxml-devel-1.1.6-13.12.aarch64.rpm"
+RPM_HASH = "2e4d00f5a4d6051cb5f4b04833ad79c619784d2825d939a517bf38053983cf57bdcd5cf98937a19934f305a9dec6be346eea5f24652777c276baba762fbc4cba"
 
 RPROVIDES:${PN} += "cmake-Libkolabxml \
 libkolabxml-devel"

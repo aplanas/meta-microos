@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.3.6.1"
 
-RPM_NAME = "ghc-http-client-tls-doc-0.3.6.1-2.3.noarch.rpm"
-RPM_HASH = "cc7418bc9942b024b3117ed8bba2c9bf002ec19b58b3350fb52a2cf6d1f6706b6044007001db1bd755d24c04075400eefa135ee2cbfe201a0696936f7ce31ef6"
+RPM_NAME = "ghc-http-client-tls-doc-0.3.6.1-2.4.noarch.rpm"
+RPM_HASH = "2a93590599465f050a1bfc58eaa6bdfd3506b1915394d6fc24d15245298a85d6fdd07b20b0753a99ef55d1dad463ac23e767dd229f4eb48aa78160581f02de86"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-http-client-tls-doc"

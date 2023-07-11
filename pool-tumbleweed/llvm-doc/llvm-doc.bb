@@ -6,10 +6,10 @@ llvm-doc that openSUSE currently supports.  Packages that \
 don't require a specific LLVM version should depend on this."
 LICENSE = "Apache-2.0-with-LLVM-exception | NCSA"
 
-PV = "16.0.4"
+PV = "16.0.6"
 
-RPM_NAME = "llvm-doc-16.0.4-1.1.aarch64.rpm"
-RPM_HASH = "e74cd409e35c9a8f3828100a32877b94303406e7b3b398e8d730cf0969a30467a1e8f9aff0d56affccd871a94a6585650d1dbdf07a7b93c2c2ebb84d2b77d35d"
+RPM_NAME = "llvm-doc-16.0.6-1.1.aarch64.rpm"
+RPM_HASH = "58ce75a45f6292d4437fc22bba762ee0e83dd0c599693e0fe30aae84b55745a294d746a80315c77ec0cbfab0052cbda8d83562e69fbdecd4bbc856a45bc41999"
 
 RPROVIDES:${PN} += "llvm-doc"
 

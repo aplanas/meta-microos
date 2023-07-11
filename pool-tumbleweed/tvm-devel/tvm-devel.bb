@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.11.0"
 
-RPM_NAME = "tvm-devel-0.11.0-2.6.aarch64.rpm"
-RPM_HASH = "3851c761528f9ff9d65684ecf639e56aed9da0876ceb03515b278402882cac1b25bf0ff988f69c3e42ad16c322fd7df2927bbbf8c8f5adb39132d4911d49df40"
+RPM_NAME = "tvm-devel-0.11.0-2.7.aarch64.rpm"
+RPM_HASH = "bd8d6906e06dcbe3f22fc290cb10d912bd87fce4ae9843e025ae45bbbf645b04f49f4188e73432f25d170992c79610624dc182813f777bf06054a0233c35e25f"
 
 RPROVIDES:${PN} += "cmake-tvm \
 tvm-devel"

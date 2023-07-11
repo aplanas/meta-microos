@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.5"
 
-RPM_NAME = "gpick-lang-0.2.5-11.16.noarch.rpm"
-RPM_HASH = "4a39f00af3b23db963f4b2deb5d8b0eb4598fae4aff44dc80c8e822f652c81158aa9f5d0d754da68c8bee67f729d53cb8fdeec4645c2fcceea1f96077844e48d"
+RPM_NAME = "gpick-lang-0.2.5-11.17.noarch.rpm"
+RPM_HASH = "b9fdf1fd530ea4d78040c8f1a55711bb127cf21ea6e715a29799b2c3e54c1a785253dff3d721f6964ffa7acc6532d22bc1630955f150c22e82665b47f03f7a9e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gpick-lang \

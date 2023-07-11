@@ -2,10 +2,10 @@ SUMMARY = "Development files for libmount"
 DESCRIPTION = "Files to develop applications using the libmount library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.38.1"
+PV = "2.39"
 
-RPM_NAME = "libmount-devel-2.38.1-13.1.aarch64.rpm"
-RPM_HASH = "8bcd3480b5b76c02fe6efabe15c86c4fe2dba4f48265ea4e685505c362110b96bb7f4a46149a17f8b3355c727c3cfed9852f1ab5660b4eab723ea92b34819124"
+RPM_NAME = "libmount-devel-2.39-1.1.aarch64.rpm"
+RPM_HASH = "79942f8a9a799e7b246c9f34209db591ce821ff712a4303789e4a8e9d4ca6b565d21a3b5ef5103059dba6cdb570a4dbbccf8fd408b301cecd8418ac3de1e2cbb"
 
 RPROVIDES:${PN} += "libmount-devel \
 pkgconfig-mount"

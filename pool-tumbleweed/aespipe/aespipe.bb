@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.4f"
 
-RPM_NAME = "aespipe-2.4f-6.2.aarch64.rpm"
-RPM_HASH = "93dd9acaabc5fb26a79269dd1176da1be4bb73b986263f34bb5a51f732be37e6f3ae06f7aa2fe1f19099bc918401d0a860400bc25c4238927fc2fb1d4c1ac195"
+RPM_NAME = "aespipe-2.4f-6.3.aarch64.rpm"
+RPM_HASH = "ec0e22bd7ecfcd1434b9979350555d45071155a6524dae064cfedc1f97bc7e133eb5521284a20171f8e52460528b9ce4c91439b963b842f679e76ed2766b1ad8"
 
 RPROVIDES:${PN} += "aespipe"
 

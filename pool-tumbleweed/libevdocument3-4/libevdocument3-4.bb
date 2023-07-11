@@ -3,10 +3,10 @@ DESCRIPTION = "Evince is a document viewer capable of displaying single-page and
 document formats like PDF and PostScript."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.1"
+PV = "44.3"
 
-RPM_NAME = "libevdocument3-4-44.1-1.1.aarch64.rpm"
-RPM_HASH = "dd2e6040a4c83b25ad7b88e629c2ccd1808735d0a536130c23aa1b47049d72b46f05a0004f867a9c44223d476b12daf6b6b51cace8378e7ce8d31cd582ede713"
+RPM_NAME = "libevdocument3-4-44.3-1.1.aarch64.rpm"
+RPM_HASH = "6587036f0d6487dc03437501360b5fdbef32301d7c1d16174eeeea3116d278a9d16f0142ad05462c2f997f45608e4a949ac4ebeffae99810fba2f190cc4ffda0"
 
 RPROVIDES:${PN} += "libevdocument3-4 \
 libevdocument3.so.4"

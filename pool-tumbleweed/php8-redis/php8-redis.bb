@@ -4,8 +4,8 @@ LICENSE = "PHP-3.01"
 
 PV = "5.3.7"
 
-RPM_NAME = "php8-redis-5.3.7-2.5.aarch64.rpm"
-RPM_HASH = "94b4b934531d0174d717187d8ca7263359558f2366e18d8ca60426f21ac2e5b86c263d9dea3a129da80ad3651fffc99e96c12fac4a3a45c20ddf756d798e9d60"
+RPM_NAME = "php8-redis-5.3.7-2.7.aarch64.rpm"
+RPM_HASH = "a3947e64b8a126b7a872f21ae0eedfe5b879eba7437c783cc421604f959336fce4559bdaf01fe258cfd9e9d4dadac79e0f397b1745589deb9bed7e9433ca8b11"
 
 RPROVIDES:${PN} += "config-php8-redis \
 php-redis \

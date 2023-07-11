@@ -4,10 +4,10 @@ by starting postfix if you'll access a postmap which is stored in \
 PostgreSQL."
 LICENSE = "IPL-1.0 | EPL-2.0"
 
-PV = "3.8.0"
+PV = "3.8.1"
 
-RPM_NAME = "postfix-postgresql-3.8.0-2.2.aarch64.rpm"
-RPM_HASH = "c7877f2e9f71c3128c581737bc134a58e5879aad7efb71a30633be56f15d4f5f73afa08f222ba46be530aa1247953995cb5880dd5fde61b1df1fbe9b56660149"
+RPM_NAME = "postfix-postgresql-3.8.1-1.1.aarch64.rpm"
+RPM_HASH = "247ec9b949d10d4e221fdb471b3ffcd41809fd1281064e4871cde674e32b873056e9d74dce5441a88b90e10d81966fa6e39779016e36ed2d4a920fda32b5df63"
 
 RPROVIDES:${PN} += "postfix-postgresql"
 

@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn16181"
 
-RPM_NAME = "texlive-perltex-bin-2023.20230311.svn16181-91.1.aarch64.rpm"
-RPM_HASH = "4d5fc878b52c04828002ab57dc4a2ae95d6ed35120021b32f57bb6b5bee720d933c72aaffd66919dd39555b3070fafc53cc438a15de10bdf11479e2c795f83ab"
+RPM_NAME = "texlive-perltex-bin-2023.20230311.svn16181-92.1.aarch64.rpm"
+RPM_HASH = "c48ef464118040891b73bc2a82aa40bdd399fa20aa7d372f76bdb6cb598c825dbc4c508918e9ce9821db69b51bbdde032f073046e3c1939cccbd2bd87be46070"
 
 RPROVIDES:${PN} += "texlive-perltex-bin"
 

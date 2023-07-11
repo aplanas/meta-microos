@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "0.4.2"
 
-RPM_NAME = "liblqr-devel-0.4.2-7.3.aarch64.rpm"
-RPM_HASH = "e8fb860dab9aacba5cb93daeb64b0063439b4c4e5529639ec758a5613c4dafa93fe94d2650e1b98bb11a9f262164e3834d3a6b8dc10d2b34f000bd4bb75949ca"
+RPM_NAME = "liblqr-devel-0.4.2-7.4.aarch64.rpm"
+RPM_HASH = "a4da5cd8c046f8fbee406c23f3c8fadd6baca8db184ae264c87522394cfd7b508d233f67f8449c73a736620c3633c874da4f83f9a76e5fa2ff85a3ab961547cd"
 
 RPROVIDES:${PN} += "liblqr-devel \
 pkgconfig-lqr-1"

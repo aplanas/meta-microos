@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.10.0"
 
-RPM_NAME = "coredns-extras-1.10.0-1.4.noarch.rpm"
-RPM_HASH = "7d98e3bc36668aa60b2c4206e55441d5a36886b87fecaf5964b04ef2ec1bcfcae5891571b25d1f615c69c422e1ba09e37f01bf42ad1b50acda1923201c5a3a10"
+RPM_NAME = "coredns-extras-1.10.0-1.5.noarch.rpm"
+RPM_HASH = "f602a9742bd5961651cb0d98acb89cbb4943805b637f36724e75ebc44518fd311a6a1bb35885e6870e5d258dac5d8a7d641ed1ac5d0278ec11fb3efc7d4ca316"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-coredns-extras \

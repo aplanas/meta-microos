@@ -12,8 +12,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.5.1"
 
-RPM_NAME = "jakarta-poi-javadoc-2.5.1-31.6.noarch.rpm"
-RPM_HASH = "26f6037808ed877255d925c8fef645fbb20a42b08d0e541ee4634cf808c220983e674fd233d250a5122fc65cc11a565ba8fa9bf6a5eb4402b9db34a149aec8ae"
+RPM_NAME = "jakarta-poi-javadoc-2.5.1-31.7.noarch.rpm"
+RPM_HASH = "8cd4770c91250bedb9f8cde20d809767002ccbcae7e28b2f4c8be655dede7c9dc83cbfd6ce460bd92be0eba92a6ae94167c1ee69ad37082f8e780312e4ed0bc5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jakarta-poi-javadoc"

@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt6Sql6-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "5f1f22c088c9ed8150dc48f0d20e5d00c27178a8e8a490832f726efeb566ea24596ca7a44490a0c456fe66cc4dc5fc4e49bebbf58c9562b5c01703df70bde799"
+RPM_NAME = "libQt6Sql6-6.5.1-3.1.aarch64.rpm"
+RPM_HASH = "538dd76417e384f0f212177e42cdcafa53634bec9d06b2b9bb8608809b820b69cfcd7d762ea3a14b921b0f1a441229966e3e5925e6d7053d524ab10ce85493d7"
 
 RPROVIDES:${PN} += "libQt6Sql.so.6 \
 libQt6Sql6"

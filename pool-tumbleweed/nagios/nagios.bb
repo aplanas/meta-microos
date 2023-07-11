@@ -16,8 +16,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.4.7"
 
-RPM_NAME = "nagios-4.4.7-2.4.aarch64.rpm"
-RPM_HASH = "b582b31eb2520782d2c88e1ff6d4316e937c377ed51ece4ef0a37fadc985cb62c25a24758fb32ae17707967a154ccab9fe9e5fd181b16e1b594379a048c49d99"
+RPM_NAME = "nagios-4.4.7-2.5.aarch64.rpm"
+RPM_HASH = "662f3545cee3e0ef9137462a7a662b9c8e85ec36ae28e44678823561d7c9edee70ce37f9725f42c478fc5da8c54f0004e341cd0742c880026644ab96bd72bd6d"
 
 RPROVIDES:${PN} += "config-nagios \
 monitoring-daemon \

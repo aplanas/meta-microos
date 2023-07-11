@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
 PV = "2.7.5"
 
-RPM_NAME = "keepassxc-2.7.5-1.1.aarch64.rpm"
-RPM_HASH = "e0bf3bfd2f7b84af16135fcc1a0d6b104ac1b3011ff2b5392418bf0a3a2ca18a5a597d384afc625338653231c5697c8c672fac92b42e080b62dd65e4ad422e34"
+RPM_NAME = "keepassxc-2.7.5-1.2.aarch64.rpm"
+RPM_HASH = "5a635469fcf433439db77e8cb69c1e6cb5a550d6afca5fc63aa20b942cb6169493908421adf83e05259f753ef35edc9114c012e39e80bee718844ed93d670a09"
 
 RPROVIDES:${PN} += "keepassx \
 keepassxc \

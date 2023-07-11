@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "4.4.28"
 
-RPM_NAME = "python39-zxcvbn-4.4.28-1.20.noarch.rpm"
-RPM_HASH = "4cf3f19356088d1825c55b9ddf345df6b64eece6998b45d4d44b702d70b1b21d7c2f9103b58c6998b78d04801482bcf413868a9374efd158771d88df78d346dd"
+RPM_NAME = "python39-zxcvbn-4.4.28-1.22.noarch.rpm"
+RPM_HASH = "345155ac14c704d7a97d0eff4e6cf8b29851c5e7d86593cf3e2ec26838dc77db7870a7a085bb3245a445860ffc3fbbdcc1b24c6193880effb7c828c1285e7a54"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-zxcvbn \

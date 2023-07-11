@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "2.56.1"
 
-RPM_NAME = "typelib-1_0-Rsvg-2_0-2.56.1-1.1.aarch64.rpm"
-RPM_HASH = "5a6c371ee60a715624b50c3fda0b68a853d05dc3c3e74784564c590e8700c88e75d1a99ae09922e0826042635bc42aea07dcb8e309a2df2375a6c5bfa3ac205b"
+RPM_NAME = "typelib-1_0-Rsvg-2_0-2.56.1-3.1.aarch64.rpm"
+RPM_HASH = "0d1e3b66dfe0994234d7f2cee88b03bad8b31f063653db11d9bb82a25fc4a9c05874da959821e4c3e8f37a8dda0220a8db16712a529865dd5ce489e6407af7ff"
 
 RPROVIDES:${PN} += "typelib-1-0-Rsvg-2-0 \
 typelib-Rsvg"

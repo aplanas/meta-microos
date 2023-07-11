@@ -4,11 +4,10 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.5"
 
-RPM_NAME = "python310-CCColUtils-1.5-1.13.aarch64.rpm"
-RPM_HASH = "8308b38ce91bab7c173f709534ed1769b0e58a4e5598ca78efaaa55be98ffa913d5014ce843cb591441038125f25b54da3fd3d6b8008caa37c9cc43479fda604"
+RPM_NAME = "python310-CCColUtils-1.5-1.15.aarch64.rpm"
+RPM_HASH = "e5d584ccd9a466d9182d2d1f2b4c7da4f5bc60f0e889ba7877425a9794356d6495951e6c02be3c08092d39e35e86665437cfc2c0d4a776ad23012c67f25add8e"
 
-RPROVIDES:${PN} += "python3-CCColUtils \
-python3.10dist-cccolutils \
+RPROVIDES:${PN} += "python3.10dist-cccolutils \
 python310-CCColUtils \
 python3dist-cccolutils"
 

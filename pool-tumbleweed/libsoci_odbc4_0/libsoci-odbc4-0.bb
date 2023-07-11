@@ -8,8 +8,8 @@ LICENSE = "BSL-1.0"
 
 PV = "4.0.2"
 
-RPM_NAME = "libsoci_odbc4_0-4.0.2-4.4.aarch64.rpm"
-RPM_HASH = "1b71cf3803e433e9d1f9322a33105e08d30a37a067ca158ddd57dc1dbfdf43caaf38218aa0cd4df77456e82730f865dc873b041daaaa389e4119036be67e1320"
+RPM_NAME = "libsoci_odbc4_0-4.0.2-4.5.aarch64.rpm"
+RPM_HASH = "a37b4823a61bcad72879cf9c109dc7f50b7dc4d7fc991f48c309bb9bb0209c11e75701bf81e054a2e00d26e7fca73a9811ffab384dd1ff05bddd4b1a6378aa70"
 
 RPROVIDES:${PN} += "libsoci-odbc.so.4.0 \
 libsoci-odbc4-0 \

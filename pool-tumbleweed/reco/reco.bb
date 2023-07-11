@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.2.1"
 
-RPM_NAME = "reco-3.2.1-1.7.aarch64.rpm"
-RPM_HASH = "e543e5394b903aaf910e64265add1fb77f4fec1ad68c2a50de533b16e1c8b2b373059ca521e08097aa9f9790bafa313e90521d2fec63f1d4d321684ffcf8eafa"
+RPM_NAME = "reco-3.2.1-1.8.aarch64.rpm"
+RPM_HASH = "082d892d3ea7eea562a4d9001f5b3d20fb05bc1c706270e12cccda354fe1c9cc45ba1aaf8b1d2123a0cad80395af87396f6f3cbcba3676522a11f43fca9f74a1"
 
 RPROVIDES:${PN} += "reco"
 

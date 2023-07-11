@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "1.1.0b3"
 
-RPM_NAME = "python311-azure-mgmt-resourcemover-1.1.0b3-1.3.noarch.rpm"
-RPM_HASH = "5343fce7aa707e50369a941a0e78b230a4b70cc0348fc394cb32c9f6b99af0b200b97f4fb066b9a1a5a07c88f7783c19129ca22031c68f4bb12853bf95463cbd"
+RPM_NAME = "python311-azure-mgmt-resourcemover-1.1.0b3-1.4.noarch.rpm"
+RPM_HASH = "043cf281db143fcd4bbd1a6d5bb7f5a6a9d19f5ce2b2851f79b6fb448baef804db0ce1c200d0fc7bd692e9daed727bfabecaa92b84e2405a57c28590bef6e3e8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-resourcemover \
+RPROVIDES:${PN} += "python3-azure-mgmt-resourcemover \
+python3.11dist-azure-mgmt-resourcemover \
 python311-azure-mgmt-resourcemover \
 python3dist-azure-mgmt-resourcemover"
 

@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.44.0"
 
-RPM_NAME = "libjsonrpc-glib-1_0-1-3.44.0-1.1.aarch64.rpm"
-RPM_HASH = "22178cbb8236075254cbda23885d7eabec9dacf8a638961880619124dcbf3f15e932149ff6ac743693a3c9414833a9ec4edcef035c3fb93be094edd9afdb3060"
+RPM_NAME = "libjsonrpc-glib-1_0-1-3.44.0-1.2.aarch64.rpm"
+RPM_HASH = "7b63639fb88d27b3fbf48903885b1dabf40c1177eb81842fa18431346f2fbdcdb7c5d1e3bd1e9d5e7ec82d6c9478e7a4ee60ae9648acfa2ab6d71008ec5db260"
 
 RPROVIDES:${PN} += "libjsonrpc-glib-1-0-1 \
 libjsonrpc-glib-1.0.so.1"

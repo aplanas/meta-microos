@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2022_08_R1"
 
-RPM_NAME = "kismet-capture-linux-bluetooth-2022_08_R1-2.3.aarch64.rpm"
-RPM_HASH = "27d5eb9b5bb4c6fb7b202762cfe4a71696dd2a53e076105b8792afbf8e26a8068146c47410640251f9c7bbd19b76e9a5cb6dd0f505172b0cf289f057abbf9a20"
+RPM_NAME = "kismet-capture-linux-bluetooth-2022_08_R1-2.5.aarch64.rpm"
+RPM_HASH = "625e873aa75f8c837fec393c8a6d486cd29555cdab2a8501bf566fb88433f04e860ea26ab0ee5274ec40569915ae5b7d29af6af20c4b44ac7b8f0b185725ec3d"
 
 RPROVIDES:${PN} += "kismet-capture-linux-bluetooth"
 

@@ -5,12 +5,11 @@ LICENSE = "MPL-2.0"
 
 PV = "0.14.0"
 
-RPM_NAME = "python310-PyBrowserID-0.14.0-4.8.noarch.rpm"
-RPM_HASH = "2295caf538e7e052e61b22b7d08e5a3a35227c73948cdf92be5d50a82ee0cd774f57d4a7e791f5d3aa84078bbbb8e007b183c18e7c9f2028f07d5a4855cd04db"
+RPM_NAME = "python310-PyBrowserID-0.14.0-4.10.noarch.rpm"
+RPM_HASH = "0fe9d1a033ff689637528125bc5cb0f92489397f9796591a1bc8b9bed76a1d022643d36916fd25734aa03223629f24626c0b8e30830dbad474639e06b72dc442"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-PyBrowserID \
-python3.10dist-pybrowserid \
+RPROVIDES:${PN} += "python3.10dist-pybrowserid \
 python310-PyBrowserID \
 python3dist-pybrowserid"
 

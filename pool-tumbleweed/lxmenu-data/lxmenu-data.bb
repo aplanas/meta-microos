@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0"
 
 PV = "0.1.5"
 
-RPM_NAME = "lxmenu-data-0.1.5-1.17.noarch.rpm"
-RPM_HASH = "3a90aaad3aad44d9a318f76edd66697f9b82f7d9e67ce578302e0f63a25829a61b4f42f8a92e53566a558f2e4b65a72b50abcc6b00c840809d5a23c1afeb21cd"
+RPM_NAME = "lxmenu-data-0.1.5-1.18.noarch.rpm"
+RPM_HASH = "510c7c6e8ddff301b8a6990d5fe9507f92b210c4dfc456934ce451eb8d6fcd3dd15acd377d3bfce78cf1a29f0ef9541b98e5243b3372f093c6c2b3a95afa1608"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-lxmenu-data \

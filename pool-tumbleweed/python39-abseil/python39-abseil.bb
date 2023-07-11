@@ -10,8 +10,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.4.0"
 
-RPM_NAME = "python39-abseil-1.4.0-1.1.noarch.rpm"
-RPM_HASH = "039b4c5dc527b8b0cc4b349dacafb6939105be7c86b86fdf9af03a00f472028b10767b3083f5a97cb8115396f39503222b69b96525bdaffc4aecd1860e1e7c92"
+RPM_NAME = "python39-abseil-1.4.0-1.2.noarch.rpm"
+RPM_HASH = "8b28fd83171d4a018485637ff7647344cdc818cc7f1095f57a8d89b5d01cb778dc4dcc9126b70f09f12a86ab97bf308aa2a18644747f9ab0824d3283ced894fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-absl-py \

@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python310-azure-mgmt-storagemover-1.0.0-1.2.noarch.rpm"
-RPM_HASH = "87408662a379b26878f81dd9d39b5f69f5c29e31ffe0ae985893fa70a875d3907fff9e46dc8616990393baa5de35ba7f61d6d1d396aa7e21728ce6bb667c864f"
+RPM_NAME = "python310-azure-mgmt-storagemover-1.0.0-1.3.noarch.rpm"
+RPM_HASH = "b35c9b68cf9dd34f6ae5dfba547afb51974d49cc08606eafd3f1736ea3204de35aaeefa91632a0930f67c052d2b477c3cc22d888c40cceadf242dd0562c020fd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-storagemover \
-python3.10dist-azure-mgmt-storagemover \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-storagemover \
 python310-azure-mgmt-storagemover \
 python3dist-azure-mgmt-storagemover"
 

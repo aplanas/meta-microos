@@ -2,10 +2,10 @@ SUMMARY = "Bash completion for gmic"
 DESCRIPTION = "This package contains the bash completion command for gmic."
 LICENSE = "CECILL-2.1"
 
-PV = "3.2.5"
+PV = "3.2.6"
 
-RPM_NAME = "gmic-bash-completion-3.2.5-1.1.noarch.rpm"
-RPM_HASH = "0c3772a4b8daac75f4326e75de50fbe9018507377d81c57608bba99c7fb2c9f703eb44db30535a02357b6e4a53c571a618678b934823034d328af92e38b7b2f9"
+RPM_NAME = "gmic-bash-completion-3.2.6-1.1.noarch.rpm"
+RPM_HASH = "f3138f7f712588638862e60130a8bdc4f51322020fc09240e4b297aabf95b2c78a8b321eff6323af9117507982481c03a6dc18c97f547b8fbbf32f993d7edeb6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gmic-bash-completion"

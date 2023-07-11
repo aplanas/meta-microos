@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
 PV = "2.1.0+2.0.22+git6"
 
-RPM_NAME = "libcapi20-mod_misdn-2.1.0+2.0.22+git6-2.6.aarch64.rpm"
-RPM_HASH = "ed868061da4cd0b01869907a60a9ee084a21e50840b5f762d9e54cf352c4c674ac86c4766dca981edbade897c71367b5a6ff15397934434817da748dfa568636"
+RPM_NAME = "libcapi20-mod_misdn-2.1.0+2.0.22+git6-2.7.aarch64.rpm"
+RPM_HASH = "1f9981c7af945719d0a10d68f627fca10425418be1bd0f544d7b142a5295d9d1c1e8927829d7b2d4aabf1a01ed5030cf63806d6918eb2d68ccda53b6fcd069d5"
 
 RPROVIDES:${PN} += "lib-capi-mod-misdn.so.2 \
 libcapi20-mod-misdn"

@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.32"
 
-RPM_NAME = "python310-jsonpatch-1.32-4.1.noarch.rpm"
-RPM_HASH = "44dc0cc99115d56aa261d0aa58bc11234417717cfef9e31676203595bffd36e59e56c13255f04e51967ab24d7ae4580979ac1658934497118ebe93568e57882e"
+RPM_NAME = "python310-jsonpatch-1.32-4.3.noarch.rpm"
+RPM_HASH = "5acfad626d74b03f8798b3f1b69e63ff6048644d5d193130b01cb629945614fea07d5f43ffb89f0476ef4964f237895c1d06046b2e5c2b33c825b91e2405a322"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-jsonpatch \
-python3.10dist-jsonpatch \
+RPROVIDES:${PN} += "python3.10dist-jsonpatch \
 python310-jsonpatch \
 python3dist-jsonpatch"
 

@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
 PV = "2.7.2"
 
-RPM_NAME = "libdrumstick-widgets2-2.7.2-1.3.aarch64.rpm"
-RPM_HASH = "18bef1c05dda427fbbd2a937556978812c10515044fa2080863da18f89e92b77deda091af91b385c8a80f2246e9f4176b95d7d865086b31d0f4883f0cb119a03"
+RPM_NAME = "libdrumstick-widgets2-2.7.2-1.4.aarch64.rpm"
+RPM_HASH = "bb83d7b4b1bfea7aa7af5e56cd475c7f852de2f6544bbde4605b3cb423a72e5cf835e9f10b0b7e79bda2fb435b355f5c9e014cddc379bc38d14bbae08cb58e3c"
 
 RPROVIDES:${PN} += "libdrumstick-widgets \
 libdrumstick-widgets.so.2 \

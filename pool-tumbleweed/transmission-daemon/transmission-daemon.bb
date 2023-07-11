@@ -7,8 +7,8 @@ LICENSE = "(GPL-2.0-only | GPL-3.0-only) & MIT"
 
 PV = "4.0.3"
 
-RPM_NAME = "transmission-daemon-4.0.3-2.1.aarch64.rpm"
-RPM_HASH = "91fb0585e4166cbea8b59f3fd53e0af329b6edd85bebb632651837df4e02f226d377ccab015b375005df4b42e4c8946282d8eabcaf786f59bda7cf7c7aa7ec57"
+RPM_NAME = "transmission-daemon-4.0.3-2.2.aarch64.rpm"
+RPM_HASH = "8fdaf07a286fd5c60511cc99e4b6b467661c79819b6f80d0859ab6a0a6adcdf29d9dd18dc98df583d77b4d3afede19b937c0ac459601374092599f26deaa5c18"
 
 RPROVIDES:${PN} += "transmission-daemon"
 

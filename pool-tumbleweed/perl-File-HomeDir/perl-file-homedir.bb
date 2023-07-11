@@ -10,8 +10,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.006"
 
-RPM_NAME = "perl-File-HomeDir-1.006-1.12.noarch.rpm"
-RPM_HASH = "6dc53dcbbbe988bd5aede4c2da660bc8bf9618571a99b690b0ae1a1d039ef0540a8a7b50a903dbf6b177e74d9948346d966364c95f4a0ab47cef6b98afd84312"
+RPM_NAME = "perl-File-HomeDir-1.006-1.13.noarch.rpm"
+RPM_HASH = "d53fdb6ee9df88fa23ad17a377f88e1df8d48ad0884cc6fcbe90920b5aed76b57acee61c68fc0116523956c86ce895cfdd755be52a4982a1dd672e65a185610e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-File--HomeDir \
@@ -26,7 +26,7 @@ perl-File--HomeDir--Unix \
 perl-File--HomeDir--Windows \
 perl-File-HomeDir"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-File--Path \
 perl-File--Temp \
 perl-File--Which"

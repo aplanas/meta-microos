@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3.13"
 
-RPM_NAME = "vsqlite++-devel-0.3.13-4.10.aarch64.rpm"
-RPM_HASH = "23a5150fc342db7c25d25331ec3948228c518f3a93bb3f15437c2a6a3c51431ad196bb5051c82d65b53d0e5e715d8bc87d9cc44fd93c3ed3fe7fa93ea5ec1a14"
+RPM_NAME = "vsqlite++-devel-0.3.13-4.11.aarch64.rpm"
+RPM_HASH = "55f2fc2bab0647868bccc96455a47e6c0fb3a7d8e94c2172585ee4d4f532340f04f8c83501c580ed16b630a211ee81933038d4db11f96e5478fbaa5793ad425f"
 
 RPROVIDES:${PN} += "vsqlite++-devel"
 

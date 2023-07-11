@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.3.0"
 
-RPM_NAME = "python39-Mathics-Scanner-1.3.0-1.1.noarch.rpm"
-RPM_HASH = "67d2c119b8db4a6dd2be38835b76c62b6e41a87ad865f735916fdaf15bd8f90a4b183183f2d5e5b6818e1ad625304b39e7b0792d549d07bb4862402eb84f7e03"
+RPM_NAME = "python39-Mathics-Scanner-1.3.0-1.3.noarch.rpm"
+RPM_HASH = "4e58a611b1a8d33fb072ba23e37f1f3157adaf6770b4be496b1fcd8c67fe0e40525b0e99c70dc0e34f25f3ca7858942e14d8c433511d6f56143247546a40de53"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-mathics-scanner \

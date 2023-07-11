@@ -7,19 +7,20 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.5"
 
-RPM_NAME = "ghc-http-api-data-0.5-3.2.aarch64.rpm"
-RPM_HASH = "e9d56f6a418d36b159bc7db382c20bf51dec2a572ff4f8d2ed68f981ab971b9d50bcc064ee0b17021107bc1fd64c3ea159bfe2bf55e41a2ef6bf20c407cb5293"
+RPM_NAME = "ghc-http-api-data-0.5-4.1.aarch64.rpm"
+RPM_HASH = "b1ec0d0de746c109e797fb1c593a0007bd984f5a11c23ff5355e98f5bc54899c0c0d8564d403fd3b62aad4e450ad71a3c6eae5c09a08d90e5734a963b34c4ee5"
 
 RPROVIDES:${PN} += "ghc-http-api-data \
-libHShttp-api-data-0.5-Ipkpz3wcjEIJthDto7snfd-ghc9.4.5.so"
+libHShttp-api-data-0.5-V3iAwM0FHG5XKNP6QkA7J-ghc9.4.5.so"
 
-RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
+RDEPENDS:${PN} += "libHSOneTuple-0.4.1.1-Fgk8ylTtnzLBSBvZAI1OoV-ghc9.4.5.so \
+libHSarray-0.5.4.0-ghc9.4.5.so \
 libHSattoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3-ghc9.4.5.so \
 libHSattoparsec-0.14.4-JfIUPSNLtNQH9xUGOplWef-attoparsec-internal-ghc9.4.5.so \
-libHSattoparsec-iso8601-1.1.0.0-2S5wwgpuLNfEy2BIFZOtUU-ghc9.4.5.so \
+libHSattoparsec-iso8601-1.1.0.0-7warWbAa4NQL4IDzyErxXZ-ghc9.4.5.so \
 libHSbase-4.17.1.0-ghc9.4.5.so \
-libHSbase-compat-0.12.2-L1DEOlMQJOdFOKsjHoWYov-ghc9.4.5.so \
-libHSbase-compat-batteries-0.12.2-2nfbI7WkA2cAAItUqSu6Dy-ghc9.4.5.so \
+libHSbase-compat-0.13.0-Cvz3167VMpo6rdOohSlum3-ghc9.4.5.so \
+libHSbase-compat-batteries-0.13.0-KDp9q4HxJ7BLLDYSknS7AR-ghc9.4.5.so \
 libHSbase-orphans-0.8.8.2-Hl8yFKsRlc4HPNXP65SlX8-ghc9.4.5.so \
 libHSbinary-0.8.9.1-ghc9.4.5.so \
 libHSbytestring-0.11.4.0-ghc9.4.5.so \
@@ -29,6 +30,7 @@ libHScookie-0.4.6-Dg4BNZOQbFj7M1J2IgDFKE-ghc9.4.5.so \
 libHSdata-default-class-0.1.2.0-2LD1I8dZmn7BW4dkzEwdGZ-ghc9.4.5.so \
 libHSdeepseq-1.4.8.0-ghc9.4.5.so \
 libHSfilepath-1.4.2.2-ghc9.4.5.so \
+libHSfoldable1-classes-compat-0.1-JP9wXcYYGsT10VsvIV9rpl-ghc9.4.5.so \
 libHSghc-bignum-1.3-ghc9.4.5.so \
 libHSghc-boot-th-9.4.5-ghc9.4.5.so \
 libHSghc-prim-0.9.0-ghc9.4.5.so \

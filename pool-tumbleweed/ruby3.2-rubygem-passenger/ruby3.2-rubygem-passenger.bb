@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only & MIT"
 
 PV = "6.0.17"
 
-RPM_NAME = "ruby3.2-rubygem-passenger-6.0.17-1.5.aarch64.rpm"
-RPM_HASH = "2f56783b1a1c7313d68ad3b5db2546690716f3f9335efd073136587b1db4ede943a1bc80e504a2a8b19573f26bdb32b19df55579229a1746512f7b0ff92b6ce0"
+RPM_NAME = "ruby3.2-rubygem-passenger-6.0.17-1.6.aarch64.rpm"
+RPM_HASH = "dcd7507ca262f6cea7f9a93faf01c0acc7bd04de47f8fb591dc59f718ad053701860c11c00fcb27f8a3478589c63712255e4def99e213a871bb65de1cfa6b36a"
 
 RPROVIDES:${PN} += "ruby3.2-rubygem-passenger \
 rubygem-passenger \

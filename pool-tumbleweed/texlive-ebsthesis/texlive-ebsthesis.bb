@@ -7,8 +7,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.0svn15878"
 
-RPM_NAME = "texlive-ebsthesis-2023.201.1.0svn15878-53.1.noarch.rpm"
-RPM_HASH = "aee03b8dcb39dadc3446020246d2fdcf9b12331f302bc4a0cc5b55db702d6b315b4e1a5471d8b1c875858ac073c96a20c631429737506f59cab61de0a4985f19"
+RPM_NAME = "texlive-ebsthesis-2023.201.1.0svn15878-53.2.noarch.rpm"
+RPM_HASH = "e326f645e908931af91fa9bc8a7c0d345e49d5bd12ffec60797fafe42acec3acbdab600ae6cabb41ca1b8229ffad8f2ba7f8cb17e70cdfda5dd0b45f1929e035"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ebsthesis.cls \

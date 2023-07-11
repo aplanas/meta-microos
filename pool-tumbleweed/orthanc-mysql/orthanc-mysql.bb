@@ -4,8 +4,8 @@ LICENSE = "AGPL-3.0-or-later"
 
 PV = "4.3"
 
-RPM_NAME = "orthanc-mysql-4.3-1.15.aarch64.rpm"
-RPM_HASH = "3aa67915b185c887a9f66ca12c32239d05d659258a2e21b5d99d79545311f9547493148a11a6319e88905acedac190ec3442e9fd039c2c124cea6e61efe9971e"
+RPM_NAME = "orthanc-mysql-4.3-1.16.aarch64.rpm"
+RPM_HASH = "f62cf54b73c023a38b80e3818ece4a3d2134e5fc3cc67a3d29e530f8f3c585c654330b90970912611b038d3cbbc181ab0ebfab50b1b8c852eea3c12bec119b90"
 
 RPROVIDES:${PN} += "libOrthancMySQLIndex.so.4.3 \
 libOrthancMySQLStorage.so.4.3 \

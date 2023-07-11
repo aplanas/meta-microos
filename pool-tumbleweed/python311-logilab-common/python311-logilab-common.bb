@@ -12,11 +12,12 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.9.8"
 
-RPM_NAME = "python311-logilab-common-1.9.8-1.3.noarch.rpm"
-RPM_HASH = "aece47051435c8565b838d4c3c41020db02d0cb0bc90acba85252835aee943428fbd27f9549fdfd969695611bb47e6af9b145d739263b2862e28945f111e167b"
+RPM_NAME = "python311-logilab-common-1.9.8-1.4.noarch.rpm"
+RPM_HASH = "7ba768878064759a81d16c203496b8f70cdeac1ef4ba99593b49b4781ae8b2f598d31dbd15fd7326a3e314309ab9512a2602b2d95962edc79cf75841ec05b006"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-logilab-common \
+RPROVIDES:${PN} += "python3-logilab-common \
+python3.11dist-logilab-common \
 python311-logilab-common \
 python3dist-logilab-common"
 

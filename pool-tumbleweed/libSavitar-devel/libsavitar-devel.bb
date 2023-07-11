@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "4.13.1"
 
-RPM_NAME = "libSavitar-devel-4.13.1-2.7.aarch64.rpm"
-RPM_HASH = "a6fa6e1d7d0e8bf2d6118ee5ac4e0d6379b6d359f326fd53267d13ebf8a15c81fa1d29583d0f3c220890379d6fc6c4004e324f746f026640fc05536b20def977"
+RPM_NAME = "libSavitar-devel-4.13.1-2.8.aarch64.rpm"
+RPM_HASH = "f5597ac2f55fcac2408f04f930787ac7e94152b830ccc71a5b31d6c36e5dc0b7d5951a04e137fd98f9aebe57a8969589108f0ce94a540e1331c8527a5ee49d86"
 
 RPROVIDES:${PN} += "cmake-Savitar \
 libSavitar-devel"

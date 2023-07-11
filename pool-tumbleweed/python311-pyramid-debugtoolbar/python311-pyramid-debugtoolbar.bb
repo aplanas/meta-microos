@@ -10,11 +10,12 @@ LICENSE = "BSD-4-Clause & ZPL-2.1 & MIT"
 
 PV = "4.10"
 
-RPM_NAME = "python311-pyramid-debugtoolbar-4.10-1.3.noarch.rpm"
-RPM_HASH = "667433e70228953f1f55d0811f02074d09c0731a77c9c586aa1c474813f3e5c6328861f6c17aa409deeab6b7cc80717035eeff20dce6ccfbb4524795a9123729"
+RPM_NAME = "python311-pyramid-debugtoolbar-4.10-1.5.noarch.rpm"
+RPM_HASH = "a9fbdf56dee77e4a8d41ef3f7ff6d6700ad90b07310c1dc7a11fb560a9dcb4a8f501bd7bbbefa0f379ddde7d6c58690342e4114a4b98c439b1e00cc3a2e3891f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pyramid-debugtoolbar \
+RPROVIDES:${PN} += "python3-pyramid-debugtoolbar \
+python3.11dist-pyramid-debugtoolbar \
 python311-pyramid-debugtoolbar \
 python3dist-pyramid-debugtoolbar"
 

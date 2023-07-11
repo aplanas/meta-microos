@@ -8,11 +8,11 @@ LICENSE = "GPL-2.0-only & MIT"
 
 PV = "1.5.8"
 
-RPM_NAME = "python3-babeltrace-1.5.8-3.7.aarch64.rpm"
-RPM_HASH = "803417149dd34f0fd0c8529237b8d089daaffb07696f755093099555fd6e12651825771565bab2ddf6c6310b13886e63ca77de656bf28a79372957079c9b5714"
+RPM_NAME = "python3-babeltrace-1.5.8-3.8.aarch64.rpm"
+RPM_HASH = "e87ae3da93b7b389d6d806efdfe5d6d3c171216fdf096cd8fcf8d080e1d69d39c297456ca682201c3e87cfcc3317738a8b7f89aaf834c5c2d0f12ef1777002a7"
 
 RPROVIDES:${PN} += "python3-babeltrace \
-python3.10dist-babeltrace \
+python3.11dist-babeltrace \
 python3dist-babeltrace"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \

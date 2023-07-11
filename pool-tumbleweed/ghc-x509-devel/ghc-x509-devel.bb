@@ -4,24 +4,24 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.7.7"
 
-RPM_NAME = "ghc-x509-devel-1.7.7-2.3.aarch64.rpm"
-RPM_HASH = "58bf54891f5e32d317033011b1ebda08aa8338ca352d9d9d18cfc1b847c29eb2ff8bd48fb222dfaddeb5bb3f0c5003a806e59dcc4d1f2e38683ba69e2610a249"
+RPM_NAME = "ghc-x509-devel-1.7.7-2.6.aarch64.rpm"
+RPM_HASH = "ce4af41f58aa091bb945e44f392312961f45e547358b4b9c59a5a71a6dc0399a4828404045f42d7af31e14cfeb3651c6f3480ddbbec036c03c11cfca32877bae"
 
-RPROVIDES:${PN} += "ghc-devel-x509-1.7.7-6vFRDfbnKcXIbE0ZlEHitw \
+RPROVIDES:${PN} += "ghc-devel-x509-1.7.7-LWFKTxQvdZ8EaEcgjVF4la \
 ghc-x509-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-asn1-encoding-0.9.6-Hputs8NTOGr9EmEd7QDXHk \
-ghc-devel-asn1-parse-0.9.5-EPDirjvv9Ch16KeQVAexUV \
-ghc-devel-asn1-types-0.3.4-GYlFjiH4jmgJII5TgUQfXm \
+ghc-devel-asn1-encoding-0.9.6-Cdk8qspuM85LY571XnsXDt \
+ghc-devel-asn1-parse-0.9.5-HTg4KkpVBwF8NdUaqkTqJm \
+ghc-devel-asn1-types-0.3.4-4LX8ePpAyEC5pdyYoIADjx \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-bytestring-0.11.4.0 \
 ghc-devel-containers-0.6.7 \
-ghc-devel-cryptonite-0.30-AbDFzA14dNKDfU9pLpBLye \
+ghc-devel-cryptonite-0.30-cxpuRFsDaEEZnBeTxvUaJ \
 ghc-devel-hourglass-0.2.12-3PFbUFQLMNb8Ad2s9SU5p3 \
-ghc-devel-memory-0.18.0-2DG6nqjfLMK4MSR77XYQqL \
-ghc-devel-pem-0.2.4-GVwv4fsQYoEEDbQiUNwxns \
+ghc-devel-memory-0.18.0-8CsggfkyXReDSMbRoae4Yp \
+ghc-devel-pem-0.2.4-7ofxEvI1NwqKqDFtfJ1pS \
 ghc-devel-transformers-0.5.6.2 \
 ghc-x509"
 

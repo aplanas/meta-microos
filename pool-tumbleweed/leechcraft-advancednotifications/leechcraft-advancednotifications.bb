@@ -5,8 +5,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-advancednotifications-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "45d4776115e0c12f41739e5fa576201f2d2b0879b3618b9e7db38b31971026d00c704a0e5d5612d6ccb469271c2c6149eacd1a69b62c3f98b96712e0e33809c1"
+RPM_NAME = "leechcraft-advancednotifications-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "ba15a04ba12e397e29df3ec100bffdcea5ae24ebb6a5d6a989745ea56b85ba705eb45c1c94e1365adf1a0dedac4b4f09cbda3d13c838a1bbe917aa8fd7fa6365"
 
 RPROVIDES:${PN} += "leechcraft-advancednotifications \
 libleechcraft-advancednotifications.so"

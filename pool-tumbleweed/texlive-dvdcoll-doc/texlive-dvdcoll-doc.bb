@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.1asvn15878"
 
-RPM_NAME = "texlive-dvdcoll-doc-2023.201.1.1asvn15878-53.1.noarch.rpm"
-RPM_HASH = "788e6dec52bf5f10d92b40643a9a40c9c394bbc0826662c43a8795352b72bc8c4cba7e8c387f650e314cd7e16dd98bd4cc13167f23872201a015cb888ae78044"
+RPM_NAME = "texlive-dvdcoll-doc-2023.201.1.1asvn15878-53.2.noarch.rpm"
+RPM_HASH = "3d6662854e2e3e1e373affee12c32a16b74db6319293762e42f262cee790cf23f77d06a1143ab30d3e9e13136c5ececae395ccfc667d3090f287b0939f6ba1b0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-dvdcoll-doc-en;de \

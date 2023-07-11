@@ -14,8 +14,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "0.8.2"
 
-RPM_NAME = "appstream-glib-devel-0.8.2-1.3.aarch64.rpm"
-RPM_HASH = "dc5b50f9c6e5e05a22a87a1b84baf03d277a13fe2726456d2c20d8ad9cff6ac57f24ac30b0937bc9a2418149b22f8d2025554f621f656c2a8b1726ed535b6c6c"
+RPM_NAME = "appstream-glib-devel-0.8.2-1.4.aarch64.rpm"
+RPM_HASH = "0b9e6b69cd75209bc238fa63fa22314b218d6606b1c9eef741affb8e8bf925feb20c89a0d89b06b49e288e0d91e56518587c91be51a0f62374c2e606c9dcc5c4"
 
 RPROVIDES:${PN} += "appdata-tools \
 appstream-glib-devel \

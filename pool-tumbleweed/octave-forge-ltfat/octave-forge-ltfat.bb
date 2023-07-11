@@ -10,8 +10,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.5.0"
 
-RPM_NAME = "octave-forge-ltfat-2.5.0-1.4.aarch64.rpm"
-RPM_HASH = "0c558bf03b8d064986d82c8bd8977cf2d9966988182e82fe81f3356dfc9a3f0459f734b6a7d1e3526f12ccf5e4255ca5c9b2d445becdd029bfad619c3248db23"
+RPM_NAME = "octave-forge-ltfat-2.5.0-1.5.aarch64.rpm"
+RPM_HASH = "39215450c6ca53693a58e0e69c67a057663e667ac2c31a60ffb651b6c9dfa505de1b29a31794d0dd17af5339dbc02c3c6af3e246ce933d1ff7f7e7c291664791"
 
 RPROVIDES:${PN} += "octave-forge-ltfat"
 

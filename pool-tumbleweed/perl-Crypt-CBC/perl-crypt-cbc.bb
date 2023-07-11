@@ -16,8 +16,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "3.04"
 
-RPM_NAME = "perl-Crypt-CBC-3.04-1.9.noarch.rpm"
-RPM_HASH = "9285ea4677feab6dd938f347c4fc3603e1d6eb27845604d0bbca472aec16b5e215d2836f3c3a9db5df684fc11d16d1adc08ddc3a040e6efab62042642434f253"
+RPM_NAME = "perl-Crypt-CBC-3.04-1.10.noarch.rpm"
+RPM_HASH = "87b3f056845e726275872722b8938f25f8db94e0de81907da9974272b3209b0dc383376f698327b22f4077ec7579b889215b47ed0ef87587324bd6cedfba2dbf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Crypt--CBC \
@@ -29,7 +29,7 @@ perl-Crypt--CBC--PBKDF--pbkdf2 \
 perl-Crypt--CBC--PBKDF--randomiv \
 perl-Crypt-CBC"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Crypt--Cipher--AES \
 perl-Crypt--PBKDF2 \
 perl-Digest--SHA"

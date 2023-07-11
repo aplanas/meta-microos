@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.21.1"
 
-RPM_NAME = "libtextstyle-devel-0.21.1-2.1.aarch64.rpm"
-RPM_HASH = "2ca26287a8c2be3ab638d2797ad8d4a419ce38066babf3fd8617ee113707a10bbc7f940575e10f8eeb8ac318853805bdc7caef36350cd3e9375ae7ff6bbe1b1c"
+RPM_NAME = "libtextstyle-devel-0.21.1-2.2.aarch64.rpm"
+RPM_HASH = "7321a39c6ea7e7341a27159556dbd42126ae6dd96c1a8d77b4c5f5d52d2b50f28de0908f404149114cd51dc2c5c6a9098d4c7a2393c0fa4e3a41390c2d572614"
 
 RPROVIDES:${PN} += "libtextstyle-devel"
 

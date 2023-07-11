@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.38.3"
 
-RPM_NAME = "gnome-nibbles-lang-3.38.3-1.1.noarch.rpm"
-RPM_HASH = "d5e2230555b8ffb439ec5f31ac0b5174f94e40e259899a18b77188d394c69f0bba14fa046a49aac4c5240ca7d9feffe9f5f99a57a2185f4d3411b4b986d5e8ca"
+RPM_NAME = "gnome-nibbles-lang-3.38.3-1.2.noarch.rpm"
+RPM_HASH = "c0557ae2e62b61f5ba758a1522aea2312df5fcb58ff9419f69ed629cc85b144b2432fef46077d49b56f2c242633d483197b1ab1cc6f2ed00a569e6c603c8af19"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-nibbles-lang \

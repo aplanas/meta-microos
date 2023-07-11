@@ -23,8 +23,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.88"
 
-RPM_NAME = "perl-Text-BibTeX-0.88-1.21.aarch64.rpm"
-RPM_HASH = "bbaef25a45662cc5cde878825fef0a73c3f020105e4cb66ee0b4230511b0d9490e4a080081a7c357ae16e79b3ba622f9f98a0dd815a9cceea1ead3d9a7aaf45f"
+RPM_NAME = "perl-Text-BibTeX-0.88-1.22.aarch64.rpm"
+RPM_HASH = "ece146ef0c2ef0e0a4dd6a9a766bfa9f2a4f6549d1ccf471505ce12edebbc21ec30e20af4fcebcbce37a5b9184d24aa37bfd859bc45613afce5614513e334597"
 
 RPROVIDES:${PN} += "perl-Text--BibTeX \
 perl-Text--BibTeX--BibEntry \
@@ -44,7 +44,7 @@ perl-Text-BibTeX"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libbtparse.so \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-Encode \
 perl-Scalar--Util \
 perl-Unicode--Normalize"

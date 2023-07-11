@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.9.18"
 
-RPM_NAME = "haveged-1.9.18-2.3.aarch64.rpm"
-RPM_HASH = "22eab4de3c507f90f1265360e9cefa7caef232663bd19261cd098dad5ac2b97c403c193aaab44e7c899e222be9f2d8b75814a5aeb2f7fc9a4468002df6bfc597"
+RPM_NAME = "haveged-1.9.18-2.4.aarch64.rpm"
+RPM_HASH = "24fdaa62b7e7acd871b5a4398e55f166d83b1aa2e4a9e20bc08e613d320dbd043691a8f23d4f6949893d9dc370dbcaf59aaf9949973938ad6cdc7fc6bca0e310"
 
 RPROVIDES:${PN} += "haveged"
 

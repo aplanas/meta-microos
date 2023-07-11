@@ -14,8 +14,8 @@ LICENSE = "BSL-1.0"
 
 PV = "1.82.0"
 
-RPM_NAME = "boost_1_82_0-gnu-openmpi4-hpc-1.82.0-1.1.aarch64.rpm"
-RPM_HASH = "2f03ea4fc47e47639372c890c29271963e907da99c99e8370a981e25a17bbbc3144bd6fe3a1c2983e0c424b5762a4f0b2bb4ffbeeadae0b35e61a8131c5b50d1"
+RPM_NAME = "boost_1_82_0-gnu-openmpi4-hpc-1.82.0-1.2.aarch64.rpm"
+RPM_HASH = "c2bf1f4936e0269d9e9dfcb043e97d4a80eb2bdfc5c23ade7afc290d72669c5896b3cce3ac50d35d1dee28d611aca250ecdd11249aa2a77eeadebd560c05978f"
 
 RPROVIDES:${PN} += "boost-1-82-0-gnu-openmpi4-hpc"
 

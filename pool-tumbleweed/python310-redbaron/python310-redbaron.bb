@@ -7,12 +7,11 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.9.2"
 
-RPM_NAME = "python310-redbaron-0.9.2-3.14.noarch.rpm"
-RPM_HASH = "ea02eb8ebc066ccd1e395615ef868d7009acab41c735e3f0288161442d7f75c42d4358019a11bc26c54dd59a011a99a9268810738060745eaaa8a52e16837108"
+RPM_NAME = "python310-redbaron-0.9.2-3.16.noarch.rpm"
+RPM_HASH = "6244fe90ad38098ddb8c598016a8a9f3496436f3779cc87ee2e2ba4a519481eec901664e7080ec1c3c6d53a18db0e77181a2a4b1ec10c88e18a41a12425d0de8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-redbaron \
-python3.10dist-redbaron \
+RPROVIDES:${PN} += "python3.10dist-redbaron \
 python310-redbaron \
 python3dist-redbaron"
 

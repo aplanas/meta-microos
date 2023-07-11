@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.8.0.0"
 
-RPM_NAME = "ghc-http-media-doc-0.8.0.0-6.3.noarch.rpm"
-RPM_HASH = "f3c3c958c4d4da3f37bd932aee56972ea8cae5ce5070ef70916e2185444a9fab448be046d07159b4394b246be52ad882a25e353e6ccbf28b63767ad1c40cc619"
+RPM_NAME = "ghc-http-media-doc-0.8.0.0-6.6.noarch.rpm"
+RPM_HASH = "edb54c01c920d9f59a050ce8c690e7c260c623b06ec20d9fd8e6d602f519f04f8daab78366785c7fcf830cdf952244830e21180cdacda20aa94e5f67fdc29c61"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-http-media-doc"

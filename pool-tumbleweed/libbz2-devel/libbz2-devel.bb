@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.8"
 
-RPM_NAME = "libbz2-devel-1.0.8-5.3.aarch64.rpm"
-RPM_HASH = "69732a7dca68a6a3405cbb9c79e5240b401f22d07130da1b211fabe580dd394915eec858a50dc8fe1f9bb3782c7876fa481954dcf96b57f2cae3cdf722c15d4c"
+RPM_NAME = "libbz2-devel-1.0.8-5.5.aarch64.rpm"
+RPM_HASH = "8dc938b877f2bfb80919e278c05dadd5c209c021d377d8b066cdb4437b7883d27ae7dab26bf6e4853fa4969a120f04b4fb25ab77f36ba29c552989fd174da03c"
 
 RPROVIDES:${PN} += "libbz2-devel \
 pkgconfig-bzip2"

@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "gnome-shell-search-provider-gnome-characters-44.0-2.1.noarch.rpm"
-RPM_HASH = "212d9ab1d085ec9b04e1380c0be22b848ebc11a57708c3092f65495ceb009ac299f7052cea1577eed2b417fe8d24fa331f69640c51ed9091a606f9d08645a11c"
+RPM_NAME = "gnome-shell-search-provider-gnome-characters-44.0-2.2.noarch.rpm"
+RPM_HASH = "e64d4c079d597ae39f68cd1fdaf3576ec8a3134769a1ec0518db839c7d1f91520831bd2628ba94b8cf7fc4df09490511d1a36d3cc2b1c4c9d1d735f1d64d6431"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-shell-search-provider-gnome-characters"

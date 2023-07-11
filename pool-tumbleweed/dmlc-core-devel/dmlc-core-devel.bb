@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.5"
 
-RPM_NAME = "dmlc-core-devel-0.5-1.8.aarch64.rpm"
-RPM_HASH = "dfb28e61a6ebdd1ea6f50d31a39c8ded056adc5c0e92e281e513d1d8a885e493e8dde6a91eea8c2f49542d5a6f173e027ad49decf95e7087e43d7985d403a828"
+RPM_NAME = "dmlc-core-devel-0.5-1.9.aarch64.rpm"
+RPM_HASH = "c860ddb8f36e718385b4d5e4c70730c1f64b359f3a41782e33f1d02516a3409db0554d512e321103a397573993d45a731272aa319e3ccfea5ef34b57d03a9dd8"
 
 RPROVIDES:${PN} += "cmake-dmlc \
 dmlc-core-devel"

@@ -16,8 +16,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-lackman-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "ca82040611fe060b0cd717152fa1243c6541f0028328735031347dec82103a25fed801a39570e46bb93d122eac0a04296a33fc933b73a29fc4889ecb716cd9f0"
+RPM_NAME = "leechcraft-lackman-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "8fc9f03fd7534c5f20ccf7fbc292c243c8ca030bc7f70dea8b4d2787b0cf9237a29db3df852163e41c8817ccde580c9fdf0e75c454e5a13cdd85e5a8d41ec204"
 
 RPROVIDES:${PN} += "leechcraft-lackman \
 libleechcraft-lackman.so"

@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.18.0"
 
-RPM_NAME = "erlang-rebar3-fish-completion-3.18.0-1.1.noarch.rpm"
-RPM_HASH = "45af6acb3a8b4940153c598333d75dcd1ea5e06e605ee211b6db32e26dc053b5f7e0d638c43e99db7ee5ef28ac7b3397ae91e223fa81cc3905ae478379a0f4f9"
+RPM_NAME = "erlang-rebar3-fish-completion-3.18.0-1.2.noarch.rpm"
+RPM_HASH = "b0691cf09db294818136fb9bcbb566c43fdbdfeacf0d67152b41cb79a2da1181c50848e145b61b1c8150c41f5a40a0b34719a92cfb23bdc392a2c83296082041"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "erlang-rebar3-fish-completion"

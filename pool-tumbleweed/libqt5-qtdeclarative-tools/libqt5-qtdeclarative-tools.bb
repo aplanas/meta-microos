@@ -4,10 +4,10 @@ DESCRIPTION = "Qt is a set of libraries for developing applications. \
 This package contains aditional tools for inspecting, testing, viewing, etc, QML imports and files."
 LICENSE = "GPL-3.0-only"
 
-PV = "5.15.9+kde25"
+PV = "5.15.10+kde26"
 
-RPM_NAME = "libqt5-qtdeclarative-tools-5.15.9+kde25-1.1.aarch64.rpm"
-RPM_HASH = "10a322cd8985df0593125185d88631ab4080a403decaa69c36e74dac8ef67d9dfc7a9eb820ade3f511884a6d31cc675c690de602dd245c67b83ac3e6381c0bd5"
+RPM_NAME = "libqt5-qtdeclarative-tools-5.15.10+kde26-1.1.aarch64.rpm"
+RPM_HASH = "38216a53931484aac3222f0f21855ac9224c1e2b1319b05e0e0528f8aa588589ec3f1769b04d4a45d411ee7eaf9d3a088c9e7cf960f7a1c18022c7bd2e22f3e6"
 
 RPROVIDES:${PN} += "libqt5-qtdeclarative-tools"
 

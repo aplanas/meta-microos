@@ -7,8 +7,8 @@ LICENSE = "EPL-2.0"
 
 PV = "2.10.8"
 
-RPM_NAME = "coin-or-Cbc-2.10.8-1.3.aarch64.rpm"
-RPM_HASH = "fcefcefbee416d60891ed35bb8e6612265caf76c8965eff7df3be048fb3f76e3e7e69c744405f19d765e8946b805f820373367c8c5338fa46d0cc4f64f458c2f"
+RPM_NAME = "coin-or-Cbc-2.10.8-1.4.aarch64.rpm"
+RPM_HASH = "692eed10a7cf598905d002d380404f4dec310da491e7f5e64f8226b68ec8b7d5b90ae4f184fb9a8d1379ece8ad1001ee761d610f8fe97682f30cff08cb39cffd"
 
 RPROVIDES:${PN} += "coin-or-Cbc"
 
@@ -17,6 +17,7 @@ libCbc.so.3 \
 libCbcSolver.so.3 \
 libOsiClp.so.1 \
 libc.so.6 \
-libgcc-s.so.1"
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

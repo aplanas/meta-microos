@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.4"
 
-RPM_NAME = "python39-pytest-aiohttp-1.0.4-3.3.noarch.rpm"
-RPM_HASH = "19cd3d1bb24948005a2bc37236fe0c47a53f955ebbbc1d6236ecb9b47d1a5b0ace95329548fb32f9d7133ca161fc04736fd65576d3a7bb1e67b96fd3e9576cca"
+RPM_NAME = "python39-pytest-aiohttp-1.0.4-4.1.noarch.rpm"
+RPM_HASH = "a6df8c65a6e6f33d7d8a1e018582778c89e17311978f19c7cd39ae140aa76977f39e0432bb327b4306ecfbaf74b66eeaa82edf340f6f4742bb4943ccc4d91a72"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytest-aiohttp \

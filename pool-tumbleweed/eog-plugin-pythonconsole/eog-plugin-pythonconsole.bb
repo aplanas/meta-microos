@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "eog-plugin-pythonconsole-44.0-1.1.aarch64.rpm"
-RPM_HASH = "2c85a1153612e7b21e640c946499a2fe59b491e22e497a579369a2950a00bba0f51afa2a8dc23f834c9f6f0c8149489e5d18245a99430b83d8f760a26f44dc47"
+RPM_NAME = "eog-plugin-pythonconsole-44.0-1.2.aarch64.rpm"
+RPM_HASH = "270aded7aadec406876360f22047707ac1882354406c116de1db1761000d015e447209251c34a8965c6cc1ec592e9e473fe6106a8a7121e790f4b62a35e6c244"
 
 RPROVIDES:${PN} += "eog-plugin-pythonconsole \
 eog-plugins-/usr/lib64/eog/plugins/pythonconsole.plugin"

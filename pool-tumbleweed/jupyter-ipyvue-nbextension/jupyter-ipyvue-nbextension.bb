@@ -4,10 +4,10 @@ DESCRIPTION = "Jupyter widgets base for Vue libraries \
 This package provides the jupyter notebook extension."
 LICENSE = "MIT"
 
-PV = "1.9.1"
+PV = "1.9.2"
 
-RPM_NAME = "jupyter-ipyvue-nbextension-1.9.1-1.1.noarch.rpm"
-RPM_HASH = "d9a147253f0cf2874327b507d6a5565519020dc33ec10705fe3094f5bd5604b4dca5ee80a123132ab470874028826012305ee1173af617ca7a4e736992e263b6"
+RPM_NAME = "jupyter-ipyvue-nbextension-1.9.2-1.1.noarch.rpm"
+RPM_HASH = "2765e8ed6f9f3b5244353e1fc983b6ddff6ce94d1af78604dedce8615a5c96a775f5ad82908d4e07406ca2935576ee91349c82edb4d5cfb33f53537a421a9e68"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-ipyvue-nbextension"

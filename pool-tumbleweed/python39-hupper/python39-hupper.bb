@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.10.3"
 
-RPM_NAME = "python39-hupper-1.10.3-1.4.noarch.rpm"
-RPM_HASH = "ad5fe2a41e09e8b6f15864ca6daddd342c87370f97bedc50a58b73a50fd84b94cc4d6d74ab34083bc4258902e847f85122cafdf5aae49721277455bb7d752465"
+RPM_NAME = "python39-hupper-1.10.3-2.3.noarch.rpm"
+RPM_HASH = "ef21389bcd712c16c2f54b2ab0d11f9bed05fd8c5f1b7b77e2d71a7ccab38be85b877469427d79bb004539c3fb91caec30874c71300ff67b02c30f5a80dd37bf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-hupper \

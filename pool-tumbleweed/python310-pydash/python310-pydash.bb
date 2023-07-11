@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "5.1.0"
 
-RPM_NAME = "python310-pydash-5.1.0-1.6.noarch.rpm"
-RPM_HASH = "2b30edb1731251dcdbbddabc71fc75c498a92b42d27489c13fbc9c69c85724ac925a3ea427181122c7bcc55d807fc20806676da8fe524ada6fb8c400fa2c5be4"
+RPM_NAME = "python310-pydash-5.1.0-1.8.noarch.rpm"
+RPM_HASH = "544142d2f51082fc3280703861868d48e4ce5acda8c129b4d47ef15b4ea6f89bff0a4a9c27b8796bebc685c27c36541956acb403e9f5c90847b6a5df9468d08b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pydash \
-python3.10dist-pydash \
+RPROVIDES:${PN} += "python3.10dist-pydash \
 python310-pydash \
 python3dist-pydash"
 

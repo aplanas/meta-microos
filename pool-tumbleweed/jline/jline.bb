@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.14.6"
 
-RPM_NAME = "jline-2.14.6-5.4.noarch.rpm"
-RPM_HASH = "53f7e94c5f64daa7fe58a0493be1b82ff848eafaef99f67b9fa80c6324cc928e20078a4cbcfb577ac6075ac31fe934f14624938bd3d8b0cde317ef33e817dc9b"
+RPM_NAME = "jline-2.14.6-5.5.noarch.rpm"
+RPM_HASH = "d9190b8515e537f1c9468a66551fcc3d7424107ce1b207c59fa8f38040580c3fb1fc6e9f11acfffd890c51e18f605605945348f766562ab17d2f11cc5d0ac37e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jline \

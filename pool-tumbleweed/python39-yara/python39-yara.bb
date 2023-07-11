@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "4.0.2"
 
-RPM_NAME = "python39-yara-4.0.2-1.18.aarch64.rpm"
-RPM_HASH = "91bebda4ec8c4cad1c47ccb9fb5d3e9d14042c3559ecd090da9cb6dafdec307379e87828409dcb1414610cc5dcbd6bc254538d4386027e527704dbc2d76581f2"
+RPM_NAME = "python39-yara-4.0.2-1.20.aarch64.rpm"
+RPM_HASH = "b3ff3cd19f212df127bfb63085f53ae712e21f45f02759f34634f7a6c54ff7c52f7a3f76f4d0ebd982003b24e070ce100ae6351990b437068b55992c9c96fafd"
 
 RPROVIDES:${PN} += "python3.9dist-yara-python \
 python39-yara \

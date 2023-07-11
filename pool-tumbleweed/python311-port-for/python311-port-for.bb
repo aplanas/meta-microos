@@ -34,11 +34,12 @@ LICENSE = "MIT"
 
 PV = "0.6.2"
 
-RPM_NAME = "python311-port-for-0.6.2-1.7.noarch.rpm"
-RPM_HASH = "7270d8324efc6ecca0ef853a35cc8549fcf7b2d1d3c2f912074e7c6c3f856ed40decfca2b3c2a7ba297fefcf1de224046f0a5a2b5b20c5ad0fc90fba9d61e6d6"
+RPM_NAME = "python311-port-for-0.6.2-1.9.noarch.rpm"
+RPM_HASH = "378dfcf590f074545a4a2058845c78174ae02b62a5607d31735610428d29040166610769b708d80a6d07f704f24472f6eaf8a3e8debacb763798d9fe93ca2644"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-port-for \
+RPROVIDES:${PN} += "python3-port-for \
+python3.11dist-port-for \
 python311-port-for \
 python3dist-port-for"
 

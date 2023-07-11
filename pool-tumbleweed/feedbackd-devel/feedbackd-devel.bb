@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only & LGPL-2.1-only"
 
 PV = "0.1.0"
 
-RPM_NAME = "feedbackd-devel-0.1.0-2.2.aarch64.rpm"
-RPM_HASH = "7f6b054b28da5da835563338205ba0c47b4bfadbea7eeffb8cfcc7c63a5fa50a662884568ca6401fc5b94fbd6a9ef6a1fc3c6308eb68609a61fb68531d88c674"
+RPM_NAME = "feedbackd-devel-0.1.0-2.3.aarch64.rpm"
+RPM_HASH = "28e71256b8a8604e5513784863e96d6119182f873dd54a8303853ce72f4c4b6f8d98622e473f5e4b9481a5bf0f15e2bd797ee1f69cf66c5b2c7f944e1e73c2d4"
 
 RPROVIDES:${PN} += "feedbackd-devel \
 pkgconfig-libfeedback-0.0"

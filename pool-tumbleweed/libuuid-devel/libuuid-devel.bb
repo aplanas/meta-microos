@@ -3,10 +3,10 @@ DESCRIPTION = "Files to develop applications using the library to generate unive
 unique IDs (UUIDs)."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.38.1"
+PV = "2.39"
 
-RPM_NAME = "libuuid-devel-2.38.1-13.1.aarch64.rpm"
-RPM_HASH = "a0bc09d136fef4ff5b0deed1f12d9bbc764b5153240a42a957af54aab30274d2398b8eaa538b1a3510a9cecabea8642294080740f17f04d6a60e91fa4e660344"
+RPM_NAME = "libuuid-devel-2.39-1.1.aarch64.rpm"
+RPM_HASH = "5267c6d95b5dd759f078f161c4aa228f37a9bda40ba7ef7213d9c455c23d5952fdd7295e06f452eeb35be48941186719bc21a15ae61e2027fac42a548158a87c"
 
 RPROVIDES:${PN} += "libuuid-devel \
 pkgconfig-uuid"

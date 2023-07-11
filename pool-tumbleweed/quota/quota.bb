@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "4.09"
 
-RPM_NAME = "quota-4.09-2.3.aarch64.rpm"
-RPM_HASH = "103fc70d6e9432f50502d6b0d153c6ba3bba6acb78b56b2d97ff8d4d285c21e78bb1eaaf04e4c1adf808076a8f17f3cb2405fc332d56ea68d215f2bed82c0928"
+RPM_NAME = "quota-4.09-2.4.aarch64.rpm"
+RPM_HASH = "16d36512ab0f3bec7ff60f81ba26c8d90871480d38614b4b9835e4217ce4c1068c6945860094f059c010f580228c1307bbde16ac6192a5aebedd62d5c1466870"
 
 RPROVIDES:${PN} += "config-quota \
 quota"

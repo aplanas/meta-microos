@@ -15,8 +15,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.5.2"
 
-RPM_NAME = "python39-aioeventlet-0.5.2-4.3.noarch.rpm"
-RPM_HASH = "76604330645e1fb305455d920b25cd45383a726dd220be24a986c57e062b56fe6062143babebdb7d321d6b13bc3903d210e2896ae1e475c3bf749ea5bba7e1e2"
+RPM_NAME = "python39-aioeventlet-0.5.2-4.5.noarch.rpm"
+RPM_HASH = "130b606afe61253d264bb2823f523afece52e2ed8c10305069c673083b0abe3f5832a596a36b5eb8176efee4f21b365d9cf812f67877fd238b1e1c240d5e5c6d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-aioeventlet \

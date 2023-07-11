@@ -4,11 +4,12 @@ LICENSE = "Python-2.0"
 
 PV = "0.7.2"
 
-RPM_NAME = "python311-compileall2-0.7.2-1.4.noarch.rpm"
-RPM_HASH = "9d7191680c729fc507c9f46f26d2d64bb3cd1c74e339bdfd7ce8a8b167c8649482fc2e146096065076dc0cdb219ff757be1cd2c92f6898305f53263c86d9fe9d"
+RPM_NAME = "python311-compileall2-0.7.2-1.6.noarch.rpm"
+RPM_HASH = "e7363883576563cdb7f006ef2a799994f6f4922a297193066391d9e47604d4d435de834e31b449abdd1f1b5864d711100893f99333dd8e9263c8cded4789615f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-compileall2 \
+RPROVIDES:${PN} += "python3-compileall2 \
+python3.11dist-compileall2 \
 python311-compileall2 \
 python3dist-compileall2"
 

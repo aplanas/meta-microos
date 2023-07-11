@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.6.0"
 
-RPM_NAME = "budgie-showtime-applet-1.6.0-1.1.aarch64.rpm"
-RPM_HASH = "760bbc6de2f52c4d40bfd0af7e2a7f3a6612dc5d2ded7fa55b7f3a70958ad1ff8d36086ba986ad04439ae9c73739068221568c8b6eb2b6ff744bdad4588adba1"
+RPM_NAME = "budgie-showtime-applet-1.6.0-1.2.aarch64.rpm"
+RPM_HASH = "3cd10dc289113cf22c1883673f9f2056729e6902d5677ed6f4d4770319cf02a8393e70cce7655d58a54b685226b2bb735e258397bd79b6d38fbd0a4c0f46cd0f"
 
 RPROVIDES:${PN} += "budgie-showtime-applet \
 libbudgieshowtime.so"

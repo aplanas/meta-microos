@@ -4,12 +4,11 @@ LICENSE = "Apache-2.0"
 
 PV = "0.1.8"
 
-RPM_NAME = "python310-py-espeak-ng-0.1.8-1.14.noarch.rpm"
-RPM_HASH = "68c998d2422eb28765e2741bd5714562c6bf7b4dedfe29631ae652d3f0f2845233000e7716e8b92b156028dbbf5d0ee885a03a77b9151697c4016741512f6f39"
+RPM_NAME = "python310-py-espeak-ng-0.1.8-1.16.noarch.rpm"
+RPM_HASH = "1dd1d0132a627becdb85564bd57c95335e2f881beba6821fd596a75a01a37ed29bef30360fca1e17a6c0f4430b61ca5f901a8a49346746b59fe0de769976637c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-py-espeak-ng \
-python3.10dist-py-espeak-ng \
+RPROVIDES:${PN} += "python3.10dist-py-espeak-ng \
 python310-py-espeak-ng \
 python3dist-py-espeak-ng"
 

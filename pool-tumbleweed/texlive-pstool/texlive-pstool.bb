@@ -14,8 +14,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.5esvn46393"
 
-RPM_NAME = "texlive-pstool-2023.201.1.5esvn46393-53.1.noarch.rpm"
-RPM_HASH = "e8bb4ce20b4c05c9cc5596b883e5a95b56098b132e6bc053444687c35a210e106d8b0d60f9bb2c5c8fbabdab78b8bec1fc7ef8850a62a44b1625814dc454a77b"
+RPM_NAME = "texlive-pstool-2023.201.1.5esvn46393-53.2.noarch.rpm"
+RPM_HASH = "d9f5dcfcec2ffc3724a98e8c6cfa129cdbd27630c1d91fb9180c65eb24ec15e19f21703fb06c8106a2cdbde0c8aa85dfec799dfa06fddc4ba046487484f16f4f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pstool.sty \

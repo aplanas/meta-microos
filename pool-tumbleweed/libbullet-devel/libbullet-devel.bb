@@ -5,8 +5,8 @@ LICENSE = "Zlib"
 
 PV = "3.17"
 
-RPM_NAME = "libbullet-devel-3.17-1.9.aarch64.rpm"
-RPM_HASH = "02c69cdd5b8a8802c99da7fa56a5e7d0f7d2b44cb6a0f999aaa231575fd2033b697ea8adb3beb27c470ae259788c1d3efc29fb258150dce406718b4125437d73"
+RPM_NAME = "libbullet-devel-3.17-1.10.aarch64.rpm"
+RPM_HASH = "c6a4ecab38b45db240684d8a3ed96c23b51cc3ee57b8273788d50b0c2c7fac801b05837efb76ed46f42fcd1e2f0ce84c7283debce504857caea9a3bd16bdb468"
 
 RPROVIDES:${PN} += "cmake-Bullet \
 libbullet-devel \

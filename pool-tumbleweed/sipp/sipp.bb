@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.6.1"
 
-RPM_NAME = "sipp-3.6.1-1.14.aarch64.rpm"
-RPM_HASH = "6f779b1311742ca38f7c3f29118eb693cbb1b7494bbd34d4c1185a6b9ed000f6faa13ba568c57c4fc3577a67df830b805728e9a4ee6f9a5c57e743e84c67eee5"
+RPM_NAME = "sipp-3.6.1-1.15.aarch64.rpm"
+RPM_HASH = "ea55c430d41370f2ea21f1adcbf81733d62f7c7d16abb7506d217ba90e6b46c2d0bcc3d5f615313fb9bc5a6de6a231e34dc9d85c08b19e3bc948f576ef567866"
 
 RPROVIDES:${PN} += "sipp"
 

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.2.0"
 
-RPM_NAME = "sdbus-cpp-devel-1.2.0-1.5.aarch64.rpm"
-RPM_HASH = "9107cfb6842350476b98ccb655fa2fe4b212bfbfac999bd8774d85aa36e1a52b526a6e02eab2d11313f74d4873fcd1ee71020eb639b99943d7f84e016c9c5dba"
+RPM_NAME = "sdbus-cpp-devel-1.2.0-1.6.aarch64.rpm"
+RPM_HASH = "af23fe020ba6179f9d853049cc9314d75894bf94ebbc16676f32eb35dabfb43d7c3048363daffaf3392fcf3a74503213732c627235353bf2c67580c82cb946c7"
 
 RPROVIDES:${PN} += "cmake-sdbus-c++ \
 cmake-sdbus-c++-tools \

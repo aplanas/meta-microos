@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides a number of tools for managing settings in 
 desktop environment."
 LICENSE = "GPL-2.0-only & GPL-2.0-or-later"
 
-PV = "4.18.2"
+PV = "4.18.3"
 
-RPM_NAME = "xfce4-settings-4.18.2-1.3.aarch64.rpm"
-RPM_HASH = "199d83b4500689a537ba90769a630ddf56b6a01dd5d527abbaee0e8426f0d0d070a2357be3ff214cdc87a9a49d90608cc234c4abb85359da35b0c860d55b321f"
+RPM_NAME = "xfce4-settings-4.18.3-1.1.aarch64.rpm"
+RPM_HASH = "8fa2ecff426c76d989d0dfdf5a705e048936ceed42e07a9b8de8b775501884ab30187909b1654731f87553415050561f4e943c75124a1e669f291c1a001bc04d"
 
 RPROVIDES:${PN} += "xfce-mcs-manager \
 xfce-mcs-plugins \

@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn27321"
 
-RPM_NAME = "texlive-a2ping-bin-2023.20230311.svn27321-91.1.aarch64.rpm"
-RPM_HASH = "8a1e853ee7167550180b8db52c8fd51baa5739c6df9014b6b50ebcd867370a4ee91a38fa809318e522a3b2e3da53f4461df0f32eae914e1666cc0c05ded2f0d6"
+RPM_NAME = "texlive-a2ping-bin-2023.20230311.svn27321-92.1.aarch64.rpm"
+RPM_HASH = "6f2edec5a2f9827ecf017c4e57fdb2e99453f796bcc23c4fb7207e9f6ae9a0b0998a482ea7f60a654f5dd83925fc3aa2685ed38c691754edb0b1ef45f78bfd11"
 
 RPROVIDES:${PN} += "texlive-a2ping-bin"
 

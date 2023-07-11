@@ -2,10 +2,10 @@ SUMMARY = "Library for identification using RSA Blind Signatures"
 DESCRIPTION = "A library for user identification using RSA blind signatures."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.8.5"
+PV = "0.8.6"
 
-RPM_NAME = "libd0_blind_id0-0.8.5-1.1.aarch64.rpm"
-RPM_HASH = "255a7e019e5f58c16e7129105913d4dfd57421111d77e1f112523cdce36a1a27fb8de80c7c20585e737564effbc3c7b385cb513b474d3ea4a98968f429c78632"
+RPM_NAME = "libd0_blind_id0-0.8.6-1.1.aarch64.rpm"
+RPM_HASH = "22ed81a962be594ea53c75e74b413a7766d6f0925a30dab9ac65df44e352b10997e3a9b6e5d60729d848135daebc6db107c5313e6fc40544949aa406895da215"
 
 RPROVIDES:${PN} += "libd0-blind-id.so.0 \
 libd0-blind-id0"

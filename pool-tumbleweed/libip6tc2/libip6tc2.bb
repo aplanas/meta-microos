@@ -6,8 +6,8 @@ LICENSE = "Artistic-2.0 & GPL-2.0-only"
 
 PV = "1.8.9"
 
-RPM_NAME = "libip6tc2-1.8.9-1.3.aarch64.rpm"
-RPM_HASH = "f69614de21f6f95494ab0810b17bfd0e9ac7d91ae07bf737fb09e6f05ec9dbfc477ba6b1d3a251fc8a2d001136618e664c104774e8ba6e44aa91de62354d54cd"
+RPM_NAME = "libip6tc2-1.8.9-1.4.aarch64.rpm"
+RPM_HASH = "52d8a2d909346b66031ce1ad2b75336104a030eb52d0ce15d35881fd24860bdbab4a55a55dfd3581f02e03d99f30951f074dc08f9fd5b63f9a57c489f935c315"
 
 RPROVIDES:${PN} += "libip6tc.so.2 \
 libip6tc2"

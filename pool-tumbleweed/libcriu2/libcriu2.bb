@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the library for CRIU, Checkpoint/Restore In
 Userspace Tools."
 LICENSE = "LGPL-2.1-only"
 
-PV = "3.17.1"
+PV = "3.18"
 
-RPM_NAME = "libcriu2-3.17.1-3.5.aarch64.rpm"
-RPM_HASH = "650f12e45161ab9f4df64b03a1ec99176f4ce8e39efa4bf690b4c81198b77277f81daf704ce051df8a24f9174fc18488a87947da5fb81e43e522b25ac6af5258"
+RPM_NAME = "libcriu2-3.18-1.2.aarch64.rpm"
+RPM_HASH = "1f28a732d616e076b65caa7dcae226850cce1bd66420568e63ce7663ae8c427dec0abdaeb6927353b84752ed9abf724beda724cf310373219dc056f50c7f64b6"
 
 RPROVIDES:${PN} += "libcriu.so.2 \
 libcriu2"

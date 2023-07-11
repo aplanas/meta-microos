@@ -8,13 +8,12 @@ that statsmodels fully meets their needs for statistical computing \
 and data analysis in Python."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.13.5"
+PV = "0.14.0"
 
-RPM_NAME = "python310-statsmodels-0.13.5-2.5.aarch64.rpm"
-RPM_HASH = "20a7eafdb21007fdf7f74d38519836800ee2f4352c5288adff02a6a0dbed5a8beb5916728389baa275fe290f76a8895b2305a993889c974a8ee55b9a227c3392"
+RPM_NAME = "python310-statsmodels-0.14.0-1.1.aarch64.rpm"
+RPM_HASH = "d3e3e0b51bffc30116581273c57999960f2943dedf5ac570018fede2b5e6c0e0ba585c230e5b08916ceb3e75ff912770e5fdf6ba2a8f2343fb55d9658c3163ef"
 
-RPROVIDES:${PN} += "python3-statsmodels \
-python3.10dist-statsmodels \
+RPROVIDES:${PN} += "python3.10dist-statsmodels \
 python310-statsmodels \
 python3dist-statsmodels"
 
@@ -22,6 +21,7 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 python-abi \
 python310-numpy \
+python310-packaging \
 python310-pandas \
 python310-patsy \
 python310-scipy"

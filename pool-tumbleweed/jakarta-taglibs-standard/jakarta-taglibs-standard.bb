@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.1.2"
 
-RPM_NAME = "jakarta-taglibs-standard-1.1.2-2.6.noarch.rpm"
-RPM_HASH = "4d7def67219266c127b689c8344ae2d4531d098f5100604b86f2ff08dc9e51b1a07ee48c1d68fd152d0c36641c81e695a519865992eca07698ba65095b916557"
+RPM_NAME = "jakarta-taglibs-standard-1.1.2-2.7.noarch.rpm"
+RPM_HASH = "184d910c697a2a7b98cef712a0313c55a4004fb80c64667f6edde7d125195dff3ddd44f6eb333d76a0d60e0210b0f64302e5308a63fc4416dd4e6b58b0a84775"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jakarta-taglibs-standard"

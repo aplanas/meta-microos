@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "3.13.0"
 
-RPM_NAME = "python39-django-cors-headers-3.13.0-1.3.noarch.rpm"
-RPM_HASH = "f09529129de2934dd4c38c06cb9fecb0c6d89904985fafa9646a09ca6af3e8d96a4f674f40b1ec2758b09f7b5a85fe881d6701a2f93ca902092f898ddefc1235"
+RPM_NAME = "python39-django-cors-headers-3.13.0-1.5.noarch.rpm"
+RPM_HASH = "3c076f4bf871bc3c0508d13a16f2262e448f0000545b16a6c56b39f777a7ba8d64999bd3852a6628cac041fd52ecfd4a7710d07ff300c453aa48e6c63ed6c194"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-django-cors-headers \

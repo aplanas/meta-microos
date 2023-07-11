@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.2.9"
 
-RPM_NAME = "libnilfsgc0-2.2.9-1.4.aarch64.rpm"
-RPM_HASH = "f933ef5624e1bf6d0872fba336d6f2e56df5716600aa5f81168de4211a51ce1945d88adb270efef73f1fa8440c2d3ca01b9ad8ab1fd57b836693ec0f22a81a9c"
+RPM_NAME = "libnilfsgc0-2.2.9-1.5.aarch64.rpm"
+RPM_HASH = "5276e7aac351f07ce7a5c730d92fe0061add234d5fdecbee62925a933c5235ecec96ef6e745750621f44e270b01e25ca42171f747d85ff5c44cfce5fd7c6af34"
 
 RPROVIDES:${PN} += "libnilfsgc.so.0 \
 libnilfsgc0"

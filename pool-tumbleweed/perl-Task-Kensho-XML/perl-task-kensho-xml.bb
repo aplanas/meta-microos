@@ -33,14 +33,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.41"
 
-RPM_NAME = "perl-Task-Kensho-XML-0.41-1.9.noarch.rpm"
-RPM_HASH = "0ab8447c2f25281d5d20a0eaf6d3131810d18c51dca3140ae0b2d9c79ae5e582c87e5e71cd2ea548fcec5c4d262d2d8fde70d82ea048318b8bcc9b64298aca45"
+RPM_NAME = "perl-Task-Kensho-XML-0.41-1.10.noarch.rpm"
+RPM_HASH = "b4516a16a61e27ddfed4c31f189bd9fd2bfefdb5f768746f80ccf8b24e5bf425daddafa489abf1a71ac111067602821ea98330948805176a5322878857b6eb87"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Task--Kensho--XML \
 perl-Task-Kensho-XML"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-XML--Generator--PerlData \
 perl-XML--LibXML \
 perl-XML--LibXSLT \

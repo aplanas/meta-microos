@@ -6,14 +6,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.29.4"
 
-RPM_NAME = "python310-metakernel-0.29.4-1.3.noarch.rpm"
-RPM_HASH = "b039a9c44b2ef8ace076494525285c2b4baaeeb388a2b9e97ab7a961a3c87a512333d982613ff838d58c4c8e6d7e3024bb29c69ca63712985166766b2ee794de"
+RPM_NAME = "python310-metakernel-0.29.4-1.5.noarch.rpm"
+RPM_HASH = "05902eb5913afe331c2b2168117efec9ae8422f6d36272bf32aa37795e9244ca43ed5940172561f2cdda8cfc73e944f047496a9fec32dfc3ccf351a92147b389"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jupyter-metakernel \
-python3-jupyter-metakernel \
-python3-metakernel \
-python3.10dist-metakernel \
+RPROVIDES:${PN} += "python3.10dist-metakernel \
 python310-jupyter-metakernel \
 python310-metakernel \
 python3dist-metakernel"

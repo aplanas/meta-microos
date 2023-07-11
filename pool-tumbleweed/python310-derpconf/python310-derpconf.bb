@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.8.3"
 
-RPM_NAME = "python310-derpconf-0.8.3-2.1.noarch.rpm"
-RPM_HASH = "0b9134a0753e1e3634435eb1e4e22633609590fd83376b4d13126384ad1119001fad913b242fccfa3062cb5023efa8a0a396dad51af627feeb3166c40d82f23f"
+RPM_NAME = "python310-derpconf-0.8.3-2.3.noarch.rpm"
+RPM_HASH = "10a4d865148ca29acac0888641c9f910654a3c745893b1b36859e88490f74414cf6d7aba83ddb117c329cf1af0de254de103665192f33ee9f05ddb096484b4fd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-derpconf \
-python3.10dist-derpconf \
+RPROVIDES:${PN} += "python3.10dist-derpconf \
 python310-derpconf \
 python3dist-derpconf"
 

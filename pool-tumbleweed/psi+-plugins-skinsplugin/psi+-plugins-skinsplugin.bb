@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-or-later"
 
 PV = "1.5.1615+0"
 
-RPM_NAME = "psi+-plugins-skinsplugin-1.5.1615+0-3.1.aarch64.rpm"
-RPM_HASH = "77bbf6912046bd8c23d8656e6571a7a14c453c019d746f345dc05290c19ea8feb190c31fa57feed8b33ec22f836c562b60649d220435de9d71ca4aad42f7f464"
+RPM_NAME = "psi+-plugins-skinsplugin-1.5.1615+0-3.2.aarch64.rpm"
+RPM_HASH = "8ff01b0132398b3b82bcb58a4e752dbb4275faf18aa13993ee3299d1b152cadd000195ee62deac1f785da03aa0c2737209dbbc5493cb0ed869f31e2dbaf3f14c"
 
 RPROVIDES:${PN} += "libskinsplugin.so \
 psi+-plugins-skinsplugin"

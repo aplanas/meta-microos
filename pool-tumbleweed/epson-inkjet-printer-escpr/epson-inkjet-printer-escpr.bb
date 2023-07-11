@@ -16,8 +16,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.7.22"
 
-RPM_NAME = "epson-inkjet-printer-escpr-1.7.22-1.3.aarch64.rpm"
-RPM_HASH = "484c532d4be645bcab5a9d75f0e89d7aafb4e6a9a161b6226129f36551c660a4ac830cb116956249ae6895233824798bd78956c33fd40935ff5f876328bffa0f"
+RPM_NAME = "epson-inkjet-printer-escpr-1.7.22-1.4.aarch64.rpm"
+RPM_HASH = "a748c0516e968167ebdbac8c033820d8b9e435b1b8930b995fadfb282c540b7066969bb23f4c3c315bd56a7a0bc6e566eab9a871cb1175b47da14f53c6c57561"
 
 RPROVIDES:${PN} += "epson-inkjet-printer-escpr \
 libescpr.so.1 \

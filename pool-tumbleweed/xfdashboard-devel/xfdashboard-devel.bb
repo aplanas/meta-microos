@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0.0"
 
-RPM_NAME = "xfdashboard-devel-1.0.0-1.4.aarch64.rpm"
-RPM_HASH = "4b700adf6ed5fa12f9307a9abc0e955eb2816e5e4fd05b8444b643a515f011c51987cdf54ad3c142a341913316a194b809b016a0c4d9f865eae673efa7c6e9aa"
+RPM_NAME = "xfdashboard-devel-1.0.0-1.5.aarch64.rpm"
+RPM_HASH = "3fd95465c01be6bffffc54e77a9fba3b879d1a33b458aebe507b374de384f7f31e73fae70a0c12efd971313554b0457f194818786487209949680ad9394c7f96"
 
 RPROVIDES:${PN} += "pkgconfig-libxfdashboard \
 xfdashboard-devel"

@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0b4"
 
-RPM_NAME = "python39-azure-communication-administration-1.0.0b4-1.8.noarch.rpm"
-RPM_HASH = "7142fe800adb8b81606baa13964c62f0733039d29e2400b35551bda08a5348a61e19ec4794cebab637f9cb6fee8c9701e95c9afabd1290d108b4fb1e9fdcaa6c"
+RPM_NAME = "python39-azure-communication-administration-1.0.0b4-1.10.noarch.rpm"
+RPM_HASH = "e1c0df9275b83192f6118cc593e54962285f2869b9f3e69084ffec4b3e998c107deb002384883cc6a8d89708e664ab81aaf1107d74e886a3c660299c377b3a25"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-communication-administration \

@@ -20,8 +20,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.7.0"
 
-RPM_NAME = "python39-tblib-1.7.0-1.11.noarch.rpm"
-RPM_HASH = "96787f54fc929f709f65534f5b7be60508ad7587b62aa583f912bbd86737104c0ebaf0df8b5a9344a99887c37cdd3f3fdaa4a5a65f279a4d02aaa58f570faf48"
+RPM_NAME = "python39-tblib-1.7.0-2.3.noarch.rpm"
+RPM_HASH = "564638d901790375407c3ed0bd7ea5f9ca06c649bc6e4e3a3ca31eb4fcd6f908494b19a1f5007527d872f9e056d7f9ab8be41f007ebb5646fb34119e12a1165d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-tblib \

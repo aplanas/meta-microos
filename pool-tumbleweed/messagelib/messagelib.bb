@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the messagelib library. It is used by KDE P
 display emails."
 LICENSE = "GPL-2.0-only & GPL-3.0-only & LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "messagelib-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "6c591c55811b74f03aa50a3701662f469c26e9ed9d360d21d072e4ed5be28d6720421addbf55ff5a516610d2c6efd057a8d79f8c9b4c7b8ec7770541b6dfae25"
+RPM_NAME = "messagelib-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "5e0b819484a49d58fb966e198d994237201dcf62ec2253d1e71459cf2dc933013448d8b08ba618e97332e48230fd75a4f79dc1bd5d56bb0805e49dcf48b90f97"
 
 RPROVIDES:${PN} += "libKPim5MessageComposer.so.5 \
 libKPim5MessageCore.so.5 \

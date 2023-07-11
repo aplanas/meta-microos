@@ -16,8 +16,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.1"
 
-RPM_NAME = "libjbig2-2.1-4.4.aarch64.rpm"
-RPM_HASH = "9218d8a6fbdd83de74eadc41f954fffa1a0722ab5677bb906fcd3bad4774252d62c058e38e20b6fee6b3151732ab1747c067ebe56ef5a98f8e15ac82331f0a13"
+RPM_NAME = "libjbig2-2.1-4.5.aarch64.rpm"
+RPM_HASH = "77177eb00d059b603a3654b8ae439626624aada805afbcf9d3b0a216777a2a302a6530df469571a6b7715970bf758585af8e136a549afe2bed4883c7ccbd2fb3"
 
 RPROVIDES:${PN} += "libjbig \
 libjbig.so.2 \

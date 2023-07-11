@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
 PV = "2.3.1"
 
-RPM_NAME = "monitoring-plugins-nwstat-2.3.1-9.4.aarch64.rpm"
-RPM_HASH = "ac8cc21b7962a0d2e29b538bf1e04febece1af135640cb45dcb9173af0779ffd42e9bb24af049bd4ede7a46d9a1cd4ecf002fabaeed23caa2373d4564d66d1d8"
+RPM_NAME = "monitoring-plugins-nwstat-2.3.1-9.5.aarch64.rpm"
+RPM_HASH = "89929390bb77e572ed7f229fda26885d1e5940ef9f9b7fb7a80e32f62e992517edd3dbd310643345857ae7ebda3d2f9ef1aa44cb01e8a11bfb24090b5872387e"
 
 RPROVIDES:${PN} += "monitoring-plugins-nwstat \
 nagios-plugins-nwstat"

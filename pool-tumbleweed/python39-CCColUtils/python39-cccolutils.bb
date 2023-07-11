@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.5"
 
-RPM_NAME = "python39-CCColUtils-1.5-1.13.aarch64.rpm"
-RPM_HASH = "a8d0301e4edf91ecfbff47e6a843bdf9d0ce3c3c1c3deda47c4ddd5e27dc4644f85f858fa343e97bc2d1d7bd1071b8d9d398b3e7e96feb58f4a40a4ce3b86a41"
+RPM_NAME = "python39-CCColUtils-1.5-1.15.aarch64.rpm"
+RPM_HASH = "7078d107bdac6c3fc663555f316977e44c6c204d155c0feee96deb82903f76f8e2f2701b033ae10e7b31eb67e94ca28a7edae2758052c53e1d68f638983193e2"
 
 RPROVIDES:${PN} += "python3.9dist-cccolutils \
 python39-CCColUtils \

@@ -4,12 +4,11 @@ LICENSE = "Zlib"
 
 PV = "1.2.9.1"
 
-RPM_NAME = "python310-pysmb-1.2.9.1-1.3.noarch.rpm"
-RPM_HASH = "791904815964ffc0b54962732ad5e941b683a10d895166868ebc878865088cd9452afc5fd3ff6696fa4c873a705379cc71015888a36c8907026ed8dbd0160b06"
+RPM_NAME = "python310-pysmb-1.2.9.1-1.5.noarch.rpm"
+RPM_HASH = "37f2f2d67e0f86790318a9e76db85b266ed537cb23ef61126585f6778ad5c623e99a8b3205605ab8cf04ce2512cfa8a5613a1e28a2f0059c565eb7c582574077"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pysmb \
-python3.10dist-pysmb \
+RPROVIDES:${PN} += "python3.10dist-pysmb \
 python310-pysmb \
 python3dist-pysmb"
 

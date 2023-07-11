@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.7.9"
 
-RPM_NAME = "libumfpack5-5.7.9-49.1.aarch64.rpm"
-RPM_HASH = "e7866e710a1f9bfe008bfa908d27d222d915e53c8d1e5d2645cfcded7031e052859f78c9e1afd416aadc7dd851a201378841c717c271c02fa6f31744c9fc325d"
+RPM_NAME = "libumfpack5-5.7.9-49.2.aarch64.rpm"
+RPM_HASH = "75fecdbe08ad781ab8a35d68bc6ef5f43dc3fb19e4e30f0b99d89354b6b4e7ce8eaa95de0b8dbdbfcccee1d9fc7d4d6b7fe62f3aa8925e877f5b186002a41cd2"
 
 RPROVIDES:${PN} += "libumfpack-5-7-9 \
 libumfpack.so.5 \

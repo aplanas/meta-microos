@@ -2,10 +2,10 @@ SUMMARY = "The Mozc engine for IBus"
 DESCRIPTION = "The Mozc engine for IBus provides a Japanese input method."
 LICENSE = "Apache-2.0 & BSD-3-Clause & SUSE-Public-Domain"
 
-PV = "2.28.4715.102"
+PV = "2.29.5111.102"
 
-RPM_NAME = "ibus-mozc-2.28.4715.102-2.1.aarch64.rpm"
-RPM_HASH = "94e8aa60f9307f6278473535b08cdb65ab7513930ae4b482ba42b478eb549c7172ed0228023b8cebf985766b261f4a68f1be5e904ca060c6e973d2089017cfc6"
+RPM_NAME = "ibus-mozc-2.29.5111.102-1.1.aarch64.rpm"
+RPM_HASH = "4d3a5ccd8b373240a8a311a8bc572c8230b40212f5c66676952197f8022a3a7b86ff719e83047101e530fe628aac1b1555382ab97a665388954311d16d7f8939"
 
 RPROVIDES:${PN} += "ibus-mozc \
 locale-ibus-ja"

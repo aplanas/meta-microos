@@ -8,8 +8,8 @@ LICENSE = "BSD-2-Clause & GPL-2.0-only"
 
 PV = "0.2"
 
-RPM_NAME = "opus-tools-0.2-1.21.aarch64.rpm"
-RPM_HASH = "1a3bee31812f940eb2b2f713ef165ca81ca248607f8c31ecf9c8a3398a0ec3eb3632eb864a842c57bb82911fc2a46192e5fac4aab0f26cd8a1cd390096bd121f"
+RPM_NAME = "opus-tools-0.2-1.22.aarch64.rpm"
+RPM_HASH = "770b424f7fc83735539a58df38b14d380fa29b015a92e9f61c303900d6ee43002215f2160841d210beeea2db7ecc317cbdc516d30f0529e91d353bdec374faa2"
 
 RPROVIDES:${PN} += "opus-tools"
 

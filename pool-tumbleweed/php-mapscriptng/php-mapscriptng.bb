@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "8.0.0"
 
-RPM_NAME = "php-mapscriptng-8.0.0-2.5.aarch64.rpm"
-RPM_HASH = "e2797a1f2f6b9053bfcb232e9370e288a15cc6cf942d7e761ad40ac070fd117495ea6db436a05ccb91745b96b320a3d070da62843f94d4dcc683df462866b024"
+RPM_NAME = "php-mapscriptng-8.0.0-2.7.aarch64.rpm"
+RPM_HASH = "b39063b69b98037357a1b2055adece7291f8d499b04bbc8b0603b669ecadd38c00ebfdd54f6e4f8eae2ec86553e7e4d8bb7d0f5ce7b413771af0024eaa4b208d"
 
 RPROVIDES:${PN} += "config-php-mapscriptng \
 php-mapscriptng \

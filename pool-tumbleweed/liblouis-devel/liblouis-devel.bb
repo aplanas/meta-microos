@@ -9,8 +9,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "3.25.0"
 
-RPM_NAME = "liblouis-devel-3.25.0-1.1.aarch64.rpm"
-RPM_HASH = "3b419cf4802c1610df3bcd5b228dc5cb1b5093f30e7ac06c5558802f1aae65806f0b0303ae95d98dc6b4416d9316f40dba64c63b452d45b9411a92bb853dc11b"
+RPM_NAME = "liblouis-devel-3.25.0-1.2.aarch64.rpm"
+RPM_HASH = "90ef73c77bf8ed0ab1f54fd26bab704be273b03ab880d624e3d969542ba46aace06b91b3875fe4b440a9b451f367d2853f2655d8ab28b9f514a1caa4dba00f36"
 
 RPROVIDES:${PN} += "liblouis-devel \
 pkgconfig-liblouis"

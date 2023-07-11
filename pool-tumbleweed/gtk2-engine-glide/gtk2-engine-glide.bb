@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "2.20.2"
 
-RPM_NAME = "gtk2-engine-glide-2.20.2-19.42.aarch64.rpm"
-RPM_HASH = "d4fed3087883c1583d141a631a06b51260255073215c8dff116ff04db552b8193828c12d2bd0466c414ca5ef73a4dbb6666cadae6a53680f1c851ca04e895ea6"
+RPM_NAME = "gtk2-engine-glide-2.20.2-19.43.aarch64.rpm"
+RPM_HASH = "c25d4b2db2d06ed59dd72cc408e677f464cbf05ba664bd2d8a6a0d0809cf04fd16d6fef7f46a0a5b7fa065b0ea2f4332afce6e5ad936f33a92a182019b108bb3"
 
 RPROVIDES:${PN} += "gtk2-engine-glide \
 libglide.so"

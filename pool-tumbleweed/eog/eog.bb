@@ -4,10 +4,10 @@ which uses the gdk-pixbuf library. It can deal with large images, and \
 zoom and scroll with constant memory usage."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "44.2"
+PV = "44.3"
 
-RPM_NAME = "eog-44.2-1.1.aarch64.rpm"
-RPM_HASH = "e9ac5d6e6d849ca91a7f480e05c777cd98e480661ad07560aa0e97d8035cf23eb2b6b8dbbad5c28d7a3e6c8220fcca5237b04ea9432f0cb6991459af8b74b6e1"
+RPM_NAME = "eog-44.3-1.1.aarch64.rpm"
+RPM_HASH = "462ec04448d0cf698dfe738b0ab875157c543189606ae7f455881a831b3291f2efbb66bfb1d890d8efacd85f15b2b8460b480adf4de40d2ebe5823d49ff885d8"
 
 RPROVIDES:${PN} += "eog \
 libeog.so \

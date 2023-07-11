@@ -5,15 +5,15 @@ LICENSE = "GPL-1.0-or-later | Artistic-1.0"
 
 PV = "0.34"
 
-RPM_NAME = "perl-File-Find-Rule-0.34-2.6.noarch.rpm"
-RPM_HASH = "e2c45a61e5570f3abc6821eb296e7821a934a82d520ab0fd4e2e3fa615da13e3fa6a4f9ca836d1e68ccf7021505268595802a15d0eeeda8cc4ba601373af656b"
+RPM_NAME = "perl-File-Find-Rule-0.34-2.7.noarch.rpm"
+RPM_HASH = "bbc4b0c796f9af9542eb9611f77cbf58fbddf1a9c3c1ed9c293ce73635a97ae11b69e4e0d07d48a2e683edc1e583f061ca9aec24eb469106d3fb8e52f9165552"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-File--Find--Rule \
 perl-File-Find-Rule"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-Number--Compare \
 perl-Text--Glob"
 

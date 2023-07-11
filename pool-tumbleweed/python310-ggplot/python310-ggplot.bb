@@ -7,12 +7,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.11.5"
 
-RPM_NAME = "python310-ggplot-0.11.5-3.11.noarch.rpm"
-RPM_HASH = "004b71ac7f4f4940f7a25c22d3db386884a650b0a85e834e867c23ea0099dd600838af7a4ab562137707e763ce8ce9a91eb92a1394065e298dcd10820569ce42"
+RPM_NAME = "python310-ggplot-0.11.5-3.13.noarch.rpm"
+RPM_HASH = "397bec94e0c68f95b65421e88d79114c7ece9ac83265bc8486e816a7ee7021654c883bcd0ddfad32ab653d9a83801c773c575cd26240e8e039bb48070a505b3e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-ggplot \
-python3.10dist-ggplot \
+RPROVIDES:${PN} += "python3.10dist-ggplot \
 python310-ggplot \
 python3dist-ggplot"
 

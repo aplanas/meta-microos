@@ -11,12 +11,11 @@ LICENSE = "MIT"
 
 PV = "0.5.1"
 
-RPM_NAME = "python310-PyMeta3-0.5.1-3.18.noarch.rpm"
-RPM_HASH = "ff7930906aa086692f1125871be4f1c82fb759e8e3ca7b7ce3b62703a4a6ad09c4720e7ab7ed7e3cc951a4b920cfe3a826b318111ee060ab35cad4c3a9dfadda"
+RPM_NAME = "python310-PyMeta3-0.5.1-3.19.noarch.rpm"
+RPM_HASH = "44921a3acbf048324669f46ba1b8c284c9a253c7b334f8380bde8dbac93c7a8a76e1e9786f9f1ec63fc638066213cff1178ccba5a3f6ed70400f2a7b2aecb427"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-PyMeta3 \
-python3.10dist-pymeta3 \
+RPROVIDES:${PN} += "python3.10dist-pymeta3 \
 python310-PyMeta3 \
 python3dist-pymeta3"
 

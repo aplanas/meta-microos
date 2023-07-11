@@ -17,8 +17,8 @@ LICENSE = "MIT"
 
 PV = "0.3.4"
 
-RPM_NAME = "python39-fvs-0.3.4-1.3.noarch.rpm"
-RPM_HASH = "8db53a845020c292cc69c48b0dc98a9e206a96560956b7b0494127d42e9429bb32cc4bdd2b63df0e31b551773ed21ef68936af1f426903e4e9d06086e9e214cd"
+RPM_NAME = "python39-fvs-0.3.4-1.5.noarch.rpm"
+RPM_HASH = "5d37787d2bf78b12c650e52d677d4da9d964c58897dcb084aae57067e2fabc0a5085b444c1ccb1ea4ae90805ea856808c6e7408a71281c21b9e5f3b98e09d5ae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-fvs \

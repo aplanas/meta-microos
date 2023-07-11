@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "0.9.2"
 
-RPM_NAME = "python39-Kajiki-0.9.2-1.2.aarch64.rpm"
-RPM_HASH = "59d9d6037538f9049ae22366040bc294bb59b4bc3f14f9ba5e841f546ae1548d093673013a9cd4e26bdc0a0ecc2836a36a618fbb4afe829d907b2065861e5e52"
+RPM_NAME = "python39-Kajiki-0.9.2-1.4.aarch64.rpm"
+RPM_HASH = "ac527c5220abeeaef21bc3bdee03c60f899850c56801fa987b420ab91069bcab3b9c60d5fd0d372f491cbf6ff9a9a1f5d86bcf8ad1553218f24ec21c8f40d80d"
 
 RPROVIDES:${PN} += "python3.9dist-kajiki \
 python39-Kajiki \

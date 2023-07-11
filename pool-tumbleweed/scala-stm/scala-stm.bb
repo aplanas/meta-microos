@@ -13,8 +13,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.7"
 
-RPM_NAME = "scala-stm-0.7-2.11.noarch.rpm"
-RPM_HASH = "eb7a2fbfe68f2aeeb92925f8ad5b64079121c5fa69c93465aa38eea101a0a8808100cb1b8ece4eeed917610b8bc25c003c7baab966402145658858496138419c"
+RPM_NAME = "scala-stm-0.7-2.12.noarch.rpm"
+RPM_HASH = "aba4e4bce32be2321fd4e46f1fa4390afd847c676aaf23a87fa83918ecffb9cf4d517392f1d7b399bc1d59bf25515e2a6a3093384a29ce68e67fa0d3bdb7cf3f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.scala-stm-scala-stm-2.10 \

@@ -19,8 +19,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.42.0"
 
-RPM_NAME = "gammu-devel-1.42.0-4.6.aarch64.rpm"
-RPM_HASH = "66641c9d6be762488488f132c847dc79b6ff65a31d694150b75f6f3b80b1ff2ce03916040c6eef7c0c6172f55926c0c457a4ca76d7ef77d00496b63c5444e524"
+RPM_NAME = "gammu-devel-1.42.0-4.7.aarch64.rpm"
+RPM_HASH = "b25645424d0c3f7dd2ae0607ff2b49456ba22ab6c82bf6be8115682ccdb49d2660c6ed859e4d41adc83297463bf0fd785056e3ffa1905a96a2b00fa260671b90"
 
 RPROVIDES:${PN} += "gammu-devel \
 pkgconfig-gammu \

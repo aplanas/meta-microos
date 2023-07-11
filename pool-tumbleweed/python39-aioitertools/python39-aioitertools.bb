@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.11.0"
 
-RPM_NAME = "python39-aioitertools-0.11.0-1.3.noarch.rpm"
-RPM_HASH = "efac85f60f93c98ba8077d3d7ecde88ca3529e8d1d5f193235d0db696c109fbcceb2141978cbda18c5020a9d654256c35f8392e65b78762bfd9f24be8fc709c1"
+RPM_NAME = "python39-aioitertools-0.11.0-1.5.noarch.rpm"
+RPM_HASH = "781f4e09cee49b90447ad470ec9fab515d0dc8fab60c946ad509245eed47fea22ce9fb65ae24a6f066739c6318108b7e012aad5cbc36921562f9e5d3e4ba5e49"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-aioitertools \

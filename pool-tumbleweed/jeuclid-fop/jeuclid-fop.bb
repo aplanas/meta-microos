@@ -18,8 +18,8 @@ LICENSE = "Apache-2.0 & LGPL-2.1-only"
 
 PV = "3.1.9"
 
-RPM_NAME = "jeuclid-fop-3.1.9-2.6.noarch.rpm"
-RPM_HASH = "be28e6efaea0fe951ea15b1af732290d2258f157d8ee3d5e683f7a78510d1849f7d74c20da4253517299591a9242f0bb0da7a2fcf2fe8961f00096d69b648f2b"
+RPM_NAME = "jeuclid-fop-3.1.9-2.7.noarch.rpm"
+RPM_HASH = "1c09f4e9f2c51d154c606184ada8d1158cd78793b0db65c867c4cc353018684c30ad6420831caadacaab0a69980b1d71827c6fadf16934a26f546702bc2f60da"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jeuclid-fop"

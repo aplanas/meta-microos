@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-serif-olduyghur-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "23e114c8472eb1d49c24769bd39a680be8ab6761d1413a085d6928d53ed460e637cfc9545418c7565f72d8f4ecfb4324b181b2a481cc0486f61b40fa7b5e1ffb"
+RPM_NAME = "noto-serif-olduyghur-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "c88d08adad9f0072e524731c4d801ca8b426ef02ef2f6c13ada660b593831d18cd0a07252bfb83851dfd6632f34bebb7dd7158df981fdf6cba43ee76a1f69913"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-serif-olduyghur \

@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the C/C++ header files and the configuratio
 files for developing applications that use the primecount library."
 LICENSE = "BSD-2-Clause"
 
-PV = "7.8"
+PV = "7.9"
 
-RPM_NAME = "libprimecount-devel-7.8-1.1.aarch64.rpm"
-RPM_HASH = "381982caec5799d4b112e2c28b1c42598163b4e83531cc12c4e88b28ddb5a8dcb3b4db2ac6ca4161b68e90cd40ec20c33d8b8ec9eaf4484be7fbf9d015c2a556"
+RPM_NAME = "libprimecount-devel-7.9-1.1.aarch64.rpm"
+RPM_HASH = "3f80f87d1d5f5bbfb1ad031c1646ad6d8909ce49759b27513e8421a1c4871b01b4d2142710a6abfe00545f7198a461f040f4116ac34b5ac35f4c2b5fa80fc89f"
 
 RPROVIDES:${PN} += "libprimecount-devel \
 pkgconfig-primecount"

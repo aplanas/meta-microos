@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.8.0"
 
-RPM_NAME = "python310-typing-inspect-0.8.0-2.1.noarch.rpm"
-RPM_HASH = "3bdda297e965d6f6fc8aca1cf0c995796edc09d6cb29d3ff4bad3d4002b03d3bdc80e7af13b90550f70c6389d239e922b3a723aca4dd3f6b29830293b510fa21"
+RPM_NAME = "python310-typing-inspect-0.8.0-2.3.noarch.rpm"
+RPM_HASH = "181975f7a89958691acae0aaf19c68277a526c37bd24879a4b8f83a3b4917169dee690388d54dfd8b1dc394c108fe46a4ba96e5ff18b59e73fcafe46f56f2fab"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-typing-inspect \
-python3.10dist-typing-inspect \
+RPROVIDES:${PN} += "python3.10dist-typing-inspect \
 python310-typing-inspect \
 python3dist-typing-inspect"
 

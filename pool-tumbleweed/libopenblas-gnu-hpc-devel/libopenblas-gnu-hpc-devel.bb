@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3.21"
 
-RPM_NAME = "libopenblas-gnu-hpc-devel-0.3.21-5.3.aarch64.rpm"
-RPM_HASH = "33086250cbd09cd18f8d9f6f4684c5c98152c1124cd35b0b6929d0da979494b3bbe68e166a0f7c333d43b16fe6fed71f8635fe5d6fafd53df2b114ff10e4d9fa"
+RPM_NAME = "libopenblas-gnu-hpc-devel-0.3.21-5.4.aarch64.rpm"
+RPM_HASH = "f6446a3cc5c3bef18575b00c688cae2ed77ca937c9013b7feaad777df5ab27ac48c4ca9d2838ac4fb67494dca89ae41b8a1342efd950188b196c9c6f70291ea0"
 
 RPROVIDES:${PN} += "libopenblas-gnu-hpc-devel"
 

@@ -17,11 +17,12 @@ LICENSE = "MIT"
 
 PV = "2.5.5"
 
-RPM_NAME = "python311-glfw-2.5.5-1.4.noarch.rpm"
-RPM_HASH = "9e128b43213d6f807e699eba4042a1082e92cefcf168c90acc9cd775c15ffec22dc028039dedbba8f863ae03f7260eded266d65469c6990c487657eab53f2c62"
+RPM_NAME = "python311-glfw-2.5.5-1.5.noarch.rpm"
+RPM_HASH = "319b44ba0f390a4e13c0235920d949bac793f8025c84cd4f2214ccb688291efa104328bf2f6472842c846ba10c86ba74dfb2304167854ead2cee0dd2843914a2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-glfw \
+RPROVIDES:${PN} += "python3-glfw \
+python3.11dist-glfw \
 python311-glfw \
 python3dist-glfw"
 

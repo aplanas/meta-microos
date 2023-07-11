@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only & MIT"
 
 PV = "5.12.0.134.g4cebbfc"
 
-RPM_NAME = "libcollectdclient1-5.12.0.134.g4cebbfc-1.4.aarch64.rpm"
-RPM_HASH = "810b78291b5c8c901c2199051fd17a1893299be4eb8b2e5fcd906764e379f4e985fb0f1d6db8e42b13a6eade87635fd93206d7183ba7c6d1ce4f45ac25221166"
+RPM_NAME = "libcollectdclient1-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
+RPM_HASH = "fb19295b6e9944a3c325a64f69adc67fc09610255b72acc827983ed6d7300f2a553f717ed53e61acd8f9b58f883cddddfbb9c6053d3a9b6311fa0dfad5168283"
 
 RPROVIDES:${PN} += "libcollectdclient \
 libcollectdclient.so.1 \

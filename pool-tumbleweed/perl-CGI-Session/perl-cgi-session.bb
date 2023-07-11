@@ -5,8 +5,8 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "4.48"
 
-RPM_NAME = "perl-CGI-Session-4.48-15.23.noarch.rpm"
-RPM_HASH = "acb05877c984e6267c22332a7ba19b83c38b23b0a293268924c1a24039c8877db6bb46bfa93d5e8a1182261a45c3da4ef2f92f20ffcaa9daf9743b8e32409188"
+RPM_NAME = "perl-CGI-Session-4.48-15.24.noarch.rpm"
+RPM_HASH = "fd7a8817b369941316a23f196eba1f05ca95f6b93bf41397eb25f2c06de0845a4f856caad965f3fbcf9a80220d48ec0943b62f06137fb7d882ef35e9d7e86512"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-CGI--Session \
@@ -30,7 +30,7 @@ perl-CGI--Session--Tutorial \
 perl-CGI-Session \
 perl-OverloadedClass"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-CGI"
 
 inherit rpm

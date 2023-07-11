@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.0.11"
 
-RPM_NAME = "ghc-http-date-prof-0.0.11-2.3.aarch64.rpm"
-RPM_HASH = "ca27867daf673cefb7b884feae6c3c2cc97af56f7e939cc3cf167afb647ff11275b752d2cde6259a44f575c472d8c607a1f7adfc42d9e77f33d8ba5528db1708"
+RPM_NAME = "ghc-http-date-prof-0.0.11-2.6.aarch64.rpm"
+RPM_HASH = "9a5a839021e1858ca9e0b2b67dd693fefaa111738393eced6f20580ea5ae9aa297ec3f9b9501e5adfccbeaec1cb62d35f6484abd1066dfec276be3f5c66c93d0"
 
 RPROVIDES:${PN} += "ghc-http-date-prof \
 ghc-prof-http-date-0.0.11-IfCBGXPFiMuIKzFtOTNgnD"

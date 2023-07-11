@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
 PV = "0.8.18"
 
-RPM_NAME = "compiz-gnome-0.8.18-2.8.aarch64.rpm"
-RPM_HASH = "23b64bec31d58bd3497142f8fd2f5e902ddedd87e12e48b4f8b6b9f234fd4d45a7c8d4f8bcd4902dbda5a583c6f8a6d2de8a939dd8323c004149b678a4a34a6a"
+RPM_NAME = "compiz-gnome-0.8.18-2.9.aarch64.rpm"
+RPM_HASH = "7e0a681cd3dca7d6ace13bbe2b0fe84ee2e0e40df8c03efd172618765f43d0ba048da38e076cdea9edacc18d278955ec32128bb9bc86156d60e66db28c629a5f"
 
 RPROVIDES:${PN} += "compiz-decorator \
 compiz-gnome \

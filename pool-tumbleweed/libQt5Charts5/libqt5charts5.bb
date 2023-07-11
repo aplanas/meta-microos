@@ -8,10 +8,10 @@ themes. \
 This package contains a shared library for the QtChart."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libQt5Charts5-5.15.9+kde0-1.1.aarch64.rpm"
-RPM_HASH = "009e8f8b2dc3baa9f6938ab4e365dbc185420d73f26c18a10042aa412396937c364a3dcc03640e0853bccb82ebb1ae315d7829881dc86801e90c0826a7cde319"
+RPM_NAME = "libQt5Charts5-5.15.10+kde0-1.1.aarch64.rpm"
+RPM_HASH = "ff212cb96cca07cd4a22991f87b879505921f38641fd8365aa32804f5142d60078ace10365bb2fb6d0c44f6c59091cf69817bb5cf7414c5ad6b6d872318debf3"
 
 RPROVIDES:${PN} += "libQt5Charts.so.5 \
 libQt5Charts5"

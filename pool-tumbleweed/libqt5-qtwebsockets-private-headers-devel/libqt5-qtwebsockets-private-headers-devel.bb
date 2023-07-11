@@ -5,10 +5,10 @@ API guarantees. The packages that build against these have to require \
 the exact Qt version."
 LICENSE = "LGPL-3.0-only |  (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.9+kde2"
+PV = "5.15.10+kde2"
 
-RPM_NAME = "libqt5-qtwebsockets-private-headers-devel-5.15.9+kde2-1.1.noarch.rpm"
-RPM_HASH = "acc10132370ac77e4168db0c8af395d12866250f9cc981e437ac2a7f110e51e7551d66ad1e7251b22b120a77a66a946f235bbfb133a0ace29c3d680808bdf3da"
+RPM_NAME = "libqt5-qtwebsockets-private-headers-devel-5.15.10+kde2-1.1.noarch.rpm"
+RPM_HASH = "e23fe1f65965fb70a3bd7bff4dd8bba699b99fd9a90210b062c26ca2e3a409db9c1a7725243f6dc7b8de0734760547f00e84252d2800281950e93ac035acce63"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libqt5-qtwebsockets-private-headers-devel"

@@ -7,8 +7,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.svn62387"
 
-RPM_NAME = "texlive-xdvi-2023.201.svn62387-52.1.noarch.rpm"
-RPM_HASH = "949436ba3fa68165b9cfa4797f17b499eec1496c0ea2f347608bf3f3c14d7cc59efda3ceefbb2b69014f016e941056317d5d42a1b35246a56a1511986e13a67a"
+RPM_NAME = "texlive-xdvi-2023.201.svn62387-52.2.noarch.rpm"
+RPM_HASH = "8859b9cd55ca563ffdfbb20253f6ccacb29e7b4209d76106a7fdae45ad0f0e0a449d0a2955598f75ff66ea88ccb87db058fa2924c5d4ea8a6e1b96e0b7d628c4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-xdvi \

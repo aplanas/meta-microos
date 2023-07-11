@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.2.1"
 
-RPM_NAME = "libcue2-2.2.1-1.15.aarch64.rpm"
-RPM_HASH = "58f13cd7d7ce5bed1a3eaf95c55348e31ee73b43c6e5b0601a9dcda66715eaf47c3346fd3ca2105897a278dd41db1a5e3e2e46e19b32ae4b3fa47fdc07024c98"
+RPM_NAME = "libcue2-2.2.1-1.16.aarch64.rpm"
+RPM_HASH = "d27722a8f6e293c82f173e642ef23a9045b0d7c863427d2a9e6fcc2adae1758ba047efc36c4528ecf3cfa17faa2683dd9e75697c5f64744aa24f900a6ae4f7ed"
 
 RPROVIDES:${PN} += "libcue.so.2 \
 libcue2"

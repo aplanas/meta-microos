@@ -9,15 +9,15 @@ LICENSE = "Artistic-2.0"
 
 PV = "2.02"
 
-RPM_NAME = "perl-Mojolicious-Plugin-OAuth2-2.02-1.7.noarch.rpm"
-RPM_HASH = "36f8485dea24f592db9dcade62e355d6f2321bf3de40a4ed32ff8f57e1f02103b72ef8a43d50d3000a608596f2c31b37b791fe163b763183dc6fbbdb6a78bc0e"
+RPM_NAME = "perl-Mojolicious-Plugin-OAuth2-2.02-1.8.noarch.rpm"
+RPM_HASH = "ce51203db1b420091096e7cebd8fe4fc237347988813eba3da77ee987fcb4e8aca7261ca387b0074679d38cd970b9f834c654340862ca01374c5c094d4aa5cf6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mojolicious--Plugin--OAuth2 \
 perl-Mojolicious--Plugin--OAuth2--Mock \
 perl-Mojolicious-Plugin-OAuth2"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-IO--Socket--SSL \
 perl-Mojolicious"
 

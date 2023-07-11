@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only-with-OCaml-LGPL-linking-exception"
 
 PV = "1.12"
 
-RPM_NAME = "ocaml-zarith-devel-1.12-1.15.aarch64.rpm"
-RPM_HASH = "fd2593ad36e0722bb5e11cc3dc1bc373c17faa0b392d42f5b4e22b8f80bb730ad219734aa2dd4a36382616b9008503115b84b11e1ed58c979df8ca46e14fc80c"
+RPM_NAME = "ocaml-zarith-devel-1.12-1.16.aarch64.rpm"
+RPM_HASH = "e30a5ea9ee39985dcca06dfe02a668588a049f9831b9f441b60fd8af227f38de20b11feb512ad6eafaf562199ddebbc17719c77fbd7a763b7e062849fb55ca6a"
 
 RPROVIDES:${PN} += "ocaml-Big-int-Z \
 ocaml-Q \

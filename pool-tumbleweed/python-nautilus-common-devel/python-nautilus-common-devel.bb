@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.0"
 
-RPM_NAME = "python-nautilus-common-devel-4.0-1.5.aarch64.rpm"
-RPM_HASH = "fa4f285ad34ea0c695411759e6614784da9dc06f500d8e43ef60d97f02b8d2ab4d6d30bc9912bc99af0b230259e05295433ca072d2a04d2a7358f8bf3f98cdd4"
+RPM_NAME = "python-nautilus-common-devel-4.0-2.1.aarch64.rpm"
+RPM_HASH = "b5e90022d32a2818f8a19bfc4d3f6035afd0c50b151b36d7b3ac8f86e099255fbc5deb4d608eb05e716da9447d0cca115ce858fbc609abc4badd1a6e6d311595"
 
 RPROVIDES:${PN} += "pkgconfig-nautilus-python \
 python-nautilus-common-devel \

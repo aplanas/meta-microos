@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.5.1"
 
-RPM_NAME = "tuner-1.5.1-1.7.aarch64.rpm"
-RPM_HASH = "5c0ee9a1e75e4b6e4324a5bdd6be7a134f9207f02254a301599a90b9a5f346d4a81a9b7823e0da6103ac1435fc9c6a6d9bab2fff3b1062a48f7e12fa14edc223"
+RPM_NAME = "tuner-1.5.1-1.8.aarch64.rpm"
+RPM_HASH = "c4eed2fad13b3cec783bcead5c63126b485e7f4c5502b9bafba0f2355e9724b83e206f8d4ca7a52669faad5f25d584031b8c27b0f554ec539824d4464867c7ff"
 
 RPROVIDES:${PN} += "tuner"
 

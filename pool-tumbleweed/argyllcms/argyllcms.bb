@@ -16,8 +16,8 @@ LICENSE = "AGPL-3.0-only & GPL-2.0-or-later & MIT"
 
 PV = "2.3.1"
 
-RPM_NAME = "argyllcms-2.3.1-2.5.aarch64.rpm"
-RPM_HASH = "4aa2d1a0ec396596dcdb2032d3e00656987b4cd67c8b213dd33b831dc6fe35265a734d2898fed0b7bcf0a663e56481621adbaa095c427aa2316ff77429195bb5"
+RPM_NAME = "argyllcms-2.3.1-2.6.aarch64.rpm"
+RPM_HASH = "15fea9fab0be7a5ebccb6b4b8895fe2e688fbd505872a59d99dd1316166bdb09025063628fe50c6f9c7fe2751f3124c69be38d67a59bbb010a59cd8671aa3180"
 
 RPROVIDES:${PN} += "argyllcms"
 

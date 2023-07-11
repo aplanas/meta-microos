@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
 PV = "2.3.1"
 
-RPM_NAME = "monitoring-plugins-disk_smb-2.3.1-9.4.aarch64.rpm"
-RPM_HASH = "c04e0fcb6da93c8625b6e7dad92a5afea2c6a7d0058a869c16b58aaaf425852956b637f9ca283d062f80cfa393bcc42d597845c1b741e4ca59652152aad0d160"
+RPM_NAME = "monitoring-plugins-disk_smb-2.3.1-9.5.aarch64.rpm"
+RPM_HASH = "02151dbfd03f397021bb101f72453b1e7e67a45bc4170259f2dbbf5750fba77fc7bb2f017aaee7d624b6b10e97447f96d295a605daebca42161960d05193d474"
 
 RPROVIDES:${PN} += "monitoring-plugins-disk-smb \
 nagios-plugins-disk-smb"

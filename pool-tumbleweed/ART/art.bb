@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.20"
 
-RPM_NAME = "ART-1.20-1.1.aarch64.rpm"
-RPM_HASH = "b98d54b050b4f611aa307b7b7eeda5849686362f7dd03c65a4dd95ca380eb8c0930f267cddc4b9cf86a8d21d1079d55c3929571f93b57027cf77ab0c4cd4dd3f"
+RPM_NAME = "ART-1.20-1.3.aarch64.rpm"
+RPM_HASH = "ed519e5c1351599f162f2ab0b8ff2040d6074701b6dc53930f6a7f9ed2eefab7a13bb6c4866e922c17a40aa854b3dae79f158782f9cda6579f1ab2d75e3bb733"
 
 RPROVIDES:${PN} += "ART \
 librtengine.so"
@@ -16,7 +16,7 @@ libc.so.6 \
 libcairomm-1.0.so.1 \
 libcanberra-gtk3.so.0 \
 libcanberra.so.0 \
-libexiv2.so.27 \
+libexiv2.so.28 \
 libexpat.so.1 \
 libfftw3f.so.3 \
 libgcc-s.so.1 \

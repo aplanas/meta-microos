@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.9.3"
 
-RPM_NAME = "thunderbolt-user-space-0.9.3-4.18.aarch64.rpm"
-RPM_HASH = "0b3a637832e14e914d9097dd135c9cf8e48b0aeb897a9976fc2ce6ab5c2311969c390aeb5d16c148d31113221a0cc6c540c69d1120db1442d0e3f303a8bed710"
+RPM_NAME = "thunderbolt-user-space-0.9.3-4.19.aarch64.rpm"
+RPM_HASH = "2577613396849d061972e364ff3ed56c892ba50bf852efaa834df88c9d5148fe1c2c5f2fb57cd3ec96006e2221281b06e633f7680501f48f404a9c1cc2b73a85"
 
 RPROVIDES:${PN} += "config-thunderbolt-user-space \
 thunderbolt-user-space"

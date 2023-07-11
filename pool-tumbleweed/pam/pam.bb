@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later | BSD-3-Clause"
 
 PV = "1.5.3"
 
-RPM_NAME = "pam-1.5.3-1.1.aarch64.rpm"
-RPM_HASH = "7ee170873ec624d0fcf3807b64c033d806b8f33dbebaeea00a2f71ceb0512e3cafc15e221ccf81d118ed24881068fb6a1ac2ecf5ea2d6324e5d438964a00f9cb"
+RPM_NAME = "pam-1.5.3-1.2.aarch64.rpm"
+RPM_HASH = "39df61126502b9a41d95456ace0bc57dc51832754764af0f312f0cd0461a446a3e03cd85518d738654aa9a6c3cfe165158064b2d690d08c3385f2b2d6139c9bf"
 
 RPROVIDES:${PN} += "/sbin/unix2-chkpwd \
 libpam-misc.so.0 \

@@ -6,12 +6,11 @@ LICENSE = "MPL-2.0"
 
 PV = "0.9.1"
 
-RPM_NAME = "python310-publicsuffixlist-0.9.1-1.3.noarch.rpm"
-RPM_HASH = "5c673fa4492c438ac8a17f3cb91bd58d7435878795d6c679190a621b5f890f51d15b8b5be96626fbe9f7e18aa2f5e25278d0fbb32d5d8d96aa39069e1c37b909"
+RPM_NAME = "python310-publicsuffixlist-0.9.1-1.4.noarch.rpm"
+RPM_HASH = "3becd029a2209cf3ae4bbbc953fb40ea74c3dada90845319871815b4589eb74fdfae6712d4d9af58588cb2503f9fd8c6ded3b04445195edf304934df5cef404c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-publicsuffixlist \
-python3.10dist-publicsuffixlist \
+RPROVIDES:${PN} += "python3.10dist-publicsuffixlist \
 python310-publicsuffixlist \
 python3dist-publicsuffixlist"
 

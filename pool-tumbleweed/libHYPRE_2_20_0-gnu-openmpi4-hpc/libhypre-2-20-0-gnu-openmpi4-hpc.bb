@@ -10,8 +10,8 @@ LICENSE = "Apache-2.0 | MIT"
 
 PV = "2.20.0"
 
-RPM_NAME = "libHYPRE_2_20_0-gnu-openmpi4-hpc-2.20.0-1.22.aarch64.rpm"
-RPM_HASH = "402fb63801939b5cc34c4a6ca572cb084d202a9d716436f0048dd728ccf1f1039cdfcc2bbd33164d1a6298e8d8f38a2ecf95d0d9a098fc175a506838658e56eb"
+RPM_NAME = "libHYPRE_2_20_0-gnu-openmpi4-hpc-2.20.0-1.23.aarch64.rpm"
+RPM_HASH = "1a816aedf3073196b9c3edb92a73eee6876949ca0e55581065dff257569f43c6cec0259952b7e595c428fa4a9ae53e77fff6b1136950840dbcfbdd5bc1bd82e2"
 
 RPROVIDES:${PN} += "libHYPRE-2-20-0-gnu-openmpi4-hpc"
 

@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.11.0"
 
-RPM_NAME = "python311-fontParts-0.11.0-1.3.noarch.rpm"
-RPM_HASH = "e0597d61a01b4609e69b21ba42099ce83d5fc4d351b7f222f30c8315ede1f905628caba583090aa339dd8ce67d18f707be783e9a51d2759f02b46244e27f1603"
+RPM_NAME = "python311-fontParts-0.11.0-1.4.noarch.rpm"
+RPM_HASH = "12b340ed591edab3e0ab80c6c18d75cba2d46a7d04985f5cc9da78c7788f25de34a7f06b9c09152b9153238dffa5f01be42174c9df72a8ed6fb4d4c7273175cd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-fontparts \
+RPROVIDES:${PN} += "python3-fontParts \
+python3.11dist-fontparts \
 python311-fontParts \
 python3dist-fontparts"
 

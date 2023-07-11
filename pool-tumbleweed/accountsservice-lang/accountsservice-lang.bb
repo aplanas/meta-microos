@@ -2,10 +2,10 @@ SUMMARY = "Translations for package accountsservice"
 DESCRIPTION = "Provides translations for the 'accountsservice' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "22.08.8"
+PV = "23.13.9"
 
-RPM_NAME = "accountsservice-lang-22.08.8-2.4.noarch.rpm"
-RPM_HASH = "def9601f2d23abdeffc64f878afc123f70b30b3abc0864517b43f7a0a0308c007b43799eea4809aad82b18b4821045a219eddcf972622c50f65161f66978e937"
+RPM_NAME = "accountsservice-lang-23.13.9-3.1.noarch.rpm"
+RPM_HASH = "b07b676740476bd78dd5b804b7fc8be09717174796800428cb065ef76a7e4fe1e115daddc67a0ddbf45e28b7868374f600d3d136ca5d18585d40c6b53c236cc0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "accountsservice-lang \

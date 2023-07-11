@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.4.10"
 
-RPM_NAME = "python39-pipreqs-0.4.10-2.13.noarch.rpm"
-RPM_HASH = "4a330fd922d2c97852708c97235a555bc97f4b572560389d1673f53c06978a3f92ad993ff95debb4833d27bfb259b0d88154f49641581ac58330e0958c8e169f"
+RPM_NAME = "python39-pipreqs-0.4.10-3.3.noarch.rpm"
+RPM_HASH = "0e79361d2ed29d21daabb3a8e6360368a95bcd219644edecd0fdb908d01663aebdc161e5d4857eabf836360efa66cbd798a6fa77da0377613085fce768e62b5e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pipreqs \

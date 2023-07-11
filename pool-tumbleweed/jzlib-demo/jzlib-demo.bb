@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.3"
 
-RPM_NAME = "jzlib-demo-1.1.3-5.6.noarch.rpm"
-RPM_HASH = "5b36afd24f5bce769f4597f99fc279ac58648178ff47a56f6681bdf159a838199c60e54560affa56adbe82fc3cd09be52c20a2b2f5ac0bc6731075d7823acfe3"
+RPM_NAME = "jzlib-demo-1.1.3-5.7.noarch.rpm"
+RPM_HASH = "d6089a7323bb021e5d1e64d488a6ec004cc84c5e03f60071e65ec0f24809cb94a4552b90b49e2ebe329f26d7e5384625d4f1f28ab33e63db757befd80036e591"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jzlib-demo"

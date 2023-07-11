@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.24"
 
-RPM_NAME = "python39-catkin-pkg-0.4.24-2.9.noarch.rpm"
-RPM_HASH = "20a478ff4b9683a108c22bd4976090fdf118de16f87d4dd504947a992b0da73cf6c1eb23967496b039bac78679e81abbb95d673852be22854c068a3a050f54c9"
+RPM_NAME = "python39-catkin-pkg-0.4.24-2.11.noarch.rpm"
+RPM_HASH = "f46f84693932893c1687a40dca5d1d17515fdd6f3d96e74ae498198d8c935fc948ada947c9cc650905d19e873592c2a8dcca399026e18cc592f70924805e93d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-catkin-pkg \

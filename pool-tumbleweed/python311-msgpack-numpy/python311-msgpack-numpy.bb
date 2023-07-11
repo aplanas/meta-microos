@@ -7,11 +7,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.8"
 
-RPM_NAME = "python311-msgpack-numpy-0.4.8-1.4.noarch.rpm"
-RPM_HASH = "1086c7a5fcf9010bceacafa20e6c712d336fa864042accc03be1593171386be17bc53003fd67ed3eb6358a7ae75b1100b68fffa7d5bab592aebd19d9058005eb"
+RPM_NAME = "python311-msgpack-numpy-0.4.8-1.6.noarch.rpm"
+RPM_HASH = "b6416436c4168b6fe56a2190f119fe447c3ac7bad083b18971929c0bc2c6bb1f08599d5653ac6c9966e2521f056f25235acf84a3142635d552a8e164f2737a26"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-msgpack-numpy \
+RPROVIDES:${PN} += "python3-msgpack-numpy \
+python3.11dist-msgpack-numpy \
 python311-msgpack-numpy \
 python3dist-msgpack-numpy"
 

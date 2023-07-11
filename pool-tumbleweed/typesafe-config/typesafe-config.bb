@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.4.1"
 
-RPM_NAME = "typesafe-config-1.4.1-4.5.noarch.rpm"
-RPM_HASH = "7b9a6ad3a2ee19e3b5c71bf63384b90ea256ef8a15ef6388927c1f4ae28d4a0687495f2f094ce02fa1cafdea7b68db5bd384707c3c461f2ab26dec82c32a8753"
+RPM_NAME = "typesafe-config-1.4.1-4.6.noarch.rpm"
+RPM_HASH = "d0a631e27eca5b553b6416b2f8a45ee1af9fb7b61e94c3981123cd50d794782fc89764743dd3c961bcb29748326a688f7819540d6e9c0487cdfa36ba2184e7cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-com.typesafe-config \

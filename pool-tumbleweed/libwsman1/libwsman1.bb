@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-only"
 
 PV = "2.7.2"
 
-RPM_NAME = "libwsman1-2.7.2-2.5.aarch64.rpm"
-RPM_HASH = "6e40d9a9f752f92c80db1c78c8fb8ed1fdf25526da99e3192ee9fac541caa736ab1ad8962fc5b81e7d7c5fbdd0afec4fd99f6adec0bf7c9224ee026f9317eb6a"
+RPM_NAME = "libwsman1-2.7.2-2.8.aarch64.rpm"
+RPM_HASH = "9dff66405c247122d194f02fa5c6b0a95f6a3349e31d8b72f070a3f0d40b74bd5b1af1fa698b23c712ace8f878b82e2238e4f87da4f6641418cd37f0279f82d2"
 
 RPROVIDES:${PN} += "libwsman-curl-client-transport.so.1 \
 libwsman.so.1 \

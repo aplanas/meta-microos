@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "10000.1.3"
 
-RPM_NAME = "ghc-torrent-10000.1.3-1.3.aarch64.rpm"
-RPM_HASH = "dd7563715e608bce10fe31c5436a12dd9d43302f4ce41ded62fdd4bad18b8d765390ea1c55937f070477cd9f2210d5eccae6e158f7513be0d53a64ec4e55690f"
+RPM_NAME = "ghc-torrent-10000.1.3-1.6.aarch64.rpm"
+RPM_HASH = "b394aacb781a5d09293164fdb8ec6734d7c03099211a8f5bbc8c7953dcc620a4219be2111edf0585dd3095eb4cb42fdc0054714ebafa1ef83d7e595e1da99f6e"
 
 RPROVIDES:${PN} += "ghc-torrent \
 libHStorrent-10000.1.3-6s7CFs4CbkZ3Yp9HO0y2ZH-ghc9.4.5.so"

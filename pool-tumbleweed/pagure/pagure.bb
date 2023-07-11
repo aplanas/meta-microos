@@ -11,13 +11,13 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "5.13.3"
 
-RPM_NAME = "pagure-5.13.3-1.4.noarch.rpm"
-RPM_HASH = "cc92147215dddd1042fc6c808e7826b3a018b7173d61ec64b511a270f8cb23df451a916af328a98f526dfe97ff46662f354037b58d435f6a1a2f29f6c81dfd80"
+RPM_NAME = "pagure-5.13.3-1.5.noarch.rpm"
+RPM_HASH = "1b395aa1130a7f8edd958a15d349c5ceb749679a6d50cb767f738c30ddab0e4cc59aaf9d7a7f66ad81bf8d9f617f641df0f48d97535a48e25a299dd35ab85dad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-pagure \
 pagure \
-python3.10dist-pagure \
+python3.11dist-pagure \
 python3dist-pagure"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

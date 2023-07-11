@@ -4,8 +4,8 @@ LICENSE = "AGPL-3.0-or-later & GPL-2.0-only"
 
 PV = "2.5.0"
 
-RPM_NAME = "libbladeRF2-2.5.0-16.3.aarch64.rpm"
-RPM_HASH = "652370beeca7b082fc98fdcdcf8a0b4274cbbbfc6e556e6f5b20b586d40169f86b3352622ac7b4a833ecb5a890b4c3d7442807eeb46b2874c0b1df1aa8565153"
+RPM_NAME = "libbladeRF2-2.5.0-16.4.aarch64.rpm"
+RPM_HASH = "7da9b45d914c07e504d4a239d8fcc4f6a955f18dacad4225252909c82688c4bf36f57f9356538b6563811a1d4c99ba3d7ce6e8653873e46e35c89c76daeb8d7e"
 
 RPROVIDES:${PN} += "libbladeRF.so.2 \
 libbladeRF2"

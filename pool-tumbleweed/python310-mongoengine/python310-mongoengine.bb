@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "0.27.0"
 
-RPM_NAME = "python310-mongoengine-0.27.0-1.2.noarch.rpm"
-RPM_HASH = "3f2980bc017669af055f74c8bcdcee8f0acf5dc172ad5ee499f6de8374fd38e1a1e392e359b79e74001e16a03ad714e2e628556a3f754f55ab2b30da760f606a"
+RPM_NAME = "python310-mongoengine-0.27.0-1.4.noarch.rpm"
+RPM_HASH = "8c033efcf8b8e65f8330169b1cde7daa781caf87c9c8360c64be8248b39761c55e4ff20810257ee466f06d3417085cf3740739b5e1bfa00a4d094c405d20704e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-mongoengine \
-python3.10dist-mongoengine \
+RPROVIDES:${PN} += "python3.10dist-mongoengine \
 python310-mongoengine \
 python3dist-mongoengine"
 

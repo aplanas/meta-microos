@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.7.0"
 
-RPM_NAME = "python39-mccabe-0.7.0-2.1.noarch.rpm"
-RPM_HASH = "60ab1b5a987b3c5c843375dc377a45de34218a08b8872bc3d70d344992aa072895fd10f6a34f8d042d6ec3e25cc1efed02aa37608a5a33619bfbd20d7e54f128"
+RPM_NAME = "python39-mccabe-0.7.0-2.3.noarch.rpm"
+RPM_HASH = "9460a59b6094533862f709815b6bdafabe01ed9838dab6d3247aa276175f1eb63382041e52a671575880c4545e350c98e56e7f29ff2e7ebe741c0094878e54b5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-mccabe \

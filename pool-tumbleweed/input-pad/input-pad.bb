@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "1.0.99.20140916"
 
-RPM_NAME = "input-pad-1.0.99.20140916-5.9.aarch64.rpm"
-RPM_HASH = "d0f7a1cd70725a9435fc24c6b21e560abe693ad7cafdc432f006f6fb0e01a974f2b2147eb9a98afc57144c50991fcc3b8d387d1a83643b490a3eb8bc3adfdb8c"
+RPM_NAME = "input-pad-1.0.99.20140916-5.10.aarch64.rpm"
+RPM_HASH = "58fa4693786cc8cd3ed56666d46cf6cfdc80d02d4d7f264a7ee72d5392e080caf473fb85708c128be6accea0bd42f0e2f66473f48cd8a7ca683bcb38a2118f0a"
 
 RPROVIDES:${PN} += "input-pad \
 libinput-pad-1.0.so.1 \

@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "6.3.0"
 
-RPM_NAME = "libsundials_generic6-6.3.0-2.4.aarch64.rpm"
-RPM_HASH = "6ad6aeec477ccab5047868834bb88f9ae6ac3b6f1d0980858e637f077093a3cbeb9a142fb47410c18abe7f5957f02086419c48b542da057dfbc4d8bf2cfc7589"
+RPM_NAME = "libsundials_generic6-6.3.0-2.5.aarch64.rpm"
+RPM_HASH = "c8c255754e3b9573ed72d1427a36ce8d69934e83a0aa144a9e9ad9d722942d565acefd4c90572e152ca63d07210e1e76b0fd9145f1ef961155dd8633da2005e4"
 
 RPROVIDES:${PN} += "libsundials-generic.so.6 \
 libsundials-generic6"

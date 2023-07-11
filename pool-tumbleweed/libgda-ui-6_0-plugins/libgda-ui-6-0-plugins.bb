@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "6.0.0"
 
-RPM_NAME = "libgda-ui-6_0-plugins-6.0.0-6.7.aarch64.rpm"
-RPM_HASH = "9ecfedafa8f779a31c6e061e29f4bb377c17b547bf8a76f4e95f4758b207461a478b387c9786507c450387ab1e219a0dc14c92901ff223bb79985d16c1392c16"
+RPM_NAME = "libgda-ui-6_0-plugins-6.0.0-6.8.aarch64.rpm"
+RPM_HASH = "0bd4f1ece1f8e74405f72f7a0de7b12ec442345b13f066a1f5431fc9bb5d89718dc9ba24c5f9998d04560faec6d72528ffb2a3fa88ca9e4739e59b151a44ef59"
 
 RPROVIDES:${PN} += "libgda-ui-6-0-plugins \
 libgda-ui-plugins-libgda-6.0.so"

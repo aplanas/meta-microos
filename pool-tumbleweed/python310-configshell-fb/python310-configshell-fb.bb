@@ -9,15 +9,13 @@ rtslib, and configshell, or stick with all non-fb versions, since they are \
 no longer strictly compatible."
 LICENSE = "Apache-2.0"
 
-PV = "1.1.29"
+PV = "1.1.30"
 
-RPM_NAME = "python310-configshell-fb-1.1.29-2.1.noarch.rpm"
-RPM_HASH = "668d260953ca0113466f35699f1bf74938645ccabc305c51c7fd4fca16f41af468a54bd9eb88cb7db6a95bf06aaabf64a49bd017531fcf3437607d921e295a59"
+RPM_NAME = "python310-configshell-fb-1.1.30-1.1.noarch.rpm"
+RPM_HASH = "be70ba15c38ab30cbb22a4f2c6a3ba30e969fc38cd1b66c71882199c2a72f703432f11fe066243cf392cf2e926da1f88984901f9204e8bd893a79ebd1d96592f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-configshell \
-python3-configshell-fb \
-python3.10dist-configshell-fb \
+RPROVIDES:${PN} += "python3.10dist-configshell-fb \
 python310-configshell \
 python310-configshell-fb \
 python3dist-configshell-fb"

@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "python39-azure-ai-language-questionanswering-1.1.0-1.3.noarch.rpm"
-RPM_HASH = "553224f4fc281f02d4920587f1bf0a93837a1fa4d4fc9199ee1d2dc78278307e60ee394fc2c537feeb5fed9abd3d3a15c4a8f33c1e695051026797362f0c9f37"
+RPM_NAME = "python39-azure-ai-language-questionanswering-1.1.0-1.4.noarch.rpm"
+RPM_HASH = "44029291ccc2733719654e1bf3eef977e769252710a318b02328b0966ee6956cf7243b882d55a2732af6fb5f06453f512ad0efe67a8b3104fcdc5fef4aa17798"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-ai-language-questionanswering \

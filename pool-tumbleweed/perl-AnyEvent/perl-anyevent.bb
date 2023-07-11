@@ -35,8 +35,8 @@ LICENSE = "GPL-1.0-or-later | Artistic-1.0"
 
 PV = "7.17"
 
-RPM_NAME = "perl-AnyEvent-7.17-1.15.aarch64.rpm"
-RPM_HASH = "70fea563045d0635b5352e068b2dc4f3f4b41dd68e88918c9c92265d556b1078d205c9e42a09e5699828b8eea42d8e53a9ebcee07a3634fbd2013d444a91b7e9"
+RPM_NAME = "perl-AnyEvent-7.17-1.16.aarch64.rpm"
+RPM_HASH = "2aa9aded1931701db8823e244e0f58f9f847b95d74eb95067cef72931cefdf31803531a6a61e380d48e62430f25759a94034cd893e264c6f41c7fcd034638aef"
 
 RPROVIDES:${PN} += "perl-AE \
 perl-AE--Log--COLLECT \
@@ -83,6 +83,6 @@ perl-AnyEvent--TLS \
 perl-AnyEvent--Util \
 perl-DB"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "0.1.1"
 
-RPM_NAME = "python311-main-wrapper-0.1.1-1.4.noarch.rpm"
-RPM_HASH = "dac93c0158e628518d9fcbfe338286536cead7bed14b4519a7faa7047f02a49e50a3952ecb8e490d12906a838af2001833e98f098e468b95f3074a9bf296d6c8"
+RPM_NAME = "python311-main-wrapper-0.1.1-1.6.noarch.rpm"
+RPM_HASH = "7c3b7bedc8ef11e27c577c0aad0e462ce5dce23147e97cb5af6dcc2e02d66ec1675f6e0e16791b86841bfc4f0f13962b3eb9e8b7947a84e2940fcfe0b527bc6a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-main-wrapper \
+RPROVIDES:${PN} += "python3-main-wrapper \
+python3.11dist-main-wrapper \
 python311-main-wrapper \
 python3dist-main-wrapper"
 

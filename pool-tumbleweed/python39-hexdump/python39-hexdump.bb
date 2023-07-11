@@ -8,8 +8,8 @@ LICENSE = "Unlicense"
 
 PV = "3.3"
 
-RPM_NAME = "python39-hexdump-3.3-3.3.noarch.rpm"
-RPM_HASH = "4bf0e667918260f89bf139e25eb07f6f06b73db5ddaec9a4b34d4b2a5e8dd617f24fba229dfec35924bf51a4a3b61a82fac5f4f2fa208e4356a279cba6359c55"
+RPM_NAME = "python39-hexdump-3.3-3.4.noarch.rpm"
+RPM_HASH = "aa136b7667d5444bac86ab3df85893c6a28280c93798097a323b659cc4cae8eefe8d4751ee1a006a6bf8cae000427430e5428d0c5108b1de7a282630cb3f1148"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-hexdump \

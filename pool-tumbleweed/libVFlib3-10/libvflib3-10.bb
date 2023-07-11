@@ -12,8 +12,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.7.2"
 
-RPM_NAME = "libVFlib3-10-3.7.2-1.9.aarch64.rpm"
-RPM_HASH = "729b28adfb4f02f906bfacc3576c840442e6dd0d30b05557f8423f990651a062c33fd8b1ea95d51b97177a41fbdd8df1ef17d51eb444f55a85a622735c766a5e"
+RPM_NAME = "libVFlib3-10-3.7.2-1.10.aarch64.rpm"
+RPM_HASH = "0578cc02dc3f8102a5b7d0cb62dbe45e328f225edb96b2b9be9927ad76a6b7b72ee063e4e9a4d5dbd1b41c23e0882e3e69aff5a05ddc5b390172eee1ef0b2507"
 
 RPROVIDES:${PN} += "libVFlib3-10 \
 libVFlib3.so.10"

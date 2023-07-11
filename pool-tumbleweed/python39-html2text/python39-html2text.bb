@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2020.1.16"
 
-RPM_NAME = "python39-html2text-2020.1.16-3.11.noarch.rpm"
-RPM_HASH = "5df5eb9e5b2378f1e2315b2757e62108de62fc984173ce08e165b8fff2ef1f2050bd3983d5e85d080af65bf665b91c960d8325631d0fd9db87fc84957d01383c"
+RPM_NAME = "python39-html2text-2020.1.16-4.1.noarch.rpm"
+RPM_HASH = "4a0d689ee8dcc080715cad891099119be79a24f85cd9bcc85ce5bb39a1d71c7fe3e66c1ebe6568f10ea5eeec54410cfff939429ddc0572b3c0e1228813423489"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "html2text \

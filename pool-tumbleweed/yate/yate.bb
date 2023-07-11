@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "6.4.0"
 
-RPM_NAME = "yate-6.4.0-4.9.aarch64.rpm"
-RPM_HASH = "daf5985ca654141a53a57d63ddeda87b387f9fd57c14181633a0d1482024d886aac1607b110f59fc46e71d0af31f3247cc30148dfb785cbec446ad459a7849f2"
+RPM_NAME = "yate-6.4.0-4.10.aarch64.rpm"
+RPM_HASH = "b24830320d925b88f09734a643b85084d8ecb7e0c78cfc0959bb56f1ab2eb7fbd49b37b81b695b2fa2c7b3ba8e0aba318c8c4902c705d39c844b01068a8d0f35"
 
 RPROVIDES:${PN} += "config-yate \
 yate"

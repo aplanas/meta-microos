@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "5.13"
 
-RPM_NAME = "lxd-5.13-1.1.aarch64.rpm"
-RPM_HASH = "070d95d17ecafb059b5db30a0634576edcf767cef2d3734d2e1df784f2b263f64a36eec319f00e6d32e1d095a5821b17e39537e724fe50fdd4f4625aa93e5fda"
+RPM_NAME = "lxd-5.13-2.1.aarch64.rpm"
+RPM_HASH = "6bdcef13f93e63a0f38b728539708f5f882f15a606325451b5ee9c51835b9f06bb32c920d0fd4835e3d7d55637d925a85a3a0de5fa76594e442301987ab6b7de"
 
 RPROVIDES:${PN} += "config-lxd \
 group-lxd \

@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.83.1"
 
-RPM_NAME = "libleptonica6-1.83.1-1.3.aarch64.rpm"
-RPM_HASH = "0ee530f284bdfadd298743601366b562b6b9e81eff179193ed34a1ad2c74a516b26924a0e132baee6253af540c70fa480902efb85e486122a0454921ec3e0d28"
+RPM_NAME = "libleptonica6-1.83.1-1.4.aarch64.rpm"
+RPM_HASH = "69e6848d982484e00489bb6df7731afbedd95a4cf589e98432d7bff4c5c35d44d2548862ad67d4cc301c498a4cbb34528b6e56a8d68710f688efc4010a87e430"
 
 RPROVIDES:${PN} += "liblept \
 libleptonica.so.6 \

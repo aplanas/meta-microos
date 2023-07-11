@@ -2,10 +2,10 @@ SUMMARY = "Qt5 tools examples"
 DESCRIPTION = "Examples for the libqt5-qttools module."
 LICENSE = "BSD-3-Clause"
 
-PV = "5.15.9+kde1"
+PV = "5.15.10+kde3"
 
-RPM_NAME = "libqt5-qttools-examples-5.15.9+kde1-1.1.aarch64.rpm"
-RPM_HASH = "6434f384edd7b6d39b6d28d491cf2c3d08d73f7eb04dee26e908f4ddd845c7ec4a0090bc57b3d0e3c288354ca3a80d0937f60d8b11fa89c30ad130d853794bca"
+RPM_NAME = "libqt5-qttools-examples-5.15.10+kde3-1.1.aarch64.rpm"
+RPM_HASH = "21aa5cc073c73b814a47389b2a587e3dc2aa9e237a513714e168932e3335a1b2403aa3ef3af2b518716b2d344c16a7b3ff693eb4063cfe158c1c59a39699ea12"
 
 RPROVIDES:${PN} += "libqt5-qttools-examples"
 

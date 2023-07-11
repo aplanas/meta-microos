@@ -9,8 +9,8 @@ LICENSE = "CDDL-1.0 | GPL-2.0-only"
 
 PV = "2.3.0.0"
 
-RPM_NAME = "jemmy-2.3.0.0-26.6.noarch.rpm"
-RPM_HASH = "021464eff5423c838520f23fc08dedb5e5309244d82070ca0123eebde43b5c38dbce2116ac506f2f9754eb03dde6d1f974ada80e5c16c3e33da7dae3160aa9be"
+RPM_NAME = "jemmy-2.3.0.0-26.7.noarch.rpm"
+RPM_HASH = "90f4b37dd8db98ccc389934f3a30fcde2047a0385d5a1f2bea37f980a9d275315b9ee650fd51f9d0464e8f8c013c52d0c40b358c8f2a0e9520c5290fd66036c8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jemmy \

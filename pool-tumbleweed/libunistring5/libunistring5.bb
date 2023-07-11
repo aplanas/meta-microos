@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later | LGPL-3.0-or-later"
 
 PV = "1.1"
 
-RPM_NAME = "libunistring5-1.1-2.1.aarch64.rpm"
-RPM_HASH = "d5df4dde1cb97c71761c961fb53353e2ab8045719b573b90f589f9fd7c9e2d48beefab974e23d37c3664127db90b6caa05b96d38949ca3f41c1627a86bac3c6a"
+RPM_NAME = "libunistring5-1.1-2.2.aarch64.rpm"
+RPM_HASH = "fee800264b2266669c3af9013737427e9a830bd0f8eb92e5ab4ac0593dd3f804f2ff7bac0563ed7bdde0d95b5658dab8eb55f34653c7a17f41dfa545e558b354"
 
 RPROVIDES:${PN} += "libunistring.so.5 \
 libunistring5"

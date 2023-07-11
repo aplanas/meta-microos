@@ -11,12 +11,11 @@ LICENSE = "MIT"
 
 PV = "1.4.0"
 
-RPM_NAME = "python310-azure-appconfiguration-1.4.0-1.3.noarch.rpm"
-RPM_HASH = "0d70a45b4136316c8dfba1083c65d698e193a8f1adb94efb455bfcd1576075e4d900538d5c283eb9f47760a6aafafcfbf49f94fd1d55ddee1bc841f75edf10e8"
+RPM_NAME = "python310-azure-appconfiguration-1.4.0-1.4.noarch.rpm"
+RPM_HASH = "61b0bb54a77c9d94c916a4981228ec473a3db4833d0184ae3c921d6be59c3a4ae8479df766fdb5d0871810d1a41e38c0afe217434acced00538df75a560c570a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-appconfiguration \
-python3.10dist-azure-appconfiguration \
+RPROVIDES:${PN} += "python3.10dist-azure-appconfiguration \
 python310-azure-appconfiguration \
 python3dist-azure-appconfiguration"
 

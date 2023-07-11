@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python310-azure-mgmt-hybridnetwork-1.0.0-1.8.noarch.rpm"
-RPM_HASH = "ba92ce33c88bce952774fe96e15808926c615a6f8903ea88d150a2845e965fffb58aadf2accf9fdb6143e7b43a35ccab5287dafb6bc71c6834f3d209e91ec82f"
+RPM_NAME = "python310-azure-mgmt-hybridnetwork-1.0.0-1.9.noarch.rpm"
+RPM_HASH = "922df964b799a8e6120f13404b7d4c42d0b4bd0de7a950e890222d9a571434949e426b0015bd5d02b18b5e962eb3a9d00836c222a10f7bc92794a877e35d906e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-hybridnetwork \
-python3.10dist-azure-mgmt-hybridnetwork \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-hybridnetwork \
 python310-azure-mgmt-hybridnetwork \
 python3dist-azure-mgmt-hybridnetwork"
 

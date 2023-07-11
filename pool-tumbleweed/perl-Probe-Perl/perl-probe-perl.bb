@@ -6,13 +6,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.03"
 
-RPM_NAME = "perl-Probe-Perl-0.03-3.26.noarch.rpm"
-RPM_HASH = "e8308d4ba8a575a2bc2f456bb21df09cc8191582744fa3717d346a438c43134bba8c1a44656fde1bf8b770c7b6457b4d00a13b008180d51941f7a89c6cb07c20"
+RPM_NAME = "perl-Probe-Perl-0.03-3.27.noarch.rpm"
+RPM_HASH = "e4cb573d66bb76f31f478244ad420d1f8ababf20556e8356584c7635433be0a67dd63a84104fd194bd7371a930b87e007284859f4f742bd254410e3650ee4ec8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Probe--Perl \
 perl-Probe-Perl"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

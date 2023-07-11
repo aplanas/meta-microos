@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.0.6"
 
-RPM_NAME = "zynaddsubfx-3.0.6-3.1.aarch64.rpm"
-RPM_HASH = "d9db8a5cca6fff2931aaa58a22bd82ab5a29f44e61b4ba80bd6630df1a48cd5020a161d6358c838cc6ca47c1c3d75ffdbe4fe5d10673fcdea47dee61b6c3df2f"
+RPM_NAME = "zynaddsubfx-3.0.6-3.2.aarch64.rpm"
+RPM_HASH = "d46bd2360392ae0bf079d63aa4c221969c879917307d29ebd956d9081d43bbd5c9256e4ba369def40fc013a82ce3d248ecb5fcf3ac821c66839e2875bd6cc056"
 
 RPROVIDES:${PN} += "ZynAddSubFX \
 zynaddsubfx"

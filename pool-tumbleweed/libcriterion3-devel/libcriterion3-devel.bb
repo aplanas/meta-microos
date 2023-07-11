@@ -2,10 +2,10 @@ SUMMARY = "Devel files for Criterion"
 DESCRIPTION = "Contains all needed devel files for Criterion."
 LICENSE = "MIT"
 
-PV = "2.4.1"
+PV = "2.4.2"
 
-RPM_NAME = "libcriterion3-devel-2.4.1-1.4.aarch64.rpm"
-RPM_HASH = "82b1edf63a82d67d4c5f56011818af93a5bbb4a11abfb95cef0e3c2835cab6dc4a1bdcf12eeef184760e1d105cbb5ed9ceb26f11b0a31365be538201f10f96dd"
+RPM_NAME = "libcriterion3-devel-2.4.2-1.1.aarch64.rpm"
+RPM_HASH = "b29f2fb09e12143258f52976462cd8526a0ccff97b90880033474de20b65d402bd1efc8f2af4c833b79eee199bd305d5b43328fc694bb6393383895875c3c5f2"
 
 RPROVIDES:${PN} += "libcriterion3-devel \
 pkgconfig-criterion"

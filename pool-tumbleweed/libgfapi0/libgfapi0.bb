@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only | LGPL-3.0-or-later"
 
 PV = "11.0"
 
-RPM_NAME = "libgfapi0-11.0-2.1.aarch64.rpm"
-RPM_HASH = "00553271421d7a7d2555a4c01096fc15b01494f99304e744fe77402eef733e7e4175387c1396acd30d0def1ab33a36fb521306981784fd5c41c068e582cdd2bc"
+RPM_NAME = "libgfapi0-11.0-3.1.aarch64.rpm"
+RPM_HASH = "0c7b0be42ce6edf84d960ead105a29adb6b679cd12ef6686215797029beebce3ac6fb0adfe05aed3ff3b2649cf449e1a29eb0144b62058891b8860fcee64275c"
 
 RPROVIDES:${PN} += "libgfapi.so.0 \
 libgfapi0"

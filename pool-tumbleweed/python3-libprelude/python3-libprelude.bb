@@ -4,11 +4,11 @@ LICENSE = "LGPL-2.1-only & LGPL-2.1-or-later"
 
 PV = "5.2.0"
 
-RPM_NAME = "python3-libprelude-5.2.0-2.14.aarch64.rpm"
-RPM_HASH = "4e2d9cb9ab5f0114c51d4c57e99cf8ecaedbcbbda3df59ae3ff2a231ef374c449b59ffe4f3ccf85085f09c97363858c4889a4f05ee3987ae0dded3c6a49bf2bd"
+RPM_NAME = "python3-libprelude-5.2.0-2.16.aarch64.rpm"
+RPM_HASH = "aad816d352c618ac652530b5ab57cdcfcb6315f9aac62358a1351fa676bf14514b624c75906de5fd3dd8096fc1ad4a018ba7a8e45352c22ef5abd3b059227a78"
 
 RPROVIDES:${PN} += "python3-libprelude \
-python3.10dist-prelude \
+python3.11dist-prelude \
 python3dist-prelude"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \

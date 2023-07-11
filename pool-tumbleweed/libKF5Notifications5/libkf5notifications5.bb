@@ -3,10 +3,10 @@ DESCRIPTION = "KNotification is used to notify the user of an event. It covers f
 persistent events."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "libKF5Notifications5-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "1d31b3465cacba6b911fd8a41c4da75dfe8904d8b3351df257d7545ccb7c2eb45c274dac0fb8abf7d091b722f50a9f2ea47d780c49bb65fb53af264159ad453c"
+RPM_NAME = "libKF5Notifications5-5.107.0-1.1.aarch64.rpm"
+RPM_HASH = "abe9a19ffa5443b8ed7010b50187b21c1d0dbbd8121a20e025021757e9b9dcd6b77a46fb98d839cf2f6316c7344d23794e6ca1a6a02dce3e82ff9d595c5ce2fb"
 
 RPROVIDES:${PN} += "libKF5Notifications.so.5 \
 libKF5Notifications5"

@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python39-azure-mgmt-azurearcdata-1.0.0-1.3.noarch.rpm"
-RPM_HASH = "4533e530a2354452588678a1c3e4c0148d1a8385d22fbd23d0869d81955fc252601f96e9faf55376be207935a30eab06c99eebd7271d56f4c076196dbae2ba82"
+RPM_NAME = "python39-azure-mgmt-azurearcdata-1.0.0-1.4.noarch.rpm"
+RPM_HASH = "0570689ef9953081b90d5dfcc9528aabbcc27d00cfce4521df3aa3ac77cb37b9c1bf99a5028cb587120a260acca76cb36f3ec56f40baeddd459fa8a5ecb76dfa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-azurearcdata \

@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.4.0"
 
-RPM_NAME = "python311-agate-stats-0.4.0-3.2.noarch.rpm"
-RPM_HASH = "1b8fe02366526efed9636500bc24042f2ce5d59d8021259dcf7329d161bc96a6eb099b1b39f294b952c21e794892e6586b71f25fe40ed1575b9da014d566607d"
+RPM_NAME = "python311-agate-stats-0.4.0-3.4.noarch.rpm"
+RPM_HASH = "c8efea3527c43bdc7a82e9d053d808b12ec2c6f13433e6b93ae6814fce21ff8ebbe1bcc6d2564525b4a06db8db72a488e51b3e91354eae7bd3fe46340424ea54"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-agate-stats \
+RPROVIDES:${PN} += "python3-agate-stats \
+python3.11dist-agate-stats \
 python311-agate-stats \
 python3dist-agate-stats"
 

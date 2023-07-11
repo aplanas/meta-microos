@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.15.0.2"
 
-RPM_NAME = "ghc-mwc-random-prof-0.15.0.2-3.3.aarch64.rpm"
-RPM_HASH = "ce2d98c2ececa425a4e3bb60c04c4313096caaaea588ac8cfd4df536a486aeb1fe0af0b4549e0c44adfb9456d86767d0bfc9f250ba2af8dd19e402aa6d782df0"
+RPM_NAME = "ghc-mwc-random-prof-0.15.0.2-3.6.aarch64.rpm"
+RPM_HASH = "fcad09ca644b64098d4c0ebfa327799af6f2d21ffac118d2341d27d49da483354a5a7c6a2ba833744749a309cc83d78900c48a86dfe0ba8f31c4d1a93e3550e5"
 
 RPROVIDES:${PN} += "ghc-mwc-random-prof \
 ghc-prof-mwc-random-0.15.0.2-ABcRZBX2kH9CBf1bhFwgAP"

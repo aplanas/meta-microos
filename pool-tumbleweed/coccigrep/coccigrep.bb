@@ -6,12 +6,12 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.20"
 
-RPM_NAME = "coccigrep-1.20-4.1.noarch.rpm"
-RPM_HASH = "b17d5133c934035161dd57a5239835b6cccd73001e3963106ed68795cc0a0188284174073e5b94aef725342c566819c426e5734c15412c313676ccb92137764c"
+RPM_NAME = "coccigrep-1.20-4.2.noarch.rpm"
+RPM_HASH = "4f3869f6de1f1cfe48b1492f2ba7c5ef8596b2e5795ebf3d80bfadb44db32bf3341af088f8c182d30c8b84443560bbcc02091f2e2f37643c9b1682b0c2cd398a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "coccigrep \
-python3.10dist-coccigrep \
+python3.11dist-coccigrep \
 python3dist-coccigrep"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

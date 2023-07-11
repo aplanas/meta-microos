@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.3.0"
 
-RPM_NAME = "liblxqt-lang-1.3.0-1.1.noarch.rpm"
-RPM_HASH = "840d8f496849766aeabddb89a70746d3871c5acb7439e2e67eda5646508031a064fadabf02c2b5b98af956f9990aa62110f8364f714b6f18a27f9e7785ba5f38"
+RPM_NAME = "liblxqt-lang-1.3.0-1.2.noarch.rpm"
+RPM_HASH = "33e57c90e8908372f893fb951a9686a6261568d622909fe760abd52b3cfe16df9ae516785dfec53e91dc6a7414e180be74e794af5c0545a98f52d64b5d32fef9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "liblxqt-lang \

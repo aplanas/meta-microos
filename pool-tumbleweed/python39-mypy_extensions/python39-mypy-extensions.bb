@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python39-mypy_extensions-1.0.0-1.1.noarch.rpm"
-RPM_HASH = "18cf62c886e8a9639ee29781d0880e20a4ccf28e7e34c7a78d1861594cbe0a598d6f2f7db1846b503b6831d1a02e57bbec50a79adc04abeec635a9f4a39abccf"
+RPM_NAME = "python39-mypy_extensions-1.0.0-1.2.noarch.rpm"
+RPM_HASH = "57f74f03c65aac8aeca22a764090fd0cd72948c1ce7238f22f1ff06e0b82d4837885869d5d323a8d5ca04185d74af91597da27eb8fd304925ab31af09354907a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-mypy-extensions \

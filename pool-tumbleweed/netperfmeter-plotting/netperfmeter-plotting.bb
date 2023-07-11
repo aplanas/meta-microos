@@ -9,10 +9,10 @@ files can e.g. be used to create plots of the results. \
 This package contains a plotting program for the results."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.9.0"
+PV = "1.9.4"
 
-RPM_NAME = "netperfmeter-plotting-1.9.0-1.9.noarch.rpm"
-RPM_HASH = "9a0b533bf8d3b1f8b8a711014c4739180fe7a3304430984bc20cd90d0fd60510fabeeab456a3980f89a5a1a9f4dbee804916bdf82d9cf93c20f3415fa77b31f9"
+RPM_NAME = "netperfmeter-plotting-1.9.4-1.1.noarch.rpm"
+RPM_HASH = "66c5fb19840a48855052aed82a9d64a7c84f61b15c4b82811cb27cc0ad4a9ef016c2b9f3042bba00f3b08c23a38e470d2a4f2ed24e33520b1f0797274eed046f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "netperfmeter-plotting"

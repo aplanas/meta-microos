@@ -6,8 +6,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2019.001"
 
-RPM_NAME = "perl-Unicode-LineBreak-2019.001-1.25.aarch64.rpm"
-RPM_HASH = "2d62ae8d25e99f2665580396f8adaf7d1db3a934fc1d9cb0ac29e8ad10355f14d128137d97b34c98084a750bbfedbf7873abddc01ac394cd28ba7f2b6f55e1c7"
+RPM_NAME = "perl-Unicode-LineBreak-2019.001-1.26.aarch64.rpm"
+RPM_HASH = "28b894d97540308ec71320d2fd1533eec5d13293bd8c4f4fbc6fd3e8ca235d399c59fb679b04699d507e30b1f986b8a666acf3f2b9351f34977c8eca1279fbc0"
 
 RPROVIDES:${PN} += "perl-Text--LineFold \
 perl-Unicode--GCString \
@@ -16,7 +16,7 @@ perl-Unicode-LineBreak"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-MIME--Charset"
 
 inherit rpm

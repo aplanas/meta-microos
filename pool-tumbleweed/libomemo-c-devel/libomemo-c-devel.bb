@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.5.0"
 
-RPM_NAME = "libomemo-c-devel-0.5.0-1.2.aarch64.rpm"
-RPM_HASH = "0586127a4a8c63aeb9f4ec95ba4c9b6c8975dabfc832bc87da877905f7f325927db587d0f6bb37e0b2104a1ecfa176ce570278678405476ab9fce7af22263189"
+RPM_NAME = "libomemo-c-devel-0.5.0-1.3.aarch64.rpm"
+RPM_HASH = "f3208cd69dd9948ee0b2d1be1e01d270e0bd5a3fb239644b26fb943a1af824752e63d1d602332440398982e26b7ddd92c7909678b3b34c285382ca50b3b3a078"
 
 RPROVIDES:${PN} += "libomemo-c-devel \
 pkgconfig-libomemo-c"

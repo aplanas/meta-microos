@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.4.0.0"
 
-RPM_NAME = "uhd-doc-4.4.0.0-1.4.noarch.rpm"
-RPM_HASH = "ceddf443caea4b023427ea4148b2bdaec06f2b5b180f31357d6fa2fa38b8b2c540f185de8f9e7704b90958140a60dbc0079286bab1247cc8c2dff2cb0a6d0ea5"
+RPM_NAME = "uhd-doc-4.4.0.0-1.5.noarch.rpm"
+RPM_HASH = "b9fbbb58ca1c1fdc468724f698aca6d46306e44ad55c7a70e10a2ef87718ab000d1b16128dc02ead0ae083f8e1e843904caf19a82b5d0c75a86beda73410e270"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "uhd-doc"

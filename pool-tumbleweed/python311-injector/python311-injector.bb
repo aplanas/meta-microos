@@ -16,11 +16,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.20.1"
 
-RPM_NAME = "python311-injector-0.20.1-1.3.noarch.rpm"
-RPM_HASH = "ea7db543e7579d95b81f539571e2cd8883f077f404007f8311a2af8b91416df9b2d1feaba659789de5c2e1b7004453987fe1969ba71295757da7532e3145b21e"
+RPM_NAME = "python311-injector-0.20.1-1.5.noarch.rpm"
+RPM_HASH = "9f2c00d3372a8780a354092534224aaedf01924827e2e4ee2abb3c5bc91616a21b9e66420a80c49a0ebf8f4f0ae1048aca29ad0963f73e73fb8786e856eda2d9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-injector \
+RPROVIDES:${PN} += "python3-injector \
+python3.11dist-injector \
 python311-injector \
 python3dist-injector"
 

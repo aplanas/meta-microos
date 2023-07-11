@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.2.0"
 
-RPM_NAME = "cool-retro-term-1.2.0-2.1.aarch64.rpm"
-RPM_HASH = "6afbaec59882a48a00ab8ba63143d58590eae54508bfa2cbf31b337a8ecc742dbdcafdae428196018e8093b8792f10b5008ad73d26addaf4d7ee79bc2abe5595"
+RPM_NAME = "cool-retro-term-1.2.0-3.1.aarch64.rpm"
+RPM_HASH = "805d40111ff817ea9b665402e62b2d6287dc9dbc8e39b1d12e586ed61236473a64fb4fda0a3c4fd1d4b3a7364c04ae822a417f3e5c64c2fc60604c1cf6026349"
 
 RPROVIDES:${PN} += "cool-retro-term \
 libqmltermwidget.so \
@@ -23,6 +23,8 @@ libQt5Widgets.so.5 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
+libqt5-qtquickcontrols \
+libqt5-qtquickcontrols2 \
 libstdc++.so.6 \
 qt5qmlimport-QMLTermWidget.1 \
 qt5qmlimport-QtQuick.2"

@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.26.0"
 
-RPM_NAME = "check_postgres-2.26.0-1.1.noarch.rpm"
-RPM_HASH = "10e0c612234147d5031e0ee031afbe5eabc72f9607fc9b93539655e6456fd7d218a3963e2f6d305148cbfd1df805d52394c155dba66c05278a78f672670ec63c"
+RPM_NAME = "check_postgres-2.26.0-1.2.noarch.rpm"
+RPM_HASH = "dc69c9c4414148882cf06e695f0ef9cb9ba20cbb7c778d233ab80d6f3ea531c235453d1efb58b2c0f732995270d7f0d63ac42941aa99481121bf67afbd8380b1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "check-postgres"

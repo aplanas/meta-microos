@@ -2,14 +2,13 @@ SUMMARY = "Django Template Blocks with extra functionality"
 DESCRIPTION = "Django Template Blocks with extra functionality"
 LICENSE = "MIT"
 
-PV = "2.0.0"
+PV = "4.1.0"
 
-RPM_NAME = "python310-django-sekizai-2.0.0-3.7.noarch.rpm"
-RPM_HASH = "453f64adf62de1240bab8089f5740733c5724f54b5e5ee83ee2659fda18a3643c81f407656a64de72a5bbce6c144d930338bb2b7b7116c19a5321b923082da8d"
+RPM_NAME = "python310-django-sekizai-4.1.0-1.1.noarch.rpm"
+RPM_HASH = "d079b7abeefbed1d50762616c976d8ab765421b477fca7ea29cc8891a21759d4bf1b6a251c264e39147d3f573a06b377616a25243f870b55cbe6dbde868535f5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-django-sekizai \
-python3.10dist-django-sekizai \
+RPROVIDES:${PN} += "python3.10dist-django-sekizai \
 python310-django-sekizai \
 python3dist-django-sekizai"
 

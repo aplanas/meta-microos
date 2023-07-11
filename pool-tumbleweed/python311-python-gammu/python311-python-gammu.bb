@@ -5,10 +5,12 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.2.4"
 
-RPM_NAME = "python311-python-gammu-3.2.4-1.9.aarch64.rpm"
-RPM_HASH = "ba900c12cfe2627dd0ce290317ee960dcd9941437a681faddf7654e5d1c337c604cf78a123d1827eb183019a8c78b5ed339d21d8e0873b47fd5aba3dcb976c69"
+RPM_NAME = "python311-python-gammu-3.2.4-1.11.aarch64.rpm"
+RPM_HASH = "3c33f752e61b710efdc081fea175c8dedf068244170364749b9e1688ede60329a2f6ab63a26281ac7d07b65a4178bb9d1bd18f889cd3464bf3f2f5c5624271fb"
 
-RPROVIDES:${PN} += "python3.11dist-python-gammu \
+RPROVIDES:${PN} += "python3-gammu \
+python3-python-gammu \
+python3.11dist-python-gammu \
 python311-gammu \
 python311-python-gammu \
 python3dist-python-gammu"

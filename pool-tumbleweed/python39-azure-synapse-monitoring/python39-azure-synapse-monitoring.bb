@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.2.0"
 
-RPM_NAME = "python39-azure-synapse-monitoring-0.2.0-1.10.noarch.rpm"
-RPM_HASH = "99dd7092683d3b7a48f37b5dd00db6e66932887c00e707dbb1cc677b9a725db84864fc2661c6b2a8b4224665055dad6ab22ca4f5876361437d5e611ed8dbcdc7"
+RPM_NAME = "python39-azure-synapse-monitoring-0.2.0-1.12.noarch.rpm"
+RPM_HASH = "f11815718038f87037869d53a4c71bf43c117bcf8e66d276bd492df29ea881b7e99ca5619f79e14d015e8d2190424d007d821bc1ca536e5a1eb92cca051ca89b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-synapse-monitoring \

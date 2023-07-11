@@ -8,11 +8,12 @@ LICENSE = "Apache-2.0"
 
 PV = "2.1.0"
 
-RPM_NAME = "python311-unpaddedbase64-2.1.0-1.10.noarch.rpm"
-RPM_HASH = "a2464315985acfa292730b659a2d0855b44e24f57531538776aaeb5e670f574acd6c7d19f5d20087501c9009087b4320c13c561899635fc169f826224da7f42a"
+RPM_NAME = "python311-unpaddedbase64-2.1.0-2.3.noarch.rpm"
+RPM_HASH = "340753bad9c2f7f6e3dc589a0a1e215722fa694290fca92676f9d3344ec811b643cbe9019d0dd4af9be5c95c7fb457563cc981973e70c7481e4222219d92d824"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-unpaddedbase64 \
+RPROVIDES:${PN} += "python3-unpaddedbase64 \
+python3.11dist-unpaddedbase64 \
 python311-unpaddedbase64 \
 python3dist-unpaddedbase64"
 

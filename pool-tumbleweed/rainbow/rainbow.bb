@@ -4,11 +4,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.8.0"
 
-RPM_NAME = "rainbow-2.8.0-1.4.noarch.rpm"
-RPM_HASH = "db0a5430f3eadd826d13a1af56d4e4d742e1d6efd4eb0d21624f2c5e6ea6ca41681dbbcfb84abb6f71af8cac322548f278bd5872c60eb2011b45296ea9b04a49"
+RPM_NAME = "rainbow-2.8.0-1.5.noarch.rpm"
+RPM_HASH = "4f95223387b05d8ba431d23e5a5a6597ea8250a3a1b2d7a887aa58ea5d7ea1a62634c33c5ed021c3c60a1c610a62bf85e1f2f6baa3fbf082609467e2570f2445"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-rainbow \
+RPROVIDES:${PN} += "python3.11dist-rainbow \
 python3dist-rainbow \
 rainbow"
 

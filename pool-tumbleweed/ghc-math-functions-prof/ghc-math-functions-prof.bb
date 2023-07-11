@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.3.4.2"
 
-RPM_NAME = "ghc-math-functions-prof-0.3.4.2-2.3.aarch64.rpm"
-RPM_HASH = "5aaeb7e6920df725039299f63ea3dc7715e0b90be292c1c64281a67a9073ffc9a7d37853fdc2a546b5e708547adafe50855bc2cdc42dfc427f247827bd5d54de"
+RPM_NAME = "ghc-math-functions-prof-0.3.4.2-2.6.aarch64.rpm"
+RPM_HASH = "53258de9208166a247405dc2a313c03bf6b8872a07b3163f091c015f4c16ab4e2a756fc0c2cd8bc9ae9e00ace20f6f2804ea5a397bf53c1d1e1762c6a3c3a0db"
 
 RPROVIDES:${PN} += "ghc-math-functions-prof \
 ghc-prof-math-functions-0.3.4.2-9rV4yQVX6xI3LaPo90WsZk"

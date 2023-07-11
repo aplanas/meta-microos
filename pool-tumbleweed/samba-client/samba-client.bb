@@ -15,10 +15,10 @@ binary packages of the most current Samba version, and a bug reporting \
 how to."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.18.1+git.298.4ccf830b2a4"
+PV = "4.18.3+git.303.c08b73d523c"
 
-RPM_NAME = "samba-client-4.18.1+git.298.4ccf830b2a4-1.1.aarch64.rpm"
-RPM_HASH = "1c7de8fb0663659ffd44240d0850317d91e914d27224b214133a6afc6994de90471456b255c7ba3d39792306786ca43e39778c8c4a6821578078599367d738e6"
+RPM_NAME = "samba-client-4.18.3+git.303.c08b73d523c-1.2.aarch64.rpm"
+RPM_HASH = "f167d53f722004307358af138220587fd2434b97b79750e27ba1024afb37a5d9614689b6ae3f903570873c2710b808456cd064df40ddb2bee85444b69f3ca3f7"
 
 RPROVIDES:${PN} += "config-samba-client \
 libnss-wins.so.2 \

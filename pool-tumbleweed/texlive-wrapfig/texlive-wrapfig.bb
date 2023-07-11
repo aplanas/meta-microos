@@ -7,8 +7,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.3.6svn61719"
 
-RPM_NAME = "texlive-wrapfig-2023.201.3.6svn61719-52.1.noarch.rpm"
-RPM_HASH = "afee530c2d85cc95f9d8c146517c317c8af1eb597bb39d4af63a5ca6b58b2cf1248cf0d0af6d834dab1b1bf1229326567dfda58343da5306853a92b9f9a18180"
+RPM_NAME = "texlive-wrapfig-2023.201.3.6svn61719-52.2.noarch.rpm"
+RPM_HASH = "9a02bf00644cfc3021e6582f287cf7a46023a877e1a1fbb3b6fa107ba3059a3fe220765a9f09dc63754c7529659dd8aa5842241d4ca060c24540a3d4f5efabad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-wrapfig.sty \

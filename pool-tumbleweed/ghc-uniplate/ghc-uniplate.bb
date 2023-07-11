@@ -32,8 +32,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.6.13"
 
-RPM_NAME = "ghc-uniplate-1.6.13-4.3.aarch64.rpm"
-RPM_HASH = "5fedd656ac18d8e59a91293c74c8623ebe6990d3f8b42c9e39a25c1c7030d860a19a45ca35c1868800ef2ebc6364db11ca70d080aaea852cf402a9b3949834a0"
+RPM_NAME = "ghc-uniplate-1.6.13-4.6.aarch64.rpm"
+RPM_HASH = "3c1fbecfb8ecba780d559a7badcaa412c2691afe430c259284c389d0248d1d55e424411ae4893ac4609749f533fb21ebd0b9869f393327a1443680569bfabf4f"
 
 RPROVIDES:${PN} += "ghc-uniplate \
 libHSuniplate-1.6.13-3GboCmnxCZ4BmbYwVaL4sN-ghc9.4.5.so"

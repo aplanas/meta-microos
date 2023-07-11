@@ -2,10 +2,10 @@ SUMMARY = "Busybox applets replacing diffutils"
 DESCRIPTION = "This package contains the symlinks to replace diffutils with busybox."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.36.0"
+PV = "1.36.1"
 
-RPM_NAME = "busybox-diffutils-1.36.0-26.3.noarch.rpm"
-RPM_HASH = "94ada605421974f0fd5375f8f6cf06a3c224f895458b90f3d919b45b7565cdd8d5b5c54a3ef691b3170a069e2e1c369a96b68e5e66abb14ec91e1de14d667859"
+RPM_NAME = "busybox-diffutils-1.36.1-27.1.noarch.rpm"
+RPM_HASH = "c0184237b87555cdd7acdca099919f5d008f50206615e6b691dc5f8703fe46aee3fe1343380a20bdef26f8707cffab79d2b173ee38581b83c32d7aa61241d45b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "busybox-diffutils"

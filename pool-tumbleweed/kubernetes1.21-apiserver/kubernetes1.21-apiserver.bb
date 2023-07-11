@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.21.14"
 
-RPM_NAME = "kubernetes1.21-apiserver-1.21.14-2.2.aarch64.rpm"
-RPM_HASH = "78664bbcfbe7ebfe7a7ce2d8db2858735fcc9b3753def512f586e09fef980d7a4bef3a844f8ca9826a598bbe5b9325ab01dae0080d12d8253e12eba5ae486cef"
+RPM_NAME = "kubernetes1.21-apiserver-1.21.14-2.3.aarch64.rpm"
+RPM_HASH = "c6477a31e62c5cd45644b2c6c7ab3401da069a2678da27ad4800e0c2499a9768e694d14a149c346575f7413498742ad0ed3101d5ce0c909126077fe95f41d232"
 
 RPROVIDES:${PN} += "kubernetes-apiserver-provider \
 kubernetes1.21-apiserver"

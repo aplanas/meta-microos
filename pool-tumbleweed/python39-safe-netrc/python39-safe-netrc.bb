@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "1.0.0"
 
-RPM_NAME = "python39-safe-netrc-1.0.0-1.4.noarch.rpm"
-RPM_HASH = "5b533ad6e2cbd2a4d483273fb0e783500bc643d072642beda6fb40e3947c104438fd79c1801a8f32cff8b4974d6bfa455577d2778940ec6029956228a78a0ac3"
+RPM_NAME = "python39-safe-netrc-1.0.0-1.6.noarch.rpm"
+RPM_HASH = "acd1a0c5ebadf57a5d378a02abff31026dbd1b9c64cc289f0b8cb4a20b77498131ff09ae02ecf1ef02dd6815b40ede9112d511936b3f791bdf7d760127572c4b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-safe-netrc \

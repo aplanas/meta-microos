@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.1.0"
 
-RPM_NAME = "python310-jsonlines-3.1.0-1.3.noarch.rpm"
-RPM_HASH = "9de67f04c86b3b90fe01b52918d4ff115d6a44bd4873250e0dcc11d7f571ee41e12e385e0c862a41071c24b44c0d2e2233d745e578db3354a6ea1000dc4afc4a"
+RPM_NAME = "python310-jsonlines-3.1.0-2.1.noarch.rpm"
+RPM_HASH = "21c2def83dc57d2a25ca39226eeba22d17ce042915c457244feb1e5e76b10d7560e1341c2f95a470352855d6c5b5aa98fc85ac52505427c9ecd4236642c234e6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-jsonlines \
-python3.10dist-jsonlines \
+RPROVIDES:${PN} += "python3.10dist-jsonlines \
 python310-jsonlines \
 python3dist-jsonlines"
 

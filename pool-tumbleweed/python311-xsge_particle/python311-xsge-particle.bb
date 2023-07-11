@@ -8,11 +8,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.0"
 
-RPM_NAME = "python311-xsge_particle-1.0-1.7.noarch.rpm"
-RPM_HASH = "0abf83cf5c07e32b439fd15acb0956d01a252f8384c372444b7b6b17497d9c7371b34cf3d311d5b7eac3ebeb90df57fe4613380340f6a758abd3b199c28c4d6c"
+RPM_NAME = "python311-xsge_particle-1.0-1.8.noarch.rpm"
+RPM_HASH = "d4ced23808269a6e3a1b68aeb3053d769637529c00f89b45a94ebabafba61f10753667a29b245dc69152542f6ee5f5bc75fa51f22320828905c9d512a8d70142"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-xsge-particle \
+RPROVIDES:${PN} += "python3-xsge-particle \
+python3.11dist-xsge-particle \
 python311-xsge-particle \
 python3dist-xsge-particle"
 

@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.0.0"
 
-RPM_NAME = "libqoauth2-2.0.0-3.22.aarch64.rpm"
-RPM_HASH = "d283d2d5883aad587e21a90aa10bc69c5342c936f94b6dbc153d5a063509d0868e639120dcbdcc4c2a4b1203fc1eac1e5a56ffefd62ba89c8afb2f712fea9710"
+RPM_NAME = "libqoauth2-2.0.0-3.23.aarch64.rpm"
+RPM_HASH = "a911824d245a9a102eed5a651841f3392042fff7955e510ca4f819c1aab88b9e4c6aa6445e0b344faa868c64b72ce915e886194d42be876a1103545d30fd6371"
 
 RPROVIDES:${PN} += "libqoauth.so.2 \
 libqoauth2"

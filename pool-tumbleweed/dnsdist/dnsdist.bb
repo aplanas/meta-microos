@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.8.0"
 
-RPM_NAME = "dnsdist-1.8.0-2.1.aarch64.rpm"
-RPM_HASH = "f1e6db34e6fcf0a60f5865c94df6e63a85c918a005dac51d024e39d550b73a439dcfe1e301b8d5b4776ea02fee7c5fdf758ca7ebbb081c278a8c1b3e0cb7c98b"
+RPM_NAME = "dnsdist-1.8.0-2.2.aarch64.rpm"
+RPM_HASH = "e34410881d611df8aea9acd435f9f32a3294534afb0eb586a41110f13672981aaeba3aa0c0dd4a09d1ac8c1c22d960ff44252215d56fe75c295ddc3237ce15f1"
 
 RPROVIDES:${PN} += "config-dnsdist \
 dnsdist"

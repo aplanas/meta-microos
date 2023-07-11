@@ -17,8 +17,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.5.0"
 
-RPM_NAME = "python39-pytest-arraydiff-0.5.0-1.3.noarch.rpm"
-RPM_HASH = "57e02d39599d1a2bd81d949d8469517d681aa7fcb851ee77d22fa9a3e633ef187e42eede5be5b031cea365cf30b0323cf325c694511b7c36c19a4c0c4e078786"
+RPM_NAME = "python39-pytest-arraydiff-0.5.0-1.5.noarch.rpm"
+RPM_HASH = "d42ba3fbd1c599cb901a53a69ef91cd7b04756e80e2d753f1ecb167effc9d4cdf2e0e26b6e55e5f1b9dea6d4bbf71b978540cb26dadc937c1fd747cf0b1c2c3f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytest-arraydiff \

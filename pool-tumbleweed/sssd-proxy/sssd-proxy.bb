@@ -3,10 +3,10 @@ DESCRIPTION = "Provides the proxy back end which can be used to wrap an existing
 and/or PAM modules to leverage SSSD caching."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.9.0"
+PV = "2.9.1"
 
-RPM_NAME = "sssd-proxy-2.9.0-1.1.aarch64.rpm"
-RPM_HASH = "3ef1c93f700f0199ad3c00842babf3be07bdec056eb0c501e32430c5fcef590b705f9baf5aa92014402acad0edc7288c68931b2735fb6aca4f66f0b623338e95"
+RPM_NAME = "sssd-proxy-2.9.1-1.1.aarch64.rpm"
+RPM_HASH = "24b14fb4f250f1a269483a47f2210c690fa19a9dcefde1f3423278edb1ecbff88487b62f198febf5e5d9ef262d08fcabb0acb181719e7004a72a1bdc83e0b3b2"
 
 RPROVIDES:${PN} += "libsss-proxy.so \
 sssd-proxy"

@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "4.0.2"
 
-RPM_NAME = "mpich_4_0_2-gnu-hpc-devel-static-4.0.2-3.3.aarch64.rpm"
-RPM_HASH = "061e9968dd467510f079edc591b3bd57edd1069daaa1087356fe62f5e672321415bf0e381879daf28089ff50ccff12b7a21ae7c08508ad4665d0240ff12ae21a"
+RPM_NAME = "mpich_4_0_2-gnu-hpc-devel-static-4.0.2-3.4.aarch64.rpm"
+RPM_HASH = "fa24e1675156bd3356c19642128fea7d5c7c7bca55f8e99b3b92c2928dc758edb959a0b434803b431b1b86db2529c3d74acd95123d246c05fadbe275bb44f96a"
 
 RPROVIDES:${PN} += "mpich-4-0-2-gnu-hpc-devel-static"
 

@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.1.4"
 
-RPM_NAME = "libnco-devel-5.1.4-1.4.aarch64.rpm"
-RPM_HASH = "5905357af6169a88d7b134285daf342c02ba278e6ad7db1e5f4710013d027dcb2e686362cb113431394837dcad67698229513ccf3b0e3bdb263f6b698cfb6148"
+RPM_NAME = "libnco-devel-5.1.4-1.6.aarch64.rpm"
+RPM_HASH = "379c3249a2dda8a3d5313b667372d9533700c4c8913339474d5d7449c1af25b7cfd9a948ce6f8f1b7e7eb01d8f43fdd1366a5ac813d838245e1cac805eb5723e"
 
 RPROVIDES:${PN} += "libnco-c++-devel \
 libnco-devel \

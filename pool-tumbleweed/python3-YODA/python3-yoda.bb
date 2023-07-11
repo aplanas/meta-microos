@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.9.7"
 
-RPM_NAME = "python3-YODA-1.9.7-1.3.aarch64.rpm"
-RPM_HASH = "cd71c46e2c2ae4fa20d666722309b6cf3ca0015f8b9dffaf57f283484e84941f5c9977a2fb1ff723c55036f4554992bad697a55610f6871466c8917cc4c48506"
+RPM_NAME = "python3-YODA-1.9.7-1.4.aarch64.rpm"
+RPM_HASH = "05aacbf8ff8c0610f665d854af2f4e1edc83d784c713a5b49029fca239ef7173c477d9e52238ca93e30c35e5b19d39f867f602f423642abee447717aef130090"
 
 RPROVIDES:${PN} += "python-YODA \
 python3-YODA"
@@ -21,7 +21,7 @@ libYODA-1.9.7.so \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libstdc++.so.6 \
 python-abi"
 

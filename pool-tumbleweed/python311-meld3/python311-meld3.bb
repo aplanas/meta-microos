@@ -6,11 +6,12 @@ LICENSE = "SUSE-Repoze"
 
 PV = "2.0.1"
 
-RPM_NAME = "python311-meld3-2.0.1-1.18.noarch.rpm"
-RPM_HASH = "9d8c104cfe40a135709e3bb2ebd4800d1daa4a16d7f8c19b982668ee52577368e0ac929d64d2cf23abe8c2ab385012cc55b38e72b3b2fb546a1a89bf6dd695f7"
+RPM_NAME = "python311-meld3-2.0.1-1.20.noarch.rpm"
+RPM_HASH = "2a8de7e272f515e0b749379322e76e2e032d3b57e6a2f29238ec7ff77ca65b113da260de5904b84ab1c24de82ad18d5e5d8edd50e3bd835436146b7e371d0718"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-meld3 \
+RPROVIDES:${PN} += "python3-meld3 \
+python3.11dist-meld3 \
 python311-meld3 \
 python3dist-meld3"
 

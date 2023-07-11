@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "9.24.61"
 
-RPM_NAME = "dracut-kiwi-oem-repart-9.24.61-1.1.aarch64.rpm"
-RPM_HASH = "e942f3380ee09e9ac117bda4158c78be15173208cf70c0e0d57dc06d0aba5d915ef06b717ac88406e3086e13b45e323a824381c46dc4ea06a7c8773eec05caf1"
+RPM_NAME = "dracut-kiwi-oem-repart-9.24.61-1.2.aarch64.rpm"
+RPM_HASH = "3c9287c87bc67dac6cc82084b9a86eb475cf9fbbe0c9e4cab7c9c0e1a82673acd903ba58b9efeb08017d047c48775e8b4fccf323fcc81cc764734aca3ede644d"
 
 RPROVIDES:${PN} += "dracut-kiwi-oem-repart"
 

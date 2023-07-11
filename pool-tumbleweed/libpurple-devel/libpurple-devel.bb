@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.14.12"
 
-RPM_NAME = "libpurple-devel-2.14.12-1.3.aarch64.rpm"
-RPM_HASH = "8350089e49d43d3206f2b96daeeb141e714de2908201d7794a3c55ff068b2791b4aef8ea368a790d5806a7f14a19f380f223175acb69666e8f3c03bd21fceec3"
+RPM_NAME = "libpurple-devel-2.14.12-1.4.aarch64.rpm"
+RPM_HASH = "c519c4e48b081ab58e23963ff1ebfb862712d67378efdc5f22828bfff4594663ada954edac57c775e17153e280bd4b7fb156b0f9ed9e1fc0e0b306aec1457441"
 
 RPROVIDES:${PN} += "libpurple-devel \
 pkgconfig-purple"

@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1 & LGPL-3.0 & CC-BY-SA-3.0 & GPL-2.0 & BSL-1.0 & BSD-3-Clause
 
 PV = "16.2.13.66+g54799ee0666"
 
-RPM_NAME = "ceph-mgr-k8sevents-16.2.13.66+g54799ee0666-2.1.noarch.rpm"
-RPM_HASH = "bdbaa2afe8edb2f351a9b926f572f1453364d350451baed2ce079b7dd5e5196bdf7cc138a69a90608a4f2a42552b4bb4073f78e963eb5da21fd0524aefa23a96"
+RPM_NAME = "ceph-mgr-k8sevents-16.2.13.66+g54799ee0666-3.1.noarch.rpm"
+RPM_HASH = "22dbf5f82f9d7751524cb0c4b365520bcbc9b7354b9b62dda8f6887e94921cd76249a556dde6a179a84647af255b867833ba49e369155b8a90ca8ecce6bc51b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ceph-mgr-k8sevents"

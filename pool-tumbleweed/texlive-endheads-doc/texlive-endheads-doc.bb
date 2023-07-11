@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.6svn43750"
 
-RPM_NAME = "texlive-endheads-doc-2023.201.1.6svn43750-53.1.noarch.rpm"
-RPM_HASH = "36823b505599494f50a1d5ced88d236434b3abaaa0aab66184ff6d32cd967180f7dd7fe868c3f01bf851df228adc729f1a412481661dd1468a2ebd0132e251cf"
+RPM_NAME = "texlive-endheads-doc-2023.201.1.6svn43750-53.2.noarch.rpm"
+RPM_HASH = "9ac6d1580cc9da4c81cf1defe09699beb075f474971ab1809a2ae31dcfd585a78b1ec1154c776191683e2154288734d56235d06864f4ec1a005ebb422bbce607"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-endheads-doc"

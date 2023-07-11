@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later & Unicode"
 
 PV = "0.2.10"
 
-RPM_NAME = "liblayout-0.2.10-6.6.noarch.rpm"
-RPM_HASH = "0fd624f67864afc9929f88244ad62b20765b68d22be76475d4a8d2f2f03b0b1acc57ed455522d51fd2ca16bb15e9f2da31285a4662a9ec9392a301194d43cb54"
+RPM_NAME = "liblayout-0.2.10-6.7.noarch.rpm"
+RPM_HASH = "fd0e5d44305984b3c10a7cbb35c64feb306d3c57d1dae35696e7cc04be2b4513a9a9ddeea1ea58372a103efb3d3af8d8e65774b95cb0ee60821d6693d9bd3484"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "liblayout"

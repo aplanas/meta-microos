@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.15.0.2"
 
-RPM_NAME = "ghc-mwc-random-doc-0.15.0.2-3.3.noarch.rpm"
-RPM_HASH = "6e45f019f967f1fbc4cfbb7ca6897d4dff6b56bc727b4e15f98a44ae9e7d01be654dbd206bdc5bf4598442ce60a50b8732dbb5d0f07daf6e1120e0dc6ecd24f0"
+RPM_NAME = "ghc-mwc-random-doc-0.15.0.2-3.6.noarch.rpm"
+RPM_HASH = "b98a8469797f1f72b03a574ab11da5f9928f9eed8d470a938345b9d408b34fddf2a9ef53cbd9b6cd6b204fbd10800ae6ec9ff496a998b4fb8948633321c34c79"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-mwc-random-doc"

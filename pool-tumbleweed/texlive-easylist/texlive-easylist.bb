@@ -8,8 +8,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.3svn32661"
 
-RPM_NAME = "texlive-easylist-2023.201.1.3svn32661-53.1.noarch.rpm"
-RPM_HASH = "847ba655803134d9d3f06834a932ab554b4af94c0d301ee9ac69f7c05460610e4a80f8e02a58dabdf0611f11f90dbd032ebf6a6de086252a67041f2b983eaa5f"
+RPM_NAME = "texlive-easylist-2023.201.1.3svn32661-53.2.noarch.rpm"
+RPM_HASH = "4861b656181b2a12e771da2828154dd731888f83c2ac0ee7267f5588fa71df77eb90f045b03f418c12bdf0109bdfe2b699226df4a7e8eaa919799ef2a71acc7f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-easylist.sty \

@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "121"
 
-RPM_NAME = "libpolkit-gobject-1-0-121-4.2.aarch64.rpm"
-RPM_HASH = "324614982f9ac12854bda0384769955e3e93015e0049b34dbce9ae85ff533f16d801728d360b8adbe0cb469c9a2ef04086f86966cc90b12addd6746bd3c09f56"
+RPM_NAME = "libpolkit-gobject-1-0-121-4.3.aarch64.rpm"
+RPM_HASH = "970ac63ad22d473afc1a91334b1641f816ac79aa0a38651b5c1bb09e84f10a96175701839a7ff948593f471fd3c62912934f90d500029b4c15ffe66f50efcebc"
 
 RPROVIDES:${PN} += "libpolkit-gobject-1-0 \
 libpolkit-gobject-1.so.0"

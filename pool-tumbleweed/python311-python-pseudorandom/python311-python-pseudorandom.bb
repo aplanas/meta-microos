@@ -5,11 +5,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.2.2"
 
-RPM_NAME = "python311-python-pseudorandom-0.2.2-3.6.noarch.rpm"
-RPM_HASH = "b3aeb6c1bd796679b2cb9b5e7d1dfe1fb73b1b6cf40d406737ceffbd9036d545735744d24fb612e0200245edb3bfe4bf36c1330602cf1f109f13ac53ea86f539"
+RPM_NAME = "python311-python-pseudorandom-0.2.2-3.8.noarch.rpm"
+RPM_HASH = "65299c3b70d8d68cdce3640a64e65ec1c3422a18411db3e555f6921b05015ec72740b602214fc3c855ef3113d36a63eef4d79a9f3473f3d21b779116aa959ea5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-python-pseudorandom \
+RPROVIDES:${PN} += "python3-python-pseudorandom \
+python3.11dist-python-pseudorandom \
 python311-python-pseudorandom \
 python3dist-python-pseudorandom"
 

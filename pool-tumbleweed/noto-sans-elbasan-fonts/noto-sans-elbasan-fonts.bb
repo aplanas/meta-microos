@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-elbasan-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "e51a292bbdb2b49a32a182ef92e5609c5fa3005013fbfbd542767575a7f8574f0ffdb054028ca2e7fab9e1b32fc7cf3c0fb33851a404bf55dcc39a6b2964f9ac"
+RPM_NAME = "noto-sans-elbasan-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "a9e12a0851fb2d11d21e97a48df822139b9cc944a5b85777a7a29ebc9810eab9f0f8c85cc3b8251548464c70af6c3ecc7ae23360ef42e3e9f415e31db0bb81aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-elbasan \

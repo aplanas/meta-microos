@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-packetprotocol-devel-static-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "145e27e719021e08024476bd0a89d39f6db0bd0f95f3adc59ad0c80775466895ab33e128d99458ccf8e419d2325dc8d83db4369f105c9cd67399bb8a0400b151"
+RPM_NAME = "qt6-packetprotocol-devel-static-6.5.1-1.3.aarch64.rpm"
+RPM_HASH = "b13b7ca562f1c7ee058440b46186aa2711d0b1e81efcc668919ead7f0b2d0109892f1ec816de6a2a021dd90cc210dc585377a101c5bc9b706a3506207f490596"
 
 RPROVIDES:${PN} += "cmake-Qt6PacketProtocolPrivate \
 qt6-packetprotocol-devel-static \

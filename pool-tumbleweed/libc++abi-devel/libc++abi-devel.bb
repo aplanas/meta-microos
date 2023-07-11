@@ -4,10 +4,10 @@ of the C++ standard library, targeting C++11. \
 (development files)"
 LICENSE = "Apache-2.0-with-LLVM-exception & NCSA"
 
-PV = "16.0.4"
+PV = "16.0.6"
 
-RPM_NAME = "libc++abi-devel-16.0.4-1.1.aarch64.rpm"
-RPM_HASH = "0df33cf11c17f6b7d640500db4c10ed367014b9650f8846cd540c0a1cc5c4b85a84e89c12850619bb49a1c767fbabd41f9ca92cb04c705c6f2ad02929f2af41d"
+RPM_NAME = "libc++abi-devel-16.0.6-1.1.aarch64.rpm"
+RPM_HASH = "4e733d58225fb33d5748fc79cedf758f0fb5c7d100d4debe10f747c86ad712d5fb957741cf79f0aa2e63591b7297c2dc857f7b0489093ae2762196eaa73b71d4"
 
 RPROVIDES:${PN} += "libc++abi-devel \
 libc++abi.so"

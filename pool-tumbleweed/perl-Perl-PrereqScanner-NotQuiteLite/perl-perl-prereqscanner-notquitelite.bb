@@ -20,8 +20,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.9917"
 
-RPM_NAME = "perl-Perl-PrereqScanner-NotQuiteLite-0.9917-1.1.noarch.rpm"
-RPM_HASH = "33edb85e5a49cfc4c05f2021c5a852e653841e6655b35b23be9e8c45c08aeb6881bc8a0ea9064d261002325bc6a26a50f0cce0a5940b629ad83a41448c438219"
+RPM_NAME = "perl-Perl-PrereqScanner-NotQuiteLite-0.9917-1.2.noarch.rpm"
+RPM_HASH = "8c96fa201ff67e2f911f0f29ad8b6c0ddd5cec282bf7af300edfaf38d268c7b8e0a968519815fae798076cb15ddf4a301db19d0f11daf3479d95390b4c316108"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Perl--PrereqScanner--NotQuiteLite \
@@ -64,7 +64,7 @@ perl-Perl--PrereqScanner--NotQuiteLite--Util--Prereqs \
 perl-Perl-PrereqScanner-NotQuiteLite"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-CPAN--Meta--Prereqs \
 perl-CPAN--Meta--Requirements \
 perl-Data--Dump \

@@ -5,14 +5,12 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "3.5"
 
-RPM_NAME = "python310-semanage-3.5-1.4.aarch64.rpm"
-RPM_HASH = "033b5da78503e06d790101c15fe42e8fefa33e5ea60e5e4bd25a8bd49fd83b0c56544fd69ad9b181623f8fe4450c7aeb897c3a0df845207997b5032c3d6961a6"
+RPM_NAME = "python310-semanage-3.5-1.9.aarch64.rpm"
+RPM_HASH = "77bd797376fdb8a84a9ffa492d0e3d2c5a6985b24aa1a65bc93e9e7bac086c5603726427e202a55967a2343e73c99d57de7e358af3b52788f696193e1e4ad9ac"
 
-RPROVIDES:${PN} += "python3-semanage \
-python310-semanage"
+RPROVIDES:${PN} += "python310-semanage"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libc.so.6 \
+RDEPENDS:${PN} += "libc.so.6 \
 libsemanage.so.2 \
 libsemanage2 \
 python-abi"

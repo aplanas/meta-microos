@@ -15,8 +15,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "28.6"
 
-RPM_NAME = "owntone-28.6-1.2.aarch64.rpm"
-RPM_HASH = "30234456217cb44b7ac79f9c501478fd503491d147e180297f9754ea9594af488ecea7cd47d1564817d7cf1dd0342d9f8c241e2adeeb22c97667f373c6fe6521"
+RPM_NAME = "owntone-28.6-1.4.aarch64.rpm"
+RPM_HASH = "125346c1a0d556d2123d080659327c057699fddd0f74b54ae2ccb40e4b800bbfa41106ac219eb5f776cebe02e986406bca489d3c37428907113495d8b62181d3"
 
 RPROVIDES:${PN} += "config-owntone \
 forked-daapd \
@@ -42,7 +42,7 @@ libgpg-error.so.0 \
 libjson-c.so.5 \
 libm.so.6 \
 libmxml.so.1 \
-libplist-2.0.so.3 \
+libplist-2.0.so.4 \
 libprotobuf-c.so.1 \
 libpulse.so.0 \
 libsodium.so.23 \

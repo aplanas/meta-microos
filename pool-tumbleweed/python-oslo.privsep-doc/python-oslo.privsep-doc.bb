@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.0.1"
 
-RPM_NAME = "python-oslo.privsep-doc-3.0.1-1.3.noarch.rpm"
-RPM_HASH = "06e89e11e040f158e949bbe4a519f1c17d86462da2031a078692a395f8b5b5dc6f2e2f4472a2bc950a4a94d247531802e74fcbb7720192b7977336a4f552e5cb"
+RPM_NAME = "python-oslo.privsep-doc-3.0.1-1.4.noarch.rpm"
+RPM_HASH = "889dde0721030a475c17b2f60d8e303e1cb04f3a686dc0862bed9bda560dca88f3cbd90fc5d250f15c76486c2abc0b28699e001ce25c09d8f3c2ed270c43f142"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-oslo.privsep-doc"

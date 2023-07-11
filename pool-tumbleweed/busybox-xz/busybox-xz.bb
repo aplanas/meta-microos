@@ -2,10 +2,10 @@ SUMMARY = "Busybox applets replacing xz"
 DESCRIPTION = "This package contains the symlinks to replace xz with busybox."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.36.0"
+PV = "1.36.1"
 
-RPM_NAME = "busybox-xz-1.36.0-26.3.noarch.rpm"
-RPM_HASH = "353222bf22ca4509ac2e1fb3287aa5dac8d0ce58b489f54490248188fbb1d3b3f05e264f2570edbfc200d5db658ed2785cd67dd1188f2f42f889b1ec46fafec6"
+RPM_NAME = "busybox-xz-1.36.1-27.1.noarch.rpm"
+RPM_HASH = "d783866d46967460f0c22badf538d7bad1b31e2a76055f26896d212080cf757cdb700b9da6960a16d28ba20daaca17b9276d299082fc9a2dec5f7ef74effd59b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "busybox-xz"

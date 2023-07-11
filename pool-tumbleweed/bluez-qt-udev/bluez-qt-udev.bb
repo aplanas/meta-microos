@@ -3,10 +3,10 @@ DESCRIPTION = "Async Bluez wrapper library. \
 Udev rules."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "bluez-qt-udev-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "a3fc437ea568fb2191c62eba49e5bec9acdb2cd3ac8717128735ab1359edf38b4fb58e208bf1c0b597a7e71cd456e3a4cbcebd7aa9628c4ee1ee5e9443913240"
+RPM_NAME = "bluez-qt-udev-5.107.0-1.1.aarch64.rpm"
+RPM_HASH = "c6ffa89753f4a6a5e429d5f8a065f4dab9e42484d3aa88f61fc5b3609a8ca2c91529538487144d8d5aa0b4e5e154050b87b82d2a2c5363d29c7e4aa6e0d52c5d"
 
 RPROVIDES:${PN} += "bluez-qt-udev"
 

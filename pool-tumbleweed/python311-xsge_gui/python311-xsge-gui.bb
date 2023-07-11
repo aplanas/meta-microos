@@ -9,11 +9,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.2.1"
 
-RPM_NAME = "python311-xsge_gui-1.2.1-2.7.noarch.rpm"
-RPM_HASH = "af3e79702ba748461198a87072a435870b212693a05e6ccd6b3f4e1fcb6f1950a509e33ceac1aa774e3bd5061562f2c4b4a09b33ad5b5c114ded43739f1cfcf2"
+RPM_NAME = "python311-xsge_gui-1.2.1-2.8.noarch.rpm"
+RPM_HASH = "9672e8a6c66ba4931844ba49f0f1e1499dbcd36e1248fd8d5f286a8234863babdf3f39b63166a05b5e1e3dbe0ce947e742c0bfdbdedadeea5e4ec14242e97dd6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-xsge-gui \
+RPROVIDES:${PN} += "python3-xsge-gui \
+python3.11dist-xsge-gui \
 python311-xsge-gui \
 python3dist-xsge-gui"
 

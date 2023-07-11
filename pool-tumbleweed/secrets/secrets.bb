@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "7.3"
 
-RPM_NAME = "secrets-7.3-1.1.noarch.rpm"
-RPM_HASH = "e49a1e3c3171a8d323f304ad62a79ca459ba1da53e8b4ce0870a49a554be5c096d29175cd8dbbc3b9bd96ad9d480c6016d101ec1a3efd952fb8c6c7b15b8e162"
+RPM_NAME = "secrets-7.3-1.2.noarch.rpm"
+RPM_HASH = "0caef759e415059e6924794476252b921181cefa1550c9c7271e99106f556f046eaa11a30fc556694713d84296b120dc63253822bcee64f4ace6b87e8cbcd77b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-passwordsafe \

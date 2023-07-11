@@ -4,12 +4,11 @@ LICENSE = "Apache-2.0"
 
 PV = "0.7.0"
 
-RPM_NAME = "python310-napalm-procurve-0.7.0-6.4.noarch.rpm"
-RPM_HASH = "52236227e2dd5e28bdf666120817be810f853ed1341f45f31557dce5fd2e20795238f83aa8b8a58c086a0775eb1aa6bf868460d37caf749a948591c99659bd91"
+RPM_NAME = "python310-napalm-procurve-0.7.0-6.6.noarch.rpm"
+RPM_HASH = "41be670c8fa8c93a07dd31104a52b21b65cd468e59f4da56d7339d23254e6632641c4baa70f7c0a3ec2642d3faf019e0e6210856044f4b5420c4be8b4c91d42e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-napalm-procurve \
-python3.10dist-napalm-procurve \
+RPROVIDES:${PN} += "python3.10dist-napalm-procurve \
 python310-napalm-procurve \
 python3dist-napalm-procurve"
 

@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "2.1.1"
 
-RPM_NAME = "python310-iso3166-2.1.1-1.3.noarch.rpm"
-RPM_HASH = "37bba7f106aeef507ed0d49f776ed4665a2fdf65ea374c70ec5d9a0c5a52f8141b41f34731df2b46edc971c5e0e39a2f916348cc3ed57c44cd7371f51dc29cdd"
+RPM_NAME = "python310-iso3166-2.1.1-1.5.noarch.rpm"
+RPM_HASH = "7580e61fd8afaf69b68acd518d9a8e7971b0c352e42ac5172c6f0e71937efd6143fd76387161865a063273435d1b008bf60279ad9e7485d8c42140255847dbaa"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-iso3166 \
-python3.10dist-iso3166 \
+RPROVIDES:${PN} += "python3.10dist-iso3166 \
 python310-iso3166 \
 python3dist-iso3166"
 

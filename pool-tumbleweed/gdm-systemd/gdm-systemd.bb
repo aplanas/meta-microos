@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "44.1"
 
-RPM_NAME = "gdm-systemd-44.1-1.1.noarch.rpm"
-RPM_HASH = "1ae0f503da2049da11c2a1da2e084864dabd3c430c6bf0ba2fb793ff03d434239726f2881556bf6f68e1c4543ec641687dc8590c789d94a55e7e48d723bd37b5"
+RPM_NAME = "gdm-systemd-44.1-2.1.noarch.rpm"
+RPM_HASH = "8c1390bf3a87d6330554e22c75aace51a1f04978d8d8d349cac3e70ad579e2cd9046a6b42f36cad0f1a622cc1a199654e49a56ee6b9f269f6512f1829baad2bf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gdm-systemd"

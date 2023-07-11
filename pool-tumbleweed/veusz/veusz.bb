@@ -9,14 +9,14 @@ LICENSE = "GPL-2.0-or-later & Python-2.0"
 
 PV = "3.6.2"
 
-RPM_NAME = "veusz-3.6.2-1.1.noarch.rpm"
-RPM_HASH = "497b3ada8c234ca0d3696ca62b3e7fc4012ea952a67164a99237b1a823c1204d26a4cb3eb76b2df486a583fd1371e28874f412f9be720c7a16106d2512541ce7"
+RPM_NAME = "veusz-3.6.2-1.2.noarch.rpm"
+RPM_HASH = "0eb5f374b041f0208728e445ba4e8debfe0d1462592b335fd6fea216f40c5bea77f660867bc4d06c14c42816cb943a03606600d011cd4e9c21ffe07799e61a76"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "veusz \
 veusz3"
 
-RDEPENDS:${PN} += "/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
 desktop-file-utils \
 python3-veusz \
 shared-mime-info \

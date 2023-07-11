@@ -10,12 +10,11 @@ LICENSE = "MIT"
 
 PV = "0.2.4"
 
-RPM_NAME = "python310-tpfd-0.2.4-1.14.noarch.rpm"
-RPM_HASH = "11e78dd22b428b776b896fa6ac7ea7304bdbb4476e4fa4a68f1f1cbc08b27bed417ebfeee55ed618a3821f1f15693d769bc8b9f7a0b67d3b7d468a596d707c7b"
+RPM_NAME = "python310-tpfd-0.2.4-1.16.noarch.rpm"
+RPM_HASH = "a9e0e499314dbe495636be87d7cd39a76288615a39c622efe0fdb65e130dc5dc5fa293e1be4723288d6a1f8c884407be04e7dd6f790deba93134d30236b13241"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-tpfd \
-python3.10dist-tpfd \
+RPROVIDES:${PN} += "python3.10dist-tpfd \
 python310-tpfd \
 python3dist-tpfd"
 

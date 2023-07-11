@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "12.2.0"
 
-RPM_NAME = "mingw32-gcc-objc-12.2.0-2.1.aarch64.rpm"
-RPM_HASH = "b1e6a074548bb47399082a2c280346f085550e694c239f86d0e1d294d1287cfff7cf6387c7ad244dfad450d4fa9befadfffdff245464e289d332d6c50a698c5a"
+RPM_NAME = "mingw32-gcc-objc-12.2.0-3.1.aarch64.rpm"
+RPM_HASH = "e6ba3cb960e9d3472bdbc9b53859f28b58efb395ed288641a66cc13c917453ecfe3b7aa5535e07fa27f33b5985657f191226bf14795fb396ad467e1a9243c6c0"
 
 RPROVIDES:${PN} += "mingw32-gcc-objc \
 mingw32-lib-objc"

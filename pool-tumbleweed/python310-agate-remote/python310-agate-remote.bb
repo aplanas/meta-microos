@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.2.1"
 
-RPM_NAME = "python310-agate-remote-0.2.1-1.3.noarch.rpm"
-RPM_HASH = "6c1eb91b2bf0d9389ce7864845b4c0d019b1f879557d1b155d1739cb7a1a77a28a1938937d7a3ff3ec4935c7b6e582deabf32d6ebb958ec67056b83029a80430"
+RPM_NAME = "python310-agate-remote-0.2.1-1.5.noarch.rpm"
+RPM_HASH = "6c823bda832fe65f8ab2d78859146e189dfc20eb617544f0c59e2a8b2dfc6a54878562a7a03d85f8733b6650f12feeba93fd57c378fa64d7a6c376d42d0ecc86"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-agate-remote \
-python3.10dist-agate-remote \
+RPROVIDES:${PN} += "python3.10dist-agate-remote \
 python310-agate-remote \
 python3dist-agate-remote"
 

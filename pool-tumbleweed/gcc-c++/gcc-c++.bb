@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "13"
 
-RPM_NAME = "gcc-c++-13-1.3.aarch64.rpm"
-RPM_HASH = "b668a03fa0d15ee2ea96c4b16627330d3d7ebe392b7a48d5ffbbac5d337c4637bf58a7c532c97ad7a5beaf7f2b6b76a5bf5610b159914e60a9dd3bbc2ea5607c"
+RPM_NAME = "gcc-c++-13-1.5.aarch64.rpm"
+RPM_HASH = "7b98368615a5e0b4352fabd5aaa10085d0e1e3b967bbfafe99391d96f852cda50f6f3163f10837eda622f956867749d2454cc8570da7bdc9c334bc807be0d052"
 
 RPROVIDES:${PN} += "c++-compiler \
 gcc-c++"

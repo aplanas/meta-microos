@@ -8,8 +8,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.87"
 
-RPM_NAME = "perl-SVG-2.87-1.4.noarch.rpm"
-RPM_HASH = "0bbf3a37c874ca95d83268caf81e9c52302d395e8a533d98f964817ec0c010d90b0fdaf8bc0af7de9bb82155b0acc3c6f7e0c057505222f1b3cd58f14934487e"
+RPM_NAME = "perl-SVG-2.87-1.5.noarch.rpm"
+RPM_HASH = "472372c10b74a54e43adafb73282f7bb943d62743c6c1645f28ba135cc6a2e67a885a3a7ad22624334c49c0d38a18fb38ebc0c647eb9594139d63034f22ed556"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-SVG \
@@ -18,7 +18,7 @@ perl-SVG--Element \
 perl-SVG--Extension \
 perl-SVG--XML"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-parent"
 
 inherit rpm

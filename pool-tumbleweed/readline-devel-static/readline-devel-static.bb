@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "8.2"
 
-RPM_NAME = "readline-devel-static-8.2-2.3.aarch64.rpm"
-RPM_HASH = "ed4dd204213bc08e638d889fe2472f42773575cc39d8977e31b90bf8cdbf4a28b5b01a481c4d9861c28df0cd0dd216ab6a7bf2c2f6082f5662917d9eb506b320"
+RPM_NAME = "readline-devel-static-8.2-2.4.aarch64.rpm"
+RPM_HASH = "641b658adc21f11f0a09ba1f027a6823fdefbfbef685b9ce5840d2c4178c910eb0e2a4ee1a46c99cd24d0e24ac4df16015c84cc4dd4ae58b20383239e6629c5d"
 
 RPROVIDES:${PN} += "readline-devel-static"
 

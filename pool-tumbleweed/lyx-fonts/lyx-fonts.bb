@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.3.7"
 
-RPM_NAME = "lyx-fonts-2.3.7-1.3.noarch.rpm"
-RPM_HASH = "bbea7162e9bb6a62c7698028f5a97488f39d29714e10751573f6470b570a7cdf2f371507cea8cbd81387a8ff344b992c214fb6c992d5ca40691df1207897db63"
+RPM_NAME = "lyx-fonts-2.3.7-1.4.noarch.rpm"
+RPM_HASH = "a20a427a5ee718dfe2a68e1e57a3557a949b97205af808cce5a7af74ffb62296f7503f64fc542e7f1bb8cb3688a848be2f4a2f4d1b2c12ad26c707f2e287512b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

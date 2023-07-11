@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-sql-unixODBC-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "21d1e1eab61a703e9816f0dbd65857ae0ae6dc60b76c7c9c976ed1a5d2fc88e130186c818e0eed3dd37a498d06e80c0d78e40fef3b62a350c77e15f08f676915"
+RPM_NAME = "qt6-sql-unixODBC-6.5.1-3.1.aarch64.rpm"
+RPM_HASH = "dee99e08498aa9cb0ccd87bb4801aa620cb6fd51b04c13743e89b58d644d928defd5c9956c48f1140534763909aa61556dfe18d1b3825933a098b0c7e7a84159"
 
 RPROVIDES:${PN} += "libqsqlodbc.so \
 qt6-sql-unixODBC"

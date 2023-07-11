@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "0.9.2"
 
-RPM_NAME = "python39-nbsphinx-0.9.2-1.1.noarch.rpm"
-RPM_HASH = "1b213e60884892b8bd2c0eb5fdb3d375538fc59a901a7e1ca1e6d21ca35b7222fff0febd0ab018197ac5ed65221d376ebca58ac070df3f5b2cbeb8fb56da5f57"
+RPM_NAME = "python39-nbsphinx-0.9.2-1.2.noarch.rpm"
+RPM_HASH = "c01bfbcdff1ef936b6f04fb6466ba726731577d907359ae51a7a6753c6622755d087e209b18ef4860e6beeea82cdf50fce4d63dc6a4b21a11edf709602872cf4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-nbsphinx \

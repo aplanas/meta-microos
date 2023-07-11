@@ -5,12 +5,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.0.6"
 
-RPM_NAME = "python310-Morfessor-2.0.6-2.13.noarch.rpm"
-RPM_HASH = "6311779c8e5659dcd3c6900a8e81c0203a73f56dfb0b458aca88656cdc899028912d472b1ec75c4c1231dcd2b9b31393b2c799a7ff45169b36cd99e9f2118b9c"
+RPM_NAME = "python310-Morfessor-2.0.6-2.14.noarch.rpm"
+RPM_HASH = "66019c6b8e6a7e7302f26108b9cce4d45912bb7a27bb5b303f642b7f60cdd60463a60dbca519a4de1d93daf6c4415fc78d360eef1f5f92b328945308482a19d5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-Morfessor \
-python3.10dist-morfessor \
+RPROVIDES:${PN} += "python3.10dist-morfessor \
 python310-Morfessor \
 python3dist-morfessor"
 

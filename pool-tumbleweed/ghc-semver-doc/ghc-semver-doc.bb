@@ -4,8 +4,8 @@ LICENSE = "MPL-2.0"
 
 PV = "0.4.0.1"
 
-RPM_NAME = "ghc-semver-doc-0.4.0.1-1.3.noarch.rpm"
-RPM_HASH = "31cf1641968d0c6aa5c799493508bececceefb1cbbe66091230239a31792329cd2c7ab8fafb83b4497d5216204b7591748db8451e3f479f13145021f6269fe6b"
+RPM_NAME = "ghc-semver-doc-0.4.0.1-1.6.noarch.rpm"
+RPM_HASH = "9ebaafb8d4146bd764a2f2522c2fbe0897fa5dd1398b93a3ad344aa5f34e5372111e181fefa6be527924a4d2a9eacfe7353bb8887f869768e7aa4dd0dfd4c49c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-semver-doc"

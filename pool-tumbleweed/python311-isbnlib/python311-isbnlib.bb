@@ -5,11 +5,12 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "3.10.12"
 
-RPM_NAME = "python311-isbnlib-3.10.12-1.4.noarch.rpm"
-RPM_HASH = "920c9337bea5eb0e43d2dd8e7c70c7be33e6180496c1cbca575f6b7a76a0e976d3445f0746e57cc497ebde0df79d2c3b4f5abd4f5fce2594c6e21dc102391bc6"
+RPM_NAME = "python311-isbnlib-3.10.12-1.6.noarch.rpm"
+RPM_HASH = "40c84d6d77b1eb4ae51cc6014f17b55759bfdec540b7a9b797b03622fc2fac80b5c2367b164e961cbc121fdee588e69a9b4a7589f3c7e28660cc2438e1bccc3b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-isbnlib \
+RPROVIDES:${PN} += "python3-isbnlib \
+python3.11dist-isbnlib \
 python311-isbnlib \
 python3dist-isbnlib"
 

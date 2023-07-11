@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.9.0"
 
-RPM_NAME = "cblas-devel-static-3.9.0-9.1.aarch64.rpm"
-RPM_HASH = "14e95e367237261a67a0a518151ae6c0f9e3382c93af1065453f2d5efda01db38a43b07dd804499e683e681734477b26a0920d0db800f159694bc7db97255b2f"
+RPM_NAME = "cblas-devel-static-3.9.0-9.2.aarch64.rpm"
+RPM_HASH = "bcadd17a5eb59b86e296caef42960c139d1f036558a58586678ccc92476dfd22dacb797063d097d44ee825574447979c37a0daf33cd4a7f0398836d1a77e76e4"
 
 RPROVIDES:${PN} += "cblas-devel-static"
 

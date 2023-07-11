@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
 PV = "2.7.0"
 
-RPM_NAME = "mt32emu-qt-2.7.0-1.3.aarch64.rpm"
-RPM_HASH = "9f6b3447eee82024fdc9b91ae2e62ca2b83a71f45fcb5343346409b5fbccfe5ffccd3e0fb6e450b75bd6739dd58645aa9f65e07a63009a0105d0866a5950397d"
+RPM_NAME = "mt32emu-qt-2.7.0-1.4.aarch64.rpm"
+RPM_HASH = "f760eb053f4e99a42083f2b35604b1f4fe21d60b01c280f7d73a6d7f8e4f6d5af1d57888a878b79ee3fd1dcadc8b34a0818f5050dfae9e796a39e26bd72f1b87"
 
 RPROVIDES:${PN} += "mt32emu \
 mt32emu-qt"

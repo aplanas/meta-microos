@@ -7,8 +7,8 @@ LICENSE = "BSD-2-Clause & CC-BY-3.0 & LGPL-2.1-or-later"
 
 PV = "43.0"
 
-RPM_NAME = "geary-43.0-3.2.aarch64.rpm"
-RPM_HASH = "78fb3fa70f11bcb2fbf5f8348b6d1497d77499607226e5e998d9f9218f21b53f19bf5c96f57a3f4d86661b3a6fd12de676622d7b30c40f59bff93ae94784b5af"
+RPM_NAME = "geary-43.0-3.3.aarch64.rpm"
+RPM_HASH = "7033773345282c04cd05c76164f84f94e5d20ff0257d097ed3c0525807939a561eb8255e06324c52c7b7c8572c3c49ca48431891aad524b0d05c774e71c34fc8"
 
 RPROVIDES:${PN} += "geary \
 libdesktop-notifications.so \

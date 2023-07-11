@@ -9,8 +9,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-lmp-mp3tunes-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "027d6b3466e9a35b169418dfba3c574e2ebb326d3df11d61f534efa2102fbcbff26d9f6538bfd4fe53d0efedbc0736045020fde64b1f2d986fd874f8679101d4"
+RPM_NAME = "leechcraft-lmp-mp3tunes-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "bb8c636ee172ac55b55d8b96ca60501cbf023c08e8b6ed105ce8ee27187dca6f71794c3f7cb346cffe6e50f6e2389084fe5bf728e1ac4dede827917b181b5e02"
 
 RPROVIDES:${PN} += "leechcraft-lmp-mp3tunes \
 libleechcraft-lmp-mp3tunes.so"

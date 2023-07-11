@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "0.2.3"
 
-RPM_NAME = "python311-libmsym-0.2.3-2.5.noarch.rpm"
-RPM_HASH = "3516b35025ad355eb6c57948c7c1c878231e9ad7188b25e49aeb32a1392d3cabd03a891267b319a0f3e815f845babc6b82e9bb6ad621e2c07e5f69944f76897a"
+RPM_NAME = "python311-libmsym-0.2.3-2.6.noarch.rpm"
+RPM_HASH = "382863b320ec15d062e149fc1fef6755c026b360378b124af39b22f6d27fea6563f57cc6adc653b308bd7d27fb90b25e7367171ea647dc62b9967b735b9df7ab"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-libmsym \
+RPROVIDES:${PN} += "python3-libmsym \
+python3.11dist-libmsym \
 python311-libmsym \
 python3dist-libmsym"
 

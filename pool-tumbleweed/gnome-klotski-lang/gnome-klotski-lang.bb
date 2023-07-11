@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.38.2"
 
-RPM_NAME = "gnome-klotski-lang-3.38.2-1.13.noarch.rpm"
-RPM_HASH = "e029d7ff7f264e5b0d310e36db3b8720fa067fbee88adc7b75da8bf29db3c8c3f1b05549f2d83e2e71e655a235466cbc6c17feec6f3a4bd80266307fc3f07048"
+RPM_NAME = "gnome-klotski-lang-3.38.2-1.14.noarch.rpm"
+RPM_HASH = "f279713a3677b528e0d54c4e8852969f807d95c15bc2ac92073dd005913cdd187956baa637fcb8a1a56fe7b26e9c376c3bd8331776eb07adb7ac5b6504cd0918"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-klotski-lang \

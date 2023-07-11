@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "22.01"
 
-RPM_NAME = "lzma-sdk-devel-22.01-1.3.aarch64.rpm"
-RPM_HASH = "904996d47fc8bdc5f307c99f0de5fcc8ed1c4885009b7344f55fd23a6215b287f1cd1f9cd0f7d7e50fb0568025c9636642ba606d98a3c94a4d5ab63d96746d67"
+RPM_NAME = "lzma-sdk-devel-22.01-1.4.aarch64.rpm"
+RPM_HASH = "9b0617b67d29c6091ef4d6df190f0cc969342302141f54c3d797f57d57bbb0bea0149af21bc4e2b6860a0a76163fa742c560591f13f18c1824c914348e30d163"
 
 RPROVIDES:${PN} += "lzma-sdk-devel \
 pkgconfig-clzma"

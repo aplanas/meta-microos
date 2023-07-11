@@ -17,8 +17,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.7.5"
 
-RPM_NAME = "veyon-4.7.5-2.1.aarch64.rpm"
-RPM_HASH = "b7d950c5dba04fbbcabce97f2ed8e81d0522d602a948083f447575e2ef0333debf4b0ca040048799c8ff73cfe0a3f4f2e67ddfc9fc1128e112b81768c8c98d23"
+RPM_NAME = "veyon-4.7.5-2.2.aarch64.rpm"
+RPM_HASH = "d2b373e0003b51bedfb8f6fd19d0d4defa50b8d0430d077a3da96012667805765b2f897e01784407f11f37fdd18cf759f80549c84c44ba002f337d617c3e8fbc"
 
 RPROVIDES:${PN} += "libkldap-light.so \
 libldap-common.so \

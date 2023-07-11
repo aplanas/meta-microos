@@ -7,8 +7,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.03"
 
-RPM_NAME = "perl-Stream-Buffered-0.03-1.27.noarch.rpm"
-RPM_HASH = "d589e6220b644c0211f2b97d86639cb2a8bcdc6ef039b814b5c49e15aaa8c1db58450bd9d2ef30cdcf494f41172e2806d2ade5675da5ee0c853c7d453b12d38c"
+RPM_NAME = "perl-Stream-Buffered-0.03-1.28.noarch.rpm"
+RPM_HASH = "83ee7a1800649f2c2d99b0de0835d1ccb7b6bfeda1ba93ad09288ed7d581dead7397d3ead32c3c6cfba92c3b2b5ac03e006cff212d8951edc8dbf69b05d1f4f3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Stream--Buffered \
@@ -17,7 +17,7 @@ perl-Stream--Buffered--File \
 perl-Stream--Buffered--PerlIO \
 perl-Stream-Buffered"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-IO--File"
 
 inherit rpm

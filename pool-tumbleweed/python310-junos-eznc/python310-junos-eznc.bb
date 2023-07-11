@@ -14,12 +14,11 @@ LICENSE = "Apache-2.0"
 
 PV = "2.6.7"
 
-RPM_NAME = "python310-junos-eznc-2.6.7-1.2.noarch.rpm"
-RPM_HASH = "57b4c7a31be4ef3ab606d93051b68594d70d000e68e6cd8a9382d90274230eebaa9d943bc57c2b5572827f313372c44343adc369b036fa3b8cd9e6ca6d92e2c3"
+RPM_NAME = "python310-junos-eznc-2.6.7-1.4.noarch.rpm"
+RPM_HASH = "370d71f3a82934bbad74e075f1f92310b45effc4f45e171cde828d1c51b7fc06746dbebb5b4fbf60f4089e3a374cb520c6a892799b63cbaeb8c83a45c0f5d18c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-junos-eznc \
-python3.10dist-junos-eznc \
+RPROVIDES:${PN} += "python3.10dist-junos-eznc \
 python310-junos-eznc \
 python3dist-junos-eznc"
 

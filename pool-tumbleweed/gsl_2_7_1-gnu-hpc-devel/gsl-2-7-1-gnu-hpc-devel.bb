@@ -11,8 +11,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.7.1"
 
-RPM_NAME = "gsl_2_7_1-gnu-hpc-devel-2.7.1-1.3.aarch64.rpm"
-RPM_HASH = "ae98fe6d13071ad4e387622d2ae054c15046318bb61efae686c834d369678cfd7a04f8676a326c52bce035c88f6999099bee20a72f762d9496b64811c7229236"
+RPM_NAME = "gsl_2_7_1-gnu-hpc-devel-2.7.1-1.4.aarch64.rpm"
+RPM_HASH = "e423d8e0f9bf1db775eb0a5fa51e26ebea7a044ee82ea2829d4e88b59f73b259e2d5bd2571353c2c991c13ce3d9f87eb4a365c334beb21d7e9fce2b3311a5551"
 
 RPROVIDES:${PN} += "gsl-2-7-1-gnu-hpc-devel"
 

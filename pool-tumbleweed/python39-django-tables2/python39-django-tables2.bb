@@ -4,10 +4,10 @@ support for pagination and sorting. It does for HTML tables what django.forms \
 does for HTML forms."
 LICENSE = "BSD-2-Clause"
 
-PV = "2.5.3"
+PV = "2.6.0"
 
-RPM_NAME = "python39-django-tables2-2.5.3-1.1.noarch.rpm"
-RPM_HASH = "b2c9752ab69732a9330c02efeeee4d18ace70024a7779a96129128d18c3d9e5629be654a6c73c8fe4ce844d1aad9eaad6f3dcb936df483662585c33605775faa"
+RPM_NAME = "python39-django-tables2-2.6.0-1.1.noarch.rpm"
+RPM_HASH = "6d5aa8ff9d635ae05969c51f9f4ff6eae07ca379d933a2862eb1caf0b4a2138f8d48f863da088cca84dd22ed2606fcc7ca1efa323ee87a3d1df23221617aa24a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-django-tables2 \

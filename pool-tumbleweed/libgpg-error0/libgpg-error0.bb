@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.47"
 
-RPM_NAME = "libgpg-error0-1.47-1.1.aarch64.rpm"
-RPM_HASH = "073c92001645a0aed16f28323ce8d85ccc9d1a01355b1f1942be6691809e7742fe5f474ad85885fb0b587fa7fc520bf8314805c0d336e34c8dbc5eda6c4b84bf"
+RPM_NAME = "libgpg-error0-1.47-1.2.aarch64.rpm"
+RPM_HASH = "d9919391d508fb7e3886030b1eadb88217ac7a71a29d9c0e6993cec1944ba1a3e2166466a8cc350712adfc94a62f7b4fb6701d5d39ac8aa367724f37f12d4473"
 
 RPROVIDES:${PN} += "libgpg-error \
 libgpg-error.so.0 \

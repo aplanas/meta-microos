@@ -10,8 +10,8 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "1.4.2"
 
-RPM_NAME = "python39-jwcrypto-1.4.2-1.3.noarch.rpm"
-RPM_HASH = "e98ff56f2f950783d4d4a50c92c7e6be97b9e0dc24163932ed051a452703d420881723eb07b87f70cf89a4419c14159e8fa171337c06c52a5b6bc3aed883c227"
+RPM_NAME = "python39-jwcrypto-1.4.2-1.5.noarch.rpm"
+RPM_HASH = "76b78a509dbb4129dc9e52a6711703e602ed4ea5d1df6e0166449dfc43bbdd2401d675697bb0ca25b008f5399f92df1abc04c0f37dc057986b915a73f602e1bf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-jwcrypto \

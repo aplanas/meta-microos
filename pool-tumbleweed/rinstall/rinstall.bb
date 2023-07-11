@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.2.0"
 
-RPM_NAME = "rinstall-0.2.0-3.5.aarch64.rpm"
-RPM_HASH = "f94125b007d3c372ed1d5615a895dca4b3cc023d2a9f033d85e770423b04a9a82cac17cf0a90152c9ea27006e0811fec7cb22b503e943e098a3cd282d224ddce"
+RPM_NAME = "rinstall-0.2.0-3.6.aarch64.rpm"
+RPM_HASH = "fa911a82c5ab0ef31bb4f7d8f5bc5fd1bb147164383133d820de8efc14f40e1d46585a3cc87a7083b4ffd171f402ec8f1262ee5eeb0870704f5dc58e87fbe0a2"
 
 RPROVIDES:${PN} += "bundled-rust-crate-addr2line \
 bundled-rust-crate-adler \

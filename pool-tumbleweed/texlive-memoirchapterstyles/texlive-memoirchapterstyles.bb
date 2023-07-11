@@ -7,10 +7,10 @@ relating to standard classes, including the fncychap package, \
 and Vincent Zoonekynd's tutorial on headings."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.7esvn59766"
+PV = "2023.208.1.7esvn59766"
 
-RPM_NAME = "texlive-memoirchapterstyles-2023.201.1.7esvn59766-52.1.noarch.rpm"
-RPM_HASH = "2f964ac36a6e17bec71c79515330ac5639e0b9fedd83112a6373ee6a05e6e25df74e96f4b99d1b8c53aad145ce53a8eb120cd7db4ce18736d8a289c8d3e4f76e"
+RPM_NAME = "texlive-memoirchapterstyles-2023.208.1.7esvn59766-53.1.noarch.rpm"
+RPM_HASH = "a6ac0ef07864b7e1ee129599dd17902d2a85a8562c625c7fb4a1eb60bab7e95552a1a0513852b34e105961dc638e52429e08c6e5f4fd3cc524857babac2ed254"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-memoirchapterstyles"

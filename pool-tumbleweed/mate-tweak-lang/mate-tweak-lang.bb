@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "22.10.0"
 
-RPM_NAME = "mate-tweak-lang-22.10.0-1.1.noarch.rpm"
-RPM_HASH = "f9dc743a54b21bdc15d3237f0dc4c5a2c42848231af664de9fb3119e8a60a9688ddf1a100722e98f4879e0b56ee15cdcb5c707235b899a85cbf96d0d2bbc9df1"
+RPM_NAME = "mate-tweak-lang-22.10.0-1.2.noarch.rpm"
+RPM_HASH = "fa18594f115419ba0b9c33829018dec331919956a99a6ab60ea35fef78e7bd7ea702c41b0d85df6d52fedba17fadcca3ba0fea753acc0645c5b8f9a4329826c1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mate-tweak-af \

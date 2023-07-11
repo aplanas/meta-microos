@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.24.7"
 
-RPM_NAME = "gtkmm3-doc-3.24.7-2.3.noarch.rpm"
-RPM_HASH = "0dbde4039e4b2ea941d0efca70cd489e0d92ad3d7019749c02ec44e9f13c202557fb180e7a7babf139b481bef56803df21e82674c4c13340129cda5b259365fa"
+RPM_NAME = "gtkmm3-doc-3.24.7-2.4.noarch.rpm"
+RPM_HASH = "ae392fdda66f1b79ea7aebb731e5d0241f8d2fd220e6c6f72c613ef1b524c53fd68f3a0785cc1cc9905b0c0d312a84d3097914a5ce37a7e645ef11d31b9ab706"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtkmm3-doc"

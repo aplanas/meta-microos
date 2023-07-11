@@ -10,14 +10,14 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.34"
 
-RPM_NAME = "perl-PHP-Serialization-0.34-13.26.noarch.rpm"
-RPM_HASH = "cfaefcc33b46d009b85575f87a2371c96c8385317d056f832cd23c8acd634111a2a0abbc1f6a3bae6de06a57d530aef01b01686c28b36d1a986c9defa9e49ce9"
+RPM_NAME = "perl-PHP-Serialization-0.34-13.27.noarch.rpm"
+RPM_HASH = "bf7bfab17efa256ca4a816c35ca97712aa51b122d5b0bce2ddc375182a96ef449df0f18535612deb24ca72bd82cdd6888bbfae2413aa0cfe3fde063e8c1383fb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-PHP--Serialization \
 perl-PHP--Serialization--Object \
 perl-PHP-Serialization"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.13.5"
 
-RPM_NAME = "lttng-ust-doc-2.13.5-1.3.noarch.rpm"
-RPM_HASH = "194dd13fc18746f2430e88d8008a0b9f820bfafea473590d75cf3e2dd89a166414f4e72ef7ae42f33c623332ed1e031ff09df606a3c16c72f59d7941fcf50afc"
+RPM_NAME = "lttng-ust-doc-2.13.5-1.4.noarch.rpm"
+RPM_HASH = "032304e4cdae1d8600a8fc88d2b60614d886b9c3fa29775e02bf692c711282e2b2f01df166d466cd5f2bac84241a91b534d39747d5854e6e759c50e337e2ca9b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lttng-ust-doc \

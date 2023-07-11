@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "0.5.0"
 
-RPM_NAME = "python310-tortilla-0.5.0-1.14.noarch.rpm"
-RPM_HASH = "69c85bd53c40a71e764b14d6024b34b0580b65e1377d04176f5bd0bb5fd69f3810f92a61bae0049e7d52dcc78c440198c458af12e57352db618b2c26950c1cae"
+RPM_NAME = "python310-tortilla-0.5.0-2.1.noarch.rpm"
+RPM_HASH = "2e24e63bd1611f8977a1d8113385a9a20001a2039a69f24a23702a8f672c19d8e1ad4605e50b89748544874cc63d2c331a59c6d794080f291419a3c855f7795a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-tortilla \
-python3.10dist-tortilla \
+RPROVIDES:${PN} += "python3.10dist-tortilla \
 python310-tortilla \
 python3dist-tortilla"
 

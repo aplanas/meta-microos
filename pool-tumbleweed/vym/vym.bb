@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.9.2"
 
-RPM_NAME = "vym-2.9.2-1.1.aarch64.rpm"
-RPM_HASH = "4b3845adfbd89a18f1ccaf4e9f5d2e53e480313e7a5f6249d72aa4f0d14e0df95ce8de84b3cbbe8caf836801a1472b6a7a4ca302db79b725b56e7fd5f44cb4d6"
+RPM_NAME = "vym-2.9.2-1.2.aarch64.rpm"
+RPM_HASH = "c6be53b78154be0036e022ceead75e987ed9d686d3db787f85514dc8e8697e484c734f5518e33dad6a1c387953d3d66ba269212cc0ccffc88410e5e477a6a9a6"
 
 RPROVIDES:${PN} += "vym"
 

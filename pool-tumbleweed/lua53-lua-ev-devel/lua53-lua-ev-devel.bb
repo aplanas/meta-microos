@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.5"
 
-RPM_NAME = "lua53-lua-ev-devel-1.5-4.2.aarch64.rpm"
-RPM_HASH = "d82e7307a0191cd2fb99730ad1fba13041bb48dd7a69f040f60a2b1abc3560ad15c0badabb03cc1417a75b8266540275acb71d2e5be925a120936b6710b7a3c8"
+RPM_NAME = "lua53-lua-ev-devel-1.5-4.3.aarch64.rpm"
+RPM_HASH = "74f3697464eab6280db1663b5f60efa145e5dad4461e061e889bc634f5f17bb422a022c13a2520cccf2070fd82d32dfa80859370510e98b146e23b89f4c4bcaf"
 
 RPROVIDES:${PN} += "lua53-lua-ev-devel"
 

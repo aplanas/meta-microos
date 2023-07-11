@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "5.5.52"
 
-RPM_NAME = "libdtkwidget5-5.5.52-1.7.aarch64.rpm"
-RPM_HASH = "8d6fc033672ee449b589ac41eb0c380eebdc01a3e3babee7e62f5f92772c14f84ad1f3e1686efdf8f75d5cfb4cd1ba846622aca2dec9bc2e58f36e440e46bb3e"
+RPM_NAME = "libdtkwidget5-5.5.52-1.8.aarch64.rpm"
+RPM_HASH = "3ee9904149abe81de344f0245a485954ea17f6bc77bdc21986bf499f9931c5ae95acec461aa5d58be3f23690baf6562b14e4043dbf081f6f87e4abf2fdf8154e"
 
 RPROVIDES:${PN} += "libdtkwidget.so.5 \
 libdtkwidget5"

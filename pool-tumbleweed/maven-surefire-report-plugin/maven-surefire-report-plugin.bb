@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & CPL-1.0"
 
 PV = "2.22.0"
 
-RPM_NAME = "maven-surefire-report-plugin-2.22.0-8.1.noarch.rpm"
-RPM_HASH = "dff2415181ce95a1124dd239d4cc6382ece380f4de2558442c64cdfa21be4ce48b1291d4c1ccd07162e26ef32d35ce962086fd63823e7f96f0f1581e59debcf5"
+RPM_NAME = "maven-surefire-report-plugin-2.22.0-8.2.noarch.rpm"
+RPM_HASH = "511922fbc241ceebcf3a6fc71ac129cb749ccefea53bf9caddbaa396e9ddefb0f384fa3022d7cb36d9db8157e3e9650e96a1b2edf27886ef795ed95038c49741"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-surefire-report-plugin \

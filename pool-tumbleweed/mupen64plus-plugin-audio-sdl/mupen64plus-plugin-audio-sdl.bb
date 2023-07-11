@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.5.9"
 
-RPM_NAME = "mupen64plus-plugin-audio-sdl-2.5.9-2.8.aarch64.rpm"
-RPM_HASH = "1955b684b29edc3ac9939dc05c8fa469e44fd450e453facd4cb1e86bc04b23f6c072dce780629e1b6ed5356f6c3b17abf9c49e3a2e774d2f9963610eb18a214c"
+RPM_NAME = "mupen64plus-plugin-audio-sdl-2.5.9-2.9.aarch64.rpm"
+RPM_HASH = "bf827d4c415a2bad3f3a0d6499e0018586b91a3a4f3671982c1a6733530f42841a3d9aa0f71afc691295339609b1f16e7397432b41fe565f9c1d7d70b7d3e585"
 
 RPROVIDES:${PN} += "mupen64plus-plugin-audio \
 mupen64plus-plugin-audio-sdl"

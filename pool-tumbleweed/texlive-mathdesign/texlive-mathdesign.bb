@@ -10,10 +10,10 @@ be used. Moreover you can choose between three greek fonts (two \
 of them created by the Greek Font Society)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.2.31svn31639"
+PV = "2023.208.2.31svn31639"
 
-RPM_NAME = "texlive-mathdesign-2023.201.2.31svn31639-52.1.noarch.rpm"
-RPM_HASH = "e42c4831c724d6cf8474e3a02a5a4844679b239bc5fcf7ce1d1bb87e2041dd3f3f30e426c3b538e84d8d2f903da62efedf1ae7d67bb0de9fa5300d2064a73b14"
+RPM_NAME = "texlive-mathdesign-2023.208.2.31svn31639-53.1.noarch.rpm"
+RPM_HASH = "91f1c774e20b9f9e77d9ba29cf15a46880f48ccb40fb51575ba1f21d54ef97df426138f6f06b5fd20fa49620c77977f78ff94aecbe9eae25f249ae1fa1b5a561"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-a-2dncez.enc \

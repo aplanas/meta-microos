@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kjournald"
 DESCRIPTION = "Provides translations for the 'kjournald' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kjournald-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "3998bd7824875121ae97ddda40f787c648937515e71880bfe446b33155837e3f9d0c588159a4a38acbb0aa7d1b4401692003e6dfe504ea0ca3ee5bc80643f9cd"
+RPM_NAME = "kjournald-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "b0c2c71a9908e74bf6cdee2c71b43e669a0501256cbeef08a5234fb1f8b5f0b8cf1bb51ce3985ddc7479faebb3f93298e159dac5093ba01b7ebd0ff2dc080dd9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kjournald-lang \
@@ -19,6 +19,7 @@ locale-kjournald-es \
 locale-kjournald-eu \
 locale-kjournald-fi \
 locale-kjournald-fr \
+locale-kjournald-gl \
 locale-kjournald-it \
 locale-kjournald-ja \
 locale-kjournald-ka \

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.4.0"
 
-RPM_NAME = "heaptrack-lang-1.4.0-4.4.noarch.rpm"
-RPM_HASH = "df89e0a121d92e34905d37d86f640260ce840ae7fcbfb48cad9212d06d5a95eabf4c1c7d1d16bfe8b1d93417e1eb2ba33933dc7a9a403b407b4da4a578a2624c"
+RPM_NAME = "heaptrack-lang-1.4.0-4.5.noarch.rpm"
+RPM_HASH = "a82722f5c7f286a6a0437eaaced8d46b3a9a211733bea4680a876572ac65005527a14a06ac3d392997d06bb76b3b22efe019819857172fc2c5bf07693bc81987"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "heaptrack-lang \

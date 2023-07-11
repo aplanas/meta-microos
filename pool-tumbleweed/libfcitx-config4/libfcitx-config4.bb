@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.2.9.9"
 
-RPM_NAME = "libfcitx-config4-4.2.9.9-1.5.aarch64.rpm"
-RPM_HASH = "815816076f22f505814e37434b36f7b9bbde8e05639806bb18fcba8f1adb7f58954c178b68e2469d77ac8d1a7cbe6fee22adbb14626f4bdf5e31ec310190cf07"
+RPM_NAME = "libfcitx-config4-4.2.9.9-1.6.aarch64.rpm"
+RPM_HASH = "ccfe68b425cacc55eb2b51638fb95d1f6f700e019ba2adcef45b203c37020da309cfe9e83e364b75ab4cd3540ecc4ee410a5ee33c60a856a01c71ce8d6b7e633"
 
 RPROVIDES:${PN} += "libfcitx-config.so.4 \
 libfcitx-config4"

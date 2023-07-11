@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
 PV = "3.3+git0.39e0cf712"
 
-RPM_NAME = "nfs-ganesha-nullfs-3.3+git0.39e0cf712-5.8.aarch64.rpm"
-RPM_HASH = "8ef6b1d2a9921624131e26b00d1d723f598d53f645e778b04415ccad9ec8e1f47e04d42a07c782eb83abeb6205a985388337868d0edcb63e90bb78a71c0121d4"
+RPM_NAME = "nfs-ganesha-nullfs-3.3+git0.39e0cf712-5.9.aarch64.rpm"
+RPM_HASH = "d8f65b84a3b124e7654d76e9579f9fdc4701d73a807d8e007cc70e60312f95349091c3781403ee5c6f2ec726f37c873f9bbfc0b721cb05b9605b5e4e64e6bf18"
 
 RPROVIDES:${PN} += "libfsalnull.so \
 nfs-ganesha-nullfs"

@@ -8,8 +8,8 @@ LICENSE = "BSD-2-Clause & Apache-2.0"
 
 PV = "0.7.1"
 
-RPM_NAME = "ck-devel-0.7.1-1.8.aarch64.rpm"
-RPM_HASH = "2f452e32d6a6362eba82eb06ce847ed134d4b0aa6728d1f869f736fbf9773172dbec8aa325f5f6c4d91fa016a6dbf82ef3313228ea7671c51a154d47fa20b400"
+RPM_NAME = "ck-devel-0.7.1-1.9.aarch64.rpm"
+RPM_HASH = "a1dcbee682161e2120ca1cc6df50c156f2307b3a57247929d7520d696517ce83be089b42a0d9e7d66fb9cc7e73cac68726ddd541872fb99a877d22341316b8a0"
 
 RPROVIDES:${PN} += "ck-devel \
 pkgconfig-ck"

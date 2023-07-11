@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.71"
 
-RPM_NAME = "lighttpd-mod_vhostdb_dbi-1.4.71-1.1.aarch64.rpm"
-RPM_HASH = "c4a16f9b6baf681a15ac9766c808f00c8a9d1b690e2bdfedc4f8738c56b4bb0c3f8ee574b4c17289f692978fed423c63949a801c393c05da80c7c8df561d5365"
+RPM_NAME = "lighttpd-mod_vhostdb_dbi-1.4.71-1.2.aarch64.rpm"
+RPM_HASH = "e4a299e16038042bd147a5b913e3cecef930b56517b2a21e78c03a968404cf7e0c62050039a43f36a31456143bf4bb9918e81cd404e579f4217e13c1cc293320"
 
 RPROVIDES:${PN} += "lighttpd-mod-vhostdb-dbi"
 

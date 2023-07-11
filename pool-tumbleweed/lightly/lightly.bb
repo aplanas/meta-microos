@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.4.1"
 
-RPM_NAME = "lightly-0.4.1-2.7.aarch64.rpm"
-RPM_HASH = "956d96862fdcc49b464eacb9d022501195d4410b3e2b9153cd8ad3d891b6b0eee2c8a02d1efc3947262ddeb7d45e1cb431abece5ce0ad208585b8bdafd112563"
+RPM_NAME = "lightly-0.4.1-2.8.aarch64.rpm"
+RPM_HASH = "d6c9124ed344adb9819991854d55401ff6ef10123bf18a6a0d3ec130be7256b6cd4486c79334fd4c3069cc9b992b089378d6ad220d18a10ce8bdff0782ea5605"
 
 RPROVIDES:${PN} += "lightly"
 

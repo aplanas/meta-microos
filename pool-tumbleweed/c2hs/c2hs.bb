@@ -8,13 +8,12 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.28.8"
 
-RPM_NAME = "c2hs-0.28.8-4.2.aarch64.rpm"
-RPM_HASH = "70b6e33f4c9163a3868d6316167ad3e311082255b6546bf2a8f25ae117fee1e5c6a82312e7dec662d771aec0dd464c26899438544538a902475c4f48901e450a"
+RPM_NAME = "c2hs-0.28.8-4.5.aarch64.rpm"
+RPM_HASH = "fabb4869d845d74c5d05e8b50e56602cc2bea687a0987b23cd5d727216d93333014c7c9cd85ffd3f66dba7734bd246a0c5da914c6534591ca9b6cee009b6c702"
 
 RPROVIDES:${PN} += "c2hs"
 
-RDEPENDS:${PN} += "libatomic.so.1 \
-libc.so.6 \
+RDEPENDS:${PN} += "libc.so.6 \
 libffi.so.8 \
 libgmp.so.10 \
 libm.so.6 \

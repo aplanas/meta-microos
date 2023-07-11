@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "7.8.0"
 
-RPM_NAME = "libkafs0-7.8.0-3.1.aarch64.rpm"
-RPM_HASH = "cb2de8836d0de04fcc8aa595b4f51e1f76bff8a7ea5539a39d16c871ad74c92d401425da98f1ebf746af6ac250fa1814c79fa96bed0c50b8e0818c6de160c0c8"
+RPM_NAME = "libkafs0-7.8.0-3.2.aarch64.rpm"
+RPM_HASH = "10c515bba61a8fc95ecd1f59e1d37f430bdc66eee3c5defb04a702de294c751c5a8f6ef7073cbf186ce16bca0f106e3dec6d00172e1f2403a65666ad0e874ecd"
 
 RPROVIDES:${PN} += "libkafs.so.0 \
 libkafs0"

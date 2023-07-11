@@ -119,15 +119,15 @@ LICENSE = "MIT"
 
 PV = "0.204"
 
-RPM_NAME = "perl-Ref-Util-0.204-1.12.noarch.rpm"
-RPM_HASH = "c15f78301cacb784b97f33ce64ff175482b978aa1fc9504dbf174caa02cc3874d46259db62c34d3ffb4e73772386917d29c71b2282d2ce75c114464f308c17d3"
+RPM_NAME = "perl-Ref-Util-0.204-1.13.noarch.rpm"
+RPM_HASH = "b4215420eac6d8ac4de6f4a15ff4d715f5215bb20bb7ce4046f5da2e664531ed42bfe63d78e63f5d3872284155f85dc1de6d3725e687cd84a2f5322a5de0ab87"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Ref--Util \
 perl-Ref--Util--PP \
 perl-Ref-Util"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Ref--Util--XS"
 
 inherit rpm

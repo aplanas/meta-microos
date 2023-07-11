@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.8"
 
-RPM_NAME = "libvmmalloc1-1.8-2.9.aarch64.rpm"
-RPM_HASH = "6206a27ec5d5f3c5414fd5c35785a40c39f9ef12c45e2aa3be58282dd3dd0002db25d27140e6129a72cdc2e58c2b1dd596f145d4ff70059c2144fa11922827a9"
+RPM_NAME = "libvmmalloc1-1.8-2.10.aarch64.rpm"
+RPM_HASH = "61bffaa6700d6692233d8d3867f9316bccb8277b6852e44dc2db3e865f08f9df15bb6743d7b543ee83f3b742ebdfe773285795fdedf5d441ebe2fb8a0281ed11"
 
 RPROVIDES:${PN} += "libvmmalloc.so.1 \
 libvmmalloc1"

@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "2.0.0"
 
-RPM_NAME = "python310-jsondiff-2.0.0-1.6.noarch.rpm"
-RPM_HASH = "1df1cc47581ebc258b61c927de953b590cde4195759d132d39b5581ec6f379e7270c0d13fbf729227b034adf22da03d807a17061b779057903bdca78dfcb4fa0"
+RPM_NAME = "python310-jsondiff-2.0.0-2.3.noarch.rpm"
+RPM_HASH = "755ae7332efcbabad81ba25c26ea623c56cf097d5d5aa296de6265818fc816d248642453c330c744905587e266ee5e6ddc8431c617152c43c570e8785cf8b867"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-jsondiff \
-python3.10dist-jsondiff \
+RPROVIDES:${PN} += "python3.10dist-jsondiff \
 python310-jsondiff \
 python3dist-jsondiff"
 

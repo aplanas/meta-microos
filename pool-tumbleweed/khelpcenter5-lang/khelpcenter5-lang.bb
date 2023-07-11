@@ -2,10 +2,10 @@ SUMMARY = "Translations for package khelpcenter5"
 DESCRIPTION = "Provides translations for the 'khelpcenter5' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "khelpcenter5-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "6ab408007b876df38bdca159e8975a005f352f19656902d89ad3de384792932db3672a3303eb753c201fa0194a24b4b5d036088c57d135aede2798864881c5bd"
+RPM_NAME = "khelpcenter5-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "a6b6c48920acc733f606df754ee64a1a70ab5b9194b5a74adae764a9237d97067a296d7769d50ab47d27e26a7eb2e0125016ecd3d80a890514a8d386f2647d7a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "khelpcenter5-lang \

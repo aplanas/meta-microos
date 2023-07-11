@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.0.2svn61193"
 
-RPM_NAME = "texlive-rbt-mathnotes-doc-2023.201.1.0.2svn61193-53.1.noarch.rpm"
-RPM_HASH = "c10820e110f4d43605ca35be5ff93b018f4b40bc2276077a5e5c67337b83e38365ba18e1eca04a3bd4d7f8f8e82e786b3fcb4803b48bb9d2ebb437e73fca863a"
+RPM_NAME = "texlive-rbt-mathnotes-doc-2023.201.1.0.2svn61193-53.2.noarch.rpm"
+RPM_HASH = "dcde4179dff0d262ff6158b9e2660cd32be8c27df93fd16a0fbdfd29711f307fad64573e6de114f10a6ba20a3bbd0f9e35680371d3aaa01f53fb5a67ea253cac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-rbt-mathnotes-doc"

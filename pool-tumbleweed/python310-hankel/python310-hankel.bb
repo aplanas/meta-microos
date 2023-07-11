@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "1.2.1"
 
-RPM_NAME = "python310-hankel-1.2.1-2.3.noarch.rpm"
-RPM_HASH = "9bc5ba72b37fe1c7a0017415b71d159f760c92a1954eb2348ab6e1ead76e64ddd86c05325971710167d7204d49ec67ce6165a98fe6153dc5d1a5334505af35f3"
+RPM_NAME = "python310-hankel-1.2.1-2.5.noarch.rpm"
+RPM_HASH = "8d984cafb3059871f517194eb3c16fe4476128b8fe744b93b0d9c2ee8c3ed0965c65dd692de1c76b8e7d694e0eb1a36a4861e2de1f9cc8526ce6ac6f1e63e257"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-hankel \
-python3.10dist-hankel \
+RPROVIDES:${PN} += "python3.10dist-hankel \
 python310-hankel \
 python3dist-hankel"
 

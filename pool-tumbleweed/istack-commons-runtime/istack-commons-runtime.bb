@@ -4,8 +4,8 @@ LICENSE = "CDDL-1.1 & GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "3.0.7"
 
-RPM_NAME = "istack-commons-runtime-3.0.7-4.4.noarch.rpm"
-RPM_HASH = "e8d04a349d1f68774c9429dd195e6769e153ca77588bd4785c785c5426aafc398a39bd52fa8c97755973f1d45f3db806d1abddabb2577d03272df444f55f23f6"
+RPM_NAME = "istack-commons-runtime-3.0.7-4.5.noarch.rpm"
+RPM_HASH = "34eb1e454df00748bd615baedc5ac6ad8d608e7bb3f208d1122a7b7a15f334b7021236b9880dd5a90c23c19f9a03d56f120c4af6a0e73496d0ed8e0efdfc809f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "istack-commons-runtime \

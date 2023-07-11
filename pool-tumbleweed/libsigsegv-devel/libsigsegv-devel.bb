@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.14"
 
-RPM_NAME = "libsigsegv-devel-2.14-2.9.aarch64.rpm"
-RPM_HASH = "22c1297773a051b309e204d6b3db21c09f997e46518120c7fca15eced1dd54fbda19542a501a7ce5a336e58b96ee6dc52c1d9c3268bc1beb0807c82f9f32c847"
+RPM_NAME = "libsigsegv-devel-2.14-2.10.aarch64.rpm"
+RPM_HASH = "e9b47886daaff0b03cc09d47c45045c1f692c3707f38b600bdba0f3094b799dd90acfe352085bf99ead1527214f8522b1e9aba136f4b896153a1a788a1565fb2"
 
 RPROVIDES:${PN} += "libsigsegv-devel"
 

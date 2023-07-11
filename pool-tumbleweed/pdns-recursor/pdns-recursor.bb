@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.8.4"
 
-RPM_NAME = "pdns-recursor-4.8.4-1.2.aarch64.rpm"
-RPM_HASH = "4d9d684ffdad5910aa5b85591407cb7d2f649aff456e4dab544798359db43001d3de1fabd03dd87656aff8bece35807db25fbe1ec1cc6984542cb6c7f66461ff"
+RPM_NAME = "pdns-recursor-4.8.4-1.3.aarch64.rpm"
+RPM_HASH = "261cadf9e5d9e38fc65e63973bf7453b6ecda5f590cf7741017ea56f614fea220d2ca77eca2f3075a8b1a1dc527a8ad303a04f735e42abf865ad8fef3ec910d8"
 
 RPROVIDES:${PN} += "bundled-json11 \
 bundled-luawrapper \

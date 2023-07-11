@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "121"
 
-RPM_NAME = "libpolkit-agent-1-0-121-4.2.aarch64.rpm"
-RPM_HASH = "ff0c7e22b137d7fb52f4094e341b222ab9580afaea4a26598f260b3dfef69d530da8a7810765f80dabddcb10d99b70cf9d343f7ebc89bb0f98a6edf7e1e3a96e"
+RPM_NAME = "libpolkit-agent-1-0-121-4.3.aarch64.rpm"
+RPM_HASH = "03ef4997af9378398196cc0d518f9c13c96ec016244527eef75309df05da796161f29d988f5cb908cd23c5977720d52e4a1598c3c5b97a6141d1527f917ca451"
 
 RPROVIDES:${PN} += "libpolkit-agent-1-0 \
 libpolkit-agent-1.so.0"

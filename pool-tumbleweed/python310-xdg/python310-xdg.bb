@@ -8,12 +8,11 @@ LICENSE = "ISC"
 
 PV = "5.1.1"
 
-RPM_NAME = "python310-xdg-5.1.1-1.4.noarch.rpm"
-RPM_HASH = "3b123fac67184f4b555113716a6294e9a5c57b9bc64c83b7d9ab8a26b7f981a8850b1555ae8782c26090c3b0d56f03b3ddc0a0206925e61e19a96f9482e49250"
+RPM_NAME = "python310-xdg-5.1.1-1.6.noarch.rpm"
+RPM_HASH = "a22f564327dbafec363f4d9948eb27bdd6c887b3e383cb342e853c167029137556208b397cd69fa1e3da9af5dbe671a408ec83b105b2236d411ce0f112d98492"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-xdg \
-python3.10dist-xdg \
+RPROVIDES:${PN} += "python3.10dist-xdg \
 python310-xdg \
 python3dist-xdg"
 

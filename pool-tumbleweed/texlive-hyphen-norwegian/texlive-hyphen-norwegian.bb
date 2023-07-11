@@ -3,10 +3,10 @@ DESCRIPTION = "Hyphenation patterns for Norwegian Bokmal and Nynorsk in T1/EC \
 and UTF-8 encodings."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn58609"
+PV = "2023.208.svn58609"
 
-RPM_NAME = "texlive-hyphen-norwegian-2023.201.svn58609-52.1.noarch.rpm"
-RPM_HASH = "f1483df54a2b4cdd73b2781d404dc6d1b00ca28ac972983aa8c5179c58c50138c2e6c358f22c96270772fe56dfef45c2c726c43d08cbf1ebf270cf6cbd094676"
+RPM_NAME = "texlive-hyphen-norwegian-2023.208.svn58609-53.1.noarch.rpm"
+RPM_HASH = "4f4192f14645e063675b87322cf79790aa6e8f613cce3db0645891aa3dacc17cade2ddda6225cb7de773dce1cf8e85414fa829955a7fae212725c9b272ae5a5d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-nb.ec.tex \

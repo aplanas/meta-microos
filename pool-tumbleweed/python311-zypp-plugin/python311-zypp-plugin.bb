@@ -5,11 +5,12 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.6.3"
 
-RPM_NAME = "python311-zypp-plugin-0.6.3-4.21.noarch.rpm"
-RPM_HASH = "562d2785c1b369d0305dbd6e33e696afa24badc7e459946df13c1a22a8c06d69bd67a1bf73f7e4cc4adeb78245b4c1d7ec42bcff1d1753decc52b2aa6094c75c"
+RPM_NAME = "python311-zypp-plugin-0.6.3-4.23.noarch.rpm"
+RPM_HASH = "9103788da936607e11ddd3bc9bd01ca7ed158011b87dfb96090b349898ad25f13a687ff76bb53a1b9fdf91f01d6c48f2cc3e36c88d59a834b30a737655966df8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python311-zypp-plugin"
+RPROVIDES:${PN} += "python3-zypp-plugin \
+python311-zypp-plugin"
 
 RDEPENDS:${PN} += "python-abi \
 python311-base"

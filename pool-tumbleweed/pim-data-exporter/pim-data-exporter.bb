@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains utlities needed by KDE PIM applications to 
 for backup and archival."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "pim-data-exporter-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "fa983badc25a9ee749500395fba2c7c4adcbca74d69785653e66e692d9b6176d0cd1a71d3af7a60896097c7b04a7ba9c353edb9da5ae2e568625b17f4f5cc48d"
+RPM_NAME = "pim-data-exporter-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "846ebbda3e5d4c8ea0111c26e67ed6b19428f9b8881f9f9c7175ceb1e0365380ed6cbea1ee92c6adc7c593789fe93cf5f0e99119ac273454198ba8e813d3c2bb"
 
 RPROVIDES:${PN} += "libpimdataexporterprivate.so.5 \
 pim-data-exporter"

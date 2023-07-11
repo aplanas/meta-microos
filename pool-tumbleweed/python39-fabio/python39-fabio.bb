@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-or-later & LGPL-3.0-or-later & MIT"
 
 PV = "0.14.0"
 
-RPM_NAME = "python39-fabio-0.14.0-2.5.aarch64.rpm"
-RPM_HASH = "efc8cf7394452aa63d3fdba0790844a169a25ec359d53246364752b1307e99164b2993815d1e26a84cc537c90ce22c8c8a7802bf7a017fdbe9744808d5edd2b3"
+RPM_NAME = "python39-fabio-0.14.0-2.7.aarch64.rpm"
+RPM_HASH = "ded235ec3233a4c39bd4f53bb5794880b55682dd179a36ebfcd06c0e4f3dd1185aa526ecdece89a7b4a4551c5d9f8181ba04ffb72aa3de7a3255d0ae0ec604a0"
 
 RPROVIDES:${PN} += "python3.9dist-fabio \
 python39-fabio \

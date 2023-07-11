@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.3.30"
 
-RPM_NAME = "setroubleshoot-doc-3.3.30-2.2.noarch.rpm"
-RPM_HASH = "e1a8eda63c57df7a1c28fa6d4b499dcbd093996a6dc8fe1a296742e593085537bf3d38f68dc84f0c4096ced7b2d8fd3ded3761b3eb127432473abc8214e60087"
+RPM_NAME = "setroubleshoot-doc-3.3.30-2.3.noarch.rpm"
+RPM_HASH = "5aed3f33c0a5638ec2397c59fa1fc946d1f08f2989de331d37c15fea95fa00e3b04acbc37069d6fceac9282fd60427537a73f2dd827310009f87903e3a7bcb2a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "setroubleshoot-doc"

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "6.0.5"
 
-RPM_NAME = "python39-xdis-6.0.5-1.3.noarch.rpm"
-RPM_HASH = "b11e069130aacaf45abc687e89ba1c09ca95d9181cf0685780820bb99915ed9b6b0b9f382f9e42849b55440b01ec8bc5eb634f96066138f753c3bb63a811e0cd"
+RPM_NAME = "python39-xdis-6.0.5-1.4.noarch.rpm"
+RPM_HASH = "dd1d1957cd3e2b860f8a94bad8f9ebadc862235e8da9dc9ad81681bd71968919f88de2e8885eb7a0d0eda349998250731af69fd1a2831cc6003d744647727d3e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-xdis \

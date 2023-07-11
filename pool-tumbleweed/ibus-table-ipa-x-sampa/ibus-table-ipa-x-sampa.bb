@@ -2,10 +2,10 @@ SUMMARY = "The ipa-x-sampa table for ibus-table"
 DESCRIPTION = "ibus-table-ipa-x-sampa provides the ipa-x-sampa table for ibus-table."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.3.13"
+PV = "1.3.16"
 
-RPM_NAME = "ibus-table-ipa-x-sampa-1.3.13-2.3.noarch.rpm"
-RPM_HASH = "bdd0a6f28b6c146ff427cd8b960970a267fa59774783c7162e3ed9f59f25f7f79c8872b7d11d5a640bb87697d796da2fa8d0a480e6aa56442038adb70d2b3f2c"
+RPM_NAME = "ibus-table-ipa-x-sampa-1.3.16-1.1.noarch.rpm"
+RPM_HASH = "a39a3f9d09465ca63bba7fc6e1c0686ca90c660a2fd9803e8188f1db3a465b203aaaa58de8de1a2eef62e23de0fbada811c88cfc559f48162a1c71934eb641e4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ibus-table-ipa-x-sampa"

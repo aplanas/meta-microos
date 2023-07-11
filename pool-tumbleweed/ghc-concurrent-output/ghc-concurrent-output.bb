@@ -9,13 +9,13 @@ concurrent threads. Can be used for progress displays etc. \
 <<https://joeyh.name/code/concurrent-output/demo2.gif>>."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.10.17"
+PV = "1.10.18"
 
-RPM_NAME = "ghc-concurrent-output-1.10.17-2.3.aarch64.rpm"
-RPM_HASH = "6695f5b2f17acfa78d48959e4449bc7fc39337865d7d0f6df4d3906f12f784d3bbff45e629410696a1c4376c6eb61d340c0442d93e91393dddda90557a8d5fb6"
+RPM_NAME = "ghc-concurrent-output-1.10.18-1.3.aarch64.rpm"
+RPM_HASH = "903ec8e8fbe8d41ad90064eacb981afb8c094675ce3f948400542c1dc7fe41353803eb3c0df4468eacb71fd2ca9dee8a00b43680a7052201dee46f7b81d0ca7a"
 
 RPROVIDES:${PN} += "ghc-concurrent-output \
-libHSconcurrent-output-1.10.17-8XvoUl0e7ll2y9NMBdkV0e-ghc9.4.5.so"
+libHSconcurrent-output-1.10.18-4HoKjF75kdc50vpaCCjUbI-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSansi-terminal-0.11.5-5x0MoHxm5r6DDoyv5djCW3-ghc9.4.5.so \
 libHSansi-terminal-types-0.11.5-9ffXWswmNhoANlpnF2SnhR-ghc9.4.5.so \

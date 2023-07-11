@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.8.0"
 
-RPM_NAME = "krusader-doc-2.8.0-1.3.aarch64.rpm"
-RPM_HASH = "179c61f1998230427a0f79efd346042a082e2f4534c1519906f9014697f0be4633bf838c036e308202287afbbecefc21354bafc2f506aba70a3a5c7fd4ef88fc"
+RPM_NAME = "krusader-doc-2.8.0-1.4.aarch64.rpm"
+RPM_HASH = "615c0a1bca64c4c2cb38b9853f300e47261c2a7c2e309e0ba6e9fd7b7ffaba73b41d0741c287b0ff4257f24888575af3d2dcc962a01cb57b88837633d1fc5acf"
 
 RPROVIDES:${PN} += "krusader-doc"
 

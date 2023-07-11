@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.13"
 
-RPM_NAME = "power-profiles-daemon-0.13-1.1.aarch64.rpm"
-RPM_HASH = "6a6a49bb93d056ced3530d2a089d37f0ef152b808bacf852d8225eafe1c369698856f68cb6c52d783dc9115c945769bf3869931d5e7cd0d79e42c6af43bf8b4d"
+RPM_NAME = "power-profiles-daemon-0.13-1.2.aarch64.rpm"
+RPM_HASH = "112468631a140feb105a1e80163d34bff8198468dc7f2bec9397af340d07f19196b5234fc8bb200a7e65683f5e229547da67f3695b694a3ee9363ae505104e19"
 
 RPROVIDES:${PN} += "power-profiles-daemon"
 

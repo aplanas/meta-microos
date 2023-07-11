@@ -7,12 +7,11 @@ LICENSE = "MIT"
 
 PV = "1.3.0"
 
-RPM_NAME = "python310-parfive-1.3.0-1.10.noarch.rpm"
-RPM_HASH = "76d3da78078182654ebd288246856c24944cba2b1f402f3b0301ec3d2c5b75aa4806f5fda02ed496761e3de9861bd716c305de3a94779656a09a5e1077d9e01e"
+RPM_NAME = "python310-parfive-1.3.0-1.12.noarch.rpm"
+RPM_HASH = "b8bee2017b3f213c7901bd585ce2cdb79af2ec176f5032c691099b93bb834b9e9bbe4255cc0c5067195c00688df38c44ab70458e722e2734593d4886dee20c33"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-parfive \
-python3.10dist-parfive \
+RPROVIDES:${PN} += "python3.10dist-parfive \
 python310-parfive \
 python3dist-parfive"
 

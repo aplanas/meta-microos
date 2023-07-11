@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.4.21"
 
-RPM_NAME = "tcl8-xapian-1.4.21-2.5.aarch64.rpm"
-RPM_HASH = "ad11acaaeb6efaf18871ef511762393e4be518d6179c01f1274da89bb19c55fb60c3dab076434bf7e5d648a8b90e06595e9eabad2a3633b4c72fafa8d8190660"
+RPM_NAME = "tcl8-xapian-1.4.21-2.7.aarch64.rpm"
+RPM_HASH = "397c75491e1f95c44eb9948e2ad6474784a93c95393241a0151e9cdfe3ed6d41f01fed325820a8a0c4cbc7bce34198fe743a185fa91fc5334ecb198d86d4071e"
 
 RPROVIDES:${PN} += "tcl8-xapian"
 

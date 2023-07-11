@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "1.6.1"
 
-RPM_NAME = "python310-pyaes-1.6.1-3.4.noarch.rpm"
-RPM_HASH = "da5c4a5e3b7134589d2eb8d136072e85edf2c4359f7ecb519464083f066e7d1d98b4bbe7b099a3d363ba68f1d2ece0219d18a2dd076a6331d736b0e0f03f2902"
+RPM_NAME = "python310-pyaes-1.6.1-3.5.noarch.rpm"
+RPM_HASH = "528107b680652a2986ee329cc0fabe764fa2c56fa85c4f6dc1db3eecf3f877b50bfa7a683b6bfed5369285fd3c810b0c570fa97b4dd3f76ee9e5977105d9e1c1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pyaes \
-python3.10dist-pyaes \
+RPROVIDES:${PN} += "python3.10dist-pyaes \
 python310-pyaes \
 python3dist-pyaes"
 

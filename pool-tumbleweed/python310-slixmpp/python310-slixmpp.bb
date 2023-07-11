@@ -6,11 +6,10 @@ LICENSE = "MIT"
 
 PV = "1.8.3"
 
-RPM_NAME = "python310-slixmpp-1.8.3-1.5.aarch64.rpm"
-RPM_HASH = "ca94cc295bee0cb3ef05212f13a5e86ec6dccb0ed62eec7889ed40c969c921cc07cd2a76fddb577b627520b509ed5a5c91559a8933f585a66e4a272dc4b57c89"
+RPM_NAME = "python310-slixmpp-1.8.3-1.7.aarch64.rpm"
+RPM_HASH = "83d6a86f4b0d0aa9e2d764b4455cc6ec189a734fb1293002a3aef87d51e7aa6a6d413cc989256ccfe3c68b943edfeb1c5b41e70a17b8d82324e9a5f4c2dfecfb"
 
-RPROVIDES:${PN} += "python3-slixmpp \
-python3.10dist-slixmpp \
+RPROVIDES:${PN} += "python3.10dist-slixmpp \
 python310-slixmpp \
 python3dist-slixmpp"
 

@@ -4,13 +4,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "5.9011"
 
-RPM_NAME = "perl-Catalyst-Manual-5.9011-1.13.noarch.rpm"
-RPM_HASH = "39bb7c252c3c1a1eabbc98e58515d421759bcafe84939bfaabe495de74cf4f4d07c692db7f30843d2515a96e38764c58a55eb6e607aee7d8e643acfb48290f5e"
+RPM_NAME = "perl-Catalyst-Manual-5.9011-1.14.noarch.rpm"
+RPM_HASH = "3f851256598c4ac20293bf49827bc1ce573f69745f3bbe4490d0ce1e73127527cc9aa5873f9eb2a36a7cfb8732f031db49158eb96549232d096afb7b7691fecc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Catalyst--Manual \
 perl-Catalyst-Manual"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

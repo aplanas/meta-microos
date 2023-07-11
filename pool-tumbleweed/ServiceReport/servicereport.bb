@@ -6,12 +6,12 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.2.3+git1.55a13db1c256"
 
-RPM_NAME = "ServiceReport-2.2.3+git1.55a13db1c256-3.5.noarch.rpm"
-RPM_HASH = "c0813a25cf5ff9902debbd3559412985570e11b75ba17d22a8282b5c103aacbe9e5c6c3343e4c597e5d3a9eef7c30c7b3f6233902a7e10ea57e5885fdd90c53a"
+RPM_NAME = "ServiceReport-2.2.3+git1.55a13db1c256-3.6.noarch.rpm"
+RPM_HASH = "de5e44721c340d570495012a6aed8b897b9041c97b8ad0310bb92ff61b2364d5a693f53df1c7d4ef3ae9ef9268f5dc824592288486fcdaf7029016be9aff78fd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ServiceReport \
-python3.10dist-servicereport \
+python3.11dist-servicereport \
 python3dist-servicereport"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

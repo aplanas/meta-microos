@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.3"
 
-RPM_NAME = "awesome-4.3-4.13.aarch64.rpm"
-RPM_HASH = "75650b978328d2c9accfdea39c0b0b91737f871b40f3c5258bd308b5d5302bf26f8d3d358642cc7177c62dd366ef1ae6980454480de2a859f9a2344e8d47be0e"
+RPM_NAME = "awesome-4.3-4.14.aarch64.rpm"
+RPM_HASH = "c642f4eef52cf7a118df1d8396ac802a2e73aa0af6a1683b1f3479ca06582f7de36c6e79edbcc0dc206cfc2dccf6ae9836a39c3cb43b7e937a82021e076b8ab9"
 
 RPROVIDES:${PN} += "awesome \
 windowmanager"

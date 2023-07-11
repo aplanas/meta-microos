@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.3.23"
 
-RPM_NAME = "partclone-0.3.23-1.4.aarch64.rpm"
-RPM_HASH = "7a9a165b95b7e7d647bd4a69bdcf683d1533f4d2fd94efbbe8b977324c424f33de1821a852152d6ba7c1bfbc5ee7ea982dfbdef2884312e45baa36e36bb6e929"
+RPM_NAME = "partclone-0.3.23-1.5.aarch64.rpm"
+RPM_HASH = "809c76bffbed76417a35b593cfeaca08142b3324463d1d22be4385cfecb69d4e65a27d6b58f587bdf8957a96deb4b8a9eb9a598f0edd42beb4331a9863d451e4"
 
 RPROVIDES:${PN} += "partclone"
 

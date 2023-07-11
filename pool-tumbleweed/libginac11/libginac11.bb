@@ -3,10 +3,10 @@ DESCRIPTION = "GiNaC (which stands for 'GiNaC is Not a CAS (Computer Algebra Sys
 open framework for symbolic computation within the C++ programming language."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.8.5"
+PV = "1.8.6"
 
-RPM_NAME = "libginac11-1.8.5-2.3.aarch64.rpm"
-RPM_HASH = "f72833fd409fa996bdf592497ef23d1c73254cf8daa65e434d36586d5257537278ae32a301e6b1b2e4668a3c8ec9f81a62a61a73f9fdb569b4d3c8fe6b36611c"
+RPM_NAME = "libginac11-1.8.6-1.1.aarch64.rpm"
+RPM_HASH = "fef63f3f6e497e8bb2cd51102b32f7884e26a84be8fbd5b89ec3585c8f5b82bcdac2766e446ecb6b2b825bab1844a3ac6e158d7788590a74d13a83e10735108b"
 
 RPROVIDES:${PN} += "libginac.so.11 \
 libginac11"

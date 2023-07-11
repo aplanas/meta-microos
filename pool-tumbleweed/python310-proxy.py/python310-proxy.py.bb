@@ -7,12 +7,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.4.3"
 
-RPM_NAME = "python310-proxy.py-2.4.3-1.1.noarch.rpm"
-RPM_HASH = "c108a40e8fbe59a70dccde231cbb79cfef05e66c97f16468385d1314fef193c332d17463c7806882569803b784d17838314697f00137547d89f291c6ebad3e55"
+RPM_NAME = "python310-proxy.py-2.4.3-1.4.noarch.rpm"
+RPM_HASH = "538bd37dc44f174e04f4fefef60e5092304a1d8b8430fa9f30330ac566f014a3dad3585fd96ba1b179a9311850b4f4bdeb9969ce1aba4a6ca9cd5230f6109b8c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-proxy.py \
-python3.10dist-proxy.py \
+RPROVIDES:${PN} += "python3.10dist-proxy.py \
 python310-proxy.py \
 python3dist-proxy.py"
 

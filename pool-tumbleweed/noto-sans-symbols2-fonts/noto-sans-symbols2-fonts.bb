@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-symbols2-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "c675aa31586e1ea334928d44312299137d82634159418cf41fe356c13dfb2f5dd8051270e90d399ac2352b976083de5224b6c46f8bf2d0bffe909efd34f6457b"
+RPM_NAME = "noto-sans-symbols2-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "352e1ad323ac4e7eebbbc17b424854317dcdaf1ab4e433d2eac029a3380e3109bad1cb5939bfc8156f22f6dbe9cef1d19449757471b92b083754c23a8f80b7cd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-symbols2 \

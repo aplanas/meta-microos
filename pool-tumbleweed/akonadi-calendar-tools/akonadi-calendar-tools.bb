@@ -2,10 +2,10 @@ SUMMARY = "Console applications and utilities for managing calendars"
 DESCRIPTION = "Console applications and utilities for managing calendars in Akonadi."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "akonadi-calendar-tools-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "6abb03761321cec4639bcb158f22933c49a95aeed0f3b92bd0f8a73b0caf34d6b87f3749b159c6f4b60920a1a0d509449a858b59d63de4b69382bb6ddf473b64"
+RPM_NAME = "akonadi-calendar-tools-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "ce17201a2b6838e255f93146f920b6409dcd3da58fe3dc914cd255d7c4cbe87bb12d862cb3102bd437b40dd1d8dd3206666904e261eca627efb807dac8b308cd"
 
 RPROVIDES:${PN} += "akonadi-calendar-tools"
 

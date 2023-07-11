@@ -11,8 +11,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.003029"
 
-RPM_NAME = "perl-Devel-REPL-1.003029-1.4.noarch.rpm"
-RPM_HASH = "ea11872bb3bc2884fb01ac3d57c235297118fc314532adf00b21fe05610c57fd1d509828b6d41d6a6d5d93ed701e383c7ca830f4a24c53dbf62008b63fac4b0f"
+RPM_NAME = "perl-Devel-REPL-1.003029-1.5.noarch.rpm"
+RPM_HASH = "060ff2103cfd957deef8ea3ea0be9201839db9224adae35003a3ce381e2bf4d2f4ba39a5964a093b61d16d038ec426821cee0468fbe5dce85eb80fdb93fc028c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Devel--REPL \
@@ -56,7 +56,7 @@ perl-Devel--REPL--Script \
 perl-Devel-REPL"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-B--Keywords \
 perl-Data--Dump--Streamer \
 perl-Data--Dumper--Concise \

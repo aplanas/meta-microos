@@ -9,10 +9,10 @@ to make use of all features and get full support for all file \
 systems."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "partitionmanager-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "eb9c56d0f3fd058319de6a7cf3d9627c7ff482d22d814a033fbd06c98e726d1cb92091d639f1ffd59cd6fbc7bb02eb2ff0ce58fc2099269bf6571048e945c5e6"
+RPM_NAME = "partitionmanager-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "5cdca3ef620767ec1b94ad34b1da3c5ce6ab056efc7528811ccba4c3d013b783c3fe77172a424e9157819c2dd4188741c48dc5cef040fec608f9a469001588de"
 
 RPROVIDES:${PN} += "partitionmanager \
 partitionmanager5"

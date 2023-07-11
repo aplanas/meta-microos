@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "3.1"
 
-RPM_NAME = "ocaml-sedlex-devel-3.1-3.1.aarch64.rpm"
-RPM_HASH = "7a834df2be07e2c605621ba974a9c4b52f584f41237b126b51d4abe45d401682057d92f0ab9fa6f31937a810853e10550b0d68cbe5d40497714c2752849a2259"
+RPM_NAME = "ocaml-sedlex-devel-3.1-3.2.aarch64.rpm"
+RPM_HASH = "c6d3db331e6f6ed41cc2017c5000c865ed8ee48d77431fdf2838e5a730e773e338368c9692c3d8b9217901436f86133e577b258abfcf43a406cec635638c81f2"
 
 RPROVIDES:${PN} += "ocaml-Sedlex-ppx \
 ocaml-Sedlex-ppx--Ppx-sedlex \

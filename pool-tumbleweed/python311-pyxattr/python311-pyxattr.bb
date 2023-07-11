@@ -6,10 +6,11 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.7.2"
 
-RPM_NAME = "python311-pyxattr-0.7.2-1.13.aarch64.rpm"
-RPM_HASH = "90eac8cdf43f5eb5b8f6b087edcca8a4faf69c09acd125ba148a41319ad99007bd3f897b7868cea8e5eaabb66a6fc9b00fd59cea8ef5cb961306fa46e4b678d4"
+RPM_NAME = "python311-pyxattr-0.7.2-1.15.aarch64.rpm"
+RPM_HASH = "6a3f776326578d50907cf43dda889d2e26e93c9f27ae8e73df474ae91e8aa840d046e0659562b7eebf8f3dc771f2520326f0e93b051c6f9548d320677a32dc22"
 
-RPROVIDES:${PN} += "python3.11dist-pyxattr \
+RPROVIDES:${PN} += "python3-pyxattr \
+python3.11dist-pyxattr \
 python311-pyxattr \
 python3dist-pyxattr"
 

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.9.6"
 
-RPM_NAME = "ghc-asn1-encoding-doc-0.9.6-8.3.noarch.rpm"
-RPM_HASH = "e5e072ee8b24d27becb514bbda42128e7db79175a81ba02167821d4623c4dfbc9f9cb98c403ec49f124c86b020f09aacb5c92fd0dfa15693992519cf2ab6554c"
+RPM_NAME = "ghc-asn1-encoding-doc-0.9.6-8.6.noarch.rpm"
+RPM_HASH = "62854fe4874e989ed567987d49cbbb1f177081461944ae2d3a58ff6e82dcc427cf269aada4dd73c0c65e250a726120ef0296f37c2f441960ae07c2e27cf9a2b0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-asn1-encoding-doc"

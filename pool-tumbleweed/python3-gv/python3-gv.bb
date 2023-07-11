@@ -5,8 +5,8 @@ LICENSE = "EPL-1.0"
 
 PV = "2.49.3"
 
-RPM_NAME = "python3-gv-2.49.3-6.5.aarch64.rpm"
-RPM_HASH = "b08fac230377a8dd7b45e22abaf21a00502976341697b36a704f28efb8d5dbe053c9acc8660af29992ea13589ae20185122310d6b9655348466ee0ffd486f95c"
+RPM_NAME = "python3-gv-2.49.3-6.8.aarch64.rpm"
+RPM_HASH = "faddd999f7b71f220aa6b79fa0d5c52fbafa38b4c43ab4a32077216b9533ad5f6dc9f72332cdbb66208cfd771a10ee517c0864e2415164991fa4b57fc4813073"
 
 RPROVIDES:${PN} += "libgv-python3.so \
 python3-gv"

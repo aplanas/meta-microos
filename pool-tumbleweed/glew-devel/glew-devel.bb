@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-or-later & MIT"
 
 PV = "2.2.0"
 
-RPM_NAME = "glew-devel-2.2.0-3.10.aarch64.rpm"
-RPM_HASH = "99657a8586be220ac1a1d941031c711e8562becca6c074275227fa2a297441162faab696704fef3731e88e4cf7c2a8579affa95136256b2e6f7030797e7ebbf6"
+RPM_NAME = "glew-devel-2.2.0-3.11.aarch64.rpm"
+RPM_HASH = "3a685b62ac965f5fca46814bc9ec8c08b94795cf04a72a1499e3e6a40e129f1bf7734513aee8fece69a269b793e36a54dac57c67cea8d39c8c7bb0c47ce9570e"
 
 RPROVIDES:${PN} += "glew-devel \
 pkgconfig-glew"

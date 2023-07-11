@@ -5,10 +5,11 @@ LICENSE = "MIT"
 
 PV = "21.3.0"
 
-RPM_NAME = "python311-argon2-cffi-21.3.0-2.2.aarch64.rpm"
-RPM_HASH = "0d6793ad29809a2a3ae4861f92f6072f974583d2efebb46e00e9aec5200139553eef76f86001b1255ebdd43e978adef261f385c11f64de8a17e719ec1c128791"
+RPM_NAME = "python311-argon2-cffi-21.3.0-3.3.aarch64.rpm"
+RPM_HASH = "e472fd61dfe63a896998fd80fc34dbc297e7dc36bfa5f70cb4a6d82eb504aa38fff611c079ba8ee5fd7bb8367a4fafc2753cd3318b278f04405f341aa3ff9e52"
 
-RPROVIDES:${PN} += "python3.11dist-argon2-cffi \
+RPROVIDES:${PN} += "python3-argon2-cffi \
+python3.11dist-argon2-cffi \
 python311-argon2-cffi \
 python3dist-argon2-cffi"
 

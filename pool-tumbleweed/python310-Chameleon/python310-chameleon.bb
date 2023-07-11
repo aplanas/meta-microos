@@ -8,12 +8,11 @@ LICENSE = "BSD-3-Clause & BSD-4-Clause & Python-2.0 & ZPL-2.1"
 
 PV = "3.10.2"
 
-RPM_NAME = "python310-Chameleon-3.10.2-1.3.noarch.rpm"
-RPM_HASH = "a1661f575c0965598e93442d4eede8ea97cd816adcaf445a6c209b82e77bfc66a1548be92c2f6424085fc8b591e9d418ea901846bc024ce634430308c47c1201"
+RPM_NAME = "python310-Chameleon-3.10.2-1.5.noarch.rpm"
+RPM_HASH = "3a104bc7df4e390b5846006746720d81011edc6f3a6a67b2ec0f39491eb7f957764b523c5489441fb7a53679b3444186e05527373bfd80d18662085899bf8e77"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-Chameleon \
-python3.10dist-chameleon \
+RPROVIDES:${PN} += "python3.10dist-chameleon \
 python310-Chameleon \
 python3dist-chameleon"
 

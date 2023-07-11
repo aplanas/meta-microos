@@ -7,11 +7,13 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "1.8.4"
 
-RPM_NAME = "python311-cepa-1.8.4-2.2.noarch.rpm"
-RPM_HASH = "b41cac27dc9964b1071ebf4af212cc7c9807f98076f151e419f9807bb45c67646aa392cdcfbe1272dafd8d63ab8767d9d001fa521daa0f3689ad9e6f625f2e51"
+RPM_NAME = "python311-cepa-1.8.4-2.4.noarch.rpm"
+RPM_HASH = "28740dfefdeebe39a3edb33dae1c1aff9d31aa5a49ae084aa55c644aef8837229e008d2c8d1a7c4f889246b48bf6987accde68988132acda16c041fe13394914"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-cepa \
+RPROVIDES:${PN} += "python3-cepa \
+python3-stem \
+python3.11dist-cepa \
 python311-cepa \
 python311-stem \
 python3dist-cepa"

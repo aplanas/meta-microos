@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.8.0"
 
-RPM_NAME = "lxqt-archiver-0.8.0-1.1.aarch64.rpm"
-RPM_HASH = "ca115476014fe5fb10b7e7536999ba0ca535050f7ad1b8c359667d60dcee8c154c6852029f6d37723a30990422970b278aca86bf6a05f4bfe68ea6067e5c1c1e"
+RPM_NAME = "lxqt-archiver-0.8.0-1.2.aarch64.rpm"
+RPM_HASH = "ba1fc53ac40fed232c0976b78b6af966cccf50d5a1fe9c556adc9a0963bd5a78aff606b26b2a5ccfcccbb205592c99e9d3c3b362b95462a569565ebc46f60d41"
 
 RPROVIDES:${PN} += "lxqt-archiver"
 

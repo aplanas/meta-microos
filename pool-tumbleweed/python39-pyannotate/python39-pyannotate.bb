@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2.0"
 
-RPM_NAME = "python39-pyannotate-1.2.0-4.4.noarch.rpm"
-RPM_HASH = "665b285da1d0c9a13a93a52004845dc0bdf91b5fe7fda5d571d8d4417d47e340a51b8e8999d3b5af22c2a04f1da0f7f97f58407c155e721988aba113e939b648"
+RPM_NAME = "python39-pyannotate-1.2.0-5.1.noarch.rpm"
+RPM_HASH = "87d974f51bddb47d849fe3c26f0b3a3892bd3f979aec42bfeb509f6604ed6dfde22e9cf7ac43b06284c7451389d4067f941ab7ef4583de3eb1bb9c03777a38aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyannotate \

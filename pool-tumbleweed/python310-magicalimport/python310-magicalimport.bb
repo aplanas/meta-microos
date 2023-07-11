@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.9.1"
 
-RPM_NAME = "python310-magicalimport-0.9.1-2.8.noarch.rpm"
-RPM_HASH = "1564ebdd5ced7d707e6c396c86e47731e11d8f85bc701eeeeb95d877be7b8744e5d0c4d200248cc7ee0a912a599afa09b6580278d3355b5bc2cde144bf2b3ca3"
+RPM_NAME = "python310-magicalimport-0.9.1-2.10.noarch.rpm"
+RPM_HASH = "816c19a0bcfd26a1e1736c5f971f1e057df81043c60c2d613d006c188669f840bf91c00edd252327b7c9f1fcedd0de449bc0477cfc98fac6fbe183eaf6c545de"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-magicalimport \
-python3.10dist-magicalimport \
+RPROVIDES:${PN} += "python3.10dist-magicalimport \
 python310-magicalimport \
 python3dist-magicalimport"
 

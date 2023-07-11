@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "17.09.0"
 
-RPM_NAME = "libtelepathy-logger-qt5-17.09.0-1.16.aarch64.rpm"
-RPM_HASH = "86feaf0e2b50282c1f0e04b0516dfdf56bfbe196d19be54788c5a3157dc5146c766b5a17e75e128814568989ca3a68e24eae9c6550c6108f93fd61b8eb17066d"
+RPM_NAME = "libtelepathy-logger-qt5-17.09.0-1.17.aarch64.rpm"
+RPM_HASH = "8519328db1c11fc33c147cd4608f8d6b78b7b4bdf7330113986a14fce337c0f7fe436a41f47a8d34e5df39c9aa3e7f6d7440b6c1fa821a2c5a121073d529d310"
 
 RPROVIDES:${PN} += "libtelepathy-logger-qt.so.5 \
 libtelepathy-logger-qt5"

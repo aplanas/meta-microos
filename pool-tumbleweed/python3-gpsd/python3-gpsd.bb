@@ -5,11 +5,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.25"
 
-RPM_NAME = "python3-gpsd-3.25-1.3.aarch64.rpm"
-RPM_HASH = "193bf0c8ed3129367353e8e54376eb67286d91298e85a0f974c280b2535b37a1c5d0fe97a3b13c1f8d3449c0f8695b71c9c5c907c7f31277386589c30e1c8a14"
+RPM_NAME = "python3-gpsd-3.25-1.4.aarch64.rpm"
+RPM_HASH = "d6d09cbd492db95191f04ee9f19cb3f5d4d733ff41d2b1bd4a0364b3eed3e9e06ae347423b50c07b3c015a75f7afbd07812a124647fa5de715535569eec81e4c"
 
 RPROVIDES:${PN} += "python3-gpsd \
-python3.10dist-gps \
+python3.11dist-gps \
 python3dist-gps"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

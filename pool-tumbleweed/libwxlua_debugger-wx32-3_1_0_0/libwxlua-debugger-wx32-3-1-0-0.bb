@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later-with-WxWindows-exception-3.1"
 
 PV = "3.1.0.0+42"
 
-RPM_NAME = "libwxlua_debugger-wx32-3_1_0_0-3.1.0.0+42-2.2.aarch64.rpm"
-RPM_HASH = "932f2aa4def66b8d0fee1449a4b40223431975f90aff8bf7308abd67afd375b6795e5c95c248e1f859b3863ac0545b92ab311a5df486586a4973242ec75d6a7e"
+RPM_NAME = "libwxlua_debugger-wx32-3_1_0_0-3.1.0.0+42-2.3.aarch64.rpm"
+RPM_HASH = "a18c1b24511261ec0d6e8b53a3f4bfca58a22be9ac58d58cdeb2e83bdee94ba046fbf1e96af90f2168cd7034061c833e750aeeaa2ced34eb75add7f696eb4ced"
 
 RPROVIDES:${PN} += "libwxlua-debugger-wx32-3-1-0-0 \
 libwxlua-debugger-wx32gtk3u-3.1.0.0.so"

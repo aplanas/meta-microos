@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.0.5.1"
 
-RPM_NAME = "libwx_baseu-suse-nostl3_0_5-3.0.5.1-4.1.aarch64.rpm"
-RPM_HASH = "df5b2182959bfeb80ffb2a320f702db093f88d0917ac2c1992e9a9a4613be0479f77e2b1b26f0c07f136f26fee5894029f6a73791c5cdfdb9d807bfcf7b725e6"
+RPM_NAME = "libwx_baseu-suse-nostl3_0_5-3.0.5.1-4.2.aarch64.rpm"
+RPM_HASH = "7da33f01061d281a087c43c56bf3b6cb3ec712275a980a9f4fde0444e73246d01f41cabc1fdf997b8f508ef167a0a4e765e26c0da31658a603bec3da7f6f2fb8"
 
 RPROVIDES:${PN} += "libwx-baseu-suse-nostl.so.3.0.5 \
 libwx-baseu-suse-nostl3-0-5 \

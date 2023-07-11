@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.3.4"
 
-RPM_NAME = "gutenprint-5.3.4-1.1.aarch64.rpm"
-RPM_HASH = "74f558267792669fbc9f16e06bbce40b422b65cb46042265dd6b6781232896c5d35f5ea0bb78c8fb5b3e3f6154796cf940e8a868cd1d9dee4f2f24b5ceaea03b"
+RPM_NAME = "gutenprint-5.3.4-1.2.aarch64.rpm"
+RPM_HASH = "984876b1a42d5c059d051165a7cfb2dcb5b27fd1994df91e109f33fdb11d16f44fdb1124f12f77259c553eecee23789a9aa9b495b8a71e1ff75f3548c0a461c5"
 
 RPROVIDES:${PN} += "config-gutenprint \
 gutenprint \

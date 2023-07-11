@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4.6"
 
-RPM_NAME = "libcolorhug2-1.4.6-2.3.aarch64.rpm"
-RPM_HASH = "9cb51c7233a8bcb7ac3354b3e8401cc44abfa1ecb0dccc6b3fda64a8779dc971aed53bc45a2f5cd956a5f8e766e28e077d130938a52e0c323b2f9328f9be68b6"
+RPM_NAME = "libcolorhug2-1.4.6-2.4.aarch64.rpm"
+RPM_HASH = "d5f3647e83be32b9a65f1129d7104f8fb40425af1ddd47a84b9a89548c8988a42c95ca5fd8aa575077bdd8bdea014945db7fa5072db1e8220ab93b3a37f629bf"
 
 RPROVIDES:${PN} += "libcolorhug.so.2 \
 libcolorhug2"

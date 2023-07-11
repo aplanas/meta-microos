@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "0.6.2"
 
-RPM_NAME = "python39-docopt-0.6.2-7.17.noarch.rpm"
-RPM_HASH = "fc57f29c18c86bd8dc47df5ad7fa8be19f9a8f47924674151f5e00a41904e8c9dcd9c8890efc9bfe0e1198ea4ad1921184b03aad6e4e8a0371f2399b94c1f5b8"
+RPM_NAME = "python39-docopt-0.6.2-8.1.noarch.rpm"
+RPM_HASH = "7fd9c055f1d29499cf29f5a408435c5c530fee7388f09d18e36cb5222555fb16189a4b7b8ec7219a4d3f074aaaf0d10c9162980bd7016cb8ee3f5a562097260b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-docopt \

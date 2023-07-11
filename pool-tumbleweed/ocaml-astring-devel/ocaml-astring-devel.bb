@@ -5,8 +5,8 @@ LICENSE = "ISC"
 
 PV = "0.8.5"
 
-RPM_NAME = "ocaml-astring-devel-0.8.5-1.15.aarch64.rpm"
-RPM_HASH = "67ce9b7a012279024ea320907f364c5b1e68017187f710933ba3c97c0843d99c286567d9f72567df0196d1dfed72b1dac1c7900c9676e49424b1e05bd1f04e5d"
+RPM_NAME = "ocaml-astring-devel-0.8.5-1.16.aarch64.rpm"
+RPM_HASH = "5dc6d90d4b254f0cbc94051ac05f91b9ec7382055d550d8c793aeb5c3f7e806e81c1e6617df4b3565b313dbde535ad838abf1f5d5b46e49f7ae69aa8c6a16be7"
 
 RPROVIDES:${PN} += "ocaml-Astring \
 ocaml-Astring-base \

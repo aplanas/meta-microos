@@ -9,8 +9,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "4.050"
 
-RPM_NAME = "perl-DBD-mysql-4.050-2.25.aarch64.rpm"
-RPM_HASH = "138b95a6d5cbca709691279bfc0487567ad7d7ad245c7fb3f65cd3e57dee04209b4ca0ed28fe5fb7020537dff009703d0438530551e2bbde8bec8e48bd40c462"
+RPM_NAME = "perl-DBD-mysql-4.050-2.27.aarch64.rpm"
+RPM_HASH = "487866c30fa83374f228ee285f3120d389a06397e0950329de30c7f4f16bc6cda35f4b9078759803ad9b7f73eb3c6b5e81ba9e3cafc72152659a7298296818fa"
 
 RPROVIDES:${PN} += "perl-Bundle--DBD--mysql \
 perl-DBD--mysql \
@@ -23,7 +23,7 @@ perl-DBD-mysql"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libmariadb.so.3 \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-DBI"
 
 inherit rpm

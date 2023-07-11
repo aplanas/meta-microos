@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.17.0"
 
-RPM_NAME = "python311-httpcore-0.17.0-1.1.noarch.rpm"
-RPM_HASH = "aca9c18160a4ea22e96b90bed13016d90acbf19ca755595f5cb96e073afe2cb617b52c0138755418f4c6eb60edd17359db45016f9fd9b61369fc681e85f5633e"
+RPM_NAME = "python311-httpcore-0.17.0-1.3.noarch.rpm"
+RPM_HASH = "0ff6d57f590550093934d571791a74ed12e02c09be199cf958da0b967b98a9542f396de89bcb5e5ef964381b4b1bea2ef57ac87727522ef6d68e24b63adeb02a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-httpcore \
+RPROVIDES:${PN} += "python3-httpcore \
+python3.11dist-httpcore \
 python311-httpcore \
 python3dist-httpcore"
 

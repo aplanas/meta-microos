@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "1.1.1"
 
-RPM_NAME = "python311-mkdocs-material-extensions-1.1.1-2.1.noarch.rpm"
-RPM_HASH = "7b6acfcf7ec5a3a2b1de69afd174e9b6de3abdd794c1c923991f49c9ca053dd7597ef20bed69d4c8a9b37e5aa0c2329a35d833d290d42f80f63ff2099520f4ea"
+RPM_NAME = "python311-mkdocs-material-extensions-1.1.1-2.2.noarch.rpm"
+RPM_HASH = "9c13018753ad151e96689de8b0911659c35d4d02102130964730dc24426d94534cd078a672957f80b36c680ff179d9ea8d1aa4f5a8368d606b0079c956212054"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-mkdocs-material-extensions \
+RPROVIDES:${PN} += "python3-mkdocs-material-extensions \
+python3.11dist-mkdocs-material-extensions \
 python311-mkdocs-material-extensions \
 python3dist-mkdocs-material-extensions"
 

@@ -6,12 +6,12 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.24"
 
-RPM_NAME = "python3-pylibiio-0.24-1.4.aarch64.rpm"
-RPM_HASH = "7c8de0ea2c36c0938e7fc2f0cf7acf4c4faef106e49216cdc109f227421b22b5f415859aedd959e7f981eb80c2959f9e504f76802a99fe186c7173fe15dff584"
+RPM_NAME = "python3-pylibiio-0.24-1.5.aarch64.rpm"
+RPM_HASH = "21447a98e76dfc460d598e9e56e2d50b88b2e7ba183956f1fe17e6eadecb7f693a7d8439636030668cf604226b55bd348c6e5eef1f291a045f5b0d13059c6984"
 
 RPROVIDES:${PN} += "libiio-python \
 python3-pylibiio \
-python3.10dist-pylibiio \
+python3.11dist-pylibiio \
 python3dist-pylibiio"
 
 RDEPENDS:${PN} += "python-abi"

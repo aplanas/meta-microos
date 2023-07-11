@@ -17,8 +17,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.10.7"
 
-RPM_NAME = "openmpi_1_10_7-gnu-hpc-devel-1.10.7-7.5.aarch64.rpm"
-RPM_HASH = "d6f2946089961cd18a63081d7272086977a4f75d7b27dbae7cf8badd6e45b9eac4a18773e430e99c72a16fbb3062480ebe3d7b98eaaee0cda04a47a113baaf6c"
+RPM_NAME = "openmpi_1_10_7-gnu-hpc-devel-1.10.7-7.6.aarch64.rpm"
+RPM_HASH = "4f3dc125019fe6ffd8301fcf78569bb0d907d7406e59795f63d0b5c886a288aefd4ffd3f7af7539221bab089dab59774e5918c20eff92165038a8729dbc92946"
 
 RPROVIDES:${PN} += "openmpi-1-10-7-gnu-hpc-devel"
 

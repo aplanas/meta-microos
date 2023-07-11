@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.2.0"
 
-RPM_NAME = "nemo-extension-image-converter-5.2.0-3.4.aarch64.rpm"
-RPM_HASH = "a0d2ee20652a1c9c1dd4a21fa5ab45524b9dbdfa5f3c3aaef3ddeae0833353636db315e334f3f2e987e3082cc8edc464e1ded0d8efeac381e576be0f5b26c743"
+RPM_NAME = "nemo-extension-image-converter-5.2.0-3.6.aarch64.rpm"
+RPM_HASH = "480ef8813a16706fae37dd7935d4de7fbff8671dcc2ff1da174dfc52d327a69b9cd88cc3edd885671abdc6b8533cfc52803ce82cb52da5c54c057ba83a825f12"
 
 RPROVIDES:${PN} += "nemo-extension-image-converter \
 nemo-image-converter"

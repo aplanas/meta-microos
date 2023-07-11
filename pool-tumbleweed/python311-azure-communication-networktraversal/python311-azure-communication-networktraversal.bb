@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "1.1.0~b1"
 
-RPM_NAME = "python311-azure-communication-networktraversal-1.1.0~b1-1.2.noarch.rpm"
-RPM_HASH = "2799a01bef314a073c0359765586ae029607b1ffedd03827052f85185ce4f2bcd2c34cc198db9c54382565000b7b2a28ea12d86d7a1820c33e17d8bb348f00af"
+RPM_NAME = "python311-azure-communication-networktraversal-1.1.0~b1-1.4.noarch.rpm"
+RPM_HASH = "3ff3781b421a4a1ee736931e64bd61a03697934c1604de5cc1e809d6dc440efa04839b07052c17cf19ebe11e13ba56c265a9c00bbb248d86edfc9c3b59cc03ab"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-communication-networktraversal \
+RPROVIDES:${PN} += "python3-azure-communication-networktraversal \
+python3.11dist-azure-communication-networktraversal \
 python311-azure-communication-networktraversal \
 python3dist-azure-communication-networktraversal"
 

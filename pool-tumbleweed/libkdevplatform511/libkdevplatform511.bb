@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the libraries for integrated development \
 environments based on the KDevelop framework."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libkdevplatform511-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "546195f9b38a6552db5b549783d903c723ef0e4fade4651c0604e139adfbea495486fbf7f4121a36c6a48e1ec53a3a8729ed970c96677d8d94ac741d29c0ba84"
+RPM_NAME = "libkdevplatform511-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "569660dc5082e90e316c890643a34c1cc5188db4416a2b8489da6639634031a6ea1c3ab7d5228c41d5c67e4f3965564badf5c5293f87ee97168c509996617483"
 
 RPROVIDES:${PN} += "libKDevPlatformDebugger.so.511 \
 libKDevPlatformDocumentation.so.511 \

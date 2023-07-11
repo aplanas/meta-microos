@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "0.4.1"
 
-RPM_NAME = "python311-sat-stac-0.4.1-1.4.noarch.rpm"
-RPM_HASH = "7c95f901492cb02e080e46ec30ba35644d318f1a9ed1d826b3253a181a3d1d01c1cd3f01ef84129d6a697b496aa127eb03452eb567e4b039e29e1bdb44acfac5"
+RPM_NAME = "python311-sat-stac-0.4.1-1.6.noarch.rpm"
+RPM_HASH = "c6398aa473d10c39fbdb649b852e106faaf9eb10e19a8c4dc6b5abb2f8282d8ad135f552c448d5b8d0a4d392565845744f67c05fac65e911f35c2932c4251455"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-sat-stac \
+RPROVIDES:${PN} += "python3-sat-stac \
+python3.11dist-sat-stac \
 python311-sat-stac \
 python3dist-sat-stac"
 

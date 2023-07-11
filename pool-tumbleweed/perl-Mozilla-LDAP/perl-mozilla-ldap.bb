@@ -4,8 +4,8 @@ LICENSE = "MPL-1.1 | GPL-2.0+ | LGPL-2.0+"
 
 PV = "1.5.3"
 
-RPM_NAME = "perl-Mozilla-LDAP-1.5.3-5.47.aarch64.rpm"
-RPM_HASH = "71abf531fce15d33ee204508ce0cd8839122e5beff1080c10c2b262c30e88e2ae3a9adfbb7c31cc3edc593549c4e0a8d3fc1e4939bcc054bcc35c714c48a47cc"
+RPM_NAME = "perl-Mozilla-LDAP-1.5.3-5.48.aarch64.rpm"
+RPM_HASH = "31184aa07243ba74ee648599698a7ebdf316c6242f88ac2cc2c5eca03b5ecc60ca68e70d5d2565a1e3a6daab5e79a702c9a4900b6ba9ceaeeeb25347409ac20d"
 
 RPROVIDES:${PN} += "perl-Mozilla--LDAP--API \
 perl-Mozilla--LDAP--Conn \

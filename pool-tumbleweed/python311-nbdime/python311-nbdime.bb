@@ -7,11 +7,13 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.2.1"
 
-RPM_NAME = "python311-nbdime-3.2.1-12.2.noarch.rpm"
-RPM_HASH = "e822ef5c868b938a8c2ae463226741c25f36ca00b9f73c385331ff4007868f392007f4bcd1f0818dc15c48727abcfa802a7c21cd9fe78d164a538a881e99b874"
+RPM_NAME = "python311-nbdime-3.2.1-12.3.noarch.rpm"
+RPM_HASH = "4f5f634d59e66e4078c500db125e56bee24faaa4fb2a97913174c812617dcd0d3b5e3fbb48b2bfb7cfb87016bef624f35aa55de8763890f0c4d5b5dd7a609e7d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-nbdime \
+RPROVIDES:${PN} += "python3-jupyter-nbdime \
+python3-nbdime \
+python3.11dist-nbdime \
 python311-jupyter-nbdime \
 python311-nbdime \
 python3dist-nbdime"

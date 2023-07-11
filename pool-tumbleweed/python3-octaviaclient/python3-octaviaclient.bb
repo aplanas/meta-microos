@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.5.0"
 
-RPM_NAME = "python3-octaviaclient-2.5.0-1.5.noarch.rpm"
-RPM_HASH = "b3c714fd2b329d65452791ae93b91d9116b15f03487472d996501c9734167986a6335656e3934ef4cfcf522a6ae1144cd48e24b12f61b65ee590b78094dd0bae"
+RPM_NAME = "python3-octaviaclient-2.5.0-1.6.noarch.rpm"
+RPM_HASH = "343f59e12c36ba91aca2a35bd4b6927be8f7fbacc2dae7b4c8f324489e11d314a699def34127454ee53a9823a98a4d4de3bf149e6a38021e4a5606b271e22214"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-octaviaclient \

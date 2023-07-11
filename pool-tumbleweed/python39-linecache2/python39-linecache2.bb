@@ -4,8 +4,8 @@ LICENSE = "Python-2.0"
 
 PV = "1.0.0"
 
-RPM_NAME = "python39-linecache2-1.0.0-6.1.noarch.rpm"
-RPM_HASH = "c2fd9b698ee77fdd8cf9999bb11f4c1aefd2c0106165cb0ccd03b6aeee10c580f571b46bbeb7693cbcfb8e52ea3ed19c760b03ca4007cc963dc130e8755cb725"
+RPM_NAME = "python39-linecache2-1.0.0-6.3.noarch.rpm"
+RPM_HASH = "3c840b0a9abf94879f44d5a7c95761c2698094a11ee549398e3ef5bc478d57a3eabf136b11215b07366431bc2a607a32ada9653f18e5fc8bdd5bf6e69208aca9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-linecache2 \

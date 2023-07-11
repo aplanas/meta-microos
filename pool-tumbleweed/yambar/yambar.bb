@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.9.0+g34"
 
-RPM_NAME = "yambar-1.9.0+g34-1.3.aarch64.rpm"
-RPM_HASH = "178f6e80d51deaedd8f63798f112f63c7c5aaca32e01aa9097a66532b624b98f35f062f16ea8c50de89239fff867c9919f18321dc49da25ee2bbad9d41151c13"
+RPM_NAME = "yambar-1.9.0+g34-1.4.aarch64.rpm"
+RPM_HASH = "23d6d421fa341154828e8b39359f92d3254b4c03c05ca8dc49a75dee6dd5368154b0017ebc3e02b7cce06ee5af9dc00e44beaeb66249efb5bede13225feffe18"
 
 RPROVIDES:${PN} += "yambar"
 

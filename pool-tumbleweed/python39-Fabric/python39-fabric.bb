@@ -14,10 +14,10 @@ suite at a higher level than that provided by e.g. Paramiko (which \
 Fabric itself leverages)."
 LICENSE = "BSD-2-Clause"
 
-PV = "2.7.1"
+PV = "3.0.1"
 
-RPM_NAME = "python39-Fabric-2.7.1-3.4.noarch.rpm"
-RPM_HASH = "281822060004c12ae070d52c9b6d419557dbf29d866a30edb92966e74f31e5304cd458389c56be66f3332cad6526b55d2afa1c99055a6e8a034f25e12566e960"
+RPM_NAME = "python39-Fabric-3.0.1-1.1.noarch.rpm"
+RPM_HASH = "3895a79e55c7f992641ffc96370d0107927f9cb067864384024565ef0fa0fdd478c7f2001a96ec032b0e9bce8312c40f2a42a99c656b5477177a6a6198c0c087"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-fabric \
@@ -31,12 +31,9 @@ python3dist-fabric"
 RDEPENDS:${PN} += "/usr/bin/python3.9 \
 /usr/bin/sh \
 python-abi \
-python39-cryptography \
 python39-decorator \
 python39-invoke \
 python39-paramiko \
-python39-setuptools \
-python39-six \
 update-alternatives"
 
 inherit rpm

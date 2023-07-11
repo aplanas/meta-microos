@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.5.8"
 
-RPM_NAME = "python39-simplebayes-1.5.8-2.32.noarch.rpm"
-RPM_HASH = "709f197332bde502cfc090fcdbe6e0af681810889edeceb919c90fe5593d56045772cac6f338c6d56e58f8a046c8264a2a39338553d314a823887d61642ea9ad"
+RPM_NAME = "python39-simplebayes-1.5.8-2.33.noarch.rpm"
+RPM_HASH = "cdb778a629cad434e7dcfb24ee584d7c39d3cbb0bd8b319deade7e9099f2e27b1f1a9f1f82573b470006d61f710cfdb31751d7db3a4f5f9f4f06b84b63a89dc6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-simplebayes \

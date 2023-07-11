@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.0.3"
 
-RPM_NAME = "monitoring-plugins-nrpe-4.0.3-5.3.aarch64.rpm"
-RPM_HASH = "7ccb5d1051807754177bbadb9c0360666e1121c53cbff98dd8f58fc51cac016a37f2f6e52d52027c066f41edda4a2910e2126a8e6884b44c18a7db44fa3e884c"
+RPM_NAME = "monitoring-plugins-nrpe-4.0.3-5.5.aarch64.rpm"
+RPM_HASH = "5791ac926adba170219d06ee0baa848926fa80af4788e64d70ca9399278a6012180a9763b4e7fdd6119e96466e2e882ddf235c855a6850325b198f8bd994b33f"
 
 RPROVIDES:${PN} += "config-monitoring-plugins-nrpe \
 monitoring-plugins-nrpe \

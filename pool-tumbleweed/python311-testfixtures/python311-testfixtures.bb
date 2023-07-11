@@ -12,11 +12,12 @@ LICENSE = "MIT"
 
 PV = "7.0.4"
 
-RPM_NAME = "python311-testfixtures-7.0.4-1.3.noarch.rpm"
-RPM_HASH = "fbb419fd172f10b5c61d1dfdc43178398009eae62ae3fd35f31a1d82f4bcdc144b1d1fa0639ee5915b8799ccf7969a9c6922bdc1087776f7929e6064b5cf1fa1"
+RPM_NAME = "python311-testfixtures-7.0.4-1.5.noarch.rpm"
+RPM_HASH = "856ddb72a9759ba47b52121f576b7249638829bf7b8eca984afb2dc38dd0424affb52f4787cb72773f75d9c831db0fa5532da5c6563e10a8bc1b64e8303fc23e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-testfixtures \
+RPROVIDES:${PN} += "python3-testfixtures \
+python3.11dist-testfixtures \
 python311-testfixtures \
 python3dist-testfixtures"
 

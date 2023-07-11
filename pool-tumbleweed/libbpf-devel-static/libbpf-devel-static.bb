@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.2.0"
 
-RPM_NAME = "libbpf-devel-static-1.2.0-1.1.aarch64.rpm"
-RPM_HASH = "9221c08edb780f49257ff2e73f9c96571f27f7c4cdfcf12acc7d3fc8ecfaea898273abe51fc4ca776ce51f319e7f790ec22dcdf534d880fc9527c6c5cd3f6074"
+RPM_NAME = "libbpf-devel-static-1.2.0-1.2.aarch64.rpm"
+RPM_HASH = "0195a38c86c4f561723b7f2e4df31c7663027726bf68606680b8bdca3cea9e7942f88929dc2d5e21eabadc82e26c6e7299bc0b154bce695a07c0351850670126"
 
 RPROVIDES:${PN} += "libbpf-devel-static"
 

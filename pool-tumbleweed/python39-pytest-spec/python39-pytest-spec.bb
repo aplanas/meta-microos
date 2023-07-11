@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "3.2.0"
 
-RPM_NAME = "python39-pytest-spec-3.2.0-1.6.noarch.rpm"
-RPM_HASH = "d40626efdfbf95d1a63c1a435d07aac72e48cd10a09796b033ef4ef500d5dc51ef9c41d7390f9e4084adaf2e04951cd6d49ed0282247e6b4d872bcb32dc4e9f1"
+RPM_NAME = "python39-pytest-spec-3.2.0-1.8.noarch.rpm"
+RPM_HASH = "350581ca8fc2dfb1e1a2fcc469a31e03a996ec251a574754d780f61a2389e0f576f3898581789b04b9e6dced5e6608b550a0578d16361b42e9db9d82fc0c745a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytest-spec \

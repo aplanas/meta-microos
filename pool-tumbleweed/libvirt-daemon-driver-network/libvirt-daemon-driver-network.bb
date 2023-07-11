@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "9.4.0"
 
-RPM_NAME = "libvirt-daemon-driver-network-9.4.0-1.1.aarch64.rpm"
-RPM_HASH = "9efea9263e437f91162b83d5fe338e29131c6572ca4b0540476260396053bc7aeff4e0736b3ddc36501f7be59c6d866f428b6a1734d602e28590802f1869bcf3"
+RPM_NAME = "libvirt-daemon-driver-network-9.4.0-3.1.aarch64.rpm"
+RPM_HASH = "8df111cdcaeee62659e3bbc34cffbdcf9cd8cea557495414c6ff7f4aecf458c78106905f455356fb5c88120589f84ce76678eaa62c7f6b23b161aac58499e539"
 
 RPROVIDES:${PN} += "config-libvirt-daemon-driver-network \
 libvirt-daemon-driver-network \

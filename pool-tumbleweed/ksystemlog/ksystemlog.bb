@@ -5,10 +5,10 @@ are in their computer. But it is also designed for advanced users, who \
 want to quickly see problems occurring on their server."
 LICENSE = "GPL-2.0-only"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "ksystemlog-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "5314073f9a8bfe3a241d1f508571194c05119059c14a156ea41e327d98bae6db652b2351a763e5564c6113827f37c07132d6a716233d1d94fe356eaa261e56d5"
+RPM_NAME = "ksystemlog-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "0cbba3cd263a31b5f47994fd6c570e9c87d1692dc40294aa7c739ce279af01d7736447eaefb4b3a58fda826d5e6f5ce39cc2ef7ed09a04cdadc5adb7f630547f"
 
 RPROVIDES:${PN} += "ksystemlog \
 ksystemlog5"

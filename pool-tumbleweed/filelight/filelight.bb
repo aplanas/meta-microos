@@ -3,10 +3,10 @@ DESCRIPTION = "Filelight creates an interactive visualization of disk usage \
 and the sizes of files and directories on the system."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "filelight-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "0748d45e6f1ce94c6d3849292e75607f31887d9b51c485dd91554359276223f1c950efc263eb7372b928586b4769e41db9dcef711aa060d802c9585a688e30ae"
+RPM_NAME = "filelight-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "45c997d2933bbf8b529cb4918abca9ff481846d01a1b9f8665ea413aec28565b32cb74076303c3309a13cafd5242e7a96008861cd5c13c36020ecdcaa4c978d1"
 
 RPROVIDES:${PN} += "config-filelight \
 filelight \

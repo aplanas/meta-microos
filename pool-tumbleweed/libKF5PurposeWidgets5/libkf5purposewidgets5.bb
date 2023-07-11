@@ -8,10 +8,10 @@ can receive all the information they need. \
 This package contains the library files of the package needed to use GUI widgets."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "libKF5PurposeWidgets5-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "cca6f6665098d8e40cb69b194761aa65ae0489c587ac2197b115b86728522914d7b6ed4c18d0affc782c79b561a68eafd42066ca1236e88bfcb29f57423553e6"
+RPM_NAME = "libKF5PurposeWidgets5-5.107.0-1.1.aarch64.rpm"
+RPM_HASH = "a113225f12b3f5bfaa1162b14e3d850f1a7b6368b6569ba145b9c11ad42bba39c1e5ce2fefdb2ed4a2469b6e9f828d77a92e39f59d3654b7c3826cbcfdd3ec92"
 
 RPROVIDES:${PN} += "libKF5PurposeWidgets.so.5 \
 libKF5PurposeWidgets5"

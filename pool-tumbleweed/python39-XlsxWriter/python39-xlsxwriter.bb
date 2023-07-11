@@ -7,8 +7,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "3.0.3"
 
-RPM_NAME = "python39-XlsxWriter-3.0.3-1.4.noarch.rpm"
-RPM_HASH = "858ed56db69aa495028628471044eb308dc508099d567e008448f38ccc386659ef579361a4dffcf9f90287841f1d2fb4f33b503d7709c3509aea362c71b6050a"
+RPM_NAME = "python39-XlsxWriter-3.0.3-1.6.noarch.rpm"
+RPM_HASH = "8ebfdd3721f1af4bb7a4aacf3079b1ac3ffadaeabf57f97fcbe3525e20e76e43b031d9c35a95e5dce61b0f7a2819f7ee17afc2382228c1fdabb135716112ac36"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-xlsxwriter \

@@ -9,8 +9,8 @@ LICENSE = "AGPL-3.0-only & BSD-2-Clause"
 
 PV = "1.69000"
 
-RPM_NAME = "perl-Prima-1.69000-1.1.aarch64.rpm"
-RPM_HASH = "dc44b5163e9add9a69b249530ab298c99c05951afc6ae50b5f00b4c2fc3271596215283daf95c0919c5d6c7392c7c1f0a9befe41d6fa0c48eb84042ee295cda9"
+RPM_NAME = "perl-Prima-1.69000-1.2.aarch64.rpm"
+RPM_HASH = "fd1750d1399b30ed7e34c533aa95b17712b5e2b590f25f84f8ab88306636170e434a8a90d643450b91cc0e807bab83920833c52dad1f7b674b336d547c838238"
 
 RPROVIDES:${PN} += "perl-Prima \
 perl-Prima--AbstractButton \
@@ -396,7 +396,7 @@ libgomp.so.1 \
 libjpeg.so.8 \
 libpng16.so.16 \
 libtiff.so.6 \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 xorg-x11"
 
 inherit rpm

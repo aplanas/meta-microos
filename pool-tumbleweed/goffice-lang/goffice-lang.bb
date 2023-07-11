@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
 PV = "0.10.55"
 
-RPM_NAME = "goffice-lang-0.10.55-1.3.noarch.rpm"
-RPM_HASH = "42d77313e78a739591f5d091c3196c442869222e6167d673dcb5759f6b61e0b025789eff73ae6eb26fafaab54bbda8ca2c48e1cead9a2ea30712399a640c3031"
+RPM_NAME = "goffice-lang-0.10.55-1.4.noarch.rpm"
+RPM_HASH = "30cd0faec9cbe973d98d74742859ae2392107c9d6589bf3cfbb84166c96210899cfb8ea10cc2d17abdbb455855a81ed72a3e0370814c3d820d85bd341c1dc1ac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "goffice-lang \

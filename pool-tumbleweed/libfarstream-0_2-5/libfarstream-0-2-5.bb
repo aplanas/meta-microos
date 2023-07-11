@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.2.9+5"
 
-RPM_NAME = "libfarstream-0_2-5-0.2.9+5-2.3.aarch64.rpm"
-RPM_HASH = "1393e0366d329fcb5750ec6417104dc859d07916177b9d85421dbd53fbb8a541e2e6df8e9aae5fb0b8cc398f660344851d2c39bc9d9c096f91fff1fd9a215df0"
+RPM_NAME = "libfarstream-0_2-5-0.2.9+5-2.4.aarch64.rpm"
+RPM_HASH = "ce9ac1e097839ef85d6770e6ecc93326624efc120ec90f59f0814010eae9187ad3ca3e3de3ed0276eb9f4ea09525c6dbe8213e1bf58e354ef8b011b412a55bf9"
 
 RPROVIDES:${PN} += "libfarstream-0-2-5 \
 libfarstream-0.2.so.5 \

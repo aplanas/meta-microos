@@ -10,14 +10,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.006"
 
-RPM_NAME = "perl-Data-Integer-0.006-1.20.noarch.rpm"
-RPM_HASH = "d3d4fadad7166fc3c7f8fcb52b28d904582a49da79edccb9550bfff4aaa6a89e21e8c8d9d3f95d89b650b3d0950399ee2d9f4524c285a42ca452fbe2a526cce8"
+RPM_NAME = "perl-Data-Integer-0.006-1.21.noarch.rpm"
+RPM_HASH = "6cf875f9e2a7283c99ab24fb9f1cb6ff50fccd41e9732250a574c307aa6a782ea2bdb6600df39f3c6033ff4f231a18c03cecde369e9c589df0ed65f947f4f8b4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Data--Integer \
 perl-Data-Integer"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-parent"
 
 inherit rpm

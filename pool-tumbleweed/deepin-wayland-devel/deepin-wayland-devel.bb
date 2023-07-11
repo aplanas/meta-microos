@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.0.0"
 
-RPM_NAME = "deepin-wayland-devel-1.0.0-1.11.aarch64.rpm"
-RPM_HASH = "6bef3378ef0277f747920599122e62aa8c57cf1d4f99fcf295b4f96ca80bde45ae7c022e6461d255c281c68fb1580fb4c89da425f4ae884050b4f67586ad6721"
+RPM_NAME = "deepin-wayland-devel-1.0.0-1.12.aarch64.rpm"
+RPM_HASH = "6614f235159317482bb3d855d682170d25845cb28cf312fd71bf41aaab178921bb1c1de06ea3fd8995a242dd553b0dfe4278db10b4a18c7a950bd7bc53cfaafc"
 
 RPROVIDES:${PN} += "deepin-wayland-devel \
 pkgconfig-dde-wayland-client \

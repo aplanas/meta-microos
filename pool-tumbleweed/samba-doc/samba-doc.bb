@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains all the Samba documentation as it is not pa
 the man pages."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.18.1+git.298.4ccf830b2a4"
+PV = "4.18.3+git.303.c08b73d523c"
 
-RPM_NAME = "samba-doc-4.18.1+git.298.4ccf830b2a4-1.1.noarch.rpm"
-RPM_HASH = "8bd1036449cccadbbbd288c6437b753a4de5ad3d576035b8f6bc1f20752eec8cb164749a715cdc441f62251012f5be1c3fce9a241c904b9ebc1570b80a0b7fe6"
+RPM_NAME = "samba-doc-4.18.3+git.303.c08b73d523c-1.2.noarch.rpm"
+RPM_HASH = "85544797ed9ff82d0739908eaeacf54dd6d0a3f95bcafa1c15e79f0d788c4228939cfd2d26f6dd39bcf6cbdc10cb5c997827c948d2dac0a142929369b3fa50b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "samba-doc"

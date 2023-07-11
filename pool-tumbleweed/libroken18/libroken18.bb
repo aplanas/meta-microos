@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "7.8.0"
 
-RPM_NAME = "libroken18-7.8.0-3.1.aarch64.rpm"
-RPM_HASH = "d3313d57b4e1a8acc9c0e265985cc135756de846db1281f894c179c237e0114db99489e9faee0fa7549bfd2b39f1aaf97bfc6fb78306cbd745399cc2e7b935fd"
+RPM_NAME = "libroken18-7.8.0-3.2.aarch64.rpm"
+RPM_HASH = "1dbcbe241b354e9ea54613ed0533050069dc65cb272516722ba047d4301e377f0cf54541f1b0981ea4baff1e8d884b8adbd0690357a8b689dceb9ef68749d7fd"
 
 RPROVIDES:${PN} += "libroken.so.18 \
 libroken18"

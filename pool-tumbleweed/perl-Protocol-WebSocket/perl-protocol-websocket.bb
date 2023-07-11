@@ -20,8 +20,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.26"
 
-RPM_NAME = "perl-Protocol-WebSocket-0.26-1.15.noarch.rpm"
-RPM_HASH = "c0b1d229998412510a936e622540a148d7e382af16d3d65f7e43146c510dfd5e9ff4b66646fcbd9542d5411d651a77cbf8734667044f48a995a1cf510e92796b"
+RPM_NAME = "perl-Protocol-WebSocket-0.26-1.16.noarch.rpm"
+RPM_HASH = "e7e7610acd447ac932aee814aa3b620b8386897c37816ccc9fec1714276ec5bba703d79384b057ed3c77c996cb32955ca3e48b04a6ee7b446297e999ceb0f453"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Protocol--WebSocket \
@@ -40,7 +40,7 @@ perl-Protocol--WebSocket--Stateful \
 perl-Protocol--WebSocket--URL \
 perl-Protocol-WebSocket"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Digest--SHA"
 
 inherit rpm

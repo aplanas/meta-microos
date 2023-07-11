@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the KDE game Kubrick which is based on Rubi
 Cube."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kubrick-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "64494010d2e8eb67f3a502aa8a395504db3ea311de92f6a214ae749b25f8431081746e4680ef56caf3c8aebd5befd26089afafa1daeeb1a086181c622223df10"
+RPM_NAME = "kubrick-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "2dacbe1b1e428d49587bd9b0432e30df4a102a94d66a449a8d7c6c296d453d0c66fc344c9c97bb3e024f0dd574deea78b0eab547c483bbeacb0bc95869341800"
 
 RPROVIDES:${PN} += "kubrick \
 kubrick5"

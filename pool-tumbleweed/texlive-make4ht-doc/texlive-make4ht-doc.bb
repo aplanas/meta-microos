@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-make4ht"
 DESCRIPTION = "This package includes the documentation for texlive-make4ht"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3msvn66130"
+PV = "2023.208.0.0.3msvn66130"
 
-RPM_NAME = "texlive-make4ht-doc-2023.201.0.0.3msvn66130-52.1.noarch.rpm"
-RPM_HASH = "66083fc632c9fa927ed69d1415543786e6fb3f639cd6b0af416a96ea14e038b1c53a6349e35c74e8fe889b23386840b8fa3f33cf63526027e1a72aa9200409d7"
+RPM_NAME = "texlive-make4ht-doc-2023.208.0.0.3msvn66130-53.1.noarch.rpm"
+RPM_HASH = "adc451f1887d0d767291e2d641edfad999c37914194c7918821ade2da4220c02b5ca83caa359507f4e13bda35af04147ab465a2503c68076eeffc78460c86b1b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-make4ht-doc"

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & CPL-1.0"
 
 PV = "1.0.4"
 
-RPM_NAME = "cmpi-bindings-perl-1.0.4-1.2.aarch64.rpm"
-RPM_HASH = "47ed1d6134e528a15b3867e5cc20bdc73c3dd183a1419f0ab37ceb37c5c70eef730dc0689c589faf0ed79a02c5d9b850b7c1d83302c2c3d977a6e21a58b4f8ae"
+RPM_NAME = "cmpi-bindings-perl-1.0.4-1.4.aarch64.rpm"
+RPM_HASH = "8261117bbbd64e47383adeb4468e48976e4b9732af5fa4bd02a9eb076cf48d39f5ce92b6bfafac81f1f06ed51907242b63b347f74685130b8c0b869a36c45873"
 
 RPROVIDES:${PN} += "cmpi-bindings \
 cmpi-bindings-perl \

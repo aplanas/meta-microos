@@ -9,8 +9,8 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20221025"
 
-RPM_NAME = "libvslvm-devel-20221025-3.7.aarch64.rpm"
-RPM_HASH = "ba75a2ad1a0facebc3956bca0ba488f187d3f3b05c6bfa49bb5805b675c9ad911d459215004ea0fa4aa897b1cdabc77167f33202c1fd29a56f4ecc2d71444252"
+RPM_NAME = "libvslvm-devel-20221025-3.9.aarch64.rpm"
+RPM_HASH = "ee54e9b7bd9da25e9be9ffe577180bc085eb76a9113c267c1b857027f44e43f16ede5ae68d491fd570b9e6523a1afc298286c8bf85cf085d7ba2cc9b0ec9af53"
 
 RPROVIDES:${PN} += "libvslvm-devel \
 pkgconfig-libvslvm"

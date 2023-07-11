@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.1"
 
-RPM_NAME = "python39-Protego-0.2.1-2.3.noarch.rpm"
-RPM_HASH = "921fb01f0c0702757cc6cfeb27d19c4a94a3c6587ed48e7328ba528ec8f2dcb2f16589ce11123b3d38646526b1ad77e4d14b388e03fe1365ebac93033b0891a8"
+RPM_NAME = "python39-Protego-0.2.1-2.5.noarch.rpm"
+RPM_HASH = "57bb9a8857ba3826e2944c3e5e6428854574a8d4ea77b29858d834e4dea84039d54a2a5e33212aab904068d45fe37078e295b6ea6f568c403eaa1874646f1d3e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-protego \

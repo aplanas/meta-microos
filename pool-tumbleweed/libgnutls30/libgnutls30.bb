@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.8.0"
 
-RPM_NAME = "libgnutls30-3.8.0-4.1.aarch64.rpm"
-RPM_HASH = "0a5be643d8eda09bfb2b9413aa2fe285a5e35b39b3fa296403146194b1c37a1e9cea441940621ed1c940f2b182677890738257b2771917cb3fac7ae0efbf289d"
+RPM_NAME = "libgnutls30-3.8.0-4.2.aarch64.rpm"
+RPM_HASH = "ad8c274d99bc251d6ff6000ec2ba4fecdfe6eaeebcc276b61f9ac658929242f07d070b320bb97c4229a84f02fe1063cbdc000e39cfa0b1dc14c4d85eb6b845f5"
 
 RPROVIDES:${PN} += "libgnutls.so.30 \
 libgnutls30 \

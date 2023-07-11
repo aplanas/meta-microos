@@ -8,10 +8,10 @@ This package does not contain any checks. For this, additional \
 plugins for different products are needed."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.8"
+PV = "1.9"
 
-RPM_NAME = "health-checker-1.8-1.1.noarch.rpm"
-RPM_HASH = "5605bd24b2cfbaeda21afa509eb538a8b9b95113bcec10cf50e214ae1229a45b50ed742ead91477d5be9d219e0eec4e495cfa25541df214d13bfaecc0cc1999c"
+RPM_NAME = "health-checker-1.9-1.1.noarch.rpm"
+RPM_HASH = "8a4590721c2250082fd8c72719c2b767bcea7073d966c811f91b63dff8e31f743f89be15b8026f09c0fb6ee0c3b453a3d8f54b2f3b534a11d1cc2b70280ad30b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "health-checker"

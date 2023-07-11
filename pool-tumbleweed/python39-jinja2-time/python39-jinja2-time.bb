@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.2.0"
 
-RPM_NAME = "python39-jinja2-time-0.2.0-4.1.noarch.rpm"
-RPM_HASH = "b9891d760cd27abf88c3b3ab4dac6bcabb153b16bd52f4a5c0a2949b1eda4f377324ac3b6d549405b1ff0dbd88ff4e34422ed0d590c44185d9ce2885de491f80"
+RPM_NAME = "python39-jinja2-time-0.2.0-4.3.noarch.rpm"
+RPM_HASH = "c8d55dcbd4b1289314c3168fc92bfa6b25f20fddb853963d72f5b1572337737445cc3033f099b52d91b1f7ca7696c8569935c46d337de037790217fbe60a8ed9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-jinja2-time \

@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.14"
 
-RPM_NAME = "python310-django-mptt-0.14-1.4.noarch.rpm"
-RPM_HASH = "7ee67016e9e22af657eda3ef4600e451d61b94b1924ea72ac95c7aa624a22ced7424fbf719a008fe806ea8e631e08c6d7595407584cbda3dd1c5f3cbec949b22"
+RPM_NAME = "python310-django-mptt-0.14-1.6.noarch.rpm"
+RPM_HASH = "643e2f37aba0e74906c64163875d56d81d0c8fcd2a7f51ddee3a2f11ce2e4b6eb674a3ad9f7d233a40fba875c37b355a39f7ed71d541038fb8ccaa2110c26fba"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-django-mptt \
-python3.10dist-django-mptt \
+RPROVIDES:${PN} += "python3.10dist-django-mptt \
 python310-django-mptt \
 python3dist-django-mptt"
 

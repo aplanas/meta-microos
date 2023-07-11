@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.76.1"
 
-RPM_NAME = "libgirepository-1_0-1-1.76.1-2.1.aarch64.rpm"
-RPM_HASH = "fe8698ebd47885c472b79efe092b29550db31f4fbeb5410befb33e9a80d414eccbee3a575478fd98867cd52eb2b4d0ae36980f95dc6da31629bfb2274be6f760"
+RPM_NAME = "libgirepository-1_0-1-1.76.1-2.2.aarch64.rpm"
+RPM_HASH = "bc5f7fab197d286ce53072b898166deb3a2d472df1b419d2e625aa6571b021e12ac588c7b075685d26a1c37818baf3c5600e657d6dd1ffa737ad380982bc9fca"
 
 RPROVIDES:${PN} += "libgirepository-1-0-1 \
 libgirepository-1.0.so.1"

@@ -3,12 +3,12 @@ DESCRIPTION = "This package provides the Haskell indexed-profunctors library dev
 files."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.1.1"
+PV = "0.1.1.1"
 
-RPM_NAME = "ghc-indexed-profunctors-devel-0.1.1-2.2.aarch64.rpm"
-RPM_HASH = "8df39ef387e49b2da361f10407aab5ed70c4a9ec7542e8bdb1775f606acef05c3e3254a7680867df2aad41f77dc65dc962d2041f8eefc556335a62b8a87fa8e4"
+RPM_NAME = "ghc-indexed-profunctors-devel-0.1.1.1-1.1.aarch64.rpm"
+RPM_HASH = "798bb7f2423fea954c775e2a4f0187e2bec63beb55985fc51b2422f66be09d2bb48faf6c8ef9f21d338eb7a9dd7be12edddbc2de0fc83df27b89014e71a3f2e2"
 
-RPROVIDES:${PN} += "ghc-devel-indexed-profunctors-0.1.1-8slbuH4IUUg1HsCF6rf8GV \
+RPROVIDES:${PN} += "ghc-devel-indexed-profunctors-0.1.1.1-6bLFHbFbToS4H5mdmvIfka \
 ghc-indexed-profunctors-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

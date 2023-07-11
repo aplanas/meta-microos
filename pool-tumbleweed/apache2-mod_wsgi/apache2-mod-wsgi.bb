@@ -8,13 +8,13 @@ LICENSE = "Apache-2.0"
 
 PV = "4.9.4"
 
-RPM_NAME = "apache2-mod_wsgi-4.9.4-1.3.aarch64.rpm"
-RPM_HASH = "9178533738631aa16c7a1e395175055724455f70a3aef6b4d17e6f53490c5da10d251165818c64696185e0ac19bef05ea298a67502838ad5ccbbd02ee70c5ada"
+RPM_NAME = "apache2-mod_wsgi-4.9.4-1.5.aarch64.rpm"
+RPM_HASH = "cda95dcf503c480b184acd9b52c9fe04bed99b410f3a67de43aa1319df3f65486cc094160eef41e47aa131e93921a7f86e0bf542a00eb61a75fb475351794af8"
 
 RPROVIDES:${PN} += "apache2-mod-wsgi \
 apache2-mod-wsgi-python3 \
 mod-wsgi \
-python3.10dist-mod-wsgi \
+python3.11dist-mod-wsgi \
 python3dist-mod-wsgi"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
@@ -23,7 +23,7 @@ apache-mmn-20120211 \
 apache2 \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 python-abi \
 suse-maintenance-mmn-0"
 

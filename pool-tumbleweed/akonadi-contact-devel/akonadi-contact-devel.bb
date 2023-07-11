@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains all necessary include files and libraries n
 to develop KDE PIM applications."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "akonadi-contact-devel-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "83e610676ce455eaef6dcb96436ea8ac93377444783dcf9e3e90b6d413f97ceb9d3b1f4513d9632350b1f6526c3e1ee476478f7f6de8c77609962047f9e8fb8d"
+RPM_NAME = "akonadi-contact-devel-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "fc0352edcb95da6f3d7df571492f38b1bc4ac2c242caeb3734811dcc066969f1c3a9d5c2a52198ec0eda78becda4a2b3d1ae2b26678339f4841403bbe7d726db"
 
 RPROVIDES:${PN} += "akonadi-contact-devel \
 akonadi-contacts-devel \

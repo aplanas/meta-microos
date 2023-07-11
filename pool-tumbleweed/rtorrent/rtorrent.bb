@@ -7,8 +7,8 @@ LICENSE = "SUSE-GPL-2.0+-with-openssl-exception"
 
 PV = "0.9.8"
 
-RPM_NAME = "rtorrent-0.9.8-6.4.aarch64.rpm"
-RPM_HASH = "11e75defe3c696a9015b7fe45133e6f5e3909fcfc81409ac6b0e7d7b7d792a1a98de473adbbd88269b821f0c7678569155869022396676a0913f6a0a4f0e0f13"
+RPM_NAME = "rtorrent-0.9.8-6.5.aarch64.rpm"
+RPM_HASH = "9cc98aa88dc522b2fb4069f39cf679f630af78660e4f73cd73c6b5c036fd18a958d3bdcebaa9806286eb912b7d2c76cc302f08af70ad3035f7025805beaf4e23"
 
 RPROVIDES:${PN} += "rtorrent"
 

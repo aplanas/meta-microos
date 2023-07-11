@@ -11,8 +11,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.1.1"
 
-RPM_NAME = "extractpdfmark-1.1.1-1.3.aarch64.rpm"
-RPM_HASH = "6566c830f9d1a53034832b9bccd342127672e1d36e753cd0b3391ad018524ba9ac1af86ba9bea7e7e1ab9265dad418d9107fe1c2341464f563ad28af113cbbe7"
+RPM_NAME = "extractpdfmark-1.1.1-1.4.aarch64.rpm"
+RPM_HASH = "cff392c30cec930cd06fe1c8e33b929a2b7c6396aaa6050c70bb762456ebbb37a56b0153a66eadfafd1bef5cac4bae8c002cb7f9d3ecd86dc1527dd1b6475f10"
 
 RPROVIDES:${PN} += "extractpdfmark"
 

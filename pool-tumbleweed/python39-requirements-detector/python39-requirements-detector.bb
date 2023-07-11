@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "0.7"
 
-RPM_NAME = "python39-requirements-detector-0.7-2.11.noarch.rpm"
-RPM_HASH = "ecc9d2040019d4a94c2a0d57a1ff82d72f13abb5f06e25d089ca819dfaf7ed2894b78a2f92a2451e2b9b35c8e2bf397b5b5fb03a178cd53cda1946e97cf362ff"
+RPM_NAME = "python39-requirements-detector-0.7-2.13.noarch.rpm"
+RPM_HASH = "efddbf44a21761d7e97cdcd05f4ac283ff8221621b8a542a9bc98ca351e0fa664dae59c2a753518155dd8baf0d6aab8b8a6d7018527e652d1d8dc5c853d9429c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-requirements-detector \

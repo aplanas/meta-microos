@@ -12,12 +12,12 @@ LICENSE = "Artistic-1.0"
 
 PV = "0.01"
 
-RPM_NAME = "perl-File-Basename-Object-0.01-64.29.aarch64.rpm"
-RPM_HASH = "c915a88caae33e0550a0089b30077f495a7fe5a29a54ca3a363ba1eccc92259b1fdfab95960c9327d6325bb410dd87c24a6263949712b7fc4cd21bd3de6f6f2d"
+RPM_NAME = "perl-File-Basename-Object-0.01-64.30.aarch64.rpm"
+RPM_HASH = "59f9ead9d1872d426fdd31dc3f7ed7d1c0f91112ed8f81f528ede93959e85323b6239ca0d26a3cd7bc48b1da20c534ae64fae52b021901ff889cbee4b0ef122f"
 
 RPROVIDES:${PN} += "perl-File--Basename--Object \
 perl-File-Basename-Object"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

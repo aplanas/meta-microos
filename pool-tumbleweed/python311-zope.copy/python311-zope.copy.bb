@@ -6,11 +6,12 @@ LICENSE = "ZPL-2.1"
 
 PV = "4.3"
 
-RPM_NAME = "python311-zope.copy-4.3-1.3.noarch.rpm"
-RPM_HASH = "1f8bad4c0ce6ed2214943461996173c1b29744a225fb3d0f082eaaa2bd6dfe4002e556e816dea653ca8c303853e262da84fab00ce834610c2e8cea4245ba1d3e"
+RPM_NAME = "python311-zope.copy-4.3-2.2.noarch.rpm"
+RPM_HASH = "1267660b513da5d6a264bb43758ec497426df11f5df4dbaa6f3999fa037428000b845a2ff899017f1bdd1a6945f1422f44ecedd779031ab05943110a37a132d3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-zope.copy \
+RPROVIDES:${PN} += "python3-zope.copy \
+python3.11dist-zope.copy \
 python311-zope.copy \
 python3dist-zope.copy"
 

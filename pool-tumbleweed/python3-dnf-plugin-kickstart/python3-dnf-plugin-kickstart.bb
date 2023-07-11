@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.0.17"
 
-RPM_NAME = "python3-dnf-plugin-kickstart-4.0.17-2.1.noarch.rpm"
-RPM_HASH = "cd21a6742096ff6489729c7ae321b224fdb868759000e4ca54c1391889ee87a5adb2d21354ff1ff664cf12a6497279c97e468ce113b798e0bf4cb39642cc5b40"
+RPM_NAME = "python3-dnf-plugin-kickstart-4.0.17-2.2.noarch.rpm"
+RPM_HASH = "9b1672c0defc2a7ef19c187ad9ef06eb9b7049f295650162e6ac5f71a077cc387970e9f826375080e5b84bad8b421713d6894d0b9d4e608007f4225f3a1ea16d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dnf-command-kickstart \

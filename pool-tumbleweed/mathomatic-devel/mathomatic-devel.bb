@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "16.0.5"
 
-RPM_NAME = "mathomatic-devel-16.0.5-1.13.aarch64.rpm"
-RPM_HASH = "27f5b562b3107289952a9f10da46bd68aae66e2fcc3532990118b08c636b1d558575a7e482aeae34b4ea1ceb517af99599ee9c0dbe6e699c3023fa6208439bea"
+RPM_NAME = "mathomatic-devel-16.0.5-1.14.aarch64.rpm"
+RPM_HASH = "84cc9ea6d4cc9b3a2c70464171535eac45986948c80382bc93a62e00fc60ca2f24877de295535e61bc77df53c396490a8b39a206590a7912e328d98b7efad261"
 
 RPROVIDES:${PN} += "mathomatic-devel"
 

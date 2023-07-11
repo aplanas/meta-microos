@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.12.15"
 
-RPM_NAME = "rsibreak-lang-0.12.15-1.4.noarch.rpm"
-RPM_HASH = "622180c3140674633b7d6d7807e8e793279dcecc9a6d356ff12ea5fa8e138cbf8a14c78017a94f056e880716e4ef59c8557afc042c7222ed8f10638bee491e13"
+RPM_NAME = "rsibreak-lang-0.12.15-1.5.noarch.rpm"
+RPM_HASH = "fee9825b09c696e185573d01590a420522f2d623221b705c1b82df88049f44160cb884fa16baa2811a9454ff488a2335ee301af7780e88f79370eb3b7515e5af"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-rsibreak-ar \

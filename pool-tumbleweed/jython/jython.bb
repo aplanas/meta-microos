@@ -18,11 +18,10 @@ Java allows developers to freely mix the two languages both during \
 development and in shipping products."
 LICENSE = "Apache-2.0 & Python-2.0"
 
-PV = "2.2.1"
+PV = "2.7.3"
 
-RPM_NAME = "jython-2.2.1-25.7.noarch.rpm"
-RPM_HASH = "3e51f1bc13b7f4e1d393e6f6cdfeeecc0c5df70aea615125f239eef8265eae61bb450adb9f6526b79297eb07c4e0c7d6d07b0781ee67e863b8edc358ed5db922"
-REPO_ARCH = "noarch"
+RPM_NAME = "jython-2.7.3-1.1.aarch64.rpm"
+RPM_HASH = "536f9b6a5bd55f2356bf29f51f5090f5e577eb8fe893ead65b1ebd33a4bbee7a35d2d4a9663c07983856d9fbf68c6fb0015b4a61c48632fbcff9b4e2bea34e7c"
 
 RPROVIDES:${PN} += "jython \
 mvn-jython-jython \
@@ -32,14 +31,24 @@ mvn-org.python-jython-pom- \
 mvn-org.python-jython-standalone \
 mvn-org.python-jython-standalone-pom-"
 
-RDEPENDS:${PN} += "jakarta-oro \
-java \
+RDEPENDS:${PN} += "/usr/bin/bash \
+antlr3-java \
+antlr3-tool \
+apache-commons-compress \
+glassfish-servlet-api \
+guava \
+jansi \
+jarjar \
 java-headless \
 javapackages-filesystem \
-javapackages-local \
-jline1 \
-libreadline-java \
-python3 \
-servletapi5"
+jffi \
+jline \
+jnr-constants \
+jnr-ffi \
+jnr-posix \
+junit \
+lucene-core \
+objectweb-asm \
+stringtemplate4"
 
 inherit rpm

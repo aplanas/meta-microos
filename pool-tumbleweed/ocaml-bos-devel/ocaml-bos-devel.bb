@@ -5,8 +5,8 @@ LICENSE = "ISC"
 
 PV = "0.2.1"
 
-RPM_NAME = "ocaml-bos-devel-0.2.1-1.1.aarch64.rpm"
-RPM_HASH = "45001239e54d48702c1945c9df517d8266c4600213f0bc9d2f61c3981d265caf7dce49a766a84254bb7c8425be768e09277edf11a11ccb9d1be5ee125750c3a8"
+RPM_NAME = "ocaml-bos-devel-0.2.1-1.2.aarch64.rpm"
+RPM_HASH = "5d11200b264a914dbff088f834a3963821937701b8b8964f8f890e9ab9fe7d4eacd9b0f412d10f87b714bd8381317747ed6d319febafcada7ac62dbc8caff943"
 
 RPROVIDES:${PN} += "ocaml-Bos \
 ocaml-Bos-base \

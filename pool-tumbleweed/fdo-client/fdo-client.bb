@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.1.4+git20221209.c8ef757"
 
-RPM_NAME = "fdo-client-1.1.4+git20221209.c8ef757-1.3.aarch64.rpm"
-RPM_HASH = "a3858de320dd0e0f5703958c8530869996bef1dfb3cee1a1c82aa7fb83edf7662f7f5c03bebb87b7aac5d1eebe2f56eb0b76b87c086d057d0f3fff79fd7c87d1"
+RPM_NAME = "fdo-client-1.1.4+git20221209.c8ef757-1.5.aarch64.rpm"
+RPM_HASH = "2e353536258b7bf5152a8b2237aa36106fd24bd744b49339cb4c5f3d6e0c9dac55f77795d60ccfff756a98c6bb37433a047ab1af0e7289a660bceb05666e2902"
 
 RPROVIDES:${PN} += "fdo-client"
 

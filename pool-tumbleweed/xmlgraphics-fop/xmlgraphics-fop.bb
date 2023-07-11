@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.8"
 
-RPM_NAME = "xmlgraphics-fop-2.8-1.2.noarch.rpm"
-RPM_HASH = "9c955d67649e74f9962a14fb1cd9f28ca08f8113a5f74f2a62f324962aa33aca7f2e0ccaa382d3c481a42b552190bdd1d3d667ba4231cefce0af77cd1e6491b4"
+RPM_NAME = "xmlgraphics-fop-2.8-1.3.noarch.rpm"
+RPM_HASH = "ffaea4fee841d92198cc8041ade6b306a778efdfbae5babc61a1f5a4218fc0f2d08d34dcd07acebe8c5664682e6f85f85fa8ddf60858230aacc4d2e9ad65d375"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-xmlgraphics-fop \

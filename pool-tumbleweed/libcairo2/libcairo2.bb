@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later | MPL-1.1"
 
 PV = "1.17.8"
 
-RPM_NAME = "libcairo2-1.17.8-1.1.aarch64.rpm"
-RPM_HASH = "9ff031b7833a914ef41fd72b42e179bea5e262d6b8972ac4c4315139bdf9f1e0c437db113a54f5f10bb1b2be99ee22bc33edc1b1aa09c52626b98f86c58dfe90"
+RPM_NAME = "libcairo2-1.17.8-1.2.aarch64.rpm"
+RPM_HASH = "c5d18cb806ea09d57a15d0def3fbc57da1a861437aae27265c30f1fcac7709eccad0b6a2d4f6f7d5cbae6552d93403815b2067acff9683628d12fd1be5e0a4ae"
 
 RPROVIDES:${PN} += "cairo \
 libcairo.so.2 \

@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.4.3.2"
 
-RPM_NAME = "python39-jsonrpclib-pelix-0.4.3.2-1.3.noarch.rpm"
-RPM_HASH = "136a511696b85ed2ae0aee39804778b9e2cb557d0da6d8e0755dabeb459863f3a7d1c43b0d40b2aa55357e5d02404100596ab692ef1836084c63b0a08037b460"
+RPM_NAME = "python39-jsonrpclib-pelix-0.4.3.2-1.4.noarch.rpm"
+RPM_HASH = "3847aaedb1642f720f9fe8ac98c668797e1bc7ab53456b8a56686772c45414393f9b7e9ab2ef9a83dc4a4a0bcd47c56736d652a4d4cae872bc59e3c5828c2ceb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-jsonrpclib-pelix \

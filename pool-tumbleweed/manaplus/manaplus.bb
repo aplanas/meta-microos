@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.1.3.17"
 
-RPM_NAME = "manaplus-2.1.3.17-3.1.aarch64.rpm"
-RPM_HASH = "74ee114e32cfe346322044e9a825fb6db336b97dbd97dba1064d2397ca6ed62ed6599fdd71fa1e4206b42ca30d6d97efd7b75ebf3dae75afadbef782bbe9237a"
+RPM_NAME = "manaplus-2.1.3.17-3.2.aarch64.rpm"
+RPM_HASH = "8ede20ef30ded934fcd0e57565e79e5cebb4d6fd2d267d5525f38d5207d8b1be1f29b5a8411d9b461dcabcd4f3f7a954f613da986d3097ec896e59710412d9c8"
 
 RPROVIDES:${PN} += "evolonline-client \
 manaplus \

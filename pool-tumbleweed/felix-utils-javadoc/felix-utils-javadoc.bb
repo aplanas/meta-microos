@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.11.4"
 
-RPM_NAME = "felix-utils-javadoc-1.11.4-1.12.noarch.rpm"
-RPM_HASH = "81431b13ce491397ba6156a60a9343a1651983c5af36a032a45e379e4e6675c8ed0fc54ce5b2a8930f46add109d608ebe4cd791863ec5ee6bc7bc0c5f2f514fb"
+RPM_NAME = "felix-utils-javadoc-1.11.4-1.13.noarch.rpm"
+RPM_HASH = "c4b83767f6d75f2ec836067330f2793a6211677fb71454973ee277f7b6c1097225f3da282716046029105bbb8a5447a541cb39abdd12a6fade985a54102c3b0c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "felix-utils-javadoc"

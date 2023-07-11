@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 | EPL-1.0"
 
 PV = "1.2"
 
-RPM_NAME = "jetty-artifact-remote-resources-1.2-2.10.noarch.rpm"
-RPM_HASH = "3791ae1bb37acdaa7442603eeadaee03974cc88386b1185e5656da4d7ccf29a0ba9528c12974448cc501726151035369501b2b1a19a19d7012891902c8619bc5"
+RPM_NAME = "jetty-artifact-remote-resources-1.2-2.11.noarch.rpm"
+RPM_HASH = "02c6b4df341d689c9a766919f05c46d80e5df69eb078868d0ee2f5e14638964c5fb0f6b20a1150cf19ffff4411fced160b71bb5e01e45000c7981793cb87a0c5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jetty-artifact-remote-resources \

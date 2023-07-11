@@ -15,8 +15,8 @@ LICENSE = "Artistic-2.0"
 
 PV = "4.57"
 
-RPM_NAME = "perl-CGI-4.57-1.1.noarch.rpm"
-RPM_HASH = "9bbbaac6d808ba6c4571b28d1d567859bb867da392efe71806787707ed1293c715f9888be971461103bc474c16eeb86d7367ff48d0086cbfea2a07bf58f60d77"
+RPM_NAME = "perl-CGI-4.57-1.2.noarch.rpm"
+RPM_HASH = "27354320662bda8b1e9f18b4b7cc090bfe72d34080720c7de01f40c37d9159da9b220365d538d4c4e87a86560724a06fe3972c68a8b0f9afde65131ff18469c0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-CGI \
@@ -30,7 +30,7 @@ perl-CGI--Push \
 perl-CGI--Util \
 perl-Fh"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-File--Temp \
 perl-HTML--Entities \
 perl-parent"

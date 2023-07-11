@@ -8,8 +8,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.06"
 
-RPM_NAME = "perl-JSON-RPC-1.06-2.23.noarch.rpm"
-RPM_HASH = "e00ffe8d09a6c5ea592062908c3d9ce62f6db0527f5440f451391696901bd63fd391f2ef58442d3e6043285bd6f9f6445353b5401bd087b4663b22523965b4f3"
+RPM_NAME = "perl-JSON-RPC-1.06-2.24.noarch.rpm"
+RPM_HASH = "e2b0021124bd83990035ea44a4fc0a5f781b2ae379d045a6dac1923a2fd3a08e9c6df273ebe35f6cecb03f38d563777ec5f80cd5b069c79cbb400d0cc07e1165"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-JSON--RPC \
@@ -30,7 +30,7 @@ perl-JSON--RPC--Procedure \
 perl-JSON--RPC--Test \
 perl-JSON-RPC"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-CGI \
 perl-Class--Accessor--Lite \
 perl-HTTP--Request \

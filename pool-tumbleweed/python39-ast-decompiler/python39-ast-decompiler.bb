@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.7.0"
 
-RPM_NAME = "python39-ast-decompiler-0.7.0-1.4.noarch.rpm"
-RPM_HASH = "a9b1c2b181fa1566160ee2b4efd8d25d436463dff4a08aab58f610ae37a9cb72a90570791abdc87e86fffeba34294629e07f48aab485489417278f625682bccc"
+RPM_NAME = "python39-ast-decompiler-0.7.0-1.6.noarch.rpm"
+RPM_HASH = "8e9dbf06f258ac8043a0478a61174f958b1e02805c18e18c6ca1d21d580b67037905211cd2211afaa7f76606d55862359fc43ecc1bad7b797ec110f6b1c81835"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-ast-decompiler \

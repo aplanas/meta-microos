@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "2.2.1"
 
-RPM_NAME = "python310-pytest-services-2.2.1-2.6.noarch.rpm"
-RPM_HASH = "9577a549c3f0dd1581d627eccaf584fb2d8c27196043d42b5e32aba543c26a30a0b432f161f3d27810d3ff221526d56ac14ec3632200eb08b12c534792f3b400"
+RPM_NAME = "python310-pytest-services-2.2.1-3.3.noarch.rpm"
+RPM_HASH = "4ca124374c88f2c95d5184c076af63fbd116cd188599451109e84c0867ce2ac0bdeceb18d105ddee222265952872eb3912610e00eac5edb1e9e0fc80788d5885"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pytest-services \
-python3.10dist-pytest-services \
+RPROVIDES:${PN} += "python3.10dist-pytest-services \
 python310-pytest-services \
 python3dist-pytest-services"
 

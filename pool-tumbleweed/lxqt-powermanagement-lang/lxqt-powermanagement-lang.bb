@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.3.0"
 
-RPM_NAME = "lxqt-powermanagement-lang-1.3.0-1.3.noarch.rpm"
-RPM_HASH = "0ea173a5c027f21da4051f22279a11d131e35a59018a63df6da0f66f6d14c9defc6c2603d915ea25f4e881d1d288ddf366a6eaa38bc63785782cb652ad9bf168"
+RPM_NAME = "lxqt-powermanagement-lang-1.3.0-1.4.noarch.rpm"
+RPM_HASH = "5f09ba9f1a75c8fd707ac3d4141e561a58249d536be39e9b12119d8fde4cec76852cc53c6ec2d353d67327c884412d31efce1ef2577fdac1be86f38a67971da3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lxqt-powermanagement-lang \

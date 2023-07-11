@@ -3,10 +3,10 @@ DESCRIPTION = "Telepathy-auth-handler provides UI/KWallet integration for passwo
 SSL errors on account connect."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "ktp-auth-handler-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "0aa767f4d77ce432e21d9531cb0378e7fa58692adc81564ef07180b7e13f0aad3ab4da9aa96b89d4ae7ecc63f5d8dd07910d4c8df34835151cbd924be3e4d6fb"
+RPM_NAME = "ktp-auth-handler-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "364a4fa675f4054228338ffe26d8521efd00399ef506bebaf7b111e75e501f8a4d0db6ea5689bed270be965d0ee029f4068b18a2dc86bd4e50fadb38d1273367"
 
 RPROVIDES:${PN} += "ktp-auth-handler \
 ktp-auth-handler5"

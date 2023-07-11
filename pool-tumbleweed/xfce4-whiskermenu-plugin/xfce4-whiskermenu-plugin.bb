@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.7.3"
 
-RPM_NAME = "xfce4-whiskermenu-plugin-2.7.3-1.1.aarch64.rpm"
-RPM_HASH = "5b1f61866e41b896ed9338de785b6e9276d8baeaa618c667fdb43e5f46a15b59a9c961e11b5d1f5ba9cd47be2c34749c9e7f0f4d3a648b769a0e5e25126d6a09"
+RPM_NAME = "xfce4-whiskermenu-plugin-2.7.3-1.2.aarch64.rpm"
+RPM_HASH = "df30e59a59119b145fddfda030888435037037337baa9c5aed436286710322fe617928a89c86495e0e72fdaf52e65a5484ed13454662796ea73f63f319dba132"
 
 RPROVIDES:${PN} += "libwhiskermenu.so \
 xfce4-panel-plugin-whiskermenu \

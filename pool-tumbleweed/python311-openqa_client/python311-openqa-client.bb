@@ -4,11 +4,12 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.2.1"
 
-RPM_NAME = "python311-openqa_client-4.2.1-1.3.noarch.rpm"
-RPM_HASH = "30cc0b750844071b2a135e8f6c7892b6de04c13a883d693a30c409613184b2ac6c8d40408e34d3e4747dd773e1cdccceb6e35918c857c20a2a239c1db90e9d98"
+RPM_NAME = "python311-openqa_client-4.2.1-1.5.noarch.rpm"
+RPM_HASH = "356074d88875ee68860697862c4db48666feaf530f1800689302a4470c7ad2e2cd76012de49fafc2bcc4e32fa2c8e40c3a21924499db5fc3efe849aaeac6a693"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-openqa-client \
+RPROVIDES:${PN} += "python3-openqa-client \
+python3.11dist-openqa-client \
 python311-openqa-client \
 python3dist-openqa-client"
 

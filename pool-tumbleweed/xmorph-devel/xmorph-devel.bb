@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "20060817"
 
-RPM_NAME = "xmorph-devel-20060817-250.9.aarch64.rpm"
-RPM_HASH = "13ac6e5461508fc00b799b5142a9aa084592ec167d07cb6fdb6d3d0dd017de749fd0ff840389298ac26fb4e18381f3845c5de6add78a41b64cb8c216538d4bfc"
+RPM_NAME = "xmorph-devel-20060817-250.10.aarch64.rpm"
+RPM_HASH = "bbae02a13a485b318bfd3fd3de2778af2702811603d323b0acb7b2da1ad8922fb7a2984c1379d929216259e8d790fd3205a5affa8af985ddcad59ae37a716f83"
 
 RPROVIDES:${PN} += "xmorph-devel"
 

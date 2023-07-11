@@ -10,10 +10,10 @@ multi-processor systems. That's the reason why they must be optimized to get \
 the most work done from every CPU cycle."
 LICENSE = "GPL-3.0+ & LGPL-2.1+"
 
-PV = "2.8.0+git0.fdd8154ed"
+PV = "2.8.1+git0.a90123aa8"
 
-RPM_NAME = "haproxy-2.8.0+git0.fdd8154ed-1.1.aarch64.rpm"
-RPM_HASH = "81b91d5bc734224d998c0c5acc0fcd6c0ae1fe4f514154f7abd3300a616dd3d4bac4ee93467035f0839f493dc94338dd5e76a7f9a9d8afb5b31daaa77b2ab93c"
+RPM_NAME = "haproxy-2.8.1+git0.a90123aa8-1.1.aarch64.rpm"
+RPM_HASH = "6914be25cc7c765f737ad69e8abee7d29ee7f55b99c4d48f81f2131251b7df3c51c91c2cbbbd4cd768282e511306c668c9a265e180b2024b0f6a5f39c7ffc9e5"
 
 RPROVIDES:${PN} += "config-haproxy \
 group-haproxy \

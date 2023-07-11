@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0 & Zlib & LGPL-2.1-with-Qt-Company-Qt-exception-1.1"
 
 PV = "2.0.0"
 
-RPM_NAME = "libZXing3-2.0.0-2.1.aarch64.rpm"
-RPM_HASH = "010cf3e84fa72dae47759df239927deb10d93cfc08e0282cdccd5530054f96cc9b4bca46cc0974db7a1cf72cae6889c101c3db99e825a0dd48f3f3823c8ee35c"
+RPM_NAME = "libZXing3-2.0.0-2.2.aarch64.rpm"
+RPM_HASH = "c22e1ad76efd5056164e5b13c11aec6d557c65f718a5c556c6228511f24515971b5656e8df45ea602447bf65a550fc2921970893ded7d0d42764c601c24c546c"
 
 RPROVIDES:${PN} += "libZXing.so.3 \
 libZXing3 \

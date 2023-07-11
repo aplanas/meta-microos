@@ -8,10 +8,10 @@ package. For a full documentation of the MFT package, please refer to \
 the downloads page at the Mellanox web site."
 LICENSE = "BSD-2-Clause | GPL-2.0-only"
 
-PV = "4.21.0"
+PV = "4.23.0"
 
-RPM_NAME = "mstflint-4.21.0-2.4.aarch64.rpm"
-RPM_HASH = "8d930d3470dacd5a9baed6c5ab9e59394e37c3ee2dd6ccd8a8f47b6592b991855736a69bb7761515ca91030f4ea4a65fb37b405dc46771d010057aea5b049231"
+RPM_NAME = "mstflint-4.23.0-1.1.aarch64.rpm"
+RPM_HASH = "b9332cf6b7df18d602de6141db0ecc6a4f5cf16f05a86d1e5f5a6bb5b1bf17ef472b88ddd5fc41bf57d796d990742bf86c0407f5dfb6b005b9f63e93b5b4da5a"
 
 RPROVIDES:${PN} += "mstflint"
 

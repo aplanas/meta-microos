@@ -13,8 +13,8 @@ LICENSE = "MIT"
 
 PV = "1.4.1"
 
-RPM_NAME = "python-atomicwrites-doc-doc-1.4.1-1.3.noarch.rpm"
-RPM_HASH = "4b4c209b4b96ac6094889145705bf4203e08a82214483c56f270f742f2f0fd5729ae46ca3ed64e2448d73c825a76fdc3ef1cd2bb0adbfcb6b3539bd795ab940a"
+RPM_NAME = "python-atomicwrites-doc-doc-1.4.1-1.4.noarch.rpm"
+RPM_HASH = "fd344d2c5af2f312c2e01c53865218a19ac28c146794eeedc56ade3e92773f47ec8185bd536e19509acf164d02286a88484f5e627644d90298c3068facfae59b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-atomicwrites-doc-doc"

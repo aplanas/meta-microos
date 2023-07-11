@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later-with-GCC-exception-3.1"
 
 PV = "12.3.0+git1204"
 
-RPM_NAME = "libada12-12.3.0+git1204-1.1.aarch64.rpm"
-RPM_HASH = "4d891cef72ac0cab83b878e801dc5ee776ab7fd75655bab1e1640c6203bc5d0037d4cf72550c9317269ffaba494ef0ecb529d118dce5eb7095d152f803713d36"
+RPM_NAME = "libada12-12.3.0+git1204-1.33.aarch64.rpm"
+RPM_HASH = "0dc94f61f1c020be27e08d2f09d1d308fd3bb9c0b51d85c52c0c312f9ca334d35a3bae414e597100128cbcea2fa3fb82eb419b49d6f35e17fbad439c87bf5cd9"
 
 RPROVIDES:${PN} += "libada12 \
 libgnarl-12 \

@@ -4,15 +4,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.20230106"
 
-RPM_NAME = "perl-Modern-Perl-1.20230106-1.1.noarch.rpm"
-RPM_HASH = "3dbba6ba6231d808c1cbb8d23acf1b4097c56257cb01a8caa1fd04b6309ec633c4708d82713361470e2c87be2b697ef4697247b63f3148c81b1c23fa38af7d22"
+RPM_NAME = "perl-Modern-Perl-1.20230106-1.2.noarch.rpm"
+RPM_HASH = "e1221027d5f43aa38ffbb4979e74904127095c8cdf1195c0d5dba979781097bca16e4be0a0190218535c4d8a48c341312ed4e6e0acae07cdd9f4bad19d5bc042"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Modern--Perl \
 perl-Modern-Perl \
 perl-odern--Perl"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-feature \
 perl-mro"
 

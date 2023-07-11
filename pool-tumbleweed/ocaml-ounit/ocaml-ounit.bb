@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "2.2.7"
 
-RPM_NAME = "ocaml-ounit-2.2.7-1.1.aarch64.rpm"
-RPM_HASH = "f5dca0dc7348653ce4c4e3723717bbc000bf080a4fb3e79d5b02a0aad399ea90fdd553f67febd7e7d6fd2c93f881b960d40b408714d29720ca3930b0989a3395"
+RPM_NAME = "ocaml-ounit-2.2.7-1.2.aarch64.rpm"
+RPM_HASH = "051cc742f7220cdb8a31b3b197a04235ef4e3047dce9259c3a94dbaca4549ef269a7d450c3e9758d1fc672c827ff60e5eb310bf49d431b92a3b9f10d2cc8daf3"
 
 RPROVIDES:${PN} += "ocaml-ounit"
 

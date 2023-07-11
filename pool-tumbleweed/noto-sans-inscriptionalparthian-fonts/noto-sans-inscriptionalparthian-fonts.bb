@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-inscriptionalparthian-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "36f19140a099536d784f8abe50c996b0f33c10769fb739fdb21d0f55c3d46fe1306695384e4f6451e4405daacebe8bd48e9b72711d71670e728feb95a5928a9e"
+RPM_NAME = "noto-sans-inscriptionalparthian-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "3b2631340f2b9cbf620c2736b9fc56ef413b86e769c62f06c612b26fbab1b6451c8c6759e3eb82e972c2c74d75167b1ae15cf05ab86742fed47ca0cdcafa8b86"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-inscriptionalparthian \

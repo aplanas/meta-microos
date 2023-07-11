@@ -8,17 +8,17 @@ modification – across Arm Cortex CPUs and Arm Mali GPUs. \
 This package contains the libarmnn library from armnn."
 LICENSE = "MIT"
 
-PV = "23.02"
+PV = "23.05"
 
-RPM_NAME = "libarmnn32-opencl-23.02-2.1.aarch64.rpm"
-RPM_HASH = "b5a7798fc499fb8b40c923ad706bac9518bbc6197ffaa5b1b04a7ce02369c8ec2b981e585d5acae70f67b1541d2fcc8a8ac9c6eb52b5e47407b2f42a1f8a3b83"
+RPM_NAME = "libarmnn32-opencl-23.05-1.1.aarch64.rpm"
+RPM_HASH = "cade041350416dc7b89da91914895fe928024a4b278dfe79de7cce73a6c3930b9ceeea42ce6cc50acd435ef5c5d5ed7e8a3a3cd5287174e2742c57222c528cc3"
 
 RPROVIDES:${PN} += "libarmnn.so.32 \
 libarmnn32-opencl"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libarm-compute.so.30 \
+libarm-compute.so.31 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \

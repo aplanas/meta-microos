@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "3.0"
 
-RPM_NAME = "spice-webdavd-3.0-1.3.aarch64.rpm"
-RPM_HASH = "f26b2605a5a806c8d9f9b8bd86ff5051be39f07f9b5befa3fffb8344f70c62e8fcd869a1cb422dfd6620644110a4b7af06ad524a209771267971b06f8e039f02"
+RPM_NAME = "spice-webdavd-3.0-1.4.aarch64.rpm"
+RPM_HASH = "3f5c1898098b494e2bd28c99ae30ae2443caca2cc5ddcb460b2cb625d60bf78c70cbd45cba92a336867200799af50ed7e487c58d6e5c5b7d1ee10825fcd576cb"
 
 RPROVIDES:${PN} += "spice-webdavd"
 

@@ -4,8 +4,8 @@ LICENSE = "BSL-1.0"
 
 PV = "12.3.0+git1204"
 
-RPM_NAME = "libgphobos3-12.3.0+git1204-1.1.aarch64.rpm"
-RPM_HASH = "38f31883a7678860fcab3b36298e113286a30f35d21a92f2f10d9cfa339dfeaccb723787959f0429b7f0b9d4fc3a28d8873dd454fdaf252097234b47ebc96527"
+RPM_NAME = "libgphobos3-12.3.0+git1204-1.33.aarch64.rpm"
+RPM_HASH = "b752cc7e8f53317b7b51a5c54053358922e73b12931a53b028becb40367db09e967b34bee86cb6eba06bb2f7125a8042ce4f21b3ef5bbf6c34cef4efab3bdf55"
 
 RPROVIDES:${PN} += "libgphobos.so.3 \
 libgphobos3"

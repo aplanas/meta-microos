@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.2.5"
 
-RPM_NAME = "libHepMC3search4-3.2.5-2.5.aarch64.rpm"
-RPM_HASH = "9c5117a563491ecfacc08eb37ffbd9149a62f07387adb164d401cf452a5fc36f9cf1b818955f9bdf4f287a48c17dfe19a10abfaaaf59f016be75bdf4fcbf9ff9"
+RPM_NAME = "libHepMC3search4-3.2.5-2.6.aarch64.rpm"
+RPM_HASH = "aa1d93b624d0ba877faae3153d5ac93c88d9ffcf413b031f4340d38aef6c655ec61b9a0f0d45e5f7b530eb4ee612f2ddafbbf7620a2d79db70b4380a6f757e54"
 
 RPROVIDES:${PN} += "libHepMC3search.so.4 \
 libHepMC3search4"

@@ -5,13 +5,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "4.1.0"
 
-RPM_NAME = "python310-icalendar-4.1.0-1.4.noarch.rpm"
-RPM_HASH = "c2cd2b2a862a4efdae0b1f335dc2c9ffcd550ff5ec7ed7fab4de8c51f0bee1829a9ad6350f34c58359ebdf5d61ff8ea759b671f11397f66189d823f08161a0cf"
+RPM_NAME = "python310-icalendar-4.1.0-1.6.noarch.rpm"
+RPM_HASH = "8ba9f5ef2a77d573e62fcd65fcc3fd5e77106c96bb9a8c8897ded09d9de077742f09f9aca580704bfd95360c3b4818e9e652884d3163468f1014a6bd19dee7d5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-icalendar \
-python3-icalendar-doc \
-python3.10dist-icalendar \
+RPROVIDES:${PN} += "python3.10dist-icalendar \
 python310-icalendar \
 python310-icalendar-doc \
 python3dist-icalendar"

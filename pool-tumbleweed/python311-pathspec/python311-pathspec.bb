@@ -7,11 +7,12 @@ LICENSE = "MPL-2.0"
 
 PV = "0.11.1"
 
-RPM_NAME = "python311-pathspec-0.11.1-2.1.noarch.rpm"
-RPM_HASH = "1d244cd5ab488fd17a4b6c3dfe1ff5e7666a92205abe723b7a263db6376a372cfd34528acd7559fdbc4c3911b5ee1d0c40fca63445ded970e984c36fc9fc6f27"
+RPM_NAME = "python311-pathspec-0.11.1-2.3.noarch.rpm"
+RPM_HASH = "cd7857f159fd2381bb9e8990fead69784064a752206d9cd32a0b0a7e0049e0b5f0aba8e121f2c91dad02838dcb452073c18905ab4e2e9122e08e29f2d0630b1d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pathspec \
+RPROVIDES:${PN} += "python3-pathspec \
+python3.11dist-pathspec \
 python311-pathspec \
 python3dist-pathspec"
 

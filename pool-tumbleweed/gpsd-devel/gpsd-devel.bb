@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.25"
 
-RPM_NAME = "gpsd-devel-3.25-1.3.aarch64.rpm"
-RPM_HASH = "0bcfad4626dce2d14cf18ebc73408069d5deb6988b9ed7d29361f6561f6f6498a9efb69abaabb8989963df3d7e023f597746a254235049ed7489072ee06aae69"
+RPM_NAME = "gpsd-devel-3.25-1.4.aarch64.rpm"
+RPM_HASH = "619a6435969bd7bad5908b7d31dc981de74b199502f33760f358bb7958dc108a5348a4f0478c956dc2038032b0c0d21d5a1d1d5431863d25425ef11061f0d9ab"
 
 RPROVIDES:${PN} += "gpsd-devel \
 pkgconfig-Qgpsmm \

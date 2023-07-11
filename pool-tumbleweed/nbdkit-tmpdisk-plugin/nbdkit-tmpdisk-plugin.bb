@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.32.2"
 
-RPM_NAME = "nbdkit-tmpdisk-plugin-1.32.2-1.3.aarch64.rpm"
-RPM_HASH = "d17423bb249b5e06971357fba073c527f4c4c2849b18497b849c5a145968fc9fe4d6a1da2863cf41d87a97e349a3211bb894ab973fd5f4b570ea8325f0708461"
+RPM_NAME = "nbdkit-tmpdisk-plugin-1.32.2-1.4.aarch64.rpm"
+RPM_HASH = "63f0d59093a4ea4b86510f4a374f09d2be45122bac140740c45c3bd3d6606836f3c62caab8baa0ed466cb39a15b3459a508b3d2c2c69fb832336fc1b02016c3b"
 
 RPROVIDES:${PN} += "nbdkit-tmpdisk-plugin"
 

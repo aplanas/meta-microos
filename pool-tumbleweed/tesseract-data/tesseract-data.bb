@@ -4,8 +4,8 @@ LICENSE = "Zlib"
 
 PV = "2018_02_01"
 
-RPM_NAME = "tesseract-data-2018_02_01-3.11.noarch.rpm"
-RPM_HASH = "5f66a7fb071e6486442962e11a230f4dcf35f88570a4f877a4193cf4b5ccba9dc539c7732414de81718c5098945fb9388862ab342eeefbae8a913e0cafc7f1e7"
+RPM_NAME = "tesseract-data-2018_02_01-3.12.noarch.rpm"
+RPM_HASH = "e9bd39d07994a3dde8c84c4deaf64b5a19f7ce4afbb99435e9785813a3f3b0f2e80071709969567d869ee862c90a5ec025c10e695cc531e7a6941d6789e7bb8b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tesseract-data"

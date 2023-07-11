@@ -16,8 +16,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.4.0"
 
-RPM_NAME = "bsf-javadoc-2.4.0-17.12.noarch.rpm"
-RPM_HASH = "1f369ef0895ecd7095ea67a37457ee89f22c17189bf7993186cb65c333f2b2e7daf89303c474adc6f295aeec96d980579755076f5a7ec3eaadc0a72e9bdeec2e"
+RPM_NAME = "bsf-javadoc-2.4.0-17.13.noarch.rpm"
+RPM_HASH = "005aa5ebb927f25fcd1a0b330c064b84e2cbaf73d3d60f8ceb741f4cdcb18b3a960b2799ee2fe853aca5334a0d03fe79a49a9eb8ed20e454acae606eb460d77a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bsf-javadoc"

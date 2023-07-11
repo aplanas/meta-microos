@@ -12,14 +12,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.105"
 
-RPM_NAME = "perl-HTML-FromANSI-Tiny-0.105-1.9.noarch.rpm"
-RPM_HASH = "8bd882b931ce8aa92d0dce6928dfe0cbe992788ee50fc5b7c76c35137d78e9700a4cdb0042ac2eaf461f69ffdd2d82b770b01813a9b939d19a6566be56bafc0f"
+RPM_NAME = "perl-HTML-FromANSI-Tiny-0.105-1.10.noarch.rpm"
+RPM_HASH = "7d8e4fd865e45413b3b15980f3adeeba86f241b9e28d39c153eff158f94bca373e55d96036b02df0437cba7bb4bf3c34d1bf1fa904918aa5bdda66ea2492998a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTML--FromANSI--Tiny \
 perl-HTML-FromANSI-Tiny"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-HTML--Entities \
 perl-Parse--ANSIColor--Tiny"
 

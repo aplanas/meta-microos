@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2013.6.1"
 
-RPM_NAME = "msv-manual-2013.6.1-3.10.noarch.rpm"
-RPM_HASH = "d35a809021b92a84941423b56858915b2feab0994b3078a04fc09ec57057fdf8d6c9e35111352c00e121d28701ff4e3c386fbb6c3443ceb36f69eaaf63d85dcf"
+RPM_NAME = "msv-manual-2013.6.1-3.11.noarch.rpm"
+RPM_HASH = "3e66a90469499704d74af335f7c3a219a258f777c744eb32faa95c4039fd0649eba01ad256bafafc9e7d3fec1dd7e3fb9fca66d1656b671efe3001a8bc08d9d1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "msv-manual"

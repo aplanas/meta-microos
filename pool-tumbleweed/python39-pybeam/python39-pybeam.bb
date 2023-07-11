@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.7"
 
-RPM_NAME = "python39-pybeam-0.7-1.11.noarch.rpm"
-RPM_HASH = "6faeae608c82ef83bbde5494ca628822dcbfec25593c68bd7924ae90f0c1eed12efe2baa5d989d75cae430176733139b1fe6e1e7da0fed7b6067f960377da069"
+RPM_NAME = "python39-pybeam-0.7-1.12.noarch.rpm"
+RPM_HASH = "8c930141b64d17cd0743ef661edd1b9e035d7c7eaf6f4fef1dc39a1e613e77db5e29c00a3615e0caeb575118de8b978db2de414dd9afc546a4540f393bf9ae03"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pybeam \

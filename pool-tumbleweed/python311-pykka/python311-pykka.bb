@@ -7,11 +7,13 @@ LICENSE = "Apache-2.0"
 
 PV = "3.1.1"
 
-RPM_NAME = "python311-pykka-3.1.1-1.9.noarch.rpm"
-RPM_HASH = "897df36b7aff433b1e9f90d8bf5b3e333e8444def1bca5c4fa15229ffdd683c367e53775e6f3d981581c4ec702124286110b41e7713e0e57cd7f6e99725df651"
+RPM_NAME = "python311-pykka-3.1.1-1.11.noarch.rpm"
+RPM_HASH = "2d7e006f3df26fb8cb44c5977bdb5f1479a848708dd725dcc5428e6b49abc158d444484560f4d7001aed7ec544761263282306959b1068193d9aabc6af8155bb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pykka \
+RPROVIDES:${PN} += "python3-Pykka \
+python3-pykka \
+python3.11dist-pykka \
 python311-Pykka \
 python311-pykka \
 python3dist-pykka"

@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.9"
 
-RPM_NAME = "python311-PyMsgBox-1.0.9-1.3.noarch.rpm"
-RPM_HASH = "c9eaca7e7fec4af9a46d3d99d4352533d9eb4cb9acc75df301c2131be9d9d70693445928368a5d3252edf0e5b639dea096016492244414c35ba1e67eaefd7173"
+RPM_NAME = "python311-PyMsgBox-1.0.9-1.4.noarch.rpm"
+RPM_HASH = "fa5c276be19ce775a1bf93d6fd88b9c6e2b90b6dd7c7f50457abbc6d4011cde0be7350b4f334f95529e8acfc6d36df9e38299239f2ee33d0263f755fab42706b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pymsgbox \
+RPROVIDES:${PN} += "python3-PyMsgBox \
+python3.11dist-pymsgbox \
 python311-PyMsgBox \
 python3dist-pymsgbox"
 

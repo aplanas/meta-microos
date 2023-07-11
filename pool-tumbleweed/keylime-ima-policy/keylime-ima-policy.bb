@@ -2,10 +2,10 @@ SUMMARY = "IMA policy for Keylime agent"
 DESCRIPTION = "Subpackage of rust-keylime to provide an suggested IMA policy for Keylime agent"
 LICENSE = "Apache-2.0 & MIT"
 
-PV = "0.2.1+git.1682587333.b497f1d"
+PV = "0.2.1+git.1685699835.3c9d17c"
 
-RPM_NAME = "keylime-ima-policy-0.2.1+git.1682587333.b497f1d-1.1.aarch64.rpm"
-RPM_HASH = "084ab4a039fbc50d6a1b5e6c5335fed2295551742eb2203153f0e2665ee1a53dc33886c5f1a90b776ac17606b7187714d1ca9f624354f44f8a6993d275673600"
+RPM_NAME = "keylime-ima-policy-0.2.1+git.1685699835.3c9d17c-2.1.aarch64.rpm"
+RPM_HASH = "723f987e7db56fcd9e30ef297270caf7c03cf225d2b91523bbe5e91774e271aef4868d47f4810b4713dc850d2630484c8659c16600293c0193a9c74e3ce28b05"
 
 RPROVIDES:${PN} += "config-keylime-ima-policy \
 keylime-ima-policy"

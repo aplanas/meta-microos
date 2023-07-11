@@ -2,10 +2,10 @@ SUMMARY = "Tools based on libdxfrw"
 DESCRIPTION = "This package includes tools based on libdxfrw."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.1.0~rc1+git.20220905"
+PV = "2.2.0+git.20221210"
 
-RPM_NAME = "libdxfrw-tools-1.1.0~rc1+git.20220905-1.3.aarch64.rpm"
-RPM_HASH = "fcff361af729288365263e2a7077a10f080dcafa45612d58a541977d91f892a9040c245b9a13868678e454e28746a1806bad3e86d9d2bcaac7863b30ca0277e1"
+RPM_NAME = "libdxfrw-tools-2.2.0+git.20221210-1.1.aarch64.rpm"
+RPM_HASH = "cffad9a3ca8c33741d5012adfb29d7b41a165561a04a9ac09d52c503bb5cc8c60d767cd73ae8db4203d1fd6114656b32240b4009cfe4590f31a402c846fccfea"
 
 RPROVIDES:${PN} += "libdxfrw-tools"
 

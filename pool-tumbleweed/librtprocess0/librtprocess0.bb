@@ -7,8 +7,8 @@ LICENSE = "BSL-1.0 & GPL-3.0-or-later"
 
 PV = "0.12.0+20211228"
 
-RPM_NAME = "librtprocess0-0.12.0+20211228-1.6.aarch64.rpm"
-RPM_HASH = "c0c400fbe779276091dd227bc6004a3cfc6017bf85c0c1b03940e98330168a7878fbcc969ab929328f631df766714251772fbafd806c358966d126ec9f912d9b"
+RPM_NAME = "librtprocess0-0.12.0+20211228-1.7.aarch64.rpm"
+RPM_HASH = "d4490d0de9e4f4cb51aeac40b4c174a7037a7215028641fdbd39ed4c9d981fb7f92a715f6e12f38a2200d98cfbffc8850e7edc24dbd6eb5857f6f635bbba16b6"
 
 RPROVIDES:${PN} += "librtprocess.so.0 \
 librtprocess0"

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.3.99.1"
 
-RPM_NAME = "pragha-plugins-devel-1.3.99.1-3.3.aarch64.rpm"
-RPM_HASH = "69ecec15abc4de7dc03ca14c4472a1d41c467938a1db958486806ef2e915fbdd624a6ea8981d37ecf542b2cf463219c0dd3b89be908e0b5ddab96477980c036c"
+RPM_NAME = "pragha-plugins-devel-1.3.99.1-3.4.aarch64.rpm"
+RPM_HASH = "13d444a88456762e70298539bf927b8f061f051619ab39404c0822ce8e0e7221762d2feac25e0098d79b309f0325960900c4dbc39d7879d87c828380de66d4ef"
 
 RPROVIDES:${PN} += "pkgconfig-libpragha \
 pragha-plugins-devel"

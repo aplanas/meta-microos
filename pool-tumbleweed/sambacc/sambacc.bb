@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "v0.2+git.108.e7850e0"
 
-RPM_NAME = "sambacc-v0.2+git.108.e7850e0-1.1.noarch.rpm"
-RPM_HASH = "4ee6ccc46b039ddd1a16122795cf12d8fef082c87b6cbbd6b37d8912b485ceb5abd1132c64673e89eaa2246757c04ab77b3cdfdbaaee724395f45d4e82738228"
+RPM_NAME = "sambacc-v0.2+git.108.e7850e0-1.3.noarch.rpm"
+RPM_HASH = "fd79def5def4f9ce4075b8e66cc4b55eca1e1f779dc9da080f31d1f944c22a7b1058f636901b66462fc69f634edfda0026ce583f0703fa7765f26b0580504b60"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sambacc"

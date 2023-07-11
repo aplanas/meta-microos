@@ -7,10 +7,10 @@ typesetting with LuaTeX, mathfont adds resizable delimiters, \
 big operators, and a MathConstants table to text fonts."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.2asvn65205"
+PV = "2023.208.2.2asvn65205"
 
-RPM_NAME = "texlive-mathfont-2023.201.2.2asvn65205-52.1.noarch.rpm"
-RPM_HASH = "817691b1abc6a7e22c5b34aa943e49c8e9dcb59358a60a7a6b3ab2befabfc8ef8f25273b3e95f7e41a96ceb756e92c50fb978d2d9445b99c08229a453ca3c849"
+RPM_NAME = "texlive-mathfont-2023.208.2.2asvn65205-53.1.noarch.rpm"
+RPM_HASH = "293bc40a3ce00e9d21ae47c77e9112024376eca31dc39553d27e45528591fbddae9972d9838002c04790fd84f7b7620b3c6ea56b4c702e127141afeaf5129db5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mathfont.sty \

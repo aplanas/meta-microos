@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.22"
 
-RPM_NAME = "i3-devel-4.22-1.3.aarch64.rpm"
-RPM_HASH = "2f3f5f7f76e30373ae9b08a7ad9ac793a7813a6b191b17c8daf2af838f96a52da23ff06ae64786e57d652ad64a64d4aa6e28dba5dae59abf17d250825c03e722"
+RPM_NAME = "i3-devel-4.22-1.4.aarch64.rpm"
+RPM_HASH = "ce462557fccc56135873112a32dc6b960f9c0c6f0abb382a4633cb532e19a8f4afbd19984da0d3dee63d7b7d4c9d14420534d7a04c1afe8fb4b7141a6319b2c8"
 
 RPROVIDES:${PN} += "i3-devel"
 

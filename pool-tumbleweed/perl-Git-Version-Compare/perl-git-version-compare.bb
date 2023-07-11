@@ -11,13 +11,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.005"
 
-RPM_NAME = "perl-Git-Version-Compare-1.005-1.1.noarch.rpm"
-RPM_HASH = "38eb9524da647a23bdabd290c63393293abedadffa63be466594eff07d9f3c0868eec1924da519912f712e8a8290d51194046b12c1140e7af3bbf23fc432fd42"
+RPM_NAME = "perl-Git-Version-Compare-1.005-1.2.noarch.rpm"
+RPM_HASH = "d49d8ec0eec6c6fa07e1290d6a0495ae367b7fd3bb8eaf21b877e5ccc5b91d66590bf285bb0609aaae75ed8a7164909517d792c331a82bb70b174f2e8010a800"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Git--Version--Compare \
 perl-Git-Version-Compare"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2.17.1"
 
-RPM_NAME = "apache-log4j-extras-javadoc-1.2.17.1-3.10.noarch.rpm"
-RPM_HASH = "6a2594806dd5ea76d18b7f5bdb7c01229b06b8c107d5c88cf21095e2ce15c553dc08f40ada9c38086a7674f745452a9b720b1aa2f923ab894371d3d2ad4dfb70"
+RPM_NAME = "apache-log4j-extras-javadoc-1.2.17.1-3.11.noarch.rpm"
+RPM_HASH = "9a147c7676e5b6faf32119edf86a42725b9da600ea422fcc7ffec780c6794b24973d4ac5a8270e12a22ad52e8b89f4f99274f809be6120d34178a2ba7750b869"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-log4j-extras-javadoc"

@@ -6,10 +6,10 @@ KDE Plasma workspace. \
 Applications do not need to link to this directly. Development files"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "frameworkintegration-devel-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "0ea982bec80c48ddbb60dd4a18e5a1029dd45300ab34acdb98441a0f16952e4bac23bd892b690cdac03842c7a6c06c6e3a8f3b6734e925bab27ff766294f9f58"
+RPM_NAME = "frameworkintegration-devel-5.107.0-1.1.aarch64.rpm"
+RPM_HASH = "3003ffb85e48c96c21f5a7a5b8503ba563f030bfadd14d5d820a962e20e22916632e80ef9c3221a447d7072c30522e7f190ec15ba4630cd00bd72efcdb243a04"
 
 RPROVIDES:${PN} += "cmake-KF5FrameworkIntegration \
 frameworkintegration-devel"

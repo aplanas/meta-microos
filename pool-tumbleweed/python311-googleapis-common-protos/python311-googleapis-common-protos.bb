@@ -3,13 +3,14 @@ DESCRIPTION = "googleapis-common-protos contains the python classes generated fr
 protos in the googleapis_ repository."
 LICENSE = "Apache-2.0"
 
-PV = "1.59.0"
+PV = "1.59.1"
 
-RPM_NAME = "python311-googleapis-common-protos-1.59.0-1.1.noarch.rpm"
-RPM_HASH = "1afc4a1c7b709cba75c24ff84947dbb7b29131e0aa6edee6dd70ed4c3314b710a2de12f19a031acdd055aaf7ac72d63cb9a975cabec537fcb0d852243370fb9e"
+RPM_NAME = "python311-googleapis-common-protos-1.59.1-2.1.noarch.rpm"
+RPM_HASH = "add9344d76296d269d394a92812b99b1d3c656b6fac697edcc966f5f310df26d9dae6ed050f73536c472159c23e8dd587cc9bfa7c09254010b6136428abffed9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-googleapis-common-protos \
+RPROVIDES:${PN} += "python3-googleapis-common-protos \
+python3.11dist-googleapis-common-protos \
 python311-googleapis-common-protos \
 python3dist-googleapis-common-protos"
 

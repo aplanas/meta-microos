@@ -21,8 +21,8 @@ LICENSE = "MIT"
 
 PV = "3.12.0"
 
-RPM_NAME = "python39-pytest-randomly-3.12.0-1.1.noarch.rpm"
-RPM_HASH = "78894ae69256fa28e8f88af92ce70f83cb5734554f5f6cc515331fbebeaad5ee37f1da8bf54e3c6df63f9ecc8160449e9eec4d127413a7f662f1d2b322ea139b"
+RPM_NAME = "python39-pytest-randomly-3.12.0-1.3.noarch.rpm"
+RPM_HASH = "926a4373f384e37e206fd3a6363d7e2bb2e2d08cff82405c512fda8a8101d84c61190f4b635a25ceaa87c8916d23dca07647f9b0e52fec2537183c94724feefb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytest-randomly \

@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.28svn56910"
 
-RPM_NAME = "texlive-xlop-doc-2023.201.0.0.28svn56910-52.1.noarch.rpm"
-RPM_HASH = "0e7d2c0975e548865805c88e61c56e2633826970a2162c165c77bbb70ab5c05a5c490bddda46d35e6c98918433cd36b5100fb68d32e193e1318cbcf828215c70"
+RPM_NAME = "texlive-xlop-doc-2023.201.0.0.28svn56910-52.2.noarch.rpm"
+RPM_HASH = "79c79b4281ac2cd544acd163ef0a36d8431e2ae0e2dac9b295f6282c81f2ebf7277b587070d2e68a1e0749ba187bb4d1b184f2b87d117edae6db954bbde77e0e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-xlop-doc-fr;en \

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package eog"
 DESCRIPTION = "Provides translations for the 'eog' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "44.2"
+PV = "44.3"
 
-RPM_NAME = "eog-lang-44.2-1.1.noarch.rpm"
-RPM_HASH = "7a6e01395149c0084fa9fbaa7d78023c0661f73a1495e41b5dfb0389e8b26b9b7d155a2ec31bc7da341f6f836bc4c0dead391299f78d8c3a1e4b29e836a56c3c"
+RPM_NAME = "eog-lang-44.3-1.1.noarch.rpm"
+RPM_HASH = "56732a7e5aead761fa8853203bb45d23311a581d817659377f2dfcaa33579ba590c73d843d088115db79980c9174a8a1399c0f5c5553896ca6cc5bcf1ceb00c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eog-lang \

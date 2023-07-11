@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.11.89"
 
-RPM_NAME = "plank-lang-0.11.89-2.4.noarch.rpm"
-RPM_HASH = "6921fc6474e061332a9d15e0ac141bb5a216d6ee5cb1f08693a6b409fbe81eda085e677bf852a8fad45ad27ef3b4407ccfe2266ca45b33a50b55fc0957059d4b"
+RPM_NAME = "plank-lang-0.11.89-2.5.noarch.rpm"
+RPM_HASH = "79afdf0f93c60c10e5b485221d74e0407651220f42a154133fc8dd0290833bfcbcc7840c9a5f9c1438a36f2caa95378e89213434854cb83fe5fe865f071d7a0c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-plank-ar \

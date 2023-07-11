@@ -2,12 +2,12 @@ SUMMARY = "Haskell megaparsec library development files"
 DESCRIPTION = "This package provides the Haskell megaparsec library development files."
 LICENSE = "BSD-2-Clause"
 
-PV = "9.3.0"
+PV = "9.3.1"
 
-RPM_NAME = "ghc-megaparsec-devel-9.3.0-1.3.aarch64.rpm"
-RPM_HASH = "90fd1419d98e81e5e422d1729108e80b1a6a057506c9e3046059d3bf47dfcee7cdda89bf2ca38215159812e1e6e8b71ff2e70453526e5fc88b849b0820428ee8"
+RPM_NAME = "ghc-megaparsec-devel-9.3.1-1.3.aarch64.rpm"
+RPM_HASH = "deab30fdd9d86d36ed0e9055ff5d4495d874e43c911d2d59fc113179231eb41ef6bd18d55599e1f92e873ac78c6aa814461a648fcdd039e15212197c1fcb2621"
 
-RPROVIDES:${PN} += "ghc-devel-megaparsec-9.3.0-9LuWCOgzW7qD3PYWTEm9Pv \
+RPROVIDES:${PN} += "ghc-devel-megaparsec-9.3.1-Lptmv1Cc41nKt1ZYt8kXVr \
 ghc-megaparsec-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

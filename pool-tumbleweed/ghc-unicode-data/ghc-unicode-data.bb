@@ -10,8 +10,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.4.0.1"
 
-RPM_NAME = "ghc-unicode-data-0.4.0.1-3.3.aarch64.rpm"
-RPM_HASH = "03beab559699eae189953f558de29d4d4c68927192a27658488d035dcd5352004821173ee5eeac3dbe12d457412650c2e616742710a1c9fd93986376daf2da60"
+RPM_NAME = "ghc-unicode-data-0.4.0.1-3.6.aarch64.rpm"
+RPM_HASH = "45e4f57bbe2aead1cf75b1e5cac12d37837c7e03dd1c2a80047c8ea3bf8412d79cd7b82630f20cd80ad20035bddf7130772c2976473110f3ad5d3858ebc740ef"
 
 RPROVIDES:${PN} += "ghc-unicode-data \
 libHSunicode-data-0.4.0.1-IPznodd4J0BGoSZPR6u4lO-ghc9.4.5.so"

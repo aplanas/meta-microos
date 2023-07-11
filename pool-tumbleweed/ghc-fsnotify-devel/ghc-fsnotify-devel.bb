@@ -4,10 +4,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.1.0"
 
-RPM_NAME = "ghc-fsnotify-devel-0.4.1.0-2.3.aarch64.rpm"
-RPM_HASH = "6c0dabcf957e9a146ea5cf698d3ddd2995ecf4a2517ee850e10bc22f1c4b719bfa7a96c2973246040851643cf4c09f398b2eb296783079d1e75d4b67356a7ac9"
+RPM_NAME = "ghc-fsnotify-devel-0.4.1.0-2.7.aarch64.rpm"
+RPM_HASH = "0703d392e5ed1921f58af109d4c3b3600acf8637e14533bddd71deca6b3626bb96db8bf2bcab6ea630779b20aebaf402e46561b10bcdcb07f650c14c82c8ad34"
 
-RPROVIDES:${PN} += "ghc-devel-fsnotify-0.4.1.0-2wEvt7wcuNwGNHTpTKKSuK \
+RPROVIDES:${PN} += "ghc-devel-fsnotify-0.4.1.0-J4WSFHZY5VQ2Gkw2wp8qhw \
 ghc-fsnotify-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -20,7 +20,7 @@ ghc-devel-directory-1.3.7.1 \
 ghc-devel-filepath-1.4.2.2 \
 ghc-devel-hinotify-0.4.1-8EvWCUqnZLR2V2Cj5bSrk3 \
 ghc-devel-monad-control-1.0.3.1-YXA6op7GEFFtfFxLr4pzX \
-ghc-devel-safe-exceptions-0.1.7.3-4ydW60ruqZ4IdMpKf3b6BD \
+ghc-devel-safe-exceptions-0.1.7.4-8XVKrMBchTjCLhdcvBwBNb \
 ghc-devel-text-2.0.2 \
 ghc-devel-time-1.12.2 \
 ghc-devel-unix-2.7.3 \

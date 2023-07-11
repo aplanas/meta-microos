@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.8"
 
-RPM_NAME = "knockd-0.8-2.7.aarch64.rpm"
-RPM_HASH = "d1a8eeef0c7daf01eac6161725ee4196be004591f5cc906a9a47824f23390ae02b6933beba84e8db7c4f812f00286bf27f6aa8a79b792e9dec49478f8fc418a4"
+RPM_NAME = "knockd-0.8-2.8.aarch64.rpm"
+RPM_HASH = "373a8ba395674113ee1f2ed1d34738819dac847d1e23af0828a4a21ac4ebffb4bb7836f48cb631f0e91232a612c574145f4162ef0a35ce4829cf6663b803a867"
 
 RPROVIDES:${PN} += "config-knockd \
 knockd"

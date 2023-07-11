@@ -4,11 +4,12 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "1.17.0"
 
-RPM_NAME = "python311-digitalocean-1.17.0-1.7.noarch.rpm"
-RPM_HASH = "eaad6584d23b83002057ac7595152a37c7e038b5482b87c3676f42941d48e5fd0abeb5d0005455f92b10f8adb6836fddffb714b69211c5eefe5bd9cde0f8db66"
+RPM_NAME = "python311-digitalocean-1.17.0-2.1.noarch.rpm"
+RPM_HASH = "1090249c5ec8f30a580f4572f9a737a8956d399e600930ce90439415715bb6b8545ca8d3bfe59a4538c3a01f97cf583391b0a02a678087300f50671104f0df98"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-python-digitalocean \
+RPROVIDES:${PN} += "python3-digitalocean \
+python3.11dist-python-digitalocean \
 python311-digitalocean \
 python3dist-python-digitalocean"
 

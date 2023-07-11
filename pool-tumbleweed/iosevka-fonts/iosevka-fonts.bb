@@ -6,10 +6,10 @@ preparing technical documents. \
 This package contains the Iosevka typeface (monospace, default)."
 LICENSE = "OFL-1.1"
 
-PV = "24.0.0"
+PV = "24.1.4"
 
-RPM_NAME = "iosevka-fonts-24.0.0-1.1.noarch.rpm"
-RPM_HASH = "9e4e779b503d59eb16c804d4e104e60670c51339ee6976d6f0495884b8d6fb46f3c0750faa5d47c9f3a7b0cde17e41bbdde09d8492846f633214223839b6f723"
+RPM_NAME = "iosevka-fonts-24.1.4-1.1.noarch.rpm"
+RPM_HASH = "5755307f2053d6852b744dafb4680cb404e4d38075249685af572b261f75a24ec7ace46067db42d551ad13cc65d2e2dbbfb272ff092d397373e131ba50e1ff1c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "iosevka-fonts"

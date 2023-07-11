@@ -21,12 +21,11 @@ LICENSE = "ISC"
 
 PV = "2.3.0"
 
-RPM_NAME = "python310-dnspython-2.3.0-2.1.noarch.rpm"
-RPM_HASH = "edafb4d1809759ced009672694c29004ead8a0b6e97f7b11553979742f4f827e6fd39f9ea45dc1df8614db1235ec9cbdac1e8ea222b8e60bb875db6626aabec3"
+RPM_NAME = "python310-dnspython-2.3.0-2.3.noarch.rpm"
+RPM_HASH = "222ed6a3f7eef8b5681022410580dbb147cdeb861909838ee686a852b0abbaed0d7f93552ba8967f904e6743792e940c2fd2af0fcc18e347f7833fed24765061"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-dnspython \
-python3.10dist-dnspython \
+RPROVIDES:${PN} += "python3.10dist-dnspython \
 python310-dnspython \
 python3dist-dnspython"
 

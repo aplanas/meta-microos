@@ -10,8 +10,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.20.0"
 
-RPM_NAME = "libgpgmepp-devel-1.20.0-1.1.aarch64.rpm"
-RPM_HASH = "39354cbb6f23ba8345319adb82d74124e422ed5631d8ae2f00adf29ec9d307daba8922fb316b257639e8100b25d9a503eb49e2a5e14d77b49a51afc5778ca918"
+RPM_NAME = "libgpgmepp-devel-1.20.0-1.3.aarch64.rpm"
+RPM_HASH = "f474d4c18a71bc586297ec950a1519a82ae447157d0e807ae82cb61df72a10dfe003ac6339e75fa3cc1c715ebc36c64eb9e7f8b6392952f317badb4e36dedb3c"
 
 RPROVIDES:${PN} += "libgpgmepp-devel"
 

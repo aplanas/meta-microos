@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-quickdialogs2quickimpl-devel-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "cd599512cbb7594da8014b54021e6c381791c182d60bf0baec0e899e6850c73e1baab62e9a6c3e06fda216a320323e8a1dacdaabbac93fef92e926e8320285ff"
+RPM_NAME = "qt6-quickdialogs2quickimpl-devel-6.5.1-1.3.aarch64.rpm"
+RPM_HASH = "441ed6075b6cad661b918bccd1b1187dc0983b4536ece99e3b7bb4cac99149771722850bcf98b974fef6720df051190f03c402fef01f9641fba671300ca5057f"
 
 RPROVIDES:${PN} += "cmake-Qt6QuickDialogs2QuickImpl \
 pkgconfig-Qt6QuickDialogs2QuickImpl \

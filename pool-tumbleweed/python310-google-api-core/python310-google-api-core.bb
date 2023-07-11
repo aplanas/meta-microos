@@ -2,14 +2,13 @@ SUMMARY = "Google API client core library"
 DESCRIPTION = "Core Library for Google Client Libraries."
 LICENSE = "Apache-2.0"
 
-PV = "2.11.0"
+PV = "2.11.1"
 
-RPM_NAME = "python310-google-api-core-2.11.0-1.4.noarch.rpm"
-RPM_HASH = "3c2a4a825f5081ab8d04df3673221a2781c1f9759d995e9e5a938ef4b5bbd647410789414c43293ca8ed70b318932b5a7eb283663048046e6806b4778e16188c"
+RPM_NAME = "python310-google-api-core-2.11.1-2.1.noarch.rpm"
+RPM_HASH = "c45dfc6d62a64d41e76aad0896833fa4cd921015c44908e7fb30f1fa3545a8608b63d26f6681724b6b20e5f93392b4d833b9f301c69997546bc05b5eed7e5d63"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-google-api-core \
-python3.10dist-google-api-core \
+RPROVIDES:${PN} += "python3.10dist-google-api-core \
 python310-google-api-core \
 python3dist-google-api-core"
 

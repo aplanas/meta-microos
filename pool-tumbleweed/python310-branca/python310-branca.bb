@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.6.0"
 
-RPM_NAME = "python310-branca-0.6.0-2.3.noarch.rpm"
-RPM_HASH = "dcbf28e88a9c4f4bd8cefa26c477f9a69fba8e939b0182359c644db6c15f5bda5e9f0263f1feae03460f7cc0dbf1c8a9ba9b124b20b3d4bfec19d38de18114d6"
+RPM_NAME = "python310-branca-0.6.0-2.4.noarch.rpm"
+RPM_HASH = "3d64a7d552590196677e0742906bc8bc2d9108bfe14b842e9b85d3b5b0a654bf4b9082db94d42ecd8bba40f163b405c6d101f910eb2339546cde2950dc481e4f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-branca \
-python3.10dist-branca \
+RPROVIDES:${PN} += "python3.10dist-branca \
 python310-branca \
 python3dist-branca"
 

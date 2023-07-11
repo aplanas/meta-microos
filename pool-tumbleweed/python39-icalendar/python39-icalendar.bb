@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "4.1.0"
 
-RPM_NAME = "python39-icalendar-4.1.0-1.4.noarch.rpm"
-RPM_HASH = "13cf94924ed45a7beeeb56dc2858d651d2a03272ef889ee50346c586b1e3e377a6bc4e0bde2b31d3ce11562bd3ef8aa05a4afdd5c715e584b008b8c81d001684"
+RPM_NAME = "python39-icalendar-4.1.0-1.6.noarch.rpm"
+RPM_HASH = "9d90c9ad52684b8edc86f17d20e345432f222991b059a047924ae61246b6125f561046ef8bd9cc5f0f9c723c2ead029f6ea25fca032ca3af001e527834eb0635"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-icalendar \

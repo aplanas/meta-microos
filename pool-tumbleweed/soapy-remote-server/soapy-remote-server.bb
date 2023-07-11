@@ -6,8 +6,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.5.2"
 
-RPM_NAME = "soapy-remote-server-0.5.2-3.8.aarch64.rpm"
-RPM_HASH = "484ae93392d21d7a262ac70ae164e3727006289206c66a869b66d4d7ac9bb65a59b53b1ef6f596067ebff089647ce08d81e4dd676e72b5dcddac062895b4731e"
+RPM_NAME = "soapy-remote-server-0.5.2-3.9.aarch64.rpm"
+RPM_HASH = "18bedf2ce6c3b331fd276c0afac849c4512426149abc289bfcaf778d41606c96293db3b0db4536d913a331bc9b4b44a1069e772e0fa76eaae2ed1deb2cef6a6b"
 
 RPROVIDES:${PN} += "soapy-remote-server"
 

@@ -15,8 +15,8 @@ LICENSE = "Apache-2.0 | MIT"
 
 PV = "1.66.0"
 
-RPM_NAME = "rust1.66-1.66.0-2.4.aarch64.rpm"
-RPM_HASH = "aba9063be4c5177323d84ec1f9f7c7210ae55ef6a0e82694f55ba7f90f94aa9c623dfd8dc4fdc9cf77ec0bef54e0035fc78bd6ade11636a1ebb9c8d76c92bb7a"
+RPM_NAME = "rust1.66-1.66.0-2.6.aarch64.rpm"
+RPM_HASH = "34e9390ca55e477ac71dafa8e219e6f3ed2092baddc203b01ea163ea8576422fa4e4e28540c3362eb87b1049f559df5f8b924b9fda581dcd2680f2c2a58b2863"
 
 RPROVIDES:${PN} += "librustc-driver-1d3bf930f799b88c.so \
 libstd-df1b5d798617bd93.so \

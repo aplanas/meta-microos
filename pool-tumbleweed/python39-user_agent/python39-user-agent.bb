@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.1.10"
 
-RPM_NAME = "python39-user_agent-0.1.10-1.4.noarch.rpm"
-RPM_HASH = "d107322e14f68ea54b74464148141774a2ac5bf177fdc00932c3cdc24d6b100e45277e25f3fe853be741fc2e4d36a7b5007c46db1cf2018af3d64e9e942b77e1"
+RPM_NAME = "python39-user_agent-0.1.10-2.3.noarch.rpm"
+RPM_HASH = "7fd54c5b7f6f767ccf5fb475e10de0ceea0812020587b7c98d6cc75ab16709c60adac342c861cea2560adf3b69a96fa9dd33cde15f9a4f466571496079dc2d1e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-user-agent \
@@ -15,7 +15,6 @@ python3dist-user-agent"
 RDEPENDS:${PN} += "/usr/bin/python3.9 \
 /usr/bin/sh \
 python-abi \
-python39-six \
 update-alternatives"
 
 inherit rpm

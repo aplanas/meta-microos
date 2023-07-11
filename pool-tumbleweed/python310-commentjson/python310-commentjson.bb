@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "0.9.0"
 
-RPM_NAME = "python310-commentjson-0.9.0-3.1.noarch.rpm"
-RPM_HASH = "aeda4ec76d83e41fabe2a198ff0d1541d8ab6661d7103bb8d02da62ff40a08dbcb742d5780d2482df026dece721024cb1ba38055ab5f896e4879b2828e675c9a"
+RPM_NAME = "python310-commentjson-0.9.0-3.3.noarch.rpm"
+RPM_HASH = "2e8f2d3c07b57cab4708f5ff416dfe28ed26405c3b3c3f0747775732f3b6800e33f20630b935e263ed8135deaf11798ceea0c17eafb442ad392c35cdc5d4e55d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-commentjson \
-python3.10dist-commentjson \
+RPROVIDES:${PN} += "python3.10dist-commentjson \
 python310-commentjson \
 python3dist-commentjson"
 

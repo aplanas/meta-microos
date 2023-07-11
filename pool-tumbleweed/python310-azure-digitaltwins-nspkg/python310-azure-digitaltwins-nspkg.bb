@@ -8,12 +8,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python310-azure-digitaltwins-nspkg-1.0.0-1.10.noarch.rpm"
-RPM_HASH = "3f1b27c14a2ba48f73c8b4ee7a4b5daa4d05b6fdcd32b3949ec5120ac1c6b4220904ff21e51176ee1bd9f5fc08a23f45f58e41575757d49461e4924a81389049"
+RPM_NAME = "python310-azure-digitaltwins-nspkg-1.0.0-1.11.noarch.rpm"
+RPM_HASH = "e455aa7dd171005a4b890fda3a491c80f145203d627be8170b6bf2e85586369208cec9f9a9b86dd65d6f8de50a88595769b6e8d04736425803d9bf336c25bb8b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-digitaltwins-nspkg \
-python3.10dist-azure-digitaltwins-nspkg \
+RPROVIDES:${PN} += "python3.10dist-azure-digitaltwins-nspkg \
 python310-azure-digitaltwins-nspkg \
 python3dist-azure-digitaltwins-nspkg"
 

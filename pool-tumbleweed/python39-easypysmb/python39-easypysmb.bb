@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.4.4"
 
-RPM_NAME = "python39-easypysmb-1.4.4-1.12.noarch.rpm"
-RPM_HASH = "91aa59a2fa4ccd1470d8dcdfebffb91c85d330be6b886f0b7057ddb201d048b6e1ec328b8b6b758825e2b375ba2a10bc5590f67060b1ad8522d400e8c402eb12"
+RPM_NAME = "python39-easypysmb-1.4.4-1.13.noarch.rpm"
+RPM_HASH = "a428fb8658f9fe1e122e3e93e7f568a3204a4ddff3bd528e3985730c326cc91e16351d26c7af772684c84d669f8b71518bdf67457156c31e75cd2a9da6f4f92f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-easypysmb \

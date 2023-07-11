@@ -5,15 +5,15 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.4.8.11"
 
-RPM_NAME = "sc-controller-0.4.8.11-1.1.aarch64.rpm"
-RPM_HASH = "8425918ecce6edf34bcd917f4be95edba2dbe3fdc849b8d6b031483e53e6313bd6a2061512002615b1341d9ce3317c2643117aba65aa3b964e67a2614080e271"
+RPM_NAME = "sc-controller-0.4.8.11-1.2.aarch64.rpm"
+RPM_HASH = "358096b3fe313ecb58c5629109a6e27af31c59eb90c734163e272b9864829fae9e03900d01a4474f0613974e19563f02402da62f1bb9848a6a276b0986336333"
 
-RPROVIDES:${PN} += "libcemuhook.cpython-310-aarch64-linux-gnu.so \
-libhiddrv.cpython-310-aarch64-linux-gnu.so \
-libremotepad.cpython-310-aarch64-linux-gnu.so \
-libsc-by-bt.cpython-310-aarch64-linux-gnu.so \
-libuinput.cpython-310-aarch64-linux-gnu.so \
-python3.10dist-sccontroller \
+RPROVIDES:${PN} += "libcemuhook.cpython-311-aarch64-linux-gnu.so \
+libhiddrv.cpython-311-aarch64-linux-gnu.so \
+libremotepad.cpython-311-aarch64-linux-gnu.so \
+libsc-by-bt.cpython-311-aarch64-linux-gnu.so \
+libuinput.cpython-311-aarch64-linux-gnu.so \
+python3.11dist-sccontroller \
 python3dist-sccontroller \
 sc-controller"
 

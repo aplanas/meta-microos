@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "3.2.0"
 
-RPM_NAME = "libKPropertyCore3-4-3.2.0-2.21.aarch64.rpm"
-RPM_HASH = "050f29d210f101ea1a435c140f1be9aa082d6380a16df9bc6ea193bf5b16b4fa4b508e24d3b6de9c40ac95601f2fd6227972c30fc3b00fc660a1d01932eb22e7"
+RPM_NAME = "libKPropertyCore3-4-3.2.0-2.22.aarch64.rpm"
+RPM_HASH = "c61c184683a6d06fb527a42dba19ab6ad9a737aec36ee292b1210ca9990ab8b404de2b396c1ecca5418c7ad10f20ca9cf7489e24a99f70a606c0ab46926a6269"
 
 RPROVIDES:${PN} += "libKPropertyCore3-4 \
 libKPropertyCore3.so.4"

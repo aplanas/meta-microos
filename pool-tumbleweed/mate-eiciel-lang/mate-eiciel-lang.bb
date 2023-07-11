@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.20.1"
 
-RPM_NAME = "mate-eiciel-lang-1.20.1-2.9.noarch.rpm"
-RPM_HASH = "374bb597d9ec77c227de1a90cfd527a925e35aceb493e6d62d00e5efc87836ebc073510e8cd319753686ed85444d883bc5122b93b598150b3e2634d5cedd200f"
+RPM_NAME = "mate-eiciel-lang-1.20.1-2.10.noarch.rpm"
+RPM_HASH = "ae48ee551d76a051dbe2fa91defbc7acb1190084bd7aa79f1e68e5b7da3bcc1531f31cd6ea529c56b3c268c7ca97efb4dbfe84970f2946ad3d192b82d59e2fdb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mate-eiciel-ar \

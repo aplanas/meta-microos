@@ -5,8 +5,8 @@ LICENSE = "EPL-1.0"
 
 PV = "2.49.3"
 
-RPM_NAME = "graphviz-tcl-2.49.3-6.5.aarch64.rpm"
-RPM_HASH = "de230cb7071698f5ff720617bcc08002c3f73aea00be2f090e4452f2a807658c2dcc6c85996bbc8c16af3ead3033bf891228a35be193ec36a41c0485f7d21717"
+RPM_NAME = "graphviz-tcl-2.49.3-6.8.aarch64.rpm"
+RPM_HASH = "e3d7a257d2cce67df049b3ad2dcf191a1d836113434c72b31c3411ba633fcb7632dfe71055b13de94839a1dcf7e58c018fc6dcaf615b8aa168db9b86e82a9f40"
 
 RPROVIDES:${PN} += "graphviz-tcl \
 libgdtclft.so.0 \

@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "5.5.52"
 
-RPM_NAME = "dtkwidget-lang-5.5.52-1.7.noarch.rpm"
-RPM_HASH = "5af8d756fb7b87dcdb173c6c547d03912c74706b20ec3f818f950cbf090eb72d9bc2136897a544af39d49d6ede1e2370e4e901650da07d023e385a5fa975b977"
+RPM_NAME = "dtkwidget-lang-5.5.52-1.8.noarch.rpm"
+RPM_HASH = "e0eb5e435ce8fcf10937340a042e665443698c808986e68843cd16fed04093233d9f90ef228393dee126f4aee56ca97aa14275bfdf8ba5a472697631d658521a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dtkwidget-lang \

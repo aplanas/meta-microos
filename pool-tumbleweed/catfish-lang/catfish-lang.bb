@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.16.4"
 
-RPM_NAME = "catfish-lang-4.16.4-1.3.noarch.rpm"
-RPM_HASH = "1c58a00b149f2d45cce689ef62282ea58ff37c7f469410d3bee3f866a6514158293fd655c14a9083bc5c722cb8940453e2c9eb958de7f946707ab1af5273a564"
+RPM_NAME = "catfish-lang-4.16.4-1.4.noarch.rpm"
+RPM_HASH = "55a2038261b45a4f59b77a6d71d050ae26108cfeaf9995b9903b6f719d502ee43349a7b18adb2eca25a8ae125053604c1dd3e3d9917eb1a6204a84259e4fbc81"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "catfish-lang \

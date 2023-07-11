@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-or-later"
 
 PV = "1.5.1615+0"
 
-RPM_NAME = "psi+-plugins-translateplugin-1.5.1615+0-3.1.aarch64.rpm"
-RPM_HASH = "a5497269bc03ed4eda39da038476e04a17c9b7d373a120084eae763a77e48a7b95083a887767bfbcd7f9e11752428b3b241e08f7ca4ed49573d2d8da95db4a1f"
+RPM_NAME = "psi+-plugins-translateplugin-1.5.1615+0-3.2.aarch64.rpm"
+RPM_HASH = "d13dacd8de3c536efdc2e57bee2b9b92cfde2df312eaa999a64a1977cb01740826adbf9454d9cb1b044f075bd873f9cef5d4dfd318c1c9773d9eb7c3e88740fa"
 
 RPROVIDES:${PN} += "libtranslateplugin.so \
 psi+-plugins-translateplugin"

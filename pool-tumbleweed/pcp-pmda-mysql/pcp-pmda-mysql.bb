@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "5.2.5"
 
-RPM_NAME = "pcp-pmda-mysql-5.2.5-3.4.aarch64.rpm"
-RPM_HASH = "375f0409a7ba3fedd0deddba04a85a632c14594262f34ab642007a857e9c18785c4ee88318b1977347fdba41c29dae7cf43d2af8e49130e66e0c9aa6af7b93b9"
+RPM_NAME = "pcp-pmda-mysql-5.2.5-3.7.aarch64.rpm"
+RPM_HASH = "b890c436f73549475a219ccd41a03adf6c5c66d4c36a5f4db97ad4efb5e46bef167eaf5bec385843dace52056b93cbcd7a4f84f0030a7cda091d86f9f5da9188"
 
 RPROVIDES:${PN} += "pcp-pmda-mysql"
 

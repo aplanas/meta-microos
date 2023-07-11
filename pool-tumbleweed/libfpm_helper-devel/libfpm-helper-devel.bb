@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "4.7.1"
 
-RPM_NAME = "libfpm_helper-devel-4.7.1-1.16.aarch64.rpm"
-RPM_HASH = "2884002e99e3cbb51f1e940e8012362adb3009e60dafb200026549e4c4622de28c28440bd180c307164e01982405fef0acadc7b72f5d74d72b27dfc5a1f64071"
+RPM_NAME = "libfpm_helper-devel-4.7.1-1.17.aarch64.rpm"
+RPM_HASH = "2bb79ea6acd02af1739fea95d004be51641cf519c4b7d4ba7d955c7b72977f1bf7891f1370a0e148458c07a217c871e36e20fad358176b089546308d238a73df"
 
 RPROVIDES:${PN} += "libfpm-helper-devel"
 

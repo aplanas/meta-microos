@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "40.2"
 
-RPM_NAME = "quadrapassel-40.2-1.10.aarch64.rpm"
-RPM_HASH = "e015963f31480d066958af69dfb83aeba0958298ea18c3512ae8a0ca1c0bfbeeb416810371349ada213a32b3934225315b86d0fe790f8eab8392dec11fb5014e"
+RPM_NAME = "quadrapassel-40.2-1.11.aarch64.rpm"
+RPM_HASH = "e16a1c73b5491e505893a18f43d7cc2332efb38ca64017f51a5191448425a28aade0dd6f00ff506f75e506e4c75ff057fe75b22389a54e57b693ed09768ac96e"
 
 RPROVIDES:${PN} += "quadrapassel"
 

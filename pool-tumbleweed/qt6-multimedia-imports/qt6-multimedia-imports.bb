@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-multimedia-imports-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "436098447adeff341f0d77a40f5fc30f6d00af76ad73e7e3bd9c1a89d9066453da217c3d8bd5a342fb39b250928a2ebd5ca0a19591e703736c5a73f8daf6c8db"
+RPM_NAME = "qt6-multimedia-imports-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "9b03153f0785e02f85c85a8cf0b84d2464a6bd4e5782ce107c1ed27e0eea39ddafe48fbce8a68195d96c98a4b093f13d55ceb5c65f69af25fa15b7370e2aa955"
 
 RPROVIDES:${PN} += "libquick3dspatialaudioplugin.so \
 libquickmultimediaplugin.so \

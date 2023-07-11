@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.14.50"
 
-RPM_NAME = "libgsf-tools-1.14.50-1.5.aarch64.rpm"
-RPM_HASH = "5ed6025f0a4a0adb98212ee1c6532b7d5ad90eebec5b96cbd49e2db4377ae7b4cc9e9682fa260dbeb36c81e138cffad3b9221cbe217300c3150d95edeb740af9"
+RPM_NAME = "libgsf-tools-1.14.50-1.6.aarch64.rpm"
+RPM_HASH = "8cf949a105627b066d54a75144245833659247880ae377b439806679fce1d2218632078a0a23c0930140ce2df5435984a2d3e53d5ce5e03a3e350d86e873c577"
 
 RPROVIDES:${PN} += "libgsf-tools"
 

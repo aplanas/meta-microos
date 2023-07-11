@@ -5,10 +5,10 @@ DESCRIPTION = "This package contains libproj and the appropriate header files an
 License:        MIT"
 LICENSE = "MIT"
 
-PV = "9.2.0"
+PV = "9.2.1"
 
-RPM_NAME = "proj-devel-9.2.0-1.3.aarch64.rpm"
-RPM_HASH = "d869bea6e13b043eaf3263a6060e9e5115350f864ed53128a760769edaf186169ad206572abf67ff116b77fb289488b8a82be9f5f9c28e638fc2cfa2cb4a9a80"
+RPM_NAME = "proj-devel-9.2.1-1.1.aarch64.rpm"
+RPM_HASH = "8aab3c8f86e8b2ae55fdf9c37337273b78b8002a3ed7c82aad13ca5929c267a31e48d1889a1723d8eb11668fc645861c7724b011cf56f16ac9731cf8e91856da"
 
 RPROVIDES:${PN} += "cmake-proj \
 cmake-proj4 \

@@ -1,4 +1,4 @@
-SUMMARY = "FireWire 1394 support for audio devices, svn snapshot"
+SUMMARY = "FireWire 1394 support for audio devices"
 DESCRIPTION = "FFADO aims to provide a generic, open-source solution \
 to support FireWire(IEEE1394, iLink) based (semi-) \
 professional audio interfaces. \
@@ -12,10 +12,10 @@ mixed audio-control devices to DSP algorithm devices. \
 This is a snapshot of svn revision 1855"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.4.3"
+PV = "2.4.7"
 
-RPM_NAME = "ffado-2.4.3-3.1.aarch64.rpm"
-RPM_HASH = "ef164197e0031deee40fbf28589c7618fd734bac4499b22897b2b2eba038a9746e6f67afd595683f0bd0c02f4f5de7f9e86266ea3a16340b8084bcd844914ef0"
+RPM_NAME = "ffado-2.4.7-1.1.aarch64.rpm"
+RPM_HASH = "97bd4ff5df16ab09050c7081971c60676f37f2e8cb885961a8042004043926084e72bd9e997831a62cd5d871a5336d4a3b63a13b6d8495bb34e9ffec51440a73"
 
 RPROVIDES:${PN} += "ffado"
 

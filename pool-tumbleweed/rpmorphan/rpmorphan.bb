@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.19"
 
-RPM_NAME = "rpmorphan-1.19-3.9.noarch.rpm"
-RPM_HASH = "b4e62e454ae61c92cd37c6c90a749478f5c4c5c9c19a5c1c33416cfd2168e6deb6ecadbba2309b00bfa6457f7a4d3f8ecc7d1ea2ee3222f8fea833d0764cfe95"
+RPM_NAME = "rpmorphan-1.19-3.10.noarch.rpm"
+RPM_HASH = "5acf748d56b52d8c22fd11d2db064dfd778e6d200a87909e02f6d1b8f695cac210f46405f8c71613a0e0c39549db5e268deb2fca76cedd13056aac4ae09c1919"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-rpmorphan \

@@ -5,13 +5,13 @@ LICENSE = "GPL-3.0-only"
 
 PV = "5.2.0"
 
-RPM_NAME = "nemo-extension-emblems-5.2.0-3.4.noarch.rpm"
-RPM_HASH = "c456cb68fcd97f850dab71f1cae9ad1f6b8be6171ef8f3f155684d9ccd28c991cac4099668436b3e6d90f08cdffc3572fe347c3c63f16a641c786c9a0c883781"
+RPM_NAME = "nemo-extension-emblems-5.2.0-3.6.noarch.rpm"
+RPM_HASH = "48185c14d1cbca5bf0d4191096b11429aa49e6809a8e888bde279c6f330225080387804e373af28e95fe7129bc7447222c79b04393a67491f5ca52c2aad77d40"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nemo-emblems \
 nemo-extension-emblems \
-python3.10dist-nemo-emblems \
+python3.11dist-nemo-emblems \
 python3dist-nemo-emblems"
 
 RDEPENDS:${PN} += "nemo \

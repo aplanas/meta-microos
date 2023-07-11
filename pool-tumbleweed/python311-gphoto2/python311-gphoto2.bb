@@ -7,10 +7,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.2.4"
 
-RPM_NAME = "python311-gphoto2-2.2.4-3.3.aarch64.rpm"
-RPM_HASH = "cf6ab9746545dd1b43ea913ed01d891ec18bab42ceb791a9472fb5d1f4cb959fb8bf3b51f0377bd47bced39206e5dd5a78119e35d59b18b9c7f49f195094e7d4"
+RPM_NAME = "python311-gphoto2-2.2.4-3.5.aarch64.rpm"
+RPM_HASH = "2fd42eac28ecf74f80dc31df75846466aff8dcb3f06a3ceb5b992e28649e20760434fd2ccf647820022956e63400d84d39e6e46c41fe7aac620d015728df6891"
 
-RPROVIDES:${PN} += "python3.11dist-gphoto2 \
+RPROVIDES:${PN} += "python3-gphoto2 \
+python3.11dist-gphoto2 \
 python311-gphoto2 \
 python3dist-gphoto2"
 

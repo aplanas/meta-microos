@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "4.3.2"
 
-RPM_NAME = "python310-pip-licenses-4.3.2-1.1.noarch.rpm"
-RPM_HASH = "a57a63ecf673cf690bedde108d38a3adab277a1f310f7c81fa95863304ba90edf9f920a1c35c9f61d9380efa5bbced2366c24f5338de88e660039683507a061d"
+RPM_NAME = "python310-pip-licenses-4.3.2-1.3.noarch.rpm"
+RPM_HASH = "39e12abaaccdc41364b88bde90316390f3f41cdeedc7eb5577e3fd4d21f1fd0a31251c2dbeef4621cfb6ab562abf4426f8225b3b97950b5e333fb8647a38b44d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pip-licenses \
-python3.10dist-pip-licenses \
+RPROVIDES:${PN} += "python3.10dist-pip-licenses \
 python310-pip-licenses \
 python3dist-pip-licenses"
 

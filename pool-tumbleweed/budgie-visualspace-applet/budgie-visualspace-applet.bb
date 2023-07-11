@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.6.0"
 
-RPM_NAME = "budgie-visualspace-applet-1.6.0-1.1.aarch64.rpm"
-RPM_HASH = "6b5a67a76eb4f5c31481e232cb67233eda2cc919a4c4053e4f2de29c32655c27b6daf3186315d9496620c402783cfb83e72b765ef52b52362f62cccd392c0170"
+RPM_NAME = "budgie-visualspace-applet-1.6.0-1.2.aarch64.rpm"
+RPM_HASH = "c15a22b4734292fd652adfe44ed3717f50f8fd6f07793c07a2a3c659302ce7e6ef7945566ab334a5d7ef37700506b8cbf83317be8b318a01d9869b9790d18dca"
 
 RPROVIDES:${PN} += "budgie-visualspace-applet \
 libvisualspace.so"

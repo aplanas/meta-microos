@@ -6,8 +6,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-azoth-nativeemoticons-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "add9a09c61d6d0e96711ffe0cca615575f7f7646b4d868acf309946a9c630f358571738b0cfd07779fe85c1241d00386ad6ca9037280b4e4810d63da342dcd25"
+RPM_NAME = "leechcraft-azoth-nativeemoticons-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "540d7e663df03454867e4d53311d95d9247f8e592d0cb8402e686d87550317ad9ad3762f55f6e0cf30849df45014ff7b8e1d9339a6b982d6a4db6b1395a9207c"
 
 RPROVIDES:${PN} += "leechcraft-azoth-nativeemoticons \
 libleechcraft-azoth-nativeemoticons.so"

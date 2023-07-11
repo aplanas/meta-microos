@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "2.20.2"
 
-RPM_NAME = "gtk2-theme-industrial-2.20.2-19.42.noarch.rpm"
-RPM_HASH = "f94244108709676e14775b8141d00227feb92b095ad35e2014c33dcf77e6a766e75a0cae7a68123d18bd99f309650376841672829af96d1b0b02aa6938706bdc"
+RPM_NAME = "gtk2-theme-industrial-2.20.2-19.43.noarch.rpm"
+RPM_HASH = "a80c92fb1fb9671f2a402b5054f932494a33363f03a004b19f366a93cc2be3b8f65785a0385bc041caead35dc77143f38fae5b9067ccb9bb7286f6e2f558e32e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk2-theme-industrial"

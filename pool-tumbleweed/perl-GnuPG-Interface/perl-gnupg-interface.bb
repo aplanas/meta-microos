@@ -7,8 +7,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.02"
 
-RPM_NAME = "perl-GnuPG-Interface-1.02-1.10.noarch.rpm"
-RPM_HASH = "930d632faf68ffa7b6e6a5f8208b373d629395d0a195a50f546fe763cb27c33e8a8b596d7d3fe20803279c48d8567b1dcf3e2090e1cab66f1035efd745fdaca1"
+RPM_NAME = "perl-GnuPG-Interface-1.02-1.11.noarch.rpm"
+RPM_HASH = "5b79ab6508862b33fa889e7b2f656fed745f8657b7683e5bba59c00f4101cf3b92b26fbd0869bc02989de9b3f44adddfe49f7a71490fd84ac388cb74fe8fba3d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-GnuPG--Fingerprint \
@@ -28,7 +28,7 @@ perl-GnuPG--UserId \
 perl-GnuPG-Interface"
 
 RDEPENDS:${PN} += "gpg2 \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-Math--BigInt \
 perl-Moo \
 perl-MooX--HandlesVia \

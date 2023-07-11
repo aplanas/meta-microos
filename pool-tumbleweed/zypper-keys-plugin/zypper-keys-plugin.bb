@@ -4,11 +4,11 @@ LICENSE = "AGPL-3.0-or-later"
 
 PV = "0.3.0"
 
-RPM_NAME = "zypper-keys-plugin-0.3.0-1.1.noarch.rpm"
-RPM_HASH = "6e6176bc7135df8e324cad694810754128e94fd008f2297758d44b34ee933555e1e583b7b1c6b8f53cfc893c58af31a09d0c738fa1230fabc96c5c483cc730ba"
+RPM_NAME = "zypper-keys-plugin-0.3.0-1.2.noarch.rpm"
+RPM_HASH = "0c25a43b5b7ac121cbd3ed0004165b613a4035590d02adde8408d88fce7ee71de785a8749c620de1c9cf6bfb4c5edb773aaecec2a51c032963705ab72d6aef58"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-zyppkeys \
+RPROVIDES:${PN} += "python3.11dist-zyppkeys \
 python3dist-zyppkeys \
 zypper-keys-plugin"
 

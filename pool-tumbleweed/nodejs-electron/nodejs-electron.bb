@@ -2,10 +2,10 @@ SUMMARY = "Build cross platform desktop apps with JavaScript, HTML, and CSS"
 DESCRIPTION = "Nodejs application: Build cross platform desktop apps with JavaScript, HTML, and CSS"
 LICENSE = "AFL-2.0 & Apache-2.0 & blessing & BSD-2-Clause & BSD-3-Clause & BSD-Protection & BSD-Source-Code & bzip2-1.0.6 & IJG & ISC & LGPL-2.0-or-later & LGPL-2.1-or-later & MIT & MIT-CMU & MIT-open-group & (MPL-1.1 | GPL-2.0-or-later | LGPL-2.1-or-later) & MPL-2.0 & OpenSSL & SGI-B-2.0 & SUSE-Public-Domain & X11"
 
-PV = "22.3.11"
+PV = "22.3.14"
 
-RPM_NAME = "nodejs-electron-22.3.11-1.3.aarch64.rpm"
-RPM_HASH = "141bfdfbac98edd064803974eb0e46f60535fac2badf197cc51db3f596b3e9757cb8de693f58900a6609f6b049827e06cb9cbb75b541a49d0c58e5a7fafa657d"
+RPM_NAME = "nodejs-electron-22.3.14-1.1.aarch64.rpm"
+RPM_HASH = "884648e08b048ffd8ef04715891eb627a3ac564806b6de9b12c1cc4faf3557c4a15dc3eb4bc3063046335b00a37cf01973c8af67d60fff1285d98f8d22fed9ca"
 
 RPROVIDES:${PN} += "electron \
 electron-abi \

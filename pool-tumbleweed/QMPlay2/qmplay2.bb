@@ -4,10 +4,10 @@ ffmpeg and libmodplug (including J2B). It has an integrated Youtube \
 browser."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "23.06.04"
+PV = "23.06.17"
 
-RPM_NAME = "QMPlay2-23.06.04-1.1.aarch64.rpm"
-RPM_HASH = "27a26c6e4acc95066550e5c37d40f17aaf5c92309e3a6f0f845e0f96df49949b187cd039d738410e2f7a334269253e74f755c9d31c7c8dfebf80b0ed7c16f4d0"
+RPM_NAME = "QMPlay2-23.06.17-1.1.aarch64.rpm"
+RPM_HASH = "9a2efda14eb4d0d9a06d0efa41d7ffae410d9c78d223bd979859814e22d5939890bb9d16cfbceae93cba7c8e46d33a20954293ab97333da3222730bba3588e0a"
 
 RPROVIDES:${PN} += "QMPlay2 \
 libALSA.so \

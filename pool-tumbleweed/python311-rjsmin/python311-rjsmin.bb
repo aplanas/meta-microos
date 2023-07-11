@@ -9,10 +9,11 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2.1"
 
-RPM_NAME = "python311-rjsmin-1.2.1-1.4.aarch64.rpm"
-RPM_HASH = "1b30dce4a411d70a8febddb3e016600884f8041e6f4a9999d2f89c6fe67c304007133132411630ae064a814df3d4e8a3a6eed86f5770ab8d12f3a6db603a6b04"
+RPM_NAME = "python311-rjsmin-1.2.1-2.1.aarch64.rpm"
+RPM_HASH = "997a949a3f2a184dfccea4048257ba0137044ff0386fe1617a5582d17019bf576a2f89efaac981a716213ca541619c5a95b1404faefb12fdabe7481d628d75a4"
 
-RPROVIDES:${PN} += "python3.11dist-rjsmin \
+RPROVIDES:${PN} += "python3-rjsmin \
+python3.11dist-rjsmin \
 python311-rjsmin \
 python3dist-rjsmin"
 

@@ -3,10 +3,10 @@ DESCRIPTION = "Plasma SDK taylored for development of Plasma components, \
 such as Widgets, Runners, Dataengines."
 LICENSE = "GPL-2.0-only & LGPL-2.0-or-later"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "plasma5-sdk-5.27.5-1.1.aarch64.rpm"
-RPM_HASH = "beb5a2e186474cd900615cd7c133d382303bf69b10cced73361ce8ab7fd8e77258e708f07d3302b95b0b69f59e72fc5ee1f1132cf0a95d6879c701e650a16614"
+RPM_NAME = "plasma5-sdk-5.27.6-1.1.aarch64.rpm"
+RPM_HASH = "53b6399b8454002cab0710d1955ad17fccab166d3337b8998254f4a805d0f102a111bfa3f2525ac08997a519ffdabafea0b4fc9eb84548f72c8268cf2fdcd41c"
 
 RPROVIDES:${PN} += "plasma5-sdk \
 plasma5-sdk-zsh-completion"

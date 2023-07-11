@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.90.0"
 
-RPM_NAME = "sysconfig-netconfig-0.90.0-3.2.aarch64.rpm"
-RPM_HASH = "81abeca81e0734b26ed578a8c9ecd15b488988f42242dcfd1c314f6881c88671210e9c12535931ea642c1a1c9ce57860cc9307593321af3deffcaaf72e3f62f4"
+RPM_NAME = "sysconfig-netconfig-0.90.0-3.3.aarch64.rpm"
+RPM_HASH = "a23ddca31b42484958ca40abb58789b921b953472a66ad81c56cd0ef13c7cf554cd829bb9e2370f58f686397b392784817760b64088efe69c02723c1ecd166ce"
 
 RPROVIDES:${PN} += "/sbin/netconfig \
 config-sysconfig-netconfig \

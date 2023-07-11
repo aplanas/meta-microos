@@ -10,12 +10,11 @@ LICENSE = "BSD-3-Clause & EPL-1.0 & LGPL-2.1-only & LGPL-3.0-only"
 
 PV = "7.2.1"
 
-RPM_NAME = "python310-traitsui-7.2.1-1.6.noarch.rpm"
-RPM_HASH = "ae2cc3bfe58ae844504f718757ff321b2fde3e943261e1ac1148ee76553ae954e54c8e4f19d82441621f6b2512ee5d96e736515a34c871b029617f23a789b14c"
+RPM_NAME = "python310-traitsui-7.2.1-1.8.noarch.rpm"
+RPM_HASH = "938bda5a839f3b280557c7809bffdb2b4f4c0870f4a96eb1b1e82c1da8a255d865e88b2cdb32046722384f4978a584f919d261548b01e828784b4c0926099283"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-traitsui \
-python3.10dist-traitsui \
+RPROVIDES:${PN} += "python3.10dist-traitsui \
 python310-traitsui \
 python3dist-traitsui"
 

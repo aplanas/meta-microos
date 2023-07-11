@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later | LGPL-2.1-or-later | MIT"
 
 PV = "1.13.0"
 
-RPM_NAME = "qore-stdlib-1.13.0-1.4.aarch64.rpm"
-RPM_HASH = "f69cf8f33c0ef4e0f57948ee702b929f59f56984148d66ec6b890f4361aa6f9943d019af64800ebf957fdf016db348c060ecd05fbb8f9b3420e6f01d40d479f9"
+RPM_NAME = "qore-stdlib-1.13.0-1.6.aarch64.rpm"
+RPM_HASH = "d37a7a659df1f7eaaf85aeff13fea1adde8a6d27253266311057fef418674c79f519041f60cff27262c7a38e655d6a628713f9138cef67cafc339f0e9ffe0e79"
 
 RPROVIDES:${PN} += "qore-stdlib"
 

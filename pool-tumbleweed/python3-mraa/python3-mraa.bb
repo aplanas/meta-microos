@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "2.2.0"
 
-RPM_NAME = "python3-mraa-2.2.0-2.10.aarch64.rpm"
-RPM_HASH = "83f7acdc34120fbd2369999c40e9bc57a7859ed578b88757690d1f5372f7616b3ae9e0d1372e3f96c2749e787ce6559657e591f986621ae929474278c8e2ccbb"
+RPM_NAME = "python3-mraa-2.2.0-2.11.aarch64.rpm"
+RPM_HASH = "4784f0811f8e5b14c087150e0099da1a4f3072c06e2f96d1a4f1dd003ee2d54f7d347563156606cc719232cf2845349db843ca4bd410d73b7cf99b70eeda538b"
 
 RPROVIDES:${PN} += "python3-mraa"
 
@@ -21,7 +21,7 @@ libc.so.6 \
 libgcc-s.so.1 \
 libmraa.so.2 \
 libmraa2 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libstdc++.so.6 \
 python-abi"
 

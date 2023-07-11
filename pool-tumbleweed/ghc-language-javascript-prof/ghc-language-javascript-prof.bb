@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.7.1.0"
 
-RPM_NAME = "ghc-language-javascript-prof-0.7.1.0-4.3.aarch64.rpm"
-RPM_HASH = "e486a3ef4a046bfbd079a5e8b322d4f7af04bab5b7b31557c2fcd3dcb76dcd3aa78b762a3dd0e19534930823d4befbd216b8cff21aac036cf09a3f6716b8ad15"
+RPM_NAME = "ghc-language-javascript-prof-0.7.1.0-4.6.aarch64.rpm"
+RPM_HASH = "c546bcfe8a1865853536cde80d6f54fda09e8079961d1dda04ccd8dc11bb8460cfd0d8a44d778928deab154899e2bbc4bbec3857877eb153e9279b7d5f0f3317"
 
 RPROVIDES:${PN} += "ghc-language-javascript-prof \
 ghc-prof-language-javascript-0.7.1.0-3FqnIQtG3956Mxug7EpqjM"

@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "7.3.1"
 
-RPM_NAME = "python39-qrcode-7.3.1-2.7.noarch.rpm"
-RPM_HASH = "0cf7cc7c2b4629995fc7ddffd76309801e0a49d1061340983dd92f2aef1628c3ab25d63c8a47325dbf004572da026362ed2c39a87ad818f221c617e72ff69702"
+RPM_NAME = "python39-qrcode-7.3.1-2.9.noarch.rpm"
+RPM_HASH = "aa7824ab411798bb042f7f8b9fd66f65d436070b3a49431e62780c6005e04c46921070237856a8cfa4fb6c3c942e34d894792f8b3f132e76fdabebb04032b844"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-qrcode \

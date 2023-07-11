@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.2.6"
 
-RPM_NAME = "libbtf1-1.2.6-49.1.aarch64.rpm"
-RPM_HASH = "14bda221f68ef380f5961220ea87a48fa71d8fc398e7acc930cf914ded96c7ec85f18e7bf6a70e14e2af256c2f91babb367de69a75d82abf540c5d0b3e1e66c0"
+RPM_NAME = "libbtf1-1.2.6-49.2.aarch64.rpm"
+RPM_HASH = "6f190804f29c71d376de7e046e47d4c2931349b9ac85a16c91cfae6415200e82eef305476b8925c5e5a1c4f14e3b67cfc174322d41229f84f96b7763284b88f2"
 
 RPROVIDES:${PN} += "libbtf-1-2-6 \
 libbtf.so.1 \

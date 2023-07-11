@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "3.6.18"
 
-RPM_NAME = "lua-language-server-3.6.18-1.1.aarch64.rpm"
-RPM_HASH = "630d6349b3fe17464d785f119adb76b5a9394bb5c8e1557c9680fea6b0f9178df1e2cf14ea85d82a5d819ef675a8282ed11ecbb3335590bfeaa71cae140315e1"
+RPM_NAME = "lua-language-server-3.6.18-1.2.aarch64.rpm"
+RPM_HASH = "66781ad94fcc44aaf51bb7450d524531bdae69693f286ad860104197fc1a7b8bf3573b8322885ebec33a0572b9040cf01bc7e118e8ea2e197430632c6ba4c991"
 
 RPROVIDES:${PN} += "lua-language-server"
 

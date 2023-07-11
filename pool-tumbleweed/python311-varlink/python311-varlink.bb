@@ -7,11 +7,12 @@ LICENSE = "Apache-2.0"
 
 PV = "31.0.0"
 
-RPM_NAME = "python311-varlink-31.0.0-1.6.noarch.rpm"
-RPM_HASH = "9cc86839b583ab026db02b0909f094e6c87ce90088080d94340b494354277498cf76dc699a685a5a73dce3023361877c25d00ab7c9c88e8b3062125550010371"
+RPM_NAME = "python311-varlink-31.0.0-1.8.noarch.rpm"
+RPM_HASH = "40d45f22cb0f3b8fe731580c89cd2da41af08b382be3287c98d91102069661588f64bd8cd322f6e6f0df806f505108893433cfc1bc28173f49972a90547d8688"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-varlink \
+RPROVIDES:${PN} += "python3-varlink \
+python3.11dist-varlink \
 python311-varlink \
 python3dist-varlink"
 

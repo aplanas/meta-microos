@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.10.1"
 
-RPM_NAME = "zig-rpm-macros-0.10.1-2.3.noarch.rpm"
-RPM_HASH = "3d6b3b3edc0b3fe24e25430edcd2ec28f432223ee5f64b804f7fd4909138d79beae159d7cf7ae0859d89c72f5b8dc78a64167045b6743b237663cb7b6a47f31f"
+RPM_NAME = "zig-rpm-macros-0.10.1-2.4.noarch.rpm"
+RPM_HASH = "123be5ef83018e49bb27149e4fe06df5c78c4b75a9b3545d041ff150efaa7914799f8f69b23cf341061e754828f5ad1f711daca4b1817ab005fc6c83f5c06230"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rpm-macro--zig-advanced-options \

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.22"
 
-RPM_NAME = "libjte-devel-1.22-1.10.aarch64.rpm"
-RPM_HASH = "d3bdfd1b30e80d487a3fcba58671ac1124ef9bbab990d48784af6ba128800a484553ed004175d30a073e777d7d354a6eb3daefad141b7df63846ad995c507b09"
+RPM_NAME = "libjte-devel-1.22-1.11.aarch64.rpm"
+RPM_HASH = "958ac865c39765fb0ba4e7a4affb43a250f2ea88088412d7490f97d8de9665e0b5a7f819059ce6da5bde4f91f68acf28a32dfbb98c0d39c5b0c6f06d2d1f43aa"
 
 RPROVIDES:${PN} += "libjte-devel \
 pkgconfig-libjte-2"

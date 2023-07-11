@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.0-only"
 
 PV = "3.4.5"
 
-RPM_NAME = "xreader-3.4.5-1.4.aarch64.rpm"
-RPM_HASH = "87214d3af978d7049e068aede69bd6b71f112da4154d9aee5529ca67ed4e63c794c6c40384def397183cace254a631258f47d0ac741afcea9c10df9495457709"
+RPM_NAME = "xreader-3.4.5-1.5.aarch64.rpm"
+RPM_HASH = "e0ad350e04050443e86f0a098004b440e60a6775e208b57a35b5a649d8f60f44a174740ea071e3e33ebce5c468f966332cad48c9175a26ad6080738d57195ca0"
 
 RPROVIDES:${PN} += "caja-extension-xreader \
 nemo-extension-xreader \

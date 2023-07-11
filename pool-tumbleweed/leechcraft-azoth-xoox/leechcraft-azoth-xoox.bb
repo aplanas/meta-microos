@@ -21,8 +21,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-azoth-xoox-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "b0f20df2f5e2f42a65b83d009d9027e23f55596857991d4b750d6168397f17d51269c8b462acbf4980ec61038fd9bcdcd0f8b3d0259f3f8dda61ecfbd0f58265"
+RPM_NAME = "leechcraft-azoth-xoox-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "cbe18ab9fad805e06118e672990ec46291a2d8b49698416896b16ff783b08ff46b3d62b69e9bd47711c2973db36fd16a80cc5862ba8a7ab421fe4c1c8920a803"
 
 RPROVIDES:${PN} += "leechcraft-azoth-protocolplugin \
 leechcraft-azoth-xoox \

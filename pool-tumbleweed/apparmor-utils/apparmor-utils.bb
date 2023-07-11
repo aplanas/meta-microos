@@ -5,10 +5,10 @@ Besides it provides the aa-unconfined server information tool. \
 It is part of a suite of tools that used to be named SubDomain."
 LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
-PV = "3.1.4"
+PV = "3.1.6"
 
-RPM_NAME = "apparmor-utils-3.1.4-1.1.noarch.rpm"
-RPM_HASH = "70c2aa7c181ad95a48bfc1a1d762acac70df99a5fd8cba61c9c46a2ce5db11e56cb915930171c403cdb9dc346a061b656e29542abdf9e53e623994e45b91ee3d"
+RPM_NAME = "apparmor-utils-3.1.6-1.1.noarch.rpm"
+RPM_HASH = "deac315879ad9c9a23eea0b25a772629fe1cd1603ff8d1ff1b2b3a855eaa896d5445313b734f546bb105d0da01403b09dbe215cffdf0c5310b9727e69d5f59ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apparmor-utils \

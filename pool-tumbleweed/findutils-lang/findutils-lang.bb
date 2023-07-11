@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.9.0"
 
-RPM_NAME = "findutils-lang-4.9.0-2.3.noarch.rpm"
-RPM_HASH = "ab351318de5fa1191b5d78e7392822ef56e71956bfa4843e88dfc5657b7993b5bc6d2051231e1dd393618647bceba4acf5fd904367f1484fbb70b5baf5753ff6"
+RPM_NAME = "findutils-lang-4.9.0-2.5.noarch.rpm"
+RPM_HASH = "aab769860ec627847295fb003e1483082a6ba69bc298c635ccea430fbc8bfa548f76b0a60892bac35b1b6087222c13eb8bc59f0cba1ac32bde84e64ce3591524"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "findutils-lang \

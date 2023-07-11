@@ -20,8 +20,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.8"
 
-RPM_NAME = "fbterm-1.8-2.8.aarch64.rpm"
-RPM_HASH = "7a85de22840e2e6c9157b86a40181c8c4ffa87cfd8b1684e4b313eb974566e79c9db63fd8b292aaa3e28bbd9c97d3c747f1420202a05c3bbabd7fe598c32aa4d"
+RPM_NAME = "fbterm-1.8-2.9.aarch64.rpm"
+RPM_HASH = "c639896ab632b1fb2afd9f23acfe127acaa900176b424c03e0322c79d7784d779a619cfe4aa87d4309cca46e6ce272010da441cd7d7c21ad7f4626ed6d9d6951"
 
 RPROVIDES:${PN} += "fbterm"
 

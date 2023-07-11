@@ -18,14 +18,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.14"
 
-RPM_NAME = "perl-Module-Build-WithXSpp-0.14-3.24.noarch.rpm"
-RPM_HASH = "8f28b13dd8016cb6edcc430f3a6233d11651f07089bf40f282eac85697e794d47bdfb90c2789cb349214bc613e0f0f675dce9136ddaac7ebdf311506348a0b27"
+RPM_NAME = "perl-Module-Build-WithXSpp-0.14-3.25.noarch.rpm"
+RPM_HASH = "c66878c3972f59d0537ecac39791b4ff04948a53bad4d60020f50d5f04096ccb9f420705e6a4d96dd8559de614fde22ac4c9e367fc333c606a133ba948337bc7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Module--Build--WithXSpp \
 perl-Module-Build-WithXSpp"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-ExtUtils--CBuilder \
 perl-ExtUtils--CppGuess \
 perl-ExtUtils--ParseXS \

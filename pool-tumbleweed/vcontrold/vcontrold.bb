@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "v0.98.10+git20210418.977e6f5"
 
-RPM_NAME = "vcontrold-v0.98.10+git20210418.977e6f5-1.9.aarch64.rpm"
-RPM_HASH = "5a310f46481270d6e8751caeb751da3ebf5154abe32c9bce45a779accdb0fefb7e66fc71e58dd4beb1a7b8c1270fad76b7c64ee5642c4a3b92c2054a0d901f21"
+RPM_NAME = "vcontrold-v0.98.10+git20210418.977e6f5-1.10.aarch64.rpm"
+RPM_HASH = "d91ced356bea2cc75a958c524ee01d55596c53819d701d9ec0be08608e89a00601aec0b2f3bf716320fecb87d333f15fbaea206aaec590cbdf80ccfecc32e35a"
 
 RPROVIDES:${PN} += "config-vcontrold \
 group-vcontrold \

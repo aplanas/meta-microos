@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.12.1"
 
-RPM_NAME = "python39-cytoolz-0.12.1-1.4.aarch64.rpm"
-RPM_HASH = "1604116bc755a9ff7980b7561bb3eca5bd5cbd124232f39f2b838ed117767bcff0b3af777c2964b3bcfa151ab7cc879ed71d8b4b99d33fb723a4aadd78514799"
+RPM_NAME = "python39-cytoolz-0.12.1-1.6.aarch64.rpm"
+RPM_HASH = "d350f65806e8d9c895b2a88075bba26916c5655ef5af91e344e0f32b3503ac991af2ecf77a8625425125fd51df912ceda5556695e5ab751dba62a80f98e4d5e4"
 
 RPROVIDES:${PN} += "python3.9dist-cytoolz \
 python39-cytoolz \

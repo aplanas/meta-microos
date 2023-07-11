@@ -11,8 +11,8 @@ LICENSE = "GPL-3.0-or-later & MPL-2.0"
 
 PV = "2.4.0~git18.37ec5cd"
 
-RPM_NAME = "389-ds-devel-2.4.0~git18.37ec5cd-1.2.aarch64.rpm"
-RPM_HASH = "6961b9e8ad79b5437b12c5dccc91c38f94addba8eb709afd8cd7af533d7ba3a674050de4e8ee6f4edbf09290d2b14ed298086b7509aba748a9ea4ea2fa270296"
+RPM_NAME = "389-ds-devel-2.4.0~git18.37ec5cd-1.3.aarch64.rpm"
+RPM_HASH = "599aead40ebdf531c39c1e74de496f3ad6d17e8de58cdd1c70b74f4ebee802c72f8269cdbe6db0663b5817b6cdf855bb346cb62d31234a467f0f23dc1ee7df47"
 
 RPROVIDES:${PN} += "389-ds-devel \
 pkgconfig-dirsrv \

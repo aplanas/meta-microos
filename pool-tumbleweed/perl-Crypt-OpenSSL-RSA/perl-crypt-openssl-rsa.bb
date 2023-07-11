@@ -11,8 +11,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.33"
 
-RPM_NAME = "perl-Crypt-OpenSSL-RSA-0.33-1.4.aarch64.rpm"
-RPM_HASH = "02ccd02104e4484fa5cafe0df32bc56ec3904a43b934830d2dfc2444cf4000313c5dd01be613a34722e34e542fff364b86c0506222db63aca39a5d615088dc14"
+RPM_NAME = "perl-Crypt-OpenSSL-RSA-0.33-1.5.aarch64.rpm"
+RPM_HASH = "a89ad20f061f647d802ebb157fb8af3cbd84fbb4f389cb58c270bfdf577298a30aecdc063d3af6be2a0d801b799a72fa20010c474e3c428419e89bcf3672eb15"
 
 RPROVIDES:${PN} += "perl-Crypt--OpenSSL--RSA \
 perl-Crypt-OpenSSL-RSA"
@@ -20,7 +20,7 @@ perl-Crypt-OpenSSL-RSA"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-Crypt--OpenSSL--Random"
 
 inherit rpm

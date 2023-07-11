@@ -5,12 +5,11 @@ LICENSE = "ZPL-2.1"
 
 PV = "4.6"
 
-RPM_NAME = "python310-zope.exceptions-4.6-1.3.noarch.rpm"
-RPM_HASH = "107ccceddf91c589eb88a88dd9b292af0fde29fe11c04071167aec48ca1d3a3bc67833e966023418640ee6f6b48d6178519e1666b2bd5fd9b859be940799e2a7"
+RPM_NAME = "python310-zope.exceptions-4.6-2.2.noarch.rpm"
+RPM_HASH = "1560bdf6d5ff9b0a4cc478ae94221390be1d532b95894c97157f1442fedd5b4bd43d22a806ff2f1f46ba438bd30dafd81e397a62b30c8aa12531f40f66e502f5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-zope.exceptions \
-python3.10dist-zope.exceptions \
+RPROVIDES:${PN} += "python3.10dist-zope.exceptions \
 python310-zope.exceptions \
 python3dist-zope.exceptions"
 

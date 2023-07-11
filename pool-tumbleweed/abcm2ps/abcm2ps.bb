@@ -8,8 +8,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "8.14.14"
 
-RPM_NAME = "abcm2ps-8.14.14-1.3.aarch64.rpm"
-RPM_HASH = "098358fb7582c49408ca768d2b71ac2304e9cbde5b47e3fb2532f60b55c3dfa32de0a04d22f01e501d6d228beaf25c78740bc2e2f6e456150fb59c173e027cd6"
+RPM_NAME = "abcm2ps-8.14.14-1.4.aarch64.rpm"
+RPM_HASH = "a71b7c9de0bd6cdb2697d1725ef042e9d32e0fab5c3e739663ced14fe4a1ca40f8cc026732dbcb900283c701678d1b4fd8845eeadeafa2e6a4415e29400326b0"
 
 RPROVIDES:${PN} += "abcm2ps"
 

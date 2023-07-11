@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.7.0"
 
-RPM_NAME = "xfburn-lang-0.7.0-1.3.noarch.rpm"
-RPM_HASH = "6d24b15c13e6e37a434628c0fa4e23606fdc067f1d96bd38fa4cfc9265af4435469d74f9a54958ebffe3af2dd4b75cbe6781ee4de53c0daeb41812806e9fe250"
+RPM_NAME = "xfburn-lang-0.7.0-1.4.noarch.rpm"
+RPM_HASH = "a5f63bd6859a1ee4dc875770b732f65f847733dbc2856125185d88db9049f8a24470d92a06078b9efda440bf513789ac3b2a391fcb329522e7ae0ca7edc46b37"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfburn-ar \

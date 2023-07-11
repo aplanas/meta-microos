@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.8.3"
 
-RPM_NAME = "libcap-ng-utils-0.8.3-2.1.aarch64.rpm"
-RPM_HASH = "d2123e64a81cb7ad78bb2d287eb3c29cddcdd16a9b3f9f99aa3ae49326caffd7bf45179a2270a075f279e395519e74544dd98373718648536b1eb3cd381bec2e"
+RPM_NAME = "libcap-ng-utils-0.8.3-2.3.aarch64.rpm"
+RPM_HASH = "55c8f6498e911c7a43f1b20e7a8723b4f0ef38ee6eba82993bdefdb233d66cfd2a569573b6fce28e1080e0303619a5cee65ea0cdb9f7e7b01abaad96c4c0e59d"
 
 RPROVIDES:${PN} += "libcap-ng-utils"
 

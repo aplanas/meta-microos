@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.4.0"
 
-RPM_NAME = "heaptrack-1.4.0-4.4.aarch64.rpm"
-RPM_HASH = "d41c95fb10a40cbb96fa627e1ce1e93d16b619adda4467ed830009570b06770db1a8880e2a7dc9b01869483c64ef497b8e48d88c29e5cbfd926ebc8ba9d21d9a"
+RPM_NAME = "heaptrack-1.4.0-4.5.aarch64.rpm"
+RPM_HASH = "195b7dd15973e5552c91664ef82dd0e87f0ee89e385605983014e22090199369839d107fea41d002d43ea93bc264af91cfc91a7320016d8402dd365f7bfb6eaf"
 
 RPROVIDES:${PN} += "heaptrack \
 libheaptrack-inject.so \

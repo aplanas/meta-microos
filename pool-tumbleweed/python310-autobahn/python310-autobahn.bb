@@ -3,30 +3,28 @@ DESCRIPTION = "WebSocket allows bidirectional real-time messaging on the Web and
 asynchronous Remote Procedure Calls and Publish & Subscribe on top of WebSocket."
 LICENSE = "MIT"
 
-PV = "22.7.1"
+PV = "23.6.2"
 
-RPM_NAME = "python310-autobahn-22.7.1-1.5.aarch64.rpm"
-RPM_HASH = "65a78a921debd3b5e8d2ed5b1acba3c473b364e9b527b839f3bd385cb45df02491cee6e70ac258aa340fce693c9e41f1101f82f2a0ac3393fcbc5c690012832d"
+RPM_NAME = "python310-autobahn-23.6.2-1.1.aarch64.rpm"
+RPM_HASH = "cf9475dc17fb7c30099cb07cef5aece88164078cc2d2315038b98f73f5d96976959739797e9a9c40b6905cf66ef3de6f7c7323078d21c3e79d381bd63f25ba59"
 
-RPROVIDES:${PN} += "python3-autobahn \
-python3.10dist-autobahn \
+RPROVIDES:${PN} += "python3.10dist-autobahn \
 python310-autobahn \
 python3dist-autobahn"
 
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
 /usr/bin/sh \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 python-abi \
 python310-PyNaCl \
-python310-PyQRCode \
 python310-Twisted \
 python310-argon2-cffi \
 python310-attrs \
-python310-cbor \
 python310-cbor2 \
 python310-cffi \
 python310-flatbuffers \
 python310-hyperlink \
-python310-lz4 \
 python310-msgpack \
 python310-passlib \
 python310-py-ubjson \

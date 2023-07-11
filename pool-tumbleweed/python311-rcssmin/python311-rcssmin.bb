@@ -15,10 +15,11 @@ LICENSE = "Apache-2.0"
 
 PV = "1.1.1"
 
-RPM_NAME = "python311-rcssmin-1.1.1-1.4.aarch64.rpm"
-RPM_HASH = "1294ba66de9a8ee76161ff3cc3ada3ecc4daac56b04c017b9b582eb32c9c06497346a267b5cad93d98f6ad8dbacad9bd1f881ebc4052f89ebeb5bd0733244a4d"
+RPM_NAME = "python311-rcssmin-1.1.1-2.1.aarch64.rpm"
+RPM_HASH = "dd9832014cc2845c68413000bd10b7089777a16987759583287511f403c6643db1f175be37a255bf40b0f7b8fffdb83e62f085f256a479321bc9d717f2313dc8"
 
-RPROVIDES:${PN} += "python3.11dist-rcssmin \
+RPROVIDES:${PN} += "python3-rcssmin \
+python3.11dist-rcssmin \
 python311-rcssmin \
 python3dist-rcssmin"
 

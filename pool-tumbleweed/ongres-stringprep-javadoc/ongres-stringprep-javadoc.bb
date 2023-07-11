@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.1"
 
-RPM_NAME = "ongres-stringprep-javadoc-1.1-1.10.noarch.rpm"
-RPM_HASH = "2af3223068299fd1f1e7d0d02ed1ee0ba3f07fd2cca271d8ba0e4b9db818c1e1e902396c362d444bea29f9dcb46f9abf013d97ad87f950534e76af0aca162cba"
+RPM_NAME = "ongres-stringprep-javadoc-1.1-1.11.noarch.rpm"
+RPM_HASH = "6ef53691f4ab11419e407bd768cf9b3649392afab83fb3e204e2bb92e23ec52880d89b81d00cfec927bb7368247951aa89ba5162303ab313245dda46da76f881"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ongres-stringprep-javadoc"

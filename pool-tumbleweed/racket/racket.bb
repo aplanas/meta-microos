@@ -11,8 +11,8 @@ LICENSE = "Apache-2.0 | MIT"
 
 PV = "8.9"
 
-RPM_NAME = "racket-8.9-1.1.aarch64.rpm"
-RPM_HASH = "1d04577b12106ab124ff5a98a6d9e07ccfe3c8c0cc8292541583bba623bcf715598a6ef8db3c1481c1e37631c1212db6cb2bd116abab6cc9339ce9048e45ecbb"
+RPM_NAME = "racket-8.9-1.3.aarch64.rpm"
+RPM_HASH = "88010a5b37e605cbb581c435bdb8a056be312f3a6290dee7b89de32ed8b14018c3b689106711a1b5f0b5e4c19da2926abc596e3c044a3828227f3b03089b885d"
 
 RPROVIDES:${PN} += "config-racket \
 racket \

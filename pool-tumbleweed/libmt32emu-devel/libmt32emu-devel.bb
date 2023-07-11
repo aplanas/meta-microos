@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
 PV = "2.7.0"
 
-RPM_NAME = "libmt32emu-devel-2.7.0-1.3.aarch64.rpm"
-RPM_HASH = "66e1e3335587c9f9fbbba2d35c8770f9d21e07f503df1d5d750e07f2292d1ac9e7a34268c3e2ccf95dcf0ff2e5d2572781aaf1e0df88f9a2b504eb73f030936c"
+RPM_NAME = "libmt32emu-devel-2.7.0-1.4.aarch64.rpm"
+RPM_HASH = "d6a3e4c4899a3e091941948e24336223fe97a2613d5575810fd59057a36365d96b7f412b1f4ecbf27bf2001e22e3e5ecf6329438801d1487a63a1999050f94c5"
 
 RPROVIDES:${PN} += "libmt32emu-devel \
 pkgconfig-mt32emu"

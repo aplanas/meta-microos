@@ -8,8 +8,8 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "0.12.0"
 
-RPM_NAME = "python39-glucat-0.12.0-3.4.aarch64.rpm"
-RPM_HASH = "102672afa4e25e46f6161540d21256c76084cddf4068c10d700f5d9ee8b7533c82ddec770fdab3eef5075b8ba54303f81ad52100716d4baabfbaf8ef28c24b68"
+RPM_NAME = "python39-glucat-0.12.0-3.6.aarch64.rpm"
+RPM_HASH = "93e273047e4fba5496e7bd1047eb31915c9ce4fbcb1a21f75fb7a0c0ba800e0652b1320f8af78d934ccbeaf38b3b18ef75e0fd160bb003e859df3910deab67b8"
 
 RPROVIDES:${PN} += "python39-glucat"
 

@@ -7,12 +7,12 @@ LICENSE = "Apache-2.0"
 
 PV = "0.7"
 
-RPM_NAME = "nvmetcli-0.7-2.2.noarch.rpm"
-RPM_HASH = "53a44bcb28f03e0aa9916a7c0e20f59450de45dccab8fd56e1d213ac923f9988821034309cdff742361d70aaa5b7d2952713275fc72389bc7eba55c90ef3ff61"
+RPM_NAME = "nvmetcli-0.7-2.3.noarch.rpm"
+RPM_HASH = "a3bb30db4e3ab50421651c4360f215e331e973caa771a2a68f91b38b4d8ce20b66dc0f85bd10dfc64b7fa7fb16033c96208129df9df4290497a02b42213ef599"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nvmetcli \
-python3.10dist-nvmetcli \
+python3.11dist-nvmetcli \
 python3dist-nvmetcli"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

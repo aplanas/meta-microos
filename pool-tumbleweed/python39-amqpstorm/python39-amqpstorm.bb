@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "2.10.4"
 
-RPM_NAME = "python39-amqpstorm-2.10.4-1.5.noarch.rpm"
-RPM_HASH = "113cc6b5b042b7dc35803cdb1505c266403993d8918a7f3cec8b431eedd9a509804f7658aa66feb971ed79da11de3a3a743ce3ed2179afb72b3159393e0fed0c"
+RPM_NAME = "python39-amqpstorm-2.10.4-1.7.noarch.rpm"
+RPM_HASH = "7761f9eab62958ded9281c8804c52594ccad8486b109b2db5a0d39a845090a94fdeb221c1ede4fb24e0512f84741495fd68a0f5389658b87e9701077a7c9c8c7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-amqpstorm \

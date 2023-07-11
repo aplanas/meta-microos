@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "1.1.9"
 
-RPM_NAME = "python311-google_trans_new-1.1.9-1.1.noarch.rpm"
-RPM_HASH = "807c75a8ce0584c4adc213a1510bfae768c66e8935d7ccc1360157d752d94aaa407d205a48805af6b7c25a19dfd64790e508b69454514d34e402bbcd7b3e2a6e"
+RPM_NAME = "python311-google_trans_new-1.1.9-1.3.noarch.rpm"
+RPM_HASH = "4d881f4a10051e7736d9cdea1329f9c5add0dfcbdfec2b2a67b0c075a02486ac2eafe45a2a403dc6bc2043ae1d2765e76f4510b2af8a72237579451b7152c17e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-google-trans-new \
+RPROVIDES:${PN} += "python3-google-trans-new \
+python3.11dist-google-trans-new \
 python311-google-trans-new \
 python3dist-google-trans-new"
 

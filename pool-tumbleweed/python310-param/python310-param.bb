@@ -12,12 +12,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.13.0"
 
-RPM_NAME = "python310-param-1.13.0-1.2.noarch.rpm"
-RPM_HASH = "c750c74824bc652aea0cd05b007bdfd060f10a85de564c60a365b3431a9ddd83a728b9011a4a12c9c1d05c8892f227280a519b5729f236e20458bd4fc6b8dbb1"
+RPM_NAME = "python310-param-1.13.0-1.4.noarch.rpm"
+RPM_HASH = "cdcfd396ee36e3d66e7f163dc943268ca6b048cd15cb658b6cfa4d6ac84ff9dcc661f4b109703bd40429f3432d868e71ca4958f7685870aef105a1aa243e0438"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-param \
-python3.10dist-param \
+RPROVIDES:${PN} += "python3.10dist-param \
 python310-param \
 python3dist-param"
 

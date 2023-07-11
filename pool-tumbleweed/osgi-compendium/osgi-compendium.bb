@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "7.0.0"
 
-RPM_NAME = "osgi-compendium-7.0.0-2.4.noarch.rpm"
-RPM_HASH = "151cd3f64d616dbde60b89a313a3e0d2209b3ee850b82066e668d494b09f3a330a17acd92a77ff1007c0a8ecf16a6a09c79749e2aec1b52a01b37c4d087072e4"
+RPM_NAME = "osgi-compendium-7.0.0-2.5.noarch.rpm"
+RPM_HASH = "94f2ad353bd2a20e604978470b755ab478f706fec60189343fbd77b424a4c69c5242be79e4bfc0f58fd4576856c8fa78b27a9f52a69ff5c65f4ffd47697709f2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.osgi-osgi.cmpn \

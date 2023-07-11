@@ -2,10 +2,10 @@ SUMMARY = "Cockpit component for Podman containers"
 DESCRIPTION = "Cockpit component for managing Podman containers"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "53"
+PV = "70"
 
-RPM_NAME = "cockpit-podman-53-1.3.noarch.rpm"
-RPM_HASH = "73b6ac6a8b072279c9a468c898564ac442b8202eb80d28bf506d11e94b2f01fb516c3782d33f569f81b5e2ba26e4fe4bd437ed65b5ac7aec6ce4a6f63077f4b8"
+RPM_NAME = "cockpit-podman-70-1.1.noarch.rpm"
+RPM_HASH = "2ef51fca610dc9e8559f98ad0f6499f535a33253a3b04fa2dbeb87e6c5ab5f9ac4b0e8488de9175b36b3e5e0497aaff9b2f8cfde9c8196b42f3e3f85e003061c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cockpit-podman"

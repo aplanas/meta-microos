@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "1.2.0"
 
-RPM_NAME = "python311-backports.entry_points_selectable-1.2.0-1.1.noarch.rpm"
-RPM_HASH = "405d26b5a9cdff2d445e335c45964daf8319c066fc6aa07d0076376f739b2c834938fe8c3baca95858c593894111e21518b23f9393185282a47fc9e9da121091"
+RPM_NAME = "python311-backports.entry_points_selectable-1.2.0-2.1.noarch.rpm"
+RPM_HASH = "b5d2ba9608201d2ca0a7065eb1846b25c92f8f3695de185e7491adf0a2b9075b3d75352d101c0f92a1d6dc4a84cab23682b111f689e7fa74f4daae5eef7ac833"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-backports.entry-points-selectable \
+RPROVIDES:${PN} += "python3-backports.entry-points-selectable \
+python3.11dist-backports.entry-points-selectable \
 python311-backports.entry-points-selectable \
 python3dist-backports.entry-points-selectable"
 

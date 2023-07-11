@@ -13,11 +13,10 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.0.1"
 
-RPM_NAME = "python310-pybcj-1.0.1-1.5.aarch64.rpm"
-RPM_HASH = "059c4371261f427f1abce254a29b5b15aa01b8538575a57254a0e925276eee2194a7dddd0eee2dcd604501291a942327b7258728d60aba4bcf52169dddca7ef6"
+RPM_NAME = "python310-pybcj-1.0.1-2.1.aarch64.rpm"
+RPM_HASH = "781390662ce42a0ffb365caa35a1128d9f6dd05f9c0b3a5dd8a7f9a039b319137565ba2ebaf5efdd608b1063a3c2f2f2c42b0c73ad5a60bc1b74e514f8926e53"
 
-RPROVIDES:${PN} += "python3-pybcj \
-python3.10dist-pybcj \
+RPROVIDES:${PN} += "python3.10dist-pybcj \
 python310-pybcj \
 python3dist-pybcj"
 

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.14.6"
 
-RPM_NAME = "partio-doc-1.14.6-1.9.noarch.rpm"
-RPM_HASH = "aa19238940a43992e3d1e2fd14f548d5dc469e1c879cfd532dbb34b1c8ecd7f73966e7f54742ee47f3c3866a1885fa08414ff703dbcf698874b570040f7e9883"
+RPM_NAME = "partio-doc-1.14.6-1.10.noarch.rpm"
+RPM_HASH = "87efc42b72f8bef5b377c2134cb42639757c1b59925325d7254eb7e159bc32d4855a6ab0d27f3e0ba37e6984453df1b71f0c5428db92af92bc0f9bbe65a34603"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "partio-doc"

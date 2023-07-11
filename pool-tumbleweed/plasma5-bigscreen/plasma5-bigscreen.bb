@@ -2,10 +2,10 @@ SUMMARY = "Plasma Bigscreen"
 DESCRIPTION = "Plasma shell for TVs."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "plasma5-bigscreen-5.27.5-1.1.aarch64.rpm"
-RPM_HASH = "3e03535dd9ee505e6b2df05945d90397908df7e300a6a21930a67a73560f698b02b0cd4809e263eea9659d146a881d30f4a428f92eafbb087897bb95536cb135"
+RPM_NAME = "plasma5-bigscreen-5.27.6-1.1.aarch64.rpm"
+RPM_HASH = "b76bbde1510099069d1fc7a0bb2e282eb19f602948bb850e54ac10c25fccb08c971224f2aa6ef1aa9b43fcc8ce7f813fbf0b68280908851504aad37318a4bf2d"
 
 RPROVIDES:${PN} += "libbigscreenplugin.so \
 plasma5-bigscreen \

@@ -4,8 +4,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2023.201.0.0.9svn54080"
 
-RPM_NAME = "texlive-recipe-doc-2023.201.0.0.9svn54080-53.1.noarch.rpm"
-RPM_HASH = "f10e632a60123019382ae0adb84da60a05cd784ad981611d0fe085c3bd63927f5c274f2ab7b427ff43ccd3628191c2a10ea8614d65fa4197a69bd01c5d24aade"
+RPM_NAME = "texlive-recipe-doc-2023.201.0.0.9svn54080-53.2.noarch.rpm"
+RPM_HASH = "0f78cdeb7d576b39e9c743c7b2072e6c03a2b467d0dbc51b928d273e965917d45566267f2a84a9f624403eff36b6078bdd450b7db580894854dfc98e8db850d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-recipe-doc-it \

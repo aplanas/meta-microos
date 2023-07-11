@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.2.0"
 
-RPM_NAME = "lxqt-policykit-1.2.0-1.2.aarch64.rpm"
-RPM_HASH = "050552add74ef4f2b0a9b45f07660dc0795d01070413a30540d446de5b94707cf5669c670a472c97808ea859e27997654340eae98e8a08ac4a1ec0658e7d83b0"
+RPM_NAME = "lxqt-policykit-1.2.0-1.3.aarch64.rpm"
+RPM_HASH = "3ff818c32fe40822806932cb2c8a4c1ec7ffd857201b0b07d20e5e85957cf4ae61a4c9043fd189d19c754d588078fa928724c01e259b84d3217e766833b58b16"
 
 RPROVIDES:${PN} += "config-lxqt-policykit \
 lxqt-policykit"

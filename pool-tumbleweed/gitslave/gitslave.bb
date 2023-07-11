@@ -7,8 +7,8 @@ LICENSE = "SUSE-Gitslave"
 
 PV = "2.0.2"
 
-RPM_NAME = "gitslave-2.0.2-9.17.noarch.rpm"
-RPM_HASH = "f56d65f876a8ce3e0cb528142e5d6fa9d433571d0afb40b2522492cdd324a62353d9dbcc8355c3995d0b5ac19e58a341c8705baccdf0b46d63d83ee743b29d7b"
+RPM_NAME = "gitslave-2.0.2-9.18.noarch.rpm"
+RPM_HASH = "70f7473499335950966f48603a81abcfd16f4e5cf09975479421d630aea1ccc092206207dd79dc1cc67533005d6b0e180edf80fc1f5870b77eadc132aa656fe1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gitslave"

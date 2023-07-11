@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
 PV = "3.0.0"
 
-RPM_NAME = "boomaga-lang-3.0.0-3.11.noarch.rpm"
-RPM_HASH = "ff4018daa3da3e613d201c69339dd4d51d030739da3723f4ffa974663da612068bb3bf181a2ac18e3532605241ffdb54be8dcfec671312079317188d187f2b37"
+RPM_NAME = "boomaga-lang-3.0.0-3.12.noarch.rpm"
+RPM_HASH = "dff330fc8fb77d90b0a0ff86fa05f13a404b019aa79409b4261a672b33d3bc7dde8c73576ceea5c1650fa8e5649958dac238f819a8bc4709a1fc1cf50f960645"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "boomaga-lang \

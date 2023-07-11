@@ -2,10 +2,10 @@ SUMMARY = "Development files for coq"
 DESCRIPTION = "This package contains development files for Coq."
 LICENSE = "LGPL-2.1-only"
 
-PV = "8.17.0"
+PV = "8.17.1"
 
-RPM_NAME = "coq-devel-8.17.0-1.1.aarch64.rpm"
-RPM_HASH = "00bc41e38714c0e8ae2a5e21c4095b3b75a5b63a8859f75fd16195928c94323815460d8e0c90ae40fb2153cd329333319fadf7197453abbda5f574ba1b3d0a01"
+RPM_NAME = "coq-devel-8.17.1-1.1.aarch64.rpm"
+RPM_HASH = "44c07358676ae501abe2a92725cd02832e2ec7dbd979655025555dee1f3f438e6b155f8ce0cca50d4032f7dbe8c73601c4aa475e7ec1aa0eb353f30c8c3807e6"
 
 RPROVIDES:${PN} += "coq-devel \
 ocaml-Abbreviation \

@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt6SensorsQuick6-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "036a907df12ed1cdd36d9665d2ef20cdcfb4f63cf4504639b2f9b5d697d1646e19d91534aa58eb03735a884804d53990e1c7e628e1232f4c5de6c07548dcb9c0"
+RPM_NAME = "libQt6SensorsQuick6-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "b75c75a257da68b2a1669128af5db0dbd965509eb543be08da8b7a8eea42ffb493ba62594f5ed730ae7878ee5554eb8a1818356836764a0d183db028288f4184"
 
 RPROVIDES:${PN} += "libQt6SensorsQuick.so.6 \
 libQt6SensorsQuick6"

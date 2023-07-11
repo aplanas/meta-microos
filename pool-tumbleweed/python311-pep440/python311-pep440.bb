@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.1.2"
 
-RPM_NAME = "python311-pep440-0.1.2-1.4.noarch.rpm"
-RPM_HASH = "db8a0db59ff5cf84a5b77e399e6b70832f531eb127a5f69447584b11351bed257342dda628dd934abd04128bb437b4e80854f1797be29e5c300f3a95eb1f510a"
+RPM_NAME = "python311-pep440-0.1.2-1.6.noarch.rpm"
+RPM_HASH = "482b0652b2c37991ba9355cf56083e18794c6ac52841b3037640ff2c2e96a610f5fa3203aaa7dab87d6f4e16a5d6c43ce1ecde5b36d6632d60564656489fc909"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pep440 \
+RPROVIDES:${PN} += "python3-pep440 \
+python3.11dist-pep440 \
 python311-pep440 \
 python3dist-pep440"
 

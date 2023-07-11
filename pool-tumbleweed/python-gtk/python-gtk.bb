@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.24.0"
 
-RPM_NAME = "python-gtk-2.24.0-22.8.aarch64.rpm"
-RPM_HASH = "2b6affaea934e34ccf77caa5daebb28befe48966183a42a9502c0b95814292420ffa0cd3a5596440e3141cfc791a437e47bfd31acc94108e74e4ebead145c7bc"
+RPM_NAME = "python-gtk-2.24.0-22.9.aarch64.rpm"
+RPM_HASH = "2fb4a64aa445567b0501a849275c8942dbea41f62a90388d38e3e7e6635c2b06b1758750398c194d2bc0871a853fb1296bf62a3bb398f217428f1ee1b880a2e1"
 
 RPROVIDES:${PN} += "pygtk2 \
 python-gtk \

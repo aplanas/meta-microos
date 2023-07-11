@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.25.0"
 
-RPM_NAME = "python39-linode-cli-5.25.0-1.4.aarch64.rpm"
-RPM_HASH = "2484dccf192a1dadc20829fea6622a122e180ddd55333a712f2508664004b9489d6c79d7cc1922387c37c43eb4ded8bcb65d854b9fcad93160b1f8554b022a53"
+RPM_NAME = "python39-linode-cli-5.25.0-1.6.aarch64.rpm"
+RPM_HASH = "771bb575a0bcc23615e242afa80016a3cb26bca1a79865b5c4228fb7cf458dbd7778b6c1c548d2d81f8e6575efc503d7423dde296bb8d1fb7a6b09445839f8be"
 
 RPROVIDES:${PN} += "python3.9dist-linode-cli \
 python39-linode-cli \

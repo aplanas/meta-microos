@@ -11,8 +11,8 @@ LICENSE = "PostgreSQL"
 
 PV = "12.15"
 
-RPM_NAME = "postgresql12-server-12.15-1.2.aarch64.rpm"
-RPM_HASH = "5d109355b670d4ce067a9489176812c2599b66c99065ce1c063d0b4c08f301140abd3b0fe66be6921716d115c793c62963591ccbfa68cefeb53d83fc03f3e8c6"
+RPM_NAME = "postgresql12-server-12.15-1.5.aarch64.rpm"
+RPM_HASH = "84b4eb5430f60dc4321da6a1f7d7d594b022a02b1e04c71158b3012b73d58433352067f0323696ca784b3b93ba2c7a4d3b8757f83c089f992fff5f115d547165"
 
 RPROVIDES:${PN} += "libpqwalreceiver.so \
 postgresql-server-implementation \

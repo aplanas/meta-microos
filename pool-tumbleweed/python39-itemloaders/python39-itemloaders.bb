@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.6"
 
-RPM_NAME = "python39-itemloaders-1.0.6-1.3.noarch.rpm"
-RPM_HASH = "0f444d4c16e569c16d8667cb4ee1e1471420004458e1d90ebc420cac69c505dd9e96e6ba0982a08b7ac61f91854d84b562849bcf702b394646ee4ce9933bda38"
+RPM_NAME = "python39-itemloaders-1.0.6-1.5.noarch.rpm"
+RPM_HASH = "d402dea48ddf58e80a51d0cd60171ddaf5c7e52d3311108afc38b1d9eb10b9aab2e2e597b2c8e3dc86fee0bfd532e452e0e98b3e964833bb8c92e0c88cd23252"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-itemloaders \

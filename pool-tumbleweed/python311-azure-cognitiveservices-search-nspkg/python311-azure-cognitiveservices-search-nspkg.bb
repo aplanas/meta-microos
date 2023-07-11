@@ -8,11 +8,12 @@ LICENSE = "MIT"
 
 PV = "3.0.1"
 
-RPM_NAME = "python311-azure-cognitiveservices-search-nspkg-3.0.1-3.9.noarch.rpm"
-RPM_HASH = "9819bdc11626c2821e2ca3ab093aeb47c2fade5da3e7f090f58a628d765dfae16e8f07972209a982b9e7a629401a3c7607256f77760055a550ac19f2aac71468"
+RPM_NAME = "python311-azure-cognitiveservices-search-nspkg-3.0.1-3.10.noarch.rpm"
+RPM_HASH = "bd79308d14f9015a55d12b941d96b802721e23b52606a597aca81bcd735a4b24239ce25ae2c3aacc89d9950ce8ce8490d19895b6f34bd6fcaa567d03476620c7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-cognitiveservices-search-nspkg \
+RPROVIDES:${PN} += "python3-azure-cognitiveservices-search-nspkg \
+python3.11dist-azure-cognitiveservices-search-nspkg \
 python311-azure-cognitiveservices-search-nspkg \
 python3dist-azure-cognitiveservices-search-nspkg"
 

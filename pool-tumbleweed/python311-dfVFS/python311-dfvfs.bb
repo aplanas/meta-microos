@@ -17,11 +17,12 @@ LICENSE = "Apache-2.0"
 
 PV = "0~20221224"
 
-RPM_NAME = "python311-dfVFS-0~20221224-2.1.noarch.rpm"
-RPM_HASH = "15d44af030da347a4d2de2bcc85407a3d63d96d3ac09fad4743883f8a76fe52bfd94987dbff9e7eca1cc7a0f34cdd3cd1884b3a68161ab1023608dfb97120742"
+RPM_NAME = "python311-dfVFS-0~20221224-2.3.noarch.rpm"
+RPM_HASH = "ddb30eba46ca71cb04ecc808456b25cf604366a8762fa4ee4438b87b635c497fc47119c175e68b2552fc84f54b9cb295b1a66ec45e2959013d8344e680b30181"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-dfvfs \
+RPROVIDES:${PN} += "python3-dfVFS \
+python3.11dist-dfvfs \
 python311-dfVFS \
 python3dist-dfvfs"
 

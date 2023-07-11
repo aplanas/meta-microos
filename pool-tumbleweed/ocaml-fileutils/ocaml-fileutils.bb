@@ -11,8 +11,8 @@ LICENSE = "SUSE-LGPL-2.0-with-linking-exception"
 
 PV = "0.6.4"
 
-RPM_NAME = "ocaml-fileutils-0.6.4-1.3.aarch64.rpm"
-RPM_HASH = "2eff37715089ce1aa075cb5d8e2ba3f639dabe2ad8ac99e63057c8a3cae901e7b804f8edc1ad95dfe08639c6c50eea70bd6e3ad7faa90a74cb4ae041a19d92a8"
+RPM_NAME = "ocaml-fileutils-0.6.4-1.4.aarch64.rpm"
+RPM_HASH = "69e20861732b5769b5a63aa2c4bc09bae001f0d350784f07bfb33355fd71ef7e7e4258373e77f41b5a3c129bb5e3dcc2849e7e8d4c24fa89a4cffb4ae764d59f"
 
 RPROVIDES:${PN} += "ocaml-fileutils"
 

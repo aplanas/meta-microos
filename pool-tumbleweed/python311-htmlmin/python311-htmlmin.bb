@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.12"
 
-RPM_NAME = "python311-htmlmin-0.1.12-3.13.noarch.rpm"
-RPM_HASH = "f06d5c69179694b4917be4497ed8cc339600c25b5a32095701a54cc9121d4df27bf81f5baccd9be1c49f634743816520062b3572a496d9549fabd676d58ae108"
+RPM_NAME = "python311-htmlmin-0.1.12-3.15.noarch.rpm"
+RPM_HASH = "1faff5f1908b69fb3ebe5542211dc8a9785ad5fe649bb8de6b190bc6ac761172f6291caaadbaa19ad2e5bc9a00f6b729e83795b31b45542fedc50168634b4ebe"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-htmlmin \
+RPROVIDES:${PN} += "python3-htmlmin \
+python3.11dist-htmlmin \
 python311-htmlmin \
 python3dist-htmlmin"
 

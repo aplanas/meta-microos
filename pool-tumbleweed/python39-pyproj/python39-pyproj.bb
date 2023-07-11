@@ -20,10 +20,10 @@ This project has a git repository https://github.com/pyproj4/pyproj \
 where you may access the most up-to-date source."
 LICENSE = "SUSE-Public-Domain & X11"
 
-PV = "3.5.0"
+PV = "3.6.0"
 
-RPM_NAME = "python39-pyproj-3.5.0-1.1.aarch64.rpm"
-RPM_HASH = "a9135f73b63cf694274f2a8d16842338b40253926c271b4243cb8ee75d176f1a2239fce58576f165cb65465086485f68674aa3efeb8afffe16ad981d0101f95e"
+RPM_NAME = "python39-pyproj-3.6.0-1.3.aarch64.rpm"
+RPM_HASH = "0b9ecff4046cc31403d4e509c69d268e57c098b4214dd6001f19ba188a451fbe2f16471f07ef87529f388f5fc2fcd94b6051705762d5c23283d8e56980892b9c"
 
 RPROVIDES:${PN} += "python3.9dist-pyproj \
 python39-pyproj \

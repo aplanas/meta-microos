@@ -4,15 +4,16 @@ discovers your books automatically, and sorts them by categories, genres and \
 authors."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.0.1"
+PV = "1.1.0"
 
-RPM_NAME = "arianna-1.0.1-1.1.aarch64.rpm"
-RPM_HASH = "109a078892a9a0b76629f33f54e20092e5067dd5eb4d17124ee067daf84af870a1f154b3af58485df5c7d4995d9e92e0c5430b282a4e7307ddacb47807de0032"
+RPM_NAME = "arianna-1.1.0-1.1.aarch64.rpm"
+RPM_HASH = "e0f6df26832b5b0fa692f07c94121d99cd7871dace21055142727acb0d185b0b3aee114566afba8d6cbc8d2f8f55e4c58def5fcb6e5d3dd11af211aca875e12a"
 
 RPROVIDES:${PN} += "arianna"
 
 RDEPENDS:${PN} += "kirigami-addons \
 kirigami2 \
+kquickcharts \
 ld-linux-aarch64.so.1 \
 libKF5Archive.so.5 \
 libKF5Baloo.so.5 \

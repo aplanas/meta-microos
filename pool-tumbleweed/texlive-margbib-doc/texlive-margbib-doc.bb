@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-margbib"
 DESCRIPTION = "This package includes the documentation for texlive-margbib"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.0csvn15878"
+PV = "2023.208.1.0csvn15878"
 
-RPM_NAME = "texlive-margbib-doc-2023.201.1.0csvn15878-52.1.noarch.rpm"
-RPM_HASH = "f006c67f8bcee1b850fcfed491b0012ae1bacc79c9c82e7daff6d42209a07f44db87d0863d7fba2ff18696b1b6e6101cc1b7dd4b93bfaedb8ee6ca4b1170c394"
+RPM_NAME = "texlive-margbib-doc-2023.208.1.0csvn15878-53.1.noarch.rpm"
+RPM_HASH = "a7544e91aa8432b4f03e54415705280777a8642e02f167743558f7322905f2e60f0574ad565d58f43cb502be0ac8648b76e0ee2237cb30eb7d318d7c058467a1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-margbib-doc"

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.0.4"
 
-RPM_NAME = "gnome-recipes-lang-2.0.4-1.17.noarch.rpm"
-RPM_HASH = "0c9215476f190baa5edeca65c475492b42604e50eef066d662c989334c6afdbbe59fd96b1b828f8e6c94cadfa0f03850a6058a9dd91ebb9e553aadf64027bc3d"
+RPM_NAME = "gnome-recipes-lang-2.0.4-1.18.noarch.rpm"
+RPM_HASH = "2d841040b3c19299cc25611fb23353b5ef83a2d9d1b062ee3fa85cbeeaeee745a527ae5035e59553855832bef2c7b6fad1c89f8994d0fcbd08155fa978f32937"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-recipes-lang \

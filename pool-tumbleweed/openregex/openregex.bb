@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "1.1.1"
 
-RPM_NAME = "openregex-1.1.1-3.13.noarch.rpm"
-RPM_HASH = "bd89ee70200691eff6629fa26fe918290fe36d1f87ec075e0a6548043637ddcc82f66af9080f356f7ad707841702d6f8004222f5b78553ac8c3cb608ad5080a3"
+RPM_NAME = "openregex-1.1.1-3.14.noarch.rpm"
+RPM_HASH = "fac96982cbacd53325b64002f43c6257915c4a070b4f7f3c55e0dfebe838273a5ba3292431255af518a3212a0d86659436b5a3a9f66141f9757c4fc8414247bb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-edu.washington.cs.knowitall-openregex \

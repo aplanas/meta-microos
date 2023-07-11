@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
 PV = "3.2.1"
 
-RPM_NAME = "freeradius-server-perl-3.2.1-1.3.aarch64.rpm"
-RPM_HASH = "1ddb986a8ef423d4f3ee3fb3e4b53e6cbeeba3b852c897dd96eab024aece9b5db4fd431dcd7c6e108bbf6d2db3b25b635f184c35dd73b5d220b5b8dcca9bf11f"
+RPM_NAME = "freeradius-server-perl-3.2.1-1.6.aarch64.rpm"
+RPM_HASH = "aabc273e856b36de743fe61f19ef6e3f02e31c5175e42259e5f5cdd9547bda6c9a49a8b357e976efefab31cd6d3f494801603612acca8da918197ca595a365c2"
 
 RPROVIDES:${PN} += "config-freeradius-server-perl \
 freeradius-server-perl"

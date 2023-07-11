@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "0.4.0"
 
-RPM_NAME = "python311-kmatch-0.4.0-2.3.noarch.rpm"
-RPM_HASH = "02df12b20ad0f2271b6532dacbc4ce070cd74875d5c1b9d8c5d719a9a148f2119e8a9b893467df238fe75962e00ac56cb90ee9fda0540c57b9625c563d55d07b"
+RPM_NAME = "python311-kmatch-0.4.0-2.5.noarch.rpm"
+RPM_HASH = "44d19e9de6f02d0b95b98cd00a6c32bcc49dd5fa3a5a3051e0765b5e61235c8af85615ee94e5ac9187a29cf96337111af913a7092647424066981c56a931e62a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-kmatch \
+RPROVIDES:${PN} += "python3-kmatch \
+python3.11dist-kmatch \
 python311-kmatch \
 python3dist-kmatch"
 

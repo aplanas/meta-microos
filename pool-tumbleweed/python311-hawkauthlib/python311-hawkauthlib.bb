@@ -5,11 +5,12 @@ LICENSE = "MPL-2.0"
 
 PV = "2.0.0"
 
-RPM_NAME = "python311-hawkauthlib-2.0.0-5.8.noarch.rpm"
-RPM_HASH = "4f76a221db1176f3c7824be102f316bcbcbe14deb6aa6ea6113465bc82665d5f068951039cc0fe8920cb1b87450f2560720e5e2ce3cd1e8a4560c7f551a327d0"
+RPM_NAME = "python311-hawkauthlib-2.0.0-5.10.noarch.rpm"
+RPM_HASH = "92e0082cfe9e2d7eeac5539ffc2404c1eb5b7491044680d67b1747be6d6184d84881cf5a2eba25e532c54291bdcb16e712485632b688f3322736648e614ae929"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-hawkauthlib \
+RPROVIDES:${PN} += "python3-hawkauthlib \
+python3.11dist-hawkauthlib \
 python311-hawkauthlib \
 python3dist-hawkauthlib"
 

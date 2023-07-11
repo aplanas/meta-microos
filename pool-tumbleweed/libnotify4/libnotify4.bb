@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.8.2"
 
-RPM_NAME = "libnotify4-0.8.2-1.3.aarch64.rpm"
-RPM_HASH = "17055bdb3a216c1770aaed47ba18f26b4d09f9613fb943860221c7b654b19da7842b0c83f2fdeccc4778fb01a99a7fa13712d7a7400974cafbdc5144a7b06556"
+RPM_NAME = "libnotify4-0.8.2-1.4.aarch64.rpm"
+RPM_HASH = "3b469ffa396d68abcfe5a7c781d387e0fe3b7db0732a28bf4ceed1e51acb611ffe7f4c57420a89acc578ff269580a697ec0e72e253b6aeac31a24735bcf2dca1"
 
 RPROVIDES:${PN} += "libnotify.so.4 \
 libnotify4"

@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "0.9.0"
 
-RPM_NAME = "python311-azure-cognitiveservices-vision-computervision-0.9.0-1.8.noarch.rpm"
-RPM_HASH = "b6f8528ee79392609b57ba4b9e0e6ea2fb995435f530a3f582becebc1be4c4265b257cad0c096e215161d621167afb2e56f83302278f0aaca7e72df7fba31f88"
+RPM_NAME = "python311-azure-cognitiveservices-vision-computervision-0.9.0-1.9.noarch.rpm"
+RPM_HASH = "98187e43d6227852bbb234ef3710b1e65e65494db4d374c156c06ffd31c1717eb1d5cfe4bfc0f47a70ce680c0533d69b9a89879aae08b2a2bf1cfe29b8d054f2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-cognitiveservices-vision-computervision \
+RPROVIDES:${PN} += "python3-azure-cognitiveservices-vision-computervision \
+python3.11dist-azure-cognitiveservices-vision-computervision \
 python311-azure-cognitiveservices-vision-computervision \
 python3dist-azure-cognitiveservices-vision-computervision"
 

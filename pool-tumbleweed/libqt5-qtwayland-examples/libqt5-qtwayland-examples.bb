@@ -2,10 +2,10 @@ SUMMARY = "Qt5 wayland examples"
 DESCRIPTION = "Examples for libqt5-qtwayland module."
 LICENSE = "BSD-3-Clause"
 
-PV = "5.15.9+kde55"
+PV = "5.15.10+kde51"
 
-RPM_NAME = "libqt5-qtwayland-examples-5.15.9+kde55-1.1.aarch64.rpm"
-RPM_HASH = "568aa9ce7576f8e33215fb5c4ac83415e8d8225bd1f2edf4d2e58f75bd745b208bdcb23f4e11cd8c84c44d3dda22d95547fe78c57a3a6ee2ff97aa67e0ff5b5c"
+RPM_NAME = "libqt5-qtwayland-examples-5.15.10+kde51-1.1.aarch64.rpm"
+RPM_HASH = "8ddb8609425ad413e5b44c8032e95ba24249b9ebbed5a79b83c33aa82cf8d90f54bc7113de5f85314eb48c384228dbe00e23ffa071902c895cedf0f5a1142da4"
 
 RPROVIDES:${PN} += "libqt5-qtwayland-examples"
 

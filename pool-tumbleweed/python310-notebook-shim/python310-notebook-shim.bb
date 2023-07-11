@@ -5,12 +5,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.3"
 
-RPM_NAME = "python310-notebook-shim-0.2.3-1.1.noarch.rpm"
-RPM_HASH = "aa2e3646195556dc8b70c37b2fe51cac95a0e56d7c45f29f240abcd54760878da40e4a2b9e4a5260101e87764a724e11b2ba303b4d18e1e54a3b21e451e643fd"
+RPM_NAME = "python310-notebook-shim-0.2.3-1.2.noarch.rpm"
+RPM_HASH = "168fb90873422af4ab6e682ded25f6dcf034f0e715a912edd2ae7b22c7f86cfdad718d21bbe6d6f47e3b05b1399dece531171571e10c660f903c6f4fb49e9243"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-notebook-shim \
-python3.10dist-notebook-shim \
+RPROVIDES:${PN} += "python3.10dist-notebook-shim \
 python310-notebook-shim \
 python3dist-notebook-shim"
 

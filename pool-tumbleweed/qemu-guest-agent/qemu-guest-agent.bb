@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-
 
 PV = "8.0.2"
 
-RPM_NAME = "qemu-guest-agent-8.0.2-1.1.aarch64.rpm"
-RPM_HASH = "2b3029a68e4b28fe05f441df123e53fe30fe5c3e137f603299afa13ecb86d99b42d4e575eaa2937d4337112835c1919be334be940849d620a23f6af2f8fb8514"
+RPM_NAME = "qemu-guest-agent-8.0.2-2.1.aarch64.rpm"
+RPM_HASH = "61580abea83af8a232cdd9ac802c2a9cf50957801c95efdf955070c049138d294ba81cbbe73cd2c135f4a78d264a997d37916c2725794452222a326b0e20d0ac"
 
 RPROVIDES:${PN} += "qemu-guest-agent"
 

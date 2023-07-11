@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python310-pydicom-data-1.0.0-1.3.noarch.rpm"
-RPM_HASH = "1a06edcdf33b48dd177491a62239a2c0fa0ae912249d464ae80a7fec2493386c78512c9074454c7da89f7ac3a60c9d683a690917a53b482835142ac0985f5750"
+RPM_NAME = "python310-pydicom-data-1.0.0-1.5.noarch.rpm"
+RPM_HASH = "9ed91eb29de234472566e8e22a13dcfc4ac64b3babb9831ba4fb671cecfe942b575234872c23d43e630e15992c0f7050234851fcd14cf2c2ec9428d9567622ef"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pydicom-data \
-python3.10dist-pydicom-data \
+RPROVIDES:${PN} += "python3.10dist-pydicom-data \
 python310-pydicom-data \
 python3dist-pydicom-data"
 

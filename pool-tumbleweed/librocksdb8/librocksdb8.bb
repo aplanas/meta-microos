@@ -11,8 +11,8 @@ LICENSE = "(Apache-2.0 | GPL-2.0-only) & BSD-2-Clause"
 
 PV = "8.1.1"
 
-RPM_NAME = "librocksdb8-8.1.1-1.1.aarch64.rpm"
-RPM_HASH = "e2f3cfd16998b1a6632c0d47be611e0738fcc2ef0914b8fea55a457e04d0a5f830df2946cff676b26876b336d88b46d5b9f6f66765179ec911923f7493d84563"
+RPM_NAME = "librocksdb8-8.1.1-1.2.aarch64.rpm"
+RPM_HASH = "4f483652ba9093fd64eb146f13c2173275b0cca5aee10431ffdf3612932ef99657c70263be6ee731de08b61608876f9dce6a4bae5e23cd9fe69964de70c159f8"
 
 RPROVIDES:${PN} += "librocksdb.so.8 \
 librocksdb8"

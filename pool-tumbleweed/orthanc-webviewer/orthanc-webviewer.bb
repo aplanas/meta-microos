@@ -4,8 +4,8 @@ LICENSE = "AGPL-3.0-or-later"
 
 PV = "2.8"
 
-RPM_NAME = "orthanc-webviewer-2.8-1.5.aarch64.rpm"
-RPM_HASH = "74cc37e2ee72ece6938f74c785d29bb7fb8c5229e32379f5df537be85b9e6d30be5a47f1dc110f7d76b2b271bf3781730b1ef67d3698f2b54cbcc71e990b818d"
+RPM_NAME = "orthanc-webviewer-2.8-1.6.aarch64.rpm"
+RPM_HASH = "cf4bf4663af9485d9ae8665f326e5d9d6df2ec07faf05790f3418ed21d035c9e9ccdfa3b0d0adfcbbd3f0f8d810f9282a76c0ee5755e26954d373c59e13cd3ee"
 
 RPROVIDES:${PN} += "libOrthancWebViewer.so.2.8 \
 orthanc-webviewer"

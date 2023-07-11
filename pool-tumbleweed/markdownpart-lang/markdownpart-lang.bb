@@ -2,10 +2,10 @@ SUMMARY = "Translations for package markdownpart"
 DESCRIPTION = "Provides translations for the 'markdownpart' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "markdownpart-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "f3f218df7b3fd41e32a00c6664d41b40c870ca914e1a8067832d9486c2e89950a7257a54152b144633a356a6a5074f70606e22ed54dcd2944df54f06fa96b0e0"
+RPM_NAME = "markdownpart-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "494d52d93525d4cf90fd721707f37ee0bcd6c0187248b21662a6815bd15a3660d0838a953568ced17074217aa942cb209f1ecadf601f1a29d0882e9c3cbed607"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-markdownpart-ar \

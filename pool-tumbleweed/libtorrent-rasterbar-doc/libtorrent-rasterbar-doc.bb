@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0.9"
 
-RPM_NAME = "libtorrent-rasterbar-doc-2.0.9-1.1.noarch.rpm"
-RPM_HASH = "9e4f34c1a21b69cd2857a08428a017072144a0f99e354a50adf5d510bfd4b30a66e595eba3e012c1d44753b8668a5338975d4b0cfa2295f539fc8a9f151b7c78"
+RPM_NAME = "libtorrent-rasterbar-doc-2.0.9-1.3.noarch.rpm"
+RPM_HASH = "024393c52ff0c9e4269f665c4ea446f94c3d5c06cf27f91c04a3627a92ab4af8460fa27cabdb801853a484bfed7dbfc4b53ea0903fdf8a3c7138ceee7543fdad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libtorrent-rasterbar-doc"

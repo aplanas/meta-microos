@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.0.3"
 
-RPM_NAME = "python311-click-didyoumean-0.0.3-4.12.noarch.rpm"
-RPM_HASH = "3814dd1c0c32e80abdbd962af0768a7d41308f5101aca1efd59eaa3a7437357e78de0b6e151765fe93b3017a178adb2e7dbf6676105fa8240bb2ba86138f5c2e"
+RPM_NAME = "python311-click-didyoumean-0.0.3-5.3.noarch.rpm"
+RPM_HASH = "bdc8768f6a18be2180a185ada27bac62c29ac1f8666b11d6ce54fb0f9cff7cca4e6140ea711f49a35fd403fed31d12d1582b78cdb4e8862fa02f36cd9ed06008"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-click-didyoumean \
+RPROVIDES:${PN} += "python3-click-didyoumean \
+python3.11dist-click-didyoumean \
 python311-click-didyoumean \
 python3dist-click-didyoumean"
 

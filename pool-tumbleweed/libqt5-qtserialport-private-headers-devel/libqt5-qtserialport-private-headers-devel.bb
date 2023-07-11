@@ -5,10 +5,10 @@ API guarantees. The packages that build against these have to require \
 the exact Qt version."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libqt5-qtserialport-private-headers-devel-5.15.9+kde0-1.1.noarch.rpm"
-RPM_HASH = "c2612d0c3b9c1f7125587d11bec6f7fa6d92a1a743227d7316220d1f9a4ddfe5fbacef0bc691287da06730d608e2a816a8c54575750aa3227bdb4f1f555d85ae"
+RPM_NAME = "libqt5-qtserialport-private-headers-devel-5.15.10+kde0-1.1.noarch.rpm"
+RPM_HASH = "cc83177319079276952be77df0b780f4713db87313c4ecfe8fe3374ff232808905a8d6364d9e57890919c461342ac84cccc14704a6afcbd7771fbe8276010337"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libQt5SerialPort-private-headers-devel \

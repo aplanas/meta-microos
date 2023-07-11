@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.1.1a023.1"
 
-RPM_NAME = "fcwnn-1.1.1a023.1-4.3.aarch64.rpm"
-RPM_HASH = "ca40627a98b0e84d4a6a54b106ce2edb6ed2d526e24196ea9410b36b638854e69dfee2ff1a328671c1b6641a2dca8261e0e1c64c3a22827c0c17e1d32813674a"
+RPM_NAME = "fcwnn-1.1.1a023.1-4.4.aarch64.rpm"
+RPM_HASH = "0b4dca0f34ab7af6826287ad1ceeeffd669565c056ca9832728bdd7d8000bb5e115598c7192e86eb8c38d4080a4f36af5a54b9c39183fa73f2bb9a538fcd08aa"
 
 RPROVIDES:${PN} += "config-fcwnn \
 fcwnn"

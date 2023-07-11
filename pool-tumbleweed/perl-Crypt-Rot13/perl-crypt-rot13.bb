@@ -4,13 +4,13 @@ LICENSE = "GPL-2.0+"
 
 PV = "0.6"
 
-RPM_NAME = "perl-Crypt-Rot13-0.6-22.24.noarch.rpm"
-RPM_HASH = "072275bb0f684c540141a035b11e372ac84a4fce56b0d432a78cf920abf3221b5a94fdaf2595d63b844d3cd07e84be0e4706b62f711f72087571a0d6a5e411eb"
+RPM_NAME = "perl-Crypt-Rot13-0.6-22.25.noarch.rpm"
+RPM_HASH = "5914f2900b98c66651a18856524f4b7956f27b3bccae22e9f9db31b0f3bf58e07dddf5bd566735306f0ab8391b81d7237abce9564fe484c7f856912d4f790f8a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Crypt--Rot13 \
 perl-Crypt-Rot13"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

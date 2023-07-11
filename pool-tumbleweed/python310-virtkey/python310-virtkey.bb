@@ -5,11 +5,10 @@ LICENSE = "LGPL-3.0+"
 
 PV = "0.63.0"
 
-RPM_NAME = "python310-virtkey-0.63.0-9.31.aarch64.rpm"
-RPM_HASH = "220eceef99044855c30984cd623188ca3dfe7cdfb598bc21ad9e38137798e0f77d9079288c5a740625cb00aef113bcfcb823c83bc96cb4d01c4e1fa806763bab"
+RPM_NAME = "python310-virtkey-0.63.0-9.32.aarch64.rpm"
+RPM_HASH = "d131a5b4b3aa2dee401065049638c6737c68b581e9186403b398f17c3b9307553d19537ac72def85ab7f90b4cdccbac38ff026494a44ef0fd79e38c7e439b52e"
 
-RPROVIDES:${PN} += "python3-virtkey \
-python3.10dist-virtkey \
+RPROVIDES:${PN} += "python3.10dist-virtkey \
 python310-virtkey \
 python3dist-virtkey"
 

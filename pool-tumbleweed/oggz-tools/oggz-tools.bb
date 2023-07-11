@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.1"
 
-RPM_NAME = "oggz-tools-1.1.1-15.28.aarch64.rpm"
-RPM_HASH = "207f2ad0576b8627c700cf1dfe68f7bfb36bb4e1752c507831478440040b57579cb516ef4511c07b7abb5867f6ba3fb15e04b2b8b73a5b799a0faf766388140b"
+RPM_NAME = "oggz-tools-1.1.1-15.29.aarch64.rpm"
+RPM_HASH = "d5ac9260ea95f7b96d15a505355c4798b37fffa0095cf728bb29fbb4913124aad5ac77616f839e6c0e930e96ac376d735566fee17c2f6a3a526fecff7615a1dd"
 
 RPROVIDES:${PN} += "oggz-tools"
 

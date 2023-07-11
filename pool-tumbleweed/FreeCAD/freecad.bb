@@ -5,10 +5,10 @@ going back into the model history and changing its parameters. FreeCAD is \
 customizable and scriptable."
 LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
-PV = "0.20.1"
+PV = "0.20.2"
 
-RPM_NAME = "FreeCAD-0.20.1-1.3.aarch64.rpm"
-RPM_HASH = "2dc860e435b67c277908816ff2f918589bf513f8ea165e3ecd3a0526e92c5571db5a65730de2fd4f5cb451c4157a779300a93e4ceafad2a4df9ab74c012b38b2"
+RPM_NAME = "FreeCAD-0.20.2-5.2.aarch64.rpm"
+RPM_HASH = "6e284d5514ff3785427207c29ed913d67f3df70c700a7e06b0d0efeab94efc3218695293745c6d622f3c7548a82cb45d266e3099eb29a9e420294904a15cdd69"
 
 RPROVIDES:${PN} += "FreeCAD \
 freecad \
@@ -33,6 +33,7 @@ RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libCoin.so.80 \
 libGL.so.1 \
+libGLESv2.so.2 \
 libGLU.so.1 \
 libQt5Concurrent.so.5 \
 libQt5Core.so.5 \
@@ -46,41 +47,41 @@ libQt5WebEngineWidgets.so.5 \
 libQt5Widgets.so.5 \
 libQt5Xml.so.5 \
 libQt5XmlPatterns.so.5 \
-libTKBO.so.7.6 \
-libTKBRep.so.7.6 \
-libTKBool.so.7.6 \
-libTKCAF.so.7.6 \
-libTKCDF.so.7.6 \
-libTKFeat.so.7.6 \
-libTKFillet.so.7.6 \
-libTKG2d.so.7.6 \
-libTKG3d.so.7.6 \
-libTKGeomAlgo.so.7.6 \
-libTKGeomBase.so.7.6 \
-libTKHLR.so.7.6 \
-libTKIGES.so.7.6 \
-libTKLCAF.so.7.6 \
-libTKMath.so.7.6 \
-libTKMesh.so.7.6 \
-libTKMeshVS.so.7.6 \
-libTKOffset.so.7.6 \
-libTKPrim.so.7.6 \
-libTKRWMesh.so.7.6 \
-libTKSTEP.so.7.6 \
-libTKSTEP209.so.7.6 \
-libTKSTEPAttr.so.7.6 \
-libTKSTEPBase.so.7.6 \
-libTKSTL.so.7.6 \
-libTKShHealing.so.7.6 \
-libTKTopAlgo.so.7.6 \
-libTKXCAF.so.7.6 \
-libTKXDEIGES.so.7.6 \
-libTKXDESTEP.so.7.6 \
-libTKXSBase.so.7.6 \
-libTKernel.so.7.6 \
-libboost-filesystem.so.1.80.0 \
-libboost-program-options.so.1.80.0 \
-libboost-thread.so.1.80.0 \
+libTKBO.so.7.7 \
+libTKBRep.so.7.7 \
+libTKBool.so.7.7 \
+libTKCAF.so.7.7 \
+libTKCDF.so.7.7 \
+libTKFeat.so.7.7 \
+libTKFillet.so.7.7 \
+libTKG2d.so.7.7 \
+libTKG3d.so.7.7 \
+libTKGeomAlgo.so.7.7 \
+libTKGeomBase.so.7.7 \
+libTKHLR.so.7.7 \
+libTKIGES.so.7.7 \
+libTKLCAF.so.7.7 \
+libTKMath.so.7.7 \
+libTKMesh.so.7.7 \
+libTKMeshVS.so.7.7 \
+libTKOffset.so.7.7 \
+libTKPrim.so.7.7 \
+libTKRWMesh.so.7.7 \
+libTKSTEP.so.7.7 \
+libTKSTEP209.so.7.7 \
+libTKSTEPAttr.so.7.7 \
+libTKSTEPBase.so.7.7 \
+libTKSTL.so.7.7 \
+libTKShHealing.so.7.7 \
+libTKTopAlgo.so.7.7 \
+libTKXCAF.so.7.7 \
+libTKXDEIGES.so.7.7 \
+libTKXDESTEP.so.7.7 \
+libTKXSBase.so.7.7 \
+libTKernel.so.7.7 \
+libboost-filesystem.so.1.82.0 \
+libboost-program-options.so.1.82.0 \
+libboost-thread.so.1.82.0 \
 libc.so.6 \
 libfreetype.so.6 \
 libgcc-s.so.1 \
@@ -89,9 +90,9 @@ libm.so.6 \
 libmedC.so.11 \
 libngcore.so \
 libnglib.so \
-libpyside2.cpython-310-aarch64-linux-gnu.so.5.15 \
-libpython3.10.so.1.0 \
-libshiboken2.cpython-310-aarch64-linux-gnu.so.5.15 \
+libpyside2.cpython-311-aarch64-linux-gnu.so.5.15 \
+libpython3.11.so.1.0 \
+libshiboken2.cpython-311-aarch64-linux-gnu.so.5.15 \
 libspnav.so.0 \
 libstdc++.so.6 \
 libvtkCommonCore.so.1 \
@@ -106,6 +107,7 @@ libvtkFiltersVerdict.so.1 \
 libvtkIOCore.so.1 \
 libvtkIOLegacy.so.1 \
 libvtkIOXML.so.1 \
+libvtksys.so.1 \
 libxerces-c-3.2.so \
 libz.so.1 \
 python3-PyYAML \

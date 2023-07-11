@@ -9,8 +9,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.9.3"
 
-RPM_NAME = "python39-python-aiml-0.9.3-3.9.noarch.rpm"
-RPM_HASH = "3a7d76cecc35dcf0fb826973b43951b06fee902f94e893f2a5584326de165188ecb1a08bf71dc6c7721b8684a6554ba2f558e03b7dc4f195c7d9a0b7e73dbef1"
+RPM_NAME = "python39-python-aiml-0.9.3-3.10.noarch.rpm"
+RPM_HASH = "f9d57b8c1f263a79e451ea72c79ffb99b084c826e42739efd671759b8587ae6bebd7534690ad87f3eb50053a0d3fbda8ca84f55a24a3c6d7454c5cc356a52c9b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-python-aiml \

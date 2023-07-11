@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.4.0"
 
-RPM_NAME = "thunar-plugin-media-tags-0.4.0-1.3.aarch64.rpm"
-RPM_HASH = "7a88776765c644a127d71ebaf160783868bf5b4d67a6be12bc7ea05cd7307b3e70c2b6f0d424c22fa8c891f1b12e76574102e780aadd6ea9119a0aaffdcd1d73"
+RPM_NAME = "thunar-plugin-media-tags-0.4.0-1.4.aarch64.rpm"
+RPM_HASH = "0b5e1e7b82af3f4fb770fd8a4415db243d329cd1aba220294211379901ff58b9dd89ace9d63859ee26f7804f95ed74c6f25ebf6dfc187744b47f57d601a0c674"
 
 RPROVIDES:${PN} += "thunar-media-tags-plugin \
 thunar-plugin-media-tags"

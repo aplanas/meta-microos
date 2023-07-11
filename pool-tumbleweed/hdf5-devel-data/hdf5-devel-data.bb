@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.12.2"
 
-RPM_NAME = "hdf5-devel-data-1.12.2-5.2.aarch64.rpm"
-RPM_HASH = "ef2e33dbe0c603fa7e6c86a8e54a9f561a9027c9b4942ff43f30fd508991b0fb6850e2f2d3ae3bd93fdf0e7c1914267c194a7cdc5f855d74e090dbc063f69087"
+RPM_NAME = "hdf5-devel-data-1.12.2-5.3.aarch64.rpm"
+RPM_HASH = "fa34618e32514ac6012c7d654f468d5dbbcf5ef4f46dffb5d4bb49a0ca10119b77fa5b75266afcaad9e119762252a29d659a12bfb8addc8034694d9771db83ad"
 
 RPROVIDES:${PN} += "hdf5-devel-data \
 rpm-macro--hdf5-sonum \

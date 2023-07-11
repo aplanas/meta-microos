@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1"
 
-RPM_NAME = "tftpboot-installation-common-1.1-1.11.noarch.rpm"
-RPM_HASH = "1747f815c3640504fa112d150d69f2b848cd3bddc7d7dd5b13b4b1c35efe02fe692f4dd3f0853a42043e5f50c6aa5f88036d2af04ad6262462ae2b8cd10a4a83"
+RPM_NAME = "tftpboot-installation-common-1.1-1.12.noarch.rpm"
+RPM_HASH = "374e3fe8bdb03bfc5ce4a7c69a6328a0b89eb8aadb4110c559ca7f5dd892573e4f9f73fb76f471b10439c1cd88b5687305e59ee4d144cca706326142542e7068"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tftpboot-installation-common"

@@ -7,10 +7,11 @@ LICENSE = "MIT"
 
 PV = "0.7.0"
 
-RPM_NAME = "python311-brotlipy-0.7.0-6.1.aarch64.rpm"
-RPM_HASH = "a997f0ca971af327c3dc16143595d93c4a57d1d43d85be7bb66d24d256c6e526dad1715be72fab0d6b29f7dbaa575aac6c6d73812e80ac4cd9c13652d78f240f"
+RPM_NAME = "python311-brotlipy-0.7.0-6.3.aarch64.rpm"
+RPM_HASH = "ebe6292416bdc6588baf7982508b64b1dc8b607f0817b2a85853f6d9907d44261e94459d8314e22f653a44c3022a75da04bd6d97421690df6b4fce7c941ea24d"
 
-RPROVIDES:${PN} += "python3.11dist-brotlipy \
+RPROVIDES:${PN} += "python3-brotlipy \
+python3.11dist-brotlipy \
 python311-brotlipy \
 python3dist-brotlipy"
 

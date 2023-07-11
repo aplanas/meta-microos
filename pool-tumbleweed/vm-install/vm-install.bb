@@ -24,8 +24,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.10.11"
 
-RPM_NAME = "vm-install-0.10.11-1.10.aarch64.rpm"
-RPM_HASH = "09900f1d5fcf7b02af9f76238e1f5d5cef2389ef5cf957c0712769e8f0d0db929a87dfb2ca70965aa37b9fe5236e8b9318527d7517f5b0d2712a10800d790f26"
+RPM_NAME = "vm-install-0.10.11-1.11.aarch64.rpm"
+RPM_HASH = "dfebbb6bed8d924b90e797506941cce625539fc4263b7bae0e2cc434a9f2b838ccec041890ac4be218b6f0abe825521cf4a9c7781bcea64b2fe63bd62cf9a7e4"
 
 RPROVIDES:${PN} += "config-vm-install \
 vm-install"

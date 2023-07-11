@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "4.8"
 
-RPM_NAME = "nnn-fish-completion-4.8-1.1.noarch.rpm"
-RPM_HASH = "b80320ded9a06ce24d6f3d8c7ac5ee104018895d427ca13a0076cb5f505c05bef8dbf3b8d891659a4a1069b648ccc3f4ae7a85c944547ace47da96121ffc4c30"
+RPM_NAME = "nnn-fish-completion-4.8-1.2.noarch.rpm"
+RPM_HASH = "2733bf6be8de880a61ad49c9d3f4a0154d8e917df41d63eab0aefcaa73952e94bc09a83379d9c1442888b516e4e02058108aaafcfb3fd434a95ee88da7c6b7f1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nnn-fish-completion"

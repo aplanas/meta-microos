@@ -5,15 +5,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.16"
 
-RPM_NAME = "perl-DateTime-Format-ISO8601-0.16-1.10.noarch.rpm"
-RPM_HASH = "58fde6e1145498a0b3910ec1323551eb2bd1004ee0f310ea61e3b711d525fd1c22fd820deb4c693a8122785ac518069b17e34f07ee477bcf17594938fbb1ddff"
+RPM_NAME = "perl-DateTime-Format-ISO8601-0.16-1.11.noarch.rpm"
+RPM_HASH = "37bb8d68151e81024f813eadb68f52a857d7f9c3b7b4ea441bd8a90c8b93f66c0ed0d87750e45656e41e21afe072315c7c1ea773a7b253192835b2992c16dc66"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DateTime--Format--ISO8601 \
 perl-DateTime--Format--ISO8601--Types \
 perl-DateTime-Format-ISO8601"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-DateTime \
 perl-DateTime--Format--Builder \
 perl-Params--ValidationCompiler \

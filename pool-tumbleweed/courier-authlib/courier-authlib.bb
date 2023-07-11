@@ -5,8 +5,8 @@ LICENSE = "SUSE-GPL-3.0-with-openssl-exception"
 
 PV = "0.72.0"
 
-RPM_NAME = "courier-authlib-0.72.0-1.4.aarch64.rpm"
-RPM_HASH = "31aa7ae4c90007b3d270ef7b0e72f4de9bf95f0defd3f3a3b03aac1f712bb36f47abebece64a3362a31893e3fd877a321e284b94d418e94b8da6136de01db99d"
+RPM_NAME = "courier-authlib-0.72.0-1.5.aarch64.rpm"
+RPM_HASH = "ce0a9421fc48a121a0068f5f2c2cdd9197f5fea7fe73a64fba9af9fe916dadd389d696ae080be0e7d3065427cb0c32d4e7375b2b9a36af8f34fee02c272290f9"
 
 RPROVIDES:${PN} += "config-courier-authlib \
 courier-authlib \

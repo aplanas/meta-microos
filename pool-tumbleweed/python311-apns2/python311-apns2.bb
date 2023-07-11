@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "0.7.2"
 
-RPM_NAME = "python311-apns2-0.7.2-2.3.noarch.rpm"
-RPM_HASH = "58300e08e9650f49b9c7b126b26df602866f96e8ed83a0ee468c50c7ae1f3fa5fd632051fed59a60ab6fa87e19a586ada0f5f983e4c65623bcd4c457c116793f"
+RPM_NAME = "python311-apns2-0.7.2-2.5.noarch.rpm"
+RPM_HASH = "d5537be5e4f8138563fe4feb390c964e8ee786707064dee0f2260a5c5479b2d648a361ed9090421110b74f0a9365e7b7abecf67c18c06db69d6dfbdc31814f5a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-apns2 \
+RPROVIDES:${PN} += "python3-apns2 \
+python3.11dist-apns2 \
 python311-apns2 \
 python3dist-apns2"
 

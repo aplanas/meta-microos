@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.5.0"
 
-RPM_NAME = "python39-click-threading-0.5.0-1.8.noarch.rpm"
-RPM_HASH = "26e015f3e407c76af8de94ba6f3eff4d839a3084a25c25250ae413fe353010065fab8d90d1fc470b8b6fa9c2f942ced6ed2424df390771ff5f83e3aac9c59375"
+RPM_NAME = "python39-click-threading-0.5.0-1.10.noarch.rpm"
+RPM_HASH = "09ce27fda7128e1e0c8970ceb6bdbee8aa683ca4aecf5cb8b7335d64ecd1a83ff6a5af1af43f9c11b2b451a084c121ce0e3c808f53a4765a0d8e48f963446df3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-click-threading \

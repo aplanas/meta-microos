@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.5.32"
 
-RPM_NAME = "jupyter-bqplot-jupyterlab-0.5.32-3.30.noarch.rpm"
-RPM_HASH = "b34693d8fd903da75135156e6c1b9c4d86a330dc31fa6921bddbf786517e4cb6e3889d3be71b4125bb32d40f3630e96be298788a18da0a53dcf017f02ba3bd8d"
+RPM_NAME = "jupyter-bqplot-jupyterlab-0.5.32-3.31.noarch.rpm"
+RPM_HASH = "afefd19604b6fa157869d07b3d381a5d662eec41a7e58d3524d541a7264fb44d1dfdb9e25e4f7087b955dc19d5c1d2cb21eaf3141c1cf99431db7b09a16119d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-bqplot-jupyterlab"

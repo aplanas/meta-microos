@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.61svn18703"
 
-RPM_NAME = "texlive-epspdfconversion-doc-2023.201.0.0.61svn18703-53.1.noarch.rpm"
-RPM_HASH = "ec89d19b1537fe5bc61c597f5ee0bfa39ef4376a1afb68be3ab7c594f4ec16cd759f147be6cc1d7879f5b75e50b58d59efcfdbaa4f361d2ba0845de594c06e15"
+RPM_NAME = "texlive-epspdfconversion-doc-2023.201.0.0.61svn18703-53.2.noarch.rpm"
+RPM_HASH = "e134b474110d71483bd96da03fa8dd364826d8831bbc8d8bbc87ba3a6b4ec8b803fca32a90f54f2ad92ebcb444182d420ddc38fd27ae6b6a39bb5299f683b707"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-epspdfconversion-doc"

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.1.6"
 
-RPM_NAME = "ghc-auto-update-doc-0.1.6-6.3.noarch.rpm"
-RPM_HASH = "c33ca59cf5a6ba3a788e3d156a0ec21ec0a4a5fd2632d8b1f6aed913192fe50f05b75ea019b755c173a7626d046de43eefae68bea99bdcaa950a7b6f8c254acc"
+RPM_NAME = "ghc-auto-update-doc-0.1.6-6.6.noarch.rpm"
+RPM_HASH = "a5929ec1d788f7c1700d1d1c8f4a729dee3cf1322a2aff3f519b92fbbede0fd11a566d25319a1454881ecbf324e394224d048e5c60823e79203b474be33f41b7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-auto-update-doc"

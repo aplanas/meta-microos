@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-only & MIT"
 
 PV = "1.6.1"
 
-RPM_NAME = "cronie-1.6.1-91.3.aarch64.rpm"
-RPM_HASH = "63c9fcf60d435d7fb970db4fb7e68f1fde542359ab96871c02bb32272aed46e0c5f7db0e3d8690572f51a5c227935b4079610169b0821fc4882c93ef66dac925"
+RPM_NAME = "cronie-1.6.1-91.4.aarch64.rpm"
+RPM_HASH = "a5590e5a120b38cbdecf118caba035f25ed7b1488ec09115d942b35bdd0dc5a07327421be3b239c8659502a372fce3808241cddd475c47ad283124ef16aa35bf"
 
 RPROVIDES:${PN} += "config-cronie \
 cronie"

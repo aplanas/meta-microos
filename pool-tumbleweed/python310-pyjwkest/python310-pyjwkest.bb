@@ -7,12 +7,11 @@ LICENSE = "Apache-2.0"
 
 PV = "1.4.2"
 
-RPM_NAME = "python310-pyjwkest-1.4.2-2.9.noarch.rpm"
-RPM_HASH = "5ccbb353736d04cd44a343cb60ddb2088d7006e7934b27f0c515011b6c39e0a5558d97d19b55a97480d88d9ca8ce6e1d788d3dc4108d2936697f8538329acb63"
+RPM_NAME = "python310-pyjwkest-1.4.2-2.11.noarch.rpm"
+RPM_HASH = "dfe11313e49c09ca278243a1f1940eea4da12a14e0618dda6cac5cb20490b802c65650ad366b204ee7f29b549d915aeb164d63ee834afe3809c7a30807d79f6a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pyjwkest \
-python3.10dist-pyjwkest \
+RPROVIDES:${PN} += "python3.10dist-pyjwkest \
 python310-pyjwkest \
 python3dist-pyjwkest"
 

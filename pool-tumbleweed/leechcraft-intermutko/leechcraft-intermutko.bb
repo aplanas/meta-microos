@@ -4,8 +4,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-intermutko-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "56ff3fc200127f50897f1e8a4963957a38a13ec45b29aa3b74149436d355f96ad7876a05225b1408d0fa777f8749d7a2451835f9a805a55c6f156c189e71d1db"
+RPM_NAME = "leechcraft-intermutko-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "f8f490a1e54ef6e5f75dde95ab0d53341f9da9e3d692d40f7bd16e3204581eaed7a430a4b026ee51f5a349c67173368aadeb8868b7a55b52adc232ec9de0f0dd"
 
 RPROVIDES:${PN} += "leechcraft-intermutko \
 libleechcraft-intermutko.so"

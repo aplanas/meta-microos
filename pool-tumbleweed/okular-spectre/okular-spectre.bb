@@ -4,10 +4,10 @@ many other formats. This package contains the plugins required \
 to display PostScript documents and images."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "okular-spectre-23.04.1-1.2.aarch64.rpm"
-RPM_HASH = "40aa514def2fee90ff4c1339177a35d7f7f1e3be61fc7760ed3451a640cec8b886276563da317ffccf98c36e1513a2ddc971b06a6ccbc8e06fedb00f01f7f402"
+RPM_NAME = "okular-spectre-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "a69534933019975bca4875934bcd43b4df4c61f5df129a331fb30687ed4fa6af16def4790a1e19b3dbdd5fd0cda5fc27000b8af3f8c981d9c053455ede2400a0"
 
 RPROVIDES:${PN} += "okular-spectre"
 

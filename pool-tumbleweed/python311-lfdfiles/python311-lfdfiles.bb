@@ -6,10 +6,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2023.4.20"
 
-RPM_NAME = "python311-lfdfiles-2023.4.20-1.1.aarch64.rpm"
-RPM_HASH = "d9c05e5ff129b0ea223b993e2d43b02d4f6425f0cbbe9b4c37a643a895e2575f1bd3888fa6d1d3be5b94dcd7cd893a7fe80cad3c32f2ea8b1d552c35b2f3d6d1"
+RPM_NAME = "python311-lfdfiles-2023.4.20-1.3.aarch64.rpm"
+RPM_HASH = "c66a02b7dcb909597edf4d4935958366080260604409270b3f74ebb31f77d840a29bce1a77a6dcb5ea767d2f66bc012a674b0f78a988979c314179daa21b9085"
 
-RPROVIDES:${PN} += "python3.11dist-lfdfiles \
+RPROVIDES:${PN} += "python3-lfdfiles \
+python3.11dist-lfdfiles \
 python311-lfdfiles \
 python3dist-lfdfiles"
 

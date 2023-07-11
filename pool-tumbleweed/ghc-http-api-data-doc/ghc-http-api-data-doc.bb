@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.5"
 
-RPM_NAME = "ghc-http-api-data-doc-0.5-3.2.noarch.rpm"
-RPM_HASH = "573a756ccaaa9375e0731d7fb9d5a58c7af249b5c85706a358a9873276e537981da068d2ec7781aefcade62e345e46e68bc85577e1daf154f9e6cd9d4fa94229"
+RPM_NAME = "ghc-http-api-data-doc-0.5-4.1.noarch.rpm"
+RPM_HASH = "1b6efb43e6d15ca21964c399ffa767901be3614fcd96c5bf281c828dfc9dcb6838596f0a94821db8303a238d62c351edb32ee7f63772e0f754397802c1fbfab7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-http-api-data-doc"

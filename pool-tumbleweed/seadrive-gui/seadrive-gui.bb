@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.0.25"
 
-RPM_NAME = "seadrive-gui-2.0.25-1.4.aarch64.rpm"
-RPM_HASH = "a2c1ec5e3aefefd5f546c6b6dfa2247ffe1776342b5b9dad8b16b37e94d9d2e63f626715d0d089eba43f55f9df693fe1105003e726251dfb1d897b3b6e6941d7"
+RPM_NAME = "seadrive-gui-2.0.25-1.5.aarch64.rpm"
+RPM_HASH = "da1107ae95841d9182acea6a88d99a057d261360fca1ce25ede3940d4d343af16ad743f1b3ae967937de2b858db7930703d8ec0b4af10d38e0c3a4b2d75ae246"
 
 RPROVIDES:${PN} += "seadrive-gui"
 

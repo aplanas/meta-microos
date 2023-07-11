@@ -2,10 +2,10 @@ SUMMARY = "Floppy Formatter"
 DESCRIPTION = "KDE Floppy Disk Utility"
 LICENSE = "GPL-2.0-only"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kfloppy-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "b310885ece58577df3ba887b6ab8a6110bc8d9f5429c78dc817cdaea99a917c1f89c7043dc35af0d12bacdbcc969d53609eff424ef2dd432badb758661359917"
+RPM_NAME = "kfloppy-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "eabc2b0e626a82173a9eab81a8c158acbae99a0ae89eba84cec2a87077b172de5a9127f8f3abcb36ee0cabc70bbb8c6ff97cd93d842f8000fc8e3af7cc8810ed"
 
 RPROVIDES:${PN} += "kfloppy"
 

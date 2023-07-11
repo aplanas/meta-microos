@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.5"
 
-RPM_NAME = "PackageKit-backend-dnf-1.2.5-9.3.aarch64.rpm"
-RPM_HASH = "557d4d2abd40cd8370ab2326358ae6e3f1cb684866455d1622c4887af94f3e831020abc9425358aff6c61ec03fa6999a907a6f34a9d279182a1089428c49b888"
+RPM_NAME = "PackageKit-backend-dnf-1.2.5-9.4.aarch64.rpm"
+RPM_HASH = "8a12ca913ec4678e6f1d5b138769ce35f22d6c6fe88b490667e85b668393a74310d644d2d567257bdb4016f36b6d33ebe9abb67a49102d61edf8a2075086b619"
 
 RPROVIDES:${PN} += "PackageKit-backend \
 PackageKit-backend-dnf \

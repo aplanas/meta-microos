@@ -2,10 +2,10 @@ SUMMARY = "Disk Usage Viewer"
 DESCRIPTION = "KDE free disk space utility"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kdf-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "4dc5b245a0c9163a92a26a5067ac8893100fdf6f64f34bd1598e7ad12f6112c6fcfd35004ff030fb4414a59fdf070be7388e4116bf7e63231116c89ba983fd4f"
+RPM_NAME = "kdf-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "025166e9cf7f6708b71c88a02d369b1bc081c40c6c873d7831f9ed176cd39812586a2e888772cacac5be5eff4bc58952c248c8140dc78958cae83e29afa065da"
 
 RPROVIDES:${PN} += "kdf \
 libkcm-kdf.so \

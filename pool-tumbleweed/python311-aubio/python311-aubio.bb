@@ -8,10 +8,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.4.9"
 
-RPM_NAME = "python311-aubio-0.4.9-9.1.aarch64.rpm"
-RPM_HASH = "ce4c0e113749649f72e7306aa909b9aa808b019e23a086df647d536b0eef1edd917fe5dc58ffbb1b36e92237d9fe3241ca269d7932b91677dacc6e21eb4fb28b"
+RPM_NAME = "python311-aubio-0.4.9-9.3.aarch64.rpm"
+RPM_HASH = "6ef7fe24bfb993ec1b054ca9041514d8551b3f4edecba126e036865aec2dbbe48fb720b741938df9688b5c19908b9d2e3cebf87586899a42679896030ca06e6d"
 
-RPROVIDES:${PN} += "python3.11dist-aubio \
+RPROVIDES:${PN} += "python3-aubio \
+python3.11dist-aubio \
 python311-aubio \
 python3dist-aubio"
 

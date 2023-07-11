@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.9.9.1"
 
-RPM_NAME = "meteo-lang-0.9.9.1-1.10.noarch.rpm"
-RPM_HASH = "3f257bf1488a4a9c55cb959d25cd499909b793bc5301627b69d0a191a9c3e9712b7ce066c014a373d295b82225e414eb28323605c9d5a893c91d82c5944248ed"
+RPM_NAME = "meteo-lang-0.9.9.1-1.11.noarch.rpm"
+RPM_HASH = "f1e3e9f92025601b240cbea314c238fbf8a2575c63c50cce51d89fb8e1da6cf642f044b6429c95c3a240999f7798bba3ddf95ff2a5a3efeb2dbb6db91298d991"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-meteo-ca \

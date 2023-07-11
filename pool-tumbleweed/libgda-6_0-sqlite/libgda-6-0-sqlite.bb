@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "6.0.0"
 
-RPM_NAME = "libgda-6_0-sqlite-6.0.0-6.7.aarch64.rpm"
-RPM_HASH = "5e4c5cb8920fcff450c276f353b625953868af10e3a0dc89920b2faf922b462d2a8112b479b01756944f0de2d797b4be3c25d73e9823117bdf33bc75f282013e"
+RPM_NAME = "libgda-6_0-sqlite-6.0.0-6.8.aarch64.rpm"
+RPM_HASH = "8741c4e160994805570c80609367b7c891280145c019b9fa68855075a5456a76c5e2c3893c374a48634fa922b7a29970548daeead0e9900998a82fe9ed7f7b49"
 
 RPROVIDES:${PN} += "libgda-6-0-sqlite \
 libgda-sqlite \

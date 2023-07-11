@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.0.1"
 
-RPM_NAME = "python39-WTForms-lang-3.0.1-2.6.noarch.rpm"
-RPM_HASH = "664c364e00a15c5f08ffc6a1912fdca621e498b6c32b9419d8c2d7e7c8985c3d04eee2e4af02c070348a9ff0489a506bf9c1013b00337c45e385eb65cef124b3"
+RPM_NAME = "python39-WTForms-lang-3.0.1-2.8.noarch.rpm"
+RPM_HASH = "f2c534a4f25fa75966ce4513c3c1f9671a5d047a6a2961b6131304970757c996f205d31649554e0e9ab0373282b8865efc4dbf150b0cee59f7120814b97ab91c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-python39-WTForms-ar \

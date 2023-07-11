@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2022_08_R1"
 
-RPM_NAME = "kismet-2022_08_R1-2.3.aarch64.rpm"
-RPM_HASH = "8ebca14483d147f2be202d3dbd688d4c534f1b82564aa3a256adc530b3c0041de7de16e263625b9623f718e259efb24f74734f47e51aa55c0b175ee5f3e3948a"
+RPM_NAME = "kismet-2022_08_R1-2.5.aarch64.rpm"
+RPM_HASH = "7f9175a4a6a704de51b7c2aee45b624f062268a014cbc15d8b29336f02382d02c38a383ec9eb9275425a116165a5c9f31a58b1f0c8e53b34ff5d0cef5d2d92cb"
 
 RPROVIDES:${PN} += "config-kismet \
 group-kismet \

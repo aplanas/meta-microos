@@ -14,8 +14,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "0.19"
 
-RPM_NAME = "termrec-0.19-1.13.aarch64.rpm"
-RPM_HASH = "0f6f137b3fdda90b291fc7ead38f6518f2feae4562b84d93bdcffcc3570b9e1bb8c2b39c08af2982648a6c8aa9f27c5e707e6c256ad8768f6eb3f227994982b7"
+RPM_NAME = "termrec-0.19-1.14.aarch64.rpm"
+RPM_HASH = "b5ee659a3dab1240bd903cf82d00293d7013771206ed4dbfd68eaee91e0a243c0b273c3692c79c7466042de4e3126b3c2fffad50d09aa13caf7ef4c7b879074a"
 
 RPROVIDES:${PN} += "termrec"
 

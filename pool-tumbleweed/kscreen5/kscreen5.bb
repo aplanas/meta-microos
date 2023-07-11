@@ -2,10 +2,10 @@ SUMMARY = "Screen management software by KDE"
 DESCRIPTION = "KScreen handles screen management for both X11 and Wayland sessions, including rotation, size, refresh rate, and scaling."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "kscreen5-5.27.5-1.1.aarch64.rpm"
-RPM_HASH = "a347c48d97985d1e2e4efd55988b889325067313083c25c14b05e4e584070285688e4e0f658e81517e8a0ae23368dae0f8a5faca2111c86f5bb28a23a447a4f1"
+RPM_NAME = "kscreen5-5.27.6-1.1.aarch64.rpm"
+RPM_HASH = "d1261d728f6ce69d91fca8c525fc5d02ef885dce02c62a61c7da2891c71d02b5ff88f75670c9f9cc79a2558ba4b1791425f6d8086fce3565f2fa948334da77c5"
 
 RPROVIDES:${PN} += "kscreen \
 kscreen5"

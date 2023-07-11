@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "3.4.0"
 
-RPM_NAME = "python311-pyupgrade-3.4.0-1.1.noarch.rpm"
-RPM_HASH = "1dfba51cdf8646604157d40a8ad9eff731133ff52032fafc5cc4fc4c58d2fbb74d7eb96935cf8e57779b5f13e2e176fde24af85ec27f6e97c8a6aa46fabba9bb"
+RPM_NAME = "python311-pyupgrade-3.4.0-1.3.noarch.rpm"
+RPM_HASH = "0cbc82a8bd8250ac02fd67113e1091272e3d11ee6d942bca519d2a8e8ca37abb957e833e43fb9ed19d3d8bd60b6754b47abcaad4f39a351d0e9e27bd4d864141"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pyupgrade \
+RPROVIDES:${PN} += "python3-pyupgrade \
+python3.11dist-pyupgrade \
 python311-pyupgrade \
 python3dist-pyupgrade"
 

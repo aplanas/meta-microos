@@ -6,10 +6,11 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.15"
 
-RPM_NAME = "python311-ethtool-0.15-1.8.aarch64.rpm"
-RPM_HASH = "a7ed2ff3cfb3d73e6b6d009a82990b08abbffa8ab8a199b4f85ce72377d0ea857b4486841d6f9d66534f7003a6a5524c2defcf395053a4221dd1fa1bd8322d36"
+RPM_NAME = "python311-ethtool-0.15-1.10.aarch64.rpm"
+RPM_HASH = "37d076347e66f79524ce4e631a510fcf3c490c463c0535de8ebe45946b81892d5a6398182dcf1ff1e6a873127f17d7fe5c9714f653063df626670f72c62b3b45"
 
-RPROVIDES:${PN} += "python3.11dist-ethtool \
+RPROVIDES:${PN} += "python3-ethtool \
+python3.11dist-ethtool \
 python311-ethtool \
 python3dist-ethtool"
 

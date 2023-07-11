@@ -4,8 +4,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "13.1.1+git7364"
 
-RPM_NAME = "gcc13-testresults-13.1.1+git7364-1.1.aarch64.rpm"
-RPM_HASH = "cb17dec7fed522afa052c52be0e96f547874f7beef2fd12d648211e9bf078648c6f4d4d4619b8735a7268efbb86ea04e4ef6e56c0a8d030b0cedfc80167fdd8e"
+RPM_NAME = "gcc13-testresults-13.1.1+git7364-1.2.aarch64.rpm"
+RPM_HASH = "5ec273ea6d46a72a5c1eb775b67bbec5a5c0436449408e2cdfa8c613a462a45eeffb9da6e52dc8f94d6878cb6e4ad8aa7c3639314b0b2249dbddf823f631e5ef"
 
 RPROVIDES:${PN} += "gcc13-testresults"
 

@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later & MIT"
 
 PV = "1.22.2"
 
-RPM_NAME = "openal-soft-tools-1.22.2-1.4.aarch64.rpm"
-RPM_HASH = "64646225976bd55731cee47dfb3c4c36f6ea2daeeb4acc7d557dfc330c3d8e41abc90daf5a01ba37521e7711709523c0b44d782b410e1692be6f18753f5b56eb"
+RPM_NAME = "openal-soft-tools-1.22.2-1.5.aarch64.rpm"
+RPM_HASH = "dcb74ec5aec365b34a6d50a21c8ba6ceb77156c1878199cc5ed4961513ca534a41c7db211d4383a58c27938c4962af2be8e66e61e8e2edc4adbfb110dd209a97"
 
 RPROVIDES:${PN} += "openal-soft-/usr/bin/openal-info \
 openal-soft-tools"

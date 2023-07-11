@@ -6,10 +6,10 @@ member protection and name resolution aren't already defined \
 and should be introduced by intermediate packages."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.2.2svn65230"
+PV = "2023.208.2.2svn65230"
 
-RPM_NAME = "texlive-lt3rawobjects-2023.201.2.2svn65230-52.1.noarch.rpm"
-RPM_HASH = "a908af5a4e820d1d1ec6741c193161dc39a9babf111a9ba4e11b7ffd87580e3a440a5d61e49e50a1904a04ee836e8d35a3c330e2fcd37680a3d59de4d7b83846"
+RPM_NAME = "texlive-lt3rawobjects-2023.208.2.2svn65230-53.1.noarch.rpm"
+RPM_HASH = "b13ecae21f30dd953d2d8c9f23afa4598731c41bf1e41b3675c9cb36538ff9f900da3279e89e3abc923731c5842223d1000021070c891bce734557c5d48a78c0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lt3rawobjects.sty \

@@ -6,8 +6,8 @@ LICENSE = "LGPL-3.0-or-later & LGPL-3.0-or-later"
 
 PV = "6.2.0"
 
-RPM_NAME = "granite-demo-6.2.0-1.7.aarch64.rpm"
-RPM_HASH = "1c44634d6ccac9c39f39444f2de2d7ad14c7ef3c1078c4078adb33ab00f89ba39b1e78eff82b8fd91ca9880f58e560e9275a160259ab02f51b95433bd0f4cf77"
+RPM_NAME = "granite-demo-6.2.0-1.8.aarch64.rpm"
+RPM_HASH = "9dc1741795a1a5a77a55547e1a50ea1034ab3c0c15075cbe674b99f90a1c853c18f9f29a7f9b967c2a0bce8d00d2ff53064e9f12f51a4df2c256f6d5b15e4d98"
 
 RPROVIDES:${PN} += "granite-demo"
 

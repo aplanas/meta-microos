@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains compressed kernel firmware files for \
 Broadcom network drivers."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230517"
+PV = "20230620"
 
-RPM_NAME = "kernel-firmware-bnx2-20230517-1.1.noarch.rpm"
-RPM_HASH = "c446d2bdd204e6397b4013ae8036a78c47a5924194ee1b8eeebcc4f0718d757d55543718bfe64c52dfac3b31737c95b311c2272ba044fd752d5edac82d5117ec"
+RPM_NAME = "kernel-firmware-bnx2-20230620-1.1.noarch.rpm"
+RPM_HASH = "17c287530f8cf44c501552c67c21f51694e86b63016b93d8d6b5ad968ce76f621ae188881a4567143c6fe80e2382d79c28da1057b32f6cfccc972088b47fc069"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-bnx2/bnx2-mips-06-6.2.3.fw \

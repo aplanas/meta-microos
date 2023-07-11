@@ -4,10 +4,10 @@ The media can be pushed to some web services such as Facebook and \
 YouTube."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kamoso-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "34027d368fb1aa8e592e7b8c1b377bc86346917a93581d8a8395d30481ee3d0824fb86c12cf0e8e4d95adf28fe7fe7edf7be70808ec0ca5b8bed06e85b83a770"
+RPM_NAME = "kamoso-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "ecaf6751216dd6dfd09020819b7980ce98ddf93879de9586f2ab7ed0b8af8ae1c0c5a000f12f10ae6b9e61b2aaba7e4baf62e666f87dad79048ccf3bea100d41"
 
 RPROVIDES:${PN} += "kamoso"
 

@@ -6,11 +6,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.5.0"
 
-RPM_NAME = "python311-numpydoc-1.5.0-1.3.noarch.rpm"
-RPM_HASH = "bca4f34312f26a72a4466529af6efa158d9569ac984590fd35759f6528575ab3be5ee68622cc2b4fa9cf0b02a150981644ccfba0c7c52f5cced112abb9c938a0"
+RPM_NAME = "python311-numpydoc-1.5.0-1.5.noarch.rpm"
+RPM_HASH = "5e87e783561265ab4a77380a9f829fb18cff25a871c49942e10c44b51235dd6e12a00882aa13338abb51dcef67aa70b58bdbfec3e9d677b02d3c3181a8f00ce5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-numpydoc \
+RPROVIDES:${PN} += "python3-numpydoc \
+python3.11dist-numpydoc \
 python311-numpydoc \
 python3dist-numpydoc"
 

@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "1.7.1"
 
-RPM_NAME = "python311-urlextract-1.7.1-1.4.noarch.rpm"
-RPM_HASH = "1f9aff541b4c036f1e2d05dfe45643b72fdfeddd37277e2c4e87d2bbcdfe53d5906f70df920b13962c3c605574e0e3af16b4dc291eb07db36610ac47548e7441"
+RPM_NAME = "python311-urlextract-1.7.1-1.6.noarch.rpm"
+RPM_HASH = "b2e0c4cb5c930c73568adce58630c9e1b0556d7c67dac9eb65feef93b39cb881fd59575ada96bef6c860f336ebf4d383dc6b0106eabaa40f2b10a499f5a516dd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-urlextract \
+RPROVIDES:${PN} += "python3-urlextract \
+python3.11dist-urlextract \
 python311-urlextract \
 python3dist-urlextract"
 

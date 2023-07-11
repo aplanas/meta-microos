@@ -10,8 +10,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.1.4"
 
-RPM_NAME = "python39-signedjson-1.1.4-2.2.noarch.rpm"
-RPM_HASH = "9556f462b6e6d394cc77ce8350371e172b6982f00e8ab73dae112f9b3c767a7ec8b06fd560656c73932a41b49b5fb24e0500cca9df5143faf96b0e4fba3c4bb1"
+RPM_NAME = "python39-signedjson-1.1.4-3.3.noarch.rpm"
+RPM_HASH = "95f9e64e67a5ed0080a13a0f0adddfe4cdec30880aeed7b8f821cb5ba7a2d134965caa68079624ad055629f16371706af00ea304e12318999223e9c9ac7fd718"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-signedjson \

@@ -2,10 +2,10 @@ SUMMARY = "Configuration of kdump"
 DESCRIPTION = "Configuration of kdump"
 LICENSE = "GPL-2.0-only"
 
-PV = "4.6.0"
+PV = "4.6.1"
 
-RPM_NAME = "yast2-kdump-4.6.0-1.1.aarch64.rpm"
-RPM_HASH = "0531d5045b99c75196a5a1ec3ee527be026516693a851dcc1682a6d6e5cfb0627ac3d9f6f20d3fe19a0ea6c3664b8da972fcd03ecc2255d08ea1309a853132fc"
+RPM_NAME = "yast2-kdump-4.6.1-1.1.aarch64.rpm"
+RPM_HASH = "2de2e7f2ec8448fa0b71ca52b55df08a6bf9ed7a0fd2739f2b87262e83d920ecb1d32406e2169761c93b992c52c562f0061be00b9d7f86607ef444fa168c8958"
 
 RPROVIDES:${PN} += "yast2-kdump"
 

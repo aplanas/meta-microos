@@ -13,14 +13,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.22"
 
-RPM_NAME = "perl-File-DesktopEntry-0.22-1.25.noarch.rpm"
-RPM_HASH = "fdc0d63d1b20d6cfb0faafaed52a52394f3844a78c6e999f3710c76d75abd0970de855d584eb5c9584012ec71cc3faa3d71fe3c2b9a8025b06741afe32565d3d"
+RPM_NAME = "perl-File-DesktopEntry-0.22-1.26.noarch.rpm"
+RPM_HASH = "cec58cd10dbe5959da98a96b5e3ce6c6ef4ffca57abe12fd0a829f48d2259af9abe002521bec1ed8576b8644ef9a3585ecdc734cfd110c973b38bb2c36dfe59b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-File--DesktopEntry \
 perl-File-DesktopEntry"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-File--BaseDir \
 perl-URI--Escape"
 

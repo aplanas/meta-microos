@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "4.10.2"
 
-RPM_NAME = "python311-msoffcrypto-tool-4.10.2-3.14.noarch.rpm"
-RPM_HASH = "e34da563072a1167debf686325fee8b037415227bcb4f75ee036de3b84cdcd3d1f1de92b2f31436d5f25ed0cd70537a2a53c61b55ca4c1bd62152fef581d35ec"
+RPM_NAME = "python311-msoffcrypto-tool-4.10.2-3.16.noarch.rpm"
+RPM_HASH = "114ddc04b25585d3ea53e9beb75c884adea855f0580bd71e41f0cec0160e06ce90d119b77bdae8aacad5f14774c1698f4d35987a998c5d003cb053b6b74adc38"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-msoffcrypto-tool \
+RPROVIDES:${PN} += "python3-msoffcrypto-tool \
+python3.11dist-msoffcrypto-tool \
 python311-msoffcrypto-tool \
 python3dist-msoffcrypto-tool"
 

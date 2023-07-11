@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2.17.1"
 
-RPM_NAME = "apache-log4j-extras-1.2.17.1-3.10.noarch.rpm"
-RPM_HASH = "0afec4a8073b8e0e5d36482dd7506228deb735e6c87aa4ed3db33792a51211cb31c48f29f049918cbc8bc5dd929c9a39a2256c43905db46b6de9a6cf0ac2d5d5"
+RPM_NAME = "apache-log4j-extras-1.2.17.1-3.11.noarch.rpm"
+RPM_HASH = "c803f96d2d29ca24640235180b0b1eb202a8963b04a5b4424fdcfa05253cf3804ae3428201ea7f1acaa3eaeb9f49dc4b7a088ffb47b344587a5abd9356782c6c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-log4j-extras \

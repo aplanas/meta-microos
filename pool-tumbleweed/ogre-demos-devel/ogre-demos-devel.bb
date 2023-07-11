@@ -11,8 +11,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "13.5.3"
 
-RPM_NAME = "ogre-demos-devel-13.5.3-1.5.aarch64.rpm"
-RPM_HASH = "6d4391152b3543c1f259b321ec8cf858ac416734e14968191cb699745fbf9ab20e36a2acd2b0d85b5bf1e388f6a575de4af096a5c78f30f78506eaef623b894e"
+RPM_NAME = "ogre-demos-devel-13.5.3-2.2.aarch64.rpm"
+RPM_HASH = "487b1e49eb9b59ea500c10070956138db5448cbd553aab737343bc5d9abd9c3f766ea06e7ff4755bf0bfd64322c099fc122139f0736bc1c65689a9d0d26dc2ee"
 
 RPROVIDES:${PN} += "ogre-demos-devel"
 

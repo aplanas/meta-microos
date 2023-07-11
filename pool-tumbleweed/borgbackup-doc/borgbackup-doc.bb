@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2.4"
 
-RPM_NAME = "borgbackup-doc-1.2.4-1.1.noarch.rpm"
-RPM_HASH = "2121b041485d6f9c02309108918eaaae485cc35d96f90f4237148794e3f4db53b7c2e657d5fa9daa2096e7c7e5dbeb44c7a32b4eefd13ace44c3a159f15417f6"
+RPM_NAME = "borgbackup-doc-1.2.4-1.3.noarch.rpm"
+RPM_HASH = "eabc2eb76eaf372576a2622709d19cf0e0ef5c54723b224ef6779bd1df89b07dadc4cfc330fd0b6999682c0739ef10ad828335d2fb99308d0238df48c0901a5e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "borgbackup-doc"

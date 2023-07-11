@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.6"
 
-RPM_NAME = "bonnie-1.6-1.13.aarch64.rpm"
-RPM_HASH = "6412442e7d893af40e5cf5bc48953ce1c4f84b3d08e93fbf2dc80d260d04b997de67388f8a79d3c4bc40a6c190ead2c736b371f7ab1666dda28ac468b7f64cdf"
+RPM_NAME = "bonnie-1.6-1.14.aarch64.rpm"
+RPM_HASH = "c5542f2c94a094392a65f6bfb7051356ebf62998e3350887e2e4cdb5085239668a37c9d2191ea3fa0cb2818e42c55afabff822aabbee3232bb7e3e7a1e86ef86"
 
 RPROVIDES:${PN} += "bonnie"
 

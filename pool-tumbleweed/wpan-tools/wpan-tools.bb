@@ -6,8 +6,8 @@ LICENSE = "ISC"
 
 PV = "0.9"
 
-RPM_NAME = "wpan-tools-0.9-1.13.aarch64.rpm"
-RPM_HASH = "372a13f188bc445443b7b1126a0f9daf4fb15ebdff166f3d9024c4e77458a0079304ffcdb6e04a42569a2b91bdaadbdfdcfa7fc54418cada4eaa5d53f41508d3"
+RPM_NAME = "wpan-tools-0.9-1.14.aarch64.rpm"
+RPM_HASH = "77781759181dd8c39cf6db718f650aa0907f676ceb4ebdf4f3d2a4f3dc872ee12dcffe1f95a3d62bfd09505fcd620eee3a1d1faf1b17086adcfeb198701def9b"
 
 RPROVIDES:${PN} += "wpan-tools"
 

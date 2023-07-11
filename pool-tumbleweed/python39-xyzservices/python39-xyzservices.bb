@@ -12,8 +12,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2022.9.0"
 
-RPM_NAME = "python39-xyzservices-2022.9.0-1.5.noarch.rpm"
-RPM_HASH = "84ff5f06d1db87099cec740d7c840714f2d58a5f35757a08ee8d6903a4a338b445eafe1022021220541f0d02ad36cbe2bb404fe9b3e6a2a152ec0f6fd76f8fca"
+RPM_NAME = "python39-xyzservices-2022.9.0-1.7.noarch.rpm"
+RPM_HASH = "10e232d89299ace3317c26038d2dcde986386ef0900afc7cc94183f4efa186af1180bab5301c1cdebb6cc0f1bf736f22321520b1e0cbf407e5365ca0a2e2a8b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-xyzservices \

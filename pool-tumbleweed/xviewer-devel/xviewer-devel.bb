@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.2.4"
 
-RPM_NAME = "xviewer-devel-3.2.4-1.7.aarch64.rpm"
-RPM_HASH = "fe0e0cdfd84f00b26fcb002853cd510dd97e11db0a13a48f8fe822c55d9915719d955aec40de3528b009f0685e711da255f020e390deda1e852319853416d007"
+RPM_NAME = "xviewer-devel-3.2.4-1.8.aarch64.rpm"
+RPM_HASH = "6804e886293f7180a768fe7d97ee1f2e01edc5f2fe4ccf45187dc7550bf1a6a3caf094bba118e9fa21a8b7e70f3482a49c4c0beb77a6ae8d5af0bbb334f7348b"
 
 RPROVIDES:${PN} += "pkgconfig-xviewer \
 xviewer-devel"

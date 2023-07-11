@@ -2,10 +2,10 @@ SUMMARY = "Translations for package devilspie2"
 DESCRIPTION = "Provides translations for the 'devilspie2' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.43"
+PV = "0.44"
 
-RPM_NAME = "devilspie2-lang-0.43-3.11.noarch.rpm"
-RPM_HASH = "ad8f6c6e6859e926993bc99a88f53940f5ba58ad0eee550d285feb60f75ee204498673bce5ff41785d1eb75b97abbe4936cad7ab5dcc85aea0b93e5f9df8cf62"
+RPM_NAME = "devilspie2-lang-0.44-1.1.noarch.rpm"
+RPM_HASH = "df8661801350d5c8ae89b5be3cb129ec35d3284bbe95b6ac3dac4e93d7cb31f0fbac8a231cf4d4a9e04c0d524a7d988ff065f7897bd940efaf28382a8aad12a9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "devilspie2-lang \

@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.2.0"
 
-RPM_NAME = "python311-Flask-HTMLmin-2.2.0-1.3.noarch.rpm"
-RPM_HASH = "019309431df6295fe5bfbde0aea58074f056f330b4d1a105eb201d952c81c46d54562dd76dc2736b640afdc1b0045caf753399edee5a141a44cf6ac93aaa8322"
+RPM_NAME = "python311-Flask-HTMLmin-2.2.0-1.5.noarch.rpm"
+RPM_HASH = "2d12abd78c78bc0520f79527e6cb1e5620b4552ee29218219445f8e65c39b041ad5350a93b83b3d46cee4821de65b063c74317db769485365e87d489665aa704"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-flask-htmlmin \
+RPROVIDES:${PN} += "python3-Flask-HTMLmin \
+python3.11dist-flask-htmlmin \
 python311-Flask-HTMLmin \
 python3dist-flask-htmlmin"
 

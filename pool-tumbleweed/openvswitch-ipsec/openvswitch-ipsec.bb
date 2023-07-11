@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.1.0"
 
-RPM_NAME = "openvswitch-ipsec-3.1.0-14.1.aarch64.rpm"
-RPM_HASH = "1752023f1b69d9cb8734286a5924599893b733469a501a6b1002cd2e39580dad5e3c189f2230b9431d7e86ab6fdf8a0abf857a7a1b8f65a86d416feba3713b33"
+RPM_NAME = "openvswitch-ipsec-3.1.0-14.3.aarch64.rpm"
+RPM_HASH = "e869165eea3d540ec2bfd34eb45d1ecc2bc13cf3fbbe1d7a49344755141a9c6fe00baa62f5ef448e80b55a4857457ba563dc95176ac78deab7ace0cb2814bbca"
 
 RPROVIDES:${PN} += "openvswitch-ipsec"
 

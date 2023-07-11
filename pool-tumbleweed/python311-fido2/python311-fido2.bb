@@ -7,11 +7,12 @@ LICENSE = "Apache-2.0 & BSD-2-Clause & BSD-3-Clause & MPL-2.0"
 
 PV = "1.1.1"
 
-RPM_NAME = "python311-fido2-1.1.1-1.1.noarch.rpm"
-RPM_HASH = "6c9292ab5362fe18d216eee704615ec0171cb1e1255ea8742a5d8bd289aa7795e888ce7707ec1f5e641bb6d20d4b63d999f04cd7d8d4784f946861b329127031"
+RPM_NAME = "python311-fido2-1.1.1-2.1.noarch.rpm"
+RPM_HASH = "bd9bdc959b3198666f22ec275c7191a95cf366e624ca8d63b5d3fc82d0dab508fb3c2bab301b0e089e7ff5fe39e0b60855b950b52c8d25bcb312c3193c716f13"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-fido2 \
+RPROVIDES:${PN} += "python3-fido2 \
+python3.11dist-fido2 \
 python311-fido2 \
 python3dist-fido2"
 

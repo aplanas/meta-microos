@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.svn15878"
 
-RPM_NAME = "texlive-harmony-2023.201.svn15878-53.1.noarch.rpm"
-RPM_HASH = "d6042a2ed0569c04308be12d22ac3db04b58b80eb9448b7fb7ed8322a2493c4b04f5b07c547223cf66b8f1fafd92ce61d237746b0e52b22aca4e221b528ee5ac"
+RPM_NAME = "texlive-harmony-2023.201.svn15878-53.2.noarch.rpm"
+RPM_HASH = "51c14e600376edb68698a2fc35690664de98f737a35d27f25dcdd624382b9bc273429c2434fa8d96e97cf7f1a1fc1ef0143ce85dbc22021b5b8d5cd296329517"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-harmony.sty \

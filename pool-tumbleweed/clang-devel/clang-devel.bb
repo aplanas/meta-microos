@@ -7,10 +7,10 @@ clang-devel that openSUSE currently supports.  Packages that \
 don't require a specific Clang version should depend on this."
 LICENSE = "Apache-2.0-with-LLVM-exception | NCSA"
 
-PV = "16.0.4"
+PV = "16.0.6"
 
-RPM_NAME = "clang-devel-16.0.4-1.1.aarch64.rpm"
-RPM_HASH = "59a77a0a98dc6b73936b8e8b9669354fe99205a166b94f5d3cd471977cc390a30155a671548e99db9cb283fcfc7b82ae005c8d07610485817f8122351626ad47"
+RPM_NAME = "clang-devel-16.0.6-1.1.aarch64.rpm"
+RPM_HASH = "d491ae36dd774302faaf614120a624e9a265ddfee9bd6c2599f0a00f80619601bd1153ff76fe277f8684dbe049010446f3f11d698855bf4264b018795a0f2a0e"
 
 RPROVIDES:${PN} += "clang-devel \
 clang-devel-static \

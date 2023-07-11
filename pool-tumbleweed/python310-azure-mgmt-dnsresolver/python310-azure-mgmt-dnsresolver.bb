@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python310-azure-mgmt-dnsresolver-1.0.0-1.3.noarch.rpm"
-RPM_HASH = "3ea0dd5bd75d22c568eb7c9b39072d689c1c4e96103d8ec16f34281f2d6d9f3dedb728b0baced685cc7ac2acdf0540bd660d1fc6e806a2f0e5c5d272513d72a5"
+RPM_NAME = "python310-azure-mgmt-dnsresolver-1.0.0-1.4.noarch.rpm"
+RPM_HASH = "84ec3e22d25a0c4004a956fc763b67c45747c858633976a083c77fa1ff96f8df22d4f36dfe440a89d422c5853bae816bcbf6d2730142d0276a9e7726b25ffc99"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-dnsresolver \
-python3.10dist-azure-mgmt-dnsresolver \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-dnsresolver \
 python310-azure-mgmt-dnsresolver \
 python3dist-azure-mgmt-dnsresolver"
 

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & MIT"
 
 PV = "5.12.0.134.g4cebbfc"
 
-RPM_NAME = "collectd-plugin-postgresql-5.12.0.134.g4cebbfc-1.4.aarch64.rpm"
-RPM_HASH = "369a56ceaea27b66ffb497367dd784d26117d095fc92e4986d2bd34840fb1a8a0db9cc1fa59941e78a5b8b7fa2acfcb6d2972b9facd3a88dbf0e17a1d4527fef"
+RPM_NAME = "collectd-plugin-postgresql-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
+RPM_HASH = "1eb19f50a8f1990266659600381b72660719134df3abb1a4cbf5c02c4f1d4d38ec09333cf3700d11645a6d5951228e2f9ba0ce62e8339dc2b02a0838a0f1af68"
 
 RPROVIDES:${PN} += "collectd-plugin-postgresql \
 config-collectd-plugin-postgresql"

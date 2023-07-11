@@ -4,15 +4,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.0.6"
 
-RPM_NAME = "perl-WebService-MusicBrainz-1.0.6-1.2.noarch.rpm"
-RPM_HASH = "132454fca748e3abfaff4a4c4377c4c8256949e0baa419431c5a5f930753da7e42edb6edc2c0670ecebdc5bc299811b6e103ffe938b2a140370d579f5e3e7103"
+RPM_NAME = "perl-WebService-MusicBrainz-1.0.6-1.3.noarch.rpm"
+RPM_HASH = "b09bc47002809a47e725c1421a40bd3c095fdb0841983fa95d25c0a8d5e14807b333bc757f6021d4bb1cb15a24f3afcd8f32c0e72077a9f2c7c6b4add100f436"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-WebService--MusicBrainz \
 perl-WebService--MusicBrainz--Request \
 perl-WebService-MusicBrainz"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Mojolicious"
 
 inherit rpm

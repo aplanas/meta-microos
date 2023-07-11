@@ -4,10 +4,10 @@ uniform access to generation of barcodes with data. This package contains \
 files that allow use of libprison with QtQuick based applications."
 LICENSE = "MIT"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "prison-qt5-imports-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "88c9789886924fa5c230c71ff2ce7ba33e895c797ba24d13f0e9f6d78feab067ee2425e6cef93daea3cf7929370bff25eaaa089268e20ecc505d5173273b4ce3"
+RPM_NAME = "prison-qt5-imports-5.107.0-1.1.aarch64.rpm"
+RPM_HASH = "0b6c98e9e551fcb7ba0a0a170628eca9a6969a17ab0811eca13488a399ac5e43be10ba4043eccddbd85808a5bf5903af9828797529cbd81947f56f4309a268ce"
 
 RPROVIDES:${PN} += "libprisonquickplugin.so \
 libprisonscannerquickplugin.so \

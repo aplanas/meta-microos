@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.14.2"
 
-RPM_NAME = "subversion-server-1.14.2-5.3.aarch64.rpm"
-RPM_HASH = "169795b325cadebc5b547ff5e14eb35898e82c64b895a5a059cc1fd0c1a5dce662de566f429ce871afe95d15588f14ff568578ef92ee197de45ada46e5bc7e6c"
+RPM_NAME = "subversion-server-1.14.2-6.1.aarch64.rpm"
+RPM_HASH = "a597440d831e5d2c1082a68048135bcb4834dc40e44ef025173fd9a44a17c67f5e7e4de2f7ccf72d5c56794caa954adf1ca823d10741aa5a881c423ff70a38eb"
 
 RPROVIDES:${PN} += "config-subversion-server \
 subversion-server"

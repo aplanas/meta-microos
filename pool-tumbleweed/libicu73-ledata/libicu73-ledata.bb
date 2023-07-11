@@ -9,10 +9,10 @@ rules, break iterator rules and dictionaries. \
 This subpackage contains these data tables, in little-endian format."
 LICENSE = "ICU"
 
-PV = "73.1"
+PV = "73.2"
 
-RPM_NAME = "libicu73-ledata-73.1-1.1.noarch.rpm"
-RPM_HASH = "737662e4f68baa4ca56485f12ba0f7b940e8545de1f154d6cc3573d2c398263c6da5aa2303bf62b89abf2550d71a720ff310a3a5ae565aee5c5d2357ba2d41c1"
+RPM_NAME = "libicu73-ledata-73.2-1.1.noarch.rpm"
+RPM_HASH = "3f75920505dbf4df2ce0bc58ee7b750670cb5b387d440268b4065a7b69e47bf08504b6f065c60bf0d00afe8172d23478cd96322bfe153fd010cdf37e3a4e6bc8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libicu73-ledata"

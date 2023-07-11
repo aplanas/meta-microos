@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.0.1"
 
-RPM_NAME = "xdg-utils-cxx-devel-1.0.1-1.3.aarch64.rpm"
-RPM_HASH = "9a6ebf5d2efa303f0a051c1b93ed1d88de341f90c693861fc46654ac0df7b117ffe389cd4c391b35128a893c459fe28e830fb9d63b6ea4de6ab87bd90742eec6"
+RPM_NAME = "xdg-utils-cxx-devel-1.0.1-1.4.aarch64.rpm"
+RPM_HASH = "e4fa45d25aa9071dd219b07ec34752b82f9d3d488cfe97b16affdc33a27dc6bcd3972d2fed8b259bdaf297b2ad5910a8402d8c8fd87eb63a98747384f3503ee3"
 
 RPROVIDES:${PN} += "cmake-XdgUtils \
 xdg-utils-cxx-devel"

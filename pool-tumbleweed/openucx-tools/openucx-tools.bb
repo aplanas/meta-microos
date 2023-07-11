@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.14.0"
 
-RPM_NAME = "openucx-tools-1.14.0-1.1.aarch64.rpm"
-RPM_HASH = "dc60dc4be6d7564c94c8346920578d010540b7b1a2e84c9b49785f1ac6d99da7c733a276f19f310a317d5fa5e2710e4454b483cf2ba3ef77892bd1b7a6d46e7c"
+RPM_NAME = "openucx-tools-1.14.0-1.2.aarch64.rpm"
+RPM_HASH = "d1d2f49d44790d2efcd8a547b792138de7ec757b6c25dd68ae75fb6422e0cdc04c428ea441d09d6d86d485ed06be5a1817fa0da66fb05d1e2cc6b03ee1da792c"
 
 RPROVIDES:${PN} += "openucx-tools \
 pkgconfig-ucx"

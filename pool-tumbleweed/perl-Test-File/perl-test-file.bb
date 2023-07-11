@@ -19,12 +19,12 @@ LICENSE = "Artistic-2.0"
 
 PV = "1.993"
 
-RPM_NAME = "perl-Test-File-1.993-1.2.aarch64.rpm"
-RPM_HASH = "1c516fd9414a7937dce18a23e0bcbb97c17a5568f421401535c571b3202badd140ebe934f75d3b193c6e28e624caab4acad8f64c26a5be6147a9c60cac1a6c3d"
+RPM_NAME = "perl-Test-File-1.993-1.3.aarch64.rpm"
+RPM_HASH = "8fa00e112b1406f44a1c94575d25bbc51180058fb974d6304c0aee67fef506e0f478cd07e28ad916340d457c8f26e2d841b104f67261a4a23a835216864c24cb"
 
 RPROVIDES:${PN} += "perl-Test--File \
 perl-Test-File"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

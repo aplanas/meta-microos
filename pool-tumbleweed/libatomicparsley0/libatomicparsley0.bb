@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.1.5"
 
-RPM_NAME = "libatomicparsley0-2.1.5-6.18.aarch64.rpm"
-RPM_HASH = "4dff315b7c99daeab1a7d353f42cb4e9e7efc36a513a7764228c2846ea1affe6f02b06a0a901e717c85fd08972d7ca2bcdce406beaea137820c212fcb5e6bf0d"
+RPM_NAME = "libatomicparsley0-2.1.5-6.19.aarch64.rpm"
+RPM_HASH = "c70c440c836fa56d1ff05eee08d48bd9fabd0b53546437b762b3ec36a3c01275aff6ec3b2b5b37f2dc58dbe0c78d1a97596588c11e12ab3a38d49c21423c5a96"
 
 RPROVIDES:${PN} += "libatomicparsley.so.0 \
 libatomicparsley0"

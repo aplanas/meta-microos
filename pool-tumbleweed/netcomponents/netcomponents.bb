@@ -15,8 +15,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.3.8"
 
-RPM_NAME = "netcomponents-1.3.8-301.6.noarch.rpm"
-RPM_HASH = "b131916bb68c3862634f3a5eee47882363b49101df607531d6646bfec95d1271dbfbd8cd8ce7a7483cdbe47f7dd3df424ea41111c0f4d6f9f4c1d7b2d456a954"
+RPM_NAME = "netcomponents-1.3.8-301.7.noarch.rpm"
+RPM_HASH = "1d3608201b30d1d48ecd2d7abb03c5a5de9a4f844ef1bc88bc8aafd3353a04c7f86e8fca5a1d51cf6ac608e19fa5f59f9222a12d308fd6cbf98944c8a5a75f27"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "netcomponents"

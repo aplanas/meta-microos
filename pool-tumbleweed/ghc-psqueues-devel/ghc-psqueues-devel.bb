@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.7.3"
 
-RPM_NAME = "ghc-psqueues-devel-0.2.7.3-2.3.aarch64.rpm"
-RPM_HASH = "cf3366b1163573f5f2e74c8c61555369fc441cdc77934346a816168960df85e316568bb5b3eb735f72d59350bfbab8eb7a2799340d53140e6cef17a56c1efcac"
+RPM_NAME = "ghc-psqueues-devel-0.2.7.3-2.6.aarch64.rpm"
+RPM_HASH = "1ca87703e6651340a19c45a6ae4029ed8e0307c9c945bbbd3df5637aae8dee642c34d2ce97776809c89150825a6bf2ba0c095b02fb7cd4bf8e9c9eb1cb51fc0c"
 
 RPROVIDES:${PN} += "ghc-devel-psqueues-0.2.7.3-F3Vf47seRPn11NfFVgsy6O \
 ghc-psqueues-devel"

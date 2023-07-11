@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.13"
 
-RPM_NAME = "hashlink-hdlls-1.13-1.3.aarch64.rpm"
-RPM_HASH = "36032b813c4b79d237bf57c2ebb729653212cecd9dca2cf9bad3bc75b74e31b658260087378a95b970551170dbf45cee36f6841e54ced46d009b38a83ad533cc"
+RPM_NAME = "hashlink-hdlls-1.13-1.4.aarch64.rpm"
+RPM_HASH = "d4d37cb8b86844d80dc416cdd27de02244b54184cacdc90de188d3b961dd7a27c8fa63a69a93c1450ada79a30338f3382ba7ee770d21ee2c0c41a5e0ede66100"
 
 RPROVIDES:${PN} += "hashlink-hdlls"
 

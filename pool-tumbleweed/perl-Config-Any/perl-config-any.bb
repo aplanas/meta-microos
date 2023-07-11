@@ -16,8 +16,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.33"
 
-RPM_NAME = "perl-Config-Any-0.33-1.1.noarch.rpm"
-RPM_HASH = "fe5a9fca38ec6e0cecae8987bb41d9fac8d9fa812f4873cebb54809b033710903d00986fb50c1aa68e2570a0e7224c118fa53cca8ec95330a405a96f47f12f50"
+RPM_NAME = "perl-Config-Any-0.33-1.2.noarch.rpm"
+RPM_HASH = "9034ac1fa94dee21970b7b2fa4d0cea6e0a1c572d867ee4509af3cb6e0bb40447fc5755fb0c90bf850406030ca0d64812efcdbe71d8502990a86e60e1d1d5f47"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Config--Any \
@@ -30,7 +30,7 @@ perl-Config--Any--XML \
 perl-Config--Any--YAML \
 perl-Config-Any"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Module--Pluggable--Object"
 
 inherit rpm

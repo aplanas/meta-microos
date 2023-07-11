@@ -17,14 +17,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.13"
 
-RPM_NAME = "perl-MooseX-Types-DateTime-0.13-1.23.noarch.rpm"
-RPM_HASH = "112f2f9c14e3377b86263c4d30c27073d1ea045b6bb5e802b1db4400d2a7bd1b4f33f4452719fc1cb0ad22569b95eb146468a35ab3b2314fc8116dc93bd8afe1"
+RPM_NAME = "perl-MooseX-Types-DateTime-0.13-1.24.noarch.rpm"
+RPM_HASH = "1852f8ea0df62c02ef89f7594d506e3c209c9ba3825c429a2079130095496ab41830fba053fb6c2187dce1793257fc82645ce768349a31a5bd6c2be735a9b571"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooseX--Types--DateTime \
 perl-MooseX-Types-DateTime"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-DateTime \
 perl-DateTime--Duration \
 perl-DateTime--Locale \

@@ -4,11 +4,12 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.2.4"
 
-RPM_NAME = "python311-pytoolconfig-validation-1.2.4-1.4.noarch.rpm"
-RPM_HASH = "8129e6886cfdfb10a3e078b839911b1e92f44462acababbd8edc9b49dccf1a901e4abca2479b47114f04142b23afa3c232c353fc9968846c8fdaf73d3528b5b5"
+RPM_NAME = "python311-pytoolconfig-validation-1.2.4-1.6.noarch.rpm"
+RPM_HASH = "6851b55fc4a40099b16dbc8f489d2dd14000c772869d15cebed7bc489f30218b3bc6aa4b0aa9e2f148f8082692c9c3873370b27175a31ed66527709aae66824d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python311-pytoolconfig-validation"
+RPROVIDES:${PN} += "python3-pytoolconfig-validation \
+python311-pytoolconfig-validation"
 
 RDEPENDS:${PN} += "python311-pydantic \
 python311-pytoolconfig"

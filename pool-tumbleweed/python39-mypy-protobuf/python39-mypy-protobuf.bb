@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "3.2.0"
 
-RPM_NAME = "python39-mypy-protobuf-3.2.0-1.13.noarch.rpm"
-RPM_HASH = "54b66ff79bd64dc241e44a76c9f2ff3100d309ef8d12f45899dd216f716238d774adf3b1b94b9a8dd5423e52b37e528e2305deebbe8bc05cf2f2ea0ad558b6c4"
+RPM_NAME = "python39-mypy-protobuf-3.2.0-1.15.noarch.rpm"
+RPM_HASH = "1e19ec131aa55109673ea008585f17bfa6a24501da8e34dd2adca63ea91b648623f6a3c7c13858053e58b7f4e7c57323584896620714f1465641b25e4ce5504a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-mypy-protobuf \

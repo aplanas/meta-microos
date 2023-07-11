@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.2.1"
 
-RPM_NAME = "melody-lang-2.2.1-1.18.noarch.rpm"
-RPM_HASH = "d864e7b93a6b4342b3564e4d0dca67a4b2e7a3f0003d8bdf1178ca38f64edf29e99a3a344a5765b78bb20fab8a90ffa26526b734a3de947084aa7a235bc71b2c"
+RPM_NAME = "melody-lang-2.2.1-1.19.noarch.rpm"
+RPM_HASH = "329af6d38955cd3e5f5bb7908a342ec2a0a8015eef3ca225d65b4be1f22a9babd4b09aa6f6962273eea34b48b5504599e7e3ba1707949e2391c8ff1cefb04d70"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-melody-af \

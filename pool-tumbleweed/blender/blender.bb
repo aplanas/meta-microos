@@ -17,10 +17,10 @@ as well as an integrated game engine for real-time interactive 3D \
 and game creation and playback with cross-platform compatibility."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.5.0"
+PV = "3.5.1"
 
-RPM_NAME = "blender-3.5.0-1.2.aarch64.rpm"
-RPM_HASH = "c6143e5105e557a8fb8d1c15a07b3b0cbbc2cb8c4f8a7f69710bc1dca5b58ffd5b1ef27212246986f83211c187d0ccf238bb6247fbd9165a9c17c2e7a991d7ae"
+RPM_NAME = "blender-3.5.1-1.2.aarch64.rpm"
+RPM_HASH = "80cca907ba7587947de2a22d8ff336057e43aee5e32e0a3fa5aef378dbf4d8405a7c7ce1612d29d414035c11d29dabd5e6cabcf61ccbe9b48f48d579ef4b5ead"
 
 RPROVIDES:${PN} += "blender \
 blender-35"
@@ -58,11 +58,11 @@ libXxf86vm.so.1 \
 libatomic.so.1 \
 libaudaspace-c.so.1.4 \
 libaudaspace-py.so.1.4 \
-libavcodec.so.59 \
-libavdevice.so.59 \
-libavfilter.so.8 \
-libavformat.so.59 \
-libavutil.so.57 \
+libavcodec.so.60 \
+libavdevice.so.60 \
+libavfilter.so.9 \
+libavformat.so.60 \
+libavutil.so.58 \
 libboost-atomic.so.1.82.0 \
 libboost-chrono.so.1.82.0 \
 libboost-date-time.so.1.82.0 \
@@ -83,7 +83,7 @@ libgcc-s.so.1 \
 libgmp.so.10 \
 libgmpxx.so.4 \
 libgomp.so.1 \
-libhpdf.so \
+libhpdf.so.2 \
 libjemalloc.so.2 \
 libjpeg.so.8 \
 liblzo2.so.2 \
@@ -104,8 +104,8 @@ libpugixml.so.1 \
 libpython3.10.so.1.0 \
 libspnav.so.0 \
 libstdc++.so.6 \
-libswresample.so.4.ff5 \
-libswscale.so.6 \
+libswresample.so.4 \
+libswscale.so.7 \
 libtbb.so.12 \
 libtiff.so.6 \
 libxkbcommon.so.0 \

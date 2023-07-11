@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "0.49"
 
-RPM_NAME = "python311-check-manifest-0.49-3.1.noarch.rpm"
-RPM_HASH = "52ed51f019c5aae486ebe424bc2b8e71bab989d23199dad69f3b0ed38d5da664421f0114e4bd3f7a59cd2a4679354ebb3ee3755ed27bad4fdcae49f7953fcdb1"
+RPM_NAME = "python311-check-manifest-0.49-4.3.noarch.rpm"
+RPM_HASH = "ffcb382ea77eea7c0dc7a410965884e017ccde106ef432641237a0885a99f040a64e94ae2356a45c0f12eaac1d5c46a33efc7ddc2e2498ba93dfabda5d5ae105"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-check-manifest \
+RPROVIDES:${PN} += "python3-check-manifest \
+python3.11dist-check-manifest \
 python311-check-manifest \
 python3dist-check-manifest"
 

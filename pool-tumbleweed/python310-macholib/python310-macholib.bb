@@ -11,12 +11,11 @@ LICENSE = "MIT"
 
 PV = "1.16.2"
 
-RPM_NAME = "python310-macholib-1.16.2-1.4.noarch.rpm"
-RPM_HASH = "8cf4d527ed7c3731b0e5c14a4200cb163ece6c4651f34b15f24d973b5b71ea75c8bbb6e09b916ad9db07bd5c54d8eed2acb8eeae88f512008c0be918025c1c92"
+RPM_NAME = "python310-macholib-1.16.2-2.3.noarch.rpm"
+RPM_HASH = "876f75fec7680b8809f56d1c88da3a6be1eaea8fcdbccff6dc5a89e6e51faf582aa8040a311a6df2a4d0e44e39fc78f9a9570c716adebebdee91753cab935c7b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-macholib \
-python3.10dist-macholib \
+RPROVIDES:${PN} += "python3.10dist-macholib \
 python310-macholib \
 python3dist-macholib"
 

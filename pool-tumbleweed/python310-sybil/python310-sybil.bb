@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "3.0.0"
 
-RPM_NAME = "python310-sybil-3.0.0-3.8.noarch.rpm"
-RPM_HASH = "b8c07e1c611b6a58b0c51c14fa2ceb9c27a97368655ff8bf43a5e12de600de57e67682ed625de4815875c7eb368a3d5147cddbb506b0e35731e28b2bfbdba7e3"
+RPM_NAME = "python310-sybil-3.0.0-4.3.noarch.rpm"
+RPM_HASH = "3f18b1afc9342c12a83af98bb4a1418de07e9a45018560e26126f2ae8fba200620c4d6a20db1f25c5b9d666b237159c093a3284ad1c06d608f00a489d811b478"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-sybil \
-python3.10dist-sybil \
+RPROVIDES:${PN} += "python3.10dist-sybil \
 python310-sybil \
 python3dist-sybil"
 

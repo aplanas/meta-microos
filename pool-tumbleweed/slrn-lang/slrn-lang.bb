@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0.3"
 
-RPM_NAME = "slrn-lang-1.0.3-3.18.noarch.rpm"
-RPM_HASH = "64cf175ce7fe2934d485755af456c73dcfd4dd03f0e6b9a1f5fbf2aa6e8960fd254be3b7b6722ecd86b11d0db5075f492d9fa28daddb5bf68a0d168ee06287b2"
+RPM_NAME = "slrn-lang-1.0.3-3.19.noarch.rpm"
+RPM_HASH = "8287924fea43ba6f55770817f12a2f4cf63ea43c0280fdcc6d94dfdafe139a53e603d734167a54dfc8399b58d39c4f40dc028f469996d00b25de903256b99127"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-slrn-be \

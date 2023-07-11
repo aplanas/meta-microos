@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.2"
 
-RPM_NAME = "flashrom-devel-1.2-4.5.aarch64.rpm"
-RPM_HASH = "3839ecdf93a9c157a2c432394d376f410c971f029522dfb3e2829c240beb9b2b550fb641f86a0f41013199d5adfcb57b4cc39f067e94632ddf20634414a1ae30"
+RPM_NAME = "flashrom-devel-1.2-4.6.aarch64.rpm"
+RPM_HASH = "edc83e0c5fdd16f9e508e6aa88fd8135f02a78a97a262d1813c71d5ff95621eaabe904424e738eec92a69d902ddf7b47a17eb03e3a22a3a97320ae6ccf4e85ec"
 
 RPROVIDES:${PN} += "flashrom-devel \
 pkgconfig-flashrom"

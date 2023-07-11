@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.1"
 
-RPM_NAME = "ongres-stringprep-1.1-1.10.noarch.rpm"
-RPM_HASH = "adaf61903380673a8157fcd204e802963cc0b860fc6c251a0f6502b18a0a22808f13d3e580f408709428ccd75aa07becaa3e86acc8fdc7d0f92f4cb8bf419882"
+RPM_NAME = "ongres-stringprep-1.1-1.11.noarch.rpm"
+RPM_HASH = "056b02422498ea1f5096d5493e64348f59a8195e62193a9aa1701266f5cd0d6af74db48862fb199f5165336a2ff89f9f134dc95e748a9ec27e6c26769992d5c7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-com.ongres.stringprep-stringprep \

@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.2"
 
-RPM_NAME = "hidviz-0.2-1.3.aarch64.rpm"
-RPM_HASH = "ff9cd7d55ea4200b02ae54adc1132f5ffe1034774c1108ade0a2148a7eaa8a23ff69624182d139b67793c5b0cc89af2cc4a572d6f30fdb280e3d5d7e69f9e5de"
+RPM_NAME = "hidviz-0.2-1.4.aarch64.rpm"
+RPM_HASH = "b45a925792eaecfb20b360bd5544da951e9ccc807e11d02533ae652b3b707bf250bc3607c3559725e57a62567354227cb7c8a94f7904db61fc52fc20dc2c1981"
 
 RPROVIDES:${PN} += "hidviz"
 

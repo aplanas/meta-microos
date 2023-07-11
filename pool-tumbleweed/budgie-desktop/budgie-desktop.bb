@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "10.7.2+0"
 
-RPM_NAME = "budgie-desktop-10.7.2+0-1.1.aarch64.rpm"
-RPM_HASH = "562ddef3cb788e371a191433b9be795908fb698c4241772908363cd0a9cafabc651643819718f5f87db839947dd678c96053c1f80238e4cc86eed8d2630a00ab"
+RPM_NAME = "budgie-desktop-10.7.2+0-1.2.aarch64.rpm"
+RPM_HASH = "d8fcbd9b80fed3419e45ac665d8b8c11430005694221dfc44278de5e1d7607f26f2a3e57bff5d359b4a51cd9e54a5ea6d630f19d81739cfc5fa404e300e46761"
 
 RPROVIDES:${PN} += "budgie-desktop \
 libbudgiemenuapplet.so \

@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
 PV = "5.0.0+git20170311"
 
-RPM_NAME = "libqt5-qtstyleplugins-5.0.0+git20170311-10.11.aarch64.rpm"
-RPM_HASH = "3668e5d52bd859f8ff136dcc85e3ac7fc6c6cd0a32a004c0e139d0fe116105568efde5a52f2ff094f1422bd115ee32a5056f57c559a8d432a0ed6463462ca330"
+RPM_NAME = "libqt5-qtstyleplugins-5.0.0+git20170311-10.12.aarch64.rpm"
+RPM_HASH = "f32194e898a98aa225b554202a50fa43b6e3130f44ddb72392c610cbd14b5adb2965934c022983e29a986ed2576071907456de438443a8e010349761863fc437"
 
 RPROVIDES:${PN} += "libbb10styleplugin.so \
 libqcleanlooksstyle.so \

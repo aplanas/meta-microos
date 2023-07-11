@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "6.0.0"
 
-RPM_NAME = "python39-azure-mgmt-recoveryservicesbackup-6.0.0-1.1.noarch.rpm"
-RPM_HASH = "846617e99a39e5e14d5686fd944b6a9c0f94dfea381bba2f6fd5b83009bb2cd34e2a0b3a3372cf4b8e20585870c9fc5f562c1db1ae0f0dc31034cf8ceb8b4f9a"
+RPM_NAME = "python39-azure-mgmt-recoveryservicesbackup-6.0.0-1.2.noarch.rpm"
+RPM_HASH = "ed36f96ca575076fdad23ac5c2ef973fb7e2396aceba14a51288ea66f8879035114e9c85a930dbfca7f20b8ad3cdc3aaeff5db0ba25289d3ba88acfda9f37ff3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-recoveryservicesbackup \

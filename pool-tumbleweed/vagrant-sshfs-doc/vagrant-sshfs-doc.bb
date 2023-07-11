@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.3.7"
 
-RPM_NAME = "vagrant-sshfs-doc-1.3.7-3.4.noarch.rpm"
-RPM_HASH = "5d5668adf9db7056d329602688dbd422b66bd04e5a532c2dd7e825860797bc761194fb2658c60bdc74f88afdcf4181e7699e2f59b52074c471c82286d691ed7c"
+RPM_NAME = "vagrant-sshfs-doc-1.3.7-3.5.noarch.rpm"
+RPM_HASH = "be128fccf2028802a52c3921a36286f2949961cc1cd8fa88c541c8312d42b520fc5a8958cb5aa97f00ffdbb360805fd77eb448714484119c6678cf4b9b70b008"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vagrant-sshfs-doc"

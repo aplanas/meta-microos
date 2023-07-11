@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "8.2.0"
 
-RPM_NAME = "python39-natsort-8.2.0-1.4.noarch.rpm"
-RPM_HASH = "3d94136d01d22003260d90751e078e6ffe8ed6ebb11a25445d55429b849ef005b4616310e5a04b40e129e63ae5ad1dddf025b7a7e2fee9bfb2da729d0187f39c"
+RPM_NAME = "python39-natsort-8.2.0-2.3.noarch.rpm"
+RPM_HASH = "a3e4368c7845a24a86db776560b49a9a5ddf604e0d04f05e8f53b20ceefa7346a49a3c79fc0c9f3543e84d39b12743d34c02066dd2d60d1fadb1a792866dad0e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-natsort \

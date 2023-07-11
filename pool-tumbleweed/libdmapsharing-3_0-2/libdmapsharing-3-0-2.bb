@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.9.39"
 
-RPM_NAME = "libdmapsharing-3_0-2-2.9.39-1.16.aarch64.rpm"
-RPM_HASH = "ba2a3e04deec9fe738cef3de614e20ddb0384e9ad26edb79f2de430642ce06c04e2c2ca6e83cf65b930d2649c13da17a752b79634e49a4470776c3c75295dbb9"
+RPM_NAME = "libdmapsharing-3_0-2-2.9.39-1.17.aarch64.rpm"
+RPM_HASH = "48f9ec352b445f1b8e38c8433343026817d4ca1ef711acd6f5ce6583857b665f44142aca17a0748401651044708c2a94dec735cf77aa90d1aa2ad333a07d6f34"
 
 RPROVIDES:${PN} += "libdmapsharing-3-0-2 \
 libdmapsharing-3.0.so.2"

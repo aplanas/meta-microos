@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2.1"
 
-RPM_NAME = "python39-openmesh-1.2.1-1.4.aarch64.rpm"
-RPM_HASH = "a63e71daac9811a66756bad54d9052e5704e6d94d655484c9c1645e5fd49b13767f4676081af19dfdee777fd1989445643ed90138815aaeaf0373ebd182f9fc7"
+RPM_NAME = "python39-openmesh-1.2.1-1.5.aarch64.rpm"
+RPM_HASH = "815031bc1a12a9d7cf8d0b56f7bde162695be9f31b4801ac6e1b5eb3759a8e1077e95ce7ffb97afc8eddefc1aab2211fd083c0bc757daf7c71d28f63fbaa4179"
 
 RPROVIDES:${PN} += "python3.9dist-openmesh \
 python39-openmesh \

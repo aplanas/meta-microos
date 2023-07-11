@@ -8,11 +8,10 @@ LICENSE = "Apache-2.0"
 
 PV = "1.3.1"
 
-RPM_NAME = "python310-kerberos-1.3.1-2.1.aarch64.rpm"
-RPM_HASH = "4352409ef69726d275afaa4cc023bd1ab4846eb543968c8403962f97123902e7566e9467e33e162efa324cc137864e8651ceb502ce7db6a33adce2585edf0cbe"
+RPM_NAME = "python310-kerberos-1.3.1-2.3.aarch64.rpm"
+RPM_HASH = "0c236f04380232a4174479ec23c3de3b4eb9bcf22b022b79de16ce9c546985034fb9ff4aa11e347a21f817d0cb3a6620d1df6a191dfc1cd7a22fb28f61768d42"
 
-RPROVIDES:${PN} += "python3-kerberos \
-python3.10dist-kerberos \
+RPROVIDES:${PN} += "python3.10dist-kerberos \
 python310-kerberos \
 python3dist-kerberos"
 

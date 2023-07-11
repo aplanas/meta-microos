@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.201.1.4.0svn44543"
 
-RPM_NAME = "texlive-easyformat-2023.201.1.4.0svn44543-53.1.noarch.rpm"
-RPM_HASH = "dca3c7d066a5e02c07fd0b5d920f815af16f7a7dd97dcc72cb1fbd07579fdfe06442d4db69a1a2cf6a27e59b81bd0e801f427b1bcd64a4c9d4056d20b6229505"
+RPM_NAME = "texlive-easyformat-2023.201.1.4.0svn44543-53.2.noarch.rpm"
+RPM_HASH = "2f65868b27ef7e825901a9a1905f8612c81df3e1031cb023d68120d5f9ddd1da824bdaeaf976df31fdf240ddabd22b71a38e500d86420dc1dd3dc3c9db93ee3c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-easyformat.sty \

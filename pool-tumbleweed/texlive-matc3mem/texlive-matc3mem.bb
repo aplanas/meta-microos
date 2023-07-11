@@ -5,10 +5,10 @@ for writing the books for the Matematica C3 project to produce \
 free mathematical textbooks for use in Italian high schools."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn35773"
+PV = "2023.208.1.1svn35773"
 
-RPM_NAME = "texlive-matc3mem-2023.201.1.1svn35773-52.1.noarch.rpm"
-RPM_HASH = "2bb5a79b6d51dae7e1237213d1de605ce2cfd06bc283645fe4e0a90f4098f0856f9cd3272fe863d889fcbf3a8452be9fb65d920a205721dd1e5d503f0910d72d"
+RPM_NAME = "texlive-matc3mem-2023.208.1.1svn35773-53.1.noarch.rpm"
+RPM_HASH = "34fe277e38c3bbf6cb60f42b9b558bc2187bbc7a2dd4677e49bdc60baf8f911ad9050004f95eaa864ca4af1594f81b45238f9e529a97efbbb65511d20fa5911f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-matc3mem.cls \

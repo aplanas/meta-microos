@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "40"
 
-RPM_NAME = "ngspice-40-1.1.aarch64.rpm"
-RPM_HASH = "eb10b4cc7f4e6bc11c47e6d4b819bf26dc3c90b739ae8bf359a00e283dfac65d019c5e6e7108e0c644e21c370d5aa8474e3c6f2524548378c5774bf60127d641"
+RPM_NAME = "ngspice-40-1.2.aarch64.rpm"
+RPM_HASH = "53eb08452dc6fcd4e50d1b5c36d17576668d9f9a46978531d76570ff51d3c4a578d241b9c557f309043698cae7d0c42ab9a1eda63cf3a95f2f7cffc9bbbfc7d8"
 
 RPROVIDES:${PN} += "ngspice"
 

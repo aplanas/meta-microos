@@ -11,12 +11,11 @@ LICENSE = "MIT"
 
 PV = "1.2.2"
 
-RPM_NAME = "python310-yamlloader-1.2.2-1.3.noarch.rpm"
-RPM_HASH = "d703a677c3876cff2474ae57833b49a74335205190c9f9c2e5aa99daf3c67f83f0528b94762a645887e89911fcf74d6249cb79bebd584f5496eb2922b2d313be"
+RPM_NAME = "python310-yamlloader-1.2.2-1.5.noarch.rpm"
+RPM_HASH = "22cd8f3da97c0edf1a36ac4fa5e0108ff0befbaf676f303d2c9f8a7e666cdfc4c66e25d311e975eb4e063e6538fe027dce9167c7f46dea58ad57d732f8503954"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-yamlloader \
-python3.10dist-yamlloader \
+RPROVIDES:${PN} += "python3.10dist-yamlloader \
 python310-yamlloader \
 python3dist-yamlloader"
 

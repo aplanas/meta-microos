@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "5.1"
 
-RPM_NAME = "update-test-affects-package-manager-5.1-1.17.aarch64.rpm"
-RPM_HASH = "1b5c2fc6bc3f3335dcc5304a1e0569acb422e79b286f353bf8d8bc7ed92a181c1f3b2720b7b035b8a8add2c3c3b96582719f85c2ea2abff132ffabe43e48fc7a"
+RPM_NAME = "update-test-affects-package-manager-5.1-1.18.aarch64.rpm"
+RPM_HASH = "cbf1fae51b460748dd19a57f31082d39810d7bcf29fcc4356effc4bb3f84aca9b6a60d744e268123edcf5b221294625b7c8e16e409ffde2edcc3d7f011c9f9a2"
 
 RPROVIDES:${PN} += "update-test-affects-package-manager"
 

@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
 PV = "2.3.1"
 
-RPM_NAME = "monitoring-plugins-dbi-mysql-2.3.1-9.4.aarch64.rpm"
-RPM_HASH = "364eb912810d4d59b0c8d8366de1d9cdf97183b0038923433eb4dffb50203ede418652f674403014ce920da42e37cdad40c9451811d22fddafcc095fb8257060"
+RPM_NAME = "monitoring-plugins-dbi-mysql-2.3.1-9.5.aarch64.rpm"
+RPM_HASH = "dc781c79be507a9595d444fc27e64b12ccdca06ebf699708f70adbffb2f6c3eec542b4ea2b16d42a450d5fdf84eb20ac747c3109febac93bf50282661f37c45b"
 
 RPROVIDES:${PN} += "monitoring-plugins-dbi-backend \
 monitoring-plugins-dbi-mysql \

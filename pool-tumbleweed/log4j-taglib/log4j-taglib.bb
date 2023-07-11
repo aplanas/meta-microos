@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.17.2"
 
-RPM_NAME = "log4j-taglib-2.17.2-5.7.noarch.rpm"
-RPM_HASH = "636b92cdeb81fdc5d34ad2e62e4a9fe8a395de6024cb78295f69fa3aa823298f8e1628280e4dd9586481c27bdef833f22e8b1f00ac5b03ef769fa5a49267824e"
+RPM_NAME = "log4j-taglib-2.17.2-5.8.noarch.rpm"
+RPM_HASH = "fceab0b15dd00a057dc35f65678b240f8c56727c06f5c3153ea244a60449544924d16803901c1ed638064eb13e70b43148db52c17f7f1d6512ac711858877c28"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "log4j-taglib \

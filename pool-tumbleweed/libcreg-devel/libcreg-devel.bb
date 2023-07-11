@@ -8,8 +8,8 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20210625"
 
-RPM_NAME = "libcreg-devel-20210625-5.7.aarch64.rpm"
-RPM_HASH = "95db7dd53ed5fbbd303a8fbc91c506ac51ed22ff5d255d272535f280ea88e56b923a3560c1554a3bac8d8721401a7cda4797fdbb6f8f8b63e8f63ae5eb8b0435"
+RPM_NAME = "libcreg-devel-20210625-5.9.aarch64.rpm"
+RPM_HASH = "e017dea48c78a753a4e1fcfbe45a0214edd8b9f89c0fd969e0778d0289d145467a6491f6e91964053ea475d2739e975c61954dd065097270bf6a60f9866b7802"
 
 RPROVIDES:${PN} += "libcreg-devel \
 pkgconfig-libcreg"

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only-with-OCaml-LGPL-linking-exception"
 
 PV = "1.12"
 
-RPM_NAME = "ocaml-zarith-1.12-1.15.aarch64.rpm"
-RPM_HASH = "7b8cdc38393ffed00b5991296e1d6237b62de5de5e4a86690bc0b7a29d542fbc53b49ad7d8d2f58d004ed9426a636b45369757b3ba7b69f77f48fe0d200c172a"
+RPM_NAME = "ocaml-zarith-1.12-1.16.aarch64.rpm"
+RPM_HASH = "085cbe87fcab411c9d6ad73de20b6235a908d29456236098a428d401ff1cfb88d1e6a3f94bfe590bf191d31e5420929db370ded85b24bfb088e374564ad14d90"
 
 RPROVIDES:${PN} += "ocaml-zarith"
 

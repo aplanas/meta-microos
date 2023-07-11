@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0"
 
 PV = "0.8.18.1"
 
-RPM_NAME = "leafpad-0.8.18.1-15.22.aarch64.rpm"
-RPM_HASH = "c361fbebc77936e297d26901ade5d742feeff8b22ae2a47bb2a82b848372fd5fe4aac274b6519d6a7c18fe9c5d6567eb3cc97735b971bd26d88c67f5f2be03c1"
+RPM_NAME = "leafpad-0.8.18.1-15.23.aarch64.rpm"
+RPM_HASH = "e3be91e8c8dcf696445603bceb40e2aea5658eca6001e4035d461cc9b6223c9e499d81b5c329c693057fcb204d74ad9ebdc114bd7e10aa3e15f49923a51641bf"
 
 RPROVIDES:${PN} += "leafpad"
 

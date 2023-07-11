@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.1"
 
-RPM_NAME = "ocr-gnu-hpc-doc-1.0.1-5.9.noarch.rpm"
-RPM_HASH = "58ccd4a3656e6500efab3b352f32ac4da1a68dc59669da0ff2c79bdd7dbedbbc68d3e6f6eab6fe47ca2d6b394448805cf5d9cacb705a6a0cace72051aff6fe70"
+RPM_NAME = "ocr-gnu-hpc-doc-1.0.1-5.10.noarch.rpm"
+RPM_HASH = "3fd3e0527c956cc8e38db9169f6a01a712ef9368f460d0e70b96c05ce9fdb6a134b0123d05e9585a80b68d5193ca780f1fec78f8ff13b720aa53c66889a4cc03"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ocr-gnu-hpc-doc"

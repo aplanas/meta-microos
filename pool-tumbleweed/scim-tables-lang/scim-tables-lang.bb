@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "0.5.14.1"
 
-RPM_NAME = "scim-tables-lang-0.5.14.1-2.31.noarch.rpm"
-RPM_HASH = "099941248a90b3dc7d5a95dff3b53ba0c3c94f70b94d26b1009bb0bd286dd0605ce6dbb29bb935666ec736ab3e4a3261d6d860834a7dfcd80b4f84824127fce5"
+RPM_NAME = "scim-tables-lang-0.5.14.1-2.32.noarch.rpm"
+RPM_HASH = "acf2d39b33a4d8ed39b5c24b9e5d6d59b48eb76fd80e52a5dfd6cc519927b1f1de9739549d624bac9fe448eca1f787c31fc7978cb535646f6c1d8ffcd0c16b7e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-scim-tables-de \

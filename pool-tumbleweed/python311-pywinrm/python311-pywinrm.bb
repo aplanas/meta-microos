@@ -11,11 +11,12 @@ LICENSE = "MIT"
 
 PV = "0.4.3"
 
-RPM_NAME = "python311-pywinrm-0.4.3-2.1.noarch.rpm"
-RPM_HASH = "0a50be1a353475da3c0d0cbfa3aa41f48ab5a19e1f35b4a628fc9cf58a7ab3b2019fda8b8be379973b395744a355958d06b76e1add1ab543043b6df065cb6203"
+RPM_NAME = "python311-pywinrm-0.4.3-2.3.noarch.rpm"
+RPM_HASH = "ad35fcb21a0bdbf5a959fe7f76206e6ecc4bfdb105e9f9afa4769fc49be22375be59bc4645cea852e4d3c53520ea27caaa5385fa9b91b1374fdf3124e71e657d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pywinrm \
+RPROVIDES:${PN} += "python3-pywinrm \
+python3.11dist-pywinrm \
 python311-pywinrm \
 python3dist-pywinrm"
 

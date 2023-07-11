@@ -2,10 +2,10 @@ SUMMARY = "Development package for kdav"
 DESCRIPTION = "This package contains development files needed to use kdav in other applications."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "kdav-devel-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "5034d66dcdb857425e4ba7178c2b18f7aa2639d9a64cfa1b9a15303d1cb55b480f12f29422c0c79f8e9b08caa40ca9b2a20689a72734b5c4b47056396616fb18"
+RPM_NAME = "kdav-devel-5.107.0-1.1.aarch64.rpm"
+RPM_HASH = "62f16dfc54599104f7ce0f5bbabebdd1b30384b005c2317cdd2c97e6ec16c8b6d745e62856800bf353ae0635f3927c46027c769362e32fc1ef46e46764afe07c"
 
 RPROVIDES:${PN} += "cmake-KF5DAV \
 kdav-devel"

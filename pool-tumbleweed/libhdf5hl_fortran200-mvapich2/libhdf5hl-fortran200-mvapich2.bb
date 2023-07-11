@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.12.2"
 
-RPM_NAME = "libhdf5hl_fortran200-mvapich2-1.12.2-5.2.aarch64.rpm"
-RPM_HASH = "506df5e3f527efc3d5585959c20b95cf7e99ef35459ddd290b7fc8ccd0bcc32d624b2dcf7bb38ccbd7b0d8df8c05aba0aed2f882a6a54ccefc255fb2b4e48f1b"
+RPM_NAME = "libhdf5hl_fortran200-mvapich2-1.12.2-5.3.aarch64.rpm"
+RPM_HASH = "b607da4da0662f8d9a3c517bbd59b6ef0f19c5da749dd01885ab3b1d31f4c700365bf367ec09abb6735488f4d6180af691cdfc5922b94e9384774197a5f334e9"
 
 RPROVIDES:${PN} += "libhdf5hl-fortran-mvapich2 \
 libhdf5hl-fortran.so.200 \

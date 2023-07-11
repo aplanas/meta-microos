@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt6QuickLayouts6-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "701f1727fd9e2681d7e7052e3dc2000b1db8b678fbf54b529bb8b717082d0eaba191b16a2ca82de3844f5e6667b77ec4105956cbd64708adaaa1d30336a6dba2"
+RPM_NAME = "libQt6QuickLayouts6-6.5.1-1.3.aarch64.rpm"
+RPM_HASH = "77b485c0e8ba935684cede7d5a004e9523bbef41ecbee37c3ec433f71e401565cd5bdb6a675fc1d93bacef3bc22e6311a536ed5374062562bc632ed76fe61f8b"
 
 RPROVIDES:${PN} += "libQt6QuickLayouts.so.6 \
 libQt6QuickLayouts6"

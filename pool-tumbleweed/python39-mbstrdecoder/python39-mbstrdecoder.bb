@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.1.2"
 
-RPM_NAME = "python39-mbstrdecoder-1.1.2-1.1.noarch.rpm"
-RPM_HASH = "e9b2eb049a8edca9f8c95599864dc53eab2390599e211bca3074bf821616279841927fbcc2171ab8be6d190a0855f3edc55e4237f8011b2057bd366dfb2c3cc8"
+RPM_NAME = "python39-mbstrdecoder-1.1.2-1.3.noarch.rpm"
+RPM_HASH = "85818bc81271310e95e02d35ce34be7b69b88b01e72dd3244dcd59efdc02d84a344354bdd427fbb5105862a1dac53829907631cafc6e6712c5f998bc9e9fc049"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-mbstrdecoder \

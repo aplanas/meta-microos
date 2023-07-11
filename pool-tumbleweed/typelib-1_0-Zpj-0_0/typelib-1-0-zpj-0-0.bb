@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.0.3"
 
-RPM_NAME = "typelib-1_0-Zpj-0_0-0.0.3-8.3.aarch64.rpm"
-RPM_HASH = "b632cf11c2d25b5f01f8138706676fb48b8a9ac5abe7a88e2b7da3ca6a5f3f7aec4791f55c7621014427c1ec81c0939450085ff6d3481dd827f5df683a78195b"
+RPM_NAME = "typelib-1_0-Zpj-0_0-0.0.3-8.4.aarch64.rpm"
+RPM_HASH = "9882943fef614aaeed7fbcd05df1e383c6c524a249848c5f372d2d604753c2b71ca93bf644c83f8331ddb254caf5e55dfa20261876e22420fb4afb1141638db4"
 
 RPROVIDES:${PN} += "typelib-1-0-Zpj-0-0 \
 typelib-Zpj"

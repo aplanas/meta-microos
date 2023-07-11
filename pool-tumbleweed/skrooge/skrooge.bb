@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.28.0"
 
-RPM_NAME = "skrooge-2.28.0-1.11.aarch64.rpm"
-RPM_HASH = "26c35bdc4e52418ee794a942f7a7dafa30042b12807fc5fbbad8239701a61ca62610cd525b47c146c3d1e9ee0790ef2514a7086ea716495d535537ecc351b9f8"
+RPM_NAME = "skrooge-2.28.0-1.12.aarch64.rpm"
+RPM_HASH = "05a87f5036d1e4d3c8e8863aabfd0e1d12450d14a13807f4c8360a012c27dbe68ede63f8d046f30b8d5ed7c137f7d917968a078d7455279abb51b8c5853db309"
 
 RPROVIDES:${PN} += "libskgbankgui.so.2 \
 libskgbankguidesigner.so \

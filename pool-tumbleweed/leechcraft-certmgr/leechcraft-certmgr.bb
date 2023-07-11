@@ -4,8 +4,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-certmgr-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "0050a8c46886a59d2b1418758529f38954922c5105c8107091695c8ec796d6816d87c50cca38f8b8fbc1182ee988684fe192bb6aa010b1adaa275287135577cd"
+RPM_NAME = "leechcraft-certmgr-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "fbd615eee57debedb8e1513e8b6cf4b40c655b56e4217d8281b07c3080480695523fc4bea4ee6526f109873bbbd66f9249d152b60343dd3a2a52fff2308c048a"
 
 RPROVIDES:${PN} += "leechcraft-certmgr \
 libleechcraft-certmgr.so"

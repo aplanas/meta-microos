@@ -9,8 +9,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.0.1"
 
-RPM_NAME = "libflxmlrpc1-1.0.1-1.8.aarch64.rpm"
-RPM_HASH = "29494ba78cc43c8a086b923d91678ea1599ae87b4145a425db51d90e52ad2112375ad3e1b16be23e043a5c4023e7a8e0e8a33c8dadbc79b9d1d67a51cd89030f"
+RPM_NAME = "libflxmlrpc1-1.0.1-1.9.aarch64.rpm"
+RPM_HASH = "f7a99d0c06b4400483dc191ade35f7aeacd7bb49428a84e3c2b0254066f0769d194260595f446b1f1ad8de9a3cc12b900cc7e0e1d9acc94b115c46c79c36ce86"
 
 RPROVIDES:${PN} += "libflxmlrpc.so.1 \
 libflxmlrpc1"

@@ -5,14 +5,14 @@ simplicial complexes, matroids, polyhedral fans, graphs, tropical \
 objects, and other objects."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.9"
+PV = "4.10"
 
-RPM_NAME = "polymake-devel-4.9-1.3.aarch64.rpm"
-RPM_HASH = "0df95e5b6b620b9d6bbc74cfcad881aac4a07e82de5a9bf58e54f26554d01174cc8f46f193f92477c2b97a4b6b6760419b874a70e6585a46af9142ead3a7b370"
+RPM_NAME = "polymake-devel-4.10-1.1.aarch64.rpm"
+RPM_HASH = "fe37958be3eef6354c8e111a34a7eb516dcfb8337bdaddccc8f97f36ba813a9e040b199746b1d01603df3c583db714143b72502536c776187ecc2d4ee17cdb36"
 
 RPROVIDES:${PN} += "polymake-devel"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-libpolymake4-9"
+libpolymake4-10"
 
 inherit rpm

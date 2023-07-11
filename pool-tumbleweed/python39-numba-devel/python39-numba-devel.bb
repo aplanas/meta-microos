@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.57.0"
 
-RPM_NAME = "python39-numba-devel-0.57.0-1.1.aarch64.rpm"
-RPM_HASH = "9ac3c7770e6898e5edf2dbe7e3427bf95450ab6c35cde07518130b6c1943dafe16966a4d7bc740b1f47e8f90e639811536cb2e6720dc0c3e5585adaaec1e0684"
+RPM_NAME = "python39-numba-devel-0.57.0-1.3.aarch64.rpm"
+RPM_HASH = "437b1a941574fcfaa70cafa58a478c13c0dbb70181d43242422395f0670981c791a1b1ad5829a4286a5444539e9aed9426c8c962dd7c53ea6c7091f973bccc7a"
 
 RPROVIDES:${PN} += "python39-numba-devel"
 

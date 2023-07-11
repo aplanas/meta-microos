@@ -3,10 +3,10 @@ DESCRIPTION = "Rust implementation of keylime agent. Keylime is system integrity
 monitoring system."
 LICENSE = "Apache-2.0 & MIT"
 
-PV = "0.2.1+git.1682587333.b497f1d"
+PV = "0.2.1+git.1685699835.3c9d17c"
 
-RPM_NAME = "rust-keylime-0.2.1+git.1682587333.b497f1d-1.1.aarch64.rpm"
-RPM_HASH = "8262b89d8c68384a7446763c6651fce9bd91903d78ebd429c10f3dc034d3cda42ad9478a9a0bba72506e7aee1b8cdef96f78eefeba78fc504e84ff75a4895920"
+RPM_NAME = "rust-keylime-0.2.1+git.1685699835.3c9d17c-2.1.aarch64.rpm"
+RPM_HASH = "90eb382b8c161f1f956509a71627fd5602db93ce3e48c6dfe237e6771462056864cc765af2febd76e7ad4a3e5aef75322186fd519bd17aca9bfa2fd155597299"
 
 RPROVIDES:${PN} += "bundled-rust-crate-actix-codec \
 bundled-rust-crate-actix-http \

@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.1.0"
 
-RPM_NAME = "python39-unpaddedbase64-2.1.0-1.10.noarch.rpm"
-RPM_HASH = "cb2700c6616c7165ab2aea32bd3440eaea75a02ac6696e8e8a9db6bd9c07709efd8eb077f7a41249da01f0ecd0d515664d552a923b683f1f9d66069301ead883"
+RPM_NAME = "python39-unpaddedbase64-2.1.0-2.3.noarch.rpm"
+RPM_HASH = "d38a2d9a4f3633c55aaf591a6689a0d068c5233a5a2a2a7916e66a357824f4f43362a404113584995b081380a8b02297cf4b1c6b8a7d4fb68231c2a7eca12fa6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-unpaddedbase64 \

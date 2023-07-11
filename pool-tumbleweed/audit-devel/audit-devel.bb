@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.0.9"
 
-RPM_NAME = "audit-devel-3.0.9-1.3.aarch64.rpm"
-RPM_HASH = "f0b27793e9256b1e705c98030c3e7276ccfbaf7a8dcca0f8f37335dfc9307cd5bedd76ae382137d262c4569d8f89276585e66cc2f7e0ca492acad8199b2b93bc"
+RPM_NAME = "audit-devel-3.0.9-1.5.aarch64.rpm"
+RPM_HASH = "8b5501512baec63f29653de31d9e3e0bfc8b566261a9e4aba3e122d561dd51f160a899c09a29cec4fc2a65f96eb11e3e244e49d926e3d7d3be278b4c9561df67"
 
 RPROVIDES:${PN} += "audit-devel \
 pkgconfig-audit \

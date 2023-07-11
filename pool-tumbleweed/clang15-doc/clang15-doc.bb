@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0-with-LLVM-exception & NCSA"
 
 PV = "15.0.7"
 
-RPM_NAME = "clang15-doc-15.0.7-2.4.noarch.rpm"
-RPM_HASH = "0265887f08cf40dc39e59009a45a840e499b225a315b5bd81216b44e8fa2f7e94dc2a5c7c64ae5b840b9196e3e2e13c424ba2ebd3e77df7bb41c6cd5497075de"
+RPM_NAME = "clang15-doc-15.0.7-3.1.noarch.rpm"
+RPM_HASH = "cd130e871221919d879ef048bc9d36ed028cfe7d609f07d0569dc701c1be1f7b28674b79716a703f25bddd761e4b54e5d02a9c633e31352cd92819ab278c2543"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "clang-doc-provider \

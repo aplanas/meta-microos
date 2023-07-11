@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "0.7"
 
-RPM_NAME = "python311-pybeam-0.7-1.11.noarch.rpm"
-RPM_HASH = "f12988f621d6d03b3f26f1ea13adb5f20ac1d7d7e8df6be179f2f9c1f60bc520b2deeedaef23a47e9cf7d4868c73cc52f9cee1c3e49d79aca598598fc48abd57"
+RPM_NAME = "python311-pybeam-0.7-1.12.noarch.rpm"
+RPM_HASH = "49c02d177d3b93887f96f078d3ef83a758641f345a1fa38754363b9f2e41ac9273bf5699bddca9cf28d194b20795eb4acb8b946519058b85c7bd307ef75ac721"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pybeam \
+RPROVIDES:${PN} += "python3-pybeam \
+python3.11dist-pybeam \
 python311-pybeam \
 python3dist-pybeam"
 

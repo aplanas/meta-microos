@@ -8,12 +8,11 @@ LICENSE = "MIT"
 
 PV = "0.2.9"
 
-RPM_NAME = "python310-xvfbwrapper-0.2.9-7.9.noarch.rpm"
-RPM_HASH = "24234e94b3c53e4af02999e6791f7b7b66984850100c1678c23faf6860e151f85cf1cdf7aeeff75515455aa5cda4973039cbb1c42a64ba1564f200f3ef2eb10e"
+RPM_NAME = "python310-xvfbwrapper-0.2.9-7.10.noarch.rpm"
+RPM_HASH = "77c0aab52cc5b5b67334afd28c4f1e2ac1bb79bfdf978d5a2ce005e0a8bc72e4c7bc17fc48867c62222ec4e25cc28798e7281a4bc5f3a88990eec57fc60f8ffe"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-xvfbwrapper \
-python3.10dist-xvfbwrapper \
+RPROVIDES:${PN} += "python3.10dist-xvfbwrapper \
 python310-xvfbwrapper \
 python3dist-xvfbwrapper"
 

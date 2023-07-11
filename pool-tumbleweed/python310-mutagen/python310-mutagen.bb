@@ -10,12 +10,11 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.46.0"
 
-RPM_NAME = "python310-mutagen-1.46.0-1.4.noarch.rpm"
-RPM_HASH = "8e2b34a857c2b668faa4688ddaf37211fe3cf21b1d25a47b8d0060d56009dcade9d4dd69b9959445c52ac836ace92d2e00ae224a195949e8eeb255ba54a9742e"
+RPM_NAME = "python310-mutagen-1.46.0-1.6.noarch.rpm"
+RPM_HASH = "6ffc8597e321028d4cd9a41099fb4c440c2d1cc1020092d8db99f643bd4d6ea67decaef6fd03a25f4a22b67a90e1b7398296e5b25f51bf3b9931dc396b8e55c3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-mutagen \
-python3.10dist-mutagen \
+RPROVIDES:${PN} += "python3.10dist-mutagen \
 python310-mutagen \
 python3dist-mutagen"
 

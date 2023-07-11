@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.3.0"
 
-RPM_NAME = "python310-aspy.yaml-1.3.0-2.8.noarch.rpm"
-RPM_HASH = "baad3723f1068be9f8ffb3717e24d6457e0248a516b7351001a3b144a6b761c7ad835f85e97eb2675d4323da7ad2ec61554e72f055b635510c91f2b49fbb7241"
+RPM_NAME = "python310-aspy.yaml-1.3.0-2.10.noarch.rpm"
+RPM_HASH = "b18d4cd82312e5e2448fc5b2474a423e4af79311551336f4241187bd70f5c8086147f3ead2b7b98892f2519f79bea484a7ee932495b0bd6df3f0e2b4613e2723"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-aspy.yaml \
-python3.10dist-aspy.yaml \
+RPROVIDES:${PN} += "python3.10dist-aspy.yaml \
 python310-aspy.yaml \
 python3dist-aspy.yaml"
 

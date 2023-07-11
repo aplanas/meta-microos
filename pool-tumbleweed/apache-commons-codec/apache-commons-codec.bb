@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.15"
 
-RPM_NAME = "apache-commons-codec-1.15-2.4.noarch.rpm"
-RPM_HASH = "80326b158fa01e9708d717c026406d8ff374f8315d2b7fda4976fc6ffedb6ce0508080a0bfdcb2dc094d3d3c0f261b1c6e7bddf8ebbaee95c43febeed3cb1621"
+RPM_NAME = "apache-commons-codec-1.15-2.5.noarch.rpm"
+RPM_HASH = "2025a423ef3fa2a688f9f0a9c97fbaf7038ea73df462d1e2951196694df312e6c89e120521e702fb273e7a0d7267b4f4d1f1f4db36bd9d6f3126a77c8b69fa40"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-codec \

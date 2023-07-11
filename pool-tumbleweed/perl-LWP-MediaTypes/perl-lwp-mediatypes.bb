@@ -63,13 +63,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "6.04"
 
-RPM_NAME = "perl-LWP-MediaTypes-6.04-1.15.noarch.rpm"
-RPM_HASH = "57d99aff20fcfae228360002b432c702d75adb9e0ab65b2fdf6d707013c4e0639b0e820f314dcc8bd568610c5f70c176526a100167091b4c0858a4d860a6666d"
+RPM_NAME = "perl-LWP-MediaTypes-6.04-1.16.noarch.rpm"
+RPM_HASH = "dc3f7991ce0267d167d16448ea69099b961171bf3b634b08027a1869c6330eb014a7aa3627b9cfafcc205ce16ec602e5b52a6a852b49a65be0b6d53f134b5d96"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-LWP--MediaTypes \
 perl-LWP-MediaTypes"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

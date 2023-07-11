@@ -13,11 +13,12 @@ LICENSE = "MIT"
 
 PV = "1.5.0"
 
-RPM_NAME = "python311-straight-plugin-1.5.0-2.12.noarch.rpm"
-RPM_HASH = "bb957afe39343b89762e1925f29fab5c13501fd0c353b370a236907f6d5793b69b7b16ff5e6774d42069812018f7a58572f1d9c008c1ff6a3de19951a9c030f5"
+RPM_NAME = "python311-straight-plugin-1.5.0-2.13.noarch.rpm"
+RPM_HASH = "135d8731ac0bf5d777d476ad6f5bdf43d64120df572ad48d3e202f69503c85c534b66f7c803f6f618dcfe2d9afabebf57b8a63b4061729e7b78226408e8f18f2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-straight.plugin \
+RPROVIDES:${PN} += "python3-straight-plugin \
+python3.11dist-straight.plugin \
 python311-straight-plugin \
 python3dist-straight.plugin"
 

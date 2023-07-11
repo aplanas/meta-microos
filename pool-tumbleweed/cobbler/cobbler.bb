@@ -7,14 +7,14 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.3.3"
 
-RPM_NAME = "cobbler-3.3.3-1.1.noarch.rpm"
-RPM_HASH = "e2a3ace2fd6bebc5fbb2d57216435f43138a86745f403a40b94eea0d2ab85d4020da52800c21fdbd7d4f025a907c295832fd7ce970f0e64015d694c22e0a0216"
+RPM_NAME = "cobbler-3.3.3-1.2.noarch.rpm"
+RPM_HASH = "a966d9b6c204a9fc7281385890c015261ad17c3b3401ab8869c4071d9303dd7c0ecf7fe216a652a1a1450f40d8244a09b26b30e7654012a850fa6c7ded5ad63e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cobbler \
 cobbler-nsupdate \
 config-cobbler \
-python3.10dist-cobbler \
+python3.11dist-cobbler \
 python3dist-cobbler"
 
 RDEPENDS:${PN} += "/sbin/service \

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "eog-plugin-slideshowshuffle-44.0-1.1.aarch64.rpm"
-RPM_HASH = "1d6e072f797d2d102a4aaaaadadb9e8d3111b53a313f16882c61db7dceb6f283d2b1a62a5a7aab4b3df5cb30ab45a7f3192b9ce8adda2dbedaf07b798d13ffe6"
+RPM_NAME = "eog-plugin-slideshowshuffle-44.0-1.2.aarch64.rpm"
+RPM_HASH = "43f625e2c1b93c6c79b6be56f5448420e537decf2e725d2ba4a69469aa0a99c9461c0e7716c99f52e967dfcf02486a07cedff2fa3b89f86a3988330cc118ebd4"
 
 RPROVIDES:${PN} += "eog-plugin-slideshowshuffle \
 eog-plugins-/usr/lib64/eog/plugins/slideshowshuffle.plugin"

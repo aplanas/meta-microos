@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.0.0"
 
-RPM_NAME = "Coin4-devel-4.0.0-1.7.aarch64.rpm"
-RPM_HASH = "34b4def2802ed4eb6aeae724f3148ce99e3b14c9bd89da2b48f6a1774acdaabe06f54713ea850ca79d71b80505188e626a2ebd3ef4876ec29c73956e16d30d33"
+RPM_NAME = "Coin4-devel-4.0.0-1.8.aarch64.rpm"
+RPM_HASH = "f1641098b6d6cb1dacb2e955b763b24f44d0e262cd7a5d93c47ae82883a7b940f48105ae5f0f2d46d0b8ceb6ec63eac12012a698aa8e8661d948eeab87b6aaf1"
 
 RPROVIDES:${PN} += "Coin4-devel \
 cmake-coin \

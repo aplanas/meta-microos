@@ -12,8 +12,8 @@ LICENSE = "CECILL-B"
 
 PV = "4.2.0"
 
-RPM_NAME = "givaro-devel-4.2.0-2.1.aarch64.rpm"
-RPM_HASH = "29be90152b8a4b278fb6283b17b57418b9f8ad459a7a9ca93ff5e98af276c720be02748e7c921a4fc18011229ad19c8b1b94019119308974a0a4c41bfc095a9d"
+RPM_NAME = "givaro-devel-4.2.0-2.2.aarch64.rpm"
+RPM_HASH = "d7168011e6c21568f2cabee5870358d431af5987bf81c11cd8c1ab76b35998ae13df89148798de2a1f933f92d5ea5660ee3794f623cd9668108fc7da8461040a"
 
 RPROVIDES:${PN} += "givaro-devel \
 pkgconfig-givaro"

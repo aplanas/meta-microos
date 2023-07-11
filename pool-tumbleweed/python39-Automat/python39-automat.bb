@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "22.10.0"
 
-RPM_NAME = "python39-Automat-22.10.0-2.1.noarch.rpm"
-RPM_HASH = "607f5877687ad979dde3290f59401a4e95b6f4840bc565204feffb91b194336a7806d5efd8ade43d92acfbddb9e8479d5bcefbda1607f21a659e4690f40097df"
+RPM_NAME = "python39-Automat-22.10.0-2.3.noarch.rpm"
+RPM_HASH = "b4e2c84fcdaa78a20c316547c7ad5aef52e25fd073bcfca9ac235b62b8bcfb161016e070ee04d4b28ab14a17e3eddb30f7850dca72bb0011724099711cecc234"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-automat \

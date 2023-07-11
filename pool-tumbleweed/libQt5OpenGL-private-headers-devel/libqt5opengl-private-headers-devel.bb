@@ -5,10 +5,10 @@ ABI or API guarantees. The packages that build against these have to \
 require the exact Qt version."
 LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
-PV = "5.15.9+kde154"
+PV = "5.15.10+kde129"
 
-RPM_NAME = "libQt5OpenGL-private-headers-devel-5.15.9+kde154-1.2.noarch.rpm"
-RPM_HASH = "32f10500dbd0d17a7445c292afd06eef25d5d2557d954ecdbc941d10561e4764189116c599265c943719b74cf80507c4c04e8734a243893b75bcef2e872ffdfc"
+RPM_NAME = "libQt5OpenGL-private-headers-devel-5.15.10+kde129-1.1.noarch.rpm"
+RPM_HASH = "c8bd7c266f2f99709d14c68746659b2266e2acf6c57e592515d79a963742d7bea6ab6e7f729900593cebe77cdd712fbbb86b22eda80046bff22dc260301b0191"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libQt5OpenGL-private-headers-devel"

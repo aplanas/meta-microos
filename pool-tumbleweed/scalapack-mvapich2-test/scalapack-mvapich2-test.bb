@@ -5,8 +5,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2.1.0"
 
-RPM_NAME = "scalapack-mvapich2-test-2.1.0-9.11.aarch64.rpm"
-RPM_HASH = "8755af1ccb301180b18a80d8937a95c290d8a504cb0d8e1bc92f5cc822120ba52501b69c2c23d541c60fa00b4516cb8eb78d9ae6f1c02147a5ad634f85c434f3"
+RPM_NAME = "scalapack-mvapich2-test-2.1.0-9.12.aarch64.rpm"
+RPM_HASH = "1f17678f49c44e8cdc4b6f19b643816efe8404e0eb5b24f1175b72f90ca9bb5994c5be30f05d49596b7df85db6f3cd934912a5b68e7dd2ab686c5d154240fd91"
 
 RPROVIDES:${PN} += "scalapack-mvapich2-test"
 

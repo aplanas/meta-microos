@@ -4,11 +4,12 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.3.3"
 
-RPM_NAME = "python311-mobi-0.3.3-1.4.noarch.rpm"
-RPM_HASH = "974b01074c15cbd86dd59b4c150b6417d17769bcc41b7366eb02c202b5283ccaa2676b2cff37387c1929c76640ac0d2cc37bfaf675f10fb5b717aafacc9c7e54"
+RPM_NAME = "python311-mobi-0.3.3-1.5.noarch.rpm"
+RPM_HASH = "ae6f8511b91b8993b78395d7aea0be84b9753e44743a9ae3e2d05ae319192aae1fa93edea1b61c4cf54094ca87f157666dcbc73827520c285cdd3fee5dd58497"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-mobi \
+RPROVIDES:${PN} += "python3-mobi \
+python3.11dist-mobi \
 python311-mobi \
 python3dist-mobi"
 

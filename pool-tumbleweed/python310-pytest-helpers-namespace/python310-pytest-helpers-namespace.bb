@@ -4,12 +4,11 @@ LICENSE = "Apache-2.0"
 
 PV = "2021.12.29"
 
-RPM_NAME = "python310-pytest-helpers-namespace-2021.12.29-1.1.noarch.rpm"
-RPM_HASH = "8c09aae0acb7a89c8854ee8fa8396e4ab59d577122109f198a6396687f741e8c47ac47c5fd717d2bb1d98d5879fb35964d9d82641ba70dcc6199f1993951f84c"
+RPM_NAME = "python310-pytest-helpers-namespace-2021.12.29-1.3.noarch.rpm"
+RPM_HASH = "9f695c830b20edaf1ab2052a703749475369f6d9b47381ff60b3fa536f752d183f889a85f9806536be21cf552ffd8bc447ae80cafe5cb6418ac2a1ac90177f91"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pytest-helpers-namespace \
-python3.10dist-pytest-helpers-namespace \
+RPROVIDES:${PN} += "python3.10dist-pytest-helpers-namespace \
 python310-pytest-helpers-namespace \
 python3dist-pytest-helpers-namespace"
 

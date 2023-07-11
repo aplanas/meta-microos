@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.2"
 
-RPM_NAME = "shared-mime-info-2.2-2.1.aarch64.rpm"
-RPM_HASH = "6b052742ca489d755bf4844d7f6d0c5d0fdbe498d91cee5701ec903c427ba95f6d53ad8acd7e426d017b0861276345315dc7cfb4ca91c2b61f3bb9c25f7590d6"
+RPM_NAME = "shared-mime-info-2.2-2.2.aarch64.rpm"
+RPM_HASH = "119dc6b80fa15a1667fca8eb6ebf528e74e08ba9635258678d03c0b912d53896a569dcab5d125910408b217d12fc27b89e46406a1ae7e9da464ab3b9bfd09b51"
 
 RPROVIDES:${PN} += "pkgconfig-shared-mime-info \
 rpm-macro-mime-database-post \

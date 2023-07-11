@@ -5,12 +5,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.0.1"
 
-RPM_NAME = "python310-sphinxcontrib-jsmath-1.0.1-4.1.noarch.rpm"
-RPM_HASH = "79d90706651a5dae2df967cdeec13efb7d2e4a49c13da20b64c23f848f4a275ea0045d5081cf7ff75ade194b16ea331a87f63b7d8fd9441baf6e54a5e2c94c6f"
+RPM_NAME = "python310-sphinxcontrib-jsmath-1.0.1-4.2.noarch.rpm"
+RPM_HASH = "946bf09acf4ea6bc5ade02e1fd420266c5cafc6815881f6079298dc4a7192f581616389992f580b5ee200f6a00c412d1d6dd4027038dd5990c9b2c9deb9b5d73"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-sphinxcontrib-jsmath \
-python3.10dist-sphinxcontrib-jsmath \
+RPROVIDES:${PN} += "python3.10dist-sphinxcontrib-jsmath \
 python310-sphinxcontrib-jsmath \
 python3dist-sphinxcontrib-jsmath"
 

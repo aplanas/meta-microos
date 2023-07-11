@@ -5,8 +5,8 @@ LICENSE = "PostgreSQL"
 
 PV = "4.2.2"
 
-RPM_NAME = "postgresql11-pgagent-4.2.2-2.2.aarch64.rpm"
-RPM_HASH = "a65f5627266574ad8205c49a8a298c84c23e1eaf7767e4039f8585d28186e2b759633e83b24e0c8fb772f011bb281f9bddff81cee62982a9e5b5265e8639adf8"
+RPM_NAME = "postgresql11-pgagent-4.2.2-2.3.aarch64.rpm"
+RPM_HASH = "8c651caaa260d10b7c9e93e71ea35f7de6c8fc18803ba8f3af28b32767a8e906dd327aface72427af9140f3983a2c75bc2e0348466226c73af7fb8eb4b2b451a"
 
 RPROVIDES:${PN} += "config-postgresql11-pgagent \
 postgresql11-pgagent"

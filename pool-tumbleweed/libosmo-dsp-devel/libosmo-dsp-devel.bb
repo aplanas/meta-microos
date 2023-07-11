@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.4.0"
 
-RPM_NAME = "libosmo-dsp-devel-0.4.0-1.18.aarch64.rpm"
-RPM_HASH = "414f670f6715a3a81c35271c1358a05793d4503745d57d2637138d22102a3aeca6a7fd36433d01648f85261b6031bfdd8faefb0396c41c7f458c4bb6db4faba1"
+RPM_NAME = "libosmo-dsp-devel-0.4.0-1.19.aarch64.rpm"
+RPM_HASH = "ebf48604ca234d35af4c3cef6ded858575712d0e0e3164a66e876a060355e688fdf32e8af3aa7ac31c078233c2d97d36305684ce71652091f31f9dd08cdd122d"
 
 RPROVIDES:${PN} += "libosmo-dsp-devel \
 pkgconfig-libosmodsp"

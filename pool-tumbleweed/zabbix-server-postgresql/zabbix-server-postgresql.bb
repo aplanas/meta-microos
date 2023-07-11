@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "6.0.17"
 
-RPM_NAME = "zabbix-server-postgresql-6.0.17-1.1.aarch64.rpm"
-RPM_HASH = "94d0361cda30ee3b320aa220d7fc9a9257a637edd278671437013f478cad8f953c9b2471fd6d52be7a0f3cb794676056eac33d89d7cf09e33b1890ff75ad6189"
+RPM_NAME = "zabbix-server-postgresql-6.0.17-1.2.aarch64.rpm"
+RPM_HASH = "7914d6faf609bc7836b1bdb7d3661f3b16137b17319ef75b2b452cddf6fbee7f2bf55dc8d8e22dd9c352bf4354bc3ce45bd1ca3e81f572d4526d0d57bcb3c509"
 
 RPROVIDES:${PN} += "zabbix \
 zabbix-server-binary \

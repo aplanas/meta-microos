@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "8.60"
 
-RPM_NAME = "signond-libs-devel-8.60-2.18.aarch64.rpm"
-RPM_HASH = "79b21001dac71faab17f606cfabf022116e9bd31c94c00bc897bf57467c315116f3320a34552f83462959e5fa5a2bd50b9989be8ce856d09b4ba8f7106f6f39e"
+RPM_NAME = "signond-libs-devel-8.60-2.19.aarch64.rpm"
+RPM_HASH = "3f8edca04b7e7831a7ba2add1cb4a0e39156333c9bd3f2f01ef050901721d9cd45aeb9d9bc37f35bea0e06cab92a199eb6968f5df3061fe14753e78764b2f7a5"
 
 RPROVIDES:${PN} += "pkgconfig-SignOnExtension \
 pkgconfig-signond \

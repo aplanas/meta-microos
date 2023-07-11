@@ -5,10 +5,11 @@ LICENSE = "MIT"
 
 PV = "0.22.0"
 
-RPM_NAME = "python311-libsass-0.22.0-1.3.aarch64.rpm"
-RPM_HASH = "9535039579cee666f49974e8a1feba53ed723bb8d8c687c7c508ac0faa06b9b8734ed611adcc4790f4862038953fb74c294574124a976275f6a1a559505e55f9"
+RPM_NAME = "python311-libsass-0.22.0-2.1.aarch64.rpm"
+RPM_HASH = "f7915638dd9b214ccf19b89914063f7170212b15e4fb28ce29fe823e93827318b07786169eebf7802dcb1f5bff7f47622211c54519c6ed9e7087ffdeee108cc2"
 
-RPROVIDES:${PN} += "python3.11dist-libsass \
+RPROVIDES:${PN} += "python3-libsass \
+python3.11dist-libsass \
 python311-libsass \
 python3dist-libsass"
 

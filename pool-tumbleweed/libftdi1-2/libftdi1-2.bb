@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.5.12+git.0684c1b"
 
-RPM_NAME = "libftdi1-2-1.5.12+git.0684c1b-2.1.aarch64.rpm"
-RPM_HASH = "96f71d7ec670e24a2188f5026db34ae621d8776878e02f0dfde4faf8b5a4c2e2312609fde1ba68c04c6cb78a069c6e81c867ef95b4d667eb28b14806310d2664"
+RPM_NAME = "libftdi1-2-1.5.12+git.0684c1b-2.2.aarch64.rpm"
+RPM_HASH = "5c918578e647adc41cfb20eb88dd834a6c75502a740b904785c1ef147d815f79f07fed76ef51646e157c8a9ccce7907a776d13f6e4ce251fe5dab330d6f3d63e"
 
 RPROVIDES:${PN} += "libftdi1-2 \
 libftdi1.so.2"

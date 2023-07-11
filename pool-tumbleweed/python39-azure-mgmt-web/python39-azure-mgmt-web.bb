@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "7.1.0"
 
-RPM_NAME = "python39-azure-mgmt-web-7.1.0-1.1.noarch.rpm"
-RPM_HASH = "a5846b5b79c688d80365e55b1d558bf996d550037cf8ef418542e003c141662d82545e0a42d469efff408cf23e9a881f1b2e68e55e3a6d0b3f0c10ae76159632"
+RPM_NAME = "python39-azure-mgmt-web-7.1.0-1.2.noarch.rpm"
+RPM_HASH = "1706ddb2ce56f3c33a84f69e609752c29c229cf96ef986ca40f169125c0670ad1edf20ab52888eefedc80318328e1fc20fb0ba0a4987bb5263dd0ea76de5b016"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-web \

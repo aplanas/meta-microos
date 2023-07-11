@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.6.4"
 
-RPM_NAME = "python39-uamqp-1.6.4-1.5.aarch64.rpm"
-RPM_HASH = "4d63ee2f9fdf249f0eafd796875434117bff7105e8db68e4aef0bdddbea5567c2129cba5eb3b34c025d8f69a651f82fbfe7ef1633227c9dadd6961242a584902"
+RPM_NAME = "python39-uamqp-1.6.4-1.7.aarch64.rpm"
+RPM_HASH = "7b9840c50a8f9beb7002fcc40bde6840266e6eb0334ada24817969b5c3ba89e22065bcca540435051d795d167ec6f25bacb7b22d6553ac0aeebb0b16d0475d58"
 
 RPROVIDES:${PN} += "python3.9dist-uamqp \
 python39-uamqp \

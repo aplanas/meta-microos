@@ -4,10 +4,11 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.0.5"
 
-RPM_NAME = "python311-fuse-1.0.5-1.4.aarch64.rpm"
-RPM_HASH = "16c104454ac1d7d250e22c365cb6364352a3095feb785a0ca25d379b4ef147b401c129ea0301ea564ab45cf7286c706182a94f58f4e31532a4a9679e53aaff7a"
+RPM_NAME = "python311-fuse-1.0.5-2.1.aarch64.rpm"
+RPM_HASH = "62c3486a15404e72dd70e4ed5ea59beea9442181a8944f583562fe5eed53d7068f1a090780c89406a8be4650dfa37e0e99d555e62f7387a3aa066ab0be3ddf16"
 
-RPROVIDES:${PN} += "python3.11dist-fuse-python \
+RPROVIDES:${PN} += "python3-fuse \
+python3.11dist-fuse-python \
 python311-fuse \
 python3dist-fuse-python"
 

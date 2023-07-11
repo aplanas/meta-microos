@@ -5,8 +5,8 @@ LICENSE = "SUSE-QWT-1.0"
 
 PV = "6.2.0"
 
-RPM_NAME = "qwt6-qt6-devel-doc-6.2.0-2.1.noarch.rpm"
-RPM_HASH = "bda3a5f86d77b88347ddd11050ba33ac3a564d035a3395f3670b51c4701dc0e15efa068f530387b998d14590e1bc8179fb937839e8409c8a23d49edd2dd32c73"
+RPM_NAME = "qwt6-qt6-devel-doc-6.2.0-2.2.noarch.rpm"
+RPM_HASH = "d1a6c6011a9724e0ea4f7ead7d45145d72dcb29bc9cc2354b190aef36721a6761032eb980de8d49eef5302e63a373782dc3114f6b4272f40f6695d49bdec715d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qwt6-qt6-devel-doc"

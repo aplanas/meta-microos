@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "43.1"
 
-RPM_NAME = "gnome-firmware-43.1-1.3.aarch64.rpm"
-RPM_HASH = "2ef9c03f1989be12016a94376f114e81f588a877935d834e15a5f0897d04d9ce87760f3db175e470f8e71cd141b42debd5ab3c1fdc281a1378b277926c8c7ad2"
+RPM_NAME = "gnome-firmware-43.1-1.4.aarch64.rpm"
+RPM_HASH = "773579f902b84bdbb2991dffbbd26d32d74e7a761368552644a0fbb82436deb337d81c809bc5e6c6536230d38bb9fcb88ee03fbaf611ae54d0254fbdfa2c5e8e"
 
 RPROVIDES:${PN} += "gnome-firmware \
 gnome-firmware-updater \

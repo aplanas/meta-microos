@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.44.1"
 
-RPM_NAME = "python39-gobject-Gdk-3.44.1-1.2.aarch64.rpm"
-RPM_HASH = "edf1d5eb040dc2974b313a8729216ab53f89c41c3c90c6b960385bc8697033974e9286fc848ed90849ee5d151a5f16c88a7592f7127def48ba13ca538dbd2d3c"
+RPM_NAME = "python39-gobject-Gdk-3.44.1-2.1.aarch64.rpm"
+RPM_HASH = "3ff483be1c035f8dbbb10b96d33e5cf249393f5e6d2207390698059f227703ac2c481453e2068166beeef406040ab31acf6e411e02752644eddabacfa5cbbe78"
 
 RPROVIDES:${PN} += "python39-gobject-Gdk"
 

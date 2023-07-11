@@ -5,8 +5,8 @@ LICENSE = "Artistic-2.0 & GPL-2.0-only"
 
 PV = "1.8.9"
 
-RPM_NAME = "iptables-1.8.9-1.3.aarch64.rpm"
-RPM_HASH = "3f5a6ff6b5eec6a62a0b456aa0a3db1d86dc0fbbeb466eccd8cfa1cde59e1c2850eaf3ea0ccd505438b70aeca0f36b102b93847a4a52a3c35b1cd85ea53002cc"
+RPM_NAME = "iptables-1.8.9-1.4.aarch64.rpm"
+RPM_HASH = "8a449c29e5099d61d5e2899487935655a63902d0a3ea7a48fc86671af72c723d98a1bd8ca0503aeb2ae1a5afd8c2f484796add60f17bbb193a28689cdbae32b7"
 
 RPROVIDES:${PN} += "iptables"
 

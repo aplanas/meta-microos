@@ -9,10 +9,10 @@ classroom material. Beware that Japanese stroke order can differ from the \
 stroke order used in other languages that use Chinese characters."
 LICENSE = "BSD-3-Clause"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "fonts-KanjiStrokeOrders-23.04.1-2.1.noarch.rpm"
-RPM_HASH = "82d870c59c3b493a3e5e526789e535c720071b05120fb250a4a89301947804532a708868cf28d35c802ac9c7576bc6b7bb1300aff551d7f209556012525abf1d"
+RPM_NAME = "fonts-KanjiStrokeOrders-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "7a3dc92d2d4f234eb7e158ea5801731ce41f3b254d38802a7e63307bfade540590bee3c1c2a508fe077702fdea22d7a7220984a2aeaf2b4e561e6b6f051c923a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

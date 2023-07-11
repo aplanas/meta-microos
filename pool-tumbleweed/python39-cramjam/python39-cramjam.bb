@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "2.6.2"
 
-RPM_NAME = "python39-cramjam-2.6.2-1.5.aarch64.rpm"
-RPM_HASH = "b2c499226b562a4c92759e5aca72df39442cc79982f332a38b1196609042dc9843353ee9d7a99655f0df67af0fe698479de11ec8d97ae03796b33f49bff12a5a"
+RPM_NAME = "python39-cramjam-2.6.2-1.7.aarch64.rpm"
+RPM_HASH = "c5b62e681dbf9a97f3574274e6fdd13b2e779bed15a4144d4b60e947003e3c19dbd9a89350442ee21721157a0da2ceb2c16f6a993f65f825bc9093e8702db695"
 
 RPROVIDES:${PN} += "python3.9dist-cramjam \
 python39-cramjam \

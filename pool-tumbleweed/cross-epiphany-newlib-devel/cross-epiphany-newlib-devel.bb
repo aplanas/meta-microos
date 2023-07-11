@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause & MIT & LGPL-2.0-or-later & ISC"
 
 PV = "4.3.0.20230120"
 
-RPM_NAME = "cross-epiphany-newlib-devel-4.3.0.20230120-2.1.aarch64.rpm"
-RPM_HASH = "b7f97f35d36e504a627bc31a14c850c2f311853ec445efba707164301c2d10d05b4bd6c256af5b17e46545e59ef4ae16d2a455fc662ac15be036a0b98a039a76"
+RPM_NAME = "cross-epiphany-newlib-devel-4.3.0.20230120-2.2.aarch64.rpm"
+RPM_HASH = "33658eb0a6d240dfe1256803f4eb837853d56026a00fab85f34a855de90506724e4c1bc138289257171d4e38de1b5c62a699c3789f823bf5353a1989061052c5"
 
 RPROVIDES:${PN} += "cross-epiphany-newlib-devel"
 

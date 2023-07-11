@@ -16,8 +16,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.4.0"
 
-RPM_NAME = "libfastjet0-3.4.0-2.8.aarch64.rpm"
-RPM_HASH = "ec2f8cd466e80008bfd737305cf59c6b5af31981ab8d0afb5f0113c26e9a44f41206d5965e7eed1e15bff577847e7fda16c4d3719a854f3b7d42ecc0bf8d7020"
+RPM_NAME = "libfastjet0-3.4.0-2.9.aarch64.rpm"
+RPM_HASH = "e56de37cffd5c94c0c94d1081403c6461d9e149f61e515037eca91ed99669eb23b549020eaec372339b674123f0235b408fb373800424600527f6a33cc83921f"
 
 RPROVIDES:${PN} += "libfastjet.so.0 \
 libfastjet0 \

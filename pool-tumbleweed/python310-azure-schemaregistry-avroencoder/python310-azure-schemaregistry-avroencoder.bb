@@ -7,12 +7,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python310-azure-schemaregistry-avroencoder-1.0.0-1.3.noarch.rpm"
-RPM_HASH = "32ce54a871fa84f68a6260f259d4706e88a257196140fc9012a7956b321a81ed08882420bd4a83e2974510d90a5114b477b348ac5e0655ac3a3bba2f27b23ad2"
+RPM_NAME = "python310-azure-schemaregistry-avroencoder-1.0.0-1.5.noarch.rpm"
+RPM_HASH = "01d2f630f36a25e75f29f37147b914ffd4dc00658e83602fb4c550ef1d6a621490fbcb1b2c866e582e90fe6a15d4caa5e1014bc477c9ba54d3226096970bfdeb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-schemaregistry-avroencoder \
-python3.10dist-azure-schemaregistry-avroencoder \
+RPROVIDES:${PN} += "python3.10dist-azure-schemaregistry-avroencoder \
 python310-azure-schemaregistry-avroencoder \
 python3dist-azure-schemaregistry-avroencoder"
 

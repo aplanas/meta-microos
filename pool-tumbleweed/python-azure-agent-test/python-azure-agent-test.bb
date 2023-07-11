@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.8.0.11"
 
-RPM_NAME = "python-azure-agent-test-2.8.0.11-3.3.noarch.rpm"
-RPM_HASH = "fac6e3f5cc5bc65c3e624f96314e38232c58c6cf2d95dd956b0fa0df296d6271bc5c0bd61832e2a2d052b9587336794d87a08004e71744390aa01ff5efdce853"
+RPM_NAME = "python-azure-agent-test-2.8.0.11-3.5.noarch.rpm"
+RPM_HASH = "39625511e70c2943699e78431e3c4f63a50b36b7ebfb80bef6155b92e900b2f2e98b85fbdb8e18563d62c1219665a120f92c7ecb2478c18d35c42a2d0d43a21f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-azure-agent-test"

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.2.0"
 
-RPM_NAME = "python39-onigurumacffi-1.2.0-1.1.aarch64.rpm"
-RPM_HASH = "410be6912423ecd1f810aa11947f06d45d02e8850faa9c4bdbf2f796dfa61564adc6c76c36763c3b4b5bd6cac722b278fee297aa369bcd0dfce60e4682eb74bc"
+RPM_NAME = "python39-onigurumacffi-1.2.0-1.3.aarch64.rpm"
+RPM_HASH = "3a08f36f13e7e1de490a5ca2b9cab3b8a90472ff7f0da71d6522b43448ebbce37a81918a7f95efb2deac21852347a63199837c7da798e63191c6470775ead3cb"
 
 RPROVIDES:${PN} += "python3.9dist-onigurumacffi \
 python39-onigurumacffi \

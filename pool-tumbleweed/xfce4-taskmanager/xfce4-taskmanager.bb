@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.5.5"
 
-RPM_NAME = "xfce4-taskmanager-1.5.5-1.3.aarch64.rpm"
-RPM_HASH = "cf2975fd63b54ba1af19617e53bb0a0336fa9ef91c92be8b15384b73c11dc88da3dca3f254d43eddf046b9a7a479d11ddb81aea46d126846f1588f4a766ef943"
+RPM_NAME = "xfce4-taskmanager-1.5.5-1.4.aarch64.rpm"
+RPM_HASH = "6accf9096bdc23cb60e5c66e49f5721c20521eb2fd3076a1d47402461877cf0a06b01b1ad615536d61585ae2ea79eb986d580a9d15bfa08fdc3df8d925bbcf2a"
 
 RPROVIDES:${PN} += "xfce4-taskmanager"
 

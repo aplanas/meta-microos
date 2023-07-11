@@ -20,8 +20,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.7.1"
 
-RPM_NAME = "libgsl_2_7_1-gnu-hpc-2.7.1-1.3.aarch64.rpm"
-RPM_HASH = "c4bf39d52516d37eb6755a1c88fd2eaefd0bd98fab5563361473101cca8990638315b4130f88a3c9bb87cd1b937fcecdda455bab5778a699e418517952afa638"
+RPM_NAME = "libgsl_2_7_1-gnu-hpc-2.7.1-1.4.aarch64.rpm"
+RPM_HASH = "2b93fb49e356748030504057f9311391e801c517ca6481346e00cecb111f870bad21961b290f6c2560bc42a98fd780fcb3983bdff8b1f171cda89daa4ab74881"
 
 RPROVIDES:${PN} += "libgsl-2-7-1-gnu-hpc"
 

@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.4.1"
 
-RPM_NAME = "libt3window0-0.4.1-1.5.aarch64.rpm"
-RPM_HASH = "65fb00dec2dcef0414fd1b9fa26d81bb419892ee940aa86faae3125a926fcb2e6d3b5e2e4c77aaf41e7fe6bcbd6f7624a29455800a097728f8f8fca1dfc77734"
+RPM_NAME = "libt3window0-0.4.1-1.6.aarch64.rpm"
+RPM_HASH = "7800e0b62ac70fbac3b6b8231596ce32a4b3771a00458d6714a614709e3161e3478c78760620017366d90f6bae1865ed71c3c6815ee3380f928f192b20e2953a"
 
 RPROVIDES:${PN} += "libt3window.so.0 \
 libt3window0"

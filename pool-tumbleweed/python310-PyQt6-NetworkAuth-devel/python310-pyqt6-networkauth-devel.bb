@@ -5,11 +5,10 @@ LICENSE = "GPL-3.0-only"
 
 PV = "6.5.0"
 
-RPM_NAME = "python310-PyQt6-NetworkAuth-devel-6.5.0-1.1.aarch64.rpm"
-RPM_HASH = "6b28cd08e40eeee9352bc09b0afc4ae8b766055012932448e89e31ccf2ee5e679a897e400afe2584aa543f4fe021721ebbb765d67f5bf5b35d6a077f4d69423f"
+RPM_NAME = "python310-PyQt6-NetworkAuth-devel-6.5.0-1.2.aarch64.rpm"
+RPM_HASH = "ce6f8a026bb6177f4311c86c221533fa0c5e841fb515404c12bb936900f6c6d5a1e7814321e192360bf57181b439af78a487fe0ee410d0c73240859f233fcade"
 
-RPROVIDES:${PN} += "python3-PyQt6-NetworkAuth-devel \
-python310-PyQt6-NetworkAuth-devel"
+RPROVIDES:${PN} += "python310-PyQt6-NetworkAuth-devel"
 
 RDEPENDS:${PN} += "python310-PyQt6-devel"
 

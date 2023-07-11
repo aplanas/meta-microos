@@ -4,11 +4,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2.1"
 
-RPM_NAME = "python310-openmesh-1.2.1-1.4.aarch64.rpm"
-RPM_HASH = "d03b8809a8989b62afe26bf3ec1bfd5eb98533f857c51920502c7319273c09ee00e8de15965a5d0e701cc4821a051648e15c1ff248549dfb35d17b698aba1f53"
+RPM_NAME = "python310-openmesh-1.2.1-1.5.aarch64.rpm"
+RPM_HASH = "f9cbdc8bd9ad0ce6d5048aeca98fb70901fd88ed6df90ad18521fddc114f8614770e8799d7ac16086d126bac751ace1d84d79a389b9063894268221b2b34342e"
 
-RPROVIDES:${PN} += "python3-openmesh \
-python3.10dist-openmesh \
+RPROVIDES:${PN} += "python3.10dist-openmesh \
 python310-openmesh \
 python3dist-openmesh"
 

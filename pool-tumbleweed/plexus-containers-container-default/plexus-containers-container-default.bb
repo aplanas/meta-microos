@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & MIT & xpp"
 
 PV = "2.1.1"
 
-RPM_NAME = "plexus-containers-container-default-2.1.1-4.1.noarch.rpm"
-RPM_HASH = "fa9080f5df0570aa54fb76ce09e0d2975acadc92b75b4dded8944635beb2410cd3891c975c20160ead86504eb65633068f227e456e80e22b012ce696eb3f01ba"
+RPM_NAME = "plexus-containers-container-default-2.1.1-4.2.noarch.rpm"
+RPM_HASH = "5ddbbb4e2c621fa1993c6ea1baa2b48f3945882997c0528947fe5ba6f2057d47d860561434a61b00c1ca31bfb4de0d7480aaae808cfbb40793856f079d363f86"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.codehaus.plexus-containers-component-api \

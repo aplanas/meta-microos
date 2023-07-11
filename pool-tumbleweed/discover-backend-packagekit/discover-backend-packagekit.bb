@@ -3,10 +3,10 @@ DESCRIPTION = "A plugin for Discover to support management of system packages an
 using PackageKit."
 LICENSE = "GPL-2.0-only & GPL-3.0-only & GPL-3.0-or-later"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "discover-backend-packagekit-5.27.5-1.1.aarch64.rpm"
-RPM_HASH = "4264cec177a3f088ecf0745861ced184da89bfdd0a31c96d92cd7064e6f370d923969603a21f26be5e09a21ff4d5778c7228cc19f0167184f3e73dd70a8bae2c"
+RPM_NAME = "discover-backend-packagekit-5.27.6-1.1.aarch64.rpm"
+RPM_HASH = "840aa7f125fa87190a9b7c9480c3f1b213093945e5d53506d2f3a28f467bde2857f8a8c37b72015358ce2895d242ae95a26ebfae4579caf5673cad706c9fd1d7"
 
 RPROVIDES:${PN} += "discover-backend-packagekit"
 

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.3.1"
 
-RPM_NAME = "libmaeparser1-1.3.1-1.4.aarch64.rpm"
-RPM_HASH = "a989a70efda976bb0e94e54df57b5c2fe64783f36f3bc85c2c532ded019e117ffb3db05ebfde188b56e3ecf6009a9470089fd6e3decfe1e4bbac3a1731510ad8"
+RPM_NAME = "libmaeparser1-1.3.1-1.5.aarch64.rpm"
+RPM_HASH = "596c6e5ad69fa1190f26170abb9ff2f874989930febf863e873d03a863a5a9a13d447ce8469fb69840ccb29d07874599c9b8694ec875f2403f9d8506ee25a9a3"
 
 RPROVIDES:${PN} += "libmaeparser.so.1 \
 libmaeparser1"

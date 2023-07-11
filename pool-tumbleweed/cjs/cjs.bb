@@ -5,8 +5,8 @@ LICENSE = "(GPL-2.0-or-later | MPL-1.1 | LGPL-2.1-or-later) & MIT"
 
 PV = "5.0.0"
 
-RPM_NAME = "cjs-5.0.0-1.10.aarch64.rpm"
-RPM_HASH = "6b10f01bf9199767e5ca3c092828fc71e7ec27be22b6cfecda75c2ce969f2f218b8d5963dba16178f0c95b77967eba26195fe91a16c9a1dd95685baa0d9e83d5"
+RPM_NAME = "cjs-5.0.0-1.11.aarch64.rpm"
+RPM_HASH = "61a7452e07dec4e298634a545f9f5104f3dd774ba5c69ad4ecf7a58f6f314f7ef08d5457aa10d152db54b47cc9bfe2b937ca58460846f818c4a9ee1b29992aa7"
 
 RPROVIDES:${PN} += "cjs"
 

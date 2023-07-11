@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.2.0"
 
-RPM_NAME = "python39-ajsonrpc-1.2.0-2.4.noarch.rpm"
-RPM_HASH = "6649eeb1b27f3a5641625313b0d3d42c7b2be9bf7cac466b04b9eb912af7441dc987b09b854f6a1e52cdbf8253fb8530e32569e95f282636953f0ae8f72b0bf2"
+RPM_NAME = "python39-ajsonrpc-1.2.0-2.6.noarch.rpm"
+RPM_HASH = "62a58025c0cac3147725c5563f3b0a14f760f83506e9773b4a0ad575aee1d8836573ad896061796530854c852ae710287c359082bcfeb3772aa8dee38f8e6ee1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-ajsonrpc \

@@ -11,10 +11,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.6.1"
 
-RPM_NAME = "python311-PyECLib-1.6.1-1.7.aarch64.rpm"
-RPM_HASH = "9aa63765d9a3c49817216fbe4b8f06bd617fa38c54ff1632c9c72e9892428ac74da8fd3b632758c3b30d48893e2d02055e7b94e626e79109bf3a77b7ff504c31"
+RPM_NAME = "python311-PyECLib-1.6.1-1.9.aarch64.rpm"
+RPM_HASH = "683e2ef0412a2102a455e79349c113fd3ae17d29dd6b6a5e1a8cce4cef306d7585fa886a1773001f48d7fea378809f52708e9f3460b070fee8faea3dad5ee5d5"
 
-RPROVIDES:${PN} += "python3.11dist-pyeclib \
+RPROVIDES:${PN} += "python3-PyECLib \
+python3.11dist-pyeclib \
 python311-PyECLib \
 python3dist-pyeclib"
 

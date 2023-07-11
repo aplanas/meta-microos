@@ -6,8 +6,8 @@ LICENSE = "ISC"
 
 PV = "3.1.0"
 
-RPM_NAME = "browserpass-native-3.1.0-1.4.aarch64.rpm"
-RPM_HASH = "b8df86a2809ae1b35f2a216398b335f604f5fb0ff7f5cd9fa0c578de8a2c39de64d724e30396dcfc36df65c758cca93a5a7536d9f8063e0658bd6b5a0f91c8f8"
+RPM_NAME = "browserpass-native-3.1.0-1.5.aarch64.rpm"
+RPM_HASH = "d88da3de19131197a4ff4ff32d424dcc6465f86fb40a17f005ac2c476e2c3e58147be0afe1e19b439e09e9576fb94d6b636dc7ef9646dd66a326177cc3307547"
 
 RPROVIDES:${PN} += "browserpass-native"
 

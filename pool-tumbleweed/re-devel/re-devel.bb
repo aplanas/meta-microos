@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.10.0"
 
-RPM_NAME = "re-devel-2.10.0-1.4.aarch64.rpm"
-RPM_HASH = "9e8662883cbdbca43f2dddb1408dfb52d8925f51ea662ec27fda3d12e44a922aafbe030b86a76f619c354b7bfa0629793337cd3370e32a211b7a28c22355f779"
+RPM_NAME = "re-devel-2.10.0-1.5.aarch64.rpm"
+RPM_HASH = "0a95eab9153e172fffbda745e6c7c47ffc83133f86c246e6dc57f3afbdceafdac518c662f0cd8cbad85b8c48cbbdce1d4a6745f40338588c74cf92bc535b6a07"
 
 RPROVIDES:${PN} += "cmake-re \
 pkgconfig-libre \

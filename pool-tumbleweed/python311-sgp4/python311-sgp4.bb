@@ -14,10 +14,11 @@ LICENSE = "MIT"
 
 PV = "2.22"
 
-RPM_NAME = "python311-sgp4-2.22-1.1.aarch64.rpm"
-RPM_HASH = "a4c91f5aa8838d16321ccd302534180c055cdb8795e688dc0c8621d37e2cfc3b16fb2b494f76d0b55d9424f471ea93cff420e410ba154f8a24d2ca04d44734c6"
+RPM_NAME = "python311-sgp4-2.22-1.3.aarch64.rpm"
+RPM_HASH = "8eb0f5e5bba0b3f9b4c3f66d43e7697254c4110d8f908f3b6fd11a5c4b6fb0eb8873fd9b74afccb5154298bb143f22ca56e92f1cc19d456a8d393148290b96cb"
 
-RPROVIDES:${PN} += "python3.11dist-sgp4 \
+RPROVIDES:${PN} += "python3-sgp4 \
+python3.11dist-sgp4 \
 python311-sgp4 \
 python3dist-sgp4"
 

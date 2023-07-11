@@ -2,10 +2,10 @@ SUMMARY = "RDP Protocol Plugin for Remmina"
 DESCRIPTION = "This package provides the RDP protocol plugin for Remmina."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.4.30"
+PV = "1.4.31"
 
-RPM_NAME = "remmina-plugin-rdp-1.4.30-1.1.aarch64.rpm"
-RPM_HASH = "42d418823d51f2f63b6fd82a968a1afb86012c80552597f4a240ac288994143b84e9b6610d4832818806a34c0e936038db150e5a666edbeff65dd97c9f1b4ba8"
+RPM_NAME = "remmina-plugin-rdp-1.4.31-1.1.aarch64.rpm"
+RPM_HASH = "7c49b35f8cce61612eed8ac7f83c4dc307940d3436a0d3cccdcbdf737c46c12e881575500ce3f9b980caf315ddcd1f44690af3a8705daf4753a089d936f08cf2"
 
 RPROVIDES:${PN} += "remmina-plugin-rdp"
 

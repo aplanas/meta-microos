@@ -17,8 +17,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.17.4"
 
-RPM_NAME = "python39-pylint-2.17.4-2.1.noarch.rpm"
-RPM_HASH = "df5d1561e7db2a7b8f7903e55e81e2de076983c928bb950836aff5d89ec6b781859e873b65dc8a2b35fe311b61b41ab7af50ac7073d6f3df61e4533addcdd42b"
+RPM_NAME = "python39-pylint-2.17.4-2.3.noarch.rpm"
+RPM_HASH = "9267f854510b527b0b6ef4325b59279ac71eebbd55f14311eec3a35b6a891db94dab3ca7260690dbcb030760d88677fa99fec9dcc1786e094196ace3255ddba0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pylint \

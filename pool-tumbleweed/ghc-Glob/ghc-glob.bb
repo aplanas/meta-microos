@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.10.2"
 
-RPM_NAME = "ghc-Glob-0.10.2-3.3.aarch64.rpm"
-RPM_HASH = "a4748cd43bce7663fd3a0b89e036cfed315c003f12ef0c6a02bb4b7be7981625817c2c8f9d3fbf33bd2afb7d5058447d3ea7b19fb2d3a88042cb22404c3ce371"
+RPM_NAME = "ghc-Glob-0.10.2-3.6.aarch64.rpm"
+RPM_HASH = "0b0f2852ed4e83bf4119b11f2790d941760ddf86b97e18bcc3e579e3e6c72e57e026941e1216816ae79a742b3a48b77200e16bedada14e4821f47270c03f62f2"
 
 RPROVIDES:${PN} += "ghc-Glob \
 libHSGlob-0.10.2-5tAj3lHfg0h9Pb5bOpMg4R-ghc9.4.5.so"

@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.12.5"
 
-RPM_NAME = "libredwg0-0.12.5-3.4.aarch64.rpm"
-RPM_HASH = "22bff2866aacf7c2ecc3e7352f2867da87e84a8ea77a5e852d5926b00256e900c238f9e32da2986d6072ed23ea437bb8ece77bcb1a5d3e88dec7f19b56b072d5"
+RPM_NAME = "libredwg0-0.12.5-3.5.aarch64.rpm"
+RPM_HASH = "fa008178cf5804854b56a9de08f29b29ac820998a118178081fff718ec3c4b165d5c35fea8e28e92b4dc75296f8076c74240968ae03165ede68d9f67c0e74568"
 
 RPROVIDES:${PN} += "libredwg.so.0 \
 libredwg0"

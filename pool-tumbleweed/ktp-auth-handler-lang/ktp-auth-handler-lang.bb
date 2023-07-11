@@ -2,10 +2,10 @@ SUMMARY = "Translations for package ktp-auth-handler"
 DESCRIPTION = "Provides translations for the 'ktp-auth-handler' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "ktp-auth-handler-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "e73728f70b4fdf6beebc0860fd84f9aa7ca554445494e188579c61558cee38f8cf7391a177eca7f016b914bfc32c328fa9bd6131ac5e1e6498784a510bad4029"
+RPM_NAME = "ktp-auth-handler-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "282538f8eec37a8a16fa6bf6b0501db8f417cd0523669267bdd772dc7265929a67c8c9550f4b09fd88213b18c1ee7b07b484ff262b9c2d40d52177b3a3c7f399"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ktp-auth-handler-lang \

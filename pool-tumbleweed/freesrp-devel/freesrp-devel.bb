@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0"
 
 PV = "0.3.0"
 
-RPM_NAME = "freesrp-devel-0.3.0-1.27.aarch64.rpm"
-RPM_HASH = "4d7e426e164048add5f5ef8c1165106dcdb65ecdaf668985a44f529f0c01bca2a500d11c1df937c1917739a9d147f22d468f12e5b6b7ce48e94ec0249a85a768"
+RPM_NAME = "freesrp-devel-0.3.0-1.28.aarch64.rpm"
+RPM_HASH = "34bc0ba389b47f078d94a50ccedeae9ab05d851dc2d5adf6b3e432301704f4a7bb650c212de3dce7f712550ddd75bb0307d8ea16e8d1126d8bc3f15d16f813e0"
 
 RPROVIDES:${PN} += "freesrp-devel"
 

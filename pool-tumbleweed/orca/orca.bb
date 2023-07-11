@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "44.1"
 
-RPM_NAME = "orca-44.1-1.1.noarch.rpm"
-RPM_HASH = "1a30f1dac1383cf244bd080dad3f9ed77ace8e855ce640714b62e1792c95545ab3cd3be637d7e8be193bc231087081f4281f7135209b21caa56ee08055eb3cd5"
+RPM_NAME = "orca-44.1-1.2.noarch.rpm"
+RPM_HASH = "cbe4e63bdd78a148ab971a4ff94ad87d3d9b8dc8a58c9d0e7f23daca01b56d6cc8d6eae97ed755919270f257de6a2903c935feb53adedfba6d26b0f80afc1240"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "orca"

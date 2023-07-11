@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python311-mypy_extensions-1.0.0-1.1.noarch.rpm"
-RPM_HASH = "5abd12c051a3a11aa093731453d16fa610d7c910634171cdb942767d8585b025d41054752a69ea34099623f5f08b0c9807156998085eef813152f46533e42fb9"
+RPM_NAME = "python311-mypy_extensions-1.0.0-1.2.noarch.rpm"
+RPM_HASH = "a91c84980831d2d2bb567df48a5b36869cad07a3da3bc52bfbcaa33563d6ed3cc72fe5c1b967b10137bb788ea99e987388971654522426b77b7935cddc3bd435"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-mypy-extensions \
+RPROVIDES:${PN} += "python3-mypy-extensions \
+python3.11dist-mypy-extensions \
 python311-mypy-extensions \
 python3dist-mypy-extensions"
 

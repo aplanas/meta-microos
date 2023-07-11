@@ -12,11 +12,12 @@ LICENSE = "MIT"
 
 PV = "0.9.29"
 
-RPM_NAME = "python311-asteval-0.9.29-1.3.noarch.rpm"
-RPM_HASH = "00bf1b15761dd606f11d225cc60e489cac49b22ad7aa883a96b0dde973876d4a58e0067246675c88ef3b8194dd4452d9fb58fd7901a1602f4f1a91c33c1dfb5f"
+RPM_NAME = "python311-asteval-0.9.29-1.5.noarch.rpm"
+RPM_HASH = "42f665d0682cb66fe48911da9cf5564ab21a00420a6b42a47ce951199f21507d87e77a0c44a236459c6de504e63e58f6973ec9442327e55f9258608f311807b4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-asteval \
+RPROVIDES:${PN} += "python3-asteval \
+python3.11dist-asteval \
 python311-asteval \
 python3dist-asteval"
 

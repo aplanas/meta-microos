@@ -8,8 +8,8 @@ LICENSE = "Zlib"
 
 PV = "2.6.2"
 
-RPM_NAME = "libtinyxml0-2.6.2-10.8.aarch64.rpm"
-RPM_HASH = "6c5d462960a2ade19573cb5b73a3f77945c2fb880e92681162e97d9f7ec07ebfa21fe50f89ab13794fd4e563808ee19f173cf28da60ab1ddfd3d405e6c14a994"
+RPM_NAME = "libtinyxml0-2.6.2-10.9.aarch64.rpm"
+RPM_HASH = "c8e8248723eac29ab0807113920d535f39a65eee5f24bd2cf59ef8d41a356932b9aa7e6bf90df6c9659a350561b2b03e4351e8bf7fc812f44b54971070af17ce"
 
 RPROVIDES:${PN} += "libtinyxml.so.0 \
 libtinyxml0"

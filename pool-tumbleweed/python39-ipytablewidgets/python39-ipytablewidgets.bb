@@ -14,8 +14,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3.1"
 
-RPM_NAME = "python39-ipytablewidgets-0.3.1-1.1.noarch.rpm"
-RPM_HASH = "4b56cb963c905a2daeb133d63fffbdff5dae195e3c177c49ebbd13ed72de8d2924aed483d2fabbddb1cccdd32dd3ffa116ced96f8e6f8084e84ad1c2182470e4"
+RPM_NAME = "python39-ipytablewidgets-0.3.1-1.3.noarch.rpm"
+RPM_HASH = "1b342552e360eb78fda791b473ebafb5e6695d5276680e1b25f76ac933cab73bc21a28f8001533f6010de263515c5d620e96a16015da188c1f3bde27cb47441b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-ipytablewidgets \

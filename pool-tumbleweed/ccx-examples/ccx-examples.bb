@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-only & SUSE-Public-Domain"
 
 PV = "2.20"
 
-RPM_NAME = "ccx-examples-2.20-1.3.noarch.rpm"
-RPM_HASH = "9878b79017f0527844ee5693fb2a9c60832baa930cdb13d26feb09a5d5531ea433a071bc2bd50e367c10ca8c66c5d12bd87a9bfdde1a9194a091019a0d2810c1"
+RPM_NAME = "ccx-examples-2.20-1.4.noarch.rpm"
+RPM_HASH = "e2d4a7fdc8678028f88d0ea51174a968ed9c74bc14ebd33d6cbc3f8bf893593cea47ec88dc3faea1d16f2407752c34ffa244a28f5e75b1cda7b5737defb05f70"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ccx-doc-/usr/share/ccx-examples-2.12/achtel2.inp \

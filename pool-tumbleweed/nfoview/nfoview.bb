@@ -7,12 +7,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.29"
 
-RPM_NAME = "nfoview-1.29-1.2.noarch.rpm"
-RPM_HASH = "46fcc8e90834a784f94a0ba6af62ef1c8a62cc4be9afa89ef4541557c4e534f3857d04353b42113a3edf554dab5a00c266d8f73a56628b94f0f1a3fc37780e2e"
+RPM_NAME = "nfoview-1.29-1.3.noarch.rpm"
+RPM_HASH = "598a996ba287f47d055861c30791425c1e4f5346525e5c7d20371fbbc20f08b8abd646bbd3e925b4ac89b016b5e6b176181a3518456273b37958a05e9ecdabff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nfoview \
-python3.10dist-nfoview \
+python3.11dist-nfoview \
 python3dist-nfoview"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

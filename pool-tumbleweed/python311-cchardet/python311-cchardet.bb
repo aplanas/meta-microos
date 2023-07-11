@@ -4,10 +4,11 @@ LICENSE = "GPL-2.0-or-later | LGPL-2.1-or-later | MPL-1.1"
 
 PV = "2.1.18"
 
-RPM_NAME = "python311-cchardet-2.1.18-1.4.aarch64.rpm"
-RPM_HASH = "1b91c3507172efaf25b21604d7d6b8a2e0359de0b302d869fdcb818996920d425946260ec61a074ab895f94ea74ccbaec6119a3c62bd4552214b6942b96c1d33"
+RPM_NAME = "python311-cchardet-2.1.18-2.1.aarch64.rpm"
+RPM_HASH = "848b10bf8eb6cbe6266b10b942ef4bf406e76a52a22e7eda4d66a3824b21dd0345c0cfab4445e8f4a91ca3d76d66814e1e7572bfbe20d045d61439bdab921f0e"
 
-RPROVIDES:${PN} += "python3.11dist-faust-cchardet \
+RPROVIDES:${PN} += "python3-cchardet \
+python3.11dist-faust-cchardet \
 python311-cchardet \
 python3dist-faust-cchardet"
 

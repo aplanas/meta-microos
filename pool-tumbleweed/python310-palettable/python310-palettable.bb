@@ -7,12 +7,11 @@ LICENSE = "MIT"
 
 PV = "3.3.0"
 
-RPM_NAME = "python310-palettable-3.3.0-1.19.noarch.rpm"
-RPM_HASH = "8b6298a9a0ef0003bd17f3aa2fe3fd7cb9be9a150704078b2845b30f69decb214829e36bdae5efcdf77dbc400d21a99c4b8df88b8147bd2ac21c87b2009a2524"
+RPM_NAME = "python310-palettable-3.3.0-1.21.noarch.rpm"
+RPM_HASH = "a8263c77b5e5dbf761b327447df14ee2f74c76d1ef54c592ddf1712c1526b3265fab4e2ae7965ace753cac8ea454926531fb29b6c5baeb15b00931658db7a72d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-palettable \
-python3.10dist-palettable \
+RPROVIDES:${PN} += "python3.10dist-palettable \
 python310-palettable \
 python3dist-palettable"
 

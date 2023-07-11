@@ -6,10 +6,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.2"
 
-RPM_NAME = "python311-lhafile-0.2.2-1.24.aarch64.rpm"
-RPM_HASH = "ca2c22a2fdf03d549e5da5b838a7fc33db1fc0ac53e7acbb3eeca49f61b29f363585e87061e0538061f26a177870481d28b268a6ab6fc946d6c73f87317765c7"
+RPM_NAME = "python311-lhafile-0.2.2-1.26.aarch64.rpm"
+RPM_HASH = "504c6c32e204fc90bc14d58f5c0ea29c4d4b7cafbee1258d06dba0e49a31b0932d15ce0cf8fc998c78f8c6ae7b25f21de1e5eba0f19764f7ee8cda885e2384dd"
 
-RPROVIDES:${PN} += "python3.11dist-lhafile \
+RPROVIDES:${PN} += "python3-lhafile \
+python3.11dist-lhafile \
 python311-lhafile \
 python3dist-lhafile"
 

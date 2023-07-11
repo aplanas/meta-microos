@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause & MIT"
 
 PV = "1.54.06"
 
-RPM_NAME = "libxmlrpc_packetsocket8-1.54.06-1.3.aarch64.rpm"
-RPM_HASH = "93b1646b24c68d8df75acff3fe4b47a2bf57394fc867619a48ee30a0517e611bb09d356247a429c9257e0a1437761fc242e42ed82949719d16eb22de701a0ac6"
+RPM_NAME = "libxmlrpc_packetsocket8-1.54.06-1.4.aarch64.rpm"
+RPM_HASH = "6038075a5d0345d69d6f58c99ba79113bb1dda5e15c0f0ae48d024f025e140dcb07a5e24e77f6ec3ad2e84d6364deacc06f99b6893abc70f5a22e99b399118fe"
 
 RPROVIDES:${PN} += "libxmlrpc-packetsocket.so.8 \
 libxmlrpc-packetsocket8"

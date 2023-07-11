@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.2.1.0"
 
-RPM_NAME = "ghc-unliftio-core-doc-0.2.1.0-1.3.noarch.rpm"
-RPM_HASH = "430208991291379990b769d4a27ee4a54de93f0299acb99f03cfeef438dd1fe78a057f16dc70d6ce2021babdb9f902df4ffe4bc3d6836e7f266798777d57b551"
+RPM_NAME = "ghc-unliftio-core-doc-0.2.1.0-1.6.noarch.rpm"
+RPM_HASH = "3a3dbc2e805c25a5271376dda19eb6d0974f9a4d0a99a5ca392a105bfeb86e3053e754dc6fb9f852ae306465fb51313976cc9a1fb4d282b3bce8ed69e46d1d02"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-unliftio-core-doc"

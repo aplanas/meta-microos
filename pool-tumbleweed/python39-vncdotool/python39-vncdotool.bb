@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python39-vncdotool-1.0.0-5.4.noarch.rpm"
-RPM_HASH = "5ac56844652fd06a14f44b31841dc125142a0e2a56f9c9959db8c0f1665a324fabfd591891c4ad884e746a0abc9c066435fb589d5deed6a420fe8b1ef2ccf27e"
+RPM_NAME = "python39-vncdotool-1.0.0-6.3.noarch.rpm"
+RPM_HASH = "4be5e3727e0d24d99b28f803e9af19c6b1b9f64d705d9f93ec3d23af9f6572299cfa90df7b7d099452c36678f45ca47ec048f05f9a8c0b7375b192b39c87ee06"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-vncdotool \

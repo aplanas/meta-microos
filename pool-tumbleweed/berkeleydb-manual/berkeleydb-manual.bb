@@ -12,8 +12,8 @@ LICENSE = "Sleepycat"
 
 PV = "5.0.58"
 
-RPM_NAME = "berkeleydb-manual-5.0.58-12.16.noarch.rpm"
-RPM_HASH = "dba5c544423f911c1867c553afe37c47bfe5fbfdb9c598589e15eb53d8ee603e286e6c0f2c4c632aaae4d2242f0afecb60cc6eb23011bbc570e56a9c6588baed"
+RPM_NAME = "berkeleydb-manual-5.0.58-12.17.noarch.rpm"
+RPM_HASH = "2982415f33f67da2b372dd3f42aea4929bdba3f700b911b77e8ef5a15b70033caaa48141e93033f47f2aa42a909827f4a483bfdafc5ecfaa840cdc82bc12dac7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "berkeleydb-manual"

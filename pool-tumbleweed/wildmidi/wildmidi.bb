@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.4.5"
 
-RPM_NAME = "wildmidi-0.4.5-1.3.aarch64.rpm"
-RPM_HASH = "bae7ac20186ba78086e5eefa7cb9bbd0078f55d81d3fe9701eaf26acc80c73ebd2c58631a773c9f2003e1daafe696f881ab91f5e363c515e957dbf96e74dde79"
+RPM_NAME = "wildmidi-0.4.5-1.4.aarch64.rpm"
+RPM_HASH = "e4468a8b4bb1ab8d9bb41001023c964e335a555fe9878347a68775af4a0e171718026afe9dc8a22eb1808a99c724bfcd0b2d261048fcc3796257921509d1381f"
 
 RPROVIDES:${PN} += "wildmidi"
 

@@ -5,8 +5,8 @@ LICENSE = "GFDL-1.2-or-later & GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "2.4.7"
 
-RPM_NAME = "libtool-2.4.7-3.3.aarch64.rpm"
-RPM_HASH = "8c0b77f1ea1e5f6675019c8624f5ab1528c41e5117374594c32bcd106524d56e39afd3247b3b17494b8038c293d41f892defd4490780be63b29add8cf9ff4bef"
+RPM_NAME = "libtool-2.4.7-3.4.aarch64.rpm"
+RPM_HASH = "13ca7f220114d1cac0914ab98f71013cffd2a3f10f0a89edd6065cda25acbec7516c8120a091d459a0ed27acee866ec3050a847e5e416d932189d1a768189d7e"
 
 RPROVIDES:${PN} += "libltdl-devel \
 libtool \

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "gnome-disk-utility-lang-44.0-1.1.noarch.rpm"
-RPM_HASH = "d044b1846de2aa95a5341741b1e19b992157778ea7c5606ec4e8cd72ab9f3d9040ac62d033ebf46a34d4078ca227e163b6d0ebb23a3a88c0bdb94f3318d90ba6"
+RPM_NAME = "gnome-disk-utility-lang-44.0-1.2.noarch.rpm"
+RPM_HASH = "7065fcea26214f0655819989ba5bb40e97885994f4fdf18876c17cd3c6759fe2a75350c6830f615529a32e3b398150cc5c0d9dac6965f004c102197e0569fcdc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-disk-utility-lang \

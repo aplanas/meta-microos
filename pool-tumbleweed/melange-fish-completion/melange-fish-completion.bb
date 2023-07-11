@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.3.2"
 
-RPM_NAME = "melange-fish-completion-0.3.2-1.2.noarch.rpm"
-RPM_HASH = "b91fe051c8c24cbcc9553661b55904b48f2d5220dabdf1e8f69f730c977260cbfa6057f01128af9055d2b48836c048675b3e380ddb5183b8ca9731a2579da3bb"
+RPM_NAME = "melange-fish-completion-0.3.2-1.3.noarch.rpm"
+RPM_HASH = "cbb24fcb00493c9ac10a5ef3fe0d35b021ca2b1ae6dcf9f70f1994655f25bf8b70a40a81a78bf5a2805161b72683ae93733de74bc0997191938a107c0b3aeb00"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "melange-fish-completion"

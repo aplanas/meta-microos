@@ -10,12 +10,11 @@ LICENSE = "Python-2.0"
 
 PV = "1.59"
 
-RPM_NAME = "python310-python-memcached-1.59-7.1.noarch.rpm"
-RPM_HASH = "43150e2d8eec4cee8c4b464c7c1c3101ef92ca1c2ab49636163297e63e14020fa3dcc2025d55a4c4a578914950757c89d9540445f043b51e58e93f465f7f63a6"
+RPM_NAME = "python310-python-memcached-1.59-7.3.noarch.rpm"
+RPM_HASH = "b592c6b1cb3a0357bba34bb6523721aa783d2ca71cde227adad6f3c8482eb993b8be8a09c95325b3895baeaf670902b6842070907a15f0f20ab371e6fd80f3d2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-python-memcached \
-python3.10dist-python-memcached \
+RPROVIDES:${PN} += "python3.10dist-python-memcached \
 python310-python-memcached \
 python3dist-python-memcached"
 

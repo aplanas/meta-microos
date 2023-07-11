@@ -6,8 +6,8 @@ LICENSE = "CC-BY-4.0"
 
 PV = "3.0.1"
 
-RPM_NAME = "python39-colorcet-3.0.1-1.5.noarch.rpm"
-RPM_HASH = "2aeb1452b67bfcd48cd307f45238b1cf5ac6bfc2225d969c8ca446717edbcb2a5776a4d0da920fa66da3f8d0a57ccd8d44958e7ef6105dafe2fe9de4252f01e2"
+RPM_NAME = "python39-colorcet-3.0.1-1.7.noarch.rpm"
+RPM_HASH = "bf14a4222e9b30a06b72c1229c2d37c62740ea04363b8b562c48815d4b68d137952b1f334b66aaded90f1e952e19349ca91d39e5efbfe37a6caa014a9d029621"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-colorcet \

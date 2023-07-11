@@ -10,14 +10,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.16"
 
-RPM_NAME = "perl-File-Find-Rule-Perl-1.16-1.6.noarch.rpm"
-RPM_HASH = "cc0a0418d3fe6bd75f27c4569b45051588224ca60d6ee09acb7efe4fb10ca2b8564020c45befbefeb4189519d663199de175b6cb4ee2af315e48aaace9322ed9"
+RPM_NAME = "perl-File-Find-Rule-Perl-1.16-1.7.noarch.rpm"
+RPM_HASH = "f703bdd8674c98a3fc35d1a22f01158e76f3513fa6dd591ef57c0d657f9ae413995a1376f1d0db682c895c39b02856099560a8017825d2d09b93e47c58e46d2b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-File--Find--Rule--Perl \
 perl-File-Find-Rule-Perl"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-File--Find--Rule \
 perl-Params--Util \
 perl-Parse--CPAN--Meta"

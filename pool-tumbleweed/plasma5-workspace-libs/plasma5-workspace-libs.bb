@@ -2,10 +2,10 @@ SUMMARY = "The KDE Plasma Workspace Components"
 DESCRIPTION = "This package contains the basic packages for a KDE Plasma 5 workspace."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "plasma5-workspace-libs-5.27.5-2.4.aarch64.rpm"
-RPM_HASH = "647a6809bf1050731a24c4396f2384089b3f2e23eeff62c1d82242e2b708e027e73bab33dda05e0d761a442bdf5b45bb4bb7dc900147346dcf61e62e5fac55e9"
+RPM_NAME = "plasma5-workspace-libs-5.27.6-2.1.aarch64.rpm"
+RPM_HASH = "bcd3589d152b93a3ba3c3f391d9a47a84c571e63feda403cd971441793676c2d9d5b6170db02c246a3ae3c9a3a1a73bc9bdb277883cd69a62ab3b15cab4b68c2"
 
 RPROVIDES:${PN} += "libcolorcorrect.so.5 \
 libkrdb.so \

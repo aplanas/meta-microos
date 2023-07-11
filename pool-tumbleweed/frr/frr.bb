@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "8.4"
 
-RPM_NAME = "frr-8.4-4.1.aarch64.rpm"
-RPM_HASH = "211e37ff8964fa6749e6c6332510a4495c98a3cdbd2d823792d51fb5682671ff46e61e746e72315b40de34ca996b4359c55e95f808ca5a406dd76537bf2ea13d"
+RPM_NAME = "frr-8.4-4.2.aarch64.rpm"
+RPM_HASH = "5cddc4f8b68696b69720a2174da344a1c0a748912a1cdf7e4b1b9d4b8602dcecd2cc636331ce5995f6715fbeae6a1d5b1ce81de10d2696071ef1755b534674fb"
 
 RPROVIDES:${PN} += "config-frr \
 frr \

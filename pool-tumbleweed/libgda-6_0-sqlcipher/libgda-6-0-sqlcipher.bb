@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "6.0.0"
 
-RPM_NAME = "libgda-6_0-sqlcipher-6.0.0-6.7.aarch64.rpm"
-RPM_HASH = "d7f1558271a4e1f950129ce0fb83633fe9309e018885ec48ce6ddb5e30361d0432095c7eefc5fa5e9d70f1795fcf0b43913644241482ecefb37fc47ac845d0dc"
+RPM_NAME = "libgda-6_0-sqlcipher-6.0.0-6.8.aarch64.rpm"
+RPM_HASH = "d976af5cb60c360c6f3a50866ddd1380aa47b3341a2f38db1569f8d7038b5bdeb554e5b9d1d7ed0d3d729cd3da9baad1c630d7386107aa679a477e50bbfaa0b8"
 
 RPROVIDES:${PN} += "libgda-6-0-sqlcipher \
 libgda-sqlcipher \

@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "7.0.1"
 
-RPM_NAME = "python-oslo.rootwrap-doc-7.0.1-1.2.noarch.rpm"
-RPM_HASH = "0c341651e143d87f42f803dfdc020730c850a8e7a6e34e12281679f388cd76cc21e6135d07cd733653a54811bfd1b91fec88049973e492280b9d6542705573e6"
+RPM_NAME = "python-oslo.rootwrap-doc-7.0.1-1.3.noarch.rpm"
+RPM_HASH = "a0df4fc1d6a324816e8db1fdacee68606288a1eac407ac30a3c1736dde0e7647e72e88de05e9286599264956105fcab86eaab181ce1f5dccd60b57960ab42ab1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-oslo.rootwrap-doc"

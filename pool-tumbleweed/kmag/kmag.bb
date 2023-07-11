@@ -2,10 +2,10 @@ SUMMARY = "Screen Magnifier"
 DESCRIPTION = "Magnifies a part of the screen."
 LICENSE = "GPL-2.0-only"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kmag-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "0d4c93a9b3ff6b68d03b2ebc6c747245845ac166821e72156f7fdaedfca26ae0c9370e3540ee959332456e04c72d2af0d0d948f9581ef4484beb0cb7f0a98712"
+RPM_NAME = "kmag-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "56af68f1841797f422d885e0be05b0cb92a1910335b0cf196d2f3208c92c94d6e8cf71811bd75c5f8b4ac971b1263c34d6dd407b730d90da69d4cfe7bb5461dc"
 
 RPROVIDES:${PN} += "kmag \
 kmag5"

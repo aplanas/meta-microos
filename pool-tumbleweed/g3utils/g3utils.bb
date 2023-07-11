@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.1"
 
-RPM_NAME = "g3utils-1.2.1-9.3.aarch64.rpm"
-RPM_HASH = "0a72185f418e10f14b11d965a0ded7cfc6beacf19156ad882841d853e64e0d9433a77bd9997e66e4e374ca7c21c6744dae7e261dc514f68acb98ddb993f72c50"
+RPM_NAME = "g3utils-1.2.1-9.4.aarch64.rpm"
+RPM_HASH = "b5518fa1354abecb3226bf2395d939be14a500e055eeed839e3eedef2df1af4a5a09d28384dc637fede5ab82102869e95a10d42eb9b29455db09deb59425cf43"
 
 RPROVIDES:${PN} += "g3utils"
 

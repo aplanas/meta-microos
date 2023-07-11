@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "1.14.0"
 
-RPM_NAME = "python39-json-rpc-1.14.0-1.3.noarch.rpm"
-RPM_HASH = "260294f4ea71dfe551e2fde72118152fa53c51cbdaf362ec5efb9a12d40ec05cbd5cfad808dd7ecc4e91f031d7104200a68debcede99ef33661c0d64a24b7fff"
+RPM_NAME = "python39-json-rpc-1.14.0-1.5.noarch.rpm"
+RPM_HASH = "ccafc9645f64cd3f797d041d149e3bef335dae945175c42b379faae01d4edebb2ad7a230b74460ffdc6e8a3fdfdf8e333fdddf0efe69ffedd0905b5f48ab5693"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-json-rpc \

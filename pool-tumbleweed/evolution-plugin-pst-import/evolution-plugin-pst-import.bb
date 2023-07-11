@@ -2,10 +2,10 @@ SUMMARY = "Outlook PST importer plugin for the Evolution groupware suite"
 DESCRIPTION = "Adds support to import messages from Outlook PST files."
 LICENSE = "CC-BY-SA-3.0 & LGPL-2.0-only & LGPL-3.0-only & OLDAP-2.8 & GFDL-1.1-only & GFDL-1.3-only"
 
-PV = "3.48.2"
+PV = "3.48.4"
 
-RPM_NAME = "evolution-plugin-pst-import-3.48.2-1.1.aarch64.rpm"
-RPM_HASH = "0cd49172a19f3eb52a574290b3e0e34924eed2f8dcd2f6475b7af4bc445333ceac109aefc2cfecd66649116e4f07a80205de17fbb6096f59e3c191d1a51985bd"
+RPM_NAME = "evolution-plugin-pst-import-3.48.4-1.1.aarch64.rpm"
+RPM_HASH = "cc8eed1e00f66e3ce2a6a22232946659516fe2a12a3effd482814f0891186b6139adaf21d43a8de56e5c897bba81ee1f7d915913f4882b52ba2ba0ddc571ed85"
 
 RPROVIDES:${PN} += "evolution-plugin-pst-import \
 liborg-gnome-pst-import.so"

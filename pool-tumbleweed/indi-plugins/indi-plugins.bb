@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & GPL-3.0-or-later"
 
 PV = "1.9.9"
 
-RPM_NAME = "indi-plugins-1.9.9-2.2.aarch64.rpm"
-RPM_HASH = "1855cfae4515bec77a41a7f5efc5eb300339e8b673ddf4229b5b8fba400bc139ac3f883b3e1e574e89acaaaeaa647e84fe8dd0ddb8094c952469aa7c92cd0610"
+RPM_NAME = "indi-plugins-1.9.9-2.3.aarch64.rpm"
+RPM_HASH = "ea4a263a1ca7b599a36ed6e224b1a1b2993bcfeee65d5c119118ccbd77480816097b52b2ff09c5a84d182e1e3416ac2237b7911fddc32941e52578bf8c816624"
 
 RPROVIDES:${PN} += "indi-plugins \
 libindi-Nearest-MathPlugin.so \

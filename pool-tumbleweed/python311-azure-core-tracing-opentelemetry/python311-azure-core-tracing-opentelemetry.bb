@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "1.0.0b9"
 
-RPM_NAME = "python311-azure-core-tracing-opentelemetry-1.0.0b9-1.8.noarch.rpm"
-RPM_HASH = "e74fa9714ea80d219131adb6fce8957b98b633b7c20d501ff165ad31c07eb21ffeba1c307aa7a7233f229fa34fd3537a0c23149d7a95b96ecc0ad3a8504dd469"
+RPM_NAME = "python311-azure-core-tracing-opentelemetry-1.0.0b9-1.10.noarch.rpm"
+RPM_HASH = "ec8e7411389d85afa6df230c431123f5a6dcb3a83db02895c6c2d0b9c0932bbdc6a8601617cc17abf15286810db47a2d7ada995e753b253448c28b8e2b5d2f9e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-core-tracing-opentelemetry \
+RPROVIDES:${PN} += "python3-azure-core-tracing-opentelemetry \
+python3.11dist-azure-core-tracing-opentelemetry \
 python311-azure-core-tracing-opentelemetry \
 python3dist-azure-core-tracing-opentelemetry"
 

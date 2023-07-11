@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "2.3.0"
 
-RPM_NAME = "python39-QtPy-2.3.0-1.4.noarch.rpm"
-RPM_HASH = "fb4ca747f27b19bbeb790c255598ee29ffc5f331addc561bf9f4a233efc053f06bdf1286818dde4e13462228dc3d70c877b32b10f23af5ecc612281c0038c9e8"
+RPM_NAME = "python39-QtPy-2.3.0-2.3.noarch.rpm"
+RPM_HASH = "2d62b7839c84f4b5ac76296347ae2f3e37e01b03b073cb17b8e9432f9d6b47a09c8c2aac8b4d2ad989870f406d8013ffe8b82ff2d2cb45014802b1beba2e27bc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-qtpy \

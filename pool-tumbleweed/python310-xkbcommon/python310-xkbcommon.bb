@@ -4,11 +4,10 @@ LICENSE = "MIT"
 
 PV = "0.8"
 
-RPM_NAME = "python310-xkbcommon-0.8-1.4.aarch64.rpm"
-RPM_HASH = "1f94620ec2046190b80f5997a42320f4d0682c330ff65375b015f87a75d86b421628b9a4007c1698f933298bf1f4f38e43a389af82a369cb3cae1d533a508394"
+RPM_NAME = "python310-xkbcommon-0.8-1.6.aarch64.rpm"
+RPM_HASH = "dc0543be0087d7715494c0de9a5594af0989bb8189b4009acf85b978f5cfbfa8f37bcb226d28aca7f3d2e4a49019ea8257abf7ff57920dd6fefd62fde58fe468"
 
-RPROVIDES:${PN} += "python3-xkbcommon \
-python3.10dist-xkbcommon \
+RPROVIDES:${PN} += "python3.10dist-xkbcommon \
 python310-xkbcommon \
 python3dist-xkbcommon"
 

@@ -4,8 +4,8 @@ LICENSE = "MPL-2.0"
 
 PV = "0.1.10"
 
-RPM_NAME = "libetonyek-tools-0.1.10-1.11.aarch64.rpm"
-RPM_HASH = "7a08ce46fdc03d0320c4e74d7ece0e0e29f51a306b384832a28551be4708beed12ad9c8bacf6e096cebee8ef493388429733ce255f432127b841335805541aa9"
+RPM_NAME = "libetonyek-tools-0.1.10-1.12.aarch64.rpm"
+RPM_HASH = "8fba673687fe15c63be0fb0ff49f204b1fd68c36bb5c5284bfc97dfe24692316bb56aca36b7d37374cc18bc3bb49b6bca31f158a1423a8ec6ee37670ad7629e1"
 
 RPROVIDES:${PN} += "libetonyek-tools"
 

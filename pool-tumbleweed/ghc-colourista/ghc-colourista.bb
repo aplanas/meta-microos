@@ -5,8 +5,8 @@ LICENSE = "MPL-2.0"
 
 PV = "0.1.0.2"
 
-RPM_NAME = "ghc-colourista-0.1.0.2-1.3.aarch64.rpm"
-RPM_HASH = "3aecf38678d6c04bb7d355358d02730ebf798c91e1aaca4372c17708824a096a42b0cc9a99069120ac7230b8047709ddcc530e5153d31dcbbd33f36194457380"
+RPM_NAME = "ghc-colourista-0.1.0.2-1.6.aarch64.rpm"
+RPM_HASH = "d2f2253992f598dd6cc929278208b9fed919be353af8b6b612a14a9eabd1fa9c8504a4247550953f8993ccd0791144d86384affb21054e90cf0b2f82fa17675f"
 
 RPROVIDES:${PN} += "ghc-colourista \
 libHScolourista-0.1.0.2-5hJOPOBvzIt9IdOCkudaU3-ghc9.4.5.so"

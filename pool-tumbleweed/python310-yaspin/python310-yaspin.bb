@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.18.0"
 
-RPM_NAME = "python310-yaspin-0.18.0-1.12.noarch.rpm"
-RPM_HASH = "28e81f52b60a36c367367e42339e638e4056fd3577f1ebd1e3d08e337f4296ed1e96572eca64c707c7124e4fd3dc46826dc3dcb3ec82b7d87b6759b184574911"
+RPM_NAME = "python310-yaspin-0.18.0-1.14.noarch.rpm"
+RPM_HASH = "ccd94d824c6848749fba683623c913809863a2bdd83f435dab74d3241070480244d2104935870b46db16a34157dab06b34bdbb57f5cc8c133f56581042831ee9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-yaspin \
-python3.10dist-yaspin \
+RPROVIDES:${PN} += "python3.10dist-yaspin \
 python310-yaspin \
 python3dist-yaspin"
 

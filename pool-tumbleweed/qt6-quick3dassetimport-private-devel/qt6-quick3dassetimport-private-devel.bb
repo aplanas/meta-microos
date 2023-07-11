@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-quick3dassetimport-private-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "c14a8fb1598d416f80fd01e7e5a55f4be78b2430579fa4aea4527d6d233eeb290560b28731d12604335232a61bb2330820d5c6ca0ac7782dba7aef9a1cf5aa99"
+RPM_NAME = "qt6-quick3dassetimport-private-devel-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "30e6a84f673c1d2b9b722396f4472a0cdda090d7cb3274fa5f076c963edef4a79575074ab1937686cc59775e1939e3237601bcce1cc84b06d06523dcf8c2c01b"
 
 RPROVIDES:${PN} += "qt6-quick3dassetimport-private-devel"
 

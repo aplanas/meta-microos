@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-or-later"
 
 PV = "1.5.1615+0"
 
-RPM_NAME = "psi+-plugins-screenshotplugin-1.5.1615+0-3.1.aarch64.rpm"
-RPM_HASH = "4099c226d1521e3a4fd253c728a3b77a8e307f29a2e188915bb534977614368a68e51b0393ce83cb0e134e95aec31584bfabdd63a48c0fcd071b0ed67adfc000"
+RPM_NAME = "psi+-plugins-screenshotplugin-1.5.1615+0-3.2.aarch64.rpm"
+RPM_HASH = "e5e4406ee125e14497049036c2c24d896becd7703d4ba9d4b87e9a5b86427e40a04bb893d5fafc8cef103ef6ce1be4df5e384894722f7f6a3e2e6b31f4e33d44"
 
 RPROVIDES:${PN} += "libscreenshotplugin.so \
 psi+-plugins-screenshotplugin"

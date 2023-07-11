@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4"
 
-RPM_NAME = "jarjar-javadoc-1.4-4.11.noarch.rpm"
-RPM_HASH = "05e1eea28dfe678266d18a14db72b097cd223756e823665ef6aeae0dc4ba0ab9bf4249ab46d223bfa0a8234a171d3d728acfec3f6d4a458124fbf6c92e0a1c3b"
+RPM_NAME = "jarjar-javadoc-1.4-4.12.noarch.rpm"
+RPM_HASH = "833d5a34e7cffa68a40e7b201b8aa5091ad97844cd08d61e90675116d00dc530b661f8f3a3dd03de32170ef768aeb8ecb12aabc13cc9113c36b6dd26313f3804"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jarjar-javadoc"

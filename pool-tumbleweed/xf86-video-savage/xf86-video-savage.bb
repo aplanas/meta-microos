@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "2.4.0"
 
-RPM_NAME = "xf86-video-savage-2.4.0-1.1.aarch64.rpm"
-RPM_HASH = "9128580fd23e1dbd3363df0c70d1a70c583ac1aefa908d5d8142fb35b55ce61d32fd57786d583eddc40beb673d1ff0e7925b9cf9afdb0154c785d25f806926c3"
+RPM_NAME = "xf86-video-savage-2.4.0-1.2.aarch64.rpm"
+RPM_HASH = "a52ddedc4e4a147b2b9aca1f53e92727f1a06dffeaa61b3e445d713b2dcab1d0718a421bb98b3470ac19d58f70d3d6685dd7b4c2668c3183700e96411aff880f"
 
 RPROVIDES:${PN} += "xf86-video-savage"
 

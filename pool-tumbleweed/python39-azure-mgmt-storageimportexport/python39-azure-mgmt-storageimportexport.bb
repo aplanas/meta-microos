@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.1.0"
 
-RPM_NAME = "python39-azure-mgmt-storageimportexport-0.1.0-2.11.noarch.rpm"
-RPM_HASH = "9fd40c820f9cb51b7e3f77fbbd19f5b9474e61528f66ffa590b9f533fc8eaa664f3f9dfa241b92c708c613b5443ff1bc691afddd4f301ffba6e9b48c5aa15dba"
+RPM_NAME = "python39-azure-mgmt-storageimportexport-0.1.0-2.12.noarch.rpm"
+RPM_HASH = "1a000bdcf793966150ae029a3a8ee0ca376ba447f165a78372d9921ee38ce5da0b7e0209e4a6b29f8da534544e4269a6eeee02e207517cba67a1ac7bbef901e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-storageimportexport \

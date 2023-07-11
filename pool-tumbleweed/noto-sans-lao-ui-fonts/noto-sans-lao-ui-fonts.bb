@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-lao-ui-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "c90ccea19375da686018b24839d9d00a9077261084d9834f5769faaa75bab23c4ab9a501605950797a703319895018e26b283003710acbaef5bfce41e1c4e217"
+RPM_NAME = "noto-sans-lao-ui-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "09f258ee7443a39327a4524b136988e00e4809ae292de87f3b28efb9e8f0e4eae9be2064a318676d658df05eff6e0a148896f81bcd8f12a25cb92410efea544e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-lao-ui \

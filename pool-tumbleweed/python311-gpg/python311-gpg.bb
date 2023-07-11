@@ -9,10 +9,11 @@ LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.20.0"
 
-RPM_NAME = "python311-gpg-1.20.0-1.1.aarch64.rpm"
-RPM_HASH = "f71770e60e78a17dad7bbe8047070db3cd20a32b007084dbe45a6d280d93d836e5b1710dc5ef15a2a551b954f3ef48b3339e9358bda439fb573d73931e9a3e60"
+RPM_NAME = "python311-gpg-1.20.0-1.3.aarch64.rpm"
+RPM_HASH = "3a79f1979c1e95ed422309eb07490540d7aea9cb35a9304655faf96f18c1816c18e5ed51f2855b880d9fab3aadf7774356aae0b41ca4d432953c384d6aa9af47"
 
-RPROVIDES:${PN} += "python3.11dist-gpg \
+RPROVIDES:${PN} += "python3-gpg \
+python3.11dist-gpg \
 python311-gpg \
 python3dist-gpg"
 

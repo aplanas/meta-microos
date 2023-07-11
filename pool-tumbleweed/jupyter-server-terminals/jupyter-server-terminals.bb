@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.4"
 
-RPM_NAME = "jupyter-server-terminals-0.4.4-1.3.noarch.rpm"
-RPM_HASH = "a9bd612b706424183d71530f29febade654c6dcb88b61560c7a67661be290db6b29b7b866eac2adfd3afe8c7ec5a49645ebbc0231025249d42e6fea6eb7bf9d6"
+RPM_NAME = "jupyter-server-terminals-0.4.4-1.5.noarch.rpm"
+RPM_HASH = "70aa8b7af3330f788f34b6d682d6f74136373c7fa2cae02080024111afd9633f6a3384454bc2be533c3f6bda1ce263623e8fc20e14f9ef4f64505d14034b3ffc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-server-terminals"

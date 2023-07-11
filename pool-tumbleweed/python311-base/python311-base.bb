@@ -10,16 +10,24 @@ excludes components that depend on external libraries, most notably XML, \
 database and UI toolkits support."
 LICENSE = "Python-2.0"
 
-PV = "3.11.3"
+PV = "3.11.4"
 
-RPM_NAME = "python311-base-3.11.3-1.2.aarch64.rpm"
-RPM_HASH = "b0cd4bcc468c61ca33442a4759a7130b4f5d64f5f502f80fe8a1e2fe05daf758d4175cb5323b68ca6898de17fc7626c504efe82123f4d801dd516eab4e884c6a"
+RPM_NAME = "python311-base-3.11.4-1.2.aarch64.rpm"
+RPM_HASH = "e2d78f7eecc24fa06817216cffdd840bbc4eb7c6fa7c2f9640baba8cbbe4dd9902f6c1929c722bae816871082e741ca21e01929c8fbb244307016b58ace1338d"
 
 RPROVIDES:${PN} += "python-abi \
+python3-asyncio \
+python3-base \
+python3-typing \
+python3-xml \
 python311-asyncio \
 python311-base \
 python311-typing \
-python311-xml"
+python311-xml \
+rpm-macro-cpython3-soabi \
+rpm-macro-have-python3 \
+rpm-macro-py3-compile \
+rpm-macro-py3-soflags"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \

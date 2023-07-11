@@ -14,11 +14,12 @@ LICENSE = "MIT"
 
 PV = "3.0.0"
 
-RPM_NAME = "python311-textX-3.0.0-1.8.noarch.rpm"
-RPM_HASH = "462be77dd590f9f45d4ab5589e1efb011937e10549edc16786aee3cd8ded2f12b3ee14e790f0f39010b2d12abe58e0c153a49c588e9a90f635a9e90538f98012"
+RPM_NAME = "python311-textX-3.0.0-1.10.noarch.rpm"
+RPM_HASH = "056cc2380167d7b82c4af0329ff6a8b74ada5fed20f4a756a7bb59f6136036db86eca3b70bb23b4f57a5464393db1d0d06994e4a9aecc56b0f936d5613062199"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-textx \
+RPROVIDES:${PN} += "python3-textX \
+python3.11dist-textx \
 python311-textX \
 python3dist-textx"
 

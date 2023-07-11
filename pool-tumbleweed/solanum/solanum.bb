@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0~ch560"
 
-RPM_NAME = "solanum-0~ch560-2.10.aarch64.rpm"
-RPM_HASH = "00dcecd9e8edfe687f591305d81f3b022a07d9930e53c0320d8e4ceb4ed10a38427e8279e8bbcf65df939616da70d410d3f712406dd0389817baf11f60ffe351"
+RPM_NAME = "solanum-0~ch560-3.1.aarch64.rpm"
+RPM_HASH = "0dcc7d886e06cb2ad08151733084df1b56ea7a3c0a46d62528381dd89b67c7e130429872ce761bc354845c21b8f1a421031639dbefafa6a64d85e800e295b7fd"
 
 RPROVIDES:${PN} += "config-solanum \
 libircd.so \

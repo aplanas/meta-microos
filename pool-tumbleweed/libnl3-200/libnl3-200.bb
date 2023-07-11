@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "3.7.0"
 
-RPM_NAME = "libnl3-200-3.7.0-1.4.aarch64.rpm"
-RPM_HASH = "ec057d9153e2ec309e1cfcd51fab3586ad98cfdd9149f55adf0f16f388ab376205d40a153a69aeaaba70856e490d82ca6326d6b56cbc7a36eb2897a43145d098"
+RPM_NAME = "libnl3-200-3.7.0-1.5.aarch64.rpm"
+RPM_HASH = "fe138af405434ce99f4bbc62469c797f166972ee0ac447d19de7d8268f1d2e12e3ddcdd87cd17313b5d5bf17a67284520762828a37a43cf3c7cc1612219c98c5"
 
 RPROVIDES:${PN} += "libnl-3.so.200 \
 libnl-cli-3.so.200 \

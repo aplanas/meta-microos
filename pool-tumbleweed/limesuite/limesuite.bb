@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0"
 
 PV = "22.09.1"
 
-RPM_NAME = "limesuite-22.09.1-2.2.aarch64.rpm"
-RPM_HASH = "297b31740a3f399e59a2c22a7a83570606b1f02105791e02fb3db66855771eeb8d4aed79741b2e340fb4836c57ee27c9f2953747a3b92173f302b349689b332f"
+RPM_NAME = "limesuite-22.09.1-2.3.aarch64.rpm"
+RPM_HASH = "145efbf3dd15864d2c9ef16d25b2df0994b0e2332dff8ddadc2e4518beffb2eae50bfd69253cd71cdad55c1814b0b98abd4ae5d636ebc83fd0988bbf7a814cd5"
 
 RPROVIDES:${PN} += "limesuite"
 

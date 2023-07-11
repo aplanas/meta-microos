@@ -4,12 +4,11 @@ LICENSE = "BSD-2-Clause-Patent"
 
 PV = "0.14.0"
 
-RPM_NAME = "python310-edk2toolext-0.14.0-1.4.noarch.rpm"
-RPM_HASH = "542346b09391749e93e27e6f6de1dc6a61f8c8f370e2f5e1d3d23c5ac21bf9b893655d1792b145df2e450c44a83107d288141e9c54570691e0ce453e28b4a412"
+RPM_NAME = "python310-edk2toolext-0.14.0-1.6.noarch.rpm"
+RPM_HASH = "629354fc14d487ec7f00c8449a5917d11a6dd24428416684a17dd2bc8ccf45931f1397d97beb06ef794bb6f6bb7fc9d2aae9367c04fcf725368b81e42eb3a4e1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-edk2toolext \
-python3.10dist-edk2-pytool-extensions \
+RPROVIDES:${PN} += "python3.10dist-edk2-pytool-extensions \
 python310-edk2toolext \
 python3dist-edk2-pytool-extensions"
 

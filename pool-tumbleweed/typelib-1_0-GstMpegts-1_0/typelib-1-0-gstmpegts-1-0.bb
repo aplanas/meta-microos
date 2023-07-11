@@ -6,10 +6,10 @@ videos. Its plug-in-based architecture means that new data types or \
 processing capabilities can be added simply by installing new plug-ins."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.3"
+PV = "1.22.4"
 
-RPM_NAME = "typelib-1_0-GstMpegts-1_0-1.22.3-1.1.aarch64.rpm"
-RPM_HASH = "4c788c0dfb132832d7a7ab4fabb2eae3bba0aacb521961dc173d0065d7a0cb95002a9bc33ab406f1de70f654096107d71dd167655c9f0e3f13111572b71f1a32"
+RPM_NAME = "typelib-1_0-GstMpegts-1_0-1.22.4-1.1.aarch64.rpm"
+RPM_HASH = "1c013306b00453af4a745ac00984c64158978ddd381f94d19992a203811726cf21f8b626aa9571b579dcede6b29517b51853136c847cafc76a4eb5b212777041"
 
 RPROVIDES:${PN} += "typelib-1-0-GstMpegts-1-0 \
 typelib-GstMpegts"

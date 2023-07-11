@@ -7,11 +7,13 @@ LICENSE = "MIT"
 
 PV = "1.3.2"
 
-RPM_NAME = "python311-dbus-python-devel-1.3.2-1.5.aarch64.rpm"
-RPM_HASH = "dbb80eea755e323c98cf0a4a5b1f5da0820d359301e4576c94bd8e5dcb0a2ebc5003de73df454e65d6fb6773870bb5207962af1785233f8496c4e37514425504"
+RPM_NAME = "python311-dbus-python-devel-1.3.2-2.2.aarch64.rpm"
+RPM_HASH = "4ffd506c276c4c24b466eab70e293752d7462c47b9d6fec52aa103bc65fda9e6f80214194d29d0032a9a277250e4897198cc54ff3f7779a45fc30daf972c73d7"
 
-RPROVIDES:${PN} += "dbus-1-python311-devel \
+RPROVIDES:${PN} += "dbus-1-python3-devel \
+dbus-1-python311-devel \
 pkgconfig-dbus-python-3.11 \
+python3-dbus-python-devel \
 python311-dbus-python-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \

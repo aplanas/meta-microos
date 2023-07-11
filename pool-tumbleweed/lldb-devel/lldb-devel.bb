@@ -6,10 +6,10 @@ lldb-devel that openSUSE currently supports.  Packages that \
 don't require a specific LLDB version should depend on this."
 LICENSE = "Apache-2.0-with-LLVM-exception | NCSA"
 
-PV = "16.0.4"
+PV = "16.0.6"
 
-RPM_NAME = "lldb-devel-16.0.4-1.1.aarch64.rpm"
-RPM_HASH = "27327f2ffecf63cf2246f821997d563ee45a3f018b75c94c82e5654bc6f96422d76c91376a12063e13a4b6f8f96f71bd9f6d3d69be3166ea4ccde534d924f632"
+RPM_NAME = "lldb-devel-16.0.6-1.1.aarch64.rpm"
+RPM_HASH = "c681aab0855759fbe2ba86e36c617b1591e0b4d4218d46e29c4ef36b3e5d92798a122d2721ab44f18a3fac503e50c122f00d94e5e8f746aaff7652875f75f85e"
 
 RPROVIDES:${PN} += "lldb-devel"
 

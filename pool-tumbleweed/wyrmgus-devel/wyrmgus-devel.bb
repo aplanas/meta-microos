@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "5.3.6"
 
-RPM_NAME = "wyrmgus-devel-5.3.6-2.4.aarch64.rpm"
-RPM_HASH = "931b5859f5885f518bba940b21c1534fac38dbd7660fd3fcc646f6c43af7c74db1f576e5bb8436e51db1b448a4ecd955ec14d6bb937ef1b483fb2786304392d5"
+RPM_NAME = "wyrmgus-devel-5.3.6-2.6.aarch64.rpm"
+RPM_HASH = "99999040ec7500599fc0edd5d1fbb3e51224c8359a256d4a0d0ee4bf72a9e0385d18bee0314add6665e76f200a37f57373c5fd2b3b9aeea613f22e36c82b3243"
 
 RPROVIDES:${PN} += "wyrmgus-devel"
 

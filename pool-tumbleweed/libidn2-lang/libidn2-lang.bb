@@ -4,8 +4,8 @@ LICENSE = "(GPL-2.0-or-later | LGPL-3.0-or-later) & GPL-3.0-or-later"
 
 PV = "2.3.4"
 
-RPM_NAME = "libidn2-lang-2.3.4-1.3.noarch.rpm"
-RPM_HASH = "8f26fdee3b9f3aa67a0f60dc4e1c2673c6dad90ab37983260ecb3f455b6d3bbcfeea99d819bf5b681de72d5f0433f3ecfb5022286bd76daca9ea00bc76368aa3"
+RPM_NAME = "libidn2-lang-2.3.4-1.4.noarch.rpm"
+RPM_HASH = "08fcda9ead29ad9815cd589d1f0e6621381a0afad255e4785a7c4d0e546f17c799e764e4924dc8f9318bb27b08ea33674c21c4f44dd6c068fbe6a069eb4f85a4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libidn2-lang \

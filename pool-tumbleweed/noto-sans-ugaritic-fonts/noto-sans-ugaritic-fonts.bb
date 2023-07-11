@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-ugaritic-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "c12c025f9de7166fa337b49b258e36136ed4cdf029fd4163d24403cedb5c83e603e296c221536d4305272aa9ce39ff94deb27e72bb004a7222dae72345052777"
+RPM_NAME = "noto-sans-ugaritic-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "5dd0496193454ccf3458e80c7d54495ce4a4a1fbde007fd7630e52ea59b7967a10b43a19938219c142e786e950e9e4b43258a7b396a295f0dddcde6737c2e8ce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-ugaritic \

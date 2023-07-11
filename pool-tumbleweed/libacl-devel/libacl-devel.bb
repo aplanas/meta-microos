@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "2.3.1"
 
-RPM_NAME = "libacl-devel-2.3.1-2.12.aarch64.rpm"
-RPM_HASH = "1a5bf7709568c0a9154f7613c4c00408659d54079bd9e4fd5813680b60b5291780bcb07e0714a79fb90209701858bc583597829d90dd7a6af2ddfb57408e8142"
+RPM_NAME = "libacl-devel-2.3.1-2.13.aarch64.rpm"
+RPM_HASH = "08d8d9da4d129eed0e57d5bde30afa6e0505f02ce7187b30d893e207c801bbe7db76ca6256bd8d1dbdbfd9f479c5fe47ba70cc7ccab1b6c3e0f84a988d56a3ec"
 
 RPROVIDES:${PN} += "acl-devel \
 libacl-devel \

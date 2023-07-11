@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0 & SUSE-Public-Domain"
 
 PV = "1.11.3"
 
-RPM_NAME = "aws-sdk-java-cloudtrail-1.11.3-7.8.noarch.rpm"
-RPM_HASH = "0ee7f85a177b974b04f2a8fa8e9fd67137c5fca7464d69f314f679f0f7f5b38db9d75e97ce2193cc914a4e16ee57163f056732b45a85b3a9f062d0d8f13e19e5"
+RPM_NAME = "aws-sdk-java-cloudtrail-1.11.3-7.9.noarch.rpm"
+RPM_HASH = "88365b406d46f1e27399980412043739ec3d902150b2c6259e86358d9e65776b9f5897b4426f92ab1718e46d39aa0da94ce2bba0326301b557715a9d275baa37"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-cloudtrail \

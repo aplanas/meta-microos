@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.1.1"
 
-RPM_NAME = "ghc-tar-devel-0.5.1.1-11.3.aarch64.rpm"
-RPM_HASH = "905dc2d11880fc777b179950084cac147368b0c27bcfd8d9151d1a77fc835b22430011e44ac862ba2873c01ea361c3c14c9c59269d4389c2a15f51d2ad360de0"
+RPM_NAME = "ghc-tar-devel-0.5.1.1-11.6.aarch64.rpm"
+RPM_HASH = "eb91fbaff110cf78989e273418710dde7a8f7b485fc8118e7ba5101d398d478a972fdf52e1891a3ce820a62061f97f9009c47e12cfa08f7c2e3c4282198aa3df"
 
 RPROVIDES:${PN} += "ghc-devel-tar-0.5.1.1-Dtsl5am3zST5LscMXaDdU8 \
 ghc-tar-devel"

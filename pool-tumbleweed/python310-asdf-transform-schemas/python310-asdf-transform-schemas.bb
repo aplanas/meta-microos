@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3.0"
 
-RPM_NAME = "python310-asdf-transform-schemas-0.3.0-1.3.noarch.rpm"
-RPM_HASH = "fb10f9561bb0b44044526056a5ad04211e99c78b7401e2b79a4ca80844a9834bc54cc4cd41dd39d6918223a9328255114bc62f463d357f6a7a8de49b8ac8be27"
+RPM_NAME = "python310-asdf-transform-schemas-0.3.0-1.5.noarch.rpm"
+RPM_HASH = "fac9dae69067d7a8a1b94d8d0b4ef60183975cae5dad80be0847bda3e5080fb7f67585554a7e16ae98b601c156004ada4e3823933a5f5a146a097e563ec754b4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-asdf-transform-schemas \
-python3.10dist-asdf-transform-schemas \
+RPROVIDES:${PN} += "python3.10dist-asdf-transform-schemas \
 python310-asdf-transform-schemas \
 python3dist-asdf-transform-schemas"
 

@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "7.0.0b1"
 
-RPM_NAME = "python39-azure-mgmt-batchai-7.0.0b1-1.8.noarch.rpm"
-RPM_HASH = "d580755532763a66ef78769991a880042b3f883736f8db056a3fbb9064376f8fa8a8b7687a0fbd161d65ebd988b1fac0a33772e75731e176b0df879de6e7edcc"
+RPM_NAME = "python39-azure-mgmt-batchai-7.0.0b1-1.9.noarch.rpm"
+RPM_HASH = "881eddd4010ffa64fa53170f88297900263406a952360042dcdbd45218377e2adc2bf873e2f0bcd0234b2ab47ddc71cfc1f55a8c6607a53c3aaedff72700c0f8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-batchai \

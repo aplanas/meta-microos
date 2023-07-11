@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.0-only & Apache-2.0"
 
 PV = "0.87"
 
-RPM_NAME = "htmlcxx-devel-0.87-2.8.aarch64.rpm"
-RPM_HASH = "89e7d30708f27c1885f2a23c4de50fe2a8bccf1b337334c227bb4cf15bd0d896d5b014a52f818674783c1ba4d8b0c182e98eb958bce839533d859e27cdfa1e48"
+RPM_NAME = "htmlcxx-devel-0.87-2.9.aarch64.rpm"
+RPM_HASH = "f52dac59f8d71a143fe4ca8f3dc3af6e28744a9b2c2c4c1ceb6460de279272113ed5a2efb6b1c8f0c6dcb47b48f80550e54a5be14a621ec1f9bc2a4e97d1404b"
 
 RPROVIDES:${PN} += "htmlcxx-devel \
 pkgconfig-htmlcxx"

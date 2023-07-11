@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.6.0"
 
-RPM_NAME = "libsensors4-devel-3.6.0-8.7.aarch64.rpm"
-RPM_HASH = "82f218893366a553d68105ca0e01e587718bb6c97f78ecb4e18dec71c76a4d2d4e532396ff764269665e3abf573c4ce8e184f78592c0d7c3357a0998a023867b"
+RPM_NAME = "libsensors4-devel-3.6.0-8.8.aarch64.rpm"
+RPM_HASH = "aefb1010187408349bbb077d131536a549892599cd2a66d631a9357297c60de447e01b7a0a9b3d9f5a9a27b2bc2af49ba78c4bea0ccf0f1e4ab53c96a83e6b22"
 
 RPROVIDES:${PN} += "libsensors4-devel \
 sensors-/usr/include/sensors/sensors.h"

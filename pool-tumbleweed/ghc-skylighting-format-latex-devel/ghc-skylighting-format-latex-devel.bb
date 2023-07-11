@@ -5,17 +5,17 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1"
 
-RPM_NAME = "ghc-skylighting-format-latex-devel-0.1-2.3.aarch64.rpm"
-RPM_HASH = "5059b85b42122865ed7f9eee77d713308bad662e0c04e7e0e3d503269b27e67e912a773c45ae541ede09d3923b0bd1b9f9a92b047908bd8e95021d9e76d92a18"
+RPM_NAME = "ghc-skylighting-format-latex-devel-0.1-2.4.aarch64.rpm"
+RPM_HASH = "a54790b300fa3ebc61a420260fc643033ffeb760fa6ca2331928dccf46649bf3678c2e88285b827aa714947a968d5fbb494a1e4e52dadb3ae119746e0bb98a1c"
 
-RPROVIDES:${PN} += "ghc-devel-skylighting-format-latex-0.1-BfMH5Wq0cc5AFSMLgsgxu \
+RPROVIDES:${PN} += "ghc-devel-skylighting-format-latex-0.1-8E2kKavCeIp7J2nfRBTdHs \
 ghc-skylighting-format-latex-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-containers-0.6.7 \
-ghc-devel-skylighting-core-0.13.2.1-6o4V0mA5OWyEHmMDE2dJ63 \
+ghc-devel-skylighting-core-0.13.3-9hBRKYwyArU4OdEqV8LbQv \
 ghc-devel-text-2.0.2 \
 ghc-skylighting-format-latex"
 

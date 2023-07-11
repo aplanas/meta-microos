@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.0.8"
 
-RPM_NAME = "lightdm-gtk-greeter-branding-upstream-2.0.8-1.12.noarch.rpm"
-RPM_HASH = "9dd7114184cfa0af763245cea6ee8dbfe6653894b6083773e009fa0003f33d7e1899ef05cc61d5d94e1bd4c772555e6caf18af9294c1389f14a4cd1a7c4095be"
+RPM_NAME = "lightdm-gtk-greeter-branding-upstream-2.0.8-1.13.noarch.rpm"
+RPM_HASH = "ae2e75352cd412c17a7c757290c00eeb7a38acfceeaba6d52d938ab6878e4157f85c561938a1498477834d5449a0e0cf7b7c8de571728bfd3385a69d04c8c8a0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-lightdm-gtk-greeter-branding-upstream \

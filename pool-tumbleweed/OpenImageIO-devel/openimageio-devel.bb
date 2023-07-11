@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.4.12.0"
 
-RPM_NAME = "OpenImageIO-devel-2.4.12.0-1.1.aarch64.rpm"
-RPM_HASH = "c8dc9d865c471161d42c681b6bb1049768b37c1a3fabbaef33ffa51080569a44724986d9fe6feb8e2ffe331f6d64204808adcf9850be8fc304a04f976ef582f2"
+RPM_NAME = "OpenImageIO-devel-2.4.12.0-1.2.aarch64.rpm"
+RPM_HASH = "aa629518a51cb1446529f3ff2dd5d371528bdcadee9f337c955758311745aff54ff4edae9fa29ec71d4bf0bedb8ab5cd8709b3b328819dea658953bc29d29692"
 
 RPROVIDES:${PN} += "OpenImageIO-devel \
 cmake-OpenImageIO \

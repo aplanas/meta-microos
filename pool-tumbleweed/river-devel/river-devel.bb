@@ -2,10 +2,10 @@ SUMMARY = "Development files for river"
 DESCRIPTION = "Modules for interacting or modifying the River Wayland compositor."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.2.4+g109"
+PV = "0.2.4+g953"
 
-RPM_NAME = "river-devel-0.2.4+g109-3.1.noarch.rpm"
-RPM_HASH = "3635592852968defe2c3a075eb8e8b297be11fcb9c4668273894d9b537a7ac901b1f0ef4847b2c410b32569fc4c90c32d196a167bd816a0d62c54a55d24fa772"
+RPM_NAME = "river-devel-0.2.4+g953-1.1.noarch.rpm"
+RPM_HASH = "ce34440d4bde77ad9af229d87a967b3a75cc7746625a039ebda5484120d507e3ea3c69ab57a2467381965394c0c25044c96878ae48d42703c6e156925d67d81e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pkgconfig-river-protocols \

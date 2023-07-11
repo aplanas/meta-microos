@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.19"
 
-RPM_NAME = "gnuastro-doc-0.19-1.10.noarch.rpm"
-RPM_HASH = "f87762f209182709cb5aaa302c7bf95f96c553676c322288a7693e4ab7a9a294297019a6f0c78c2652fdd8a9cd766b5d8ba1f27fa66917bf07a06bc6c2f5efa3"
+RPM_NAME = "gnuastro-doc-0.19-1.11.noarch.rpm"
+RPM_HASH = "c9822f710948ad851c891f3b7edf98edeb07433c59d640684c9c479492fea9eed599934e9e6642141d1a62542acac09e9cfe5f788118ea8bc89b65f12f840ee6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnuastro-doc"

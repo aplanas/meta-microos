@@ -14,8 +14,8 @@ LICENSE = "CC-BY-SA-3.0 & GPL-2.0-or-later & GPL-3.0-or-later"
 
 PV = "1.4"
 
-RPM_NAME = "supertuxkart-1.4-4.2.aarch64.rpm"
-RPM_HASH = "a3233e4c33263cf6f306b7c23673e91f22201a8adfdbcc7fbc87023105bdfce2eb27f7d8c1921ea203d5bc08399a47f83cedd5ee27bfc5ab3d09080f436f1c77"
+RPM_NAME = "supertuxkart-1.4-4.3.aarch64.rpm"
+RPM_HASH = "7ef74ce4755bb105c5796826b8b1a7dc6e8dfa892f21f256bf94b2de443a46877c7032044a566d137dfc40109421f0c45a1ba3c372e5d3c46f425205b6177bac"
 
 RPROVIDES:${PN} += "supertuxkart"
 

@@ -5,10 +5,10 @@ in any way officially endorsed by the publisher or editors, and \
 is provided without any warranty one could ever think of."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn15878"
+PV = "2023.208.1.2svn15878"
 
-RPM_NAME = "texlive-ijqc-2023.201.1.2svn15878-52.1.noarch.rpm"
-RPM_HASH = "d101c54ca1a087cbe58f4c884d9482b645c2f391c97ab4f147081642197b40585ca248d92b4fc7a3ca1a3ae690984cf82d4ae5418e7cc731e0fed5a5472c03a4"
+RPM_NAME = "texlive-ijqc-2023.208.1.2svn15878-53.1.noarch.rpm"
+RPM_HASH = "92c3224f2c657d0c880bf80c36a02f9b4c9288ca85cee62e702d32412ec9ffd933199f9fe756bf40ca2b7a6ec7bf2dbae351eae9e33b9344a37c06364840ac36"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ijqc"

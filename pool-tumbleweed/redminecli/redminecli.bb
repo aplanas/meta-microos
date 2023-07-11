@@ -4,11 +4,11 @@ LICENSE = "CECILL-B"
 
 PV = "1.3.0"
 
-RPM_NAME = "redminecli-1.3.0-1.10.noarch.rpm"
-RPM_HASH = "1a5e0c827ad1dce46932e0fe10025ce325f3b0a2ba8c8034989eada2ea67ebeafaa1a9fe9b309de40025eb611bb6c5dbedde8aec850e648b2f8aaca9e2c023cd"
+RPM_NAME = "redminecli-1.3.0-1.11.noarch.rpm"
+RPM_HASH = "3aaadf954c3a503fe9b1c114500326394eeb1f09a308c8a83e15b53343dc998756089bd75728213849635e48643186c46b4438b98eff37118f4b3b2b37159695"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-redminecli \
+RPROVIDES:${PN} += "python3.11dist-redminecli \
 python3dist-redminecli \
 redminecli"
 

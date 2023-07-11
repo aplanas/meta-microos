@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0+"
 
 PV = "1.3.5"
 
-RPM_NAME = "octave-forge-fpl-1.3.5-1.22.noarch.rpm"
-RPM_HASH = "ca989584d2b9f75a1446dbc38dd96d31f16a91a21130d7e42adf550f6917b83e44227a2ad551966b622354cd118b60c583249911bb1dd30b2e109908a94d598b"
+RPM_NAME = "octave-forge-fpl-1.3.5-1.23.noarch.rpm"
+RPM_HASH = "0d4651cd88af73d24c2648e21d8a367ff81e82b1624ab80298fb8eccc6023ac5726de1422d77a4fe8b557ff4ace3d5b7066d78e28343a6511930c1355acb7e2d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "octave-forge-fpl"

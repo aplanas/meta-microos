@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2023.05.01.00"
 
-RPM_NAME = "folly-devel-2023.05.01.00-1.1.aarch64.rpm"
-RPM_HASH = "cb7acf1d231c9bd26e5d648deaf819cfc79a2bdb94e5f9c7698fa750ea222e2db1c383c9385bd4e181def125129b7e48cedf9a78e7acb2cf8a8374e41a3f50d2"
+RPM_NAME = "folly-devel-2023.05.01.00-1.2.aarch64.rpm"
+RPM_HASH = "a758b15ab6a88befe1bb149417aabdf4ab6f13b03f50ab94750d7b3038312f71804fd371a6a08a8d8988131a187fdc76009540179684c4c30e4e13f53e9e41fb"
 
 RPROVIDES:${PN} += "cmake-folly \
 folly-devel \

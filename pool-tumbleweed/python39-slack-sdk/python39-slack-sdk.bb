@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "3.21.3"
 
-RPM_NAME = "python39-slack-sdk-3.21.3-1.1.noarch.rpm"
-RPM_HASH = "5f665325af5d4dd8a4eecc4b6b2e36dd199178928bd1497b14dd482c95aff17da1050882ca7873caaa481babc12bf2a51d71ea5a452f10a24da49db64553bcf2"
+RPM_NAME = "python39-slack-sdk-3.21.3-1.2.noarch.rpm"
+RPM_HASH = "275d295f910051f24fb433391f6630bb7dcdfdf7c7d9c792a0c48bc98900284b14496e19638cfd7be849cb8a9516544ff06bd996bf7bebf8152751b749f3b0ff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-slack-sdk \

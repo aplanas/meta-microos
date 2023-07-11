@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
 PV = "4.2.0"
 
-RPM_NAME = "sdcc-doc-4.2.0-1.3.noarch.rpm"
-RPM_HASH = "aae851d3732dd502965801f86d18ac927892baff82472875159e3b8660b9ad7d10ccc63c8dba08cd4c5bbd8b58db0c54a7edbfa46d911f8c5ca77262b3c372db"
+RPM_NAME = "sdcc-doc-4.2.0-1.4.noarch.rpm"
+RPM_HASH = "56eabda3d1fc9992da153cf6bc65786ca08e30cbbb7380b6d163978bdbc5b2aa35b3356e0a922ae3997070944bc3f74f774af7d2a6b8b348f24a31e8a32f8eed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sdcc-doc"

@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.8.2"
 
-RPM_NAME = "libfst25-1.8.2-1.1.aarch64.rpm"
-RPM_HASH = "fcabce9b2635763ecb52da5859bc510abe04776807f2a89ca0f6a310687232375de94d7dce1d147b5bc5dead833f730b07192829f9fed9ea1f878d2636ce0ee2"
+RPM_NAME = "libfst25-1.8.2-1.2.aarch64.rpm"
+RPM_HASH = "da8f3696f9ae609415053c271a135bb65405dff775822bed6f5e5e2d900bffe16f9ff7fa0a7cd0b6601eb66188bca96975f07308b64e286b450a8e6c421d3f23"
 
 RPROVIDES:${PN} += "libfst.so.25 \
 libfst25 \

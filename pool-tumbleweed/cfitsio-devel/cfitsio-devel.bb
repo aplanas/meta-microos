@@ -5,8 +5,8 @@ LICENSE = "ISC"
 
 PV = "4.2.0"
 
-RPM_NAME = "cfitsio-devel-4.2.0-2.3.aarch64.rpm"
-RPM_HASH = "ee65b0a6603a39f787a401028410526b56949638345f33034f25847343dcb9f95d16792025164478930748780573b2cfcbc00e350ee5782aa63030f4c4ba5106"
+RPM_NAME = "cfitsio-devel-4.2.0-2.4.aarch64.rpm"
+RPM_HASH = "64047f8d8fac67ef4a6421f8183e7a893f817f646cce0d9100fe0acb36a38a8b0d0de57703a87ff7bde4ca8e04809a8dd36ca5c4dc68b9cb862afed6276e02ee"
 
 RPROVIDES:${PN} += "cfitsio-devel \
 pkgconfig-cfitsio"

@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.97.0"
 
-RPM_NAME = "python3-avogadro-1.97.0-2.3.aarch64.rpm"
-RPM_HASH = "eac88f61057b2e955833fc98b3d375b7bfde6ca8d036c6a761d73bc6f3fc1a9ba3844f86e604c37b590eb852f6c6d6971acc6408d4cf8a542848e3046cf081e4"
+RPM_NAME = "python3-avogadro-1.97.0-2.4.aarch64.rpm"
+RPM_HASH = "4ea2dccfc321627197e6d35c3be896c4348fde2d9103f584f54aeea9d859822a501035020a13b46fa298378f79baed959c438bf4910984479ef888324b587467"
 
 RPROVIDES:${PN} += "python3-avogadro"
 

@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.9.6"
 
-RPM_NAME = "python39-cracklib-2.9.6-1.1.aarch64.rpm"
-RPM_HASH = "fa425756bd21bc2be15051cee31bebfa4bb4f7038ad0c42593eb7a7f8f2b3d9f3d70170bc6e48abc35961807fbe0b68589b8cc7e4bb27e838b128fb0e250a674"
+RPM_NAME = "python39-cracklib-2.9.6-1.3.aarch64.rpm"
+RPM_HASH = "aea8884882ab32d4efd0ce3c822b50f2fae81a28aaab13f98818227947b348085724a0a6732d1341e1ac8d63157daf13aacdeb849f9a0a745620db6c7472ef5a"
 
 RPROVIDES:${PN} += "python3.9dist-cracklib \
 python39-cracklib \

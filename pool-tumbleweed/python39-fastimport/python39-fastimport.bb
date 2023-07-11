@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.9.14"
 
-RPM_NAME = "python39-fastimport-0.9.14-2.1.noarch.rpm"
-RPM_HASH = "1ad3209aff0bc1af8d36561692c309552b7fdbe7e570c37c61e65c12ba36550693f6be0fc01ba828a76cd56ac3faac13e06e1bd02ee6d3a463d1d72d0b270c5b"
+RPM_NAME = "python39-fastimport-0.9.14-2.2.noarch.rpm"
+RPM_HASH = "26aa9b53d4e87bc25f63ffff3ec81507d2838269078f9e9a13dc57e510cbe3db0bf8b81dbc008c0b759a5d53208ee1286be24e93fe7fe6a331b67073067dcd7c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-fastimport \

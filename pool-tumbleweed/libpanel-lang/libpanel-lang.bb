@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.2.0"
 
-RPM_NAME = "libpanel-lang-1.2.0-1.1.noarch.rpm"
-RPM_HASH = "2565178883e604cb42dad99a261dbf76f7514c5b8e78ea9c2ecfee5eb60af150f5c0b3e21fcb4947353282f1af06edc9443e4c64709af8c7814faf573429e80a"
+RPM_NAME = "libpanel-lang-1.2.0-1.2.noarch.rpm"
+RPM_HASH = "ff32e29c4098ec26fc18fd540ed149c821fe51a80aec0e5e4a8e58ac557c217f3dc22fff4f0085ec42c18a983882a1b3aac38b2af30341e9741558d832467f80"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libpanel-lang \

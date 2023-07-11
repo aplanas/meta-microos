@@ -8,12 +8,11 @@ LICENSE = "BSD-3-Clause | LGPL-2.1-or-later"
 
 PV = "0.6.0"
 
-RPM_NAME = "python310-testpath-0.6.0-2.1.noarch.rpm"
-RPM_HASH = "de219a10b72a190035e53fbef63f54d83883a236be6052c5587f0f072587d9752bdea74d93a48e6971c33a5f5ce01f205d12a46c4c630c33d746e368a69e390c"
+RPM_NAME = "python310-testpath-0.6.0-2.3.noarch.rpm"
+RPM_HASH = "7a18671fc5154b363cefaee1730144c7b64500c3277006d02d1729702499b8402e9eee4211d28773a0793c86d623da2a47cbe1a3794f1c7c59b1cff49b92aad5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-testpath \
-python3.10dist-testpath \
+RPROVIDES:${PN} += "python3.10dist-testpath \
 python310-testpath \
 python3dist-testpath"
 

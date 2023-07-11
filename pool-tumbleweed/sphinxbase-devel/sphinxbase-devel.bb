@@ -7,8 +7,8 @@ LICENSE = "BSD-2-Clause & MIT"
 
 PV = "0.8"
 
-RPM_NAME = "sphinxbase-devel-0.8-6.6.aarch64.rpm"
-RPM_HASH = "e0e6dcf761d2899877c104a42113f634444edb1bd233ca08adfa4b76892501b1083b18af960decdd9e1b4bd57e3a52d5cd4376cfcc28d31e24517ae6cfed02a9"
+RPM_NAME = "sphinxbase-devel-0.8-6.7.aarch64.rpm"
+RPM_HASH = "1061bed138ba7a644dc40ef500dc66514334099412793a85d8b42e928eacee04523603b1fabe9c831087cdb56426aafd9e65f94a879a65fddb9a71484eaeb183"
 
 RPROVIDES:${PN} += "pkgconfig-sphinxbase \
 sphinxbase-devel"

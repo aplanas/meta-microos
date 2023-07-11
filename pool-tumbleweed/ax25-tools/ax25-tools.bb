@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.0.10rc5"
 
-RPM_NAME = "ax25-tools-0.0.10rc5-1.8.aarch64.rpm"
-RPM_HASH = "f179c53b1b1abe64f7cff15bdd5f3436946da4e4d1a4df9d4f234b6507a31ec2fc08028fd50a90d55d4174fb162b4dd67407303abdcc967d715159bc8aba95f5"
+RPM_NAME = "ax25-tools-0.0.10rc5-1.9.aarch64.rpm"
+RPM_HASH = "8cb37dbe701f3195581ba5c38bafd1ba0d8de6da33139bc178049bbf818740b9a17c518169fbee6d4a97bf60216a24dc4edfdc605eaae9b5988897d5f0d69ad3"
 
 RPROVIDES:${PN} += "ax25-tools \
 config-ax25-tools"

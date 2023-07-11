@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.0.1"
 
-RPM_NAME = "chocolate-doom-3.0.1-3.1.aarch64.rpm"
-RPM_HASH = "6b049e406024c5d57d433b0d0ce20a37330f2d2068d534937d8b934a711abecd0561b4d7d98f3246998fec75715fbf4c81fa448e52732e13d1ecaff07f1192b8"
+RPM_NAME = "chocolate-doom-3.0.1-3.2.aarch64.rpm"
+RPM_HASH = "e4f80233237ad1253e0e220550c912a06846ddbdb7c5c37a3996f659460576d8849a24e59d49d2a804ac744b3339eb1be22d6274e730e88edfd54d25c3ce8012"
 
 RPROVIDES:${PN} += "chocolate-doom \
 chocolate-heretic \

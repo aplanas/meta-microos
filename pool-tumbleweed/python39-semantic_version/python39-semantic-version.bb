@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.10.0"
 
-RPM_NAME = "python39-semantic_version-2.10.0-3.1.noarch.rpm"
-RPM_HASH = "59354601e13df113c225a39f9eb7d173841665f2e9604529201b98354f0608de92dc18582477e3764180e9c0f3836e0583067d564b970fab6b45852eac441971"
+RPM_NAME = "python39-semantic_version-2.10.0-3.2.noarch.rpm"
+RPM_HASH = "1c24813392055fe7d37a518321fc6f7d847c8238b77ea691d348d4d2d7db2b4d06e895cc043d594d91e2b8aa88f8800ebbf0ac69342599d0632b82ee49b800f6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-semantic-version \

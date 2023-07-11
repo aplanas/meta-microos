@@ -11,8 +11,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
 PV = "0.5.15"
 
-RPM_NAME = "munge-0.5.15-2.4.aarch64.rpm"
-RPM_HASH = "4e1c7cbfab3af782ecb02f8d19d651947d40b5e7de00d78aa372916b68ed3e94609d52a5bc56df9dbaf4a0126ebadf15929e30b66a719ed6f457e01fe33dcca4"
+RPM_NAME = "munge-0.5.15-2.5.aarch64.rpm"
+RPM_HASH = "9f7bdcb185823c75862a0de9b3ed62d8deb150dcd40f430696a6226fc2a6fdeb32ba56c97815b8014e392a31dab06e617afc43d64fa5ea48420493d2d34b61bf"
 
 RPROVIDES:${PN} += "config-munge \
 group-munge \
