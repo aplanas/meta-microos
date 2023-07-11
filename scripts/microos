@@ -263,10 +263,19 @@ def release_version(packages, release_pkg):
             return pkg.pv
 
 
+def distro_version(pool, release_pkg):
+    recipe_release_pkg = pool / release_pkg / (release_pkg.lower() + ".bb")
+    if recipe_release_pkg.exists():
+        with recipe_release_pkg.open() as f:
+            for line in f:
+                if line.startswith("PV = "):
+                    return line.split('"')[1]
+
+
 def update_distro_version(version):
     with fileinput.input("./conf/distro/microos.conf", inplace=True) as f:
         for line in f:
-            if line.startswith("DISTRO_VERSION"):
+            if line.startswith("DISTRO_VERSION = "):
                 print(f'DISTRO_VERSION = "{version}"')
             else:
                 print(line, end="")
@@ -309,7 +318,7 @@ if __name__ == "__main__":
         "-u",
         "--update-group",
         action="store_true",
-        help="Use 'osc' to update the MicroOS group",
+        help="Use 'osc' to update the MicroOS group if there is a new release",
     )
     parser.add_argument(
         "-k",
@@ -320,19 +329,25 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    if args.update_group:
-        update_group(args.group)
+    old_version = distro_version(args.pool, args.release_pkg)
 
     packages = generate_package_list(REPO[args.arch])
     update_pool(args.pool, packages)
     prune_pool(args.pool, packages)
 
+    new_version = release_version(packages, args.release_pkg)
+    if new_version:
+        update_distro_version(new_version)
+    else:
+        print("Release version not found")
+
+    if args.update_group:
+        if old_version != new_version:
+            print("New version released. Updating the group file ...")
+            update_group(args.group)
+        else:
+            print("No new version released. The group file will not be updated")
+
     group_packages = generate_group_package_list(args.group)
     unlink_recipes(args.recipes)
     link_recipes(args.recipes, group_packages, args.pool)
-
-    version = release_version(packages, args.release_pkg)
-    if version:
-        update_distro_version(version)
-    else:
-        print("Release version not found")
