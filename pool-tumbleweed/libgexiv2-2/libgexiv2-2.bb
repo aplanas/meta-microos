@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.14.1"
 
-RPM_NAME = "libgexiv2-2-0.14.1-1.1.aarch64.rpm"
-RPM_HASH = "258ef88d1dc586eae801bdc273cd01fa0c7658e56b45164dc69b3de027001eb60d45f2c4dc9e6f82190de2e187ec000671ff6f519706ab06e46a3640296dbc99"
+RPM_NAME = "libgexiv2-2-0.14.1-2.1.aarch64.rpm"
+RPM_HASH = "c97a51e85ebbaed866b12a0df4876db6e6daa96749ccf96c3cbe54e204a904423f2670d497534fa13ff01bd7b128303a7f470813c4bec8e05376f6890200ddf4"
 
 RPROVIDES:${PN} += "libgexiv2-2 \
 libgexiv2.so.2"
@@ -14,7 +14,7 @@ libgexiv2.so.2"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libexiv2.so.27 \
+libexiv2.so.28 \
 libgcc-s.so.1 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \

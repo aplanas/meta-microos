@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.8.7"
 
-RPM_NAME = "ocfs2-tools-devel-static-1.8.7-7.3.aarch64.rpm"
-RPM_HASH = "c78edfac2e5d22dbc75c1e020b54725d523012c155528672d586bf47e3a53a8449550c02a73f85a7e335204c4b78297978ac2150fbb4402b182a71c442d98641"
+RPM_NAME = "ocfs2-tools-devel-static-1.8.7-7.5.aarch64.rpm"
+RPM_HASH = "c69b88d3613aefa2522a749090b218da374d2fdbfa280684f060c386a1869f94eedd86ea26f44d5fce7fca71c3198f516e2690aae7313a63702d92f9f96cc7a7"
 
 RPROVIDES:${PN} += "ocfs2-tools-devel-static"
 

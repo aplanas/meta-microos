@@ -4,15 +4,15 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.18.0"
 
-RPM_NAME = "ghc-memory-prof-0.18.0-2.3.aarch64.rpm"
-RPM_HASH = "a1f255a30fc6c81e420f663677ff479151d6659692668b4acb64d4c2b10c4295c16a45873b23bd9516c43b180a2e88490507bf2d12f109a71a1e4c1001856e93"
+RPM_NAME = "ghc-memory-prof-0.18.0-2.7.aarch64.rpm"
+RPM_HASH = "3ae98a317cadd20cb353d8aa4bce9f63530aebd77bc6a26465ab4696c63e68b369af118881530f8c285ad45c33c7aa713b65383e67910d1db6f8a388508c47cf"
 
 RPROVIDES:${PN} += "ghc-memory-prof \
-ghc-prof-memory-0.18.0-2DG6nqjfLMK4MSR77XYQqL"
+ghc-prof-memory-0.18.0-8CsggfkyXReDSMbRoae4Yp"
 
 RDEPENDS:${PN} += "ghc-memory-devel \
 ghc-prof-base-4.17.1.0 \
-ghc-prof-basement-0.0.15-6OmKTVi2kFpCWMoKDlsO4S \
+ghc-prof-basement-0.0.16-J8UFRjmsTYU7wBgfpjdWQn \
 ghc-prof-bytestring-0.11.4.0 \
 ghc-prof-deepseq-1.4.8.0 \
 ghc-prof-ghc-prim-0.9.0"

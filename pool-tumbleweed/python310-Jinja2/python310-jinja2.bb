@@ -6,12 +6,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.1.2"
 
-RPM_NAME = "python310-Jinja2-3.1.2-3.1.aarch64.rpm"
-RPM_HASH = "f72faffaf8a1ac32bf08d5420d1f0bee6256b62a78a523aaafee4f8ea0584d7a20083e6b987a678eda5cc12e253f1c3cf6ad725a2e3c462aa1969945b238e7ac"
+RPM_NAME = "python310-Jinja2-3.1.2-3.3.aarch64.rpm"
+RPM_HASH = "5f577110daa72d7b8dcb43688091585138bddd4ac9000f838948884e2509b3534f4bf478f5d4db67043a8595911013f243f1308ddc93349a82dc12528ee8c19c"
 
-RPROVIDES:${PN} += "python3-Jinja2 \
-python3-jinja2 \
-python3.10dist-jinja2 \
+RPROVIDES:${PN} += "python3.10dist-jinja2 \
 python310-Jinja2 \
 python310-jinja2 \
 python3dist-jinja2"

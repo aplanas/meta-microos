@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.9.1.2"
 
-RPM_NAME = "ghc-blaze-html-doc-0.9.1.2-8.3.noarch.rpm"
-RPM_HASH = "899f924e5c6af553377c438c70d6937214597814f3cdd61c3be336f0438f45d7fee5568d938c49c7f29122d4cc5cb752dfe0528acf7273527104ca761ffee7fe"
+RPM_NAME = "ghc-blaze-html-doc-0.9.1.2-8.6.noarch.rpm"
+RPM_HASH = "383d7040e077d5cd726396a678da43fe81c1d8d21db3d348117536d7096a73021deae4fb644726b2a41967c293b9e350980ad975a8c715c14ddfff8e23b3db60"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-blaze-html-doc"

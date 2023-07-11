@@ -15,10 +15,10 @@ by some Linux kernels. It is possible to have data file content compressed to \
 gzip format or to have it filtered by an external process."
 LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
-PV = "1.5.4"
+PV = "1.5.6"
 
-RPM_NAME = "libisofs6-1.5.4-2.11.aarch64.rpm"
-RPM_HASH = "0b3fc8174f0f0a1f7fb586965d086cfb6de1208e3bf4e57c6369a9668468581d76b13e0460e8c1b297f69e8d984d6f908b9caf55e7a06970ed3c6cb35fa87b09"
+RPM_NAME = "libisofs6-1.5.6-1.1.aarch64.rpm"
+RPM_HASH = "0788118192e8beccaf2bd54a8d11bfe71008d157118cf869924bfae3d5678587c5911c8de7b581e6df94f80b927feef27f9d2a910bad1947c2efc0231d455e11"
 
 RPROVIDES:${PN} += "libisofs.so.6 \
 libisofs6"

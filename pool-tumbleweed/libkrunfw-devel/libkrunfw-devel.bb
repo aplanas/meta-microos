@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
 PV = "3.8.1"
 
-RPM_NAME = "libkrunfw-devel-3.8.1-1.4.aarch64.rpm"
-RPM_HASH = "242c53d495ebcc46fbc53d61e839ac324127cf3c3aa28e75f7b44430910ac8df433b4be3f9d7903b3a334b33786b44958dab49ad1c29750e60dc943819c2d0a3"
+RPM_NAME = "libkrunfw-devel-3.8.1-1.6.aarch64.rpm"
+RPM_HASH = "7cdb9df54b9c7e9f0bc54057587b6b653fadc664236cf44c283539fe36614a9db4a6bd39b7ebe2f4c3babc7bacc9ba3bf2d16f3efcef529b0b9ce7f52473c458"
 
 RPROVIDES:${PN} += "libkrunfw-devel"
 

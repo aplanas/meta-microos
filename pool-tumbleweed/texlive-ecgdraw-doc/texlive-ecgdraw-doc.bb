@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.1svn41617"
 
-RPM_NAME = "texlive-ecgdraw-doc-2023.201.0.0.1svn41617-53.1.noarch.rpm"
-RPM_HASH = "cb6c1994675149016809060583024662dac2da9ba9f10e6c75ae3938b1a2eef3491fdc3505ef5ba0a51d9670f3bb677846361e93397001b3bcc3fa664c88227a"
+RPM_NAME = "texlive-ecgdraw-doc-2023.201.0.0.1svn41617-53.2.noarch.rpm"
+RPM_HASH = "bd493ecbab5992aecff6c40228cfb2851aba4f31e76652e9cd3eb66ad6d7619652613a5778e215ddf0a2a2bf6fdc845229c6fd4ab8d9847d13c5ebf18f0deb35"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-ecgdraw-doc-it \

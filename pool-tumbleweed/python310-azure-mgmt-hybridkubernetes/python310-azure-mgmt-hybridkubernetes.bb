@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "python310-azure-mgmt-hybridkubernetes-1.1.0-1.8.noarch.rpm"
-RPM_HASH = "c79797480ed0c924b8636fe8c12a3fb09f60d275f9763461d356d8c24732e5dea70f8861a2e2bb4c8dccfdd6a49d665f1ef2f59d099d11f5e44e51f525792fca"
+RPM_NAME = "python310-azure-mgmt-hybridkubernetes-1.1.0-1.9.noarch.rpm"
+RPM_HASH = "545fc6d3533c9fccfacaaea3f7ecaacf74b8111373b0e0ecea724cf536e7c8095fc0fc11efc94d1665ed85d66c2e118ddfab7552a1cc81572f7b9e4a10c74b67"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-hybridkubernetes \
-python3.10dist-azure-mgmt-hybridkubernetes \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-hybridkubernetes \
 python310-azure-mgmt-hybridkubernetes \
 python3dist-azure-mgmt-hybridkubernetes"
 

@@ -7,12 +7,11 @@ LICENSE = "Apache-2.0"
 
 PV = "0.9.6.1"
 
-RPM_NAME = "python310-vobject-0.9.6.1-2.19.noarch.rpm"
-RPM_HASH = "164db75500f6aa04825642db7a2d305062eaf16fefd7fb2f8c6c9a1ddae6537054c2f567ae699cdc5f59d845af5170a79c7928f4bcdf562c2239800ef6ef2254"
+RPM_NAME = "python310-vobject-0.9.6.1-3.1.noarch.rpm"
+RPM_HASH = "7223b11e26ffbb8c6c699e2caebb7119c42e443648720c5808aa6b234b9a339f40a977ecc1487f9b4ef9a464aa1ba89c649bb134bb0f8ce09b2192e3e43b7c85"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-vobject \
-python3.10dist-vobject \
+RPROVIDES:${PN} += "python3.10dist-vobject \
 python310-vobject \
 python3dist-vobject \
 vobject"

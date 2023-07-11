@@ -14,8 +14,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.6.1"
 
-RPM_NAME = "kubeconform-0.6.1-1.2.aarch64.rpm"
-RPM_HASH = "2cde1b7be4ebb3cf9ced6bc9ad3ed8ffc9233c74da927a690f9e504cec22586a2a533b92fd45263b2172eb8235b1f8d046395058497d5778f5e316ec3ee7400d"
+RPM_NAME = "kubeconform-0.6.1-1.3.aarch64.rpm"
+RPM_HASH = "d89706d97e8d3a0d49f508d56a5d665c357a0328008a88bae21e4a7b2a373b3ff7c25deadb855c667ffab50a889c78cf7b67e3681c6ead7e30a2cb55829dd0f1"
 
 RPROVIDES:${PN} += "kubeconform"
 

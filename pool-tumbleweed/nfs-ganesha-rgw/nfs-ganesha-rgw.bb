@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
 PV = "3.3+git0.39e0cf712"
 
-RPM_NAME = "nfs-ganesha-rgw-3.3+git0.39e0cf712-5.8.aarch64.rpm"
-RPM_HASH = "c721e6d8744adf0ae769a4f0b3bc4bba3fc981ec1d251c6a15ffb3477010c62ca61a43ab927dab0942faa6025c7d6bc8a0cc78e5273998e480bb5fb23c112b43"
+RPM_NAME = "nfs-ganesha-rgw-3.3+git0.39e0cf712-5.9.aarch64.rpm"
+RPM_HASH = "2dd2997aa1c1526e81b598030113dbcb47206b052b6563e33853373d6844d74f5862e9c52d80b3359c37e1b1062db5d2b68d8175ee96f3faae71d8538a96d82c"
 
 RPROVIDES:${PN} += "config-nfs-ganesha-rgw \
 libfsalrgw.so \

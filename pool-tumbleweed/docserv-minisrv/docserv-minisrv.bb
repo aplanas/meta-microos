@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "20230308.4ed55cf"
 
-RPM_NAME = "docserv-minisrv-20230308.4ed55cf-1.4.aarch64.rpm"
-RPM_HASH = "3aa5fdd4667610f036d9a83b79d3e8beebc873643f438d180428791eb0bcea5a5c0feeea4bc5bd2459957587b6bd0e3ee7bd786c2d67e73557d7255cfdf65457"
+RPM_NAME = "docserv-minisrv-20230308.4ed55cf-1.5.aarch64.rpm"
+RPM_HASH = "20bd026ec944640f7a901448bbf59e7c6553980ec2866ec3b3cce250ad1e20cece77a9fd3bd70118210a539a5624863e1b86e8d61496798e5d99619e53c7e861"
 
 RPROVIDES:${PN} += "docserv-minisrv \
 group-docserv-srv \

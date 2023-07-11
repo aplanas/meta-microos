@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.1.1"
 
-RPM_NAME = "cookiecutter-doc-2.1.1-2.1.noarch.rpm"
-RPM_HASH = "edef739d98cc8f8bccbffd0e72eb33b8a6a42dc25fb392bc1c51b5be331ea61fc794e85c5e6d1e00d2a6c49e2404263e38a4a6684158046d8e884d919eb10298"
+RPM_NAME = "cookiecutter-doc-2.1.1-2.2.noarch.rpm"
+RPM_HASH = "b9dbde9adab4467d33592d870afa867acfffeecfb467f32f04a00cdefa598a9657dd5571939e121117d97157f68aa3ebeb618671bcb3aae07ed348efde3a395d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cookiecutter-doc"

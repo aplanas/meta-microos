@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & MIT"
 
 PV = "8.7.0"
 
-RPM_NAME = "fd-fish-completion-8.7.0-1.3.noarch.rpm"
-RPM_HASH = "79e001dc5bfe4a4cdc40dfe6d802893e905a38953c6820db44a15ccad1924ed9e2a212b8737410dc74b3b27344563259b8b77af8fa6cfcca4f8fe70f25714d15"
+RPM_NAME = "fd-fish-completion-8.7.0-1.4.noarch.rpm"
+RPM_HASH = "5350ccce6f4a554070984b0306ed3811370d7ec99aba3ee86aafcf24de1709cd69bca00ae218e6b8f2232d46ddb3855f66730963c41c5c74771968e456e85423"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fd-fish-completion"

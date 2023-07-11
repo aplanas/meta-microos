@@ -4,15 +4,15 @@ LICENSE = "MIT"
 
 PV = "2.0.30"
 
-RPM_NAME = "ghc-shakespeare-devel-2.0.30-2.3.aarch64.rpm"
-RPM_HASH = "3cd14c4e58a301a963af5a18cb2f1e2fa2a5ef77fb1344727e948c1a36f2fc4cbc0d3a172faab19a8bb98f57c8015e23c05f202be2438d4b9d87e092ca199be3"
+RPM_NAME = "ghc-shakespeare-devel-2.0.30-2.6.aarch64.rpm"
+RPM_HASH = "ef8909de82ab48a9048e02a6438bc354521eac3fbf0f7d13151a11ebf3b5d600e8be1fb822ef6c33754a47b2b86705ffc61109d05c7839f1ab0f35f655035623"
 
-RPROVIDES:${PN} += "ghc-devel-shakespeare-2.0.30-7fp9544x1BC4UOjjHLrTv0 \
+RPROVIDES:${PN} += "ghc-devel-shakespeare-2.0.30-LXYSf7m1ZbEJtMw9DSE6kj \
 ghc-shakespeare-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP \
+ghc-devel-aeson-2.1.2.1-HkN6OtqTngQ9De3CKBnfov \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-blaze-html-0.9.1.2-38lyFDueaN76YOL6QIMVAR \
 ghc-devel-blaze-markup-0.8.2.8-1rqnOPcdOmIw0iYwB3Kqc \

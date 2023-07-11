@@ -10,8 +10,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.0.0"
 
-RPM_NAME = "screencast-1.0.0-2.10.aarch64.rpm"
-RPM_HASH = "43baf02cbc0c05bd88c8510d2d3d351b515bebf99dea9956b0c9aafac05863231c14d800f75bdd283d1b5ed6fbd3f9491c921afb5e7e0055235b4c74b636f917"
+RPM_NAME = "screencast-1.0.0-2.11.aarch64.rpm"
+RPM_HASH = "2a66b101e4a1b82bcfdb02990914cc94a15797cda21b3e828530a6b535728035ee7d6cb051178518bf2972b84ccbe92a9c102f6d4b38ba8e6d7004c58dd4efd7"
 
 RPROVIDES:${PN} += "eidete \
 screencast"

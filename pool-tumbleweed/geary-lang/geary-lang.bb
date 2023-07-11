@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause & CC-BY-3.0 & LGPL-2.1-or-later"
 
 PV = "43.0"
 
-RPM_NAME = "geary-lang-43.0-3.2.noarch.rpm"
-RPM_HASH = "27e76f5024c9ac2d51da08e27e8022e66507237afe7a7f8392219f7c5457525bbacd525dafab2ba49f33a0336146ee56ac26a6c763356d00d4f3ed7273262749"
+RPM_NAME = "geary-lang-43.0-3.3.noarch.rpm"
+RPM_HASH = "9c2938758251ed839c80fd167ed8f87f9c60400b463d6b2978e9ba5e153fb4f0bf6e2a28a0224cc6f5e4014a5cba7ad655319d29605319b8597a4b37756c0c48"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "geary-lang \

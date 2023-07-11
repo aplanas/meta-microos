@@ -11,8 +11,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.08"
 
-RPM_NAME = "perl-CLI-Osprey-0.08-1.9.noarch.rpm"
-RPM_HASH = "179b64a08c5f5e8abee95a13f84ccdaa3b277f2c99d6c58a19083c6627361e4c74ba9541b2b31a2c8d0808b6b13d80f47e22e88c7bab8686fa876e13bdc7213e"
+RPM_NAME = "perl-CLI-Osprey-0.08-1.10.noarch.rpm"
+RPM_HASH = "b5d5792a7b7b6350c9e1274e3120c40e3c760f35bf306250ccdd05a27aceb464beee1182673ad8f8d0c732a292f3617a97f25c1cfd4f2ee712ecdcee48d747ba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-CLI--Osprey \
@@ -22,7 +22,7 @@ perl-CLI--Osprey--InlineSubcommand \
 perl-CLI--Osprey--Role \
 perl-CLI-Osprey"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Getopt--Long--Descriptive \
 perl-Module--Runtime \
 perl-Moo \

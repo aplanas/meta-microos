@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "3.6"
 
-RPM_NAME = "bitlbee-3.6-4.4.aarch64.rpm"
-RPM_HASH = "684d869039b41a67587d90a288ba1f26dd9ed9035763778087a54fd9c066bd4debd86c20b326956d1bcefa8f4b625fc0553b37cd8798595ee9b9e98740b89278"
+RPM_NAME = "bitlbee-3.6-4.5.aarch64.rpm"
+RPM_HASH = "4065dd04ae336eb2f3bcece99bf2708b2f5ab46d6b5822bed0d32cb1feedd1df57a872b94dc9fe3e225de556c4bec0add25d7df97c983f3ff5094b9b4a21df7e"
 
 RPROVIDES:${PN} += "bitlbee \
 config-bitlbee"

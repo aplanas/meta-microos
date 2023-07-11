@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
 PV = "3.3+git0.39e0cf712"
 
-RPM_NAME = "nfs-ganesha-proxy-3.3+git0.39e0cf712-5.8.aarch64.rpm"
-RPM_HASH = "685d09cb32980dad239f9d4f5086e40acba3a12eb3e530076ea5af47ca6c2a36d198513a532889c9fcc1859362463941a71c80bbc75f02fd391271a28e9321e0"
+RPM_NAME = "nfs-ganesha-proxy-3.3+git0.39e0cf712-5.9.aarch64.rpm"
+RPM_HASH = "ad0e946ef048ca4f5930deaf3f2f31142754df2284123b07249924916b4040a2957f311a1314536302a560d192c086d49205418458e6ed16d8da161bfee5322c"
 
 RPROVIDES:${PN} += "libfsalproxy.so \
 nfs-ganesha-proxy"

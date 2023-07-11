@@ -7,11 +7,12 @@ LICENSE = "MIT"
 
 PV = "0.6.2"
 
-RPM_NAME = "python311-docopt-0.6.2-7.17.noarch.rpm"
-RPM_HASH = "8a75d951afe876403b9f39d4dade47ef3ab390d17aa770faf514d968d088dbc36d570cc6f2e3b26c3612d08aa68c117b46b31579eca326cab90f1f69c1a8c461"
+RPM_NAME = "python311-docopt-0.6.2-8.1.noarch.rpm"
+RPM_HASH = "edcf59f85990f84937bd09f41e49013d14295eea813e0aeb1215fe047491913bbbbf440b36791e5146644b220766533db1af76587cbab9b53b88a3067457aab1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-docopt \
+RPROVIDES:${PN} += "python3-docopt \
+python3.11dist-docopt \
 python311-docopt \
 python3dist-docopt"
 

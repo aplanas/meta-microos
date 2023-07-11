@@ -3,10 +3,10 @@ DESCRIPTION = "A convergent weather application for Plasma. Has flat and dynamic
 views for showing forecasts and other information."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kweather-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "b6a82e129cf9d3b8c640cc4b6289f091793785f42e444ab887c3aeefa63ab0e23a81761bdfdd69b7f54266a3e48c2352c3859cb65711d0352fe96bf8b78c6686"
+RPM_NAME = "kweather-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "08a440ce3a98fc738279c06d8ff4e299fc72d97645398ffb5c525c901211035fcc7a223186f2825891f5e6c3192fa49ba33125e6adf54bb587036e7e90621d53"
 
 RPROVIDES:${PN} += "kweather"
 
@@ -28,6 +28,7 @@ libQt5QuickControls2.so.5 \
 libQt5Widgets.so.5 \
 libc.so.6 \
 libstdc++.so.6 \
+qt5qmlimport-QtCharts.2 \
 qt5qmlimport-QtQuick.2 \
 qt5qmlimport-QtQuick.Controls.2 \
 qt5qmlimport-QtQuick.Layouts.1 \

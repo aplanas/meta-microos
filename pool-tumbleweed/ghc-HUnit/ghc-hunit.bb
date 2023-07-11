@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.6.2.0"
 
-RPM_NAME = "ghc-HUnit-1.6.2.0-2.3.aarch64.rpm"
-RPM_HASH = "c818edd247835c02cc944dd36d5ad47162c2785aa06e70f05a2fabe835b756803fc0cd5b6062115055f87b97adc9f562fc109bfbb1e7886af86a730a017cb8ea"
+RPM_NAME = "ghc-HUnit-1.6.2.0-2.6.aarch64.rpm"
+RPM_HASH = "58f9a308fc516fbc786c2ea99d1799359bcb1e01057094c1c67325f973574f9e620555c506395e6d6e96e4bc294ce182d40aa3953021eff5e67208ef3aca87ee"
 
 RPROVIDES:${PN} += "ghc-HUnit \
 libHSHUnit-1.6.2.0-iqxwhcxJRu7EJOd1Mnwmb-ghc9.4.5.so"

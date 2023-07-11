@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "2.4.0"
 
-RPM_NAME = "python311-azure-mgmt-iothub-2.4.0-1.1.noarch.rpm"
-RPM_HASH = "bc3a0b0aac71f3426f1ddb150c5183912ddfe8fc78f6091f0e0f0ab407b652db839d8b068a27448a65b884b4334eaf28951c558ba9d66b09312b6f107e3db364"
+RPM_NAME = "python311-azure-mgmt-iothub-2.4.0-1.2.noarch.rpm"
+RPM_HASH = "cfc4920c56ed7470d7485a0eacbcbe217ec56e8d821aa16678503a34a54ddf797d469476e72a77f8ebe11f7699884f47242dfabc7a2202432949cdc6fe2ab77a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-iothub \
+RPROVIDES:${PN} += "python3-azure-mgmt-iothub \
+python3.11dist-azure-mgmt-iothub \
 python311-azure-mgmt-iothub \
 python3dist-azure-mgmt-iothub"
 

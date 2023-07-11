@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.1.0"
 
-RPM_NAME = "kdesvn-2.1.0-1.21.aarch64.rpm"
-RPM_HASH = "f4eadf462f4a64620c23501735379da338616e40bfc40e3a23b43f05bf1bf673e1e490f1c7ac7bb02d7b5de0e312651eb1b25dcd84bfd6397b3abb9e0257df93"
+RPM_NAME = "kdesvn-2.1.0-1.22.aarch64.rpm"
+RPM_HASH = "83c50c91670604e719fe33397e6f77fc0f834b55222e99dc15182c5ee948fbcfcae46ae924c5a79dea2a29941cf93c8fa2cddc4a61e3ca24c19c9068c91176d2"
 
 RPROVIDES:${PN} += "kde4-kdesvn \
 kdesvn"

@@ -4,11 +4,12 @@ LICENSE = "Apache-2.0"
 
 PV = "0.16.0"
 
-RPM_NAME = "python311-gear-0.16.0-1.4.noarch.rpm"
-RPM_HASH = "25269a7471a4b533a00e4490c584018615625c29f7a9ff63323a2f0ef9d5642a5fbd13eeacbbbe34359b0e88a6fea3ca62c4a8cb04f22a3ac35f67389f6e95be"
+RPM_NAME = "python311-gear-0.16.0-1.6.noarch.rpm"
+RPM_HASH = "e064560cd12f7aaf6cc2ed341acbac7e05ac1e876ab4b1ec5c8d5d9476d2b4a9de7c2327189361a83fcb44220dc4681e4263ef5d3b9b674dc3467927f044151d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-gear \
+RPROVIDES:${PN} += "python3-gear \
+python3.11dist-gear \
 python311-gear \
 python3dist-gear"
 

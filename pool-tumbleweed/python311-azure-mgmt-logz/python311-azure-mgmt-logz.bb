@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "1.0.0.0"
 
-RPM_NAME = "python311-azure-mgmt-logz-1.0.0.0-1.8.noarch.rpm"
-RPM_HASH = "28df5007152b98a94fcff6fe59100b6b7c0f6d5873e72f7adedf0e0762109a29820a9bcb850c9344486c8e70a16985d6f737762793cc76f4c2a2603e65f071ed"
+RPM_NAME = "python311-azure-mgmt-logz-1.0.0.0-1.9.noarch.rpm"
+RPM_HASH = "bb3874ce414a4a98e8fb967cfda93dd915c415513756418b732e06cbd88399dcda22a7e6c8ff7b89cb75b63b66b944fbb4ff77a328f16e6917d37f34e07eae0a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-logz \
+RPROVIDES:${PN} += "python3-azure-mgmt-logz \
+python3.11dist-azure-mgmt-logz \
 python311-azure-mgmt-logz \
 python3dist-azure-mgmt-logz"
 

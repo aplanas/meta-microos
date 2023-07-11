@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0b2"
 
-RPM_NAME = "python310-azure-mgmt-guestconfig-1.0.0b2-1.3.noarch.rpm"
-RPM_HASH = "589e13c02f17cd0fcb4f483e381d10e4d9282e9eee3e1df28e7cf7635683c1791bd1ae32795a0c562dedf57c57cbf2cd00b0ab08c8af759a5a757489af3bffed"
+RPM_NAME = "python310-azure-mgmt-guestconfig-1.0.0b2-1.4.noarch.rpm"
+RPM_HASH = "77bf5de8009cd280e2ff3c0b036ec27ba10ddada73c5e4f3eaba035fc7b7b566f2254896659693c0e74e9205cea8e3edb7592d5b90502ca88222b9315bc37d74"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-guestconfig \
-python3.10dist-azure-mgmt-guestconfig \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-guestconfig \
 python310-azure-mgmt-guestconfig \
 python3dist-azure-mgmt-guestconfig"
 

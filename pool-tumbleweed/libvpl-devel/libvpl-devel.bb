@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "2023.2.0"
 
-RPM_NAME = "libvpl-devel-2023.2.0-1.1.aarch64.rpm"
-RPM_HASH = "78b62ed4dfd537dcb6630e67ccd3ebef32bbe9edb152c27be45028564bc146aade218cf59c503d7f1b466fad42759107e6bf042892c3dddf20937ca6e0b5f6e7"
+RPM_NAME = "libvpl-devel-2023.2.0-1.2.aarch64.rpm"
+RPM_HASH = "86ec7855e8443d3d50c3eb87a762ffdbc5721178cd4c79822497137da3ceda1fc72489ab003cff70a0f31fed764b7ba0f14f4640f7b54adad3570e29cf73b302"
 
 RPROVIDES:${PN} += "cmake-VPL \
 libvpl-devel \

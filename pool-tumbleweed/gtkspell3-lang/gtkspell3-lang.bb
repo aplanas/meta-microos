@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.0.10"
 
-RPM_NAME = "gtkspell3-lang-3.0.10-3.8.noarch.rpm"
-RPM_HASH = "04e05fa8b6d5f3901b73e2e692871ac768a9875a41505312a537fa48f69825d8bd1eeb4958d5efbca6e41298554f4b4f3e91c031df923b9b63f103b7f1d37866"
+RPM_NAME = "gtkspell3-lang-3.0.10-3.9.noarch.rpm"
+RPM_HASH = "7b79679a5bb48c53b84c878490ecdcb0e1325099f59ae06a9d29fe2328f84243872c169fafdb96b9ab562b3fa1ff2a2f4e434ccf973152db8528c492be8d2d6e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtkspell3-lang \

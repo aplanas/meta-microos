@@ -6,12 +6,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.0"
 
-RPM_NAME = "python310-h5netcdf-1.1.0-1.3.noarch.rpm"
-RPM_HASH = "5bd30978f8818c47d54e1227b52c8c210ea49f02bc7e58a54c1c931cc33f3ecf8e123b6d20005d8902360f162892e0d91a691fd68f452bfd907ba2ed343c7dc4"
+RPM_NAME = "python310-h5netcdf-1.1.0-1.5.noarch.rpm"
+RPM_HASH = "f6de36398d5ea46ab3c94a1f70b08e9ef5fb8c13e446fa9005d2275bfd11d14037e1036dc4f80670ef9ed5973978427927f746395f66a3f8c046b5de69ca3a04"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-h5netcdf \
-python3.10dist-h5netcdf \
+RPROVIDES:${PN} += "python3.10dist-h5netcdf \
 python310-h5netcdf \
 python3dist-h5netcdf"
 

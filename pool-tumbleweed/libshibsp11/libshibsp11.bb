@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.4.1"
 
-RPM_NAME = "libshibsp11-3.4.1-1.4.aarch64.rpm"
-RPM_HASH = "c209ef2b4e4af98eca6cc1c4c0e3df7fc6c472362ff090b2c99bfb8ec8d48b77bf44ac108076e2ef19f273c65270db949e2d93d02211d0baf403e36552ba1c27"
+RPM_NAME = "libshibsp11-3.4.1-1.5.aarch64.rpm"
+RPM_HASH = "48a82743327a3327d5c62489c17df51a6f536b27dd50ab856e803524fde83ef88e43906c17ee5cc9b226ca62ef7baf3accc351be158359c17325e8e26ca7f2c7"
 
 RPROVIDES:${PN} += "libshibsp.so.11 \
 libshibsp11"

@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.17.0"
 
-RPM_NAME = "libthriftnb-0_17_0-0.17.0-1.6.aarch64.rpm"
-RPM_HASH = "a37b8184a1616d2751952b02459d545e1e39cd5e0a25dba207f0621945536a4abf0b2b362bb7d004a6125733fa37bb2f4bfbb31bdff8e3d9f43e582296e23889"
+RPM_NAME = "libthriftnb-0_17_0-0.17.0-1.9.aarch64.rpm"
+RPM_HASH = "a0044a40de9129926bce2b521efc64cfc50c7fee08625b286fc35eb0a0a66d81d39adfa47c32434d8331313eabe305c3c64311587404b6e4b02de02b0bb29d27"
 
 RPROVIDES:${PN} += "libthriftnb-0-17-0 \
 libthriftnb-0.17.0.so"

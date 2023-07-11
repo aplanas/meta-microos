@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.5.0"
 
-RPM_NAME = "python39-dirty-equals-0.5.0-1.3.noarch.rpm"
-RPM_HASH = "e1f18b28f7c1fd6a2ade8b6497756c8f48ec2ae48510beb514e917154d4206f710641a6b4ffca3a3a12055b3b67788ecfd7c61adc0c1198068c081fd09b51cab"
+RPM_NAME = "python39-dirty-equals-0.5.0-1.5.noarch.rpm"
+RPM_HASH = "52f33ab3568d7f55e38ace8edd22f1346630ca5fa9b3898595e31ee8b2de5949022ec7bf3ad93f64eb25fb97aa7a56158a6a5bd5f9a741d8aeb6c3007b289aed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-dirty-equals \

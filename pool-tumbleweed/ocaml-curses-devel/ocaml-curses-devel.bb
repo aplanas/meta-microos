@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "1.0.11"
 
-RPM_NAME = "ocaml-curses-devel-1.0.11-1.3.aarch64.rpm"
-RPM_HASH = "b299bb5a051b6ff0f0792e95a41891edb365ff0e005b833a09ef24b47bb9900bbb2c180d51f7c645eac143c9f0a0b0155b3314256e535e2852d91fa7a02a56e1"
+RPM_NAME = "ocaml-curses-devel-1.0.11-1.4.aarch64.rpm"
+RPM_HASH = "e3332dc244c3a06a00fa65573789c6e20d0333c190dc7d145093447398b5cf933dad49d9bcbb7d7724612fde7b974942850152fcb2140c032312f9b7ecce0af9"
 
 RPROVIDES:${PN} += "ocaml-Curses \
 ocaml-curses-devel \

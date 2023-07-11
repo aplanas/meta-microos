@@ -12,8 +12,8 @@ LICENSE = "AGPL-3.0-or-later & GPL-3.0-or-later"
 
 PV = "7.0.5"
 
-RPM_NAME = "kicad-7.0.5-1.1.aarch64.rpm"
-RPM_HASH = "eab54956fad873d26df37aa9d593449d7217f797550059913d194397895256908af14d9ec4e77152922ae02c6457781204f5428f61b2f8d6448504390363594d"
+RPM_NAME = "kicad-7.0.5-1.2.aarch64.rpm"
+RPM_HASH = "6197417d60843b81d2aa569f910558a2686435f990c18ac57b6688c4dc4d6a57c288658bea71744a1c9b23adfd60d8811329f6059e61277799665ac0765ea4f0"
 
 RPROVIDES:${PN} += "kicad \
 libkicad-3dsg.so.2.0.0 \
@@ -59,7 +59,7 @@ libm.so.6 \
 libngspice0 \
 libodbc.so.2 \
 libpixman-1.so.0 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libstdc++.so.6 \
 libwx-baseu-net-suse.so.9.0.0 \
 libwx-baseu-suse.so.9.0.0 \

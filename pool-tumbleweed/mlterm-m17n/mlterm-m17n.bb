@@ -2,10 +2,10 @@ SUMMARY = "A m17n plugin for mlterm"
 DESCRIPTION = "A plugin to use the m17n input methods directly from mlterm."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.9.2"
+PV = "3.9.3"
 
-RPM_NAME = "mlterm-m17n-3.9.2-3.3.aarch64.rpm"
-RPM_HASH = "aaa968f22f21b7fc440711362fa77d7afb36b102a115431c6a4cf239b6466f7a13e64c540137d453ff5a30c002bc8d3df227f25f9667405dcc8fe4455a207d0d"
+RPM_NAME = "mlterm-m17n-3.9.3-1.1.aarch64.rpm"
+RPM_HASH = "37dd58c191e44a189ae3002e221da43fbe0583a1404e5b5b54021997ac65a20f1e3d877d0b82186debb89c1f760dae437501d1419a36982180bb8d4bdb082e1f"
 
 RPROVIDES:${PN} += "libim-m17nlib-sdl2.so \
 libim-m17nlib-wl.so \

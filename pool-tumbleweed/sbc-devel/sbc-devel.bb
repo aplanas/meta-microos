@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.5"
 
-RPM_NAME = "sbc-devel-1.5-2.11.aarch64.rpm"
-RPM_HASH = "9a2453db5a658a4c55b38a9b6e4f9089ad890c690f4512a28110bc54aaa405e4cf386e910e0de78440bd2e356c0a35c78935480b9d8345317fad400fbd103283"
+RPM_NAME = "sbc-devel-1.5-2.12.aarch64.rpm"
+RPM_HASH = "43a6bd92c7b1999d2d1ac1a4b278281ec7841b332f1ea3829915db9dd01cf3ec55ca7c6abe6e249cecb22df15c0a2c525b0f30a24c74cea633aa67b3a0cb8b65"
 
 RPROVIDES:${PN} += "pkgconfig-sbc \
 sbc-devel"

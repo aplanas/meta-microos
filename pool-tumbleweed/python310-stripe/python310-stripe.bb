@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "2.63.0"
 
-RPM_NAME = "python310-stripe-2.63.0-1.8.noarch.rpm"
-RPM_HASH = "4cd56172c7ede7717899682933c7870197ee0b2f3029be58d0592cecc93a577116c34356854cd6b204ae8f7267d9fff5523d24b0488534e4bf9546ed1351e6fe"
+RPM_NAME = "python310-stripe-2.63.0-1.10.noarch.rpm"
+RPM_HASH = "1027d184bb7abcf8ef7a375274ec2a57edaebaf17b8df48a908af4641bc0d83c8d3633b6a25ac42bec2648c0eea9ca718c48d31ba5b6dee04964006d08abaf46"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-stripe \
-python3.10dist-stripe \
+RPROVIDES:${PN} += "python3.10dist-stripe \
 python310-stripe \
 python3dist-stripe"
 

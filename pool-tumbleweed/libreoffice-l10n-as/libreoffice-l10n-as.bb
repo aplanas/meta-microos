@@ -2,10 +2,10 @@ SUMMARY = "Assamese localization files for LibreOffice"
 DESCRIPTION = "Provides Assamese translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.1"
+PV = "7.5.4.2"
 
-RPM_NAME = "libreoffice-l10n-as-7.5.4.1-1.1.noarch.rpm"
-RPM_HASH = "b89dc5eb9893864bde0d7bb0047f294e04bc222432cc518cf4925a2c4a57460f36235eb95f8816ada09eadceaa3a0b842a66475adf604cbaa6825e4ad9f01827"
+RPM_NAME = "libreoffice-l10n-as-7.5.4.2-1.3.noarch.rpm"
+RPM_HASH = "e9db141a131274634fa6daf0f3c2a1f7355b2bf49ab3d44152caa2539735709adc5ba2b14c4f4a1eead8344313f26589f8c891e39b9956e36b0d7b545229ac0b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-as \

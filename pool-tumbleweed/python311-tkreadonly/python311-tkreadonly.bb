@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6.1"
 
-RPM_NAME = "python311-tkreadonly-0.6.1-2.11.noarch.rpm"
-RPM_HASH = "51762145480ab988616aeab4d96c1afd7aba5706230d905cd4de35dfb5323d618801859753f258e4a657e2391839450e607a529631b947f66eec2373fe77c6c0"
+RPM_NAME = "python311-tkreadonly-0.6.1-2.13.noarch.rpm"
+RPM_HASH = "e5dae2c47d18df085315c5b0b6af259be7662425f2fd73552b03b415f55e24141bc7db23142d455eccdb6f234ec2a42559499ad913988bd17b2b57f22f8b0633"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-tkreadonly \
+RPROVIDES:${PN} += "python3-tkreadonly \
+python3.11dist-tkreadonly \
 python311-tkreadonly \
 python3dist-tkreadonly"
 

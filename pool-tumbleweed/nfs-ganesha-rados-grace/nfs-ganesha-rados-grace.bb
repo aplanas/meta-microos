@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
 PV = "3.3+git0.39e0cf712"
 
-RPM_NAME = "nfs-ganesha-rados-grace-3.3+git0.39e0cf712-5.8.aarch64.rpm"
-RPM_HASH = "fd0cd84f58a0fc2382e95bbf32bf1ba7ebf3bdbf76fab4dcfee5d4f6225843f4cdebc55b8e5fb7cd69e31d6337ad796851725439728fdd782c89830c823ca386"
+RPM_NAME = "nfs-ganesha-rados-grace-3.3+git0.39e0cf712-5.9.aarch64.rpm"
+RPM_HASH = "555ce4c9df5b11fd171165b98a0d57f6b66d6b52000487d9895e5e3e951a82d86fbf788876a086aa5c50549ff9f366e5c1bcfc0eb78606b435372f219ce125fb"
 
 RPROVIDES:${PN} += "libganesha-rados-recov.so \
 nfs-ganesha-rados-grace"

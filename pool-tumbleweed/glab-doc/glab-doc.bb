@@ -2,10 +2,10 @@ SUMMARY = "Documentation for GLab"
 DESCRIPTION = "glab is a command line tool bringing GitLab's features to the command line."
 LICENSE = "MIT"
 
-PV = "1.30.0"
+PV = "1.31.0"
 
-RPM_NAME = "glab-doc-1.30.0-1.1.noarch.rpm"
-RPM_HASH = "58d103b276806de424636587a9d81409793652ee39e918aa1a8b79b7cbfedab1209cca746ce378bbb7c591305e85a39a42ae0d2e8c82277dc7b0237bd8c4302e"
+RPM_NAME = "glab-doc-1.31.0-1.1.noarch.rpm"
+RPM_HASH = "780809519ab7d5f0d3ef50cc3f2ad4eb01df5eb4da93d13d037d6957ff639842632347d902c82a43db0e7798a035533e5ad8ab665ac115a9e6e71ff6990a3312"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glab-doc"

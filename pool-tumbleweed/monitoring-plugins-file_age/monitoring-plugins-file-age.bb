@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
 PV = "2.3.1"
 
-RPM_NAME = "monitoring-plugins-file_age-2.3.1-9.4.aarch64.rpm"
-RPM_HASH = "a181fe42b4f5a55399f1572235eecc49dde480ecafe8dc301fed762f24a6bdd44f85c75e8d0939007f466fe8328c53433a57524a408e331c7deb5279f96f32c6"
+RPM_NAME = "monitoring-plugins-file_age-2.3.1-9.5.aarch64.rpm"
+RPM_HASH = "9deb461dd5355610c9393b834a8d4ac9268bc363e2eb846c9e3c403fd6a87e6c26ec6e831e516f74508dc7b4664b1b19dcd9691869619f2afdbb51eb900aaee7"
 
 RPROVIDES:${PN} += "monitoring-plugins-file-age \
 nagios-plugins-file-age"

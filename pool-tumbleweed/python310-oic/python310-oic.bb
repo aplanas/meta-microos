@@ -6,12 +6,11 @@ LICENSE = "Apache-2.0"
 
 PV = "1.5.0"
 
-RPM_NAME = "python310-oic-1.5.0-1.5.noarch.rpm"
-RPM_HASH = "14628facbb3ce86cc669c52e253b3fc0d7f2628720e739514d78868ced71cec6488d7e963006edf7278e018117e56d7511eeaa19db14f718ddd42af56debafde"
+RPM_NAME = "python310-oic-1.5.0-1.7.noarch.rpm"
+RPM_HASH = "37695009913ab68ca1dc5a565b75cc57e3d3cca8dceb38f84e6547a51d12cf2bda40f7d8f800e6ba631bbb52d33ab9f2b0b1ddabba2d79ff2e3704bd0b4902bd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-oic \
-python3.10dist-oic \
+RPROVIDES:${PN} += "python3.10dist-oic \
 python310-oic \
 python3dist-oic"
 

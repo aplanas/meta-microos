@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.107"
 
-RPM_NAME = "v4l-conf-3.107-2.10.aarch64.rpm"
-RPM_HASH = "adf2125f2d565b0044313b76bf7b370e4e3421c14272d306ae800fa9b83b21e181887d359cf409d78974360fabc4b70deca9b5793806df1fa1c1c1eb92ecf81b"
+RPM_NAME = "v4l-conf-3.107-2.11.aarch64.rpm"
+RPM_HASH = "b628438df4eea401ce27f90cb9363a740896086fa923b11d2944cf399c1121b0b8876fffc58a56e65946e922cce4e98bc0934e5b9c7fc8af74fe78630d0d81bc"
 
 RPROVIDES:${PN} += "v4l-conf \
 xawtv-/usr/bin/v4l-conf"

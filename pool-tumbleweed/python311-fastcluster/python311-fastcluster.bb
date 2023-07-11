@@ -16,10 +16,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.2.6"
 
-RPM_NAME = "python311-fastcluster-1.2.6-1.5.aarch64.rpm"
-RPM_HASH = "7d3b6c2050ae661a534ace169427020cdf6bc4deb908bebec85a229bf688c504000ea056595ac2242349a7991f7787f779adc972aeafe9dbf9aeb84dfd61e083"
+RPM_NAME = "python311-fastcluster-1.2.6-1.7.aarch64.rpm"
+RPM_HASH = "04841b0693eade5703bbe49e0219093c870a3c1b4428ac0e258b5cbd126395b81dad4328a1113acc54e5c6c0c8ad4fcf1af9ba9389e1e8376b7e957d1d5a53a9"
 
-RPROVIDES:${PN} += "python3.11dist-fastcluster \
+RPROVIDES:${PN} += "python3-fastcluster \
+python3.11dist-fastcluster \
 python311-fastcluster \
 python3dist-fastcluster"
 

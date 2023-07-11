@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.28.1"
 
-RPM_NAME = "kitty-0.28.1-1.2.aarch64.rpm"
-RPM_HASH = "6af78bc00922aed99aceddcf13d81622d1d945ffc648c95e09946fea8345d56540e384208988fd15f8340b26fda321dac344d026a5187ab5dace95908d91200d"
+RPM_NAME = "kitty-0.28.1-1.4.aarch64.rpm"
+RPM_HASH = "ec821ef2e5c46f21e296d9cc437af187bb1911ec1ab4bc24dba8097149457e3f818cf8e6cf20d6a9c4aa8a46d9cd5889a4628da82f17e2870e61a890de82283f"
 
 RPROVIDES:${PN} += "kitty"
 
@@ -23,7 +23,7 @@ libharfbuzz.so.0 \
 liblcms2.so.2 \
 libm.so.6 \
 libpng16.so.16 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 librsync.so.2 \
 libwayland-client.so.0 \
 libxkbcommon-x11.so.0 \

@@ -11,8 +11,8 @@ LICENSE = "GPL-3.0-only & LGPL-2.1-only"
 
 PV = "1.10.1"
 
-RPM_NAME = "musique-1.10.1-1.17.aarch64.rpm"
-RPM_HASH = "c5e915dcadff1b49bcadba0733f3563a031f77ca6c13e15c16db76f252ede509b2fa917a091f6515f0eed2b0646bcbc182a1713c5cdf4bf441bc3b3a2b6b4aa0"
+RPM_NAME = "musique-1.10.1-1.18.aarch64.rpm"
+RPM_HASH = "20aca3e1632c0bd4de369bcc845d972eab765efad7895aedcf3b0000a27bdcfd11c706b7b1a3f5d6987dbd04ea477dd873dc08653067ec04da4e34a08e280199"
 
 RPROVIDES:${PN} += "musique"
 

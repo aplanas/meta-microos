@@ -23,8 +23,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.1.3"
 
-RPM_NAME = "libLASi-devel-1.1.3-4.4.aarch64.rpm"
-RPM_HASH = "7d9427799d904ac3637465804d13b8e47468bf260ddd317d7fd6931bddbed4cfb737b6ecefd12fca95512208ca6475064e0b7a6d55e522f935fe94d1ab99af8c"
+RPM_NAME = "libLASi-devel-1.1.3-4.5.aarch64.rpm"
+RPM_HASH = "9a8abeeb17f5d5cd3139b22fad486a2bb3925bd99dce5a467625d65d52786050cb7ab324774b987b1a2ecd1009476d8ba04de1feb6dbdad1eb1ae4b4dfccbc08"
 
 RPROVIDES:${PN} += "libLASi-devel \
 pkgconfig-lasi"

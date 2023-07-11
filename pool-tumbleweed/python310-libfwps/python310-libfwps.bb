@@ -6,11 +6,10 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20230202"
 
-RPM_NAME = "python310-libfwps-20230202-1.4.aarch64.rpm"
-RPM_HASH = "8b6d396560bb61e772bc45e56e01f332603db931f644986f22334d0f9f01d695188c47b16a896573867c4dda0c22df380566291e57381bad1da5ff9b901acc85"
+RPM_NAME = "python310-libfwps-20230202-1.7.aarch64.rpm"
+RPM_HASH = "aaa2abf8fbcac307c0c134d5f6a2a86a3baa7530a033a0951044829902e15e7020c9e50fe9d0c9456b43a6b7fba669d3332cdac2e2123ca2bcacd2284398526a"
 
-RPROVIDES:${PN} += "python3-libfwps \
-python310-libfwps"
+RPROVIDES:${PN} += "python310-libfwps"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \

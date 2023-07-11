@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.6.0"
 
-RPM_NAME = "python39-asgiref-3.6.0-2.1.noarch.rpm"
-RPM_HASH = "1fde847376476ee277633bf0d335121b094c279d0f55bfe624e093c07def1796a44cf725732b20458776c885b22fbd7df767a15b81af62e3ccece7bf81691aea"
+RPM_NAME = "python39-asgiref-3.6.0-2.3.noarch.rpm"
+RPM_HASH = "c30db4a6601ddd26fbec840f05901ff77b7c1ad9336b5c053814c26a1eab957846d8cf1a41620891351d3edceff3b0a9ffb2f0d8eeba509b4d13ac635640a5bb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-asgiref \

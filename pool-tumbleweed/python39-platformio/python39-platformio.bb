@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "6.1.5"
 
-RPM_NAME = "python39-platformio-6.1.5-2.4.noarch.rpm"
-RPM_HASH = "ff3ac30cfe686255d072a2fc6c173467e29c6f81f0fb573357fa6c2507dffda9e2572ab2d9ca4e238caaeff84939b76de75e4727c441423f0e90dc351c24a8f4"
+RPM_NAME = "python39-platformio-6.1.5-2.6.noarch.rpm"
+RPM_HASH = "fa3e00a5d8fb1a19abb52d84ae2aea32a4f939d43749111c69ba4f2baf12264e8e653dc3681ab64d252aefd218851e47e09e9939f1e4b309993b648f3d29c08d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-platformio \

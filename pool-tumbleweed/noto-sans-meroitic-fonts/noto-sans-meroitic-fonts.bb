@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-meroitic-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "598aeabadf02f798881ac788996d4a7c5d66985faa978536fb3672e47d929b697daa294e3d2e566cd518cd6bf993689bc196eeb253bce652c5dcfed6120b15c2"
+RPM_NAME = "noto-sans-meroitic-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "6dc7a83a59842729ca566c75435be02dd72cb4f7eff310a8ec421b260eb51fa55bfe4da084c63d36540f597c7df440074ea22d2da2ff060d60ac343b5e67c841"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-meroitic \

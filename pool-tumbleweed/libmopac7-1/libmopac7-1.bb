@@ -9,8 +9,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "1.15"
 
-RPM_NAME = "libmopac7-1-1.15-8.3.aarch64.rpm"
-RPM_HASH = "a5bdd32460fd100098833bce3bf48976913da18a04c0b0e1629d3747bebe4d777caa68f35f0a268b2c59ef9d4d7f9e466b7e2e742b4436a4e34e07b11630962a"
+RPM_NAME = "libmopac7-1-1.15-8.4.aarch64.rpm"
+RPM_HASH = "dab8d0f851de92b6dc7f5c26c237c7e88aef8930c844b11452cf48c671b3c8ed1134fce643e758766078787663e596e29f6db0a09bfa76ea4f9394dbf2dab577"
 
 RPROVIDES:${PN} += "libmopac7-1 \
 libmopac7.so.1"

@@ -8,11 +8,12 @@ LICENSE = "Apache-2.0 | BSD-3-Clause"
 
 PV = "0.5.0"
 
-RPM_NAME = "python311-testscenarios-0.5.0-5.1.noarch.rpm"
-RPM_HASH = "6e061ada732549c84650d5e0d1563366092aa4baafb06e774f7cfc12a1646964596fb3a17cad2831a7e3d0d94a1fb95927db5dccc31d46fc226de7546deb5907"
+RPM_NAME = "python311-testscenarios-0.5.0-5.3.noarch.rpm"
+RPM_HASH = "0258e53705417e85bffc1ea7aa1ff506ceb77539d1e286492b83b549e51709a708fa14ab3ab1537e9cee3ed95fc68d47fdd57b6ab811623e68bbf5c32e42023d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-testscenarios \
+RPROVIDES:${PN} += "python3-testscenarios \
+python3.11dist-testscenarios \
 python311-testscenarios \
 python3dist-testscenarios"
 

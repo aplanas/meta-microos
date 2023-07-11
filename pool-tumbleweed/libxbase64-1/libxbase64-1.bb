@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "3.1.2"
 
-RPM_NAME = "libxbase64-1-3.1.2-1.23.aarch64.rpm"
-RPM_HASH = "adaca8d4d7fe2a338eef17d2a415bb2e31de975a2e10b221d1fcebbeb0619b3c12f8a0aebfb916b304b34c116ba4caae1560f04cfd34e56b11d4bb10a3cb7b3f"
+RPM_NAME = "libxbase64-1-3.1.2-1.24.aarch64.rpm"
+RPM_HASH = "0e01a2564128d3377d3839d002df82e3d09be2ce9cc3bb15874fa59b9f34f30d777e1dfd9a073980977023f64f705900b706864901b8593eb0c83e67491e5df0"
 
 RPROVIDES:${PN} += "libxbase64-1 \
 libxbase64.so.1"

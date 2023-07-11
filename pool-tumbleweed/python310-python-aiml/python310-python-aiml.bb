@@ -9,13 +9,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.9.3"
 
-RPM_NAME = "python310-python-aiml-0.9.3-3.9.noarch.rpm"
-RPM_HASH = "8de8695040d227bcd846298582d6c6d444acec5e0bf9cf8fd9dc6b0bf696fdd004fc798216b8ce8e68c0ba72a8888df42f3f4e5376a9240f4318670219f6b429"
+RPM_NAME = "python310-python-aiml-0.9.3-3.10.noarch.rpm"
+RPM_HASH = "701cf56db3363dae69643db146a7a307fcdb34d800e1eecbd2abd72876b9f52454f0909c68cb225085db2224a167991206ab71125b6da0865f94ba7e6a0ecc2d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-aiml \
-python3-python-aiml \
-python3.10dist-python-aiml \
+RPROVIDES:${PN} += "python3.10dist-python-aiml \
 python310-aiml \
 python310-python-aiml \
 python3dist-python-aiml"

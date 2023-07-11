@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
 PV = "4.0.6"
 
-RPM_NAME = "libwireshark16-4.0.6-1.1.aarch64.rpm"
-RPM_HASH = "ebe2ccbfbdbd284c443e3000a5762ce2148d021c851bb1ca7defbb5329100d3593c6e982798f68b24691bb204d1276a374e16d7284576829a6b1cc7eadb0f458"
+RPM_NAME = "libwireshark16-4.0.6-3.1.aarch64.rpm"
+RPM_HASH = "6d69418c83909f939caed672808e974b5dc9d2ef99aeb592cb3503e103be820616d7b65630c3bc0ad086afa1d38b4d5d32bcbe59d3c77b0ca61383f0f2cd4e3c"
 
 RPROVIDES:${PN} += "libwireshark.so.16 \
 libwireshark16"

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.38"
 
-RPM_NAME = "libgeany0-1.38-3.7.aarch64.rpm"
-RPM_HASH = "87476126267c2c9365246253ea53a452f7da9650f427b3f2f6249cee0f8a999dee672c0d911199f57bd3e9dee47bd98d15faaac1a34d320ff59ab20ec9b48477"
+RPM_NAME = "libgeany0-1.38-3.8.aarch64.rpm"
+RPM_HASH = "4a32e6f5470a6829bda1babb75b1bc7812590e6752a51f03ad453ffff1946f18ed4a13d70b469368ae5e3ddba8b038173c3625033c6fbf546ee4f61c490ab076"
 
 RPROVIDES:${PN} += "libgeany.so.0 \
 libgeany0"

@@ -4,8 +4,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.22"
 
-RPM_NAME = "perl-Test-TCP-2.22-1.15.noarch.rpm"
-RPM_HASH = "b0f613b62e1971eaa1e1edaf02dc2aa1b892265c85b7a65ab6a3bbb4c3c5776a25def3fb7af2059848f8146e34451d6c92237de1e05f54507b2a976ad93f0882"
+RPM_NAME = "perl-Test-TCP-2.22-1.16.noarch.rpm"
+RPM_HASH = "d9fb89c465799ed39d945468cebf63363cee3174d2272eb01d81ddae23004ea6c508f068049d52473f418925c3241affffbd1a8f5d41bf595f89737cd10d7f65"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Net--EmptyPort \
@@ -13,7 +13,7 @@ perl-Test--TCP \
 perl-Test--TCP--CheckPort \
 perl-Test-TCP"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-IO--Socket--IP \
 perl-Test--SharedFork"
 

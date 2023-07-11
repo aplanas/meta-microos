@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-serif-bengali-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "6e9e4339998903ae05ccb255f018303fdf79c4a1c3d7ba7e1e0ee133e82bd823bc8d28ebb155a22c5fb78544fc35b65fd25b03340f165ac262b08c02f4a76149"
+RPM_NAME = "noto-serif-bengali-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "208da8ec850ba4d7804c0dec453209d04e9773e56a2de74a3eb96c60375f167859a0ba9cfecdc04a84ae85acc76582f3775b3a0e9946ca3d08d8f2cb7345c518"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-serif-bengali \

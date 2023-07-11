@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.9.1"
 
-RPM_NAME = "maven-doxia-sink-api-1.9.1-6.7.noarch.rpm"
-RPM_HASH = "ca853e6c9a5c4c68bacf7e38714372247a571287bc884d1c3e054d8ea7ce63c2f007d98a849833b2b7054b4feed086f386afb4b765378ee9c8ad0a0deea5a043"
+RPM_NAME = "maven-doxia-sink-api-1.9.1-6.8.noarch.rpm"
+RPM_HASH = "a94584fc1e3d66d1bc25c1b9792f162764e4b31d234760365e1f6b23355957a4a623f3f124307fcb4eefa2bd3face0f2d8c953258aae802cd184c3e9e74e85a5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-doxia-sink-api \

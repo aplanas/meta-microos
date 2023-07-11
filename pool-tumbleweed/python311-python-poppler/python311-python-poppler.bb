@@ -13,10 +13,11 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.2.2"
 
-RPM_NAME = "python311-python-poppler-0.2.2-3.11.aarch64.rpm"
-RPM_HASH = "76fca91e3963e50443f22a5186027482fcd75bc11ca557cfbb15d3f0763e2b65110589bea0ac70bdd5ffbb5ab27ab25ae924a63125960472f2c6b93f7aa00c12"
+RPM_NAME = "python311-python-poppler-0.2.2-3.12.aarch64.rpm"
+RPM_HASH = "90be00cc8aba483f46373407328c7d06ded3050b752c6916d79b0685d46357ddc35a129b89533b5a5981743e99b29db68fa9e0ff951ed011244dea1fa2519b90"
 
-RPROVIDES:${PN} += "python3.11dist-python-poppler \
+RPROVIDES:${PN} += "python3-python-poppler \
+python3.11dist-python-poppler \
 python311-python-poppler \
 python3dist-python-poppler"
 

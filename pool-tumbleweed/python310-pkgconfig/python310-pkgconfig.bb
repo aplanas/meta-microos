@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "1.5.5"
 
-RPM_NAME = "python310-pkgconfig-1.5.5-1.7.noarch.rpm"
-RPM_HASH = "a333c2e220364e0c1c02d3c72e0f6e482fa9772be4c8a4d3006e20e762bc0387de936cefe4f34f77c723961f5fca19610883798eac482166d745033f9066fbde"
+RPM_NAME = "python310-pkgconfig-1.5.5-2.3.noarch.rpm"
+RPM_HASH = "44a61cf2d139364168c10730026f598d325105432be6a471ea3824c8e3719cc93415a5bbce3219680ddbfb301ba31ac4508b7ef5a4f2a2a02aa04149f401ad4e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pkgconfig \
-python3.10dist-pkgconfig \
+RPROVIDES:${PN} += "python3.10dist-pkgconfig \
 python310-pkgconfig \
 python3dist-pkgconfig"
 

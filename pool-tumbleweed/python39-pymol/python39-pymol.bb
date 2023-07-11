@@ -17,8 +17,8 @@ LICENSE = "Python-2.0"
 
 PV = "2.4.0"
 
-RPM_NAME = "python39-pymol-2.4.0-3.19.aarch64.rpm"
-RPM_HASH = "9377639a8b7beee590706cdcb1e4bb1b3eadd276b5f137645a3b1969f363739f4246242f96ecc16dcbb9616f89984efdf0bb4066d9755e72f3688bcf1e0d5488"
+RPM_NAME = "python39-pymol-2.4.0-3.20.aarch64.rpm"
+RPM_HASH = "429d995c232b6d948bb2d0a06a93e1245a42d784c3c0cb8ebe26de11a8af3df0d209a589b7fecc02496f8e3b6b1586c6d898d6fb03fd3ce7797b6d2fae09120d"
 
 RPROVIDES:${PN} += "pymol \
 python3.9dist-pymol \

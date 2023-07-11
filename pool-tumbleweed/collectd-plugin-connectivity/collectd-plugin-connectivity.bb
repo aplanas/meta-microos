@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & MIT"
 
 PV = "5.12.0.134.g4cebbfc"
 
-RPM_NAME = "collectd-plugin-connectivity-5.12.0.134.g4cebbfc-1.4.aarch64.rpm"
-RPM_HASH = "1d8501be8d654d83c681f8edb5eb442767ae9286b6c25595983b21f27a69971a5917e64a9db5e3f838a70bd4534989689f32bc5a5a4d102a7a58304cefa1331b"
+RPM_NAME = "collectd-plugin-connectivity-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
+RPM_HASH = "720d35772ce04c33cbc7807136390a92f7d5bd56f211e529eb390530bc73eed6ef2fe54d1a479a470b06e1b5b98c0d641a6e5b840d5b201c84ff9d358ccc9f93"
 
 RPROVIDES:${PN} += "collectd-plugin-connectivity"
 

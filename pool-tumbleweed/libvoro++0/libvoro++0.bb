@@ -11,8 +11,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.6"
 
-RPM_NAME = "libvoro++0-0.4.6-1.24.aarch64.rpm"
-RPM_HASH = "7737a7dc9320fa1c7afc770423d0a4287b015698b93b08dc6a7ef2443a511de2b645582972bc4fda92e0c57fc66a5e166eaabcf807da5ca518e65f61a0ea8c5a"
+RPM_NAME = "libvoro++0-0.4.6-1.25.aarch64.rpm"
+RPM_HASH = "9dda3389f929d579815efb29740582aa5892aeab7ee51d87525252973c349f327cce8f804017c7622b5b6b044973218f89b4385cfe1f79e6368089a762a7adf8"
 
 RPROVIDES:${PN} += "libvoro++.so.0 \
 libvoro++0"

@@ -2,10 +2,10 @@ SUMMARY = "UML Modeller"
 DESCRIPTION = "Umbrello is a UML modelling application."
 LICENSE = "GPL-2.0-only & GFDL-1.2-only & GPL-3.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "umbrello-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "8a065610d94885100503907f8defba729da9f0e20207a7258534b965b3d71ded2b7a58c7ff5c00a4c901c01736c6ae0cb813121e2c9c813d9a7f1be23813065b"
+RPM_NAME = "umbrello-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "3b12705ec80bef5c274a0d6ded7ceeeffece9b9cf254045c337f3e804b525cdb947fce99257e241d21c488748914767444d7051cf29aa45cf23ac91b208b86ec"
 
 RPROVIDES:${PN} += "umbrello \
 umbrello5"

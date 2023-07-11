@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.2.0"
 
-RPM_NAME = "libsdbus-c++1-1.2.0-1.5.aarch64.rpm"
-RPM_HASH = "d194b6c4ff0c444904684d25ba4faea3de7a69edbe154e3b558b5257f7cfb7bc87dee44869468ce08d4885f8bb6ee6c11f2c6039bcd6c3f4c05a911cf8b5ead4"
+RPM_NAME = "libsdbus-c++1-1.2.0-1.6.aarch64.rpm"
+RPM_HASH = "b8a56a3127db8fe6578455269f203a7b6878edaa55140285815fae25c10600a859fe5a3b6c1fb0689acb9c7a6682c679f0efd993aaaf05ec9dba89eef0610d95"
 
 RPROVIDES:${PN} += "libsdbus-c++.so.1 \
 libsdbus-c++1"

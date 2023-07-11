@@ -13,12 +13,11 @@ LICENSE = "MIT"
 
 PV = "0.1.3"
 
-RPM_NAME = "python310-pytest-attrib-0.1.3-3.33.noarch.rpm"
-RPM_HASH = "ee7678cdd9acfc6179c76f5b4da26f459f5eef735be85ac5802f6db7fe4bc1e25db4bf26440bd780c8329d6209db95572531a076ad59dd836adb61e579582f24"
+RPM_NAME = "python310-pytest-attrib-0.1.3-3.35.noarch.rpm"
+RPM_HASH = "17bd744043df6513d4a6ba8a70f252b4fc476d6d423de1522ec7420819e74bcc4d1abc42db0d53f94d710a65b594cf946fedae68a478adb927483d883192b9a2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pytest-attrib \
-python3.10dist-pytest-attrib \
+RPROVIDES:${PN} += "python3.10dist-pytest-attrib \
 python310-pytest-attrib \
 python3dist-pytest-attrib"
 

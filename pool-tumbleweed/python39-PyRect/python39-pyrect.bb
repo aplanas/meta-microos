@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.0"
 
-RPM_NAME = "python39-PyRect-0.2.0-1.3.noarch.rpm"
-RPM_HASH = "fc8dbb762d94feea486b3c601b6c26301d5853c48b1c4f0bb4c99d77ccef460e846827a707cd4e8bfab6b9d0a8d691a4819b09653882a14b637daeb4efe70d2c"
+RPM_NAME = "python39-PyRect-0.2.0-1.5.noarch.rpm"
+RPM_HASH = "edbc4d98b80065bd5ed2ff08d6e36bd850bab3c8114b65c0c4f5cb0f0ac2cb3970cfb1d06eb8b1b4398858e12ba73a1e76f87dd4bedb0ca763dfac6c1c9ad243"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyrect \

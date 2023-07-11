@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains a KDE system settings module to configure d
 gamma."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "kgamma5-5.27.5-1.1.aarch64.rpm"
-RPM_HASH = "694523cccba2a55fc0b7f9cc83b81a875ffb077a5b16a7200a9b36fc93c0b3f5a1e412fb6b1c5459ba2f1ae72b30454bc2a6decd6ead042001d44f0e9673636c"
+RPM_NAME = "kgamma5-5.27.6-1.1.aarch64.rpm"
+RPM_HASH = "4470ae9a10fe408a1158f7bd738d5d4cbd30b6f5eb1ca196f7cca80835f321311cd6da0b0c4e195ec86a041133b43c1248e4537353fd04339d3234ead29e0675"
 
 RPROVIDES:${PN} += "kgamma \
 kgamma5"

@@ -10,8 +10,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.09"
 
-RPM_NAME = "perl-IO-Interface-1.09-2.35.aarch64.rpm"
-RPM_HASH = "0ffae67d0dd4f6e0852dbcad11f68589ccafcfe3a2deb21bb6ef5ab38cb5e5272b1bc2faa526797b0d7ef7aa1190c65c96e9d7027fc422e197777079a088499d"
+RPM_NAME = "perl-IO-Interface-1.09-2.36.aarch64.rpm"
+RPM_HASH = "c4d34256ee7ffe3dd64f52c33364ecffa31117931169ee6ef273f37649606b898b9e3909b95391f1b8f7c47c1366b74d27fcc4fea31abe9752e7c412765274dc"
 
 RPROVIDES:${PN} += "perl-IO--Interface \
 perl-IO--Interface--Simple \
@@ -19,6 +19,6 @@ perl-IO-Interface"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

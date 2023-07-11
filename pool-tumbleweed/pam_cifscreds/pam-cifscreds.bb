@@ -11,8 +11,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "7.0"
 
-RPM_NAME = "pam_cifscreds-7.0-2.3.aarch64.rpm"
-RPM_HASH = "ade3152b7f1086941977976684847681486e5160e57a3d529fd5d5e82f81bf6925a7dbe80e9d287559cba6b57ba36ea331eb57432e8bcce44690c3da542e0f77"
+RPM_NAME = "pam_cifscreds-7.0-2.4.aarch64.rpm"
+RPM_HASH = "df1a47a0a6e8ff6191695a711a36012e595bc5985a29b2032be3504dcddee8d92a94c583bdd6bf321e923e15fc9c8135e9fa405d33fdc00c72e3fc1923ab75c7"
 
 RPROVIDES:${PN} += "pam-cifscreds"
 

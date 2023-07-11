@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "0.13.0"
 
-RPM_NAME = "python310-sqlalchemy-migrate-0.13.0-5.4.noarch.rpm"
-RPM_HASH = "3a3d9acc586f31b9a0e9871675694a48c337347cea689c28a167679f4746f07bf5a1e909b9432902960d0d47eaf4c58f6536e79e0b5183e89abaedcce58fdf60"
+RPM_NAME = "python310-sqlalchemy-migrate-0.13.0-5.5.noarch.rpm"
+RPM_HASH = "548ee646303e64fc24b2ad2085565a37c35109385ca4189897b37cacd220663347fadc9aa7c269c27b2e7b7f6fe69cc68f0fecc0fdf9fc3b6a73fb0ab38ed061"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-sqlalchemy-migrate \
-python3.10dist-sqlalchemy-migrate \
+RPROVIDES:${PN} += "python3.10dist-sqlalchemy-migrate \
 python310-sqlalchemy-migrate \
 python3dist-sqlalchemy-migrate"
 

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.9.2"
 
-RPM_NAME = "ghc-language-c-devel-0.9.2-2.3.aarch64.rpm"
-RPM_HASH = "d838defeb6dcf6388ffdb63787c83f73050c0af0cd7f295fb96ca8670faf0a05c54dbbf496629b4361f14fe3a44d3240589cb5670621e4635e296449c3bcf41d"
+RPM_NAME = "ghc-language-c-devel-0.9.2-2.6.aarch64.rpm"
+RPM_HASH = "bf2ff30b16a587a8fb1e1134cada648b85c0a1ab758dca694ff47c9cd181371929d1c7db49679f868e1439ad15832dd09ca331849a3a211e6afc67b5901f0d3f"
 
 RPROVIDES:${PN} += "ghc-devel-language-c-0.9.2-5l7vUWhvlwnEvBOKlkChTz \
 ghc-language-c-devel"

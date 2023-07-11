@@ -3,10 +3,10 @@ DESCRIPTION = "kcontacts is a Qt5 based library which provides an API \
 to access address book data stored in different formats."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "libKF5Contacts5-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "a8554c1ce61b6265752253f84a776015f74cea8de7358db909bd9f0192f75578a48f76c475a7cb66ec6c2ebeb1db3c4178acf4ad8e1e49a7f1e2b82445442860"
+RPM_NAME = "libKF5Contacts5-5.107.0-1.1.aarch64.rpm"
+RPM_HASH = "f149b360bedae7e88df08c9a5fe0ad52af5e4976428a978fa77cb18d8182cc980f0df88d7a24e4a6f558d1a93d33a8a2c89d8f69bd2f70a2442fcd2550cbe2c1"
 
 RPROVIDES:${PN} += "kcontacts \
 kcontacts-data \

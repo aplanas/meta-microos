@@ -5,10 +5,10 @@ API guarantees. The packages that build against these have to require \
 the exact Qt version."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.9+kde5"
+PV = "5.15.10+kde4"
 
-RPM_NAME = "libqt5-qtlocation-private-headers-devel-5.15.9+kde5-1.2.noarch.rpm"
-RPM_HASH = "0417d798a6ff88f0c71381e4495eacde420ccabea880b44e23644d19c2547b130055806c364344a359b94a98b47b57c7e8f667e2de1c0c819429c7a33aba5bc7"
+RPM_NAME = "libqt5-qtlocation-private-headers-devel-5.15.10+kde4-1.1.noarch.rpm"
+RPM_HASH = "d3cc95224f7863e7d9a9c96a753014b710bb24765665d7ea2e083b5a7a9851ab2b383e16ace03661eaf9f33dffe59d421b552e9952f612f23326a5754bd6a964"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libqt5-qtlocation-private-headers-devel"

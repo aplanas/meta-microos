@@ -14,11 +14,11 @@ LICENSE = "MIT"
 
 PV = "2.3.0"
 
-RPM_NAME = "vit-2.3.0-1.1.noarch.rpm"
-RPM_HASH = "c97e3b06887641947a7a480d609f2318d9aa4134365a5613e4f46a1fc6463237ad5fcc94560ad4cf5dc70aedacd8b4ec98698e04fef8c7ca69df72cf124895b5"
+RPM_NAME = "vit-2.3.0-1.2.noarch.rpm"
+RPM_HASH = "13bb2da0871dac0bb4d66c04072d51267b8b3951ee22ed6cc22cc8a22dc39671645df1e0c8c7c987c509dc229f75c6cfdcc93b242bb0973c1fd465fefe1921dc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-vit \
+RPROVIDES:${PN} += "python3.11dist-vit \
 python3dist-vit \
 vit"
 

@@ -4,11 +4,12 @@ LICENSE = "Apache-2.0"
 
 PV = "4.4.1"
 
-RPM_NAME = "python311-checkdmarc-4.4.1-1.8.noarch.rpm"
-RPM_HASH = "64690d78af26e2a3be83bba963f2880700ba4c841c9d0ab7180baeeed6676ff310fe7e2ca488237f5a759a0c8c1688ba301871472b8738c471f4d7fccc61e8fa"
+RPM_NAME = "python311-checkdmarc-4.4.1-1.10.noarch.rpm"
+RPM_HASH = "a52887acd997811476b7793d848c5df7ff05b7152f68de54173a02efb3623789f8dc372ba98fb041cb6070636ef14de11074e19cab0f2a65ec2e1163290f646c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-checkdmarc \
+RPROVIDES:${PN} += "python3-checkdmarc \
+python3.11dist-checkdmarc \
 python311-checkdmarc \
 python3dist-checkdmarc"
 

@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.6.0"
 
-RPM_NAME = "python39-synr-0.6.0-1.6.noarch.rpm"
-RPM_HASH = "4d89eafd187a3480c4250dfcc15267adad4cf2f357b15f1993b1e9f857752ab341bac6b12095d1971abcd3c37b50196f11e93de998fa84fa7d07da267dde5662"
+RPM_NAME = "python39-synr-0.6.0-1.8.noarch.rpm"
+RPM_HASH = "4f48b03e60114c389b6164ef5a49e0075d7a23b71bee5cb431645470b20e5c7277ffcbe3323f0b4e0bd06904a8dfc3f4ace6c58c9845057a4930acb7ac892d09"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-synr \

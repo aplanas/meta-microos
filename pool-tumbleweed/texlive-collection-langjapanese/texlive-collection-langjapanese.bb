@@ -5,8 +5,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.208.svn64603"
 
-RPM_NAME = "texlive-collection-langjapanese-2023.208.svn64603-58.1.noarch.rpm"
-RPM_HASH = "d93df140404826caebbdd5acd7eeafbca42882a6e69de0a57b0483893c816357ab3dadc52a659f9b4ef5ef588f6a092a39a448dbe589212e6561bbc682987162"
+RPM_NAME = "texlive-collection-langjapanese-2023.208.svn64603-60.1.noarch.rpm"
+RPM_HASH = "8dc9d7f77493a5a1868bc2aa1ac7874a1ad46a7060e20685033d819d7189f11ed4365343b0070e96b93d4bbee6093b62d80fc2f6022cc6670fca208b3b08d181"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-langjapanese"

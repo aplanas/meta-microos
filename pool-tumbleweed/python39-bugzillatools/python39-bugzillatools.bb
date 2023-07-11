@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.5.5"
 
-RPM_NAME = "python39-bugzillatools-0.5.5-6.13.noarch.rpm"
-RPM_HASH = "07a5fd810e7a6b9a4fbd5f64a562a645911606af0738473d1c31d9b77634461d86ce9bffd485d610bd9e409a22402300bda2839726bf4a6d3d9b52841cbf348c"
+RPM_NAME = "python39-bugzillatools-0.5.5-6.14.noarch.rpm"
+RPM_HASH = "7bf36a8b3ae17caf19924d484b244fba55b9e4cc1a4af797e77f7b51d17dcb707ea21987ef919f005cc865366535b811823d54e9d65b402526ffb62dfdc1ac8d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-bugzillatools \

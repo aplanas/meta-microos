@@ -4,12 +4,11 @@ LICENSE = "MPL-2.0"
 
 PV = "0.7.7"
 
-RPM_NAME = "python310-PyFxA-0.7.7-3.7.noarch.rpm"
-RPM_HASH = "10dcaa22665ea96fc9fc1f217bc54502bb9b8682255e7ab818d8c323c03d3b1d058efd9c2982c8fbb5a4dd8be71fe4e0ed4be945c1c4dc077c7691f432676869"
+RPM_NAME = "python310-PyFxA-0.7.7-3.9.noarch.rpm"
+RPM_HASH = "a09076356e1f4ac0bf0b8ec073af6b867e348d89518cd21da63be3428d450ca69f9c939e96aec8a5faab36554d2f86075a48b23b0e676a814b02897715a74cfe"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-PyFxA \
-python3.10dist-pyfxa \
+RPROVIDES:${PN} += "python3.10dist-pyfxa \
 python310-PyFxA \
 python3dist-pyfxa"
 

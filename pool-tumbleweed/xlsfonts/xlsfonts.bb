@@ -5,8 +5,8 @@ LICENSE = "X11"
 
 PV = "1.0.7"
 
-RPM_NAME = "xlsfonts-1.0.7-1.6.aarch64.rpm"
-RPM_HASH = "759abb1cf3a440dce268da0b51aed14858eb55aee2c80397c8b6b5c81cd546eb57e7a6f7ade243e8f7f43d292f7a4532a58f8a277f11ab6512c4b6591e99b666"
+RPM_NAME = "xlsfonts-1.0.7-1.7.aarch64.rpm"
+RPM_HASH = "179f2e745981b0b00ccb5b4b2a8465ea069c71cb7c1557ee1bb2b28f6fecadff8b02ceec5fd91821c10162ae2a26ae270bcab274c7a8b599ca234535112d69b1"
 
 RPROVIDES:${PN} += "xlsfonts"
 

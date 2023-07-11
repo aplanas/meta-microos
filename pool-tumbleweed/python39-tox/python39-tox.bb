@@ -15,8 +15,8 @@ LICENSE = "MIT"
 
 PV = "4.5.1"
 
-RPM_NAME = "python39-tox-4.5.1-2.1.noarch.rpm"
-RPM_HASH = "7261ea875606f2937a02a733c21f6d2153dc99688bf1222ad07eff08a5fa012e23be21bd980cc265c4c600badd94b3d691dc24c5bb741a69dcfd45086d0c2d0f"
+RPM_NAME = "python39-tox-4.5.1-3.3.noarch.rpm"
+RPM_HASH = "08418458922bb2be4bd4fb437b1c8fe29bd70cf1f1fcb8cbde307d81c19f9bc090528fe53416fdc3888a7f2e6dc82d72180dccb3e389c6938516d7f7675ca4a3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-tox \

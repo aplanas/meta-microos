@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.1.10"
 
-RPM_NAME = "libfam0-gamin-0.1.10-18.1.aarch64.rpm"
-RPM_HASH = "b9435b368916b595ebe07f9afe0e5b70fbd22db1ac9e7e0539fade02e1bb9b8e10fa74b196aff5d5cd599a99e18683059a1d162db416afcf18b2e2d42b6c1bab"
+RPM_NAME = "libfam0-gamin-0.1.10-18.2.aarch64.rpm"
+RPM_HASH = "6459ad26bf9b84292acb00c315efabe82275b38c3e5a5a8d86357c60d6a27f3ad175fe7ba740d5a4ae2354410308d04e76e0890069ffd693945ab91d6ae30b72"
 
 RPROVIDES:${PN} += "libfam.so.0 \
 libfam0-gamin"

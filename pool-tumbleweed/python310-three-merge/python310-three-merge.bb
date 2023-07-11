@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "0.1.1"
 
-RPM_NAME = "python310-three-merge-0.1.1-1.11.noarch.rpm"
-RPM_HASH = "43b56fe047ae6cec0cc9503157bc504ccff465ca79dd04140226fa94017e7c9656146b1037e8d3b4c20426cb140884d3afdf4f03d9323fad27fc736087ea14dc"
+RPM_NAME = "python310-three-merge-0.1.1-1.13.noarch.rpm"
+RPM_HASH = "568b85d6230fe7dfa9be7a6fde160d4cebc7963148426b4498fb7f09462b9c847aa697ab338cbfa4d7cb4315bca1da0f2d44438775ad6fa1e372e557c5639bea"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-three-merge \
-python3.10dist-three-merge \
+RPROVIDES:${PN} += "python3.10dist-three-merge \
 python310-three-merge \
 python3dist-three-merge"
 

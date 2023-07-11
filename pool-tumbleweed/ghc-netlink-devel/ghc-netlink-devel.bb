@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.1.0"
 
-RPM_NAME = "ghc-netlink-devel-1.1.1.0-4.3.aarch64.rpm"
-RPM_HASH = "e317e45ff0c510d3f9d79589602821b318da5e7846310f2d413c2ee7e243617c08557ac246508f253fec8cd9b427da8324ac13839155f9ba67db1f647e39afa4"
+RPM_NAME = "ghc-netlink-devel-1.1.1.0-4.6.aarch64.rpm"
+RPM_HASH = "01a4e349580dcc98c1a870b0abcc97a44c47f7310d9c81518c282cd738c35210590805ecf7304f26ff0e5936d8d494dc70ca37148888d6827eb40c58300966db"
 
 RPROVIDES:${PN} += "ghc-devel-netlink-1.1.1.0-3cQkQWnXFQnLtl9CehLMU3 \
 ghc-netlink-devel"

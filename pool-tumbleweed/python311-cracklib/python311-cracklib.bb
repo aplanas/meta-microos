@@ -6,10 +6,11 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.9.6"
 
-RPM_NAME = "python311-cracklib-2.9.6-1.1.aarch64.rpm"
-RPM_HASH = "081fa72559410e93b13b146be281d99d0404e608041c9e77847595c1ac6fa114c4c23d008cea6df54ac45aebbd66521d8eb54f1fd62e1969249232afcfda560f"
+RPM_NAME = "python311-cracklib-2.9.6-1.3.aarch64.rpm"
+RPM_HASH = "f9684c6bcd45186cd22653428bdacd435759215d328750050e2458e97e2dfcb3d0b12067b98cf73061c7627693f5d43bb4e1308bbbeec5de7d633daedf336d3c"
 
-RPROVIDES:${PN} += "python3.11dist-cracklib \
+RPROVIDES:${PN} += "python3-cracklib \
+python3.11dist-cracklib \
 python311-cracklib \
 python3dist-cracklib"
 

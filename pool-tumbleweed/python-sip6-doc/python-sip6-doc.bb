@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only | GPL-3.0-only | SUSE-SIP"
 
 PV = "6.7.9"
 
-RPM_NAME = "python-sip6-doc-6.7.9-2.1.aarch64.rpm"
-RPM_HASH = "5bde1728f81aa7fcf2527c86a2d57b551a6f1af14ebc4bc63fc6dcfe3a075d9bc889d162b5a7a42a6d6989a2bdb70c57151ec6e7c8d4fe583c5b210013439362"
+RPM_NAME = "python-sip6-doc-6.7.9-2.3.aarch64.rpm"
+RPM_HASH = "6109f37ef5b79d8388d28e0936f6b25047ed6f4bea1127fc66c05a75667069851d25593c8c2f7e85b7010a92241e654b3346945a8abd2e93b5971231888d137d"
 
 RPROVIDES:${PN} += "python-sip6-doc \
 python310-sip6-doc \

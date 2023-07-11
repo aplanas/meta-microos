@@ -2,10 +2,10 @@ SUMMARY = "Translations for package arianna"
 DESCRIPTION = "Provides translations for the 'arianna' package."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.0.1"
+PV = "1.1.0"
 
-RPM_NAME = "arianna-lang-1.0.1-1.1.noarch.rpm"
-RPM_HASH = "244c308df0a49545f0e978f9d0d75e7a2ea61e39e2067f8ec35be91e09e9a262688f46aef11f8dd5ba40f1f36ba434430400dd5092333731fe4aa4263eb6d0a6"
+RPM_NAME = "arianna-lang-1.1.0-1.1.noarch.rpm"
+RPM_HASH = "5a3c837c2cc90f88a185bdfe079990e1a50147a7dba553513eef7fb1454747c51da35d15cbcaddb38989a1e705a48ce9a4b8fbf80baa204970ec3f81619798b5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "arianna-lang \

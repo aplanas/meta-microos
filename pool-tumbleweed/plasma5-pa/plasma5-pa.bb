@@ -2,10 +2,10 @@ SUMMARY = "The Plasma5 Volume Manager"
 DESCRIPTION = "A volume manager plasmoid superseding kmix."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "plasma5-pa-5.27.5-1.1.aarch64.rpm"
-RPM_HASH = "fa65d1aa9c8af41ac73b24f985d7c080a7fb8513e35f3727023a1aba181fffd3a94e8cb72d27d7ec83c9eade019c97b9a979363381304f4b7c10c97829d3888a"
+RPM_NAME = "plasma5-pa-5.27.6-1.1.aarch64.rpm"
+RPM_HASH = "eb09bfc01c80fedf83221e5998b0632998b6224445ad4dda376e5c1daa58fc362ebd0bfd17077611ae4b34f9ba8af65be5d3d9275ae608b109c890dd1400b64c"
 
 RPROVIDES:${PN} += "libplasma-volume-declarative.so \
 plasma5-pa \

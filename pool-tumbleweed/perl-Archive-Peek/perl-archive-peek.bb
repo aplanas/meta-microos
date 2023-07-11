@@ -6,8 +6,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.37"
 
-RPM_NAME = "perl-Archive-Peek-0.37-1.8.noarch.rpm"
-RPM_HASH = "6ef074c5527449abef17d7aa0195764e8d04c4791a6a055ea32d35214b61c28e68c4886dffd90035b147fa0a11e60e3777d3a2a10d1aabe7bf9ef9eec3d91ca4"
+RPM_NAME = "perl-Archive-Peek-0.37-1.9.noarch.rpm"
+RPM_HASH = "f56352cae4ff22168a63562c3d8bc2c29071da0e23d8c1ea78b2d932a489cdd88dbcb65c0ff407fa53fb13cd82a64417ebbac1aa75f4ce148e5b68d66fc00e50"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Archive--Peek \
@@ -15,7 +15,7 @@ perl-Archive--Peek--Tar \
 perl-Archive--Peek--Zip \
 perl-Archive-Peek"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Archive--Tar \
 perl-Archive--Zip \
 perl-Moo \

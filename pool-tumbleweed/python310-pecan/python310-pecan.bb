@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.2"
 
-RPM_NAME = "python310-pecan-1.4.2-3.1.noarch.rpm"
-RPM_HASH = "4860d36908ae75d0c658829168fab39cdcdf1ec9e6963fdc4d190248a8a72b90549f750f0591c76d0438728fa88ace61a6e96f7d65cbab38d7cb8472177dbf7c"
+RPM_NAME = "python310-pecan-1.4.2-3.3.noarch.rpm"
+RPM_HASH = "6dc50497b0b4a24b17809853a6df39a341a0715a9d74f7fae405998d5ff9d0e9fda39fac5c5d763f9331c7baeb1068c14361b5f499c16081c2d901e2cb2c6daf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pecan \
-python3.10dist-pecan \
+RPROVIDES:${PN} += "python3.10dist-pecan \
 python310-pecan \
 python3dist-pecan"
 

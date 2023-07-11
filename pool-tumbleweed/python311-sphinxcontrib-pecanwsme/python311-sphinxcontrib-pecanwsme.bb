@@ -4,11 +4,12 @@ LICENSE = "Apache-2.0"
 
 PV = "0.10.0"
 
-RPM_NAME = "python311-sphinxcontrib-pecanwsme-0.10.0-3.1.noarch.rpm"
-RPM_HASH = "a48a6875e5508f9a6297d730a359cef747c2c45f7c3cad49bca320f70133b390bb5e0543850cc0e35b9f1df503be53bc9becb4d95c9e58fb6f92a3beb97ce96d"
+RPM_NAME = "python311-sphinxcontrib-pecanwsme-0.10.0-3.3.noarch.rpm"
+RPM_HASH = "3ff79967ca333a174590180e2c14224b3a568639b55581509497bae96be9fe9247f3dd749a47327cfd7c6dcd543763366cd380db5df45e7ffd8357515b69977b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-sphinxcontrib-pecanwsme \
+RPROVIDES:${PN} += "python3-sphinxcontrib-pecanwsme \
+python3.11dist-sphinxcontrib-pecanwsme \
 python311-sphinxcontrib-pecanwsme \
 python3dist-sphinxcontrib-pecanwsme"
 

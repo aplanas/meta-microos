@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "4.0.0"
 
-RPM_NAME = "python311-azure-mgmt-apimanagement-4.0.0-1.1.noarch.rpm"
-RPM_HASH = "22ded2ced2d1203550020deddb9e18a025c4923426429bcb06d36f619e1a10ed054e7c591d2b94a487d9bc6c8396d9d50b5f31343c09895bca944a81d4236d0d"
+RPM_NAME = "python311-azure-mgmt-apimanagement-4.0.0-1.2.noarch.rpm"
+RPM_HASH = "4c5d457d14ce86f0ef133f0fea860b5ffb3badfbbc9ba85383188b180e542ee441fc228e92d2464a0ab5bb65e29732b615f804ff09fccee189161a0696a9dcc8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-apimanagement \
+RPROVIDES:${PN} += "python3-azure-mgmt-apimanagement \
+python3.11dist-azure-mgmt-apimanagement \
 python311-azure-mgmt-apimanagement \
 python3dist-azure-mgmt-apimanagement"
 

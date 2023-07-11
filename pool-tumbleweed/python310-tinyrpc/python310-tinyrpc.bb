@@ -11,12 +11,11 @@ LICENSE = "MIT"
 
 PV = "1.1.6"
 
-RPM_NAME = "python310-tinyrpc-1.1.6-1.1.noarch.rpm"
-RPM_HASH = "9d9e375ff54a3028665a3190c0b0f199f580030e18f403168dda4569f901ebe5dce9468e69fe86c13a49368cabd4c24f746481c0db05874b75ab69a789246ca5"
+RPM_NAME = "python310-tinyrpc-1.1.6-1.3.noarch.rpm"
+RPM_HASH = "9b6b4623015c3192e7ad2a2ace1e0ae96109a9acdeeca1cbc34dc6ada27fb44dc66e25e3763dabc9e0df5099dcf374a5bedb391d4e3cdb575e6c62548c237021"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-tinyrpc \
-python3.10dist-tinyrpc \
+RPROVIDES:${PN} += "python3.10dist-tinyrpc \
 python310-tinyrpc \
 python3dist-tinyrpc"
 

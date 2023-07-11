@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "9.4.5"
 
-RPM_NAME = "ghc-libiserv-doc-9.4.5-3.1.noarch.rpm"
-RPM_HASH = "2524f7ea140fa05ee6f577c769dc079a86e9a2720f0c525fda5083f2d0db0b561b2d330154cd6541f93e1806714e0952bad3b1ba4694340adfcbdba31a8ae4af"
+RPM_NAME = "ghc-libiserv-doc-9.4.5-3.2.noarch.rpm"
+RPM_HASH = "e04f82920ece9e9d2e7418fc04a22557e4ff160f5720de66ac0642aa36e9f1757975561ff655295a44a8a50722f6fa316f27585d8c915908e35e909a019bafed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-libiserv-doc"

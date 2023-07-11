@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "14.0.0"
 
-RPM_NAME = "libtrilinos_14_0_0-gnu-openmpi4-hpc-14.0.0-1.2.aarch64.rpm"
-RPM_HASH = "dda0a7359247d7d421ad0a59f5efcbd1cdb192218af1212114873712871e6f8a2ad49098db96bef3cab320b693dc6584a6b0547845f3630d3b1398ed0110a80d"
+RPM_NAME = "libtrilinos_14_0_0-gnu-openmpi4-hpc-14.0.0-1.3.aarch64.rpm"
+RPM_HASH = "7772f324e92de82e0262c51f19260faa6d66e1a44e96f8cabc1092ff5060aa89b67816694ad188d768b5f52063b7b4d64ae3512b73e1e4e988cb6ca0c6991c03"
 
 RPROVIDES:${PN} += "libtrilinos-14-0-0-gnu-openmpi4-hpc"
 

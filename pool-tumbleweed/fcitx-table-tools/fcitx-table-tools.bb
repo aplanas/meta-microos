@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.2.9.9"
 
-RPM_NAME = "fcitx-table-tools-4.2.9.9-1.5.aarch64.rpm"
-RPM_HASH = "7b357025e0601c743d7328b5b1415d1e5f2aec0ed29fd1bc3b85cafb630d3e1123f7ce63a63e2a52fc7f10a4cf733dc04fbf1ba5291f311456af54a9358d9a4a"
+RPM_NAME = "fcitx-table-tools-4.2.9.9-1.6.aarch64.rpm"
+RPM_HASH = "11d2b0651e972aa931d01a9dce3fdb29e61d3110de6e2ec923000414de23025154f83ee7494f6e51eeab07b95c73fb9e39d6bdc28eabd3d2e14db328b7aceb17"
 
 RPROVIDES:${PN} += "fcitx-table-tools"
 

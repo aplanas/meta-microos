@@ -4,12 +4,11 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0.1"
 
-RPM_NAME = "python310-term-background-1.0.1-1.6.noarch.rpm"
-RPM_HASH = "f738278e4cd8abb0ee78dbc2d6efa0233d4b13b0b0923a0470fdd353a03e392b3a35af4486e7dffc01912336fa440a956b1f7fae9efe64a1a74399285368b15c"
+RPM_NAME = "python310-term-background-1.0.1-1.8.noarch.rpm"
+RPM_HASH = "5fa2aba5c7083433b5e83f8fea940ad852099f0a346aea3503d4adedef40be71c44ad2281e81cc554e10caead215c4ca9376c542b0e8e570a68bf9f58cd84392"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-term-background \
-python3.10dist-term-background \
+RPROVIDES:${PN} += "python3.10dist-term-background \
 python310-term-background \
 python3dist-term-background"
 

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "6.0.17"
 
-RPM_NAME = "zabbix-proxy-sqlite-6.0.17-1.1.aarch64.rpm"
-RPM_HASH = "5f20ae3bb7f0c36505d46e63284532b7a019bca499b34b2f166bed862cb4c979e08cdac5a789328b0b835a00288e110353a532fcfcea7246993a92e6620b9353"
+RPM_NAME = "zabbix-proxy-sqlite-6.0.17-1.2.aarch64.rpm"
+RPM_HASH = "bd8ba4ece3349b7630904b4ff093577ccc5774b87ad0b54676a38b1c0759a2f50e6a9145868c101cb1efcdc17702f503b6139d76be6d0d6c1e345c28cd50b552"
 
 RPROVIDES:${PN} += "zabbix \
 zabbix-proxy-binary \

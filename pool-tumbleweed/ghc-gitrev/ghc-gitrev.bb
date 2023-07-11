@@ -6,15 +6,15 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.1"
 
-RPM_NAME = "ghc-gitrev-1.3.1-9.2.aarch64.rpm"
-RPM_HASH = "cf2dd3ef37a91d1c609600cfb0446b0b9686795acd255dfd6f1f9f99180a6b3f6b48fb2a716f70ffa3b86eddd1f876f1e73528f6429d49c4e9077ef6a431451f"
+RPM_NAME = "ghc-gitrev-1.3.1-9.3.aarch64.rpm"
+RPM_HASH = "9a599998bb65bcee35197eec5ca89f404a39a33fb59cc62acb97bc71f41d88ad38f119cfc1ae40aca73d96ac45a04b66513a64bfcbacf8d5deb0ef78f506a829"
 
 RPROVIDES:${PN} += "ghc-gitrev \
-libHSgitrev-1.3.1-Fh7rxVehK3vCpE8f2RFTGz-ghc9.4.5.so"
+libHSgitrev-1.3.1-CQYGfdCfGPeA3DF217wQTZ-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
 libHSbase-4.17.1.0-ghc9.4.5.so \
-libHSbase-compat-0.12.2-L1DEOlMQJOdFOKsjHoWYov-ghc9.4.5.so \
+libHSbase-compat-0.13.0-Cvz3167VMpo6rdOohSlum3-ghc9.4.5.so \
 libHSbytestring-0.11.4.0-ghc9.4.5.so \
 libHSdeepseq-1.4.8.0-ghc9.4.5.so \
 libHSdirectory-1.3.7.1-ghc9.4.5.so \

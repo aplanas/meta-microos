@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.3.17"
 
-RPM_NAME = "liboil-devel-0.3.17-26.7.aarch64.rpm"
-RPM_HASH = "a7141400ceb61e8556f58bf428b88e17cda193d02d147b00aea7e3c21edbf3e3320dc543208b483e92339d75276e0d8fe7a92f43336166d081e49de7e754afad"
+RPM_NAME = "liboil-devel-0.3.17-26.8.aarch64.rpm"
+RPM_HASH = "9cae71a492a78c3159d0304691f1e8ff290498ddff4edf0487d73aa83cbab88baeae53308c057b2eaf1e79dc6e5a04e507fa7c042c90905a46e37f4b7f1beeaf"
 
 RPROVIDES:${PN} += "liboil-devel \
 pkgconfig-liboil-0.3"

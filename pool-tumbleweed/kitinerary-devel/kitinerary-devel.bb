@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains all necessary include files and libraries n
 to build programs that use the kitinerary library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kitinerary-devel-23.04.1-1.2.aarch64.rpm"
-RPM_HASH = "f8072acba4c0f4588b6e59bfebc63e3386ffa469e11e341647c4b306f6b699feab45cd8cc30fff3b8e1cc947e6b9acf63a96ba19fc48b5534175bf4421054455"
+RPM_NAME = "kitinerary-devel-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "844182a863bc2ddb9eb06df66cef1e634c83eb07fcda1eff522372e84eb89184777256fea55b1f3ac93a83e27befd8e3a60da1432682d1582081e748922e3127"
 
 RPROVIDES:${PN} += "cmake-KPim5Itinerary \
 cmake-KPimItinerary \

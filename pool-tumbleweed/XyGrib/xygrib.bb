@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.2.6.1"
 
-RPM_NAME = "XyGrib-1.2.6.1-7.3.aarch64.rpm"
-RPM_HASH = "b2c1a7b6958dbe161a3df6a200ecb0c74270a844dba3e6deb48aebabc9dc1e46203ae40bb5e555f0486121b9b9a11c3a01fecc963dd04f4db01891e770633be0"
+RPM_NAME = "XyGrib-1.2.6.1-7.4.aarch64.rpm"
+RPM_HASH = "b868fe333a32e985adb01c458dd6bd1343b64b88dff7f71600f345ebb71f71f7a86c87f78fb18e7ea831a65ba7dcab0bfe24acde82091d2910246f3974e20485"
 
 RPROVIDES:${PN} += "XyGrib"
 

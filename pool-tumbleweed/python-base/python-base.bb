@@ -10,8 +10,8 @@ LICENSE = "Python-2.0"
 
 PV = "2.7.18"
 
-RPM_NAME = "python-base-2.7.18-34.1.aarch64.rpm"
-RPM_HASH = "0d55eb8bb74477d61a69d8903812198ddaf803ae41fb1bd286a17273669ce4d7e1dde584039d501a50db07729b3bd4173ae7bf92d1cdf3b86a34ad40074a1c1b"
+RPM_NAME = "python-base-2.7.18-36.1.aarch64.rpm"
+RPM_HASH = "43953b90a722c221ebbc2e5bb4915f8f0ad86119f470c47ec1c7b78c36b988bc003289106d3361d599fadc13b3a2781c1568cd863f68c8db588cd93472b5654b"
 
 RPROVIDES:${PN} += "python-abi \
 python-argparse \

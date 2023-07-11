@@ -10,8 +10,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.17.8"
 
-RPM_NAME = "cairo-tools-1.17.8-1.1.aarch64.rpm"
-RPM_HASH = "ca3892da2cc09bf445314924676ee04533c0ae3c50cfad0bb9fab26238fdd62f9e10d29b312fe45c5501e139013bc7575319da157a529e9f1a4793fbdf626d4a"
+RPM_NAME = "cairo-tools-1.17.8-1.2.aarch64.rpm"
+RPM_HASH = "aeccc28a3f66a89f4234a7d244cd122ecd575701a641a0ebaf75801c8c29771bfbf4d650e2c3ded1547ed35d49b286fc8901a49e129c3b7dd01627e6b053cb37"
 
 RPROVIDES:${PN} += "cairo-tools \
 cairo-utils \

@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.10.34"
 
-RPM_NAME = "libgimp-2_0-0-2.10.34-4.1.aarch64.rpm"
-RPM_HASH = "afd1989fa901a254e61d70f4f087baf3c1261b08f1eaf9a21a70af0f877e9b6b19bb305c71f4a1ea55ef2d6c45e896885c9563125625af65c94e05d47ffabbd3"
+RPM_NAME = "libgimp-2_0-0-2.10.34-5.1.aarch64.rpm"
+RPM_HASH = "1e90c3853dd51317b495a220b7c6a6c7eddc68f375c100680e4a06b57c2df39b93a5cac4dbb0138a4c4eddfd5dc097a7f1497b90d84539891c814656a13dc395"
 
 RPROVIDES:${PN} += "libgimp-2-0-0 \
 libgimp-2.0.so.0 \

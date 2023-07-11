@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.13.0"
 
-RPM_NAME = "python39-josepy-1.13.0-1.6.noarch.rpm"
-RPM_HASH = "1c4b58c77192eef2c83f672d3992ef17be6b7430dbe0a8fcff3a724c15c618738b1a431a8cfdc6ee4480c7ef7f6fc936cb719056e076daf3f89489d5a5a42326"
+RPM_NAME = "python39-josepy-1.13.0-2.3.noarch.rpm"
+RPM_HASH = "4ce8fc018b138f44ee1750f7f7cdf3468f48cb089fea2aea618dab5d84d7717ce501c26bcfde5e2d46a879fcc1ca2a79ba26cb3b1c3c4ee48dc1e68548a4868e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-josepy \

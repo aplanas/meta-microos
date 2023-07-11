@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.10.13"
 
-RPM_NAME = "ant-imageio-1.10.13-2.1.noarch.rpm"
-RPM_HASH = "9d7fce1d7158cada27f2272e8156a94779e4547cb2c2fa51e0ccf0f64bf5a629165d6e81418a31b22750b1aa496e13ca5748a9dbc6ecb99a1ca61f0d77f041b9"
+RPM_NAME = "ant-imageio-1.10.13-2.2.noarch.rpm"
+RPM_HASH = "523e7282eec473ca692b208844fd607846aae904cb5138f07e3cb42858717da0697679e2317b82e33bdc4366b30d04f2184e9762f39f2780fef1f1ef0e98b13e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-imageio \

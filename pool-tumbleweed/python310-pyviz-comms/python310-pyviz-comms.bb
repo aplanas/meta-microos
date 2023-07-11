@@ -6,12 +6,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.2.1"
 
-RPM_NAME = "python310-pyviz-comms-2.2.1-1.3.noarch.rpm"
-RPM_HASH = "175881640b1d909c340650e496f4645b5d603972fe203799dff4a2237f7d6c99ead1290fdd7e87657e1e99acf9cf65cd004de190312e9b2b054c5d0480081fab"
+RPM_NAME = "python310-pyviz-comms-2.2.1-1.5.noarch.rpm"
+RPM_HASH = "270e2094134a653ac2bf1d433b817f8b3f5e16f775e8262eda604491751b2391127d275c0a53d122661b1837cff58a716a44a04f0e261176b6649b61cb2baa73"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pyviz-comms \
-python3.10dist-pyviz-comms \
+RPROVIDES:${PN} += "python3.10dist-pyviz-comms \
 python310-pyviz-comms \
 python3dist-pyviz-comms"
 

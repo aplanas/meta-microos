@@ -6,10 +6,10 @@ This package provides the GObject Introspection bindings for the \
 NetworkManager library."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.42.6"
+PV = "1.42.8"
 
-RPM_NAME = "typelib-1_0-NM-1_0-1.42.6-2.1.aarch64.rpm"
-RPM_HASH = "72bfd90d1b10969392a757611ef70a067105aefac7a3710f011fe6e7e51709512e3685274b53ff12699eda44abf01ce553a36e81067475a7549aee004071e09b"
+RPM_NAME = "typelib-1_0-NM-1_0-1.42.8-1.1.aarch64.rpm"
+RPM_HASH = "9eaea54140b0c6156e003876e30b1132e98f18b1b71769dcbdbc7326c52e6bf5b32a85549a40d5142dcf41b57abad9c13ec07692323272fdbd3f9955311cee27"
 
 RPROVIDES:${PN} += "typelib-1-0-NM-1-0 \
 typelib-NM"

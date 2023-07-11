@@ -3,10 +3,10 @@ DESCRIPTION = "Plasmaengineexplorer is a graphical tool allowing developers to \
 test Plasma data engines without writing a Plasma applet."
 LICENSE = "GPL-2.0-only"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "plasmaengineexplorer5-5.27.5-1.1.aarch64.rpm"
-RPM_HASH = "75afe9880e331104eebab7cde1b86e8f5ab65107f822a8bc99f27dafda0c4c04173ab828e6995c1d6f53f8a85c941c70166d3d3445a4705b52eaa83366b1e675"
+RPM_NAME = "plasmaengineexplorer5-5.27.6-1.1.aarch64.rpm"
+RPM_HASH = "0cf051183f5c41cea5f7b01a493523523c7e0371b0b382285afae6064c169e5d7cd24a3404f3e94e0fc7432450b4c8916bb71557bd43c5887218a75b5e30c44f"
 
 RPROVIDES:${PN} += "plasmaengineexplorer5"
 

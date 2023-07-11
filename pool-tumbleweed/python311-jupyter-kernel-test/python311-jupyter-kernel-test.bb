@@ -5,11 +5,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.0"
 
-RPM_NAME = "python311-jupyter-kernel-test-0.5.0-1.3.noarch.rpm"
-RPM_HASH = "f407c7162518a4a82ccee9ba30560450cf21f2247ef66e3dc6c71932313b6945821b5e0e2def8431f70f7f0e60b4f6d31a30366931351573a3ed8ce50dd34938"
+RPM_NAME = "python311-jupyter-kernel-test-0.5.0-1.5.noarch.rpm"
+RPM_HASH = "b5ae231e0fdd6d1c50d86bf48e85087e0c2fbfa780f6e7a7b0a5f8b6b0fa5460e71bb19fc6dbe33a9d39c2604cceb3dc4d63daf6f16751b6b776261804a86678"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-jupyter-kernel-test \
+RPROVIDES:${PN} += "python3-jupyter-kernel-test \
+python3.11dist-jupyter-kernel-test \
 python311-jupyter-kernel-test \
 python3dist-jupyter-kernel-test"
 

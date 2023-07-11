@@ -2,10 +2,10 @@ SUMMARY = "Python support for KDevelop"
 DESCRIPTION = "A KDevelop plugin which provides Python language support, including code completion and debugging using PDB."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kdevelop5-plugin-python3-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "190edd5f991e26637ec0d667134037485d49a2354193729e887d56f2a42c898306cda504ddb6561aca9539c8f2099c3d0d4849eb924c46ea85f38bf37f321d88"
+RPM_NAME = "kdevelop5-plugin-python3-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "770c7594347aebef8d29abe0a25878c78d4bda1dc06e0249cc0c1edfaeeb43b6274acca313ac47f805aa20c0b61cda643dddee62e7088136de0287c401717417"
 
 RPROVIDES:${PN} += "kdevelop4-plugin-python \
 kdevelop4-plugin-python3 \
@@ -35,7 +35,7 @@ libQt5Core.so.5 \
 libQt5Gui.so.5 \
 libQt5Widgets.so.5 \
 libc.so.6 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libstdc++.so.6"
 
 inherit rpm

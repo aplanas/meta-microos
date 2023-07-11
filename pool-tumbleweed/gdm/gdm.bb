@@ -5,14 +5,15 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "44.1"
 
-RPM_NAME = "gdm-44.1-1.1.aarch64.rpm"
-RPM_HASH = "638a8ed52a752415d7cbc1c8c1578544cb857711180ecb332f73f422175db577c3b6e2fbdf023a4af536ea00a266c006fd494e8d5b10fbff2d3264f12f82626e"
+RPM_NAME = "gdm-44.1-2.1.aarch64.rpm"
+RPM_HASH = "7046c023ae5c4c207c420915c41a4f394fa2c45c812d0ef07897b7d4191b4e5b8a187bee69f5cdbff6cfd1d28191253e6693ec030dc204eefabe110a5d6115a8"
 
 RPROVIDES:${PN} += "config-gdm \
 gdm \
 gdm2 \
 gnome-applets-gdm \
 group-gdm \
+pulseaudio-gdm-hooks \
 user-gdm"
 
 RDEPENDS:${PN} += "/usr/bin/dbus-run-session \

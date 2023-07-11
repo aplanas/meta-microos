@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only & MIT"
 
 PV = "3.43"
 
-RPM_NAME = "python39-pykickstart-3.43-2.2.noarch.rpm"
-RPM_HASH = "a55be7a5e4e80e40115014caabea93c861ef6309633a0181392de718ae96985d0023b17e423ded7b9b018d02b38fa3526d2a4f63f3c2727c728ed6d9ed03d0c8"
+RPM_NAME = "python39-pykickstart-3.43-2.4.noarch.rpm"
+RPM_HASH = "f3a28c674b620a72d71e1ce40dc3938d9aa9a73e94c9b2a8b3c66c7e40f5403e9fa78ef9ee81555a11fd644eb65c4525dc396bf921b1faa6f7429c61fafef7b0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pykickstart \

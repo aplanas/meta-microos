@@ -2,10 +2,10 @@ SUMMARY = "Kubernetes client tools"
 DESCRIPTION = "Kubernetes client tools like kubectl."
 LICENSE = "Apache-2.0"
 
-PV = "1.27.1"
+PV = "1.27.3"
 
-RPM_NAME = "kubernetes-client-1.27.1-30.1.aarch64.rpm"
-RPM_HASH = "394bf0134a85659e315e249100dad6ea11ec1fb60930fddf85996bedace7346c688efe525bb19ba4e9b9f95396b7e09371e9adadffe3cdeaca107f32a0cb3b75"
+RPM_NAME = "kubernetes-client-1.27.3-32.1.aarch64.rpm"
+RPM_HASH = "7e665a790d7507cfac6cb31f023616a600c936f9da8dbae913694c13eebc5f7768c3855d4764e4c5efc9d3df58b48e16c7aafdca07fc494418faa2357f1232fa"
 
 RPROVIDES:${PN} += "kubernetes-client"
 

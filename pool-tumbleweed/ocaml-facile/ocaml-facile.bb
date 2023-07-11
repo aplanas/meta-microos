@@ -19,8 +19,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "1.1.4"
 
-RPM_NAME = "ocaml-facile-1.1.4-2.11.aarch64.rpm"
-RPM_HASH = "ccbecf93e0e900dc94a9ca059e8a3e7125a7f7023a81d68d9ae9a43f39834ba22cb2c4534759bea4c889e24820fb8d6af18ae6adde07d7fb855fc0f0bd99d1e5"
+RPM_NAME = "ocaml-facile-1.1.4-2.12.aarch64.rpm"
+RPM_HASH = "3146fb2aa1786808f3198a9a2e8014249f1cac83ec843912f6b473689ec4d2d51706fd76dc7b826a1b1007d835a2132966667c0e7c39112b63f6d4b0ac4ed05e"
 
 RPROVIDES:${PN} += "ocaml-facile"
 

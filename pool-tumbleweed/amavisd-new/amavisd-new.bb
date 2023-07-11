@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.13.0"
 
-RPM_NAME = "amavisd-new-2.13.0-2.1.noarch.rpm"
-RPM_HASH = "61fb52e300eb70431bde35f74b280fd037b0384fe6d521d317132b7261c1ccea2e186f1f7204e8f1127ef4ea1821c7ce120fb528c0e7cb5ae136a0b1385d7ca6"
+RPM_NAME = "amavisd-new-2.13.0-2.2.noarch.rpm"
+RPM_HASH = "b01c74c4810cdbc9de164c3b4c6b86e0a075282c4c316f1e39e677572f72c8a4e7ac2d4812091b094808e161223d9919a4aa85c9a0f096425e9bebc46ebba40d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "amavisd-new \

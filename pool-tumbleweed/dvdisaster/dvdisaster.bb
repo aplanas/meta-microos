@@ -5,10 +5,10 @@ which is used to recover unreadable sectors if the disc becomes damaged \
 at a later time."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.79.6"
+PV = "0.79.10"
 
-RPM_NAME = "dvdisaster-0.79.6-3.7.aarch64.rpm"
-RPM_HASH = "b29a80371566fc84adcba7abded7ea7f39a2e86c1f4296ff93a159ab1887075a0b4ec1ebf84def9d2d888dda195fdc07d94b813a00df7170e7fc9484a6d2e94a"
+RPM_NAME = "dvdisaster-0.79.10-1.1.aarch64.rpm"
+RPM_HASH = "b85e4543cc5e2938998ab96bbc0a143a8e22a85dc666962c21a75313e78224a0cada72588d7112217df20ea9181a92f07cb5e308615bf514eb2d091edffa57b2"
 
 RPROVIDES:${PN} += "dvdisaster"
 

@@ -7,8 +7,8 @@ LICENSE = "OpenSSL"
 
 PV = "3.7.0"
 
-RPM_NAME = "libressl-3.7.0-1.2.aarch64.rpm"
-RPM_HASH = "7ed57c472485c483b89c7ffffcc16d3a2bc11013923ffdb1cd221082becfdcadea2bf1380451245a947fe37a857f4592662fbb981ea8876c424fab088ae8f47c"
+RPM_NAME = "libressl-3.7.0-1.3.aarch64.rpm"
+RPM_HASH = "4fd86521f94fddff8825551ed782dfd5eed34c3911a00ba1524591bff73496f7430d6494c6b4b687b715b6add56e0cf77a42694ee282cb6753c6ef8306ef0bf0"
 
 RPROVIDES:${PN} += "config-libressl \
 libressl \

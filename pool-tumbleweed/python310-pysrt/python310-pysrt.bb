@@ -5,12 +5,11 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.1.2"
 
-RPM_NAME = "python310-pysrt-1.1.2-3.14.noarch.rpm"
-RPM_HASH = "f777f4e5240a34852e7a57bed144baea30efcb96d8b5098fb1b02a007fcfb78afd302eeada6d0f3530b95a002a3b7e17125f457ad3a64738a2d57604c94e6978"
+RPM_NAME = "python310-pysrt-1.1.2-3.16.noarch.rpm"
+RPM_HASH = "df72ffc169254a170498f3cb078a14612c2b0a747bb7134cb1d4c6ef40eccb0b890953ef7d74a54bd0f7ea8271e525e426ec4e941221dfb91c2cffd88fae3e23"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pysrt \
-python3.10dist-pysrt \
+RPROVIDES:${PN} += "python3.10dist-pysrt \
 python310-pysrt \
 python3dist-pysrt"
 

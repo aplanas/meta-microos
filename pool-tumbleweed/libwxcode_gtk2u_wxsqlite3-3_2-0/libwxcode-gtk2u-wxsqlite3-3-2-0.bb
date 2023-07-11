@@ -6,8 +6,8 @@ LICENSE = "SUSE-wxWidgets-3.1"
 
 PV = "4.9.1"
 
-RPM_NAME = "libwxcode_gtk2u_wxsqlite3-3_2-0-4.9.1-1.4.aarch64.rpm"
-RPM_HASH = "1cb8c79b3ddb04a2a7c8c4b17279d7afec3ca36c7aaa40ee35796c0bce98a22162c3c301e546c8980aabf2bb100921ba67564cae73f72d237bc18f8095430c4d"
+RPM_NAME = "libwxcode_gtk2u_wxsqlite3-3_2-0-4.9.1-1.5.aarch64.rpm"
+RPM_HASH = "8e223bed3456b8b6497b47e09d1dff5c9b38f3f75cadfb2cae52db97be7dc6d3e15c1b716d002b38e8d2015af3368515f5c09bb55c0a27b01808560419b9648b"
 
 RPROVIDES:${PN} += "libwxcode-gtk2u-wxsqlite3-3-2-0 \
 libwxcode-gtk2u-wxsqlite3-3.2.so.0"

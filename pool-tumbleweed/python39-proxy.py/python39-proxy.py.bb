@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.4.3"
 
-RPM_NAME = "python39-proxy.py-2.4.3-1.1.noarch.rpm"
-RPM_HASH = "861eadc36270933a77474beac5308f0a6613641a5ef37ad65fe09b6246a3736754283e05ad77b65ae8f6d94c9c368b0d55df5aa365e13babf20b728a4353fdde"
+RPM_NAME = "python39-proxy.py-2.4.3-1.4.noarch.rpm"
+RPM_HASH = "ea00612dacb3e144ec6bdaf0d9dbf788fabb083362b9614987e376b44a00d9376a516543d0533c39cac79ea7249f86299a010b8f729927ba64e13a9f918c0df0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-proxy.py \

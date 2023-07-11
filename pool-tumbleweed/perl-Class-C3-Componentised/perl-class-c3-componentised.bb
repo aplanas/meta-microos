@@ -9,15 +9,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.001002"
 
-RPM_NAME = "perl-Class-C3-Componentised-1.001002-1.17.noarch.rpm"
-RPM_HASH = "a142bb12055287d64f4ceb5a69d1b8bd77f2987a73abb0a4b5983cbefe9b1dcf71107e4b3f423d1a1e19caa5a69231c4728f9698b7a4572bae9959191af5fa46"
+RPM_NAME = "perl-Class-C3-Componentised-1.001002-1.18.noarch.rpm"
+RPM_HASH = "6c1ff7b53222c86538dc02be58a826eaa84c60f8bb366a837d10edd8e7f8baf14e536757c03121f85ad48b71ccf1a333e6cd483fdb679f36b237bab1e4c746e6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Class--C3--Componentised \
 perl-Class--C3--Componentised--ApplyHooks \
 perl-Class-C3-Componentised"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Class--C3 \
 perl-Class--Inspector \
 perl-MRO--Compat"

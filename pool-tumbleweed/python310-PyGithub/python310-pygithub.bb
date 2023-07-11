@@ -6,12 +6,11 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.57"
 
-RPM_NAME = "python310-PyGithub-1.57-1.3.noarch.rpm"
-RPM_HASH = "c7e5fe3afcc4b69977c3357ecccbc65707f65ef5cdf9629f63f4ff2aea770c7cdf867ba950d91653cca7e61e49a1150d28abfe0c05308cdb2b1e4751fc3e9091"
+RPM_NAME = "python310-PyGithub-1.57-1.5.noarch.rpm"
+RPM_HASH = "3bd8d6e266f85fee02b4999e1a96088ad970b91ed7e3295f0e0608c0eae369d5bbf275736013b9bc504ace1cc9c736f0e2b3eb922736f3afd4db39ea7fb2dd2e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-PyGithub \
-python3.10dist-pygithub \
+RPROVIDES:${PN} += "python3.10dist-pygithub \
 python310-PyGithub \
 python3dist-pygithub"
 

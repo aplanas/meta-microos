@@ -12,8 +12,8 @@ LICENSE = "PostgreSQL"
 
 PV = "13.11"
 
-RPM_NAME = "postgresql13-llvmjit-devel-13.11-1.2.aarch64.rpm"
-RPM_HASH = "042b798d325589bd54a76906f0acd24c1f4c8b0007f280e7ccbea9b198eab17ff270682ae2bafed1bc10d45ba90298035361a03034c10ccd6208557827603be7"
+RPM_NAME = "postgresql13-llvmjit-devel-13.11-1.5.aarch64.rpm"
+RPM_HASH = "77317d5f7d06cb479a12f5c554b593e57f8b144799c4d751135a66317a3fd295f3119573d1f27bfbe69602f2c92188248feac7174d4b91cef32f7015eb754275"
 
 RPROVIDES:${PN} += "postgresql-llvmjit-devel \
 postgresql-llvmjit-devel-implementation \

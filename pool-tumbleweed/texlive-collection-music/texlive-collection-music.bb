@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.208.svn65862"
 
-RPM_NAME = "texlive-collection-music-2023.208.svn65862-58.1.noarch.rpm"
-RPM_HASH = "b925ffe7f6df7e1732caaec853903aa8287c276531604cf3287450bd3ebfa35cb2045a04b8c24d43f02e3b05d41f2d44e65e9b7a27c250bfa3fd74798dc3e401"
+RPM_NAME = "texlive-collection-music-2023.208.svn65862-60.1.noarch.rpm"
+RPM_HASH = "200187faf3716467fc2c27f6d5367d5533865b8b9de0414e2742e848accc6ca2c22f6c88ca94b935dc40cd2eeae15ad27e4bb66ee08d9537d5fbaf00326ecfa3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-music \

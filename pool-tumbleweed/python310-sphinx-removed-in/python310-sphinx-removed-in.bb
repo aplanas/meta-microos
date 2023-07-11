@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.1"
 
-RPM_NAME = "python310-sphinx-removed-in-0.2.1-2.3.noarch.rpm"
-RPM_HASH = "a878cd4e22808b80f7f55bf4f73ef83a36306e9a09199078621c4467afa259430522074fa7da0f8839467650415e8582f098b461482be2f2b7d536aac32576f6"
+RPM_NAME = "python310-sphinx-removed-in-0.2.1-2.5.noarch.rpm"
+RPM_HASH = "650fd6c7f2f6b9ee9452429d079541c3a00010f9794bd395e367f059e43527b8040616a33828da6369592ddf339bd214ee39c2026c7a792c6fa43ac52f3ecb61"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-sphinx-removed-in \
-python3.10dist-sphinx-removed-in \
+RPROVIDES:${PN} += "python3.10dist-sphinx-removed-in \
 python310-sphinx-removed-in \
 python3dist-sphinx-removed-in"
 

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.0.15.3"
 
-RPM_NAME = "ghc-mono-traversable-prof-1.0.15.3-2.3.aarch64.rpm"
-RPM_HASH = "fd188e80b358393c8b06f7763cd775fbc6ea7c643714a4982e662a68a02cdfadcef13553b66cc5511c17013128b0cf7d0976c283f703d42b869b986fa18b69cd"
+RPM_NAME = "ghc-mono-traversable-prof-1.0.15.3-2.6.aarch64.rpm"
+RPM_HASH = "08cfc9600da99c65a013afe8fd999d58ae7541b5d6afb5c06886f28dd1158e416178381be5c106717d392f8687a4d67327e6f3c4a48e8ec08418462a270aa38a"
 
 RPROVIDES:${PN} += "ghc-mono-traversable-prof \
 ghc-prof-mono-traversable-1.0.15.3-IT8tyCr3vQLKgjlccagv2S"

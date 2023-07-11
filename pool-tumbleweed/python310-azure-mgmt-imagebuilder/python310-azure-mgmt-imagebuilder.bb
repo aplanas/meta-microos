@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "1.2.0"
 
-RPM_NAME = "python310-azure-mgmt-imagebuilder-1.2.0-1.1.noarch.rpm"
-RPM_HASH = "aa7db62c8543204f5d7d80d45f17454169dff893753a9fff1c7f3094a7bf77593627b8074598a7281bb9cda758f84c61dfa2407e5636463781aa2519c44e0ca4"
+RPM_NAME = "python310-azure-mgmt-imagebuilder-1.2.0-1.2.noarch.rpm"
+RPM_HASH = "2beeb54980b657f6ce755a32774491fc8308303b66dbb04fb8a1b91e3620e64fb2c89e6b3b599aaf1e1e19a718fa7971b1c87b7c6699cf9e9b8ae5cda1176bfe"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-imagebuilder \
-python3.10dist-azure-mgmt-imagebuilder \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-imagebuilder \
 python310-azure-mgmt-imagebuilder \
 python3dist-azure-mgmt-imagebuilder"
 

@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.1.3"
 
-RPM_NAME = "vacuum-im-plugins-usertune-1.1.3-1.23.aarch64.rpm"
-RPM_HASH = "30929263090fd9b5a11e56b3b636e7dc376db0163f4d3e27888f117d1d67bdd1ff4999af2b706a237c9b5599283df3f0d7a526531860834e5a6edf0d0bb8e93f"
+RPM_NAME = "vacuum-im-plugins-usertune-1.1.3-1.24.aarch64.rpm"
+RPM_HASH = "8d49c11cabda08fc5b54fa0a3433f3a0aa35ae3fec664a48688cd7fee9e39a4518d42a94ba23023a8204efe6cb8d3452fa1ea45e64ec29a055581636644e4029"
 
 RPROVIDES:${PN} += "libusertune.so \
 vacuum-im-plugins-usertune"

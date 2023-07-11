@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0.0"
 
-RPM_NAME = "python39-azure-mgmt-timeseriesinsights-1.0.0.0-1.8.noarch.rpm"
-RPM_HASH = "0a668ce0811017d87f23d0d9360ec3ab5da49eca3f526cd55dbaa6cefbe5bb0234fb4285dae20db9aac01830a87d454d02a11dd72ccb68f58a61a6c5ba03077f"
+RPM_NAME = "python39-azure-mgmt-timeseriesinsights-1.0.0.0-1.9.noarch.rpm"
+RPM_HASH = "bb3e4693d2c71a4c045eb4e82507cae688e48f91574d2158963134541c35cc0f2cfbc1aec44d204b286c50b98d8d4f53956d6fa4485505f6b9ca46dee78cc78d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-timeseriesinsights \

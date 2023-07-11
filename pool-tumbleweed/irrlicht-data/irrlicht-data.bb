@@ -9,8 +9,8 @@ LICENSE = "Zlib"
 
 PV = "1.8.5"
 
-RPM_NAME = "irrlicht-data-1.8.5-1.9.aarch64.rpm"
-RPM_HASH = "c172bcdb04ad8d29bc4fbe28672dcc6165ac7985414f7000877d08616613e3c16d5c5514f2d65e0c71017f860a69b4ae7c7f3f6f9d0a8eb5b4f26d7d966bb0c3"
+RPM_NAME = "irrlicht-data-1.8.5-1.10.aarch64.rpm"
+RPM_HASH = "8be4a07bf80d174fa4cea6bf95346ec531db5637ad6e1519ad82e326933d8bf748f0bbd6682502329c1eb04506c0cd91e2974877f688690b23fb286c26ed76cf"
 
 RPROVIDES:${PN} += "irrlicht-data"
 

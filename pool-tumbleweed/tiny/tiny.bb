@@ -4,8 +4,8 @@ LICENSE = "(Apache-2.0 | BSL-1.0) & (Apache-2.0 | ISC | MIT) & (Apache-2.0 | MIT
 
 PV = "0.10.0+git14"
 
-RPM_NAME = "tiny-0.10.0+git14-2.1.aarch64.rpm"
-RPM_HASH = "62925e27eff219615ee66271bf6af997678a80a51aabd5ef8dc46ac2959561de0fe6c94b3bd1cdad8672b824bec0670e023210a0068d6fe91ba062386fd25309"
+RPM_NAME = "tiny-0.10.0+git14-2.2.aarch64.rpm"
+RPM_HASH = "ca96aa364dde9fbd0e103200c44c8472f9f7fb43938fd0faf684182261afbf438a83ffd28ecbffffc247856924500f9928030f7a166754372c1d23ddcbd72c13"
 
 RPROVIDES:${PN} += "bundled-rust-crate-aho-corasick \
 bundled-rust-crate-async-broadcast \

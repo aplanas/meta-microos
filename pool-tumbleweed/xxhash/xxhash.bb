@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause & GPL-2.0-only"
 
 PV = "0.8.1"
 
-RPM_NAME = "xxhash-0.8.1-3.3.aarch64.rpm"
-RPM_HASH = "b1abdd9f23eee0e42b05e462d75611ba63fdf4dbb4526899a1087e82fbf4ab2efbb1aa1ad45b333ca96f39dfbaa2334251a74bbb574a1c6d190fd61fcbe9ba3b"
+RPM_NAME = "xxhash-0.8.1-3.4.aarch64.rpm"
+RPM_HASH = "6145ffbf88c52fde91520bbdacb59b327882ce7cdc6feb8a356a6fbf4966f2cd32fb8afd883d0f73a1a615b1416738b2012b1906000e83f5b5cdd5cd10027f02"
 
 RPROVIDES:${PN} += "xxhash"
 

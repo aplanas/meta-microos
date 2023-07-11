@@ -3,10 +3,10 @@ DESCRIPTION = "KDE's hotkey daemon module. It allows you to configure custom \
 keyboard shortcuts and mouse gestures."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "khotkeys5-5.27.5-1.1.aarch64.rpm"
-RPM_HASH = "d7bfabcfb0f3222c05ed88e0e727e844d63eed343f923b0a2fc9cd24d761dddde05a32e6a25fcdc06b243bf72a84e1c715f2f7f02f700dc59314c9a54a746b4f"
+RPM_NAME = "khotkeys5-5.27.6-1.1.aarch64.rpm"
+RPM_HASH = "6b1c4c6d5572ad0fb2cca58c3c63254a53792fbe05843c17c6082feb5011cbb327b12716821bfd5c935ac8a8aadd9f83b63df17164d50d1a5230897928fbe478"
 
 RPROVIDES:${PN} += "khotkeys5 \
 libkhotkeysprivate.so.5"

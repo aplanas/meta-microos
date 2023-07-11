@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.36"
 
-RPM_NAME = "edgar-lang-1.36-1.3.noarch.rpm"
-RPM_HASH = "abe4a6ffd90f285b2bf0e716a6be8b840deb0e91d401c8bf96d52074b821d5c4400e36a34cab2b89c0641e812e23ffcbe1282e3614312fda5a4ea6d379587510"
+RPM_NAME = "edgar-lang-1.36-1.4.noarch.rpm"
+RPM_HASH = "c191f84f527acfba18f048a1f73885b2fdad9a99519808be3a9d8f595f81881eeff174d4da60380bd081e54171c9a0ab49a4ef3391621cbea11e90fb900ca509"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "edgar-lang \

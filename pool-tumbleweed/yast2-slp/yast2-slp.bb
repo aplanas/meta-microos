@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.6.0"
 
-RPM_NAME = "yast2-slp-4.6.0-1.2.aarch64.rpm"
-RPM_HASH = "d70372bb76a73f123f2e052326cb63f2eff396da2e4e30cf6ccde066c2f43386b24310e5b252ff4cd8f6c3bc99cd3b36562905f9aa7a08c0d73affb47d33e4cd"
+RPM_NAME = "yast2-slp-4.6.0-1.3.aarch64.rpm"
+RPM_HASH = "4c1e655eaa7d28e977a56e1873327150eea4d5b7563bb41033691aae2f35de07515becd25d38427d48ffe1efe30ca49df5e0b81bdb374d6a1a6a798b01351c50"
 
 RPROVIDES:${PN} += "libpy2ag-slp.so.2 \
 yast2-slp"

@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.13.3"
 
-RPM_NAME = "ghc-crypto-api-0.13.3-5.3.aarch64.rpm"
-RPM_HASH = "3fda2a70a116b7ef75525698e5d1f4b14482af8ba696e117696d6062091bf755531c2956c926a6f0f36b4c6e925156d816cd6398d8515a2a624489c77d489ccd"
+RPM_NAME = "ghc-crypto-api-0.13.3-5.6.aarch64.rpm"
+RPM_HASH = "82866d4981eb12a70a35f50a46655d53c54d33b5952d1cc0fc9e53d13b0e9715761ad26295ed6d4e890c6dc43bb255ec3f200b700de2b75a539a052a4e3a66cf"
 
 RPROVIDES:${PN} += "ghc-crypto-api \
 libHScrypto-api-0.13.3-9orTVpCmnZz79j7elcs5GE-ghc9.4.5.so"

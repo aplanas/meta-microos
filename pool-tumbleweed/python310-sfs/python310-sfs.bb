@@ -7,12 +7,11 @@ LICENSE = "MIT"
 
 PV = "0.6.2"
 
-RPM_NAME = "python310-sfs-0.6.2-1.1.noarch.rpm"
-RPM_HASH = "ad9bea0c449f2adba22a2431ba14947c4e72221d32f6cbb68d5521cf7c84de14301e08d2c88a1e3e107428e558b4c02c5084c970f159a6a47814d5216cce98c1"
+RPM_NAME = "python310-sfs-0.6.2-1.3.noarch.rpm"
+RPM_HASH = "882b96b7e852ffeed4316be5d51027179720febc982ee128fb1029902011dd96bebf1790f466d72557f1b3f0925340d7c867296bc3a3e65728bc59eac5392c6a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-sfs \
-python3.10dist-sfs \
+RPROVIDES:${PN} += "python3.10dist-sfs \
 python310-sfs \
 python3dist-sfs"
 

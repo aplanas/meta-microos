@@ -10,10 +10,10 @@ excludes components that depend on external libraries, most notably XML, \
 database and UI toolkits support."
 LICENSE = "Python-2.0"
 
-PV = "3.12.0b1"
+PV = "3.12.0b3"
 
-RPM_NAME = "python312-base-3.12.0b1-1.2.aarch64.rpm"
-RPM_HASH = "64405f400140d0821012fd6b648513656a45febc58ed87999982c2d9f457416e91099da350d4386a3c78bc78307b94f37d74725bb04c070717d0e0267bbe19ab"
+RPM_NAME = "python312-base-3.12.0b3-1.2.aarch64.rpm"
+RPM_HASH = "dddfa0665465cbbd1570b72a285601a1bba28bd901c2b9ee67c9a6f8d1ee6d0a55552d4d71f34e4829a6e51ac14214d056871675e00281745d4fe241024393bc"
 
 RPROVIDES:${PN} += "python-abi \
 python312-asyncio \

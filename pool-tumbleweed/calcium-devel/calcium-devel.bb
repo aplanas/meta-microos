@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.4.1"
 
-RPM_NAME = "calcium-devel-0.4.1-1.9.aarch64.rpm"
-RPM_HASH = "74b2b0fdfcc1f9707bfac378e146892c4c995fc7742c2bb3d94a26085d50568c978cd624ba3ddb4ac9929722b68333d20eebf7516c38f24a36fc09f5a9d0b3f2"
+RPM_NAME = "calcium-devel-0.4.1-1.10.aarch64.rpm"
+RPM_HASH = "9c19cd6a7d61a209728920d1caa70b805a39b685f75fd2135ba1fbc398c0db7111fd74b7fa4a9053a4d43a4439bf4bcde50a36cf479ae3a000ab943566a33388"
 
 RPROVIDES:${PN} += "calcium-devel"
 

@@ -6,13 +6,13 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.11.2"
 
-RPM_NAME = "pyzo-4.11.2-1.12.noarch.rpm"
-RPM_HASH = "829df57a9b45273c61a1e5e27d55a236dfd6942260e3592735e0c53a47377d2ca7e881f6a8a984a5810690087d19404bdc0c9d4ce6bb2f7315c316cffd105db4"
+RPM_NAME = "pyzo-4.11.2-1.14.noarch.rpm"
+RPM_HASH = "5ab0088ff3c58cbf14ddab6ff3330fd02f9ea67679ef621f3c52b6305c38ef9b9320f5dc4498ae6a76427e4aaed21843b903d22d662f21ea1373fe18a7cc86c2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pyzo"
 
-RDEPENDS:${PN} += "/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
 python3-pyzo"
 
 inherit rpm

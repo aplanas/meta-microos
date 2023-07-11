@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.2.0"
 
-RPM_NAME = "python311-wafw00f-2.2.0-1.3.noarch.rpm"
-RPM_HASH = "1aee31fe6b81c4b781f2b23633108e5d0fe0d973a410eaa9e43abfab70c4fb61cdea19a63f77f60b0adf85acb385c3aca0cc85b4564d5712e7340a6cd0230f45"
+RPM_NAME = "python311-wafw00f-2.2.0-1.5.noarch.rpm"
+RPM_HASH = "9ab0ecf0bb5c4153548a5886812fa7662c0e1abe689a07adc67789df358cc4869fbd103148f947b10c902e2cc9acd4149cc75f69ddda9388a182200bc2048169"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-wafw00f \
+RPROVIDES:${PN} += "python3-wafw00f \
+python3.11dist-wafw00f \
 python311-wafw00f \
 python3dist-wafw00f"
 

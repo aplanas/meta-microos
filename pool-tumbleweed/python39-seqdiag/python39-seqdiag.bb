@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.0.0"
 
-RPM_NAME = "python39-seqdiag-3.0.0-1.6.noarch.rpm"
-RPM_HASH = "ec41fbb1e3ac8a40012b33e6ee500a1f331daa9b779c4e173d9d46e8b46dc4cb8fc5ea11b76df7ef884d80f517f357bc77638cdf942e73614c74bf69ee2889e6"
+RPM_NAME = "python39-seqdiag-3.0.0-1.8.noarch.rpm"
+RPM_HASH = "73f9cc40824fd504f8be8ec4925286e96e3f5af2542b2b0267137f817f0881d827b29f13c9e71774e09ab3e100d9828785e3be37e3900960282ecc9f9f125244"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-seqdiag \

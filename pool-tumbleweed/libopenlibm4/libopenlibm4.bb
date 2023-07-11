@@ -11,8 +11,8 @@ LICENSE = "BSD-2-Clause & MIT"
 
 PV = "0.8.1"
 
-RPM_NAME = "libopenlibm4-0.8.1-1.3.aarch64.rpm"
-RPM_HASH = "2f1e8f68cf57c16cacf61d0c75b06cc09ab320ca870abb1b9d5fc4aa16c3b19f91d73fab2378853c149a054e6b6acb7a49a98e696ad354e1b70a36604a6641ca"
+RPM_NAME = "libopenlibm4-0.8.1-1.4.aarch64.rpm"
+RPM_HASH = "95d96b918f1ff16bd96776f7b6e44b651cb43c54b3afb57acab887eb824b35d398eb5ca19c3438142aac8855f76bc97e7d8b6512c8f7fa7c604b2617ed6f72a3"
 
 RPROVIDES:${PN} += "libopenlibm.so.4 \
 libopenlibm4"

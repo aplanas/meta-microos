@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "3.2.0"
 
-RPM_NAME = "libKPropertyWidgets3-4-3.2.0-2.21.aarch64.rpm"
-RPM_HASH = "7304c9c65b9bb898eef66cc2a04509414e61cd11c8f09b0a65ee32ff04916efeb7d930ab0ed08e4c8876ff197ef0b3b348e41a3c931a7405cf830bc2edbac3a4"
+RPM_NAME = "libKPropertyWidgets3-4-3.2.0-2.22.aarch64.rpm"
+RPM_HASH = "b2e01d528c07a0e5ed17959f279544dab49ff61e885abfd69e0559d9b620c1892bcda170a886af10217bccf8224fa6ec31bed130a004480b1ca2e533e2846353"
 
 RPROVIDES:${PN} += "libKPropertyWidgets3-4 \
 libKPropertyWidgets3.so.4"

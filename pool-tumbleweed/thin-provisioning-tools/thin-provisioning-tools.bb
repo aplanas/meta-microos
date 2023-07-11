@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.9.0"
 
-RPM_NAME = "thin-provisioning-tools-0.9.0-2.9.aarch64.rpm"
-RPM_HASH = "d3ccc3b025fab25a843f02dc22f85885ad9372fa423ace884fb76caa0cecfc62754fd995e88cb991990a57c7c855bfdbefc4c4be1ae85618d086ebcb8767d2f3"
+RPM_NAME = "thin-provisioning-tools-0.9.0-2.10.aarch64.rpm"
+RPM_HASH = "1c1c3c342c51c976ce0e2fde9b87fc87f24595f959734e8c3b101cb57592761f511c091988d3415ac3732d83835cab8233a57625ef529ee7d3ea68732fdb0678"
 
 RPROVIDES:${PN} += "thin-provisioning-tools"
 

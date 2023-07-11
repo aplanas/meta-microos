@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.12"
 
-RPM_NAME = "redshift-gtk-1.12-7.10.aarch64.rpm"
-RPM_HASH = "f58879edd35e7cb7f94c35a47afc6f52434ad25ea44d983a046726f6839d0a8397601115fda7ba3ee96ce18402a030cd0ea3eb02bbba79580e30beed9c1c76f3"
+RPM_NAME = "redshift-gtk-1.12-7.11.aarch64.rpm"
+RPM_HASH = "18a8e1b52634112d18b1eb7beaf3152023d850c1bedb75b3fc380ac51cfd93276e0672f6784ac89b8460be9c9128bff0d03cb7e3b38ceb401aece8b84f617780"
 
 RPROVIDES:${PN} += "redshift-gtk"
 

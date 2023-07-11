@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "8.0"
 
-RPM_NAME = "jtidy-8.0-30.6.noarch.rpm"
-RPM_HASH = "bcabe813442f04e6a8130e627845cd3a9d853eb818feca89a2d0e6fce6fc5860edd901008b935026045374a8bf37b6dd0b62222bf69045208e91a4e4fe532569"
+RPM_NAME = "jtidy-8.0-30.7.noarch.rpm"
+RPM_HASH = "0d8ef298d876427d7ad0c5660200fedf3cac944516e0947ada3a05a848b6f1e9391d929e318adc53a509f8f2aedf6ad17b1d7906f5dec22eea759cbca945a9d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-jtidy \

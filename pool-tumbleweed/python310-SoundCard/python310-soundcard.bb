@@ -11,12 +11,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.2"
 
-RPM_NAME = "python310-SoundCard-0.4.2-1.3.noarch.rpm"
-RPM_HASH = "19e3817e0bb0788fb928159f33944222567d690f2aa50990657da438b8662091e7ec2a673f2310ee74037dafbe5c7ff48d3e910660ca5bb285ff9ce3c7d9abaf"
+RPM_NAME = "python310-SoundCard-0.4.2-1.5.noarch.rpm"
+RPM_HASH = "10e88503462c9cafe8c5faa45bb0b646701aa04c52d856007dc0fb0c009df0f317ee135d7c1ecba72076c3548ff66328119c47be7da83f13576e3b415f93633d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-SoundCard \
-python3.10dist-soundcard \
+RPROVIDES:${PN} += "python3.10dist-soundcard \
 python310-SoundCard \
 python3dist-soundcard"
 

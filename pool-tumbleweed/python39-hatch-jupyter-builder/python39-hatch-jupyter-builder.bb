@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.8.3"
 
-RPM_NAME = "python39-hatch-jupyter-builder-0.8.3-1.1.noarch.rpm"
-RPM_HASH = "86182385fa53aa9e2f23b52fed184c6a1bf198014048b6e93ae2fc71e7b66bc7b3205767f648a8fbf87678cb84617eea91aab5511e7a4154f8a96f13c37959d3"
+RPM_NAME = "python39-hatch-jupyter-builder-0.8.3-1.3.noarch.rpm"
+RPM_HASH = "622666cac1f420b16a8a5bb5158b81c1d1150bba9181222026715173d41224a64f0f81b4f17e92b0a5adbe43494da44a6fb32ae77ac48c15c6fcd7b039a7fa48"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-hatch-jupyter-builder \

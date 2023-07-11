@@ -5,14 +5,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.031"
 
-RPM_NAME = "perl-Term-Size-Perl-0.031-2.9.noarch.rpm"
-RPM_HASH = "edbd37150a3f8a6d9e35655a108bb69a81e90f616b3fffc4102466c157aff774799e86bd0fe065f93018fa4b083e8eb87dad36e866252087ea6a14ea86faaca6"
+RPM_NAME = "perl-Term-Size-Perl-0.031-2.10.noarch.rpm"
+RPM_HASH = "ad4d9cfa94dc3e2f79a411779049b51f97bf04162d6d9c313d11f006bc4d81c170584aa05c4c3e976a8b055cfec00bc7a9a554fe007969ed9c461a5e88670c54"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Term--Size--Perl \
 perl-Term--Size--Perl--Params \
 perl-Term-Size-Perl"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

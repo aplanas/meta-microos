@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.16"
 
-RPM_NAME = "potrace-devel-1.16-1.14.aarch64.rpm"
-RPM_HASH = "d199be6e2cbe23fbf9a6b6bb4629c5e77f550c4483ae05ec6b335dd442a44f1b3ae3e35c8c58545f2b7c07d2b08268bf36076208c59a73edc06c8ed1f45a51a1"
+RPM_NAME = "potrace-devel-1.16-1.15.aarch64.rpm"
+RPM_HASH = "c0fe97ea77d083208959706c6a456125b3a387ab18d9f5d88608e017894c40496db57644c38e2d8ef46e916760f36f01b0dda978e15c19ea92aa9dc47798001c"
 
 RPROVIDES:${PN} += "potrace-devel"
 

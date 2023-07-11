@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2"
 
-RPM_NAME = "geronimo-jacc-1_0-api-1.2-36.11.noarch.rpm"
-RPM_HASH = "8337857229b126d14a7ea771512c0b3584beca864da6bd7472d951793b95c6a8f87a864119e8e04e2dc4681162281e3cc47d987540b99b2f8b38283a3b0420e9"
+RPM_NAME = "geronimo-jacc-1_0-api-1.2-36.12.noarch.rpm"
+RPM_HASH = "e8bc347f53f6c21676e5edf8775bcdf34b1197efa97ca7e80ed2021cde73206d08ae723024078cbcc67a9e0de908ce9e543d5482eb9d6e977e118368255fb67a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "geronimo-jacc-1-0-api \

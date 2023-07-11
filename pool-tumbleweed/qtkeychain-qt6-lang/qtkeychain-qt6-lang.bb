@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.13.2"
 
-RPM_NAME = "qtkeychain-qt6-lang-0.13.2-4.1.noarch.rpm"
-RPM_HASH = "fb46425e1a0cca4a63d84df87e7ccee8c92384b8d81bacf2986fc222b111bd5af99850f6c137f9abf5636e6a4b365ae9a7f947691c46cd13ca5f4afa25a1901a"
+RPM_NAME = "qtkeychain-qt6-lang-0.13.2-4.2.noarch.rpm"
+RPM_HASH = "9fde411db2cd2059518db40fe0066e9f2b0793f12b0fe3725f41c722e7fd2bfc5f172a4f17dc54abe2ddfa538193127772a9cf8c0efd2ec7b27cf5d601833c33"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qtkeychain-qt6-lang \

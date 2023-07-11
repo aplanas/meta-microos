@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "20230603+git.5fdd2d6"
 
-RPM_NAME = "rime-schema-cangjie-20230603+git.5fdd2d6-1.1.noarch.rpm"
-RPM_HASH = "9a35f662780df801c1bc740db7d205270c92ccf9609a53f085ce936ff3d3d6112b7d8e1c92fa243d5794017832fe8abd9982a3149a911e7276ae444b84255c9f"
+RPM_NAME = "rime-schema-cangjie-20230603+git.5fdd2d6-1.2.noarch.rpm"
+RPM_HASH = "678d8f499e5ecf4572630eebf11933ae19cbcfce6869e2a95041ba5b1211b8ad7878752880199e43a4dc1f89e909ddcfe8d5a77348edeb585ffba1918141381b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rime-schema-cangjie"

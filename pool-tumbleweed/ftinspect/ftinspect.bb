@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.13.0"
 
-RPM_NAME = "ftinspect-2.13.0-4.1.aarch64.rpm"
-RPM_HASH = "0bc0b0fe4fcde657d9c2ceb4e555256adb5912442611f88b2f6e60615dacbd29cc9e26b8053e4d046d57a205d0b9a23de2e80bd6d83c57e843d8020b105bae44"
+RPM_NAME = "ftinspect-2.13.0-4.2.aarch64.rpm"
+RPM_HASH = "f0df9ad947634c1d939fabeb7bf0a5b582b8518d9a078a7732e86ae4dc997518964ad1584e89bf4d21f5eae0eb00ba9bef2060797201ff0583c3b4a53f1a31a5"
 
 RPROVIDES:${PN} += "ftinspect"
 

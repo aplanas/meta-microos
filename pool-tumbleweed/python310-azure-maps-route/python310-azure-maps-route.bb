@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0~b1"
 
-RPM_NAME = "python310-azure-maps-route-1.0.0~b1-1.3.noarch.rpm"
-RPM_HASH = "50369c773968e04f41d9ad5ab708851f6c9071cb91132243750463bca86443c7fde76483420a57229387b885e3d7c6521c054ba547a612d8fbe80469c5822923"
+RPM_NAME = "python310-azure-maps-route-1.0.0~b1-1.4.noarch.rpm"
+RPM_HASH = "69203b1e2112f68574b9cc90dba1a99689d07236637870747dcba1b01a3eb79f4121e4ff84191e597843c11ce946b0409e79b0db075d644477221c36179eefb6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-maps-route \
-python3.10dist-azure-maps-route \
+RPROVIDES:${PN} += "python3.10dist-azure-maps-route \
 python310-azure-maps-route \
 python3dist-azure-maps-route"
 

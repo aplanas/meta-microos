@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.1.4"
 
-RPM_NAME = "libpamtest-devel-1.1.4-2.3.aarch64.rpm"
-RPM_HASH = "8e5364b6ee47c4507a5254f264e40b1e509737a725f672f6afdeb738ebb19cee8cf0dcb6dcb075ed5e7656fa3327fb2c7c6f8a983d3887698a556194876dd0e1"
+RPM_NAME = "libpamtest-devel-1.1.4-2.4.aarch64.rpm"
+RPM_HASH = "e8a0bac586a43e1fed77784425ed8b51268e231063b6597e50f3d97e4e396f435c20cf7aefa41d9e9dd776324f046c299d498997913f45388397f9acaa597cf4"
 
 RPROVIDES:${PN} += "cmake-pamtest \
 libpamtest-devel \

@@ -7,10 +7,10 @@ generates a file with only extracted environments and another \
 with all extracted environments converted to \\includegraphics."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.2.1svn59335"
+PV = "2023.208.2.1svn59335"
 
-RPM_NAME = "texlive-ltximg-2023.201.2.1svn59335-52.1.noarch.rpm"
-RPM_HASH = "7bc55002d04c6b15605fe880fd8de7718b031c6b22493157210e8cbd0dc3532505a2e8d369c936feef3682945a8dc939ec1110c2035924456f8ef17bb49efcd5"
+RPM_NAME = "texlive-ltximg-2023.208.2.1svn59335-53.1.noarch.rpm"
+RPM_HASH = "75ea2c2da2f968a9e2d445b198f22fc0555b8e902bdf3b078acc7add6a2997e4dfd6a1b33a8cd9ce283e5dbda8b56c4f0b1191e0f2d1ed0d0ddd42b3b5feeef3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ltximg"

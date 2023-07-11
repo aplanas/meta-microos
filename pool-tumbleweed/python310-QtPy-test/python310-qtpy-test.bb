@@ -8,12 +8,11 @@ LICENSE = "MIT"
 
 PV = "2.3.0"
 
-RPM_NAME = "python310-QtPy-test-2.3.0-1.4.noarch.rpm"
-RPM_HASH = "9646401fed3506af59de83018e141fe0f955b1d74376e45d2d9445e7a46baa3be215c20c28dc050fbb1e7352a17c36bf762c8cc727a94633578aea9a4e04b1a7"
+RPM_NAME = "python310-QtPy-test-2.3.0-2.3.noarch.rpm"
+RPM_HASH = "53842d1976d5acc45c0b95e94dade5894c61dfca7d64d3f877cc239250781df95d7ece3559ab5ff523eabbe2aabcf9c9c6f3490260f72a79356d00d9dfb3035a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-QtPy-test \
-python310-QtPy-test"
+RPROVIDES:${PN} += "python310-QtPy-test"
 
 RDEPENDS:${PN} += "python-abi \
 python310-QtPy"

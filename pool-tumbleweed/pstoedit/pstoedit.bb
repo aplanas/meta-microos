@@ -34,10 +34,10 @@ pstoedit supports: \
 * VTK files for ParaView and similar visualization tools"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.78"
+PV = "4.00"
 
-RPM_NAME = "pstoedit-3.78-2.5.aarch64.rpm"
-RPM_HASH = "df073909d82dd0776f9a9aac14c402c9918e6b98a4c2034af08d75e6ce5ca7d79b540a49a25bbe99df6ebf9205a5c9a82d0dadc270d0887ebb6981d504e067d3"
+RPM_NAME = "pstoedit-4.00-1.1.aarch64.rpm"
+RPM_HASH = "3153810c26d6cf828b14dce48a1a874aa204473c76f7174c4ac89ca5f14b0a71795a75b41b61e174850df6639d8b4c48d1b5aa80e2a07051ba2afdd782df7d84"
 
 RPROVIDES:${PN} += "libp2edrvlplot.so \
 libp2edrvpptx.so \

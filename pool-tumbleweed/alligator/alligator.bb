@@ -2,10 +2,10 @@ SUMMARY = "Convergent RSS/Atom feed reader"
 DESCRIPTION = "Alligator is a convergent RSS/Atom feed reader."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "alligator-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "114845a7f626aee7a09c898b792433b7c9420981b62c2b65f6d3f1e8ccdc4fbc2125e0bacb90e9a43661ccbe23f312fadbce25b5108f317e9003dd962cd9b221"
+RPM_NAME = "alligator-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "746d97bb662c2ba877033872a2fe5e6dee68ae55f153738b4c29a18da8edddf4acc290f1ef129cc123417b86382ef9976ebd415d965bac8973331f23c6220b7d"
 
 RPROVIDES:${PN} += "alligator"
 

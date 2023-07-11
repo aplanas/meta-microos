@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libKPim5IncidenceEditor5"
 DESCRIPTION = "Provides translations for the 'libKPim5IncidenceEditor5' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libKPim5IncidenceEditor5-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "30906a6780d6052877a391065b333e46a10a66faace87f6ec14c72df594712bdf8d42e0fe6ae900eeab3ee13b9856cd4e4a84f36374c1eb523f5cca9c215947d"
+RPM_NAME = "libKPim5IncidenceEditor5-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "57c7062fb078b1862a9264b10101f9490cf37a9e75a0be3c8c131296af9fdb2bc7fb5051a54c6903f403801f98a875857faeb0e408aa3de24ce86fbacd1a5a0b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libKPim5IncidenceEditor5-lang \

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "7.8.0"
 
-RPM_NAME = "libkadm5clnt7-7.8.0-3.1.aarch64.rpm"
-RPM_HASH = "028e0e9f98de6652b18d9b4b73cd3d84c40ca3b841de6c0d51ad5c35420dda6a74d6635b78122f81345443f30a5ea53ecd76251ac08d3913057121d21653c030"
+RPM_NAME = "libkadm5clnt7-7.8.0-3.2.aarch64.rpm"
+RPM_HASH = "624e53846bd30d2e9509e9287c26f242d60bde8470586fbe48a230d84a9ac533027d57c88bdd4c87e4caf7aa7dd7c7f38be42c9cfb502aeda127d803e5b1db9c"
 
 RPROVIDES:${PN} += "libkadm5clnt.so.7 \
 libkadm5clnt7"

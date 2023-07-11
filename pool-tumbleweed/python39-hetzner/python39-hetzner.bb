@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.8.3"
 
-RPM_NAME = "python39-hetzner-0.8.3-1.9.noarch.rpm"
-RPM_HASH = "b2ca249db9ac484c9741f7ed5fc57d2667bb98bb49893be839350ba1afb7ce8b75a91c6c1d8c1d0c61723df308af019231ad6a2482a34e73b3873a49ea040b14"
+RPM_NAME = "python39-hetzner-0.8.3-1.10.noarch.rpm"
+RPM_HASH = "96621fa7b6334198d579c08b5a9e82f2b454074e34758f425ff29e379970920079cde73bc9078a69e59b23112c1948929a74a670fc6344591dbd0899cb5e1292"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-hetzner \

@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "1.3"
 
-RPM_NAME = "python39-scripttest-1.3-8.1.noarch.rpm"
-RPM_HASH = "819450f68300706e9694034d37d4fdbd5db44281b81a82cdfc8b77bc154042d71dccda186b9aefbf82a76b8087698c6b4ae10ba2c233405070a4395a552e77df"
+RPM_NAME = "python39-scripttest-1.3-8.2.noarch.rpm"
+RPM_HASH = "de96d2b2b9183b7d4034086f0762a7d8dcbe7b2aa0976ac8d48925e1a22969c4391cf765ef1b602034abfe1f4522102df5f672258a4e254411aa287cabd47464"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-scripttest \

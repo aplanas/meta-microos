@@ -14,8 +14,8 @@ LICENSE = "CECILL-C"
 
 PV = "3.1.7"
 
-RPM_NAME = "robinhood-3.1.7-2.1.aarch64.rpm"
-RPM_HASH = "ba85582d731beb5d418baf9a7a1d06039dd91af267f5764aa67589c421155ce434cd8b4db2cc7ac9ed72f8f62d1e742b95d78d883d06d899f4c7de72eb86f34d"
+RPM_NAME = "robinhood-3.1.7-2.2.aarch64.rpm"
+RPM_HASH = "9c3e19dfdb2259ea1e5d759c87cfded10c7a8677223c31f07d1ef86bd2cbcddfc95bfcf9ab5596a096ee2430a749064a9b3358aafc47b3fde756cf3ec450a048"
 
 RPROVIDES:${PN} += "librbh-mod-alerter.so \
 librbh-mod-basic.so \

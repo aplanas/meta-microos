@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.6.0"
 
-RPM_NAME = "python311-ipyfilechooser-0.6.0-1.7.noarch.rpm"
-RPM_HASH = "c191262e90c1c54cdd59ddf4450372646c59683db969f8a74d929d8073caefe7a1d78abbec4e840dfbcf9f134b16672a10c939521b3a3aaa6ae04204a3008f46"
+RPM_NAME = "python311-ipyfilechooser-0.6.0-1.9.noarch.rpm"
+RPM_HASH = "5eff310fb19d4ef58ffd5b20f1833387a3e43418d7c946aceee250bc3866ae96bd9eef380d6f05bec65db8364b86d1b2162976eebe9480ebe0c838c60148cafb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-ipyfilechooser \
+RPROVIDES:${PN} += "python3-ipyfilechooser \
+python3.11dist-ipyfilechooser \
 python311-ipyfilechooser \
 python3dist-ipyfilechooser"
 

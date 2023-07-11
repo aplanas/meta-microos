@@ -7,11 +7,12 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.1.0"
 
-RPM_NAME = "python311-paramiko-3.1.0-1.1.noarch.rpm"
-RPM_HASH = "a4ae54fb3ab30e1e76efce4ffbf1f3af2b119446ce500dd21e2415c7dbba061751504cc7204f23f82bc7eab1922ab20fb350fec1ee6239e91c0592f504325e66"
+RPM_NAME = "python311-paramiko-3.1.0-1.3.noarch.rpm"
+RPM_HASH = "f83a3e9be2d72a5e63710a6e6a0487afd7e8490fa57d26358f8440db171cbfb171ce9f2939b75a078457ce2e9e433477cca07f57a462a4a724ae8645a75ee358"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-paramiko \
+RPROVIDES:${PN} += "python3-paramiko \
+python3.11dist-paramiko \
 python311-paramiko \
 python3dist-paramiko"
 

@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.1"
 
-RPM_NAME = "libmetrics0-1.1-5.6.aarch64.rpm"
-RPM_HASH = "ee1f1bbe65664db1d28344da3af08992f44dc04b8d70cdd1a1277330f8450a6d08e389cd3c0cd7442371ea2decb0f85b9123a1f4e6020329f29ee6b0ce6e6a90"
+RPM_NAME = "libmetrics0-1.1-5.7.aarch64.rpm"
+RPM_HASH = "bf860dfb3d4ae801a8b6e037eb7f07caa2fe1d4e09ccba79be4a409ab3b5433505e2f9d4ec0b86ebcc34d771674ac91c6bf64442e88047ae96843b4fe83bf07c"
 
 RPROVIDES:${PN} += "libmetrics.so.0 \
 libmetrics0"

@@ -10,8 +10,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.85"
 
-RPM_NAME = "perl-Daemon-Generic-0.85-1.20.noarch.rpm"
-RPM_HASH = "f88fffc983c7f23d3afc259a6d23cbd0681af8b18ed3506ca8321b8c843a46b305d12b58f7be301ba11574a551f5063ffce46cf03f4c7666df00a1aaf60a43aa"
+RPM_NAME = "perl-Daemon-Generic-0.85-1.21.noarch.rpm"
+RPM_HASH = "4e91e845b6d3c51ac54d05460d7558e732c61b8c9c25b2efe58ed57eafc4e1f70ea33c31e09595056a743c71c49b4c76876ea0b40a1b9dc76db5187d14e7a4fb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Daemon--Generic \
@@ -20,7 +20,7 @@ perl-Daemon--Generic--Event \
 perl-Daemon--Generic--While1 \
 perl-Daemon-Generic"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-File--Flock \
 perl-File--Slurp"
 

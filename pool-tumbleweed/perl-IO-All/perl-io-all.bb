@@ -36,8 +36,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.87"
 
-RPM_NAME = "perl-IO-All-0.87-1.21.noarch.rpm"
-RPM_HASH = "33ab9dbb4c0016ac1e676d111587ed5030d5ac64946997cebb3e1a328cdea62bf6b0e9dd199b59c921ebee83eaf9c486e89cdf2aa766ead055554262b620e3d7"
+RPM_NAME = "perl-IO-All-0.87-1.22.noarch.rpm"
+RPM_HASH = "9ba729b79bbfd44ed32dfc854b87260b78df8eb8658a3349e1a31c83dd096e4148953aeb5f827e0483892302b162d393b925e37af4e8ebda5fc5bdb28ac197b5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-IO--All \
@@ -55,6 +55,6 @@ perl-IO--All--String \
 perl-IO--All--Temp \
 perl-IO-All"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

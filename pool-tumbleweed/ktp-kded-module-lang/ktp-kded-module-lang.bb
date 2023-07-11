@@ -2,10 +2,10 @@ SUMMARY = "Translations for package ktp-kded-module"
 DESCRIPTION = "Provides translations for the 'ktp-kded-module' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "ktp-kded-module-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "6220fa7ec71e93508b10a843dd0a661691be778670f3727861c1330c27434caa13a4ca2afc19c99c98181d78447c33733fc65a316740018b2fb5be73ef02d1d6"
+RPM_NAME = "ktp-kded-module-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "50ba1c4e8b59e0b1dc16ffde9dad7073ff5c5b384a31cbb453c737fecceb41a9b7b85f727204a242f456d4c130848346111eeab6f78c4018b2dceb696dee9d07"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ktp-kded-module-lang \

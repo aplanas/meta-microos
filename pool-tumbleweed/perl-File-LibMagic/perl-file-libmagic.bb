@@ -6,8 +6,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.23"
 
-RPM_NAME = "perl-File-LibMagic-1.23-1.15.aarch64.rpm"
-RPM_HASH = "7baea3c52e80fdb225965b48c030edf5ae98a2e5228dbc9e4f9f501857b5c4884b570d5b07803f5fa917bc27be49c981f34e186266141dc334acef4c973810d1"
+RPM_NAME = "perl-File-LibMagic-1.23-1.16.aarch64.rpm"
+RPM_HASH = "c050f036fae1ab60ff461d635d8f1b666f5e58607ae701621119aeb4a664ed2d95a5ff65d7f2d75660424feb4cf7fcb2bb178755f9563bb29fe117599ba98595"
 
 RPROVIDES:${PN} += "perl-File--LibMagic \
 perl-File--LibMagic--Constants \
@@ -16,6 +16,6 @@ perl-File-LibMagic"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libmagic.so.1 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

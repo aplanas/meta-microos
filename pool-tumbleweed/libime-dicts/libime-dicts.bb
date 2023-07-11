@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.0.17"
 
-RPM_NAME = "libime-dicts-1.0.17-1.2.aarch64.rpm"
-RPM_HASH = "19ccbc75241e60ec7460641e5d701bccd6ad3f225a912b85710b0079eb9b55b861b5179a912c0d4f4048ce876f96581b6a4fcff661094d04ff3d3378c66f0a98"
+RPM_NAME = "libime-dicts-1.0.17-1.3.aarch64.rpm"
+RPM_HASH = "282455b1d29520e8b3601fbab440224f2a9293e5797c3ec69583b4520a83ac085d0872d4c263cdd553cb5ff82b37621900bbbf0c015cfbfa6a2b0f6d91ea86e5"
 
 RPROVIDES:${PN} += "libime-dicts"
 

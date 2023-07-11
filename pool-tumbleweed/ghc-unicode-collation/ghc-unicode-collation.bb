@@ -7,8 +7,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.1.3.4"
 
-RPM_NAME = "ghc-unicode-collation-0.1.3.4-1.3.aarch64.rpm"
-RPM_HASH = "c59837d62fd8239d40f82816eea4856cf6098b295b7cd023926c2d71f3780c8c6a1c6a44156cb40a5bea16a865da2432f3a6369f84b93f99f11aa6a689598e6d"
+RPM_NAME = "ghc-unicode-collation-0.1.3.4-1.6.aarch64.rpm"
+RPM_HASH = "4ed5fa6a867b63ea5402964a36658fc7885f2077e995c3455cbfbe422cd8be793ce5e92f4a3d0e75dd887a07544076d5c37d7274e7e864bdc847db7dd932f042"
 
 RPROVIDES:${PN} += "ghc-unicode-collation \
 libHSunicode-collation-0.1.3.4-LMKRbY0RRBBKxwMiir45sP-ghc9.4.5.so"

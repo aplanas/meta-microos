@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.18.18"
 
-RPM_NAME = "etckeeper-bash-completion-1.18.18-2.2.noarch.rpm"
-RPM_HASH = "86c1dd1749c400d37833069f7ed36b3ff4240b3f61cf475e554f9601b9b94026ecc68e71147d1adbc046adbdafab4d9d5c4b657b16e9aa7f2df4e0ceddc65c32"
+RPM_NAME = "etckeeper-bash-completion-1.18.18-2.3.noarch.rpm"
+RPM_HASH = "65e78027d948471ce626b277066aaba29d3f3a99d2f792866e2de1a571d4fffeeb3162018ec5514347e12a33178cbe386f436bafe7b68ee50103c7bd5c2ea30f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "etckeeper-bash-completion"

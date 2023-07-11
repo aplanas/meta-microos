@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.48.1"
 
-RPM_NAME = "gnome-terminal-3.48.1-1.1.aarch64.rpm"
-RPM_HASH = "a83d1c4992b60c5c80b0fa82923fb5795faa85e361311044f130f0d52f7c19023e80d7b39ae26734118755759af83d2365ba3c5c0a018f1408e9931ac5421002"
+RPM_NAME = "gnome-terminal-3.48.1-1.2.aarch64.rpm"
+RPM_HASH = "31be4518a1f32a7f8bed954daa9899ec53b2b3f530d50d72f7b4ca3dca8c949b75454506beda60012e3a71a8b278178f714759bd930f4f0882ce648757450fd8"
 
 RPROVIDES:${PN} += "gnome-terminal"
 

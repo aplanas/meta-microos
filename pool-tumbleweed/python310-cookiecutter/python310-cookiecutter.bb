@@ -8,13 +8,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.1.1"
 
-RPM_NAME = "python310-cookiecutter-2.1.1-2.1.noarch.rpm"
-RPM_HASH = "fa9c6582911e365270a6f1f4df02921f86691289000cd8b93624705e2d5ca3c9f6281e8a67365595345c8c3eb9b4813d6d28260e0ad417c59dd6497131fd1275"
+RPM_NAME = "python310-cookiecutter-2.1.1-2.2.noarch.rpm"
+RPM_HASH = "85ebafcb6fc0cb89fc023d0d8f7fd9b5aa323b6bc4b8f866c2bf699ba9b15ffa5453e575444bee3163e7262565ea1490feee30b4b4bf04ec578d01575262ed59"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "cookiecutter \
-python3-cookiecutter \
-python3.10dist-cookiecutter \
+RPROVIDES:${PN} += "python3.10dist-cookiecutter \
 python310-cookiecutter \
 python3dist-cookiecutter"
 

@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "9.2.6"
 
-RPM_NAME = "libvtk1-openmpi3-9.2.6-2.2.aarch64.rpm"
-RPM_HASH = "d2bc7757e847b04c32d57c78440c42cb70f927e49f42b9395357fe16c81f6002c7c2660ec54974482f0c67cb592c62d648dfb11fe5a95c3c81536a47e16a551b"
+RPM_NAME = "libvtk1-openmpi3-9.2.6-2.5.aarch64.rpm"
+RPM_HASH = "d24633414a80481cd11a8f15d104b66c4762d17d4919467ac9212831e14bc23d2b6ca037f223ab7df837898f7f213c39a1b5b96f7f53c4d2908045161a4669b7"
 
 RPROVIDES:${PN} += "libvtk1-openmpi3 \
 libvtkChartsCore.so.1 \
@@ -153,7 +153,7 @@ libfontconfig.so.1 \
 libfreetype.so.6 \
 libgcc-s.so.1 \
 libhdf5.so.200 \
-libhpdf.so \
+libhpdf.so.2 \
 libjpeg.so.8 \
 libjsoncpp.so.25 \
 liblz4.so.1 \
@@ -165,7 +165,7 @@ libogg.so.0 \
 libpng16.so.16 \
 libproj.so.25 \
 libpugixml.so.1 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libsqlite3.so.0 \
 libstdc++.so.6 \
 libtheoradec.so.1 \

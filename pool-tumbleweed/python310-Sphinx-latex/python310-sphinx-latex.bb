@@ -8,12 +8,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "7.0.1"
 
-RPM_NAME = "python310-Sphinx-latex-7.0.1-1.1.noarch.rpm"
-RPM_HASH = "53a252fabe08b0f1c391669a504d6950cc5c786abbe81716218d29fec59dd40e7513459c2f05993a28afef9eb31f90f80d790ba92df2b4616dbc783c210abf69"
+RPM_NAME = "python310-Sphinx-latex-7.0.1-1.2.noarch.rpm"
+RPM_HASH = "55882db9cf7faf4584432203951b34e28bff4f763eb287395cb2f9012b423cd5a0ea032f5effbbd7cfdd83fc5704e0184fcf9a60d9d20e1f229da7048fbfe0de"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-Sphinx-latex \
-python310-Sphinx-latex"
+RPROVIDES:${PN} += "python310-Sphinx-latex"
 
 RDEPENDS:${PN} += "python310-Sphinx \
 tex-8r.enc \

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.46.1"
 
-RPM_NAME = "metacity-lang-3.46.1-1.1.noarch.rpm"
-RPM_HASH = "c423c3cc2b8b1b90c7e4da673808dd3c6de1d121e34c2f65b6b35352c1fa9aad5aeb9e251338e7e0f50073f15762bb5386c9270ffb7e635cfc083b9162eed275"
+RPM_NAME = "metacity-lang-3.46.1-1.2.noarch.rpm"
+RPM_HASH = "8a444ede01d8ad3d05a7d65c3e13855ce4efafad07cd8f62cd082bf2f9ad8374819a51f8e204dcdd89dcb0052d5a6bacbcb02f8739f16ea00295d0378aa8084f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-metacity-ar \

@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.92.7"
 
-RPM_NAME = "librep16-0.92.7-1.26.aarch64.rpm"
-RPM_HASH = "02ab5df62e3492780e75dd2b63a2e547afa7eb1876b063b5ee694d2983c035c3d7541e4f4e1f49f763316c0c538db6b0fcf9da9ebdaeacac76d9cba09311fc2e"
+RPM_NAME = "librep16-0.92.7-1.28.aarch64.rpm"
+RPM_HASH = "b826bc56b82c301f0bf3ced75c345c31c9d265cbb936bfebac81a5eac6051594b998dc868b65b179e7b512c1001a09465f50a873a9c490f7aca17c7101dddab7"
 
 RPROVIDES:${PN} += "librep.so.16 \
 librep16"

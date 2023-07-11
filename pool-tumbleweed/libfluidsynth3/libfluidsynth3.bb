@@ -2,10 +2,10 @@ SUMMARY = "Library for Fluidsynth"
 DESCRIPTION = "This package contains the shared library for Fluidsynth."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.3.1"
+PV = "2.3.3"
 
-RPM_NAME = "libfluidsynth3-2.3.1-2.3.aarch64.rpm"
-RPM_HASH = "f1cce87a6a7ade85a1bf35672605d8986e0cf4fc64ed13d668ce756efc9aa7c3d46bb3e918cf83feb47c2eeed684e010816583ce7cd56b2357ebaafb35541753"
+RPM_NAME = "libfluidsynth3-2.3.3-1.1.aarch64.rpm"
+RPM_HASH = "cc4ff29cd1aaba8f2fabf104be577ed0cfc046ea81b1a98f2e13f0a147064440fa15ec7b68d6f5dfb72d9a7202a0dc4452b53f4a31d5c171685d0781102921d9"
 
 RPROVIDES:${PN} += "libfluidsynth.so.3 \
 libfluidsynth3"

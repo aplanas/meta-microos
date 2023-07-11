@@ -2,10 +2,10 @@ SUMMARY = "Remote Desktop Connection"
 DESCRIPTION = "Krdc allows to connect to VNC and RDP compatible servers."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "krdc-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "01e850269a24cc597c9d5ba3d2f21a272da999954893ac44737280304271f4b5c8c58bdc1c5989330e9620fe615966d6d55e14a6a7452ce1e9f36fd748d396ee"
+RPM_NAME = "krdc-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "2700786da6a3f41ad7b744e36eee5f2678d0fffeacc589f34b929446e16f98f8c1d8abfea133a78adeced72b631e67cfa3ab2169ca7d2677cca68376b30f219d"
 
 RPROVIDES:${PN} += "krdc \
 libkcm-krdc-rdpplugin.so \

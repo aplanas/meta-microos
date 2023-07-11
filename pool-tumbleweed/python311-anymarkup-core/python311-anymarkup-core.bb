@@ -5,11 +5,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.8.1"
 
-RPM_NAME = "python311-anymarkup-core-0.8.1-3.3.noarch.rpm"
-RPM_HASH = "936642a3557538e9c6f219a650fafa1eb48fa742eba1ce53a7b5f27343079a83afd24791e59cb738aefb85b6470428ae66e4da57ff1c031a6cbeeb81c95d295d"
+RPM_NAME = "python311-anymarkup-core-0.8.1-3.5.noarch.rpm"
+RPM_HASH = "017e87d5b11b0118e49caa8eda5ff6a52eb6cfceeb6edbddd58777a5c34f21f3232825c9a679a7bbc661fbe2acc211766900808c0ef93f5104894d3e956c17fe"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-anymarkup-core \
+RPROVIDES:${PN} += "python3-anymarkup-core \
+python3.11dist-anymarkup-core \
 python311-anymarkup-core \
 python3dist-anymarkup-core"
 

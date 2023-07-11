@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.2.0"
 
-RPM_NAME = "nemo-extension-share-5.2.0-3.4.aarch64.rpm"
-RPM_HASH = "9eb83b61e620775426ae63d42965e2f7d24c3f2125b483818ca7b734445578fd5c6563b74e65e8bd9ff219fbff3ede98845d9d944bb08ea62dd7b4180cad9bfa"
+RPM_NAME = "nemo-extension-share-5.2.0-3.6.aarch64.rpm"
+RPM_HASH = "691b613490cfa533bc83d47b40e3f3aca0d8115bc880002f1571123c44de9439e66b2d4fe58a6c4d9c4e5644ab70a1afd69109848c16e18f4cfbe13cd508bf31"
 
 RPROVIDES:${PN} += "libnemo-share.so \
 nemo-extension-share \

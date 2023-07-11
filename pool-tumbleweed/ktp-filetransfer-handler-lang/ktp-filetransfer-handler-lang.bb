@@ -2,10 +2,10 @@ SUMMARY = "Translations for package ktp-filetransfer-handler"
 DESCRIPTION = "Provides translations for the 'ktp-filetransfer-handler' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "ktp-filetransfer-handler-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "e814d3bb07cd9bb19b3628daf2ff7625587f6325de2228056d7a42dff5f6f7cb36995637c19dbf50a84c70b85c886601cb39d705325a0a9afc5f223674e1d158"
+RPM_NAME = "ktp-filetransfer-handler-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "9ff5a50604c3d9fb2cf4d2512efb7d4f4e14a5b6eab9eace5197f349fd5e0b92a7fd641986c89f1006def1a6c9e77fbbbe3232a79b2119b1db1453d25f62d596"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ktp-filetransfer-handler-lang \

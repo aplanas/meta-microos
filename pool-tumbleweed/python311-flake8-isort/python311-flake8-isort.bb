@@ -4,11 +4,12 @@ LICENSE = "GPL-2.0-only"
 
 PV = "6.0.0"
 
-RPM_NAME = "python311-flake8-isort-6.0.0-1.4.noarch.rpm"
-RPM_HASH = "ed3e96c82c9bf038df35ab474dfe870659ad434fd4fb1ff9acdd599997e19733736b47f67f1dcf9f6ff61e320d1b9cec22f46e4ce2fc4b73a5468f383dc0325e"
+RPM_NAME = "python311-flake8-isort-6.0.0-1.6.noarch.rpm"
+RPM_HASH = "b51aa68b305b4d683e9124cbcf09bc2265090bac3ecf5f31f3ec7f6564c4bb02c5198066441419f304be350eb9993c802007bf6e1973a4320af14e60888ee249"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-flake8-isort \
+RPROVIDES:${PN} += "python3-flake8-isort \
+python3.11dist-flake8-isort \
 python311-flake8-isort \
 python3dist-flake8-isort"
 

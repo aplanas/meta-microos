@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "0.49"
 
-RPM_NAME = "python310-check-manifest-0.49-3.1.noarch.rpm"
-RPM_HASH = "3343be24fa78e6867365263abfa880e77d35bec05271cd5f25e8329d64547a35e5f404caf25dce5f7f6ee88f973e83661ba46e042f5be43dd0e2537ec1bbe1f6"
+RPM_NAME = "python310-check-manifest-0.49-4.3.noarch.rpm"
+RPM_HASH = "04c2cb28b433de6ec45271c96aa3c39ed5f7c304d8c5e9ded99aa5e67e18dac2f75b22873f2c7deb7e17f369aaaba74d0ca3a39b00e19928ba896ead5b883a1d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-check-manifest \
-python3.10dist-check-manifest \
+RPROVIDES:${PN} += "python3.10dist-check-manifest \
 python310-check-manifest \
 python3dist-check-manifest"
 

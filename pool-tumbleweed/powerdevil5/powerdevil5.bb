@@ -3,10 +3,10 @@ DESCRIPTION = "KDE Power Management module. Provides kded daemon, \
 DBus helper and KCM for configuring Power settings."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "powerdevil5-5.27.5-1.1.aarch64.rpm"
-RPM_HASH = "84e7571d96bf1eefcb7de422567ed9509dd203a23c22c8f07e09d906b1248a0eaac21b4e8955b447165e80281edecaae4e273fc43a3fc1d2a2e054fbf8762eff"
+RPM_NAME = "powerdevil5-5.27.6-1.1.aarch64.rpm"
+RPM_HASH = "c981277a423f9f8da2787749694919ac3659a60f7c4d187df8c5e2c9e1cfdb204792adc2d3881cc9c11fd691eb6eabbb39eec7a542baad0ee9dbbdef790666fa"
 
 RPROVIDES:${PN} += "libpowerdevilconfigcommonprivate.so.5 \
 libpowerdevilcore.so.2 \

@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "9.6"
 
-RPM_NAME = "libortools9-9.6-1.1.aarch64.rpm"
-RPM_HASH = "994a223ab5782f3372a2b4e5759c5f84c1569f732464e1d49081de33dee6e4e7758b0bf62aa54c59228ef8158c3691faed9b8900fc000d630f12d82c292140ee"
+RPM_NAME = "libortools9-9.6-1.2.aarch64.rpm"
+RPM_HASH = "4c5de08a21da1116ea4c8e1c558b30d940d17a59f9a76232c3dbd3df02a66304ca563d984e39e4dc242408a62dca09abd0cb1a0b1fb4cf5f629d437b30bd971b"
 
 RPROVIDES:${PN} += "libortools.so.9 \
 libortools9"

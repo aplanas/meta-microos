@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.1.0"
 
-RPM_NAME = "paradise-2.1.0-2.9.aarch64.rpm"
-RPM_HASH = "15ae3855f13d856ec02e86232a99d3a368a28534496d3b3414cec824c53f06e2f563ac193c3078a4a69f078b1cfff937dd959ff138d809588791bb260973f347"
+RPM_NAME = "paradise-2.1.0-2.10.aarch64.rpm"
+RPM_HASH = "ad3c6f304fd4e1e4015c6348e1169a5be0ca76ad6244181ac8aa5238d6b032ff76fc4b82107d3b6fcc765ae08d57ff49c62c05f3de8ea5c79b9a14efd39b47f1"
 
 RPROVIDES:${PN} += "mvn-org.scalamacros-paradise-2.10.7 \
 mvn-org.scalamacros-paradise-2.10.7-pom- \

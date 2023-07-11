@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
 PV = "2.3.1"
 
-RPM_NAME = "monitoring-plugins-radius-2.3.1-9.4.aarch64.rpm"
-RPM_HASH = "f6b8611af5fb7f630e0f37dd9828ee9aff6eaabd13c85346d145fecd4141aea875882f4e4ccacd02affffd01433f9bbb3a1f8cb155635b0e90b6a9a2be7e4b36"
+RPM_NAME = "monitoring-plugins-radius-2.3.1-9.5.aarch64.rpm"
+RPM_HASH = "32188e509f9c874f5b09cd7cddb5ea6143a4c3c6de2ce24e926c2913c7c12d91235445bac93ac0ea0c67167380a857f6f5f767717cc22293024a1de4bb4bbee9"
 
 RPROVIDES:${PN} += "monitoring-plugins-radius \
 nagios-plugins-radius"

@@ -15,13 +15,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.003"
 
-RPM_NAME = "perl-Scalar-String-0.003-1.28.aarch64.rpm"
-RPM_HASH = "1b32fb4eb9d71511b5febf829571de7ac75398b7aae855ec236d3b3e3b14c24adaad8c317584ee2b480490a5d11bc569450ddc1f8b662a4b8512004b8d8da720"
+RPM_NAME = "perl-Scalar-String-0.003-1.29.aarch64.rpm"
+RPM_HASH = "1d6a7d37946cb3e86aeb38ef5c47fb867e35ccc9d71b694215bafcb10319969e357da3b40b575130dd3be8cbabf6461a42e9ab66cc5df0f32b0416054b6262fb"
 
 RPROVIDES:${PN} += "perl-Scalar--String \
 perl-Scalar-String"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-parent"
 
 inherit rpm

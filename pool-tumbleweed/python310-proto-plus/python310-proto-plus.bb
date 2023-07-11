@@ -7,12 +7,11 @@ LICENSE = "Apache-2.0"
 
 PV = "1.22.2"
 
-RPM_NAME = "python310-proto-plus-1.22.2-1.2.noarch.rpm"
-RPM_HASH = "33229419d5d03d83035444652d40618592ff286d0344f5ac6d57d7307823fc97aa56d7879c2936b3efa02ca18cbad506d47698d506d93ece322ea1a1b1c39184"
+RPM_NAME = "python310-proto-plus-1.22.2-1.4.noarch.rpm"
+RPM_HASH = "c9498d60a42b3b556a2585f667d92db0fe78748ffc323adf1ace19095bec9ca9db00aa6eb861f40c56e2c4225b214570dcd442e5800047e47c84dc4fa88b88e5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-proto-plus \
-python3.10dist-proto-plus \
+RPROVIDES:${PN} += "python3.10dist-proto-plus \
 python310-proto-plus \
 python3dist-proto-plus"
 

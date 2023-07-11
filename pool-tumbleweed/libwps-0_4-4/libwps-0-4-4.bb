@@ -3,10 +3,10 @@ DESCRIPTION = "libwps is a library for importing the Microsoft Works word proces
 and spreadsheet file format."
 LICENSE = "LGPL-2.1-or-later & MPL-2.0"
 
-PV = "0.4.13"
+PV = "0.4.14"
 
-RPM_NAME = "libwps-0_4-4-0.4.13-1.3.aarch64.rpm"
-RPM_HASH = "31fae8b783fc30f3f1bfce796f76c81721c452a120d0dcfc1ce6d815152b0b79b80d71f3be4d3992d047428ce5558495e0fdc2c0412559e74e9927a589e4e37e"
+RPM_NAME = "libwps-0_4-4-0.4.14-1.1.aarch64.rpm"
+RPM_HASH = "bb633f38cce97d455c3da8d5debf01940197289b26f8a0853b6ec36bd87bff54fda26571d8d9cc6f733f8b912c300bdac15cc323816ef008956ace492a4fa2f9"
 
 RPROVIDES:${PN} += "libwps-0-4-4 \
 libwps-0.4.so.4"

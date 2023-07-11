@@ -4,8 +4,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2023.201.svn41448"
 
-RPM_NAME = "texlive-graphics-cfg-doc-2023.201.svn41448-53.1.noarch.rpm"
-RPM_HASH = "17b15a8fe1916e1dd694f868c0db81f1d6a59705aaaa3c9b34b130811d880163fcabd34641a18c65222637b2c45aa4265986501830d1b18b626a57649ffa7eae"
+RPM_NAME = "texlive-graphics-cfg-doc-2023.201.svn41448-53.2.noarch.rpm"
+RPM_HASH = "59d720a1840e7ea1238c9aff3327d6b001af7280a1b3e9d634c0fb8a160d0a380ae9615540329c33c7294fc5ffa4d32fd994d4f9f998ad493eba7c81768983ae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-graphics-cfg-doc"

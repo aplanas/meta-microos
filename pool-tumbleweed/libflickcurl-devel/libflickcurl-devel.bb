@@ -11,8 +11,8 @@ LICENSE = "LGPL-2.1"
 
 PV = "1.26"
 
-RPM_NAME = "libflickcurl-devel-1.26-3.24.aarch64.rpm"
-RPM_HASH = "4f8d5f7e1aade94ba881baaa1cb886c74c7766dd1583280092af6966cf8f7576d9558119570b8d25a14478099739f26a1a37bbc99143700a61c560b43f0caa0c"
+RPM_NAME = "libflickcurl-devel-1.26-3.25.aarch64.rpm"
+RPM_HASH = "aee5380623073d7f5f09de1125abd37d31bca54d77ffeef408deab75e1928b4f12224bae441b900378385597f0345c066552a834c54111cb8f95495302a2be55"
 
 RPROVIDES:${PN} += "libflickcurl-devel \
 pkgconfig-flickcurl"

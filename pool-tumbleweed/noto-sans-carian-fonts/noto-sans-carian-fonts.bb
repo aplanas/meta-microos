@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-carian-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "e89867414c8f0dad8bc8131759581a5d2ef10f95c1d0a9afce99e98b43499e417b59aa89c72a49b34e584337c9221ea25d12a1f21067e1c624a07e6a6c25e629"
+RPM_NAME = "noto-sans-carian-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "a2788e39edbe1a9302af01d8b15c0fad0d560ce8254f41db09acb115755349f9c86f1be9f62ffd7bcf5201353d09779fa13d3d69ee29fd138e6eb053d05842f6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-carian \

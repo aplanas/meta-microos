@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.2.16"
 
-RPM_NAME = "belcard-data-5.2.16-1.3.noarch.rpm"
-RPM_HASH = "d73211a25f7bdb69c91310c9ab8109fcae027fbcee73714e825f06330ab9c12c100d56f09fed9e5ec495957e924fa72cd2acd97c0a34908ad64e520f728e6a1d"
+RPM_NAME = "belcard-data-5.2.16-1.4.noarch.rpm"
+RPM_HASH = "5bbc39289caa34339b76b20488e31a3c4b9021929a63779875b5c1bfc51b97fae87fe9633f52866d7be65e5b6e313bd5e02c36ae7097a43366f4b80c9d140bab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "belcard-data"

@@ -8,8 +8,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2023.201.1.00svn29349"
 
-RPM_NAME = "texlive-dviincl-2023.201.1.00svn29349-53.1.noarch.rpm"
-RPM_HASH = "62b034be8b916b88602cf43bc01319325659cdde2572a9e652e6609cdcafdab2186324afb9b2cee4a06871b912b469c40ea540b47ffe9bcedc754fee508057f8"
+RPM_NAME = "texlive-dviincl-2023.201.1.00svn29349-53.2.noarch.rpm"
+RPM_HASH = "d74ff27d3de22329071b704c5c4fe4e4cb1c2c3f1bb9b24698e9f2ceadb789069f175fe29333f197810ba45c0f4d36d05f7c7c9662ec0bc8ed45789255227051"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dviincl"

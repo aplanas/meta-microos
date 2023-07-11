@@ -7,10 +7,11 @@ LICENSE = "MIT"
 
 PV = "2.8.4"
 
-RPM_NAME = "python311-numexpr-2.8.4-1.5.aarch64.rpm"
-RPM_HASH = "c2a1d31bea2c16dac7feb12cd0d766635c656e9d2c69f2d4fb036221d4952a8597873a3a41cbbad1eaa8f783ac4761fe3494b5341587992cc4715973889f6559"
+RPM_NAME = "python311-numexpr-2.8.4-1.7.aarch64.rpm"
+RPM_HASH = "582f5a36c84015b4677e30b15850e514733eeda2f7645cba33e7a95921a90c7ba240e330e5d6bb16fb12367480953c92ca25153455a3554222c0c97eec57f085"
 
-RPROVIDES:${PN} += "python3.11dist-numexpr \
+RPROVIDES:${PN} += "python3-numexpr \
+python3.11dist-numexpr \
 python311-numexpr \
 python3dist-numexpr"
 

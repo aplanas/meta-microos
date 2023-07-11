@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "4.6.0"
 
-RPM_NAME = "yast2-python3-bindings-4.6.0-1.3.aarch64.rpm"
-RPM_HASH = "e267ef0543f21c80ff02643a9b30edab3fc0289ee81b7ac0d240a732d38c76a665ad0a96cd77ca825b285315adf534acf44e54a31c87a55b79a7d1aad69ae82d"
+RPM_NAME = "yast2-python3-bindings-4.6.0-1.4.aarch64.rpm"
+RPM_HASH = "246f02127a76e04bf8bf0d5f115198925ff3a8d67a76a3a187e00f7a2b4617e28cc6fd902b74298f02dd4376313ba650732ff83cfe3140bc9102a9e3907f2355"
 
 RPROVIDES:${PN} += "libpy2lang-python3.so.0 \
 yast2-python3-bindings"
@@ -15,7 +15,7 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
 libpy2wfm.so.2 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libstdc++.so.6 \
 liby2.so.4 \
 liby2util.so.5 \

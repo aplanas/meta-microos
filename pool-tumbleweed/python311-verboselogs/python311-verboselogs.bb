@@ -11,11 +11,12 @@ LICENSE = "MIT"
 
 PV = "1.7"
 
-RPM_NAME = "python311-verboselogs-1.7-6.5.noarch.rpm"
-RPM_HASH = "9781a052a247c1242f27bfca7124d37ceeba086c89f4935e7eb18ab80b8f44b2c4e724cb691af15231166960f1fb27ac1edcaee910bdb21eb3fb62e2b4ceeb65"
+RPM_NAME = "python311-verboselogs-1.7-7.1.noarch.rpm"
+RPM_HASH = "48dded5710ead51edbc30b1be6843c098cb27513c0f303dece5c79be120d19def65226b65fc11b877ed28d96c6ea81393008479829f5bd2927e4224bdb936282"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-verboselogs \
+RPROVIDES:${PN} += "python3-verboselogs \
+python3.11dist-verboselogs \
 python311-verboselogs \
 python3dist-verboselogs"
 

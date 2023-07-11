@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.2.1"
 
-RPM_NAME = "libcue-devel-2.2.1-1.15.aarch64.rpm"
-RPM_HASH = "52bcef857bef09ded542747539e71931f284150ccfd243b02ae3ad944979dca9c7f31d5c8517123cf3ee66fea68594057666c104671bd91bc5b79a57291a1812"
+RPM_NAME = "libcue-devel-2.2.1-1.16.aarch64.rpm"
+RPM_HASH = "169cec3af86a49111b0a14dd94a684dedaa02bf1e7bc7e97b0964d483794cf01eb5b5d60de761e1d0bfe6c5e00a72db638043ba265a8118b17b46db21e1d0db7"
 
 RPROVIDES:${PN} += "libcue-devel \
 pkgconfig-libcue"

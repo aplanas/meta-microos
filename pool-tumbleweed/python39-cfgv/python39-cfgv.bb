@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "3.3.1"
 
-RPM_NAME = "python39-cfgv-3.3.1-1.6.noarch.rpm"
-RPM_HASH = "dc948071975e83aff83267860a41825b8a53d158c0f4076fc558328ec03f5586dbd62da7c1ea5310d932c04289d6563005279b2c5a68e1892614880dbed58e7d"
+RPM_NAME = "python39-cfgv-3.3.1-1.8.noarch.rpm"
+RPM_HASH = "a53c51865cf3ff7cfa660ecea877bad03ec432b26a6ddc58fa6644b9441c9c853d642facc4b945a973688a72eb33f2c63bfbd91f0553e30e628db5b8c4ce819c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-cfgv \

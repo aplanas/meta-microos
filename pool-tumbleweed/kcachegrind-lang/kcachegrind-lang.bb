@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kcachegrind"
 DESCRIPTION = "Provides translations for the 'kcachegrind' package."
 LICENSE = "GPL-2.0-only & BSD-4-Clause & GFDL-1.2-only"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kcachegrind-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "7c98b9a4dc0f8b6baf1033e2d4fbf27e7f6c266f8a3500c31517ebc41e7b9f749da2f0f7290d1f3033a4b699497e55f5f150b28bb634f631877417d5d7c9fefa"
+RPM_NAME = "kcachegrind-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "097482c9d652b12b21df32a9ff5fef360afb89cd1fbc578d28cef31432e7e15e71d3a17f7a2df638da2e2e5a16d2eeda9bee93a7eea4cd80211210bb48bf88ce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kcachegrind-lang \

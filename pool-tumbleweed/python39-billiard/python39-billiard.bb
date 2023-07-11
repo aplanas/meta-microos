@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.1.0"
 
-RPM_NAME = "python39-billiard-4.1.0-1.3.noarch.rpm"
-RPM_HASH = "9bd4e53545a2f3de57e8786b7167354b81eecffd0866f8c1c5dc429c98abeb2822769b3731c4b2a331666c8b25640589d5baf3745ab40d0b28700d952c522075"
+RPM_NAME = "python39-billiard-4.1.0-2.3.noarch.rpm"
+RPM_HASH = "6d592fa91613fd3097e61cc6f92fd44a9513efcaab561077deb55cf5b5e981e6639759d111fb8c0ddaa58695a529f51fe2c481c20f238ff51339e86e26924de6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-billiard \

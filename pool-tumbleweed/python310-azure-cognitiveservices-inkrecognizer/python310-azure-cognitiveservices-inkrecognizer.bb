@@ -12,12 +12,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0b1"
 
-RPM_NAME = "python310-azure-cognitiveservices-inkrecognizer-1.0.0b1-2.11.noarch.rpm"
-RPM_HASH = "997d15efec07408d2c7286041d76271e34a0b0da495e1f0f80f6734fe7289635660e03ee80ad7b779363f0f85299d763741d5817ba655b31c44a3ddd69c1ba74"
+RPM_NAME = "python310-azure-cognitiveservices-inkrecognizer-1.0.0b1-2.12.noarch.rpm"
+RPM_HASH = "5111fa61f09a2a1fa5dc16c0d6b0eb52dc2dd328399bd5d380dcb0314fb823d4d8de9745c6a6b1c2b1c65923de19921a5417d27144937c068f49a5ae436c6e56"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-cognitiveservices-inkrecognizer \
-python3.10dist-azure-cognitiveservices-inkrecognizer \
+RPROVIDES:${PN} += "python3.10dist-azure-cognitiveservices-inkrecognizer \
 python310-azure-cognitiveservices-inkrecognizer \
 python3dist-azure-cognitiveservices-inkrecognizer"
 

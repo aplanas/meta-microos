@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0-with-LLVM-exception & NCSA"
 
 PV = "14.0.6"
 
-RPM_NAME = "llvm14-devel-14.0.6-9.1.aarch64.rpm"
-RPM_HASH = "f987e99503a0c392dc8b8a2a2a8e32b8339a08a7fa302c4dbbbce04a71c441b062560316e2597dbbb4fe8dd47dc870583c7f876402bb9b130d4327bd8430d139"
+RPM_NAME = "llvm14-devel-14.0.6-10.1.aarch64.rpm"
+RPM_HASH = "862413e64bf3fb183b1dd7ae991d589028ea6c0fc2594569daeef4684101c9e0789206d4dfb33e54d5f3bc2c27f8923b568dfb8d05c973a5ebc5c6e5430500d4"
 
 RPROVIDES:${PN} += "cmake-LLVM \
 cmake-LLVM- \

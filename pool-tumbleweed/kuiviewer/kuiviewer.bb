@@ -2,10 +2,10 @@ SUMMARY = "UI Files Viewer"
 DESCRIPTION = "Displays Qt Designer UI files"
 LICENSE = "GPL-2.0-only & GFDL-1.2-only & LGPL-2.0-only"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kuiviewer-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "4b0cf3c4a4c76344cf69c03a4e4b9306284e5305359d85d6b5aee4d6aeb3d63f452aa35de1704231696ed6a2d50d7907263e1914ace9d1838c904a92d93adba4"
+RPM_NAME = "kuiviewer-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "affa933511e5df5da0fc10417dbe446397063e2d42f7be038616a01aac027c80ed1ab0ac1050bf34fc811f5d21cec8055acc1ec149ed9d971a0a4cf48ad0e3f2"
 
 RPROVIDES:${PN} += "kuiviewer"
 

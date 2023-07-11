@@ -12,11 +12,12 @@ LICENSE = "Apache-2.0"
 
 PV = "3.5.2"
 
-RPM_NAME = "python311-pyquil-3.5.2-1.1.noarch.rpm"
-RPM_HASH = "7636b622aadd0950e5c20ba5bd4276b471fd041baf7bdeeade1f1639a1bd6cbe6ca8ce9051fe34cde467ec8759d2444530d6a2fcf4a5e202805f6670e661333e"
+RPM_NAME = "python311-pyquil-3.5.2-1.3.noarch.rpm"
+RPM_HASH = "f37369b21945c331944bfecf72352df45b90ed852460fd1374b75be1b356f95589e2a793cc8628d5ea65bdee8aa91cc68885123c53f42e795e1ad82bb2110632"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pyquil \
+RPROVIDES:${PN} += "python3-pyquil \
+python3.11dist-pyquil \
 python311-pyquil \
 python3dist-pyquil"
 

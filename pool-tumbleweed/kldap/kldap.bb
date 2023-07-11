@@ -2,10 +2,10 @@ SUMMARY = "KDE PIM Libraries"
 DESCRIPTION = "This package contains additional libraries for KDE PIM applications."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kldap-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "0cafd2c266951cc8a149ffffe0d1741394dcb4375d964f4b332060531a43b78f9dcb513645b0defc58906b7660e99ff1d4e5fa6bfe3a9130614b3ca9f352f7b2"
+RPM_NAME = "kldap-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "dabc1b5d0ef3a770c3c3c7e7005b4aa744526d58f74abd3618c3e77df8875007720ccda5b3485c52c402a66bb1cd721bdaf93653241077d250851b02b5d808d7"
 
 RPROVIDES:${PN} += "kldap"
 

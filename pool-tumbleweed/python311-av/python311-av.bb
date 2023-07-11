@@ -4,10 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "10.0.0"
 
-RPM_NAME = "python311-av-10.0.0-2.2.aarch64.rpm"
-RPM_HASH = "d9f65794c9f98218231785ee7343afe1f15640b03e75d0746e642244e9b43241cdaf3d13278a0e4f115c210731eb6885262be160b6f23a5937047874435bf18b"
+RPM_NAME = "python311-av-10.0.0-2.4.aarch64.rpm"
+RPM_HASH = "a24da8314b02d4d40a05ecfdc6cf91a22f0c62e19c11f2d61d15e778edec296d48cdd2a5db471225daf992d1a613e408166f1e08f1496c3f4ef6eaddf8322315"
 
-RPROVIDES:${PN} += "python3.11dist-av \
+RPROVIDES:${PN} += "python3-av \
+python3.11dist-av \
 python311-av \
 python3dist-av"
 

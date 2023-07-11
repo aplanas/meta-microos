@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.79.15"
 
-RPM_NAME = "certmonger-0.79.15-1.5.aarch64.rpm"
-RPM_HASH = "9f8fbd419552f5917e3d386f4ae0058862b44505c09b411ebfd4c7ad1318b8b6500cdb873c12a23a7b2576c4e65b3f6b5a53e087df42860ad16f848567fd7cc0"
+RPM_NAME = "certmonger-0.79.15-1.6.aarch64.rpm"
+RPM_HASH = "9c9b3514defe5e65f452f612ff1fca719e9b20ee48a3d1f010d374715c12494e3e588a490494cf5af74644902012c9c77b05516352b4310d6f9e35caade3585e"
 
 RPROVIDES:${PN} += "certmonger \
 config-certmonger"

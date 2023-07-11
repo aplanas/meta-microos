@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.5.4"
 
-RPM_NAME = "libisoburn-devel-1.5.4-1.10.aarch64.rpm"
-RPM_HASH = "d891aca81b2bda15ddc63ac3d01721aa26c7de6baf19ecd05f15ade195fd658f396c1198b084b160c84fec2bafdd0ab2330f61335dd198bd76e98c2dd6b7025c"
+RPM_NAME = "libisoburn-devel-1.5.4-1.11.aarch64.rpm"
+RPM_HASH = "005effe6486ddcc0bfb359e1b767ef0635ca699f81083067027529de08419d0d5db156d4f2c05b687848ad98cc8cb06947c48246b221a8c4657db0ba92aec2c1"
 
 RPROVIDES:${PN} += "libburnia-devel \
 libisoburn-devel \

@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-initials"
 DESCRIPTION = "The  separated fonts package for texlive-initials"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn54080"
+PV = "2023.208.svn54080"
 
-RPM_NAME = "texlive-initials-fonts-2023.201.svn54080-52.1.noarch.rpm"
-RPM_HASH = "7ebd4391d5117c1295701a46b3a5f11c5745f0e3628bbc7b52761b6f75dd8556ce74fc907e4d30448a575462d46d4f2df2a6e9745319427782c7c9a2d873cf59"
+RPM_NAME = "texlive-initials-fonts-2023.208.svn54080-53.1.noarch.rpm"
+RPM_HASH = "ef9cbe12db2a6fa1d4097af25e419b25a544f891dcde5cde974e1b69c03a02c3bf9f6aa05c396c2a6ce5d479d4f14ce13f53cd911a0a10817bab23f4d15f9b68"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

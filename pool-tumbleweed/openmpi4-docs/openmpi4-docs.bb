@@ -15,8 +15,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.1.4"
 
-RPM_NAME = "openmpi4-docs-4.1.4-2.3.aarch64.rpm"
-RPM_HASH = "66b8079c3aedb777f7f27f19147cfeeed601cf5798905df2593169fdba1e7a1b5d8acea256a3f514eeee7bbfb968943ed8740132f2b9ca040798a7acf9bb7419"
+RPM_NAME = "openmpi4-docs-4.1.4-2.4.aarch64.rpm"
+RPM_HASH = "9a5887731edd41b5cb063a260bd4bfeee858f64b1c3f81c5b533adbafe4fb11819034437e95f0c4293068129f7450dcfcdb96f2027a68aac689e33325cf17604"
 
 RPROVIDES:${PN} += "openmpi4-docs"
 

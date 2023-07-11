@@ -15,14 +15,17 @@ LICENSE = "MIT"
 
 PV = "4.5.1"
 
-RPM_NAME = "python311-tox-4.5.1-2.1.noarch.rpm"
-RPM_HASH = "1256cadeb269d3715fefa4a4544583cef8b9d6caf99029fdefd210f585868005f82bf7b16cc8d116b86ae115865c67f7d02654f94263ae632c971f176bd8da2a"
+RPM_NAME = "python311-tox-4.5.1-3.3.noarch.rpm"
+RPM_HASH = "1e242b4691cc079260f4757f888399f302e4be87282de41f30ba7486718a88a3d7fa6cddd3109cfe41d2d4ca7ff747b9e6ecd636c086119fb2ad616759b7ec0b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-tox \
+RPROVIDES:${PN} += "python3-detox \
+python3-tox \
+python3.11dist-tox \
 python311-detox \
 python311-tox \
-python3dist-tox"
+python3dist-tox \
+tox"
 
 RDEPENDS:${PN} += "/usr/bin/python3.11 \
 /usr/bin/sh \

@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.7"
 
-RPM_NAME = "cloud-netconfig-ec2-1.7-1.2.noarch.rpm"
-RPM_HASH = "df0d708d14c04e150f8c4ffd0815d646fc97d57a2ea68497515538da8116392c9d241fff2fb2e5dcfacb918bf5c08e2fbdaf936d28ba97da90e2aa0963533dde"
+RPM_NAME = "cloud-netconfig-ec2-1.7-1.3.noarch.rpm"
+RPM_HASH = "e476646dafcb5b8eabf27da7cd322334d37396e6ed540fdac777a4450321949b787a3d477db9862df674fe095588b241fed0c22c46505ce5a39bd1bcc3e361ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cloud-netconfig \

@@ -4,11 +4,12 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.3.0"
 
-RPM_NAME = "python311-Mathics-Scanner-1.3.0-1.1.noarch.rpm"
-RPM_HASH = "94d689bdac93bb597c419752f030e45aa0513a84852314f8aa9e262276349cbd95fda0f05724146bb74de8d837cf11bb64aec9b56eee0bf289e9ad6a0139b193"
+RPM_NAME = "python311-Mathics-Scanner-1.3.0-1.3.noarch.rpm"
+RPM_HASH = "1e359bc088d796de7c4be850cf1e5e5481a8c826f98486f16a0d59bd9c7035ee878f0a0669164d1d56d66de873fb9d99a43d9c09fcd0d40d933f946ba578eb37"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-mathics-scanner \
+RPROVIDES:${PN} += "python3-Mathics-Scanner \
+python3.11dist-mathics-scanner \
 python311-Mathics-Scanner \
 python3dist-mathics-scanner"
 

@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.3"
 
-RPM_NAME = "libsocks0-1.4.3-2.8.aarch64.rpm"
-RPM_HASH = "deaecaa7e86ae94aca73c011288d5751e0c49bef176923df57199bd57031c9ba70f51e42cedf13b41b8e30e49b5c0c62e618607025ea0d1eccf6648b9084188a"
+RPM_NAME = "libsocks0-1.4.3-2.9.aarch64.rpm"
+RPM_HASH = "759111b3c948f2e554cd87b6a2a9da3ec47cc7b6689a4e77bf8fc1fcd0c84e789c04a6418e08e7ace278a1c60417533f4b8bf8bf7009ea172eecf3cc435deb97"
 
 RPROVIDES:${PN} += "libsocks.so.0 \
 libsocks0"

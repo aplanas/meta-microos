@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.0.9"
 
-RPM_NAME = "gptfdisk-fixparts-1.0.9-3.3.aarch64.rpm"
-RPM_HASH = "739cf227ea0ef8dbe4ab6ce3ffbc8cd661fc882b5e6e225754fe5100aff9ab08c4ebc05e93fbf9d2ee52d390134db1dfac745ed91618cf9e8d3d35f98639d0d7"
+RPM_NAME = "gptfdisk-fixparts-1.0.9-3.4.aarch64.rpm"
+RPM_HASH = "9c04ad267143ed2e0b7730b7c00ea06f8b2d6399847d311565024dd2d458af5b81a357ed70f63702c5c15d8381797b8391fad62e2e194b8015655965929b6b27"
 
 RPROVIDES:${PN} += "gptfdisk-fixparts"
 

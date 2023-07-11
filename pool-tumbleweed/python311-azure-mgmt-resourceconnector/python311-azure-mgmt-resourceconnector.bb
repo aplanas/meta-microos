@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "1.0.0b4"
 
-RPM_NAME = "python311-azure-mgmt-resourceconnector-1.0.0b4-1.1.noarch.rpm"
-RPM_HASH = "8729da6729d7832754c1d3dd87623b733dc36fb0bb490c970ae06a70ba9bb3dbab5ab16e53705ce477336bcb68d497e989ba9e4ba254f93dab467a2c65888ba1"
+RPM_NAME = "python311-azure-mgmt-resourceconnector-1.0.0b4-1.2.noarch.rpm"
+RPM_HASH = "56c9ec748fa265bbebe98d79c0399aec976aebaaf093b3262eb51aaeebdee353a1fe7909bac16b6faa1bcdbdfcceb5ab4d8035d1a8c474883e828d581a02c57f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-resourceconnector \
+RPROVIDES:${PN} += "python3-azure-mgmt-resourceconnector \
+python3.11dist-azure-mgmt-resourceconnector \
 python311-azure-mgmt-resourceconnector \
 python3dist-azure-mgmt-resourceconnector"
 

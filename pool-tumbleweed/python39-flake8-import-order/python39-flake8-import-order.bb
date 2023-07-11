@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "0.18.2"
 
-RPM_NAME = "python39-flake8-import-order-0.18.2-1.4.noarch.rpm"
-RPM_HASH = "4784f2927ecb7f7f124ca2f26d7f65d77ad683d72105fcda35cee0be3452602f50a228fbfe21d02c6b1d57d186eca8f892745b86e0c6f639b65e65e52d44dec0"
+RPM_NAME = "python39-flake8-import-order-0.18.2-1.6.noarch.rpm"
+RPM_HASH = "5eb52e875e4dc9a6b7f30f92e33a2dda49aaae9787a2dc8e295a2d8e37fefc3159fc4822debe4a27acbf36f3c55927cc0c602c31a8c01765df9615ca6993ab22"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-flake8-import-order \

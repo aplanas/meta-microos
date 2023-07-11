@@ -10,8 +10,8 @@ LICENSE = "GFDL-1.1-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
 PV = "1.10.2"
 
-RPM_NAME = "libgcrypt-devel-1.10.2-2.1.aarch64.rpm"
-RPM_HASH = "a37bd829615ac20e20ee45945356705b009bb1b185219df2ac08ef124edb1dc01cbd52a7c17c5cd51b451a9668332f6214d962096867ae25a0ff48d23c937a37"
+RPM_NAME = "libgcrypt-devel-1.10.2-2.2.aarch64.rpm"
+RPM_HASH = "d30b1be5e4f750f2acfee634b76327dd67ac011d7c276b800f51c440af49cb42f8332c3ab591c89b17547aecbcdf8cad88181bf0a3c6fdcf047f227f3f6a9f85"
 
 RPROVIDES:${PN} += "libgcrypt-devel \
 pkgconfig-libgcrypt"

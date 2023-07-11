@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.24"
 
-RPM_NAME = "python310-catkin-pkg-0.4.24-2.9.noarch.rpm"
-RPM_HASH = "eb80223eba22e00dcec3edef36470356129ac6ec825e3ad44be33aa782183bd425199255485c8fe1b76b0bea5942eebdeda5e335be833422ddbf8dc8fb470adf"
+RPM_NAME = "python310-catkin-pkg-0.4.24-2.11.noarch.rpm"
+RPM_HASH = "ca325606f0c730cf7a1f1af76e27d02cfec5cfe98a1bfab7aa16832ff2b4fd438c51f4a064a425a5854c3dee72115023fa260805de40066b98323861486f7b76"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-catkin-pkg \
-python3.10dist-catkin-pkg \
+RPROVIDES:${PN} += "python3.10dist-catkin-pkg \
 python310-catkin-pkg \
 python3dist-catkin-pkg"
 

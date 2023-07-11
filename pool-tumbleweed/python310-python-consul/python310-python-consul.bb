@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "python310-python-consul-1.1.0-2.9.noarch.rpm"
-RPM_HASH = "d8bcb1a98272db7699c1d9248193a2d30affb9d2618a4c04ff05d912fe2f9d0d4c4a0d72efb039dd6d50245dd4b21d8312c8ade2650539c8c495427f9cfcd904"
+RPM_NAME = "python310-python-consul-1.1.0-2.11.noarch.rpm"
+RPM_HASH = "bbaeb51f4b4509fc142a43d6dfbaa0b67b0663f7382500eb1cc81fe6835cb082eb4724f30c39e9f24c144d84b9d908a62cd03392aa36830bad92d8b8e095664e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-python-consul \
-python3.10dist-python-consul \
+RPROVIDES:${PN} += "python3.10dist-python-consul \
 python310-python-consul \
 python3dist-python-consul"
 

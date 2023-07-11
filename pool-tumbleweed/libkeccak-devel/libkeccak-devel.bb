@@ -10,8 +10,8 @@ LICENSE = "ISC"
 
 PV = "1.3.1.2"
 
-RPM_NAME = "libkeccak-devel-1.3.1.2-2.3.aarch64.rpm"
-RPM_HASH = "db370a1bedd34c2fac951ab56cf1467bfacf6ccd098a76c32d6eca9b8de3eb516756fe1e7a6b7f79775f99eed8e9671492f599d63cb1fa727508dd535daffa2b"
+RPM_NAME = "libkeccak-devel-1.3.1.2-2.4.aarch64.rpm"
+RPM_HASH = "06392dd454dac3e3b93aec2d879f98a61e5ab9c21306377bc6a956ff16a8f6d69f37a054786a9d9b7abbb6064a0d4677b5749113d1e05f7b08f7d6cf1c7eb8d3"
 
 RPROVIDES:${PN} += "libkeccak-devel"
 

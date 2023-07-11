@@ -13,10 +13,10 @@ https://play.google.com/store/apps/details?id=org.kde.kdeconnect_tp or \
 https://f-droid.org/en/packages/org.kde.kdeconnect_tp/"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kdeconnect-kde-23.04.1-2.1.aarch64.rpm"
-RPM_HASH = "e6bd5d1b56d82b692ffe48ad9d3771f39767aedb05f753f7141ee6860736d945e24a751a6889aaad519ac50f03b74044733c89d4c624796f34b6c330601d1a3f"
+RPM_NAME = "kdeconnect-kde-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "c46ebbbc689546a988193db12f87d631b0fe1af9f6a6b27f61fb033daa672486fcd4c12277d3a0d0274333d7da9a04ec84c73d2bd258ee0cb3466c700b054727"
 
 RPROVIDES:${PN} += "kdeconnect-kde \
 libkdeconnectcore.so.23 \

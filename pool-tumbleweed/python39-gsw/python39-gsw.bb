@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause & MIT"
 
 PV = "3.6.16"
 
-RPM_NAME = "python39-gsw-3.6.16-1.5.aarch64.rpm"
-RPM_HASH = "24186f23399a1cb7c01114763b2fa2c5985ad47a4ae700a8eac03bb69bbd29b8350c79c02f012530a815d497c5364aca27ef6b2f9a0fa1e6cbaf817056f78156"
+RPM_NAME = "python39-gsw-3.6.16-1.6.aarch64.rpm"
+RPM_HASH = "700929ced6c0ab92b8b8002e4c7ae23e1b58044f33ffeaf65345dfd197b3caa7500b504e46fc176ce3cbe20279d5f861c15ac7ed9cc135d259587db2151514f1"
 
 RPROVIDES:${PN} += "python3.9dist-gsw \
 python39-gsw \

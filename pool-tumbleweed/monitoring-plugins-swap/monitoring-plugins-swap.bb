@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
 PV = "2.3.1"
 
-RPM_NAME = "monitoring-plugins-swap-2.3.1-9.4.aarch64.rpm"
-RPM_HASH = "257df4741f835028ac263a8b43ce6cdab606b28e995359a878ce1182f9249f802003dbc53c72f2ff9cf4035ac21498425de57185bb5263e316ce54e9c3832571"
+RPM_NAME = "monitoring-plugins-swap-2.3.1-9.5.aarch64.rpm"
+RPM_HASH = "51fc13265b57c1046964919e1884544e28ba66ce0e866b62ecb60c994ae768a0cef89000a22ab79e43b1014dae182425dd82ad0fc1a18cee8b584a60e2308098"
 
 RPROVIDES:${PN} += "config-monitoring-plugins-swap \
 monitoring-plugins-swap \

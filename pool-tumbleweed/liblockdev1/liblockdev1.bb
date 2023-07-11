@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "1.0.3_git201003141408"
 
-RPM_NAME = "liblockdev1-1.0.3_git201003141408-31.20.aarch64.rpm"
-RPM_HASH = "5eb1a6e81a517a4135318e085bc933a74f1ad431cb6ae1c992aaaeba52786c573fda26fbfc3fa89830f19fd3b3ddda95fd36265e8570b0e62f1e58ef0cfdeba2"
+RPM_NAME = "liblockdev1-1.0.3_git201003141408-32.1.aarch64.rpm"
+RPM_HASH = "e652b327fcbec9eee1f469ee4c18f432f7789ab593b97af4934ba2908542b35063fab870f77e0da1470b9c54468deafdc89a57bc35d4cc4917f53e9a4f6a10f4"
 
 RPROVIDES:${PN} += "liblockdev.so.1 \
 liblockdev1"

@@ -3,10 +3,10 @@ DESCRIPTION = "Development files for KQuickCharts, a set of charts that can be u
 applications."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "kquickcharts-devel-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "f19a8269e06378095ccd01f825c389cbe0b3f37e083bf3f9467c662d493450a2af17cfd68eb6df35c374038ced25842e9b60c98386a5c91bc20443a0aa79f9c3"
+RPM_NAME = "kquickcharts-devel-5.107.0-1.1.aarch64.rpm"
+RPM_HASH = "fdca595c3a5c27ee1263033bceb51eb466d90765b2721be3e1ebddefa3486e64b5b2fb58e6e37f478fd01a2d6f66773139320676453ceb8e3dc28afb8aadd791"
 
 RPROVIDES:${PN} += "cmake-KF5QuickCharts \
 kquickcharts-devel"

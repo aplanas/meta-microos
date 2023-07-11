@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "2023.5.3"
 
-RPM_NAME = "python311-virtue-2023.5.3-1.1.noarch.rpm"
-RPM_HASH = "545ed1f62a659090e8e04f04ae2ccecbbad1a051cafa41fe83c61019e1433d939fcd66a8b0be578414d6bc84b5c05d9f0cda95d20383d82ad1a6e1b4e2081503"
+RPM_NAME = "python311-virtue-2023.5.3-1.3.noarch.rpm"
+RPM_HASH = "9b71c8bea78110b55b4a6237ab9daf6916b7e373d64e8418288c16b021185bf98e9143d2ff8aeb840d6fd8b39a8f4bbba4033b9b26f24c195c64a121bd7ce882"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-virtue \
+RPROVIDES:${PN} += "python3-virtue \
+python3.11dist-virtue \
 python311-virtue \
 python3dist-virtue"
 

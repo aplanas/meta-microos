@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.24.1"
 
-RPM_NAME = "python39-pyudev-0.24.1-1.1.noarch.rpm"
-RPM_HASH = "9f496884171f9f5383c816332dacf501856f3d1d9374450f6c4440042a079bfa319e37e76a055b7cee8cfcb900a74fe9174a09faaf931d77b4acb4904969a007"
+RPM_NAME = "python39-pyudev-0.24.1-1.3.noarch.rpm"
+RPM_HASH = "733beccf300f1d1ef3c0378b08a81c91cabbd56d0e2530d173f775d9f51e6936360ec63da9de4d61a808543e942e2b9cb0d86fa4dcfb701250fa855590f9decb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyudev \

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.2.2"
 
-RPM_NAME = "wdiff-lang-1.2.2-8.7.noarch.rpm"
-RPM_HASH = "4758aa37c78b7469ef7007993b3f9b4900bf478c736f276d3e58afd6b7948812d82f4ad011696948236bc9cb53e036a470a1e9de8e950154108e29860f9df0e3"
+RPM_NAME = "wdiff-lang-1.2.2-8.8.noarch.rpm"
+RPM_HASH = "dec115facefe53e1b27f64142345fb713879776b5cd0c9e6e97ce6fdea04d0f26d9bb658c86a2a2a88117de972b3934adf4e96a0db2a56858c8847dc14be5f66"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-wdiff-af \

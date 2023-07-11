@@ -2,10 +2,10 @@ SUMMARY = "Library and components for secure lock screen architecture"
 DESCRIPTION = "Library and components for secure lock screen architecture."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "kscreenlocker-5.27.5-1.1.aarch64.rpm"
-RPM_HASH = "c549fe30ec61ffd4850292f71f1468698151211472d119e70f70651a08710887b5128e58b880f91d09ef43b83415a80b43f1af0a45db6466ad86a7f1aea317af"
+RPM_NAME = "kscreenlocker-5.27.6-1.1.aarch64.rpm"
+RPM_HASH = "b9034e49a1967ab08c1390daccf63d9df1f2291a2fb4b21c218e878ed73e5987ad0e48f8cb271134eb1fc1cd24940ad0df9ccf6f138ae232b01fdfbb67b1d56f"
 
 RPROVIDES:${PN} += "kscreenlocker"
 

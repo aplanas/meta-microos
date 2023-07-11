@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "5.0.2"
 
-RPM_NAME = "lxc-ko-doc-5.0.2-1.1.noarch.rpm"
-RPM_HASH = "77ec020359883b504452ff06f22238622cf866e6e75400dcd60d60221f359c205fa2032851d936580de543a12a1fe835ce30d5f35f6eb35d68f0d5e57e8294a7"
+RPM_NAME = "lxc-ko-doc-5.0.2-1.2.noarch.rpm"
+RPM_HASH = "ab824940cbe7b57a8942ebca150c3d32add48f5b14a451e772acff3da7dd67ef4b80e24394ffd40450282b3daa37220251b44568fc40e65464c56b56a0510fef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lxc-ko-doc"

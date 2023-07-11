@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "7.6.0"
 
-RPM_NAME = "python39-elasticsearch-7.6.0-5.1.noarch.rpm"
-RPM_HASH = "4c2921f68e03b7e12fbd1645d3566415c6c84512bc1a10bdcf0d653ee78ae4d544494b91889e8e16c97f217036de9d155094753451c7a5c0f5a602fbd43e089d"
+RPM_NAME = "python39-elasticsearch-7.6.0-5.3.noarch.rpm"
+RPM_HASH = "e63c595669302da2dffbb2bf8ed957a9c39cf874339e09fb9bdd17a47ccada3e9ccb73eb2ff19fb6ede3373e50fedfeff2832fdc0a524b63086c2788ec90f83b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-elasticsearch \

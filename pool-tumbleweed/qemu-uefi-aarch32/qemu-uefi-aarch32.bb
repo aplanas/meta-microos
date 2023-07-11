@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause-Patent"
 
 PV = "202302"
 
-RPM_NAME = "qemu-uefi-aarch32-202302-2.2.noarch.rpm"
-RPM_HASH = "77c38ba95c958df23f82b277f93c98d5096567fa3ebc1f83f137b9274f1295d4b666e1f39dc501cbc0b625ab83ebf01d6d8fbd78b7116550e36b61444e5eae47"
+RPM_NAME = "qemu-uefi-aarch32-202302-3.1.noarch.rpm"
+RPM_HASH = "0c6d3be4f2b68da147d78b19910e721b6cca0defbef31251c7b814a8c070120d123cf495abf58c5019638ae34961a7e5b7dff86bc92580af3214f5d2a3b6a071"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qemu-uefi-aarch32"

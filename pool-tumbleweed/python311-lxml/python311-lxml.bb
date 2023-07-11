@@ -7,10 +7,11 @@ LICENSE = "BSD-3-Clause & GPL-2.0-or-later"
 
 PV = "4.9.2"
 
-RPM_NAME = "python311-lxml-4.9.2-7.1.aarch64.rpm"
-RPM_HASH = "8466401ace19e8c74e37799ba5acc8b3aa722593db490fa76c5220fea387861a5abc1a9b137b3cd835b612a15ceadd691aadc7c70e641ce1f1de1fe2a42f74b3"
+RPM_NAME = "python311-lxml-4.9.2-7.3.aarch64.rpm"
+RPM_HASH = "35e114c64a28295921cd70c399ffdc433bf3924c300ae4747d4495b0d8bacaaec870631c662d0fd5e05bdf2932c60ba3b7b0877abb73d3519a595fe6f91fc7c3"
 
-RPROVIDES:${PN} += "python3.11dist-lxml \
+RPROVIDES:${PN} += "python3-lxml \
+python3.11dist-lxml \
 python311-lxml \
 python3dist-lxml"
 

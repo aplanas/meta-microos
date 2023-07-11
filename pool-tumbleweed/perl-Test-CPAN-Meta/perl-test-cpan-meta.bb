@@ -11,15 +11,15 @@ LICENSE = "Artistic-2.0"
 
 PV = "0.25"
 
-RPM_NAME = "perl-Test-CPAN-Meta-0.25-2.14.noarch.rpm"
-RPM_HASH = "69d6f85208ee9e5eee37a7017bb28f3d56d6490b9d3bdc39254ac8e67fd6722dcd1133f3f23bce58d7c922611690308fb611445d106b6d13c81c1d1b9b6a9cff"
+RPM_NAME = "perl-Test-CPAN-Meta-0.25-2.15.noarch.rpm"
+RPM_HASH = "09ff2c73c2e1e8288d9ce4562e8eab0fabfd5a70943020616dbd8db0d4f8bdb94a52d31b4f031bc661bc1c388a7f18575e36c47fc747f15a968b5baf44c21efc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--CPAN--Meta \
 perl-Test--CPAN--Meta--Version \
 perl-Test-CPAN-Meta"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Parse--CPAN--Meta \
 perl-Test--More"
 

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python39-pylineclip-1.0.0-2.10.noarch.rpm"
-RPM_HASH = "9cdbb08ea4a69256060e01f2adfb070dc6d9990b5f1c89a9787d5b3072f0c921fcb21582bbac5587abfdedbd5806b8cec50fe91f3857f70890f4a2410ac2e75a"
+RPM_NAME = "python39-pylineclip-1.0.0-2.12.noarch.rpm"
+RPM_HASH = "9d1857970e970e8f03cf6018fc0a3f1169fff980b39f5a3c7930357d3e6f4de41b41884068474e70f06b10c4d65f7a564a5842befd9ca0d1aabf59cd24a47fd8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pylineclip \

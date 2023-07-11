@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "4.4.0"
 
-RPM_NAME = "python311-humanize-4.4.0-1.3.noarch.rpm"
-RPM_HASH = "9608672b7f726fa39bc03cf4acb24219bfc28653001abab173e6ce8a2cdf991c179da0d977a70205e16373be86cd61759553e5f25d6b3c26df3562a3e161a078"
+RPM_NAME = "python311-humanize-4.4.0-1.5.noarch.rpm"
+RPM_HASH = "4ba6502c05986bb3546c7f193a5ed481040f5848b4a5dddabb569c5f3102a0878c2fd6f0714dfe4e2c7aae2358ce422f0af044f39c13ec124f765be07fc0c466"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-humanize \
+RPROVIDES:${PN} += "python3-humanize \
+python3.11dist-humanize \
 python311-humanize \
 python3dist-humanize"
 

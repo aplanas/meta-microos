@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & MIT & xpp"
 
 PV = "2.1.1"
 
-RPM_NAME = "plexus-metadata-generator-javadoc-2.1.1-4.1.noarch.rpm"
-RPM_HASH = "eb54df91ecf4889bcef57d2dfae806c2076c6d6dc7bc7af1d09236d04daae6e5994d73b2ef8d30fcee4bbc4ca51c2da5104cffc8ef5650cbd1a14050f804ee74"
+RPM_NAME = "plexus-metadata-generator-javadoc-2.1.1-4.2.noarch.rpm"
+RPM_HASH = "a47760d09f5c4f77555c950efb788a7e9d03f050e5286c8f137d7659faa7b96428f8035ffa89cd330852fc27dbb2b78a7193a392ab58412de9cb70ad71a9ab29"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "plexus-metadata-generator-javadoc"

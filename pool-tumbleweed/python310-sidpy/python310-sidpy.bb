@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.11.2"
 
-RPM_NAME = "python310-sidpy-0.11.2-2.2.noarch.rpm"
-RPM_HASH = "9200106b9fd01ac09f242afbd78a5654f0de893c5647856ccf3d323636f8c5806dd55f8044ff9c26a9d9fc69ebc078e27018378062e42e140346c9d1d0404ecf"
+RPM_NAME = "python310-sidpy-0.11.2-2.4.noarch.rpm"
+RPM_HASH = "603b8c671143d1cd030cd2fbe16a259228063e485fdbe2260a77d1d0b64aff753a80121090f515d634b1aecb8df39d034ed1ea7925e4d66432ac064572b8bf79"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-sidpy \
-python3.10dist-sidpy \
+RPROVIDES:${PN} += "python3.10dist-sidpy \
 python310-sidpy \
 python3dist-sidpy"
 

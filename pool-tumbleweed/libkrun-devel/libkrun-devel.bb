@@ -12,8 +12,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.4.10"
 
-RPM_NAME = "libkrun-devel-1.4.10-1.4.aarch64.rpm"
-RPM_HASH = "9878bcee09dc578ff83394656820229e2396ba7e64cd1bec434d874536f85869c98074fae344f7f426ff7f14337234205ca1969ff19f7ad03fa06d5c6c1e77c4"
+RPM_NAME = "libkrun-devel-1.4.10-1.6.aarch64.rpm"
+RPM_HASH = "a0ad2d2e486320bc6f7744757ae4ae0a12170eae2965e0afa5060f852dbd89ac198453d9d7b4403a8fc0171798dceb67210957dec7d7099674ebb9f9b24344cb"
 
 RPROVIDES:${PN} += "libkrun-devel"
 

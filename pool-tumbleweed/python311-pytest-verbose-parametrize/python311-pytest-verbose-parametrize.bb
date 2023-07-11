@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "1.7.0"
 
-RPM_NAME = "python311-pytest-verbose-parametrize-1.7.0-6.3.noarch.rpm"
-RPM_HASH = "ba5098110b53729d7397fed6d063d50cda233dd56e3e48858f2129fab7a85f907c88a767be4ef40eb088587d4e5476e9ab1e1f135693183b54445b9c2798c7c2"
+RPM_NAME = "python311-pytest-verbose-parametrize-1.7.0-6.5.noarch.rpm"
+RPM_HASH = "7a8fc4679ca46d3b8756d1f0c70539677ffe10dc23c3e51de4b13c1739f40c60e1c6678ed98ac15972b3d426a1bcdf96c33b807783eca8d8dae3304d0bccbde0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pytest-verbose-parametrize \
+RPROVIDES:${PN} += "python3-pytest-verbose-parametrize \
+python3.11dist-pytest-verbose-parametrize \
 python311-pytest-verbose-parametrize \
 python3dist-pytest-verbose-parametrize"
 

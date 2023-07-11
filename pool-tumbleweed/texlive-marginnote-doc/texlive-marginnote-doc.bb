@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-marginnote"
 DESCRIPTION = "This package includes the documentation for texlive-marginnote"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.4bsvn48383"
+PV = "2023.208.1.4bsvn48383"
 
-RPM_NAME = "texlive-marginnote-doc-2023.201.1.4bsvn48383-52.1.noarch.rpm"
-RPM_HASH = "ac5bba4fc5c36fd7501c5d0181931fccbe72b91567344111fee792dcd8efb877bb3ec486a88bc2bf1125f2ff9d115af7f2f7b2256eb080540a44e9691a0ba4bd"
+RPM_NAME = "texlive-marginnote-doc-2023.208.1.4bsvn48383-53.1.noarch.rpm"
+RPM_HASH = "e43bdbefc99985e4d03c7e666cb920e235f08419edb22cef804ce59cecc01266279d4aa124a926e3b9aca47155a4ac1d62093796388a2753df7a2e215684973b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-marginnote-doc"

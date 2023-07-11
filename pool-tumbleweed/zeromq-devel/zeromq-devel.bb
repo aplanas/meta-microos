@@ -9,8 +9,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "4.3.4"
 
-RPM_NAME = "zeromq-devel-4.3.4-4.3.aarch64.rpm"
-RPM_HASH = "193bc0329c3bb691614952a5a20d1f7cb474431eefd058aa0027f87eaf10741a7d7b062b7c6f095b6a309709aa57c4f9eab6efd6ca1b317ac9350fc8aeacf3a8"
+RPM_NAME = "zeromq-devel-4.3.4-4.4.aarch64.rpm"
+RPM_HASH = "47bde29fd92a28ab617994753e971b3d31cfc6d66cbda9a094749d5a353fa67d9de8fee864b88397ddbbf1026c18c454c8b2322ebad2566cea5d3fc323e45339"
 
 RPROVIDES:${PN} += "libzmq-devel \
 pkgconfig-libzmq \

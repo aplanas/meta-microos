@@ -9,11 +9,12 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.7"
 
-RPM_NAME = "python311-strict-rfc3339-0.7-4.1.noarch.rpm"
-RPM_HASH = "5ad4e774c23c3237d4224894c0b007a5be951f4250756e86a7cb16478652b14545e8609cd21d11bf9dc7707204e7132ddb3bf550fd6900bd25fbdf3ad02afada"
+RPM_NAME = "python311-strict-rfc3339-0.7-4.3.noarch.rpm"
+RPM_HASH = "f6514902914760d61ee8fe33fa5cd2054b6f95c73043b8c7ee3974c28e4c1502d00cb1d241204eff092ddcfc13cf889584bcb73ec3e716920c4fdad100c52ff5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-strict-rfc3339 \
+RPROVIDES:${PN} += "python3-strict-rfc3339 \
+python3.11dist-strict-rfc3339 \
 python311-strict-rfc3339 \
 python3dist-strict-rfc3339"
 

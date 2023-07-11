@@ -4,11 +4,12 @@ LICENSE = "Apache-2.0"
 
 PV = "0.21.4"
 
-RPM_NAME = "python311-aioftp-0.21.4-2.3.noarch.rpm"
-RPM_HASH = "561ffeb568093c881a147653c3326271ad094df660d2695d1cf47b2f9c1b52a04b6df6acde8d801a637ce4cebec3ec6f98a967b74ab8017df75337b08257e710"
+RPM_NAME = "python311-aioftp-0.21.4-2.5.noarch.rpm"
+RPM_HASH = "cfb33818f6418975db580a0f3e61abb8835f125ca45c07e40f14b27811f3e104212119e45ba1505930ee687361a9efb32900a8c53bb27e08fff77066c3ee891f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-aioftp \
+RPROVIDES:${PN} += "python3-aioftp \
+python3.11dist-aioftp \
 python311-aioftp \
 python3dist-aioftp"
 

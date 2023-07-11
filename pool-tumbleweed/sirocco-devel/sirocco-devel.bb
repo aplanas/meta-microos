@@ -17,8 +17,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.1.0"
 
-RPM_NAME = "sirocco-devel-2.1.0-1.8.aarch64.rpm"
-RPM_HASH = "d0d48911ebdd52d0c28213c52cd02fa8aaaa280752966556bd306b1dc29b71866d05fd922d91e6119b3b4b2ee45b049689ed0d9631dff7f6d6c2dbc7f3c19d15"
+RPM_NAME = "sirocco-devel-2.1.0-1.9.aarch64.rpm"
+RPM_HASH = "47796df48c00f8553828998deef51a7ee19fe589858baffe517ccb4a21d3742400c973846b2f269db7c92467b8fbf089d592826ebd71bd05f20cfed665f3c1af"
 
 RPROVIDES:${PN} += "sirocco-devel"
 

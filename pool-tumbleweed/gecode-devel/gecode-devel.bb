@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "6.3.0~git20211208.6b09bea4"
 
-RPM_NAME = "gecode-devel-6.3.0~git20211208.6b09bea4-1.5.aarch64.rpm"
-RPM_HASH = "879752297acac7385a07b1eaa79a628d0708cf225a6baaf7baec7cc774413d7a15736beb2e26ae2354965580c7f4bae36dc991e2e43f80d20455e7ead1d57602"
+RPM_NAME = "gecode-devel-6.3.0~git20211208.6b09bea4-1.6.aarch64.rpm"
+RPM_HASH = "4368ba919a656d2cb90e4ef956cdeb013e7613bbc5440f777e78109f2d7b9797ee548d2f47f46e7e862818ee24b8d0d96dd7c5842a5d26308d732d8c6ac1cdaa"
 
 RPROVIDES:${PN} += "gecode-devel"
 

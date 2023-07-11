@@ -6,8 +6,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20210416"
 
-RPM_NAME = "libbfoverlay1-20210416-3.3.aarch64.rpm"
-RPM_HASH = "23747d3e623262a02e0c90cd8ed055bbb2c489e22f99e63da1e71c4c712d0e3b15510902d5895023bc0614e5ba8ca5d8a58e3cac64f35f40e6fcfc41b543ab64"
+RPM_NAME = "libbfoverlay1-20210416-3.4.aarch64.rpm"
+RPM_HASH = "606f25246dabe2f62c0772f4d015b9c52319a6f2f8442b2733c3d496f9a794234200bdd92f25ccff13628fe6e9cf6c8aee0f2c8f3c8936ed8b3bbfa557652743"
 
 RPROVIDES:${PN} += "libbfoverlay.so.1 \
 libbfoverlay1"

@@ -12,8 +12,8 @@ LICENSE = "Apache-2.0 & MIT"
 
 PV = "2.0.0"
 
-RPM_NAME = "modello-maven-plugin-2.0.0-3.1.noarch.rpm"
-RPM_HASH = "080e8f74ca163778cdaabc9946b379a94c09f2580a3ff95ceff2e6c6d9afaa55a0ca71e63e2c3b8ad44104739b65292498bab74572a46b737852ddda3e35f18f"
+RPM_NAME = "modello-maven-plugin-2.0.0-3.2.noarch.rpm"
+RPM_HASH = "3b7880d6652b96531ad2e0c55d60d8998023fde4b43b9b2a8a790cd573a67891ce837ede068b405145040503de0365a58083a2b00f4a43e72bc29a94983cdd7b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "modello-maven-plugin \

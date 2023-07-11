@@ -25,8 +25,8 @@ LICENSE = "LGPL-2.0-or-later & LGPL-3.0-or-later"
 
 PV = "0.9.17"
 
-RPM_NAME = "qxmledit-0.9.17-1.5.aarch64.rpm"
-RPM_HASH = "523d08c8348fbe2a04398d4eb39c5cfca462d7649cadeafb198a574f1b9f8478c1cbde79d51284d59d1d1d7d77697f77b6bc068c0467f5d1f3c21fb5c14f9cb9"
+RPM_NAME = "qxmledit-0.9.17-1.6.aarch64.rpm"
+RPM_HASH = "0ef2e3fe82ed29ed4c88b69ab1b06f04155eaa0d19d59e910bb063f7739fe3b86229bbecddcdd095f8b6338e706647196aed62d57ac7194278fe3d84fd628f15"
 
 RPROVIDES:${PN} += "qxmledit"
 

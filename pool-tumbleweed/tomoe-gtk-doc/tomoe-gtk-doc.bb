@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "0.6.0"
 
-RPM_NAME = "tomoe-gtk-doc-0.6.0-44.24.aarch64.rpm"
-RPM_HASH = "adcaed5fd8379f95f37e907d4bfdb8f72f5bc041d5d213d44b6489c31a83b94b9ffe25f9f6ccf008bf0a98e825a650ea532bbe7bd06fbc5fe653cdc44054ec83"
+RPM_NAME = "tomoe-gtk-doc-0.6.0-44.25.aarch64.rpm"
+RPM_HASH = "f22270a8be9a92ff3267ee04e23dab576ab66061640b42d8841795466148c8738d179ac59415257364e0f21ca81ccad56cdd04b0138bec42edaef2857665ab09"
 
 RPROVIDES:${PN} += "tomoe-gtk-doc"
 

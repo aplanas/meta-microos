@@ -6,10 +6,11 @@ LICENSE = "SUSE-GPL-2.0-with-FLOSS-exception | GPL-3.0-only | NonFree"
 
 PV = "5.15.9"
 
-RPM_NAME = "python311-qt5-quick3d-5.15.9-1.4.aarch64.rpm"
-RPM_HASH = "b70ee259a8924f8d2a1dc8514d338fec0c3b467368a194a36887dcb704e8c95f00b375c0ade7da7b9f5458ef0cc3598b4d914ac0ccf94878d5380e179b1b0c9b"
+RPM_NAME = "python311-qt5-quick3d-5.15.9-3.1.aarch64.rpm"
+RPM_HASH = "b41ef40454d596f071c63e0cafac5a9335d654b213ba9ca53d35f816a3660540ba1599276701defc03eb74f28409e10f7e19077d5e80b225637fc0456647e83a"
 
-RPROVIDES:${PN} += "python311-qt5-quick3d"
+RPROVIDES:${PN} += "python3-qt5-quick3d \
+python311-qt5-quick3d"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libQt5Core.so.5 \

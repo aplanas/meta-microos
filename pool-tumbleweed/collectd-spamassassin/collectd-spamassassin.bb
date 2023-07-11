@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only & MIT"
 
 PV = "5.12.0.134.g4cebbfc"
 
-RPM_NAME = "collectd-spamassassin-5.12.0.134.g4cebbfc-1.4.noarch.rpm"
-RPM_HASH = "992e2187c5d3c50a528fdfefb641211551a1d675525fb58451373c9e0b6223aee9def6f71b6cc1a5c638bca28789e3872f26218e54427df8bb1cb0bab911e57b"
+RPM_NAME = "collectd-spamassassin-5.12.0.134.g4cebbfc-1.6.noarch.rpm"
+RPM_HASH = "66eda189cf347d97cca8d96435220cf9be073f23c8d245ab72d75527c3e23e3dda9d16c0bd788e2840a93d54000bdcf5dd05fa7b979fb254f15c198e8f5f2821"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "collectd-spamassassin \

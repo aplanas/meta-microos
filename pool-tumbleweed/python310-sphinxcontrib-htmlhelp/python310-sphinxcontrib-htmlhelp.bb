@@ -4,12 +4,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.0.1"
 
-RPM_NAME = "python310-sphinxcontrib-htmlhelp-2.0.1-2.1.noarch.rpm"
-RPM_HASH = "760fde41bbd50bf124a8be07097f25d5b05a948378ac16808b286795f45f358f5a579d091d779fc8caa4e0abe10f0574cda58b4d47804579ba37350acff8e0bd"
+RPM_NAME = "python310-sphinxcontrib-htmlhelp-2.0.1-2.3.noarch.rpm"
+RPM_HASH = "b66b5447ee1c3256a0420ad42b1b52cae2a310b98271229ad3896e0f56a72406e349327a66d5efedfd01b0215bf1d70e25dac5ad05ad4be6848bb5eaafb4b894"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-sphinxcontrib-htmlhelp \
-python3.10dist-sphinxcontrib-htmlhelp \
+RPROVIDES:${PN} += "python3.10dist-sphinxcontrib-htmlhelp \
 python310-sphinxcontrib-htmlhelp \
 python3dist-sphinxcontrib-htmlhelp"
 

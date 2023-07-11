@@ -7,11 +7,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.15.6"
 
-RPM_NAME = "python310-pyzstd-0.15.6-1.1.aarch64.rpm"
-RPM_HASH = "df61764a1f6f8aa99668bbafa73fb0dee48c3df5d6153aa681e02a80cae3e55646cfe058b86577fa7fe103c1bbb7ac7935155c156692cbd676fe4e234bb3d915"
+RPM_NAME = "python310-pyzstd-0.15.6-2.1.aarch64.rpm"
+RPM_HASH = "4cd6aa4047f1564b108913a2c4731e728850371c675e84bfbc024fd46a65aa445c7632e64b99a3c768a2b4cf498dfe9155594521f8435c20ffdfe386f9308208"
 
-RPROVIDES:${PN} += "python3-pyzstd \
-python3.10dist-pyzstd \
+RPROVIDES:${PN} += "python3.10dist-pyzstd \
 python310-pyzstd \
 python3dist-pyzstd"
 

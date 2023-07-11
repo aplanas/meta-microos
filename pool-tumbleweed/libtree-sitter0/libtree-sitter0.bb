@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "0.20.8"
 
-RPM_NAME = "libtree-sitter0-0.20.8-2.1.aarch64.rpm"
-RPM_HASH = "b81e87842d05f1d3e1de9dfc3c735b5b0bb74f8820dd046d1794566a4c992e5690e36268cbf865dd8036747de2884590021cef535663d70997a8464e54579bae"
+RPM_NAME = "libtree-sitter0-0.20.8-2.2.aarch64.rpm"
+RPM_HASH = "2cefd7529d43656d27947448ace2cd09096e9509db5b52d6718822f25cbeb8368eac1d3526428cb4412fe9e0a1c5f45f1d48598b81c0fb261a9e9a5272060366"
 
 RPROVIDES:${PN} += "libtree-sitter.so.0 \
 libtree-sitter0"

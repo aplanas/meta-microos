@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.15.1"
 
-RPM_NAME = "python39-cffi-1.15.1-4.1.aarch64.rpm"
-RPM_HASH = "9f834345efa345d9b3a1d248ea23e6b15f6dc92f3158333b6f43da9caedffb596a4e61a86652ba760ecd788ff47179c2e0d3b1b9336ce1c67a2d01b5817a3355"
+RPM_NAME = "python39-cffi-1.15.1-4.3.aarch64.rpm"
+RPM_HASH = "4353b12400a315b9fac48ec327c101d9c50170a967a3e07d762ea460c1af19d47d52d13e10a9dfe86286438427c7d98f17c1e97d45c725f559d6f53d02c8fa1b"
 
 RPROVIDES:${PN} += "python3.9dist-cffi \
 python39-cffi \

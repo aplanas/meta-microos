@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "5.5.52"
 
-RPM_NAME = "dtkwidget-devel-5.5.52-1.7.aarch64.rpm"
-RPM_HASH = "15b5cecab534e55fa2bf77787770ae4b377618d5089b8b9f20256985e6ef287dd7ab3f5244f5a7c7f67d61154f0318fd12c9f1c9d7154bb818a3faceba44243f"
+RPM_NAME = "dtkwidget-devel-5.5.52-1.8.aarch64.rpm"
+RPM_HASH = "114fd17b983559bdb4df759721b372a01ac06acbec60d9057c61ecd5855770be766501ea86a9f4f2e8ae7b882808f6f7b6062024ec4ec69b84ff8938692354aa"
 
 RPROVIDES:${PN} += "cmake-DtkWidget \
 dtkwidget-devel \

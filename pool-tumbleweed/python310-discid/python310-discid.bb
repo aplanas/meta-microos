@@ -16,12 +16,11 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.2.0"
 
-RPM_NAME = "python310-discid-1.2.0-1.15.noarch.rpm"
-RPM_HASH = "c3c2211283e876fe1c584635002ca9a262ac3e43b8d55971459895c9f2089e7f7845eaa0f4e2dd338d6f71aa4f0e762fd44452f224239adfef25c47719a3c549"
+RPM_NAME = "python310-discid-1.2.0-2.1.noarch.rpm"
+RPM_HASH = "5d2a96b1937a5357c3794995d6628e837b43c11e5595e0b2262091e81c6d1b4da97a54d211b0c134c4e320773997be917721d961a887645e50fae184836a11d2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-discid \
-python3.10dist-discid \
+RPROVIDES:${PN} += "python3.10dist-discid \
 python310-discid \
 python3dist-discid"
 

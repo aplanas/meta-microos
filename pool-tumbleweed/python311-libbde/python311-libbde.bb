@@ -6,10 +6,11 @@ LICENSE = "GFDL-1.1-or-later & LGPL-3.0-or-later & GFDL-1.3-or-later"
 
 PV = "20221031"
 
-RPM_NAME = "python311-libbde-20221031-3.9.aarch64.rpm"
-RPM_HASH = "9d0ff262d0e9796a0ddded85c25616db3ea6dfc0e11930cd6a709e7a1cecf3187d4de84bb1fd297e0fee3918df0542fd5d23eb50841d3887963a2f487cb4227b"
+RPM_NAME = "python311-libbde-20221031-3.12.aarch64.rpm"
+RPM_HASH = "04ca4fec72f60ffbb50c1cbfb3daa08a403bebddd052c3340b18a6de53b544d77dfa1e7f274749806e39c9ef793f7fa45ccb118b82242f436264b656db5e83ae"
 
-RPROVIDES:${PN} += "python311-libbde"
+RPROVIDES:${PN} += "python3-libbde \
+python311-libbde"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libbde.so.1 \

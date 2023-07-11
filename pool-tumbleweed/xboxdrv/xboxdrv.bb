@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.8.8"
 
-RPM_NAME = "xboxdrv-0.8.8-11.3.aarch64.rpm"
-RPM_HASH = "5e19a4ad9980f280e4cc4c4afde2558a8ee57397659f5f0bdf040d862b5522c8117ba626e8b1017cb48d506b47843b99e7bb68785d2e685aaa890cb4719a8500"
+RPM_NAME = "xboxdrv-0.8.8-11.4.aarch64.rpm"
+RPM_HASH = "8ebed550e92e922def42c402e756fc6d16fd9dc7c752b1852706b584ecfd714e2ae1ecf8505d264d962e1b97fab3fd648b6901e3a92e3a745da27fc5fbe276a6"
 
 RPROVIDES:${PN} += "config-xboxdrv \
 xboxdrv"

@@ -8,8 +8,8 @@ LICENSE = "OFL-1.1"
 
 PV = "2023.201.1.092svn51362"
 
-RPM_NAME = "texlive-heuristica-2023.201.1.092svn51362-53.1.noarch.rpm"
-RPM_HASH = "5d5bdac9ddc1cece50d18f03d921b5a9d40d9c2b0102a53b28b3f294bffd4324e416277199c374cffc54f5eb9f474fdbdd67abbcac7a9c2438560364b9018de4"
+RPM_NAME = "texlive-heuristica-2023.201.1.092svn51362-53.2.noarch.rpm"
+RPM_HASH = "72eefb35b7c5ab5e67ac72fc1b7cdf87c89281772a1cd811eb11d96cc1abe9f263437fa804ab7a280bfbb0c5a508087680028341d5b80fbdbc987338eb3210c8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Heuristica-Bold-inf-ly1.tfm \

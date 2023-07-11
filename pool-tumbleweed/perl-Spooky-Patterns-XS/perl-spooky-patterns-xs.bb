@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.55"
 
-RPM_NAME = "perl-Spooky-Patterns-XS-1.55-3.9.aarch64.rpm"
-RPM_HASH = "a9f727be356e851824940fd1178c54640b92b765d9f5f500821c3f126b0c2cfc5b7c8c5001749764c0e1b4556d07a1460cc73220d2461ecfa77e26ac01b5b773"
+RPM_NAME = "perl-Spooky-Patterns-XS-1.55-3.10.aarch64.rpm"
+RPM_HASH = "1ca78231e3604c976b1b662a17b0e4103c93eb2898553eb70d90df6981b6a7efe6ec33639a58d21c9d3ed6047ec8ca1acaeae4fc6cdda00fa52cb1e9c1eedf87"
 
 RPROVIDES:${PN} += "perl-Spooky--Patterns--XS \
 perl-Spooky--Patterns--XS--Hash \
@@ -16,6 +16,6 @@ libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
 libstdc++.so.6 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

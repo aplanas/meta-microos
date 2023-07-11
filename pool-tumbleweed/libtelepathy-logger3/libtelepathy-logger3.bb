@@ -11,8 +11,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.8.2"
 
-RPM_NAME = "libtelepathy-logger3-0.8.2-7.9.aarch64.rpm"
-RPM_HASH = "15b92fe20fb633c8363bc772b62fb7c8403afa4e43c9cfd705739f96cfc0395f392521c99fe89fa995dba5299f281477985c754a44f9b9e0aa030ca2dbb0fec7"
+RPM_NAME = "libtelepathy-logger3-0.8.2-7.10.aarch64.rpm"
+RPM_HASH = "832999f04cb7dca5d4ead0c071555fcbda376cbaf8c081e930784eb81a20771a38e0bd4305c7b299aa76f79d2d26b3181f736bc8ad0f26ab1bd65f678e7ba391"
 
 RPROVIDES:${PN} += "libtelepathy-logger.so.3 \
 libtelepathy-logger3"

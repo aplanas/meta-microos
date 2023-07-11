@@ -5,10 +5,10 @@ from the MIDI input device and render them to the audio device. It \
 can also play MIDI files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.3.1"
+PV = "2.3.3"
 
-RPM_NAME = "fluidsynth-2.3.1-2.3.aarch64.rpm"
-RPM_HASH = "4d9358f75fc5c18df85308c469476d082a300c3b1c6ff65886c73cb26580a03f553d377f3cc8a042af1e950df3d14d9d637193c2da696e081235acded0f800ea"
+RPM_NAME = "fluidsynth-2.3.3-1.1.aarch64.rpm"
+RPM_HASH = "bc5cf6741ebc2c2eeff4c50be35c5ad2fce28fe075401063293e3569ed87dfda49ae79a77151270427897429f8bacb76f4f3d70f7dcd6bcafe36763455f22b5c"
 
 RPROVIDES:${PN} += "fluidsynth"
 

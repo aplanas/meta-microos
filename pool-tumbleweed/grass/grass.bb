@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "8.2.1"
 
-RPM_NAME = "grass-8.2.1-1.3.aarch64.rpm"
-RPM_HASH = "59de5e3cc608eb989eaddee7ec7ea951dd281ab09d3cd8222c603c72a5a09bf9ccbc5e8a5e1e6d4cd1583b8516dc1c9741a6ac6e2be455cb865dcb077985e535"
+RPM_NAME = "grass-8.2.1-1.4.aarch64.rpm"
+RPM_HASH = "e782ef4947159b21d28f0bcce309d0c83df3c0709f3b3a1f30b100f7bb9dea7c0a638b534abccdce7d494e139342743133b3bd700370924bcfdc25b6613376af"
 
 RPROVIDES:${PN} += "config-grass \
 grass \

@@ -2,10 +2,10 @@ SUMMARY = "Meta package for dependencies to build mruby"
 DESCRIPTION = "Meta package for ruby-build dependencies to build mruby."
 LICENSE = "MIT"
 
-PV = "20230512"
+PV = "20230615"
 
-RPM_NAME = "ruby-build-dependencies-mruby-20230512-1.1.noarch.rpm"
-RPM_HASH = "2552d05710d10960597bb0473e12b3f8f8e55a31ec5f9b4fe58d89ba025e7fd556b2fc9f23444f855b4f2f0fb5cd0796c15342307696c9451759c73f490f4779"
+RPM_NAME = "ruby-build-dependencies-mruby-20230615-1.1.noarch.rpm"
+RPM_HASH = "e4a2fbc5a7e16c4ed014b139cbafbeb32315a96836ef41b2eab0d2d21f5498f66e540112b12a5328f2d0c39de68fda237aa8894489c4ef81b477f5358d579e54"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ruby-build-dependencies-mruby"

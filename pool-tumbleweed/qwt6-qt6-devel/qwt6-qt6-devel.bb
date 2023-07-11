@@ -5,8 +5,8 @@ LICENSE = "SUSE-QWT-1.0"
 
 PV = "6.2.0"
 
-RPM_NAME = "qwt6-qt6-devel-6.2.0-2.1.aarch64.rpm"
-RPM_HASH = "50939502ab2a406a12f03614d6195aef1e3e04481c1eeddbbaefdb8976635c69734bdeeb1bb7f249c53ec0c459bbbcfff1da61e42cff346907e2a24edf8f9369"
+RPM_NAME = "qwt6-qt6-devel-6.2.0-2.2.aarch64.rpm"
+RPM_HASH = "8a8b557271627d98791599fab606cf77be4415fd502fefd040215cb7136427f735bce6253f25382b3a4f25fdc846c02eda29438aabbc014e09d9cada965a2bf5"
 
 RPROVIDES:${PN} += "pkgconfig-Qt6Qwt6 \
 qwt6-qt6-devel"

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.16.2"
 
-RPM_NAME = "libheif-rav1e-1.16.2-1.1.aarch64.rpm"
-RPM_HASH = "6fda2f199f924bbbecd2c0377b351878db01d42858fcaf12e124299045ebd217318fe5927c17d3007584f0800692662737393cae7ee582bd18ebceadeba20e1a"
+RPM_NAME = "libheif-rav1e-1.16.2-1.2.aarch64.rpm"
+RPM_HASH = "322216ba1a5390cc2d67c0e3bf89ae024cc5681207391c6a21e4e2c15b0366ce9ce797ab8c2498d34c8cee6a89e155463067d0e5b5fa0a560d958d412cc0c822"
 
 RPROVIDES:${PN} += "libheif-rav1e \
 libheif-rav1e.so"

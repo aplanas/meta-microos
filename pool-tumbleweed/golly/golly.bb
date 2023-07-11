@@ -25,8 +25,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.2"
 
-RPM_NAME = "golly-4.2-2.1.aarch64.rpm"
-RPM_HASH = "420bc7b8e0c0fabdcfcc66483f06b97cc3e5874246c6d4ec031d82b769af1d5d57315bd152f53d1cc15061d248efbef7a75fed6483a394ac1a1037c0fc6c0c15"
+RPM_NAME = "golly-4.2-2.2.aarch64.rpm"
+RPM_HASH = "5b1ebc795bd8125ca0c1eb40583c64fbf6e9da0a4d4f13d178d5bda2200aa659e7e226fe8beabafb1840c2b5186effd54422169021e5ca1f5ce6d45e9f7d587d"
 
 RPROVIDES:${PN} += "golly"
 

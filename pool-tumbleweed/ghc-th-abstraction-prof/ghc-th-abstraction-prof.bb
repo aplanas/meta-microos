@@ -4,8 +4,8 @@ LICENSE = "ISC"
 
 PV = "0.4.5.0"
 
-RPM_NAME = "ghc-th-abstraction-prof-0.4.5.0-2.3.aarch64.rpm"
-RPM_HASH = "76782b5da27ae39fee2920ec5e426523b6bea70db5e7c841e2fc99b049d3ce962163e98b1a69dbadb4f9c4e82851c3efa1bb02a907340cc11eb7b2cd71176ddf"
+RPM_NAME = "ghc-th-abstraction-prof-0.4.5.0-2.6.aarch64.rpm"
+RPM_HASH = "26dda8006d739ea6fe983bebb2ed365bbd65f377d123f8d6819bd0a720d9e03591ebb77f291bb721ccc0725c5e94b7de9ca342c9a4fd66398bc0057a25bfb685"
 
 RPROVIDES:${PN} += "ghc-prof-th-abstraction-0.4.5.0-8bY5lBPMorfFW3yG6gFNZT \
 ghc-th-abstraction-prof"

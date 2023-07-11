@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.201.svn61719"
 
-RPM_NAME = "texlive-zapfding-2023.201.svn61719-52.1.noarch.rpm"
-RPM_HASH = "932f8ef68f1c5d5cf55e2614beb1d9286a68757ff43f0ed3cfd64fb7729e2f028b4d0eee41366d93296c5f83c8dba6e4d7d6aee7cb955a253b7deaa6f7293477"
+RPM_NAME = "texlive-zapfding-2023.201.svn61719-52.2.noarch.rpm"
+RPM_HASH = "d818bd396f30b3fd2d693ae4126bdb9d40ae7a9fb4f9b609656942b9b457861bc7acc55fda0dde5c33a62687e92e719f2eacd2be0a92f3a6e2e6d593af0c96b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pzdr.tfm \

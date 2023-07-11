@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.8"
 
-RPM_NAME = "avahi-autoipd-0.8-23.1.aarch64.rpm"
-RPM_HASH = "da6d90f356ccfaee4448c8122578c60aeeeef39d222cbc2e671ff12201eb607ed1bd5bba8edf628ad5f4305287c35d08f864d4345b05091ef00b52859764f7a5"
+RPM_NAME = "avahi-autoipd-0.8-23.3.aarch64.rpm"
+RPM_HASH = "030a2c0df7ec143f7313664ce27251ec6ffb4c638ea954631e9b6f4ecf0f286a5ab0d08950f43fc65923cd158a82514b96ab0372220ce6485030a018b7c56b23"
 
 RPROVIDES:${PN} += "avahi-/usr/sbin/avahi-autoipd \
 avahi-autoipd \

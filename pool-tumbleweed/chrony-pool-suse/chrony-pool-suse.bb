@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "4.3"
 
-RPM_NAME = "chrony-pool-suse-4.3-2.3.noarch.rpm"
-RPM_HASH = "a6c53e3af0d3ed83f98b1f0daacd4d1fa294d42bd1931532ed71f9f62feac9b80732b976dad1d2867c0f120077d95081b187c89594fbce5929b99b80eb4fb26c"
+RPM_NAME = "chrony-pool-suse-4.3-2.4.noarch.rpm"
+RPM_HASH = "20664152d962072876856656a1407ad40b0f530a0dda4480c4de4c3b79749788104a8b8b44e67c83e2fc90fe96a5349908c2017e6a7aef62589dbf96ffa3928d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "chrony-pool \

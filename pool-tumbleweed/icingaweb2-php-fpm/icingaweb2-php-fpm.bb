@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-or-later & MIT"
 
 PV = "2.11.4"
 
-RPM_NAME = "icingaweb2-php-fpm-2.11.4-2.1.noarch.rpm"
-RPM_HASH = "2812dd844f8b6093ac6c3dd25c1ddb21b019003c410866abd7cacee1a54eef7ba5366148480e199a80362cfbf2a79ae498cafc084eb9e439b1573e6b15a45d9c"
+RPM_NAME = "icingaweb2-php-fpm-2.11.4-3.1.noarch.rpm"
+RPM_HASH = "8283dcb003b6a139a6b750fa3fd75753e1f7df1b4784456bd8ef8fae8abe65df3f2725eb26f8d716e851d8d8e0012621ac2d1bc660edd2078230ca677934a10a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-icingaweb2-php-fpm \

@@ -5,8 +5,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.4"
 
-RPM_NAME = "perl-RPM2-1.4-1.28.aarch64.rpm"
-RPM_HASH = "3c433ca950ee8d6318aca5f47beb5f38d091a71d899c709e74ce9dc44047b27efead88ac0ad4852bd6d56663975a00cdff68969497af371e2735ac4b70ca5aa1"
+RPM_NAME = "perl-RPM2-1.4-1.29.aarch64.rpm"
+RPM_HASH = "3e56b209363e421322aff034d68494350b319d2eade8a7c91520dd6572f1d659ddb88676102d48b2ccdedf5ab1f8d0fb17c449e611bbdf3ba80a775ede2f8d65"
 
 RPROVIDES:${PN} += "perl-RPM2 \
 perl-RPM2--DB \
@@ -18,7 +18,7 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 librpm.so.9 \
 librpmio.so.9 \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-File--Basename \
 perl-File--Spec"
 

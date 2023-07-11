@@ -11,8 +11,8 @@ LICENSE = "AGPL-3.0-or-later & CC-BY-SA-3.0"
 
 PV = "3.7.0.10"
 
-RPM_NAME = "povray-3.7.0.10-1.8.aarch64.rpm"
-RPM_HASH = "33554effcc175f91942f1d604696d2f737ee0b6a972cb82a94e3cef107df839d4434e5d21e2705451aaeaefde1de8ec79121d0c90727e9b80f1b2eab2241908a"
+RPM_NAME = "povray-3.7.0.10-1.10.aarch64.rpm"
+RPM_HASH = "f435da8eb40c90e78263cba557e2310e2d24dfe689d18c96c2d486f25fb038398a7d7cb1526d478ddcad6d67c4260094b75a75778ec1c39a4607ebb5d6209428"
 
 RPROVIDES:${PN} += "config-povray \
 povray"

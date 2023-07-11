@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.36.0"
 
-RPM_NAME = "gnome-color-manager-lang-3.36.0-2.9.noarch.rpm"
-RPM_HASH = "921f5cc8b53519c49ae69d18d1d7ce3ce86e49ffad23b37456408e180e5d47cdc08beb3268b7f419782ae27a2c8b0ade202dcf7bce45df278747ac18e7223177"
+RPM_NAME = "gnome-color-manager-lang-3.36.0-2.10.noarch.rpm"
+RPM_HASH = "83f8f1f33abbff1dfa9285fe6fb1431216f6f7769d1ef721186ed8cf6efe29ec94b7f11fb4c7b98c07a31ed6859ce73516e0466c66ee8a454ee66630a8968511"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-color-manager-lang \

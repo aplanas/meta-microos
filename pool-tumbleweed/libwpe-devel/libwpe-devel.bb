@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.14.0"
 
-RPM_NAME = "libwpe-devel-1.14.0-1.2.aarch64.rpm"
-RPM_HASH = "665f93f31b23c05ac2c436b3435ddfdcbe10f54c24193dc173f47597f83324668e21be9e88d604ff625c1d6bb9439f14b788f27270b1070ffa86c81ee6b6dd26"
+RPM_NAME = "libwpe-devel-1.14.0-1.3.aarch64.rpm"
+RPM_HASH = "c5da435beb612b45f8890592f1754ac7eceefe717e18826960d6ccd62d1ab6d57debde7411597f56e25b82eee09a9ead82e30e4c8aba2afc27ef21187d24da09"
 
 RPROVIDES:${PN} += "libwpe-devel \
 pkgconfig-wpe-1.0"

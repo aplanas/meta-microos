@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the headers and shared object symbolic link
 for the hwloc."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.9.0"
+PV = "2.9.1"
 
-RPM_NAME = "hwloc-devel-2.9.0-3.1.aarch64.rpm"
-RPM_HASH = "14470165c02aeb4243f1ff035785b21822d03e60a16cfa422237ab9e13d7e65cb82a2467092981c6d62ce7f0c1761b3293fcf11b277886d4a3340b47c8a53f48"
+RPM_NAME = "hwloc-devel-2.9.1-1.1.aarch64.rpm"
+RPM_HASH = "31263d326febb687783222c892dd1971244be28411ae8860c0520f331daafe50e34a613d3c92eab37e05ef012ca75a50af56d30e4f68cfecac9e891bb0666e59"
 
 RPROVIDES:${PN} += "hwloc-devel \
 libhwloc-devel \

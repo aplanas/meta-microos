@@ -4,12 +4,11 @@ LICENSE = "WTFPL"
 
 PV = "0.0.6"
 
-RPM_NAME = "python310-xpybutil-0.0.6-1.14.noarch.rpm"
-RPM_HASH = "2f5bcea16b124ab404eabffeca88986848cc8551a3dac34a9cf6832cbd7e0f422b7f52df8fd6cb6db43a068e79563f1114005f2972dd1e52c33e27e641f18c97"
+RPM_NAME = "python310-xpybutil-0.0.6-1.16.noarch.rpm"
+RPM_HASH = "18c07db037f42aec1bcd882cc396991e8ef73f4112724d37f5d08ec6faa5e1f3c019bd34b71c48084c808ebf3845e094dab112257b16dc90699a522509279775"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-xpybutil \
-python3.10dist-xpybutil \
+RPROVIDES:${PN} += "python3.10dist-xpybutil \
 python310-xpybutil \
 python3dist-xpybutil"
 

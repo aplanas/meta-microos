@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "libgnome-desktop-3_0-common-44.0-1.1.aarch64.rpm"
-RPM_HASH = "ea506a8ea5cd4f4e7fc1f634a382d2a9039cd3c0b29299eaa8b4dff579fb6b2a7b9871a390a94647e170d804ffbae764a1a71a8a7d6adf3b24c837b7a99e7f4f"
+RPM_NAME = "libgnome-desktop-3_0-common-44.0-1.2.aarch64.rpm"
+RPM_HASH = "06cce19346cb0cf7513013ec82214f030a4a62bd1dae5a6b6fe373c46add8230c9791e307ce34a4759da892ce97ec9059e6c52aef4aaf622e80be3756a8d7682"
 
 RPROVIDES:${PN} += "libgnome-desktop-3-0-common"
 

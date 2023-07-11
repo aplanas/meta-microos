@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "1.0.1"
 
-RPM_NAME = "python311-calmjs.types-1.0.1-1.14.noarch.rpm"
-RPM_HASH = "116b713af0e3fbaf96335338edce4bd01370656aabf6c706c4de7a53739cc5b4abc401387fdf9f0950dbaf5be01d3f268578e591c5fd52b77914cbc4cb2e8043"
+RPM_NAME = "python311-calmjs.types-1.0.1-2.1.noarch.rpm"
+RPM_HASH = "0fec55f0b736c8feb0bd2a0fdb49d9a30b3ac0024efa13e193e83f883219382c0f190fd36d1122d71372423250a7c5a821e452cbd5c66bedbdb8527af75f2411"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-calmjs.types \
+RPROVIDES:${PN} += "python3-calmjs.types \
+python3.11dist-calmjs.types \
 python311-calmjs.types \
 python3dist-calmjs.types"
 

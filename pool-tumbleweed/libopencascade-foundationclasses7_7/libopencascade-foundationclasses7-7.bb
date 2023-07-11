@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-only-with-OCCT-exception-1.0"
 
 PV = "7.7.0"
 
-RPM_NAME = "libopencascade-foundationclasses7_7-7.7.0-1.3.aarch64.rpm"
-RPM_HASH = "6b4fe6a6c242ee0d186fa3e32e76845a531a0630a4a90c0e8d004537d76b295a0352c6e53742aa21b848818bd21bca1e6d3ed3ce69738a9cb236704082cd2ae9"
+RPM_NAME = "libopencascade-foundationclasses7_7-7.7.0-1.4.aarch64.rpm"
+RPM_HASH = "640881048cb7fc4101d635649b2a7f3347e45cf5a8d79c36320bcc4a7662a05921c25126f9ec9f7bdc96dcfc0187f7d97d42adf3b06c240c3e6970586cc82351"
 
 RPROVIDES:${PN} += "libTKMath.so.7.7 \
 libTKernel.so.7.7 \

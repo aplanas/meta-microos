@@ -5,8 +5,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-monocle-postrus-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "78b457684563ae909235543e3e4e5087d378870fdcad55860a67fa2a6ee2e47e6638ed27790e4bfe68513829e46506b8e27e8d73686c7d2c4d6b45fe601aac5f"
+RPM_NAME = "leechcraft-monocle-postrus-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "b4b0c71f8f846dc86d761e9284c874820c9dc02271bc880463b4990621a0701643174a4bc432e178d9f56917ae43e345a12cfcd85048590a2e7f749d42d53889"
 
 RPROVIDES:${PN} += "leechcraft-monocle-postrus \
 leechcraft-monocle-subplugin \

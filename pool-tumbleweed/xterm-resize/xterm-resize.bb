@@ -3,10 +3,10 @@ DESCRIPTION = "Prints a shell command for setting the appropriate environment va
 indicate the current size of the window from which the command is run."
 LICENSE = "MIT"
 
-PV = "380"
+PV = "382"
 
-RPM_NAME = "xterm-resize-380-1.1.aarch64.rpm"
-RPM_HASH = "ab343ce8ba934714acf3a8cc0bf04abd93ec842aa3e5643258c3d0e625736584af59c5f57052087e8a9893544128384fa213940e4917fae7ec76d77dd3cfbc29"
+RPM_NAME = "xterm-resize-382-1.1.aarch64.rpm"
+RPM_HASH = "662d969d96392061787146a915f0a565b7bff053da45821cae1bf410d9da61cd57e31573e062280cfd7776340b74428dcdfd230dc1386988b9aefb1b380265fe"
 
 RPROVIDES:${PN} += "xterm-resize"
 

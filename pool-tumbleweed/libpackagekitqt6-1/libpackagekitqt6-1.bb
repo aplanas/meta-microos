@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.1.1"
 
-RPM_NAME = "libpackagekitqt6-1-1.1.1-1.1.aarch64.rpm"
-RPM_HASH = "e28a7fcc4d7e8c44d296ed07c2b5c12ea3a1b4b7c20e8d03fdb71a67b5391d70888a34bd7a804e20f0dbd08c14d7934d83660158350c5df1c9b3f4ba80365b50"
+RPM_NAME = "libpackagekitqt6-1-1.1.1-1.2.aarch64.rpm"
+RPM_HASH = "b2f3353c06abc7592316cf8ee40497c41c3145ea8b366401842f57d67515caaf092292a8eee33fb4ff7e9dd5457ed48cd05878ffcd96b0765b8d038191ef9a54"
 
 RPROVIDES:${PN} += "libpackagekitqt6-1 \
 libpackagekitqt6.so.1"

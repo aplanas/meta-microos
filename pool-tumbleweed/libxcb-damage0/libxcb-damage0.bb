@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "1.15"
 
-RPM_NAME = "libxcb-damage0-1.15-2.2.aarch64.rpm"
-RPM_HASH = "daa2e37ee6b01083d0c2d785c15bcd0a019ac220e33f554214cb5e1864f303ec85f90c0ce77ffe18dc256c5bc7bb82639d8794a7fa62135abfe502518adcc372"
+RPM_NAME = "libxcb-damage0-1.15-2.3.aarch64.rpm"
+RPM_HASH = "090ca11ded070bee4665b3372cdc94708a077c1df501d098949dc7352de57047e48e5399b4fe092af80f0d3510fecac9fd6ef3ba4f504e5e96b2cd0ab055fdec"
 
 RPROVIDES:${PN} += "libxcb-damage.so.0 \
 libxcb-damage0"

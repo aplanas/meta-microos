@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the common plugins for integrated developme
 environment based on the KDevelop framework."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kdevplatform-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "bdd5900b270acd8df5125f3d9cf7fdbd501ae4ed499764a93844b3edf172e1590da68ff7415a94a13dd201a55c8ce124949c3cf2a48b5a432804866e3446dc5a"
+RPM_NAME = "kdevplatform-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "fca20e7aad9396eeae35676b908616fa29e12c55381483c71fefccd66988c3fecb2f389f2bbb084d9ecdddfd1d1e31ea9ea7be8f1984cec1cb12c2f695962c73"
 
 RPROVIDES:${PN} += "kdevplatform"
 

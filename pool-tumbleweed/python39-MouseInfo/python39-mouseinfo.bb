@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.1.3"
 
-RPM_NAME = "python39-MouseInfo-0.1.3-1.12.noarch.rpm"
-RPM_HASH = "5cada19e0970376400c8b892fcb02e96c7b9909865a9fc5cf2327332cb2d10aec85f14ba22353d473cf8cae9db7f7227e3ce07a0c1a7fa209e4964d99f236c82"
+RPM_NAME = "python39-MouseInfo-0.1.3-1.14.noarch.rpm"
+RPM_HASH = "cba6f5d455b27f4339c989f311cbe99afcd84702ee15650ed7ecfad052f1cf7366f9fb4ba2348735137a25e35caa0d3399df78a09582831478096f0ef94b7e5d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-mouseinfo \

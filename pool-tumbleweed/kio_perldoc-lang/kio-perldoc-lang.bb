@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kio_perldoc"
 DESCRIPTION = "Provides translations for the 'kio_perldoc' package."
 LICENSE = "GPL-2.0-only"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kio_perldoc-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "630734534b3bce6435b0079a2c16c1f5ccf815c168bb686ab38dc6a9a27bdca224fcd501eaf4c72efb25995add6cf6e426fe236e558fb795356c9c546a62cb2a"
+RPM_NAME = "kio_perldoc-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "7e1a5eb595f4a650fa0572a63954b81f6e76a442c59b530cd7db3fb0ad5dd28da56d812dab78a615d238b7e08d9a613252e2ee890bc765556dd51fa14a6c8d1d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kio-perldoc-lang \

@@ -6,11 +6,13 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "3.0.2"
 
-RPM_NAME = "python311-unittest-xml-reporting-3.0.2-3.2.noarch.rpm"
-RPM_HASH = "8396c9bdf1a56e8a3e2b8a6529a19b242c85c6056d3ea9c4d6ee65fab7053944884c9a8dca058e0013fa6f2a7b4456f7b8fa04d13ba449d405195968f03e343d"
+RPM_NAME = "python311-unittest-xml-reporting-3.0.2-3.4.noarch.rpm"
+RPM_HASH = "c210fd316d86f2a23a95d9a754e892d58fb09500090db37a42fe7900a58fc31d6e5e7204283006363f3f07c9e3773dc3acdb0db6d846f951102766a6f3b8e263"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-unittest-xml-reporting \
+RPROVIDES:${PN} += "python3-unittest-xml-reporting \
+python3-xmlrunner \
+python3.11dist-unittest-xml-reporting \
 python311-unittest-xml-reporting \
 python311-xmlrunner \
 python3dist-unittest-xml-reporting"

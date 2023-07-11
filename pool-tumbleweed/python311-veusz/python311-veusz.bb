@@ -9,10 +9,11 @@ LICENSE = "GPL-2.0-or-later & Python-2.0"
 
 PV = "3.6.2"
 
-RPM_NAME = "python311-veusz-3.6.2-1.1.aarch64.rpm"
-RPM_HASH = "efbb5abdcc613bf62b380a60c51476f3af406b11085f7b87a5a0cdadbb2a1cfab6c5d5accb1e2c328eb6e98a1729d2955277bff121aa9bea7f9edc0c97332a21"
+RPM_NAME = "python311-veusz-3.6.2-1.2.aarch64.rpm"
+RPM_HASH = "ecc36313b1d49a62dc6ae89873e40707ea323e02f93950ca78ee258a333c826904647141793380e97b0f482c5ca751cdd185dfa3d96706c098ac1e25df48ad5d"
 
-RPROVIDES:${PN} += "python3.11dist-veusz \
+RPROVIDES:${PN} += "python3-veusz \
+python3.11dist-veusz \
 python311-veusz \
 python3dist-veusz"
 

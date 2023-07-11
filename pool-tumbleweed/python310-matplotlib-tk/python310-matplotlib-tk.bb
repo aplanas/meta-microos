@@ -5,11 +5,10 @@ LICENSE = "SUSE-Matplotlib"
 
 PV = "3.6.3"
 
-RPM_NAME = "python310-matplotlib-tk-3.6.3-2.1.aarch64.rpm"
-RPM_HASH = "672c741be97831b87eb66a4f6781f6b431da9e5b0e75bf8eb31c89a64177177480600b47b8ccf9f82b08378cbe14ac5b12775588fde41fc523aa00fdfe13fde7"
+RPM_NAME = "python310-matplotlib-tk-3.6.3-2.3.aarch64.rpm"
+RPM_HASH = "d2dc54872e9481bca9c0d3b8bc524c9492e706ae00c6fec8bdee3fd7a0c8f606ab555b7f007ec20e954781b348f4080ad901d73ea1abc3b1f6bc76a0580069d5"
 
-RPROVIDES:${PN} += "python3-matplotlib-tk \
-python310-matplotlib-tk"
+RPROVIDES:${PN} += "python310-matplotlib-tk"
 
 RDEPENDS:${PN} += "python-abi \
 python310-Pillow-tk \

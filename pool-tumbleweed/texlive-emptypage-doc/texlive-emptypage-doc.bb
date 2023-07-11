@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.2svn18064"
 
-RPM_NAME = "texlive-emptypage-doc-2023.201.1.2svn18064-53.1.noarch.rpm"
-RPM_HASH = "0d6cd8cc6af8a424c34391fb4ae7c205926a7fb9ca2221e45c5d4a39fddc33deca1167f08c89ada67b420a27d24e938b0cd0e79290b98cec3c2731b6c4d7b0d0"
+RPM_NAME = "texlive-emptypage-doc-2023.201.1.2svn18064-53.2.noarch.rpm"
+RPM_HASH = "dcf3299a4bafc40eebbc21fe2bdf4b23fda7ceb858b22cc2b1a04597b6691562cb3131870a97a0ee748ea91320135befaf71e5c06abba76f345cf31ea948b27a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-emptypage-doc"

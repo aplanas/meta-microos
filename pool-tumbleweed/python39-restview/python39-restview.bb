@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "3.0.0"
 
-RPM_NAME = "python39-restview-3.0.0-2.4.noarch.rpm"
-RPM_HASH = "87368599296e57eee607181febad9ca1771872db074673d1dadf51997c53df269d63317755154a386af2ae6be05bfa468786c975b1503a8a750b3d2ac232bed1"
+RPM_NAME = "python39-restview-3.0.0-2.6.noarch.rpm"
+RPM_HASH = "67435b7e4d10678ca8dcbb52dc78d308be330f102c43ebde7b635f95d3030a615d972a1847aec0da9a5a34b12f55693ef6f6fe587daf0fa1cc4cd92407da08a8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-restview \

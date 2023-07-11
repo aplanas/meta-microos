@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0"
 
-RPM_NAME = "usbtop-1.0-2.18.aarch64.rpm"
-RPM_HASH = "f8e6a0f92d3a6cfce35d55a7da0790af8a46bfd2cde1f50573a88bbf967d47b9d6faa5c68e28bb10f92982e07a8b52cdada1cc1b0903de36adf550fe23a33274"
+RPM_NAME = "usbtop-1.0-2.19.aarch64.rpm"
+RPM_HASH = "dbb1c3d8efd6d67724b8a4c0b16084683c2f63326316687d8459231f9656e01c628ef9a2e8b299bbe69701271ed7db043943948683447f96b9bd8ecad8d153cf"
 
 RPROVIDES:${PN} += "usbtop"
 

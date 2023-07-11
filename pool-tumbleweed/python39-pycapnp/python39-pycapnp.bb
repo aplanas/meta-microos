@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.2.2"
 
-RPM_NAME = "python39-pycapnp-1.2.2-1.6.aarch64.rpm"
-RPM_HASH = "efe2a7959cdf880e76f6fd9738273e5c199f0f8b5aeb538b34336364faaacbf472bde6f41afc221ad10dd483541eb90a451d0b071ae2aa7e59810e6909d65ba3"
+RPM_NAME = "python39-pycapnp-1.2.2-1.8.aarch64.rpm"
+RPM_HASH = "a0442a9468422277936a6c59983b278a9f7de40c6317c3de28674b72e50acd9359b9944d675c3102e0b72fdefffe9a74b80c2f6aa4cb59f6e1bbcf1cd9bcd7c4"
 
 RPROVIDES:${PN} += "python3.9dist-pycapnp \
 python39-pycapnp \

@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "22.09.1"
 
-RPM_NAME = "soapysdr0.8-module-lms7-22.09.1-2.2.aarch64.rpm"
-RPM_HASH = "e1968146e996e7c005b45e1910d189d6f55f5f9ddbff7658115017332f33c4fb0a51b45ce26426daed96419e49745e58ffeeaacd54fb6fe582018f15141b392d"
+RPM_NAME = "soapysdr0.8-module-lms7-22.09.1-2.3.aarch64.rpm"
+RPM_HASH = "a6b94ac50466145961ecd32b9ba060f8c7041e3a9adb1725b675002158b822c6c911a17878d8f6a3ab800d85d7573d804b2df0dbc30a41d87831c1778939994b"
 
 RPROVIDES:${PN} += "libLMS7Support.so \
 soapysdr0.8-module-lms7"

@@ -10,8 +10,8 @@ LICENSE = "NetCDF"
 
 PV = "1.12.3"
 
-RPM_NAME = "pnetcdf-mvapich2-devel-static-1.12.3-1.3.aarch64.rpm"
-RPM_HASH = "f61e158a0432f7c2c86a418a629d3ada364aec3e4738e10845ba9151bd949b15a2a3b472d0d535bba04790e05bef429d652794099b5c53ebaf52985726d42519"
+RPM_NAME = "pnetcdf-mvapich2-devel-static-1.12.3-1.4.aarch64.rpm"
+RPM_HASH = "de9bed3f30e318aef3f665f851b1e378927fe83345e6e1ddfc1b39d25a391315c3a50b2040d5a6276af6841421faaa0e28397aabe4b827b96b65d1108996dd26"
 
 RPROVIDES:${PN} += "parallel-netcdf-mvapich2-devel-static \
 pnetcdf-mvapich2-devel-static"

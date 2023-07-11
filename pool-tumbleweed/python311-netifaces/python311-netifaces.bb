@@ -14,10 +14,11 @@ LICENSE = "MIT"
 
 PV = "0.11.0"
 
-RPM_NAME = "python311-netifaces-0.11.0-2.1.aarch64.rpm"
-RPM_HASH = "5edbb010e386ba6dc677ae36d6c77563f57c6280a0346f62012da9b21df27e63104c53202c5ab4943b29986f2b32111017c2e00be9e26253525044bce6d8f965"
+RPM_NAME = "python311-netifaces-0.11.0-2.3.aarch64.rpm"
+RPM_HASH = "c20a022743625b6f864fb3f0986adc0a8ad8aef8b88e7a04e00846ab592066363141af0d90a3f46441e5e5d334e680f46396f30e37ae6916df608b3dd198926e"
 
-RPROVIDES:${PN} += "python3.11dist-netifaces \
+RPROVIDES:${PN} += "python3-netifaces \
+python3.11dist-netifaces \
 python311-netifaces \
 python3dist-netifaces"
 

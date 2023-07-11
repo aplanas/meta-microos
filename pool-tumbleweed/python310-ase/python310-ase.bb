@@ -4,12 +4,11 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.22.1"
 
-RPM_NAME = "python310-ase-3.22.1-2.2.noarch.rpm"
-RPM_HASH = "edc6e7f9a2de32e69c25d555e6f829e8380fb07843c12c6f0eaea713381204b9bf3c2e857355f14bc9917d66e2da8c4474f003d040e0a66cb7e048843811e02d"
+RPM_NAME = "python310-ase-3.22.1-2.4.noarch.rpm"
+RPM_HASH = "9dd12e17a9de4b984908ba668c779a6ad9dbdd77b880b814190c6bb1a09bd5e077ea84ed2ea190e8ab65cfa456146523591d0f267995e9dbbae2cb8bfd3efc86"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-ase \
-python3.10dist-ase \
+RPROVIDES:${PN} += "python3.10dist-ase \
 python310-ase \
 python3dist-ase"
 

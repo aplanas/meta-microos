@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.17.2"
 
-RPM_NAME = "ghc-xmonad-prof-0.17.2-1.3.aarch64.rpm"
-RPM_HASH = "66b9742dfc63e327b9f48e70d851a41fb00f4aca1a86ac55bacdde111929a31cac740cdff0cfbb2d360025d6eaa489d89f40769675c5b5f45aa385a8201b1c35"
+RPM_NAME = "ghc-xmonad-prof-0.17.2-1.6.aarch64.rpm"
+RPM_HASH = "91de53c165a746b5429740c8609e57ec6bf2e1a751fa5675cf87b619db7c910da13261023e017818be1feb17f59b6c0db9c8c10884aefd6f5261929a507aa6d9"
 
 RPROVIDES:${PN} += "ghc-prof-xmonad-0.17.2-J64iMqERQ1Q7QqR5Vl2D4I \
 ghc-xmonad-prof"

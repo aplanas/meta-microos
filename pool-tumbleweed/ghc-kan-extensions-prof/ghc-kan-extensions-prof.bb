@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.2.5"
 
-RPM_NAME = "ghc-kan-extensions-prof-5.2.5-2.3.aarch64.rpm"
-RPM_HASH = "efe42810a28f775833a4d190ffbdd5affa7cad66d0c3e1756ceef7ed7aa55acda5262440e16a57854259b8c0bd92de6050aa26231a2ee40b41e628fc08de633c"
+RPM_NAME = "ghc-kan-extensions-prof-5.2.5-2.6.aarch64.rpm"
+RPM_HASH = "e3349cd95c71ae19b23e841b30091746d503e50e8499f643e1deeffde189aef3c2d3f6080c4c0bfeb513ed9cb7be7065f961cd998b403500f912e38ec29c2940"
 
 RPROVIDES:${PN} += "ghc-kan-extensions-prof \
 ghc-prof-kan-extensions-5.2.5-1nBOp7PexbvGHkzwfeC2dO"

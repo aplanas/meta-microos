@@ -4,8 +4,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.57"
 
-RPM_NAME = "perl-XML-SAX-Writer-0.57-1.22.noarch.rpm"
-RPM_HASH = "368005fbf83bfe5ed95d70868dbf277827ff2b0d95880bc2853e73312b70666138c82cf5c498bd046667648e1bab2aa647adba02d313e9afdfabd8a3d4b066ea"
+RPM_NAME = "perl-XML-SAX-Writer-0.57-1.23.noarch.rpm"
+RPM_HASH = "ea40cae2a132fdc8dd7a9fb68ecfddff6de9a8ab217c50715fcbfc917fcc2fe557e2705a150ac4d429557af376cbf8e45fb50c447c474b30d5000d907ae41293"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-XML--SAX--Writer \
@@ -20,7 +20,7 @@ perl-XML--SAX--Writer--StringConsumer \
 perl-XML--SAX--Writer--XML \
 perl-XML-SAX-Writer"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-XML--Filter--BufferText \
 perl-XML--NamespaceSupport \
 perl-XML--SAX--Exception"

@@ -13,8 +13,8 @@ LICENSE = "BSD-3-Clause-LBNL"
 
 PV = "3.8.1"
 
-RPM_NAME = "warewulf-provision-aarch64-initramfs-3.8.1-7.11.noarch.rpm"
-RPM_HASH = "b1808bce09d5795009ca49f4adb3e1f9a587a214b06c7f0e3deddcbe3d261e3ebb2050e4155386491d8a5b350db705048ef28f7b5fa0eff7ebe28d7d26817d18"
+RPM_NAME = "warewulf-provision-aarch64-initramfs-3.8.1-7.12.noarch.rpm"
+RPM_HASH = "79757027e874f890d40cc8c461fc8d31defaa27290a8c0e3565166bcaced51b5be5842e49b92c56b59b0a274826e5f215b051bfa901d47e8f6b9158daae04973"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "warewulf-provision-aarch64-initramfs"

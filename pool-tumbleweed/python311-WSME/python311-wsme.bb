@@ -7,11 +7,12 @@ LICENSE = "MIT"
 
 PV = "0.11.0"
 
-RPM_NAME = "python311-WSME-0.11.0-2.6.noarch.rpm"
-RPM_HASH = "a7cc01a549c38d851b84baa5fc5b7d2ec38f6c62cf2384a611d16f50172e21ee09b170e222ebc54f2fa8354ac212dc3951ca7a4738a4f2afe12860fff880bdbb"
+RPM_NAME = "python311-WSME-0.11.0-2.8.noarch.rpm"
+RPM_HASH = "7b8ca54e778a599478e953459fdefec78ec829cddafc21737e0c89a396199b496f4a69f6114fa918f4db3ba3fa10043373f1884060f6375c3c901cc9bf342e39"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-wsme \
+RPROVIDES:${PN} += "python3-WSME \
+python3.11dist-wsme \
 python311-WSME \
 python3dist-wsme"
 

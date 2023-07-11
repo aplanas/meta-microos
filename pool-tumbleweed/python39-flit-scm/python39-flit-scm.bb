@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.7.0"
 
-RPM_NAME = "python39-flit-scm-1.7.0-2.1.noarch.rpm"
-RPM_HASH = "324999773e06319e687ab7c255639b5c889363e9aa98a281ff54dd44ab5983dfe6b8fec217fe6ebd2d9e2a16d7b03fb6606dd035cf6a6259af1a5e50b22979e1"
+RPM_NAME = "python39-flit-scm-1.7.0-2.3.noarch.rpm"
+RPM_HASH = "c641c63673fdd070ec59f63e932abf9ae118ee276edb1574db55dde9889ad96dd486bf2c2aaac37ee928fbc6715bf49b2a0248073fccb57c191d0f4a8a9d4924"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-flit-scm \

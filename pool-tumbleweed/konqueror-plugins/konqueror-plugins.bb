@@ -2,10 +2,10 @@ SUMMARY = "KDE File Manager and Browser"
 DESCRIPTION = "These plugins extend the functionality of Konqueror."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "konqueror-plugins-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "c42be4f49e5d75f6190b022ffafc7360283095ed5715a4ae41ef001e9082da52ab1b26c545a03f254ba7c5eeea4653cefade7cc8c797f79b4aa942432006583b"
+RPM_NAME = "konqueror-plugins-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "32f76f20bf1eed10ad60002d12b0c852077847dc062ccc2ad5b4bd1c4025819ec14282cb8b7681986f965dd8abbfeb1c6dfd59eb2bd24b314609ee16088462cb"
 
 RPROVIDES:${PN} += "config-konqueror-plugins \
 fsview5 \

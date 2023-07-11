@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.2"
 
-RPM_NAME = "objectweb-anttask-1.2-264.6.noarch.rpm"
-RPM_HASH = "a557045725376ac5805402c934c15495c56c8af2e16beafb3585631714523a450da1a1ff34279a6ef1ff4688d8229f0f50d2b34224564bb78c37c7fea43ce501"
+RPM_NAME = "objectweb-anttask-1.2-264.7.noarch.rpm"
+RPM_HASH = "c5a58273c7f8e6b6d3f5db52714f166efe361641bbbb6fc31e09b1deb2796152f5d8d476ac2424fcc46a43a464c39a4afa4f87d8d8b3951066958623abf4ff5b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "objectweb-anttask \

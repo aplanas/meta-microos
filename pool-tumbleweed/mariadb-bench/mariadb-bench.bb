@@ -5,10 +5,10 @@ To run these database benchmarks, start the script 'run-all-tests' in \
 the directory /usr/share/sql-bench after starting MariaDB."
 LICENSE = "SUSE-GPL-2.0-with-FLOSS-exception"
 
-PV = "10.11.3"
+PV = "11.0.2"
 
-RPM_NAME = "mariadb-bench-10.11.3-1.1.aarch64.rpm"
-RPM_HASH = "c6fa35406b06d974e1e9914789040eb968a7c517b7ebe9fae3a88a850768e68863bcdb770649dc36c7aafb529ab888af869af38842c58ddca36fd91d9b8c7993"
+RPM_NAME = "mariadb-bench-11.0.2-1.1.aarch64.rpm"
+RPM_HASH = "e514512b2fcb600a20fe15110f4d2709a6c4c7b1ab74d62c260d4a038692933de4c43d0c3420760b1e8000035644ee4c0e998dd1fcf1335db8889675c8e69a58"
 
 RPROVIDES:${PN} += "mariadb-bench \
 mysql-bench"

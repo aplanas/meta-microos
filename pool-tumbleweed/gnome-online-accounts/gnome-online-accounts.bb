@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "3.48.0"
 
-RPM_NAME = "gnome-online-accounts-3.48.0-1.1.aarch64.rpm"
-RPM_HASH = "275e1e6bd5321c4e1667ce10694323ae9e3e806bbf049ab0e36874c3b09add44dbaaf199dc7c304972a282b12a02f17e66ec905d1c22de011473e2c1b52005ac"
+RPM_NAME = "gnome-online-accounts-3.48.0-1.2.aarch64.rpm"
+RPM_HASH = "ce42341ee1e2f69df4c2dda01f2317700e68920ce86493b189030f8bcab0388067ec136c44c10a2b8f89e0fdd5937ce1fa9213523897828038b75b649b940712"
 
 RPROVIDES:${PN} += "gnome-online-accounts \
 libgoawebextension.so"

@@ -16,8 +16,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.6.2"
 
-RPM_NAME = "prboom-plus-2.6.2-3.10.aarch64.rpm"
-RPM_HASH = "9b5e885c4bf781e407577c1b089f4fabb5c1c0dec30bc1d16e038e255fe06562316ebfe1959ec040a9dac642ce342532955fb3fa3b94219bf2f794550a4e8a4e"
+RPM_NAME = "prboom-plus-2.6.2-3.11.aarch64.rpm"
+RPM_HASH = "f6b440820f25042084ecff9101d2611c70ea25515545c42ed5d5567c2ce8e6936042f9f713947d1e4f8ca38d5d54b2a2c5e74ad1c5cd375f9103755c3f273d95"
 
 RPROVIDES:${PN} += "prboom \
 prboom-plus"

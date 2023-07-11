@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "8.60"
 
-RPM_NAME = "signon-plugins-devel-8.60-2.18.aarch64.rpm"
-RPM_HASH = "bb0935d2eca1ebb7b7be47168f6cae99605c8c6f68e1da5504509dd8586f3cd5dbaca9412d157120ee767590ca1980e1433492464e6c859b44f353a9192dadef"
+RPM_NAME = "signon-plugins-devel-8.60-2.19.aarch64.rpm"
+RPM_HASH = "20bc442bb7a31dcd36898d5c3a25a52bf1df1bd948a373b8dc88e5e3af50ad75cfe128d781c11d7a0146877d8894a398e1a51ca1b22586714cf2ecffb447b808"
 
 RPROVIDES:${PN} += "pkgconfig-signon-plugins \
 pkgconfig-signon-plugins-common \

@@ -18,8 +18,8 @@ LICENSE = "Zlib"
 
 PV = "2.0.26"
 
-RPM_NAME = "libSDL_gfx-devel-2.0.26-1.17.aarch64.rpm"
-RPM_HASH = "b7414d4b9ea6f8c7451637562f0ab1b244e3b773cc39dfb6fe3a3238d8e196a196bec743ad65ffe054e32195cbbbf36711eacbbbbd1536efe5f3a1f0f8fa5cf0"
+RPM_NAME = "libSDL_gfx-devel-2.0.26-1.18.aarch64.rpm"
+RPM_HASH = "197fcbc6a947bfc1ca12844b84d31d1a7c94135d348c014791f2d95b2b45e9fc9c0c020e2ec6168eaf4ab376a9bd6e5a3f9ffa2211c54934488b22c14eb20aa0"
 
 RPROVIDES:${PN} += "SDL-gfx-devel \
 libSDL-gfx-devel \

@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-
 
 PV = "8.0.2"
 
-RPM_NAME = "qemu-chardev-baum-8.0.2-1.1.aarch64.rpm"
-RPM_HASH = "8ebf712cff1f5c93cd84a44859fdd5d6281cabbd97f11c749e2329ee17791f8429446be5858eb39154e77249d8cdccbee17bffa3572f1cdae0f72d27f632ea74"
+RPM_NAME = "qemu-chardev-baum-8.0.2-2.1.aarch64.rpm"
+RPM_HASH = "1b0651c08f73b89c5ec0f37d14c97a2f358cba57cf80eba72c937714d119d414475a696b897f400b2cda221b8b46ff121d2899d11954f16f17a832d7315007d3"
 
 RPROVIDES:${PN} += "qemu-chardev-baum"
 

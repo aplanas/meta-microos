@@ -5,12 +5,11 @@ LICENSE = "MIT & Python-2.0"
 
 PV = "1.3.10"
 
-RPM_NAME = "python310-pkgutil-resolve-name-1.3.10-1.3.noarch.rpm"
-RPM_HASH = "38f40d6852c7c680c2d669eeef21d279412b1554959cb28c1c92cffbb648f8da897072e98ed754c6520e0d2e6763c42bacf800fca017b27ce8d1f55c00281047"
+RPM_NAME = "python310-pkgutil-resolve-name-1.3.10-2.1.noarch.rpm"
+RPM_HASH = "6b3d152e2ed2716dd33c3c6ba38a6c20e6b464ac3295f632648637c7791d84d65fccb47822d6e600a9d87de18f3aaf00c5b70612d4ab2993e004bd8128ef0c20"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pkgutil-resolve-name \
-python3.10dist-pkgutil-resolve-name \
+RPROVIDES:${PN} += "python3.10dist-pkgutil-resolve-name \
 python310-pkgutil-resolve-name \
 python3dist-pkgutil-resolve-name"
 

@@ -4,8 +4,8 @@ LICENSE = "EPL-1.0"
 
 PV = "2.7.1"
 
-RPM_NAME = "eclipse-anyedit-javadoc-2.7.1-2.7.noarch.rpm"
-RPM_HASH = "ddc591e07c126eefda62b0c1b0982773feb1a148a0ba3ffa289e713fe90c303276d6857615aad4837674325a8fddf1675cd79c00a00769cd5ea8c44146229640"
+RPM_NAME = "eclipse-anyedit-javadoc-2.7.1-2.8.noarch.rpm"
+RPM_HASH = "6655f234962d627e116054095926913d5efca2629a6ec466339f7f3e0da4c5b51fb711de936744e3fae9fdfb58c2fe352e5b2dfa94aec7f7b8f0fe81aacf4705"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eclipse-anyedit-javadoc"

@@ -4,10 +4,10 @@ and locale support. \
 This package contains the runtime libraries for ICU."
 LICENSE = "ICU"
 
-PV = "73.1"
+PV = "73.2"
 
-RPM_NAME = "libicu73-73.1-1.1.aarch64.rpm"
-RPM_HASH = "4f64a30c6ef82933ce20b815b357ab27406f732997286ac080537e46c6f592330691b2eb3460748c41ef9675c1e6e95937e89e85fda1e38d77125d917d2d14ac"
+RPM_NAME = "libicu73-73.2-1.1.aarch64.rpm"
+RPM_HASH = "d60374e93848cfe24692bc209ba305c25532ebe39a93d57fd917a7b21548fc1dc7a13e01653db806cf1344eeaedf197948f86c0682a19372aa8b30a7f1f8d6a2"
 
 RPROVIDES:${PN} += "libicu \
 libicu73 \

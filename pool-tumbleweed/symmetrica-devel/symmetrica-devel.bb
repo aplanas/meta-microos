@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "3.0.1"
 
-RPM_NAME = "symmetrica-devel-3.0.1-1.11.aarch64.rpm"
-RPM_HASH = "c8ca3f5d770484009e34aa91bb589ba500551acfa1e532e5e29d594fddcfb17bf5257de7a2e943a1e0c65cfa7fd4e7b7522084c94d43d1ee1124b061747ca902"
+RPM_NAME = "symmetrica-devel-3.0.1-1.12.aarch64.rpm"
+RPM_HASH = "0a8d4184f93d65c85ee669f90da7d18d0cca34bc3cd2ec4eedb754b675a84943c4acd006e5e4b59509c78a1280337ba5cc3a96a9cd54c02057fac499c03a9010"
 
 RPROVIDES:${PN} += "symmetrica-devel"
 

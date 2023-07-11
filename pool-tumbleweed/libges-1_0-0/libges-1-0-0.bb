@@ -19,10 +19,10 @@ a series of classes to simplify the creation of many kind of \
 editing-related applications."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.3"
+PV = "1.22.4"
 
-RPM_NAME = "libges-1_0-0-1.22.3-1.1.aarch64.rpm"
-RPM_HASH = "dc4e8f99bcf0a4a2a8661d5cbdcb02912c2723370010334b5a075d9d2070ae75f64fb8c7c5ac072417546f2a1094a9cc9e313f72632c087fff7c5439dcbbfe74"
+RPM_NAME = "libges-1_0-0-1.22.4-1.1.aarch64.rpm"
+RPM_HASH = "4f9eff4d8004c51e4a0fe487ebd97f6f61fb750fa202a23f5ac55737d5f86cd0244156edf8a899b5c44392df37ee71b2d38e4c621be78591aedda0d59bca917e"
 
 RPROVIDES:${PN} += "gstreamer1 \
 libges-1-0-0 \
@@ -43,7 +43,7 @@ libgstpbutils-1.0.so.0 \
 libgstreamer-1.0.so.0 \
 libgstvalidate-1.0.so.0 \
 libgstvideo-1.0.so.0 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libxml2.so.2 \
 typelib-GES \
 typelib-GLib \

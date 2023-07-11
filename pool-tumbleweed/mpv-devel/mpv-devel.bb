@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.35.1+git.20230315.e1727553"
 
-RPM_NAME = "mpv-devel-0.35.1+git.20230315.e1727553-1.4.aarch64.rpm"
-RPM_HASH = "7d79af4db5fa87d0ea7c0d407c59d1d577652cc5bf77fe7ebfdda7ef6517da062aa61e04aec8eae24edd66a2867015980edda95760e1f6b518ba4a229940c774"
+RPM_NAME = "mpv-devel-0.35.1+git.20230315.e1727553-1.5.aarch64.rpm"
+RPM_HASH = "dcadd6885cd6bdbcda24a89fe28f3d8fe4b923009f77d2e90ef638572422055f5c03cd11da0423cc6e607d7532ad0fdd101494d528a4b68fa04e2ef0ca7b2ce5"
 
 RPROVIDES:${PN} += "mpv-devel \
 pkgconfig-mpv"

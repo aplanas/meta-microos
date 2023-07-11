@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.1"
 
-RPM_NAME = "pinentry-1.2.1-2.3.aarch64.rpm"
-RPM_HASH = "e7bb391f59cfa69a77c58e1b330a23f32409f1540a533070fbe399072d66ada17126d7cda10acded32ec3ae56212aa9d80b564de79b717db1ea30434e263afed"
+RPM_NAME = "pinentry-1.2.1-3.1.aarch64.rpm"
+RPM_HASH = "be3034773b04ba50d8e53a5cb24809337a219e9e27f61f9ddd5cdf0ea17627a07c85e1d2707b354a648b5ccf6cda892488680c27324e298ad8fc6624faf60f4c"
 
 RPROVIDES:${PN} += "pinentry \
 pinentry-dialog"

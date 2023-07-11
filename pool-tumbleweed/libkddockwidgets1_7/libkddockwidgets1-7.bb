@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
 PV = "1.7.0"
 
-RPM_NAME = "libkddockwidgets1_7-1.7.0-1.1.aarch64.rpm"
-RPM_HASH = "e0ca534b60650fe9519af46eba906d54f7f495b45422566a63a912690bc9f9eda1ea515eaf579884ac3677bf2dba6c014da82e966fb38956a378f338a8ba8b76"
+RPM_NAME = "libkddockwidgets1_7-1.7.0-1.2.aarch64.rpm"
+RPM_HASH = "6e0400bce65a95bce43a1084a456b0906ad0ba17b64fd5a01e8dd29400d54ac8be1806c45aab7c0c25a85c8891e29a2bac1996c782d70ce4b2e2deccad96e715"
 
 RPROVIDES:${PN} += "libkddockwidgets.so.1.7 \
 libkddockwidgets1-7"

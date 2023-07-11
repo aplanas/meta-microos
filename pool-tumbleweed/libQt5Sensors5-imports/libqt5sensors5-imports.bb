@@ -5,10 +5,10 @@ This package contains base tools, like string, xml, and network \
 handling."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libQt5Sensors5-imports-5.15.9+kde0-1.1.aarch64.rpm"
-RPM_HASH = "e5cc8a38906b129f4afe079610b3ba6c7973a0d2184fbfa05716653400ad154e748fc6304043bd194dfeb55802ce74915f403474d5bfe08cb1d9ebcc8895c7f4"
+RPM_NAME = "libQt5Sensors5-imports-5.15.10+kde0-1.1.aarch64.rpm"
+RPM_HASH = "5f6b131bd4754416632aaed00f03782d73d627e1786e357c105e4b61446046f78bcce2518b592a42223fc9b84e0c8758cdae1ea58f532c86240ac3c2cff6118b"
 
 RPROVIDES:${PN} += "libQt5Sensors5-imports \
 libdeclarative-sensors.so \

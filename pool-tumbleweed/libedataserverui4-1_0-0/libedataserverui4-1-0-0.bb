@@ -5,10 +5,10 @@ and calendar in the GNOME Desktop. \
 This package contains a shared system library."
 LICENSE = "LGPL-2.0-only"
 
-PV = "3.48.2"
+PV = "3.48.4"
 
-RPM_NAME = "libedataserverui4-1_0-0-3.48.2-1.1.aarch64.rpm"
-RPM_HASH = "4da74efea0e68f9dce21fdb8abfbce3bde2c3b9f8db67c87570faf5e2b1d0b68668fa7903cdfddbdf2f3bd774c4cb319fafde8314cecd15dfda3dc1684ef344d"
+RPM_NAME = "libedataserverui4-1_0-0-3.48.4-1.1.aarch64.rpm"
+RPM_HASH = "fcd8b4d2e229002b2b9340c88c4300501e9554dbca24928589d876bd133904cfd3530dc4a5dd83de674958cb79ea7a1277d80cf350c6c21c225fe1b078de4f81"
 
 RPROVIDES:${PN} += "libedataserverui4-1-0-0 \
 libedataserverui4-1.0.so.0"

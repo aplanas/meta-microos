@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "0.1.82"
 
-RPM_NAME = "python39-reconfigure-0.1.82-1.16.noarch.rpm"
-RPM_HASH = "76af97d2c1dd7297660c9e0f523c6c89021bade334c7e695527bd9d87a798efce236f786f81f0e09979d682397b52f5edbca227898a7fdc5b1b807321d00c502"
+RPM_NAME = "python39-reconfigure-0.1.82-1.18.noarch.rpm"
+RPM_HASH = "940e324b31ce0f9a22304d09b66659ab1dc712bcc9508c9029f53217671e436512c5e94162b073509119022c48de80b13434162b0ba4714e128c89e61da02246"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-reconfigure \

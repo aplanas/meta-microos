@@ -13,8 +13,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.8.6"
 
-RPM_NAME = "nauty-2.8.6-1.3.aarch64.rpm"
-RPM_HASH = "1ff48e553178d0f1528df2ae65424d925d08cee7c98b25761e30f6859c22972fd7aed336ff03bb6f31f5d9d09d941157f0bf0eebaf6653132b8920d26025353d"
+RPM_NAME = "nauty-2.8.6-1.4.aarch64.rpm"
+RPM_HASH = "05a36aade3bf4a43f42afb03acbbd2b57b685714b3d5b78454a841a819c0bd675d5b3cecd0faa3f61a4bee85daaa7de7ef42eacd0a9dbfa0afcaa4e76c994440"
 
 RPROVIDES:${PN} += "nauty"
 

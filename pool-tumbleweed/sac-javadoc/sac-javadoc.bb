@@ -4,8 +4,8 @@ LICENSE = "W3C"
 
 PV = "1.3"
 
-RPM_NAME = "sac-javadoc-1.3-11.5.noarch.rpm"
-RPM_HASH = "0563bb20199c5939e10f52e1e3b1894e77ff2221f09b40c359e1825e5e154aabcb8f85a2673a948e897f1a87bcab84132178d7fbad45fbe346ce4065bfc08a97"
+RPM_NAME = "sac-javadoc-1.3-11.6.noarch.rpm"
+RPM_HASH = "0a3697b9e6198ac365e5aae0e9832b824cc3ab95ea5664816bbbee4a4be350ac3ee41a7dbc1311ca4b9646439138c101804de178a9ac19871929f5afffcb03a6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sac-javadoc"

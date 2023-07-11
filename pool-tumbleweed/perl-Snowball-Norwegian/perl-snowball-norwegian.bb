@@ -4,14 +4,14 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "1.2"
 
-RPM_NAME = "perl-Snowball-Norwegian-1.2-14.25.noarch.rpm"
-RPM_HASH = "027139a9e974fcdd28935620cb89b036f3cab585570f98057174363992b089c1a468a43ee5e847afe2282f34fc7aba1035f6e02898461b0a3e8abd52695ad0e1"
+RPM_NAME = "perl-Snowball-Norwegian-1.2-14.26.noarch.rpm"
+RPM_HASH = "b007b77811cea129426aa1cb1ededf2f95482a56be28e879d7cbfe72c08141068863d34f73f511d43d16d7f9dab212393c5c36c69d28581a42037327d6b50860"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Lingua--Stem--Snowball--No \
 perl-Snowball-Norwegian"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

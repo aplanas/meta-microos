@@ -7,12 +7,11 @@ LICENSE = "MIT"
 
 PV = "0.1.10"
 
-RPM_NAME = "python310-padaos-0.1.10-1.19.noarch.rpm"
-RPM_HASH = "f97f800c9df34cf3db6f42a05d8f5318b95fb16cd552c92dbba3bd3f08989aa87e97f578c9eb2d340999261d14aec03d1d485b708c382e311855f8284d28a4e1"
+RPM_NAME = "python310-padaos-0.1.10-1.21.noarch.rpm"
+RPM_HASH = "3eca189675e52c4c5af36149f32ad89533809fda66899f87a8e09fb512ddc89ee8b0c6fef98948b06b2b0b81eb9601029cd801e04f4e6175ef69ca6a9993ebcf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-padaos \
-python3.10dist-padaos \
+RPROVIDES:${PN} += "python3.10dist-padaos \
 python310-padaos \
 python3dist-padaos"
 

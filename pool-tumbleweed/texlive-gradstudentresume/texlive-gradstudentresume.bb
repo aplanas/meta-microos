@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.svn38832"
 
-RPM_NAME = "texlive-gradstudentresume-2023.201.svn38832-53.1.noarch.rpm"
-RPM_HASH = "be9836fa464328a38fc9eb2a116a93ac34571fd9dae44efa755ee3ce8e8532d599f36ac7c6752acd5b831ff9e3c5f72486f122b2b44a8b71122002826dc5d379"
+RPM_NAME = "texlive-gradstudentresume-2023.201.svn38832-53.2.noarch.rpm"
+RPM_HASH = "2b735d71113b9a14a554c166b516956c0b52a16db5c6bc2c66b7564064f89ebcf51928e3fa865672d1c65e185e8491af874f472441f8714a8fd46ccf6c0c4784"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gradstudentresume.cls \

@@ -4,11 +4,12 @@ LICENSE = "ISC"
 
 PV = "1.2.0"
 
-RPM_NAME = "python311-versiontag-1.2.0-2.8.noarch.rpm"
-RPM_HASH = "538acd67df28b984dad6f5a5aacb03cc0311d7ca05bb8b7a2b5ba56f65d3d7e335a69f03eab9515966eca0cbec05e07d3697928b27cfe0b6b35b0acf8a15a45d"
+RPM_NAME = "python311-versiontag-1.2.0-2.9.noarch.rpm"
+RPM_HASH = "e4551cb94868aaca7cd17ade2dc9e46ce6f395c2b583cd2854b6e22bf2d10342c91c6525c23e6dfc5200640a81d361cc495ef80ea84a7acfd0da69308399f3e4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-versiontag \
+RPROVIDES:${PN} += "python3-versiontag \
+python3.11dist-versiontag \
 python311-versiontag \
 python3dist-versiontag"
 

@@ -17,14 +17,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "6.16"
 
-RPM_NAME = "perl-HTTP-Daemon-6.16-1.1.noarch.rpm"
-RPM_HASH = "bf596d914c59a44d3c42abc574f6f715fbb500777c25db0a9f46f331c4960ee5ee275e7dd7a8a2fcea8230e3a1672b8fc109aacafbb2632f4d5d6bbb97ea95e4"
+RPM_NAME = "perl-HTTP-Daemon-6.16-1.2.noarch.rpm"
+RPM_HASH = "2f5134047929b041d8920656911a2ebe0b4c4f6f1359b0609ef4e91711dd5ab5602535ac04bc5877b197d14c270647f4a359ea3ea4c414d185f19542551fe757"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTTP--Daemon \
 perl-HTTP-Daemon"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-HTTP--Date \
 perl-HTTP--Request \
 perl-HTTP--Response \

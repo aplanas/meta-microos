@@ -4,8 +4,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.29"
 
-RPM_NAME = "perl-Set-Scalar-1.29-1.27.noarch.rpm"
-RPM_HASH = "396e4c95186ec36c6c579c68a227ba0b125f82baef8c90ebd5e9a548eb65cbba83f69974e985a6c0e7ec2c0efc6ccab455096f391f12c58d0c249b985e31cad1"
+RPM_NAME = "perl-Set-Scalar-1.29-1.28.noarch.rpm"
+RPM_HASH = "feb6c2e5491d9360c291f418d892e827d0b0fa30e865bbe139886aa396d02f459eaf89ff3d0417083586e09f111dc7f418db24396a6d6972372afefabd5074d1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Set--Scalar \
@@ -18,6 +18,6 @@ perl-Set--Scalar--ValuedUniverse \
 perl-Set--Scalar--Virtual \
 perl-Set-Scalar"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

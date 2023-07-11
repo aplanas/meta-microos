@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "0.13.0"
 
-RPM_NAME = "libusbredirhost1-0.13.0-1.4.aarch64.rpm"
-RPM_HASH = "0479a3104dd1a0425f13daa8dcd86f308e8d6142672629147380390cbd8bd6a155827f744cfa275af86de8bc3f3c53920d7370d09d2da2c68dbecdc540419403"
+RPM_NAME = "libusbredirhost1-0.13.0-1.5.aarch64.rpm"
+RPM_HASH = "a69a095de9318d3ea7899d815f9a5aefe701699e3df0ab290689ecee460907d0561ba424affca5b5a381a6b4ddf3310248356e1ca3e5bd0c940936935b3c04f3"
 
 RPROVIDES:${PN} += "libusbredirhost.so.1 \
 libusbredirhost1"

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package deepin-kwin"
 DESCRIPTION = "Provides translations for the 'deepin-kwin' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.25.0"
+PV = "5.25.5"
 
-RPM_NAME = "deepin-kwin-lang-5.25.0-1.2.noarch.rpm"
-RPM_HASH = "bc2307f1aa8c522f52f44b73c77f943601f2229df72aec769079e769919abdf69b5fa60edd8656856cd3f4860f37385b22a3bb9eef097698c4bf2a5b7550338b"
+RPM_NAME = "deepin-kwin-lang-5.25.5-1.1.noarch.rpm"
+RPM_HASH = "8b9cfdc4aa58bec7cb96899f290e4b44b6b96cb4cbfd2c3f55cba538447c63f956f3db7282f58891b677767d45a1ce284ce2dc98d315404dfe164254bffbdcb3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-kwin-lang \

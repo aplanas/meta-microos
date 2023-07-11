@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.3.0"
 
-RPM_NAME = "lxqt-session-lang-1.3.0-1.1.noarch.rpm"
-RPM_HASH = "cc8f122f93e553a3d84ede08cfabcf489e6cf025746b4369d8b6b8f87e7b918e9f9eec2edfa60eb80af696931d097a1147b8844182e141ef024a2eace5d7da46"
+RPM_NAME = "lxqt-session-lang-1.3.0-1.2.noarch.rpm"
+RPM_HASH = "81c102e81c0a8a054419c918cca1229305612a50b1aa58047cefa4d19f3bcc256437104ba7fe13bd12743814e3aa85b3ccb5c00e76a85a21456e43a0e88007e4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lxqt-session-lang \

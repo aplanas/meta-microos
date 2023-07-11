@@ -20,13 +20,13 @@ you can automatically get it from the right package by adding this to your \
 > library > build-depends: network-uri-flag."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.1.2.8"
+PV = "3.1.4.0"
 
-RPM_NAME = "ghc-network-3.1.2.8-1.3.aarch64.rpm"
-RPM_HASH = "f2757f34f3272e02611f5e8a57b0e7fb979f02b2d96a191072f8478f6da5962eb7eb986281c84c08f45f3f8d08fb19f62dd6614cf46191bc83699ba4c72c42a4"
+RPM_NAME = "ghc-network-3.1.4.0-1.3.aarch64.rpm"
+RPM_HASH = "3a0ccbaeb7a3e9048824339df1249fbf25bf40df5205b7834fdd5e8e74d1317ab0f7bd1944aafe99c8c1a19134d938d7a883c89b464db15248d1facb57d18430"
 
 RPROVIDES:${PN} += "ghc-network \
-libHSnetwork-3.1.2.8-HNDBp0HF6t0D1fzE2MDtPd-ghc9.4.5.so"
+libHSnetwork-3.1.4.0-FvtFepOtuCUH79FCWyNxIc-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
 libHSbase-4.17.1.0-ghc9.4.5.so \

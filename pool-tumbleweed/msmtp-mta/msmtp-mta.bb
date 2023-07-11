@@ -7,10 +7,10 @@ This subpackage provides a mail transfer agent that can be used as \
 a minimalistic replacement of sendmail and a minimal SMTP server."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.8.23"
+PV = "1.8.24"
 
-RPM_NAME = "msmtp-mta-1.8.23-1.3.aarch64.rpm"
-RPM_HASH = "e5ad1c58baa8f8ca5aa5e4c2d5a6903d59ebf8bf501ce8269b3c1b8b722752669d21117984c0d7364d31d2034e0d7c03fc753fc8e618e8f9afc2c96d92b9e017"
+RPM_NAME = "msmtp-mta-1.8.24-1.1.aarch64.rpm"
+RPM_HASH = "691d5b1fdfa7fc6b31dd995ecb735be5a230fc723c208b1571a16d80621c7325f756e882433ad367ff5a46d006fbb9e51539f39b21c77dffbfae8c5671c81135"
 
 RPROVIDES:${PN} += "msmtp-mta \
 smtp-daemon"

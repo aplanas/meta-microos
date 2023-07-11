@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "3.1.0"
 
-RPM_NAME = "python310-wheezy.template-3.1.0-1.1.noarch.rpm"
-RPM_HASH = "83143962a18ba1b5aa7647c23ca33567aee273833e6748a45eb703f6d210d8aa0433f429df62450da729db73c7b3b26d7c51a9a024f481668f333d9604c125ea"
+RPM_NAME = "python310-wheezy.template-3.1.0-1.2.noarch.rpm"
+RPM_HASH = "3a9ecf3e8738dd977bad416863a1bd57d167bac93a82d2903ad286eb79fe0d21276356bed71e5a2c24c93158231f1ce4d1818cdedb91013d469517d566d64eb1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-wheezy.template \
-python3.10dist-wheezy.template \
+RPROVIDES:${PN} += "python3.10dist-wheezy.template \
 python310-wheezy.template \
 python3dist-wheezy.template"
 

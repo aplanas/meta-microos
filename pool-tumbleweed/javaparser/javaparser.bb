@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0 | LGPL-3.0-or-later"
 
 PV = "3.25.3"
 
-RPM_NAME = "javaparser-3.25.3-1.1.noarch.rpm"
-RPM_HASH = "ef8b93583c996c3a0662133e57207a1de9427931aca618b3ebfc0a23e7e4d102b3811d260a0ec8a8aac9904665fa92ac7269ed8c2c623b9a26aa7be62d0c6bca"
+RPM_NAME = "javaparser-3.25.3-1.2.noarch.rpm"
+RPM_HASH = "87177d5ef1d3a39f5c2abbe40708d89285c707227cb15a54c42c4b852b399a04c5baee91f95a64edd710956cf00547e54e24a80cd7bef5c5d603cec0dea0184b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "javaparser \

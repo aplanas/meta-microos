@@ -12,8 +12,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.3"
 
-RPM_NAME = "libdotconf0-1.3-16.8.aarch64.rpm"
-RPM_HASH = "43cb409cb32f38ddf85c803d2c2d6b0db7cb79012ba6f33a842bbf4f515fdee781eecb090772e726f9a7a0ad7ecf93f1174439a971ccb4dd170d533c44671971"
+RPM_NAME = "libdotconf0-1.3-16.9.aarch64.rpm"
+RPM_HASH = "90289181b4d5481f32cd3b6a18fd856e40e1e8b52bdcddfab7236dc37f6e89e807f9c47ee3f5d9e12aa4d192699c4a78f56f6301a3e0a19bdabf59a92e4b8b17"
 
 RPROVIDES:${PN} += "libdotconf-1-0-0 \
 libdotconf.so.0 \

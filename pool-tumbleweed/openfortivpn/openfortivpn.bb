@@ -5,10 +5,10 @@ process and operates the communication between the gateway and this process. \
 It is compatible with Fortinet VPNs."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.20.1"
+PV = "1.20.5"
 
-RPM_NAME = "openfortivpn-1.20.1-1.3.aarch64.rpm"
-RPM_HASH = "864114ad6072bd1879424cc87071ddf0b3a97a96f4358423c0ce8c4615182bc3e637ba629725e7da0663bb694cc08f26cfb442d80ac49427a52918b20849d100"
+RPM_NAME = "openfortivpn-1.20.5-1.1.aarch64.rpm"
+RPM_HASH = "ab66e94953b5ae085b9676fc2cd47f3369c0d99bc5cea70735c97a869e6e3f2d66f12f05ac012249088e3e0c691337989de78131985aedaa1ad3022d2b2aada2"
 
 RPROVIDES:${PN} += "config-openfortivpn \
 openfortivpn"

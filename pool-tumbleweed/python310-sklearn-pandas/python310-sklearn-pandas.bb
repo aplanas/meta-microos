@@ -5,12 +5,11 @@ LICENSE = "BSD-2-Clause & Zlib"
 
 PV = "2.2.0"
 
-RPM_NAME = "python310-sklearn-pandas-2.2.0-2.3.noarch.rpm"
-RPM_HASH = "e1a3bbac9b0e32b23cf1aa6303bdcdc66e18eefb1b4a31662d3d7e52b490b541e42b279e0baef1e9d917d805075d3817f5209bc5e137593dd3d903aa009b6262"
+RPM_NAME = "python310-sklearn-pandas-2.2.0-2.5.noarch.rpm"
+RPM_HASH = "dafbc65bbf9c7036faa35cd6ae27e543906af2e9bf509e8daedcf1489ace3a4acaa98a4019a633aa0b1409c57635cd89fe54a2c5da251aa02f8936ad5c3c96fc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-sklearn-pandas \
-python3.10dist-sklearn-pandas \
+RPROVIDES:${PN} += "python3.10dist-sklearn-pandas \
 python310-sklearn-pandas \
 python3dist-sklearn-pandas"
 

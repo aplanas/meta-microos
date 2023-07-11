@@ -7,8 +7,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-textogroose-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "ed99c662c49d798009bf263ad6045bf3da65cfd4ebfaae255e7d0e50ead89b2a99ee46020f066ba7a60a59c6e9b9d71c536d3621aaf6e944425f497a6bbdf4c7"
+RPM_NAME = "leechcraft-textogroose-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "ba06ff013001126469498d5d20b758cb3036e04400c1ce96d324ed2e96a2426989092d0e39700c500debe03b4ebdf615cc133ef86d356c646ea4655f2adc7095"
 
 RPROVIDES:${PN} += "leechcraft-lyricsprovider \
 leechcraft-textogroose \

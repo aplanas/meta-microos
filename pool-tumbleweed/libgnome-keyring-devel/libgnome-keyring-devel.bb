@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.12.0"
 
-RPM_NAME = "libgnome-keyring-devel-3.12.0-9.8.aarch64.rpm"
-RPM_HASH = "306c76793acf657f6360c07abd68bfb38af0c1dbc46a6df2acb94b3d810f07559f165b2cf5c4ac9ccd7e20220e5736a63bb574c5025369dc3ccf32ea7758c960"
+RPM_NAME = "libgnome-keyring-devel-3.12.0-9.9.aarch64.rpm"
+RPM_HASH = "05829e44e922801b92fe4bc36bb790577eebe8868b3101eef5a38327cb695131fe8416546d5d0986f71930941916a3bfc6d9ec916f588d0cfb86b993f0a4e2e7"
 
 RPROVIDES:${PN} += "gnome-keyring-devel \
 gnome-keyring-doc \

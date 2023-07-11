@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "44.2"
 
-RPM_NAME = "gnome-remote-desktop-44.2-1.1.aarch64.rpm"
-RPM_HASH = "4994e5990f36d2d9ff59136354955cf8c1fda0cc4134c10c898978d6fc75ae572fba5953a768862d6da53a4385fad20b9d909b66d8715a4c662f3aa10eb7aebd"
+RPM_NAME = "gnome-remote-desktop-44.2-1.2.aarch64.rpm"
+RPM_HASH = "8a65063d0050c31c8c853bbd2f24a2e13c44cc21807c6f0b611ff61e6a80b398a0b684eac7ef256023f55f6c49c8f02cdc6e0762fde635d5cac1dbe323d7fc27"
 
 RPROVIDES:${PN} += "gnome-remote-desktop"
 

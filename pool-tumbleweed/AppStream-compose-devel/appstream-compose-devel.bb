@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains all necessary files, libraries, \
 configuration files to add compose support using compose."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "0.16.1"
+PV = "0.16.2"
 
-RPM_NAME = "AppStream-compose-devel-0.16.1-3.1.aarch64.rpm"
-RPM_HASH = "254cd6703046ae04003ac56243f630cf59ca56fde8fdfbf09a5a9c0027297842d3f54ce25b38a9eee9a72c0823c86d67275007fc1f24f6e995a5df5c1a7880fd"
+RPM_NAME = "AppStream-compose-devel-0.16.2-1.1.aarch64.rpm"
+RPM_HASH = "8cfa6e807cd247c7290ad7db932a5fc2e94abc263339039af22314897c4306aaa239ea3eaf3f4f9f5b551049635a4e3ed30bc0000304525ee51e2217dc206482"
 
 RPROVIDES:${PN} += "AppStream-compose-devel \
 pkgconfig-appstream-compose"

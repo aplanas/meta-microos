@@ -7,14 +7,13 @@ replace the old Azure Service Management (ASM). \
 This package has been tested with Python 2.7, 3.5, 3.6 and 3.7."
 LICENSE = "MIT"
 
-PV = "1.4.0"
+PV = "1.5.0"
 
-RPM_NAME = "python310-azure-mgmt-storagecache-1.4.0-1.3.noarch.rpm"
-RPM_HASH = "4e36d00699e7dce7181201b5028e1f457522fcdfc4c50d4fd1f13bfa1b8faf75c0ee94d8cdd9e1fc65f7ecf5d9266f16252d2f74a90d8bc03b42401211f1e6b2"
+RPM_NAME = "python310-azure-mgmt-storagecache-1.5.0-1.1.noarch.rpm"
+RPM_HASH = "119cf0803794791b7404d4cc235d19adb7d8b1edecab1b83b4abd81ee68e9ed43818b9e3fd22620edca6ae711473b78bb3ab2b447beb6e64691b9c81f6576de5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-storagecache \
-python3.10dist-azure-mgmt-storagecache \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-storagecache \
 python310-azure-mgmt-storagecache \
 python3dist-azure-mgmt-storagecache"
 
@@ -23,6 +22,6 @@ python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \
 python310-azure-nspkg \
-python310-msrest"
+python310-isodate"
 
 inherit rpm

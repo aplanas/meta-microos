@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.21.0"
 
-RPM_NAME = "python39-securesystemslib-0.21.0-2.1.noarch.rpm"
-RPM_HASH = "8fdd41fda9d13cc576f2adacf5864e22b531d795d04c10bd531da14b714825ad6bff58b81d9c64944d4c3859e7f7df3525a5c69300f0ef350f0e2716980535bd"
+RPM_NAME = "python39-securesystemslib-0.21.0-2.2.noarch.rpm"
+RPM_HASH = "19634f0a4d434aec5f6e7c99d901ae198aec67266e411dd8f91bd53d61449725c3fd7dc9c0f031434359c1fb7ac2858a4e027bebc05218c214a69bf619b29bda"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-securesystemslib \

@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.4.7"
 
-RPM_NAME = "python39-wirerope-0.4.7-1.2.noarch.rpm"
-RPM_HASH = "6b7bb44490a5c620b3dc41bf368ef0e1836ed12bf976ee946860a7c867eae9552abc17a48950cbd41a5f39b78e1a0c35cf89c9a598575f160cdafd3d4f7433a3"
+RPM_NAME = "python39-wirerope-0.4.7-1.4.noarch.rpm"
+RPM_HASH = "2fdbfb6cc34badde77a7bd02f29b418139c284a41b5b0cc0c79392ad3e8f9735ceb7d4c8399aa8390fbed49c319d4ec21c109d29785c573c891da3dec3d5a871"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-wirerope \

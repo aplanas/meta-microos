@@ -3,10 +3,10 @@ DESCRIPTION = "targetcli-fb-common is the invariant base package needed by \
 all python-version-dependant packages, such as python3-*-targetcli-fb."
 LICENSE = "Apache-2.0"
 
-PV = "2.1.54"
+PV = "2.1.56"
 
-RPM_NAME = "targetcli-fb-common-2.1.54-2.1.noarch.rpm"
-RPM_HASH = "159a137bea1380b65f48da84eb18afefaa2ae633c9df0fdbdb50fe0b476ac0b20d1e252227b7528bd8e7ac3e15814fb2aad229a9a1e385c958b9385e4b5d516a"
+RPM_NAME = "targetcli-fb-common-2.1.56-1.3.noarch.rpm"
+RPM_HASH = "121e1c1ef60cb24212af9e8beb188c78e3116853b73a9db26aa67700e4ee9af238c93528317491f7b31c56349c6e0be1a66fbd98d9c38137cd2af42d730d6249"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python310-targetcli-fb-common \

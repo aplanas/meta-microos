@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.1"
 
-RPM_NAME = "ocr_1_0_1-gnu-openmpi3-hpc-1.0.1-5.7.aarch64.rpm"
-RPM_HASH = "619ad14564381f95b895e647337e1b0eefeff6e155be9cf30b8e871205b3fec98ca52149769f91f9127674c0fa85fe1697c359ff08683d92871fdd23d0b3e63a"
+RPM_NAME = "ocr_1_0_1-gnu-openmpi3-hpc-1.0.1-5.8.aarch64.rpm"
+RPM_HASH = "33a9b8b3826fe6870441c7a635ab7d609cfe1fef662a1615c91c7e386e1656f8b09d374c87c48b4605e309cff04e2de8520ef3227df7797765485857ff30ecf8"
 
 RPROVIDES:${PN} += "ocr-1-0-1-gnu-openmpi3-hpc"
 

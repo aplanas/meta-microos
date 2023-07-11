@@ -6,11 +6,12 @@ LICENSE = "Apache-2.0"
 
 PV = "0.5.1"
 
-RPM_NAME = "python311-autopage-0.5.1-3.3.noarch.rpm"
-RPM_HASH = "6d9b6da04a50185fbf74252464fd32f061f3fcdb7ea4ff5cf9d0e79e43fed180b718048f137c73ffb24330a04c10fefa4edaf0fefa1a4ab578c3037351e61dff"
+RPM_NAME = "python311-autopage-0.5.1-3.5.noarch.rpm"
+RPM_HASH = "e88920e4d9d7daa5c4c63c649b3cc8e05cdce9b80144367860b88fa5a191f88054d13adeddabe654a94e90c00b5b25590108838273fee33c573ef7a8400ecb3a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-autopage \
+RPROVIDES:${PN} += "python3-autopage \
+python3.11dist-autopage \
 python311-autopage \
 python3dist-autopage"
 

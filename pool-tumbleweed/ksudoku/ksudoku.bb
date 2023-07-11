@@ -6,10 +6,10 @@ be filled by the player using numbers from 1 to 9, without repeating a \
 number twice on each column, row, or subsquare."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "ksudoku-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "54c5bd65784b127badec330cacd12c66ba4dd87ed8cc754be00767828d1e28a5fe9c65216c3e437247528f46aec1d85f43a3e5e80a3e9cd28d3d3bf6539239c6"
+RPM_NAME = "ksudoku-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "108ceec81d39d85c6d8727aa436cfd1c7fbe453294f6ff7fbe5c263e8e822ce4c02e7b6dec4bd8865697cc7e337328c141451325744b3009728982e4d5782901"
 
 RPROVIDES:${PN} += "config-ksudoku \
 ksudoku \

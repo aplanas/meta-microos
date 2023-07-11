@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.0.5"
 
-RPM_NAME = "xcb-imdkit-devel-1.0.5-1.1.aarch64.rpm"
-RPM_HASH = "9803e4838b1edd5a1d7cc1684060ceff20743de75dfbeff1693fda8ca39448ea8d39612411c9ad7460a98cb32ce741ef706596c6233e4af06d88556f0cc246e2"
+RPM_NAME = "xcb-imdkit-devel-1.0.5-1.2.aarch64.rpm"
+RPM_HASH = "f63f7fdaeab78aa3e292016e22403a4fc986d17b490885879f8bb010095824f50fcb868f278c058170671633296e38e5433fff4766bd76618fd3b31508b5316f"
 
 RPROVIDES:${PN} += "cmake-XCBImdkit \
 pkgconfig-xcb-imdkit \

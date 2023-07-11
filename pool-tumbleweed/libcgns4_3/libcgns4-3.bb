@@ -6,8 +6,8 @@ LICENSE = "Zlib"
 
 PV = "4.3.0"
 
-RPM_NAME = "libcgns4_3-4.3.0-1.7.aarch64.rpm"
-RPM_HASH = "f478afb3773b76d671668b3cc776cde129afd0839e15f04a20e349a81b0e89267b4aeaef4414d8d6becdf3afb55020afeb1035a0bb9aa8fecac8c44d9a414aaf"
+RPM_NAME = "libcgns4_3-4.3.0-1.8.aarch64.rpm"
+RPM_HASH = "1aa648282b45871e47c33d1c48722a25b6e6c82dbe9b789b94233281ef1f231a316e978cc5be5d13b0c2061dcd860387963b3a02edbabc55baa72772ca086af6"
 
 RPROVIDES:${PN} += "libcgns \
 libcgns.so.4.3 \

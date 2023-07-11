@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "5.15.0"
 
-RPM_NAME = "plplotqt-devel-5.15.0-16.2.aarch64.rpm"
-RPM_HASH = "1b95250c39f00b47a4c0a10b4c5f49d330411bc50727e4f7bb6b473a6b609b7ed8470431cd08da74bb82a5d7f6aa22f6e2ff7509686360edf768c57021473647"
+RPM_NAME = "plplotqt-devel-5.15.0-17.1.aarch64.rpm"
+RPM_HASH = "41e87a0bd986be5bba1165241e0a7c2984005896b0aa46c6c5b7807aeeb25a6834b847b9383ce199c16876775fb6361de51cbb04320bce5feb2eb9b377427151"
 
 RPROVIDES:${PN} += "pkgconfig-plplot-qt \
 plplot-qt-devel \

@@ -4,8 +4,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2.1.0"
 
-RPM_NAME = "libblacs2-openmpi1-devel-2.1.0-9.11.aarch64.rpm"
-RPM_HASH = "5fb7b25eaf50a1a11d9b5e6d9a554ae12f210b26dec225738711c56ff6706153d1691f8a44c1c213ce2fdd1b973735adc1461ddf9ef7fd3029bcc85099aa46c2"
+RPM_NAME = "libblacs2-openmpi1-devel-2.1.0-9.12.aarch64.rpm"
+RPM_HASH = "cc74aa71d9df357fea5c88f6f5c9bae7ed6ea23928b162d3d525f5d62f6dc6a31635636c1bf35ca3ec566d4617e039443672f48bde123ef46110f47ef19f7817"
 
 RPROVIDES:${PN} += "blacs-openmpi1-devel \
 libblacs.so.2.1.0 \

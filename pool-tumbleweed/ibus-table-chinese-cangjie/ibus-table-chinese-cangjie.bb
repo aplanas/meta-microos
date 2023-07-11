@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.8.12"
 
-RPM_NAME = "ibus-table-chinese-cangjie-1.8.12-1.1.noarch.rpm"
-RPM_HASH = "3c1ea3e589ffea933339304d99f510d91015f53c556fb6b651f5d3de733b0d3ee14651a597aff8956ab4f84ea542668641e19bb6144d2c6069099d2306d613f6"
+RPM_NAME = "ibus-table-chinese-cangjie-1.8.12-1.2.noarch.rpm"
+RPM_HASH = "25e22bd408b41dfe1d37dc909368a48b277018d9499af2bab6225aac93d7ac00b5786f22baee00cb838a8f13dc16b67eebc306217a2b6bfcf0b59d6d3dd50051"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ibus-table-cangjie \

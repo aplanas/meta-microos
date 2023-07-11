@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause | GPL-2.0-or-later"
 
 PV = "1.4.5"
 
-RPM_NAME = "libpwquality-devel-1.4.5-1.2.aarch64.rpm"
-RPM_HASH = "9801b50bac627798d7f87077618efa9f6d6e04285db54037dffd521caadd71cfc160d71ec8b4b3e23c4011b6810c55d8cf971b597e6b47d332b769c7a16038dd"
+RPM_NAME = "libpwquality-devel-1.4.5-1.3.aarch64.rpm"
+RPM_HASH = "d27681ca07d10c4f0092617811698b7efeeca75c95a624544c91ec8681c5c3eda0b744968c56004db27a59c7a819996f4ee9a7ed64927002e70c9a5d2bb9b0f4"
 
 RPROVIDES:${PN} += "libpwquality-devel \
 pkgconfig-pwquality"

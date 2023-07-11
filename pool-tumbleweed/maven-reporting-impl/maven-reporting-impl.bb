@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.1.0"
 
-RPM_NAME = "maven-reporting-impl-3.1.0-1.12.noarch.rpm"
-RPM_HASH = "50a9679ae19fadbe17f9d1cdbfb550c47927805f92f3d649f1fbdc12b6af92d928f10b6afb4d0d8389e53e2c66c964e95ceda24cc5f8df5254f9f269d9358814"
+RPM_NAME = "maven-reporting-impl-3.1.0-1.13.noarch.rpm"
+RPM_HASH = "6374b9078a26e4126a14e5cd48956ae866cd45333585b9026ea8ebff754890d2d2f0e009c7ad52ec8b17864c3a088c737ad707df303034282261b31b98481f45"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-reporting-impl \

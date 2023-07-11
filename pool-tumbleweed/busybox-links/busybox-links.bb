@@ -2,10 +2,10 @@ SUMMARY = "Links for busybox applets"
 DESCRIPTION = "This is a meta package requireing all packages providing busybox applets."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.36.0"
+PV = "1.36.1"
 
-RPM_NAME = "busybox-links-1.36.0-26.3.noarch.rpm"
-RPM_HASH = "098c74a1484d7bca72f1da6491995a269711ca753b54f80cafee323bee0e618ad87de95646aa8e7a498d29c46390ccc1ae617528582434198ea6fc5991c80472"
+RPM_NAME = "busybox-links-1.36.1-27.1.noarch.rpm"
+RPM_HASH = "7d8feb1dd6b0e3bc3fa6aaa2f1a8f7cc43c5cef35dd18d27a56fc06d75955502d349ccc0edb64febcdde0914f5ab03b6e66b1b898c8d1ec103f1263385104374"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "busybox-links"

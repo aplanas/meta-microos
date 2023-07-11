@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "4.0.0b10"
 
-RPM_NAME = "python310-azure-mgmt-sql-4.0.0b10-1.1.noarch.rpm"
-RPM_HASH = "c5417b176e8fd2f1c6e462a716c88bd22dffe19fd9aa76e8553fd0c45aa202c5207631e0137b960b3e2f0db5a62c242705c5efb71acf602b0305f49dc58190fe"
+RPM_NAME = "python310-azure-mgmt-sql-4.0.0b10-1.2.noarch.rpm"
+RPM_HASH = "dd0eb5e78cd4bd96f9da69eb9cd5babf1c0274efb04689768c5d3a290ed746c0d54a529281dba700fedcb5799454ba7da2cd47f943a8f74b51b3fa86fb792835"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-sql \
-python3.10dist-azure-mgmt-sql \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-sql \
 python310-azure-mgmt-sql \
 python3dist-azure-mgmt-sql"
 

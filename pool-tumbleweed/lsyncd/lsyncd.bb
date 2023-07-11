@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.2.3"
 
-RPM_NAME = "lsyncd-2.2.3-3.7.aarch64.rpm"
-RPM_HASH = "927ea2259de9ce7a990175b2157d1baabb49875c98f2e8c83a4b06b42020750bc7071891ce7610e9c7e15dacc9126cc471ddc62ef623fca903d3fbb9f450867e"
+RPM_NAME = "lsyncd-2.2.3-3.8.aarch64.rpm"
+RPM_HASH = "89ea23f3911e27b466a706bd8600cce9bfec35ec735197280fe4bb70723c86ae3db5eff449a9975176e48426dce1c99021e00a8f03864b52e19aad8884182a06"
 
 RPROVIDES:${PN} += "config-lsyncd \
 lsyncd"

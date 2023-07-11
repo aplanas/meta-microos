@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "2.6.0"
 
-RPM_NAME = "lua54-luasql-2.6.0-1.3.aarch64.rpm"
-RPM_HASH = "0bad29749fad0dd5195aadc4a06b2dcda3c82c901916a144265838e0c3dbb80bbbd497bc659c7bdeba9f944674df2083617f8b8df474f7b7a56d1f2499ea5c1f"
+RPM_NAME = "lua54-luasql-2.6.0-1.4.aarch64.rpm"
+RPM_HASH = "65f5226f7e833ddec22322108e25014efe326b5bdc94c75dd3d7ff3571e54e4cd1468da0cf713e04efb6f9aa0950030d0ffa1689b20d4f70fbee52cfb2462746"
 
 RPROVIDES:${PN} += "lua-luasql \
 lua54-luasql"

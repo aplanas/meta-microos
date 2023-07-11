@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0+post1"
 
-RPM_NAME = "python39-ruamel.base-1.0.0+post1-2.14.noarch.rpm"
-RPM_HASH = "28c3a3e2fce9d661a7910707d9413959b2369057f32332e92e36323fa70c77aa7c6ccb350404ec2fbb68646b20884388f18bda5fd8de4d8b519a6152a2d2e825"
+RPM_NAME = "python39-ruamel.base-1.0.0+post1-2.15.noarch.rpm"
+RPM_HASH = "f49b658786d3d089f8256b100faf134c33f3c03290366eaa09ed354ab9d545038fa6256ec6da14b87410319937517789bf6b97f0ce100484cbd7dbbb2026297a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-ruamel.base \

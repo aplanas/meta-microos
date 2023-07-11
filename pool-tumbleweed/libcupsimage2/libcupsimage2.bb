@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.4.2"
 
-RPM_NAME = "libcupsimage2-2.4.2-5.1.aarch64.rpm"
-RPM_HASH = "1cf7f115ecb021e6d022961468e00c5fce822f226396453f4f76bee627b81a53f0ea50e1aebf938de36b7d42d8e479f9f93dc47736a63142cc8cc88a5de5ffaa"
+RPM_NAME = "libcupsimage2-2.4.2-6.1.aarch64.rpm"
+RPM_HASH = "c9c7aa72d4b564af1d21e2ccca088190f1797557c7c90474fe701216dc2f9dfe58248310a71ef8898bf00ec6c25f5bf5fbe5df646c3e12aa698b81aaea7c4eee"
 
 RPROVIDES:${PN} += "libcupsimage.so.2 \
 libcupsimage2"

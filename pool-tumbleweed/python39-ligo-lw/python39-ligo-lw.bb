@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.8.3"
 
-RPM_NAME = "python39-ligo-lw-1.8.3-2.3.aarch64.rpm"
-RPM_HASH = "5a8ec4fe52491860af7faf6601271883958250a8d6f23e0fcb84c3e9c5ae987f730ada07096be9fa5c69995be668c18bbece90e80fe50cdfd3814bce86a4c421"
+RPM_NAME = "python39-ligo-lw-1.8.3-2.5.aarch64.rpm"
+RPM_HASH = "02ee43ba6e485f927e0ea91541903f0c0f01e7659c9f4659d8bd3708a0b0f9178679013e6910cb4724f0677c7a95add4715fc2ae41fe93da9ed814198c8f75f4"
 
 RPROVIDES:${PN} += "python3.9dist-python-ligo-lw \
 python39-ligo-lw \

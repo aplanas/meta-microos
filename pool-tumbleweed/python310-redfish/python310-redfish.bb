@@ -6,12 +6,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.1.8"
 
-RPM_NAME = "python310-redfish-3.1.8-1.3.noarch.rpm"
-RPM_HASH = "8fc25a25f9ca9422f46971ed77fb70990b58c49f4f4f91370591b6493948dcef3248f4f929e08209c65c91d93d1edb1e7a69cc2c85d13696a599115563f4fbe6"
+RPM_NAME = "python310-redfish-3.1.8-1.5.noarch.rpm"
+RPM_HASH = "c0cfbdcb782cd89fbc40dfc057411e00e2953fd8989f81d6100e1dd01cbeb28873d7a9e6ddbbbeef07c0a960d929b554252d6c6a579a4646b7b496f90883a5ed"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-redfish \
-python3.10dist-redfish \
+RPROVIDES:${PN} += "python3.10dist-redfish \
 python310-redfish \
 python3dist-redfish"
 

@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "python310-schedule-1.1.0-3.6.noarch.rpm"
-RPM_HASH = "a8a5862dae1e408c2de20cacc289e7a7f9c0d56f5b5587f2d83be8621e1175c6ffff67e2166cf244a561263ba6a757d391de972140986b9ac158920931a49cc1"
+RPM_NAME = "python310-schedule-1.1.0-3.8.noarch.rpm"
+RPM_HASH = "e7ef374296e2e8f88a95dfb5cf8f8d44dc1f2b10a949db21716e544e4973d6ee40e3fafe4717e8bc30a1ef29a26af4dea90f0985adc1928ea276b4a2ee5caf62"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-schedule \
-python3.10dist-schedule \
+RPROVIDES:${PN} += "python3.10dist-schedule \
 python310-schedule \
 python3dist-schedule"
 

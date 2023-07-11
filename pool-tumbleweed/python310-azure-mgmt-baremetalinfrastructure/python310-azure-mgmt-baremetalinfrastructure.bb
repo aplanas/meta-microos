@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0.0"
 
-RPM_NAME = "python310-azure-mgmt-baremetalinfrastructure-1.0.0.0-1.8.noarch.rpm"
-RPM_HASH = "330959dc3fd6a3315e44a9c04ca174c260fd8f937dc941ca03a7caffb451dc541a9c3f090a7af9786fb6a8962e7577c29784adef8c481539929b6485de8c8cc7"
+RPM_NAME = "python310-azure-mgmt-baremetalinfrastructure-1.0.0.0-1.9.noarch.rpm"
+RPM_HASH = "14cb11743ab111682a01970f7281b55a4c214b6f6e4480dc90d3cb3cb5cf01556c8a9cba6d7e3915424181915ecb2e5d2a3d09953df504ba27995635308f4c49"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-baremetalinfrastructure \
-python3.10dist-azure-mgmt-baremetalinfrastructure \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-baremetalinfrastructure \
 python310-azure-mgmt-baremetalinfrastructure \
 python3dist-azure-mgmt-baremetalinfrastructure"
 

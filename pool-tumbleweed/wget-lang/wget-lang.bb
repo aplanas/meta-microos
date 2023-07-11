@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.21.4"
 
-RPM_NAME = "wget-lang-1.21.4-1.1.noarch.rpm"
-RPM_HASH = "4f3b44a4b742690a2cb71880eb55d143e0976b1e9a777a92db053937c9f47e08ebcac2c1457f1aa7406930f3b1dcfe29101c90464518fe6ed83ac130c900f9db"
+RPM_NAME = "wget-lang-1.21.4-2.1.noarch.rpm"
+RPM_HASH = "541044ee1a2f3b47b1a6a25852c0cd0e639640b9f6d0b6ece1ce53f80286d713feb820a8e61e900f91eff9de8754d4a0302a43e1145f1f1dce4c7a928ceac557"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-wget-af \

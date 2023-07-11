@@ -8,11 +8,12 @@ LICENSE = "Apache-2.0"
 
 PV = "1.7.4"
 
-RPM_NAME = "python311-scitokens-1.7.4-1.1.noarch.rpm"
-RPM_HASH = "bd0971f2cc4da177eba13f6c36cfb874e6aa120c0546ef62fd1f43b760fc5d6e99b40f819a6a656d2de4197da174a8dd1438ef0cd9d13ad75d70a6363aa416f3"
+RPM_NAME = "python311-scitokens-1.7.4-1.3.noarch.rpm"
+RPM_HASH = "ac78da36d4ed3a7a4f486e0ed76dc906b449f066533265592d517af4c1fe3ad956fee13cea9ff17da1ba96aa16e29ed1291c91ea6a530aa5679b6385c4f8d836"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-scitokens \
+RPROVIDES:${PN} += "python3-scitokens \
+python3.11dist-scitokens \
 python311-scitokens \
 python3dist-scitokens"
 

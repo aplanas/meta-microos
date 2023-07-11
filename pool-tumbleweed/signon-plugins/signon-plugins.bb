@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "8.60"
 
-RPM_NAME = "signon-plugins-8.60-2.18.aarch64.rpm"
-RPM_HASH = "dc43135a8351223f231038a3f434f40d3a95b150d02e850cbf0592b2df285755468204fad992d5d14652f2ce2737144ef684a3fd4dc4fcfff75855e0673e4420"
+RPM_NAME = "signon-plugins-8.60-2.19.aarch64.rpm"
+RPM_HASH = "407075f95e2e3d7750d8b63043cad00ae0111e1d6ad2d998f4a5f739daf81420ef724f05b6d9245b2063adb9033f424eb303d3a3b2287e0aff36f749c04d9e1c"
 
 RPROVIDES:${PN} += "libexampleplugin.so \
 libpasswordplugin.so \

@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.103.8"
 
-RPM_NAME = "clamav-milter-0.103.8-1.3.aarch64.rpm"
-RPM_HASH = "16b6e63cb70e9524908666790af79a3f97fbd05ba45aebb61f31326bf87577df74b9c54557af32b7e2ace4588f2b9ad95ad1df932d52cb41c73d735ee74251fa"
+RPM_NAME = "clamav-milter-0.103.8-1.4.aarch64.rpm"
+RPM_HASH = "3bd26c7b482e7a3b5aefd23db77110ff555812342952f77ec9e483e3538cacf1ecd04b5ab5d000a87a8bd553e173652e3b8e03bdd07651592292491b405e1e5f"
 
 RPROVIDES:${PN} += "clamav-/usr/sbin/clamav-milter \
 clamav-milter \

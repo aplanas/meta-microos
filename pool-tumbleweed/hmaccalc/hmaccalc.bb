@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.9.14"
 
-RPM_NAME = "hmaccalc-0.9.14-2.18.aarch64.rpm"
-RPM_HASH = "739c0c29a014c12d5bb604c3c13a94c66e87fcb91f35acc8bbcd8d2cedbb4124d4e31aa0c5dd100bf1670835ec598aade6ac3303332b8d58f5bd7d189b759747"
+RPM_NAME = "hmaccalc-0.9.14-2.19.aarch64.rpm"
+RPM_HASH = "9dcbb585de78baae89e8839cd84a41f7c2276980105bafb08b1ebd8482783d73e7362b089ae42494c72a4829ceaa597a3ba7fa76b207aa35de1d1cacc36ebe7e"
 
 RPROVIDES:${PN} += "hmaccalc"
 

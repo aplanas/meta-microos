@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.6"
 
-RPM_NAME = "kbdsniffd-0.6-28.9.aarch64.rpm"
-RPM_HASH = "856c2c3013e0d69dc45b3b2e801d903ab135893bd0c85d8ba2ebd50c936654a8dba8eeed958c73c0d55951f619ab3a4e8a9bbda1b85cceb561e843bcbad15bfa"
+RPM_NAME = "kbdsniffd-0.6-28.10.aarch64.rpm"
+RPM_HASH = "7c2e0b15188a0e7e8e218a26feb81063e019d018e36fa89695a6f55bedd2a35ffdcbca7f706ea3cf954bf8b38e2925a571922260d6f91bad36c242d4546ee287"
 
 RPROVIDES:${PN} += "config-kbdsniffd \
 kbdsniffd"

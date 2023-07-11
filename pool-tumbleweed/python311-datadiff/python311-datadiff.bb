@@ -9,11 +9,12 @@ LICENSE = "Apache-2.0"
 
 PV = "2.1.0"
 
-RPM_NAME = "python311-datadiff-2.1.0-1.2.noarch.rpm"
-RPM_HASH = "3000d777d1c2a4ec700e279d51dc06b102cbecec0d9dd4317428c817541c28969724cc704e5ebd3ca206ba2f7163387c06ebc75d1c8e461b88f8ed0e96ced5db"
+RPM_NAME = "python311-datadiff-2.1.0-1.4.noarch.rpm"
+RPM_HASH = "c412b8188edfd44ad9b1f09a25ecde5986818136ae7930b10f09d303a6808107f1d0eed99da7c8add816b359450cd4335ad12ecbf8cccc4864268d7f17c4c472"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-datadiff \
+RPROVIDES:${PN} += "python3-datadiff \
+python3.11dist-datadiff \
 python311-datadiff \
 python3dist-datadiff"
 

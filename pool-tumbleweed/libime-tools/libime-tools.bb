@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.0.17"
 
-RPM_NAME = "libime-tools-1.0.17-1.2.aarch64.rpm"
-RPM_HASH = "c2c501f4b360b8a47fb9fe229eadbc4a1b09f4a6245358a0a1c0e22ab4e5643d2816852e6637762858af89efa3f39bca98dd39b1acb0eb4d5bec6028c736ec72"
+RPM_NAME = "libime-tools-1.0.17-1.3.aarch64.rpm"
+RPM_HASH = "e4d5212c373674862d27a73f29eae92e76587fa8177beeb192624cdf9313e3fb66c8c9b3f7a62ec661a865889c4dd2f8e6a717107c49ea9271be123e7b009ad8"
 
 RPROVIDES:${PN} += "libime-tools"
 

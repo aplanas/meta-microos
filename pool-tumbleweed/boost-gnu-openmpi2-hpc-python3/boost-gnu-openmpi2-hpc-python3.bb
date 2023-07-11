@@ -6,8 +6,8 @@ LICENSE = "BSL-1.0"
 
 PV = "1.82.0"
 
-RPM_NAME = "boost-gnu-openmpi2-hpc-python3-1.82.0-1.1.noarch.rpm"
-RPM_HASH = "d6c793282a9b5cb7c74f3d480953a182406716fd92be250ea044dbb8c781ec8dec04babd775e2805e51132c5322c0f42b94d87af5c2309b37cf2343a8a9bc6c5"
+RPM_NAME = "boost-gnu-openmpi2-hpc-python3-1.82.0-1.2.noarch.rpm"
+RPM_HASH = "590204b412be256b0fb8f77ffc68130c73350eb4adad71feabd2b83050c5a55f2f11b2e4372412a358730d424f60d135ffcea55359cc2d7ac0a2f2755be61ac5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "boost-gnu-openmpi2-hpc-python3"

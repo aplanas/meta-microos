@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.8.20"
 
-RPM_NAME = "python39-scrypt-0.8.20-1.7.aarch64.rpm"
-RPM_HASH = "bb3bca3b12a211bafbe0d59c1930277da7979d62b675355919ff5bbc178a14b1b518a1aa289204712184e26636abc9150f9e9f3a44fc0ab10f64065de9e2ad46"
+RPM_NAME = "python39-scrypt-0.8.20-2.3.aarch64.rpm"
+RPM_HASH = "14d013cd47c005a31db2fc77a45288d9c31eb4c8d9975b437b87e004cd107f01a25a0bcefd3aac383e07cf0331fc737a06f5b67b446d3f58cce95b8a3a80b5bf"
 
 RPROVIDES:${PN} += "python3.9dist-scrypt \
 python39-scrypt \

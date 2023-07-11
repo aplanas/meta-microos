@@ -8,13 +8,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python310-azure-synapse-nspkg-1.0.0-2.11.noarch.rpm"
-RPM_HASH = "14af10e43518caff1492d1fdbfe1ad963d07562a7bac9c93b589b97a41956e82f2560ccf9c1bb806f36ea84acfb1e3bb1d1f04578c56824090106a40e135fa00"
+RPM_NAME = "python310-azure-synapse-nspkg-1.0.0-2.12.noarch.rpm"
+RPM_HASH = "b921f9b2c8ff7f186f21cc6b37328224d2388a31bfbd40a9e81065d8c10b2e2d75cb6abb4bbb6b25b54ec7f708fd608228f8ed54305544b74adc120ff0f7d8c3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-synapse \
-python3-azure-synapse-nspkg \
-python3.10dist-azure-synapse-nspkg \
+RPROVIDES:${PN} += "python3.10dist-azure-synapse-nspkg \
 python310-azure-synapse \
 python310-azure-synapse-nspkg \
 python3dist-azure-synapse-nspkg"

@@ -6,10 +6,10 @@ web applications by alleviating database load. \
 This package contains development files"
 LICENSE = "BSD-3-Clause"
 
-PV = "1.6.19"
+PV = "1.6.21"
 
-RPM_NAME = "memcached-devel-1.6.19-1.3.aarch64.rpm"
-RPM_HASH = "3310bc1bf29b58e09ad3b3856db97a12eb67eb417691b00c76a83f39787f19e4d1cdeecdd71e018022db4dd3bdc9764f7bfe1734ce8e0ca72ee3887ffd1f3353"
+RPM_NAME = "memcached-devel-1.6.21-1.1.aarch64.rpm"
+RPM_HASH = "578131e5aecc4546ee87cf25b646ae5caef121f27c4ff4a74dfe20ae3e6d2b5a5b902f9d709c0bd4ea43fe3dd34b22a1ca62b868e338617596cbeb816a919ab7"
 
 RPROVIDES:${PN} += "memcached-devel"
 

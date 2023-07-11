@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "gnome-sudoku-lang-44.0-1.1.noarch.rpm"
-RPM_HASH = "78c9b5b54fd33d79b505b7781bb42b15d0446d308464c1948188074a2dbec1cec97b7b7474eb12c1a20ba256991cde36437befb460938342d3a6a3dd2134c40c"
+RPM_NAME = "gnome-sudoku-lang-44.0-1.2.noarch.rpm"
+RPM_HASH = "9f7f17c2a0f09f05c4b098ea1c8558aa36218416d6f941eb1be0ab648d576b864957210f536a6ff53da1da1e92825310736f98136d30b7fb5ec55ba193dcf1d6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-sudoku-lang \

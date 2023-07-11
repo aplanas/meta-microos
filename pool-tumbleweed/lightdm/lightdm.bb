@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.32.0"
 
-RPM_NAME = "lightdm-1.32.0-2.2.aarch64.rpm"
-RPM_HASH = "aadd67abbb0a1225efe9ece1464c0d2efcba047810b56f7f0af0a5072bf4d5f3dd95a9ebcc588eba7a2fab58bd07a65cd39283a680a1db45f1517b3d9d7adc53"
+RPM_NAME = "lightdm-1.32.0-2.3.aarch64.rpm"
+RPM_HASH = "098c7f5a223096db8a44f09c5a54e54230327e6491addf5735cde70afca53859a36003455db945365abb7b3700891ac4c023c76a71ca880c94f6ea0227afcb0b"
 
 RPROVIDES:${PN} += "config-lightdm \
 group-lightdm \

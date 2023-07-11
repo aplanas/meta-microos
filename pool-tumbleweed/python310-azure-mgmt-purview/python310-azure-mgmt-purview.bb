@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python310-azure-mgmt-purview-1.0.0-1.8.noarch.rpm"
-RPM_HASH = "6915738b2695f8df8777f78e5efb95b55d7d339ad1e90663753b3cc02a58f089eebf1796f29f18f6b20f3b236af6f10ea22096a7b4a0a1e886bc90ece54d4b57"
+RPM_NAME = "python310-azure-mgmt-purview-1.0.0-1.9.noarch.rpm"
+RPM_HASH = "8617f37068cf3d4505cd14f016932b67c9e9767897afac9cfbed72f8bfb06f67fad178447cc4e03ec5bc492a0807b97cb968c0c02695fdb6d7f0762e09791a86"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-purview \
-python3.10dist-azure-mgmt-purview \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-purview \
 python310-azure-mgmt-purview \
 python3dist-azure-mgmt-purview"
 

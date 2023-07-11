@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.70.1"
 
-RPM_NAME = "hawkey-man-0.70.1-1.1.noarch.rpm"
-RPM_HASH = "d3178b3d1ce413a2337275da6b0b9255352d354434cfd946b5c16c7c8cd32552db8a857d33e2f402c01eaa6e2f788dcf6fd8e3f8611ab1ff4ecd05401ee03a89"
+RPM_NAME = "hawkey-man-0.70.1-1.2.noarch.rpm"
+RPM_HASH = "70778896e7614f4ada314c0e2c1b9e40046eb53d3fa4732a611ffceac7586312a5cfb84b9a55b271a13afdf7187791fc4ca901a8a412e4866b2e37169d7930c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hawkey-man"

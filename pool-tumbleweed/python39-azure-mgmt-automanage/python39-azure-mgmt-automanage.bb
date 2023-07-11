@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0.0"
 
-RPM_NAME = "python39-azure-mgmt-automanage-1.0.0.0-1.4.noarch.rpm"
-RPM_HASH = "b1d9823db03d0a7e75a666097298d11a05370d29a004a6ea089aed20d65bd0a3e6db715f630718e9ccb0cfd29bc717ea3b5042f3e437e9da6dc730cac27ff94a"
+RPM_NAME = "python39-azure-mgmt-automanage-1.0.0.0-1.5.noarch.rpm"
+RPM_HASH = "a595594272d4f42a29f159c631021cb43a4a38c7daa87e4834238c135acd4bf8e352bf8fe7f6392bead75cfaa48003abefedea1a73c9610d155a43fe5501477e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-automanage \

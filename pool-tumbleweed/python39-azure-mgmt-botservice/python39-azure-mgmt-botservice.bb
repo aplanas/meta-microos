@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "2.0.0.0"
 
-RPM_NAME = "python39-azure-mgmt-botservice-2.0.0.0-1.3.noarch.rpm"
-RPM_HASH = "ed0b08a9a00949f7d1278a6b2b37c74f9cd0b7ce39958995da7b26e2ab012218f5fcf18f697d6cf2c636f064f1abafe12f996ad942f812ccc61ffa12f735c3a3"
+RPM_NAME = "python39-azure-mgmt-botservice-2.0.0.0-1.4.noarch.rpm"
+RPM_HASH = "8fd6b927977c6152db60c1a17f6b058c6795d15dd87770a65c5530e28b38a8d310eaa0e107c0d9b35ce00122ffa6d9f7890fd4bade4c6fa1896925e657ff1c57"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-botservice \

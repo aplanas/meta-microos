@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-only & LGPL-2.1-or-later"
 
 PV = "1.3.1"
 
-RPM_NAME = "libgvnc-1_0-0-1.3.1-1.5.aarch64.rpm"
-RPM_HASH = "0e62f817d3a5a1a5415e87607d1009f2e01475a2556a8b4b1140885231127efa3fbbbbbeed0b86e0020b7fae75f4dc88cd98f042bc3d434ecdb6f38a7adf9ca0"
+RPM_NAME = "libgvnc-1_0-0-1.3.1-1.6.aarch64.rpm"
+RPM_HASH = "ffd3e55e0b2832680c043f86afed47b8857ac3e699e08a521c205f1b8aa6afff460d40ccde77412ecfb285cc9af08cb600d36df44065310b6ad850075f06ed3a"
 
 RPROVIDES:${PN} += "libgvnc-1-0-0 \
 libgvnc-1.0.so.0"

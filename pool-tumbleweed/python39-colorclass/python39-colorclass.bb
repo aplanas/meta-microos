@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "2.2.2"
 
-RPM_NAME = "python39-colorclass-2.2.2-2.1.noarch.rpm"
-RPM_HASH = "1df0d3affe1698a449cd2de03c4c28571964bafd801d29af3162df0125a08fd0eb3b8c1ec62701d8ab9b2e60c0a90a540fc00af21472aa630cbebfe3d577b804"
+RPM_NAME = "python39-colorclass-2.2.2-2.3.noarch.rpm"
+RPM_HASH = "1028cf3ba7ba8d33ba59a25afc70499626608c4d6b77342fefa1733c68fc27711405dcd0d2aeb1055b8a056dce632882cafeed8b6d2c32d7c4dc23f9a3a2d708"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-colorclass \

@@ -6,12 +6,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.2"
 
-RPM_NAME = "python310-Gloo-0.1.2-3.7.noarch.rpm"
-RPM_HASH = "2c7a48c7c40f3d39aa8db30d967fb449ccb1a12f1fe061cd9fe02211897a1828157e611e699f377ef379cf22caa735496f5593a519bfca31841763ca3d5249c4"
+RPM_NAME = "python310-Gloo-0.1.2-3.8.noarch.rpm"
+RPM_HASH = "e20bff30b1bcb7a260b4d7f38e25e1b23bfb3064938ea48a74297f874cc730071043c580716ef71f4f3c8b2e7c65b6fba0a763dd8056132225d1a2e867cc38a7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-Gloo \
-python3.10dist-gloo \
+RPROVIDES:${PN} += "python3.10dist-gloo \
 python310-Gloo \
 python3dist-gloo"
 

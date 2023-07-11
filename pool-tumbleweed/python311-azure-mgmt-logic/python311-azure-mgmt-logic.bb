@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "10.0.0"
 
-RPM_NAME = "python311-azure-mgmt-logic-10.0.0-1.3.noarch.rpm"
-RPM_HASH = "afde5b19de4f64b424a788b7ec3c656860d6a931b181542b2c9717c54d745fdd9433f5a6f5847d6ae87768c43c6284d543d7d47dc7177893b34ff8f48fccd4e0"
+RPM_NAME = "python311-azure-mgmt-logic-10.0.0-1.4.noarch.rpm"
+RPM_HASH = "eb8f81f204fe091a66fc478235f8f8a74d1d7674fe9ad9d5596fc3e8ddb9648b1e260375b5e85ac7ec1e4717c73217a557e003e32c19ee64c349cc7136b7fffa"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-logic \
+RPROVIDES:${PN} += "python3-azure-mgmt-logic \
+python3.11dist-azure-mgmt-logic \
 python311-azure-mgmt-logic \
 python3dist-azure-mgmt-logic"
 

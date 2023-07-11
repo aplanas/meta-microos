@@ -6,13 +6,11 @@ LICENSE = "GPL-3.0-only | SUSE-GPL-2.0-with-FLOSS-exception | NonFree"
 
 PV = "6.5.0"
 
-RPM_NAME = "python310-PyQt6-doc-6.5.0-1.2.noarch.rpm"
-RPM_HASH = "ba0d04e3d473e1623fefc3d23a6ea345a6fb6dae5caa191f363dbb36b693b54bdc836cfd978ccf407305a2ae2231dd99f90223a2e1ef04c1703f35a82095f5c9"
+RPM_NAME = "python310-PyQt6-doc-6.5.0-2.2.noarch.rpm"
+RPM_HASH = "75d97d136bb279952760524163ea3bed2adde2eaf60be0673e555cd4b614cb18aba18721949ed2ef924c8a64b0c5146e3c93816488939f5da5dfc22600a1cd8d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-PyQt6-doc \
-python3-qt6-doc \
-python310-PyQt6-doc \
+RPROVIDES:${PN} += "python310-PyQt6-doc \
 python310-qt6-doc"
 
 RDEPENDS:${PN} += ""

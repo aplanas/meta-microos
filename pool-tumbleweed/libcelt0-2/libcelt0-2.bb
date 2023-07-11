@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.11.3"
 
-RPM_NAME = "libcelt0-2-0.11.3-1.28.aarch64.rpm"
-RPM_HASH = "5fece7a57e52a0eb760668eb8e37ce5c3906d6884f0b0db55566f0fd483ebdf382b33ac34968cc78ebb9dd042238d8b8990314fd2179e05fc9c7780c985897d9"
+RPM_NAME = "libcelt0-2-0.11.3-1.29.aarch64.rpm"
+RPM_HASH = "dc0fda130bb59302eaaf8b43644e5a11fe0d845d820cb4ec36b2ec5a28578e5b965b0a0c5b1842cab2a3921881a6329e7aff3c07300eba7b44cf889f81b1eacf"
 
 RPROVIDES:${PN} += "libcelt0-2 \
 libcelt0.so.2"

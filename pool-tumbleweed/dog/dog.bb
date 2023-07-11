@@ -6,8 +6,8 @@ LICENSE = "EUPL-1.2"
 
 PV = "0.1.0"
 
-RPM_NAME = "dog-0.1.0-2.5.aarch64.rpm"
-RPM_HASH = "1fed4c7e6dcf7b39b1217950aed78a0c70225c01fc371205b558ece95dc3801d20244551bf8440e747889f97975d58433db2cf66fb0ec52d7bf0ad42efc84e1b"
+RPM_NAME = "dog-0.1.0-2.6.aarch64.rpm"
+RPM_HASH = "4cfc474e940ad1faa32624408785a0a6950497bb66fb634961713955e67f50f92f857295401c42cf8f9a27e3fa23392848b553ffa3007130b95ae05fcb6667c1"
 
 RPROVIDES:${PN} += "bundled-rust-crate-ansi-term \
 bundled-rust-crate-atty \

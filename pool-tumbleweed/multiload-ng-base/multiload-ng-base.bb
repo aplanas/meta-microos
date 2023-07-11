@@ -16,8 +16,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "git20210103.743885d"
 
-RPM_NAME = "multiload-ng-base-git20210103.743885d-1.7.aarch64.rpm"
-RPM_HASH = "74b1009d706afa7ab4fb73b892d2b134bed411d2057debd00b31adcbe69bc1dde31fcc505abded0917d3e6aeafb2a7bf5ca78f2c5e5e842b19c4feb25619ddbb"
+RPM_NAME = "multiload-ng-base-git20210103.743885d-1.8.aarch64.rpm"
+RPM_HASH = "994134d368067236149c8de26b6d4d501014cb7c6f9df03d985f1b9afc598654c7a43f6ea7e8aec78240a16ce343a5ad11d373f41bcd3e1289356f8e35c7003b"
 
 RPROVIDES:${PN} += "multiload-ng-base"
 
@@ -28,7 +28,6 @@ libgdk-3.so.0 \
 libgdk-pixbuf-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
-libgtk-3.so.0 \
-libm.so.6"
+libgtk-3.so.0"
 
 inherit rpm

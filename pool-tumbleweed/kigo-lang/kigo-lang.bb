@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kigo"
 DESCRIPTION = "Provides translations for the 'kigo' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kigo-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "e7eef92426aebdcbe96555d53e7c5dc6faaf8bf6d83b8f6cd91db699a49ed8e7b292ba39f3136d6abb10d874560d6a0dc146553f7c7a6976f3c8d69d610c7543"
+RPM_NAME = "kigo-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "d30020c8cca563ab1837db51f9b3795d51197c61228d7a0554491259a2783d29b7b828e0c1b83727514e8e38ef8385359cdd630d1a4d65737a7365dd9a0d3452"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kigo-lang \

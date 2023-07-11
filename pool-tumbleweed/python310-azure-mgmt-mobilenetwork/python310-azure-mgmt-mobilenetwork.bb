@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "2.0.0"
 
-RPM_NAME = "python310-azure-mgmt-mobilenetwork-2.0.0-1.3.noarch.rpm"
-RPM_HASH = "c0bfb3f5a7eb9962caa91db2fcb217a872d87a9f9a6b38bb51a801e72070cb3386f7ee40a09439a6e76c044d6d3125ef53967508821670c106b761defafd8ee9"
+RPM_NAME = "python310-azure-mgmt-mobilenetwork-2.0.0-1.4.noarch.rpm"
+RPM_HASH = "8e7b93f9aa36a44ab893e1575759da815f04c87b1d59c60e2c98694aeb79546e865bcb36f8d85c04efe50b99241622dea34cf2523f5a844ae1f459c569648cde"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-mobilenetwork \
-python3.10dist-azure-mgmt-mobilenetwork \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-mobilenetwork \
 python310-azure-mgmt-mobilenetwork \
 python3dist-azure-mgmt-mobilenetwork"
 

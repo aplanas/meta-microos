@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2023.04"
 
-RPM_NAME = "u-boot-rock64-rk3328-doc-2023.04-2.1.aarch64.rpm"
-RPM_HASH = "9b67c797b858dbd9ce8af8afa61b87c7158c8a86c42f7d5246895ab44e1ecec7259c0ba7d86ece00faac6ffc17cad79afd16f3d5652c24957e67b994a2008352"
+RPM_NAME = "u-boot-rock64-rk3328-doc-2023.04-2.2.aarch64.rpm"
+RPM_HASH = "0edf68ac9eea85f861b275fd7054a53fe4782981085d26873b7ba926975654d003a3cec1b56f82bf29dce3074b8b03b64a95d36801500e8c1d0c5f54cbcf39b6"
 
 RPROVIDES:${PN} += "u-boot-rock64-rk3328-doc"
 

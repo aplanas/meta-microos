@@ -4,8 +4,8 @@ LICENSE = "Apache-1.1 & Apache-2.0 & GPL-1.0-or-later & GPL-2.0-only & GPL-2.0-o
 
 PV = "17.0.7.0"
 
-RPM_NAME = "java-17-openjdk-src-17.0.7.0-3.1.aarch64.rpm"
-RPM_HASH = "556c54ff9ac353f824eebc4ac208b0f6514fea3871015d02355b78dcb5de8649506fdd40ec12d19ae4996841c51e95a3d54ce9e3dd864f7384a2203ba0fa801a"
+RPM_NAME = "java-17-openjdk-src-17.0.7.0-3.2.aarch64.rpm"
+RPM_HASH = "75cba33fdae39eebb967a15721c7ff4e3f65e257e1739bee76b49f07c20a9b7e7734df59d3711f547a2536ffddc9b13ddd5a71eeddc91ba0b3c08d5cf5aceb9a"
 
 RPROVIDES:${PN} += "java-17-openjdk-src"
 

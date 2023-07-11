@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.0.2"
 
-RPM_NAME = "octave-forge-video-2.0.2-1.1.aarch64.rpm"
-RPM_HASH = "7757dbdafd9693b72458beedbefe17c036f5b0da7a2079d92b4cf9b7e40d6de5622a91280decdafa926089fecba54a8ab4071d5df5b440f75146c2e3564cdbbf"
+RPM_NAME = "octave-forge-video-2.0.2-1.2.aarch64.rpm"
+RPM_HASH = "a8e14497ac3dd97a3f002e2fbc313538a56461bca1c0d134843794b79bc26f59f94be33a6e2e3d720c09604a5187c6108ad54a2a702fe897c0025a0c76310b05"
 
 RPROVIDES:${PN} += "octave-forge-video"
 

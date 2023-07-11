@@ -6,8 +6,8 @@ LICENSE = "NetCDF"
 
 PV = "1.12.3"
 
-RPM_NAME = "pnetcdf-hpc-doc-1.12.3-1.3.noarch.rpm"
-RPM_HASH = "242f25ca1889664fe3d4f24aa6a8ba817deffe7c31e4af92aa562aa7dbe97b5ea140a54ce67085765546c6809c2566d0fb390450cc9fc524ad504ae30bf5179a"
+RPM_NAME = "pnetcdf-hpc-doc-1.12.3-1.5.noarch.rpm"
+RPM_HASH = "43ef1033cb001b44b173b41bf746fad920b8aeed814dcf66f82ccebce74cdd7e85c67bdf414246abb6980d1fc4208f4b8d79514c4bef1ce3ec59a80311a972cd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pnetcdf-hpc-doc"

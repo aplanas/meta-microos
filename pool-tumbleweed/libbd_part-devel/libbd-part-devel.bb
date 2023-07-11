@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "2.28"
 
-RPM_NAME = "libbd_part-devel-2.28-1.4.aarch64.rpm"
-RPM_HASH = "546da90bed38327b0f5d9454a1725dc599f4e781b5327028489eac0ac484f8acc45f9aa31b31b4231c8ca4ab1ea532ed0baf51525a9578c68aadc398d7918a28"
+RPM_NAME = "libbd_part-devel-2.28-1.6.aarch64.rpm"
+RPM_HASH = "2fc6d995a9c2989e9fd5c79306f5168405502d8f0c4f1a60a316aa82c4306c10f699391e4f85b7834042d4c995320d531be4dcb67b5b244ab04e6cb4c513f3f2"
 
 RPROVIDES:${PN} += "libbd-part-devel \
 libblockdev-part-devel"

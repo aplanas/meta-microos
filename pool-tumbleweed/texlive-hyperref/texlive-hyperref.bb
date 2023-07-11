@@ -11,10 +11,10 @@ use of the facilities of hyperref. The package depends on the \
 author's kvoptions, ltxcmds and refcount packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.7.00vsvn65758"
+PV = "2023.208.7.00vsvn65758"
 
-RPM_NAME = "texlive-hyperref-2023.201.7.00vsvn65758-52.1.noarch.rpm"
-RPM_HASH = "1895845e91d91d5d699571de4ce0356680aed9624737721d86bbcb27872a73bafef64d6ff7887d263c0ec9708f98aaa88bcf33ddbcfcae4604411753415d245c"
+RPM_NAME = "texlive-hyperref-2023.208.7.00vsvn65758-53.1.noarch.rpm"
+RPM_HASH = "7a91e3ac655aa3f153408e544721045621ec2f27ce425f676f7b1ab5a1feced0cb76cbf9bc40cf7432d88b0959e88c0bb4d1f4cda772deef00014f0ab304f2c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-backref.sty \

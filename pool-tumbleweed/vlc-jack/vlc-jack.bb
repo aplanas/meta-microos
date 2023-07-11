@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.0.18"
 
-RPM_NAME = "vlc-jack-3.0.18-7.1.aarch64.rpm"
-RPM_HASH = "f8d0ca332603c3b600cfcd550bbc82454b4376a5094cd900927b0561f4b02506d8b50fd87c5d4087b5ec3031662c1a35c25a9d7c24a6791dddac1e2a5010e8ab"
+RPM_NAME = "vlc-jack-3.0.18-7.3.aarch64.rpm"
+RPM_HASH = "51a8a0bacf82a8b9b6caad27ee5d30e95bafeb4d0e93663b030e1ea175dfc76e12f3a70882240a06f5cac5e2254e17eac42548ca20d729b1329342da78f69229"
 
 RPROVIDES:${PN} += "libaccess-jack-plugin.so \
 libjack-plugin.so \

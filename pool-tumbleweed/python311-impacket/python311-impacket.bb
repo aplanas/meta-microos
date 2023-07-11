@@ -11,11 +11,12 @@ LICENSE = "Apache-1.1"
 
 PV = "0.10.0"
 
-RPM_NAME = "python311-impacket-0.10.0-1.1.noarch.rpm"
-RPM_HASH = "79033266547e8c171dba31f34fcd150b01a2724350e00ef58fca0b761ff820324b21cbd4aa5f90fc98474bda0e2f32543f28f2d5fb6e13023571b1099ca5bdb0"
+RPM_NAME = "python311-impacket-0.10.0-1.3.noarch.rpm"
+RPM_HASH = "9e7ba47f1da427f6e8fed81f04ac9605a806903f6d3e9fe3b71ee49c5e6b8c3f40f41370b718ada7423634370fbd0173519ae05c625e8f3f693aa521ba0d65be"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-impacket \
+RPROVIDES:${PN} += "python3-impacket \
+python3.11dist-impacket \
 python311-impacket \
 python3dist-impacket"
 

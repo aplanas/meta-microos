@@ -9,12 +9,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.13.0"
 
-RPM_NAME = "iredis-1.13.0-1.3.noarch.rpm"
-RPM_HASH = "f94f3c3e4169e294c67647496ed7a6f37c73288c787b8a9f556376fa80951f18e500bbe38c61b99e7699b7da3509c79b9f8d3b3718a87a89e4e31f931007f7dc"
+RPM_NAME = "iredis-1.13.0-1.4.noarch.rpm"
+RPM_HASH = "b7a58c64177e6687cfbe35f186f54232ac8eef8565f29cb6980aa3917f5c56ce1dff060b4277e2fdced75eeac7ae5afbd00b714d83d16e2102ba0176cf881d4a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "iredis \
-python3.10dist-iredis \
+python3.11dist-iredis \
 python3dist-iredis"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

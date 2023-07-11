@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.8.5"
 
-RPM_NAME = "python39-easy-thumbnails-2.8.5-1.4.noarch.rpm"
-RPM_HASH = "a956520c989173c9495d759ea54f89207d958fee163e31c687f242dc928cc4bd55c9ad4317be7b5dd5bfe2c75d7e35588aa9279ff7c2a402b68aba1ce5ee7820"
+RPM_NAME = "python39-easy-thumbnails-2.8.5-1.6.noarch.rpm"
+RPM_HASH = "a7ea4b4b011cb70cccdb56139e0a42a8703729cc74984a50ce4dbcd198d7a570ece3d8cee0fe3ccbf8aa4cb5e6c70002adeddb44a45ea575afa05dba2ba49691"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-easy-thumbnails \

@@ -3,13 +3,15 @@ DESCRIPTION = "GCstar is a free open source application for managing collections
 movies, books, music, etc. Detailed information on each item can be \
 automatically retrieved from the internet and you can store additional \
 data, such as the location or who you've lent it to. You may also \
-search and filter your collection by many criteria."
-LICENSE = "GPL-2.0-only"
+search and filter your collection by many criteria. \
+ \
+Documentation can be found at https://gcstar.gitlab.io/gcstar_docs/en/"
+LICENSE = "GPL-2.0-or-later"
 
-PV = "1.7.3"
+PV = "1.8.0"
 
-RPM_NAME = "gcstar-1.7.3-1.7.noarch.rpm"
-RPM_HASH = "46dc19ac012178c68f33e30cac0f68bbed420478e13caf752a9a1839e2d92395ec51b13a5f4f24e052521a514347fa2f636fb8cb6464721127b16410ba7c7ad4"
+RPM_NAME = "gcstar-1.8.0-1.1.noarch.rpm"
+RPM_HASH = "925a1bc5f5d862e23282747c732fc2e3f3fa9b5267acda1e153ba3eab50c618d19c45f678d67c62f6fefb8347bf7bf518bc0bdc594195af70b56af929bead77f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gcstar \
@@ -191,6 +193,7 @@ perl-GCLang--AR--GCModels--GCgeneric \
 perl-GCLang--AR--GCModels--GCminicars \
 perl-GCLang--AR--GCModels--GCmusics \
 perl-GCLang--AR--GCModels--GCperiodicals \
+perl-GCLang--AR--GCModels--GCpostcards \
 perl-GCLang--AR--GCModels--GCsmartcards \
 perl-GCLang--AR--GCModels--GCsoftware \
 perl-GCLang--AR--GCModels--GCstamps \
@@ -224,6 +227,7 @@ perl-GCLang--BG--GCModels--GCgeneric \
 perl-GCLang--BG--GCModels--GCminicars \
 perl-GCLang--BG--GCModels--GCmusics \
 perl-GCLang--BG--GCModels--GCperiodicals \
+perl-GCLang--BG--GCModels--GCpostcards \
 perl-GCLang--BG--GCModels--GCsmartcards \
 perl-GCLang--BG--GCModels--GCsoftware \
 perl-GCLang--BG--GCModels--GCstamps \
@@ -257,6 +261,7 @@ perl-GCLang--CA--GCModels--GCgeneric \
 perl-GCLang--CA--GCModels--GCminicars \
 perl-GCLang--CA--GCModels--GCmusics \
 perl-GCLang--CA--GCModels--GCperiodicals \
+perl-GCLang--CA--GCModels--GCpostcards \
 perl-GCLang--CA--GCModels--GCsmartcards \
 perl-GCLang--CA--GCModels--GCsoftware \
 perl-GCLang--CA--GCModels--GCstamps \
@@ -290,6 +295,7 @@ perl-GCLang--CS--GCModels--GCgeneric \
 perl-GCLang--CS--GCModels--GCminicars \
 perl-GCLang--CS--GCModels--GCmusics \
 perl-GCLang--CS--GCModels--GCperiodicals \
+perl-GCLang--CS--GCModels--GCpostcards \
 perl-GCLang--CS--GCModels--GCsmartcards \
 perl-GCLang--CS--GCModels--GCsoftware \
 perl-GCLang--CS--GCModels--GCstamps \
@@ -323,6 +329,7 @@ perl-GCLang--DE--GCModels--GCgeneric \
 perl-GCLang--DE--GCModels--GCminicars \
 perl-GCLang--DE--GCModels--GCmusics \
 perl-GCLang--DE--GCModels--GCperiodicals \
+perl-GCLang--DE--GCModels--GCpostcards \
 perl-GCLang--DE--GCModels--GCsmartcards \
 perl-GCLang--DE--GCModels--GCsoftware \
 perl-GCLang--DE--GCModels--GCstamps \
@@ -356,6 +363,7 @@ perl-GCLang--EL--GCModels--GCgeneric \
 perl-GCLang--EL--GCModels--GCminicars \
 perl-GCLang--EL--GCModels--GCmusics \
 perl-GCLang--EL--GCModels--GCperiodicals \
+perl-GCLang--EL--GCModels--GCpostcards \
 perl-GCLang--EL--GCModels--GCsmartcards \
 perl-GCLang--EL--GCModels--GCsoftware \
 perl-GCLang--EL--GCModels--GCstamps \
@@ -390,6 +398,7 @@ perl-GCLang--EN--GCModels--GCminicars \
 perl-GCLang--EN--GCModels--GCmusiccourses \
 perl-GCLang--EN--GCModels--GCmusics \
 perl-GCLang--EN--GCModels--GCperiodicals \
+perl-GCLang--EN--GCModels--GCpostcards \
 perl-GCLang--EN--GCModels--GCsmartcards \
 perl-GCLang--EN--GCModels--GCsoftware \
 perl-GCLang--EN--GCModels--GCstamps \
@@ -423,6 +432,7 @@ perl-GCLang--ES--GCModels--GCgeneric \
 perl-GCLang--ES--GCModels--GCminicars \
 perl-GCLang--ES--GCModels--GCmusics \
 perl-GCLang--ES--GCModels--GCperiodicals \
+perl-GCLang--ES--GCModels--GCpostcards \
 perl-GCLang--ES--GCModels--GCsmartcards \
 perl-GCLang--ES--GCModels--GCsoftware \
 perl-GCLang--ES--GCModels--GCstamps \
@@ -457,6 +467,7 @@ perl-GCLang--FR--GCModels--GCminicars \
 perl-GCLang--FR--GCModels--GCmusiccourses \
 perl-GCLang--FR--GCModels--GCmusics \
 perl-GCLang--FR--GCModels--GCperiodicals \
+perl-GCLang--FR--GCModels--GCpostcards \
 perl-GCLang--FR--GCModels--GCsmartcards \
 perl-GCLang--FR--GCModels--GCsoftware \
 perl-GCLang--FR--GCModels--GCstamps \
@@ -491,6 +502,7 @@ perl-GCLang--GL--GCModels--GCgeneric \
 perl-GCLang--GL--GCModels--GCminicars \
 perl-GCLang--GL--GCModels--GCmusics \
 perl-GCLang--GL--GCModels--GCperiodicals \
+perl-GCLang--GL--GCModels--GCpostcards \
 perl-GCLang--GL--GCModels--GCsmartcards \
 perl-GCLang--GL--GCModels--GCsoftware \
 perl-GCLang--GL--GCModels--GCstamps \
@@ -524,6 +536,7 @@ perl-GCLang--HU--GCModels--GCgeneric \
 perl-GCLang--HU--GCModels--GCminicars \
 perl-GCLang--HU--GCModels--GCmusics \
 perl-GCLang--HU--GCModels--GCperiodicals \
+perl-GCLang--HU--GCModels--GCpostcards \
 perl-GCLang--HU--GCModels--GCsmartcards \
 perl-GCLang--HU--GCModels--GCsoftware \
 perl-GCLang--HU--GCModels--GCstamps \
@@ -557,6 +570,7 @@ perl-GCLang--ID--GCModels--GCgeneric \
 perl-GCLang--ID--GCModels--GCminicars \
 perl-GCLang--ID--GCModels--GCmusics \
 perl-GCLang--ID--GCModels--GCperiodicals \
+perl-GCLang--ID--GCModels--GCpostcards \
 perl-GCLang--ID--GCModels--GCsmartcards \
 perl-GCLang--ID--GCModels--GCsoftware \
 perl-GCLang--ID--GCModels--GCstamps \
@@ -590,6 +604,7 @@ perl-GCLang--IT--GCModels--GCgeneric \
 perl-GCLang--IT--GCModels--GCminicars \
 perl-GCLang--IT--GCModels--GCmusics \
 perl-GCLang--IT--GCModels--GCperiodicals \
+perl-GCLang--IT--GCModels--GCpostcards \
 perl-GCLang--IT--GCModels--GCsmartcards \
 perl-GCLang--IT--GCModels--GCsoftware \
 perl-GCLang--IT--GCModels--GCstamps \
@@ -623,6 +638,7 @@ perl-GCLang--NL--GCModels--GCgeneric \
 perl-GCLang--NL--GCModels--GCminicars \
 perl-GCLang--NL--GCModels--GCmusics \
 perl-GCLang--NL--GCModels--GCperiodicals \
+perl-GCLang--NL--GCModels--GCpostcards \
 perl-GCLang--NL--GCModels--GCsmartcards \
 perl-GCLang--NL--GCModels--GCsoftware \
 perl-GCLang--NL--GCModels--GCstamps \
@@ -656,6 +672,7 @@ perl-GCLang--PL--GCModels--GCgeneric \
 perl-GCLang--PL--GCModels--GCminicars \
 perl-GCLang--PL--GCModels--GCmusics \
 perl-GCLang--PL--GCModels--GCperiodicals \
+perl-GCLang--PL--GCModels--GCpostcards \
 perl-GCLang--PL--GCModels--GCsmartcards \
 perl-GCLang--PL--GCModels--GCsoftware \
 perl-GCLang--PL--GCModels--GCstamps \
@@ -689,6 +706,7 @@ perl-GCLang--PT--GCModels--GCgeneric \
 perl-GCLang--PT--GCModels--GCminicars \
 perl-GCLang--PT--GCModels--GCmusics \
 perl-GCLang--PT--GCModels--GCperiodicals \
+perl-GCLang--PT--GCModels--GCpostcards \
 perl-GCLang--PT--GCModels--GCsmartcards \
 perl-GCLang--PT--GCModels--GCsoftware \
 perl-GCLang--PT--GCModels--GCstamps \
@@ -722,6 +740,7 @@ perl-GCLang--RO--GCModels--GCgeneric \
 perl-GCLang--RO--GCModels--GCminicars \
 perl-GCLang--RO--GCModels--GCmusics \
 perl-GCLang--RO--GCModels--GCperiodicals \
+perl-GCLang--RO--GCModels--GCpostcards \
 perl-GCLang--RO--GCModels--GCsmartcards \
 perl-GCLang--RO--GCModels--GCsoftware \
 perl-GCLang--RO--GCModels--GCstamps \
@@ -755,6 +774,7 @@ perl-GCLang--RU--GCModels--GCgeneric \
 perl-GCLang--RU--GCModels--GCminicars \
 perl-GCLang--RU--GCModels--GCmusics \
 perl-GCLang--RU--GCModels--GCperiodicals \
+perl-GCLang--RU--GCModels--GCpostcards \
 perl-GCLang--RU--GCModels--GCsmartcards \
 perl-GCLang--RU--GCModels--GCsoftware \
 perl-GCLang--RU--GCModels--GCstamps \
@@ -788,6 +808,7 @@ perl-GCLang--SR--GCModels--GCgeneric \
 perl-GCLang--SR--GCModels--GCminicars \
 perl-GCLang--SR--GCModels--GCmusics \
 perl-GCLang--SR--GCModels--GCperiodicals \
+perl-GCLang--SR--GCModels--GCpostcards \
 perl-GCLang--SR--GCModels--GCsmartcards \
 perl-GCLang--SR--GCModels--GCsoftware \
 perl-GCLang--SR--GCModels--GCstamps \
@@ -821,6 +842,7 @@ perl-GCLang--SV--GCModels--GCgeneric \
 perl-GCLang--SV--GCModels--GCminicars \
 perl-GCLang--SV--GCModels--GCmusics \
 perl-GCLang--SV--GCModels--GCperiodicals \
+perl-GCLang--SV--GCModels--GCpostcards \
 perl-GCLang--SV--GCModels--GCsmartcards \
 perl-GCLang--SV--GCModels--GCsoftware \
 perl-GCLang--SV--GCModels--GCstamps \
@@ -854,6 +876,7 @@ perl-GCLang--TR--GCModels--GCgeneric \
 perl-GCLang--TR--GCModels--GCminicars \
 perl-GCLang--TR--GCModels--GCmusics \
 perl-GCLang--TR--GCModels--GCperiodicals \
+perl-GCLang--TR--GCModels--GCpostcards \
 perl-GCLang--TR--GCModels--GCsmartcards \
 perl-GCLang--TR--GCModels--GCsoftware \
 perl-GCLang--TR--GCModels--GCstamps \
@@ -887,6 +910,7 @@ perl-GCLang--UK--GCModels--GCgeneric \
 perl-GCLang--UK--GCModels--GCminicars \
 perl-GCLang--UK--GCModels--GCmusics \
 perl-GCLang--UK--GCModels--GCperiodicals \
+perl-GCLang--UK--GCModels--GCpostcards \
 perl-GCLang--UK--GCModels--GCsmartcards \
 perl-GCLang--UK--GCModels--GCsoftware \
 perl-GCLang--UK--GCModels--GCstamps \
@@ -920,6 +944,7 @@ perl-GCLang--ZH--GCModels--GCgeneric \
 perl-GCLang--ZH--GCModels--GCminicars \
 perl-GCLang--ZH--GCModels--GCmusics \
 perl-GCLang--ZH--GCModels--GCperiodicals \
+perl-GCLang--ZH--GCModels--GCpostcards \
 perl-GCLang--ZH--GCModels--GCsmartcards \
 perl-GCLang--ZH--GCModels--GCsoftware \
 perl-GCLang--ZH--GCModels--GCstamps \
@@ -953,6 +978,7 @@ perl-GCLang--ZH-CN--GCModels--GCgeneric \
 perl-GCLang--ZH-CN--GCModels--GCminicars \
 perl-GCLang--ZH-CN--GCModels--GCmusics \
 perl-GCLang--ZH-CN--GCModels--GCperiodicals \
+perl-GCLang--ZH-CN--GCModels--GCpostcards \
 perl-GCLang--ZH-CN--GCModels--GCsmartcards \
 perl-GCLang--ZH-CN--GCModels--GCsoftware \
 perl-GCLang--ZH-CN--GCModels--GCstamps \
@@ -985,10 +1011,15 @@ perl-GCOptionLoader \
 perl-GCOptions \
 perl-GCOptionsDialog \
 perl-GCPanel \
+perl-GCPixbuf \
 perl-GCPluginJob \
 perl-GCPluginParser \
 perl-GCPlugins \
 perl-GCPlugins--GCPluginsBase \
+perl-GCPlugins--GCTVepisodes--GCPluginThemoviedb \
+perl-GCPlugins--GCTVepisodes--GCPluginThemoviedbDE \
+perl-GCPlugins--GCTVepisodes--GCPluginThemoviedbES \
+perl-GCPlugins--GCTVepisodes--GCPluginThemoviedbFR \
 perl-GCPlugins--GCTVepisodes--GCPluginTvdb \
 perl-GCPlugins--GCTVepisodes--GCPluginTvdbES \
 perl-GCPlugins--GCTVepisodes--GCPluginTvdbFR \
@@ -999,7 +1030,15 @@ perl-GCPlugins--GCTVepisodes--GCTvdb \
 perl-GCPlugins--GCTVepisodes--GCTvdbES \
 perl-GCPlugins--GCTVepisodes--GCTvdbFR \
 perl-GCPlugins--GCTVepisodes--GCTvdbIT \
+perl-GCPlugins--GCTVepisodes--GCthemoviedb \
+perl-GCPlugins--GCTVepisodes--GCthemoviedbDE \
+perl-GCPlugins--GCTVepisodes--GCthemoviedbES \
+perl-GCPlugins--GCTVepisodes--GCthemoviedbFR \
+perl-GCPlugins--GCTVseries--GCPluginImdb \
 perl-GCPlugins--GCTVseries--GCPluginThemoviedb \
+perl-GCPlugins--GCTVseries--GCPluginThemoviedbDE \
+perl-GCPlugins--GCTVseries--GCPluginThemoviedbES \
+perl-GCPlugins--GCTVseries--GCPluginThemoviedbFR \
 perl-GCPlugins--GCTVseries--GCPluginTvdb \
 perl-GCPlugins--GCTVseries--GCPluginTvdbES \
 perl-GCPlugins--GCTVseries--GCPluginTvdbFR \
@@ -1011,6 +1050,10 @@ perl-GCPlugins--GCTVseries--GCTvdbES \
 perl-GCPlugins--GCTVseries--GCTvdbFR \
 perl-GCPlugins--GCTVseries--GCTvdbIT \
 perl-GCPlugins--GCTVseries--GCthemoviedb \
+perl-GCPlugins--GCTVseries--GCthemoviedbDE \
+perl-GCPlugins--GCTVseries--GCthemoviedbES \
+perl-GCPlugins--GCTVseries--GCthemoviedbFR \
+perl-GCPlugins--GCTseries--GCImdb \
 perl-GCPlugins--GCboardgames--GCPluginboardgamegeek \
 perl-GCPlugins--GCboardgames--GCPlugintrictrac \
 perl-GCPlugins--GCboardgames--GCboardgamegeek \
@@ -1025,6 +1068,7 @@ perl-GCPlugins--GCbooks--GCAmazonCA \
 perl-GCPlugins--GCbooks--GCAmazonDE \
 perl-GCPlugins--GCbooks--GCAmazonFR \
 perl-GCPlugins--GCbooks--GCAmazonUK \
+perl-GCPlugins--GCbooks--GCBDGest \
 perl-GCPlugins--GCbooks--GCBdphile \
 perl-GCPlugins--GCbooks--GCBokkilden \
 perl-GCPlugins--GCbooks--GCBol \
@@ -1079,15 +1123,23 @@ perl-GCPlugins--GCbooks--GCbooksPluginsBase \
 perl-GCPlugins--GCbuildingtoys--GCBrickset \
 perl-GCPlugins--GCbuildingtoys--GCPluginBrickset \
 perl-GCPlugins--GCcoins--GCNumista \
+perl-GCPlugins--GCcoins--GCNumistaEN \
+perl-GCPlugins--GCcoins--GCNumistaExonumia \
+perl-GCPlugins--GCcoins--GCNumistaExonumiaEN \
 perl-GCPlugins--GCcoins--GCPluginNumista \
+perl-GCPlugins--GCcoins--GCPluginNumistaEN \
+perl-GCPlugins--GCcoins--GCPluginNumistaExonumia \
+perl-GCPlugins--GCcoins--GCPluginNumistaExonumiaEN \
 perl-GCPlugins--GCcoins--GCcoinsCommon \
 perl-GCPlugins--GCcoins--GCcoinsPluginsBase \
 perl-GCPlugins--GCcollection--GCOnet \
 perl-GCPlugins--GCcollection--GCStopklatka \
 perl-GCPlugins--GCcomics--GCBdphile \
 perl-GCPlugins--GCcomics--GCPluginBdphile \
+perl-GCPlugins--GCcomics--GCPluginSanctuary \
 perl-GCPlugins--GCcomics--GCPluginbedetheque \
 perl-GCPlugins--GCcomics--GCPluginmangasanctuary \
+perl-GCPlugins--GCcomics--GCSanctuary \
 perl-GCPlugins--GCcomics--GCbedetheque \
 perl-GCPlugins--GCcomics--GCcomicsCommon \
 perl-GCPlugins--GCcomics--GCcomicsPluginsBase \
@@ -1192,10 +1244,13 @@ perl-GCPlugins--GCgames--GCAmazon \
 perl-GCPlugins--GCgames--GCAmazonCA \
 perl-GCPlugins--GCgames--GCAmazonDE \
 perl-GCPlugins--GCgames--GCAmazonFR \
+perl-GCPlugins--GCgames--GCAmazonJP \
 perl-GCPlugins--GCgames--GCAmazonUK \
 perl-GCPlugins--GCgames--GCGameSpot \
+perl-GCPlugins--GCgames--GCJeuxVideoCom \
 perl-GCPlugins--GCgames--GCJeuxVideoFr \
 perl-GCPlugins--GCgames--GCMobyGames \
+perl-GCPlugins--GCgames--GCNextGame \
 perl-GCPlugins--GCgames--GCPluginAmazon \
 perl-GCPlugins--GCgames--GCPluginAmazonCA \
 perl-GCPlugins--GCgames--GCPluginAmazonDE \
@@ -1266,12 +1321,41 @@ perl-GCWidgets"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 /usr/bin/sh \
-perl \
-perl-DateTime--Format--Strptime \
+perl-Cwd \
+perl-Data--Dumper \
+perl-Digest--MD5 \
+perl-Encode \
+perl-Encode--Locale \
+perl-Exporter \
+perl-File--Basename \
+perl-File--Copy \
+perl-File--Find \
+perl-File--Path \
+perl-File--Spec \
+perl-File--Temp \
+perl-Glib--Object--Introspection \
 perl-Gtk3 \
 perl-Gtk3--SimpleList \
-perl-JSON \
+perl-HTML--Entities \
+perl-HTTP--Cookies--Netscape \
+perl-IO--File \
+perl-IO--Handle \
+perl-IO--Socket \
+perl-IO--Socket--INET \
+perl-LWP \
 perl-LWP--Protocol--https \
-perl-XML--Simple"
+perl-LWP--Simple \
+perl-List--Util \
+perl-Net--SMTP \
+perl-POSIX \
+perl-Storable \
+perl-Text--Wrap \
+perl-URI--Escape \
+perl-Unicode--Normalize \
+perl-XML--Parser \
+perl-XML--Simple \
+perl-filetest \
+perl-threads \
+perl-threads--shared"
 
 inherit rpm

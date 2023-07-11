@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.11"
 
-RPM_NAME = "dico-devel-2.11-1.15.aarch64.rpm"
-RPM_HASH = "fe7a4fd4d8cdedece57039567224de2e9b1c84fe805cad3136e91b3036b9272ab786c9ed0038ea7da14612966019f8c48ff009275d49db4ac173fbd4bb583197"
+RPM_NAME = "dico-devel-2.11-1.16.aarch64.rpm"
+RPM_HASH = "7fa8cd1e738c7dc01f608e7f239519715e17bd9945a76022c7ec333a9d3495c448799794e2077f18d28ff7dd6ccb258691eae9373bca03e31d81a3c8793bd33b"
 
 RPROVIDES:${PN} += "dico-devel"
 

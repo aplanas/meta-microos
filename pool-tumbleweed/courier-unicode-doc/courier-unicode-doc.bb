@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.2.6"
 
-RPM_NAME = "courier-unicode-doc-2.2.6-1.3.noarch.rpm"
-RPM_HASH = "3d4104fae6727901ad8f4ed901a2342ce8f45642d0b8da1972845f77aab8cab318c3a5cdfd0c1ddb42742e5776b1553518335de06d8200f425a17bd9a27f2292"
+RPM_NAME = "courier-unicode-doc-2.2.6-1.4.noarch.rpm"
+RPM_HASH = "f69e34a644a805dcafc3b2b116cba38a227c593841d53675993bb077952f3726398e43ae2865ddeb864a86e599bdc0d48200e5fa37c4de62dd0518e3aaba8170"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "courier-unicode-doc"

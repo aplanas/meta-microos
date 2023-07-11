@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.2.1"
 
-RPM_NAME = "calligra-extras-okular-3.2.1-7.17.aarch64.rpm"
-RPM_HASH = "da11e853ffd836af38b2be4d283b0f7d3700c0952e8601bf3dac222c2599b89c3e01e9caac86f0f9219d0fbd35276b53b344168a4308fb1cf2b19ee4360edbd7"
+RPM_NAME = "calligra-extras-okular-3.2.1-7.19.aarch64.rpm"
+RPM_HASH = "adc21e40b09e94f0d1973c21de689b0312b012b2ffef854c93cd51d01dc8518be4139fbb4fb2bc6b951dca77d86fe17766949af77c91b2d2a23552d4b077ddea"
 
 RPROVIDES:${PN} += "calligra-extras-okular \
 libkookularGenerator-odp.so.17 \

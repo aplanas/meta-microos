@@ -8,13 +8,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.003002"
 
-RPM_NAME = "perl-TryCatch-1.003002-6.26.aarch64.rpm"
-RPM_HASH = "493ac92a8157710dc5ec214a61a18488293e60b8c0e129474df239b6ce627309f0ec4f32cd53b4309686e4f557542fd0c878ce2d2477297948b068a3b369a674"
+RPM_NAME = "perl-TryCatch-1.003002-6.27.aarch64.rpm"
+RPM_HASH = "65b8cf03b21723cbda2338344b6701bd57e2b032017dceca21636e06e23fe7830368ffd4fa3866808ee4907428ede05d422d5167b1abe86028b340db4aa5ee71"
 
 RPROVIDES:${PN} += "perl-TryCatch"
 
 RDEPENDS:${PN} += "libc.so.6 \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-B--Hooks--EndOfScope \
 perl-B--Hooks--OP--Check \
 perl-B--Hooks--OP--PPAddr \

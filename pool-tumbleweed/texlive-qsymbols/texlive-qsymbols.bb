@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.201.svn15878"
 
-RPM_NAME = "texlive-qsymbols-2023.201.svn15878-53.1.noarch.rpm"
-RPM_HASH = "4ec2b374bbe348cb9d3dd2370584d49da813cac983b4ca9c1885f45fcb4dee27e6c17aa94393cec5336c8111eed1f2462b5554269ffa9a615e120afa32c5ec67"
+RPM_NAME = "texlive-qsymbols-2023.201.svn15878-53.2.noarch.rpm"
+RPM_HASH = "7e32425c2d35d846db252ee8366c5102c1e6491bf57c636d968ce67f66c3f78661cda10c7596259cfe1d20e1d495d6639eae6674beb02dc0c91571d1727578d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-qsymbols.sty \

@@ -9,11 +9,12 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "0.9.14"
 
-RPM_NAME = "python311-PyWebDAV3-0.9.14-1.16.noarch.rpm"
-RPM_HASH = "fc6ae21c8d3e15a6bb8d21202c626c3d76a2e35b86f6eb45fbf4eb52641f441a4bc70bb2a1c1d9fb8f3c18662bfed486de98a96a46d6cb6143d0afa3ffe06488"
+RPM_NAME = "python311-PyWebDAV3-0.9.14-1.18.noarch.rpm"
+RPM_HASH = "7fa210bd2afefcdb1cdd6b6246ca4d300bd8d09721cff300df87441cb36d11954b9e7ed50289c183fc16342352d0982dea0cbeb7568b8a46ca5a1b8eccfcedb4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pywebdav3 \
+RPROVIDES:${PN} += "python3-PyWebDAV3 \
+python3.11dist-pywebdav3 \
 python311-PyWebDAV3 \
 python3dist-pywebdav3"
 

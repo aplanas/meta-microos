@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.10.5"
 
-RPM_NAME = "python-khal-bash-completion-0.10.5-3.4.noarch.rpm"
-RPM_HASH = "d11cd0c0abaf2da70c7f129ec0fb2b61f6094dad54bc4f48276e1fec8ec0a5971b13d2b8d11eea71babbc2fcde40b8e71ad42d87630cd8b2d39298f8f2749c06"
+RPM_NAME = "python-khal-bash-completion-0.10.5-3.5.noarch.rpm"
+RPM_HASH = "9e56f6a3649af242d20af5e42ee381f97c27693ccaec44b50df5d064fcff14f2cde5547ff8b01927bd351d747c65e320989cbd01f281b789132286136792cfa7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-khal-bash-completion"

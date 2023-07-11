@@ -11,8 +11,8 @@ LICENSE = "ISC"
 
 PV = "0.7.0"
 
-RPM_NAME = "python39-ptyprocess-0.7.0-2.1.noarch.rpm"
-RPM_HASH = "00df9b104a2cdc75701fdb8dfe11d570441b806b65636b6af5432e0db6e96465548657c27d93289b6f26614826245860666d7bf86930bd97ae0b12a25d3474d1"
+RPM_NAME = "python39-ptyprocess-0.7.0-2.2.noarch.rpm"
+RPM_HASH = "7f053f2c02a867decd30e2e17768562e00e63741c8aff109654731f0e59b6936cb8480a38d3b268c4e0c194386520503f5b3e23aa3f2da66e1674afca11dafa8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-ptyprocess \

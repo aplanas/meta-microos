@@ -33,11 +33,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.10.0"
 
-RPM_NAME = "python310-scandir-1.10.0-4.1.aarch64.rpm"
-RPM_HASH = "ad1bb5d0c1e17110d126a8ebf1a05af496667671d244cc7df89502aab10d9c9d83f0e0cd1ee14fc0ea6205ea1cf613f7707bc3c7a7a939201b2b4d7d31d7315f"
+RPM_NAME = "python310-scandir-1.10.0-4.3.aarch64.rpm"
+RPM_HASH = "c147ff365b6af456d5aa6f20348e33b3fe56acd093591c68f1705c4662849bfeb01a413e1a7a03a56d7fcf753cb720c6421155691c72766f1710a5544a98ed2e"
 
-RPROVIDES:${PN} += "python3-scandir \
-python3.10dist-scandir \
+RPROVIDES:${PN} += "python3.10dist-scandir \
 python310-scandir \
 python3dist-scandir"
 

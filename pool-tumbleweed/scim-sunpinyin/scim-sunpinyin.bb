@@ -17,8 +17,8 @@ LICENSE = "CDDL-1.0 | LGPL-2.1-only"
 
 PV = "2.0.3"
 
-RPM_NAME = "scim-sunpinyin-2.0.3-11.3.aarch64.rpm"
-RPM_HASH = "ef40e5b3bed117dc167cb2f761e35a2fb751180107e8717c3f8b519c550649513fac264389cdb5fb07013c0ee4d72f1c0f285949f1b41f12839cf8ffab1e34dd"
+RPM_NAME = "scim-sunpinyin-2.0.3-11.4.aarch64.rpm"
+RPM_HASH = "c1c72db3685e5c95a303a1179ce7045d40e86bdd3ecbee63fb604ecd3dda28fa66d679bb4213cb6f56a81d104d179504ef903a16939a728050b098dfa62b26b0"
 
 RPROVIDES:${PN} += "scim-sunpinyin"
 

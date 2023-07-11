@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "12.2.0"
 
-RPM_NAME = "mingw64-libgcc_s_seh1-12.2.0-2.1.aarch64.rpm"
-RPM_HASH = "9455fdbb7e45c5bac4877ac29bd444fed73d1090beaf9cefed036e44e858dc90f4d54adb10382987114080eefc90d9cca1627acdcba1cffe33cbad536dea3a8c"
+RPM_NAME = "mingw64-libgcc_s_seh1-12.2.0-3.1.aarch64.rpm"
+RPM_HASH = "f310032995d688b4005a08edea91d96acf5bf6a1cf7d517544d6b2c0ee5cdaa725da142a6bdf1a41f5e078ee6127c27b0a48c32b8b1f9f36edbc03c6d6237738"
 
 RPROVIDES:${PN} += "mingw64-libgcc \
 mingw64-libgcc-s-seh-1.dll \

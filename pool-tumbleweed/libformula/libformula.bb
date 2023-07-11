@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "1.1.6"
 
-RPM_NAME = "libformula-1.1.6-1.4.noarch.rpm"
-RPM_HASH = "40736bd743b8b679ab6f2a136e28f4ad63c360f44ffe1d94669446c59048e3ea1a248b941be0379179f7ad0844778eb219c23224d415a2d1c53c8cc51c56bffe"
+RPM_NAME = "libformula-1.1.6-1.5.noarch.rpm"
+RPM_HASH = "dabc75b969fffe0bf7546451346b275748175b785bd91b4d48880c2196379b5d2e1c6f3d07d84e2bc9d3eb26e1d3759abd76b3b406400d553aba95667158cd2b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libformula"

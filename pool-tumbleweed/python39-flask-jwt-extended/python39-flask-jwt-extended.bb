@@ -13,10 +13,10 @@ Web Tokens easier. These include: \
 - Storing tokens in cookies and CSRF protection"
 LICENSE = "MIT"
 
-PV = "4.3.1"
+PV = "4.5.2"
 
-RPM_NAME = "python39-flask-jwt-extended-4.3.1-1.6.noarch.rpm"
-RPM_HASH = "56385ad5754d2ed5cdc02efe484344bbf95aebfcd08a2ff3d11be5c10fbcd4270e168292276f4ccea0b7825403fcf0e2f281c77d1cdd224f6ab0a1f975c39e9e"
+RPM_NAME = "python39-flask-jwt-extended-4.5.2-1.1.noarch.rpm"
+RPM_HASH = "1a6bb7cbfd20c4019fa6198975a89f895c8232b6ff6c777d543789cd2eaa3421493b0ddda182f915a7cbf3e86566d3c7534779a8cdd33e9d0f89389b584b68e1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-flask-jwt-extended \

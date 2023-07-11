@@ -4,11 +4,10 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.6.7"
 
-RPM_NAME = "python310-ldas-tools-al-swig-2.6.7-3.7.aarch64.rpm"
-RPM_HASH = "0ac65e57bbca8d226e9f082e0ccd5e05b757351821308e5b3e942e43530c0bd8b8c9dc8e0a5f613160a0fa3a6c49e7dcf46215a491f61cca8dd461621b96a1b1"
+RPM_NAME = "python310-ldas-tools-al-swig-2.6.7-3.8.aarch64.rpm"
+RPM_HASH = "6d36eb836caeda64a61d600a181ec7b60c64091e94ea8ad667fa091f3a309de0ff1ef6316caf1368efe7248f8e00fb10eb16ea564e1b5dffb4d9fe952e5a4d7a"
 
-RPROVIDES:${PN} += "python3-ldas-tools-al-swig \
-python310-ldas-tools-al-swig"
+RPROVIDES:${PN} += "python310-ldas-tools-al-swig"
 
 RDEPENDS:${PN} += "python-abi"
 

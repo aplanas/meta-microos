@@ -3,10 +3,10 @@ DESCRIPTION = "Tectonic is a complete self-contained TeX/LaTeX engine powered by
 XeTeX and TeXLive."
 LICENSE = "(Apache-2.0 | MIT) & BSD-3-Clause ) & ( 0BSD | MIT | Apache-2.0 ) & ( Apache-2.0 | BSL-1.0 ) & ( Apache-2.0 | MIT ) & ( Apache-2.0-with-LLVM-exception | Apache-2.0 | MIT ) & ( MIT | Apache-2.0 & BSD-2-Clause ) & ( MIT | Apache-2.0 | Zlib ) & ( MIT | Zlib | Apache-2.0 ) & ( Unlicense | MIT ) & ( Zlib | Apache-2.0 | MIT ) & Apache-2.0 & BSD-2-Clause & BSD-3-Clause & CC0-1.0 & ISC & MIT & WTFPL"
 
-PV = "0.13.1"
+PV = "0.14.1"
 
-RPM_NAME = "tectonic-0.13.1-1.1.aarch64.rpm"
-RPM_HASH = "1305848fec6a5456213b222276db5b97267efaba5f220bfdd324d48c02ef4ae7b0d46a29b76ca245fa03fa6a24c1c1774b528e226df6e928bea08d25730969de"
+RPM_NAME = "tectonic-0.14.1-1.1.aarch64.rpm"
+RPM_HASH = "cf51644dbab5a1e02bb8a2c7b91e2d50fc614d11c208bab6587304d6dea9e1afee6e3e685e7e5a485f3d0e43246c8e3fa0513874d081782321a4df8883f3ff2e"
 
 RPROVIDES:${PN} += "bundled-rust-crate-addr2line \
 bundled-rust-crate-adler \
@@ -50,6 +50,7 @@ bundled-rust-crate-dunce \
 bundled-rust-crate-either \
 bundled-rust-crate-encoding-rs \
 bundled-rust-crate-endian-type \
+bundled-rust-crate-equivalent \
 bundled-rust-crate-error-chain \
 bundled-rust-crate-event-listener \
 bundled-rust-crate-fastrand \
@@ -86,6 +87,7 @@ bundled-rust-crate-gix-path \
 bundled-rust-crate-gix-ref \
 bundled-rust-crate-gix-sec \
 bundled-rust-crate-gix-tempfile \
+bundled-rust-crate-gix-trace \
 bundled-rust-crate-gix-utils \
 bundled-rust-crate-gix-validate \
 bundled-rust-crate-globset \
@@ -139,7 +141,6 @@ bundled-rust-crate-nom \
 bundled-rust-crate-normalize-path \
 bundled-rust-crate-notify \
 bundled-rust-crate-num-cpus \
-bundled-rust-crate-num-integer \
 bundled-rust-crate-num-threads \
 bundled-rust-crate-num-traits \
 bundled-rust-crate-object \

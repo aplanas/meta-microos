@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "6.2.2301"
 
-RPM_NAME = "netgen-examples-6.2.2301-1.4.noarch.rpm"
-RPM_HASH = "6ae6bd550353023b2d611809c1113d58b7455f60db3afbf41b0274e10d0c5170800894345fbe85f6e2bf0ee6e0e4b46ac6b432dff6f9a6fec9ec0a596105e873"
+RPM_NAME = "netgen-examples-6.2.2301-1.5.noarch.rpm"
+RPM_HASH = "0e86d824bc9e930812e3ce3a9f405549e36aca02bc2ed8ec0249c970db168a14210e67c00397571655630a3a615c2a267dc4a7c2bfbef78d52c7d15eb5173d17"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "netgen-/usr/share/netgen/cube.geo \

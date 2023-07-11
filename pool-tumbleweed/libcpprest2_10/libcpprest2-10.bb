@@ -6,8 +6,8 @@ LICENSE = "MIT & BSD-3-Clause & Zlib"
 
 PV = "2.10.18"
 
-RPM_NAME = "libcpprest2_10-2.10.18-1.14.aarch64.rpm"
-RPM_HASH = "484d738f388b59c3807e26760a7d17f66794dd9db4aa91b5aefce4b93a76fa4ca71279fd5cfcbaf6e69b85a1f3b3a962cde6bab13ca2e15807ff0e8a1455ef5a"
+RPM_NAME = "libcpprest2_10-2.10.18-1.15.aarch64.rpm"
+RPM_HASH = "64c45b8ae149ab7bc220c3520402cf630e5ec815cd1b0681b11e1f55ace4c01d49cd508c9339de859cd885ffc640c6dfabc60306b224f588786ec7d8052801b0"
 
 RPROVIDES:${PN} += "libcpprest.so.2.10 \
 libcpprest2-10"

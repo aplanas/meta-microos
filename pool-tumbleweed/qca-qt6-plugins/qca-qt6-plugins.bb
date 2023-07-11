@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.3.6"
 
-RPM_NAME = "qca-qt6-plugins-2.3.6-1.1.aarch64.rpm"
-RPM_HASH = "f783004f421d74462cf1cacad85f3ef9260fa729f7bb63b2e820475983f0ef346171f510d5fcd421f934d924d2c9cd4d7979cc21849164bfbfe7f6a7c17bba12"
+RPM_NAME = "qca-qt6-plugins-2.3.6-1.2.aarch64.rpm"
+RPM_HASH = "5f714dca2d097e7426ad5c5f78ce5844bb7238ed4e431411f1507f994f79a5280d117e3f7be928d51be426ade3279bd78932625d97d4ff7f4499ca120ab4c4ed"
 
 RPROVIDES:${PN} += "libqca-cyrus-sasl.so \
 libqca-nss.so \

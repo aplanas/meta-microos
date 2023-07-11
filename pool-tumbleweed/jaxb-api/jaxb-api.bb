@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.0.0"
 
-RPM_NAME = "jaxb-api-4.0.0-2.5.noarch.rpm"
-RPM_HASH = "72aea6b2dede184faa0827d05c547f4b469a53be4cec92797fcceacaea0d4ea3a5462e038d77aff8cb64717bdcf29c6e6056d4f70a3f5a573d3792c047422452"
+RPM_NAME = "jaxb-api-4.0.0-2.6.noarch.rpm"
+RPM_HASH = "7fc7e9c4e63d7a2a37495dee0f7263f0151e951a0f3568b015bbc0642e92c2f8c9d6fe1f943153c8bda4fd3fb2f38894054e6f1f2ba5484c729190dcb639d29e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jaxb-api \

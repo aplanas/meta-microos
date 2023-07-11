@@ -4,10 +4,12 @@ LICENSE = "GPL-3.0-only"
 
 PV = "5.15.6"
 
-RPM_NAME = "python311-qt3d-qt5-5.15.6-1.6.aarch64.rpm"
-RPM_HASH = "b095c82d1679def1e58dda4b690cd6a0fba06e0605a3e37ea312caf1e0f1aa3064b86665b5775bbd51bc98fa975e31994457ce1ead1e4e046df39883a3e978d6"
+RPM_NAME = "python311-qt3d-qt5-5.15.6-1.8.aarch64.rpm"
+RPM_HASH = "9d425539e6d254232c3fcb425edc3d4d01f8920a5a553d884d26ffb565a323b1dff13792820c02e6623e6825bbbb20ca43513e3e915a219d42012d36648916b3"
 
-RPROVIDES:${PN} += "python3.11dist-pyqt3d \
+RPROVIDES:${PN} += "python3-PyQt3D \
+python3-qt3d-qt5 \
+python3.11dist-pyqt3d \
 python311-PyQt3D \
 python311-qt3d-qt5 \
 python3dist-pyqt3d"

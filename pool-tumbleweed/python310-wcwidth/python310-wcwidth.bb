@@ -14,12 +14,11 @@ LICENSE = "MIT"
 
 PV = "0.2.6"
 
-RPM_NAME = "python310-wcwidth-0.2.6-2.1.noarch.rpm"
-RPM_HASH = "f18b635d108bd57766189f42c58295e03a9c2dec9b81d1ebebfeba69771086d13b6e866206ba87141559b6c3f4ab2af9f88ff5c9c809695b59eaafcbc1a8591e"
+RPM_NAME = "python310-wcwidth-0.2.6-2.3.noarch.rpm"
+RPM_HASH = "fc587381ed47bf046731c2670bc6721d4f8c48dd4a8463ac8bc6731ec2f314134d48f33b58e7f1e807d64763189d9f7d9f5e06c94893a45b86ce3e67f4012c49"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-wcwidth \
-python3.10dist-wcwidth \
+RPROVIDES:${PN} += "python3.10dist-wcwidth \
 python310-wcwidth \
 python3dist-wcwidth"
 

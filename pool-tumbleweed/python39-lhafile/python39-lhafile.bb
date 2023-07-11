@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.2"
 
-RPM_NAME = "python39-lhafile-0.2.2-1.24.aarch64.rpm"
-RPM_HASH = "f8e569564f1eecea339df38109f027d34bcc0f8ff895869ddd88420c954123482800fe0887e4b45d80aba40b4c049afd19c8ed17000c6d9e20975a9821f98a16"
+RPM_NAME = "python39-lhafile-0.2.2-1.26.aarch64.rpm"
+RPM_HASH = "6d0890b3d8b6b974f4b98737748afc40a24911fbe615a39820675eb36e124bbbd2754e1592d48402ffc64f740deb21f0fffd3aa588ab160940097f2fc90a69cc"
 
 RPROVIDES:${PN} += "python3.9dist-lhafile \
 python39-lhafile \

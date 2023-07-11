@@ -8,11 +8,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.7"
 
-RPM_NAME = "python311-celery-batches-0.7-1.2.noarch.rpm"
-RPM_HASH = "66b6d62a13f5a7adb8471e1e01d81fa85b76b68469d969331990ca4eb25942990e55af5ef831622413b107672fe4eb40b71f26419500db038a78dbb022461b7e"
+RPM_NAME = "python311-celery-batches-0.7-1.4.noarch.rpm"
+RPM_HASH = "68e436c0a3a38724603f66940f5570b925143c10d5774be9bc4e1fa54fc53edee890f1bf110305b7577926af7c5b2707e97e37b8abdcf26d2d85902f293e4af0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-celery-batches \
+RPROVIDES:${PN} += "python3-celery-batches \
+python3.11dist-celery-batches \
 python311-celery-batches \
 python3dist-celery-batches"
 

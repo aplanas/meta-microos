@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "3.1.0"
 
-RPM_NAME = "python39-pytest-isort-3.1.0-1.3.noarch.rpm"
-RPM_HASH = "a80953b363d334ed8bfd042fe38b0535ce3ff6d355ea83dbe30557741906c6d2ec0462d6b2b53f0258af96fd177be6664027e797aa1fb89788a96c41f60b8d57"
+RPM_NAME = "python39-pytest-isort-3.1.0-1.5.noarch.rpm"
+RPM_HASH = "89c69c9704da24dd21d474586488e807f380fc82742d263dea3f503e8d5a16b11ef0717fab6615936f27a44bc3c097df5d999be4ff1a985d9baa5373e95ddd0c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytest-isort \

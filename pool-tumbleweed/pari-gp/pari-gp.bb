@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.15.3"
 
-RPM_NAME = "pari-gp-2.15.3-1.1.aarch64.rpm"
-RPM_HASH = "2e7db05d663492c550ccb7e93e0e4066c68e943796722386dbae65fc72450d3a6710bb54bb6a3397df5e4066c40d97d8709e611adab47085d0bbc9861dd4510d"
+RPM_NAME = "pari-gp-2.15.3-1.2.aarch64.rpm"
+RPM_HASH = "f177629ed3c8424f9aab8d794b220b20655993ee68cf4155bace20bef507645dc9d251d5fa9902e19d48f9a9eaa26b80b576df54b1ca2049da0ce0c3f6540f08"
 
 RPROVIDES:${PN} += "config-pari-gp \
 pari-gp \

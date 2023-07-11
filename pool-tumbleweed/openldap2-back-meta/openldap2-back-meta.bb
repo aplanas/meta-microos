@@ -7,8 +7,8 @@ LICENSE = "OLDAP-2.8"
 
 PV = "2.6.4"
 
-RPM_NAME = "openldap2-back-meta-2.6.4-1.1.aarch64.rpm"
-RPM_HASH = "9914ea97d1485db999d24d495038d56d8d32c294518e4daae41bf333791d86855f77c616f62d574606d0394f58873444216b7a474e75a3606831f8166a14c46c"
+RPM_NAME = "openldap2-back-meta-2.6.4-2.1.aarch64.rpm"
+RPM_HASH = "073c8d7985df3b793a7a0dc2c515e4d06be3df6b32856c4d2257e787f1aae6c1b8c0656abd4dae411346e18123710af71066d427563af4d5e842cf63a45748a6"
 
 RPROVIDES:${PN} += "openldap2-/usr/share/man/man5/slapd-meta.5.gz \
 openldap2-back-meta"

@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
 PV = "3.18.0"
 
-RPM_NAME = "libfreeimage3-3.18.0-6.3.aarch64.rpm"
-RPM_HASH = "816402a059f5bf2d998f830389e79d6ee43c2125d1732560bd2f6419e5a4aec5c521d41996e9a4f7f322c3e0404a4b917f544dd758febc382442c12fd7712176"
+RPM_NAME = "libfreeimage3-3.18.0-6.4.aarch64.rpm"
+RPM_HASH = "473a09f5924bf65095be9310b025bd0332281c169f75b6986facfa8c6453078bd665e9fc406154a83febb35b9aebabc90781c378d4cf8e54a49a7cff9a4abf52"
 
 RPROVIDES:${PN} += "libfreeimage.so.3 \
 libfreeimage3"

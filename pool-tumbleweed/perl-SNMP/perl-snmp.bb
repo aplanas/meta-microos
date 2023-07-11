@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.9.3"
 
-RPM_NAME = "perl-SNMP-5.9.3-4.6.aarch64.rpm"
-RPM_HASH = "7a522d38daefa01563bcd063ba85c146b861b3309cfbe086242e188bdd913630c35f1d4fbe07b3fe6ff54f939ffdf01d0678bc532d0f65abe1b02557a7b01c81"
+RPM_NAME = "perl-SNMP-5.9.3-4.10.aarch64.rpm"
+RPM_HASH = "4135817e23e8bbc068806a55cf9b1c35ba4fbcd84eee4975f314fbe27f03762281b65349ab4a25d829800db72ea79c9dd8d8af0dec9ecda5d17ba5881c7129e2"
 
 RPROVIDES:${PN} += "perl-MakefileSubs \
 perl-NetSNMP--ASN \

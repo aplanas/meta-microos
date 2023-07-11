@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
 PV = "2.13.9"
 
-RPM_NAME = "liblttng-ctl0-2.13.9-1.3.aarch64.rpm"
-RPM_HASH = "fde8d5b7698435cab2c93e2aa983e0e956053ea9d816bfeb801cdf87ad6d41ab20489b42855a0a290ee1ac4dd4bf872c964375837a3e5056056a7ba182a1f551"
+RPM_NAME = "liblttng-ctl0-2.13.9-1.5.aarch64.rpm"
+RPM_HASH = "1440cde0ea94c69614a636921498439bfe5af5145bdf7d00312863ed567108c8dda5a3097c1d48af5ed11f7a29e01e87e9761c985f56fdc302cbc4c0a7eef989"
 
 RPROVIDES:${PN} += "liblttng-ctl.so.0 \
 liblttng-ctl0"

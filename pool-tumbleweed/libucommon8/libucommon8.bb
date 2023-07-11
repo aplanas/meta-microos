@@ -11,8 +11,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "7.0.1"
 
-RPM_NAME = "libucommon8-7.0.1-1.9.aarch64.rpm"
-RPM_HASH = "215de5f3925f06113b645923c662a312eaebd992d2bf682d46edd2aab07451117fd5ce68eb9deaed015294a70ce01c3a1c4734a88c1c7e911151261be0313fb9"
+RPM_NAME = "libucommon8-7.0.1-1.10.aarch64.rpm"
+RPM_HASH = "87d1c5ce6e45cfccf617150feb66d2054fb143ee0f9b5aea8786d597e8ee80ac39df620ec8d082351284786df8a42a4b435a5c9947c91542d4e96c42e48c8b83"
 
 RPROVIDES:${PN} += "libcommoncpp.so.8 \
 libucommon.so.8 \

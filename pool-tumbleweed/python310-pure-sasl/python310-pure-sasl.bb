@@ -7,12 +7,11 @@ LICENSE = "MIT"
 
 PV = "0.6.2"
 
-RPM_NAME = "python310-pure-sasl-0.6.2-1.14.noarch.rpm"
-RPM_HASH = "35bcbad5396e4d77b8e61dd3e38926e4e70e6c67d3ce2225b5145bda04c07c056a6a68acb46344fae6f0ffcf9fba14c30c3599e7f69bf8e6ace1beba6aa27f81"
+RPM_NAME = "python310-pure-sasl-0.6.2-1.15.noarch.rpm"
+RPM_HASH = "930919ab9d52145d22558a08f1ecdeafe4b029b8bdd3fba11eb7a4e1a36634656f2daa04bfc183150585f8efa730be41242ec7830a075f7d99b41345beeeb787"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pure-sasl \
-python3.10dist-pure-sasl \
+RPROVIDES:${PN} += "python3.10dist-pure-sasl \
 python310-pure-sasl \
 python3dist-pure-sasl"
 

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.8.18"
 
-RPM_NAME = "compiz-plugins-main-lang-0.8.18-1.15.noarch.rpm"
-RPM_HASH = "8ad3c4285b6fdf9a0a221255eaaf1cf56c8dac354870515c9a4ddcb9c4f215874ac2940b6d75c2bcc54758b0f4cc855ebd7e95faa3b08c9ef8d1ecb0a1bca899"
+RPM_NAME = "compiz-plugins-main-lang-0.8.18-1.16.noarch.rpm"
+RPM_HASH = "4dcd33ddd3e3bf7395f31860a6d2b136630ba36bfad37857b62098f822c69d73f41d837fb1a20049add1c0d508f0136f0e6ffb5bc8579d81fbacadc62ee0ede9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "compiz-plugins-main-lang \

@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.0.0"
 
-RPM_NAME = "maven-antrun-plugin-3.0.0-1.10.noarch.rpm"
-RPM_HASH = "821edaf8376588fc3cd666edfd6073599213dc4f0976765543ea0a87787aa7f9d63f9ccc86998bfd1e97e9ab19272f88cb83a351368f94a72b91735e325b9643"
+RPM_NAME = "maven-antrun-plugin-3.0.0-1.11.noarch.rpm"
+RPM_HASH = "a8b80e9955789bfab6690e6cf0005d6e720bb8a61429f89db9f4d7f2adccdcba214535d63edbffcf7e5d55028bab9d2b1b3c12745fd0ee901345ef3a71b24931"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-antrun-plugin \

@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "0.5.5"
 
-RPM_NAME = "libopenspecfun1-0.5.5-1.3.aarch64.rpm"
-RPM_HASH = "a09d92cfd9cf6fd40e84f9a8a2ce53998a225aafc30d9425d746a6437ceac1ab44ab0d1f5603cfe72db0488cfd18f02f337c9d29f000c1ec69290e90d04db8d9"
+RPM_NAME = "libopenspecfun1-0.5.5-1.4.aarch64.rpm"
+RPM_HASH = "c3f616f405265746e7b11278a9154faf5f30a114d86eab35d9537710cb871860a136a0e7cb4076de340473cbb96bfc0c9fa09de095422833a115e67e43e3356a"
 
 RPROVIDES:${PN} += "libopenspecfun.so.1 \
 libopenspecfun1"

@@ -4,23 +4,23 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.19.1"
 
-RPM_NAME = "ghc-servant-prof-0.19.1-2.3.aarch64.rpm"
-RPM_HASH = "98e6fbd9767ebe76c2fe1918e78254fe90cab576bb5dd057f3e7c6d1180302203d02fe34fd5acb5e77304bf1929945ad8b95a65ae97e992410f6b20100356dee"
+RPM_NAME = "ghc-servant-prof-0.19.1-2.6.aarch64.rpm"
+RPM_HASH = "1efca3b7ee0ea65cb32e2f0f4e731c4150cf3ee8d9e38f8dbf8bb87a1128142e1dceb27b3b2cee1491e70045dbb7e8d3bba277fd88e4c8200699373514d3bab7"
 
-RPROVIDES:${PN} += "ghc-prof-servant-0.19.1-CkczWd9pQYqHxItHfQRhzE \
+RPROVIDES:${PN} += "ghc-prof-servant-0.19.1-6G8iD3Z75czL6ryOAXMC67 \
 ghc-servant-prof"
 
-RDEPENDS:${PN} += "ghc-prof-QuickCheck-2.14.2-Ifslnzw9cpLJMSBGXVUlx6 \
-ghc-prof-aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP \
+RDEPENDS:${PN} += "ghc-prof-QuickCheck-2.14.3-6dq2izV8oSq1BobaDA598X \
+ghc-prof-aeson-2.1.2.1-HkN6OtqTngQ9De3CKBnfov \
 ghc-prof-attoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3 \
 ghc-prof-base-4.17.1.0 \
-ghc-prof-base-compat-0.12.2-L1DEOlMQJOdFOKsjHoWYov \
+ghc-prof-base-compat-0.13.0-Cvz3167VMpo6rdOohSlum3 \
 ghc-prof-bifunctors-5.5.15-7mn3oj93MLM2f6K5DVlnRL \
 ghc-prof-bytestring-0.11.4.0 \
 ghc-prof-case-insensitive-1.2.1.0-AumZoR4Lds63HJj8OQwHY3 \
 ghc-prof-constraints-0.13.4-8c0InBhz3htJzug27IqVE7 \
 ghc-prof-deepseq-1.4.8.0 \
-ghc-prof-http-api-data-0.5-Ipkpz3wcjEIJthDto7snfd \
+ghc-prof-http-api-data-0.5-V3iAwM0FHG5XKNP6QkA7J \
 ghc-prof-http-media-0.8.0.0-9GHxrTRagkN589CoQuo7sU \
 ghc-prof-http-types-0.12.3-4BrMFwRucoT4fBt8cCVFS6 \
 ghc-prof-mmorph-1.2.0-4Mt4o3YW9h63uaZAnM2RZC \

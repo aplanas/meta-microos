@@ -7,12 +7,11 @@ LICENSE = "MIT"
 
 PV = "0.5"
 
-RPM_NAME = "python310-unify-0.5-2.13.noarch.rpm"
-RPM_HASH = "fc38d184cd416255b2be29f5f43ef74f913d176cbb8f9fa901fde6ed187126cd189ef91d3c4ce987a5e09fe409933dc9ab27cef2f20cf8833049f22b683973e5"
+RPM_NAME = "python310-unify-0.5-2.15.noarch.rpm"
+RPM_HASH = "b2c10e6c87903abea025c1bb1f76cf1f87226e7cda3a33d611e420cc519157d071d323e168fe80499e4e561227c90f3cad74195deb1d9f9cde60adef9111912f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-unify \
-python3.10dist-unify \
+RPROVIDES:${PN} += "python3.10dist-unify \
 python310-unify \
 python3dist-unify"
 

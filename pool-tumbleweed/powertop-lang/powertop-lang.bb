@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.15"
 
-RPM_NAME = "powertop-lang-2.15-1.3.noarch.rpm"
-RPM_HASH = "ae3649d7bbd60dc7a0a02a94c9fc3d2772b9974ff6bf12be3dae3e56fda22c01a2d113dcd3759b4a2b6a05f8cf2869a8413eb6a0e1bd5deb09339e48a2f3fcac"
+RPM_NAME = "powertop-lang-2.15-1.4.noarch.rpm"
+RPM_HASH = "86eed5b88ffdcb15671bccbdebc9d0820b540d433dcf16e9c6f36ef6297fe6efd677aabf415d39919cc78d553d9587623e4f2decebadca7aaf608db8b05ec090"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-powertop-ca \

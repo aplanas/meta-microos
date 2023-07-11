@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.34"
 
-RPM_NAME = "tar-rmt-1.34-10.3.aarch64.rpm"
-RPM_HASH = "bc3d2980cd51a2ecc26d05bde9702d23eb39c812171f8ccb0914664c1292ec97df0adebde4144cc5c09dda4547da30e04846dd84a8c5ebdcf4b8b055b6b2add4"
+RPM_NAME = "tar-rmt-1.34-10.4.aarch64.rpm"
+RPM_HASH = "058ed2477db3827275950dc69b3296ca40e44d58b63c056d398039d76703819d86de4956e8a3cc04db70dfab0012c41b868e90fa25eeb91adc38ae82d0cc64d1"
 
 RPROVIDES:${PN} += "rmt \
 tar-rmt"

@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.17.0"
 
-RPM_NAME = "python311-yacron-0.17.0-1.5.noarch.rpm"
-RPM_HASH = "390bf511c06469df704b9df20dcf22d5735b2ed1fc2773fe1683444cd3a3376e49d0c087c052935a4447df22e9e314347a2b766c38516085e2290e2bb3a7a373"
+RPM_NAME = "python311-yacron-0.17.0-1.7.noarch.rpm"
+RPM_HASH = "d59eed63995be9983612afb1b4551462d54904716444cd684e32ee898ff9c5d01fc3093d7bfc408f208e8d34013ab2180598589990543f3aeefd667893bd167c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-yacron \
+RPROVIDES:${PN} += "python3-yacron \
+python3.11dist-yacron \
 python311-yacron \
 python3dist-yacron"
 

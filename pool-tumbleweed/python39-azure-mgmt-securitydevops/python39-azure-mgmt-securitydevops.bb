@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0~b2"
 
-RPM_NAME = "python39-azure-mgmt-securitydevops-1.0.0~b2-1.3.noarch.rpm"
-RPM_HASH = "314c15f0f21088ee3b17eb8fe46196d14668d29edd140994d66ddceff8d82392b08a1507687e00ad3be51e27d5768d9fa71fc888933b4239d520d2c7a32c0dc4"
+RPM_NAME = "python39-azure-mgmt-securitydevops-1.0.0~b2-1.4.noarch.rpm"
+RPM_HASH = "858c14a07d7fc0b89c2b2baf0d33af2637f41cb05993c3ccab3790b05a613613e870e14e3dcbd0309b65dfae1750dd48879d2efb0ce7dd25e0a3409f78e70f8a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-securitydevops \

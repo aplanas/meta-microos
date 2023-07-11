@@ -10,10 +10,10 @@ This plugin contains the FFmpeg codecs, containing codecs for most popular \
 multimedia formats."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.3"
+PV = "1.22.4"
 
-RPM_NAME = "gstreamer-plugins-libav-1.22.3-1.1.aarch64.rpm"
-RPM_HASH = "44cbcd5f317d1da0ef12e1abc282d76d9a39320c5c9c2af5f44b73ed866e61ada042b1143c28be8c80eb2a32d494a69a4598e97049543b58272b40a50ce70845"
+RPM_NAME = "gstreamer-plugins-libav-1.22.4-1.1.aarch64.rpm"
+RPM_HASH = "23c5bb7daadf0c1bddf1116c242c7f7f57e0971bd9ea6ad760bacd1f47164321eb225f3cf017e76f905c718d8316cf77683075d11a7fdafa318fbda7863d8cbc"
 
 RPROVIDES:${PN} += "gstreamer-plugins-libav \
 gstreamer1 \

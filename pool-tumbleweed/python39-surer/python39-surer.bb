@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.0.3"
 
-RPM_NAME = "python39-surer-0.0.3-1.4.noarch.rpm"
-RPM_HASH = "cebe810169e77782d42fe7d03eed5873eb9dd75e6bec91569e55da549c33e866fd0aec06564e6d2f14644271c89d91c234db1b25a7b380bc711293122e33dabd"
+RPM_NAME = "python39-surer-0.0.3-2.3.noarch.rpm"
+RPM_HASH = "81c2e419f68b0c314e2a4bbb150d28db25cacbf9df28658fb3142b2e9aeea1951ca788ae73ee7c4ae66c4290cad4aa74b63876c24bfd1070e1c660b0812660c5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-surer \

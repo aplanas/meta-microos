@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.32.0"
 
-RPM_NAME = "NetworkManager-connection-editor-1.32.0-1.1.aarch64.rpm"
-RPM_HASH = "49c37a71596db8383a20625fb4d4e4a3e4de5ccf539309ff87e7002879c6d3113da02578de25fd7c11c0dcca5f9ed92e30bdee1df82eb9623bd760ba9750c8d7"
+RPM_NAME = "NetworkManager-connection-editor-1.32.0-1.2.aarch64.rpm"
+RPM_HASH = "903f6a3dc9fb26dec6e66737553abc4992da70f9ad5a125b6f2a42309605ce300ebd28e24ab15d62b589d7c10ddc30a9cb57228250be4a56c489863b9d752a14"
 
 RPROVIDES:${PN} += "NetworkManager-connection-editor"
 

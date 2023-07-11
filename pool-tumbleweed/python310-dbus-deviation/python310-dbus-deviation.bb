@@ -7,12 +7,11 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.6.1"
 
-RPM_NAME = "python310-dbus-deviation-0.6.1-1.12.noarch.rpm"
-RPM_HASH = "a4cf1369f6d1a08e4d1eb792973b448227479c04a4e5cb9aef51574a086e531c0f9ff49f2c51aa6fd159f49ae63e05f179fa367db79b62d94fa288db1f52c4fe"
+RPM_NAME = "python310-dbus-deviation-0.6.1-1.14.noarch.rpm"
+RPM_HASH = "d4670d9750fe05fba8bf7eafc782f6c814139d3b7f1e3a7b2d86f1198a5daa47d3deb869c340d793a7f93b507597bdc8bae3f898172bd081495aa56937bb3a3c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-dbus-deviation \
-python3.10dist-dbus-deviation \
+RPROVIDES:${PN} += "python3.10dist-dbus-deviation \
 python310-dbus-deviation \
 python3dist-dbus-deviation"
 

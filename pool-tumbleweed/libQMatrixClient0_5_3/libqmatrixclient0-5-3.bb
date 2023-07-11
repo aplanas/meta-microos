@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.5.3.2"
 
-RPM_NAME = "libQMatrixClient0_5_3-0.5.3.2-1.17.aarch64.rpm"
-RPM_HASH = "b65f3372dbd9ec8138b08fedd25cbde0bea0dc5b9bc69c178cc4be6a39aad87ccdb53ff51c7c0d9a8cf1aba18763d02920f1dccb36a178ae037b19cdcc0e50ec"
+RPM_NAME = "libQMatrixClient0_5_3-0.5.3.2-1.18.aarch64.rpm"
+RPM_HASH = "b9f27452b4933c98d78d53f64a7d6152a2be47e2da61240b32925912ba4a5b646e4b360de4c90ee0afd6bb4140195d1286d823c070d9f4a5ab2ed0f4ab53e7fa"
 
 RPROVIDES:${PN} += "libQMatrixClient.so.0.5.3 \
 libQMatrixClient0-5-3"

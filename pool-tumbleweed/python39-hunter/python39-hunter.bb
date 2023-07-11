@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "3.5.1"
 
-RPM_NAME = "python39-hunter-3.5.1-1.5.aarch64.rpm"
-RPM_HASH = "dff302beaceae929c2b1ef43403b7c0e579b5179f2d409b401e76b53571ba6b725ccefc19f8a6206be15a7452a7dc431972a49bb4b0cd8cad59b58808d55e18e"
+RPM_NAME = "python39-hunter-3.5.1-1.7.aarch64.rpm"
+RPM_HASH = "258ad55f5216a28058d7f6d8a1830b8452186752d88ef478a51b9ff3d21355aa6967bab8969f0db66ff86b74b60f6258006c8013e148d8737ad6bc46cf6d54b0"
 
 RPROVIDES:${PN} += "python3.9dist-hunter \
 python39-hunter \

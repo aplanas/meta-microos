@@ -10,12 +10,11 @@ LICENSE = "Python-2.0"
 
 PV = "0.7.1"
 
-RPM_NAME = "python310-defusedxml-0.7.1-3.1.noarch.rpm"
-RPM_HASH = "fd7012a9c218c8f544ab08f60410ec0c3756644d0bc06470da84ccc0d827fe23362d32e21db66a202bc8417721a54aa417e22e4478cc7b23348cd26dfc521ab8"
+RPM_NAME = "python310-defusedxml-0.7.1-3.3.noarch.rpm"
+RPM_HASH = "5fb16a423d0c9ea7f6bc47bd1e90cac1a7dd99a32d3678a053368847a564fac6c9071f0ad19d014a3615cb77d9610528198afe67927bb5b5f0b195476af66d48"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-defusedxml \
-python3.10dist-defusedxml \
+RPROVIDES:${PN} += "python3.10dist-defusedxml \
 python310-defusedxml \
 python3dist-defusedxml"
 

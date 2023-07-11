@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.6.0"
 
-RPM_NAME = "budgie-dropby-applet-1.6.0-1.1.aarch64.rpm"
-RPM_HASH = "5ff874f7804faad02e76258c214870ed154def0589f55bf5a345ade254a3c13a440986151a549183c230ad8e0c5079aa540731976f559308a32947ad0f2ab31d"
+RPM_NAME = "budgie-dropby-applet-1.6.0-1.2.aarch64.rpm"
+RPM_HASH = "ae6b641d259f5beee459571d4e14533b65f8655df5bc8a14929a20b42adf1234c11ad4050e7bb36ed05f02b2055c2f117f22e60d399439be1a4f0e7bb46e1e66"
 
 RPROVIDES:${PN} += "budgie-dropby-applet"
 

@@ -11,11 +11,12 @@ LICENSE = "Apache-2.0 | MIT"
 
 PV = "0.22.0"
 
-RPM_NAME = "python311-trio-0.22.0-2.1.noarch.rpm"
-RPM_HASH = "1b4fb18ad91c591d38913b4aeaeb588f436390a4e9c0ab9c1de372ed0b92be1edba180e586874fd8a62248d6ce7cb585470de7138107941d831a5dabb3909902"
+RPM_NAME = "python311-trio-0.22.0-2.3.noarch.rpm"
+RPM_HASH = "ed970930e55b2ab036ee84769da097e57f89c31244f03db1d49add92ebdba0bb986de27eb62f3c6bbef937c49e1fee12c0b6bb29f368ae02097e680fafc340ba"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-trio \
+RPROVIDES:${PN} += "python3-trio \
+python3.11dist-trio \
 python311-trio \
 python3dist-trio"
 

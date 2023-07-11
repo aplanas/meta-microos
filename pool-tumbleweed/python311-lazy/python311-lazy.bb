@@ -10,11 +10,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.5"
 
-RPM_NAME = "python311-lazy-1.5-1.3.noarch.rpm"
-RPM_HASH = "d3d2c6c17028511a43d177ebb8725ba8ce18cb30a14ac26639884e2a756aba1e692c672d7efd12661fe0604b031dba417cfeab32bf72ae095a27dc449395672a"
+RPM_NAME = "python311-lazy-1.5-2.2.noarch.rpm"
+RPM_HASH = "4af3c6ed0664da0a65737f3aca15b340299e5f699db3e9698982c80492d9e9f88ff3dcb3cbeaf7e44eab59cedcacda8984c4431f7ab3dfe179d785b1eeb4a8fe"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-lazy \
+RPROVIDES:${PN} += "python3-lazy \
+python3.11dist-lazy \
 python311-lazy \
 python3dist-lazy"
 

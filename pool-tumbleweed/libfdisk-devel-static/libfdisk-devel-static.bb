@@ -3,10 +3,10 @@ DESCRIPTION = "Files needed to develop applications using the library for filesy
 detection."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.38.1"
+PV = "2.39"
 
-RPM_NAME = "libfdisk-devel-static-2.38.1-13.1.aarch64.rpm"
-RPM_HASH = "ae44b1d152b05f6bfe3ec9dfd247bd63d7945c625f6b8e6304b8c6a50317a833230f087f6603ab24be7ff4a6cb74d904091b116ec2e29e04459f79a4770fe837"
+RPM_NAME = "libfdisk-devel-static-2.39-1.1.aarch64.rpm"
+RPM_HASH = "e2dbae96bdf6ceaa244fb21db0c91483933178ab2eebea9183e7031e3d2ef048dab255bd8b4c0420cc9e1441b0ac9d8954c08991b822966ceaf963bde3c2aa6d"
 
 RPROVIDES:${PN} += "libfdisk-devel-static"
 

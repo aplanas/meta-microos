@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0"
 
 PV = "1.4.2"
 
-RPM_NAME = "bitlbee-steam-1.4.2-1.27.aarch64.rpm"
-RPM_HASH = "eb6dd7e1028be73bc73c79dff04e7142617b749990769132190cf60f5e8f2a0d9d00a114de3bfa3dfbe172e57b5a88bec0ea0980e9f84ef6374df1f13afc188f"
+RPM_NAME = "bitlbee-steam-1.4.2-1.28.aarch64.rpm"
+RPM_HASH = "0f6955b2a327de0a03ac04dc83d88902f22d40d8b53bf000568c2fe8a35c483577bdd821cfa82c36b2ef918ebdc442173f21086d79560214cc44871192063996"
 
 RPROVIDES:${PN} += "bitlbee-steam"
 

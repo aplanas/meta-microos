@@ -5,8 +5,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.013.1"
 
-RPM_NAME = "perl-MIME-Charset-1.013.1-1.2.noarch.rpm"
-RPM_HASH = "3f3d013f289ffcf8ebb9f772ef441b31b5b9b919353febe891883f59bcf2157a59ec2131e84eaeb700610e8388244ece661d6ead9a6ba3195cc402ea5e4e3723"
+RPM_NAME = "perl-MIME-Charset-1.013.1-1.3.noarch.rpm"
+RPM_HASH = "31055a82fc3c4fb14f798b8ab0d08dde92108c4662aa133ada50dc913324f8d9058d462e57bf274d2525bcfa4d4fe9ff2168239f6977bd288f28ad34dd56cc8c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MIME--Charset \
@@ -14,6 +14,6 @@ perl-MIME--Charset---Compat \
 perl-MIME--Charset--UTF \
 perl-MIME-Charset"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

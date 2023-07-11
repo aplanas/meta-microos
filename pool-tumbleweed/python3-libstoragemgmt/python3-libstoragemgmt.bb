@@ -10,13 +10,13 @@ well as python framework support and open source plug-ins written in python. \
  \
  \
  \
-Provides:       python3-libstoragemgmt < 1.9.8-1.1"
+Provides:       python3-libstoragemgmt < 1.9.8-1.2"
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.9.8"
 
-RPM_NAME = "python3-libstoragemgmt-1.9.8-1.1.aarch64.rpm"
-RPM_HASH = "45f418dee14845295e0d9363c9138ca62b03e55930b9c61f403f15b4ec185ec80f8939ef3057788e5dc30e8cfdb6ef35b544c47cc362edbe6746b9cb2bbf827e"
+RPM_NAME = "python3-libstoragemgmt-1.9.8-1.2.aarch64.rpm"
+RPM_HASH = "77bf0c894d70255ccc1dababfaaf0c77375bd713f439e79386fd2373bf0c2f63a662d34df1e8dcc682f58dd790a8bf953a14a048ddf21fe7bf6a27c30e6de098"
 
 RPROVIDES:${PN} += "config-python3-libstoragemgmt \
 python3-libstoragemgmt"

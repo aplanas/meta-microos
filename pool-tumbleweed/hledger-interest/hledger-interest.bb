@@ -55,13 +55,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.6.5"
 
-RPM_NAME = "hledger-interest-1.6.5-2.2.aarch64.rpm"
-RPM_HASH = "4702e42c9accd00a03274161e7fd4fdef27557e09e7e0fcf64891cd5c8c7b97fdf2bfbf14f1c673d7e36bd0d9953460a1aa6bba4b1313f38e6f09268ce762c8a"
+RPM_NAME = "hledger-interest-1.6.5-3.2.aarch64.rpm"
+RPM_HASH = "993fbf2b4ad366c003c5acf824d4f9f7418cadf86db4f76a199960b65d53b19fd675c034cdccbbe6d8a2c19581803393202e3c6fbc074ccacabed12aaeb9c9ee"
 
 RPROVIDES:${PN} += "hledger-interest"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libatomic.so.1 \
 libc.so.6 \
 libffi.so.8 \
 libgmp.so.10 \

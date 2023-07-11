@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "26.4.14"
 
-RPM_NAME = "galera-4-wsrep-provider-26.4.14-1.1.aarch64.rpm"
-RPM_HASH = "3f39400ad08fe5c88921e315f1a422aaec3aa70210bbe1b745ebd45fa8faa5d171d0b9e21b118ed258c0399bdba3dc8c88c515706968a61f9611bdf149a05106"
+RPM_NAME = "galera-4-wsrep-provider-26.4.14-1.2.aarch64.rpm"
+RPM_HASH = "82f8a9cf596b33ba095ea399a836e0a6e15092e22d0c16673844244a2702b44922612bea32d16f6b70047925e69148fb6d9320ac4d97c390dbd59cc1c1a599a7"
 
 RPROVIDES:${PN} += "config-galera-4-wsrep-provider \
 galera-4-wsrep-provider \

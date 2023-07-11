@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.12.0"
 
-RPM_NAME = "python39-aws-xray-sdk-requests-2.12.0-1.1.noarch.rpm"
-RPM_HASH = "41bd25bbcf06d37a8d190166e75cc90ea4e0b6d29cc65a5ee1da9e221efe58f6c10df3926d23cdc059c968d3a163d38a5a4ea9fa9c0f3ac5e697d814cfd5d3af"
+RPM_NAME = "python39-aws-xray-sdk-requests-2.12.0-2.3.noarch.rpm"
+RPM_HASH = "5d7c9d2c84b95b933e3c272565e0e27118591e0351ea8e9b1bdce2e6ba399bcc06d203bf54e7a5b7ff1a312f3360a889f62a97906b6555e2d7daf18f35582871"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-aws-xray-sdk-requests"

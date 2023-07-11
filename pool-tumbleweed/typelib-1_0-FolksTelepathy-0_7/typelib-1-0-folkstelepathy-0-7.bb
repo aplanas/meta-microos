@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.15.6"
 
-RPM_NAME = "typelib-1_0-FolksTelepathy-0_7-0.15.6-1.1.aarch64.rpm"
-RPM_HASH = "5178fd074369e3bff442ea2ddbcc824e533e3360452a7d963d11ee018f9666848d4e7c04c58a798b0216e1433d59856ae64078c6d356d896ecc4627f4f06e973"
+RPM_NAME = "typelib-1_0-FolksTelepathy-0_7-0.15.6-1.2.aarch64.rpm"
+RPM_HASH = "bcd1fbcf2a6183ba72c104a7eaeee2fdb06a93e25eba26f7bdabb7a027a0d3f2526d47d8b558ac537132c24efc8bd07b974eda85bcaf480bbcb3e8e9def0a640"
 
 RPROVIDES:${PN} += "typelib-1-0-FolksTelepathy-0-7 \
 typelib-FolksTelepathy"

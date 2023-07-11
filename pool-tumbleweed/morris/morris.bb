@@ -31,8 +31,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.2"
 
-RPM_NAME = "morris-0.2-1.16.aarch64.rpm"
-RPM_HASH = "1dbd81a86cb1c5b55222ad745d61fbcc8bcf31b010ca2796cb1c7266e3d6bf3d4601f73c42d8c786dd9418c3944364994e8e3eae70c7d8a96e6544d86c6ca46f"
+RPM_NAME = "morris-0.2-1.17.aarch64.rpm"
+RPM_HASH = "3becd4b0935b83231ff85b24ac30d3ec45e8fd4f20a790a03cc223ae2b6ef95c718a7d2d5159bcfd93dd8903dbc031ff6f34b638d1689cd3ebbd88b3915c96a5"
 
 RPROVIDES:${PN} += "morris"
 

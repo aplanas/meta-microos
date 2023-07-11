@@ -9,10 +9,10 @@ configuration file. \
 'sendmail' is a trademark of Sendmail, Inc."
 LICENSE = "Sendmail"
 
-PV = "8.17.1"
+PV = "8.17.2"
 
-RPM_NAME = "libmilter1_0-8.17.1-9.1.aarch64.rpm"
-RPM_HASH = "e29c03961760bc638e3ed107b988eb14cb40a7c64d616b75447fa32fe936be4a22846a5d762d3234538c7b6127fb5a298640d3fc05a8722e2c350a8b1bf3720e"
+RPM_NAME = "libmilter1_0-8.17.2-1.1.aarch64.rpm"
+RPM_HASH = "4f418ffa26d48240d62af4269370919c5408deae12a212f497f46bf449ce3c2b84d3dbd07ac7429b3a0d45422fa4222f89ebdd448001adee5941923b8d8520f2"
 
 RPROVIDES:${PN} += "libmilter.so.1.0 \
 libmilter1-0"

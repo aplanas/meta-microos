@@ -6,10 +6,10 @@ videos. Its plug-in-based architecture means that new data types or \
 processing capabilities can be added simply by installing new plug-ins."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.3"
+PV = "1.22.4"
 
-RPM_NAME = "libgstwayland-1_0-0-1.22.3-1.1.aarch64.rpm"
-RPM_HASH = "b1ebfe9015fa47d5b0e8d09e45e8fd108c644e0e1aa727f9fdd607f6fa3dd4555a3afb1a0f544b08c5f428092c0b2dd128c4fd3dadf754b14647bbcda532af27"
+RPM_NAME = "libgstwayland-1_0-0-1.22.4-1.1.aarch64.rpm"
+RPM_HASH = "47ac266005cebb0b961876165bb7080b8c3918b4876318ef2f608c53d73aaf0e97d58ee8031bae10b5857195a1b3f32fe47fadc742f0996c3db2418c318ee74b"
 
 RPROVIDES:${PN} += "libgstwayland-1-0-0 \
 libgstwayland-1.0.so.0"

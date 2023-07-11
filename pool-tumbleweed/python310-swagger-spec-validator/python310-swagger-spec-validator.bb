@@ -6,12 +6,11 @@ LICENSE = "Apache-2.0"
 
 PV = "3.0.3"
 
-RPM_NAME = "python310-swagger-spec-validator-3.0.3-1.3.noarch.rpm"
-RPM_HASH = "57d6c2fc7567989a8cc2a7bf7e8506a4e74bbb61a715a1553db629eb055120677984d4e821330cc2ba28977b2a8145b1400907263f0cfa992c4db569e628385c"
+RPM_NAME = "python310-swagger-spec-validator-3.0.3-1.5.noarch.rpm"
+RPM_HASH = "43ec10abd2956a0a46ae6e47455921d0e8621e4d7440659aa3446ffea4d6032a4c622e12eb5f5e061676be5b37af8a8b7cea6685bd2178d7fa6c2fe054930d07"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-swagger-spec-validator \
-python3.10dist-swagger-spec-validator \
+RPROVIDES:${PN} += "python3.10dist-swagger-spec-validator \
 python310-swagger-spec-validator \
 python3dist-swagger-spec-validator"
 

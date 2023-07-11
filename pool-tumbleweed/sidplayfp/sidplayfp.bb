@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.4.1"
 
-RPM_NAME = "sidplayfp-2.4.1-1.1.aarch64.rpm"
-RPM_HASH = "86c08a18c4b3b58ea08e2b4bb688302a20042f868bafb5b3eaa9ab0de461ffac9c2566d8d590ab74dc8c04400f577e5535137ba7822f77446f412fbf1623fe2d"
+RPM_NAME = "sidplayfp-2.4.1-1.2.aarch64.rpm"
+RPM_HASH = "7b8e61837cc2fd1606f0ae3be7578e58f3dd860ac19a75a79e7e63706d9c58e66fde98b57ee4f0932551dcb056fe9e4551feefb6af1389d634cf0d2b8c051707"
 
 RPROVIDES:${PN} += "sidplayfp"
 

@@ -3,10 +3,10 @@ DESCRIPTION = "A better way to navigate directories. \
 Tree-like commandline directory navigator written in Rust."
 LICENSE = "MIT"
 
-PV = "1.21.0"
+PV = "1.22.1"
 
-RPM_NAME = "broot-1.21.0-1.1.aarch64.rpm"
-RPM_HASH = "9e05285d8943d6e6007cf916e58cf206d2d6da0e8cbe7d496cc99354a0d737b32da3e5352b3aa450e885ea386a30837e956b4a3b26f5045e555e9d0f02c77758"
+RPM_NAME = "broot-1.22.1-1.1.aarch64.rpm"
+RPM_HASH = "72e066d53bad6fa576b0831e4890be35a76125f7216f386ab41b2e93ab0e31012182e6f692d5301d6f3323c2e7af9099ef763fb905f6e0b43d964c1a2d9d300c"
 
 RPROVIDES:${PN} += "broot \
 bundled-rust-crate-adler \
@@ -56,6 +56,7 @@ bundled-rust-crate-doc-comment \
 bundled-rust-crate-either \
 bundled-rust-crate-exr \
 bundled-rust-crate-fastrand \
+bundled-rust-crate-fdeflate \
 bundled-rust-crate-file-size \
 bundled-rust-crate-flate2 \
 bundled-rust-crate-float-cmp \
@@ -81,6 +82,7 @@ bundled-rust-crate-imagesize \
 bundled-rust-crate-include-dir \
 bundled-rust-crate-include-dir-macros \
 bundled-rust-crate-indexmap \
+bundled-rust-crate-io-lifetimes \
 bundled-rust-crate-itoa \
 bundled-rust-crate-jobserver \
 bundled-rust-crate-jpeg-decoder \
@@ -95,6 +97,7 @@ bundled-rust-crate-libgit2-sys \
 bundled-rust-crate-libz-sys \
 bundled-rust-crate-line-wrap \
 bundled-rust-crate-linked-hash-map \
+bundled-rust-crate-linux-raw-sys \
 bundled-rust-crate-lock-api \
 bundled-rust-crate-log \
 bundled-rust-crate-memchr \
@@ -134,6 +137,7 @@ bundled-rust-crate-proc-macro-error-attr \
 bundled-rust-crate-proc-macro-hack \
 bundled-rust-crate-proc-macro2 \
 bundled-rust-crate-proc-status \
+bundled-rust-crate-qoi \
 bundled-rust-crate-quick-xml \
 bundled-rust-crate-quote \
 bundled-rust-crate-rand \
@@ -145,15 +149,15 @@ bundled-rust-crate-rctree \
 bundled-rust-crate-regex \
 bundled-rust-crate-regex-automata \
 bundled-rust-crate-regex-syntax \
-bundled-rust-crate-remove-dir-all \
 bundled-rust-crate-resvg \
 bundled-rust-crate-rgb \
+bundled-rust-crate-rosvgtree \
 bundled-rust-crate-roxmltree \
+bundled-rust-crate-rustix \
 bundled-rust-crate-rustybuzz \
 bundled-rust-crate-ryu \
 bundled-rust-crate-safemem \
 bundled-rust-crate-same-file \
-bundled-rust-crate-scoped-threadpool \
 bundled-rust-crate-scopeguard \
 bundled-rust-crate-secular \
 bundled-rust-crate-serde \
@@ -162,8 +166,10 @@ bundled-rust-crate-serde-json \
 bundled-rust-crate-signal-hook \
 bundled-rust-crate-signal-hook-mio \
 bundled-rust-crate-signal-hook-registry \
+bundled-rust-crate-simd-adler32 \
 bundled-rust-crate-simplecss \
 bundled-rust-crate-siphasher \
+bundled-rust-crate-slotmap \
 bundled-rust-crate-smallvec \
 bundled-rust-crate-snafu \
 bundled-rust-crate-snafu-derive \
@@ -183,7 +189,6 @@ bundled-rust-crate-terminal-light \
 bundled-rust-crate-textwrap \
 bundled-rust-crate-thiserror \
 bundled-rust-crate-thiserror-impl \
-bundled-rust-crate-threadpool \
 bundled-rust-crate-tiff \
 bundled-rust-crate-time \
 bundled-rust-crate-time-core \
@@ -207,14 +212,18 @@ bundled-rust-crate-unicode-width \
 bundled-rust-crate-url \
 bundled-rust-crate-users \
 bundled-rust-crate-usvg \
+bundled-rust-crate-usvg-parser \
 bundled-rust-crate-usvg-text-layout \
+bundled-rust-crate-usvg-tree \
 bundled-rust-crate-version-check \
 bundled-rust-crate-walkdir \
 bundled-rust-crate-weezl \
 bundled-rust-crate-which \
 bundled-rust-crate-xmlparser \
+bundled-rust-crate-xmlwriter \
 bundled-rust-crate-xterm-query \
-bundled-rust-crate-yaml-rust"
+bundled-rust-crate-yaml-rust \
+bundled-rust-crate-zune-inflate"
 
 RDEPENDS:${PN} += "libc.so.6 \
 libgcc-s.so.1 \

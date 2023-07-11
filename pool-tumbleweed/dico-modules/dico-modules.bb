@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.11"
 
-RPM_NAME = "dico-modules-2.11-1.15.aarch64.rpm"
-RPM_HASH = "dae6ac5098e8f8141fdd76fc198550e7806b3d3793ab5b1505e2a214d2ae7e76be5c4c062c1fdf2097a46c7b40d1f68f8dd91be887d21ce07b455be8791af14f"
+RPM_NAME = "dico-modules-2.11-1.16.aarch64.rpm"
+RPM_HASH = "f097464ab2e1d58dbe2085a974ec598735137e1b18d0c18408bd4016072005cb02bf7ae56fb91e589ea73f758b27915ecba71afb751c5eaa3d48dd0dc26c7ece"
 
 RPROVIDES:${PN} += "dico-modules"
 
@@ -22,7 +22,7 @@ libguile-3.0.so.1 \
 libldap.so.2 \
 libpam.so.0 \
 libpcre.so.1 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libz.so.1"
 
 inherit rpm

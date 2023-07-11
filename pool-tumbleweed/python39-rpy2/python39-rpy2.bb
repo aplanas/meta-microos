@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.4.4"
 
-RPM_NAME = "python39-rpy2-3.4.4-1.10.noarch.rpm"
-RPM_HASH = "a3c56f79b6815d7466cf73dff9fc8e6a1e47c51cb8582efa08146934fbcf858c3fd0ef2cf4ac83013d388cbe5d398d4767654b58c98df588a82edfdd2a63e1f7"
+RPM_NAME = "python39-rpy2-3.4.4-1.12.noarch.rpm"
+RPM_HASH = "b39bb996e320939bb5d0e1bf14bafeac5e74ec62b8408db526e2d64ad121d66fc3129ec9d33f72f2c2168ac15ff877bfc922ed0a43259f32fd709e30461b6386"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-rpy2 \

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6.1"
 
-RPM_NAME = "python39-python-snappy-0.6.1-1.3.aarch64.rpm"
-RPM_HASH = "9424f16b7d22578b9b42b1b4b226672a3c28dc1a988013c8d70954afc5b767379dfdc02aaed174ea1b984f518041268f36f70f5c785db36ad22295db86f6e57a"
+RPM_NAME = "python39-python-snappy-0.6.1-1.5.aarch64.rpm"
+RPM_HASH = "52cee8ce9787f16ea3ffa1b077d15d6e0b52a676c6d29976785470d7704ba60a9445bbad7a30884deaa7addaa6127b53a6fbe3c0e79ab21d6b6559be985296f2"
 
 RPROVIDES:${PN} += "python3.9dist-python-snappy \
 python39-python-snappy \

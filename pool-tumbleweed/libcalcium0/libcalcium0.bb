@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.4.1"
 
-RPM_NAME = "libcalcium0-0.4.1-1.9.aarch64.rpm"
-RPM_HASH = "cf1f20612083c04aaacc3e8e50cc623541970a680b70a6e83e667a8a98cc42f04f21d18509230b1e2115dd909a9ef8f99fbe46040c6aabe6327408cc69353b7b"
+RPM_NAME = "libcalcium0-0.4.1-1.10.aarch64.rpm"
+RPM_HASH = "da4b1ae1b6b15dcd93305d52c29a6d24cb422e45168a829869b6e2ccd13b42a30b7cb41ac49e6aec396a7ffd4d3878b89cc38aa39103681c0ee4121aefa75f25"
 
 RPROVIDES:${PN} += "libcalcium.so.0 \
 libcalcium0"

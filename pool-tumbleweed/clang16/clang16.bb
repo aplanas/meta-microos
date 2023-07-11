@@ -2,10 +2,10 @@ SUMMARY = "CLANG frontend for LLVM"
 DESCRIPTION = "This package contains the clang (C language) frontend for LLVM."
 LICENSE = "Apache-2.0-with-LLVM-exception & NCSA"
 
-PV = "16.0.4"
+PV = "16.0.6"
 
-RPM_NAME = "clang16-16.0.4-1.1.aarch64.rpm"
-RPM_HASH = "01c52e1d6dd91bed346d3357b54ab0c76e45a262f1500be76ae9363509b8c177dafcd207d4019cf915261db73a3333b8cadc2d3c952c377c0ba76c4b7de2a66c"
+RPM_NAME = "clang16-16.0.6-1.1.aarch64.rpm"
+RPM_HASH = "c6a6f1327627e8ca964c2d3c73b99218f4f4881c171e50a2bd9287f8ec953be334a0e304bb448c554c670b0b77b7e4bc4f7d45d05be5db6e1bbac2b94132472e"
 
 RPROVIDES:${PN} += "clang16 \
 libclang-rt.asan-aarch64.so \

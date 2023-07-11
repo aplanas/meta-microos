@@ -16,11 +16,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.6"
 
-RPM_NAME = "python311-colorama-0.4.6-2.1.noarch.rpm"
-RPM_HASH = "6f8f680efa2545ee6f412fed944f70cc4bf78037919e3310ced14a5ccb13b01ea017f6a82d821be22c0af692283d6ee756a5e9605ecf854cc0c1ffa5357c0ac0"
+RPM_NAME = "python311-colorama-0.4.6-2.3.noarch.rpm"
+RPM_HASH = "301f502894569a0781a37c8e57663f9c3bbe7180469c0ac4757f74e219bdf66e87eb8f7acb16ab29844708941b9ec338b2451649741957556c8313203f98168f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-colorama \
+RPROVIDES:${PN} += "python3-colorama \
+python3.11dist-colorama \
 python311-colorama \
 python3dist-colorama"
 

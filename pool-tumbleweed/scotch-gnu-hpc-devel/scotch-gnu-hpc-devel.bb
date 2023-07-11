@@ -6,8 +6,8 @@ LICENSE = "CECILL-C"
 
 PV = "6.1.0"
 
-RPM_NAME = "scotch-gnu-hpc-devel-6.1.0-2.9.noarch.rpm"
-RPM_HASH = "538a7b8626c5ccf9a0dd91fdb8a7a37e53753b339fcaec891522bd576cb7aefcc820d5f0c101cca6003a2310094c595c762d8db190e7012fb1f4779cf3837bc4"
+RPM_NAME = "scotch-gnu-hpc-devel-6.1.0-2.10.noarch.rpm"
+RPM_HASH = "07cf8ff19bec84052f95573c7116002df514c54e8a378a07ee2b33417fcbab668685b722f893b2db92542f1e98ff90183a3fb693acef8400f506e809efdf08ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "scotch-gnu-hpc-devel"

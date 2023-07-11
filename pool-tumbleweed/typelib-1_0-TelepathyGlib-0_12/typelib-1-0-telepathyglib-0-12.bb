@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.24.2"
 
-RPM_NAME = "typelib-1_0-TelepathyGlib-0_12-0.24.2-1.10.aarch64.rpm"
-RPM_HASH = "088dd1fa3e316ffb40d74094bdf4ffc13dbef5ab243644601453135a0758a03edd2e687117b9e478586d50691600ef1376c3969d6af20a18d8b31a783db12254"
+RPM_NAME = "typelib-1_0-TelepathyGlib-0_12-0.24.2-1.11.aarch64.rpm"
+RPM_HASH = "97004427e75fe904ccc4cad4e07149b531a53cbaccd9a6042be582d3d4e7886383693ba5d2d4da381b44f4b3fac21718393cd30a75a587878ab3a51ea912b95e"
 
 RPROVIDES:${PN} += "typelib-1-0-TelepathyGlib-0-12 \
 typelib-TelepathyGLib"

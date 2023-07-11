@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.31"
 
-RPM_NAME = "ipvsadm-1.31-3.1.aarch64.rpm"
-RPM_HASH = "0feb769a9d237bb7c1d292581676b0da623905dbd279318cf768e38bb14bebe3a19802df9b479e9c9b01081c9b3c652cb5a5ae31ca4b828e69ea453d0b76a264"
+RPM_NAME = "ipvsadm-1.31-3.2.aarch64.rpm"
+RPM_HASH = "b3d3b1383fca13f678653326f89c099024cf551e2e55451ec68b6ace7baf3c8b8fa454d2a126b28c2237ebd506c855fc7e5fa52c5976c0112f123b2a17cf0a60"
 
 RPROVIDES:${PN} += "config-ipvsadm \
 ipvsadm \

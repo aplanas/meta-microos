@@ -7,10 +7,10 @@ the basic three (Times, Helvetica and Courier) Adobe Type 1 \
 fonts in LaTeX using LY1 encoding."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn63565"
+PV = "2023.208.svn63565"
 
-RPM_NAME = "texlive-ly1-2023.201.svn63565-52.1.noarch.rpm"
-RPM_HASH = "36b76cd64696ba18b56106224e6cffb4eb8b516b604260a8642bfb21510522e7cb9533dc42139b5992f83fe83073da769ac1bcc772980463d32e35dc0463b5d1"
+RPM_NAME = "texlive-ly1-2023.208.svn63565-53.1.noarch.rpm"
+RPM_HASH = "6dfdb6ae4a7365ec0f15667516402e9888a4143b7a35fcf74c95ac4a811d8954f1769a7f95a2c51d5b00560d202df1ba24dd27e7e2761483c7ff685163053c86"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ly1enc.def \

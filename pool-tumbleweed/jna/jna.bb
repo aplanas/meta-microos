@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0 | LGPL-2.1-or-later"
 
 PV = "5.5.0"
 
-RPM_NAME = "jna-5.5.0-3.6.aarch64.rpm"
-RPM_HASH = "d20ebd38db57d87853d9706a41e864f9f41f238fcf8e7b0a79928a7628a973d1b6650f1cd482ba151cda8aef0e891a15b8ad6390c2097467abe2e22e94b43fb4"
+RPM_NAME = "jna-5.5.0-3.7.aarch64.rpm"
+RPM_HASH = "0a9516540823681d2b2ea79d387375f529f2bbabddddc1bd174dbdce3561d64862ae5c8e655c74385b66c9d5c08f45e77726d7937e3b898452b3d73cf4a3b67c"
 
 RPROVIDES:${PN} += "jna \
 jna-native \

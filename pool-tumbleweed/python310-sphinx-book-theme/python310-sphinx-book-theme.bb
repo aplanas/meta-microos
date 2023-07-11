@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.3"
 
-RPM_NAME = "python310-sphinx-book-theme-0.1.3-1.8.noarch.rpm"
-RPM_HASH = "0fa3323fc4b3a50a097771b2ac204240937fe86209334a967de8b9dde22e5d709717eadff2948486c2d87b856c178b669f0a41c76631bfb911cf842dfe185bad"
+RPM_NAME = "python310-sphinx-book-theme-0.1.3-1.10.noarch.rpm"
+RPM_HASH = "d46c734da474628f4dd0981dba78bfb78cb0a9d8afaf22b02dbd149f73e3364c64615d03c3f54d4a176b996c07560327c8faf15e1e92e9def59b212b1a247dd9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-sphinx-book-theme \
-python3.10dist-sphinx-book-theme \
+RPROVIDES:${PN} += "python3.10dist-sphinx-book-theme \
 python310-sphinx-book-theme \
 python3dist-sphinx-book-theme"
 

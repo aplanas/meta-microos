@@ -3,10 +3,10 @@ DESCRIPTION = "This application can be used to test a PAM stack for authenticati
 password change."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.0+git.20161214"
+PV = "0.0+git.20191111"
 
-RPM_NAME = "pam-test-0.0+git.20161214-1.12.aarch64.rpm"
-RPM_HASH = "679fde6ec67dd9553028d3a74df0ea1fc382762310aeb567523674d5981e11afc721492b094332dc199885d7e3de7998334a0226a51c01199a008884ebbb9845"
+RPM_NAME = "pam-test-0.0+git.20191111-1.1.aarch64.rpm"
+RPM_HASH = "b72f5cdb566d839e4fe33295629affdeba2d9cf70c707acc05cc73cdfd9ab4799140dd58c5848774c37dd98ad8013694584c881b80b7aa6080e71953d102c508"
 
 RPROVIDES:${PN} += "pam-test"
 

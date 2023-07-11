@@ -4,12 +4,11 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.2.0"
 
-RPM_NAME = "python310-fedora-messaging-3.2.0-2.4.noarch.rpm"
-RPM_HASH = "408ef866c2115c4b4d9f40b81951be39d7517235a638395198bc62bdc276af28d86be570964dc0afba6da27616e1b384b836997d1a140d4b35b367dd9bc80da3"
+RPM_NAME = "python310-fedora-messaging-3.2.0-2.6.noarch.rpm"
+RPM_HASH = "d0a529374923c01c2c1a4e51ceeffd936673a2d1e3c83eb25a297b2499e603f0eaa52de817b508d6a60142529532e41c0e634cd372e7ba250f9a9b86d7dbdca7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-fedora-messaging \
-python3.10dist-fedora-messaging \
+RPROVIDES:${PN} += "python3.10dist-fedora-messaging \
 python310-fedora-messaging \
 python3dist-fedora-messaging"
 

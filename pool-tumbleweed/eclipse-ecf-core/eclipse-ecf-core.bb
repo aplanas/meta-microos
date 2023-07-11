@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0 & EPL-2.0 & BSD-3-Clause"
 
 PV = "3.14.8"
 
-RPM_NAME = "eclipse-ecf-core-3.14.8-4.5.aarch64.rpm"
-RPM_HASH = "3656cd78fde104002a5747ba99386f93a921a6241205395adca61cbc7465412b508632631f836aedadeb59a43ded59f2a27da1be8e4a493bf1e2a1d4470b9d17"
+RPM_NAME = "eclipse-ecf-core-3.14.8-4.6.aarch64.rpm"
+RPM_HASH = "b4581aa80f186cb798e51fd715e45bad2df29a8679605c6962d40ddbc69568fe3cb2d5866a69a41b6b2efa0c3a7791f4077cb8dce9dcb1d051116cda2fa90941"
 
 RPROVIDES:${PN} += "eclipse-ecf-core \
 mvn-org.eclipse.ecf-org.eclipse.ecf \

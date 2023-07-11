@@ -12,8 +12,8 @@ LICENSE = "AGPL-3.0-or-later & GPL-2.0-or-later"
 
 PV = "1.4.0"
 
-RPM_NAME = "osmo-hlr-1.4.0-1.11.aarch64.rpm"
-RPM_HASH = "60af5b514ce6b2f866d285a69c32a6d493edc04a22cb2f0cabe7525693372890248ae9d7f7ffbf15339f93566bd0cd3f9ce2e521c0f2d1d60edc4673dee4613b"
+RPM_NAME = "osmo-hlr-1.4.0-1.12.aarch64.rpm"
+RPM_HASH = "a59d27422b994b178ae2f853cf0ebecee2f3df72e870e4230cfba2a8485688d1509350eee03ce6e415a71d276abbfeb1f4fed8d6fa9ae605bef3485b967f2f63"
 
 RPROVIDES:${PN} += "config-osmo-hlr \
 osmo-hlr"

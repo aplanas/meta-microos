@@ -2,10 +2,10 @@ SUMMARY = "A web interface to access GNU Mailman v3 archives"
 DESCRIPTION = "A web interface to access GNU Mailman v3 archives."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.3.5"
+PV = "1.3.7"
 
-RPM_NAME = "HyperKitty-1.3.5-7.1.noarch.rpm"
-RPM_HASH = "6445d5c2860891338c8ae9d49c025867c92027bd6c8bf4463b41de903220becfd537f60fac62f02ced7885cf867f55e564fd30cb6d7eb2446daf5223b2bc02d4"
+RPM_NAME = "HyperKitty-1.3.7-1.1.noarch.rpm"
+RPM_HASH = "95d7b2ddb7811c3b5d0281390761338159b1034442379da58872e3f075c98027f441f9e9b5642c89ab9045bf3ec29ccae63843350aeb40ba7c4c98804e288c0f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "HyperKitty \

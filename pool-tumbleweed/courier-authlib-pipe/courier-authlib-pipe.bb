@@ -6,8 +6,8 @@ LICENSE = "SUSE-GPL-3.0-with-openssl-exception"
 
 PV = "0.72.0"
 
-RPM_NAME = "courier-authlib-pipe-0.72.0-1.4.aarch64.rpm"
-RPM_HASH = "0bc7f85fac10792d7d5f0b4351e5f93edb86351494593f2da9b46b1c6685644eafdcaa96b52a5149025b7abc52775287fe0f3316a775348a280933c459ab002f"
+RPM_NAME = "courier-authlib-pipe-0.72.0-1.5.aarch64.rpm"
+RPM_HASH = "f80c02b9577af6a457d655e5a712e0731c51999ab520bcc91ebc0d748cb0bfa5bd3b3f5ac0be78314fbdeb5db1982f244bd73057eed71bd778fd9c6d7e9b5d3e"
 
 RPROVIDES:${PN} += "courier-authlib-pipe \
 libauthpipe.so.0"

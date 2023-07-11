@@ -5,8 +5,8 @@ LICENSE = "CC-BY-SA-3.0 & LGPL-2.1-or-later"
 
 PV = "5.7.0"
 
-RPM_NAME = "minetest-5.7.0-1.1.aarch64.rpm"
-RPM_HASH = "7755fe35afa60e4983382fe8d7fc1a08483ebf6330c2ca41171795315ceacc6ede27a7b4355de352fe8936707f88438faf10f9a1461e64dc6ae1007bd0c5a40c"
+RPM_NAME = "minetest-5.7.0-1.2.aarch64.rpm"
+RPM_HASH = "e0f44e9a6dcd56a019d030e36507178b8f3a89598cd141c858712f3a42217c2e93513244ee914de0820d29eddc1dbf1af1e4ce2756301d48b963438c6cb6003c"
 
 RPROVIDES:${PN} += "bundled-irrlicht \
 minetest \

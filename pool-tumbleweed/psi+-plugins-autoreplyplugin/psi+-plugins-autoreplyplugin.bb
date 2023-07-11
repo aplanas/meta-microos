@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-or-later"
 
 PV = "1.5.1615+0"
 
-RPM_NAME = "psi+-plugins-autoreplyplugin-1.5.1615+0-3.1.aarch64.rpm"
-RPM_HASH = "c83eb975f8f6662287250c9f37f3f48bcbe6c55744c57afc7855080e41750ce7428281620591c2a6a90de4db8dea64a3f151011f540a9920098ee1049d65757b"
+RPM_NAME = "psi+-plugins-autoreplyplugin-1.5.1615+0-3.2.aarch64.rpm"
+RPM_HASH = "5e9d8b0073fe161ab3fbba413739b7d9eade5e910ae2120f3705f76d1354c9eac3abb8d7af1c7b577ee2f437039d7e41c1c69b2fc77d01aa6efc6ae0ed9455ce"
 
 RPROVIDES:${PN} += "libautoreplyplugin.so \
 psi+-plugins-autoreplyplugin"

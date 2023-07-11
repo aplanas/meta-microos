@@ -6,10 +6,10 @@ don't reveal their real IP addresses. \
 This package contains a C++ implementation of an I2P router."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.44.0"
+PV = "2.48.0"
 
-RPM_NAME = "i2pd-2.44.0-1.6.aarch64.rpm"
-RPM_HASH = "d2b82bc14b645ca8ca2636042cd994fe5fb5f1d0ceaa50b511298c9e6b6f1c386e67d7ab1d3970cf7bf0e8fb92ea336682b223194511b3682b583a3a836f1534"
+RPM_NAME = "i2pd-2.48.0-1.1.aarch64.rpm"
+RPM_HASH = "70e681ec059225e558ed31331fa8adedd24317ccff745bbc7c821443fde7afa2aee18f05063453dfcffe4ff05508e9a9768d0e681a16469ec6791224699cf689"
 
 RPROVIDES:${PN} += "config-i2pd \
 i2pd"

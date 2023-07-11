@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.201.svn22613"
 
-RPM_NAME = "texlive-yannisgr-2023.201.svn22613-52.1.noarch.rpm"
-RPM_HASH = "ed3ddfafd1d151382941ab6cdb547cf4ad5fe29887a2aeb971995892c6b1a995081f5619ba67327fbd20ea1805ce0f9bf293504065eca86b577584355025bf68"
+RPM_NAME = "texlive-yannisgr-2023.201.svn22613-52.2.noarch.rpm"
+RPM_HASH = "aac6303e11154c13499cdeff9f451f3868d03c34f7d85766c157d08c7388447311188caa1fb36c72b3291bcf40ebc2502a6760a8acc6e657d0949ee0b07c5894"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mrgrbf10.tfm \

@@ -4,10 +4,10 @@ that way, is to kill enemies. Granatier is a clone of the popular \
 Bomberman game."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "granatier-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "499bc638986ca8024bf7c52c28264fa762337ac29e6c40600b2a906e28530dfa2d3d4771e3e0ed07b7cd3da589e2e227107a103d579b65e43db81ee606ba24c6"
+RPM_NAME = "granatier-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "3adee006d745e3bc63601d7fc5177efb87861b2d4fa80decb71adabf4b5e1537b1178f744e362c097cb5595f0706043e8e48700a65b6f877ccb77260d11d8ae3"
 
 RPROVIDES:${PN} += "granatier \
 granatier5"

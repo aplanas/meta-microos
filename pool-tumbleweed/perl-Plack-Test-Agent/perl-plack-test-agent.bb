@@ -4,15 +4,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.5"
 
-RPM_NAME = "perl-Plack-Test-Agent-1.5-1.10.noarch.rpm"
-RPM_HASH = "a192a3d8f594e01f3587542aa4bffa6378189845751194bcce69c5fe66a7baa38128858c9b2988d7a2dd21b564d3beb13dee700d2e4d9f066fad58437a1a9d77"
+RPM_NAME = "perl-Plack-Test-Agent-1.5-1.11.noarch.rpm"
+RPM_HASH = "314ece6e950a7ecc200eabc515ef3a1da0fcf1f44ff3df1ac371c19b418de5cafd6d9252d2be64c90c3612a5b0c16c55ff553abcf0ce6fe2504cae82a37a4301"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Plack--Test--Agent \
 perl-Plack-Test-Agent \
 perl-Test--WWW--Mechanize--Bound"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-HTTP--Cookies \
 perl-HTTP--Message--PSGI \
 perl-HTTP--Request--Common \

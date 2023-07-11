@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kjumpingcube"
 DESCRIPTION = "Provides translations for the 'kjumpingcube' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kjumpingcube-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "a799fb4d627a723275f72d9fd2eb9a73abacb8faf38188c443ecb7fbbb57e9c035d8a09a7edc8f71c2833e0066b5f0aaee45061832c534e37495e49c34d7ce8e"
+RPM_NAME = "kjumpingcube-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "ff75e7103e27bdbe16f82556015089c94b81697bffd255695f148f9e76362a61a75588783424d7583216ce19e8a39f4d5d6756e65e16aaaeb1409fbddf6b781c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kjumpingcube-lang \

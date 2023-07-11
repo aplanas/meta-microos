@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.1.4"
 
-RPM_NAME = "dippi-lang-3.1.4-1.7.noarch.rpm"
-RPM_HASH = "3c13f04b9a3e0cf1c6e17ae22c7326543594ef6bccd12360c3166e596471e4b5dfe4561c10c8deddf535bbf12deb6dbd2edc324abcd7764ea7b6d3d8d49f286f"
+RPM_NAME = "dippi-lang-3.1.4-1.8.noarch.rpm"
+RPM_HASH = "b421777f23420ead0cfa4d3ee3f1e0b7deed33af16fb7514be1af0221215ae61b2341a3b0ba2d6a8dfed16511d0d53426b1ebb2aea9bb241f615a66af06e3a52"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dippi-lang \

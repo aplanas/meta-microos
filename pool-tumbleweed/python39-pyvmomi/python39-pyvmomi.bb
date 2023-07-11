@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "7.0.3"
 
-RPM_NAME = "python39-pyvmomi-7.0.3-2.7.noarch.rpm"
-RPM_HASH = "1635681b05d5e90ad5053a7461203c0903bb2b987fcc93d065508c6d5402172e1f8ef30d28ec0b86e965811ef8674afdf5c4a2c4c591bd6a68381bd047e5cf89"
+RPM_NAME = "python39-pyvmomi-7.0.3-2.9.noarch.rpm"
+RPM_HASH = "62911f7b56ca87a17ebc05ecda30b605556c6a2e19251976eb0fbde9496e837494b88cd830eb7f3794702c55fc50e7115e5356b57901ed0f9d86cbf982401a47"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyvmomi \

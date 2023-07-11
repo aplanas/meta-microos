@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.93.1"
 
-RPM_NAME = "tecnoballz-0.93.1-5.1.aarch64.rpm"
-RPM_HASH = "a0b29ce2e8af67b6eff8db5ed5fa9a26ba6b499503593312aec8b84178bc8f9b85dde7c9e982efe5916bf3bfebf35cf2a02a4020c61b2d53958966cdb92ceb74"
+RPM_NAME = "tecnoballz-0.93.1-5.2.aarch64.rpm"
+RPM_HASH = "764f1d3e4f69a3b8c6f84da7cfcbf86040f5530cfa63b07cce57e8b218261fe2e6a9b95a3b8736a985d32191ded8b84084e3a8661f65bf3965e0b33b31656a66"
 
 RPROVIDES:${PN} += "tecnoballz"
 

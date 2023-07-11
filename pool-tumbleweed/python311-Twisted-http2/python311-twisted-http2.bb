@@ -7,11 +7,12 @@ LICENSE = "MIT"
 
 PV = "22.10.0"
 
-RPM_NAME = "python311-Twisted-http2-22.10.0-6.1.noarch.rpm"
-RPM_HASH = "60f6928c3b2663fdf8ae15f3e81fa48cc5ee8899ed0aa0c4c6266413aada175fd12285315db98442a4ca2718e507bb7fa57ff338632071d30707676efcc31018"
+RPM_NAME = "python311-Twisted-http2-22.10.0-7.1.noarch.rpm"
+RPM_HASH = "8f62c121f0b5ac5cdcea05e964bf15b7369b151dd8ceb046d488fc2b7cc297b555ff2a75ce8ff1d82cce8b097ba8f28501650d54d39ccb82dfd5144f9e500b6a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python311-Twisted-http2"
+RPROVIDES:${PN} += "python3-Twisted-http2 \
+python311-Twisted-http2"
 
 RDEPENDS:${PN} += "python311-Twisted \
 python311-h2 \

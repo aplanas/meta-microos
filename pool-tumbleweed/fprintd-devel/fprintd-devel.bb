@@ -5,8 +5,8 @@ LICENSE = "GFDL-1.1-or-later"
 
 PV = "1.94.2"
 
-RPM_NAME = "fprintd-devel-1.94.2-2.4.noarch.rpm"
-RPM_HASH = "04775d35cfc14260a80d4f6093eec5cd5c2ac5260e429af2c8d1a857189b8b5ede84b339b8b0527fd164f74ee675d9484fdca12b4af4419bc6ec588a184db9c7"
+RPM_NAME = "fprintd-devel-1.94.2-2.5.noarch.rpm"
+RPM_HASH = "fe8e94b3ce202efa95b76e7c7bd142a28c11b456a8d2176b6d09328ad27e42822130977259c751df4df0df117d96151169505c8d35a9fcac70e89551aadf29d6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fprintd-devel"

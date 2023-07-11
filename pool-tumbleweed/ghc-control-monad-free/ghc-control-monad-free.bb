@@ -9,8 +9,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "0.6.2"
 
-RPM_NAME = "ghc-control-monad-free-0.6.2-4.3.aarch64.rpm"
-RPM_HASH = "ddc293c589c065d32d127ceb2dc64c0afd1a0d6edf0c58034200620ce432eaea1ab9d8cffc59835ef18657e2243218b8ba84bb338a1e35c2c54ced2885a44ff7"
+RPM_NAME = "ghc-control-monad-free-0.6.2-4.6.aarch64.rpm"
+RPM_HASH = "2111388b8c0e81dd6c8e0437b65875c1bd580b35ec5c2d6db734ba40ff5f96af0baffb6956912816b99a697d7f4978085a83429152bdc89bb991c6c1f62301f4"
 
 RPROVIDES:${PN} += "ghc-control-monad-free \
 libHScontrol-monad-free-0.6.2-AMlHq80A2qJLNQ8iIcl5z7-ghc9.4.5.so"

@@ -5,12 +5,11 @@ LICENSE = "MIT & MPL-2.0"
 
 PV = "2.20191221"
 
-RPM_NAME = "python310-publicsuffix2-2.20191221-1.13.noarch.rpm"
-RPM_HASH = "a0ea7844ddab0133fe9f10473bc7542ac32b7f3e94ecaf9832b6daf7162889c051303374455152b6c75b769ff16ab376d7692f1c0a0ab28e81d5505b23c263ac"
+RPM_NAME = "python310-publicsuffix2-2.20191221-2.1.noarch.rpm"
+RPM_HASH = "24e8d962477b834b224c3793dc0a8c7f064baf1dadc505fc7fd5835e4e03b8c642ff9bea4fba19302930cc6c5ff9306a371e0eded214a827c60e9f074b0b1a50"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-publicsuffix2 \
-python3.10dist-publicsuffix2 \
+RPROVIDES:${PN} += "python3.10dist-publicsuffix2 \
 python310-publicsuffix2 \
 python3dist-publicsuffix2"
 

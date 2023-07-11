@@ -10,10 +10,10 @@ is written in Lua, and the .tex file is to be compiled with the \
 LuaLaTeX engine."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn65833"
+PV = "2023.208.1.2svn65833"
 
-RPM_NAME = "texlive-luacomplex-2023.201.1.2svn65833-52.1.noarch.rpm"
-RPM_HASH = "4f24800e90e05ce143d14fb37b71e4d6944eb11e0c7a886dae67f8b3ebba93f5d680698cdcaa33423c4a8ba41d2fa3162e7754959c1182e1065061b0bd1c5a7a"
+RPM_NAME = "texlive-luacomplex-2023.208.1.2svn65833-53.1.noarch.rpm"
+RPM_HASH = "404b1e736b0d9a842a712ab240a84686739481c026578e9ab914802bd59d14cc77ec0a32b81043ed1aad800c69a5ea4ac22f691058b57aa336160b614535c202"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-luacomplex.sty \

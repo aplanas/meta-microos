@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.0"
 
-RPM_NAME = "seccheck-3.0-18.8.noarch.rpm"
-RPM_HASH = "0c9c020a64cb354e2ed54b744447504d62afc5890998f570db540e382df8f01c316c8294ed52d527c915910b608ec2af2e77625ac4738fd86ef7b8c66b37c6ba"
+RPM_NAME = "seccheck-3.0-18.9.noarch.rpm"
+RPM_HASH = "84b23a4c93b88472a2c1e379a1275099ac330b2f5e93f13547493d64d00ee69c1fe0c75883ebb3baef0577cbb07308c9b6def5519b6c41094a98e310be47dbcd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-seccheck \

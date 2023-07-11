@@ -4,11 +4,10 @@ LICENSE = "Apache-2.0 & BSD-2-Clause & BSD-3-Clause & MIT"
 
 PV = "4.1.3"
 
-RPM_NAME = "python310-sunpy-4.1.3-2.2.aarch64.rpm"
-RPM_HASH = "65420d7bd1e664a3f1d0adb5c523d07f5a9dade40265a43fc6da78563060707648eb00f638bd21f3467a73868fcf3e19a5bcd47d946295345451d78e7db8bc59"
+RPM_NAME = "python310-sunpy-4.1.3-2.4.aarch64.rpm"
+RPM_HASH = "f9c9cd735f064619276f43aac1ebf29e05097956065e4b22d38eb39ebec7cb574598ef039c6bdca98a5061855a45b314c7d9260ee71ba772df4a1dcbe5c89183"
 
-RPROVIDES:${PN} += "python3-sunpy \
-python3.10dist-sunpy \
+RPROVIDES:${PN} += "python3.10dist-sunpy \
 python310-sunpy \
 python3dist-sunpy"
 

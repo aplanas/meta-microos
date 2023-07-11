@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xfce4-settings"
 DESCRIPTION = "Provides translations for the 'xfce4-settings' package."
 LICENSE = "GPL-2.0-only & GPL-2.0-or-later"
 
-PV = "4.18.2"
+PV = "4.18.3"
 
-RPM_NAME = "xfce4-settings-lang-4.18.2-1.3.noarch.rpm"
-RPM_HASH = "8c31399566cb4d57b15ee79e5b980f974bf70d438db390b179744920473413714aff49ed2ffd0508fcda1320a01a3c0f55e40df2a684b1fc8796516ce91cec62"
+RPM_NAME = "xfce4-settings-lang-4.18.3-1.1.noarch.rpm"
+RPM_HASH = "fa99948e859a8ea10155857f2487f61b641dcd939593b4df32dad3ae08cb0256367de8f4c513b5fcb0e7947f6dc72488693b591a78a1f7914f3e49c76734fb08"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-settings-ar \

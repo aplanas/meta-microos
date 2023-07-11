@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only-with-OCCT-exception-1.0"
 
 PV = "0.18.3"
 
-RPM_NAME = "oce-devel-0.18.3-3.3.aarch64.rpm"
-RPM_HASH = "02504277d288daab962b92854d74f4666c06ea274c6c45d4d841d7d840562dd8f3fff24113c1a5c2f64ed0c7e20d1f6fd45395dbf19588ac5f23a3baf1b43037"
+RPM_NAME = "oce-devel-0.18.3-3.4.aarch64.rpm"
+RPM_HASH = "918e01b5d7c315c26ed0f8dee845b266a0d04f2fe2ddfe99a4fd293c271551e968f7d1ff2f84e8e9b453b0938cdc5348d687bf6fd879f5bc78db0f93e3465c75"
 
 RPROVIDES:${PN} += "OCE-devel \
 OpenCASCADE-devel \

@@ -5,12 +5,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "7.3.1"
 
-RPM_NAME = "python310-qrcode-7.3.1-2.7.noarch.rpm"
-RPM_HASH = "0e3840ab4cefb7ec7c35c3f34f5eee8722e5b7ac0e65b86f08ee4eecf9b05b6d49b744b7f55c30e481d3c164ad05f472a8d903be029c034a5f754d79ca48f4a0"
+RPM_NAME = "python310-qrcode-7.3.1-2.9.noarch.rpm"
+RPM_HASH = "91bf2dc413dfd71149d86a635956a3153a7465d00dcf0b037565b7b694e754e4027099878708d2341fa59fe62a40479ea8aa4bc91f15bc563ce80d2cd3747e5e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-qrcode \
-python3.10dist-qrcode \
+RPROVIDES:${PN} += "python3.10dist-qrcode \
 python310-qrcode \
 python3dist-qrcode"
 

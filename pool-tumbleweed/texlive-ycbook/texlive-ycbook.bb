@@ -10,8 +10,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.svn46201"
 
-RPM_NAME = "texlive-ycbook-2023.201.svn46201-52.1.noarch.rpm"
-RPM_HASH = "72a8fb80dd8421acaff168f874f034e9b2fcf48acd7a7fd5ee8b0c870f67de8adb9fef04d1fb1bb9f63e8b8ba1e4ce70168ac08ddf0e53fc625a56cbfc5e38b3"
+RPM_NAME = "texlive-ycbook-2023.201.svn46201-52.2.noarch.rpm"
+RPM_HASH = "1a32602260c7014aeb0fb32754c33faf47eb6deb2604c2b500a1911228780a1ebff7c72d770b807b98a734ab7211cc6c06be63814eeda30af9afd270b0e1e49c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ycbook.cls \

@@ -7,12 +7,11 @@ LICENSE = "MIT"
 
 PV = "22.10.0"
 
-RPM_NAME = "python310-Twisted-tls-22.10.0-6.1.noarch.rpm"
-RPM_HASH = "90468f52a4466b9d007cecd957cbcc27e60546a2846adc40a40541db4b271f05325bbc77f37f5718c3f2ce3f2cf2ebb2ff4ac367be065142885b73d4160f1af4"
+RPM_NAME = "python310-Twisted-tls-22.10.0-7.1.noarch.rpm"
+RPM_HASH = "e331dcf1ea74332adff3a72aba25850adba70b4fcd779e8f04d266ada32a5c6cda721a5646562affcb41ad59d28b34d96123b6da222d69ec9a42b0e7e66e0cd9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-Twisted-tls \
-python310-Twisted-tls"
+RPROVIDES:${PN} += "python310-Twisted-tls"
 
 RDEPENDS:${PN} += "python310-Twisted \
 python310-idna \

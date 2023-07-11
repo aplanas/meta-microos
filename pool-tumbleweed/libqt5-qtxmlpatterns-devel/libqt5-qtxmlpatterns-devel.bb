@@ -2,10 +2,10 @@ SUMMARY = "Development files for the Qt5 XML Patterns library"
 DESCRIPTION = "You need this package if you want to compile programs with QtXmlPatterns."
 LICENSE = "(LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)) & GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libqt5-qtxmlpatterns-devel-5.15.9+kde0-1.1.aarch64.rpm"
-RPM_HASH = "55919bd931e1b6d57915c2f82f73d93e44f05ffdf5cb06034229028b315095b911eb7dc0d09aa6fb09b874c04eb884538a73cc710ac3cb9628d9e94dacc80ebb"
+RPM_NAME = "libqt5-qtxmlpatterns-devel-5.15.10+kde0-1.1.aarch64.rpm"
+RPM_HASH = "49a4c6e2225d948af583016a951ec65bb28570a1762ec8558ea3281b45dadb5bc2f7bdb66114d7a395fabb7bf6431dc5a45c1ff4e529c0ae579e2e31757221c2"
 
 RPROVIDES:${PN} += "cmake-Qt5XmlPatterns \
 libQt5XmlPatterns-devel \

@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.14"
 
-RPM_NAME = "python39-python-lzo-1.14-1.8.aarch64.rpm"
-RPM_HASH = "f0f30af36eb4ea0c214aebf3b92e9f24ebd580d2b254416ce2a7284c976a819c9bcc1f5044698e07a522c4411c5e15fa035ceb87a3ead8b4d1038e2d7387a6bc"
+RPM_NAME = "python39-python-lzo-1.14-1.10.aarch64.rpm"
+RPM_HASH = "cfd2f6347ca3b4f5957e23ca0af50ad71111aa4fc78daf905752a02df12cb28a0e3aebc841bee45efef8de513a45e7736e51dd89041d6735e80449292345b168"
 
 RPROVIDES:${PN} += "python3.9dist-python-lzo \
 python39-python-lzo \

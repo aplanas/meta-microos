@@ -19,8 +19,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "4.0.3"
 
-RPM_NAME = "procps4-4.0.3-1.3.aarch64.rpm"
-RPM_HASH = "106fecee2f0e4523f55953ccb526f9f871c0c7204ffe3888cc5b955a102de96d508d4c84c482abf1450d9f9fb8754937f8f79ea1efdab1a740b62113bb136dd4"
+RPM_NAME = "procps4-4.0.3-1.4.aarch64.rpm"
+RPM_HASH = "fd3da9c8c3125f16ff78e0f3c2d5f8c1a0beb976eeb0574f6388504093ba47d0621a7e9ee1c6c7f385905555fc8566e2ad62d6ae50faba6c0e08651a42b35170"
 
 RPROVIDES:${PN} += "/usr/bin/ps \
 procps \

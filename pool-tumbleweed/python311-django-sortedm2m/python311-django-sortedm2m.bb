@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.1.1"
 
-RPM_NAME = "python311-django-sortedm2m-3.1.1-1.7.noarch.rpm"
-RPM_HASH = "35ecff55cb77f03c95757a8069a14e86a52d269174a51d670d74b0e7f818d0f8e1a128923a5ae0e4b1a0a40fce95da6168352f4b6f23d83bb6b4e8f0b511aedd"
+RPM_NAME = "python311-django-sortedm2m-3.1.1-1.9.noarch.rpm"
+RPM_HASH = "ccc885b565a105b3a54350e3a15b35541f6b283f6d290bb5a8e23a407331d055c8674ebb7f924641f696cc145dd74c213dc4eb2c63df793b27dff672720f6d61"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-django-sortedm2m \
+RPROVIDES:${PN} += "python3-django-sortedm2m \
+python3.11dist-django-sortedm2m \
 python311-django-sortedm2m \
 python3dist-django-sortedm2m"
 

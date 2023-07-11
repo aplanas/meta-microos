@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.21.1+git20230120.a99e435c"
 
-RPM_NAME = "ipxe-bootimgs-1.21.1+git20230120.a99e435c-2.3.aarch64.rpm"
-RPM_HASH = "cffabc22a9a305f48b17d48dc442e92ef64c4a09f5607651eeb596d4b972eace0c6afa69d91c2a55906cadd65a8e0f4cd7f7b43a8a877a3bbf90b77cbb331d4a"
+RPM_NAME = "ipxe-bootimgs-1.21.1+git20230120.a99e435c-2.4.aarch64.rpm"
+RPM_HASH = "989c393fc7b7b1a2797ae1ee574499a185ea05d768a5612a0658a2400debe1c6f57330775fbb0fcf59b88e7b4685dfbc2f6a3ab4735da33af52715e2d0c7b052"
 
 RPROVIDES:${PN} += "ipxe-bootimgs"
 

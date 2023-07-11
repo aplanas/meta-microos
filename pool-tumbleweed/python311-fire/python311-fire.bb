@@ -5,11 +5,12 @@ LICENSE = "Apache-2.0"
 
 PV = "0.5.0"
 
-RPM_NAME = "python311-fire-0.5.0-1.3.noarch.rpm"
-RPM_HASH = "954b52c81342fb197df3140eb430f055248131c9802b3eb1f939610688c1530980e4e67c138307b4ebb8a10b3593bd19bddc23b9f9bf617818c40b6ac6a13a7b"
+RPM_NAME = "python311-fire-0.5.0-1.5.noarch.rpm"
+RPM_HASH = "860264a03f2f6fd974337a103d0c40d1fe33a7775ec7d9f93948ce937d5011cc26b0e42a19718b20a7c55ae01e9807f4668c67db11d4552a0e1963e5f081cad2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-fire \
+RPROVIDES:${PN} += "python3-fire \
+python3.11dist-fire \
 python311-fire \
 python3dist-fire"
 

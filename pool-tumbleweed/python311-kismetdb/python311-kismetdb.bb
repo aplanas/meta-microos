@@ -4,11 +4,12 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2019.05.05"
 
-RPM_NAME = "python311-kismetdb-2019.05.05-2.13.noarch.rpm"
-RPM_HASH = "f1fb3a208d193d8ac7fd9a6a47a35401a39e0f0995ac17b195d9ceaeee2cd6aed8870cdab4845fe49717897f26ebaae9c1710309b18ecb6b81aca4d69f1beec8"
+RPM_NAME = "python311-kismetdb-2019.05.05-2.14.noarch.rpm"
+RPM_HASH = "16d3edc9a756bf91da9746a151e01c7aee9ca628527e9096f7a8b67c2c011ecb377100e25f4b3381193595e4d91aee1e845beeea8e0a15472ed9bab066165cf9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-kismetdb \
+RPROVIDES:${PN} += "python3-kismetdb \
+python3.11dist-kismetdb \
 python311-kismetdb \
 python3dist-kismetdb"
 

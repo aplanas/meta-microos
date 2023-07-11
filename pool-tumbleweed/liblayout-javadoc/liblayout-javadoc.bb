@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later & Unicode"
 
 PV = "0.2.10"
 
-RPM_NAME = "liblayout-javadoc-0.2.10-6.6.noarch.rpm"
-RPM_HASH = "6e1e2024820a4bcd4db1b550ab5500e61bcb9768b6eb60a2ef6d05bb863e30b62150e69e2e0a0b70d375320173c8a961557db1e6d4119eb6c053f6b4290a4814"
+RPM_NAME = "liblayout-javadoc-0.2.10-6.7.noarch.rpm"
+RPM_HASH = "117bc9632a1764bae71056c4920e1bdf5794ee43b0ed909777b42a1ffbaa249fe2f3b88a0c0c608cf0d228ade17890ae5760458828cc57ec76c1a2add75cc04d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "liblayout-javadoc"

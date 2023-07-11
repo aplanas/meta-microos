@@ -11,8 +11,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.1.0~rc3"
 
-RPM_NAME = "voms-clients-2.1.0~rc3-1.3.aarch64.rpm"
-RPM_HASH = "3b8a3cc052af48c5654d3e3dbf98f477015d0c5beb9dfcc8421b7e4c8b9a61dced1e9cf643f8a5b05f2ce0016fccfbb6df36d33cc40b586e03cc7b2a4b48a3d6"
+RPM_NAME = "voms-clients-2.1.0~rc3-1.4.aarch64.rpm"
+RPM_HASH = "01730f18e88cacd9dcdea99c475f0789540f205f037e3932368fed7415907a90420d83a25b0bf3e866fa87290203aba26bc5a34cd972b8a7c61b8276a81e631e"
 
 RPROVIDES:${PN} += "voms-clients"
 

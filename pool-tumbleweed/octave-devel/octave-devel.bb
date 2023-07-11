@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "8.2.0"
 
-RPM_NAME = "octave-devel-8.2.0-1.1.aarch64.rpm"
-RPM_HASH = "925ec710385c3be35e5e31e49359b56d8e680b16e55d595de51a2d4c3a79b8e44de16454beaeda48c452eff419fbde783f4ec719260f06c5920c2209360adaf3"
+RPM_NAME = "octave-devel-8.2.0-1.2.aarch64.rpm"
+RPM_HASH = "fca454a6f6c74d262b11f59651c32061ffff3fe07830f53141eaebf1f1a222e295aae21d1111df22a55b1bb44389a7e368914d15a1976c3e4cad66c7465b2cc6"
 
 RPROVIDES:${PN} += "octave-devel \
 pkgconfig-octave \

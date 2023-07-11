@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "crazydiskinfo-1.1.0-1.13.aarch64.rpm"
-RPM_HASH = "08740b6c5d38960f7450246ef40273a7288822713244a30e2a048fe922cdb9b35d925ea50ede3331dc441fb1dcd89a08c7f48e7ea5b505b63c97d1e80c9da896"
+RPM_NAME = "crazydiskinfo-1.1.0-1.14.aarch64.rpm"
+RPM_HASH = "6364b924edfb4fe1fb2b4ccb221285dfb348bcde01885ecfa82a2fd7b9ffe74260c936ec7d6cf8dcb4fa75a4a616fd7fdfc4678a178215b20037ed0634dd86ee"
 
 RPROVIDES:${PN} += "crazydiskinfo"
 

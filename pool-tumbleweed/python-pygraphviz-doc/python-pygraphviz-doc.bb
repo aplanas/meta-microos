@@ -2,10 +2,10 @@ SUMMARY = "Documentation for python-pygraphviz"
 DESCRIPTION = "This package provides documentation and help files for python-pygraphviz"
 LICENSE = "BSD-3-Clause"
 
-PV = "1.10"
+PV = "1.11"
 
-RPM_NAME = "python-pygraphviz-doc-1.10-1.3.aarch64.rpm"
-RPM_HASH = "a47c96fb74a6b5a00174ffd5643505cb5dd8c259e77edfd1fa264dfc7e019039ef2282f6b0f571d959a3324d4df7f6ce782c58983d5c49644a7032dfc0071db6"
+RPM_NAME = "python-pygraphviz-doc-1.11-1.1.aarch64.rpm"
+RPM_HASH = "b2286749cdf34dd51ae2c802a305f0573d779e499faa01319c5331968fe5a0f1154f77ffd7156995e0a11a79ccd9a21f8c2e997b8e3efbe8ff208a8b535fe274"
 
 RPROVIDES:${PN} += "python-pygraphviz-doc \
 python310-pygraphviz-doc \

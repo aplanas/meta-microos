@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.8"
 
-RPM_NAME = "libavahi-libevent1-0.8-23.1.aarch64.rpm"
-RPM_HASH = "144bb55a4db4f0c706540ba7c18ee97e801b196a0f85b6c6e8bd56b348359da63f4f8d7fbd99344c1f5dfc04062fdcfcfee01c3f6268875c02c85d439a84c7d8"
+RPM_NAME = "libavahi-libevent1-0.8-23.3.aarch64.rpm"
+RPM_HASH = "5db093f2c61cca4ca92d087ef285cd08976191907d81c135e2a7d2023a195cc8b1009cbfafd50e67463bb471da1f1279bbfa4950d04e7f8f951ae6892d130000"
 
 RPROVIDES:${PN} += "libavahi-libevent.so.1 \
 libavahi-libevent1"

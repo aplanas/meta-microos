@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "2.0.0"
 
-RPM_NAME = "python39-azure-mgmt-labservices-2.0.0-1.3.noarch.rpm"
-RPM_HASH = "5904092a14653763baf9267c3b2267572017be828f2aae0e91f5e12755fc47c2b8f642b2c7b0a20370660576154e779539a2480e057ea2f3e3ffe493afdec90d"
+RPM_NAME = "python39-azure-mgmt-labservices-2.0.0-1.4.noarch.rpm"
+RPM_HASH = "48187ead596146c12d549bf5cab043af668ac01aeca54cd5712007509c398180511ba9c4a06b9c3785539ec9939274bf6795abb50a255de5eaa4eae1ab278a09"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-labservices \

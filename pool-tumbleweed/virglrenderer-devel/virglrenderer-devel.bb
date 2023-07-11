@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "0.9.1"
 
-RPM_NAME = "virglrenderer-devel-0.9.1-3.7.aarch64.rpm"
-RPM_HASH = "a140b3731f08c4196356999d6404ffd626cacd5f9d364686b9f34bfd3639c5ec3d1ca9b97be82c5ae2a215673e2d6e9224135688af28d4b555c35efcfc903d99"
+RPM_NAME = "virglrenderer-devel-0.9.1-3.8.aarch64.rpm"
+RPM_HASH = "df8c3418f4088435e38b02916cb8d10c0f821e1ac09fb4002d403b09d63bacf450a9b8b36baf9c2f132cef4d5f659dd6592dc12e47b3c4e3a66a524981156229"
 
 RPROVIDES:${PN} += "pkgconfig-virglrenderer \
 virglrenderer-devel"

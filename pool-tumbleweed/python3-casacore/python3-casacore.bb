@@ -4,11 +4,11 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "3.5.2"
 
-RPM_NAME = "python3-casacore-3.5.2-1.5.aarch64.rpm"
-RPM_HASH = "07f9a944af435ee24e12ac15a5a3dcf61237efd9fa1644273b94d0b9ac801cb7741d57a8d3d4eea198ef8b1db3e1402dd73dda891074c665e58151aa6ca77c83"
+RPM_NAME = "python3-casacore-3.5.2-1.6.aarch64.rpm"
+RPM_HASH = "f78cd48fdcf3b39adff25bd24091ef108a8c1ee8fa614a9deebf5dd0ef77857c9293d467ac4b4dc2b532d114a609785257047386a67fe86609eff93b43026973"
 
 RPROVIDES:${PN} += "python3-casacore \
-python3.10dist-python-casacore \
+python3.11dist-python-casacore \
 python3dist-python-casacore"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \

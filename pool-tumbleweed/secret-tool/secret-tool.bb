@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.20.5"
 
-RPM_NAME = "secret-tool-0.20.5-1.7.aarch64.rpm"
-RPM_HASH = "808863922ecb88ce345845e4aec4ffc52b543f8294ba52610366b99016e61d753a6b06c5fca355c5c5208ad8d80f10b31f91be855fac36ad8e4003945965685b"
+RPM_NAME = "secret-tool-0.20.5-1.8.aarch64.rpm"
+RPM_HASH = "85be7af09311782add51bbf8a26c4cb27ba2df4211e73fd0ec6f4b6d95ecc26e50ca4e8ef726a9411a78a9f5f322f46cb9b144227615996218843f78e084fb15"
 
 RPROVIDES:${PN} += "libsecret-tools \
 secret-tool"

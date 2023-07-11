@@ -10,8 +10,8 @@ LICENSE = "Apache-2.0"
 
 PV = "5.1.0"
 
-RPM_NAME = "google-guice-5.1.0-1.1.noarch.rpm"
-RPM_HASH = "d506f07b508dd4ffdaa6e58010b3cec88269a2c3791aa0b86f260b0a364ed9d2a95b18c6bc3044fd1f47f7be2db7bb15cecc1c231e2dd4c96a7c795181f8bf04"
+RPM_NAME = "google-guice-5.1.0-1.2.noarch.rpm"
+RPM_HASH = "c812228e9fab1fa884ae12071fd859299a9a6399c671b95308719decce11602dad4bc1549eedd4560211528e611a4ceda457186f1ceadb6c50bd98276217ac3c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-guice \

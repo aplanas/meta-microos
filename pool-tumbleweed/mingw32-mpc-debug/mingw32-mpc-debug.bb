@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.0.2"
 
-RPM_NAME = "mingw32-mpc-debug-1.0.2-3.1.noarch.rpm"
-RPM_HASH = "09adf6a67eb2b859bc9529d7fc462fc260a637f0efd9f77872bea5f25643aefb906e7ab96ac0ad7879745b82ad9661416bc43674dfc017bc245a960097032861"
+RPM_NAME = "mingw32-mpc-debug-1.0.2-3.3.noarch.rpm"
+RPM_HASH = "41890cf5e92bac9d96bed4b772741da4b39e04bb60838e91cf6f4eee56c8108011dbcc4f2a9c1e0355c588fcb42b573b8f64d3d72525e80bdfe72be0b4b36d74"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw32-mpc-debug"

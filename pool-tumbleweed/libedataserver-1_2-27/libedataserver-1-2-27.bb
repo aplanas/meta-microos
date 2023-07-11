@@ -5,10 +5,10 @@ and calendar in the GNOME Desktop. \
 This package contains a shared system library."
 LICENSE = "LGPL-2.0-only"
 
-PV = "3.48.2"
+PV = "3.48.4"
 
-RPM_NAME = "libedataserver-1_2-27-3.48.2-1.1.aarch64.rpm"
-RPM_HASH = "39fd6ec02e517ca9dff32680fc450a434af81ea3229f7cf181065f66f4083751e6021c948d210af063c86a575ba09ccdd8b746a82d9c4a935e817f508379ba05"
+RPM_NAME = "libedataserver-1_2-27-3.48.4-1.1.aarch64.rpm"
+RPM_HASH = "ae411e32ad6209277a60e38298795f7b4416341745c83da2e07ddbb0e32cfb2c58f4d9b0dedc4276fd25f6beed4c89c92f7e4d196124d3270592ac7db5f55188"
 
 RPROVIDES:${PN} += "libedataserver-1-2-27 \
 libedataserver-1.2.so.27"

@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "2.1.22"
 
-RPM_NAME = "xf86-video-nv-2.1.22-1.4.aarch64.rpm"
-RPM_HASH = "dfbf56144be857e0d1b92df339b9b3eb2955150b80859624032e5494ede2b1d6d451627c0d667cb26e068207acf49dec1a8d470d2d086ed133324521adbdc8dd"
+RPM_NAME = "xf86-video-nv-2.1.22-1.5.aarch64.rpm"
+RPM_HASH = "3b99e6edae0f4382e34d6dea01c41ed080513614d93bf2ea0ed9d568847f1accfbc227b8c460de371f04a7cd83711b55212611df0b7ba8c65a417ded50e8bac9"
 
 RPROVIDES:${PN} += "xf86-video-nv \
 xorg-x11-driver-video-nvidia"

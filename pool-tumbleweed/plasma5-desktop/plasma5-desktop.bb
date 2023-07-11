@@ -2,10 +2,10 @@ SUMMARY = "The KDE Plasma Workspace Components"
 DESCRIPTION = "This package contains the basic packages for a Plasma workspace."
 LICENSE = "GPL-2.0-only"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "plasma5-desktop-5.27.5-1.2.aarch64.rpm"
-RPM_HASH = "0f7c50604bdaa5cdea3490bfc33ff680c595b24645af5aca49b15cdfc4d2458d05c50e31224da764cc7e0c7f9f3a23fd4aa50d7714ef0ad915743ba4233e9102"
+RPM_NAME = "plasma5-desktop-5.27.6-1.1.aarch64.rpm"
+RPM_HASH = "4940f558182f8c2879147c81649b7a75bf42d1349a3592ba5b9908b0a7209bf3fad1dec8e4dd1e6ff00c969147916ab941cee592ea68ce92f1e898d74933d9b2"
 
 RPROVIDES:${PN} += "kcm-touchpad \
 kcm-touchpad5 \

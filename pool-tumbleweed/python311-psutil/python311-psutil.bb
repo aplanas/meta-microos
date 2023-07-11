@@ -4,10 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.9.5"
 
-RPM_NAME = "python311-psutil-5.9.5-1.1.aarch64.rpm"
-RPM_HASH = "0816e2e370cb3ae5e77ceb0f707f58e786b74c7e1eba4b4d2b08127ef0406a7f3f3f30b7ba7b3ba3f707884da6afa35dad8382f971942c5434bdb0d610bc154b"
+RPM_NAME = "python311-psutil-5.9.5-1.3.aarch64.rpm"
+RPM_HASH = "b27d2262656c80d0ed9738b8773ced31d6968379e4e541c1cfbb52e51227ac5d81496404f8766b49718bb08e2cb8e53379c9a5e55d910400b614a27d9c0bc3c8"
 
-RPROVIDES:${PN} += "python3.11dist-psutil \
+RPROVIDES:${PN} += "python3-psutil \
+python3.11dist-psutil \
 python311-psutil \
 python3dist-psutil"
 

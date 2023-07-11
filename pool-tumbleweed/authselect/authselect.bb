@@ -10,8 +10,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.4.0+git.0.2c30265"
 
-RPM_NAME = "authselect-1.4.0+git.0.2c30265-3.2.aarch64.rpm"
-RPM_HASH = "1c51ffd7ac8183f1407ffa34347395442c31b453f24fa6929d70705986464f7a76d1f9785bed34eedd59fda30f44889ea4d0d5d23daadc5c62efe1c09c3168f2"
+RPM_NAME = "authselect-1.4.0+git.0.2c30265-3.3.aarch64.rpm"
+RPM_HASH = "91f7960d01ba1a5dfe8a8d4e6711c12f5385d1f8f68497dcdf1621fac4706a3a1709e5274a91de3cb95eada641b5b04ff738e49271597450c719da34a3383b0e"
 
 RPROVIDES:${PN} += "authselect"
 

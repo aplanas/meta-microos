@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.3.0"
 
-RPM_NAME = "ghc-hslua-packaging-prof-2.3.0-1.3.aarch64.rpm"
-RPM_HASH = "35fd28c591979b8a31dafad790d01674ef6edd766172d1081f4b77b28453f7433689354d4bcf6db2950b8ae31db9696b7c18005b2855d91bd42cfaf16b914d6f"
+RPM_NAME = "ghc-hslua-packaging-prof-2.3.0-1.6.aarch64.rpm"
+RPM_HASH = "2c8bd56d4190976334b2a3dc98b093ae48ffad52f7bad2a486cd1f133ea884420167752af6dc84fa546361dbf1664e54b4ab5c75770d3342ec24fa1fece286ed"
 
 RPROVIDES:${PN} += "ghc-hslua-packaging-prof \
 ghc-prof-hslua-packaging-2.3.0-G1L5YnYzXF0JtyxtKuFgZ4"

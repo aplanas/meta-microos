@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "7.5.0+r278197"
 
-RPM_NAME = "libtsan0-7.5.0+r278197-14.3.aarch64.rpm"
-RPM_HASH = "eaa86176832a24f3c21859fe08c095f22e7449ab8df65de40a5cca4e6a7482eaad3d74c3952fd3f428d2b0a4c2ac345a7a9541c3fcaecc3903561cd3a3c46c2e"
+RPM_NAME = "libtsan0-7.5.0+r278197-14.6.aarch64.rpm"
+RPM_HASH = "72b78660bf2f963b1973ac77ac99e01ef0d3a9e52313badf9d2e11e17a364cbd1263e6b0958b465131c7c6e5147b137abaefe05a8a5d4a69ab4aac41536d3c21"
 
 RPROVIDES:${PN} += "libtsan.so.0 \
 libtsan0"

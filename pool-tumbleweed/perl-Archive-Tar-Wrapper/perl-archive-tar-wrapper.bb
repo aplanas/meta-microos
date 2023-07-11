@@ -16,14 +16,14 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.38"
 
-RPM_NAME = "perl-Archive-Tar-Wrapper-0.38-1.12.noarch.rpm"
-RPM_HASH = "4134bbf5bf29c982ee08599813be91cc17b50aec453e49c5785fa3316005a1665bca278d5c621346527525eee626ecb904cb64a7832ab3fcb869323bb6de046a"
+RPM_NAME = "perl-Archive-Tar-Wrapper-0.38-1.13.noarch.rpm"
+RPM_HASH = "c90e1d5572b5d49af5ce21307da637910604949bb8846c3b0c0585fd12eeb58569726a22068b62bef9f22fe5075241298f4fb435dc535056f1bc01bc73002c36"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Archive--Tar--Wrapper \
 perl-Archive-Tar-Wrapper"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-CPAN--Meta \
 perl-File--Which \
 perl-IPC--Run \

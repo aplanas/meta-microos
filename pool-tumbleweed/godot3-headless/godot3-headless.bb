@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "3.5.2"
 
-RPM_NAME = "godot3-headless-3.5.2-2.1.aarch64.rpm"
-RPM_HASH = "9df844b74a38f03cce6b1e9ac60c88203bdd1e5ab20f6570e99bc3c23eb249413de574e618a808897a832c1c0872556c7a5dafa4a2fb8e8ef14f0b8fcf56278b"
+RPM_NAME = "godot3-headless-3.5.2-2.2.aarch64.rpm"
+RPM_HASH = "d0e2cb1d37808f6720792e067ab30c2017a75e01a15157be81d2c89de0bf77e72a324c20c6b6ce94ae92d74b179c44fcd0f8db9b6403a5cd668396b1c3ca7627"
 
 RPROVIDES:${PN} += "godot3-headless"
 

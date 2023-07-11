@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.3.7"
 
-RPM_NAME = "mvapich2-gnu-hpc-macros-devel-2.3.7-4.3.noarch.rpm"
-RPM_HASH = "3941a68c975afbe8ab2e85f8ce5d525c17c14769f5723ea97d44938c2707715c860f70861049a864ee1c86cf948045ef2d287d7b7f10d56acb21141cc191fd4c"
+RPM_NAME = "mvapich2-gnu-hpc-macros-devel-2.3.7-4.4.noarch.rpm"
+RPM_HASH = "6aa189a5b6dff78e75a8d3422801ef08024e29846b0e614baa923f9dcaef1f7097c12d1878c22cfbc5962e38272a7d65b9327ddc2f05d7594f1950df34442bb5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvapich2-gnu-hpc-macros-devel"

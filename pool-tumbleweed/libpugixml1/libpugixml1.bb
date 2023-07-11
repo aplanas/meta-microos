@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "1.13"
 
-RPM_NAME = "libpugixml1-1.13-1.3.aarch64.rpm"
-RPM_HASH = "1b25f130811b7e1ae9fc2b472ad35f9a8aede252e93bcbd7f8516990ec4e755100e36455de35a871e3a572e4fa4788e14c180da58ed84fde249810e5140c89af"
+RPM_NAME = "libpugixml1-1.13-1.4.aarch64.rpm"
+RPM_HASH = "3586a0a88834ce840a72159a59cd63de7f15af87bab442833ab8989a7d3e0beafea59a073c3aee6d82900a2bd91671e258ae2a030db2e40eeae958935c827de3"
 
 RPROVIDES:${PN} += "libpugixml.so.1 \
 libpugixml1"

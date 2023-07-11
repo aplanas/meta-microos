@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "3.0.1"
 
-RPM_NAME = "cutmp3-3.0.1-2.22.aarch64.rpm"
-RPM_HASH = "434669d64abf8a2653e345209f5b8dfebc9fe51b3ad71cb483308ed9ce4130d0abda1a65de4b4eaac5731f69b47de00448f868164228e50d74c09db6f32cbad6"
+RPM_NAME = "cutmp3-3.0.1-2.23.aarch64.rpm"
+RPM_HASH = "04f3a389c5e6c53e4adf9ff884da6b1bc30249fae3873f1209bb6d988b397ae277a9ca03b6c324c53d532af06a74ebad7078069d39b0d7eaabc20f3df2c9eaa7"
 
 RPROVIDES:${PN} += "cutmp3"
 

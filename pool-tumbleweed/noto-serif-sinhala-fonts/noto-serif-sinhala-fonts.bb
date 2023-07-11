@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-serif-sinhala-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "488fbc045599c5ae88dfc066e64f9360736c41a3cd15d1913cb892ab624ec3547abd8347ea439e66d7675df3dda6e04b5416028aab897ca02a646ba92c460ce9"
+RPM_NAME = "noto-serif-sinhala-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "0f4626e589792419ac83eae29d29e3d824498c0441040b81552c41e440b7a91824e60317f04703a6a5c047ad499800013657e23b08ff5de659ac4516a5e1f74e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-serif-sinhala \

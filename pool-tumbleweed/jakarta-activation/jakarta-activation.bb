@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.1.0"
 
-RPM_NAME = "jakarta-activation-2.1.0-2.6.noarch.rpm"
-RPM_HASH = "b535dbd7515a9dfd49d6893c2c6e3bf2c06528dc9a77050e240850ed47ff4742e4e54308c335d2d8664f94d36b777d8d1c8e15a9ae1f9d45c0afc111bb8106b4"
+RPM_NAME = "jakarta-activation-2.1.0-2.7.noarch.rpm"
+RPM_HASH = "253c60e132a554e0ee0ab422fa4d67e45a7d78c44e339a79492069b6bc8b65c4e3bcf5ec3fcc192f9f4ae15b6dbacdf6f59f6072e2372cca7124d9a97fc0aca0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jakarta-activation \

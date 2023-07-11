@@ -9,11 +9,10 @@ LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.20.0"
 
-RPM_NAME = "python310-gpg-1.20.0-1.1.aarch64.rpm"
-RPM_HASH = "ebb8252ced1bdf38dd33f6903d4853c413d048af10ba983d26981b1564b746ab4931b41e0738041b53dc1c1ad59c47f97c515b258a31a5dbe01620521ef7c46d"
+RPM_NAME = "python310-gpg-1.20.0-1.3.aarch64.rpm"
+RPM_HASH = "2342f0c3595c994c4f93d26507c1248285c15faadd9ad40e74a6ac5e4c10752ec5f008685f7e1e3ba1ab5e93110841377d163d88bbf1359d48918a02c72a8309"
 
-RPROVIDES:${PN} += "python3-gpg \
-python3.10dist-gpg \
+RPROVIDES:${PN} += "python3.10dist-gpg \
 python310-gpg \
 python3dist-gpg"
 

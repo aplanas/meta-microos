@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.1.2"
 
-RPM_NAME = "cinema-lang-1.1.2-1.24.noarch.rpm"
-RPM_HASH = "3cc26b0fc8300306fe9170945b74d421446474d1ec00ac210fd7251eb09faa6feda8b63f9d875637bbe8a2c403e7c86525939c0f50db2a9aee9b5c7a1c0ce46f"
+RPM_NAME = "cinema-lang-1.1.2-1.25.noarch.rpm"
+RPM_HASH = "25f314dc58cb83d58dfa54e085cab6e8eeb0eb2882e35a3d2ce8efa5cf2c7944ee6f6b0e14f8615e2e6bb898f2bb5e659da7f880de61badbc7ac3091b2c0face"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cinema-lang \

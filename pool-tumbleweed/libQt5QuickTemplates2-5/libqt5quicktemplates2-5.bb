@@ -2,10 +2,10 @@ SUMMARY = "Qt5 QuickTemplates2 Library"
 DESCRIPTION = "You need this package if you want to compile programs with qtquickcontrols2."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.9+kde5"
+PV = "5.15.10+kde6"
 
-RPM_NAME = "libQt5QuickTemplates2-5-5.15.9+kde5-1.1.aarch64.rpm"
-RPM_HASH = "9f87af6140c23a83285bce1f3597d41b684d8f9b714ed4a50f0b73a0e632f07fdd5d5910667a1bf27da3d5352ad1115a2c87ac6938c8cea94cb8b70a2abfa7a8"
+RPM_NAME = "libQt5QuickTemplates2-5-5.15.10+kde6-1.1.aarch64.rpm"
+RPM_HASH = "9cd839692d1a04ef4176fc3efb9502ceefbe6ea8c725baebf74d245cfdd65560840fc49068160083e652c9788a54f3cf8cc3c46bfe8b83496d47d69596749de0"
 
 RPROVIDES:${PN} += "libQt5QuickTemplates2-5 \
 libQt5QuickTemplates2.so.5"

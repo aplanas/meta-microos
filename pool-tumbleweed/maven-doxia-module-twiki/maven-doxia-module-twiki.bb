@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.9.1"
 
-RPM_NAME = "maven-doxia-module-twiki-1.9.1-6.7.noarch.rpm"
-RPM_HASH = "dfcc0b4bb02c5f8c21311b86316836bac0d8530472c2fb4d5b6fe37197d102f5a52930869417a0381fc7bc68fb5145a75ae56b06c0d6e6a9dc6a0061bc696fe4"
+RPM_NAME = "maven-doxia-module-twiki-1.9.1-6.8.noarch.rpm"
+RPM_HASH = "7f4f3f307bc01590133f67f56f3b1db1d10dfe43f1f4fbc8e9d2ac48687d9d079e189d4451cee9a3891c567b213a5d66ce8a7988b1b932f68dc342afa48a5d3e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-doxia-module-twiki \

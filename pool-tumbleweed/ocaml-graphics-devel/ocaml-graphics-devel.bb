@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only-with-OCaml-LGPL-linking-exception"
 
 PV = "5.1.2"
 
-RPM_NAME = "ocaml-graphics-devel-5.1.2-2.8.aarch64.rpm"
-RPM_HASH = "a8975a4a246b2815b97eea06c040bc61fa8de42f1867735d54cdf48e0cc3a734fdb36c86906c1d802c755464fe1f354cd9703f616bf0b250544b4df29d6e3429"
+RPM_NAME = "ocaml-graphics-devel-5.1.2-2.9.aarch64.rpm"
+RPM_HASH = "6c515a2b418540b23e6a487368c4404620f7b2e54e9c9a7ab7254ebbb3e15c16d1c738537dc02a1ebbb5b76572b7f3e8b92de0a0badc173d5d832a7418cfa96e"
 
 RPROVIDES:${PN} += "ocaml-Graphics \
 ocaml-GraphicsX11 \

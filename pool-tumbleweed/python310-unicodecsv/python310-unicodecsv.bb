@@ -9,12 +9,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.14.1"
 
-RPM_NAME = "python310-unicodecsv-0.14.1-2.19.noarch.rpm"
-RPM_HASH = "f0b068116e6fe624431f7a68dcddd55e8afa80728a185d0d68ccc897b972e731b26dc0aa43a15f0229e652d6143ed9a87aacf355632d4dcce22d29cf563555e2"
+RPM_NAME = "python310-unicodecsv-0.14.1-2.21.noarch.rpm"
+RPM_HASH = "2f4b7774a9faaf1a91aa574770c9711fa6936144a7d8274513f25418681e3d299ce27ec0beef608ec11bfed0633042235d7168d1350b2a239bf5d5dba4fa1a9a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-unicodecsv \
-python3.10dist-unicodecsv \
+RPROVIDES:${PN} += "python3.10dist-unicodecsv \
 python310-unicodecsv \
 python3dist-unicodecsv"
 

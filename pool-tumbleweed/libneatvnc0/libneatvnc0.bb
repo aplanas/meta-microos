@@ -4,8 +4,8 @@ LICENSE = "ISC"
 
 PV = "0.6.0"
 
-RPM_NAME = "libneatvnc0-0.6.0-1.4.aarch64.rpm"
-RPM_HASH = "0f39a62c11e7ffbe70d19d044d06a5f9c480ad51f3693e5c292f7c707b07e6e3f326b43da841180c46d9d0d0fc6a064432fbd026ffd056d6f85e7d4759502226"
+RPM_NAME = "libneatvnc0-0.6.0-1.5.aarch64.rpm"
+RPM_HASH = "945556b983143ed8308b027df53526f11570ac35a2cef31f2a2336cd2589f07050b35f58b7bda08f97a954d9c34e459ee406cf2ffefec9dada0c956b77cbd3c3"
 
 RPROVIDES:${PN} += "libneatvnc.so.0 \
 libneatvnc0"

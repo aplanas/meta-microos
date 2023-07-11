@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-grpc-examples-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "9fd7054ea81605dbde5a173d4b1bd4589fb337bf85f0b02dbb318c7eb7f05d094f2d7685dcdc515262ed357df19ffe9d95b911342e251bda0c1fd8c61bc28fed"
+RPM_NAME = "qt6-grpc-examples-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "43f651b8e8f31c5f930f5c853d0d685fbb33331142c7f60d726dc556143f91c76245d43b5691273e47d6d8369656702ee1f17219e89968a02a32010de1483dab"
 
 RPROVIDES:${PN} += "libprotobuf-sensors.so \
 qt6-grpc-examples"
@@ -20,10 +20,6 @@ libQt6Qml.so.6 \
 libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
-libgpr.so.31 \
-libgrpc++.so.1.54 \
-libgrpc.so.31 \
-libprotobuf-3.21.12.so \
 libstdc++.so.6"
 
 inherit rpm

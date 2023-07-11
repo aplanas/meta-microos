@@ -2,10 +2,10 @@ SUMMARY = "VFS functionality for GLib -- Samba Support"
 DESCRIPTION = "This package provides a gvfs backend that supports Samba."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "1.50.4"
+PV = "1.50.5"
 
-RPM_NAME = "gvfs-backend-samba-1.50.4-2.1.aarch64.rpm"
-RPM_HASH = "9f6ab3e9dfcea64692f142829f29ff97cd5e65f6902a3adcb40911136a54a2f5a44f6213c0a5e77be288e79968094e8b4732c44f4c1b81d42641a1ccf3b773f2"
+RPM_NAME = "gvfs-backend-samba-1.50.5-1.1.aarch64.rpm"
+RPM_HASH = "7fffa3fc3e9fa4750a724393f7512cfc46c05d414a8ba80a9558cd6b7ba3d01dc2597ae9371850d4839a4f341000f41044aad4c0d0d3e52979ed1b76f75930a0"
 
 RPROVIDES:${PN} += "gvfs-backend-samba"
 

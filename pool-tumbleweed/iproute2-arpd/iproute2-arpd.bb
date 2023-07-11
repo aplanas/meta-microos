@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "6.3"
 
-RPM_NAME = "iproute2-arpd-6.3-1.1.aarch64.rpm"
-RPM_HASH = "69acebe1f4cbb0e08c6526635a837e416cb70dc86e3674e199c977d1a2067418565c6b8283aa806ad12a68f763f27806925fd37fbfce10049748af7c978e93ee"
+RPM_NAME = "iproute2-arpd-6.3-1.2.aarch64.rpm"
+RPM_HASH = "afbfdbc3ebabbe11173bb7bd988bd188e3c45cdfe6036a158a7daf70fc3db4a6fcb1084ede52951ce8e9c30900853b2b2999246a854459538a6ca7481e6e3765"
 
 RPROVIDES:${PN} += "iproute2-/usr/sbin/arpd \
 iproute2-arpd"

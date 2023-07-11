@@ -2,10 +2,10 @@ SUMMARY = "Translations for package khotkeys5"
 DESCRIPTION = "Provides translations for the 'khotkeys5' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "khotkeys5-lang-5.27.5-1.1.noarch.rpm"
-RPM_HASH = "b671d12b328f1062601925030afa3e1e1e883ba383f7328bb8b3936fbcb8661d542832860cf1b11f7839b4d4c00769f0baaa2eb95f7ab50c3c6fb4797e30a5b6"
+RPM_NAME = "khotkeys5-lang-5.27.6-1.1.noarch.rpm"
+RPM_HASH = "c78f79ea4317b91c0a9d740d9bd8ab0e4de1c534452cf4ec8c40313d33e79d39ee7a89d3369d80e99c1c066940a90d925bc990d9a217c265f5c047dd42041c5f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "khotkeys5-lang \

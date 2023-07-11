@@ -12,8 +12,8 @@ LICENSE = "MIT"
 
 PV = "1.15"
 
-RPM_NAME = "libxcb-composite0-1.15-2.2.aarch64.rpm"
-RPM_HASH = "2442caaf53ac64dc957e5f4df70f63ff10d621e110808d50627f0f04b4135040fca34bb7173777c188c3952f149f4b7d750a9e6dfe7d836070236a2ec64932a6"
+RPM_NAME = "libxcb-composite0-1.15-2.3.aarch64.rpm"
+RPM_HASH = "a64d66f2783e825a7635350f6b4b364c2fd75a9c16fc0e82e9d373570793f2207978c73c5bb1c18a038649beb605adf4432ea6f47febbdeb6d6987912dcd5f11"
 
 RPROVIDES:${PN} += "libxcb-composite.so.0 \
 libxcb-composite0"

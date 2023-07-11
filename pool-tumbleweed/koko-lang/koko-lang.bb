@@ -2,10 +2,10 @@ SUMMARY = "Translations for package koko"
 DESCRIPTION = "Provides translations for the 'koko' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "koko-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "d21145fb8da5a16af017a814e7079126927a0974a1b039872ca29177d0110d95f2927ef57c53f8969c1f08daab3b44927092b2974bd5f422d8f6a5a38e3f4bf2"
+RPM_NAME = "koko-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "245bb5f90a6b6a2bcfe15d7f1ff256bdaa770e75461492c77bd3934126c01a71c8f57cce54b425d7606c315f3f018a69a9aef51c02458bbd049a84f9b27fd962"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "koko-lang \

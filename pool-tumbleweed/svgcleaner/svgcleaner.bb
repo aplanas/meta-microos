@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.9.5"
 
-RPM_NAME = "svgcleaner-0.9.5-2.25.aarch64.rpm"
-RPM_HASH = "76a5ac348222feb7dfd5d9ba04f5e324fccc0bde8398f92b71d7c584496b2311e2398414ad8c83b31a5e2c38715f7e3299aaf0ce83f32d59ddeb70d092626c9d"
+RPM_NAME = "svgcleaner-0.9.5-2.26.aarch64.rpm"
+RPM_HASH = "7fc4bac735552442786239bbea71a06713317ac2ddaa63db5248c9fefa557ee323b2cf721f0c3a8b8b069004ba3378e93269278d52bd493b5c468874fc962772"
 
 RPROVIDES:${PN} += "svgcleaner"
 

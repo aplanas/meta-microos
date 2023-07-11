@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.3.7f"
 
-RPM_NAME = "proftpd-doc-1.3.7f-1.3.aarch64.rpm"
-RPM_HASH = "f6ea2143d34fe4a22230d1c3a6fe680a01cde670aa608c63466f1a1f956d0f2ca85a9a4fa18f853502f7a7afd0d3aa5adc8a2b211b0c17c9307ca85a7b3f5ed7"
+RPM_NAME = "proftpd-doc-1.3.7f-1.4.aarch64.rpm"
+RPM_HASH = "e4b3b5008663f98f5cba8bf8c7aaecccc318982712ff998bb40af0f232fa01e3fb6b222def17f1419c69f428c3d9a52842691a14892827574444a900c2462327"
 
 RPROVIDES:${PN} += "proftpd-doc"
 

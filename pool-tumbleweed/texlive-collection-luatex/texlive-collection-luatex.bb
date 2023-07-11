@@ -8,8 +8,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.208.svn65791"
 
-RPM_NAME = "texlive-collection-luatex-2023.208.svn65791-58.1.noarch.rpm"
-RPM_HASH = "56af124109ef01eab152e8bf2b0f399f993c57dcbfede37c217b7b0e0beab2e006086388018c925c29fab786c003a9bf4871ee0635e9d8e02863af809ed8521f"
+RPM_NAME = "texlive-collection-luatex-2023.208.svn65791-60.1.noarch.rpm"
+RPM_HASH = "125c8beaa50640c24471e3933e2dcb76d81d97aa1cd6ef6940621033bf454d83586ecf06cd436899a99ccaf9760fe07b26a221b1664683ab5ffa048bf9a855d8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-luatex"

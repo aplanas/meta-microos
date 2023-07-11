@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "1.3.7"
 
-RPM_NAME = "fluxbox-styles-upstream-1.3.7-1.9.noarch.rpm"
-RPM_HASH = "d38d7c004f5b0061898c09e825cc9f5a3a5e0498390a5ea5b3bc78adc181e6b966a7300d55dd4e6e8afc1f218f7e97e3bb290c03f6e5ad59eed3e34f6dd7f425"
+RPM_NAME = "fluxbox-styles-upstream-1.3.7-1.10.noarch.rpm"
+RPM_HASH = "b37d3dde0ae6069a8323022d7da2f580e83706a4a2210e97f47f1f24937c173115d4b61a5102162266c31b7492aa6726e3174c5f0dbb2986a2211f08cfa7a31d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fluxbox-styles-upstream"

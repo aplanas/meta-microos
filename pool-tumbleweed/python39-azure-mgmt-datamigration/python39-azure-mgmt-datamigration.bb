@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "10.0.0"
 
-RPM_NAME = "python39-azure-mgmt-datamigration-10.0.0-1.8.noarch.rpm"
-RPM_HASH = "1524a1eb162efa141869d6c43afba2a8c327087b0659b9c5f458dab29124812ac2ee1f1cb9ba092ee0d1d7802562d8ea5529218ca60bb423d3c1dc676176d80f"
+RPM_NAME = "python39-azure-mgmt-datamigration-10.0.0-1.9.noarch.rpm"
+RPM_HASH = "8b5929fe2caa16e99df29e3347ce2b620523fe5b5318891e85e211a08390dd9266d2d494019d4cc534dfc4700a6df59e76d1f599a3ae511a94b8c94a84f1e7bb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-datamigration \

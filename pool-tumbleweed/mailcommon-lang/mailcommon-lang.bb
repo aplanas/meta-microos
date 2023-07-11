@@ -2,10 +2,10 @@ SUMMARY = "Translations for package mailcommon"
 DESCRIPTION = "Provides translations for the 'mailcommon' package."
 LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "mailcommon-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "7589b2f20ad54c765fd7e57919d4fb441a4843b138bb82fa7ae2a19a59c34b24b6a87888d4a31bd6346d11d2fbca0a4d581ff3fb9b1e2cf39778e1d2bb37ec39"
+RPM_NAME = "mailcommon-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "2cb1b5cd42c21062d4cd86347bbd24f8e1c21560a78e9debc31dbfa76fb57ee9c43566b04f4768b4a6a2f296cbe68bb5da589ee4679dc77e99f5de46946c9ccb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mailcommon-ar \

@@ -33,15 +33,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.000024"
 
-RPM_NAME = "perl-local-lib-2.000024-2.9.noarch.rpm"
-RPM_HASH = "a50603589b530370ba68832777b0664873bb501c2056dc57b34ba482200bcfa8f86e7ba07b168527fe55ff4c66e5c7b4724744b4b3b80ad40f0cefb321b24dc9"
+RPM_NAME = "perl-local-lib-2.000024-2.10.noarch.rpm"
+RPM_HASH = "05122ada249ddc8eda5446bb4c2adacec1807bcc326572c4c5ae8fb793ff9858128d28ee35dfde1db6c60855b430ff4d0c6762042e93bb9c2abee0e137ce3a94"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-lib--core--only \
 perl-local--lib \
 perl-local-lib"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-CPAN \
 perl-ExtUtils--Install \
 perl-ExtUtils--MakeMaker \

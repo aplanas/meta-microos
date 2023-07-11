@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1 & LGPL-3.0 & CC-BY-SA-3.0 & GPL-2.0 & BSL-1.0 & BSD-3-Clause
 
 PV = "16.2.13.66+g54799ee0666"
 
-RPM_NAME = "ceph-mon-16.2.13.66+g54799ee0666-2.1.aarch64.rpm"
-RPM_HASH = "d7d2948fbcf656853e477adba3edd091710cda6c11fbb5d6ea7e1f9049c83fcd6e37e8381e980c180865c27ecce40a101488d369ff3b3bcfaf3c8f3a27d2c992"
+RPM_NAME = "ceph-mon-16.2.13.66+g54799ee0666-3.1.aarch64.rpm"
+RPM_HASH = "2f226cd0cd1c85236faac02f59b750064ec0c7aafb9eb5bc7f9e8c68d0755ffd39b30ae1ee56980bed2f1f54e1f83731818d2c3e1beab6c4816094863f851e53"
 
 RPROVIDES:${PN} += "ceph-mon \
 ceph-test-/usr/bin/ceph-monstore-tool"

@@ -15,15 +15,15 @@ LICENSE = "Artistic-2.0"
 
 PV = "0.10"
 
-RPM_NAME = "perl-MooseX-SemiAffordanceAccessor-0.10-1.25.noarch.rpm"
-RPM_HASH = "416d158fe8dac6063a422963fe94d94cae819b9d02be313b1d21c02f510f839cb90fec7ecfd804c5bc7573f849d0e3625d8075ff4221d3b3d08128c0b6312d73"
+RPM_NAME = "perl-MooseX-SemiAffordanceAccessor-0.10-1.26.noarch.rpm"
+RPM_HASH = "09bff739fe7c5b5b917207f3e086bf95bbf6f7201c63e9e71c5f7f206d55fd6063625702c7edab49097c61d7d28e89af2ed5b356b6f7963546246ad0f59088fd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooseX--SemiAffordanceAccessor \
 perl-MooseX--SemiAffordanceAccessor--Role--Attribute \
 perl-MooseX-SemiAffordanceAccessor"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Moose \
 perl-Moose--Exporter \
 perl-Moose--Role \

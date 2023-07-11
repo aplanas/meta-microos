@@ -12,8 +12,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "3.26.4"
 
-RPM_NAME = "typelib-1_0-GeocodeGlib-2_0-3.26.4-1.4.aarch64.rpm"
-RPM_HASH = "000aeaf24d6248b45ddf0254c55d7986720ce0f5ce6746c2a0cfe850bb056a35955adaab295620a80f40508b3b743dcfc22a07fdce43af4031c8acd9546dbac8"
+RPM_NAME = "typelib-1_0-GeocodeGlib-2_0-3.26.4-1.5.aarch64.rpm"
+RPM_HASH = "6c47d41eb8c96730b20d1be3defee8e50eeb93d06006e74a7577076e87b152cbc80a8f1b38c1b90b15873a2049aee3b19bb95168ba9c729cf78cc88288e3eed2"
 
 RPROVIDES:${PN} += "typelib-1-0-GeocodeGlib-2-0 \
 typelib-GeocodeGlib"

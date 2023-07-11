@@ -6,10 +6,11 @@ LICENSE = "GFDL-1.3-only & LGPL-3.0-or-later"
 
 PV = "20221027"
 
-RPM_NAME = "python311-libscca-20221027-3.7.aarch64.rpm"
-RPM_HASH = "6b729dd871eb661019650b50d06def9f0b9f55f773caeda96c2d501198d1dbc371e1e662a21aa88c53bf43ae0e96cd88122e2cc6aa9157c0a7a815e3c3f00485"
+RPM_NAME = "python311-libscca-20221027-3.10.aarch64.rpm"
+RPM_HASH = "b5654634cda56e027ed5104c7e0f1f256e0bef981ce4527a076f7f1d333e7fa54c3a64efd2c6823de1732f5bace9ab65195cb5307be2c9d0abd34cb7937b72d2"
 
-RPROVIDES:${PN} += "python311-libscca"
+RPROVIDES:${PN} += "python3-libscca \
+python311-libscca"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libbfio.so.1 \

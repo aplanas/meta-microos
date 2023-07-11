@@ -14,11 +14,12 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.7.0"
 
-RPM_NAME = "python311-ntfy-2.7.0-9.4.noarch.rpm"
-RPM_HASH = "7e435b8fbf6834eaa8baf1d677a36bd79a3fbad7be514b2d76e846a651ed58c6d32c924f54ee3a312dc697455755ac0338e9b6900404b34cd642bee28a2a4ec6"
+RPM_NAME = "python311-ntfy-2.7.0-9.6.noarch.rpm"
+RPM_HASH = "9a02c0c85690a68ecde1ff7efbf0dab87bab5f895317a838c05104605aca8d133a8f9b1797bc6a4f0dbf905be1c5f895b6a422efae40d26f59024279e1c02a69"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-ntfy \
+RPROVIDES:${PN} += "python3-ntfy \
+python3.11dist-ntfy \
 python311-ntfy \
 python3dist-ntfy"
 

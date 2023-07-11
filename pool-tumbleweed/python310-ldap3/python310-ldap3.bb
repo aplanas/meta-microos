@@ -8,12 +8,11 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "2.9.1"
 
-RPM_NAME = "python310-ldap3-2.9.1-1.10.noarch.rpm"
-RPM_HASH = "85ef043f1670ba745de0e1cf5278a78d1a8c81a27c5c8a7ef6787ce18e89bbfb3b9d3a678a1965df22a53aede1f80cd3f464064cf2013ca94741d63e21daddd9"
+RPM_NAME = "python310-ldap3-2.9.1-2.2.noarch.rpm"
+RPM_HASH = "1cfd98238ac794f09ba0516a280bbeb1b915d557cc933514e803f78fbb1118c8ad21a45af955e1822dd5c78e5baca77454e311aeda78ede03dddb4d34001855d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-ldap3 \
-python3.10dist-ldap3 \
+RPROVIDES:${PN} += "python3.10dist-ldap3 \
 python310-ldap3 \
 python3dist-ldap3"
 

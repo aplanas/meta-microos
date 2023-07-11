@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 | EPL-1.0"
 
 PV = "1.0.10"
 
-RPM_NAME = "jetty-version-maven-plugin-javadoc-1.0.10-2.9.noarch.rpm"
-RPM_HASH = "db6f105ebe63f6e9dd8553c34719f2e5003821b7a85fa3acb2131b1c0415e3bb78d2c78f4d9770bd541bdadb3089d2f8bcce7110f8fafd09844bae188505ea1d"
+RPM_NAME = "jetty-version-maven-plugin-javadoc-1.0.10-2.10.noarch.rpm"
+RPM_HASH = "e2a58d7bc563a53816fd5f6fac4fb7eeeeb30d98bf9ee9f1f363808192e686315fec855c05921cd4b1f1d8d270eb4a6083b4ca0de35bc151a6c3555093334859"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jetty-version-maven-plugin-javadoc"

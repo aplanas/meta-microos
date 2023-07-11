@@ -11,8 +11,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.2.0svn47546"
 
-RPM_NAME = "texlive-xellipsis-2023.201.2.0svn47546-52.1.noarch.rpm"
-RPM_HASH = "29c99298b05bc1ecb6c83ebde6b98c5af1e4c349a5ac276857490013c567ddc43d7486f5e2860f7bc41d9286e89941f861c50139cbbe683f723346bb7d4fbb5e"
+RPM_NAME = "texlive-xellipsis-2023.201.2.0svn47546-52.2.noarch.rpm"
+RPM_HASH = "470f35b8b775bb4d9b14a85dc3be74cae818459d871e59a5d552d4b5416a87721d55160e6e3bd13fe0c3f90ef08c2bdd6afcf8557c8adf8b2aa50471294b872b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xellipsis.sty \

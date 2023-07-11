@@ -12,8 +12,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.11.1"
 
-RPM_NAME = "libpmem2-devel-1.11.1-1.8.aarch64.rpm"
-RPM_HASH = "b0e8d01448028951c297f70b2d41bcb914af20ca1b6cf210e4146dbf5f0d326a73364f9eb4c5abd904353d85c4b882bca4dab0c662d3bbf2865e49745cfbb251"
+RPM_NAME = "libpmem2-devel-1.11.1-1.9.aarch64.rpm"
+RPM_HASH = "91231f0123c36a011658d64a6ff70159cc90938c8599e8071b2fed3aaabc37b89fed24b7a59e0fec50e254c5678d563e946ddb0354bde7391032377d31ca9278"
 
 RPROVIDES:${PN} += "libpmem2-devel \
 pkgconfig-libpmem2"

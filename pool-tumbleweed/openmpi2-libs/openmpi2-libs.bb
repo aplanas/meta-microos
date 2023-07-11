@@ -15,8 +15,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.1.6"
 
-RPM_NAME = "openmpi2-libs-2.1.6-14.3.aarch64.rpm"
-RPM_HASH = "8c5081fdcaa675ee1f7583c3a118058438bf118aa0aa09de47b645f4f88e909d0c53660e229bfa8a359acb5a6271891a50e87e34c008e8731102bcf472535a6a"
+RPM_NAME = "openmpi2-libs-2.1.6-14.4.aarch64.rpm"
+RPM_HASH = "0ef81f403e7a563b4db58173a39cf213205519e4d4d234c4a7f5bfd8fc2755763c0ea11a8dc6f4f9db16e7a3220352ee1d30b04ff96ebeb07190561659ebedbc"
 
 RPROVIDES:${PN} += "libmca-common-sm.so.20 \
 libmca-common-verbs.so.20 \

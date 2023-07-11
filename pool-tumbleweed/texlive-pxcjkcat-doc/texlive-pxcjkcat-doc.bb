@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.4svn63967"
 
-RPM_NAME = "texlive-pxcjkcat-doc-2023.201.1.4svn63967-53.1.noarch.rpm"
-RPM_HASH = "3804f05a56e92f9486c2f1111b368fc81becca59c72f357476aa99ff1b456e55f9e5700de657bb7367c0ecd4ba71e4cfd44ef6256d365b009c4cafa53ff5f3f3"
+RPM_NAME = "texlive-pxcjkcat-doc-2023.201.1.4svn63967-53.2.noarch.rpm"
+RPM_HASH = "ad72fb83e85e8207f5db5361332e930d717beaf2223cc8cade0dee4b6e80c0111fcea479258110aae823b13d2a31f46407a417f138a1284d7cd93334caadba63"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-pxcjkcat-doc-ja;en \

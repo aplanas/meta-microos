@@ -7,13 +7,15 @@ LICENSE = "GPL-2.0-or-later & MIT & GPL-3.0-or-later"
 
 PV = "3.0.9"
 
-RPM_NAME = "python311-pyparsing-3.0.9-4.1.noarch.rpm"
-RPM_HASH = "5c6b1c5b51601789f2b9ac6d42824252eb1144f0c95246688a294ba1e90d97eb46d1754d081600c70eec7d3ca2dfdd8ce5d45455ee73c392c392cbc7cb08ec86"
+RPM_NAME = "python311-pyparsing-3.0.9-4.3.noarch.rpm"
+RPM_HASH = "b013907c4332a4de50061fa70f2cdd45acb738b590982afc1f6f49a67b8509cc6079bb794691251079ff1731b5980f0c40e8eb073da460675293f8de010f230f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pyparsing \
-python311-pyparsing"
+RPROVIDES:${PN} += "python3-pyparsing \
+python3.11dist-pyparsing \
+python311-pyparsing \
+python3dist-pyparsing"
 
-RDEPENDS:${PN} += ""
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.6.7"
 
-RPM_NAME = "json4s-scalap-3.6.7-1.16.noarch.rpm"
-RPM_HASH = "4d28fbae870baee1d2a97bbe7bdb2ec553c189798b41ba7af0cd3442043b78739104facc367d533ca5496cc10a04d75fe8efaed30a2c800e965eb7324f0b4bf8"
+RPM_NAME = "json4s-scalap-3.6.7-1.17.noarch.rpm"
+RPM_HASH = "03a126f8b1d18ea178020c091ca674baa7107a6da984b37d878200298fe724ba175e962131f3497b28c9f497d9f2aab918c769c7a5adc6d997d8043f715147bc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "json4s-scalap \

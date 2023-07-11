@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.3.5"
 
-RPM_NAME = "blueman-lang-2.3.5-1.3.noarch.rpm"
-RPM_HASH = "faab5afe1b7e91f1f4d16169ee52c85681dd33093e6492b659fa929f9bce8c5b7a64dd47d992f859bd73274f79d7b0ef9e88b5c08721fe61f84bc97d21ef3319"
+RPM_NAME = "blueman-lang-2.3.5-1.4.noarch.rpm"
+RPM_HASH = "e7606e1acfe258d0929a0997ecbb95ec49bca1aab5b508a0f54fbfd2e08281a4eb7134a636d74cd38010c200208896a2e0e6df45beb4c1c17d485135f685edad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "blueman-lang \

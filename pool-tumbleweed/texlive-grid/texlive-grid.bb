@@ -11,8 +11,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.0svn61719"
 
-RPM_NAME = "texlive-grid-2023.201.1.0svn61719-53.1.noarch.rpm"
-RPM_HASH = "a09fdc19e50acfdc1cac781d6fac760b0dcfd3ec5e9ad17afdbd4c540c927fac5297407ea4978ac18efca85726c2a0395884afbfc3294715053c6db3134bc18c"
+RPM_NAME = "texlive-grid-2023.201.1.0svn61719-53.2.noarch.rpm"
+RPM_HASH = "096acd284c7568d280bc77983281c5462f5e3a18944247bb7178f9f2a93ca7ee0a167cd535f57d90db42cea13322ea9c15fee679462de74c5e280f9b3e52a0e2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-grid.sty \

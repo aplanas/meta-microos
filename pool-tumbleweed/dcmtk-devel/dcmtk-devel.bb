@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause & Apache-2.0"
 
 PV = "3.6.7"
 
-RPM_NAME = "dcmtk-devel-3.6.7-2.2.aarch64.rpm"
-RPM_HASH = "e31683fb1c0aeeae72e70176eb7dc46be1df36df24401e80521c05ef9be802029303e65eeea4e94fb97369e737b7b8836a71c61cfe825bf6b4db2bb0be9efe0d"
+RPM_NAME = "dcmtk-devel-3.6.7-2.3.aarch64.rpm"
+RPM_HASH = "29aeba10a3740a6bc86d379b074bd8a5aee92be38cd5d847ff1a069ba5f0b6f2bb9ce0d673c9f3ba5414276b5fc51a6394f9887dcc637c991f50bd5e1cb752a0"
 
 RPROVIDES:${PN} += "cmake-DCMTK \
 dcmtk-devel"

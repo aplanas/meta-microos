@@ -2,10 +2,10 @@ SUMMARY = "Compel library for CRIU"
 DESCRIPTION = "This package contains the compel library for CRIU to execute a parasite code."
 LICENSE = "LGPL-2.1-only"
 
-PV = "3.17.1"
+PV = "3.18"
 
-RPM_NAME = "libcompel1-3.17.1-3.5.aarch64.rpm"
-RPM_HASH = "8c632627e5221e0adf25e32bcbc393912c15b488749604e1f6ea4270cb6ee5f8d0c08aee274334620c61d1ce83e259fd333e5660fb85c6250a4d6f0730316a8b"
+RPM_NAME = "libcompel1-3.18-1.2.aarch64.rpm"
+RPM_HASH = "9a4352dc050cd358055beca05dd2696cd6977f660d973eadab16b5496878c34c15a5c17665e2cadacffc38133344fc6ae403e7bcfc2ef6917eb9435c1dd0809b"
 
 RPROVIDES:${PN} += "libcompel.so.1 \
 libcompel1"

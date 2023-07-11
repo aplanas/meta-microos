@@ -7,11 +7,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.4.0"
 
-RPM_NAME = "python311-flask-oidc-1.4.0-5.1.noarch.rpm"
-RPM_HASH = "60c8dc42804a55d09157bc443c639c78f6cd9ec4e88a56dd7e743da907b3b9197d3057ea9f7ab0980f9b10f7032ef4ed7e5c8f291433add15287b773607eaed1"
+RPM_NAME = "python311-flask-oidc-1.4.0-5.3.noarch.rpm"
+RPM_HASH = "1f244ba9531670faec5a1ddb411d7c7594034658589f39f92438a9aa7394eb9cb2b53a97d036f5f6f63078e27a3a20e9265ca4c13b218e779cf63bbcdefd698d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-flask-oidc \
+RPROVIDES:${PN} += "python3-flask-oidc \
+python3.11dist-flask-oidc \
 python311-flask-oidc \
 python3dist-flask-oidc"
 

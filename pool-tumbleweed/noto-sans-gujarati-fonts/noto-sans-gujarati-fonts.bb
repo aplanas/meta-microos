@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-gujarati-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "3e3e747b7d780b9c223fc1049143edf07f0e05710cfa46815fe71f91402c3890bc62dd75468e456e3d8208ea15ba115657b1a621278df7179adf44879ae3ca47"
+RPM_NAME = "noto-sans-gujarati-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "c13704eaef4faefb9042555dbcad99c57c67522537f75ffdbbc6d396158f6cc5052544f80420039e0d40c2485d1822ada938b3eb1add242f586d7ed35803a4b9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-gujarati \

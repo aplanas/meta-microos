@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.5"
 
-RPM_NAME = "ghc-some-1.0.5-1.3.aarch64.rpm"
-RPM_HASH = "ad6636ccbd3dc82e264dbae3bbab0fdf0373587bb786985a1f610417f3145329c7fed491c8f71abe6f874a0f9483f13b4f5a5d9cc4b1c1f9cbabe01bb5d745db"
+RPM_NAME = "ghc-some-1.0.5-1.6.aarch64.rpm"
+RPM_HASH = "7ea0a56504dcedd53a339af0f30baa2ddd2861ba56a25b60b3e762377334b638f8038c168ec2ae43f4321073bb5760306311684efc3cd3d227b68a3663cb4d82"
 
 RPROVIDES:${PN} += "ghc-some \
 libHSsome-1.0.5-3dwCpkSImpx8T8axxRPR3Z-ghc9.4.5.so"

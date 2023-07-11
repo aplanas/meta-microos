@@ -11,12 +11,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.8.4"
 
-RPM_NAME = "python310-flexx-0.8.4-1.5.noarch.rpm"
-RPM_HASH = "06eb73ac92a7629dfc1b1c6f46bcb473c2a31ec9eeab74d318288451da619bbf065abc00170037ae5f7390f0f10607f4aec5bef0ce7ca937a4e8c18ee5020cc7"
+RPM_NAME = "python310-flexx-0.8.4-1.7.noarch.rpm"
+RPM_HASH = "24f4df08af14051de051a9ff045bc09473164717bfea565116f005aba94640f3f10a8092c23628706e0209c175ecfee8b4525d0c3125495f83ef5c661b27f077"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-flexx \
-python3.10dist-flexx \
+RPROVIDES:${PN} += "python3.10dist-flexx \
 python310-flexx \
 python3dist-flexx"
 

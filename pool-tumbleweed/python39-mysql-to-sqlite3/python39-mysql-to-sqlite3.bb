@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "v1.4.3"
 
-RPM_NAME = "python39-mysql-to-sqlite3-v1.4.3-1.11.noarch.rpm"
-RPM_HASH = "8e7803427ac0995e7a0ff523edab6b4ba9b2ff2c9eccedc90c25267ac4317559a1ebb47f212338011979840df017a702d3954be0ccda6302f4f6b42d0a193780"
+RPM_NAME = "python39-mysql-to-sqlite3-v1.4.3-1.12.noarch.rpm"
+RPM_HASH = "6ee139ef840357c973936891bb5a63b62d33e745bbf060ac5f124b8683d486af2ec98460ad8ad2495caca862cb65e3806d0fdf32954f65704e48a6d1c99cc791"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-mysql-to-sqlite3 \

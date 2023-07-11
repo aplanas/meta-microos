@@ -13,8 +13,8 @@ LICENSE = "MIT"
 
 PV = "1.0.1"
 
-RPM_NAME = "mgdiff-1.0.1-7.27.aarch64.rpm"
-RPM_HASH = "c881db214a0f05f2980b081c36cacb31dcec622a44777237e6f23dc4b8039386eb2d272faba0a61fb44a7b83c3cefe8e32b5de1d511daa987ddff6cb8e219d17"
+RPM_NAME = "mgdiff-1.0.1-7.28.aarch64.rpm"
+RPM_HASH = "0855c75adff7ff0d72635a1dd50c50553d4eb702f5d961f41231e455d5447fb12f85c55b116ab4fdaa56ea6ae71684777a7bddcdf24e2d762fa17560f21cc3f1"
 
 RPROVIDES:${PN} += "mgdiff"
 

@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.9.1+git20170322"
 
-RPM_NAME = "libdbus-c++-glib-1-1-0.9.1+git20170322-4.5.aarch64.rpm"
-RPM_HASH = "4ce2b54dc914d352eacdcdd4cd3756882397939f8e2c42b4fbc3b6a5c7118850df170c028f9ba63488998cb7625b003ea1a7925797b105537eb8210472f0f595"
+RPM_NAME = "libdbus-c++-glib-1-1-0.9.1+git20170322-4.6.aarch64.rpm"
+RPM_HASH = "08f4fbf391685187b45ee27d008291ce82e1b210856660e0721f21e44d897e67a2364df68b91b3eb8bd7304031760bfdc575dcd145bb68933a0b254405bc71c3"
 
 RPROVIDES:${PN} += "libdbus-c++-glib-1-1 \
 libdbus-c++-glib-1.so.1"

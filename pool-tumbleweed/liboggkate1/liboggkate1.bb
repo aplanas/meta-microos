@@ -13,8 +13,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.1"
 
-RPM_NAME = "liboggkate1-0.4.1-26.15.aarch64.rpm"
-RPM_HASH = "db2bb6b21d03ab1797ea512fc87d749149d8473b728e40ecb3b68ec610262313a542591c2b26a02934bb1e71ac85a5d2adc1601e32d675f31da7b21d4a62340c"
+RPM_NAME = "liboggkate1-0.4.1-26.16.aarch64.rpm"
+RPM_HASH = "a746d68f63fbe18ba31e2d23dc645ce3f7d36b6fe183a891c3eab30dfa8fc96c535d830b6095336c44be6157fd668f8d65dae210354d2dc6b311ae6fc4e545c3"
 
 RPROVIDES:${PN} += "liboggkate.so.1 \
 liboggkate1"

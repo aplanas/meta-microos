@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.3.1"
 
-RPM_NAME = "gtk-vnc-tools-1.3.1-1.5.aarch64.rpm"
-RPM_HASH = "eb622cd68693a59f3290deabd13698430e0ceaf17b6712374f18e26b1aba9b9fc4a3d609e97432e3b9a2f55622bba980971f56ab6887f1a4b7cd8cd2567551e3"
+RPM_NAME = "gtk-vnc-tools-1.3.1-1.6.aarch64.rpm"
+RPM_HASH = "5e04cce36ef04a90541f1733e649343b730c4f9663cbd74f5967a70301f7ccbdded8c9af37027adde83c8dd1036cd6f88650973367cbc5fdc0cc55bedc175ae9"
 
 RPROVIDES:${PN} += "gtk-vnc-tools"
 

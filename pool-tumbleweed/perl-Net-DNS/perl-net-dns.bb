@@ -7,10 +7,10 @@ The programmer should be familiar with the structure of a DNS packet and \
 the zone file presentation format described in RFC1035."
 LICENSE = "MIT"
 
-PV = "1.38"
+PV = "1.39"
 
-RPM_NAME = "perl-Net-DNS-1.38-1.1.noarch.rpm"
-RPM_HASH = "c93610d0ad07189ce63ee5042c7664d8488ececb85d49611dd761aa87b583a968d53e3362db315f9bed702d0f77f4dcd94ac5c41672d91d19b78a3799bfb94a1"
+RPM_NAME = "perl-Net-DNS-1.39-1.1.noarch.rpm"
+RPM_HASH = "49a27166dd63603e54849e61ad1d868c808a190f5da01d644a9543f4d3dc89f7661c99937038bd4c27f5e1b74512df900d067b6d53977a949038726c948dc3f2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Net--DNS \
@@ -119,7 +119,7 @@ perl-Net--DNS--ZoneFile--Generator \
 perl-Net--DNS--ZoneFile--Text \
 perl-Net-DNS"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Carp \
 perl-Digest--HMAC \
 perl-Digest--SHA \

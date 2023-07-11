@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "1.0.5"
 
-RPM_NAME = "xkbutils-1.0.5-1.4.aarch64.rpm"
-RPM_HASH = "da51e5a1de1bcf9c495468a264aba5d538cee9392f0b995732ea398d651cd14be76ec734864c55fbfa8611590ce8d4dfa3c72eec16325ff351b93947b78a5ce8"
+RPM_NAME = "xkbutils-1.0.5-1.5.aarch64.rpm"
+RPM_HASH = "b17c7c327588f7d789608441fda66144c7adf811844ef0f8cee27c86324513083bf3ca0eaddf9a7c4d2a6d096b162c7abed09d834f204fd2332b42cd9701cf10"
 
 RPROVIDES:${PN} += "xkbutils"
 

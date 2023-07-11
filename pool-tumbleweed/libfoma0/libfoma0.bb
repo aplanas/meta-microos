@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.10.0"
 
-RPM_NAME = "libfoma0-0.10.0-1.3.aarch64.rpm"
-RPM_HASH = "5b21c44329eaa52e318c7503c085d42f4315aa1002d917c57b42de25cfcfe4a3d7f44cbf3ebae2259e6cd9347ada4da5a16c7fed9c8bfd04b5ba508c34dac8d7"
+RPM_NAME = "libfoma0-0.10.0-1.4.aarch64.rpm"
+RPM_HASH = "e9127a4428aa7e4fc9373aed2afec99239202fa78f34cfc58658502590a53215d308e18d99ff1f02ccb6451b9d6e15a2c0db407bc31e66688d4a983c7703b213"
 
 RPROVIDES:${PN} += "libfoma.so.0 \
 libfoma0"

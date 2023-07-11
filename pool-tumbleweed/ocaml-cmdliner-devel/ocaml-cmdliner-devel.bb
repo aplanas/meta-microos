@@ -5,8 +5,8 @@ LICENSE = "ISC"
 
 PV = "1.1.1"
 
-RPM_NAME = "ocaml-cmdliner-devel-1.1.1-1.9.aarch64.rpm"
-RPM_HASH = "c26309c21a49433632f79f4be481afbacba1b7ef52383748234e1bd8b1d42db074a98c0fed4a61deec28e618894a875372938465d6e8640ab9ce33dcdd374001"
+RPM_NAME = "ocaml-cmdliner-devel-1.1.1-1.10.aarch64.rpm"
+RPM_HASH = "137cd59fa077a9287735c2679fb6454831b04eeb0b3a0c53dede67460fda8e5866627183556e30399326ba151e8b7c774ff4d7263c0ace50cad63cce78496573"
 
 RPROVIDES:${PN} += "ocaml-Cmdliner \
 ocaml-Cmdliner-arg \

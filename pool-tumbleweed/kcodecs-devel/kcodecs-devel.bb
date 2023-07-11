@@ -3,10 +3,10 @@ DESCRIPTION = "Development files for KCodecs, a method collection to manipulate 
 strings using various encodings."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "kcodecs-devel-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "63c5536030c5c7b76b93b63c851dd92c149a74a86d06a85a67110420cf6de0c71087369f8bdc07ddcf8f078887262c8a48a8153fab8bc8134ea8d591cfde4db1"
+RPM_NAME = "kcodecs-devel-5.107.0-1.1.aarch64.rpm"
+RPM_HASH = "508aa22347ecfcccb1b3594756615f947dbdddc970472f819552ad953215989872198899d943a9d9f5460c2830ae71a94379871ea091305cc2d4e76d615f2427"
 
 RPROVIDES:${PN} += "cmake-KF5Codecs \
 kcodecs-devel"

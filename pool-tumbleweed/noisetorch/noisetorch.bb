@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.12.2"
 
-RPM_NAME = "noisetorch-0.12.2-2.5.aarch64.rpm"
-RPM_HASH = "dd2d36425565f43ed9fdb4cb12c509e74c74d5acb02e73d94046259c51e8b88cf497e46ab8dee0ca6833f9a0c15be5bd8ad7d6bcdf518fe2db39cdc75b0dd633"
+RPM_NAME = "noisetorch-0.12.2-2.6.aarch64.rpm"
+RPM_HASH = "bf045bd4fcf6bc56a6f53b49f729c41b6cbb25bcf77ae4bdcf64a68b09efb6e8953636fc579609eb23314168347f880274a6b12bfbe782e231c7d4e649b910eb"
 
 RPROVIDES:${PN} += "noisetorch"
 

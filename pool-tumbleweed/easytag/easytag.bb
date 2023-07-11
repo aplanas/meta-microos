@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.4.3"
 
-RPM_NAME = "easytag-2.4.3-7.4.aarch64.rpm"
-RPM_HASH = "0788442082e64155d0444c74a8cca262e3b908e78d2299c9efba17e1fb6d8bcb0e015b046c2ed16bc9b47b7d0897f33e5ac4f4130968bb13ed0ea6b763e444bb"
+RPM_NAME = "easytag-2.4.3-7.5.aarch64.rpm"
+RPM_HASH = "4296bfcf99031b64e2ae8099db8dde498ce8183f7c0b71a1978ace97f510d2dab79e9bf2fabccb0f32244b9a1253b87fe2bb20eaf01341b680b65648ae6d6fe8"
 
 RPROVIDES:${PN} += "easytag"
 

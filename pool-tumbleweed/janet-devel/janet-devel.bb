@@ -1,14 +1,13 @@
-SUMMARY = "Lisp-like functional and imperative programming language"
+SUMMARY = "Headers for embedding Janet scripting"
 DESCRIPTION = "Janet is a functional and imperative programming language. \
-It runs on Windows, Linux, macOS, BSDs, and should run on other systems with some porting. \
-The entire language (core library, interpreter, compiler, assembler, PEG) is less than 1MB. \
-You can also add Janet scripting to an application by embedding a single C source file and a single header."
+Janet scripting can be added to an application by embedding a single \
+C source file and a single header."
 LICENSE = "MIT"
 
 PV = "1.28.0"
 
-RPM_NAME = "janet-devel-1.28.0-1.1.aarch64.rpm"
-RPM_HASH = "8b4e662bacab345797a4fb45b9a787293ffe365ab73ed21c64e501bafd91b201494bff7e5a41ef12da8e6e87c7f83531e6722ac43fb614cb93c9175ceac6fc73"
+RPM_NAME = "janet-devel-1.28.0-2.1.aarch64.rpm"
+RPM_HASH = "951e73359f8a2b1b72b00ba4baad115d8e1da3e72180f1ef52b653924675037955e9d50f897a406ed4b48f3cab6f60e5bf5934199bd59bfb0212dde1bbaf92a0"
 
 RPROVIDES:${PN} += "janet-devel \
 pkgconfig-janet"

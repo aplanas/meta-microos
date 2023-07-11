@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python39-azure-mgmt-datalake-store-1.0.0-1.10.noarch.rpm"
-RPM_HASH = "cfe0d0bcbd02e0a741374b7c2592fa69bf680eef59bf63a37d37990e84a34c2678a765476369f62e757ff05d7e36f0413fc497109f793ed4463b6af7a43aa65b"
+RPM_NAME = "python39-azure-mgmt-datalake-store-1.0.0-1.11.noarch.rpm"
+RPM_HASH = "2aefaebe406e67c83c6ce24cd85cbd09e46dc0e8bbe954c157e9b41d5d311c1de402a633cc36565dc889a0eaabbc46f7e01925ec307d54ff4b975e200c3d25db"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-datalake-store \

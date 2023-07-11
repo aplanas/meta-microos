@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "4.11.1"
 
-RPM_NAME = "phonon4qt5-devel-4.11.1-3.9.aarch64.rpm"
-RPM_HASH = "bc58018badd8ef264f297baab263fea9bc88033e43da459d672474bd84c7b5968139c87d9e524d3706f1c6092e1b1e48d497ef347785bee611cab255afef5032"
+RPM_NAME = "phonon4qt5-devel-4.11.1-3.10.aarch64.rpm"
+RPM_HASH = "b28977d6a76d7cd4604b4a43084ddf257d742d48f60381cd59c71bf396b124a23c1588350dabf918e8d2cdc16773e27d460e4eb0d8637097c0b8455a2451e778"
 
 RPROVIDES:${PN} += "cmake-Phonon4Qt5 \
 cmake-Phonon4Qt5Experimental \

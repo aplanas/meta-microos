@@ -4,8 +4,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "0.2.25"
 
-RPM_NAME = "python39-nested-lookup-0.2.25-1.3.noarch.rpm"
-RPM_HASH = "1b4b29a3c48cee7fa1b7cdb45ef15d1ca600553082687451e42433eb720c126e0fd18b1f94e6df8a4485d00aea3d4881bc74b8afa22738980091fb6e2e216e69"
+RPM_NAME = "python39-nested-lookup-0.2.25-1.4.noarch.rpm"
+RPM_HASH = "a5a5a3bf2c58a34d04fd51fae82ed84ff0bbf4c6fcb5934000b4e850c1f8602ff76f7eaf4adcef1f6b4bfbe4459f3908a28773e747eb6b4181f298f8f791d4b0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-nested-lookup \

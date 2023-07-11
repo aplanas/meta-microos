@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.10.0"
 
-RPM_NAME = "libosinfo-devel-1.10.0-3.3.aarch64.rpm"
-RPM_HASH = "89828c99d6162672cc6fb076ab0cc42b23dd5600cda230d7a0effadc6a3fb1fc2a97d5efa3b6bbe641c56ff66aac90557e34eddb902f9a21368a71e8b9912703"
+RPM_NAME = "libosinfo-devel-1.10.0-3.4.aarch64.rpm"
+RPM_HASH = "cb43ccfde6e7458ddf3aaa719d5b3951d2cc4bb309b6cdb4269ce363e8a334f97ce5ba09cfbd469f41791ae0efbab497b5c42e22a75693d7d13ec3295f0bab77"
 
 RPROVIDES:${PN} += "libosinfo-devel \
 pkgconfig-libosinfo-1.0"

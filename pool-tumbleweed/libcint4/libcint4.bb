@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "4.4.1"
 
-RPM_NAME = "libcint4-4.4.1-1.9.aarch64.rpm"
-RPM_HASH = "b595435dafa37f53123be3eb378cda9ea712ca9fe83f8852f9c92e7153b999bc00676d393330f7efe959d29e4b39265a32c66c2ecd3598973b38dba4350e10fc"
+RPM_NAME = "libcint4-4.4.1-1.10.aarch64.rpm"
+RPM_HASH = "d290827552420495788af66c6393d2331eacf2e9e270f4202bf842a702c607daefe323351c1e2147002613d0b11d344cccd29fdc9fbce8bacbb64eeb196c664a"
 
 RPROVIDES:${PN} += "libcint.so.4 \
 libcint4"

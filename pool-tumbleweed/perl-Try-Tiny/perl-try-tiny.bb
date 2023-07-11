@@ -50,13 +50,13 @@ LICENSE = "MIT"
 
 PV = "0.31"
 
-RPM_NAME = "perl-Try-Tiny-0.31-1.8.noarch.rpm"
-RPM_HASH = "0f0aed1f3eaf7db319ef08e633ffb16c086fbf5e00315288a5b54ed5b35d9506dc09a16bbf8e747badce708f43a853aaccac77a77fd4c2d2b5a0a5d2ddde6411"
+RPM_NAME = "perl-Try-Tiny-0.31-1.9.noarch.rpm"
+RPM_HASH = "01e509db68a048a2f10f2810e6d207d099c805ed32954e782cfe981455665c931cc33712ad1bb4975f65f05ea39558e6e3c61e4eb30578c0791c7ded8d258357"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Try--Tiny \
 perl-Try-Tiny"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

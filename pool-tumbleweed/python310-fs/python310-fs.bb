@@ -8,12 +8,11 @@ LICENSE = "MIT"
 
 PV = "2.4.16"
 
-RPM_NAME = "python310-fs-2.4.16-2.1.noarch.rpm"
-RPM_HASH = "32ca9bc8024d05b69ad0b845127e62568522578fb3c4ed83d2a43b55e83826771904d3b6344de40d076bb0167ec17d45942afdb6f19095c96bfaf0e4bcb137d8"
+RPM_NAME = "python310-fs-2.4.16-2.3.noarch.rpm"
+RPM_HASH = "f0940ddd31dbb4500fcab2fd9401537fb6ddb76fe33bf022c3b59ed7a99dc0a9b5e61743541dc8b378adcf8ffc44593a35a14dd5d43b63d02bcac36b0a5e9cf3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-fs \
-python3.10dist-fs \
+RPROVIDES:${PN} += "python3.10dist-fs \
 python310-fs \
 python3dist-fs"
 

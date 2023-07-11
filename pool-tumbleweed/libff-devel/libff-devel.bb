@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "libff-devel-1.0.0-1.10.aarch64.rpm"
-RPM_HASH = "d62439862d7bf7607bf37c36aae8163feffc6e94a727ca48741d5a5b0691eab528b2f7a5431600cbe262ac94b9adb8c08bf166753359cced4f8897f74462f7d2"
+RPM_NAME = "libff-devel-1.0.0-1.11.aarch64.rpm"
+RPM_HASH = "38f330852591aef3a74cc5013b18c43e5fd67555082d8bd39b1c5ae4a919f86de9c57c8846a86cef3e0b650008f4cfdcf3d5cc5aa47302636c5d544b4d1f4bfc"
 
 RPROVIDES:${PN} += "libff-devel"
 

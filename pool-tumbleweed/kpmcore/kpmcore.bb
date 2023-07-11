@@ -3,10 +3,10 @@ DESCRIPTION = "Library for managing partitions. Common code for KDE Partition Ma
 other projects."
 LICENSE = "GPL-3.0-only"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kpmcore-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "a9e38672944519ee13adfca4ebe0495f20d33bf6d41c3cf83b9b7fcde5b74220b40abd87f195914a7c2be0af3de3983b1f28bb7abc96d6c30731995b59feca80"
+RPM_NAME = "kpmcore-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "8785d236b5c6b7e1187ec1a3ae10ea2fe78533f13767538af91452034d1daadae4bb1c1898b2d59bc092522afee22100fddc0deebdb856d59b47ea6dbe025831"
 
 RPROVIDES:${PN} += "kpmcore"
 

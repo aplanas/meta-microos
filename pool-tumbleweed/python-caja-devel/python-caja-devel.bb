@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.26.0"
 
-RPM_NAME = "python-caja-devel-1.26.0-1.10.aarch64.rpm"
-RPM_HASH = "d5606acf763616f7645dd74aa23e902aa3e558293c3da29cb866ab9a54954f7b72f2bf5e3f58575d590e087b26083ce966473248bf4ba4876839077b1aa4ec4f"
+RPM_NAME = "python-caja-devel-1.26.0-1.11.aarch64.rpm"
+RPM_HASH = "e9f680f79f0b4f9d8ec5b6244ae7f81d3ba614623002fc2b8b8edaaf7031d79ad28198de882cb9ff2eefca0cef2b4bbd69b741fc2cca4b0f22923a8a35aed09b"
 
 RPROVIDES:${PN} += "pkgconfig-caja-python \
 python-caja-devel \

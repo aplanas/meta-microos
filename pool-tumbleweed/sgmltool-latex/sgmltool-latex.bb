@@ -4,8 +4,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "1.0.9"
 
-RPM_NAME = "sgmltool-latex-1.0.9-1077.22.aarch64.rpm"
-RPM_HASH = "c2637a4b1c4678168eb098e935f6cfb780fb25db1e8acff64625202940d04a0c46e30fa81df3ee07a88ac54125748e1c9a09353684ca468b4ae1a84c47df8fd1"
+RPM_NAME = "sgmltool-latex-1.0.9-1077.23.aarch64.rpm"
+RPM_HASH = "883d9ae58d2c297a26eab1ef614eb0a3523354621db9af38e6106030071c4f33d42ec2941bdf1a17e8c2cbf984ef1e8a60d99075eaa6bb5a9d347788ce4711f6"
 
 RPROVIDES:${PN} += "sgmltool-/usr/bin/sgml2latex \
 sgmltool-latex"

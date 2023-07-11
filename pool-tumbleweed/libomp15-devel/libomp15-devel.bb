@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0-with-LLVM-exception & NCSA"
 
 PV = "15.0.7"
 
-RPM_NAME = "libomp15-devel-15.0.7-2.4.aarch64.rpm"
-RPM_HASH = "2a15abe220884a253082762d47d2b6e1b9636f7458fa95187e112e203b8f0e673c34e11ad1a71d4c89247508a9b4ae851ec3d7198917a4872d95db28f3628cda"
+RPM_NAME = "libomp15-devel-15.0.7-3.1.aarch64.rpm"
+RPM_HASH = "ccfdad2e690114a73972c1ae6d8ea977b1c866463299a7e63c0fadd8f83527b39daa0e85ad3e350f26a0fce8db49e3fddedd379c053314f6fac409c024ca1d7b"
 
 RPROVIDES:${PN} += "libarcher.so \
 libomp-devel \

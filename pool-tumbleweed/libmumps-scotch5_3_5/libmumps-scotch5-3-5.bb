@@ -12,8 +12,8 @@ LICENSE = "CECILL-C"
 
 PV = "5.3.5"
 
-RPM_NAME = "libmumps-scotch5_3_5-5.3.5-3.3.aarch64.rpm"
-RPM_HASH = "0ed79e00ecbae1702ac2be6eea76e359ca48cd9dda49f65ae816d4b635c13821a7f2d3d28688542ddd2b036a9b5d34800f096986bd2763483abd61b6560af6ce"
+RPM_NAME = "libmumps-scotch5_3_5-5.3.5-3.4.aarch64.rpm"
+RPM_HASH = "7866ace388f9c11ddee2a141da0d22e3aad45200befd156d7dc0a08e3f6007256090cb8a7036a679a9793824f42ce398f17d54d8806b2774250843d41b0b868d"
 
 RPROVIDES:${PN} += "libcmumps-scotch.so.5.3.5 \
 libdmumps-scotch.so.5.3.5 \

@@ -18,8 +18,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.2.10"
 
-RPM_NAME = "snack-2.2.10-215.8.aarch64.rpm"
-RPM_HASH = "49c218a7b83487ee6700bd815870774bc8e63fc7ede05ae3ba1bd9d02a3cf99eaa3579bf1fd2f8c4d3e501f749991fbaa6516b5f830705d2f230824dc545d4f6"
+RPM_NAME = "snack-2.2.10-215.9.aarch64.rpm"
+RPM_HASH = "e324310fd162d46ac6a9ab44bcd4d3ffcb1877dc4d646bc8d04a242341aec761964d59b73db8c1a5ecf81c46c97e769b86447f86a86db2ed6a78f428d8337387"
 
 RPROVIDES:${PN} += "libsnack.so \
 libsnackogg.so \

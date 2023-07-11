@@ -10,12 +10,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0b2"
 
-RPM_NAME = "python310-azure-purview-scanning-1.0.0b2-1.8.noarch.rpm"
-RPM_HASH = "c91c94e7ca641fbac02e41993032164b577db75d6934357ad453b40269375becb3b72215f73b5500e37a677af243fedeff9fa1e824378b8b284f76e9e71cc1b6"
+RPM_NAME = "python310-azure-purview-scanning-1.0.0b2-1.10.noarch.rpm"
+RPM_HASH = "c7c8dfc9bcd7ee2ebef9657c87d8a39157c061134f37b767f0c2b88b692513e24b5b56b1ffa4c9576530372475fdb9f202ccb71bfaf4d7d5c9b009108d633cdc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-purview-scanning \
-python3.10dist-azure-purview-scanning \
+RPROVIDES:${PN} += "python3.10dist-azure-purview-scanning \
 python310-azure-purview-scanning \
 python3dist-azure-purview-scanning"
 

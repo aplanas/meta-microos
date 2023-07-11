@@ -28,8 +28,8 @@ LICENSE = "BSD-2-Clause | GPL-2.0-only"
 
 PV = "45.0"
 
-RPM_NAME = "libibverbs-45.0-1.1.aarch64.rpm"
-RPM_HASH = "398dc0dfc2500a27018ed40dd6806dadcea323780e2ff0b813c2116f24f7ff11ade4b8d2593ed384344fc0a313bb076ee865091d843e5ad1a1680824192f3220"
+RPM_NAME = "libibverbs-45.0-1.2.aarch64.rpm"
+RPM_HASH = "db2402ab13e28b7635e03bb030b7e3c1293dae18a8615244fee0b2c898e2da379140c1c7b84ef80e1d938c1a07668126d06f951642fa5da7e79f900ffeef6a26"
 
 RPROVIDES:${PN} += "config-libibverbs \
 libbnxt-re-rdmav34.so \

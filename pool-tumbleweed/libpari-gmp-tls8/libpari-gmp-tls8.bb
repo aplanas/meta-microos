@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.15.3"
 
-RPM_NAME = "libpari-gmp-tls8-2.15.3-1.1.aarch64.rpm"
-RPM_HASH = "cebdc11b4c2b6a95d16bb0e8be2c80a49f3e1adc87cd9cd1a7b3db6a2ae53ea3f14b555c18fce3a4972d13b702fa62c017ed4f6b4c297298d4f1a3aeceeddd37"
+RPM_NAME = "libpari-gmp-tls8-2.15.3-1.2.aarch64.rpm"
+RPM_HASH = "d07fdcffa6d0d840d2d4f9e8acc96ae80ee94b19f3d3a0ee22165f67755477af98f617e1d6791eff22f4dded9de5f694e9b588cb1ceec9a2bd9ae4f71ddcd473"
 
 RPROVIDES:${PN} += "libpari-gmp \
 libpari-gmp-tls.so.8 \

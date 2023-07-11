@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "5.3.0"
 
-RPM_NAME = "jemalloc-devel-5.3.0-1.6.aarch64.rpm"
-RPM_HASH = "9e41952fc37da89ace5cb74765f2acd26aedd19af4707df530511a5183ab16e1caeef3ffe585f17f0009ad8ef0fa2a29ed4d9e0fd583d1f0e809bf10325036a5"
+RPM_NAME = "jemalloc-devel-5.3.0-1.7.aarch64.rpm"
+RPM_HASH = "384ff35705523a132201f303e053c64d9be3d72e3b2e6fdb39e2751e1f964d2c3ef847bd006ad556c9ec3bd6bfd11a014405a94f0120e92ca98b9c277677f3bd"
 
 RPROVIDES:${PN} += "jemalloc-devel \
 pkgconfig-jemalloc"

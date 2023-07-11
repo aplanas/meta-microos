@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.5.0"
 
-RPM_NAME = "urfkill-0.5.0-3.6.aarch64.rpm"
-RPM_HASH = "037478faf6fa92310d142ce60d38772741187e8e8a4182a1550cbe8ab8cf4ef007c2ec3c07e0fd6b2d0d9e2e64fb89532af6ad65aa7c056f5a547820e771cb05"
+RPM_NAME = "urfkill-0.5.0-3.7.aarch64.rpm"
+RPM_HASH = "a4ba425a9a13259f6b19c3b745b791c8c1deb07989150427516bd97c08d64f7bce55d0c0fe5400275b32184771a464e8e41a159696a1c23fa760b8b438c3c495"
 
 RPROVIDES:${PN} += "config-urfkill \
 urfkill"

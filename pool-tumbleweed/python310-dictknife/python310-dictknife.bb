@@ -8,12 +8,11 @@ LICENSE = "MIT"
 
 PV = "0.13.0"
 
-RPM_NAME = "python310-dictknife-0.13.0-4.9.noarch.rpm"
-RPM_HASH = "e2e244dc00c0d3f7adc204a574f6fe957c0c63e60a795a3280ef43d908d374a380c55bf0321e74a8c48a0ddabac812ff7287610ac0d8df84014214e24e923ef9"
+RPM_NAME = "python310-dictknife-0.13.0-4.11.noarch.rpm"
+RPM_HASH = "d34f0f2186f54a0930f92dce40187c5f5bc73e5fae6a8d2ff3a9b7296d2e91dd073bf2578ce3fca7ab3748884a710efe7ea611e09db2439e950e53da31577b74"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-dictknife \
-python3.10dist-dictknife \
+RPROVIDES:${PN} += "python3.10dist-dictknife \
 python310-dictknife \
 python3dist-dictknife"
 

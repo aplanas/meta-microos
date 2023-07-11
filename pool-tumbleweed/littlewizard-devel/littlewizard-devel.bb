@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.2"
 
-RPM_NAME = "littlewizard-devel-1.2.2-17.16.aarch64.rpm"
-RPM_HASH = "6bed501a88c8dcfec1277f87579b148735f31eb4292d3a497b102f8d212041817740d83089865403237dfedc10af4f419f0fc33444fc256fbc6cfd7fa0b766db"
+RPM_NAME = "littlewizard-devel-1.2.2-17.17.aarch64.rpm"
+RPM_HASH = "bbc66dfe2c628eebb0f8b61dabc8afbb556c3edb0b2aaca2d65b999056f38937956c61fd93cf9105ed2daa89b8b3115ad10aa5529b20387cc2c7b5a6b9cc2d2f"
 
 RPROVIDES:${PN} += "littlewizard-devel"
 

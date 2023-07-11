@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.8.1"
 
-RPM_NAME = "python39-screeninfo-0.8.1-1.3.noarch.rpm"
-RPM_HASH = "954c9d27ed09ef838ba3b9ceb191bf1e580f045cd14a4f27c036359a3a1df4d58f2f9f9e9b081e1bb5d0536460d142d68b2bb05547215bb7c65aade18382e91d"
+RPM_NAME = "python39-screeninfo-0.8.1-1.5.noarch.rpm"
+RPM_HASH = "6182e781e64067ed364c7643f0e11d9900ab3ee459845564d0c1a1d9234db5aa0a0019af94ad595bec5e7723bc673b04e2cdc6939374a6c922c985dda50e776c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-screeninfo \

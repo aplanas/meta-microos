@@ -1,4 +1,4 @@
-SUMMARY = "Modern build tool for software projects"
+SUMMARY = "Build tool for software projects"
 DESCRIPTION = "Qbs is a tool that helps simplify the build process for developing projects \
 across multiple platforms. Qbs can be used for any software project, whether \
 it is written with Qt or not. \
@@ -9,12 +9,12 @@ of executing the commands in the low-level build graph (like make). \
  \
 This package contains the command line interface. The Qt Creator IDE does \
 directly support working qbs projects."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later) & (LGPL-2.1-only | LGPL-3.0-only-with-Qt-LGPL-exception-1.1) & GPL-3.0-only-with-Qt-GPL-exception-1.0"
+LICENSE = "LGPL-3.0-only"
 
-PV = "1.24.0"
+PV = "2.0.2"
 
-RPM_NAME = "qbs-1.24.0-1.3.aarch64.rpm"
-RPM_HASH = "76079d266d396061e297d9b7da6f48c511d99dcbf68ffeaf274faf8a0430e98b50f63f67d55938ac97a08a1f5b53fd2bef7a5d63eb3732f8a0e040e7e3cc56f4"
+RPM_NAME = "qbs-2.0.2-1.1.aarch64.rpm"
+RPM_HASH = "ae101fbf30a6fb61c3881eb53306e7f2380629731f07a220c99b1210f9c914fab885448f81551281575280a77035d74cc1aef25ada21d1fdd8d53cb98733bb4f"
 
 RPROVIDES:${PN} += "libclangcompilationdbgenerator.so \
 libiarewgenerator.so \
@@ -22,20 +22,21 @@ libkeiluvgenerator.so \
 libmakefilegenerator.so \
 libqbs-cpp-scanner.so \
 libqbs-qt-scanner.so \
-libqbscore.so.1.24 \
+libqbscore.so.2.0 \
 libvisualstudiogenerator.so \
 qbs"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5Script.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
+libQt6Core.so.6 \
+libQt6Core5Compat.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
+libm.so.6 \
 libstdc++.so.6"
 
 inherit rpm

@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.0.0+git.20180109"
 
-RPM_NAME = "libcorrect-devel-0.0.0+git.20180109-3.8.aarch64.rpm"
-RPM_HASH = "ebfbfadecee2f803b8174579832f1feb0a012cc9976312371649a1592f9d382253b406157e920573e7d0c99173bacdc25e7591245d63109c4642aa48b105659b"
+RPM_NAME = "libcorrect-devel-0.0.0+git.20180109-3.9.aarch64.rpm"
+RPM_HASH = "4d573f00b43102acb9dd970cdb73d92e8b6c72a4f503c6cfafb9e028ebb6089df1fe793343feccbac158f826416ae450870cbe5eff8589e1fd53d2c3ea30fd49"
 
 RPROVIDES:${PN} += "libcorrect-devel \
 pkgconfig-libcorrect"

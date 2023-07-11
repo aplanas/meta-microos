@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.8.2"
 
-RPM_NAME = "python39-pyperclip-1.8.2-2.1.noarch.rpm"
-RPM_HASH = "5c620e8be6fc7d2f4d543145c2db289e75e183fb981f8cce6ca6285120110227e1db84e5ffa1ea51f3b4c02702f73e97726f9cfd637ee3866d8d06037af87456"
+RPM_NAME = "python39-pyperclip-1.8.2-2.3.noarch.rpm"
+RPM_HASH = "ac9eaba4a5e6e1735ba57f41c4cfefe994d3dddaadc94c72f40caeb048e28f1e2d5e95aa5ec002bddebcd3ba8f102838e28ac2bef18f091a1728ead5c7b96d32"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyperclip \

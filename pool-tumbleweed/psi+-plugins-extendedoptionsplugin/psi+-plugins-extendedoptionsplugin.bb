@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-or-later"
 
 PV = "1.5.1615+0"
 
-RPM_NAME = "psi+-plugins-extendedoptionsplugin-1.5.1615+0-3.1.aarch64.rpm"
-RPM_HASH = "021227e870dc1b35fa02612f0cd1f99e08289feb3af4042e0248a949375be4d12ac64038eee887978f1f5ca0e5fd3f92d66253a450bf358aeb309ea46d850b55"
+RPM_NAME = "psi+-plugins-extendedoptionsplugin-1.5.1615+0-3.2.aarch64.rpm"
+RPM_HASH = "537cfaec85b78251d534e71dd9b3f4796f8f9d939d212bfbd5e1d88847a8095664f6e4821c7ea004ca4fb62613b4c7993bb71de3fb24a01602273c3b104446b4"
 
 RPROVIDES:${PN} += "libextendedoptionsplugin.so \
 psi+-plugins-extendedoptionsplugin"

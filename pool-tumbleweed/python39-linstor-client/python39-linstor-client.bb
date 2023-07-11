@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.12.0"
 
-RPM_NAME = "python39-linstor-client-1.12.0-1.10.aarch64.rpm"
-RPM_HASH = "9c1dc5ac8848d512e63e4d435f17ee3d48544f14aeffc1809fa58a86f1e309f93f915b0c82d773d357537b35898502cedc8f6bf03af22d9c5bdea2af89013914"
+RPM_NAME = "python39-linstor-client-1.12.0-1.11.aarch64.rpm"
+RPM_HASH = "5a3e025ce996dbd28e1ceddeea33f971e77cc6c334d292b5d13960c1896bec98f7663a9b1c98ca8ef4df82801894d65d3033a430f9234dbc6a043e58519062f2"
 
 RPROVIDES:${PN} += "python3.9dist-linstor-client \
 python39-linstor-client \

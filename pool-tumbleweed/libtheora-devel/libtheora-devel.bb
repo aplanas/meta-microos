@@ -21,8 +21,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.1"
 
-RPM_NAME = "libtheora-devel-1.1.1-30.8.aarch64.rpm"
-RPM_HASH = "6b00395cd381115dedb8f3a84e5ed920884032f96c74fa6478640b9e4632b79b7a093fecd90ae59fff2b4a285eae21feb17b7ed8c0e17ef7ecde6ddcc9eb4f2c"
+RPM_NAME = "libtheora-devel-1.1.1-30.9.aarch64.rpm"
+RPM_HASH = "32e0ef8e43a6192e2c0e0b8edf52615899276ef6d920acf6b13032d558ee46c4afa9f3ac47862eaf3439f3e406d1b14f35470454aafa01b147f344dcdd1ffc7c"
 
 RPROVIDES:${PN} += "libtheora-devel \
 pkgconfig-theora \

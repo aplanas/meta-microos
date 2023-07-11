@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.6.0"
 
-RPM_NAME = "parsec-tool-0.6.0-1.1.aarch64.rpm"
-RPM_HASH = "bc60bc2c35bc800e665d817ee1824a0f5fa2e7969c5c0c3f59c5d1fa822fa96bd06988352c90835628af9ba6aa36882a101d8c7dbd9520e68971410810d01f39"
+RPM_NAME = "parsec-tool-0.6.0-1.2.aarch64.rpm"
+RPM_HASH = "227fe04a4d83d5cb170136d5d1e5152cb191ef10734f74941e7e581c709900ae53620db1560bcd4711112f51022f2f98d4139d7ac437b791d0b6fbdd91e71dbb"
 
 RPROVIDES:${PN} += "bundled-rust-crate-aho-corasick \
 bundled-rust-crate-ansi-term \

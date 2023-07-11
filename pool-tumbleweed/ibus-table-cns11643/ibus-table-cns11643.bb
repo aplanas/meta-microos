@@ -3,10 +3,10 @@ DESCRIPTION = "ibus-table-cns11643 provides CNS11643 input method on IBus Table 
 framework."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.3.13"
+PV = "1.3.16"
 
-RPM_NAME = "ibus-table-cns11643-1.3.13-2.3.noarch.rpm"
-RPM_HASH = "71c177f6feb8fa2a1b2dda7f16370b5fdd55a2ef4c5ee1bde391e14af42417522bed1c93df2659f813f0559eadeb62b1fe6e0395f3da0863e3aa16ba9b3e6f25"
+RPM_NAME = "ibus-table-cns11643-1.3.16-1.1.noarch.rpm"
+RPM_HASH = "d425a524c2684e90069ad29b9e7561fd616fe347eda132f94c8329e5af06bed39d813f011ac971f7569b3bef9127c31bb48acbb66f8f6ce7c10bca0bf28053d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ibus-table-cns11643"

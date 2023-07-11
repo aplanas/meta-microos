@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.6.1"
 
-RPM_NAME = "libenchant1-1.6.1-6.3.aarch64.rpm"
-RPM_HASH = "3646c74cbc2e4ab4345d5aa45d75e093c946d345ecfb4edf49b89642086af04e14bf91f1c05b967f32f1906f39153a95dd9f8bd764baa3c5f5d3b8f04a1b4e7c"
+RPM_NAME = "libenchant1-1.6.1-6.4.aarch64.rpm"
+RPM_HASH = "a66e1d8b0f4dc4f8300a243f406904e0b904edb98d0aa27d9833db670299a7428ad45ea5eaf67f3f5ad39887be1f0b1068537c7217d4764220329f141c6a5c85"
 
 RPROVIDES:${PN} += "enchant \
 libenchant.so.1 \

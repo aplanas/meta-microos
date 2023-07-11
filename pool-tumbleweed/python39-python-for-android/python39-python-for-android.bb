@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2023.2.10"
 
-RPM_NAME = "python39-python-for-android-2023.2.10-1.1.noarch.rpm"
-RPM_HASH = "7f24bb54e47a3fcdca4c45c79fb8046bd3e18949067283bc0d305e8928f09c1cafe1601039117cf6d63df4bb583b0e10c5840b8724aa441b23c5ec8400e1126c"
+RPM_NAME = "python39-python-for-android-2023.2.10-1.2.noarch.rpm"
+RPM_HASH = "421f7d899aef64c0c1b13ae745257f584a2c67da0263ddeffc1d58c7bdbc265b6822222bcb8b9af307bded2c18a6938996beaa6a478aa9a91bee3c7cab96c764"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-python-for-android \

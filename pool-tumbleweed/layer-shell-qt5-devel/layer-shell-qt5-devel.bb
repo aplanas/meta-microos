@@ -2,10 +2,10 @@ SUMMARY = "wlr-layer-shell integration for Qt 5 - development files"
 DESCRIPTION = "This allows integration of Qt applications with wlr-layer-shell."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "layer-shell-qt5-devel-5.27.5-1.1.aarch64.rpm"
-RPM_HASH = "3acdf0755bc0a5b99c8d7909fc8da7e4d7d8bef51e811b82cfdd9a8d252499856f69dc9795e395ac0eb13805375726314b74e8fd481453ddb0390690df8e0745"
+RPM_NAME = "layer-shell-qt5-devel-5.27.6-1.1.aarch64.rpm"
+RPM_HASH = "83820285567e41c6c7136dbae266d3bd7b6c1dfeb2da757deedee892f317e99f3ac00a2691ec18f6fe935dca16993e1cb47b27d0365d22cfd2564baba46a47ec"
 
 RPROVIDES:${PN} += "cmake-LayerShellQt \
 layer-shell-qt5-devel"

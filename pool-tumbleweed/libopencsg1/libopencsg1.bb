@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.5.1"
 
-RPM_NAME = "libopencsg1-1.5.1-1.3.aarch64.rpm"
-RPM_HASH = "7f70a69583e66f99e2df7feec26b81d4916778565472fe518d50780083a98e57a0a64086797929f937ae4ad3079144efaf7335df89dc210197a8346fda404f10"
+RPM_NAME = "libopencsg1-1.5.1-1.4.aarch64.rpm"
+RPM_HASH = "48f4e7bfc5324bb7750d74d3f0f69f98a79ec9c7638e11443836261db5f4c18ff5d47fa94535db4d0b66c7e734809f1991ff11ce3eaaeba6b6f6795ad0133b19"
 
 RPROVIDES:${PN} += "libopencsg.so.1 \
 libopencsg1"

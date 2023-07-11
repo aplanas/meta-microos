@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "0.5.3"
 
-RPM_NAME = "python39-physt-0.5.3-1.3.noarch.rpm"
-RPM_HASH = "4ca37f4cd8411bf37261789b02a93df4da1809fc00a1b1c17a08118f1772bc5b210f1c1c04c84710771b869ef0cd52578e2bed641482fc028bdf3041873fa1fe"
+RPM_NAME = "python39-physt-0.5.3-1.5.noarch.rpm"
+RPM_HASH = "c1f5f25a6be00ca84ade307c56bad6a25171b195e197e52ddba7156ef1701b66fd829be604085d111c2c02bcd810696f22c20f08e4ca6488adad6e5d54120ca9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-physt \

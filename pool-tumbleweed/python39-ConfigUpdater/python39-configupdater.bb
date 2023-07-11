@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "3.1.1"
 
-RPM_NAME = "python39-ConfigUpdater-3.1.1-1.4.noarch.rpm"
-RPM_HASH = "cf10c6540870fa88d33400ed8518f0be5c798893a4dc4de5e1f450a50fd6a84f09501875fed1fafe68f58d2abf2456e38adac721760970f65debac411ef16a37"
+RPM_NAME = "python39-ConfigUpdater-3.1.1-1.6.noarch.rpm"
+RPM_HASH = "88e4d6457e484f9991b4bd29e920d5686fb374375938731b242518df88b0e91f48986eccb4c099bf05562b3856cf452e4acb03bcc85f6b4a743c73bc3374c709"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-configupdater \

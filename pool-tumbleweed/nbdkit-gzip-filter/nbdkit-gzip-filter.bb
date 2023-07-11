@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.32.2"
 
-RPM_NAME = "nbdkit-gzip-filter-1.32.2-1.3.aarch64.rpm"
-RPM_HASH = "eedf0ccc2a2a2d3f052fd3f9906c95d36141512f18fe3c49058c3c9e6c4766558b39b9f43c1ef5f0e4f4f278c9fb7906ef02c1fba9de6f85fd47322b6c61aa4a"
+RPM_NAME = "nbdkit-gzip-filter-1.32.2-1.4.aarch64.rpm"
+RPM_HASH = "ad3b2ba2e9719dbfb08d6985a41ec496108e9d0091ad5ac05944f805e6585fb49e432faee15261b5764f46c9dc29162a800b32764efd5f9ebefcdb543b4fb47a"
 
 RPROVIDES:${PN} += "nbdkit-gzip-filter"
 

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
 PV = "5.0.0+git20170311"
 
-RPM_NAME = "libqt5-qtstyleplugins-platformtheme-gtk2-5.0.0+git20170311-10.11.aarch64.rpm"
-RPM_HASH = "8835c8cf2402cdca5eda785d6f8cd49680cc645d2a95a3363896718bde49ebb0249364b4e200f526f024fc6e76a809b7e93269c1a04cf05183548f01aa36b5f7"
+RPM_NAME = "libqt5-qtstyleplugins-platformtheme-gtk2-5.0.0+git20170311-10.12.aarch64.rpm"
+RPM_HASH = "d04dfc035258efae70b240ecb3e60eda1ecf4763d55c8e4e4792291f6936b5dbd1f4f5e65769c42d6f527d4788267edc73c76a09130fed63b0b458a1cae69896"
 
 RPROVIDES:${PN} += "libqgtk2.so \
 libqgtk2style.so \

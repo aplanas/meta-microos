@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-only & LGPL-2.1-only"
 
 PV = "12.2.0"
 
-RPM_NAME = "open-vm-tools-containerinfo-12.2.0-3.1.aarch64.rpm"
-RPM_HASH = "6ea2df3ec9da20af32ed44605b9585e540e6ccd3b007ce417e42e6400135b39d07ccdde1b436da6cca58922c3e8d16eb3ff21c03bfcb7f8ffc3b98085ef8ce24"
+RPM_NAME = "open-vm-tools-containerinfo-12.2.0-5.1.aarch64.rpm"
+RPM_HASH = "0b5d7b5bc64e1414a547828968eeff617a487c390acb43a7dbd1ace55c26d00cb507fafb5ba4448df8674e5699bb9e00f22216ef54aa140d781f8fb40eb791f5"
 
 RPROVIDES:${PN} += "libcontainerInfo.so \
 open-vm-tools-containerinfo"
@@ -13,15 +13,18 @@ open-vm-tools-containerinfo"
 RDEPENDS:${PN} += "/usr/bin/sh \
 curl \
 ld-linux-aarch64.so.1 \
+libabsl-cord.so.2301.0.0 \
+libabsl-cordz-functions.so.2301.0.0 \
+libabsl-cordz-info.so.2301.0.0 \
 libabsl-synchronization.so.2301.0.0 \
 libc.so.6 \
 libcurl.so.4 \
 libgcc-s.so.1 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
-libgpr.so.31 \
-libgrpc++.so.1.54 \
-libgrpc.so.31 \
+libgpr.so.33 \
+libgrpc++.so.1.56 \
+libgrpc.so.33 \
 libprotobuf-3.21.12.so \
 libstdc++.so.6 \
 libvmtools.so.0 \

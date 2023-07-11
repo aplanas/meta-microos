@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.3.4"
 
-RPM_NAME = "python39-retrying-1.3.4-1.3.noarch.rpm"
-RPM_HASH = "f12770466476fe342521c6b11a23643a31501c54d663b029e032a8e8739eb2bdcc90fac9aa59dbdf1407788050757ed69ccdb5fcb06f26576908e7478a90af28"
+RPM_NAME = "python39-retrying-1.3.4-1.5.noarch.rpm"
+RPM_HASH = "2c752f4fb49c39c8d5da8dfc99299022003a040db41538f5eaf97079759b2c08250e58c325d8371b1544315ad41b8aee599d813c7e6c809a396a533e9f3586cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-retrying \

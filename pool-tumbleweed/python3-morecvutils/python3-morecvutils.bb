@@ -6,12 +6,12 @@ LICENSE = "MIT"
 
 PV = "1.0.2"
 
-RPM_NAME = "python3-morecvutils-1.0.2-4.10.noarch.rpm"
-RPM_HASH = "c7b224c9cc1ee1b973321c31fb1ba87e8d488cb99755b44aa29e7169927fc87fffe0ac4c18add12a7dc1498e0cb27a252354fa2bdfdb211f6bd67217a23dd1b7"
+RPM_NAME = "python3-morecvutils-1.0.2-4.11.noarch.rpm"
+RPM_HASH = "b5b203b0301fdc758594efa7e656ef288c22f10aa68cbdc2b146a2b425b81f5b6e23332eb49404a21a3acc59d27ba14f193b9afd96341737cb376add13eaf7bb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-morecvutils \
-python3.10dist-morecvutils \
+python3.11dist-morecvutils \
 python3dist-morecvutils"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

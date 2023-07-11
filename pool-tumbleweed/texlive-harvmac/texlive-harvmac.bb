@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.svn15878"
 
-RPM_NAME = "texlive-harvmac-2023.201.svn15878-53.1.noarch.rpm"
-RPM_HASH = "8a2feace748d27ccb2032c6bb7f7edda9eef8123ffbb84d2c587b6f100afb542e019aa73ca4abf4b2ed28dd0368630745d68adcd6c585b2a392da867800d34bf"
+RPM_NAME = "texlive-harvmac-2023.201.svn15878-53.2.noarch.rpm"
+RPM_HASH = "23cd7edeebdb13b7c13c7d2185e6374b8844f21b69bf373c5e6fedc60b8d9f373d5dc2fcf3731237940635e0f07a30798a21a367d8ab57c494c1cf408ca9227b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-harvmac.tex \

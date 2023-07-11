@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-only | SUSE-GPL-2.0-with-FLOSS-exception | NonFree"
 
 PV = "6.5.0"
 
-RPM_NAME = "python39-PyQt6-devel-6.5.0-1.2.aarch64.rpm"
-RPM_HASH = "7d8f9d5356227c2cb6cc1ccf554cbcb4ef42190bcca6e0e743e517bc213fb379abd56b57cdeeda3b7f618655c87b2d79bc3f030ef291fed36c96161d4fbc7210"
+RPM_NAME = "python39-PyQt6-devel-6.5.0-2.2.aarch64.rpm"
+RPM_HASH = "c7242ccb00794c107e3974f841215c03ab794ae70d1050fb00e78a32cd921fa33a72c31c3fc2516e717f76cac49771c34900c02305412099f28f61bc3010c1f1"
 
 RPROVIDES:${PN} += "libpy3.9qt6.so \
 python39-PyQt6-devel \

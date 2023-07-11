@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.1"
 
-RPM_NAME = "ocr-gnu-openmpi4-hpc-1.0.1-5.8.noarch.rpm"
-RPM_HASH = "ebf52c7937a79a8169f16c1ad259d1bef78590c438e12a96b925747b437bfacf9efa84dc28dd1b35afaaa14ca0fefdf4d461dfc30ca8d9da9324ae46cd292f20"
+RPM_NAME = "ocr-gnu-openmpi4-hpc-1.0.1-5.9.noarch.rpm"
+RPM_HASH = "d2fd8e5d15f1e3a35da288127de242a8cecb40a7806e4bf39858f65bb9290ce13f62f0f76b73f2961832253e09ef70dead6aebeea451a4a615454bbf75dbbddb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ocr-gnu-openmpi4-hpc"

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.0.5"
 
-RPM_NAME = "grisbi-lang-2.0.5-1.8.noarch.rpm"
-RPM_HASH = "cb422daf961c26608ed2b7f413705a6f3d5c177104bd53838e593dfa21d314ea7daf4da611fa4449b9c15e1e238c2d85c2c774108ac8a58ac0f7a56934e0e716"
+RPM_NAME = "grisbi-lang-2.0.5-1.9.noarch.rpm"
+RPM_HASH = "ae3291e52802a464b436e50a12ffd44131352add45eb5419c48aa372e1357a11bf2afc1bc487d665b3502bfdceef83c9e046a9846a23d7a59bc338e4b9174666"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "grisbi-lang \

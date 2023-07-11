@@ -3,10 +3,10 @@ DESCRIPTION = "tukit is a simple tool to make changes to a system in an atomic w
 with btrfs and snapshots."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.2.1"
+PV = "4.3.0"
 
-RPM_NAME = "tukit-4.2.1-1.1.aarch64.rpm"
-RPM_HASH = "23010a02e13201a5a56f32c2ae901ba5b642c39883877255b89134c24cfa4e2376c5d7bd88fecc8d40cf7543be8507351c1b2dadd6d994b198513728e227ea26"
+RPM_NAME = "tukit-4.3.0-1.1.aarch64.rpm"
+RPM_HASH = "85f65f1dd29908f833324868762d6e5d7690c49901f3268555cb96cc0d5336c49124b21e3818b51d46c8aac58d0de86170caddda8a05ba05acc7fbf4d02b4552"
 
 RPROVIDES:${PN} += "tukit"
 

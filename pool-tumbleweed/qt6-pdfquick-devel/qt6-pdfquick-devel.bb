@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-pdfquick-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "7fbf51f68f1f1dd0404bffea33144629d55c36f041fb9cc20c47007e431ae1f458e223762587de918b395f23e0a2844600afbd5871c33b22d895783d66fba83b"
+RPM_NAME = "qt6-pdfquick-devel-6.5.1-1.3.aarch64.rpm"
+RPM_HASH = "32f4c9e6a867741ced5db84776242f9e8e73e8f550d2d96d4d5765266dee22e47413b812c8bc6e72a14ae1e89bcddc52c9a51cba4c94228184ee3a89adb2c130"
 
 RPROVIDES:${PN} += "cmake-Qt6PdfQuick \
 pkgconfig-Qt6PdfQuick \

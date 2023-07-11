@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "1.4.0"
 
-RPM_NAME = "python39-azure-appconfiguration-1.4.0-1.3.noarch.rpm"
-RPM_HASH = "a4bc142971ea8378a4650bac810f68dec266d1dcc355df72e2fa55ce5a659c6df2b7c00241fb4704e45c25bfd896286c415bd4cfeeeb33606c2fbf93d1c9e618"
+RPM_NAME = "python39-azure-appconfiguration-1.4.0-1.4.noarch.rpm"
+RPM_HASH = "01ded727926e20d15f30dd52c8d6540a39676a4d3135c9faaae0a7a5a5041b6b3032e7d2697af146568283b28bbef31fdead17f6160e1cd848f4ab1d527f2c75"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-appconfiguration \

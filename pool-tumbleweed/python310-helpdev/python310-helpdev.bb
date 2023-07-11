@@ -4,12 +4,11 @@ LICENSE = "MIT & CC-BY-4.0"
 
 PV = "0.7.1"
 
-RPM_NAME = "python310-helpdev-0.7.1-2.13.noarch.rpm"
-RPM_HASH = "8a5589761dc1a2df45b7faabf7e13783acf4f83dff74ba5380695461602fd4386e603cc1aea128eb32c8ada648ed8bb44782ae293abd9e380b193a0abad7ad6c"
+RPM_NAME = "python310-helpdev-0.7.1-2.15.noarch.rpm"
+RPM_HASH = "7440a490c51a1686c98679262de8e0fa64d6b87b6cd45a389c6e1a383074466428cece6ceaa45afc3bcdf64b05055a2c54456d3c83c412294e5ba68ae92f8ea7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-helpdev \
-python3.10dist-helpdev \
+RPROVIDES:${PN} += "python3.10dist-helpdev \
 python310-helpdev \
 python3dist-helpdev"
 

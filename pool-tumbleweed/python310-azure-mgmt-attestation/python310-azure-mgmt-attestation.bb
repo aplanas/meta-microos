@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0.0"
 
-RPM_NAME = "python310-azure-mgmt-attestation-1.0.0.0-1.10.noarch.rpm"
-RPM_HASH = "a4e456e33180ba3eb9c387dabec049b8b7dd9df243071de30af0b23d4d2ddc72d96c3c27d88d7b63c6fa492119d6476fe83ec9596544c46795ace385cc0a050c"
+RPM_NAME = "python310-azure-mgmt-attestation-1.0.0.0-1.11.noarch.rpm"
+RPM_HASH = "0bbb60a83a450bdcc3c2acb9b80df015cac787dd52696f548c147fd507abd979628f953a06b525f4f065b3cb6d796a1eceba7f54d0c8d845754b410569681d92"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-attestation \
-python3.10dist-azure-mgmt-attestation \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-attestation \
 python310-azure-mgmt-attestation \
 python3dist-azure-mgmt-attestation"
 

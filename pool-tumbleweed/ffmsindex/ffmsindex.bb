@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "2.40+44"
 
-RPM_NAME = "ffmsindex-2.40+44-1.5.aarch64.rpm"
-RPM_HASH = "2b4cedfd86c8f37c1c218cc91f7e55ea0a18636a0d60826ab1c300ef9c8150fdd1eb014bed22e3c4c6fff690e5dbeef05318188e8d3fc301b8ad4f0f87fd059c"
+RPM_NAME = "ffmsindex-2.40+44-1.6.aarch64.rpm"
+RPM_HASH = "3fbf2953504584111b1a87af5cecbb6405da69335d6c99893423cfa114d306059cbef9d4c2f98a874c096593f937a7087acdecf62cdb35c99b25be8ae83ef1dd"
 
 RPROVIDES:${PN} += "ffmsindex"
 

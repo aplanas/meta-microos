@@ -6,12 +6,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.4.166"
 
-RPM_NAME = "python310-pymisp-2.4.166-1.4.noarch.rpm"
-RPM_HASH = "8f033de9873c785ada6dabf8fee33f151b9eb6c3a47df878549864fa8a190862cc2992e60fe22e3640d806041d1c850e0e50d8ab48c2a0befb64af543d2cda74"
+RPM_NAME = "python310-pymisp-2.4.166-1.5.noarch.rpm"
+RPM_HASH = "cf2673cd564625741598d7ac3b2e06065241ca8c19a85fcaccdeb8a23fe5a726bcf4851f753890aa70326933bf29b15a2b19321a8ba2d0741a49f33ae6a6630e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pymisp \
-python3.10dist-pymisp \
+RPROVIDES:${PN} += "python3.10dist-pymisp \
 python310-pymisp \
 python3dist-pymisp"
 

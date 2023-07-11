@@ -7,10 +7,10 @@ The functionality of the system is provided via an assortment of \
 tools, XML authoring components, and an plug-in based API."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "7.14.0"
+PV = "7.16.0"
 
-RPM_NAME = "libmlt7-modules-7.14.0-2.2.aarch64.rpm"
-RPM_HASH = "bc76d545f8a8a6cfb9f8bd4873a430fd6853bdac07304bc23032842978e8591ec7df88b3b0fa69321ecad81e34bbbd10333d04594af40574fab9a84e7f361280"
+RPM_NAME = "libmlt7-modules-7.16.0-1.2.aarch64.rpm"
+RPM_HASH = "7b107cf71b97bd316bbeb6808d58c09e2dc9be0651e9911fb9ee06a8e9535eb4ae520ed4d0d909ae7b92bdd7a458929a60e46a6bdaba9c8ecfe37f512f8bebbc"
 
 RPROVIDES:${PN} += "libmlt7-modules \
 libmltavformat.so \
@@ -49,12 +49,11 @@ libQt5Widgets.so.5 \
 libQt5Xml.so.5 \
 libSDL2-2.0.so.0 \
 libX11.so.6 \
-libarchive.so.13 \
-libavcodec.so.59 \
-libavdevice.so.59 \
-libavfilter.so.8 \
-libavformat.so.59 \
-libavutil.so.57 \
+libavcodec.so.60 \
+libavdevice.so.60 \
+libavfilter.so.9 \
+libavformat.so.60 \
+libavutil.so.58 \
 libc.so.6 \
 libebur128.so.1 \
 libepoxy.so.0 \
@@ -81,8 +80,8 @@ librubberband.so.2 \
 libsamplerate.so.0 \
 libsox.so.3 \
 libstdc++.so.6 \
-libswresample.so.4.ff5 \
-libswscale.so.6 \
+libswresample.so.4 \
+libswscale.so.7 \
 libvidstab.so.1.1 \
 libvorbisfile.so.3 \
 libxml2.so.2 \

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.2"
 
-RPM_NAME = "jupyter-jupyterlab-pygments-0.2.2-3.3.noarch.rpm"
-RPM_HASH = "75b1fe917b9e9392072571ef847979d2cc34439a56a0ea66fcfa9cf7018a15ac71530708691572d493d730a4124bbd0077e7fcb927c40c1dfd0007a04b96873b"
+RPM_NAME = "jupyter-jupyterlab-pygments-0.2.2-3.5.noarch.rpm"
+RPM_HASH = "1ea6aaf8a5f8ac81574a660e96fdc2bfec74bd90768da87509e71487f50967d6d975a83dbe2e6d4282611f5aa98cf24b8f029f5730a64f9c74dac5e42a0c4a1d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-jupyterlab-pygments"

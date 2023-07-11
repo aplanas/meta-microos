@@ -2,10 +2,10 @@ SUMMARY = "Library for Mahjongg tiles"
 DESCRIPTION = "This package contains the library for Mahjongg tiles."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libKF5KMahjongglib5-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "dbfbf9fad87f3bf8a68a583bf1000c7c490ecda3dc1043ad7f8007843144fdec6908ae07d78f69afc5d789236e24fa620d7be68ce18bede20ed5c71665bc40d7"
+RPM_NAME = "libKF5KMahjongglib5-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "f4a37d87ae14844ea0dfd56c853eabadeec327e5d5f17d2b3d8b5f79e9f1072f530af9e94a224dee53dbca2e43766678aa26703c33522bcb548cc54673f8911f"
 
 RPROVIDES:${PN} += "libKF5KMahjongglib.so.5 \
 libKF5KMahjongglib5"

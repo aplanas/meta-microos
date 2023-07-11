@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "3.4.0"
 
-RPM_NAME = "libdiscord-rpc3_4_0-3.4.0-3.3.aarch64.rpm"
-RPM_HASH = "c271ff2f987aa939d0da75858d453f9449e3f1b60e38b5710b70b9965ae994359a4a4021de8a33985e1ad396fadb52d744d53cdfb625a2a54ed3d223a105e01f"
+RPM_NAME = "libdiscord-rpc3_4_0-3.4.0-3.4.aarch64.rpm"
+RPM_HASH = "aad1fc492b3ed81779b930238b57bf572ed4f95cb7236e7e95112d036f1515568405bde9accf25b2550d2bd4a820c8ed43b2b0fd424f7c97ebbc4a04337d2d5a"
 
 RPROVIDES:${PN} += "libdiscord-rpc.so.3.4.0 \
 libdiscord-rpc3-4-0"

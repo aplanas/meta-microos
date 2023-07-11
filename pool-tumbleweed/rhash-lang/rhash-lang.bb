@@ -4,8 +4,8 @@ LICENSE = "0BSD"
 
 PV = "1.4.3"
 
-RPM_NAME = "rhash-lang-1.4.3-1.5.noarch.rpm"
-RPM_HASH = "49983646b597a7912efba255c8501c25a0c9dec304e38e9bb67e147fde51bc8570d0ba778a769efecb2d38b8aefd1451e6cbf35f0d452e4404c0da8fe98f5a81"
+RPM_NAME = "rhash-lang-1.4.3-1.6.noarch.rpm"
+RPM_HASH = "3f7fd0b50b21b7e6f0ca4b8271a01f0b45ca7b1cd48e99f4af288270c762f6bb185baee147c651d7ca21163708ca349205317b44335dd57bbff69856bb9a2783"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-rhash-ca \

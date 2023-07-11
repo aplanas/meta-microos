@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & GFDL-1.2-only"
 
 PV = "3.2.0"
 
-RPM_NAME = "kexi-3.2.0-8.8.aarch64.rpm"
-RPM_HASH = "a874d33109a4bd046513261d82e4275d9d9c1cef73e66dcf34245e388ee2840d1d5d9d8b1cdaa91788fdf6d38f74af43b1133fe46f419574aa025466814e6d7a"
+RPM_NAME = "kexi-3.2.0-8.9.aarch64.rpm"
+RPM_HASH = "e1c98d313a32df71b7dc7264d24bb13a23e602009e7459f45bd7b29613db5728d5f218a45cb66ba7d0e859c6f03ccc942f6742c0ecd688a4423cf0fb487dd1e4"
 
 RPROVIDES:${PN} += "calligra-kexi \
 kexi \

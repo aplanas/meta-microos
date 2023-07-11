@@ -14,11 +14,12 @@ LICENSE = "MIT"
 
 PV = "0.1.0"
 
-RPM_NAME = "python311-samplerate-0.1.0-2.7.noarch.rpm"
-RPM_HASH = "42038cdb87936c70a1edff0bcc038b3c0f43b6ad419aa6016f6926a2e9ee3c829c0202b64f1e33fd22992d4527c8b7aa441e933d32733dd52f0280633d5be6db"
+RPM_NAME = "python311-samplerate-0.1.0-2.9.noarch.rpm"
+RPM_HASH = "ef64ef14454cf984e67d5745feab104c51c1ca45461a3540ab35c32baac352eb09d2a2e86c89a5d2a0c52b6073face5e4dc31a89abf6261f9e5dc30f4d99c687"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-samplerate \
+RPROVIDES:${PN} += "python3-samplerate \
+python3.11dist-samplerate \
 python311-samplerate \
 python3dist-samplerate"
 

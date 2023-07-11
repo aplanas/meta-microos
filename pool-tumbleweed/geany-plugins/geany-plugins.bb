@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
 PV = "1.38"
 
-RPM_NAME = "geany-plugins-1.38-3.5.aarch64.rpm"
-RPM_HASH = "5c1a7dc178dec2198e6f749e39d8f4f4838807c8f0153b8526f0ba938cab1c90218134b80f14f94b03bda1bb01853735e7add880fb221a2c5ef4d65efdd235b5"
+RPM_NAME = "geany-plugins-1.38-3.6.aarch64.rpm"
+RPM_HASH = "782e02c470cfbb26d726312524cfc9ec261d96219d0a52cb9add8aa1dcf656f256df73e67fd1440903d3df77ecf8b0fc1ea5a63c5aa9f039f04f782be72acb98"
 
 RPROVIDES:${PN} += "geany-plugins \
 libgeanylua.so \

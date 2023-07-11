@@ -6,8 +6,8 @@ LICENSE = "AML & GPL-3.0-or-later & SUSE-GPL-3.0+-with-openssl-exception & MIT &
 
 PV = "0.9.1"
 
-RPM_NAME = "kaidan-0.9.1-1.1.aarch64.rpm"
-RPM_HASH = "8df8b8289bfe39afe8a6986959d5f9234d9aad63e2146ee4369ac84e6679b8f55824d30a59ff2b1747897bb22231a5c6bfc48abee104d4c44b3349efabdfc5d3"
+RPM_NAME = "kaidan-0.9.1-1.2.aarch64.rpm"
+RPM_HASH = "92c68ac3f67d43525d3e9e79ad9f48640d4d39048b3accca29810f8f0642a51d19b3d978419cce8112ee2132fc0472460a59641c9cc6e83a4bbef2fee078c1d5"
 
 RPROVIDES:${PN} += "kaidan"
 

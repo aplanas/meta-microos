@@ -8,10 +8,10 @@ and configure ODBC drivers for the ODBC driver manager that is \
 installed on your system."
 LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
-PV = "5.15.9+kde154"
+PV = "5.15.10+kde129"
 
-RPM_NAME = "libQt5Sql5-unixODBC-5.15.9+kde154-1.2.aarch64.rpm"
-RPM_HASH = "304965ccc469eb3f25cf6b0fcf9c122c043a2289546d8d8e189c8cadc284f6ac2afe385f291cafffe656c43e3592764b6bc8b35778691602ff0b081cc8c2fc44"
+RPM_NAME = "libQt5Sql5-unixODBC-5.15.10+kde129-1.1.aarch64.rpm"
+RPM_HASH = "666bd07a834c67ef2b7a9445a3f29fe83fd347f956e93a352b991a471616ab356a1695d29004ec2f7b6034220bb488f634d71d6a7011d34a7edcb014c1e3a26f"
 
 RPROVIDES:${PN} += "libQt5Sql5-unixODBC \
 libqsqlodbc.so \

@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.4.3.2"
 
-RPM_NAME = "cadabra2-doc-2.4.3.2-1.5.aarch64.rpm"
-RPM_HASH = "b4b90118f825be5348937609a3f150ef49adebe74f5c07cac9fd52c7c9ba0608f835c650771729496c86190dd8c853f501fba16aa43e895f61a1523f62acbd34"
+RPM_NAME = "cadabra2-doc-2.4.3.2-1.6.aarch64.rpm"
+RPM_HASH = "0e97eea4709585a4d71538b3f309513ca900e5e0fc6cd8b9a81b7a36e969ed6a519aca65f3f0ebbe5e3125e64e3aeb1f4b4ccf18f691357a44819aed5a1f9536"
 
 RPROVIDES:${PN} += "cadabra-doc \
 cadabra2-doc"

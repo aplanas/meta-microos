@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.0.0a"
 
-RPM_NAME = "libmarkdown3-3.0.0a-1.1.aarch64.rpm"
-RPM_HASH = "68f30de76cace2358e03d544a0e6ba1e8ec5eb2d532ab4ae74f3d6a0412e4af7d0b7f60f3cc3aa2b618d5b162207144e3efacee57432c93aab2a0d1fe7366be7"
+RPM_NAME = "libmarkdown3-3.0.0a-1.2.aarch64.rpm"
+RPM_HASH = "58a3b62d6245937fc26c545525909b2b1b185ad266b4d3fb65e8f4d64ad85938f85b7e36acc6bcb734eac60990abf7304e4296449ef3d27e45d164c1905c672e"
 
 RPROVIDES:${PN} += "libmarkdown.so.3 \
 libmarkdown3"

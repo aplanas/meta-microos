@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.0.1"
 
-RPM_NAME = "jakarta-commons-modeler-2.0.1-2.6.noarch.rpm"
-RPM_HASH = "6154898be183e2c821160fac5e703f1858b7a2d742a374bb31c34a78b5b0e83cf446ebadb8ea60f5554020b1cd065a1f0d72b1e61f99f40651c1d2bbae707f9a"
+RPM_NAME = "jakarta-commons-modeler-2.0.1-2.7.noarch.rpm"
+RPM_HASH = "639ef2d027b437cca920824d7e1938d3c76f668e1367b5d4422e0def6df170aecba1fbacb55c8fed6d967d5a43dd0ea6529a38f22a207cc10154a04d0bef90ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "commons-modeler \

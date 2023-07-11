@@ -4,13 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2.1"
 
-RPM_NAME = "python310-pyusb-1.2.1-1.8.noarch.rpm"
-RPM_HASH = "a78afe2c5d2cdf79e90c02cc12f8732bc8e1023dacecb31261e7adffbfc5be1dca11a10d6223155c96427ffd7aaee38b011701bb148ce6eb8798580eab63d522"
+RPM_NAME = "python310-pyusb-1.2.1-1.10.noarch.rpm"
+RPM_HASH = "ffacc9ffb4716f67c0ebec5298160df0c61fb82571f01d03f1204f3002511d59224682e26fb24427f0ac45010f57ecf20e1f9d0caf28aba918f5bcdfa85a6b9e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pyusb \
-python3-usb \
-python3.10dist-pyusb \
+RPROVIDES:${PN} += "python3.10dist-pyusb \
 python310-pyusb \
 python310-usb \
 python3dist-pyusb"

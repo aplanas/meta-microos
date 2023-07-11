@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.10.6"
 
-RPM_NAME = "libnma-gtk4-0-1.10.6-1.3.aarch64.rpm"
-RPM_HASH = "769d4fa4f9b4a43d20bd29390933603b1bcb840c7c31ad9bd8044940fc87ff5bf746d3db533e5ded35af357ce9b3e0a1ae1a96a454dc3739c74082154c6647d8"
+RPM_NAME = "libnma-gtk4-0-1.10.6-1.4.aarch64.rpm"
+RPM_HASH = "a7ff5ec7612ae5bfc7078d4275c467b74e7e14abfd8f2d78739526aa2fa8e7be51e4da9374c4b6ef4c1691fe5ffbc43c1cc25fc741e7a3e67c90604bb6ab3530"
 
 RPROVIDES:${PN} += "libnma-gtk4-0 \
 libnma-gtk4.so.0"

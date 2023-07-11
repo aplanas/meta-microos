@@ -12,8 +12,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0.0"
 
-RPM_NAME = "liberfa1-2.0.0-1.10.aarch64.rpm"
-RPM_HASH = "17dbbf42bd6d750334898c28c13e5ca6654fdcb6819f99f66fe6db4cf8673c9d826590adc7c687b0ae40af0d12aa8eebfc899cc772d90382bfa7dd6b9e3a9ddc"
+RPM_NAME = "liberfa1-2.0.0-1.11.aarch64.rpm"
+RPM_HASH = "ef2f51ff493fdf8037e6369c6dce1191ee1b513d12914633f862205ced506c5cec8b9e8af1a102817c084d536be84b60f0c8d168800f9ca66b5801f2902baab8"
 
 RPROVIDES:${PN} += "liberfa.so.1 \
 liberfa1"

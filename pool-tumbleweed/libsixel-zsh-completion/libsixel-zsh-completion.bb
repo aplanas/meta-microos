@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.10.3"
 
-RPM_NAME = "libsixel-zsh-completion-1.10.3-1.7.noarch.rpm"
-RPM_HASH = "3fa835e2eb709c52e318979b5ff408d39801ceb9c80e80e47a68db50981f45a913f664ad46c132e98b353e5872e9b2929fd2ec0bd1b097a154485df3f09ff237"
+RPM_NAME = "libsixel-zsh-completion-1.10.3-1.8.noarch.rpm"
+RPM_HASH = "b6583bea69db03181d116c857f5b5e794588718ff2b60daf269a735c27211c3b90f0dd485ae97607554c0f657c13d9b59acb893b33278e46be2bb7d3857dbefd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libsixel-zsh-completion"

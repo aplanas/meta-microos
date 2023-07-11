@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.0.7"
 
-RPM_NAME = "python39-jupyterlab-widgets-3.0.7-1.1.noarch.rpm"
-RPM_HASH = "9c7a14987bd930c9b94a357c9eb158cb1f2eb8d18afd6c59a8a5b952c80530d17dbfaddefbf2585921dbf6ea5fa51bae99f8f3942144e9d90551fa0e8789e3df"
+RPM_NAME = "python39-jupyterlab-widgets-3.0.7-1.3.noarch.rpm"
+RPM_HASH = "b87c715afa28559040422ae364833ef3a703f4b50c71f1de81d78512d933e54c4b823362708478db9fcbddb9bfc686c58c67263886598238c45ad9abc7e525c6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-jupyterlab-widgets \

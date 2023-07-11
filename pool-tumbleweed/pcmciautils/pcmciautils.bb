@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "018"
 
-RPM_NAME = "pcmciautils-018-3.6.aarch64.rpm"
-RPM_HASH = "26703d17ef7cc9c7cfcf72117658a55cf5a43fb87cd09fdd18733478befc60543a93e7a23e482b7a932e0074c32a1b319459b1736dfb23174a2522e9c65d433c"
+RPM_NAME = "pcmciautils-018-3.7.aarch64.rpm"
+RPM_HASH = "77982bfb150e031d69eb2a07a835c08e74d7335fac7002f379a070ba05a75a87397260e0d8db9e43e8af2acbccf3c8337941ee1b5bc919f7653ea7e7f891ec94"
 
 RPROVIDES:${PN} += "config-pcmciautils \
 firmware-E-CARD.cis \

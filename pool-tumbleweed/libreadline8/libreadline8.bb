@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "8.2"
 
-RPM_NAME = "libreadline8-8.2-2.3.aarch64.rpm"
-RPM_HASH = "77e2d4c93f24f9959a403ec3b623aae038cddde99055d22160aa3397565015815dd346ef4510acddc0b27688b5df51240ecefe682b8b7bd7ad72367e286da18d"
+RPM_NAME = "libreadline8-8.2-2.4.aarch64.rpm"
+RPM_HASH = "eef4482a70c71eebf3ded75fc7dce13604f24cc621cd3d88758e73704b9c72f6f79097792172dfb05147cb8b9bfa64675948c0c08d00009a697aacf1f8377ac6"
 
 RPROVIDES:${PN} += "bash-/lib64/libreadline.so.8 \
 libhistory.so.8 \

@@ -6,8 +6,8 @@ LICENSE = "GFDL-1.1-or-later & LGPL-3.0-or-later & GFDL-1.3-or-later"
 
 PV = "20230318"
 
-RPM_NAME = "python39-libesedb-20230318-1.2.aarch64.rpm"
-RPM_HASH = "e5f97591527252f711550dec777df4268f759cfd570af06e72f7651d0440ccae0505f3db58eebece73b5357486c53d0518d2041e5372e44e10cc2d2655a9042f"
+RPM_NAME = "python39-libesedb-20230318-1.5.aarch64.rpm"
+RPM_HASH = "cf97bd3cfa59a80f46394cb6b223ed6ea5d13f4a0f59e3e1e0d73046d8881b4c0696d3534fcc7b32f8458b0376013f1bc01f3dfc8c699779b272c1ba3d675832"
 
 RPROVIDES:${PN} += "python39-libesedb"
 

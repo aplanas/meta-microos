@@ -18,8 +18,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.02"
 
-RPM_NAME = "perl-User-Identity-1.02-1.1.noarch.rpm"
-RPM_HASH = "f909f410b8d44968ae3ca371a9834f04c21c498b410ccbfb0abd62af41c91e5cb1a830762d1b2bb5faa24d8e48bcf078a507439bdc2fd381ab7332d3efeb4f9b"
+RPM_NAME = "perl-User-Identity-1.02-1.2.noarch.rpm"
+RPM_HASH = "6d89e253cc027c852011c6d278b3bf8ee1f8f82aa614bc4fb420ffa74790a92be4913891277957abf812bef394c74b4998c123cfe0cd4d06e6b6845ce5705c4f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mail--Identity \
@@ -36,7 +36,7 @@ perl-User--Identity--Location \
 perl-User--Identity--System \
 perl-User-Identity"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Hash--Ordered"
 
 inherit rpm

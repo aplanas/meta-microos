@@ -9,12 +9,11 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "3.0.5"
 
-RPM_NAME = "python310-python-mpd2-3.0.5-1.5.noarch.rpm"
-RPM_HASH = "763c9949cf5dd9478e842ae76f95416bb6bf425252198c2e52cd0f2db088adcba56d3dd211a7afcf4239ddf3448aad2a366f980ad6ecba3397c4713e2a3b782c"
+RPM_NAME = "python310-python-mpd2-3.0.5-1.7.noarch.rpm"
+RPM_HASH = "d3aefa7782350482bb96a64c9e1658dc51a063cd870f272664c99ad821247e18bb671d6276e2a2b244cc29836facffb00234a532e44fea721c3b4b32427c4071"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-python-mpd2 \
-python3.10dist-python-mpd2 \
+RPROVIDES:${PN} += "python3.10dist-python-mpd2 \
 python310-python-mpd2 \
 python3dist-python-mpd2"
 

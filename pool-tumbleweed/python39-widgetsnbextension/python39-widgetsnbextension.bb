@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause & MIT"
 
 PV = "4.0.7"
 
-RPM_NAME = "python39-widgetsnbextension-4.0.7-1.1.noarch.rpm"
-RPM_HASH = "a6dcfcff028e1c3ea8eb82c25e65221fb8243a729362579ac1a6668d41a1f99b12cb4f261c888a0c94e8066cfd6f5396c2433e025169ab3d7b6bec5d95076b82"
+RPM_NAME = "python39-widgetsnbextension-4.0.7-1.2.noarch.rpm"
+RPM_HASH = "c25c9fdf1a915c402cd3177e3bdf422f2220b63b56bfb6fb5cae8e50f5e0211e641a5f000ca35285ff119a11068c287d24175d0dd56320d37c9e01118bb2b334"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-widgetsnbextension \

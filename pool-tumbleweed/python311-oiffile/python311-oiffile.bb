@@ -6,11 +6,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2022.9.29"
 
-RPM_NAME = "python311-oiffile-2022.9.29-1.3.noarch.rpm"
-RPM_HASH = "3c3854ba5e5d3617d4cc7623db0146de8c3f476d02bbdb08cffe1e0373dc2bd468c7bcd5aa88e1b9656ccf7ebe8406b8940f9c68dafd338655dec50c855b91e4"
+RPM_NAME = "python311-oiffile-2022.9.29-1.5.noarch.rpm"
+RPM_HASH = "7f7030d6edc78d1796e3ff7f36456c07f14084d5fc16feab75a9a792379f7662d6ce8e55d173c7e8c2c50df64a44abe5912ef04cf802cb122e65d02f14a610e7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-oiffile \
+RPROVIDES:${PN} += "python3-oiffile \
+python3.11dist-oiffile \
 python311-oiffile \
 python3dist-oiffile"
 

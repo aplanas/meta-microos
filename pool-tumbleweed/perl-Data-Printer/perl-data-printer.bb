@@ -21,8 +21,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.001000"
 
-RPM_NAME = "perl-Data-Printer-1.001000-1.2.noarch.rpm"
-RPM_HASH = "30ed7cd3296ce4b0843234ab4241200b10c4484fc80e1bf0efe63998b42355d2484220d1ff3c6a2382a31966a11d337d4afb43137bb564356e1cbc3627664446"
+RPM_NAME = "perl-Data-Printer-1.001000-1.3.noarch.rpm"
+RPM_HASH = "a8acdefef2d7f7d43761fa3aeadc6d3641779e187f519a5143d8441526332c63c497acea7de20e8592738e0edd74858f59e3ca6d7ef3756cfc6f044b2912261b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DDP \
@@ -56,7 +56,7 @@ perl-Data--Printer--Theme--Monokai \
 perl-Data--Printer--Theme--Solarized \
 perl-Data-Printer"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-version"
 
 inherit rpm

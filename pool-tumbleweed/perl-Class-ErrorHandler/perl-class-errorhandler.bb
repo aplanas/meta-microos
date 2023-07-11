@@ -17,13 +17,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.04"
 
-RPM_NAME = "perl-Class-ErrorHandler-0.04-1.15.noarch.rpm"
-RPM_HASH = "6e47be020c4bd04829ea836d1bf9a30fd1a4cb5ffb5caeb53edfd4cc1ebc44e9b13e7b28d537521d02f5e045f7e0177e8cd3f97ae7ddf728d5ed95d83d598f0b"
+RPM_NAME = "perl-Class-ErrorHandler-0.04-1.16.noarch.rpm"
+RPM_HASH = "a60a06a5216fd15ef0b5e27500d8f72e76236821ef276f24c3c770820414f68334de571255786612f2779cde153e293377fb8314b4dc414d25b4fade939ff57b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Class--ErrorHandler \
 perl-Class-ErrorHandler"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

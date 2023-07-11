@@ -4,10 +4,10 @@ the International Modal Analysis Conference. The bundle \
 provides a LaTeX package and a BibTeX style file."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn17347"
+PV = "2023.208.svn17347"
 
-RPM_NAME = "texlive-imac-2023.201.svn17347-52.1.noarch.rpm"
-RPM_HASH = "b2f0c8416f63d1107dfa19a4cd5ff2cb768f9f5696131477549ca6208f95cf08753e61f0ecde65ddb58ef80a79ebee58d7e0acb1554383b687d46614684e2d5e"
+RPM_NAME = "texlive-imac-2023.208.svn17347-53.1.noarch.rpm"
+RPM_HASH = "5eff3fb9a089b6bc68babd0f9920e3e9a49edb45e413af334a1d2d9552deeda16be5eacca781291629c589d1d72b8466a8141d2de8a21d71827e89c82d944caa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-imac.sty \

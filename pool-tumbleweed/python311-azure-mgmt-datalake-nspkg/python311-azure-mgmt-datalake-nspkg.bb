@@ -8,11 +8,12 @@ LICENSE = "MIT"
 
 PV = "3.0.1"
 
-RPM_NAME = "python311-azure-mgmt-datalake-nspkg-3.0.1-3.9.noarch.rpm"
-RPM_HASH = "879e3a2a0cd534fe6980894c059323e81e275c18e3b040c926d10221aff0506938f8aeee6aa047c82317c1113fc24073427cbfb051c082ff5c88a4bab0df4682"
+RPM_NAME = "python311-azure-mgmt-datalake-nspkg-3.0.1-3.10.noarch.rpm"
+RPM_HASH = "5a2a9b9f964ac25fd54c232386152cc46ea20c5d54152843323a3ff872057f12d373fdd60553fcfea78c8a1f4451e746c77bbc899ca92104ca16fde476514d6c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-datalake-nspkg \
+RPROVIDES:${PN} += "python3-azure-mgmt-datalake-nspkg \
+python3.11dist-azure-mgmt-datalake-nspkg \
 python311-azure-mgmt-datalake-nspkg \
 python3dist-azure-mgmt-datalake-nspkg"
 

@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.4.21"
 
-RPM_NAME = "caribou-gtk3-module-0.4.21-8.7.aarch64.rpm"
-RPM_HASH = "13f4817405d23290f2f88ede617b2127a1e79932fd5f09dd9bfc34ea58f387b0ecf666828c3e10763507b3ca7ed5e619f8b3ab03891c1cbfef7a501955bf2137"
+RPM_NAME = "caribou-gtk3-module-0.4.21-8.8.aarch64.rpm"
+RPM_HASH = "d8d20b6b91357796fe4f079ec32f11840fd0f82bbcb9a6a0b9f69d378eb39796c1f7968046d518060c2939ffbda8e0372af9cf60d4cccb0d5d054319cd55a37f"
 
 RPROVIDES:${PN} += "caribou-gtk3-module \
 libcaribou-gtk-module.so"

@@ -5,12 +5,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.1.1"
 
-RPM_NAME = "python3-virt-bootstrap-1.1.1-6.7.noarch.rpm"
-RPM_HASH = "58593b274ddedbaf6bcd305bace581ee2f72116ad55418f070f73b88ffdb4f69b327d264dedfaaedb49cb65fafb2cbd27a8156db8c2d619fa6dede4be0845f95"
+RPM_NAME = "python3-virt-bootstrap-1.1.1-7.1.noarch.rpm"
+RPM_HASH = "6b0f4cf22503c357a86ec78c40500765138d17c53942493207e86c5f60129ffc625ea87b14017e9ab1d8303e871a74c59e5cecb11ae7f34fbb52507a18414a8a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-virt-bootstrap \
-python3.10dist-virt-bootstrap \
+python3.11dist-virt-bootstrap \
 python3dist-virt-bootstrap"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

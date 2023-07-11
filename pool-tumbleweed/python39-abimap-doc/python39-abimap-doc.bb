@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.3.2"
 
-RPM_NAME = "python39-abimap-doc-0.3.2-3.10.noarch.rpm"
-RPM_HASH = "fa75536950defc15a906ff3d6a4098f3398fca75097152bc9a8004209ebc3f2f01d150e6fd2e04c012f0586c4dfdd6122f454d2cda0a2c59bd63b8c72a9e4a34"
+RPM_NAME = "python39-abimap-doc-0.3.2-3.12.noarch.rpm"
+RPM_HASH = "d1a990014fa641fab1e8acc8c46c5e9b34f6d1a6c3419a7bd7ad47a8fdcf1f83d458f043c336db7e93a480f1c171b486390c8455d1d1c8cc8486f83da8b8282a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-abimap-doc"

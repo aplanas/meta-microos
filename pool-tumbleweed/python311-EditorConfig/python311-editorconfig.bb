@@ -6,11 +6,12 @@ LICENSE = "BSD-2-Clause & Python-2.0"
 
 PV = "0.12.3+git.1630438300.f43312a"
 
-RPM_NAME = "python311-EditorConfig-0.12.3+git.1630438300.f43312a-1.10.noarch.rpm"
-RPM_HASH = "d3b54ea7db93d0f99291a97850cd9b0fe75bfcdee4df5a53e6492ba5a1f3d3dda08802fe369811ddaf5cf92eed11cb9e73f5ada09f16ea575fe62e55f40bc60d"
+RPM_NAME = "python311-EditorConfig-0.12.3+git.1630438300.f43312a-1.11.noarch.rpm"
+RPM_HASH = "3b35cee70546389669313f230d19c01e4ee0ed2065bb8c75a449a1bed870c44324cf5618837c0472b638f3444327a6852488de0a48e224a5793fb9a37f0b73c6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-editorconfig \
+RPROVIDES:${PN} += "python3-EditorConfig \
+python3.11dist-editorconfig \
 python311-EditorConfig \
 python3dist-editorconfig"
 

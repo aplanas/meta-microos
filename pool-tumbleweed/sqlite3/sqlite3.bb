@@ -13,8 +13,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "3.42.0"
 
-RPM_NAME = "sqlite3-3.42.0-1.1.aarch64.rpm"
-RPM_HASH = "2abe0ae6b101dce00dfb0b68875b2e641d6432b7235685e81ae32cfe6c61c9cf92010985a79e304cf0f7fa61680775c5a8e87970bf8294f4a8dfba1aa9c7ca86"
+RPM_NAME = "sqlite3-3.42.0-1.2.aarch64.rpm"
+RPM_HASH = "8f48bf763ddeca11b2a53c76fa234f835cbb4653e6df8348ce060d7bc741a5534e9a59489e55fd1cc9e64a10278b765e6e77f1d39c8c956942efbaaa886f4838"
 
 RPROVIDES:${PN} += "sqlite \
 sqlite3"

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only & LGPL-3.0-only"
 
 PV = "2.2.17"
 
-RPM_NAME = "python3-geis-2.2.17-4.9.aarch64.rpm"
-RPM_HASH = "14075a44f38a56235ab369f76538e621fcc8e4ae6a35d08fea5913d16b0ed1650850100c1e6ed359337a900616c915ce27e5f219c42473c4b2178f89e5b7378a"
+RPM_NAME = "python3-geis-2.2.17-4.10.aarch64.rpm"
+RPM_HASH = "63da5f990223ecf1ba0c9071157bf75570c537d99ff68d9a0a0a5f80bc4bf48825bc32c7f4adacd16acfe34ee645edab125b2d7abb5f1ad88a6380217e9f5532"
 
 RPROVIDES:${PN} += "python3-geis"
 

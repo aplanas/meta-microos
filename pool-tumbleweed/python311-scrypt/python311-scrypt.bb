@@ -4,10 +4,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.8.20"
 
-RPM_NAME = "python311-scrypt-0.8.20-1.7.aarch64.rpm"
-RPM_HASH = "92d9e98a51f084244b69e7d8ec6420fa00546cc3f98640a4032cf80c932c63e1b689541a91b20d9f87b82fca3af61dcfc5351dd44948efde06b6b2e4c40efd68"
+RPM_NAME = "python311-scrypt-0.8.20-2.3.aarch64.rpm"
+RPM_HASH = "2b1601a26e15eacd85d48650ca3c2a5b630529e4e007e918420b97f9583b31961e5634474b212e81f2baa4f522ea930a19255b837f36cc358bd103fb0b2e28bf"
 
-RPROVIDES:${PN} += "python3.11dist-scrypt \
+RPROVIDES:${PN} += "python3-scrypt \
+python3.11dist-scrypt \
 python311-scrypt \
 python3dist-scrypt"
 

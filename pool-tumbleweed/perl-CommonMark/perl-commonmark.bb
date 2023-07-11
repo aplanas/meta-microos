@@ -11,8 +11,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.290000"
 
-RPM_NAME = "perl-CommonMark-0.290000-4.23.aarch64.rpm"
-RPM_HASH = "bed737e9a335fd6872e58a5fed607a00e4809b2d938e90ecb1c419effcc48b47344718c244518456b71dcd85862150c5636b087d529550ff66ec0e07b2d96ce6"
+RPM_NAME = "perl-CommonMark-0.290000-4.24.aarch64.rpm"
+RPM_HASH = "e3ce85e585766d2854ced564d2c7f0e811ed170f9c2787718d2042b891c2927818a64ee2ed7c452f9dbdebe26c7f9756cc48d390fc02dd80311be0cadfb3a765"
 
 RPROVIDES:${PN} += "perl-CommonMark \
 perl-CommonMark--Node"
@@ -21,6 +21,6 @@ RDEPENDS:${PN} += "cmark \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcmark.so.0.30.3 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

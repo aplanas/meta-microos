@@ -9,10 +9,10 @@ This subpackage contains headers and library development files for \
 libxmp."
 LICENSE = "LGPL-2.1-only"
 
-PV = "4.5.0+g613.8e4a5e15"
+PV = "4.6.0"
 
-RPM_NAME = "libxmp-devel-4.5.0+g613.8e4a5e15-1.4.aarch64.rpm"
-RPM_HASH = "af83dc3af7149b777b931d4d98c75211fada4dee41a70b37fff3845d2c2f1d6be4bd878fbfd1aeb6cff183112a6abae094743fe019353148567ae65b38fcbb6f"
+RPM_NAME = "libxmp-devel-4.6.0-1.1.aarch64.rpm"
+RPM_HASH = "284490269a7d48d8f3f5a19c9926f260d835a26a7ed7eb6f2f231a1200ab7426883464908a0c3adcdd312d0e7cece444d5e79a6248b8acfa5b259c6a01aba98c"
 
 RPROVIDES:${PN} += "libxmp-devel \
 pkgconfig-libxmp"

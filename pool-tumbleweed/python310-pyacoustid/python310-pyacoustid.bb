@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "1.2.2"
 
-RPM_NAME = "python310-pyacoustid-1.2.2-1.4.noarch.rpm"
-RPM_HASH = "557c188c53e8c000de9929c13f8d3d84c5e51189c8c1d3deb5361bc09778cb15b987c0c4908a38311faf87694c6350ffd8e6221d4af47d2afef08252187df518"
+RPM_NAME = "python310-pyacoustid-1.2.2-1.6.noarch.rpm"
+RPM_HASH = "e496ce0f14d2b3fc8c343dbce0b5ad15b3ffab881d1cf9232990e2866de7f5b32f26cccee0e8fc6d418b0e5740c895df2027b5915af9d78e88533111865593d2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pyacoustid \
-python3.10dist-pyacoustid \
+RPROVIDES:${PN} += "python3.10dist-pyacoustid \
 python310-pyacoustid \
 python3dist-pyacoustid"
 

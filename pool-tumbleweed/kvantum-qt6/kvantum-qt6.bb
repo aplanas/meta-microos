@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.0.10"
 
-RPM_NAME = "kvantum-qt6-1.0.10-1.1.aarch64.rpm"
-RPM_HASH = "13dcae2cc18e3f0cc619daf0f4e5d1ba4347979addb09bd8a8667a753b0e1244f53f632e5be069cd761a57754c89806f887baf926a05f9fb34de86a3e304d035"
+RPM_NAME = "kvantum-qt6-1.0.10-1.2.aarch64.rpm"
+RPM_HASH = "3a7be2966da1234b394c3a75def5ee32022960bdbb5595a680fe061f6510a80c73ca0c4653fb2749d3b5a0afcc43304e34b201dfeb9613acce96c6909c0b323e"
 
 RPROVIDES:${PN} += "kvantum-qt6 \
 libkvantum.so"

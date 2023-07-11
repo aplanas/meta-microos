@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20230115"
 
-RPM_NAME = "libfcache-devel-20230115-1.2.aarch64.rpm"
-RPM_HASH = "dc97643c589b76f7d9a77799a82577b80b36e8d7383bf8ba963778ab852027929806a367735ffd06e9d56c37c80a1fc139eba9b390b488fbf423aa56ba73ed4c"
+RPM_NAME = "libfcache-devel-20230115-1.3.aarch64.rpm"
+RPM_HASH = "dac4dd6923b5554f14369fc22b2af8b1c4c5c4a21dae4912e2711f97382a90151149277e86d463bee5af0e2e6389f194d5600cde38403320262df74d25ed919b"
 
 RPROVIDES:${PN} += "libfcache-devel \
 pkgconfig-libfcache"

@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "5.8.6"
 
-RPM_NAME = "radare2-devel-5.8.6-1.1.aarch64.rpm"
-RPM_HASH = "fe918c1d42fc93efd8e439f23692d15bb94f4fc6b8b24ba6bc3167c545bc14081261f0387ed422876ae7626f8691cd0fee79eea91929f67b4e3e17f0d1d526ab"
+RPM_NAME = "radare2-devel-5.8.6-1.2.aarch64.rpm"
+RPM_HASH = "1cb81e746dbf431cdcf0cf33520cc9d01987ee1a3c4603411d0a56753c10b4676b739c3f4b9206567917a7fe2f921cdff35f1578d181e526fc9fec5e425a1c28"
 
 RPROVIDES:${PN} += "pkgconfig-libr \
 pkgconfig-r-anal \

@@ -8,13 +8,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.003003"
 
-RPM_NAME = "perl-Devel-GlobalPhase-0.003003-1.16.noarch.rpm"
-RPM_HASH = "c725050f08fdab6ff381fe6c91b5dba43264989f82a515b073aec2518f643b7b4a387c0b6323a9f19346c2e188ae663d3fdcf43532092f232be5381857241f45"
+RPM_NAME = "perl-Devel-GlobalPhase-0.003003-1.17.noarch.rpm"
+RPM_HASH = "667afb654bb1499426e5dea4fb3e2e6adbe8c38c7d9b1c501618985b7cb1f7e747e2de7af3bcebd2ebe1fec465374a27689123e6946aec6efa68bf1467a6027f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Devel--GlobalPhase \
 perl-Devel-GlobalPhase"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

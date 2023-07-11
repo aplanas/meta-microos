@@ -4,11 +4,12 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "0.29"
 
-RPM_NAME = "python311-pyelftools-0.29-1.4.noarch.rpm"
-RPM_HASH = "12e9baaa1f44417d1848f9863e0e7255a5c5efbcac65552f5693939e2712c986b5e0dbd653839e3d491eed4fea072ccde57a2c15e5655e5d8c21be3d7e4e4279"
+RPM_NAME = "python311-pyelftools-0.29-1.5.noarch.rpm"
+RPM_HASH = "73b0163becd8a995a27546aa3c586bb2250fd4a4618afadf6d4687869ba8b3a48f08c340189846d51b60ae575bd0506db274182c44eef4a2a66893ec5b1bff42"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pyelftools \
+RPROVIDES:${PN} += "python3-pyelftools \
+python3.11dist-pyelftools \
 python311-pyelftools \
 python3dist-pyelftools"
 

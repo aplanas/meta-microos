@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.2.16"
 
-RPM_NAME = "libbelcard1-5.2.16-1.3.aarch64.rpm"
-RPM_HASH = "6bff6c3e03435303aff4faf547ba7a7fe61d6732817d868ebd2401499f5ae76f7aba5961d0ef61fb7e5524853e9cbba803c85637c9af4aa20ee7ddc456602f24"
+RPM_NAME = "libbelcard1-5.2.16-1.4.aarch64.rpm"
+RPM_HASH = "dcb214108fb90f8b1c2292d1063443fea0d89c92467e69575065d9ca077847132835355f4c67010edfa0806cec82fd9b7ed26ffc6548584059f57746c1e8a9ec"
 
 RPROVIDES:${PN} += "libbelcard.so.1 \
 libbelcard1"

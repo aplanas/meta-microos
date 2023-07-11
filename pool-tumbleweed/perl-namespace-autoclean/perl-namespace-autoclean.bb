@@ -30,14 +30,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.29"
 
-RPM_NAME = "perl-namespace-autoclean-0.29-1.15.noarch.rpm"
-RPM_HASH = "320a56fd8ae3cdc84ef62cf0301abe45dcb8f0aef4971970ea031f74d529fc55a917d8e9d87fe18d2daa17765272025409ec740e34aa030f2ca807a0c2a2c81c"
+RPM_NAME = "perl-namespace-autoclean-0.29-1.16.noarch.rpm"
+RPM_HASH = "01e9719306486e94d1d8b165200a8b357ef8c9f212e48e9fe3ec59435b29bd40fe5546e1fcedf09fd4d1a9ce1c3650689fb3b6b52a29aefa82dcbfdf8940a3b6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-namespace--autoclean \
 perl-namespace-autoclean"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-B--Hooks--EndOfScope \
 perl-Sub--Identify \
 perl-namespace--clean"

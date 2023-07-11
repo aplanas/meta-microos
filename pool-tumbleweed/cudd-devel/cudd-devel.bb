@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.0.0"
 
-RPM_NAME = "cudd-devel-3.0.0-3.14.aarch64.rpm"
-RPM_HASH = "1704bbc1b746c8987a3a22bcb8dbfcdf303eec2558f2d620437ea1f95a9d08ce2efbaf5a64df44c4c6058ec32536dc4dac8694de3770f74e99b3a61e6a51b6e9"
+RPM_NAME = "cudd-devel-3.0.0-3.15.aarch64.rpm"
+RPM_HASH = "60ae1bd62977cdfea252ece4490beec23d2ddcd8510fae2cc9424397be53198094886ea275ede5157b4cb192a2ba9f37c9f15106df39135fa8a74c27c3e9d905"
 
 RPROVIDES:${PN} += "cudd-devel"
 

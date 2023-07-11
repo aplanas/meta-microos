@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "4.0.0"
 
-RPM_NAME = "python310-hpack-4.0.0-2.1.noarch.rpm"
-RPM_HASH = "2ebad43c97cd4cefd2a0b924e4e402a10b5140564fafaf653f49ad08f0c61a336ba03b5f4b30c51e0fe1a33582ec9f069b0a9ce500fb8ab571e04e191c7e8c0d"
+RPM_NAME = "python310-hpack-4.0.0-2.3.noarch.rpm"
+RPM_HASH = "7702f706cc8cf6226c3c9a23fd60398318fb4bcc0050ba01dc1f3266ddf08b79f3603c0fee7a52e8fd427d68b161118ec71b61f0e181fc77294a86b29bbda439"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-hpack \
-python3.10dist-hpack \
+RPROVIDES:${PN} += "python3.10dist-hpack \
 python310-hpack \
 python3dist-hpack"
 

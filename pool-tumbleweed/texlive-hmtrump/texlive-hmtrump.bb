@@ -5,8 +5,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.2asvn54512"
 
-RPM_NAME = "texlive-hmtrump-2023.201.1.2asvn54512-53.1.noarch.rpm"
-RPM_HASH = "c6259e16f61abfc8fc58048b46a7db6a56ebd2ed14c5c758de4bff4eac5cc9be6a20a9e2302efaed10b31686fd72cf26b9e13916c868c60cb64a10c2d04df81c"
+RPM_NAME = "texlive-hmtrump-2023.201.1.2asvn54512-53.2.noarch.rpm"
+RPM_HASH = "96f4092185432661dcded6fb8d00c1c00a2ff8fcaf284d3244f431734c702b032b0ba4cbc58ef08ac8d29815c87e8839107d4a2fcd3d8adcbeac87a5b924c858"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hmtrump.sty \

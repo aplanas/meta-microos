@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.5.24"
 
-RPM_NAME = "deepin-session-ui-lang-5.5.24-1.3.noarch.rpm"
-RPM_HASH = "622048bf0624ebed11cbf1b9a4f8aee2315d0f8f31604b584c4d0d3eb9f4232c143795ab787bab33a7e23ceca61bfc643657dfeb7ed1cab7fa1123e20b7ec932"
+RPM_NAME = "deepin-session-ui-lang-5.5.24-1.4.noarch.rpm"
+RPM_HASH = "730ee1ac92371ca1d57e51c1181ad6e2d19a3d1021958b2a15f0efa08c4c6f78dddb90d603869624184db2a986f2d0cea842170b0f48cefe5b7fe983dd098eb0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-session-ui-lang \

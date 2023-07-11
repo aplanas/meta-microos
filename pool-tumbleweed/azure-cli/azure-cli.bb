@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.49.0"
 
-RPM_NAME = "azure-cli-2.49.0-1.1.noarch.rpm"
-RPM_HASH = "047cfdd6f69ad2df95cbfb0494f09b217e2a25bd7b594bd918d4f3eabaf4653c345dc15a400f3f43637c6cf7bafe63bca5d1ab864dc11bc7104a96e1e7147157"
+RPM_NAME = "azure-cli-2.49.0-1.2.noarch.rpm"
+RPM_HASH = "ec71293690d93da99a6e64a346792e797a101b2e1e6fb89e51431ef5bf8e0a0d0b340a672ed70214e4db772cc98780af2f22a09bde395fd7c00ae157d58a7f60"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "azure-cli \
@@ -65,7 +65,7 @@ azure-cli-sql \
 azure-cli-sqlvm \
 azure-cli-storage \
 azure-cli-vm \
-python3.10dist-azure-cli \
+python3.11dist-azure-cli \
 python3dist-azure-cli"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

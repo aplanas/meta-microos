@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "1.7.1"
 
-RPM_NAME = "python310-pytest-echo-1.7.1-1.11.noarch.rpm"
-RPM_HASH = "f24bbe973ee8a986fe80bcf74d021d771e2ad5fa68b3e59abe85dc14eae8c0fb3cc1de8419ab1580d1f4d7a50779801b15087f217912efe1297f624a7b740a6f"
+RPM_NAME = "python310-pytest-echo-1.7.1-1.13.noarch.rpm"
+RPM_HASH = "85c11efec341143f2d3dee34f8af22d160204756d4b9b40ff27a27467def47d37f9af057c4f6cd402699c19593d577052e4f4ea225202cd2610f190185fb5ed7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pytest-echo \
-python3.10dist-pytest-echo \
+RPROVIDES:${PN} += "python3.10dist-pytest-echo \
 python310-pytest-echo \
 python3dist-pytest-echo"
 

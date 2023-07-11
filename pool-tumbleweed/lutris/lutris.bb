@@ -7,12 +7,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.5.13"
 
-RPM_NAME = "lutris-0.5.13-1.1.noarch.rpm"
-RPM_HASH = "b72f60945e48dbf8b60d93096a5958d0113e51b1afad00d686a3efa2588e756a34354155eb05430e757aaa9c44dff2ba7a6ba03a917237145a398f8d2fe3755c"
+RPM_NAME = "lutris-0.5.13-1.2.noarch.rpm"
+RPM_HASH = "48ef77764572bba0ca1e72401ce5db4a856b9c9082fdf971234f5f794e80b2a7fdf10d9c8a0a25ebe2f8bcaa4a25a867db778022a73ac1f5c81b3a44056d254a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lutris \
-python3.10dist-lutris \
+python3.11dist-lutris \
 python3dist-lutris"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

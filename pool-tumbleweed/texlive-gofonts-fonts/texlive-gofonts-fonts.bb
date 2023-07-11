@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.svn64358"
 
-RPM_NAME = "texlive-gofonts-fonts-2023.201.svn64358-53.1.noarch.rpm"
-RPM_HASH = "d20f2ee338f10eb426174e710d516a5f9a9ebb0ff82fbae0d9d023a43ef5d555b8477cc8261c76ea4b16107d80c8aaef9c5152f93bc219d6ac99cbd28365b150"
+RPM_NAME = "texlive-gofonts-fonts-2023.201.svn64358-53.2.noarch.rpm"
+RPM_HASH = "7121ec426c9dbb4c1b86c79a102f09413b4bf1778c26e7e89457d99a0c6a5ac866a0470e03e5b45d3e7aa06d25a03b1259af81fddf0573d7c27681762ab5af55"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-gofonts-fonts \

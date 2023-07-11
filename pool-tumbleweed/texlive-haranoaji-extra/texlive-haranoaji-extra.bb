@@ -8,8 +8,8 @@ LICENSE = "OFL-1.1"
 
 PV = "2023.201.20230223svn66115"
 
-RPM_NAME = "texlive-haranoaji-extra-2023.201.20230223svn66115-53.1.noarch.rpm"
-RPM_HASH = "f1c4fe64e1b301cb57551d2253b2db75c3a7271daedad521838cca37c73486b996520fcbf8cb9914865463f924f3da16f67bd9d3921978bc0a85f8a1a48b76b8"
+RPM_NAME = "texlive-haranoaji-extra-2023.201.20230223svn66115-53.2.noarch.rpm"
+RPM_HASH = "e71ce9a2287da7ef3cd730cecbcc73adbd1f7cb2f7f8d571af007094b8513645fcef846b529378a962c839065d4bb04217778d674eb1c0c8f4585083f6130173"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-haranoaji-extra"

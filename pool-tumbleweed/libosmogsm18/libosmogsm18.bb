@@ -11,8 +11,8 @@ LICENSE = "AGPL-3.0-or-later & GPL-2.0-or-later"
 
 PV = "1.8.0"
 
-RPM_NAME = "libosmogsm18-1.8.0-1.1.aarch64.rpm"
-RPM_HASH = "6917e8f216e29db71ddadd779063dec2129aac2562e6ad0407fa17527c70e8bf7c8c4d0b245f3cf31ddffe700445234b81b34063a1a44e208d22ea72cdab486d"
+RPM_NAME = "libosmogsm18-1.8.0-1.2.aarch64.rpm"
+RPM_HASH = "48e10fdcef4f8bdee6d85f730215017b455e4b60e90e2b7b371e78a0f19f0ad93ca3589cb87fcceac9a71ac0b5fe5ba8d9cc4d0594444121433cde1270652b4c"
 
 RPROVIDES:${PN} += "libosmogsm.so.18 \
 libosmogsm18"

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "44.2"
 
-RPM_NAME = "gedit-lang-44.2-1.4.noarch.rpm"
-RPM_HASH = "fdd7bb0cd477d6ffb40b7dbf2783689f1bc7054dd25e3c14b2ead772933f4a57a19294b259d94da426d3ba3e69540158cb0aeceef4613fc4e50514ec6c19ff03"
+RPM_NAME = "gedit-lang-44.2-1.5.noarch.rpm"
+RPM_HASH = "83107d4465a3d2d9cf8d887c4a035390fe9f4d897ae7af4d2d85fda5ff0603c8880f4c674182906e8315d3179c4cfef423fb8cfbefe6f56b279a00e705f12649"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gedit-lang \

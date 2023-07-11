@@ -8,10 +8,10 @@ Each description consists of a set of strings and a Boolean expression which \
 determines its logic."
 LICENSE = "BSD-3-Clause"
 
-PV = "4.3.0"
+PV = "4.3.1"
 
-RPM_NAME = "yara-doc-4.3.0-1.1.noarch.rpm"
-RPM_HASH = "012ebff2468e1632ff0998708b12aa36caf4617153d2da283730721edc31c53801ad7102db6576b237dae2b2705fce62880f0d6b965d2200044375daa46794b3"
+RPM_NAME = "yara-doc-4.3.1-1.1.noarch.rpm"
+RPM_HASH = "32971bc8697a86fce423dd684791f7fc9f6b5e5802093f3e02c222d1566f0756e667a382d3f419c37dc7ab0aade9d3a5da26f6038eac57cd726e06bd3cf159aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yara-doc"

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.8.18"
 
-RPM_NAME = "compiz-plugins-main-0.8.18-1.15.aarch64.rpm"
-RPM_HASH = "c8bac429710e293342eb4f1fc980ed3e638f7890eeae7c705a88dd5405a2f0a74397d4e967190f463817abbd197d01ed231b2060f18d01a15e8425a7a4cffb79"
+RPM_NAME = "compiz-plugins-main-0.8.18-1.16.aarch64.rpm"
+RPM_HASH = "e7a492b71c85686cc93a8581091430e1183e7681a11de8f7a94dd516d2ed286b3feab7a47cbd5192ba8a4d73c1cc007b0993fb251ffa0261857a85854d25ec7c"
 
 RPROVIDES:${PN} += "compiz-plugins-main \
 libanimation.so \

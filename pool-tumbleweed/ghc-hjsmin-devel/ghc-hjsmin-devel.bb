@@ -4,10 +4,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.1"
 
-RPM_NAME = "ghc-hjsmin-devel-0.2.1-1.2.aarch64.rpm"
-RPM_HASH = "6794b82ab18e5e89b10a33c6ba79244ff827d2a58d5a651ffc32fe723c02479ddcb8fd6efc6c535a8b26773157a0db2a972c322e9c38fec2817c97b0efbab0a2"
+RPM_NAME = "ghc-hjsmin-devel-0.2.1-1.5.aarch64.rpm"
+RPM_HASH = "c4cb40d6a7ebc6204f6b10c848fd496bb8875ccf8ad7f7ac4ac63972ef7ba67625bac816473db3321dd710baa399f951c56683de7e67bba305e48a7753e4d706"
 
-RPROVIDES:${PN} += "ghc-devel-hjsmin-0.2.1-G11T0ofJtyz5gQQf6GRgL1 \
+RPROVIDES:${PN} += "ghc-devel-hjsmin-0.2.1-E05vLEwNeV76Uzm2zhD4uI \
 ghc-hjsmin-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

@@ -27,14 +27,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.19"
 
-RPM_NAME = "perl-Module-Path-0.19-1.26.noarch.rpm"
-RPM_HASH = "f6b1ba74f3e73b6e0ac86922e4de40b19f59f5720273f543cad5ed5da346175d26fe129b8ace31a90886888aabe32e196c20853921daffaa0834f901557858fe"
+RPM_NAME = "perl-Module-Path-0.19-1.27.noarch.rpm"
+RPM_HASH = "3f812595c812122a8c845ceb7831930c10b7d1512d92b4ae54fc83818b5bcad3a024b839be5b1818981bedee8e6eae61712ca6effed2dcfd36efbe7627cbf45c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Module--Path \
 perl-Module-Path"
 
 RDEPENDS:${PN} += "/usr/bin/env \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

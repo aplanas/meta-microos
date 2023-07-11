@@ -8,14 +8,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.008"
 
-RPM_NAME = "perl-Test-Deep-Type-0.008-1.22.noarch.rpm"
-RPM_HASH = "b93617f05816b70901368d146a1dca044f526fb8370f581d928ac66ba57ec1913b2c82233597f892e0545676f34a718563fbb55bb23c200c0064bbadb48e6c63"
+RPM_NAME = "perl-Test-Deep-Type-0.008-1.23.noarch.rpm"
+RPM_HASH = "aa3149632ab8cb995484492ca159a350d75192f9944c7be58d69f0edb654e5d73a80957aa0c520ab2c30acb10eb2df6708374a7a6e926983485a9b5852871596"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Deep--Type \
 perl-Test-Deep-Type"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Test--Deep--Cmp \
 perl-Try--Tiny \
 perl-parent"

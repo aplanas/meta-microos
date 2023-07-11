@@ -2,10 +2,10 @@ SUMMARY = "Script Checking Engine Library for OpenSCAP"
 DESCRIPTION = "This package contains the Script Checking Engine Library (SCE) for OpenSCAP."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.3.7"
+PV = "1.3.8"
 
-RPM_NAME = "libopenscap_sce25-1.3.7-1.1.aarch64.rpm"
-RPM_HASH = "893c1e4b23f9c43f3de5329e2a82ad5ca6b731fdd42da5a3aaf7f7400b3f29ffc3fe836a0137a51508480080cedc9a150a0defa1c2c2f2fbc800af61c268813d"
+RPM_NAME = "libopenscap_sce25-1.3.8-1.1.aarch64.rpm"
+RPM_HASH = "d0c23cb2acb0eadbd0c33920f3fcbd73d11bb6138c814a0b622e3752651a154c96e12e350995689c2aed09804467c1cd74f80e2e1e93570006f3198fd9a9220f"
 
 RPROVIDES:${PN} += "libopenscap-sce.so.25 \
 libopenscap-sce25"

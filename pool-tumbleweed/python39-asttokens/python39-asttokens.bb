@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.2.1"
 
-RPM_NAME = "python39-asttokens-2.2.1-2.1.noarch.rpm"
-RPM_HASH = "47d367e20c6681e46f3b571646d285347c6b68bc1c5d01bd8f5032826b3322ffe69be0a6243d66fe6c72cd4aa9d1ac8e7277f9283b58be893a690c660d482739"
+RPM_NAME = "python39-asttokens-2.2.1-2.3.noarch.rpm"
+RPM_HASH = "2ba625f8ad9409402f0a8bb6bcbf08da6244e18abd07c04f212884bad6f54aa238fe1299b87457dad67646f40752d6e1cf0fc636205054f78691fe40bf97365a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-asttokens \

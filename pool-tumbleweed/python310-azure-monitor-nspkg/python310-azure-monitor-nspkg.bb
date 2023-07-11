@@ -8,12 +8,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python310-azure-monitor-nspkg-1.0.0-1.7.noarch.rpm"
-RPM_HASH = "ac3975d7bf2bf11e23c3dd1fa377cbeea549415cd2a7c2adbbd55192db874cb4741ac18f115ec2eddd677dd8be67060110e0cf4e4fd7b9bd6387d53f5f751338"
+RPM_NAME = "python310-azure-monitor-nspkg-1.0.0-1.8.noarch.rpm"
+RPM_HASH = "2c50ddc8fb8ec2f864b2a2fff50ca2a1d6e9b7948f844b6221a0c50d895489d0c981c3e77f9c7c46caec0c156b97a048d26bb4cea53d86879e8b8d7e75655eca"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-monitor-nspkg \
-python3.10dist-azure-monitor-nspkg \
+RPROVIDES:${PN} += "python3.10dist-azure-monitor-nspkg \
 python310-azure-monitor-nspkg \
 python3dist-azure-monitor-nspkg"
 

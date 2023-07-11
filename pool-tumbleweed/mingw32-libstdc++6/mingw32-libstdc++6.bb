@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "12.2.0"
 
-RPM_NAME = "mingw32-libstdc++6-12.2.0-2.1.aarch64.rpm"
-RPM_HASH = "941eade3ff6c20bcac0590ef85d2ce5dce6517ed95745ea9f2a223a610148257fd040fd71f2f085e8a0574c2c6477fb68a9bae71c624842a00630c0c2cac6a75"
+RPM_NAME = "mingw32-libstdc++6-12.2.0-3.1.aarch64.rpm"
+RPM_HASH = "15cf64dc42b221922b191199481828a164f11b2f337382c0ab4c1d8ba8023bd696f57109513578cd37520dee2425a7fe73176b43887da542ce72dd341311f35e"
 
 RPROVIDES:${PN} += "mingw32-libstdc++ \
 mingw32-libstdc++-6.dll \

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.14.0"
 
-RPM_NAME = "minder-1.14.0-1.8.aarch64.rpm"
-RPM_HASH = "9dfd9fe5bc172b8e2eafbd763aa12187bcdea7565215d83f0f7e86e2b6c099c299f6519e8b0133355544ad5328bfb73d468a3a678fa5219d1584aab4078d9fbb"
+RPM_NAME = "minder-1.14.0-1.9.aarch64.rpm"
+RPM_HASH = "ff6d5d6ff15077f1c65f08aecb562d2259c8c21b57e3841be67a75658f09c66759996b1007eb63927df8b6d1afe5e509facb2d2b1fd96583af5ce16df671f5d7"
 
 RPROVIDES:${PN} += "minder"
 

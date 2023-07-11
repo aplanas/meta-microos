@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.6"
 
-RPM_NAME = "language-detector-0.6-2.14.noarch.rpm"
-RPM_HASH = "b69727e01d7739d98f023068accee00f110e595ca80731f87622e4fc965f545fceea1e4a3b8421fa894dd728ca9cb7425555c116444e2f31106b8c485bf94802"
+RPM_NAME = "language-detector-0.6-2.15.noarch.rpm"
+RPM_HASH = "00b3374d8fd8b80aa4b38776d3ec6e524436a7fe127015b4e5780fd14d6b45267c44e5c6baa9fe83fb4fe54a694913b693b1ab60fac2fc7fa1a94d3e94e49da9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "language-detector \

@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & SUSE-Public-Domain & GPL-3.0-only & GPL-3.0-or-lat
 
 PV = "git.20211127.db493d1ce"
 
-RPM_NAME = "gnulib-devel-git.20211127.db493d1ce-2.6.noarch.rpm"
-RPM_HASH = "b13800af41de87533a79ee59db56e3f1fe4d6b6b1891fd54219d1ab9e1e5e4a9c96ed0798816689ae6d8291a1a90216695c1aef8392f9225eca309c870f89508"
+RPM_NAME = "gnulib-devel-git.20211127.db493d1ce-2.7.noarch.rpm"
+RPM_HASH = "fc214cb7f9c20e6791a4ddd718708a68844515701c81f516b6d67a2ade456b2a172897f856894a509df236a28fa1c3e7faa7741e4cd214b4a0a3d508a37fd902"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnulib \

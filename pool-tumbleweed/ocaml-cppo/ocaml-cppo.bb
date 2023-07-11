@@ -14,8 +14,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.6.9"
 
-RPM_NAME = "ocaml-cppo-1.6.9-1.4.aarch64.rpm"
-RPM_HASH = "4c4c363af7cc8dd0b80aa3744ceddc72ef683d464b2b96e2e13bf40ae9af9d7f1d30946ef0c293a2b5c3b5bb8005b2808879cbdbabac6fca7f9bf61a18d4a8e5"
+RPM_NAME = "ocaml-cppo-1.6.9-1.5.aarch64.rpm"
+RPM_HASH = "de6cf2e637a5a934f49e203845690d3629608e4bee31c16e8456e9ec6188b409d391aad73c8993b2b0fd53acf38caebe71d8b3649f0213d3ae38589ca0182c94"
 
 RPROVIDES:${PN} += "ocaml-cppo"
 

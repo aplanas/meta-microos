@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "4.5.5"
 
-RPM_NAME = "lua-Hamliblua-4.5.5-2.1.aarch64.rpm"
-RPM_HASH = "9ebdb8d734f5ae8037e8b530b7e95e816ebc2321b7532621725a6c490bcd52ebd7380be9e4809f6ca92bed02135da91d9deb77e3ea6912186c8d741896d70627"
+RPM_NAME = "lua-Hamliblua-4.5.5-2.2.aarch64.rpm"
+RPM_HASH = "534b70557be75d85313cf0d9d20367f1ffbe47e719638d38c8fa9bba589622a8bd1494cf0e656caebea81ff5cd93a40d7a3740642967cd6cd53e6436b3b871c0"
 
 RPROVIDES:${PN} += "lua-Hamliblua"
 

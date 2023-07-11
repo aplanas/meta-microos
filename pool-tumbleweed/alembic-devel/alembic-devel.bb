@@ -6,10 +6,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.8.4"
 
-RPM_NAME = "alembic-devel-1.8.4-1.3.aarch64.rpm"
-RPM_HASH = "ceda33d31a517e0a18fa4eda3733eaf9724ff24d255e403d74af1f406f7c3226e6ca3e9287d3c09afcd5beaadeafb35623f749296d9d9677c1cf48c081a5c987"
+RPM_NAME = "alembic-devel-1.8.4-2.1.aarch64.rpm"
+RPM_HASH = "d02391b8d881d939b0e3ba59a7a15931c5f65a1a45069ba53828544b9b0ead7fa80a365213996386b9d73e39322ae1ad5124e28f6649e400897fba0d419ef9e8"
 
-RPROVIDES:${PN} += "alembic-devel"
+RPROVIDES:${PN} += "alembic-devel \
+cmake-Alembic"
 
 RDEPENDS:${PN} += "libAlembic1-8"
 

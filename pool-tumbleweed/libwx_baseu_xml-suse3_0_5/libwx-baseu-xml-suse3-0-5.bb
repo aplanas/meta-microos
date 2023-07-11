@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.0.5.1"
 
-RPM_NAME = "libwx_baseu_xml-suse3_0_5-3.0.5.1-4.1.aarch64.rpm"
-RPM_HASH = "d5d739ea637e5ec4c0bbe18dac483636b4724695f1c86df7e6dc0dbe4cf7a334aa7429e0989caa67305a04ac7ec16becb5892faee42262e880fb7b6d340fd162"
+RPM_NAME = "libwx_baseu_xml-suse3_0_5-3.0.5.1-4.2.aarch64.rpm"
+RPM_HASH = "8aac06f7b976b31c53d091577406febe02365a63c2b2acb7999deacc2b0ae607291693d43a0c2ba1a9aa63f8d84ae7c2a2fb13cd25227841968f9ee6974225aa"
 
 RPROVIDES:${PN} += "libwx-baseu-xml-suse.so.3.0.5 \
 libwx-baseu-xml-suse3-0-5"

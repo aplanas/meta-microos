@@ -10,8 +10,8 @@ LICENSE = "CPL-1.0"
 
 PV = "3.21.0"
 
-RPM_NAME = "openCryptoki-64bit-3.21.0-1.1.aarch64.rpm"
-RPM_HASH = "cfbc7e876ca9cc1058fa1e23b90e078564a9ffe144ba2dec9289248e4fd912af07c1e491df817ee8b7d703129983a61b57622ba046d09d538aa4cbdcff3da9da"
+RPM_NAME = "openCryptoki-64bit-3.21.0-1.3.aarch64.rpm"
+RPM_HASH = "1b886d5a699529a98d1ae70ac905b2a3fdae3a92b801b60348b65ecbe97f2f425fa6765aa2278b0f6c119120dbe46e8be87da5f22f14d909fa516e67dd5fd512"
 
 RPROVIDES:${PN} += "libopencryptoki.so.0 \
 libpkcs11-icsf.so.0 \

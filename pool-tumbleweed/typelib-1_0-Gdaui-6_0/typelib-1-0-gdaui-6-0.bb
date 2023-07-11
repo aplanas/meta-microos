@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "6.0.0"
 
-RPM_NAME = "typelib-1_0-Gdaui-6_0-6.0.0-6.7.aarch64.rpm"
-RPM_HASH = "0196d21e7fb0197f3850cbb53ddcefed2d5a177bf23b3cc097670b9b373a4b681035b793a8a9c761b9ebefc5398a3fb69f3ef0ee453fb750d17e5ef8798f6392"
+RPM_NAME = "typelib-1_0-Gdaui-6_0-6.0.0-6.8.aarch64.rpm"
+RPM_HASH = "a6ef2df615929fe45baf892bb9c8d9b8c58aa06586d052830e2510f39741dd7e9b842e837d08a07d2a0331219efe8a5c624766b987a69fa7aa0416f780cb0021"
 
 RPROVIDES:${PN} += "typelib-1-0-Gdaui-6-0 \
 typelib-Gdaui"

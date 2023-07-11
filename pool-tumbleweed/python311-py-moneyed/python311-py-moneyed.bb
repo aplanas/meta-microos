@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.0"
 
-RPM_NAME = "python311-py-moneyed-3.0-1.3.noarch.rpm"
-RPM_HASH = "4c8478bae57880c8c241b4dda794603250e7792ea31f1d209075225a6f8c5615ad787cedd9bc1ec2454a077a0c90adb2557c05554707949e187ac23b05602efe"
+RPM_NAME = "python311-py-moneyed-3.0-1.5.noarch.rpm"
+RPM_HASH = "7180330ec59f89780531eb6c844bf3aa5426304e3585eec323de480fc494ee2983a35ca2dabd1b39b4caf6fa9ba99cad607b44292f92112286a35c7d38a19487"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-py-moneyed \
+RPROVIDES:${PN} += "python3-py-moneyed \
+python3.11dist-py-moneyed \
 python311-py-moneyed \
 python3dist-py-moneyed"
 

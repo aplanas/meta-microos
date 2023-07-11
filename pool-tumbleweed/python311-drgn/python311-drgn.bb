@@ -4,12 +4,13 @@ programmability. drgn exposes the types and variables in a program \
 for easy, expressive scripting in Python."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.0.22"
+PV = "0.0.23"
 
-RPM_NAME = "python311-drgn-0.0.22-1.5.aarch64.rpm"
-RPM_HASH = "31b7d894cb29c507c78999673ac9de58857c92364ce9bc5b2dc72828ffbc40204462237aa7e90860113897281c2062af2bcdbc1df4741a65c4c87c973047005e"
+RPM_NAME = "python311-drgn-0.0.23-1.1.aarch64.rpm"
+RPM_HASH = "827cbe01463aa1065b969a491732badd3edbc10e779bb457e4c506a16fac96cc7b56e07d7594724f13e85c0b129001bb1f631ff6aa0ca5ea6a3b389259adb2ec"
 
-RPROVIDES:${PN} += "python3.11dist-drgn \
+RPROVIDES:${PN} += "python3-drgn \
+python3.11dist-drgn \
 python311-drgn \
 python3dist-drgn"
 

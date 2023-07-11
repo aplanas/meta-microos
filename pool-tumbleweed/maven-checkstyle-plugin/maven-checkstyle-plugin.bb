@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.0.0"
 
-RPM_NAME = "maven-checkstyle-plugin-3.0.0-1.20.noarch.rpm"
-RPM_HASH = "55a4c537f9ea093ec318c27a59e5309ca6703485a0aef05fd57dad1f3697ce095f2459dcd7e8155a9bd779aa6d0e6f2078161c686b335d786407a477e5bcd619"
+RPM_NAME = "maven-checkstyle-plugin-3.0.0-1.21.noarch.rpm"
+RPM_HASH = "3de6994c094220a8c95990c676692a42c79f5010d6f4e9fdf2bd515254cbd431362ff3662031f13db42a21b08b46e54f41f2ed571e0098a043e6262484d5a4e7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-checkstyle-plugin \

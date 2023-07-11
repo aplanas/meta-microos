@@ -5,10 +5,11 @@ LICENSE = "Python-2.0"
 
 PV = "0.10.0"
 
-RPM_NAME = "python311-pyalsaaudio-0.10.0-1.1.aarch64.rpm"
-RPM_HASH = "e83bf9d6e5884361b3770ec38e5b1673d5c876c9d20fee4078096ac7afffb2473d93eef4d13ec1ab17e582859b113a35d27edc17ab9e0db8f2bb0e2c4e97e3fc"
+RPM_NAME = "python311-pyalsaaudio-0.10.0-1.3.aarch64.rpm"
+RPM_HASH = "5d0d6cc79d7928f80251046feb421cc60c776b4247c2443a2fba85aff631a5b4481e288854ce438e46fe83d7879c2bbbacc36916d6c0b5fd6e0a6851d0f50506"
 
-RPROVIDES:${PN} += "python3.11dist-pyalsaaudio \
+RPROVIDES:${PN} += "python3-pyalsaaudio \
+python3.11dist-pyalsaaudio \
 python311-pyalsaaudio \
 python3dist-pyalsaaudio"
 

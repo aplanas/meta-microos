@@ -6,11 +6,10 @@ LICENSE = "MIT"
 
 PV = "0.2.7"
 
-RPM_NAME = "python310-ruamel.yaml.clib-0.2.7-2.1.aarch64.rpm"
-RPM_HASH = "1935c4a548b5c06ce8b7a313c9446448314b61318ea430163a5655b0824ed6c78075a4707a307b4cd0bf434d6e7ee439628f60cece224bee97c4a3201ac78594"
+RPM_NAME = "python310-ruamel.yaml.clib-0.2.7-2.3.aarch64.rpm"
+RPM_HASH = "e35ec3bed113ace13275b67d17373fcad80b97dbfc5723d8c75fbb786b6404e4b09deff3c175f3688550b52da214f55601eed8810ab7e7fb26c5178ee81ffb3d"
 
-RPROVIDES:${PN} += "python3-ruamel.yaml.clib \
-python3.10dist-ruamel.yaml.clib \
+RPROVIDES:${PN} += "python3.10dist-ruamel.yaml.clib \
 python310-ruamel.yaml.clib \
 python3dist-ruamel.yaml.clib"
 

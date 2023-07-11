@@ -2,10 +2,10 @@ SUMMARY = "Google's open source browser project"
 DESCRIPTION = "Chromium is the open-source project behind Google Chrome. We invite you to join us in our effort to help build a safer, faster, and more stable way for all Internet users to experience the web, and to create a powerful platform for developing a new generation of web applications."
 LICENSE = "BSD-3-Clause & LGPL-2.1-or-later"
 
-PV = "113.0.5672.126"
+PV = "114.0.5735.198"
 
-RPM_NAME = "ungoogled-chromium-113.0.5672.126-1.1.aarch64.rpm"
-RPM_HASH = "812ce55bf65ab988374511a98b96cc03ae7dd76b4ddac0a73d568034038ff2a86563ba36a609c7307d52cb2ac8e198e8f391dcd5ed9f8270e988ec90e225a375"
+RPM_NAME = "ungoogled-chromium-114.0.5735.198-1.1.aarch64.rpm"
+RPM_HASH = "2bd385fed79000d4cff5118c419ee47adfb81c3f4d7b40ab336ddf88827c25130d3b984dc9bbe6303880508e7333e04d3724aa1958f82a2e989b3f83c798d132"
 
 RPROVIDES:${PN} += "chromium-based-browser \
 chromium-browser \
@@ -17,6 +17,9 @@ web-browser"
 RDEPENDS:${PN} += "/usr/bin/bash \
 ld-linux-aarch64.so.1 \
 libFLAC.so.12 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Widgets.so.5 \
 libX11.so.6 \
 libXcomposite.so.1 \
 libXdamage.so.1 \
@@ -37,6 +40,7 @@ libcups.so.2 \
 libdbus-1.so.3 \
 libdrm.so.2 \
 libevent-2.1.so.7 \
+libexpat.so.1 \
 libffi.so.8 \
 libfontconfig.so.1 \
 libfreetype.so.6 \
@@ -51,6 +55,7 @@ libicui18n.so.73 \
 libicuuc.so.73 \
 libjpeg.so.8 \
 libm.so.6 \
+libminizip.so.1 \
 libnspr4.so \
 libnss3.so \
 libnssutil3.so \
@@ -70,6 +75,7 @@ libxcb.so.1 \
 libxkbcommon.so.0 \
 libxml2.so.2 \
 libxslt.so.1 \
+libz.so.1 \
 permissions \
 xdg-utils"
 

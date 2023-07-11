@@ -2,10 +2,10 @@ SUMMARY = "Translations for package bomber"
 DESCRIPTION = "Provides translations for the 'bomber' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "bomber-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "7d8a865aeada015e7fe6b2987445775f2ca5d6c97f0342e80f64658a4f33ec2d4504c1ef9e08d7689add79ff48ac40bf13f1e616eb4f74dce37d51a39d963565"
+RPM_NAME = "bomber-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "171ceb8c2fd8208b29c82da596715fa3d4c3e476b05cda33bcd84a9337f0b3df34d644fe3e5db8963a13712fe5ceeab88e59a68314abb35ef3dd8c5b2a7c76e3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bomber-lang \

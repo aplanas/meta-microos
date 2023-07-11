@@ -13,10 +13,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.24.2"
 
-RPM_NAME = "python311-numpy-1.24.2-3.1.aarch64.rpm"
-RPM_HASH = "e9cb420efac8d6eac71b4d5748f30817f3c835b75426f346c7b2d6ad1ea38a52499bf0fe637033abf7f978ae0a469f56ba1838e53597e1b3bf10e2f53580cb5c"
+RPM_NAME = "python311-numpy-1.24.2-4.1.aarch64.rpm"
+RPM_HASH = "da1125c00002e96d6184546df6310297fe7f1c3d6515af98c59c4588449b3a9c77a71403324c8248823411adac0eb272b9bc28edc6acfffc4776b3501981ad0f"
 
-RPROVIDES:${PN} += "python3.11dist-numpy \
+RPROVIDES:${PN} += "python3-numpy \
+python3.11dist-numpy \
 python311-numpy \
 python3dist-numpy"
 

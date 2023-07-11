@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.6.0"
 
-RPM_NAME = "python39-zignal-0.6.0-5.4.noarch.rpm"
-RPM_HASH = "e21eb9e2ec681ddd6e3633e32ae232c2a926fdd5c70932783189eb0bf6f941613bd72305ed57630dab2222074fd7c9ee4e18a2a51ee30e054af218b9ea40e45d"
+RPM_NAME = "python39-zignal-0.6.0-5.6.noarch.rpm"
+RPM_HASH = "844cfacec129e06266fdd90256e97085b66bafa6dff8ea2a3f4c2eff994a70fb4fdca275792ebf9e9f326025c81e7df04cf9a01899522e27f5aa07bf59616f3e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-zignal \

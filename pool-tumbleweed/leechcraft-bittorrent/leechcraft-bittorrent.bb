@@ -19,8 +19,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-bittorrent-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "3d166ebf4ac11ab8ebfddb6ffa11e60efdd74eac3fce9af1c196c1050f0a4a05475731f8cdaf9bb3657697ed75c70fef00862002ebca92197db6524ad8abbeb6"
+RPM_NAME = "leechcraft-bittorrent-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "249adc2f8e88ac92623ed1edcd7276078556400da3a4edf10ced9e4ed648264aca0a2489c3c02f5a22219de321c00f17c72488a7e13bfdf5a7f5f5345eff57d7"
 
 RPROVIDES:${PN} += "leechcraft-bittorrent \
 libleechcraft-bittorrent.so"

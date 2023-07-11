@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.12.0"
 
-RPM_NAME = "crispy-doom-5.12.0-1.1.aarch64.rpm"
-RPM_HASH = "6a5584f15843dfd2d70ab174b05c7afe11aa7c81094f8654122d74bd313c4ce5460ae4528eda07042fe998ba468d2e61fd07ca6fd2b4a14077957a4e4758ebec"
+RPM_NAME = "crispy-doom-5.12.0-1.2.aarch64.rpm"
+RPM_HASH = "70d7af5152a7c09a96862bcdbb59a9a9d957f19985fb72cb6be3d04044e7d958dcd7f1353bbf47f07b205ca172a06f2e031629f271e280ae8a381e8a6df4141a"
 
 RPROVIDES:${PN} += "crispy-doom \
 crispy-heretic \

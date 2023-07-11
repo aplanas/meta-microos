@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.6.68"
 
-RPM_NAME = "libopenCOLLADA-doc-1.6.68-1.12.noarch.rpm"
-RPM_HASH = "ccf90dd7843ef2b5b03f98de0bf6efa686e9cf98de6b4f9592a093aaeb30ffd048abbebc3e0b1e61df29e5f57a3a47e90e80e99c44807109eb1928650f32c14e"
+RPM_NAME = "libopenCOLLADA-doc-1.6.68-1.13.noarch.rpm"
+RPM_HASH = "1aabc1961cead5ebd3a24c96cbc6aaed604d906075d064ba7ab2918c6b8a03e607011f69946894ef85dd36518698e68bf3b0cf7bd45d527d6c8f9ea4ae9c4fe4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libopenCOLLADA-doc \

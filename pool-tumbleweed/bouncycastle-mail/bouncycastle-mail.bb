@@ -5,10 +5,10 @@ the Bouncy Castle Cryptography APIs. The JavaMail API and the Java activation \
 framework will also be needed."
 LICENSE = "MIT"
 
-PV = "1.73"
+PV = "1.74"
 
-RPM_NAME = "bouncycastle-mail-1.73-1.1.noarch.rpm"
-RPM_HASH = "36299821c2487e8266e0d43335dd57d42fb75e04aafe8935f5c06808af6a2d42e53a3fa27a7a1366a72ec17c6192ced621a7078360ef06f98277ec70a3a5a8bc"
+RPM_NAME = "bouncycastle-mail-1.74-1.1.noarch.rpm"
+RPM_HASH = "6050de2ee8a55df01deec6b471e83c24de67c5beffaf82c66d88a272544d1080e11bb6091756a0d1d6820f8e05f195b1e88304077f3b6c5e6ad037e4bb13b342"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bouncycastle-mail \

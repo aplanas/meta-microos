@@ -6,12 +6,11 @@ LICENSE = "BSD-4-Clause & ZPL-2.1 & MIT"
 
 PV = "2.0.1"
 
-RPM_NAME = "python310-pyramid-2.0.1-1.3.noarch.rpm"
-RPM_HASH = "b0001f7467e9f75d50bc93f60d2b69eaf712b246f7cafde9d4721682e66816e6a1c7db44ca29d3c43023280ced777fea465c89c149da3a6d981404273a9e1391"
+RPM_NAME = "python310-pyramid-2.0.1-2.3.noarch.rpm"
+RPM_HASH = "7c67097e2359957194510dc9d05e1ec274ee9372468ae9cc964cfe4c005ec84dff4a2474cf0048320a0bf0845bae02429828649dc0cd3c11905968c7dfb2dfef"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pyramid \
-python3.10dist-pyramid \
+RPROVIDES:${PN} += "python3.10dist-pyramid \
 python310-pyramid \
 python3dist-pyramid"
 

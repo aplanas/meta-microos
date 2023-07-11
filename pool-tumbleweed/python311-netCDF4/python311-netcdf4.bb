@@ -16,10 +16,11 @@ LICENSE = "HPND & MIT"
 
 PV = "1.6.2"
 
-RPM_NAME = "python311-netCDF4-1.6.2-1.5.aarch64.rpm"
-RPM_HASH = "208c12982f4c57a6324758367ad2a011c7381ce2658f3bd7184e65691c46d93ea613a98354b2e60e91aab96c486ae1841bb324d14cb8de5c005614549ea6bf35"
+RPM_NAME = "python311-netCDF4-1.6.2-1.7.aarch64.rpm"
+RPM_HASH = "d8ee01fc0a668243b5bbcd27072f0106284c71bde3f49134e8bf719beaaad7a396925167699e58c88a555ca8544a5bb46ff2845a3823557eadd9062b8eeb13a6"
 
-RPROVIDES:${PN} += "python3.11dist-netcdf4 \
+RPROVIDES:${PN} += "python3-netCDF4 \
+python3.11dist-netcdf4 \
 python311-netCDF4 \
 python3dist-netcdf4"
 

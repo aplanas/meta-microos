@@ -8,8 +8,8 @@ LICENSE = "BSL-1.0"
 
 PV = "4.0.2"
 
-RPM_NAME = "libsoci_empty4_0-4.0.2-4.4.aarch64.rpm"
-RPM_HASH = "8b3946c27aa63708c30b0efe919e46403d81c67cec9a1458510661ccda66fe96da139e48b22474b7350e63d963042e787ad64a8ed9ecf205d23f4df2b9fdacdd"
+RPM_NAME = "libsoci_empty4_0-4.0.2-4.5.aarch64.rpm"
+RPM_HASH = "634e60e8df063747bba429b890b675f9a567ee36a247d4ae00d16b6aae0f028ad69a85d9b14088359bebcfb4cc4e727fa226d341b9329608edf1edfc928ad2c7"
 
 RPROVIDES:${PN} += "libsoci-empty.so.4.0 \
 libsoci-empty4-0 \

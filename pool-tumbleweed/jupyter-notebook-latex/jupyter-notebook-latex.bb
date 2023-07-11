@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "6.5.4"
 
-RPM_NAME = "jupyter-notebook-latex-6.5.4-1.1.noarch.rpm"
-RPM_HASH = "4041f7adbe01866e110e19e8a98bd9545cfebdd1b504498b6fdc9b2630a48ef1a8c2cd5c696e28acb0350c8803345505a9a09e0b810376ea64b5738dea01d064"
+RPM_NAME = "jupyter-notebook-latex-6.5.4-1.2.noarch.rpm"
+RPM_HASH = "5aa172db7920edd4eb937d8a51ca3ab2b434591ef196132da91e0c6157be454bada64782055dba4b9a7bee5f696bb3cc3ebb323d1f7a17eb5431c2bd24e778de"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-notebook-latex \

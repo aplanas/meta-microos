@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-includernw"
 DESCRIPTION = "This package includes the documentation for texlive-includernw"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1.0svn47557"
+PV = "2023.208.0.0.1.0svn47557"
 
-RPM_NAME = "texlive-includernw-doc-2023.201.0.0.1.0svn47557-52.1.noarch.rpm"
-RPM_HASH = "90b8a54cf4cd823c9691a365603deacf102c51d9fa7c4d3b8f40630335556f7284caef4fcf35176d952743df84c626f1587c40e1c2471e921a9e93b9449c2368"
+RPM_NAME = "texlive-includernw-doc-2023.208.0.0.1.0svn47557-53.1.noarch.rpm"
+RPM_HASH = "fce406e65f75a5d74d07086df90746fb01e67ff459bf8bcf671d8a06c5826107955dca338eaf2873b7babf99fd83aba53cf67a6e6ca8ef56837a195209b80343"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-includernw-doc"

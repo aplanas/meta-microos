@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.6.4+git.1682509819.1ff135ea"
 
-RPM_NAME = "hawk2-2.6.4+git.1682509819.1ff135ea-1.1.aarch64.rpm"
-RPM_HASH = "f004416939db8906e7b37e9e3fdc9fbaf789fb5ce939f7f01401e81cb92d4c2fa8558dfb5593de6559bc182467ddd37f71e8a0137cd5d5264d81676e39ed1b19"
+RPM_NAME = "hawk2-2.6.4+git.1682509819.1ff135ea-2.1.aarch64.rpm"
+RPM_HASH = "22888bff85bf54c1b552b1a9b9a0d12f9c76d4dd8bb408b507099d0df3f7034cab894f1a07b5a7acf91445f717a374e99edca97bf7fedc36dfd18655a3eef110"
 
 RPROVIDES:${PN} += "ha-cluster-webui \
 hawk \

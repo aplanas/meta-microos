@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.16.0"
 
-RPM_NAME = "ocaml-sexplib0-devel-0.16.0-1.1.aarch64.rpm"
-RPM_HASH = "0ca22f58df4413b6a4a79ff4847d36730806fedfda34c2c3e558f80302a681f725caaade4c8a12e33e8eb9ee15c321916eb89cb2c7e1f831e097f1ce2ca5c94e"
+RPM_NAME = "ocaml-sexplib0-devel-0.16.0-1.2.aarch64.rpm"
+RPM_HASH = "122d1292db3d103501e233e75b5099d3672e53367d016e796d1a8ac7bc776ddde274ddeac1c297697aca80de53b961c9de52795a886abcd0ba2bc70b26b687cc"
 
 RPROVIDES:${PN} += "ocaml-Sexplib0 \
 ocaml-Sexplib0-- \

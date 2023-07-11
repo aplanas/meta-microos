@@ -27,14 +27,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.031"
 
-RPM_NAME = "perl-Test-Warnings-0.031-1.9.noarch.rpm"
-RPM_HASH = "a9bde5e965cdce38c7966d3afa6b5b2b167877420b8c9db8cd91f10550c2936060167b5ca92da4c94121990a1cfbe60ea4c83f48062706e1df88880ef0896118"
+RPM_NAME = "perl-Test-Warnings-0.031-1.10.noarch.rpm"
+RPM_HASH = "4792d66c56ffc8b247fb7a19d30b6ccb8d3b112cf3199d0130bf4529233793df9d94a9e56e5fcc3aa9c679072382aade3832be9f3ce4049fb6642ac6d2f06dba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Warnings \
 perl-Test-Warnings"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-parent"
 
 inherit rpm

@@ -6,14 +6,14 @@ database engine. Tryton provides modularity, scalability and \
 security."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.0.32"
+PV = "6.0.33"
 
-RPM_NAME = "trytond-6.0.32-1.1.noarch.rpm"
-RPM_HASH = "6ec8055f9f9205bf72bb99aa6b584be29fad1b03dc3a5582a8823556f9e92ee14dc0b144ec3f910f15bc645007fc237b4929959e2a46b9cbe213612e308db5dc"
+RPM_NAME = "trytond-6.0.33-1.1.noarch.rpm"
+RPM_HASH = "ac93e013a520c2dc61bf33bc0a6e93bfc107a4a349803fc93224624198124a39a3033c5e94d8bae86ddc5af5a7ff052ef9d81e1a76aa891de4c76b73699f1764"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-trytond \
-python3.10dist-trytond \
+python3.11dist-trytond \
 python3dist-trytond \
 trytond"
 

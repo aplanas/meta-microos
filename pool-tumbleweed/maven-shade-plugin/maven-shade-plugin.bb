@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.4.1"
 
-RPM_NAME = "maven-shade-plugin-3.4.1-1.1.noarch.rpm"
-RPM_HASH = "97b300f2a3ba5dff34441b0557d8897edd1d09a5921372f1fcc0e7cc01b653d63fe53a48d206f327ed93590c7a69fb31bd990244ea1d7dfbb9a8f0396add8729"
+RPM_NAME = "maven-shade-plugin-3.4.1-1.2.noarch.rpm"
+RPM_HASH = "abf2dca970116e93f3ba5f78dbab52b12498214edb4be65a708f411008258b19596a6057e45d2db4f2daaff5154a9272ea7d375229c846a1b2947c577dfafb53"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-shade-plugin \

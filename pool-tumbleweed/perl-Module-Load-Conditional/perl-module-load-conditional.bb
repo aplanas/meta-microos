@@ -9,14 +9,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.74"
 
-RPM_NAME = "perl-Module-Load-Conditional-0.74-1.12.noarch.rpm"
-RPM_HASH = "d7361f37b0b9fd32bddb0994e174e89fec27b4de3385de6b76c6b1f147ebdf52b137400f5feeadde5fb0f262ff7770a0340b497bae2ab1cb1168677691adedb3"
+RPM_NAME = "perl-Module-Load-Conditional-0.74-1.13.noarch.rpm"
+RPM_HASH = "38e9931a59584fa6003d2fd3674de5bd3c41a69cccfb845123f465ec3fe206857d1c1f0c1bc6231151260bfc22dd46d43da7681bc8f28dc0724ee0099d7fe861"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Module--Load--Conditional \
 perl-Module-Load-Conditional"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Locale--Maketext--Simple \
 perl-Module--CoreList \
 perl-Module--Load \

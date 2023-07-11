@@ -4,12 +4,11 @@ LICENSE = "Apache-2.0"
 
 PV = "0.8"
 
-RPM_NAME = "python310-importlab-0.8-1.4.noarch.rpm"
-RPM_HASH = "8463db8d48c6e61f8fb146463602f5fbb9cd6e22ad20bb494a2945bbc714339a027375f52a3836b8d3aeb3980a4e565d749af5a0ea37e793b0592db1fdf93c73"
+RPM_NAME = "python310-importlab-0.8-1.6.noarch.rpm"
+RPM_HASH = "efc87d4098817a9f946791b668eb6b173414ea37963fed260595ac4b6d67b4e49a74903f13dfd4877e6330f830de84226e8aaac9646b96892c10d418d2f9ef0c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-importlab \
-python3.10dist-importlab \
+RPROVIDES:${PN} += "python3.10dist-importlab \
 python310-importlab \
 python3dist-importlab"
 

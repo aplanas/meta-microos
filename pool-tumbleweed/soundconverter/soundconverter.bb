@@ -7,10 +7,10 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.0.3"
 
-RPM_NAME = "soundconverter-4.0.3-1.4.aarch64.rpm"
-RPM_HASH = "40306bcae052f5d65091b88d492edcbab9c2442db6148a07a1cd3d110b2c8176c0b28a5a83eb62890cfc531ccc4ac97805cc7b600f93fcff51b7ed37a0d8eecf"
+RPM_NAME = "soundconverter-4.0.3-1.5.aarch64.rpm"
+RPM_HASH = "18accfeda8a7a422b9120872aefb9ab6e215768399eadd107c594799ecf1107b71fd64001b3f45382da9435991fa7acc67d32f2a2299606bc9f1061d65e13c0b"
 
-RPROVIDES:${PN} += "python3.10dist-soundconverter \
+RPROVIDES:${PN} += "python3.11dist-soundconverter \
 python3dist-soundconverter \
 soundconverter"
 

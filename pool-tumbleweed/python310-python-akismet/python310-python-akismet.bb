@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.4.3"
 
-RPM_NAME = "python310-python-akismet-0.4.3-1.3.noarch.rpm"
-RPM_HASH = "d3c89ace601e0dbae011a5b3f7682d8a4c3bc4d218fcb10cb6048d4d16848beab75bb98f499c47a28094058ac819da775b5a1755f0993e725d71ca1d0323d724"
+RPM_NAME = "python310-python-akismet-0.4.3-1.5.noarch.rpm"
+RPM_HASH = "d8b7e1867d3540beca55dd14cd6e8516d7b8217fd49fca5a2ac69cfb9274ff88adab42e431bca9ec4ce870d05d29879c6932068d49ea1cd257e717b6e1fd2962"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-python-akismet \
-python3.10dist-python-akismet \
+RPROVIDES:${PN} += "python3.10dist-python-akismet \
 python310-python-akismet \
 python3dist-python-akismet"
 

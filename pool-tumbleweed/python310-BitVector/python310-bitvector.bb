@@ -9,12 +9,11 @@ LICENSE = "Python-2.0"
 
 PV = "3.5.0"
 
-RPM_NAME = "python310-BitVector-3.5.0-1.8.noarch.rpm"
-RPM_HASH = "35f99bc192207a68204d0cc122539c47a18b661d69d385702030fdbe287d75d129a8f9e4479f06e9d93a02a028da7b03c7889da1714a24cdac14a89d0795b5ef"
+RPM_NAME = "python310-BitVector-3.5.0-1.9.noarch.rpm"
+RPM_HASH = "0d0d266c44382fb2cf3c65f169f62dab8dda69bbc408f243ae07c36886bc1910347adc5b2ccab0863d3f56b927031314c241dcf79a10dbef7b9a6f0456e065fc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-BitVector \
-python3.10dist-bitvector \
+RPROVIDES:${PN} += "python3.10dist-bitvector \
 python310-BitVector \
 python3dist-bitvector"
 

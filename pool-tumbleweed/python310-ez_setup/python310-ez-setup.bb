@@ -8,12 +8,11 @@ LICENSE = "MIT"
 
 PV = "0.9"
 
-RPM_NAME = "python310-ez_setup-0.9-3.3.noarch.rpm"
-RPM_HASH = "1c2ef41573e04e96e261ed6e88bf9e44ae68fc537ba7d92b6952d33b180973d1434aa97b1baefe63a7526c65a08cdbc6136cbdd6d7a21f05619240af52eda925"
+RPM_NAME = "python310-ez_setup-0.9-3.4.noarch.rpm"
+RPM_HASH = "f8e91d06be20565a6ee7446381d14da4f0e00fa790771d439d6872b85ca02eb0e8de792503f61ea4295c6ff6e04edc7d3c7f00a6ae505249bc1a0928c41169ca"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-ez-setup \
-python3.10dist-ez-setup \
+RPROVIDES:${PN} += "python3.10dist-ez-setup \
 python310-ez-setup \
 python3dist-ez-setup"
 

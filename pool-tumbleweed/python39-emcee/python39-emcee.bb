@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "3.1.4"
 
-RPM_NAME = "python39-emcee-3.1.4-1.3.noarch.rpm"
-RPM_HASH = "b5d3fee607607ab616bbdbd4df79e045d32bd71b11ff6b25fde8e82327fc40fe4a6795f308ff7fccef5b44064ed8e119c3bab9736d74c7dec2a8c71bb76b5dea"
+RPM_NAME = "python39-emcee-3.1.4-1.5.noarch.rpm"
+RPM_HASH = "3a745e7c4d80050da160e05a68bdde7a0f1b17f338681c20f1d3c3f10667faef3949ecd886f3097148d431277dfc1d7ece2b74e273183d92f1cd3fd48ced7647"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-emcee \

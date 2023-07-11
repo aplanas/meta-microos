@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.90"
 
-RPM_NAME = "xgboost-javadoc-0.90-3.3.noarch.rpm"
-RPM_HASH = "8fae9ecf4a7c7642ac4fffd020e1f2fe8882bb0d3275aff5c4ce09764ab164bcea250f6ca75f5da7c06931e26539e1e3220a4bc1bc2384bf7dd9926b6049e307"
+RPM_NAME = "xgboost-javadoc-0.90-3.4.noarch.rpm"
+RPM_HASH = "ecdeb829173dc39a79a627a1528c48af23e792415da38b7834eb2a3fecaf2b7acea58308c45f8cf8dc4d9e1b31e2053e4d7d2ed78a5da302ae2ac3d07c9504c4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xgboost-javadoc"

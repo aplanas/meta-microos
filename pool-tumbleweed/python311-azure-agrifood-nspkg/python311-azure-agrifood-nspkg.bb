@@ -8,11 +8,12 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python311-azure-agrifood-nspkg-1.0.0-1.8.noarch.rpm"
-RPM_HASH = "900c9b2ca6c05758c2bfd6438c17443c289da3c85ed73a52148352830d47345c2d5c06264bafad2b6dcb89daa5710e13666973efd8516a98ffbf06e570cea4cb"
+RPM_NAME = "python311-azure-agrifood-nspkg-1.0.0-1.9.noarch.rpm"
+RPM_HASH = "a7c3900be26d7b791d7ae47d81976abbdcca107730f5cf96c7e96af73b4dea0131b730cb2a68ab97eff826291e9db0c068eabbd3c4924e2a5c163fbecb9a3e82"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-agrifood-nspkg \
+RPROVIDES:${PN} += "python3-azure-agrifood-nspkg \
+python3.11dist-azure-agrifood-nspkg \
 python311-azure-agrifood-nspkg \
 python3dist-azure-agrifood-nspkg"
 

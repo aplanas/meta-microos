@@ -5,10 +5,10 @@ of the modular design, it is possible to plug new components into \
 Evolution or embed the existing ones in other applications."
 LICENSE = "CC-BY-SA-3.0 & LGPL-2.0-only & LGPL-3.0-only & OLDAP-2.8 & GFDL-1.1-only & GFDL-1.3-only"
 
-PV = "3.48.2"
+PV = "3.48.4"
 
-RPM_NAME = "evolution-3.48.2-1.1.aarch64.rpm"
-RPM_HASH = "8e7a94898eb308709b2b16d0e9c5eb487987aee84de801ea54c8f25bd2a754eae705cc77cc7c0f69967ba386c1ca866d915560c9069ebb004560ed1b0b101ab2"
+RPM_NAME = "evolution-3.48.4-1.1.aarch64.rpm"
+RPM_HASH = "53b5c9eb804d5b01f3cd4a3284aa02b864fa133a93849d7c2827a3f53e202b858ec3eaf1dbf24ecdc81f5921dd26d8abe4c57f90abdb6c4f98f864e0ae68895e"
 
 RPROVIDES:${PN} += "evolution \
 libcamelrss.so \

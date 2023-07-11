@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause & Unlicense"
 
 PV = "131.1.0"
 
-RPM_NAME = "libkissfft-float131-131.1.0-2.3.aarch64.rpm"
-RPM_HASH = "05333acda07dbd791c670ba6670ebd62bfa59c38972e7f2a1ed3bc95614764d0996b28069b2a57e652abdb5a20028f71e392f2524d6561e2052636e99372df1d"
+RPM_NAME = "libkissfft-float131-131.1.0-2.4.aarch64.rpm"
+RPM_HASH = "709bc81714d6ec6d7bd92650d5332c8cdbd2cf1f5fda15ac7c3f59424a7696d4ee5cd625b4c23c701d1565d09b12c34e5d9bd1bc2c58791703eca39da5b601f6"
 
 RPROVIDES:${PN} += "libkissfft-float.so.131 \
 libkissfft-float131"

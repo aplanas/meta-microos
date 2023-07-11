@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "3.1.2"
 
-RPM_NAME = "python39-jaraco.logging-3.1.2-2.1.noarch.rpm"
-RPM_HASH = "e8e59467b31657adb12c6dd31ce49006cc4e115d471500c88d8e3715b8091be1e60a5965554d39977766d7573870077945212d91e7ea9cd73880513e4e1565bc"
+RPM_NAME = "python39-jaraco.logging-3.1.2-2.2.noarch.rpm"
+RPM_HASH = "8dd264997c0859caf8087f5191462ac568149ae476a3a78c41b18af72929630fda67896b5d22abb4ee58eec8c236eb9be766eb5890624cc2cd065e21e30d4e7f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-jaraco.logging \

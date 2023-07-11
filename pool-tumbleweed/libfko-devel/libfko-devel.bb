@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.6.10"
 
-RPM_NAME = "libfko-devel-2.6.10-3.8.aarch64.rpm"
-RPM_HASH = "86ea1c897455b974f8b40176393fd17bb136240a54f858db31590486e8b62f7f4912e74ac281a139e77836bd4abb7fa206e5891ad3bc5e21c6d3f8b407014455"
+RPM_NAME = "libfko-devel-2.6.10-3.9.aarch64.rpm"
+RPM_HASH = "22a0affa9ee5adaef115c011d619ea90777b767f1bfb511bd2b223e016fa3ca147cd37f363b567fb11f4a60472530c0e50e243f33e0b7141fe0020a4497ae37f"
 
 RPROVIDES:${PN} += "libfko-devel"
 

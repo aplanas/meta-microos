@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.14.1"
 
-RPM_NAME = "libnbd-bash-completion-1.14.1-2.1.noarch.rpm"
-RPM_HASH = "91474ea0d6c599a87f83ceef2b6a18b844c37bd3fb01757fb30538766562b4fef2a9fac637a803b30036cd654f95ebae7d11b760c4e542ce7680df79e6c9075e"
+RPM_NAME = "libnbd-bash-completion-1.14.1-2.2.noarch.rpm"
+RPM_HASH = "dbac99c24fa66b3a04def5c2c14e5ab77033c8bdaee33e1143a53eeb1bcf75042e6acf09b2b992ffbdee2094bac4249c7e5b32ccb861deedba7189e356d0c4a0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libnbd-bash-completion"

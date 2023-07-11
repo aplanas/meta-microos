@@ -6,8 +6,8 @@ LICENSE = "MPL-2.0"
 
 PV = "2.2.0"
 
-RPM_NAME = "libkea-dhcp_ddns29-2.2.0-2.4.aarch64.rpm"
-RPM_HASH = "011cf511d16499e99afe93583d62b7d53244666369195d597b0a52f0add5a303e5a05c160afef69ca520386e08478dbe83a947dd4e27267c32b7af2be25f640f"
+RPM_NAME = "libkea-dhcp_ddns29-2.2.0-2.6.aarch64.rpm"
+RPM_HASH = "0de5c140a8fcb654572080c996ef682cc22ff3328e5ae83ddb21de50c636e83b2ee0c153fc3c27c487735e9c753488821b71e4db0ebe0ca90b148469b845e1be"
 
 RPROVIDES:${PN} += "libkea-dhcp-ddns.so.29 \
 libkea-dhcp-ddns29"

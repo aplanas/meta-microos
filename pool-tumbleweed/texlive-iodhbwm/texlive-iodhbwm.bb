@@ -5,10 +5,10 @@ project work with LaTeX. The aim of the package is the quick \
 creation of a basic framework without much effort."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2.2svn57773"
+PV = "2023.208.1.2.2svn57773"
 
-RPM_NAME = "texlive-iodhbwm-2023.201.1.2.2svn57773-52.1.noarch.rpm"
-RPM_HASH = "314c810eebf78b90f2664abecb091555563b23006084694f73671b78f4513c05b81b85897aae8878659749e87e3529512dda01a4cefac4e9b2f93aa118209918"
+RPM_NAME = "texlive-iodhbwm-2023.208.1.2.2svn57773-53.1.noarch.rpm"
+RPM_HASH = "540436efc2f31857fa27687587d023b355ab3e6fa9c4998c9e2cb43e066eaca786ff9fa4ffff353d5a092487fa2f102e75328aae76c8ede25c2b6c430d949d15"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-iodhbwm-i18n.def \

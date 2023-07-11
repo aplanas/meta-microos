@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "3.0.0"
 
-RPM_NAME = "volk-3.0.0-1.3.aarch64.rpm"
-RPM_HASH = "3f0d57a1fb136cdc1f87c43c9a8645ffa5da9c6723bad386c60a1b68a2136aa961b24a332d93f3f2ca720d136b66807e177ee147d6dd79dd47b7c978703f6bd5"
+RPM_NAME = "volk-3.0.0-1.4.aarch64.rpm"
+RPM_HASH = "1bc1accc4a51c7de89b2486432c8800e91ab85902f26db85544814b359850b231c620b20b81df49f2fb679adc63d627ac7d203b5c4650be2393ef7e90c151d55"
 
 RPROVIDES:${PN} += "bundled-cpu-features \
 volk"

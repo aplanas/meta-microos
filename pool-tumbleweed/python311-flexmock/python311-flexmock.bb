@@ -8,11 +8,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.10.8"
 
-RPM_NAME = "python311-flexmock-0.10.8-2.1.noarch.rpm"
-RPM_HASH = "344406484667f361df8066ef1aea3519001c6d5b53ad757cc65de37471176a329e3afe6542b6ef2a3d62c9d0801eafcf5d2dcb66d57e3b740827085a72901437"
+RPM_NAME = "python311-flexmock-0.10.8-2.3.noarch.rpm"
+RPM_HASH = "cf0d17215abeb0a0c4c04692c1d42674aab5e5bead8a6ba929cc78059663d74c2ad4769fd0c8cff5ce2ff1fd185e0fae7752d11cf469c56ecb8577ea999eaa8f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-flexmock \
+RPROVIDES:${PN} += "python3-flexmock \
+python3.11dist-flexmock \
 python311-flexmock \
 python3dist-flexmock"
 

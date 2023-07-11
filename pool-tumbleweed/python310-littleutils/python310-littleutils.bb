@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.2.2"
 
-RPM_NAME = "python310-littleutils-0.2.2-2.1.noarch.rpm"
-RPM_HASH = "dbf28a7ffbc9acca2e96fd79bba4f75102fdb178f1d7885ef0bc764d35b70baabaffd0ffdda7c50e23cefd7fc386476dc74a388425dde1cae217abb8a0e416e1"
+RPM_NAME = "python310-littleutils-0.2.2-2.2.noarch.rpm"
+RPM_HASH = "85e787d41c4bc5deaec1c2cf8c6c252aa4d1ff8c57f21f0caaaca75d4dbf8723a8e56ddf824a0149b07332968d7527a3ecbc9f545738d5e8714276248ae8532d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-littleutils \
-python3.10dist-littleutils \
+RPROVIDES:${PN} += "python3.10dist-littleutils \
 python310-littleutils \
 python3dist-littleutils"
 

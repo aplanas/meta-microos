@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.4.0"
 
-RPM_NAME = "libasync1_6-1.4.0-5.9.aarch64.rpm"
-RPM_HASH = "1fa55e86a194ed45751177afb0ad7a1c1f2c73aa407036f92a2c6791a6bd76880df061d558962417d94a7dec78dd84a83631fab49ba97f8e1cff8bd033809fe9"
+RPM_NAME = "libasync1_6-1.4.0-5.10.aarch64.rpm"
+RPM_HASH = "ea30234d2e33b3ed2ffa919be636e514320ecf00e544e21a943657f43a100cb2811775360448bb48a92ab05a858880ebc00d9098959bfaf8701ebf303681663e"
 
 RPROVIDES:${PN} += "libasync1-6 \
 libasyncaudio.so.1.6 \

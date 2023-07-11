@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.0.16"
 
-RPM_NAME = "octave-forge-netcdf-1.0.16-1.3.aarch64.rpm"
-RPM_HASH = "4e7075b2922f7797e2171c890b00a280ba23bbb2e9d9d44b37a6a26cac7e658a26ef693445346cad34832157b5b0f614b1de407353d0f410f0c1798726529ec5"
+RPM_NAME = "octave-forge-netcdf-1.0.16-1.4.aarch64.rpm"
+RPM_HASH = "beca59d7a182c981abcd07d8a3281cab3919f8572aceab1c565e67a78e0d633334a9a05309af0921e3430ac309d6d4b5d70d22c2955a257c83cfd655234cb3ff"
 
 RPROVIDES:${PN} += "octave-forge-netcdf"
 

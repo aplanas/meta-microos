@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.4.37"
 
-RPM_NAME = "gnome-shell-search-provider-lollypop-1.4.37-1.2.noarch.rpm"
-RPM_HASH = "9391afa1fc07d18a5130803017fe1e33a09b89ddf58bc10978bcbcdefd1615b83b9915ee6aa574565b35fde6a47e275ca7e8dbddf2a683e5c232368d483ca75b"
+RPM_NAME = "gnome-shell-search-provider-lollypop-1.4.37-1.3.noarch.rpm"
+RPM_HASH = "63c33be5a1bfca3bc43fdf67fb7d996100e3676d632b5c4c150644c59f92670a0a8b98ad4d382868fb8e3f480096b5df9673870b1ac6a4d1544d0a1db10d186c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-shell-search-provider-lollypop"

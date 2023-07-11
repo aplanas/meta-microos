@@ -9,10 +9,10 @@ SubDomain. \
 The documentation is in the apparmor-admin_en package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.1.4"
+PV = "3.1.6"
 
-RPM_NAME = "apache2-mod_apparmor-3.1.4-1.1.aarch64.rpm"
-RPM_HASH = "e95d1561cce4fe71963b2b7ec46b7dc62e183547eb9458bdcc369cd2fd1ddcdaf2be1a26d18599025ee5b32a754b7953b31a0445a29219b3bce338116e38955c"
+RPM_NAME = "apache2-mod_apparmor-3.1.6-1.1.aarch64.rpm"
+RPM_HASH = "c2975970093bc43ced6e0ef0c9a2819a671d25404c07a86f351745c36ec3ee8de26a6972c648328c115da2463b1a59ee90248b2f50648c912b79db9465c718d3"
 
 RPROVIDES:${PN} += "apache2-mod-apparmor"
 

@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.1.3"
 
-RPM_NAME = "pystring-devel-1.1.3-1.8.aarch64.rpm"
-RPM_HASH = "b5dd0218935c1e1427eeb9431eaa0c7bd0cd03b59e7fde891b3b1e69eda2d9232aa7970c06c040451f1f313b8f438b8ba37c9f7fcb7f12ac451e9783f826c4e0"
+RPM_NAME = "pystring-devel-1.1.3-1.9.aarch64.rpm"
+RPM_HASH = "57416b42613305b50fd8461de2520ca28a8b803338256e4f56402716726a4652dc37cfe73f7c12db927f06ad2db899821d1ad7f4d422d706644a06cdcfcdf93f"
 
 RPROVIDES:${PN} += "pystring-devel"
 

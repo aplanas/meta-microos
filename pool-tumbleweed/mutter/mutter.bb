@@ -3,10 +3,10 @@ DESCRIPTION = "Mutter is a window and compositing manager based on Clutter, fork
 from Metacity."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.1+2"
+PV = "44.2"
 
-RPM_NAME = "mutter-44.1+2-3.1.aarch64.rpm"
-RPM_HASH = "d9a88c303fae19eb4c4773df09bf168ef9a4b4f456058a79dbaad0497f7624c7f857168e13ea2388913a92878e4ebc803e5829e83c3333a413bfd103fb9f18e9"
+RPM_NAME = "mutter-44.2-1.1.aarch64.rpm"
+RPM_HASH = "d1f6fa661aba2a50ac6e91efc174d951aed577d11d7edbd3ce95c3bb0f134d7bd146df13f4b7cfd0976a95241c2a7614055452dabeb131e5988dfa2acb043d75"
 
 RPROVIDES:${PN} += "libdefault.so \
 libmutter-12.so.0 \

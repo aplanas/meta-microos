@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "0.1.10"
 
-RPM_NAME = "python39-padaos-0.1.10-1.19.noarch.rpm"
-RPM_HASH = "5cfc2c01ef173ea22a96ad1d6c3e67005632eab52ebec84e7ac8b88b4dbeaec213851194d6dfe8c5cc726581cd604cc43e45baefc6025506dda6c09e647a1371"
+RPM_NAME = "python39-padaos-0.1.10-1.21.noarch.rpm"
+RPM_HASH = "57167d061e3d81506bde01bba1b7650126668244d5348d30b9349c88ca0cf58d33b4c9d985fe0be0a22133eea7c608dccfee37e1ddda7b153ee5f6e58b716f21"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-padaos \

@@ -6,10 +6,10 @@ videos. Its plug-in-based architecture means that new data types or \
 processing capabilities can be added simply by installing new plug-ins."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.3"
+PV = "1.22.4"
 
-RPM_NAME = "libgstvulkan-1_0-0-1.22.3-1.1.aarch64.rpm"
-RPM_HASH = "594e162d95c2cbe024272800a43c9edd9e9be8c214fd9b7c24dae13081063fcc18637921b62a08171915f3f36ebf7b7cb70ba9c7465ddca58b47824bf71b47fe"
+RPM_NAME = "libgstvulkan-1_0-0-1.22.4-1.1.aarch64.rpm"
+RPM_HASH = "d2e990aae0a880f746e6584a668bf4f46771b84d9d396460b2ebfec3ea85d2121c6f943aece8121d7bbfcad3bc3d879362b1094e422d9e32dc4735774d81288b"
 
 RPROVIDES:${PN} += "libgstvulkan-1-0-0 \
 libgstvulkan-1.0.so.0"

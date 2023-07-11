@@ -8,11 +8,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.4.3"
 
-RPM_NAME = "python311-Markdown-3.4.3-1.2.noarch.rpm"
-RPM_HASH = "3496d6ecdd45c07c501c0b5ab500754db946ad2ca32f7dd91ecfe3b922dd248c7a9f498358dcee37158cc9337ed41351491126e0701582f6ca2b9bf401310374"
+RPM_NAME = "python311-Markdown-3.4.3-2.1.noarch.rpm"
+RPM_HASH = "49abb71d449b8728f7d397019598d2abb031038a222418cc73712b31cdb73723f984f7bb88084388fda6bf3085d1bafcfdee7e16db123d4b4a8f6527306d6a31"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-markdown \
+RPROVIDES:${PN} += "python3-Markdown \
+python3.11dist-markdown \
 python311-Markdown \
 python3dist-markdown"
 

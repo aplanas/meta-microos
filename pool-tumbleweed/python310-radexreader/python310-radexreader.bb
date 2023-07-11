@@ -7,14 +7,13 @@ To avoid Access denied (insufficient permissions), don't forget \
 to unplug the device after installation."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.2.1"
+PV = "1.2.2"
 
-RPM_NAME = "python310-radexreader-1.2.1-1.9.noarch.rpm"
-RPM_HASH = "402e234fc64712e78581a20ead5d2069b0c57edd80cbbff02b10d0a9a645d12051a12f0c566ead884842b072ecbd5f2b58845dc66152b79e4a40532d20193149"
+RPM_NAME = "python310-radexreader-1.2.2-2.1.noarch.rpm"
+RPM_HASH = "9d838c00696291be335037b61fb9571c07e8b6cab5c99652f7ca6eb9347970adc5e4bc9c313affb149d4dc03d5ded16fda134c4c0f33b42c9b8e5ead9a8a92c2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-radexreader \
-python3.10dist-radexreader \
+RPROVIDES:${PN} += "python3.10dist-radexreader \
 python310-radexreader \
 python3dist-radexreader"
 

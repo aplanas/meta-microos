@@ -16,12 +16,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.1"
 
-RPM_NAME = "python310-webencodings-0.5.1-5.1.noarch.rpm"
-RPM_HASH = "2b40dc2ebe77b1bc9a063c0ef0e5a371cc4fa2f6425ef2bc56ba936d8f6a232d30b4a8ce7db2d016d0df0735b1e737a0f69f64357618cc6f16f278291ed05940"
+RPM_NAME = "python310-webencodings-0.5.1-5.2.noarch.rpm"
+RPM_HASH = "d2a0561470378c24f362a43dbe404872446c77c04955d8c465822e3955b017145a71ec53e20f56e454b8ae15dc5533e06a421dc45a84bea9568786347b0796b4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-webencodings \
-python3.10dist-webencodings \
+RPROVIDES:${PN} += "python3.10dist-webencodings \
 python310-webencodings \
 python3dist-webencodings"
 

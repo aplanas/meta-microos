@@ -4,11 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "9.4.0.0"
 
-RPM_NAME = "ghc-ghc-lib-parser-ex-9.4.0.0-1.3.aarch64.rpm"
-RPM_HASH = "fb0601adf25a1dcfff1162752f70b75c0635fd1162bfdc92c7b0ddd9737cc261758e7f163d69a11cb525acef94d8a247709a630ea6038a877e0757937f6b669f"
+RPM_NAME = "ghc-ghc-lib-parser-ex-9.4.0.0-1.6.aarch64.rpm"
+RPM_HASH = "7d33227dd4d31daf55649f03a8f9d425ae314a675ccd317b8a0e06e5e75ab499c86b40d2c5547d30d4760e1c3dca2fdc7ddc8cb828ca9623cd24390672bf815d"
 
 RPROVIDES:${PN} += "ghc-ghc-lib-parser-ex \
-libHSghc-lib-parser-ex-9.4.0.0-70SEjDlvh6sIQjB4r4CbU7-ghc9.4.5.so"
+libHSghc-lib-parser-ex-9.4.0.0-csIofWAAh3CX4OvchqGS5-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
 libHSbase-4.17.1.0-ghc9.4.5.so \
@@ -21,7 +21,7 @@ libHSexceptions-0.10.5-ghc9.4.5.so \
 libHSfilepath-1.4.2.2-ghc9.4.5.so \
 libHSghc-bignum-1.3-ghc9.4.5.so \
 libHSghc-boot-th-9.4.5-ghc9.4.5.so \
-libHSghc-lib-parser-9.4.4.20221225-IYLH4ajMYTmJphnJAgaapb-ghc9.4.5.so \
+libHSghc-lib-parser-9.4.5.20230430-3l319oISrwg5O8XOrKFn5M-ghc9.4.5.so \
 libHSghc-prim-0.9.0-ghc9.4.5.so \
 libHShashable-1.4.2.0-FFBRhuY0w4YLmuLEs5uQAt-ghc9.4.5.so \
 libHSmtl-2.2.2-ghc9.4.5.so \

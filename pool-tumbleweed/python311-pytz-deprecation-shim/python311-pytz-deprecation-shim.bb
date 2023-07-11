@@ -17,11 +17,12 @@ LICENSE = "Apache-2.0"
 
 PV = "0.1.0.post0"
 
-RPM_NAME = "python311-pytz-deprecation-shim-0.1.0.post0-4.1.noarch.rpm"
-RPM_HASH = "9c66969a4b50895de87d3a96b09d268cd59ea5cd3f5150d55fda7edbedb8af5fd59e454cc6298945c2f673b826947ac8b6e573a0574beb8609e06ae374b70371"
+RPM_NAME = "python311-pytz-deprecation-shim-0.1.0.post0-5.1.noarch.rpm"
+RPM_HASH = "9a94b76587e191c9c97910d6c44c3143facd3ca7bf35511f11d184cc3eb31df1fe808ef67718acd347a535d3d05168d7cf5bc7f22b4165b403e9cd428120d357"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pytz-deprecation-shim \
+RPROVIDES:${PN} += "python3-pytz-deprecation-shim \
+python3.11dist-pytz-deprecation-shim \
 python311-pytz-deprecation-shim \
 python3dist-pytz-deprecation-shim"
 

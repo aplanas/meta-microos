@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "5.3.7"
 
-RPM_NAME = "ghc-semigroupoids-prof-5.3.7-2.3.aarch64.rpm"
-RPM_HASH = "15bd9682ed64ec1db125e2e62fb2d022289efa361d3650e3001dfee029e58cc828addb1d8a45df21a87948cae072d22dd0464f255308ab8ba029076effbec92f"
+RPM_NAME = "ghc-semigroupoids-prof-5.3.7-2.6.aarch64.rpm"
+RPM_HASH = "18f97ce64d33319b928c9c4815eeb834566168a449f29c3b1a5eee5789c6f76b4344a0b4a5842c901b7737b6dabb0edd7b74bb10bd8257a49fc6a47693a5b4f7"
 
 RPROVIDES:${PN} += "ghc-prof-semigroupoids-5.3.7-Ju2oK8NLhZKHdQ6h8GWNM1 \
 ghc-semigroupoids-prof"

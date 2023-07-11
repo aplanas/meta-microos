@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.3.5"
 
-RPM_NAME = "contractor-0.3.5-1.3.aarch64.rpm"
-RPM_HASH = "66dbadc7881cb1a7e2d6f1833dbd67c4f060fed4491b0e83756638928c4b34cc544ce25942c89bac6f1dc22643654abcdd64bfeccc809df639855fbfa6ba2a23"
+RPM_NAME = "contractor-0.3.5-1.4.aarch64.rpm"
+RPM_HASH = "3f640928c560d50db11517d8dbf98835bc3b87c972ff326f338941ed9171135b89f23cdb5f69858b33184728526d850ed84c37f49f3bc95f4938d40922e63038"
 
 RPROVIDES:${PN} += "contractor"
 

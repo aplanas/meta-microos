@@ -2,10 +2,10 @@ SUMMARY = "Core part of Maven"
 DESCRIPTION = "Core part of Apache Maven that can be used as a library."
 LICENSE = "Apache-2.0 & MIT"
 
-PV = "3.9.1"
+PV = "3.9.2"
 
-RPM_NAME = "maven-lib-3.9.1-2.1.aarch64.rpm"
-RPM_HASH = "2c9a5efaeece24f00e92e92d7ec62e52093d1e5ea7874bb44ee659768d76b9bbc74255d3cb095abce157d0e858656de9bf32d86fadddb9e59f84d368c2093659"
+RPM_NAME = "maven-lib-3.9.2-1.1.aarch64.rpm"
+RPM_HASH = "b73c8936f80835431e9bb621091381d894a02daa224fd36b00b82f673c35d38e7660247859160423e08aac1478faa184a1f3108ac23c609ddca3da308c2b2e49"
 
 RPROVIDES:${PN} += "bundled-slf4j \
 config-maven-lib \

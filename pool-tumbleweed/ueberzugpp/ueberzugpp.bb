@@ -18,10 +18,10 @@ Advantages over w3mimgdisplay and ueberzug: \
 - Resized images are cached for faster viewing"
 LICENSE = "GPL-3.0"
 
-PV = "2.8.5"
+PV = "2.8.8"
 
-RPM_NAME = "ueberzugpp-2.8.5-1.1.aarch64.rpm"
-RPM_HASH = "945d4f5faefa53082035440f31edccbc5d330a3464c8c7f4f9d6b620a4135de3df5985d588e960dc2e4665576dac0a5565324a7a26964cb22460b3700289418b"
+RPM_NAME = "ueberzugpp-2.8.8-1.1.aarch64.rpm"
+RPM_HASH = "2745d8fb60ead751a8042d21b2b5d42953fd3e60f374f6962cdfa60791399a468746ec0496de933c4cf23c327b9fa92541cd12b45e191386f9da30e7a183aeb9"
 
 RPROVIDES:${PN} += "ueberzugpp"
 
@@ -44,6 +44,7 @@ libtbb.so.12 \
 libvips-cpp.so.42 \
 libvips.so.42 \
 libxcb-image.so.0 \
+libxcb-res.so.0 \
 libxcb.so.1"
 
 inherit rpm

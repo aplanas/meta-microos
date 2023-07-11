@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.70.1"
 
-RPM_NAME = "libdnf2-0.70.1-1.1.aarch64.rpm"
-RPM_HASH = "7babf859486d4b0589e6746919c65ad79134252a6550d10bf8ec769da15d492c808f3e24b65b169374a1e2d4b5d57316d858c74e4e18ac80830c025f08fa03f6"
+RPM_NAME = "libdnf2-0.70.1-1.2.aarch64.rpm"
+RPM_HASH = "507374d9ee305791a3e2ebbd9f7f86ba478b67b7e6b369d7c0062b210cbb4487bbb14d9c835dc1dedc774866dae6edd12901599b3a6e0f081caad87fe6fdfcde"
 
 RPROVIDES:${PN} += "libdnf.so.2 \
 libdnf2"

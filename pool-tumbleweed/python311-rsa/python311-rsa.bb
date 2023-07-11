@@ -6,11 +6,12 @@ LICENSE = "Apache-2.0"
 
 PV = "4.9"
 
-RPM_NAME = "python311-rsa-4.9-2.1.noarch.rpm"
-RPM_HASH = "24ab9a998023ae782911eda04bc542a7fed8551b8071c00d5adc7cd043584425d47226383b1ffc9d5db601569c59380fce2dd9384caf33e6594e937707b3a26f"
+RPM_NAME = "python311-rsa-4.9-2.3.noarch.rpm"
+RPM_HASH = "6a1a580c77ef3bad6a51069c7f0402b598e1e15dd9940fcf29807d569a4e6132ad6570eeee2781f5367d2cf13bca3c7bdfd43543348c5b8608a6034db5226b5f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-rsa \
+RPROVIDES:${PN} += "python3-rsa \
+python3.11dist-rsa \
 python311-rsa \
 python3dist-rsa"
 

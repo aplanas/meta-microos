@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "2.5.1"
 
-RPM_NAME = "libattr-devel-2.5.1-1.20.aarch64.rpm"
-RPM_HASH = "235503e8e7ae7ad6aebd5c4c272af1f26446447395eb3fbdbdf91c6ff1a6edbeb7eb0deb44b16ea19e8288cfa9adf3ff6835360ce506449dda4ec6a3ecff9104"
+RPM_NAME = "libattr-devel-2.5.1-1.21.aarch64.rpm"
+RPM_HASH = "a4857ce5dc65198c2eee7af29ee39193d34937237bea7e91cfe590ea0b9b6d885064ae784fdbeec9c55ae5b9cb8f0aba2f03d53837d980349fff9d3227a46164"
 
 RPROVIDES:${PN} += "attr-devel \
 libattr-devel \

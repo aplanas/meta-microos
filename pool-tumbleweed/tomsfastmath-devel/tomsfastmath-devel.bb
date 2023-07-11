@@ -4,8 +4,8 @@ LICENSE = "SUSE-Public-Domain | WTFPL"
 
 PV = "0.13.1"
 
-RPM_NAME = "tomsfastmath-devel-0.13.1-1.7.aarch64.rpm"
-RPM_HASH = "de32141a606e553c92a941b8db6c1c36380e49f98e87136f1c46784d6c23fdee5247d67750f69745dc285a9cb0f4dcfc8f35db32d4a01029623d41aaca714f9c"
+RPM_NAME = "tomsfastmath-devel-0.13.1-1.8.aarch64.rpm"
+RPM_HASH = "844c19cf39a6d40396ea694d88328985d66cc86959c055f2bbac40843093ef2cb4d9bfdaa4b14609857ff8e5aa61065d81f8e45f612c6606aeb57e8915adf81b"
 
 RPROVIDES:${PN} += "pkgconfig-tomsfastmath \
 tomsfastmath-devel"

@@ -5,12 +5,11 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.4.1"
 
-RPM_NAME = "python310-pywbem-1.4.1-1.9.noarch.rpm"
-RPM_HASH = "e20bccb0cf732875663a748a8b52eac4b4c997402ff3fbfc70f443a3ea660e664e2eec55b541774eded19e94c5006a3c2a63b024e9b799cc0564eee6ec79e94b"
+RPM_NAME = "python310-pywbem-1.4.1-1.10.noarch.rpm"
+RPM_HASH = "45546cb91a2577222ae72ac38ece88c7e9c02af99c7c70ec6d56265740c7fa099cda108a3f244545ed9fc93d70397f4ec7d5c64eb66f3d99fa8ec8e8ee6aedac"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pywbem \
-python3.10dist-pywbem \
+RPROVIDES:${PN} += "python3.10dist-pywbem \
 python310-pywbem \
 python3dist-pywbem"
 

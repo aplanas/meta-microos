@@ -4,8 +4,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2.1.0"
 
-RPM_NAME = "libscalapack2_2_1_0-gnu-openmpi2-hpc-devel-2.1.0-9.19.aarch64.rpm"
-RPM_HASH = "ee1bc68fe7fb91e115034cd751a23bb5f7d3cc7adc693285c6bd639be0b14fc6350bb3f051ace35f90bb784eaf3b13c1418b1bdb017e8d16f780205287ef8a48"
+RPM_NAME = "libscalapack2_2_1_0-gnu-openmpi2-hpc-devel-2.1.0-9.20.aarch64.rpm"
+RPM_HASH = "4664ef9ac3932963660758e524d0e5703f6aac340af33bf101a7e6acd4bf369f5bb6091d78782c16d58a63e760705bf1474a344e3da7fb61acccf83efdb22b47"
 
 RPROVIDES:${PN} += "libblacs2-2-1-0-gnu-openmpi2-hpc-devel \
 libscalapack2-2-1-0-gnu-openmpi2-hpc-devel \

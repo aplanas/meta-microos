@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.3"
 
-RPM_NAME = "maven-script-interpreter-1.3-1.4.noarch.rpm"
-RPM_HASH = "1e02c79e70473868531c53f729201066388a45c87e0d2b86c5d03c48ecd3beb8c83d7f366275c053757e9d1b088f9ee539a4319f2e93f09b32307737706091ea"
+RPM_NAME = "maven-script-interpreter-1.3-1.5.noarch.rpm"
+RPM_HASH = "63d5d9a87e6938c68fe907799ede1d5705fc76a2a2a0bc4ab6a4e375d8e2faef5695b5091641105471da28a8ca1b5158f220c84e25d87330f4938422debc6c17"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-script-interpreter \

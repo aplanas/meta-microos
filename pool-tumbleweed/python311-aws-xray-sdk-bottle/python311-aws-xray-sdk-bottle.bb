@@ -7,11 +7,12 @@ LICENSE = "Apache-2.0"
 
 PV = "2.12.0"
 
-RPM_NAME = "python311-aws-xray-sdk-bottle-2.12.0-1.1.noarch.rpm"
-RPM_HASH = "c5627e1aec9de842d484ae63aaac339f917a2fcb3a8a3b15e98bd5606b732363b8c03d144655d6fc054686920ea2a32fc51e10f5894619c245af1b9f25d1f433"
+RPM_NAME = "python311-aws-xray-sdk-bottle-2.12.0-2.3.noarch.rpm"
+RPM_HASH = "a15033f2a18557e53cfccc6728ed0bae3d4a9641a60e8de7196a1876a61b4a644cc4982e28f0aa22acb59d871d60403beafecda0214cfd28ed044b2049b67df2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python311-aws-xray-sdk-bottle"
+RPROVIDES:${PN} += "python3-aws-xray-sdk-bottle \
+python311-aws-xray-sdk-bottle"
 
 RDEPENDS:${PN} += "python-abi \
 python311-aws-xray-sdk \

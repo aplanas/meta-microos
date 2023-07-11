@@ -6,8 +6,8 @@ LICENSE = "BSL-1.0"
 
 PV = "1.82.0"
 
-RPM_NAME = "boost-gnu-mvapich2-hpc-python3-1.82.0-1.1.noarch.rpm"
-RPM_HASH = "99bad0c8f183a18616d99a1fafbcfb4a9a58c91b7557e1cddc2484ee1e1bd165516ab8251638f04d42bc9c0cb1b8bcef2fed4174fa1ad653b6aa0ff588339dc0"
+RPM_NAME = "boost-gnu-mvapich2-hpc-python3-1.82.0-1.2.noarch.rpm"
+RPM_HASH = "5bc05a7e0773f167a85553d0e1fec8335145ad9530cedab7079078b75ed3ae05ad2c2f52843e36e0d8ea918c369812da5fc18b25a1fdfc133a2cb575e7d9a663"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "boost-gnu-mvapich2-hpc-python3"

@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "12.2.0"
 
-RPM_NAME = "mingw64-gcc-debug-12.2.0-2.1.noarch.rpm"
-RPM_HASH = "271ee13e728bbc70d3563d54538ebbc8b9a0b1ac237d59540379be19328f9ef8c8a7c69c866ed9e46a4cf0b86faf1c76d914d448a444816ad86e608d18d7ab29"
+RPM_NAME = "mingw64-gcc-debug-12.2.0-3.1.noarch.rpm"
+RPM_HASH = "606ce3351a42a50e445cf82a5b64a3080ab5fce1198a9327576e69c789f5a0ce7dc4fb36283a7685e820a3d8f5ed008e30036dff7f529251c6638b8c46823f66"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw64-gcc-debug"

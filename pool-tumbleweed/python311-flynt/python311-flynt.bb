@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.76"
 
-RPM_NAME = "python311-flynt-0.76-1.8.noarch.rpm"
-RPM_HASH = "b51cf493895c9fd894276236ec3372b18d7ef9a0cfdb52e10f137d71d4a8e6a02947dd1bee15497caf9cd44614a325f0c627436ef03350a54cdb79dce0f62089"
+RPM_NAME = "python311-flynt-0.76-1.10.noarch.rpm"
+RPM_HASH = "9fe7b861349d1d25585342d071689530107ccb1090c90dc98987b00881ad073f999121ee6991529ed748a5357c9b750efe8461a41b3409e402da2d18e144c03a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-flynt \
+RPROVIDES:${PN} += "python3-flynt \
+python3.11dist-flynt \
 python311-flynt \
 python3dist-flynt"
 

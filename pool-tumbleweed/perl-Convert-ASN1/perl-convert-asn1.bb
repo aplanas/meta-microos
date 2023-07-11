@@ -5,14 +5,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.33"
 
-RPM_NAME = "perl-Convert-ASN1-0.33-1.8.noarch.rpm"
-RPM_HASH = "abb3e3e62b107f93dd59c13aa81d0a62bbaced9b8b5b1a4c1091cd49d1a0197b8751cc54e7daf3501fe817a2a5828400509a4a8e529aac4941bf263852a89508"
+RPM_NAME = "perl-Convert-ASN1-0.33-1.9.noarch.rpm"
+RPM_HASH = "a742dad81e8fb6084d7b72fd059aad4d2664a7c785e7f2167b11ed8172bef93a755cb45fd0e47243a4a628abd6befcfaf7aac4f5af38d485382a83cc9886a4cd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Convert--ASN1 \
 perl-Convert--ASN1--parser \
 perl-Convert-ASN1"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

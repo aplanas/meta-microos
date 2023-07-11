@@ -15,8 +15,8 @@ LICENSE = "MIT"
 
 PV = "1.7"
 
-RPM_NAME = "python39-crcmod-1.7-8.4.aarch64.rpm"
-RPM_HASH = "493561a40fd7134f6ff37346adacf554a92069bbd59046975b7553f9094d66a31d3368578f45d104f3f5c6fa5ba1b3988b6309f0b72e9beebe9edc7d4ee41e76"
+RPM_NAME = "python39-crcmod-1.7-8.6.aarch64.rpm"
+RPM_HASH = "70c234a0def724171ea87c08ff7afdbf2a8976c9d58a3081c79825e643e1b251351e8f7442e292d9450758b303053b9e3e7796faeb149a53bb7df37930b93544"
 
 RPROVIDES:${PN} += "python3.9dist-crcmod \
 python39-crcmod \

@@ -2,10 +2,10 @@ SUMMARY = "Qt 5 Designer Library"
 DESCRIPTION = "The Qt 5 Designer library."
 LICENSE = "GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
-PV = "5.15.9+kde1"
+PV = "5.15.10+kde3"
 
-RPM_NAME = "libQt5Designer5-5.15.9+kde1-1.1.aarch64.rpm"
-RPM_HASH = "b9f605731ec4091d63cf5a8b049300f75647734420dd282217db188d991382ca09f95eeb70fb3253ea095034f76c48d263a6c7516e3eb972df31bb23e751b669"
+RPM_NAME = "libQt5Designer5-5.15.10+kde3-1.1.aarch64.rpm"
+RPM_HASH = "338d18e1580e352a8177e8d5ef218d2a207c3b41e50b3cca5cb45da1a6b799f084377811c8510455ca9643f29654c79410646e27d0dfbd2462b587057ff04a62"
 
 RPROVIDES:${PN} += "libQt5Designer.so.5 \
 libQt5Designer5"

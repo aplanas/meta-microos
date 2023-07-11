@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.5.6"
 
-RPM_NAME = "kf5-kcm-fcitx-icons-0.5.6-3.13.noarch.rpm"
-RPM_HASH = "07efaceba947ddd26b325f70819535f7ee4ee04631bd6fab8ae626e02d596c29d3d73aeedd46d35ef1557669331f84128397be127475ab2017d1a2c05a8590d1"
+RPM_NAME = "kf5-kcm-fcitx-icons-0.5.6-3.14.noarch.rpm"
+RPM_HASH = "528fb0a3fa94f6986ed29de2eb743d1f96fcd8d03ff9c7564b8151c31a8e98be9ec08a0f53e4fe771c9fb2e9c17a33a7d5a9d28f3dd47ebaf5a0fca1a86e43ee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fcitx-config-kde5-icons \

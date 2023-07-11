@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.0.95.1"
 
-RPM_NAME = "matrix-quaternion-0.0.95.1-1.11.aarch64.rpm"
-RPM_HASH = "ea182a4299340e0a2d48be82d114ec16e0aa8f1e1a55823604aaa53c264b30480e0e5477b130c43fa24ada861dbf3327cd20f29532ffc16f9bdb1822f1ba2178"
+RPM_NAME = "matrix-quaternion-0.0.95.1-1.12.aarch64.rpm"
+RPM_HASH = "c67ab4ad58b90d553df0f47c8024bf028dc7ab430420ab796fd3e7eefd1290f5acdc2a806ed42779b322601b83c22d94a611b1c10e5236404ffdcb9b267aafa9"
 
 RPROVIDES:${PN} += "matrix-quaternion \
 matrix-quaternion-git \

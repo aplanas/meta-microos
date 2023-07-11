@@ -10,8 +10,8 @@ LICENSE = "NetCDF"
 
 PV = "1.12.3"
 
-RPM_NAME = "pnetcdf-openmpi4-devel-1.12.3-1.3.aarch64.rpm"
-RPM_HASH = "503f170c6ca14b313c28021b423ffaac9be5efcc5c5fd825a33308f65a1a7c221a30933de62cb76d8d61171c7c505e2d9f39782359e7c29803395bd8dc6af124"
+RPM_NAME = "pnetcdf-openmpi4-devel-1.12.3-1.4.aarch64.rpm"
+RPM_HASH = "defd8cc39fb705275d860b86d91b0a120a6518d0804b175d774735a7a28889b7affb710e9d801371884da78256741b7048d96ec15287b07ee4f2a86a1845553b"
 
 RPROVIDES:${PN} += "parallel-netcdf-openmpi4-devel \
 pkgconfig-pnetcdf \

@@ -12,12 +12,11 @@ LICENSE = "MIT"
 
 PV = "1.0.1"
 
-RPM_NAME = "python310-funcparserlib-1.0.1-1.3.noarch.rpm"
-RPM_HASH = "7ab1d11d0357a2677b555c71e674a33ed2950f0456aedad33ffdacfe130571cb53afc52a2fcc2816ae3d567ff5b5f8d914cd4d646e8db44cb6a75ad01fdcaf5f"
+RPM_NAME = "python310-funcparserlib-1.0.1-1.5.noarch.rpm"
+RPM_HASH = "abf0214836e900be9f014a214b819430e26c4ecc0ad39640f076a6f22f99845634fd49476231c46ca7197f5863efad1cdd4268f938e15ae86f1b7bb18887f975"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-funcparserlib \
-python3.10dist-funcparserlib \
+RPROVIDES:${PN} += "python3.10dist-funcparserlib \
 python310-funcparserlib \
 python3dist-funcparserlib"
 

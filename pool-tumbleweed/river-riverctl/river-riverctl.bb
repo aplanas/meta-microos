@@ -2,10 +2,10 @@ SUMMARY = "Command-line interface for controlling river"
 DESCRIPTION = "A command-line utility used to control and configure river over the Wayland protocol."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.2.4+g109"
+PV = "0.2.4+g953"
 
-RPM_NAME = "river-riverctl-0.2.4+g109-3.1.aarch64.rpm"
-RPM_HASH = "18d7520c625499754b2ff12a82fbf26f78caccf6ff348b767fa6fd3fc0c59f383bbdd42ccbee1f18ed9410f613b8586743d7f45a5e0e33fe51faafef44a4b071"
+RPM_NAME = "river-riverctl-0.2.4+g953-1.1.aarch64.rpm"
+RPM_HASH = "daf4cad266f4e2a9b29db2a0764babd8c3fccf91cf921766a3a11ae9e555bff764d0ffcd60862e72177bc2e63dd83ee7961db4ea702cd7661555566ab8cb7cf2"
 
 RPROVIDES:${PN} += "river-riverctl"
 

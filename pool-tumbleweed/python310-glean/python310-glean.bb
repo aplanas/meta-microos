@@ -8,12 +8,11 @@ LICENSE = "Apache-2.0"
 
 PV = "1.19.0"
 
-RPM_NAME = "python310-glean-1.19.0-1.9.noarch.rpm"
-RPM_HASH = "a3641e12af15caafe21a683031aaf222b6da7af7b3e480dd510a55cd79fcc6107f6528729a477baab5e13e639faaf2a696be7c02539030b6f3736ae3e28bcba3"
+RPM_NAME = "python310-glean-1.19.0-1.10.noarch.rpm"
+RPM_HASH = "4ed46551bdced517f548f7f5b8f518cb7bd25b25db2a955d8dd80f455bf13fb4ef58b81751d3d083270f43704e9878ebaf19fc5a5a15ce4e64e00482ed16e97d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-glean \
-python3.10dist-glean \
+RPROVIDES:${PN} += "python3.10dist-glean \
 python310-glean \
 python3dist-glean"
 

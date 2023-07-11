@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.3"
 
-RPM_NAME = "libreadline6-6.3-3.3.aarch64.rpm"
-RPM_HASH = "6e2f011d1852bd1fc952e28b7dd44fa6a8a39d833be61cddd256f8c03fa367dd51777d58dc07ca026ca007175a41f2f68b433f47087b3b69be83d8cc186a071d"
+RPM_NAME = "libreadline6-6.3-3.4.aarch64.rpm"
+RPM_HASH = "fea67c705dd170491dc02e10b0350901cd6271d1a1cacc53cfaf168c311a86f8b9a80a9c16f184ea707cc0ee4a6e864a298fc8aab29d804cbf43b6aef92ab0fc"
 
 RPROVIDES:${PN} += "bash-/lib64/libreadline.so.6 \
 libhistory.so.6 \

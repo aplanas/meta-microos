@@ -11,8 +11,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.1"
 
-RPM_NAME = "python39-HeapDict-1.0.1-2.11.noarch.rpm"
-RPM_HASH = "48ce3518984d60c74466545f11a5f5f42c4cf151eae4b1863a4063d68fcda0bbcceea2cede5b479eb4dd4e703006b84250d9dba1bac35a2065d98e8477e7cee1"
+RPM_NAME = "python39-HeapDict-1.0.1-2.13.noarch.rpm"
+RPM_HASH = "cee7da69fa33b7765a346b4dae8ad131da0b88f142c38671b7bbfbe019212c9b195524d33583183679b87fa359508fd3410fe3e8eaf6246864fe9283019ef16d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-heapdict \

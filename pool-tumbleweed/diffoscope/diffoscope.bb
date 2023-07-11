@@ -19,12 +19,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "241"
 
-RPM_NAME = "diffoscope-241-1.1.noarch.rpm"
-RPM_HASH = "5027a00fd804274a3f673e329886967f01bd15fdeed0220199512e5fc32dd65c026759b4d8ca7b4a214a7f715664fe2a99e2a5ac72ba4a51f6bb2cff58f31648"
+RPM_NAME = "diffoscope-241-1.2.noarch.rpm"
+RPM_HASH = "7085d978ff9029a87726db9f7b350d81bbdd8f95ff7fd473652da0452f961e581390dc3a90d655d6be1b7d144f2d22b0fdb4b3e1327cedb04904d910f0357ece"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "diffoscope \
-python3.10dist-diffoscope \
+python3.11dist-diffoscope \
 python3dist-diffoscope"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

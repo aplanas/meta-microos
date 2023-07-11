@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2023.04"
 
-RPM_NAME = "u-boot-avnetultra96rev1-doc-2023.04-2.1.aarch64.rpm"
-RPM_HASH = "487ab5998c1572234dcf503e2af7b39f992e30185c3682c1f7af4f4993d81e98a87f3db84f65171a41910212d05314ac3b3f798f1c03a5b5548395d554f3a4f5"
+RPM_NAME = "u-boot-avnetultra96rev1-doc-2023.04-2.2.aarch64.rpm"
+RPM_HASH = "de7494e3708a928dcd8052001919e838e6348cd087a487959d1c6d5b1aec1e05c41bc9e911e7f9938b32a30e27985e6bdbf77034ffec5236f594f6cb7b6549cd"
 
 RPROVIDES:${PN} += "u-boot-avnetultra96rev1-doc"
 

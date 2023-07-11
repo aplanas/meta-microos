@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kdf"
 DESCRIPTION = "Provides translations for the 'kdf' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kdf-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "f4405efe96be7b36b49773fcf699c5bfd41fed12875551a3a2c183c4ec83b67bf1ff7f9cfd6cfdc9362d2b31ecba0d19a8f5586aaf7445f841785ea81b80ee75"
+RPM_NAME = "kdf-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "80b944169ab1a9af274cd083b187c2e0ecdb863bc5b034ab7c1c008eb54896d144065d1d0a4725be938b5cb15db6b54caecacfb86509247acea532f44c8fdfcf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kdf-lang \

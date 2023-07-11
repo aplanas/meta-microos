@@ -4,8 +4,8 @@ LICENSE = "CC-BY-SA-3.0 & LGPL-2.1-or-later"
 
 PV = "5.7.0"
 
-RPM_NAME = "minetest-lang-5.7.0-1.1.noarch.rpm"
-RPM_HASH = "5f397630d13a8f83d4c6028e724a4d59106281f299c586151468537bbe245798e884869919ae98d2ae2fbd61e0cfe9ddef557d1d4fc1fd6aabbd545eab93adcf"
+RPM_NAME = "minetest-lang-5.7.0-1.2.noarch.rpm"
+RPM_HASH = "17011c23154ee4ac4f49ddbdaf446a2eb55550f5eea71696dc7e0edfa6f4d36a81b103f0759e1d679c483ec148a3cadaf459224e511a662ccee56dd2595af0ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-minetest-be \

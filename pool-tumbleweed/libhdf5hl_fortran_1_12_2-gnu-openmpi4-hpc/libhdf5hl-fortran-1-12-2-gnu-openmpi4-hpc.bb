@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.12.2"
 
-RPM_NAME = "libhdf5hl_fortran_1_12_2-gnu-openmpi4-hpc-1.12.2-5.1.aarch64.rpm"
-RPM_HASH = "834b690f1fa3852e4e7c31b484122e656e49c21ed9612fd5adf0891387722783b4c984602b6c15785e563e8428abda5777e9438af905894741809cc96c4ec69c"
+RPM_NAME = "libhdf5hl_fortran_1_12_2-gnu-openmpi4-hpc-1.12.2-5.2.aarch64.rpm"
+RPM_HASH = "90bc949d3c00a2c27e63acf18a55807255ec8040a3b07e39a44cdc661f1c7e77f9dbbf605cc937f2d8f13bf31d08e8e71c28bd963e34131a5f25256f4419a6aa"
 
 RPROVIDES:${PN} += "libhdf5hl-fortran-1-12-2-gnu-openmpi4-hpc"
 

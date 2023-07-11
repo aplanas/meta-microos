@@ -19,8 +19,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "2014.01"
 
-RPM_NAME = "perl-File-Flock-2014.01-1.19.noarch.rpm"
-RPM_HASH = "413b0f7e0488bf33617016ed4b1353d5b042080a8123e04bac471a34a2cd84616195c09c1afeed963dced83595274f619eeec11671269080a66a97831a0c943c"
+RPM_NAME = "perl-File-Flock-2014.01-1.20.noarch.rpm"
+RPM_HASH = "118911db4a7b6218dcb11d75b15ce5abb132ced86afaa4164c22d6235cb01885d0a592a328a898b242ceba7be5fd8e63a21aca4856f7ec141f9ea0b58453cde2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-File--Flock \
@@ -30,7 +30,7 @@ perl-File--Flock--Subprocess--Connections \
 perl-File--Flock--Subprocess--Master \
 perl-File-Flock"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-AnyEvent \
 perl-Data--Structure--Util \
 perl-File--Slurp \

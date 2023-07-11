@@ -2,10 +2,10 @@ SUMMARY = "Haskell unliftio library documentation"
 DESCRIPTION = "This package provides the Haskell unliftio library documentation."
 LICENSE = "MIT"
 
-PV = "0.2.24.0"
+PV = "0.2.25.0"
 
-RPM_NAME = "ghc-unliftio-doc-0.2.24.0-1.3.noarch.rpm"
-RPM_HASH = "6a4eb11d38fcd68f06f9d89220b1b006483367d269219dcf586702336288dd35249c3254ad46fe61e8d57f7d64752ffd02d033054c7cb4091ff1dea62f7b0900"
+RPM_NAME = "ghc-unliftio-doc-0.2.25.0-1.4.noarch.rpm"
+RPM_HASH = "d32043319e9595937dca0df1b25fbb6cb32e90aa3564860f845d7dd45ed26c0b5cf2067482fd24a824aa24d3d871f26456e5035adce65680d7507164c2bda704"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-unliftio-doc"

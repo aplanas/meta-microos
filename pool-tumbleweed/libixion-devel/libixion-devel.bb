@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.17.0"
 
-RPM_NAME = "libixion-devel-0.17.0-3.4.aarch64.rpm"
-RPM_HASH = "c9d9afa2124434e1b46cef601c02063bafa40f5f419e7dafd4c65e9ba138252eae0eef7f1152e328fc5e78bc92f1da33d9422056d069b76a2de2c03f97ff51c5"
+RPM_NAME = "libixion-devel-0.17.0-3.5.aarch64.rpm"
+RPM_HASH = "1b9b3862cab0480929b44bfd86f247bbb9c015806b40141d0c7107e073dc8ac48662ff16bdeb0c8ea9dcbd36c617c754ad78caf4f7149da69abff85a67c3b266"
 
 RPROVIDES:${PN} += "libixion-devel \
 pkgconfig-libixion-0.17"

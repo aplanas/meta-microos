@@ -17,8 +17,8 @@ LICENSE = "MIT"
 
 PV = "0.6.5+git.20190205"
 
-RPM_NAME = "libshadowdive0_0_0-suse-0.6.5+git.20190205-3.12.aarch64.rpm"
-RPM_HASH = "9ad36353ba48829a8b592c3d76596dc0ff305d03ff66f9f0c5d370e6c25b97d1d1a3d9d1516f60fbb3ec754af64702f0d18ec12886e127665346747f100508dd"
+RPM_NAME = "libshadowdive0_0_0-suse-0.6.5+git.20190205-3.13.aarch64.rpm"
+RPM_HASH = "9e08ecfec3530aa07f7cc44f3135f12ceef8a678f7b596c33fd8b07a8ba5be82c55e7d713d47cc1cfe37e014935028ae25417d6495172b31f012a901c8ef3499"
 
 RPROVIDES:${PN} += "libshadowdive.so.0.0.0-suse \
 libshadowdive0-0-0-suse"

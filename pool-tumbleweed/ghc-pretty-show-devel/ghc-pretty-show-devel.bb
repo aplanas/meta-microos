@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.10"
 
-RPM_NAME = "ghc-pretty-show-devel-1.10-4.3.aarch64.rpm"
-RPM_HASH = "b6ced624ff6599c5b97f46e406d03b4da7625fc2054bf4d5e0da7f0ef2faa179fb4fc6a1db1a19f87aeca0f029f10dc99794732a04d1c4b4fc60c7db66326a80"
+RPM_NAME = "ghc-pretty-show-devel-1.10-4.6.aarch64.rpm"
+RPM_HASH = "f7bb90d602f50e32a7f84938b707dff19d1f68b33cc68a9749f0c2192754c1ec6917f151893163ee545910a28af7de60cd5f6a365c7fc237bda91687e8365cce"
 
 RPROVIDES:${PN} += "ghc-devel-pretty-show-1.10-IA5YnfAP5DqIvEIFfcZVdd \
 ghc-pretty-show-devel"

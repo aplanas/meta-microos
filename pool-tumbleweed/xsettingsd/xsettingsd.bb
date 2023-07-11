@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.2"
 
-RPM_NAME = "xsettingsd-1.0.2-1.7.aarch64.rpm"
-RPM_HASH = "c79c731a26e5524d6e8ebe0bc3e87bde84789a7c613c1a7d322408a38add8153453366f70d01cc2f920254df5e165deacc6bdde1457eaa3e597fecb1ff0ffe5d"
+RPM_NAME = "xsettingsd-1.0.2-1.8.aarch64.rpm"
+RPM_HASH = "10660d17984e59f1cb8ea876d0669a6408d589458f449f822f58195a0eadd0ddc56e839a4767169916c99ce2c2b0642f1dbabafd7394f6f327589de31731844a"
 
 RPROVIDES:${PN} += "xsettingsd"
 

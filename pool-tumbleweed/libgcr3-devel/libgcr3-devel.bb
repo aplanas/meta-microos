@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.41.0"
 
-RPM_NAME = "libgcr3-devel-3.41.0-3.3.aarch64.rpm"
-RPM_HASH = "9c7f5205a8d60db77ca08aebf18a03a49296c40a9dd881404af326a7afb4fa347f61fb639765c0dc67bb579741f2496912850ebee3a8f5b0f7588c719d7fe089"
+RPM_NAME = "libgcr3-devel-3.41.0-3.4.aarch64.rpm"
+RPM_HASH = "4e18cb3ad7edbece2c42f2e550ea89c771e266dac83f1a549102708c07d19e6dd46dcd8486467b1b966a718f2187880f0953c1f9f75840e898a3777ab2c0d407"
 
 RPROVIDES:${PN} += "libgcr3-devel \
 pkgconfig-gcr-3 \

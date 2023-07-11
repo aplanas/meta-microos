@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.8.2"
 
-RPM_NAME = "xfce4-notifyd-branding-upstream-0.8.2-1.3.noarch.rpm"
-RPM_HASH = "9ecd525f55334d15f979f53cd17819eb1bcf6daa8059807943898ed160d7c88838349496bfa36a69b4cf8094fd5d8a952794387e6dd93882120f0c60148fb665"
+RPM_NAME = "xfce4-notifyd-branding-upstream-0.8.2-1.4.noarch.rpm"
+RPM_HASH = "7d0bf969e14875efbb6fa5c9406b0dd2029e3318036b9ef96566d5e9a66f38ffaafb836535031fa42378ddc4e316a4c48ab0670da4773bdca1300e85cf8b764b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-xfce4-notifyd-branding-upstream \

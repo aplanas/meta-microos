@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.90.0"
 
-RPM_NAME = "sysconfig-0.90.0-3.2.aarch64.rpm"
-RPM_HASH = "69a02a387033c1034cc37ded3fd9a273624bf5a36badeb3729a2b33074d8b7f364aea10a92a568996a7427449766a9f1a3abb6f38ada227e84d57fe867f74f3b"
+RPM_NAME = "sysconfig-0.90.0-3.3.aarch64.rpm"
+RPM_HASH = "da1e8cf51041bf8182fde1a69f6d588056f6d4236c39d0cf9034838916228ec96696a33eb5d0f6d1e568c003b6da60957f71fbac4db1f8edd1a71b80d5771aa9"
 
 RPROVIDES:${PN} += "config-sysconfig \
 sysconfig"

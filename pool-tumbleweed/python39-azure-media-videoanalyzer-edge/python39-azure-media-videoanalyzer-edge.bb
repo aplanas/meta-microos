@@ -15,8 +15,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0b4"
 
-RPM_NAME = "python39-azure-media-videoanalyzer-edge-1.0.0b4-1.5.noarch.rpm"
-RPM_HASH = "e03ab0c3283cbc3ef667fec2f5e58fb8f1e8a1cda2ae37ff3835e1f1c4ea9a99c2ec21ef7d435fad52ceb734192507a164cdb9e29a9c8b9a710c27b5b1de6bc0"
+RPM_NAME = "python39-azure-media-videoanalyzer-edge-1.0.0b4-1.7.noarch.rpm"
+RPM_HASH = "b00c50ba2030f7913235b5aeac84c909e6cda04fe81d00730886a769e59c38b2766bdfc67c8bb4baadb67189ca12ce756757f33bd16e65c38cdac55a6d8d523e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-media-videoanalyzer-edge \

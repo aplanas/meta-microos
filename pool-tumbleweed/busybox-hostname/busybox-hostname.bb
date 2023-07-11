@@ -2,10 +2,10 @@ SUMMARY = "Busybox applets replacing hostname"
 DESCRIPTION = "This package contains the symlinks to replace hostname with busybox."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.36.0"
+PV = "1.36.1"
 
-RPM_NAME = "busybox-hostname-1.36.0-26.3.noarch.rpm"
-RPM_HASH = "450abe89c72d7fbfefa86777ee719f90353ac98b7f35637b8920ef3e1f7bf02386fd7844952b41deddcb650f7bacf7acbf005b9816e92827c9b45c1d42d55920"
+RPM_NAME = "busybox-hostname-1.36.1-27.1.noarch.rpm"
+RPM_HASH = "b0bcccd263ac03084b21b653743cb9ea940fb64b45bc6fdd2ab094474479bbec3f1d0c10504563602a25dbfb747cb20df81b607fe47213e375fb7fd1c54219f2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "/usr/bin/hostname \

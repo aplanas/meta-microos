@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides Linux kernel headers for arm, the kernel AP
 required for compilation of almost all programs."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.3"
+PV = "6.4"
 
-RPM_NAME = "cross-arm-linux-glibc-devel-6.3-1.1.noarch.rpm"
-RPM_HASH = "6e3953d1804a64826383a65e51c708e2993d821efbc67be43e5cdaa6cb1329c78e9ea67bd8262f07d6b0f0db3e51c5532287646b8667119134ba8658069c3316"
+RPM_NAME = "cross-arm-linux-glibc-devel-6.4-1.1.noarch.rpm"
+RPM_HASH = "b4398ed7a13e83601a2ffc9e0ed0b4c59d3f5e15edf45d432ee1daac6199c61f68bf910a25a0849585f7eb74cff2e0cac06bbee8c70fce55abd8677522a6b9eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cross-arm-linux-glibc-devel"

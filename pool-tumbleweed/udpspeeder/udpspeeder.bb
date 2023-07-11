@@ -8,10 +8,10 @@ UDPspeeder and a UDP-based VPN together, any traffic can be improved. \
 Currently, OpenVPN/L2TP/ShadowVPN are known to be supported."
 LICENSE = "MIT"
 
-PV = "20210116.0"
+PV = "20230206.0"
 
-RPM_NAME = "udpspeeder-20210116.0-1.10.aarch64.rpm"
-RPM_HASH = "35eac600d531704699a060e4de25e4a7ae719b71a8778bda06eea4de7899ceadb873e4dc3c91ac0885a2b69ad54442c094474dfe8bf2647219f1ccdfec19508c"
+RPM_NAME = "udpspeeder-20230206.0-1.1.aarch64.rpm"
+RPM_HASH = "46c4adbf488be29f57729fcecdf9ddb7da020316541cea89602f88bfc3e2f16d253b89a8c8f465b57604cb590aaa37278430858f72d74c8787d53dd987603ceb"
 
 RPROVIDES:${PN} += "udpspeeder"
 

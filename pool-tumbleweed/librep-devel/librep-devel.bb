@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.92.7"
 
-RPM_NAME = "librep-devel-0.92.7-1.26.aarch64.rpm"
-RPM_HASH = "c22dad61df5dd8df2dfce62c8854e78839f73cf9fd62dc0dee0c11ade3bba907bc191dab673df2cd20940758d2166b81221123d136ed79110f46415d3c253271"
+RPM_NAME = "librep-devel-0.92.7-1.28.aarch64.rpm"
+RPM_HASH = "cb1234c5a57ccb7a7f073c9847bb207dd60cddc85464a98d380628b66b8be02deb4fd0b55fbdd7544b8ca588ee74b08d58fa3e1730f8b7f6cc763916fe251703"
 
 RPROVIDES:${PN} += "librep-devel \
 pkgconfig-librep"

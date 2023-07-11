@@ -4,11 +4,10 @@ LICENSE = "BSD-2-Clause"
 
 PV = "3.1.4"
 
-RPM_NAME = "python310-mpi4py-devel-3.1.4-2.5.aarch64.rpm"
-RPM_HASH = "d8f98667f6b90a2c6f25f89da13c19002ccca48382045fffdbb0ea322e2ec40682a47bdf346998f49e1e7dc711f0e0f038c6e02406b42f12dcc55ad089b8f028"
+RPM_NAME = "python310-mpi4py-devel-3.1.4-2.7.aarch64.rpm"
+RPM_HASH = "a721f9cfbee822298e5ff339b98952c402283705da9bd38c8cc536d0fa56a44fff230dba488cf90db684e41321f7346c1adfd697569839ac990b1d33c2d17f94"
 
-RPROVIDES:${PN} += "python3-mpi4py-devel \
-python310-mpi4py-devel"
+RPROVIDES:${PN} += "python310-mpi4py-devel"
 
 RDEPENDS:${PN} += "python310-devel \
 python310-mpi4py \

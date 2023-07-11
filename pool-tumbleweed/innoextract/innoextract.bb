@@ -8,8 +8,8 @@ LICENSE = "Zlib"
 
 PV = "1.9"
 
-RPM_NAME = "innoextract-1.9-1.21.aarch64.rpm"
-RPM_HASH = "5cd1622d938504a931ecadc4297c2761e42bbbfc264880de626c8a26aee592ae132d3e3ba69d082a3c07d4eee7212b1f462d4ef7451d45e0b77d56a92ad2d1b9"
+RPM_NAME = "innoextract-1.9-1.22.aarch64.rpm"
+RPM_HASH = "38a144489f1d3a655f16bb39c693dce2631d0bc83be93244c42621ccece487423cb0b3fbd66b6b9d52eebb2fab798465ce2ed084469017a1438cfa03acc3db39"
 
 RPROVIDES:${PN} += "innoextract"
 

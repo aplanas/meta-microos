@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "4.0.39"
 
-RPM_NAME = "python39-pyodbc-4.0.39-1.1.aarch64.rpm"
-RPM_HASH = "3e37022000bb64bd158d888a9bdfeb70a62be089810c66a49ada97c1f489dd28b79918384bf1aae39bf2ddf1ed002fa0504558f5eea246414ba932f6740ee502"
+RPM_NAME = "python39-pyodbc-4.0.39-1.3.aarch64.rpm"
+RPM_HASH = "e9f1c3ec660bf8b4c0ec6a996c549d4e4b2fbb4da734c8b804494785f53d1bba8473d774286291c3e9bd59ba9e2523af8b94d3bbb3b347ad86ea2145775d9728"
 
 RPROVIDES:${PN} += "python3.9dist-pyodbc \
 python39-pyodbc \

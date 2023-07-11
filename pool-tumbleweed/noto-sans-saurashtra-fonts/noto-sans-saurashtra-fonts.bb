@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-saurashtra-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "585b8d3b781aac8267f64ba962eb2d162d4340316de3419cc85b03ad9a8370eaede86a2c6f918f5264248824438e550dc9c40344d5f51970db4232173702c0ba"
+RPM_NAME = "noto-sans-saurashtra-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "9227e8ba957a3393e551f9e1d423752f4f9ab085e14bfb98261ef1f7af5f65d6eb85826e8bcb2a7a51e5993ec73dc6c1fd5a2808a912d8a1d548ee0e915f04b4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-saurashtra \

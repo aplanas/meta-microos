@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.1.1"
 
-RPM_NAME = "python310-publicsuffix-1.1.1-1.12.noarch.rpm"
-RPM_HASH = "b6b20127599aeb078f3822b59ac3f55ff752f3ab104ba294be4f5100999fbea287f9a8e49c8fc9fd844ee145358a184c76708add71e104b8ac15cca62c6c2409"
+RPM_NAME = "python310-publicsuffix-1.1.1-1.14.noarch.rpm"
+RPM_HASH = "5308bd7bfb508fbbbc68f7d21045825f0f2ab5e8339f57a52d38ad93091db73275eefb208e1256c49697b9024055ebcbc47efd60813a9018b9d50571c06341d3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-publicsuffix \
-python3.10dist-publicsuffix \
+RPROVIDES:${PN} += "python3.10dist-publicsuffix \
 python310-publicsuffix \
 python3dist-publicsuffix"
 

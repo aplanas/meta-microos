@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kolf"
 DESCRIPTION = "Provides translations for the 'kolf' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kolf-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "253b84fb09c9f08bd8fc1a4af054db99c03e08d37a3642160a3496e9e77f7c7e130e924b3c799da1f734fc538a72fc227526f36a80e2ac747a2b0fd483076686"
+RPM_NAME = "kolf-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "ed1380744e543e7f99314702f8fb936b74f18d168da9e026f904eb34c7de63c822849bfccec165adffbea0aec5e693086d3d8fe03b3c2eee57960a962e570240"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kolf-lang \

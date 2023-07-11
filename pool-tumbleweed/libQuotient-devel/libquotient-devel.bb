@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.6.11"
 
-RPM_NAME = "libQuotient-devel-0.6.11-2.3.aarch64.rpm"
-RPM_HASH = "cccf5512d2192e49f3d992f8096f2929375ace7a58f30dbfbaaa49959b31214ac771c8fcf27bb798430ae9fd690463c9c41811e6856b639063868773fae34e2a"
+RPM_NAME = "libQuotient-devel-0.6.11-2.4.aarch64.rpm"
+RPM_HASH = "7549dab6347813d2ce37733f9924bafab579d4a57e5efb0bb08be9940e2164920bda59d76c8765a4e12476ddd11c136a43c6ddc504614b185c92734caa4b742f"
 
 RPROVIDES:${PN} += "cmake-Quotient \
 libQuotient-devel \

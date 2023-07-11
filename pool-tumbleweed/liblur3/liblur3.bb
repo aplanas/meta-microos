@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.17"
 
-RPM_NAME = "liblur3-0.17-2.1.aarch64.rpm"
-RPM_HASH = "ed727c85f73b053f64d0ff5eed157ae2807cf39f45079b91f3e6237afb7a4aa924a5c92c198cb5de49b89e94f45e08cc97431af278610a0b609ee2ff388f225d"
+RPM_NAME = "liblur3-0.17-2.2.aarch64.rpm"
+RPM_HASH = "f8cb2dfdbd14399421f409a9db0b6015487f749af0a685d80a89390ee1f6cb535580861bbd61ba0d6ccaa9f0ec51669610b1ca247cad1b124e0e3a240ee2419a"
 
 RPROVIDES:${PN} += "liblur.so.3 \
 liblur3"

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "20170617"
 
-RPM_NAME = "system-user-tss-20170617-24.14.noarch.rpm"
-RPM_HASH = "a4c0e31ec9dabf1dbf24bc00dab165e1dbf3b8b9e77989f884e6485251201232341ca2c6251c0162ab69ea4bc6220ec31cdcea12fec5d4e2507be67eafb2b7ab"
+RPM_NAME = "system-user-tss-20170617-24.16.noarch.rpm"
+RPM_HASH = "6be45ec1693623e93d09a7b2ca47f127641757cab2b6ee4a0ce49a64cb0f165753163674b014a9ad22bc3dfcff05da2669d14e6591df950eee3c43adacff2e60"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "group-tss \

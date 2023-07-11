@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.10.1"
 
-RPM_NAME = "lirc-core-0.10.1-10.1.aarch64.rpm"
-RPM_HASH = "3f8a6e15264e6263940bcbb1a10c15f544be9c6c4f6e164c97bc8103bbe7f63a45c0e25aab5646637fb2e134201c68619def2d11602a688bbf4bbe4caa33c418"
+RPM_NAME = "lirc-core-0.10.1-10.2.aarch64.rpm"
+RPM_HASH = "c84c0bbda2dc31eb10327a517b41b7a944cd500d3321702e80f814c8f0fa89e683b96f4a9c24a96b5ccbd7008110f8cd6f6177e5670d740bff545208f3d1f65c"
 
 RPROVIDES:${PN} += "config-lirc-core \
 lirc \

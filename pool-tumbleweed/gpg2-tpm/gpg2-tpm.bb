@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.3.8"
 
-RPM_NAME = "gpg2-tpm-2.3.8-2.1.aarch64.rpm"
-RPM_HASH = "eddf65a3f379a88b95c3456782e2d96859c68ce5381210c7af5cd5a341d9ae3c9197f8891f7c057338fec09def7abfcee7dfdab0957f60eee06917dbf5249efc"
+RPM_NAME = "gpg2-tpm-2.3.8-3.1.aarch64.rpm"
+RPM_HASH = "c5031e350c4be216a4df4a151fa1b3d6567bc6e11809eb02b8df363c0d0829098cb34325d0b09e0c834c8792fb6df5b9946265586bbcbd19005c292b764ee66a"
 
 RPROVIDES:${PN} += "gpg2-tpm"
 

@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "4.0.0"
 
-RPM_NAME = "python39-hpack-4.0.0-2.1.noarch.rpm"
-RPM_HASH = "a691df021e70e8a20fee0f0ae8d2a64c219e43cd4acd25ad6b0a37ad66c5583c4a2b5e5ab7e059df2aa18e4332d0a9d58a97344c5e41f013e5052b9d42d0de81"
+RPM_NAME = "python39-hpack-4.0.0-2.3.noarch.rpm"
+RPM_HASH = "d8a99ced6100867e1575160959fadc5da2b005f8892603aebbe8d842baea939204f63340dc498bcbc3949c38a4b565367c19f285150c7415f30e63e15b1f97de"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-hpack \

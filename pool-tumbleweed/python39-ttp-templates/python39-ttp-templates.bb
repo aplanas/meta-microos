@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.3.2"
 
-RPM_NAME = "python39-ttp-templates-0.3.2-1.3.noarch.rpm"
-RPM_HASH = "b8832e83da0b03c196b1b9b0980aded834aa9bbcaacad5df1e2d9d343755dfe7462553985f82f16a69b9f798c27a60e509f45963a107cec027dc5be9199a2f36"
+RPM_NAME = "python39-ttp-templates-0.3.2-1.5.noarch.rpm"
+RPM_HASH = "1c77633aac0b5115fb6d06e6fc2ec4cad73b3efd143f5cfbfbe979999e82fd8b404df8473590c8e858ba7f0f123b1af5e8a0c15c09dd2f85c6903a7d6c5ba60f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-ttp-templates \

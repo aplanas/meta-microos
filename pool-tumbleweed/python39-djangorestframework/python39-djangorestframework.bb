@@ -10,8 +10,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "3.14.0"
 
-RPM_NAME = "python39-djangorestframework-3.14.0-2.3.noarch.rpm"
-RPM_HASH = "b115c5fd0016941c5e91f1534b4cf4c65e226b12877092b15fb7c9f29a4a1e20bd7970bfba99e4cd3a7ae35a737eae89ab3b1aa42344237236d1fd3bcc8fa0d7"
+RPM_NAME = "python39-djangorestframework-3.14.0-3.1.noarch.rpm"
+RPM_HASH = "d441d880ba3acc38c105662145d4a3c9f275769bf73c039bc3306b2cdda2fd68189630735654d0bb184464c295a9437715b55120a500c8252745e53ff4891801"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-djangorestframework \

@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "3.1"
 
-RPM_NAME = "libpocl2-3.1-3.1.aarch64.rpm"
-RPM_HASH = "e000936420b1c9695227366dbe717f46f1f6ba69a49d468b609b9aaf953b1b1410f0eeac02dec88d3babf52aea617a5fbde6ed3fa0de15eaa53c5b1d6fb596a1"
+RPM_NAME = "libpocl2-3.1-3.2.aarch64.rpm"
+RPM_HASH = "716b893bfdee51ff1c0039c08bfef2415b069142b4e80d8a5e208594704012525c8b5c7dd049ea4e8dc7cec660f34bf943c5e3bd57a96959cb9deb3000ad6d6f"
 
 RPROVIDES:${PN} += "libpocl.so.2 \
 libpocl2"

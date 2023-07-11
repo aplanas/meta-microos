@@ -5,11 +5,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.10.0"
 
-RPM_NAME = "python311-semantic_version-2.10.0-3.1.noarch.rpm"
-RPM_HASH = "0a1952203dd3efd65b347137147829ac607156bc83470ced9d391ce8fb2d10b5f26725330584dc30424de1407dc83d48d39eb1e39829e56d61ef2f0a04c071c7"
+RPM_NAME = "python311-semantic_version-2.10.0-3.2.noarch.rpm"
+RPM_HASH = "3c042917b53935eeb416e72e5fbfe86abb54edcb7afea85fee5db0fb6e5fae576a472f470e2f17461340cd1554f59d0191feb44d82e448e5bf73fd7ecd176759"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-semantic-version \
+RPROVIDES:${PN} += "python3-semantic-version \
+python3.11dist-semantic-version \
 python311-semantic-version \
 python3dist-semantic-version"
 

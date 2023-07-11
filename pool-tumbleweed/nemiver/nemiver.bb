@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.9.6"
 
-RPM_NAME = "nemiver-0.9.6-9.8.aarch64.rpm"
-RPM_HASH = "543edaa195cee4b6c6e7dabcd1acd91fe1f3135a424ad77de03e6023b6dc61dac2cde0e4868b35394eaa04ff081798c7cb1da37ad0357cdd5defdb4876cdd368"
+RPM_NAME = "nemiver-0.9.6-9.9.aarch64.rpm"
+RPM_HASH = "e9572bfcf42bac08112f8cf68401eeb83d09743fe95b85c77acb838fee37009c9676f9097789b7187ed981ed673ca9892bc5a09170b294cbf11e7242ecc18930"
 
 RPROVIDES:${PN} += "libcpptraitmod.so \
 libdbgperspectiveplugin.so \

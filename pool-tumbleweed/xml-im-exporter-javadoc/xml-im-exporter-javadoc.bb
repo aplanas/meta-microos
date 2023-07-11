@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "1.1"
 
-RPM_NAME = "xml-im-exporter-javadoc-1.1-29.6.noarch.rpm"
-RPM_HASH = "9195613c4dd4bf0223e71e973a9a0d0b6d833261da669354beb35bf5ef56b1a943086db49672b290b18a35ccf7dc3d72295e6e5fb6c468ac397b1b91482d0ace"
+RPM_NAME = "xml-im-exporter-javadoc-1.1-29.7.noarch.rpm"
+RPM_HASH = "b4617065d1658c35f6f6aca222f01f81f906d6740f79224ed5488ece690a172ba02a0007c223c1ad83937891e34d3f0931a1622b7ce53fc53f765aa1a79bab22"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xml-im-exporter-javadoc"

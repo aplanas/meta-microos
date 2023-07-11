@@ -5,11 +5,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.9"
 
-RPM_NAME = "python311-mygpoclient-1.9-1.4.noarch.rpm"
-RPM_HASH = "82a6f941d87bd538dcb07fdf59f9340552cb604aa328956d370f81ff18e9edeeb3fdc0df4fc8988dfcf4f7b13f0601c8a68e6dea7069d73e7a1c566e95f1d488"
+RPM_NAME = "python311-mygpoclient-1.9-1.5.noarch.rpm"
+RPM_HASH = "0f1b025742f8eba7faae4e9f3bfe2f0931fe2cac3c2640ce0afde42dda08149f6ab966b5759f23129630877543dee0acbc505b5275da70a814ac89f884a7e415"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-mygpoclient \
+RPROVIDES:${PN} += "python3-mygpoclient \
+python3.11dist-mygpoclient \
 python311-mygpoclient \
 python3dist-mygpoclient"
 

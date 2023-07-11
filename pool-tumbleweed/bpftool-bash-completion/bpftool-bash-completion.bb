@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "7.2.0"
 
-RPM_NAME = "bpftool-bash-completion-7.2.0-1.1.aarch64.rpm"
-RPM_HASH = "2a6d239904fc7393e35281220d5ff2309f03fcbb00c059ddc0418a15ff8b94098c7c54d7c67f454b27ab6c8200c18f41c1dd1040a414e903e70d15db4446c784"
+RPM_NAME = "bpftool-bash-completion-7.2.0-1.2.aarch64.rpm"
+RPM_HASH = "007e6fa492f2c70b02cd5f717d1da357d2d3b45457d6cebc791431596b3501162672d0766f3ebfcea9c69d835bfb1c3baf84f435955f7fb0a315e2f90c50473b"
 
 RPROVIDES:${PN} += "bpftool-bash-completion"
 

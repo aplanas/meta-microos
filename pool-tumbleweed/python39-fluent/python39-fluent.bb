@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.10.0"
 
-RPM_NAME = "python39-fluent-0.10.0-3.11.noarch.rpm"
-RPM_HASH = "1828259e9abc878c5606bf1ad00c4376b3549732942ab56b7e19112b7107f70b3aa5c7bd6a8b4e36132e1f8c15e654fbc7576d99a31a1ab69b14568ab2f57d6c"
+RPM_NAME = "python39-fluent-0.10.0-3.13.noarch.rpm"
+RPM_HASH = "c6c6aac3905e6cf4e8f5771927a569ea5392d94e720170d77d7f3bae5bbf36c1f190e8a15b8654120ad688626c0ab7d7323d116d8ab371f4500d2da106d7cabb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-fluent \

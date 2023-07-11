@@ -23,12 +23,11 @@ LICENSE = "MIT"
 
 PV = "3.10.6"
 
-RPM_NAME = "python310-thespian-3.10.6-1.3.noarch.rpm"
-RPM_HASH = "dae0822ce505376e090b2581bacfe6eb6fcf76ac9678ed5ce1e4c1585c8f4e1cce16137889af355e64e111abf60db7305bec894dbd493a516a0244471237697e"
+RPM_NAME = "python310-thespian-3.10.6-1.5.noarch.rpm"
+RPM_HASH = "bc319e1a9a3246d9f3002997ff5a5dac9a2db2d7f038e7b9e4a098e4faf4ccb638717a676c1718e7e846c044832c8119a0c0144ea477e3380790c3b87b4d305d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-thespian \
-python3.10dist-thespian \
+RPROVIDES:${PN} += "python3.10dist-thespian \
 python310-thespian \
 python3dist-thespian"
 

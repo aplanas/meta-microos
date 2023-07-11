@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.4.0"
 
-RPM_NAME = "spamass-milter-0.4.0-3.6.aarch64.rpm"
-RPM_HASH = "5e50c63d995b92780e628f84b543669e78991160c1571c354cc101892740a8c0b46d99cce5002dcd3ad3a7bda5b0aae6a80b052633100561659e69970d9d19f4"
+RPM_NAME = "spamass-milter-0.4.0-3.7.aarch64.rpm"
+RPM_HASH = "66266473bec3131bd85ade3dda49742c0e98906354f18a87b212e39272c9a214816a6771ee769cbff625fe09947665bd4892d7acc0783ffe0d4eb69463767cce"
 
 RPROVIDES:${PN} += "config-spamass-milter \
 group-sa-milter \

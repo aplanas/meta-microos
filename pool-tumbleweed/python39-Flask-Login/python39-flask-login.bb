@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "0.6.2"
 
-RPM_NAME = "python39-Flask-Login-0.6.2-1.3.noarch.rpm"
-RPM_HASH = "2057afc4193652bd671a32ed995a4bb62926e4c23d4e5eb767887c8fb504908d87d610a38024084c84c43c96ecda8585d65b47d6faa1a420a69d3b703a635103"
+RPM_NAME = "python39-Flask-Login-0.6.2-1.5.noarch.rpm"
+RPM_HASH = "922a6c64b27fef2c2a5302f86562963d0e7846449b1da4247b5b01862423e6a6fa68819447d5b6db6708cc5980ce004b5ea2a2a0421e4783eb9b51a357ecfefc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-flask-login \

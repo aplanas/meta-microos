@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.2.0"
 
-RPM_NAME = "python39-azure-mgmt-redhatopenshift-1.2.0-1.3.noarch.rpm"
-RPM_HASH = "6d7f28a3b604e51f8b925bd73b353c9827f6bc53489f2a2c953a45934474ff15480a590bf50c228a8e87c721b40ad5d6c734ca09f4c5ac4824cc1bb1648343de"
+RPM_NAME = "python39-azure-mgmt-redhatopenshift-1.2.0-1.4.noarch.rpm"
+RPM_HASH = "6ec6aa280d9baad84b7070c2ae8527e1dd2c4dbd0780c12a9a6ba65417cc666d3b88d1fcc79e6ff7e9b0b0e487f4d5e0d6240c4b336d34995306deaed3cadfc3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-redhatopenshift \

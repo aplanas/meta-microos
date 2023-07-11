@@ -4,14 +4,13 @@ multi-file RELAX NG schemas from arbitary URLs, and flattening them \
 into a single RELAX NG schema."
 LICENSE = "Apache-2.0"
 
-PV = "0.0.2"
+PV = "1.0.0"
 
-RPM_NAME = "python310-rnginline-0.0.2-4.9.noarch.rpm"
-RPM_HASH = "0405d615852baafe2890dcb05878ccbabd636d693a9709e5ee798a40d3f4a24492dffa7e9a69bc4b48fb2593c19274ebdd2f25bce784925d3e9176c669a54231"
+RPM_NAME = "python310-rnginline-1.0.0-1.3.noarch.rpm"
+RPM_HASH = "3a3ac8e43700c455a12642e74d81011d1e809e1225da783260058fa8f12bf874b832c8439dbfa22862cf01d8bceb83d7a7e5217caaeaa3b88d5ca30fff5224f4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-rnginline \
-python3.10dist-rnginline \
+RPROVIDES:${PN} += "python3.10dist-rnginline \
 python310-rnginline \
 python3dist-rnginline"
 
@@ -19,8 +18,9 @@ RDEPENDS:${PN} += "/usr/bin/python3.10 \
 /usr/bin/sh \
 python-abi \
 python310-docopt \
+python310-importlib-resources \
 python310-lxml \
-python310-six \
+python310-typing-extensions \
 update-alternatives"
 
 inherit rpm

@@ -10,8 +10,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.18"
 
-RPM_NAME = "perl-HTTP-Tinyish-0.18-1.4.noarch.rpm"
-RPM_HASH = "5e188dbc14551541bdb8c463699e6ab9d5908c0ea2cb3e36368517de4e00e28a612b16d80d48e9d1f6c04b1fca931656ded230f37e14c0f00af7e7cc17652527"
+RPM_NAME = "perl-HTTP-Tinyish-0.18-1.5.noarch.rpm"
+RPM_HASH = "1a2775d6186b8c692719772d9e83fc05b5d9a89fdfbe7c8c84249d9c5e7d5ff692a35612fb9a0e53d02ba24a107a3dd1311a94bea7a403a650bb1fc730161706"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTTP--Tinyish \
@@ -22,7 +22,7 @@ perl-HTTP--Tinyish--LWP \
 perl-HTTP--Tinyish--Wget \
 perl-HTTP-Tinyish"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-File--Which \
 perl-HTTP--Tiny \
 perl-IPC--Run3 \

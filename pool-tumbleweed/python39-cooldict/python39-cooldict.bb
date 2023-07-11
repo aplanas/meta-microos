@@ -8,8 +8,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.04"
 
-RPM_NAME = "python39-cooldict-1.04-1.14.noarch.rpm"
-RPM_HASH = "638a1f3fcf56e8bbd844d22c256b1edf83b560d9b645f666c4986cb05dddb416ec2c086ad71969653f9490b5fdaaa04cce14180608d988a07e19ffe5f42a4d9b"
+RPM_NAME = "python39-cooldict-1.04-1.16.noarch.rpm"
+RPM_HASH = "84de0603b4bb97897276b5fbf8a181622db909e5503420da1518474246cc53bab9b0baee437b8496977daa9435715cfc4a74302120dd78a1dee2156dea972a3b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-cooldict \

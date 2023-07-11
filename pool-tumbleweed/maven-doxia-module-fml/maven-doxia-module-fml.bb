@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.9.1"
 
-RPM_NAME = "maven-doxia-module-fml-1.9.1-6.7.noarch.rpm"
-RPM_HASH = "0979c94f1dd05e2dbdc60035d2e43f1181eafafc7aff7a66e00d12491530cae60feaf1b7085a5a06a039aedf912c80ab8316d1fa5ad050766141e498567c5b3b"
+RPM_NAME = "maven-doxia-module-fml-1.9.1-6.8.noarch.rpm"
+RPM_HASH = "7bc6953da5a5e55ba931c75dfea949454a365467a61f5b6a94cafc8e6d746354ce5fb537d93a4166067cfd6dffef1c4f5b344c0c7405b9b8b3e896af96450f5d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-doxia-module-fml \

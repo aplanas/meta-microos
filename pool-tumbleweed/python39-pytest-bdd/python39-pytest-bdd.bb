@@ -17,8 +17,8 @@ LICENSE = "MIT"
 
 PV = "5.0.0"
 
-RPM_NAME = "python39-pytest-bdd-5.0.0-1.7.noarch.rpm"
-RPM_HASH = "64da562ad55f0b4cbf2cfb74252629cb911fb954e13caeaa4b6a0ccc73adf7212094c861d5c500efa021818af320b2a7f8b9bdfe2fce861632b3b0caee024ab1"
+RPM_NAME = "python39-pytest-bdd-5.0.0-1.9.noarch.rpm"
+RPM_HASH = "bbd49ce9dca4c609942c5857a77adef2939c150b5d97440985b667da9745048aad200b92819d6a657a0f06df3f3c72f4baa0846b3f018a991558cefc574ead6a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytest-bdd \

@@ -15,8 +15,8 @@ LICENSE = "MIT"
 
 PV = "0.7.1"
 
-RPM_NAME = "python39-pyshould-0.7.1-6.12.noarch.rpm"
-RPM_HASH = "65cd8a7e27429c38d3c894cdbe4680d179207e1ae2aabc8145bf2c2c380201e0241b7e2947de689ad1a9ee10df64cb633ed95d1b45324e40b159b508f5828829"
+RPM_NAME = "python39-pyshould-0.7.1-6.14.noarch.rpm"
+RPM_HASH = "242f3bab2dc4c3cfcdf9a8f6cef9f7600f786e871bd68bcda6bd3f65f23e612efca79a8dd4486a28d0bfa0c246b12a4eeed9148862ac99d0f5ee4f370b808656"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyshould \

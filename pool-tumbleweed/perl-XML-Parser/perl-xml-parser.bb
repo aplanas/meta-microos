@@ -20,8 +20,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.46"
 
-RPM_NAME = "perl-XML-Parser-2.46-1.19.aarch64.rpm"
-RPM_HASH = "9e40127a84752a8118f58ad0f42f298c90eae4bf325531891afa397b0b272a94e4d99cd9e5d29ff20c278a695f24a5090cc487a8bbbe344df8fc7dc1aa5f6923"
+RPM_NAME = "perl-XML-Parser-2.46-1.20.aarch64.rpm"
+RPM_HASH = "0feb70a01a3672b3b2a75c92b3c2be88c520bf7b9689b1792ad7cbb7e220adc89aabbfdc1cb394a52de1fb72e7b1c49b96c11ab19aa2d5a50c2fa379e80e4625"
 
 RPROVIDES:${PN} += "perl-XML--Parser \
 perl-XML--Parser--Expat \
@@ -35,7 +35,7 @@ perl-XML-Parser"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libexpat.so.1 \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-LWP--UserAgent"
 
 inherit rpm

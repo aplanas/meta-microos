@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0 | BSD-3-Clause"
 
 PV = "1.4.2"
 
-RPM_NAME = "perl-subunit-1.4.2-2.2.noarch.rpm"
-RPM_HASH = "e7507ed27cca99a8a6fe2c4b642b32a6222f4ac148256d566d68f54a6ae5c993ba344ebe092c0c4869dac87d76927a6f59baf1ac22b2453293c2ae78f0c2cbe4"
+RPM_NAME = "perl-subunit-1.4.2-2.4.noarch.rpm"
+RPM_HASH = "a2af12dc248b3d64c56bb5049083ebdf571d6467af198cb1cec06aa034c36db30f3f07ce233f7c262f28501000313fde0ff3197911fc081db213c3c5614e8941"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Subunit \

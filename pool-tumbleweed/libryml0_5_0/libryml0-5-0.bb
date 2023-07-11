@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "0.5.0"
 
-RPM_NAME = "libryml0_5_0-0.5.0-1.3.aarch64.rpm"
-RPM_HASH = "28f9a0a602437937304f3d8112ec10c5360e9b7e170382e8e4b0c01019629a102c6f5aafcf370a22865ea3385b00a02cf222dd008e245ff12f64123f14d8555e"
+RPM_NAME = "libryml0_5_0-0.5.0-1.4.aarch64.rpm"
+RPM_HASH = "cccc048600abd219ef63e95ac7c0cdb4ed8f0a7268f56745f34962dbfea7d4e51ce0471ded1fdfd833ab2a5da4a8e3b39c4df0669797ad2fcb14b5bbfef72191"
 
 RPROVIDES:${PN} += "libryml.so.0.5.0 \
 libryml0-5-0"

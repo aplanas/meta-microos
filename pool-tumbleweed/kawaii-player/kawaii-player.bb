@@ -5,12 +5,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.0.0.1"
 
-RPM_NAME = "kawaii-player-5.0.0.1-2.8.noarch.rpm"
-RPM_HASH = "de92fe44ddf23e2e58d65cedd353eacad1d3a881c55890ba8614b164880717b15c9de4792dfc998cc908cb9ad1a7667cab3364c9345e081430ea2c91ff05f88f"
+RPM_NAME = "kawaii-player-5.0.0.1-2.9.noarch.rpm"
+RPM_HASH = "edb71391be9f434b4a0e213e3b23a18de9ee9f00cd6834e24f157cf4e87b9927656c75aa786c5aaff97170d80a27f87f8e910257332a0706947e891b5121eb04"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kawaii-player \
-python3.10dist-kawaii-player \
+python3.11dist-kawaii-player \
 python3dist-kawaii-player"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

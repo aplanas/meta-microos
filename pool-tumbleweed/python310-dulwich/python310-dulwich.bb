@@ -5,11 +5,10 @@ LICENSE = "Apache-2.0 | GPL-2.0-or-later"
 
 PV = "0.21.5"
 
-RPM_NAME = "python310-dulwich-0.21.5-1.1.aarch64.rpm"
-RPM_HASH = "0417996ee3d8428b49e91af80e5fc96098cdec7d687c684e64e62fd5879bc5efb8f61710f98a6840ed84f5cd8824bd73bbc238aaa80dde1ef602295b817333bf"
+RPM_NAME = "python310-dulwich-0.21.5-1.3.aarch64.rpm"
+RPM_HASH = "f2a3f5c9c261eb81f768b40b22d92bcaae847b3f0d5c18a1e1a828bc9e1f97100e48b3d9b85157c12dea90db8e367a24cbddfda83d3f48409908f0d4f7b957ab"
 
-RPROVIDES:${PN} += "python3-dulwich \
-python3.10dist-dulwich \
+RPROVIDES:${PN} += "python3.10dist-dulwich \
 python310-dulwich \
 python3dist-dulwich"
 

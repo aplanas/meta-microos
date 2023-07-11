@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "0.2.8"
 
-RPM_NAME = "colorhug-client-0.2.8-1.26.aarch64.rpm"
-RPM_HASH = "8118e7dcbb8df7d1f35e4e876bfdce5e0a4eef387d2289dd15cf2c0a8b7bc56f62053279cbddfae8f134cfa469b713e2a10b2cbaedfa17ba0def8b11091bd7a4"
+RPM_NAME = "colorhug-client-0.2.8-1.27.aarch64.rpm"
+RPM_HASH = "355f280dc003c992d3a142fc8b61d088ca4b2975f725a91753ee209a7266b5e897959d41d02028117ebe6fb7eb17935a8b1402c14f0d2ed0c6fadcb6056b81ba"
 
 RPROVIDES:${PN} += "colorhug-client"
 

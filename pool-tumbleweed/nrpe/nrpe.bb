@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.0.3"
 
-RPM_NAME = "nrpe-4.0.3-5.3.aarch64.rpm"
-RPM_HASH = "9f9de56d85602ea7da0ffd07420c2c9828e5859ace2eabc9a084c437a2799c534fc74ef9d5e29614a01f419b2c0de9a863bd2cafc7645a78b47a924dcf9c8b90"
+RPM_NAME = "nrpe-4.0.3-5.5.aarch64.rpm"
+RPM_HASH = "469096eecb5a1aba8a48dc8722ae4e782d5868189791d5d6a405caf5466ee09b86273c4ebf1339594d1756ceff623ef17e78fe348099737cb5f3c24ac2c1b2be"
 
 RPROVIDES:${PN} += "config-nrpe \
 nagios-nrpe \

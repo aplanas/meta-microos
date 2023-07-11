@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "7.0.4"
 
-RPM_NAME = "ragel-7.0.4-1.10.aarch64.rpm"
-RPM_HASH = "4ec8e0e0ff2a6573055e6ef5ec66653111642f2ebdca37abe26e1e589791c27ece0ccec5e54a1b2b736bca3886d8236c01d5be67474cb4bbe4c8c0754109efdf"
+RPM_NAME = "ragel-7.0.4-1.11.aarch64.rpm"
+RPM_HASH = "87569b2e96805af8117ead64994cc6100dbc2ac35b852f3691db9a6e238eae82a4352d5d2e6c8e31a076ff40122e1a3cb1059d224f81b0a0c833763762339e4e"
 
 RPROVIDES:${PN} += "libragel.so.0 \
 ragel"

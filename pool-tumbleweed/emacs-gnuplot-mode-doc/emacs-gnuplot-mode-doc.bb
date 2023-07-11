@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.7.0"
 
-RPM_NAME = "emacs-gnuplot-mode-doc-0.7.0-1.9.noarch.rpm"
-RPM_HASH = "299bd097e7f0e9b2e381ff245304e63d31a80e93242f84bbe9105c3d67f4cbb5cffdb8aa3c57c47e5dd8e456f116f33e9351357c3171b9615c28ff5cf7d6a7e0"
+RPM_NAME = "emacs-gnuplot-mode-doc-0.7.0-1.10.noarch.rpm"
+RPM_HASH = "3416638bf858a0222ec290a6f6fd00c5b60b9537301fc4d76421388c01c50f2f1896e0cbac0abcf0cd868285e7c39902b7f503c3c1be7ebb4fe3a1c4491effce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "emacs-gnuplot-mode-doc"

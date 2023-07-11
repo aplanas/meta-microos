@@ -2,10 +2,10 @@ SUMMARY = "IDE for The Coq Proof Assistant"
 DESCRIPTION = "The Coq Integrated Development Interface is a graphical interface for the Coq proof assistant."
 LICENSE = "LGPL-2.1-only"
 
-PV = "8.17.0"
+PV = "8.17.1"
 
-RPM_NAME = "coq-ide-8.17.0-1.1.aarch64.rpm"
-RPM_HASH = "f19c40f2ca63c98141d707dcf03413c375dfa9eb455e07ee83e9d1bf91d38875b469570c0ad561cf14c7209a87e77e384f1f50b45b43cbc55242ed8b1af9f3ce"
+RPM_NAME = "coq-ide-8.17.1-1.1.aarch64.rpm"
+RPM_HASH = "8f3e988cc9aabc7e95dfc01786e4c03e76023a564fc8bedb5990ac8a6e171516ed5c4714e3472c6a705a099e6c00e55283c239e90ea5a8624000356ae7e98de9"
 
 RPROVIDES:${PN} += "coq-ide"
 

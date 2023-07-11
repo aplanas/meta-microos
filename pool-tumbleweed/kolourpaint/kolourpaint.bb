@@ -2,10 +2,10 @@ SUMMARY = "Paint Program"
 DESCRIPTION = "Paint program by KDE"
 LICENSE = "BSD-2-Clause & LGPL-2.1-or-later & GFDL-1.2-or-later & GPL-2.0-only"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kolourpaint-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "e2f992d1db8351b80ed7a2c8a44325c6c1a89d5d8691e860e8a6ad80129ef30949754a73c1b314083532b998cfa3d28c892866fce0440940019c8ac1dc786824"
+RPM_NAME = "kolourpaint-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "e6635ff19ba5c9f9bf79c70355953c7e34567415ab37548f58be5aa4e336d1be888dc193e08650b28a9a25a0ce6dc5c91a86b7bb093e3f8dea71bde866ee28ba"
 
 RPROVIDES:${PN} += "kolourpaint \
 kolourpaint5 \

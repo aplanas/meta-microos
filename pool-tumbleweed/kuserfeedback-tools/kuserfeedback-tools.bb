@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.2.0"
 
-RPM_NAME = "kuserfeedback-tools-1.2.0-1.14.aarch64.rpm"
-RPM_HASH = "b94d91c2318171e7349eb6d7d99006c32a836f82fe2c08ebea727fe4b448e8aa133a507cc6e0bce599aa702f01b790f28931ca85f08019c71a593753051b67f7"
+RPM_NAME = "kuserfeedback-tools-1.2.0-1.15.aarch64.rpm"
+RPM_HASH = "5652087b8a978744a48eb5bc67a7ca1c81a9dcfcecd5498069141627bdc34858151e7267a1b1e8a403d6a16ecb2dcd4bbdf5e53acd14a3d99f23cd83ebb7ac5b"
 
 RPROVIDES:${PN} += "kuserfeedback-tools"
 

@@ -10,8 +10,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.7.4"
 
-RPM_NAME = "python39-evtx-0.7.4-3.12.noarch.rpm"
-RPM_HASH = "03dd30ba5ebbb6848533e81574bc6a00b3052bc5e134220eee2da143af653c190fe1040c14cfa7e8b9cb98e65e0818b7e7c42d4502b4f7135b520accf60d1935"
+RPM_NAME = "python39-evtx-0.7.4-3.14.noarch.rpm"
+RPM_HASH = "1062044b905f0452db0645415c6cd76c4e5fc3921661fed0962535cde2f3a5f8b4dd8f9528902f8222d50b9367ebf798eadf42bdd5f31768d11bf9240f320aeb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-python-evtx \

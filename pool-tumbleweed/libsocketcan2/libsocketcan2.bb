@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.0.12"
 
-RPM_NAME = "libsocketcan2-0.0.12-1.6.aarch64.rpm"
-RPM_HASH = "afbfc5c9591e84d5b136180a036cfc7b979e90b6be931174a75a7f7ab372251786e0fad9855d7b58847a5971c1d638e34ff6c0af250783a38f83e94612258e44"
+RPM_NAME = "libsocketcan2-0.0.12-1.7.aarch64.rpm"
+RPM_HASH = "6e5a39dc1c827ab8e9f5fed794ded6fef8f86048a005935485476dc9e90d2ea83e331524b98d38567a9cb970c55b147898941b6e17047d7b80f6eff998dc06ab"
 
 RPROVIDES:${PN} += "libsocketcan.so.2 \
 libsocketcan2"

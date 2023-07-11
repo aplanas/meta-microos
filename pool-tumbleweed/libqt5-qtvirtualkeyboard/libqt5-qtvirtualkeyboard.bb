@@ -4,10 +4,10 @@ DESCRIPTION = "Qt is a set of libraries for developing applications. \
 This package contains a virtual keyboard."
 LICENSE = "GPL-3.0"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libqt5-qtvirtualkeyboard-5.15.9+kde0-1.1.aarch64.rpm"
-RPM_HASH = "c25ad2ffbd8a38cdffe2e07acc334ba49d93b5001eafa3ca95e5ff94b8b241d4ca0bd0f71edbd1b1a3b9b843b2db4146b7fa590b20cf6a4947f778ce9b9ba7f8"
+RPM_NAME = "libqt5-qtvirtualkeyboard-5.15.10+kde0-1.1.aarch64.rpm"
+RPM_HASH = "8c7ea9c7176b5bf70fa3bbd7aa5da3ef72ed5f07ae58547c1409626e6d3890f0bc33915599eb3fb0513692e5236d8e1f73b4a8ca6b60c4e753005d09467ec03f"
 
 RPROVIDES:${PN} += "libqt5-qtvirtualkeyboard \
 libqtquickvirtualkeyboardplugin.so \

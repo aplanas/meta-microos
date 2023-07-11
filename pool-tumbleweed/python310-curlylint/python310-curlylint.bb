@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.13.1"
 
-RPM_NAME = "python310-curlylint-0.13.1-1.4.noarch.rpm"
-RPM_HASH = "7cd2c8717dded35aca74597b8ab4a6e39928039b4596794e4bf5d9e8724f736b52595f5049b8703be05bf99707a3e47ebe9769d9bce113a34a91a8f85189aa97"
+RPM_NAME = "python310-curlylint-0.13.1-1.6.noarch.rpm"
+RPM_HASH = "45ac19b8c55bdd6fa199da0dcc62e86344797b14c3fb4ef879997f0581cab83e477e132671e9354a3fb31adc60a009290e01ca8975d68dee935f89775099ea8b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-curlylint \
-python3.10dist-curlylint \
+RPROVIDES:${PN} += "python3.10dist-curlylint \
 python310-curlylint \
 python3dist-curlylint"
 

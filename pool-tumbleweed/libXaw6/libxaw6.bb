@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.0.15"
 
-RPM_NAME = "libXaw6-1.0.15-1.3.aarch64.rpm"
-RPM_HASH = "e96251e05f6ed37b4f7bf28ba8e738c3eaa6463792f3a9f21e8d5f9a305feae8be2470a0c8de9cad1cb3c4946410bbd95eee8c8e3e70cd3b5cc3c1d3f86b5ce5"
+RPM_NAME = "libXaw6-1.0.15-1.4.aarch64.rpm"
+RPM_HASH = "18e11e461cede8bd96326507861331faa7b3ef735d53187e40075faebe7bd2cb8a41007b49b63bd4e8794217150a5ac50956d20791213044c1877ae1730ebdbf"
 
 RPROVIDES:${PN} += "libXaw.so.6 \
 libXaw6 \

@@ -4,12 +4,11 @@ LICENSE = "ISC"
 
 PV = "2.0.7"
 
-RPM_NAME = "python310-minidb-2.0.7-1.3.noarch.rpm"
-RPM_HASH = "ecfefdd1fdde280fdc0be2846cfe966e93fada998d034d546c8481b0714f5e5509250bdc0627d17069d4d7a9e93536b901f035cef6f6349876d0c842b7f071c8"
+RPM_NAME = "python310-minidb-2.0.7-1.4.noarch.rpm"
+RPM_HASH = "20359b3e6ee1d2aeb6a246b336e63dddea71ad27454c8cf856f2264c909e722c35959b28999656932d9ee9c72db91c9d8c053364935e9b27d67ab81a876890c2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-minidb \
-python3.10dist-minidb \
+RPROVIDES:${PN} += "python3.10dist-minidb \
 python310-minidb \
 python3dist-minidb"
 

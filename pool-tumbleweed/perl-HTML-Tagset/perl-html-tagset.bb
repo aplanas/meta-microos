@@ -12,13 +12,13 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "3.20"
 
-RPM_NAME = "perl-HTML-Tagset-3.20-73.26.noarch.rpm"
-RPM_HASH = "679b52e836a49ab0f2a0b408d7b2adbdd0f6da5794c2cc39eed4cb5944375803d63faa74a83c13e6c285793b462a4cda99a6058e99f4585ad8b53e98cc0dfbc1"
+RPM_NAME = "perl-HTML-Tagset-3.20-73.27.noarch.rpm"
+RPM_HASH = "ab2b13ed133c3e008f3fc95987669d7a6dab1af32c3609010b16c1ad84920d16139005acf9ef0a7e3a472acf9f3fe3794d0f048eeaf0918716718c31c8119407"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTML--Tagset \
 perl-HTML-Tagset"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

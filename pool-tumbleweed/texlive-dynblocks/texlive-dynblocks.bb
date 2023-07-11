@@ -5,8 +5,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.2bsvn35193"
 
-RPM_NAME = "texlive-dynblocks-2023.201.0.0.2bsvn35193-53.1.noarch.rpm"
-RPM_HASH = "b49583f3c29bb306931dfa789b9cdc089d193788fc5e3779374277ef14ce25cd9cedd1f3ad64d569ead8801ae8404c6408e96a46a7a2e2436509925f5b61d14b"
+RPM_NAME = "texlive-dynblocks-2023.201.0.0.2bsvn35193-53.2.noarch.rpm"
+RPM_HASH = "933c6715d8919c23765febd2be4478dc85f0f36a2036f0e62a18df47c667dd4e58d3b554911978c01e5454ca43598389d72fbafde9670c5d1bc59320b9ed36b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dynblocks.sty \

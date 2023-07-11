@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.20.0"
 
-RPM_NAME = "libqgpgme15-1.20.0-1.1.aarch64.rpm"
-RPM_HASH = "89102494045aaee587623910efa492ffac7ffcd6a799afb0b1931cff01eebbb00434c01e3a9c8cdee522a90ecbdd68669cc320bc952c0b3e6e22b7b6d12620a4"
+RPM_NAME = "libqgpgme15-1.20.0-1.2.aarch64.rpm"
+RPM_HASH = "42c2473158f4136298210a83c608d3b5df47e734a826d9e663da84442456b58e01c6ddf45a3e1a3e85fbb6dbaf3f71cccebe0dcd57676429faef8ceda5e40008"
 
 RPROVIDES:${PN} += "libqgpgme.so.15 \
 libqgpgme15"

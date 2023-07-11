@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "4.8.1"
 
-RPM_NAME = "libwtdbo4_8_1-4.8.1-3.6.aarch64.rpm"
-RPM_HASH = "f1ed4d7be69d6194454d1b5a0e3636d70f87103097ccfa8be443510c68fb75573c111490cbeb873c642dd7d580f338ea580c39c8404fd2b5f8015d7427962d29"
+RPM_NAME = "libwtdbo4_8_1-4.8.1-3.8.aarch64.rpm"
+RPM_HASH = "b6decd38f3df746fbecff26e95661131e1f0711dc976a12cfaf04d11ece6c87209b071f4c090c9f381ef3d9a98fc2f2ddf61ec4d9b79a1eb0f84c61c46dad5fb"
 
 RPROVIDES:${PN} += "libwtdbo.so.4.8.1 \
 libwtdbo4-8-1 \

@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "0.3.6"
 
-RPM_NAME = "palm-db-tools-0.3.6-276.28.aarch64.rpm"
-RPM_HASH = "715054b739b1ad54ed4df7771ea21364eb867eff028d677db0ce3c5cb4ec712c9fcc8ae3b2bad69590a4f09d543ee8c7b758ea6622e5e4fd69a97218b76f898e"
+RPM_NAME = "palm-db-tools-0.3.6-276.29.aarch64.rpm"
+RPM_HASH = "c38b503312f3871b1e932b5bb0270ace7a39b60bd04c5f07c4ae754bfb80ea97d25e20d1a3f9933ba66bed4ab14caf519a5503d7571f6d467bb1a01db57cc4db"
 
 RPROVIDES:${PN} += "libpdbtools.so \
 palm-db-tools"

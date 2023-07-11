@@ -4,8 +4,8 @@ LICENSE = "EPL-1.0"
 
 PV = "4.13.2"
 
-RPM_NAME = "junit-javadoc-4.13.2-4.1.noarch.rpm"
-RPM_HASH = "533878fb9e762b72c8912fd62762206fed36c4b35adaac422013cd4ee1654c0bd4fe00a96598d0a023b752e423361d2bfc4803336e549e351efc4c8863cf513d"
+RPM_NAME = "junit-javadoc-4.13.2-4.2.noarch.rpm"
+RPM_HASH = "c72587c6d132cf7067e785136f84510f08a85938f7151de9978cdf185b09b6451454af47f836cce8fdb00242325b366d510c3e87b67d8041ffdeb26a741fcff8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "junit-javadoc \

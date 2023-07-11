@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.8.0"
 
-RPM_NAME = "nut-doc-asciidoc-2.8.0-2.1.noarch.rpm"
-RPM_HASH = "f4fbaa53440759de8e5e2794f25ac37476d44ee6cc0a90dcdb79ff095936f4a7c8803af0cd76d2c8fbacee9736e8aa6ec1a47a85892f5fcf4f31a37e86fff3ae"
+RPM_NAME = "nut-doc-asciidoc-2.8.0-3.1.noarch.rpm"
+RPM_HASH = "2ec8e8968d8f0fe4f650ebd1bb3b3d69aca412494565ae72cb9a3fb1dc6a7b807fa27f71edfe667fb455967177765b0f40ee6904dd0b86b579255178c7df832c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nut-doc-asciidoc"

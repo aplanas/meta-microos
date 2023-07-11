@@ -4,8 +4,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-otlozhu-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "2cfd5bbd0fecdb5723935a2e0338cda00f7ab26d0f73cba64784c7801c8918547bc4cf42e49f5276d61eec85dbbab9bf27bda3abea516275960b370dcd6c1760"
+RPM_NAME = "leechcraft-otlozhu-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "6aa3c4850d0244357d30223fd9c613e2596eab0a7cdb6d75a06f0b771d92ba7207bd67a6444467093dbb69018dcd3e81305f041f236593d389cedba3b6145c96"
 
 RPROVIDES:${PN} += "leechcraft-otlozhu \
 libleechcraft-otlozhu.so"

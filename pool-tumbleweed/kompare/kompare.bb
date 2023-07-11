@@ -2,10 +2,10 @@ SUMMARY = "File Comparator"
 DESCRIPTION = "Tool to visualize changes between two versions of a file."
 LICENSE = "GPL-2.0-only & GFDL-1.2-only"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kompare-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "5c2dea898bdbb935cd50febbc817ac80ac1c383a52d952fdc388fd5e0abc4c79a2b517271dec7dc56f8c1be95d4ad0c5ae7ecfa201f15bc00017bf03f7f0aff3"
+RPM_NAME = "kompare-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "c8c1c0fa6da96b3c90b80479f5d653fee4e59d9cc5217dd3e55024ca0b4791525d913f571253055966d10121355e7f85412f924ca3426c3f1a37d57b47a257e9"
 
 RPROVIDES:${PN} += "kompare \
 kompare5 \

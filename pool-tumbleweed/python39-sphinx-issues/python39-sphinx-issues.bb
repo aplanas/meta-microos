@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "3.0.1"
 
-RPM_NAME = "python39-sphinx-issues-3.0.1-2.1.noarch.rpm"
-RPM_HASH = "41f922583dc69eadac8aa2fd31acd6db43ad522cef3f57ef1c2433b84a18446ebe93d32ef132dabf2ca67b4a758f6abe6546cdba53a00e3a34403fe05a73aa29"
+RPM_NAME = "python39-sphinx-issues-3.0.1-2.3.noarch.rpm"
+RPM_HASH = "782e0fd5c00526a1f58ba213a3bb323101068500d70dbfc9da559067280de793fb8ff062f962d5c6e73c52b415239da727e9134cbb651f2670d8b5994d99a83d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sphinx-issues \

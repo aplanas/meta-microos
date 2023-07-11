@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.20.0"
 
-RPM_NAME = "python39-validators-0.20.0-3.1.noarch.rpm"
-RPM_HASH = "628eef464c18ec953a259f08c94a6d942cd8b5bded2c8796bbd66fb75ebc8fa249bfa68cfe016781ef717cd94e0084f68dbc22be0e821c23841e4bd8de52dac6"
+RPM_NAME = "python39-validators-0.20.0-3.3.noarch.rpm"
+RPM_HASH = "33fe57e43010726082916d0492be683d33b96ffd65b30019623961f007a9e9d9fdeee7c54af8e4405cfc19972191b35c92a46f4c42824f9c3f06d03c93e138c8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-validators \

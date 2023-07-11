@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "9.4.0"
 
-RPM_NAME = "libvirt-daemon-driver-storage-disk-9.4.0-1.1.aarch64.rpm"
-RPM_HASH = "03aa064de38d804a5f88b54b30442c4d85bd6c366b405ec57940ae0f1b0c4aaadc2dbf8b1894e9a6ab9bd4f8d69d3a717629dd23d30d69331262baf4f3f91c10"
+RPM_NAME = "libvirt-daemon-driver-storage-disk-9.4.0-3.1.aarch64.rpm"
+RPM_HASH = "00738109bc9b478052e441524638ce98c7d94d02523e98db87cad9c19614ca2611e44a0627593e7ee2ce60f1dd0e5b8eebba8569e16f6f17142d0d6c873cdb86"
 
 RPROVIDES:${PN} += "libvirt-daemon-driver-storage-disk \
 libvirt-storage-backend-disk.so"

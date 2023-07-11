@@ -5,11 +5,12 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "5.0.3"
 
-RPM_NAME = "python311-Pebble-5.0.3-1.3.noarch.rpm"
-RPM_HASH = "6a84d076adeca01ba0fa41806e8fb981f5a157808ea0edf422909b96081aee52351b6fd489922d99bf0231c96283f6d8645a6b29569d78080c2c82726e857950"
+RPM_NAME = "python311-Pebble-5.0.3-1.4.noarch.rpm"
+RPM_HASH = "6e2577e3fdfa68fa2b11f0fe4d83e32cc9d5476d2594b7b9c9a2974e4bc3c84c12aa71b30cda1cf49203d7a658c018a182928abdde825a79f4e093a55c70bce5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pebble \
+RPROVIDES:${PN} += "python3-Pebble \
+python3.11dist-pebble \
 python311-Pebble \
 python3dist-pebble"
 

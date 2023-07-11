@@ -4,8 +4,8 @@ LICENSE = "OFL-1.1"
 
 PV = "2023.201.svn64372"
 
-RPM_NAME = "texlive-quattrocento-doc-2023.201.svn64372-53.1.noarch.rpm"
-RPM_HASH = "debb6771e18620224b6f6914f3dfec6971e00cc22edc112ae202ff3b739d9be226530950996e1788d5b05d16ef125b0aa095bbbeac00b463eddd74e2294f2d7b"
+RPM_NAME = "texlive-quattrocento-doc-2023.201.svn64372-53.2.noarch.rpm"
+RPM_HASH = "d20c927a6cfe8ff071addddcaef148952729a27dd0b6845bc358cd135e785195164fcbd437db9635d120dfb4900625eba207c23246906a23cc7de73244f26e72"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-quattrocento-doc"

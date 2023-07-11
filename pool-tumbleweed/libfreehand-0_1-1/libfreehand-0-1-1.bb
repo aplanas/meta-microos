@@ -5,8 +5,8 @@ LICENSE = "MPL-2.0"
 
 PV = "0.1.2"
 
-RPM_NAME = "libfreehand-0_1-1-0.1.2-2.18.aarch64.rpm"
-RPM_HASH = "57eedb093603c99b13b4cf65d2dff8ac850ce2c0e77028cad5a0b539749aef2bbc7b9cee006b6590ffe559de2f42b32007d88c2b9cb91cb1267ace045760be53"
+RPM_NAME = "libfreehand-0_1-1-0.1.2-2.19.aarch64.rpm"
+RPM_HASH = "5816b998e1d72a29ad34faaf1f96112ae585fd8807e5a6b3e77e5f7b02d03abb43ebbd48686e77e60a2f27432bbee8428b934ab4a71fbc4f2525f96a0f368a3d"
 
 RPROVIDES:${PN} += "libfreehand-0-1-1 \
 libfreehand-0.1.so.1"

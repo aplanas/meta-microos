@@ -6,12 +6,11 @@ LICENSE = "BSD-3-Clause & (BSD-3-Clause | ZPL-2.1)"
 
 PV = "0.4.8"
 
-RPM_NAME = "python310-mechanize-0.4.8-5.2.noarch.rpm"
-RPM_HASH = "a01dba55632c94b2bffcc5a8581cd06db64b17fe4859a37d0bb91f3b9f3b84f9a4131da2d76a59ffc736407516b7e30158af0f458cd354ea5d8a7b5830c9defa"
+RPM_NAME = "python310-mechanize-0.4.8-6.1.noarch.rpm"
+RPM_HASH = "6de82b4e43f178781d3a5724670cd2ade958ca4e4535a2cae15fd0516453ad4d95e0ccb365b9ef865cac82455cc87ccebec336e96f563c6916703c4ca526eaaa"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-mechanize \
-python3.10dist-mechanize \
+RPROVIDES:${PN} += "python3.10dist-mechanize \
 python310-mechanize \
 python3dist-mechanize"
 

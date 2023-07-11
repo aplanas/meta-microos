@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "6.1.6"
 
-RPM_NAME = "macchina-6.1.6-1.3.aarch64.rpm"
-RPM_HASH = "b0e28f197a5b321137f9bf36dd64ad9326f615a741442893e18459f4200838a7a3cdb4cfa8e6151d5a2e03160171a506551852710e5b91d6d2db00ea69336492"
+RPM_NAME = "macchina-6.1.6-1.4.aarch64.rpm"
+RPM_HASH = "a14c910ef48c68fcefdad5fc9460789f6815e874878eb1e1756e6b84bbab8dd03384f111c48f4cc361da2260e92a99d6daa15adc406c790d6b3c5b07a0749f25"
 
 RPROVIDES:${PN} += "bundled-rust-crate-ansi-to-tui \
 bundled-rust-crate-anyhow \

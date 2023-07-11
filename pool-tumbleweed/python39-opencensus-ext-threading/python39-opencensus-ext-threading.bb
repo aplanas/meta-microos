@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.1.2"
 
-RPM_NAME = "python39-opencensus-ext-threading-0.1.2-2.9.noarch.rpm"
-RPM_HASH = "d29b9582e3f24452eaf29918f3397aa79554f84def0737ab7d18266eea4d3c231fd11afaad41f81b515c406533826d5c6ad2a18f65ab13b65a2802f903cd4e17"
+RPM_NAME = "python39-opencensus-ext-threading-0.1.2-2.11.noarch.rpm"
+RPM_HASH = "b9529bc5c6f7834a206785d9a31eea45c0898aa3e0214853ee9ca3982f5e7e1272c771c287b2df3deef70977eb1237d913d9d222f2fc3d29ef71eb6ce9c71d1f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-opencensus-ext-threading \

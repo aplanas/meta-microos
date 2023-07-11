@@ -5,10 +5,10 @@ lossless compression. \
 This is the reference implementation of JPEG XL, with encoder and decoder."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.8.1"
+PV = "0.8.2"
 
-RPM_NAME = "libjxl-devel-0.8.1-3.1.aarch64.rpm"
-RPM_HASH = "d5d85bf17d2888d6a31f59f4259070a3ffc4ba546a269d8ca8b6059c6732ba001c667b8971c1f3db76cb88403a7ce4de21e8cfbdb1b8ca5e3f00cbd7057280f4"
+RPM_NAME = "libjxl-devel-0.8.2-1.1.aarch64.rpm"
+RPM_HASH = "3db13ed78486cf38dcea9243e16d02f28b08cda2529796bfb0b2eaeb83562195aa6b62fd0e632f51d2d7e6f171730b702e6411edf8a6c4d5db63c32af392996a"
 
 RPROVIDES:${PN} += "libjxl-devel \
 pkgconfig-libjxl \

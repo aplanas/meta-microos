@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "1.6.1"
 
-RPM_NAME = "python310-svgpathtools-1.6.1-1.1.noarch.rpm"
-RPM_HASH = "83371756844180ace0479f3824e199c880785dcf6ed4708e41820789ae839e9ff7d0b6683333b6b1344465d25fb9415f726ee8e29a39e3b78851cdf266c9a5fe"
+RPM_NAME = "python310-svgpathtools-1.6.1-1.3.noarch.rpm"
+RPM_HASH = "92ac9ed4f712a232ff2eb72f49b1d90a52717d46b9599afb95fa31ba635310a5a8ae4bf849a36b1e5d92ad0c98aa1f1c222265697152374b576b374a43cfdd29"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-svgpathtools \
-python3.10dist-svgpathtools \
+RPROVIDES:${PN} += "python3.10dist-svgpathtools \
 python310-svgpathtools \
 python3dist-svgpathtools"
 

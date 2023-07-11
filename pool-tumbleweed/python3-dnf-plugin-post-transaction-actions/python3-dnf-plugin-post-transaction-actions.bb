@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.3.1"
 
-RPM_NAME = "python3-dnf-plugin-post-transaction-actions-4.3.1-2.1.noarch.rpm"
-RPM_HASH = "b996696cc82fd55cdbf2a3d973c51c5512c242d7908f8543474a60def75265cf980f49bbb9d5c6adb0dba49cbaf9edb9b9727ec9b05ffcd32c49e36dfe511ad7"
+RPM_NAME = "python3-dnf-plugin-post-transaction-actions-4.3.1-2.2.noarch.rpm"
+RPM_HASH = "04d48db1ba553169cdb76e3d66f64bdceb3faf9a3b203d7de9d8d346a256b9273fa4251a84636d6eda1dc9dd04c54736ff98406404f12525dd1c02a4f76521d5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-python3-dnf-plugin-post-transaction-actions \

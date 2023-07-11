@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later | MPL-1.1"
 
 PV = "1.17.8"
 
-RPM_NAME = "cairo-devel-1.17.8-1.1.aarch64.rpm"
-RPM_HASH = "1eed90b3f811ba3eea6b826a056e967a5e3c3f3c98dc8ec0553ebf7447c3d7738ce43a63eb341e66f7495864e89f12992ca669461f69333ee0fc40370c41e583"
+RPM_NAME = "cairo-devel-1.17.8-1.2.aarch64.rpm"
+RPM_HASH = "5a85999f385487abf9ca47e1f76e232047142fe7e858d58ec783bc6dc77151805bfcceeaa83e7266e957baa056ec276e595d8902ef4355cd0bfcbe111d45eb39"
 
 RPROVIDES:${PN} += "cairo-devel \
 cairo-doc \

@@ -15,10 +15,11 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.1.2"
 
-RPM_NAME = "python311-urwid-2.1.2-5.1.aarch64.rpm"
-RPM_HASH = "ff8c5346186ef2fcb87e9cda5958207c6a16522f0bc463153a1f3b09face8d1f397b763cf7aed87e3dbd730ed1c154e8d9a670c710599921f8683e611863fd43"
+RPM_NAME = "python311-urwid-2.1.2-5.3.aarch64.rpm"
+RPM_HASH = "2967da8a9e4e432ad484e7a1eff017fab075df2c9be84012240cf9040c19ef9ac35a7294887184617319b4cc1ac6d0cd8a6a34c92f408e9941bedfc3ce2f98fb"
 
-RPROVIDES:${PN} += "python3.11dist-urwid \
+RPROVIDES:${PN} += "python3-urwid \
+python3.11dist-urwid \
 python311-urwid \
 python3dist-urwid"
 

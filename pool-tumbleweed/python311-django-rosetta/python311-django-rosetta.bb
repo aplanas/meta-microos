@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.9.9"
 
-RPM_NAME = "python311-django-rosetta-0.9.9-1.1.noarch.rpm"
-RPM_HASH = "ae0ff40ae7186e9295985e7de2730a9369b85ce1146ff479510cfa9433ae072183ef68156e86055a072122ab14a2823b2ec75b5f335c950cc86eb117c2dd1586"
+RPM_NAME = "python311-django-rosetta-0.9.9-1.3.noarch.rpm"
+RPM_HASH = "9be1a2c6f638cb0fbfdceef05f070b8c84ce88ebc1d1f4fe02413293a9a56d4dd7ca78f707986d1d7b4598c2d19ae0d139343c0871c8223d39689bae54cac848"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-django-rosetta \
+RPROVIDES:${PN} += "python3-django-rosetta \
+python3.11dist-django-rosetta \
 python311-django-rosetta \
 python3dist-django-rosetta"
 

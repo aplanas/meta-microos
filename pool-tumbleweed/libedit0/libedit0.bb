@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "20210910.3.1"
 
-RPM_NAME = "libedit0-20210910.3.1-2.1.aarch64.rpm"
-RPM_HASH = "4b4ddb57bcf152ef43ef93c5a463e94bef33f525fb37054d37e9ebcec5f3cd8dc41b44902971a6ade22954dbc3af05105bffbef91e39410aae5e898b638f0340"
+RPM_NAME = "libedit0-20210910.3.1-2.2.aarch64.rpm"
+RPM_HASH = "7449f24cde8162f1e0b0841a8bc3c170e77d030cae8633ef61d56f296c1ef38807c26a938b7b580b814d2b762ef696bc581da429ba73b72fd6f3fbec2ab6780f"
 
 RPROVIDES:${PN} += "libedit \
 libedit.so.0 \

@@ -7,12 +7,11 @@ LICENSE = "MIT"
 
 PV = "1.22.0"
 
-RPM_NAME = "python310-msal-1.22.0-1.1.noarch.rpm"
-RPM_HASH = "2b75b6acfffec19723d190a6510917179876d741c39fe5470317b3c4eb16f64fb18a3b659c542fc97884bc2794ea6f15d6e39791e49e6a584ec7be47e6946288"
+RPM_NAME = "python310-msal-1.22.0-1.3.noarch.rpm"
+RPM_HASH = "e7e25c6406e6fe6144115bc6a29a2d4feb58091def07bb867c5499b9c48326306349b793331dfaea7de174fc85ef3ba40e4bfe1e88d21fd0b24f8bf11e93e2ed"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-msal \
-python3.10dist-msal \
+RPROVIDES:${PN} += "python3.10dist-msal \
 python310-msal \
 python3dist-msal"
 

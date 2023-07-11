@@ -2,10 +2,10 @@ SUMMARY = "Cockpit admin interface package for configuring and troubleshooting a
 DESCRIPTION = "This package contains the Cockpit shell and system configuration interfaces."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "276.1"
+PV = "293"
 
-RPM_NAME = "cockpit-system-276.1-4.4.noarch.rpm"
-RPM_HASH = "4c0ec8ca0cc50434fa0ec2589c77097abc55a4bffb9bf5164975d9c6b88164ac702a02c5c9c03a1362212e320e6530863a275c3e70fc251c723394c616daccf5"
+RPM_NAME = "cockpit-system-293-1.1.noarch.rpm"
+RPM_HASH = "8739766ee81511ec3e0f9b7b23b7ad2b8fd2b051c2d8d4beabec60b654d3ecae2580d306eba62cc282100a4cb4f5c05f4a52bbc6e365313b16628a70b37bac6b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cockpit-shell \

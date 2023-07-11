@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.4.1"
 
-RPM_NAME = "bazel3.4-3.4.1-3.9.aarch64.rpm"
-RPM_HASH = "89ba722dbc9b254e66be6d2ccf126eb7784ae6168c2c1e7a7227bcae4669a47eacec5d63febbe058cb62e40fa4066720d47850378ee99a54070f00c04d04515e"
+RPM_NAME = "bazel3.4-3.4.1-3.10.aarch64.rpm"
+RPM_HASH = "c9088e4fb0d7e02f1184dbf697917c87799c83fbf70b7ab7950dbff816f02411fd476f90b239d25656880a94ff94df68de6fae80f5bada2f5afbd63b90292deb"
 
 RPROVIDES:${PN} += "bazel \
 bazel3.4"

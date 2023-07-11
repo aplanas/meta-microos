@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "6.0.17"
 
-RPM_NAME = "zabbix-server-6.0.17-1.1.aarch64.rpm"
-RPM_HASH = "59abec4f12c4267fc49e9be8743b0905655c9c948a0452a2469f6fa5ecb2022c1eabd69cab980021929ae4a03028a9199ede735bdb632450f5fc351c6c769247"
+RPM_NAME = "zabbix-server-6.0.17-1.2.aarch64.rpm"
+RPM_HASH = "a643beb4208e9afbd368cf14b4fb95ab95b4944c2778c2efeea6e04290cb6f76bab66f8cede6f6e8b61561f7fd53b0e6c084ad0b63d6f3a25db47e053e621c99"
 
 RPROVIDES:${PN} += "config-zabbix-server \
 zabbix-server"

@@ -6,8 +6,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.000155"
 
-RPM_NAME = "perl-Test2-Suite-0.000155-1.1.noarch.rpm"
-RPM_HASH = "af59b8481c2f301a93d680c7a980cc76e99a3f0c59af2b97d6a5bfb0d73655cab3ae3084832230e9a9e0e466892c89cf7157a4df147938b16d2c14b916fe0f16"
+RPM_NAME = "perl-Test2-Suite-0.000155-1.2.noarch.rpm"
+RPM_HASH = "2b492e10d2200797167f13835b66051381b787dee74442fe53192b8d7456fbca87b72c560a449c2393320f849fb53c511d52df620d3aaf6162920823bedbf53e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test2--AsyncSubtest \
@@ -132,7 +132,7 @@ perl-Test2--Workflow--Task--Action \
 perl-Test2--Workflow--Task--Group \
 perl-Test2-Suite"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Term--Table \
 perl-Test2--API"
 

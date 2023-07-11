@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.14.12"
 
-RPM_NAME = "pidgin-2.14.12-1.3.aarch64.rpm"
-RPM_HASH = "e05322c124490f3f56f29a3a7adf9caa64661e682aa61eb5d35dbdbd28e4dd5dcc9e95ac5d98b565008fc3967c498569c240637639dce0cf7439c01ed5aa6d36"
+RPM_NAME = "pidgin-2.14.12-1.4.aarch64.rpm"
+RPM_HASH = "a86729e67b252a5ebb19ebae63c9f3cd2cdfec920d6bf393ef0124d6c1d8e4e9ff4894c06b26329954b50716e3fc450a1639bcaa572e3c3b5602dd63553a6f0a"
 
 RPROVIDES:${PN} += "perl-Pidgin \
 pidgin"

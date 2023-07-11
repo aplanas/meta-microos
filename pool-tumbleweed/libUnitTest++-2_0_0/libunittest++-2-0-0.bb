@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "2.0.0"
 
-RPM_NAME = "libUnitTest++-2_0_0-2.0.0-2.3.aarch64.rpm"
-RPM_HASH = "052dca11623d5faf0e7889fd98423dfd088c31bec710870a7b9d406b6b5c25cf153f0285a103a09178492a64e71dc1307291f1cb983ebc4e327b4edbbc247758"
+RPM_NAME = "libUnitTest++-2_0_0-2.0.0-2.4.aarch64.rpm"
+RPM_HASH = "9b3825ee160d3d2ce341767b3e26b000bcd878b68ff389ff7c57c21c85760f96e185190afc7caa819ef9c32281cff399cc464e37146a3a8ca72138c5a24f3b2c"
 
 RPROVIDES:${PN} += "libUnitTest++-2-0-0 \
 libUnitTest++-2.0.0.so"

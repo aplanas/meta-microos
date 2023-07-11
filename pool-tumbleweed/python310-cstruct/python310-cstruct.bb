@@ -11,12 +11,11 @@ LICENSE = "MIT"
 
 PV = "5.2"
 
-RPM_NAME = "python310-cstruct-5.2-1.3.noarch.rpm"
-RPM_HASH = "5db15bea1e819e8fb7d1c893932fe792eaca6d3e418f7be97e1610fed33f88356ec4d3878ad9e3af58469e9f6567afa5d7d7cfd9eda6132166932ad418680fe5"
+RPM_NAME = "python310-cstruct-5.2-1.5.noarch.rpm"
+RPM_HASH = "efa00da8b805259b4f812e6d4166ada2e3f2d9cae2716e2fe5027545468fd57a08e19be74e23b737bcf7a90d9e57312eb92600463607642ffb55dc25a92d6df0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-cstruct \
-python3.10dist-cstruct \
+RPROVIDES:${PN} += "python3.10dist-cstruct \
 python310-cstruct \
 python3dist-cstruct"
 

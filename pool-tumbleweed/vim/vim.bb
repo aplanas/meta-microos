@@ -6,10 +6,10 @@ new features have been added: multilevel undo, command line history, \
 file name completion, block operations, and editing of binary data."
 LICENSE = "Vim"
 
-PV = "9.0.1572"
+PV = "9.0.1632"
 
-RPM_NAME = "vim-9.0.1572-1.1.aarch64.rpm"
-RPM_HASH = "c045d8a8b6cf87ed3a4c43208547d528b89ad9e3ab9b218b25d0e47ed81c09f2a7870c4221ad716257d024c862012776b0baf13bad79df5ee07fdb54b9d561a7"
+RPM_NAME = "vim-9.0.1632-1.1.aarch64.rpm"
+RPM_HASH = "7822e7e2826979702161595a1ace54fbcbd0f3894424b25c4e4e307e06d76167c13e052da82bb3f2cafe1ec6b6f4860a548da3f5e5e822cfb7d3791fd5e6f818"
 
 RPROVIDES:${PN} += "vi \
 vim \

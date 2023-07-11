@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.19.1"
 
-RPM_NAME = "ghc-servant-doc-0.19.1-2.3.noarch.rpm"
-RPM_HASH = "15dd0d638ebde9fe8268434cd87986b19107afb629fa62402ce81ecf1b74b4d873ba02a7707571e6bdf29dcd5316a412da646d7b086e07cbf3f23bd4e9a4eebf"
+RPM_NAME = "ghc-servant-doc-0.19.1-2.6.noarch.rpm"
+RPM_HASH = "7d771d6a4966a34de2ddb7157da133d914c9511f18f55cdfccc1289aaf92a1f9ef7f0f9a4004f6c94847cc6cb088fc32bf586f4ffbcf329c8551b32d479e3ce6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-servant-doc"

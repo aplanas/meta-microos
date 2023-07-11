@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "2.10.68"
 
-RPM_NAME = "python311-construct-2.10.68-1.6.noarch.rpm"
-RPM_HASH = "82202640aab22828ddef489caf2b9b335bf5aea0284d70d5c4bf7ff73fb19a342e1875710518a21cc6b63f15d2f894ea768dd3e31f35475191cbda2954fa133d"
+RPM_NAME = "python311-construct-2.10.68-1.7.noarch.rpm"
+RPM_HASH = "f858b3cd51982a46a7fc22e61feccb9d702ab986bdfa16033d6aeae4c9eee501eb0d0b06a522a1c9dafb5769b7aed8af244ff874e1a5e2330e4b97bef6691920"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-construct \
+RPROVIDES:${PN} += "python3-construct \
+python3.11dist-construct \
 python311-construct \
 python3dist-construct"
 

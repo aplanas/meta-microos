@@ -5,10 +5,10 @@ Markdown format in the rendered target format. \
 Examples are Ark, Krusader, Kate's preview plugin & Konqueror."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "markdownpart-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "e52a6c432742f831f6e0a26d425f47368f100e3d75bf3f6e1cba0873ee381b425a779a4754facff10ae639b6375f1043bf3f1b887d65a7e80f548148b92f66dc"
+RPM_NAME = "markdownpart-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "039945c5ad90302254c94c09c9110d3d5c28153ab8ae10b425d1fefb2dd2d9c3144a2f24f4ed7faa6792b2abc7777b071399c1e7c13b41c7223d5101b165bbb1"
 
 RPROVIDES:${PN} += "markdownpart"
 

@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "5.0.2"
 
-RPM_NAME = "lxcfs-5.0.2-2.2.aarch64.rpm"
-RPM_HASH = "11540f301c54b3ebafdd9eed358547fab43dfcc9082d874ec99ea5855a8adf0ef7704af2b7b242516cbc226de8f9455a48c270c88bfcc1762d06e94efd6ad87f"
+RPM_NAME = "lxcfs-5.0.2-2.3.aarch64.rpm"
+RPM_HASH = "cb78895ff37d487149add84c0b12c59f6eaa106abd797d88e194a476d332677aed4b546f34248c2bbcdccc54bc17af6b8968f165d5a464f3139df12385cb4a1f"
 
 RPROVIDES:${PN} += "liblxcfs.so \
 lxcfs"

@@ -3,10 +3,10 @@ DESCRIPTION = "The module provides a JavaScript library for seamless integration
 C++ and QML applications with HTML/JavaScript and QML clients."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.9+kde3"
+PV = "5.15.10+kde3"
 
-RPM_NAME = "libQt5WebChannel5-imports-5.15.9+kde3-1.1.aarch64.rpm"
-RPM_HASH = "bab1515d2fc4687ed0390a5a7312beceb37daf41f6e5dc56135f42648b4dc21939d481233b58232cc9db320bd36ee495b719554988d1a31bfbc5ebbc13921df5"
+RPM_NAME = "libQt5WebChannel5-imports-5.15.10+kde3-1.1.aarch64.rpm"
+RPM_HASH = "cccf5cef51d0c26f5d2e1728ac371f9f97a6e44c8bae63b6c45c863258bf0f0a1acc754a3f47a851a929d1affe845af39c9fa4ff283ac8710af1957eaad2aa0f"
 
 RPROVIDES:${PN} += "libQt5WebChannel5-imports \
 libdeclarative-webchannel.so \

@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "235"
 
-RPM_NAME = "python39-systemd-235-2.10.aarch64.rpm"
-RPM_HASH = "d44d04aaabb18742f8d6b5fdc5cd159e348d89a3a49ff2d374701b251bd8ffd1c54f5dda520b4b76ebe09be37f1acfdb76305a460f0b03bb6b979bc87b1f19c2"
+RPM_NAME = "python39-systemd-235-3.3.aarch64.rpm"
+RPM_HASH = "24c7183e6cff4af506f4876aaf6075811fb4b96080680c821bb7e97769924faa6c400329c9c8c85c522037ea7bb97ccbc36867339ea8220edd06923e5e0446ae"
 
 RPROVIDES:${PN} += "python3.9dist-systemd-python \
 python39-systemd \

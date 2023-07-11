@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.42.2"
 
-RPM_NAME = "libxml++26-devel-2.42.2-2.3.aarch64.rpm"
-RPM_HASH = "4b656eaf8b68c0194b593898084e419b6139475be4bdde88ce3247244a474317cc9f74d6e04462cae0f820ccaa951dbf9617b14d89ce6408163b926fc94f588f"
+RPM_NAME = "libxml++26-devel-2.42.2-2.4.aarch64.rpm"
+RPM_HASH = "8a6906e0638f475bbe3a37b543f98b5cff362540add2fcf0119a73c6ecca2114b83b176afad2ad34a516f32c233c4afcd3f34e2899ae14281528a018425982c5"
 
 RPROVIDES:${PN} += "libxml++26-devel \
 pkgconfig-libxml++-2.6"

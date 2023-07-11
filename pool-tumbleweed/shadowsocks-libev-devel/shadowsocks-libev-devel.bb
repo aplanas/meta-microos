@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.3.5"
 
-RPM_NAME = "shadowsocks-libev-devel-3.3.5-3.1.aarch64.rpm"
-RPM_HASH = "58d9a72ecdaaa0f210bc08efc11e92f5ab908d30d3a1009ca7c358dec100d1dd476dd607982136b6e47f6c1288cfea881880c731e118d93f902bee61592db47b"
+RPM_NAME = "shadowsocks-libev-devel-3.3.5-3.2.aarch64.rpm"
+RPM_HASH = "bdf259b3a47dd68f125a939d8814502fa5aeebeaf6aa769de11368b07317606a002cc7c425d7e05c6b1bccb25d763e443246955f593b94428d56a40f74b095df"
 
 RPROVIDES:${PN} += "pkgconfig-shadowsocks-libev \
 shadowsocks-libev-devel"

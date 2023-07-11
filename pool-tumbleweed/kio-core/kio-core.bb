@@ -5,10 +5,10 @@ file dialog also uses this to provide its network-enabled file management. \
 KIO core libraries, ioslave and daemons."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "kio-core-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "fad92b1cefcec1c04a93a0f7311a3e7ab519ceadcab065879387b47f1b202a018c78cf0f231510997c66f52e38ec91c23984a4f0aa8fbf22016d2589cd0f421a"
+RPM_NAME = "kio-core-5.107.0-2.1.aarch64.rpm"
+RPM_HASH = "0e91f6609c4cbadc746a6fb746a59550e49a706626f82be79be312f181734d9f30f49c215a474b385a3cc72d1d6be9ac0db92cf0b24f6b2719c62a6ef77721f4"
 
 RPROVIDES:${PN} += "kio-core \
 libKF5KIOCore.so.5 \

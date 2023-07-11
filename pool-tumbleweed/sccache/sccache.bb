@@ -5,12 +5,13 @@ using the Amazon Simple Cloud Storage Service (S3) API, Redis or \
 the Google Cloud Storage (GCS) API."
 LICENSE = "(0BSD | MIT | Apache-2.0) & (Apache-2.0 | BSL-1.0) & (Apache-2.0 | MIT) & (Apache-2.0 | Apache-2.0-with-LLVM-exception | MIT) & (Apache-2.0 | CC0-1.0) & ((Apache-2.0 & BSD-2-Clause) | MIT) & (Apache-2.0 | MIT | BSD-2-Clause) & (Apache-2.0 | MIT | Zlib) & (Apache-2.0 | MIT | Zlib) & (MIT | Unlicense) & (Apache-2.0 | Zlib | MIT) & Apache-2.0 & BSD-2-Clause & BSD-3-Clause & CC0-1.0 & ISC & MIT"
 
-PV = "0.5.0~2"
+PV = "0.5.4~1"
 
-RPM_NAME = "sccache-0.5.0~2-1.1.aarch64.rpm"
-RPM_HASH = "a649ba4cf150f7adf9325b6115038224f526558cf1f12fbc611ece1e735b999b66c0e788f1d34bbc0b7cb67684bcff6dc10495cc3076ad5b7efcaa784bd7995f"
+RPM_NAME = "sccache-0.5.4~1-1.1.aarch64.rpm"
+RPM_HASH = "543a9553ed891228c0384f3c3a01c874012a97558fc561b50dd0c55d7e23f4a917e1c5da59595554e7282dc96b20d99359200c0cec39b40b912c41abf4485728"
 
-RPROVIDES:${PN} += "bundled-rust-crate-adler \
+RPROVIDES:${PN} += "bundled-rust-crate-addr2line \
+bundled-rust-crate-adler \
 bundled-rust-crate-ahash \
 bundled-rust-crate-aho-corasick \
 bundled-rust-crate-anstream \
@@ -27,6 +28,7 @@ bundled-rust-crate-async-compat \
 bundled-rust-crate-async-trait \
 bundled-rust-crate-autocfg \
 bundled-rust-crate-backon \
+bundled-rust-crate-backtrace \
 bundled-rust-crate-base64 \
 bundled-rust-crate-base64ct \
 bundled-rust-crate-bincode \
@@ -76,6 +78,7 @@ bundled-rust-crate-encoding-index-tradchinese \
 bundled-rust-crate-encoding-rs \
 bundled-rust-crate-enum-as-inner \
 bundled-rust-crate-env-logger \
+bundled-rust-crate-equivalent \
 bundled-rust-crate-fastrand \
 bundled-rust-crate-filetime \
 bundled-rust-crate-flagset \
@@ -97,6 +100,7 @@ bundled-rust-crate-futures-task \
 bundled-rust-crate-futures-util \
 bundled-rust-crate-generic-array \
 bundled-rust-crate-getrandom \
+bundled-rust-crate-gimli \
 bundled-rust-crate-gzp \
 bundled-rust-crate-h2 \
 bundled-rust-crate-hashbrown \
@@ -135,6 +139,7 @@ bundled-rust-crate-match-cfg \
 bundled-rust-crate-matches \
 bundled-rust-crate-md-5 \
 bundled-rust-crate-memchr \
+bundled-rust-crate-memmap2 \
 bundled-rust-crate-memoffset \
 bundled-rust-crate-mime \
 bundled-rust-crate-miniz-oxide \
@@ -148,6 +153,7 @@ bundled-rust-crate-num-integer \
 bundled-rust-crate-num-iter \
 bundled-rust-crate-num-traits \
 bundled-rust-crate-number-prefix \
+bundled-rust-crate-object \
 bundled-rust-crate-once-cell \
 bundled-rust-crate-opendal \
 bundled-rust-crate-openssl \
@@ -187,6 +193,7 @@ bundled-rust-crate-retry \
 bundled-rust-crate-ring \
 bundled-rust-crate-rsa \
 bundled-rust-crate-rust-ini \
+bundled-rust-crate-rustc-demangle \
 bundled-rust-crate-rustc-version \
 bundled-rust-crate-rustix \
 bundled-rust-crate-rustls \
@@ -279,6 +286,7 @@ sccache"
 RDEPENDS:${PN} += "bubblewrap \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libgcc-s.so.1"
+libgcc-s.so.1 \
+libm.so.6"
 
 inherit rpm

@@ -8,12 +8,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python310-azure-media-nspkg-1.0.0-1.10.noarch.rpm"
-RPM_HASH = "77620bd5ac4f5ee6b92fbe7368c8e91b0ba0ca8f1804291d93f8cb99f36631f3808acfc21246f830b68ef9cdd3bedeffb37c5d40d7de5c49be276e39312e26d6"
+RPM_NAME = "python310-azure-media-nspkg-1.0.0-1.11.noarch.rpm"
+RPM_HASH = "eac046bce0a0b244d5cfdb577a26b0dcbc0df067b1c75a3aef1a08c3000568270932feaf0be821ea13efdf45db362b76150f5c8ed941b8e91115d0fd972bde3f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-media-nspkg \
-python3.10dist-azure-media-nspkg \
+RPROVIDES:${PN} += "python3.10dist-azure-media-nspkg \
 python310-azure-media-nspkg \
 python3dist-azure-media-nspkg"
 

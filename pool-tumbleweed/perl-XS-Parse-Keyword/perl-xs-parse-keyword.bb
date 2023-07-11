@@ -13,8 +13,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.33"
 
-RPM_NAME = "perl-XS-Parse-Keyword-0.33-1.3.aarch64.rpm"
-RPM_HASH = "512c444afd56c588492953d15cbd80e04fa25c4e04d8494930466677651e0dc1cf7f98d311f07dba8fe38518cad51da58bc1207d957048b352d8248191348f2d"
+RPM_NAME = "perl-XS-Parse-Keyword-0.33-1.4.aarch64.rpm"
+RPM_HASH = "2244ada6b7d70c43e3fe50601cc900627988f1beab8a0549864dde7ec41080109b9990d2f40e6cf0924f821c414b114286149dc71f18e06b4940183b4054efc0"
 
 RPROVIDES:${PN} += "perl-XS--Parse--Infix \
 perl-XS--Parse--Infix--Builder \
@@ -26,6 +26,6 @@ perl-XS-Parse-Keyword"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

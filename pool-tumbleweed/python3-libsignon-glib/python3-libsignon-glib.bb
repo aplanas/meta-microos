@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "2.1"
 
-RPM_NAME = "python3-libsignon-glib-2.1-1.17.aarch64.rpm"
-RPM_HASH = "3efc423cc0859c4ef5205dc925672efcc3d3740e059dcdb9b15f8a78e5018aeaf201576335b491d88102435a708146fbdf9ea4e16db40116630896de6f5f9c20"
+RPM_NAME = "python3-libsignon-glib-2.1-1.18.aarch64.rpm"
+RPM_HASH = "9f240ced5f2bf23e41655005c4d863114f8b1bd5824dbb6a50676404660c8a7c2bc8ad2445dc1c1375612486683bf8d6bb072fcb36d2aaeaece5109e26f4c1eb"
 
 RPROVIDES:${PN} += "python3-libsignon-glib"
 

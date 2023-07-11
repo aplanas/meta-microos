@@ -21,12 +21,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.9.14"
 
-RPM_NAME = "gnuhealth-thalamus-0.9.14-1.9.noarch.rpm"
-RPM_HASH = "7f022c37c5b308fb4df5d1f4919eb394efae17460b0d360feaa8060c356324b911fc1eaf5da31052123f296a8ad778e659b72f8e916c4f7bcf5c98e0da7929d8"
+RPM_NAME = "gnuhealth-thalamus-0.9.14-1.11.noarch.rpm"
+RPM_HASH = "6fc9b7ff518474673abf36540ef4fe97646159c644df06710ad1e28db92b9934235a1042213191418ffcd8f822e08f41e3c7a8eda7ad284b9b7578a061d28362"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnuhealth-thalamus \
-python3.10dist-thalamus \
+python3.11dist-thalamus \
 python3dist-thalamus"
 
 RDEPENDS:${PN} += "/usr/bin/bash \

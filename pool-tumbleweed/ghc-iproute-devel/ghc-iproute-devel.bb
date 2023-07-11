@@ -4,10 +4,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.7.12"
 
-RPM_NAME = "ghc-iproute-devel-1.7.12-2.3.aarch64.rpm"
-RPM_HASH = "2bc2615f45247c5ae5d320210e39cf5c3719ad8a7af25b5de64ff52ba34780338306d1e3913dbc7e2a3f4b202194c35a26c5329f79fdff71c54faebde2b2231b"
+RPM_NAME = "ghc-iproute-devel-1.7.12-2.7.aarch64.rpm"
+RPM_HASH = "b150c0dd2fbfa9f61ce621d575a7e8de5b512624226956aacb04a2f701671c47162e541678af2d7f76b140cf692b303d7dc526a63a59beaff7a63cdfcda3ef19"
 
-RPROVIDES:${PN} += "ghc-devel-iproute-1.7.12-2mj2MFOMRz35bHY4Q7Jvyd \
+RPROVIDES:${PN} += "ghc-devel-iproute-1.7.12-IhoklPQYItb8qGu1G3vmcD \
 ghc-iproute-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -17,7 +17,7 @@ ghc-devel-base-4.17.1.0 \
 ghc-devel-byteorder-1.0.4-3C2mbNH4DNU4EJIfEbmhBl \
 ghc-devel-bytestring-0.11.4.0 \
 ghc-devel-containers-0.6.7 \
-ghc-devel-network-3.1.2.8-HNDBp0HF6t0D1fzE2MDtPd \
+ghc-devel-network-3.1.4.0-FvtFepOtuCUH79FCWyNxIc \
 ghc-iproute"
 
 inherit rpm

@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.3.8"
 
-RPM_NAME = "libredis++1-1.3.8-1.1.aarch64.rpm"
-RPM_HASH = "02ca8931857e32d08fc8e77e3f0e356782f88571ab1faf155f00419f7b056598da68834634e44a52cbbb71f18ae82432b56aae23c5a3ffa7776db7a28a25d849"
+RPM_NAME = "libredis++1-1.3.8-1.2.aarch64.rpm"
+RPM_HASH = "18a82fd5000fc2d249cccc2ab09a535abcc83352cafd07169201218613345dc60dd1dcac58f835fe964e0adba17ad541dc9b0186eb638af67e8e47c1b71036d9"
 
 RPROVIDES:${PN} += "libredis++.so.1 \
 libredis++1"

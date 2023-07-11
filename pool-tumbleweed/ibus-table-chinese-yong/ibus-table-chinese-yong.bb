@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.8.12"
 
-RPM_NAME = "ibus-table-chinese-yong-1.8.12-1.1.noarch.rpm"
-RPM_HASH = "c7437eee25fded2cbb94a0eedce9097371dc304781098f02a088c2001b9ec938c22e760343c4792c1d5c5c634b11b41096502573f75cca4bf9c3d29c31dd55d2"
+RPM_NAME = "ibus-table-chinese-yong-1.8.12-1.2.noarch.rpm"
+RPM_HASH = "f6e347dd02170e81e8572968af7ed5834cce8c367893a9d078f820b4b8bf4ae0026efeca88084975c912cb3fe4fb6d14aecce2b924d8c9895d3c11cb2ebe2a31"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ibus-table-chinese-yong \

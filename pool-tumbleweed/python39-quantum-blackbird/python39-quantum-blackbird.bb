@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.5.0"
 
-RPM_NAME = "python39-quantum-blackbird-0.5.0-1.3.noarch.rpm"
-RPM_HASH = "c62bafcfd2e7d0726a4fd8f48ab9e6b47ee6cd70b08b6f093d872204556257e73b1fc2e9a97be2ad73b9596f0328941d943b537f73e018dd2cbea583baf69fd5"
+RPM_NAME = "python39-quantum-blackbird-0.5.0-1.5.noarch.rpm"
+RPM_HASH = "33fe77b2628b260e8bebe41f57e48a39f3a2d4df2513986b100e9f7c41b720af7772ee4141d93200638850e02d3e40a4567d0bd77bbcc0f91bce7ace94bccfed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-quantum-blackbird \

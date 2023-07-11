@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3"
 
-RPM_NAME = "finger-server-1.3-169.3.aarch64.rpm"
-RPM_HASH = "72098aa9adb7ff72ced92f01713040921e8f4088b6eec3d6737afccc97394aa7085b060721a455740d0f737755de1354a7f9bcf52a30d99ec735d14a51e78120"
+RPM_NAME = "finger-server-1.3-169.4.aarch64.rpm"
+RPM_HASH = "75e8a22bbce519d38b2be4f46afecafc16cff0fcefb520ab4e18b1aae6b2eed695c48587cb3b4dfef03e6e44598e312f2916f45b71145acc9d63ec3b6e086366"
 
 RPROVIDES:${PN} += "finger-server"
 

@@ -14,13 +14,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.14"
 
-RPM_NAME = "perl-Eval-Closure-0.14-1.23.noarch.rpm"
-RPM_HASH = "af7a396a22dc143e58c16990137ad57af956a677b065473399833a476cda59211aef6bae88f64d4e1d934a212afe04958ae4822311d56ad7a77feb236bca7e3e"
+RPM_NAME = "perl-Eval-Closure-0.14-1.24.noarch.rpm"
+RPM_HASH = "4d369abdc33d6d9c8280107e862a53924e89c5d70be68958b78a59f9936468628aa019422945aa53662491178c4829bded28c08e3baf56fed6d68a62c70b0f9c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Eval--Closure \
 perl-Eval-Closure"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

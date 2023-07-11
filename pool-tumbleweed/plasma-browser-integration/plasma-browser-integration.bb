@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains a helper binary necessary for the WebExtens
 work."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "plasma-browser-integration-5.27.5-1.1.aarch64.rpm"
-RPM_HASH = "340a4f54b2bf55867027765440418e082942200227ecc6c4286639d092ebdfa81bc8a8cadcf75a856225efb5bbe0342338b0010377ed577f964efc14a6b904fb"
+RPM_NAME = "plasma-browser-integration-5.27.6-1.1.aarch64.rpm"
+RPM_HASH = "8824fd6d901c9c189265b4e8ae9d179e867aaf01a6bb64afc11647d76e2896843f2ccb4900a7b862be6d39fdc7ab3f3edefc8f3ba4d33b5ab031fe1cac3e5a0e"
 
 RPROVIDES:${PN} += "plasma-browser-integration"
 

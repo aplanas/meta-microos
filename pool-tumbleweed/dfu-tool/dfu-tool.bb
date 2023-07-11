@@ -2,10 +2,10 @@ SUMMARY = "Generic tool Device Firmware Upgrade (DFU) tool"
 DESCRIPTION = "A generic tool to upload firmware to USB Devices based on Device Firmware Upgrade (DFU)."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.8.12"
+PV = "1.8.16"
 
-RPM_NAME = "dfu-tool-1.8.12-1.3.aarch64.rpm"
-RPM_HASH = "d4de51d7419a9165735947b5997c439872d26fb0b360a1c507051fdd96f1470dda09197a34a56d0857bffc306aa3c03bf1d5e2e0a7752468ea74b2ecf59b16e7"
+RPM_NAME = "dfu-tool-1.8.16-2.1.aarch64.rpm"
+RPM_HASH = "17621b6bc83f53b9c971b048799d5bbfba0af40e57a8075d837c6acceb3d94b96deb6b87afbc31ad4bf87dffe290c72cc7c7ce5dfb9d742d096ed524fd5726ae"
 
 RPROVIDES:${PN} += "dfu-tool"
 

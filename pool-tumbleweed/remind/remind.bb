@@ -14,8 +14,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "4.2.5"
 
-RPM_NAME = "remind-4.2.5-1.1.aarch64.rpm"
-RPM_HASH = "24c04c0b5a725917bcb0c94cee209eb4d92d7538e5f83b280f96209d15be28d0b00a5c3e02585fee66c42965ae3bb86d04bd67bcd444fc7edf382740291f7a5f"
+RPM_NAME = "remind-4.2.5-1.2.aarch64.rpm"
+RPM_HASH = "fda8fb9eaf81721210cd4886550915e2b5295b2023cf3bcf4dfb9a1c0a903a1cdb2ee7e5296fcb35c479517f4d4d309f43a78f4d728d5ef05828d345d07fca35"
 
 RPROVIDES:${PN} += "perl-Remind--PDF \
 perl-Remind--PDF--Entry \

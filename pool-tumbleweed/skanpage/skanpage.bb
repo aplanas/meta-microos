@@ -9,10 +9,10 @@ Features: \
 - Saving to multi-page PDF documents and image files"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "skanpage-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "a40b71a3971c18ae124bc75e777fbcdcc2942cbc64452bb7f5176dae7155a8cccd7ca95e2485b08ac9c77b38992457ba6905c0eb19e9c541d24e72b18638cb44"
+RPM_NAME = "skanpage-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "82b5df8df6346b9698f9afbe5c04bed1095e0e2b7b476f198796491bbd1f64b5bd3a52d3bb1a55f157d2bab452e314056587cb76f26bb0b9fb42cb9902baabfe"
 
 RPROVIDES:${PN} += "skanpage"
 
@@ -34,6 +34,6 @@ libgcc-s.so.1 \
 libleptonica.so.6 \
 libqt5-qtquickcontrols \
 libstdc++.so.6 \
-libtesseract.so.5.3.0"
+libtesseract.so.5"
 
 inherit rpm

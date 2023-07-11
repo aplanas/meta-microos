@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "6.2.1"
 
-RPM_NAME = "python311-jaraco.itertools-6.2.1-2.1.noarch.rpm"
-RPM_HASH = "e56464c39011568b50ab48497191e8b4c2b1ee90bec797f6c7cf1a0319d3f0acf6f0a9a7cbeded47076225ae3537ca60cddc29bad7101650a9ef4a89d3dd9e9f"
+RPM_NAME = "python311-jaraco.itertools-6.2.1-2.3.noarch.rpm"
+RPM_HASH = "898777b6e1d7c9494b4ee9606ba7f6c3b778ff9cf7089a0b559196201a65707c06bad1c34e8e1086a3dae2de8178503cc1296bb7d98ae202101c7bd6e33f4098"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-jaraco.itertools \
+RPROVIDES:${PN} += "python3-jaraco.itertools \
+python3.11dist-jaraco.itertools \
 python311-jaraco.itertools \
 python3dist-jaraco.itertools"
 

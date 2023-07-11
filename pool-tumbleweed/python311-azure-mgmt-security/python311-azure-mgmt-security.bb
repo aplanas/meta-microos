@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "5.0.0"
 
-RPM_NAME = "python311-azure-mgmt-security-5.0.0-1.1.noarch.rpm"
-RPM_HASH = "69051184d31140049df7fb0571ce4a24230d43f789d1a6f9795791b2b6c3411dc26272bc1b4b50185ad0d8cc2176bc8f70bf7bfd5fc647343bfad756a3425d3b"
+RPM_NAME = "python311-azure-mgmt-security-5.0.0-1.2.noarch.rpm"
+RPM_HASH = "95c9f41f6a1676879169f4c18390288e63023e477aadef41d6627cd2e25228831d424d3c900d5a8b1c6d4ddecd0074ab67fda5c6dd3bf9647ecc0d766ab054cb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-security \
+RPROVIDES:${PN} += "python3-azure-mgmt-security \
+python3.11dist-azure-mgmt-security \
 python311-azure-mgmt-security \
 python3dist-azure-mgmt-security"
 

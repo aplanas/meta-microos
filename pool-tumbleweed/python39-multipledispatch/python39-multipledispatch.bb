@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6.0"
 
-RPM_NAME = "python39-multipledispatch-0.6.0-2.9.noarch.rpm"
-RPM_HASH = "9ab11930182a6e4eba3311374063c0b3f4bc865aadae8d8df17de6982304ab8848483d16205bb9ec71a40b60682a50a679f1fd737e8065ef49c520e65ec701a3"
+RPM_NAME = "python39-multipledispatch-0.6.0-2.11.noarch.rpm"
+RPM_HASH = "67a00542c05de698c2e0ca2d7317eef0abc75e14384d270572bf376dfd82b3d262680dc44710923df61b3f003edd0354e5fb71c1400ef02fbf84519380c929fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-multipledispatch \

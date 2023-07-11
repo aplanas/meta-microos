@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "gnome-text-editor-44.0-1.2.aarch64.rpm"
-RPM_HASH = "4d0294065b47e1cae9bc9d3829b1c2ddc77c656b0477f9e7d35212d985a62f1a07ea6e0b8b937d21b2e3592ed062580499eacfa6a97cce088e5b0807da169e08"
+RPM_NAME = "gnome-text-editor-44.0-1.3.aarch64.rpm"
+RPM_HASH = "e59b7e37996b8bc63d1052ee7d1bb19d9e733bd86f054620f2bda6ca6d557c563b3c4befe79c910d69fcbf12e522ec2cbbe8d3be5feff1cfb33ae04f3252ba58"
 
 RPROVIDES:${PN} += "gnome-text-editor"
 

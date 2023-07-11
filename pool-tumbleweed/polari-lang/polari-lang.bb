@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "43.0"
 
-RPM_NAME = "polari-lang-43.0-1.3.noarch.rpm"
-RPM_HASH = "0f116d8c8708880cbda47b4419bcc4fa71b7b792524eb98a8f13e8b64c78198f1abe0c97223ffaea26c229caf64c13f7bb2a5b0b760f5a5b3ced9a7d889cd770"
+RPM_NAME = "polari-lang-43.0-1.4.noarch.rpm"
+RPM_HASH = "2c7e42ea16b12ef96f39dfbcab8f7f541edcc00db26bc06f918bc2d2ec6c51c9f5cb65105c620116d6092baf8df82ee8494b12cf75d785f6d68c03aee11f0ce6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-polari-af \

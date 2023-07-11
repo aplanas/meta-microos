@@ -14,13 +14,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.1.49"
 
-RPM_NAME = "python310-python-debian-0.1.49-1.3.noarch.rpm"
-RPM_HASH = "ea5cfa67c0f535bd375e684498c51ea3f95f94bdd155daa0b1db4b8e3d67964e72662b3f01892e65727c80266a735b855967788870f9f47c82ee184a3c7ca8dc"
+RPM_NAME = "python310-python-debian-0.1.49-1.4.noarch.rpm"
+RPM_HASH = "b6e737b71c7f3e7aae68955f8196eb041f983bb4a81b804435117f888f4139b2dbc5ffe455b57dfffc57959477660728d0e5b9cdfae2d149d250024e496ce103"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-debian \
-python3-python-debian \
-python3.10dist-python-debian \
+RPROVIDES:${PN} += "python3.10dist-python-debian \
 python310-debian \
 python310-python-debian \
 python3dist-python-debian"

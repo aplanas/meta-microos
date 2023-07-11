@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause & Apache-2.0"
 
 PV = "3.6.7"
 
-RPM_NAME = "libdcmtk17-3.6.7-2.2.aarch64.rpm"
-RPM_HASH = "c3025a693bb3c008ef440ac26a32a6fe0cd610dbd1597850d8adc0295ffd4ee8d4d32e6a5a9d2875825ff73e1e108be3fa31af0661e797aae19d65079302ebe8"
+RPM_NAME = "libdcmtk17-3.6.7-2.3.aarch64.rpm"
+RPM_HASH = "c80e728bce8143eac831c2bab97d86dc2bd698b61c9cada0aea522f2d365ecce7ea87e2705a5186bf4bdbd9beb9a84bd8c3bcdd73bc1fc0dafd06cf446d3b6f4"
 
 RPROVIDES:${PN} += "libcmr.so.17 \
 libdcmdata.so.17 \

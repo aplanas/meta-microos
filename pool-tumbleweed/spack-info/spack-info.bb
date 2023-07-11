@@ -12,8 +12,8 @@ LICENSE = "Apache-2.0 & MIT & Python-2.0 & BSD-3-Clause"
 
 PV = "0.20.0"
 
-RPM_NAME = "spack-info-0.20.0-1.1.noarch.rpm"
-RPM_HASH = "1d613fb47ba7a82d02b50382af1560bf9f8086baa9c21b9cfe1815b72ea95ff90dfc2de882b2430ef9228876d7796d3d66b118903024d454f82a0ad9a1c73b48"
+RPM_NAME = "spack-info-0.20.0-2.1.noarch.rpm"
+RPM_HASH = "49f34a2bcfe4f5f9c17b4122ae3ca80bfaec21af97e7b424ab65e2a7e1740e0342aed15f4244f50872baae889829a2cac5b9ef19c2730efbe8d997c00e5e96ce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "spack-info"

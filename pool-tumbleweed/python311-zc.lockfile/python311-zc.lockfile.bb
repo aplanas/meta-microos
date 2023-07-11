@@ -10,11 +10,13 @@ LICENSE = "ZPL-2.1"
 
 PV = "2.0"
 
-RPM_NAME = "python311-zc.lockfile-2.0-2.8.noarch.rpm"
-RPM_HASH = "f80105afd4926a4ac0bc85f716fd1703d4942633c56de80646f2fc7171f92ff30028197137363af9fdb392e760d50d7cdcd5576421aecd0c7ed6c6e1ac12fc3a"
+RPM_NAME = "python311-zc.lockfile-2.0-3.3.noarch.rpm"
+RPM_HASH = "9de7fddf7185eaa18ecfc2daa6e56705c6fa1817d60b613f2f1b11a49f0d1c599f7193c742367d60faf5bc62dc6dfbb16ff56e5fe1564915ef4ccf4b8615c8c4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-zc.lockfile \
+RPROVIDES:${PN} += "python3-zc-lockfile \
+python3-zc.lockfile \
+python3.11dist-zc.lockfile \
 python311-zc-lockfile \
 python311-zc.lockfile \
 python3dist-zc.lockfile"

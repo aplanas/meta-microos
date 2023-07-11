@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.4.7"
 
-RPM_NAME = "pidgin-plugin-telegram-1.4.7-1.11.noarch.rpm"
-RPM_HASH = "81c1a57c0ee20a1e4997ecde89838db37fb8df7a58c6855fc5304b74756f8188ce82a788d3bb2c70051677de637becaecdc1e0c89868af1dbe06f50f66dae826"
+RPM_NAME = "pidgin-plugin-telegram-1.4.7-1.12.noarch.rpm"
+RPM_HASH = "86316be5960927cafcae6cd4d80e75cea80d63c7db2d1bd292726c4c3d4de33bad510944d156bfed3808c204acbafad348e455f584937b21f485844189f639d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pidgin-plugin-telegram"

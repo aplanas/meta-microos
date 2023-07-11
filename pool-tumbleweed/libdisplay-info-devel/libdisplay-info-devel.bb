@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "0.1.1"
 
-RPM_NAME = "libdisplay-info-devel-0.1.1-1.3.aarch64.rpm"
-RPM_HASH = "2d6a108d68ddc1a60b46ff9a53a1b796f1a9746ad787e9fb40c1b17166fef6185b240a589f280daefde6b9b1ecfe2e7ade6fd5345748ebec7e294aaaea5448ef"
+RPM_NAME = "libdisplay-info-devel-0.1.1-1.4.aarch64.rpm"
+RPM_HASH = "40241778839018249211a33d7d09f91b7c206fc3cb41c492d86813c7cbf239374fff09415109a74f71410611d81223b9ce4ec0f2197054b0c1bce190f4659f05"
 
 RPROVIDES:${PN} += "libdisplay-info-devel \
 pkgconfig-libdisplay-info"

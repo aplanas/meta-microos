@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.1svn48568"
 
-RPM_NAME = "texlive-yafoot-doc-2023.201.1.1svn48568-52.1.noarch.rpm"
-RPM_HASH = "ff938af4643bd42deac8984484502244ef56f723f1c1718652aaede840a76a6a1c1268e7392e578f67d74799390ca92095f32caec66f24f9a208e3d1d2e9442c"
+RPM_NAME = "texlive-yafoot-doc-2023.201.1.1svn48568-52.2.noarch.rpm"
+RPM_HASH = "3efd0acb013338b145ee0ebe1ab6404f3528d30cc212b914d89268bcf0720caaeeb0721bb0746467a08b3c1976ff3cc9c38d855c17e2f55dd16e141ed290e5d5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-yafoot-doc"

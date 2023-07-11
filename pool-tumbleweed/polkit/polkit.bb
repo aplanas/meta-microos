@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "121"
 
-RPM_NAME = "polkit-121-4.2.aarch64.rpm"
-RPM_HASH = "72cfe65c9db49b6604762e4a5e579c9c54af1811f4fff398800853769d8d8027bc3acf1a44305ea7d48eded2e6bf19a9fc43ec8d6dab86cffa8fdab42a60e2d2"
+RPM_NAME = "polkit-121-4.3.aarch64.rpm"
+RPM_HASH = "b71eeab48dc517a4612f1bbb5b54b8bb03372e7404b9148c19afa00232c2fd55f1a2a15e6121d2494a4d1b4a7916c3c5e2a4103340f455b89da45f41b31ae353"
 
 RPROVIDES:${PN} += "group-polkitd \
 polkit \

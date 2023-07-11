@@ -26,8 +26,8 @@ LICENSE = "GPL-2.0-only & GPL-2.0-or-later & GPL-3.0-only & MIT"
 
 PV = "1.28.15"
 
-RPM_NAME = "cups-filters-1.28.15-3.1.aarch64.rpm"
-RPM_HASH = "b319c2905e4b0b54caac2462c34bea5629bb8ebc4cf3f0b5b328a1dd293c4047b4416368626f70f0925f67302a5c87c3155b8582c98f2c27924682e56eaec5d4"
+RPM_NAME = "cups-filters-1.28.15-3.2.aarch64.rpm"
+RPM_HASH = "453439aad387607e5893e7de60a421cbf6388c51342db8248e924092569f749b56e334b68e605ee45987852ddaab720e89777a83936073a182628df524e4cbfb"
 
 RPROVIDES:${PN} += "config-cups-filters \
 cups-browsed \

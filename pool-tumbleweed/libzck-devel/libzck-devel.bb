@@ -9,10 +9,10 @@ This package contains the headers necessary for building against the zchunk \
 library, libzck."
 LICENSE = "BSD-2-Clause & MIT"
 
-PV = "1.3.0"
+PV = "1.3.1"
 
-RPM_NAME = "libzck-devel-1.3.0-1.1.aarch64.rpm"
-RPM_HASH = "b4d7d7876bb19634fea589da6fa4963ee5fca5e21039464f067406fa0fcecbaa65bf26ada3006a6cd6ea6cafd83b8722c6f78c0ce56ef215a83fa123e9f2e25f"
+RPM_NAME = "libzck-devel-1.3.1-1.1.aarch64.rpm"
+RPM_HASH = "50a6541eca76827196cb602430c58aa5b812869416d8f7f971bde68768c52394d7edc8f6ce1bb8c478b82bfd0c84fe6c6c9de6b4a8f1657fc1e725def7110d94"
 
 RPROVIDES:${PN} += "libzck-devel \
 pkgconfig-zck \

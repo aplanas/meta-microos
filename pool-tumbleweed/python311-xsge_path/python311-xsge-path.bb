@@ -9,11 +9,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.0.2"
 
-RPM_NAME = "python311-xsge_path-1.0.2-1.7.noarch.rpm"
-RPM_HASH = "170ba563cfb847a863ae3dbf946dcf45de8bc259f31133f1c8c3b97c2f5fcf9a76a8e830c67edf4972c493bbe7341fb6f74d5903fb05adf1352565eeed7ef015"
+RPM_NAME = "python311-xsge_path-1.0.2-1.8.noarch.rpm"
+RPM_HASH = "e3fe22dfc7f33a6a1cba05322e8743422124325d4633188d809a892b5c439228da5e12a7f9bd8301993e60ed96c7e040245009d19fbd38e76109673505c3d0f6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-xsge-path \
+RPROVIDES:${PN} += "python3-xsge-path \
+python3.11dist-xsge-path \
 python311-xsge-path \
 python3dist-xsge-path"
 

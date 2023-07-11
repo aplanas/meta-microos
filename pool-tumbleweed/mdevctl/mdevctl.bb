@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.2.0"
 
-RPM_NAME = "mdevctl-1.2.0-1.2.aarch64.rpm"
-RPM_HASH = "833bd048c30846ef4dbf5dcb47182d91a2f1a8abae3ca3d8c259722f3f1dce7bc1a9e5b46bdedbf9d10248546605fa48d8cd4b914ee28570b32e78b59f25dd7f"
+RPM_NAME = "mdevctl-1.2.0-1.3.aarch64.rpm"
+RPM_HASH = "eb2e56cc6707e8f923f03d381fa0ce70216ffb1ac5423a54d3df00ba1e72115220ceaf5e4b88fb03fa032a7828a8df19226d5d99ea55f3547d701cf536741f2c"
 
 RPROVIDES:${PN} += "mdevctl"
 

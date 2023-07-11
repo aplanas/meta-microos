@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.8.2"
 
-RPM_NAME = "openfst-1.8.2-1.1.aarch64.rpm"
-RPM_HASH = "a722d7b4dbcc16712f47ad57e6414917c130f026d0ae404b0d24237cef7d4489f2794157619625fe7f1620e43e8da655a694451df4e9fcee26d66c71a25e15cb"
+RPM_NAME = "openfst-1.8.2-1.2.aarch64.rpm"
+RPM_HASH = "9ecc9c9c281f2d207ec6403ab070bd9cb786269b0f53aa302866e3cddd5c3ee1e8e4c1ece7e18a61c69c9e22059c85a4efc38fb2129e93a3463c9c18eab57f32"
 
 RPROVIDES:${PN} += "openfst"
 

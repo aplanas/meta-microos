@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later | MPL-1.1 | LGPL-2.1-or-later"
 
 PV = "1.1"
 
-RPM_NAME = "jchardet-javadoc-1.1-2.6.noarch.rpm"
-RPM_HASH = "c09c8be46e245b452f8d611e8522c91adaa6d5957c2db0c38478e038bb6056c08eeb176b71ea94b55a0c80c11ffe10897c7fc908a5f67f4cd18203cbc39cdbd7"
+RPM_NAME = "jchardet-javadoc-1.1-2.7.noarch.rpm"
+RPM_HASH = "5bee02d5f731390b22e73cdad853b82c86d23860003c3ff3af558e9c1546988989035f6d21b45d9a6eb4e0983c43be424add47417f98224245aba1d96282c87e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jchardet-javadoc"

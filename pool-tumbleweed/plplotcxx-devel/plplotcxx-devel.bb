@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "5.15.0"
 
-RPM_NAME = "plplotcxx-devel-5.15.0-16.2.aarch64.rpm"
-RPM_HASH = "0732b16ffe2c94b4e8c592f62247108b97d6cb6a18966a505e2a80bf6edfac96f0c7449d2f1edd7a5f9e9dc65e7a80f0ddf66ce458231e7542034bd852f86456"
+RPM_NAME = "plplotcxx-devel-5.15.0-17.1.aarch64.rpm"
+RPM_HASH = "e6192a9125735493e1a384955b1897abff4c02044c8faa85b8575755ac1e675f376acf0b5bdb92646c9bfc2da7297fb6b2d15439d1688fab5bf98d557403ad0c"
 
 RPROVIDES:${PN} += "pkgconfig-plplot-c++ \
 plplotcxx-devel"

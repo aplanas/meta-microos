@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "5.0.8"
 
-RPM_NAME = "ghc-comonad-5.0.8-3.3.aarch64.rpm"
-RPM_HASH = "46ca79b76cb18ff59ee02d71ec2dfda8ff70103bc854d00f7a29903bdb390ac3605e870b27cbdf9189a8ceb5e7a19f38214c011d5f0174655e6d08f08c405839"
+RPM_NAME = "ghc-comonad-5.0.8-3.6.aarch64.rpm"
+RPM_HASH = "551a907b30baa8970b7ca0930cdedba04e9ff23eea2dc3928a2aba647c0bbefd5024326cdb55d7b024c1792b8f5d17792e13d7b6afab70f6f781ac5dfff25ecf"
 
 RPROVIDES:${PN} += "ghc-comonad \
 libHScomonad-5.0.8-9UnH7KDg5138z3eBCPM7y4-ghc9.4.5.so"

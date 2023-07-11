@@ -2,10 +2,10 @@ SUMMARY = "Languages for package barrel"
 DESCRIPTION = "Provides translations to the package barrel"
 LICENSE = "GPL-2.0-only"
 
-PV = "0.2.0"
+PV = "0.2.1"
 
-RPM_NAME = "barrel-lang-0.2.0-1.3.noarch.rpm"
-RPM_HASH = "c29b3693389a9fe9777443a91c371914a191fb1f2de94bd630290dabef3f2affa6f7f2cab4dceb1e5d5661b2340c98f660028362d7413a9b45006a39f8a4ac56"
+RPM_NAME = "barrel-lang-0.2.1-1.1.noarch.rpm"
+RPM_HASH = "e449e6283fb25d9303cb4470a4ce194de563a2b6481924f97753aec3c6f433d3da22cda5651390b4f74d629540e2fd8a5c83235214e765e2b8189d487b2e01e5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "barrel-lang \

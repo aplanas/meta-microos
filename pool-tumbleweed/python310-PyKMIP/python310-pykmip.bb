@@ -9,12 +9,11 @@ LICENSE = "Apache-2.0"
 
 PV = "0.10.0"
 
-RPM_NAME = "python310-PyKMIP-0.10.0-7.3.noarch.rpm"
-RPM_HASH = "298a9ae6c574781d4579eb2593e75c42b8ec199274e1d9876564337c2664f2a6d21177031b3711f9b1d82ae618f768ba46b588955432fcdfeae3152a9cb9e519"
+RPM_NAME = "python310-PyKMIP-0.10.0-7.5.noarch.rpm"
+RPM_HASH = "06e7a572a7af7533b077f0ffd119e867eb93b9dfefa0c64022d68561cd9ff07ea6a0aa7430d877f78ef1aa3b44afe1884d3601b037162d599a7a110435243a54"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-PyKMIP \
-python3.10dist-pykmip \
+RPROVIDES:${PN} += "python3.10dist-pykmip \
 python310-PyKMIP \
 python3dist-pykmip"
 

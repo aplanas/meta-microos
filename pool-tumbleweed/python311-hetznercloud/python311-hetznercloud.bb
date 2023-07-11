@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "1.1.1"
 
-RPM_NAME = "python311-hetznercloud-1.1.1-3.11.noarch.rpm"
-RPM_HASH = "18e21af3075f696483e3e6203ec1232430f0521fa2a6b49053e29820a8cb4fc0066361711df4d8cd01a481183fd508df5150dbce8b0f7b2f9b7c1994ac07b955"
+RPM_NAME = "python311-hetznercloud-1.1.1-3.12.noarch.rpm"
+RPM_HASH = "f72a911279a3eca245c319fe8bc12a4efbafbd77b47a9aa7dcb766b25fee72e4d09f0516d057baff9f00c68c03abbc3000dd33abcf1e1b6e039edf5962b489a2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-hetznercloud \
+RPROVIDES:${PN} += "python3-hetznercloud \
+python3.11dist-hetznercloud \
 python311-hetznercloud \
 python3dist-hetznercloud"
 

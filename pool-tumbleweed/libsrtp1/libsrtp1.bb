@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.6.0"
 
-RPM_NAME = "libsrtp1-1.6.0-2.22.aarch64.rpm"
-RPM_HASH = "46679ef5e266aa3b35ad4ddb5d5638b23744a151de7a3354d26fa0dad0be8cb49f27dec21219c6e6d542d613378c81121e7ab274a9e3ad0c22cc17c343d842ec"
+RPM_NAME = "libsrtp1-1.6.0-2.23.aarch64.rpm"
+RPM_HASH = "2dd7dcee2b522c2ec434285e8729fdfdc9cb6c56dabfc369f8d0467f5c4b483dff0dbab60172f13d8ed4b2229e361a1e190682f9e2e74effa66ca6f88917bd68"
 
 RPROVIDES:${PN} += "libsrtp.so.1 \
 libsrtp1"

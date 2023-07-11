@@ -5,10 +5,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libfmos."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20220811"
+PV = "20230707"
 
-RPM_NAME = "libfmos-devel-20220811-2.4.aarch64.rpm"
-RPM_HASH = "ea0548b0c59efb140b60255dcc0a12a9b6142f642bbe5e99a98fe5e62891e1df9fc0b57709223af473f014e45355595e97015b946e12f4ab4b97b9956ebc7fec"
+RPM_NAME = "libfmos-devel-20230707-1.1.aarch64.rpm"
+RPM_HASH = "136a37da00faa6f7da333df588cf90c82ec342edfe7909f928b4d2c85fdb6a4d4bc32674c2b7ccc14c3016948a894993d6ddbde57019e9b2532353f789782f7d"
 
 RPROVIDES:${PN} += "libfmos-devel \
 pkgconfig-libfmos"

@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.3"
 
-RPM_NAME = "python39-cangjie-1.3-2.4.aarch64.rpm"
-RPM_HASH = "08df6e9ccad5d6a6cb415fa24e4d90065170cc7ee8de89292df6eadd145e028b591e0e00b3fcc13f4f90fa2e236988220b516fa2ab0c948a1d4792dd2c00f574"
+RPM_NAME = "python39-cangjie-1.3-2.6.aarch64.rpm"
+RPM_HASH = "63c96b6678d5689e4dede15e461cb47072d5e56acdd2849e930dadfd96e8f8e09cc029c02367f8b2bee87c2f58af7efc10bd272075e12475ad7915b886c2594b"
 
 RPROVIDES:${PN} += "python39-cangjie"
 

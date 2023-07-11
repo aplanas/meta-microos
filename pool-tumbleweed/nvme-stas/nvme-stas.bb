@@ -5,10 +5,10 @@ NVMe subsystem connection controls, Error handling and reporting and \
 Automatic (zeroconf) and Manual configuration."
 LICENSE = "Apache-2.0"
 
-PV = "2.2"
+PV = "2.2.2"
 
-RPM_NAME = "nvme-stas-2.2-1.1.aarch64.rpm"
-RPM_HASH = "36352d248c511edeccfb1d306c84f120f5922c36c9a430495b5346c420200b66df666236517f13625b00bf7ade27fdc349e251917cb7a4a907c280f9aa507d82"
+RPM_NAME = "nvme-stas-2.2.2-1.2.aarch64.rpm"
+RPM_HASH = "05d1905408204ce8cc16754adec19ac22192ae8677a507a7eebae145e300054bdac7e9c6489994673fa5be84743c5f7e7eb1019add4ea62453ebf817f09b2197"
 
 RPROVIDES:${PN} += "config-nvme-stas \
 nvme-stas"

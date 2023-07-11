@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause & MIT & MPL-2.0"
 
 PV = "0.13"
 
-RPM_NAME = "python311-validate-pyproject-0.13-1.1.noarch.rpm"
-RPM_HASH = "c114432d8817289d8aff73ef792228979fc40dd8640cba31b1f29aa90f9184de17a6d20fbb921b440c486be475fab9cd0034a29283ae220d4087ccfc85442fcb"
+RPM_NAME = "python311-validate-pyproject-0.13-1.3.noarch.rpm"
+RPM_HASH = "cca693122122dd3433c3654f036f5eaa0bb04889288516b515ba623660e236bbfddd41ccebe53bea1fad02b1e69821bcfa05cc0f4152637c5500fff5dcb277e6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-validate-pyproject \
+RPROVIDES:${PN} += "python3-validate-pyproject \
+python3.11dist-validate-pyproject \
 python311-validate-pyproject \
 python3dist-validate-pyproject"
 

@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.0.1"
 
-RPM_NAME = "mypaint-2.0.1-3.14.aarch64.rpm"
-RPM_HASH = "d4683b025688552e6b62f057bcebf0105977dbbffefdf14f33f45c50509e9cbc7ea6abc87c076079958d97e866880ec4dea149aa28cdac759712107e427c12ec"
+RPM_NAME = "mypaint-2.0.1-4.1.aarch64.rpm"
+RPM_HASH = "2ef4d08ca04340d68bc372bf0a6555d118fbd8f04b289f571b5ac9d267376e58eb33bdad562f63abc45f811511dbab316e7a8cd1df046a95e1c6ecf8b261bac3"
 
 RPROVIDES:${PN} += "mypaint"
 

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2.1"
 
-RPM_NAME = "python39-akismet-1.2.1-1.4.noarch.rpm"
-RPM_HASH = "3a63263811a619c0c57fd7b4a7f89ae456b0f5664235101d2feae45911bd9e65d0ca6ac86819a87343becfd1bd1a2222c8d8e19d2960907c06b6a7f584e80a1f"
+RPM_NAME = "python39-akismet-1.2.1-1.6.noarch.rpm"
+RPM_HASH = "c7871bbd820732a4d16cbf0f0c7de0b93859649cdbec6ddbbc779c091f21366000bee2302e27551ad535a7fe5dbea75fce6ff2325d51cc0550903e6fe717fb2e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-akismet \

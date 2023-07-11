@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.28.1"
 
-RPM_NAME = "libgnomekbd8-3.28.1-1.3.aarch64.rpm"
-RPM_HASH = "68d1fe0f2c8d2fdffcd9f477d22b9544e029669d4cab14a469607eef6218df3593682c534c59a310ff56a0a53d86e5b87ebf9575d33c29879bd9ef6da8882afc"
+RPM_NAME = "libgnomekbd8-3.28.1-1.4.aarch64.rpm"
+RPM_HASH = "22e8e4e52755664ddbbb09e3d55e948d75f1ce0851584e44e3fbf946acc1fbd506bcc1f2240870a4c10f1e761d2a721315a67fc74516de9d8883bcebd2d2faf7"
 
 RPROVIDES:${PN} += "libgnomekbd \
 libgnomekbd.so.8 \

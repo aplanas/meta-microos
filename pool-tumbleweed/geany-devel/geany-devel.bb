@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.38"
 
-RPM_NAME = "geany-devel-1.38-3.7.aarch64.rpm"
-RPM_HASH = "a811a1a371c5bf6cac13c06ddde6a5f5752bc223f48a4d8778c14b67209e13202f3841fc653bb852f046250ee380e18fbcb2cda2ca2d4e76c158b12a57433640"
+RPM_NAME = "geany-devel-1.38-3.8.aarch64.rpm"
+RPM_HASH = "cadcdf9952cc3208f9d37ad3272b2c6ef222a520404aaf2ff1e89358e0dcd49778948470defbca1639127696c636479a72cca2ebddec7cc21f49a8400b2bfd7c"
 
 RPROVIDES:${PN} += "geany-devel \
 pkgconfig-geany"

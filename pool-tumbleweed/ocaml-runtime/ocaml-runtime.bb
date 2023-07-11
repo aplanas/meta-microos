@@ -8,8 +8,8 @@ LICENSE = "QPL-1.0"
 
 PV = "4.14.1"
 
-RPM_NAME = "ocaml-runtime-4.14.1-1.3.aarch64.rpm"
-RPM_HASH = "289f4da27c5dacc46a9c18fe43e3f3449c1955aa57f90c9de138f741f091af96281bcd85f8a1c30707b68c88b5ce68c836fcefb5dc08869c7ea192cd0fbe703f"
+RPM_NAME = "ocaml-runtime-4.14.1-1.4.aarch64.rpm"
+RPM_HASH = "fccca718bf8f5759457fd588cf11056fb4837766142615ec94a75f576a9311e631d8ed1cfcb7ed023a018031fa79adf26c4ea79df54c004bc2bbebe6dce36494"
 
 RPROVIDES:${PN} += "ocaml-Bigarray \
 ocaml-CamlinternalAtomic \

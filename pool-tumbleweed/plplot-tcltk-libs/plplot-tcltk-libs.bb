@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "5.15.0"
 
-RPM_NAME = "plplot-tcltk-libs-5.15.0-16.2.aarch64.rpm"
-RPM_HASH = "dc4cd6cc2a38be7e61bb27c12b178c29e75421109e960e86b2cb94dc102a513d33e969eb2fddb8e993ac0478db3d76772d5cb66d897e2399caf60a8a1bb7b23b"
+RPM_NAME = "plplot-tcltk-libs-5.15.0-17.1.aarch64.rpm"
+RPM_HASH = "e8b6a0d0277472acf00ef169f9f97a6f55378d55250da235b4a66bb3da94728e018252db7b879e9735b82b9513d7b270cc27487c0fa00abc0324edd980e88dea"
 
 RPROVIDES:${PN} += "libplplottcltk-Main.so.1 \
 libplplottcltk.so.14 \

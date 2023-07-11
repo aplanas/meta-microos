@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.0.21"
 
-RPM_NAME = "gdcm-devel-3.0.21-1.5.aarch64.rpm"
-RPM_HASH = "e9ded2a2b8ea1fa5648d37f364fb175551aff99c90505cad6b86c773d98cdbd91f7569e46879b2a5cc007b2b29bbbbb261ac58f9df255faae9eed1209c5c56ea"
+RPM_NAME = "gdcm-devel-3.0.21-1.8.aarch64.rpm"
+RPM_HASH = "9cd085ba52fcaa80cdd44bef8f63b8e681c5c3a06f0e09906e7752629c75b028d2ada5cce8b071cb107fe874831b0545152826c1f0118504e9c0bc951437ee35"
 
 RPROVIDES:${PN} += "cmake-GDCM \
 gdcm-devel"

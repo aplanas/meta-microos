@@ -5,11 +5,12 @@ LICENSE = "Apache-2.0"
 
 PV = "0+git.1497381496.75b8b74"
 
-RPM_NAME = "python311-jedihttp-0+git.1497381496.75b8b74-5.9.noarch.rpm"
-RPM_HASH = "c1b2894828d38b442451393000ed0d1df9f6cfc474eb2d92c15db72bc1a50376e95e9e49bf114eba8075e112ae098bdb4343440c23c64c2c49014881f74807e5"
+RPM_NAME = "python311-jedihttp-0+git.1497381496.75b8b74-5.11.noarch.rpm"
+RPM_HASH = "8912c7c15f5c98808d1c6bc2ecad89a92c71f5294b6d8753f1f9248b778a06744a293daedd1f985bde19290ab6ef2db198e00bd9300d1476f8c2b7e04041d192"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-jedihttp \
+RPROVIDES:${PN} += "python3-jedihttp \
+python3.11dist-jedihttp \
 python311-jedihttp \
 python3dist-jedihttp"
 

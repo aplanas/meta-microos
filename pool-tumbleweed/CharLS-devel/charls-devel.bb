@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.4.1"
 
-RPM_NAME = "CharLS-devel-2.4.1-1.3.aarch64.rpm"
-RPM_HASH = "f3438367088b353574875fdd0077788e9c5b55045fdf976da7a072552dd664ae8debb23195c480aa4b1b86f1e44a550e69b16740c6a4b907269c16aab2ddae67"
+RPM_NAME = "CharLS-devel-2.4.1-1.4.aarch64.rpm"
+RPM_HASH = "9dda8d56bbdcb5709b39bc0fd6aa5065bcdd053b3dc94e261b9f2adbede93619790fd3d79c0e3aa682bc7c9662554fc9e3916d7996c95060120e54136f9fb87e"
 
 RPROVIDES:${PN} += "CharLS-devel \
 cmake-charls \

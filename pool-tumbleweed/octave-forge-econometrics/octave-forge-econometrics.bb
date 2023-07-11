@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.1.2"
 
-RPM_NAME = "octave-forge-econometrics-1.1.2-1.15.aarch64.rpm"
-RPM_HASH = "5dfcf61dda53e8490e79167f6dba62e83ffb1793be5df6f66e16139d858485a54961cb4f5221fa5da3d056cd8cf75e971a8611d22724ccc6131b826e1f696713"
+RPM_NAME = "octave-forge-econometrics-1.1.2-1.16.aarch64.rpm"
+RPM_HASH = "d61a45bfeecaa4ff318b358f2f4f793c3a84f30ed4af43e53c911411f328b498f3124fe2e7d67e8764117444d0b9afd95351ef6d1835b55ea4b30936f50b781e"
 
 RPROVIDES:${PN} += "octave-forge-econometrics"
 

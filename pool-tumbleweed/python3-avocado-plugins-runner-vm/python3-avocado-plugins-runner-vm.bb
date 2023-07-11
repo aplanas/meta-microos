@@ -6,12 +6,12 @@ LICENSE = "GPL-2.0-only"
 
 PV = "69.0"
 
-RPM_NAME = "python3-avocado-plugins-runner-vm-69.0-6.10.noarch.rpm"
-RPM_HASH = "2f2b23ea37277ab1396bdfff4157da7bafd039cc3470d8092c088cd571af7b106f49f0ccee0a2d87344b741fc3c05cc1cb4a735d05946c99c7610d02ee08624b"
+RPM_NAME = "python3-avocado-plugins-runner-vm-69.0-6.11.noarch.rpm"
+RPM_HASH = "cecc56ed60c1f37d079db4c4ffcdbf1e26e31361d699aba7e04969a3e2fd04164013ec058d4cba7967c7c3e9e17998d90be23474febf525065cc1f2af0770719"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-avocado-plugins-runner-vm \
-python3.10dist-avocado-framework-plugin-runner-vm \
+python3.11dist-avocado-framework-plugin-runner-vm \
 python3dist-avocado-framework-plugin-runner-vm"
 
 RDEPENDS:${PN} += "python-abi \

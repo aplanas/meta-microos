@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.0-only"
 
 PV = "3.4.5"
 
-RPM_NAME = "xreader-devel-3.4.5-1.4.aarch64.rpm"
-RPM_HASH = "e18874b34b763358abde0085ef9c1a4cb93acaa6d0d11798ac6b349fc42c6b81b565f5b2e1c3e230519f85125b6898428fdce4ca72b09368ccb7804017fee15f"
+RPM_NAME = "xreader-devel-3.4.5-1.5.aarch64.rpm"
+RPM_HASH = "e3b775dfe1709331530742deba99abfc3e3a6bd8278d76d3bd17a011c26533fa0eb6a81ecca6ef88f93c11eb3911f7cb12140c34d14dab37094e507f5d782517"
 
 RPROVIDES:${PN} += "pkgconfig-xreader-document-1.5 \
 pkgconfig-xreader-view-1.5 \

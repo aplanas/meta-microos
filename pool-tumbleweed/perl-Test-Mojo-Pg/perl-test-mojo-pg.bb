@@ -6,14 +6,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.33"
 
-RPM_NAME = "perl-Test-Mojo-Pg-0.33-1.21.noarch.rpm"
-RPM_HASH = "376ae59f4fea8f750809d4f30973a835677543e49a339480fde1c084b0233a5e28130ef07960b7bd0a6444dd7fb258ed53c77691a615d7b9f4019713c56c2b37"
+RPM_NAME = "perl-Test-Mojo-Pg-0.33-1.23.noarch.rpm"
+RPM_HASH = "506701393c4596039ea9f165d64a8ad14d364278bc8749eac6e6d0467c8e36bc336315d0d41b3fa9202945d82eef5f95c6b65ebb9c4d692ce7170f0eeafe10cd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Mojo--Pg \
 perl-Test-Mojo-Pg"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Mojo--Base \
 perl-Mojo--Pg"
 

@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.3.0"
 
-RPM_NAME = "libkim-api2-2.3.0-1.8.aarch64.rpm"
-RPM_HASH = "8bd197182c2ba1457db9f0551d1fd30ed073ed654eb3460fcfb199ffa68a274e9e649d956188d39948f1540eaab3b1e559617ea24d2a276856164ad8294d9a8e"
+RPM_NAME = "libkim-api2-2.3.0-1.9.aarch64.rpm"
+RPM_HASH = "c2a0eaea20eb15f8831dc01dc92f23086cafb987dabed3a3ac6784c64f2952ff9e3c53e43abdf4348f54d268cdee55df84c41e6c615db074a61d14ed72849425"
 
 RPROVIDES:${PN} += "libkim-api.so.2 \
 libkim-api2"

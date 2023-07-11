@@ -8,12 +8,20 @@ database servers). Filebench is quick to set up and easy to use compared to \
 deploying real applications. It is also a handy tool for micro-benchmarking."
 LICENSE = "CDDL-1.0"
 
-PV = "1.4.9.1"
+PV = "1.4.9.1+git.20200220"
 
-RPM_NAME = "filebench-1.4.9.1-4.10.aarch64.rpm"
-RPM_HASH = "e2b69a055fd92c64c336f052e7ba27fd555a3cbc942d62859141d006b6c58af12290273e6eb4b17a7fa954ce88b04205c7394f4dcbfe49ebd32556742d9aa8e4"
+RPM_NAME = "filebench-1.4.9.1+git.20200220-1.1.aarch64.rpm"
+RPM_HASH = "bef2400ee3810722c9e0ee113f92adf875003f7ca2642cf33fbd624bc99cc46037ca6bceaa8cf2ea4e8b5576ab6d709fe64b88eb586d596cc94aa86d40e40de1"
 
-RPROVIDES:${PN} += "filebench"
+RPROVIDES:${PN} += "filebench \
+libcvar-erlang.so.0 \
+libcvar-exponential.so.0 \
+libcvar-gamma.so.0 \
+libcvar-lognormal.so.0 \
+libcvar-normal.so.0 \
+libcvar-triangular.so.0 \
+libcvar-uniform.so.0 \
+libcvar-weibull.so.0"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \

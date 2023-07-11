@@ -4,8 +4,8 @@ LICENSE = "Python-2.0"
 
 PV = "2.7.18"
 
-RPM_NAME = "python-tk-2.7.18-34.1.aarch64.rpm"
-RPM_HASH = "1ad4b9822a916e1bf76c9ae3a635d27adf57ebbf2f0481981693d6297f1197ea0db4af333ad17462023b04f75b59fd7d42bc6bbdf52b381c236bff26cfc670a7"
+RPM_NAME = "python-tk-2.7.18-36.1.aarch64.rpm"
+RPM_HASH = "934999e3376888a12beca6038dbabe59d6aaa1d5ccba82db102bdd54a83dcc098ddeda8921a8f136465b1ab33e60cc6220c430f07fd7a353971c2071707481ce"
 
 RPROVIDES:${PN} += "pyth-tk \
 pyth-tkl \

@@ -7,12 +7,11 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "python310-pytest-order-1.1.0-1.1.noarch.rpm"
-RPM_HASH = "a78b078806ae6051d9bcc5b1228f942ce5477875779388a83306b3534633c1b79af4399a6a5471768cd3b0f80067a54f6e1262d7685849c56088905e6ad12f3a"
+RPM_NAME = "python310-pytest-order-1.1.0-1.3.noarch.rpm"
+RPM_HASH = "94ad5ab7f33825f2f3caacae0868e832db54c70474b2bf9b93cca087d9c9df2e372ffe041a566e1fac230ad82d73234967d93a23180d6b0eeb8304e0c46030d8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pytest-order \
-python3.10dist-pytest-order \
+RPROVIDES:${PN} += "python3.10dist-pytest-order \
 python310-pytest-order \
 python3dist-pytest-order"
 

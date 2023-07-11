@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "0.0.4"
 
-RPM_NAME = "libcamera-tools-0.0.4-2.3.aarch64.rpm"
-RPM_HASH = "7aca14b2c2faffb76121fa55f9ef29fe67ff2276e9a0f8184a9a4965ce8c4947e6ecb56041da3eb5467c1b56dfe76603aa2259e079640aaeac48c03986cb078b"
+RPM_NAME = "libcamera-tools-0.0.4-2.5.aarch64.rpm"
+RPM_HASH = "2f9dcba3990c8c94e6c66209605f64876ea3061ec690139af8931948fa063156fb7b607907f97ada2b8a86dd9eee582110eed360f28d0b6ed657f3d1fdf3befe"
 
 RPROVIDES:${PN} += "libcamera-tools"
 

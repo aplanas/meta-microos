@@ -2,10 +2,10 @@ SUMMARY = "KDE PIM Libraries: Build Environment"
 DESCRIPTION = "Development package for akonadi-calendar."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "akonadi-calendar-devel-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "840e24dc3b0b495e0856d43185fb7308ca1504ac471759bc49f3918454f02344906069f2ee3d4b6669dd7ef7827cc0bbbcedb8b14bcbfda12bbe04dfc9a56b9e"
+RPM_NAME = "akonadi-calendar-devel-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "df4438e1360099a983816f18816831cd391533eac415b0963d434e03f64d4972cfb270ab86e23a62ade60dc40acc320ded1e1a78ff9ffdcc5aa1595753b2d53d"
 
 RPROVIDES:${PN} += "akonadi-calendar-devel \
 akonadi5-calendar-devel \

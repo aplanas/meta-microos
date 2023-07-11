@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "0.1.3"
 
-RPM_NAME = "python311-azure-mgmt-documentdb-0.1.3-6.11.noarch.rpm"
-RPM_HASH = "8a4f8d30fa32631da47e7112650a0f6044318f38f666d501df0165529ab6623b6af59bd9a3940cd6a607d4740fb49572f17b394276c47095a0c6628a2d82441c"
+RPM_NAME = "python311-azure-mgmt-documentdb-0.1.3-6.12.noarch.rpm"
+RPM_HASH = "a9c7a32fef29daa4620291e85ba11400bb30d5a665e67470e7c9ca4996089dbf9c95645e872ac7e238be353f93ef3240cd0b9e02377e0e83b6b04cbe8d13aced"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-documentdb \
+RPROVIDES:${PN} += "python3-azure-mgmt-documentdb \
+python3.11dist-azure-mgmt-documentdb \
 python311-azure-mgmt-documentdb \
 python3dist-azure-mgmt-documentdb"
 

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4.4"
 
-RPM_NAME = "xfce4-sensors-plugin-1.4.4-1.3.aarch64.rpm"
-RPM_HASH = "8ab6f4645246aefd7d4c5fc9fc1febf8dd1db23ea152fcb5c085f22266e9bf4799cfd82c1a7a81a83a4b7f7a06fc13494aa7ccf8fa1c2b725b36de3a6c9ff365"
+RPM_NAME = "xfce4-sensors-plugin-1.4.4-1.4.aarch64.rpm"
+RPM_HASH = "c25d4f90addf09e21ece12fcecb351eb982abaf6f041bcdf0d377abc592d47ef61684af1af393470b86f7f4227edc03c34e63e597c9593cfe21cc45ae98be62e"
 
 RPROVIDES:${PN} += "libxfce4-sensors-plugin.so \
 libxfce4sensors.so.5 \

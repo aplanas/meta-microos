@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0.0"
 
-RPM_NAME = "python39-azure-mgmt-streamanalytics-1.0.0.0-1.7.noarch.rpm"
-RPM_HASH = "f0d6f1e95f8190583ed3dc6f33014dba18a155c7d4b3ff33342e59cec3c3f43927fc12d102e1b7a10eca168599223ee9639ec77b993621ecbcb9498658e4d2b9"
+RPM_NAME = "python39-azure-mgmt-streamanalytics-1.0.0.0-1.8.noarch.rpm"
+RPM_HASH = "774387756893ab84b894ba97595b5d06893df8f0c5aa8a5c45eb58620d0205f01a50eba9841d2c9b55427fcc50822ed3793fcf5c51b3a47473fdcc06a00eb5b0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-streamanalytics \

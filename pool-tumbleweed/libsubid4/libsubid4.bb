@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-or-later"
 
 PV = "4.13"
 
-RPM_NAME = "libsubid4-4.13-6.1.aarch64.rpm"
-RPM_HASH = "2eb137d137e016fda13bbe65a018a8fbe081da79d7a81e52c5f333ea1ab531655f5050b6a9a116bdb9c614ef40888751e8ab865e79385381e0fbd2a801ddd9dd"
+RPM_NAME = "libsubid4-4.13-6.3.aarch64.rpm"
+RPM_HASH = "9caa008c37a779a0599e4ebeaa430deb397546969f278ab13bdd63a84e93dd38731c0af5384aba1479c4b563836e2ed283b446da7f90cc082640752a4995d430"
 
 RPROVIDES:${PN} += "libsubid.so.4 \
 libsubid4"

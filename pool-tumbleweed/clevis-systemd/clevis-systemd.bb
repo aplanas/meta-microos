@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "19"
 
-RPM_NAME = "clevis-systemd-19-2.1.aarch64.rpm"
-RPM_HASH = "37db32ed6d80469cb1cfe82b57d5873ecfb5d98e49dd2ed7b5d250d0d0ee68159c5894ea0272d6eab184ebff4bcc22bdce240f03381059cf33f8ccea7be8cd3a"
+RPM_NAME = "clevis-systemd-19-2.2.aarch64.rpm"
+RPM_HASH = "a6dc3282feb28c9c8fd2ab8afb9f2b76cd7d670a40ad7d6aa8799324b53312446381909b239ff5ecfdef60e8b815c4ee8f490d377ccbe9a40f8fb2d62233dab3"
 
 RPROVIDES:${PN} += "clevis-systemd"
 

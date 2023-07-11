@@ -12,8 +12,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.22.2"
 
-RPM_NAME = "libopenal1-1.22.2-1.4.aarch64.rpm"
-RPM_HASH = "3f693e2cf4dfa1f91119985d1d7a416259fb8d1593454294b5bb711af0f9f77809d924374075dcfeb85fd9f8d7b0198c72db3c7ea2fe9449c156e2aa92b5e6bf"
+RPM_NAME = "libopenal1-1.22.2-1.5.aarch64.rpm"
+RPM_HASH = "cb22190e8a0700f7c4fd13da7fed8bbe130f62575cee6733bd18e3e55316e9ca4a763e668ec6fbc634fcd26e1c373e932a1ac61cfe5fdccba605269ee9377f2f"
 
 RPROVIDES:${PN} += "libopenal.so.1 \
 libopenal1"

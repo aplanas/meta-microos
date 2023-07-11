@@ -7,11 +7,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.8"
 
-RPM_NAME = "python3-pocketsphinx-0.8-5.15.aarch64.rpm"
-RPM_HASH = "a7eb53db6ffebe3c15d50a6d3f4534074d1e0175dc6f989a3bee816d1fd6ccb4ab6f4cf1e0429d3185ea57bae7d0ddb8c70beee68416491445a0ccc8554ba6f0"
+RPM_NAME = "python3-pocketsphinx-0.8-5.16.aarch64.rpm"
+RPM_HASH = "55b2e6116802691c82bdb6928719688cda3f9ddc1f77104f387b4c02d2871bf72060d31c67bd9b52c85d9b621f41d8ed65670e8eabb1de9e94940e11bddbc82f"
 
 RPROVIDES:${PN} += "python3-pocketsphinx \
-python3.10dist-pocketsphinx \
+python3.11dist-pocketsphinx \
 python3dist-pocketsphinx"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \

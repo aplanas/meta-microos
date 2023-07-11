@@ -13,8 +13,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.09"
 
-RPM_NAME = "perl-File-BaseDir-0.09-1.9.noarch.rpm"
-RPM_HASH = "741ba8196fa06dc5a1828b477e7ce4830fade8b92db2b447dcfcdd85a2bf9251e18e75a323a434cde900446d5765af04d20dfdec51c6bd5da1225b0c447ab58c"
+RPM_NAME = "perl-File-BaseDir-0.09-1.10.noarch.rpm"
+RPM_HASH = "4a93e21784a93d53adba1deb09d8a7a9a4bbd50f40f7f2b4932750cc5385458195bbe0303d1230765ec55ef19f4bd6a7c5396f72373043429557c092fb3d815a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-File--BaseDir \
@@ -22,7 +22,7 @@ perl-File--IconTheme \
 perl-File--UserDirs \
 perl-File-BaseDir"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-IPC--System--Simple"
 
 inherit rpm

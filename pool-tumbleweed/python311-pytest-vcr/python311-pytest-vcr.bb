@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "1.0.2"
 
-RPM_NAME = "python311-pytest-vcr-1.0.2-1.14.noarch.rpm"
-RPM_HASH = "645b544ab9012a21c47eb2d87d95c845d0c2eefd2a726748c4999c13d91c5fd40534a52138ef9095b9eadfd74a03ff5fcac605c2369d7c76863753c88ab5bb1e"
+RPM_NAME = "python311-pytest-vcr-1.0.2-2.3.noarch.rpm"
+RPM_HASH = "d733ff4046d9721329c76ca8051b9d03fc96166dc9e89dc360c3ae14b0531bda20ea6c9b5850b554630718a5a0ddcb25a0d8d5bb2a3adcfec3805bab25010f25"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pytest-vcr \
+RPROVIDES:${PN} += "python3-pytest-vcr \
+python3.11dist-pytest-vcr \
 python311-pytest-vcr \
 python3dist-pytest-vcr"
 

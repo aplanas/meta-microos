@@ -9,8 +9,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "3.42.0"
 
-RPM_NAME = "sqlite3-tcl-3.42.0-1.1.aarch64.rpm"
-RPM_HASH = "8f07d3c83bce3505b960eddca0ef9e16319b633f6178e7c864a5d6a31f04b7b4fd14485e9f63086b96f0a19371bf27142889f055fcff709b88bf8400961eb215"
+RPM_NAME = "sqlite3-tcl-3.42.0-1.2.aarch64.rpm"
+RPM_HASH = "b8976f25eb50429568bee5dbc120aac3d5c878c834ebb132ff4d00ee797f4eedf0023bc8b798a4369ea5af71b0fd7b412a0ea3335b74c0f0c21cbecd84c965d2"
 
 RPROVIDES:${PN} += "libtclsqlite3.so \
 sqlite3-tcl"

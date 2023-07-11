@@ -33,14 +33,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.41"
 
-RPM_NAME = "perl-Task-Kensho-Config-0.41-1.9.noarch.rpm"
-RPM_HASH = "c857a4050b334c3939c0565682c190c5acddb47b975b1f94b19da4bfca930659d4a6566798c1f9305b73d64bad9ffe7de73c6f5d3015adea3cb78dc2903ce5ee"
+RPM_NAME = "perl-Task-Kensho-Config-0.41-1.10.noarch.rpm"
+RPM_HASH = "01859f1178c5f4d36d680a009056f1783c5911b4228a3a95f0615a198b703ceee67a815c485facf6cbb421ef2fcd103e9aeec42040f59423fa09d0da041ac148"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Task--Kensho--Config \
 perl-Task-Kensho-Config"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Config--Any \
 perl-Config--General \
 perl-JSON--MaybeXS"

@@ -2,10 +2,10 @@ SUMMARY = "CVS Frontend"
 DESCRIPTION = "Cervisia is a tool to browse and work with CVS repositories."
 LICENSE = "GPL-2.0-only & GFDL-1.2-only & LGPL-2.0-only"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "cervisia-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "c8f0777d1e5e9e86b59dd11ad7b1258604849f269e407a3fa8feddda19b4bcbd5ad52e2a9b3ddb0561b070b240effcaca2dd5f3f523a2ff70fdc4fe3f1c67077"
+RPM_NAME = "cervisia-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "3a463f8df13aa97d30d00899e0e7bc0c6f335ebbe12ec0fdb46d142e8189b610bb9a87ee247cfac68edfd99bf324bd45e1dea51c3083b5e5406b620705655408"
 
 RPROVIDES:${PN} += "cervisia \
 libkdeinit5-cervisia.so \

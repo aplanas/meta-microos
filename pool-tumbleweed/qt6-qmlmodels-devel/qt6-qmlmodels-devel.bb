@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-qmlmodels-devel-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "1928434cce106fa3e9966879f8d59099c1656fed68cdec6976f3b9e895a9844cd28aee386ce8ca1fcfa42073efe1ee0d3e4ee3c9fde061f8a738eeca41f10213"
+RPM_NAME = "qt6-qmlmodels-devel-6.5.1-1.3.aarch64.rpm"
+RPM_HASH = "8faf001dde6cd2b965e4bd574b1206dd7445dfcaee758ccfd315956f2034bf4ecb28ee5677075b12429df4cf1953a9ba9cfdd8fdb8106cb9ff03bad57e4c12f6"
 
 RPROVIDES:${PN} += "cmake-Qt6QmlModels \
 pkgconfig-Qt6QmlModels \

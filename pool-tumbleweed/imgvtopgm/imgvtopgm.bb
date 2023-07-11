@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.0"
 
-RPM_NAME = "imgvtopgm-2.0-700.6.aarch64.rpm"
-RPM_HASH = "e28f284c6b2b6bf73600b9167505ed199db1ba26cee521991a8c1f6fb765005713188ced0e0c27f14853d290143e0c500015f528d4dc53f9d35c8df5aedb2808"
+RPM_NAME = "imgvtopgm-2.0-700.7.aarch64.rpm"
+RPM_HASH = "eaba42c4a07406c27a7d9e9c03d4b20aa7735d9ed7eeb27b5e20974df38235d4f943102d0e1e6f8352ef73bfd5f64d9cd477667ef3faa178e49bcc34eafc3b07"
 
 RPROVIDES:${PN} += "imgvtopgm"
 

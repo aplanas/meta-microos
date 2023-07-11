@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.20.0"
 
-RPM_NAME = "libqgpgmeqt6-devel-1.20.0-1.1.aarch64.rpm"
-RPM_HASH = "83ef97ce27842cf9f28df9be01d2daee297d097bda02a8d008158a9fa9915f44fb13e8116e19d9baf6b09eaa5319d5aac4ac3952b671f26a34c53a89a422478c"
+RPM_NAME = "libqgpgmeqt6-devel-1.20.0-1.2.aarch64.rpm"
+RPM_HASH = "794a0e6c4c59a7baac72d87946760f812c3b4dccd413a0b10fb5d9c9f91c5ef9694c59e29df9265cd63239a3a2772df99302c92a4e8be09737afb5c8074ebdc1"
 
 RPROVIDES:${PN} += "cmake-QGpgmeQt6 \
 libqgpgmeqt6-devel"

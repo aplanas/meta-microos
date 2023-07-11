@@ -17,13 +17,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.14"
 
-RPM_NAME = "perl-Template-Tiny-1.14-1.9.noarch.rpm"
-RPM_HASH = "003527af9cf461e93923cdbfbddd1eb36dc0b636de052f2d18bf19b9951fecc18052c42141be2bbc528ad93c1b8e326470b27030938090eac03779a01d0b8287"
+RPM_NAME = "perl-Template-Tiny-1.14-1.10.noarch.rpm"
+RPM_HASH = "d0280f0bfa21d54fbfbd8e627467efab23555855af404acdf16ed75dcfc34a561ae7b7a5325406c24111ddc2cbd321ceff0953b34f30a3bdc83643b881eb4818"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Template--Tiny \
 perl-Template-Tiny"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

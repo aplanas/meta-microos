@@ -4,8 +4,8 @@ LICENSE = "AFL-2.1 & GPL-2.0-or-later"
 
 PV = "1+git.20210227"
 
-RPM_NAME = "ladish-1+git.20210227-3.7.aarch64.rpm"
-RPM_HASH = "5dea421d5218177a196c0559d33a494cd681ef92c80eb22cfa50ea35c4a0b0cdd3e66f1cd777428e3ad7bf963170a4a5f89489016db7e129e49fead7819024ca"
+RPM_NAME = "ladish-1+git.20210227-3.8.aarch64.rpm"
+RPM_HASH = "50140ae53558d7f23ff64440bc586310d92632dcee2502b19d9ebbaae916f0885df0a9fdb1cf8b71605dd4404dea5b7c4945d9269ae4159c047936d1811fbd95"
 
 RPROVIDES:${PN} += "ladish \
 libalsapid.so"

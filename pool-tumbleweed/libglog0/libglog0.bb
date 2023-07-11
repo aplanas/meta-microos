@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.0"
 
-RPM_NAME = "libglog0-0.5.0-1.8.aarch64.rpm"
-RPM_HASH = "1a1cc022cf3478b865c77d0aea54353044bb8e2053075b7be5973c364d9c2fe40198b830331b2394e4c87e83fc320c6e4a107398adbbdec70faa427f9ebdd5db"
+RPM_NAME = "libglog0-0.5.0-1.9.aarch64.rpm"
+RPM_HASH = "762f6bd0e7bfe404992e5e6ae13d8dc2b520764c9afa26a0954f2cebdf06fc076af1e4e5d5d4000395b830920d0faedd37f520c9056bcb48018f5de4a24e79f3"
 
 RPROVIDES:${PN} += "libglog.so.0 \
 libglog0"

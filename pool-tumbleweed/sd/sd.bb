@@ -5,8 +5,8 @@ LICENSE = "(Apache-2.0 | MIT) & (MIT | Unlicense) & BSD-3-Clause & MIT & (MIT | 
 
 PV = "0.7.6+g33"
 
-RPM_NAME = "sd-0.7.6+g33-2.2.aarch64.rpm"
-RPM_HASH = "60442837335ed48fae50f9dbe155607f2917ff3980b1629a7c7c5a4c31c71dc3371f8be972e8017d0f8367cf13fd5627204d0c7288849d5235ab55fd8c72dd2c"
+RPM_NAME = "sd-0.7.6+g33-2.3.aarch64.rpm"
+RPM_HASH = "b349f4a8c1e54b8ee018d5d8a9631d43378e194566370b09eb747c8a7f9129eeaf8171aca0c75f2371c7e36117cf8955da6cb0a4a784643b5398f3971c39fe0f"
 
 RPROVIDES:${PN} += "bundled-rust-crate-aho-corasick \
 bundled-rust-crate-ansi-term \

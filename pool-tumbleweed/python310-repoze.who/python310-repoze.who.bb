@@ -13,12 +13,11 @@ LICENSE = "SUSE-Repoze"
 
 PV = "2.4.1"
 
-RPM_NAME = "python310-repoze.who-2.4.1-1.3.noarch.rpm"
-RPM_HASH = "345e68a993831ab4a4b60bf8758f12646fc79af8a410c7c795391780c238b851b9367a4148901a2a8e364bd66f192c3ae0b00d51702a5b3f7c65f671fe914565"
+RPM_NAME = "python310-repoze.who-2.4.1-2.3.noarch.rpm"
+RPM_HASH = "3ee2de696537b47b07e11e8047021ffc56116832b3b04ee5c3549172df76d5174c613c3c23463f6cd3daa840e6eb7f522f5171cdb09c17705725ad30e7695969"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-repoze.who \
-python3.10dist-repoze.who \
+RPROVIDES:${PN} += "python3.10dist-repoze.who \
 python310-repoze.who \
 python3dist-repoze.who"
 

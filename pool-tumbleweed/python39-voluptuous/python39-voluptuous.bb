@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.13.1"
 
-RPM_NAME = "python39-voluptuous-0.13.1-1.3.noarch.rpm"
-RPM_HASH = "70522ca122676320d9852150ac36ef172d3d00b8c2bfcae95fe79d5447497984b12b211471f049a532229213b61d10a571c09f622dac64e5da6438ceb32ace0e"
+RPM_NAME = "python39-voluptuous-0.13.1-1.5.noarch.rpm"
+RPM_HASH = "e83bf5fdc211d6ba57c3488b0a3018c68779f784bca4ffd451e98eb4a6e541f79c907d068a1ea2eee5d960c85043c38595dda4a88e3b0cfe6b527db6b5add004"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-voluptuous \

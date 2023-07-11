@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "0.9.2"
 
-RPM_NAME = "konkretcmpi-devel-0.9.2-14.3.aarch64.rpm"
-RPM_HASH = "8eec57429e44e3028533962a26a40e1fe97b855581e10efcb4bb2fa4429feed9023e040db01a141af7f27371b22bc104b890b10b7b65625eee1cb9ec79de0fe1"
+RPM_NAME = "konkretcmpi-devel-0.9.2-14.4.aarch64.rpm"
+RPM_HASH = "7d318f3dfe9a4baffe40fffff535deb67ad5bfe1bd07661d0711d9c8fdc41c66b74cdaabe0cfcc9dd9398c4a50521a839eb398c48469602636b6384aa82180ed"
 
 RPROVIDES:${PN} += "konkretcmpi-devel"
 

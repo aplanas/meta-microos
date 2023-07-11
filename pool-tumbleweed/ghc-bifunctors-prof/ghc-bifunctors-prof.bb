@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "5.5.15"
 
-RPM_NAME = "ghc-bifunctors-prof-5.5.15-1.3.aarch64.rpm"
-RPM_HASH = "bd41c5d9d7f9d69c231b027683ebe9e7727507abe0ab9556ea14bcf9388b3d7025cacf98e9220167b35963fd6db02f8016370b281054336683870f9499023891"
+RPM_NAME = "ghc-bifunctors-prof-5.5.15-1.6.aarch64.rpm"
+RPM_HASH = "ad72a35a49f878070ce6387c9aeda279e9c76cde92467df553155d1096d18de11a72998877fa4a1e2edd52eb59c0c2c031d3e4325a207ce05c74295196ef9717"
 
 RPROVIDES:${PN} += "ghc-bifunctors-prof \
 ghc-prof-bifunctors-5.5.15-7mn3oj93MLM2f6K5DVlnRL"

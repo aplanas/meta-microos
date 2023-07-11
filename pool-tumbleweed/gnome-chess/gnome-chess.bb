@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "43.2"
 
-RPM_NAME = "gnome-chess-43.2-1.1.aarch64.rpm"
-RPM_HASH = "d53abc4266ea470f2d66f9ffbe0bb81abe629d091b0160abfbd8ef05d92f091ac38c2bce6ade38950df957ce72215a367d7fcff795ba8c2f6f3b17158a6ccc3d"
+RPM_NAME = "gnome-chess-43.2-1.2.aarch64.rpm"
+RPM_HASH = "97fff67e51617538820a5b5ab5486386372f271d4a3d397faf503252235c25c45b917288a7a1ef06e0b3dfcd0b2cebff1016e6839c069d9e91c3bfada9b20e77"
 
 RPROVIDES:${PN} += "config-gnome-chess \
 gnome-chess"

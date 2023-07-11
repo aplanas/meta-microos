@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "5.0"
 
-RPM_NAME = "patterns-microos-desktop-gnome-5.0-70.1.aarch64.rpm"
-RPM_HASH = "6a42a84f5d578a09b3d68f47ab225576e7a0b9148502a414307634f58886c1c42b2d2102a69848639540fd8bd42ccfb98748c597db20a40ea094e29fe5249eda"
+RPM_NAME = "patterns-microos-desktop-gnome-5.0-72.1.aarch64.rpm"
+RPM_HASH = "1c9e142e7b4fc70d8ed526efc3c229750235a2a992f7d89a344a1fefd1d5b93d4de6f1d5ea3afeb09dd6fc795e624276499bbb98ee2e16cffc51a897907fed73"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.4"
 
-RPM_NAME = "radeontop-lang-1.4-1.9.noarch.rpm"
-RPM_HASH = "7783e14c287099ae1b2b31d6ce0eceb8b5853cb69b48b520107b57ec3a3bed06202a30e0d6ccf7fb2fd8cdf6ed0faa99b703c74c2c55772a6ed8e393ca2ada1d"
+RPM_NAME = "radeontop-lang-1.4-1.10.noarch.rpm"
+RPM_HASH = "28849049a9ddc7b2f61e32abec21769948e625374e7751e797d3c8682b894e67778154d0a3be1b0abe142a1b89073903fc36fb38a936d2d70b207691c51ea0ae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-radeontop-cs \

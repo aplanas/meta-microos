@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.10.1"
 
-RPM_NAME = "tiled-1.10.1-1.1.aarch64.rpm"
-RPM_HASH = "6b2a0462142685dac1291b7c59bfc3e33866448308d9b1f4d1c48f8df3ae1c4ec7e4d6d43859169a9d20e42a23ad2d89f71b32c330958a893d777afa811230bc"
+RPM_NAME = "tiled-1.10.1-1.2.aarch64.rpm"
+RPM_HASH = "c782569c0b7aa1b80f0b55f564fa31d36cd429f74506439dab3806160d5aaa2c83d313b8152a28d9eefbe95ceb458130bd769f1de9f5a756e187d0ff73afe32a"
 
 RPROVIDES:${PN} += "libcsv.so \
 libdefold.so \

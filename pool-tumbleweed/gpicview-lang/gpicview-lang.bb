@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.2.5"
 
-RPM_NAME = "gpicview-lang-0.2.5-2.16.noarch.rpm"
-RPM_HASH = "bbe4297f2ccd0f8677e51d080ae3af22d45b773a9f875f044b91b2228f6499398c31f625852bd2391e2500de2244e69776759c85201d23496ebc624750df5517"
+RPM_NAME = "gpicview-lang-0.2.5-2.17.noarch.rpm"
+RPM_HASH = "4ed0d43951ebf2ad6cc9064b7ac4b072e44bbf146680b9dd8a234d27ce438e9b9ec3ebe65fbde071f4dc769543c2a0781639eef2b2d1566812d22da8e110474e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gpicview-lang \

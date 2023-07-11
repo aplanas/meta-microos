@@ -2,10 +2,10 @@ SUMMARY = "Breton localization files for LibreOffice"
 DESCRIPTION = "Provides Breton translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.1"
+PV = "7.5.4.2"
 
-RPM_NAME = "libreoffice-l10n-br-7.5.4.1-1.1.noarch.rpm"
-RPM_HASH = "f52889feb599450c1be3511e1fa5a40a80e6f407df3d11cc41e4494e13df9712c2fc046a6325a8811af5c9c1b0a2170faff5168be79afafa140888154590025d"
+RPM_NAME = "libreoffice-l10n-br-7.5.4.2-1.3.noarch.rpm"
+RPM_HASH = "d4f9cb5c5b0b84409e468df48555fbe1d9201dc185fd1a333433c0da4914afae604375c104c9d58d2bf9c7ffa775552f9a7ca05808d0442b60379471996e5653"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-br \

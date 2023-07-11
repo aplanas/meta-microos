@@ -37,11 +37,10 @@ LICENSE = "BSD-2-Clause"
 
 PV = "3.18.0"
 
-RPM_NAME = "python310-pycryptodomex-3.18.0-1.1.aarch64.rpm"
-RPM_HASH = "9c0515188beee55e65ae76c2ed9735136921457af15bc6ca316f1ec1b3f7a23331d5293f44ba5364dcf0d72348eb9946aa767afcc90094515739971342191b5f"
+RPM_NAME = "python310-pycryptodomex-3.18.0-2.1.aarch64.rpm"
+RPM_HASH = "a305d54e0a3b0c8617ef38421cd374faaa9236733b7bf0c378742b2d1d1aa71ecd19177e62f4f7e9843a00edf9b0b530c993c558432d8ba5d8c1de1fb64bf014"
 
-RPROVIDES:${PN} += "python3-pycryptodomex \
-python3.10dist-pycryptodomex \
+RPROVIDES:${PN} += "python3.10dist-pycryptodomex \
 python310-pycryptodomex \
 python3dist-pycryptodomex"
 

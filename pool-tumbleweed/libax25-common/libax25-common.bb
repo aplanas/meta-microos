@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "0.0.12~rc5"
 
-RPM_NAME = "libax25-common-0.0.12~rc5-1.9.noarch.rpm"
-RPM_HASH = "7e303f30b6c1d4f2bc18a46ce33e7d0af87067806167a41ee1d60c6cf58062b02cc9bdfba9b8aeb0fe283c16f0eaf5bb57bab174f600cb4a3c1a2a405981f718"
+RPM_NAME = "libax25-common-0.0.12~rc5-1.10.noarch.rpm"
+RPM_HASH = "50bd98f254dc56737df18d1702c652d5f4f0b42c1cf4054e6ccea95ee5fcfab47a18c9596d1fcb2bdfab383af4244374eabc8cf6158915022f71eb640a82c9ff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-libax25-common \

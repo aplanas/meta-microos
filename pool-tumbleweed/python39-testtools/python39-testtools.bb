@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "2.6.0"
 
-RPM_NAME = "python39-testtools-2.6.0-1.1.noarch.rpm"
-RPM_HASH = "271ea7e21c7716fc3903c5d8d42d4fff365ed7eb2f13463ebb8463908ea7244b50d0406d144e5cba95fef36b1779790e0101781b2d2ab2333977166e54273180"
+RPM_NAME = "python39-testtools-2.6.0-1.3.noarch.rpm"
+RPM_HASH = "f287cab56758c7536f490d74fb504122385ad3fae378b9cb68bd70d4aaa031ca80e8886c8cf22bf9c4d501376b7f1a9d39670990804a45497198023a5d6ca9b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-testtools \

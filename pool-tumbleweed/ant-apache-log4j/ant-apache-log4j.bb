@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.10.13"
 
-RPM_NAME = "ant-apache-log4j-1.10.13-2.1.noarch.rpm"
-RPM_HASH = "e676977c98866acfd114096992378a42057d17cb055b0dfb913d6261f56e04af9114bcf66b4d2b66e2ceaba93ffe0994885f6c06777899ba901348fc38d11919"
+RPM_NAME = "ant-apache-log4j-1.10.13-2.2.noarch.rpm"
+RPM_HASH = "c52db56d01de83f07f2d3bf91cbb26f9c1692c5d73a9b1f32a920d89827b4abf94e124789b03f75772761a38f1da58a709235965925930b30afbb5691f7ddc0e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-apache-log4j \

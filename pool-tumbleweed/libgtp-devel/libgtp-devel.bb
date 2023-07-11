@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.10.1"
 
-RPM_NAME = "libgtp-devel-1.10.1-1.1.aarch64.rpm"
-RPM_HASH = "0574b6d7d09eb586bcaa9e14955e1f6ebe6654abe8327ab95543d84c826e883f29751814d68c5316863ddd3215ed5c8fe952b2a42e857056999a375388cdea51"
+RPM_NAME = "libgtp-devel-1.10.1-1.2.aarch64.rpm"
+RPM_HASH = "6d2c3f1d5637faa6b4b14b39cd1e811c64bafadd51cc8081446a8bf0189ed3d5cd3e1d0798b83bb1a988b32c335a7f73d1c12394b90661e666f6cb3e7ce3e126"
 
 RPROVIDES:${PN} += "libgtp-devel \
 pkgconfig-libgtp"

@@ -7,10 +7,11 @@ LICENSE = "SUSE-GPL-2.0-with-FLOSS-exception | GPL-3.0-only | NonFree"
 
 PV = "5.15.9"
 
-RPM_NAME = "python311-qt5-remoteobjects-devel-5.15.9-1.4.aarch64.rpm"
-RPM_HASH = "237b9cb677e5063cc129498931499b94785031f8c2ede6661902204da58aa58cb04e88aae8ffc63e39969c5f50118ffa46d81271970e7e96b859f0cac43a8d89"
+RPM_NAME = "python311-qt5-remoteobjects-devel-5.15.9-3.1.aarch64.rpm"
+RPM_HASH = "e980696e358dcead8a280f362987ed51a4f4c952508ae80fcd3b3ab5a9fb1180ee2d1c2435d8f52dbcb2ddc11e6f3264b47014794246f7cdf561ad92132ecd5f"
 
-RPROVIDES:${PN} += "python311-qt5-remoteobjects-devel"
+RPROVIDES:${PN} += "python3-qt5-remoteobjects-devel \
+python311-qt5-remoteobjects-devel"
 
 RDEPENDS:${PN} += "pkgconfig-Qt5RemoteObjects \
 python-abi \

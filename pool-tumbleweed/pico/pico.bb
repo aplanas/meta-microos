@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "5.09"
 
-RPM_NAME = "pico-5.09-27.4.aarch64.rpm"
-RPM_HASH = "5afa5248de87a43babe6f24176b3cd7f86dff3381bc4a9f7bf59983fa465466ebf8a81d8f010d1a58a0c21d4075217dea9fbd8ffbbd3e00cc10a1a548fedcf7f"
+RPM_NAME = "pico-5.09-27.5.aarch64.rpm"
+RPM_HASH = "ea818096bfb38e55713cdc576474ceb6ece804646b18e202759df5e17073903d297d085dac967703324ce2b2609e236aaf07e8e54faebcee22b88922dc8f24b8"
 
 RPROVIDES:${PN} += "pico"
 

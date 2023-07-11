@@ -6,10 +6,10 @@ symbols and extensible delimiter fonts, as well as with the AMS \
 fonts, all redone with the same stylistic parameters."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0bsvn32354"
+PV = "2023.208.2.0bsvn32354"
 
-RPM_NAME = "texlive-lxfonts-2023.201.2.0bsvn32354-52.1.noarch.rpm"
-RPM_HASH = "73086f1e42b2142ab1bbec2b3c3235e1260dfa203b5b5d3b1e8c48ac88f4abbbc4e436f68406c5e5cf96894d2cc777a29d532ad264476b85a9c8944bf347c741"
+RPM_NAME = "texlive-lxfonts-2023.208.2.0bsvn32354-53.1.noarch.rpm"
+RPM_HASH = "c265db9b1405d2878d936ffbfd4d81bad27a040833bc3b4d0af6f635d2748d0ec8111f3b324ae8bf889783cf99f08013b283118f28b7155416eeef6c1f4789df"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lcmbsy8.tfm \

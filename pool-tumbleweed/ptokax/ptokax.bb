@@ -6,10 +6,10 @@ PtokaX has a comprehensive user interface, tuned built-in features, \
 scripting-based extendability."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.5.2.2"
+PV = "0.5.3"
 
-RPM_NAME = "ptokax-0.5.2.2-5.10.aarch64.rpm"
-RPM_HASH = "b9fe9c9c1f01e737027ed09fb9d875d1fe521a101dd21ebf5d738e1964622ee8f5f92b964a8a89231d3ae136b2b5390b8d3c991c03c7e50a281439b56ffe47cc"
+RPM_NAME = "ptokax-0.5.3-1.1.aarch64.rpm"
+RPM_HASH = "d2554574bbd5a5a55ade906481474adec292d084c01af583d53b294e17bbe943c7f9a6d65a2e1c0fac32c4eb3c1b9f9072e457b2efb3eddbfee69643e317627c"
 
 RPROVIDES:${PN} += "config-ptokax \
 ptokax"

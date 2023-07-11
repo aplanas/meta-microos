@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.35.1"
 
-RPM_NAME = "jupyter-octave-kernel-0.35.1-1.3.noarch.rpm"
-RPM_HASH = "9a0c0eb5ed92116a8a44f770bc9f3e8b30fecbb276c5f803d5bb2d192338f407a9a24f1a7916c23a5d182a8444fe4f2df3ad4e405c705c891e91a0677f1580ae"
+RPM_NAME = "jupyter-octave-kernel-0.35.1-1.5.noarch.rpm"
+RPM_HASH = "91eac568b1ef6d009788fb684e4253605a6592781a7d4510584d3ad3e24f00c3b3c7e8e31a929dbb3eede3f9948351fc814214345e53e9d347bd4aa7ace9d5e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-octave-kernel"

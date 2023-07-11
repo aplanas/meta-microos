@@ -6,10 +6,10 @@ oRTP library. \
 This package contains documentation files"
 LICENSE = "AGPL-3.0-or-later"
 
-PV = "5.2.49"
+PV = "5.2.73"
 
-RPM_NAME = "mediastreamer2-doc-5.2.49-1.2.aarch64.rpm"
-RPM_HASH = "67bcf6f58b7baa39bbfcc1a7ace215c4721c5cf82d8793c564afb0ecd9e0253f7773f4a6175d4a1819e53ee0cf82822dcd4fb1f0ff2caf6bdf3f1f5577b725cd"
+RPM_NAME = "mediastreamer2-doc-5.2.73-1.1.aarch64.rpm"
+RPM_HASH = "a26d6f1d70d5075f919b550c71ff27a16682fb7f504681cc2a7ee97b7b8ddab1daa0bf6b87c3a954b92cf8e2d942859edf5b22012b34209615dfb895ec230f02"
 
 RPROVIDES:${PN} += "mediastreamer2-doc"
 

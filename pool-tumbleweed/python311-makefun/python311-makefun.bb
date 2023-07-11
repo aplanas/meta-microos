@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.15.1"
 
-RPM_NAME = "python311-makefun-1.15.1-2.2.noarch.rpm"
-RPM_HASH = "64e11ae627f609d30336f4b1313a9676f56904cca1da55d6b5e9c9275d822e56d9a6c0c82efe1be67c73b151712b2ce7af492791409f974b5bfa43ca63228031"
+RPM_NAME = "python311-makefun-1.15.1-2.4.noarch.rpm"
+RPM_HASH = "d5a90fe228461dc24a50e35c20c15404a3a87b1c44124ca8b1960aa0de58ee20f7c7c0c00091f341b775c9fe4056c86f7091c322d79dff5afddfbf4657f99bce"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-makefun \
+RPROVIDES:${PN} += "python3-makefun \
+python3.11dist-makefun \
 python311-makefun \
 python3dist-makefun"
 

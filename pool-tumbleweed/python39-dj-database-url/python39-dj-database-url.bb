@@ -18,8 +18,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.0"
 
-RPM_NAME = "python39-dj-database-url-1.3.0-2.1.noarch.rpm"
-RPM_HASH = "b7c3e6d1ef3348a3a2b9534803aeefabb58e7577b12d3ed1016dc7567c97607321d0a2752838501d3988e7c49b762bbb74084a236231bd55fd4d60a778ec2906"
+RPM_NAME = "python39-dj-database-url-1.3.0-2.3.noarch.rpm"
+RPM_HASH = "9ad7a44dd34d5a8aadf71e95562a57ae1f236f324f2ff8c541beaa3e42ba30b6e7144077c93a1efda6a087e2d17430bd80e248f4a5c1e6e27bcf50549c3c8190"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-dj-database-url \

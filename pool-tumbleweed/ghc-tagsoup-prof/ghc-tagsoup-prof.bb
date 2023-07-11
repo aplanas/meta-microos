@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.14.8"
 
-RPM_NAME = "ghc-tagsoup-prof-0.14.8-6.3.aarch64.rpm"
-RPM_HASH = "9a2387171a14e6ed2040a5822ac8c45c9aa5e34420002c1c6e23a7e377a200d3c1e3aeaf580a8cf18fb55365827282fa237d8d1a1eaa2272cf524df8df0fcf6e"
+RPM_NAME = "ghc-tagsoup-prof-0.14.8-6.6.aarch64.rpm"
+RPM_HASH = "7e80a14ccf9763fb9bdd3c4dd1a4d2c9fa91f70df42403eea7bcc82c9c01f494d9ed4f8210e9b0dc3b1ddf784326f364b359dac63bb652eb621bcf4d30190c94"
 
 RPROVIDES:${PN} += "ghc-prof-tagsoup-0.14.8-KqOLe3dJpuA4KsHZJW2cTn \
 ghc-tagsoup-prof"

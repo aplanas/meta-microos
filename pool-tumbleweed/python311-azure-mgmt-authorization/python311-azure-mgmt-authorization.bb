@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "3.0.0"
 
-RPM_NAME = "python311-azure-mgmt-authorization-3.0.0-1.3.noarch.rpm"
-RPM_HASH = "557604755bb3ed4f7a4d22517c7d35fc5ca5348ea3fdf8b1c87bf845497cd85891dac0f00f6a85d4adfc1857effcbc3c0f843cb22a6b5c425fb02225f1c5be3d"
+RPM_NAME = "python311-azure-mgmt-authorization-3.0.0-1.4.noarch.rpm"
+RPM_HASH = "0111828763996e6e44101e3fc6aa73dccbca35d22e0b5caf53bca984d00bdbeeec3829e5e1df937e44d307ff8b86c771522b9149431b013e30665d1dfbeacc0b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-authorization \
+RPROVIDES:${PN} += "python3-azure-mgmt-authorization \
+python3.11dist-azure-mgmt-authorization \
 python311-azure-mgmt-authorization \
 python3dist-azure-mgmt-authorization"
 

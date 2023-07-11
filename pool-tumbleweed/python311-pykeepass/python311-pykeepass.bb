@@ -2,13 +2,14 @@ SUMMARY = "Low-level library to interact with keepass databases"
 DESCRIPTION = "This library allows you to write entries to a KeePass database"
 LICENSE = "GPL-3.0-only"
 
-PV = "4.0.4"
+PV = "4.0.5"
 
-RPM_NAME = "python311-pykeepass-4.0.4-1.1.noarch.rpm"
-RPM_HASH = "95f4c8ccf21370f9cde6b9e041025e8212be1e5d62eb58b6730b2b092e88635b6f5a8a14b550f0c2f6b051fa8207a4a612896cb50c26281bea569fc19a6fb7f6"
+RPM_NAME = "python311-pykeepass-4.0.5-1.2.noarch.rpm"
+RPM_HASH = "284f3df390fb265d9f1c4642f9c85cf935e2939b33844ebf536df8fde763764086fd6640cdd4aba5100ed3dd681598e1274382c01dde2b01dff71f2142880f7d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pykeepass \
+RPROVIDES:${PN} += "python3-pykeepass \
+python3.11dist-pykeepass \
 python311-pykeepass \
 python3dist-pykeepass"
 

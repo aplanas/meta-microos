@@ -12,11 +12,12 @@ LICENSE = "MIT"
 
 PV = "0.7.0"
 
-RPM_NAME = "python311-ipysheet-0.7.0-1.5.noarch.rpm"
-RPM_HASH = "2381d44d5f79f0cdd2386559aa00d9afbecf7e8a837870495977937d090456e2063267228aab4c930f26452e16764ca9b5e316e8522ff5d53c419890a6ec99b5"
+RPM_NAME = "python311-ipysheet-0.7.0-2.1.noarch.rpm"
+RPM_HASH = "c90b387413572d711115a33333c5cde1786ed80a8ec5ccbc193456063d3fc7dc2f4b1f1ec990ae50520308629b2ecb508a2992975924c1a374307159dd7da5b0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-ipysheet \
+RPROVIDES:${PN} += "python3-ipysheet \
+python3.11dist-ipysheet \
 python311-ipysheet \
 python3dist-ipysheet"
 

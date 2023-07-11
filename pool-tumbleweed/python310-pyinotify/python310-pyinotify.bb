@@ -17,12 +17,11 @@ LICENSE = "MIT"
 
 PV = "0.9.6"
 
-RPM_NAME = "python310-pyinotify-0.9.6-5.1.noarch.rpm"
-RPM_HASH = "3f7f970db31520b82499372e1f0b78f802e82d186e3e9565c1f050b75ab46e380bce71f6d29ac09fc12285deb09b3268aa026b44122091423fcfc1587b275f84"
+RPM_NAME = "python310-pyinotify-0.9.6-5.2.noarch.rpm"
+RPM_HASH = "5f6ec74a6de944030783239957601ebd4f96c646dab0e1310c35c517fb11140ae54359f95b60c83e8d9f6d41d124f920a3917cb5db312e76fc56aa8e93b5fd07"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pyinotify \
-python3.10dist-pyinotify \
+RPROVIDES:${PN} += "python3.10dist-pyinotify \
 python310-pyinotify \
 python3dist-pyinotify"
 

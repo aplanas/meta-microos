@@ -17,8 +17,8 @@ LICENSE = "MIT"
 
 PV = "0.8"
 
-RPM_NAME = "matthewlib-java-0.8-13.6.aarch64.rpm"
-RPM_HASH = "b216c319ec1505df49882fdcfc0e3cd7b18b62a3c68a6176dc0be42a8b34cc6cb5ba00ebf7188dbf4b0036dd9eada90b631bb8cdfecfcede390437ced46c6382"
+RPM_NAME = "matthewlib-java-0.8-13.7.aarch64.rpm"
+RPM_HASH = "bb3938ce8d696f7c21eb797d09f963707efd4ada06e19a7e1d73c65342af36c337f56d8e9ff9317d9d662e05fd4df6f20d8c737b13e9d7184b867cddf06c578c"
 
 RPROVIDES:${PN} += "libcgi-java.so \
 libmatthew-java \

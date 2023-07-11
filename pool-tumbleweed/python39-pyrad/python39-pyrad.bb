@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.4"
 
-RPM_NAME = "python39-pyrad-2.4-3.8.noarch.rpm"
-RPM_HASH = "d0bd4ee160a59a596e4301cc6662999534d34eba1f4465f5ac2468dfc8def5de4fe0e43dc6e9c9539860fc80efb83f37b039005b73ef329127742c4d29c446ae"
+RPM_NAME = "python39-pyrad-2.4-3.10.noarch.rpm"
+RPM_HASH = "f92465f64a7cb8ede80a1962a77a4f7e2999c6bfc07f3675381e414915d993d5b9ec232c752fda07e649e70e310d53204d8fd8ceb6e346ad1c129a7158c15e8c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyrad \

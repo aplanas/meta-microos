@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.18.0"
 
-RPM_NAME = "python39-fuzzywuzzy-0.18.0-2.8.noarch.rpm"
-RPM_HASH = "a6dcbcc77bda30b93acac4af18567c0c52d71e88fcddeffd8a0f9d0d68f34f5af1229c6bf1d8262d8782cfd76b68ee466767f70ef333747a10cf7e0f17bd16dd"
+RPM_NAME = "python39-fuzzywuzzy-0.18.0-2.10.noarch.rpm"
+RPM_HASH = "c3cfa255c50337d1aa33629ba616a68a259a4362869fa7b13507562b201644ab3c7b26ea57353aec15f1bcb9f3020aa381dc9d8642fabdd8a42944bf64f341f0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-fuzzywuzzy \

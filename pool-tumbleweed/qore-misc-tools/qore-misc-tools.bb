@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later | LGPL-2.0-or-later | MIT"
 
 PV = "1.13.0"
 
-RPM_NAME = "qore-misc-tools-1.13.0-1.4.noarch.rpm"
-RPM_HASH = "e98ee6e973ddb0229ccefc05c5fa423d8f8ca9291537b66c447cf8bde87fbd89e7b1df7c09de4ac1b1913aebaa0738eb2c96a0fe883ad2e3d468c5cab2e51e26"
+RPM_NAME = "qore-misc-tools-1.13.0-1.6.noarch.rpm"
+RPM_HASH = "999090079ab1f2e70fe274aeb8f87a3a7ac6363bbbfd780b74c7c97def2fd626fc52492a3ad4508c531cf4a56baaed6aeb768a79f8db62e8517901892c4ce327"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qore-misc-tools"

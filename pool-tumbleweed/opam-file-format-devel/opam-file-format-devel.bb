@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-only-with-OCaml-LGPL-linking-exception"
 
 PV = "2.1.6"
 
-RPM_NAME = "opam-file-format-devel-2.1.6-1.1.aarch64.rpm"
-RPM_HASH = "e84586dd0e678e06e6416ad7899788b68b70df5eb6b734b50702691bc21dbf829d8323b15d7c20327ba880211edd76709ed0563a8cdddfd3af878b0e29dbb4d3"
+RPM_NAME = "opam-file-format-devel-2.1.6-1.2.aarch64.rpm"
+RPM_HASH = "59131477e021f67e2c1e8e1187824daba90ffbb3867e655b5191d3b045ef77c4eb031199a4be38abdd5470af987e15deb7990812fa06e0ba81b0f31807995aa0"
 
 RPROVIDES:${PN} += "ocaml-OpamBaseParser \
 ocaml-OpamLexer \

@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.6.3"
 
-RPM_NAME = "exempi-tools-2.6.3-1.3.aarch64.rpm"
-RPM_HASH = "6c76f9be64bd85289ab4265ab8ba8617bee3b0c13d5d2b5f8c4ee32805bf5a56e2cda711f9c334dc1bbb0b77161d942bc90aee6355abc37daca2a5ed508f9adf"
+RPM_NAME = "exempi-tools-2.6.3-1.4.aarch64.rpm"
+RPM_HASH = "6bd999859bceb2baed0042fc49f9b46b001033ecdd1dc9baff031ae413c86cff26cff1f0e19937dd58d4bf2531cf62bbaf3b814d2ca4ed05e2399f7c2d5320d9"
 
 RPROVIDES:${PN} += "exempi-tools"
 

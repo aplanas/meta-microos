@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & LGPL-2.1-or-later"
 
 PV = "2.4.3"
 
-RPM_NAME = "mariadb-java-client-javadoc-2.4.3-1.18.noarch.rpm"
-RPM_HASH = "b7002799558bbacc1dd4a76c7f3e6ca63598afd93f6c153420fb150dfe8b8d66168b92f07e7a7f23a92e1fb017262e1294dbe5cf84ac180d9b70971dc46ab24b"
+RPM_NAME = "mariadb-java-client-javadoc-2.4.3-1.19.noarch.rpm"
+RPM_HASH = "f1ab1b51708a842f6fb2ebac0f3746c2df5a40349de5514d1075214108912564d882df48e03c0117f4c5b5ac48bd869209c1bec7c4d85f73bc4dcb3a68d10999"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mariadb-java-client-javadoc"

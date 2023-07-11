@@ -4,8 +4,8 @@ LICENSE = "BSL-1.0"
 
 PV = "1.82.0"
 
-RPM_NAME = "libboost_graph_parallel1_82_0-1.82.0-1.1.aarch64.rpm"
-RPM_HASH = "4acad77ea6c372e96d39ea1d97a403bdc26d82d4da39b94062910dd77aa4961bdc59462973fb1f2656b84201aade4685ba351a7b6bea74b651e2bcada9770d1f"
+RPM_NAME = "libboost_graph_parallel1_82_0-1.82.0-1.2.aarch64.rpm"
+RPM_HASH = "3e9deff6e799b9b548f1f68d0cc4ea77a1f94a9224abd3ed1997ad8673aebf0d33ecdf5a6b85611138fbf9a38c09b55bb6050c517556d90f508ce03b341ef7ec"
 
 RPROVIDES:${PN} += "libboost-graph-parallel.so.1.82.0 \
 libboost-graph-parallel1-82-0"

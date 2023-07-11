@@ -6,8 +6,8 @@ LICENSE = "BSL-1.0"
 
 PV = "1.82.0"
 
-RPM_NAME = "boost-gnu-openmpi2-hpc-devel-1.82.0-1.1.noarch.rpm"
-RPM_HASH = "eab3c0b7cd107687aeed98a9cc344bcb6d8e265c530ff88045a2786ecf30a3fb0ba0f486e7fa84f667ad55729c5db1efc8352a848e9822d683b11c752a7a4d1c"
+RPM_NAME = "boost-gnu-openmpi2-hpc-devel-1.82.0-1.2.noarch.rpm"
+RPM_HASH = "1e46571fb1058738261686b3f03d2ac8bde5fa12762bae01272ff27733ffccba0a7f183eb895b97d0ab400ed6c38d7eef46fb01e16009f6bffe520486de4f1f3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "boost-gnu-openmpi2-hpc-devel"

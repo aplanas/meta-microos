@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-bhaiksuki-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "1503c8bb1cb2c4ff0fe69627900602b09c7f0803df21e6c1568abaf75565ba033c450fd40fa633ae0a6cff425d590e5b636d80bc08dfafdefba098cb5b4be64d"
+RPM_NAME = "noto-sans-bhaiksuki-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "883999ee91fc96cb41620eed8e6560b03bbe2acb8505b9b4f7479532cf5828aaf983e940bc0b13ebaf00eb552d3aaf2aa0c7b976a6d06cffea01021bb3033f8c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-bhaiksuki \

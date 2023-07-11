@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.0.3"
 
-RPM_NAME = "python311-hkdf-0.0.3-2.17.noarch.rpm"
-RPM_HASH = "18ac7a19f7cdf4916b26bfedb907f0004a073f08c11a6183d096bff640757627bd722a3d9c6103d8fc2d0f108fdd6809adc20111dc97319960b7d32754882ae6"
+RPM_NAME = "python311-hkdf-0.0.3-2.18.noarch.rpm"
+RPM_HASH = "06d27ce34eb5e85af7d6ac408eb15f8f6757f61a5d8522b081354f798e2aebe4ae3e3e93a48201ae90f1becbf9e7f650e46435a340a3b17f34e1f8bef82455bf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-hkdf \
+RPROVIDES:${PN} += "python3-hkdf \
+python3.11dist-hkdf \
 python311-hkdf \
 python3dist-hkdf"
 

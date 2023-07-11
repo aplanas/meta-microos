@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libkmahjongg"
 DESCRIPTION = "Provides translations for the 'libkmahjongg' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libkmahjongg-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "fe4d528903c68972dd02b9b4b6bc1f5704f003ab0585d932a3fe85abea5f57a2133991a4d59e66deaeb023b38c43aced9cd48aff6d8842ee372a3bc71fa7f170"
+RPM_NAME = "libkmahjongg-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "1a2d65c8c72e3e1f6b3372e69643a93f3e93044a92549ced78a9f7897448559e7b2055b0eb69ff589a486af22c55bc71c1649c53dffe29de986a3a1b75fc731d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libkmahjongg-lang \

@@ -5,14 +5,13 @@ ExecutePreprocessor. \
 NBClient is a tool for parameterizing andexecuting Jupyter Notebooks."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.7.4"
+PV = "0.8.0"
 
-RPM_NAME = "python310-nbclient-0.7.4-1.1.noarch.rpm"
-RPM_HASH = "651e0fc4b72740e1f316e12c3a2e5e16068dc3c13c39035ae6566f7752129ba0f8073bb4a56fe3ffc46a59b080cb83271b24a6650b1c6b52365364abbfc607b5"
+RPM_NAME = "python310-nbclient-0.8.0-1.4.noarch.rpm"
+RPM_HASH = "eff49b18e75a3c1fe9a2b337d6ccd90953b892674bdf00c81142f4cf9a532d49ed3cd1d727833f638c2b58d10c0eb07c5f5ee4afdfa01f58c6f1e663a9bb0271"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-nbclient \
-python3.10dist-nbclient \
+RPROVIDES:${PN} += "python3.10dist-nbclient \
 python310-nbclient \
 python3dist-nbclient"
 

@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20220102"
 
-RPM_NAME = "libcthreads-devel-20220102-3.2.aarch64.rpm"
-RPM_HASH = "c700dbb22a4720c68237d5a0f1b34e25333dbb04643fcf11cb3bda00a9b952454563e7bcef222dcef63078a1f995eb08f44af6fa28e51a129f4efcd58054aeef"
+RPM_NAME = "libcthreads-devel-20220102-3.3.aarch64.rpm"
+RPM_HASH = "3a337c233d9c75dd7cfd07440667e32ef97eeee4c2377a825d0fa41b4722ac30f7ddc763993a348b6d48daf2c2204a44be7e4d70155568834e698d6e068644a7"
 
 RPROVIDES:${PN} += "libcthreads-devel \
 pkgconfig-libcthreads"

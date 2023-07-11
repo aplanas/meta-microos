@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.8.2"
 
-RPM_NAME = "xfce4-notifyd-lang-0.8.2-1.3.noarch.rpm"
-RPM_HASH = "599e3973c6c9cc55d642c8fd9e211dfcc762307a7e42c8ff8ef60696e1f9bf2b98a1beb35a76f2a161ea7a4f7909538f611186298887fb4858810d474bfecade"
+RPM_NAME = "xfce4-notifyd-lang-0.8.2-1.4.noarch.rpm"
+RPM_HASH = "c5e77d0f0b22db88bec68cf25a5272225af3038b6f31a78ec4d1f62064ca51068d7f05e492645ba7b34cc38c1538e2ec554dcb8dd8bb76437f563f990f3654e4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-notifyd-ast \

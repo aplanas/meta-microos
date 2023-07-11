@@ -14,8 +14,8 @@ LICENSE = "MIT"
 
 PV = "1.8.5"
 
-RPM_NAME = "libX11-devel-1.8.5-1.1.aarch64.rpm"
-RPM_HASH = "b956f2c3b74e73e8ff4822a64a78456f85f8046bbb0211cdb34115860c1591f52db44c5c914a09e9f302b015c35972aec42bb4570fdc3102f2e4b8b5e2897435"
+RPM_NAME = "libX11-devel-1.8.5-2.1.aarch64.rpm"
+RPM_HASH = "25a42706fdabc2ed902963801fcd3fc6e6edb68088ab3bee57d871bd0572cbcaaf79bf8fe73ae81e2d6129c34db3f7b1918106ba180879de4eeb8b4e2059ea78"
 
 RPROVIDES:${PN} += "libX11-devel \
 pkgconfig-x11 \

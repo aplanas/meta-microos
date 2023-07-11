@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "0.4.8"
 
-RPM_NAME = "libobby-0_4-1-0.4.8-11.29.aarch64.rpm"
-RPM_HASH = "564db3b5570bab5da786a5a985f5f2d5affb65ddf5eae53b8af5007bf83121994b8dfdff8fff193eb92fc793f910e36635a0a91e11e5440faaebed973624838a"
+RPM_NAME = "libobby-0_4-1-0.4.8-11.30.aarch64.rpm"
+RPM_HASH = "554c3b476b068c0c3b2927f09b881fd9ca845b32cbfadc5261d2438188f41019f3d589bae1a836074f61c274cf7e7696a2b5de48204fb357573366034d440e5a"
 
 RPROVIDES:${PN} += "libobby-0-4-1 \
 libobby-0.4.so.1"

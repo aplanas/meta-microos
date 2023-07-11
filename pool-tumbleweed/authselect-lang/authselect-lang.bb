@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.4.0+git.0.2c30265"
 
-RPM_NAME = "authselect-lang-1.4.0+git.0.2c30265-3.2.aarch64.rpm"
-RPM_HASH = "27a7f77da9139e2e2f6b2aa82147a3634c5b2ed504a8007c425fc1aac39c53e45a636d6dc4dd561c399af82f14f2cf123d894000c9151ded1d4d1a6cd3b095aa"
+RPM_NAME = "authselect-lang-1.4.0+git.0.2c30265-3.3.aarch64.rpm"
+RPM_HASH = "4a1c9429e5ac581453dc5065f5a1e1910525b4da92a283621fdf2fb3ebed8ee4e95bdce9515242f50c6ae633582beba6363b8efd9ad891851bef57ff69009eaf"
 
 RPROVIDES:${PN} += "authselect-lang \
 locale-authselect-ca \

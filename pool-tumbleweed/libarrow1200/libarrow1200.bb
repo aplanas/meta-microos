@@ -9,10 +9,10 @@ communication. \
 This package provides the shared library for Apache Arrow."
 LICENSE = "Apache-2.0 & BSD-3-Clause & BSD-2-Clause & MIT"
 
-PV = "12.0.0"
+PV = "12.0.1"
 
-RPM_NAME = "libarrow1200-12.0.0-1.1.aarch64.rpm"
-RPM_HASH = "8782bda917132721cb6bb70a22e133197269ad9c5fe50a0e303eac1f61af011f87a874d5ab8e389821a0c928853c9a34adc4f9d46ea31b22db1f9945c1cc4e02"
+RPM_NAME = "libarrow1200-12.0.1-1.1.aarch64.rpm"
+RPM_HASH = "0009e319a904b51261803b9af4f11f19f5a67dac15865fff04909469888c64de2c796c92443b9ee3430489b76ed149c393c3b1d5ddca557234a1ac69f965f54b"
 
 RPROVIDES:${PN} += "libarrow.so.1200 \
 libarrow1200"

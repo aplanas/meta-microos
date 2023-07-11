@@ -15,8 +15,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.1.1"
 
-RPM_NAME = "python39-rcssmin-1.1.1-1.4.aarch64.rpm"
-RPM_HASH = "9ec77ec2c102de3ee5c0b616c2786b4c5374515fd1004d94cc045fd52b3e27a43cd8f7c9b3ac90d8915d88e90027f2f1805e39e8f9f4244f27d2edff1d7e948e"
+RPM_NAME = "python39-rcssmin-1.1.1-2.1.aarch64.rpm"
+RPM_HASH = "5e4b16fd10b72804266b90ce248fff9e98d6e92e5629bfac7f4d256535bfb327b0fec43c727dc63af9c7fd5bf04a2eabd139a5fe38f37bad89cc762a5901122d"
 
 RPROVIDES:${PN} += "python3.9dist-rcssmin \
 python39-rcssmin \

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "6.3.0"
 
-RPM_NAME = "xfsprogs-scrub-6.3.0-1.1.aarch64.rpm"
-RPM_HASH = "5400cbfc993bc7ee1c3642656e1c7a274a04edf166bda4a626da8bb84d828fab6e764ff7b95ddff55b4f8606d3ad62b98f12f3856403a14b6d596c262f476c92"
+RPM_NAME = "xfsprogs-scrub-6.3.0-1.2.aarch64.rpm"
+RPM_HASH = "c84350d12663a34cd9166e72bde29491df0d9a47ee99c1bcac8e6d36c1925ce0b799353d76e4c1e1f68ee76daece600195521f4ef7e62e434c3d31a751b70fff"
 
 RPROVIDES:${PN} += "xfsprogs-scrub"
 

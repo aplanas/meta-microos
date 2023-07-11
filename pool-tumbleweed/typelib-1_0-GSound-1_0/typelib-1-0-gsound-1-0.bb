@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.0.3"
 
-RPM_NAME = "typelib-1_0-GSound-1_0-1.0.3-2.8.aarch64.rpm"
-RPM_HASH = "e6a9e9326ffc89625cd7da9f3acb9e8c9cda77a0bf3c7d27fc79bea659d0572591fcb41d65a51e286a67e4d76606fbe9fb1fb52f33d04606dbcbd7873512bcd4"
+RPM_NAME = "typelib-1_0-GSound-1_0-1.0.3-2.9.aarch64.rpm"
+RPM_HASH = "6a8c681bd0e3d838ac9acc01bfe62a4accfe94f7f393e0748f2cb877da38f6084e45d2cd2a7736498c2686ab3f5e3ecd4633c6a27d6d87208c89e6b1087edb07"
 
 RPROVIDES:${PN} += "typelib-1-0-GSound-1-0 \
 typelib-GSound"

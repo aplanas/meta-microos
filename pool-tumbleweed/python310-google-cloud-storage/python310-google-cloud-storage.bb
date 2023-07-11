@@ -7,12 +7,11 @@ LICENSE = "Apache-2.0"
 
 PV = "2.8.0"
 
-RPM_NAME = "python310-google-cloud-storage-2.8.0-1.2.noarch.rpm"
-RPM_HASH = "d5681817f1ee0135d18a9a1b44c53e2036c1148666e874b1c846efe17ec5abb167074e513d21c6c9e168a9d31762f33ed56b5fc42341501ece848397014d6a82"
+RPM_NAME = "python310-google-cloud-storage-2.8.0-1.4.noarch.rpm"
+RPM_HASH = "f3d09d1047ee05372a51a1d9b664fc40d387caeb9be08399ba9622b23dedbcd84c666a5c5cd9eb07b7da9554a1e54d1c784519b21a35225163543b4aa063ce4f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-google-cloud-storage \
-python3.10dist-google-cloud-storage \
+RPROVIDES:${PN} += "python3.10dist-google-cloud-storage \
 python310-google-cloud-storage \
 python3dist-google-cloud-storage"
 

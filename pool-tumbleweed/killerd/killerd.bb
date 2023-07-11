@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.1"
 
-RPM_NAME = "killerd-1.1-126.8.aarch64.rpm"
-RPM_HASH = "8368013dbb5b8e13511fd1b104cd221c73e7ecccc5b4042d24ce5bd5fb7b2c01b7e55462f1c583e788f7707d77cd5da5b555ba67aed721e3cb9ccbd04977ef5b"
+RPM_NAME = "killerd-1.1-126.9.aarch64.rpm"
+RPM_HASH = "8e94d8b6c4047bd3302179c6efe20e468360e2d7abe2c5da1d30c8f6ed27aad1b4327d483feec85ca0cfe3a105759cc7bdd52e22e38448fabef664025a0d3fb9"
 
 RPROVIDES:${PN} += "config-killerd \
 killerd"

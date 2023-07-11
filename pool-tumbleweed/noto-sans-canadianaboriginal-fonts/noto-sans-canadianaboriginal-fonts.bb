@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-canadianaboriginal-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "8f7dc4635a59538622bb9947a5621ec7b84b41f37d99c30d704e3bc683a3d0df381b50c2ad35f050c5060bd06a7eaaa51af242c08beb62d41c03ce820d634bc5"
+RPM_NAME = "noto-sans-canadianaboriginal-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "8ea9541cc9413133d83b5392a0d6b116b9d9a2c27bca81590a773615baa02b166fee6fa0d060e8bf8b7e4f5b6bee25d5c5a12b61926d539b3138fe64d96e1164"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-canadianaboriginal \

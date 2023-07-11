@@ -2,10 +2,10 @@ SUMMARY = "Runtime libraries for hwloc"
 DESCRIPTION = "This package contains the run time libraries for hwloc."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.9.0"
+PV = "2.9.1"
 
-RPM_NAME = "libhwloc15-2.9.0-3.1.aarch64.rpm"
-RPM_HASH = "4c104dd2829010cf1d81d33278ecf700b1593aa2e0df1dcb4eda5c351ba405cfea18c893405b1332fd0ef9b5784d53bf1d3c9310db1d0061d34702df9612db53"
+RPM_NAME = "libhwloc15-2.9.1-1.1.aarch64.rpm"
+RPM_HASH = "aa97ccfd7e3054c2631a5f54ab8c31f138ca46c2d5b8d7f9f0ffd95b3333bc5eba00db8fdd06fa2230f7f4bcd47909c3952b4db707f210825f94f298693763b7"
 
 RPROVIDES:${PN} += "libhwloc.so.15 \
 libhwloc15"

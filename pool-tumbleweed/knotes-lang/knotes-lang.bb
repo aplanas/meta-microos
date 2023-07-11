@@ -2,10 +2,10 @@ SUMMARY = "Translations for package knotes"
 DESCRIPTION = "Provides translations for the 'knotes' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "knotes-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "1a166d25199465a8c3483576a5d2bbcdacc7eac2cc4e6b330f765867dbbb23d3b8cd1e1e4b746ec1bc327156c7a907ead8cca6f87abf74fc32b0483fad440b11"
+RPM_NAME = "knotes-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "abcf979f1e0148976e9aeaa5242031d0900cd3509cbb65b96dfa30fd2fe9aedcd34d6188178b200487fdb8d63433c88108140c8022236673edba4ac7461f930c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "knotes-lang \

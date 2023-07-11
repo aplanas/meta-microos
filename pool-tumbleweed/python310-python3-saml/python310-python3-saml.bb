@@ -7,12 +7,11 @@ LICENSE = "MIT"
 
 PV = "1.15.0"
 
-RPM_NAME = "python310-python3-saml-1.15.0-1.1.noarch.rpm"
-RPM_HASH = "ee8a9b3ce28b7ca899d4cbecb94813184e14759880f5effe65e3c19185f88b27e85a9ece451b9fb8a8bee4f31ccc512ccc0cf1ff4e2042b53bda2ae5451a00f0"
+RPM_NAME = "python310-python3-saml-1.15.0-1.3.noarch.rpm"
+RPM_HASH = "d1f34cd4ca090c3f68623c0a211f64c303f615ff256f427013a3e88d75495dc19e28418e1140b88db97ca011756c0876364d1c2f0a0fb7117ac7ad7d49367b21"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-python3-saml \
-python3.10dist-python3-saml \
+RPROVIDES:${PN} += "python3.10dist-python3-saml \
 python310-python3-saml \
 python3dist-python3-saml"
 

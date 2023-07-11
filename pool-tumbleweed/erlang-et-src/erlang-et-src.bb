@@ -4,10 +4,10 @@ They are useful for educational purpose and as a base for creating \
 embedded systems."
 LICENSE = "Apache-2.0"
 
-PV = "25.3.2"
+PV = "25.3.2.2"
 
-RPM_NAME = "erlang-et-src-25.3.2-1.1.aarch64.rpm"
-RPM_HASH = "d914492a333a004f22279a720d4d54c2f92b57802f8712af6a0fa820d87232ff35a73d2c7e0812c0a9423a903958ead74aa5bcfaf3be5e6f498a7407c967e478"
+RPM_NAME = "erlang-et-src-25.3.2.2-1.1.aarch64.rpm"
+RPM_HASH = "33560bbf2b9e4fa8558d2e3ecfb750505e6f73888ed085e271acdca3cbacf0e8a0e82c1b1a6ed5cff66f6a9766c2cff9abefa59bec2560b09aecbe6209d6c521"
 
 RPROVIDES:${PN} += "erlang-et-src"
 

@@ -7,16 +7,16 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.2.38"
 
-RPM_NAME = "gns3-server-2.2.38-1.1.noarch.rpm"
-RPM_HASH = "4b8bbc960bc40f9d3de30226dc18fdbac09dc3f47dfdc5f0c05020b6e4e5cab43ee711df0356900498590c7e945870d7663d31d9b64bf6c6c43722e40abc6853"
+RPM_NAME = "gns3-server-2.2.38-1.2.noarch.rpm"
+RPM_HASH = "0863b9397f48775acdf92a6b624f2f7554616cb53a2a2311ac2041f6033c905db038005dd32a04e3ea5ebbb17e0b6d8b192ff0aa69635aaa929e55c65ba519c7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gns3-server \
-python3.10dist-gns3-server \
+python3.11dist-gns3-server \
 python3dist-gns3-server"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-/usr/bin/python3.10 \
+/usr/bin/python3.11 \
 /usr/bin/sh \
 busybox \
 cpulimit \

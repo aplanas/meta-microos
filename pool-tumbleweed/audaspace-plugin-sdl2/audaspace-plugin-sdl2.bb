@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.4.0"
 
-RPM_NAME = "audaspace-plugin-sdl2-1.4.0-1.4.aarch64.rpm"
-RPM_HASH = "8585c9b014c58b28711a62e785341e27c0de1dad91a557950b6d074ff321f141a907d2328157f8cb3fa10970d89331d88c62e33d0df2e9db53837e1266d3f82a"
+RPM_NAME = "audaspace-plugin-sdl2-1.4.0-1.5.aarch64.rpm"
+RPM_HASH = "a051bd5b6a7458881c699c77cc550e3edc0d2f84af0c1151fe6bf3bad6af464d596d73a529e5ccfc799ab2c6f1793a1b0ee474841276674e5ecf6be675578a03"
 
 RPROVIDES:${PN} += "audaspace-deviceplugin \
 audaspace-plugin-sdl2 \

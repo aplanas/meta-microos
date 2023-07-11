@@ -6,12 +6,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.1.7"
 
-RPM_NAME = "python310-uncertainties-3.1.7-1.4.noarch.rpm"
-RPM_HASH = "bab0c913092777de31a7b56b0591014688829d4034d891faeca04404c4beb8c7b5742f5abe86a3fc55c1246754c9191bb35021d28651ffcbb2765042bcb8033a"
+RPM_NAME = "python310-uncertainties-3.1.7-1.6.noarch.rpm"
+RPM_HASH = "2b094c255533dcc06b8bd0b72876cbda00b07cc72a686f6454fb3cd7650c69ef59b7b5328e1ae0d3d2c55cab77c9bbc3880867a68aa7da4c383b92d925be1c75"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-uncertainties \
-python3.10dist-uncertainties \
+RPROVIDES:${PN} += "python3.10dist-uncertainties \
 python310-uncertainties \
 python3dist-uncertainties"
 

@@ -7,8 +7,8 @@ LICENSE = "BSD-2-Clause & LGPL-3.0-or-later"
 
 PV = "5.13.0"
 
-RPM_NAME = "libzbc-gui-5.13.0-1.3.aarch64.rpm"
-RPM_HASH = "c3eda37049de2cbe2e455be2a3e44466575271b719a5095dd46ded4fc06e063dc37e363455f1b26d0648c28ccc82b5dfe26d8e3be77c1d987675214cf00c66a9"
+RPM_NAME = "libzbc-gui-5.13.0-1.4.aarch64.rpm"
+RPM_HASH = "bba21019dc83be6f4b33bf517bba65340c66ae6f852d8a357ad609329c703cf7c924d455ab58c3a8d6d295229ca55409fbe691f9ecfc897f0f198f13a80c0cef"
 
 RPROVIDES:${PN} += "libzbc-gui"
 

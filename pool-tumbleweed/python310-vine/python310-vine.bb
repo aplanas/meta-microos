@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.0.0"
 
-RPM_NAME = "python310-vine-5.0.0-2.3.noarch.rpm"
-RPM_HASH = "1e72ac51b0f222a32d3f93fe55323720e93a915ad8a4ab2af3cd6708f3437f4cfae7f961d0fa6113d9723a9a6de6bff90a73f53f636b22c19961bdcd4edacba9"
+RPM_NAME = "python310-vine-5.0.0-3.3.noarch.rpm"
+RPM_HASH = "818c10b7a9004469706854e4889ad916d967dd2360fe591844c53637ea0ae4797217e24dd30fdfd21998b64694b2cf7a3369ae6e15553a57fd7dd7842de3d1d2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-vine \
-python3.10dist-vine \
+RPROVIDES:${PN} += "python3.10dist-vine \
 python310-vine \
 python3dist-vine"
 

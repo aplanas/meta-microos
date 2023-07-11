@@ -8,8 +8,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.7svn54512"
 
-RPM_NAME = "texlive-guitarchordschemes-2023.201.0.0.7svn54512-53.1.noarch.rpm"
-RPM_HASH = "499fe2169be8ff05001b7a835929d15441b7392476424bb88781763ed6bce357bedb676f2bd603f4c636ce3f2db3803b472f474eaa6ccd994ad5351647a09c80"
+RPM_NAME = "texlive-guitarchordschemes-2023.201.0.0.7svn54512-53.2.noarch.rpm"
+RPM_HASH = "c2c458677583fc5ee8ee7533bbb4dbaebf580345b40196c07172c93740442fa6b92b7f4f45208fd5cd25480ec9827c28b30a0497fed617177da8ac3e470c3e68"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-guitarchordschemes.sty \

@@ -6,10 +6,10 @@ upstream version on extensions.gnome.org often leaks behind current \
 GNOME shell development."
 LICENSE = "GPL-3.0-only"
 
-PV = "3.0.3~10.10.0_42"
+PV = "3.0.3~20_0.10.0_44"
 
-RPM_NAME = "gnome-shell-extension-hamster-time-tracker-3.0.3~10.10.0_42-7.11.noarch.rpm"
-RPM_HASH = "fe7fba1ab28e01387e0e2b6f1b510d641ce30be1e651e2e280c10df4df61ad6a8519ddeaa137aab363ca889f7720ef9d37852f4b8c7c69e128ae5521fbdf0f78"
+RPM_NAME = "gnome-shell-extension-hamster-time-tracker-3.0.3~20_0.10.0_44-8.1.noarch.rpm"
+RPM_HASH = "5cb8ff736bcdd391218cf807dcb846205965de99248c1456590a7bb70be9836bd3de93684715748ac78887b54b853d4647677bb1da2751d9e2f4bfde5023abc2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-shell-extension-hamster \

@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0 & BSD-3-Clause & FTL & GPL-2.0-only & SUSE-GPL-3.0-with-fo
 
 PV = "4.0.2"
 
-RPM_NAME = "musescore-4.0.2-2.1.aarch64.rpm"
-RPM_HASH = "c29947d66de5b36757be96c087800edb800e38114a7c98fba6cf3923e5bde2ac90b5f4f62331658ff72ae7bf6f127ea7434e8e2835a4b4fc285b24773c1782b0"
+RPM_NAME = "musescore-4.0.2-2.3.aarch64.rpm"
+RPM_HASH = "dbff19ce04a8f9b563ee2600ff23f4b03c1cd4a8abce2e894fe77b3b3b0976cde81ce6bdbfe3513f8fb51b0aba1777bc8ad1b67ef250ae5b844c3c63982bd90e"
 
 RPROVIDES:${PN} += "musescore"
 

@@ -4,8 +4,8 @@ LICENSE = "SUSE-GPL-2.0-with-openssl-exception"
 
 PV = "23.02.2"
 
-RPM_NAME = "slurm-webdoc-23.02.2-1.1.noarch.rpm"
-RPM_HASH = "f59d9a213cdf5418bfbf231fc6eeb6dd820a413991f4d9f2d43ac80ddc4c6e45b3dcade83463962e1e81f808cd41baa776aec0dbb0fb4d773869bce5c6de5ee8"
+RPM_NAME = "slurm-webdoc-23.02.2-1.3.noarch.rpm"
+RPM_HASH = "c315d6c994e1356cb34f6a8742da7514242855f5f3cff6d20aee9279ff3ce8dd95e933c4da305c1a5c8ee087a27469d77f67d903986a07c863b508b0e2d8a4f1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-slurm-webdoc \

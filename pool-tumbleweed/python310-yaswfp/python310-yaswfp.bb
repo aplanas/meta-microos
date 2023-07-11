@@ -4,12 +4,11 @@ LICENSE = "GPL-3.0"
 
 PV = "0+git.1411687316.2a2cc6c"
 
-RPM_NAME = "python310-yaswfp-0+git.1411687316.2a2cc6c-1.9.noarch.rpm"
-RPM_HASH = "11e878ce6248ca6809c3f8cadcd5c01883f6cb75108a9dbe74093568335bcb75c8d914550221a24fa35dcafb7e018014447cf35c5b08c913b139ede8eb2d45d5"
+RPM_NAME = "python310-yaswfp-0+git.1411687316.2a2cc6c-1.11.noarch.rpm"
+RPM_HASH = "b25e4080c0d9f7bfd16086bfad9f41037823501d8b783ada620ebf68cd562ab2bc61709055a041b79dcec7becba915e9e5fe688ea4462d44e1179f26997f037c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-yaswfp \
-python3.10dist-yaswfp \
+RPROVIDES:${PN} += "python3.10dist-yaswfp \
 python310-yaswfp \
 python3dist-yaswfp"
 

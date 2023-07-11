@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.1.15"
 
-RPM_NAME = "jfsutils-1.1.15-20.5.aarch64.rpm"
-RPM_HASH = "0302c51635e622650c046740c09e1d80c47b8ac15a75bb526120e7e49eba5c26d328f58f2d7d373770cbb459da76fdb2b6db72b6d7b4df27f9bc6629fb1ed29c"
+RPM_NAME = "jfsutils-1.1.15-20.6.aarch64.rpm"
+RPM_HASH = "4e392d298108d0f9fed5eaeebb70e3e8cc6e4a692d098b190dd750ecccb9736cfcfff6c4f1be9c89d97f11213cf1204f4cc37f0f6db463232d215bf1627423b4"
 
 RPROVIDES:${PN} += "jfsprogs \
 jfsutils"

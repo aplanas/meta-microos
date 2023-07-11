@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.21svn57597"
 
-RPM_NAME = "texlive-quran-ur-doc-2023.201.0.0.21svn57597-53.1.noarch.rpm"
-RPM_HASH = "d66933248ae787112572b5de2546b1e91c530692a858c24d808088dea7bd2317be80f831021ecc8442c3014c6b16d42fc3670aa33b4059f12e2641f57de11af7"
+RPM_NAME = "texlive-quran-ur-doc-2023.201.0.0.21svn57597-53.2.noarch.rpm"
+RPM_HASH = "c5c69aa3cdac67079c3daf72149567144b78f0507c013d1ffbfc0ac3aa866eda1567a8cba40ef1b9644b7a14872acbcae2fbfa43b86019d1684dd8ad9b87038f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-quran-ur-doc"

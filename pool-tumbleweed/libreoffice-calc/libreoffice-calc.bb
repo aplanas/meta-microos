@@ -3,10 +3,10 @@ DESCRIPTION = "This module allows you to perform calculation, analyze informatio
 manage lists in spreadsheets by using LibreOffice office suite."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.1"
+PV = "7.5.4.2"
 
-RPM_NAME = "libreoffice-calc-7.5.4.1-1.1.aarch64.rpm"
-RPM_HASH = "4016a801dc4c98c7b8c3121387dcb19932b221275f56686747ca1d816df38eb7c076514d78de9af966a5fe6d2d3e633328806e1142dca1c9a4964ed93ec08e37"
+RPM_NAME = "libreoffice-calc-7.5.4.2-1.3.aarch64.rpm"
+RPM_HASH = "ed502b358db3bc145653e3c3a1e0c8c5bf039dcf82dfb78a35a40d05efc7ac9dccad3cc02a3888a5a11c4d514646efd0bb32bdf77b8aef665f43b5913f1eb3b0"
 
 RPROVIDES:${PN} += "libanalysislo.so \
 libcalclo.so \

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.1.2"
 
-RPM_NAME = "qlipper-lang-5.1.2-1.12.noarch.rpm"
-RPM_HASH = "eecf4a38dca458ee29f835965988e05a0ef225c6da568a5db9442bbf8c860980902bda0245b86aa3ff5f1a2049321a175d31406d299adda72cb9188caaf3a2fd"
+RPM_NAME = "qlipper-lang-5.1.2-1.13.noarch.rpm"
+RPM_HASH = "cf883f37dcd562ed9e651577e35aac1bfd69af4343836402fd6f83fad351d960fec6afab700f82529cd15e07d8856625fa7b9aa3b7f2af5217fefc5f67061e86"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qlipper-lang \

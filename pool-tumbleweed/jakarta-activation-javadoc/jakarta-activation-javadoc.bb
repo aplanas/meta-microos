@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.1.0"
 
-RPM_NAME = "jakarta-activation-javadoc-2.1.0-2.6.noarch.rpm"
-RPM_HASH = "2089ee8f74f5f1bdce96d8df8bef152ab428a599056d1b5d153a49d5ccf271e8412c7648b5ca3d332086ed9903e58ef9b973595279f6c7555e800912bc4dae26"
+RPM_NAME = "jakarta-activation-javadoc-2.1.0-2.7.noarch.rpm"
+RPM_HASH = "32b3d0382cf573a3c1898361a99db33622b2793871390660a196d533f0591f858b882c48554b48f20fa69bd3acb084c0280d6bcc756263df99ff9f427c04050e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jakarta-activation-javadoc"

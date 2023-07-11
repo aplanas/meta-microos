@@ -8,10 +8,10 @@ simple helper methods to get larger files from common open-access data \
 repositories."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.4.30"
+PV = "0.4.31"
 
-RPM_NAME = "python39-scikit-hep-testdata-0.4.30-1.1.noarch.rpm"
-RPM_HASH = "fc3eea492d88582e65872f7624e0c93ad47e4456e188d12e39d2f6ce9df489e5b822fbaf86a10824ab7fe9e2c3dc832df835a168729b8061edf9e773cff1acb6"
+RPM_NAME = "python39-scikit-hep-testdata-0.4.31-1.1.noarch.rpm"
+RPM_HASH = "a2d11211a9b438dcdd1f34ffac2201c30d33b5d041945aaeaebfb9b13ef850a1409b124c893ef1a641040f1465cb1f334de6e5879aec658346fe1cf50099b7c3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-scikit-hep-testdata \

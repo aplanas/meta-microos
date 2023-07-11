@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.7.7"
 
-RPM_NAME = "python39-Genshi-0.7.7-3.1.aarch64.rpm"
-RPM_HASH = "59adb155ac6b4a2abc53f83bdb55b7dd7d49c7eed9f85df6c3832f067037641b4c04c2db901e60490fcd7e7842ff19d9daa6cbe387ad6cf944e907ebbd67ba82"
+RPM_NAME = "python39-Genshi-0.7.7-3.3.aarch64.rpm"
+RPM_HASH = "cc8a5cfa54d4806238cd6c1ac660a421f94b16e5f6ceed646e4ab16ffd4d6f1dfe419759d21db52d55da094ca33a970f51266ed7334cf135b7cc6a5ae18d3b1e"
 
 RPROVIDES:${PN} += "python3.9dist-genshi \
 python39-Genshi \

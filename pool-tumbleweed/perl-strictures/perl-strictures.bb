@@ -31,13 +31,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.000006"
 
-RPM_NAME = "perl-strictures-2.000006-1.15.noarch.rpm"
-RPM_HASH = "4e7f761f2c584eb2f2c64ecc02c9af2f306c2080feb56419a10f60789c02e2f21e08e3dccebbe9714ab705f28bf691190e058fa94497c1e48ab1acadce527d44"
+RPM_NAME = "perl-strictures-2.000006-1.16.noarch.rpm"
+RPM_HASH = "e8324f05ba6cefcf1442db46e150c3b74cdbdfb518a12d39e650e18a96407d81355f7dc1a0d17b3955b42d6c134f54dc6ec7859375959b9a847a46a58ca8d91e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-strictures \
 perl-strictures--extra"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

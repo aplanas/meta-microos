@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.12.2"
 
-RPM_NAME = "seahorse-daemon-3.12.2-10.3.aarch64.rpm"
-RPM_HASH = "729dce2b13a04ee83af0433d50eb7493699eb917822f5d0787b96350da7b7138d8de1b1aeb9bf9e367f79abaafb9af2eb38942e15e9fba4ef89ddaa4b2dceef6"
+RPM_NAME = "seahorse-daemon-3.12.2-10.4.aarch64.rpm"
+RPM_HASH = "ed8ccc240667d76b4619bc4a690854fe21cb2592bdeaa59e12e6e423359c0c7bc6be8e520e5fd05e538a93d0a72a712964e836e7e32323ade70ee621c716bdcf"
 
 RPROVIDES:${PN} += "seahorse-daemon"
 

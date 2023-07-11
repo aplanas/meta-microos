@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.29.6"
 
-RPM_NAME = "rednotebook-lang-2.29.6-1.1.noarch.rpm"
-RPM_HASH = "fd0e384f9c388c35320e64be5abeddb8ebf88be9a4b99c5457292ffe1a86726183eba234382a997ba0a0da889a35aa0a18ddf6e5b6cf55b3634289a78ab11fb3"
+RPM_NAME = "rednotebook-lang-2.29.6-1.2.noarch.rpm"
+RPM_HASH = "02e273804b9b9dd041950ef981f5f9fa3374d79837d66421c2b28b00f3d58e132ef0e66a7e6021a10435619f096e0cd40241c365f53dea6c03c4b0f9dfb72aa1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-rednotebook-ar \

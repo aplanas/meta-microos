@@ -22,8 +22,8 @@ LICENSE = "MIT"
 
 PV = "1.0.4"
 
-RPM_NAME = "python39-django-pglocks-1.0.4-1.13.noarch.rpm"
-RPM_HASH = "a6600d7448a40d4a94fc96bc32682b3f4496b000cc7de71c2445e0332d4023dd38a4ceaf1942697dddd9572300f1fea5daa6137908b84bad11ed0ac91d4a2f29"
+RPM_NAME = "python39-django-pglocks-1.0.4-1.15.noarch.rpm"
+RPM_HASH = "4b239628fb1214192c424c36502894a6107ff27516cb3c759a72be7424d750c926c3e4dc89de356713f3c8a8798c9b19500c73909cbb9a0cc0f7314f25033200"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-django-pglocks \

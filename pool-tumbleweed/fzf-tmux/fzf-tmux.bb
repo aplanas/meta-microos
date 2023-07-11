@@ -3,10 +3,10 @@ DESCRIPTION = "Tmux integration for fzf. Includes a wrapper script, fzf-tmux, th
 separate tmux pane."
 LICENSE = "MIT"
 
-PV = "0.41.0"
+PV = "0.42.0"
 
-RPM_NAME = "fzf-tmux-0.41.0-1.1.noarch.rpm"
-RPM_HASH = "a8a5a605bc245fc4cb80bd9db6f60d9f9e3775656651e1722781654800c586c8ae3144862e4be16c95b871eb134ad2335231af7ea03e382e0f2e2ac9062f374f"
+RPM_NAME = "fzf-tmux-0.42.0-1.1.noarch.rpm"
+RPM_HASH = "6be23436607f9906cf6c1ef2ad76b79f78f94123b9e7a39064e755f981b677f18b04aa8990a05a7032d2d0b9a5212b40ca78c0d95a2436e4c780b34ed39c2e2c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fzf-tmux"

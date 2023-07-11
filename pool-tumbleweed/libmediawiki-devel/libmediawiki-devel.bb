@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.38.0"
 
-RPM_NAME = "libmediawiki-devel-5.38.0-1.3.aarch64.rpm"
-RPM_HASH = "ecb36f24c5a6b5e55b0541311681bab3134f0d2fd6a029827119641005c1e6751350e6e084ad71ad6fd5153ab18c801ecf39d5c4a7ad0453b9c6414eeca5800d"
+RPM_NAME = "libmediawiki-devel-5.38.0-1.4.aarch64.rpm"
+RPM_HASH = "b5ef610362880d5850b4ab8ae2f25aab2d937ef6ee47e12697dbc57bf77cc7a236153a2851deec1a9396b46b6fd81b2bdd63791dab39fa84dbbb3d063cd8d534"
 
 RPROVIDES:${PN} += "cmake-KF5MediaWiki \
 libmediawiki-devel"

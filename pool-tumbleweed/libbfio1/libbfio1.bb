@@ -6,8 +6,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20221025"
 
-RPM_NAME = "libbfio1-20221025-2.5.aarch64.rpm"
-RPM_HASH = "e90ffb3762f6eb507a6ee7e8b7c5055c8865b9a330559a7bd0be715c9cd1ca516380a60554dabd4a8b2ad7febf6d1ade2db36d250e545db6ccecd7bdff0030db"
+RPM_NAME = "libbfio1-20221025-2.7.aarch64.rpm"
+RPM_HASH = "584392a02549b63229c0462c4135c94960b20fc0c551191cc35ec10d9fd98928e325edd78c9dc0f4e94c11cdf65b8c5c9c7191862b8643b9ebc1283acdaace87"
 
 RPROVIDES:${PN} += "libbfio.so.1 \
 libbfio1"

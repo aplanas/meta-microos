@@ -6,8 +6,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "3.4.1"
 
-RPM_NAME = "python39-ssdeep-3.4.1-1.4.aarch64.rpm"
-RPM_HASH = "2fc8fb52535e704fc21fdcb21dee50ea1585dd244c832055e3edb75811264dc5b6f8290e9905d4e14ea84073a858d222b6b5d424100a1b3a2b86b8093b72f684"
+RPM_NAME = "python39-ssdeep-3.4.1-1.6.aarch64.rpm"
+RPM_HASH = "1b0e41b8f90545de4a45e214762821213dedc3be49e5ba348a77037b32e9256c88b50d98c0bbd0df6aee1ce3c2df1c8ff7020ebff313980c27d449dccc123d79"
 
 RPROVIDES:${PN} += "python3.9dist-ssdeep \
 python39-ssdeep \

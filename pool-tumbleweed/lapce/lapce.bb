@@ -4,10 +4,10 @@ It uses Xi-Editor's Rope Science for text editing, and the \
 Wgpu Graphics API for rendering."
 LICENSE = "(0BSD | Apache-2.0 | MIT) & (Apache-2.0 | MIT) & (Apache-2.0 | BSL-1.0) & (Apache-2.0 | ISC | MIT) & (Apache-2.0 | MIT) & (Apache-2.0 | MIT | Zlib) & MIT & (Artistic-2.0 | CC0-1.0) & BSD-2-Clause & BSD-3-Clause & BSL-1.0 & CC0-1.0 & ISC & MIT & (MIT | Unlicense) & MPL-2.0 & MPL-2.0+ & Zlib & zlib-acknowledgement & Apache-2.0"
 
-PV = "0.2.7"
+PV = "0.2.8"
 
-RPM_NAME = "lapce-0.2.7-2.1.aarch64.rpm"
-RPM_HASH = "9776fbc9685c6a1e997cefa8a44994e029b812dbdd1ae4b315d7a8d74b5df1568f1c43ecce9128d7842a24ffd0b65fee46e15cd07cbe88ccde240ca1fee06fe3"
+RPM_NAME = "lapce-0.2.8-1.1.aarch64.rpm"
+RPM_HASH = "383956bed8c8ae6801e650051d1874ec4a8b849bf96ff8917ea502bcd33810168658f1bf411b8bca16300f69381829d5501a947991ba1cef13a04e0dfdf7cd09"
 
 RPROVIDES:${PN} += "bundled-rust-crate-Inflector \
 bundled-rust-crate-addr2line \
@@ -18,12 +18,12 @@ bundled-rust-crate-alacritty-config \
 bundled-rust-crate-alacritty-config-derive \
 bundled-rust-crate-alacritty-terminal \
 bundled-rust-crate-ambient-authority \
+bundled-rust-crate-ansi-term \
 bundled-rust-crate-anyhow \
 bundled-rust-crate-arc-swap \
 bundled-rust-crate-arrayref \
 bundled-rust-crate-arrayvec \
 bundled-rust-crate-async-channel \
-bundled-rust-crate-async-lock \
 bundled-rust-crate-async-task \
 bundled-rust-crate-async-trait \
 bundled-rust-crate-atk \
@@ -46,6 +46,7 @@ bundled-rust-crate-bytemuck \
 bundled-rust-crate-bytemuck-derive \
 bundled-rust-crate-byteorder \
 bundled-rust-crate-bytes \
+bundled-rust-crate-cache-padded \
 bundled-rust-crate-cairo-rs \
 bundled-rust-crate-cairo-sys-rs \
 bundled-rust-crate-cap-fs-ext \
@@ -94,7 +95,6 @@ bundled-rust-crate-dirs \
 bundled-rust-crate-dirs-next \
 bundled-rust-crate-dirs-sys \
 bundled-rust-crate-dirs-sys-next \
-bundled-rust-crate-displaydoc \
 bundled-rust-crate-dlib \
 bundled-rust-crate-druid \
 bundled-rust-crate-druid-derive \
@@ -109,7 +109,6 @@ bundled-rust-crate-event-listener \
 bundled-rust-crate-exr \
 bundled-rust-crate-fallible-iterator \
 bundled-rust-crate-fastrand \
-bundled-rust-crate-fdeflate \
 bundled-rust-crate-fern \
 bundled-rust-crate-field-offset \
 bundled-rust-crate-file-per-thread-logger \
@@ -260,10 +259,10 @@ bundled-rust-crate-net2 \
 bundled-rust-crate-nix \
 bundled-rust-crate-nom \
 bundled-rust-crate-notify \
-bundled-rust-crate-nu-ansi-term \
 bundled-rust-crate-num-cpus \
 bundled-rust-crate-num-integer \
 bundled-rust-crate-num-rational \
+bundled-rust-crate-num-threads \
 bundled-rust-crate-num-traits \
 bundled-rust-crate-object \
 bundled-rust-crate-once-cell \
@@ -275,7 +274,6 @@ bundled-rust-crate-openssl-probe \
 bundled-rust-crate-openssl-src \
 bundled-rust-crate-openssl-sys \
 bundled-rust-crate-os-str-bytes \
-bundled-rust-crate-overload \
 bundled-rust-crate-pango \
 bundled-rust-crate-pango-sys \
 bundled-rust-crate-parking \
@@ -307,7 +305,6 @@ bundled-rust-crate-proc-macro2 \
 bundled-rust-crate-psm \
 bundled-rust-crate-psp-types \
 bundled-rust-crate-pulldown-cmark \
-bundled-rust-crate-qoi \
 bundled-rust-crate-quote \
 bundled-rust-crate-rand \
 bundled-rust-crate-rand-chacha \
@@ -332,6 +329,7 @@ bundled-rust-crate-rustybuzz \
 bundled-rust-crate-ryu \
 bundled-rust-crate-safe-arch \
 bundled-rust-crate-same-file \
+bundled-rust-crate-scoped-threadpool \
 bundled-rust-crate-scopeguard \
 bundled-rust-crate-self-cell \
 bundled-rust-crate-semver \
@@ -349,7 +347,6 @@ bundled-rust-crate-sid \
 bundled-rust-crate-signal-hook \
 bundled-rust-crate-signal-hook-mio \
 bundled-rust-crate-signal-hook-registry \
-bundled-rust-crate-simd-adler32 \
 bundled-rust-crate-simplecss \
 bundled-rust-crate-siphasher \
 bundled-rust-crate-sized-chunks \
@@ -380,22 +377,19 @@ bundled-rust-crate-thiserror \
 bundled-rust-crate-thiserror-impl \
 bundled-rust-crate-thread-id \
 bundled-rust-crate-thread-local \
+bundled-rust-crate-threadpool \
 bundled-rust-crate-tiff \
 bundled-rust-crate-time \
-bundled-rust-crate-time-core \
-bundled-rust-crate-time-macros \
 bundled-rust-crate-tiny-skia \
 bundled-rust-crate-tinystr \
 bundled-rust-crate-tinyvec \
 bundled-rust-crate-tinyvec-macros \
-bundled-rust-crate-to-method \
 bundled-rust-crate-tokio \
 bundled-rust-crate-tokio-macros \
 bundled-rust-crate-tokio-native-tls \
 bundled-rust-crate-tokio-socks \
 bundled-rust-crate-tokio-util \
 bundled-rust-crate-toml \
-bundled-rust-crate-toml-datetime \
 bundled-rust-crate-toml-edit \
 bundled-rust-crate-tower-service \
 bundled-rust-crate-tracing \
@@ -513,7 +507,6 @@ bundled-rust-crate-which \
 bundled-rust-crate-wiggle \
 bundled-rust-crate-wiggle-generate \
 bundled-rust-crate-wiggle-macro \
-bundled-rust-crate-winnow \
 bundled-rust-crate-witx \
 bundled-rust-crate-xattr \
 bundled-rust-crate-xi-unicode \
@@ -526,7 +519,6 @@ bundled-rust-crate-zeno \
 bundled-rust-crate-zstd \
 bundled-rust-crate-zstd-safe \
 bundled-rust-crate-zstd-sys \
-bundled-rust-crate-zune-inflate \
 lapce"
 
 RDEPENDS:${PN} += "libc.so.6 \

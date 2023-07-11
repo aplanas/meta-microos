@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.1.1"
 
-RPM_NAME = "plexus-languages-1.1.1-2.6.noarch.rpm"
-RPM_HASH = "4a0f004542d0e31fd205bbeade0b285ab69255c73f4e0e1eafb2b0a5bb858a24225e2dde863cb21078c9c3b015bc585bb48b094090f9adfa92a0be84ba683fb1"
+RPM_NAME = "plexus-languages-1.1.1-2.7.noarch.rpm"
+RPM_HASH = "4a9781a6aacff32dbcdd0ab34a0ca40b5fe3c998034b6bd6bdd5805fe2965d3442ab57d1890e83e9de1b240f9c7cf13c101fb2095a17a6c2a041ed1ab38678e9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.codehaus.plexus-plexus-java \

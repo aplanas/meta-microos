@@ -6,8 +6,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.10"
 
-RPM_NAME = "perl-Code-DRY-0.10-1.22.aarch64.rpm"
-RPM_HASH = "bec6fe8cb5c9fe76933defe6d51ced03b6885c645f979bf15fe898d12e04e5c038d0f7cf2eaeaabc88950c0798c9c7cb93305aa257502a420d32da1e2fe054ff"
+RPM_NAME = "perl-Code-DRY-0.10-1.23.aarch64.rpm"
+RPM_HASH = "219a381895b9b38cc920e5ee687843be7aee2c771d71e5e87f16413dcecc0e06ecdb61c5223fb259b36bec7ad767ff28bb08e0914da6e0b359725004d5c76bc4"
 
 RPROVIDES:${PN} += "perl-Code--DRY \
 perl-Code-DRY"
@@ -15,7 +15,7 @@ perl-Code-DRY"
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-ExtUtils--CBuilder \
 perl-Module--Build \
 perl-TAP--Harness"

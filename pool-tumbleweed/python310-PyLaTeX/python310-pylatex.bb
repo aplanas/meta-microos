@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.4.1"
 
-RPM_NAME = "python310-PyLaTeX-1.4.1-2.11.noarch.rpm"
-RPM_HASH = "bfda15b147f794d06423919c895ec5045358c6097036fc1bb29092fdad03066f59d8d3019592ef198c7ae6ac7882c2f160b36b1f62bbd7d3fef3b602a2b07898"
+RPM_NAME = "python310-PyLaTeX-1.4.1-2.13.noarch.rpm"
+RPM_HASH = "b08dbad3065793935c2bfd9288045f59e946fe58e66e4b431d51ca6e1d5766c002dbb72e25ed2e182d1cbfba08573ec4cd05698e122080a225b99521aaf1de0e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-PyLaTeX \
-python3.10dist-pylatex \
+RPROVIDES:${PN} += "python3.10dist-pylatex \
 python310-PyLaTeX \
 python3dist-pylatex"
 

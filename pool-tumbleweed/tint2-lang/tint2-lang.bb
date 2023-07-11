@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "17.0.2"
 
-RPM_NAME = "tint2-lang-17.0.2-1.7.noarch.rpm"
-RPM_HASH = "af0605b8d49b6f91780aaaaea083262a659732a9ea93704165ef6dd0e4cda67d8a2a14d2e1d97097e56def653beeb150b4dff433fb01f63ea09d966d57c8f5fa"
+RPM_NAME = "tint2-lang-17.0.2-1.8.noarch.rpm"
+RPM_HASH = "05ad37eca3b347cbe6d207eb1c3f8effad840f306ec933f67feed6ae8632f166776e908043c2a0950c90a19e8bd36f35c7de55d774b2dfa1ca9da1051763b3b3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-tint2-bs \

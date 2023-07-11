@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python39-azure-mgmt-servicefabricmanagedclusters-1.0.0-2.2.noarch.rpm"
-RPM_HASH = "1223e0d3885612e119b970d34c397193dca2c6045033c8b413093935aa0270603b26a212d80d2f568bb5102e0780938e7dd625d07054934cc29e9570002b5692"
+RPM_NAME = "python39-azure-mgmt-servicefabricmanagedclusters-1.0.0-2.3.noarch.rpm"
+RPM_HASH = "2540d407f9d9b3d953ad95aeb8c7f1792206a6df4d0a6ad2eb44cd6e51e2ffa6a6e695dda822dafffb8dfd858c8f51f66c19ea177543f7ed8574321ce95c32eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-servicefabricmanagedclusters \

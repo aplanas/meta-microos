@@ -6,10 +6,10 @@ to guarantee that all checks succeed also on the service side. This plugin can b
 used via project wide defined services."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.30"
+PV = "0.31"
 
-RPM_NAME = "obs-service-source_validator-0.30-1.1.noarch.rpm"
-RPM_HASH = "91a88c1d2adc0dbce735adf094d9f164b39bdce6d189b07fd7692884c1e66091894e49d7495b3fc9fe3cfedce2fbeb2430b0ee518418fcdf7445648a887a28a0"
+RPM_NAME = "obs-service-source_validator-0.31-1.1.noarch.rpm"
+RPM_HASH = "72b351017e693361d5d22f05064ce2b2011e55d1fcabd7149f18b7786ba5c681194a58f4716713f99d879663de83f2b18ffb54c39e8c8cabd338acf863b4efb3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "obs-service-source-validator \

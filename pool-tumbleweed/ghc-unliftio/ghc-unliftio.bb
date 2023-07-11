@@ -3,13 +3,13 @@ DESCRIPTION = "Please see the documentation and README at \
 <https://www.stackage.org/package/unliftio>."
 LICENSE = "MIT"
 
-PV = "0.2.24.0"
+PV = "0.2.25.0"
 
-RPM_NAME = "ghc-unliftio-0.2.24.0-1.3.aarch64.rpm"
-RPM_HASH = "9b0467b4cda9b41b37e2da44ffdaea688cd15b9c05b4706823012c439b9338c173ed04e67ec0f3c043b1fdd369724ee099aee6ae7c178b280e673bb26dcbbf4b"
+RPM_NAME = "ghc-unliftio-0.2.25.0-1.4.aarch64.rpm"
+RPM_HASH = "f60c7eb916a6e0e34fe6ab77bd0e65948ee475468540016432b374dae12021e8080f3d15cb146bbe749b7dae7ed91deceb9898173e2dac10e995077e602048ac"
 
 RPROVIDES:${PN} += "ghc-unliftio \
-libHSunliftio-0.2.24.0-Dgc3Qshya29BgIaWsfBy4D-ghc9.4.5.so"
+libHSunliftio-0.2.25.0-DN1mY49M6dHDqA19Vm4lY3-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libHSarray-0.5.4.0-ghc9.4.5.so \
@@ -29,7 +29,7 @@ libHShashable-1.4.2.0-FFBRhuY0w4YLmuLEs5uQAt-ghc9.4.5.so \
 libHSmtl-2.2.2-ghc9.4.5.so \
 libHSpretty-1.1.3.6-ghc9.4.5.so \
 libHSprocess-1.6.16.0-ghc9.4.5.so \
-libHSsafe-exceptions-0.1.7.3-4ydW60ruqZ4IdMpKf3b6BD-ghc9.4.5.so \
+libHSsafe-exceptions-0.1.7.4-8XVKrMBchTjCLhdcvBwBNb-ghc9.4.5.so \
 libHSstm-2.5.1.0-ghc9.4.5.so \
 libHStemplate-haskell-2.19.0.0-ghc9.4.5.so \
 libHStext-2.0.2-ghc9.4.5.so \

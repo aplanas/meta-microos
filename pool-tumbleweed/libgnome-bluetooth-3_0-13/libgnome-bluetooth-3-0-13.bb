@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "42.5"
 
-RPM_NAME = "libgnome-bluetooth-3_0-13-42.5-1.3.aarch64.rpm"
-RPM_HASH = "8c4ccadf69d083134bab340edc43dc6b64bbf2f7dbbb07e6c67681c5938db20672d1215b00e1c3f32599730d5e405eea5ccb50b7c2bd406f7b3ce5d0534dcae4"
+RPM_NAME = "libgnome-bluetooth-3_0-13-42.5-1.4.aarch64.rpm"
+RPM_HASH = "670d728236c57540a5a03e47dbdab90c32ab8d7465e2fdb5c2dcb405b87a26b218037c911a414f197eab312193f2c5f341cf3a93cec6191d9e87a7aee84a247f"
 
 RPROVIDES:${PN} += "libgnome-bluetooth-3-0-13 \
 libgnome-bluetooth-3.0.so.13"

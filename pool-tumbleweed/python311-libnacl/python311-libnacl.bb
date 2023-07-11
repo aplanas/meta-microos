@@ -6,10 +6,11 @@ LICENSE = "Apache-2.0"
 
 PV = "1.7.2"
 
-RPM_NAME = "python311-libnacl-1.7.2-2.8.aarch64.rpm"
-RPM_HASH = "9c160fd702c9753def0391d256c506a31d28edad99a1a6289fe60b6a129e544eb873001d3f871119b7a07052bbf99a0a0455b930028b0b761e4b8e5a523edcfd"
+RPM_NAME = "python311-libnacl-1.7.2-3.1.aarch64.rpm"
+RPM_HASH = "1e79fb75a3ba6891326b87ef011c054e5da35758086087fa99da69e068c0eb31fc25773ca08646c1867b50cf551bbf906bc73dd3bd7262f94d102905dd68463b"
 
-RPROVIDES:${PN} += "python3.11dist-libnacl \
+RPROVIDES:${PN} += "python3-libnacl \
+python3.11dist-libnacl \
 python311-libnacl \
 python3dist-libnacl"
 

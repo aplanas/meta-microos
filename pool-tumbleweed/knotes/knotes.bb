@@ -2,10 +2,10 @@ SUMMARY = "Popup Notes"
 DESCRIPTION = "KNotes is a note taking application by KDE."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "knotes-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "5c6a5bda0490de82bd8fdc29943a2532881a45add1700631e71c3fcd7ae1c8469aa650cc61ec006d1a5eac0b351392925f64b3c230005c680fe81d6a1c876cb6"
+RPM_NAME = "knotes-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "4364ee1cf7536f6bb9b2ba1d8ae2bd37f80f28f45f6945a5cf3f471b9424d0b9434817c72709156b993523e384899469ad13d314f3582f1ced51daac30985f37"
 
 RPROVIDES:${PN} += "knotes \
 knotes5 \

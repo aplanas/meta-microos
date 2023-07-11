@@ -2,10 +2,10 @@ SUMMARY = "Documentation for hwloc"
 DESCRIPTION = "This package contains the documentation for hwloc."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.9.0"
+PV = "2.9.1"
 
-RPM_NAME = "hwloc-doc-2.9.0-3.1.noarch.rpm"
-RPM_HASH = "e6d0fef550f8a622ce008b0946f8d849b8f3521237b499550e1ccc26b6bce7aa511769ba1b271ae82a8fe145bb7b2e17cb93e0be8315231ef72f9a1eac57ef36"
+RPM_NAME = "hwloc-doc-2.9.1-1.1.noarch.rpm"
+RPM_HASH = "37c8ac719fb297b846d766fc4cc1ff3272296f8fa807335c230f945b1a0cd2d868896a24b72d2895339746f1d8edbc74c94762aceb925996f1a9997fe6a1c123"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hwloc-doc"

@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-dbus-private-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "47543315e4074c32a75245f4a869c7c287f2e8378137b1f4db6e79270cd1712a27248a3a72d204a7e476db30f288096cb06060bb3ecf3aadd17f3a12bf2b77db"
+RPM_NAME = "qt6-dbus-private-devel-6.5.1-3.1.aarch64.rpm"
+RPM_HASH = "4afc6328284acaf19950d9d430c9bb8f6359377eb8188b3a3eea743422304faf9dcaff9c8650c45c73c93e245fe3d4651953cbcad527b0cd3d42ea3d5288a7f1"
 
 RPROVIDES:${PN} += "qt6-dbus-private-devel"
 

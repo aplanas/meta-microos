@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "3.1.0"
 
-RPM_NAME = "python39-portend-3.1.0-2.1.noarch.rpm"
-RPM_HASH = "9f692e0050feeaf6e8d71a11bd3de1c47884bf07f152d432ff099fcd19cd033d7b67411ae4c0e8d77b6613155558816733b2ef631aec8efb32cf1dd53a8da34d"
+RPM_NAME = "python39-portend-3.1.0-2.3.noarch.rpm"
+RPM_HASH = "7eeebfe6c6edde11df9a43279b712c6e0aa06a8c884e5be5394103da5f395b940012c65a247ad0675115c82b1f81a4c9d66edb74f7d69ad47a9da8cc82fce775"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-portend \

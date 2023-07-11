@@ -9,10 +9,10 @@ It allows a simple integration of external plugins, which \
 allows downloading a daily wallpaper from any one provider."
 LICENSE = "GPL-3.0+"
 
-PV = "3.2.3"
+PV = "3.2.4"
 
-RPM_NAME = "UltimateDailyWallpaper-3.2.3-1.1.aarch64.rpm"
-RPM_HASH = "92a2eca1ee891d97be18d4cea23935ae1289e6906dd31dad3463e6657e77457e5f4607bfa71cd75761f835b1c6318972b6759b648af0251ff4d5b8c346d60156"
+RPM_NAME = "UltimateDailyWallpaper-3.2.4-1.1.aarch64.rpm"
+RPM_HASH = "bf158de56b5ebdb2f9bc8d3fe9d0d3382210536f2b01bdff317b53e8b8f7a920d36835d2f59e39ab3afe07f5e12d444ee161ab29d2102fa7b792cfcee154c1bd"
 
 RPROVIDES:${PN} += "UltimateDailyWallpaper \
 libbing-wallpaper-downloader-0.0.4.so \

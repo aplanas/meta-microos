@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0b1"
 
-RPM_NAME = "python39-azure-mgmt-regionmove-1.0.0b1-2.11.noarch.rpm"
-RPM_HASH = "2e9c1c0c4a31b97a21fe75128f64f9140806a036eced01001dc886ad114f98d305cfeeca4440fe164a306d29e9cc4dd9a768f618434f176e990403eb3fcf6c8c"
+RPM_NAME = "python39-azure-mgmt-regionmove-1.0.0b1-2.12.noarch.rpm"
+RPM_HASH = "3340e4b0f11519b110d9b474b05922f8161670d55bc00fb90eb6f98189721ad2ea60b6613b1aa2f4bd2fcb3e65cab4b46380e43b6352f93bb5d6d78ea67546ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-regionmove \

@@ -5,11 +5,12 @@ LICENSE = "Apache-2.0"
 
 PV = "4.0.0"
 
-RPM_NAME = "python311-napalm-4.0.0-2.4.noarch.rpm"
-RPM_HASH = "cb653bdd6a4a9b85e9344cc78d6977aa0634475e6af777c2d8fee8e9e7fc268694ce951be09dda3f6cd7b633426f2bb40b71e5cc6842287eca14daed06eba486"
+RPM_NAME = "python311-napalm-4.0.0-2.6.noarch.rpm"
+RPM_HASH = "88ee2c7cf1f2cce3381a99dead1cafa389c8eaff70eb6f1fc5ddcb9c47c787507ffee03e65e1660c0ba59695fa8bfbaf3448f91d2910f4d9e24e92b6ebfaa5bd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-napalm \
+RPROVIDES:${PN} += "python3-napalm \
+python3.11dist-napalm \
 python311-napalm \
 python3dist-napalm"
 

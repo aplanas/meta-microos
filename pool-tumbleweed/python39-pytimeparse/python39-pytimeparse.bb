@@ -23,8 +23,8 @@ LICENSE = "MIT"
 
 PV = "1.1.8"
 
-RPM_NAME = "python39-pytimeparse-1.1.8-3.12.noarch.rpm"
-RPM_HASH = "b53d757cc314f08305200b408a295494438644fe2dd90419b1ccdf651b200fdbf197ef8e4b7fa18ad843c2a5937a2ef9a2a6f7610a934a4958c33458bb3310d4"
+RPM_NAME = "python39-pytimeparse-1.1.8-3.14.noarch.rpm"
+RPM_HASH = "08187c73de3177e321bffd52b2133655720fadeed41a2aff2a76cbaad058952340567802c5846c7c26b42a6a47625be1a308fc1072125c67a21f69a4a6ad1147"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytimeparse \

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "5.10.1"
 
-RPM_NAME = "libgwengui-cpp79-5.10.1-1.4.aarch64.rpm"
-RPM_HASH = "c671f96b5954ce487ef5ebdd475dbc88812ffeca4b846963ec1675a54c626dbb121d96bdb47993211648c4757bf43660d05ff9b75af7de50ec9ca65fa8714929"
+RPM_NAME = "libgwengui-cpp79-5.10.1-1.5.aarch64.rpm"
+RPM_HASH = "404f80c0ae5ca169f952270dbfa0b69b17fed9c493191c30cc288446f59fda3018facd5a1df7b770600e2ffb5f46402d09a5db8f610a683e072330ee2ab0d59d"
 
 RPROVIDES:${PN} += "libgwengui-cpp.so.79 \
 libgwengui-cpp79"

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.2.18"
 
-RPM_NAME = "libtoxcore2-0.2.18-1.4.aarch64.rpm"
-RPM_HASH = "ac5a627158a289e6fe67df76393344f82d341215a1e4898a8d79e1ecd6d6184cf030a6550ce8060c64e3477477c8371a74d6ba320aa5640fb74c0a42bf1da32d"
+RPM_NAME = "libtoxcore2-0.2.18-1.5.aarch64.rpm"
+RPM_HASH = "fa877177356840f2a49be0e06013534a02d25ff80fd5e5315bd5ae87b7963187b7472e5b16e89008afe9da403a2ae04d4bd27f3d5830b283cd4f3bda9f12e10c"
 
 RPROVIDES:${PN} += "libtoxcore.so.2 \
 libtoxcore2"

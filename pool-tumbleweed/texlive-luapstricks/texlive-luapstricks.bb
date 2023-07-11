@@ -7,10 +7,10 @@ and instead allows PSTricks to be used exactly like in dvips \
 based documents."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.8svn65913"
+PV = "2023.208.0.0.8svn65913"
 
-RPM_NAME = "texlive-luapstricks-2023.201.0.0.8svn65913-52.1.noarch.rpm"
-RPM_HASH = "5fb2ec21a7731939be4cc94ee631d1580db12db90cfa1a93aaaa6b6e09a90f6c65ea5757eab73331eb389bc152305fe5118c37a8f79d78c508621880651df0e4"
+RPM_NAME = "texlive-luapstricks-2023.208.0.0.8svn65913-53.1.noarch.rpm"
+RPM_HASH = "de7997d798c2c5b3ff6adc4e14b23b988164a4e3f1989840ca4e74da3ecdde764c1f9f7966287fa626425dc75d92bf8db1f8fc352e621f7b982c864ca49abda5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-luapstricks"

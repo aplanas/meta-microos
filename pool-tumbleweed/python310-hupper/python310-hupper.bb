@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "1.10.3"
 
-RPM_NAME = "python310-hupper-1.10.3-1.4.noarch.rpm"
-RPM_HASH = "c2b28593df834940cd1b1583d030be00964b3d9864bbf340698becb70d0bc41411dc915baf59a428526c164a7a54e3026b321d2f454c7eab428edb393784f220"
+RPM_NAME = "python310-hupper-1.10.3-2.3.noarch.rpm"
+RPM_HASH = "139c0304c7346d18ff1aefc5fddde53bd258d081729d22797dd39442eeaa7bc0ed664245e695017934c20888861b5d0b5247b572bdf1c4f80af8e8fd42973d23"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-hupper \
-python3.10dist-hupper \
+RPROVIDES:${PN} += "python3.10dist-hupper \
 python310-hupper \
 python3dist-hupper"
 

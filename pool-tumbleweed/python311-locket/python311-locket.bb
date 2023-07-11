@@ -19,11 +19,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.0.0"
 
-RPM_NAME = "python311-locket-1.0.0-1.4.noarch.rpm"
-RPM_HASH = "5cf11fd2dc27d64eeec864c16b1a666e3db94037f8ce5ef2c3f9a267123ebb607ad7861fd7db69bce1260bbc938574be21bffc7e389b745d0b0978e37e4649cd"
+RPM_NAME = "python311-locket-1.0.0-1.6.noarch.rpm"
+RPM_HASH = "ae0adaa450ed9e305044c2936b7b137676cce737ac374f19ae6bd337b6fa1c557ac367b76326112f4b55266d4e7af47ad16a11bb2f648190faad767f3f46cc4e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-locket \
+RPROVIDES:${PN} += "python3-locket \
+python3.11dist-locket \
 python311-locket \
 python3dist-locket"
 

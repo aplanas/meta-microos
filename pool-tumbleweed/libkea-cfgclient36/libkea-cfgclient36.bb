@@ -12,8 +12,8 @@ LICENSE = "MPL-2.0"
 
 PV = "2.2.0"
 
-RPM_NAME = "libkea-cfgclient36-2.2.0-2.4.aarch64.rpm"
-RPM_HASH = "73ec7ec73cd80ff8e70e18a6d3c68eb27809e5eabcdc13d00ec7f7950c51fd5bd0e45a8c015e8c93a51dd4e553314fae3badca4fae786483d775b8a7f65220d7"
+RPM_NAME = "libkea-cfgclient36-2.2.0-2.6.aarch64.rpm"
+RPM_HASH = "5581c7e0421582a6ec6fdb7bb9f909f77e87d7f85e62a9c4e24da2cefafdfa291fa644b34a57e0f68353e05ddfbd9a6d0fbe6053fa95fa1c9fff525af7acdecf"
 
 RPROVIDES:${PN} += "libkea-cfgclient.so.36 \
 libkea-cfgclient36"

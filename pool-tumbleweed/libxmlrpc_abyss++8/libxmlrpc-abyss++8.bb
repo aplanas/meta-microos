@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause & MIT"
 
 PV = "1.54.06"
 
-RPM_NAME = "libxmlrpc_abyss++8-1.54.06-1.3.aarch64.rpm"
-RPM_HASH = "ad06193afacb190e2282959de6abcce239227aa525458dc8e98c8eb9917c1bd419e5397c56239bacfb405d1159325a19ade53fea958ba1b8691340c03be88dcc"
+RPM_NAME = "libxmlrpc_abyss++8-1.54.06-1.4.aarch64.rpm"
+RPM_HASH = "51a4d824047c38292479e1ca4b33f9f747785193be112144e26ed218d5b6a2306ef8e8576735b7f97f4bc1e9c4b88165a5b718c5daaf5dca3d86cd18c403c040"
 
 RPROVIDES:${PN} += "libxmlrpc-abyss++.so.8 \
 libxmlrpc-abyss++8"

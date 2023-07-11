@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "4.1.0"
 
-RPM_NAME = "gcr-ssh-agent-4.1.0-1.1.aarch64.rpm"
-RPM_HASH = "0352cbc865d5be52f2ad9118db1beaed64f5565808eef4556209e258357d90c6bd09dd73cc9eedccba8f7890f359c8576ef3eacb49fc42aceb959625596f4e4d"
+RPM_NAME = "gcr-ssh-agent-4.1.0-1.2.aarch64.rpm"
+RPM_HASH = "d6bdc2e9b1f74f38c4473cc182e030aa93138a7b1659ce5cec9a164f5ffa4f182e148b325eed8419dc2a2d02d6eef96b86d290e2892fbca2304aaa2e6d9cac37"
 
 RPROVIDES:${PN} += "gcr-ssh-agent"
 

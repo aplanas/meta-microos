@@ -5,12 +5,12 @@ LICENSE = "Apache-2.0"
 
 PV = "3.5.0"
 
-RPM_NAME = "python3-reno-3.5.0-1.7.noarch.rpm"
-RPM_HASH = "a042d8a7c373af20a90ae21e1e6d414b25a6d7cb94acf714c932911b22169713836f8d382ddc9cc920f1af12575f877769b520c3233307e6074026eec88e6831"
+RPM_NAME = "python3-reno-3.5.0-1.8.noarch.rpm"
+RPM_HASH = "e67bedc2969a71b2329372e9106f987bcbdabcab1d098e3bb2ce19631c30c3dd4afb105032c32174e9d666ecb760631813b0f03e48e69e37fb1a350280d0d7d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-reno \
-python3.10dist-reno \
+python3.11dist-reno \
 python3dist-reno"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

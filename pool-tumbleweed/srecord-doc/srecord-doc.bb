@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0+"
 
 PV = "1.64"
 
-RPM_NAME = "srecord-doc-1.64-4.32.noarch.rpm"
-RPM_HASH = "99dff7519e9d3a71c93578a3457813a90b42a7ee3d1a19a41bc37ecd0146540e71f5b2cd36296d09c03253f95e2eac1519ebbdae56b23dd73d3a1c42770379f5"
+RPM_NAME = "srecord-doc-1.64-4.34.noarch.rpm"
+RPM_HASH = "09117b0e212c7c3e3d70288b21cde54185edbd0574372db8e4f3ac37d5af4f2ea8f5d7db80c144a626dfa5418dbd23e46c40e15a81464f5601941498f17361f7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "srecord-doc"

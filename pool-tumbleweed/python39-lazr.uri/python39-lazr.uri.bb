@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.0.6"
 
-RPM_NAME = "python39-lazr.uri-1.0.6-1.8.noarch.rpm"
-RPM_HASH = "f5134a388549fd506d3267f7c95dc65efafbc25deedf5b322bf948f897fd213259b4f80647968b54cbcc598b120a16d0889233779a392e28173348acc9c70bcd"
+RPM_NAME = "python39-lazr.uri-1.0.6-1.10.noarch.rpm"
+RPM_HASH = "9f1a201409d6e5b2c8a75e435ffbc5b1569b08c82286749b3be5f0029f2da3527679c13cd6c8964db08ff1eee0a29ea50d0b71cf3bcb72e341f9848ceb9f8dbd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-lazr.uri \

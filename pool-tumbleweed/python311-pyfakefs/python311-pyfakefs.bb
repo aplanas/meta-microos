@@ -7,11 +7,12 @@ LICENSE = "Apache-2.0"
 
 PV = "5.2.2"
 
-RPM_NAME = "python311-pyfakefs-5.2.2-1.1.noarch.rpm"
-RPM_HASH = "7b9f1a317c2fe99149efb4d1c338a4356db4a85758d4db78237d040db8076e5babf1c1d86da7496405d4714d5f2bde5211e81da1d02d9b39b52a02ae74dff410"
+RPM_NAME = "python311-pyfakefs-5.2.2-1.2.noarch.rpm"
+RPM_HASH = "104f4b5443c11ff28b8c8c91836c99d1cd5a5795c5c7894e26352c061369d0c40774b4040b22a1db07c863a8198cc1fb60e3672276ea5b33f22f2ac7c9704eea"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pyfakefs \
+RPROVIDES:${PN} += "python3-pyfakefs \
+python3.11dist-pyfakefs \
 python311-pyfakefs \
 python3dist-pyfakefs"
 

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package sound-juicer"
 DESCRIPTION = "Provides translations for the 'sound-juicer' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.38.0"
+PV = "3.40.0"
 
-RPM_NAME = "sound-juicer-lang-3.38.0-3.7.noarch.rpm"
-RPM_HASH = "34544568164a66fa13d729fd67c82321e4d4ace9dfe088dd27dddc73951afb5020d50602e1c8a94897fc20d5bbf5d214c9212f3a45dde6544fce3bea743cacae"
+RPM_NAME = "sound-juicer-lang-3.40.0-1.1.noarch.rpm"
+RPM_HASH = "de04e1c5855721c2834831512c50b6169c856a62382a5987cd5018e38d63371c5c070ed354806307b91f540be99e7bde02ae415d1673922e339ce4073a57dc8b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-sound-juicer-ar \

@@ -6,14 +6,15 @@ LICENSE = "Apache-2.0"
 
 PV = "3.2.14"
 
-RPM_NAME = "libolm3-3.2.14-1.5.aarch64.rpm"
-RPM_HASH = "9940c3c4153dba89052011404f300cc5db950dd890cf89d24c0e1fb2a15b9975921eb257914b6141e4a33f7164e328c590895b23096181f7403a78dfbf934871"
+RPM_NAME = "libolm3-3.2.14-1.6.aarch64.rpm"
+RPM_HASH = "3d0fc0225cabd922b0c45f54b35df8ee480b115cc38e9c91f8bdb2dcbceb1d606da224e6924fe49b6725a6189a5a0c07161a7fcfd6ed167a94ea02019cf6a417"
 
 RPROVIDES:${PN} += "libolm.so.3 \
 libolm3"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libc.so.6"
+libc.so.6 \
+libstdc++.so.6"
 
 inherit rpm

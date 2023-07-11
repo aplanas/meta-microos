@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2.3"
 
-RPM_NAME = "uncommons-maths-javadoc-1.2.3-1.18.noarch.rpm"
-RPM_HASH = "616fcdc08ecac21879718c53de829677b33096af6f473b23c869956f3f11266d2d3bb7a6b52dc1d93079c6d29107366cbb04a5ba9cf047263ab91921f9d07295"
+RPM_NAME = "uncommons-maths-javadoc-1.2.3-1.19.noarch.rpm"
+RPM_HASH = "546f3fcb216d4edfc4857f31ec76a764457f60d35e7a6a211911070535f45b0f7d0b807fcf3d58489e4280680c28e8e8dad9bde9e04200e51ef54bbd6a4ac751"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "uncommons-maths-javadoc"

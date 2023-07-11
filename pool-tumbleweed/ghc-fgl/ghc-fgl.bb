@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.8.0.0"
 
-RPM_NAME = "ghc-fgl-5.8.0.0-2.3.aarch64.rpm"
-RPM_HASH = "047dc874a29062bf4df67b7df1e8a73e68745d73bb84a3e74b94cbd67034df033d8685d06a4760caac24efc4ed87ad14770a61d5f7dab96de1fba07f26d89ea0"
+RPM_NAME = "ghc-fgl-5.8.0.0-3.2.aarch64.rpm"
+RPM_HASH = "a9802f53e4377265f3e310469815c88e51765d4a3e99b60fb96279576fdff5441da57693c1c1a0ab9b50887aa6a58142ef8859dec14e5a39317301a63ffd1a55"
 
 RPROVIDES:${PN} += "ghc-fgl \
 libHSfgl-5.8.0.0-1euDADByC3LGFbnFGelVpn-ghc9.4.5.so"

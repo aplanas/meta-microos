@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.3.3"
 
-RPM_NAME = "xgboost-predictor-0.3.3-1.18.noarch.rpm"
-RPM_HASH = "040e39ef1acb116b6c858b5df7bafbe1496a8fdc4ca0faa91fc62a3f6013a76b439e6df89f5a711c2d14ebe8bd6aabcb238873cc6d1f979e3c5f86cf6ca6b1a9"
+RPM_NAME = "xgboost-predictor-0.3.3-1.19.noarch.rpm"
+RPM_HASH = "18b41430cd569bb4e7c58e323ea97408ed4d4dc863684699980dff6e67ca22873d347cc4fee3c983454df43e80ea9a1f6685f214f45225026bff9a9b46d19263"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-ai.h2o-xgboost-predictor \

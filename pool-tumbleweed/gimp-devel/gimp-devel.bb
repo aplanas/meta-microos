@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.10.34"
 
-RPM_NAME = "gimp-devel-2.10.34-4.1.aarch64.rpm"
-RPM_HASH = "1bce9e83caa2a301d0de56713c1e3ecdc6398606c0cceae0ed62d2a487f44b41add74d9bab74652c052210b86c052c0e653e56d5a0178e69744d14cc6936e6ad"
+RPM_NAME = "gimp-devel-2.10.34-5.1.aarch64.rpm"
+RPM_HASH = "f26887338ef829f548a2a717de18bd5e5cca89c79166eaa49080958834278f4866808e94b434d818eb4bbf5f08b7eadc85b3a8dc1d540c0abaa035a38f65f179"
 
 RPROVIDES:${PN} += "gimp-2.0-devel \
 gimp-devel \

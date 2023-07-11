@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.7.0"
 
-RPM_NAME = "stlink-gui-1.7.0-2.7.aarch64.rpm"
-RPM_HASH = "91c114104e19de05862de39787abbe81abe7c7bd6ee7cca2aa776d14a29a04fbd89a3aec0d44abec3d8a89447c6cb919107ef3d63d4af7bf4126ed6ff3868723"
+RPM_NAME = "stlink-gui-1.7.0-2.8.aarch64.rpm"
+RPM_HASH = "63bb54207529cf8de8c9d405f11af23f2d4d2f08de82e79697b4b57ef96bf9eab5916ff98eeb1d74dc3b5d6bc97c06bb78f72c1ac6a4a5a646837b508052f476"
 
 RPROVIDES:${PN} += "stlink-gui"
 

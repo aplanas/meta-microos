@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "0.2.0"
 
-RPM_NAME = "python310-azure-mgmt-vmwarecloudsimple-0.2.0-2.11.noarch.rpm"
-RPM_HASH = "255da2a458222a0befc2b349bd691c95ea29e79a88215d86efb944df5ca3cb6ccbd7d9eca2a65e8a5ef9c5cc8d69a9ad9b5695d665249a06d67575a258458bcd"
+RPM_NAME = "python310-azure-mgmt-vmwarecloudsimple-0.2.0-2.12.noarch.rpm"
+RPM_HASH = "56667135bae5406edf57b94306d3cee86d914f99bb10ea0f1945cde600816e128337203117c66551fb03c3cab1c0f4ab7be10d538931dcff992d538fcceff2b2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-vmwarecloudsimple \
-python3.10dist-azure-mgmt-vmwarecloudsimple \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-vmwarecloudsimple \
 python310-azure-mgmt-vmwarecloudsimple \
 python3dist-azure-mgmt-vmwarecloudsimple"
 

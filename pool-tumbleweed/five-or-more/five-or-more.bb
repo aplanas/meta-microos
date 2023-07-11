@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.32.3"
 
-RPM_NAME = "five-or-more-3.32.3-1.7.aarch64.rpm"
-RPM_HASH = "b46c519389eb1c922a229efe7f4c932c24bda5c668ed6b734ec4c6ae45297fd9a669a572f20d983c067bf8c18f4ca808b69f38c793a4795202b710b646309e87"
+RPM_NAME = "five-or-more-3.32.3-1.8.aarch64.rpm"
+RPM_HASH = "cc5cfdbf34c0ec78bcc4493c9f13299a728efc0abd5846fd542d464fd58a23c4cd3d8c8f7cf9da6184c416fd037e5de652029549491ac2cd1c33b6d8259ac839"
 
 RPROVIDES:${PN} += "five-or-more"
 

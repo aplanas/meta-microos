@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.26.1"
 
-RPM_NAME = "python39-mycli-1.26.1-2.5.noarch.rpm"
-RPM_HASH = "9d720e281b3d85a0d5e1575921897b0e258df9acc4494559f322e747608c686b73acb7cdee15439f740ddc85e82322738cef80f68815bb8e39e94cff32eaf675"
+RPM_NAME = "python39-mycli-1.26.1-2.7.noarch.rpm"
+RPM_HASH = "600fd996d56b1d2512bb250a0aecdc5d075c3edc833133c7725ee84cd022d051a0ad02b87f376b8ab80c283ae87c9cf530a8c1d66579c2051c6768a702c5650e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-mycli \

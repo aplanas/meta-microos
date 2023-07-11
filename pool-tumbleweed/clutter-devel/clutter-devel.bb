@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.26.4"
 
-RPM_NAME = "clutter-devel-1.26.4-4.10.aarch64.rpm"
-RPM_HASH = "b697b59638e94019328cb28483ba446c7ef6d8cd1de82ae80eec45450b63ef2ad22652ce4627b76ecda1130d94e5f047749794034e176e5bec0d077bce34601e"
+RPM_NAME = "clutter-devel-1.26.4-4.11.aarch64.rpm"
+RPM_HASH = "b64759c1f04748c546070d058aaafbd6afffc9c4ede72a78beb229cb283f125f85b7678251ca5d714f9bfb6449fe892cf2d298d99bec5379a324c8cd05f9e082"
 
 RPROVIDES:${PN} += "clutter-devel \
 clutter-doc \

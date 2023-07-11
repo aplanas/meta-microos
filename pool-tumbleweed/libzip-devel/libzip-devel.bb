@@ -3,10 +3,10 @@ DESCRIPTION = "libzip is a C library for reading, creating, and modifying zip \
 archives. This package contains devel files."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.9.2"
+PV = "1.10.0"
 
-RPM_NAME = "libzip-devel-1.9.2-1.5.aarch64.rpm"
-RPM_HASH = "fc5de8524e46192185b463a593a8d917c2c5277d4b292cef3c5b2c7089f2cdb76ec85d4a91ffa5d7db25b87cc35e826cdc3ea4c1e0e09ad8c3d4f6bd3cec3944"
+RPM_NAME = "libzip-devel-1.10.0-1.1.aarch64.rpm"
+RPM_HASH = "4cb936f3519f91a815b1c71d8048a4b359d4de58c50feb0f9065b1065f06179896befbb4ab2ce3007ae2d5ef669b3972eb969c3dbbcf29c1fd733c2be1fd1def"
 
 RPROVIDES:${PN} += "cmake-libzip \
 libzip-devel \

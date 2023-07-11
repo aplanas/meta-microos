@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.0.5"
 
-RPM_NAME = "libabiword-3_0-3.0.5-2.9.aarch64.rpm"
-RPM_HASH = "7b2affd12699fd1b8421e27d0ec9a23c98d9b104dfebde7bd80a32b552922930a0da5024abf2c38d4375fceab183ba6b16ea3b4aa03a305e7472df14e5220bab"
+RPM_NAME = "libabiword-3_0-3.0.5-2.10.aarch64.rpm"
+RPM_HASH = "34d4c08670b4d4dd98508655aba959725a91b168d4fc2e50165e9acb9306b6f8ed0fa3a42a623caa77b4c87b61815409321d3f8707ba70688018a4308a55820a"
 
 RPROVIDES:${PN} += "libabiword-3-0 \
 libabiword-3.0.so"

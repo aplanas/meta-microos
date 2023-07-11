@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.1"
 
-RPM_NAME = "cramfs-tools-2.1-1.12.aarch64.rpm"
-RPM_HASH = "1d2b69f42f8b0dda076fb9fa6168fd86b6e7b1c0ff7d73c0bdf1b12de349c21b5aac9d26c6cc0676482ea765619648bf15ec629c18665cf16523d3a5e03b0386"
+RPM_NAME = "cramfs-tools-2.1-1.13.aarch64.rpm"
+RPM_HASH = "9c49c6cbb09c118ce669f3dce821883e3ea2118d738d7b4335995f22e63ab6ce0fe9d01c5712840e29f563b5bf4799b3c8532dd1fec4f8d4d8071069ae8c969e"
 
 RPROVIDES:${PN} += "cramfs-tools"
 

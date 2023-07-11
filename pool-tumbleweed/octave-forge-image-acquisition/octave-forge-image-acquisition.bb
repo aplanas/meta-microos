@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.2.2"
 
-RPM_NAME = "octave-forge-image-acquisition-0.2.2-2.1.aarch64.rpm"
-RPM_HASH = "05affb2cefc2bd9995092168487293ee14e9728be6d682eb8c06d0106aaa86b6d8c2ad5b4b811333899de0299157eab14764eaf3ee4386b388e509f034d9b530"
+RPM_NAME = "octave-forge-image-acquisition-0.2.2-2.2.aarch64.rpm"
+RPM_HASH = "1b1bcfa91b9e558cbb6072dc912ade5553c0c9588b35c4e42b565b54a86122f0e181f8eedfaf029853894c444b183514a3434ef4829ec38f09fd4ad3eaf32de8"
 
 RPROVIDES:${PN} += "octave-forge-image-acquisition"
 

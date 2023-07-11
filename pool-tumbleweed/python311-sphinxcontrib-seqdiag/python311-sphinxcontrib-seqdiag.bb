@@ -6,11 +6,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "3.0.0"
 
-RPM_NAME = "python311-sphinxcontrib-seqdiag-3.0.0-1.6.noarch.rpm"
-RPM_HASH = "263af0f4e07c460b032617c714a8f5591902fe65fa26c125d2aa1851eef38c6708a51e7237ba3781878e22f93067e508edba9a59064445415e28d1daea3951f8"
+RPM_NAME = "python311-sphinxcontrib-seqdiag-3.0.0-1.8.noarch.rpm"
+RPM_HASH = "c9d60a636d22bdcf6cd01dea56e81e0534d5cc6acb36e12ce7f034c18a86bab597d03ef666284ca7ce43ec5acca1d8e441e51f2be879445b08cf2147b8c94600"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-sphinxcontrib-seqdiag \
+RPROVIDES:${PN} += "python3-sphinxcontrib-seqdiag \
+python3.11dist-sphinxcontrib-seqdiag \
 python311-sphinxcontrib-seqdiag \
 python3dist-sphinxcontrib-seqdiag"
 

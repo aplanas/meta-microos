@@ -18,8 +18,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.25.0"
 
-RPM_NAME = "pidgin-plugin-sipe-1.25.0-2.10.noarch.rpm"
-RPM_HASH = "a2e7fa44f1d9d06d3f97df4b6e5494bdab58afa3065688301665e6f2984f8f3ba5c89bed2f3e0be801ff76c970507c89f3857faa0ad75c3223081f1b857e7822"
+RPM_NAME = "pidgin-plugin-sipe-1.25.0-2.12.noarch.rpm"
+RPM_HASH = "5c7b64bc89a5f45cb9581d89170ce8bdc4799e2d76ac9a5eabc67a5fca08a3e35c70d88df78b2a384ef9dbf48aa54afd044b5ad735c46549bef8d9e92dbf2074"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pidgin-plugin-sipe \

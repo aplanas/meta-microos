@@ -5,8 +5,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-pintab-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "091daa636c2e04c48baa7405771be2556b7556cb04d53227eb2f4557dd6f85e1d9086e61ad39c2d3672e31a3067f54894a4c220aa50ac65ef2c6fdc935806012"
+RPM_NAME = "leechcraft-pintab-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "f336217e35356830a1abceb20af4ffd0f372a55897ef54ffb86a3b324d77bf2c7434fe7133eeb465c77b7e28e37230a56be3e296d4846eba2835f286e98576ac"
 
 RPROVIDES:${PN} += "leechcraft-pintab \
 libleechcraft-pintab.so"

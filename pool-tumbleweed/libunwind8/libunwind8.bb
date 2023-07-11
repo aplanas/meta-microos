@@ -3,10 +3,10 @@ DESCRIPTION = "A C programming interface (API) to determine the call chain of a 
 program from within the same process."
 LICENSE = "MIT"
 
-PV = "1.6.2"
+PV = "1.7.0"
 
-RPM_NAME = "libunwind8-1.6.2-4.5.aarch64.rpm"
-RPM_HASH = "0fbab2b31e2ad55bddbfb8ed66136c1941622e198fd9f525d7449baca1335827ce42ec982c810ea3be14528b47929ce28ef9e2a9146081ae1135ee198f5456e9"
+RPM_NAME = "libunwind8-1.7.0-1.1.aarch64.rpm"
+RPM_HASH = "72c456b39432adc2d4ca548ff9dd37e91d3d6fef494544a58f073c20161eb177d06186b1bc3d46d7525dbd70ac9c97f67a519e30798a56f177c729e752fbbaf1"
 
 RPROVIDES:${PN} += "libunwind-aarch64.so.8 \
 libunwind.so.8 \

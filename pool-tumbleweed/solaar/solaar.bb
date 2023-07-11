@@ -9,11 +9,11 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.1.9"
 
-RPM_NAME = "solaar-1.1.9-1.1.noarch.rpm"
-RPM_HASH = "9ef0b08ca456df90f25450d7f960fc9fd8e01769e09c55c7e89fc339a8e86e6cf9c00f6ca0dbb5f88e8ee69c05e2d8bac6f62b9580a6c29f6d56c94206a74658"
+RPM_NAME = "solaar-1.1.9-1.2.noarch.rpm"
+RPM_HASH = "1128e7d28065ace82c313a006020abe4b5f30df208a8245b95659f9893feae42305257e7c5654bab72a3276440ced5cb28b35ed1687187e66eb9c0311f8913f0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-solaar \
+RPROVIDES:${PN} += "python3.11dist-solaar \
 python3dist-solaar \
 solaar \
 solaar-cli"

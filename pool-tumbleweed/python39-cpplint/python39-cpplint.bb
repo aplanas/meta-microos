@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.6.1"
 
-RPM_NAME = "python39-cpplint-1.6.1-1.1.noarch.rpm"
-RPM_HASH = "7a91ea9c1e4c1d968b10797acb9429a0673686e9e8fdb2797866c0a1cc5639afa2c194469d131d2cf84ed5218677d401f07de79fe1914079e2913eb4f0c77673"
+RPM_NAME = "python39-cpplint-1.6.1-1.3.noarch.rpm"
+RPM_HASH = "956d47de4bd5c48614f6f482d0df6dd0a928231be28bd2d5dd99788b0595b56169566cea45dea71bf3508ca9b5de67d81354decf91f078cee080cc66f5af4a29"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-cpplint \

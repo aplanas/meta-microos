@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2023.4.21"
 
-RPM_NAME = "python39-sphinx-inline-tabs-2023.4.21-1.1.noarch.rpm"
-RPM_HASH = "b43adf26d34bac78e5a7dbff1c242a2acd24c05f356e4f78f58c067a6d705bd150fdaf0ceadb94f454f215b1e214be9b73239059971987f330e13299365945b0"
+RPM_NAME = "python39-sphinx-inline-tabs-2023.4.21-1.3.noarch.rpm"
+RPM_HASH = "5729183c7746855012fbb653020a904871eb1a75f4cdf34832ad0954b950f71f4535a0b260101e374dbeca56ac1f7154ee0b82161af9be581f6e733e33955504"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sphinx-inline-tabs \

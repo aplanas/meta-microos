@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.1.20221123"
 
-RPM_NAME = "opentyrian-2.1.20221123-1.3.aarch64.rpm"
-RPM_HASH = "b2be5f6123b8327e905ade6b04db11cfd407d88c0973dfb27b96fee5387bb8481d1b96b0da68e8847f73f8bbceb768c81ad4463e86a9500fd05f9a468e13bade"
+RPM_NAME = "opentyrian-2.1.20221123-1.4.aarch64.rpm"
+RPM_HASH = "2bbbd0b96ff63a7be4ca83e630e89b669f194c693e89d29a2b914302e25d7b42e2c5e92076ec0f71c27e6971a8562efd8333f4411afce57a0d0be30ca87ceaa6"
 
 RPROVIDES:${PN} += "opentyrian"
 

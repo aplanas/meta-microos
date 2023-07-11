@@ -2,10 +2,10 @@ SUMMARY = "E-book plugin and library"
 DESCRIPTION = "Mobipocket E-book plugin and library."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libqmobipocket2-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "11bc40aaad0c468df829d3bdf7c5469fa1d4ccca24c5eadbc88dab51679189028964e4eb56d439b8b9d214361dc4c7d29c053d86757a5257d6023fe115f4a7d8"
+RPM_NAME = "libqmobipocket2-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "85db7e6e086a755aced8003a6c684887d4a14857a8613174b282c389dd41e0aa7b95c61283bea20902e862ef7c403c2a8d737e3757c7287529bbb00166f8cd0b"
 
 RPROVIDES:${PN} += "libqmobipocket.so.2 \
 libqmobipocket2 \

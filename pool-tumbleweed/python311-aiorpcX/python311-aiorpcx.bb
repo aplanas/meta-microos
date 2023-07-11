@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.22.1"
 
-RPM_NAME = "python311-aiorpcX-0.22.1-1.5.noarch.rpm"
-RPM_HASH = "23fb523d31cd5d2b05d455c3d502c2433de026abf63e53d65e856beb22053efb4b17e3980dba8ad1aa254069f6759612f60350f0e8ac81db8f3f1272f2781523"
+RPM_NAME = "python311-aiorpcX-0.22.1-1.7.noarch.rpm"
+RPM_HASH = "6308ba041cdf356a841ff93b360508a2c3fbb6046381a8cd6f7109415b8a94f555d1544bbd25842c0353f8975da586ba000b05aad3523d8b7345131d0397765a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-aiorpcx \
+RPROVIDES:${PN} += "python3-aiorpcX \
+python3.11dist-aiorpcx \
 python311-aiorpcX \
 python3dist-aiorpcx"
 

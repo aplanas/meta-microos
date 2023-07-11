@@ -7,10 +7,10 @@ Openwall Linux, 'crypt_rn', 'crypt_ra', 'crypt_gensalt', \
 'crypt_gensalt_rn', and 'crypt_gensalt_ra'."
 LICENSE = "BSD-2-Clause & LGPL-2.1-or-later & BSD-3-Clause & SUSE-Public-Domain"
 
-PV = "4.4.34"
+PV = "4.4.35"
 
-RPM_NAME = "libcrypt1-4.4.34-1.1.aarch64.rpm"
-RPM_HASH = "b66bdb256a01a3f07c37a510707e95981a3cc9a00396215b8dea98feefcfd1a8536950df80185f0e2d9682d925df70c4d56774ff6791903729de96269b2dc4eb"
+RPM_NAME = "libcrypt1-4.4.35-1.1.aarch64.rpm"
+RPM_HASH = "a842cde0a2da63b95ddeff3655a0261a1a14226fa777b48784e91db92c9da3953a0e2300ce986e58d68c523b5f86c479b1223f537479c7c71a1f87adddff76cf"
 
 RPROVIDES:${PN} += "libcrypt.so.1 \
 libcrypt1 \

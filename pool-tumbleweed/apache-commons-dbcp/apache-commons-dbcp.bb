@@ -10,8 +10,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.1.1"
 
-RPM_NAME = "apache-commons-dbcp-2.1.1-6.16.noarch.rpm"
-RPM_HASH = "81d264c9c8caa0d369a1543171bd7f49739d9a0317f5aa7ae5bbc2d993f165f1e80bdafdf439b282a791c7bbaa7e3db1a18af5d6aef7caffc618717d2ff11e7a"
+RPM_NAME = "apache-commons-dbcp-2.1.1-6.17.noarch.rpm"
+RPM_HASH = "c317399efb00add5d7f4562cbef3efe093eda6682b9af866b24ac906a6b4130086bde721d774f2cefd9fb435580190df95de0d9830102d07bc7752ca4f227a5d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-dbcp \

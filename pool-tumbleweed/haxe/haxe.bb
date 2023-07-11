@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0+ & MIT"
 
 PV = "4.3.1"
 
-RPM_NAME = "haxe-4.3.1-2.1.aarch64.rpm"
-RPM_HASH = "17d2b6625e06533191eeca06fe5c8831d0961e83721fddbe371ef67e268b2abba66cbdfbae3185c8e2a8aaf24216d39d56aef1ed0878c73f7fcd52bef88ba62d"
+RPM_NAME = "haxe-4.3.1-2.2.aarch64.rpm"
+RPM_HASH = "79783f2df0f7457eb3a2d18e8f93a4496e0f3cba57aa88b1d0f70a0d6d5bd9a16f0352b7a68d44687fd0bea6168c3ab81a85bca1f536f947ea4e081d13aba7d5"
 
 RPROVIDES:${PN} += "haxe"
 

@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.6svn49513"
 
-RPM_NAME = "texlive-randomwalk-doc-2023.201.0.0.6svn49513-53.1.noarch.rpm"
-RPM_HASH = "836372b9906e8140f00f5a4bb78a3bf62aea7c72432c95b172de6eb09d273bc924acacd61bac51ca64a00240d883bc7a46bcd087603a7e68d098ea12e3f17225"
+RPM_NAME = "texlive-randomwalk-doc-2023.201.0.0.6svn49513-53.2.noarch.rpm"
+RPM_HASH = "b0c85b53015ee77b13893d4f00ea5a348543dc25f78394186a3ba094d9afb96d6f5af079074e7b63af004d45bf31e8e1697ee52bad1c4d5430e802052205a1ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-randomwalk-doc"

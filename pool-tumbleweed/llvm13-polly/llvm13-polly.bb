@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0-with-LLVM-exception & NCSA"
 
 PV = "13.0.1"
 
-RPM_NAME = "llvm13-polly-13.0.1-9.1.aarch64.rpm"
-RPM_HASH = "f5ca5abf7b1b027b16aa6ccde4c36221ce61907d97c1fa8f3ccd8e245d47646b1dea64ee4d2219d959ecec9c81351d9e340de3d31be23639c3ea2622cef5dd34"
+RPM_NAME = "llvm13-polly-13.0.1-10.1.aarch64.rpm"
+RPM_HASH = "f679f729dbca5dd299c2e4bbf79728400a3a0785cfc108aed395d8dd8d42a8fe8f00941c1c4e9499926648743e028f952b9ffa740aa380e9c14a7d4d842fef28"
 
 RPROVIDES:${PN} += "llvm-polly-provider \
 llvm13-polly"

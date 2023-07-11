@@ -2,13 +2,13 @@ SUMMARY = "Haskell conduit profiling library"
 DESCRIPTION = "This package provides the Haskell conduit profiling library."
 LICENSE = "MIT"
 
-PV = "1.3.4.3"
+PV = "1.3.5"
 
-RPM_NAME = "ghc-conduit-prof-1.3.4.3-3.3.aarch64.rpm"
-RPM_HASH = "2c1a9e329253a6b1d58ccca871ca827d2defceeea29ba429e6e8c3829306739f058198f994b44700d61a76bd40b843fd407e44d574255315e99252e85f4a3bcc"
+RPM_NAME = "ghc-conduit-prof-1.3.5-1.3.aarch64.rpm"
+RPM_HASH = "2481c017387f6416d744bd68bc06fcfc0b816449199647b2c605204043ee46a5914ec04c3c9437e0f196f82726433cc808080106d2ae286c312b74748e7c5401"
 
 RPROVIDES:${PN} += "ghc-conduit-prof \
-ghc-prof-conduit-1.3.4.3-dAZVHPSYjL2zQ4RzAuWi2"
+ghc-prof-conduit-1.3.5-EjJ71P6EbmSGTrvJLquwgr"
 
 RDEPENDS:${PN} += "ghc-conduit-devel \
 ghc-prof-base-4.17.1.0 \

@@ -10,8 +10,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.6.2+git0.ge8fd65f08"
 
-RPM_NAME = "rook-ceph-helm-charts-1.6.2+git0.ge8fd65f08-2.8.noarch.rpm"
-RPM_HASH = "3b595d53d39816fd99017fd146ba6fe0e573f7a2f83dd16a2f0084ffef1dd1ff17379686c88b2a74a57751b2df6d107e57f1838c024172d6c491a89541b8f8e8"
+RPM_NAME = "rook-ceph-helm-charts-1.6.2+git0.ge8fd65f08-2.9.noarch.rpm"
+RPM_HASH = "3759ade125ad41f5a1261330206a8b64597ba8ca088dd140a38de21b8ffc0517a0643b691f55636bcfa2b6a478688652b06771911d80cea8fdba0d45447f2c45"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rook-ceph-helm-charts"

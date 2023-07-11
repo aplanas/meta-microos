@@ -5,12 +5,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.22.0"
 
-RPM_NAME = "python310-uvicorn-0.22.0-1.1.noarch.rpm"
-RPM_HASH = "1c457e9e2e90190c7f76aa929b86f70aba753065d6ae33f8b8bf21cf8f7296d5609f386f99f10ee814fbcea525cd86bc9e89135740e6a37b0e24c13d74b5911a"
+RPM_NAME = "python310-uvicorn-0.22.0-2.1.noarch.rpm"
+RPM_HASH = "ee14235cb5fbfcbddf37fd1ef8a52f2239bfa6b91687ce6ffd93ccb896e5ce51a7696791d551343fb09f7d1d14fe2e6cef7cef9a2d1d44d44ef0452fdb955d9a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-uvicorn \
-python3.10dist-uvicorn \
+RPROVIDES:${PN} += "python3.10dist-uvicorn \
 python310-uvicorn \
 python3dist-uvicorn"
 

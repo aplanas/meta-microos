@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "5.0.3"
 
-RPM_NAME = "libxml++-5_0-1-5.0.3-1.2.aarch64.rpm"
-RPM_HASH = "5db52dc5c7f1b5ef07b7d0cd56ed3284450f75273db5748cb4097ec6a3c5ed6319d6caa7e72f7edf6e5a66e534f481146945fa16577feb9ee958d2b7ff6d78e8"
+RPM_NAME = "libxml++-5_0-1-5.0.3-1.3.aarch64.rpm"
+RPM_HASH = "815134806b67d3c9a300c8b50e09f3c1316595f4a95d737c26ab346afa75668d90b3ae90109438a0cf3d1b4896949c87a16609f14ab565c2cb9f6d79a10a0b23"
 
 RPROVIDES:${PN} += "libxml++ \
 libxml++-5-0-1 \

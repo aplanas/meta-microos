@@ -14,15 +14,15 @@ LICENSE = "PostgreSQL"
 
 PV = "13.11"
 
-RPM_NAME = "postgresql13-plpython-13.11-1.2.aarch64.rpm"
-RPM_HASH = "90137e31f3768df9c30076947f36377f226431fd466bb6f4b958effea98f59e84acb46b4c1120afa391a14f03af04b409fd59570812122456fc27cdd71e4bce4"
+RPM_NAME = "postgresql13-plpython-13.11-1.5.aarch64.rpm"
+RPM_HASH = "3d04267f141ab1d1d1cb331a4358d4c3d55e8552ef55031e64cd826ebff5febbc93cd25a3765f25b654130ecf7e6ab888c6ee6bc80d25c8ec6776fb9cabba307"
 
 RPROVIDES:${PN} += "postgresql-plpython-implementation \
 postgresql13-plpython"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 postgresql-plpython-noarch \
 postgresql13-server \
 python3"

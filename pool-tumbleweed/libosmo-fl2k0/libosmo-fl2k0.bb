@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.1.1+git.20200602"
 
-RPM_NAME = "libosmo-fl2k0-0.1.1+git.20200602-1.11.aarch64.rpm"
-RPM_HASH = "c894d6874bba8c1fcfea66df611f188f01dbbeda995b085803d2d5f170cdd677dee87c580f607fd13a4d8315f8051b8f1e466ca1b49f49614ef141210c5cd25d"
+RPM_NAME = "libosmo-fl2k0-0.1.1+git.20200602-1.12.aarch64.rpm"
+RPM_HASH = "e60e750e603b80632bcc850d063a27373169b651424dc6b7b164be2e0b1113101bc2b6e07dbc29011d447adc91df834f0af740ce4b364d4d6cb2650f335c609b"
 
 RPROVIDES:${PN} += "libosmo-fl2k.so.0 \
 libosmo-fl2k0"

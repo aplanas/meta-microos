@@ -4,10 +4,11 @@ LICENSE = "Apache-2.0"
 
 PV = "2.1.1"
 
-RPM_NAME = "python311-confluent-kafka-2.1.1-1.1.aarch64.rpm"
-RPM_HASH = "ce19761b48bf5038b13b9b0e361a57a6f39c77c64053da01efe9922e4134bb334a3de6bdfdf7db2007ab5dbd2d1f6e545ae3f9ea99c9d07d3bd6c5aefd3cf475"
+RPM_NAME = "python311-confluent-kafka-2.1.1-1.3.aarch64.rpm"
+RPM_HASH = "bf707ce8006bf4055443dc3880274013de3e124e332b7ff15c48dab2f96face82510eed65e73a759e3edeb9506e0fdfb1161b967d3145524ed3da999ad8e33c7"
 
-RPROVIDES:${PN} += "python3.11dist-confluent-kafka \
+RPROVIDES:${PN} += "python3-confluent-kafka \
+python3.11dist-confluent-kafka \
 python311-confluent-kafka \
 python3dist-confluent-kafka"
 

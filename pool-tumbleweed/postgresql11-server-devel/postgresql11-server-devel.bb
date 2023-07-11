@@ -11,8 +11,8 @@ LICENSE = "PostgreSQL"
 
 PV = "11.20"
 
-RPM_NAME = "postgresql11-server-devel-11.20-1.2.aarch64.rpm"
-RPM_HASH = "7e06b562f96c4ced07c68cf33ad8aa55fe54296289e4fd7d63e49f11371d59aee1914a8254fe69d3041d4786026579035f509384de77c579f3cdd0e2d135fd11"
+RPM_NAME = "postgresql11-server-devel-11.20-1.5.aarch64.rpm"
+RPM_HASH = "ab5ad4b7fc553e37d28d2817bdb0778bd9dd68ca6abfe2a25478e33015ce7f15d7d6814f39bee91d566432a4b2a22237db58c74c53ae43649e830cffca36ce21"
 
 RPROVIDES:${PN} += "postgresql-server-devel \
 postgresql-server-devel-exclusive \

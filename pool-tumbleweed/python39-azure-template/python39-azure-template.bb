@@ -6,10 +6,10 @@ installed singly or as part of the azure namespace. \
 This package has been tested with Python 2.7, 3.5, 3.6, 3.7 and 3.8"
 LICENSE = "MIT"
 
-PV = "0.1.0b2675288"
+PV = "0.1.0b2840062"
 
-RPM_NAME = "python39-azure-template-0.1.0b2675288-1.1.noarch.rpm"
-RPM_HASH = "b7b47def81ff1eb2797c1619b87351fb756422b402147baa3665ce39dc5e8ed6fa64b4828bb282babd75517bbaaa3a529cb46808d8522baec826734888c40b15"
+RPM_NAME = "python39-azure-template-0.1.0b2840062-1.1.noarch.rpm"
+RPM_HASH = "5a60779aace8a0aaf3820279b729f8b4aa92a38acb89ed5689726513d7c04a812ec5b5ba08d14a7fe76c3769cd79b76c556b16823865017f7cfd25a78339ffa2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-template \

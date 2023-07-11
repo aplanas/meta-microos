@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kdevplatform"
 DESCRIPTION = "Provides translations for the 'kdevplatform' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kdevplatform-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "8f5804aca0cb500b8c80add98c735fa82bb3aefb0b696ddc52685b4295f5f47cdc36f17c984d4db8d15ed9e19b5ecb3120bb7baad67592d3b6eb71702734d28a"
+RPM_NAME = "kdevplatform-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "8a2affa673fa8c4b3863a45e706215f18b328b9d65e3b9cc7cfa3ffbff549d6930c266809d637316239fbc4ff1eb8c88bc2347d008fb42c6320de30dccbc35c1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kdevplatform-lang \

@@ -5,8 +5,8 @@ LICENSE = "GFDL-1.2-only & GPL-3.0-or-later"
 
 PV = "3.10"
 
-RPM_NAME = "diffutils-3.10-1.1.aarch64.rpm"
-RPM_HASH = "723bc09c5700c1c4af026fc80958b3ad4bc0432dc8c3ce3ad27b483dbd70afb00325924bca9f5213e8a471a86805bb08f1a36696073f700989ffea8f76253217"
+RPM_NAME = "diffutils-3.10-1.2.aarch64.rpm"
+RPM_HASH = "d5322f8efe03e8fe7fedfb6c2425c81fd8d3fa6f8ebb4f03b623206a08c512c4e2cc2102c3e046c88b4e709f27f0cd8c093a2265217f1209ccd09c9fd8a10550"
 
 RPROVIDES:${PN} += "diff \
 diffutils"

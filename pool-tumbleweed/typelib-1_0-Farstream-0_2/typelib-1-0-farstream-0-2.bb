@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.2.9+5"
 
-RPM_NAME = "typelib-1_0-Farstream-0_2-0.2.9+5-2.3.aarch64.rpm"
-RPM_HASH = "9074f0bd13c62852b5482c74d69e44fc77301e05a95351039e50dda7766cc62200f433cae2b64218599f0552b9c171bafa2e7e97b9f9d8606d46780b49c81cea"
+RPM_NAME = "typelib-1_0-Farstream-0_2-0.2.9+5-2.4.aarch64.rpm"
+RPM_HASH = "f354f2a3a483f451e01a8694cdbc109fea336b8a8bffab13c25957a0e22b32c27633923f69f02543aa1d5e529c9f792f917f10408e49cc62fbc3238d57055c75"
 
 RPROVIDES:${PN} += "typelib-1-0-Farstream-0-2 \
 typelib-Farstream"

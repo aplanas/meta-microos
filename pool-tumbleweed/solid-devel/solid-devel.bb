@@ -4,10 +4,10 @@ interacting with hardware independently of the underlying operating system. \
 Development files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "solid-devel-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "7af291148ce2f043db76b7c4a4f41cbe9fba4b0f04c97bc88910525105a72077e32c6ca0453c9ec7d2b8cce203abc5fbe24a8476db1d09e2ed3f31583285ac97"
+RPM_NAME = "solid-devel-5.107.0-1.1.aarch64.rpm"
+RPM_HASH = "6b379b32774483d9177f9bcb73c697ee2265e4b45b51c6c6d01ae9cbf839b9d357aa163cdc5b1f3b0ee56a5f37fa0f129b6b000fdc0b3f60d86a73a40ab86b73"
 
 RPROVIDES:${PN} += "cmake-KF5Solid \
 solid-devel"

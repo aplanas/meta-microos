@@ -7,12 +7,11 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.2.4"
 
-RPM_NAME = "python310-pytoolconfig-1.2.4-1.4.noarch.rpm"
-RPM_HASH = "3bf1c8b0e44d9a46b97e93dfa9748dcff909a485fc283a5814e96b806ded0f24e3520524046d6de03ba2bf13b68b09caa0b1b083591134366debd3a6dd8a5c8d"
+RPM_NAME = "python310-pytoolconfig-1.2.4-1.6.noarch.rpm"
+RPM_HASH = "c8e9878d17a88f5fba58e60048b169c98c13ffd1a4c874f1a54b8982256f88e46a202943dd7f7c52ca89b92a5efe045406feca1e113af146ce640982b1d08282"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pytoolconfig \
-python3.10dist-pytoolconfig \
+RPROVIDES:${PN} += "python3.10dist-pytoolconfig \
 python310-pytoolconfig \
 python3dist-pytoolconfig"
 

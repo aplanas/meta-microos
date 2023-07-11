@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "4.1.0"
 
-RPM_NAME = "libgck-2-2-4.1.0-1.1.aarch64.rpm"
-RPM_HASH = "1c29af8bb2ebf95896d0d0c4b8547bbdd0028d318917ceb0cf3da11ae061e13f4f37abf820d137706715f7e3a5c8325eaea43eba6e6cad41aa73c15fc670e054"
+RPM_NAME = "libgck-2-2-4.1.0-1.2.aarch64.rpm"
+RPM_HASH = "5c73ca00a51a1d32fd52852563d01f1d2605057ec6b24794f90995821aef30a25ca49275bb635f98f28eb2c3dfb72771f49f9ef4accab9767012e809ff3d0f7c"
 
 RPROVIDES:${PN} += "gck \
 libgck-2-2 \

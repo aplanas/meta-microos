@@ -5,13 +5,13 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.2.0"
 
-RPM_NAME = "nemo-extension-pastebin-5.2.0-3.4.noarch.rpm"
-RPM_HASH = "2a8237c511b941baed62c2f063652894eb6d0b7eaf2a23115bbe6cffc767e49e3aed7764dd48698d40ae27c31ac5abcd441dfa686e4cef787509181d9ca22cbe"
+RPM_NAME = "nemo-extension-pastebin-5.2.0-3.6.noarch.rpm"
+RPM_HASH = "cd1228cdfe919fad520452135f8d27c2c4b91e30d7b015aa3d225cf71e382fefc76053e92e4fb3b1305e9907f939d4e3ec8e49910eb61dd27bd2e752731c8767"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nemo-extension-pastebin \
 nemo-pastebin \
-python3.10dist-nemo-pastebin \
+python3.11dist-nemo-pastebin \
 python3dist-nemo-pastebin"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

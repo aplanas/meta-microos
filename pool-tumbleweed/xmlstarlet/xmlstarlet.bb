@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "1.6.1"
 
-RPM_NAME = "xmlstarlet-1.6.1-1.24.aarch64.rpm"
-RPM_HASH = "79027ce7f21d878ec9209f5a0bbd37a0f5b6ee1c7ea155c10c4b16050917ad6f62c3d70451bca265117b9cb4a44f0e0a5447f185f0e915c36a68a7aa24cf096f"
+RPM_NAME = "xmlstarlet-1.6.1-2.1.aarch64.rpm"
+RPM_HASH = "e58c03874d839c274815bc5e8cd6e53d615bad1eade51f06acd4eaf2b824490a750742ad69113663fb7017e616b37532caff09e1e48ead401930115f1f051cfd"
 
 RPROVIDES:${PN} += "xmlstarlet"
 

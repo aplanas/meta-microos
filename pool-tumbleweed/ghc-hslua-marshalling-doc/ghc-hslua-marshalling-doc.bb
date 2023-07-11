@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.3.0"
 
-RPM_NAME = "ghc-hslua-marshalling-doc-2.3.0-1.3.noarch.rpm"
-RPM_HASH = "fecb34598f00f49876c8e704b0da8de00abe90c1c59bc0855301b97862b023f8c95e130d4a819ccddbb1b0b1063e9a588bce8e0ca69880b1731dc91013a4ffc7"
+RPM_NAME = "ghc-hslua-marshalling-doc-2.3.0-1.6.noarch.rpm"
+RPM_HASH = "1d851b1243ab1fa63d6662e610f9c1874dec806697f3ec58bcae8e4ee8013a9d3c316dea30b93c2f752da5f06b7e98288900ff01a4ff418656c260b51c6b63a8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-hslua-marshalling-doc"

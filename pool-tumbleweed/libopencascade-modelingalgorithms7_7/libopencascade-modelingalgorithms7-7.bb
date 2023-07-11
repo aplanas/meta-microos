@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-only-with-OCCT-exception-1.0"
 
 PV = "7.7.0"
 
-RPM_NAME = "libopencascade-modelingalgorithms7_7-7.7.0-1.3.aarch64.rpm"
-RPM_HASH = "3d6fd6bb5a4b2a4e5138654f2749741123572631d31815472ace1d3ccb553b639672fcb35edcecbec587dd99e3bf8c4cd886ee28e4d8ee707537804cc0c853af"
+RPM_NAME = "libopencascade-modelingalgorithms7_7-7.7.0-1.4.aarch64.rpm"
+RPM_HASH = "486b177863b05e1b920cb63b23b157915cb9894726f16d520bace4e35cbe991c2ac2a8e40c0eb863f40796d383f9bf8ee074747fdda46ddc74a2be6718bbea10"
 
 RPROVIDES:${PN} += "libTKBO.so.7.7 \
 libTKBool.so.7.7 \

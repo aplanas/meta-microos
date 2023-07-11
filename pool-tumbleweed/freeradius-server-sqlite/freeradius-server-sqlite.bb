@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
 PV = "3.2.1"
 
-RPM_NAME = "freeradius-server-sqlite-3.2.1-1.3.aarch64.rpm"
-RPM_HASH = "28b0b5af5ed73a291edc4d81fc86fe98e295789a8530cef46a27c2ee4599575006c80f0e8615d9f8b4a03bba8db1526fafee265d8e7a4e99bb02118f1b6d814c"
+RPM_NAME = "freeradius-server-sqlite-3.2.1-1.6.aarch64.rpm"
+RPM_HASH = "6ab64e440326888ce5ab385fcf1c88a3218a66fbce60d8048916624fbd730750c6573bc704c32f5bef00ace5926d96e2627eae14d36de317ee4c80a6cf3c1e6b"
 
 RPROVIDES:${PN} += "config-freeradius-server-sqlite \
 freeradius-server-sqlite"

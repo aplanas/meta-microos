@@ -6,8 +6,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-tabsessionmanager-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "79a9536d076b8c0525ba6da01ecb83d642eb9d3ec4c13d48648b0caf79f19eca1002ca8e142d62ea4e145006a9b1a4562a10a5081ee3e3e50f9568dfcd9d7661"
+RPM_NAME = "leechcraft-tabsessionmanager-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "1ccd9922f1f43e924744104b560b74ffe37163ef86b0ff0d108113dce9778cab2df8dd44ba8e795167766b0ac9a5ba7492cb81708802cc068b5a22eda8686fd0"
 
 RPROVIDES:${PN} += "leechcraft-tabsessionmanager \
 libleechcraft-tabsessmanager.so"

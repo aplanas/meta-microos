@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.9.21"
 
-RPM_NAME = "libpano-devel-2.9.21-1.8.aarch64.rpm"
-RPM_HASH = "e54d27f1d8680b6138579a830471a63c95893cae60590df5c5cd47cfc79fa69cfab8f3368becd76030056c00f6c0a163f4d46afb28fb52e8e02f20356f1847ab"
+RPM_NAME = "libpano-devel-2.9.21-1.9.aarch64.rpm"
+RPM_HASH = "a4619de85de8a12e9321eab7e93b8965273be635fa849925191636fd0f05ec7e3220d1507fc2b9b79386b07af384d753d0f825478e1cb7618685faa04cbcfc00"
 
 RPROVIDES:${PN} += "libpano-devel \
 pkgconfig-libpano13"

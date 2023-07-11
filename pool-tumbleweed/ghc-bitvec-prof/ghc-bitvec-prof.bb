@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.4.0"
 
-RPM_NAME = "ghc-bitvec-prof-1.1.4.0-1.3.aarch64.rpm"
-RPM_HASH = "2011f0054354f247e54b84650c2368b49ed32106bf2ce262d7d3fc362e1903c7409a07a7351617d513f1ae892e62fbc10566ad3b13f77220abe84745e3d3a11c"
+RPM_NAME = "ghc-bitvec-prof-1.1.4.0-1.6.aarch64.rpm"
+RPM_HASH = "6364265644050712dc074c49766366bd02d6190a8bb122eafc68fc0a033ff7871e7621c9683d10b4d31e858af18e7a9bd205f249c5a76fd28d6f9da4363d1545"
 
 RPROVIDES:${PN} += "ghc-bitvec-prof \
 ghc-prof-bitvec-1.1.4.0-FzBtDnbj1qCBVRHTrZUOXy"

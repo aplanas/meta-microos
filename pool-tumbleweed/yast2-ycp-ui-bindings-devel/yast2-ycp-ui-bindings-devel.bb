@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "4.6.0"
 
-RPM_NAME = "yast2-ycp-ui-bindings-devel-4.6.0-1.3.aarch64.rpm"
-RPM_HASH = "df7d7b253022e2dedc207ccffae1be471dd4a2eca05982de80548d8930ebb8150b980c3701ef719425c7f97681e6f35fa2c807f1ffa4e75bc1430749ab059c05"
+RPM_NAME = "yast2-ycp-ui-bindings-devel-4.6.0-1.4.aarch64.rpm"
+RPM_HASH = "06f79e58608f54a60200cb6d6f9673023f4934edfe75061d65c7e090bf4d97bdd0269ba1dff2dd8b79ebbc7afb31d8540fa0e9a9073ce48a4cc77b104e7ca8a2"
 
 RPROVIDES:${PN} += "pkgconfig-yast2-ycp-ui-bindings \
 yast2-ycp-ui-bindings-devel"

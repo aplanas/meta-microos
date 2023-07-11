@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the development files for developing applic
 want to make use of the VIPS library."
 LICENSE = "LGPL-2.1-only"
 
-PV = "8.13.3"
+PV = "8.14.2"
 
-RPM_NAME = "libvips-devel-8.13.3-1.5.aarch64.rpm"
-RPM_HASH = "d109000f4e294068c1a00aa628242df9eb99bd55eeb2ae91ac1970d6a1d4cfffc945960cafb4e3ee2a191bebc6cc4866e00a2b98a5147f2a7d1a7295a7a48e9d"
+RPM_NAME = "libvips-devel-8.14.2-1.1.aarch64.rpm"
+RPM_HASH = "4b29a430be5fdefe283a4d9be75274ac51b50f24a886c4ef7c011e036b0ac17c7d296fca74bbbb6cc57cb3bd47fb675ef5bcfeb13c713f50604f7d98bfa46b80"
 
 RPROVIDES:${PN} += "libvips-devel \
 pkgconfig-vips \

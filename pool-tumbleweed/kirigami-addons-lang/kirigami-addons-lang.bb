@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kirigami-addons"
 DESCRIPTION = "Provides translations for the 'kirigami-addons' package."
 LICENSE = "LGPL-3.0-only"
 
-PV = "0.8.0"
+PV = "0.9.0"
 
-RPM_NAME = "kirigami-addons-lang-0.8.0-1.2.noarch.rpm"
-RPM_HASH = "6bc20c22943cb9217dc90305433dabddc879a8b704f4da013790e2924f36df5eccb94f2e16a3294ef7b4ad4252b00c7485f689f7906273a4a9aca2480b74171d"
+RPM_NAME = "kirigami-addons-lang-0.9.0-1.1.noarch.rpm"
+RPM_HASH = "e238adee964ed5406e25f504c6a060466a1445c42653be241c23c2b8888a9748303d2675ad16c08d50faee65de6651e79611cb0524cc8b4654f43e66f11e7b99"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kirigami-addons-lang \
@@ -23,6 +23,7 @@ locale-kirigami-addons-es \
 locale-kirigami-addons-eu \
 locale-kirigami-addons-fi \
 locale-kirigami-addons-fr \
+locale-kirigami-addons-gl \
 locale-kirigami-addons-hi \
 locale-kirigami-addons-hu \
 locale-kirigami-addons-it \

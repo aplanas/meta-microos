@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.5.9"
 
-RPM_NAME = "mupen64plus-plugin-video-glide64mk2-2.5.9-2.8.aarch64.rpm"
-RPM_HASH = "6bf57897e3ad5cf3b90b4b48d75516e0266293bf8955a0b4e1c462adffd3cb8572f32d3a1bde6d093dc9f56667b1194ba3f78dbef70ff356de2d9ed1c9eab5e8"
+RPM_NAME = "mupen64plus-plugin-video-glide64mk2-2.5.9-2.9.aarch64.rpm"
+RPM_HASH = "7f276abfbaea8559dc6de14bce37597a196e475821fe4a6b3c4bf5a2a48a8728ec8d328e54295ad61a249eba33179fb09bdf61341c0c5017b1e32da76e2d7baf"
 
 RPROVIDES:${PN} += "mupen64plus-plugin-video \
 mupen64plus-plugin-video-glide64mk2"

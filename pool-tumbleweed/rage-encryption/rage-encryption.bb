@@ -8,10 +8,10 @@ rage-encryption can also use ssh-ed25519 and ssh-rsa keys as \
 alternatives to age1 keys."
 LICENSE = "(0BSD | MIT | Apache-2.0) & (Apache-2.0 | BSL-1.0) & (Apache-2.0 | MIT) & (Apache-2.0 | MIT | Zlib) & (MIT | Unlicense) & (Apache-2.0 | Zlib | MIT) & Apache-2.0 & BSD-3-Clause & CDDL-1.0 & MIT"
 
-PV = "0.9.1+0"
+PV = "0.9.2+0"
 
-RPM_NAME = "rage-encryption-0.9.1+0-2.1.aarch64.rpm"
-RPM_HASH = "4f41281273c711bc363de73263d367920e9b42cce81bd1151bf829ebcb1faeb9cf68b4dae87e03bf3402fa1079dd7618353721570b3622008edabf07f48b1dc0"
+RPM_NAME = "rage-encryption-0.9.2+0-1.1.aarch64.rpm"
+RPM_HASH = "5a3cbb0dd6948fa954281f49c5529ba13a4782e07f79605fc22b714257fac835a226fb4075af9e2b5db05a37c6eefdb0b9134034bf2d97b2db275cdf2228902c"
 
 RPROVIDES:${PN} += "bundled-rust-crate-adler \
 bundled-rust-crate-aead \
@@ -104,6 +104,7 @@ bundled-rust-crate-num-bigint-dig \
 bundled-rust-crate-num-cpus \
 bundled-rust-crate-num-integer \
 bundled-rust-crate-num-iter \
+bundled-rust-crate-num-threads \
 bundled-rust-crate-num-traits \
 bundled-rust-crate-once-cell \
 bundled-rust-crate-opaque-debug \
@@ -166,7 +167,6 @@ bundled-rust-crate-thiserror \
 bundled-rust-crate-thiserror-impl \
 bundled-rust-crate-threadpool \
 bundled-rust-crate-time \
-bundled-rust-crate-time-core \
 bundled-rust-crate-tinystr \
 bundled-rust-crate-toml \
 bundled-rust-crate-type-map \

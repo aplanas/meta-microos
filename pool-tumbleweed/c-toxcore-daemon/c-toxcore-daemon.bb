@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.2.18"
 
-RPM_NAME = "c-toxcore-daemon-0.2.18-1.4.aarch64.rpm"
-RPM_HASH = "a1f3911f9a1efa6cf0a5fb6451776b0d0c4c8a29a939e12afe8dedca8c0c193c43c648bff77c160a97acae965c9b8809a1495f8afe9b5f850351f326cba30079"
+RPM_NAME = "c-toxcore-daemon-0.2.18-1.5.aarch64.rpm"
+RPM_HASH = "dd6f6ee352e0eab5bb45142fe42e312afdbfebefd4a2eb7be9154dc89c1323d7653f657c3d85bc982c3d16f0367be7a8a9444e9745f9af34d213c618b4039841"
 
 RPROVIDES:${PN} += "c-toxcore-daemon \
 config-c-toxcore-daemon"

@@ -5,10 +5,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.8.0"
 
-RPM_NAME = "python311-photutils-1.8.0-1.1.aarch64.rpm"
-RPM_HASH = "bbb83b6284b778f51df9dbc4ed5fecfd01100d7d8d8fe26374a227038ab6199a8852aee2f87aa688d9ef8a1689db2231a508e1aff65a616c2da06c6ab5f00de2"
+RPM_NAME = "python311-photutils-1.8.0-1.3.aarch64.rpm"
+RPM_HASH = "f965f884b74f77ec2d97ca31d85e5d177d791bd9712ae0e0a85681bec697ba1232c1147e2e8c1082bb9ad64e8a10e9c85a7d61e35336f307686cd54188747a9f"
 
-RPROVIDES:${PN} += "python3.11dist-photutils \
+RPROVIDES:${PN} += "python3-photutils \
+python3.11dist-photutils \
 python311-photutils \
 python3dist-photutils"
 

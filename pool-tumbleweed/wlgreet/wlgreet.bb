@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.4.1"
 
-RPM_NAME = "wlgreet-0.4.1-1.2.aarch64.rpm"
-RPM_HASH = "463884938ebb0ce04e34185f203c520ec9f4e8f53601df5285b1eaaeb0966bb84634f785652b06ad4c900e0378d56200ae4b3f22772b12b0429b4208e82dbc32"
+RPM_NAME = "wlgreet-0.4.1-2.2.aarch64.rpm"
+RPM_HASH = "2a075abd3dbff0959c2477f2f7dab92de386e596df2a39fa84d9a543d6c4e33098ffe863ba33a713215a14a7f90313905cb0d2a79d710a433d6861f9befd5f28"
 
 RPROVIDES:${PN} += "bundled-rust-crate-ab-glyph-rasterizer \
 bundled-rust-crate-autocfg \
@@ -30,7 +30,6 @@ bundled-rust-crate-memoffset \
 bundled-rust-crate-minimal-lexical \
 bundled-rust-crate-nix \
 bundled-rust-crate-nom \
-bundled-rust-crate-num-integer \
 bundled-rust-crate-num-traits \
 bundled-rust-crate-once-cell \
 bundled-rust-crate-os-pipe \

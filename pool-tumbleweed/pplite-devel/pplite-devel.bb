@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.7"
 
-RPM_NAME = "pplite-devel-0.7-1.9.aarch64.rpm"
-RPM_HASH = "2e49a47f74344516f2c0e97fe3895a1d523a61f3c74a02721d8af86af0b3d51f6d495936c1ad31e6cd39a68f21ffdaee0102a5c51dca9d1bae30b1de1405181c"
+RPM_NAME = "pplite-devel-0.7-1.10.aarch64.rpm"
+RPM_HASH = "73c173e3d2bb98298b381009af1885e17ea3ae1ca67ab45e470442862faf988b9214295d198b951b3a0b69e785f9ccc039cc0b819aefa34244c14778b2e897af"
 
 RPROVIDES:${PN} += "pplite-devel"
 

@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & CPL-1.0"
 
 PV = "2.22.0"
 
-RPM_NAME = "maven-surefire-2.22.0-8.1.noarch.rpm"
-RPM_HASH = "067ac445b2f27f4a48a429fd440459c2ee6f79e5de0a41fb68f427bdfd98759c22a584157de72b79e44bc7f1f7288a85bb78a1ef13fed3bdab9cf86b1c1803b5"
+RPM_NAME = "maven-surefire-2.22.0-8.2.noarch.rpm"
+RPM_HASH = "2354ccd2ea2da89f0ed0c78943d9ee1f8b4bb0ccafc067bf0eec96815c20d999679c870a522a273cb18907d45521c90df3d7876c511ba4b7c8372fe02d66dd48"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-surefire \

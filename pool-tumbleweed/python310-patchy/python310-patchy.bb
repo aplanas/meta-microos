@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.6.0"
 
-RPM_NAME = "python310-patchy-2.6.0-1.3.noarch.rpm"
-RPM_HASH = "c76a517d07c52a163ebdbc81d9878bdb6dfea8805c357720d4497bc6c18e2acd5399709e14c3ec6004f7ebd18156e05c3cc8c5ae10844b5b0526f233c97c929c"
+RPM_NAME = "python310-patchy-2.6.0-1.5.noarch.rpm"
+RPM_HASH = "8a95669ad87e79c3f080ea94760615122583145994ce35b86367ef5fcbf2568b4c8e6f16c33c00579a7c5bfb39c5e87f03509c7e42a7c963d0bdaa816175667d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-patchy \
-python3.10dist-patchy \
+RPROVIDES:${PN} += "python3.10dist-patchy \
 python310-patchy \
 python3dist-patchy"
 

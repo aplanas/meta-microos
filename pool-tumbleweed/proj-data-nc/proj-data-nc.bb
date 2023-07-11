@@ -2,10 +2,10 @@ SUMMARY = "New Caledonia datum grids for Proj"
 DESCRIPTION = "New Caledonia datum grids for Proj."
 LICENSE = "BSD-2-Clause & CC0-1.0 & CC-BY-4.0 & CC-BY-SA-4.0 & SUSE-Public-Domain"
 
-PV = "9.2.0"
+PV = "9.2.1"
 
-RPM_NAME = "proj-data-nc-9.2.0-1.3.noarch.rpm"
-RPM_HASH = "12c3f390871810bf0190d5069361d91ebd55e4686b09449d65fb73af5c89efb1f5ede144cefdd6ece847b2442a155bbf5b35b34633c1985caf66246e87fff8c3"
+RPM_NAME = "proj-data-nc-9.2.1-1.1.noarch.rpm"
+RPM_HASH = "8d67a6dea5fea403c13a09137685744c7be691deafce1047711e757721b09259d66e3c2c8ef869c04a4bd32356ae90c71642e3b90754c56215b2e628d7317d1f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "proj-data-nc"

@@ -5,8 +5,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-blasq-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "c8aed23644fde80917f88e5e94eed56120450a3e2bc25ce5bb15a68e058a8e311d4ea5adb083949cb0d56514361f6a09366654082d1a720b028c65a56fd9562a"
+RPM_NAME = "leechcraft-blasq-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "871bdcbfd56901f99605ba6863a3357e2314f1996e4494beb770cbfa523e6ba5fa54d110bde15bd58a2a35ec7070333508494a4c498510b465c092fdf8955ecd"
 
 RPROVIDES:${PN} += "leechcraft-blasq \
 libleechcraft-blasq.so"

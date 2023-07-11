@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
 PV = "1.2.7"
 
-RPM_NAME = "python39-alsa-1.2.7-2.4.aarch64.rpm"
-RPM_HASH = "24700095510d45aede84cfcf7c36fe3438d80882c44255e3bcafaa083c2be4239e63ccb5e475dd14b5a1243563adb0e1a4387ba74dc90daaa7d7b2f461301a97"
+RPM_NAME = "python39-alsa-1.2.7-2.6.aarch64.rpm"
+RPM_HASH = "690547e2e6471fa81877799030c2f0701c705685b8d5c2e9a3c2bab98d4ea8f9588f053c52f450b9154df49a4a7bb8ec3c9500c0eaf4690c0319f11243195cda"
 
 RPROVIDES:${PN} += "pyalsa \
 python3.9dist-pyalsa \

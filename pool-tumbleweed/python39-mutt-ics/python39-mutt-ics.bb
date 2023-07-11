@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.9.2"
 
-RPM_NAME = "python39-mutt-ics-0.9.2-3.11.noarch.rpm"
-RPM_HASH = "eb99fd12d028942849bd7ddbe7275548875e33f7727aadae6cfd91e87fcef0dfd468e6f7aa165142c5dc16a412622b7463fc975c5f342e3a8c96d1532bf7d1bd"
+RPM_NAME = "python39-mutt-ics-0.9.2-3.13.noarch.rpm"
+RPM_HASH = "65a1ea4bbb725c0d3bbe91f5ae2261245c2fa104a228b90c1150bc12af12b696f8d8beba66f167a2410f8c7c429cc1537ac17ca2c8f8f767719b537340318a3b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mutt-ics \

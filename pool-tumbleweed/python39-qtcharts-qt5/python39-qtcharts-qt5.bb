@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "5.15.6"
 
-RPM_NAME = "python39-qtcharts-qt5-5.15.6-1.12.aarch64.rpm"
-RPM_HASH = "e4ec12b6c107f90a8c3dd78f9b56c837289303dda1e928aadb316198d62b6cd696174249931ba7c4989acf6a60a9c31dc73ec099a590668f6458c38d0f7bda19"
+RPM_NAME = "python39-qtcharts-qt5-5.15.6-1.14.aarch64.rpm"
+RPM_HASH = "34a444da3cbce2557e1f4dc5ffa40e354b2220f5406e684a3214964fc5a7b42c06e948532c546458414dff68d883b35c4ecf8d173a82dd0554909c4e74e3b466"
 
 RPROVIDES:${PN} += "python3.9dist-pyqtchart \
 python39-PyQtChart \

@@ -10,8 +10,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.73"
 
-RPM_NAME = "perl-Net-SSH2-0.73-1.3.aarch64.rpm"
-RPM_HASH = "9dbd50057b6e52fbcf3246f1b430938e807cde4927b508a3dffcf597765d7c8af8b122743a6aef3f365851ba520efc07f80816d55c19e096b34445e7895f44f2"
+RPM_NAME = "perl-Net-SSH2-0.73-1.4.aarch64.rpm"
+RPM_HASH = "e7f698d645e12960a09cdd27548bf9a81d70cc96f506d58f38b064ec39c136db510b26138efe1d1b1d0d283606866f7707a69159d39e5d0892ebde970690dddb"
 
 RPROVIDES:${PN} += "perl-Net--SSH2 \
 perl-Net--SSH2--Channel \
@@ -26,6 +26,6 @@ perl-Net-SSH2"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libssh2.so.1 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

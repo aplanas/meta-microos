@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.1.4"
 
-RPM_NAME = "octave-forge-optics-0.1.4-1.13.noarch.rpm"
-RPM_HASH = "99647a2bf3e7d17ea1d56bcf672443827deefa000e7edfd5d551f3c5ae5c9988cbea8f378a6e7eb59323bb34892d68e46e8781a9fb1a4ea81a40c4c4674d0e82"
+RPM_NAME = "octave-forge-optics-0.1.4-1.14.noarch.rpm"
+RPM_HASH = "81d2d38aa767c248bd344db7d38d20227fb06f46898631bf327ad962a593e07b298cf0b8754c50d164369c3718967917071a01aa4e65e0c4650e0c92b4d94308"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "octave-forge-optics"

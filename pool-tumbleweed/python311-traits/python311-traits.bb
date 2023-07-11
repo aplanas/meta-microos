@@ -18,10 +18,11 @@ LICENSE = "BSD-3-Clause & EPL-1.0 & LGPL-2.1-only"
 
 PV = "6.3.1"
 
-RPM_NAME = "python311-traits-6.3.1-1.10.aarch64.rpm"
-RPM_HASH = "01e3c171b24535ebacca8bcbf5e80fd69e37c7b0502ded7b4a6d4c4aa3bc9c490139f350409649d531661a9dbb6784e384149b5f96612c8ee7b51356bd0a9b74"
+RPM_NAME = "python311-traits-6.3.1-1.12.aarch64.rpm"
+RPM_HASH = "96ee092691b3f8e2ea0525d7305a1a63ecf2321ad40cf6a09948bb1ed9476cb105a525b57f317c61fdc42e39ff3f691729d5b29dd1645907149e222d976ede05"
 
-RPROVIDES:${PN} += "python3.11dist-traits \
+RPROVIDES:${PN} += "python3-traits \
+python3.11dist-traits \
 python311-traits \
 python3dist-traits"
 

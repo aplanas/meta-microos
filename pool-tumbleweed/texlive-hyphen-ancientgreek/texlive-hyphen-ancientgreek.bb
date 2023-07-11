@@ -6,10 +6,10 @@ the vowels with acute accent (a.k.a tonos, oxia), e.g., U+03AE, \
 U+1F75 for eta."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn58652"
+PV = "2023.208.svn58652"
 
-RPM_NAME = "texlive-hyphen-ancientgreek-2023.201.svn58652-52.1.noarch.rpm"
-RPM_HASH = "87e544aa22dfdac7cb2551109514e22eb2bfecc6179bc0ef974640b3703316b24ef97e2f234f2a48ab16995d93fc8d1fec6e053c8d7a1e52f7df651d15d13663"
+RPM_NAME = "texlive-hyphen-ancientgreek-2023.208.svn58652-53.1.noarch.rpm"
+RPM_HASH = "c293242b81bb11d06a7086622e68a637d9a1683b9029017fb3b14c67a6d86df70ca8f3e0b614d6fd024b6bf580103c14c1570f4a7a74749c19ab3b4f7796535e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-grahyph5.tex \

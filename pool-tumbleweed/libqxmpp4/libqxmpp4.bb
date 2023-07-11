@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.5.3"
 
-RPM_NAME = "libqxmpp4-1.5.3-1.3.aarch64.rpm"
-RPM_HASH = "08dba79c5afa3bd9eebce3381de976695c7281a3475ae0b8052ddc61c18e1a4e51099175b6c8e1723c171b4d55de326cdd6b8c86c4a42d42a4fefc7e14b3baa7"
+RPM_NAME = "libqxmpp4-1.5.3-1.4.aarch64.rpm"
+RPM_HASH = "e00f72422d021f366f2bb6c777d5bf9d5c7bbb11a2224a21151eb70a3f3bd938257dc3f6723d2371642ff28198cf684463700d47a26fe3ff30fd797809d588c7"
 
 RPROVIDES:${PN} += "libQXmppOmemo.so.4 \
 libqxmpp-qt5-0 \

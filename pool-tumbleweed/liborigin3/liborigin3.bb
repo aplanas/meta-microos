@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.0.1"
 
-RPM_NAME = "liborigin3-3.0.1-1.10.aarch64.rpm"
-RPM_HASH = "474bf7aec2bdb0f58caedaa5bba764d1f6db8743931d8b91cdc44a7eb71b597e5588ed55c1e1e4d04a37e7c3505f29be590ea85a26741141ce578f5d1229c349"
+RPM_NAME = "liborigin3-3.0.1-1.11.aarch64.rpm"
+RPM_HASH = "572e7141824176455f6a3a66bca6e9aa03e1f6aede14054694a230e9abad2a1a7a26b2ae0db0bb33bebd8c72573b9381139c8381fcaf4abe0dd46f4efef1df6f"
 
 RPROVIDES:${PN} += "liborigin.so.3 \
 liborigin3"

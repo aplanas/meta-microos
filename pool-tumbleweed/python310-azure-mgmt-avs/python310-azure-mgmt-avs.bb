@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "7.1.0"
 
-RPM_NAME = "python310-azure-mgmt-avs-7.1.0-1.3.noarch.rpm"
-RPM_HASH = "2b466351967bb0d02ec9e120471527a2a1c7c48be93e6358a5076aaf3d31aac93d7598d16c58f4b2d403b2d8c388e1027ae8083bd9e826ef586d94bc5facedd0"
+RPM_NAME = "python310-azure-mgmt-avs-7.1.0-1.4.noarch.rpm"
+RPM_HASH = "aaf0299e8f4056924bcb18272ece58c56fa9c800ee925fc46f2bc4933df60f985cfc628b341d5c3e1a358022e45df1a018f2fc32e830cf44cdb5c0b93d143ade"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-avs \
-python3.10dist-azure-mgmt-avs \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-avs \
 python310-azure-mgmt-avs \
 python3dist-azure-mgmt-avs"
 

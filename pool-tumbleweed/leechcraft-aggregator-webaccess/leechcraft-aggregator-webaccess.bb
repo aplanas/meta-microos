@@ -6,8 +6,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-aggregator-webaccess-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "54da2b12da4a2f381f388a93b94ac327c67e4db56873b641f2a70a6a3d4ba0cfc39d0b6bc3b14258e7b05cfa62034de64ab206a9e59407b15991fc6292f4f7cb"
+RPM_NAME = "leechcraft-aggregator-webaccess-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "fabcf6a9d82a11605915f202438f7c87aa00d6ff8dcb711e9c3a295a0a04c85a80699ecdde7575aeb4ed4205d1f6534f669dd618700389296fdc9953889ec32a"
 
 RPROVIDES:${PN} += "leechcraft-aggregator-webaccess \
 libleechcraft-aggregator-webaccess.so"

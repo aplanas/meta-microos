@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "8.4"
 
-RPM_NAME = "frr-devel-8.4-4.1.aarch64.rpm"
-RPM_HASH = "74cb2cf382c8e3b4c8efd1c26d8bde38a4ba14dc509435bef6b5a8761d428b24ac9971010a19b25a55312130d507437441c9e1f0acad5c82745a542c021595b7"
+RPM_NAME = "frr-devel-8.4-4.2.aarch64.rpm"
+RPM_HASH = "0a7bb26a38bd45234dbe506844870743eb2b0028b490805b89a8aa6d53ed254ec182b40a9125c7adaef047f5f468634d6566be531c35ab101aa8dadaee590daf"
 
 RPROVIDES:${PN} += "frr-devel"
 

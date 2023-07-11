@@ -5,8 +5,8 @@ LICENSE = "WTFPL"
 
 PV = "0.99.beta20"
 
-RPM_NAME = "libcaca-devel-0.99.beta20-1.4.aarch64.rpm"
-RPM_HASH = "645533a669fa72b00683319b6b1b59119e60862bc3820f27e8206bedb1ad99db897bc8d5fafde516a2a514f8f16d7106fb53f314471e1676edbd98a065c62d46"
+RPM_NAME = "libcaca-devel-0.99.beta20-1.5.aarch64.rpm"
+RPM_HASH = "fda4653b9c790f185da73139761e889ce97d739882bfc382c830fc671d07392e8886ea1ab2df1797c3a23ded0b8fa3eea18c6aa15cca8e73fe4b4d1c97455d66"
 
 RPROVIDES:${PN} += "libcaca-devel \
 pkgconfig-caca \

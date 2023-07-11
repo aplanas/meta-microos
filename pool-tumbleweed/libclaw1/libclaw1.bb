@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.7.4"
 
-RPM_NAME = "libclaw1-1.7.4-4.10.aarch64.rpm"
-RPM_HASH = "e9df3b0721548f2d35f8ad7cc003adcc886c4898986dbe536015019fad75c061b701c4db861a3c0525116e67ada73d879a2086ee034d390a07ae7e4dfb7d99f8"
+RPM_NAME = "libclaw1-1.7.4-4.11.aarch64.rpm"
+RPM_HASH = "a186cc4e4e5eee4fe56b6dd70bf04c2f7d7198cf7c03869179a72231a92d361c023825e6f7b8d7e1eb8d000c0fec01a41bae198b22064f0c95e30593d55c16e6"
 
 RPROVIDES:${PN} += "libclaw-application.so.1 \
 libclaw-configuration-file.so.1 \

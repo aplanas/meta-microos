@@ -14,11 +14,12 @@ LICENSE = "MIT"
 
 PV = "1.0.5"
 
-RPM_NAME = "python311-precis-i18n-1.0.5-1.3.noarch.rpm"
-RPM_HASH = "ce4182e29195428518f1b6ac581aab075097169b516f5cd010aca1d7e281b85fa39356ffa1823af886d56fb8a15c50662e00d9893b2e3b7b61ab95204d8db233"
+RPM_NAME = "python311-precis-i18n-1.0.5-1.4.noarch.rpm"
+RPM_HASH = "a873b90da86ef8133f82007db8000a1ba018799a2d1d2f4d380160c185dd7db6758bfe53b169124065775a03d145bf664a618a2b1b7d17b891467996d0b1eb66"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-precis-i18n \
+RPROVIDES:${PN} += "python3-precis-i18n \
+python3.11dist-precis-i18n \
 python311-precis-i18n \
 python3dist-precis-i18n"
 

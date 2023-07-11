@@ -4,11 +4,12 @@ LICENSE = "Apache-2.0"
 
 PV = "7.1.1"
 
-RPM_NAME = "python311-flufl.lock-7.1.1-2.4.noarch.rpm"
-RPM_HASH = "e8c5f7061a893efa937ad0616ea3daf03ad06c55c1203256efabb46d6ece80767b81fdb85e12270616c160b4514e075483cdc21499586b9867ee795f5003bd30"
+RPM_NAME = "python311-flufl.lock-7.1.1-3.1.noarch.rpm"
+RPM_HASH = "5cc80042c0d6d57e4101c77b200a74e70aee8e9f70604c3291ca31596724487de97d2d5cf6575b8c34c7e31cd28d14246d355f7967ca61217a232ccf4e2d90e9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-flufl.lock \
+RPROVIDES:${PN} += "python3-flufl.lock \
+python3.11dist-flufl.lock \
 python311-flufl.lock \
 python3dist-flufl.lock"
 

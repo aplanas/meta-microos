@@ -8,8 +8,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-ooronee-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "009314877d1968ad4957cd2018da884c5268d999f58060098d3b44652621cf900fc30651fe13ed504f92fc5089ccbb81125f2053d824a6d66d742dabde93720c"
+RPM_NAME = "leechcraft-ooronee-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "ff0e1dbe013380c20377f74c5933398bd1259e7432a1c9d6496b4b339353fdfab4099bdb76e0a52cfe3c7bb45c59092e6faabeebbc1cbdece3f016ab8c3b3d46"
 
 RPROVIDES:${PN} += "leechcraft-ooronee \
 libleechcraft-ooronee.so"

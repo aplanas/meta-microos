@@ -14,13 +14,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.6"
 
-RPM_NAME = "perl-Class-Singleton-1.6-1.11.noarch.rpm"
-RPM_HASH = "23ecb44580a3094dce4cc5249da0ec2da52782812cc50b5cf880d4bd39ac2d599b3acdcc9d60e4ffd68323dcf766f90141cf901eb4d13344de40e3ddbd0342a8"
+RPM_NAME = "perl-Class-Singleton-1.6-1.12.noarch.rpm"
+RPM_HASH = "e6e25c0bcd37ea8206816cf15b8f27435a8bcfc66f52d553f8e7193032a05ee94e58db5b5ad616bb3a733c5c9fdedbfc28be8ff5d1589ccf84add0120d55c29a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Class--Singleton \
 perl-Class-Singleton"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

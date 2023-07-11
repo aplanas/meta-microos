@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-2.1-only"
 
 PV = "0.99.55"
 
-RPM_NAME = "cherrytree-lang-0.99.55-1.3.noarch.rpm"
-RPM_HASH = "90c387d24d20f6361c1bd5fff963d9b7467eaaffe0f73e5ed9ff310437b1bd9312b6a593a05782e6eb680373c210b2f283baec5c6abb8be445b9a1905b5cf32f"
+RPM_NAME = "cherrytree-lang-0.99.55-1.4.noarch.rpm"
+RPM_HASH = "1d0c5668d55ca4c49fa1b4c01414c340513c6d075b92210d08e84bdc7cea27fc4b4654eeb794e7d67465e1b43b214cc1f6146d1d21662b2bb17ee379dd23c090"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cherrytree-lang \

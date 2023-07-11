@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.13.3"
 
-RPM_NAME = "jackson-dataformat-csv-2.13.3-1.7.noarch.rpm"
-RPM_HASH = "17ad3c18821f79116bbb4ef0c82a3805d99e16af523f10abded77816cc671ec85faff56a53d30af39fbb314b52f5fc6db7a2180632cc1c01e958823ba43feb28"
+RPM_NAME = "jackson-dataformat-csv-2.13.3-1.8.noarch.rpm"
+RPM_HASH = "4d94b20effb09e38871f17ebc34890c26459a701d93d2322ed1515caa348b8d5bdbaabd5e5c09f2fcd1538a9a07b8ceabb1d2fd4dc18f8eb2a574abd42156f9f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-dataformat-csv \

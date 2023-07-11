@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.53.1"
 
-RPM_NAME = "librealsense2_53-2.53.1-2.1.aarch64.rpm"
-RPM_HASH = "6e87f67a5e87d32da494b4a0ec6fd6715512a34a6c52f4628ed47e69be0c179d3cc0a9283a2caef144f29b7b84da1592158c79a0c135436a9f4e6ea6caf60089"
+RPM_NAME = "librealsense2_53-2.53.1-2.2.aarch64.rpm"
+RPM_HASH = "f9a00e14349ee701c979720eece4c778207a91d31d3e69678fa1b09d5737d0ad3fc1bbf34f926879109eb28e9fe82345f6d3ee5ddc35e2d438b9f70e03acd910"
 
 RPROVIDES:${PN} += "librealsense2-53 \
 librealsense2-gl.so.2.53 \

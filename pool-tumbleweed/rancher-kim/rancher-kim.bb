@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.1.0~beta.7"
 
-RPM_NAME = "rancher-kim-0.1.0~beta.7-1.9.aarch64.rpm"
-RPM_HASH = "7c1c4ff555442b9851694a77af1c64f398970db2e3dbe124721e78e2251ce6790d3c130c8e317c6fc5f4cf20c537f605b67d2be6be6e3c190626f8b266a3d003"
+RPM_NAME = "rancher-kim-0.1.0~beta.7-1.10.aarch64.rpm"
+RPM_HASH = "c307c96b6840de4a16a9707f18d1575792354f8a8b0aaef88a38570d75a1055f271beade4f7fe1600ac1d8f25c978b1511f3d386b3886e322ff95d4183bce1c9"
 
 RPROVIDES:${PN} += "rancher-kim"
 

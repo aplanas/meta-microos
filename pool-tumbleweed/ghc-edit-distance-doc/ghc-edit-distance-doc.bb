@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.2.1"
 
-RPM_NAME = "ghc-edit-distance-doc-0.2.2.1-13.3.noarch.rpm"
-RPM_HASH = "9f6be0bba46f8b039e8d0f5d2b42dc1112801a97ae1fc4001644bce9e228c75e4e0c35895a9f1416ff97c71ed3d69e87e6de9b665f2d5ebc82787c368e82ceca"
+RPM_NAME = "ghc-edit-distance-doc-0.2.2.1-13.6.noarch.rpm"
+RPM_HASH = "412b8bf6194d5d9c57e0967a6ab42b9a5565b89c3a80b079982d16e3bff799673330a693d1ccacdb6de51e15ba0f9675239d4d9d42944effa5a248ec0f0da338"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-edit-distance-doc"

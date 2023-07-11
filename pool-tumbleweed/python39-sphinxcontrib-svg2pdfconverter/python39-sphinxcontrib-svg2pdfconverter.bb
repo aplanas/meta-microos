@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.2.2"
 
-RPM_NAME = "python39-sphinxcontrib-svg2pdfconverter-1.2.2-1.1.noarch.rpm"
-RPM_HASH = "379002f16b3f93215f579ea40ada2e9926407f23920eb49616c23a554bf384ed8b30b5e1b5f070dd79b44221dfd33600843e11741fe09a49cb0acf44d53ddeb0"
+RPM_NAME = "python39-sphinxcontrib-svg2pdfconverter-1.2.2-1.3.noarch.rpm"
+RPM_HASH = "90d3e93ff037c775726c6cbabe62f9f2632c69835873314a3a5f894456506103930a888f839dc4ac403c3e76f6292b538a17932e5d68e765f1b606e7a4773909"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sphinxcontrib-svg2pdfconverter \

@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "1.6"
 
-RPM_NAME = "garlic-doc-1.6-221.20.noarch.rpm"
-RPM_HASH = "cd1100d68b317568675fbf733a2e5945b7bd872919195b9abb56d234800f15ee462dcfd28074e113bcee9805bcdf2fdd1d719aca066c7cd630b6e5bacfc03bb5"
+RPM_NAME = "garlic-doc-1.6-221.21.noarch.rpm"
+RPM_HASH = "6dd5073ac96f7501cb3d2717467b56043f5cfea50790bdb41ef30bdf785357d5bf9b5de67ee0e1ba4da9630e4ded23beb264a247d26816334bfdf86f02c0a222"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "garlic-doc"

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "15.0.0"
 
-RPM_NAME = "python39-httpsig_cffi-15.0.0-3.4.noarch.rpm"
-RPM_HASH = "72dab3c05c4bed73fd8e9cef689db4945bed738fc9dfd6fbc5fe76401b7695ccd0916c0312ae8bb4e291bf0210b36b0d47a2ef7708b8dc5d1be2f9fc3dd4fa13"
+RPM_NAME = "python39-httpsig_cffi-15.0.0-3.6.noarch.rpm"
+RPM_HASH = "d2057a6a794d310a152e8419fc3713ebe71282f2927323a626c13a430a55f2a058263e8e06fba3c93935604eac31cf1b5f03ae6a99231e5acf2b3c4500ba73a8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-httpsig-cffi \

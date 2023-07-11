@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.4.2"
 
-RPM_NAME = "sbinary-javadoc-0.4.2-4.1.noarch.rpm"
-RPM_HASH = "2f91a2a13bd02a5747b104b3f12217b035555c77b6485bded398671c5abb78a58600532b33c6c04cae1e2577f24bb31076c89ebf01e6f867da7508320b8b4238"
+RPM_NAME = "sbinary-javadoc-0.4.2-4.2.noarch.rpm"
+RPM_HASH = "f7dff66bd2fb4a6880fad4299f5a4347815688dd421c1dd688368c3f4cba7e29d9fb62e10a9ec4b22b8516025b343ab5c65bb11a49517a4624b47a4c4920513e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sbinary-javadoc"

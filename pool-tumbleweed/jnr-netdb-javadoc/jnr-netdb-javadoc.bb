@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2.0"
 
-RPM_NAME = "jnr-netdb-javadoc-1.2.0-1.13.noarch.rpm"
-RPM_HASH = "2264bfd8aac524b9a40673a4aa98a8be58b663a22a262df4bf51bb0000bda9f0e0d300a5c984291af654105a3a7a8db4d0eaadb6140b2eed910bf3c7aba07f4e"
+RPM_NAME = "jnr-netdb-javadoc-1.2.0-1.14.noarch.rpm"
+RPM_HASH = "5c33890bbefcdd609bbb116e91245b9b7930ff7b850123cf7e181ba25c2e389505b71ebcbb491165b48b275eb2e52f221dcce406d89c7f64a88d4158f49c5e62"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jnr-netdb-javadoc"

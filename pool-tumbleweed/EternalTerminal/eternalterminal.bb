@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "6.2.4"
 
-RPM_NAME = "EternalTerminal-6.2.4-3.1.aarch64.rpm"
-RPM_HASH = "77d7e36668c3e86ce7471e60b1821598245bcadeef24e42c1c8415d25a74d7d9d4c3a41fe09f03307a5ad62013e278d495d7015d56ad53ab0b3a92e14a709d38"
+RPM_NAME = "EternalTerminal-6.2.4-3.2.aarch64.rpm"
+RPM_HASH = "1353ef749c2057a669efd7f9dea4324338e81e8627ad57a639a6bc9b8b40a5d26602dde47ae2e5b562e3c6408fc1b11ab8e8bb2284f3be77d79c460c9279a53c"
 
 RPROVIDES:${PN} += "EternalTerminal \
 config-EternalTerminal"

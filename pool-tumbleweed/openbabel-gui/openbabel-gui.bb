@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "3.1.1"
 
-RPM_NAME = "openbabel-gui-3.1.1-1.4.aarch64.rpm"
-RPM_HASH = "cc940093714e2b388b1aeb9d5513a7936b097c237c5051cb5530b8101c92b8cd0d06f589fb0472b2b8434294c18feb6553bb9b1f93de03da8ee969e4dadd1b72"
+RPM_NAME = "openbabel-gui-3.1.1-1.5.aarch64.rpm"
+RPM_HASH = "aa02ce9f13e27a52933061248347bcc7480139d33eee1d30af12757d5fdbf90d43b5c48a6e7c152c7a4ead0cfedc7cfa27a8327f7916223bd304c2ec1cc18e68"
 
 RPROVIDES:${PN} += "openbabel-gui"
 

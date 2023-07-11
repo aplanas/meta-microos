@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.9.13"
 
-RPM_NAME = "adaptx-javadoc-0.9.13-136.6.noarch.rpm"
-RPM_HASH = "de185658e889eaa880636da7ebc16969c9bae7eb6680f360cdb473b15b6f770e1614e4df415514556b6976ee5a1da218890f6c82f40f1bcb5506053e5aae2287"
+RPM_NAME = "adaptx-javadoc-0.9.13-136.7.noarch.rpm"
+RPM_HASH = "a747ee5ab1c7b23f710157953af324c58fb3a95792635e53bfaa0b1bdbcbb4f48fd8376c591b7d7a6a072ff5edb039361dfa348f85842b837b26b76b1d4f8a5c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "adaptx-javadoc"

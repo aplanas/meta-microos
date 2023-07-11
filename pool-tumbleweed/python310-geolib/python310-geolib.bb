@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "1.0.7"
 
-RPM_NAME = "python310-geolib-1.0.7-2.18.noarch.rpm"
-RPM_HASH = "e7dabe5f2b4812b04185ed97d1a3bdc31873dda1156929bda3c96b7fb01d64b666ebbb8f5035ef4309b0e18f816552e481cda4e9062a94e06ce9fac83bc61977"
+RPM_NAME = "python310-geolib-1.0.7-2.20.noarch.rpm"
+RPM_HASH = "cda25c7811217afccf7bfe14df06ef5fb8d930fed84b1d07ef74e55e844ce336204fd35af4d44dc9917b43256fca9b724b2d30573cd66eef7b44cfeff09da056"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-geolib \
-python3.10dist-geolib \
+RPROVIDES:${PN} += "python3.10dist-geolib \
 python310-geolib \
 python3dist-geolib"
 

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "5.2.5"
 
-RPM_NAME = "pcp-pmda-rabbitmq-5.2.5-3.4.aarch64.rpm"
-RPM_HASH = "9cbf614a968b30deccacecbf4227f87464fa895ada7b71e02a0a7963c82639c10e10914e9faba9862b5aaa28613854da3668d64a2405dc44ca76f654da9e080f"
+RPM_NAME = "pcp-pmda-rabbitmq-5.2.5-3.7.aarch64.rpm"
+RPM_HASH = "da13625419c69d81469332c7e74f89c456d717c4dca151003fc016de3bfcac2080bbb2e4b7aaa08f1f71ef55f610b6dff89117592c30cd4683228e570a46e189"
 
 RPROVIDES:${PN} += "pcp-pmda-rabbitmq"
 

@@ -33,8 +33,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "6.02"
 
-RPM_NAME = "perl-WWW-RobotRules-6.02-9.26.noarch.rpm"
-RPM_HASH = "0bc94331a4d62f648b92091d888ec0cbd9c35c701430767a813aea08aaf03e4fa68544afe591be9ec4ec46c2676059b8726dd07719a2c1d49e03deb9b0600115"
+RPM_NAME = "perl-WWW-RobotRules-6.02-9.27.noarch.rpm"
+RPM_HASH = "2ca61e8fdec6c952a8094c2fef4e80a1ad04392d71661c63772201c294b9af37bebc7f8b99cb489e6c5d069915bb15e42a40d9b8fd863b3c0704900310b42b4a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-WWW--RobotRules \
@@ -42,7 +42,7 @@ perl-WWW--RobotRules--AnyDBM-File \
 perl-WWW--RobotRules--InCore \
 perl-WWW-RobotRules"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-URI"
 
 inherit rpm

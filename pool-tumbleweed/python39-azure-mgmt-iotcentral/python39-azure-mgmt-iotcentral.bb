@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "10.0.0b2"
 
-RPM_NAME = "python39-azure-mgmt-iotcentral-10.0.0b2-1.3.noarch.rpm"
-RPM_HASH = "fe97b7ecd6b27c6027bc3a233b5d5a3c9b1e9c2faec870eb3aabbf0e50f573233323219f94262f2b83873faa10406af43e09663234300b57b6da5c8fe0b27a83"
+RPM_NAME = "python39-azure-mgmt-iotcentral-10.0.0b2-1.4.noarch.rpm"
+RPM_HASH = "f05c8bad31b6f67908437ab6e583eb4c9675596dac1039697034b98d0aaa2917ca3a48d55b9f21ee8226a0424426df57b058b7263db920fca50c2d45b6d88421"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-iotcentral \

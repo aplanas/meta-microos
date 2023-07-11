@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python39-gsm0338-1.0.0-2.3.noarch.rpm"
-RPM_HASH = "d31e5ec29da619734d5e4500d3fd0ae7e2c5b758d3e2b1a7d0dfaefb78cc9afe6daa39b3ae840c4796ea22c7cf4074eec3ad69dc21d5087f71176bc2679cff00"
+RPM_NAME = "python39-gsm0338-1.0.0-2.5.noarch.rpm"
+RPM_HASH = "683a121036fef6b49487a86ba2fdf56e60ad927086be65cf9fa93cd1ab47c0ae000016194b6533ce3502f5e06e183a7204317f3a223ccd69f1f70c058839e785"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-gsm0338 \

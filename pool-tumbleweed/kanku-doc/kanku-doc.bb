@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.14.0"
 
-RPM_NAME = "kanku-doc-0.14.0-1.3.noarch.rpm"
-RPM_HASH = "25713e08961e97c353bc2f15907182fd4c518ac815e781ce5dad88892059bca467b22ce25ecfa35718afd8b02c6c7ae389af83b4f7bae0ae47e0f9465b6f2f34"
+RPM_NAME = "kanku-doc-0.14.0-1.5.noarch.rpm"
+RPM_HASH = "bc8958230e2f96497e67d1efca58ea09a8915399b7d784fd856404d7998a0151b34cc78c725bd53499f9a376e53f9a6f477ce0317744643a54e2caa66d7fe8fb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kanku-doc"

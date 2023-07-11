@@ -33,8 +33,8 @@ LICENSE = "NetCDF"
 
 PV = "4.9.2"
 
-RPM_NAME = "libnetcdf_4_9_2-gnu-mvapich2-hpc-4.9.2-1.1.aarch64.rpm"
-RPM_HASH = "8a7a99c1a3331da8234a60b49809bf0cc963db3409dd16c66daab02978a7d6a04baa3cbaa8d651716a53aecf8225603c57891a3fb9a9efdd58fda4b8dc14d762"
+RPM_NAME = "libnetcdf_4_9_2-gnu-mvapich2-hpc-4.9.2-1.2.aarch64.rpm"
+RPM_HASH = "43ab7c9c96325e826e5f260c9ef844a5e798ac78af94c928d61bc5b6e8b24cdebdf38b20ff02c0cda1c1c558099b6f98246da773df9b0b843944ce9ea601f7c3"
 
 RPROVIDES:${PN} += "libnetcdf-4-9-2-gnu-mvapich2-hpc"
 

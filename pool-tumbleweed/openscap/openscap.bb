@@ -9,10 +9,10 @@ related information. \
 More information about SCAP can be found at nvd.nist.gov."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.3.7"
+PV = "1.3.8"
 
-RPM_NAME = "openscap-1.3.7-1.1.aarch64.rpm"
-RPM_HASH = "1b4af609c7df29956cdcd993f8828f6908fbc299c80b6adeb401c3156b91510ff9c906337ce36ac64a672b5018e912eaeac14bcd7630c379615dc54ffbb393bf"
+RPM_NAME = "openscap-1.3.8-1.1.aarch64.rpm"
+RPM_HASH = "120ad17f6b1b0e9a44774559bc3d57f936d3f91d7982d90a80b77a58fa5579021aae7947f79f0328657d4c06f41cafb2dce871b944d2cdbad88ccbd9ab7d2803"
 
 RPROVIDES:${PN} += "openscap"
 

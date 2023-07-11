@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "42.1"
 
-RPM_NAME = "gnome-browser-connector-42.1-2.2.aarch64.rpm"
-RPM_HASH = "7e60d2e237252d772146df8396f1564750871ed8478b269a597edf242ffb26ad847dab904d4800e3605445360cc5296bd645da481a254667a30db2db1803102c"
+RPM_NAME = "gnome-browser-connector-42.1-2.3.aarch64.rpm"
+RPM_HASH = "61d83b965e9ecc4eafa1b62ab3b898af4939353c0c0cf304ef2969c16a63cd84e032aacfcb944d3e70929f398d5b954f0cc3b3cb3b2eb63c1f06a3bfe9851cf2"
 
 RPROVIDES:${PN} += "chrome-gnome-shell \
 config-gnome-browser-connector \

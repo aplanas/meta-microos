@@ -4,10 +4,11 @@ LICENSE = "LGPL-2.1-or-later & MIT"
 
 PV = "7.45.2"
 
-RPM_NAME = "python311-pycurl-7.45.2-4.1.aarch64.rpm"
-RPM_HASH = "cfb239fac577c9337f287876cab6a9ade1b6c6379984a9f8df196366ccdc6430eda29e3fd9f67ef9ec1c4e4541fcae1a0ff359c83a9953cb9287f4e973b3fac2"
+RPM_NAME = "python311-pycurl-7.45.2-4.4.aarch64.rpm"
+RPM_HASH = "cba9267d1362b503fc5e195215098b8a3150b8f10f97e5dfab2d1b1b0d16d357f95109eb266d17811ebecc2fbe1733d6ef8a41b3ad7c0beae617c626d5c53766"
 
-RPROVIDES:${PN} += "python3.11dist-pycurl \
+RPROVIDES:${PN} += "python3-pycurl \
+python3.11dist-pycurl \
 python311-pycurl \
 python3dist-pycurl"
 

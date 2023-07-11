@@ -4,8 +4,8 @@ LICENSE = "NetCDF"
 
 PV = "4.3.1"
 
-RPM_NAME = "libnetcdf-cxx4_4_3_1-gnu-hpc-devel-4.3.1-6.5.aarch64.rpm"
-RPM_HASH = "03782e2a970ce7521e9e4980c124ba8ae68cb0761fad61933c08da07db55b6ddfd0d371cfa98a31a2abf83a2667251871bdf10f7756e054848a152a10da8cbf2"
+RPM_NAME = "libnetcdf-cxx4_4_3_1-gnu-hpc-devel-4.3.1-6.6.aarch64.rpm"
+RPM_HASH = "feff9ccbf5ed832d18d9080f6dda8b727a4c9b05197053fcd7caacbb7dd9d305e14f9e027ff98c75ef5921a15f3fad5ce85c805d4ca6e4264c6c7893439010dc"
 
 RPROVIDES:${PN} += "libnetcdf-cxx4-4-3-1-gnu-hpc-devel \
 netcdf-cxx4-4-3-1-gnu-hpc-tools"

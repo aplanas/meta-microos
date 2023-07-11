@@ -30,13 +30,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.38"
 
-RPM_NAME = "perl-Regexp-Assemble-0.38-1.20.noarch.rpm"
-RPM_HASH = "20202c90e6c7f9e04e94718ceda87981b65ba8f889afe631f7ca27d8bef59a0f22b50d6b532c05b2a2e9d261e7a6c5ccf36a27ac57343321b2c58d4f343d784f"
+RPM_NAME = "perl-Regexp-Assemble-0.38-1.21.noarch.rpm"
+RPM_HASH = "3faa6c7e5d0817f3d3c41b4a7c14d3389ec413ae53fada9320675f7c97ca02121915a624ee6d5327ba935c87b85e129c35be07b3a8f294b98e6cfdd6b902b711"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Regexp--Assemble \
 perl-Regexp-Assemble"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

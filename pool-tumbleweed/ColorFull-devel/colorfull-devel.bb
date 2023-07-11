@@ -15,8 +15,8 @@ LICENSE = "GPL-2.0"
 
 PV = "1.1"
 
-RPM_NAME = "ColorFull-devel-1.1-1.24.aarch64.rpm"
-RPM_HASH = "68d432dc9430138314e2d82b6fe19a60464e435f8348f9cf5dc7519473285e7020968b4cf636c046b08ea52f42acfd0c590902fdc86af76ec8d83853def50c81"
+RPM_NAME = "ColorFull-devel-1.1-1.25.aarch64.rpm"
+RPM_HASH = "116c6a051051a0aa0bf184a00a6d0d099112b1b14d00d05fa5a2dbe4f840a8871c14b13cab5a6ccdf4fb966e7fbc7083822693e51a4c7b63f8eb7552daa869b8"
 
 RPROVIDES:${PN} += "ColorFull-devel \
 pkgconfig-ColorFull"

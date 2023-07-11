@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause & LGPL-2.1-or-later & BSD-2-Clause"
 
 PV = "1.13.1"
 
-RPM_NAME = "adios-gnu-mpich-hpc-1.13.1-5.14.noarch.rpm"
-RPM_HASH = "2d635dd59d7b4bf40998dca8ff69b3581ee291f6da9d57c5ee2526cef34204575519fa6d7a227fc23b91970021a04948e0bbeff936aa044f0475ecec653afb77"
+RPM_NAME = "adios-gnu-mpich-hpc-1.13.1-5.15.noarch.rpm"
+RPM_HASH = "806d096efbedb0d8dc028a1264fa36384be3fb92466d846f7ca36f1fd0aec598a1879868ee8a11f75451e3a7961a8916c38ba8837fc0f9e86737b7df2e189902"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "adios-gnu-mpich-hpc"

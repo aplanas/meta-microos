@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python39-azure-mixedreality-nspkg-1.0.0-1.8.noarch.rpm"
-RPM_HASH = "a386b6041d2b993c8945418b95df1d21ef218d761533ad5bc26b5f787417b3311c610d06aa8deb1a511c9f9f9a3afc94d91b496708bf6c6e596067d1271c66bd"
+RPM_NAME = "python39-azure-mixedreality-nspkg-1.0.0-1.9.noarch.rpm"
+RPM_HASH = "54d0d207199fe285067879172326963e524e944027c45a45e59c2b546e81e0a4c67392d617df3aa8f4a624ea0913f23e27a4a0a51c018e33264e027e1fccfece"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mixedreality-nspkg \

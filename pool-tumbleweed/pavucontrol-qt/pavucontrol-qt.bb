@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.3.0"
 
-RPM_NAME = "pavucontrol-qt-1.3.0-1.1.aarch64.rpm"
-RPM_HASH = "efce14f3d9c288a6d1f5dcd0afb4a6cacd090a93ff384f01c30abe2ce75464a3bf797a46f288d4fe365a32519ab27af6bb0317096eb54887f53bfee304a55c9c"
+RPM_NAME = "pavucontrol-qt-1.3.0-1.2.aarch64.rpm"
+RPM_HASH = "4ba7dfbb460f5eaee76dc5eee3c2188a968cff34f31e8ea5f3027efe951e54004e04e70c9b246cddc9209286dfe1e423e105ca5a960454a6d43993170bdf50d9"
 
 RPROVIDES:${PN} += "pavucontrol-qt"
 

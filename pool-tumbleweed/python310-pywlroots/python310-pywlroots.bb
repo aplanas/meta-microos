@@ -4,11 +4,10 @@ LICENSE = "NCSA"
 
 PV = "0.16.4"
 
-RPM_NAME = "python310-pywlroots-0.16.4-1.1.aarch64.rpm"
-RPM_HASH = "6913fc4c07ad54bcd675deb154f63a15deaa0f43a8a59ac0fd5545f00cc1c8893c364de3369f463f6577e67de1fd031c485bd28200b730823d1a66d7178c81ae"
+RPM_NAME = "python310-pywlroots-0.16.4-1.2.aarch64.rpm"
+RPM_HASH = "fc0e5c1d11747b41d29e5583db6ebee17dc3670ab5743542b9653d66de7160d30e9752165365f61c122c76e04c6498e6ed49db6f8c73bab03f6ba9da64f61885"
 
-RPROVIDES:${PN} += "python3-pywlroots \
-python3.10dist-pywlroots \
+RPROVIDES:${PN} += "python3.10dist-pywlroots \
 python310-pywlroots \
 python3dist-pywlroots"
 

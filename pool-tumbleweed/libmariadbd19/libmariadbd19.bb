@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains MariaDB library that allows to run an embed
 MariaDB server inside a client application."
 LICENSE = "SUSE-GPL-2.0-with-FLOSS-exception"
 
-PV = "10.11.3"
+PV = "11.0.2"
 
-RPM_NAME = "libmariadbd19-10.11.3-1.1.aarch64.rpm"
-RPM_HASH = "e8034b816ead1e8c5ab26884e964ded469d84a51ca1daa994c1d7226af09af51d9f3edeefa9cf0c331fac13a1ad5251d3ddaa1ce7a575a982990fb1903f2613e"
+RPM_NAME = "libmariadbd19-11.0.2-1.1.aarch64.rpm"
+RPM_HASH = "7d975fc85b194580b8409bdf620fb22388dcdd0fa9dbd18fd978e36c728ef7abf8e67d57625d2e3378fca146397db27bb7cf64684a253920ada12ce60bd4ad64"
 
 RPROVIDES:${PN} += "libmariadbd.so.19 \
 libmariadbd19 \

@@ -10,11 +10,12 @@ LICENSE = "MIT"
 
 PV = "1.4.0"
 
-RPM_NAME = "python311-wikipedia-1.4.0-4.12.noarch.rpm"
-RPM_HASH = "fb6e1dedfdfb5213c60230d0ce6c7586af3bbeede6a525e0a6d6cee9a0589441199ab77449d07998f7895b08ef5dc579856faac69a55b1e56ee659fb636ffc88"
+RPM_NAME = "python311-wikipedia-1.4.0-4.14.noarch.rpm"
+RPM_HASH = "9ff78275cc4a6cd7e62708c8ca98c1b044592d3ed9b95534dc37b82166dcc36f8b7e062deea5202e9f36e41b745acc1c79785576e10d1faa6254efa813993df9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-wikipedia \
+RPROVIDES:${PN} += "python3-wikipedia \
+python3.11dist-wikipedia \
 python311-wikipedia \
 python3dist-wikipedia"
 

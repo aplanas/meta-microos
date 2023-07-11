@@ -5,8 +5,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2.1.0"
 
-RPM_NAME = "biblesync-devel-2.1.0-1.9.aarch64.rpm"
-RPM_HASH = "f4b90aae61e6bd96dc90deee6bd13bcbb1e645ec871426f19f2768f17cfc53cadbb9c3c1390046ec38feed6a341ef3f0e48fd296e8c043b75f0b3852b64b48e8"
+RPM_NAME = "biblesync-devel-2.1.0-1.10.aarch64.rpm"
+RPM_HASH = "70f29d8e32ed7c8642507b9634f39cc844cef498c88dee11f7f6379e871eef295c560d24073b25c6f9497a7c8081915b5e8f0d0481b02342559991d4916cbc6e"
 
 RPROVIDES:${PN} += "biblesync-devel \
 pkgconfig-biblesync"

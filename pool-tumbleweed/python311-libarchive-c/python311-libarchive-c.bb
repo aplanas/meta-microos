@@ -5,11 +5,12 @@ LICENSE = "CC0-1.0"
 
 PV = "4.0"
 
-RPM_NAME = "python311-libarchive-c-4.0-2.5.noarch.rpm"
-RPM_HASH = "6e9b9520754141e791e3b15ad2647fa2a8213802f48cb82dc5fe790b7dfa2d8fc1805fde8f481e89710458a1cf3e0de7597c8c4b7c5885591129c4d3fc8ec2ec"
+RPM_NAME = "python311-libarchive-c-4.0-2.7.noarch.rpm"
+RPM_HASH = "2d4c0ffaa320c7696fb91f8b73fd9a95066e4123b5fe79b61a34a8704bf44db4dcd81f32145ca21b63c79e7abd6f1342ccfe742d3269f817b631a82f4711822a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-libarchive-c \
+RPROVIDES:${PN} += "python3-libarchive-c \
+python3.11dist-libarchive-c \
 python311-libarchive-c \
 python3dist-libarchive-c"
 

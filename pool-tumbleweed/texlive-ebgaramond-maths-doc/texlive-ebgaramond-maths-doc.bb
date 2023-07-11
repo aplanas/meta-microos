@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.2svn52168"
 
-RPM_NAME = "texlive-ebgaramond-maths-doc-2023.201.1.2svn52168-53.1.noarch.rpm"
-RPM_HASH = "4358a4fe685e32b64c147620901e2ee8b26c95e088d4a66bffad3bf26a5fc9504b67cade7b26019059886643c1ee354936e613469f1020f688e8789a0307d6a2"
+RPM_NAME = "texlive-ebgaramond-maths-doc-2023.201.1.2svn52168-53.2.noarch.rpm"
+RPM_HASH = "904b3aa5c9a3e5a42a45ba33451796fd936ba58868bbb520a7a7343ad3050fb38b5cef0bbb73efb2e1fe865ee476274f9d4ac2318207f89012e80ec335ce5b9e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ebgaramond-maths-doc"

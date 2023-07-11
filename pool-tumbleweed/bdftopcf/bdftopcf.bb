@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "1.1.1"
 
-RPM_NAME = "bdftopcf-1.1.1-1.2.aarch64.rpm"
-RPM_HASH = "d042a72d806e8018259736bcbf8477c014b7e97f69cfe41703d9ebac7ab1f2f018811c34f84fbbbfe1f389e8702d6315d14bfa384d7b460c9458c0d15be5fc9e"
+RPM_NAME = "bdftopcf-1.1.1-1.3.aarch64.rpm"
+RPM_HASH = "6d5aee2beb751e2cf4f3dd6a9f1e4e3cc5f047f203f38aceec30806d9086aaece78d2f9df30b1354dde168de17be2e8b532aa29bab6e88075cf8b4536c8f9bc7"
 
 RPROVIDES:${PN} += "bdftopcf"
 

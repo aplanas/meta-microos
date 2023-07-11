@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.8.0"
 
-RPM_NAME = "python39-sphinx_press_theme-0.8.0-1.3.noarch.rpm"
-RPM_HASH = "13a2fbc864b30e2c34a03c344c5e3dde0c0938486e08aa8f83decb7fadca12f01f628d5fedadae4965b457e24b5207b1d5b9fee89bb5903e0cbed4aac05f4614"
+RPM_NAME = "python39-sphinx_press_theme-0.8.0-1.5.noarch.rpm"
+RPM_HASH = "c7dbeb86ab33778fc31f2b5b5b278723da2d9b314479fa550ee9e983af806c19789cce55da59834a9a62396a8f4c678659c858c0c1a983fff5e7c26c4f65909d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sphinx-press-theme \

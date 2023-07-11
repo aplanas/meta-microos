@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.7.0"
 
-RPM_NAME = "python311-fleming-0.7.0-1.3.noarch.rpm"
-RPM_HASH = "0f572f5146d168588949b305721ead455ed7856e52dc8082e87e00cd1f68dbf6e9d445735616f04c654c495425f1ceb451c917391a96fd048804791160db2b02"
+RPM_NAME = "python311-fleming-0.7.0-1.5.noarch.rpm"
+RPM_HASH = "fdc47bb0ccefaa67ffe8e33c85f7818570d38ae95059d3eaee24a165be0c19fe14b92394e291a2b8be345c37ce2795055fc360779f93e46877f1c9e099f8e08b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-fleming \
+RPROVIDES:${PN} += "python3-fleming \
+python3.11dist-fleming \
 python311-fleming \
 python3dist-fleming"
 

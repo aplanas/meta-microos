@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "4.4.2"
 
-RPM_NAME = "ghc-adjunctions-doc-4.4.2-2.3.noarch.rpm"
-RPM_HASH = "1686aa952c81c3b6aee27d0a1e4b2e3436aa2b26023e984bb1048451e9f04061b6c137d518bc23c383db724eb525e098a11986fe1fcb1f247eb1a15ee70417ec"
+RPM_NAME = "ghc-adjunctions-doc-4.4.2-2.6.noarch.rpm"
+RPM_HASH = "05f19c9a84233d4e3df2bd347381f29a550308abfcf94680c34d9d82d3f50cee0d4f58ff8826f076f6bfacbb979de0ded02144abc3cbb925d70e5223e56298fb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-adjunctions-doc"

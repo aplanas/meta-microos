@@ -7,8 +7,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.4svn57068"
 
-RPM_NAME = "texlive-rest-api-2023.201.1.4svn57068-53.1.noarch.rpm"
-RPM_HASH = "5ecc595bbfb682b71010ffb402a6ad980d87642704ff6fcf8bc48c5a417d95c64d9934d07b4edbf98ba73aa8706a7fe3fbf3485ecb9a8aba002c270d5a78c30e"
+RPM_NAME = "texlive-rest-api-2023.201.1.4svn57068-53.2.noarch.rpm"
+RPM_HASH = "6842a2740dc541580c7886d0b101b0a6c75c0fb7678e8760c491fe55cc5dd2eec7eba15bf64441126f916fe27dd301c614c70e20e85ce908392d4731cadc3f29"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-rest-api.sty \

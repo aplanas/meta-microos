@@ -3,10 +3,10 @@ DESCRIPTION = "Qt Creator is an integrated development environment (IDE) designe
 facilitate development with the Qt application framework."
 LICENSE = "BSD-3-Clause & GPL-3.0-only & GPL-3.0-with-Qt-Company-Qt-exception-1.1 & (LGPL-2.1-only | LGPL-3.0-only) & LGPL-3.0-only"
 
-PV = "10.0.1"
+PV = "10.0.2"
 
-RPM_NAME = "qt6-creator-10.0.1-2.2.aarch64.rpm"
-RPM_HASH = "5226179481621f64ede7dad8f6e84f1eb3b57f0de6be3b73e198060f34f4a07192fc67258415162d2fed0d278934ebdbaa6e932cf2c05b50152a73984b04da69"
+RPM_NAME = "qt6-creator-10.0.2-1.1.aarch64.rpm"
+RPM_HASH = "18dd0b72c25c40ec2a117c3781697cb277a68677e6896d2e309194f133bcf1ebacdfecb72a03761f2fda88abaaf23c3bd703a23b0fcc3b846e9c05e17e4cd329"
 
 RPROVIDES:${PN} += "libAdvancedDockingSystem.so.10 \
 libAggregation.so.10 \

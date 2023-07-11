@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.9.8"
 
-RPM_NAME = "libstoragemgmt-udev-1.9.8-1.1.aarch64.rpm"
-RPM_HASH = "c5abac9b6a6b32079f477430204ae6825272d8b333c07e4f1451795d0e828958e3aedd3294a119c51bf7d9a85a6c8f3c59cd293a312206c7335869e9037b3197"
+RPM_NAME = "libstoragemgmt-udev-1.9.8-1.2.aarch64.rpm"
+RPM_HASH = "aea32bb0038e919ebb7b3a4ee19416f927b334065dfbf503ea86fb0cebe83f95dfc941d876ac0b355594e3bc5ec08a5a56d9ac6646be497f6754e97049f8a702"
 
 RPROVIDES:${PN} += "libstoragemgmt-udev"
 

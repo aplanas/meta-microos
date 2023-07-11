@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.12.0"
 
-RPM_NAME = "skopeo-bash-completion-1.12.0-1.1.noarch.rpm"
-RPM_HASH = "1a93c16649f6bf1f897a12e03e4907445613ff5ac60875f54df9f3f74c39614bdd60732c0045e989a2f2fee4628a915c6b091f9ec6e83511524dc01197e95a4e"
+RPM_NAME = "skopeo-bash-completion-1.12.0-1.2.noarch.rpm"
+RPM_HASH = "3371b9ab5235c453f0982bff6b6f81680a6bb20fd797c0808e50c45675a39e87f02b8b4ec8b2091c4881f6fca0758324af0df5b8819273c78654a2922c82d0b9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "skopeo-bash-completion"

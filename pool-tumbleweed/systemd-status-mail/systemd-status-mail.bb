@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.11"
 
-RPM_NAME = "systemd-status-mail-1.11-2.1.noarch.rpm"
-RPM_HASH = "620c7cd1d3fb0ba26132b2ba95727497abf8bef770d5de709c0d184d90c28200c0daaf20f0a90812b264ea675148c238a34c223e3a5ff481831fcf1ad74981cb"
+RPM_NAME = "systemd-status-mail-1.11-2.2.noarch.rpm"
+RPM_HASH = "e150f994599683f7149165ac431cfbb4cf06707399102bdee2ddbf8b2b59c7451b8904f4e77024eccf06d716b2244ec01fabcf1fab5c48415ec40417b9a58649"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "systemd-status-mail"

@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.1.3.4"
 
-RPM_NAME = "ghc-unicode-collation-devel-0.1.3.4-1.3.aarch64.rpm"
-RPM_HASH = "34e1e0c526383a085b1d748bb7aa761dd5c92e3a2a092f6a1d37fe49e0aad531b44875cffa092b7cae271993db86a54e10c3fc36349e452ef07444f0361d56b7"
+RPM_NAME = "ghc-unicode-collation-devel-0.1.3.4-1.6.aarch64.rpm"
+RPM_HASH = "3be05efb7ec01d8c012a6e60cc115a3e14f12f94e390e0b1251ea5cdd2207b78d0154afd0b1ba57fca14efafcfbfb06aef8ffdd9eb935cd3709d676c5a71fa13"
 
 RPROVIDES:${PN} += "ghc-devel-unicode-collation-0.1.3.4-LMKRbY0RRBBKxwMiir45sP \
 ghc-unicode-collation-devel"

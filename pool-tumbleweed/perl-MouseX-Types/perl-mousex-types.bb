@@ -4,8 +4,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.06"
 
-RPM_NAME = "perl-MouseX-Types-0.06-11.20.noarch.rpm"
-RPM_HASH = "15b497a0b1fab39354a25a251caf486936c3f747e7bbca233a6bb5147f94eb700bcdc00d8f126801c64702dc9253f313d958b0f5cc3ab74d674c8e9f739d6ca2"
+RPM_NAME = "perl-MouseX-Types-0.06-11.21.noarch.rpm"
+RPM_HASH = "30865ef6d564435295d77d07bca68fee0656b56e5e29a42b53aa64f26e3dd0a90807d297d1a6004fe698bb8322620baaaadd7daf341ca78f25ec1e4d865712d1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MouseX--Types \
@@ -15,7 +15,7 @@ perl-MouseX--Types--Mouse \
 perl-MouseX--Types--TypeDecorator \
 perl-MouseX-Types"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Any--Moose \
 perl-Mouse"
 

@@ -2,10 +2,10 @@ SUMMARY = "ARM Ltd. based arm64 systems"
 DESCRIPTION = "Device Tree files for ARM Ltd. based arm64 systems."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.3.4"
+PV = "6.3.9"
 
-RPM_NAME = "dtb-arm-6.3.4-1.1.aarch64.rpm"
-RPM_HASH = "733e922b089d0c72cd5ac5f2a1ed3ab71f9c712281fac4ca868810bd9d0b5b17967ec127c345ade318e24775243f9d558aee5fe18dc3b3778bfc35b5fbc75925"
+RPM_NAME = "dtb-arm-6.3.9-1.1.aarch64.rpm"
+RPM_HASH = "3003a0278a26a75003beb01d99a13b36e782cd62166e8fbe0cc7911dc86e8fbff010614bb28bdf878ed9fdb6dd6b5df58f7a3af353e662306d0f6c6aa679ffb7"
 
 RPROVIDES:${PN} += "dtb-arm \
 dtb-foundation-v8 \

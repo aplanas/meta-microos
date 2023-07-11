@@ -3,10 +3,10 @@ DESCRIPTION = "This package allows you to modify a cell based on the contents \
 of other cells using LaTeX macros."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn56113"
+PV = "2023.208.1.0svn56113"
 
-RPM_NAME = "texlive-luaprogtable-2023.201.1.0svn56113-52.1.noarch.rpm"
-RPM_HASH = "478902f2efc97e99809dc136ae68e006d5ca8df469ce4f7ced738c42254f0400752572b81f7bf32202a85715785cb714fa9757a492c47d06e323301df3186871"
+RPM_NAME = "texlive-luaprogtable-2023.208.1.0svn56113-53.1.noarch.rpm"
+RPM_HASH = "0ac19d652f2de55b2da257bb7071450c69e4fa1d7ad1ee3d09753fd041f280b9650e765a7327d8a2bbe299b61088340243085c1fa41b89f1cd256280a384089c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-luaprogtable.sty \

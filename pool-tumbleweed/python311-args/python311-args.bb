@@ -4,11 +4,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.1.0"
 
-RPM_NAME = "python311-args-0.1.0-2.15.noarch.rpm"
-RPM_HASH = "98ebbc1f5fb31df8067a612820d8bdd30108d5c0165dea8224a1e93c3bd97b21c29e9a99f0710b0b2fedc8781dcb742dd2906ebd653d02c7f91e6d0c77d6f5d1"
+RPM_NAME = "python311-args-0.1.0-2.16.noarch.rpm"
+RPM_HASH = "2ee0467f8d4cdbcff64fb2d2bd60dcaa905d39f1211e9a89e3fdbace821c18f9cb432f8f0a9759db861ff43bfdf69697073a88b2358b595dc413467452d6d6b7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-args \
+RPROVIDES:${PN} += "python3-args \
+python3.11dist-args \
 python311-args \
 python3dist-args"
 

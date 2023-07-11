@@ -1,10 +1,10 @@
 SUMMARY = "A help service to work with git repositories in OBS"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.4.1"
+PV = "0.4.2"
 
-RPM_NAME = "obs-scm-bridge-0.4.1-1.1.noarch.rpm"
-RPM_HASH = "973b1a2b1af7da4a92cf73e55a444a37f12efec874716dd143d91075cd93aa6ddfb6eb577b960291c378facd3e9dd4576a9ed52b1fb1afd7922787e5edbc5b27"
+RPM_NAME = "obs-scm-bridge-0.4.2-1.1.noarch.rpm"
+RPM_HASH = "07407604056b3186d64be0a31c375948243e098c24ed222a42af75846bbc5820476a6a2d814ce381bc783bbf74585951563f0780fafeca164c6be5bdf4c97d7f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "obs-scm-bridge"

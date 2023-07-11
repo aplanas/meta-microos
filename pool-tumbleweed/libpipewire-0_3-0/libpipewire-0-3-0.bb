@@ -12,10 +12,10 @@ Some of its features include: \
 This package provides the PipeWire shared library."
 LICENSE = "MIT"
 
-PV = "0.3.71"
+PV = "0.3.72"
 
-RPM_NAME = "libpipewire-0_3-0-0.3.71-3.1.aarch64.rpm"
-RPM_HASH = "0e507287072046c181d5079d8d6a6fd53299731a79f459f51a00ff4d8818a594cc553eb0a1bbf1389844b286e632b5d41cef2c14b1fef74dda84f6d4e3f56863"
+RPM_NAME = "libpipewire-0_3-0-0.3.72-1.1.aarch64.rpm"
+RPM_HASH = "f95c67aa96f1152db94281e5eb07346bd32f19d10847189d97f68612c6cc8b18e549e50c5bd1d94ac1352a5174a331869e0df34713e93a2970271f6fa5c0e466"
 
 RPROVIDES:${PN} += "libpipewire-0-3-0 \
 libpipewire-0.3.so.0"

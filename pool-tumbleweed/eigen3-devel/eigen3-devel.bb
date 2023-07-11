@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause & LGPL-2.1-only & MPL-2.0 & LGPL-2.1-or-later"
 
 PV = "3.4.0"
 
-RPM_NAME = "eigen3-devel-3.4.0-2.6.noarch.rpm"
-RPM_HASH = "50fda0b649de4bffc92fb5a68c6674923aa4059610bcaff78c5e392a6e4811ccface3fde0b099422fa02f689dcfee6e4044a8d94b2eeb563c00e0e2795d7314e"
+RPM_NAME = "eigen3-devel-3.4.0-2.7.noarch.rpm"
+RPM_HASH = "3f8a94067b631069ba2d675b0673dc4c2aa64d7eda5d2098f86e2530839a4e0afcf1289e524b707866b539faa3872f387dec870c78b5711d4386e696bda5045c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eigen3-devel \

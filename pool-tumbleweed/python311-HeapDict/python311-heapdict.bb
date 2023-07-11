@@ -11,11 +11,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.1"
 
-RPM_NAME = "python311-HeapDict-1.0.1-2.11.noarch.rpm"
-RPM_HASH = "d05ac626e0e1395f5249f2b1e8b835de274bab179638c9af995ebb18598ebd4af34d4b32f0540798e34db77037279ebd2fdce0e43255fa09e64823b114440f29"
+RPM_NAME = "python311-HeapDict-1.0.1-2.13.noarch.rpm"
+RPM_HASH = "537f2a7e60376e5330b63ab31ccaf6773bfd43aa0e6385f8ca1768ec3a41adde58db1114a7ab4aa3cc6d3dbc6c805fd9cf0159937619810a5952f91462963cf6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-heapdict \
+RPROVIDES:${PN} += "python3-HeapDict \
+python3.11dist-heapdict \
 python311-HeapDict \
 python3dist-heapdict"
 

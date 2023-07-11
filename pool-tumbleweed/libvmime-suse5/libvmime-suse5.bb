@@ -10,8 +10,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.9.2.175"
 
-RPM_NAME = "libvmime-suse5-0.9.2.175-2.4.aarch64.rpm"
-RPM_HASH = "0ac77c3279800718dce34030b739599bd58fbcf522a63da8decf6f3b455cc0357025d7ca99519beacef5c8e21ca5a2fce43de238161ce092851d4f32093f806c"
+RPM_NAME = "libvmime-suse5-0.9.2.175-2.5.aarch64.rpm"
+RPM_HASH = "5a2063dcb27dd9e5251a301ee23eecb811cc035072e890663a8bb45cd61becd56f21c5df199e5130a402a39c668fee4af70a82f559fba5ecd42f4b9a5fcfd6ce"
 
 RPROVIDES:${PN} += "libvmime-suse.so.5 \
 libvmime-suse5"

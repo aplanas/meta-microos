@@ -11,8 +11,8 @@ LICENSE = "GPL-3.0-or-later & MIT"
 
 PV = "1.1"
 
-RPM_NAME = "consoleet-utils-1.1-1.3.aarch64.rpm"
-RPM_HASH = "050093abb48919faf53ca18210debb6a22fa8f2cc98a6ec859be55f3750c9d4bd669c4ac364e4006c22cf4eefa4493a6d293668200c73e015e1bb721355e71a5"
+RPM_NAME = "consoleet-utils-1.1-1.4.aarch64.rpm"
+RPM_HASH = "6f6d2c99f0717a770b18c1e4db019ae670d24b48c622d30328766bc8ac6192a9d27281da03f5fb255d3233da4797dcc91f909cadcd0f487e8fe266b3ede4939f"
 
 RPROVIDES:${PN} += "consoleet-utils \
 vfontas"

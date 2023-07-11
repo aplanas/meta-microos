@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.1"
 
-RPM_NAME = "string-template-maven-plugin-1.1-2.10.noarch.rpm"
-RPM_HASH = "34dae38b69f2e2934faa8d46f04a361f2392dc33ebf81d554d47f75f8c058aae0c0c2cf8cb34a6a23f129f6c30612b526360c7a1315c29d95b5a022e645ca5c2"
+RPM_NAME = "string-template-maven-plugin-1.1-2.11.noarch.rpm"
+RPM_HASH = "c27a7561b012d2fc96d1fead8e5cf35c2a59d97150959015e042ee96211640b5c62ef92eb01017b89fa18f19868d8c0dae936bb012945822630a44b96e06de60"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-com.webguys-string-template-maven-plugin \

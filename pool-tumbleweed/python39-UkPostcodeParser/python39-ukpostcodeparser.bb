@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.1.2"
 
-RPM_NAME = "python39-UkPostcodeParser-1.1.2-4.1.noarch.rpm"
-RPM_HASH = "35bae4c70d48344d54f54c528280b4e0c5efffd2239fbf141342516f83cfd00cca3c5e31a1f9f8e7df611043fc891de03881df603128e3db8f52df143cb26581"
+RPM_NAME = "python39-UkPostcodeParser-1.1.2-4.2.noarch.rpm"
+RPM_HASH = "70fcace2f0b7e82a71c4b4f138d98d22313933ec5130d21096740b33f14afe8ffe0f6d6c45c8c9aeeea28ccad83eeeaa75f637f305cce0cdc2eda09903a4a1fb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-ukpostcodeparser \

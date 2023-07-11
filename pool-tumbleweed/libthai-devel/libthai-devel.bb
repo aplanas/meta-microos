@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.1.29"
 
-RPM_NAME = "libthai-devel-0.1.29-1.6.aarch64.rpm"
-RPM_HASH = "329c947f84426ccd10fe5a804ffdd1088968596745f37750d804dd2e229ca003a0ac322fa1ffd703b1a34eb943c146f03199bcd756c43421b23aad797316452f"
+RPM_NAME = "libthai-devel-0.1.29-1.7.aarch64.rpm"
+RPM_HASH = "ab53f94d5a34d5e6b0a4df02bc92fa694e5218e6a3596c9cd73a251f0556e57f3023bca4b7dd84fba436eaa9e95ce5a6cd6589d01fa1257ffd4848b67b07c2bb"
 
 RPROVIDES:${PN} += "libthai-devel \
 pkgconfig-libthai"

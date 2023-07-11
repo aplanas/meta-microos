@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.14"
 
-RPM_NAME = "exiftran-2.14-4.1.aarch64.rpm"
-RPM_HASH = "d0aaf8fd732019b60be2eab612133a207ef674d17279b36f33c9c7d29b6832e7140478da7e74ea091edff0bb02c87776378e5e30f316b8ff7aacb178e604b3b1"
+RPM_NAME = "exiftran-2.14-4.2.aarch64.rpm"
+RPM_HASH = "0113f3e707b6ba70735e340cbf74e856b27f218a9abfcc24bc2f4abfeadda001855b7e8f25f00398b866a2b16f6f8fcd0d7fb8483d182592d2fac955b1e7af05"
 
 RPROVIDES:${PN} += "exiftran"
 

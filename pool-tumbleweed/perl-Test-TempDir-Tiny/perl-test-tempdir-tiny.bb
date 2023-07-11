@@ -39,14 +39,14 @@ LICENSE = "Apache-2.0"
 
 PV = "0.018"
 
-RPM_NAME = "perl-Test-TempDir-Tiny-0.018-1.17.noarch.rpm"
-RPM_HASH = "6aa9db4abed1f28cdbf08a1a67405de1ab02d204cdaa66854b4380b7286f599a51b88b42281506d14507168eff51ab2b1aa252e92661991c3b5e1c6f173d6fbc"
+RPM_NAME = "perl-Test-TempDir-Tiny-0.018-1.18.noarch.rpm"
+RPM_HASH = "906cccca9197ef682eb58e01d7c4c695c593f6e701d61bcf66063637e304204855e288c425f8319aa2f85e0041383e501586c2ef16683fe88fc7f20fbff5b527"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--TempDir--Tiny \
 perl-Test-TempDir-Tiny"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-File--Path \
 perl-File--Temp"
 

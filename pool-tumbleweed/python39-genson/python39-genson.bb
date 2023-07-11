@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "1.2.2"
 
-RPM_NAME = "python39-genson-1.2.2-2.13.noarch.rpm"
-RPM_HASH = "4de6f5bb0273f41075a7f0de2ddd68ff651eaf53a465c4b5dc0ff76a85409afe14c85f7339029d20297eaa44b40113d161a82d79440500d9967327ccb7cc281b"
+RPM_NAME = "python39-genson-1.2.2-2.15.noarch.rpm"
+RPM_HASH = "9daa54631b021f9165c34a7fa0338ccc60a2b428f4f599e4d4966d8a3dccdf9b0eca962c202c02f27e1f767c0408f3112b75018ceee2a3db90bc56c2a2010f2b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-genson \

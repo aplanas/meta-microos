@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-only & LGPL-2.1-or-later"
 
 PV = "1.3.1"
 
-RPM_NAME = "typelib-1_0-GVnc-1_0-1.3.1-1.5.aarch64.rpm"
-RPM_HASH = "7c0ff68aea24cad1a1eeb2682dc6f345e058ac37357bbdc8a495dd41afca6110af52bb439a2a21c4a81e3ca8a2a2ad0372901dc3418d467435de46cd65cd11a0"
+RPM_NAME = "typelib-1_0-GVnc-1_0-1.3.1-1.6.aarch64.rpm"
+RPM_HASH = "1c91f874d97d45135e6e2c6179559639ad5cdae6a6f8d766df4e0fefe21b87303c71591f5fed6ceb523e0d03278e2070c637a3a90a5452493c9a42331fa6f783"
 
 RPROVIDES:${PN} += "typelib-1-0-GVnc-1-0 \
 typelib-GVnc"

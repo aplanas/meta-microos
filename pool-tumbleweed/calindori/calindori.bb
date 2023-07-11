@@ -4,10 +4,10 @@ It has been designed for mobile devices but it can also run on desktop environme
 Users of Calindori are able to check previous and future dates and manage tasks and events."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "calindori-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "d53d94fd8dd205c914cc2b0ea791aabc013aac57a8087df9bfc036a1212ea3577d721a4d5822bd1d9a878155592d9f4bd8d852242c01ec60489749b9a529400d"
+RPM_NAME = "calindori-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "b46609850356b3cc8525862c91fd94d02fc553bc03b52918ca79b3816428fda51bed8aea742dfdc8f4d33402ca552c1b49c73bb61e3cd8b793bdcab6f45a542b"
 
 RPROVIDES:${PN} += "calindori"
 

@@ -5,12 +5,11 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.6.3"
 
-RPM_NAME = "python310-zypp-plugin-0.6.3-4.21.noarch.rpm"
-RPM_HASH = "d1d65d7380690c4fd0baaefba120ba3a0451af706aee701d03a8daf81d3085e31613c56926928cd2da3bd4daaa8402e68d1f3f032fee24ae3e721404d9eb850a"
+RPM_NAME = "python310-zypp-plugin-0.6.3-4.23.noarch.rpm"
+RPM_HASH = "d2a13ac8e1ce12d30a51f05e9c257ae28746f24470f2dec4c78f6d99e2c2948327a39565ffe2be30c291e001aa623c0184d5095194ea19518b58f12006f4b486"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-zypp-plugin \
-python310-zypp-plugin"
+RPROVIDES:${PN} += "python310-zypp-plugin"
 
 RDEPENDS:${PN} += "python-abi \
 python310-base"

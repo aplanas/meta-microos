@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2023.201.svn64330"
 
-RPM_NAME = "texlive-ptex-fonts-2023.201.svn64330-53.1.noarch.rpm"
-RPM_HASH = "46c5ae0c81b121cdccc951966c814a4648e961df69a71fdbb70157124d660ffdc353b32d1c113bf90f8c9a23d73423aa1cb06f2ea1c118eefbf3ae8f1c444a9b"
+RPM_NAME = "texlive-ptex-fonts-2023.201.svn64330-53.2.noarch.rpm"
+RPM_HASH = "23170f253327a824b61cca8f595dd314328396e7c16da672e17d00c315d297b36ddea3666c964b46ccf19da8e36c762a66e367d29e6bda5a5fe7c7fe78c8ca1f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gbm.tfm \

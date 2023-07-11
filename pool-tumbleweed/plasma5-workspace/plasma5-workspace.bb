@@ -2,10 +2,10 @@ SUMMARY = "The KDE Plasma Workspace Components"
 DESCRIPTION = "This package contains the basic packages for a Plasma workspace."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "plasma5-workspace-5.27.5-2.4.aarch64.rpm"
-RPM_HASH = "5eea85e56cdb482a44b990fa63cbb3a7a7893faa50b35bb8299b0bad709cd800d0b09e141afcfa24740406f5f04e9b34a3e09b8b452be47b348cab8a8e18f2a8"
+RPM_NAME = "plasma5-workspace-5.27.6-2.1.aarch64.rpm"
+RPM_HASH = "ce755f287d4a388a2daccbab9c80388dec104388a29ac6d64aa4fe74d47d5d657cafd65d57a862dd20b92aa9c5128be2b17c54d1661606b619ae9dcf137d5528"
 
 RPROVIDES:${PN} += "config-plasma5-workspace \
 dbus-org.freedesktop.Notifications \
@@ -132,6 +132,7 @@ libKF5XmlGui.so.5 \
 libKPipeWire.so.5 \
 libKScreenLocker.so.5 \
 libKSysGuardSensorFaces.so.1 \
+libKUserFeedbackCore.so.1 \
 libLayerShellQtInterface.so.5 \
 libQt5Core.so.5 \
 libQt5DBus.so.5 \
@@ -233,6 +234,7 @@ qt5qmlimport-org.kde.plasma.workspace.keyboardlayout.1 \
 qt5qmlimport-org.kde.prison.1 \
 qt5qmlimport-org.kde.quickcharts.1 \
 qt5qmlimport-org.kde.taskmanager.0 \
+qt5qmlimport-org.kde.userfeedback.1 \
 solid-imports \
 xembedsniproxy \
 xprop \

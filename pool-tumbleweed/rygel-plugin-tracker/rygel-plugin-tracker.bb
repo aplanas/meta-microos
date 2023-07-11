@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "0.42.3"
 
-RPM_NAME = "rygel-plugin-tracker-0.42.3-1.1.aarch64.rpm"
-RPM_HASH = "088d35446ece101e3d9b7e1eaf2d50acedb53ab4610450b9c12fe010f013cf72ceadf5cedbbaaf03f86ecae19b0c18cd58454d9b65b06d43c8d3c43c375637ea"
+RPM_NAME = "rygel-plugin-tracker-0.42.3-1.2.aarch64.rpm"
+RPM_HASH = "cd92aeba8754121d2e222deb94c39507447251b752367e6dc1b2ffc98c35afbcf830bd847b00ba0d2ab4115fd1b38dc7e3d5bb30f93dac43bea570ceb586a610"
 
 RPROVIDES:${PN} += "librygel-tracker3.so \
 rygel-plugin-tracker"

@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.9.1"
 
-RPM_NAME = "zoxide-0.9.1-1.1.aarch64.rpm"
-RPM_HASH = "f7e8c62afef100b1824ba76f90d361e8b1bd29f4e608c2a262f62035af1dcf60dbbb6a27133487f1263ef8e17a6ca145cc86361fa1550eba815b35cc0779e8a7"
+RPM_NAME = "zoxide-0.9.1-1.2.aarch64.rpm"
+RPM_HASH = "ada2ffcfc5ec5c3380ee3deeaf5b6224cdb41e7c609b0ef7810ccf9b6d0ab205cfa7610865b8e8d89d46bb0bb8aa12189554820f43830015f2c589fe32680e5c"
 
 RPROVIDES:${PN} += "zoxide"
 

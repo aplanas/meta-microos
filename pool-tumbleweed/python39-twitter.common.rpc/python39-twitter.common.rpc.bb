@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.3.11"
 
-RPM_NAME = "python39-twitter.common.rpc-0.3.11-1.15.aarch64.rpm"
-RPM_HASH = "f79746dc4eb69283ad7481264473a0bc8cfe7b89d93bd38b2d403392ce6097aee4275bc94d2858ef0ada586cf0b772668b48f41037fcf28e85b905d0d47e2f0b"
+RPM_NAME = "python39-twitter.common.rpc-0.3.11-1.17.aarch64.rpm"
+RPM_HASH = "65c885231534524afa7d072323b73250e99415325ddfdc2b2a05a8bc4e70190f7fe87591790f4b4d30a192cea132c119175fdca95368f9a6594ac605ecabb3ee"
 
 RPROVIDES:${PN} += "python3.9dist-twitter.common.rpc \
 python39-twitter.common.rpc \

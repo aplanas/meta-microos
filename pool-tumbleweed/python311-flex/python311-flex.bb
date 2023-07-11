@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "6.14.1"
 
-RPM_NAME = "python311-flex-6.14.1-5.1.noarch.rpm"
-RPM_HASH = "6a28b76b318204e27170dbd5961ca19ce242a5c5f8395a6d468d57c18505901e18a517be915b66997b0bccd4e8805344dc5a52d44aee76b979404705a1c9e0b5"
+RPM_NAME = "python311-flex-6.14.1-5.3.noarch.rpm"
+RPM_HASH = "647d72927a4350ccfc139acb2be8e3112aeda639d5730fcc0181aa7a44a24b2a8108852ac0578378639d7aba7f4ae3a3469196f86bdde8a860fe791a5b7fedbe"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-flex \
+RPROVIDES:${PN} += "python3-flex \
+python3.11dist-flex \
 python311-flex \
 python3dist-flex"
 

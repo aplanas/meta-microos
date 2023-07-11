@@ -10,8 +10,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2022.1"
 
-RPM_NAME = "votca-tutorials-2022.1-3.6.noarch.rpm"
-RPM_HASH = "5e28c0f8fd8357b9e120bee06397bd1bfe8ae4c20ebdde778b4561ec4ce6b13f3dd61c10f80d1c60e654ea72d68c73f22eb8912ccd75a467d1b03f63f2fe4e73"
+RPM_NAME = "votca-tutorials-2022.1-3.7.noarch.rpm"
+RPM_HASH = "2acf5272b9ac36f502b09a276677b3c7285cfcc86cb17dac85d9a20c1c1951487ccf1f8dea02bb0aedfe2679ed43b3e29fd9d1619ce0ba530f93b5c779dc72cf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "votca-csg-tutorials \

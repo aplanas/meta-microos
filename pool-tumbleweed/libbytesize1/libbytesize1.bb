@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "2.8"
 
-RPM_NAME = "libbytesize1-2.8-1.1.aarch64.rpm"
-RPM_HASH = "f4a9030ebd1c29a1d8f29ef9408be5d24c2c4417e3632fa0ac330816cb2f442c421a40e5d2e109c1996989163b4fdb28ffaaf7fdb8928391c167f43946da5da0"
+RPM_NAME = "libbytesize1-2.8-1.2.aarch64.rpm"
+RPM_HASH = "89818a6e680a0ab47793cf207758004bf7dfeb99ef37d2d1dc05f10579087ce05aff65a01be6914b34b1beafdb536421c2566712bf571296b6e15ccf938801e4"
 
 RPROVIDES:${PN} += "libbytesize \
 libbytesize.so.1 \

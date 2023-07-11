@@ -8,12 +8,11 @@ LICENSE = "ISC"
 
 PV = "4.0"
 
-RPM_NAME = "python310-rarfile-4.0-3.5.noarch.rpm"
-RPM_HASH = "21b47798b10089c959fa23681ad50994fd1ab15200e5681cf09926e96664e07c15b9c33ea095a6f36f6777728af49e37f1db96feef74c57b06720cde16707a5e"
+RPM_NAME = "python310-rarfile-4.0-3.7.noarch.rpm"
+RPM_HASH = "7a4dacd574c051bb1f78f6adb390854a755837e3b928a7c08f74ae0d8a758db10e2754860871b0b830a6b199c495dafdd08f13b0c44d5cf2165414b856d0c551"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-rarfile \
-python3.10dist-rarfile \
+RPROVIDES:${PN} += "python3.10dist-rarfile \
 python310-rarfile \
 python3dist-rarfile"
 

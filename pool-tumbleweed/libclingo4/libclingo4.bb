@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "5.6.2"
 
-RPM_NAME = "libclingo4-5.6.2-1.3.aarch64.rpm"
-RPM_HASH = "6349b7f4e88493bf10e14bf800ba3ca57af751641bea09dc1cfb0e2952030ef123bfc6ad16d9e87b58938a12890c603de202d44498f54788df01a4f4032373d0"
+RPM_NAME = "libclingo4-5.6.2-2.1.aarch64.rpm"
+RPM_HASH = "d16af8ac0bfe33bb71059916d486f0fcb33fd74e6f14bb72cbe840d71ec9bf9ce1f9256fa028a621fbd9f9c452e8e2be11870aea06569095b25348299d130b93"
 
 RPROVIDES:${PN} += "libclingo.so.4 \
 libclingo4"

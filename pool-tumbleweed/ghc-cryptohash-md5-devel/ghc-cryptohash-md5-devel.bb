@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.11.101.0"
 
-RPM_NAME = "ghc-cryptohash-md5-devel-0.11.101.0-4.3.aarch64.rpm"
-RPM_HASH = "72d6b3d6e847991446d0d36fa9e22ff8c2e8fe70b272a2e143e9bdeec3156f93cc9c715e5742b98f57717cb611536384eadb4b912655b2db82f574e062f46ba0"
+RPM_NAME = "ghc-cryptohash-md5-devel-0.11.101.0-4.6.aarch64.rpm"
+RPM_HASH = "cd29820680a0d6d2ba4193cda2dcd2de6aab0cfc34dfae5d6e75e3e06a742ff90ced8f6b553e4c5b5bfe1f3fbe5110181ecf9e9010075aceec32a3e18821cbc9"
 
 RPROVIDES:${PN} += "ghc-cryptohash-md5-devel \
 ghc-devel-cryptohash-md5-0.11.101.0-1tswcJp9v68CZlxGZzmcPV"

@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "6.1.0"
 
-RPM_NAME = "javapackages-ivy-6.1.0-3.1.noarch.rpm"
-RPM_HASH = "6275fb8169dadb733bbc197650ba351d3c1c1d81ad13c43387f38aad3badcdd332047a2ebad866ee04cc136655000754a2911d36f7f75d6ba3f23afbd91e725a"
+RPM_NAME = "javapackages-ivy-6.1.0-3.2.noarch.rpm"
+RPM_HASH = "9497ea8a0211dcb3ac41b3c4eccb2421b2a609422f56b8ac520dbec03da583221a8910b165ca45aebfa815f146b6a7716ade208de66bb2edde0c852b47c77a2f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "javapackages-ivy"

@@ -75,8 +75,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.1"
 
-RPM_NAME = "ghc-hashtables-1.3.1-1.3.aarch64.rpm"
-RPM_HASH = "19decdb010dd489f8f26761ab28200572272b6028bca97b2bbdc182a4cc1d74f5a563a2e111c12e29df4427dbae0365d081635ee30199f93258588c8763f4965"
+RPM_NAME = "ghc-hashtables-1.3.1-1.6.aarch64.rpm"
+RPM_HASH = "a7019fd92eb5954e46d5bfb76addb85f37e119be8420b8565251c82f6ae373613294499837f770ca3188c020e15a1001ffee7d9ffea2df9cd25b6eb8fe9e2dde"
 
 RPROVIDES:${PN} += "ghc-hashtables \
 libHShashtables-1.3.1-AhYwUdJr2hP9YbqppAld0p-ghc9.4.5.so"

@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "1.15"
 
-RPM_NAME = "libxcb-shm0-1.15-2.2.aarch64.rpm"
-RPM_HASH = "afb9a8243d8c3b17c464d2e065d5ac3f8d49700de648a8522b60458e3129043de80eb9f47b34d8fbf0062a6f4de17710a49c5dc7f4fff7acb974fa71935f6287"
+RPM_NAME = "libxcb-shm0-1.15-2.3.aarch64.rpm"
+RPM_HASH = "08961c8cf8268d83cb2496cbac6d0169eac4dd40a4156b330b05216f7fbd728a8610397464a5996c0257064cc647a5b086798d3cb8f4eaf8b444fec679bdbab3"
 
 RPROVIDES:${PN} += "libxcb-shm.so.0 \
 libxcb-shm0"

@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "2.0.0"
 
-RPM_NAME = "libgnome-games-support-lang-2.0.0-1.7.noarch.rpm"
-RPM_HASH = "c0dbbdb3aea4ec64087f433ed3d29d325410a26b5f66cd0a7bf3e23e091f1083d43b94b52e85a0c728a40bf4262c6d6f7fc6ae0de7f2ecadacad381b71559d58"
+RPM_NAME = "libgnome-games-support-lang-2.0.0-1.8.noarch.rpm"
+RPM_HASH = "e7e6ec4bd92cb97e45aba29fea7ab957fac8c1525eb498c9c28f53b20a4d79ee580aeedc2af3875655a37823f683e8215359b2818ea91b953a252fd53ddfa654"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libgnome-games-support-lang \

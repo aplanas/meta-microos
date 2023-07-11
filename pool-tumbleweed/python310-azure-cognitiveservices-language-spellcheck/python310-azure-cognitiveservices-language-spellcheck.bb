@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "2.0.0"
 
-RPM_NAME = "python310-azure-cognitiveservices-language-spellcheck-2.0.0-2.11.noarch.rpm"
-RPM_HASH = "6561c37cf37a08594a0e2165f969e05d36e2209cf2000a1f5841fda3ebf3681ef25ed06818752447736dacaaf03af5740418a184eef9d8028663048182fde79d"
+RPM_NAME = "python310-azure-cognitiveservices-language-spellcheck-2.0.0-2.12.noarch.rpm"
+RPM_HASH = "aa53f23e374299bfc91302e941cdb76dfedcdabfd4c4bc7b49c83ecead0402f79eb6bd178e2b9bfa0664bc8fd16d55cbb85d435efaaec57a142aa3af2a4e8dc1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-cognitiveservices-language-spellcheck \
-python3.10dist-azure-cognitiveservices-language-spellcheck \
+RPROVIDES:${PN} += "python3.10dist-azure-cognitiveservices-language-spellcheck \
 python310-azure-cognitiveservices-language-spellcheck \
 python3dist-azure-cognitiveservices-language-spellcheck"
 

@@ -4,8 +4,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-touchstreams-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "37122abb5cee5e230e5fff94e42f608aaa9a79112ae4836f3c51a0fd6761eef4d92f35e8635de6d6eb31fd6662da023053e01a713cdcdbe942ec54c763836cdc"
+RPM_NAME = "leechcraft-touchstreams-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "8600ddf5c85b81592a9c10f719bc633a554457c2d6be28302590ff209a1541ac11278695debf76f213f2a2972e8f74526675a05bd11489c51c8571842ce79dca"
 
 RPROVIDES:${PN} += "leechcraft-touchstreams \
 libleechcraft-touchstreams.so"

@@ -4,8 +4,8 @@ LICENSE = "MPL-2.0"
 
 PV = "2.0.0"
 
-RPM_NAME = "python39-pytest-base-url-2.0.0-1.9.noarch.rpm"
-RPM_HASH = "c810c1396a27b35eea5121aef9a60312430cb557e8898bb42b2d1871d603b599dd9e49915f1213207b01e2d9ba48e5c1e5865785f6c9f5dc50e21ef6893f0d9d"
+RPM_NAME = "python39-pytest-base-url-2.0.0-2.1.noarch.rpm"
+RPM_HASH = "2ecf10c321baf3dbf29880786eb49d746a0311c9f461697d5efe1ec8b9d3685bb0eba88449e39e4bfbf42b727290be9cb687b735c5465dc7136f548b64d3c0f9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytest-base-url \

@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.52"
 
-RPM_NAME = "gocr-gui-0.52-3.2.noarch.rpm"
-RPM_HASH = "8a3917affb23f52fb90e2ea39ac5374cf23fe6f6687225382b4fb32f39f6407f637faaed35aad1d5674538c24651491f563f1cef532a55a5b6bcbfdaaae3f683"
+RPM_NAME = "gocr-gui-0.52-3.3.noarch.rpm"
+RPM_HASH = "9fc666fee81d8137e9fad114708aef984cd061a0f7ee680de2d41bed2469c5640883d6482714ef023b94211a85b510223b272b2278c3d236e883c247f641cecf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gocr-gui"

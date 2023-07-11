@@ -2,16 +2,16 @@ SUMMARY = "Python interface for VapourSynth"
 DESCRIPTION = "Python interface for VapourSynth/VSSCript."
 LICENSE = "LGPL-2.1-only"
 
-PV = "62"
+PV = "63"
 
-RPM_NAME = "python3-vapoursynth-62-1.2.aarch64.rpm"
-RPM_HASH = "0771b61347f92729582e7f9ae6c3c0e0e3b7e00eb043da828b0611cadb8c85d6391331b0e7363eaef672e7d6c1bfb1829593da5ec9732bc97779d43bba911508"
+RPM_NAME = "python3-vapoursynth-63-1.1.aarch64.rpm"
+RPM_HASH = "0f13acdd320781c15f1dba69d64aa664f3965a85c3e2d3b941b3c03a0e4a1727fd1147cd30ad0dff4b21b62261ab4db96774cd6a4f79e5b3265901215ae62e10"
 
 RPROVIDES:${PN} += "python3-vapoursynth"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libvapoursynth-62.so \
+libvapoursynth-63.so \
 python-abi"
 
 inherit rpm

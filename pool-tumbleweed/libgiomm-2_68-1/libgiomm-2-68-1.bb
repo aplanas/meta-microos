@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.76.0"
 
-RPM_NAME = "libgiomm-2_68-1-2.76.0-1.1.aarch64.rpm"
-RPM_HASH = "5e6633ae30c6806d1e4767a5116cbb3915e1efd67e4fcbdeb87003d528e381301aeb1a97e3ed76fc0e76a7231fbf6c777b86268869e62e5a3d5288dc20500faa"
+RPM_NAME = "libgiomm-2_68-1-2.76.0-1.2.aarch64.rpm"
+RPM_HASH = "f7c5f4acffee77db46b8971033d02302da8f54ab95292cbaaabfc348dbf393622edb76a3625ac0e9f3f40f02c7c631fff45a4cfb29a8c5ef22ce0c6a6105d85e"
 
 RPROVIDES:${PN} += "libgiomm-2-68-1 \
 libgiomm-2.68.so.1"

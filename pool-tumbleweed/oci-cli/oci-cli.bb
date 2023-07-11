@@ -6,14 +6,14 @@ Some of these, such as the ability to run scripts, extend the Console's \
 functionality."
 LICENSE = "Apache-2.0"
 
-PV = "3.24.0"
+PV = "3.29.2"
 
-RPM_NAME = "oci-cli-3.24.0-1.1.noarch.rpm"
-RPM_HASH = "16f2bdb56aa345763ee50c03264bfb9aade5712156b0a1eaa7a566ad468584f16fb22d6e15e180e1a48b569581351f7ea6d135f3c059b4a2f4cce368f732fd6e"
+RPM_NAME = "oci-cli-3.29.2-1.1.noarch.rpm"
+RPM_HASH = "997853567b6d8b3c68b69270f095ba967f6c5b69e5b4056aec01685da32773692dfd8847d1b4dd3fd581fb3a433684fbef5935596b0cebdc34028a8ca754d1ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "oci-cli \
-python3.10dist-oci-cli \
+python3.11dist-oci-cli \
 python3dist-oci-cli"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

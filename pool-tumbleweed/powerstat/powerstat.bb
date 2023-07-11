@@ -5,10 +5,10 @@ statistics. At the end of a run, powerstat will calculate the average, \
 standard deviation and min/max of the gathered data."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.03.02"
+PV = "0.03.03"
 
-RPM_NAME = "powerstat-0.03.02-1.1.aarch64.rpm"
-RPM_HASH = "b861253159d43dfc51011f4315c9c9193b998c616f9f1e50e19cf6d8d55cc0d44b2b8416f42382d23d36581b21485ebdb3be5b4051b825bd2f81e12356694544"
+RPM_NAME = "powerstat-0.03.03-1.1.aarch64.rpm"
+RPM_HASH = "84c1338c3566f61bd95f8a5ebd42ce305176eaf669bbf1bf44cd8ccf0a3f7e100866c6f0a35021e84c8b3cdffde33c98bf11de8f5b9e48da11224af8d247c7a7"
 
 RPROVIDES:${PN} += "powerstat"
 

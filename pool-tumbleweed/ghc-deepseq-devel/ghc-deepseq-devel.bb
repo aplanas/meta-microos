@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.8.0"
 
-RPM_NAME = "ghc-deepseq-devel-1.4.8.0-3.1.aarch64.rpm"
-RPM_HASH = "649a780598a75448c82213ae3b89693c72e9578f35e36089be550a1dae41a62865a69f004684e6f28633042f4233558306645a06a6cb287ba8c7d650496a855f"
+RPM_NAME = "ghc-deepseq-devel-1.4.8.0-3.2.aarch64.rpm"
+RPM_HASH = "9b91164d9dca7902927240ca473669a26f06a572de3df90eef14da1f4404cbc02992eef97e31a3812f9f0ea914cfcfa1b10ee9a8b36f4fa57533c21d750c7857"
 
 RPROVIDES:${PN} += "ghc-deepseq-devel \
 ghc-deepseq-static \

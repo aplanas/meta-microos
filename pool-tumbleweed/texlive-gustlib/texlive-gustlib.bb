@@ -8,8 +8,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.svn54074"
 
-RPM_NAME = "texlive-gustlib-2023.201.svn54074-53.1.noarch.rpm"
-RPM_HASH = "9f6b58eba3b22bad42ea955d1b13ef0231d8b6ce4814476d06afa16a0f80d13e124a87e62951af31cb877eb8f04dc442599bac3df08401f3dbe57fb319d7f2da"
+RPM_NAME = "texlive-gustlib-2023.201.svn54074-53.2.noarch.rpm"
+RPM_HASH = "0ed6fa70873c31481fe0f9cdad25f851a06c5de5c9759428c0b9727d8ff0089dc133e43693661c73b100a29bc76fa7b634f46b71b09cd029fb08434c9494090f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-biblotex.tex \

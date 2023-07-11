@@ -15,8 +15,8 @@ LICENSE = "MPL-2.0"
 
 PV = "6.75.3"
 
-RPM_NAME = "python39-hypothesis-6.75.3-1.1.noarch.rpm"
-RPM_HASH = "3aefac533306296bd3ab634910d4cf23af702ce17c22e4e24440c53962b5139431da8a8541c4028c08287396933b4535354ab1a18fc99494ea6dd3039ab36d1b"
+RPM_NAME = "python39-hypothesis-6.75.3-1.3.noarch.rpm"
+RPM_HASH = "081de161d97a289a342d732dff6ad62858a4f0fd6ceb349bdbabba16ed88d3b3b1891cf255480ba5b12c176e5b4cc7ae62a936f51458a441dd74310e39c50f7a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-hypothesis \

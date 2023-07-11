@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.2.2"
 
-RPM_NAME = "libt3widget2-1.2.2-1.5.aarch64.rpm"
-RPM_HASH = "2db34fe815d98e099d94dc122a525ac2a3b324bd566735c7b5370a3aed481e99d81f46c991b30ebc7e2e2cd98858e67f78fa0554b2f3e20c12966a5200e37ece"
+RPM_NAME = "libt3widget2-1.2.2-1.6.aarch64.rpm"
+RPM_HASH = "1ffefb44a0422e7ce4180d94958027835e78272ed312fdb65306328d65f46cbfef0cc2f599436f17612b6b5f72d1d73d86e8267b07ac1706cf1260da08f27cff"
 
 RPROVIDES:${PN} += "libt3widget.so.2 \
 libt3widget2"

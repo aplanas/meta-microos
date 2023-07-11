@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.6.4"
 
-RPM_NAME = "python310-msrestazure-0.6.4-2.11.noarch.rpm"
-RPM_HASH = "79b690aa4863c1f2a587e134703a0132fa048abf763022bab30eb5a10453d942a2c3684d59a904a856bbca71a365f70f22d6853ddc4d6d2b634ef16f6b4e8c94"
+RPM_NAME = "python310-msrestazure-0.6.4-2.12.noarch.rpm"
+RPM_HASH = "d3fc79bb29fd3542db72a365d62cb6d77dfa160301f5b8a2700c8834299f60d6a88603f6fccf2058d36c1426b96f6befe1cc1f321eab9a671e1d5fbef445594e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-msrestazure \
-python3.10dist-msrestazure \
+RPROVIDES:${PN} += "python3.10dist-msrestazure \
 python310-msrestazure \
 python3dist-msrestazure"
 

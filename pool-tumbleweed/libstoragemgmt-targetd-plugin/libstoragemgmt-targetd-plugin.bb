@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.9.8"
 
-RPM_NAME = "libstoragemgmt-targetd-plugin-1.9.8-1.1.noarch.rpm"
-RPM_HASH = "72852774bef09415f47e1df207d3dee2c11a601a855bd19f64f82d761f7d02d247677c4b2825ae8048e6d48feaeae3cb8a7e8c0e138a3a600feb4c361e685f84"
+RPM_NAME = "libstoragemgmt-targetd-plugin-1.9.8-1.2.noarch.rpm"
+RPM_HASH = "d6ababf9ec2c46ff641429eae3dd08637449032fe257c06ef47c3d2805e0d7ce9cb3d22b984993c391316046749779d3bd55474ae322443ad051e0fd5f6cf09a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libstoragemgmt-targetd-plugin"

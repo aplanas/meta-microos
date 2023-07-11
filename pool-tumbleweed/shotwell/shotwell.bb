@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.32.1"
 
-RPM_NAME = "shotwell-0.32.1-1.1.aarch64.rpm"
-RPM_HASH = "fe1c3a33000a5be9024c6ced639f2ad1553db0b57e22e57e597bcfdf785afffc463fc4a6f38d084eb0cdd14a19e7f6fecb0a11e81a16676b0bf5b0e0395f4126"
+RPM_NAME = "shotwell-0.32.1-1.2.aarch64.rpm"
+RPM_HASH = "3dcb6b24fc5cb5032cebfba3da01a550921e6157d0a12e220eb44843f9424f730f87b2c1c5e982af57700b8cdc9717390dadbfce3baa6a47ccdf8ccba6f70ce4"
 
 RPROVIDES:${PN} += "libshotwell-authenticator.so.0 \
 libshotwell-plugin-common.so.0 \

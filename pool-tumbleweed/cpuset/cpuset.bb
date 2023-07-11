@@ -8,12 +8,12 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.6"
 
-RPM_NAME = "cpuset-1.6-3.6.noarch.rpm"
-RPM_HASH = "452bda8067e6463068cca1ef104e609401b896d2b662a404be16af0879da0b48fff65cc4a9e3346c84a9a23c8f72e6d199ad200b906ce58e6aad62443d74d3a1"
+RPM_NAME = "cpuset-1.6-3.7.noarch.rpm"
+RPM_HASH = "2198b0deb5f4d0a40ba56ea04f9b9f2be9f180c397fa900cc542cc53bb25c3730cec9ae5e4a7d5926f53230d755a93771e2314174fc5be6e094fbef01d32c266"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cpuset \
-python3.10dist-cpuset \
+python3.11dist-cpuset \
 python3dist-cpuset"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

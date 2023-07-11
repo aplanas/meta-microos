@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "7.5.0+r278197"
 
-RPM_NAME = "cross-x86_64-gcc7-icecream-backend-7.5.0+r278197-14.1.aarch64.rpm"
-RPM_HASH = "4c2c0a260c6ddd048a5334e50903de625b26567b2fd297b40e3f2ac0c525a6062e7259cccd2a9de41d9ac6d0b1e45ac5f1cec42925fd888a4cf12c1ac1992ce1"
+RPM_NAME = "cross-x86_64-gcc7-icecream-backend-7.5.0+r278197-14.2.aarch64.rpm"
+RPM_HASH = "49ebc2cb05b501c732e330afd72df2ef68e850bcbb14202454852b8944d216841eeeae6d77f85595d12a8503d26a925997c15f3ee86352ecb9dd803bf34de3de"
 
 RPROVIDES:${PN} += "cross-x86-64-gcc7-icecream-backend"
 

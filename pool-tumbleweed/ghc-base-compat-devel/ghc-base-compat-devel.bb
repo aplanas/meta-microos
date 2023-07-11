@@ -2,13 +2,13 @@ SUMMARY = "Haskell base-compat library development files"
 DESCRIPTION = "This package provides the Haskell base-compat library development files."
 LICENSE = "MIT"
 
-PV = "0.12.2"
+PV = "0.13.0"
 
-RPM_NAME = "ghc-base-compat-devel-0.12.2-2.3.aarch64.rpm"
-RPM_HASH = "db5fe050232da72d9b3d0da87cda7cf836f76ce2047fea5ecaa60380bc12fbd4f9067c7fd9acab5436197a591917c814b2dd18fff261317bd0609fcb2a0189c4"
+RPM_NAME = "ghc-base-compat-devel-0.13.0-1.3.aarch64.rpm"
+RPM_HASH = "97b46145efe710a53f8edcdc9aa4cd17f1df55a0ab1bbc20b5f9057aa352ddc7e5a6118cebfbb408a0597d37121872901237ca861759924992322d7d1194cf85"
 
 RPROVIDES:${PN} += "ghc-base-compat-devel \
-ghc-devel-base-compat-0.12.2-L1DEOlMQJOdFOKsjHoWYov"
+ghc-devel-base-compat-0.13.0-Cvz3167VMpo6rdOohSlum3"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-base-compat \

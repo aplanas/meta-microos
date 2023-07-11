@@ -17,12 +17,12 @@ LICENSE = "Apache-2.0"
 
 PV = "0.6.1"
 
-RPM_NAME = "python3-logreduce-0.6.1-2.7.noarch.rpm"
-RPM_HASH = "ed3a49e3ce711cc0668c8b1cc7a4428a714ad6abcf3bf353ba8e7566ca662e14796c87fb94033e255eb9d5e5ab5bd8079cae8692dd9a7ffaab76aa8c937c5453"
+RPM_NAME = "python3-logreduce-0.6.1-2.8.noarch.rpm"
+RPM_HASH = "70b09d6bc0984a3064a6c4bfdd9d606e561231f71b958aca14c1c9e54c238169414116e7f1b55a4da02358ca5145e0145c3fd0bb310e3bec191f102fea4ced33"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-logreduce \
-python3.10dist-logreduce \
+python3.11dist-logreduce \
 python3dist-logreduce"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

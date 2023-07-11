@@ -12,8 +12,8 @@ LICENSE = "MIT"
 
 PV = "1.3.40"
 
-RPM_NAME = "libGraphicsMagick3-config-1.3.40-2.3.aarch64.rpm"
-RPM_HASH = "d45cb5ecacf71e0fdae29bd938070d91103f993bdc8e0dc936fb0a95610287c9d9a8685dddeb0c4486537aff0b9b28751f646ca34fdaf8fc59fa9a598bf6a193"
+RPM_NAME = "libGraphicsMagick3-config-1.3.40-2.4.aarch64.rpm"
+RPM_HASH = "e1349ba2ae39c9bc533be6c12460323952a8e83beb0b5fc95af0dc328579b84707feeba01ae6c54a86384cef192c9d5b483f10debe1884dab9bac1cccaa8531a"
 
 RPROVIDES:${PN} += "libGraphicsMagick3-config"
 

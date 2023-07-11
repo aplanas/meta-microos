@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "1.12"
 
-RPM_NAME = "python311-certstream-1.12-1.9.noarch.rpm"
-RPM_HASH = "72eeb7b2f536cd37fae3ce3d48df42d06370a2251ce710f39d4890bd6eba55f3a30ee84d60ae0523c1b04e425636126c0dee945ab631eee545e8558122147c9c"
+RPM_NAME = "python311-certstream-1.12-1.11.noarch.rpm"
+RPM_HASH = "86c0c8a9e96d094a997b9663f8476dcc54efeab864d940337e553a70689b57411912239513ab15f83287daea2db0f9bcbf70e4f7c844d8709c6172bfc90f4414"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-certstream \
+RPROVIDES:${PN} += "python3-certstream \
+python3.11dist-certstream \
 python311-certstream \
 python3dist-certstream"
 

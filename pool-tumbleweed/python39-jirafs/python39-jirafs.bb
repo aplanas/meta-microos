@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "2.3.1"
 
-RPM_NAME = "python39-jirafs-2.3.1-1.1.noarch.rpm"
-RPM_HASH = "cc56b8af1c15361d50dd8a72db8774ace980afcfe6951f0146a63e45554a6a04c45ee7507541142caf75ea1f9fa9857f8ef5d7935ebe425d5b9d2481955e9ec3"
+RPM_NAME = "python39-jirafs-2.3.1-1.3.noarch.rpm"
+RPM_HASH = "478122251d2173c0f9f32d0b77cee7e10ac3ee8393f3291ace3d3c22c4fe367c5406bdc0a773190e53c59e758ce308e001e4417cdf3a9b4be56bec9361805bc1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-jirafs \

@@ -5,12 +5,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.0"
 
-RPM_NAME = "python310-pydata-google-auth-1.1.0-1.11.noarch.rpm"
-RPM_HASH = "7d4b88ddfe0ef6c7345235a3409b131baa7c004f5264abbe34c832a40e359627bf2ca868423ae1004e07e644a53834545d4afbe3f934c38c599fa8783a42404f"
+RPM_NAME = "python310-pydata-google-auth-1.1.0-1.13.noarch.rpm"
+RPM_HASH = "4c593bef1ed0568ec06df86b2536d9e47fa60d5181a0ef3d277e3d9e4bdd0ca8ad86191e5a7a15aa96e820841e4d058fc13e0ec584cdff3282a511f4887ccf06"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pydata-google-auth \
-python3.10dist-pydata-google-auth \
+RPROVIDES:${PN} += "python3.10dist-pydata-google-auth \
 python310-pydata-google-auth \
 python3dist-pydata-google-auth"
 

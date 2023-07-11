@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.7.7"
 
-RPM_NAME = "python-Genshi-doc-0.7.7-3.1.noarch.rpm"
-RPM_HASH = "fed78306dc060a1d89c4baac7c9bb1df53bfad7639f75b855a425113033cc4bd072bdd7547f351dfd0773b30683ca8192a3b1f991a7607ded84e2a11ea10b2ae"
+RPM_NAME = "python-Genshi-doc-0.7.7-3.3.noarch.rpm"
+RPM_HASH = "6bb0a9e28d3899c8eb83f1eddd6d768d18803f408d813ca8b955d56e003126c5181464ddce6e7afea5f9ff279238c49abe5ddf226d1e4bc63b0e06f160583f24"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-Genshi-doc \

@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.26.0"
 
-RPM_NAME = "meep-devel-1.26.0-1.3.aarch64.rpm"
-RPM_HASH = "b9b1fde1a46fc8b7eb664b3fb4efdd087b8edc21869eb10ee3815befa55970e76f9237f2eeb44c1d3d9b40f96e01fc3424628140d0a0f759385ea9dd11dda8eb"
+RPM_NAME = "meep-devel-1.26.0-1.4.aarch64.rpm"
+RPM_HASH = "2a86dc78f1ef194d9af8f1872af02b6074a13ca617b5c520dcc8298d060b77d5f95bff8a509db49aa81d5c906e4b065f696f2f303888f6ee83d4bfe5b585a573"
 
 RPROVIDES:${PN} += "meep-devel \
 pkgconfig-meep"

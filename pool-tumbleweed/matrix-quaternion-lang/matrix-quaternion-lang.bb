@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.0.95.1"
 
-RPM_NAME = "matrix-quaternion-lang-0.0.95.1-1.11.noarch.rpm"
-RPM_HASH = "49973900aa050d40b173955f2744705e82b0066a810b6be72320c29136c3b41d14dfe2bd02eebda6e98f824740e25b1fd6af8886914f65c0d458937dd53ef6df"
+RPM_NAME = "matrix-quaternion-lang-0.0.95.1-1.12.noarch.rpm"
+RPM_HASH = "4cdce28fd6629c3cb4875fb46e6dd64db1e3e6f133f69c03301d12828e62723807a402a798274c468214f7c68ea782c20872f49b8edc0a86927fff3468e80deb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "matrix-quaternion-lang \

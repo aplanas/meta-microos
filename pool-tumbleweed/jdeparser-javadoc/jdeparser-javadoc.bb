@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.0.3"
 
-RPM_NAME = "jdeparser-javadoc-2.0.3-1.18.noarch.rpm"
-RPM_HASH = "a2ae6146c92b24617969a9d554f0401a79f6cc36485745d99f39344e5dbedb671e916fc635c2635bfa8a004b7b39170889d4d7ed00dd628d2d3802d5919a190a"
+RPM_NAME = "jdeparser-javadoc-2.0.3-1.19.noarch.rpm"
+RPM_HASH = "c308277c9de2023e0214fd19509947cd325d64e07b959bfa15395fe87527e9ba2c72eb6f856e1d6ddbd848b38d8f2dee157be200d1c28d1c82488eefaa2dfed6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jdeparser-javadoc"

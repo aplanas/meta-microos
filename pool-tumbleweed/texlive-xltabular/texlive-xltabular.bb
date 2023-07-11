@@ -7,8 +7,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.2esvn56855"
 
-RPM_NAME = "texlive-xltabular-2023.201.0.0.2esvn56855-52.1.noarch.rpm"
-RPM_HASH = "c67d8b94b151ab5775a2a15c63e192baa74136d71dce05d1f5f94fb21b13232d04d80b72025cc6ceb36b581129b1575f620b8266ed6e42757f4bc0aeaab522ed"
+RPM_NAME = "texlive-xltabular-2023.201.0.0.2esvn56855-52.2.noarch.rpm"
+RPM_HASH = "b052a89a18a628e205a407b34b0e3c4bf99d6ab4f3d59ed9ea8d98ed87fbebc2c16d19c4fa2c8e0791368761ed2f1b0d51f0f0757653d3f21487c265f4d6f61e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xltabular.sty \

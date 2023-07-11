@@ -4,8 +4,8 @@ LICENSE = "MPL-2.0"
 
 PV = "1.1.0~alpha12~git0.bcdbb18"
 
-RPM_NAME = "kanidm-docs-1.1.0~alpha12~git0.bcdbb18-1.1.aarch64.rpm"
-RPM_HASH = "943ca9e1d414804514c46431fc6470bff58e38158791683f4cf982b1c69ea3c4fa2d5955dca155b52bf1f6b98b36806af789b1ade22857eb89a1709e4aa74d35"
+RPM_NAME = "kanidm-docs-1.1.0~alpha12~git0.bcdbb18-1.2.aarch64.rpm"
+RPM_HASH = "c49bb8cb0ea24a832a3a9ffd59b8410d6d12c5f2d82cfcc3c400e0ef7e70951540b8c9a0214b64c35d11e9049baea7c2e76f10eb3db8bf7020939cffed85b1a4"
 
 RPROVIDES:${PN} += "kanidm-docs"
 

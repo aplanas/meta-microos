@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "1.1.6"
 
-RPM_NAME = "python39-tinyrpc-1.1.6-1.1.noarch.rpm"
-RPM_HASH = "aa279a38bb6b040c726a7e44fa08a22dda50bf16947321b19f4cafee3ab7340240a1153780b485f5b04088f742eb3e06b305ebd77551aa11374f47fd50b2a1c2"
+RPM_NAME = "python39-tinyrpc-1.1.6-1.3.noarch.rpm"
+RPM_HASH = "8cd8eff5e1322b001ec8c3c8bcc204ba92b1cdeb201fe59141efbb1e798d96a1329a8931e5aa7c0c5cc4e533798b7cf9e90b946ef30e5a6eb24a68902d3919a1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-tinyrpc \

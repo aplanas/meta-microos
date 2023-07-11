@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.2"
 
-RPM_NAME = "python39-setproctitle-1.3.2-1.4.aarch64.rpm"
-RPM_HASH = "c1046fddf2c246c17bd9c26bbe8db28e3c59a13759f8dfadd899e8f276a4226c4b2c43e7f6ee3860807de5e457580017885acde3b9f5b3e8be55fc33393b850e"
+RPM_NAME = "python39-setproctitle-1.3.2-1.6.aarch64.rpm"
+RPM_HASH = "9e1ab906fa9a0de4de45a9becaf12d0962f9297e29cf42b90c2034961286037d35ae777d3dbb0adae91c1530387c98574d1239fc8af56e13e20a1d5aa32966d8"
 
 RPROVIDES:${PN} += "python3.9dist-setproctitle \
 python39-setproctitle \

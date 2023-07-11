@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "4.10.0"
 
-RPM_NAME = "glade-catalog-gtkhtml-4.10.0-7.3.aarch64.rpm"
-RPM_HASH = "bc9013bd1b0076634ec7c00272124a0acf0eb7517c7cbaeb843032d83cd87eea68c74f952971d863de064d550acb8bf6ff112c8066c37e128cc52e47aca1c7d4"
+RPM_NAME = "glade-catalog-gtkhtml-4.10.0-7.4.aarch64.rpm"
+RPM_HASH = "07988602e24f736234c4e8be2ed0125b091baf080c307c2abb892b26658bbf61bc14d234309f9dda3c02dae726f3e31b655967b1bc2811ec050a810aa5157e8e"
 
 RPROVIDES:${PN} += "glade-catalog-gtkhtml \
 libglade-gtkhtml-editor.so"

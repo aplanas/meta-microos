@@ -13,8 +13,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "7.2.1"
 
-RPM_NAME = "libvarnishapi3-7.2.1-1.3.aarch64.rpm"
-RPM_HASH = "75fefc38019729896d43203ffb8836bb33357462299744a2d95a9250a3da48828d81a033d9cdd1e21a248821f8d73dd575282cb1f6f63a50d1c2fa2f1cf57680"
+RPM_NAME = "libvarnishapi3-7.2.1-1.4.aarch64.rpm"
+RPM_HASH = "199473ee827254b64ca57b8c5a60a392ec5ccbc179e3d2b49275d7f08f1cd03f93168a6b0f9705419f4085905bd1b2f096c4de7581eda5fd24e32b8a0a490d39"
 
 RPROVIDES:${PN} += "libvarnishapi.so.3 \
 libvarnishapi3"

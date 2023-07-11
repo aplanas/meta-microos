@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.2.13"
 
-RPM_NAME = "rcc-runtime-0.2.13-1.3.aarch64.rpm"
-RPM_HASH = "72638c3ef0524cff42134e175cf7d4763b7cb522fbb50cde22cd2cc36e68228d94d60af3a3942c51550e0b1b00961417398188fd82fd167d8573c3c78047dddf"
+RPM_NAME = "rcc-runtime-0.2.13-1.4.aarch64.rpm"
+RPM_HASH = "4ea659c914b4e2457d1e356890298e41130be8625d4699423ec9079f5e9686fcf3b3cb1caba7b8f4271df6f81d7453ecd53c7cd5f5feb3cad9852ba08764e4e8"
 
 RPROVIDES:${PN} += "config-rcc-runtime \
 libguess-engine.so \

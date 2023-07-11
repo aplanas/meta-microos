@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kio-gdrive"
 DESCRIPTION = "Provides translations for the 'kio-gdrive' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kio-gdrive-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "9fd579e7eec7702d20fc5cec43108bec4320710a5ae8f65769fbf845abb69e63b068af8727b9abecefc3cd13230fffa34ea9e06483176fdc07aa6b9964a1b180"
+RPM_NAME = "kio-gdrive-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "9f75ce8bd1db71d77280ea1de93c2dd747a1b3f827cf15aa7359e035f13bb6d4c7e05080bbbf081ecdc01cf6c1cc7273bf7c814b5b9795d62150a551a123fab8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kio-gdrive-lang \

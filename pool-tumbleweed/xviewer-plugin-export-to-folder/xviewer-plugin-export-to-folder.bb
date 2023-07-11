@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4.1"
 
-RPM_NAME = "xviewer-plugin-export-to-folder-1.4.1-1.6.aarch64.rpm"
-RPM_HASH = "ce78f7e4f3aacd45d44b45f48e88454ee39f0e8b889db289cb054475f81db29aa57d7dac27f9db12bd7c59170945e288c1f61c4394e4649bebc68e3cac7f59a1"
+RPM_NAME = "xviewer-plugin-export-to-folder-1.4.1-1.7.aarch64.rpm"
+RPM_HASH = "7d4f8cb919c1dec2915731cb448a30e883cfad3620a9bf147082a3e2fc9a3e47eeddb5776f764751ac90b0aeee5ccbbf7ff5736396c782fd5b4094eae1a3cfb8"
 
 RPROVIDES:${PN} += "xviewer-plugin-export-to-folder \
 xviewer-plugins-/usr/lib64/xviewer/plugins/export-to-folder.plugin"

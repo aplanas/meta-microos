@@ -9,10 +9,10 @@ This subpackage provides the header files needed to build SFML \
 programs."
 LICENSE = "Zlib"
 
-PV = "2.5.1"
+PV = "2.6.0"
 
-RPM_NAME = "sfml2-devel-2.5.1-1.20.aarch64.rpm"
-RPM_HASH = "59cee5e235d5eec9846868be593400deb42818472b6a277e3810b3bde76116555249432aa3cd4ebbb4523adfbe361d4f6436dfd4cbd1055bc4ed80f651993609"
+RPM_NAME = "sfml2-devel-2.6.0-1.1.aarch64.rpm"
+RPM_HASH = "940a5c934dba83f8377339364778866c90ee2c2c0488c675dfe3782083904127bdd42e2e5a0b70d79ed51190cbab8e4fa9dd7afa58d64a2d77aeaac7346676f4"
 
 RPROVIDES:${PN} += "cmake-SFML \
 pkgconfig-sfml-all \
@@ -24,7 +24,7 @@ pkgconfig-sfml-window \
 sfml2-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libsfml2-2-5 \
+libsfml2-2-6 \
 pkgconfig-flac \
 pkgconfig-freetype2 \
 pkgconfig-gl \

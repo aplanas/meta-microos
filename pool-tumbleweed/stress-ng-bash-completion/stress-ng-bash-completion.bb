@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.15.06"
 
-RPM_NAME = "stress-ng-bash-completion-0.15.06-1.2.noarch.rpm"
-RPM_HASH = "92db08217656fdb6be6f9229136906f56f24bd367290967e41baeca937800c45b16ad038b99d84dce9990c22f8b130101d1de6e0a8f2389b5f5b7ffbd15e9371"
+RPM_NAME = "stress-ng-bash-completion-0.15.06-1.3.noarch.rpm"
+RPM_HASH = "79d3a6d25dfaf2d9aa7f6a4bf406d97e1a15b9fd73ff0434ec8419981282f8de2d4ab975f18f2a5105f0f51e7382965fe69189e3217fab69dd21b2c92e80f70c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "stress-ng-bash-completion"

@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.1.6"
 
-RPM_NAME = "ghc-auto-update-0.1.6-6.3.aarch64.rpm"
-RPM_HASH = "245f51cd8f3166e428ea38a0c9a26e6faa56a6e1f4503c9fdd97656e14db2073158cdad1a1c09a7a0d10c7d5987681a0e551bc3ee982a0f3f61b00e672b869f3"
+RPM_NAME = "ghc-auto-update-0.1.6-6.6.aarch64.rpm"
+RPM_HASH = "36e9e575a535d22c0a8c8787bd05605d3509166a9fa19e29bc5fcd95faa754ceb87a86d20f0948284b0304903f942b4eb52b74d0ae809236c8ca12f3be7d5490"
 
 RPROVIDES:${PN} += "ghc-auto-update \
 libHSauto-update-0.1.6-CObek7rRQnGB5D6p02bNzQ-ghc9.4.5.so"

@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "5.9"
 
-RPM_NAME = "rawtherapee-5.9-4.2.aarch64.rpm"
-RPM_HASH = "7457e1871e18a16bcb71d68a9c9ba0d86ed88cbd2124cc448d5cf90682548b028c7ebc3edf41b57ad1d3d3139dbb7a3931902acb4d6f611221d5cb8d723fbd3b"
+RPM_NAME = "rawtherapee-5.9-4.3.aarch64.rpm"
+RPM_HASH = "1da3ce3a508e3342bea6361927a6bccd486ad6d2c801b70e60d3528c9df1aa804fbcebc263ee891f94840153c765f6e30d22bf0d7e217b2bf6304b0b6ebfa063"
 
 RPROVIDES:${PN} += "rawtherapee"
 

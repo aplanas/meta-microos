@@ -11,15 +11,13 @@ for config files and environment variables, so this module extends argparse to \
 add these features"
 LICENSE = "MIT"
 
-PV = "1.5.3"
+PV = "1.5.5"
 
-RPM_NAME = "python310-ConfigArgParse-1.5.3-1.7.noarch.rpm"
-RPM_HASH = "25ca9d708fa90a27a069446903f3b6bd7ffd8e9020e6b43f8c16ad8f55e8a526bcae2ca2cd385afdbbfa32b096a11c41d65a3b4eccb8f64e5e421f82147f576d"
+RPM_NAME = "python310-ConfigArgParse-1.5.5-1.1.noarch.rpm"
+RPM_HASH = "0577c46b644176ecc3a027cd063f5b49a398775be96be40aa468ce3d41946497ffa192b548506e7249711d7fc3c7acd75642ba42675e0e95c4cf1875b4b5acc8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-ConfigArgParse \
-python3-configargparse \
-python3.10dist-configargparse \
+RPROVIDES:${PN} += "python3.10dist-configargparse \
 python310-ConfigArgParse \
 python310-configargparse \
 python3dist-configargparse"

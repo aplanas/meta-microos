@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "2.0.9"
 
-RPM_NAME = "libmimalloc2-2.0.9-1.3.aarch64.rpm"
-RPM_HASH = "791f5b84f66c0ded8cbe597e05c3a34e053660022e2bb5e707d6a58116f6d67deb4462063266ce6e7ad80ace778a3a64802e226c4987f84ede81c08c79b16572"
+RPM_NAME = "libmimalloc2-2.0.9-1.4.aarch64.rpm"
+RPM_HASH = "a124c9365661077ca2c5f5c94d4930522a6db71f3084e4d8fd5d13fbaf052a47a65dd2aca3dbcbc4c6f7f745469a7dcab4d98d40275fccf1de11ec4c5973d6a0"
 
 RPROVIDES:${PN} += "libmimalloc.so.2 \
 libmimalloc2"

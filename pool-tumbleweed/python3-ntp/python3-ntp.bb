@@ -4,11 +4,11 @@ LICENSE = "BSD-2-Clause & NTP & BSD-3-Clause & MIT"
 
 PV = "1.2.2"
 
-RPM_NAME = "python3-ntp-1.2.2-1.3.aarch64.rpm"
-RPM_HASH = "f887ed8dcab962b3d4982aa751bfc41a91bb257bc14a0b41ce332e9d99d2b2b3c68120e31a2737bed266bcd833c074a18019b6c9408ba4b0bdf10e8d04dfb6ea"
+RPM_NAME = "python3-ntp-1.2.2-1.5.aarch64.rpm"
+RPM_HASH = "7f6fe45611c1039ccc06b6d46c4f58c4dbfd42849f22988dfdf27bf6fdf3266eab32005685217d2108413a4ac1d095b93156c3d21571da8b68895f6e0becfc76"
 
 RPROVIDES:${PN} += "python3-ntp \
-python3.10dist-ntpsec \
+python3.11dist-ntpsec \
 python3dist-ntpsec"
 
 RDEPENDS:${PN} += "python-abi"

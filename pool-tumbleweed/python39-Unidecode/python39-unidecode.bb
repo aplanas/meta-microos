@@ -39,8 +39,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.3.6"
 
-RPM_NAME = "python39-Unidecode-1.3.6-1.4.noarch.rpm"
-RPM_HASH = "de63500bcbf405ba059405bba237975b590cc7c5f188619e43617f70fe096706622bdf717d988a53cd73ca48e11d5a2de1d6aa851abce0ea719f0a2c70f5426b"
+RPM_NAME = "python39-Unidecode-1.3.6-1.5.noarch.rpm"
+RPM_HASH = "02db0e1333d108089e8dc5d14085e3835ca631a7028c4a89c421d4037996323188e2816812da29647773d249e1037f3df8c13e58420d9a7205f1ce828f69b9ae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-unidecode \

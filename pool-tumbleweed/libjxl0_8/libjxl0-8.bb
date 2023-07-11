@@ -3,10 +3,10 @@ DESCRIPTION = "JPEG XL is a raster-graphics file format that supports both lossy
 lossless compression."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.8.1"
+PV = "0.8.2"
 
-RPM_NAME = "libjxl0_8-0.8.1-3.1.aarch64.rpm"
-RPM_HASH = "5e8ad3687ae732d2c3e949e261c0c04288530e13601688419eb0e6a0e24e15aecaa7128c802e5cf096c3ddaa73ef93554c6c9f0a7afd412f31cec213e712bfd9"
+RPM_NAME = "libjxl0_8-0.8.2-1.1.aarch64.rpm"
+RPM_HASH = "ed418f9ba45680c95aa7c87dd723524e1e712b3ecc87ffcb74b66f94584306e205889d19e07817fb1b7c32c4bc3f7016545b0f9d04ca277d5ae7531a8fc5e4a6"
 
 RPROVIDES:${PN} += "libjxl-threads.so.0.8 \
 libjxl.so.0.8 \

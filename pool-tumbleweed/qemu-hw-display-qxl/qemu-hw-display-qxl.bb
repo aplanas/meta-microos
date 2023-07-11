@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-
 
 PV = "8.0.2"
 
-RPM_NAME = "qemu-hw-display-qxl-8.0.2-1.1.aarch64.rpm"
-RPM_HASH = "3efc18ffe7b8ce860291e9d57a1c036ca7a903294547bf5a8e4600cc27f5f10b2cccb951bc3d9364657a7ff651dd0d70b97a4b1f0d40ff290c72f40f255cee77"
+RPM_NAME = "qemu-hw-display-qxl-8.0.2-2.1.aarch64.rpm"
+RPM_HASH = "5b504a137d0044f82abe75316b72db093fdb541b1fb4d75692cc00d3e7dd1fa3a43274f72f09ba35c4887f5201b9c8fc23eefbad1e9331ed76f568c0716ce982"
 
 RPROVIDES:${PN} += "qemu-hw-display-qxl"
 

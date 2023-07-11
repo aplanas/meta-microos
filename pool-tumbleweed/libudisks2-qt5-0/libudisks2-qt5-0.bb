@@ -6,8 +6,8 @@ LICENSE = "LGPL-3.0+"
 
 PV = "5.0.6"
 
-RPM_NAME = "libudisks2-qt5-0-5.0.6-1.8.aarch64.rpm"
-RPM_HASH = "d1366304fe73d4c6545cc59fefa7d554b2a2a6b13b38c6fbab94882ed69c298b47e31bc33b1dd088d6bcb13d6ff3b9425c85c02fe4238aef9213654fb6b64f41"
+RPM_NAME = "libudisks2-qt5-0-5.0.6-1.9.aarch64.rpm"
+RPM_HASH = "e0bac644f18c875e6701136b6f037eb6c60dd1135cc59493eb7f3fb5e8141c7e67e95c1aca3b3dcece3bdddd0b89051bbb60fee657c083c4dca76a32cc9dec34"
 
 RPROVIDES:${PN} += "libudisks2-qt5-0 \
 libudisks2-qt5.so.0"

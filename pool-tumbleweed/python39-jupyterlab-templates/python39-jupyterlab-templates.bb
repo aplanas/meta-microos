@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.4.0"
 
-RPM_NAME = "python39-jupyterlab-templates-0.4.0-1.1.noarch.rpm"
-RPM_HASH = "864a485e7d5612cd66429e3486a8002ae467f4d4f5124ca40f29e7f63f54273f84be115832fb104ce650e80a40e534fcab882ee572e3c5cf2f7bf12593336485"
+RPM_NAME = "python39-jupyterlab-templates-0.4.0-2.1.noarch.rpm"
+RPM_HASH = "10278891e08dc31c145a29d82eae4aafd4935dee2c0491da1e8b48a1b9c81e3dc76abc819b1a05823d263e3466558591a0ea0bb133a2c34a096e202fac0b0b29"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-jupyterlab-templates \

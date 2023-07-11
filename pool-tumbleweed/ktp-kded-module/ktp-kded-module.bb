@@ -3,10 +3,10 @@ DESCRIPTION = "This module sits in KDED and takes care of various bits of system
 like setting user to auto-away or handling connection errors."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "ktp-kded-module-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "80f86464bfab58614312fa3f49aa7eeed6228fb3fe8d40eab965e6e8d1d673ce703c1d5041fb91e1231f6647dffad8e6742cee5cff941ae5b36049f6a1b18727"
+RPM_NAME = "ktp-kded-module-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "ae4ad859602c68f0e363c5cac4f1ebbb03aee776760b5ea5d2fba56829b95a0fa92390b4945f245c02a516f3af8a09f6944f0cd1866c9b11fbec4cf316ead6c6"
 
 RPROVIDES:${PN} += "ktp-kded-module \
 ktp-kded-module5"

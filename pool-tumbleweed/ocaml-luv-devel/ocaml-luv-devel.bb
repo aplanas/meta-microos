@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.5.12"
 
-RPM_NAME = "ocaml-luv-devel-0.5.12-1.1.aarch64.rpm"
-RPM_HASH = "4864cac1f9c17fd1b5d26cfe2eb1aaad387c0b664ae3d01670caffb259807f19834d7c037d1074eddc6ad4f5c4d9a8cf21448610f92a74aff47e8bace1b14447"
+RPM_NAME = "ocaml-luv-devel-0.5.12-1.2.aarch64.rpm"
+RPM_HASH = "30764ae9b1b35ac9e27e75f3b44d59e362481c0f0f32b4c278d2077ffa9217a48e78774645c07c26142863b409385d0a5269e2d806ce53c31f275fdfcd2a9f4c"
 
 RPROVIDES:${PN} += "ocaml-Luv \
 ocaml-Luv-- \

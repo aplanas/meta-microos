@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.23.13"
 
-RPM_NAME = "mpd-0.23.13-1.2.aarch64.rpm"
-RPM_HASH = "796e81265984a3824ad84a5d7db3b6ab760438e27c8ae3d87dac221300d8b52af4cc5477eaacd3a43c5caf2f47a79af9e5e82d436a9baf41688bfed5a10860c9"
+RPM_NAME = "mpd-0.23.13-1.3.aarch64.rpm"
+RPM_HASH = "7c47e57d2be17367149e5837e816d37de1a227bdfaf922608df7c0de475a15b009d0d7a3b6c5b641841b1c1cb5547f592b64040b8e32a82f50ba3aa55cd4cc24"
 
 RPROVIDES:${PN} += "config-mpd \
 mpd"

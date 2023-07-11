@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "0.7.3"
 
-RPM_NAME = "gnome-pie-0.7.3-1.4.aarch64.rpm"
-RPM_HASH = "0c7a5fb933cc290cad659ce101e481d8ddeff9cd97d2f77ff2c3f2cb35735d9db9eea98d260c2bcd10992691e48708252324a1504feb6c628422d56a42b97647"
+RPM_NAME = "gnome-pie-0.7.3-1.5.aarch64.rpm"
+RPM_HASH = "b69ef190fd4123b3ff14a0560b012a48f9e68cf161bb0a7dd50ea3d51ca013b42dbd5ae88a722af10cf696da5b6bb9967a5c81c729118e5e556d897037c14993"
 
 RPROVIDES:${PN} += "gnome-pie"
 

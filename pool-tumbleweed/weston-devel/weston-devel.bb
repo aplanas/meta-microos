@@ -10,8 +10,8 @@ LICENSE = "CC-BY-SA-3.0 & MIT"
 
 PV = "12.0.1"
 
-RPM_NAME = "weston-devel-12.0.1-1.1.aarch64.rpm"
-RPM_HASH = "6324e468862ddcb1f6b3008e1d78c87acc84b4d5caba72e35b6c7381f066c15f270307f3ea6268a658fc257c23917832c1c17e3246ad705b131c8f5eb979eb82"
+RPM_NAME = "weston-devel-12.0.1-1.2.aarch64.rpm"
+RPM_HASH = "6daf7c6271d2409975a84e0db70e34fa1cad37808f81fdc164d5153c9041fdeb42edd0b3ed78e9a75609803790325f26badb87116a44d83ee4feda7763aa64d6"
 
 RPROVIDES:${PN} += "pkgconfig-libweston-12 \
 pkgconfig-libweston-12-protocols \

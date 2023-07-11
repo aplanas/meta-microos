@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.3.0"
 
-RPM_NAME = "typelib-1_0-ColordGtk-1_0-0.3.0-1.4.aarch64.rpm"
-RPM_HASH = "11cf0a9125e86f4719c7356e890e6e12757885793ae282d6249948f31d3e09607418b0ccfded2e674b8ed14f08917fdf4fe853cd4170a47dbad73204291f5233"
+RPM_NAME = "typelib-1_0-ColordGtk-1_0-0.3.0-2.1.aarch64.rpm"
+RPM_HASH = "5eddf6989b0f1a3354e82f38179a6ec884509e98412697885453acc9bf6377e62f3d326b2fdfce92a893455f5c8e46657f3e421e9f98ad961d01f4faded2f1ff"
 
 RPROVIDES:${PN} += "typelib-1-0-ColordGtk-1-0 \
 typelib-ColordGtk"

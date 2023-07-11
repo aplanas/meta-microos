@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.4.1"
 
-RPM_NAME = "glabels-devel-3.4.1-4.12.aarch64.rpm"
-RPM_HASH = "3d8224763d486753ce77b35f07284b9efea4ac70f18d09436dcc845f9475623b6527eba0686be7f9ac37118a963f85b83149ad503185bfc438b34d360a5b96fd"
+RPM_NAME = "glabels-devel-3.4.1-4.13.aarch64.rpm"
+RPM_HASH = "9418ab0dfef1f74afc783fc5852129c944cbb444af9ecf354282c31210a9547a44edf55ae51256fac80a8353c91eef4d371d959e620d391b6f732ee656c389c0"
 
 RPROVIDES:${PN} += "glabels-devel \
 pkgconfig-libglabels-3.0 \

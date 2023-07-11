@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "3.1.2"
 
-RPM_NAME = "xbase-devel-3.1.2-1.23.aarch64.rpm"
-RPM_HASH = "4bf98cd32c5373b8a5e6f8fb89f96275a53d4fe884a897cde1c63cca2303f2dc9e215dac7f9351c7f2dd8506d306111fcc0814d1a128ad5e7391a635abee58c7"
+RPM_NAME = "xbase-devel-3.1.2-1.24.aarch64.rpm"
+RPM_HASH = "bf46d73b7797d33e93412911556ed404b6b617c2c5c144e8c0ddb763cb96fd1ba41b24dc7a8d4e37a7d7edc579bac768cf5d81f362c50951bd7cc32821e82b08"
 
 RPROVIDES:${PN} += "xbase-devel \
 xbase64-devel"

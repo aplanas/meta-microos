@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.17.0"
 
-RPM_NAME = "python39-httpcore-0.17.0-1.1.noarch.rpm"
-RPM_HASH = "f6a756552dbcb19e7c2f2c671cd21b85de34415cc34fe5d90bc2312fcecebc24d410f78b7280855d3dfc793f88382ece9dfc0b3f6307659ab88c40f1aa3300c2"
+RPM_NAME = "python39-httpcore-0.17.0-1.3.noarch.rpm"
+RPM_HASH = "e33e4a242760090c0ae1ac1abad67a798145b0a1579ec5ff224aee763dbd1cb0be44d9f18312c302e6c286e28ca2709ae6107ad93d1555e074ca5c54d0178372"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-httpcore \

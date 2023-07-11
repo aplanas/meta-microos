@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.5.0"
 
-RPM_NAME = "pmemkv-devel-1.5.0-1.1.aarch64.rpm"
-RPM_HASH = "7292ca143838e1e7218823e0cd526deee1b3da2ca5b9a8677cc5b197992315880048ffbaf7cb009eb96ca5eb5b15bf374a97182392435cd982f389618590be04"
+RPM_NAME = "pmemkv-devel-1.5.0-1.2.aarch64.rpm"
+RPM_HASH = "8d9c4ff9affda0a2385d739f5e879f11fdf48aae0d8a1befa04b6bed8f912e2a25a50dc866b9c0f3d0ab8bc0119b914072716a8cfc86a7b4ea61cc09ee1bc8e5"
 
 RPROVIDES:${PN} += "pkgconfig-libpmemkv \
 pkgconfig-libpmemkv-json-config \

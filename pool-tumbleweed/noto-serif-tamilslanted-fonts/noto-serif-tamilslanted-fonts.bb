@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-serif-tamilslanted-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "03e78dfcfcd1aedee7e2dc07e5160855740f829c4dff7485f90a3e69dad0a479cebdeeb50dbf74cd693eee63722a0e93866234d984c46e8f711f05d84810360e"
+RPM_NAME = "noto-serif-tamilslanted-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "6f006e7656087701455d0c4933eee2500eb2b845164e83145eb96d0aa378b14e47e22895f47e559f2efcb9f82d27e4b29d5542ead0d89d5731e2cd284a0a4381"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-serif-tamilslanted \

@@ -10,8 +10,8 @@ LICENSE = "MIT & MS-PL"
 
 PV = "6.12.0"
 
-RPM_NAME = "mono-wcf-6.12.0-5.3.aarch64.rpm"
-RPM_HASH = "f32e7f7962434f83315c035f97cfa1381adbdf13a51d71c6dacb9640096dffe6d15c9dec7838465b47300ac2ac480286e31f493bb014d30e39b92624e4c2a423"
+RPM_NAME = "mono-wcf-6.12.0-5.4.aarch64.rpm"
+RPM_HASH = "65aeb0dc7f2c4361816bf8a287028ec59f0b523ddee94ccd178ac91d5ab1fd02743983a3b3a1ff9a8b44f3ba061fa1ce6efffec27ec124fef2dadd6523afbfba"
 
 RPROVIDES:${PN} += "mono-SMDiagnostics \
 mono-System.Data.Services \

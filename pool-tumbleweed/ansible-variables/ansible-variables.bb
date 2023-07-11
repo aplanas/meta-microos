@@ -7,12 +7,12 @@ LICENSE = "GPL-3.0+"
 
 PV = "0.5.0"
 
-RPM_NAME = "ansible-variables-0.5.0-1.1.noarch.rpm"
-RPM_HASH = "971ad2c740f0f9e0a0fb0620b37acad23ef64ed68f26cd7842c5ed640d964bc0ed3b9a2e3145edeeedac278e08114936f4000fe5e477a151ddbf39d080330f9d"
+RPM_NAME = "ansible-variables-0.5.0-1.2.noarch.rpm"
+RPM_HASH = "5a345854ed646f4c37148204f35e885347186fa0e113dca9381638254b4980a5640f3d21a4d5ccddbb1093eb29cf723998510913d65a866a7f3849d1b3cc1d55"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ansible-variables \
-python3.10dist-ansible-variables \
+python3.11dist-ansible-variables \
 python3dist-ansible-variables"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

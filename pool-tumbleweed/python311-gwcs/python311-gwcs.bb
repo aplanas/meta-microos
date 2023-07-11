@@ -5,11 +5,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.18.3"
 
-RPM_NAME = "python311-gwcs-0.18.3-1.3.noarch.rpm"
-RPM_HASH = "bebbd9b3ff6d56e9579ef0ae41d1fe08f754974f33cbfb3ea057ec9d03a0c22029eea01667d5e2e439603ee1852c5bc8c2215c0bd5e0486884baa432141e5638"
+RPM_NAME = "python311-gwcs-0.18.3-1.5.noarch.rpm"
+RPM_HASH = "13331a38d54c01de69231742ea14c4e1a7c9e5fd94dca92ce67376f1d91ac5973c4f3e98783b5115f7c502a2ff3cc21960a2db88eb2b2acafbc49b2c8e425169"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-gwcs \
+RPROVIDES:${PN} += "python3-gwcs \
+python3.11dist-gwcs \
 python311-gwcs \
 python3dist-gwcs"
 

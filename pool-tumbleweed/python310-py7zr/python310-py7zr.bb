@@ -4,12 +4,11 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.20.5"
 
-RPM_NAME = "python310-py7zr-0.20.5-1.1.noarch.rpm"
-RPM_HASH = "fa863d461996558e62f6efd567b9bbf7c4526452b4e121b2b9635da152d2b71de45f117249341e4917c4546af3cbae4d3455c80e73b65b54d24f7496e64d0937"
+RPM_NAME = "python310-py7zr-0.20.5-2.1.noarch.rpm"
+RPM_HASH = "22fc179a532165ea182cb43014b99b60c1e6e4067a682170848d31b6fe54d1d25466a852c1d9d94516c7e7dc6fec39c41288e4f92dc3d45ad59f5950d43f36cd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-py7zr \
-python3.10dist-py7zr \
+RPROVIDES:${PN} += "python3.10dist-py7zr \
 python310-py7zr \
 python3dist-py7zr"
 

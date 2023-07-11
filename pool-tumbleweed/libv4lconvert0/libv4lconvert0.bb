@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.24.1"
 
-RPM_NAME = "libv4lconvert0-1.24.1-1.3.aarch64.rpm"
-RPM_HASH = "d6ef22a627e0af3b0815dcdc9a39a5ff2bbc400ce5f87e8b87fceced2831552f37c5009cc50d4443d691ef0dc706a1573b7475fa0359d4bf97c829fce19fbe8d"
+RPM_NAME = "libv4lconvert0-1.24.1-1.4.aarch64.rpm"
+RPM_HASH = "2a6acd4353b93ac0fa2a263ca54268124503d134977dc4b2158c447895d1fc64a2a47a87302445c0d01ca0d45a39f63b3790822694f08b3a5df7650647dacc98"
 
 RPROVIDES:${PN} += "libv4lconvert.so.0 \
 libv4lconvert0"

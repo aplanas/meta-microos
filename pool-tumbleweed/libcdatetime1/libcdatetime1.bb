@@ -6,8 +6,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20230115"
 
-RPM_NAME = "libcdatetime1-20230115-1.2.aarch64.rpm"
-RPM_HASH = "85495e8df16719823ee4ea8b877f6e4f91babbfbe31d71a55d4cc34299e144c72d3a9149100796bf772cf638ed25728080dbd440810891a3292c861b8abc3a9d"
+RPM_NAME = "libcdatetime1-20230115-1.3.aarch64.rpm"
+RPM_HASH = "7c0e83dfa4fd2382f782e983a41d3adaae2190b2f598eb8bde8a4fa4d13b7a967ebe1eda524e1451f8b1617df7f1c64e4112e77ba0cfc145cde3b61eb65b7ed6"
 
 RPROVIDES:${PN} += "libcdatetime.so.1 \
 libcdatetime1"

@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "0.9.0.g53"
 
-RPM_NAME = "libdbi-drivers-dbd-sqlite3-0.9.0.g53-3.18.aarch64.rpm"
-RPM_HASH = "3a738990a6c5294a5dd3b9e1b240dc087161a57a7fa51ebb178988e86a1968a49f34b80a7e6d12374e750a64cc4e0fbd725b5205350252be6b41b6386c4eb47a"
+RPM_NAME = "libdbi-drivers-dbd-sqlite3-0.9.0.g53-3.19.aarch64.rpm"
+RPM_HASH = "1f5152acbbf026048339169bedb22853426b1b0f2a622f2c7067901bbb3a6c8a6031e8fcd7ed05dbaa02ae674c5770b5d5ad15e3d43e1d0257bd70150cc33da9"
 
 RPROVIDES:${PN} += "libdbdsqlite3.so \
 libdbi-drivers-dbd-sqlite3"

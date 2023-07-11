@@ -2,10 +2,10 @@ SUMMARY = "Seat management daemon"
 DESCRIPTION = "Seat management takes care of mediating access to shared devices (graphics, input), without requiring the applications needing access to be root."
 LICENSE = "MIT"
 
-PV = "0.6.4"
+PV = "0.7.0"
 
-RPM_NAME = "seatd-0.6.4-1.7.aarch64.rpm"
-RPM_HASH = "a9a627b4aa751a499f7169f050de4e47049798e87dbb980969d22943e783dabd0ca9666314f662cea71ea3292f7012b6d0ba7a60c0900b47c1f27606ff5a6664"
+RPM_NAME = "seatd-0.7.0-1.1.aarch64.rpm"
+RPM_HASH = "908a5dfd8d85b17ef703f4bd4b7b2c1872df1ef6d77e256b34c174248e03d2e96ad631a4fda1d1c45b61453eb9c1f63706fae29daa079b9514640cac3d02e064"
 
 RPROVIDES:${PN} += "seatd"
 

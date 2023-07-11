@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.0.1"
 
-RPM_NAME = "maven-common-artifact-filters-3.0.1-2.12.noarch.rpm"
-RPM_HASH = "582e81b2892945028422a8db5e3f6eaf72892ad7bae630d318ff412fe9c69488a7af43d925a694dc7da1ddfafd32e7668df7e2b65fbec19f85aa73b0598ee074"
+RPM_NAME = "maven-common-artifact-filters-3.0.1-2.13.noarch.rpm"
+RPM_HASH = "2965e17774e555fe59dac25d6c2349639efc966ad785b21ce64287bb6c1221950cdeadc16ece909cd41c23cdd249deeca2964d596ccd6c425c062305ef069a2e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-common-artifact-filters \

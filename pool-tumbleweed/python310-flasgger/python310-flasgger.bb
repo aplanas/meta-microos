@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.9.5"
 
-RPM_NAME = "python310-flasgger-0.9.5-3.1.noarch.rpm"
-RPM_HASH = "2c2a3acd3cb1b3ee85e398f39c2a662901b93c719ca58a061a78d82ab7d653376ac8730fcef98be70db92046dae96dab80f095ed1ced37dcae26f89739496d49"
+RPM_NAME = "python310-flasgger-0.9.5-3.2.noarch.rpm"
+RPM_HASH = "a4b22c8f26c1ef1db36c07c2d951fe471542180586decb34cc9769f56018b1d31ab83051ab638827e070ce1fa7a138089c7ec38d741be7af2299042d33cd7fb4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-flasgger \
-python3.10dist-flasgger \
+RPROVIDES:${PN} += "python3.10dist-flasgger \
 python310-flasgger \
 python3dist-flasgger"
 

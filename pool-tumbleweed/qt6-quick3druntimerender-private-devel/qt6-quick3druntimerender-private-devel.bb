@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-quick3druntimerender-private-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "d1c95fbcb0f83fd579f864e098df16a982f4e13d202e1d404eb6c09231db8dd69ad782f925dcae7f4149e4d0b055e49aaca798a9cf938bd44a82a19e94417f58"
+RPM_NAME = "qt6-quick3druntimerender-private-devel-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "15a44951bc6fbec3b2f4c3c378c29d0cedec14b1afa38ac78d019b28f2605f592018531827c0872675225828f0bf382e121b2a28488fccaf7cb057beabfb2d4a"
 
 RPROVIDES:${PN} += "qt6-quick3druntimerender-private-devel"
 

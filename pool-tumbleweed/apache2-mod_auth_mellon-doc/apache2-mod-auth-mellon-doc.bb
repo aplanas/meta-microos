@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.17.0"
 
-RPM_NAME = "apache2-mod_auth_mellon-doc-0.17.0-2.9.aarch64.rpm"
-RPM_HASH = "897e520fd296c006557c1d23f936002cb8592a10ca072ec15869831ddae45f41697ff733220a9f2453ffedefac78f3663447788f6cc4b21a726511f4eb3117f8"
+RPM_NAME = "apache2-mod_auth_mellon-doc-0.17.0-2.10.aarch64.rpm"
+RPM_HASH = "23fd1de1a8011b0b1fa085eb951c7ca57d53e3bfd647f6d6fdb2eec3aca321eab534fb1f01d13d358d3b24f3dacfd284e2aded2198d33ff9f83d0aa8168b2aef"
 
 RPROVIDES:${PN} += "apache2-mod-auth-mellon-doc"
 

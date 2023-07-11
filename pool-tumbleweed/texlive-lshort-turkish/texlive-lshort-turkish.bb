@@ -2,10 +2,10 @@ SUMMARY = "Turkish introduction to LaTeX"
 DESCRIPTION = "A Turkish translation of Oetiker's (not so) short introduction."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.4.20svn15878"
+PV = "2023.208.4.20svn15878"
 
-RPM_NAME = "texlive-lshort-turkish-2023.201.4.20svn15878-52.1.noarch.rpm"
-RPM_HASH = "78f75f2e704ce20320d2838e06beee204b4035d01921574be5f761062fc879c17d967fb8b9fe34902466443ac31c0124d104839742c1714792252ad386423c4e"
+RPM_NAME = "texlive-lshort-turkish-2023.208.4.20svn15878-53.1.noarch.rpm"
+RPM_HASH = "8a21878c6103d59d6aef7e707d4fb44bb60af629abe82c48e53618b680ceb403dde442c54ee95d008b477cae8c76d9984ede93366947f69867721e7530f7a2cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lshort-turkish"

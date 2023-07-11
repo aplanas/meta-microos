@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.3.0"
 
-RPM_NAME = "vido-lang-2.3.0-1.13.noarch.rpm"
-RPM_HASH = "759e6ea495c8449ecbeef67b4f8a7aa8753e4474df35fc0795a833f8d040cea19e885d5cadff976ac3e7098bf11861b416effe99a8f05c0e46d8b4f586d3bebd"
+RPM_NAME = "vido-lang-2.3.0-1.14.noarch.rpm"
+RPM_HASH = "8636a141bc18eb54b669a6f0876669eb504cc6daebce988e84f4c1b0ae5280a523ed984076058e52020fce1a4461e0cb9f5893f44f8416dfcdd8394c6a80da07"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-vido-es \

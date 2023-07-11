@@ -2,10 +2,10 @@ SUMMARY = "Mail Client"
 DESCRIPTION = "KMail is the KDE mail client."
 LICENSE = "GPL-2.0-only"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kmail-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "a49b8975fdcb6283f77d1a3f756ffd210660dfe7080d5e000be3fb66eab4ac89a1aa6f175ed396958579e472c33d91e72ad1871c09a1066e55100fd243f5063b"
+RPM_NAME = "kmail-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "feccf0fda831b35b359bb8541ee2936f2fa1127761f12b410ef9e36c3dbb410efb5632c3857860abe07632509afebb0284dab78c5f83bf713e51a9adec75955d"
 
 RPROVIDES:${PN} += "kmail \
 kmail5 \

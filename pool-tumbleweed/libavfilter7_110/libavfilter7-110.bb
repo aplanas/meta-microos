@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.4.4"
 
-RPM_NAME = "libavfilter7_110-4.4.4-1.2.aarch64.rpm"
-RPM_HASH = "ef7e6572f78abc4b0feb76a81f8e15e6e86583afc6f5e96cf24d88b6dacc2e20dbfd4c1e13d4a12689115d6441da0028f3ad8f634bc28ec52893e9ad07eaeeea"
+RPM_NAME = "libavfilter7_110-4.4.4-2.1.aarch64.rpm"
+RPM_HASH = "034cabcff5f993d7b446939596bd0eaceeece4ea1c920966f519120fb09e7e61d4f8f4f6ae1ef029d3bf277cb55d1b75ab938fa1269942020c3cb1c76e6ab31e"
 
 RPROVIDES:${PN} += "libavfilter.so.7.110 \
 libavfilter7-110"

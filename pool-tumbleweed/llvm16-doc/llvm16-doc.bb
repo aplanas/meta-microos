@@ -2,10 +2,10 @@ SUMMARY = "Documentation for LLVM"
 DESCRIPTION = "This package contains documentation for the LLVM infrastructure."
 LICENSE = "Apache-2.0-with-LLVM-exception & NCSA"
 
-PV = "16.0.4"
+PV = "16.0.6"
 
-RPM_NAME = "llvm16-doc-16.0.4-1.1.noarch.rpm"
-RPM_HASH = "53002e8a137d1f2a7d5d74727bbf9988baaeef1c4ee0ffc9fdaa83a6e7d613270739c7141e5667072a6b02b79fb94e32445189cc26b91eb99b31c823a9990972"
+RPM_NAME = "llvm16-doc-16.0.6-1.1.noarch.rpm"
+RPM_HASH = "264e5787cf4ad8e236a38b4e9174fa75a19303bd3ec4eea1f8e46acbc2541f3cbd37786523221a9e393e3f561a2f20f45c18dfca45b1e1b7b3c2bce94a7244f0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "llvm-doc-provider \

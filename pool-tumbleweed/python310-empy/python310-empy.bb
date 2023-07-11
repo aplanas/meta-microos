@@ -15,12 +15,11 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.3.4"
 
-RPM_NAME = "python310-empy-3.3.4-1.19.noarch.rpm"
-RPM_HASH = "ce9ccc9908a86aa28ce0e1aa4e17c3737cb82480117a35d18a548f2ea5c36efea47d8652e4a0d9054ddd0046a04a1505f6fcc911d69ca8bf3d580b2d54c2be20"
+RPM_NAME = "python310-empy-3.3.4-1.20.noarch.rpm"
+RPM_HASH = "6271c4a13c28f1ef16b06ace31c159c8a99b0b41ccd397194ce3228ab1aa6892f5b9a38abe2b0d7860b3bc957eeeeefa1d528dc20bd88706f7fa1406ae38f612"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-empy \
-python3.10dist-empy \
+RPROVIDES:${PN} += "python3.10dist-empy \
 python310-empy \
 python3dist-empy"
 

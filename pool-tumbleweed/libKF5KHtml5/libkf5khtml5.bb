@@ -3,10 +3,10 @@ DESCRIPTION = "KHTML is a web rendering engine, based on the KParts \
 technology and using KJS for JavaScript support."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "libKF5KHtml5-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "1c7c44981a8e8882e3b6afe14766ffe1e87896285c4b514b73e8658fcdebb036d58199dcc9025d28e50e7d5e05e371cd57e1763bb841d7c84d98d0179fffcb39"
+RPM_NAME = "libKF5KHtml5-5.107.0-1.1.aarch64.rpm"
+RPM_HASH = "bacc3a616bc21c9ef3ab645c259bedbb32f075f0701c9e753601bf85df053f01ae7bcc6a17827de8ca7854e48decef2514891a44d7be4ae7f789c8616d49300b"
 
 RPROVIDES:${PN} += "config-libKF5KHtml5 \
 libKF5KHtml.so.5 \

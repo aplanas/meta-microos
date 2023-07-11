@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.8.1"
 
-RPM_NAME = "xxhash-devel-0.8.1-3.3.aarch64.rpm"
-RPM_HASH = "2c4f9ba8cd03c4e1b37f984823af8067f3c14c68763c4e209d44de578360c50a26d991313c1fd6cd5c8eb60174d9ccfcdfb0292fcfdb18f97d6dbd064049c5c7"
+RPM_NAME = "xxhash-devel-0.8.1-3.4.aarch64.rpm"
+RPM_HASH = "6b89ec7e6e4b1a8b2eb8f48f19d2f593a42e437fad0ab1c7cd89ade9648c08cc823338e1d5d606ba6920739ec3c81b842938174a728d86428a9c8ac5c9a2bf26"
 
 RPROVIDES:${PN} += "pkgconfig-libxxhash \
 xxhash-devel"

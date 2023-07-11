@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "4.4.0"
 
-RPM_NAME = "cheat-4.4.0-1.4.aarch64.rpm"
-RPM_HASH = "6b4e580ec2e763426fad035cc78e14b35cd2c3909011869ebfdef67879b957e281cedc8948d02fcd8c2fc46afbd4fe69c058f9115a0f4a7916f2cdf02b6cb46c"
+RPM_NAME = "cheat-4.4.0-1.5.aarch64.rpm"
+RPM_HASH = "861b09c432d5484b6d9a737bad18e5eec222b8e26054608fa9001a23c205e53dacf4a991754ab6af3e85c817e19fc9d3c5e34c2bf19c8a8ef0dacd5c898e25a6"
 
 RPROVIDES:${PN} += "cheat"
 

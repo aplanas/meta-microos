@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-only-with-WxWindows-exception-3.1"
 
 PV = "3.6.5"
 
-RPM_NAME = "OpenSceneGraph-plugin-opencascade-3.6.5-8.6.aarch64.rpm"
-RPM_HASH = "30e8f49bf2892f3fb0382090f36e4013e6d33365b829f92322cb07b335fe75f2424da89967cf5ff4c92d5cebba2836cc474d6fedc65b9a7232339c6364b11cdc"
+RPM_NAME = "OpenSceneGraph-plugin-opencascade-3.6.5-8.7.aarch64.rpm"
+RPM_HASH = "da79680dbd457c290189643ad6b716cd611cabed731487fa95b055c2de12d5625e11c9fae29951e09c9132dc157a7ed0c4a206aa7550fd1d3199a1d9bb371c8e"
 
 RPROVIDES:${PN} += "OpenSceneGraph-plugin-opencascade \
 OpenSceneGraph-plugins-/usr/lib64/osgPlugins-3.6.5/osgdb-opencascade.so \

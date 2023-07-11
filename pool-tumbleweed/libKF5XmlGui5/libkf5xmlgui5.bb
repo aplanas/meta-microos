@@ -5,10 +5,10 @@ in the application code. The framework supports merging of multiple \
 description for example for integrating actions from plugins."
 LICENSE = "LGPL-2.1-or-later & GPL-2.0-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "libKF5XmlGui5-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "6bba78363eb7f5a0c071bcb19a783daeb7af9e3735d9bd27d13d1900c7b49cdadf1abe73d02dbf0eb23290e5ae849193e517923ca97b00d6134e58973b4f744b"
+RPM_NAME = "libKF5XmlGui5-5.107.0-1.2.aarch64.rpm"
+RPM_HASH = "355c72973fe8e76b75c4171695d56503bfeb1319464a550860cc74c293131df9ba24457cb1add8656062543673ef9a4f80d23824cc65bbb5dd08ff3b86904646"
 
 RPROVIDES:${PN} += "libKF5XmlGui.so.5 \
 libKF5XmlGui5"

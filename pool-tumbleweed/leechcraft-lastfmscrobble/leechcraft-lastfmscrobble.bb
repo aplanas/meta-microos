@@ -18,8 +18,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-lastfmscrobble-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "fab0fede0718534535f21977e1a8b188ace8063d7b7923cf8a1fb5874dd0e224e508773dff0457aba6c6209fd0dff3d143161a9eee5aae14e822afef36dc75e5"
+RPM_NAME = "leechcraft-lastfmscrobble-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "5db959b2414744a027e24d8ea6e7f7b79c81b95f7418cf7748f06392b115e71a2cc001db4eba6c98329f0a98163d1f8fcbf09c41000a498e7b491c4059c36f36"
 
 RPROVIDES:${PN} += "leechcraft-lastfmscrobble \
 leechcraft-scrobbler \

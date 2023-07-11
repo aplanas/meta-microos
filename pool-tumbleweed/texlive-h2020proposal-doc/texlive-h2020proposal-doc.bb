@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.201.1.0svn38428"
 
-RPM_NAME = "texlive-h2020proposal-doc-2023.201.1.0svn38428-53.1.noarch.rpm"
-RPM_HASH = "c6fd28e940e55d1bc53b2a0d2c30cd6eb6c55dd1d63c0dbb0b43507ab742d224244b5515c575bb1f565048e4103d5acbfcf1502d6b10ca70f377646e9a6bf774"
+RPM_NAME = "texlive-h2020proposal-doc-2023.201.1.0svn38428-53.2.noarch.rpm"
+RPM_HASH = "cd7398cb18d119f0a0198c9087653424d8a583f4608d4d106cb96567e44ec34fd4129fc3f097b16c795b902b586425872607b635e6f8509eff7f60ce8722f0ea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-h2020proposal-doc"

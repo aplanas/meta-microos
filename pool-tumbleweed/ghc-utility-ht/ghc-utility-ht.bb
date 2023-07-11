@@ -14,13 +14,13 @@ base package might invalidate this statement. \
 Alternative packages: 'Useful', 'MissingH'."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.0.16"
+PV = "0.0.17"
 
-RPM_NAME = "ghc-utility-ht-0.0.16-2.3.aarch64.rpm"
-RPM_HASH = "2bac86812e1cd9bf0cc8d44c0c09caa7aa3c4b286875afb566a35f844ed7328b92802206089d8e683af316f0c3735389e54344ad69f9f4ab8b84eefd85918c39"
+RPM_NAME = "ghc-utility-ht-0.0.17-1.3.aarch64.rpm"
+RPM_HASH = "cadc576d9f70f322e799d9d71426454b69c5e53b90f8e531ca77eab9cfebde46d1213eef364460281e66fc798a1de557515c2060ff31d1bdfb35054bb6fb0116"
 
 RPROVIDES:${PN} += "ghc-utility-ht \
-libHSutility-ht-0.0.16-CDN97AfZiejDC1itvZ2hyN-ghc9.4.5.so"
+libHSutility-ht-0.0.17-3onflAp0qnlITa4Vy6FXwy-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so \
 libHSghc-bignum-1.3-ghc9.4.5.so \

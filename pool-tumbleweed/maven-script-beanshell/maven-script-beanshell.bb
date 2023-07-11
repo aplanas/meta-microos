@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.6.0"
 
-RPM_NAME = "maven-script-beanshell-3.6.0-5.1.noarch.rpm"
-RPM_HASH = "83ab7e874d0534d5c501f356454ef73d5954771d306a6b9073e1d2f0dcaf9cf170d74e44e0a2da191bc3554fd471825d9ed3657448041262a57c773e1136e0e4"
+RPM_NAME = "maven-script-beanshell-3.6.0-5.2.noarch.rpm"
+RPM_HASH = "36cdf7a74c927251d1f8b1365250d43b57494ea7b25228d00dd3417d605815ebf2bdc148d1170ccb844f0c105433468e6863ae31e03c7534adf180601330f6e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-script-beanshell \

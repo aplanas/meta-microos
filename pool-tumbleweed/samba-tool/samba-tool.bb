@@ -2,10 +2,10 @@ SUMMARY = "Main Samba administration tool"
 DESCRIPTION = "The package contains samba-tool, the main tool for Samba Administration."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.18.1+git.298.4ccf830b2a4"
+PV = "4.18.3+git.303.c08b73d523c"
 
-RPM_NAME = "samba-tool-4.18.1+git.298.4ccf830b2a4-1.1.aarch64.rpm"
-RPM_HASH = "2aa3c03c6a72aa398796b93059c78e77812febf7914bcdc230bb9f1742fb17c97706509668c06a78eb4c6dc498191f7cc68c1daffcc1e8307cc3236117b5c935"
+RPM_NAME = "samba-tool-4.18.3+git.303.c08b73d523c-1.2.aarch64.rpm"
+RPM_HASH = "3fc40fc77aa367705ec9747d9f018c1b6f415a6e922b3ef0912080e0254043d45c7483854e6b7f6b6b5144abfeb486cf4b9d43c6cb2dae24db315ae481461a39"
 
 RPROVIDES:${PN} += "samba-tool"
 

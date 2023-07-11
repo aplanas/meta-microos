@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only & LGPL-3.0-only"
 
 PV = "2.2.17"
 
-RPM_NAME = "geis-tools-2.2.17-4.9.aarch64.rpm"
-RPM_HASH = "d8c3bd43c909642ddb6e4bdacfac99bcc81bd74e8cde6f15f1acebff2944812bb4c6bec972685e84367225cfed5abc287bdab12ed5bf69fbe843dbf4fce67c5c"
+RPM_NAME = "geis-tools-2.2.17-4.10.aarch64.rpm"
+RPM_HASH = "e6e82c9e8ffc20b3c5ff0c33977d85f9d623a968e2a6f49e8c32170f73f2ff0cee029b3b392e9b225907617d9ecb13a4f6eb7554e7c27860b04003be0e0a1819"
 
 RPROVIDES:${PN} += "geis-tools"
 

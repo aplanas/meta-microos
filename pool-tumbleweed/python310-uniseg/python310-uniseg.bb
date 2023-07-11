@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.7.2"
 
-RPM_NAME = "python310-uniseg-0.7.2-1.2.noarch.rpm"
-RPM_HASH = "f898ba64e6039d739af71824c5159f3a4cc33b262ef992feefac8d6fb50902583d1672242145e3186f3e74ae96238fead456585ddb2e27d02255b2f26a848758"
+RPM_NAME = "python310-uniseg-0.7.2-1.4.noarch.rpm"
+RPM_HASH = "78a0ce64d2b24048a9c7d34b98bc010413ffe325f42de0bb48782769cdacabe709be51e1f8fabac183b3f4cbe8a76a1a12ecaad44d0dfc121a24b261dcff2f74"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-uniseg \
-python3.10dist-uniseg \
+RPROVIDES:${PN} += "python3.10dist-uniseg \
 python310-uniseg \
 python3dist-uniseg"
 

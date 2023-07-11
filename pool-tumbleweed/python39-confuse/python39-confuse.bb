@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.0.1"
 
-RPM_NAME = "python39-confuse-2.0.1-1.1.noarch.rpm"
-RPM_HASH = "a7e2afe9d4c7a14b1f13e241a81a2763a6e1f29f940a2bcc18fbb1aacc32275ff4bef79d478141d17a8ba69bdc382f388488c7152bb13fce6d4500d0a9ecbcdd"
+RPM_NAME = "python39-confuse-2.0.1-1.3.noarch.rpm"
+RPM_HASH = "c70a57bea8dd683bd0486911674fdc87552afa58b113f2f442dc6cd25cf15ab63570a077517c76e93320b9a665961161ce5267e5b658befcdd40555f76d59348"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-confuse \

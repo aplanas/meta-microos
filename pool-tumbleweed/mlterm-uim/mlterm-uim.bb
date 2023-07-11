@@ -2,10 +2,10 @@ SUMMARY = "An uim plugin for mlterm"
 DESCRIPTION = "A plugin to use the uim input methods directly from mlterm."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.9.2"
+PV = "3.9.3"
 
-RPM_NAME = "mlterm-uim-3.9.2-3.3.aarch64.rpm"
-RPM_HASH = "5e9cec0cd76adecc1070bd1ef4591acc734beb2414fb5fe0c2362618e227e37d030f4a5a8daf2b387380e7d879dac440cc1408f4d726d75a20e5143ef545c50e"
+RPM_NAME = "mlterm-uim-3.9.3-1.1.aarch64.rpm"
+RPM_HASH = "4f7c7b970987b75fe4945a914db54e5a5ab5eae4205ce085114369c7bc50c56b877bd7a590acbc671fd2fa360977c0547f4ac0ed3bd4f78ea3bd56375e926c76"
 
 RPROVIDES:${PN} += "libim-uim-sdl2.so \
 libim-uim-wl.so \

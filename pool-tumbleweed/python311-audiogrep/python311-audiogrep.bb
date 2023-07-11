@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "0.1.5"
 
-RPM_NAME = "python311-audiogrep-0.1.5-2.16.noarch.rpm"
-RPM_HASH = "f25c6179199534f54c66beabbb11e7577b84753b8ebd0db3d6cf2b0cbf7e5eaa781ffaca5e51b183bb1e3f4e194fd5cdbc38f1b300bc11fd39f17c45d7510dae"
+RPM_NAME = "python311-audiogrep-0.1.5-2.18.noarch.rpm"
+RPM_HASH = "2ea743dde2613e4b396b9b4f8c5b692305f7f0dca0301fcbc5dd5e703fa7839cd15fdf4c5c20358c7298fc885e8601fd912b3aee9fc05593073b0cb4d6c136fc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-audiogrep \
+RPROVIDES:${PN} += "python3-audiogrep \
+python3.11dist-audiogrep \
 python311-audiogrep \
 python3dist-audiogrep"
 

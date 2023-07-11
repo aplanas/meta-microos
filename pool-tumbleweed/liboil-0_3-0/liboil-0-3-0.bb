@@ -10,8 +10,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.3.17"
 
-RPM_NAME = "liboil-0_3-0-0.3.17-26.7.aarch64.rpm"
-RPM_HASH = "d80767625af2664a24f7093497ccaaf1daf280249e114dbfc2c1f351b626e9dc15197e9c4fb0f13ebe2443596c278f9a7c7a956675fa3bb01277254ee48d3834"
+RPM_NAME = "liboil-0_3-0-0.3.17-26.8.aarch64.rpm"
+RPM_HASH = "0de562d418dbb7f53bc4b824167fb83621ebb2dd073292ecf00b5b8ba86b7be67e677ff3a2cccb6ab4c880f6a2a928245b146e14f575897226e1e5e6adafc6f8"
 
 RPROVIDES:${PN} += "liboil-0-3-0 \
 liboil-0.3.so.0"

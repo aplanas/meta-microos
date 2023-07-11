@@ -8,12 +8,11 @@ LICENSE = "MIT"
 
 PV = "3.0.1"
 
-RPM_NAME = "python310-azure-cognitiveservices-vision-nspkg-3.0.1-3.9.noarch.rpm"
-RPM_HASH = "f4bc57255749f92fdca3ec0ab48966f0d97ff3477e9b59760bb8a3f5bd4f549c359f2bedcd6ad7cfa9eb3a94f265334cb6bdbec7ad34eadd6f60b9ed5c032c2f"
+RPM_NAME = "python310-azure-cognitiveservices-vision-nspkg-3.0.1-3.10.noarch.rpm"
+RPM_HASH = "07250ad9e6704cb00126e3f834e3989d78931e4e2dae9f8b6f84db5e621a76cb75403f38af488c752dd86c1cc4ca750d20e8e5ad9f6069a3df2aa4dd499e12c0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-cognitiveservices-vision-nspkg \
-python3.10dist-azure-cognitiveservices-vision-nspkg \
+RPROVIDES:${PN} += "python3.10dist-azure-cognitiveservices-vision-nspkg \
 python310-azure-cognitiveservices-vision-nspkg \
 python3dist-azure-cognitiveservices-vision-nspkg"
 

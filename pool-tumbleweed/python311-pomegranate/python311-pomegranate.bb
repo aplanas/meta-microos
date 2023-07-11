@@ -4,10 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.12.0"
 
-RPM_NAME = "python311-pomegranate-0.12.0-2.13.aarch64.rpm"
-RPM_HASH = "67684a55fe2e4b9db77a2095fdfdebf50f67825c1538ff64c3c263aef5a3274b9ee04cb13ed3983b1194ba5e8e726120f97f2a6151b8b92bdf54a726d831cc81"
+RPM_NAME = "python311-pomegranate-0.12.0-2.15.aarch64.rpm"
+RPM_HASH = "e97b56aee9ebc9844536551967582aa8a0c46e24004c92f73622317d8e7b7d3aa8175cb191d517a06a2f739cb2115b2fa7495f36fb34df0ae49b71da57ddcd79"
 
-RPROVIDES:${PN} += "python3.11dist-pomegranate \
+RPROVIDES:${PN} += "python3-pomegranate \
+python3.11dist-pomegranate \
 python311-pomegranate \
 python3dist-pomegranate"
 

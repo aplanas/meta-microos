@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.8"
 
-RPM_NAME = "python39-importlab-0.8-1.4.noarch.rpm"
-RPM_HASH = "430a7321a3b39e201c868ae3d60d9baea584bb17ff97b31f6b5e1fcd5e9c8a97a8c4008ec459804cfce4d0ce65874a4350447e26c6a748068cc97d50f420c17f"
+RPM_NAME = "python39-importlab-0.8-1.6.noarch.rpm"
+RPM_HASH = "5becbb0c829b509fca1c6f75082a4c212098cd83cc9ff5ea44aea3e1decfb96639d09490dee11b55377a1cccf25bda14efaff3a8d6e8b5d1f3bf80d0e7b4c29a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-importlab \

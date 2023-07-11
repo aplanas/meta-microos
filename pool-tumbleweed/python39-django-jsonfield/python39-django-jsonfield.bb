@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "3.1.0"
 
-RPM_NAME = "python39-django-jsonfield-3.1.0-3.6.noarch.rpm"
-RPM_HASH = "b19aa5947ecea2f857b7c99628de986341e02e0a617cfc70090bbaf2264accc10a8e0ddd2ee6116339dbfb23da506ac4ea5c5a306906f40b9936498237568c50"
+RPM_NAME = "python39-django-jsonfield-3.1.0-3.8.noarch.rpm"
+RPM_HASH = "8abfb9dc49e881ec96e0f3363be4fab831c3e1936632a6529ec5f39f45fa8368f11276a2036c7235f49e67f116277907902bca7229b563c47899d500c2a17fd5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-jsonfield \

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.6.10"
 
-RPM_NAME = "fwknopd-2.6.10-3.8.aarch64.rpm"
-RPM_HASH = "bc91b5bc68979d45cff3ed4d2036d7d16b6ca322ba38fca3d497db45f4285575515890e2671ac94d1e946b506011255d83685367a8611e5db0eebb1a7cd6581e"
+RPM_NAME = "fwknopd-2.6.10-3.9.aarch64.rpm"
+RPM_HASH = "a197e532491f1af5d4718fedf2afa0717839817b4df4c5d0665418dd4ec1609f0eb3a4eb4b79791f7c737c4eda405e637103cf3ca0f7188216ea347db0e8311e"
 
 RPROVIDES:${PN} += "config-fwknopd \
 fwknopd"

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0.23"
 
-RPM_NAME = "python39-pysmbc-1.0.23-3.8.aarch64.rpm"
-RPM_HASH = "c1207da854c2e542e7892aae41d08fa77f7e6669e1178ccc6bc4e95245a28b12c915b44e0fb31c593b10687e6274eb568b9bbcf6aa200d9152514b22810d1536"
+RPM_NAME = "python39-pysmbc-1.0.23-3.10.aarch64.rpm"
+RPM_HASH = "e163e34e4f69a864f45ae7543c65839d77bf51baacedd81f34bb6c099ffac8cc440ef0a511034eecc42a6c3c79d85f6f143e476d9d382942752b531977624de4"
 
 RPROVIDES:${PN} += "python-smbc \
 python3.9dist-pysmbc \

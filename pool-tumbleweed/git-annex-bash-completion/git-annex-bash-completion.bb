@@ -4,8 +4,8 @@ LICENSE = "AGPL-3.0-or-later & GPL-3.0-or-later & BSD-2-Clause & MIT & GPL-2.0-o
 
 PV = "10.20230407"
 
-RPM_NAME = "git-annex-bash-completion-10.20230407-1.2.aarch64.rpm"
-RPM_HASH = "c6a8e9f29644e0f084fe09051e98cd0b393b6531d9845872ed4bb186581977a8aea4c19bef8171c031394b44f9c8babfeef47e6cc721bb5a8527d86abfedda8a"
+RPM_NAME = "git-annex-bash-completion-10.20230407-2.2.aarch64.rpm"
+RPM_HASH = "123dc34dc74a33afd2741313cee86debff8b43d70167e1003b0947d985ce162be8b19aaf9ca404e812823fb0c416f22102652f6690f6342a5c9346ce2e2e9ef6"
 
 RPROVIDES:${PN} += "git-annex-bash-completion"
 

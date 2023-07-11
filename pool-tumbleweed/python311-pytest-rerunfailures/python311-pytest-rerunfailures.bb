@@ -5,11 +5,12 @@ LICENSE = "MPL-2.0"
 
 PV = "11.1.2"
 
-RPM_NAME = "python311-pytest-rerunfailures-11.1.2-1.1.noarch.rpm"
-RPM_HASH = "5edf57d29bbd928d75f1d5e2a3b565e8f9ea125bb68f0da6ae69b1d121e55b563befabf7c40baec4e5d3287659d09d4ce3a617fad26940598c3690ba118516f0"
+RPM_NAME = "python311-pytest-rerunfailures-11.1.2-1.3.noarch.rpm"
+RPM_HASH = "e66db764d222f80d025c952c9bf59d2859a0e08d346376cd82aab0ae4a9024402751d485c8124346dd9928c146c59f6fa7a95f89a05cc9a27880f3d94aad11a7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pytest-rerunfailures \
+RPROVIDES:${PN} += "python3-pytest-rerunfailures \
+python3.11dist-pytest-rerunfailures \
 python311-pytest-rerunfailures \
 python3dist-pytest-rerunfailures"
 

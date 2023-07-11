@@ -16,8 +16,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.0"
 
-RPM_NAME = "python39-pyct-0.5.0-1.3.noarch.rpm"
-RPM_HASH = "4fdae7dabe571508a9ecdc08a3c8f2b9346fa3c7836fa47204e227c0b6ee7497c6dfb8083f268ffdad8088532062d42110cf30a807401c3ca509dda36c29f1d3"
+RPM_NAME = "python39-pyct-0.5.0-1.5.noarch.rpm"
+RPM_HASH = "25b85ed9e7519bcb39c24799d1e0f9ec398468cefa43cdf413a85afa5238859ff2ec813dcb3cbafb174781e7c347c67da5f94b2f62c18c25588ca3f07b4858d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyct \

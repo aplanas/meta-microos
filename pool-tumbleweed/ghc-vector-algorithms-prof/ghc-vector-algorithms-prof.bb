@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.9.0.1"
 
-RPM_NAME = "ghc-vector-algorithms-prof-0.9.0.1-1.3.aarch64.rpm"
-RPM_HASH = "3a178a582f5d0df393e874296149b36a30c374b284b0d2807bd9f442565884cca73e16132d69684c0d46164492669bfba398b3ee80429be706acafc6a5cea993"
+RPM_NAME = "ghc-vector-algorithms-prof-0.9.0.1-1.6.aarch64.rpm"
+RPM_HASH = "90977c16e5b60290005bcb1a95463b920da88fe86b13a1f46f848e6fdfe8ba81d37484dd8dd4c3fc11cedc0a5b8eb655ada448b6d5a93653ebe6fecd0502d53b"
 
 RPROVIDES:${PN} += "ghc-prof-vector-algorithms-0.9.0.1-BIFHuMvuTIO1lWGrhqtqm6 \
 ghc-vector-algorithms-prof"

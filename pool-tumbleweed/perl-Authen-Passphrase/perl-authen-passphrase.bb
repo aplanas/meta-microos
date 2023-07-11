@@ -18,8 +18,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.008"
 
-RPM_NAME = "perl-Authen-Passphrase-0.008-1.22.noarch.rpm"
-RPM_HASH = "42050deab63dd0ae5f8bb8feec22f65a2573ede97e83153e2fcd87c5cbb673fb310d48d4fd87fac61489ef8cd8beb6c46833ed99245b79b86116fce0392f7cf7"
+RPM_NAME = "perl-Authen-Passphrase-0.008-1.23.noarch.rpm"
+RPM_HASH = "739f7d83b12d1ec09e901d61b5190ef1b1f55faf0d3f466542d120e7c62504985031aec71fde0608e09b0f1fe7f437a301ebae67fe0aee7eb7cb0dc2c0e23c7b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Authen--Passphrase \
@@ -43,7 +43,7 @@ perl-Authen--Passphrase--SaltedDigest \
 perl-Authen--Passphrase--VMSPurdy \
 perl-Authen-Passphrase"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Authen--DecHpwd \
 perl-Crypt--DES \
 perl-Crypt--Eksblowfish--Bcrypt \

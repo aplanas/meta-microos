@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-huaz"
 DESCRIPTION = "This package includes the documentation for texlive-huaz"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn64723"
+PV = "2023.208.1.0svn64723"
 
-RPM_NAME = "texlive-huaz-doc-2023.201.1.0svn64723-52.1.noarch.rpm"
-RPM_HASH = "555d37fc1021cb7fe1f408b6a0c21bfa89136f09c3568a1e5e6db1ecfae31dade13dd0e46af717f80124ba0cccd25e09d62de4d5497e18f5740e770de488b556"
+RPM_NAME = "texlive-huaz-doc-2023.208.1.0svn64723-53.1.noarch.rpm"
+RPM_HASH = "11bb79a6de5d1763469e0287ea8aca723c4bb2d8716af8c9f7cc3d363df3bc8233c49f2deb1e71791e17c28ecc7b6962c5b34cbee515a0e0f1cd4de1c457cc74"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-huaz-doc-hu \

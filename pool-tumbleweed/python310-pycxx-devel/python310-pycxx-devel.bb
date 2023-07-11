@@ -7,14 +7,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "7.1.7"
 
-RPM_NAME = "python310-pycxx-devel-7.1.7-1.6.noarch.rpm"
-RPM_HASH = "c645bfaeb467a02eed65ffd438ab058d8e54f4739f14533a0a1c6aced1443a6a659f5c71264c226725d1f2e54e71408c8dd36d991ebd6f7b6f1640c81d2877f2"
+RPM_NAME = "python310-pycxx-devel-7.1.7-1.7.noarch.rpm"
+RPM_HASH = "3bdf151f7248c589d0d36dcb9553837afb5eece2b3985dd993b9e52b2feb87cf870954432207b647dfbdc21d853f8de6e6884c964065ea4d1450595a720f6c47"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-CXX-devel \
-python3-cxx-devel \
-python3-pycxx-devel \
-python310-CXX-devel \
+RPROVIDES:${PN} += "python310-CXX-devel \
 python310-cxx-devel \
 python310-pycxx-devel"
 

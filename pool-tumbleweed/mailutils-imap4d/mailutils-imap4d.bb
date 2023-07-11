@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
 PV = "3.16"
 
-RPM_NAME = "mailutils-imap4d-3.16-1.2.aarch64.rpm"
-RPM_HASH = "15679c1dd5a18d2b6220b7c9347a7ea1c2caecd27431cd1ce10735e73588633ada90861a379a518fd52bfc64ba8f5e60febe5c9fce4459a1721ce5ae5a3070ab"
+RPM_NAME = "mailutils-imap4d-3.16-1.3.aarch64.rpm"
+RPM_HASH = "fa85edb6ca9d8038016bd1b2ba4a0a0cd3c920708ecf69c614c8736966c6f69c5baa8f1205cf2590f684fffd44f211ddd3df478cd2a74b3029f59420d9bc92cf"
 
 RPROVIDES:${PN} += "mailutils-imap4d"
 

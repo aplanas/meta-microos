@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.4.0"
 
-RPM_NAME = "ghc-call-stack-devel-0.4.0-2.3.aarch64.rpm"
-RPM_HASH = "0e7d58d6565acff324d60806a44cd7df76d63cefdb81e353a98583f662b6c6d8756ed526902376d23d7dbf1946f2c7b71ff7d8837b0a885c5a339a16e8179219"
+RPM_NAME = "ghc-call-stack-devel-0.4.0-2.6.aarch64.rpm"
+RPM_HASH = "7c229b1dbdf7c4b5d59aa90be47f0af5090544ed205e4e2663e400bcc80d8e2e056d3a86e1998a211ef39ec1718666fe22b64fa04577e80a482b9922867157b9"
 
 RPROVIDES:${PN} += "ghc-call-stack-devel \
 ghc-devel-call-stack-0.4.0-K9VxYWjBEvtITBfD6bL7Dk"

@@ -6,10 +6,10 @@ to [1-3], where the '1' and the '3' are (color-)linked to the \
 bibliography."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.0bsvn17358"
+PV = "2023.208.1.0bsvn17358"
 
-RPM_NAME = "texlive-hypernat-2023.201.1.0bsvn17358-52.1.noarch.rpm"
-RPM_HASH = "49c541a80795e621915561c700b08c52dad9e21502d2213ce6083b59cbbf2880cfa4ba129f037a505246e965e996159d0681166f3721539d46695ac42de1196e"
+RPM_NAME = "texlive-hypernat-2023.208.1.0bsvn17358-53.1.noarch.rpm"
+RPM_HASH = "21cc19735e07126c4e63ad23364cfba33967b9382f48f27cd238691eb149d1ea9fe7f986b54b8b796e711e72d8fd3982e2e09180f7909c0f974ced0196e25d03"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hypernat.sty \

@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.11.3"
 
-RPM_NAME = "gammaray-2.11.3-2.15.aarch64.rpm"
-RPM_HASH = "3dd4866bc7213a382317de446cfd8811e8890f3bbf911d1dd1015b0c4a30973c58eef90f0baf5f6052971e7899b1872e2380463ed4d3ed257b53b925f30b02a7"
+RPM_NAME = "gammaray-2.11.3-2.16.aarch64.rpm"
+RPM_HASH = "c3f849bd3bd4fe81a071801a25a54d5259b68d01e28cb207cf2018be91ebe5697229619bdb8b9ff204652a5fce464ca23d3de054242f80e74cdd4d69f7bfec60"
 
 RPROVIDES:${PN} += "gammaray \
 libgammaray-client.so.2.11.3 \

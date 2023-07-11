@@ -4,13 +4,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.12.0"
 
-RPM_NAME = "hadolint-2.12.0-1.5.aarch64.rpm"
-RPM_HASH = "2259288a447925b00035f2ba9789f20ecdba93b5b228449fab49ae1265b71d55e73363046bb878b9ca693330750918f1639eb353a4a644f870bf4d5c46adb64d"
+RPM_NAME = "hadolint-2.12.0-1.8.aarch64.rpm"
+RPM_HASH = "b0ae9890239dd9ef8b35c4dff5f579513298f91444cc0c06bfb059315b1b74d2d5df607799b5865bd310ea01244c63ca2b472442ac007e93c40958b747022efc"
 
 RPROVIDES:${PN} += "hadolint"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libatomic.so.1 \
 libc.so.6 \
 libffi.so.8 \
 libgmp.so.10 \

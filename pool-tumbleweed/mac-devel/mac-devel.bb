@@ -4,8 +4,8 @@ LICENSE = "SUSE-Permissive"
 
 PV = "8.92"
 
-RPM_NAME = "mac-devel-8.92-1.2.noarch.rpm"
-RPM_HASH = "7866cc53d0a7c3f340065d4a6b9f97b381b4d12247c0390a27b82f700ff0f0a9af50edc5886c0b9105602d0b932a2f301b51eaaefaee8ca113a3debbd5eb86f0"
+RPM_NAME = "mac-devel-8.92-1.4.noarch.rpm"
+RPM_HASH = "70fe93b1f519ab22271991a6173d038acfb65dee3a43705529b37ef21adccf493d439563694c2777f293a3f79626e2c5894ebc2dbac170d9fa926db468bf4821"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mac-devel"

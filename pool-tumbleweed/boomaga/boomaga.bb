@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
 PV = "3.0.0"
 
-RPM_NAME = "boomaga-3.0.0-3.11.aarch64.rpm"
-RPM_HASH = "40cc76029d0be103b22e34f270b772a49df9712832e4f95b881bfcf737ee95eb0eb977992907812038f5db45b0436e91bfbc7785c76ece11f2880ed60fd3c0ff"
+RPM_NAME = "boomaga-3.0.0-3.12.aarch64.rpm"
+RPM_HASH = "9771b4566162a3fc7d4169a0bbe490012619c0ef6408a4a10ddccca05f374c5fb343787e2d50c378120a3334d3adc8b72eaa8e126a425f60e4bf9fd4c979acef"
 
 RPROVIDES:${PN} += "boomaga \
 postscriptdriver-generic;boomaga-printer;"

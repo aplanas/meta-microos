@@ -13,8 +13,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.8.8"
 
-RPM_NAME = "python39-networkx-2.8.8-1.3.noarch.rpm"
-RPM_HASH = "9b1f83cafaf7b2184c43cc30cd106cd30b12d0d4ce8a1608ebe67f1e841cff83982bbed82e09a8d993732d08969388f0589d25430fbb576f19937c00215633ea"
+RPM_NAME = "python39-networkx-2.8.8-2.1.noarch.rpm"
+RPM_HASH = "d3849ba1c913a81ebb8bf7d8b8693ee81dede74b10bcf800b3ad27600c6b4bd21828429a58849b06c7a6882e44abebc0c3f233f3a5aa12663352551db881b182"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-networkx \

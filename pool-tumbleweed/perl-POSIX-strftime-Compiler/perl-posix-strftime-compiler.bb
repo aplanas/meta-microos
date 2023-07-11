@@ -9,13 +9,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.44"
 
-RPM_NAME = "perl-POSIX-strftime-Compiler-0.44-1.13.noarch.rpm"
-RPM_HASH = "92ca02b3541eb94ecc5f1ed13226fa90d076964173eefbbbac89784adff828eaed1363719b4ceb7e2e7bfa485f5b91038169e2fca9ca8020af25247f64f93943"
+RPM_NAME = "perl-POSIX-strftime-Compiler-0.44-1.14.noarch.rpm"
+RPM_HASH = "349ea71afcc7b61ffde1598ae24844cd7ed57a1cd5508c39a8ac74f6b5de2c60e7e317f223a715fd7bdd5f2caa226425cf26e8a1c2628cdfeca4eb8222a4eb1f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-POSIX--strftime--Compiler \
 perl-POSIX-strftime-Compiler"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

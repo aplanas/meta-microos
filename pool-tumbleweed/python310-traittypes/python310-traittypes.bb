@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.1"
 
-RPM_NAME = "python310-traittypes-0.2.1-9.2.noarch.rpm"
-RPM_HASH = "2bcbab98de16348932914e7dbf48aa8e0dff6f1e9d08498a4f5761ad9220d3b0bbc841484cf9f73ec9d00c464243033d911a9080662fe7518618c68190fff440"
+RPM_NAME = "python310-traittypes-0.2.1-9.4.noarch.rpm"
+RPM_HASH = "e112f8a06ca12e3f718ce9f32d1214873c76f2a99ebcfd3640024b691f45a921709b2797077254ed7e31e4d23718ecff5c63ccbc8a0c04506d76821a56c836d0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-traittypes \
-python3.10dist-traittypes \
+RPROVIDES:${PN} += "python3.10dist-traittypes \
 python310-traittypes \
 python3dist-traittypes"
 

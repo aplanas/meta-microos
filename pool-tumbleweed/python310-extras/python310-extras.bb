@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python310-extras-1.0.0-6.1.noarch.rpm"
-RPM_HASH = "9ea20ede4ed2f56384239f6a6cf61c9ac982bc358a5da115a5f98a5ed139f6e53339a53d5bed5c0806582fc9305845cc2da969a17dc645256898b1f1c5f4f805"
+RPM_NAME = "python310-extras-1.0.0-6.2.noarch.rpm"
+RPM_HASH = "39b4a6596941feae8ffe4e4491e16988a4f6929c4e9eea258695448bcb2744143c1a3b6dd47ef8b081fff7b3656f1b031e9e72da3771f2de11d916dd1a0f0cfc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-extras \
-python3.10dist-extras \
+RPROVIDES:${PN} += "python3.10dist-extras \
 python310-extras \
 python3dist-extras"
 

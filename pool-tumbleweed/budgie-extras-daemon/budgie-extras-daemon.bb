@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.6.0"
 
-RPM_NAME = "budgie-extras-daemon-1.6.0-1.1.aarch64.rpm"
-RPM_HASH = "29b8f38b8014559f375d001ab541fc8221fd22e526633cd2e040ccf415215d23269bfca5138369cc65903460e8a2ac10469e54023eb84e56a81c367d133eb677"
+RPM_NAME = "budgie-extras-daemon-1.6.0-1.2.aarch64.rpm"
+RPM_HASH = "878d1146daa400cfc4aeac9c8b056d616b93b2b9d0aa9fedf718344bd8368069fc186a5270d07bd1b1a125d8736647704dd631ff22b5ba8d2a83d2042b7bfb14"
 
 RPROVIDES:${PN} += "budgie-extras-daemon"
 

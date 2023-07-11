@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "0.7"
 
-RPM_NAME = "libKF5KWeatherCore5-0.7-1.1.aarch64.rpm"
-RPM_HASH = "279417ccbd7c8fc028700ab0083d78b818c981fd0a5dcf604a7fc1c6ff15d271f86f30158b3854547daf472da716ba7abcf79f52e45ef8b053fcf7919c076c4c"
+RPM_NAME = "libKF5KWeatherCore5-0.7-1.2.aarch64.rpm"
+RPM_HASH = "d608ae6f77096302424ae4b4406ebdb96e157ff03406d21456e80f31bd810de6c6829a6282fee070c4c7290ed1f6a1060cc7cebab14d3f2d54f4d81438814617"
 
 RPROVIDES:${PN} += "libKF5KWeatherCore.so.5 \
 libKF5KWeatherCore5"

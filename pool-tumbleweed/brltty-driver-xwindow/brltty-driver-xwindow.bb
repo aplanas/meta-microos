@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "6.5"
 
-RPM_NAME = "brltty-driver-xwindow-6.5-2.4.aarch64.rpm"
-RPM_HASH = "d8148074bb490984608ce9a21b5a12a206f8877d888d9a245b99fc54d9dffde07ca9454d8371df0bbcc45e328936928ca12f8e65c097ac2d1a4e1b0022a97e20"
+RPM_NAME = "brltty-driver-xwindow-6.5-3.1.aarch64.rpm"
+RPM_HASH = "ec86b829b5f4e25c3b0bfd96db837c119bfd5c6dd1e3829dc99f0e801633da9dd706bff0cd0ef7a12188c16d6bf00769063e617810114fd14d427bf03ff5fb53"
 
 RPROVIDES:${PN} += "brltty-driver-xwindow \
 libbrlttybxw.so"

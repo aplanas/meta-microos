@@ -7,11 +7,12 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python311-gsm0338-1.0.0-2.3.noarch.rpm"
-RPM_HASH = "0ceed03830732b3075015c33dc8da194ba4da110d5804bed83e0225ef91db2dc82214f88868eda8745a6110b210a05c091d0f10e009e36ef1c3b0b7f367ff7a2"
+RPM_NAME = "python311-gsm0338-1.0.0-2.5.noarch.rpm"
+RPM_HASH = "612a0fa0bed123d1889247e01c28da98f7fbc7742a3126d6434894453972d492368b8da79c13c05f8a5ac23a68aaf14bcc9d0169325e0ddd9eda169cdde615f9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-gsm0338 \
+RPROVIDES:${PN} += "python3-gsm0338 \
+python3.11dist-gsm0338 \
 python311-gsm0338 \
 python3dist-gsm0338"
 

@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.1.14"
 
-RPM_NAME = "xdm-xsession-1.1.14-4.1.aarch64.rpm"
-RPM_HASH = "2650bfa340cb2cc88ba3f21ce358c2ce0eb09fab5379020a746f1420b1a462665423a308ca974f43fb21541f4172f62bb3ff936faf65d0380e7a9409532e7dd4"
+RPM_NAME = "xdm-xsession-1.1.14-4.2.aarch64.rpm"
+RPM_HASH = "512ebe8d5c0ec61a8e284ce4bce57855a15b4a849d7d85de760c6b9131ecbc1ea5af04ec9ab8fa576127eee2f9aa3366dc813e5ee572994f4da44404ec05e368"
 
 RPROVIDES:${PN} += "xdm-xsession"
 

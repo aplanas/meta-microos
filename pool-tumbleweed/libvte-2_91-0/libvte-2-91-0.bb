@@ -4,10 +4,10 @@ use with GTK+ as well as handling of child process and terminal \
 emulation settings."
 LICENSE = "LGPL-2.0-only"
 
-PV = "0.72.1"
+PV = "0.72.2"
 
-RPM_NAME = "libvte-2_91-0-0.72.1-2.2.aarch64.rpm"
-RPM_HASH = "507176260d8efb774007637890f65bc3444aaa54cb778e49cc7001f8391035db001a19961d15eea79f8a3a81c57ebc4e2d71c09071e3caf3ca05e0aa5e9c63b0"
+RPM_NAME = "libvte-2_91-0-0.72.2-1.1.aarch64.rpm"
+RPM_HASH = "8631aa71ebe901effad547b33dcc841f0fd9a1071673b3a43afa138e9e73bb4a613b4d97010e31002fb3f3c816df9013203290827f6b96f17c5abc3b30cdf09c"
 
 RPROVIDES:${PN} += "config-libvte-2-91-0 \
 libvte-2-91-0 \

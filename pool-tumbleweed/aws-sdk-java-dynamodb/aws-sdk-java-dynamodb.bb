@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0 & SUSE-Public-Domain"
 
 PV = "1.11.3"
 
-RPM_NAME = "aws-sdk-java-dynamodb-1.11.3-7.8.noarch.rpm"
-RPM_HASH = "4ef4c69879e3170d90f3022296b04807ab2b47c80c58a770bcc3be219023494620165cb8dc322c4f3926dbd1b264c677a84864ff29a1e4f292180f259d58fade"
+RPM_NAME = "aws-sdk-java-dynamodb-1.11.3-7.9.noarch.rpm"
+RPM_HASH = "f23fcc57a78bb9dc9c51a60e345e3e73802ec9bd4edd3b827ec186222ac1c439007a398748039322ab16fc88ec70800a9e64370126b0eceb0314ec5a7c6425ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-dynamodb \

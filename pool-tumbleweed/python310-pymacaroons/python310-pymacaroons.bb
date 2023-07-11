@@ -14,12 +14,11 @@ LICENSE = "MIT"
 
 PV = "0.13.0"
 
-RPM_NAME = "python310-pymacaroons-0.13.0-4.6.noarch.rpm"
-RPM_HASH = "c68566ea3ffee1f4ce4895fd3294c37f375889d479921a9c50ddd0993272beeaf17b8a03a51f59ff7d4661e4a51c3fd644307a597c001e8f240f7c455d6d5e7e"
+RPM_NAME = "python310-pymacaroons-0.13.0-5.3.noarch.rpm"
+RPM_HASH = "41f3581815c2d914bbfa77940e30bacf79889f4965ebee9dd33e44e55e408e640406d295995bc2f9ac5ec1d143c117fc6d63404e6ead5bf2a589d3d39b9b6bbe"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pymacaroons \
-python3.10dist-pymacaroons \
+RPROVIDES:${PN} += "python3.10dist-pymacaroons \
 python310-pymacaroons \
 python3dist-pymacaroons"
 

@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.0.1"
 
-RPM_NAME = "libbssl_wrapper_lib0-2.0.1-1.9.aarch64.rpm"
-RPM_HASH = "2d6c49117230b36abd3a19f4156bc6729b706f663c6e674c34acee58d598c140a788a4262e75cda771c69b63dc0499385f96a0dd96e98be8a230068a0c98e8a0"
+RPM_NAME = "libbssl_wrapper_lib0-2.0.1-1.10.aarch64.rpm"
+RPM_HASH = "f1b6aa94d47d0954da978760ff03111c3083dde159e50df1a9cfb4bebcc78b88cb2b8ba151aa7a6b33ece2738332fee0f3437c105d279d2c8d14b3accc4b0706"
 
 RPROVIDES:${PN} += "libbssl-wrapper-lib.so.0 \
 libbssl-wrapper-lib0"

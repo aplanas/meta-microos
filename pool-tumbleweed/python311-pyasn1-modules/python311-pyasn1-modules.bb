@@ -7,11 +7,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3.0"
 
-RPM_NAME = "python311-pyasn1-modules-0.3.0-1.1.noarch.rpm"
-RPM_HASH = "02bca3da2ae95e6a511b3151a27575ed6d3c1041b665ee8cf7fb1b2e80ff24a5104427cb45d98604a635f00009c82c6bd9113b3664e23bbe794b7022e282c07f"
+RPM_NAME = "python311-pyasn1-modules-0.3.0-1.3.noarch.rpm"
+RPM_HASH = "46582f6e20cafd4d335ae604d5cdd6600166064ed13d1965d7ae15d06f002e0795a92a9ed56e01d53e70d98b6b6fc87a7152d0ea9fb9bba19ad4cc627ae9144d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pyasn1-modules \
+RPROVIDES:${PN} += "python3-pyasn1-modules \
+python3.11dist-pyasn1-modules \
 python311-pyasn1-modules \
 python3dist-pyasn1-modules"
 

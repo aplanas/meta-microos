@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "9.4.0"
 
-RPM_NAME = "python39-libvirt-python-9.4.0-1.1.aarch64.rpm"
-RPM_HASH = "2d121364ec120b1fd381c1e13a2c593be20ed8f008eab1ef4593b85169f5f5d9a2ce7449a56e655f597e83f447a7080675a9f4777a0378c93c82d616c66e7653"
+RPM_NAME = "python39-libvirt-python-9.4.0-1.3.aarch64.rpm"
+RPM_HASH = "587f93f5c3f9f517346661a49e5ba60ea55c627d2b6a0891743b3c9a14b959b1819a05005ede2f1de11df797acd5ba0b0752d9066efd266ef93873785dd8f680"
 
 RPROVIDES:${PN} += "libvirtmod-lxc.cpython-39-aarch64-linux-gnu.so \
 libvirtmod-qemu.cpython-39-aarch64-linux-gnu.so \

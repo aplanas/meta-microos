@@ -5,12 +5,12 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.2.3"
 
-RPM_NAME = "menulibre-2.2.3-1.7.noarch.rpm"
-RPM_HASH = "a2f828866e8dcfb9b0e6aa61b03e221014e120f7ceff4ba778d0c23235a659b9e177c98b56101958ecdf70c938d4ca6ec4fe4acf5a0223dba5098b227d54b429"
+RPM_NAME = "menulibre-2.2.3-1.8.noarch.rpm"
+RPM_HASH = "4a8ae04be3a3f0afec043ad6619dbed858fdc25a68dcacfd61de7c18a0635c016ef6dff46ab5d7b27172a1c33de91afe9266f8838891f9af14e7cd082a30ac08"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "menulibre \
-python3.10dist-menulibre \
+python3.11dist-menulibre \
 python3dist-menulibre"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

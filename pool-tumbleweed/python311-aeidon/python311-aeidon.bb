@@ -7,11 +7,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.12"
 
-RPM_NAME = "python311-aeidon-1.12-1.3.noarch.rpm"
-RPM_HASH = "43cbb2bcb777d13827851ad913eaaa5fa01a3a7e4408758336cfd608f7fee3e90dc89c3ec57beeaff497eeb41f17aaf2f8ff651f06db07bdfab8dc876b3c151f"
+RPM_NAME = "python311-aeidon-1.12-1.4.noarch.rpm"
+RPM_HASH = "d0cac5ed4eb67139457c94d56c76325593ce4edbb69a1e7ef15126ecc3159f86582c32f25d8b35130c6f5b55637978981aa51c50b81c8701ebfa16e79b9dcdb7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python311-aeidon"
+RPROVIDES:${PN} += "python3-aeidon \
+python311-aeidon"
 
 RDEPENDS:${PN} += "python-abi \
 typelib-Gspell"

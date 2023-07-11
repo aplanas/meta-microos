@@ -7,11 +7,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.6.2"
 
-RPM_NAME = "python311-queuelib-1.6.2-1.8.noarch.rpm"
-RPM_HASH = "c57f2b0a729f917db0619a43fe89ec3613e1b0bb6a4b01d4fedbd129f6a179d4f001aba4add327f44405a082ad798a6c235675f2de3df18d79675e8a094b85f1"
+RPM_NAME = "python311-queuelib-1.6.2-1.10.noarch.rpm"
+RPM_HASH = "e1c243365d82820774e80c9aede5b28ea9dde3924146903ac1f72d7668261c31f0da02918abf7082335912e663952e0b5a37447de82a0b6451f9afc15f006e63"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-queuelib \
+RPROVIDES:${PN} += "python3-queuelib \
+python3.11dist-queuelib \
 python311-queuelib \
 python3dist-queuelib"
 

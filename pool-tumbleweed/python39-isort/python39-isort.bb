@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "5.12.0"
 
-RPM_NAME = "python39-isort-5.12.0-2.1.noarch.rpm"
-RPM_HASH = "a997041ae01ecf7cdfb16a5ff2eb7745cfbf67ba444379f342d7195af987dd36f3eae4f114557d83ac08231aa52f77610ff9abeba3c694aea1f69a554e256ea9"
+RPM_NAME = "python39-isort-5.12.0-2.3.noarch.rpm"
+RPM_HASH = "1ef20fdd67b08e0828764a4de7963668e0f5cf773bb28d13c8e1f092cb3c9d187652a3af45b72163ae9c52269a27393c5d23d0fcbb7965e7ba5fe908b3a34abf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-isort \

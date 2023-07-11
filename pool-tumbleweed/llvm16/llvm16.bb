@@ -7,10 +7,10 @@ The compiler infrastructure includes mirror sets of programming \
 tools as well as libraries with equivalent functionality."
 LICENSE = "Apache-2.0-with-LLVM-exception & NCSA"
 
-PV = "16.0.4"
+PV = "16.0.6"
 
-RPM_NAME = "llvm16-16.0.4-1.1.aarch64.rpm"
-RPM_HASH = "fcaf77e406ae87ae0c7296d7a6ae852cd7141cc61ee42c69b79b72a925c0ab2ab72199eeaf95f1d1e6c01e36dc576c92aa85b9a74b9e0c81d80c1d09d1350137"
+RPM_NAME = "llvm16-16.0.6-1.1.aarch64.rpm"
+RPM_HASH = "bf49448c601d329d70e0bbc2d1054a378b2605593a287e4c38242ce630343b252a684fd4fe73ee277cfdc7a96b4421e78364b58bf684c5bd46c366d09f3f984f"
 
 RPROVIDES:${PN} += "llvm16"
 

@@ -6,11 +6,14 @@ LICENSE = "MIT"
 
 PV = "1.3.6"
 
-RPM_NAME = "python311-PyQRCode-1.3.6-4.1.noarch.rpm"
-RPM_HASH = "929d928d6a74bace706a2e3a4d629876d9d9618da9dcbea5a421f4656631f352c718b94135d46aa2179e3f7c3c0aefa1b621cc4ddf5b6f88cd9163f0591735fc"
+RPM_NAME = "python311-PyQRCode-1.3.6-4.3.noarch.rpm"
+RPM_HASH = "1ed534e9eae42a149756f138eb9e837ffa7839c6ef29708c3c854f3d4fdac2ac33972f9f9f3f9f3dc503fa7079f091a6322c211e50d17e982b9de32d7f5efcfa"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pyqrcodeng \
+RPROVIDES:${PN} += "python3-PyQRCode \
+python3-PyQRCodeNG \
+python3-pyqrcodeng \
+python3.11dist-pyqrcodeng \
 python311-PyQRCode \
 python311-PyQRCodeNG \
 python311-pyqrcodeng \

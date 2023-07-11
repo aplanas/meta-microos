@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.3.0"
 
-RPM_NAME = "lxqt-notificationd-1.3.0-1.1.aarch64.rpm"
-RPM_HASH = "5fc851a67b5b8a3e6825c77b9744e338f9cb0b8656c2985736fc19811d0bbd98f06022464ffb6c8b993a533c02615e4a552acf5f604793983ad46da58ad5ec6e"
+RPM_NAME = "lxqt-notificationd-1.3.0-1.2.aarch64.rpm"
+RPM_HASH = "98549c4ec3dfff1e7b929a43f8eddc509ef324e1e9d5cc574494e22b9797d3a6655551892d74f700e31882c6c1a8db6977e011d85ce1c2a35bf436069d4e9a41"
 
 RPROVIDES:${PN} += "config-lxqt-notificationd \
 lxqt-notificationd"

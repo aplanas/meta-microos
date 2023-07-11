@@ -12,8 +12,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.9.1"
 
-RPM_NAME = "python39-versiontools-1.9.1-14.17.noarch.rpm"
-RPM_HASH = "3943cdd010d76280d8e8c75a9a31efc5ab25de99fe4d9530c2f1ce9a7e76563c722e18cbe7506078f584009772e31606986defabb35e9068cfd7535b0d1afb83"
+RPM_NAME = "python39-versiontools-1.9.1-14.18.noarch.rpm"
+RPM_HASH = "2c77083f9349357bf390f24110f26a1891d4ce817e0939fdfad4b0e9390d955d2ea31226a996c27d8d581aa29cf61d68fbe29a7a43e01bbde9d5284e8e880010"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-versiontools \

@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.19"
 
-RPM_NAME = "gnuastro-0.19-1.10.aarch64.rpm"
-RPM_HASH = "7e5d6060a3bd1e8f32b9c94ff49ffd67be17a13b0eea1c8cb3d8a15eb0907ac9cfa56f3e1f8bec22d73d65a491ee218ab2a264073b1324985974cc13dec7e934"
+RPM_NAME = "gnuastro-0.19-1.11.aarch64.rpm"
+RPM_HASH = "40072e926337fa0e08081e952d713a1f7b6017f0f406717a1f84eddb715f202e94a29374f2dfbe88695ca51982e97487ee8fed8ec2dc39aad029d620ebe6be20"
 
 RPROVIDES:${PN} += "config-gnuastro \
 gnuastro"

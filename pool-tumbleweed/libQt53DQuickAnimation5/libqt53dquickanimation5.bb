@@ -5,10 +5,10 @@ This Qt 3D module contains functionality to support near-realtime \
 simulation systems."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libQt53DQuickAnimation5-5.15.9+kde0-1.1.aarch64.rpm"
-RPM_HASH = "0617942b83fd01efbc830a492c381b3dff6fc3c73b350e1bdaa48b2266d3f05213068d2e65428c78b7250a8a1aa43c3e05fd7d5419bfb2bd2ac6444a5cfd92d0"
+RPM_NAME = "libQt53DQuickAnimation5-5.15.10+kde0-1.1.aarch64.rpm"
+RPM_HASH = "8a8f5cb8f96defdf7771476e60a2c23e490825076af083c4eb70a5ab64bc929c9e3286d3effa32ede6ea937c44b76f3bf5dedab7f3e9cd99891e784e70aaecff"
 
 RPROVIDES:${PN} += "libQt53DQuickAnimation.so.5 \
 libQt53DQuickAnimation5"

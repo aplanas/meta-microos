@@ -13,8 +13,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.8"
 
-RPM_NAME = "viewnior-1.8-1.6.aarch64.rpm"
-RPM_HASH = "c8f24e38ea931d8415bdae0520a3e2817ddac032ca4ea7959c97553b1938efebd421e647a3f81f8bd07387f049e99df79d3d9b7a57c4cb3e7495cc518f0aaa1d"
+RPM_NAME = "viewnior-1.8-1.7.aarch64.rpm"
+RPM_HASH = "80b9480c8fba8abfa4f1522604a478dd3ff959f878e653223ad9dd063c0805b359c751688fddd6a538617badc07f3946112503be09f62da9376711cf1f32352f"
 
 RPROVIDES:${PN} += "viewnior"
 

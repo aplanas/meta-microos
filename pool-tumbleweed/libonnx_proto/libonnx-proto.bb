@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.12.0"
 
-RPM_NAME = "libonnx_proto-1.12.0-2.9.aarch64.rpm"
-RPM_HASH = "0f0d214622f2f698b76343f51b1ac5bcd43892a3aaf75ec1bf3f711a2d6b8d1c279d3fa63b8bd832ab281303f9abc52ea3144f59ce9477472af46d34aa6de446"
+RPM_NAME = "libonnx_proto-1.12.0-2.10.aarch64.rpm"
+RPM_HASH = "a63fdfa5e1a7ef801ffd449f1fbf1930ec82d14d3c9815bc580c3e7ba9af98ad46093560e98926fc72fd547b5a63051f64684d5df71c582ff6325d9467a64a98"
 
 RPROVIDES:${PN} += "libonnx-proto \
 libonnx-proto.so"

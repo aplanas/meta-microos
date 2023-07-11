@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "2.0.0"
 
-RPM_NAME = "python310-azure-mgmt-powerbiembedded-2.0.0-4.11.noarch.rpm"
-RPM_HASH = "ed1b78ce8d92dbd5b4aa706ad93417eda6774713de722e477277e4615a0dbe0d94d48b99e1f4782d4a35a1fece972abd4c10cebc6445eb30933bc50d320bb503"
+RPM_NAME = "python310-azure-mgmt-powerbiembedded-2.0.0-4.12.noarch.rpm"
+RPM_HASH = "75a846ef145dd14f124262f033d8a24c4808182043cab0fe3ef6b2da15399922705f6c69382e7ff83ec3afc36f372f06920088d2429f92b3d8397e7d971f2f84"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-powerbiembedded \
-python3.10dist-azure-mgmt-powerbiembedded \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-powerbiembedded \
 python310-azure-mgmt-powerbiembedded \
 python3dist-azure-mgmt-powerbiembedded"
 

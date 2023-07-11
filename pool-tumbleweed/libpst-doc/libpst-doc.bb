@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.6.76"
 
-RPM_NAME = "libpst-doc-0.6.76-1.3.noarch.rpm"
-RPM_HASH = "33427ff561cee25f8496537d62a9a4220eae7fe035d7cadebb08c957d0d97b86525672d0d4f54812f8bb41bddb79f211d602d57dd2e85bc29f4232589dae44cc"
+RPM_NAME = "libpst-doc-0.6.76-1.4.noarch.rpm"
+RPM_HASH = "206b3599ef5b02b95f0558c46a78e602cc5f908b9d7160515c52c4079acbcc44de2d55a7000836bd81c4220fb177e4de459b14dd3ada9c00d8b54e6af16a8836"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libpst-doc"

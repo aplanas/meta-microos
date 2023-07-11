@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.20.0"
 
-RPM_NAME = "ykpers-1.20.0-3.7.aarch64.rpm"
-RPM_HASH = "19e79150e3ac9a9f79360c1d060c6b2a5b9b10c922fc82a3e0901832fe344aa591ba1c9381639459e20efda3c7ef667d5accd29dce8a1afeb62d1ace9a9a1397"
+RPM_NAME = "ykpers-1.20.0-3.8.aarch64.rpm"
+RPM_HASH = "2d1bedc10bf7e192ba499f1d53ca23e862a4b838ee2020c7a30c5e940cd365f798d12eecef66d21100879021e5b2532aea022454382a66b8e7089d72a0d4736f"
 
 RPROVIDES:${PN} += "ykpers \
 yubikey-personalization"

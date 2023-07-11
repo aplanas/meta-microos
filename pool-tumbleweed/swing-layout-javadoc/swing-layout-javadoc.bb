@@ -14,8 +14,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.0.3"
 
-RPM_NAME = "swing-layout-javadoc-1.0.3-37.6.noarch.rpm"
-RPM_HASH = "78a2d0685aaad16bf191ffb8fb565175c141e84cea64e08ac43b11f3fdfc05e3ee7d88f830a72f33ffeef87b88d4b5cf049f42e91719cb4b261d509b17cead70"
+RPM_NAME = "swing-layout-javadoc-1.0.3-37.7.noarch.rpm"
+RPM_HASH = "3f65dc10d93e734d7aa06899788a3bf983545f0936d17757cb2f8afc844de3e6b506dbdccb99625c61701407448950fa34672dafb0078ab18dfe694636f34a33"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "swing-layout-javadoc"

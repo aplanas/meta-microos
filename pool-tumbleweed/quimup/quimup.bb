@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.4.4"
 
-RPM_NAME = "quimup-1.4.4-1.24.aarch64.rpm"
-RPM_HASH = "db58d31a0cffbcd7af788f0b0d10f968a35dd652e53d3413a98e92145b1fc5ef6cd5c2ea28eb776e3b6d4f85478cf620a1627863257e12e9ea59bb1eaa1fc91e"
+RPM_NAME = "quimup-1.4.4-1.25.aarch64.rpm"
+RPM_HASH = "e8f9bc74e2f7ca9a8d901ee6841a8e7f9f0f46e3957016e76d58133f61fede34a8d4ca7b490e57723d546b7b6798d967196310a95fb5df0fb75516f8147194ba"
 
 RPROVIDES:${PN} += "quimup"
 

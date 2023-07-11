@@ -4,8 +4,8 @@ LICENSE = "MPL-2.0"
 
 PV = "6.3.0"
 
-RPM_NAME = "python39-glean-parser-6.3.0-1.4.noarch.rpm"
-RPM_HASH = "8321c40532a98bcc4ccc9f7fa1d09ee5923f301f66654ef5556c2fb50f175038979db8a548b36fb84aee848642e50dca12c040328e4c4f73f4861111c4a018ed"
+RPM_NAME = "python39-glean-parser-6.3.0-1.6.noarch.rpm"
+RPM_HASH = "520a0915488a8d6f563f3c7fcda61ce3248689756aa96f5398adfa87b1fe6247819275b23189c7c9d0c53d5136df778f1866b06e61941cb455cb78067c6f512f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-glean-parser \

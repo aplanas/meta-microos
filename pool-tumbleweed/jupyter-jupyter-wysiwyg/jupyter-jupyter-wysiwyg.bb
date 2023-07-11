@@ -5,14 +5,14 @@ LICENSE = "BSD-3-Clause"
 
 PV = "19.10"
 
-RPM_NAME = "jupyter-jupyter-wysiwyg-19.10-2.19.noarch.rpm"
-RPM_HASH = "47a889d3d6a69c6113558068d3e5ce27d88f74f8edf313e84e2c82fb81910282b8f0d77019e7f6f885e03858da4afba9caeb517417bca2ae544487c4f213b0e1"
+RPM_NAME = "jupyter-jupyter-wysiwyg-19.10-2.20.noarch.rpm"
+RPM_HASH = "4f86923155c8e46549eaba2abb072d6a256368625dc485d1aae44b9ff8760793cc91625a1b86817a8f5ee49b03547ecfc4d9dad13d8f4435e8f4377e6bbb1f84"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-jupyter-jupyter-wysiwyg \
 jupyter-jupyter-wysiwyg \
 python3-jupyter-wysiwyg \
-python3.10dist-jupyter-wysiwyg \
+python3.11dist-jupyter-wysiwyg \
 python3dist-jupyter-wysiwyg"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

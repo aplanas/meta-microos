@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "3.1.0"
 
-RPM_NAME = "python39-xxhash-3.1.0-1.4.aarch64.rpm"
-RPM_HASH = "d9d7de431c8b691a10b4488dae6337813841d23bdc9b7013fd33fea99c151cfa062ff32fa8ac04e0b72bd9622be60f65c3e965fc932b17300f9b0bc00ea134c8"
+RPM_NAME = "python39-xxhash-3.1.0-2.3.aarch64.rpm"
+RPM_HASH = "3b4e2502e74a928377b7a1644610c1b0b7da0b2dc5da3b6b6b0501dd75cd5035c5cc17069ac98d89904dd44f791e602024a791b8374876ad54c41aee918a3144"
 
 RPROVIDES:${PN} += "python3.9dist-xxhash \
 python39-xxhash \

@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides Linux kernel headers for i386, the kernel A
 required for compilation of almost all programs."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.3"
+PV = "6.4"
 
-RPM_NAME = "cross-i386-linux-glibc-devel-6.3-1.1.noarch.rpm"
-RPM_HASH = "01ef865b0ac5cc2d187467bea566ce867a350215cdd0d7a6b68c296c94e5cbbd821b8c8d50bfd0971172b56a88634bd94225b0a95a334cedd8e22fb3a0ceb1f0"
+RPM_NAME = "cross-i386-linux-glibc-devel-6.4-1.1.noarch.rpm"
+RPM_HASH = "4b51e7711c0f599be119e0e4b566c0ea85e20f634688290721f1ba14051799e192d1350a31b0039da3e5182c88a793ad474b9c9116fbcee8cbd2902e7ad5fcb5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cross-i386-linux-glibc-devel"

@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "0.0.4"
 
-RPM_NAME = "libcamera-base0_0_4-0.0.4-2.3.aarch64.rpm"
-RPM_HASH = "041c4604685c179264a91b33a036f53116fa026dfd3f478252ac89464afc0fabe8f78f04be01886ffa60f6441ec3772633da71569e9120a1b3a3a37caf9c60b3"
+RPM_NAME = "libcamera-base0_0_4-0.0.4-2.5.aarch64.rpm"
+RPM_HASH = "08150988ae0ae07eb3b92e30d7b323a8b3c7958c870eb0dfeacda48fea86cb515aede00aff3a571efe80723f16689e932f2b733982aaa0f657b58eed8052b5dd"
 
 RPROVIDES:${PN} += "libcamera-base.so.0.0.4 \
 libcamera-base0-0-4"

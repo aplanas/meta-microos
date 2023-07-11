@@ -5,12 +5,13 @@ protocol and Cassandra Query Language v3. \
 A list of features may be found at https://github.com/datastax/python-driver#features ."
 LICENSE = "Apache-2.0"
 
-PV = "3.26.0"
+PV = "3.28.0"
 
-RPM_NAME = "python311-cassandra-driver-3.26.0-1.2.aarch64.rpm"
-RPM_HASH = "f4ecce91131dd631f75deb67619d90522ff25b732c46275b7c224be8d9c86153c83020f63bbe10b5a74af4f8c330557df9457cbb959f89f46992206bdf96c668"
+RPM_NAME = "python311-cassandra-driver-3.28.0-1.1.aarch64.rpm"
+RPM_HASH = "8ea16acc378b3bd0443e3c6184f34a5a8b0a45b8e203c67e41381d1faf0d3b574b9e65b725a37ef382aae7b79213601cc1e70ed8fcc4bb90d7cd569d37406116"
 
-RPROVIDES:${PN} += "python3.11dist-cassandra-driver \
+RPROVIDES:${PN} += "python3-cassandra-driver \
+python3.11dist-cassandra-driver \
 python311-cassandra-driver \
 python3dist-cassandra-driver"
 

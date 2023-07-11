@@ -7,10 +7,10 @@ code folding and a built-in PDF viewer with synctex support and \
 continuous view mode."
 LICENSE = "BSD-3-Clause & GPL-2.0-only"
 
-PV = "5.1.3"
+PV = "5.1.4"
 
-RPM_NAME = "texmaker-5.1.3-1.11.aarch64.rpm"
-RPM_HASH = "b2bfd8a6ad85faf73e65311b5c9db09115c77bb1cf53546aa2c2750aca5e0e9f67cd73a69cce7b0dd9ee3af20e54b2edf74ef98afb0cebfeaf6432f6f2200f4a"
+RPM_NAME = "texmaker-5.1.4-1.2.aarch64.rpm"
+RPM_HASH = "63a2c306dc6e351431e68024e0cf4a74c0355e4a08ae062dd165c8caf23eaaf6c7792a6c9bd850c367e39d419ab366cf04a9e6fc5c1f0e924a2df23a100014cc"
 
 RPROVIDES:${PN} += "texmaker"
 

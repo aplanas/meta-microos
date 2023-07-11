@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "3.1.2"
 
-RPM_NAME = "xbase-3.1.2-1.23.aarch64.rpm"
-RPM_HASH = "97f0ccee4acdde06ae1bdb5e1797a66cad8b740c06adabbbea979f003597fd1023eb1b894c91244f5544a2f3b9bde8453fbb7c14afa7400b24833506c437ce8f"
+RPM_NAME = "xbase-3.1.2-1.24.aarch64.rpm"
+RPM_HASH = "6f801bca8e0701c17e74d281715ee1be5d2627b5382c4a75ed6af6cbe389881a46a1f36ab8fbd98e45cb460d28c20134ed697f2b7d8a9cd689dfab390ce398af"
 
 RPROVIDES:${PN} += "xbase \
 xbase64"

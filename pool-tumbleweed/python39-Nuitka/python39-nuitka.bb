@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.4.5"
 
-RPM_NAME = "python39-Nuitka-1.4.5-2.1.noarch.rpm"
-RPM_HASH = "8b435a239d3f394aad4c3b7e14b39b6ce0e07434e69506667112dfe515a54432371dc427dfe61c0b63ca739d716ad6feefcf75bb7b4937764f9c8a9861ec5c92"
+RPM_NAME = "python39-Nuitka-1.4.5-2.2.noarch.rpm"
+RPM_HASH = "9007c35ad0247a9e1e8d5d325f89b25c56aaeceda02e670020d14b9a5869dd8a223653cd788fc23d5c16ecdad59e6476691af70e8719cad9c3ad44f36ac1c414"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-nuitka \

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "3.0.0"
 
-RPM_NAME = "python39-pyVows-3.0.0-2.13.noarch.rpm"
-RPM_HASH = "1ff10dd080a270f8d4c6b43268f9f5d703d72cea60458953cb2dbfa7908bcf9a932b4988e384f83687f1ee577d273decbf99790a7a56d93f7365627522ec5862"
+RPM_NAME = "python39-pyVows-3.0.0-2.15.noarch.rpm"
+RPM_HASH = "8478779b48dd134e6887b4c841d1a4203696ff040a3aac164be9b47be222b989585fc0b6b522b5b136cab9c6fb2e2d4ebcd47f774d588f5ea69b0014caf5d9ee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyvows \

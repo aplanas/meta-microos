@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.6.3"
 
-RPM_NAME = "libexempi8-2.6.3-1.3.aarch64.rpm"
-RPM_HASH = "dcc66cb6c9e5afbe43bfdbd32f4b64f117f624d3238d0139fe1ab49565bafbf922c927f9fe318b86d2ad50d3343d633632beb52b8adcc46aa07a9ccb0a13769f"
+RPM_NAME = "libexempi8-2.6.3-1.4.aarch64.rpm"
+RPM_HASH = "0a0161b1117b2b872e7f7068d9b78faa3fc0a38c1b58fbdf1e27982eecf6a449da501e70c3bf58303e1af80aae8c733d493e93cc1d53d19c4066ec8f4ddd036d"
 
 RPROVIDES:${PN} += "libexempi.so.8 \
 libexempi8"

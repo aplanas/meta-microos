@@ -27,13 +27,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.16"
 
-RPM_NAME = "perl-Carp-Always-0.16-1.16.noarch.rpm"
-RPM_HASH = "77009fd0945e1502d3d60b9d30c76d9703c338b46650a1aa0f8ca71e2b586138ffc4ebae557b729b5d073adab22094bf87002fda832bbdd07c78f886664f5de1"
+RPM_NAME = "perl-Carp-Always-0.16-1.17.noarch.rpm"
+RPM_HASH = "55182925b0fb0778f683e0fd78071e44ab055822e8d2b5ad633b7070ea48e3f3f3c764b49cc8be24e3ea149aac4f5a84ab3827086c8566be48ce55ca14f0eb15"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Carp--Always \
 perl-Carp-Always"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

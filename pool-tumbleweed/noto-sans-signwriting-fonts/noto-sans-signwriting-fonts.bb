@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-signwriting-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "305ad3d470dfab1f8d6da254f46807696d600a11d471b05bdacb99490b4b4cb04ea1386c3018677372f42681d812a845caa4295861e4a1d4639590109021e3e6"
+RPM_NAME = "noto-sans-signwriting-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "dc250fb24988af82bfe3ce8664f79be6eed0cfa1803b4003bafd57ac3d8150dbf64f99dcbef0fed4c5b9a7211ec2242d6ad997380bda46a75524e1c31280030e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-signwriting \

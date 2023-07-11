@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "24"
 
-RPM_NAME = "media-player-info-24-1.9.noarch.rpm"
-RPM_HASH = "547d277be641f71984da57082b34b5dfd136213dd280c07c7b519a9911643af900fd76a6dcd54536dd9f16598ed9a5688be05628292f21d901829e4aba06c04a"
+RPM_NAME = "media-player-info-24-1.10.noarch.rpm"
+RPM_HASH = "8e88eabd423eb6d3031e1c501c5519d3f3704c84d817c4de2d335ad9b2b0a49af24e39d56fbe61be45d2a62deb7cf08f9ac2cfc591ddd52e9e86e9fd3e9648d3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "media-player-info"

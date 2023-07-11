@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "2.0.0"
 
-RPM_NAME = "python39-azure-cognitiveservices-search-entitysearch-2.0.0-2.11.noarch.rpm"
-RPM_HASH = "12c11e9b8818e487a34b3b25ba51cebd37757528d1b765586aa780e55f24ab804519dd1a8813407e507ea826f260a124d154b7b21ce3d5d9e529f11c269c8bde"
+RPM_NAME = "python39-azure-cognitiveservices-search-entitysearch-2.0.0-2.12.noarch.rpm"
+RPM_HASH = "ffb36b44105ce759a6b90d7a6bb2be37d68010b652f58e386320cf11e7159969b615568ae5e387aac6d64cae91e5d49b99b80edeefddf0b7b3209d9f1642a2bb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-cognitiveservices-search-entitysearch \

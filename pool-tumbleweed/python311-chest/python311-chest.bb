@@ -8,11 +8,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.3"
 
-RPM_NAME = "python311-chest-0.2.3-4.6.noarch.rpm"
-RPM_HASH = "6e1f9723a0df61a29f09811e3e035ddde046cb58f982318034527c8431c56b76087d4f48f6269a596baefe1876a8ad74893cd37d0a7e256e2598194b4439e71f"
+RPM_NAME = "python311-chest-0.2.3-4.8.noarch.rpm"
+RPM_HASH = "bd0f8146c9f3775eba993b03987d66bb1f769f54616640b48c9c1f7e87be50ff81d1d16c07e2fa0ad4603b116cbefba8a18246835995b81136cf0d544989aca4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-chest \
+RPROVIDES:${PN} += "python3-chest \
+python3.11dist-chest \
 python311-chest \
 python3dist-chest"
 

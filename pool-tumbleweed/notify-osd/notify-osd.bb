@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.9.35~bzr20191129"
 
-RPM_NAME = "notify-osd-0.9.35~bzr20191129-1.15.aarch64.rpm"
-RPM_HASH = "ee6fbe17570cb787b11cc519c6129f0bb9def2c655be07aade8b18c67016db596abd4232b88827d89701cad8737c441b8aacb6f98fc41f6e7771447c9fc0ce30"
+RPM_NAME = "notify-osd-0.9.35~bzr20191129-1.16.aarch64.rpm"
+RPM_HASH = "7c752a08ac8d0833ec7495dcdce8c72aa52a7dd9e05c42ff588b1273755760b61d39a7a6dfefd8135878550572e2cd87eec369a7df26a03f5f3c359feb1dd089"
 
 RPROVIDES:${PN} += "dbus-org.freedesktop.Notifications \
 notify-osd"

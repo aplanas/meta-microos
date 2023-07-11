@@ -5,10 +5,10 @@ is not an official Mentis class, merely one developed by an \
 author in close co-operation with Mentis."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.5svn15878"
+PV = "2023.208.1.5svn15878"
 
-RPM_NAME = "texlive-mentis-2023.201.1.5svn15878-52.1.noarch.rpm"
-RPM_HASH = "4c9097ef1cf54ec1d4c05251e9f5c614600be7c4a3a96b91d7e465af502c148c843fdfeebc4e00499bb4aede9b8ffa9a15dbf4c98138b447e2ff6a0df2e820f9"
+RPM_NAME = "texlive-mentis-2023.208.1.5svn15878-53.1.noarch.rpm"
+RPM_HASH = "9359ab809203c6c7b19357b734056e1ba3e13364b46f0ab76ee358149350ba21de4cde1569cf4f4b0ad9ab489b2c2dcdd34bfe5df02cb33dfdab3217db3c85ba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mentis.cls \

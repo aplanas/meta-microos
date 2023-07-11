@@ -9,16 +9,16 @@ LICENSE = "MIT"
 
 PV = "5.3.0"
 
-RPM_NAME = "python310-rpyc-5.3.0-2.3.noarch.rpm"
-RPM_HASH = "59ceb0cc472b55995269fae6270149956a7c2e421763ac6e8aa343aa2a851965ac8a8cb2603e05141e626cb69cad182a3ae739d8f54cde25b8961ee0fc2b4884"
+RPM_NAME = "python310-rpyc-5.3.0-2.5.noarch.rpm"
+RPM_HASH = "1ef534cadff7333f7a5336e5c58e7e9e3e0bc1763fe89de7f1c516983c7259f49a95182ec22496ae0acd5120f4e54431f8c6f95616a872dee913a8fa181b9706"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-rpyc \
-python3.10dist-rpyc \
+RPROVIDES:${PN} += "python3.10dist-rpyc \
 python310-rpyc \
 python3dist-rpyc"
 
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
+/usr/bin/python3.11 \
 /usr/bin/sh \
 python-abi \
 python310-plumbum \

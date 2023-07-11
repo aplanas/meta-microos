@@ -15,10 +15,11 @@ LICENSE = "MIT"
 
 PV = "1.7"
 
-RPM_NAME = "python311-crcmod-1.7-8.4.aarch64.rpm"
-RPM_HASH = "04c39b476b11323c8ed59db6885bd9a61f16f6dfdba1725603a41ef368179c3d2589dee6b331d749517eb787fa2fefb346de6247a2c1c0ae82ecad1e5620d54d"
+RPM_NAME = "python311-crcmod-1.7-8.6.aarch64.rpm"
+RPM_HASH = "5b18be2458a63842de12a8b435424426034545804c88e4bc5db2107e5c869b56bb401710e4057e1b7978341ad927c1dd543be38f25ce299d81ad43aaa68f5202"
 
-RPROVIDES:${PN} += "python3.11dist-crcmod \
+RPROVIDES:${PN} += "python3-crcmod \
+python3.11dist-crcmod \
 python311-crcmod \
 python3dist-crcmod"
 

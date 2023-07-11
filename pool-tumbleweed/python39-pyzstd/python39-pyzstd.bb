@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.15.6"
 
-RPM_NAME = "python39-pyzstd-0.15.6-1.1.aarch64.rpm"
-RPM_HASH = "70504890461520b8f1e5d802e474db3ff7b7fd584520e829457d7253f6e2bf3afa26c9b69cbb08e84b34919889c284afd73ca884e3e91c46fdeab45fa5bd9e02"
+RPM_NAME = "python39-pyzstd-0.15.6-2.1.aarch64.rpm"
+RPM_HASH = "49036fcba207b130dba1fd02423acf7b307b0ec0157a1411097d030d8d90aa2840afa46a28ebe0fb8b90ef152df7f8b10d2fdefdea284ebdb4851e2bcecbca83"
 
 RPROVIDES:${PN} += "python3.9dist-pyzstd \
 python39-pyzstd \

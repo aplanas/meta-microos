@@ -3,10 +3,10 @@ DESCRIPTION = "This package allows KDE applications to show thumbnails \
 and previews of po files."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kdesdk-thumbnailers-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "233deff3db566796b3315a855038579161712826ff0de84e89b8c5c679e11583547755de2d3ab2c8898a0f99a1a34f94077d46c949fe269b4f1e326f4244a22a"
+RPM_NAME = "kdesdk-thumbnailers-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "3c13589de9577c16db9acb47cb7e6afa53fcee635a08a70cafc43731240cb51e2d9b0ff52cdc99dfdf71378382ecc937384b95f12dff242d9f48db1159aa13aa"
 
 RPROVIDES:${PN} += "kdesdk-thumbnailers"
 

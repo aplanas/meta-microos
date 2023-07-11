@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "4.5.7"
 
-RPM_NAME = "kustomize-fish-completion-4.5.7-1.3.noarch.rpm"
-RPM_HASH = "424257bb99d7b3b711b3241296ff3f66b3133ffc1e8bd9acbc2a3bae9ad715a3e5e13f0202af2dee153dac0eca164a9cf279b7c5ceda4cbae83a7e1b93072fdb"
+RPM_NAME = "kustomize-fish-completion-4.5.7-1.4.noarch.rpm"
+RPM_HASH = "aeab77c98c3c0570530a098832d2fc26b74fdf74f733466ccc1905b71e0427b06e6fbada4244fb993bac3ed6b978e483bb69387ad4790a9603a2c9c762f8cdc1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kustomize-fish-completion"

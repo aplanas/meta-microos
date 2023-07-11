@@ -4,11 +4,12 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.105"
 
-RPM_NAME = "python311-copr-cli-1.105-2.4.noarch.rpm"
-RPM_HASH = "debaf30a42abb39ecd0937f77c42ae328f731e4f771e5daa50c82007c46d4d0693a2f95952059fbf71dd029391cb1bfd527e3e9fe6e750b4000595f61a4ba06b"
+RPM_NAME = "python311-copr-cli-1.105-2.6.noarch.rpm"
+RPM_HASH = "fa9ef4efe4fe2123bcd3a01d95c2d41e9412e3a772b41edd363c6924d36c996b58654840006ef2187b26f34be8193b83f8d543aa9cede2e20778cfb47155e87c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-copr-cli \
+RPROVIDES:${PN} += "python3-copr-cli \
+python3.11dist-copr-cli \
 python311-copr-cli \
 python3dist-copr-cli"
 

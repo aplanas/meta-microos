@@ -4,10 +4,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "3.2.2"
 
-RPM_NAME = "python311-bjoern-3.2.2-1.5.aarch64.rpm"
-RPM_HASH = "21a40c0f81648e9385d228f72ac6b1340c2288b0be81a8b6752113b227cd86848fcfd18f60c557b42c3b8f70084ad24d8b26d93a1d8843f052b070c7eaf352b1"
+RPM_NAME = "python311-bjoern-3.2.2-1.7.aarch64.rpm"
+RPM_HASH = "28f5889db34f6890ef1d62475712f2fc1ecf33e3f686cf1343f56108f3d2ebe227dabea53501520aa9a4b8276dc6701fd317e48272e12d6ab92dbf2d8ba1e1ad"
 
-RPROVIDES:${PN} += "python3.11dist-bjoern \
+RPROVIDES:${PN} += "python3-bjoern \
+python3.11dist-bjoern \
 python311-bjoern \
 python3dist-bjoern"
 

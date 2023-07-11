@@ -6,8 +6,8 @@ LICENSE = "Zlib"
 
 PV = "1.5.1"
 
-RPM_NAME = "libOIS-devel-1.5.1-1.8.aarch64.rpm"
-RPM_HASH = "715088c963101fb0dbfeeee83b5108ead0e114b0348d0a471cded3e52a9bb6a54214fe89adfb510d79441682e468ea9de5d0411e6b09c10c01d12737f7507acd"
+RPM_NAME = "libOIS-devel-1.5.1-1.9.aarch64.rpm"
+RPM_HASH = "cb4739cb255485c3875805dc266b4d5c19067c2d88ac4a32c50400d52a9a6f8699caa86e831232189dbdd4e986fe7d6a2bbcf4850128cc8935c8fbb44bf207d1"
 
 RPROVIDES:${PN} += "libOIS-devel \
 pkgconfig-OIS"

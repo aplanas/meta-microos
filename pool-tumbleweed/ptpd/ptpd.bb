@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.3.1"
 
-RPM_NAME = "ptpd-2.3.1-9.11.aarch64.rpm"
-RPM_HASH = "6073d3cf398b5d2c0b0f4fbd2f354dc7b3f25f65d4dafede4925965985d0f93fa446d598234897dbf8a6aef416e81c2ce280d680b9f7ad2a7b83cf5b3b0c4177"
+RPM_NAME = "ptpd-2.3.1-9.13.aarch64.rpm"
+RPM_HASH = "e89abae79987741ccd6c150cb0b4cd56a04690f943e6248c4e5d84237582f7e26b95212b783ccfeb153fdc18a2c1c4d85d954ebd67921932eb47f9bfd0ca36fe"
 
 RPROVIDES:${PN} += "config-ptpd \
 ptpd"

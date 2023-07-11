@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.201.6.0.0svn58331"
 
-RPM_NAME = "texlive-gregoriotex-doc-2023.201.6.0.0svn58331-53.1.noarch.rpm"
-RPM_HASH = "e169dacdb46d38aa1964a594fe693f4617fa5116138c479e7fea5f6a2e7fdd2ee56bcd7daead718c305f2ee09dd265ad5494237f0c3d0ce1d7822f57048575ac"
+RPM_NAME = "texlive-gregoriotex-doc-2023.201.6.0.0svn58331-53.2.noarch.rpm"
+RPM_HASH = "81050c818e7c5842bb19cbd1d4e1190087789c4264736ca6d04d24bfdf8f1563eaf3c6fa7d575db6cbf13d11dc2e4b828b534d88a0d3a104cfe2e4f809c849c7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gregoriotex-doc"

@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.1.0+git.51~f9a6691"
 
-RPM_NAME = "joycond-autoload-0.1.0+git.51~f9a6691-3.6.noarch.rpm"
-RPM_HASH = "f413b81ed0928171451495596bac79f16ee24eb0ccbe7ef1c420f6c3211bd6d8dc3e1aeea90002c43cdca26b2f5bd6364b9003815f9e439f1e864ce9e070cafa"
+RPM_NAME = "joycond-autoload-0.1.0+git.51~f9a6691-3.7.noarch.rpm"
+RPM_HASH = "7b5b5e6d2c61123713767b822a345b526e0105caa6bb6d3638b308eb8ae753dfb2a193f148750deb0326ce702a64509423570f0fe6631eb620ebe8aff2ab70ba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "joycond-autoload"

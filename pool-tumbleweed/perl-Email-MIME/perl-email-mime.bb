@@ -7,8 +7,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.953"
 
-RPM_NAME = "perl-Email-MIME-1.953-1.1.noarch.rpm"
-RPM_HASH = "54ec8b085635cb71d0df184999d979c6e01cce9b7bb9950689ea0ad4e820aff503ce7849a77ae204b65b36393190518fad5853c9dae6ff6dd4ee3e32df75dda9"
+RPM_NAME = "perl-Email-MIME-1.953-1.2.noarch.rpm"
+RPM_HASH = "16d8c1351a16bd1f537e45e000fc2f91650cd2028ed38346871cd123b128e388c5f034bf6ed82afbd8260e354ffaee4910b1171018b7c01d272b4b054edce140"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Email--MIME \
@@ -19,7 +19,7 @@ perl-Email--MIME--Header--AddressList \
 perl-Email--MIME--Modifier \
 perl-Email-MIME"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Email--Address--XS \
 perl-Email--MIME--ContentType \
 perl-Email--MIME--Encodings \

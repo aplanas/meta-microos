@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.11.3"
 
-RPM_NAME = "libcelt-devel-0.11.3-1.28.aarch64.rpm"
-RPM_HASH = "892a3e7fc878e555468b502845d684609fbea33ff27198b525145e6c12019a9cb632162220be85126cc1959b3fbfbee42dab93c8920df686c0691f7a2af1fa8d"
+RPM_NAME = "libcelt-devel-0.11.3-1.29.aarch64.rpm"
+RPM_HASH = "cd75ee1a63eb82ea84516c777a440e247cf358dc19ffa0eee563255575976f180cacd421372b296bf5db0da19044f4ad6e3df12316946f8574f5fe444ae076fd"
 
 RPROVIDES:${PN} += "libcelt-devel \
 pkgconfig-celt"
@@ -15,6 +15,6 @@ RDEPENDS:${PN} += "/usr/bin/pkg-config \
 celt \
 glibc-devel \
 libcelt0-2 \
-pkgconf-pkg-config"
+pkg-config"
 
 inherit rpm

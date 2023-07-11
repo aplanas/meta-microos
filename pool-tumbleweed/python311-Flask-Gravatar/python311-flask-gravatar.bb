@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.0"
 
-RPM_NAME = "python311-Flask-Gravatar-0.5.0-4.8.noarch.rpm"
-RPM_HASH = "3ec675cf71c78414849623dc86749aa1b020d520e2061dba0d7719ee5771c0f20262dcb92012fad084fe421106227e67a2857be43b3ca85023e41e4a9647eb72"
+RPM_NAME = "python311-Flask-Gravatar-0.5.0-4.10.noarch.rpm"
+RPM_HASH = "d10efd96b939e07fca5bb80722685fc4b213d058e02ae74193b0288bac4326d1ac96e620dd031ff11122166611f82bffd4068b9c3802ed270c65659ad4bcc8f6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-flask-gravatar \
+RPROVIDES:${PN} += "python3-Flask-Gravatar \
+python3.11dist-flask-gravatar \
 python311-Flask-Gravatar \
 python3dist-flask-gravatar"
 

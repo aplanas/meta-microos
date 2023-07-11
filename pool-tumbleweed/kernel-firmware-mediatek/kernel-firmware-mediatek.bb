@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains compressed kernel firmware files for \
 Mediatek network drivers."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230517"
+PV = "20230620"
 
-RPM_NAME = "kernel-firmware-mediatek-20230517-1.1.noarch.rpm"
-RPM_HASH = "e3515584bcba903b65743788082b5e07845ae7f2dfd8084f24d160152f27b53908efb6486503ac68e2c1bacc7bb99328a5807c56056be60aff1aa0c018b56750"
+RPM_NAME = "kernel-firmware-mediatek-20230620-1.1.noarch.rpm"
+RPM_HASH = "1c2bbcdb5b0048103b2dee47ae4008661e3fa3cd1f323a982db1438643f5af5fd12d4fc78bb296d41c5b7f6ebbee16c9e4985d45431d7fbda999486a5114c61d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-mediatek/BT-RAM-CODE-MT7922-1-1-hdr.bin \

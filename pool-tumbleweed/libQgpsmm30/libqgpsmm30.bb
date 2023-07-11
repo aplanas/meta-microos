@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.25"
 
-RPM_NAME = "libQgpsmm30-3.25-1.3.aarch64.rpm"
-RPM_HASH = "1b6c3bb7ccd6919161529d13df47bbaad26d1a4b101f01ceba0371b5bdd93344fea09424b6dc1dc9c110f768bd701f0823021c3ffc5ee3607b3efde80c29e495"
+RPM_NAME = "libQgpsmm30-3.25-1.4.aarch64.rpm"
+RPM_HASH = "bbf8d801867fc8f18a0005faafeeb219963aa43b5744a28883f639b2c6b6b0bb9e4e9c5b617dc34c1a22edab37045adb3407a5dc3aa79af9d466701e055f8f98"
 
 RPROVIDES:${PN} += "libQgpsmm.so.30 \
 libQgpsmm30"

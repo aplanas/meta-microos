@@ -7,12 +7,10 @@ LICENSE = "LGPL-2.1-or-later | MPL-1.1"
 
 PV = "1.23.0"
 
-RPM_NAME = "python310-pycairo-devel-1.23.0-2.1.aarch64.rpm"
-RPM_HASH = "d263b48cbf0758abb13d53888086eafd50639126b8bee008cb7b0cd763faa04d3051763fecf42bca72effe35b20ed2ad5cfae50c6d81a8ccc6a1127dd65453c5"
+RPM_NAME = "python310-pycairo-devel-1.23.0-2.2.aarch64.rpm"
+RPM_HASH = "b45286e072bc0dde1050a8d8d87a595c0b3f2e86de41988f238a398d4fde4a9bcd40833d0b415b9c3e745e014ec7f6d0bf5e5dc56dc14c6bfd6201c69a23a34e"
 
-RPROVIDES:${PN} += "python3-cairo-devel \
-python3-pycairo-devel \
-python310-cairo-devel \
+RPROVIDES:${PN} += "python310-cairo-devel \
 python310-pycairo-devel"
 
 RDEPENDS:${PN} += "python310-devel \

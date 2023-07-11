@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "2.20.2"
 
-RPM_NAME = "gtk2-engine-redmond95-2.20.2-19.42.aarch64.rpm"
-RPM_HASH = "49b09bad9d1ab4f7ecef923d34d44cdbf4d174d60c153a6d42840ff75ad26e54ca7da7250b19cb294a20cdb404af8dceba49759332894c5b63164b2e43e8e791"
+RPM_NAME = "gtk2-engine-redmond95-2.20.2-19.43.aarch64.rpm"
+RPM_HASH = "c2aee28ba1e057d077e38bfab808cd959e088c9b18af916f8799002bf27d7e21992ffa1c68d5caf56621c7da88c3bd39cd7f98d8c17e2b12697900c4014c6a67"
 
 RPROVIDES:${PN} += "gtk2-engine-redmond95 \
 libredmond95.so"

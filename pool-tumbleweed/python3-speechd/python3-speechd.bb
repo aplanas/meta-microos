@@ -11,8 +11,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.11.4"
 
-RPM_NAME = "python3-speechd-0.11.4-1.3.aarch64.rpm"
-RPM_HASH = "6c88e5e0d03b31dca3bb51043bda123924c07bbec72acb4db895e189f09f4c73cc2b87c7d8bf7c09cc0365105adaaf109b4a010a180819df2a42eacbe90082e7"
+RPM_NAME = "python3-speechd-0.11.4-2.1.aarch64.rpm"
+RPM_HASH = "a9635d61d22b4260cd4cea2c39f9d3cc8fd313034b2b7413dd159c17453572bd97d2c4c5dd5c13f82b0bbd6fcad2827311cf6e7ddcb8e81cc3fb10f87598ffeb"
 
 RPROVIDES:${PN} += "python3-speechd"
 

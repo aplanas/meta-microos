@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "2.1"
 
-RPM_NAME = "libsignon-glib2-2.1-1.17.aarch64.rpm"
-RPM_HASH = "d3d338308b202c6922b01fbb11537614a6634ec77fa4f761a8878831e11762a6352216bfcfd088558409e435b6f52665f32773ee2561502d50566d9dd0b5e7dd"
+RPM_NAME = "libsignon-glib2-2.1-1.18.aarch64.rpm"
+RPM_HASH = "f95793c72f0d1d4bbf0dbcdd34995037dc83e6e92822cac562b0ac7ee964d2beb726f1f951e07146cb7e29d9046d55e5577807bdfc865e24bb037ec4f631b822"
 
 RPROVIDES:${PN} += "libsignon-glib.so.2 \
 libsignon-glib2"

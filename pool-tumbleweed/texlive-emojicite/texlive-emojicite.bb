@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.3svn55131"
 
-RPM_NAME = "texlive-emojicite-2023.201.0.0.3svn55131-53.1.noarch.rpm"
-RPM_HASH = "1b37f0ce4de1158e48b979506841aa01d3d9cd0dbd527555001be4621dea091fcdfb9a291fd234bccbaec7311bc3e79bdf2c34b6ee802e75177b70094e65deb6"
+RPM_NAME = "texlive-emojicite-2023.201.0.0.3svn55131-53.2.noarch.rpm"
+RPM_HASH = "de8807794eebd0a36e8ccfc9ca1ca2e73aa3517f9c4a99f6ae64630eeeb52a9baf2d36322c1607d3778e0ce99e758da2041c0739a82d7435156b10351573b38a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-emojicite.sty \

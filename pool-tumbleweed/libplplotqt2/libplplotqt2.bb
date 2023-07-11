@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "5.15.0"
 
-RPM_NAME = "libplplotqt2-5.15.0-16.2.aarch64.rpm"
-RPM_HASH = "1bb98c98f8ee7d9427905fba033cace6e47728a83bf4a49d038dd02e3181e495edce6d611346e4dbf0904def3c80c1d663bb1b00915cfb3c9e3ddd74a9f810e5"
+RPM_NAME = "libplplotqt2-5.15.0-17.1.aarch64.rpm"
+RPM_HASH = "8423d350fd581a342dbd83d43c227e91f5eb132d0ce663fc26bc871dc98dc499acb14ada35e3b2df2ff5e1851daf47585aa20dd9ef7f4ebc878d2257c3efc94f"
 
 RPROVIDES:${PN} += "libplplotqt.so.2 \
 libplplotqt2"

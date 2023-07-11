@@ -5,11 +5,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "9.0.1"
 
-RPM_NAME = "python311-aniso8601-9.0.1-2.1.noarch.rpm"
-RPM_HASH = "43d5e53b7f4d7650d486f32004a3dd684842eb948d51a9090cd03d0e222ef5ac452757e0bb2c9205b4cc46afd3f977086792742745f88942f8149edb0b4a4819"
+RPM_NAME = "python311-aniso8601-9.0.1-2.3.noarch.rpm"
+RPM_HASH = "774fbdb67d70a90445612fc4a36624702d15b0026857fb3ac15773f35eea59b579eefb735efb8e674a19e0459b209bd017e31f0654f97428b0fd9656512971ff"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-aniso8601 \
+RPROVIDES:${PN} += "python3-aniso8601 \
+python3.11dist-aniso8601 \
 python311-aniso8601 \
 python3dist-aniso8601"
 

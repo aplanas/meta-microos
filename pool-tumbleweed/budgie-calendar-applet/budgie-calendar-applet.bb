@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.2"
 
-RPM_NAME = "budgie-calendar-applet-5.2-2.12.aarch64.rpm"
-RPM_HASH = "34d28f2cc675edee27f212db07754de8a66cb1b9aa264b2e4792dbbf5163c475662dae853a93c384b3d4c210b959e758aaad448902cb6285ee5d7bae0412dc46"
+RPM_NAME = "budgie-calendar-applet-5.2-2.13.aarch64.rpm"
+RPM_HASH = "20560472a8302c61ce3e7f4614b787c0fb17c76e30f5ad49127c11e4b18b1a0a430f5b6170448d989da533637b29da6907fc1131c65d50a789965e07206a6cd2"
 
 RPROVIDES:${PN} += "budgie-calendar-applet \
 libcalendarapplet.so"

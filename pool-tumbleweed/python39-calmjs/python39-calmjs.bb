@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.4.4"
 
-RPM_NAME = "python39-calmjs-3.4.4-1.1.noarch.rpm"
-RPM_HASH = "c255736d7cacec9f9cb3dcd7816ef16ae50775b5ac84d6cca80e9ecc5003d09869d36aef8b11c630b8b59a4af855f915a2eb77dbcf210bd09a312cd419570079"
+RPM_NAME = "python39-calmjs-3.4.4-2.1.noarch.rpm"
+RPM_HASH = "4f2f13475fe54c08a5b10eee886e3b78c8e3c113cffa41be3158d54d200f8e377d756b2f18cc346e19e9f8c9521e757c8905c0674084842a05d68f9583d8795e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-calmjs \

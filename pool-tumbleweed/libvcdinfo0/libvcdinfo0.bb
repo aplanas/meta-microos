@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.0.1"
 
-RPM_NAME = "libvcdinfo0-2.0.1-3.11.aarch64.rpm"
-RPM_HASH = "e2f1e18822c7f6b45647b7865decd5adf6692cee1928bc47cf8ee6af4cd25d441dc270b32c5b8a83269dbdbd5ef0c4f9ce03c7c23a46d3c55ab93ae3eb11bd83"
+RPM_NAME = "libvcdinfo0-2.0.1-3.12.aarch64.rpm"
+RPM_HASH = "c3664b9c989e0a21af67e8a29e969f417a9d896851eaa88a9846ec1e5b74a7026ec83b7036df92317f8f9c28ea5204978b7e179a9ca9b70fb07d48b16b6da4d9"
 
 RPROVIDES:${PN} += "libvcdinfo.so.0 \
 libvcdinfo0"

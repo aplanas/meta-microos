@@ -19,8 +19,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.07.1"
 
-RPM_NAME = "bc-1.07.1-4.22.aarch64.rpm"
-RPM_HASH = "d1927b719a4a9b14cece5d3b77737847fac886e8c307a1dc0c79e6c4ddb862cf1ab95c645e9fd661bbd5d6fefbc81fabf4043bf8ffcd50d4e647f6b2f5aac015"
+RPM_NAME = "bc-1.07.1-4.23.aarch64.rpm"
+RPM_HASH = "a6b26e02af690eb593d1cbadf19cceaeb46056306de3a5a12719849e562fcb5743d399dfebacf4f2ca6202d1b4e2519b9e54df5654110623b9663b922d0866e7"
 
 RPROVIDES:${PN} += "bc"
 

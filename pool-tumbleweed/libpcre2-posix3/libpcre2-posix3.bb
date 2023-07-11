@@ -11,8 +11,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "10.42"
 
-RPM_NAME = "libpcre2-posix3-10.42-3.3.aarch64.rpm"
-RPM_HASH = "27b7cd03f900197fc683a58554dd68a814599745e40b8c4a5bb96728bf1899484b26c65f813bcbdfddbc7759bcd9588b886d07a24c82b79d433467cdce3c70b7"
+RPM_NAME = "libpcre2-posix3-10.42-3.5.aarch64.rpm"
+RPM_HASH = "731970de0da2cad44dfa08435605f7d1b871e18ad9c3971718486c89ddfb3ace7c4b7b3af1f7fc2be8c5aa56f6dbc2a46c48cd8ffaf42bee6d9bb300a99a0f29"
 
 RPROVIDES:${PN} += "libpcre2-posix.so.3 \
 libpcre2-posix3"

@@ -19,10 +19,10 @@ a series of classes to simplify the creation of many kind of \
 editing-related applications."
 LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.22.3"
+PV = "1.22.4"
 
-RPM_NAME = "gstreamer-editing-services-devel-1.22.3-1.1.aarch64.rpm"
-RPM_HASH = "c360bb8f93b4b838dcd716f3679b8f0230537f1a9019bc4cdebbee8fec46b005adb73f71b94583e91181fb642312630ccd3fa725ac02c479a7e9ca1c5c2b34d1"
+RPM_NAME = "gstreamer-editing-services-devel-1.22.4-1.1.aarch64.rpm"
+RPM_HASH = "cd7f8c59f6d462781299a928a1c1dd923133911e1ff84ab88cadfaf6157be22ed2ee1a5c99d58b7e6bebeeade0ddb07d139137a6e9727f11939f70d1f5f8ff62"
 
 RPROVIDES:${PN} += "gstreamer-editing-services-devel \
 pkgconfig-gst-editing-services-1.0"
@@ -39,7 +39,7 @@ pkgconfig-gstreamer-pbutils-1.0 \
 pkgconfig-gstreamer-validate-1.0 \
 pkgconfig-gstreamer-video-1.0 \
 pkgconfig-libxml-2.0 \
-pkgconfig-python-3.10-embed \
+pkgconfig-python-3.11-embed \
 typelib-1-0-GES-1-0"
 
 inherit rpm

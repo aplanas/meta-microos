@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.4"
 
-RPM_NAME = "bogofilter-sqlite3-1.2.4-15.12.aarch64.rpm"
-RPM_HASH = "5eeaf219e99c8742aab58d8c525386b4f1c2a3d20335de7b0db85da53c23eed1a49183ecd4b0680931fbc238bfc9bb3b6712b3df1c5076224412d4fb563da888"
+RPM_NAME = "bogofilter-sqlite3-1.2.4-15.13.aarch64.rpm"
+RPM_HASH = "542322f9a2dac69f54d0462d28c12900e030120a408c77c2a4e53d5ae2d40a0338e89dd33b7f3985b8159d01c97184a5d610efbddddfd138af32e1869d673f99"
 
 RPROVIDES:${PN} += "bogofilter-backend \
 bogofilter-sqlite3"

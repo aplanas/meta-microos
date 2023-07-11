@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "4.4.9"
 
-RPM_NAME = "python39-ovirt-engine-sdk-4.4.9-1.13.aarch64.rpm"
-RPM_HASH = "e9f7840284a1f0c452188638b387a9fc39519117a2af1f59838f1878fc57c910b649c1a6a721bfdad5adccf00f53fc0fabebe33669cbefbea6cb9a8f1949117c"
+RPM_NAME = "python39-ovirt-engine-sdk-4.4.9-1.15.aarch64.rpm"
+RPM_HASH = "afd45d3225c672d13dc99995a273d4b881a1a6be042acb4eb179fe3a91f646226e3081eb0d67148bd793b8402f546f6f37c176ad347819ac3d20e3df1542a7f5"
 
 RPROVIDES:${PN} += "python3.9dist-ovirt-engine-sdk-python \
 python39-ovirt-engine-sdk \

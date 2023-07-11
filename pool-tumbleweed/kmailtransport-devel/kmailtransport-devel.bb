@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains necessary include files and libraries neede
 to develop KDE PIM applications."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kmailtransport-devel-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "065d02befd921651d695081f9ad93c220546a7c7424e0386af3a61dd3c503046d5297659b60db5b6b6d322d770cea902a5eb3a005addd9610fc8a40ea75b4520"
+RPM_NAME = "kmailtransport-devel-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "8b719b83f24bfc0be169e9e56583020fdc15bad6ec4e169c57edc3ff4a2e9ce838c789d1cf803c17dd54c409737976c5c94a49722b1e95a0cbb261a9f60baa5e"
 
 RPROVIDES:${PN} += "cmake-KF5MailTransport \
 cmake-KF5MailTransportAkonadi \

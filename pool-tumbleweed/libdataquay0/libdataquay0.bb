@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.9.1"
 
-RPM_NAME = "libdataquay0-0.9.1-2.22.aarch64.rpm"
-RPM_HASH = "651fd0e9eaee8da3e46eb1bd58ad66afa47bc5870229b8f3e52adc38bc0f1c5a3cd93362b4b2d14c1c21270eac504831ed54399532440d0939fbc436cc3777f4"
+RPM_NAME = "libdataquay0-0.9.1-2.23.aarch64.rpm"
+RPM_HASH = "d174497c1ccd54cc15a5e0a6e80cbe7656ef8501eaabb82979f1c020a847dfc9edae9cba5f527a15ae18a170fbf7fa6de3227aa5fbff0161b88490f4d6ee4c6f"
 
 RPROVIDES:${PN} += "libdataquay.so.0 \
 libdataquay0"

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.0.6"
 
-RPM_NAME = "fcitx5-sayura-5.0.6-1.7.aarch64.rpm"
-RPM_HASH = "6e9e9baf079e801727e3d37d80e1e7c7000b9598222894e4f4673d89fd0cfa7a0feb5ec61e3f919f3194ccd61e42f722ef22d5c0338ba375e5892a073962cc68"
+RPM_NAME = "fcitx5-sayura-5.0.6-1.8.aarch64.rpm"
+RPM_HASH = "d8d02770e1331ac9a9171554f2108e3c40c1433323967468ace7b3c80535afcc8257c260688adc6e4ee289ba3cf0ed9829b3a9178353444ab9970628104e716c"
 
 RPROVIDES:${PN} += "fcitx-sayura \
 fcitx5-sayura"

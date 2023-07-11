@@ -6,8 +6,8 @@ LICENSE = "SUSE-GPL-3.0-with-openssl-exception"
 
 PV = "0.72.0"
 
-RPM_NAME = "courier-authlib-userdb-0.72.0-1.4.aarch64.rpm"
-RPM_HASH = "21fcb8cc2a3c723ba6a43289833a4e0f1302e23434ae525617e74bc4b6ec3d2b2e8df958e54774d5dba6edfc7ec49604566dd9253c24d707d926ec203f41baca"
+RPM_NAME = "courier-authlib-userdb-0.72.0-1.5.aarch64.rpm"
+RPM_HASH = "62c32272c932a954f2e14c29a4d13e0d9352ad101a3c1e8f73c4350cf9c40de29c872505f7114d4ac258ef0373578afc641a71eb5f0ac615a1b95c51576a97dd"
 
 RPROVIDES:${PN} += "courier-authlib-userdb \
 libauthuserdb.so.0"

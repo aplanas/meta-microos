@@ -4,8 +4,8 @@ LICENSE = "Zlib"
 
 PV = "1.5.1+git20210305.c5cbd53"
 
-RPM_NAME = "libDetourCrowd1-1.5.1+git20210305.c5cbd53-1.7.aarch64.rpm"
-RPM_HASH = "050031534e431817933d14732d86c43abfde9ec1e9e65d300ed7851b33e0713b029e3b13ab652f4aa5ed93f939ca1ae7cac6e7d810f04ee7b2b4354fb6dcfdb8"
+RPM_NAME = "libDetourCrowd1-1.5.1+git20210305.c5cbd53-1.8.aarch64.rpm"
+RPM_HASH = "29fb436dc890d31e1a6a4059b4c85545e6cb84da5ade8feea487e5b125bd477df4131625207e7947b3bca397ac2f51175665fdf6ed7acb098e057fe494aaf85a"
 
 RPROVIDES:${PN} += "libDetourCrowd.so.1 \
 libDetourCrowd1"

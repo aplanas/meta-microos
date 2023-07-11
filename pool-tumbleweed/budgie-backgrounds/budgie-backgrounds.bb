@@ -4,8 +4,8 @@ LICENSE = "CC0-1.0"
 
 PV = "1.0+0"
 
-RPM_NAME = "budgie-backgrounds-1.0+0-1.1.noarch.rpm"
-RPM_HASH = "c4cfae96a45bfc222480cf8c87e264e3a060fc9b04cf59dcc20a1351fe75fcc3d43ac5ba7736ee18d0a37fd040788dd89284ac17c31f596539b8e944303d7cc3"
+RPM_NAME = "budgie-backgrounds-1.0+0-1.2.noarch.rpm"
+RPM_HASH = "5d25a41f099acb266662d08a26bf902f3402d3b66e4e07ed40b62bff94c62e1cc902c29cc1fd6d83ac1c2d3004f7104a8ec8355e48444a89529105870ebe118b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "budgie-backgrounds"

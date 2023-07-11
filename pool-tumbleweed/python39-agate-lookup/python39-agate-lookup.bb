@@ -2,10 +2,10 @@ SUMMARY = "Remote lookup tables for agate"
 DESCRIPTION = "Agate-lookup adds one-line access to lookup tables to agate."
 LICENSE = "MIT"
 
-PV = "0.3.1"
+PV = "0.3.2"
 
-RPM_NAME = "python39-agate-lookup-0.3.1-2.7.noarch.rpm"
-RPM_HASH = "27f5d685b1c24a1897b2c58d2623a3f2893dc08b16caad921c04a0f4982ca502049bc7d5f0e6d54dc447184c4e6a6d66a73932024b55043e04f46cb9a72bc881"
+RPM_NAME = "python39-agate-lookup-0.3.2-1.1.noarch.rpm"
+RPM_HASH = "bcf20d74c191afd306b270f87f23c6271806cff6003aa361fdd24416f3144a82f7de52163d714386ab12a68710ba23632bcaff9bf8e0ee4e692925109a327b62"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-agate-lookup \

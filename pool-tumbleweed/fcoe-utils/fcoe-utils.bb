@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.0.34"
 
-RPM_NAME = "fcoe-utils-1.0.34-4.7.aarch64.rpm"
-RPM_HASH = "a32a7871af1fb56047dad3854487aa84c057749c79777d6f058e5c31eb018458319ed4f6ff81e841a576a8cf651bfd6ee0bd3ab66580a4bdf9c1b0a56cb223da"
+RPM_NAME = "fcoe-utils-1.0.34-4.8.aarch64.rpm"
+RPM_HASH = "87da35f65453324822dcc4813ce2fa763a7c73bf2139d15fdd1388b4a9ccf7d238ac8fc3849c5ab9cd064094093b64826c60d80ca75a282308fe52b238f1783f"
 
 RPROVIDES:${PN} += "config-fcoe-utils \
 fcoe-utils"

@@ -6,10 +6,10 @@ requested action type and will facilitate components so that all the plugins \
 can receive all the information they need."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "purpose-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "c5565e8ee55d5980c207dbb7b11c4aa31a0f8d9ccb3669a4bd112f7eefb3ecd9805efd2a6db1af8a434bbb320314dad92500e58ddc8dc6cc29a4d2033cb0bd7d"
+RPM_NAME = "purpose-5.107.0-1.1.aarch64.rpm"
+RPM_HASH = "4e096ed4e9edb300ff70de212f53b4125d1e38a4a93c38f1dde68bcf9451f2c0927197942584e5632d3e08554ff0d90f0471d17ae980e24f0e58a0210d757768"
 
 RPROVIDES:${PN} += "libPhabricatorHelpers.so.5 \
 libReviewboardHelpers.so.5 \

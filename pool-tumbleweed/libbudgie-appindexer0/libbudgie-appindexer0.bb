@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "10.7.2+0"
 
-RPM_NAME = "libbudgie-appindexer0-10.7.2+0-1.1.aarch64.rpm"
-RPM_HASH = "aef272b708c688e4fb73a33dbf829e9dc80d5b05c107eb20d3cfb7fc4e59ee4463de80a7d5a7be605379d3d6242d647faeaeb8f3af929138ea53bf129ccc895a"
+RPM_NAME = "libbudgie-appindexer0-10.7.2+0-1.2.aarch64.rpm"
+RPM_HASH = "fa253aa4102ce64d45a923ea8b6a127810bba022662904311561f56f4e4ec8c0a0426266e116d07acbbdc123d072c41de79c91ab4b3b6f2e994d3ae5e9d532ea"
 
 RPROVIDES:${PN} += "libbudgie-appindexer.so.0 \
 libbudgie-appindexer0"

@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.2svn64967"
 
-RPM_NAME = "texlive-realboxes-doc-2023.201.0.0.2svn64967-53.1.noarch.rpm"
-RPM_HASH = "134de69b6cf329488dea026c5516bf158030c6a7326adb1213ec53a2c873762175681bf23ff6e8e0eacfa2ed6fcae4d713802b981fe127fdd69d197be36f4cdb"
+RPM_NAME = "texlive-realboxes-doc-2023.201.0.0.2svn64967-53.2.noarch.rpm"
+RPM_HASH = "7312c65bc4d4c24ef6956d7ac4e34b22c99216bd1d67b75ea5b354c58f6dd7a42c5478fc54e385a22ca03bf825f689b16d15a060b8c4fed8fb21b1b2ed0d16f9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-realboxes-doc"

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "3.0.0"
 
-RPM_NAME = "python-WebTest-doc-3.0.0-4.1.noarch.rpm"
-RPM_HASH = "10ca6cae0a8b388385ec9cf65f54d7611f58ac7e2952e1a373ffe37c62abd66690efcbbf2d01c07d528d22cb11efc74f37469850fcf31f4b3872e97da65522d9"
+RPM_NAME = "python-WebTest-doc-3.0.0-4.3.noarch.rpm"
+RPM_HASH = "569a31c1b6a5b73dc930f2f6cc1a8ea3df7e6d9414925667d08b928005b6d8b390ddfb1d3313c4895d4c238771093573d415f8e5d55f039e1980ba5de49002c4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-WebTest-doc \

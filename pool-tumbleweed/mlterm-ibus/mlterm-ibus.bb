@@ -2,10 +2,10 @@ SUMMARY = "Ibus plugin for mlterm"
 DESCRIPTION = "A plugin to use the ibus input methods directly from mlterm."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.9.2"
+PV = "3.9.3"
 
-RPM_NAME = "mlterm-ibus-3.9.2-3.3.aarch64.rpm"
-RPM_HASH = "ce2a7c2b74eeacf265beb3caa1855d6ffb3d54aa33145206e4baa21dd339e88a0f12aca903e69a10c14441415e18e712cc3c721509e578375802c95a467967d3"
+RPM_NAME = "mlterm-ibus-3.9.3-1.1.aarch64.rpm"
+RPM_HASH = "6b064886dd6fd5f2926aecc609664fc0e3c379f72a0fe831f3061001f420efdb3cf8dd139cf894dd7a76be831e04e2c242e5275217f9175a3e93f298159a3d54"
 
 RPROVIDES:${PN} += "libim-ibus-sdl2.so \
 libim-ibus-wl.so \

@@ -10,8 +10,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.8.8"
 
-RPM_NAME = "font-manager-0.8.8-2.3.aarch64.rpm"
-RPM_HASH = "805f45efccdd0a5da92321c4a2f5a9dc98ae20ac2f39e8ddc0c4a4fa092f0d273a60bf78c6aca170079d57cda617bde23876ef5a4fee6b59621caadf6fb1424d"
+RPM_NAME = "font-manager-0.8.8-2.4.aarch64.rpm"
+RPM_HASH = "25aed85c358ca34b71f683a85791a6b5a0d350ee03bc7a1e63508ae0a5ac2700014618385be8bb4d4958a2fc8da4c400f8887944e725c4c429f6abf277ade941"
 
 RPROVIDES:${PN} += "font-manager"
 

@@ -4,10 +4,10 @@ using open standard protocols (RTP/RTCP, RTSP, SIP). These libraries \
 can be used to build streaming applications"
 LICENSE = "LGPL-2.1-only"
 
-PV = "2023.01.19"
+PV = "2023.05.10"
 
-RPM_NAME = "libgroupsock30-2023.01.19-1.4.aarch64.rpm"
-RPM_HASH = "f9c664443d4433771778bfab2acd1b8a69aa63f886f54c9623e7d36f796a4b31a7389aed91d871fd7056522c3996d7f71d69620949b3707a3e11506e31ae316a"
+RPM_NAME = "libgroupsock30-2023.05.10-1.1.aarch64.rpm"
+RPM_HASH = "bdc0b6c4e146f4b114f7aaa90d980158ac24852eb0d80a96e2e906138a47570b5dc11d54a5e9625a9b85f63e5e97e47e724eb2f8ee37c739a02ca8c2b1cb0888"
 
 RPROVIDES:${PN} += "libgroupsock.so.30 \
 libgroupsock30"

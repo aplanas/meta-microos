@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "20.1.0"
 
-RPM_NAME = "python311-gunicorn-20.1.0-4.1.noarch.rpm"
-RPM_HASH = "46e6b2009828620a07e35e1cf250633365eaff8d858447a9a4ca67d41540c782d82939dfcc092bf6b629219331ea434afb30659d6921493c3225cb0f6388677c"
+RPM_NAME = "python311-gunicorn-20.1.0-4.2.noarch.rpm"
+RPM_HASH = "ff0475805b66e3c56084f1f394695359f5d0b102ab5c76be3024eb75aa76ccc5a1a4d98e209fe47b7ab5c91a53be66a36bef344358f38529abb8f8cafcd0117a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-gunicorn \
+RPROVIDES:${PN} += "python3-gunicorn \
+python3.11dist-gunicorn \
 python311-gunicorn \
 python3dist-gunicorn"
 

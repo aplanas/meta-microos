@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4.0"
 
-RPM_NAME = "libosmo-gsup-client0-1.4.0-1.11.aarch64.rpm"
-RPM_HASH = "933962e0b195df35c84baa296a97749335fad2e6e0f4868d62ef71796ca205f6a580e74bf27300aba670876d0dd18095bce1600b4d269ab7805ca14a4dfa6a06"
+RPM_NAME = "libosmo-gsup-client0-1.4.0-1.12.aarch64.rpm"
+RPM_HASH = "1625f81767fce2f54818c0182e6f20ef215d1e942946a971fe31024e5230091e07e6fad1a4a0b71bf3a7cdf22b9b4647af60eef43164205fc87f6cba0e02a5bd"
 
 RPROVIDES:${PN} += "libosmo-gsup-client.so.0 \
 libosmo-gsup-client0"

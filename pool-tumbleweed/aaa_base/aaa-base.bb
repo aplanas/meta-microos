@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "84.87+git20230329.b39efbc"
 
-RPM_NAME = "aaa_base-84.87+git20230329.b39efbc-1.1.aarch64.rpm"
-RPM_HASH = "28f10649db3b9d4e67d0b89a2446aa59d94144a4933421038368c6406f1b1f3cb9ac311660e74362fe6b43a64944ab451cd02b82f9b607e0d043e789593aa3b0"
+RPM_NAME = "aaa_base-84.87+git20230329.b39efbc-1.2.aarch64.rpm"
+RPM_HASH = "b0f66b9df2fb473fbdb9758bce525efd624837ecd57ac2023fb3001c95408442d73a33ab466563aa1735960f2843cf159d54dde8dc99652be4cde6b63e9f250a"
 
 RPROVIDES:${PN} += "/sbin/service \
 aaa-base \

@@ -4,8 +4,8 @@ LICENSE = "BSD-Source-Code"
 
 PV = "0.0.1+git1533120914.688715b"
 
-RPM_NAME = "libqxtglobalshortcut0-0.0.1+git1533120914.688715b-1.23.aarch64.rpm"
-RPM_HASH = "caf229e6d92ea840d45131da1b68f0a8c517a348ebcc2bf643733035fa0dfa7111b3246461a64d33a814a83c70c1cdf4c755672aaea69ed3bbffa690f9aa635e"
+RPM_NAME = "libqxtglobalshortcut0-0.0.1+git1533120914.688715b-1.24.aarch64.rpm"
+RPM_HASH = "88c8e27ba52ca02a5fedc2eba53b3c39a20bbd1b584c99ee0d27eacdd3dd4cc4e8ee6ec029e19c36412a750270fb1bffb6361c2fff006117ee91c62fe1fd5926"
 
 RPROVIDES:${PN} += "libqxtglobalshortcut.so.0 \
 libqxtglobalshortcut0"

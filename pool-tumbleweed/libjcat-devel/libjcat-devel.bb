@@ -2,10 +2,10 @@ SUMMARY = "Development package for libjcat"
 DESCRIPTION = "Files for development with libjcat."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.1.13"
+PV = "0.1.14"
 
-RPM_NAME = "libjcat-devel-0.1.13-1.1.aarch64.rpm"
-RPM_HASH = "cc4c738679d02d3700fa0af2905b4443b516279a5dfc2cf4a279c87032c86b09865d19b957ae74caa60aeade76c28f7729eddd693362086f56a547935c1af1d6"
+RPM_NAME = "libjcat-devel-0.1.14-1.1.aarch64.rpm"
+RPM_HASH = "1668942e850d851a434b8d2d4d1056a9d37ce3804c41388b660a41c2a120720ebbc8da6052ec74313236a5732281ed1ecc80ab33a171a21ecd983c8a0a85df93"
 
 RPROVIDES:${PN} += "libjcat-devel \
 pkgconfig-jcat"

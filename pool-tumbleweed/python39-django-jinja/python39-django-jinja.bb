@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.10.2"
 
-RPM_NAME = "python39-django-jinja-2.10.2-1.3.noarch.rpm"
-RPM_HASH = "7e4f7a68bd2b733f4c40cdb07a34d427ce3ae7edc099f6956db37f2db93b4e007ebf8dc8cd10d51f976e7094b9dfa1c3058acbf7c5d677cf21504329dd20e572"
+RPM_NAME = "python39-django-jinja-2.10.2-2.1.noarch.rpm"
+RPM_HASH = "a3dd17fe3b1478173e349ee3e0b7f3b7357f0c02c7423af82c1058310c84f7c106aa6617d94e2f29fdef885a4a7c7b3c29d51e5891e62bf64bf1bdf86a27082d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-django-jinja \

@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.7.0"
 
-RPM_NAME = "libcollection-devel-0.7.0-27.18.aarch64.rpm"
-RPM_HASH = "44a42d7dcdb7a526c1efa1c241ac68f744ee44c8df556e90238ae4c23467b0aeb4848309185ca192d5d423b3f46c962726be7273ed697e3366d04933bdefa233"
+RPM_NAME = "libcollection-devel-0.7.0-28.1.aarch64.rpm"
+RPM_HASH = "cfe3d2d38bf4d887e46da68010389e598131a9889902609a1902fd1d7649f2cd52b06fb93741f192ed6fb440173e5fa3e7f51617379e055a045f58a19c17061b"
 
 RPROVIDES:${PN} += "libcollection-devel \
 pkgconfig-collection"

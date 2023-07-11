@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.1.6"
 
-RPM_NAME = "xf86-video-qxl-0.1.6-1.3.aarch64.rpm"
-RPM_HASH = "907cdb0642c9c070dd3caf2434cb7e68e3978444251e9718c5a992a8ad560e07c4f8c7ac106e6559a2883eead69e0b409ce31d6fbec45a30fad4d593d418ff6a"
+RPM_NAME = "xf86-video-qxl-0.1.6-1.4.aarch64.rpm"
+RPM_HASH = "bcccf22b8da725def67c93cd195430a3d6303382ea6b1d22c835b3efc9ba67a2cd5edbf4519aa6b3c26150dd0126aaf0ef335c9685ec87ade480a64004603683"
 
 RPROVIDES:${PN} += "xf86-video-qxl"
 

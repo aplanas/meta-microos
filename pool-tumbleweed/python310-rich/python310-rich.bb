@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "13.4.1"
 
-RPM_NAME = "python310-rich-13.4.1-1.1.noarch.rpm"
-RPM_HASH = "ef9b0bc15f3d415fbb72d96eb337ac1aee0091ae64ca5231cf89a29dc6a3b3af5806e7f737315f82b41bd9b9928d665c5ee8a14268e5a27b778bbf34bf971819"
+RPM_NAME = "python310-rich-13.4.1-1.3.noarch.rpm"
+RPM_HASH = "054c00fa7872e3429c288c4d2a7d77524f6520a3d2b99e32bbe08e7bfa6d1006ba44eeef29d7b1c0ede1637500cabbce228d48c0aa07ad059d4ce698fdeb9831"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-rich \
-python3.10dist-rich \
+RPROVIDES:${PN} += "python3.10dist-rich \
 python310-rich \
 python3dist-rich"
 

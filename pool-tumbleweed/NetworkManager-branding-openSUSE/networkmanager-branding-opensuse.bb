@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "42.1"
 
-RPM_NAME = "NetworkManager-branding-openSUSE-42.1-5.10.noarch.rpm"
-RPM_HASH = "a79a862de78fd5b4616ce6c3d0e627b6bca2208331833779533c34beef16186e19572d5896365ea830c2378b1125ebbf72aa2482a12c7e13387e3c0c6a80ba9d"
+RPM_NAME = "NetworkManager-branding-openSUSE-42.1-5.11.noarch.rpm"
+RPM_HASH = "aa99e52466302b41ecc755652ff6f42b91389351dc800667703686aa251c72a1efdfad1e77a2a12b783d2fad8490c9e38de801fd9de7c98dfda892561e6623ce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "NetworkManager-branding \

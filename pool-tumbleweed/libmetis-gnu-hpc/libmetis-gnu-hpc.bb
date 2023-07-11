@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "5.1.0"
 
-RPM_NAME = "libmetis-gnu-hpc-5.1.0-9.11.aarch64.rpm"
-RPM_HASH = "2ca96c8cc887331c2d02ab77ac5f53b31bd7a2773f5ef5eb796e37d50c720dcda26a78a7aecc39e6daa021fa0a0af1270ccc3d4db9b3a02c9494e582de7279a1"
+RPM_NAME = "libmetis-gnu-hpc-5.1.0-9.12.aarch64.rpm"
+RPM_HASH = "c46d87e8ea80ae1bab32ebc4a4984e2aa933714a3e3d43f6c6d1fb3e47391bbbba9bd4bc9cbdb17c4aaa712ffbbe2cb4160ec9ecec4a9802c2609282c21400a6"
 
 RPROVIDES:${PN} += "libmetis-gnu-hpc"
 

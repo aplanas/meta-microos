@@ -1,12 +1,12 @@
 SUMMARY = "Dependencies to build ghc"
 DESCRIPTION = "Prebuild alex and happy for bootstrapping the proper ghc build. \
 Don't use outside of GHC bootstrapping!"
-LICENSE = "BSD-3-Clause & BSD-2-Clause"
+LICENSE = "BSD-2-Clause & BSD-3-Clause"
 
 PV = "1.3"
 
-RPM_NAME = "ghc-bootstrap-helpers-1.3-1.1.aarch64.rpm"
-RPM_HASH = "ddb18531835cbe829403e7a1c93cd8b6ce37c44df8af2d61548d374fda9441490ad5758484bce6a864955036dfb406afced7dbf105f2164d8e36e8e97ea6dc32"
+RPM_NAME = "ghc-bootstrap-helpers-1.3-2.1.aarch64.rpm"
+RPM_HASH = "65685561ea24357dcc30fc71b47a8e36e18eb96523b584079117262a1ea598294f59bd024863d3acd7eaf560a3a4bd7d20e135b0ea71e1f022b6c80ceb6998f4"
 
 RPROVIDES:${PN} += "ghc-bootstrap-helpers"
 

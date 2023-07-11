@@ -8,8 +8,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20210417"
 
-RPM_NAME = "libwtcdb-devel-20210417-3.3.aarch64.rpm"
-RPM_HASH = "528809054c482170c8bf49f924f2d48b13a194c3215e8ce19e72a07e7b9180437e6e68bd300fb7621c3ae08ff8ee18dbbc63532ae3f73d6ab9e1fe6aabe54aa6"
+RPM_NAME = "libwtcdb-devel-20210417-3.4.aarch64.rpm"
+RPM_HASH = "90efbe3c83dfc88eac16acf112fd0accfa13ee3af2910a321e276c98ecec76c96b674e209b82a717b9afd7a77e01e94bc5ce477c09da7d67e287ad3e3c43b034"
 
 RPROVIDES:${PN} += "libwtcdb-devel \
 pkgconfig-libwtcdb"

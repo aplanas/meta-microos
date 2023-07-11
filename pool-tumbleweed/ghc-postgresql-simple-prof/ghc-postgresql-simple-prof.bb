@@ -4,15 +4,15 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6.5"
 
-RPM_NAME = "ghc-postgresql-simple-prof-0.6.5-3.3.aarch64.rpm"
-RPM_HASH = "c15444b01da2db1984b94bfd77f245f5e96763588303effba0cbb7e5b1851c8c219d9138936e3715f7957ca6fea1a42bdde324031a9e443c67348a3992bc91a0"
+RPM_NAME = "ghc-postgresql-simple-prof-0.6.5-3.7.aarch64.rpm"
+RPM_HASH = "10cc1bba87467bf34a8f87708f4c46ed22fab48cae4106e2a078aad9379cc46f30418cf4c5ef6102e9a3ed55861665f7f9bc5b5cb91358f11c87cfb55bff17f0"
 
 RPROVIDES:${PN} += "ghc-postgresql-simple-prof \
-ghc-prof-postgresql-simple-0.6.5-4SdcA6z79O7Dp0GdOYFMox"
+ghc-prof-postgresql-simple-0.6.5-Hs6HLIsgF4F9HSVLUQJif0"
 
 RDEPENDS:${PN} += "ghc-postgresql-simple-devel \
 ghc-prof-Only-0.1-ETd5YCT0TwGLbN8rgpgTS8 \
-ghc-prof-aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP \
+ghc-prof-aeson-2.1.2.1-HkN6OtqTngQ9De3CKBnfov \
 ghc-prof-attoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3 \
 ghc-prof-base-4.17.1.0 \
 ghc-prof-bytestring-0.11.4.0 \

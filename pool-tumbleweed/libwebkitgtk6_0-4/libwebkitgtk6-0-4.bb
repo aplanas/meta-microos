@@ -8,10 +8,10 @@ also supports DOM, XMLHttpRequest, XSLT, CSS, Javascript/ECMAscript and \
 more."
 LICENSE = "BSD-3-Clause & LGPL-2.0-or-later"
 
-PV = "2.40.2"
+PV = "2.40.3"
 
-RPM_NAME = "libwebkitgtk6_0-4-2.40.2-1.1.aarch64.rpm"
-RPM_HASH = "a66f4c324e87215222d73b26ed23074274a27ebbe2bb8f6b723381d8ab952a5f9410c983331f182baa9b13d9e80ea2855eb8b990c8221e30013075b0982b4b5a"
+RPM_NAME = "libwebkitgtk6_0-4-2.40.3-1.1.aarch64.rpm"
+RPM_HASH = "16669b753bf43c6c98fe3bcea3de3d2dc62bcafb2424f0b83c48988502fed93f660e4af4219236a163e125c19c53fac6535d64c9b113543889928256302bc449"
 
 RPROVIDES:${PN} += "WebKitGTK-6.0 \
 libwebkit2gtk4 \

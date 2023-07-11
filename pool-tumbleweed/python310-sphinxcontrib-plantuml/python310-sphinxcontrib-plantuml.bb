@@ -8,12 +8,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.24.1"
 
-RPM_NAME = "python310-sphinxcontrib-plantuml-0.24.1-1.3.noarch.rpm"
-RPM_HASH = "78307d7ea7647a268f92300768eda346d79bb3fe2c45a896cd4dd180757d97499a72441669c7dd0ed1f3afe2ee369a981f1049e6cb37a82971b3b13c38a25a17"
+RPM_NAME = "python310-sphinxcontrib-plantuml-0.24.1-1.5.noarch.rpm"
+RPM_HASH = "ea63916df0ce16ebe37d203ab1688b88aad2fcfcac18a7c05394083f7c03e883563a9d0cc9207718c5e3bebd985409623fb4b1d49224f56872de9c5c57dea855"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-sphinxcontrib-plantuml \
-python3.10dist-sphinxcontrib-plantuml \
+RPROVIDES:${PN} += "python3.10dist-sphinxcontrib-plantuml \
 python310-sphinxcontrib-plantuml \
 python3dist-sphinxcontrib-plantuml"
 

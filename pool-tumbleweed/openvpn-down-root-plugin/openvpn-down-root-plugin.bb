@@ -11,10 +11,10 @@ script.  Thus, the down script will be run in the same execution \
 environment as the up script."
 LICENSE = "GPL-2.0-only-with-openvpn-openssl-exception"
 
-PV = "2.6.4"
+PV = "2.6.5"
 
-RPM_NAME = "openvpn-down-root-plugin-2.6.4-1.1.aarch64.rpm"
-RPM_HASH = "1cbc0768b26be1d632ebb9ea2006b7e72c8a13224fc405fead3a9b78b0e5bd526019ed6a1582ac831873cc20ddd2778e0af7ed61b13eb6fca77bc53536fe5d4f"
+RPM_NAME = "openvpn-down-root-plugin-2.6.5-1.1.aarch64.rpm"
+RPM_HASH = "b0ec779f48414ba980058002404bbf6856461e8ffd02b9b66664de7e176d1ad2fd98842f4051c85019d0bebe902c3d68dfaac23a3819bf29e30fe1bcfbc9260e"
 
 RPROVIDES:${PN} += "openvpn-down-root-plugin"
 

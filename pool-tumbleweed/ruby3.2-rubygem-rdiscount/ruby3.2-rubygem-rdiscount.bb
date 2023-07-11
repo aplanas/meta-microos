@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.2.7"
 
-RPM_NAME = "ruby3.2-rubygem-rdiscount-2.2.7-1.7.aarch64.rpm"
-RPM_HASH = "8bbd338c87084f9edadfcca8110bcf8469b5d8691fed9ca1bb60f27fb57cd28db3df9a9b21b869ea98e4954bdb88fc7dc102a55f3b1587c2a923c1f3649d477c"
+RPM_NAME = "ruby3.2-rubygem-rdiscount-2.2.7-1.8.aarch64.rpm"
+RPM_HASH = "ba7f406a8434fe8ed71937314ebfcd0153ce00bd84207ffb13f5348df7c985fd23c1656225740d0cbd822045d93e4ea7572a8751237c592b1c3cc98c3d59d121"
 
 RPROVIDES:${PN} += "ruby3.2-rubygem-rdiscount \
 rubygem-rdiscount \

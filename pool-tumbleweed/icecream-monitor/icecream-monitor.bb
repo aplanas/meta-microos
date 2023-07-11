@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.3"
 
-RPM_NAME = "icecream-monitor-3.3-1.21.aarch64.rpm"
-RPM_HASH = "3ba5e2216af7924eb72cdb4d11a92145551aaeedd8f5f1cddfc82ec77bb289f493f6318fe15b6e25fdf2e9d023f93e2c2a362b8994142e3e169f2bfbf567d80d"
+RPM_NAME = "icecream-monitor-3.3-1.22.aarch64.rpm"
+RPM_HASH = "3b433adde3a9ff2fecf718e5d72d257828c4b060afce6ad441c15db13d7b8619154c8cf22db1be2da859ac9e411b855954ab2c3f8399cba6b96e953f56d99e57"
 
 RPROVIDES:${PN} += "icecream-monitor"
 

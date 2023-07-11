@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.8"
 
-RPM_NAME = "paranamer-javadoc-2.8-2.10.noarch.rpm"
-RPM_HASH = "31a887b87fa28dcfc749611ca9a697e0997ee4464e936262dbf087c53013085bba16bf6b537839b2054493fdb0710d7f10c809c2dd36a731d1cb4fe9fa7f3ea7"
+RPM_NAME = "paranamer-javadoc-2.8-2.11.noarch.rpm"
+RPM_HASH = "ff2cbbc73a53ac81919df87c013a539d1b6a41ef847b432355a46a2b13614bed1f102677b31b16c74fe8f27c6183ee633e80942fbb1bc34dc62bfbe8654a15d6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "paranamer-javadoc"

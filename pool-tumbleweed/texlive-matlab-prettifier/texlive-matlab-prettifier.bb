@@ -4,10 +4,10 @@ pretty-print Matlab and Octave source code. (Note that support \
 of Octave syntax is not complete.)"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3svn34323"
+PV = "2023.208.0.0.3svn34323"
 
-RPM_NAME = "texlive-matlab-prettifier-2023.201.0.0.3svn34323-52.1.noarch.rpm"
-RPM_HASH = "34dadc3db624df3a1713c0958905b10be25f3786fc106377569ad07711d41a638950d7e8b0634bb4d9a81265aa6929964fa0140e3c018f789b02b1ff70205f1e"
+RPM_NAME = "texlive-matlab-prettifier-2023.208.0.0.3svn34323-53.1.noarch.rpm"
+RPM_HASH = "bb04acf9c81453c6218f2ae331c22685a23d64f01e7ca780ec575a1893b91a19ca23b1b5fe9799a4dde3fa62047d73e5d718e1f4e7aad6ee85b2d73dd527a880"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-matlab-prettifier.sty \

@@ -14,8 +14,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
 PV = "2.7.2"
 
-RPM_NAME = "libint-devel-2.7.2-2.3.aarch64.rpm"
-RPM_HASH = "9ed341062abe99c60bed37d551686f9a60c082f80d16b9a0af477583861b03b6b7178cb09bbe19185575995f11450689612d7a30b9cf2ee50449375cb473223b"
+RPM_NAME = "libint-devel-2.7.2-2.4.aarch64.rpm"
+RPM_HASH = "1e4fea9879d9bc25fd12a94c6669e7628d380385bfb8bf25a9c6b43f86a72c6ca23d49eef7a7e3fd2c80cc5cbe824e34e811e253a2617c61dedad01c9b0393ce"
 
 RPROVIDES:${PN} += "libint-devel \
 pkgconfig-libint2"

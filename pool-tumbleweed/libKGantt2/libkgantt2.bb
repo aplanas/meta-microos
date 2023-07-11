@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.8.0"
 
-RPM_NAME = "libKGantt2-2.8.0-1.14.aarch64.rpm"
-RPM_HASH = "9d00ca683859914a17a5a23c459290b0dce3d486497ca7b059cb0447ba508f27a76c5cff49c8201b9e71c835103de83382d8c75e66577286819fe0d707dda57a"
+RPM_NAME = "libKGantt2-2.8.0-1.15.aarch64.rpm"
+RPM_HASH = "6829ce6ccf3dd337a1929a527d9e8a86094d844067def6b5d256bbd015bedbed8c69c2f82e4bb5ffd22460e2d938bd525b8893d4bfa52a6186690beefbdeef26"
 
 RPROVIDES:${PN} += "libKGantt.so.2 \
 libKGantt2 \

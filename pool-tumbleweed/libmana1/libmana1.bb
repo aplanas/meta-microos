@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause | GPL-2.0-only"
 
 PV = "45.0"
 
-RPM_NAME = "libmana1-45.0-1.1.aarch64.rpm"
-RPM_HASH = "f5da088db16a39e491745487508a33ebd1045178e5cddb5cb91671c8dffbd1e948e1632dd0630e5931f471f174b14db52efa72ee18e4ce464ce0e14e4c926bd1"
+RPM_NAME = "libmana1-45.0-1.2.aarch64.rpm"
+RPM_HASH = "cebe7ad543bc64e7701c2a0bd4dba050b4d42c87e4c416a6c14f60d3ddc2366534cc75ac661a9fec3cd30541c33cb8bb6ed767d1412a43f36ccb3f063552d2aa"
 
 RPROVIDES:${PN} += "libmana.so.1 \
 libmana1"

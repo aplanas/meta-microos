@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "3.6"
 
-RPM_NAME = "python39-spidev-3.6-1.4.aarch64.rpm"
-RPM_HASH = "075b8f3394fa987f2d7a2552fffe5de9c884a1f422dbeee31a99ee0bc106a5c964fe57898e3ecf1bd4efcc44c2692752276599a7bd661dd074575d69837c853f"
+RPM_NAME = "python39-spidev-3.6-1.6.aarch64.rpm"
+RPM_HASH = "6fa92a9fc90ea1d3905479740ed19b36c19bf55e236616256a27559ec86ed10e6c1e97e82cc02afce1097aa6ff2afd48ddc609ebd2673f81a23ff2fb302e284f"
 
 RPROVIDES:${PN} += "python3.9dist-spidev \
 python39-spidev \

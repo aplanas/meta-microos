@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.4.0"
 
-RPM_NAME = "audaspace-doc-1.4.0-1.4.noarch.rpm"
-RPM_HASH = "dedc4f3f35e69efadfe9c1355234e51b1e61e197d598773c99a1009db488f4acd84746d390d483f85863a38d3719db00c1ff9156f01406c90a7e016a7d9ebb1a"
+RPM_NAME = "audaspace-doc-1.4.0-1.5.noarch.rpm"
+RPM_HASH = "8b94becb9e2865fe0408a1fc20be046f55134e2eb8671a18c5d5e96f4fdc6f56fa45a7e187aa044dc5efeb05881fed07ffefa33b937dbef10d4dc082fe00500d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "audaspace-doc"

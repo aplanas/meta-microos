@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4.1"
 
-RPM_NAME = "harminv-devel-1.4.1-1.18.aarch64.rpm"
-RPM_HASH = "214e7cd30fec8c1f98d2e25f072b8ac4d21a775d2afa7f79211af41b8580a85827c2d62db8104f3df2f780614dced51b30d069d1aa5dd04c35bbc53e9d185cd2"
+RPM_NAME = "harminv-devel-1.4.1-1.19.aarch64.rpm"
+RPM_HASH = "a275115379c415d74668bd2544aae9d10369c39d4203662497ac42679981f8aaf3e5571ad22e5ee7b2d9ca7343d246d70722ef033281845e1a4c207971743a02"
 
 RPROVIDES:${PN} += "harminv-devel \
 pkgconfig-harminv"

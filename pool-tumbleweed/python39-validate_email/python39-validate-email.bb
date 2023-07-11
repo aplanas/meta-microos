@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.3"
 
-RPM_NAME = "python39-validate_email-1.3-4.1.noarch.rpm"
-RPM_HASH = "cb498679964954d60c459e0f1fe0e90fe85f4842b01cefbefdf052a1740c9e909173f0b6667b5b12eb85051b3a14c19143b276c274ea9c775e16e01fe5cd8eee"
+RPM_NAME = "python39-validate_email-1.3-4.2.noarch.rpm"
+RPM_HASH = "e792b2a310df45203565ce5ef783b241056891d276ca2f4c5e311265b05b20366be863a6d7a679495573f3f70d6c66d492226afa96b7d4e32fb87b6fe750a9dc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-validate-email \

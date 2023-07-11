@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.4.1"
 
-RPM_NAME = "python39-nptyping-2.4.1-1.3.noarch.rpm"
-RPM_HASH = "e79241e83895065c1158ad30d4d6660d57f0165901c679afb671ca26b9b0dc614808927796fe8689f9a4d25d14c9c08435add37bc74dac3fc149bd6591e60b4b"
+RPM_NAME = "python39-nptyping-2.4.1-1.5.noarch.rpm"
+RPM_HASH = "197e37e4720e1194089bdee7c71b0587a7a957d11d33ab9d47e37111be3d61d114e1a97f744ff84d0922a3fd76c46148b186546e2eef8a398e0968b4e2948bd8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-nptyping \

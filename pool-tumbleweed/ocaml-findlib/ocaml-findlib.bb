@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "1.9.5"
 
-RPM_NAME = "ocaml-findlib-1.9.5-1.5.aarch64.rpm"
-RPM_HASH = "88169196dc3b6bc025c456ae5d37f9abc74faa0925e23d3e5395852c63155652b8361a05b536609fb5d9bc2b2b221a3ae949a2e80e6fb2e2356515ff850a5d28"
+RPM_NAME = "ocaml-findlib-1.9.5-1.6.aarch64.rpm"
+RPM_HASH = "84a4985a02a1a32ad5ba025c6c85b413cdd96cf47eea680db441e13229cdeedc15a775789185fc95bad4e4b4d102b3a784103347589e698b8114c1f475c6b1d1"
 
 RPROVIDES:${PN} += "ocaml-findlib \
 ocamlfind"

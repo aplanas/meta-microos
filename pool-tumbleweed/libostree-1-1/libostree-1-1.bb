@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "2023.2"
 
-RPM_NAME = "libostree-1-1-2023.2-2.1.aarch64.rpm"
-RPM_HASH = "3603a69273e5df9e0b391a87d2ab042381555040ba5f9a6e8f2780693ee2f6284b30f358aeecda8b606c5a40c469b8ec5bc0639e02ca60c23a511c62d050e1d8"
+RPM_NAME = "libostree-1-1-2023.2-2.2.aarch64.rpm"
+RPM_HASH = "453e469fa9ded1ec474489868c7268ced9a154c7c6e54f45ffb924f394acb069b061c6d7d42c9da7575f159b65c001c67f046ce6846f905c5a108cc640ae025f"
 
 RPROVIDES:${PN} += "libostree-1-1 \
 libostree-1.so.1"

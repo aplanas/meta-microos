@@ -22,8 +22,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.4.05"
 
-RPM_NAME = "ispell-3.4.05-1.3.aarch64.rpm"
-RPM_HASH = "f5dc02e0cf5bc4d701aac024e2b5d979ac232ca460bbb0bef5ab4f454bd0673a50cf0ba626b912bb0ddfe1355b24a6b782ded0895bde5e077083e706026a2a74"
+RPM_NAME = "ispell-3.4.05-1.4.aarch64.rpm"
+RPM_HASH = "fb53f8d22d856955f3f708a6d507eaad9d61210fa440ea32b6bad037ee15678d974046588f57a292b3ac247e59cd19f1419c851775f3c104c38ab34f76ff6f4e"
 
 RPROVIDES:${PN} += "ispell \
 spell"

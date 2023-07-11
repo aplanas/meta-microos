@@ -5,10 +5,10 @@ and fault tolerance. Erlang is used in several large telecommunication \
 systems from Ericsson."
 LICENSE = "Apache-2.0"
 
-PV = "25.3.2"
+PV = "25.3.2.2"
 
-RPM_NAME = "erlang-25.3.2-1.1.aarch64.rpm"
-RPM_HASH = "e36aa5e9ba1cc12449aa5cbcdb88df3f85b204a811d3b1fea4488d92c2bd4205813fa44d14d1af0528addb5d88351f3caaa1c2dbcaf0cedbbe9debac240553c1"
+RPM_NAME = "erlang-25.3.2.2-1.1.aarch64.rpm"
+RPM_HASH = "b93799358405c8472fa66415c42ec72c1b362e3b88643fd932f62e5484836162c2602505d037e296ea456a68ac029e18c0c4255e3265c3816c6b4326e87ba086"
 
 RPROVIDES:${PN} += "erlang \
 rpm-macro--erldir \

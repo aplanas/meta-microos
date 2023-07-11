@@ -9,8 +9,8 @@ LICENSE = "NetCDF"
 
 PV = "4.9.2"
 
-RPM_NAME = "netcdf_4_9_2-gnu-openmpi3-hpc-devel-static-4.9.2-1.1.aarch64.rpm"
-RPM_HASH = "86997cb06cae7e9b824fce1aa0e736a84de225c301ea849d6adb1e63a47660fabde28fa0663bf9d7d93e33bd1a0939f338bd76b7835d39dc606c484e8f17f0d5"
+RPM_NAME = "netcdf_4_9_2-gnu-openmpi3-hpc-devel-static-4.9.2-1.2.aarch64.rpm"
+RPM_HASH = "e368fe67cbf1ac038335a13f8df458d474bb93ade923f8fcaf51e1e5a0ecf642ff166350aed631bb0ab3ea871974fd9e9cdab6e3a6d5ceadc1c6ee342f1fa81f"
 
 RPROVIDES:${PN} += "netcdf-4-9-2-gnu-openmpi3-hpc-devel-static"
 

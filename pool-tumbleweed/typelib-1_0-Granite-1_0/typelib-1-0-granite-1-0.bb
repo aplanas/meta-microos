@@ -6,8 +6,8 @@ LICENSE = "LGPL-3.0-or-later & LGPL-3.0-or-later"
 
 PV = "6.2.0"
 
-RPM_NAME = "typelib-1_0-Granite-1_0-6.2.0-1.7.aarch64.rpm"
-RPM_HASH = "389ff4c8f9d1b2843c0508ede948dea6c5a7aefb1b66e79d900f2d4ba85a17f56d7542b57b7d75a60d26cafba916867ca8d7a510a0f5f85822cb7cbe0e26185a"
+RPM_NAME = "typelib-1_0-Granite-1_0-6.2.0-1.8.aarch64.rpm"
+RPM_HASH = "2508fe42205df304ea0addd7cc8f5de0b53f72391da9a1549949517dd282a2fee66baa1a10efe6ada8907e61a3edb3fa97fc53a230f876b2109a0edea8c28d8d"
 
 RPROVIDES:${PN} += "typelib-1-0-Granite-1-0 \
 typelib-Granite"

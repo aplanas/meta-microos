@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the Active Directory-compatible Domain Cont
 libraries."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.18.1+git.298.4ccf830b2a4"
+PV = "4.18.3+git.303.c08b73d523c"
 
-RPM_NAME = "samba-ad-dc-libs-4.18.1+git.298.4ccf830b2a4-1.1.aarch64.rpm"
-RPM_HASH = "86d4211ac59a46785a320936627c89612c256ce81c72d7a366a7538866d57a4bbd159580088fbe9d6b0aea3b6a47051c785c24193c8422cc551334bf1d659fa9"
+RPM_NAME = "samba-ad-dc-libs-4.18.3+git.303.c08b73d523c-1.2.aarch64.rpm"
+RPM_HASH = "41df670d8d6538a8d8dfee172935232b7f6e678cf24908102fd688523eea2c35bfcabd11c8d82232f24943a1079056035ae5cafa20ef432379a02aa355554f3d"
 
 RPROVIDES:${PN} += "libdb-glue-samba4.so \
 libdcerpc-server.so.0 \

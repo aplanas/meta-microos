@@ -14,14 +14,14 @@ LICENSE = "Artistic-2.0"
 
 PV = "0.58"
 
-RPM_NAME = "perl-List-SomeUtils-XS-0.58-1.26.aarch64.rpm"
-RPM_HASH = "8e8fa773d139a2a1746099ec50897b25c6e05eb74e580063e235f8160ad9233926288665941f506dad3b0662d6d6b1197b16f46237627844a9aa3439cad417ac"
+RPM_NAME = "perl-List-SomeUtils-XS-0.58-1.27.aarch64.rpm"
+RPM_HASH = "48a5a2254efad2a91b19cd2a43bdad0c2938451b85cf004d3451844df202ba76527cf228f859c9c8dc389dc99e039194b63b14542007a61db38023e4ae36805c"
 
 RPROVIDES:${PN} += "perl-List--SomeUtils--XS \
 perl-List-SomeUtils-XS"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

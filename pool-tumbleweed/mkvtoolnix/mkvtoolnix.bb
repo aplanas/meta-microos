@@ -4,10 +4,10 @@ container format for audio and video files. Includes command line tools \
 mkvextract, mkvinfo, mkvmerge and mkvpropedit."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "77.0"
+PV = "78.0"
 
-RPM_NAME = "mkvtoolnix-77.0-1.1.aarch64.rpm"
-RPM_HASH = "2b2cef84de427d3efe0d8fd8233e6b58d89d3817eaaf5d446ec77a77f0cc44064a373cf71e55664bc1ac714f5f270232b30135c41d72324c57e3133bfa8f7664"
+RPM_NAME = "mkvtoolnix-78.0-1.1.aarch64.rpm"
+RPM_HASH = "d38e4ccdf9da607a9b35e5484fa9605c942cb7c0ef3917d0652f0728534e6134e4bf88f5ac72a3908a53b4df93d521bd0edc6e4281b5ea19a20f04d6bb09a40e"
 
 RPROVIDES:${PN} += "mkvtoolnix"
 

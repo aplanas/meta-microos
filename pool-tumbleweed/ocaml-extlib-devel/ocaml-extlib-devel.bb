@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later-with-OCaml-LGPL-linking-exception"
 
 PV = "1.7.9"
 
-RPM_NAME = "ocaml-extlib-devel-1.7.9-2.4.aarch64.rpm"
-RPM_HASH = "3af9dae74202c324966df2d653126cf3c82377c8b1bdba372f9a44fa3edfd6bd65f821613c86f86db428f04c2719d2fb14391dbde4bb3d16b0394dafad5b5ecc"
+RPM_NAME = "ocaml-extlib-devel-1.7.9-2.5.aarch64.rpm"
+RPM_HASH = "1dc803299f1525ed8b339520a684593d2bb142bfba4935899a081d85d43b1f3d1a11cde091b0d5f1398e83545331c6eae7fed13999e05df63b895a8bf1c35fe4"
 
 RPROVIDES:${PN} += "ocaml-BitSet \
 ocaml-Dllist \

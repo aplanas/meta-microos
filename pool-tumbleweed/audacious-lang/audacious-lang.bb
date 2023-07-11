@@ -2,10 +2,10 @@ SUMMARY = "Translations for package audacious"
 DESCRIPTION = "Provides translations for the 'audacious' package."
 LICENSE = "BSD-2-Clause"
 
-PV = "4.3"
+PV = "4.3.1"
 
-RPM_NAME = "audacious-lang-4.3-1.3.noarch.rpm"
-RPM_HASH = "4d89d711751570e6cffc646aa918ee774c93dcd870f7c245a0f63b0deba9b1085f6f4341eb80ae1cb5436f6db88dc97c9ec04c9d0509aa24a7c8f8d80f86f53a"
+RPM_NAME = "audacious-lang-4.3.1-1.1.noarch.rpm"
+RPM_HASH = "c1c21a4f80e1d5615836d2feae1a21c6eaeee7973abbeb707a8b9538f032a64cda1e9db4fc50a228a6337e2071268452d50e9921127ca6b4f1c7cdbb75e64b66"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "audacious-lang \

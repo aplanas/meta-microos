@@ -16,8 +16,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.4.0"
 
-RPM_NAME = "fastjet-plugin-siscone-devel-3.4.0-2.8.aarch64.rpm"
-RPM_HASH = "e0bfee1ae78f03546fd91f112d3ab4dbb60cc40ac14001fc1db49109d06577c3a1503db6d79f91c3913ce707aa27328e9173ee45e4f66815da58830d3ff04d92"
+RPM_NAME = "fastjet-plugin-siscone-devel-3.4.0-2.9.aarch64.rpm"
+RPM_HASH = "953d6aeae22544008f32fbd623506825f2b7b0b1b7098e75ee77b3b3789825eecf6fdae8872f25eff3422a794b1e1e6203925504ea41c754ce140ca4496b380b"
 
 RPROVIDES:${PN} += "fastjet-plugin-siscone-devel"
 

@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.2"
 
-RPM_NAME = "python39-pytest-filter-subpackage-0.1.2-1.1.noarch.rpm"
-RPM_HASH = "554f964e15f44bb129f09c67982b2e97fb363172424ce0a49a083fa3a85bcd741d412a6f8c5195950bde7006a82ff97bc471306b27bb747776489b007ada5d32"
+RPM_NAME = "python39-pytest-filter-subpackage-0.1.2-1.3.noarch.rpm"
+RPM_HASH = "0d87267d51d0b7fd9feaf203dad36dc3c08bc5e423da68fab391007fee467db84abc2ae5a74673b899fc0d5720d0e296da1376d3b1d147660acd074d9d760b0d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytest-filter-subpackage \

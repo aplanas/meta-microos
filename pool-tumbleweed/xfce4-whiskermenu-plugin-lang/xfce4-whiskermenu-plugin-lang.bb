@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.7.3"
 
-RPM_NAME = "xfce4-whiskermenu-plugin-lang-2.7.3-1.1.noarch.rpm"
-RPM_HASH = "2c6bd073cb6b08120c83aa754f6c25ff3ec7517b2f41427cd2f56d6ce246f5b267580db1bcda9c592acd000e9fb5215e70074288b58cbd78339a5d4e1445d7d5"
+RPM_NAME = "xfce4-whiskermenu-plugin-lang-2.7.3-1.2.noarch.rpm"
+RPM_HASH = "316100c2be727f0715837eba4108e09b38fa60929decc895f12a9635c21f8bed1f4ffa8d8d367d4d19043eb080f230be563de1eb0cbf24385a042b99ed4b98db"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-whiskermenu-plugin-ar \

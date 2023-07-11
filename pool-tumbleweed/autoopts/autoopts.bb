@@ -10,8 +10,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.18.16"
 
-RPM_NAME = "autoopts-5.18.16-7.6.aarch64.rpm"
-RPM_HASH = "0563effbaa0b0ff010b1bd1fc4359d8814cd77ef62cac7efffbbe7104eab5eb2cdfa01f07d6f4d4e2ec81ccaab024f51a0a4d7285521ee3b42994928fb347ee4"
+RPM_NAME = "autoopts-5.18.16-7.7.aarch64.rpm"
+RPM_HASH = "1a4393c3c27399174bef86d949158be3a073ea595833449105e57150c626b70121c909e1dd5c24556748dd03bf86b07d9e4e149751d2a69c8d24005edeae7548"
 
 RPROVIDES:${PN} += "autogen-/usr/bin/autoopts-config \
 autoopts \

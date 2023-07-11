@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
 PV = "2.7.2"
 
-RPM_NAME = "libdrumstick-file2-2.7.2-1.3.aarch64.rpm"
-RPM_HASH = "d1d2461ea58fca7da57d40ae2d83ba9886b318acd8f9c3a0af9b5fee117e8542fdb1b46d3517d168e2ff9443ef86da5713465a850c49b9326ae4dd8591c577f3"
+RPM_NAME = "libdrumstick-file2-2.7.2-1.4.aarch64.rpm"
+RPM_HASH = "ececcd326d788ffc4d7ab9f1fffb28ac353330b7027709692fafc87c4693bb12aefc243dad147ae3fca2065cdd3e296c0d6ffb62f42c825635e2b67c745bf435"
 
 RPROVIDES:${PN} += "libdrumstick-file.so.2 \
 libdrumstick-file2"

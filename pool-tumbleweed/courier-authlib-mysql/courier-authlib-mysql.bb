@@ -6,8 +6,8 @@ LICENSE = "SUSE-GPL-3.0-with-openssl-exception"
 
 PV = "0.72.0"
 
-RPM_NAME = "courier-authlib-mysql-0.72.0-1.4.aarch64.rpm"
-RPM_HASH = "32fd3cbec9081c4b2bd2103a1011b4766ff0ca32e53a71a9aef1355b6ecd90ac9f7d0fb244182a8c3172c67f9a42f0a46a5b0aae0de4d0aedb57483682deba34"
+RPM_NAME = "courier-authlib-mysql-0.72.0-1.5.aarch64.rpm"
+RPM_HASH = "bb3fad3247a2d181f6f258312bae510d5b5b80679985d3ea013b2201ff2b9ae655feb57594a3bbe5049acb509a01fb2053ae5c63791e4be755ed008ce94cd523"
 
 RPROVIDES:${PN} += "courier-authlib-mysql \
 libauthmysql.so.0"

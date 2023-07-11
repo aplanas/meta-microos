@@ -18,10 +18,10 @@ will need it. \
 It refers to rfc 822 (mail) and 850 (news)."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.10.2"
+PV = "0.11.0"
 
-RPM_NAME = "python39-pygn-0.10.2-2.4.noarch.rpm"
-RPM_HASH = "4faa8115ea79843f718511c25f313a905337934a58ffae97418847726816dda1e573e6961536eebc6353e3c4315bbe86a0b9df828da6ca5620819642ae323f87"
+RPM_NAME = "python39-pygn-0.11.0-1.1.noarch.rpm"
+RPM_HASH = "430d812945947e051d7d3b48a1e410d82392426a8bc4801ba7cfac22ce983e6237ac6e83d25dbb2bc08d1fa1c94ee32159b9babbc8d4f0fe4a864784ad70aa5e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pygn \
@@ -31,6 +31,7 @@ python3dist-pygn"
 RDEPENDS:${PN} += "/usr/bin/python3.9 \
 /usr/bin/sh \
 python-abi \
+python39-rply \
 update-alternatives"
 
 inherit rpm

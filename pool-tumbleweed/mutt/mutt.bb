@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.2.10"
 
-RPM_NAME = "mutt-2.2.10-2.1.aarch64.rpm"
-RPM_HASH = "56ffa52c6e7f762ab5f394b3b246ff8c4ce5d53ed433cefe000093c8f6816e2d4e1447ae2d3b5927ba06ae31f02027f76a66c1fbc76470e7ce9b6a9be9ba7f1f"
+RPM_NAME = "mutt-2.2.10-2.2.aarch64.rpm"
+RPM_HASH = "805d399d515a80a321ca08ab5fb31214dcc30eb093374bbdd77de36667d8226166c95343a39d3668dc3783b1f444e021c9318c9b02f5bfeb275aa45703fca1fc"
 
 RPROVIDES:${PN} += "config-mutt \
 mutt"

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "2.20.2"
 
-RPM_NAME = "gtk2-engine-crux-2.20.2-19.42.aarch64.rpm"
-RPM_HASH = "c1675fe096b8057ab44d11be098df5f8285664a3e318fd69c71d4965a1ff6d5b35eb9ec1f595ee2cf6623b7a3f26a9591c7a794d2a68ab5f62d29b66305fdad7"
+RPM_NAME = "gtk2-engine-crux-2.20.2-19.43.aarch64.rpm"
+RPM_HASH = "edc8da16a7fc7b4eecbc93a5bf766b79f93eef3a21ed7b00420d97d4bf27886bebecdcfcf58a5f494518375feb0441064ed643cca6cfe1696967e9279a7e1fe7"
 
 RPROVIDES:${PN} += "gtk2-engine-crux \
 libcrux-engine.so"

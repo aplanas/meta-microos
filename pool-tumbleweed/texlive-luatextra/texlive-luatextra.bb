@@ -6,10 +6,10 @@ features and goodies. The package is under development, and its \
 specification may be expected to change."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.1.0.1svn20747"
+PV = "2023.208.1.0.1svn20747"
 
-RPM_NAME = "texlive-luatextra-2023.201.1.0.1svn20747-52.1.noarch.rpm"
-RPM_HASH = "243dcb25c50de732bc2e8bd5390bed3e0999cdbc1c980a8fbc5d1054a0885cd9976fdbc12187bc8d4f399cfcce565ea615aba74fecc4836a5d27b43c4d569ccc"
+RPM_NAME = "texlive-luatextra-2023.208.1.0.1svn20747-53.1.noarch.rpm"
+RPM_HASH = "8aefe0795898b0658668ce50e32775f5fcd2b6b2393b47303f85a4ae2a709d6e0e704cef0d5d48fcbc02fae43c7aedae8e01787847caae97eea851f552c5547a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-luatextra.sty \

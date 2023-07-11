@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.4.2"
 
-RPM_NAME = "udiskie-lang-2.4.2-1.6.noarch.rpm"
-RPM_HASH = "a84ebe76a4b319d4deac828aaa76f29581b343e447350e23be1df24252601d911103dc610c10f4f927589da8d97cd61853d9436d3c06dee18ffe948ee4f8fa05"
+RPM_NAME = "udiskie-lang-2.4.2-1.7.noarch.rpm"
+RPM_HASH = "0bfc4f85abf310c4f08df24f45b726f3547defb0e0eb56348b99cdc5dba12e38667c6231936ed903d6221d0d215368f345a25e85ea4c5365786adb4b0119e53a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-udiskie-en-US \

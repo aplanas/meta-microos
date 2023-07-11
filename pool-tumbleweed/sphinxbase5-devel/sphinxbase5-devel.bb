@@ -7,8 +7,8 @@ LICENSE = "BSD-2-Clause & MIT"
 
 PV = "5~git20220609.617e536"
 
-RPM_NAME = "sphinxbase5-devel-5~git20220609.617e536-1.4.aarch64.rpm"
-RPM_HASH = "98580cdcdfc0db043a0b2b3ca6d8ed88c934912be422bfa6f6b4559e9548d5da74f59e694c947bca40ead59873301962a8d8b3be8c1030ebf81f5140a54e1383"
+RPM_NAME = "sphinxbase5-devel-5~git20220609.617e536-1.5.aarch64.rpm"
+RPM_HASH = "6ef064311b1484b53ba7b881150751fec25fec35c48b0456895a16826912931251ab355daac94ba4d5ea8fc75cb1586bf0ebb584886f9ab2443b7b380c69a264"
 
 RPROVIDES:${PN} += "pkgconfig-sphinxbase \
 sphinxbase5-devel"

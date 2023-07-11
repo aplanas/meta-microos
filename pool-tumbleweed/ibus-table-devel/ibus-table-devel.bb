@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.17.0"
 
-RPM_NAME = "ibus-table-devel-1.17.0-1.1.aarch64.rpm"
-RPM_HASH = "5515b5459235ca58112b0178d40217c8f1db6aaebc8c599a9bfa3bd6b4fed9a62344780db26554982da9cffd83caf47cc8bb953975d615227a7083e2c05dcb48"
+RPM_NAME = "ibus-table-devel-1.17.0-1.2.aarch64.rpm"
+RPM_HASH = "8caa46de88c71ea5480865670dcd872dacecff3e1c15ef9ffdba01d788470455330efe6b3d2bc36f04c3f8d91f413528b250e9c3d64582240994686a05516337"
 
 RPROVIDES:${PN} += "ibus-table-devel \
 pkgconfig-ibus-table"

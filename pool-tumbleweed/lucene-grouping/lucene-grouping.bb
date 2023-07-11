@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "8.5.0"
 
-RPM_NAME = "lucene-grouping-8.5.0-3.4.noarch.rpm"
-RPM_HASH = "c93c46e460d0395e419f758737a69872b4194e196e44ed09f399203186ae824a71fe6e0b65715af68f4aef986a52e90679f4fa083df4102f496e8c89e1a8a8fa"
+RPM_NAME = "lucene-grouping-8.5.0-3.5.noarch.rpm"
+RPM_HASH = "e581aad313cc9928d9bef68b0dd94077a1fc98bd077c6c0770428f569342a3a816c05a8aa2cbfb4162ebd6cb34892f0b725444bef6c6c63c1d6552f6f14d73c4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lucene-grouping \

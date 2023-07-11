@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.1"
 
-RPM_NAME = "bloaty-1.1-1.31.aarch64.rpm"
-RPM_HASH = "a44752b5eeb0e126e8a92a22ad512c2871a26072e56e291f3258a1313f8dbaedcea2e4df1351aff83ae4b7288a06162f0fb452771c9d8fb550d2a53eac4c0365"
+RPM_NAME = "bloaty-1.1-1.32.aarch64.rpm"
+RPM_HASH = "5eadd4e33ad223bbaabec59604f5a11423b224fea9d95bb8bfc97fc48a604770b913f9ce5cd764176bfce9f9c239d44f62126e40bf77729cc511cfc589a9c3fc"
 
 RPROVIDES:${PN} += "bloaty"
 

@@ -5,10 +5,10 @@ API guarantees. The packages that build against these have to require \
 the exact Qt version."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libqt5-qtwebview-private-headers-devel-5.15.9+kde0-1.1.noarch.rpm"
-RPM_HASH = "04930d54ccab2f1812ee5ff53af5e6187e242de3988cec5ce212a6bebba91d5d4996b61aa872e63eef39528cb54da75bbcaaa9233a204131b8b4937606dacdb8"
+RPM_NAME = "libqt5-qtwebview-private-headers-devel-5.15.10+kde0-1.1.noarch.rpm"
+RPM_HASH = "4b574a429e7a7c909069456f54e04cd420767fc5e03bcf835fce4ad74af759809925a75f4b05d0cb770e49817181bb3c47f3f38d20a37af2672f9d35bf8d42a3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libqt5-qtwebview-private-headers-devel"

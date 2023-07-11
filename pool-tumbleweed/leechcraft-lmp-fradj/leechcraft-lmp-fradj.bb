@@ -4,8 +4,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-lmp-fradj-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "e5edfcc8064abe020274bf487b67c9c4660c23bb75c7b08871ab452c0f12b04c319953736d41a5822eacbc49627f282e16910e0f749b3fc680806e6ceb0f94cf"
+RPM_NAME = "leechcraft-lmp-fradj-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "7e877ba96c6623b031b5c23cfe4a88bb21673276d8c27921b601e65684db555d318055e1d72662471acaec513684baf32a5e08d99f534f7d03413711915c6775"
 
 RPROVIDES:${PN} += "leechcraft-lmp-fradj \
 libleechcraft-lmp-fradj.so"

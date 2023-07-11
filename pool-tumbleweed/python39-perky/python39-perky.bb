@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.5.5"
 
-RPM_NAME = "python39-perky-0.5.5-1.4.noarch.rpm"
-RPM_HASH = "3484a43fbada761da58290550585a987ca875c73e365dd66c58353f7cb561d24b15cb9bf1883ccd6eaacb11ae473bdf424b91a847e096a45ead19bd5e572a50e"
+RPM_NAME = "python39-perky-0.5.5-1.5.noarch.rpm"
+RPM_HASH = "7dd02a832a95fa42a6844051fa12fc43c797cc49c128a58176c3a4ec63abf1ed0d1d6c46ea4fe1ffa5f454f37880eb43674c3e8a8873a4abf1ac93f4e5676ccc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-perky \

@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "0.9.1"
 
-RPM_NAME = "python310-isc_dhcp_leases-0.9.1-3.3.noarch.rpm"
-RPM_HASH = "f41cdec916a361b8f1c8fd8604ae5db370fb02587e8815a605b25b3b38c6f007c53cfb195076969cf54273d1a7bcb3d82757ea348919c2a50b11263b9529a90d"
+RPM_NAME = "python310-isc_dhcp_leases-0.9.1-3.5.noarch.rpm"
+RPM_HASH = "2c7cbe2fb8bd1836f8b3011058fa254830e302b70721599e0397a2413caf2b8020f599f74a1f4d097efa5453a4fff9c58399c4853244ed228a565c54b0b20537"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-isc-dhcp-leases \
-python3.10dist-isc-dhcp-leases \
+RPROVIDES:${PN} += "python3.10dist-isc-dhcp-leases \
 python310-isc-dhcp-leases \
 python3dist-isc-dhcp-leases"
 

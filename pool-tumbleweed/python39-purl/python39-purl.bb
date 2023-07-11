@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.6"
 
-RPM_NAME = "python39-purl-1.6-2.1.noarch.rpm"
-RPM_HASH = "4d2bbb50d52aed589b858f9cc5025540d5d4a4954588fbe223453722947ae42d5146f4967c935772a5f3ebb01bec70ce4ced81b24f14e0a74b31c92e55c7e521"
+RPM_NAME = "python39-purl-1.6-2.3.noarch.rpm"
+RPM_HASH = "ca6391c2b3416b502bc193f8e100db2842b50ee47e6daa5d90606d9443ffec79741e4074c9c8e0f5babb552e71b8a7b9b5c9b09a1a27a4d4bf3ab2d2116f7034"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-purl \

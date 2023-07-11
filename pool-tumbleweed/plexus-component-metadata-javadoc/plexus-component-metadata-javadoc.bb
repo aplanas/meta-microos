@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & MIT & xpp"
 
 PV = "2.1.1"
 
-RPM_NAME = "plexus-component-metadata-javadoc-2.1.1-4.1.noarch.rpm"
-RPM_HASH = "31bf1ceff50f44acf1437b2ee393f57e26875ff01ae818831e10461029d8deb7fdc96dbdfc9291ae4d7d4105bd75f2f1dab1e5583001ef5168f6df5272013602"
+RPM_NAME = "plexus-component-metadata-javadoc-2.1.1-4.2.noarch.rpm"
+RPM_HASH = "c56da9013364a0dc91f54b7bc8ee4b321ee1e5925df1e6e691e5500ebd4c957621315805add13e0cda02f66d999fba18cb598e2045247d5504b1fd5d384c42f3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "plexus-component-metadata-javadoc"

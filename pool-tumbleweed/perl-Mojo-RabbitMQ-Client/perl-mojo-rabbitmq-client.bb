@@ -5,8 +5,8 @@ LICENSE = "Artistic-2.0"
 
 PV = "0.3.1"
 
-RPM_NAME = "perl-Mojo-RabbitMQ-Client-0.3.1-1.15.noarch.rpm"
-RPM_HASH = "a0b2ad24aee38d906b15cccbdddc490a6ff20e3813b4c7a3244b2f5b053af15fbfd5685578aa552f6960e32ca9cf33b76f1791e1fa1de08619139b951e9c8b1e"
+RPM_NAME = "perl-Mojo-RabbitMQ-Client-0.3.1-1.16.noarch.rpm"
+RPM_HASH = "8b9d2c4922296fbb7ed02fca277b7e20d91241cacd259a685550794dad246db28a3b1628f72050708d943e4321d06fa282c9d20b409e9376b8bcd8d2f62214bb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mojo--RabbitMQ--Client \
@@ -18,7 +18,7 @@ perl-Mojo--RabbitMQ--Client--Method--Publish \
 perl-Mojo--RabbitMQ--Client--Publisher \
 perl-Mojo-RabbitMQ-Client"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-File--ShareDir \
 perl-List--Util \
 perl-Mojolicious \

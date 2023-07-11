@@ -14,8 +14,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.17.0"
 
-RPM_NAME = "container-diff-0.17.0-1.10.aarch64.rpm"
-RPM_HASH = "a824ecd152fe85ee79b0c67395cf0d02380f61ea97ac715a792cde267b645432989a7065edcb00e241d8cdbbe9c5242628cb4940e274ca6638c5a146779b66a3"
+RPM_NAME = "container-diff-0.17.0-1.11.aarch64.rpm"
+RPM_HASH = "7f47c35ee0e07b62c15e34a358e4d4c225e9ec199247a826d271a0c7f6915f64c85b5461e82e865aaa9d60a2d2833fe65fc5f3be4c6c4431ae0f75fa782b9834"
 
 RPROVIDES:${PN} += "container-diff"
 

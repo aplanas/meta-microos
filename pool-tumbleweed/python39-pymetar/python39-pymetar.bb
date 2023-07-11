@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.1"
 
-RPM_NAME = "python39-pymetar-1.1-2.13.noarch.rpm"
-RPM_HASH = "8384d167738df0700b8a85c67765f02cad72fcb7b125c72ba80b3a6e52c4abee9f91715eed622e7c4450b5697db1e28d44f60c6c208438d5522dd45c3ae16356"
+RPM_NAME = "python39-pymetar-1.1-2.14.noarch.rpm"
+RPM_HASH = "98020c8f54d8b8d066e0a2d1f54827efdc4f0eca5f5323986c520b064a498f5fd6777b845b650389a65ec3c4c1f4fa1777b33e553bbcf1e2ff5dd4a3b7580684"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pymetar \

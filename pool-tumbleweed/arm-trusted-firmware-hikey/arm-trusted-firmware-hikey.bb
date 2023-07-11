@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.8.6"
 
-RPM_NAME = "arm-trusted-firmware-hikey-2.8.6-1.1.noarch.rpm"
-RPM_HASH = "c2ef8432f9236b0b2596c6f71d232cadb908cb24320c5a87200560aa1eb6e50eccc20af9c3d8d093546fe6b1d211fcf11fcc52aa7b5b55132dd1da9ecd940582"
+RPM_NAME = "arm-trusted-firmware-hikey-2.8.6-1.2.noarch.rpm"
+RPM_HASH = "810caaa07616891222a1d750d12aaf563f19e7e852ac8fc5493154d6c833c755a1c650d19f80ff726d12cd391249f978c8c7edc5b76b3f2fb82054dd37cbca3d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "arm-trusted-firmware-hikey"

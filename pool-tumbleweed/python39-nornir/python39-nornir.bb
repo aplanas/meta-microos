@@ -12,8 +12,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.3.0"
 
-RPM_NAME = "python39-nornir-3.3.0-1.8.noarch.rpm"
-RPM_HASH = "6440284804868829ae3b97da6d70b72590533a364a714fe86dee43d3a47ee03226558f20933af7000a9819e1598ff4a7bbe9bd5315be66bf7de03245923eb8c3"
+RPM_NAME = "python39-nornir-3.3.0-1.10.noarch.rpm"
+RPM_HASH = "4a4e502e573dc6ebb019e379ab35aaf58d6a4f3fffe26fa8aa0cdeb93a9e5c623f419d154793183c7a4f08886224370a6bd2d89bf09007f9f13b0e00ff65b9e7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-nornir \

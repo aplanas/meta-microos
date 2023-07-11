@@ -47,10 +47,10 @@ that occur, so if any of the standards change, and you want a new release \
 sooner, just email me and I'll get one out."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "3.73"
+PV = "3.74"
 
-RPM_NAME = "perl-Locale-Codes-3.73-1.1.noarch.rpm"
-RPM_HASH = "6eb329b41cd7d16c040f68affcea2d0573d317f04aaafd34766d99d8adc27c5e3992f77f2c6b46390ccafd06e67960d8763570c0650ccc45caf194c4a0b8fe6f"
+RPM_NAME = "perl-Locale-Codes-3.74-1.1.noarch.rpm"
+RPM_HASH = "dc77af0a7da80b1b65fff4b0e5907b778378e93a03966e94cd2c26185bf72b45253ee151f59c8e87b0e8520c0628ecd76405feaa479293633bb23a230a0f4e47"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Locale--Codes \
@@ -68,6 +68,6 @@ perl-Locale--Language \
 perl-Locale--Script \
 perl-Locale-Codes"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

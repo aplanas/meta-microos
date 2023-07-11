@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.20.0.18+git.7b1a20b"
 
-RPM_NAME = "tuned-utils-2.20.0.18+git.7b1a20b-1.1.noarch.rpm"
-RPM_HASH = "a3ffd6e329a82c4c6aa4828074584d6cfc678236b6765bd559c59b5b9e192f438fae09314de2453495085fbc7c9d48c3dd6cb23b0ab72cd3f1808bf631ab6d94"
+RPM_NAME = "tuned-utils-2.20.0.18+git.7b1a20b-1.2.noarch.rpm"
+RPM_HASH = "eeb17ee94cb8a25edb9c02a0244ef4d3f3ab3b95c676078375f476423ca91e70be13ef69271588905cf43efc53392a33af4bd903b11c01c3082aaf103a526efb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tuned-utils"

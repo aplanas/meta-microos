@@ -5,10 +5,12 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0.23"
 
-RPM_NAME = "python311-pysmbc-1.0.23-3.8.aarch64.rpm"
-RPM_HASH = "4b8ef276244002f8889a50d8a379ef780ab2533fd047d5b0df03ad90cfac41a9fdc6dfee6bdfd8dd7d1fb1b932138cda5b800b1d0facb94599e7dab02517b14a"
+RPM_NAME = "python311-pysmbc-1.0.23-3.10.aarch64.rpm"
+RPM_HASH = "640775119a344993803dd67dc3e44a38f64b59b60a6af48cb344c48280d9179d24e9b03152bd80f01b9187e6568aa0f8d332116f5d83df4748414d3b09c1b81b"
 
 RPROVIDES:${PN} += "python-smbc \
+python3-pysmbc \
+python3-smbc \
 python3.11dist-pysmbc \
 python311-pysmbc \
 python311-smbc \

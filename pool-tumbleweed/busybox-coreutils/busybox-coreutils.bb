@@ -2,10 +2,10 @@ SUMMARY = "Busybox applets replacing coreutils"
 DESCRIPTION = "This package contains the symlinks to replace coreutils with busybox."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.36.0"
+PV = "1.36.1"
 
-RPM_NAME = "busybox-coreutils-1.36.0-26.3.noarch.rpm"
-RPM_HASH = "2d93c6a69378adb8b9a325ded8a111edb22e56ffefa6489e1e6dad4b6478992725d48bbd483a37cd810c6679f64767c9d64c6c372d2d9251c93255fb7c7b94b1"
+RPM_NAME = "busybox-coreutils-1.36.1-27.1.noarch.rpm"
+RPM_HASH = "8a1e6dcb538dd91f56b498fb7fb85efa1e63a3c262bec5af3394e68a01acccbd5fffed77d397fc6ef8fb69d22b2220a835f8cb86bf0180d22d21df16813604ff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "/usr/bin/cat \

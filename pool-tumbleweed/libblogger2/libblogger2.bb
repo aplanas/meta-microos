@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.26"
 
-RPM_NAME = "libblogger2-2.26-2.2.aarch64.rpm"
-RPM_HASH = "c3033d60137c33595df42b9d441d9d83d5624027a697f0ca6701c3e52ed82764caef4028f62a843768231c1c97f294ad97e5fa84ec2b54efdd63e482dcfe7fe4"
+RPM_NAME = "libblogger2-2.26-2.3.aarch64.rpm"
+RPM_HASH = "0c206880036ca16a7e87ed67802ccd22cafd2c9d262c323fcb8f7a8710a1e7ca5b6b73493b8539b6852a893aeae920254282d8138e4088ee0be3ba62f656c4d8"
 
 RPROVIDES:${PN} += "blog-/usr/lib64/libblogger.so.2 \
 libblogger.so.2 \

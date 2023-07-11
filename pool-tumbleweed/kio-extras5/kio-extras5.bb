@@ -2,10 +2,10 @@ SUMMARY = "Additional KIO slaves for KDE applications"
 DESCRIPTION = "Additional KIO-slaves for KDE applications."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kio-extras5-23.04.1-2.1.aarch64.rpm"
-RPM_HASH = "097645782d21a6b2361f0f26676da70f77d1cfb59f78f37f5753c2cf169d6bfd6261d89d678230a454009b7852d3f59012e3b62ea7eeb9b31924a20f5adab48b"
+RPM_NAME = "kio-extras5-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "e1ad9aef9e3e05c70317b69872fc68e4151158b6f9c494768bfc9cc4dcfd0bfcacd7ea1a045a2eab93ee2451ba4809c24afcad1fb7fcf9badbc280f722005db4"
 
 RPROVIDES:${PN} += "kde-odf-thumbnail \
 kfileaudiopreview \
@@ -50,7 +50,7 @@ libkdsoap.so.2 \
 libkioarchive.so.5 \
 libmtp.so.9 \
 libphonon4qt5.so.4 \
-libplist-2.0.so.3 \
+libplist-2.0.so.4 \
 libsmbclient.so.0 \
 libssh.so.4 \
 libstdc++.so.6 \

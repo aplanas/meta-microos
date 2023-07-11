@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.3.1"
 
-RPM_NAME = "libini_config5-1.3.1-27.18.aarch64.rpm"
-RPM_HASH = "acf581a51886d919f610e2dcc1250b7b6dc2e49108982008585cc296000a1ba4aabb8028bcebc47677cabf03f0c1ce9f5a76cc9934ad83d0ac2c4c78fac46c35"
+RPM_NAME = "libini_config5-1.3.1-28.1.aarch64.rpm"
+RPM_HASH = "33e3c0d1139dc64c5249557ac5d14ffc16ef83abd492ca620686286544bdda011269dfc277d342049d31dad6d3dacb6a64545d4f05285c763dfd4e865026334f"
 
 RPROVIDES:${PN} += "libini-config.so.5 \
 libini-config5"

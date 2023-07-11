@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.8.4"
 
-RPM_NAME = "davix-devel-0.8.4-1.3.aarch64.rpm"
-RPM_HASH = "04baaac581a048d1c3a989710ad9d076602d61cfbe375f97b77cb1050c2eda90b8b7b51b1601db17301978968456766a2f8a283c4c154f52fb786922bb9e22bd"
+RPM_NAME = "davix-devel-0.8.4-1.4.aarch64.rpm"
+RPM_HASH = "a9b224378c5e160bc39bf0a86fca5727e65c2d656d281271f8b5a0b7c4df07b97f4666278ffaa924ca12bb7c7d367bde058fc3deb8f991bdcbc2c6abb1b04655"
 
 RPROVIDES:${PN} += "davix-devel \
 pkgconfig-davix"

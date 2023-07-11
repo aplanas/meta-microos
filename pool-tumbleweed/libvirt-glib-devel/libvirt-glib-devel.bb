@@ -11,8 +11,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "4.0.0"
 
-RPM_NAME = "libvirt-glib-devel-4.0.0-1.10.aarch64.rpm"
-RPM_HASH = "1d7c5c409f062f7e2397a7f38b2e51ad383533795335cd2f41de0ae47162f6f18f5aaa6a9ba7f414db2e447c96b03742b2e37fa4aabe01d66edffef40de586f3"
+RPM_NAME = "libvirt-glib-devel-4.0.0-1.11.aarch64.rpm"
+RPM_HASH = "2509af9972908e345b4124a9c6753c92147a1efd0ee66913febc66c7136893549b5494feda340a5d01ce8165d16b2995f2fd71ad1373d56d719171b68e8d2a52"
 
 RPROVIDES:${PN} += "libvirt-glib-devel \
 pkgconfig-libvirt-gconfig-1.0 \

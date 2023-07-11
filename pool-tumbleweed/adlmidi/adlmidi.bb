@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only & GPL-2.0-or-later"
 
 PV = "1.2.6.2"
 
-RPM_NAME = "adlmidi-1.2.6.2-3.11.aarch64.rpm"
-RPM_HASH = "098957248c25a80a0770bb6ca935a2ea3f41822c7ab3a0f729cafc9e7d3e8fbf1e9df5089674c5faa7c47a0a55880d84c1e32fe51e86ac2f2dc7e8e21012da55"
+RPM_NAME = "adlmidi-1.2.6.2-3.12.aarch64.rpm"
+RPM_HASH = "f1910368bd6703c606390c09167b1eb88b8845e33aae097d7944f85c69e73b1b3411d65399ad4961d273f67d5c8157ee502e82784ebe3cef4fb7ebfa266a8e76"
 
 RPROVIDES:${PN} += "adlmidi"
 

@@ -39,11 +39,12 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.3.6"
 
-RPM_NAME = "python311-Unidecode-1.3.6-1.4.noarch.rpm"
-RPM_HASH = "8b397a6f659a7fff3223bcdc39bdfd161423215fc4415bc6e5ba653624de3c32a9b15b7c2aa0b9c6d48194e495a427eac442ae7faef3988ffb9797d6d6a6ac6d"
+RPM_NAME = "python311-Unidecode-1.3.6-1.5.noarch.rpm"
+RPM_HASH = "0a3a8391c043bac2129b10bea233d8fc6425718bad7e9062fcd79a3000b03bbbb351e4695a16f784dfeffde53333398610d1bf066e2bc413ba7f5a321d31e7ad"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-unidecode \
+RPROVIDES:${PN} += "python3-Unidecode \
+python3.11dist-unidecode \
 python311-Unidecode \
 python3dist-unidecode"
 

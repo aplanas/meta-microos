@@ -3,10 +3,10 @@ DESCRIPTION = "The deepin-kwin is the window manager of the Deepin desktop envir
 This package provides development files."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.25.0"
+PV = "5.25.5"
 
-RPM_NAME = "deepin-kwin-devel-5.25.0-1.2.aarch64.rpm"
-RPM_HASH = "aa8e4ec6c6d827bf1b16778ac69e6df170c566360e2e1630445b02a3e05181ed15b26e2b43b650909495a5f0f919856d9c607cc46c6a8858420bce76c64755d2"
+RPM_NAME = "deepin-kwin-devel-5.25.5-1.1.aarch64.rpm"
+RPM_HASH = "53daf9593d19898c7501bb144883454181c54571608ea4c67c62c536d9ac9559bd9793afcf709f929e89265ce89ad7c129330f309b70be40246136ee22a72696"
 
 RPROVIDES:${PN} += "cmake-KWinDBusInterface \
 cmake-KWinEffects \

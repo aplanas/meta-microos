@@ -11,8 +11,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "7.5.0+r278197"
 
-RPM_NAME = "cross-epiphany-gcc7-bootstrap-7.5.0+r278197-14.1.aarch64.rpm"
-RPM_HASH = "37374bc4c2a0f86c284bee7314d3bde1e23acbef2a3d6df84d87a567e9b2d9e2c4253a06626f9a3c929cb102a33e232cad633a32e56c7fa00d30c1353c175890"
+RPM_NAME = "cross-epiphany-gcc7-bootstrap-7.5.0+r278197-14.2.aarch64.rpm"
+RPM_HASH = "5fff75a006ffae785c33e03a05d188a0d42fb891e15c9fb7d213a12196ed700827a32e9488ce0c90264f7f61f6bc22ee8e930e06a7f32fba8e1da25ee26b9dfb"
 
 RPROVIDES:${PN} += "cross-epiphany-gcc7-bootstrap \
 epiphany-elf-gcc \

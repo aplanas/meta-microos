@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.6.0"
 
-RPM_NAME = "python39-pylibacl-0.6.0-1.8.aarch64.rpm"
-RPM_HASH = "4029677353244a0988fd77eb756ea02ed4964ed4d5a1954c03156dc307f82c37070d01e5cea9762358719664bee5ce8c9a0c74900a482575e75957cb250ff753"
+RPM_NAME = "python39-pylibacl-0.6.0-1.10.aarch64.rpm"
+RPM_HASH = "c69feb47aca969f9f4ebc2a8f14b3ab5e6e9e3c65233ff261f335af560a5dd11cfbd4a8389ebb72393cc4722d177e6e9114e651523d34b4ffb193b1d1ada28a8"
 
 RPROVIDES:${PN} += "python3.9dist-pylibacl \
 python39-pylibacl \

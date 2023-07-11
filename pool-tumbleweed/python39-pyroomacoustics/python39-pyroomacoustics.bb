@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.7.3"
 
-RPM_NAME = "python39-pyroomacoustics-0.7.3-1.5.aarch64.rpm"
-RPM_HASH = "c732e344c2a8ff78ebffdd22e3592e2ae8921ba526ed1b76d4edc9a45a00da7f32c0747f3a1ceffd1ed6acc91df53b97c9b6946e807e832a351d058ef1e98f07"
+RPM_NAME = "python39-pyroomacoustics-0.7.3-1.7.aarch64.rpm"
+RPM_HASH = "5618481e758936fedb7062f925d4e38a51a57260367db9bfd2ac170cc115bfc399ed826789d106223690467f5adb51a5e22089e56644128c56c68a08dbfe2088"
 
 RPROVIDES:${PN} += "libroom.cpython-39-aarch64-linux-gnu.so \
 python3.9dist-pyroomacoustics \

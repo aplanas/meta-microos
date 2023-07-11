@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.13.3"
 
-RPM_NAME = "jackson-dataformat-toml-2.13.3-1.7.noarch.rpm"
-RPM_HASH = "1e96843e2dba755b43702a3fb3a2f9e42629166499bc6a29cf330c5181fbc0ab3e4554183283869811b4e432c30c63ba879aa2d03d007a345a835e28b50b58fe"
+RPM_NAME = "jackson-dataformat-toml-2.13.3-1.8.noarch.rpm"
+RPM_HASH = "b991afebbc1fb4208d923a761afad00f6ca45f5efacaf34ce47b66f3fccd81ddf2362a6da35dc562ed42ddb7390a8df09dfa7317097a635545cee1da6a3708ce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-dataformat-toml \

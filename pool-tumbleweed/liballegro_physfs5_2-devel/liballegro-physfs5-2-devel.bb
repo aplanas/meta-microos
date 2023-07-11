@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & Zlib"
 
 PV = "5.2.8.0"
 
-RPM_NAME = "liballegro_physfs5_2-devel-5.2.8.0-1.3.aarch64.rpm"
-RPM_HASH = "dba21b3f3800c7ee38d7cef3454074dd53335ae641f13aef483ae2915af51e0d0393d9b042daab20f07234ccb0e3cecd5deff6e09de798031289c420c26c47c6"
+RPM_NAME = "liballegro_physfs5_2-devel-5.2.8.0-1.4.aarch64.rpm"
+RPM_HASH = "a43d6f9105a13e6bd01a0a249ac0ff1bf1fcb8d1a7cada4a8eeec314a94f8f8505e7f51a614193950622ff1c0b357d9c6d970b054007889d677b643dfb3dca13"
 
 RPROVIDES:${PN} += "liballegro-physfs5-2-devel \
 pkgconfig-allegro-physfs-5"

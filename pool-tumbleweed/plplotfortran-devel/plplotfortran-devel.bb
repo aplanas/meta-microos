@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "5.15.0"
 
-RPM_NAME = "plplotfortran-devel-5.15.0-16.2.aarch64.rpm"
-RPM_HASH = "dd04cd8eaa84ff5fc8c9c947f5441b314d2a158f8d19764400502052b19d7b0f863e5674958e3b74cb82830989ee9dcdf7b4e8023a3c8834ccf6b0e4c6a27e8d"
+RPM_NAME = "plplotfortran-devel-5.15.0-17.1.aarch64.rpm"
+RPM_HASH = "7781a01ba1131698332a884fc6c08d7b5551d8f3470e3bbab7f3748622bc7521c84997adb0499a7d792564c9126c121749a6cc3062dddc728d5883c2a3efae85"
 
 RPROVIDES:${PN} += "pkgconfig-plplot-fortran \
 plplot-fortran-devel \

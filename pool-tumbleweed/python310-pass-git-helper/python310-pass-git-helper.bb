@@ -4,12 +4,11 @@ LICENSE = "LGPL-3.0+"
 
 PV = "1.2.0"
 
-RPM_NAME = "python310-pass-git-helper-1.2.0-1.4.noarch.rpm"
-RPM_HASH = "c5984ec82318129c11d851cc7ad06ff7b2bf96f0913de11dbbdcf06a5ab3d705b433025bced6bb08e9796f92664b9058e4f28b2973e86689b15e4dee0c5c5fad"
+RPM_NAME = "python310-pass-git-helper-1.2.0-1.6.noarch.rpm"
+RPM_HASH = "54a4a0d9ccf7dee8bd4ecc9e71c0f580545dbcdc23cc455f9d1222931a3eb436ea6d04d70a9bcc93db1ca05d47ef50253994714c70bda92ae91e7f27007a95af"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pass-git-helper \
-python3.10dist-pass-git-helper \
+RPROVIDES:${PN} += "python3.10dist-pass-git-helper \
 python310-pass-git-helper \
 python3dist-pass-git-helper"
 

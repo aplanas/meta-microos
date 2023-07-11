@@ -18,12 +18,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.2"
 
-RPM_NAME = "python310-lazyarray-0.5.2-1.6.noarch.rpm"
-RPM_HASH = "40c2c7b96892b98608206826c1abb1382027b92b57e77830165a58ce315842381b67da456b380364dc39b6beb25d11cbb4702b607b55a9944260c490c93e4ae8"
+RPM_NAME = "python310-lazyarray-0.5.2-1.8.noarch.rpm"
+RPM_HASH = "ee0c69a26b35e1eb55b05e9b8313b334fcd2a19265516b1a9a46a863d6a9feaae1125ff8431d1401ff6f759910ae743998a2ce22688601f843535d9f93885d11"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-lazyarray \
-python3.10dist-lazyarray \
+RPROVIDES:${PN} += "python3.10dist-lazyarray \
 python310-lazyarray \
 python3dist-lazyarray"
 

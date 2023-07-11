@@ -2,10 +2,10 @@ SUMMARY = "Busybox applets replacing sed"
 DESCRIPTION = "This package contains the symlinks to replace sed with busybox."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.36.0"
+PV = "1.36.1"
 
-RPM_NAME = "busybox-sed-1.36.0-26.3.noarch.rpm"
-RPM_HASH = "ce9b27fe775650e5aa4cdcc7f11fea1bdb186d3c99ce355db027f8ec1bc05e40a73ff39d6bf20d79e7dc9a1abcf374a2bb27d429e46915cfca9bcc6f336bf07c"
+RPM_NAME = "busybox-sed-1.36.1-27.1.noarch.rpm"
+RPM_HASH = "835c8fbf73b9dfeb3ca4f7e0f3d1767e6a21a3946fe59ca2bad506ff671458371e3dbc51eeac710b5f728dbc30e0f44d549d41a0f766087e7df280a0bfaa12ca"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "/usr/bin/sed \

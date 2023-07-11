@@ -4,10 +4,10 @@ independent file lock in Python, which provides a simple way of \
 inter-process communication."
 LICENSE = "Unlicense"
 
-PV = "3.12.0"
+PV = "3.12.2"
 
-RPM_NAME = "python39-filelock-3.12.0-1.1.noarch.rpm"
-RPM_HASH = "f9be2058cffe16e0757b27183db76b038eb43abe0f233b26f16084d24315e04a165ab438ac8daa6c3e15ee5fc66c8e56e5cea5765a935f777fd24095b52c2977"
+RPM_NAME = "python39-filelock-3.12.2-1.1.noarch.rpm"
+RPM_HASH = "756016a8b9cfb744a013557b0e1482412264cee16700475514e85896ce754627d03f18d791a93f74c818ca2dea4f9802f512475cd5b96682937d02c1df863955"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-filelock \

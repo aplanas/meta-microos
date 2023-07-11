@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.6.0"
 
-RPM_NAME = "budgie-takeabreak-applet-1.6.0-1.1.aarch64.rpm"
-RPM_HASH = "ece906fcaf434a123163d94d9360ab405c7d5842226a5a821432b1939cac72bfa372d1f44b5fbad2c4d4139f1b3651e7c6f8209367fb79110b3e86e15adc9eb2"
+RPM_NAME = "budgie-takeabreak-applet-1.6.0-1.2.aarch64.rpm"
+RPM_HASH = "33c8f0eff99ce96dece83776bfa9401dc9a1fc631e13aa76f9e63c44100d26e1eae08c73446ac4bfca381008345391e3d638f79f048a2d8e2e96ca0eb3ac97cb"
 
 RPROVIDES:${PN} += "budgie-takeabreak-applet"
 

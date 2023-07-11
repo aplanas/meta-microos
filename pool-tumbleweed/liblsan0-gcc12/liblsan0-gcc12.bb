@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "12.3.0+git1204"
 
-RPM_NAME = "liblsan0-gcc12-12.3.0+git1204-1.1.aarch64.rpm"
-RPM_HASH = "1281285c92c1c151c098ab840df569986fb79511c7f5e3bd5ecaa864445c7da21b68b2c1fc1b66379707270becac0664f7564c7c489c21c6a932a77662aa5cbd"
+RPM_NAME = "liblsan0-gcc12-12.3.0+git1204-1.33.aarch64.rpm"
+RPM_HASH = "245ed1fb349dfd4ec38ccaaf707d73ab00ce22c2c049eebc19ea566f3961f7cd78c47d7d7c6e380c1df46c773cd06e5f8e8625a17de066668bf029250e204a25"
 
 RPROVIDES:${PN} += "liblsan.so.0 \
 liblsan0 \

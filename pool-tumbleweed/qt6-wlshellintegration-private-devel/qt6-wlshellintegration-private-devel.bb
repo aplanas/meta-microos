@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later & (LGPL-3.0-only | GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-wlshellintegration-private-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "7ca3968fddac44ffda54afd68979b022f316ca8e81c0fbcf6adc58fca9c64c4be28c2986e09687f67854961f6e6e67abd42027a8a94c3778ee9be576fa3a0377"
+RPM_NAME = "qt6-wlshellintegration-private-devel-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "2fb1d13e2404665344a8b01f3562a27a38753fabb75e374f3e140bc9a4c3444e8dc9f403ec6e96e9ce7ceda6d7fb2d1c31b8c0ff603c381806575044d01f4f9c"
 
 RPROVIDES:${PN} += "cmake-Qt6WlShellIntegrationPrivate \
 qt6-wlshellintegration-private-devel"

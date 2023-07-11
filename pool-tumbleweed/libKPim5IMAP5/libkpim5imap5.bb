@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the core library to interface and communica
 IMAP mail servers."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libKPim5IMAP5-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "0911c48056acc7328059fcfa285d48c80ea3bf89c7b9c30e622711065958e362036e086bf7f45de3d4ea353d88ff1fdd6958eb6d56ad9b64a6df51224c955875"
+RPM_NAME = "libKPim5IMAP5-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "ead0c4aa2170a09bb1a394303b2f310d209ddade16155112cdbd1f939142610164d7465fecaf9a3dc2a5e98b0b9307ef3be40381e87dd2fb7ebddf451f6ad642"
 
 RPROVIDES:${PN} += "kimap \
 libKPim5IMAP.so.5 \

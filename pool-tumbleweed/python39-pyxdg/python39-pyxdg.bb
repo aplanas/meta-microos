@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.28"
 
-RPM_NAME = "python39-pyxdg-0.28-2.1.noarch.rpm"
-RPM_HASH = "bb1465b6055affc8c50cfc7436886aae1c91b51d18d1e78c84272eb81dc10f720edb65898e4ebbcfcd9794ea3be85755a73fa033eb304b73d2078a49e92b3ab0"
+RPM_NAME = "python39-pyxdg-0.28-2.3.noarch.rpm"
+RPM_HASH = "0c7c6880df03dabed12feeee41528c05f4073c8b1bca4192cefaf7cca78c6431e2c88cd00fe6b2dadb57984ff3f3d1ba192fdf754353b3d1302b6fea04bd1e85"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyxdg \

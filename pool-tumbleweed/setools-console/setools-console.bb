@@ -13,12 +13,12 @@ LICENSE = "GPL-2.0-only"
 
 PV = "4.4.2"
 
-RPM_NAME = "setools-console-4.4.2-1.1.aarch64.rpm"
-RPM_HASH = "5f6ed258c77923d88f647a3fa2d8127e802b4b0d677810ca32c39b0d933d01b2335950a72dc5d21063a4d22f9068d67043b9b183b8333d4d9e9a8126d5674997"
+RPM_NAME = "setools-console-4.4.2-1.2.aarch64.rpm"
+RPM_HASH = "409f09901116227b7e1792eb81ee9aefca9ca16e3ab475ba5e60a8a4fae768d3f2ad9d27058f9e8443b6af62761f305edd3c55528de54c7ffb4d51e97c5f4176"
 
 RPROVIDES:${PN} += "setools-console"
 
-RDEPENDS:${PN} += "/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
 python3-setools"
 
 inherit rpm

@@ -6,14 +6,14 @@ LICENSE = "ISC"
 
 PV = "1.9.13p3"
 
-RPM_NAME = "sudo-plugin-python-1.9.13p3-3.1.aarch64.rpm"
-RPM_HASH = "8b395dda968182335d43a306b5e5a9ad578b96dd433c4f27bf6cdc43e4bdd577328298842e0b5bdbc5604ffe18d9fe0fee574693fe27c56b280e3aded3e633f5"
+RPM_NAME = "sudo-plugin-python-1.9.13p3-3.3.aarch64.rpm"
+RPM_HASH = "9221a984cb911ee42ce86b9ec541a60466483749bd601c56f557e3dce3e663bff7bf3979794241bedb2d05fb039b7998f525a769472874b0192c0b38c065ae22"
 
 RPROVIDES:${PN} += "sudo-plugin-python"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libsudo-util.so.0 \
 sudo"
 

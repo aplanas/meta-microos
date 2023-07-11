@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.13.3"
 
-RPM_NAME = "jackson-dataformat-xml-2.13.3-1.7.noarch.rpm"
-RPM_HASH = "a2e64652c6441c69e3221c1c3bbdab20fc46df04de359e8f3201aa8b47878793ec6add9e38cb18a086b5fc6faa799c97f957185b10128ccd13cd0e7aa9ed61ed"
+RPM_NAME = "jackson-dataformat-xml-2.13.3-1.8.noarch.rpm"
+RPM_HASH = "5c7e82fda95f0f9e14567e07967975ca388016d2bcba7d58b288ea206b66fcf4bcc2ead4a4d64835081d89fd28c3c5c6470c071d2a0108fdbf7824e96aea79a6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-dataformat-xml \

@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.24.5"
 
-RPM_NAME = "gtkmm2-devel-2.24.5-4.3.aarch64.rpm"
-RPM_HASH = "548a750f9280f5aa62b73604172c17003612f4036d138512e654849586bcea77b03a9a9a05a680a53cee12c916898123ad40dafa298ea8a2598334949b4fcae8"
+RPM_NAME = "gtkmm2-devel-2.24.5-4.4.aarch64.rpm"
+RPM_HASH = "38cad78fc3c828ab024072a0815bf8fedd032a72ffc2c1eaad64eab0705d659152e73d04b512ee82819ce3781f761d6c2da99c7ed8d450ee2153d6ffe6959799"
 
 RPROVIDES:${PN} += "gtkmm2-devel \
 gtkmm2-doc \

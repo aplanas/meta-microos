@@ -7,8 +7,8 @@ LICENSE = "CPL-1.0"
 
 PV = "3.21.0"
 
-RPM_NAME = "openCryptoki-devel-3.21.0-1.1.aarch64.rpm"
-RPM_HASH = "9a8f636600cd1febe4c84872552c4f8e734928d5fe3952e06581d6c9150d99732e34713bd4b46b11c297769dc80f1326084b548193a3de1449e2ffc1803892f9"
+RPM_NAME = "openCryptoki-devel-3.21.0-1.3.aarch64.rpm"
+RPM_HASH = "813bcef72cb6a85a0a76995e06ceac0bc6c094d1b7778f683511cae6b14a58ef1b5be88c3b29c2e4a1db9ddacfe21e17044a2e7673eb2474ac88c7e61748aa0c"
 
 RPROVIDES:${PN} += "openCryptoki-devel \
 pkgconfig-opencryptoki"

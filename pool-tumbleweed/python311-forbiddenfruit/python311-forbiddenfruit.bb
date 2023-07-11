@@ -5,10 +5,11 @@ LICENSE = "GPL-3.0-only | MIT"
 
 PV = "0.1.3"
 
-RPM_NAME = "python311-forbiddenfruit-0.1.3-2.17.aarch64.rpm"
-RPM_HASH = "ca24bd9b7efe27ed04af57bef46d6acc77b2fc5f1ef305abe0ea2e576b03863469c75a7fec62d292cc87f2d5225d664d35fe7db8fd5c4edd185096191e395bd0"
+RPM_NAME = "python311-forbiddenfruit-0.1.3-2.19.aarch64.rpm"
+RPM_HASH = "0c5d8d114307f3693f6b8e9530553ffccf70314e5f213530cff73c8e9785716a0451c4dcf0ea6eecb30e324433dd62532f0313058ad8b01ec45bb524a57496cb"
 
-RPROVIDES:${PN} += "python3.11dist-forbiddenfruit \
+RPROVIDES:${PN} += "python3-forbiddenfruit \
+python3.11dist-forbiddenfruit \
 python311-forbiddenfruit \
 python3dist-forbiddenfruit"
 

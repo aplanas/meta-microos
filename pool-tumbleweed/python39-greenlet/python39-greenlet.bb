@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "2.0.2"
 
-RPM_NAME = "python39-greenlet-2.0.2-1.1.aarch64.rpm"
-RPM_HASH = "34e012263e2c1007ef60b1c6c9ce698ac96757ba7c1b9bbf9e0574057374502e971d686374770adac005ea0e44c089ec426dacd35ac1537bd44c4f4dad6c1f5c"
+RPM_NAME = "python39-greenlet-2.0.2-1.3.aarch64.rpm"
+RPM_HASH = "ade5510f41f56364497cafc1ca755169daa730d384ac44476758d2c7f8431a875173140263f07ae9cb609a2374bdf413b284f406d8965fc228c17911ebd0dc52"
 
 RPROVIDES:${PN} += "python3.9dist-greenlet \
 python39-greenlet \

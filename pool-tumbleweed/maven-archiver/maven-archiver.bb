@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.5.0"
 
-RPM_NAME = "maven-archiver-3.5.0-2.12.noarch.rpm"
-RPM_HASH = "d6d25e4a3f44bdf2145f1281c3803792e839e86eedc93b51f44fe4be72268b84f60a64a7bfdb7e46456c58933e485fd02e4317cda90bdc1baaf80a2c6aab5907"
+RPM_NAME = "maven-archiver-3.5.0-2.13.noarch.rpm"
+RPM_HASH = "43e69d838d17ccefc43ad5a437ba8ee2be3edb317ca4cb0bfa365afbc028d60c1faa124f521262666b9547e9a35f732144309decfd76d1b224d7276d1666a3a4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-archiver \

@@ -7,10 +7,10 @@ alphabets (such as are normally addressed via macros \\mathcal, \
 normally missing in existing packages for this job."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.143svn61089"
+PV = "2023.208.1.143svn61089"
 
-RPM_NAME = "texlive-mathalpha-2023.201.1.143svn61089-52.1.noarch.rpm"
-RPM_HASH = "122f15a3e4064cf2baa350f3e02e57edd469ca1a1e990750d2b13fb715afc1d712a122b96156b337cd94646280132c05fed54cb78afe66ef461b9d68a2e40d7c"
+RPM_NAME = "texlive-mathalpha-2023.208.1.143svn61089-53.1.noarch.rpm"
+RPM_HASH = "7e0370435d38d40a7363e4b1826e6a70584bcf3cfc57ccc20c086f6fa28373cd0bdb9e689fc39340ccfda900bce838103f95ee3f9caffb3d94d548fa12fb0a5e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mathalfa.sty \

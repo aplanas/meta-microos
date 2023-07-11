@@ -10,8 +10,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.1"
 
-RPM_NAME = "jakarta-commons-transaction-1.1-28.6.noarch.rpm"
-RPM_HASH = "037f7402ed8f607cb8fd5bf1f48818ecf799e630a970fe6c536c3cce78bf83261dc32d47936c5ca002608c8eadf5a68caa6f8270cbed5e2f76d8c0bc31452555"
+RPM_NAME = "jakarta-commons-transaction-1.1-28.7.noarch.rpm"
+RPM_HASH = "736cc08fd12639dad674c36d7de1b363085b0380354af5ad29521cb4bc275d51d46698a44c9b4621e71fbfa55227d14416dd642d1e1358204d7842d4c5b420df"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jakarta-commons-transaction"

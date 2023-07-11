@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kross"
 DESCRIPTION = "Provides translations for the 'kross' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "kross-lang-5.106.0-1.1.noarch.rpm"
-RPM_HASH = "72d477e7cee533d90bccf1d7afa4999b33586dfdc13f041f8daad64e9d5bd69099d9c6e8394aae7ea94da4a9361cf13761c23e8f1678f0866a3b3c497a39f1bc"
+RPM_NAME = "kross-lang-5.107.0-1.1.noarch.rpm"
+RPM_HASH = "dd55cffe6e9efb2b807f95aa18cfd9d5340dceae3dd081d8d1e888e8db2f521389d23477abdd8401a0f180b1e0e4954f122a0d56b813740becd6a5437ff134be"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kross-lang \

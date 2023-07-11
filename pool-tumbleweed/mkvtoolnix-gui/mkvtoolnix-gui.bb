@@ -2,10 +2,10 @@ SUMMARY = "Graphical user interface for mkvtoolnix utils"
 DESCRIPTION = "This package contains the graphical user interface for the mkvtoolnix utils."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "77.0"
+PV = "78.0"
 
-RPM_NAME = "mkvtoolnix-gui-77.0-1.1.aarch64.rpm"
-RPM_HASH = "112dd741f5d08da0e255989c42651a9ffe27d5452f8cb98bdb0e7bf2d6b7e17658cbfc2f468a87a5f1f0c71513645db4ecf8b58906fcc34c323ac487c28a16cc"
+RPM_NAME = "mkvtoolnix-gui-78.0-1.1.aarch64.rpm"
+RPM_HASH = "c28d991b9b6e2d06e0067dd7f6794bd17517828b9bd8faffb84673b7819c99c5b53fa642b615dbac2a3bc4aaf451a966e336a56d4783a7fe2be07d0d79a889cb"
 
 RPROVIDES:${PN} += "mkvtoolnix-gui"
 

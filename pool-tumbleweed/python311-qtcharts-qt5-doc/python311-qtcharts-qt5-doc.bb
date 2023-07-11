@@ -4,11 +4,12 @@ LICENSE = "GPL-3.0-only"
 
 PV = "5.15.6"
 
-RPM_NAME = "python311-qtcharts-qt5-doc-5.15.6-1.12.noarch.rpm"
-RPM_HASH = "558600261f11ce5e69bc1f6f23ece2bfeafeb29f8b738f16fb1d35e6abcac85da143608b35ca7d6565fcbea294d57b601fe37a756f48cb60e553f6e92184d774"
+RPM_NAME = "python311-qtcharts-qt5-doc-5.15.6-1.14.noarch.rpm"
+RPM_HASH = "bc9b113ed2c27488a709677b2d37a9cdec4dbccfed30c3436a18e617b6a54a5a7d9f8969ec9cafda81ec601f04f42a7fb035a756eec401c83008f491bae1a858"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python310-qtcharts-qt5-examples \
+RPROVIDES:${PN} += "python3-qtcharts-qt5-doc \
+python310-qtcharts-qt5-examples \
 python311-qtcharts-qt5-doc \
 python311-qtcharts-qt5-examples \
 python39-qtcharts-qt5-examples"

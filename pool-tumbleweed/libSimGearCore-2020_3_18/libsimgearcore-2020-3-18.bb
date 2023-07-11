@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later & MIT"
 
 PV = "2020.3.18"
 
-RPM_NAME = "libSimGearCore-2020_3_18-2020.3.18-1.1.aarch64.rpm"
-RPM_HASH = "90ed2b0209477fd6f2fc4ba0beae78b4b4535e49a48775184df94a0face80b8c18cc2ec08826cbff3acca2285844ba8e7a45cf66def09418cfe5b406618527cd"
+RPM_NAME = "libSimGearCore-2020_3_18-2020.3.18-1.2.aarch64.rpm"
+RPM_HASH = "98a3eb21c3190efe0b0fe96405ed86e53e70060a12ac73613ab60545d857386fb9ab4951ca4e7413d1614f9aa17734e94dbc1746dbe16c156981ca65c5211c8a"
 
 RPROVIDES:${PN} += "libSimGearCore-2020-3-18 \
 libSimGearCore.so.2020.3.18 \

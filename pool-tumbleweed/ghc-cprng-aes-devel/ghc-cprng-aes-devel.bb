@@ -4,11 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6.1"
 
-RPM_NAME = "ghc-cprng-aes-devel-0.6.1-4.2.aarch64.rpm"
-RPM_HASH = "cd0b8600e69c1a0d722dbf7e22ca52eae4cd10692325ee053c9fb4150b50646f9607a9903cacf9cf456860f81d8d327890962d6f36a6185597d69ecd5325164a"
+RPM_NAME = "ghc-cprng-aes-devel-0.6.1-4.3.aarch64.rpm"
+RPM_HASH = "13478e6d9b6521b236ebd7a7282832f65891df5b0c229316cd70775cd65fe41016912b62cf9959debc6a61e012a1c06d36f8ddf18f8cc7e215a60477ecc42400"
 
 RPROVIDES:${PN} += "ghc-cprng-aes-devel \
-ghc-devel-cprng-aes-0.6.1-169qys47NiB5UR1VcEjGCA"
+ghc-devel-cprng-aes-0.6.1-57mLrS8iLhhDpycOALP7vk"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
@@ -16,7 +16,7 @@ ghc-cprng-aes \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-byteable-0.1.1-KSaZugJOm4ALb4WyX9cufg \
 ghc-devel-bytestring-0.11.4.0 \
-ghc-devel-cipher-aes-0.2.11-Izmj38K7uNp7rHcFTtfQFi \
-ghc-devel-crypto-random-0.0.9-JRbP8k0BmeXEHkvOdlpIfk"
+ghc-devel-cipher-aes-0.2.11-AUtsAMArdsjvHtn454bNK \
+ghc-devel-crypto-random-0.0.9-60vlsiR41hHGmZ9VjOCRvw"
 
 inherit rpm

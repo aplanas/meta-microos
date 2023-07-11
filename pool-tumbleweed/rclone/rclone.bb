@@ -4,10 +4,10 @@ directories to and from a wide variety of cloud storage providers, providing \
 various additional features."
 LICENSE = "MIT"
 
-PV = "1.62.2"
+PV = "1.63.0"
 
-RPM_NAME = "rclone-1.62.2-2.2.aarch64.rpm"
-RPM_HASH = "196bb3814b5168ef977af821773724273a8bc4935a1970f8cc707eda36b2282215307446ed8700c3a4a6e5df0294430c6b7dd6efae36a367905e589e8bd2f5b6"
+RPM_NAME = "rclone-1.63.0-1.1.aarch64.rpm"
+RPM_HASH = "fbe0417775e89ce341a3d14749ee9294f234b80f8d3ec4aabf032616969451b9ca55916c36600a83c1f37797c800c154bd21313a27c07c2d0f41fdb93222c4d6"
 
 RPROVIDES:${PN} += "rclone"
 

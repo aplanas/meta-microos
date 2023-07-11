@@ -6,10 +6,10 @@ workspaces, opaque move and resize, a taskbar, a window list, \
 mailbox status, and a digital clock. It is fast and small."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.3.5"
+PV = "3.4.0"
 
-RPM_NAME = "icewm-3.3.5-1.1.aarch64.rpm"
-RPM_HASH = "6122e836e0658b82d3e3cd8a6e4eda6aacd8099606b6198a60722aafcc931346f2bdaf1258f03b8f145bc37f377907ac0a7c21f830bdc7f5d61c4ec8c251fa42"
+RPM_NAME = "icewm-3.4.0-1.1.aarch64.rpm"
+RPM_HASH = "27f62d08e1b5fa334204a46a024e2533b3ddc368e774f0ca59d8a5e14f0b09998891fa0b1dc0c84648114c722fb7237973114e3e31acee90afec64e5bd3bb151"
 
 RPROVIDES:${PN} += "icewm \
 icewm-gnome \

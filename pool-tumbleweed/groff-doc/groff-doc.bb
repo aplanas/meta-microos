@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.22.4"
 
-RPM_NAME = "groff-doc-1.22.4-10.3.noarch.rpm"
-RPM_HASH = "e82a83810f54cf8489e3d6bc9e20d6bf1963a3dcc29185b88d627a1f783c61e0c70ec14a2eb281702a141d7b20694884b9264e54de7743f65c93e572654e9d87"
+RPM_NAME = "groff-doc-1.22.4-10.5.noarch.rpm"
+RPM_HASH = "b46556affd4608f68732b8a64b1ca5b28ae934c3c270f9225a68db3818d80cb191605d9b23afbcf489d91f60acd837d61095de2359dac0d82f7be0bd317e291a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "groff-doc"

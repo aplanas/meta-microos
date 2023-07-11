@@ -2,10 +2,10 @@ SUMMARY = "Development Libraries for QGIS"
 DESCRIPTION = "Development packages for QGIS, including the C header files."
 LICENSE = "GPL-2.0-only"
 
-PV = "3.30.2"
+PV = "3.30.3"
 
-RPM_NAME = "qgis-devel-3.30.2-1.1.aarch64.rpm"
-RPM_HASH = "3696ff2bf090ebce1b367a586019b14cde6fb3bec1e410017180bc7aafc0feaf6f1814e964985fce0292a34b40250ac1a17294417e95e76d28fb2cf065417513"
+RPM_NAME = "qgis-devel-3.30.3-1.1.aarch64.rpm"
+RPM_HASH = "7b6ad0a3463a0e25dc8189352c20c2b1348bfa6e614ba5cfbea313a3b8fd277bbb9e08e88e43b69058a30352bff91818cff6eb70178c0441a7d8921f9cf9da42"
 
 RPROVIDES:${PN} += "qgis-devel"
 

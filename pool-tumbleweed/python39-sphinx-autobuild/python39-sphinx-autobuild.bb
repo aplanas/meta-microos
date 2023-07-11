@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2021.3.14"
 
-RPM_NAME = "python39-sphinx-autobuild-2021.3.14-1.2.noarch.rpm"
-RPM_HASH = "2ee1f7a7d4867ddc60823a4bfbc321f4f8be8a509defa0573593059977fe95addbcf8184a8397734cee97964581ac18d3805880e57ce2601ffd1d58fc01c79d2"
+RPM_NAME = "python39-sphinx-autobuild-2021.3.14-1.4.noarch.rpm"
+RPM_HASH = "97fa9c167d9184aa88fa4cb71a6a2173690091284a9804bb9aefcc4642e51f6f3a2a75975657302493bb67029da3c40acbcf296efc109e9fdc90ac90c3406d15"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sphinx-autobuild \

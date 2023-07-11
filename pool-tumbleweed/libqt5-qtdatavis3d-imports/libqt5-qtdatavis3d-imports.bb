@@ -2,10 +2,10 @@ SUMMARY = "QML imports for the Qt5 Data Visualization module"
 DESCRIPTION = "This package contains QML import files for Qt5 Data Visualization module."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libqt5-qtdatavis3d-imports-5.15.9+kde0-1.1.aarch64.rpm"
-RPM_HASH = "a6f6d1686ca5d18646400a3a810ed5cf210d9951e818dd7c72079138b9b07a33e7cd04bd83a7a53ccd287372035c48e5bd686decfdc37fac17125c6250a65235"
+RPM_NAME = "libqt5-qtdatavis3d-imports-5.15.10+kde0-1.1.aarch64.rpm"
+RPM_HASH = "0534bf8101015a219db39852f15ba4845926ea00a8b91c2a51d228bf3ec6785cb993cee3bf31f9138e609e1869be99364e3a573de4c059b0b08d1c679b824598"
 
 RPROVIDES:${PN} += "libdatavisualizationqml2.so \
 libqt5-qtdatavis3d-imports \

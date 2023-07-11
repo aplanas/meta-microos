@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "1.2.0"
 
-RPM_NAME = "libinjeqt1-1.2.0-1.28.aarch64.rpm"
-RPM_HASH = "4a0f1cc8e438de41399d626bda2b39ff2fca2c49f54ee5928d16fbc0cbb0f6c5a893afe2c79548c792d98e19b18d90fd0464fff2c6b8846e938a3590688eb5e3"
+RPM_NAME = "libinjeqt1-1.2.0-1.29.aarch64.rpm"
+RPM_HASH = "dcf80aca5d6e7fb64312949cdfe0aeb40bc045af8e53fb90bcdfc899063ec120d883482c096db2d5b3d7b9cb18de9b81cb4071487e7a2f4a36f48d6515ab9d31"
 
 RPROVIDES:${PN} += "libinjeqt.so.1 \
 libinjeqt1"

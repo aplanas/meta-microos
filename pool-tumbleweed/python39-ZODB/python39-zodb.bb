@@ -8,8 +8,8 @@ LICENSE = "ZPL-2.1"
 
 PV = "5.8.0"
 
-RPM_NAME = "python39-ZODB-5.8.0-1.4.noarch.rpm"
-RPM_HASH = "50a8cd1054e11e4e830c485931c7d1692fe7ee67b1e18cdecf08ea3f7f72389c4b9085554f350acce0da3b806388f855e6e0a4ece899a97ba831cc139e718e19"
+RPM_NAME = "python39-ZODB-5.8.0-1.6.noarch.rpm"
+RPM_HASH = "4ba6f9fef81441f586cc0fe4fd9c5334885112ceb8db1ff99174cfed7db5729e5a2b07b170e91227eb644bcb744d0ec27f10961001ea6fcbb6ae3b3b3098edae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-zodb \

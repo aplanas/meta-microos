@@ -20,13 +20,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.05"
 
-RPM_NAME = "perl-Text-Wrapper-1.05-3.26.noarch.rpm"
-RPM_HASH = "27f87f5d5054f77cfd09934366a0d514339f4a769e9d6ca7b61234c79e0287e20d3f445704a6321f4fce6dab46f8bad8748dcc8c475a79868c10dec0cbedf6d6"
+RPM_NAME = "perl-Text-Wrapper-1.05-3.27.noarch.rpm"
+RPM_HASH = "349aee8e29af936dfd38ab92f7dba96052f932f3309b6f7d99d7cf79583f0bea477dbab5598c3d2b052698adb809b4edba39648bfe74cb495a7728e3954d0dbb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Text--Wrapper \
 perl-Text-Wrapper"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

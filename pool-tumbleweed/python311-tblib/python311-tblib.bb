@@ -20,11 +20,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.7.0"
 
-RPM_NAME = "python311-tblib-1.7.0-1.11.noarch.rpm"
-RPM_HASH = "0b70858d5980d1d084a28f4e948c983c92eccffc647c2900b180142d7d8b1acbe9bd494503ef3c514a442eb34ca02c2a98d223b4a85b34f5af3f0b4f08f9fc47"
+RPM_NAME = "python311-tblib-1.7.0-2.3.noarch.rpm"
+RPM_HASH = "ae53832a95e5922c74c6d6ebc0b900318032761782a28edeaeff50fca3736f68c234823189234cdb1770d253251c0498ed4eb8ea34084419cfda9b8eb410560b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-tblib \
+RPROVIDES:${PN} += "python3-tblib \
+python3.11dist-tblib \
 python311-tblib \
 python3dist-tblib"
 

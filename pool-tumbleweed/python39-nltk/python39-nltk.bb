@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.8"
 
-RPM_NAME = "python39-nltk-3.8-2.1.noarch.rpm"
-RPM_HASH = "4b46b844200c8675452393c82dd3bdce32989791093a259a5ccfb3700a9f918d15cfd3f7b1779decaed16142a3a9b4d000df19977fc239303fd3246bb79fb662"
+RPM_NAME = "python39-nltk-3.8-2.3.noarch.rpm"
+RPM_HASH = "020416956a5e5e7b7351d429c8c616bef46c5af67cb6da7e6bf65b084a5cc4247c5e5088b45b6eaf0bffe6a020916bad4ad851024835524d95266ed058542975"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-nltk \

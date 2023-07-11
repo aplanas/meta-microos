@@ -16,12 +16,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.12"
 
-RPM_NAME = "patool-1.12-2.6.noarch.rpm"
-RPM_HASH = "36f4f8a5ed0d61070477f1759ac7d12356ae25fe49b7738c2077a3072aee3aecee4283e4dfe9dada9004a847f879567f09ad40496a84a9e14134f6a49d8c6109"
+RPM_NAME = "patool-1.12-2.7.noarch.rpm"
+RPM_HASH = "94d0e2db387e9dc03677e59e9ecf49b04504821e90b5fd6c045100cc37c62c52c74140fe746e234cb6cb052c53a91541092528e639b64a9ddef28c1430779725"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "patool \
-python3.10dist-patool \
+python3.11dist-patool \
 python3dist-patool"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

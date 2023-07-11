@@ -4,11 +4,10 @@ LICENSE = "MIT"
 
 PV = "5.4.6"
 
-RPM_NAME = "python310-cbor2-5.4.6-1.5.aarch64.rpm"
-RPM_HASH = "9e3ae56a5e4fc4270ffebb5de4fb00b00e788231090cc8060acfa9adc1989d5aacde83b76b0deeed1120556ffc37e9918bb116acf754d3512227309832952db7"
+RPM_NAME = "python310-cbor2-5.4.6-2.3.aarch64.rpm"
+RPM_HASH = "369ac8ccebae641ecf0801f1d7fcf4ea7513261787b2b4ca12da7251b63a31066688f1289addf8a06ec2363c95922665c82a62f190744d3dc885b0c30f8547e5"
 
-RPROVIDES:${PN} += "python3-cbor2 \
-python3.10dist-cbor2 \
+RPROVIDES:${PN} += "python3.10dist-cbor2 \
 python310-cbor2 \
 python3dist-cbor2"
 

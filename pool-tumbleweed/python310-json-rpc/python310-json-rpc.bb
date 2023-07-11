@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "1.14.0"
 
-RPM_NAME = "python310-json-rpc-1.14.0-1.3.noarch.rpm"
-RPM_HASH = "28200edf084ae8e6d9c75a0e3eb6d5c00d6a1700a618195b9e5cbcd957e30f175db112796d79af63a81d97d47f862638402d17568fd4a072436dbd3dd4ef0704"
+RPM_NAME = "python310-json-rpc-1.14.0-1.5.noarch.rpm"
+RPM_HASH = "22795c5c8eaed1a10e8f6366786c447bb748d95620e0a03ba15e06380555730020c5bbd2f2207c8cfdb7d0e0d0c49a2e4bc29a26667d97b07e1a20815951a076"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-json-rpc \
-python3.10dist-json-rpc \
+RPROVIDES:${PN} += "python3.10dist-json-rpc \
 python310-json-rpc \
 python3dist-json-rpc"
 

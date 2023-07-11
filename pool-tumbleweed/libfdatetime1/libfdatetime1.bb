@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20220112"
 
-RPM_NAME = "libfdatetime1-20220112-4.2.aarch64.rpm"
-RPM_HASH = "cbaf69ca45d21cb06e0ac58fe117c2ba9c2da7fb7100a5de1bd840024b31fe7c262d90302a23c90761d325dcf388873b260293b86474b59f0011205893d6f730"
+RPM_NAME = "libfdatetime1-20220112-4.3.aarch64.rpm"
+RPM_HASH = "b5c166b92f86ecb822a4d259bdd7c4216ad7b61887c1a9a81a3caedee7e0e39b657a10413671d2a51757041ecf0fb48673cff35ccbe36cc62291fec4ab3ca13b"
 
 RPROVIDES:${PN} += "libfdatetime.so.1 \
 libfdatetime1"

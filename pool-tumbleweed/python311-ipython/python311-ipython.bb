@@ -29,14 +29,21 @@ following main features: \
  * Integrated access to the pdb debugger and the Python profiler."
 LICENSE = "BSD-3-Clause"
 
-PV = "8.13.2"
+PV = "8.14.0"
 
-RPM_NAME = "python311-ipython-8.13.2-1.1.noarch.rpm"
-RPM_HASH = "5f060a9377b47b7035efc75cec4807035602cda84b6dbc79ebfc682300e32efc86201319d3038b41115379c616fa218a03d9ae5bad72429f2bb7df190e8fb5cc"
+RPM_NAME = "python311-ipython-8.14.0-1.3.noarch.rpm"
+RPM_HASH = "fda010e053813069e72477f7cb0db3c8e8b72f5760f80ab0f943b8ed60f23850d5757c155b9c849162fc2c6140cba9212515ecd3b77a42fedbab21db7001f371"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "IPython3 \
 jupyter-ipython \
+python3-IPython \
+python3-ipython \
+python3-ipython-doc \
+python3-jupyter-ipython \
+python3-jupyter-ipython-doc \
+python3-jupyter-ipython-doc-html \
+python3-jupyter-ipython-doc-pdf \
 python3.11dist-ipython \
 python311-IPython \
 python311-ipython \

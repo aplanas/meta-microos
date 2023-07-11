@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
 PV = "2.3.1"
 
-RPM_NAME = "monitoring-plugins-overcr-2.3.1-9.4.aarch64.rpm"
-RPM_HASH = "5663594969e5ee182125a857c034ab198310f556cd498057d1513d5129bf1c88e1c3c7809d84a2b1eba4617144e51793633afc13367081367f1f6714bec0f61f"
+RPM_NAME = "monitoring-plugins-overcr-2.3.1-9.5.aarch64.rpm"
+RPM_HASH = "dc720deec74366e40e1c793d23b1d622362826bdae25ee0b96057b8b97a41de1426151f992d94a441294accaa8c0199d510f2f5e7365d083edc5ebf6b7cd47bd"
 
 RPROVIDES:${PN} += "monitoring-plugins-overcr \
 nagios-plugins-overcr"

@@ -12,8 +12,8 @@ LICENSE = "AGPL-3.0-or-later & GPL-3.0-or-later & GPL-2.0-or-later & LGPL-2.1-or
 
 PV = "1.4.1"
 
-RPM_NAME = "openbsc-1.4.1-1.10.aarch64.rpm"
-RPM_HASH = "0e32adbe1f7e180f272851315f0cc85594709668cca54a9d34926e7f4d8c4ffc61a6033bf9366c4c2f26468c7e21a83768df4bbe736b540cdd371ec721d0f0c9"
+RPM_NAME = "openbsc-1.4.1-1.11.aarch64.rpm"
+RPM_HASH = "14bb674de75df10eaab27f0893c876026a1c715ce7075bc4d8c972f1ab7e4023723c5db0f2d94383845df3622269b90601276476588a3caa409935eedbf792d5"
 
 RPROVIDES:${PN} += "config-openbsc \
 openbsc \

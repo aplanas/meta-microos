@@ -4,11 +4,10 @@ LICENSE = "MIT"
 
 PV = "1.6"
 
-RPM_NAME = "python310-ndindex-1.6-1.1.aarch64.rpm"
-RPM_HASH = "0d71e03748e8188b913ecadcadd4da95c438ad98b195479d96b56f894cd3f06250542c22d3b1456d6ec41852c19182cabde4ccf465aa0b42362220120c90a7a3"
+RPM_NAME = "python310-ndindex-1.6-1.3.aarch64.rpm"
+RPM_HASH = "384fc5838c6d571d800392bc624276e3af3ac81b7021316e42d425517cbb840309903ca6d594e534a3df5e38583f24dcd1631c5865036fb6a9aed6b34a3ce718"
 
-RPROVIDES:${PN} += "python3-ndindex \
-python3.10dist-ndindex \
+RPROVIDES:${PN} += "python3.10dist-ndindex \
 python310-ndindex \
 python3dist-ndindex"
 

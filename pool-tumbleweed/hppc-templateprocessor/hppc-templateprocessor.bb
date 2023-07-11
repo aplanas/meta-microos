@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.7.1"
 
-RPM_NAME = "hppc-templateprocessor-0.7.1-3.10.noarch.rpm"
-RPM_HASH = "6ff45054485595100418d1ad0a9af9d35bb86aff9a8995b017ff67601209d91a9624ec9e193c758b44689bebbbb4359904e5e4e83e8c8af560cb89e19106f9f2"
+RPM_NAME = "hppc-templateprocessor-0.7.1-3.11.noarch.rpm"
+RPM_HASH = "b89d8511ad574799d8049d9a64a8bf357f8cddaffc47363bcc52d69393d7c8e7083f5f58f00fc1e5ff7ef3821e79213c77a224e6439c4d19063b517903227b48"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hppc-templateprocessor \

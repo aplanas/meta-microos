@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4.0"
 
-RPM_NAME = "exfat-utils-1.4.0-1.3.aarch64.rpm"
-RPM_HASH = "733bedbe7e455ad8a5018b4e14bdc0918cc85c535113fa187ce867db09b431884dc9c3a999b6c310b5b3cbcc82a343eef82215ecf9e87204739c8127252e5df7"
+RPM_NAME = "exfat-utils-1.4.0-1.4.aarch64.rpm"
+RPM_HASH = "ebf17b583cbb105572496830ecabf8951f9b65042a36a5810ea31e0749ad77017409b95436a1c1c7237f6b55aa07c3e21b8c7b2f621c9800c5a0cd91b99e889c"
 
 RPROVIDES:${PN} += "exfat-utils"
 

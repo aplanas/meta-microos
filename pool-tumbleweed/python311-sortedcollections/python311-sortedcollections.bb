@@ -15,11 +15,12 @@ LICENSE = "Apache-2.0"
 
 PV = "2.1.0"
 
-RPM_NAME = "python311-sortedcollections-2.1.0-1.10.noarch.rpm"
-RPM_HASH = "b51b461a682ee24b68d29e3e9c647211523c07fff6cb5b1fd7369a85572edff5d5bd45e3829d0dbe6086a48c95e98b615365c378e9295f4458fdd955aa1ed6b7"
+RPM_NAME = "python311-sortedcollections-2.1.0-1.12.noarch.rpm"
+RPM_HASH = "028aee74250c46b8107d06318339bc7eb431d5e78dea93ee87a79dc6a80dbc9fb6265adeaaab530a5e9e4e5697a3b654682b3650da7611960dc6383e2e9e3489"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-sortedcollections \
+RPROVIDES:${PN} += "python3-sortedcollections \
+python3.11dist-sortedcollections \
 python311-sortedcollections \
 python3dist-sortedcollections"
 

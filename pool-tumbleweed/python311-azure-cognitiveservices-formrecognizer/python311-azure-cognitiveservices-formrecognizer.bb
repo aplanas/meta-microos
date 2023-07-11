@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "0.1.1"
 
-RPM_NAME = "python311-azure-cognitiveservices-formrecognizer-0.1.1-2.11.noarch.rpm"
-RPM_HASH = "0d38500b248970cce1032f26880344a761e5032845ffda7cfb9a3acb67ec23451b0feaaf46cbd8bcb2e57be6128dafed3eba0ae41fddc656baa8e0d3d6e6128c"
+RPM_NAME = "python311-azure-cognitiveservices-formrecognizer-0.1.1-2.12.noarch.rpm"
+RPM_HASH = "f844d231dcbf36340ca4ce866f3dc28bccfaf85661762c2cb1e6c94e9db72b111b5c90df1f6ab74304ff38ed323943e84d0f67a48c8a60dc25006de69b8f5afb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-cognitiveservices-formrecognizer \
+RPROVIDES:${PN} += "python3-azure-cognitiveservices-formrecognizer \
+python3.11dist-azure-cognitiveservices-formrecognizer \
 python311-azure-cognitiveservices-formrecognizer \
 python3dist-azure-cognitiveservices-formrecognizer"
 

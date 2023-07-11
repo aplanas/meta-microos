@@ -5,11 +5,12 @@ LICENSE = "BSD-3-Clause & MIT"
 
 PV = "3.19.0"
 
-RPM_NAME = "python311-marshmallow-3.19.0-4.1.noarch.rpm"
-RPM_HASH = "6131e7c67c604aa4fc2a2ac1722d86d51edf57bd32990fb9d047b23d4db426a4cf77b098c6d40c22fbe7d573c1d4ba7f66e86c975298620a20a559e8f697c034"
+RPM_NAME = "python311-marshmallow-3.19.0-4.2.noarch.rpm"
+RPM_HASH = "65eab1d960ad3341baef15f3e461f8e63e40ab2502b1ac49ef8ef021a8c1e21591a10098eab89b4004e63b8720158697958aa4fe32b1e2cbfd2c91b2d717faa6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-marshmallow \
+RPROVIDES:${PN} += "python3-marshmallow \
+python3.11dist-marshmallow \
 python311-marshmallow \
 python3dist-marshmallow"
 

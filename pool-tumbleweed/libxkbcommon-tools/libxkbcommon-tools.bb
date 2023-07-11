@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.5.0"
 
-RPM_NAME = "libxkbcommon-tools-1.5.0-1.3.aarch64.rpm"
-RPM_HASH = "30724622a2eaa7fd8f848ad124c8006f3ef08a81bbb9936ce8a51ef94242cfe9fd9079e1c643323e73cffad321c6434210ef0f17cc516bd79689b235b37a21c8"
+RPM_NAME = "libxkbcommon-tools-1.5.0-1.4.aarch64.rpm"
+RPM_HASH = "f5b2d597024e222d498dd5949892f1cde53dc55b3b86d0e77d8d499652b094bb23bd8af8584328c9af25d0949861098c410a10a966c212f57c0fc4e8769f300f"
 
 RPROVIDES:${PN} += "libxkbcommon-tools"
 

@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "4.5.0"
 
-RPM_NAME = "python311-textdistance-4.5.0-1.3.noarch.rpm"
-RPM_HASH = "7af2c461fa7a809ee7c31c250ee37bb6bbdfed354f73a9a76d62dd01fa0d8e4518efe743668fe474e7e6a4ceba7b5103b1d994c898d89ab0c275b560938d9e93"
+RPM_NAME = "python311-textdistance-4.5.0-1.5.noarch.rpm"
+RPM_HASH = "a8d9fbdfbdfff0dacf3866578792f435ef34a4cad2193f39f24538bfd03a873509ec115d578f8ba169f59d4b66c348237ee1f9efdfb56532215b9983f43bf006"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-textdistance \
+RPROVIDES:${PN} += "python3-textdistance \
+python3.11dist-textdistance \
 python311-textdistance \
 python3dist-textdistance"
 

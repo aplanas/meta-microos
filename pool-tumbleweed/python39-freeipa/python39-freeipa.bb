@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.0.6"
 
-RPM_NAME = "python39-freeipa-1.0.6-1.8.noarch.rpm"
-RPM_HASH = "71b8135bfade9245279091dcce6146d73210a3b30c79edd5f9c74eaa79593e138a1989f3cd465cfbd8ebc532f4e86cc55493805ebd9e83f7a615422153d5380d"
+RPM_NAME = "python39-freeipa-1.0.6-1.10.noarch.rpm"
+RPM_HASH = "1dfaa02031de2bd3f6f976502c3e78c3767db792043b7ba199c38456cb48290a4691ef931c79cbbb1df7ca0941ccb7bd564103701065ac82b16d197e58eebd40"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-python-freeipa \

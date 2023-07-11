@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.9.18"
 
-RPM_NAME = "libhavege2-1.9.18-2.3.aarch64.rpm"
-RPM_HASH = "7ae0530d0b3b3617c534e7bc7fb816c0a82f5dd017853dbb86c80f653057c0b21b3a91cba0a46f8ba3ae56a5a135ca29fb249239f85980b7e8c59153d7189b0f"
+RPM_NAME = "libhavege2-1.9.18-2.4.aarch64.rpm"
+RPM_HASH = "ddae791b90e280bff9f2eb2fe70bd4b216f9fd12bd4f48ca16175b9ce382a61aa1445dad77806c0f59dd03bee67f2d74c38845cb7d4cd487209f1ca9b1e7a2c9"
 
 RPROVIDES:${PN} += "libhavege.so.2 \
 libhavege2"

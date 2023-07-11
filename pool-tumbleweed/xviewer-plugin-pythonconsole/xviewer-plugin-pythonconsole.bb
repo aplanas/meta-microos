@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4.1"
 
-RPM_NAME = "xviewer-plugin-pythonconsole-1.4.1-1.6.aarch64.rpm"
-RPM_HASH = "0c982788f7701cf47eec8f57ec0988cd61b23a9aeecf73b0dabba386f5d8e38c4742e4e6403f40cff4147ed0e011de74622ed3c31afa87676b829195e3ec5980"
+RPM_NAME = "xviewer-plugin-pythonconsole-1.4.1-1.7.aarch64.rpm"
+RPM_HASH = "eb5a90387cc0c9ebdf94009250d68156d9ad336cd8df59aaea47ce728b18bff1635cb24999186fcc34e58baa222f38633e521efa923fbfa87e80569f09973e91"
 
 RPROVIDES:${PN} += "xviewer-plugin-pythonconsole \
 xviewer-plugins-/usr/lib64/xviewer/plugins/pythonconsole.plugin"

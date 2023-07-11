@@ -5,8 +5,8 @@ LICENSE = "GFDL-1.1-only & LGPL-2.1-or-later"
 
 PV = "3.9.1"
 
-RPM_NAME = "libregina3-3.9.1-6.9.aarch64.rpm"
-RPM_HASH = "9e65aa4608dee7cf0541083e13d21be65e88afdb03c49ae4d4199bc288699ac521dae9aa5ab5ca6e9e0d8f2494597aa770c733b71b3a56c8e1c270f1a4823ae5"
+RPM_NAME = "libregina3-3.9.1-6.10.aarch64.rpm"
+RPM_HASH = "dad1cde4553c5a1a06aa9a5bc7dfe04777990a8ce949d75a47f365a974239d47c952013cf66fd99768c71eb74934a8dc9e9f8152baf9ca315caed18af83e8298"
 
 RPROVIDES:${PN} += "libregina.so.3 \
 libregina3"

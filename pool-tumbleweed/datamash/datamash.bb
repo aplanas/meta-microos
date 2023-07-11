@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.8"
 
-RPM_NAME = "datamash-1.8-1.8.aarch64.rpm"
-RPM_HASH = "c3960b2c7429cb34215fe10968381bc00fcd775c99ffaeca0e74804c4f5753d41c94203402bd4e8c50664fd33a2eb3d1bbc967ae51b57b964959d12bd9a25bb6"
+RPM_NAME = "datamash-1.8-1.10.aarch64.rpm"
+RPM_HASH = "5f03349180d3284bf5f808c0cdb67d67308790426257c261025652b71ff071ffe89cfadfb9a037c9e8d7c05823c4df7e833c280c7c7cb0ecaef761abbcfe6d58"
 
 RPROVIDES:${PN} += "datamash"
 

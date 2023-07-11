@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.0"
 
 PV = "2.1.3"
 
-RPM_NAME = "cunit-devel-2.1.3-5.26.aarch64.rpm"
-RPM_HASH = "f8dab345af13b97a741a8706df42be0bd94be75ceb27e2f9ca5598486a0a246224693527c94bce29f3d833bc504c543edc9028df88dc839b0e636080e36e09e4"
+RPM_NAME = "cunit-devel-2.1.3-5.27.aarch64.rpm"
+RPM_HASH = "bb7763df5022a994a5fb0f1270dd9e8bda7ddeb801fa249dd48a7ac5de9237df4d00e24940e783fc6334efb1a832253b91a37298aa4c7e1a17768c0862f4dd4c"
 
 RPROVIDES:${PN} += "cunit-devel \
 pkgconfig-cunit"
@@ -17,6 +17,6 @@ libc.so.6 \
 libcunit.so.1 \
 libcunit1 \
 ncurses-devel \
-pkgconf-pkg-config"
+pkg-config"
 
 inherit rpm

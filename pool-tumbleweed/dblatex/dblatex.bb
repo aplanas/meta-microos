@@ -6,12 +6,12 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.3.12"
 
-RPM_NAME = "dblatex-0.3.12-1.9.noarch.rpm"
-RPM_HASH = "056e193900ce5a3ebdf1dccf987b8be8a5f2c66854dd536ae06685c60578c06fd3bb8ef0086ab28298891a2ca58f69afcfcdaa133d0800e573267b665ecab931"
+RPM_NAME = "dblatex-0.3.12-1.10.noarch.rpm"
+RPM_HASH = "a2ecab66d748cf74e6a8f373c76e15b144fbcb072124f638bc3a69e904b674a8dc10dd5ca2427b4397e4291b38df4de665bfbe7aaff4ef3e282ddee0de114bda"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dblatex \
-python3.10dist-dblatex \
+python3.11dist-dblatex \
 python3dist-dblatex"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

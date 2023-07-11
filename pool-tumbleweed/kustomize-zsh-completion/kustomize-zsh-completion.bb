@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "4.5.7"
 
-RPM_NAME = "kustomize-zsh-completion-4.5.7-1.3.noarch.rpm"
-RPM_HASH = "748c646fe07d9ce9b236103b124451245d8a06614ea159c87c7c9ca6a7dd2b922d1a146a6cd3c1a63e4b42cb81e30932c343f5dc8cde7e71c73c1f2e63b9c13f"
+RPM_NAME = "kustomize-zsh-completion-4.5.7-1.4.noarch.rpm"
+RPM_HASH = "844814e6490dac63322eb7223dd47257ef578816d17a7e5b0370e5e29113af3c0a784301efa652e4c86b35a42618326ee17a20c6105e7680dfea9452b41b9db8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kustomize-zsh-completion"

@@ -4,10 +4,10 @@ for several languages not included in that package: BUGS, JAGS, \
 and Stan."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn48160"
+PV = "2023.208.svn48160"
 
-RPM_NAME = "texlive-lstbayes-2023.201.svn48160-52.1.noarch.rpm"
-RPM_HASH = "d1e2ca44387aef425b66fcf9225b7ee9398d16803705ca0045045fa8d49b2c423255879558a09ad80caac3cc0c5e28e1b8f7087f2e68a80b339dad01f52d6a2e"
+RPM_NAME = "texlive-lstbayes-2023.208.svn48160-53.1.noarch.rpm"
+RPM_HASH = "9de93bc1b816d3c98d433036f7fd2bfdcee073be79231af26a75cf04c3b9a6ac37f10153ee2311b660bbacaf3750f93329bb2e6782297fa069e57cded8736b6a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lstbayes.sty \

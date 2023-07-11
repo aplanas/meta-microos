@@ -7,12 +7,11 @@ LICENSE = "Apache-2.0"
 
 PV = "0.38.2"
 
-RPM_NAME = "python310-scour-0.38.2-1.11.noarch.rpm"
-RPM_HASH = "e968dcc78a282bcc318cc5af90491a82c6d4ed0c3fe65114f26e9c0a285623e6adc2908a3017591b1b7d47040f405f9f5587d8146ca85be43c27c1ea92170926"
+RPM_NAME = "python310-scour-0.38.2-2.3.noarch.rpm"
+RPM_HASH = "552855aac03dc9929b5c6d6221614c3b80ef29c6e31efd85a4a2cc1cc0719c82ef6da47bf6f71428f893f365e54685c0b8f22db246d0a5f830ca14224e4f26de"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-scour \
-python3.10dist-scour \
+RPROVIDES:${PN} += "python3.10dist-scour \
 python310-scour \
 python3dist-scour \
 scour"
@@ -21,7 +20,6 @@ RDEPENDS:${PN} += "/usr/bin/python3.10 \
 /usr/bin/sh \
 python-abi \
 python310-setuptools \
-python310-six \
 update-alternatives"
 
 inherit rpm

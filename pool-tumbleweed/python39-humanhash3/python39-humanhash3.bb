@@ -4,8 +4,8 @@ LICENSE = "Unlicense"
 
 PV = "0.0.6"
 
-RPM_NAME = "python39-humanhash3-0.0.6-2.17.noarch.rpm"
-RPM_HASH = "acc658e3f637ff573098f334c6f5e74f8602b46daf88dbbb29952e3279b8cbc45377f6d2626b3a798cac555b2b2bfd43e052233152cbab6e462a8f183edd381f"
+RPM_NAME = "python39-humanhash3-0.0.6-2.18.noarch.rpm"
+RPM_HASH = "a58ab591c72d1c87548ff57c69d3d0385b4461e6deed2d75a9aaefb864297800f59027da2023d21f01810eaa5f6a94f000c8b75ca06e27dd86c238733966cb87"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-humanhash3 \

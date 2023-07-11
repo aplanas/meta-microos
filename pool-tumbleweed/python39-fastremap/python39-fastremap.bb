@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "1.13.5"
 
-RPM_NAME = "python39-fastremap-1.13.5-1.1.aarch64.rpm"
-RPM_HASH = "7c2e7dab2c2644cecd5fa15998e24b1dc1d210a6a3b777d494ad62019c4d994e74211d80e32f4b8dda770d500b78144fe56716e1cee3e8539eeae7c717e579c7"
+RPM_NAME = "python39-fastremap-1.13.5-1.3.aarch64.rpm"
+RPM_HASH = "008b836f7ea8b35947a06fa4738ea79c5dd458b212dfd9bc72b98dd31fb95a4e6a26cc642cad2f97172e5f1d58bd3482502330425d455335c6b7c322833e486c"
 
 RPROVIDES:${PN} += "python3.9dist-fastremap \
 python39-fastremap \

@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.5.4"
 
-RPM_NAME = "sqlcipher-devel-4.5.4-1.1.aarch64.rpm"
-RPM_HASH = "ebbf5e6e6345df5584239e1cb30d451876275f6406cd4e71e64610bd570566650a95892364d5db0298dc1b105ed90e9533836f5a10fc512857b045db4b8f1680"
+RPM_NAME = "sqlcipher-devel-4.5.4-1.2.aarch64.rpm"
+RPM_HASH = "80d57666320216ddd66cdbfed43de2079cd6c09d72c3ee09e11e1aed4126a5125088076813ca4b5e441ff04c51668c104b4223b79997141817e0414abe5e1635"
 
 RPROVIDES:${PN} += "pkgconfig-sqlcipher \
 sqlcipher-devel"

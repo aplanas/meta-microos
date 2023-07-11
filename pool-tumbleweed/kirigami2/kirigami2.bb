@@ -2,10 +2,10 @@ SUMMARY = "Set of QtQuick components"
 DESCRIPTION = "QtQuick plugins to build user interfaces based on the KDE UX guidelines."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "kirigami2-5.106.0-1.2.aarch64.rpm"
-RPM_HASH = "03cf04cdcc63388f3806e670718777d8d9af9ab0ba6758eacf19bd72dafbbe693702d14bafb2a6a68f9ece12fbd3f565376a9157e98faf15747fbc80eca94cc8"
+RPM_NAME = "kirigami2-5.107.0-1.2.aarch64.rpm"
+RPM_HASH = "eefde19794e9b0da1cc6762396987c0e80254cd7218887c7a7d3fa5863ded4d205f8be9a7cffc222cefcfd7b2323a90ac3a6392687ad92127963f63f0034216a"
 
 RPROVIDES:${PN} += "kirigami2 \
 libKirigamiPlugin.so \

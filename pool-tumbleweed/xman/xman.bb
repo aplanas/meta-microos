@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.1.5"
 
-RPM_NAME = "xman-1.1.5-2.3.aarch64.rpm"
-RPM_HASH = "976f56574645fb16cae7fa0170cba8d36ba22dd0699a8d1e8e57197b006fdae4a43cb96cf6cce0ea4e8de76b45e80b6ad59b6ef39256e62e3980b88cd0e0231f"
+RPM_NAME = "xman-1.1.5-2.4.aarch64.rpm"
+RPM_HASH = "70fe2f135e63543384d94bfda436a86b15ba61ce3afe1e807284f939e05589d4645a887c6fef4729ac36abd5df30f1abfecae5cc452a61165dfa45d8d00d9925"
 
 RPROVIDES:${PN} += "xman"
 

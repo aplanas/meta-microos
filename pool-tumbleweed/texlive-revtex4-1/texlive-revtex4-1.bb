@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.4.1ssvn56590"
 
-RPM_NAME = "texlive-revtex4-1-2023.201.4.1ssvn56590-53.1.noarch.rpm"
-RPM_HASH = "652d9df23acfd2d55e97f7deeed8100486700a9c9d0da8acc3f73bdd935604ddcae7f6f520fba216ee35dea76f917e7d9f1e6b06df77c31ab4fcede8d52f1643"
+RPM_NAME = "texlive-revtex4-1-2023.201.4.1ssvn56590-53.2.noarch.rpm"
+RPM_HASH = "3a321b2b158b6f075c93f90057d38a664212dee07de4b927deb4ab018552863c885e59813006841b8f601b5ff2a00fe3262bca9cbb53c157b4e8bd941d256d23"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-aip4-1.rtx \

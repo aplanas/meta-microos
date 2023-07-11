@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.7"
 
-RPM_NAME = "aircrack-ng-1.7-2.3.aarch64.rpm"
-RPM_HASH = "20bde22c8e1a416e041d77c9baf005530a2710f9f2b07081db9ce3bb53efb6b83c4cc3b0e4118e1b154fd600794b012ecc758a80418a65a5891f413bb83811cb"
+RPM_NAME = "aircrack-ng-1.7-2.4.aarch64.rpm"
+RPM_HASH = "906a673cbe52de5edc50356fb6553bbb8d8b93d564dc30875ec300beffa175ff9dc5ba8fdfa574fb276bc93d86cea9167bc0e885fa8bf5d9157cb8e5e2fe4eb1"
 
 RPROVIDES:${PN} += "aircrack-ng"
 

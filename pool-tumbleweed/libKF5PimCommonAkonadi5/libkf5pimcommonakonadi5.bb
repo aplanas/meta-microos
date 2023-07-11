@@ -2,10 +2,10 @@ SUMMARY = "The PimCommon Akonadi Library"
 DESCRIPTION = "The PimCommon Akonadi library"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libKF5PimCommonAkonadi5-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "687d2206877dfec4fa64ca950d11e3ca0bdb6cd1c3007d40b997d2a3157e9a815832a7eb97bdcbd9e6ba9e94295562dc9d09855f55c9d8f8d09b801cd9596157"
+RPM_NAME = "libKF5PimCommonAkonadi5-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "405cc82cd11eec65c35e30e59aead3774a212fd1bb936085e620de7504526ce0e4cdebcfd45bc79a1b4979e113a6eb0b7efabcd784749bc1f956da82a48d37fe"
 
 RPROVIDES:${PN} += "libKF5PimCommonAkonadi.so.5 \
 libKF5PimCommonAkonadi5"

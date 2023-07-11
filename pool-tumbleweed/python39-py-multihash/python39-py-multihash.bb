@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "2.0.1"
 
-RPM_NAME = "python39-py-multihash-2.0.1-1.9.noarch.rpm"
-RPM_HASH = "7e32235a59530af9d815f73e9fddd330c3e7ed85e159261a44d2c103fb484f7119cd89a5061086a9b991389a9c44deabb91f2ff35679a69385543357bec67b71"
+RPM_NAME = "python39-py-multihash-2.0.1-1.11.noarch.rpm"
+RPM_HASH = "650351af15916c59be4b0e95c39ae48caeebde0240adae7c581c2f4a2ef5b25a61d9e85431fca646be3bf6f7acbdfa7cd5e56a2df2d23dc366fe397dc70c8643"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-py-multihash \

@@ -6,12 +6,11 @@ LICENSE = "Apache-2.0"
 
 PV = "1.10"
 
-RPM_NAME = "python310-tmx-1.10-3.14.noarch.rpm"
-RPM_HASH = "6008a120cde882ac9df3e17bc2849ea1bd37c78fda87f11df4003c0d067b41914e636b47bf3d733dc24ef94869e2a97f21c465858c3ea811a9677f98484ce3af"
+RPM_NAME = "python310-tmx-1.10-3.15.noarch.rpm"
+RPM_HASH = "8ccaf41b3c704e225adbbc5cd52043465764b5dfa5ef0a3d1dcff85fce669f339b244a946ef4de965faa3c228bb8fc5e0ad25266b4a05722444448b842d9d333"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-tmx \
-python3.10dist-tmx \
+RPROVIDES:${PN} += "python3.10dist-tmx \
 python310-tmx \
 python3dist-tmx"
 

@@ -14,8 +14,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.2.1"
 
-RPM_NAME = "systemd-zram-service-0.2.1-4.2.noarch.rpm"
-RPM_HASH = "36bf3620cad4d6f3ecfb1580d4ac28926854e30fbd7f449105ad7a95c6ac03252cd31c8aca91e558f42dc12ef78df25d2a19aa74729ff67f8fe52c0321ae08ca"
+RPM_NAME = "systemd-zram-service-0.2.1-4.3.noarch.rpm"
+RPM_HASH = "13f347fd6a050aef3e386d9c1481205495e85e0df2c360f2eb2e780334b985f2026323ba9bd04396ed8625c750504333eddf24e761a84f99ab2265f77d4306dd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "systemd-zram-service"

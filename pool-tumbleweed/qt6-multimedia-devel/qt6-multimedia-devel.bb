@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-multimedia-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "df98e2732e55b864501c8a4b35a89d4ad1e74bf1aee00c041453dc701c5e352b0439d4f2d8f81f4aba6e7a1e69956adcc9d021655a8c8cbd80f887fe4151a7d2"
+RPM_NAME = "qt6-multimedia-devel-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "aee3305e6b60d3918977757ed05271bd8d1342f3bf6b49c83269d3653e4701f5a43c64a6ac39c6f7fe87b3e03a04ac852d997ffc25c042d2d967a58a44dd9941"
 
 RPROVIDES:${PN} += "cmake-Qt6Multimedia \
 pkgconfig-Qt6Multimedia \

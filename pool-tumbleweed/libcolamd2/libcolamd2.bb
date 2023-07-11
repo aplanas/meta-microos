@@ -15,8 +15,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.9.6"
 
-RPM_NAME = "libcolamd2-2.9.6-49.1.aarch64.rpm"
-RPM_HASH = "821586c8865d37bb1002cea42e1d7ddc343ecbc996e593c74ea47bb53be3197884c400b0a987d2b3a68fd430833ae9acf1c214c167b9a3dfbc80996a0f9b9982"
+RPM_NAME = "libcolamd2-2.9.6-49.2.aarch64.rpm"
+RPM_HASH = "94e6fcf66c4ddcfd2ba73664c4237d7364a5d7a48e13e29a9d181e4d89bd4895330d84fe375c3bd92cb3af3df3eca9c36a32305c2d5333f0e84211796fc51c76"
 
 RPROVIDES:${PN} += "libcolamd-2-9-6 \
 libcolamd.so.2 \

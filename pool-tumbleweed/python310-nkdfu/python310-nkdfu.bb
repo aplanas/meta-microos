@@ -5,12 +5,11 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.2"
 
-RPM_NAME = "python310-nkdfu-0.2-1.1.noarch.rpm"
-RPM_HASH = "ac5c642608b290e868525bbc28b3ea606061114a5dd7c27ddf160efc10c5a430bdf0a7e913300e39e8651a4aa5836e173f6a6e01f46a005f60ad92333d2f32de"
+RPM_NAME = "python310-nkdfu-0.2-1.3.noarch.rpm"
+RPM_HASH = "f73efca174c83b1500aead79c66324591e8ec494d4d8cc6a1325165fdcb57abda802d6a6216448ab28746c9d108602704c24b4039981cc7050649860bf78e163"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-nkdfu \
-python3.10dist-nkdfu \
+RPROVIDES:${PN} += "python3.10dist-nkdfu \
 python310-nkdfu \
 python3dist-nkdfu"
 

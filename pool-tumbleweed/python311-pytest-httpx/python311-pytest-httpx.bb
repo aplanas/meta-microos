@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.22.0"
 
-RPM_NAME = "python311-pytest-httpx-0.22.0-1.1.noarch.rpm"
-RPM_HASH = "d6b78453c25a700216cf4c3172f7f874af6ba7e23bee486c9becf8d3709b73ad8acee2ed144534b636b0649128ab5cb324161dfaaea446e1de413751d9d9da1a"
+RPM_NAME = "python311-pytest-httpx-0.22.0-2.1.noarch.rpm"
+RPM_HASH = "75de7aee776e31c1d7796dafb995034bad4baf52c05615df156eebfe86d130146806aa6c8c4afbb71a2573207fa16f6c0d11611fc5b8590cf194e6a41ce36da0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pytest-httpx \
+RPROVIDES:${PN} += "python3-pytest-httpx \
+python3.11dist-pytest-httpx \
 python311-pytest-httpx \
 python3dist-pytest-httpx"
 

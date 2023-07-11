@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "0.25"
 
-RPM_NAME = "signon-plugin-oauth2-0.25-1.11.aarch64.rpm"
-RPM_HASH = "dd8214342829ca294b4c106c1677c58bc1340bb563c16aeb392bfac63060a572b9b9794633288b1bbba537d947107d59d858297f8d6fb348830e82604e31fb4b"
+RPM_NAME = "signon-plugin-oauth2-0.25-1.12.aarch64.rpm"
+RPM_HASH = "4642805496b792610b0329ef2707731b0571230dacd415b45df2e222b814f53683b05f3d8796ad4cfae67fa5d7ae2777dd23d9a029eb5dde3ffdf6522b77f8f9"
 
 RPROVIDES:${PN} += "liboauth2plugin.so \
 signon-plugin-oauth2"

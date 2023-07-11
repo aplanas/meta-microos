@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.12.0"
 
-RPM_NAME = "typelib-1_0-GUPnPDLNAGst-2_0-0.12.0-1.10.aarch64.rpm"
-RPM_HASH = "e1227ddf2fa1b4d3b3f0d7176e4b9346b72f8e704c523198e30e30feea0f1df61981dfbad339ff7beb645719c93e6ac4a12b75c4a0de3d4b63eba87a98a83948"
+RPM_NAME = "typelib-1_0-GUPnPDLNAGst-2_0-0.12.0-1.11.aarch64.rpm"
+RPM_HASH = "4fa77178ea65c23a701b206bff0eb017baec3ff5ba164f1aeb01582c3ead06bcaead4ffc348db2cd6ad45385d6ed4de9ae8308899c16f91863c8e2ae1be187bc"
 
 RPROVIDES:${PN} += "typelib-1-0-GUPnPDLNAGst-2-0 \
 typelib-GUPnPDLNAGst"

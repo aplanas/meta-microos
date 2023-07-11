@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.7.0"
 
-RPM_NAME = "libosmo-mtp-1_7_0-1.7.0-1.1.aarch64.rpm"
-RPM_HASH = "af004efe8a3f04542ba024e8d388c195ea8f275b0d75e2f624c2f07b67bf14d405fa1877ee1135cacaee9be5940f0b19655fd442916d5c31de8b6295a31343ef"
+RPM_NAME = "libosmo-mtp-1_7_0-1.7.0-1.2.aarch64.rpm"
+RPM_HASH = "1ecf3286e35a5a5509bc1c3e0116ce7c6d074660552c9cf505bddad0b3785c5b8a385caeedc5e9c8cc52cc1a0f196728245b087179584055c2247874c59b29d1"
 
 RPROVIDES:${PN} += "libosmo-mtp-1-7-0 \
 libosmo-mtp-1.7.0.so"

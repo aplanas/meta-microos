@@ -31,8 +31,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "3.1.4"
 
-RPM_NAME = "python39-mpi4py-3.1.4-2.5.aarch64.rpm"
-RPM_HASH = "2dcda1a1329e36ed876325c35d88272595c7846d25bc4a6797586f5b09b4af799b8d2401db1d4441242624ec61c5c9b5b53cea5594acf2c50ef6e1b1d4c9eea0"
+RPM_NAME = "python39-mpi4py-3.1.4-2.7.aarch64.rpm"
+RPM_HASH = "04409b2b3786ef3898f17450a196a504733c3d4b438ead21bcaae7a57985ef82fe32ce65d882980192467d546dc84c89b8fe7f76d6f37e3347e4974d942cf279"
 
 RPROVIDES:${PN} += "libmpe.so \
 libvt-hyb.so \

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.28.0"
 
-RPM_NAME = "python39-shodan-1.28.0-1.5.noarch.rpm"
-RPM_HASH = "579b61cbdbd29334a056163dc6f379fc2387d18fdaa3d381cfad9b87f48ece14c88b95f84a4593692c28106b47c491a2f0f0b983893f2dc162a403e1f247b1e2"
+RPM_NAME = "python39-shodan-1.28.0-1.6.noarch.rpm"
+RPM_HASH = "1de94e087b3f1c1d6fdde63f5dd8e127cb66d4c27e1e6adbf4f2e01cdda573561942b4dfe1496245c339480640399d17cb85bc1bce718ef89542940e2097d853"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-shodan \

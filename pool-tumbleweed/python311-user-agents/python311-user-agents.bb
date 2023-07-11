@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "2.1.0"
 
-RPM_NAME = "python311-user-agents-2.1.0-1.13.noarch.rpm"
-RPM_HASH = "2dc6f423b4f2787163f458d4bab1cdbc29577cc3744e1ee6b36141e6daafb68f3eb1726c8b7b5f9a9d8709385817164ae849564d0fdbf2c65296482a9803f90c"
+RPM_NAME = "python311-user-agents-2.1.0-1.15.noarch.rpm"
+RPM_HASH = "f1ea4eef239082c062f1ec2eea0c3077f01a131ccf07d84a95c1e48f46de05cf9c4872728dee83b8679e605f20051b25fab386b71361a03dbc2dc1754c693148"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-user-agents \
+RPROVIDES:${PN} += "python3-user-agents \
+python3.11dist-user-agents \
 python311-user-agents \
 python3dist-user-agents"
 

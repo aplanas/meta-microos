@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-nabataean-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "239ce772b290dab0a28af361272726af21cd81da4e7ff7b4c8f6530de5a4a5210a7ee055d2fa6a1c19a3d3d12fdf79ea8bf0656fab1de07cfc1aeb9a69df6d03"
+RPM_NAME = "noto-sans-nabataean-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "354fc8a0f47952e9d6860f782e90850fa012ec53b7809deaac7b696cb30e719fcc329ea484de7ac9641bfbc990f738ec16aeac5ef0b0c16994a42bec279bf91f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-nabataean \

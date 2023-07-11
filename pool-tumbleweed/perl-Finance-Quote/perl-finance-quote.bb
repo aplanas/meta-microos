@@ -15,8 +15,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.54"
 
-RPM_NAME = "perl-Finance-Quote-1.54-1.1.noarch.rpm"
-RPM_HASH = "0109fd603b15d9aa618c6719833ebaa4691c97c67bbd2aa58b3671912869b0b2988e23f504ca1d442086ba1c2d234dcf795f4a5baf0dd31b66366997f3ad8727"
+RPM_NAME = "perl-Finance-Quote-1.54-1.2.noarch.rpm"
+RPM_HASH = "a92dbf10f1de9dd545307b7c47ccba956c21e29a797ba4fb8fd4270e5dd9e2480ac01a2775922c097775eaa5696e55b67290d7acdf4de25c063d2dca0094998d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Finance--Quote \
@@ -73,7 +73,7 @@ perl-Finance--Quote--YahooJSON \
 perl-Finance--Quote--ZA \
 perl-Finance-Quote"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-DateTime \
 perl-DateTime--Format--Strptime \
 perl-HTML--Entities \

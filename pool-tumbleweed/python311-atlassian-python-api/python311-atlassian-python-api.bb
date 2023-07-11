@@ -4,11 +4,12 @@ LICENSE = "Apache-2.0"
 
 PV = "2.0.1"
 
-RPM_NAME = "python311-atlassian-python-api-2.0.1-1.11.noarch.rpm"
-RPM_HASH = "93dff79d44f034d03450b8716055cc4440446c56f8a5933199578fae6702496266418e08848f04fc8ae73c70a56ea03e5e6954484f2b6b1d67d0e6984dfe0a72"
+RPM_NAME = "python311-atlassian-python-api-2.0.1-1.13.noarch.rpm"
+RPM_HASH = "00ff7e244adea8e7482314965f88c61f1bc2ea5017984dd90b0608fe33c0c11dc46e90ba00ae797375b02ccc17a367acd06dafaaa94ef950cf90a10e544d312a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-atlassian-python-api \
+RPROVIDES:${PN} += "python3-atlassian-python-api \
+python3.11dist-atlassian-python-api \
 python311-atlassian-python-api \
 python3dist-atlassian-python-api"
 

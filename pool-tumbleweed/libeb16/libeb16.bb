@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "4.4.3"
 
-RPM_NAME = "libeb16-4.4.3-3.28.aarch64.rpm"
-RPM_HASH = "b1461b1610fbbdceefddbf603743bb626c77631c3f1f11603438922980c9bde2af41d571661f9b9fe2c1ab1d5f1dfe2d95eea034764a1f5132df9de00cc389d0"
+RPM_NAME = "libeb16-4.4.3-3.29.aarch64.rpm"
+RPM_HASH = "c7ca62487dd1e55a6eb0b8d2a2961e89fd3505633eb770e32123464652dd3f77932eb6e65cec7e0a35630f97af822bddc88c13a61bd25fe7a4e553ea53bcf61d"
 
 RPROVIDES:${PN} += "libeb.so.16 \
 libeb16"

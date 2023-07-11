@@ -5,10 +5,10 @@ Warning: This module should not be used anymore for new code. Please \
 use the corresponding OpenGL classes in Qt GUI."
 LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
-PV = "5.15.9+kde154"
+PV = "5.15.10+kde129"
 
-RPM_NAME = "libQt5OpenGL-devel-5.15.9+kde154-1.2.aarch64.rpm"
-RPM_HASH = "81e0f63aa2ce311a03245e06e394136d0f29d42fea705161c18cc486da5b0e9271192c4294213a11f6787cfa77cc44ed9dc2d83dfee005166ca3bf1411cc802d"
+RPM_NAME = "libQt5OpenGL-devel-5.15.10+kde129-1.1.aarch64.rpm"
+RPM_HASH = "fa7380ad26cdb769f54772e0d0898fa74e3dddee5480c392acd7021536dbc8a71e46d3119ad416397369ad456ef9a2454d773bff79ec8759472d92398ed1f224"
 
 RPROVIDES:${PN} += "cmake-Qt5OpenGL \
 libQt5OpenGL-devel \

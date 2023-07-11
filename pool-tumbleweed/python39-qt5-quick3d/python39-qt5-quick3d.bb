@@ -6,8 +6,8 @@ LICENSE = "SUSE-GPL-2.0-with-FLOSS-exception | GPL-3.0-only | NonFree"
 
 PV = "5.15.9"
 
-RPM_NAME = "python39-qt5-quick3d-5.15.9-1.4.aarch64.rpm"
-RPM_HASH = "f9ffa75a7dd63235d9829830093ea90d9cf571f8c73e79e063ea508219301c6bf088760f79deff4ae36ce85d99b0cb73fedc8478419317c45b5161c22ab700a7"
+RPM_NAME = "python39-qt5-quick3d-5.15.9-3.1.aarch64.rpm"
+RPM_HASH = "efeda35dee7feadced9287d4e2290baaadcc0f939473afc9dc2b16eedfe4e6873d257301881478a1c26f362e8f1420c7a5863fb4accf2ae4c66e7c145244909e"
 
 RPROVIDES:${PN} += "python39-qt5-quick3d"
 

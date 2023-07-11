@@ -14,8 +14,8 @@ LICENSE = "MIT"
 
 PV = "2022.1.14"
 
-RPM_NAME = "python39-pytools-2022.1.14-1.2.noarch.rpm"
-RPM_HASH = "d5c4898de6ece91244f67964a851e3b6f8be258a617578fe8ab9fdce97e2a01b5030db69f6d17f85e5cac3ac93c96820a4c783123d06ac1c11c7e64e267225f0"
+RPM_NAME = "python39-pytools-2022.1.14-1.4.noarch.rpm"
+RPM_HASH = "4e2f26c258cb777d7418ee08c35a05a65a0ad6be17835c720f2c1e499450b44d66150078b3b971d3ded75466f792896a0a3183f1ecfbd91c8b3ccefd3114ad18"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytools \

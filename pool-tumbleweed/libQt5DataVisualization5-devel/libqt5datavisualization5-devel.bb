@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides header files and shared libraries for devel
 Qt Data Visualization."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libQt5DataVisualization5-devel-5.15.9+kde0-1.1.aarch64.rpm"
-RPM_HASH = "37739b397028db4ca831908813a19eee36f6daadaa866d65df8c522d3e966ba6cfc995b7d98a888d41166f25bc15f0c9845efe7a93621fd8cfc67c31fcc604a7"
+RPM_NAME = "libQt5DataVisualization5-devel-5.15.10+kde0-1.1.aarch64.rpm"
+RPM_HASH = "67df22ae9d85e72b2ca08f1c2e9a30872862d2ff08b105057dd312aee93b9d27ca1c2415ce8b9dcd2d3cca31caf8b61d60b1122ee4c3f6b0f2f589ceccff60a0"
 
 RPROVIDES:${PN} += "cmake-Qt5DataVisualization \
 libQt5DataVisualization5-devel \

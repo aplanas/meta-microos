@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "3.9.0"
 
-RPM_NAME = "libckteec0-3.9.0-1.11.aarch64.rpm"
-RPM_HASH = "ad14d4d0213fa464b05d1cf7fbe5f72836bd9f701cd618fcc79e2f40bd5ab2a4aa1efbd3d7338f7d72ebab2686569ba110ae0f1c6c0cd2d8ba775a0e8cf567e9"
+RPM_NAME = "libckteec0-3.9.0-1.12.aarch64.rpm"
+RPM_HASH = "621c631fe67d3386aabb7f372108449eb13bec7cf1463ae0b38f5e82bbb3ba6c2d93bdcd85467d4c5832809e7b5ee93d72d8c3ffaa4badfd317744de328885e3"
 
 RPROVIDES:${PN} += "libckteec.so.0 \
 libckteec0"

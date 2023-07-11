@@ -4,17 +4,17 @@ and sustainable productivity. It encourages beautiful code by favoring \
 convention over configuration."
 LICENSE = "MIT"
 
-PV = "7.0.4.3"
+PV = "7.0.5.1"
 
-RPM_NAME = "ruby3.2-rubygem-rails-7.0-7.0.4.3-2.1.aarch64.rpm"
-RPM_HASH = "dd4ad69bc65c092216f95940c10f20dfb17380046fd72e256de3f5be73222e55adb6e71407bc7ea916e0e43e7bff155e48371caabc27da4fa7e8eec92328227a"
+RPM_NAME = "ruby3.2-rubygem-rails-7.0-7.0.5.1-1.1.aarch64.rpm"
+RPM_HASH = "1e8ff3d168647944318cea5c0dbdc0bfafe3cfbaf8547a9c5b3bd791ab55d67274fdc9ba8cdbd0e03f788685571fb8f74301dfe685cbf43623a1209ae537bee9"
 
 RPROVIDES:${PN} += "ruby3.2-rubygem-rails-7.0 \
 rubygem-rails \
 rubygem-ruby-3.2.0-rails \
 rubygem-ruby-3.2.0-rails-7 \
 rubygem-ruby-3.2.0-rails-7.0 \
-rubygem-ruby-3.2.0-rails-7.0.4"
+rubygem-ruby-3.2.0-rails-7.0.5"
 
 RDEPENDS:${PN} += "ruby-abi \
 rubygem-ruby-3.2.0-actioncable \

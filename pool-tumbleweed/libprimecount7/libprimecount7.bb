@@ -2,10 +2,10 @@ SUMMARY = "C/C++ library for counting prime numbers"
 DESCRIPTION = "This package contains the shared runtime library for primecount."
 LICENSE = "BSD-2-Clause"
 
-PV = "7.8"
+PV = "7.9"
 
-RPM_NAME = "libprimecount7-7.8-1.1.aarch64.rpm"
-RPM_HASH = "ae34166a53fe3438ea0942d4d6585694d6a44d39eaefda4c33111a9d22e9b7520523ca92d8a40d119aadbee373937557489161ecab5b5668ba877749505e6518"
+RPM_NAME = "libprimecount7-7.9-1.1.aarch64.rpm"
+RPM_HASH = "7ec032f17280210c394d6c154bae59bc1a49916be8f9a6c6f2a4339e9ca183d4389f30050c8ab689742cf30689b9c53ec711f7d487a9319eb3991ffe3f369a04"
 
 RPROVIDES:${PN} += "libprimecount.so.7 \
 libprimecount7"

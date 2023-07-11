@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause | LGPL-3.0-only"
 
 PV = "1.2.0"
 
-RPM_NAME = "python310-bibtexparser-1.2.0-1.7.noarch.rpm"
-RPM_HASH = "1fbabd1d7fb0a7a6bd93c2535799d6a14162cdd476fc27f9fe7ac02ced1c878eb93b5224cc4915c6833475219735517fad660a988298c3264a84dd203e47be86"
+RPM_NAME = "python310-bibtexparser-1.2.0-1.9.noarch.rpm"
+RPM_HASH = "b98579b004a2aefef2c95287a02b70d660ca6f47f09a6b78f8213602544c64ef2d6476893730c681ca6985912585a984d31cf3b941e1615aa19bbe7ba6e23e07"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-bibtexparser \
-python3.10dist-bibtexparser \
+RPROVIDES:${PN} += "python3.10dist-bibtexparser \
 python310-bibtexparser \
 python3dist-bibtexparser"
 

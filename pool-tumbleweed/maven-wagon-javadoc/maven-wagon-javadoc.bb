@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.5.3"
 
-RPM_NAME = "maven-wagon-javadoc-3.5.3-1.1.noarch.rpm"
-RPM_HASH = "9350edc0402b66b661afc3e3d3891fe5c1c0fd18dcd81e11b8114b6fe2b6a3a2880849067bf582be87a77f93661d9de400ad14913b2159511727e1877991c846"
+RPM_NAME = "maven-wagon-javadoc-3.5.3-1.2.noarch.rpm"
+RPM_HASH = "ec16f7545bbf3d5175ce4d4d3c9ac4fafe2600235926e067e0c48e70f7f647b5069c3d40283d818ade30800fef361c80227e50a948128a53e6c3a6eae44b4e18"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-wagon-javadoc"

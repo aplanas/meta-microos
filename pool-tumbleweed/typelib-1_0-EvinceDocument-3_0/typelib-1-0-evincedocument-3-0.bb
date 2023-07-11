@@ -3,10 +3,10 @@ DESCRIPTION = "Evince is a document viewer capable of displaying single-page and
 document formats like PDF and PostScript."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.1"
+PV = "44.3"
 
-RPM_NAME = "typelib-1_0-EvinceDocument-3_0-44.1-1.1.aarch64.rpm"
-RPM_HASH = "2b0d2964ae0efd8680c413f9dc55167c081af329783c769009524b23987daeae75448fa19decedcbcdb05ab6092903422a759bc83d737da9fab74c203c51f518"
+RPM_NAME = "typelib-1_0-EvinceDocument-3_0-44.3-1.1.aarch64.rpm"
+RPM_HASH = "e2146bb8bf3e2e166b35e402968c30408a5517971b92c0569365809ac4f8c3c0f4fd378bdb2f3576fbcdd12e7a5a572a407ef3efb244acec1b3c7e2e19378e73"
 
 RPROVIDES:${PN} += "typelib-1-0-EvinceDocument-3-0 \
 typelib-EvinceDocument"

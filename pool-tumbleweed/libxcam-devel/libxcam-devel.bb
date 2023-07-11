@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.5.0"
 
-RPM_NAME = "libxcam-devel-1.5.0-4.5.aarch64.rpm"
-RPM_HASH = "cd5966518e70b6053e789e5522d1c46d97f937d723c5fbefe1fc42b161ab6374817859285d8bd0a914e3c1c592dcb6e964b27af3e89226c3e13f15fc90fdd7fd"
+RPM_NAME = "libxcam-devel-1.5.0-4.6.aarch64.rpm"
+RPM_HASH = "a967c1f7a9d1e45c6c186ab6f3dc8e4bd549ee3e341b03f078512745451af91b1c3fa35566ff4f2eafe9c9926983e6a3e6f3f2b206850754c522c4a21cb86446"
 
 RPROVIDES:${PN} += "libxcam-devel \
 pkgconfig-libxcam"

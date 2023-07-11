@@ -2,10 +2,10 @@ SUMMARY = "Translations for package evolution"
 DESCRIPTION = "Provides translations for the 'evolution' package."
 LICENSE = "CC-BY-SA-3.0 & LGPL-2.0-only & LGPL-3.0-only & OLDAP-2.8 & GFDL-1.1-only & GFDL-1.3-only"
 
-PV = "3.48.2"
+PV = "3.48.4"
 
-RPM_NAME = "evolution-lang-3.48.2-1.1.noarch.rpm"
-RPM_HASH = "6c400fca9aa98bcaa006cd78e2713e2ec2b500ef1f6afa86418953c130d58b1a3722fdd2e7947d4ba55c8cea1a91e2636213d7ae172701d1edf0c355db3a1656"
+RPM_NAME = "evolution-lang-3.48.4-1.1.noarch.rpm"
+RPM_HASH = "c802c4b56ed0705f45c1f3257fc7cb485c966c1e35fd6d22340519ce313ce031bd3d838ab5e9554580f9d6f48ff8ee7093879a6affbb370b85ef1d61252d3d07"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "evolution-lang \

@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.4.0.5"
 
-RPM_NAME = "libksi-devel-3.4.0.5-3.24.aarch64.rpm"
-RPM_HASH = "9b805588626690bdc41ec85bce1bea6e960cd6a725d373e689d53241504028f93e35509773c1f845ba7b0378fed640f89335a57ba4b8c323f9549e35c38c4161"
+RPM_NAME = "libksi-devel-3.4.0.5-3.25.aarch64.rpm"
+RPM_HASH = "69d611df471e8b364235ddb6cb143ccd3f278853ad0418f622e4d25717749355c08b78f052a7da59e30187c86b16cd2fac5005eaca0106f337c5cb53651fe5e9"
 
 RPROVIDES:${PN} += "libksi-devel \
 pkgconfig-libksi"

@@ -5,10 +5,10 @@ text, you only have to type it once; the package makes sure it \
 is both typeset and indexed."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.04svn46051"
+PV = "2023.208.0.0.04svn46051"
 
-RPM_NAME = "texlive-hvindex-2023.201.0.0.04svn46051-52.1.noarch.rpm"
-RPM_HASH = "adb340f4af9f57640e9041325e06f6675f226b8cbd03d25e557f496a4a31c2934af5a37c35643eb62793f8ebb9f7d6a62e3bc8c74795207e10198256a8c434ce"
+RPM_NAME = "texlive-hvindex-2023.208.0.0.04svn46051-53.1.noarch.rpm"
+RPM_HASH = "d89e6d554889b08c5e1109ae71e22061d61b64604affb11f085552a7abe159c42fc0cf15ea8bf82a782a5c5eddf72ac4ecfdf1cd5a01d264e5ba6af518a27913"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hvindex.sty \

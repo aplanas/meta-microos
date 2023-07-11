@@ -4,12 +4,11 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "0.29"
 
-RPM_NAME = "python310-pyelftools-0.29-1.4.noarch.rpm"
-RPM_HASH = "52533743c045ada5b72e98bf037579b714d693b075324fe7d6bd1bfb16b9e8d6cc921001350dac189ee82951ad1f8892efe12fde8d45157768107e744276e00a"
+RPM_NAME = "python310-pyelftools-0.29-1.5.noarch.rpm"
+RPM_HASH = "d977d88e580f4049b5370ec87ebc1d313645ce0f8d4b5b99de5aff41e2cfa1120fe770a755410dd22096b3b932ade67da55328014c9a2d8193e7dfaeea4289ec"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pyelftools \
-python3.10dist-pyelftools \
+RPROVIDES:${PN} += "python3.10dist-pyelftools \
 python310-pyelftools \
 python3dist-pyelftools"
 

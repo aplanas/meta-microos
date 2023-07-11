@@ -13,8 +13,8 @@ LICENSE = "MIT"
 
 PV = "4.1"
 
-RPM_NAME = "libiniparser-devel-4.1-2.2.aarch64.rpm"
-RPM_HASH = "9637ad9b0c0852afe614d108d9b5f9c19b28da54eef4cb984ac2b1238cf4130c125c7381b6bf53225bda560ffe2eef750d0a369f202a07136aecd694842f7fa0"
+RPM_NAME = "libiniparser-devel-4.1-3.1.aarch64.rpm"
+RPM_HASH = "34a9e0c1e5964df3fc7b534b36e35477f56b6b032ab1e0258938e9ebe4b7098063176af59873bca6cd77297f0c2fc7d25b0f8a16e1149fc69bde6950faf88c8f"
 
 RPROVIDES:${PN} += "libiniparser-devel"
 

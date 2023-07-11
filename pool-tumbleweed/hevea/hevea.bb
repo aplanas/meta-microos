@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.0-only & QPL-1.0"
 
 PV = "2.36"
 
-RPM_NAME = "hevea-2.36-1.7.aarch64.rpm"
-RPM_HASH = "2aa89e2ea736ce1da6921a9edc0040c7aea28b3ca8cdd358ad678c86b10ad9e90edf5e37680378322d5de196c01d13b015ec284b28840eedcd167fc9298142cd"
+RPM_NAME = "hevea-2.36-1.8.aarch64.rpm"
+RPM_HASH = "17c48850f3f343a2cb5c0b24056a27acbb886a7bbc4c71a5ddd4b2751443acdf7b1b2537c835a66e963bae21bac66f50ea654e941a55f974f4ae60022fc6a7c8"
 
 RPROVIDES:${PN} += "hevea"
 

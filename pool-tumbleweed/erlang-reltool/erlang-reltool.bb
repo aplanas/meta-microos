@@ -7,10 +7,10 @@ target system. The backend provides a batch interface \
 for generation of customized target systems."
 LICENSE = "Apache-2.0"
 
-PV = "25.3.2"
+PV = "25.3.2.2"
 
-RPM_NAME = "erlang-reltool-25.3.2-1.1.aarch64.rpm"
-RPM_HASH = "b2a777715fb7ea394fcd249441f73e67ca750a8e4c35787439812c0454d82fb1503d49eaaf7b48c5d2e1f4073e7b4596b4d1f416e90fba18a7cb47ab77701a60"
+RPM_NAME = "erlang-reltool-25.3.2.2-1.1.aarch64.rpm"
+RPM_HASH = "3dc7f9654b9524973ba984320b35de012b7072e5e390821bfc0ffdbf42f9e40b551cb249cafcd32c19316729473be5b0b5fe614c10ebdd72332421d8422c658d"
 
 RPROVIDES:${PN} += "erlang-reltool"
 

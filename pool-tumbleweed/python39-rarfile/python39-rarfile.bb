@@ -8,8 +8,8 @@ LICENSE = "ISC"
 
 PV = "4.0"
 
-RPM_NAME = "python39-rarfile-4.0-3.5.noarch.rpm"
-RPM_HASH = "94e668b81dc224943c1162edae28860d4397a785a10127c37af50dae800eff032ac2c655c4be9abf72ac86cda80c14eab88b05b652615b39edac8680b379ab77"
+RPM_NAME = "python39-rarfile-4.0-3.7.noarch.rpm"
+RPM_HASH = "7ba2981497d7733dba03d006a4d99d7ec2c12175bab68d8d47d3fb1f086b562efd44f17f5df3616b63f1589e21ab4c64cb5c4506756481ede63bffc8009c3205"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-rarfile \

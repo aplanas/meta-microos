@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.9.0"
 
-RPM_NAME = "python39-lazy-object-proxy-1.9.0-1.1.aarch64.rpm"
-RPM_HASH = "0e12f9feecffbc93f11eb2d01d1147c58c1beaf4a606a1554404722b43a026dc521d7b37cf983468ecab8cfe9ddc9596b08a8d3c784577334cd234aa159ff4f9"
+RPM_NAME = "python39-lazy-object-proxy-1.9.0-1.3.aarch64.rpm"
+RPM_HASH = "34363d51528644b6c6a1c5acbc4a283808de8a290f53d9f3443105232bac6c62c28ed076ba924fce574b29efa16bf6b1db24f0eeb7b8d4d69cb5e9864dd7ef2c"
 
 RPROVIDES:${PN} += "python3.9dist-lazy-object-proxy \
 python39-lazy-object-proxy \

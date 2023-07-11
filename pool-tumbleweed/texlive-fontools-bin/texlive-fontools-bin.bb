@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn25997"
 
-RPM_NAME = "texlive-fontools-bin-2023.20230311.svn25997-91.1.aarch64.rpm"
-RPM_HASH = "c44b2e28c672fcbdb8bb9ba6551e70c35efc1bafbbcd9f3ec6d191f4874fa37eb57437ba2beb984b61fb4af8bdc9ead266b9f87720a6052ad2120b1aec015fa6"
+RPM_NAME = "texlive-fontools-bin-2023.20230311.svn25997-92.1.aarch64.rpm"
+RPM_HASH = "888f2c04694cd07b8331af4f325be86a49897abf64b224e1b7e89116c04515178fbc086a8814361b28e818870415ae9bb93253ffea8533345babc14c7bec7315"
 
 RPROVIDES:${PN} += "texlive-fontools-bin"
 

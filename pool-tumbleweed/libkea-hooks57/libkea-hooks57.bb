@@ -12,8 +12,8 @@ LICENSE = "MPL-2.0"
 
 PV = "2.2.0"
 
-RPM_NAME = "libkea-hooks57-2.2.0-2.4.aarch64.rpm"
-RPM_HASH = "e0df318683056375c7d692ded9f89bfd8a86b25437a75b721808f9d197e3e11e4fa08a134ec20df220122fd1660a5cdfd4cdf1a8cd3ee7da2fac757694675b28"
+RPM_NAME = "libkea-hooks57-2.2.0-2.6.aarch64.rpm"
+RPM_HASH = "1cdc41c212a8fabce7e1a42a8035d46acb31e8e4395dde2e4099e2b7ccad2cfb01a685a3f00149a90dcfb845c4ffd13d7e1e1de3066d21ef9eb376f81c5a9135"
 
 RPROVIDES:${PN} += "libkea-hooks.so.57 \
 libkea-hooks57"

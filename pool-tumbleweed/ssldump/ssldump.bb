@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.6"
 
-RPM_NAME = "ssldump-1.6-1.2.aarch64.rpm"
-RPM_HASH = "02a0f8fc418730050f52d1e0964375290a09e4f7bc865eb13afa0ebbbe997df041b45f6e1b1b2792f17b15faeb26495f7bbf00e67e5581df36b85e3cf6d305ff"
+RPM_NAME = "ssldump-1.6-1.3.aarch64.rpm"
+RPM_HASH = "8f68ad3d4ebdbb3f41e4091ddf65d6dd90d411bb327f5e39c000d52893c9cf05b7d4b75a1162e027321b2c02af2fea1d7278d23c606330c3520a07a9ea347584"
 
 RPROVIDES:${PN} += "ssldump"
 

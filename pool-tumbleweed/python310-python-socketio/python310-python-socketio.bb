@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "5.7.2"
 
-RPM_NAME = "python310-python-socketio-5.7.2-1.3.noarch.rpm"
-RPM_HASH = "c49488624c6f53bdf33dc545947321b23ac91e99702dff3f5e9b4642f367706f4229ba4e95cc69c37ba4e9a42c9c26e9332b32e95ce855a1c935cfe1af7380c3"
+RPM_NAME = "python310-python-socketio-5.7.2-1.5.noarch.rpm"
+RPM_HASH = "dfa6ea5e4212c039dc71f093122c1575dbf3fd48bfddd23bbb22bdcd23a99653bedfc9440aa9631e99f4168791bb5feb1cbafe638c4fca7b153de03aa19f0d9b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-python-socketio \
-python3.10dist-python-socketio \
+RPROVIDES:${PN} += "python3.10dist-python-socketio \
 python310-python-socketio \
 python3dist-python-socketio"
 

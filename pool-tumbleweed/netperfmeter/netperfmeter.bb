@@ -7,10 +7,10 @@ vector and scalar files. \
 The vector files can e.g. be used to create plots of the results."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.9.0"
+PV = "1.9.4"
 
-RPM_NAME = "netperfmeter-1.9.0-1.9.aarch64.rpm"
-RPM_HASH = "83341d775b06896ddf165c8b0f4b9d183522d7bc3fe666c9e7adab85adb9fc7b8ad0de1d8d0b5109a59ad91fe120e79f4acf98e0db6083d94bc884141a784ace"
+RPM_NAME = "netperfmeter-1.9.4-1.1.aarch64.rpm"
+RPM_HASH = "802e9cdbc5ba26369becd27c35f1db580bd5cabf37045e2e9018786f438aef2f26c24542ab7cf999a23a3df69d9345b530743d2e9d096c4bf91d2c89ec75b0b9"
 
 RPROVIDES:${PN} += "netperfmeter"
 

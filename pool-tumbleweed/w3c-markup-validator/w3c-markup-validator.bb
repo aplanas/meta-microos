@@ -5,8 +5,8 @@ LICENSE = "W3C"
 
 PV = "1.3"
 
-RPM_NAME = "w3c-markup-validator-1.3-10.15.noarch.rpm"
-RPM_HASH = "3e0af3e22d5afaae339bb1152e445f4ebfc5295c385f92fef1258a2965e2b5552cd34cfffddfa8100f343e2487b7522bcce08ceb15166a3b62eb73bc8d3e7b02"
+RPM_NAME = "w3c-markup-validator-1.3-10.16.noarch.rpm"
+RPM_HASH = "0797653d7b56dc683cc5bf00b35941f6028399fcfcb68c2bc665d3a9a5e45fe9a0b30ee8183bcab01e0bef5edd7dcafd7e574c36fd6df6bd81853929c31026ac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-w3c-markup-validator \

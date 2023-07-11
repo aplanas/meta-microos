@@ -10,12 +10,11 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.6.5"
 
-RPM_NAME = "python310-slip-dbus-0.6.5-6.15.noarch.rpm"
-RPM_HASH = "dddfca619aaaad5ff108b45fa06773fcfecb88b705fdc8268f7ae50106f24d6cddac48d07cdaa780b1e5cbc0c7640633e781258dd9cb0d83008516a402bc35a8"
+RPM_NAME = "python310-slip-dbus-0.6.5-6.16.noarch.rpm"
+RPM_HASH = "e53bdeeaafd32207f72c3f888185f277d05912825d789411b516876aec845aa31bd5588efc93cec58b5d45c40d49cbb12f412261aca7a8aab196c0d3b52001fe"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-slip-dbus \
-python3.10dist-slip.dbus \
+RPROVIDES:${PN} += "python3.10dist-slip.dbus \
 python310-slip-dbus \
 python3dist-slip.dbus"
 

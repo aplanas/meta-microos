@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.0.0a"
 
-RPM_NAME = "discount-3.0.0a-1.1.aarch64.rpm"
-RPM_HASH = "a8d3b807b8e9878e83a94db9be9d77c2c1edf3989592a168cb092241da15bb1855e1548b194c739f9691c009ef0ec737c584ca711937a71ad753ec19ecec6383"
+RPM_NAME = "discount-3.0.0a-1.2.aarch64.rpm"
+RPM_HASH = "c34ea3f9bbe1007495b19c63a4ff4ccca2d7faaa11ff004ef397370942f8da57b18dbce9060eecec497fed69861b55b5beb520c4a138a767b7f7442d529abd02"
 
 RPROVIDES:${PN} += "discount \
 markdown"

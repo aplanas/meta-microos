@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kde-cli-tools5"
 DESCRIPTION = "Provides translations for the 'kde-cli-tools5' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "kde-cli-tools5-lang-5.27.5-1.1.noarch.rpm"
-RPM_HASH = "b77305c5fa31b1046667620f9d36722d2bcb665c1cfa29dbba4a98a52f2b605852e1fdf926c4226cb61f0cde9dba71c7a55904ed28c31df30efcf050fab8c3f6"
+RPM_NAME = "kde-cli-tools5-lang-5.27.6-1.1.noarch.rpm"
+RPM_HASH = "d904fd2a71f81d1469d58f21cc845492935ebda19bdc6a14cb08716d46190bab51f62b84394471af8e31670003ac16041866f04180c2cbc1dba02fd11eb15761"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kde-cli-tools5-lang \

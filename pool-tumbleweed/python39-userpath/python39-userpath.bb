@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0 | MIT"
 
 PV = "1.7.0"
 
-RPM_NAME = "python39-userpath-1.7.0-1.7.noarch.rpm"
-RPM_HASH = "e1b29f9c1e852a5ccab11669c75d4e40538ac8a1135f4fb0568dbd10be3c7e0238f5c2b8c63ce214e2d595088bfebf347a25e4d2d3cbbb044464d54f0f56f639"
+RPM_NAME = "python39-userpath-1.7.0-1.9.noarch.rpm"
+RPM_HASH = "f9a74ba764cae3554b83324a210b647981b51c0d054c919a3bea69dbd1c6f0df170091bf2f160f4e9bd2889a1e94df65a36a015eee2c0dacc4cde9e35826916d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-userpath \

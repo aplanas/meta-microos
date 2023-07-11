@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "7.4.0"
 
-RPM_NAME = "testng-7.4.0-3.2.noarch.rpm"
-RPM_HASH = "cd3303bc64e312e25291af919408c1652e543da97d0750dddd4f33a851fd3bb685d2c0ef08261143ab61eeaaac2564c493f76f3a24dff4e621ac8a64d564b051"
+RPM_NAME = "testng-7.4.0-3.3.noarch.rpm"
+RPM_HASH = "a5b6e719c5553ad12dae83de10f01ba4af894db4dbf1356fb26d10878d4d98a612a4b875a4bd960f55c1a762fca3c12aaa95378659c3b344b6a621b7e2c43d73"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.testng-testng \

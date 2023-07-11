@@ -6,14 +6,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.0001"
 
-RPM_NAME = "perl-App-Rad-Plugin-MoreHelp-0.0001-2.23.noarch.rpm"
-RPM_HASH = "582aaea7130b7a2b3729d8ca58542785bd9eaccc4a5e51571b8c88f76cb35dce3ae060f942933a672edf7eb1a05c489ae3ad2c21dedf3a4b77a09a4564258bea"
+RPM_NAME = "perl-App-Rad-Plugin-MoreHelp-0.0001-2.24.noarch.rpm"
+RPM_HASH = "851e4225fa4023ee91171c441a4eb1a896e722a04a1ea389c4c71e1054f8856b697bfc894df4027232952d6080f89a4d475cea1767789e85eabedf024c57b55e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-App--Rad--Plugin--MoreHelp \
 perl-App-Rad-Plugin-MoreHelp"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-App--Rad"
 
 inherit rpm

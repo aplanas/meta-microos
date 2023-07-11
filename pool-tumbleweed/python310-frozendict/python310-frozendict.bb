@@ -6,11 +6,10 @@ LICENSE = "MIT"
 
 PV = "2.3.5"
 
-RPM_NAME = "python310-frozendict-2.3.5-2.4.aarch64.rpm"
-RPM_HASH = "1af2734ec14bf75587ffea9ddd31fc4dd8dfb9af56478b80531b2a6ff1a56f7a048717181e0c9a0abe8f0006dba00cc31fc9d8c5549b69ceded9b8f54221d0d7"
+RPM_NAME = "python310-frozendict-2.3.5-3.3.aarch64.rpm"
+RPM_HASH = "8fc915c63d10f37dc768b5538a16d02d39265cd6d4739b10367517f4bc4c284b9bda7a300ea083bdd3ae8b9682ef824fcb017e8888f6f415484c1e787e5bb448"
 
-RPROVIDES:${PN} += "python3-frozendict \
-python3.10dist-frozendict \
+RPROVIDES:${PN} += "python3.10dist-frozendict \
 python310-frozendict \
 python3dist-frozendict"
 

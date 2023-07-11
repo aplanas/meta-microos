@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.5.7"
 
-RPM_NAME = "kubernetes-etcd-3.5.7-30.1.aarch64.rpm"
-RPM_HASH = "b2571efc6bb935e053595353d27bd676e63c1ac8c21dac9aacad85d769f43298df292dfbf458dfc833961f2c6088362786decb5005fb58f64ecc97af66c4fd32"
+RPM_NAME = "kubernetes-etcd-3.5.7-32.1.aarch64.rpm"
+RPM_HASH = "86a2d9258fffec0bdf4cb68cf689eebfbe72b7fef939ced2c287a3a3fbaac8a65a72d6d838d96119bce1e3be545e527a89c33f85a1139bacf084845d49645c27"
 
 RPROVIDES:${PN} += "kubernetes-etcd"
 

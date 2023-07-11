@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "2.1.1"
 
-RPM_NAME = "kdsoap-qt6-devel-2.1.1-1.3.aarch64.rpm"
-RPM_HASH = "5f5cebcb91fa683749c984aa0a339e888cfef542b054d58d7a6c0e55ace75712c0ff1d7b99e8b8c7db8e946f80cf2d13d40d676cbda63dac29cdb71d2e568225"
+RPM_NAME = "kdsoap-qt6-devel-2.1.1-1.4.aarch64.rpm"
+RPM_HASH = "3a1553786d0c36b36b3728b775cfb970b0aaeec4361b4b612118bf4cb88468959f54f1c9f5f7ff042d9077e509eff47871cd1ebf2ee317cc1aabfddc1a074083"
 
 RPROVIDES:${PN} += "cmake-KDSoap-qt6 \
 kdsoap-qt6-devel"

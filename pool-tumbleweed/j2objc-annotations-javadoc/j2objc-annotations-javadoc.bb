@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.2"
 
-RPM_NAME = "j2objc-annotations-javadoc-2.2-1.4.noarch.rpm"
-RPM_HASH = "3f4d426539243140bd42a62d769d04fe031e7a5f1c56b880afce2c9e8e6395e03cc7285f94b7a8afba6d400590d1e0935d2573383a5dd6a05d01641956fc2c26"
+RPM_NAME = "j2objc-annotations-javadoc-2.2-1.5.noarch.rpm"
+RPM_HASH = "017aa36d172513f084c160854219c3aeeefa9fa5582fbf4110b52405c0c1ffa0fc5fade002ff0838bef18c095f49c511ff33a80fb7b3535119f7979b7212761d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "j2objc-annotations-javadoc"

@@ -2,10 +2,10 @@ SUMMARY = "Framework for creating REST APIs"
 DESCRIPTION = "Flask-RESTful provides the building blocks for creating a REST API."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.3.9"
+PV = "0.3.10"
 
-RPM_NAME = "python39-Flask-RESTful-0.3.9-1.10.noarch.rpm"
-RPM_HASH = "ecbced2f021a28742861a9898bb4c4d9209fc249dfda764ec7504c15f791dbd8d4ac1ac38d441ea1aa0e551d2bd0d7d5c2aa20d080344ba82a8819439ab4f44b"
+RPM_NAME = "python39-Flask-RESTful-0.3.10-1.1.noarch.rpm"
+RPM_HASH = "742f26afd3d91396d181520c76629385de6cf58298d2ac9bf4a101499693b09b4d0f7e05873b93eadd3cb12a1b7d21e3235cd01ea80215f345a4bb2fc8d0b929"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-flask-restful \

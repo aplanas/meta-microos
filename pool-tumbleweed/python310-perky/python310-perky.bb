@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "0.5.5"
 
-RPM_NAME = "python310-perky-0.5.5-1.4.noarch.rpm"
-RPM_HASH = "74dc7252ae04740237a1a614b987d571a0b89d378c8a00df5cfe5d24ace40d6081873561db10653fa7ae6c47c7aff2277031a41ff1568c95c66c8d6237274b9e"
+RPM_NAME = "python310-perky-0.5.5-1.5.noarch.rpm"
+RPM_HASH = "50dd3134b01bcfd757cf863aff8481b172313b0c2c4b84f6c0fdb064dcdd1a49fbac0a1faa000c674a01eb081e9f19c8f24365e258f1f90a3719752b534dd879"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-perky \
-python3.10dist-perky \
+RPROVIDES:${PN} += "python3.10dist-perky \
 python310-perky \
 python3dist-perky"
 

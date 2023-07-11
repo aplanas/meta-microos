@@ -10,15 +10,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.03"
 
-RPM_NAME = "perl-Pod-Usage-2.03-1.4.noarch.rpm"
-RPM_HASH = "c45c2d53df01963c31789a8947d391acb0ec091b37db3edd51ac19e0938804d2292a594b1b1ba7d7e2e156e6fa1b3eb8102e53e58ccaa84c0169127f78e623d3"
+RPM_NAME = "perl-Pod-Usage-2.03-1.5.noarch.rpm"
+RPM_HASH = "12588df8fe998deca336115c4def5d8cadbd7fbe119d2419dfd9f3929b3a5b017753957e141e02ad88ed2ccd4107165a04cf66f680d48f2ae8382798c10a97c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Pod--Usage \
 perl-Pod-Usage"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-Pod--Perldoc \
 perl-Pod--Simple \
 perl-Pod--Text"

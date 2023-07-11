@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "python39-idna_ssl-1.1.0-3.12.noarch.rpm"
-RPM_HASH = "6b0693b954f473d31911590cf2331c8a66eb53967fbd9fe7917dcd7c56bde30f7ce82e2314018b80e37836aaba77669428b65d76558595b359aeddf093361126"
+RPM_NAME = "python39-idna_ssl-1.1.0-4.1.noarch.rpm"
+RPM_HASH = "d6e86a216dcea53666c8642a4f1dd8deee440346f029c58c48cef89a57f3b8ee71fcdd576d869f68a58264f88ed000727109a1603d5f0fd4c37e5a4de7527095"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-idna-ssl \

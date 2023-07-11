@@ -15,11 +15,12 @@ LICENSE = "Apache-2.0"
 
 PV = "4.5.0"
 
-RPM_NAME = "python311-pylast-4.5.0-3.3.noarch.rpm"
-RPM_HASH = "80fc696927d47910c1983af4311e817259786c926d7bdba5f9e4f6092ef1962b957251aa51817614829251b9a4ed3b851be34bde7e7335cf8e8f1796273ab5df"
+RPM_NAME = "python311-pylast-4.5.0-3.5.noarch.rpm"
+RPM_HASH = "2ce80625432b6d06df0e5ae4e2495080aac74db2def7896b31df0d824ca34b66b70f137aa1b0000f0d61bf37af2380312935941f58bb33029e253b66c286f61e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pylast \
+RPROVIDES:${PN} += "python3-pylast \
+python3.11dist-pylast \
 python311-pylast \
 python3dist-pylast"
 

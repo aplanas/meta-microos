@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0+"
 
 PV = "1.0.1"
 
-RPM_NAME = "docparser-devel-1.0.1-1.7.aarch64.rpm"
-RPM_HASH = "62feec7b71b35699980f012d1a0ea3730b757b2ecf1e0ee4c5743a6f51aa1142e9340e40ad9527e6f07bd16b1f34350285e06494e9858c24f2c0c964f0ba4456"
+RPM_NAME = "docparser-devel-1.0.1-1.8.aarch64.rpm"
+RPM_HASH = "0343cc333b92e0416df8b076c2e80d8c8c9277cb1f2e5fd5857ec3e3d43682c79d4302c5a1b2de00a1c8eb3ee47d6b7690f3ea7cf5838d62a7a28b057b0792ed"
 
 RPROVIDES:${PN} += "docparser-devel \
 pkgconfig-docparser"

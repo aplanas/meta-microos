@@ -2,10 +2,10 @@ SUMMARY = "Designer plugin for the Qt 5 Charts library"
 DESCRIPTION = "This package provides Qt Designer plugin for development with Qt Charts."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libQt5Charts5-designer-5.15.9+kde0-1.1.aarch64.rpm"
-RPM_HASH = "f5a94e005092be0681baa6787ba198b9cc8f346b9e591578766d1a6657ae1fe8f3eada39ddfc3762893cebc8e86a8da8c3b08bfce9b724c8ed3d216432e8508f"
+RPM_NAME = "libQt5Charts5-designer-5.15.10+kde0-1.1.aarch64.rpm"
+RPM_HASH = "e8f56d54cae375c585284caca7021d713ed401a7fbfa77ff11438fd3cf20fa36063148fe9619b308bb0088e4fcb3fa48309ceeb389d69500dc82b20985861585"
 
 RPROVIDES:${PN} += "libQt5Charts5-designer \
 libqtchartsdesigner.so"

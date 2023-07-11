@@ -4,11 +4,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.7.0"
 
-RPM_NAME = "ghc-cabal2spec-devel-2.7.0-1.2.aarch64.rpm"
-RPM_HASH = "8d2f6890bfd31d4f53a4daf5bda2095caf75c1d7cba640a724eb88216ee2f78a829dca73e62aee7090e55c7d9a0c901a20109453194ede78e57dd50ab3394706"
+RPM_NAME = "ghc-cabal2spec-devel-2.7.0-1.4.aarch64.rpm"
+RPM_HASH = "f1b6c8da38184472d124601dd1e464f7b851fcfbab69a7a39aca2f213fb7659d1cc1dca3373adc1ba62b29dfc11ca6f83e593ae60f3d7571aae9749bdab78278"
 
 RPROVIDES:${PN} += "ghc-cabal2spec-devel \
-ghc-devel-cabal2spec-2.7.0-9ijIHSPt0QmI4YnWoXNap7"
+ghc-devel-cabal2spec-2.7.0-54mL96TvGMU9RbanaGRqP2"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-cabal2spec \

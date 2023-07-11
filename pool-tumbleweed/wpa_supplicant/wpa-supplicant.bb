@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-or-later"
 
 PV = "2.10"
 
-RPM_NAME = "wpa_supplicant-2.10-5.1.aarch64.rpm"
-RPM_HASH = "7dd59f05905163f6f877f2bc582d0a3a0c45606fa32d9249cf77dcd07a8fda2b24be8b13b61e8d3ae55441e459c40fb7d215e407f64debec616ed6158fc29458"
+RPM_NAME = "wpa_supplicant-2.10-5.2.aarch64.rpm"
+RPM_HASH = "7eb5fa5cf3493d1f6a237ea85d1a5b083df7606d947e520279e4cc261ee260a4dbf29760571b34e079139944c9ca36cbbcf5281622185d40fd1c771f61857b98"
 
 RPROVIDES:${PN} += "config-wpa-supplicant \
 wpa-supplicant"

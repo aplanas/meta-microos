@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later & (LGPL-3.0-only | GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt6WlShellIntegration6-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "ecb39b13fb40eb522ed0e08b48822ecee07c3a72fc0ca69597b3e633f5790df4c7b2c46ca706046c55dc2a3cb67a70331897c8826c1c600d03afa58830549fc5"
+RPM_NAME = "libQt6WlShellIntegration6-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "b3c97b3bfa8e14999c367e8f9dd18273e0dd8cd8097998b169d589d4ce4fa92a18ea2293d6d6b4aafa21c4b165b9854f0ea8250cea195fb29ab7ecc35f7b5d6c"
 
 RPROVIDES:${PN} += "libQt6WlShellIntegration.so.6 \
 libQt6WlShellIntegration6"

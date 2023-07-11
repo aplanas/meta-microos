@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & MIT"
 
 PV = "5.12.0.134.g4cebbfc"
 
-RPM_NAME = "collectd-plugin-memcachec-5.12.0.134.g4cebbfc-1.4.aarch64.rpm"
-RPM_HASH = "59d5fb07552d691d572b7c059c1440be741201fd3bc0ed7e15fd9a2859329d5c062b4c2fdb9b26e1696ac7ced7e9d2b2818406473ad0ff20fbace3978acb6bbc"
+RPM_NAME = "collectd-plugin-memcachec-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
+RPM_HASH = "72c8af26a9330cb5b4d06044b17098fd4ade09f006b0c1123138e4299cc6416f04c37c076c4ac4d1b44855f39f3694487fd97544f462671293272d035e2501da"
 
 RPROVIDES:${PN} += "collectd-plugin-memcachec"
 

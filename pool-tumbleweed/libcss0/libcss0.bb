@@ -12,8 +12,8 @@ LICENSE = "MIT"
 
 PV = "0.9.1"
 
-RPM_NAME = "libcss0-0.9.1-2.9.aarch64.rpm"
-RPM_HASH = "9a5e666969f6b382b615418bcfae554de5dfce2e6871debe16d7623ca2b34d661fd8ef1605fda051d0984e1dfdd24b37a9d2954c11630f466dbaacfa6c81ef8a"
+RPM_NAME = "libcss0-0.9.1-2.10.aarch64.rpm"
+RPM_HASH = "b63c308685044b1eec6ff1fc04b386a4eb1a6b2d9793b6c66d41c4c4f5a722a28ef5b150c63a1bcc9af69e3d37092120be5f50768f65197c55ff92ad31b0a724"
 
 RPROVIDES:${PN} += "libcss.so.0 \
 libcss0"

@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 | LGPL-3.0-or-later"
 
 PV = "1.3.11"
 
-RPM_NAME = "jffi-javadoc-1.3.11-1.1.noarch.rpm"
-RPM_HASH = "637b471f1a67444cd4aad0095d58c48706ee8f3b398ae9a07cf0e9ae6f0fd0ff8003e5ab031df93ce42f7214cb23fb27b545f86e6f0e9b43c1bdf04aa0616b64"
+RPM_NAME = "jffi-javadoc-1.3.11-1.2.noarch.rpm"
+RPM_HASH = "1b0b6a261e7e3e28e09cb22895c457d7f9f6268a52377aa7a1db55a01800258cfc46e9f6ae3edd5adff44422338f2dd42827b9a9e5f55d0ce8c4abcc73203326"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jffi-javadoc"

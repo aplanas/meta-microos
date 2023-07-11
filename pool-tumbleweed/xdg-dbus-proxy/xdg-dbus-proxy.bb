@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.1.4"
 
-RPM_NAME = "xdg-dbus-proxy-0.1.4-2.3.aarch64.rpm"
-RPM_HASH = "6f37e4787e034594de82442b8d68ba469c1ff60bbc4ea93652f198e4db59c380752d853b4af10ae4cff0fb03e6553b93fb9a32bedf5e77976b611166bda722bf"
+RPM_NAME = "xdg-dbus-proxy-0.1.4-2.4.aarch64.rpm"
+RPM_HASH = "c2577b334a6902687e85cbe6d3c539260b72ed95e960a6a992e0d60a2d6ae611bb63a1d80eeba8f15ae49b27dd8fb89ef9d4ed46a4202046de3c86ee77a1c64b"
 
 RPROVIDES:${PN} += "xdg-dbus-proxy"
 

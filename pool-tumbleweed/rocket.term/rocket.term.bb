@@ -4,11 +4,11 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.2.0"
 
-RPM_NAME = "rocket.term-0.2.0-2.7.noarch.rpm"
-RPM_HASH = "491107b799b3ffac9b70e4202274fbc9fd8e1bdbf7f8880b5d5b2e8d64035411ce3d3f895a656582253a61a6b35ab60a303211d5c128a7e7c0983767f30d89ac"
+RPM_NAME = "rocket.term-0.2.0-2.8.noarch.rpm"
+RPM_HASH = "520945dd4b6e35c67573f0337dc8322246ee7381d914f2e5526d99e3cdb87cb2d6da4184de84500e9c6d663d571a4ff25f0c23718bf55e259128685487ec4043"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-rocket.term \
+RPROVIDES:${PN} += "python3.11dist-rocket.term \
 python3dist-rocket.term \
 rocket.term"
 

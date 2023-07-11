@@ -2,10 +2,10 @@ SUMMARY = "Japanese localization files for LibreOffice"
 DESCRIPTION = "Provides Japanese translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.1"
+PV = "7.5.4.2"
 
-RPM_NAME = "libreoffice-l10n-ja-7.5.4.1-1.1.noarch.rpm"
-RPM_HASH = "24f00cc4c0b754763a9e37487f5ba68e6e5dc5a0132602d1143b0570fbf497eabf5cdeae4a7fd497ef33681cd66d3cb8bc604dfffe5c1ffb0572f09149588739"
+RPM_NAME = "libreoffice-l10n-ja-7.5.4.2-1.3.noarch.rpm"
+RPM_HASH = "a9bdbba1682770c59f8b343d5d93ec62e99037fed4d1fcbae04f23c5235c7bfbc3428fc290522f3085b20ffe61270e91066501c97850a4941221d555f0475857"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-ja \

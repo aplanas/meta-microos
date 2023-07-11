@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2"
 
-RPM_NAME = "libnet-devel-1.2-3.8.aarch64.rpm"
-RPM_HASH = "832e4ea4310ae55c1cc0bd0e8b0eba9539b7dcc02cdd025285da4bc35612e4cd19d79cdeafc381278f721540e5de6b9c76590e7103c12e72b405dae114f8f95d"
+RPM_NAME = "libnet-devel-1.2-3.9.aarch64.rpm"
+RPM_HASH = "1954d27d6ef0d61a52d90c650def216227ceee365b5f4e77bc84ce062e3cb2675a756e33ce972a353b6f561c6ca0f1c37b8485a12fbc647ff08f0d6509449b0b"
 
 RPROVIDES:${PN} += "libnet-devel \
 pkgconfig-libnet"

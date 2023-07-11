@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0 & GPL-3.0-or-later & LGPL-2.1-or-later & CC-BY-3.0 & OFL-1
 
 PV = "0.6.0.3"
 
-RPM_NAME = "opensurge-0.6.0.3-2.3.aarch64.rpm"
-RPM_HASH = "efefd39f7beb2e91d79860f07e267f0ed2db086533c11f12ed572225b4e6bfbcac600bb8176b64377b2db5d29601496dea406ee7a3fd7bb387e841d2001bc060"
+RPM_NAME = "opensurge-0.6.0.3-2.4.aarch64.rpm"
+RPM_HASH = "fcc8dd5191ccf259238d4906a6944596d5f52d812d188fd6e836a559655cea9ae251967665d6fc2c23359692b68bc4b825f2a1818ec7c120162af2c705816f69"
 
 RPROVIDES:${PN} += "opensurge"
 

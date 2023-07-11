@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.7.1"
 
-RPM_NAME = "nfdump-1.7.1-1.3.aarch64.rpm"
-RPM_HASH = "72c53a2ccf9c583b13601e3e3a8b3de3d894d5a752df9b595dd2d5b390463a6536ca2c4c08a56ad1a89db0c2f69b0e4afeb803cc1b7399d069fac5eefbda9b54"
+RPM_NAME = "nfdump-1.7.1-1.4.aarch64.rpm"
+RPM_HASH = "f1400b0d4d10052eb2daf9678e8f52014456c3dd0bbd3a2bbb2d6b96d6580162fccfad38964ee579452758e3cb31e0938af04e72c76b5e9008ceb87fc408037b"
 
 RPROVIDES:${PN} += "config-nfdump \
 nfdump"

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2023.04"
 
-RPM_NAME = "u-boot-poplar-doc-2023.04-2.1.aarch64.rpm"
-RPM_HASH = "0525eeba036b99248023e1a58472a6dd2a4fb83699be63ae382a018136630d6416a42add78ab656118dfd64a01e314b639735b0426d74b1cd0afe5048223718b"
+RPM_NAME = "u-boot-poplar-doc-2023.04-2.2.aarch64.rpm"
+RPM_HASH = "a514f886accc8c20082a1c36a3105e3fad75bae299d5e15f1e8d326ba903baa10727f685d0f1d09ba3d819822684e9196cd493cd3791ce5a46f2f7f6cdc0ea33"
 
 RPROVIDES:${PN} += "u-boot-poplar-doc"
 

@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-samaritan-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "a298ce6d41b4d037571e584e3b071cec4cfd3159bb17822c81826e7524ba173a22872a261e0821a83745fbda413a3ec591bacf1c719b71a290b73d43dfa552ab"
+RPM_NAME = "noto-sans-samaritan-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "8d90e9790729ad4efbebb833e0a5dfac72bb5f68468af2a15abce713c822a3657ccc3a9e3f4adcf7470df49fe4be410bf09f4c5d22aea5751ad6336382195aed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-samaritan \

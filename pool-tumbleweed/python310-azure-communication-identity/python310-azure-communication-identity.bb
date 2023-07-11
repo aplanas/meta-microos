@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "1.3.1"
 
-RPM_NAME = "python310-azure-communication-identity-1.3.1-1.3.noarch.rpm"
-RPM_HASH = "5b50f1066e78a6485b521cb9414c4b2fbb69a3973c060fd84823041ee3ad0e6862dfb86e47c07caf88fb73927bf7e43b3ce8af6b20cad7797e8a34b86c3e54c2"
+RPM_NAME = "python310-azure-communication-identity-1.3.1-1.5.noarch.rpm"
+RPM_HASH = "23285b6c102e45df59e5b219512adb67bdbe3ca70be9f92833a542e8c09c92cf71b6966993b5d097cc932bf3a22e5920be81832699f51ffffdcf14d68146147b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-communication-identity \
-python3.10dist-azure-communication-identity \
+RPROVIDES:${PN} += "python3.10dist-azure-communication-identity \
 python310-azure-communication-identity \
 python3dist-azure-communication-identity"
 

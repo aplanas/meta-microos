@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.3.1"
 
-RPM_NAME = "typelib-1_0-CloudProviders-0_3_0-0.3.1-3.3.aarch64.rpm"
-RPM_HASH = "4405ce1392bd9450e646b8233b38af4610b90b7df1d9b8e97cb2724feef6f951f759e3bc730993518aae947b6c66b277bf9b43290fb85283a0780a0c38dabc4a"
+RPM_NAME = "typelib-1_0-CloudProviders-0_3_0-0.3.1-3.4.aarch64.rpm"
+RPM_HASH = "7a2aca637d1cffcd1219c2dc48b28bc89d921c2256a4f30f517004d1aaa771bf0bd7ddb7e1d66f0f7de746446b3c589bd0c0205e870b217a22b9b0f68e8a8a5f"
 
 RPROVIDES:${PN} += "typelib-1-0-CloudProviders-0-3-0 \
 typelib-CloudProviders"

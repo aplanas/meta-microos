@@ -5,11 +5,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.0.0~rc7.1599393390.c451359"
 
-RPM_NAME = "Printrun-common-2.0.0~rc7.1599393390.c451359-3.12.aarch64.rpm"
-RPM_HASH = "ed7c659ea8f3428c20b58a4f57b6c0fa671cd3db37704e415d0e7745c256dbdfd3756312465b5faa28868098a5c35ac274ea61294f4d3a0ffa88d01ec51f5e58"
+RPM_NAME = "Printrun-common-2.0.0~rc7.1599393390.c451359-3.13.aarch64.rpm"
+RPM_HASH = "3c918e969162b877da68edc5734827f6d812b1f17f96467cecb69752a3939980cf49bb26f51802c2f4fa50657e7c2f6cd1e6bd5a9acbe23befb10889ac40d3ff"
 
 RPROVIDES:${PN} += "Printrun-common \
-python3.10dist-printrun \
+python3.11dist-printrun \
 python3dist-printrun"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

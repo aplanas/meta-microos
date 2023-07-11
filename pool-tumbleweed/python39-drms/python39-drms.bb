@@ -4,10 +4,10 @@ data with Python. It uses the publicly accessible JSOC DRMS server by \
 default, but can also be used with local NetDRMS sites."
 LICENSE = "MIT"
 
-PV = "0.6.2"
+PV = "0.6.4"
 
-RPM_NAME = "python39-drms-0.6.2-1.10.noarch.rpm"
-RPM_HASH = "af5c125d6af797d2b25c36e8555efffc8c699b65026830178b24a6aeb79b7f110f80e1e596d92ac5523a44577779acc3b82e4c16d863294ae0a779c8c293e10e"
+RPM_NAME = "python39-drms-0.6.4-1.1.noarch.rpm"
+RPM_HASH = "0cadbae46a2d6bf94c181fdb4d42b0c71dd5d107573995d600f551bc825cbeac5d55dec30f2829bcd42bdb831196decccc895b5dabc2af6e102649015411bece"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-drms \

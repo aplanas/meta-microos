@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.8.1.0"
 
-RPM_NAME = "ghc-cabal-install-solver-3.8.1.0-1.3.aarch64.rpm"
-RPM_HASH = "c40c46ac4530b269f9a80c1d93429bcf99c54651e243511d2421156b4ada55ae3adaa79c7ccacb0a919fd50d51cce52eb2d5ac9496c654374c9e70bc0fb7aa7f"
+RPM_NAME = "ghc-cabal-install-solver-3.8.1.0-1.6.aarch64.rpm"
+RPM_HASH = "e6b2ad7f15e003c465a91243fcd9e6e760a51cdd9cdf13cd449cd6d2c0626e6bf7cad8ad08834d5ed80935295563aa63cab87d952480851efc27ff33517356f6"
 
 RPROVIDES:${PN} += "ghc-cabal-install-solver \
 libHScabal-install-solver-3.8.1.0-IpM66GQ0mvV3BDvTXL2kvp-ghc9.4.5.so"

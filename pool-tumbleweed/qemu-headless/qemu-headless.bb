@@ -12,15 +12,15 @@ LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-
 
 PV = "8.0.2"
 
-RPM_NAME = "qemu-headless-8.0.2-1.1.aarch64.rpm"
-RPM_HASH = "b93dec8c62ea1b43758856c59859ce40efa8c61c148995829e822142ad41f822eca75617ea466f2aa1b0d92ca06e6cc2e9eaf68eb08b6cdb25d27e41fa863b57"
+RPM_NAME = "qemu-headless-8.0.2-2.1.aarch64.rpm"
+RPM_HASH = "94506cf262568f92a15fff934bb439b3d4837564f878219cc3503394e33a3b903e36908dfe096a2fe41cc07614c9bb8326b3d0ce7448ee258fefb8009f44e0d9"
 
 RPROVIDES:${PN} += "qemu-headless"
 
 RDEPENDS:${PN} += "qemu \
 qemu-chardev-spice \
 qemu-hw-usb-redirect \
-qemu-tools \
+qemu-img \
 qemu-ui-spice-core"
 
 inherit rpm

@@ -6,8 +6,8 @@ LICENSE = "CC0-1.0 & MIT"
 
 PV = "1.0.1+git.20230117"
 
-RPM_NAME = "libzypp-plugin-appdata-1.0.1+git.20230117-2.1.noarch.rpm"
-RPM_HASH = "2ee93cffe8976cee28f4cfe440497c016a985137bc998b5b6aa0dcf963f0514cc2d5e72699c70cd11c21d118d8aa392c1250a4974001e89955ee0a8f7f5a6091"
+RPM_NAME = "libzypp-plugin-appdata-1.0.1+git.20230117-2.2.noarch.rpm"
+RPM_HASH = "16b31748498b50ef4b9b5946c3a81b1ad415efddea1e72407019eaf358464dedcad5bb96d1d0cc789463ef7ed66df1108a8fd922062f8391eee6d7935084f16b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "appstream-provider \

@@ -5,11 +5,10 @@ LICENSE = "MIT"
 
 PV = "0.18.0.1"
 
-RPM_NAME = "python310-recordclass-0.18.0.1-1.5.aarch64.rpm"
-RPM_HASH = "31c5cc23929b5c6e8a31279912355ada9423273769878c0706cafe212993fc965a2e31ed57ab9be28ffc6bbd906e672baf879cb016fc4bbb7dfcc391bafe877b"
+RPM_NAME = "python310-recordclass-0.18.0.1-1.7.aarch64.rpm"
+RPM_HASH = "27ac096736197ed1f51692cd3992711369bc09625d7dde4849b2822855dfbc1143525ed1fce9c547318364d6026875d8116be54b8010604753fd8d276f99da6c"
 
-RPROVIDES:${PN} += "python3-recordclass \
-python3.10dist-recordclass \
+RPROVIDES:${PN} += "python3.10dist-recordclass \
 python310-recordclass \
 python3dist-recordclass"
 

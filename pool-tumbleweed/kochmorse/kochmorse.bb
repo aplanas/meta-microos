@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.5.1"
 
-RPM_NAME = "kochmorse-3.5.1-1.3.aarch64.rpm"
-RPM_HASH = "d92b42be8570d25341fc5ec1ddc4ba373c6e6b0f63d8dc9bb5c47ac97c841a6753c9af63aacbc8dfd0772d93200b46186aa1f83848bc824d7a7f9fd46f372b74"
+RPM_NAME = "kochmorse-3.5.1-1.4.aarch64.rpm"
+RPM_HASH = "1288ba6eb572ffa48ebca79aef0b0015f294542373c15050b47ba8a2e6a353c8ce1831f08f4057312f2089b99ebafc7536442f2313e8f9b0cf8c00388b30e73b"
 
 RPROVIDES:${PN} += "kochmorse"
 

@@ -8,8 +8,8 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "4.0"
 
-RPM_NAME = "libndpi-devel-4.0-1.8.aarch64.rpm"
-RPM_HASH = "6acd637d2707f49318d3a725f6d21e012cf3049ab058e434ab56d2c1a2dea09c249cba34d77f64f81b71602e45470271a189a912a4de54267fa151b4ef5d9d7e"
+RPM_NAME = "libndpi-devel-4.0-1.9.aarch64.rpm"
+RPM_HASH = "b70b573ff4fef728f58ff27aee06ac943c3c1992b2c1e64afee76989958a185bc3f7f164a2ee82113d2a1407042f311a92b3539e9840af7332965a5e155f5bd3"
 
 RPROVIDES:${PN} += "libndpi-devel \
 pkgconfig-libndpi"

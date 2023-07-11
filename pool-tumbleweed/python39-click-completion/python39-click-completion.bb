@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.5.2"
 
-RPM_NAME = "python39-click-completion-0.5.2-1.13.noarch.rpm"
-RPM_HASH = "6e94de31276e33be8a0d3cb5a90040c8875a24fb8b76f2685c2987367d7f1df46a29230dd0ea24d2f332216f6259fba32a249d380bbc1898351db4af9ed7b49c"
+RPM_NAME = "python39-click-completion-0.5.2-1.14.noarch.rpm"
+RPM_HASH = "c1c8083e33cda40891d80bdf021e638e5c727c92571ebf1a186c7d80c9293e6cbbeb6d0aea3790649fa1adbaf8b390d5baa07ed66d4faf3d6efe5f8a83761828"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-click-completion \

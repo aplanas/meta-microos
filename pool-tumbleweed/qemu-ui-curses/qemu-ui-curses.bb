@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-
 
 PV = "8.0.2"
 
-RPM_NAME = "qemu-ui-curses-8.0.2-1.1.aarch64.rpm"
-RPM_HASH = "657de5511c55e05030979f380e8d28d8291b6ad9814a0176fa39fb9a4ccc6568e1c1854ac652ed2ee4eda030a19f9ca7607b899b1e0e80410f78ab8ea5a76381"
+RPM_NAME = "qemu-ui-curses-8.0.2-2.1.aarch64.rpm"
+RPM_HASH = "01b96945fef4df7643a6cd744838fdcfae998acdd2706a6f82dca6fd6b4234a8532207fcc2706af1309481df102726b4f16a420ea7a0672e95dd918adfd2d8eb"
 
 RPROVIDES:${PN} += "qemu-ui-curses"
 

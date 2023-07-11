@@ -3,10 +3,10 @@ DESCRIPTION = "Poppler is a PDF rendering library, forked from the xpdf PDF view
 developed by Derek Noonburg of Glyph and Cog, LLC."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "23.05.0"
+PV = "23.06.0"
 
-RPM_NAME = "libpoppler-qt5-devel-23.05.0-1.1.aarch64.rpm"
-RPM_HASH = "db9cf49961af105ef7c252bbf927f3806ebbd71b33506ae06121402ec9fd6d59db909e693b961e2e4572db16ee5f009cd03875306d4a74724cab87f1c3a263db"
+RPM_NAME = "libpoppler-qt5-devel-23.06.0-1.1.aarch64.rpm"
+RPM_HASH = "d30aa3216cfb497f47855dacb3080c5a32cbe8f6b340f04a19e68b1f761a5afd33ea20966682a84aa66ccd9f2296b37cc62dda174adeb683fdfeca5f6b92b51f"
 
 RPROVIDES:${PN} += "libpoppler-qt5-devel \
 pkgconfig-poppler-qt5"

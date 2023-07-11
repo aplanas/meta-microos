@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.81"
 
-RPM_NAME = "healpix_cxx-devel-3.81-1.7.aarch64.rpm"
-RPM_HASH = "659805b9a95155557b1132fde8558825aa600c933d9f721072b7991f67b400c61c0fffc0782a932a1a98ded4885a1da8ac665781c671ec4b5bb9cb045a4c0d53"
+RPM_NAME = "healpix_cxx-devel-3.81-1.8.aarch64.rpm"
+RPM_HASH = "4444d4e07ebbd7f4dfa5a577d1d67258274f0d2e292d68e33f9524f0a907d062e0b1909f98d0bd8e562d7e4a42bb152c1d32398b9f0733b3bf1818fd5dd02589"
 
 RPROVIDES:${PN} += "healpix-cxx-devel \
 pkgconfig-healpix-cxx"

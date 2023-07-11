@@ -3,10 +3,10 @@ DESCRIPTION = "Includes KDE's implementation of the Telepathy chat handler, \
 a chat plasmoid, and a chat log viewer application."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "ktp-text-ui-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "fd7cc294507e2b1f30ef732f3c535f927b233cf00affa54247d19e39956e1560dbf0a0430240a1d9eb1bec5deef6879579d044b51cc9a557a3c15a5b55dd1d15"
+RPM_NAME = "ktp-text-ui-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "ca1317655f6d101680134a9419c42d695f863b628651d7568bb2632c7226be977e2065be6197aecff8d5c710fddcdd24744f3c6caebfb2cfeebc2da124f19bf9"
 
 RPROVIDES:${PN} += "ktp-text-ui \
 ktp-text-ui5 \

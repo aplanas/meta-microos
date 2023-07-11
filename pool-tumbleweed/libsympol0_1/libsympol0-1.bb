@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.1.9"
 
-RPM_NAME = "libsympol0_1-0.1.9-1.10.aarch64.rpm"
-RPM_HASH = "2aab2c0f71474739fc4d5ec262e88c09e112c27d7a852bddc32f75b6e9ab34a937e13268897578c7add46672393faf13ec3f7b928d4d5d20e6eaeaa0c6a7ba8e"
+RPM_NAME = "libsympol0_1-0.1.9-1.11.aarch64.rpm"
+RPM_HASH = "908ca8803077de516d8c6078002cdfd9c1b7620a43ffe669ca96f332c87cf561e0fdc954e4781b736619d1550557e2dc1c776bc5c01406df8ff8f2cbe8206f39"
 
 RPROVIDES:${PN} += "libsympol.so.0.1 \
 libsympol0-1"

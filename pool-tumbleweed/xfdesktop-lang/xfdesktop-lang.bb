@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.18.1"
 
-RPM_NAME = "xfdesktop-lang-4.18.1-1.3.noarch.rpm"
-RPM_HASH = "0a881b76d6e5bff9c05919e1a5a9c6d2627470e5034a2988f3f1b368a45d6688cfac9873f97c75e131d9878494448ef1e9fe57c056860fb32d2938a02dca8691"
+RPM_NAME = "xfdesktop-lang-4.18.1-1.4.noarch.rpm"
+RPM_HASH = "59aadf26ec2e9944efcd7647e3ee684396267938aaf3195c45f49419740afbec49eba79d6919a9fda43bcb79d1ec9256eabece8f69daf0742feb9d11ed20bbd6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfdesktop-ar \

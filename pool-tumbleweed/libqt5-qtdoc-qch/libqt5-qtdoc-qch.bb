@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
 PV = "5.15.9"
 
-RPM_NAME = "libqt5-qtdoc-qch-5.15.9-2.1.noarch.rpm"
-RPM_HASH = "8acd8199d1d18e914e6d5c7ebbb015ac8ea50820531f6b100d3f79a5450f6df1ec3187031e3c721ac4f5f88b0439032956cfa9ab1eb2bb9cfd6684cc585b63a5"
+RPM_NAME = "libqt5-qtdoc-qch-5.15.9-2.3.noarch.rpm"
+RPM_HASH = "3a751fc57b776ba68400753cc00ee7e177b67d16f1a2261a6b427114b2b957965f37fdcaefe9180b329cbf66a230336cbbc81e07648d3a9f5c730b89196aee57"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libqt5-qtdoc-qch"

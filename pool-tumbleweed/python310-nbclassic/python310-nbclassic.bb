@@ -7,14 +7,13 @@ users can launch Jupyter Notebook, JupyterLab and other frontends side-by-side \
 on top of the new Python server backend."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.5.6"
+PV = "1.0.0"
 
-RPM_NAME = "python310-nbclassic-0.5.6-1.1.noarch.rpm"
-RPM_HASH = "3564512eb478aa882a73f603cb2ca7af1278b35582b3714c0c74ba6fc5f89f650dcfc356e3c6f55e7e0573a8a1a1d4322ed13cf51c38f77338a839f7ba04c477"
+RPM_NAME = "python310-nbclassic-1.0.0-1.3.noarch.rpm"
+RPM_HASH = "512c8f7b7fd3dcb9164762f75e4e556b4f830243dafa2865b32dbef512033d416538d6abb5ed36b4dea6331b2f6be074f5445204dc8b64ade6fc5a58866d0d9a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-nbclassic \
-python3.10dist-nbclassic \
+RPROVIDES:${PN} += "python3.10dist-nbclassic \
 python310-nbclassic \
 python3dist-nbclassic"
 

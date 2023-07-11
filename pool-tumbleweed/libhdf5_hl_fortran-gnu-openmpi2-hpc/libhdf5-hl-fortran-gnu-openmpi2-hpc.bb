@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.12.2"
 
-RPM_NAME = "libhdf5_hl_fortran-gnu-openmpi2-hpc-1.12.2-5.2.aarch64.rpm"
-RPM_HASH = "60658ec7bf4df6945456744aba943701f4f4567baf39ab86ad6529be2c984fb3d0c7cd7889a98d966e4b12594fed0339c3390b4d4ebc720af07b566639723c40"
+RPM_NAME = "libhdf5_hl_fortran-gnu-openmpi2-hpc-1.12.2-5.3.aarch64.rpm"
+RPM_HASH = "2986054c0961008d262a4ba2014c5a774c4524084e886a7e5ad6094815ad7cc7724908025307d3aa5e8f25b2ebf789420b641367d20e40caf6604afaf57b83b6"
 
 RPROVIDES:${PN} += "libhdf5-hl-fortran-gnu-openmpi2-hpc"
 

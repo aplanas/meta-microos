@@ -6,8 +6,8 @@ LICENSE = "ZPL-2.1"
 
 PV = "5.1"
 
-RPM_NAME = "python39-DateTime-5.1-1.1.noarch.rpm"
-RPM_HASH = "e919195281ac8a3e427b8cb396582a5c40ea586b8252f9ad08d64ed83ed375526b87b94b66634a417acfa282af4e965a063da72a599bc80dbb9ce83e84db6aa1"
+RPM_NAME = "python39-DateTime-5.1-1.3.noarch.rpm"
+RPM_HASH = "4180d6cb577e4943052e3a5934684724da521170ae242e1bd46d88f28d999766f5f9868a170f674694f0eff3e0a72f872fab1e964beb1aba2de3e62c0b06ed89"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-datetime \

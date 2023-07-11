@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "1.15"
 
-RPM_NAME = "libxcb-xfixes0-1.15-2.2.aarch64.rpm"
-RPM_HASH = "9fb757c5e9bb7c411cb5786a6277126a43e956612b7a6a03d0a5df4114e0a0dfe734287bff9904e0bc03b4265fff23d5e261060e9b78eae8121abfe5cbfb456a"
+RPM_NAME = "libxcb-xfixes0-1.15-2.3.aarch64.rpm"
+RPM_HASH = "5baa648a5cb0b6465d7ae31332dfd006c37ad21e2d0882dc4c62e0f95087ea1d5477c4ad5df5c303c1a915fd61ec613fc1d95e913ac703cea46a803ca68478e6"
 
 RPROVIDES:${PN} += "libxcb-xfixes.so.0 \
 libxcb-xfixes0"

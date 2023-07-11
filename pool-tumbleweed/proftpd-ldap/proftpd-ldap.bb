@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.3.7f"
 
-RPM_NAME = "proftpd-ldap-1.3.7f-1.3.aarch64.rpm"
-RPM_HASH = "fe4a58210f98406b4224b5d1eb45fbdae62c1a1dfac54c6e0191d012dc05c0ac6e26787b95a90da1730ac2328bf4945abeac30b0d92381665bfa734faa5d1af3"
+RPM_NAME = "proftpd-ldap-1.3.7f-1.4.aarch64.rpm"
+RPM_HASH = "b89211fecce54ce8c269053da3844b690ce4add9ede4e14c249a2741617a701e1e237563b03c87a0cf1868a75709f485c16875d9bb54a1d7c0c36f48b482c6dd"
 
 RPROVIDES:${PN} += "proftpd-ldap"
 

@@ -6,10 +6,10 @@ accommodate creating JupyterLab-like applications from a more \
 limited scope."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.22.1"
+PV = "2.23.0"
 
-RPM_NAME = "python39-jupyterlab-server-2.22.1-1.2.noarch.rpm"
-RPM_HASH = "f5fb852111de091d55e500280c0ca5282276543a9b99e39d8c47e854cffa77360eeda9365dba7c1a23be9010c9b1ab3bbcb9d076cf96a8938246c56c2d2f8865"
+RPM_NAME = "python39-jupyterlab-server-2.23.0-1.3.noarch.rpm"
+RPM_HASH = "151eab1063e08830ca4228e4757f26f56321a3912e9878f048b62675aa33356669fce594c57655901bd7ddf2a2a2d65c95a19ffb0e84473d1382f8b7eb4bd993"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-jupyterlab-server \

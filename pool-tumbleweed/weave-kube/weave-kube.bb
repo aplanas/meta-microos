@@ -12,8 +12,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.8.1"
 
-RPM_NAME = "weave-kube-2.8.1-3.8.aarch64.rpm"
-RPM_HASH = "370b18b4b5625f6092dc404619d89a3ab6fa2f29db13ffe463bd51f405dce9741b11e840a5ebc0fb2a2eb083e9ff1fbf72b6eff14c4168526bae28fe5465d26e"
+RPM_NAME = "weave-kube-2.8.1-3.9.aarch64.rpm"
+RPM_HASH = "de181773fecf5ad8155e4146a96cada710bf6b758f2a06deb59a863e8769fdffc59a011a455e66e551bf817170ad977b0abf990695225584a06dd139ea5bad8a"
 
 RPROVIDES:${PN} += "weave-kube"
 

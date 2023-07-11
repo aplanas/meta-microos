@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.23.17"
 
-RPM_NAME = "kubernetes1.23-client-1.23.17-3.1.aarch64.rpm"
-RPM_HASH = "a5893981aa9b22d7c9b9ec0e0937701bfb38edc1d3692e4da6c8d397d6314e4744408ea596cf795a1e2c7203a05a2db4f317999a0756e313e25492d5472a5e74"
+RPM_NAME = "kubernetes1.23-client-1.23.17-5.1.aarch64.rpm"
+RPM_HASH = "ce67daee8e0e3637e59171620415d653232cd96e72bf370b4b129110379f64bac62d86e564396a6aa9f40467caf2f7d0c4b7ee108d86d3d89a1018ab826fbc48"
 
 RPROVIDES:${PN} += "kubernetes-client-provider \
 kubernetes1.23-client"

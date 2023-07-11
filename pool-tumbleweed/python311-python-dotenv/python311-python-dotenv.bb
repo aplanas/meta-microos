@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.0"
 
-RPM_NAME = "python311-python-dotenv-1.0.0-1.1.noarch.rpm"
-RPM_HASH = "16a61ebf8dda7551588a366d62adb6c238ce58b116c4490c7f9065c0cf231857391247c65c28901babe849752f3e5017a88b8db1c39be170caa89bac9ee6e724"
+RPM_NAME = "python311-python-dotenv-1.0.0-1.3.noarch.rpm"
+RPM_HASH = "6386b7d18f5069ff42edfe5dd404c7cd8fe3e9a6c4b3417910ecb3b178f0905ed3ece6cb96b3d177ef1ccf872245c3ca69ae9593f408742f12ac3c898f5cba3d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-python-dotenv \
+RPROVIDES:${PN} += "python3-python-dotenv \
+python3.11dist-python-dotenv \
 python311-python-dotenv \
 python3dist-python-dotenv"
 

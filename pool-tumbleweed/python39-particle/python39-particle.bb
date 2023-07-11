@@ -3,10 +3,10 @@ DESCRIPTION = "Particle provides a pythonic interface to the Particle Data Group
 particle data tables and particle identification codes."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.22.0"
+PV = "0.22.1"
 
-RPM_NAME = "python39-particle-0.22.0-1.1.noarch.rpm"
-RPM_HASH = "92d34ff4c9446d706ff30edd3debd11ca6b13f9aecfd230ba91d8170034f2b8d44d2746fcc54f270ebd6ea0010d69cd5f852acc1264f3b67031892ae5f66e47c"
+RPM_NAME = "python39-particle-0.22.1-1.1.noarch.rpm"
+RPM_HASH = "7861ab992e50cf0073a9184ae3ab6f61b174d44c2e4a108e2903942410b7f739c8f56aa6608da39f02763ebdd1df171dbb8b653f9f921ba5f373eb38d7fdfa3a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-particle \
@@ -14,6 +14,7 @@ python39-particle \
 python3dist-particle"
 
 RDEPENDS:${PN} += "python-abi \
+python39-Deprecated \
 python39-attrs \
 python39-hepunits"
 

@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.6.3"
 
-RPM_NAME = "libSciTokens0-0.6.3-2.1.aarch64.rpm"
-RPM_HASH = "19d411df6550bf21f854a0152ccb04e09eefad31bab755643813d75566f61c572a05ecb5e525d520d86f682b43b5fb5ae469d10994f38dce14c93464a1b7881f"
+RPM_NAME = "libSciTokens0-0.6.3-2.2.aarch64.rpm"
+RPM_HASH = "61773f6ee9d0ea647cf842a92a931bac514ebfe488c3a360d5b25bee1588f9a0d38a223509cbd7ea0a92025ef8cd27f7c970626168be8e3af4685cc7d763f38e"
 
 RPROVIDES:${PN} += "libSciTokens.so.0 \
 libSciTokens0"

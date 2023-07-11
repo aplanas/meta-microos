@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "11.1"
 
-RPM_NAME = "libprimesieve11-11.1-1.1.aarch64.rpm"
-RPM_HASH = "784645a7da13927011c92546ee46bcf71e4e38a899113ebf81220231ee794931fec8fdbbb4922515a86f23670af12e5a5c1c4a3aff6421541b8cac1b690cd2b3"
+RPM_NAME = "libprimesieve11-11.1-1.2.aarch64.rpm"
+RPM_HASH = "b54a004add42c1bcc9f63e9b10a551b5ad061c91925f9e5b23f448c1bcd148015474ec90f0474d2bf663716ac6a5112772d689c93d396dd86b186c54f60b8cb5"
 
 RPROVIDES:${PN} += "libprimesieve.so.11 \
 libprimesieve11"

@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.3.2"
 
-RPM_NAME = "python3-fityk-1.3.2-1.4.aarch64.rpm"
-RPM_HASH = "315c095d92372d93db476bab40ae6241f92cab8b0fc9bbae367aa475b69794e8494da9b0a35e278d36a6e1ba64ce9ad3b9e64789e6d4b6fbb573d39a3bf96278"
+RPM_NAME = "python3-fityk-1.3.2-1.5.aarch64.rpm"
+RPM_HASH = "a8753d5915720866a26be0b863a07017faa2e11cdca8824429496ed1e14c306f3453498388a7c213684f90631af9284af054cb764722fe52328d1cbdd51fde2f"
 
 RPROVIDES:${PN} += "python3-fityk"
 

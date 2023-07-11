@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.1.0"
 
-RPM_NAME = "avr-libc-2.1.0-1.3.noarch.rpm"
-RPM_HASH = "a0242d4615c804be144065779899f3e94547b4b62a7502de41ff68bc3a78d77ca015158a861d5e953299fb7e19b5e653906a5116e21e0c125b7bef6057e2b833"
+RPM_NAME = "avr-libc-2.1.0-1.4.noarch.rpm"
+RPM_HASH = "dcd046768adfe719f8578c020e7a5e642b921e3af5410a6b2a2a896b41fe0387fd3390c2a70ff43a458b69f294aaeee58160d082d3bb7eedb33baee9c288ef9a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "avr-libc"

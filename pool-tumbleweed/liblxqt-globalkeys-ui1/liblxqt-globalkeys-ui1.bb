@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.3.0"
 
-RPM_NAME = "liblxqt-globalkeys-ui1-1.3.0-1.1.aarch64.rpm"
-RPM_HASH = "199d8098850086fb69517bb75fcf317f19b8957bad30eba68dca4ef08677b03e04b98dda6b783bba1ff4c45c7c2ccdeb6242c4027e4c65b92b7d078488d1fc7a"
+RPM_NAME = "liblxqt-globalkeys-ui1-1.3.0-1.2.aarch64.rpm"
+RPM_HASH = "bf8a52628fb8db86b6079642dd91215dcea8706eca5afe116a9958cbbfe22cde2636e2664b494194a7ca32b949ad2d9ed6d7f8fd799b8da37cdf746266f7db60"
 
 RPROVIDES:${PN} += "liblxqt-globalkeys-ui.so.1 \
 liblxqt-globalkeys-ui1"

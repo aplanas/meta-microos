@@ -8,11 +8,12 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.3.6"
 
-RPM_NAME = "python311-simplekml-1.3.6-1.3.noarch.rpm"
-RPM_HASH = "38ae7299047e94cc1d6884db7f171ea8cc5fa23a8690d9bf375e6bbca84fc08c27fd0e526ff293820d754e8d886b73a47850dd82f73da06c8d64c9a2d9292462"
+RPM_NAME = "python311-simplekml-1.3.6-1.4.noarch.rpm"
+RPM_HASH = "a3a1635dd3c16a5985e06bafb9846fefd6c9462622599f16ad4dfe80cb5fcfa725442bae723e3cbadb04fe9262fac84124d7d9eec77cfca2b2a150259413568a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-simplekml \
+RPROVIDES:${PN} += "python3-simplekml \
+python3.11dist-simplekml \
 python311-simplekml \
 python3dist-simplekml"
 

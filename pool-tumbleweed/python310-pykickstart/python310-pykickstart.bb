@@ -6,12 +6,11 @@ LICENSE = "GPL-2.0-only & MIT"
 
 PV = "3.43"
 
-RPM_NAME = "python310-pykickstart-3.43-2.2.noarch.rpm"
-RPM_HASH = "9a51652711fb4cb6233aec4b56dd05bebf56c57b89c8055039ca99cd9ed16e0f5d65fc81da2e6a38b95d4dfa65101de67ea047a44de16240389b69f9dcca25a4"
+RPM_NAME = "python310-pykickstart-3.43-2.4.noarch.rpm"
+RPM_HASH = "fd344450922d43613c313d3d85ba9a062ec20b0bbf59ba259553b6a8e8fafb5228fab1cca983e14c4d874c6ec65d2ca61eccc0af0705c1a7fbd441a969311a0c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pykickstart \
-python3.10dist-pykickstart \
+RPROVIDES:${PN} += "python3.10dist-pykickstart \
 python310-pykickstart \
 python3dist-pykickstart"
 

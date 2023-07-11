@@ -2,21 +2,27 @@ SUMMARY = "Shell history helper"
 DESCRIPTION = "McFly replaces your default ctrl-r shell history search with an intelligent search engine that takes into account your working directory and the context of recently executed commands. McFly's suggestions are prioritized in real time with a small neural network."
 LICENSE = "MIT"
 
-PV = "0.8.0~0"
+PV = "0.8.1~0"
 
-RPM_NAME = "mcfly-0.8.0~0-1.3.aarch64.rpm"
-RPM_HASH = "071af807df594dd3d4ddce8e601be28897767bf041cf355b06dc153806673dbde3ab7c369a00440922a3295c6d7576604a0336af21b8940e605313ca5f7d52a0"
+RPM_NAME = "mcfly-0.8.1~0-1.1.aarch64.rpm"
+RPM_HASH = "29c4cff9977e5933c12f117bb0435ba7246c168ca8f473f09bfe96060d23bc122b59b51c309627c8e45e796c06f14eb62a18600a806db99c7f41c33008e23196"
 
 RPROVIDES:${PN} += "bundled-rust-crate-ahash \
 bundled-rust-crate-aho-corasick \
+bundled-rust-crate-anstream \
+bundled-rust-crate-anstyle \
+bundled-rust-crate-anstyle-parse \
+bundled-rust-crate-anstyle-query \
 bundled-rust-crate-autocfg \
 bundled-rust-crate-bitflags \
 bundled-rust-crate-cc \
 bundled-rust-crate-cfg-if \
 bundled-rust-crate-chrono \
 bundled-rust-crate-clap \
+bundled-rust-crate-clap-builder \
 bundled-rust-crate-clap-derive \
 bundled-rust-crate-clap-lex \
+bundled-rust-crate-colorchoice \
 bundled-rust-crate-crossterm \
 bundled-rust-crate-csv \
 bundled-rust-crate-csv-core \
@@ -46,16 +52,12 @@ bundled-rust-crate-log \
 bundled-rust-crate-mcfly \
 bundled-rust-crate-memchr \
 bundled-rust-crate-mio \
-bundled-rust-crate-num-integer \
 bundled-rust-crate-num-traits \
 bundled-rust-crate-once-cell \
-bundled-rust-crate-os-str-bytes \
 bundled-rust-crate-parking-lot \
 bundled-rust-crate-parking-lot-core \
 bundled-rust-crate-pkg-config \
 bundled-rust-crate-ppv-lite86 \
-bundled-rust-crate-proc-macro-error \
-bundled-rust-crate-proc-macro-error-attr \
 bundled-rust-crate-proc-macro2 \
 bundled-rust-crate-quote \
 bundled-rust-crate-rand \
@@ -76,12 +78,12 @@ bundled-rust-crate-signal-hook-registry \
 bundled-rust-crate-smallvec \
 bundled-rust-crate-strsim \
 bundled-rust-crate-syn \
-bundled-rust-crate-termcolor \
 bundled-rust-crate-thiserror \
 bundled-rust-crate-thiserror-impl \
 bundled-rust-crate-time \
 bundled-rust-crate-unicode-ident \
 bundled-rust-crate-unicode-segmentation \
+bundled-rust-crate-utf8parse \
 bundled-rust-crate-vcpkg \
 bundled-rust-crate-version-check \
 mcfly"

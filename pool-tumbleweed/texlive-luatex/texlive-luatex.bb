@@ -8,10 +8,10 @@ input encoding, and is able to use modern (OpenType and \
 TrueType) fonts (for both text and mathematics)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn66546"
+PV = "2023.208.svn66546"
 
-RPM_NAME = "texlive-luatex-2023.201.svn66546-52.1.noarch.rpm"
-RPM_HASH = "7b27e65e68198ffcb4531851c8a4fdd6e7db162ee7508a4fc38b1b6dc93271a9692de6fa34d869661495fe7c66cde88b004937a7cf8a14d653d0b88157ce2583"
+RPM_NAME = "texlive-luatex-2023.208.svn66546-53.1.noarch.rpm"
+RPM_HASH = "537680fb9dd80c6154095b4a0cd2992ff61ca6b4d4462c973a6a53e7cf611a3850e00c399120a9f7d286593b278be08d0c2fd4e13707547943e0c0166b0e351e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-luatex \

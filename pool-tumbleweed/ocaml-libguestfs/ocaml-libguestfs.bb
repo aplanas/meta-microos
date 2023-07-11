@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.50.1"
 
-RPM_NAME = "ocaml-libguestfs-1.50.1-3.1.aarch64.rpm"
-RPM_HASH = "4003c86f560daba3ab2277193d50ceb6c769fdc44c7dde1d192219d29622b71032f51f969391962e2685262218f4eab4fb4eae544d5e6ffc34a1245f0c6b021b"
+RPM_NAME = "ocaml-libguestfs-1.50.1-3.3.aarch64.rpm"
+RPM_HASH = "28eefc2f8c994be3b5a7020e3ee85d3f9110d6af34305984677c4620bd7b2be3ee2561ea2a12ad555ef815882d40baf45e76e669880412a19eddafd5a0daacfa"
 
 RPROVIDES:${PN} += "ocaml-libguestfs"
 

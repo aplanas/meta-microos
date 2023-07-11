@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.0"
 
-RPM_NAME = "jnr-a64asm-javadoc-1.0.0-2.1.noarch.rpm"
-RPM_HASH = "0510d9741afe9680e09f28369358ba62cfab5e811d3eb79c040604217e714679bddfba085fa1ff81d2738211d3acd88a5489e1b9efce224054f08f41ea5b7394"
+RPM_NAME = "jnr-a64asm-javadoc-1.0.0-2.2.noarch.rpm"
+RPM_HASH = "54f2ae75d587a9b778c5d878052ddd31a8384715bf31ad551e1d8daf8839f49ca0708853f6691730b2f938839b4248741d501217993ac9c5c352fcce070bece8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jnr-a64asm-javadoc"

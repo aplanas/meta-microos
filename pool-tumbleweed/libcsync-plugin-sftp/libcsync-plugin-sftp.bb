@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.50.0"
 
-RPM_NAME = "libcsync-plugin-sftp-0.50.0-11.9.aarch64.rpm"
-RPM_HASH = "0bc6d17f3b2521ac9b90ca9b67b52904a40b427e6d08f749ee39c70420cb929c5c17c1e2c82da51473ac8e5dce86c28b985108ffee2a54c5f194ec17c7918787"
+RPM_NAME = "libcsync-plugin-sftp-0.50.0-11.10.aarch64.rpm"
+RPM_HASH = "ffc8c38a004298327e04b6074b689374be99a09f8564484c6280074ab55c14a14c06473714bdfccd5609df104044196239bf8ec52e4a4ff1b9729a0c18f2bc32"
 
 RPROVIDES:${PN} += "libcsync-plugin-sftp"
 

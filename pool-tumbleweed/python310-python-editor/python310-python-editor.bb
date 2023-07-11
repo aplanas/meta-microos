@@ -6,12 +6,11 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.4"
 
-RPM_NAME = "python310-python-editor-1.0.4-1.14.noarch.rpm"
-RPM_HASH = "10466b66196baa845919b45138fd65015eed432f417bae2abaadde34c05e89b53a1c26fd3280716982de7eedb2a14b19e121edc95bfbb3eba987c721a9cdcbab"
+RPM_NAME = "python310-python-editor-1.0.4-1.15.noarch.rpm"
+RPM_HASH = "c43b346fc28e3c4cf9378ebfba80093452995e786e758cace751370ff39b9756bf51cec6536cfcc343e8bf67d73ce449d5a497f003f539f4c0e5905c6e839080"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-python-editor \
-python3.10dist-python-editor \
+RPROVIDES:${PN} += "python3.10dist-python-editor \
 python310-python-editor \
 python3dist-python-editor"
 

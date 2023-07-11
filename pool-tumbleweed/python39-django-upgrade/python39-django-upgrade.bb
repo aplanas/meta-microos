@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.13.0"
 
-RPM_NAME = "python39-django-upgrade-1.13.0-1.2.noarch.rpm"
-RPM_HASH = "d72ba4f5af8b5ba6389dde06625326ffe08087429b4a86d2e515f4fb2a8d3011514e407a5c0decda797480046abbb43808b2f741efd5ac5f4f60630ce5733d03"
+RPM_NAME = "python39-django-upgrade-1.13.0-1.4.noarch.rpm"
+RPM_HASH = "4d663ed62f6310c19acae54739b586c206774257e469114dc86f1a0256f3cee07c36345f8e48c547af337ab79cc1a4a8540f65f06cbdfcea9e49a05aff0a41ee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-django-upgrade \

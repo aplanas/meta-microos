@@ -2,10 +2,10 @@ SUMMARY = "Core Akonadi Server library"
 DESCRIPTION = "This package includes the core Akonadi library, the KDE PIM storage service."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libKPim5AkonadiCore5-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "9f9aa8316a628662569341a6d26bd8ea845f386a99e71d5ea51355a00b05b4fe12ed971b482f7839b70ec5c8009116e8e289c8223e7a22bcd6e4a4ac855d78d9"
+RPM_NAME = "libKPim5AkonadiCore5-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "56920b0074c61dd64f71e0798b3f4adbe035d7f0dffc7617be88c3b3cc4703c9ee18f9425a243d50470a1343f9e4d80d7e69fbfabdf44cedaf68190ebc5891b1"
 
 RPROVIDES:${PN} += "libKPim5AkonadiCore.so.5 \
 libKPim5AkonadiCore5"

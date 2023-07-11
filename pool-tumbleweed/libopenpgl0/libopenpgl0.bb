@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.4.1"
 
-RPM_NAME = "libopenpgl0-0.4.1-1.3.aarch64.rpm"
-RPM_HASH = "3f3b7b619662d6efde76b0fac29554e2db16788e0915d61b8a07483ee3b8fb09fd1d716303ec47efe95744b46a6557290cf4e556cfe6aa9a238faf263a61d0fd"
+RPM_NAME = "libopenpgl0-0.4.1-1.4.aarch64.rpm"
+RPM_HASH = "ac760216427d34e5f2cf18abe77b06f811b9a6127d187f0b226cb58ee1e189963fbd363726576208bd7ad6d3dea5f2b2b8dcd3bf295494a0b8e78e16963f4fd7"
 
 RPROVIDES:${PN} += "libopenpgl.so.0 \
 libopenpgl0"

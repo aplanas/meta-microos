@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "1.2.0"
 
-RPM_NAME = "injeqt-devel-1.2.0-1.28.aarch64.rpm"
-RPM_HASH = "2e660b42daaa3b3f4629d960fc533a4d3fd8e710961400a723026be8c767d68f703b77c36c8790e7f4a101f9297bb200120a6347d12cf28e7c06d0721a486cc5"
+RPM_NAME = "injeqt-devel-1.2.0-1.29.aarch64.rpm"
+RPM_HASH = "2838ff76cf086996719710de7ca7d1d1f533a7c88bcc7251fd0314606a8dbd6cdd511b6efe6e6fad61135abe15176f83518f6b09e0e558328913e9063fdd1e17"
 
 RPROVIDES:${PN} += "injeqt-devel \
 pkgconfig-injeqt"

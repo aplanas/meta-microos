@@ -5,13 +5,13 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.9.1"
 
-RPM_NAME = "fiona-fio-1.9.1-1.3.noarch.rpm"
-RPM_HASH = "65711cbacbdccde4abd9f80c1d57ccf242dc42f088f91ab0bff8ab63e704758d2e23f619e5e87ce64519aa6cfc0a2651db2e19bf38c55d87f8c960ca754b7f65"
+RPM_NAME = "fiona-fio-1.9.1-1.6.noarch.rpm"
+RPM_HASH = "702b3fda35b96c382ab79e0dadebe3b62665dda997c273b804a0e49ab5c9bba1fec4a49d5e03633b178aee388162f1f6b335229042da203e5122c578ee061ab4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fiona-fio"
 
-RDEPENDS:${PN} += "/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
 python3-Fiona"
 
 inherit rpm

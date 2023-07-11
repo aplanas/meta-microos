@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.0.1"
 
-RPM_NAME = "mypaint-lang-2.0.1-3.14.noarch.rpm"
-RPM_HASH = "1d3846599090d7fbbae4c9804e54790900c88c6d9de7c9f178eba579f1f678488b00ba3349f615545c3d6ff4d49d601a47336c60024c71346bfd8fb926038e54"
+RPM_NAME = "mypaint-lang-2.0.1-4.1.noarch.rpm"
+RPM_HASH = "666f8b53265ee52a7a338cc023df9c08f745c217a0e0b02622825af83ba85f934d8b1ee453af886801971288bd0bbb3ae30280beb843cae95a99349b8ccea59e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mypaint-af \

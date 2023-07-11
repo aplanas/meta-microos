@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause & CC0-1.0 & SUSE-Public-Domain"
 
 PV = "2.10.7"
 
-RPM_NAME = "ant-scala-2.10.7-8.8.noarch.rpm"
-RPM_HASH = "c3940f345e0c448b82a007824b7752fa53b23d54e235d8daf2a27365a4eafe2a5fc7779cc5a7cf99f6898f730dea17654e37c4e19bc2b3305ed0127a347769b4"
+RPM_NAME = "ant-scala-2.10.7-8.9.noarch.rpm"
+RPM_HASH = "1b7f58b80b7361e3642b1bc64b24dcaf31a71b9726f83b63800029d087f6f59bcbace47b91563f13b6c625b5f447541d7a32e031cd722c7926af08f5499c760a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-scala \

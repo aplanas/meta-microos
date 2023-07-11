@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.2.5"
 
-RPM_NAME = "yishu-1.2.5-1.16.aarch64.rpm"
-RPM_HASH = "6332dce1dff8ca8ce95702a26a2c912199953f0526f169293a75bcbc539fb3bbeee14bc4bc13b96a18664f8f1f1c8621bd7f2b430c8a9d21f08250447a1272c6"
+RPM_NAME = "yishu-1.2.5-1.17.aarch64.rpm"
+RPM_HASH = "aa2ad27c9993e953e55f4b0aaf69428a94e4e1fa904d2d6eef0e1e09dd5641fa80503bcaeb9f413008a8d43703cdf04cb56752ee88a29a94d2c0e38a08ac699c"
 
 RPROVIDES:${PN} += "yishu"
 

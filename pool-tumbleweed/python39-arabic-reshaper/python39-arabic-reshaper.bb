@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "3.0.0"
 
-RPM_NAME = "python39-arabic-reshaper-3.0.0-1.3.noarch.rpm"
-RPM_HASH = "57b4f87433c8b758d2fc17415a2b883719280818017a2e4dad3404020e1e07138f7ea0c693fd97cd9a8b3aeb80da4c3194821856d8d0dec859da9c61ee5777e9"
+RPM_NAME = "python39-arabic-reshaper-3.0.0-1.5.noarch.rpm"
+RPM_HASH = "fae7116b30f6be5689eea8e9fe8cf8ca573be5f7471bcf55b7efc0c32e48b2099298fbfcfa6ef746a4bddc3a9939604fdbc9e2d4037f0b9a7cd411998c278ede"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-arabic-reshaper \

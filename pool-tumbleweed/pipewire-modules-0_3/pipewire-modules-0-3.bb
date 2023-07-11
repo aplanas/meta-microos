@@ -10,10 +10,10 @@ The framework is used to build a modular daemon that can be configured to: \
    such as the gnome-shell screencast API."
 LICENSE = "MIT"
 
-PV = "0.3.71"
+PV = "0.3.72"
 
-RPM_NAME = "pipewire-modules-0_3-0.3.71-3.1.aarch64.rpm"
-RPM_HASH = "541b7f1fbef4104d5df2275e3da6e158ca2e40d01c638c6ff22c794f260e6a1a15d23a7a6831ba384c89028091618a15176105de868a09aee5458097ea125f92"
+RPM_NAME = "pipewire-modules-0_3-0.3.72-1.1.aarch64.rpm"
+RPM_HASH = "7ecaeb284d20bd4ca105b3eb4892053f9b13240e87a77c0047133d48866d365f079b244b4c84d5e676c58d3ebb3469b14075817861d3cd2569530ebab8d854a8"
 
 RPROVIDES:${PN} += "libpipewire-module-access.so \
 libpipewire-module-adapter.so \
@@ -23,12 +23,15 @@ libpipewire-module-client-node.so \
 libpipewire-module-combine-stream.so \
 libpipewire-module-echo-cancel.so \
 libpipewire-module-fallback-sink.so \
+libpipewire-module-ffado-driver.so \
 libpipewire-module-filter-chain.so \
 libpipewire-module-jack-tunnel.so \
 libpipewire-module-jackdbus-detect.so \
 libpipewire-module-link-factory.so \
 libpipewire-module-loopback.so \
 libpipewire-module-metadata.so \
+libpipewire-module-netjack2-driver.so \
+libpipewire-module-netjack2-manager.so \
 libpipewire-module-pipe-tunnel.so \
 libpipewire-module-portal.so \
 libpipewire-module-profiler.so \
@@ -60,6 +63,7 @@ libavahi-common.so.3 \
 libc.so.6 \
 libcrypto.so.3 \
 libdbus-1.so.3 \
+libffado.so.2 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \

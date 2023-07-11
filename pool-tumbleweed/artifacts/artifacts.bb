@@ -14,8 +14,8 @@ LICENSE = "Apache-2.0"
 
 PV = "20220429"
 
-RPM_NAME = "artifacts-20220429-3.1.noarch.rpm"
-RPM_HASH = "3d6ee01d1ef829e084ab02a5fe6d73537c265f78ceda08eadacbfd604653ed0a0dd3038ac47f1137a6fffb780a8b37a3feb5efee81b76369cebec7c325adcd03"
+RPM_NAME = "artifacts-20220429-3.2.noarch.rpm"
+RPM_HASH = "b6ae5fa772c3c21bae0e9429671f74aa917072b11b64528fe0d093b4ac7c3c8e1e250283d11e63f378e4b51c79850cddd0d33c435ab0faecfda6a78fa4c40d12"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "artifacts"

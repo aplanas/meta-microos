@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "6.9.7"
 
-RPM_NAME = "xf86-video-mach64-6.9.7-1.4.aarch64.rpm"
-RPM_HASH = "0b9fe3c189bfece9c627a69a4c4f93791f7d506bbcfa0473bd5de36e08a8a14cb9386402ae0731b1b622a718b92b82b4d329272c83fb2edfad7d1ad527fb0845"
+RPM_NAME = "xf86-video-mach64-6.9.7-1.5.aarch64.rpm"
+RPM_HASH = "542bb3dd41f8c52d6891c17828d8895951696112596c7318ab346e386caec67d75e1fb86ab6958cdfb3bbe662c7229437c592e6d932eda5f9f541330f4fafed3"
 
 RPROVIDES:${PN} += "xf86-video-mach64"
 

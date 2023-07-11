@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python310-azure-mgmt-desktopvirtualization-1.0.0-1.2.noarch.rpm"
-RPM_HASH = "425041fb93874bbbe313130adb9e1bac34e235a4e1d58d89fb010715955ddf0fd000155077359ebd5a0f2306efd9dbc139ad436caf749f401742d2365664f437"
+RPM_NAME = "python310-azure-mgmt-desktopvirtualization-1.0.0-1.3.noarch.rpm"
+RPM_HASH = "990294a6fd84857d294a6ee1830e24abae91115f0c8762d15870019b822aad9cd80c4b5f8d135f09b4d6d4eb2438486aeb77064cf154b851a4e2154f74aefb6c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-desktopvirtualization \
-python3.10dist-azure-mgmt-desktopvirtualization \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-desktopvirtualization \
 python310-azure-mgmt-desktopvirtualization \
 python3dist-azure-mgmt-desktopvirtualization"
 

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "44.0.1"
 
-RPM_NAME = "libcheese8-44.0.1-1.1.aarch64.rpm"
-RPM_HASH = "ee80bb44237e96fb6855518132d50072b36356dbda97cdae7e90ccc448efcf66fec3c7595ae6389a346e2b7a27a9dc2faf6ec6fc9929064f5783abe1ba33cd4e"
+RPM_NAME = "libcheese8-44.0.1-1.2.aarch64.rpm"
+RPM_HASH = "b436ef0ec96c1b1b6938110c685c09192cf60268ad87a882e6347a19638ed462a682512d829843a20e04802c0ed97769e8675c488415fe2ade0bf6b72d797c49"
 
 RPROVIDES:${PN} += "libcheese.so.8 \
 libcheese8"

@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides graphical widgets to handle multiple email 
 and associated settings."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libKPim5IdentityManagementWidgets5-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "fd725a098a8d0b0f92281058eef2a00d65588dbd08fcefe171dc40b34a835b22e53130807659bc8d1af5f56f660fd87fd9885d63c46c9bb86d94f70ec284ffbe"
+RPM_NAME = "libKPim5IdentityManagementWidgets5-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "40805717ee77e942e3a734a3a1b8ce87b2b54b217d9efe1975d7a8867ff5efe6604070c92bc3cdb0fb770c92abe946cb13c5ffdbed4710ff6ba9785bfe3cef97"
 
 RPROVIDES:${PN} += "libKPim5IdentityManagementWidgets.so.5 \
 libKPim5IdentityManagementWidgets5"

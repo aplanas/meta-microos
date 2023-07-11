@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kate"
 DESCRIPTION = "Provides translations for the 'kate' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kate-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "dee2ba5fab2df8dc72cfd668ccc8e6f72729270584a79907903fb21ba5aef45037a131118cb802afb064412367eb1b29bfc5f6e7bb7562962f41d6abe203b87c"
+RPM_NAME = "kate-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "aed6b0a4d8faefa29236d1d2188137b3f77c6674ec069d8c9ab28c38468f2a740bcab79a8b75b87e064a6d9bd1dd4787356abb571e274b44de0b0f6177f0af10"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kate-lang \

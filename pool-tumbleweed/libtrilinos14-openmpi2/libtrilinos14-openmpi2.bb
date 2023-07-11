@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "14.0.0"
 
-RPM_NAME = "libtrilinos14-openmpi2-14.0.0-1.1.aarch64.rpm"
-RPM_HASH = "ddc043d8750d780536aed750b2f82e024d9d80f00968830b60a484ec09cdcb6f2f7907e337c70d94a65be50efcb727d79061b1c95b38ed714c67bac7a043529b"
+RPM_NAME = "libtrilinos14-openmpi2-14.0.0-1.2.aarch64.rpm"
+RPM_HASH = "94cbc09623fc173dffc0545a75bb9ab097ca92df654682933462bc92e2c8a60e2499bd5e711e46761774cd68f0211fb16d58b3c37e01c5dd52e0217a515d3dd3"
 
 RPROVIDES:${PN} += "libModeLaplace.so.14 \
 libamesos.so.14 \

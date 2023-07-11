@@ -11,11 +11,12 @@ LICENSE = "MIT"
 
 PV = "2023.3"
 
-RPM_NAME = "python311-pytz-2023.3-2.1.noarch.rpm"
-RPM_HASH = "54771f5212382fe4d236c20cf42b9b0b0242348f31d27a9481adaf02a7bd86f9d32e34827615c9a532f6d4ce65e2bfe037a21c1753f752b8d588b380ce7ec227"
+RPM_NAME = "python311-pytz-2023.3-2.2.noarch.rpm"
+RPM_HASH = "9a14a0ef1e91a04b41e409063a23a3662c91dcea3f0e61d0062d0d08bdcf32dac5d3a70a0a30acca82caf69d6892edc360f57ed92e0adf09ecd3a3b4c5954992"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pytz \
+RPROVIDES:${PN} += "python3-pytz \
+python3.11dist-pytz \
 python311-pytz \
 python3dist-pytz"
 

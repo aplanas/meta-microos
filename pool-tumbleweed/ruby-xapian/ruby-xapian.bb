@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.4.21"
 
-RPM_NAME = "ruby-xapian-1.4.21-2.5.aarch64.rpm"
-RPM_HASH = "21fdaad3751ba13f3c7f7e4969e977a2924b1b4746f044ed22bd9e5ab4059ff6e029ef33abc9ecd0eb84bbe3c21c17f6d7f148afea27ee98eda34e8320c7d462"
+RPM_NAME = "ruby-xapian-1.4.21-2.7.aarch64.rpm"
+RPM_HASH = "d6cd98f680f2cb262926ca75e6762fbec23aae5db982f83b3a83e012926a7d0f1a23d1ad5f7d6aea28a7bbe9ad6c8d5e42a1cde82277d91aff92b2b6b0b3955e"
 
 RPROVIDES:${PN} += "ruby-xapian"
 

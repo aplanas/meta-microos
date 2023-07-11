@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.12.4"
 
-RPM_NAME = "ocaml-ocaml-compiler-libs-0.12.4-1.11.aarch64.rpm"
-RPM_HASH = "f3f96538d56682185b2a76452c968df5fe48c9c4fc3781747c09a2bcf2d7137e8fffc5749e7d803fc97e2aa423ac2836281bf0ea092eb7d98aa39a9b4cd019c0"
+RPM_NAME = "ocaml-ocaml-compiler-libs-0.12.4-1.12.aarch64.rpm"
+RPM_HASH = "0ce42c86d20a7681a31e25cb7e0ee08bf91329c32a94d9afbbdad96847802dad2a9d73dff3aa0bfa8f2f63b656a89af65eadb872a714e85e83b572bad02470cc"
 
 RPROVIDES:${PN} += "ocaml-ocaml-compiler-libs"
 

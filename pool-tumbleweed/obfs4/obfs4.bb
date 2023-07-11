@@ -7,8 +7,8 @@ LICENSE = "BSD-2-Clause & GPL-3.0-only"
 
 PV = "0.0.13"
 
-RPM_NAME = "obfs4-0.0.13-1.9.aarch64.rpm"
-RPM_HASH = "92db0fe4a631ede94aaea606cd49e2ec62a099d1104bbe37f59173df40e6769c2bceaee49bff65d705076b637a972d9b51c4c3d339272302471187ad051dfbc0"
+RPM_NAME = "obfs4-0.0.13-1.10.aarch64.rpm"
+RPM_HASH = "8b8efab81c4ce1e5c7d942ef1d72e2f6a6c780f5cb9fef8eff4fa8eb46d3b38512af61f8d707312dc22715308d053e2e76e199273129b9f76c8b44521fb7fb5c"
 
 RPROVIDES:${PN} += "obfs4"
 

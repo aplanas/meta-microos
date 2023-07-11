@@ -4,8 +4,9 @@ LICENSE = "GPL-2.0-or-later | MPL-1.1+ | LGPL-2.0-or-later"
 
 PV = "1.0.1"
 
-RPM_NAME = "python-nss-doc-1.0.1-4.8.aarch64.rpm"
-RPM_HASH = "062d1a004c3a4bbd28d486c9ba78d58a2c1c0b9820382530982ad9b98f44223ae6b7477ab363efdb5c20ab78f805e86a33d757d75077d9dd746f32649fc4415d"
+RPM_NAME = "python-nss-doc-1.0.1-6.1.noarch.rpm"
+RPM_HASH = "277f1b8b202b12a2bb748a53bb9584d5117ddf6608bb39f6d41298006239cd8dedd7276aed1fc21de60b44b39652232f474ebe6c932e7e39dbcfc76d377ad8a2"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-nss-doc"
 

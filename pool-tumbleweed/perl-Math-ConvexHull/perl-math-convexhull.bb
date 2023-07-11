@@ -16,13 +16,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.04"
 
-RPM_NAME = "perl-Math-ConvexHull-1.04-3.26.noarch.rpm"
-RPM_HASH = "53354ac8643668b769ef77082866556e7a1bf53290b86e50e8adccb90e7899fabbe58aee3f86aa7fb72724834dcf9dc6895ab718d20bc41bd3d53a38534df62a"
+RPM_NAME = "perl-Math-ConvexHull-1.04-3.27.noarch.rpm"
+RPM_HASH = "a1ee692ff14518bd0f841d2b7c71d437df95e7ad755e3bfe9edd89915ded38dca223b876a80eefab24052eba819b4bba5967aad0a1e2c77c53ad664a1513958e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Math--ConvexHull \
 perl-Math-ConvexHull"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

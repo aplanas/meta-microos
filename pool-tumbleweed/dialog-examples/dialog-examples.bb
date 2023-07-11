@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.3"
 
-RPM_NAME = "dialog-examples-1.3-9.7.noarch.rpm"
-RPM_HASH = "8a04da1cc2845198a94d906b53dda9f08fcd8e7fb4d3709a134a97973a4e426e05677b1e7c5fc0bae0917a5f4f7a454764a0744847bbda28633b98763597be48"
+RPM_NAME = "dialog-examples-1.3-10.1.noarch.rpm"
+RPM_HASH = "255311e4d9878d1f76ed070e7c2ac4e2c4884f3f856007277bcae1854025bbf902401e176c1341e2fee4077bb2ede644beb5cfa74f50b46e52d3599a360c22b7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dialog-examples"

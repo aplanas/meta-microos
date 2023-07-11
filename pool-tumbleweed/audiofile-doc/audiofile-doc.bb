@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "0.3.6"
 
-RPM_NAME = "audiofile-doc-0.3.6-11.20.aarch64.rpm"
-RPM_HASH = "b02dd411ba6a0304edae2c07cfa05b8aeb1a96d4cc39f48cd86d8985440ee5b088794043d77f947824fda0b5f75079897983ad16cb7a1bfa2b656ea2fda067e9"
+RPM_NAME = "audiofile-doc-0.3.6-11.21.aarch64.rpm"
+RPM_HASH = "ad15e523a2ff8e81a94c7b452c3f4ab7954a83642324e085a97313cc01fbb7066eb3b58e9866ce49a7ab117f41576d104f71f83b09ec7a7addd85fd9cd812532"
 
 RPROVIDES:${PN} += "audiofile-doc"
 

@@ -10,8 +10,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.3.1"
 
-RPM_NAME = "snobol4-2.3.1-1.1.aarch64.rpm"
-RPM_HASH = "ad841a3ce9bd96e66acfd1252b4951ebf73c8b9f9513ffd899e012c38486c1f70d800f4fcc01bad5b6d7aa1ba24f8c63b3a6a0ba79ff49c111d1f3ca8684a9e9"
+RPM_NAME = "snobol4-2.3.1-2.1.aarch64.rpm"
+RPM_HASH = "791562da3ef9c9fb7321ebebedfd0f4b3e7149139dced6394472afbe99cc44a494c659e7e94da178133e65aac2befcd041f2cc20fadb1d8a031eb8b6f78536d4"
 
 RPROVIDES:${PN} += "snobol4"
 

@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause & (BSD-3-Clause | ZPL-2.1)"
 
 PV = "0.4.8"
 
-RPM_NAME = "python39-mechanize-0.4.8-5.2.noarch.rpm"
-RPM_HASH = "59e453c35578143a1ea6e53d530ad2a8763b2cf1965fc547ed27e7d9a04a561c96811816617de941341b201346380ddc7c68910c816ffc2dbbcd22e9c43452f4"
+RPM_NAME = "python39-mechanize-0.4.8-6.1.noarch.rpm"
+RPM_HASH = "4102add51f1137891b3e6eedbeed7c7b56184647157530a7314fd846b92db6836d2620327d0b19dca22ed127b9f563c779f7ca9f4af9285e968b7f2a9ec49754"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-mechanize \

@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.5.4"
 
-RPM_NAME = "libsqlcipher-3_41_2-0-4.5.4-1.1.aarch64.rpm"
-RPM_HASH = "ae6ffb7c6ed17181317d9e3309e31b211c84f1bac09a7201417ec02e09210aa02571c49139cbbb273a3c1acd74690ea841917ca37eba9b048ec5c38719067ea5"
+RPM_NAME = "libsqlcipher-3_41_2-0-4.5.4-1.2.aarch64.rpm"
+RPM_HASH = "37a61cf63a0adea78687a5903ba3949a30ad446a0ee41888be0d40e15b4f617f582298db54a81025f7bb61a77777cbf1ff2b4bf7763339bcb9e49cbe38b990b1"
 
 RPROVIDES:${PN} += "libsqlcipher-3-41-2-0 \
 libsqlcipher-3.41.2.so.0"

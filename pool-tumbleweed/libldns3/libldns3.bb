@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.8.3"
 
-RPM_NAME = "libldns3-1.8.3-1.4.aarch64.rpm"
-RPM_HASH = "729a15b7604ea80989caed2474ed665b776e78a24e0e9dc69ae11b598e6062383aec13e80025ebd08480e53dc55c4ae30fe37b1099b569fd96761890a28e5cd6"
+RPM_NAME = "libldns3-1.8.3-1.7.aarch64.rpm"
+RPM_HASH = "b1d650bb094b23e3beec2553ce5b8f87422282b1230a02f819018cb29bab8bc7deedd9fc51e7e879ec729c591ca4432b887020a626d98e386076f18bac1af147"
 
 RPROVIDES:${PN} += "libldns.so.3 \
 libldns3"

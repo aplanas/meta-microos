@@ -7,10 +7,10 @@ any two apps to communicate directly (without going through the message \
 bus daemon)."
 LICENSE = "AFL-2.1 | GPL-2.0-or-later"
 
-PV = "1.14.6"
+PV = "1.14.8"
 
-RPM_NAME = "libdbus-1-3-1.14.6-2.3.aarch64.rpm"
-RPM_HASH = "82d4867973dec5d2e6dfe853fac3b733de030e6f9091cc10edbe11f86a5b57067f28efb69b91a331b480043dd975f4f6a94fcf325911f5e83166924883ed03c8"
+RPM_NAME = "libdbus-1-3-1.14.8-1.1.aarch64.rpm"
+RPM_HASH = "db21a0633504f6bc0ff40e10b7c86c35da121a94298eb02e7eec82e9005ffdc9960cebd819dea1ded9f862418345bd20c400f2ac62a1b848158315c8dc89e133"
 
 RPROVIDES:${PN} += "libdbus-1-3 \
 libdbus-1.so.3"

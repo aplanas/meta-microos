@@ -3,10 +3,10 @@ DESCRIPTION = "The 'Embedded Linux Library' implements an API for wireless \
 cryptography actions by using the kernel crypto API."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.56"
+PV = "0.57"
 
-RPM_NAME = "libell0-0.56-1.3.aarch64.rpm"
-RPM_HASH = "a881853122a159d0b54dd0628d774834b82bbf3109e1197af2c96fa4cdf4e771c6098816f56ed49b6b0e6ac835854df9fa71e1fba475a1eb92e7bca8f6ec0ee7"
+RPM_NAME = "libell0-0.57-1.1.aarch64.rpm"
+RPM_HASH = "4968d19efbe505755a387361eeab64225ef622ff513d01dc1585dd6d9f638a99e8472a9a2df6de7608fec763977ce76fec09f6e9c4b7ac286af4ad6aeb158fb7"
 
 RPROVIDES:${PN} += "libell.so.0 \
 libell0"

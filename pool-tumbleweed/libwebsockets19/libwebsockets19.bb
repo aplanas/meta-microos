@@ -14,8 +14,8 @@ LICENSE = "MIT"
 
 PV = "4.3.2"
 
-RPM_NAME = "libwebsockets19-4.3.2-3.1.aarch64.rpm"
-RPM_HASH = "c831b5d537fc938d795e4c9420064a028a93f8333769bfb39163c6eefc674b6cc65b21a8adb22c9956987f4d65aa99c67152b3d12f9edf7fd306cf00db3106ff"
+RPM_NAME = "libwebsockets19-4.3.2-3.2.aarch64.rpm"
+RPM_HASH = "0eb1dbe8e46c8d21a324db760f8cbdcac2f991c9b01661f327949ea6f7e141355f24ce971c8bbd1b8a6479c245a807383472f89f8ef08471076dc8d31bdaf8d9"
 
 RPROVIDES:${PN} += "libwebsockets.so.19 \
 libwebsockets19"

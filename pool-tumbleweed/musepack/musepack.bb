@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause & LGPL-2.1-or-later & GPL-2.0-or-later & Zlib"
 
 PV = "r475"
 
-RPM_NAME = "musepack-r475-4.11.aarch64.rpm"
-RPM_HASH = "c55dd6f6310dc1606285bd492505d98f6717e7a957f9825ebcb6a154144852267466faccbddab8bbaf890116c7c6b44d85e0ab05ee75cbe5f83e0275b3b2da16"
+RPM_NAME = "musepack-r475-4.12.aarch64.rpm"
+RPM_HASH = "4aa2423a65d3fea0094fd93fee00387b5540c2f6436bd69157486bc7a3a3009307ebf85fb10aeab28d1f25af4c821dcbea70cc09ee145ca8615c71ec02e3f9bf"
 
 RPROVIDES:${PN} += "musepack"
 

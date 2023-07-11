@@ -9,8 +9,8 @@ LICENSE = "xinetd"
 
 PV = "2.3.15.4"
 
-RPM_NAME = "xinetd-2.3.15.4-1.19.aarch64.rpm"
-RPM_HASH = "d426bd7b695a1e311f2d2d8c56bfac91b36cf022a25402e23c30fc02e115ea957d977bed0104948d9f4211259b2305f70e03de49303088ab72df615adbddf5cd"
+RPM_NAME = "xinetd-2.3.15.4-1.20.aarch64.rpm"
+RPM_HASH = "42c4ab0baae22fe3a75a26e284c496e7b39be391d2c14fa46044c083d8efd120076ce53b024dc4dc2150899adc6e4120c93ab60625cc5f9ae69ece25048a1630"
 
 RPROVIDES:${PN} += "config-xinetd \
 inet-daemon \

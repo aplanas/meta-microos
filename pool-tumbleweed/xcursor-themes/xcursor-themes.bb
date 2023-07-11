@@ -6,8 +6,8 @@ LICENSE = "X11"
 
 PV = "1.0.7"
 
-RPM_NAME = "xcursor-themes-1.0.7-1.1.noarch.rpm"
-RPM_HASH = "0f93a73312f12f2ba462778efb85841d73fcc378ead94d0891ee29c1e4f6292ed622e3469f925dfaef0a8bf1c1881f47901707f6ab6fe4674b73c9ebdc823a75"
+RPM_NAME = "xcursor-themes-1.0.7-1.2.noarch.rpm"
+RPM_HASH = "788c91bcc054acd972d02b31a031ba1ef8c495fd3aeceb01762cda2bf96f38c8bcfcd6ccd35ee99bf698671f375154b5b63d84647bddf1ba1bf899897a0e838a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xcursor-themes"

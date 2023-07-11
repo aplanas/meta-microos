@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "4.8"
 
-RPM_NAME = "languagetool-core-tests-4.8-3.1.noarch.rpm"
-RPM_HASH = "b085316c61db534e4594323124041e041bb4a4a5a8d33a7498d4c7124b044b62424550af9ff9c43ebc2046a16cf889c1e4e5cd067c6521ed9099b375a6e17f24"
+RPM_NAME = "languagetool-core-tests-4.8-3.2.noarch.rpm"
+RPM_HASH = "d14d002d05af78bbc730773cc2aa0debd03c0c269df35f6b6433fafd0b2e3fca604d81c54137fea9c0a02f6405832ccbb12b22cffdac117e3237eb43fc5adf17"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "languagetool-core-tests \

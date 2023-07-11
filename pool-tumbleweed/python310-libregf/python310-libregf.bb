@@ -5,11 +5,10 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20230319"
 
-RPM_NAME = "python310-libregf-20230319-1.2.aarch64.rpm"
-RPM_HASH = "c2675b8f4c9c7e97248d52c0487d937b7cce6e84080aff3225c944f5799616bbb210269e6590717973afecf9ba41df100b2f86330b58f73b2620e86e26fbc424"
+RPM_NAME = "python310-libregf-20230319-1.5.aarch64.rpm"
+RPM_HASH = "05119813928fabe9f7f2c9a8fa03cd47dca402d256b5ee53a7834147f5b15fbd046c8086022c2d3e124a1d81e2556ebe4e7bc69a45e7fc7b44ebb3df83d6d0ed"
 
-RPROVIDES:${PN} += "python3-libregf \
-python310-libregf"
+RPROVIDES:${PN} += "python310-libregf"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libbfio.so.1 \

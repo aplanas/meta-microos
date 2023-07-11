@@ -8,8 +8,8 @@ LICENSE = "NetCDF"
 
 PV = "4.9.2"
 
-RPM_NAME = "netcdf-openmpi2-devel-4.9.2-1.1.aarch64.rpm"
-RPM_HASH = "03dc1f3d9b9505e2240451cf8527dd0c723bd5c38499993e9cca7cc850332bc83b83e51122e47a2c404adcc6f8263a9150a713802f2dcd812fe8e6f9ac92f9d1"
+RPM_NAME = "netcdf-openmpi2-devel-4.9.2-1.2.aarch64.rpm"
+RPM_HASH = "75f0cdfd2bd941b6c7a62ea68693f51f920cae93b1d85018b37126a80a3822853dcd9c0a7f1cc653537b71ab29bc2f1da94a3b59154b393fd36ba4d8883557b7"
 
 RPROVIDES:${PN} += "netcdf-openmpi2-devel"
 

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0.2"
 
-RPM_NAME = "qucs-s-1.0.2-1.1.aarch64.rpm"
-RPM_HASH = "2e2178975f1bb9f870321f23c26bbb3df4fa8b899df452dc845887489904b7edf034c1219c1c144e5a94cf240dec958e7583e1982811bd71445c856db8d5e186"
+RPM_NAME = "qucs-s-1.0.2-1.2.aarch64.rpm"
+RPM_HASH = "a5ea7ef6c428936d7b522e75467159c71eee3acbfb5036d2026ae93970e1f1f8e9bcabf0ebe4c8e960d1dd51f51322ff619de63ad93136d1b3cec5cba574330d"
 
 RPROVIDES:${PN} += "qucs-s"
 

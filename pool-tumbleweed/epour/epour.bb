@@ -4,11 +4,11 @@ LICENSE = "GPL-3.0"
 
 PV = "0.7.0"
 
-RPM_NAME = "epour-0.7.0-1.17.aarch64.rpm"
-RPM_HASH = "83e032e110cfdc3c9387a90e80ddfe844595271fcbbda38f8a43b94aa344a0613724397148ce62fbc436be4f524d1f1d47a4f9298b364667e0cad4e5a1b63201"
+RPM_NAME = "epour-0.7.0-1.18.aarch64.rpm"
+RPM_HASH = "a24869b5e8893d691561a6da65fdad70425dba65c04823eaa828d8437842fb26f70808bbc1d28ec9bdec855f54f4dcf78622700944b3d4b69ae3142bf2c3a376"
 
 RPROVIDES:${PN} += "epour \
-python3.10dist-epour \
+python3.11dist-epour \
 python3dist-epour"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

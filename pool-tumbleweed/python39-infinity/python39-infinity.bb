@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.5"
 
-RPM_NAME = "python39-infinity-1.5-2.3.noarch.rpm"
-RPM_HASH = "2961247ef4049bb3f21caea774f9feeed0b8ab43e2dbe90fd383966998c72c5d2a5c8f4a204a8601a275e962a773141374200bda401967d96989d0fa93df72f1"
+RPM_NAME = "python39-infinity-1.5-2.5.noarch.rpm"
+RPM_HASH = "27be1c4cd03258e5aedd9a816824af02d523d8e79e124e655d6bc14354a6af3c0d3379b166ab000cd365ae51cd236e4cb5c6dbf8d926356cb618629d9219dc16"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-infinity \

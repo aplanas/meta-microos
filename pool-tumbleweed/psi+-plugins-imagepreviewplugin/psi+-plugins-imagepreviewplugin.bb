@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-or-later"
 
 PV = "1.5.1615+0"
 
-RPM_NAME = "psi+-plugins-imagepreviewplugin-1.5.1615+0-3.1.aarch64.rpm"
-RPM_HASH = "e5bef62cfa8bd257b665e679587bef7602c22d18f4f48b43cd9aab6ddfeebf134f4dafe9d6f8118174f6fec39c008df4877677bff0fad43e13118d3d4b1d5ec1"
+RPM_NAME = "psi+-plugins-imagepreviewplugin-1.5.1615+0-3.2.aarch64.rpm"
+RPM_HASH = "f56ecbff3d21ac57470bc4c5c3e77f8dfd1bbca5d237cc9fbc123960c9cb6b416ae142030e9bee72385990b22c1ad8f120fd97b013143bddcff00453cc8206b2"
 
 RPROVIDES:${PN} += "libimagepreviewplugin.so \
 psi+-plugins-imagepreviewplugin"

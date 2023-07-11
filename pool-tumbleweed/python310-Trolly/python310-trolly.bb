@@ -11,12 +11,11 @@ LICENSE = "MIT"
 
 PV = "0.2.2"
 
-RPM_NAME = "python310-Trolly-0.2.2-4.12.noarch.rpm"
-RPM_HASH = "00fd6cfdc5fdafc1268e3c278e974ca7cfdc7bb28e9b34ba144eb91c189bf4c8bb12d7c754b8575cc3d3d3467cc7758dcb499b97248aa3a43b0e578d2827c89a"
+RPM_NAME = "python310-Trolly-0.2.2-4.14.noarch.rpm"
+RPM_HASH = "aef44f523458b3c9b4c1d35561d5d1714d46419b08a54cb2e49889836462f4a16f2bedec63724c12ecbf8b8883cc4428e65a9e86f08204247d15b844824a2b7d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-Trolly \
-python3.10dist-trolly \
+RPROVIDES:${PN} += "python3.10dist-trolly \
 python310-Trolly \
 python3dist-trolly"
 

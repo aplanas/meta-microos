@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.4.0"
 
-RPM_NAME = "octave-forge-quaternion-2.4.0-1.29.aarch64.rpm"
-RPM_HASH = "ba9539ee76568590d0f4cdfd67e52b9207de2a4f77aa6a79b8216e0e04953ff3a9f9497648ed36c48384392ac1d20c6c6612264b8a69a5b17429b69e2bebecfe"
+RPM_NAME = "octave-forge-quaternion-2.4.0-1.30.aarch64.rpm"
+RPM_HASH = "55da8c3291af4d8ac430eb5da6a828e3a2721945494fc47658cf6b4ca60850d7de46452cf31f7d125ccf4ae451d7ba64674c34360b37db3cf4b8d222ec424f60"
 
 RPROVIDES:${PN} += "octave-forge-quaternion"
 

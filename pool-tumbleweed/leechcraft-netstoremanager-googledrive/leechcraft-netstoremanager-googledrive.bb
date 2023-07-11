@@ -4,8 +4,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-netstoremanager-googledrive-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "56eb74b03252d864f35b61785c43371b471452b3aa0f9ce7036c549bd99acc544ed4a7ddd823079975dc84488fbe75ab59c587898dc9d106a83d36fc58b7866a"
+RPM_NAME = "leechcraft-netstoremanager-googledrive-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "17ce57e3d1e60b4298bd8f50074f6c9cb560897a9a2861f37c0843d460d5de983eac60e735e6f564b051895c0efc9a6893396dd19a1eda5ff4ac948b68f51709"
 
 RPROVIDES:${PN} += "leechcraft-netstoremanager-googledrive \
 leechcraft-netstoremanager-subplugin \

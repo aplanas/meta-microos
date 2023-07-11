@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "1.0.0.0"
 
-RPM_NAME = "python311-azure-mgmt-hanaonazure-1.0.0.0-1.8.noarch.rpm"
-RPM_HASH = "12dcdb158278ef918754b1b9d8f546caf46be52fa6463d4bc92bef69059e2d274399716108d47bee6f6a8b01e47a4b03495d952e058bdb577df52ff5a70cadc2"
+RPM_NAME = "python311-azure-mgmt-hanaonazure-1.0.0.0-1.9.noarch.rpm"
+RPM_HASH = "32fabb60aab45a9814622580990201c02d336853e7a6e07b50c3885bc3b9de60ba74e504ab97352922a3ef00bafafafaf1ee9c60c32a38f58f1b75ee63360695"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-hanaonazure \
+RPROVIDES:${PN} += "python3-azure-mgmt-hanaonazure \
+python3.11dist-azure-mgmt-hanaonazure \
 python311-azure-mgmt-hanaonazure \
 python3dist-azure-mgmt-hanaonazure"
 

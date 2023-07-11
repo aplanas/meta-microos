@@ -8,14 +8,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.17"
 
-RPM_NAME = "perl-Test-MockTime-0.17-1.17.noarch.rpm"
-RPM_HASH = "e71298b98c07bd160c596fef48e25beaf8c36c28d47766a13a60efa4eb6b417b0bd621c5538e3df636733148762cff8c1ceb2ebcad43164541ea14387fed1dc2"
+RPM_NAME = "perl-Test-MockTime-0.17-1.18.noarch.rpm"
+RPM_HASH = "113004822bd3d9eee852be4c1a6dd755727bd4d4ab4b9fa01f9987ef1c55a343e092add5efe6ec3144571c0e4bd5f2b790418424b2eb0336ac3769cd65328da3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--MockTime \
 perl-Test-MockTime"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Time--Piece"
 
 inherit rpm

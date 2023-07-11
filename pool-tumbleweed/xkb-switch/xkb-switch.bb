@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.8.5"
 
-RPM_NAME = "xkb-switch-1.8.5-1.8.aarch64.rpm"
-RPM_HASH = "d1f427e6c8521f6cda5cbdf2157b6c799fc11d8d79fef72ef0abcfe058b721f82333b18d644956984538d5ab72790e14a566cacdb8e4ee89ed306ebfa89b24de"
+RPM_NAME = "xkb-switch-1.8.5-1.9.aarch64.rpm"
+RPM_HASH = "81a586c8267eb89a3f16536a7aaf7a4955a2ed029532df3d87a839e1f120c595dfc13310a9e0471d4a3cf811440c4c73b0c14793ae98fa9fccd82281e92d88c5"
 
 RPROVIDES:${PN} += "libxkbswitch.so.1 \
 xkb-switch"

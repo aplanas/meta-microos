@@ -4,8 +4,8 @@ LICENSE = "MPL-2.0"
 
 PV = "2.2.0"
 
-RPM_NAME = "libkea-stats18-2.2.0-2.4.aarch64.rpm"
-RPM_HASH = "d254af08e4cb6ede9cd400271a05e4e1340336115751687d5b547ddef7544a05898634503c106f00fd7ad518e00415cbb731491da2b43c1f6ded406ce04a6ac7"
+RPM_NAME = "libkea-stats18-2.2.0-2.6.aarch64.rpm"
+RPM_HASH = "c20936048bec89ad6b0fad59f83d16722fb2ec2e0ee5c65846553ba91e23144c702ec7ee796572145bf4d33f6f01829a321d85cb94e28e4f1f1a299f658c3660"
 
 RPROVIDES:${PN} += "libkea-stats.so.18 \
 libkea-stats18"

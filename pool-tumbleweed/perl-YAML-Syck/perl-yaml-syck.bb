@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "1.34"
 
-RPM_NAME = "perl-YAML-Syck-1.34-1.16.aarch64.rpm"
-RPM_HASH = "f3492f175184b3561692cc0fa2397468eff7259fab090ce13b286a05be5c41386e29ad77a695a39c99e828873ebaf9b85f9434f71ab7153c8134cdeb612765fc"
+RPM_NAME = "perl-YAML-Syck-1.34-1.17.aarch64.rpm"
+RPM_HASH = "bd895f4f21894baac9b667b67df14988db1087acdc98923521f032077ee71b8d99deb1ff39039925dfd33e24a7ae7055a90378e2dcde2681070b1dff9954c0fc"
 
 RPROVIDES:${PN} += "perl-JSON--Syck \
 perl-YAML--Dumper--Syck \
@@ -22,6 +22,6 @@ perl-YAML-Syck"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.4"
 
-RPM_NAME = "libnvme-devel-1.4-1.1.aarch64.rpm"
-RPM_HASH = "b222a798d234c39f652b3e1594eae4b8173100b338a4efd66e2f40efedc77eb40992843fa809de51e925b7f54fe86b0d35453c54ecbf8560a3cf38dac333c6f1"
+RPM_NAME = "libnvme-devel-1.4-1.3.aarch64.rpm"
+RPM_HASH = "3434656c88d35816fe99bfe9a457b3c004835a89d75f843b6bdc9b984745f92ea5211b07c1f01fd06573a6bda0045e0ddc2a0c71ad07743d2a0250fe0761b5fa"
 
 RPROVIDES:${PN} += "libnvme-devel \
 pkgconfig-libnvme \

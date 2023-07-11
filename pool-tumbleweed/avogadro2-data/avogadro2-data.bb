@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.97.0"
 
-RPM_NAME = "avogadro2-data-1.97.0-2.3.noarch.rpm"
-RPM_HASH = "fc15755267c5c3d69a2ace6c3ca0014dc3d645d2e490141f67051591dc5a26792749a3ff284b6ec0a5c402f13076a400abce9f9076633f57205bdbf229bacf4c"
+RPM_NAME = "avogadro2-data-1.97.0-2.4.noarch.rpm"
+RPM_HASH = "ff4192db834275c1c0a4ee5157268d1bdf9a1878fc40a1a52362d8c2874423c5245399e004a1bd50d883bc87877cf89b62297bf04ee1ccdcca1f1a99c7a57c74"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "avogadro2-data"

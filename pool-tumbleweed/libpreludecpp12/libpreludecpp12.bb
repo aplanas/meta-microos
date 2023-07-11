@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-only & LGPL-2.1-or-later"
 
 PV = "5.2.0"
 
-RPM_NAME = "libpreludecpp12-5.2.0-2.14.aarch64.rpm"
-RPM_HASH = "81383b53513776c968beb1478bc3e6036d9dee72450010e063816551a733588246520aa6d1002d3d6e31f9e0560cb74ec9b608532035c2e652a8981622b6c09b"
+RPM_NAME = "libpreludecpp12-5.2.0-2.16.aarch64.rpm"
+RPM_HASH = "1da7f10b0d63bb633886c17392fc30de059eacfc6d02a20933d894e1c10241ccbfd5a6e195551ccb0a1c2e6577dec196306c14e973f55cdb65cef3f16bc44e7d"
 
 RPROVIDES:${PN} += "libpreludecpp.so.12 \
 libpreludecpp12"

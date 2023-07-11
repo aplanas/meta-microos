@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.4"
 
-RPM_NAME = "libmemcached-1.1.4-2.1.aarch64.rpm"
-RPM_HASH = "1bc5b12946af35186295dee39f77f410de8ec8261c41d6b445bc18c6ea322d6fb46d02c367a1e1a58c20ead307d0d9dd3157d1c5b32f0328c246564422e9abd3"
+RPM_NAME = "libmemcached-1.1.4-2.2.aarch64.rpm"
+RPM_HASH = "e7b4b40f4fa759ec5be8dafe11fd54a95532e3442dd190aba43f3f75c4548e86f8b2af3f8fe2af77bac8ee399d1253c40aaa880b48cb2e25a8540d37e55dc5e2"
 
 RPROVIDES:${PN} += "libmemcached"
 

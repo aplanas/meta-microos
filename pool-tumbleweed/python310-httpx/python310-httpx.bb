@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.24.0"
 
-RPM_NAME = "python310-httpx-0.24.0-1.1.noarch.rpm"
-RPM_HASH = "6fd5331a0da39da4afd0d4a0c025f8947eebf2224cfd39282c1b265aec04cfad6ea488107494414d9a6d65cc62f785658ab01680ddddb83c2a6a42924c603b78"
+RPM_NAME = "python310-httpx-0.24.0-1.2.noarch.rpm"
+RPM_HASH = "103d8a070dfc5513544e7bf94d45687dbfa12d6a70ae5f809a76915a5a128ff250681f00ac30c39dfa0770774788706524497a4e8e3ba4901ed48045a8523fea"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-httpx \
-python3.10dist-httpx \
+RPROVIDES:${PN} += "python3.10dist-httpx \
 python310-httpx \
 python3dist-httpx"
 

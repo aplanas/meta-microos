@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.0"
 
-RPM_NAME = "apparmor-rpm-macros-1.0-6.10.noarch.rpm"
-RPM_HASH = "ac75d84ddcef610012086724f437d41c2c67a945aaa50b59ecbb8c2a42970c6c50e71f4a5ccf96d096d6fea201b238352ff402aa818e98577d7845b9ff33135c"
+RPM_NAME = "apparmor-rpm-macros-1.0-7.1.noarch.rpm"
+RPM_HASH = "b2aa367990f20946a24ef649e6e1d19c75905217f5d6fb90248cb9d8e49899f6d400799b53adde152c1b0fcdc8de56d923f964d6145e53ffa8795c7305d191f8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apparmor-rpm-macros \

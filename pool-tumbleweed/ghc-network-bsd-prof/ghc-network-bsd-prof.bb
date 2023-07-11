@@ -4,15 +4,15 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.8.1.0"
 
-RPM_NAME = "ghc-network-bsd-prof-2.8.1.0-7.2.aarch64.rpm"
-RPM_HASH = "a632953f49758b76870b79509d466366225450c73011924158e1d34cb3ff2665024f77e736fd8e758c655695a5a5b43bc40ec7effacc8ab05367b0859546b195"
+RPM_NAME = "ghc-network-bsd-prof-2.8.1.0-7.3.aarch64.rpm"
+RPM_HASH = "1fb675c65c17cbd9964877b77d419b4cf201fbacbea9d6feb3292c00878650e728f8cd10147e91bd6c4625c11f5f6db40ca90d9b8e403e1d348d90757ef739f1"
 
 RPROVIDES:${PN} += "ghc-network-bsd-prof \
-ghc-prof-network-bsd-2.8.1.0-D1RjTzX7Byx4U4fOdbAEll"
+ghc-prof-network-bsd-2.8.1.0-K9geVudEUPh9zpSal1iibE"
 
 RDEPENDS:${PN} += "ghc-network-bsd-devel \
 ghc-prof-base-4.17.1.0 \
 ghc-prof-deepseq-1.4.8.0 \
-ghc-prof-network-3.1.2.8-HNDBp0HF6t0D1fzE2MDtPd"
+ghc-prof-network-3.1.4.0-FvtFepOtuCUH79FCWyNxIc"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "Plasma frontend for Thunderbolt 3 security levels"
 DESCRIPTION = "This is a frontend for configuring security levels of Thunderbolt 3 devices."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "plasma5-thunderbolt-5.27.5-1.1.aarch64.rpm"
-RPM_HASH = "22720a81790c860d5d4e2a5c94fbdc4c6184e714e2eaa0259ff23867abc0c3a50186fba96d4afe31d58ad8584ab583c2a8474ced2222cbea3e34aba4ea7358f1"
+RPM_NAME = "plasma5-thunderbolt-5.27.6-1.1.aarch64.rpm"
+RPM_HASH = "b596ca0d9356102d46c6de335192f0f58448a79e02388d17b7cb5a9797aa3e774da900b4c1503129f03f3167f099854ef46c7cce813a32b7f2c7a2729c7675ea"
 
 RPROVIDES:${PN} += "libkbolt.so \
 plasma5-thunderbolt"

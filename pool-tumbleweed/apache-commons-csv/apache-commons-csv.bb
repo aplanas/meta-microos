@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.10.0"
 
-RPM_NAME = "apache-commons-csv-1.10.0-1.1.noarch.rpm"
-RPM_HASH = "2537d3925063e2f44addfc7417c90b67275b01c150b154323cbdccb1104cb452981da918de451e8c4c2fd622a8b98334882d33934b9997d9afa8d60ed9813d87"
+RPM_NAME = "apache-commons-csv-1.10.0-1.2.noarch.rpm"
+RPM_HASH = "ca9babb67dfa7db0809b14bbec39a3a56466ef4e171809d9bee8740b9195dad99080ad35f7760054557dbf4cf1b3763e2f1a92af45766aac5cf4dcdc3072e847"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-csv \

@@ -11,8 +11,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.50.14"
 
-RPM_NAME = "pango-devel-1.50.14-1.3.aarch64.rpm"
-RPM_HASH = "64cd518fea08cdf7f70c06634f6665eecb92605ae3ea567a705a0c89e664ebf7d5617737399bb12d02a08905e3e9f5cfca50c4012fc6c8b889429a1defe138c1"
+RPM_NAME = "pango-devel-1.50.14-1.4.aarch64.rpm"
+RPM_HASH = "e5ef51cc897bd3b816e56b3864815f7c88e1a90b9bf7022571e04b966aa80403fb0ef0fd0b874067eed5587ae100252fff2fc4c43f0bde87b1326d71b89e866e"
 
 RPROVIDES:${PN} += "pango-devel \
 pango-doc \

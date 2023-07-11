@@ -4,13 +4,12 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.5.28"
 
-RPM_NAME = "ibus-gtk3-1.5.28-2.1.aarch64.rpm"
-RPM_HASH = "78f8a49d93fa33ef6b8158ea98a54532ffb9f5c3eaf0c3181ae54435ef8e599904d568f9b81daa806cafe46cca2be6a130ab14a04c749e4f614e96be695285ae"
+RPM_NAME = "ibus-gtk3-1.5.28-2.2.aarch64.rpm"
+RPM_HASH = "8a2bea1ae7f9e0e1b59b065114135d610c3a8ca653da987c967f5ef84be8a473872b07e0e9c4ed9c0e0f1d933cd0512f7a3051a69bc0c7641f6399980aa855e7"
 
 RPROVIDES:${PN} += "ibus-gtk3"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
-gtk3-tools \
 ibus \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.8.0"
 
-RPM_NAME = "python39-google-cloud-storage-2.8.0-1.2.noarch.rpm"
-RPM_HASH = "8dc06fc85a39577b0dc36a71acf2f4e9aa7e1942843b34b27ad43e77846dbe34557497817f520cd71b4fc89149315d6542c4d8f131f21ca683c3f1b478efc3bf"
+RPM_NAME = "python39-google-cloud-storage-2.8.0-1.4.noarch.rpm"
+RPM_HASH = "e07441f74634452df8cded5c8f75506f0f7f86cbc5492a9959843cce8e993a4cc9558eb4121b75c6ce6fa414c991528ec0d790d928391f8aeb94306701e9817f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-google-cloud-storage \

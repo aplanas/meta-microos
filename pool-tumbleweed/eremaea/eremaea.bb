@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.0.18"
 
-RPM_NAME = "eremaea-2.0.18-1.1.noarch.rpm"
-RPM_HASH = "556d72c3baabb1f8cde70fc41435b8b40d56a3f67f95083670b35c4a7a1d8ef10d7b0a657a6f1f4a30d7c25a8de9ec988490b9faf272a8c195313ba7a6a2df91"
+RPM_NAME = "eremaea-2.0.18-1.3.noarch.rpm"
+RPM_HASH = "809344b0c2edffe7b64243e02ed2ccdaa8a978dd026a248828de44e3cba56b71e0ee15cd764ebf355100d4de3774b812342e4c9f13f69cf01e6b7bbe636abe1a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eremaea"

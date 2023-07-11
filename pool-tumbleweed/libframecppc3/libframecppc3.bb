@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.7.0"
 
-RPM_NAME = "libframecppc3-2.7.0-2.12.aarch64.rpm"
-RPM_HASH = "a50d351c3a92e22f4fa13ad8015f2d5d67c21cef32ce90896ad731fbe5f109819b38ff1dbc12a75db513dbe7e74dcb74d3a33a931336795042623f6eab53e3db"
+RPM_NAME = "libframecppc3-2.7.0-2.13.aarch64.rpm"
+RPM_HASH = "c2d6ae0cf3d8aec8c2ce9e59f6abafe99577d9c12f2153be6e939ea7a69218cc1a48bbc73bc6d528d9fc9ed27257775a41bf15734250198bd2f7d9e1ff02d71f"
 
 RPROVIDES:${PN} += "libframecppc.so.3 \
 libframecppc3"

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.53"
 
-RPM_NAME = "python3-ktoblzcheck-1.53-1.4.aarch64.rpm"
-RPM_HASH = "2e9903760165230b7b72a31c5be879ed77d1a15ce9409cc0e9c062835839ead7c77a4f042be2c9a4f63959f602c55f5c38d2b58a29ce29f981a417fd70927d24"
+RPM_NAME = "python3-ktoblzcheck-1.53-1.5.aarch64.rpm"
+RPM_HASH = "c2dffd3573b44d52e2804e70871b78c841bf4d1f09fe63e60bc9fa528396be4e7b3cdd0ad3464025a557fc1f4225dc3d892f359f1fdc526220480058a31799ec"
 
 RPROVIDES:${PN} += "python3-ktoblzcheck"
 

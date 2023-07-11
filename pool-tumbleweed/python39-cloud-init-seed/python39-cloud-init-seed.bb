@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.3.0"
 
-RPM_NAME = "python39-cloud-init-seed-0.3.0-2.13.noarch.rpm"
-RPM_HASH = "5bb2a59759209a50ff3bf1d86a03b5817912f942fb2cee1b74b55cad9ecb0707425fdb2b0de27d0bb7e4b9035f638edb35f331d1172b9961fb022b490b4b808a"
+RPM_NAME = "python39-cloud-init-seed-0.3.0-2.15.noarch.rpm"
+RPM_HASH = "cc63d85b9b935651564acd9a52e0421955f7ab9770bc2189e1d990bcf269cb5fa5f21e278668bf715c8c67937ce194becc7f2bc9b80611682a8f6620d7830805"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-cloud-init-seed \

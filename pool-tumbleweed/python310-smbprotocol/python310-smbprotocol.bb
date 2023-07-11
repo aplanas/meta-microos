@@ -18,12 +18,11 @@ LICENSE = "MIT"
 
 PV = "1.10.1"
 
-RPM_NAME = "python310-smbprotocol-1.10.1-1.3.noarch.rpm"
-RPM_HASH = "f5467783f604f48b998c070ee1a641c08ea2c6987568b2d78a08e09da7b7d56c4b87fdb5f94a3992be3820ef4330a9c8ccaf4c5415300433df1465b24406f43a"
+RPM_NAME = "python310-smbprotocol-1.10.1-1.5.noarch.rpm"
+RPM_HASH = "e0b6adc20954b6cef5ed005fe26fcfbaa7ceced02ddce54675636e4798a1f7df1c9ba71b3737c2027e814f078f572a9a28f57338ac14f190900503655897253c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-smbprotocol \
-python3.10dist-smbprotocol \
+RPROVIDES:${PN} += "python3.10dist-smbprotocol \
 python310-smbprotocol \
 python3dist-smbprotocol"
 

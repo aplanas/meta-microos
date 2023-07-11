@@ -28,8 +28,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3.19"
 
-RPM_NAME = "ghc-safe-0.3.19-4.3.aarch64.rpm"
-RPM_HASH = "a43cd6394eac407b5f5c8d53f880c93269514f4f58e3391f32c0eee6e5126f2f8217a8c5afdb02ad0be8afc7b79f93b652f43fedba2f86b6010d6aa0ce0607dc"
+RPM_NAME = "ghc-safe-0.3.19-4.6.aarch64.rpm"
+RPM_HASH = "501765536978b20f8e47b70e671fe0aad0dd27521a590fa85c3cc0da96812e616fb27ee8dc99feb9a42fdb09c4801bf00c0c8b18704e75e4154ede651a412c26"
 
 RPROVIDES:${PN} += "ghc-safe \
 libHSsafe-0.3.19-3Ab0OpSRliCKMhc0t4Nhds-ghc9.4.5.so"

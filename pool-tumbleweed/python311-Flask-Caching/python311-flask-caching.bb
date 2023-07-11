@@ -5,11 +5,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.9.0"
 
-RPM_NAME = "python311-Flask-Caching-1.9.0-1.12.noarch.rpm"
-RPM_HASH = "8f840230a484d86754d7b9de2dd7f82f969b053228d720e0b2c9a460c7c4a231beb0cd01795dd00b82819953675d998421b57d73b762cbbd8ccf38346663cf70"
+RPM_NAME = "python311-Flask-Caching-1.9.0-1.14.noarch.rpm"
+RPM_HASH = "257e1385610fb5090ec5b48d724d75fbcb7d92a4102c87338e78e70d32184e44ec29c657d1b0a1eda20fdddd256902aaa2762ba74bee2d38921972754685fc9a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-flask-caching \
+RPROVIDES:${PN} += "python3-Flask-Caching \
+python3.11dist-flask-caching \
 python311-Flask-Caching \
 python3dist-flask-caching"
 

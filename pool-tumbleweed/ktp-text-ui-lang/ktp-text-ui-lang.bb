@@ -2,10 +2,10 @@ SUMMARY = "Translations for package ktp-text-ui"
 DESCRIPTION = "Provides translations for the 'ktp-text-ui' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "ktp-text-ui-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "8f563eecc9d22b2f917fc2e39850fee2afaef0fcd33e47231dc61bf9719d09a17ef67c867e00b2097e3473515631b0728bca5739743a5424ff0828ef6df5f9aa"
+RPM_NAME = "ktp-text-ui-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "492aac30bd8cec03755fab831525715dba4d0a624bf9b3e17ca000dadf20106495a25e5f4fe64470ea5744cd51607f5907e13ebd71265080cb88aa59a119d74e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ktp-text-ui-lang \

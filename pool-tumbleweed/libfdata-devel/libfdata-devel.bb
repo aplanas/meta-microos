@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20230319"
 
-RPM_NAME = "libfdata-devel-20230319-1.1.aarch64.rpm"
-RPM_HASH = "ec82ad38044b802be07b59a73c34fd6f82b510d760100288cd5a9152e553477ed835223bd4904fdc8cb26aace4fb6206a06c029a8028d083c719fbccef92f794"
+RPM_NAME = "libfdata-devel-20230319-1.2.aarch64.rpm"
+RPM_HASH = "21224ea3e61aa06816037a9074e6d658db7ded323017772899edc3d065d7398fca4d7ced48f4e4ebdd93d3abadb2cb214079073114ec5e398abdfd5c2b333160"
 
 RPROVIDES:${PN} += "libfdata-devel \
 pkgconfig-libfdata"

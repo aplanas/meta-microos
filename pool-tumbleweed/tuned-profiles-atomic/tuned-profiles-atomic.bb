@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.20.0.18+git.7b1a20b"
 
-RPM_NAME = "tuned-profiles-atomic-2.20.0.18+git.7b1a20b-1.1.noarch.rpm"
-RPM_HASH = "6fac10427bb57687c96e3379fc78206f57fa3cb93142ed94fac3d3058603bce4b62bf821ee7d144d728d9af475ecf530a1ce159f57798cbd0e2a46ee7cd42afe"
+RPM_NAME = "tuned-profiles-atomic-2.20.0.18+git.7b1a20b-1.2.noarch.rpm"
+RPM_HASH = "05f4d13bedd0fd950690ce775c43245f9924cfc496364953db287b3addf050a648086d2be61f4df53066f2af523fb131522febb50d0bd7ee0f1e0b9a7244563b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tuned-profiles-atomic"

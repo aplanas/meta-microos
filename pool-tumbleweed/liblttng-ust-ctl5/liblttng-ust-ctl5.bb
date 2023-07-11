@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.13.5"
 
-RPM_NAME = "liblttng-ust-ctl5-2.13.5-1.3.aarch64.rpm"
-RPM_HASH = "6f08c9a3ff7db19beab765251d9cf204007f119c169dc145eba33f5cd016e69b2a54ef59c434308e91758ea06ad42d72b8213389ed4eca513e9684fca30aef4b"
+RPM_NAME = "liblttng-ust-ctl5-2.13.5-1.4.aarch64.rpm"
+RPM_HASH = "167365244927925b03ca4e4d19eba24e3ca5143cc6e4632f93eddf554af4d6d65a5a848a3281e306e7e05a93d9fe64cde2f90069a5553dab445afd9131b5ff31"
 
 RPROVIDES:${PN} += "liblttng-ust-ctl.so.5 \
 liblttng-ust-ctl5"

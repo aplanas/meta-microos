@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "1.3.0"
 
-RPM_NAME = "python311-matrix_common-1.3.0-1.3.noarch.rpm"
-RPM_HASH = "93ad7e1e058664d59de7deea8a36f988d69da125997a5fe4b0084d7a04f8694461f1399275b942582321ad2516083eeb79fde84f1aed9d59ed1dd848ecc29ebd"
+RPM_NAME = "python311-matrix_common-1.3.0-1.5.noarch.rpm"
+RPM_HASH = "8a97a026ec3bc9f3f5dfeac8fb6f4c2eb84a3db77073ee97d54c2921b44ce1e0781b48003eb3bdcc719b87873dd1fabfd23e7e85e5c6bec08912e62281b4350c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-matrix-common \
+RPROVIDES:${PN} += "python3-matrix-common \
+python3.11dist-matrix-common \
 python311-matrix-common \
 python3dist-matrix-common"
 

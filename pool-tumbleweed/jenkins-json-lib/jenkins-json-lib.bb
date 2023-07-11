@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.4"
 
-RPM_NAME = "jenkins-json-lib-2.4-6.10.noarch.rpm"
-RPM_HASH = "c832ccf61061deb4b614d9ee7b341f78691538def8428afffaa779bebe65bc0feaf4c0f2029b15c6aeb0401173d5e4411c37002ef6b3ad608171c898fe0c6ec1"
+RPM_NAME = "jenkins-json-lib-2.4-6.11.noarch.rpm"
+RPM_HASH = "324d76fd49e57eb34b3872662b2edfb4d8424fbc69abeb0f3640bad664921cffadf71c3efbc751f43061b6f0dc41102b596186cfd104684fc3a3a298560e3441"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jenkins-json-lib \

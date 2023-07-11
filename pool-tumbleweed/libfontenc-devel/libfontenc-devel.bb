@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "1.1.7"
 
-RPM_NAME = "libfontenc-devel-1.1.7-1.2.aarch64.rpm"
-RPM_HASH = "087a5123247eb7231bfd2c0cc22616709ccf7fbb9c512659f19b26da9e77fd73b5fca1354b9828228fd4c2e3bbad7badb751ea41889bc81a0cfdf69500276a02"
+RPM_NAME = "libfontenc-devel-1.1.7-1.3.aarch64.rpm"
+RPM_HASH = "73c14ae493643280f98bd5e32839e649910ad11d144d446c9f3b6ca2086469954678c3c430738d13b7d859f0dec79ac96cc9ccb7d43caf25d8cf8c8be70c4047"
 
 RPROVIDES:${PN} += "libfontenc-devel \
 pkgconfig-fontenc \

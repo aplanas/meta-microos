@@ -8,14 +8,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.26"
 
-RPM_NAME = "perl-Net-IP-1.26-8.15.noarch.rpm"
-RPM_HASH = "6369f5ff7732729e9d9c7a8ba545d3e113cb10779227e18e397d87038191dd55326378bcb7567a8bfa8a6adf8d9d3e5fc9dadf3d1e838c76bcb687b41bec6330"
+RPM_NAME = "perl-Net-IP-1.26-8.16.noarch.rpm"
+RPM_HASH = "496fc90a1afafbf77f6b13d45f23aeef12189fc08d022f9c7e74954cbfa08c2a73a60c1cda06b28d908ad3e7556fac0899c1e7ca147618a90d0f701524cd4bd6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Net--IP \
 perl-Net-IP"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

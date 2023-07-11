@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-only & GPL-3.0-or-later"
 
 PV = "5.2.0"
 
-RPM_NAME = "libpreludedb7-5.2.0-2.10.aarch64.rpm"
-RPM_HASH = "cb0db01277018a8cfcdd8d20865dd0db38a2fa1650ea59b9a29d68b7cbe533517a8c36e5a635d018ce48da9775dd1caf61649191e3a5ba5e9bbe041c152828e4"
+RPM_NAME = "libpreludedb7-5.2.0-2.12.aarch64.rpm"
+RPM_HASH = "c3e3b33e053cc3c951394d1e237b73241926f824792ac180f6348660d9917f196055c6b92cfb4e8795f890652292c059a4a9b8750fc17ee738b94d1c39863141"
 
 RPROVIDES:${PN} += "libpreludedb.so.7 \
 libpreludedb7"

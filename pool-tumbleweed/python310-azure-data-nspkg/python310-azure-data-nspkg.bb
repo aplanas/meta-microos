@@ -8,12 +8,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python310-azure-data-nspkg-1.0.0-2.11.noarch.rpm"
-RPM_HASH = "77ea271b4d524a53a16fc990a50fc641783adf9414859b15b7504e1df277cea62fa64b8ce4e6e0521a1178289a03f011a51d9c3d51409837fc6f8f04794ad660"
+RPM_NAME = "python310-azure-data-nspkg-1.0.0-2.12.noarch.rpm"
+RPM_HASH = "d0b7de2a37ba0a466abc082e5112c55743a3d1826198901f2395f4a1b18d5632b8934734c20305eac310757809bd336676d51ef911f80c785ca171182a550c88"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-data-nspkg \
-python3.10dist-azure-data-nspkg \
+RPROVIDES:${PN} += "python3.10dist-azure-data-nspkg \
 python310-azure-data-nspkg \
 python3dist-azure-data-nspkg"
 

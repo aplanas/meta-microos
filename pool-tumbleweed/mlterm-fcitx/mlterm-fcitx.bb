@@ -2,10 +2,10 @@ SUMMARY = "A fcitx plugin for mlterm"
 DESCRIPTION = "A plugin to use the fcitx input methods directly from mlterm."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.9.2"
+PV = "3.9.3"
 
-RPM_NAME = "mlterm-fcitx-3.9.2-3.3.aarch64.rpm"
-RPM_HASH = "186b07a4e4d9a917df662052a38c91b0e8c21323a0dd6bd05dd7599c645eb68056940e1da3388e6f38a112cadd9112d323f12a6e32d6db9f2146127709282eeb"
+RPM_NAME = "mlterm-fcitx-3.9.3-1.1.aarch64.rpm"
+RPM_HASH = "8787aa72abbe52154a12ff22360df41c47597575c3f1cd022ed490b152e905441e7a932ae6cb06f95e15ee4a758c7fcc9e72dd1e3e6a4c5df78e9b8c8e3edbdd"
 
 RPROVIDES:${PN} += "libim-fcitx-sdl2.so \
 libim-fcitx-wl.so \

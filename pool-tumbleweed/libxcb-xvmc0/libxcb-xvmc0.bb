@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "1.15"
 
-RPM_NAME = "libxcb-xvmc0-1.15-2.2.aarch64.rpm"
-RPM_HASH = "f4bbf5978143c8fb6920a5272dd602689f491dad5b21d3f00ceab9b09ace269a5e756766924f05f7e64aad04889f2be3b84fe138146283e7d87ba35938605bdf"
+RPM_NAME = "libxcb-xvmc0-1.15-2.3.aarch64.rpm"
+RPM_HASH = "4ba18e26e84aee50d2701e342dd0429b64f753f33c79e8fc5eb0a2a49cf062f78d1572ed3a7f646fee0b08b2d4fef43151aedc93deee3ab6ebd991ae77d13a1f"
 
 RPROVIDES:${PN} += "libxcb-xvmc.so.0 \
 libxcb-xvmc0"

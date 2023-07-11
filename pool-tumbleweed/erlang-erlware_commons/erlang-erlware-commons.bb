@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.6.0"
 
-RPM_NAME = "erlang-erlware_commons-1.6.0-1.1.aarch64.rpm"
-RPM_HASH = "68df0b248505cd1cb46c64aef73b246ef810dfb491d88ae526315e478ac79dde32d45f99583c098686f068f32ca69cd466e5b18314783619cdc27fd0869565d4"
+RPM_NAME = "erlang-erlware_commons-1.6.0-1.2.aarch64.rpm"
+RPM_HASH = "5a61467d5b5c3472b89be3fa4ae81dcd2e04e83fac27d3be8bd18c1396eff356d7a3075f9071cd4852da8ccac5781328b79ea0889b7893bb6fcf834784054803"
 
 RPROVIDES:${PN} += "erlang-erlware-commons"
 

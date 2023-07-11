@@ -8,11 +8,10 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.4.21"
 
-RPM_NAME = "python310-xapian-1.4.21-2.5.aarch64.rpm"
-RPM_HASH = "faaa5f1e1f1ed2cd2cf7bf690cc4a6ef27d766369dd88ac3ea63460646620f4cdeef6c88f7b4be3e6afe39c18855c4302e3ec92bbae6e03ed7cda16a2d165fae"
+RPM_NAME = "python310-xapian-1.4.21-2.7.aarch64.rpm"
+RPM_HASH = "42d8e5ef0e2163de89153eddfc967b11ad812e68cf7aea87fc528ecf4cac085304aca83c1d2755c1620d52a1e0a9a602225b22b248515d3771bfa1b519a37ae2"
 
-RPROVIDES:${PN} += "python3-xapian \
-python310-xapian"
+RPROVIDES:${PN} += "python310-xapian"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \

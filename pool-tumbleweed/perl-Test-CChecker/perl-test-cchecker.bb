@@ -17,13 +17,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.10"
 
-RPM_NAME = "perl-Test-CChecker-0.10-1.17.aarch64.rpm"
-RPM_HASH = "0ab77c3f16dfdcaa08c068557eb93d9d933d7b8605b918ff6f874c137a7eb3d740fa30ba67503963ad96e32597c8763a4fc233c167daf5153af7767bdaf915ab"
+RPM_NAME = "perl-Test-CChecker-0.10-1.18.aarch64.rpm"
+RPM_HASH = "fd2f9a00cf8be514b629bf95c10d044687c7925d80c7d93032659345d118bf626ee1f3a87f38cc7f1ecb0b167f3951809609dcfb881e675a8cdb3e88822b7aad"
 
 RPROVIDES:${PN} += "perl-Test--CChecker \
 perl-Test-CChecker"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Capture--Tiny \
 perl-ExtUtils--CChecker"
 

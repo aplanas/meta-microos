@@ -3,10 +3,10 @@ DESCRIPTION = "You need this package if you want to compile programs with the Qt
 library."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libQt5Bodymovin-devel-5.15.9+kde0-1.1.aarch64.rpm"
-RPM_HASH = "1ed46aa52c6df37652867a46e44ef0278deadb1aa18d8cb81c959754410e51c38c0fee2219275a8ee3638ca3c23500d934df904c7b686094a7fe1c60d45ad35f"
+RPM_NAME = "libQt5Bodymovin-devel-5.15.10+kde0-1.1.aarch64.rpm"
+RPM_HASH = "c164699a736b2b171be80926bed125d243279111dfc3f7224d349d913151f5af17d8675b979f12436941e6c1c6858f7e05552e59b63ac20f1e800816a458f757"
 
 RPROVIDES:${PN} += "cmake-Qt5Bodymovin \
 libQt5Bodymovin-devel"

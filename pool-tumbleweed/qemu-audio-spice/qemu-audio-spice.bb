@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-
 
 PV = "8.0.2"
 
-RPM_NAME = "qemu-audio-spice-8.0.2-1.1.aarch64.rpm"
-RPM_HASH = "8eb725e75f30d8d95bd9d7d29df9daaa77491727f193cfe642bf2bd534b7a232659b8e42e682f1ff9b55d0bbfa0bb610cd874f30360962534695c4547f77a80d"
+RPM_NAME = "qemu-audio-spice-8.0.2-2.1.aarch64.rpm"
+RPM_HASH = "c0080bbdfc1dd820f403e6075bcb5e8d64c7f86c7b1efe81cb98ba242d9705292d0e6194bd38a2a3f715d9a544034a3e80d53c86731dac411430aba13c62c0b5"
 
 RPROVIDES:${PN} += "qemu-audio-spice"
 

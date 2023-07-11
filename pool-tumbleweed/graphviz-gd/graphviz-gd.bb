@@ -5,8 +5,8 @@ LICENSE = "EPL-1.0"
 
 PV = "2.49.3"
 
-RPM_NAME = "graphviz-gd-2.49.3-6.5.aarch64.rpm"
-RPM_HASH = "187cf10bed346c408e86565d42f92b916ec1d15bc9083979901a7e113c211db50d2d0576cede4132f4a5182630d442de7d5d53889a0f980c4a72c203e260b25b"
+RPM_NAME = "graphviz-gd-2.49.3-6.8.aarch64.rpm"
+RPM_HASH = "1469280f4247cb01a2fcafb89b5f49d8951900c7aec340dfbf9beb12db418e3b970495558e0d1cebab2c5c788201d1780fb4f5612437c6764a5f833d0385e1d5"
 
 RPROVIDES:${PN} += "graphviz-gd \
 libgvplugin-gd.so.6"

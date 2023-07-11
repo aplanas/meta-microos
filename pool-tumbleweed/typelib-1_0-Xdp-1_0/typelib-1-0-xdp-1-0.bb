@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.6"
 
-RPM_NAME = "typelib-1_0-Xdp-1_0-0.6-1.7.aarch64.rpm"
-RPM_HASH = "90ffcd1892bd6924b6d568a736c3afde120a6f021cdb63fe0d196488cfe67747e61eecf9a18ad955e588afaa43a9a992d518b841a6eb172fd1dc4e0fc099639c"
+RPM_NAME = "typelib-1_0-Xdp-1_0-0.6-1.8.aarch64.rpm"
+RPM_HASH = "74d7465ea032ec181f86239c1ad0fc8c8e16305253e1406b1aac318dc4c7e3154f9f9a02c30f9109cd64991f4132d9446f7be8ad1e646aadcf22b3ee4795445b"
 
 RPROVIDES:${PN} += "typelib-1-0-Xdp-1-0 \
 typelib-Xdp"

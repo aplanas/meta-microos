@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "2.4.0"
 
-RPM_NAME = "python39-addict-2.4.0-1.8.noarch.rpm"
-RPM_HASH = "e68d1b60e78b8a28b8df5454f5a75b7bfb1d3c223e23d320d5f3f9c50dee9374da933990f9b8c8581e5d449d462d6c1014f2dbc756c9fd640a37a80514e88590"
+RPM_NAME = "python39-addict-2.4.0-1.10.noarch.rpm"
+RPM_HASH = "438d3eed0a33f6542c76e9c6affc909bb41223b2ace5698ce64574da8533260f7a0fd663b22c82bb6c7f27cad0e18eb3a00051e0921c86c29d8d9b86415ec08d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-addict \

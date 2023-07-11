@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "1.17"
 
-RPM_NAME = "python39-python-stdnum-1.17-1.8.noarch.rpm"
-RPM_HASH = "64ad83c075f5bef1c4db773a5d4ed466a53e630f5d5f10aa8c8b4bf1bddcadfd525e2c8777b61d2937227e4500f66c2234b85cc62f68a303c93d56ce8d74d04a"
+RPM_NAME = "python39-python-stdnum-1.17-1.10.noarch.rpm"
+RPM_HASH = "9e113383d2f3d933fd1b3c42b8a092d54dbf66a6219b224f43fc1a4a5502a751f16d8db9a5faf983f6d18ae95b2549d0555d5ccf5127368f233fd0561d3b4401"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-python-stdnum \

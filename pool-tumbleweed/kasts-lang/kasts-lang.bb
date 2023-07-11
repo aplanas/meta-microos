@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kasts"
 DESCRIPTION = "Provides translations for the 'kasts' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kasts-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "ce23bfa4422f7790d048fa68b22c67e080cb5146c88f584d565a762d82dab624e05b9d0813ee0ebaec3b23b713f61cb6b1707945fddffa02786e17a4ce938633"
+RPM_NAME = "kasts-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "d46963beaaefed6e5deb38a0dd8dfec7523580015bb1b1d319777238e06ee4377c8ab3a27e07c3d8c0be28b488e3597be3f738046b0a0f5b56f3d066566d7685"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kasts-lang \
@@ -28,6 +28,7 @@ locale-kasts-pa \
 locale-kasts-pl \
 locale-kasts-pt \
 locale-kasts-pt-BR \
+locale-kasts-ru \
 locale-kasts-sk \
 locale-kasts-sl \
 locale-kasts-sv \

@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.19"
 
-RPM_NAME = "radvd-2.19-3.3.aarch64.rpm"
-RPM_HASH = "73a20f67dfe653db01c2e56f93a82e224833b83d0deb716cb4b184ae3cf353a3f73215344008ed977aa39e29acbc58e154b3ee3996c8d8122d17445cec35105e"
+RPM_NAME = "radvd-2.19-3.4.aarch64.rpm"
+RPM_HASH = "b64de2cba5b67003465249a7edae54c3a3d6edf30aca4ff0a677e6b1e7cd636cd255739ea12ee491c9732b69f1a989fa214cc0295f49abcb4b40c8bc6e90c457"
 
 RPROVIDES:${PN} += "config-radvd \
 group-radvd \

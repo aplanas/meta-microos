@@ -7,8 +7,8 @@ LICENSE = "BitTorrent-1.1"
 
 PV = "4.0.0"
 
-RPM_NAME = "python39-bencode-4.0.0-1.2.noarch.rpm"
-RPM_HASH = "51155ecffb2ee1d9fa4ba0c97e4067d8b381f327cbc549a163c603e70edc6995f1c5cd81f1bb2f30548da3a70b8d60a4676011749bdf5010669cb05e9dd48475"
+RPM_NAME = "python39-bencode-4.0.0-1.4.noarch.rpm"
+RPM_HASH = "e6a83e80ba94a25d89d01e9637e1623edb8c6c4efbce40aa9a4ba6c17a835022e33ff5ac6b9a7303ba1fd0f277d41180bc735ea63d674f6f155d8fb5b179a2d4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-bencode.py \

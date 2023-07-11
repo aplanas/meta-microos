@@ -5,12 +5,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.7.0"
 
-RPM_NAME = "python310-tri.declarative-5.7.0-1.10.noarch.rpm"
-RPM_HASH = "9ec773d401f825372c4f2b3a4a0b57715826979c05aaf4d6487530b12148cb2a9fbd1e436c0b8fe1e26e0c1c5525b42b28e25dac0f00e64a033047dcc06ce7ab"
+RPM_NAME = "python310-tri.declarative-5.7.0-1.12.noarch.rpm"
+RPM_HASH = "5c46dbc2250d708de97831d4bfa8d61d8ffcd6dcc4244043e7142f622e2b46e1dd0a531abfd20d942ce68d5fe20111c2aa57d5d4d5b76aedbffa278ae52e39fb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-tri.declarative \
-python3.10dist-tri.declarative \
+RPROVIDES:${PN} += "python3.10dist-tri.declarative \
 python310-tri.declarative \
 python3dist-tri.declarative"
 

@@ -5,8 +5,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "libleechcraft-util-shortcuts-qt5-0_6_75-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "9fc5a630c821fca161a080754930025184da15370723a95a7cdb04886ad499d632da0ab668cafcd46eb67f6fd8f2c196b8278a4ad6b06ee3af599c142f65e5e8"
+RPM_NAME = "libleechcraft-util-shortcuts-qt5-0_6_75-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "7aff75e567ed17f8b4f008636ea3c8e59d9f35df46cdb5cf0aecebc2ad5429913cba3ca8f3ae6f8087154805a20fe05576d4cb417ed857b84d6de9f4717b16e6"
 
 RPROVIDES:${PN} += "libleechcraft-util-shortcuts-qt5-0-6-75 \
 libleechcraft-util-shortcuts-qt5.so.0.6.75"

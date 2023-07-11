@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.4"
 
-RPM_NAME = "python311-pdfrw-0.4-3.16.noarch.rpm"
-RPM_HASH = "afe9f7b5bacc80e84833a92171a87e752652d0c13c23144a01fdcad9808d4288e9117607db33a3e1e9f4fa879a73bc0a72f7189560075ab417a36e8163521ba0"
+RPM_NAME = "python311-pdfrw-0.4-3.17.noarch.rpm"
+RPM_HASH = "e910b8016d81c811bf6ee088bd77590991278a1500d9694ce933e8609b5db4cfa0677fe2be49013d115030e47c1063fd7b48b20f12cd34c4e95be6a909e6335d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pdfrw \
+RPROVIDES:${PN} += "python3-pdfrw \
+python3.11dist-pdfrw \
 python311-pdfrw \
 python3dist-pdfrw"
 

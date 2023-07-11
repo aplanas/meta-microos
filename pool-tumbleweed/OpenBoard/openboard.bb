@@ -4,14 +4,14 @@ application designed primarily for use in schools. It was \
 originally forked from Open-Sankoré, which was itself based on \
 Uniboard. \
  \
-This build is based on the development branch 1.7-dev and includes \
+This build is based on the development branch dev and includes \
 a set of additional patches for features and bug fixes."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.7.0~git20221129.9de37af"
+PV = "1.7.0~git20230614.2ff8f29"
 
-RPM_NAME = "OpenBoard-1.7.0~git20221129.9de37af-2.7.aarch64.rpm"
-RPM_HASH = "f5f62a2afc85e74d46ee8b5d42e1e02bf1164a34a0aff06bd03d2777fcc8c6f8950ef5472e5748a87c34199375bba252e3356d29e589d378ed5dc56e2eacb67d"
+RPM_NAME = "OpenBoard-1.7.0~git20230614.2ff8f29-1.1.aarch64.rpm"
+RPM_HASH = "2b8941c0ac3506a21ef6e550b36eff37c40356f1cb164995ebf96ed75fb857c6ac6350d680799fce57ed664e7fce54e637ae75d63a87a32b56569f4d9ec2131a"
 
 RPROVIDES:${PN} += "OpenBoard \
 config-OpenBoard"
@@ -40,7 +40,7 @@ libcrypto.so.3 \
 libgcc-s.so.1 \
 libgomp.so.1 \
 libm.so.6 \
-libpoppler.so.128 \
+libpoppler.so.129 \
 libquazip1-qt5.so.1.4.0 \
 libstdc++.so.6 \
 libswresample.so.4 \

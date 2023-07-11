@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0+ | LGPL-2.0+ | MPL-1.1+"
 
 PV = "2.8.8"
 
-RPM_NAME = "hyphen-devel-2.8.8-2.26.aarch64.rpm"
-RPM_HASH = "78ea683c62ab0885ab263787a029a2cff448577b63f3072860476b713cf7b10dc470f52f5669eb13b7cca0f6851ab0fae9636eb64f2ecb2e81d65927bf60db4c"
+RPM_NAME = "hyphen-devel-2.8.8-2.27.aarch64.rpm"
+RPM_HASH = "cc58cb00ab18db13cd877a9b269df031abb853e62ad4876160e0be278fd30041e202acd1cc6e936b44d7a251f45691cde58309995d58a8f9919b01fe13969ea2"
 
 RPROVIDES:${PN} += "hyphen-devel"
 

@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "10.42"
 
-RPM_NAME = "pcre2-doc-10.42-3.3.noarch.rpm"
-RPM_HASH = "776b4c11e2f79fe47818abb4855bbe871322a682fe1d69682142aa41e7155eaca3a48a11d7d7253a4f563d35171c460fd8d7f28765ad0501ac83980e55d02953"
+RPM_NAME = "pcre2-doc-10.42-3.5.noarch.rpm"
+RPM_HASH = "145dae0a4dd3d3be1f6e2fa8dbdb1ab0732fd7ec1467ac1be05bf05ec718d84541f45e25d82dd8400fe303b8cad1371665b3c7c8fdd3f22a9c62351818c79aef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pcre2-doc"

@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.1"
 
-RPM_NAME = "schedtop-1.1-30.28.aarch64.rpm"
-RPM_HASH = "a82c6abd60b22ee9a7b109b69df749b203a5e685f1279faf67a5adfd8d9222a8478b2442769a824aff422dcee3d0f713fb6c4c01c22963b32647fd2f4aa8b3e8"
+RPM_NAME = "schedtop-1.1-30.29.aarch64.rpm"
+RPM_HASH = "6d07df7f2f72ea0e79a921fb14592933bf0cd0ebbe572e14792f45dfde05d28f511a87e7f6f15b8ee246bb3886693d0b39edf32a9a94441f1a0b8020cfdf3916"
 
 RPROVIDES:${PN} += "schedtop"
 

@@ -6,11 +6,11 @@ LICENSE = "GPL-3.0+"
 
 PV = "6.0.17"
 
-RPM_NAME = "trytond_account-6.0.17-1.1.noarch.rpm"
-RPM_HASH = "7f7b7e7d32990478e97212490481e92039e1590df2b7428125e7644fdd6a65b13888ace8ded2d6e3f6564e72ef122c638b3f9712fac972c5ad4e6085442f1370"
+RPM_NAME = "trytond_account-6.0.17-1.2.noarch.rpm"
+RPM_HASH = "3b9afa9ffbdf6a7a404c9483797e822cd94d619e92c022cb3edaf2717809210391563820d5c2cceeb3f7235461231c9a9b0a52333bf5f3e502660e7730166576"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-trytond-account \
+RPROVIDES:${PN} += "python3.11dist-trytond-account \
 python3dist-trytond-account \
 trytond-account"
 

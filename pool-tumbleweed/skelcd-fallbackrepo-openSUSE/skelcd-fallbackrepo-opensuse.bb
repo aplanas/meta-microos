@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.1"
 
-RPM_NAME = "skelcd-fallbackrepo-openSUSE-1.1-4.45.aarch64.rpm"
-RPM_HASH = "aa76d0f15dceb77aa3166a73682d1a5cc3f0a6e8f6ffe2077f6936ebe257ac827cf289476c0d799590bf083f5fa80f977fb572f1fb8088eb4630842df7bb292b"
+RPM_NAME = "skelcd-fallbackrepo-openSUSE-1.1-4.47.aarch64.rpm"
+RPM_HASH = "ab0d9b7b1bfb3b099b16602b95d583b45a92f5e2c8b879fe09193668fb53edca18feb594f5c117722e433cde4561351110a98c8d29543f3ba30810af55ec7caa"
 
 RPROVIDES:${PN} += "skelcd-fallbackrepo \
 skelcd-fallbackrepo-openSUSE"

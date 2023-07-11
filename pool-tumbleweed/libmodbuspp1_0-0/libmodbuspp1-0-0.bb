@@ -6,8 +6,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.2.3"
 
-RPM_NAME = "libmodbuspp1_0-0-0.2.3-1.10.aarch64.rpm"
-RPM_HASH = "f255b7b9f80bb2bc0781b32015057c4dcfb8b0423df5a60f48e5ffb37fc196728108eab85ff7c220b9d745e259054659bc75215bcfff563a32eb02787ed1bc5f"
+RPM_NAME = "libmodbuspp1_0-0-0.2.3-1.11.aarch64.rpm"
+RPM_HASH = "b65652d9dd3e8701049c04ae242016dfb04258d0c5f31e2005687f2cb3405bb3055068adc3a05c2fd1447162d064fd7cdcfa086a6f355161316cceb406fc4526"
 
 RPROVIDES:${PN} += "libmodbuspp.so.1.0-0 \
 libmodbuspp1-0-0"

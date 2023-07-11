@@ -4,18 +4,18 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5"
 
-RPM_NAME = "ghc-sandi-0.5-5.3.aarch64.rpm"
-RPM_HASH = "2ea237fd42e4393312d64ba4cfe88c9c73fde52e5c96e6fd0492572d72d29164098448dc582a51d707c67a96ad2363d8d5df28cbdfccea4471577db938a29ea6"
+RPM_NAME = "ghc-sandi-0.5-5.7.aarch64.rpm"
+RPM_HASH = "f6e4c913b054299cfe4d757db099ed6985cf71caa04b2389ceb850042f64cca042c7f527a12f1cf1b7ed484beb2171ac7fd9217d189dd83b49cdea67dd8b5797"
 
 RPROVIDES:${PN} += "ghc-sandi \
-libHSsandi-0.5-G6Jka3yQQG77V9ypm6cnaU-ghc9.4.5.so"
+libHSsandi-0.5-YnddZGVezcGXuCMoeOLq4-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
 libHSbase-4.17.1.0-ghc9.4.5.so \
 libHSbinary-0.8.9.1-ghc9.4.5.so \
 libHSbitvec-1.1.4.0-FzBtDnbj1qCBVRHTrZUOXy-ghc9.4.5.so \
 libHSbytestring-0.11.4.0-ghc9.4.5.so \
-libHSconduit-1.3.4.3-dAZVHPSYjL2zQ4RzAuWi2-ghc9.4.5.so \
+libHSconduit-1.3.5-EjJ71P6EbmSGTrvJLquwgr-ghc9.4.5.so \
 libHScontainers-0.6.7-ghc9.4.5.so \
 libHSdeepseq-1.4.8.0-ghc9.4.5.so \
 libHSdirectory-1.3.7.1-ghc9.4.5.so \

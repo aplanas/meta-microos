@@ -7,11 +7,12 @@ LICENSE = "MIT"
 
 PV = "0.3.0"
 
-RPM_NAME = "python311-pypsexec-0.3.0-2.5.noarch.rpm"
-RPM_HASH = "7e88ddb3371ff4c1bed7c1c2027e28bed683101f7272746752a24a33cca1e33a9eb9c1b7593191936cba9b9d914e6965b608e71b1e4119ef82323e1eada47bb7"
+RPM_NAME = "python311-pypsexec-0.3.0-2.7.noarch.rpm"
+RPM_HASH = "0dcc8f5f9997b7d0db31f534dd791b4c672588aed7b347daf8eb3fe93adede0413c0c2080edb3191a0ee319547c88442a1345fb42c30b2f8a4d79c76b0441a96"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pypsexec \
+RPROVIDES:${PN} += "python3-pypsexec \
+python3.11dist-pypsexec \
 python311-pypsexec \
 python3dist-pypsexec"
 

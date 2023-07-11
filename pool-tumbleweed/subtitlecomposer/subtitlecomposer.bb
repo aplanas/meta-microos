@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.7.1"
 
-RPM_NAME = "subtitlecomposer-0.7.1-6.2.aarch64.rpm"
-RPM_HASH = "fb70b8e91868d52db2a2646a38aa639481ed752e4b39f1b962d4c4726f77954196689b4432f9cdff45955852ddc454e82a7efb69e3f63747c0741af50dff721a"
+RPM_NAME = "subtitlecomposer-0.7.1-6.3.aarch64.rpm"
+RPM_HASH = "0cfc82c653c53b31d5e342e7b847dbbb68f2b772f79de078f561539bcd8d390d5ef81c8eb910d033d706102ec2c2ab6a400f9a1035c29a04caba59f6bbfae46f"
 
 RPROVIDES:${PN} += "config-subtitlecomposer \
 subtitlecomposer"

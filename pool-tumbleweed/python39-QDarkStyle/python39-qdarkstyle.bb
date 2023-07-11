@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "3.0.2"
 
-RPM_NAME = "python39-QDarkStyle-3.0.2-1.11.noarch.rpm"
-RPM_HASH = "3c60bdb158a780fba111ba3be6c2f5835593e5de8d3b5221cb1f7b1808cea69d1725f716663e68713bff3f4b476b16a1d5bc084bb4186da463e2c383e1e8c923"
+RPM_NAME = "python39-QDarkStyle-3.0.2-1.12.noarch.rpm"
+RPM_HASH = "ab399b8a3f513fc891b05c14f8a8d86cc2f3d0fedd4b48284771e503360f8e4587741fa14b0f2cbdafcb39a74c0251b8c9d5ef98256b46e025a3d14884307332"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-qdarkstyle \

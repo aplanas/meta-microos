@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.96"
 
-RPM_NAME = "eximstats-html-4.96-5.1.aarch64.rpm"
-RPM_HASH = "7aca441033db201706762aa81f8276135a08ea284b7914526996eeb45ccd9f3c5576e2d6a1943a9d2b7ebe999c9a75290d6bed1ec69f2363773ffbc364edcabe"
+RPM_NAME = "eximstats-html-4.96-5.3.aarch64.rpm"
+RPM_HASH = "22b1885046cb4709f712da253306e76793ea07b42765a86e6b734f02677be248909af2ade4e0236b0c012b192a76b70012c76a5f8323d4988b9531caa7b0ff64"
 
 RPROVIDES:${PN} += "config-eximstats-html \
 eximstats-html"

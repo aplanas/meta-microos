@@ -5,11 +5,13 @@ LICENSE = "MIT"
 
 PV = "1.2.14"
 
-RPM_NAME = "python311-Deprecated-1.2.14-1.1.noarch.rpm"
-RPM_HASH = "1ab571d529289aa974b5a08844a8de2ec3369fc412b08a35044fc3de370ca7287500e924b63ea1bf092f5c973d9fbdee66d736a90953dcbefe9c697b2fb369b3"
+RPM_NAME = "python311-Deprecated-1.2.14-1.3.noarch.rpm"
+RPM_HASH = "a03c969f20dbb3488b79a3d9e587b071c1ccecbf4135bb8c0c361f6c6ffaeac569942fa47b125086e6d50baaf3a9d5ad95f6530d33c544387b23e4e238315bfc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-deprecated \
+RPROVIDES:${PN} += "python3-Deprecated \
+python3-deprecated \
+python3.11dist-deprecated \
 python311-Deprecated \
 python311-deprecated \
 python3dist-deprecated"

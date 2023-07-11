@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.1.1svn54512"
 
-RPM_NAME = "texlive-gridslides-doc-2023.201.0.0.1.1svn54512-53.1.noarch.rpm"
-RPM_HASH = "3b58b4c94eef4f1a24bf66ba38a6b1aabcaf0dac7f869eb2bf61dc6f40ea1e54b9a2a0a775b692f0e355fef27193f2d86b960df6a3176fa8b67c90dffddf5c9a"
+RPM_NAME = "texlive-gridslides-doc-2023.201.0.0.1.1svn54512-53.2.noarch.rpm"
+RPM_HASH = "c5de3774f6e5cf6f91e8174249779e10b6f2f92cdefb4bdab7c16cdfad941130371b29656b2a444fe87323e5408fa55ad9a10c69001f1b44f579f84e36247e73"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gridslides-doc"

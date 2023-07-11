@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "python39-osmviz-1.1.0-3.7.noarch.rpm"
-RPM_HASH = "7dc91efd02244efa86a1e48532d4a55ac993f32b3569e56f7fb1e59c89de7c062a8b6f2a4811b041469cf80434fc7403e8b11d0a93624abd0ecf0cd191cf85f0"
+RPM_NAME = "python39-osmviz-1.1.0-3.8.noarch.rpm"
+RPM_HASH = "bc8419db51f9d03ff12ea60c3abffb5d59ff8444da358507e8fd16799c67f648373a4e1e87eb8381376e67f68ab814bb02f518cf99fc2fd4e74c97008134aca4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-osmviz \

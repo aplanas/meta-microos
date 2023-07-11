@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "simple-scan-lang-44.0-1.1.noarch.rpm"
-RPM_HASH = "52104d46718d5ec9b7b2c97559fc0609eefc7c70f417a95d2c8d64b0b7d13f355434e219af04350606d6a00adcc7b24cd79902faccdb9abe0047c357978f1b71"
+RPM_NAME = "simple-scan-lang-44.0-1.2.noarch.rpm"
+RPM_HASH = "1e5c94652b57f4075f298f179ffe25947811387138dcb1e5fab91198983a49edf1c161aafa8f98c4c11a38455ee9529adf0b77b4dab1381455af3a95fbdde256"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-simple-scan-af \

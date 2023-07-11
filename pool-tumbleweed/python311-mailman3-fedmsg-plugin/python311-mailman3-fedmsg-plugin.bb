@@ -4,11 +4,12 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "0.5"
 
-RPM_NAME = "python311-mailman3-fedmsg-plugin-0.5-1.13.noarch.rpm"
-RPM_HASH = "2e237574a275b678615914f57914226d6f7e6007f3b2c5adf146fb92592604124bb623ca3c7eb2c4f677b414e4311ba1a547f8925bfaf41811c5a4937087408c"
+RPM_NAME = "python311-mailman3-fedmsg-plugin-0.5-1.15.noarch.rpm"
+RPM_HASH = "d52679fe11556d8f6b2a291d208fa08623e8b0d7ee2a341da159c7ce782a999caeed0e709a495094a19deb93c8bac0dac92986d5995962661ac1a089e14986f6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-mailman3-fedmsg-plugin \
+RPROVIDES:${PN} += "python3-mailman3-fedmsg-plugin \
+python3.11dist-mailman3-fedmsg-plugin \
 python311-mailman3-fedmsg-plugin \
 python3dist-mailman3-fedmsg-plugin"
 

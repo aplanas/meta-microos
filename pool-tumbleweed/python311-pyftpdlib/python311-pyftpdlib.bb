@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "1.5.7"
 
-RPM_NAME = "python311-pyftpdlib-1.5.7-2.1.noarch.rpm"
-RPM_HASH = "3a1c0bddfdd206cabb1b51d6f9a991e476fd2eb352af52d33f361fbc529dd98a84dcf89603341cffd3be8895e57271042b0d332852112823af068fbdc52ac968"
+RPM_NAME = "python311-pyftpdlib-1.5.7-2.3.noarch.rpm"
+RPM_HASH = "f6689df16f81bf8ea7abc97a63ff448090c7ed3790296983ff864c800d45564d9f3edfe60e560d73a733b2bb4af34c22f82a1ab9a19e5a4f448623731fd843a6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pyftpdlib \
+RPROVIDES:${PN} += "python3-pyftpdlib \
+python3.11dist-pyftpdlib \
 python311-pyftpdlib \
 python3dist-pyftpdlib"
 

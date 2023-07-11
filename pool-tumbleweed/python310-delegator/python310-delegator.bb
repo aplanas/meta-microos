@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.0.3"
 
-RPM_NAME = "python310-delegator-0.0.3-2.8.noarch.rpm"
-RPM_HASH = "35e4f0f7a60a7b6f4a56b210fbafa4b5ef96bd3bf93fc614fbd962f725f5fceb834c0a17a14b0a29b084261e5c952697d2a50cdb7a6d0d2e36e6ca80be38983e"
+RPM_NAME = "python310-delegator-0.0.3-2.10.noarch.rpm"
+RPM_HASH = "f6e71466a1cf6005fca78e6008fb36a8567fa2bef641710f2c623b30aa60498de2e610db0dbbe512b63b0cb6d46ac594f2c17758e26870a6f17a72cadb3d5572"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-delegator \
-python3.10dist-delegator \
+RPROVIDES:${PN} += "python3.10dist-delegator \
 python310-delegator \
 python3dist-delegator"
 

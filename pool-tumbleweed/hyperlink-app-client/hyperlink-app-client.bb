@@ -14,8 +14,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.0~git5.211516e"
 
-RPM_NAME = "hyperlink-app-client-0.0~git5.211516e-1.2.aarch64.rpm"
-RPM_HASH = "2a3951caafac0155dbc55f3a1655995d48085cc2f1eb4bb5f0c1a90d622accc340e04a44f6316418e8c44ec154a08dc11b9c94696564649ff2c7865ec33d4db3"
+RPM_NAME = "hyperlink-app-client-0.0~git5.211516e-1.3.aarch64.rpm"
+RPM_HASH = "53a29072f29a76814ff73d7c6c834ad21a1d0aadf779cb8e8e1336532fecc154718c8d118c2edf94c81baa1670df412e2e0cf959cb9a8cefcfc0d9b1c67d36b5"
 
 RPROVIDES:${PN} += "hyperlink-app-client"
 

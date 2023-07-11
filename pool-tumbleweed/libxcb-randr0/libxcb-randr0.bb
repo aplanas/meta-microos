@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "1.15"
 
-RPM_NAME = "libxcb-randr0-1.15-2.2.aarch64.rpm"
-RPM_HASH = "4f7ba8f5d90a514d56caf833055f7add9b8f745aadaae34040993e4eae70e005557f195ef8f6a7dc23a68629c87b4a6c152d707ef29ddb9270ff4959c9853fc6"
+RPM_NAME = "libxcb-randr0-1.15-2.3.aarch64.rpm"
+RPM_HASH = "b7ee1e3efc165dd62158fb329af490a498f74dd26150f7bfa9c27389198fea31eb8174ef87daa64ccb9eb5b5aa4bad0154f166966da965419105ea026bd30419"
 
 RPROVIDES:${PN} += "libxcb-randr.so.0 \
 libxcb-randr0"

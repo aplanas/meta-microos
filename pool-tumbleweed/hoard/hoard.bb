@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.3.1~0"
 
-RPM_NAME = "hoard-1.3.1~0-1.2.aarch64.rpm"
-RPM_HASH = "a1a28b4acdb6f02ecdf94023cc22095963ad46380edf8a1b750293995ae661dc414cb8d0abf996ebc1db8c82ca9b58ec06a889f676e1a67d57b1b9d7d5cbd1e3"
+RPM_NAME = "hoard-1.3.1~0-1.4.aarch64.rpm"
+RPM_HASH = "de04425baa9d293615504b16de80035246e50f9a9b88cb7d1b40086fccb21d83f69c810abbae9eabaa2a9f48b06bde6c9a308122a814f2f1771f39c16c845bbe"
 
 RPROVIDES:${PN} += "bundled-rust-crate-anyhow \
 bundled-rust-crate-array-tool \

@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.01"
 
-RPM_NAME = "python39-ipy-1.01-1.10.noarch.rpm"
-RPM_HASH = "7e393d63695579dcfa840dd397b5c7e1a7b9b25cf62e3b4571181fddfea0ecfc2d2dc8842ef36c4bec378b4fd19f37850e7df3e18487d181ce16bdd24ca92536"
+RPM_NAME = "python39-ipy-1.01-1.11.noarch.rpm"
+RPM_HASH = "b90200429ddc09fcc4e25465359b91480d39cb40138b7961fcb818452575f785d7c5cc0466ff5c2eeb4b952a59b3a298f6f386f7e7788df87bedb6bf5ad31546"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-ipy \

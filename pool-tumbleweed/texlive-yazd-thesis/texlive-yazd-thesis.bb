@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.3svn61719"
 
-RPM_NAME = "texlive-yazd-thesis-2023.201.0.0.3svn61719-52.1.noarch.rpm"
-RPM_HASH = "93494fd5161546691b3caaff5222c5aebba91a59db85040434d29baca8547d3753da349c76bb7e033e63281074cf2c9492f44bb0ec5bdf3955d529c2de6670b3"
+RPM_NAME = "texlive-yazd-thesis-2023.201.0.0.3svn61719-52.2.noarch.rpm"
+RPM_HASH = "bc54a34ef7ff409f397f1da4ba18533a8cea9653cec290d9c5099d0c22cc0c85324985e6f1a7b821697bbcf8373988c93c65456b19da69076c67b17855923e6c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-yazd-thesis.cls \

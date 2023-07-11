@@ -11,10 +11,11 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.2.2"
 
-RPM_NAME = "python311-python-cjson-1.2.2-2.12.aarch64.rpm"
-RPM_HASH = "896cd48d3f05ec4dc82530a1b61171ebd0af4771bd52d3d0cd2fe2696dbf9620ae428a26669b39029bfcc9398e464e74a903bdad25d7cd6a34837c3c07fd4c8c"
+RPM_NAME = "python311-python-cjson-1.2.2-2.14.aarch64.rpm"
+RPM_HASH = "fa6dc29e7b56997abfa08087fab2c39a21ab99b299d51827baf534c7fca336d2cfa2c56bdb96ed7248da458686f48233c91166057a93ab4823c3188cdd77a0d9"
 
-RPROVIDES:${PN} += "python3.11dist-python-cjson \
+RPROVIDES:${PN} += "python3-python-cjson \
+python3.11dist-python-cjson \
 python311-python-cjson \
 python3dist-python-cjson"
 

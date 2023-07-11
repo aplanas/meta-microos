@@ -6,13 +6,10 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.1.1"
 
-RPM_NAME = "python310-mysqlclient-2.1.1-2.1.aarch64.rpm"
-RPM_HASH = "e0a8336c1150d6bdf757aad6b03ebb39ed50778c96e56221b736f1d1fe37c8c5ea9507958e80a2d1cb1d427eb8d7062ebe1c11d953cf3e777449210a7d66a538"
+RPM_NAME = "python310-mysqlclient-2.1.1-3.1.aarch64.rpm"
+RPM_HASH = "fea4c401bbf5dd3b06c592fddbc76c429ccf5a4aa47bce9e601d51752e064351b200925cbba5f959005a67c6a35f286230c9bce127de15ba46a1d399fa8d708f"
 
-RPROVIDES:${PN} += "python3-MySQL-python \
-python3-mysql \
-python3-mysqlclient \
-python3.10dist-mysqlclient \
+RPROVIDES:${PN} += "python3.10dist-mysqlclient \
 python310-MySQL-python \
 python310-mysql \
 python310-mysqlclient \

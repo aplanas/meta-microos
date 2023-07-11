@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.7svn53500"
 
-RPM_NAME = "texlive-zxjatype-2023.201.0.0.7svn53500-52.1.noarch.rpm"
-RPM_HASH = "da85c71555d3bf511d3f8aae3328879533ad820c1490130788508c3460dcf1747df54c24fe6e0a2670ecf4d7d9d2e3448545e913844bd6e81c7e2c02c7d529ea"
+RPM_NAME = "texlive-zxjatype-2023.201.0.0.7svn53500-52.2.noarch.rpm"
+RPM_HASH = "d6dd57d2f62caf36c9ef13f1502d6a02fc260467829e89dbf5b9ba43fe7180ad8c18a234c06c6ae3b0b3496ac6ac509322fa86f67fcb6f2fbc38576523b7a782"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-zxjatype.sty \

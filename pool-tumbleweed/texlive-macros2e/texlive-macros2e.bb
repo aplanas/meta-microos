@@ -7,10 +7,10 @@ document is not yet complete in content and format and may miss \
 some macros."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.4asvn64967"
+PV = "2023.208.0.0.4asvn64967"
 
-RPM_NAME = "texlive-macros2e-2023.201.0.0.4asvn64967-52.1.noarch.rpm"
-RPM_HASH = "acdc2ccf5e614756f36dda3dcfd0d26ebe6ce6a241d857b0e19d1375993e90aefc18e749e2637b200e6658a1b8b04395ed33b64e289a02394ef1b6059e64a44b"
+RPM_NAME = "texlive-macros2e-2023.208.0.0.4asvn64967-53.1.noarch.rpm"
+RPM_HASH = "72414b0e98e75fc72b8e377fd695d77a9ea91ce7e7fdbb712ddab15fd02d9b06b56d1e8abc3eaea2ed678dc52ea0667ba7ba8d31900f67b5ad0073ea14dfd074"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-extlabels.sty \

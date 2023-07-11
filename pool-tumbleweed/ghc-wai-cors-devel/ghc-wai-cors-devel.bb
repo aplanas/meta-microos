@@ -4,10 +4,10 @@ LICENSE = "MIT"
 
 PV = "0.2.7"
 
-RPM_NAME = "ghc-wai-cors-devel-0.2.7-1.2.aarch64.rpm"
-RPM_HASH = "30f0ea5e711aa01ae72559c4262f08880cda85a955541be5b26e5f2d1c22be8dcea12fc360a723c0b92ec4df1313ae5aef0f819f257afe9ef8ad87ed34e464b5"
+RPM_NAME = "ghc-wai-cors-devel-0.2.7-1.3.aarch64.rpm"
+RPM_HASH = "938406c57899f041e7340ea7de4222bea64b8c8050039e86fe9d8fdd3966cb6e561d0fb18ab21cc103c1da5b80fbd8cbafac7a75f68c4bb4f4a674c7f1263eec"
 
-RPROVIDES:${PN} += "ghc-devel-wai-cors-0.2.7-CSepwpjFO1f9DnlkYc71mV \
+RPROVIDES:${PN} += "ghc-devel-wai-cors-0.2.7-837xDMoVzk8L5Mw3yyuBT9 \
 ghc-wai-cors-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -20,7 +20,7 @@ ghc-devel-case-insensitive-1.2.1.0-AumZoR4Lds63HJj8OQwHY3 \
 ghc-devel-http-types-0.12.3-4BrMFwRucoT4fBt8cCVFS6 \
 ghc-devel-mtl-2.2.2 \
 ghc-devel-transformers-0.5.6.2 \
-ghc-devel-wai-3.2.3-LsLg4DRwusRI7b3SRdjDzn \
+ghc-devel-wai-3.2.3-B6oJGZed88IFIvDpwN5I7x \
 ghc-wai-cors"
 
 inherit rpm

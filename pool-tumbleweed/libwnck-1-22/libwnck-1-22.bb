@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.31.0"
 
-RPM_NAME = "libwnck-1-22-2.31.0-13.3.aarch64.rpm"
-RPM_HASH = "1cedca9fc8f962f27ebfaa83dfe1d5729837f13414ecb29e36db702124768f52888c76fef43a534cbd30412e3e724f203086475d1b902fc620e986550edab3a1"
+RPM_NAME = "libwnck-1-22-2.31.0-13.4.aarch64.rpm"
+RPM_HASH = "df32eb655f01586f602bbd5dfa54f76590029ee762ede670de206b6ab0978c8882c67a93858c95ddbfc5de85cfdd67804295a0fdef410ab5f842a69207245365"
 
 RPROVIDES:${PN} += "libwnck-1-22 \
 libwnck-1.so.22 \

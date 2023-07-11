@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "13.5.3"
 
-RPM_NAME = "libOgreVolume-devel-13.5.3-1.5.aarch64.rpm"
-RPM_HASH = "ba37d363df9fed00771b8ec025c8d49de714e0f03c75955f1f9646310944e549982ef59f8dba88ac98f827b5b368377ee5322fc8e1e4f40fe3207ab13f6d11cb"
+RPM_NAME = "libOgreVolume-devel-13.5.3-2.2.aarch64.rpm"
+RPM_HASH = "e10c1428ec69b642006eb0507a511a73f7ae372340695bb9a10a21448f9b6336a18fe56012ec5f1f66d964922acbab8a757132874a996efcdaef0aaafe8808db"
 
 RPROVIDES:${PN} += "libOgreVolume-devel \
 pkgconfig-OGRE-Volume"

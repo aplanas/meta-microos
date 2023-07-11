@@ -4,8 +4,8 @@ LICENSE = "Zlib"
 
 PV = "0.19.3"
 
-RPM_NAME = "kubie-fish-completion-0.19.3-2.3.noarch.rpm"
-RPM_HASH = "c77b86981ab85c79406db5093ec2515c629a74acab2f9327fff070b8bcf410e148546e5416e3d4f6a12d8d15362dacb25497db417a17fe4d0b497ccf2babe7a8"
+RPM_NAME = "kubie-fish-completion-0.19.3-2.4.noarch.rpm"
+RPM_HASH = "c4a6da6be63043c554031b1da5bd073d7e0e7828d6a83a65a3708850dca2ace1685cf50563dc5d2cf31eb1b9c935a4e86de39163ce52d8264535f1dd5271b449"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kubie-fish-completion"

@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "8.0.1"
 
-RPM_NAME = "mathgl-doc-pdf-8.0.1-3.3.noarch.rpm"
-RPM_HASH = "9fbe0ff786fd62d8eaa5d514d0c9c03b2253b4470f8f4806d1195bf836e6eb643dc247170626bf53311ba06508ab41b51c13d32596e5eb02ea206838497613a7"
+RPM_NAME = "mathgl-doc-pdf-8.0.1-4.2.noarch.rpm"
+RPM_HASH = "9784dcc476c675a1b903a0dc998434441e1e232cf844a4870087c00c22a09a934c37222785bff3478019fa7c4e3a3aabecf36f7c824dd815a3b15022cf44e16b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mathgl-doc-pdf"

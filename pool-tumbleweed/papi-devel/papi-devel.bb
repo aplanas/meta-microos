@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "7.0.0"
 
-RPM_NAME = "papi-devel-7.0.0-1.3.aarch64.rpm"
-RPM_HASH = "18be12175547ffbee34390c6dede2a3f666b2d682ba6b404fcc0b5931baa201b8d0456a4abd78471156df04c544481eb2849c9d59ad709a7087b97134e73d948"
+RPM_NAME = "papi-devel-7.0.0-1.4.aarch64.rpm"
+RPM_HASH = "f56ae2860521e1a95ed61fd92d58885bf79c064905888bfaca855851f225a0cfe0c2dab40b42f44fb1c566dd99cde90053cb2ac82da1a5bad7279971a8652a88"
 
 RPROVIDES:${PN} += "papi-devel \
 pkgconfig-papi \

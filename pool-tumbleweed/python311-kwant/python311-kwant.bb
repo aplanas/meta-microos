@@ -12,10 +12,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.4.3"
 
-RPM_NAME = "python311-kwant-1.4.3-1.1.aarch64.rpm"
-RPM_HASH = "d980cc15a5cdb4540e46aedc89922e6e5d98172ef4c659de13781ff1f9098337bc44f82bd9eeeb661bb187e09edcf6e429e9919c5e84cf318be7d0db99aa05af"
+RPM_NAME = "python311-kwant-1.4.3-1.2.aarch64.rpm"
+RPM_HASH = "3091d513d08a94269ebf024b2bc6cf266577238cda079261d643fe0cea52f46e930a2d1d9a8a49877a9b0679f141766362dc416ffb065a3cb0c7decde121e603"
 
-RPROVIDES:${PN} += "python3.11dist-kwant \
+RPROVIDES:${PN} += "python3-kwant \
+python3.11dist-kwant \
 python311-kwant \
 python3dist-kwant"
 

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "6.1.0"
 
-RPM_NAME = "python39-python-box-6.1.0-1.3.noarch.rpm"
-RPM_HASH = "b8be7e112f5da681f151f408fd4878ef12023eeed612bbafb71d674b4522a23a272a5eae7a578aa80e0ccb45c04815418ba365cfcf683be36c4d6610ee9aa550"
+RPM_NAME = "python39-python-box-6.1.0-1.5.noarch.rpm"
+RPM_HASH = "52bf02c33b1eb9e7ca8a1234560e959dcb901e1ae389ab426e8bf110a7505ab080869eb7e60a42ccbedd59f6aa0edc9a3cfc9cd9625cbafde91e056184477a60"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-python-box \

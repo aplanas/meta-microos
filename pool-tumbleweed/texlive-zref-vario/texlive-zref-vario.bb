@@ -8,8 +8,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.1.7svn65453"
 
-RPM_NAME = "texlive-zref-vario-2023.201.0.0.1.7svn65453-52.1.noarch.rpm"
-RPM_HASH = "671c71d2d68d956031784b4ff1d62868b6a54cfe8717455749c4bf283fad1b1fcf0510d9b88223c15565be8890948ef172bb5ac6493de6aaee52c56aef6b9c9c"
+RPM_NAME = "texlive-zref-vario-2023.201.0.0.1.7svn65453-52.2.noarch.rpm"
+RPM_HASH = "33c2b00d8c49bb841a78caaf067bdb6ce22b4cf6e43568e62db0870fb55866c3040c867acdccde3b00c2287fb3b335a6074390da375035d813ed1d133180b720"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-zref-vario.sty \

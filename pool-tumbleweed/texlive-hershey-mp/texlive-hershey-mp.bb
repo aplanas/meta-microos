@@ -8,8 +8,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.2022_1.0svn64878"
 
-RPM_NAME = "texlive-hershey-mp-2023.201.2022_1.0svn64878-53.1.noarch.rpm"
-RPM_HASH = "b6dcad775e28dbd37a2d67cbaf8c7e5bbbc7344679476fdcd23a2373ea407d136224964372c0fd7f556e27be8f795df22d57034b107bc9b39b44bdb9143c8b05"
+RPM_NAME = "texlive-hershey-mp-2023.201.2022_1.0svn64878-53.2.noarch.rpm"
+RPM_HASH = "f7f4cf8f5164272cf2c534dcae313e6cf3eba4f96bf9b6d57909d2d13cbb82567c4c815f913a8d83f32953ef0cdb24041b5fd3d23394a848ef387fc17b882948"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hershey-mp"

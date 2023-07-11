@@ -89,15 +89,15 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.18"
 
-RPM_NAME = "perl-Convert-TNEF-0.18-5.26.noarch.rpm"
-RPM_HASH = "86950c133ed6d25f857d6740b946718450ee860b9f4c8ef78e2add08d6c4152e1cb05b9a800981a29459c934065c51da96700d0939ca92954b139b5541f6b577"
+RPM_NAME = "perl-Convert-TNEF-0.18-5.27.noarch.rpm"
+RPM_HASH = "652a16fe956d0c9bf6d4254faee3cf5a1895032cf9457fae6cbfea3b75ba29671a4a69ba49911348f78577707a68e1909304b35762eb9dbbfd0577e754358a26"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Convert--TNEF \
 perl-Convert--TNEF--Data \
 perl-Convert-TNEF"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-IO--Wrap \
 perl-MIME--Body"
 

@@ -13,8 +13,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.3.0"
 
-RPM_NAME = "lxqt-qtplugin-1.3.0-1.3.aarch64.rpm"
-RPM_HASH = "8fa6f472c4efac77da175f6a6630d763ee9b9a8d9765af21b3f7b2ef9af521889eaa4c02b962bba6b7b4b4a28df438ff1ff6b521fb34b5c4dc8a5f5dc0161ba0"
+RPM_NAME = "lxqt-qtplugin-1.3.0-1.4.aarch64.rpm"
+RPM_HASH = "2932bec2c175c9e0a41b56723abb594d48f9527def9b711c2b84de9fb1573463279a1dd054e3ca7b8a8d687d57c6a85893eee5d6267631ae84ffbf6133d55b8e"
 
 RPROVIDES:${PN} += "libqtlxqt.so \
 lxqt-qtplugin"

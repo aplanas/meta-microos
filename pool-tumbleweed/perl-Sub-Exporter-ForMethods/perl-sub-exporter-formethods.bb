@@ -31,14 +31,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.100055"
 
-RPM_NAME = "perl-Sub-Exporter-ForMethods-0.100055-1.2.noarch.rpm"
-RPM_HASH = "13394cb092f01048c9870013aa13ab2f25539f3a6621dfcbf7f93635bc382d389cbdb6a4effd131f473c5906920aef2f1c45b58850dbc182df38114211b63aab"
+RPM_NAME = "perl-Sub-Exporter-ForMethods-0.100055-1.3.noarch.rpm"
+RPM_HASH = "67b1fe678d4010a715fde2a3ed5c5ca8edd51c10065330c1e4b6a44568be17f9efef22814cd1c4815d2b86e40b367f1787879a9b1ecc237ee8c97a153514d9b0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Sub--Exporter--ForMethods \
 perl-Sub-Exporter-ForMethods"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Sub--Exporter \
 perl-Sub--Util"
 

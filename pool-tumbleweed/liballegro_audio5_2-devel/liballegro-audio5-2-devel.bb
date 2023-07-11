@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & Zlib"
 
 PV = "5.2.8.0"
 
-RPM_NAME = "liballegro_audio5_2-devel-5.2.8.0-1.3.aarch64.rpm"
-RPM_HASH = "0a174c3400ce93c1b4672cc4d37dbe39940518ffe404d158c0debd045275478da4f49f7cb674f5693101cf69bbc2a999d456ecf01916c274ab6fd53fa909aa58"
+RPM_NAME = "liballegro_audio5_2-devel-5.2.8.0-1.4.aarch64.rpm"
+RPM_HASH = "4dc4c32c6a1734424ccd5db2ded85af23e7bc1e7973359df6f93b2cda352dcd018b0315bc06463406ff53fa8288283ffb6ef834daa082d161b514b495df0b3fb"
 
 RPROVIDES:${PN} += "liballegro-audio5-2-devel \
 pkgconfig-allegro-audio-5"

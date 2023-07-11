@@ -2,10 +2,10 @@ SUMMARY = "Qt 5 PlatformHeaders"
 DESCRIPTION = "Qt 5 PlatformHeaders."
 LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
-PV = "5.15.9+kde154"
+PV = "5.15.10+kde129"
 
-RPM_NAME = "libQt5PlatformHeaders-devel-5.15.9+kde154-1.2.aarch64.rpm"
-RPM_HASH = "045937914da39a636f5f6754133e6289e901a612dd4fe665912273c658177836d6aee836ad9c591d2bfdf3cc69fb596c301ef9222c284d19133df56330fdcacb"
+RPM_NAME = "libQt5PlatformHeaders-devel-5.15.10+kde129-1.1.aarch64.rpm"
+RPM_HASH = "7ade0fcb5b1dde0e598a7b5a175960436b06e7f8a1b80153df2ee6c4c332f155456aff02628476ff2ef5c85056c6cf81c9033ee27681be8df0c73cf88eaf02b2"
 
 RPROVIDES:${PN} += "libQt5PlatformHeaders-devel"
 

@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.0.1svn57254"
 
-RPM_NAME = "texlive-puyotikz-doc-2023.201.1.0.1svn57254-53.1.noarch.rpm"
-RPM_HASH = "5c1d3929ecd75a14d3de405d193f897f785cf8481112f4cbffb828843a111b03ff824e8f78e796ad325e99bcb766a640c0cfb6032a727b699c4ce80c86bb930c"
+RPM_NAME = "texlive-puyotikz-doc-2023.201.1.0.1svn57254-53.2.noarch.rpm"
+RPM_HASH = "3c3007bb787db9049b2dd027b7a6377b2e342b014b9dcb7e9688a04150cd7d3a75a3efe5c5703a03e7defa8c5ff608ec90648fabe8ece2bbda29c723f00294a8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-puyotikz-doc"

@@ -9,8 +9,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.17"
 
-RPM_NAME = "perl-Router-Simple-0.17-1.24.noarch.rpm"
-RPM_HASH = "01b76b921d51722a26fa5ab4de09a1fb10b712f115e59980d362036ff337f9fec05eaa9c0802784a8a3b9ff037b14210293ca2bfb62e1ade0180859dcdabe209"
+RPM_NAME = "perl-Router-Simple-0.17-1.25.noarch.rpm"
+RPM_HASH = "8f4560d2df15cd4a7c3e24dc777715bdc29f8892d07c613ac4e37fe0b6bf8b4d133eba8e5a35cf34c7d8b5ba9c2f658d173cceb9e82eca37b666e609780f5efa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Router--Simple \
@@ -19,7 +19,7 @@ perl-Router--Simple--Route \
 perl-Router--Simple--SubMapper \
 perl-Router-Simple"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Class--Accessor--Lite \
 perl-parent"
 

@@ -14,12 +14,11 @@ LICENSE = "MIT"
 
 PV = "8.4.1"
 
-RPM_NAME = "python310-pylama-8.4.1-2.1.noarch.rpm"
-RPM_HASH = "992ec82ce01c8c7da996b408a04eee366280f24cf21d1a9916e297c7a4902978df560304d919647f2f35ef65ef9f23a8e14fd79b1945cb4d5801064fae2847e1"
+RPM_NAME = "python310-pylama-8.4.1-3.1.noarch.rpm"
+RPM_HASH = "3ebbfd35aec983fa4787a1912734d85b54ce44a636a9a0e483ab10625225e5b73575ab609ffb8c429241c6ab498e5a6c5220375f46b4d0a08abec93af02df083"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pylama \
-python3.10dist-pylama \
+RPROVIDES:${PN} += "python3.10dist-pylama \
 python310-pylama \
 python3dist-pylama"
 

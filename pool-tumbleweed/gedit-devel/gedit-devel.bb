@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "44.2"
 
-RPM_NAME = "gedit-devel-44.2-1.4.aarch64.rpm"
-RPM_HASH = "5a33b5f039e0220339326c98cd20bd344d9868dd3b8e8c69f6e1f4d93216f69a09f0893a2b29328cdaa2a8a2bc33dc3ade15a8865cf067b5d60925bfdfe66154"
+RPM_NAME = "gedit-devel-44.2-1.5.aarch64.rpm"
+RPM_HASH = "5331f7ed3a4da6e09f7691766cbae31d394064988a22dd744591e89c5351091d29f9d84857b3129cc28223934e62a30987f30554b914a0d9c3b4b183cbca7ab0"
 
 RPROVIDES:${PN} += "gedit-devel \
 gedit-doc \

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only-with-OCCT-exception-1.0"
 
 PV = "7.7.0"
 
-RPM_NAME = "occt-devel-7.7.0-1.3.aarch64.rpm"
-RPM_HASH = "4fcd12a3ff4ea1ae5d9b2a7615c46de1c848aa1b8b05f4ea197f597956c9db14e01040e6e2d6f7eaa9443da6577fd4033e002daad693f5c2dc7bbd0599266b30"
+RPM_NAME = "occt-devel-7.7.0-1.4.aarch64.rpm"
+RPM_HASH = "d93a29bc92887d3713d13d9a8b57e38008ef0b66d708fbc706dfeb3dd70cee7430d3112c9374f54287bdba02639b15ba5cae2b9b4a00feea51b9193fa1f21e9d"
 
 RPROVIDES:${PN} += "OpenCASCADE-devel \
 cmake-OpenCASCADE \

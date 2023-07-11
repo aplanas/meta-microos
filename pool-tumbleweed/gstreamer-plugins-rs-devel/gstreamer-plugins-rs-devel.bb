@@ -12,8 +12,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.10.6"
 
-RPM_NAME = "gstreamer-plugins-rs-devel-0.10.6-1.1.aarch64.rpm"
-RPM_HASH = "e93a53605381308290d35d8faa0dcd47fd6c00f3506a6f511467859de3e81c42101f3c75e54264f956fed374ce5bfe925af09db7dfc98f681d5a3860b56cf798"
+RPM_NAME = "gstreamer-plugins-rs-devel-0.10.6-1.3.aarch64.rpm"
+RPM_HASH = "5cba60ce00a0748b2ebad8d7f84ef25a9cdb15a652e9c420de8a8c0a5255192d6fb248cba34a1c7c163aeaaabea9c510bc9e12cf542f99df1bf24e8e25eab976"
 
 RPROVIDES:${PN} += "gstreamer-plugins-rs-devel \
 pkgconfig-gstaws \

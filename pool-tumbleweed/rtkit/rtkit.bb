@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause & GPL-3.0-or-later"
 
 PV = "0.13"
 
-RPM_NAME = "rtkit-0.13-4.7.aarch64.rpm"
-RPM_HASH = "0031c45f95616467bde4e5a05a4870d8c3bd7a35908dfb16a1488bee0a75d5b55fd2ab182d982fa489363cf103560e08aa91d59048cd588082a7792d386a2793"
+RPM_NAME = "rtkit-0.13-5.1.aarch64.rpm"
+RPM_HASH = "b5dbbd02826511d2ce751c9d9c8e9b16a0cc1d7e42aa70970f51e30e0e00d53999ff78a7082df86dba674c1ac6702aa2badc1e0b6cf8018fe0ccdb3bcea456d7"
 
 RPROVIDES:${PN} += "group-rtkit \
 rtkit \

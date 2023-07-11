@@ -5,12 +5,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.24.0"
 
-RPM_NAME = "python310-sentry-sdk-1.24.0-1.1.noarch.rpm"
-RPM_HASH = "3e158b43d3d43bd6d4172772fa37227c2ab6494e5284619b42e8cdc08c19ab965982963af18956c8c21f7f1ffda5dcb0279a28c90a2ada92f808a3202b89a376"
+RPM_NAME = "python310-sentry-sdk-1.24.0-2.3.noarch.rpm"
+RPM_HASH = "de10f9d36dd41eae6959f68ee32d7811ccb29f23570f9b5769eb26d8d7dd819f810080ec216e47c53ad1580b8dad38768dc8cb7ccef60f81ae44b74bd404abad"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-sentry-sdk \
-python3.10dist-sentry-sdk \
+RPROVIDES:${PN} += "python3.10dist-sentry-sdk \
 python310-sentry-sdk \
 python3dist-sentry-sdk"
 

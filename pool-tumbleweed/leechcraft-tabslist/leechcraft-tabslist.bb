@@ -6,8 +6,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-tabslist-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "2345a2b9634776ed6a9b343015493150795d8ecb9d9308107d84ebc2172a4e92750b26e3dc32e9445d23f299d11b6d3eb4638e816618bf9b0201d4e137c7f827"
+RPM_NAME = "leechcraft-tabslist-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "3156129fc31ace3a2a4144938dc465c87b1bb182ac9ef9d85daa38589f9678012ca035d898d7a07365280740e07a829260e12d15ab5b55ef60db398d5024c22a"
 
 RPROVIDES:${PN} += "leechcraft-tabslist \
 libleechcraft-tabslist.so"

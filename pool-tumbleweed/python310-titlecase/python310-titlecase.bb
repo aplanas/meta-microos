@@ -8,12 +8,11 @@ LICENSE = "MIT"
 
 PV = "2.4"
 
-RPM_NAME = "python310-titlecase-2.4-1.4.noarch.rpm"
-RPM_HASH = "2de60355e79ee9ff9ffd40da32d7bfd7478817074c0e55574d9e3d8f3c0dc354cc3e61ceea41f78998c5ab9cc3f488836f5547eebf4adc3515553d48688c74ad"
+RPM_NAME = "python310-titlecase-2.4-1.6.noarch.rpm"
+RPM_HASH = "888725b11d7e834849297999367161ef3f3e4c2f63048d8db26df8eb03129f67d71ee77eab8a51c55929fa2ab7f3ec9a91f0e91cdfeee3a23f32ec4fde5dc70e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-titlecase \
-python3.10dist-titlecase \
+RPROVIDES:${PN} += "python3.10dist-titlecase \
 python310-titlecase \
 python3dist-titlecase"
 

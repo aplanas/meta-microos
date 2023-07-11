@@ -5,10 +5,10 @@ single place to add new transport types. It is used by the X server, \
 libX11, libICE, the X font server, and related components."
 LICENSE = "MIT"
 
-PV = "1.4.0"
+PV = "1.5.0"
 
-RPM_NAME = "xtrans-1.4.0-3.8.noarch.rpm"
-RPM_HASH = "73c88c7899aa6cbdc502b4266e434f3c94e5dd1bde56bab3a8e30736a1271e1c1c2b94d1e145dee1eea4ccf681ae78a0559557a7758b51e2029d21c346cf33c3"
+RPM_NAME = "xtrans-1.5.0-1.1.noarch.rpm"
+RPM_HASH = "74c11d73c068311b6808aaba8bc79d6aa684e3bb765ac2fb1b8bb7f1d26d79af708166860a74b44d3bff1f50041fbe8172b214db7af69181f12a033c91bc0412"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pkgconfig-xtrans \

@@ -8,12 +8,11 @@ LICENSE = "Apache-2.0"
 
 PV = "1.4.0"
 
-RPM_NAME = "python310-httmock-1.4.0-1.11.noarch.rpm"
-RPM_HASH = "ad13ea76da79b43235fe82dff805e1dd73480d099d2c0671aeea56e78b2027d0f23cc17882a80568f22e536a30e906f9f3c5513fbbb3e46749d5da97efbb8413"
+RPM_NAME = "python310-httmock-1.4.0-1.13.noarch.rpm"
+RPM_HASH = "028071c533e4184bb202b7db5332a63c11aac0f03e7fbf9adb4253c210a9fc28eddb0bab8f0b25681f881aebc091d3627356c140a2668aa3ec4101b8e091655c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-httmock \
-python3.10dist-httmock \
+RPROVIDES:${PN} += "python3.10dist-httmock \
 python310-httmock \
 python3dist-httmock"
 

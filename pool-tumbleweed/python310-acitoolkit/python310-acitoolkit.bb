@@ -5,12 +5,11 @@ LICENSE = "Apache-2.0"
 
 PV = "0.4"
 
-RPM_NAME = "python310-acitoolkit-0.4-5.5.noarch.rpm"
-RPM_HASH = "5676664febcd8281250fa4fb017da87491e5dfec587c951d6b08155d90e2c23d6c03b8954d664dac9760f6326853c126de37a6d5bb366d4c4104c4468be7f868"
+RPM_NAME = "python310-acitoolkit-0.4-6.1.noarch.rpm"
+RPM_HASH = "d0996e1bf893742cb13d987feffa3de02eb74762dfd9ba98401f2a77170d2c5ef05dadbe67ac1475801b4af46c08e206683548bb09d9c14aa26b321c6cfff6c2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-acitoolkit \
-python3.10dist-acitoolkit \
+RPROVIDES:${PN} += "python3.10dist-acitoolkit \
 python310-acitoolkit \
 python3dist-acitoolkit"
 

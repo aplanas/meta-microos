@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.3"
 
-RPM_NAME = "python310-asdf-standard-1.0.3-1.3.noarch.rpm"
-RPM_HASH = "73c5e132ca7043ef82c29512acb7a4ddeed0008821a7b04d14ac278837f9e5660fa35d9f18e1d50036e05bcb6ddb3c99597b87ba0fe6a74e2f93c3f31ca0967d"
+RPM_NAME = "python310-asdf-standard-1.0.3-1.5.noarch.rpm"
+RPM_HASH = "328040a80c205705238474ee464216eba87d77c43c8c1bfb93727238f7e170d91b5c6971105222fe938da774ba65086840d1e31e1cd249192cd159a533adaa30"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-asdf-standard \
-python3.10dist-asdf-standard \
+RPROVIDES:${PN} += "python3.10dist-asdf-standard \
 python310-asdf-standard \
 python3dist-asdf-standard"
 

@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.11.3svn60950"
 
-RPM_NAME = "texlive-ejpecp-doc-2023.201.1.11.3svn60950-53.1.noarch.rpm"
-RPM_HASH = "f21ba510764a87422f8966540c4d0ade494d6cdd3a7290a3d043b616b2f994fd97904e14a5e24b5242ae4f6095f3fc6a1d6027ba72fd50f73f4c7fa19f6f01f7"
+RPM_NAME = "texlive-ejpecp-doc-2023.201.1.11.3svn60950-53.2.noarch.rpm"
+RPM_HASH = "5b7ea07d95e361a25e38db149a7bd213179d828020b1b93b5a49a628bb06e2ecf29e9e4170c250315e70e220ac8bcd8d13e46dbd358188c18eb2f15e6550e820"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ejpecp-doc"

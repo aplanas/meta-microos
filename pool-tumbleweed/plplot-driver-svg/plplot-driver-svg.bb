@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "5.15.0"
 
-RPM_NAME = "plplot-driver-svg-5.15.0-16.2.aarch64.rpm"
-RPM_HASH = "d123ff55ca32dc3150d2119ee5125eabd07254d20f6bd9cbdf060472c1810a5837a721841fdcaed6d14ece338b3b2ce26517368b8dea86fcc31c4c5fa88fbb41"
+RPM_NAME = "plplot-driver-svg-5.15.0-17.1.aarch64.rpm"
+RPM_HASH = "d7481d1b620d5f7d6d965e7a7bb03c499b1a621060fb40a2715dc2d2de20f33886d3b281629dbcbad82789f2c3fee2ebe29a2a4d173a9374799b1d7b27aa16ac"
 
 RPROVIDES:${PN} += "plplot-driver-svg"
 

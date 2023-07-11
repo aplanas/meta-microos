@@ -19,8 +19,8 @@ LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
 PV = "1.99.13"
 
-RPM_NAME = "dd_rescue-1.99.13-2.2.aarch64.rpm"
-RPM_HASH = "f842e6524f328933c631be5d8ca845a5ef3ff34ede0a8cd195df4234b33e7045dbc2c34419421f539b6aabfe7453db08ff5692b63cf59f067f2d91fc386d0c1b"
+RPM_NAME = "dd_rescue-1.99.13-2.3.aarch64.rpm"
+RPM_HASH = "3b7014c2848bb59f9969ea6e4f7ce9fb1bebc4d26fb2b7818fd9d5a8e961681f462500ddffae8cfdf63aa3d3947a7d28bd0a49db5a0eaaae792c6f4a98b835c3"
 
 RPROVIDES:${PN} += "dd-rescue \
 ddrescue \

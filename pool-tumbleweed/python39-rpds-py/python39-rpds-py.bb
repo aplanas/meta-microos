@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.7.1"
 
-RPM_NAME = "python39-rpds-py-0.7.1-2.1.aarch64.rpm"
-RPM_HASH = "c592b6f938249c860df44abfe6cc878dbd2efad5ad0938c6f520cd699374cff95bb3786c9e41ea5e04e3ffd926ddb0bd9cc48938bc490f4c745951791ea83756"
+RPM_NAME = "python39-rpds-py-0.7.1-2.2.aarch64.rpm"
+RPM_HASH = "7f427615d681555261dd4f3a10fcef2adcfc0d58a5295af4c8239a5a6caa65b6d8ea581da47f895d383d41124212b43a78106cf598664a60733edf45e43d8ed5"
 
 RPROVIDES:${PN} += "python3.9dist-rpds-py \
 python39-rpds-py \

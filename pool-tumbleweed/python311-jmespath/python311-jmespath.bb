@@ -32,11 +32,12 @@ LICENSE = "MIT"
 
 PV = "1.0.1"
 
-RPM_NAME = "python311-jmespath-1.0.1-2.4.noarch.rpm"
-RPM_HASH = "c2c6c97b250a146997dd71b9e8c3a23f8c3c89b15332412a4d2f45a0bcb41bd1a2efa6fb03988d8031de31f327d7b0ed937a93113af36bdca7763dddddbd5d4e"
+RPM_NAME = "python311-jmespath-1.0.1-2.6.noarch.rpm"
+RPM_HASH = "8cb7052ceaa1a380f0ab50324c035b8950d2f89a17575cc22d92f9a8392135783d11afe30e76816cf76be0201e5a383e0e5f9dd7ce432546cb3ef7054dc88f63"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-jmespath \
+RPROVIDES:${PN} += "python3-jmespath \
+python3.11dist-jmespath \
 python311-jmespath \
 python3dist-jmespath"
 

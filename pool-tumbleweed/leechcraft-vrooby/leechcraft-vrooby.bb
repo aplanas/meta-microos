@@ -5,8 +5,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-vrooby-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "84517257f4e3c15b6b7cb294d885e979956a8769b381036a88a1e9a22762fe5ef5d4f0f878fc7d37602c11769c638fc45999553cbff81dde14fed0fba1a1ee45"
+RPM_NAME = "leechcraft-vrooby-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "0c4691c61d374d311278e760c92046178e898a8037f247bfb1608096c314d6e22012dbe75fb34ec47990efd2465833ecfd353f96d1402a9fbd13215de6bec800"
 
 RPROVIDES:${PN} += "leechcraft-vrooby \
 libleechcraft-vrooby.so"

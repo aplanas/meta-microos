@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn57089"
 
-RPM_NAME = "texlive-albatross-bin-2023.20230311.svn57089-91.1.aarch64.rpm"
-RPM_HASH = "08dce9d9ab76cc7cd4bbc55c97c36f2705a49023773dddab4c208f281508fa1080f71f0658622a2c129eaf5d19393efe7c7e1c8cf9257fbdda2b9ae37ab2b2b3"
+RPM_NAME = "texlive-albatross-bin-2023.20230311.svn57089-92.1.aarch64.rpm"
+RPM_HASH = "00b7b59be47face12fccb3e3a18cc6a137b4b08d480753b20270093b06ce3115798b39a26a1783f6bc667e8aa11f0337a5c1512679e2521567fcb6aa076fdaa0"
 
 RPROVIDES:${PN} += "texlive-albatross-bin"
 

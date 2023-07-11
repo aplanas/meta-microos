@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.1svn49962"
 
-RPM_NAME = "texlive-globalvals-2023.201.1.1svn49962-53.1.noarch.rpm"
-RPM_HASH = "8457a725cda1c7ee228bb874f77e9852fce8a9bb3d0d04722243c6f0b4a3bfc7a77ffd484013c7904c7b74ba686af4dd5a3c6456dbda7d9efc5a4785a2414801"
+RPM_NAME = "texlive-globalvals-2023.201.1.1svn49962-53.2.noarch.rpm"
+RPM_HASH = "35a20e0e9029f3244c2f8ea874312b396d52f7b16d4852a929b5b983abe2915e8b1d7e4fa8b6d736fbc182b055a7b664f687c576f11945cc651e6c6122b439b4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-globalvals.sty \

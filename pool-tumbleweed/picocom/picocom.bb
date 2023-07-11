@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0"
 
 PV = "3.1"
 
-RPM_NAME = "picocom-3.1-1.19.aarch64.rpm"
-RPM_HASH = "d142d6d232e41af9acced4b960b328b54a3db47eb977f324265e58d018b70c51104fab1af35daf509b88ef3bd356a76811814050c99cbf922a1fc63eb84fc6c2"
+RPM_NAME = "picocom-3.1-1.20.aarch64.rpm"
+RPM_HASH = "83e3bef21aef85f265f78cd4f65172ecfaf5d400d2726dd91bf3053a1d1f2f83e0568f9f9ffb8653756a9e065c160d72146eb65f0a805fd54c64cced45c6e4d9"
 
 RPROVIDES:${PN} += "picocom"
 

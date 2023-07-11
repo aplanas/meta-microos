@@ -4,11 +4,10 @@ LICENSE = "MIT"
 
 PV = "2.0.1"
 
-RPM_NAME = "python310-pysendfile-2.0.1-3.1.aarch64.rpm"
-RPM_HASH = "7b41ffe66092d992d5cef71f63119ffd90f32cd7ce91309ff0724535581b08c12c809618658198125b2fd75a9d38c36396ff9108a97a54cba5064c39cf9236cf"
+RPM_NAME = "python310-pysendfile-2.0.1-3.3.aarch64.rpm"
+RPM_HASH = "5649dcd9de3d40c0fc802ef80c0df5a85a41eb766e58a1e2ab72230e5f2a9c24b779389d6f8b386bf945d3bb5e666f926c9222e73ab668df5fa4b61643007e81"
 
-RPROVIDES:${PN} += "python3-pysendfile \
-python3.10dist-pysendfile \
+RPROVIDES:${PN} += "python3.10dist-pysendfile \
 python310-pysendfile \
 python3dist-pysendfile"
 

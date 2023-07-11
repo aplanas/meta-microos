@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libKPim5KontactInterface5"
 DESCRIPTION = "Provides translations for the 'libKPim5KontactInterface5' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libKPim5KontactInterface5-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "e825c7a80937be4944d69b001cc360796e01daf462613191e1308d16bc043d887f6df42cc7ba744005ea43671191aa4f419bc0e055411e07943b8f0c8c9dbe6f"
+RPM_NAME = "libKPim5KontactInterface5-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "06e69aae770c9f87f7578cea677088cdab2b8a1483642806ed294b36940cfe06ff135d69f337de5adeed4157cd1a30ffe8e59112a6b1799fb70759e1cb1c04c8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libKPim5KontactInterface5-lang \

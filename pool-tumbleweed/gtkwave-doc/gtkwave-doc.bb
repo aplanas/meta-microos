@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.3.114"
 
-RPM_NAME = "gtkwave-doc-3.3.114-1.3.noarch.rpm"
-RPM_HASH = "e7a136bbaa5cf6f1d7872be2ac326e99342c33d71bfe02a4d25a80af4c6bac0b2ed18e94736f5c1f3d1519deee3795592d77ec2842390a4a2789d50eb781fc22"
+RPM_NAME = "gtkwave-doc-3.3.114-1.4.noarch.rpm"
+RPM_HASH = "3a2224c34f486c1b04d2012e291790cf419f58dcdaebdfb16b977b1a139e492cc3fb11014a7375d0a22fb41f3a6bd64d27686a872e963e3cc32c72fb7252f930"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtkwave-doc"

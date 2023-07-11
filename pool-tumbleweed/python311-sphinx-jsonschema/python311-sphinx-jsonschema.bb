@@ -4,11 +4,12 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.16.8"
 
-RPM_NAME = "python311-sphinx-jsonschema-1.16.8-1.8.noarch.rpm"
-RPM_HASH = "66a2b93723872f6ca903f4d0fb03cec14711305b2023d57d06251d2fb39eed8cc8d1b2e006943b11f7176d77f02313502889b52a691d4d31138dc883453b706e"
+RPM_NAME = "python311-sphinx-jsonschema-1.16.8-1.10.noarch.rpm"
+RPM_HASH = "7a2044b44a6d34346d8175216b411b64c763f03f7a942653d6c05a13b368a29ea28a4a78ca82ad20d6d98d15f282dfd6bd7e7d440f7e8303eb4108fb0ffbc634"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-sphinx-jsonschema \
+RPROVIDES:${PN} += "python3-sphinx-jsonschema \
+python3.11dist-sphinx-jsonschema \
 python311-sphinx-jsonschema \
 python3dist-sphinx-jsonschema"
 

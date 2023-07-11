@@ -8,8 +8,8 @@ LICENSE = "BSD-4-Clause & BSD-3-Clause & LGPL-2.1-or-later"
 
 PV = "1.3.0"
 
-RPM_NAME = "python39-xlwt-1.3.0-2.15.noarch.rpm"
-RPM_HASH = "4b4f97a1a32713fec20bde25e5b3514af969b6d694c14649f6314bdd2fc3366eb212136cc83216786aeb402182fc03f4381fff26ee46b6cd2672a80bb68b461c"
+RPM_NAME = "python39-xlwt-1.3.0-2.16.noarch.rpm"
+RPM_HASH = "a6d6a465d882234de6b70a2944c66ce107c2de4761318d2642e108d4dcf647ef0e712e236db73f142477750a34e5d3c2f51611b7aa073488b624d501e36a5b90"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-xlwt \

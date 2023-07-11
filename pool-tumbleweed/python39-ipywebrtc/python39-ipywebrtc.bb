@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.6.0"
 
-RPM_NAME = "python39-ipywebrtc-0.6.0-1.17.noarch.rpm"
-RPM_HASH = "b6f52c974b9c331c25f23db864367e05711f74e9938f9e2d6c01a6f840dadfe5a5b049591cb1842e2185d9f4832d0f50ccbde54f4eeab3c14f953460ac33cb88"
+RPM_NAME = "python39-ipywebrtc-0.6.0-2.1.noarch.rpm"
+RPM_HASH = "6154ebb7dd6f4abcbeef23435764a5c8b4965b5ae9ac4075a47c8ea94599f9e6401c8a3aad3c1ee454a35a9323c32bd5b6ded35cf4742933f846fcd692e8a3d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-ipywebrtc \

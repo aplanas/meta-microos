@@ -10,8 +10,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.2.7"
 
-RPM_NAME = "lv2-lsp-plugins-1.2.7-1.1.aarch64.rpm"
-RPM_HASH = "6c707ffffaba4773603323dcef336b3e767d46c0ce79437d5fc152c3005ddfc6bf9ef7c7c33b66ab802e40358ceb51c831712236d43e9af89ef3fc375e035d16"
+RPM_NAME = "lv2-lsp-plugins-1.2.7-1.2.aarch64.rpm"
+RPM_HASH = "6aa70a6bec7f3c6494a075aae006d2d96cbbda15b52c968f6839f991e76ceb7f9eb48e8beb9ebad80528c362d7552164ad22f9b38e9c17bfa6b58895888fcf94"
 
 RPROVIDES:${PN} += "lv2-lsp-plugins"
 

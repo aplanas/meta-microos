@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.12.0"
 
-RPM_NAME = "python39-aws-xray-sdk-Django-2.12.0-1.1.noarch.rpm"
-RPM_HASH = "8f0545d8d9e2c238d98b8795285f400244bbe3767282ac6f83b04b9e58fa4d65cca97d624af56742e99d7a43c36194eb668afd866fc4e339268d7675c7494e20"
+RPM_NAME = "python39-aws-xray-sdk-Django-2.12.0-2.3.noarch.rpm"
+RPM_HASH = "d70b74830c3eebe17997a8cad233786b06eef3ca92452eb25368a4d57579e1d813c2f1d5f1291c5a338df8c2fafe83f857d1383eb8e331e67957dddc85262d55"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-aws-xray-sdk-Django"

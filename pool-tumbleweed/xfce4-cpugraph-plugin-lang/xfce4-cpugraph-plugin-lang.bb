@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.7"
 
-RPM_NAME = "xfce4-cpugraph-plugin-lang-1.2.7-1.3.noarch.rpm"
-RPM_HASH = "dfec28cbf344a7a0d478ba9ee928bc6d3758dea54bfeab17bae37cc6f32e640df537fcf18d61dde2d04dc6c4d0972da7737a8629c35533c59c8b95ded3042db7"
+RPM_NAME = "xfce4-cpugraph-plugin-lang-1.2.7-1.4.noarch.rpm"
+RPM_HASH = "b2a0ea52c1dd4903b8aedec301480e7ad7ae38ce93cd6c9b0dc9d2d3346fb93c5545e60893671f0e6a382ea027d6e89e73a9c091b4060acae4427e4f7221018d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-cpugraph-plugin-ar \

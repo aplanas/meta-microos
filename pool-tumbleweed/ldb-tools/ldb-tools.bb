@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "2.7.2"
 
-RPM_NAME = "ldb-tools-2.7.2-1.1.aarch64.rpm"
-RPM_HASH = "6e9f865de25baeee4caa142c4140eef3a0f69d35f33dd8ac7d04860a6ecb699eb38ce5f507f331b86151dc1220efe9369051e4ab3a9337f3486f129ebcbb22a6"
+RPM_NAME = "ldb-tools-2.7.2-1.2.aarch64.rpm"
+RPM_HASH = "c7ebff0bd5906a0d4a0ac0fc56fcf9fa66f45522b4fe740d0ca5ccbed884d074010af515632bc9cde2e07345d4fb1db4744f60ecf818fc7b509fc3e249934243"
 
 RPROVIDES:${PN} += "ldb-tools \
 libldb-cmdline.so"

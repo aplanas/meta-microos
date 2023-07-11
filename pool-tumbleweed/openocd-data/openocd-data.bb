@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.12.0"
 
-RPM_NAME = "openocd-data-0.12.0-2.3.noarch.rpm"
-RPM_HASH = "774c45926ac1cd39a4cc6faa5c43954ad158d56ab37d4d9e2416959005c34ce28e160fa7a5e5f0f6661d16a6373026c52ed178585ffc9277f1c8d624b13dd4ac"
+RPM_NAME = "openocd-data-0.12.0-2.4.noarch.rpm"
+RPM_HASH = "09d26b346322366445dfd7bba109ee390652660c894d7c043b7f36efee77e1f44bd91e14bb4ac6b8bb682f68fe1341638685e66d720660e8c59bf2f348dc7e37"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openocd-data"

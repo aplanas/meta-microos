@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.1.0.1"
 
-RPM_NAME = "libp8-platform2-2.1.0.1-3.13.aarch64.rpm"
-RPM_HASH = "ab08deffb080029a3b370cf9b3b451c9d3ebbb55490752f30c7d91e808c77b64aba60f4303f5c16e58133f48289e50d1b13b5f23d3fad0241d505bff27351625"
+RPM_NAME = "libp8-platform2-2.1.0.1-3.14.aarch64.rpm"
+RPM_HASH = "fa97a6162a32a54dad806acde3178e18f63c6736967aeacb5d71e91e3a1cb5a8ecbc034ccf7bb0b5c14113fc9d09cbc2170562800350dc8595cee6fb1541e07f"
 
 RPROVIDES:${PN} += "libp8-platform.so.2 \
 libp8-platform2"

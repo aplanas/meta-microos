@@ -7,12 +7,11 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.23.0"
 
-RPM_NAME = "python310-crontab-0.23.0-1.8.noarch.rpm"
-RPM_HASH = "8fe2ef84e1daa24fea29faa387a549b6e1c1a454cb88797a50da403c75939c5a7f5cd97fcd17a833a164206b7d8c677e1f50387eaf2fbbd1295bb6eb6d726eb4"
+RPM_NAME = "python310-crontab-0.23.0-1.10.noarch.rpm"
+RPM_HASH = "d50f3e227c1e40e2fbf2e1d7c688151520e45c8e44d20d8ffc8c023bad5d08c674e4fa5e4b1348a66d17719cb1aa6cfd2d45ae5e88f3ed07f33b89cb3da1d10c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-crontab \
-python3.10dist-crontab \
+RPROVIDES:${PN} += "python3.10dist-crontab \
 python310-crontab \
 python3dist-crontab"
 

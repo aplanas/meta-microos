@@ -6,8 +6,8 @@ LICENSE = "CECILL-C"
 
 PV = "6.1.0"
 
-RPM_NAME = "ptscotch-gnu-openmpi2-hpc-6.1.0-2.8.noarch.rpm"
-RPM_HASH = "55b07f41163135b1fddf66a1aa28bed78a1f3dcab751fc2963e299482030582df9dbd3bda3e38ec89d862ae06e55ae522b778b4f45ca1b3aafaef108c9f42be3"
+RPM_NAME = "ptscotch-gnu-openmpi2-hpc-6.1.0-2.9.noarch.rpm"
+RPM_HASH = "f58b08fac2ede10f58f5f779dd9b9fd236ca15213859b73924457be3208b7def1dbe54920859cecfea18a3fe51693af92586bf0b483d87cf0eb16b250dda621c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ptscotch-gnu-openmpi2-hpc"

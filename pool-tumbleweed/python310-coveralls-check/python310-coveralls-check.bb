@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.2.1"
 
-RPM_NAME = "python310-coveralls-check-1.2.1-3.8.noarch.rpm"
-RPM_HASH = "63ff55556946f5ba8902101da1332641eff495e1a9cb59dc9b852ea9dd7f50997f58a2da1d6e1a4702097bf79925d1e8197495a0021c665e0fe2fddf21c6cc46"
+RPM_NAME = "python310-coveralls-check-1.2.1-3.10.noarch.rpm"
+RPM_HASH = "22124b97c0a7ab60f9697748baec2c72d24c45cf5c53655d40899c815494462b526a8162ded79c76a0dbfebc0f62737330f123af147e8e4fa5158c09f4498871"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-coveralls-check \
-python3.10dist-coveralls-check \
+RPROVIDES:${PN} += "python3.10dist-coveralls-check \
 python310-coveralls-check \
 python3dist-coveralls-check"
 

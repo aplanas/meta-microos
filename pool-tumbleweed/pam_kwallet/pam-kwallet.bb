@@ -3,10 +3,10 @@ DESCRIPTION = "This PAM module allows you to automatically open your kwallet \
 when signing into your account."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-only & GPL-3.0-only"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "pam_kwallet-5.27.5-1.1.aarch64.rpm"
-RPM_HASH = "cd048cfc95993581db3bdb57f4877d418a05438220de20c695383de308ebb60eb8ff398e8e10caf03a37d48765871b2a2659dbf035b661b005d7ab82fa78d78f"
+RPM_NAME = "pam_kwallet-5.27.6-1.1.aarch64.rpm"
+RPM_HASH = "262be88a80b61ab3c3e401f9e16a6313716a7eddfa9cc545c4b9ee772fd2fef9998f71e59cf2c0644b2ca5c2a6026169a18cb34c98a1a9d9fa760da047ac929d"
 
 RPROVIDES:${PN} += "pam-kwallet"
 

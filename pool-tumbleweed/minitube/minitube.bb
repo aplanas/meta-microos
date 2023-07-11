@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.9.3"
 
-RPM_NAME = "minitube-3.9.3-1.8.aarch64.rpm"
-RPM_HASH = "2f058ef5ceffb51bca73565de91876a208e16ca0b986000fc25bc484f9856d6a62c631e9956dcf3f23e152f4d152f7837ef773a7b1614a5a67b552bad76a1206"
+RPM_NAME = "minitube-3.9.3-1.9.aarch64.rpm"
+RPM_HASH = "77f8d06469935800df7db8d0803a0a366fef9cb63f9de83335968c44776f2cc16e9a32cbb455bc08bd0faf00f81065001055abbad83a81a93ba8c9e1cb76088c"
 
 RPROVIDES:${PN} += "minitube"
 

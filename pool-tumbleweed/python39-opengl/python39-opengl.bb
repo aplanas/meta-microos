@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.1.6"
 
-RPM_NAME = "python39-opengl-3.1.6-1.6.noarch.rpm"
-RPM_HASH = "f2fd73b6e97cec41e34d389a79eae33c4bc0a2415b1f6af15586385b1fdeb3ce4ee843a5c1ec3454413a1d9283a7af0dcf14aba22c7c8dcfe9a92c47eb318d26"
+RPM_NAME = "python39-opengl-3.1.6-2.2.noarch.rpm"
+RPM_HASH = "cc678ca6f12c0798a5b2888b005253b9da87cee6315dee26acb4d43c7a184a1c9d824e09a8e7ff8840d43d3478334b58eca883283ef84d1dedda6967a02522d8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyopengl \

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.5"
 
-RPM_NAME = "policycoreutils-lang-3.5-2.1.noarch.rpm"
-RPM_HASH = "412e8ca1d59a91870437644b1eea4d37fb359ddfc668f814f7494fdf721befafb2090816d7aea676ba8d0e4a2ea66dc5e9577f34c5e5df0e7888090ecfef155c"
+RPM_NAME = "policycoreutils-lang-3.5-4.1.noarch.rpm"
+RPM_HASH = "9c803999ae9210396179ec44b63a8ead4e1a4b56a93ae4443b3ff1593fbcc676acd2e827c1ec27a06084c3feebf9d7dd01efa53058a8d6444b6d6557fa3aa0b6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-policycoreutils-af \

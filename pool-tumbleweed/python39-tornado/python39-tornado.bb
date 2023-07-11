@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "6.3.2"
 
-RPM_NAME = "python39-tornado-6.3.2-16.2.noarch.rpm"
-RPM_HASH = "0ef74198e6d359d386d20589ad38b82a0754cdbd19bc778e8de67825ee10afc94bc5b732f1a6fa2feb5692defc04784e848512f73f45da47dbb7d2deb8d6e9dd"
+RPM_NAME = "python39-tornado-6.3.2-16.3.noarch.rpm"
+RPM_HASH = "f2759e4755f70236a395e8972d595c8648f66b6e91ae9a94c802952f0c03aef269b8f08a497166a4f7e7ff9b22a565d2d43b10980d1f0c13367c410cc3eba413"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-tornado"

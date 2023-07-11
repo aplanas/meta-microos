@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.23.1"
 
-RPM_NAME = "lsd-0.23.1-1.2.aarch64.rpm"
-RPM_HASH = "4c4f6bf789771d932dca2f7ca95978999f9d5b4fddd63e06b3400d27c7dc483dbc314a17aaf12603ead48bfb1cab94955b3426c12162a1ea0ec5b12f4a16dc9f"
+RPM_NAME = "lsd-0.23.1-1.3.aarch64.rpm"
+RPM_HASH = "503aa80ec503c42e21eef9b9cc45990f2db1a39de157bf52b533f0f72cb231df9e778fd3e2d2681a42792c3a3e1e541df47398427d60b72ac257e0570431edba"
 
 RPROVIDES:${PN} += "bundled-rust-crate-aho-corasick \
 bundled-rust-crate-ansi-term \

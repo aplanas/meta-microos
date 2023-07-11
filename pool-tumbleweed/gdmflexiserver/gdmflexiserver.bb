@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "44.1"
 
-RPM_NAME = "gdmflexiserver-44.1-1.1.noarch.rpm"
-RPM_HASH = "b307b78e3c76dd6c4bbb124537f533493de93643ad98d8595b42317d986f44fbe11ef4417459df9347f6630dcad27932ee0b8f33bc912d5d655f9c7e7e4ab224"
+RPM_NAME = "gdmflexiserver-44.1-2.1.noarch.rpm"
+RPM_HASH = "4e1da06e77ef2ea0e7e8cd4328e7a9c4cbf8190c36608df603b9237badb837acb26a7032bcd7c516451ad4bb7d1dadc9ae89f4a91675fbdecc73cbafa1f08efd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gdmflexiserver"

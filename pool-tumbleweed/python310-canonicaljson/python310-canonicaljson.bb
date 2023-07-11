@@ -13,12 +13,11 @@ LICENSE = "Apache-2.0"
 
 PV = "2.0.0"
 
-RPM_NAME = "python310-canonicaljson-2.0.0-1.1.noarch.rpm"
-RPM_HASH = "955af6ab0508185594081ae1cfd8d7d18fc985fa604d1a262240f344cf47c8db0109c7dabfb08eed6905bfe6c892d8d8cf38e9d395032ffc4ac630d5d34c0845"
+RPM_NAME = "python310-canonicaljson-2.0.0-2.3.noarch.rpm"
+RPM_HASH = "5048b35454289d2219c2e986cf381ffe8e9975c901fac2b1b09c3094ca57b3c66e5c7bcc3288430425f2d34bdc36cd6f8653770c276cd79534b5b882f0a27d95"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-canonicaljson \
-python3.10dist-canonicaljson \
+RPROVIDES:${PN} += "python3.10dist-canonicaljson \
 python310-canonicaljson \
 python3dist-canonicaljson"
 

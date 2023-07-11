@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.3.2"
 
-RPM_NAME = "typelib-1_0-GXPS-0_1-0.3.2-1.11.aarch64.rpm"
-RPM_HASH = "aa51ee4bc75dfd6eeded881200be9662c9b45492bb4b11a0df44918f69f78106c508e8f977171691b4cce17ddc1b6afad3dd6deb84f2051956a72fb7e754ccea"
+RPM_NAME = "typelib-1_0-GXPS-0_1-0.3.2-1.12.aarch64.rpm"
+RPM_HASH = "69cf9813d0d0e2d225857462ec7260fdfa93eecf2be80650285c973032c831287f3ead080fcc76c4b37cbc371a3b469ef597596827f6cc467cee18251bc0317d"
 
 RPROVIDES:${PN} += "typelib-1-0-GXPS-0-1 \
 typelib-GXPS"

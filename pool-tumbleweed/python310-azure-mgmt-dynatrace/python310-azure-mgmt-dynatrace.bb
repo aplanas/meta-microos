@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0.0"
 
-RPM_NAME = "python310-azure-mgmt-dynatrace-1.0.0.0-1.3.noarch.rpm"
-RPM_HASH = "02364f8c2bce48573a699e3da582484e91abfd63726c1b2fb3f7b33d7d1559e9df6a35a7392662edb066f82c9cc65bef547919efe502fad71ede9b372d906140"
+RPM_NAME = "python310-azure-mgmt-dynatrace-1.0.0.0-1.4.noarch.rpm"
+RPM_HASH = "971fdd238d1091eb2582cbe47d516a3dea4f1b9b0eca94f78db204012b5d5d0332f9670e278b6e82b6eebf14a385b6febd04bc32fa566b1b08b5c315ab8a32a6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-dynatrace \
-python3.10dist-azure-mgmt-dynatrace \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-dynatrace \
 python310-azure-mgmt-dynatrace \
 python3dist-azure-mgmt-dynatrace"
 

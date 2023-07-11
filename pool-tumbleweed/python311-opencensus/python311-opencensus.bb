@@ -8,11 +8,12 @@ LICENSE = "Apache-2.0"
 
 PV = "0.11.0"
 
-RPM_NAME = "python311-opencensus-0.11.0-1.3.noarch.rpm"
-RPM_HASH = "fa38ef3314e2eb439c53b167c209482325a2436d1276a7456e7a8a2365b2c26b90c7e49318f1694fca350a74fcdeddb93ac7e5a795733804b3d477eba3a1d006"
+RPM_NAME = "python311-opencensus-0.11.0-1.4.noarch.rpm"
+RPM_HASH = "58eeb1dc6f6a2acce05fd56b74c6e4238b9508186c7a263d85f832342a1f10647fb4f949d6fb882fabeafac3f47d710fc27a2af785fbe68a11ba60754c6148b8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-opencensus \
+RPROVIDES:${PN} += "python3-opencensus \
+python3.11dist-opencensus \
 python311-opencensus \
 python3dist-opencensus"
 

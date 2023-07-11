@@ -5,11 +5,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.1.0"
 
-RPM_NAME = "python311-feedgenerator-2.1.0-1.1.noarch.rpm"
-RPM_HASH = "1e9b30fcc6524759cfcbca4840a784590ea259da6f8bcf2c500a8d208641bd1e37b68f8b322efd181bfe5e17aca54c453f6a197caf899b66b4de44a0d538ec39"
+RPM_NAME = "python311-feedgenerator-2.1.0-1.3.noarch.rpm"
+RPM_HASH = "48b2f06f09f277bdea280e4523c8674256a93e0fff436e0554c5e91dfa9da2fe5dd2a4407b1c752a36abde2805b464fe598287fd7e47399bb176460a2bb21192"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-feedgenerator \
+RPROVIDES:${PN} += "python3-feedgenerator \
+python3.11dist-feedgenerator \
 python311-feedgenerator \
 python3dist-feedgenerator"
 

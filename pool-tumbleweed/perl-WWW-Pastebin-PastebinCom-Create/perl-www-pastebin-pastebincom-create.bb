@@ -6,14 +6,14 @@ LICENSE = "Artistic-2.0"
 
 PV = "1.003"
 
-RPM_NAME = "perl-WWW-Pastebin-PastebinCom-Create-1.003-1.24.noarch.rpm"
-RPM_HASH = "3336fa656be5f2f6efcf81da690be70aeb60f5942cddffb194167788cd56fe5cd5b6878955746c9f2d79f0c5c61f6aafd42859b029fe0e0c99d92bb469a34939"
+RPM_NAME = "perl-WWW-Pastebin-PastebinCom-Create-1.003-1.25.noarch.rpm"
+RPM_HASH = "14b282d6259a0da402436259cdbeaf5ba5093e55389ce67228bff821e32a7594506616e9c7d3f02486c25ebc73bea8305149734d73e30cb4f9d4d62b4af3d700"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-WWW--Pastebin--PastebinCom--Create \
 perl-WWW-Pastebin-PastebinCom-Create"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Moo \
 perl-WWW--Mechanize"
 

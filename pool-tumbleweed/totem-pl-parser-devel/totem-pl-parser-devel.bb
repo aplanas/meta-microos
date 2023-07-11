@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
 PV = "3.26.6"
 
-RPM_NAME = "totem-pl-parser-devel-3.26.6-2.8.aarch64.rpm"
-RPM_HASH = "3c7f598af53aba9e99a6c06c8b4257ccc70d5708436d0cf3f939426afa67d4438ecc9e16bfa63c20b5173ea95859bdffc25c92d3d822e4a9d787d90044501eaa"
+RPM_NAME = "totem-pl-parser-devel-3.26.6-2.9.aarch64.rpm"
+RPM_HASH = "a8eabf7550f2b4f2926da1e8dd319a528f22b8f81da5941b1d00f2e6d24cf987edb49fd3baba4a6400894bad9f1b51c2fbe3c6daf6e38162cdbf331546e1a622"
 
 RPROVIDES:${PN} += "pkgconfig-totem-plparser \
 pkgconfig-totem-plparser-mini \

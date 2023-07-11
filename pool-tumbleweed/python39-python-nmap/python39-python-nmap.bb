@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.6.1"
 
-RPM_NAME = "python39-python-nmap-0.6.1-2.14.noarch.rpm"
-RPM_HASH = "a8d084c041f4770a96d1bd3fb490e827bad5c0424cdcbc87e3b06787de1856f7f61dc52eece2aa98214aa7d39e6339f87bd00004a894553fb8ab754f109be68f"
+RPM_NAME = "python39-python-nmap-0.6.1-2.15.noarch.rpm"
+RPM_HASH = "fd7f7eaa9dba49487587dbe7d98388d03e853a8b10e3e70bd2e27470b88b4900cf54272c6d6bf6c2918a552869f11728ede5e490cd49186e6fc9a5b2eb5fb7be"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-python-nmap \

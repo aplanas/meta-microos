@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "2.9.4"
 
-RPM_NAME = "libudisks2-0-2.9.4-6.3.aarch64.rpm"
-RPM_HASH = "372986d0435148f19848d6db8699ef3ade980e957c3ec1bbd76d5e2d2878d8d2e1d00abdee2c3c1d80b950f23ff6cd9c9861ef978f951f97f571f4ce8e1a4825"
+RPM_NAME = "libudisks2-0-2.9.4-6.4.aarch64.rpm"
+RPM_HASH = "2129af31de1b1f4cf52c2b25e2b0396724db26c6c1ef9909c8b26015d2bcdd4b8824021fa2477661843734015d867e9a636bb7bbc1d0f2a3cb4a229b125dec89"
 
 RPROVIDES:${PN} += "libudisks2-0 \
 libudisks2.so.0"

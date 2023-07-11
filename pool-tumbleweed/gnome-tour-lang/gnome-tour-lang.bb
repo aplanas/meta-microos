@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "gnome-tour-lang-44.0-2.1.noarch.rpm"
-RPM_HASH = "976feb8db04f77acbe7aef0706490ca444b22b018310c65547abc9dbef25c6ef6e11ea58185d3664d6550f0e5938fc794e45cadfe3f1f6d38bd76a4cc04cce59"
+RPM_NAME = "gnome-tour-lang-44.0-2.2.noarch.rpm"
+RPM_HASH = "343ca7c23548a09bb7f75d228ac6f85b71961158b9b64b481f1a7b0bd43743c502b50aa8543c08ca570164cab2c67c0a19fc5bba5a9f4efb3b01c02e33467bc8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-tour-lang \

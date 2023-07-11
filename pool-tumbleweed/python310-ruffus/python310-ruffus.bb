@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "2.8.4"
 
-RPM_NAME = "python310-ruffus-2.8.4-2.5.noarch.rpm"
-RPM_HASH = "d9f89fbbb81b2603edc5a46d16573fa054a129d2ef91fb36678c067b0f323a8eee1f2e51d96ffce82515e37402f36655224b6820670055efe30381ce1ea0b035"
+RPM_NAME = "python310-ruffus-2.8.4-2.7.noarch.rpm"
+RPM_HASH = "f2eaf1c4924a18f6b0e06866704ce0afd6eaf2410a5ab68b5ee141ec86217e84c048fd99572176125ec7fd59de0f8deeb577d2040d9f81a4acfa8cf4c8438d91"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-ruffus \
-python3.10dist-ruffus \
+RPROVIDES:${PN} += "python3.10dist-ruffus \
 python310-ruffus \
 python3dist-ruffus"
 

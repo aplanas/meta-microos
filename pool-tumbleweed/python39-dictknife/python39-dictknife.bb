@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "0.13.0"
 
-RPM_NAME = "python39-dictknife-0.13.0-4.9.noarch.rpm"
-RPM_HASH = "6aba3a712a2d21922992da48b7385e914e55d25869fc12ae5d1f0fe840e2a185137a2a517d2a1fc16a9075bb7cdf91dc0fc85c46b54fd9d9fe8a26672b117c87"
+RPM_NAME = "python39-dictknife-0.13.0-4.11.noarch.rpm"
+RPM_HASH = "1bf0a555f3c304a5d5fbdf138865f6dd9b8ac5c027644f21ac3bbfca1657faffa8f3a9b0a1787f7d0e5fecd2a2ab8d5b5a3ef409c7c5958ef2e9539419f063eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-dictknife \

@@ -5,10 +5,10 @@ may be a runtime requirement for Qt-based software to support certain \
 image formats."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "kimageformats-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "988db07ec0515acf1cd84899f4aa0f341ee52885718f35628d86d32f00c98ea2c565a397723b87c032cabdc3d8a0a2e48f728f4b0b38a5ed7958051897735f94"
+RPM_NAME = "kimageformats-5.107.0-1.1.aarch64.rpm"
+RPM_HASH = "080171039d07edb22a3a1496a940997d60b9aa39d017301f4ed3a0e0029c248133f74b59fa90dbdf9f3354fab6f3189619e4bc893f2ae4d186d49457a5a34298"
 
 RPROVIDES:${PN} += "kimageformats"
 

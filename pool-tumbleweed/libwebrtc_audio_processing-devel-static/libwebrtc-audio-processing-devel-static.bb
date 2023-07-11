@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3.1"
 
-RPM_NAME = "libwebrtc_audio_processing-devel-static-0.3.1-1.12.aarch64.rpm"
-RPM_HASH = "64fb9b51825e26d20a9cffcc22e6461801443aadabd511d1793b4e8d1e3805dd48ef2d070f89e0aeba6bd654fa0a2da14679e258d4fd9f2db7969521769091d0"
+RPM_NAME = "libwebrtc_audio_processing-devel-static-0.3.1-1.13.aarch64.rpm"
+RPM_HASH = "e5a7dec36dc62fdca3404fabf4d4cb95b12e623d0675b2137effd40cc8bab89ec8b3d08bb06afc8afbac57238dd6caf0e9e37f230bfb28dbe6042f3b2691dfcb"
 
 RPROVIDES:${PN} += "libwebrtc-audio-processing-devel-static"
 

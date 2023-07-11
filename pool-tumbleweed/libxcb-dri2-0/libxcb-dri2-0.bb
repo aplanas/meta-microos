@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.15"
 
-RPM_NAME = "libxcb-dri2-0-1.15-2.2.aarch64.rpm"
-RPM_HASH = "353acebf05d40ceecccc45ca457d7aab4c92c0308b2331d2e387fa4b64c7fdd00c5293e6a979d40d1a2e10cadb602b1e59acbfe81ab93a9f364f332923bf1a9c"
+RPM_NAME = "libxcb-dri2-0-1.15-2.3.aarch64.rpm"
+RPM_HASH = "2b8320f8bc2b478a5322047749fd99fdd7ea895dafc5e294e03de1ac535e6dabafccf3cd7e4a809392971cb75718eacc3b8edc780cc1263b9547d643d85c4623"
 
 RPROVIDES:${PN} += "libxcb-dri2-0 \
 libxcb-dri2.so.0"

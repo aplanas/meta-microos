@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.2.0b6"
 
-RPM_NAME = "htdig-doc-3.2.0b6-244.11.aarch64.rpm"
-RPM_HASH = "10d1c8c55c30283644d8cc68b84438ce4d8b2f1bad7c9243c5357bed95b71d3d2c10c62d9bc1858ff75acfdd173f6de361eae2c9947a4af60cb7c684dd8dea80"
+RPM_NAME = "htdig-doc-3.2.0b6-244.12.aarch64.rpm"
+RPM_HASH = "53c0d6a5a4e5933207b0f8dd430503f0da126070cf840e3ffed9decad345953e802d1dfc8313065d58ac1756b3f8941e74114e51d40dcd7bdf72a2e87808f76e"
 
 RPROVIDES:${PN} += "htdig-doc"
 

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & GPL-3.0-or-later & LGPL-3.0-or
 
 PV = "2.39"
 
-RPM_NAME = "mingw32-binutils-2.39-4.3.noarch.rpm"
-RPM_HASH = "a07184f63e737d543697d4c4f6bce6d3f0faaaa097925640b532061e2d913f77531386c21760098eaf4e61abf8feb92d35104dcde884bbe3fb85c34d95b10b8b"
+RPM_NAME = "mingw32-binutils-2.39-4.5.noarch.rpm"
+RPM_HASH = "643bfc95ed6e513ef2dac7385daa197eb4e419fc53c01b18b51910b121c68e3693fe046e79fbe7fcddc969a7be8a4504f59747a31ec49256ca49f6a0b4e11842"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw32-binutils \

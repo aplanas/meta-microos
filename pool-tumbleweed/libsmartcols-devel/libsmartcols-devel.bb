@@ -2,10 +2,10 @@ SUMMARY = "Development files for libsmartcols"
 DESCRIPTION = "Files to develop applications using the libsmartcols library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.38.1"
+PV = "2.39"
 
-RPM_NAME = "libsmartcols-devel-2.38.1-13.1.aarch64.rpm"
-RPM_HASH = "83b5958e63c8f78a448e57e0b898097c48146b3bbef6de90bd85f8ceb7c4ed18387c795694af9746c9818b0ff0b067a5f79a78682601d91bd0d843eac815fb32"
+RPM_NAME = "libsmartcols-devel-2.39-1.1.aarch64.rpm"
+RPM_HASH = "89f0168ce9b4048552e6df3e6f720537ba6a5d7410afbab0a390ea8b0cae12bfa0909be3d8ec0c5063d286577cea4c786f77fb7cfbd14d1d81fb3c9b4f4b421b"
 
 RPROVIDES:${PN} += "libsmartcols-devel \
 pkgconfig-smartcols"

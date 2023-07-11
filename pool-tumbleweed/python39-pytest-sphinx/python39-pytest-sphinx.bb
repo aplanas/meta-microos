@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.0"
 
-RPM_NAME = "python39-pytest-sphinx-0.5.0-1.1.noarch.rpm"
-RPM_HASH = "442b4aa5600821f244b4d415b14d95e9aab9a918349312b06cef15325a732532ba6e32168abf2b9ddca82cbc3de897db24c7dd5193707e36b1c938d786430ca5"
+RPM_NAME = "python39-pytest-sphinx-0.5.0-1.3.noarch.rpm"
+RPM_HASH = "82ef92e2a6085b0069e75714f29ea54b592937a0293281c9c264bc7084027e75503213f9ee40d9f8140e371023870d8269495f693d71ecec0f3c4f39b414cc61"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytest-sphinx \

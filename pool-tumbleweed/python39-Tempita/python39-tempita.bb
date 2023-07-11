@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "0.5.2+git.1630978236.a30af77"
 
-RPM_NAME = "python39-Tempita-0.5.2+git.1630978236.a30af77-1.12.noarch.rpm"
-RPM_HASH = "b06017d0ba95aa02f831d3fc8ed13e95ce02b21a87dbb26235ce9fd404d6993a24accd5ec5af6ac55cec6b9a8e6bc57f52d389cf4a3e9bf3f4b77a64d05b0639"
+RPM_NAME = "python39-Tempita-0.5.2+git.1630978236.a30af77-1.14.noarch.rpm"
+RPM_HASH = "5186301ab27f3cbd213ba7efcea6edb858005230e0ebb4e5fdf52acf046299ad5adbb90d9ff0258b5fad87b91cff88e85d6d3569ede5753b13a2574ff664398a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-tempita \

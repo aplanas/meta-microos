@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.2.1"
 
-RPM_NAME = "ghc-edit-distance-0.2.2.1-13.3.aarch64.rpm"
-RPM_HASH = "1719827cd93646c327989b0db6cdd1ba44b0e8247f090a72ae9c22fa920c81551aa8f3ca118ef556c2c2f7c9989406e86978af17bf6839be15cd48d1dacb6c6c"
+RPM_NAME = "ghc-edit-distance-0.2.2.1-13.6.aarch64.rpm"
+RPM_HASH = "a3a19634c5198c3f7cbd608be66a9f63158265378d503dcf04c31e46ad3bd5ef0095b2b01f68ca1a0b3be0cf35c814114a051ad6c0eefae1bb40be9fd59961d6"
 
 RPROVIDES:${PN} += "ghc-edit-distance \
 libHSedit-distance-0.2.2.1-6sqaVuKvJlk4f2SjC0p5nu-ghc9.4.5.so"

@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.7.0"
 
-RPM_NAME = "liblinbox0-1.7.0-1.7.aarch64.rpm"
-RPM_HASH = "5c5c7c1944bd804d900405bb22d69f56af8e320269dfc5e68924856d3b7843b48d8d33cc1f6bc6a17ad4bd920b772b5299d5c90bdbe367b8a485b05241242a00"
+RPM_NAME = "liblinbox0-1.7.0-1.8.aarch64.rpm"
+RPM_HASH = "fee9006731de22c2cbbbbec52b43462258c8b6fd2ba885e5bec2a428368131e21292e0c531df208eb2deae404f88de5b37cbcdb9346e504eb2bc3fbc8c66d860"
 
 RPROVIDES:${PN} += "liblinbox.so.0 \
 liblinbox0"

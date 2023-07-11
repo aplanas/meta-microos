@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.6.4"
 
-RPM_NAME = "libnemo-extension1-5.6.4-1.2.aarch64.rpm"
-RPM_HASH = "fe0c4495c756dee44576b5c2b3f3e76645121a7a1a91bc08d1b3727ee5c49aeac958cdd597603fa4a3f23d009920f45b560ebf6325285b7a2c5902476583ca14"
+RPM_NAME = "libnemo-extension1-5.6.4-1.3.aarch64.rpm"
+RPM_HASH = "9d0d3ae399e1aa3b06f3dc16d49c108aeb0c2de3bd5c5f8f4872f65fa52019f23a7bc39f959ffeeaca182f74801b3f5c217259840d68074f27aa52e7e46b3471"
 
 RPROVIDES:${PN} += "libnemo-extension.so.1 \
 libnemo-extension1"

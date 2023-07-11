@@ -12,13 +12,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.28"
 
-RPM_NAME = "hledger-ui-1.28-2.2.aarch64.rpm"
-RPM_HASH = "b3efdd248d9401a86c8dbab32194b477ca03aac877156c0d0fbd974a26ca228146dd6a7798f746ffe4835376656d3ad0c2f3b7c32f25527321f2a8fddd72ce33"
+RPM_NAME = "hledger-ui-1.28-2.5.aarch64.rpm"
+RPM_HASH = "0f25b96643162632adb97bc7a3d298bd27548a6e58751710fdf6127dd338471babd092c0b56b6ac8bc538288b0ec5a15f29b6bd67ade9b64a8d59264cfadb287"
 
 RPROVIDES:${PN} += "hledger-ui"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libatomic.so.1 \
 libc.so.6 \
 libffi.so.8 \
 libgmp.so.10 \

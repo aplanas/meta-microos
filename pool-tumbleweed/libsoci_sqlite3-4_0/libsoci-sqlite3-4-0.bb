@@ -8,8 +8,8 @@ LICENSE = "BSL-1.0"
 
 PV = "4.0.2"
 
-RPM_NAME = "libsoci_sqlite3-4_0-4.0.2-4.4.aarch64.rpm"
-RPM_HASH = "9b6ed97febba4b8275ecdbd78a07a27570bd7202cf8ec213787950a7e55142792ee78ad0d61fdbdb682bb95a310838b7ea32481d7080a72c3d4e4ee42628706d"
+RPM_NAME = "libsoci_sqlite3-4_0-4.0.2-4.5.aarch64.rpm"
+RPM_HASH = "84d04cc20146f0a4855cf3a939d5602e542e2eb30e65aacc80fed63f8244d0ac10df46870b74004488f5e8d03cc169f4a938a05ca3023b0315de601dbac40daa"
 
 RPROVIDES:${PN} += "libsoci-sqlite3-4-0 \
 libsoci-sqlite3.so.4.0 \

@@ -8,8 +8,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.9.10"
 
-RPM_NAME = "bspwm-0.9.10-1.11.aarch64.rpm"
-RPM_HASH = "54962d315ecac9957f49b132c3769661f5b7ed1ebe15fd945dfc432a0549f8ee766587e31ff87a0f39fa1f0ab40dde3cbc23dfad74b014a7ba22dc3f362e085f"
+RPM_NAME = "bspwm-0.9.10-1.12.aarch64.rpm"
+RPM_HASH = "59ca1092b1feba34a77f5076e422410bb316cd4687ebb86f4003ffd13bcbcfb7a37bcefa8dd8c9c9c7e4818f2226fbe7aec3f56192b70fe5d01b148a5ffccd9b"
 
 RPROVIDES:${PN} += "bspwm \
 config-bspwm"

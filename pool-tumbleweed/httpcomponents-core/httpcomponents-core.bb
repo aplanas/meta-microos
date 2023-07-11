@@ -14,8 +14,8 @@ LICENSE = "Apache-2.0"
 
 PV = "4.4.13"
 
-RPM_NAME = "httpcomponents-core-4.4.13-2.6.noarch.rpm"
-RPM_HASH = "d8b744282a2f5a6cc4be5b7abda116edfaed3ffab74c70648691459688777aec264db80c4c74c5ace61b1202778afff5da1202b16439e5ab3ec22bb19c36809b"
+RPM_NAME = "httpcomponents-core-4.4.13-2.7.noarch.rpm"
+RPM_HASH = "2d66a31fd033b3bf285dc6be6c1def9122d51d017e80da989beedad0a238b33e3f86f71381b920b90d7442a1ce005cad142639c53734a9d174389281ffc5356f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "httpcomponents-core \

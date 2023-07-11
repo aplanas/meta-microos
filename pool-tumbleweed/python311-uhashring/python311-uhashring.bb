@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.3"
 
-RPM_NAME = "python311-uhashring-2.3-1.1.noarch.rpm"
-RPM_HASH = "199b936e2e174ca52ddf4f35aeffc905e35ad4119d0d5d7aa8a754761bc42eddbcb119a150e20618eab2854fa0bd368c07aa3df8596aa08a9eff202bf6b21664"
+RPM_NAME = "python311-uhashring-2.3-1.3.noarch.rpm"
+RPM_HASH = "de4ef46899d096a7bf8343489da70de0e2a7b33bf10098e8022e2ae0c8579cead22bb7ebb634884a2704d1e536503ae36d48410297d1a08f253a594de13f9d48"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-uhashring \
+RPROVIDES:${PN} += "python3-uhashring \
+python3.11dist-uhashring \
 python311-uhashring \
 python3dist-uhashring"
 

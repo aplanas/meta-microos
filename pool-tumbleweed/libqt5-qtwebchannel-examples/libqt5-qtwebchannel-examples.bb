@@ -2,10 +2,10 @@ SUMMARY = "Qt5 WebChannel examples"
 DESCRIPTION = "Examples for the libqt5-qtwebchannel module."
 LICENSE = "BSD-3-Clause"
 
-PV = "5.15.9+kde3"
+PV = "5.15.10+kde3"
 
-RPM_NAME = "libqt5-qtwebchannel-examples-5.15.9+kde3-1.1.aarch64.rpm"
-RPM_HASH = "101b9b235ed91c983b35a6c0e8460b1a328d5669918f1772724ee29b037b9c507415319319944fd8782e4ba0cb6cddf809ed435053476ebc12e8d6f218bee809"
+RPM_NAME = "libqt5-qtwebchannel-examples-5.15.10+kde3-1.1.aarch64.rpm"
+RPM_HASH = "51499fbe51b578e14d722f51453b095836c985ba7684783e34bbfe36e5abe63f2c9f6b8b99b248daf33c56c50a2097732d18b43a804250a28535d6238afc5db4"
 
 RPROVIDES:${PN} += "libqt5-qtwebchannel-examples"
 

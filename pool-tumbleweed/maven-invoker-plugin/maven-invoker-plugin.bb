@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.2.2"
 
-RPM_NAME = "maven-invoker-plugin-3.2.2-1.9.noarch.rpm"
-RPM_HASH = "779dbefe6b05ae102b5243253627ac19e196d30b0ce6157fb8f5b0238f7fa5bb19ece15b9528f14438b9eae10de8a7337111d17748fac78d5bf6d642ce69a449"
+RPM_NAME = "maven-invoker-plugin-3.2.2-1.10.noarch.rpm"
+RPM_HASH = "6a32a216bd8c919e85a649e36467c94fd0922858beec1438f978f5d92b6b13e377c34d5166337fc231f78d0c541ae7bb1e05b5bbad92cbe0398e428c37e3dced"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-invoker-plugin \

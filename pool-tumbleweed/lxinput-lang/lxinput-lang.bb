@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0"
 
 PV = "0.3.5"
 
-RPM_NAME = "lxinput-lang-0.3.5-1.26.noarch.rpm"
-RPM_HASH = "acf2059885bb6c2404c7c23c6053f49c5c0a69de2a5ec9c0f33a35427d766afd6c721d076234f0b06efffbdb9e680313477ed851a66a243cd9e837620233cc18"
+RPM_NAME = "lxinput-lang-0.3.5-1.27.noarch.rpm"
+RPM_HASH = "7021ce6a6c977a11c201a79c9da802ea73d4569815864882b00b5874d635877373fa893946e1433d2eef0e2fb1f9b9c8e121ffc36e97f04d44bd7bc42058d5b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-lxinput-af \

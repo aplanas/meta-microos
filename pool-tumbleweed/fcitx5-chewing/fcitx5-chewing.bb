@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.0.14"
 
-RPM_NAME = "fcitx5-chewing-5.0.14-1.1.aarch64.rpm"
-RPM_HASH = "b821fc76e4e217067d18bf9e3e3c06d32860e7139bf1d9d3a7b7711f2ea7d92b066f0980583af35d4f7a24d4a4f830c6f51113bc557d9559a1de9ecd8d52eb94"
+RPM_NAME = "fcitx5-chewing-5.0.14-1.2.aarch64.rpm"
+RPM_HASH = "e3fc07ed8de9a19af1cb59bc23262274853d1207fe5056d6168a4736d11427b3c28261b72a5d335dfa1a411354a776b052e61685891c8f70db87a40967b31d47"
 
 RPROVIDES:${PN} += "fcitx-chewing \
 fcitx5-chewing \

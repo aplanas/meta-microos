@@ -10,8 +10,8 @@ LICENSE = "NetCDF"
 
 PV = "1.12.3"
 
-RPM_NAME = "pnetcdf-devel-data-1.12.3-1.3.noarch.rpm"
-RPM_HASH = "234192aff7f74d37b582fed479f7e30bed43d4a16c9c913a4a61b55887f0bf39986942d6a88e85893bee9edc1df5d7967db996b56bbd37426a026d8993436a02"
+RPM_NAME = "pnetcdf-devel-data-1.12.3-1.4.noarch.rpm"
+RPM_HASH = "d4cd78a88f119bb38d9a99c638976be4b76a94f9ad03db5fe054afe5242412d9dfc99728cae0534a5d3b8c77d294e4286cefbeada050e7c07908758b8d2c7a53"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "parallel-netcdf-openmpi1-devel-data \

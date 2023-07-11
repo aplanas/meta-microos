@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "5.1"
 
-RPM_NAME = "update-test-relogin-suggested-5.1-1.17.aarch64.rpm"
-RPM_HASH = "facaf8fe1d4fab6d7aa3004302bbf5840a5e11ed6e93e2af568f705b473ebb723e32b251ca00f1ddd5fe1c39bd0caa41ecf70fa5d57ddacdb99c328be58b974a"
+RPM_NAME = "update-test-relogin-suggested-5.1-1.18.aarch64.rpm"
+RPM_HASH = "95ca0e78fe7b902490cae1f34382e32e97169a5a41b66e1933015b4a0b12a479e0a25a91929a38c2e6cdff5fa300ba1de717e24a3394099733e0bdb6148b7f9b"
 
 RPROVIDES:${PN} += "update-test-relogin-suggested"
 

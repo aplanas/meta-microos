@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.99.git.1682279748.c294e5b"
 
-RPM_NAME = "libeppic-devel-4.99.git.1682279748.c294e5b-1.1.aarch64.rpm"
-RPM_HASH = "9f81c7ac68e34682db3b5ed5c1c2fcff0f31bacee5e57c5a6e1902f2d0f545f802e5ebaf123861bb05cc38d226fbf74a8085cbc2cb621e848078f3a4cf23f11c"
+RPM_NAME = "libeppic-devel-4.99.git.1682279748.c294e5b-1.2.aarch64.rpm"
+RPM_HASH = "0b262f80b0bc15009103335aa432d0e7eb9fe9d404bb937ce18a6b617900e70492a1d3ead9bf8288cea0c3da75f07844f76a46b780f2931c702913b405a3f9db"
 
 RPROVIDES:${PN} += "libeppic-devel"
 

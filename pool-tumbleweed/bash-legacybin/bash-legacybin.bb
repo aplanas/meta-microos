@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.2.15"
 
-RPM_NAME = "bash-legacybin-5.2.15-8.3.noarch.rpm"
-RPM_HASH = "c30b407f4039750be436ba19e22287c587905ce4b1072038a3647df11690452d3af1b358c85f50b575354bde467de14396952c4555978564fb2f3b3e66df55f2"
+RPM_NAME = "bash-legacybin-5.2.15-8.6.noarch.rpm"
+RPM_HASH = "d9b8957f96e21de0172919c3b5ee50ce7403c24e3555fdb7095506e07b878ed4dfaa4bb19bce425864eef41d3d1962bf2f1d9b1de791591214c290db64fc2c09"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bash-legacybin"

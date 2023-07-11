@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.1.0"
 
-RPM_NAME = "libspqr2-2.1.0-49.1.aarch64.rpm"
-RPM_HASH = "2a8fabe30c0869f7300855420f35222da5ab05b16eb010fafcfb51db62a7ca04892c2b2409c5870f86f687f22cab1c826743295e99b7c3fbe1bdcca5ac44db19"
+RPM_NAME = "libspqr2-2.1.0-49.2.aarch64.rpm"
+RPM_HASH = "43dedbaed14582abbdd18fceb312c6222147a1840a317719a38cc17aacf8db4029f9616354a1613f8d3562d6e5d32ea42b6a4ef9abac7a16bb93d7c7150cddb2"
 
 RPROVIDES:${PN} += "libspqr-2-1-0 \
 libspqr.so.2 \

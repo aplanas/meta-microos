@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "1.0.9"
 
-RPM_NAME = "ghc-isocline-1.0.9-1.3.aarch64.rpm"
-RPM_HASH = "a4fddfb2e6f96c2ceab1e317a699e0b15ea8ad9bf42def75c8afec8ee1101a2ace6d658013e929bed8d9ef72d87e12d78b9d841e3dd6ee2da611f72db5e27a11"
+RPM_NAME = "ghc-isocline-1.0.9-1.6.aarch64.rpm"
+RPM_HASH = "fbd4dfea946126828702e3a0a28db6b02d794485b0aa52da6f512c0168b2b1ad0e43af07ff543ab3f247b9c63411dc0b83dfe57f31d0305fcbe6215793a1763c"
 
 RPROVIDES:${PN} += "ghc-isocline \
 libHSisocline-1.0.9-7x8dFWbXh69GJxYhigSqXG-ghc9.4.5.so"
@@ -29,7 +29,6 @@ libHSghc-prim-0.9.0-ghc9.4.5.so \
 libHSpretty-1.1.3.6-ghc9.4.5.so \
 libHStemplate-haskell-2.19.0.0-ghc9.4.5.so \
 libHStext-2.0.2-ghc9.4.5.so \
-libatomic.so.1 \
 libc.so.6 \
 libffi.so.8 \
 libgmp.so.10 \

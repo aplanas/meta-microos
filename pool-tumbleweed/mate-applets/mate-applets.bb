@@ -4,8 +4,8 @@ LICENSE = "GFDL-1.1-only & GPL-2.0-or-later"
 
 PV = "1.26.1"
 
-RPM_NAME = "mate-applets-1.26.1-1.4.aarch64.rpm"
-RPM_HASH = "adb7bee1a7255a343abbbd0b593f62b2e8f5e52597ddafe58ceadd0564286e1e4e879de55b678b406d4ba94442a7c6086ad8787d70d72b080c0134f2da8b1551"
+RPM_NAME = "mate-applets-1.26.1-1.5.aarch64.rpm"
+RPM_HASH = "52eba638fecb3fabc83f2df22860f8a0d1d80cd9dfc76c23af1b77f7b97674845d92d8b9cb61653924b5a74ae199632414b558006bd1c06f4923774abf87a9a1"
 
 RPROVIDES:${PN} += "config-mate-applets \
 mate-applet-netspeed \

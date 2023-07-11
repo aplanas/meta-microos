@@ -2,10 +2,10 @@ SUMMARY = "Translations for package ktp-common-internals"
 DESCRIPTION = "Provides translations for the 'ktp-common-internals' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "ktp-common-internals-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "60b548c78fbb6f15c820c4702617d4799a0813c2a5640d8a3bfc4b32dca41f2e508495dd1be95b6fa66ffb0c9fd7a8b016857759894b06675dfeb26b5a46c6e2"
+RPM_NAME = "ktp-common-internals-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "9a74728a73ccf349785ded86806ead950c3f92e3cbcab272d3b124d09632c68b18ab36f177c35e8ba2b20957350ed96508b67807d63b86617e5fecc16c909211"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ktp-common-internals-lang \

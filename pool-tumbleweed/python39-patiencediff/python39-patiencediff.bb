@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.2.12"
 
-RPM_NAME = "python39-patiencediff-0.2.12-1.4.aarch64.rpm"
-RPM_HASH = "3cc7ff9551af2e7e781da319ae3b0ef272dd9b464416bc85316401f9851b8d5bc3edfd59e2f66b70a88692df370007457d63ef7c9f05e32748e9dcd6b0ac514a"
+RPM_NAME = "python39-patiencediff-0.2.12-1.6.aarch64.rpm"
+RPM_HASH = "f127060b32705145ffb81a3f83ec64c02e9d9b2c36d8466e520f8fca512a6681ce6bcee2a2fd635d390e08b08e69ca150fddbc42d4e54098d83236886be6bca0"
 
 RPROVIDES:${PN} += "python3.9dist-patiencediff \
 python39-patiencediff \

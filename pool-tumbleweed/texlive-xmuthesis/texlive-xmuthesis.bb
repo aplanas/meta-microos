@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.4.1svn56614"
 
-RPM_NAME = "texlive-xmuthesis-2023.201.0.0.4.1svn56614-52.1.noarch.rpm"
-RPM_HASH = "50de57e8047fe6731505c6f01e55e2214fa4976f390a535fb3cb6c7981dca537203c0f7798b47b38ce56dbc553141916c19f91fbf34d5d7ec1f0064e5c5751cb"
+RPM_NAME = "texlive-xmuthesis-2023.201.0.0.4.1svn56614-52.2.noarch.rpm"
+RPM_HASH = "2daefe3e15af60d547a0b594a18235d94c31bb119e24d80dc48d739b15ac839f69dca73ef53f64887401fbd6bab2929a8158adbfbc1657ba6e824dbd6de10de9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xmulogo.sty \

@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.2.0"
 
-RPM_NAME = "php8-psr-1.2.0-2.5.aarch64.rpm"
-RPM_HASH = "c56021008afe43f952e9dfd030ef3602b06870e4386cc62d5ffb3ddeea5f2abc8f487ba8548e572af3fbdd76ae81a8a80fa0905ffe83914e65f158f599120c9d"
+RPM_NAME = "php8-psr-1.2.0-2.6.aarch64.rpm"
+RPM_HASH = "e2227fb4d150bb73692f90d5e171817f8f0fb56b696892eff219ecfd6f71de9dddf966127d129668b3ad353d12d2e1cf4507f19f8a8e3a668a43abde292116e6"
 
 RPROVIDES:${PN} += "config-php8-psr \
 php8-psr"

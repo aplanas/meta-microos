@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.11.1"
 
-RPM_NAME = "gmsh-doc-4.11.1-2.1.noarch.rpm"
-RPM_HASH = "0a7adfb13902c3c9d8e9fd2bfdaac3dce751098d6de2bb1f87893190e84cbbf58fea907d63ddaa53317b11d6c84fdf6cbf47000ec521c10b1090edfcfb34dd8c"
+RPM_NAME = "gmsh-doc-4.11.1-2.2.noarch.rpm"
+RPM_HASH = "c1a8a6ca83fd65b76e8842ccbfaaf5480c810a6d136941d1e2f9794878331090a93f29cc13b29ece1237a938cecd7f29193ddd2f133bd8858ee9d4abf3d82dad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gmsh-doc"

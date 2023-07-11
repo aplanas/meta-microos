@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "1.2.5"
 
-RPM_NAME = "python39-TermRecord-1.2.5-4.16.noarch.rpm"
-RPM_HASH = "a8ecc4fa53eafbff75a2bfb8aa527fbef3c1eb3bfe1f7002cb498f6811b4bbf781996534530cd8ca24cf7ea882f8d664885b1511aae590c002501ae9a93b5365"
+RPM_NAME = "python39-TermRecord-1.2.5-4.18.noarch.rpm"
+RPM_HASH = "3e9d3096aabd446ad1cf5d7e12f3fd8d354e1025ddf54dac245fcb3422c5f328a7fcb90300806624d31c4ed3de84d2433778be0db06cda451b193d9886cb79d8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-termrecord \

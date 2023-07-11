@@ -9,8 +9,8 @@ LICENSE = "LGPL-3.0-or-later | BSD-3-Clause | Artistic-2.0"
 
 PV = "1.0.2"
 
-RPM_NAME = "blitz-doc-1.0.2-2.11.noarch.rpm"
-RPM_HASH = "b4b35ebba54154ca883408138010f32276c3c1d41b7d960c12df939de52e885d7800ef66961ee4ce6b76152520d8042626f4a57e2f8d3d5a03c18d2a66cc5977"
+RPM_NAME = "blitz-doc-1.0.2-2.12.noarch.rpm"
+RPM_HASH = "2e0c9a8ab3b352e3ad51ed1c0b1ce319df16e6c74dd1c91ec9b91649971dacf570960f6bc9878f41fe27b8e0705126772f9279e2f3077af2f5fa204d3d73c2c8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "blitz-doc"

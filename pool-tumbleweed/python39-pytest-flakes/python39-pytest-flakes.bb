@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "4.0.5"
 
-RPM_NAME = "python39-pytest-flakes-4.0.5-1.6.noarch.rpm"
-RPM_HASH = "f816defe6f5a31d40fab29b5424564e22e02656d33e140e54d0a3d512bfc52390d0a6bb53d68f0dec11a2d28f4123dc6efc8fa58ac16ee89d2ca97025fd4a2a9"
+RPM_NAME = "python39-pytest-flakes-4.0.5-1.8.noarch.rpm"
+RPM_HASH = "40199561b24ffef6b2bc510f79805a570bf5a5e5bafa13f9861c93917ae750b052f81f867958b9c19cca33e0834c02154e1ae4073599d13efcfc99ea2f044391"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytest-flakes \

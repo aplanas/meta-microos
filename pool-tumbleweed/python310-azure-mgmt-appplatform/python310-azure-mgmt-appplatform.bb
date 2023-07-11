@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "8.0.0"
 
-RPM_NAME = "python310-azure-mgmt-appplatform-8.0.0-1.1.noarch.rpm"
-RPM_HASH = "cc936f7a174a2d584ef512818fe9c93eb1af71d5adbb66fe43a4805d649cd9d4aabaab2578cb6a3dfa78ab4c7fc9368a059bad23a5d418fd214397c9ea69c266"
+RPM_NAME = "python310-azure-mgmt-appplatform-8.0.0-1.2.noarch.rpm"
+RPM_HASH = "e6a7c27383d2136d49ab0128cea3748404da2f9f3e6ff1eaa6b9f1878605b97a1bd12119117a23538b7b20a6eb8cf679864efb357b778e2408fbb3b41acc5e84"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-appplatform \
-python3.10dist-azure-mgmt-appplatform \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-appplatform \
 python310-azure-mgmt-appplatform \
 python3dist-azure-mgmt-appplatform"
 

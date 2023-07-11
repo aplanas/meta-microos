@@ -2,10 +2,10 @@ SUMMARY = "Haskell optics-core library documentation"
 DESCRIPTION = "This package provides the Haskell optics-core library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.4.1"
+PV = "0.4.1.1"
 
-RPM_NAME = "ghc-optics-core-doc-0.4.1-2.3.noarch.rpm"
-RPM_HASH = "7f9a33a9540fb0edb2c6420ae4d3a396da2fced583f0837c8d1b64230f92b00dc6b1e015b877624c5176427e54f2f4d6f9962c9b2ecc1ce189a971a42153e591"
+RPM_NAME = "ghc-optics-core-doc-0.4.1.1-1.2.noarch.rpm"
+RPM_HASH = "acaa478fdbff95cb12c35e3779e370aca4efb2e2f76909706a3450ddd8b050b9eee096dc25ec293cde367f6980cdb597bc86ca64f1ab141865c2cd751457d074"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-optics-core-doc"

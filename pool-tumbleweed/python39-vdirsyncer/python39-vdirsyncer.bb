@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.19.0"
 
-RPM_NAME = "python39-vdirsyncer-0.19.0-2.1.noarch.rpm"
-RPM_HASH = "95a631f75a630fc26198d0a68fabaaec4a882749ad1d9a8035a8032bf767600a2a0220bf3a9347a71ccd1d7e5fcaeded41d5cda5a545cd6008c160de26c6c9ad"
+RPM_NAME = "python39-vdirsyncer-0.19.0-2.3.noarch.rpm"
+RPM_HASH = "6dc1c5abb04a2f09325592a30971c9862b0472484c80cad991b2ea1a8397e8af7cdf287dfae90b2a5d230026d215ef81fd1bf162b368b7b57c985d7bab71c93d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-vdirsyncer \

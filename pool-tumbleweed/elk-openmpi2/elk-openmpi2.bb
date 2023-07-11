@@ -11,8 +11,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "8.7.2"
 
-RPM_NAME = "elk-openmpi2-8.7.2-1.3.aarch64.rpm"
-RPM_HASH = "30b6ba58151abf329bbbac26adec89e89af7056357c9b5ee7d2ad345f27b4122bc2fc00cc637956d794cc698953edab71302a23071a29691faf47c40b97ab99a"
+RPM_NAME = "elk-openmpi2-8.7.2-1.4.aarch64.rpm"
+RPM_HASH = "7e56bfcb49c40c7629f4b01b62a4e211e560ab3ae071aba65ceaeda8ff56db10e64b26f68521c84505af658e5676a73883d4b0430781967dac9b6689b35057ea"
 
 RPROVIDES:${PN} += "elk-openmpi2"
 

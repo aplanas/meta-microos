@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.7.1"
 
-RPM_NAME = "python39-musicbrainzngs-0.7.1-2.6.noarch.rpm"
-RPM_HASH = "5bbf03ec979cdaca713b3a331d7e1f88902eedafacb8884660fee57d8da52b2d3da59d86e16211564bf71cc4831bdf1ad192a2738f19ddb89dcc75f4310d51e5"
+RPM_NAME = "python39-musicbrainzngs-0.7.1-2.8.noarch.rpm"
+RPM_HASH = "9a4c0f9319d82846dcc1bc5f8bbe500ebb6a1d138e5b55448d9c9e38fd29ed9f75a06e10c0e0c884e597e90aabf4a5f17d6888cb3368a6ca7d788ff99e35bc81"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-musicbrainzngs \

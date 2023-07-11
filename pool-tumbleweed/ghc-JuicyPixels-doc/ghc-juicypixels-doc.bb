@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.3.8"
 
-RPM_NAME = "ghc-JuicyPixels-doc-3.3.8-1.3.noarch.rpm"
-RPM_HASH = "64d85973a7d625b41ee77b4f1587c19e9a0a976e46c64f229660f8bc7de68306f8f229a1d2db951478ea0c9a23d31283e3557b7a3fece572f020a784520c1ede"
+RPM_NAME = "ghc-JuicyPixels-doc-3.3.8-1.6.noarch.rpm"
+RPM_HASH = "de0f7edb388b446d979dd467deb48a2b262c83daf3f3439c30a26f99066e2e481b5bf3b03a8f136c17bf08a4d1f37e455676e311284c90b4bd4439c9d8637a20"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-JuicyPixels-doc"

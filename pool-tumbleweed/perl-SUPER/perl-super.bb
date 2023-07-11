@@ -30,13 +30,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.20190531"
 
-RPM_NAME = "perl-SUPER-1.20190531-1.15.noarch.rpm"
-RPM_HASH = "ee71e8df52f84de52dc1dbd31cdaeb39a4f46cbc92afc0142040f324f33d357952d0b8980211c46416bef6e4336593d74d65d99dd3d9e6751a3cb423dc59a6c9"
+RPM_NAME = "perl-SUPER-1.20190531-1.16.noarch.rpm"
+RPM_HASH = "6120ad27e9066dc0b3e616d0522872dc7561b2cb211b16744b136a24bda8d145fb306f93bb83d657f2463c5f909a3beeac1c3263e7bb7cb3a07016932174f03c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-SUPER"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Scalar--Util \
 perl-Sub--Identify"
 

@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "6.3.0"
 
-RPM_NAME = "libsundials_sunnonlin3_3_0-openmpi2-6.3.0-2.4.aarch64.rpm"
-RPM_HASH = "49a15bb92011fa5145549d202f7318fab2aca92569109fba85ebe3871ed925141f25fb784cddacaedc48aa126803b8c1af2b9689a8bb292827588af54c6b2f7c"
+RPM_NAME = "libsundials_sunnonlin3_3_0-openmpi2-6.3.0-2.5.aarch64.rpm"
+RPM_HASH = "3fa3428495fc5aa98e7d1bcf711d290b8a77c28beaa4376a627f14b3e5c0f8ce30254d9f2958e4795b1d2498c31cd8a7a0d302e8416f521b50be291b48a8e24e"
 
 RPROVIDES:${PN} += "libsundials-sunnonlin3-3-0-openmpi2 \
 libsundials-sunnonlinsolfixedpoint.so.3.3.0 \

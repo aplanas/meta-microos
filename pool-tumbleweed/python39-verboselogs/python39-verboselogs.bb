@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "1.7"
 
-RPM_NAME = "python39-verboselogs-1.7-6.5.noarch.rpm"
-RPM_HASH = "85cc6ceedb9138869aa54dc4782e3eeaa60d39e678104aa588d7ec3843ee34e0bb893b7115f00ba4ecc8f924616a86cfb98a27ef659de14572c5578ac5f7b763"
+RPM_NAME = "python39-verboselogs-1.7-7.1.noarch.rpm"
+RPM_HASH = "2cc70544b99c4b19265be9f738e349ba2ec45e087451633e324edd5d79ec3dc94afdbc014647a789066d456f4a3fed9cb1d5a500d9ed5d801e9e5f5ce2cb4044"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-verboselogs \

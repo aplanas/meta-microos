@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.1.8"
 
-RPM_NAME = "ipmiutil-devel-3.1.8-1.4.aarch64.rpm"
-RPM_HASH = "acdad2c258855494aec140a7981c8b72d31919b829cda2b3b9328b45a139ad3ccf63c202fa6895cbe1961c330ba29fb27307994659ae13cf82c48695e00fa589"
+RPM_NAME = "ipmiutil-devel-3.1.8-1.5.aarch64.rpm"
+RPM_HASH = "49103a06f506206550ca2b498b2fb9d2c4b9f09b3956975e7b88ffe8b7cd8843a715e70755a006bd7c4cf3f8b0700b2ab6fcc320cdd19327e366c7c8b16f26dd"
 
 RPROVIDES:${PN} += "ipmiutil-devel \
 libipmiutil.so.1"

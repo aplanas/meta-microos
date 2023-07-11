@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.4.6"
 
-RPM_NAME = "corosync-qnetd-2.4.6-1.3.aarch64.rpm"
-RPM_HASH = "17308e70731fbf70476b67762dd826032e8db1b21f9ebf24b47e08aa88f2329b7dabf124a2112dd0871654d15086db41272c43095bedb175e04bb278deb6927f"
+RPM_NAME = "corosync-qnetd-2.4.6-1.4.aarch64.rpm"
+RPM_HASH = "163b252ad08af1c7c8d49e6ccb53d2fe27a71d588e3eba6572567af9c5a5768091c48407670240b11295295dc23d29b950da167b61a376e03395a95775760a52"
 
 RPROVIDES:${PN} += "config-corosync-qnetd \
 corosync-qnetd"

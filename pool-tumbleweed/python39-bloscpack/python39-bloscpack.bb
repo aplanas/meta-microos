@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "0.16.0"
 
-RPM_NAME = "python39-bloscpack-0.16.0-7.4.noarch.rpm"
-RPM_HASH = "e8a832faa9900a8fb40a3a1e727d39e06f2e28eddec7140387a789d37a9ed069d15ef695a453de60c57f4e1e4285392200be25d531231a3ac13e07399902e186"
+RPM_NAME = "python39-bloscpack-0.16.0-7.6.noarch.rpm"
+RPM_HASH = "61ce7fef030190bddcbf2ddcb91e2c1796a43e1ad6c613b7defb90f6c01e692c9b4fd3a7fd7e574c377c61fc852ef0a8011bd0d4d4f2650c8c62ceb74bf73bcf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-bloscpack \

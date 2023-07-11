@@ -4,8 +4,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-fenet-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "90ff6a76fdd8c4926413ab6bb1c647bcfcce9125437a48c55094570264afb50472a5103a840e4b075ce174d749c790fdbdefbe7d69746a95c468de725b3ce406"
+RPM_NAME = "leechcraft-fenet-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "b0dbca41ffe1c9837afef41c30cbf82e151674dc34857e9adf3107c6df9da846a8477e7dcf1415655513549fbe89e7abf63d1d37cbc4fc92746124c07486895c"
 
 RPROVIDES:${PN} += "leechcraft-fenet \
 leechcraft-fenet-compton \

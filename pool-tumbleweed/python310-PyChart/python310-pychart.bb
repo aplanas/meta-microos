@@ -7,12 +7,11 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.39"
 
-RPM_NAME = "python310-PyChart-1.39-1.14.noarch.rpm"
-RPM_HASH = "3afb2f38cfcb0d13c25a49a3a75a5f0e96bf7bb04c6eb363251055fa2eb081043b184b58d3c9eccad62514e4e4d5f6df36e263231db1935ac6be55d0673597a8"
+RPM_NAME = "python310-PyChart-1.39-1.15.noarch.rpm"
+RPM_HASH = "9c9ac89c5962c2de79f47c98194b44eb342ea3610e0ac19a08fec912f32f217b050882ac36a2859ecfd55ab7fe69796352ba5bc9e87207c30b3d39fafbf16d3e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-PyChart \
-python3.10dist-pychart \
+RPROVIDES:${PN} += "python3.10dist-pychart \
 python310-PyChart \
 python3dist-pychart"
 

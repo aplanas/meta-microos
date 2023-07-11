@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.5.0"
 
-RPM_NAME = "libosmo-octoi1-0.5.0-1.1.aarch64.rpm"
-RPM_HASH = "7ac1a453afdf4c20449bb5334a444247dc3b42fd4b5d01d2c7bba8c7b51ca4510773f333d1eecbf17d8fa228403868b460cc017c221666b31c2fc7e846bf0610"
+RPM_NAME = "libosmo-octoi1-0.5.0-1.2.aarch64.rpm"
+RPM_HASH = "b10ee0462ae5683a63e308a69ff7c77c0fe6071e4bdee43f47c9467a88de3f8353dba70dfb99be82f8182741a8ef5eea95890750804176a66613e33eff7aed78"
 
 RPROVIDES:${PN} += "libosmo-octoi.so.1 \
 libosmo-octoi1"

@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "28.2"
 
-RPM_NAME = "emacs-info-28.2-4.2.noarch.rpm"
-RPM_HASH = "8ec0718dd864dc2e3c13c270fa8f6b4cfb8cc08f1648cb3b0f24ae8584395f77bfd79ba059d1d3248feea676292dbf484ac1ca378091550aac762d5c7175a2d8"
+RPM_NAME = "emacs-info-28.2-4.3.noarch.rpm"
+RPM_HASH = "63687e5a923304d595686faa3246259c5ee5d3feb467c294af86b8dcab02150235c502f7c578092a79e6efbae0d317cc02f6c8d2facfb4a32571c62bd0b348a6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "emacs-info"

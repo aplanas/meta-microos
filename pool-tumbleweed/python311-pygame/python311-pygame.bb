@@ -9,10 +9,11 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.1.3"
 
-RPM_NAME = "python311-pygame-2.1.3-2.1.aarch64.rpm"
-RPM_HASH = "6934577cc3ecf06de993930019ae99742520ebcd6984651954cf641fb20609f6114df71c74b66bade41a83d4521af86d1b637534adb7d772edd017e52c5a59c2"
+RPM_NAME = "python311-pygame-2.1.3-2.2.aarch64.rpm"
+RPM_HASH = "be9ec4fed20405ea4f2b30fedcb3f0588bf141f92cfbef7cbcf590aa72a777300d344ed611dfc0d0308690f141e9fdbb72cbb18ff471edb9b43f5aff83417742"
 
-RPROVIDES:${PN} += "python3.11dist-pygame \
+RPROVIDES:${PN} += "python3-pygame \
+python3.11dist-pygame \
 python311-pygame \
 python3dist-pygame"
 

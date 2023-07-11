@@ -2,10 +2,10 @@ SUMMARY = "Kubernetes scheduler for container image"
 DESCRIPTION = "This subpackage contains the kube-scheduler binary for Kubic images"
 LICENSE = "Apache-2.0"
 
-PV = "1.25.9"
+PV = "1.25.11"
 
-RPM_NAME = "kubernetes1.25-scheduler-1.25.9-1.2.aarch64.rpm"
-RPM_HASH = "7a68737f97b2473c538bf52a0b5e18ba1810f4a40d94c59f67d59bff1b94407005703431ffaa7370f64e857585a7e965db293f774117d339264e4cc254752c22"
+RPM_NAME = "kubernetes1.25-scheduler-1.25.11-1.1.aarch64.rpm"
+RPM_HASH = "645170bd356e0e2cf5503d3d80b495f6ece3c9b3cd9a63817c09209201316bc8296932657c363f901b27770310e62a2ac5fd7bb6d9082f0eda520a4586eb427b"
 
 RPROVIDES:${PN} += "kubernetes-scheduler-provider \
 kubernetes1.25-scheduler"

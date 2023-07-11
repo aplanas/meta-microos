@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.3"
 
-RPM_NAME = "arpwatch-ethercodes-build-3.3-2.2.aarch64.rpm"
-RPM_HASH = "64a6449ec31b7487594ec112e88ee044a4c0bdaefb94acaf732746a3ef64392e69af247b58e092db5f8fa9a083f32de936bd5d7871dee9d1d9d96664552b7744"
+RPM_NAME = "arpwatch-ethercodes-build-3.3-2.3.aarch64.rpm"
+RPM_HASH = "43d519996d396a3550fc3d787ca8e70f868abb5b8d18144736120313814add5bf411f09b1b55741871e6c91adcd896fd698a6402dda535cf5864459ac44ebd41"
 
 RPROVIDES:${PN} += "arpwatch-ethercodes-build"
 

@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.1.4"
 
-RPM_NAME = "python39-icoextract-0.1.4-1.4.noarch.rpm"
-RPM_HASH = "3776f1045d9e48b4fa400950014d365f7688e522da37eefedf465daf121ef433d9e1474441ab22b061bd52f825ad44566fe459edb4c27c835ab28739d929dfa0"
+RPM_NAME = "python39-icoextract-0.1.4-1.5.noarch.rpm"
+RPM_HASH = "856c0b172c45ff6bb59c6afd7d8260a6096ee399d5ca50aa620ba8fdb6eabbece4839dfbe9e58fd3c79df36a40e459456bde969b4af1b5eb718d11a5582ea8c1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-icoextract \

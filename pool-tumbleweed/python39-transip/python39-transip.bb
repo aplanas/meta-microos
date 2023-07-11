@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.1.2"
 
-RPM_NAME = "python39-transip-2.1.2-4.6.noarch.rpm"
-RPM_HASH = "b6194e43827b13196884e3770415d8a8cc7b05f90e69bb74ca4471f0e87195dbbba93f94db6eb8655b9606b01eb80f77bb21d8dbc8789801158c91a45a7f20f1"
+RPM_NAME = "python39-transip-2.1.2-4.8.noarch.rpm"
+RPM_HASH = "f2fdb70c3bd4ede095942d3cb6299a7cb8eefc2ec755c3a5128d96a734b614ac01244c5b0e944fa8c41c8f42e19e4292fca46c7bdd13e01fb8addf58ce937f2f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-transip \

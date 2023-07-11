@@ -4,8 +4,8 @@ LICENSE = "OFL-1.1"
 
 PV = "2023.201.1.12svn63312"
 
-RPM_NAME = "texlive-erewhon-fonts-2023.201.1.12svn63312-53.1.noarch.rpm"
-RPM_HASH = "3aacaa2705273e67eeb444f459fb4da6e3b912d9897af87cfce18d92ad4011bbebae05164b71e90a29f150dc04cc0305d00bffadc1c841d62f009767cf02a6ae"
+RPM_NAME = "texlive-erewhon-fonts-2023.201.1.12svn63312-53.2.noarch.rpm"
+RPM_HASH = "3889d7b1e1e1fa44dd179654a9375be24892c45d8e68f9843432df33db3db9ac8bf979a827bab2630da48eba1dba93117fabe26537095b7e75b414bffcdbd5fe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-erewhon-fonts \

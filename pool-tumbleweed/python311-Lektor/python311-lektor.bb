@@ -6,11 +6,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.3.7"
 
-RPM_NAME = "python311-Lektor-3.3.7-1.5.noarch.rpm"
-RPM_HASH = "5a3433530a0076ec05bb83ee4318dd30f29a6e7c3abee5d4369ef1107561ad2654aea440a487508ae11925367e4ad3bacaa48af1ff923984e3641a483e4928ff"
+RPM_NAME = "python311-Lektor-3.3.7-1.7.noarch.rpm"
+RPM_HASH = "827b9b8aff3be6b13b14004b4d48b314c622cca77c364044145e77250e00932bcc28454c3834b51691b244d7fd3f0db30efe7b712a63bf272be6386ec7c02db6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-lektor \
+RPROVIDES:${PN} += "python3-Lektor \
+python3.11dist-lektor \
 python311-Lektor \
 python3dist-lektor"
 

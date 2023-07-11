@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause | GPL-2.0-only"
 
 PV = "45.0"
 
-RPM_NAME = "srp_daemon-45.0-1.1.aarch64.rpm"
-RPM_HASH = "ecc0073364c163e6697e0b9888a152dcdb700e7ddf4acb1c32c2fd6d56b1cda5a5e6aab9d6649a66be6d0cfcc57da2af8c45c0654e745b6d873f09d151639b0f"
+RPM_NAME = "srp_daemon-45.0-1.2.aarch64.rpm"
+RPM_HASH = "25609c72714eadd7061af3bc11768cb0f1b92bca6a1cdb93eefa1171670a2a4ca76da43edcefefc941eb9ededd5043e75c4efd015eeb11b0fa88e02fb34204d2"
 
 RPROVIDES:${PN} += "config-srp-daemon \
 srp-daemon \

@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "0.4"
 
-RPM_NAME = "perl-File-Mork-0.4-2.21.noarch.rpm"
-RPM_HASH = "8c98e47e793d2fe55b113492edac5415c56a00aa88cbf6b56609bf5c62a37784846347fd517d829c6af71f6f5531e44ef026c78a8484da043c2e5a4d1a276441"
+RPM_NAME = "perl-File-Mork-0.4-2.22.noarch.rpm"
+RPM_HASH = "1f572112c233e63f58d427a566fb7fdc8b3174086a1dff916c2e26017e0c85066c4f301b9ee1ca8bc93da79ea7a3b22a89faf784cbf890a7204dfdc48db8116c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-File--Mork \
@@ -19,7 +19,7 @@ perl-File--Mork--Entry \
 perl-File-Mork"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-HTML--Entities"
 
 inherit rpm

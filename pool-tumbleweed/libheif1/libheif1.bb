@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.16.2"
 
-RPM_NAME = "libheif1-1.16.2-1.1.aarch64.rpm"
-RPM_HASH = "a8da3852d9b1523e7e1f2a300aafd5efefad101e8a621fff3e68f443ca1e9daafbd511dd762f2557ba79d4a506179349aff645f099bba49fce1bfa65a72d6a2a"
+RPM_NAME = "libheif1-1.16.2-1.2.aarch64.rpm"
+RPM_HASH = "73a54b979f3d4df44e06c5a71d616e0663c63f755bdc11d5b043b2b4d9666c053f571272fb6da84ef08f63e5146d8a2953e749e0ea94a65bac158b06f5768269"
 
 RPROVIDES:${PN} += "libheif.so.1 \
 libheif1"

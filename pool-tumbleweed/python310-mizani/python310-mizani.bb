@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.8.1"
 
-RPM_NAME = "python310-mizani-0.8.1-1.2.noarch.rpm"
-RPM_HASH = "ce5ba3b5226afbfd290f59dac8712bbb64f6a136052b59476159e0c14ecd412345702599d3be3b018499686733e4854c3d9fb474df69a0070da903e20756735c"
+RPM_NAME = "python310-mizani-0.8.1-1.4.noarch.rpm"
+RPM_HASH = "dd98bd81236bda75de265fec758512f3883eb038047fdd09b854c28c8e0613297d26526d4fb512cfb4c00fc32dab4935c59ee07fc3415e1daec6485ecadc25ea"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-mizani \
-python3.10dist-mizani \
+RPROVIDES:${PN} += "python3.10dist-mizani \
 python310-mizani \
 python3dist-mizani"
 

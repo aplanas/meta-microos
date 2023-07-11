@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.7.1"
 
-RPM_NAME = "python-Scrapy-doc-2.7.1-1.5.noarch.rpm"
-RPM_HASH = "6af450d607141180492c966e618cf224da8870d3cc2b3f2c5fd990efb2fc8b067ff9345b3490a6eedb274360ebbd3e46dc90d7c41fd3de0008303239420ad514"
+RPM_NAME = "python-Scrapy-doc-2.7.1-1.7.noarch.rpm"
+RPM_HASH = "19cbee21a400ab31d26aaa27958df9b5ebc991ae59693664a8bd60c02f46869a0c2e83b63d605d7f9c60710143eeaf009130d88d126ab0921914c1790bfbe3b4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-Scrapy-doc"

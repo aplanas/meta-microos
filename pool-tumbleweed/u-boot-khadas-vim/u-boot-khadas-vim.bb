@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2023.04"
 
-RPM_NAME = "u-boot-khadas-vim-2023.04-2.1.aarch64.rpm"
-RPM_HASH = "de29488f67e1c399267160a2867fa03feae3b48866693598a57b9a65728f2a4ea2c98391ba242511effc52251371fac0b5012d7cc08ac964d7724ecfdc11e4c6"
+RPM_NAME = "u-boot-khadas-vim-2023.04-2.2.aarch64.rpm"
+RPM_HASH = "f53496ffb22eeaaf3470f1dacc788be04f49702158cd1896aff667662da5a7072395992742147b69b8b92e3cc1ac1e76be94a0194ef072a844fa36ebbf678ab2"
 
 RPROVIDES:${PN} += "u-boot-khadas-vim \
 u-boot-loader"

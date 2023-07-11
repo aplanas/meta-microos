@@ -4,11 +4,10 @@ LICENSE = "MIT"
 
 PV = "1.4.2"
 
-RPM_NAME = "python310-pyjnius-1.4.2-2.4.aarch64.rpm"
-RPM_HASH = "3d968f407620dbc63b5a83fa2e97b238c8d96af05ff2f5fee1dde15e2c2cbcc644b22a947d32c8b0ad8a773803c74e82e4265ffea5571dcf38b85bd5861fd778"
+RPM_NAME = "python310-pyjnius-1.4.2-2.6.aarch64.rpm"
+RPM_HASH = "cc2de41824f0335016d3597c82a4236024b9188e417ce5de83925f18804940f2bad334b9c3b205c8799623d1bc95daa131c775d1c1286ff48272a4fc653f6fbc"
 
-RPROVIDES:${PN} += "python3-pyjnius \
-python3.10dist-pyjnius \
+RPROVIDES:${PN} += "python3.10dist-pyjnius \
 python310-pyjnius \
 python3dist-pyjnius"
 

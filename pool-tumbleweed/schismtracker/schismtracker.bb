@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "20221201"
 
-RPM_NAME = "schismtracker-20221201-1.3.aarch64.rpm"
-RPM_HASH = "2a1d14217595c0b438f833ae75871a2b9147b7289004eaec5494ec14ef1f71744460bd0e41a0ea51936b5f8111931ef2b7e9c44b2db6953d392da1e6dd85912c"
+RPM_NAME = "schismtracker-20221201-1.4.aarch64.rpm"
+RPM_HASH = "2cd0d9021a7914c8ac48c70fa8af1e63e1b7b7ae2d5de6628f8b0946e7bd7b46dec9d209ce5b787931a651adc12ac2d53ec37c86f9fa501c80d0c46d14c7b29b"
 
 RPROVIDES:${PN} += "schismtracker"
 

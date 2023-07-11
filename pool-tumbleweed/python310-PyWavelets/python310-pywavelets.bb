@@ -12,12 +12,10 @@ LICENSE = "MIT"
 
 PV = "1.4.1"
 
-RPM_NAME = "python310-PyWavelets-1.4.1-1.5.aarch64.rpm"
-RPM_HASH = "20e79234adb02135e60a151633958795ffe683f0025eb41f1f3f378f1e3eadee460e07f64a1bd35d665dec429f4b4da7f9033e9bfcf532af8215cb3c1bd0b86b"
+RPM_NAME = "python310-PyWavelets-1.4.1-1.7.aarch64.rpm"
+RPM_HASH = "05cb94860e14aae5dc430556a112da970368f63cef581728ad9bc6d8237c521dab641e2792a3ca9feb52e33a36380053b78c9f7b1ca9a74809c0b593312c6c02"
 
-RPROVIDES:${PN} += "python3-PyWavelets \
-python3-PyWavelets-doc \
-python3.10dist-pywavelets \
+RPROVIDES:${PN} += "python3.10dist-pywavelets \
 python310-PyWavelets \
 python310-PyWavelets-doc \
 python3dist-pywavelets"

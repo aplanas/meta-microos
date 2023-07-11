@@ -6,13 +6,11 @@ LICENSE = "MIT"
 
 PV = "0.7.0"
 
-RPM_NAME = "python310-azure-synapse-spark-0.7.0-1.8.noarch.rpm"
-RPM_HASH = "5f9fa84bf55fd97975493da2707dae1f9a3ca5b0bd99d585a367bcb38ca72891112f8bfe32f4a51557a21258f7b0c604a26a63b2063ba4a1f00bb59da539b07e"
+RPM_NAME = "python310-azure-synapse-spark-0.7.0-1.10.noarch.rpm"
+RPM_HASH = "87302f026e8cf81a64d26f5ff2ab5a42e964e168ebfda46886d95bc8a6ceca61fae702f6b1766ccce0f3c45d63761c0faabbaaaf6ede8a93e5f9a0e1661d8b6c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-synapse \
-python3-azure-synapse-spark \
-python3.10dist-azure-synapse-spark \
+RPROVIDES:${PN} += "python3.10dist-azure-synapse-spark \
 python310-azure-synapse \
 python310-azure-synapse-spark \
 python3dist-azure-synapse-spark"

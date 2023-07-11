@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.4"
 
-RPM_NAME = "nvme-cli-bash-completion-2.4-1.1.noarch.rpm"
-RPM_HASH = "4905b79d566c718db52adb26da2b41f3740595820740dad3eabe9863b66a644b35c5c84083e371bba640a46a16f2cabbee69bf7f3e2c896b02a88d66932618b8"
+RPM_NAME = "nvme-cli-bash-completion-2.4-1.2.noarch.rpm"
+RPM_HASH = "df62773922ccbfd0fb155d732c21ad173e0096e5c7c4c2956e50f4bbe2495c4b7738d14162977713db210839f0678d78432740b34b84c1871b8c1cf36780d5dc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nvme-cli-bash-completion"

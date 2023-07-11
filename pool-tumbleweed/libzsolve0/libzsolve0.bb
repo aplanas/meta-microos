@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.6.10"
 
-RPM_NAME = "libzsolve0-1.6.10-1.1.aarch64.rpm"
-RPM_HASH = "e4b03c4501df2a555e2efe5d288ca62e39e981617725698fe543ff433e20ad2ae98aca15ddcebf88776c6bfbeb8d5fd0b965663aeef7b62ec9e6e3e62de39514"
+RPM_NAME = "libzsolve0-1.6.10-1.2.aarch64.rpm"
+RPM_HASH = "d4c2a2258466ddf2a3d982390097dfc76f44e9f0a40e16f0a77860b17c73583ff0e2627e178e96ecd907fa4c07d351c0cb7c4549861f03c74ea110cc83d9398b"
 
 RPROVIDES:${PN} += "libzsolve.so.0 \
 libzsolve0"

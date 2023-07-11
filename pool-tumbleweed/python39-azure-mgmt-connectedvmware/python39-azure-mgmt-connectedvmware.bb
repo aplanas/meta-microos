@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0b3"
 
-RPM_NAME = "python39-azure-mgmt-connectedvmware-1.0.0b3-1.3.noarch.rpm"
-RPM_HASH = "96d8bbd58e014373df55265f117fb25988f906d5baca197848b7ebe14a318179376b1b9a03d822983ad359a4018c8ec552e034930ab86df3f9afae13b982137b"
+RPM_NAME = "python39-azure-mgmt-connectedvmware-1.0.0b3-1.4.noarch.rpm"
+RPM_HASH = "0f8516c206cd1b991d181854be213ba2b08344b1a531393c105644e1c210d9fdb15b811cc69e1a1c01ba5660760945f1ab4740f3621b4daacddf4e81cc3693b1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-connectedvmware \

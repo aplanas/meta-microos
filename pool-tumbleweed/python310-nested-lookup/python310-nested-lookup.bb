@@ -4,12 +4,11 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "0.2.25"
 
-RPM_NAME = "python310-nested-lookup-0.2.25-1.3.noarch.rpm"
-RPM_HASH = "38971f92105a71befbd50c56227ac6f464ed27fd10f177f00eda19a7cd3480eb655959b123916f72ff305554a13b947d45b97adc35c29fc39493444c1796aaa7"
+RPM_NAME = "python310-nested-lookup-0.2.25-1.4.noarch.rpm"
+RPM_HASH = "7dd16397412d36dadd81ec00b5f9931c29d01d461b65e0703b3359d0c1db9a347a5af4b3ab46c6b59d4f1daedbd6b3e050900e5fa5b31df94263d272ee167cae"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-nested-lookup \
-python3.10dist-nested-lookup \
+RPROVIDES:${PN} += "python3.10dist-nested-lookup \
 python310-nested-lookup \
 python3dist-nested-lookup"
 

@@ -5,8 +5,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-azoth-depester-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "020ebc98a17190e8f3b90ac1355e1ceafd87bfee417d60cde2043ea61af0bf8f73571e08352522a4020c6e8727897ad2e3bf160cf99f09492b46e2e01dcfcf2f"
+RPM_NAME = "leechcraft-azoth-depester-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "5cf64559d42475e93e841843d795dfc1b3080f1d1c2b9e883f8f98e1e61428ab59401520e0f9cccc1b4fad114a924d00c4af5f68e2417632e7128f7a8cfbcbeb"
 
 RPROVIDES:${PN} += "leechcraft-azoth-depester \
 libleechcraft-azoth-depester.so"

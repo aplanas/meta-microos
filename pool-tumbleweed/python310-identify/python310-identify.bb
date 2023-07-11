@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "2.2.13"
 
-RPM_NAME = "python310-identify-2.2.13-1.9.noarch.rpm"
-RPM_HASH = "2d31dd120123f6b01fe95649b86ec4582eac3a85c63b0faeacec32aa188adcd9b073a6b71158caf520264c8acf76eec54ada70350a163d2feffe3e83d8f5f8bf"
+RPM_NAME = "python310-identify-2.2.13-1.11.noarch.rpm"
+RPM_HASH = "a30b659f62c0ff510ef25ccd3e9c82d6cf1d1d5555ae8e0f23050c504f1ed2807f15ec0a8c46aeebb497d85bdeab5a606e46b60f355e1e4b5116e18069717e24"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-identify \
-python3.10dist-identify \
+RPROVIDES:${PN} += "python3.10dist-identify \
 python310-identify \
 python3dist-identify"
 

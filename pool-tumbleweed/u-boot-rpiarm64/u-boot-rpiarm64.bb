@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2023.04"
 
-RPM_NAME = "u-boot-rpiarm64-2023.04-2.1.aarch64.rpm"
-RPM_HASH = "3f2771fbe2dabb48d87b022fe3b690270b30a9d5e42ee486dc1250ec96f143cbb55280bb9ab280b81d6ad6408b1242124211a095201082e8d9d732d4df86c926"
+RPM_NAME = "u-boot-rpiarm64-2023.04-2.2.aarch64.rpm"
+RPM_HASH = "4dce988e2dbed9a1d0b1e87bca8d5686d5c7172d7c4cf49b3cc9ea6580ab4060fc38aebae8ff774756c1fe66f8fc499ef6fa9df4e0897031a87bee71cc3cbf24"
 
 RPROVIDES:${PN} += "u-boot-loader \
 u-boot-rpi3 \

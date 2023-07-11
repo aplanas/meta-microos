@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.1svn15878"
 
-RPM_NAME = "texlive-egameps-doc-2023.201.1.1svn15878-53.1.noarch.rpm"
-RPM_HASH = "bea0c447b61c3a1e4b53a429ccafb9bef22f4e218bf44998f6fe298282abdc888f75a3e8dd51a04e3c7033a9a83f956195a11a7cb18d138028babc5001771a25"
+RPM_NAME = "texlive-egameps-doc-2023.201.1.1svn15878-53.2.noarch.rpm"
+RPM_HASH = "a230776c4004b5140ea6ef7fc10536b5ada577c53da743c00c3d05f5c95a6bcfc3e9a78eefc61c54ef03f54666e60ddd8208b83f8332764402337f69991e590e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-egameps-doc"

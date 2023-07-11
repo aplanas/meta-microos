@@ -7,10 +7,10 @@ Maxima commands from an html page. \
 Xmaxima is written in the Tcl/Tk language."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.46.0"
+PV = "5.47.0"
 
-RPM_NAME = "maxima-xmaxima-5.46.0-1.20.aarch64.rpm"
-RPM_HASH = "248c759915c308a5e8e32e6356a4f27e920746505b765b5d5fc045c5b45fac89d2052164147867ebad27b069585888852296ae79cb76137922512b2c80167b6d"
+RPM_NAME = "maxima-xmaxima-5.47.0-1.3.aarch64.rpm"
+RPM_HASH = "853cd61a1d63922a0db74a62df4f9e3febddc92356a36cd25e612abd619dc735c1e17612d6318299f710b7f0884263bcf3ebaed7b0a6fb1452e20b08619fbfc4"
 
 RPROVIDES:${PN} += "maxima-xmaxima \
 xmaxima"

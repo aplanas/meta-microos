@@ -6,11 +6,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.1.2"
 
-RPM_NAME = "python311-python-qprogedit-4.1.2-2.19.noarch.rpm"
-RPM_HASH = "cb23a1ed7b4651ee2fc3a241d11df81a668714ca9675f496cc776b329c7cd63a6539f6714d35345ef7b3e65fa1ad9f8819396af083f735afff76812d13255f81"
+RPM_NAME = "python311-python-qprogedit-4.1.2-2.21.noarch.rpm"
+RPM_HASH = "6aa0b5ef79637b6cd0444325b3af6fbc6822b059460918b3934f59b88eaaf02ef71225eb122b0899598cec18f3681a5bbeada3a30b2f078c82b4d5fadcc9f01d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-python-qprogedit \
+RPROVIDES:${PN} += "python3-python-qprogedit \
+python3.11dist-python-qprogedit \
 python311-python-qprogedit \
 python3dist-python-qprogedit"
 

@@ -6,8 +6,8 @@ LICENSE = "SUSE-Repoze"
 
 PV = "1.0.0"
 
-RPM_NAME = "python39-repoze.sphinx.autointerface-1.0.0-1.3.noarch.rpm"
-RPM_HASH = "c4ffcb732d2798aeb5fca825e3bf950cdffe786bef4b582d584267bdb9042bed3307b3a4b3c5e7089890804c75bf9a07f9ba6c3495483a9fb2a92ab66e168286"
+RPM_NAME = "python39-repoze.sphinx.autointerface-1.0.0-2.3.noarch.rpm"
+RPM_HASH = "819502f16293b7400ab5f8bb4cd94398f5693df852c914308f0c3dc0c6d9d81d2921d6f25eaad5e6d44f771a6ec5460ea8d1a808d3ded076ebd5897555cdec1a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-repoze.sphinx.autointerface \

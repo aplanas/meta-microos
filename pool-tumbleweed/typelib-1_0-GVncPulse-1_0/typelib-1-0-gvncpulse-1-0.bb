@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-only & LGPL-2.1-or-later"
 
 PV = "1.3.1"
 
-RPM_NAME = "typelib-1_0-GVncPulse-1_0-1.3.1-1.5.aarch64.rpm"
-RPM_HASH = "9484c30bc6025ca1aeac76f7808fdc77adc46cfba2891863961c5e62c471c6b9fdce1254002f281233a168da251a323f09d1a020cd374f0ff7ff6e1abb8b0edd"
+RPM_NAME = "typelib-1_0-GVncPulse-1_0-1.3.1-1.6.aarch64.rpm"
+RPM_HASH = "9ef1252fcc61dd9ce9cae62c89e01f706b94702fe1e2b9127d1db4400fd819418fb9cb77a5cafd0a08399ac248e9764440a57b720e3c81b33fff7aa6dc2906c0"
 
 RPROVIDES:${PN} += "typelib-1-0-GVncPulse-1-0 \
 typelib-GVncPulse"

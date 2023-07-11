@@ -4,11 +4,10 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.2.2"
 
-RPM_NAME = "python310-pycapnp-1.2.2-1.6.aarch64.rpm"
-RPM_HASH = "e160ffd17e4598255a4a6247edd51e5b7f0f0576d6cb417567007181d04d7c66c5a149b522e71e8700470254a6d7dbe7137e133c76637d11fdb58a6395defdfe"
+RPM_NAME = "python310-pycapnp-1.2.2-1.8.aarch64.rpm"
+RPM_HASH = "1924f88991fa38bc676e9f93b0fa9614e37eef0e2e8d11d57864fe5fe5066fbc71b9b6c380e7964d68aab3441326b10099702aa9095f3efaa2f89179a0c112e0"
 
-RPROVIDES:${PN} += "python3-pycapnp \
-python3.10dist-pycapnp \
+RPROVIDES:${PN} += "python3.10dist-pycapnp \
 python310-pycapnp \
 python3dist-pycapnp"
 

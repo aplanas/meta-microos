@@ -8,11 +8,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.6.0"
 
-RPM_NAME = "python311-setuptools-rust-1.6.0-1.1.noarch.rpm"
-RPM_HASH = "105097d0288e8e0b4eca46f0f4e67aef99c7f805c70e771b1d14107236a7501459b4d176ea046c9d83231b91d3c8da75fc312287926d5cb41921a52c4d2cc563"
+RPM_NAME = "python311-setuptools-rust-1.6.0-1.3.noarch.rpm"
+RPM_HASH = "278e8030d4644e8a513cfea483458d2aea2a5e5e30e6df284450274a9c844733c71dbae7617672d09faf9cccaebaa6153ef492260ecf18bf37731507b313511f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-setuptools-rust \
+RPROVIDES:${PN} += "python3-setuptools-rust \
+python3.11dist-setuptools-rust \
 python311-setuptools-rust \
 python3dist-setuptools-rust"
 

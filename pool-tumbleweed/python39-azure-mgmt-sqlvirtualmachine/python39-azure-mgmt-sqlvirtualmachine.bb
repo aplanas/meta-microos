@@ -7,10 +7,10 @@ replace the old Azure Service Management (ASM). \
 This package has been tested with Python 2.7, 3.5, 3.6 and 3.7."
 LICENSE = "MIT"
 
-PV = "1.0.0b5"
+PV = "1.0.0b6"
 
-RPM_NAME = "python39-azure-mgmt-sqlvirtualmachine-1.0.0b5-1.3.noarch.rpm"
-RPM_HASH = "5665d3c10291a04e8fc0985ddaf4c2b5f8e7452b7b6422b3607a1cf7cb9b522d113b736d0d28a2389978fcc1fd270003a7013c3191e4dbc88e8354c8c6a82afe"
+RPM_NAME = "python39-azure-mgmt-sqlvirtualmachine-1.0.0b6-1.1.noarch.rpm"
+RPM_HASH = "828fa3b1b7933c4c7bc46cc7c093fcff5c5c46fe2288de888fd815fdd9217d8719fc51037e55127564d5c501ebe2c5932bc189aa16472ee877b6f91a60ea3115"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-sqlvirtualmachine \
@@ -22,6 +22,6 @@ python39-azure-common \
 python39-azure-mgmt-core \
 python39-azure-mgmt-nspkg \
 python39-azure-nspkg \
-python39-msrest"
+python39-isodate"
 
 inherit rpm

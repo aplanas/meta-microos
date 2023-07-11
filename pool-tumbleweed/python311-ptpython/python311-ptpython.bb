@@ -4,11 +4,12 @@ LICENSE = "ISC"
 
 PV = "3.0.22"
 
-RPM_NAME = "python311-ptpython-3.0.22-1.4.noarch.rpm"
-RPM_HASH = "dd303b6afdfc501e644facc9421811b89dba4485c18f7016397b285420ac939a0abeef6c30be3a44436fdd4f052a690ec853f881b23a8ced562905f40c64496a"
+RPM_NAME = "python311-ptpython-3.0.22-1.6.noarch.rpm"
+RPM_HASH = "97ec71370091d26969d6a7ece9f6fbd9820234de00da0b9834de6162e13f6c2108feb4c5685423c47c0c8d3315b81199795a3f6b191c1b05fbd6a94ad55f83f6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-ptpython \
+RPROVIDES:${PN} += "python3-ptpython \
+python3.11dist-ptpython \
 python311-ptpython \
 python3dist-ptpython"
 

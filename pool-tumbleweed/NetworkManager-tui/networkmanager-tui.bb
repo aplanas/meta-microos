@@ -4,10 +4,10 @@ NetworkManager, to allow performing some of the operations supported \
 by nm-connection-editor and nm-applet in a non-graphical environment."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.42.6"
+PV = "1.42.8"
 
-RPM_NAME = "NetworkManager-tui-1.42.6-2.1.aarch64.rpm"
-RPM_HASH = "458192b2b280514a566fcc1d5abfa209bd2ad0182b9aa0b150bea472df16793f18871727973e4f35b9ceb288fb0616beda5c54099338856a0c1801092e9e6bce"
+RPM_NAME = "NetworkManager-tui-1.42.8-1.1.aarch64.rpm"
+RPM_HASH = "7ce8ed72c6d3d3613430085d045d4b40978e56214cb0f759b7603295640cb23692565063004b5683184fb8b5599c106e4c04ff35aa2d87c024d0a6f892f84197"
 
 RPROVIDES:${PN} += "NetworkManager-tui"
 

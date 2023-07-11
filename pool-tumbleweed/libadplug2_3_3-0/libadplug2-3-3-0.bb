@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "2.3.3"
 
-RPM_NAME = "libadplug2_3_3-0-2.3.3-1.3.aarch64.rpm"
-RPM_HASH = "14417cf4fbd02ac55ca9fa2f41998b51390bd03c7d3baf4f4ea9b32cbf70ba737df9d4d79f3e8578a3e676b040c00ea0b3378bd13a0887eab1630638a6a53bba"
+RPM_NAME = "libadplug2_3_3-0-2.3.3-1.4.aarch64.rpm"
+RPM_HASH = "e612c4fb78f8d2b607eaa9115eecb8ea29681d0b2f08b1a41c6339a6d8eb34f8d18744a9f5b03ea60fa5ebe159c1a52b08dfecc92ed1018c380ac2e577bf6b29"
 
 RPROVIDES:${PN} += "libadplug-2.3.3.so.0 \
 libadplug2-3-3-0"

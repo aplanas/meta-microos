@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "4.6.0"
 
-RPM_NAME = "yast2-ycp-ui-bindings-4.6.0-1.3.aarch64.rpm"
-RPM_HASH = "d331ff172a327d50e6f1cbdca8250a2c2cd5d0c3696bc404b2ad98d408bb2f036a859f2d5c3e448f756586e3aa7a8c1cace932c12b042c5c9d7dc81a8607fc63"
+RPM_NAME = "yast2-ycp-ui-bindings-4.6.0-1.4.aarch64.rpm"
+RPM_HASH = "6692fea61e1266d6ce52334614d0699bb08c7f4088412390bf0fb37fbd1d25dca90c1e17f9ddc1b97cada63101a129d3e3765ce07afc2118edc96898911b8359"
 
 RPROVIDES:${PN} += "libpy2UI.so.2 \
 yast2-ycp-ui-bindings"

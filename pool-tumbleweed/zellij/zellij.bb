@@ -7,10 +7,10 @@ Zellij includes a layout system, and a plugin system allowing one to create plug
 language that compiles to WebAssembly."
 LICENSE = "MIT"
 
-PV = "0.36.0"
+PV = "0.37.2"
 
-RPM_NAME = "zellij-0.36.0-1.1.aarch64.rpm"
-RPM_HASH = "4b6a01ac2201b80a1623ba709957bebc1424751608a3b15429e4497748aa4ad8c7f96e3a69a930fc713e0aaafbd4e7e4ff7d95cf8f11e85686404fb76b2ca04b"
+RPM_NAME = "zellij-0.37.2-1.1.aarch64.rpm"
+RPM_HASH = "b5c87c32bb7045b488a08c2aa8a61effd48afe6e03c4488ac534357f9a884325465df7e7107213bde9f7453954fb7b0ded23daa0d5b5a539bbdd46df0203d0cf"
 
 RPROVIDES:${PN} += "bundled-rust-crate-addr2line \
 bundled-rust-crate-adler \
@@ -33,8 +33,10 @@ bundled-rust-crate-atomic-waker \
 bundled-rust-crate-atty \
 bundled-rust-crate-autocfg \
 bundled-rust-crate-backtrace \
+bundled-rust-crate-backtrace-ext \
 bundled-rust-crate-base64 \
 bundled-rust-crate-bitflags \
+bundled-rust-crate-bitvec \
 bundled-rust-crate-block-buffer \
 bundled-rust-crate-blocking \
 bundled-rust-crate-boxfnonce \
@@ -86,6 +88,8 @@ bundled-rust-crate-directories-next \
 bundled-rust-crate-dirs \
 bundled-rust-crate-dirs-sys \
 bundled-rust-crate-dirs-sys-next \
+bundled-rust-crate-dynasm \
+bundled-rust-crate-dynasmrt \
 bundled-rust-crate-either \
 bundled-rust-crate-enum-iterator \
 bundled-rust-crate-enum-iterator-derive \
@@ -95,11 +99,14 @@ bundled-rust-crate-erased-serde \
 bundled-rust-crate-event-listener \
 bundled-rust-crate-fallible-iterator \
 bundled-rust-crate-fastrand \
+bundled-rust-crate-file-id \
 bundled-rust-crate-filedescriptor \
+bundled-rust-crate-filetime \
 bundled-rust-crate-finl-unicode \
 bundled-rust-crate-fixedbitset \
 bundled-rust-crate-fnv \
 bundled-rust-crate-form-urlencoded \
+bundled-rust-crate-funty \
 bundled-rust-crate-futures-core \
 bundled-rust-crate-futures-io \
 bundled-rust-crate-futures-lite \
@@ -116,12 +123,17 @@ bundled-rust-crate-humantime \
 bundled-rust-crate-iana-time-zone \
 bundled-rust-crate-ident-case \
 bundled-rust-crate-idna \
+bundled-rust-crate-include-dir \
+bundled-rust-crate-include-dir-macros \
 bundled-rust-crate-indexmap \
+bundled-rust-crate-inotify \
+bundled-rust-crate-inotify-sys \
 bundled-rust-crate-interprocess \
 bundled-rust-crate-intmap \
 bundled-rust-crate-inventory \
 bundled-rust-crate-io-lifetimes \
 bundled-rust-crate-is-ci \
+bundled-rust-crate-is-terminal \
 bundled-rust-crate-itoa \
 bundled-rust-crate-kdl \
 bundled-rust-crate-kv-log-macro \
@@ -152,13 +164,15 @@ bundled-rust-crate-more-asserts \
 bundled-rust-crate-names \
 bundled-rust-crate-nix \
 bundled-rust-crate-nom \
+bundled-rust-crate-notify \
+bundled-rust-crate-notify-debouncer-full \
 bundled-rust-crate-num-cpus \
 bundled-rust-crate-num-derive \
-bundled-rust-crate-num-integer \
 bundled-rust-crate-num-traits \
 bundled-rust-crate-object \
 bundled-rust-crate-once-cell \
 bundled-rust-crate-opaque-debug \
+bundled-rust-crate-option-ext \
 bundled-rust-crate-ordered-float \
 bundled-rust-crate-os-str-bytes \
 bundled-rust-crate-owo-colors \
@@ -187,6 +201,7 @@ bundled-rust-crate-proc-macro2 \
 bundled-rust-crate-ptr-meta \
 bundled-rust-crate-ptr-meta-derive \
 bundled-rust-crate-quote \
+bundled-rust-crate-radium \
 bundled-rust-crate-rand \
 bundled-rust-crate-rand-chacha \
 bundled-rust-crate-rand-core \
@@ -207,6 +222,7 @@ bundled-rust-crate-rustc-version \
 bundled-rust-crate-rustix \
 bundled-rust-crate-rustversion \
 bundled-rust-crate-ryu \
+bundled-rust-crate-same-file \
 bundled-rust-crate-scopeguard \
 bundled-rust-crate-seahash \
 bundled-rust-crate-semver \
@@ -219,6 +235,7 @@ bundled-rust-crate-serde-value \
 bundled-rust-crate-serde-yaml \
 bundled-rust-crate-sha2 \
 bundled-rust-crate-shell-words \
+bundled-rust-crate-shellexpand \
 bundled-rust-crate-signal-hook \
 bundled-rust-crate-signal-hook-registry \
 bundled-rust-crate-simdutf8 \
@@ -242,6 +259,7 @@ bundled-rust-crate-supports-hyperlinks \
 bundled-rust-crate-supports-unicode \
 bundled-rust-crate-syn \
 bundled-rust-crate-sysinfo \
+bundled-rust-crate-tap \
 bundled-rust-crate-target-lexicon \
 bundled-rust-crate-tempfile \
 bundled-rust-crate-termcolor \
@@ -283,11 +301,13 @@ bundled-rust-crate-vte \
 bundled-rust-crate-vte-generate-state-changes \
 bundled-rust-crate-vtparse \
 bundled-rust-crate-waker-fn \
+bundled-rust-crate-walkdir \
 bundled-rust-crate-wasm-encoder \
 bundled-rust-crate-wasmer \
 bundled-rust-crate-wasmer-artifact \
 bundled-rust-crate-wasmer-compiler \
 bundled-rust-crate-wasmer-compiler-cranelift \
+bundled-rust-crate-wasmer-compiler-singlepass \
 bundled-rust-crate-wasmer-derive \
 bundled-rust-crate-wasmer-engine \
 bundled-rust-crate-wasmer-engine-dylib \
@@ -307,6 +327,7 @@ bundled-rust-crate-wezterm-color-types \
 bundled-rust-crate-wezterm-dynamic \
 bundled-rust-crate-wezterm-dynamic-derive \
 bundled-rust-crate-which \
+bundled-rust-crate-wyz \
 bundled-rust-crate-yaml-rust \
 bundled-rust-crate-zellij \
 bundled-rust-crate-zellij-client \

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.1.0"
 
-RPM_NAME = "watson-zsh-completion-2.1.0-1.4.noarch.rpm"
-RPM_HASH = "39af79e449fd12102958adfe6c2cc73b26795309c1934dc13a3ba819219a1e21af7d429100c2483c82f63b55adc8c34e043690d9bd2169a4ee3f3d50e61f70ba"
+RPM_NAME = "watson-zsh-completion-2.1.0-1.5.noarch.rpm"
+RPM_HASH = "459d7f1c2bbb561101d8e1ba2e7673555a099cc3389589da7e56f2fcb1e129dfac78fe4533f6de885a71874b211f1b027d9e418927ef6691008cf3925d357f0f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "watson-zsh-completion"

@@ -7,8 +7,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.0svn35928"
 
-RPM_NAME = "texlive-xprintlen-2023.201.1.0svn35928-52.1.noarch.rpm"
-RPM_HASH = "00ac24dc338ad5546742f355451e23e81c32320a65857a5c72dbc869256d1420a697c278cbcace6a2d9fea1faaaec14f438d8aa1815bd81c3d725525baeda425"
+RPM_NAME = "texlive-xprintlen-2023.201.1.0svn35928-52.2.noarch.rpm"
+RPM_HASH = "b80225d4a1ddea2b4b190d54b6a938cf299ebfed0fcb94e2a1228c0c591465722efe1fa9490b0bc330c2acec7fae4b0dc0494254177d8aa32bee28f6a9a95bd5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xprintlen.sty \

@@ -11,10 +11,10 @@ Lua on the users system as TeX distributions (TeX Live or \
 MikTeX) come bundled with LuaLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn65376"
+PV = "2023.208.1.0svn65376"
 
-RPM_NAME = "texlive-luaset-2023.201.1.0svn65376-52.1.noarch.rpm"
-RPM_HASH = "200ecf1f68b06d6625fe543e649716f82aa17e2b89d7b8539ea779fc35a9c39f538a45f013f65b6c733a7df6765cdc15472bd8f3e5199498e622c5b3d594adb2"
+RPM_NAME = "texlive-luaset-2023.208.1.0svn65376-53.1.noarch.rpm"
+RPM_HASH = "242e3b72bf70e44294011420653e13a6659d6c36b178772f4436a53c7902023fd65af9b51490159ff022971c03c4b3b64fbb30380393ac681cde48f3351b6ed5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-luaset.sty \

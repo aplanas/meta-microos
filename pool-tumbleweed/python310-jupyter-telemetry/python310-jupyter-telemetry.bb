@@ -8,12 +8,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.0"
 
-RPM_NAME = "python310-jupyter-telemetry-0.1.0-1.12.noarch.rpm"
-RPM_HASH = "ee8d2cf3e16465ed9bb38682e79989639263849f2b4e54e3252fc1e2bde65f7769e3f04764e0df0f9c97f0f6c9f14be823feeba1fac958f6c5a2131bc5aed2f5"
+RPM_NAME = "python310-jupyter-telemetry-0.1.0-1.14.noarch.rpm"
+RPM_HASH = "bd1e66c299d2eef1e6703b08a6235311cc68fab520dc37442cc2ff21af1df302fc0c150e82442997e124d0fa1f56aaa482e6e0151cdc166bea9fc4c293d4b869"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-jupyter-telemetry \
-python3.10dist-jupyter-telemetry \
+RPROVIDES:${PN} += "python3.10dist-jupyter-telemetry \
 python310-jupyter-telemetry \
 python3dist-jupyter-telemetry"
 

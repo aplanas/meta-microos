@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.4.2"
 
-RPM_NAME = "python39-pyjwkest-1.4.2-2.9.noarch.rpm"
-RPM_HASH = "baa490cacbef0cc346cc09d81d675029311dc405dd12d7f24ab744fcc99fb32d1cd405a5b516d0004787e633945ce2c41889a14aa8ac220007b796a6de43f121"
+RPM_NAME = "python39-pyjwkest-1.4.2-2.11.noarch.rpm"
+RPM_HASH = "9278717b3af6d4229b12da27c1f62f0b465bd17327af82ba5c17fe4e2a08fbedefc43c2d823cbf3487760ce80b41a08e8bfd10dd4f8f56a54ad8f10c7210fd24"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyjwkest \

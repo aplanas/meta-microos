@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt6Quick3DGlslParser6-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "f7eab31a9283565cce0e927fbd5b778a1be8a958e878afc200676134c594427ca65b108e475162da3223039a9411ce8cd2010c48655f0c02b597d39c16afb6f1"
+RPM_NAME = "libQt6Quick3DGlslParser6-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "c942d64cc0825c242328cc1834bde7f292ecb7183596640a20bc1b9cbc74b56b8636854d6a14baf0f834b293645fcdadf69d11287d2e917eeebf1d7081a6abbc"
 
 RPROVIDES:${PN} += "libQt6Quick3DGlslParser.so.6 \
 libQt6Quick3DGlslParser6"

@@ -6,11 +6,12 @@ LICENSE = "CNRI-Python"
 
 PV = "3.2.1"
 
-RPM_NAME = "python311-py3dns-3.2.1-1.13.noarch.rpm"
-RPM_HASH = "8c9c77b7652d6c745b312655b5967cf20fab896c567d9efc84d940e3403499549c2cfabc6c5267bb15b213244670da748fed44ad8beb30d8b74ed514b7e8989b"
+RPM_NAME = "python311-py3dns-3.2.1-1.14.noarch.rpm"
+RPM_HASH = "dc305162c1b99e0860dd34842a40264a2086fea2f652e3ccc95ab3c2d85b908d5768010c9708ec616d20d1c0993410bdf82c86f8c785c3fbe863bfc508595bfb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-py3dns \
+RPROVIDES:${PN} += "python3-py3dns \
+python3.11dist-py3dns \
 python311-py3dns \
 python3dist-py3dns"
 

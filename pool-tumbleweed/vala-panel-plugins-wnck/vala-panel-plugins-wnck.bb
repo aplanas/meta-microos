@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.5.0"
 
-RPM_NAME = "vala-panel-plugins-wnck-0.5.0-1.6.aarch64.rpm"
-RPM_HASH = "21628f9ced90821d7313ef600ad04093e45be944d47af6806845f6e545c26c8db8d05b96184372f2b61bcef13ab89a4d25ae74c0264e64894104c14f5bd8dc49"
+RPM_NAME = "vala-panel-plugins-wnck-0.5.0-1.7.aarch64.rpm"
+RPM_HASH = "bed6fe19af3ea7fcfe290c434150fc0f85d864a500ddc1459416a11a3c14a66a9549d403e4828ae0032358713e42ba449cd1511b730dbc6e667a3194f063b445"
 
 RPROVIDES:${PN} += "libbuttons.so \
 libdeskno.so \

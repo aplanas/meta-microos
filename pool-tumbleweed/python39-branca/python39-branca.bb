@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.6.0"
 
-RPM_NAME = "python39-branca-0.6.0-2.3.noarch.rpm"
-RPM_HASH = "81437e453ec78e2551bad166dd09726f5964c792e95bc4db88374d73c6b4b5ccc3c2d26fd4f045ca8a3dddac2e4daa5dd9d4c3e3648c85262eaa05bdf727ba7c"
+RPM_NAME = "python39-branca-0.6.0-2.4.noarch.rpm"
+RPM_HASH = "ad95033ad3f3f22e97a7dad0d3c7f6c4b089cf97f55e9062136abfe4bd27b57b9ce89075ffb1e78d9df35f8099a530de5357d8e383827540b97fb7ddb5512c81"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-branca \

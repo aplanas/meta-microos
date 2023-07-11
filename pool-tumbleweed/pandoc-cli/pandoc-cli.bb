@@ -5,15 +5,14 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.1.1"
 
-RPM_NAME = "pandoc-cli-0.1.1-2.2.aarch64.rpm"
-RPM_HASH = "da403e5235f878752951e9742bf51c59235f98c628dba63951eaa4a54bac39eb1f68afbde276b2aca51885dc90714fc40957abef5c79e2bcd62d5b8e5fd4285a"
+RPM_NAME = "pandoc-cli-0.1.1-2.5.aarch64.rpm"
+RPM_HASH = "e68c77705fce210fe2815bb3e32b31fcdd7ab776035c5f9250166f3e465129c7839cc1e5b843340db2e8abff8d57a00e0130ef3f805489c5a6328693a3e21ebf"
 
 RPROVIDES:${PN} += "pandoc \
 pandoc-cli"
 
 RDEPENDS:${PN} += "ghc-pandoc \
 ld-linux-aarch64.so.1 \
-libatomic.so.1 \
 libc.so.6 \
 libffi.so.8 \
 libgmp.so.10 \

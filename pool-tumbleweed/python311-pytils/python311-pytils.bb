@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "0.4.1"
 
-RPM_NAME = "python311-pytils-0.4.1-2.2.noarch.rpm"
-RPM_HASH = "b852aace1269923929225c7684899ae629b094c3b7b1ee6479e705b05dcf1e9c3a30fc018fd081610df9602787a535d4f023391a200e0f25187a1b47c9602969"
+RPM_NAME = "python311-pytils-0.4.1-2.3.noarch.rpm"
+RPM_HASH = "cb11fa3f0448f818e01d2a178168e8dcda5e5cbcec1bb426f452fc4d6fb8082a8d8870c7952f23a205d1eedc6d9a65fe66ca51b88ee83045924ad679fbe7e61b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pytils \
+RPROVIDES:${PN} += "python3-pytils \
+python3.11dist-pytils \
 python311-pytils \
 python3dist-pytils"
 

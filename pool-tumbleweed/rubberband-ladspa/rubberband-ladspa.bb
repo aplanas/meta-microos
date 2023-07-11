@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.1.0"
 
-RPM_NAME = "rubberband-ladspa-3.1.0-1.3.aarch64.rpm"
-RPM_HASH = "394598cafc841f65b70b0037a5c10bd4f5546057e489650ebb410101b177b819421098a56a37c10be4688c339d89a1c24f7defa55d7210f315b549f349a68e64"
+RPM_NAME = "rubberband-ladspa-3.1.0-1.4.aarch64.rpm"
+RPM_HASH = "07f4d721e53bba666de30165ed6960aaf0b45948475476f9b545ddb66195c8d1c4ff4283085cc126a97cdc5b7d191cf290c11cd46d45604cce951483a931a73d"
 
 RPROVIDES:${PN} += "rubberband-ladspa"
 

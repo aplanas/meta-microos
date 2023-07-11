@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.4.9"
 
-RPM_NAME = "vectorscan-examples-5.4.9-2.1.aarch64.rpm"
-RPM_HASH = "6ba17d0891cd578de2b5c0217f9488bc30c2ccdc1e0c64bf4d74f4c59ec6f2951cf898393c8fa3bf05b2c41defa00afe3cd459d79d96a058cf0dcbe3a77f8782"
+RPM_NAME = "vectorscan-examples-5.4.9-2.2.aarch64.rpm"
+RPM_HASH = "acf6bc961a59f37034031a53929f9444f4b96b6893f8c59c46b83954372af0f71e96ee89508774c01aa32f001c354e8bb026a625f14a85d8329753118b9bcfc6"
 
 RPROVIDES:${PN} += "vectorscan-examples"
 

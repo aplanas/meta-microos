@@ -7,8 +7,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.3.0svn66115"
 
-RPM_NAME = "texlive-zhnumber-2023.201.3.0svn66115-52.1.noarch.rpm"
-RPM_HASH = "f80f0ab49d94a2fc05d6c2ef18564b3a2cef8c98d9aeceb7d8fca266cad5c8fd27d2e503fe1d82e40c2fce72be04c9f3cafdd0af1d0656a4ba733b73ee216019"
+RPM_NAME = "texlive-zhnumber-2023.201.3.0svn66115-52.2.noarch.rpm"
+RPM_HASH = "340a5dba86394e09d6bfb55b4bc3ac77d6e0027650b5704458f04cf9149dc1f49fd2913fcd73be71e8843b6c9b62614b49098fdb4341274f2e20fa6692994923"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-zhnumber-big5.cfg \

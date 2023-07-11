@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2.1"
 
-RPM_NAME = "python39-pyusb-1.2.1-1.8.noarch.rpm"
-RPM_HASH = "080903a7e9a2412fe146d4c4b24b72c0a34601eb3fef7b2e442f0f89b07621739b50ae6a9bbd8763928dc230d49bf76ab1c975a171e6c14be266e7bce75b9592"
+RPM_NAME = "python39-pyusb-1.2.1-1.10.noarch.rpm"
+RPM_HASH = "9d3264bbc2c826a3fa62c4fdb364636ebb310ff1c29940590555adace9e3b9dc1f4fed96e029d6136ad362ee9974fe3805adff9e617ec17492833ea0d9b4da6a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyusb \

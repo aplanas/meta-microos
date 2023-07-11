@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.4"
 
-RPM_NAME = "hda-verb-0.4-24.3.aarch64.rpm"
-RPM_HASH = "40ba2a04fb50fc1e67c46599faa236328e5d4ec5f1387b2e7964c6c87b3cab0ec5e34bd458f35a0902a5fe56e69437453f927181c3463f7c9b10c72d9111b1d2"
+RPM_NAME = "hda-verb-0.4-24.4.aarch64.rpm"
+RPM_HASH = "2f412028109e29f3cf592a7f740974e078e6c5b817caf1eeadd6001a3e81fc7ba61761960565e6ff6146115cdb3a46b526b2a89fe38856ac2ba7586617e67044"
 
 RPROVIDES:${PN} += "alsa-tools-/usr/bin/hda-verb \
 hda-verb"

@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "6.3.0"
 
-RPM_NAME = "sundials-doc-6.3.0-2.4.noarch.rpm"
-RPM_HASH = "e8eb65b31ed97c6e888b6829b8ed0279e4fac43d97ddd6cd0a710e47a421b263bd0daec8ab4eb1096e8661481efd6ba5d93639b0d1d677f2e7bf37c9143d135a"
+RPM_NAME = "sundials-doc-6.3.0-2.5.noarch.rpm"
+RPM_HASH = "3e9b0887dac9d1c71954f9cf84ff7ac7058304a17acd8d7ec1c4d245d24d41c302dbae87d81d50908ca0f0d19a54d4a510843d15e9ccc125b111acdf500ba4c0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sundials-doc"

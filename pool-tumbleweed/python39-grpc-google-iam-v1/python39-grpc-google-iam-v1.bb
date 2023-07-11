@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.12.4"
 
-RPM_NAME = "python39-grpc-google-iam-v1-0.12.4-1.4.noarch.rpm"
-RPM_HASH = "d4cb272199ec46d46fed94cc33689dcee2d5ffa32accd84dd24fc98a5c8d9f320f76baaa13d8697bb425b8bc2ecb8c550977985ce4fe189c014a702b8bbf0058"
+RPM_NAME = "python39-grpc-google-iam-v1-0.12.4-1.6.noarch.rpm"
+RPM_HASH = "3eddda3f33f9e3784ec3df0edd667c24e61d90fc902640515e3d4254033f765fc4e5cf567d04ce735d2a1c95ff1f477c5c334ccca80af5ec39363c9e7f842bd0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-grpc-google-iam-v1 \

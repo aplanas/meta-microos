@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.0.16"
 
-RPM_NAME = "svn2git-1.0.16-1.21.aarch64.rpm"
-RPM_HASH = "2daf2857bbc9124864a4e9de5cb4e840ebf63440cf6c6c9dc3167b350f26d3c414f392a4e7ab285ba5eadb4aaa09a6987770dec9d23eff7093937b48cb0fdbd3"
+RPM_NAME = "svn2git-1.0.16-1.22.aarch64.rpm"
+RPM_HASH = "7185d919c8c75e4efb1dcca01964395d212deb71f7488ccd411fef4321bff25421f9f9ef158ba90e971a5b8ac3b5d106d4e094a73b70c54f3cd9e92a2c09c85c"
 
 RPROVIDES:${PN} += "svn2git"
 

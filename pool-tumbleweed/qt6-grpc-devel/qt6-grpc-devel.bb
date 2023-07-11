@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-grpc-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "883f42242bbcd336b7a6c85e026563f4e513b1cff3c72e10582e77c5e9f61228eff1bedff70561ae085a39311b06f55be1f58d1474b0dfbadbc82407a88b0a91"
+RPM_NAME = "qt6-grpc-devel-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "8858466297c37543022150d40e79aa52aba0f68091a76127d1590166909f10f923fa08d3c5a3eccb3030892669ace0d52526cc8e4b1b279b774db78dd54510f1"
 
 RPROVIDES:${PN} += "cmake-Qt6Grpc \
 cmake-Qt6GrpcTools \

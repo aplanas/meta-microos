@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "5.2.5"
 
-RPM_NAME = "pcp-pmda-nutcracker-5.2.5-3.4.aarch64.rpm"
-RPM_HASH = "54db4025f30f8be2ae56a0bc6714c357b9edcd7804f7793a5d87328228e3c3eddb876365f2358c64cbe970353d9b0b6d0ae0c12fdd809ce514055e4414ffe007"
+RPM_NAME = "pcp-pmda-nutcracker-5.2.5-3.7.aarch64.rpm"
+RPM_HASH = "b7c189966aef5ba334ba36d613d39fdd63cc046acc2788a9ac78139b6521b12caec91395505c165a854b347f570d8dac36dc92302e40b9cf21c2b2d8a5b22090"
 
 RPROVIDES:${PN} += "config-pcp-pmda-nutcracker \
 pcp-pmda-nutcracker"

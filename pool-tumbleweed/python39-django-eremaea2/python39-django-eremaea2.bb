@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.0.18"
 
-RPM_NAME = "python39-django-eremaea2-2.0.18-1.1.noarch.rpm"
-RPM_HASH = "6c34ae13e9d2db837de98fbba38a9fa3991175e2b4d764dba1f3ed40ed4266a6928f7793be0cac4dd34fde8e2ef4208b225b5e73a8f893439d9f317c5e60be54"
+RPM_NAME = "python39-django-eremaea2-2.0.18-1.3.noarch.rpm"
+RPM_HASH = "594eda7b7a02bbe4f7a81f3fd8cd871d3fb18379a06c0747318bca415aff15c382d27921262bdb133f8a5308167605f4c16f18c9b3b017dddf7f8e4f3f1f6971"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-django-eremaea2 \

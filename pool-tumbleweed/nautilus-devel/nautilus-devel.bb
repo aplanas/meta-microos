@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
 PV = "44.2"
 
-RPM_NAME = "nautilus-devel-44.2-1.1.aarch64.rpm"
-RPM_HASH = "7d04d9cc00e16b99d44526b2426e81809649f33d257d2f1dc1e2916d62a868f82c75fdb0d0c2105f3bc0e53bb60250cc162793b50d4ea8a5a1630fd1eedd4391"
+RPM_NAME = "nautilus-devel-44.2-2.1.aarch64.rpm"
+RPM_HASH = "002062065ce99a340c4586e482153d5b1b83d93898148fb20e2080899297275b1286ddd4a3f7b6c244c9fa4d0e8134727f557a1eda845118b59d43af80bc4a27"
 
 RPROVIDES:${PN} += "nautilus-devel \
 pkgconfig-libnautilus-extension-4"

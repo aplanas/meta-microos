@@ -2,10 +2,10 @@ SUMMARY = "Bash Completion for powerstat"
 DESCRIPTION = "Bash completion script for powerstat."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.03.02"
+PV = "0.03.03"
 
-RPM_NAME = "powerstat-bash-completion-0.03.02-1.1.noarch.rpm"
-RPM_HASH = "ec1b2cf7367eeb12d1cb8305148484eeed34cfdbdef2f65566f83bdb88891b3e0dafbb0e96c6718cb4f348e5aac3cc06d092a921cbb39f6d1000809d8c63ec03"
+RPM_NAME = "powerstat-bash-completion-0.03.03-1.1.noarch.rpm"
+RPM_HASH = "84a0193d99e23b9bebcb74f97a89aa200442fa9611c2e9a183f2c380f74059d40705150af4291d2bca9e9a5739c80252721cf2d36d9d65822fd0432112ce3506"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "powerstat-bash-completion"

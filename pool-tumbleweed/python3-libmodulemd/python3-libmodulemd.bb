@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.14.0"
 
-RPM_NAME = "python3-libmodulemd-2.14.0-1.3.aarch64.rpm"
-RPM_HASH = "e60d39b1ff36f1483607efcd835a61d53e887efc812f831f57455c487b9e0c511ed5b4071db173a607030ea9ad7492a4c92e20985e2d73e7909e727d90b01949"
+RPM_NAME = "python3-libmodulemd-2.14.0-1.4.aarch64.rpm"
+RPM_HASH = "71f52ff0610168740ca1a45e1ad5cab6e57ebd825de801289c5b3f5c1492f0e44f0be7a347a12bf1ac03394a54d8f62c64c3812e37bc79bc36d07efc2fee37c2"
 
 RPROVIDES:${PN} += "python3-libmodulemd"
 

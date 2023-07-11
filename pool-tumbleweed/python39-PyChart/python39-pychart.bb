@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.39"
 
-RPM_NAME = "python39-PyChart-1.39-1.14.noarch.rpm"
-RPM_HASH = "0a27ab49bba5ef663d09107bd9aaf0d06c0d8f4a651483c593e77bdcc7075de3a5bbe3bad36b9b6bcd9701307d2a8d75acaf78a5ffe75e9c54e6af84d8de295b"
+RPM_NAME = "python39-PyChart-1.39-1.15.noarch.rpm"
+RPM_HASH = "0dc0902ea3c444eb6ea9ae1ebb416aba7ab61c3c3e53ab68fb21cf5d2c6922bfb84f4d00a058e78cdff8bd33da7def263a76ff21606ca882fde38bf02dc901bb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pychart \

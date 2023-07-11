@@ -20,8 +20,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.25"
 
-RPM_NAME = "perl-Data-Dump-1.25-1.9.noarch.rpm"
-RPM_HASH = "692257f00dab1f03fb0195acbb5d7a4261e6fe30bf914afff8019267cab73f8c0abeec7e0b228ee99fb9cb79d786a690d4c71e0837bd1de8389544c4346ca2ae"
+RPM_NAME = "perl-Data-Dump-1.25-1.10.noarch.rpm"
+RPM_HASH = "93ace24064a2312ca5d3f877e9ee52b348ae5b53a3c81262f967cc0b1c902feac1f03cba7bc8187dd87f9a8e81b3316a74892e64e08521738f6b06bc24f18a34"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Data--Dump \
@@ -32,6 +32,6 @@ perl-Data--Dump--Trace--Call \
 perl-Data--Dump--Trace--Wrapper \
 perl-Data-Dump"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

@@ -37,13 +37,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.5"
 
-RPM_NAME = "perl-Text-Capitalize-1.5-1.15.noarch.rpm"
-RPM_HASH = "3a1ee24812fd566f39474f9f3e4b7611e8e89c0fff55e1d70181b43073a331e2dd7262c2fc58088b48a803bb753fb61690cc14aba5417a5206bf7d44af5193f5"
+RPM_NAME = "perl-Text-Capitalize-1.5-1.16.noarch.rpm"
+RPM_HASH = "35a43e021b6e78e55d07fce4eaffa5e3a0a08075f1945d0db7a3f03414fd4797df990d3d7bdb825e9ab51cabc3a508eaa6d7b34c877b0fe6b71f6dde27d7f0c8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Text--Capitalize \
 perl-Text-Capitalize"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

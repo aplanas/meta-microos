@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.15.6"
 
-RPM_NAME = "folks-data-0.15.6-1.1.aarch64.rpm"
-RPM_HASH = "82822f7410a11ce7960057963ce502aaae6363f2a7c8d1b1f12dc8be098377a33c010aaaeff98558318330a74bb91cee327cd4e6f9e27a0c1e8620c855855d43"
+RPM_NAME = "folks-data-0.15.6-1.2.aarch64.rpm"
+RPM_HASH = "e156f4170270790087998a40110dd0dd66a3d9fb9fe7c3e6ac6e6a2bf90f33a6d3d21e2c565c9d49fdb04490000197ec0e37a9419ce853469086a9ded8382fca"
 
 RPROVIDES:${PN} += "folks-data \
 libfolks-data"

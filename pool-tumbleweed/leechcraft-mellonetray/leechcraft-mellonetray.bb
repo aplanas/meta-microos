@@ -5,8 +5,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-mellonetray-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "ed667c286b7806863bbad2447a2986dd8c33c0244144ecdc8946a64f74f02acbea3cb456540ff8d34d7697e3984a8af0073ecbabe2304953d452ca3367901c4d"
+RPM_NAME = "leechcraft-mellonetray-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "c7d3b0064a2f5fd9f8b8ddcb73a01e8fd68273e50745f1ba8222e2c336acdb72b586653d15b9e8e0604d8b20208e39644ac5a6ff43b8ddf45ef1b6b8d5c323d7"
 
 RPROVIDES:${PN} += "leechcraft-mellonetray \
 libleechcraft-mellonetray.so"

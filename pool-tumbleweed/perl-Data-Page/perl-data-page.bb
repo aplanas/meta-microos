@@ -17,14 +17,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.03"
 
-RPM_NAME = "perl-Data-Page-2.03-1.15.noarch.rpm"
-RPM_HASH = "abf8bfc2ff9bbc1fe8cc5dbe52c441682a32352c82b0a2a6c21c546e6f15c23d0cf1f218012131cc675173470e071e6d3cbeb977903aaf29221346ba704f9312"
+RPM_NAME = "perl-Data-Page-2.03-1.16.noarch.rpm"
+RPM_HASH = "8e6563c1bcd285688d09fe25f2947de40dbe9d7c45e19386a800d529b9a11da434b859143cb2e7b2e4c4e64c80b05d673eace9c851f2d0f635676811130f5a0c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Data--Page \
 perl-Data-Page"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Class--Accessor--Chained--Fast"
 
 inherit rpm

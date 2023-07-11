@@ -12,12 +12,11 @@ LICENSE = "MIT"
 
 PV = "4.8.0"
 
-RPM_NAME = "python310-azure-keyvault-keys-4.8.0-1.2.noarch.rpm"
-RPM_HASH = "ff1e4b3ca0895f7f72c4d678d5d4192cf88974e5873361699e18bf1090ebd2b4e9991b008d8fbb8194fffa77d2ce09d974a1c9c8e39dcf24b290d0013329b73a"
+RPM_NAME = "python310-azure-keyvault-keys-4.8.0-1.4.noarch.rpm"
+RPM_HASH = "dbdee86b33a7ad4a8b6330e506955ce2f6d5112aa0a56fa69cf8e7c492de3b0851e7d95db662df06287033151f7a4c7b9f61ed1a017cbac603c4c6efdc8a64e7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-keyvault-keys \
-python3.10dist-azure-keyvault-keys \
+RPROVIDES:${PN} += "python3.10dist-azure-keyvault-keys \
 python310-azure-keyvault-keys \
 python3dist-azure-keyvault-keys"
 

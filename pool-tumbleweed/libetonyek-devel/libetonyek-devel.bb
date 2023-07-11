@@ -7,8 +7,8 @@ LICENSE = "MPL-2.0"
 
 PV = "0.1.10"
 
-RPM_NAME = "libetonyek-devel-0.1.10-1.11.aarch64.rpm"
-RPM_HASH = "2779e00ad60437b443d7345129e0b3ca2fa16e490a6663fbed25afbae7d1055279c1a2c6f3b0b3d85684ab5a43f049e752b2dfc1eb9730b80b7280af924fa9c8"
+RPM_NAME = "libetonyek-devel-0.1.10-1.12.aarch64.rpm"
+RPM_HASH = "b7d29cac0441e6305430a86a41fcf0346d6ace20c86d5158c537f81d158fc44224e8fd4f728cb731fa81cac765f3b307a4d41b04172796b9bea5d813f79cb46e"
 
 RPROVIDES:${PN} += "libetonyek-devel \
 pkgconfig-libetonyek-0.1"

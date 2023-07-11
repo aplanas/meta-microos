@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.1.1"
 
-RPM_NAME = "clipped-1.1.1-1.18.aarch64.rpm"
-RPM_HASH = "0cb59189f7e874263fa1872719f72340fdd97393870f9d1c82dcfeb1ec9b8a9291830a6cec4f56033f265353051944c8bdebf93882e09972d02c56f3fa39dbda"
+RPM_NAME = "clipped-1.1.1-1.19.aarch64.rpm"
+RPM_HASH = "52ce1d07e86decb1f8d0bb5da5ebd31bc4b3877d289546f0dfae5da854f7f642b2227b9a092d6cf63b169406fcedec4dc1a08cfc58f2996812f3b2905036c34f"
 
 RPROVIDES:${PN} += "clipped"
 

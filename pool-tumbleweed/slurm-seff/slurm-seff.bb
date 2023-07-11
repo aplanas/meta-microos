@@ -6,8 +6,8 @@ LICENSE = "SUSE-GPL-2.0-with-openssl-exception"
 
 PV = "23.02.2"
 
-RPM_NAME = "slurm-seff-23.02.2-1.1.noarch.rpm"
-RPM_HASH = "21b0f1b4859b851450d0fe45f54aa29759fbafd1d2e15a49b27c390f3cc75eb64aec23d0506e736a42e2e6ecbd0cc0af308c7a647aaac0d2f03268945a9b535a"
+RPM_NAME = "slurm-seff-23.02.2-1.3.noarch.rpm"
+RPM_HASH = "46d3ddd22c8c94935857bc8656c696219ca4f73b3b9e88620d712a1c201b7030687df7534934c020aeb83292934d49b275949eadae3e7977695622e66750980a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "slurm-seff"

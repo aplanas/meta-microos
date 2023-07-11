@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.8.6"
 
-RPM_NAME = "ruby3.2-rubygem-hpricot-0.8.6-2.29.aarch64.rpm"
-RPM_HASH = "492c66a3d1f3b5e1fe0db2b614a7bb0ef7666295d113cbf5d0ace2be64fa799b889fa1561b9c3bc117b65276da90dd9eab6b23a8421228c19ffc3fe67faee6b1"
+RPM_NAME = "ruby3.2-rubygem-hpricot-0.8.6-2.30.aarch64.rpm"
+RPM_HASH = "d03442899b6b3b8da891e6e00334e61dda26fa0b2c109d2737af7b871f9cc7d88382b14aa25f37d475afaa8d143c17b4494a29c0a1973f33a5387c938f049a98"
 
 RPROVIDES:${PN} += "ruby3.2-rubygem-hpricot \
 rubygem-hpricot \

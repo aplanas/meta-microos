@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "5.0.0"
 
-RPM_NAME = "python311-dash-table-5.0.0-1.5.noarch.rpm"
-RPM_HASH = "f9c3cce5b7cad624fa5abfce76d82ebe2e182e652026411fe482de7333070e596c7440cf6a6969241600230dcaa1dba419d7857125b4e841897e877918c66ead"
+RPM_NAME = "python311-dash-table-5.0.0-1.6.noarch.rpm"
+RPM_HASH = "39666f6ea5d0162bdc6a6f8ecf0719e4ad5fc15ba1e5743e2ef8f8d8ceea2a5a95774c04d2cafb70ac065696e2c39f6ffcc9ffee4e5b9030af9ac58d4bb9755e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-dash-table \
+RPROVIDES:${PN} += "python3-dash-table \
+python3.11dist-dash-table \
 python311-dash-table \
 python3dist-dash-table"
 

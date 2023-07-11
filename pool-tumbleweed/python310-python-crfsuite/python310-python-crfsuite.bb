@@ -4,11 +4,10 @@ LICENSE = "MIT"
 
 PV = "0.9.9"
 
-RPM_NAME = "python310-python-crfsuite-0.9.9-1.4.aarch64.rpm"
-RPM_HASH = "17c701c986b173d67ade94f9939a0e106f6f6412b0199dab8cb8e343845e0fa4766519ddb2876c62a97d036b59b63a4dccb1b3484fa1c161b4577d4117563d10"
+RPM_NAME = "python310-python-crfsuite-0.9.9-1.6.aarch64.rpm"
+RPM_HASH = "3e3a58df804066f5cbec2de57a3934487ce0f9b8f9be4f70fc62ba3e9cf46820164d4c7733e409e6488ad50af4222de25182ed5a67aa467952b33578ec6e34e4"
 
-RPROVIDES:${PN} += "python3-python-crfsuite \
-python3.10dist-python-crfsuite \
+RPROVIDES:${PN} += "python3.10dist-python-crfsuite \
 python310-python-crfsuite \
 python3dist-python-crfsuite"
 

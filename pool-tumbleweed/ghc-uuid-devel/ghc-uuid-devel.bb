@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.15"
 
-RPM_NAME = "ghc-uuid-devel-1.3.15-4.3.aarch64.rpm"
-RPM_HASH = "71e87938d6f50ad3133f872c70b075ae1b2000a895b5a2877d54970ac8a2419d42b0b4db31efffd132515303722902166e188332f04fbd51e7b41296aa892c6a"
+RPM_NAME = "ghc-uuid-devel-1.3.15-4.6.aarch64.rpm"
+RPM_HASH = "f11d3fa3dbd407fbd760177dd8ee731bf89d32c21688c7c52faf400e8df0b7f0636282341c6834f5f52e741b73f5800fc2fb951159de96f3ec42c89cc4e242f7"
 
 RPROVIDES:${PN} += "ghc-devel-uuid-1.3.15-LYRljjihV0KIEewDtLdQ17 \
 ghc-uuid-devel"

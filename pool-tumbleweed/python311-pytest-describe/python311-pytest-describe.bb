@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "2.1.0"
 
-RPM_NAME = "python311-pytest-describe-2.1.0-1.1.noarch.rpm"
-RPM_HASH = "e15cfd8a06240e6e9c40e95f3cb9e91ee8a7dc614879ad59600f61453ff9f068614b9b172ad97fe107213a40fdfcb1bd32e0c72ad03645d7c555e88c0e951272"
+RPM_NAME = "python311-pytest-describe-2.1.0-1.3.noarch.rpm"
+RPM_HASH = "ed500243bdcc10f4eb11290965257d4c4bc9f8b42db744694ff1376629395174e1d59dc8fa58228d6052d641d3e1651fccc8619e719dda46bd0610890e44d009"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pytest-describe \
+RPROVIDES:${PN} += "python3-pytest-describe \
+python3.11dist-pytest-describe \
 python311-pytest-describe \
 python3dist-pytest-describe"
 

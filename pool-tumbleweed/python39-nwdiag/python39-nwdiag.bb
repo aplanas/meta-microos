@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.0.0"
 
-RPM_NAME = "python39-nwdiag-3.0.0-1.5.noarch.rpm"
-RPM_HASH = "198276aec50062894242635b90bbcb4b1dfddafd354ed8163c0bd895120a47fa350c99b185956184cdaab045b7b9b8b7ea04c2caf933d3f8ded954c694482c1e"
+RPM_NAME = "python39-nwdiag-3.0.0-1.6.noarch.rpm"
+RPM_HASH = "22d40999bae39d507f835eed6969e6ae6b931aab61c98c7eeda6e1f9cb91917d08aba2e3c3aeed10102b0c16d997a103ddc53be5feb3a6c3f7b2a9d369e654ff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-nwdiag \

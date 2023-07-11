@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.10.13"
 
-RPM_NAME = "ant-apache-oro-1.10.13-2.1.noarch.rpm"
-RPM_HASH = "c86cbb79422932d7d41e07dac0b5dc4fefeef659cc2c6593278939d2b3f0962dc19b7bacbe0da2d33dac56c9648163b48bb9ba03c79d5efaff21170bcff6a4c6"
+RPM_NAME = "ant-apache-oro-1.10.13-2.2.noarch.rpm"
+RPM_HASH = "16988c767b596262a3b9c5e25c354b87644f282fef032cdcb4e0ab7e1b94a812262436f17c279823723fc9d6a84432460af60fd10119c50e5a8ce3b9e02f9984"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-apache-oro \

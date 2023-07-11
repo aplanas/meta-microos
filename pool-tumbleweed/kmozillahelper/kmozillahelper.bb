@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "5.0.6"
 
-RPM_NAME = "kmozillahelper-5.0.6-1.14.aarch64.rpm"
-RPM_HASH = "f39f2d89aef4f880d47e2b14e062b18eb4c3796e686469cfc301cfa0ddf55dfc3d2917b27895c9fb1951932d00cf670e203203581874de3e56046cc1192cbc2b"
+RPM_NAME = "kmozillahelper-5.0.6-1.15.aarch64.rpm"
+RPM_HASH = "6beecb0f937649689254b5a65dc1fde378b0ca377863acc8ec1bbe3af707da6f65bf328469070b8b81fd0e793e2c3ae14685178cec1c15b460dc8de7b675f739"
 
 RPROVIDES:${PN} += "MozillaFirefox-kde4-addon \
 kmozillahelper \

@@ -6,12 +6,11 @@ LICENSE = "ISC"
 
 PV = "3.0.1"
 
-RPM_NAME = "python310-fusepy-3.0.1-2.14.noarch.rpm"
-RPM_HASH = "c684c4a1390db3d538818a978109213318a95f99598433814c496c7da4b5263785e3d004d7d0a8f4119b43fd7cd48a81b5d8e292c3b4fd6eb4f98cd60e1a0235"
+RPM_NAME = "python310-fusepy-3.0.1-2.15.noarch.rpm"
+RPM_HASH = "c5e18ae4060691c9880e423b8404589e8dca59fe76e5826e18afbe5efb9038c2c6df6fbee206a06b5bdc7bfd2646568160a814e45238afb7514cc52b3e421933"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-fusepy \
-python3.10dist-fusepy \
+RPROVIDES:${PN} += "python3.10dist-fusepy \
 python310-fusepy \
 python3dist-fusepy"
 

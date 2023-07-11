@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only | SUSE-GPL-2.0-with-FLOSS-exception | NonFree"
 
 PV = "6.5.0"
 
-RPM_NAME = "python39-PyQt6-doc-6.5.0-1.2.noarch.rpm"
-RPM_HASH = "e7e8fac4b0a67ca4c02f949b70ad87945dd9be10ce0613a1aac95762504019a0cc5488a0bc4111d4bfc823d76e3c52c4189dde165cd6e30c06272b8fa8af7d5a"
+RPM_NAME = "python39-PyQt6-doc-6.5.0-2.2.noarch.rpm"
+RPM_HASH = "447a106f48349e1c9da09193dcd1a00fc44f361b180813920a886cb8d3c1d50c8505f7a7e6302b174c216f181381a85e8bbaf3e3628268ac5b18a0b2ea67fb42"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-PyQt6-doc \

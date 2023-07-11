@@ -10,11 +10,11 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "2.5.4"
 
-RPM_NAME = "python3-seccomp-2.5.4-2.4.aarch64.rpm"
-RPM_HASH = "4f0710f786949d0ba287f3a37f69ed0d26ab62b76c0b3c3ec225474361bb3504ba8e6cb88262440912565d94b43943a9e49eca81e4454b2794da140d8fac5d05"
+RPM_NAME = "python3-seccomp-2.5.4-2.5.aarch64.rpm"
+RPM_HASH = "0374b98e897a6bec21efe5ebc8fa246252995d9d5dd73e6a57f67953cb9f58454845849711d10556e91893da77b24dd122edb12225dcbfe42a63fa6ebe14d398"
 
 RPROVIDES:${PN} += "python3-seccomp \
-python3.10dist-seccomp \
+python3.11dist-seccomp \
 python3dist-seccomp"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \

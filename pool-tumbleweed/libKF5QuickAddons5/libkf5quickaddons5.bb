@@ -2,10 +2,10 @@ SUMMARY = "Integration of QML and KDE workspaces"
 DESCRIPTION = "KDeclarative provides integration of QML and KDE workspaces."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "libKF5QuickAddons5-5.106.0-1.2.aarch64.rpm"
-RPM_HASH = "bb7ee0bda52112d407c412aad71a3032c18787f26acf3224b74d7a7e741e7c11941771a5d73a8d84536f6f9e40cadd143486765b1d87e7097136c777e35aaa2b"
+RPM_NAME = "libKF5QuickAddons5-5.107.0-1.2.aarch64.rpm"
+RPM_HASH = "915029b226b779de16be7045fa1b9063decfe92cf02e262b94087bb7bf94a957ed3f8eccd518b5b8ebe6d693c854b68b9c782c1aab4caf4cb15e0f67cb9a8e79"
 
 RPROVIDES:${PN} += "libKF5QuickAddons.so.5 \
 libKF5QuickAddons5"

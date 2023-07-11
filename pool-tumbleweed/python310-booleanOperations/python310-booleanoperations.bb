@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.9.0"
 
-RPM_NAME = "python310-booleanOperations-0.9.0-2.7.noarch.rpm"
-RPM_HASH = "324a4a36426d02b655c2af7ff5138131b29dcae6e4b62395c54e9b0c146c41108d54ae820359882a5773e2f2bd752a5e5eb715e68a65da2d0cf7aedda74115b6"
+RPM_NAME = "python310-booleanOperations-0.9.0-2.9.noarch.rpm"
+RPM_HASH = "17fc1d770cad3a08e3c46983c6faf8f79b6f08f372c6242a4a637488cc5f7448b7e1f65b684ada444ce86cbbd164f5ced16e684f3b6c78d3d34e0294252b4dea"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-booleanOperations \
-python3.10dist-booleanoperations \
+RPROVIDES:${PN} += "python3.10dist-booleanoperations \
 python310-booleanOperations \
 python3dist-booleanoperations"
 

@@ -8,10 +8,10 @@ install lua on users system as TeX distributions (TeX Live or \
 MikTeX) come bundled with LuaLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn64508"
+PV = "2023.208.1.1svn64508"
 
-RPM_NAME = "texlive-luatruthtable-2023.201.1.1svn64508-52.1.noarch.rpm"
-RPM_HASH = "f122581534c6fdc6fe5d23b22bbefe3fb82b08ed6f3dd5451fa5560a5b21760b3ad627bc036699291a52fdc9a8a3a9cdc0d0efe0351966a149d8f4ee8659444f"
+RPM_NAME = "texlive-luatruthtable-2023.208.1.1svn64508-53.1.noarch.rpm"
+RPM_HASH = "16135ddddea52c66f4047a08b2a12a09fcb9d7f6b0327d1d7ce073ed7a1c15e2652f7f8ae47d34f7618728ce528457d7d98df8b94b50106f5e6156a9b4b236ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-luatruthtable.sty \

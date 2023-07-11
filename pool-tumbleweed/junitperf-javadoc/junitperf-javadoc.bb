@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.9.1"
 
-RPM_NAME = "junitperf-javadoc-1.9.1-26.6.noarch.rpm"
-RPM_HASH = "bba0e4a7b795d4049187f5e6968d768d219efeeb8af12f3ff6d58dd32d33627ea2eb5d0db4b226c88405b84191f51a8c139661cc445c209a26c56a6df6878c7b"
+RPM_NAME = "junitperf-javadoc-1.9.1-26.7.noarch.rpm"
+RPM_HASH = "07dd008ba376c3cc4d43e268c337285d1b0d701f7608535ce76411710a3c0c449f48151fd6acd59b73dee227321445e47df57a209ecc06869ebe7b0955df276d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "junitperf-javadoc"

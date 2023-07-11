@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "4.8.4"
 
-RPM_NAME = "gtksourceview4-lang-4.8.4-1.3.noarch.rpm"
-RPM_HASH = "d1a5565841447366ff9ba821f16037163e80e369e192f1558bb10918af71b00d57c71316f35a2626590c17c6dd41506f29166332bfeaba7c7a2626a10060b05c"
+RPM_NAME = "gtksourceview4-lang-4.8.4-1.4.noarch.rpm"
+RPM_HASH = "0378f6b7b95a17ec0f9bafbd02b0d9171ef46be7193121f3437119f5740099df5c56022d689d971066a668c6c3a3db63eca7124af62c0e372bcbdb4c3eb95f82"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtksourceview4-lang \

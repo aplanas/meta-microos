@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.5.12"
 
-RPM_NAME = "python311-email-reply-parser-0.5.12-1.8.noarch.rpm"
-RPM_HASH = "81ceb1245d149af32b23cfe40d3f371e02de8701d2cb97b8284bdf1e93945a1e53297c42adf6f6fc92d0450f6abcc407a9ff55e4d6d31391c419a615008435c7"
+RPM_NAME = "python311-email-reply-parser-0.5.12-1.9.noarch.rpm"
+RPM_HASH = "3c5e5faa434f4c82a1c3e873725e25d45d075fa82b2fb3c695a9218eb21561a7f0951b0e306e15c13048b9b8e139b357b40e5f6d300820fed5c661e02f84fc98"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-email-reply-parser \
+RPROVIDES:${PN} += "python3-email-reply-parser \
+python3.11dist-email-reply-parser \
 python311-email-reply-parser \
 python3dist-email-reply-parser"
 

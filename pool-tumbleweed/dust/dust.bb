@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.8.6"
 
-RPM_NAME = "dust-0.8.6-1.1.aarch64.rpm"
-RPM_HASH = "c29086503052fad50e34360f9bd3b6ce75c8096b0eb317778495f3818ef8f9944d8ccb3b45569488b8d2e124887250116790840720a6fff3328db13bca1b0838"
+RPM_NAME = "dust-0.8.6-1.2.aarch64.rpm"
+RPM_HASH = "8246defb0947c355a13afb6c2405c595634430ecd6b787f4bf32d130bb420f2c2a72173ac66f547466a7eee43de3e2d2aca6109beb9da4be379274e4a7c90d62"
 
 RPROVIDES:${PN} += "bundled-rust-crate-aho-corasick \
 bundled-rust-crate-ansi-term \

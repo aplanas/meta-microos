@@ -7,12 +7,13 @@ LICENSE = "(Apache-2.0 | MIT) & BSD-3-Clause & (Apache-2.0 | BSL-1.0) & (Apache-
 
 PV = "23.05"
 
-RPM_NAME = "helix-runtime-23.05-1.1.aarch64.rpm"
-RPM_HASH = "164d084fd1dfb65a7276fe06b0d1506cb41376005dde7518f7f67d2076e1c893e15a3958a314d37e6835cdf12aea951b6cb7075dd570bd860b1868280242e3ca"
+RPM_NAME = "helix-runtime-23.05-2.1.aarch64.rpm"
+RPM_HASH = "fee82f9bcce8125a2129639befa9e8a93228b91287f2f02151044a40129393596fa6c3796407ab8af1f0f8f16376a37283c1f19447530346c0b92155a9ac1a19"
 
 RPROVIDES:${PN} += "helix-runtime"
 
-RDEPENDS:${PN} += "libc.so.6 \
+RDEPENDS:${PN} += "helix \
+libc.so.6 \
 libstdc++.so.6"
 
 inherit rpm

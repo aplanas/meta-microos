@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.0.3"
 
-RPM_NAME = "soundconverter-lang-4.0.3-1.4.noarch.rpm"
-RPM_HASH = "bfdca7077c78acf1b744c518baa8ab612c15ea021ac5bff13646245dbac13a59f50cb798e409610a6c21fc5abc90021957deb50910fbf158e46aaa1c8fa2b703"
+RPM_NAME = "soundconverter-lang-4.0.3-1.5.noarch.rpm"
+RPM_HASH = "584c9d35487968b8bef6e6004e917befc954bf6007efc2fc7b0b00ad23c83efa8811b7dcf3f1f31de85849851aace2845b740cc5d128e1c7a711bc9014b268cf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-soundconverter-ar \

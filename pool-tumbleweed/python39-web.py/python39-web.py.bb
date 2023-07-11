@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & SUSE-Public-Domain"
 
 PV = "0.62"
 
-RPM_NAME = "python39-web.py-0.62-3.8.noarch.rpm"
-RPM_HASH = "7144b63cddf5bac6bf25aaf5eabde73463dc93bdb7a0d2d9db11705f20505631ce977d591623f573c84a0e48d2e51de97df695b701568c59c2efe780ea50c7ca"
+RPM_NAME = "python39-web.py-0.62-3.10.noarch.rpm"
+RPM_HASH = "ab9047304b238f4f7afe62bc25902a8681ad3857942107d1d0b0d69ebf65bd37cad32a5bc8f6ff7d0d6a02b4d0a2da9c6727c59e2dac452317b92276311d2a3b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-web.py \

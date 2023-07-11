@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.0.4"
 
-RPM_NAME = "gnome-recipes-2.0.4-1.17.aarch64.rpm"
-RPM_HASH = "8a48efe562154565a8a5c2f8f4bcd1a8cdbd16dc6bdea8f1edef2de15140d251141230165673345b1375b9038d9fb52b051adb7f6bd598202e67fd494c91c2fe"
+RPM_NAME = "gnome-recipes-2.0.4-1.18.aarch64.rpm"
+RPM_HASH = "59e15a96e48b1cdc9252bf3f31999c286e8c8fbde1bb4d93718b7d9d7006956bfdd12286d09870babe96317972a3089dca715b6047b6651d867e272d2b050917"
 
 RPROVIDES:${PN} += "gnome-recipes"
 

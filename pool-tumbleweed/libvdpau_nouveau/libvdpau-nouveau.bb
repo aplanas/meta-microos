@@ -2,10 +2,10 @@ SUMMARY = "VDPAU state tracker for Nouveau"
 DESCRIPTION = "This package contains the VDPAU state tracker for Nouveau."
 LICENSE = "MIT"
 
-PV = "23.0.3"
+PV = "23.1.3"
 
-RPM_NAME = "libvdpau_nouveau-23.0.3-349.2.aarch64.rpm"
-RPM_HASH = "b23cea47fe699690e352d85f5cc3311e721b016ead93c17af1b0dbe6445450739f89333b03d2aca6162f3df46c1ccf1dbd841528395363d494131b3eaff5d973"
+RPM_NAME = "libvdpau_nouveau-23.1.3-353.1.aarch64.rpm"
+RPM_HASH = "040e9df583f50315d8a1fb714b05c2374857eab64f909d262a805c28bd1460ad6a545979e8af9a2564dcb8f915a610bc9314d7b641c4fbe27acbaef5af16c8dc"
 
 RPROVIDES:${PN} += "libvdpau-gallium.so.1.0.0 \
 libvdpau-nouveau"
@@ -30,7 +30,6 @@ libxcb-sync.so.1 \
 libxcb-xfixes.so.0 \
 libxcb.so.1 \
 libxshmfence.so.1 \
-libz.so.1 \
-libzstd.so.1"
+libz.so.1"
 
 inherit rpm

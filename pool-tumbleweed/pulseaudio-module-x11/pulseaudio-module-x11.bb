@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "16.1"
 
-RPM_NAME = "pulseaudio-module-x11-16.1-3.1.aarch64.rpm"
-RPM_HASH = "be0105053cda162326aa3d5577ce224ee00bee2d1131eeadb017a029e16c3f3d9bc753a36e4e4c80504cab86e2016b6e2f8d202bcfbcbbdc84152fd9a3f1da45"
+RPM_NAME = "pulseaudio-module-x11-16.1-4.1.aarch64.rpm"
+RPM_HASH = "26fe6e28b02ce86deb786430a75a663f75e546a8527643d2c526a2f734eb2eb172cc6386312bbd50b18ba3af898da028d2fea511a687ae84c29331873e2b996a"
 
 RPROVIDES:${PN} += "pulseaudio-module-x11"
 

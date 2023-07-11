@@ -7,11 +7,11 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2022_08_R1"
 
-RPM_NAME = "kismet-capture-freaklabs-zigbee-2022_08_R1-2.3.aarch64.rpm"
-RPM_HASH = "ef6c6c85a1c31b52b07ed3ad233e50245bba5e3ef4d5414d53b7bda011dd66ec38229a9c50eb9270e0eb6001ad40b392e887bd29590bf628c7e8ed625488c285"
+RPM_NAME = "kismet-capture-freaklabs-zigbee-2022_08_R1-2.5.aarch64.rpm"
+RPM_HASH = "470b0da5e24f5f3f7c53bbc9699b051c46884b64d37b390a791b9884e12d176187a00fa05826202e594ba20ef69df160d3065be5cf86463f6c39c42c942bd5ef"
 
 RPROVIDES:${PN} += "kismet-capture-freaklabs-zigbee \
-python3.10dist-kismetcapturefreaklabszigbee \
+python3.11dist-kismetcapturefreaklabszigbee \
 python3dist-kismetcapturefreaklabszigbee"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

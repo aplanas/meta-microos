@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "43.0"
 
-RPM_NAME = "gnome-power-manager-43.0-1.3.aarch64.rpm"
-RPM_HASH = "f109d011b64cb5cf9d57d009d9b0ebd181bf535a69e2d288f06389f1a28838a081b29ad0d84984b29168f0106de356c50ff8a37e7afe1d2a844b3445bad95b3f"
+RPM_NAME = "gnome-power-manager-43.0-1.4.aarch64.rpm"
+RPM_HASH = "12158fcd73c8237d083826bfbdb57ee4c011bfdeb3842ea393749fe3c94fa77c7d22d140fc207fde97ce656b002ac27547fdd23cecac4ab45a9561eb169d0d36"
 
 RPROVIDES:${PN} += "gnome-power-manager"
 

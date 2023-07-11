@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "2.28"
 
-RPM_NAME = "libbd_swap2-2.28-1.4.aarch64.rpm"
-RPM_HASH = "4e633e6412fdc0a13ce87c6fb45d5822292c48fcfd4c83dcc39503462cf9f2c4da246ec7bdb87bdb0839a106bb0ecfbaf9d5fc1058b6efa4dfad4e53cac47fbb"
+RPM_NAME = "libbd_swap2-2.28-1.6.aarch64.rpm"
+RPM_HASH = "4801cca525d9282589d675dd9f8af87cf46d141dd890df7378e891e4f6525e780f14b4ec8472e85d825719584b1b002641081af937647ddb0cecb20d2094609f"
 
 RPROVIDES:${PN} += "libbd-swap.so.2 \
 libbd-swap2 \

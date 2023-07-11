@@ -5,12 +5,11 @@ LICENSE = "Apache-2.0"
 
 PV = "1.3.4"
 
-RPM_NAME = "python310-retrying-1.3.4-1.3.noarch.rpm"
-RPM_HASH = "57e62ebbabb843848a4b4b8e4bc31b7bb60f9dc0e5c201aea9836c14ef653d5da16a3dad3b65dafe2581c29cff2240be60549f6eecda0d47fccf8c598aa1d321"
+RPM_NAME = "python310-retrying-1.3.4-1.5.noarch.rpm"
+RPM_HASH = "a27d4373ac4041115f8956dd18834bbe8008283cf22451e5b51733fc347f71d83f341b5b32e6c6ef8a4b938d6c6bb2f85ddb0a6200fcc418e1e2ba2c4192b637"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-retrying \
-python3.10dist-retrying \
+RPROVIDES:${PN} += "python3.10dist-retrying \
 python310-retrying \
 python3dist-retrying"
 

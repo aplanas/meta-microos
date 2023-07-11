@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0+"
 
 PV = "5.4.13"
 
-RPM_NAME = "libdde-network-utils1-5.4.13-1.7.aarch64.rpm"
-RPM_HASH = "a4b0b20655115f4d48bd691fd84749bb0dd308ba21e2eb2bd4fb78881975f9584609d3eaabe0a7808584785cb36f09f3c6addd9beea784c62f3b41679b14e1b0"
+RPM_NAME = "libdde-network-utils1-5.4.13-1.8.aarch64.rpm"
+RPM_HASH = "3cab52fcadb8b479792e779cadc7306d2042e26ca272b13be89257bd56d100376801fbc014eaf91b3462b73fc6291ea8bcc855383746e5dd5736ddb1e9cb4d0c"
 
 RPROVIDES:${PN} += "libdde-network-utils.so.1 \
 libdde-network-utils1"

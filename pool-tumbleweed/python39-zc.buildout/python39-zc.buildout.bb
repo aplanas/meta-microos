@@ -8,8 +8,8 @@ LICENSE = "ZPL-2.1"
 
 PV = "3.0.1"
 
-RPM_NAME = "python39-zc.buildout-3.0.1-1.4.noarch.rpm"
-RPM_HASH = "708f71c451b93d8e812756636bfdd74d6ae5ce0043a924095d3c68a74b4ad772a310fdb8a6770e73907953f6fc743346d8d89aedb72ae3db60ab336f6dc2daa8"
+RPM_NAME = "python39-zc.buildout-3.0.1-1.5.noarch.rpm"
+RPM_HASH = "796ad3ac773c286b10aa58abf47d83b5f5ba0eb5a9cc78063898943ea20053034d67c17eccfa7c1205d2a20adec6edc034727da79e3a1705273b70cd22579607"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-zc.buildout \

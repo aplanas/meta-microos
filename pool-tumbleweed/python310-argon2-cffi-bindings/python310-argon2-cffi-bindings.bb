@@ -5,11 +5,10 @@ LICENSE = "MIT"
 
 PV = "21.2.0"
 
-RPM_NAME = "python310-argon2-cffi-bindings-21.2.0-2.4.aarch64.rpm"
-RPM_HASH = "27981f656395fdee81168a3f4fd042dc42385d36f71f95c159a7c529d8949a7aab12ebd6689fd9ec9dc121dcfc88836968daa1f87d4acf71e90b0e7deb0e6f1b"
+RPM_NAME = "python310-argon2-cffi-bindings-21.2.0-3.3.aarch64.rpm"
+RPM_HASH = "c1c6dd4ae8cd4d3227773c9e911269165d831e4d94ec9af6338d480d7671cf53894d9d42607b620da7cdb07ed3883ca5c47cc9816b238255ef6a8549700b0386"
 
-RPROVIDES:${PN} += "python3-argon2-cffi-bindings \
-python3.10dist-argon2-cffi-bindings \
+RPROVIDES:${PN} += "python3.10dist-argon2-cffi-bindings \
 python310-argon2-cffi-bindings \
 python3dist-argon2-cffi-bindings"
 

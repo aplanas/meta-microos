@@ -12,11 +12,12 @@ LICENSE = "MIT"
 
 PV = "5.14"
 
-RPM_NAME = "python311-Pyro5-5.14-1.3.noarch.rpm"
-RPM_HASH = "079950d1edc88eb04be05f0883e899660cd0a60b7c18ea6c1c234ba2d07bef515ab7981f2e658be2d27e5893d7235d9d1ed66d0211d3b1690d1f0bebbc035da9"
+RPM_NAME = "python311-Pyro5-5.14-2.3.noarch.rpm"
+RPM_HASH = "febacdbfec60fd0c27086e29912616f99d372f7555832f711cefee792045c637e335aa2559abf7c25e3616959e9c61af175344a1d761e1804c015f783ff3f57a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pyro5 \
+RPROVIDES:${PN} += "python3-Pyro5 \
+python3.11dist-pyro5 \
 python311-Pyro5 \
 python3dist-pyro5"
 

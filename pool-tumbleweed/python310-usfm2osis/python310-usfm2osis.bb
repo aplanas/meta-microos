@@ -4,12 +4,11 @@ LICENSE = "GPL-3.0+"
 
 PV = "0.6.1+git.1613099315.8fda304"
 
-RPM_NAME = "python310-usfm2osis-0.6.1+git.1613099315.8fda304-1.4.noarch.rpm"
-RPM_HASH = "5e643850d701a114d993114ba4c5e70e7b9253b3f543899ca60be199ad0b59137dfeb2619081f3ae8a7a76d61af3c3b23d746c100e4805164a53af3825dc7a50"
+RPM_NAME = "python310-usfm2osis-0.6.1+git.1613099315.8fda304-1.6.noarch.rpm"
+RPM_HASH = "24cb691258c349b89ce45b8f6c0d9f62fc56869d34ef66c266dd4869bbcebba51a35e862900ea92b07313c73dd7485a73ef8e33e6bf5827f73154e325e7ed47a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-usfm2osis \
-python3.10dist-usfm2osis \
+RPROVIDES:${PN} += "python3.10dist-usfm2osis \
 python310-usfm2osis \
 python3dist-usfm2osis"
 

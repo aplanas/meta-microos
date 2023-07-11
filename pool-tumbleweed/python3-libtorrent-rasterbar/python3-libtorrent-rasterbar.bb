@@ -4,12 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0.9"
 
-RPM_NAME = "python3-libtorrent-rasterbar-2.0.9-1.1.aarch64.rpm"
-RPM_HASH = "67815ab76657a0f814feb82b61a3fe1340761d0410dff37bb2f54db2df618532a3078b9d5dce9784aef983b654341523edbdf4156d98daa394430fe002d52e1d"
+RPM_NAME = "python3-libtorrent-rasterbar-2.0.9-1.3.aarch64.rpm"
+RPM_HASH = "922bca3d72840c79612c83c802aac933878e489cd808a5f1b69d45846c4269502446510cfbd5792d5bbb60271295770f250c1454909cf35f2a3e81f8552f46fc"
 
-RPROVIDES:${PN} += "libtorrent.cpython-310-aarch64-linux-gnu.so \
+RPROVIDES:${PN} += "libtorrent.cpython-311-aarch64-linux-gnu.so \
 python3-libtorrent-rasterbar \
-python3.10dist-libtorrent \
+python3.11dist-libtorrent \
 python3dist-libtorrent"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \

@@ -9,10 +9,11 @@ LICENSE = "MIT"
 
 PV = "1.0.3"
 
-RPM_NAME = "python311-dist-1.0.3-3.1.aarch64.rpm"
-RPM_HASH = "c29554e12b0cd96d7250ec8bd75733b30b88d98143dfeeec854e108532689f52a11cb6c3ab73289b0dec3cee65226374587465cc62d9e38892f740cf10301378"
+RPM_NAME = "python311-dist-1.0.3-3.3.aarch64.rpm"
+RPM_HASH = "fd80a00af4ce5d37724f33a6159569d66559020c7833505bcfe02a982cde2bd2085afd6d124b830a213f5987e057e68a1e80519fad975c116bcad2e6b346ec8f"
 
-RPROVIDES:${PN} += "python3.11dist-dist \
+RPROVIDES:${PN} += "python3-dist \
+python3.11dist-dist \
 python311-dist \
 python3dist-dist"
 

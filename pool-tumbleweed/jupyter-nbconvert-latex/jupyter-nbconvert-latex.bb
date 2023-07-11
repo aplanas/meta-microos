@@ -5,19 +5,13 @@ via Jinja templates. \
 This package pulls in the LaTeX dependencies for nbconvert."
 LICENSE = "BSD-3-Clause & MIT"
 
-PV = "7.3.1"
+PV = "7.6.0"
 
-RPM_NAME = "jupyter-nbconvert-latex-7.3.1-2.1.noarch.rpm"
-RPM_HASH = "d414779e2c3f59199973b57551fa144677de987e57dce7709592f55dc08a658a94e0e17291a69831fbf4ed5f126a344410250f4647019478a3504746ac9aba55"
+RPM_NAME = "jupyter-nbconvert-latex-7.6.0-1.2.noarch.rpm"
+RPM_HASH = "ac1d05fd247890db96d3b59e826812b2ea86d8e8984d6ce7b07cd0568ff8b2c3b469111e7b1aeabebccfa5483974bb89f5fee1271d7fb93aab5f8c4e11bbb870"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jupyter-nbconvert-latex \
-python310-jupyter-nbconvert-latex \
-python310-nbconvert-latex \
-python311-jupyter-nbconvert-latex \
-python311-nbconvert-latex \
-python39-jupyter-nbconvert-latex \
-python39-nbconvert-latex"
+RPROVIDES:${PN} += "jupyter-nbconvert-latex"
 
 RDEPENDS:${PN} += "jupyter-nbconvert \
 tex-adjustbox.sty \

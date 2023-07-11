@@ -7,8 +7,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.1.1svn48255"
 
-RPM_NAME = "texlive-handin-2023.201.0.0.1.1svn48255-53.1.noarch.rpm"
-RPM_HASH = "0e897fcff7ab6a8558e8a8ff0db867028efaf1984f1073746d44eb5ab23ddd08c575653015b4de5c964511831b3d616b7e8f1e14e00046b8945464adb67561be"
+RPM_NAME = "texlive-handin-2023.201.0.0.1.1svn48255-53.2.noarch.rpm"
+RPM_HASH = "4c35e38e0e2e1e2b8fa52c4038faaf0ee46818f4df9044c2d60a9d66df3af028a50755a19ad2634f35ae01c0a6df86c1236a8738fd7aa1204f710f1a36b1c33a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-handin.sty \

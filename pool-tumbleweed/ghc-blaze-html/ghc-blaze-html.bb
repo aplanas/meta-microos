@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.9.1.2"
 
-RPM_NAME = "ghc-blaze-html-0.9.1.2-8.3.aarch64.rpm"
-RPM_HASH = "12411a427b07b586877c520d7ce64bc3616004a7c81e6aa660651e0714dd648ece65877609183dbfc87ff2245b32ff70410ddce9f6128348d45ebed9eec5a851"
+RPM_NAME = "ghc-blaze-html-0.9.1.2-8.6.aarch64.rpm"
+RPM_HASH = "107ded7c49619f7c646c694a0491e2704b9dfe7236be332b4e1bbf29c2c48af6f5517f4c13959be03cc317b29c4a070452d5191309c76584c87096242c44619b"
 
 RPROVIDES:${PN} += "ghc-blaze-html \
 libHSblaze-html-0.9.1.2-38lyFDueaN76YOL6QIMVAR-ghc9.4.5.so"

@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0"
 
-RPM_NAME = "nfsidmap-devel-1.0-39.1.aarch64.rpm"
-RPM_HASH = "4f763bbd647c1a83cb733f1405ea42f62ff94f18cbcd29576b2b447e7a1ffc389d34d656a42255f506d3ccbd65baed57d79a72036b273b502751455ec8ad034d"
+RPM_NAME = "nfsidmap-devel-1.0-39.2.aarch64.rpm"
+RPM_HASH = "2b9a200ca20e8cb5afc49404904a8c6faae550e614fb8859bd38ae193dd87c9291bab118d8cb57c1f671b8cf03d52c18b776e67f90648e65057db56a4e599da4"
 
 RPROVIDES:${PN} += "nfsidmap-devel \
 pkgconfig-libnfsidmap"

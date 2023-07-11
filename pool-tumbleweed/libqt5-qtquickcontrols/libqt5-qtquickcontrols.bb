@@ -3,10 +3,10 @@ DESCRIPTION = "The Qt Quick Controls module provides a set of controls that \
 can be used to build complete interfaces in Qt Quick."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libqt5-qtquickcontrols-5.15.9+kde0-1.1.aarch64.rpm"
-RPM_HASH = "682630f539338d566fb81f379d1b213a11dedc24aaef0e6add3e182b6d68a7ef2e83fc27d09fd0fa849f8e4b52a55eadaccf8bd4c301ecc6e4d2e2f44aa011ce"
+RPM_NAME = "libqt5-qtquickcontrols-5.15.10+kde0-1.1.aarch64.rpm"
+RPM_HASH = "c84fe1264525d7d8d8a91f804bf483315e04d623bbf61e07cd00ae14f93a6a07d13136f129797da3b8f4364fbc7dae6ffc9f00a8b32a29f80194ede747aada6a"
 
 RPROVIDES:${PN} += "libdialogplugin.so \
 libdialogsprivateplugin.so \

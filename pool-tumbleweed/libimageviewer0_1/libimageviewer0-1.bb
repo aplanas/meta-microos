@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.0.24"
 
-RPM_NAME = "libimageviewer0_1-1.0.24-1.1.aarch64.rpm"
-RPM_HASH = "eb503e982f832ba1d6675199a44e04e31dbc185fffd10438a848b338846b51aa315c8a2d28e1aebb43eb83dd86463abfa438f8d6f2f8688f91cfc4ee2e247924"
+RPM_NAME = "libimageviewer0_1-1.0.24-1.2.aarch64.rpm"
+RPM_HASH = "e03f7f6008791889c2400725bb909933115be2cef638bfc372605ca8cfbeb1c59fc8426ef0d3d10b6dc8cdac9f1911bc92d5aed11eaf99b475b464e8aa63e567"
 
 RPROVIDES:${PN} += "libimageviewer.so.0.1 \
 libimageviewer0-1"

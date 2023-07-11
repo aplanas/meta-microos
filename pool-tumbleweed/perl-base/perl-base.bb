@@ -12,10 +12,10 @@ This package contains only some basic modules and the perl binary \
 itself."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "5.36.0"
+PV = "5.36.1"
 
-RPM_NAME = "perl-base-5.36.0-4.3.aarch64.rpm"
-RPM_HASH = "8b6888f753d0698a8e366c005bf12ab553c22e22320c735b2c45f8074eaa3791fa2f7a95e39e00e45e995eb33367633f4b13cef1327c46f18d42ac7f351624e9"
+RPM_NAME = "perl-base-5.36.1-1.3.aarch64.rpm"
+RPM_HASH = "ef9518796e9102863f89047001462d7873ed6c5577db3a292bd4998d5b2a76df2cba19c72ee74b2177ab874a163b5fd72efde874d2aa520a1b61bbd68fdc445d"
 
 RPROVIDES:${PN} += "perl-AutoLoader \
 perl-B \

@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.1.1"
 
-RPM_NAME = "python39-pykka-3.1.1-1.9.noarch.rpm"
-RPM_HASH = "05493d84ded9d8c60ab7414c278daf4facf65ebaa12dd2d71c8712437d17ccef01667670c3b3874b1ab8e7704e530c0472a4c33e5114b41c2f7f284621932d9d"
+RPM_NAME = "python39-pykka-3.1.1-1.11.noarch.rpm"
+RPM_HASH = "268275a00ada810f05783a8ef59f90ebfbdb7e50dc12fb532cb77eedcb01273dc58067687a532960bcee776319caf033fb2e9679e2c0422e51702c3a46287cff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pykka \

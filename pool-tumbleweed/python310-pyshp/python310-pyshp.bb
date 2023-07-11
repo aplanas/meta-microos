@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "2.1.0"
 
-RPM_NAME = "python310-pyshp-2.1.0-1.14.noarch.rpm"
-RPM_HASH = "26591ae4c37299eea7378398a0d91ff31783dfcd5bbf2061ac066831ed60b7c5c76ac462a47806389d4eccd69acaa8b03e5ea1b251e2b818852a978075678539"
+RPM_NAME = "python310-pyshp-2.1.0-1.15.noarch.rpm"
+RPM_HASH = "5f9917ae8c92c9658d38723f23dd20f6cfb8d8b6e20f0c38faa8bfd0f2d8a988fc5a86c3a6f0ee490a5cd324bb4279213fc52141c047b3f121d0c0eea277ac96"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pyshp \
-python3.10dist-pyshp \
+RPROVIDES:${PN} += "python3.10dist-pyshp \
 python310-pyshp \
 python3dist-pyshp"
 

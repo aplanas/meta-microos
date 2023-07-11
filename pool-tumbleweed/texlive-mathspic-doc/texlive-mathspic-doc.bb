@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-mathspic"
 DESCRIPTION = "This package includes the documentation for texlive-mathspic"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.13svn31957"
+PV = "2023.208.1.13svn31957"
 
-RPM_NAME = "texlive-mathspic-doc-2023.201.1.13svn31957-52.1.noarch.rpm"
-RPM_HASH = "4b56e0e69bf3813974c9dcd33d3f2c2bdb3884994222dc9ee95977e9ede6becc5e8c281fd12c4e9346b9442620292c23ca413dd0f60af3a06ead19085a7fb30a"
+RPM_NAME = "texlive-mathspic-doc-2023.208.1.13svn31957-53.1.noarch.rpm"
+RPM_HASH = "e4c85248b49c056070c642828b9a5a96ff7fd92bb8da02867deb06adb5e0bd6d410a3dc11b0529d9745914eb0b5ff68e1cf149002948bc9a0f861d5672d9d5df"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-mathspic.1 \

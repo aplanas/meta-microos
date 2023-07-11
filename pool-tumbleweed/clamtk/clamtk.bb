@@ -3,10 +3,10 @@ DESCRIPTION = "ClamTk is a GUI front-end for ClamAV using Gtk3-perl. \
 It is designed to be an easy-to-use, point and click virus scanner."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "6.14"
+PV = "6.16"
 
-RPM_NAME = "clamtk-6.14-1.8.noarch.rpm"
-RPM_HASH = "aa3e51aa80f52420d381febf6a215f69118a236f10728610148d678a403a622bd71faea0bbef9fb2954ccbba218f5a598c25c44525afee1524d3bc3f47bc70b3"
+RPM_NAME = "clamtk-6.16-1.1.noarch.rpm"
+RPM_HASH = "592fa6d311927a1a267089d57c835937ff615268869937dc9b0666127cad9e75636c0c8627d93d595f2d38e444b427192e39034d675f0152c54fffdd37f04ff4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "clamtk \
@@ -31,7 +31,7 @@ perl-ClamTk--Whitelist"
 RDEPENDS:${PN} += "/usr/bin/perl \
 clamav \
 gnome-icon-theme \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-Cwd \
 perl-Digest--SHA \
 perl-Encode \

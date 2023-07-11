@@ -2,10 +2,10 @@ SUMMARY = "Maven Artifact Resolver Transport Classpath"
 DESCRIPTION = "A transport implementation for repositories using classpath:// URLs."
 LICENSE = "Apache-2.0"
 
-PV = "1.9.8"
+PV = "1.9.12"
 
-RPM_NAME = "maven-resolver-transport-classpath-1.9.8-1.1.noarch.rpm"
-RPM_HASH = "5e2ec12439ef7365201919c7753c486950f892e5e53d0816c0d3d2c715bc32320cea45997cdf4ce702de6974d2ddb69feffd8e63efa4a5dda1bd7df1c8400bb6"
+RPM_NAME = "maven-resolver-transport-classpath-1.9.12-1.1.noarch.rpm"
+RPM_HASH = "a5e5bd77e823aa50cf288225a2f4eebdd6a0e2f6e12941a7b18b60da420821d735cbfe954e7946777b3f62a164fa55101ff327d72057fdb4ea8e6f1a7c661054"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-resolver-transport-classpath \

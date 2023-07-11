@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.9.22"
 
-RPM_NAME = "jack-dbus-1.9.22-2.1.aarch64.rpm"
-RPM_HASH = "2757993d34986e32016f73a1e768190111ba95c37b6921bd6d77b81118d9a7e30e9d1757d1789a560efee624e99d7dfa012ea3e732d89aac4d8699110e04d869"
+RPM_NAME = "jack-dbus-1.9.22-2.2.aarch64.rpm"
+RPM_HASH = "a49fa954f0075bfd3a2ebd7aa2c63d169e5afeca8d3972d595570f23a1cb9a1afe5236a1215f67ed199a0e4bb97150e1e5afadc4aeccc6a11a4e60f385d683c2"
 
 RPROVIDES:${PN} += "jack-dbus"
 

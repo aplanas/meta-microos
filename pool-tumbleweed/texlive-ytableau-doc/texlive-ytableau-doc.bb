@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.4svn59580"
 
-RPM_NAME = "texlive-ytableau-doc-2023.201.1.4svn59580-52.1.noarch.rpm"
-RPM_HASH = "9cf25f96aa7a0709fe787665d6cb5f9823b7af61c3555b26203e9d39b44d1fff51398fd1c8a11131bf56f374c35763a19c85a218e167bea7044603d0fdafa9cf"
+RPM_NAME = "texlive-ytableau-doc-2023.201.1.4svn59580-52.2.noarch.rpm"
+RPM_HASH = "122fb5d522a4693ed56a152f71fe89ac52c69914623692c9d327a5811f1a04f5e53ed69634fd1a8723d8f0f570e50b873aa0408b630f278481bfb161dd0f48c3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ytableau-doc"

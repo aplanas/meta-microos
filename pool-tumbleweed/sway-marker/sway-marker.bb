@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.3~0"
 
-RPM_NAME = "sway-marker-0.3~0-2.2.aarch64.rpm"
-RPM_HASH = "46d9e5ea21f3a259d06a8c0c4c56adda47a2aa5c4bc4448f57cfed741f4b94580bbc7badf30576b7d74a1914fdda07439aefe3507b393f8cbf1e92bf2e8f2186"
+RPM_NAME = "sway-marker-0.3~0-2.3.aarch64.rpm"
+RPM_HASH = "b777d8cb9521fffce5ab2add1793567a45ae4d6231be998ae6bc5fd45be30ca1387d5a929014556ec2771f9f0e7690844619552df7655c89e8c03cf1d7fabcfe"
 
 RPROVIDES:${PN} += "bundled-rust-crate-anyhow \
 bundled-rust-crate-atk \

@@ -5,11 +5,12 @@ LICENSE = "Apache-2.0"
 
 PV = "0.8.1"
 
-RPM_NAME = "python311-betamax-0.8.1-2.1.noarch.rpm"
-RPM_HASH = "8753de3ffbc27101c9cf6f1390268edace25fbffa5766f56b7f9c705d44da66fb9428e76401693c7cdd2a542ae087bb056de84355a3911df160f4150566e104d"
+RPM_NAME = "python311-betamax-0.8.1-2.2.noarch.rpm"
+RPM_HASH = "de22a8f721b843b74eb40fc15c3bd7437dd73269a89e8161a4484c877a8062c2f0b60421d02c5d9986ee862891dce157d1078089c9f64908b54e77feaed62135"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-betamax \
+RPROVIDES:${PN} += "python3-betamax \
+python3.11dist-betamax \
 python311-betamax \
 python3dist-betamax"
 

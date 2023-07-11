@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0"
 
 PV = "6.0~20140707svn1547656"
 
-RPM_NAME = "findbugs-bcel-6.0~20140707svn1547656-1.16.noarch.rpm"
-RPM_HASH = "4d7b7d434c500902cd4b491aa3746300b938d8dd084563db42fafdfa94f0038e30368789ebd9afed46fd3071ebff855dfb890c528f44891c9ecac9ae7b7e16a2"
+RPM_NAME = "findbugs-bcel-6.0~20140707svn1547656-1.17.noarch.rpm"
+RPM_HASH = "eaea8990b57114824140dd8ca95b7f8ccb4c705f933d3adef6b30a6be52a57e9764b9abf58674b8078aae3134c5c45547a9b32f97c25725b0ae8cb29987bed55"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "findbugs-bcel \

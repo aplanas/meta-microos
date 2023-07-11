@@ -6,11 +6,13 @@ LICENSE = "MIT"
 
 PV = "16.6.0"
 
-RPM_NAME = "python311-path-16.6.0-2.1.noarch.rpm"
-RPM_HASH = "241141e274c2c14e9dba565d49e72efdf46e93bdb4ce2acda359c4977e8641de4adb1a547a183258b1a5b55717e65c15959687f9645c66838615dd31df2d7456"
+RPM_NAME = "python311-path-16.6.0-2.3.noarch.rpm"
+RPM_HASH = "d0fbd2a2355458bbe9a994a0576ba0e465441e527098f790e8caf034c607370e7e86b991d54de9bff4b6d77c0be8ae6c7ef30596a7826282c466ce891beb47ef"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-path \
+RPROVIDES:${PN} += "python3-path \
+python3-path.py \
+python3.11dist-path \
 python311-path \
 python311-path.py \
 python3dist-path"

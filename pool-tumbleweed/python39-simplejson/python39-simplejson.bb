@@ -6,8 +6,8 @@ LICENSE = "AFL-2.1 | MIT"
 
 PV = "3.19.1"
 
-RPM_NAME = "python39-simplejson-3.19.1-1.1.aarch64.rpm"
-RPM_HASH = "b63796bcb73e27efc620dd42678da397610efd62fd2f202ea9e74c4870e481e72bc11ab11efc4a60ccf0305e91135774db000dad87bb90584eddd358bebb1bda"
+RPM_NAME = "python39-simplejson-3.19.1-1.3.aarch64.rpm"
+RPM_HASH = "89bebaa49d020e764ca13b3db2f95469377f3251b2d66991339160ecccfa8967d9962e7e526b94cfb23c4b69dad82cd979f8578b58ed8afe2f80c3253d2234eb"
 
 RPROVIDES:${PN} += "python3.9dist-simplejson \
 python39-simplejson \

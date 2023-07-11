@@ -4,8 +4,8 @@ LICENSE = "(GPL-2.0-only | GPL-3.0-only) & MIT"
 
 PV = "4.0.3"
 
-RPM_NAME = "transmission-gtk-lang-4.0.3-2.1.noarch.rpm"
-RPM_HASH = "d6ad7802d33cf60d5b3e9ea50c7de14ea0099cfb46c3f557cbbf57793835a28992843b43ac891b9cd3aafe11a2c0e7f71dc385a07c12d296585007b55733643a"
+RPM_NAME = "transmission-gtk-lang-4.0.3-2.2.noarch.rpm"
+RPM_HASH = "3050478c3183568cbebdc85b8917331e4117f5a7a9958ca7ad01483cc8a6db10c25a784bcae8f75bc518be500ed43d58d2f3f2b5cb3606bb6d8d27fbe5dfbb13"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-transmission-gtk-ar \

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.8.0"
 
-RPM_NAME = "krusader-lang-2.8.0-1.3.noarch.rpm"
-RPM_HASH = "3c881a5aec8e34c9a64bd7439eaf5b22a9b4ed3dfa55b3bbb4a0a2b8ff1defe528a8c0bb7b15d9a4231d89bf0027ac287f8337a7d76b908c2b102cdbc6a5b648"
+RPM_NAME = "krusader-lang-2.8.0-1.4.noarch.rpm"
+RPM_HASH = "f093e69dd1f006bbcdd5558f3ab6fc40842001e6fe966d8b036687de7cca685f5e67a3b6642e5512de98bb485cf1ebdf2d54ab6205f6fd9b50380dd35b847731"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "krusader-lang \

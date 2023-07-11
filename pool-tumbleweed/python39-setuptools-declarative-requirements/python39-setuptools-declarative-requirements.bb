@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2.0"
 
-RPM_NAME = "python39-setuptools-declarative-requirements-1.2.0-2.1.noarch.rpm"
-RPM_HASH = "498bcf09432e93621ecb6effa4bf6813849c0b75d4d51aea18339a79237b21a8ca70e932ac530e73add06afed815f320f43e03909eaf4215d2c1f68e0565fdd7"
+RPM_NAME = "python39-setuptools-declarative-requirements-1.2.0-2.3.noarch.rpm"
+RPM_HASH = "f8efc696ab5b51e1cd7a0ef18661a9446a5041cc285b939b2807d3497206f939e99a4df44752b66d7590206075a4ae77c917ec4d0574fad8d589115d4208210d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-setuptools-declarative-requirements \

@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.8.2"
 
-RPM_NAME = "libsoc-common-0.8.2-3.13.aarch64.rpm"
-RPM_HASH = "23bed5630acf2dc13eb2603b28a5bdcc3c91fd295c9045b00d37063c6d9a319778e1b5ba382cccab4a3f47cca9585498dd440a25317764e5d460c2360d8b901d"
+RPM_NAME = "libsoc-common-0.8.2-3.14.aarch64.rpm"
+RPM_HASH = "18e6ee5e202371eaac387bb9604430f4169eb15b249afb0dc46b0f322ad3669267572d7ca0d7348afe6203cfac87ddc893c7908535a7157ac4e18d1cc45d0e3f"
 
 RPROVIDES:${PN} += "libsoc-common"
 

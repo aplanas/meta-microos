@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "0.10.4"
 
-RPM_NAME = "typelib-1_0-MalcontentUi-0-0.10.4-1.5.aarch64.rpm"
-RPM_HASH = "627912b0833d499d1317de39641682747414bc34708a3987b1aac4439e0fe840625197befe9339cce6598bcb183387b3e6aca2714e546641b238ee40b8afefd4"
+RPM_NAME = "typelib-1_0-MalcontentUi-0-0.10.4-1.6.aarch64.rpm"
+RPM_HASH = "64cc5adcdb47f47bf3c7a8b54fcce9b17ef406317ab3f25fd385b92f109577a7afb7c0caac97d412c4a9934ceb509f50fd350dc811d4a644acf06f304b1f1505"
 
 RPROVIDES:${PN} += "typelib-1-0-MalcontentUi-0 \
 typelib-MalcontentUi"

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.75.1"
 
-RPM_NAME = "zim-lang-0.75.1-2.2.noarch.rpm"
-RPM_HASH = "9896fe5a9c0e88375ec4022393955b9c5d5f3370cc753224288a83b57eb61dfde682448dbdb2d2d33de4e3e27069c641a26804e9a093b7325dc464e44c0c3384"
+RPM_NAME = "zim-lang-0.75.1-2.3.noarch.rpm"
+RPM_HASH = "e1e63df4102fcce094ac541d5afeeb0d1252016933ce4655db57a38dfab2ae872d83dc6fa98e0371e1181e64fa384b168081b7e81aab2285f527a589647cb050"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-zim-ar \

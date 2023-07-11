@@ -4,8 +4,8 @@ LICENSE = "ISC"
 
 PV = "1.1.0"
 
-RPM_NAME = "ocaml-bigarray-compat-1.1.0-1.9.aarch64.rpm"
-RPM_HASH = "08958fa36a9b17ebdc405f16178cc046b82d01d4fbdd4bf0b34d2e34f1cecca98dfc88124653f72899daea8eb73bb1e6a849421a43d1313efe5b3f0e3aa230dd"
+RPM_NAME = "ocaml-bigarray-compat-1.1.0-1.10.aarch64.rpm"
+RPM_HASH = "792d26ff21c4977d303f757922099ce13e152f7655a541235c3aa3180d734ee7e5bab768aa249f0e1edf141f6cc72e18f1654382d3b483f9b966cfbb8611fede"
 
 RPROVIDES:${PN} += "ocaml-bigarray-compat"
 

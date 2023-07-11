@@ -4,14 +4,14 @@ LICENSE = "GPL-2.0-only"
 
 PV = "4.2.0"
 
-RPM_NAME = "syslog-ng-python-4.2.0-1.1.aarch64.rpm"
-RPM_HASH = "e65e50c2a959efb98954adf6d57b167a46b703b09e7f5df26456abe0883bb722f8d07aaac18e1bf97d8c957c5d294addaff011fafbebe553b649c350c4420bb2"
+RPM_NAME = "syslog-ng-python-4.2.0-2.2.aarch64.rpm"
+RPM_HASH = "e88edee1241af533e715962b93ff72c41e99dceebce44dcf82203d204d811f492ed32ffbba9e876ebb4ebbe93527d5ebd0ee84042687ea5face8950811c320be"
 
 RPROVIDES:${PN} += "syslog-ng-python"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libsyslog-ng-4.2.so.0 \
 syslog-ng"
 

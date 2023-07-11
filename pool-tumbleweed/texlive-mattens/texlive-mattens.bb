@@ -5,10 +5,10 @@ community for the representation of common vectors and tensors \
 such as forces, velocities, moments of inertia, etc."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3bsvn62326"
+PV = "2023.208.1.3bsvn62326"
 
-RPM_NAME = "texlive-mattens-2023.201.1.3bsvn62326-52.1.noarch.rpm"
-RPM_HASH = "a6f96248e50f8bbda7399027ca04e904cb2f7ec8a140b13db2a9ea7eb17348f56800ff0adb140bf930092af0f633456a1125b429f9cfbb3a99c8485775f1ccbb"
+RPM_NAME = "texlive-mattens-2023.208.1.3bsvn62326-53.1.noarch.rpm"
+RPM_HASH = "7b24022ef8f4818688da98f74faf21847a151e5722755f3d8fda8937bf74ff06cb91e4df7e0c3ce35ebe9a76b8f20bc194d2ca12cc900a51c2ebe45a3ed8558c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mattens.sty \

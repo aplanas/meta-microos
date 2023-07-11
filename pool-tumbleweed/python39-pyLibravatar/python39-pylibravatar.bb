@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.7"
 
-RPM_NAME = "python39-pyLibravatar-1.7-3.12.noarch.rpm"
-RPM_HASH = "b3e2002d54fb09a00d3df3e809669717d7dce75f2438a6b91f9bda80d92e35f14e1299be93af26c78b63c4940fe4696ebb894722f023b674f65471c620760f83"
+RPM_NAME = "python39-pyLibravatar-1.7-3.14.noarch.rpm"
+RPM_HASH = "67fea4b027b471e5505b81ace375685b884960c82ed3c70862f9e49970aa4b4334b59525566b16da61ebd9521d4ab952cf3e318c66e58397e10758fc167641c8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pylibravatar \

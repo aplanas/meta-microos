@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.9.6"
 
-RPM_NAME = "gerbv-devel-2.9.6-1.3.aarch64.rpm"
-RPM_HASH = "1af8d2e9a262d92b58454483d08fbdf425771dd5bf8c11c2e32e25c6d28d02ed61d2fd512ec3af20b14c8f0fc145da26dca339e8a7b7b028691dba43969b24da"
+RPM_NAME = "gerbv-devel-2.9.6-1.4.aarch64.rpm"
+RPM_HASH = "4ac0d734556d51b21defc8426d647abbe643ed8c59668a9d27ed97c8a98238444377d87bd30b5dd6e1a73e9e012f6c48b7e1efc115134ad6add7d3b856fc3801"
 
 RPROVIDES:${PN} += "gerbv-devel \
 pkgconfig-libgerbv"

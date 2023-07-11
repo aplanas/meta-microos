@@ -5,8 +5,8 @@ LICENSE = "WTFPL"
 
 PV = "3.0.4"
 
-RPM_NAME = "zimg-devel-3.0.4-1.5.aarch64.rpm"
-RPM_HASH = "37c1db485fe019cea800fdafc9fee3386fa9c5aa17259b4949e508fec84f90b55a81956a62953d36cdbfb3b9582aaebedace20fc26764984e15f647743ccfbf3"
+RPM_NAME = "zimg-devel-3.0.4-1.6.aarch64.rpm"
+RPM_HASH = "aaf531235a535c04395bc59cb662b160afd88eb93e571949656789ab6d35874f8ef33bdaeec61e4a2a3ab879a22f86db2a33e77ed66f2a45f87c5e091855595d"
 
 RPROVIDES:${PN} += "pkgconfig-zimg \
 zimg-devel"

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "43.0"
 
-RPM_NAME = "dconf-editor-lang-43.0-1.3.noarch.rpm"
-RPM_HASH = "5961168c1169da26f0b8853173c550f5a63c111e64f5e918f9db54e8955005f0597bf09b7fcba55d2ed51e58eb9cbb0b3e5e659e3e02387510444bd01af97635"
+RPM_NAME = "dconf-editor-lang-43.0-1.4.noarch.rpm"
+RPM_HASH = "d06d150d7cdd902db5869b7f0cb62a032eaa0fb884cdc248537933656f4d13c5b0edc15d9541e90ff0e1f0c589d60b62cf83b00b58b85d000c0db9c81ec1312d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dconf-editor-lang \

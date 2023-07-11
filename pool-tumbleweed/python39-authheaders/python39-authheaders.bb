@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.14.1"
 
-RPM_NAME = "python39-authheaders-0.14.1-1.6.noarch.rpm"
-RPM_HASH = "444eb049eebde44f33d5126421e0d1f4f4b5015d2ca0c4d1eaf1f046403659e74c4ed0a3a324dc6d975d8aef29b64fe6d86390318501327b46eadc6c27d9fb94"
+RPM_NAME = "python39-authheaders-0.14.1-2.3.noarch.rpm"
+RPM_HASH = "af7e007a04c6a78c5c540bbc883e1380d5914c62e825ab11b085783c790e1b2f62e2109dd39d0ab3dd50b263ae54b52ee65fe9b0ac8d3e922cf2b76d1ac0a4ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-authheaders \

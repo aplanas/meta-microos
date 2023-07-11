@@ -2,10 +2,10 @@ SUMMARY = "Translations for package plasmatube"
 DESCRIPTION = "Provides translations for the 'plasmatube' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "plasmatube-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "059d343b0916590e13301eae5552bc7fd9a9a26c097998ffd87de449d3227c5a00e77f9e61be499b12c26abaea50ddbda7e312beadc200239f62fe718d7e5a61"
+RPM_NAME = "plasmatube-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "2f65866e455ae91af1cf1dd8ae1db8dc0cf9eb32ffb72e2337e2faaaaab32edd7f9fb348581a38d29887be730d40be93fda74356494059d94fb5bccf6f8e7a14"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-plasmatube-ar \
@@ -20,6 +20,7 @@ locale-plasmatube-es \
 locale-plasmatube-eu \
 locale-plasmatube-fi \
 locale-plasmatube-fr \
+locale-plasmatube-gl \
 locale-plasmatube-hi \
 locale-plasmatube-hu \
 locale-plasmatube-ia \

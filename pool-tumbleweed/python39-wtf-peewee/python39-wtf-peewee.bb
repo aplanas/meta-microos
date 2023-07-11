@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "3.0.4"
 
-RPM_NAME = "python39-wtf-peewee-3.0.4-1.10.noarch.rpm"
-RPM_HASH = "30465ceaca5ee52b5ad066ae6ee987bf7b19acbf54797f4a2614f2a83d38c14ebcb1c49a26f4895dc318ec261fcd602f11c62151fe82371185271f82aff59be0"
+RPM_NAME = "python39-wtf-peewee-3.0.4-1.12.noarch.rpm"
+RPM_HASH = "e6828165d5b3da71551892eae20d96de2de4d36cd862f2b81cf9deebdb0927edeef5cc415746588fc81dd56fa691abcde3479edd9801240476cf0c2259570943"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-wtf-peewee \

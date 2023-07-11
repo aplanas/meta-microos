@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.23"
 
-RPM_NAME = "libgdbm_compat4-1.23-1.12.aarch64.rpm"
-RPM_HASH = "64993c6c42fca2993ce0b8851ca928b3ff451eaa5640de641c89520d5d15eb3d6847cd8352d6a159e45619c255de75c02e794ae11604e4598aac66576dc73d6b"
+RPM_NAME = "libgdbm_compat4-1.23-1.14.aarch64.rpm"
+RPM_HASH = "8f42772b41e9175733097f999d1416750e292c3152e98c8e9dd602ddaabd18c22e50c9a410774b4cb200e43fb921163d04395000684eab56bc0f7ef57ccf5868"
 
 RPROVIDES:${PN} += "libgdbm-compat.so.4 \
 libgdbm-compat4"

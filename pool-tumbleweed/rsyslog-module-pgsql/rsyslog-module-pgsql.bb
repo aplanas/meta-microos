@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0 & GPL-3.0-or-later"
 
 PV = "8.2212.0"
 
-RPM_NAME = "rsyslog-module-pgsql-8.2212.0-2.4.aarch64.rpm"
-RPM_HASH = "678707bc71421bec7af769653808742e000fdcb8807d10272eae2d84d76a1bbe101ca17e88e4d5bd00602697835d42ca1382d45e091ba7b33b6f0a8d5ea79175"
+RPM_NAME = "rsyslog-module-pgsql-8.2212.0-2.5.aarch64.rpm"
+RPM_HASH = "30a9a75ecdb4f8ae2ae25314a3a64695a3bd4899c44801e1528995fdeb3ff8c74c47f9508d25f8471047eee268f3f3a16350fdfa20c2a0e0e37a626740800956"
 
 RPROVIDES:${PN} += "rsyslog-module-pgsql"
 

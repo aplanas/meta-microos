@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.9.0"
 
-RPM_NAME = "python39-http-parser-0.9.0-1.16.aarch64.rpm"
-RPM_HASH = "90a3b0ce2144b6d3682730cbcbb221e8270336144b1ef233a9e59bba611caee9d9ce3b58ff429e444026cde62ba4f3083aa9e6ea8829651d6ae87404928e176a"
+RPM_NAME = "python39-http-parser-0.9.0-1.18.aarch64.rpm"
+RPM_HASH = "b97e54734694cb781ad1d8b851ee4d103125ea3e44f301d392dab01dc8795c123955fc113eeaac391a05ea0cdeece446843ad911c2c886ad90a98b587e6a1ad3"
 
 RPROVIDES:${PN} += "python3.9dist-http-parser \
 python39-http-parser \

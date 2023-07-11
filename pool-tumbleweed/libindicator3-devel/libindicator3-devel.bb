@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "16.10.0+bzr20171205"
 
-RPM_NAME = "libindicator3-devel-16.10.0+bzr20171205-4.15.aarch64.rpm"
-RPM_HASH = "1e5143e5a748e921bbdba188ae43761dac01f67b62f338c78c400bfa980c8a2c643a7f357c122ab5c2163e071eb1ce9157f01e6fe5cef2592d2f6fdc9234505a"
+RPM_NAME = "libindicator3-devel-16.10.0+bzr20171205-4.16.aarch64.rpm"
+RPM_HASH = "ed67f71d3d7c7b686ec8d1ba5ed00cf5affcdd25a87c6684c9976681980bc4146e2fa7bd7427b268499fbc6b99f3bf4a2d30db77931dbef87b42155e7ab2aba5"
 
 RPROVIDES:${PN} += "libindicator3-devel \
 pkgconfig-indicator3-0.4"

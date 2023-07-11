@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.4.05"
 
-RPM_NAME = "ispell-british-3.4.05-1.3.aarch64.rpm"
-RPM_HASH = "770c3f6f8a52c36f54703e68a7643df051056239b457dac4b7e6acbffd5613dd0fb153c939a157c6178ab141a03bfccd4b6de7607bbe1387f3c37afaf79f9fd1"
+RPM_NAME = "ispell-british-3.4.05-1.4.aarch64.rpm"
+RPM_HASH = "6d74810b0f7836383fae8e8c6e8b1a880fb7529c80815c4bded5b57ee6274a6860e3b7254783a9c1bd88d6b389cd668048cbf4c2c22e88a22f3fe83913667d5c"
 
 RPROVIDES:${PN} += "ibritish \
 ispell-british \

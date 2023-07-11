@@ -13,8 +13,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.5"
 
-RPM_NAME = "libsepol2-3.5-1.3.aarch64.rpm"
-RPM_HASH = "271c292c57826187bfc71ebd8863a3092e8a352e06e5d359fe23b450e9f10243eb7c1744bbe22ed9608f54cda1717c755a5d8649f159ce92ca63e54b9d9dae77"
+RPM_NAME = "libsepol2-3.5-1.5.aarch64.rpm"
+RPM_HASH = "9059852476d49963f59e2fadc060caa3040319e532eba86a9cfa568444fae49c60ef0a396a66f2eaaadbbdc36bb95ea0a46070958126f192fbc085bef3add53c"
 
 RPROVIDES:${PN} += "libsepol.so.2 \
 libsepol2"

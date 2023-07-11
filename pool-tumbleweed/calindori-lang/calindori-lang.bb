@@ -2,10 +2,10 @@ SUMMARY = "Translations for package calindori"
 DESCRIPTION = "Provides translations for the 'calindori' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "calindori-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "d057eef67524965417001212c29dedd547bc08c70e8572edf433c196e00ac6663868cc9ca7807844ccd416d5e80f92ab180c706f5daaf06aaaaf344822d7f984"
+RPM_NAME = "calindori-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "846a267e2b43831e2718881f71ef410bc3c7369afcfc3f364f85c043c55cb98aa115caa8a8b058b29b4dc63d53bdeba6afd3efef0ee1a908288377d817461fb7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "calindori-lang \

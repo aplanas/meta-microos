@@ -4,8 +4,8 @@ LICENSE = "SUSE-Permissive"
 
 PV = "4.4.3.1"
 
-RPM_NAME = "allegro44-dga2-plugin-4.4.3.1-1.15.aarch64.rpm"
-RPM_HASH = "d724bc9b2c26ee8cd684323d0a67ab422513eae6dfbfa7e4865068039f6b80e91b07b36c81ff97421ff5adba7c6ea8665a6096801fe4f329d2d08f416a2534cf"
+RPM_NAME = "allegro44-dga2-plugin-4.4.3.1-1.16.aarch64.rpm"
+RPM_HASH = "2994d8492e53fa2b65720a9ed4e94f22905e6d96f1240074d7d874295895b311a17509961cf4ebb40d515f46f6f4a6a0252cba85e7b3b3923307c75149681722"
 
 RPROVIDES:${PN} += "allegro44-dga2-plugin"
 

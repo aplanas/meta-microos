@@ -7,11 +7,10 @@ LICENSE = "Apache-2.0"
 
 PV = "0.27.0"
 
-RPM_NAME = "python310-asyncpg-0.27.0-1.6.aarch64.rpm"
-RPM_HASH = "9fc36dd012c30e2ae2867e13f5a69cff4ac394f2862bf3222ea1a8a0486383f6d1d8e61eb6e944b2c2433388ae63fd4bafd852e8f4b88b4d5f78a9a78395b85d"
+RPM_NAME = "python310-asyncpg-0.27.0-2.1.aarch64.rpm"
+RPM_HASH = "ac1fa74cf375bfef1b180821e6a42c8911f9b64088a4b4a3b65b832b630a446b80310050dde376a8a7238c65be9035938cd4063b1342a2104bf70ea5241a5f7c"
 
-RPROVIDES:${PN} += "python3-asyncpg \
-python3.10dist-asyncpg \
+RPROVIDES:${PN} += "python3.10dist-asyncpg \
 python310-asyncpg \
 python3dist-asyncpg"
 

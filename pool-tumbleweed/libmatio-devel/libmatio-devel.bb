@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.5.23"
 
-RPM_NAME = "libmatio-devel-1.5.23-2.2.aarch64.rpm"
-RPM_HASH = "7b199f9176f9882720ac1327efde6ea1c1acc6046bb0745c21c2613e072f77363d8ab95dc1268703f61a1c9e3047cd6af13a00e0f984d583da171149bec6b11f"
+RPM_NAME = "libmatio-devel-1.5.23-2.3.aarch64.rpm"
+RPM_HASH = "7b1436263ddc0771d2d70d8c3d535b0b69d89fa8b562120668407c098d2d9eedad4f5a48f145aed9e6493a50df83244c0b2e06684e99707c32b8f273189845ea"
 
 RPROVIDES:${PN} += "libmatio-devel \
 pkgconfig-matio"

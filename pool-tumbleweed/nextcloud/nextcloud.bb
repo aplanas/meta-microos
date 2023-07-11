@@ -3,10 +3,10 @@ DESCRIPTION = "Nextcloud is a suite of client-server software for creating file 
 hosting services and using them."
 LICENSE = "AGPL-3.0-only"
 
-PV = "25.0.7"
+PV = "26.0.3"
 
-RPM_NAME = "nextcloud-25.0.7-1.1.noarch.rpm"
-RPM_HASH = "a26241b87337d955c0a4924616952c753dd7eba8f5a4e476ac43fc9f15548ba6ca022a9d541a099e03ca1ef3b0a59422da5a633f7caf4e60148bd442a02817bd"
+RPM_NAME = "nextcloud-26.0.3-1.1.noarch.rpm"
+RPM_HASH = "4ec0f8e01834b7ce703a583f4a0b550ca7bc68ead0b8fe5914aed6eb22130514a34a53354a0f68ed5207717f429abad83c43360421ac7ddec15d689904d41b32"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-nextcloud \

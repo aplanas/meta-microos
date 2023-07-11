@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "9.0.75"
 
-RPM_NAME = "tomcat-jsvc-9.0.75-1.1.noarch.rpm"
-RPM_HASH = "a1e85d9c0ce747aef709f00c3551240459c3e73227bc5e3f27c1fbf160884fc4fc3330c05ecf5556a2368559152b45ba5c4009c03ad3ce76eaac7752ed776a83"
+RPM_NAME = "tomcat-jsvc-9.0.75-1.2.noarch.rpm"
+RPM_HASH = "3b354c3773a53daffa78b024ded4011e59ff36fc2e2a8be123dbacbb82b2d51eaeea579c5c02d9b6c84861856e22b10384f9fb4c111342d267fa0321d17059fb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tomcat-jsvc"

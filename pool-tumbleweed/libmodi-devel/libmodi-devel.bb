@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20221023"
 
-RPM_NAME = "libmodi-devel-20221023-3.7.aarch64.rpm"
-RPM_HASH = "bcdf56813356038bdf302fb31c73d5dbe2229d06f63cd3719924a4d16baf2c4ae002489f4737b1a6a741e5308cc9e83f44780e2afafd641ef382cdab1391f35f"
+RPM_NAME = "libmodi-devel-20221023-3.11.aarch64.rpm"
+RPM_HASH = "a3649ad96397a49046ecfb588584a745c4370f156c4859248392607bc4f9e817759b04bb555aff67ab8e43018f29718f7d8c67b48d7fe75d806fabc3f5c06fdd"
 
 RPROVIDES:${PN} += "libmodi-devel \
 pkgconfig-libmodi"

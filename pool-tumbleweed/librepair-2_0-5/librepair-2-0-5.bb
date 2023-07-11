@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.0.5"
 
-RPM_NAME = "librepair-2_0-5-2.0.5-1.7.aarch64.rpm"
-RPM_HASH = "2d7e687b11f90813b9b2ef39708ef65c96b20162753abc7c2480a404bbfa1fe4525bbe7d2ac08b35af73f86236df758f1710eaed393fb9ff5e070468971ff15e"
+RPM_NAME = "librepair-2_0-5-2.0.5-1.8.aarch64.rpm"
+RPM_HASH = "37f4b43ca14a686affd2c7e86ecd24424b3fb190fb9d2cfa7f3d7e2ebf18825e23e0b9272167de075746313ab0c86c64992dd8e4f2ab9b6384c88361c9ccf36b"
 
 RPROVIDES:${PN} += "librepair-2-0-5 \
 librepair-2.0.so.5"

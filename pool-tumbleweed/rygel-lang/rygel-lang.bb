@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "0.42.3"
 
-RPM_NAME = "rygel-lang-0.42.3-1.1.noarch.rpm"
-RPM_HASH = "36e0410db2179307c6f2faa2b3221d4c8384b98dc320e61a3714e11b0d7c3faf574176f916e89575f057a5ae3360500237df9b1f67425a7ef9b618a117379d9f"
+RPM_NAME = "rygel-lang-0.42.3-1.2.noarch.rpm"
+RPM_HASH = "e8ad8b07c767f34953e2f163ce5c11ed5f301495c1d97f2a4c6b5a3e5f9f64cda3e80582e16edb784f4139ec982b36218a834ce8624ec39f287a56dbd2c515aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-rygel-af \

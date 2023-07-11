@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "0.8.0"
 
-RPM_NAME = "python311-sphinx_press_theme-0.8.0-1.3.noarch.rpm"
-RPM_HASH = "a6deac2cf9e4e2b9856738b247d6494bf4a9b3c329ff112f24b782ff44e1dc61eee53201e21aacdba55766780b41a22da6f0ed8ae2c21b3989da725ee35e0572"
+RPM_NAME = "python311-sphinx_press_theme-0.8.0-1.5.noarch.rpm"
+RPM_HASH = "79918b2c295478d1ac67870acccfb554cba896b13c64f50cff772831ebcf31c2a64ce5f5da2eb5869aee2cb01f28b9b81042418b3916a5dd6b8af4ce69ee7d90"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-sphinx-press-theme \
+RPROVIDES:${PN} += "python3-sphinx-press-theme \
+python3.11dist-sphinx-press-theme \
 python311-sphinx-press-theme \
 python3dist-sphinx-press-theme"
 

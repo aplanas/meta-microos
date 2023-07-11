@@ -14,8 +14,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.4.1svn45215"
 
-RPM_NAME = "texlive-eqparbox-2023.201.4.1svn45215-53.1.noarch.rpm"
-RPM_HASH = "3040b2f7351afa2ded1d3cdc18781912b5c2e3bb483c2060cbecefdf8f07c12003105528de9cbe1d24b206e64af97da6bdb788ad5d77316fb45aab6239a8c059"
+RPM_NAME = "texlive-eqparbox-2023.201.4.1svn45215-53.2.noarch.rpm"
+RPM_HASH = "60276c815e661238736dd75745b35c9424add7de3dc8506c5d178cc17f13f834bec0ec4754d7c8292a5f94961e850ababafcad48fd767ed9e0c3fbd0a8925b90"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-eqparbox.sty \

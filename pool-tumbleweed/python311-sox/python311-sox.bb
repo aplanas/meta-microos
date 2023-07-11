@@ -9,11 +9,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.1"
 
-RPM_NAME = "python311-sox-1.4.1-1.14.noarch.rpm"
-RPM_HASH = "be32dd1aacb97da21b9ce3486cf59a49dd8d2b0540dd77a012f5846270981f0529e7466b4f9b66cb84e9b19e241153739783a417a2acbead132a3d86b64b547c"
+RPM_NAME = "python311-sox-1.4.1-1.16.noarch.rpm"
+RPM_HASH = "9b48698c52732119c9b4701ebba21359aa6f0456f0058044fd83913d1960592efbda6a40e61b18a2a3714c9f9f34cd6a2d98ca01d23032739433bd6994d367c7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-sox \
+RPROVIDES:${PN} += "python3-sox \
+python3.11dist-sox \
 python311-sox \
 python3dist-sox"
 

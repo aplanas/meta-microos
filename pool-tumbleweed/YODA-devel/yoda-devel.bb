@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.9.7"
 
-RPM_NAME = "YODA-devel-1.9.7-1.3.aarch64.rpm"
-RPM_HASH = "d9f1e03d506041a5faf45e280bd8dbe3e5d09999b45158f71e871837b52f7c387aca62071fa86886ab76de58d92219834b72bcb384bac4e4e54ae8640f6fb191"
+RPM_NAME = "YODA-devel-1.9.7-1.4.aarch64.rpm"
+RPM_HASH = "90b7522c06d57b69ef7cf187df4b2b4c19196a7bfbc90cb93284f3111179f1223e8e28e29cf6bfd14bffc31d3713640d77fa53c3fea66e6908d1daf2d6b4620b"
 
 RPROVIDES:${PN} += "YODA-devel \
 pkgconfig-yoda"

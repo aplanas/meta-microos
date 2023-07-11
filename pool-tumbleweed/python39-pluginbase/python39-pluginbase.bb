@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.1"
 
-RPM_NAME = "python39-pluginbase-1.0.1-1.8.noarch.rpm"
-RPM_HASH = "b35bb955c81d067396356e8f12d3f98e956824d9c77bf37c034211294ce9b0a7d354407b05cb0f945e50689b45f7376c76069bbd514112adde55f278e11ccf9e"
+RPM_NAME = "python39-pluginbase-1.0.1-1.10.noarch.rpm"
+RPM_HASH = "2b5802259ff8baabd8ef5ba44a1f5927dd1dd516721fbda7de7a41f87f1a363c1f56b0925353c61b6eadc429a452c485bee23626f01e1a380abd7d253a619840"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pluginbase \

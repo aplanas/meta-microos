@@ -14,8 +14,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.5.2svn46054"
 
-RPM_NAME = "texlive-hepthesis-2023.201.1.5.2svn46054-53.1.noarch.rpm"
-RPM_HASH = "84f13cb1f34ffbcf8e69c3f4cd6968ea5134a30e1217d52cbf9af8e3657119ba56a0dd28fe94fcea0a2d58016219d2a2f67dc7e58e7106577cbb26ab1001d00d"
+RPM_NAME = "texlive-hepthesis-2023.201.1.5.2svn46054-53.2.noarch.rpm"
+RPM_HASH = "062a64eceec6000496584b70d35b6971cb97b5d712b31e0fd810eceec88e1580036ff9a706201b2683779f9b1163d9f29aa9d3a4ce93615f33352b77c2beebb8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hepthesis.cls \

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.10.1"
 
-RPM_NAME = "liblirc_driver0-0.10.1-10.1.aarch64.rpm"
-RPM_HASH = "52d6e3ba0c872f9984f5eea5fd65cf0c564a6a207c788b1e73400138b4ba1874d2f9926ef28056a28e3ee9480ab29856dd0dae605c8e1f553fd3b410f6ac19c9"
+RPM_NAME = "liblirc_driver0-0.10.1-10.2.aarch64.rpm"
+RPM_HASH = "a2f6db34306bbfcd76cca898b8673dc57153b951f6c3c79e8ee6ed4f5335d7204b81d431569d0916d910c5f7fb5a5a1342164bf964927a3d9ffa8920ead11b78"
 
 RPROVIDES:${PN} += "liblirc-driver.so.0 \
 liblirc-driver0"

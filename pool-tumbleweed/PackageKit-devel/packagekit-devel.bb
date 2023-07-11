@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.5"
 
-RPM_NAME = "PackageKit-devel-1.2.5-9.3.aarch64.rpm"
-RPM_HASH = "9f4a9565f350ebb28829fb94a3818a4271ddc05f3e09c35677e9a0cf3d082e30833e5210dc3befb0cd0f9825865eb9508d0873d50cd89f1d196aa84995384c20"
+RPM_NAME = "PackageKit-devel-1.2.5-9.4.aarch64.rpm"
+RPM_HASH = "624abebadf0389298f9e07f02033dc7fbe1a055f886f1e12f84750c3ff8d4c04a75e0bc290d08a09d1a5efdae14b3184d496b701febdb224f32e380aad27b26e"
 
 RPROVIDES:${PN} += "PackageKit-devel \
 libpk-backend-test-fail.so \

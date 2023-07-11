@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "3.0.9"
 
-RPM_NAME = "libmodsecurity3-3.0.9-1.1.aarch64.rpm"
-RPM_HASH = "a2c4293869dc5ef973d71e28b1208924ce264dbd35f814a52ae59bb5722ec5d2138ebc0da5731da7dbf8ff339f6590129e3cb4a6b696af9b860d9581a39343c7"
+RPM_NAME = "libmodsecurity3-3.0.9-1.2.aarch64.rpm"
+RPM_HASH = "2c605f1b0c81c7f51c1b5b644cac8afd2141c73b754c50d968165a9767e7044335422969908bd4ae779dab41200440488c3d7495fcfd3aec8870609ace01c3ca"
 
 RPROVIDES:${PN} += "libmodsecurity.so.3 \
 libmodsecurity3"

@@ -13,17 +13,18 @@ Dask is composed of two parts: \
 This package contains the dask.diagnostics module"
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.3.2"
+PV = "2023.5.1"
 
-RPM_NAME = "python311-dask-diagnostics-2023.3.2-3.1.noarch.rpm"
-RPM_HASH = "bdbc1a2f23e3dd8687ae7c451066a574a7ce129d47ac29d681e62033649c4363c8f2164fbfe053009a170fa742dcf627620816e39742db2aefe1321e4b2421b9"
+RPM_NAME = "python311-dask-diagnostics-2023.5.1-2.3.noarch.rpm"
+RPM_HASH = "e17db07c43f5af294f599d205d095b9f3847088d09643ccabe262c599f0ea5763cbcd530bb13ebdd1a01b243463e33a946d141b475ae9c349a7ee39ea659dd84"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python311-dask-diagnostics"
+RPROVIDES:${PN} += "python3-dask-diagnostics \
+python311-dask-diagnostics"
 
-RDEPENDS:${PN} += "-python311-bokeh >= 2.4.2 with python311-bokeh < 3 \
-python-abi \
+RDEPENDS:${PN} += "python-abi \
 python311-Jinja2 \
+python311-bokeh \
 python311-dask"
 
 inherit rpm

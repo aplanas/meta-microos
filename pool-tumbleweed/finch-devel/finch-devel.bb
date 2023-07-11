@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.14.12"
 
-RPM_NAME = "finch-devel-2.14.12-1.3.aarch64.rpm"
-RPM_HASH = "23e82e72201b924e6a350e65ff0df7d04c09d313a6137bfdda4f0a80f8e1c98ebd028040c810fb3830c91c0e2b9286fed6602ea2254997810b844dae309999ad"
+RPM_NAME = "finch-devel-2.14.12-1.4.aarch64.rpm"
+RPM_HASH = "da84215a9e0aa0aa325d6f1f35d369c5404b57a86d08b5d6064f44546bc46629e5c654516d0ad644f911e42e9bf16b3272d57ff7c15da25ae9d2d4739e33df3d"
 
 RPROVIDES:${PN} += "finch-devel \
 pkgconfig-finch"

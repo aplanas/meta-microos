@@ -7,10 +7,10 @@ issuance. The protocol also provides facilities for other \
 certificate management functions, such as certificate revocation."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.7.3"
+PV = "1.7.4"
 
-RPM_NAME = "uacme-1.7.3-1.3.aarch64.rpm"
-RPM_HASH = "573f7e84cc965973c4bd726c4214324ebfd24ccdae4f9700bfc6efb54b09b57786a93f5844d4ecf8b7dfcbab2092b0c9d78be6ad2d2cccd8599bb2f3281fe555"
+RPM_NAME = "uacme-1.7.4-1.1.aarch64.rpm"
+RPM_HASH = "96ecfcf84c471f43fca4d5147e3e707c99dbbaea941e79a9630632af5928635c99409571f846627ebfaf3e88c7171583b1c295691fbb6edc523c2e362678298e"
 
 RPROVIDES:${PN} += "uacme"
 

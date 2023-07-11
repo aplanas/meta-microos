@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.4"
 
-RPM_NAME = "redfish-finder-0.4-4.5.noarch.rpm"
-RPM_HASH = "7fefb8bbb99479211d5183c1e1119b88fde25e3a4e955989063d2c9c9c48b977972c8e9d706ceb88b4ea00ed65c483adfe2cef029522547ec387084802e4d5a4"
+RPM_NAME = "redfish-finder-0.4-4.6.noarch.rpm"
+RPM_HASH = "be71d6a1e4e242ee717683279be2a70a11837c50fa9b7ab322e51ffe4fd4156540770c6d0e449ee02cebaa3a42e942eafacd0248beb35fb61f723a008e128106"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "redfish-finder"

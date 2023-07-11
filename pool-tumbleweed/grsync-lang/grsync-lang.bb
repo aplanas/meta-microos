@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.3.0"
 
-RPM_NAME = "grsync-lang-1.3.0-1.12.noarch.rpm"
-RPM_HASH = "a88bda131c1fcbf01556f8252baae3480982c03e9532ec906d70c9629c798904bbbf9b611fa9e4b07d8944aa19ec04afc77d4adfc72d0c23829ccf78a4cc06fe"
+RPM_NAME = "grsync-lang-1.3.0-1.13.noarch.rpm"
+RPM_HASH = "49bb6eabe99bec12dcd5196e49d53ad24bba80aa353162c51ffce1c6ce95d0a33d851935c8f3ef211cdc3a5e64bd4a475f4e79bbb86ea532233146df147d81cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "grsync-lang \

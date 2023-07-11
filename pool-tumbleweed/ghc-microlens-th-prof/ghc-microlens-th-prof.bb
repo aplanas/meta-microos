@@ -2,13 +2,13 @@ SUMMARY = "Haskell microlens-th profiling library"
 DESCRIPTION = "This package provides the Haskell microlens-th profiling library."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.4.3.12"
+PV = "0.4.3.13"
 
-RPM_NAME = "ghc-microlens-th-prof-0.4.3.12-1.2.aarch64.rpm"
-RPM_HASH = "5da8f5f29b2525ae7c5916c0a02c2872abc3db2999dc3baa559151da0519e1d52545e9f3f5ea8540fccccd2ddc3b73d75a203935cf8cbcabc276fc87c5f027b4"
+RPM_NAME = "ghc-microlens-th-prof-0.4.3.13-1.1.aarch64.rpm"
+RPM_HASH = "2fc83d6e9cd22b81ec7142c1abf3638ef1a549790c53ad6879bf6514321ef66310383a9d80b1610a6dde12d999446f2a938745cb636383a4917d044a979fdd8a"
 
 RPROVIDES:${PN} += "ghc-microlens-th-prof \
-ghc-prof-microlens-th-0.4.3.12-A1OnPrF7gbKLp2skY17lAG"
+ghc-prof-microlens-th-0.4.3.13-4M5tTOX0ioLGTMiKBp6v2C"
 
 RDEPENDS:${PN} += "ghc-microlens-th-devel \
 ghc-prof-base-4.17.1.0 \

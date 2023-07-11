@@ -3,10 +3,10 @@ DESCRIPTION = "PlasmaTube allows you to watch YouTube videos on your phone or de
 elegant user interface integrated with the rest of Plasma."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "plasmatube-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "70b3a104a27a06b8c45b71a26a0fb9554ffd2ac249b2b2e8a82385a8740cf85798e955655eddea48308c336cff26cdf900ee72651f5f5a01d56b777e5288d8d2"
+RPM_NAME = "plasmatube-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "409c40434ae254eb57ef1b34dd10c3054dbf7086e0469337d667beaa0cdb212e5e4a9e5d08dfafdb254714768c56e61be74af4287bf46bf0b27d0d683dd3e8f8"
 
 RPROVIDES:${PN} += "plasmatube"
 

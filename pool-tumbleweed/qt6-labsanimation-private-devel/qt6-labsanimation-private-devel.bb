@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-labsanimation-private-devel-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "b0ed683654c50155fce7b8cbc15baa820f8825093f9b754770c6cc3ccc3a73885e8e09348a3125ae690d1a24132a8ed6862700632684de850d317ba067bac838"
+RPM_NAME = "qt6-labsanimation-private-devel-6.5.1-1.3.aarch64.rpm"
+RPM_HASH = "12d4731a91d01a577d2aa3d2a0f2f232f905f55878015d6df4a965f7603f33fda97d2b568ed84f75904a02dd54ad7cd765eecbc6980d2e4212b640f82c5a6fe9"
 
 RPROVIDES:${PN} += "qt6-labsanimation-private-devel"
 

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & SUSE-Public-Domain"
 
 PV = "1.2.1"
 
-RPM_NAME = "libsane1-1.2.1-1.1.aarch64.rpm"
-RPM_HASH = "5ae537c02ed56d3e0bb19863d31b17f5027c7913acda6d2716f8160591c65051452fbda3b76cbb09297f2799553b348a69eb103fe6f2e0d325386ecc58caec2b"
+RPM_NAME = "libsane1-1.2.1-1.2.aarch64.rpm"
+RPM_HASH = "e89813286109ffc91980451c3156f045e1c32732b07f87d50735f721941a1534cce4aeb8a8abda86b25f59a54298675594eab95f07e79f18a3ddc526737b8510"
 
 RPROVIDES:${PN} += "libsane.so.1 \
 libsane1"

@@ -11,11 +11,12 @@ LICENSE = "MIT"
 
 PV = "1.25"
 
-RPM_NAME = "python311-numericalunits-1.25-1.8.noarch.rpm"
-RPM_HASH = "aeb41fb9d61a73f3f85d0d5f810829d23f7d712e5b968b604a3bd218f12477734895d0af960513f4f3c864984e2054c870bb2cc1e1832d801a29fec1850814a6"
+RPM_NAME = "python311-numericalunits-1.25-1.9.noarch.rpm"
+RPM_HASH = "c093a8d388ed9c0216a725b93e4f30bff72389c83addef7d42c6b7dd6cad0b31fb9f1f1ca57a62854452435a63278df319b76f04c4dbd3d824ece4fdf276ed8e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-numericalunits \
+RPROVIDES:${PN} += "python3-numericalunits \
+python3.11dist-numericalunits \
 python311-numericalunits \
 python3dist-numericalunits"
 

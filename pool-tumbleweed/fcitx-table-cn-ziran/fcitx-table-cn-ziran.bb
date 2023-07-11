@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.2.9.9"
 
-RPM_NAME = "fcitx-table-cn-ziran-4.2.9.9-1.5.noarch.rpm"
-RPM_HASH = "f9acd40940e0389790e59170d54a2e2d51f65e12d7fdabea87e067207af602432bfafd754a912f84f36b41fe9acc4d94f2d775a9a454f00708d88fc32f5afae7"
+RPM_NAME = "fcitx-table-cn-ziran-4.2.9.9-1.6.noarch.rpm"
+RPM_HASH = "42ffafe36a20d1fc5f55dc1f4a7cce68a7ca59c69c5a13a0dc763273bcdd41630bcda7d953c4274222f0430f5d3be9c6ee3b6f5627fc975825cd60b8aaad4b33"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fcitx-table-cn-ziran"

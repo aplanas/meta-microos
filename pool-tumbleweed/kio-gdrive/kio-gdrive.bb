@@ -5,10 +5,10 @@ otherwise there is no way to setup a Google Drive account. \
 This can be Dolphin or Gwenview or Konqueror."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kio-gdrive-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "c3111c638aa48647602aac66041da77075199a9812a88c81484a1938474f5a7909c962cbb5c4c07e730cc75906ceb1bda0d13d5e41f0af6882126ad1da649039"
+RPM_NAME = "kio-gdrive-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "07b162d58cbf6ab19d5eb88286c281d5d0d6b076b8f7b7dd48f2c82302390673f2fc642c5c92cbed200840561d7949bfe7059cddcfa654b7cc804b7ce02f1182"
 
 RPROVIDES:${PN} += "kio-gdrive"
 

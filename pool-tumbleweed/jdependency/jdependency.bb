@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2"
 
-RPM_NAME = "jdependency-1.2-4.6.noarch.rpm"
-RPM_HASH = "84819bfb43637ff39c25dbeb48abe4516c8565682db0a6c268902053e9585a21999844e283b7cc40a0f15da9c9cb531f3f63d1088382271eb34c2c2ddca207ac"
+RPM_NAME = "jdependency-1.2-4.7.noarch.rpm"
+RPM_HASH = "a433fab32d0571c28bb7edb7690d04f052640f527addf5904b09aa184f0eb6ac9364fca11fc48217753d35f9f0f16289d9dea28d6cdb6b74e7ec4cfca06d5764"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jdependency \

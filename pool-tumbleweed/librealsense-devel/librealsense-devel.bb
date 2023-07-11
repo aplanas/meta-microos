@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.53.1"
 
-RPM_NAME = "librealsense-devel-2.53.1-2.1.aarch64.rpm"
-RPM_HASH = "1317d27cc00881573f2f2477c98cb486229da49573ea24f4e728549c184878cef65f5ca3d8e56fa8d70b706c28660a5eb749d1b89af7c87c1444d3189ccf75a7"
+RPM_NAME = "librealsense-devel-2.53.1-2.2.aarch64.rpm"
+RPM_HASH = "fa70ee28e69dcb4d74dfc3d76f45157086d028907e8aaa1f05539f3f78bcb966acd89ec36484c6de4e0b8621352c74e98e9ac921af0970a162503c7946598016"
 
 RPROVIDES:${PN} += "cmake-realsense2 \
 cmake-realsense2-gl \

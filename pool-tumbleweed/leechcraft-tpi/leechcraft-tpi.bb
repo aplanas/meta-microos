@@ -4,8 +4,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-tpi-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "79bfca4481cf5bcb155bc9cf7bca52c93c0fad601ef1006ab70101fccdf29a7fff85dadd2dc54e660397f2aa0d3cc293a3cbf1a8189069e1b0a812f81b2f4b3c"
+RPM_NAME = "leechcraft-tpi-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "e575f7b87f3fc40801985b34f086f08ad965c118ad2c05c30304a859aabba2635fc4cfd0328845c5d7351e052fb31ba71fbdda93210e06b34a1e0b80f696ce41"
 
 RPROVIDES:${PN} += "leechcraft-tpi \
 libleechcraft-tpi.so"

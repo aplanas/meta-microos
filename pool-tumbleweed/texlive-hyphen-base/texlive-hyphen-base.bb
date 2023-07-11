@@ -5,10 +5,10 @@ language.dat and language.def (and default versions of those), \
 etc."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn66413"
+PV = "2023.208.svn66413"
 
-RPM_NAME = "texlive-hyphen-base-2023.201.svn66413-52.1.noarch.rpm"
-RPM_HASH = "aaa61881eb740ac42505afc0bada0dbdc7b862348a2952f676f93e1d7cb590c603f87925aef7750a44e504584509b1227fb217aeb642dc81f3b919ea1fcdd5c1"
+RPM_NAME = "texlive-hyphen-base-2023.208.svn66413-53.1.noarch.rpm"
+RPM_HASH = "b5daad53202e5f5186b6299dcdf2e8481921edddbbf2a660a35a4f96be10af3f21775fefa97555ac93a24b3937cc4fca96393e33deeb0416b3576c4f3e47ec4c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-hyphen-base \

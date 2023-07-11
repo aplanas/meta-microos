@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kdiff3"
 DESCRIPTION = "Provides translations for the 'kdiff3' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.10.2"
+PV = "1.10.4"
 
-RPM_NAME = "kdiff3-lang-1.10.2-1.1.noarch.rpm"
-RPM_HASH = "35b20fdd586f4dc0fc3aeb0d76167cc573c18b9d294175ce1789e03849c56e8781d893436fb0d56cd8b04588173404566491e06bfd307646750ae46cdde59636"
+RPM_NAME = "kdiff3-lang-1.10.4-1.1.noarch.rpm"
+RPM_HASH = "812eb97f2048e3c4e4977f91cb2c6c8210fabf3b27c7ab613af22bf49e824d4cef3ac88a5e8f332c38bd82c236bc560a552a05256d6850903700370a58df5619"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kdiff3-lang \

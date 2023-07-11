@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.7.0"
 
-RPM_NAME = "libopencv_imgcodecs407-4.7.0-1.6.aarch64.rpm"
-RPM_HASH = "1fda81e23d65d088024452be174d0f35ef136d050b8df51bf5441e108794a59150a0fd1015375c2af24e9d0228b3c0a492f829a04e521c8b45b4154d21b8bb29"
+RPM_NAME = "libopencv_imgcodecs407-4.7.0-1.8.aarch64.rpm"
+RPM_HASH = "67ed22c7982a772c86a6b627f5366441090f271986312d6c2952b8da221f111b7835c3fedc611fc55cb99118db05867c426a7b7a0b4b0098415665ac2346b68e"
 
 RPROVIDES:${PN} += "libopencv-imgcodecs.so.407 \
 libopencv-imgcodecs407"

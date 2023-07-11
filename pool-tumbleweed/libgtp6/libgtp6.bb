@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.10.1"
 
-RPM_NAME = "libgtp6-1.10.1-1.1.aarch64.rpm"
-RPM_HASH = "5b3be484c54cb641a748213bcd9d3b3224d81a871fcd82837f76d02e07ecb414c7fe84bc28caeed7aa4b514368d4c6cfa23c70fa1d7f910049c079cb23a07f48"
+RPM_NAME = "libgtp6-1.10.1-1.2.aarch64.rpm"
+RPM_HASH = "8a45a9e91572d51ad6c07c3fd38c28b67f870f3f1b52e2addef88e4e2fa61aaa847cbf8b0aa9a00010837e7ca779e08ebae19cce8c885758495677f47b3b3ae6"
 
 RPROVIDES:${PN} += "libgtp.so.6 \
 libgtp6"

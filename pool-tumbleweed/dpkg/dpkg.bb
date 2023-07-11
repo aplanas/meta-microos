@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.21.8"
 
-RPM_NAME = "dpkg-1.21.8-2.1.aarch64.rpm"
-RPM_HASH = "81bb1266a49d650ecef81a9cc82945423604bc798da636bca002dde17dc0b310b771da84d9a18b6a0c8383db872092f1ac43db4d9cde37bc3d3828c0df7f9c4f"
+RPM_NAME = "dpkg-1.21.8-2.2.aarch64.rpm"
+RPM_HASH = "9cd9e7cd114ac899d50f48f1e20fa4233c5bf705ad5fffb34f234a99903054c229b41075c5bae8e196b26b572fb5137567cd33f9a3e043fd8fbe84fff85d4f58"
 
 RPROVIDES:${PN} += "deb \
 dpkg \
@@ -110,7 +110,7 @@ libtinfo.so.6 \
 libz.so.1 \
 make \
 patch \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-Date--Parse \
 update-alternatives"
 

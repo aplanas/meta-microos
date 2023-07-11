@@ -5,11 +5,12 @@ LICENSE = "GPL-2.0+"
 
 PV = "1.0.0"
 
-RPM_NAME = "python311-safe-netrc-1.0.0-1.4.noarch.rpm"
-RPM_HASH = "0e6eeb88447dd54ffc29989c310f3422e3074a16226a4bb5588cc06787f8b59fd195004f0f7959b8b54618f07d752dff613cb8a30bcc5209216874884f4d2839"
+RPM_NAME = "python311-safe-netrc-1.0.0-1.6.noarch.rpm"
+RPM_HASH = "99f44f4f8bdbbfe0afc5ffd6fcd0029004d21c47b31721a73fbdb576ff5df705a43f0fb4013779d40cf77f0f943f363bfaef69bfacd51ef78de8060476d3f1a8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-safe-netrc \
+RPROVIDES:${PN} += "python3-safe-netrc \
+python3.11dist-safe-netrc \
 python311-safe-netrc \
 python3dist-safe-netrc"
 

@@ -8,11 +8,11 @@ LICENSE = "MIT"
 
 PV = "4.5.2"
 
-RPM_NAME = "scons-4.5.2-1.1.noarch.rpm"
-RPM_HASH = "0c2beaca90ef325dca89ff622291b1d6744b6dc80567a3512b67fc55e5e95c7bc5d31e9347aefae225ae9449c12c6cd5f06ab5d658730532c60418ab208a22c1"
+RPM_NAME = "scons-4.5.2-1.2.noarch.rpm"
+RPM_HASH = "0aafdff33af9ac40cef64a0afa4510fa8074eaa81f099e51abc471a50571c21247b1fdca0057e013a10b1015b5af70aad01ee1cb87e4bb9060039e06dc2f5c52"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-scons \
+RPROVIDES:${PN} += "python3.11dist-scons \
 python3dist-scons \
 scons"
 

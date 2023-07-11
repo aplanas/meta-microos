@@ -7,8 +7,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.02"
 
-RPM_NAME = "perl-Config-MySQL-0.02-2.20.noarch.rpm"
-RPM_HASH = "1c8e36aaa3405fb1c56548d0c4cc047f382effb0053c8f7c6ca7d6235e93865d76177a38c4d33332b14b119fa6d0d23f8d3e0f3d67ca53ca95bb24b48495691a"
+RPM_NAME = "perl-Config-MySQL-0.02-2.21.noarch.rpm"
+RPM_HASH = "2d64191ba42da8554ede07615cbb366d68601cd00b4e1aac6007181071a78c5a8c7725d22e2fdc9a8f0fdbc0949eb8732f9954c5988355f0265f1b051dd0b3e2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Config--MySQL \
@@ -16,7 +16,7 @@ perl-Config--MySQL--Reader \
 perl-Config--MySQL--Writer \
 perl-Config-MySQL"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Config--INI--Reader \
 perl-Config--INI--Writer"
 

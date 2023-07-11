@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.5.4"
 
-RPM_NAME = "xorriso-tcltk-1.5.4-1.10.aarch64.rpm"
-RPM_HASH = "868abde5f98b66f9e90ab5b6155f2b41c7809c2b31b2bb504f3ff43677e95ac205c770433826260592482cef0951ec472b491f46af4b474652aea2ced23812b3"
+RPM_NAME = "xorriso-tcltk-1.5.4-1.11.aarch64.rpm"
+RPM_HASH = "2356e04be700ab5f3abc76d69a0c4088a7b6b52d347259d0ce6b192e815fad608cdac6cd02f71f4f2650e32a8fcd8082a1d060642d7d7cf1d821c62c6399a82f"
 
 RPROVIDES:${PN} += "xorriso-tcltk"
 

@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.2.5"
 
-RPM_NAME = "python39-findpython-0.2.5-1.1.noarch.rpm"
-RPM_HASH = "10c81eb07374cb24cadc8716bc7fb01fee7df3094f2b6e955c39b205a233e97c0f0ca904a02d84c49ca5b8575ee5b14d5818c2fc3b78c656c50104c5d96f26bf"
+RPM_NAME = "python39-findpython-0.2.5-2.1.noarch.rpm"
+RPM_HASH = "f1e8b6351e795fcc4e3db4f60ef5b99294993f5c49cf3dcaeec9dbbd5b600b972c75a8b7e0ff63d9116bd2b873bb3fa2140698a0d596ae9ef31e8492b7bc4683"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-findpython \

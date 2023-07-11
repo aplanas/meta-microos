@@ -12,8 +12,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-only & LGPL-2.1-only"
 
 PV = "2.6.1"
 
-RPM_NAME = "libgensiocpp4-2.6.1-1.4.aarch64.rpm"
-RPM_HASH = "cc29f8b46fe7bec6f279d9aff1f1699dc5b7eec0997ea723e3ea24b6cecf8447578513694143b3e4792a4ef40a5fc78c4849621d6547241fe763771e14720e23"
+RPM_NAME = "libgensiocpp4-2.6.1-1.6.aarch64.rpm"
+RPM_HASH = "7cf2139aa8a696a7dca11d1b704258dc1575df553bc48cfd28791c56602d9d8b9c5dfb0defb0c12eb3f7543ad55b3863bee825582950bc67922e79e94a390def"
 
 RPROVIDES:${PN} += "libgensiocpp.so.4 \
 libgensiocpp4"

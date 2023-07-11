@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.7.1"
 
-RPM_NAME = "python39-pyheif-0.7.1-2.1.aarch64.rpm"
-RPM_HASH = "5124d3b6b9e500eb810fe5ce7f244fef2249aa99dcb8156cbc7b75092f8f23b0771088c324b85327ecfb7e29abdfed1f91b667866fe5384d660cfba5f9b7f832"
+RPM_NAME = "python39-pyheif-0.7.1-2.3.aarch64.rpm"
+RPM_HASH = "afb76af08c5957d32e72dc387cb963b1ad2db390537bcc9738aaed9dc4215e5e4c04448d4832c589faab252db7305d19b0284e4bb12913d537dbc2dc36728ef4"
 
 RPROVIDES:${PN} += "python3.9dist-pyheif \
 python39-pyheif \

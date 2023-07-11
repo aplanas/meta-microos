@@ -2,10 +2,10 @@ SUMMARY = "Busybox applets replacing time"
 DESCRIPTION = "This package contains the symlinks to provide time with busybox."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.36.0"
+PV = "1.36.1"
 
-RPM_NAME = "busybox-time-1.36.0-26.3.noarch.rpm"
-RPM_HASH = "545f53dfab3ed8b2409351441e4373b8eb62a5c02c04fb42756aa568047d598563e82d4f6d44de2c87eedbd0df3c021783e177bd6835d486147a7e43a67b6c5f"
+RPM_NAME = "busybox-time-1.36.1-27.1.noarch.rpm"
+RPM_HASH = "5409d8dd3258befd105e52f7a72f6046e863806949762a8b8c9e37a93c4c61ea46246f0b347f8cd5c448bafb5d1ca7d6e90796196ee2c3c4dcc58ca6bbf6ccab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "busybox-time"

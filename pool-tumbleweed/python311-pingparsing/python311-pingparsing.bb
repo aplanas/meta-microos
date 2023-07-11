@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "1.4.0"
 
-RPM_NAME = "python311-pingparsing-1.4.0-2.4.noarch.rpm"
-RPM_HASH = "83aca726463eb75cb8b897f06c450bfbc7e9cf2b37fb03bf473c75156eaf84e5d4dbf23d18b18f1dd81be752b047df903f94c54183e4daf90ab4a9fd610aa58f"
+RPM_NAME = "python311-pingparsing-1.4.0-2.6.noarch.rpm"
+RPM_HASH = "86e320763402a4d8a7dacaa522113e031c9c41ec90803b9bdf0420f4a83fe3e11a44ae0e45440410ceeca517de23ac981348cc9c422755e21ceb7b1df82f953c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pingparsing \
+RPROVIDES:${PN} += "python3-pingparsing \
+python3.11dist-pingparsing \
 python311-pingparsing \
 python3dist-pingparsing"
 

@@ -4,8 +4,8 @@ LICENSE = "MPL-2.0-no-copyleft-exception"
 
 PV = "2.18.8"
 
-RPM_NAME = "dlt-libs-2.18.8-4.4.aarch64.rpm"
-RPM_HASH = "a32c61d4a920f7a6eb33e37f618acefd6c3de4dcb02600ef22df2bd5e34bd972901759f2e4cb9cc3501e35a07ccc1659e9582d64aef16f562b88f7e70c7a22f6"
+RPM_NAME = "dlt-libs-2.18.8-4.5.aarch64.rpm"
+RPM_HASH = "0ff9bb6089365b7974b835f177ab97edb21e5e08bb38b1971710db7393144f68810547d23dd357c5023d4cebeed8d4196143c1bdd827f24c14d9f1cc945a0536"
 
 RPROVIDES:${PN} += "dlt-libs \
 libdlt.so.2"

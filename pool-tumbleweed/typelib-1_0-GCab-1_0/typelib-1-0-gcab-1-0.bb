@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.5"
 
-RPM_NAME = "typelib-1_0-GCab-1_0-1.5-1.5.aarch64.rpm"
-RPM_HASH = "85e67611f1ddf784d17ec777028523b4d66ef46c3a415b4a53d4b997a29486b880d2a89b05bb34a6e4eb94374052c04e18901ef463f627ebe0a889dd54e1488e"
+RPM_NAME = "typelib-1_0-GCab-1_0-1.5-1.6.aarch64.rpm"
+RPM_HASH = "e656bfdc3683493a386d51cab63a621f99b1fd50f3281952bc8b63e8df515426df9912c991c411947e3b2527fec2dfdff46098fa11559da0c312a560ebb4dc5c"
 
 RPROVIDES:${PN} += "typelib-1-0-GCab-1-0 \
 typelib-GCab"

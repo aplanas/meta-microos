@@ -10,8 +10,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.8.1"
 
-RPM_NAME = "python39-python-prctl-1.8.1-2.4.aarch64.rpm"
-RPM_HASH = "6624886e2e767f8c946effc130472da1476f8a5aa61fdc991db7dd9440c094ca072a33d625032703fc92a210c458778d2a60346a776a350a3c3ba4a37b3f5ddb"
+RPM_NAME = "python39-python-prctl-1.8.1-2.6.aarch64.rpm"
+RPM_HASH = "7d9c94578689735a6281b90df40debc998e169f06cdd7421e0346877f099322fe1a336d62d70869e16d709e8ecd4f118a4209ee73c4313887a434f6efabe43ac"
 
 RPROVIDES:${PN} += "python3.9dist-python-prctl \
 python39-python-prctl \

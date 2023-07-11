@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "gnome-disk-utility-44.0-1.1.aarch64.rpm"
-RPM_HASH = "9c1ce16b9e105b687f8eda963f64337fdc212ab0b0ba728031c805bc204b54dec7feb5d49e8991c173479b4e2b8d185971dff216a32de4b0672336aa00d745e4"
+RPM_NAME = "gnome-disk-utility-44.0-1.2.aarch64.rpm"
+RPM_HASH = "42ce4064ef93a46dfa6e9bc364e5f8e04448c40bc34639994e976cc99588cafb2411a7f9c431a9d83a6f2a63602f3d5a384a3e554f5f142dcc8c604852bed816"
 
 RPROVIDES:${PN} += "gnome-disk-utility"
 

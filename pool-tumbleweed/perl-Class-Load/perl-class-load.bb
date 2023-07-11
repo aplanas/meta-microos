@@ -15,15 +15,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.25"
 
-RPM_NAME = "perl-Class-Load-0.25-1.16.noarch.rpm"
-RPM_HASH = "8e7216c636c358b07a67a29efa339fcb649191b74f0809a0fce7f39ff45c49c9882b840edab556f0b73c42e4f44337c63b940ee15a524a1b220bf27ff0511dc1"
+RPM_NAME = "perl-Class-Load-0.25-1.17.noarch.rpm"
+RPM_HASH = "9eabb6208f634234ecc0efa15b1c704855ba673ebf37ddb7b756fb062573c4bd969cddbf86d9796996185883704e83d6b99f5c1a6c309dd1dc862b559d008992"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Class--Load \
 perl-Class--Load--PP \
 perl-Class-Load"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Data--OptList \
 perl-Module--Implementation \
 perl-Module--Runtime \

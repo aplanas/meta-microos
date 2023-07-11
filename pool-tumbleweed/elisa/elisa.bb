@@ -7,10 +7,10 @@ is providing all needed data from its own database. Playlists can be \
 built and played."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "elisa-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "af0fa8877f94dfc9e28a6dc7ff8e94f7f7ff81f7eda71f097e56be0bc38ff4e622b12806785a9c6503aa968a032ae4c85bbce2c41ab97de56184b59c7cb03303"
+RPM_NAME = "elisa-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "a34b583e96cc10045e928457e791871a65e6fead508b108c4adf3115e5e5e012713afac01d2e742dfb19945f68fe434253fae621f87202bb3c0c79d44a233e7a"
 
 RPROVIDES:${PN} += "elisa \
 libelisaLib.so.0 \

@@ -2,10 +2,10 @@ SUMMARY = "Haskell semialign library documentation"
 DESCRIPTION = "This package provides the Haskell semialign library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.2.0.1"
+PV = "1.3"
 
-RPM_NAME = "ghc-semialign-doc-1.2.0.1-5.3.noarch.rpm"
-RPM_HASH = "c6b62a276c8826db07111b6cb805d70009313365fd2970dad59e95f7cc5965f3d4aab8779f63ea278fd999afd5744873dec92ed127f3ccdf48788a58c065d25d"
+RPM_NAME = "ghc-semialign-doc-1.3-1.3.noarch.rpm"
+RPM_HASH = "834d059b522dc6747866dffd9b63ec0c4001fdd115859c6b3c12f82ff77d1cd5b8f9e4365ee1a7eff1aff2d6580e02cb46b708aee80d0056c084a5aff4c758c0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-semialign-doc"

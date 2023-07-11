@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-only"
 
 PV = "0.99"
 
-RPM_NAME = "smp_utils-0.99-2.9.aarch64.rpm"
-RPM_HASH = "51e4b430fce36825cd903d75cedf8a4c6cbbd8f75085ec9a4a0c73a6488ec7c3c30325a7c5c0c5370c1e8647368bd4c0264272cc8e663b2493ee8f57724e0175"
+RPM_NAME = "smp_utils-0.99-2.10.aarch64.rpm"
+RPM_HASH = "b2801c665e2d8cec8b249b16ab802a311936ecf9b765cdf3c5b37320fe47c34156540a588372850c1545dcb7a669b11952f0200f081392bd97799fc642fa6f1b"
 
 RPROVIDES:${PN} += "scsi-/usr/bin/smp-conf-general \
 scsi-/usr/bin/smp-conf-route-info \

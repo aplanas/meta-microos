@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "6.5.4"
 
-RPM_NAME = "LHAPDF-devel-6.5.4-1.1.aarch64.rpm"
-RPM_HASH = "fa3f9a6e63e7b3dd69b50aff26db06853e2f867eb67d9f11d0bc7ad4b2f6345b2b4141e76ce9966c3afb83b9873a1be7c91b5f9e9a1c3f1720c0b5adf0e3d23a"
+RPM_NAME = "LHAPDF-devel-6.5.4-1.2.aarch64.rpm"
+RPM_HASH = "18d8e40ac9edd08332a5fb0e5d43197535960e74b5d2d4d13ea34d9fb295be4f93c9d6f49b15244da59279a43a4257bdd6c820a4207ff7d7fc3a4d863aef7b0a"
 
 RPROVIDES:${PN} += "LHAPDF-devel \
 pkgconfig-lhapdf"

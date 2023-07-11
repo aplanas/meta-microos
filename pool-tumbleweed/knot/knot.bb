@@ -5,10 +5,10 @@ implementation and can operate non-stop during zone addition or \
 removal."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.2.6"
+PV = "3.2.8"
 
-RPM_NAME = "knot-3.2.6-1.1.aarch64.rpm"
-RPM_HASH = "91727ee54d41082cf77aac9823e9264a0186ae1ad8e049a47e95c6a29bcc3223dfc6f907da7ab1922703c8c36bc6282edfb92896e273698df424d190cf546ecc"
+RPM_NAME = "knot-3.2.8-1.1.aarch64.rpm"
+RPM_HASH = "f4c25bee70e9ff00f05522ec4588fc5fdd26b80be59d4ee701c017f01bb3e635a674dc21ed80f9634541e5049469b6a2a8d800b7edb22efa6be34893578da842"
 
 RPROVIDES:${PN} += "config-knot \
 group-knot \

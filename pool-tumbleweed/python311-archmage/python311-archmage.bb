@@ -5,11 +5,12 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.4.2.1"
 
-RPM_NAME = "python311-archmage-0.4.2.1-3.1.noarch.rpm"
-RPM_HASH = "c60ca8e3f9755ee9649c72364fbe45b76a95d4ec2901c3731b8b640e48852576fad75bb96669b80c7423d2b1fd37316de37ee5a296c24fba8b492f1f59a80205"
+RPM_NAME = "python311-archmage-0.4.2.1-3.3.noarch.rpm"
+RPM_HASH = "aa5d5a581305df9a422a058999f0afb233acc52e5b04f2b04a748e7fab624e24d6a48e40059608c5955406f1e841bdf427723c43bf6c6bf8c37afb0e675fdf55"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-archmage \
+RPROVIDES:${PN} += "python3-archmage \
+python3.11dist-archmage \
 python311-archmage \
 python3dist-archmage"
 

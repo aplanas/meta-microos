@@ -8,10 +8,11 @@ LICENSE = "Apache-2.0"
 
 PV = "4.3.3"
 
-RPM_NAME = "python311-pymongo-4.3.3-1.4.aarch64.rpm"
-RPM_HASH = "7c11e322030ec930f668ef6fe7941c18738272d23409db40e4681de977ed8c1d3e47710b184caccb87d9ee1b9d87a9536ea6daddf353e5ac80407a2b61835211"
+RPM_NAME = "python311-pymongo-4.3.3-2.3.aarch64.rpm"
+RPM_HASH = "bd78c6dc03f978e2545309ce768c4e184667c0d7a5470bd623d0a87cb419da495a356e7e9dc2accaa771020a96cb280cd1f9a9967bcd81ddfe4df05cdb1a1911"
 
-RPROVIDES:${PN} += "python3.11dist-pymongo \
+RPROVIDES:${PN} += "python3-pymongo \
+python3.11dist-pymongo \
 python311-pymongo \
 python3dist-pymongo"
 

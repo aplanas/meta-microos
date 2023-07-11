@@ -5,12 +5,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1"
 
-RPM_NAME = "python310-tensorpac-1.1-2.3.noarch.rpm"
-RPM_HASH = "d3df8cba7400e6c6b483dfce7f56a299360ee07a6f036e5f5b47cb58c5dffc0cede62686c0bd20bb1ee5d190151573cc8c2c4d0418af8242799a2e7e0f36b9ce"
+RPM_NAME = "python310-tensorpac-1.1-2.5.noarch.rpm"
+RPM_HASH = "e7cbeee7e4610bff16504311ba12e8a96ba244cce78c79e2939f5645c694c88f793cee3438b0a9fd33a672eacc4696f10f405e6eb88d39dc3e9356fa63632d27"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-tensorpac \
-python3.10dist-tensorpac \
+RPROVIDES:${PN} += "python3.10dist-tensorpac \
 python310-tensorpac \
 python3dist-tensorpac"
 

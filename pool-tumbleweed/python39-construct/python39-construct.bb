@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "2.10.68"
 
-RPM_NAME = "python39-construct-2.10.68-1.6.noarch.rpm"
-RPM_HASH = "53618c1dc98235bd515a7d46ef0fb69a451d0d5eda04d9727ac5405affff491c164c8eaae580bbbe9c014cfe8e7389116f798a4ada7b8c592340585d97a83a78"
+RPM_NAME = "python39-construct-2.10.68-1.7.noarch.rpm"
+RPM_HASH = "181a6e8d0efaa7c8d39315835192c3210b7d231abca6a9fcc2e90013b97732fb44aff73dd5a24f1eff3ac94277429b9b852e036d35f27c4e5e9dda745ef52209"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-construct \

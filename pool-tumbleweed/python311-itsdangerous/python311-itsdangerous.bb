@@ -14,11 +14,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.1.2"
 
-RPM_NAME = "python311-itsdangerous-2.1.2-2.1.noarch.rpm"
-RPM_HASH = "b69168da681c3a6ca83e995db109f209b3b0e8b670a43b909607817b0e5707e1ca5fdb271d813c4c8baf890f19085341e402e9d593c20529f59682967f002a0a"
+RPM_NAME = "python311-itsdangerous-2.1.2-2.3.noarch.rpm"
+RPM_HASH = "56e5ae4ddfd1e8e5e6b81f2bc9ba2777c6fdf9dfed483d8d18567c9ca8295addd4dcbcd13c7a2cc4bff73026864d59629ab89b7f313093c5173760c9b4033e1c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-itsdangerous \
+RPROVIDES:${PN} += "python3-itsdangerous \
+python3.11dist-itsdangerous \
 python311-itsdangerous \
 python3dist-itsdangerous"
 

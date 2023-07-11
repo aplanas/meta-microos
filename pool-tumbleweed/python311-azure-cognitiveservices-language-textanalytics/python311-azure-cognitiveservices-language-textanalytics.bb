@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "0.2.1"
 
-RPM_NAME = "python311-azure-cognitiveservices-language-textanalytics-0.2.1-1.6.noarch.rpm"
-RPM_HASH = "21e950911709876bd5d7653e7c9d9c131b57d80f91cacfa647dda840796a64723003d5767c258281db16ab7bb9f4f1ec44a949d522b6c845c5b21b9034166cca"
+RPM_NAME = "python311-azure-cognitiveservices-language-textanalytics-0.2.1-1.7.noarch.rpm"
+RPM_HASH = "4f068ea55ee0f7a1702831bd19311e9aaca0047ff808a450257736cc781a09bf3f3790451bfe81d13b3331a51af42b1b27e75eeb222393c919059ce7d3b46df4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-cognitiveservices-language-textanalytics \
+RPROVIDES:${PN} += "python3-azure-cognitiveservices-language-textanalytics \
+python3.11dist-azure-cognitiveservices-language-textanalytics \
 python311-azure-cognitiveservices-language-textanalytics \
 python3dist-azure-cognitiveservices-language-textanalytics"
 

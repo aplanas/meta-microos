@@ -9,12 +9,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.7.1"
 
-RPM_NAME = "python310-PySocks-1.7.1-2.1.noarch.rpm"
-RPM_HASH = "773b5c325b08281884579a411d958856dfed4f8ee6d82f35185b3fa940e044403b91eb5454f62f215a056ab5aef77dba16fc5d4f435622bfe6d29a062feaae7c"
+RPM_NAME = "python310-PySocks-1.7.1-2.2.noarch.rpm"
+RPM_HASH = "4e740de691dfb6c8e028de68ac1fe3cd12784dd821858b51fafe732de1c2527a0af9feb576c0839eeabbbcdfad306c6e71ba6f7086ca99ca7bcae8a4d1a2c6f8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-PySocks \
-python3.10dist-pysocks \
+RPROVIDES:${PN} += "python3.10dist-pysocks \
 python310-PySocks \
 python3dist-pysocks"
 

@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.20.0"
 
-RPM_NAME = "python310-validators-0.20.0-3.1.noarch.rpm"
-RPM_HASH = "f6ae2c546fa4597fe425364e1f5ccbc99a35c2510544efd2ad1132235a8307313b4f1469937b09e2699fa2098004ac2b9325748c895d370466744d4f278b70cd"
+RPM_NAME = "python310-validators-0.20.0-3.3.noarch.rpm"
+RPM_HASH = "f38b8947168d2ee43ac74309117f0db23a00b20b3fa0f23b004a036dd166ac8a062ccb0496f8d05ac639b59d9221b389ae17e13b493eac8a7fa03a9b534e6e0f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-validators \
-python3.10dist-validators \
+RPROVIDES:${PN} += "python3.10dist-validators \
 python310-validators \
 python3dist-validators"
 

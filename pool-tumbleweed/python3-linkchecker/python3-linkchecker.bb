@@ -17,13 +17,13 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "10.1.0"
 
-RPM_NAME = "python3-linkchecker-10.1.0-1.1.noarch.rpm"
-RPM_HASH = "0873414248fc8b0d006441597929fb576a29f295badc9e15f7b2b91daccf580ebc3bbca153cb9bd90670d5ec55de653b0d6a512887a490f090b83bbf9ad14862"
+RPM_NAME = "python3-linkchecker-10.1.0-1.2.noarch.rpm"
+RPM_HASH = "bfb2bfc96ce460d2dce4104aa3223699896028a45bc8734705e365ff2b79c9f70a0a5fb24e00d9983be14b87af2d78ce1fda3ca766f5bb3cdf02447d9219eac0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "linkchecker \
 python3-linkchecker \
-python3.10dist-linkchecker \
+python3.11dist-linkchecker \
 python3dist-linkchecker"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

@@ -3,19 +3,19 @@ DESCRIPTION = "This package provides the Haskell simple-sendfile library develop
 files."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.2.31"
+PV = "0.2.32"
 
-RPM_NAME = "ghc-simple-sendfile-devel-0.2.31-1.1.aarch64.rpm"
-RPM_HASH = "393b328690e634bf89e3a659a7aaa18d99674030537c5bd431d5d449866f51ab86541b9b7c4b7203f644fa073ff5d6636bd99421024d171586041651fc16c58f"
+RPM_NAME = "ghc-simple-sendfile-devel-0.2.32-1.2.aarch64.rpm"
+RPM_HASH = "31d4093967076271cd72c75c99a037d69d2b078b63f84fa7926cf5b10f5a017c2cf000bea3560c286a89b13acf7d945d39f6cb8e26c01a663a605f48bdb5eddc"
 
-RPROVIDES:${PN} += "ghc-devel-simple-sendfile-0.2.31-701wssQD34oFyvrTLOblUT \
+RPROVIDES:${PN} += "ghc-devel-simple-sendfile-0.2.32-4x5oTHfDDcT2QYoR9wedVb \
 ghc-simple-sendfile-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-bytestring-0.11.4.0 \
-ghc-devel-network-3.1.2.8-HNDBp0HF6t0D1fzE2MDtPd \
+ghc-devel-network-3.1.4.0-FvtFepOtuCUH79FCWyNxIc \
 ghc-devel-unix-2.7.3 \
 ghc-simple-sendfile"
 

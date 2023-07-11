@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "4.0.2"
 
-RPM_NAME = "python311-nibabel-4.0.2-1.4.noarch.rpm"
-RPM_HASH = "885a11260b434f782e9ca8a720d2497cb9719639215f5db3028dcc221f5827d1394b39e806983df6dd7168a71536569e004ab6ed07add84101700083bb766aef"
+RPM_NAME = "python311-nibabel-4.0.2-1.6.noarch.rpm"
+RPM_HASH = "2785fd4177ec213d63453a1a6d201cfa845536cae1df822b33b919d2b30405b4aea9e6307cebd6edf70cb919673f5dc1132d80c31acf242a1cbf920914797945"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-nibabel \
+RPROVIDES:${PN} += "python3-nibabel \
+python3.11dist-nibabel \
 python311-nibabel \
 python3dist-nibabel"
 

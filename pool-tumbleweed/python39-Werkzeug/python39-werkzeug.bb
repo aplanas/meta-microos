@@ -14,10 +14,10 @@ on as many server environments as possible (such as blogs, wikis, \
 bulletin boards, etc.)."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.2.3"
+PV = "2.3.6"
 
-RPM_NAME = "python39-Werkzeug-2.2.3-2.1.noarch.rpm"
-RPM_HASH = "2a06476e1dfef0c41772b68926473e5be2a00b2fbd5b8e9b30a68d648e4216661a00b9bf7b2f95ca2afac72b2ff718ff2c3fdd264447b38d39854bfdf996a514"
+RPM_NAME = "python39-Werkzeug-2.3.6-1.1.noarch.rpm"
+RPM_HASH = "d95a7713379fb9055393ab622bc23249c751487f089e0b2af12735a84cf2930e56abee0190fb2d07a764f71f63756261c1b016bf103019a04253a8696aa50aa4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-werkzeug \

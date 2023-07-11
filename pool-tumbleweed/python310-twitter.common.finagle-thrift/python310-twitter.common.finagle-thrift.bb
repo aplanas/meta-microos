@@ -5,11 +5,10 @@ LICENSE = "Apache-2.0"
 
 PV = "0.3.9"
 
-RPM_NAME = "python310-twitter.common.finagle-thrift-0.3.9-2.13.aarch64.rpm"
-RPM_HASH = "83ce58c750102613f53f3bed02e12ba56cb642b0ba0d1972553860261c1354e39a958bbf01c07016d131c0223768f279b2e0551b69b596b215da807f86c9c38d"
+RPM_NAME = "python310-twitter.common.finagle-thrift-0.3.9-2.14.aarch64.rpm"
+RPM_HASH = "5df68e63633d687488ce549d2aef112775b3e69b293ff368cc3d6008ef37b87a3b99e9e8e8e8cabf15720c29919c42ad6e752a3078dc33c8ff6bbec6a1e0ac94"
 
-RPROVIDES:${PN} += "python3-twitter.common.finagle-thrift \
-python3.10dist-twitter.common.finagle-thrift \
+RPROVIDES:${PN} += "python3.10dist-twitter.common.finagle-thrift \
 python310-twitter.common.finagle-thrift \
 python3dist-twitter.common.finagle-thrift"
 

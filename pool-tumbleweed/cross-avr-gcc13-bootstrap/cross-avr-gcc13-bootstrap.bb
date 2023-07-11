@@ -11,8 +11,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "13.1.1+git7364"
 
-RPM_NAME = "cross-avr-gcc13-bootstrap-13.1.1+git7364-1.1.aarch64.rpm"
-RPM_HASH = "7d970bfb161e5699b49c7ac3d1e4c2c0a05a8f34166cf7fdb242e837cac7775ecbdcddc357e7b9da0427a037175399867235fad326316fa23fb776a3cba81695"
+RPM_NAME = "cross-avr-gcc13-bootstrap-13.1.1+git7364-1.2.aarch64.rpm"
+RPM_HASH = "63e370912311abe3b92146f7a769b5009714f7e5f46657e8d82f248ef48a7d9f4d7a7215a5f58685c9fc180a02e1b8bcb05ffc1c8b57c431ab72939c1cd05f16"
 
 RPROVIDES:${PN} += "cross-avr-gcc13-bootstrap"
 

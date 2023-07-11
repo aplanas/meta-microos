@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later & GPL-2.0-or-later"
 
 PV = "1.32.4"
 
-RPM_NAME = "libqmi-devel-1.32.4-1.1.aarch64.rpm"
-RPM_HASH = "0d8a5b22d527baa8be365b0484ff3090c52615d7ecbce4bde7e226386aa9513cb3aadfd72afcc9e6649f5b80137c54d857e81f1cac30ba0e54e56030310d761e"
+RPM_NAME = "libqmi-devel-1.32.4-1.2.aarch64.rpm"
+RPM_HASH = "7f8a5eccdc937e7735d5f89f84bbc314d03e0997d9dda6313c74269dcaa51d80bde332e4c4940f18cc0f56f56953f7c04d648814f16752bf8752a9e4a199f604"
 
 RPROVIDES:${PN} += "libqmi-devel \
 pkgconfig-qmi-glib"

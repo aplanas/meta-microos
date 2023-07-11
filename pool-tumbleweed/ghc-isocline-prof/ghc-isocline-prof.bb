@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.0.9"
 
-RPM_NAME = "ghc-isocline-prof-1.0.9-1.3.aarch64.rpm"
-RPM_HASH = "fc83381e5c3b5a7dabbdb6f98e8b0335b7faf3de88da9a1fd8019f6631aed1eff6d160dcb90bb561278daf039b6d14c64b089d4bbf779a3cef53a5f98de037f4"
+RPM_NAME = "ghc-isocline-prof-1.0.9-1.6.aarch64.rpm"
+RPM_HASH = "42ea02153281b190c536e0178ecfa85c6e9a780037f161882201ed79e262c29f004268fc5ae4420f2b05f35fd0ba98d532643dfb3aaf772adfa196b1ff39c81f"
 
 RPROVIDES:${PN} += "ghc-isocline-prof \
 ghc-prof-isocline-1.0.9-7x8dFWbXh69GJxYhigSqXG"

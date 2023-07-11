@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "2.0.1"
 
-RPM_NAME = "python311-latexcodec-2.0.1-3.2.noarch.rpm"
-RPM_HASH = "cc458cfdfcbaa2593e6e55d6a8302b4be71e53bc79e30dd778dc13fee7fc3b684ee0570c619cd3bc1fc2ae21dc39e939fe3d098128309b764c56edfc8349c6e4"
+RPM_NAME = "python311-latexcodec-2.0.1-3.4.noarch.rpm"
+RPM_HASH = "8484b19cce70161f6e434afee4f8e5b1fe8a0c1419a6307612422b55cb490181ac8bc0d968309952f7e5547510e7bc9a111c60e2c40389bf172377a5831cdacc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-latexcodec \
+RPROVIDES:${PN} += "python3-latexcodec \
+python3.11dist-latexcodec \
 python311-latexcodec \
 python3dist-latexcodec"
 

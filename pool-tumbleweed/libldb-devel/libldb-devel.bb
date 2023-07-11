@@ -6,15 +6,15 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "2.7.2"
 
-RPM_NAME = "libldb-devel-2.7.2-1.1.aarch64.rpm"
-RPM_HASH = "986efff8f1b2cb39c59453dc56c71e42c66bd486a7833d411e64223e93b67bff3cb27b06589f85005d8a48a65595ce3f79c3dae128a22d701cb2867f51320b0b"
+RPM_NAME = "libldb-devel-2.7.2-1.2.aarch64.rpm"
+RPM_HASH = "4ec7aa8de771423ed01a1a8cd748d700562d717a928473bbf1df1657b9a975fdabfee41272347c6e3dd598b409d051e761e13763556139c272ad6f3c7839fd35"
 
 RPROVIDES:${PN} += "libldb-devel \
 pkgconfig-ldb"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libldb2 \
-pkgconf-pkg-config \
+pkg-config \
 pkgconfig-talloc \
 pkgconfig-tdb"
 

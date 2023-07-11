@@ -5,10 +5,10 @@ introductory material, the document gathers information from \
 several sources, and offers links to others."
 LICENSE = "GFDL-1.3-or-later"
 
-PV = "2023.201.svn30473"
+PV = "2023.208.svn30473"
 
-RPM_NAME = "texlive-lualatex-doc-2023.201.svn30473-52.1.noarch.rpm"
-RPM_HASH = "29280c0fa6abe5d50317764ca0f9708025164a05e62809aa6a14e882d714c1bf2d9ddabe81501003b9baafe3f76aaba8bc26db961c98412b24ab46389498fc52"
+RPM_NAME = "texlive-lualatex-doc-2023.208.svn30473-53.1.noarch.rpm"
+RPM_HASH = "33a7f0ac82d1005f559321e55b920c1bc4cbbee4992c7200613b82848eb6dc5881828dae7041610035fd5b76fa2a6490685bf9564b114c9e667a1c1cc8a96fe7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lualatex-doc"

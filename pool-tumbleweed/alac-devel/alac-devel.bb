@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.0+git.20160511"
 
-RPM_NAME = "alac-devel-0.0+git.20160511-3.13.aarch64.rpm"
-RPM_HASH = "24b4b85cb725bb2304bcee8d14193c1afc4f77d36cfa10e559eb3ddb9736cf2c4b6f008e032f6824346c9c91515ba623629f69c4e2c23634d30cb542e17b6e2c"
+RPM_NAME = "alac-devel-0.0+git.20160511-3.14.aarch64.rpm"
+RPM_HASH = "9659bbf5f8f10c027e8142372a98022b2cbb0fb694a4cdb286910fe7df0ae609324848c2c71bbb560be735be72ca593f37802a7b10c080abab601bc84216f1b5"
 
 RPROVIDES:${PN} += "alac-devel \
 libalac-devel"

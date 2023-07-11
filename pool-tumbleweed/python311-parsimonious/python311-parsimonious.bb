@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "0.10.0"
 
-RPM_NAME = "python311-parsimonious-0.10.0-1.2.noarch.rpm"
-RPM_HASH = "9a84d2ec02495e7beee59868fb97dad4390a79db9ba0b672e2b9ac565665ae4fb2f1151cde2e8950809ca8cca6766a78cdc7e0885bf66d413af8e4bad358bc71"
+RPM_NAME = "python311-parsimonious-0.10.0-1.4.noarch.rpm"
+RPM_HASH = "38be0a2473d8f00567edc851cf963d774b4cb615aa6d0d95dcfd0576c1128babc4cbd2a475cc0bdfc0d84477831aee312fd6b7edf951f8a0215cf7f03769513f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-parsimonious \
+RPROVIDES:${PN} += "python3-parsimonious \
+python3.11dist-parsimonious \
 python311-parsimonious \
 python3dist-parsimonious"
 

@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0.1"
 
-RPM_NAME = "python39-smartypants-2.0.1-7.1.noarch.rpm"
-RPM_HASH = "0ef5b60af7072ffb7a4419c08c9737763aa220543b90bfb8a8eb1e5b63b75cd4386a3b461a9d588d6e098eb22e1c8be728f65137f408af6e7b97c2825d253c4b"
+RPM_NAME = "python39-smartypants-2.0.1-7.3.noarch.rpm"
+RPM_HASH = "0c3760f995fe4451d1b89b3f851f89fec78e8aacbfe46725951e6e6fa77c5e30db17193a47bf8bb55a30c94c1c2b5d15a22027a1b1f7cf741c656225266e96c1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-smartypants \

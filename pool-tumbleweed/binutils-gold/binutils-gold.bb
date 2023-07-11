@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.40"
 
-RPM_NAME = "binutils-gold-2.40-5.1.aarch64.rpm"
-RPM_HASH = "a6be5f2773aedf9d64d665a828270ca472f046ab79946b6f35780dce627489dc4bc1b2d79419dec7da9561f0b0e552a826ca3e43253a5d9e655c8d2c83e496bd"
+RPM_NAME = "binutils-gold-2.40-5.3.aarch64.rpm"
+RPM_HASH = "4268179252b08e41907b0072446926d791021ec2d019fbac8323ac3c3a5927eb59ef9826e8c8f7c94221f44f91a463aa7ef5ee1e17e9d7659178440fcb8b1bdc"
 
 RPROVIDES:${PN} += "binutils-gold"
 

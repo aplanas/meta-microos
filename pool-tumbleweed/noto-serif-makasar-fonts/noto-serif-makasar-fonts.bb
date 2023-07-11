@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-serif-makasar-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "530893f2a0c1cb6aac17f18a6e1429ba1c53bf66fe968e4cdba820a872f9df024ba2052498ae83aa15fbfe3c2aca9b57e0b6eb9850c90ab80a22d20bc7057b11"
+RPM_NAME = "noto-serif-makasar-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "cd05169229a0180afeec36a780556e6dc483402f2a56b9a9cc4e840403b41b1093370c7b62139ea26090808c862d9b7a49ee2312461da1c167860e4adc080dec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-serif-makasar \

@@ -13,14 +13,13 @@ for your argument/option values (for example, if the user is browsing \
 resources over the network)."
 LICENSE = "Apache-2.0"
 
-PV = "3.0.8"
+PV = "3.1.1"
 
-RPM_NAME = "python310-argcomplete-3.0.8-2.1.noarch.rpm"
-RPM_HASH = "f1abd52d92a2adc4ca870379b5ed02611585e3ea693d81733f0cd6294be2a7335dd697bfb76f9c1a0f5ae197ac196888168835cb9c18bbb119f6657fed8a587d"
+RPM_NAME = "python310-argcomplete-3.1.1-1.1.noarch.rpm"
+RPM_HASH = "2f16fb959368707a1b2a26b73451fd1b94c32130ceb53435f4fac0dc22207bc1e1e1427ecad583e05ab15d246fa77d66ba723e81a3f092ddc0244f473fed2b32"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-argcomplete \
-python3.10dist-argcomplete \
+RPROVIDES:${PN} += "python3.10dist-argcomplete \
 python310-argcomplete \
 python3dist-argcomplete"
 

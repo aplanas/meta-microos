@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.0"
 
-RPM_NAME = "python39-pytest-openfiles-0.5.0-1.13.noarch.rpm"
-RPM_HASH = "5308c7db1a362108a1c3a03891c2b50dfcf07367fb3829c90ca1e526e757b56dcfca0685b59ec3fc012ad9964b088b2e76f947822381cbc3dfb83ca0231b6016"
+RPM_NAME = "python39-pytest-openfiles-0.5.0-1.15.noarch.rpm"
+RPM_HASH = "be5a47f008a2d71aab54cda97b296886dd0672f1891841ce4dbe0e963230579981966cf4ecae09d5841918b573e0e65d66d516a425f02c1a84b37feaf87b2389"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytest-openfiles \

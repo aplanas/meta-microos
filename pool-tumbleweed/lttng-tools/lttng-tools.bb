@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
 PV = "2.13.9"
 
-RPM_NAME = "lttng-tools-2.13.9-1.3.aarch64.rpm"
-RPM_HASH = "382ff18575f94d5a7c53fe0a97588b2f160fd07067b68ab4b8a4ba9a5ccda568559d7259248e6456badde31ea5db38f8cee544c1d1d0b3135b3b46d141db6f27"
+RPM_NAME = "lttng-tools-2.13.9-1.5.aarch64.rpm"
+RPM_HASH = "61a9ee51ecc1b36ae893d903419a0a15cf430dc0a7cf8b52c2c7a63b2cd043175c915a3a59fc3fe470d468031e214cca34f174dcd9bfee108ed1e5fe6fb6089c"
 
 RPROVIDES:${PN} += "lttng-tools"
 

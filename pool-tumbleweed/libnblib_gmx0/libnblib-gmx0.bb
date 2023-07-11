@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0 & LGPL-2.1-or-later & BSD-3-Clause"
 
 PV = "2023"
 
-RPM_NAME = "libnblib_gmx0-2023-1.1.aarch64.rpm"
-RPM_HASH = "a943ab1479f7453d1c3ac5543099c81815e6d1f1fdcda8aa12419293dabb19dd1150db7b61008e261e24f7aa96fc1321c28499bad027ccd31b3e0343e71ac86d"
+RPM_NAME = "libnblib_gmx0-2023-1.2.aarch64.rpm"
+RPM_HASH = "844ba0eb738fc1b327b518d9343a44677ad38b8ad2bf126be4a2bda3ef55e8b9c83bbf441ba4f78a1b08261ac96a20abeb09639564b3fc76b923b56cec3bb171"
 
 RPROVIDES:${PN} += "libnblib-gmx.so.0 \
 libnblib-gmx0"

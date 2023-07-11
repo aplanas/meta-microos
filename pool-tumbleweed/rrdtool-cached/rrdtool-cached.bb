@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
 PV = "1.8.0"
 
-RPM_NAME = "rrdtool-cached-1.8.0-3.1.aarch64.rpm"
-RPM_HASH = "1aa470ddf5bf1d856dee344f730b2f663f9d6c189d9d31ce6a68e6db5e414a28e6820d8922f072c1e8264e8e50d0d387306de1d6f077a19fdc70180d0f2a1b61"
+RPM_NAME = "rrdtool-cached-1.8.0-3.4.aarch64.rpm"
+RPM_HASH = "924e09c3c14b79dc19028344ede5f453746adaaf64fb343447459c88e1c30f667628427fc17809e28508bc527a36b21918082e00d58158faac4a2d028ebf1769"
 
 RPROVIDES:${PN} += "rrdtool-cached"
 

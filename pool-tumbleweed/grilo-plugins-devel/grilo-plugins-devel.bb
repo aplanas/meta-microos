@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.3.16"
 
-RPM_NAME = "grilo-plugins-devel-0.3.16-1.1.aarch64.rpm"
-RPM_HASH = "8326f6c051bb3f1ea3650bb48733fcef6b7af6e24f6e0dafb768b7e0e8496ed9e29144998fb52de046be00dc76e7deb57d549f1991b836a06de041a6e59b36f9"
+RPM_NAME = "grilo-plugins-devel-0.3.16-1.2.aarch64.rpm"
+RPM_HASH = "311523f957b055956ffe0cfc70e743a5cff8e67bfa44338a9316f2343c8ef02e0dbd1966204fe7bf905fa5b4bddada64c726b0197a9b3640856014974b631ae6"
 
 RPROVIDES:${PN} += "grilo-plugins-devel \
 pkgconfig-grilo-plugins-0.3"

@@ -6,10 +6,10 @@ create short high school documents such as tests or lessons. \
 The documentation is in French."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.0svn15878"
+PV = "2023.208.1.0svn15878"
 
-RPM_NAME = "texlive-mafr-2023.201.1.0svn15878-52.1.noarch.rpm"
-RPM_HASH = "c27b471db6ab6b54cb079e391b72808a39abdfdd011d5297fc2f4c1df8c123cc7cd0635a015166f1e1e62a3c03859f9f6bb8447bde9b8d9e4c2a2e8d293538f3"
+RPM_NAME = "texlive-mafr-2023.208.1.0svn15878-53.1.noarch.rpm"
+RPM_HASH = "8889d5e461b56d249036b96099fb0d53de9fc016fc5d3c3b0ae60f8fd527abbddebf97a0e844f573ee029bf2a1b41e7b4c94d1fbf28b29d3f8608d14ba20037f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cours.cls \

@@ -14,8 +14,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.61"
 
-RPM_NAME = "perl-CHI-0.61-1.8.noarch.rpm"
-RPM_HASH = "65d4ffebae548ca2933721498d4f2fe7829732ea8e138ced7b8d78a7204f5fddd5117828c46b51f38feadf3a0d41825c7d84587276eaa680f26ddcee96444a3f"
+RPM_NAME = "perl-CHI-0.61-1.9.noarch.rpm"
+RPM_HASH = "9eea58d0afa304c2f6196c5ec277dfde8fdafe5f31fb458de0c2a1c6ebe74840bf69747ca4925557dc691095e109d3935ea01a21c5c341e23f6a5e74a7eea018"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Bar \
@@ -80,7 +80,7 @@ perl-My--CHI \
 perl-My--CHI--Memo \
 perl-My--CHI--Subclass"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Carp--Assert \
 perl-Class--Load \
 perl-Data--UUID \

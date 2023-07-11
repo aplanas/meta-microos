@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & MIT"
 
 PV = "5.12.0.134.g4cebbfc"
 
-RPM_NAME = "collectd-plugin-ovs-5.12.0.134.g4cebbfc-1.4.aarch64.rpm"
-RPM_HASH = "9ab9ae3103e64a473ad09b1b412513f5fef0e69cd13b4e1bb808b2331f768156d4e75ca51c2cbeee691fe5a1f262d27f2aa77b84a48434835dd9cad5f22b8cf5"
+RPM_NAME = "collectd-plugin-ovs-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
+RPM_HASH = "22c773086e4d97e1305af32f3dc847d4efb6cdf363323938922ecd86577180bb9b18c58053be6185d825cffe7a10b9ff4796e221fc1aee65e3b535a668bf4d22"
 
 RPROVIDES:${PN} += "collectd-plugin-ovs"
 

@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "1.7.0"
 
-RPM_NAME = "python311-pytest-profiling-1.7.0-3.3.noarch.rpm"
-RPM_HASH = "b1bb7855b8c174bc200aeb676ac3b716953fad9631a0c5ec42fc26f4a38c9f5d09c1dc9d32ed4760be06177199e50fdee6ac11e00eb824849d48e7395f6a2079"
+RPM_NAME = "python311-pytest-profiling-1.7.0-3.5.noarch.rpm"
+RPM_HASH = "405f1d6c152a5d9123242debc606b00461ae11430575c80fd904d164f9f066688fda73381251e5c2ffb7dd62b37cedad755c6cc37163690e25fed857ce2095e4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pytest-profiling \
+RPROVIDES:${PN} += "python3-pytest-profiling \
+python3.11dist-pytest-profiling \
 python311-pytest-profiling \
 python3dist-pytest-profiling"
 

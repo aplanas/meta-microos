@@ -45,15 +45,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.29"
 
-RPM_NAME = "perl-Data-Compare-1.29-1.1.noarch.rpm"
-RPM_HASH = "7a3b191e1657a6ab270907d7befee568e5a6748587802df41aa2a4408879f17afd84651022e43eb88bf39d118f2a2394183fc48d76315b28270c2e1d2ad9419d"
+RPM_NAME = "perl-Data-Compare-1.29-1.2.noarch.rpm"
+RPM_HASH = "71deaf289ddd35a0c042784e2623efd5568c3b3c8f2cb5bc175c7ecd40739628a365ec9206bddc3b279d3542f084aad9d90f98967b2a5960e2389ac4e6124c15"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Data--Compare \
 perl-Data--Compare--Plugins--Scalar--Properties \
 perl-Data-Compare"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Clone \
 perl-File--Find--Rule \
 perl-Test--More"

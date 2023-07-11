@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "2.5.0"
 
-RPM_NAME = "libexpat-devel-2.5.0-2.3.aarch64.rpm"
-RPM_HASH = "10f43af2388b7f4876b13ff9f7e2b9e8368cf0a735d1313089d2d232bd9df7eaa16cfaead2ce23160ed46dccb1f69315f55e09f47af254a145350335e8e0b7dc"
+RPM_NAME = "libexpat-devel-2.5.0-2.4.aarch64.rpm"
+RPM_HASH = "d02fdc933a446d34f5f7f1c44b5afce8543ebbbd465d65e9113495f7b7b76e1a924a5a9c5d48df3c9d697d64c254cdc71a343746e0bfc75fec460c173b1ad187"
 
 RPROVIDES:${PN} += "libexpat-devel \
 pkgconfig-expat"

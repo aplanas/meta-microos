@@ -11,8 +11,8 @@ LICENSE = "ZPL-2.1"
 
 PV = "3.0.1"
 
-RPM_NAME = "python39-transaction-3.0.1-2.5.noarch.rpm"
-RPM_HASH = "a9cda945da7883adf70a44eeaff8d6812e4cb6cd6d27302b726c4f92a44cc7c5966c46cfb26385ed0cbc707c846d9c078aaa97c3b199a3a8d33595ad833530f5"
+RPM_NAME = "python39-transaction-3.0.1-3.3.noarch.rpm"
+RPM_HASH = "5069a6cd49624590c6579145e336162c36c22b4ca130ac4c5015fae99a59c38b5ab4bccea1b9ed528e7b7391ecb106c022aae788f7a4cd9aa6cc5d5ec425f3cd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-transaction \

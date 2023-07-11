@@ -5,8 +5,8 @@ LICENSE = "EPL-2.0"
 
 PV = "3.14.12"
 
-RPM_NAME = "libipopt3-3.14.12-1.1.aarch64.rpm"
-RPM_HASH = "34feea648b7cf308bc9c3fa646eecacd240b06a54bd8c86d4b481b0966d80a03bcec93330d049bb0ebd727e1e2e1101110eddd18abc627d2f8e829205726a2e6"
+RPM_NAME = "libipopt3-3.14.12-1.2.aarch64.rpm"
+RPM_HASH = "790dedb52ede8a90becbc613fda5df9673ef16f0ee046ca5450a5fe76830fe841623e997a75f3a077713556d86b7d5f94db74f17affc461f6726c4301d9add75"
 
 RPROVIDES:${PN} += "libipopt.so.3 \
 libipopt3 \

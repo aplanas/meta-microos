@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.0.8"
 
-RPM_NAME = "liblog4cplus-2_0-3-2.0.8-1.4.aarch64.rpm"
-RPM_HASH = "73b935f61fb7621b5c602f0cc03032139dd5d8a003706b224caa3290c361ce033a9cce9b8ffad20b4edcb1391c88a7879c28e739929080aa44834edd6d09a5a1"
+RPM_NAME = "liblog4cplus-2_0-3-2.0.8-1.5.aarch64.rpm"
+RPM_HASH = "e071171eef84f0b30fd3ac54f35e99fa54a674a8f0649da955d21e511b59f1d43601668bf4a0a7a2a229d691340884e5b825aca0177e63c2c4baaab60c5e7cbc"
 
 RPROVIDES:${PN} += "liblog4cplus-2-0-3 \
 liblog4cplus-2.0.so.3 \

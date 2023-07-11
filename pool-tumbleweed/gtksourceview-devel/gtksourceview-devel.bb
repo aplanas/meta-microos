@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.24.11"
 
-RPM_NAME = "gtksourceview-devel-3.24.11-3.9.aarch64.rpm"
-RPM_HASH = "44f258a7278eb1cf2d7f636e5e50473188d9ed49ee2dd5915770299e2bf88881f9e9e322f1cab6d8d0fc1621eea0e2d4e3aaccc783fec2fbf252e5ad356d0f1c"
+RPM_NAME = "gtksourceview-devel-3.24.11-3.10.aarch64.rpm"
+RPM_HASH = "73e76032bcaf39a507f0673e33cbaedff2ca2c9e8904c595b3c32b8ec1eaf798a53dd30089d26bb5d5aa73ff82182219c7e08dae5e8e52a59de9dc3b3520148c"
 
 RPROVIDES:${PN} += "gtksourceview-devel \
 pkgconfig-gtksourceview-3.0"

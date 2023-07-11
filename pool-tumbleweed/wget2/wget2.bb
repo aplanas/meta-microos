@@ -10,8 +10,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
 PV = "2.0.1"
 
-RPM_NAME = "wget2-2.0.1-1.5.aarch64.rpm"
-RPM_HASH = "72615d910f7a7e9d691d75ff64a85f0fe5af0cca4854366d5cc9894b1a701d4a96443ca588ade91d80c48f3c2af25decfec205f30bb9e1332085319ce8b595ab"
+RPM_NAME = "wget2-2.0.1-1.6.aarch64.rpm"
+RPM_HASH = "7bd2dbb15628e9d87bc5707cc57053a6d1183efda7f98794711a09f536af96fc529cbda059bc2ebc94c4ea23bae5e79067051b4b37a614a5ebe79a758d6ecc7b"
 
 RPROVIDES:${PN} += "wget2"
 

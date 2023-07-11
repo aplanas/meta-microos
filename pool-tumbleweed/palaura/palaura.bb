@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.5.1"
 
-RPM_NAME = "palaura-1.5.1-1.12.aarch64.rpm"
-RPM_HASH = "c27262abc2e2ba89564b38dcb7035fa01703fe2471071a7af832b7a2255828e71eca0574e4d4d17203e84b627f5ab22cdca69bbd527b4a055c50dcaee932d435"
+RPM_NAME = "palaura-1.5.1-1.13.aarch64.rpm"
+RPM_HASH = "6db765116bcab9ef9f008b1c435818d957bd34881bac94de8f75fc547bba37579eed341bd6d0dd041d7d22824d73d85c32bf873f11bdc08f147c65f6d46b8894"
 
 RPROVIDES:${PN} += "palaura"
 

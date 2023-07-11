@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
 PV = "0.8.18"
 
-RPM_NAME = "compiz-devel-0.8.18-2.8.aarch64.rpm"
-RPM_HASH = "f427a9dd5001fd4f2ff4f0bd60d900f590f3b3aa4342a0a234b000298ef644b7beda4c939bb7314cd03ece00c0c9873a82d843688ebd31cdda726672f1345458"
+RPM_NAME = "compiz-devel-0.8.18-2.9.aarch64.rpm"
+RPM_HASH = "37c4fe131536e62af64078e17a4e810146e3aa2d8c7d0e7a8bdfd4a69d2ca4d82ecaa5f5607aa794c3b718bf53b6a53604b8f2d2b6a6a3a75dc6d888c5d6988b"
 
 RPROVIDES:${PN} += "compiz-devel \
 pkgconfig-compiz \

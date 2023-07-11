@@ -12,8 +12,8 @@ LICENSE = "MIT"
 
 PV = "3.3.0"
 
-RPM_NAME = "python39-opt-einsum-3.3.0-2.7.noarch.rpm"
-RPM_HASH = "a609207052f01a63fd33b32ef855bad6e2d4989fc5f6d8e422b1713b20eacd83b8eabb9bc5f3bdd4700d58843c381a3b5d5d79ff31cd4a0bee4326bd06d9dcf4"
+RPM_NAME = "python39-opt-einsum-3.3.0-2.9.noarch.rpm"
+RPM_HASH = "647cf9f20ffea0c8cb306c2e1b46e86bdf1843b65ad8661ae813daf3269f775da5bcfe8d7704ed1758b82928b980828e060c6a6e80b7ee27aa9024fff84eeb77"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-opt-einsum \

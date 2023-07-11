@@ -24,8 +24,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.6.4+0"
 
-RPM_NAME = "rav1e-0.6.4+0-1.1.aarch64.rpm"
-RPM_HASH = "7e17708bc9debd5aa21c84314f146c40048d051b0d1470f0fe2a25137f5b71f2e8a32cf28a047c968ae160678c4ffd50c0829e80cb93f3f8eaf4c669eb86c8e8"
+RPM_NAME = "rav1e-0.6.4+0-1.2.aarch64.rpm"
+RPM_HASH = "c960484af126bbfc676bc31ea15dc963422ece2508c59a37f10e6cfd2fef8aa025cbc53c1a797e6b5fbde04aff88c9e10713a656fe5fe9fc310691319704a2c9"
 
 RPROVIDES:${PN} += "bundled-rust-crate-anyhow \
 bundled-rust-crate-arg-enum-proc-macro \

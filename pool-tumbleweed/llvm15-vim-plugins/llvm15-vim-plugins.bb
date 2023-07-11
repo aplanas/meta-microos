@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0-with-LLVM-exception & NCSA"
 
 PV = "15.0.7"
 
-RPM_NAME = "llvm15-vim-plugins-15.0.7-2.4.noarch.rpm"
-RPM_HASH = "03d01b4e754359ec75374c4c56e122e113adcaeec0e66f9d2440cb4b7bdc6c38ba836dc497d54addd3d5c9a012228a7c2163a609b595434fd4fbcffb9451c783"
+RPM_NAME = "llvm15-vim-plugins-15.0.7-3.1.noarch.rpm"
+RPM_HASH = "723d863799c27fc3e77ae662317a09a7de5b81f79fc2cb208942365e60c2e650c7ab13c8c0c0ac083de7d6ade06788fee642baac30e034d7f056ac9b171bf43e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "llvm15-vim-plugins \

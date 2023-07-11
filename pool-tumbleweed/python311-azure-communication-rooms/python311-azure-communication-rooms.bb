@@ -2,13 +2,14 @@ SUMMARY = "Microsoft Communication Rooms Client Library for Python"
 DESCRIPTION = "This package contains a Python SDK for Azure Communication Services for Rooms."
 LICENSE = "MIT"
 
-PV = "1.0.0~b3"
+PV = "1.0.0"
 
-RPM_NAME = "python311-azure-communication-rooms-1.0.0~b3-1.1.noarch.rpm"
-RPM_HASH = "8020a29c7bebead1a81a06f96ee8069f1895199c1f1a3475a701d9da07b3c16f986a39d7530884bfedc581cc60f2c1862ef6526e5c0f5859b4a71010f4aedc68"
+RPM_NAME = "python311-azure-communication-rooms-1.0.0-1.3.noarch.rpm"
+RPM_HASH = "ce3f9c5a41a12201756f9bb0ae09fb3ac0dc58c537c46aad6dd9cf94e5b1e15cf8e075ef9896a0da935601822e5e6f6f20099466eff3ef67b6a51b9b907bfc55"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-communication-rooms \
+RPROVIDES:${PN} += "python3-azure-communication-rooms \
+python3.11dist-azure-communication-rooms \
 python311-azure-communication-rooms \
 python3dist-azure-communication-rooms"
 

@@ -15,8 +15,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-only & LGPL-2.1-only"
 
 PV = "2.6.1"
 
-RPM_NAME = "gensio-devel-2.6.1-1.4.aarch64.rpm"
-RPM_HASH = "ece3769f2606def1f0a7753822b551529908922d3d20d47cc2f16b0a6ee2d1e3a2052cfd1c456fd49ea81d6b92212f5a85e3003a74b1dd7061c6988f3ff4f8dd"
+RPM_NAME = "gensio-devel-2.6.1-1.6.aarch64.rpm"
+RPM_HASH = "218b34d76b3f7aa73a81f705935524c4365d97e9399c71fc8580369624464346b7d2bf8b66cc0437de6e25c63851f68156cf03ef46c2c87aa07a1030e9704106"
 
 RPROVIDES:${PN} += "gensio-devel \
 pkgconfig-libgensio \

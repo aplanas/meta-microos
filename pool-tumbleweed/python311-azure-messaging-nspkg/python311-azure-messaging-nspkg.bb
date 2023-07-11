@@ -8,11 +8,12 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python311-azure-messaging-nspkg-1.0.0-1.7.noarch.rpm"
-RPM_HASH = "5f1f5ed5dca7c6f2fccf6cfcd4765d021c4d922cd3c67dabdf25c2d4a6252d5e993320d47df5b31fd0775ac5e21dacfeebd6dc0030db908d625e7418ea841b2a"
+RPM_NAME = "python311-azure-messaging-nspkg-1.0.0-1.8.noarch.rpm"
+RPM_HASH = "d111067b3ed3a8e6fbc9ce79eb30f25a92e27baace8c4090ec5f4fa6cedda18e5e66b5f704ea6899cef447ffcde7d4223bebc71158484a8dc8b02b8203fc82ec"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-messaging-nspkg \
+RPROVIDES:${PN} += "python3-azure-messaging-nspkg \
+python3.11dist-azure-messaging-nspkg \
 python311-azure-messaging-nspkg \
 python3dist-azure-messaging-nspkg"
 

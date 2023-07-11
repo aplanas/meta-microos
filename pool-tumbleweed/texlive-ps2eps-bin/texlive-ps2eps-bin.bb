@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn62210"
 
-RPM_NAME = "texlive-ps2eps-bin-2023.20230311.svn62210-91.1.aarch64.rpm"
-RPM_HASH = "46d498b91cc58a56d4b2497032334d18c602c3b1038d9e6c694bd422ec6cd9a4ad4fc536b714c2005233a41c6aa823714586bd4c52d4ec333c9eb174778b370a"
+RPM_NAME = "texlive-ps2eps-bin-2023.20230311.svn62210-92.1.aarch64.rpm"
+RPM_HASH = "ab740eed50dbd38d936c49f21c5e71b2808b34e0b3055f00f6a3edd2c9e4b8a76c2994854fb86ceacaccf5318eb5f455e6bd6e9b87756e88231c7e188d23dc8b"
 
 RPROVIDES:${PN} += "texlive-ps2eps-bin \
 texlive-pstools-bin-/usr/bin/bbox \

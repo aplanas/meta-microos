@@ -13,8 +13,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "6.5"
 
-RPM_NAME = "brlapi-java-6.5-2.4.aarch64.rpm"
-RPM_HASH = "101cdc3adbc4816443c60302a4207f291fb125197e2d96ed8d5fb137161c64df641595773f51f6a3d2b7d6a5b49d7fcc8b882882c16376b3baacff6d4ea2c65e"
+RPM_NAME = "brlapi-java-6.5-3.1.aarch64.rpm"
+RPM_HASH = "04aaaa01ff868c9f77799b3a3d94eef497cf40d5acf66626bbad5533b81ce745a7c7246ddbba708372df5d131b7ad2992f12ab311a6e4720d2d114b7b536807d"
 
 RPROVIDES:${PN} += "brlapi-java \
 libbrlapi-java.so.0.8"

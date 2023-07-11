@@ -14,8 +14,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.1.5"
 
-RPM_NAME = "python39-colour-0.1.5-3.12.noarch.rpm"
-RPM_HASH = "0ed5d184c4354f86efda11dbd52b0c0fe80002866e768b47fa781f4cf27d0b9683efefc18cf674b636cbcb86caf71dfbd3946fa46693a5846f26c5d0d9489e61"
+RPM_NAME = "python39-colour-0.1.5-3.14.noarch.rpm"
+RPM_HASH = "b247cb153e3c36bda4d53ccafc00e9cdeaca693807849018994894be454b357a18792b98b15f533d643c927010621da489b0fa921f58f8bd8c4923976ab4ceeb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-colour \

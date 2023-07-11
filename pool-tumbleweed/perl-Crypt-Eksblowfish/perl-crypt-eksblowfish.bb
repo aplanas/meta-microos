@@ -21,8 +21,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.009"
 
-RPM_NAME = "perl-Crypt-Eksblowfish-0.009-1.33.aarch64.rpm"
-RPM_HASH = "4a5055b69129f7384fa43c89ee4d8ec956f494033a33bc14b7b1b85c5bafdc8442fc6a9e356e79907279bce43d5db6ad9d40c0d94ccc3d960a3b9d1dfd8909af"
+RPM_NAME = "perl-Crypt-Eksblowfish-0.009-1.34.aarch64.rpm"
+RPM_HASH = "80e28cd57329cece453fe72dbc83bbaa9d012718d821bd3213eaa38b898b9000c1c4373adda4e36a87656a7c726d04d59e5647f794efd223c704844b01c2ede0"
 
 RPROVIDES:${PN} += "perl-Crypt--Eksblowfish \
 perl-Crypt--Eksblowfish--Bcrypt \
@@ -34,7 +34,7 @@ perl-Crypt-Eksblowfish"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-Class--Mix \
 perl-parent"
 

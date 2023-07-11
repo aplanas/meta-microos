@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.0.17"
 
-RPM_NAME = "kcm_fcitx5-5.0.17-1.1.aarch64.rpm"
-RPM_HASH = "5819390278294f7459e3f1c628b36fc69afc8c8c2fad8c6d8a0a5ab4370adacb2064c12d29a6f60366677b5ac853ffbc31352208a132c2264b1b43dbe8a29964"
+RPM_NAME = "kcm_fcitx5-5.0.17-1.2.aarch64.rpm"
+RPM_HASH = "ce8159d6a23074177e5213e5a822350cfb11d3e1d97863a7999ce13a1c7f18d9b9aa5cd17cc13ae0a1eee286f4f4065cb77283ccb813e46a9c1bfa66ca9ec221"
 
 RPROVIDES:${PN} += "kcm-fcitx5 \
 kcm5-fcitx \

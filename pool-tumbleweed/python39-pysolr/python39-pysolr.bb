@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.9.0"
 
-RPM_NAME = "python39-pysolr-3.9.0-2.6.noarch.rpm"
-RPM_HASH = "9d0bfc5e1ca1f7053efe142966c9111940040eff7110396b1c8731a7824cf583347a672e028e20f85842e35b723c2cd05f716d30341227eb5b5aae8b7395b0b9"
+RPM_NAME = "python39-pysolr-3.9.0-3.1.noarch.rpm"
+RPM_HASH = "94957f5b8dfea664e829901687d9868d9ed60fc46134fd17648cd383c376b0d7c3ffa0e04aed22714a5acd44568415079a1ad1722ff8cdcf31b91a8e3d4894f4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pysolr \

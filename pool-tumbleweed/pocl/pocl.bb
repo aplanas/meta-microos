@@ -15,8 +15,8 @@ LICENSE = "MIT"
 
 PV = "3.1"
 
-RPM_NAME = "pocl-3.1-3.1.aarch64.rpm"
-RPM_HASH = "9d54c7b4717155fa09a6c5191378e257642c40e6c6814b55fe267e0a8d7df433664c03a42ed252f90d535d5f4278a197eecbbd24b687442bb2d13ffb921ab5a0"
+RPM_NAME = "pocl-3.1-3.2.aarch64.rpm"
+RPM_HASH = "0172a24283b53a86190907316c9e867e287112ae58d7e75ee8afefe3529af9f37759f98cf8cc36b527af8f99df1a18e55b91caf71eefa229d38d840cdeb0f39b"
 
 RPROVIDES:${PN} += "libpocl-devices-basic.so \
 libpocl-devices-pthread.so \

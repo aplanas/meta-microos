@@ -7,8 +7,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.208.svn61207"
 
-RPM_NAME = "texlive-collection-fontutils-2023.208.svn61207-58.1.noarch.rpm"
-RPM_HASH = "73cc1d596629757a43adf13a489b525552141faf0abfa426c75ff0b2e53db9b6f26114dfa40f988686fbacd41cc22dd0555d0c256a18438e1640211113fae601"
+RPM_NAME = "texlive-collection-fontutils-2023.208.svn61207-60.1.noarch.rpm"
+RPM_HASH = "cfca9a099fb0cfa48211451da5822fb505ba506d52d9c83835c32e3abb9e210cc51b82e326500d522a24f4108812a30e2101c692417ced79bf0c8713643d3c8c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-fontutils"

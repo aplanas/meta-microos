@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.7.0"
 
-RPM_NAME = "ocaml-integers-devel-0.7.0-1.11.aarch64.rpm"
-RPM_HASH = "d49ae0e0b8c858b6acf25159a4900d9f0a40a829ddf3ac9aa78ceec33d00d15002e4d1d7f15a3eef6388a93b1820ee020039445eb5c4782255dc0637e40e4a65"
+RPM_NAME = "ocaml-integers-devel-0.7.0-1.12.aarch64.rpm"
+RPM_HASH = "35a5b042c8b50ef1aef8140c9ad1a348005ac66681ba010346f6570e08ced30dc2963db96ba575ed8152471cb4fa06f134f869041d872708056a97844e99a67d"
 
 RPROVIDES:${PN} += "ocaml-Install-integer-printers \
 ocaml-Integer-printers \

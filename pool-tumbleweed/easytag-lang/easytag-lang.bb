@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.4.3"
 
-RPM_NAME = "easytag-lang-2.4.3-7.4.noarch.rpm"
-RPM_HASH = "0c81e8dc1ea504f3e7e67155a5fd5d35b4f5e151ddeafd6c09a92aad3dfbb20b4994896db507d34de75030b418c11fdfd50226d13c35dabe743bb3919a7d8e77"
+RPM_NAME = "easytag-lang-2.4.3-7.5.noarch.rpm"
+RPM_HASH = "7791cbef6ac45fc75e8bd48e623e1b3ad207c067be8c8fe94dfead0fa01aee7cb2e6a313f2dd620333bbd293fbe92dff7d82fed776eaf919adf17d83d760db10"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "easytag-lang \

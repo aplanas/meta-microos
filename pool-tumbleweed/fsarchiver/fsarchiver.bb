@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.8.7"
 
-RPM_NAME = "fsarchiver-0.8.7-1.1.aarch64.rpm"
-RPM_HASH = "21399056fd3124033af2b4f98182ffa8ea1d59640e31c3c462cbbfef5eeba8bbacdbd349c0cf778218258e92b4df967f58235e67f41130e3ffd37851df00970d"
+RPM_NAME = "fsarchiver-0.8.7-1.2.aarch64.rpm"
+RPM_HASH = "55c04244e4f816a1b5291edfc452adf9b4365669bd1a03a0c3d71d75b463ff4689bde1444a68160ec01440978cdb2c05a14d05a1999f150dbf5ce4c897d8b0aa"
 
 RPROVIDES:${PN} += "fsarchiver"
 

@@ -4,11 +4,11 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "4.13.1"
 
-RPM_NAME = "python3-Arcus-4.13.1-3.12.aarch64.rpm"
-RPM_HASH = "bf92b6628466c99bd202867c148f0292dddde4e58576ea9f1100a60ab58e02b6cb29e0c4257c8063e1dbc87b944d6aae9dc70feb3674a4aba8c3db72be9d2485"
+RPM_NAME = "python3-Arcus-4.13.1-4.1.aarch64.rpm"
+RPM_HASH = "c4f8e85c95a71c48c742ada6d51728547e58c4139ea612255f8c6020bdae40e129294b9432704865e5063a11b807598cbd40f17835bcd3ed44423b0ee0ed6efb"
 
 RPROVIDES:${PN} += "python3-Arcus \
-python3.10dist-arcus \
+python3.11dist-arcus \
 python3dist-arcus"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
@@ -16,7 +16,7 @@ libArcus-Ultimaker \
 libArcus.so.3 \
 libc.so.6 \
 libgcc-s.so.1 \
-libprotobuf-3.21.12.so \
+libprotobuf.so.23.3.0 \
 libstdc++.so.6 \
 python-abi \
 python3-qt5-sip"

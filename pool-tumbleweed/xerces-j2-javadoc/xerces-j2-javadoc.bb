@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & W3C"
 
 PV = "2.12.2"
 
-RPM_NAME = "xerces-j2-javadoc-2.12.2-2.6.noarch.rpm"
-RPM_HASH = "5e92dc90858f47835fa24488044b44abbab2a14492880b490389741c96c720d93f0602db1de6724125cda59fa23251a75b23719589c0dd9b69116118ceb34d9d"
+RPM_NAME = "xerces-j2-javadoc-2.12.2-2.7.noarch.rpm"
+RPM_HASH = "310791959bceb89e19fabd74936a36ede76d4a1919847bdcba95b74163c6e4c3a21c940a36e54cabfb19f788c7e5190bb9d2bfb4db900d922b43b174cb37651c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xerces-j2-javadoc"

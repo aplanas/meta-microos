@@ -13,8 +13,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "4.4.12"
 
-RPM_NAME = "python39-pysnmp-4.4.12-2.13.noarch.rpm"
-RPM_HASH = "c62468c830ca38c60cbfcea82b27d3cec19e665903b433f6b65f192c4d4c8f20c49e9af28af8a2e25f6209ad7b560406830f75f6f7c8644e5c274f286d0a72de"
+RPM_NAME = "python39-pysnmp-4.4.12-2.15.noarch.rpm"
+RPM_HASH = "ce72e6d3a236f8283175ed0f01385d9dda64b2af7715dc89fe9e22ca405d36a338eff87dd1142af7dbdd25b5164446366de71150551d5ace56f82d3ea444ec78"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pysnmp \

@@ -4,8 +4,8 @@ LICENSE = "Artistic-1.0 & BSD-3-Clause"
 
 PV = "1.32.0"
 
-RPM_NAME = "ldc-bash-completion-1.32.0-1.1.aarch64.rpm"
-RPM_HASH = "ab790993a2c68552b3b5826ab863c000e9d5cf247bdd4cfd9bc3a3d41016e0e45e24246a3fa949680a5b3a57b0cba33bd77386d19b0f350d73b13ae700782d1b"
+RPM_NAME = "ldc-bash-completion-1.32.0-1.2.aarch64.rpm"
+RPM_HASH = "9fcdf3775ba30066604d2f5640b336afe1012d49015647a976ae49b746a72bf6cf8dd670a4ea5b209618db8a7f73cdd1596bbe182db9f04e681ed4e5fd0587d3"
 
 RPROVIDES:${PN} += "ldc-bash-completion"
 

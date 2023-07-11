@@ -8,11 +8,11 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.1.3"
 
-RPM_NAME = "terminator-2.1.3-1.2.noarch.rpm"
-RPM_HASH = "27dcc7dba29659944b2433aa4199ae1afd8696c712aecaacc06ca6d39bb53cb56fe29bc54019e2825603e1a34f49295b340d6fdf6ddea8344680ee4bb98808e4"
+RPM_NAME = "terminator-2.1.3-1.3.noarch.rpm"
+RPM_HASH = "2108afb7b96bc6ba18b427d4ba5ff5c2383b1978424e556c04c88dabf3647850689569554f6bc728b7956d5f4b1381000dca96ed65f950cb572a930396946b5a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-terminator \
+RPROVIDES:${PN} += "python3.11dist-terminator \
 python3dist-terminator \
 terminator"
 

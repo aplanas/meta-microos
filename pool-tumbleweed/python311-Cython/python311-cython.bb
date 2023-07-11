@@ -11,10 +11,11 @@ LICENSE = "Apache-2.0"
 
 PV = "0.29.35"
 
-RPM_NAME = "python311-Cython-0.29.35-1.1.aarch64.rpm"
-RPM_HASH = "cdb49eb481fec9ba171e223f726a11d22695750cdad8009cee48ea918029c9f67be3496b403a9a47fefc8c1b1b24bb1cbc6beb769048c6568d7ad9c2bd2782bd"
+RPM_NAME = "python311-Cython-0.29.35-1.3.aarch64.rpm"
+RPM_HASH = "1af35eaed47312673001d989bc600f2ef469604cbef96172334f2534e5945e66a8af48f9bfcc7afb1ecf2cf849776c27609eadd67a650a2e9fce7eea0b480831"
 
-RPROVIDES:${PN} += "python3.11dist-cython \
+RPROVIDES:${PN} += "python3-Cython \
+python3.11dist-cython \
 python311-Cython \
 python3dist-cython"
 

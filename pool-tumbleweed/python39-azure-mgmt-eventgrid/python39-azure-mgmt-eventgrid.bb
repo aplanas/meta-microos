@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "10.2.0"
 
-RPM_NAME = "python39-azure-mgmt-eventgrid-10.2.0-1.4.noarch.rpm"
-RPM_HASH = "db865c9a72b83de173ac43b1a81e554127bbd838908fcdf6ea5c2d7c519a970d5add091443987633a2bb557dbe7db497bb30a98c5568c3e4de6736c33f063334"
+RPM_NAME = "python39-azure-mgmt-eventgrid-10.2.0-1.5.noarch.rpm"
+RPM_HASH = "eefb7359a82be16993ab82216d3e94878e2b1275350561d98be05f1a6f3edd28cf663ea4b0ed4da88250258a94cf41cb786aa4c891fb093544931cdff809f93e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-eventgrid \

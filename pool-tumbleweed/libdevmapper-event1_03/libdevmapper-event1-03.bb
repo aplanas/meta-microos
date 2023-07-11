@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "2.03.16_1.02.185"
 
-RPM_NAME = "libdevmapper-event1_03-2.03.16_1.02.185-6.3.aarch64.rpm"
-RPM_HASH = "998713eceb967425027e84a2d6a76b0a7442fa2f9ea452bfc149b66e5f697636c11f7df2166c936ef2c0f5bce750b97359c9d80dcac3aaeabab60a4517ccd65d"
+RPM_NAME = "libdevmapper-event1_03-2.03.16_1.02.185-7.1.aarch64.rpm"
+RPM_HASH = "281b2c3f8fe5baf8b12eba555b6c31b731ef78941c93d7b2c8fc8f8a32989a9044d4062057778a063857290307377769108710eaddac7ee0ae4c5b14d9fbb3f1"
 
 RPROVIDES:${PN} += "libdevmapper-event.so.1.03 \
 libdevmapper-event1-03"

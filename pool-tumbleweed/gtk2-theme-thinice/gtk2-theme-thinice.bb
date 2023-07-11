@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "2.20.2"
 
-RPM_NAME = "gtk2-theme-thinice-2.20.2-19.42.noarch.rpm"
-RPM_HASH = "8f7e0ea32d79cb060ff730bf23877dab6cc18bc74174d6daa38cb2448eccc1547642e8cee2a122182fb5b77a2e1b9b4c116278668632cca5d576382e4e3e5da1"
+RPM_NAME = "gtk2-theme-thinice-2.20.2-19.43.noarch.rpm"
+RPM_HASH = "4171222607c3e1463d81d4217609179061f2d36f5ec0a31f7c18beb9c537833b88fdab48edd4149a79efdb8fde69b14f0668d302e93b3f08226760df890dd991"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk2-theme-thinice"

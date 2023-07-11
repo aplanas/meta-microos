@@ -11,12 +11,11 @@ LICENSE = "MIT"
 
 PV = "0.24.0"
 
-RPM_NAME = "python310-pybtex-0.24.0-2.2.noarch.rpm"
-RPM_HASH = "6f212ffed554002159ef1175941a80620cea4d7a5b360240379813d1e91d819c934967e7c216525f44e8e2e38cbbf89626a7f5c9a1ccdf5a7065de950b4896d1"
+RPM_NAME = "python310-pybtex-0.24.0-2.4.noarch.rpm"
+RPM_HASH = "6bcb05a6a36b33ab59809e9cd12d794eba4d24d48f0f8f25c9952b53622248460f733d96b5f82ec0a01daee44c3ea9f1cffcdefeea0d0c294a8357eaa47e154f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pybtex \
-python3.10dist-pybtex \
+RPROVIDES:${PN} += "python3.10dist-pybtex \
 python310-pybtex \
 python3dist-pybtex"
 

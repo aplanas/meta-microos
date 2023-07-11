@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "1.3.2"
 
-RPM_NAME = "python39-dbus-python-devel-1.3.2-1.5.aarch64.rpm"
-RPM_HASH = "b0109edd38b3fafdcf9361aee5abb8c0ed6652acbac55134a8c26d65271c228e07e6a0b67e6a7de6ce762c2819ffb7125d863081ee9565149291a33ddd8c7341"
+RPM_NAME = "python39-dbus-python-devel-1.3.2-2.2.aarch64.rpm"
+RPM_HASH = "19b3eae6338bfb6e7deaf872525dd28c59ea6bbd35177dca3507b0d1587b9000f41afdf3ad45c4c478b7668a8776e137ea899ed0d4bad34caaff01ff7e735726"
 
 RPROVIDES:${PN} += "dbus-1-python39-devel \
 pkgconfig-dbus-python-3.9 \

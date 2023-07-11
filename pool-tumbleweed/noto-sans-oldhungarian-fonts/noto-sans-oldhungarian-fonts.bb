@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-oldhungarian-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "33bfb962a4756c9052a4a13d86710ece3be7a0bc7e9de571030c8caa2a26bd6e610e7ba7aa09b5fec10f73d4e1e780b6ac561a90caaa55d04fd55cac1071f20a"
+RPM_NAME = "noto-sans-oldhungarian-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "b36ecc36149671c389f2a135af399b963aa0f97856b4e2da90dccd1ecd9f67a2feb81a31f3161fbe99edbbbaff593d9a2c6b8d88dc5966575d163efb42434507"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-oldhungarian \

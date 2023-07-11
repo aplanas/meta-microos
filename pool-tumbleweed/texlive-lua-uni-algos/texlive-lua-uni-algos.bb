@@ -16,10 +16,10 @@ present. This package is intended for package authors only; no \
 user-level functionality provided."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.4.1svn62204"
+PV = "2023.208.0.0.4.1svn62204"
 
-RPM_NAME = "texlive-lua-uni-algos-2023.201.0.0.4.1svn62204-52.1.noarch.rpm"
-RPM_HASH = "eaa1e8a8c78c14cc90e28adebedad9fab93787db2ec6ccb3f79b0cd81c96e92607b587eddf3a2ab442dabcd845ef4570ea829e9bb1ba94880b180b0900c96abd"
+RPM_NAME = "texlive-lua-uni-algos-2023.208.0.0.4.1svn62204-53.1.noarch.rpm"
+RPM_HASH = "e94c8c871715138d2a4235168c505a7dc924fc602f6c362eafcec2eb12032b0841dea88c08ed7e1c32f8dc444127d93a6c5a9541fbbe454360d7b8f1cdbfdd47"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lua-uni-algos"

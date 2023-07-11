@@ -9,10 +9,10 @@ tools, XML authoring components, and an plug-in based API. \
 This package provides a Qt 6 module for MLT."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "7.14.0"
+PV = "7.16.0"
 
-RPM_NAME = "libmlt7-module-qt6-7.14.0-2.2.aarch64.rpm"
-RPM_HASH = "5d97b93ffc3f9dbf35feda24221a8c3b678b558193deba2c0466252502d33f9a92862738bded047a9b5e58c44520d53e5900457f1a5bc95a8926642c2a84856e"
+RPM_NAME = "libmlt7-module-qt6-7.16.0-1.2.aarch64.rpm"
+RPM_HASH = "ce412cc76316e8eaa089a0e5942670d29a7ce39a57bc0e4c9d815c5a9deaf3a133ca727c6727847418ee15e2cda11b4431e689225bd49f774527ec19e3f0f497"
 
 RPROVIDES:${PN} += "libmlt7-module-qt6 \
 libmltglaxnimate-qt6.so \
@@ -26,7 +26,6 @@ libQt6Svg.so.6 \
 libQt6SvgWidgets.so.6 \
 libQt6Widgets.so.6 \
 libQt6Xml.so.6 \
-libarchive.so.13 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \

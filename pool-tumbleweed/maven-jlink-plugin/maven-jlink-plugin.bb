@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.0.0~alpha1"
 
-RPM_NAME = "maven-jlink-plugin-3.0.0~alpha1-2.21.noarch.rpm"
-RPM_HASH = "5d90728170ddd9146c4a1a0f53e0599d431b3740f54eb0853d312888db8647f2bd401c48e1d1e8336bb2aef14f02dd1e7ea8232e6aebbcc5de600435882633e5"
+RPM_NAME = "maven-jlink-plugin-3.0.0~alpha1-2.22.noarch.rpm"
+RPM_HASH = "a4967a3a2f8a67175e9a68d13c573dadb1892b2804f7c90d404b69737555f13bf72e85bd2b4c3bf50bb9e050f66706b055faf30de412e4236024bc6fb48a3696"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-jlink-plugin \

@@ -4,12 +4,11 @@ LICENSE = "Apache-2.0"
 
 PV = "7.1.14"
 
-RPM_NAME = "python310-minio-7.1.14-1.2.noarch.rpm"
-RPM_HASH = "8bc834ec47f432173e7f9a5ab7860bf24ba73de52bf451fb7e6a1005d4cc1f5724b9200c5bf457ab9013951e2d9303e2ebfab140d81f4d638948e75629b172cf"
+RPM_NAME = "python310-minio-7.1.14-1.4.noarch.rpm"
+RPM_HASH = "6fe0c2cce78f921c5a6502989e44f076e0306a727d65f6b11b39c36799d3977cd828d0648eca156d91978c92d1d7568ad4a681baab4d8254c1cfce8a9e3ff098"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-minio \
-python3.10dist-minio \
+RPROVIDES:${PN} += "python3.10dist-minio \
 python310-minio \
 python3dist-minio"
 

@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3.13"
 
-RPM_NAME = "libvsqlitepp3-0.3.13-4.10.aarch64.rpm"
-RPM_HASH = "eb90cf3e0f1c19ba4babec1029a3d1d8a5e84b50cd7fc54b1b1b5b0361eaabfeab01cd8e3acf71f34598acd55637302164ae24a059e01601d35645d7a5820d96"
+RPM_NAME = "libvsqlitepp3-0.3.13-4.11.aarch64.rpm"
+RPM_HASH = "19d5f7daeedeb460b559c5c84c573a51162ac58d94f9ce5aa2be0dbd45d7f4de9a2258c76528a9c13864a387a53df62b58816e11bf7063d17c3e43fd05cfdfe3"
 
 RPROVIDES:${PN} += "libvsqlitepp.so.3 \
 libvsqlitepp3"

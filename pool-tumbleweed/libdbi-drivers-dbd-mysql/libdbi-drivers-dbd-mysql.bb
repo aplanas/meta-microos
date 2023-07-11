@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "0.9.0.g53"
 
-RPM_NAME = "libdbi-drivers-dbd-mysql-0.9.0.g53-3.18.aarch64.rpm"
-RPM_HASH = "f3f49b4352814fab6b1acd0f9f1ebbcee3eaac206e2f4da300bfdfa0868bdff797df1228abbb5c0b6c4f01d568750d1ecdf8cea35334fe2232642491e9b00b69"
+RPM_NAME = "libdbi-drivers-dbd-mysql-0.9.0.g53-3.19.aarch64.rpm"
+RPM_HASH = "ada624c43a32cf2b9f069568e20b4f38f847dca5b878af9efa914e6f74607cd6e2800ea63c7f5cd7e69ab432a650c64e9fd75451b065d4aa077662585c33eb6a"
 
 RPROVIDES:${PN} += "libdbdmysql.so \
 libdbi-drivers-dbd-mysql"

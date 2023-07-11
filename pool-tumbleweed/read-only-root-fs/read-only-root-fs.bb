@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0+git20220808.cd59f4f"
 
-RPM_NAME = "read-only-root-fs-1.0+git20220808.cd59f4f-1.3.noarch.rpm"
-RPM_HASH = "dd2da80364ac5bc4719907c46622747b08dede016facf71b760eb3fa8d2017d2f20a1e0b58f3c1b0f87e1e5e362b094405bc0d7fa8a2f875a7c9419dd81063ec"
+RPM_NAME = "read-only-root-fs-1.0+git20220808.cd59f4f-1.4.noarch.rpm"
+RPM_HASH = "ec30aa5aabdf223a2fe0e0b125608271f92882921d1c51643f096eca319d31c060822a1b7df98c1c36aa4b1b8633720d403170498aa4b59605e920f82619bac4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-read-only-root-fs \

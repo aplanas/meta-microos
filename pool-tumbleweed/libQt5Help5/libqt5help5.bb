@@ -2,10 +2,10 @@ SUMMARY = "Qt 5 Help Library"
 DESCRIPTION = "The Qt 5 Help library."
 LICENSE = "(LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)) & GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
-PV = "5.15.9+kde1"
+PV = "5.15.10+kde3"
 
-RPM_NAME = "libQt5Help5-5.15.9+kde1-1.1.aarch64.rpm"
-RPM_HASH = "50370de009c37159845f8b410ed3d089b7a65909b3fd71aa00c2c51d3de3cf9401927c6a02bfe734e127ac786cf5602f75706911f48ecbc5cc9db94aa8044049"
+RPM_NAME = "libQt5Help5-5.15.10+kde3-1.1.aarch64.rpm"
+RPM_HASH = "10cd8e5c70b5f5cd525944c26a9443089dc0a749a11a5da6fb5e7440d097d1a8cb7fda2de2184e42a800b6e3d5e6995ebef79cc65e5b13d5c7d7a218804da5a2"
 
 RPROVIDES:${PN} += "libQt5Help.so.5 \
 libQt5Help5"

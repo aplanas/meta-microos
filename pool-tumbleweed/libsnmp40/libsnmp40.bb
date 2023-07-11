@@ -15,8 +15,8 @@ LICENSE = "BSD-3-Clause & MIT"
 
 PV = "5.9.3"
 
-RPM_NAME = "libsnmp40-5.9.3-4.6.aarch64.rpm"
-RPM_HASH = "9592c28ff6322f1458e066a28a1e6f6ff019f7a7ec643e5e15714e62bfdba44b847181cb1d948bb91f7d37794d1e8b108fa7dc0f8fd1158445785400a106f098"
+RPM_NAME = "libsnmp40-5.9.3-4.10.aarch64.rpm"
+RPM_HASH = "7b5a2e934e77c6be5bdde337f6ae977918a6265553997cfa6f7dc9824286a94ccc67349d7bd609d065d09b5126150195f92bb93bbc4b29bde2b2a621e40e6f28"
 
 RPROVIDES:${PN} += "libnetsnmp.so.40 \
 libnetsnmpagent.so.40 \

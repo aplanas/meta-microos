@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0 & LGPL-2.1-or-later & BSD-3-Clause"
 
 PV = "2023"
 
-RPM_NAME = "gromacs-bash-completion-2023-1.1.noarch.rpm"
-RPM_HASH = "6d4fd0ca142b818be9a6fb3419396ad40f22c1ea37dfe516a6ec57a283c26c8886c51a4f1dd727c47ec518130d8bb9af325755e2186b2308f0233e8738191b4f"
+RPM_NAME = "gromacs-bash-completion-2023-1.2.noarch.rpm"
+RPM_HASH = "9bb59b3c6d42585919fdf421be77b0303b9d3a676d494637e1e89e72066b633fb37dd073e1c593c3fec78768c75e968879c4c58d97d4d8fe56196a0475bfa46a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gromacs-bash \

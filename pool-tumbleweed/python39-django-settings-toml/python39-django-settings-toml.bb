@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.0.4"
 
-RPM_NAME = "python39-django-settings-toml-0.0.4-1.13.noarch.rpm"
-RPM_HASH = "3fff350af141f05de5777382452fd695a29c504ff58cdf905204baf3468777ed7462bbe2cdb4c33621096b8c1c55602b0f7134b8f0a686b0d1a880f9f54d249b"
+RPM_NAME = "python39-django-settings-toml-0.0.4-1.15.noarch.rpm"
+RPM_HASH = "fc60ca9ac11afb74106dd8230e07f0d83574b1209d0f87718b4a47afea6b53f16b27af45633f3edc8608881d6a9558292a940fd1b5c3a195fa24915a68581296"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-django-settings-toml \

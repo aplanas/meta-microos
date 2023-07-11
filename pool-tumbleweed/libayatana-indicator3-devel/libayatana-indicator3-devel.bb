@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.9.0"
 
-RPM_NAME = "libayatana-indicator3-devel-0.9.0-1.11.aarch64.rpm"
-RPM_HASH = "fdf8c20d24a043be424be81f4b6032ef554329e16f6bdf756095bcf1fddafe28b73d1c152f37280c7af0c4310757de5c0d860d9204cf3767542aac34155e5f3d"
+RPM_NAME = "libayatana-indicator3-devel-0.9.0-1.12.aarch64.rpm"
+RPM_HASH = "3cfdc17667be2100f96ea727126c70231e6819cd4d054bb7d115efa16bd4fe17f5b81f262a06602b20599920cfae9485392371364d03ba7c2cdb3777256064e9"
 
 RPROVIDES:${PN} += "libayatana-indicator3-devel \
 pkgconfig-ayatana-indicator3-0.4"

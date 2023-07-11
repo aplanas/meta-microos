@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "9.0.0"
 
-RPM_NAME = "python310-azure-mgmt-devtestlabs-9.0.0-1.10.noarch.rpm"
-RPM_HASH = "cff9da61267ba84ca4726d56ecf79081cf5a6cc8388722bc9ee456166d8bf96898a56434acd60cde87018050d9c5e860864cf139d2e172514a43905723be8166"
+RPM_NAME = "python310-azure-mgmt-devtestlabs-9.0.0-1.11.noarch.rpm"
+RPM_HASH = "adee1ca719099ec005a3706676478683c6fbfa77ef4e2183e83ed8e672a683f8485158a6a81590e3065ec8de9fa5d679f270d8476d0b28cc7626735bc02b0288"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-devtestlabs \
-python3.10dist-azure-mgmt-devtestlabs \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-devtestlabs \
 python310-azure-mgmt-devtestlabs \
 python3dist-azure-mgmt-devtestlabs"
 

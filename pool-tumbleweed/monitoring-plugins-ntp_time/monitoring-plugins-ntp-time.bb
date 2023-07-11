@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
 PV = "2.3.1"
 
-RPM_NAME = "monitoring-plugins-ntp_time-2.3.1-9.4.aarch64.rpm"
-RPM_HASH = "a0f6a35e0d00cb8d7ce6b68ad7d5cba5b4495ce56f8b9db09f4cf2ecf0f11080fab14c16a7c4d15d43925402d4f75d6a03eaba6521708670a6dee2b6e0b4d1c2"
+RPM_NAME = "monitoring-plugins-ntp_time-2.3.1-9.5.aarch64.rpm"
+RPM_HASH = "c6613af00af9c68fd8f9f025dca0cc5201c7caf5b3351f06de546108aaa1d5eab3cf1b413ce82ad9005a762b9ba66c06929ad51892023e79c2f5118945f36fd7"
 
 RPROVIDES:${PN} += "config-monitoring-plugins-ntp-time \
 monitoring-plugins-ntp \

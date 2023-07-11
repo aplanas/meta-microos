@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0.0"
 
-RPM_NAME = "libslp1-2.0.0-21.4.aarch64.rpm"
-RPM_HASH = "22f46b4bc58e93493357ab3778ffcb5d258f4a934d119d067831a1ce0a50a94af3626ad94686f125b5b730d489a3e7bb8af27df14abd98b2700e9588c1c351f6"
+RPM_NAME = "libslp1-2.0.0-21.5.aarch64.rpm"
+RPM_HASH = "cab6c87087be95f4de9b802284be83681d6bfa42474d182d09bd61f6aff0be9cbfa05a94ac42565ace1c20fa7778880229ceebab0cfc0c49650753db7c13d54b"
 
 RPROVIDES:${PN} += "libslp.so.1 \
 libslp1"

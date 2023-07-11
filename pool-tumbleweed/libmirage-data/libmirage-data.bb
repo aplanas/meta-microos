@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.2.6"
 
-RPM_NAME = "libmirage-data-3.2.6-1.8.noarch.rpm"
-RPM_HASH = "49f8e7a530871bc745c967fd361a4f46e8076132fbd75b72276a8774c1118e5879bd133873ec53582535a0582b6eecf21b6a75f61882b5eb754dcddf17264381"
+RPM_NAME = "libmirage-data-3.2.6-1.9.noarch.rpm"
+RPM_HASH = "6c27444c27bb7452f20d444ed44ab361281c80079b3bfad21509fb9f6c1daa1ae88b3c507ddebd0b5c0c55e6aff4a82411d8bfbd55c408ed89f7e3f776f6e7e2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libmirage-data"

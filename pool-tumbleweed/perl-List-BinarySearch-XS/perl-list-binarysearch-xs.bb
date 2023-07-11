@@ -43,14 +43,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.09"
 
-RPM_NAME = "perl-List-BinarySearch-XS-0.09-1.17.aarch64.rpm"
-RPM_HASH = "4db3e3e89a3ab6cad9a3c1394412d2b157bace66f736e6b2fadc3bc9c2b08caf95f8bc5186c9fed74c000581bd73103a0fdccda24c83a64049ea9b0405d35b5e"
+RPM_NAME = "perl-List-BinarySearch-XS-0.09-1.18.aarch64.rpm"
+RPM_HASH = "fea7592c82a511d587b4d72e19a9e404d3cc125e4eba58cb3ceefbbf504c207b1dfa60cf2cbeeef239bcc0b773615471a58b95a178d121fcf6ab4629d997610d"
 
 RPROVIDES:${PN} += "perl-List--BinarySearch--XS \
 perl-List-BinarySearch-XS"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

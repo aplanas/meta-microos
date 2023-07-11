@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gstreamer-plugins-base"
 DESCRIPTION = "Provides translations for the 'gstreamer-plugins-base' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.22.3"
+PV = "1.22.4"
 
-RPM_NAME = "gstreamer-plugins-base-lang-1.22.3-1.1.noarch.rpm"
-RPM_HASH = "620fdd445de59c6793ae473325acffec7280400f484ac319e8d012fd819d0208038d6588aa80b5928ec03211e3888486707355e11e5d495386abfb7e1fd0f17d"
+RPM_NAME = "gstreamer-plugins-base-lang-1.22.4-1.1.noarch.rpm"
+RPM_HASH = "f35e70732fdeb3cd6a7e4d81dd70fbd42685f41959aa65844bec0b4c607bb2f897cea4a2f3c0a22c02620631b1a0034cd092d04fde6a396f5ef2e6df83bc1aad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gstreamer-plugins-base-lang \

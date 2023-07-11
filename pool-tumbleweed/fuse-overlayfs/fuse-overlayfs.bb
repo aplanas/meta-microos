@@ -1,11 +1,11 @@
 SUMMARY = "FUSE implementation for overlayfs"
 DESCRIPTION = "An implementation of overlay+shiftfs in FUSE for rootless containers."
-LICENSE = "GPL-3.0-only"
+LICENSE = "GPL-2.0-or-later"
 
-PV = "1.10"
+PV = "1.12"
 
-RPM_NAME = "fuse-overlayfs-1.10-1.2.aarch64.rpm"
-RPM_HASH = "2511734d7094271043927e759077e01ed0c89bd7907addf192543218da5847a42855bcc3a59560bec0cf3f4d7e8cca7e7239095fe517a07c5821b71cbe632875"
+RPM_NAME = "fuse-overlayfs-1.12-1.1.aarch64.rpm"
+RPM_HASH = "c964c30458c8f121c1fbd502c09c385b8216c034d41b55493e7586b10a1d95fe482abf8b95d531c458be7ae27d6260a518ab7af89701010d8e28d47464b01388"
 
 RPROVIDES:${PN} += "fuse-overlayfs"
 

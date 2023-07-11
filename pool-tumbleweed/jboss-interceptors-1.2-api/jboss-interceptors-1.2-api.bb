@@ -4,8 +4,8 @@ LICENSE = "CDDL-1.0 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "1.0.0"
 
-RPM_NAME = "jboss-interceptors-1.2-api-1.0.0-2.6.noarch.rpm"
-RPM_HASH = "51126f14310dd20b61fdb096028797ddf4c1a7cd18c063d3f8a886b41778036770269054bcc0511911fa2720a1a81b5594eeaffeb34995c487b270fbb4a7e247"
+RPM_NAME = "jboss-interceptors-1.2-api-1.0.0-2.7.noarch.rpm"
+RPM_HASH = "2963507a5de7b24369f04d8f48017eff6c57b24754cf87af1429e1222eba5d3cbbd9c05e63b2e8de8eef88733c27c6ee5d19d8be55fbc4d5950a0ca4a8997df1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jboss-interceptors-1.2-api \

@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "2.0.2"
 
-RPM_NAME = "python39-pytest-error-for-skips-2.0.2-1.14.noarch.rpm"
-RPM_HASH = "b3b712cb29d0a7934f4e7306cf96df2fd794d79977ac99d94e1641ae1d17d2fa912f0ef536c9b8031093f7d5553b0a92df631403c9bed66ff02c4475758c1132"
+RPM_NAME = "python39-pytest-error-for-skips-2.0.2-1.16.noarch.rpm"
+RPM_HASH = "9c8fe674724cdb45b50a7529775ce4ba460e40d5815fce74586641ac41c32d6d92b6833c867230324c69d164356f87d428e53c11457db0d3bf8da1965818f6c4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytest-error-for-skips \

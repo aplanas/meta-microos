@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.0.1"
 
-RPM_NAME = "python39-mutatorMath-3.0.1-4.7.noarch.rpm"
-RPM_HASH = "6f1dd78a6c44efb1acdecc3b247d98ab4784f57f53a7ac7d1a5d99a291e59fe05e7030457c8ddc04fbc2d8806192ebebca733c60c69e6a54a34494ffdbbe27d5"
+RPM_NAME = "python39-mutatorMath-3.0.1-4.9.noarch.rpm"
+RPM_HASH = "4bbd6d50f6de21b6452377c53941844bb214a7c243c8a73557b9c30a79546b101ff0e1e197829ea46f376f7e1067a64ce817f282352b22aaf7d76af4edd453ee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-mutatormath \

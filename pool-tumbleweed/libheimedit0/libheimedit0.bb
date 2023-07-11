@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "7.8.0"
 
-RPM_NAME = "libheimedit0-7.8.0-3.1.aarch64.rpm"
-RPM_HASH = "e2b74a6e928c551f9a9d911d28c95648faa138c41d858c76913b3bebaae7c096eca23b5a4e422639f98f39666df595feb7e781c36d8bb61e75b0c61a7fc0e882"
+RPM_NAME = "libheimedit0-7.8.0-3.2.aarch64.rpm"
+RPM_HASH = "b9480185dfcc69277ddb7eaaf507f15283cd4a423a3142f28cb1ecd519ef889c9f12b30ab4a593991501120947c05ee1d612449992f8b62e7b80154ec20db4dc"
 
 RPROVIDES:${PN} += "libheimedit.so.0 \
 libheimedit0"

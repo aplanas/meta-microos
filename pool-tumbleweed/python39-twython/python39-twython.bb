@@ -21,8 +21,8 @@ LICENSE = "MIT"
 
 PV = "3.9.1"
 
-RPM_NAME = "python39-twython-3.9.1-1.3.noarch.rpm"
-RPM_HASH = "6896a04e796bbfc53c25f3a50839689e76bdaff7d9bff240e8486a82e40281fc35bcdc966119c5f19b8fd42565b2e3c5055cb3d6378ed77f9125230e222dfeb4"
+RPM_NAME = "python39-twython-3.9.1-1.5.noarch.rpm"
+RPM_HASH = "cbeeb56e015f398813a965d722c1e7d0170966a177479f71dfa8d04d75dcc9f7a9b742cb9e678f22b9066fe927c733b8dca9585bb15c64b9451879873658f8af"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-twython \

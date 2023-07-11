@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.3"
 
-RPM_NAME = "ghc-word8-devel-0.1.3-5.3.aarch64.rpm"
-RPM_HASH = "73c6ad200c7ce77ffc62e268f6657c9da4c13a1687eecd1ac639dce2ce0510edb81ca08312a40b7c727f6c599cd4eb7b9469aace7a5f33201f0e37a37990ed3e"
+RPM_NAME = "ghc-word8-devel-0.1.3-5.6.aarch64.rpm"
+RPM_HASH = "62c1a6e7115720ff097832ad5c493ad76b34a8ec30174abb6b4616aa52526afd366118ebe1e71ad3bfb023a45fa9b53e5fd84db33649dc7c1622885e54e46969"
 
 RPROVIDES:${PN} += "ghc-devel-word8-0.1.3-9uGjviso2af8K0EP8UmxRD \
 ghc-word8-devel"

@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "2.2.0"
 
-RPM_NAME = "libmraa2-2.2.0-2.10.aarch64.rpm"
-RPM_HASH = "b1040db0c21d5c5312c975953b13c618f983dd43eaa2488cb1f8d7adae6b6c5bb0988ccd7271a6555cc65bcd4c544dcddf659b95e8a9e9828ae94b5bc6c41c2b"
+RPM_NAME = "libmraa2-2.2.0-2.11.aarch64.rpm"
+RPM_HASH = "85845abae28cc325fa6653c1af4c915650b0269edf06fad508a463bfe5e9894131e9de6f58504b22f84faf84b9d532bd13818a9164006002158f0bf25b0da721"
 
 RPROVIDES:${PN} += "libmraa.so.2 \
 libmraa2"

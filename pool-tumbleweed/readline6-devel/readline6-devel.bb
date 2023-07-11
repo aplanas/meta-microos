@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.3"
 
-RPM_NAME = "readline6-devel-6.3-3.3.aarch64.rpm"
-RPM_HASH = "f7e3b52fdb53e52ebb593be3ff508554f867929b833e74da812765032c1b8f0698edacf3e1a50f3f1f6cc4e819659764d833bc9ce58e490865d4b6e0b54f5226"
+RPM_NAME = "readline6-devel-6.3-3.4.aarch64.rpm"
+RPM_HASH = "4a5bf3c1e319a58a51265820fafec7f76f5a769ccd14913fcd69db062914fc2052093c6340fce08fbbe5d52d17802b34325fcbf999f91c91e0cfe2feddee80e2"
 
 RPROVIDES:${PN} += "bash-/usr/lib64/libreadline.a \
 readline6-devel"

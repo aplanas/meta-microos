@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "2023.2"
 
-RPM_NAME = "libostree-grub2-2023.2-2.1.aarch64.rpm"
-RPM_HASH = "3e5caadc6e383fd4f23e968c9f216b3ef623d7db4a8f559e91e0608fea439eef272ae8309bbfe297ba92eabe5116e9fcf57d40478fb6388b8156f2e30ae109ea"
+RPM_NAME = "libostree-grub2-2023.2-2.2.aarch64.rpm"
+RPM_HASH = "bc7bb8c4aaf494819951e3a2e8bd3fca0566e77d0ac0976a923397b706fdfb4d113116b9dfa241cc967e1955ea6ce1eaf8577ef1c230b24822155f6972d6e48a"
 
 RPROVIDES:${PN} += "libostree-grub2 \
 ostree-grub2"

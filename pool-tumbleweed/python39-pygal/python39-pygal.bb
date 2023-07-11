@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "3.0.0"
 
-RPM_NAME = "python39-pygal-3.0.0-3.1.noarch.rpm"
-RPM_HASH = "df5322ba7d8257ba2ca5286cbefd3210f884f3d625414f68bc2c8f74b8d099170f804a8871fcc7aec9b92158063a333ca7bff04e5f97c7c983385f4320ca5779"
+RPM_NAME = "python39-pygal-3.0.0-3.3.noarch.rpm"
+RPM_HASH = "ca84bfd0824b69406129cd071edcacd56445d019515c9b772b1be281c7e0d3d19cb7195e54b75c2e621f712b2285eea03dcf08f815c0fc9011482dd6bc8c509f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pygal \

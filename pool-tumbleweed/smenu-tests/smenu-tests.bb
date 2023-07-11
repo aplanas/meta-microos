@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.2.0"
 
-RPM_NAME = "smenu-tests-1.2.0-1.3.aarch64.rpm"
-RPM_HASH = "cf071deaada081ce53df7a511dfeaa41e86103d05374b4503317de6b97dc6135dacd0ad8c530857e74cd9df00c3fc277f29f3ae16108aca8badc6dca34c6e0c8"
+RPM_NAME = "smenu-tests-1.2.0-1.4.aarch64.rpm"
+RPM_HASH = "c8a5bf3f8ab3ce40ba57093304cb3f357f23ae7f3e62e342612a0de466a66ee672ff3a3a058db312b48a0ca790872b6fbe71ce9d4bb46d19b22d3c140f2332d5"
 
 RPROVIDES:${PN} += "smenu-tests"
 

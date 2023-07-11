@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "5.2.5"
 
-RPM_NAME = "pcp-pmda-cisco-5.2.5-3.4.aarch64.rpm"
-RPM_HASH = "b5fa6ddfc79baeac9d15b81b383a3212bf4c4a0dfe10c8ac86ad5f5e9996f462490472e6f8d6d3626dd518551882aee12bf9dca001f82b0f9ff28d420a4b5a28"
+RPM_NAME = "pcp-pmda-cisco-5.2.5-3.7.aarch64.rpm"
+RPM_HASH = "d25980ee4d99cd749d58d6bdf4e671d2a47bb7a652c0992818f681d671b29e39e57a77473f29e2227c8e975841300f0543a222a25726295817c7729d10b2fc43"
 
 RPROVIDES:${PN} += "pcp-pmda-cisco"
 

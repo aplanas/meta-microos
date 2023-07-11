@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "20230214"
 
-RPM_NAME = "libcontainers-common-20230214-5.1.noarch.rpm"
-RPM_HASH = "9a6add7942f4725753d8074f676bad6e96c44f704659d62fc21fd15d25a790a2fee52f476ea1b8117378ce711174e64a52b11f0e87e2335edd13c9a09bab42ec"
+RPM_NAME = "libcontainers-common-20230214-7.1.noarch.rpm"
+RPM_HASH = "bd402220290edde2e4cf6887074edcd66d7cce12aa6d92c04972de72811bba074129db890f68dfe780bd6d7803fba9628ec4f01f4312bdc670b1b1dcf4e9384a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-libcontainers-common \
@@ -14,8 +14,8 @@ libcontainers-common \
 libcontainers-image \
 libcontainers-storage"
 
-RDEPENDS:${PN} += "/usr/bin/grep \
-/usr/bin/sed \
-/usr/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sed \
+/usr/bin/sh \
+libcontainers-policy"
 
 inherit rpm

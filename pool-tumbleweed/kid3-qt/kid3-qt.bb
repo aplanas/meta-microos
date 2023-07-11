@@ -23,8 +23,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.9.3"
 
-RPM_NAME = "kid3-qt-3.9.3-1.3.aarch64.rpm"
-RPM_HASH = "1717c2c147ebb5fa8e019be8c17eb36edba86a0ca5cbb9d0f372fc8215b46b8391fefdb1a4a28a24e03d01f68dda8d68c5d03ef4f51f91258555fb7a8cc0c633"
+RPM_NAME = "kid3-qt-3.9.3-1.4.aarch64.rpm"
+RPM_HASH = "658e8ebd5b6efca736b35a02fbff9621671a81324959a98569af2e9685b6bd829afa29cb0f33f60e0cc1520f249e20f7a3809d5a5b4d73f6d73b5a1f2e6721dd"
 
 RPROVIDES:${PN} += "kid3-qt"
 

@@ -11,8 +11,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.1.0~rc3"
 
-RPM_NAME = "voms-devel-2.1.0~rc3-1.3.aarch64.rpm"
-RPM_HASH = "042d73b3c2c2b2e3566f9e4e12f088d5a2c4cc8e33a90d56c6a1061463796b2fb2b6b194cdf3e3751b366e30821ef320f04e2d0c7309c8a875012c19c05ff442"
+RPM_NAME = "voms-devel-2.1.0~rc3-1.4.aarch64.rpm"
+RPM_HASH = "eb0d9be0dad2adc3a6b3a9e2e96edfc0556dd01bfe2e3b3e25725f0469f68df999bd706d35cf4663cccaa2f33f2d6b2280b28281e786332afaf3fa59438e7c67"
 
 RPROVIDES:${PN} += "pkgconfig-voms-2.0 \
 voms-devel"

@@ -8,11 +8,12 @@ LICENSE = "MIT"
 
 PV = "2.10.4"
 
-RPM_NAME = "python311-amqpstorm-2.10.4-1.5.noarch.rpm"
-RPM_HASH = "cd340dab91aa20827015f1d2ab7f3cae2cdbbb88de733e4e0170122af27099bbc880bcd6882f9c923533146c86da6ee53ee25307013190431603eff6ac7563f7"
+RPM_NAME = "python311-amqpstorm-2.10.4-1.7.noarch.rpm"
+RPM_HASH = "5bcba99d20e8b44cb365e25162a847de600ac21baca527fd25fc31f16d104eb1b02818d35a44a0cf8fc3d5e11f272f83949a3bed665a6b9a040e68f00d675d64"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-amqpstorm \
+RPROVIDES:${PN} += "python3-amqpstorm \
+python3.11dist-amqpstorm \
 python311-amqpstorm \
 python3dist-amqpstorm"
 

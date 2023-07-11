@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.71"
 
-RPM_NAME = "lighttpd-mod_vhostdb_pgsql-1.4.71-1.1.aarch64.rpm"
-RPM_HASH = "0355a6a14ef794243e10312b0bc68998d84935a8ef758daf96ff2333b8edaeeb5aa82825694ca8475bfed7754a42203e12076fb1592c884e8fdd43a3205bf1d2"
+RPM_NAME = "lighttpd-mod_vhostdb_pgsql-1.4.71-1.2.aarch64.rpm"
+RPM_HASH = "ed4713b266371acfea922268d185abaa52f8767941bcad89d446ad9c922900b7487776b28a0d3f27b67b244bb3df030956ddb0c1f9e7cef0bf1e1a3c8fc36e1e"
 
 RPROVIDES:${PN} += "lighttpd-mod-vhostdb-pgsql"
 

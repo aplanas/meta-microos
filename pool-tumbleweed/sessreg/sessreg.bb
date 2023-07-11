@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.1.3"
 
-RPM_NAME = "sessreg-1.1.3-1.2.aarch64.rpm"
-RPM_HASH = "387ed99c1e70ffcd97382ea4b23cfdf9c0dc4add35584db5d1059612dbefa631c50e969d73cf6f2318f465509f5fdda8c5b7aeeef190e6bec566c8c73b2e7137"
+RPM_NAME = "sessreg-1.1.3-1.3.aarch64.rpm"
+RPM_HASH = "4f11c10255f0d042198f1258de1f8da841fbdb108f80f1eae9a0b59fc20304d4ca80e575debf5e62c8e446995e0cb9f88ad503f91d513f1e78f59190200d0f2a"
 
 RPROVIDES:${PN} += "sessreg"
 

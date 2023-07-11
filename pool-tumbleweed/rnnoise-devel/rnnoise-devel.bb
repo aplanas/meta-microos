@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.git20210122.1cbdbcf"
 
-RPM_NAME = "rnnoise-devel-0.git20210122.1cbdbcf-1.8.aarch64.rpm"
-RPM_HASH = "93f561c09f7ce7304952f407ca6f399b91590e33a69c2127747758c9cfc9139c82979b0fb7445d145b151b87fb241922124aa931876950a9f44a51e0a11cefdb"
+RPM_NAME = "rnnoise-devel-0.git20210122.1cbdbcf-1.9.aarch64.rpm"
+RPM_HASH = "4a3a82b58e20ff5870bbf32d817b65abc964cc1f08f91709e6211605e5794c912c76fd9a729978dfdb2206e7eaa4ca1ed357e5e141066c8e42775309d464333f"
 
 RPROVIDES:${PN} += "pkgconfig-rnnoise \
 rnnoise-devel"

@@ -4,10 +4,11 @@ LICENSE = "MIT"
 
 PV = "4.13.0"
 
-RPM_NAME = "python311-libpfm-4.13.0-1.1.aarch64.rpm"
-RPM_HASH = "e7990bc4470c9a312f5916bf6b0b3504ba39ea0cd999c89c23b68eee4f2bc00083d079d00e7a902b20931dedb41ca692342ee9a716e7ea894376a18fb3e7e5f8"
+RPM_NAME = "python311-libpfm-4.13.0-1.3.aarch64.rpm"
+RPM_HASH = "0cb39f9cf363c20ac3d239c54e26a65b71f46010630ce443641389f6f9f720868f06a6ad525d164b969cbb8d7de19cbeb8136f393616bbaec8e88326bd76bbe6"
 
-RPROVIDES:${PN} += "python3.11dist-perfmon \
+RPROVIDES:${PN} += "python3-libpfm \
+python3.11dist-perfmon \
 python311-libpfm \
 python3dist-perfmon"
 

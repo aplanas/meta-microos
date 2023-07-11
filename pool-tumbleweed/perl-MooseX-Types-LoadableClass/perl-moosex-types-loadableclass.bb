@@ -12,14 +12,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.015"
 
-RPM_NAME = "perl-MooseX-Types-LoadableClass-0.015-1.20.noarch.rpm"
-RPM_HASH = "038d34fc27e469b80b2959283a625176f3069dea46aa7c0e33666fe4dab56add16c8fdf47e126586b5b1819ebe3b427dbd1c9e0657802e670d23962ddf93ab81"
+RPM_NAME = "perl-MooseX-Types-LoadableClass-0.015-1.21.noarch.rpm"
+RPM_HASH = "9da02ca24716038dae867768005a0a943c6e456233969387250d099c0d8f74b59e861f1ec69fafd9b8a64cdfe8c8c6098801ca9dce5e26471451d2f8bbb68dae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooseX--Types--LoadableClass \
 perl-MooseX-Types-LoadableClass"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Module--Runtime \
 perl-MooseX--Types \
 perl-MooseX--Types--Moose \

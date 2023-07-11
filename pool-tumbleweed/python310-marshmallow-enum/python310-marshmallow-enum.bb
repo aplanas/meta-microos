@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.5.1"
 
-RPM_NAME = "python310-marshmallow-enum-1.5.1-1.10.noarch.rpm"
-RPM_HASH = "9e1686e710c29d89910caa44409a3f7e9871a18d30e442b0ec2d1a5cb2f9bf4a9ffdc5b4ed93231df6727d9a3b5f7c97a4cd76d9a0a5ec2db1160a785f05ef6b"
+RPM_NAME = "python310-marshmallow-enum-1.5.1-2.1.noarch.rpm"
+RPM_HASH = "54838786436167d446cbf19ea4d8f3650a066795b064cc0b41021ef466cfcd55a0e79ba9d54fd27b3f90b6450051719bc2f02ebef4138a729f9a6dfbc6cb3a7c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-marshmallow-enum \
-python3.10dist-marshmallow-enum \
+RPROVIDES:${PN} += "python3.10dist-marshmallow-enum \
 python310-marshmallow-enum \
 python3dist-marshmallow-enum"
 

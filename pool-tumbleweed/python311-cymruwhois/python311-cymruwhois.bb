@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "1.6"
 
-RPM_NAME = "python311-cymruwhois-1.6-2.13.noarch.rpm"
-RPM_HASH = "ec41f8240a8a408f64640d953601e988679036ec5eaefe23dbd0677724ca6ece6ad7820cff08e704d2853b8ee3571324ffcc6b88f87ef906d66410015e0d8564"
+RPM_NAME = "python311-cymruwhois-1.6-2.15.noarch.rpm"
+RPM_HASH = "45df885d8d52cddc0dfb55c6db6e3437cffa451b932e932a8521e9192ba8a8215a73d7ea1198f6d040479a5190881cfc95792eb4b22e850efea4468b6ba535ba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cymruwhois \
+python3-cymruwhois \
 python3.11dist-cymruwhois \
 python311-cymruwhois \
 python3dist-cymruwhois"

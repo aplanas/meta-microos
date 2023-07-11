@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.0.1"
 
-RPM_NAME = "flxmlrpc-devel-1.0.1-1.8.aarch64.rpm"
-RPM_HASH = "13327bcea23ec7c4b552a9973f3f9df8d71db98262f79cc222b4ec3a537fdcf33538cd030198c759ecd8f4d4e8a712774b0959dfe9d8ddd735b48dfdf010b438"
+RPM_NAME = "flxmlrpc-devel-1.0.1-1.9.aarch64.rpm"
+RPM_HASH = "b4c485def2fbe44cfae0562e1f6a068a3adf3c21b475c3f129aa12f315373d465ebdef66b3e17e020b7f061cd6f438c1fa6bd02d40e313d80b2b06695f33456a"
 
 RPROVIDES:${PN} += "flxmlrpc-devel \
 pkgconfig-flxmlrpc"

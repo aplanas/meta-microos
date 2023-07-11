@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-or-later & MIT"
 
 PV = "2.11.4"
 
-RPM_NAME = "icingacli-2.11.4-2.1.noarch.rpm"
-RPM_HASH = "cf3093eb197457bce311bf0b99cdbce6c109ccf5d282be6771fa8ab80e9a24bc34f3f93b040c31dc5deef85aa0146cc4f4c7142eb176d64cf1f69209cd685ebe"
+RPM_NAME = "icingacli-2.11.4-3.1.noarch.rpm"
+RPM_HASH = "bd964406d34c12cb2f1740bf2036ccf74969fb0e48942e24ac225f5147eee0e48f3906b04522215e223cd9baaf6c3f725d3b09a266a34f1ff1bf6dd0e3f8b18a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icingacli \

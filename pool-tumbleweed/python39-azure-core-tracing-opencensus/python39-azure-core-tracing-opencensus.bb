@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0b9"
 
-RPM_NAME = "python39-azure-core-tracing-opencensus-1.0.0b9-1.1.noarch.rpm"
-RPM_HASH = "702856f45cd1fb5a0ac595edf7103699d4bce238c35c51c7a0c0984b454b7454f5a23f10a6e364289946b28347c37dc1fe293ebce73de713dd0895f78fd28bec"
+RPM_NAME = "python39-azure-core-tracing-opencensus-1.0.0b9-1.3.noarch.rpm"
+RPM_HASH = "945e20cad87f7d14554a9ff7a99eaef9d4f9ba9b181dbb9d88c42a01b966fb178e84f89bdf34bec3544b572b2ecb4c35f3bfd6ef967b2ae332475937661e483e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-core-tracing-opencensus \

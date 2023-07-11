@@ -11,12 +11,11 @@ LICENSE = "MIT"
 
 PV = "0.12.2"
 
-RPM_NAME = "python310-lockfile-0.12.2-3.1.noarch.rpm"
-RPM_HASH = "f7bc8c45a943cd421cebff297e307597afaf21ce6817c5aac7e089b828d9d8c034a835f1c75c4ea9d11c123b6a87d821e37113956847c8740a32594e85f092c0"
+RPM_NAME = "python310-lockfile-0.12.2-3.3.noarch.rpm"
+RPM_HASH = "38ffd808eb3e0bd33ea51546d9f3c1da9b9e7053fab65b177d9aba069cdee31f2034209b1e2795ea1150abad7838d6384507695ca3800bc2b0dc71430287e342"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-lockfile \
-python3.10dist-lockfile \
+RPROVIDES:${PN} += "python3.10dist-lockfile \
 python310-lockfile \
 python3dist-lockfile"
 

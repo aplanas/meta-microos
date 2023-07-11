@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.4.5"
 
-RPM_NAME = "python39-django-environ-0.4.5-4.8.noarch.rpm"
-RPM_HASH = "cb28a6cb287488d1fce54eae48b08c3ec3fc13792e7cce19b86f9a2367a3ebfbeea9f35930dfaabd52125169d5be38ec1f9be9e9537e303c0b56ba698b58e02d"
+RPM_NAME = "python39-django-environ-0.4.5-5.1.noarch.rpm"
+RPM_HASH = "e7def061b1ada418d90cfc4acd4e6fae20ab70e91f652cd8ded34d6307abb144945bb378d1a2415d759451fa68370cc84e17bf193ed69f149d9393f5a95c0763"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-django-environ \

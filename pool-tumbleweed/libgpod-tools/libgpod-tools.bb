@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.8.3"
 
-RPM_NAME = "libgpod-tools-0.8.3-12.5.aarch64.rpm"
-RPM_HASH = "fd6a2b199b1b290e266fd8bba17c75a2825fc56267e4b93fc532a00c4b07dab2c92de450a841b5ae43f37c30d5b28fa60f928a4662a2e677e8e94bd668741a4c"
+RPM_NAME = "libgpod-tools-0.8.3-12.7.aarch64.rpm"
+RPM_HASH = "4d0858feb97ec5a2a2977dfff5de24bd79150f3ec292ea62daa6fda755896f8f1a5ca4bae214851cfc871c2ee929d2be6391529bb6fead7864441e9909f2b338"
 
 RPROVIDES:${PN} += "libgpod-tools"
 
@@ -19,7 +19,7 @@ libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgpod.so.4 \
 libimobiledevice-1.0.so.6 \
-libplist-2.0.so.3 \
+libplist-2.0.so.4 \
 libsgutils2-1.48.so.2 \
 libusb-1.0.so.0 \
 libxml2.so.2"

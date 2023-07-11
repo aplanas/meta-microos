@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later & SUSE-Public-Domain & MIT"
 
 PV = "2.7.7"
 
-RPM_NAME = "antlr-devel-2.7.7-122.1.aarch64.rpm"
-RPM_HASH = "b306710c334d7d622bbd8f45ca4e8afc1fa108355251a6fa857c643090134468b2db0c03b7df355277046697ed2ca1bae0c782159d317a661cea1f828b63f5a1"
+RPM_NAME = "antlr-devel-2.7.7-122.2.aarch64.rpm"
+RPM_HASH = "1f6955b39ea88cf3975c3bd6869d0a9579f920228ee6365f7624bdb10d56b933c55d95fd8432eed8549f293e8e200a06ddf971e682e64287cc06bae2a05b08b6"
 
 RPROVIDES:${PN} += "antlr-devel"
 

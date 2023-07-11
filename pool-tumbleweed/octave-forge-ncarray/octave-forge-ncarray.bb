@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.0.5"
 
-RPM_NAME = "octave-forge-ncarray-1.0.5-1.2.noarch.rpm"
-RPM_HASH = "e987933e3f4431675edd81c814edc596412fbf078d597b80bc3f87e70fca9cd8dc4b9848f535033a960f04b9e0195289896d9403b2b4bb9af58bfe68681495d3"
+RPM_NAME = "octave-forge-ncarray-1.0.5-1.3.noarch.rpm"
+RPM_HASH = "4fd1dc634f1505c5d412a8a025a666ff51ab5a7259e6e1bfa44dfcf15b370d83802c3ccce0f6034474a2b6d067169a0d5c9440b74dd2cd047ce396ae6de7496b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "octave-forge-ncarray"

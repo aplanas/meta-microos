@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.1.1"
 
-RPM_NAME = "jp2a-bash-completion-1.1.1-2.7.noarch.rpm"
-RPM_HASH = "a9f228af9940bc20cfec9ee6a1dfc74815c92a9118e61f7c8c9fc8e2321b9b44910504afd4e862920369c279babca6a7db28e6bc865140fc682a15564c0aa049"
+RPM_NAME = "jp2a-bash-completion-1.1.1-2.8.noarch.rpm"
+RPM_HASH = "76bd46d5c02bb594f11fd45c43bc48d9c7d825dfa23593fef1b9c6eed38fd3234bd0d83873bb7f2fd15663061d0214ac53b9df8131f99547167bd49ec52fb235"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jp2a-bash-completion"

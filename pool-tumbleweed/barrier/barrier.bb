@@ -15,8 +15,8 @@ LICENSE = "GPL-2.0-or-later & MIT"
 
 PV = "2.4.0"
 
-RPM_NAME = "barrier-2.4.0-2.1.aarch64.rpm"
-RPM_HASH = "f273b4a162bb2b01a04d478e7b2533d287901fac4e053d442f23f217e2da912440a3d398f9875a5c10053b9030e6f3ca34604aa46a3cf443c19551a8f08093e3"
+RPM_NAME = "barrier-2.4.0-2.2.aarch64.rpm"
+RPM_HASH = "ee9f41d88ad44deb02f4683b47be22841bd3d3d43894f5a208417b988fe168b3e98dee5528722789a2a7216c56b3a61a0156d1f7ca097cefec4310dee6ec23f2"
 
 RPROVIDES:${PN} += "barrier \
 config-barrier"

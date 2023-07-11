@@ -34,8 +34,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.1.2.0"
 
-RPM_NAME = "ghc-resolv-0.1.2.0-10.3.aarch64.rpm"
-RPM_HASH = "df9fb3b00873cf8c9b3ec30081932b7d573109662e2a489231ddc022ed83b7820aee8c0180a7ae8da0d780f1dd5b4e1baa256020ada9e165a0ef5e3a40487243"
+RPM_NAME = "ghc-resolv-0.1.2.0-10.6.aarch64.rpm"
+RPM_HASH = "38d327cab8c5ed876de00fac443cd662bbb6bd70d0bdaeb83361ffd5745a08ae37ff868239f15a53438c8b8167d05ea2d814586a3d25d117731645130722ad15"
 
 RPROVIDES:${PN} += "ghc-resolv \
 libHSresolv-0.1.2.0-AYruoqdjlgt9u8SdYnpGUr-ghc9.4.5.so"

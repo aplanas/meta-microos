@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.2"
 
-RPM_NAME = "python39-pecan-1.4.2-3.1.noarch.rpm"
-RPM_HASH = "9779a58003f457bda735bd8481b82cc126d837c9d8865865cbb35892c0e2cee25628ec69adf27911fbf60ad2f2e9509c626a544915cc428151e6a47da0b2abe5"
+RPM_NAME = "python39-pecan-1.4.2-3.3.noarch.rpm"
+RPM_HASH = "20051dfd35989180beb53e9697af2333c3c1f50a00a957df0b232c8248fc9b8d780b0a7776a9f816b24a9bf8681754e6b56bc0b06f97e25d551896111261488c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pecan \

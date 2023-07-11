@@ -4,14 +4,14 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.1.1.2"
 
-RPM_NAME = "ghc-indexed-traversable-instances-prof-0.1.1.2-1.2.aarch64.rpm"
-RPM_HASH = "aca444e262efa037fbb409413d784bbb1197ece174deee20f9971695f7342a416ca6aac86d94d490ba17d54abef62b9eb5107fa232992f30fe20de17c9cec0a9"
+RPM_NAME = "ghc-indexed-traversable-instances-prof-0.1.1.2-1.3.aarch64.rpm"
+RPM_HASH = "22f7c4149614fe4edfe6f39fd7c8be7b1fb0f9b5231d75b9b8205e9c87ea68dfc26b381bcd645f9f312e125b6dc1ba701be2b447b52ffd8223a7f5ced2f287a0"
 
 RPROVIDES:${PN} += "ghc-indexed-traversable-instances-prof \
-ghc-prof-indexed-traversable-instances-0.1.1.2-9bsLKqKio7c19LOJlUsRRO"
+ghc-prof-indexed-traversable-instances-0.1.1.2-5OovVMCdJKzAImUo6B0vBJ"
 
 RDEPENDS:${PN} += "ghc-indexed-traversable-instances-devel \
-ghc-prof-OneTuple-0.3.1-IKxZBiZNgF5H3QnFEzgDrd \
+ghc-prof-OneTuple-0.4.1.1-Fgk8ylTtnzLBSBvZAI1OoV \
 ghc-prof-base-4.17.1.0 \
 ghc-prof-indexed-traversable-0.1.2.1-1XiSi5jKFt6BqKufaNXxBs \
 ghc-prof-tagged-0.8.7-CYOhX22Df3PFW5V1S0dOJa \

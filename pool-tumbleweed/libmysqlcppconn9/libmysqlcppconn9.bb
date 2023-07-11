@@ -8,10 +8,10 @@ full functionality is not available when connecting to MySQL 5.0. You cannot \
 connect to MySQL 4.1 or earlier."
 LICENSE = "SUSE-GPL-2.0-with-FLOSS-exception"
 
-PV = "8.0.32"
+PV = "8.0.33"
 
-RPM_NAME = "libmysqlcppconn9-8.0.32-1.3.aarch64.rpm"
-RPM_HASH = "6e701c78feb8b089439ffb2ed9abd40a95b7ca63cdcc46c8fb2c3ccd3d52ef97f77ec3cda3c9b94ac36a092734f172faf02fdaf4f68896c2b63f5e4b30abae12"
+RPM_NAME = "libmysqlcppconn9-8.0.33-1.1.aarch64.rpm"
+RPM_HASH = "9c47c2f43102cd572610bcc38cfee512d29f2a41a879a6c0d01548641bb1255e216f35cd57dc34b9eec37f025ab3a514e03e038c5ceb58c8217e5ad99d1e471c"
 
 RPROVIDES:${PN} += "libmysqlcppconn.so.9 \
 libmysqlcppconn9"

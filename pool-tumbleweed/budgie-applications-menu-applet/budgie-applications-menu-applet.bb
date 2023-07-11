@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.6.0"
 
-RPM_NAME = "budgie-applications-menu-applet-1.6.0-1.1.aarch64.rpm"
-RPM_HASH = "0a497b47d666e415cd594308cc6ad00fda7f0450b11d582a4780bea7bb26bbd9de82e06e15bfe852afd0673bd8aeb589fa67cae1cbc3c88193790d38bfd2da6d"
+RPM_NAME = "budgie-applications-menu-applet-1.6.0-1.2.aarch64.rpm"
+RPM_HASH = "eca8bd96eb3f2eef67f3a6b1f71953ab1da4e1c8442a57ff033e7c97e6c62bd04272bd91cd3b735d3dad216279a173e3e9bc20cd7f4afa326978368e68379155"
 
 RPROVIDES:${PN} += "budgie-applications-menu-applet \
 libslingshot.so"

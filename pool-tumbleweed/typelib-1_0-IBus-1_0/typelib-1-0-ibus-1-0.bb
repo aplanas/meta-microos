@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.5.28"
 
-RPM_NAME = "typelib-1_0-IBus-1_0-1.5.28-2.1.aarch64.rpm"
-RPM_HASH = "22799233797d535e19cff32c3c262b0076a323f2b48f3a072113636fa0a6ffba2f715c0fa482672a98291676d9e85ddf321d4d35baf1c91e148aa6e89f37661e"
+RPM_NAME = "typelib-1_0-IBus-1_0-1.5.28-2.2.aarch64.rpm"
+RPM_HASH = "c848bf5d9f785650ca2e4ccc93891ab5996f3eb93abe685f99f9c48024dd3c4c0d07151909ba1ec0d27b6ef8b9f5cbb29e9d965e1030dfcedf522d473ee84bfd"
 
 RPROVIDES:${PN} += "typelib-1-0-IBus-1-0 \
 typelib-IBus"

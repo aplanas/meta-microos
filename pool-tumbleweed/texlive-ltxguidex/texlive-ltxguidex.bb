@@ -4,10 +4,10 @@ environments and commands that make writing beautiful LaTeX \
 documentation easier and more natural."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2.0svn50992"
+PV = "2023.208.0.0.2.0svn50992"
 
-RPM_NAME = "texlive-ltxguidex-2023.201.0.0.2.0svn50992-52.1.noarch.rpm"
-RPM_HASH = "0afeb871dd6be67d2a584014d97ac33a3d9a748ff96b39d7e7bc10bdda641710a24e15bb2768e4e69c6711e2523b1aec4941b6f7953c6202df00593b453ff37d"
+RPM_NAME = "texlive-ltxguidex-2023.208.0.0.2.0svn50992-53.1.noarch.rpm"
+RPM_HASH = "504ea2681dba399b70ca0d80ff7d21119d661f94f2591c73a2ff2fd6ffcd89545369bfe5ef3b9f193dd4d01bfe38a713144355fe672f7217ed63e7d31ca1fd6f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ltxguidex.cls \

@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause & LGPL-3.0-or-later"
 
 PV = "0.9.0"
 
-RPM_NAME = "python39-feedgen-0.9.0-2.12.noarch.rpm"
-RPM_HASH = "363eda176d9d77affdde4161ebb36f191b9611d12461df8a4631add64423d05a79fc95852c6f0f13285008a9398d198cc6ec34ffc7de5a01130648e0dc4c6682"
+RPM_NAME = "python39-feedgen-0.9.0-2.14.noarch.rpm"
+RPM_HASH = "d3cc7d83b2ec4fb2b5d0a6dc1f7b32bb11e1569c25fb5c160d560d4e2548828b10c4770c38265d412aeb7281ae22c8e6602416cabc737d1046e3360ae4f279fc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-feedgen \

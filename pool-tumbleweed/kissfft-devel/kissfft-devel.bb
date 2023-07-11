@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause & Unlicense"
 
 PV = "131.1.0"
 
-RPM_NAME = "kissfft-devel-131.1.0-2.3.aarch64.rpm"
-RPM_HASH = "2a5302a9637dcf78d99838ee2afc393e5d1c0291170c2630b7d8b7bf0cf4314fc837f3eee0447e17ffb793de08fc6135c1691127da0e5b327f77814373a2479f"
+RPM_NAME = "kissfft-devel-131.1.0-2.4.aarch64.rpm"
+RPM_HASH = "198c7513189c9ca83aa36a97a399500591d8f69bda02f200badf52ed7f3f8ffaf6b320aa79ae2e337ebbef7aeb52a0d83d06120e024a012d08aa49ddfbea6a67"
 
 RPROVIDES:${PN} += "cmake-kissfft \
 kissfft-devel \

@@ -30,8 +30,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.5.0"
 
-RPM_NAME = "cantata-2.5.0-2.9.aarch64.rpm"
-RPM_HASH = "b17990a6e6b87250f44770811778df57cc09a1c147439006ccafcaca36ce5cf6704bb580b7ec57b0e52b770095aaaee3b4babf77d68e1fc5c0a9c903884bf18a"
+RPM_NAME = "cantata-2.5.0-2.10.aarch64.rpm"
+RPM_HASH = "3bdcb8f65d2dbf9d3bab079724437a3fccdba8c93f581f3a193b0d36eaaf52360bcaf4ec9575e35b1784014549f03c1193522b7f500a6a318b2d368cbb5d8503"
 
 RPROVIDES:${PN} += "cantata"
 
@@ -47,9 +47,9 @@ libQt5Sql.so.5 \
 libQt5Svg.so.5 \
 libQt5Widgets.so.5 \
 libQt5Xml.so.5 \
-libavcodec.so.59 \
-libavformat.so.59 \
-libavutil.so.57 \
+libavcodec.so.60 \
+libavformat.so.60 \
+libavutil.so.58 \
 libc.so.6 \
 libcddb.so.2 \
 libcdio-cdda.so.2 \

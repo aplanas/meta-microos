@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.4"
 
-RPM_NAME = "scmon-0.4-10.15.aarch64.rpm"
-RPM_HASH = "2016de0feed4c4f1c3207b4319d53ce2cd362095534a6d6a3bfcb392df4f5f746daf728312a8dc4c6d62ae68f804c99fd988241f4c3d4e4f93b50c67216d0fe1"
+RPM_NAME = "scmon-0.4-10.16.aarch64.rpm"
+RPM_HASH = "ac644b40a31fa09eb7c242c6594523e191d72eac30ff9d14404551776edf82d314220ac31b9d33b800fb124bc8b2ace5e09feceef4c2e9fa63d620c8487b1737"
 
 RPROVIDES:${PN} += "config-scmon \
 scmon"

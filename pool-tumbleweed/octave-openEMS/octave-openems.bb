@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.0.35"
 
-RPM_NAME = "octave-openEMS-0.0.35-5.36.aarch64.rpm"
-RPM_HASH = "ad5d0e738e0f24ee35f5d05c5e132d786a33b8ba9d2a96ee5e1a687222b67dedf8cdcbe570385682eb40429efe3a6b1003d5b12b8e16d1fc15711d5a18274b81"
+RPM_NAME = "octave-openEMS-0.0.35-5.37.aarch64.rpm"
+RPM_HASH = "1c2237758f3ed1e9442922627f137036917e9a82d0e7c26fa7ff40f6c8ac7c3e2838ac2eeb0f222780ddbec16cd76bac7ba8eba4f15e2fcedcd49951bdfa60f9"
 
 RPROVIDES:${PN} += "octave-openEMS"
 

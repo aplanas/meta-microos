@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.10.1"
 
-RPM_NAME = "python39-mwclient-0.10.1-1.7.noarch.rpm"
-RPM_HASH = "eb85a9f98d8519836db8bc1321e3b272dfe0f2666f9a804e935a6741d13b0005835ba17e75be74d09507affe8b174d4da630845323c1c82903ee8574677cc20b"
+RPM_NAME = "python39-mwclient-0.10.1-1.9.noarch.rpm"
+RPM_HASH = "0a652eea78e68fd64e7900a99cade9bc5b8b1e1b2bc97cb3a25713b5965d205fcc34e0e8bebf554f6777af8809ffb80797c98571b7d36170f016f4d099d262dc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-mwclient \

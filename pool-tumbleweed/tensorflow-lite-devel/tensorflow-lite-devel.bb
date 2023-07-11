@@ -13,8 +13,8 @@ LICENSE = "Apache-2.0 & BSD-2-Clause & BSD-3-Clause & MIT & MPL-2.0"
 
 PV = "2.10.0"
 
-RPM_NAME = "tensorflow-lite-devel-2.10.0-1.1.aarch64.rpm"
-RPM_HASH = "15220eb5c98ecbd28e6dbfdcbf87edfff2d914793e04492359e3f166dc14239bc80c05aa7cc6aee4644fe6c20fd542767d5f74f53f66f5b9daf5018b73e1220e"
+RPM_NAME = "tensorflow-lite-devel-2.10.0-2.2.aarch64.rpm"
+RPM_HASH = "ca01f5c5e632dbb8d73ec199e56d4ba5e18e86cd797c516bd333f969240a42491d5ebc870fe9b53185b55ed4f9118bb565752cc27808dc85ce1bf8676cecea31"
 
 RPROVIDES:${PN} += "pkgconfig-tensorflow-lite \
 pkgconfig-tensorflow2-lite \

@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.02.06"
 
-RPM_NAME = "fnotifystat-0.02.06-1.12.aarch64.rpm"
-RPM_HASH = "ec1cae39a3923e414fa02e4bf28872727dcab2dd9bf86d23cf0446ae1e66e66944a9ac468fcb6797ed0916a3103d8e19ca85e3ba47f83422cd7fb94faaa539de"
+RPM_NAME = "fnotifystat-0.02.06-1.13.aarch64.rpm"
+RPM_HASH = "9ae4ba06742ea634eefa09b464f0ca755fa96c17208de3270bcb8f33016176d2d5c2feb128b90300590570db51551fe9bd4d7636991beb9aee44b997ddee9c1f"
 
 RPROVIDES:${PN} += "fnotifystat"
 

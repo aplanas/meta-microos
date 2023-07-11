@@ -5,12 +5,11 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "2022.7.29"
 
-RPM_NAME = "python310-gprof2dot-2022.7.29-1.4.noarch.rpm"
-RPM_HASH = "46d2f755df28e9d4246efe1da34654fa4733528cfa29bf0b43b1558f903f9f9d5adefeeedbd362a5e7a6a279ce21a84e5f2634eb9a0226e07dc1d4f11a05bdca"
+RPM_NAME = "python310-gprof2dot-2022.7.29-1.5.noarch.rpm"
+RPM_HASH = "f3e77644557105e0fa9ac7a7a8e0dfeb0f00f07c63c684c0f3fb3e1e0f59de2ad2d7161b06d3fdb88977fb8145704bb4790b49646b6a480e40bc98621b2f17f8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-gprof2dot \
-python3.10dist-gprof2dot \
+RPROVIDES:${PN} += "python3.10dist-gprof2dot \
 python310-gprof2dot \
 python3dist-gprof2dot"
 

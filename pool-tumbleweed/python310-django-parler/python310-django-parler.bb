@@ -4,12 +4,11 @@ LICENSE = "Apache-2.0"
 
 PV = "2.3"
 
-RPM_NAME = "python310-django-parler-2.3-3.3.noarch.rpm"
-RPM_HASH = "2fbcae2dfc85ac2abaff2167b800ab5f2f683fddd1ea77f163987b6321d3ee5826f8bc2c9f60d1d5ccec4a6db0433cfacda5dc5943c913a459650e9f4b67e505"
+RPM_NAME = "python310-django-parler-2.3-3.5.noarch.rpm"
+RPM_HASH = "0aeae0632cbe47dafdb2a521549a4433e47c44405e28c7f306c1cba0e373f8df44b4d15c4ccdd656daabab651ce28cf8acf497117f23e1dfd7e0e5c4f1148c76"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-django-parler \
-python3.10dist-django-parler \
+RPROVIDES:${PN} += "python3.10dist-django-parler \
 python310-django-parler \
 python3dist-django-parler"
 

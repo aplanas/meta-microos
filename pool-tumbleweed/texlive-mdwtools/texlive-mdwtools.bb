@@ -8,10 +8,10 @@ LaTeX's tabular and array environments; verbatim handling; and \
 syntax diagrams."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.05.4svn15878"
+PV = "2023.208.1.05.4svn15878"
 
-RPM_NAME = "texlive-mdwtools-2023.201.1.05.4svn15878-52.1.noarch.rpm"
-RPM_HASH = "e6d5691e6b7370643885a69500f108345f910e76c067a863d4becfdafa02774459022d03e42c9084c8eb54995676154a2d296271b5e9d4af2d61254f6cf60096"
+RPM_NAME = "texlive-mdwtools-2023.208.1.05.4svn15878-53.1.noarch.rpm"
+RPM_HASH = "dc1b662ccb149fbc9f303b5a08071b742d1cac2cbd388de8bac1d557b06bd1793608d1a23f6f4362f27b16898cff8daa986c6f3311d1dc8104a0af5fdf3ad3d3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-at.sty \

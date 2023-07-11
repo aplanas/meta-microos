@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.1.2"
 
-RPM_NAME = "python39-process-tests-2.1.2-2.1.noarch.rpm"
-RPM_HASH = "296d8c98b970388e7c48873f547cb23c7ce2bc62f9844355a0dd550ed7a12c0c3c838c7fc4fdaf0572119dfc9e6c425c0005235ab8625b494c476dcdd115ba7e"
+RPM_NAME = "python39-process-tests-2.1.2-2.2.noarch.rpm"
+RPM_HASH = "a189c7b21d0550b1e9b5ba02603e718be1adc8a60e416e5972bb2e79dcb60565be6e29fff0d8dacb95867963407cf0cc08574eaedc153cfe88a0e3a3782f427b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-process-tests \

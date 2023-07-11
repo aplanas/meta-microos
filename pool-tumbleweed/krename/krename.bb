@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.0.2"
 
-RPM_NAME = "krename-5.0.2-1.3.aarch64.rpm"
-RPM_HASH = "cf7b8a04bd5b2a01f9ce4504dfd403a716c6d6b828a9df478e19cf40e7df4f21daaf532ff47097d034b3b9fb8c39d6afcbbde0257ae5a9d9345410a55a0304fd"
+RPM_NAME = "krename-5.0.2-2.1.aarch64.rpm"
+RPM_HASH = "68905754bb663367bc1700a14811be774123b9e564cc0ae0821529f6d9bdd0823cbf21d93d008daa8d27619f3c7eadfaa8a1cadc3111f402b10b546d446d5f63"
 
 RPROVIDES:${PN} += "krename"
 
@@ -32,7 +32,7 @@ libQt5Gui.so.5 \
 libQt5Widgets.so.5 \
 libQt5Xml.so.5 \
 libc.so.6 \
-libexiv2.so.27 \
+libexiv2.so.28 \
 libfreetype.so.6 \
 libgcc-s.so.1 \
 libpodofo.so.0.9.8 \

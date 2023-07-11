@@ -6,12 +6,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2023.02.11"
 
-RPM_NAME = "python310-limnoria-2023.02.11-1.1.noarch.rpm"
-RPM_HASH = "687c6816839647eb3f326871fdf2fadb4d9d6469940368b74e3e2e94bd63d48592701300b64c46f76d9b2ae3be9d68594c5fe346f57dda149725097b93027d19"
+RPM_NAME = "python310-limnoria-2023.02.11-1.3.noarch.rpm"
+RPM_HASH = "856c3ac6af6981f26eac2e2074fb80fb7a746cb72b5ef4280499c052d50d562b67b092bd8329873fa7fded4165852bb8945b7d2d93bed858c848acb1baa6b910"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "Supybot \
-python3-limnoria \
 python3.10dist-limnoria \
 python310-limnoria \
 python3dist-limnoria"

@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0+"
 
 PV = "0.2"
 
-RPM_NAME = "libgsettings-qt1-0.2-1.9.aarch64.rpm"
-RPM_HASH = "0b2778f0ede06ccb856096089aab01bf818f0917398848a47682a1537dfba5102873f37d6cf9aa34d9282e04aa8968933a055de16fd77979a4b253548a4448de"
+RPM_NAME = "libgsettings-qt1-0.2-1.10.aarch64.rpm"
+RPM_HASH = "019d61c8edeb26d1608c08942dd209ed5e1cf5256d90ce3e70350afa839649bd17966b2d49e4a319e6eec837da8de3c1c22045f9eaa822a3008b90f533a61751"
 
 RPROVIDES:${PN} += "libgsettings-qt.so.1 \
 libgsettings-qt1"

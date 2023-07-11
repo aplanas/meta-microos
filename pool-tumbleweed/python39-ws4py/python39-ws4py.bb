@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.1"
 
-RPM_NAME = "python39-ws4py-0.5.1-3.5.noarch.rpm"
-RPM_HASH = "1f9a90c7fb714ff42aaf65dce17084bdf050f02603128d544519ac0032b57e190030cb0b8fb746bc845c3e2564d261cf1d86755d97fffe9c78c01fdacc9b0998"
+RPM_NAME = "python39-ws4py-0.5.1-3.6.noarch.rpm"
+RPM_HASH = "243ba4e07d4ba8cd7bf4bf92234c8756c79038529b45232bb455899db0bbf790859e2fb332459b3e25b4f2e0ade3a2d44213d2ef7a8bf9e4b6c0f0cfc6542a1c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-ws4py \

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package tellico"
 DESCRIPTION = "Provides translations for the 'tellico' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.5"
+PV = "3.5.1"
 
-RPM_NAME = "tellico-lang-3.5-1.1.noarch.rpm"
-RPM_HASH = "920ff73b53373f4367fc47726014c662a0378aca1529462376309893aac9b3cfd84e3dbeca2796d7e1c32eb8c07650d973fc913f09cbb15ef7a25ce6813aa77e"
+RPM_NAME = "tellico-lang-3.5.1-1.1.noarch.rpm"
+RPM_HASH = "8d63a87c7725c73f3298fe53415d0c46567f1024a36dcb0d2287b21b871ac63bc8b60e40b9f26548b30aff50bebde2fc4d141d1762a043292e3830e3ae87486f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-tellico-bg \

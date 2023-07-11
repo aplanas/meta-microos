@@ -2,10 +2,10 @@ SUMMARY = "Multilingual Terminal Emulator common files"
 DESCRIPTION = "Common files for Mlterm multilingual terminal emulator"
 LICENSE = "BSD-3-Clause"
 
-PV = "3.9.2"
+PV = "3.9.3"
 
-RPM_NAME = "mlterm-common-3.9.2-3.3.aarch64.rpm"
-RPM_HASH = "3539d2da079d69a8b00c3605919232ed8a9147201462948815432c163d6ebadb7b3bae05709db418739f82d2b03dc71ded290436a772353b98f97948153d4e79"
+RPM_NAME = "mlterm-common-3.9.3-1.1.aarch64.rpm"
+RPM_HASH = "bff1bab0f6e9c01a1c460b3ddf8893bee780da7bb7ea00f7891f3cfab00af318330289c8d791bda3d77c9c2d5104f707c46c3d798e3da5cd70e0f59d4e482e68"
 
 RPROVIDES:${PN} += "libctl-bidi.so \
 libctl-iscii.so \

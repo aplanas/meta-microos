@@ -10,8 +10,8 @@ LICENSE = "(BSD-3-Clause & GPL-2.0-only-with-Classpath-exception-2.0) | CDDL-1.1
 
 PV = "1.2.0"
 
-RPM_NAME = "glassfish-activation-api-1.2.0-4.3.noarch.rpm"
-RPM_HASH = "48eb97ed9e29fb4757c5c2923613d578575ce4b7c790083bb15a2750a07ef1c49c7c69eedc3c0c4358d99f4e4885579214640c602630f7b2d867378922570acb"
+RPM_NAME = "glassfish-activation-api-1.2.0-4.4.noarch.rpm"
+RPM_HASH = "d075f22293d14c9927abd02dd2b143cee84e47b688d8268c97dcad50f265be1b79babf32209b19e15c72a32d471df20fa0526d995605af687f940f69df991b85"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-activation-api \

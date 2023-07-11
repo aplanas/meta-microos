@@ -17,8 +17,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.4.0svn66461"
 
-RPM_NAME = "texlive-pythonimmediate-2023.201.0.0.4.0svn66461-53.1.noarch.rpm"
-RPM_HASH = "d7957e9efe10a99a9e816ca6db3053acdf5cfd011be775c235e7691db1f4d78b9d21faa339627aea64b0606d7eb2fc16aa51e9f8a6b1b73b20a510b9435038e2"
+RPM_NAME = "texlive-pythonimmediate-2023.201.0.0.4.0svn66461-53.2.noarch.rpm"
+RPM_HASH = "86bb04ac0e8cf702201d304b4cf877d16a240efab9f32d698df362210c5f6e5fd0eee6f4b0e604e3bcdf434ad5d5d923c618b782605062d1d3f0dadb84c5fff1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pythonimmediate.sty \

@@ -5,14 +5,14 @@ for reading, processing, executing, or translating structured text or \
 binary files."
 LICENSE = "BSD-3-Clause"
 
-PV = "4.9.3"
+PV = "4.13.0"
 
-RPM_NAME = "libantlr4-runtime-devel-4.9.3-1.10.aarch64.rpm"
-RPM_HASH = "4abc58599195b22832b73970b73d36efbedcb6ea65cb730c1c6563ddb22d89c17081be5aa213ca1595675f3574fd972a50ab345d1028ef291d524ec954b17ec1"
+RPM_NAME = "libantlr4-runtime-devel-4.13.0-1.2.aarch64.rpm"
+RPM_HASH = "c7335119defbcf8c2f7a48bd06f75e96d8fc07624518313cc727618934b4f3023841ffe9584f3394ef850adc3fce9e5e9ecb17a8928e561329677b9bcba81b63"
 
 RPROVIDES:${PN} += "libantlr4-runtime-devel"
 
-RDEPENDS:${PN} += "libantlr4-runtime4-9-3 \
+RDEPENDS:${PN} += "libantlr4-runtime4-13-0 \
 utfcpp-devel"
 
 inherit rpm

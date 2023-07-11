@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.208.svn54074"
 
-RPM_NAME = "texlive-collection-fontsrecommended-2023.208.svn54074-58.1.noarch.rpm"
-RPM_HASH = "679804bd50dea107a149e6c068acd0ac918793b255bece22f8532cd1c8e35bcc7c191a3cebad42181512e6378574343e933d568308a5bc8fc7f35e0abb2b314a"
+RPM_NAME = "texlive-collection-fontsrecommended-2023.208.svn54074-60.1.noarch.rpm"
+RPM_HASH = "2a50b84671ad64925850c6acdea6a9a2bad914ae3ef14b8fd09365ca1746321c3268cf8fd62360a43b7b55b96ad0bfcad1216b7a6bbb61d5fb712474f59186cd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-fontsrecommended"

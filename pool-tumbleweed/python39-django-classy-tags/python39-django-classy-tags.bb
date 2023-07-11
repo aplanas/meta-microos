@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "3.0.1"
 
-RPM_NAME = "python39-django-classy-tags-3.0.1-1.3.noarch.rpm"
-RPM_HASH = "26d52196b64fa9a352bfb40b3a27058d861837aab4d925b1a5e38745b077b0c11ceb0bae38c60de78c630dfa5b68d82a1fab694f4035a83b5cc660440ed0dd57"
+RPM_NAME = "python39-django-classy-tags-3.0.1-2.1.noarch.rpm"
+RPM_HASH = "eff8d8484e1736d8082a554c65b8616956a807a3f9b528244c714b28eb40037ef4d58b8fcdfc4861706fae652f9709fb900637a03fd4837494aa1c0880907a71"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-django-classy-tags \

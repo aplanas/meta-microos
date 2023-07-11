@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "2.4.4"
 
-RPM_NAME = "xplayer-plugins-2.4.4-1.3.aarch64.rpm"
-RPM_HASH = "aa272f550cf774dfefabd21891c1d33f9b29ced99a9e76a08a16dc135f4a6341ed63a4cc3fac96b95f83e5e0813dbee24dc5e543e0a20142e1bcbb0076c47c5c"
+RPM_NAME = "xplayer-plugins-2.4.4-1.4.aarch64.rpm"
+RPM_HASH = "26e0971f2539025b82a0cb65f31d89926dc8de25674842e723476692259710b525556b2d976dd8d8c1f5485c11e5fc7f87aa565db015b4b42c07b7b7962c956b"
 
 RPROVIDES:${PN} += "libapple-trailers.so \
 libautoload-subtitles.so \

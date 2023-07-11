@@ -4,12 +4,11 @@ LICENSE = "Apache-2.0"
 
 PV = "4.0.2"
 
-RPM_NAME = "python310-async_timeout-4.0.2-3.1.noarch.rpm"
-RPM_HASH = "6690e6348bdce2ac41b1073838c8886900d9781a60e824895d2372b4bbf68811eeafbe1115ae7f6e8fa3c0075cb25294579b6f94e3253076c175baf9b8a00166"
+RPM_NAME = "python310-async_timeout-4.0.2-3.3.noarch.rpm"
+RPM_HASH = "b697dd493cbe4904938d2f2b7c73d60a29c23a72fed689c78f7467e4fe34570255fc7bbf17b356ac4a7c462ba7979ecfa6f7e3154041fc0d2ab0fa3aa94d3d06"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-async-timeout \
-python3.10dist-async-timeout \
+RPROVIDES:${PN} += "python3.10dist-async-timeout \
 python310-async-timeout \
 python3dist-async-timeout"
 

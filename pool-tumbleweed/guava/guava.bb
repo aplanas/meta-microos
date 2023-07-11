@@ -7,10 +7,10 @@ into a single jar.  Individual portions of Guava can be used \
 by downloading the appropriate module and its dependencies."
 LICENSE = "Apache-2.0 & CC0-1.0"
 
-PV = "31.1"
+PV = "32.0.1"
 
-RPM_NAME = "guava-31.1-2.4.noarch.rpm"
-RPM_HASH = "11a1eb0784239ef58a228a06c64245e093b57db56f249e0d4ee108572d6b8ada7c461dcfff92ba9bdf85ca0442ad78039516b5f36d8e40c5c111b2cbb0e2e293"
+RPM_NAME = "guava-32.0.1-1.1.noarch.rpm"
+RPM_HASH = "24ee2db8c45c314c77672ea482f8b46da9b788781fc957d5d8f0a70e6d7058629b23cc3c896b26ac65d26479358ff89b88619a827f88eeaf2facba58e97de7b1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "guava \

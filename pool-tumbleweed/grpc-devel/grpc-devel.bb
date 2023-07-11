@@ -3,10 +3,10 @@ DESCRIPTION = "This subpackage contains libraries and header files for developin
 applications that want to make use of the gRPC reference implementation."
 LICENSE = "Apache-2.0"
 
-PV = "1.54.1"
+PV = "1.56.0"
 
-RPM_NAME = "grpc-devel-1.54.1-1.1.aarch64.rpm"
-RPM_HASH = "61162e6b08cb4da0c3c532a2174c82413cbe4213c0c2f90bada12b77fadb9ab481b1133939072c2d551f6799aeb41fc49e0c9c45e00c76274cf01c7d768a01cb"
+RPM_NAME = "grpc-devel-1.56.0-1.2.aarch64.rpm"
+RPM_HASH = "5a350984cf6c93b3982104e9b433304af134fdbf8b027ac88dcb40c72407ff11515313a0af035ba1eb8426127e12dcb9c92003d6fd8000aabcebcb2e96757952"
 
 RPROVIDES:${PN} += "cmake-gRPC \
 grpc-devel \
@@ -18,16 +18,18 @@ pkgconfig-grpc-unsecure"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1 \
+libabsl-hash.so.2301.0.0 \
+libabsl-raw-hash-set.so.2301.0.0 \
 libc.so.6 \
 libgcc-s.so.1 \
-libgrpc++1-54 \
-libgrpc-plugin-support.so.1.54 \
-libgrpc1-54 \
-libgrpc31 \
-libprotobuf-3.21.12.so \
-libprotoc-3.21.12.so \
+libgrpc++1-56 \
+libgrpc-plugin-support.so.1.56 \
+libgrpc1-56 \
+libgrpc33 \
+libprotobuf.so.23.3.0 \
+libprotoc.so.23.3.0 \
 libstdc++.so.6 \
-libupb31 \
+libupb33 \
 pkgconfig-absl-any-invocable \
 pkgconfig-absl-base \
 pkgconfig-absl-bind-front \

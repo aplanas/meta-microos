@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later & MIT"
 
 PV = "5.6.4"
 
-RPM_NAME = "deepin-file-manager-lang-5.6.4-3.7.noarch.rpm"
-RPM_HASH = "cc6cd9795ed96df34d675882440fb8137426417acaf366fc801920e240e46452d5560ed564d13978d68fe0061be544d8d465f5efb602ce0ca46607c43ad8ceda"
+RPM_NAME = "deepin-file-manager-lang-5.6.4-3.9.noarch.rpm"
+RPM_HASH = "1f600c5d9c1e1c4db781ed2db6403cebcfc5caed2151d1174bb257b131122d48ac840af83d56a8bdcae2e55167217e7ee261664ab08bbca4d520e901623a2fbd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-file-manager-lang \

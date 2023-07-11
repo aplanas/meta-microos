@@ -12,13 +12,13 @@ Hackage documentation generation is not reliable. For up to date documentation, 
 please see: <http://www.stackage.org/package/conduit>."
 LICENSE = "MIT"
 
-PV = "1.3.4.3"
+PV = "1.3.5"
 
-RPM_NAME = "ghc-conduit-1.3.4.3-3.3.aarch64.rpm"
-RPM_HASH = "4b426bd3deee585f1b29bff69ef5823e3b33fdee782a471d5ce516a9291bec707d0c13c6f5d2e3b90076631c58f5aaab03014f1c0fc357807d9e4d9ac03d482b"
+RPM_NAME = "ghc-conduit-1.3.5-1.3.aarch64.rpm"
+RPM_HASH = "b4dfb9357756dfed6e4f9c367ec4fc02c54cc09a0400d1f4a69887c9566ca72f4f8706983793d884bb11c2c6720c9ce2d840c40d6e4b8987710c4c1a4b5bc1ad"
 
 RPROVIDES:${PN} += "ghc-conduit \
-libHSconduit-1.3.4.3-dAZVHPSYjL2zQ4RzAuWi2-ghc9.4.5.so"
+libHSconduit-1.3.5-EjJ71P6EbmSGTrvJLquwgr-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
 libHSbase-4.17.1.0-ghc9.4.5.so \

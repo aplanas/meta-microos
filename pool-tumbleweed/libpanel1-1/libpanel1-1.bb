@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.2.0"
 
-RPM_NAME = "libpanel1-1-1.2.0-1.1.aarch64.rpm"
-RPM_HASH = "9e9d8d5bef4f9c94deb9a361c8b5d9938023af63df6de1e03ea7395d60768b2b96488fa3c01cba7431688be43924297cedc477199d2f985ed0b6406f4ac243d1"
+RPM_NAME = "libpanel1-1-1.2.0-1.2.aarch64.rpm"
+RPM_HASH = "d07970d5ee89d9373cb829a571b5e52a99542ff94d522512c3ac1ff10035926ea97f0fd387d0672b88896a39e120ff4a055e10efb5fab9b274f97f02057a5b7c"
 
 RPROVIDES:${PN} += "libpanel \
 libpanel-1.so.1 \

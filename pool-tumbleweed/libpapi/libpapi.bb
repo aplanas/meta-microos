@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "7.0.0"
 
-RPM_NAME = "libpapi-7.0.0-1.3.aarch64.rpm"
-RPM_HASH = "605047942eb8a6c7bddf51e9e33e1de037b5fee49a9deef213f5a1abb59b639f90464a2b37de4237d909a0f690fc80b2f6f2c5b5ae1e80e5887875cbfb7155f4"
+RPM_NAME = "libpapi-7.0.0-1.4.aarch64.rpm"
+RPM_HASH = "3a9c29c83e4b0dc3e23bb95e30a801be42b617159e2e2a34b0852eda6903776be0de50198d32822085a858f097f349f888159e6df1e4ebf4165572279b7afc21"
 
 RPROVIDES:${PN} += "libpapi \
 libpapi.so.7.0 \

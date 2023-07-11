@@ -9,10 +9,10 @@ language. Some of its features include: \
 - Full support for authoring Sweave and TeX documents."
 LICENSE = "AGPL-3.0-only & Apache-2.0 & MPL-1.1 & LGPL-2.1-or-later & GPL-2.0-only & MIT & W3C-20150513 & BSD-3-Clause & (BSL-1.0 | MIT) & GPL-3.0-only & ISC & OFL-1.1 & Zlib & NPL-1.1 & CC-BY-4.0 & EPL-1.0"
 
-PV = "2023.03.0+386"
+PV = "2023.06.0+421"
 
-RPM_NAME = "rstudio-desktop-2023.03.0+386-1.2.aarch64.rpm"
-RPM_HASH = "ffbcb738e4e7b4ff15855f8a14efc5889b41ffd0f6115419c047463030daa1bdd9c60dcc8d737b965a8744d6f6de0db52b9aeb88688748f3168478b569332a96"
+RPM_NAME = "rstudio-desktop-2023.06.0+421-1.1.aarch64.rpm"
+RPM_HASH = "52061ae3fba7be7b4109a61ce882a73dd5260c6727085ac7a1d86aa726604e1c86f7fe6874319d39f3ae806473138f990ce10a26fd5684491eed9785de119af2"
 
 RPROVIDES:${PN} += "rstudio-desktop"
 

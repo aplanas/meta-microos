@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "0.11"
 
-RPM_NAME = "python310-libevdev-0.11-1.3.noarch.rpm"
-RPM_HASH = "71f29bb842e8b996f770bce9e8297283f30d41c429ff10ccad5dabcc8e255c7c57bbc6584d43d66e7cc54cda0247fa384f9db8bbdfbab6dfea8f25f0d6b6baaa"
+RPM_NAME = "python310-libevdev-0.11-1.5.noarch.rpm"
+RPM_HASH = "34eeee237dcd3ef4677b8566940b67a078edb40a762ffa873db98992ae432fcf08f979e5b9c874d299a18e1bc134027094901f38fbfda352ebedafdef9bb8a45"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-libevdev \
-python3.10dist-libevdev \
+RPROVIDES:${PN} += "python3.10dist-libevdev \
 python310-libevdev \
 python3dist-libevdev"
 

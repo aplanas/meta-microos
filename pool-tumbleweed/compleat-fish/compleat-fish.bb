@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.0+git.20220402.ec8fccc"
 
-RPM_NAME = "compleat-fish-1.0+git.20220402.ec8fccc-1.8.noarch.rpm"
-RPM_HASH = "30cfc171be4ddd0dc2d3024846a600be53a7ccf23c5d4c5d98a850bc86a71209a3182e3bd45f80f1d1e432b2d0a272f0e3ed4ab2506f02036386de057bd3c7b4"
+RPM_NAME = "compleat-fish-1.0+git.20220402.ec8fccc-1.9.noarch.rpm"
+RPM_HASH = "b74cccc999672b376c324521fb92e5687bd107eb33aa97b105f111d287ab15feb97f56a74897e5ec7d8c6647237e4d57a3f15a91bf42ea98332185cc885d5562"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "compleat-fish"

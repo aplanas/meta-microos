@@ -7,12 +7,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.12.post1"
 
-RPM_NAME = "python310-d2to1-0.2.12.post1-2.13.noarch.rpm"
-RPM_HASH = "456a98ab19c098b90485e008467ba46a517c4d216deae661274e8910088e101f2ae3528c9dafef5075a81b0d5fa875175212463218a3110d0147e4520e3df041"
+RPM_NAME = "python310-d2to1-0.2.12.post1-2.14.noarch.rpm"
+RPM_HASH = "b0e89a5c117112be95aff5997755be2845024bdd1836668cbb0840ec21e241d4fad7eb20d2f24d51c410b619fcacf25929e7807512cc8951c769e6af3ecd04b9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-d2to1 \
-python3.10dist-d2to1 \
+RPROVIDES:${PN} += "python3.10dist-d2to1 \
 python310-d2to1 \
 python3dist-d2to1"
 

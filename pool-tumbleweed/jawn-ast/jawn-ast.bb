@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "0.14.1"
 
-RPM_NAME = "jawn-ast-0.14.1-2.10.noarch.rpm"
-RPM_HASH = "f1f5e8d610e2c4cbeeefc37b517dbc2a0c48f2407d8ae0e712d9f0387eb78f0629ca3bda06d09d101ce6b3b776af15a05e549e425ab6f0fb52b921da23f336a9"
+RPM_NAME = "jawn-ast-0.14.1-2.11.noarch.rpm"
+RPM_HASH = "2c6eaf9c03910d8787e34610109d7a6cbc35e7c9db7d77d2f4077100f17f276a5bc80eb530c19cfb51c6ee45cde2a2777ca92083f7f3bcc7f96ea782c27fe7a5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jawn-ast \

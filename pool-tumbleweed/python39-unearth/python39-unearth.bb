@@ -9,10 +9,10 @@ DESCRIPTION = "This project exists as the last piece to complete the puzzle of a
 They provide all the low-level functionalities that are needed to resolve and install packages."
 LICENSE = "MIT"
 
-PV = "0.7.0"
+PV = "0.9.1"
 
-RPM_NAME = "python39-unearth-0.7.0-1.4.noarch.rpm"
-RPM_HASH = "300fedbe4f36a048dfef77fc8c0bf77852144d90413ffea5d80245c238f3fa8b62dcad95312ae606e05bab59daccc709139354d6c5c65b54052388d8e9928d8f"
+RPM_NAME = "python39-unearth-0.9.1-1.1.noarch.rpm"
+RPM_HASH = "5f2278b2247932df6b02d1c10f6311f673a539f4bd2bd21cf4d8ed548b439963d9d8971f5fd5ac3441be9e285f7111a3bb423efcc340c00478cae4b93755bc16"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-unearth \

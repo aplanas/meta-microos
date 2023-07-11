@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.3.2"
 
-RPM_NAME = "python310-ruamel.yaml.convert-0.3.2-1.14.noarch.rpm"
-RPM_HASH = "43c260ee36108ae3b99ff831d2fa1b8d621fabd5dc0125a70542c7eb0100508222b3d4d9660f1ed3bd832bce212055f96c69423bcba1f178b3a697358b14ffdd"
+RPM_NAME = "python310-ruamel.yaml.convert-0.3.2-1.16.noarch.rpm"
+RPM_HASH = "1e2638734c5d951162c3b9a03f205a6a119eccc9927fb69fc711415825bfab76e478e97235d05131d060c5a279e627c197aa4a6f09839a0fcb24b6a108fdd3ed"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-ruamel.yaml.convert \
-python3.10dist-ruamel.yaml.convert \
+RPROVIDES:${PN} += "python3.10dist-ruamel.yaml.convert \
 python310-ruamel.yaml.convert \
 python3dist-ruamel.yaml.convert"
 

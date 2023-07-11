@@ -7,8 +7,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "43.2+6"
 
-RPM_NAME = "gpaste-devel-43.2+6-2.1.aarch64.rpm"
-RPM_HASH = "6391ca52bfbc39205dd716af2d32833684b57ffba8c70739799537e9cc83c0605c78dd567ca49a9d3fa16b13122729e04c3fd342b3ace10f9297c2e441255e06"
+RPM_NAME = "gpaste-devel-43.2+6-2.2.aarch64.rpm"
+RPM_HASH = "6cdcddfba5916bb80cac5d0074cfd7be63f47152af6685ae9261ddef2d08fc62ea6e84c30b6b24268fea25106f71a1cef4d5b1f20c2da3628ae3117f73a1a72b"
 
 RPROVIDES:${PN} += "gpaste-devel \
 pkgconfig-gpaste-2 \

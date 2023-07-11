@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only-with-OCCT-exception-1.0"
 
 PV = "7.7.0"
 
-RPM_NAME = "occt-devel-doc-7.7.0-1.3.noarch.rpm"
-RPM_HASH = "7d47be1098fc69925257a8dc2f42f784ddfa76f758f998c0e158ea7437e9498d36e927f821e776a34bdbc2094321c95609e97ecccbc0a8ef8dca507a1db9b85a"
+RPM_NAME = "occt-devel-doc-7.7.0-1.4.noarch.rpm"
+RPM_HASH = "b0d65d63f2443e4d8b73928e692984ce888fdbb3a5f0bbc29944e2fe3b50ec81fbb441f7f5b515978330d13e601b8f202d219e0f6bb86398003b8374160da8ce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "occt-devel-doc"

@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.0-only | LGPL-3.0-only"
 
 PV = "4.11.1"
 
-RPM_NAME = "phononsettings-4.11.1-3.9.aarch64.rpm"
-RPM_HASH = "5650b2c6b1c8ba3d62999777e95e67bc7c3d79103dc8ef4b8d766362590e782e8e092ad991ca634363ad4e7e3ff684696ea79ed748bf39bc072fd4bfcf7b2c70"
+RPM_NAME = "phononsettings-4.11.1-3.10.aarch64.rpm"
+RPM_HASH = "bde25ac24a9434fb37de028b7768130befb348948c6d3e689532b592d53c6f692178d986de5aef2bb820b37d992dae764074f9764b091e65bf6530e8bed2b124"
 
 RPROVIDES:${PN} += "phononsettings"
 

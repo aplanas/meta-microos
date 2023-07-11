@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "typelib-1_0-GnomeDesktop-4_0-44.0-1.1.aarch64.rpm"
-RPM_HASH = "70421f8bfa1fa9de2e282a914529a958a31b9224c8f3ec2cc3007af210f00bdc219e1058dd1c798bc764dc44384caddeb76f5e54fde6d3afd10df6b57a826afb"
+RPM_NAME = "typelib-1_0-GnomeDesktop-4_0-44.0-1.2.aarch64.rpm"
+RPM_HASH = "e28e979a3e6b5b785a891183795a21234fb2c03c710d036f5f60b765c1fcd14800d8c474fb4b8e11e6b4fbb23a241c82e2a2bfcad34007dcdb1f0c1fbf35e161"
 
 RPROVIDES:${PN} += "typelib-1-0-GnomeDesktop-4-0 \
 typelib-GnomeDesktop"

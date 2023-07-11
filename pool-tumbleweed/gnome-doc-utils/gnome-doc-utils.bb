@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.20.10"
 
-RPM_NAME = "gnome-doc-utils-0.20.10-21.5.noarch.rpm"
-RPM_HASH = "72dbd93b7ae7334dc0e2007b978b52c5177d1bf0fc1051d7adc1aa12771e016b5291162f6fae43ed2b8c150e386f5897a1baccafad5e5b084654a7a7b7e7149c"
+RPM_NAME = "gnome-doc-utils-0.20.10-21.6.noarch.rpm"
+RPM_HASH = "19302d2bbabde775b5b7397f1acec751c6552215821725b4d94f73065483b406ad6e99c50d4494897df591747fdd1b6fca8c68700a85853acda3814a83f7ee44"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-doc-utils"

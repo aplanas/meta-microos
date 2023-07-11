@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.99.git.1682279748.c294e5b"
 
-RPM_NAME = "crash-eppic-4.99.git.1682279748.c294e5b-1.1.aarch64.rpm"
-RPM_HASH = "0d99b7f0c19b752eb89da0c16cce81bd8477e57b998b7c7b4b4ac9d6ee93e0ec17847b0180a295b0acf6cf5b4d7ed157e1bfa14092adaa21d43d0a85cac01d75"
+RPM_NAME = "crash-eppic-4.99.git.1682279748.c294e5b-1.2.aarch64.rpm"
+RPM_HASH = "2f979587460b95986a9219dc5f211eb833d6d955c80ecad17df4340bde1de886e62c90b0a7f92b4531472548d14800ec013c9f9e6e56d5cd06777afc3cfc8364"
 
 RPROVIDES:${PN} += "crash-eppic"
 

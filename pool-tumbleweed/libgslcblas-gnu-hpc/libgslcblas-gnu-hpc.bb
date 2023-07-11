@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.7.1"
 
-RPM_NAME = "libgslcblas-gnu-hpc-2.7.1-1.3.aarch64.rpm"
-RPM_HASH = "a402d3b917a2d2a5e1e60252eeede8f14a629883f23ecf3bf502f97b58271b3d34be20b2070e04febf907ddd804e846a224b45e4d0da77029ded7150f02a70b6"
+RPM_NAME = "libgslcblas-gnu-hpc-2.7.1-1.4.aarch64.rpm"
+RPM_HASH = "bc0af875954633d5645a5429fa105826634acb0b050e3754010dbf52d96c59258a9886c17f88dfb480819ec7db30957f1df5a1c704ca7cf1284cb56d16ba8bbb"
 
 RPROVIDES:${PN} += "libgslcblas-gnu-hpc"
 

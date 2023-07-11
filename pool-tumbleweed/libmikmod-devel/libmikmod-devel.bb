@@ -11,8 +11,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.3.11.1"
 
-RPM_NAME = "libmikmod-devel-3.3.11.1-1.15.aarch64.rpm"
-RPM_HASH = "ab7848d20ae17ef634ed742a05af7cc0693c60f28971116d0c582ee131c8943525aa0e1ad7d6f39aa6ac4f0aeacd59c3d5bf141fc0aaa4bb538379011e6a49ba"
+RPM_NAME = "libmikmod-devel-3.3.11.1-1.16.aarch64.rpm"
+RPM_HASH = "b396fb60ccf368ece9136062ce1e1e73729abf35a582f24948ee80ae0471cd49dff0f4cfd17de013bc6bdf09fc9e4369c7158e0628ccce18274bcf0eb0198702"
 
 RPROVIDES:${PN} += "libmikmod-devel \
 pkgconfig-libmikmod"

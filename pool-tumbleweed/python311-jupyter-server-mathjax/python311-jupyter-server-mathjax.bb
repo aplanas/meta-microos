@@ -4,11 +4,12 @@ LICENSE = "Apache-2.0 & BSD-3-Clause"
 
 PV = "0.2.6"
 
-RPM_NAME = "python311-jupyter-server-mathjax-0.2.6-1.7.noarch.rpm"
-RPM_HASH = "d85ef6d8e9e8dc0c80f60134e4e422a7f6695e68e0b580a9a3a7019c64d6af50dc8002835c4a618ff2c9e41eada82dd4b0c55db342bde6eb50350d0cfdcae648"
+RPM_NAME = "python311-jupyter-server-mathjax-0.2.6-1.8.noarch.rpm"
+RPM_HASH = "71c73b0988e742985f0074ecd5931c058fd7e65f059920d8c61de60518d6cb87e5fdc796ce83bb0d4fcee4679f318d1d4e7846b24eee61bf25337641249dcdb1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-jupyter-server-mathjax \
+RPROVIDES:${PN} += "python3-jupyter-server-mathjax \
+python3.11dist-jupyter-server-mathjax \
 python311-jupyter-server-mathjax \
 python3dist-jupyter-server-mathjax"
 

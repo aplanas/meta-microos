@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.9.4"
 
-RPM_NAME = "libquvi-devel-0.9.4-7.6.aarch64.rpm"
-RPM_HASH = "0b6489584f8f7ef829a90a91a4139ab775d06b9706ab218173f5dd568c733c9c1cc32f1dee692ab30688dfdafb90e8b7a0716bfa847427cc5b7fe04797b45ca2"
+RPM_NAME = "libquvi-devel-0.9.4-7.7.aarch64.rpm"
+RPM_HASH = "2e687d532abc8fd2d74a170abd4268344b48e9169eb06d8ae6f85544e55596b56b712ba38999828522fc25b8f1703f25a5a4e46a23ee6e2303ecd87b7921ee67"
 
 RPROVIDES:${PN} += "libquvi-devel \
 pkgconfig-libquvi-0.9"

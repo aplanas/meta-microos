@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.1"
 
-RPM_NAME = "libmysofa-devel-1.3.1-1.4.aarch64.rpm"
-RPM_HASH = "1916c71906e43f1f2bb02414819bb5a89b4969df4a50c3eb18634304e6da22ae1d85c31299397ab9df1e481423f8566a40dce521d13f3255fea4299ae5e0510c"
+RPM_NAME = "libmysofa-devel-1.3.1-2.1.aarch64.rpm"
+RPM_HASH = "79141ffb4d749a11c6a75c09dd0aad010822f2b7c1180959cd6c77fc0d02943ee1143b7414b1cadd7b9e20e22f8dd8bd989e6ade43e1a5b860771c4b662950c4"
 
 RPROVIDES:${PN} += "libmysofa-devel \
 pkgconfig-libmysofa"

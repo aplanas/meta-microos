@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.201.3.8.9svn61719"
 
-RPM_NAME = "texlive-xypic-doc-2023.201.3.8.9svn61719-52.1.noarch.rpm"
-RPM_HASH = "9f14c2c35dfe743fe2ee543aa27985b5d494988952f404c170350b5d123153e34e296ae80b9dc65570b7257bdb78fb63254f083cf10a956b27ff946ae2cf6bb0"
+RPM_NAME = "texlive-xypic-doc-2023.201.3.8.9svn61719-52.2.noarch.rpm"
+RPM_HASH = "0bd6a51829efef170b0eaeeae32432fe9bf2c11eaa868dcd5e35ab20cd7f7749938ddf58ece6b59aa253827d4c01c386e84c0f2b71a2a714d914825b151138ae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-xypic-doc-en \

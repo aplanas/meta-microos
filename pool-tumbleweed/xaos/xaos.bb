@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.2.1"
 
-RPM_NAME = "xaos-4.2.1-1.11.aarch64.rpm"
-RPM_HASH = "6a68fde21f86a4564d8ff3f3ba5c2dc7b6bbbdcb3bddbb2efde1a2a5d0dde05045ef3df6ab5b84ac54da173bbd33fa4e64fa6d0babe507de9b39577eaf37b180"
+RPM_NAME = "xaos-4.2.1-1.12.aarch64.rpm"
+RPM_HASH = "065e1c4c850f7d4bb8d100d0bf76b835fcb23e40d5dec35e714cc4f5301a0bc3b5d776bee0aa2e5d2f25cd41f6c1d6d4125e7f6129da21541d50c9f6147de81d"
 
 RPROVIDES:${PN} += "XaoS \
 xaos"

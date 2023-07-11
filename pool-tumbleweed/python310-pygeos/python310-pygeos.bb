@@ -7,11 +7,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.13"
 
-RPM_NAME = "python310-pygeos-0.13-1.5.aarch64.rpm"
-RPM_HASH = "ee390bb75259a07e8113b6386705aafb85d6f5c9ac42d2108661a816a824dce90aea511e3bf862c516661bd8d1ab6ad5622d8e3b6e10c04663148db7da4e022e"
+RPM_NAME = "python310-pygeos-0.13-1.7.aarch64.rpm"
+RPM_HASH = "a73c378c884a4c6c16a3c3fc7036b9514d5b9e36af42370c9c0671f1b64cf03fa8ed36085b241dfef33b803e778c5166df28cd937a0a9af4416e9da08514c7e9"
 
 RPROVIDES:${PN} += "lib.cpython-310-aarch64-linux-gnu.so \
-python3-pygeos \
 python3.10dist-pygeos \
 python310-pygeos \
 python3dist-pygeos"

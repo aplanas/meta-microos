@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "1.7.1"
 
-RPM_NAME = "python39-agate-1.7.1-2.2.noarch.rpm"
-RPM_HASH = "7cefb17bbcc08c9fbcc017b8d0d344d715a8b9c21bf5523e8890ed9fd6f4a3afe8966b458c871e5255de9560e8634b18d9280e80c26d45e0929dd093a0f74377"
+RPM_NAME = "python39-agate-1.7.1-2.4.noarch.rpm"
+RPM_HASH = "d00fb3fe361418ec79995c96917ed790f8b9578aa395624b4a7c6ae9414f12c3e27f9ab615e9166e7aeb74042f91ee3126b71c0e7b60d1971a4671cdd77bc28a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-agate \

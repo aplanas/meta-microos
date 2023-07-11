@@ -9,8 +9,8 @@ LICENSE = "EPL-1.0"
 
 PV = "2.2.5"
 
-RPM_NAME = "sblim-cim-client2-2.2.5-7.3.noarch.rpm"
-RPM_HASH = "1613e7abe0df7dcde42229c29752a31b66864566ac0412389eabf034c0be2a5fc86ef006461a3eae6c4780b46ed76b1df7c6e96c6f6c37922d90e62b4afe6fa3"
+RPM_NAME = "sblim-cim-client2-2.2.5-7.4.noarch.rpm"
+RPM_HASH = "c81e7daa0917d2e2a62dbcacd856190e31b39960f986f6836695dc181349738b092611de1496667d9ea7a1c201e6ed37bd3aba87084c7eb881acabe6b9a79d58"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-sblim-cim-client2 \

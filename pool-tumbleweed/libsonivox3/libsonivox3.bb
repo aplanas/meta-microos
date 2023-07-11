@@ -12,8 +12,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.6.11"
 
-RPM_NAME = "libsonivox3-3.6.11-1.3.aarch64.rpm"
-RPM_HASH = "5732cf1e92d416c494909b56fc4ecc23835309beb2ab5a79265db063642445964af26d17000779b70da96ae28bfe407cf1c9c400b36e5445f98ee9024c95b373"
+RPM_NAME = "libsonivox3-3.6.11-1.4.aarch64.rpm"
+RPM_HASH = "1a39c433fa3e3525bf4d2a41c7e8e358ae975ed3097142e1fe423169842f0a30cabb3df0e8d37ba87279305b9f9ccbfba67f94c8191c3c8d4ff29e5fe90c70c0"
 
 RPROVIDES:${PN} += "libsonivox.so.3 \
 libsonivox3"

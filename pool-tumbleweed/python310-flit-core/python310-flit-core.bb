@@ -5,14 +5,12 @@ LICENSE = "BSD-3-Clause & MIT"
 
 PV = "3.8.0"
 
-RPM_NAME = "python310-flit-core-3.8.0-4.1.noarch.rpm"
-RPM_HASH = "b6e24b18e10934459d87e910b44b8085c6fd0f872d2fc367af877cbb25888407bf3b779e70731edd408f2742817e9109867dfdc524525432ac2c3b65c4699e79"
+RPM_NAME = "python310-flit-core-3.8.0-4.2.noarch.rpm"
+RPM_HASH = "32d54dc8a4fc2d41740d5d7c77a7d63ca0a38fbd10d655028b772823b76067e9333d82ff965f63ae053eba3bbc06a03d9357a80ac30875439e3c420f4e457733"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-flit-core \
-python3.10dist-flit-core \
-python310-flit-core \
-python3dist-flit-core"
+RPROVIDES:${PN} += "python3.10dist-flit-core \
+python310-flit-core"
 
 RDEPENDS:${PN} += "python-abi"
 

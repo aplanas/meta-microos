@@ -6,11 +6,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.5.0"
 
-RPM_NAME = "python311-pytest-instafail-0.5.0-1.1.noarch.rpm"
-RPM_HASH = "47681867487a28acafa09473a0a40bc01d945e513cfe941e417dbb4edf980502f9bfc0908a79eded698b2a78f0a81d74e76ef1745035f215859e23985db8407d"
+RPM_NAME = "python311-pytest-instafail-0.5.0-1.3.noarch.rpm"
+RPM_HASH = "244be1aae2d199d25bf8acbae8c44f2752d8cd5fae2fc8c6b6715544800a59bfcd49d641ff3ac65f00d4eb300429d825e337c60296b4a171ee6e92f351c73622"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pytest-instafail \
+RPROVIDES:${PN} += "python3-pytest-instafail \
+python3.11dist-pytest-instafail \
 python311-pytest-instafail \
 python3dist-pytest-instafail"
 

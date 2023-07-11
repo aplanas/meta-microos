@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.7.4"
 
-RPM_NAME = "libclaw-devel-1.7.4-4.10.aarch64.rpm"
-RPM_HASH = "ae21adb33b254cfa72f9e7ff3d6b86a827c8763ddebd1a11142fbcf6c9351992502eefc144ab50e2403e02af44944abba5f169197eae2520b13aafbef5009c17"
+RPM_NAME = "libclaw-devel-1.7.4-4.11.aarch64.rpm"
+RPM_HASH = "ed606dfb6279483a6801d4db18c9c34b2ee2100b7e9720b87c01482476ad3b1fb0a3280e2171441bdc81b2babce326d8ecdfdd434840dd31f8ebe5931c618b3c"
 
 RPROVIDES:${PN} += "cmake-libclaw \
 libclaw-devel"

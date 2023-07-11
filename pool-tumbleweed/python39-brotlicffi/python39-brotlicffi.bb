@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.0.9.2"
 
-RPM_NAME = "python39-brotlicffi-1.0.9.2-1.11.aarch64.rpm"
-RPM_HASH = "726f7e8af02727cd5daea1c3cda3e047c395f9cd9c815efa1d22bbff5412f7e394860db2915d6aa358e14741bd3d16e300f89889dcd043408cacf1a939ffbc39"
+RPM_NAME = "python39-brotlicffi-1.0.9.2-2.1.aarch64.rpm"
+RPM_HASH = "b9c57025243c74a4cf53f6dcf1e0fb64511003e241661f1872ef3276dfdcc73d640f7ce27fb42804f9a0ec521fb703a0f5aecbb7c56fd6972f6bd7f7276bc7c3"
 
 RPROVIDES:${PN} += "python3.9dist-brotlicffi \
 python39-brotlicffi \

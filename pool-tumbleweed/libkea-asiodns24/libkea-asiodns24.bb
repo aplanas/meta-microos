@@ -5,8 +5,8 @@ LICENSE = "MPL-2.0"
 
 PV = "2.2.0"
 
-RPM_NAME = "libkea-asiodns24-2.2.0-2.4.aarch64.rpm"
-RPM_HASH = "a4369587622c88a9267698ad50d738c29a850ac7193eacd54f3939d1fc7e2156591d5ec94259f77f20b4fe4c429ecdd7bcb6782c447e3e4ab52b2079fee42e74"
+RPM_NAME = "libkea-asiodns24-2.2.0-2.6.aarch64.rpm"
+RPM_HASH = "2d4a905bfcd72c941de3e577f761fac9a4d083211a15f9d8922939424528a9f443c1c06229c018be84e450c0f2c0864b555e54b98addf1b5760998bf0cd324ff"
 
 RPROVIDES:${PN} += "libkea-asiodns.so.24 \
 libkea-asiodns24"

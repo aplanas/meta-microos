@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "4.0.2"
 
-RPM_NAME = "mpich_4_0_2-gnu-hpc-macros-devel-4.0.2-3.3.aarch64.rpm"
-RPM_HASH = "787ab39d5c73de4fc15c704f0693caf84b3afe5a76852df62da777f40705af6c7173875240600ee7464a9281840c03bedd8f7b098f38e91a6b6743f79a95b4f0"
+RPM_NAME = "mpich_4_0_2-gnu-hpc-macros-devel-4.0.2-3.4.aarch64.rpm"
+RPM_HASH = "9e33a0495666092891d92e1fd98a5480638508acabc7efe0aa25ec517ef95effb1232a6eebb99bc865b7a81d4066a253b33bc6ccef3fb5105a977134ba5c2156"
 
 RPROVIDES:${PN} += "config-mpich-4-0-2-gnu-hpc-macros-devel \
 mpich-4-0-2-gnu-hpc-macros-devel \

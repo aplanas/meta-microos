@@ -39,11 +39,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4000.4.1"
 
-RPM_NAME = "ghc-HTTP-4000.4.1-1.3.aarch64.rpm"
-RPM_HASH = "172e7a75a62e06a7e4faea67eb7d8e2d005bfa47d83d7a6aa5001999dadbd37fad872ff298d589ef5d501e090968389df6aa582f8bb55167e764f542ef573781"
+RPM_NAME = "ghc-HTTP-4000.4.1-1.7.aarch64.rpm"
+RPM_HASH = "0922154a186c53a05913ab4b64d2f2695e13320d44b0548f127bddb07cd79d202fc6d9e8710a51121fb24cdce5de78da3691b123e12415936bf208971280687c"
 
 RPROVIDES:${PN} += "ghc-HTTP \
-libHSHTTP-4000.4.1-BsHtin5O4EoLpElKRODQk3-ghc9.4.5.so"
+libHSHTTP-4000.4.1-7No2v5wGQP7LivFOppGzbz-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
 libHSbase-4.17.1.0-ghc9.4.5.so \
@@ -57,7 +57,7 @@ libHSghc-bignum-1.3-ghc9.4.5.so \
 libHSghc-boot-th-9.4.5-ghc9.4.5.so \
 libHSghc-prim-0.9.0-ghc9.4.5.so \
 libHSmtl-2.2.2-ghc9.4.5.so \
-libHSnetwork-3.1.2.8-HNDBp0HF6t0D1fzE2MDtPd-ghc9.4.5.so \
+libHSnetwork-3.1.4.0-FvtFepOtuCUH79FCWyNxIc-ghc9.4.5.so \
 libHSnetwork-uri-2.6.4.2-4kNQnaE9heqEL1mH8FE5xH-ghc9.4.5.so \
 libHSparsec-3.1.16.1-ghc9.4.5.so \
 libHSpretty-1.1.3.6-ghc9.4.5.so \

@@ -7,12 +7,11 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.0.1"
 
-RPM_NAME = "python310-GridDataFormats-1.0.1-1.1.noarch.rpm"
-RPM_HASH = "91a8a59c57cbaa78e27aee03902c1b1a1b78dc82455f5767092bd15f712572ec0a9cebaa79cc154e0a6fbd122ed24adbe3890e1433ab76dbdca570445e38e714"
+RPM_NAME = "python310-GridDataFormats-1.0.1-1.3.noarch.rpm"
+RPM_HASH = "94dab24f4f127eb67af464597b71f3826a89ce3fcafd0fe1a59bf9a5e6da69c4cf4fcffd99217c929f0b610dd186dc4e28c90ad363e4b4f2ad53759dcd478107"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-GridDataFormats \
-python3.10dist-griddataformats \
+RPROVIDES:${PN} += "python3.10dist-griddataformats \
 python310-GridDataFormats \
 python3dist-griddataformats"
 

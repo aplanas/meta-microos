@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "5.10.1"
 
-RPM_NAME = "libgwenhywfar79-5.10.1-1.4.aarch64.rpm"
-RPM_HASH = "810aca7e56dedcf497208ef96c72ca4fb76de44e2a6cf7a13adbe377994fa9cccdea30e02ef20f89bcb170e1b1fc1b944d28fb2e0b4d4d23f02d2ea97510b50d"
+RPM_NAME = "libgwenhywfar79-5.10.1-1.5.aarch64.rpm"
+RPM_HASH = "794e49458631b6f63231d29473243f6a353869c5c7db706a4caf0d5d6580d2dc523209f26478e67e931ab741e7b60aa46de43ffa992d3408aa20590b6ee57a2b"
 
 RPROVIDES:${PN} += "libgwenhywfar.so.79 \
 libgwenhywfar79"

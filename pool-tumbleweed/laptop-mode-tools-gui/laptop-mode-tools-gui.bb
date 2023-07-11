@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.74"
 
-RPM_NAME = "laptop-mode-tools-gui-1.74-3.6.noarch.rpm"
-RPM_HASH = "9ddcb7ecec3e37f189f886790a78655524972e80c765140a7e08dde7910c968966eee909189d7f4f660912165f2ee525dc4d197a444740f37fda31d3726c13ef"
+RPM_NAME = "laptop-mode-tools-gui-1.74-3.7.noarch.rpm"
+RPM_HASH = "e8617abeb53c544411ff6e48d30b1608b64f1d93510fbed08faa980498eefbf1b299b09aa4999e43a3f129a4d0276beef561822dffd06ac266aa0f4d8b67f155"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "laptop-mode-tools-gui"

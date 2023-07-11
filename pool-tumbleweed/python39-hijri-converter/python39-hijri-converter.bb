@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.2.4"
 
-RPM_NAME = "python39-hijri-converter-2.2.4-1.2.noarch.rpm"
-RPM_HASH = "55bbaad447b973022f5eaa613a2ef2097effcbd65a3fb2aa3012af7ec93c7c53e4a1c7791baa2d4aeed3222cb8797df5502e0fb4331f8f32cbeaa8e7231ba441"
+RPM_NAME = "python39-hijri-converter-2.2.4-1.4.noarch.rpm"
+RPM_HASH = "c5e1106181c0822e39d341efb5468047943c3ca9f6f98ed491b40d878326ae8b842adb1da3f4adb84dc90f48fef3e2aeea11e757f9d5c12bb9bfa0aefa8f1ec6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-hijri-converter \

@@ -5,12 +5,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0.1"
 
-RPM_NAME = "python310-xlrd-2.0.1-1.9.noarch.rpm"
-RPM_HASH = "a83dfc300a144a07389d98c21a6fec821dcd50b212be2d6ea2c49727ce7852d9383aabc69d2836504e17bdf7bf2d89647ed197f4494cc1403a2471ac76eae69e"
+RPM_NAME = "python310-xlrd-2.0.1-1.11.noarch.rpm"
+RPM_HASH = "52051874ca0c5dd3dfcbd827c086904b8d0012d07a9906227bf93c86a2da745fccb1b10cdedd3a8cddfe38dd47c3347a606f6f5d0300658180fab1339fb6418a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-xlrd \
-python3.10dist-xlrd \
+RPROVIDES:${PN} += "python3.10dist-xlrd \
 python310-xlrd \
 python3dist-xlrd"
 

@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.2.4"
 
-RPM_NAME = "libgnuradio-osmosdr0_2_0-0.2.4-1.1.aarch64.rpm"
-RPM_HASH = "8c420b9c6c7d4c9d9383387547a6c569b62077b9aa5645a9681649e3eb0882f7f9f0baae13b862135c8504ce576ca841e1b522b72ce5f4b63984cf8f0eccd2a7"
+RPM_NAME = "libgnuradio-osmosdr0_2_0-0.2.4-1.2.aarch64.rpm"
+RPM_HASH = "7818ccaeec2f653a0438f94da4d1ea9dc5d4b6d01547c4609d68cb4d7bb3e718935869b605e164e2457b211ab057737d3906f06524f4b3aa736db36fb8ef61db"
 
 RPROVIDES:${PN} += "libgnuradio-osmosdr.so.0.2.0 \
 libgnuradio-osmosdr0-2-0"

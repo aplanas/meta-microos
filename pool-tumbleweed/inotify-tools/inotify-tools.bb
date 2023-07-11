@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only-with-Linux-syscall-note & GPL-2.0-or-later"
 
 PV = "3.22.6.0"
 
-RPM_NAME = "inotify-tools-3.22.6.0-1.4.aarch64.rpm"
-RPM_HASH = "0658ec9f29490c92df925d8578c111543f3ebd53971d7c091636d447bcfcd63f0dd2f8545d8e9871976e01cf56f6319c5797ecd1a9a086150b1e4aaeea991229"
+RPM_NAME = "inotify-tools-3.22.6.0-1.5.aarch64.rpm"
+RPM_HASH = "feefec4094f8782aac7f91dc8ff575d9ee28cf7abf0acd2ceaeb83b9601adc4af47e0dfededf45198c40c0fd50d3e84896fe21818cac7573939f2d95481ddaed"
 
 RPROVIDES:${PN} += "inotify-tools"
 

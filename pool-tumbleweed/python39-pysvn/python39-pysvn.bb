@@ -13,8 +13,8 @@ LICENSE = "Apache-1.1"
 
 PV = "1.9.20"
 
-RPM_NAME = "python39-pysvn-1.9.20-1.6.aarch64.rpm"
-RPM_HASH = "d67ea49fff3d2be9cecd0a1fb741cec40facfd1576ae574dc264cf838bc22ea8214dc0ff07a73fefa53bd6a2737d845e9a1cdb2309ddc00b3ea71603b2611af4"
+RPM_NAME = "python39-pysvn-1.9.20-1.8.aarch64.rpm"
+RPM_HASH = "46f3e4f758b8c6922b0ea7bd4ed319f81fb00c0fb2ad469ec76e3ccb184ef3f1b30d3892f193ea34e11fbc2cde6ff33456530b4121004ee7b59c788c98af9dde"
 
 RPROVIDES:${PN} += "python39-pysvn"
 

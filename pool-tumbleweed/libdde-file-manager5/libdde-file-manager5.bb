@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later & MIT"
 
 PV = "5.6.4"
 
-RPM_NAME = "libdde-file-manager5-5.6.4-3.7.aarch64.rpm"
-RPM_HASH = "03f861abb08e4cda9eeb16545f6122652a6876db89245307faed5dd0e4a093b2ff77a0d10d664c62b67e94f56dff5ce89406d9edcb5539883a90909252ba8cea"
+RPM_NAME = "libdde-file-manager5-5.6.4-3.9.aarch64.rpm"
+RPM_HASH = "f9996eab482de30be36b42bf93c6caf973b329d7c2262c77bea66a332ee947c1c120ad104d60a56dbe2c268474cba70ebd0bce4b81f908d8d749927c29dbc47e"
 
 RPROVIDES:${PN} += "libdde-file-manager.so.5 \
 libdde-file-manager5"

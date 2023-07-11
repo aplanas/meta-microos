@@ -2,10 +2,10 @@ SUMMARY = "Zsh completion for ansifilter"
 DESCRIPTION = "This package provides Zsh command-line completion support for ansifilter."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.19"
+PV = "2.20"
 
-RPM_NAME = "ansifilter-zsh-completion-2.19-1.3.noarch.rpm"
-RPM_HASH = "468f6e68c96cfb2df1674525f1d3646b8ee1590f71383ce01b3569e42192c0519b1d50803b3c9233293bcde3ec16218559614e8d68fad4213d5b70676b4faa24"
+RPM_NAME = "ansifilter-zsh-completion-2.20-1.1.noarch.rpm"
+RPM_HASH = "ac5501ef2454b53dd384f03db04974cf88b4a9cfff6b29ed2d39ca460dbe57481abcc2ebc0d18b91ca014ca5a172b2be0693711e07fd8c4663f2bcee2699d6c1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ansifilter-zsh-completion"

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.7.2"
 
-RPM_NAME = "gimp-plugin-lqr-lang-0.7.2-6.13.noarch.rpm"
-RPM_HASH = "f8d1eb59f6831e2fd1801a491b342737a02054342b928cf5882ed2d194c704b3ee383fab21797a3e2f9f2b69724a40fde2aad0f53d7782e8ec68436e6c6f1c0c"
+RPM_NAME = "gimp-plugin-lqr-lang-0.7.2-6.14.noarch.rpm"
+RPM_HASH = "cf926b80ed7b4758c16735756b3ccc02c957ffe3cb5bfcb6c0065c33e178c755c0c93500007e191d550d86c02f693ffcd2b0369b62d614cd050e9066fb27c999"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gimp-plugin-lqr-lang \

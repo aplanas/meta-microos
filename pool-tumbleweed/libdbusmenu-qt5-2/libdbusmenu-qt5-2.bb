@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "0.9.3+16.04.20160218"
 
-RPM_NAME = "libdbusmenu-qt5-2-0.9.3+16.04.20160218-1.13.aarch64.rpm"
-RPM_HASH = "949def40d5c8e9602913089047d8e65333d8089a88bc91f12cf0ddf5c1cc5f83f905a2c2038cee9b6c45c7dd571affca0338f601cc1b3d19048ba7e027e73caa"
+RPM_NAME = "libdbusmenu-qt5-2-0.9.3+16.04.20160218-1.14.aarch64.rpm"
+RPM_HASH = "0689a1ccd5cc9f5166c5dbce0db075026555bf90a6bb269e22c7efd4cb9d9c06a345440b0f7867d8f5b3b601eba7ec04b876a60cb18443cbc39e1075e38cb247"
 
 RPROVIDES:${PN} += "libdbusmenu-qt5-2 \
 libdbusmenu-qt5.so.2"

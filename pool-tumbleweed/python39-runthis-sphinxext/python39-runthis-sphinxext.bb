@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.0.3"
 
-RPM_NAME = "python39-runthis-sphinxext-0.0.3-1.12.noarch.rpm"
-RPM_HASH = "6e3dc5fbc016bf3898f69740377332c71c9a6a089c0968ff18cd2bdb532eef6c5561996ba65f0e8120a6923fd5a95380ad1d7da7e64d2eed81b60896f34aaa3d"
+RPM_NAME = "python39-runthis-sphinxext-0.0.3-1.13.noarch.rpm"
+RPM_HASH = "93abd2ce9021850e8647216536674ec560c52d63ab7223e4c26acd28ac01b9240100d8aabf6d5729af5a886383ad4ee93c28d76dd5893a5b73659ab4a34656a8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-runthis-sphinxext \

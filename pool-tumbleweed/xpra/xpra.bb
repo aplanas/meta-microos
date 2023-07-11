@@ -11,13 +11,13 @@ Xpra is usable over reasonably slow links and does its best to adapt to changing
 network bandwidth constraints."
 LICENSE = "BSD-3-Clause & GPL-2.0-or-later & LGPL-3.0-or-later & MIT"
 
-PV = "5.0+git20221127.3e61ef1c"
+PV = "5.0+git20230617.2a908f54"
 
-RPM_NAME = "xpra-5.0+git20221127.3e61ef1c-2.5.aarch64.rpm"
-RPM_HASH = "8cd529d1646f1460ef80123c141339475174f90061dbe3ab0de204e85fbd62ffccf65f3f05562fbd0890798989d765a388c6e37859cc65f34b672037a00efe05"
+RPM_NAME = "xpra-5.0+git20230617.2a908f54-1.1.aarch64.rpm"
+RPM_HASH = "f38c7468b72a3c558a09c0df033e0b25cb218f987cf72055ee0f19577b13aad3a8833b7352935f761efd53b42e94c2afdf268cde4dbc726382848bdfbb199d53"
 
 RPROVIDES:${PN} += "config-xpra \
-python3.10dist-xpra \
+python3.11dist-xpra \
 python3dist-xpra \
 xpra"
 
@@ -75,6 +75,7 @@ python3-pycups \
 python3-rencode \
 shared-mime-info \
 typelib-AppIndicator3 \
+typelib-AyatanaAppIndicator3 \
 typelib-GLib \
 typelib-GObject \
 typelib-Gdk \

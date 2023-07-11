@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.34.7"
 
-RPM_NAME = "oddjob-mkhomedir-0.34.7-1.5.aarch64.rpm"
-RPM_HASH = "a23e1449ef20ba6555ebf17aacb5f501318a58aa369e39addb7a6b2236df7a9112d9e0b0265f5d3fd7ef0f9c3469d310dcf90724e5eb51a2fd2a1dbe2669b4ab"
+RPM_NAME = "oddjob-mkhomedir-0.34.7-1.6.aarch64.rpm"
+RPM_HASH = "94e46f4be0a2498507a049f8e5c9fe577c499fd94b66a73207b4c1b06d1c25af52825ae6ba53d158225cf8bda622a6b711b52516490c22c5b765376f90e88410"
 
 RPROVIDES:${PN} += "config-oddjob-mkhomedir \
 oddjob-mkhomedir"

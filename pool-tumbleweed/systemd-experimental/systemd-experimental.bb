@@ -33,10 +33,10 @@ you can follow: \
 Have fun (at your own risk)."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "253.4"
+PV = "253.5"
 
-RPM_NAME = "systemd-experimental-253.4-2.1.aarch64.rpm"
-RPM_HASH = "4491bfb67515268c5873891100b6e2c2c32015a3860baa96bf9166d7e8be4d006d16f2a7471abfe94c61d045194bd6a00d0b91a4184c2a2f584986add09b032f"
+RPM_NAME = "systemd-experimental-253.5-5.1.aarch64.rpm"
+RPM_HASH = "827855be71423c9fe395b0d0e2297e7e8c87ad051e9c481e7f867b19ce927f65b9a624399dfa50b78799fad0ebd8c357e8895a4052b20fbdf5564e8c2a14eadc"
 
 RPROVIDES:${PN} += "config-systemd-experimental \
 systemd-experimental"

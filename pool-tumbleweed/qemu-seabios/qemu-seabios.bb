@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-
 
 PV = "1.16.2_3_gd478f380"
 
-RPM_NAME = "qemu-seabios-1.16.2_3_gd478f380-1.1.noarch.rpm"
-RPM_HASH = "b59c46a0acd95f317f25e8aaf6feb01e9c8b4c7e9d300c4d6466ee3c63546c55f7290fadfa473b106b2a88c89de193d8caf6afe0f95b3d9c84cf448c5a6a3c73"
+RPM_NAME = "qemu-seabios-1.16.2_3_gd478f380-2.1.noarch.rpm"
+RPM_HASH = "aa38e18586165cb087adc7ffeba15b6a7fa6625d23aa29525531f17c4c3766ba4e80eb2757926baca50ac31e90d51824ccbaf18475235ecd4a7e23aced8a657a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qemu-seabios"

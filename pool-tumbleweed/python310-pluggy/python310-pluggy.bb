@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python310-pluggy-1.0.0-2.1.noarch.rpm"
-RPM_HASH = "64b25984c7ecb9d7c9ec2e1f293e7e3b36fc19e6f8bed9a969d527c23e5c6b5fa88824689e271472a32d45b3fb9a995f7ac7362e645c8635cd8abcea52010dc5"
+RPM_NAME = "python310-pluggy-1.0.0-2.3.noarch.rpm"
+RPM_HASH = "e3d2dcac60dda82a5e91d27f76981d6a735fc8cb86cf450c958ba64781562db986617d9faa3a95a620edcd3a4ea7ab2d5d41922d7096031dce39b086e51cbcd3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pluggy \
-python3.10dist-pluggy \
+RPROVIDES:${PN} += "python3.10dist-pluggy \
 python310-pluggy \
 python3dist-pluggy"
 

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.5.24"
 
-RPM_NAME = "qt5integration-5.5.24-1.7.aarch64.rpm"
-RPM_HASH = "7c919e49314b6c443233558396c9787695c926b8e593ac916e479ef9411651b87d8ce43110827489f9f62e1aec81629303a52415960d891e9e97f18da92692c3"
+RPM_NAME = "qt5integration-5.5.24-1.8.aarch64.rpm"
+RPM_HASH = "3431333b1574d30e1b4c84b95d684a527af21a9bf8be805edb79ad1462027bf93dad036ff1faa13d7d5b7fb2da498a2b40e1f37edbfc6aa1e7ecfd39f20f74ee"
 
 RPROVIDES:${PN} += "libchameleon.so \
 libdsvg.so \

@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-bamum-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "035c40d2f169657de93f5d5d3f32ae6bddcd79e126ed8079073e2d32a0c68893b3ee3ae0feec3fbcd088ec600f8ab30db02797149e4396066c015fa223a0b0c1"
+RPM_NAME = "noto-sans-bamum-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "567949bae3df00f478f003ec59f25d95d8c948c73876fbb571d9069438108e30c291f5a64332ca94a1274e0c84bb26d53128fc3ef577a66163427bd60c14f541"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-bamum \

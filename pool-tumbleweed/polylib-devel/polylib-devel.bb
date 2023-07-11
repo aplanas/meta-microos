@@ -13,13 +13,14 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.22.5"
 
-RPM_NAME = "polylib-devel-5.22.5-1.11.aarch64.rpm"
-RPM_HASH = "26a7138c2ad51fd50c04b676aefc13667373e651c9bc9455956718d0300cf470e02f730b8333a5859020109157d3337bbe18eb81a4942780994d4f3a1b99067c"
+RPM_NAME = "polylib-devel-5.22.5-2.1.aarch64.rpm"
+RPM_HASH = "bf6811a1295b690167500c4f9bf9fcf97fc6a8260823d9700c99bb0f89409117bb113eabe6424a151b9f76715df3b3f41cff7144b5ccb59301f9f7844b3ab6c6"
 
 RPROVIDES:${PN} += "pkgconfig-polylibgmp \
 polylib-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libpolylibgmp8"
+libpolylibgmp8 \
+pkgconfig-gmp"
 
 inherit rpm

@@ -8,8 +8,8 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "1.15"
 
-RPM_NAME = "perl-GD-Barcode-1.15-25.26.noarch.rpm"
-RPM_HASH = "5f15f69119c37cc0698795c310eaa60c76f3e1d881cda66d927f2ef4f4eefadcdd1470e0fa1aecd08496a2590fa1a64a638b100c65ad93473b314b9d7c4c352b"
+RPM_NAME = "perl-GD-Barcode-1.15-25.27.noarch.rpm"
+RPM_HASH = "34510ec3dc005c9ba51e3437ec874c64d31b524cb27227899e49f15fa668e0fb004913a4d6aa332a0aa53f38991857b59c7723fd7b4f5b901343fead3190b121"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-GD--Barcode \
@@ -27,6 +27,6 @@ perl-GD--Barcode--UPCA \
 perl-GD--Barcode--UPCE \
 perl-GD-Barcode"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

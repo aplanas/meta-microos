@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.6"
 
-RPM_NAME = "easymock-3.6-2.24.noarch.rpm"
-RPM_HASH = "aee3ba4955bc026494a27e2f68919579ebe46d09ac9cdf088b69aa2c4e7b253bd6d99764151f5c2c31ae4f85a6c56fc7dfd712a1d9d601b614300775b94b47d2"
+RPM_NAME = "easymock-3.6-2.25.noarch.rpm"
+RPM_HASH = "5991c59c9099a6f444e29add6c80be3109e659188763ac40a2c4f72489acfb6763bbe40353bfb9a0935b1b24798506f2a0ab2d644e8f7ef2748573ada3380537"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "easymock \

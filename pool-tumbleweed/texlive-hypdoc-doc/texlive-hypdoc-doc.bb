@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-hypdoc"
 DESCRIPTION = "This package includes the documentation for texlive-hypdoc"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.18svn65678"
+PV = "2023.208.1.18svn65678"
 
-RPM_NAME = "texlive-hypdoc-doc-2023.201.1.18svn65678-52.1.noarch.rpm"
-RPM_HASH = "ce34a04866e0673ae8f08ff131c737b436add0c83d045ae9ea8129b049aee6dce6422387dc443a3ed4c835b1f3c7296f2b2d78a3785742d69de30941cf342cff"
+RPM_NAME = "texlive-hypdoc-doc-2023.208.1.18svn65678-53.1.noarch.rpm"
+RPM_HASH = "df646eb779ed0e8f93d496ade0143227d23c99685e4b5a94aa41d12e935943349f12ac0b2ff7dec44f054398f283ac1633d8728c10cb54084857850e52848661"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hypdoc-doc"

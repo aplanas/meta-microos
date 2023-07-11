@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.20.8"
 
-RPM_NAME = "tree-sitter-devel-0.20.8-2.1.aarch64.rpm"
-RPM_HASH = "04ba3e10eabbc7afcc3ede96368e50bbc886e101405e19a774fba9af2910b7924eb60d7a43547e3f368f2a835127a64815c529f40d5181f27113644e5911606c"
+RPM_NAME = "tree-sitter-devel-0.20.8-2.2.aarch64.rpm"
+RPM_HASH = "b4f27268d7f962e7fb3ba69df6edb1acb668bc3b4b25c1604ff1110aba5d11bfe205a39894ca82f4743785dbd5bef0768c202c4f3b259eacf7ad9d062a504d23"
 
 RPROVIDES:${PN} += "pkgconfig-tree-sitter \
 tree-sitter-devel"

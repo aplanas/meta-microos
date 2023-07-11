@@ -11,14 +11,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.27"
 
-RPM_NAME = "perl-File-Share-0.27-1.2.noarch.rpm"
-RPM_HASH = "0f5a336ec7cba1910b4e8e615c2315075bf7bafe6a9b32afd06c2394404c40b28eb0978a47b6d51991f7bf44472c4f388601eef40ad73c52e2c16e90625b5b43"
+RPM_NAME = "perl-File-Share-0.27-1.3.noarch.rpm"
+RPM_HASH = "bbcc256c1d2e9f15e67071d322220a181cff96bc3bbc6ea3182f9a232640eaae4052ce598fb4e0d43e015720e330f312ef89a45e682d7792e310c23e2e4b30ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-File--Share \
 perl-File-Share"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-File--ShareDir \
 perl-Readonly"
 

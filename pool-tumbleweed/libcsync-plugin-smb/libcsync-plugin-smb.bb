@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.50.0"
 
-RPM_NAME = "libcsync-plugin-smb-0.50.0-11.9.aarch64.rpm"
-RPM_HASH = "c3392d40741a10bff82ddb47208549b51cd6c143c970f2c4f319adbdb4dfcd5a99b9b88e2a3f49e4639403a01a1dae7633850cfc7f94859ff610dad4adb9497a"
+RPM_NAME = "libcsync-plugin-smb-0.50.0-11.10.aarch64.rpm"
+RPM_HASH = "be54ba07ff7a8ed51a61c9115ad3601331daefca1cd3d9636755f252d93b8f50485c66765760ebfdbe9b60b0c38dc840dfdba31556bae0b0dd739ff8c6278c70"
 
 RPROVIDES:${PN} += "libcsync-plugin-smb"
 

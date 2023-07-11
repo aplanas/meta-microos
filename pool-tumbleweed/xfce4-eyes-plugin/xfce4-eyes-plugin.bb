@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.6.0"
 
-RPM_NAME = "xfce4-eyes-plugin-4.6.0-1.7.aarch64.rpm"
-RPM_HASH = "cd64de31805644604560ab6476d86320db7cbc2ae4f583a2326ed9fff6f21e3807af8dec340e90068bd2a0f9bd4cc09932f0af3a1bc83c65369d59d96a2a0a25"
+RPM_NAME = "xfce4-eyes-plugin-4.6.0-1.8.aarch64.rpm"
+RPM_HASH = "fdc26b025916a2d81b805847709b7987322c14fe839dcbde8cd5c28d7f6c6bdbd78044a49c8cd5d4240b5555a019fae7b29335638db60c62d1726a8930c8d1b8"
 
 RPROVIDES:${PN} += "libeyes.so \
 xfce4-eyes-plugin \

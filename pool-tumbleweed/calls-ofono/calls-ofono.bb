@@ -5,10 +5,10 @@ This package is not recommended, only install if you are sure you \
 want ofono support."
 LICENSE = "GPL-3.0-only & MIT"
 
-PV = "44.1"
+PV = "44.2"
 
-RPM_NAME = "calls-ofono-44.1-1.1.aarch64.rpm"
-RPM_HASH = "b53fbbddfdb142907c139cc1403fd1b862b18b1884dff278bf7b5f4fe1b5a2170a9c806c3b1f77ced4f9cac0edd54fb4262066616abd84728e35b602305e037a"
+RPM_NAME = "calls-ofono-44.2-1.1.aarch64.rpm"
+RPM_HASH = "bed578c06040805b0c3951b0e3c220a08050f66a02965db020b6e3257c813e5f8a8438bfa581aeff2684fe97ae1905520377e19c9a98497ff8a2c3e7cf5ea528"
 
 RPROVIDES:${PN} += "calls-ofono \
 libofono.so"

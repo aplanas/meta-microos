@@ -2,10 +2,10 @@ SUMMARY = "Zsh completion for rabbitmq-server"
 DESCRIPTION = "Optional dependency offering zsh completion for rabbitmq-server."
 LICENSE = "MPL-2.0"
 
-PV = "3.11.3"
+PV = "3.12.0"
 
-RPM_NAME = "rabbitmq-server-zsh-completion-3.11.3-1.3.noarch.rpm"
-RPM_HASH = "c18060944ea97b23cbdbd9ede65dd9ac47c7564adb00f60818154c3e84c93f49f6b7f97c83224e7f9c365fed9ea65e6dc9eb6fd7b2f056d5a799858b101644ed"
+RPM_NAME = "rabbitmq-server-zsh-completion-3.12.0-1.2.noarch.rpm"
+RPM_HASH = "10bc4864fe1b68fdcbefbf6fa821157fd3d4a4147890e1321980c5eae4486a70ab189fddb29e7a01d457ca19b0264e1a4716ca6078b24a1ff2cc4f6bcb8a4f88"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rabbitmq-server-zsh-completion"

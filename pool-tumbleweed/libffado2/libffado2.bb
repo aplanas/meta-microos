@@ -13,10 +13,10 @@ a GUI to control these parameters (only for officially \
 supported devices)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.4.3"
+PV = "2.4.7"
 
-RPM_NAME = "libffado2-2.4.3-3.1.aarch64.rpm"
-RPM_HASH = "5c27b48a7b35790c47be7d64c8193cac1314a1528a102f5ed7c3be7b3932c55e9b163fb57ef85bd53436b01774c9e3f3edbe699654dd7482c6aa239f0b7887ad"
+RPM_NAME = "libffado2-2.4.7-1.1.aarch64.rpm"
+RPM_HASH = "7581417c9f5e7025aa029356b09bdd1ca353d7fb3dbf87150df576357c2f0f6dffa78c08f0ac9543d40fa2454b1ce1f5430cc8b306caa4b13a5eda9e78afa2a2"
 
 RPROVIDES:${PN} += "libffado.so.2 \
 libffado2"

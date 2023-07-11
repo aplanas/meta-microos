@@ -11,11 +11,12 @@ LICENSE = "MIT"
 
 PV = "3.0.1"
 
-RPM_NAME = "python311-apipkg-3.0.1-3.1.noarch.rpm"
-RPM_HASH = "dd71bc05cfbe163157245ee94ef6254780440453064d79ec98b507d55090fd5ea00681b3ee816eb7f8527b873776e13bbf27dc3bff035d851e80f14c723b0bf1"
+RPM_NAME = "python311-apipkg-3.0.1-3.3.noarch.rpm"
+RPM_HASH = "9c7b2307af563039d63aac8187b007a2560cb0cfd48ef99d14743764a4986347a50c57404379c932bdc6e9729b0286eca37685c9fd24c99aed05b0bd43a2f010"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-apipkg \
+RPROVIDES:${PN} += "python3-apipkg \
+python3.11dist-apipkg \
 python311-apipkg \
 python3dist-apipkg"
 

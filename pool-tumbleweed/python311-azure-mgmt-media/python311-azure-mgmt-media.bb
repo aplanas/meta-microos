@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "10.2.0"
 
-RPM_NAME = "python311-azure-mgmt-media-10.2.0-1.3.noarch.rpm"
-RPM_HASH = "f6c4eec8b6db3199069884dedf97af7a61413e8ea52043dd41e96a514e273503b90385c32a7638afabb76abe0c5707da9721e031dafd3928a6fbe544d165c0b2"
+RPM_NAME = "python311-azure-mgmt-media-10.2.0-1.4.noarch.rpm"
+RPM_HASH = "dfdd905c91bd959ffa07d0ad71e6e4aa1f177cbc15683bc0815cb1644f40c94deb784b57cbf8e1315775586c10ea0f808cc7e889ab16484464edd1e7aaddc395"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-media \
+RPROVIDES:${PN} += "python3-azure-mgmt-media \
+python3.11dist-azure-mgmt-media \
 python311-azure-mgmt-media \
 python3dist-azure-mgmt-media"
 

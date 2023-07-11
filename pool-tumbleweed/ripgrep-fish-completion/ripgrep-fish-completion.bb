@@ -4,8 +4,8 @@ LICENSE = "MIT & Unlicense"
 
 PV = "13.0.0"
 
-RPM_NAME = "ripgrep-fish-completion-13.0.0-5.3.noarch.rpm"
-RPM_HASH = "60bc7c17bb9137c2324a62585c924483a46f5bd93c57aa4bb306d90dedf5a07865aaeca28859629c5c991f1014c3c07da09385e07daa559b667dac6d608c4757"
+RPM_NAME = "ripgrep-fish-completion-13.0.0-5.4.noarch.rpm"
+RPM_HASH = "2b24f865873244a55b8bf328e8e25cf0c7f575a03511ecce7056e62d666424dabf433736667f64121899d66adbf92c360ee393eaf9bd426993f1176c1767fd9f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ripgrep-fish-completion"

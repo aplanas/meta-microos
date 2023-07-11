@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later | LGPL-3.0-or-later"
 
 PV = "0.5.1+git3.g97c716a"
 
-RPM_NAME = "libaddrxlat3-0.5.1+git3.g97c716a-3.1.aarch64.rpm"
-RPM_HASH = "e036d7211cafcddcb4d503bcb8bacb979eb7766e8f3c029d375a5bedfa744eac785dc362e71c4d83e40f8b9ecb2e252c3e1284137be9eeb5a6b6d93958dec353"
+RPM_NAME = "libaddrxlat3-0.5.1+git3.g97c716a-3.2.aarch64.rpm"
+RPM_HASH = "7526c80e94fb9a3cb97ff1341b701f2b7c6fca9c3146a739195616804b9a0ee11dfed0ac1dfd4b994405c1f417b2b29b90cd9875f38ceea509973f20900b5fd5"
 
 RPROVIDES:${PN} += "libaddrxlat.so.3 \
 libaddrxlat3"

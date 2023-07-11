@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "2.14.0"
 
-RPM_NAME = "libmodulemd2-2.14.0-1.3.aarch64.rpm"
-RPM_HASH = "bde97d8e29efcbacd30f87cdd80fb13a0975a4e8ee80d250251d2f90a30afddcccb1275ced33a28da828de2dec58eb0b98b231994953d4fec8a6856bcc13027f"
+RPM_NAME = "libmodulemd2-2.14.0-1.4.aarch64.rpm"
+RPM_HASH = "81e4b4f2a14cfd869194e0c3a2f5984584d5fb6b5fc93c72948b60f97c246152f5c7abbee339bfdbf3c481c701ca685d15bb583a804b336d8e2d867725a735ad"
 
 RPROVIDES:${PN} += "libmodulemd.so.2 \
 libmodulemd2"

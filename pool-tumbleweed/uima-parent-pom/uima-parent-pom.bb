@@ -11,8 +11,8 @@ LICENSE = "Apache-2.0"
 
 PV = "10"
 
-RPM_NAME = "uima-parent-pom-10-1.18.noarch.rpm"
-RPM_HASH = "467e114dde7af67c76be9e62a259fc49564648b607906b3374de6c01d3cd5e3329f8524dca925d02b81ddaf866970b29788d375401c192c124dcda5ee816dad8"
+RPM_NAME = "uima-parent-pom-10-1.19.noarch.rpm"
+RPM_HASH = "c1ce66d8363ceb2a99537c9ee331bd6936925882b9d754e6c201a2e6ee8d8b9573772443b52f6866b9c7c89f26e46891a3399e65111467bcbaffdd3d080907b0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.apache.uima-parent-pom-pom- \

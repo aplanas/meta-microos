@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.6.9"
 
-RPM_NAME = "ghc-x509-store-doc-1.6.9-2.3.noarch.rpm"
-RPM_HASH = "8fe2d1a38aa6dd5d6db0c63632307e9f90b551cac8aa36879dde320efc20b177c4af566262bf038d040a68a07cce9f31aa5466fd8fe7bdb0b2624e4702f37840"
+RPM_NAME = "ghc-x509-store-doc-1.6.9-2.6.noarch.rpm"
+RPM_HASH = "81b3468198b2ece1011369262256dcd56e7b019dcc20a62d9c01cc118a5105db40b1d848f0f9ce1d857e033d8ec15469318074c5ff996ed250caa9fb63848c0a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-x509-store-doc"

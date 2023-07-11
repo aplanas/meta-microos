@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.9"
 
-RPM_NAME = "python39-wcag-contrast-ratio-0.9-2.1.noarch.rpm"
-RPM_HASH = "c713d3ce3b9e53e6c5018b0bf64a6d799c38ff9a4c68b34363a174224edb9aa043a62c529874cba494d92c92e16d17ecc15cdf582b313193b49b1c5fcc4f0f7d"
+RPM_NAME = "python39-wcag-contrast-ratio-0.9-2.3.noarch.rpm"
+RPM_HASH = "f3d74173c6bb99a83a0c3168a32f2ceab1bcbbb6fa2166b847bafa9c099d27c7be41cd28a795db48320d5fe1c37fe342890f1c2ba1097b2ab123d72e758b93a4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-wcag-contrast-ratio \

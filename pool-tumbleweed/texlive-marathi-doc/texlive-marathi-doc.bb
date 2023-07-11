@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-marathi"
 DESCRIPTION = "This package includes the documentation for texlive-marathi"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.7svn61719"
+PV = "2023.208.1.7svn61719"
 
-RPM_NAME = "texlive-marathi-doc-2023.201.1.7svn61719-52.1.noarch.rpm"
-RPM_HASH = "2ccd832ad340042623209c9370cd0dd7a37b1af0871d77d4c4f3749175ecb8cad306cca188bf319113819e3f431e186ac8b8400e055ab9c577c8e34639f4271d"
+RPM_NAME = "texlive-marathi-doc-2023.208.1.7svn61719-53.1.noarch.rpm"
+RPM_HASH = "a0954d2d20d30c0f22c7be9ec2d88a7b8a0f10069271156a7bed502212c90fc1b02380386c5c3c7e40024cd525c4be58b4b2e2b7f2db507dff7e483b55fac1b9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-marathi-doc-mr \

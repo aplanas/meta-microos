@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.1.3"
 
-RPM_NAME = "python39-fake-useragent-1.1.3-1.1.noarch.rpm"
-RPM_HASH = "8a809a2f9b17661f758cfe37dc06de30c2ed8c1ddd333c18f99f145e347123bfcf69ee54d7226a230a262624bd740251443fb1afdd761010d9951d2162187691"
+RPM_NAME = "python39-fake-useragent-1.1.3-1.3.noarch.rpm"
+RPM_HASH = "d10a51d8e837e1057a44f506c1773d4adf5fb9e0497fbe401caf9d54cd39134211f1af98cc6692617d1c36239fd06af77537387c67d41e871bc9da77af65de60"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-fake-useragent \

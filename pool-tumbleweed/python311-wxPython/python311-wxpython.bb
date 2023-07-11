@@ -9,10 +9,12 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.2.0"
 
-RPM_NAME = "python311-wxPython-4.2.0-4.4.aarch64.rpm"
-RPM_HASH = "483ded88c03ae71db1d61f7676e6d4bdf279185e57e204a98619074d40585bffe09a6d808ae17179c62dd5ea1f05983bd2460068443faab10b39f0f112922c71"
+RPM_NAME = "python311-wxPython-4.2.0-4.5.aarch64.rpm"
+RPM_HASH = "c5b82f0b88ba53e7d5688c1efd86aa33d04f05c725a6748ab00fdf8cc7d8bf12120c89162362a033e112c2b266d627eff12d71a37ffaee4d7fafea6d676e6217"
 
-RPROVIDES:${PN} += "python3.11dist-wxpython \
+RPROVIDES:${PN} += "python3-wxPython \
+python3-wxWidgets \
+python3.11dist-wxpython \
 python311-wxPython \
 python311-wxWidgets \
 python3dist-wxpython"

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.03"
 
-RPM_NAME = "ucl-devel-1.03-5.3.aarch64.rpm"
-RPM_HASH = "a77bb10925d4cb9204c2841dce873e5a42de3c7b8db55ccc3c3ff9aa88b5af12a8a41b359c08d2191ab99d21e2e46626452b4695a224ed55ac59925b9a3c12e8"
+RPM_NAME = "ucl-devel-1.03-5.4.aarch64.rpm"
+RPM_HASH = "2f4dcecfd118623d4218aa54d371851b0ec7e41aa1524be585efcaec7e982966fe77ffdf915aed1ff99dd512b5e9101933067d439405ca02f07abc5697d9ce16"
 
 RPROVIDES:${PN} += "libucl1-devel \
 ucl-devel"

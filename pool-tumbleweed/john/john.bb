@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.9.0"
 
-RPM_NAME = "john-1.9.0-9.1.aarch64.rpm"
-RPM_HASH = "ff8e9069652e4f6bdd9ba8b694cba339d89280a911cc3981c1a3437e9509df54e595cad3262af5feca91bd34e61e0a5b5ce3c4bc80ae169942921ef3d3e1648a"
+RPM_NAME = "john-1.9.0-9.7.aarch64.rpm"
+RPM_HASH = "e0f3e545835e90f753d6bb66e25a7557b1d63fc8b8a8bb332d17e3057d05d37cfada6fe04d93ff6292835a65d9fe039e4cef0e6f0c3319ed8b6f1337d0628b56"
 
 RPROVIDES:${PN} += "config-john \
 john"

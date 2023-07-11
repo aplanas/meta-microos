@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.3.8"
 
-RPM_NAME = "ruby3.2-rubygem-xmlhash-1.3.8-1.11.aarch64.rpm"
-RPM_HASH = "2570df0e6698e22f1a14a67179373a552405780a8909faab107ca05b25747a194fb747960587ad8cefce00fcc8edea4370279e03483eda8e402b6cd7d8ae8eeb"
+RPM_NAME = "ruby3.2-rubygem-xmlhash-1.3.8-1.12.aarch64.rpm"
+RPM_HASH = "98ecfa05daff24f5c3192228d3e20394724f3a55204a9b737e2c7eed6ab245ab0a388fa1be45a8ca373ab3f7e054b449d5ffba5425c583a78f82998f51ab0f28"
 
 RPROVIDES:${PN} += "ruby3.2-rubygem-xmlhash \
 rubygem-ruby-3.2.0-xmlhash \

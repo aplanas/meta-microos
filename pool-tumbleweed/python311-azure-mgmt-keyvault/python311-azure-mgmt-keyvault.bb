@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "10.2.2"
 
-RPM_NAME = "python311-azure-mgmt-keyvault-10.2.2-1.1.noarch.rpm"
-RPM_HASH = "6b1b84bc1e9d39c547fac7232bd06e0b65f09b5a5e9e3f7ea096b4ace995eebdf9c15f4e017cb6606f01beee8e08cb9135b19c1319019ff28d06ef7f106caa5e"
+RPM_NAME = "python311-azure-mgmt-keyvault-10.2.2-1.2.noarch.rpm"
+RPM_HASH = "d52edffbc7cb74037362e168a1b55f0edeec276bab521d670253bf39cb7244325d7aaf3f30433ad382aed5f9924950b55f11dc57b0c11224df18749770d8b1d4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-keyvault \
+RPROVIDES:${PN} += "python3-azure-mgmt-keyvault \
+python3.11dist-azure-mgmt-keyvault \
 python311-azure-mgmt-keyvault \
 python3dist-azure-mgmt-keyvault"
 

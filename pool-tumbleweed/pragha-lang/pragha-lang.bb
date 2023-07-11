@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.3.99.1"
 
-RPM_NAME = "pragha-lang-1.3.99.1-3.3.noarch.rpm"
-RPM_HASH = "0143c8a52f6d6f7c134fa7ede1dabe5cc0cd57fbf16349ddeeda63a280c101797af1516f5bb85838fc2710fb2a6afabb26b63abb8d17754a8c2f39925b31b26b"
+RPM_NAME = "pragha-lang-1.3.99.1-3.4.noarch.rpm"
+RPM_HASH = "6d79e256793c9136d607a7fecd6c411c4b76ea86684ae023a14f435fd7513ab2f51e0aa6c0c631450cd6c64f94a8bd04c803fded458d05c751ae35362d9e6fca"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-pragha-ar \

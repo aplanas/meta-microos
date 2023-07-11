@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
 PV = "2.7.2"
 
-RPM_NAME = "drumstick-2.7.2-1.3.aarch64.rpm"
-RPM_HASH = "91c60760294f020b13084a956f657d01802b85c72b845bc6c31c1f98cecf8f96c70dbb70bdf4b38ff72d7a5acd94728fbe096814395dcf3ce2bc47721f20ae39"
+RPM_NAME = "drumstick-2.7.2-1.4.aarch64.rpm"
+RPM_HASH = "928c38545ba265b0bdcebfb8f4b5075f6dbd847342d95f87d7dce5f0516eb650383793fbdd919b8ee383e1c11dacf0436dfa2aa48c02778bb0656f78abf9e0bf"
 
 RPROVIDES:${PN} += "drumstick"
 

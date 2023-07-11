@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.5"
 
-RPM_NAME = "libparted2-3.5-4.4.aarch64.rpm"
-RPM_HASH = "81eb559fea63940bcf56c8d3277b3ec52ae623283235a758936a8cf26a27d50449a99da6440382f188f1401fb11e1f0d148dc52b7121e86df3c8aefd600bf822"
+RPM_NAME = "libparted2-3.5-4.5.aarch64.rpm"
+RPM_HASH = "0a0e1f0ae451bcc861e7a58ce5197aab9d64943d1cd735f53420b8f92cace7fd78f14f454d4db19ffbfed1dff441989cee5dbc7517261b17a57ef57367893a40"
 
 RPROVIDES:${PN} += "libparted.so.2 \
 libparted2"

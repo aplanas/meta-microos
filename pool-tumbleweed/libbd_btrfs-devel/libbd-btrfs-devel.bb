@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "2.28"
 
-RPM_NAME = "libbd_btrfs-devel-2.28-1.4.aarch64.rpm"
-RPM_HASH = "3e1dc724a6e564e97b9bd05f6e7e62da636c42e90523fd07c12a8cc3f53771f005b1534e67073855896ff2bc20e6876ece1e48ac93df966901f3e547dac36315"
+RPM_NAME = "libbd_btrfs-devel-2.28-1.6.aarch64.rpm"
+RPM_HASH = "139be26547b2b4dff3f224c6a6dbec65cfa3f937efc19a0e8b13985fdd7088be4d231acef97dc4aa1dbf252df3f11ffe13a087e403f24844e08607fbcbd71fa2"
 
 RPROVIDES:${PN} += "libbd-btrfs-devel \
 libblockdev-btrfs-devel"

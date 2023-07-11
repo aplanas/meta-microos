@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.15.0"
 
-RPM_NAME = "retroarch-1.15.0-1.3.aarch64.rpm"
-RPM_HASH = "e3efb6db64685b767848f3b5ddf6f17c397577822d1ca848db40e483bc7bb7c975e731ac84b254628f3f96293561d853c7a4ab19a5ba727e5d522a72c39ab717"
+RPM_NAME = "retroarch-1.15.0-1.4.aarch64.rpm"
+RPM_HASH = "948dad9f4173c4f8b578a5d42d4e07ea4b7881c8bb04d176a4d3ffff77f1f4a1182bf38501d15486d8f81aafad61b9430f1d3ad1abef8cdb15ca62e4ce2b2bf8"
 
 RPROVIDES:${PN} += "config-retroarch \
 retroarch"

@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.36.0"
 
-RPM_NAME = "gnome-menus-devel-3.36.0-3.3.aarch64.rpm"
-RPM_HASH = "0313a85c78a183e34e4f9be94282ffc7ce276b75003cbfdeef614796621f660af0bf6dc8a9ece6f899d049717a0dc8ac2df030fbd0800be1d3840872fd4e9ba6"
+RPM_NAME = "gnome-menus-devel-3.36.0-3.4.aarch64.rpm"
+RPM_HASH = "64a97609fc67cb47f613305143826cef3585baba09bb9a82745709b8569b3b4bb7414ae959503d739762e8a5bad04d7ac4429faeff39179bdf76c8ec6015a953"
 
 RPROVIDES:${PN} += "gnome-menus-devel \
 pkgconfig-libgnome-menu-3.0"

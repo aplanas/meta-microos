@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
 PV = "1.99.13"
 
-RPM_NAME = "dd_rescue-crypt-1.99.13-2.2.aarch64.rpm"
-RPM_HASH = "475ed1db87f032d64ee66ee56af498a075b4056e2eeb2736f40383d759e345cae9d810b2d313d8cfb26ad8e1a415b4025fbd8f65b52b0135ab365e770b068425"
+RPM_NAME = "dd_rescue-crypt-1.99.13-2.3.aarch64.rpm"
+RPM_HASH = "90a4688283cf5424bad0b2221f4945e1bf2d4c4c1e64a5a044097004a2869d6e001bd3214e3f262e26e4aec26723db4582a7bda9b9fbd11870f9bbbd80eb5d9e"
 
 RPROVIDES:${PN} += "dd-rescue-crypt \
 libddr-crypt.so"

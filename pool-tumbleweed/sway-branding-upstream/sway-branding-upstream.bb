@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.8.1"
 
-RPM_NAME = "sway-branding-upstream-1.8.1-2.1.noarch.rpm"
-RPM_HASH = "ff179ea17879b2fba345d029d111aba1959ce6a3df6a8069ed7b11b459917491c4ba21813329d95f27cde01b9f59479ee59dfc1488e069535a5cffa456b6597b"
+RPM_NAME = "sway-branding-upstream-1.8.1-2.2.noarch.rpm"
+RPM_HASH = "b5995ae3574ed8e5a504066b88ff84651c667f6b8e0925d5acaed9de0548fd3fa2c50ff28892bba6ed1a759efef028089cbce0427436234e4837cbcd01b9c31b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-sway-branding-upstream \

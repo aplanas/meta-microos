@@ -5,12 +5,11 @@ LICENSE = "BSD-3-Clause & ZPL-2.1 & MIT"
 
 PV = "0.3"
 
-RPM_NAME = "python310-pyramid-chameleon-0.3-5.8.noarch.rpm"
-RPM_HASH = "99dac4f5efebd906f6d2b444b9ea7435f0b2aa76def47e94f77e15e283cadeaa7ed8b8e2d9fbc0e5950cdb31218ea33972ff32aa01b7d99ca142139d3a80c6c5"
+RPM_NAME = "python310-pyramid-chameleon-0.3-5.10.noarch.rpm"
+RPM_HASH = "f9a757d803315bbfaf764ad21586334721e558abb832c3bb553a60c73bfddf4daef4ac89cd2bfbd5e96378580dd668af827ab58aa4a18f47a962f823575677f0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pyramid-chameleon \
-python3.10dist-pyramid-chameleon \
+RPROVIDES:${PN} += "python3.10dist-pyramid-chameleon \
 python310-pyramid-chameleon \
 python3dist-pyramid-chameleon"
 

@@ -7,8 +7,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.0svn15878"
 
-RPM_NAME = "texlive-hexgame-2023.201.1.0svn15878-53.1.noarch.rpm"
-RPM_HASH = "4123af0d0a6a9782646799e2cc92a1370aafc59de02dfc7a7e7ef90943193b50a5a7c431065f4cbd7e7c324b9a7f6773fa3e5ab248bf9455f65b6949d13d5ef4"
+RPM_NAME = "texlive-hexgame-2023.201.1.0svn15878-53.2.noarch.rpm"
+RPM_HASH = "9605ef23cb5ee58046c6bf55d2b24058e2f78f2ee3aaa612f0ecfabe7570e8d776c8906ccebcbb94628d6dce3074bb7d16d93ece98dc2e743be3a9c61ba43f62"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hexgame.sty \

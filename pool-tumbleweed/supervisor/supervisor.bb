@@ -5,12 +5,12 @@ LICENSE = "SUSE-Repoze"
 
 PV = "4.2.5"
 
-RPM_NAME = "supervisor-4.2.5-1.3.noarch.rpm"
-RPM_HASH = "b745da5376a560eea7d9549614a8e54e4a4ae884cf57a7ee2da9868011ffacf2acc2eb06b2fb4cff4c65e782fe188c425ac9fadb1c3e596d43a394989ef1767f"
+RPM_NAME = "supervisor-4.2.5-1.4.noarch.rpm"
+RPM_HASH = "ddc46ad74775e67afb0b62e95201c82b0b8d6949c7d79cc8d12cf12adc555a0eeb022e219ae6dae8972083bee4c5ea2c34883923b600a9b5268e9af4646c2381"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-supervisor \
-python3.10dist-supervisor \
+python3.11dist-supervisor \
 python3dist-supervisor \
 supervisor"
 

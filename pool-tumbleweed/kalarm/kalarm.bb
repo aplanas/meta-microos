@@ -2,10 +2,10 @@ SUMMARY = "Personal Alarm Scheduler"
 DESCRIPTION = "Personal alarm message, command and email scheduler by KDE."
 LICENSE = "GPL-2.0-only"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kalarm-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "0b9af83de1b8c71b2a534cbe3522f1febd68b2d21bec8a19ae16527491e92c3556dd1e3d479439294d9f9e1b1522879cd8a695e5f55c799ed272d62cf616733d"
+RPM_NAME = "kalarm-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "fc8baad9795aa86c3074bcb373d8dbc9b59ad156767cf6bb0de88e434b949acb15ea5a3408543a1a1335e36a72747f36ccda2aecbe288beb2d3ff81fe47dea24"
 
 RPROVIDES:${PN} += "config-kalarm \
 kalarm \

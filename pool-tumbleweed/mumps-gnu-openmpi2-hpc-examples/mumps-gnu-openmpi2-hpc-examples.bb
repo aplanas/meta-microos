@@ -6,8 +6,8 @@ LICENSE = "CECILL-C"
 
 PV = "5.3.5"
 
-RPM_NAME = "mumps-gnu-openmpi2-hpc-examples-5.3.5-3.3.noarch.rpm"
-RPM_HASH = "870c74e64692992921607ebbcab442184b350771d428a68857232ebf487606544a7efdc5575d0dfb3167756d14cab41c66a681730dd587696b457d72fa5f2a2d"
+RPM_NAME = "mumps-gnu-openmpi2-hpc-examples-5.3.5-3.4.noarch.rpm"
+RPM_HASH = "c0defaeada8ccea90bdfbbca56d7126719881f304cf0790391f92cb2cf732b9fb6f438f6793985487a8752a90f90e3cf212b5d1a982c6cd796bc8612c48dfe12"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mumps-gnu-openmpi2-hpc-examples"

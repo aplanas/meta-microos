@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "2.0.0"
 
-RPM_NAME = "python39-azure-mgmt-orbital-2.0.0-1.2.noarch.rpm"
-RPM_HASH = "323e684617a9c0adf97e08c0ab73c6f5b140eb3cc854c02c4756d0c82a2f737c8122bac3281465e5c1f18cc967dbd1b20b352e330c09ea45df306b297f6e22c5"
+RPM_NAME = "python39-azure-mgmt-orbital-2.0.0-1.3.noarch.rpm"
+RPM_HASH = "fce10c8cdc2099cb8dc453477730b5158531f8327d6c8a6ab3514f06b1bbe4a55527df065e7297540bafbabcabaea9847d5fa7219f1cab2c5a77846b2084b15e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-orbital \

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.1.0"
 
-RPM_NAME = "nudoku-lang-2.1.0-1.10.noarch.rpm"
-RPM_HASH = "36155efe26bee6371153d9ac6fba8e182eda81125e019ca7bc62f59da4c5a3479ab7e2a31e5becbb3db720c3e1e5326b94ccc7177e35fa2685f024bbb78b6bb8"
+RPM_NAME = "nudoku-lang-2.1.0-1.11.noarch.rpm"
+RPM_HASH = "98c1da6e5a08020ae9858d40da6ae125a7c35fe23a44770b831125f803f42a24d5a2fe3d747685c0d143f5f6110a922365773f2101617c570abc0efc79925932"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-nudoku-de \

@@ -17,8 +17,8 @@ LICENSE = "GPL-2.0-or-later & GPL-2.0-only"
 
 PV = "0.8.18"
 
-RPM_NAME = "compiz-plugins-experimental-0.8.18-1.16.aarch64.rpm"
-RPM_HASH = "b1dde7d2cf98d33921de43c797792750216202cb8edda1dc05b1a8c1b5e5729f3b44b31875ebd8761caea77c2bd8b6397868a2dfe804d32ae0ed7b8491a64c64"
+RPM_NAME = "compiz-plugins-experimental-0.8.18-1.17.aarch64.rpm"
+RPM_HASH = "649325bb66328f7752bd934e727e0b073db6f40bb875d6e28a14a310a3c9f926e16497d3844c87be4461b01d7899cfa526d95e4a7106301f9b5e536092e8ead6"
 
 RPROVIDES:${PN} += "compiz-plugin-photowheel \
 compiz-plugins-experimental \

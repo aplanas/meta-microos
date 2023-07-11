@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.10.3"
 
-RPM_NAME = "libsixel1-1.10.3-1.7.aarch64.rpm"
-RPM_HASH = "bd2c31878f08fd1ed6f9e00633a164d8192727ef57c49b74cc3e2b7849e27f6ce077245239a7f540ceb0184133ab77e890a5e1c041dc80b4b3094bbe1744e3c5"
+RPM_NAME = "libsixel1-1.10.3-1.8.aarch64.rpm"
+RPM_HASH = "67399d3082ee738bd992312b9d6ab8ffc19d8942d105efae5cc3c3b267fff9125cd179dd632e5b6f20dc1e77c05860df27f55dddb96ce6c253a563a48d2a6935"
 
 RPROVIDES:${PN} += "libsixel.so.1 \
 libsixel1"

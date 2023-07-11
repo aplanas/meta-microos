@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "0.6.6"
 
-RPM_NAME = "libgee06-devel-0.6.6-5.28.aarch64.rpm"
-RPM_HASH = "99241b3d8678b12a393998576bfe710625c39d68777ed7d77eee4be892a0c89501e638cfb252e6fc433e65c4ec8a0f40c3a466e36eada6b259b9730909954edc"
+RPM_NAME = "libgee06-devel-0.6.6-5.29.aarch64.rpm"
+RPM_HASH = "69cd3824dc257742e9589bc7e48fcd484f45651bb421c0db635b99be9aec6eda9f72590970c722b14a68c9efd70c6a190fc3d1b1656579829ac32e22aa28a79e"
 
 RPROVIDES:${PN} += "libgee06-devel \
 pkgconfig-gee-1.0"

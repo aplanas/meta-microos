@@ -2,10 +2,10 @@ SUMMARY = "Clean and Lean GNOME CD Ripper"
 DESCRIPTION = "GStreamer-based CD ripping tool. Saves audio CDs to Ogg/vorbis."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.38.0"
+PV = "3.40.0"
 
-RPM_NAME = "sound-juicer-3.38.0-3.7.aarch64.rpm"
-RPM_HASH = "8ed1ab9d89923b5f692b4fa3f90c9edc0d0f357b25d599e74e452dbfe67752d1e14d9fc5ba7e72fec611614339649f8e022d410eeee34c386eca10a59c03b602"
+RPM_NAME = "sound-juicer-3.40.0-1.1.aarch64.rpm"
+RPM_HASH = "d6d6e5f395efa6e3d264b9113ac575c88fd1a38290cc66a39b2cb36ff095fac1e126f90cfcbe6fda276f750482cd46cbb8287df1d95e774b666223fae0e746e4"
 
 RPROVIDES:${PN} += "sound-juicer"
 

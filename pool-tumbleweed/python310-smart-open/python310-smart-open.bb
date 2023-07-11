@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "6.3.0"
 
-RPM_NAME = "python310-smart-open-6.3.0-1.4.noarch.rpm"
-RPM_HASH = "0353ac5f195b5d5f4ae6985a23d76b850261e928e5d6cc074af1626719b57eb20d4cc4963eca0ad9390991f379ded3dc718386b1ca5b60bdc4f8076a04f9b443"
+RPM_NAME = "python310-smart-open-6.3.0-1.5.noarch.rpm"
+RPM_HASH = "d2a1367f92f89b8dfba2dfffc08c369de5a311a813e6f6b53c178a9cff35477bf4cb44ce3f1c1dafc1130def008f64edb36f361a33aad83530c0b58e90aa310d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-smart-open \
-python3.10dist-smart-open \
+RPROVIDES:${PN} += "python3.10dist-smart-open \
 python310-smart-open \
 python3dist-smart-open"
 

@@ -4,11 +4,10 @@ LICENSE = "Apache-2.0"
 
 PV = "0.2.2"
 
-RPM_NAME = "python310-zopfli-0.2.2-2.1.aarch64.rpm"
-RPM_HASH = "a764a02a85e4d84dadd09d63f5d976e3e3fc53fc2642bbb0566e32d807e3835bb4a61d1c346fffce7db41bc22189d50f63b5665e14847d5ee48b44785cf74355"
+RPM_NAME = "python310-zopfli-0.2.2-2.3.aarch64.rpm"
+RPM_HASH = "790d75b34c6fb501285439daf76f0c7b40961305d073a4fe1fd5f1c98609ebba0ae32885cfdc4f47c16a0840517b0719937f40be529d97e6402036ad4d401acb"
 
-RPROVIDES:${PN} += "python3-zopfli \
-python3.10dist-zopfli \
+RPROVIDES:${PN} += "python3.10dist-zopfli \
 python310-zopfli \
 python3dist-zopfli"
 

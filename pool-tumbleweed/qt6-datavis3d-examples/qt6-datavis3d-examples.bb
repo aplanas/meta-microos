@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-datavis3d-examples-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "70f590fb4a5ec1efc3046af35bc74eebd36ffdb0ba6a021ee85fa460691bb6fccb4cd5b78111d7ad2893a97dfea96f70e8c0543ffdea8ba10e5981b5d1084ce6"
+RPM_NAME = "qt6-datavis3d-examples-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "dab31170984373c0f6bd99d635f19d9e82f1941795aa82efaf7d83ef1f7e42a9413878650841b37b931e230bb5d1c2cf5a07d48ff47050c27cc7ea15069725e0"
 
 RPROVIDES:${PN} += "qt6-datavis3d-examples"
 

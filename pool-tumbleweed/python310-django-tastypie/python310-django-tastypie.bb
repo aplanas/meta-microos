@@ -5,12 +5,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.14.5"
 
-RPM_NAME = "python310-django-tastypie-0.14.5-1.4.noarch.rpm"
-RPM_HASH = "853cc38ba1a5eb273ce006fd29a7f63203ba6115ea482e5bb6b0353b8d79606de5125ccf25a33c971e4057ded038d42e94b2f271e1c268c5d9ae0c258604d769"
+RPM_NAME = "python310-django-tastypie-0.14.5-1.6.noarch.rpm"
+RPM_HASH = "f2bc5a5d9158197ce11bcaad650842ef765833c8bb664cffad5cf7a2973f2807ef5cb2d551af05035c2a774f13bc28b788b7d668163146deab9ba503481250c8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-django-tastypie \
-python3.10dist-django-tastypie \
+RPROVIDES:${PN} += "python3.10dist-django-tastypie \
 python310-django-tastypie \
 python3dist-django-tastypie"
 

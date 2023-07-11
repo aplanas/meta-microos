@@ -14,8 +14,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.7.1"
 
-RPM_NAME = "equalx-0.7.1-8.16.aarch64.rpm"
-RPM_HASH = "a65ceff053bd3793a9d45a6764cafea7a7ef2ae8483e857ac24e62661d37dc4dcb1f76302facea1a51ab81110b905edf3879b1027f956745fce46791d2de71b8"
+RPM_NAME = "equalx-0.7.1-8.17.aarch64.rpm"
+RPM_HASH = "386566668a4bc9927e342c27a3b4b8712b7aac356926a9a86ea0bef92eb0fddedfed37a6427731e1ab49b52b284087929afcaf99c7bada2ba4137020412e57d1"
 
 RPROVIDES:${PN} += "equalx"
 

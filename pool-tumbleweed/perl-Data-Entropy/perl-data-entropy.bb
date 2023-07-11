@@ -20,8 +20,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.007"
 
-RPM_NAME = "perl-Data-Entropy-0.007-1.23.noarch.rpm"
-RPM_HASH = "ae369b846f749ad6b47853e70f3eafeec9762ffc27e231f26dd0c213151fcc80ac287b9a57a77754cecb9fec499adb8c2cc4af160b910d42747fa625b42608e7"
+RPM_NAME = "perl-Data-Entropy-0.007-1.24.noarch.rpm"
+RPM_HASH = "c1a0f448563066937fc45f071972b239984c75dfd640145b4165de601205d819e3f08df7c583aa7b54fd74fb4a7b1435475b22ab61f54efc9740e0936d7649b7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Data--Entropy \
@@ -33,7 +33,7 @@ perl-Data--Entropy--RawSource--RandomnumbersInfo \
 perl-Data--Entropy--Source \
 perl-Data-Entropy"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Crypt--Rijndael \
 perl-Data--Float \
 perl-HTTP--Lite \

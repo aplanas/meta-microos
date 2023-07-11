@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "1.1.2"
 
-RPM_NAME = "zram-generator-1.1.2-2.4.aarch64.rpm"
-RPM_HASH = "d9fd7399d45734babac8a8bcb54a322d7f3be4c91aca24473e5721a4e0ec4e7e9af58f9b641da95fedff6845a198e0e1912d21883518b191d52ae2de58856ff4"
+RPM_NAME = "zram-generator-1.1.2-2.5.aarch64.rpm"
+RPM_HASH = "cf7ae6f5bc72811e96d3089424f51726d0af89cdfda5c02f7d1d523ae40bc0ba0bb736e8f16933b77898615afe74b9b723acadbed6b20678c47ea62c1fbcc22e"
 
 RPROVIDES:${PN} += "bundled-rust-crate-ahash \
 bundled-rust-crate-anyhow \

@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.8.0"
 
-RPM_NAME = "nut-drivers-net-2.8.0-2.1.aarch64.rpm"
-RPM_HASH = "b72db8046b15719d621d0495972e6f5dcd7e4b596c6008ecc7fbce6b510a26416f7966083cacee05ac9050ad21e9f196414128bdaf7c01719a00c806aae5f857"
+RPM_NAME = "nut-drivers-net-2.8.0-3.1.aarch64.rpm"
+RPM_HASH = "196768cc285b9fe58101434b6a489f3477bc102f7b34c3179190ca5d9de054846a919a2640ba450a9c17cc6df582408c08cbb5e4d8191ad93be9beeb5dc49e1a"
 
 RPROVIDES:${PN} += "nut-drivers-net"
 

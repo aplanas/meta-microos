@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "1.2.2"
 
-RPM_NAME = "mkcomposecache-1.2.2-1.5.aarch64.rpm"
-RPM_HASH = "6a4c0a1990159d9b37b18b73e7c4e335f3fe434275359d0115efca6aeda098774b95413f162e7aae57983c18dad75609d66912c3ab1b4526008b5ce09afdd875"
+RPM_NAME = "mkcomposecache-1.2.2-1.6.aarch64.rpm"
+RPM_HASH = "e95f629210592f26d6f479796c81f171301d2b6c520d810656ba100c97dd9d8ac273d45ee3aa2b2b886deec5cdbeec825559e71edf0ba2565a35565b35cfb70a"
 
 RPROVIDES:${PN} += "mkcomposecache"
 

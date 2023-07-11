@@ -10,8 +10,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.4.2"
 
-RPM_NAME = "apache-commons-pool2-javadoc-2.4.2-5.15.noarch.rpm"
-RPM_HASH = "acd78893894333852a0cf6ef2e3c36af3ac5b2bf92dfec9fe18bd77904623d66ff34831b07f7fe6cc03b29a08b41fc93a11c6672678282147b66d6f0cbf86f20"
+RPM_NAME = "apache-commons-pool2-javadoc-2.4.2-5.16.noarch.rpm"
+RPM_HASH = "4ed9ce4fec27fa6bbb503263ca9a7b3bd801658122632b670ffb065df81de02e392a769ad8508ce6fab33e4042b2e772105ec71189de0f1a1f1c1e5b4d4f8e7d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-pool2-javadoc"

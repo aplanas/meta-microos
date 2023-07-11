@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & LGPL-2.1-or-later & (BSD-3-Clause | LGPL-2.0-only)"
 
 PV = "1.8.8"
 
-RPM_NAME = "uim-devel-1.8.8-9.9.aarch64.rpm"
-RPM_HASH = "fda3c19ada183ac16074b20ae2b5c501c9260a1fa777d5fd7476e74651bee4a9fd62baee703e00074c44702f2eb307102ba95fad917aea654fcf4629d7283d4c"
+RPM_NAME = "uim-devel-1.8.8-9.10.aarch64.rpm"
+RPM_HASH = "ebda8804a5144fc9282b10eadc22b64f121530d93fe73edb9128830425a7604f04385ed617801b7f880b5ed04c59133bb79437ca4a36c5c704bf7b6cef21a355"
 
 RPROVIDES:${PN} += "pkgconfig-uim \
 uim-devel"

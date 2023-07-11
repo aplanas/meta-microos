@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.11.1"
 
-RPM_NAME = "libpmemblk1-1.11.1-1.8.aarch64.rpm"
-RPM_HASH = "95e01d78fe47b49b03074ccb3a81d163c33ad3312c79af3b8fe6f7c91c74f6cfd910f16488561c0a947e1dfafccd9bf8d5b9775fe561f4eaa164daf4d75cbd24"
+RPM_NAME = "libpmemblk1-1.11.1-1.9.aarch64.rpm"
+RPM_HASH = "ed79dc143b17853087652e6fe6f1071b9e2f369de5278f6541f7bd1387ec8c5396a6ca699d659e6bcfbef730942c74b593ceb62831f6f0bd8e416101b30e1fd4"
 
 RPROVIDES:${PN} += "libpmemblk.so.1 \
 libpmemblk1"

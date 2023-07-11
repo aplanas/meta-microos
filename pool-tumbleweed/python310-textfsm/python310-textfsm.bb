@@ -7,12 +7,11 @@ LICENSE = "Apache-2.0"
 
 PV = "1.1.3"
 
-RPM_NAME = "python310-textfsm-1.1.3-1.6.noarch.rpm"
-RPM_HASH = "8148450ad0b83d416169dc2bf2a4da701cd1eb2d4e04f71732b7562266c353ae078871dec2bf608dff35a3ad465504fa007500123d65b05836852b8935356b00"
+RPM_NAME = "python310-textfsm-1.1.3-1.8.noarch.rpm"
+RPM_HASH = "3a7839f7e373fc3204170c842ae864534e0fc2f7f5d46cf60050f1549adcd351598e2e0eafc233022ae68b21e9b17e78cfe3670b138de8483d6e808864bb5f76"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-textfsm \
-python3.10dist-textfsm \
+RPROVIDES:${PN} += "python3.10dist-textfsm \
 python310-textfsm \
 python3dist-textfsm"
 

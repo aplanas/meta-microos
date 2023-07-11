@@ -9,8 +9,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.5.0"
 
-RPM_NAME = "openjpeg2-devel-2.5.0-3.3.aarch64.rpm"
-RPM_HASH = "9d6e408e64898da6899888bdbd7cc5c4a587514cf8f326b350c833a803a4c29d0eb9eaddf0c2508c84a2e87ef862aedbf106fffd28c4734759cb744094c3b0be"
+RPM_NAME = "openjpeg2-devel-2.5.0-3.4.aarch64.rpm"
+RPM_HASH = "212365507510766485831bd55f22186f6e0e4859b239418f77bea25ada66cb0ebc4a5905d79682e705f1556870be754d9661332e72016ac4916620ba479a3730"
 
 RPROVIDES:${PN} += "openjpeg2-devel \
 pkgconfig-libopenjp2"

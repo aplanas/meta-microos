@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.1.1"
 
-RPM_NAME = "python39-django-json-widget-1.1.1-1.4.noarch.rpm"
-RPM_HASH = "a999e862b4daaa99cf08f6bcfa0818c7374f90af59f0d77a9f01b3a5ccb896b9c5414d9efd9e4f424973932944daac08f2fd38a2848ff493263ee3b7ce71c1de"
+RPM_NAME = "python39-django-json-widget-1.1.1-2.1.noarch.rpm"
+RPM_HASH = "51f0275525e694d7a7735f262b519dd77d1a5e250ad68acb6f52a6b53cebf0fbcbb6972927cc4b8d151d87849de80ea850b72e6d7b151c6fdc16fceb2aec55b5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-django-json-widget \

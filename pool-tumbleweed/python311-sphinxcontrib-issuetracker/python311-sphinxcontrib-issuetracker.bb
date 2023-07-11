@@ -6,11 +6,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.11"
 
-RPM_NAME = "python311-sphinxcontrib-issuetracker-0.11-10.15.noarch.rpm"
-RPM_HASH = "3aad42ff70d9468b76f162f80d35be1d61a87205396800883c346366a0d911605df73b5ce5f42670e5b55537c2b59da430b6e6b2f71d71d2330249231fd3f0f7"
+RPM_NAME = "python311-sphinxcontrib-issuetracker-0.11-10.17.noarch.rpm"
+RPM_HASH = "905d8cf9ca60bc0ff88f22ff009014aca6d5edbe2f2690e201007b973308c4c99c84d83b1d7ef08f4bdf02e6be47b263dff6683a125637012245c674f7e43450"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-sphinxcontrib-issuetracker \
+RPROVIDES:${PN} += "python3-sphinxcontrib-issuetracker \
+python3.11dist-sphinxcontrib-issuetracker \
 python311-sphinxcontrib-issuetracker \
 python3dist-sphinxcontrib-issuetracker"
 

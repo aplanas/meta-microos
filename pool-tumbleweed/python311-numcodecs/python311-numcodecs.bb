@@ -5,10 +5,11 @@ LICENSE = "MIT"
 
 PV = "0.11.0"
 
-RPM_NAME = "python311-numcodecs-0.11.0-1.5.aarch64.rpm"
-RPM_HASH = "b5c35900008cb0b71325a0f9d280885d8c08c8554444f7b7a1f4f5328b125dc0a7ee47578d5bd7117e0a7212721ad9b394518f097a203fce4f5699ca1bd825c9"
+RPM_NAME = "python311-numcodecs-0.11.0-1.6.aarch64.rpm"
+RPM_HASH = "52a753cb393475c8e31d068d256b420b11bd2696145e232d3d6052aeb62f0319dedbad2eae87d91768a96fc67eaf3da0706ff29d6885b90b702ddc43970f0f99"
 
-RPROVIDES:${PN} += "python3.11dist-numcodecs \
+RPROVIDES:${PN} += "python3-numcodecs \
+python3.11dist-numcodecs \
 python311-numcodecs \
 python3dist-numcodecs"
 

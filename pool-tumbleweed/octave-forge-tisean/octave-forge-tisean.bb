@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.2.3"
 
-RPM_NAME = "octave-forge-tisean-0.2.3-2.1.aarch64.rpm"
-RPM_HASH = "b478970e845889610b4c3afc1c00638ddfdbf2c1eb95bead4976d06d19e0a9bf42a6d9e1e985f7141025549e6f6a5376e1c6c40c81cf8dd565d6281369d71851"
+RPM_NAME = "octave-forge-tisean-0.2.3-2.2.aarch64.rpm"
+RPM_HASH = "45263c0cf761f6c6bcc1b5a81e3e5fb46cbf0b8f31c6eb2cdbc747c8bc10e1fe7eb59cc64d471b8fe1cd95c4a2e07b820cbd67c7fe7f87567666b3d323e88f6b"
 
 RPROVIDES:${PN} += "octave-forge-tisean"
 

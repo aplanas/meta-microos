@@ -15,16 +15,16 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.1.1"
 
-RPM_NAME = "sshuttle-1.1.1-1.2.noarch.rpm"
-RPM_HASH = "176adfd69442df92047e922877faaf0166e731e571a2f63a8d4be8a9ba4062d3d7b97b1aa5eef159c55c087b6eed7bec6c4aacd0d91ed7c411d58789d1aa8c83"
+RPM_NAME = "sshuttle-1.1.1-3.1.noarch.rpm"
+RPM_HASH = "e6e115b86271ec412bdb6f293f872c58a30520234d9e0f189f78c588289a4597a4d55fd6d3e69b1752c2e0f0925474c0d6ddceb644e801459b245e6495712e31"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-sshuttle \
+RPROVIDES:${PN} += "python3.11dist-sshuttle \
 python3dist-sshuttle \
 sshuttle"
 
 RDEPENDS:${PN} += "/usr/bin/mkdir \
-/usr/bin/python3 \
+/usr/bin/python3.11 \
 /usr/bin/sh \
 /usr/bin/touch \
 fillup \

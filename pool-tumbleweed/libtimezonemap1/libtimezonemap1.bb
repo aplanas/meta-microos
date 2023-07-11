@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.4.4"
 
-RPM_NAME = "libtimezonemap1-0.4.4-2.9.aarch64.rpm"
-RPM_HASH = "e30f688d4f6b93d9ab16e1430bebfc74ad31489c49f285274be8496ddc84c18b153d477c3bbf8d555a120b011f03ad09c35f86c1e59b629f221a371b8b752e99"
+RPM_NAME = "libtimezonemap1-0.4.4-2.10.aarch64.rpm"
+RPM_HASH = "07e902fd32f0c6dddaa88d6559447b90120673eca6617e5a5e5652cc57339ed6e337c833478e6dd006be0f67deefd5c52d3a4621b3d2ad1721210c8e44b788fb"
 
 RPROVIDES:${PN} += "libtimezonemap.so.1 \
 libtimezonemap1"

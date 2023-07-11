@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.102"
 
-RPM_NAME = "open-isns-devel-0.102-1.4.aarch64.rpm"
-RPM_HASH = "865ee81c7acc18f08958c3b0f238187dca6b7448555f3b6ddd2898583d9f079c55018cc22b4dc10476a4975a539bb4ee86a4d5135c34eb2cff362be653be6bd5"
+RPM_NAME = "open-isns-devel-0.102-1.5.aarch64.rpm"
+RPM_HASH = "02deb87d5ec5e5fcc751573e196a85c931d5db5a5cc81e383553717f05ee5ab3a94ff8ee5365235d2e0d628703386f23a3029b3b89377bf3a466ff096dc9fe27"
 
 RPROVIDES:${PN} += "open-isns-devel \
 pkgconfig-libisns"

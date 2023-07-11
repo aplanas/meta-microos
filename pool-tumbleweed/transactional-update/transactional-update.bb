@@ -3,10 +3,10 @@ DESCRIPTION = "transactional-update is a tool to update a system in an atomic \
 way with zypper, btrfs and snapshots."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "4.2.1"
+PV = "4.3.0"
 
-RPM_NAME = "transactional-update-4.2.1-1.1.aarch64.rpm"
-RPM_HASH = "8d372e0bad694753594dd4e5c09e2e5e190d5d3283938e06dc6c9e8d29ba4e76668df798c2f783c01e146488786b0e5168feeb51c3bf50c2c49c9d848f1f9ebe"
+RPM_NAME = "transactional-update-4.3.0-1.1.aarch64.rpm"
+RPM_HASH = "6d0f2b4dc5073c230867def3c2463214ed2bfcb6553177a409aaad2d1c766af5b36ad6aca8fe3288e62d7339286224b443c037e306a594f2b81b92dd8e12db94"
 
 RPROVIDES:${PN} += "transactional-update"
 

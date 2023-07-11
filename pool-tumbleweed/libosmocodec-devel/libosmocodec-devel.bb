@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.8.0"
 
-RPM_NAME = "libosmocodec-devel-1.8.0-1.1.aarch64.rpm"
-RPM_HASH = "27bc5a98d25fd24a59d0f6addd3a4f4668f77b2d7cd141379912cbd6bb7f367fe8e77b2457d12d92426320ba7e789dcab66e27840784318bb1f502e0d842cb26"
+RPM_NAME = "libosmocodec-devel-1.8.0-1.2.aarch64.rpm"
+RPM_HASH = "0dc721a9331f672acf62ff991d64cf57417ed44a78928e0ef3b4df136fa96a7cbfe6d33bd405a57c89d7f2dfb1df19d47035581d3083b59597604bb4eb059db0"
 
 RPROVIDES:${PN} += "libosmocodec-devel \
 pkgconfig-libosmocodec"

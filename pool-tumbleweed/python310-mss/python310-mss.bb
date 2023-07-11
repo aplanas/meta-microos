@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "7.0.1"
 
-RPM_NAME = "python310-mss-7.0.1-1.4.noarch.rpm"
-RPM_HASH = "fd622ce4cf8d3eb42dfbdb009fd775462e2d4fa9cb2773ec3385a15a6fd18eb1f23b465a3e7ca86b7ac4c671a929487c95ed1d2816f621ad2fd0d95797e8d951"
+RPM_NAME = "python310-mss-7.0.1-1.6.noarch.rpm"
+RPM_HASH = "88171f57863555016d5da7967306a12798c44f3c524764ee380e4c711938e0df21f5685397b9d2d5f0fdf52fc841c8b9e1a35ddcb88c6e214fa38a0d49152f6b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-mss \
-python3.10dist-mss \
+RPROVIDES:${PN} += "python3.10dist-mss \
 python310-mss \
 python3dist-mss"
 

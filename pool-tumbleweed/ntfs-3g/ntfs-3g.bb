@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2022.10.3"
 
-RPM_NAME = "ntfs-3g-2022.10.3-2.3.aarch64.rpm"
-RPM_HASH = "2e3e720c01355d8a5459cca8f3fa14062e1b636acc4f033d529a6e92a7390822c77cc62ad0a03fccf05b2d38c27ba24e01676cbaf7be0e278c6e4a067d0f7d7c"
+RPM_NAME = "ntfs-3g-2022.10.3-2.5.aarch64.rpm"
+RPM_HASH = "f63414fde5bc8e8e83e6910d2e8ca0af239659723bdcb578d6aa4090f6db2e096bdb53cf1a80418473bf50ba25842e847bc033a9c1672ce4dc4d567374673063"
 
 RPROVIDES:${PN} += "ntfs-3g \
 ntfsprogs-fuse"

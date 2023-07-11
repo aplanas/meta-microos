@@ -12,12 +12,11 @@ LICENSE = "MIT"
 
 PV = "23.3.0"
 
-RPM_NAME = "python310-black-23.3.0-2.1.noarch.rpm"
-RPM_HASH = "6f9078e48899e2b021de55f37fd20a88d11c8853ba22bd5bb365b8f1b6057d8f9122cd120a97d02b516c369cacbe81b6077538c5db3c3787f5baf5bc9c24dac1"
+RPM_NAME = "python310-black-23.3.0-3.1.noarch.rpm"
+RPM_HASH = "e5bc17fd509d3dbce77830c7af6ea8c719d19a8167a18d43af37e4ef4de3c5071c7517ec6f643debe2651e7b96f30412dfca8307da70bc4e0da7af2b22f1c070"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-black \
-python3.10dist-black \
+RPROVIDES:${PN} += "python3.10dist-black \
 python310-black \
 python3dist-black"
 

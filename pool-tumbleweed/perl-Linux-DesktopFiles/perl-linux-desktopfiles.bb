@@ -5,13 +5,13 @@ LICENSE = "Artistic-2.0"
 
 PV = "0.25"
 
-RPM_NAME = "perl-Linux-DesktopFiles-0.25-1.19.noarch.rpm"
-RPM_HASH = "a9ad14c6e65bc8a24fdc5cb690f708cd272e64bc86e22710c2cbe6f4e294c15ec1c05d8e0dc903112ee312baa35904b263d02a96ab89782b2812638cb7dda2cd"
+RPM_NAME = "perl-Linux-DesktopFiles-0.25-1.20.noarch.rpm"
+RPM_HASH = "b6a8ba6cfbc5f57c3edc94ef36fa561d4d8ae15bfc7098849dc67da2f27b63435b1088fec019127cf488c03f3d285f3141a57c5be753d78d440e1bc80aaf1755"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Linux--DesktopFiles \
 perl-Linux-DesktopFiles"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

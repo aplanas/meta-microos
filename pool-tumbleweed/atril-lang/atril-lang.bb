@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.0-only"
 
 PV = "1.26.1"
 
-RPM_NAME = "atril-lang-1.26.1-1.1.noarch.rpm"
-RPM_HASH = "b676fbc38a7b0b9601a3b35b56b5249390610cfcce0aed5cde3a3caca8fffc37e8113296cdd2accdda67e59e786daa925162b4606a73ea9fb037016ab348053d"
+RPM_NAME = "atril-lang-1.26.1-1.2.noarch.rpm"
+RPM_HASH = "3138550356550d084825e8429af69461fb3c4a14aecf604a9dff40be88680859ab23187e48a4329195be9f35597efb8625bf7a064d36d081aa21b30bbbe46f0d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "atril-lang \

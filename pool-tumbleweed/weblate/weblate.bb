@@ -20,8 +20,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.14.2"
 
-RPM_NAME = "weblate-4.14.2-3.1.noarch.rpm"
-RPM_HASH = "f4992647d5f2da56b1c935f2e18d78e4ff53f532028c9153efe2ac8250396d9af62fdcfae8f7033e493422877b0d4c4e97c46a80a8d7cbf176dc5ef9fc58a0f6"
+RPM_NAME = "weblate-4.14.2-3.2.noarch.rpm"
+RPM_HASH = "413e63e42d0ac767433758fbcead8e6bf0efdf0763c8e82441d62b86c4a77d598eb511629800435c754f359f3201ddced93ce163c08c7609a7ae01421185e688"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-weblate \

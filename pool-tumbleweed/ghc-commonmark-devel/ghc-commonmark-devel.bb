@@ -2,13 +2,13 @@ SUMMARY = "Haskell commonmark library development files"
 DESCRIPTION = "This package provides the Haskell commonmark library development files."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.2.2"
+PV = "0.2.3"
 
-RPM_NAME = "ghc-commonmark-devel-0.2.2-2.3.aarch64.rpm"
-RPM_HASH = "b8898fd6d5f19143f718fb7a672bda8d37b7b03399d352d2b74ba501dd2f43c978146db374d320dec1bd98cb1364e630e3b6975e96ea828cd39f68b16a88e0b3"
+RPM_NAME = "ghc-commonmark-devel-0.2.3-1.2.aarch64.rpm"
+RPM_HASH = "e4c750641bd41b12d4dc9f7c0ea21f81ddefa7e62f59c897e35b3f906cce95df232b601fa25814d2f25d6341f753414d503ee4a2511851835838bfe3ee305e67"
 
 RPROVIDES:${PN} += "ghc-commonmark-devel \
-ghc-devel-commonmark-0.2.2-3PrTrnYGJolB2uRqWVubZz"
+ghc-devel-commonmark-0.2.3-I1mjDgOYrWfJTVx5dvVv0G"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-commonmark \

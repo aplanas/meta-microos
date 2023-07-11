@@ -15,8 +15,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.19.1"
 
-RPM_NAME = "ghc-unordered-containers-0.2.19.1-3.3.aarch64.rpm"
-RPM_HASH = "a0185042245d14e80842c1475cb77e9e1cbc009f1459abf83b189f3e49432e855f9160017c4aa8da73b8a5debae4b835de08330fb5f60737b800cf45df58b7c1"
+RPM_NAME = "ghc-unordered-containers-0.2.19.1-3.6.aarch64.rpm"
+RPM_HASH = "f3ed0927285ac275f8990088cb5e6c017c9b065c52cc9161d2a40bf287ac0466d05fdcbf8b4518018172575a5925005ae55574181a797e8858949000566d2828"
 
 RPROVIDES:${PN} += "ghc-unordered-containers \
 libHSunordered-containers-0.2.19.1-KblUXVJ0SvRCcK89PoBx7E-ghc9.4.5.so"

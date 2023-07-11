@@ -8,8 +8,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.6svn49513"
 
-RPM_NAME = "texlive-randomwalk-2023.201.0.0.6svn49513-53.1.noarch.rpm"
-RPM_HASH = "73d349d7fb76cfc72cf7a286940b86d0ba775c6cc3e923a457f37b4e364e0968dcb6567f56f1cb5c08e29e8c0809c552367baacadbbc214034422e4bcbbd3ad7"
+RPM_NAME = "texlive-randomwalk-2023.201.0.0.6svn49513-53.2.noarch.rpm"
+RPM_HASH = "f2f2500eee6621938ac86cdc61c4299dbdb8d22e9090472332e49ee160793ca2981948806c441dfcccb81cc2994422076eebe705263bdaaf18d651df142806a6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-randomwalk.sty \

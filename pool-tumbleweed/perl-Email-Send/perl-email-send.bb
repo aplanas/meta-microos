@@ -6,8 +6,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "2.201"
 
-RPM_NAME = "perl-Email-Send-2.201-1.20.noarch.rpm"
-RPM_HASH = "80e772eb7c293568cbb5a4021adb3abb1c6ad947401aa973e22816d24e61adcdc55a66390f506bee13c4d806d400c8c33dcebec9ba90bf297f4b31e76d43517f"
+RPM_NAME = "perl-Email-Send-2.201-1.21.noarch.rpm"
+RPM_HASH = "4e4baae541cce8d63ed2112592dd4d3dce57c1d29a2f4264c28b3bce16b300a1bfd32e6f353fd4c97dcf2929ba4bbb7120c694938a50e57bd18bc29588fe5fa6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Email--Send \
@@ -18,7 +18,7 @@ perl-Email--Send--Sendmail \
 perl-Email--Send--Test \
 perl-Email-Send"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Email--Abstract \
 perl-Email--Address \
 perl-Email--Simple \

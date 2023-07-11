@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.14"
 
-RPM_NAME = "ghc-foldl-devel-1.4.14-2.3.aarch64.rpm"
-RPM_HASH = "d4faade32d7dd66849d206ab923940c67bc93b7251835ccd2abea56ec921012d7089178c091bc4540a2673111028b2208be5163750220ffc83bebc2ac63d5074"
+RPM_NAME = "ghc-foldl-devel-1.4.14-2.6.aarch64.rpm"
+RPM_HASH = "9f9479d0b0537846d4692450175b7f6e4634a56cd6f317ea038a12e2236ee5e91ee5cba29e13360120056b41ce9463b3268b848ebf1f48644a1365ed6eba66e2"
 
 RPROVIDES:${PN} += "ghc-devel-foldl-1.4.14-6AA7lw3dsEK1uUeCGro40c \
 ghc-foldl-devel"

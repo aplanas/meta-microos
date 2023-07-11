@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python39-azure-mgmt-storagepool-1.0.0-1.8.noarch.rpm"
-RPM_HASH = "11993ba78be6dc59471dacd8d779f0353909d1501b95ba8058c563519f4914071af5a8c5f6a09ea73f19d9caf995db6bcd48cfdb91c8b354cfa7488c3568bc05"
+RPM_NAME = "python39-azure-mgmt-storagepool-1.0.0-1.9.noarch.rpm"
+RPM_HASH = "a2dcf66556c44d7982516d2469ed6edf0bb93528fea3a193d9936af11a62e4708bf6e0d98f89edc1c88754bab362602e0c767253c9db1f85c422234ac83de6a2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-storagepool \

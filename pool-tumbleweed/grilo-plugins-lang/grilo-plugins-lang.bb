@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.3.16"
 
-RPM_NAME = "grilo-plugins-lang-0.3.16-1.1.noarch.rpm"
-RPM_HASH = "f6f17d109826e27455464f8e3372b87a465364b5c8f0112eb64ab00311cd2db18e32c38e5fa14da3f438b0cccccf0ef153aa222f315d28058ca347293d21706e"
+RPM_NAME = "grilo-plugins-lang-0.3.16-1.2.noarch.rpm"
+RPM_HASH = "4b8dd6413e6ace7f74aa5d0a987a5f86db26e489832f0f1536ba1e0412359b20e61534bb81a1fb90079c028694a2e9351e3ad05c72782339623ab75c7cd6c243"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "grilo-plugins-lang \

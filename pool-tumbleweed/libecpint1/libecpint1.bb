@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "1.0.7"
 
-RPM_NAME = "libecpint1-1.0.7-2.10.aarch64.rpm"
-RPM_HASH = "51040cf73e1834f795b8af4fec70d8f420dcc0fbfa215fd7d878642ba2ff3e1d32ce53aa74add7f87698a4d40acb455a4c72b0aeb95f0ef116cc75e3f297b739"
+RPM_NAME = "libecpint1-1.0.7-2.11.aarch64.rpm"
+RPM_HASH = "31c64d989db3d3b690e9683a375cb6e7705fa3bbbe7eaa40377d2369080c44870ac53fc8368c77636f85a26211d4ff9e8bd131a87dd2c18f24a4ec07eba95846"
 
 RPROVIDES:${PN} += "libecpint.so.1 \
 libecpint1"

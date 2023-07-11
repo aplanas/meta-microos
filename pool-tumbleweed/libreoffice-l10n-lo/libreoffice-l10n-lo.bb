@@ -2,10 +2,10 @@ SUMMARY = "Lao localization files for LibreOffice"
 DESCRIPTION = "Provides Lao translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.1"
+PV = "7.5.4.2"
 
-RPM_NAME = "libreoffice-l10n-lo-7.5.4.1-1.1.noarch.rpm"
-RPM_HASH = "b25e030b2f69c0a6c9058ce325f0dfab44c6a2110d6cc80ea3ec255fd8c0d04b0e4ceff81ac07397cd52db1b1e5ad2faa062635e3d3bbc6ed70ee2f57befb576"
+RPM_NAME = "libreoffice-l10n-lo-7.5.4.2-1.3.noarch.rpm"
+RPM_HASH = "f6706bd97a5e81ee06dede01a5dc19084507ff07644a6c7b0c85418c4420606f717b15336f74c292ff29184be53da3d5e25d84e9ae196c9327299097419b18ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-lo \

@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20221218"
 
-RPM_NAME = "libclocale1-20221218-1.2.aarch64.rpm"
-RPM_HASH = "bb6a839901fad2bfcbdcf12a727e335623411758494e4225fe337fbf9571e222d866a50a97c7f2ae1f8c691beba9248a8c8b4cf69e689210b34daca507c94d04"
+RPM_NAME = "libclocale1-20221218-1.3.aarch64.rpm"
+RPM_HASH = "a141a406d4cdd675388d4b304df116ef4c5220ead03c6078cce7bd0ea7311aeddd3ada97832caa769b1960f17bdee9d878722b2b0fd72dd415b5785b17c96a16"
 
 RPROVIDES:${PN} += "libclocale.so.1 \
 libclocale1"

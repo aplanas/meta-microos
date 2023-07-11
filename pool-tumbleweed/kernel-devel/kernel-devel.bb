@@ -2,15 +2,15 @@ SUMMARY = "Development files needed for building kernel modules"
 DESCRIPTION = "Kernel-level headers and Makefiles required for development of \
 external kernel modules. \
  \
-Source Timestamp: 2023-05-29 06:22:29 +0000 \
-GIT Revision: 2c66b1f470678d30f7dc560d1f3770e6e13b5e65 \
+Source Timestamp: 2023-06-22 03:53:43 +0000 \
+GIT Revision: 0df701dd2c208f4843cf219b4b26b533ada9bd34 \
 GIT Branch: stable"
 LICENSE = "GPL-2.0-only"
 
-PV = "6.3.4"
+PV = "6.3.9"
 
-RPM_NAME = "kernel-devel-6.3.4-1.1.noarch.rpm"
-RPM_HASH = "90330003fc3ca1032e530f5857aec5993f8cfb1119f70b8fa9265f6219b82e6fa8f2251634da2466d2e98cfc355d74d07fe37662f60e300b36ecc11659349c57"
+RPM_NAME = "kernel-devel-6.3.9-1.1.noarch.rpm"
+RPM_HASH = "ba51e4e2b41aeb53432a3d9321b45014affe27c1dd8cf8200a17f0c6503d43b119f080ed7573aadcb8a1e9829163ca8234c46776ea3b9fe49e07e7c617440739"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kernel-devel \

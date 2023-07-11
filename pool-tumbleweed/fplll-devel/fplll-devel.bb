@@ -12,8 +12,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "5.4.4"
 
-RPM_NAME = "fplll-devel-5.4.4-1.3.aarch64.rpm"
-RPM_HASH = "db867dd7980d02b9c63dfdf0a7c8341e80fcd00150e194e01749d00a0d88ca4e44dec543e342827e87a45edd0c4580d79feec56965f8d1d8947be874fc53fa8b"
+RPM_NAME = "fplll-devel-5.4.4-1.4.aarch64.rpm"
+RPM_HASH = "31cba7606d85f8e96bcfa90fba0589f52a91a2c578560474ab1a9f41876597958126998cc4e9a0ad6bf056f8cf22e5ade6ae8624d080717e327ec21392d2bff1"
 
 RPROVIDES:${PN} += "fplll-devel \
 libfplll-devel \

@@ -18,14 +18,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.14"
 
-RPM_NAME = "perl-MooseX-ConfigFromFile-0.14-1.23.noarch.rpm"
-RPM_HASH = "eca49d47e054483958e7434a77b9e34d69ac10f139cf75de3853cbd8c6d8c05523c666f146c00e1ff6c94e516e593fcce66ec23fd6420bd9a7473bca844d72ee"
+RPM_NAME = "perl-MooseX-ConfigFromFile-0.14-1.24.noarch.rpm"
+RPM_HASH = "4daedacbda35d86d598866374142c3102f758b23fe9b3e1048687d3667c1494c8e56b715c074d2290f0acb49faeb552b07f94ff15f5b8629e4d08a04a1552bb9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooseX--ConfigFromFile \
 perl-MooseX-ConfigFromFile"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Moose--Role \
 perl-MooseX--Types--Moose \
 perl-MooseX--Types--Path--Tiny \

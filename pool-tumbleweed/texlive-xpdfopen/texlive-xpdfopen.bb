@@ -9,8 +9,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2023.201.0.0.86svn65952"
 
-RPM_NAME = "texlive-xpdfopen-2023.201.0.0.86svn65952-52.1.noarch.rpm"
-RPM_HASH = "201be3ea8c0d35b2ba2dff8be96eb5b625f3a00fff042611629dbe542c802498eba56e0fe7d736b283867088734b9de402d3b816990d373f4e30456416159d26"
+RPM_NAME = "texlive-xpdfopen-2023.201.0.0.86svn65952-52.2.noarch.rpm"
+RPM_HASH = "f9fb574e443afd13e16a3a8bb214aff7983c2c5f7d9b6b0495636cce5b0d521d33ac82b165af9c0c1c92b8c3d01ea732a9e75cbd11a2ede0d63b14715f6d31ba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-pdfclose.1 \

@@ -16,10 +16,10 @@ Other profiles, like the CIS profile, are community supplied and \
 not officially supported by SUSE."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.1.66"
+PV = "0.1.68"
 
-RPM_NAME = "scap-security-guide-0.1.66-1.3.noarch.rpm"
-RPM_HASH = "a23f932eb4c5f93af7358a4f1ddabb7f754d4974417c7bacd501032116df88444c066277852590f6c816b601e0d193b9a00effc70b8fe69f117ded2e1101a41f"
+RPM_NAME = "scap-security-guide-0.1.68-1.1.noarch.rpm"
+RPM_HASH = "a31a483614ca56cedf4802ab1f634f77ca8671d4633187bc2f256dbb62a7066cea151f19c25922d5787f56b80b7d6d306d023a6a4b1ab2f32362a50364bd3dc1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "scap-security-guide"

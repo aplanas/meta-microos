@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.9.0"
 
-RPM_NAME = "python3-arpack-ng-3.9.0-1.4.aarch64.rpm"
-RPM_HASH = "74dced43e29c2e619b57d0bbb11c333f1d8e17fbbe71037906f83931bd1c21c8c0bb97bf777204edac8f0dc0b800e7d5b4d4859c487c8c3ec6ea1a5f7c99a606"
+RPM_NAME = "python3-arpack-ng-3.9.0-1.5.aarch64.rpm"
+RPM_HASH = "ea8361c2da4065bb016a9ab393ac6006b9817febd68b1ae348371e3d8554f09874f7fabe5c119f2354164562a9f462565ce2ad100250b4d9d0a1bd6d5ad17a09"
 
 RPROVIDES:${PN} += "python3-arpack-ng"
 
@@ -19,7 +19,7 @@ libgcc-s.so.1 \
 libgfortran.so.5 \
 libm.so.6 \
 libopenblas.so.0 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libstdc++.so.6 \
 python-abi"
 

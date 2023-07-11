@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.1"
 
-RPM_NAME = "ongres-scram-parent-2.1-2.10.noarch.rpm"
-RPM_HASH = "a2a79e90262a640b7e62ad3b2aed593170e64d874c1bbc0f61c0e7a8fcad19795b88162a938c667546ab715167a4974f6b8b21844fb1253decfb8ef629b9bfd8"
+RPM_NAME = "ongres-scram-parent-2.1-2.11.noarch.rpm"
+RPM_HASH = "8e5eb6cefc412d7aea1022db0e92bc972d05295e5404f60a6f8ce55242bdf6370e76ac2d20f8110485a4c9f1ae1d5f18ecbe619f412f56064bf5d08e680e67cf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-com.ongres.scram-parent-pom- \

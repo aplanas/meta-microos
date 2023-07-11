@@ -19,8 +19,8 @@ LICENSE = "EPL-1.0"
 
 PV = "1.0.4"
 
-RPM_NAME = "paperclips-javadoc-1.0.4-3.6.noarch.rpm"
-RPM_HASH = "a73fda65764052ede189dc127d73ffbdd00709682b3c55fb96d44ceaed27e6a8b2abebbc9bcb191562d799a579a91a583e2923433dbf6445fc4ac2dd64d67134"
+RPM_NAME = "paperclips-javadoc-1.0.4-3.7.noarch.rpm"
+RPM_HASH = "32ec7e985b2b4105f8ba95914da2f10d2d1302134e8993ca58718cd4e3132ee70a25f1de606d143b6274d3d66a4b5dadb5ab02b168837513e1bc9b9d8aba451f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "paperclips-javadoc"

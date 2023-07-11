@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.6.3"
 
-RPM_NAME = "libapr-util1-0-1.6.3-1.2.aarch64.rpm"
-RPM_HASH = "04b2712d254224fc05f80f331615269e73968f4fd72523baad2f6d53ad3af18645141c0fafe234fe66fc0f768945e2374645178fad6452db389972fcfe6e86f4"
+RPM_NAME = "libapr-util1-0-1.6.3-1.3.aarch64.rpm"
+RPM_HASH = "478895210b25b5d3a345328cf0982ef5714c0937a3b5a0808d1f0dcede424f9964abff1c5205aa5798777d38ed2daa6d71b5da14c171cab129f55fb7f6f3a219"
 
 RPROVIDES:${PN} += "libapr-util1-0 \
 libaprutil-1.so.0"

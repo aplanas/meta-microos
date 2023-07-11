@@ -5,13 +5,11 @@ LICENSE = "Apache-2.0"
 
 PV = "8.13.5"
 
-RPM_NAME = "python310-phonenumbers-8.13.5-1.3.noarch.rpm"
-RPM_HASH = "a081463b66c4ca65b0ef450b87799c95023ceb889d0fa1907d9c63a5c5283e05e66969180c91970f7634175489d9f35bf09da7afe186b2161bf91e41b4238180"
+RPM_NAME = "python310-phonenumbers-8.13.5-2.3.noarch.rpm"
+RPM_HASH = "f99acb5be9da071b76a84a4c782171722f89d5afa1afb0c665f1ee3ff4b6f85634765d540a3bee1bc9f07afff27c57e9a2a1dc028d95b718e492a5bb425f2d2a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-phonenumbers \
-python3-phonenumberslite \
-python3.10dist-phonenumbers \
+RPROVIDES:${PN} += "python3.10dist-phonenumbers \
 python310-phonenumbers \
 python310-phonenumberslite \
 python3dist-phonenumbers"

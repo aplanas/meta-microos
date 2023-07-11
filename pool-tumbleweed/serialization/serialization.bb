@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.1.2"
 
-RPM_NAME = "serialization-0.1.2-1.16.noarch.rpm"
-RPM_HASH = "9999c088e56ad45446093ca2d211ddfa39ce7815cc2eb4e64400ab978f244e2c2a42515dd1b27bdf09176ae5fb2809ac0196d55185c71309ed44b898a4406354"
+RPM_NAME = "serialization-0.1.2-1.17.noarch.rpm"
+RPM_HASH = "bbc5f91a0d7a8116c2dbcc6352f075444c6eac11072205961d625797ba4ee9a3309789769fb5eaa73ccc7b8c37f4cc8e887b7dce4dac7163ef6ac425f758cb4c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.scala-sbt-serialization-2.10 \

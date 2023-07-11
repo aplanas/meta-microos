@@ -8,8 +8,8 @@ LICENSE = "CC-BY-3.0 & CC-BY-SA-3.0 & CC-BY-SA-4.0 & GPL-3.0-only"
 
 PV = "0.9.16.1"
 
-RPM_NAME = "endless-sky-0.9.16.1-1.1.aarch64.rpm"
-RPM_HASH = "d1796703c6f81aedd302da6e71474f756d6db5f40d5c60899aee582e18972800d849769b58f78f8c0f2508c385ffbe1a5c477ed267771e9d4c5ef9328bbffdb5"
+RPM_NAME = "endless-sky-0.9.16.1-1.2.aarch64.rpm"
+RPM_HASH = "51924d5e19e84aaf7738a20677219c3df5b2c6133e94a889ced6ff0bbfc8941ddb0f99f964152d35dee7e743fb42bca239d658d2577fc9eca3b11f8aff6451a2"
 
 RPROVIDES:${PN} += "endless-sky"
 

@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.50.14"
 
-RPM_NAME = "libpango-1_0-0-1.50.14-1.3.aarch64.rpm"
-RPM_HASH = "0c60d79316103347eaab20035c6ab31c947dbc8596dca3fc922c00aa15a4edd27c62000d3abe7f7a090862e4d3b41e486b99847dd273ee1abffe4776415d2bbc"
+RPM_NAME = "libpango-1_0-0-1.50.14-1.4.aarch64.rpm"
+RPM_HASH = "2aebb7712fe7d729fa89591eb1a9337c684b2b536e84f4e88235fa86b7e131ea31fd5ad6e816e1852973971649b34b40310397c2e8fff7a027eba2b053501622"
 
 RPROVIDES:${PN} += "libpango-1-0-0 \
 libpango-1.0.so.0 \

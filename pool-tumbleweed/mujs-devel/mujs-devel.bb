@@ -4,8 +4,8 @@ LICENSE = "AGPL-3.0-or-later"
 
 PV = "1.3.3"
 
-RPM_NAME = "mujs-devel-1.3.3-1.1.aarch64.rpm"
-RPM_HASH = "3fe8205333848f2a7a6f28f4eb1b7dc95d7295569893cc61fd50e3b29e91f96dfc1fe2604a1584477eb4e425bf34e3a0c381bdfb600855492dcb9c755b0900ad"
+RPM_NAME = "mujs-devel-1.3.3-1.2.aarch64.rpm"
+RPM_HASH = "82b588940ce6b5f87b0a46200d759580c6b77a4961a0e17f2809ec396ae690d45c5f4757b86db265122678d28b7c7f9e9f49ed89e842c9b4d86d04184ac8d390"
 
 RPROVIDES:${PN} += "mujs-devel \
 mujs-static \

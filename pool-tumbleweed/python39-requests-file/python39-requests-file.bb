@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.5.1"
 
-RPM_NAME = "python39-requests-file-1.5.1-2.8.noarch.rpm"
-RPM_HASH = "27c0ebf52cca0458765b2bf8a889630f968536d024742e42043e62503299fe478aff9646c7c58d5e2d8f61a833bad69f38af908a3b45423d101e81c7abfc0d36"
+RPM_NAME = "python39-requests-file-1.5.1-4.1.noarch.rpm"
+RPM_HASH = "962e50a95bf82a218c5f7ab13352bef7ba950809282143071c09d7b3efcde7933d0d92ba7c02c800fe0a04cef15c0377bf181f81a637a5666959beedb05e7154"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-requests-file \

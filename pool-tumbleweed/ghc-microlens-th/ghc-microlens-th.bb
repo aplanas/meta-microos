@@ -9,13 +9,13 @@ microlens> family; see the readme \
 <https://github.com/stevenfontanella/microlens#readme on Github>."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.4.3.12"
+PV = "0.4.3.13"
 
-RPM_NAME = "ghc-microlens-th-0.4.3.12-1.2.aarch64.rpm"
-RPM_HASH = "9448be74c66fd4574c31e733422e8c531396c495356d5d44282e8a8c0e0e479856c8dadba32753308ebd7a6be2d8f6471af0c761ab02ae1c83877b9eba206c55"
+RPM_NAME = "ghc-microlens-th-0.4.3.13-1.1.aarch64.rpm"
+RPM_HASH = "024b5b4c3c8444245f5633f0949fa650d37ecb490286f1712342c2f5c0269175627669c813f8ec13ed7143d7182eda5df1cafdfee23148a53621a71c763a5534"
 
 RPROVIDES:${PN} += "ghc-microlens-th \
-libHSmicrolens-th-0.4.3.12-A1OnPrF7gbKLp2skY17lAG-ghc9.4.5.so"
+libHSmicrolens-th-0.4.3.13-4M5tTOX0ioLGTMiKBp6v2C-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
 libHSbase-4.17.1.0-ghc9.4.5.so \

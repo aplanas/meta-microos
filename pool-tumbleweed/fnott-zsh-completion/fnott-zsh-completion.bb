@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.4.0"
 
-RPM_NAME = "fnott-zsh-completion-1.4.0-1.1.noarch.rpm"
-RPM_HASH = "3dacda4a09ae4e98c59c3c2b9b9ef40402fbdfb99d19688fb02d3c4b3fabd6edc59d27438943be86662757fdae6566512510e68f0679378ff88b047cc7308738"
+RPM_NAME = "fnott-zsh-completion-1.4.0-2.1.noarch.rpm"
+RPM_HASH = "518262d9ed2f1be2e52cb71e5491019caa8dfe85e21b80e1bc5d74add473e799fe97f6469dfcae920ad361fee9eb1bbda09929d72ae86f0c206ccad78ae969d4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fnott-zsh-completion"

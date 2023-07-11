@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.5.3"
 
-RPM_NAME = "amanda-3.5.3-1.2.aarch64.rpm"
-RPM_HASH = "3df242c1aac0890ed43bc7bbbde12cac3782f1e255e414b52555721eccc61f499c7249ebcbafb8b944f2282333e1f389ec3f7fdd8280ca9dec6b5691bb36d594"
+RPM_NAME = "amanda-3.5.3-2.1.aarch64.rpm"
+RPM_HASH = "a1d0361e5a3adff142bea98e6a1de9d543ac538a07d641d5072e0748f1aa2911a3c6e721ec14cf872b208d2cb8cdc8f4c31d004779df2b4d7f4efbc43ee58112"
 
 RPROVIDES:${PN} += "amanda \
 config-amanda \

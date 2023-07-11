@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.25.0"
 
-RPM_NAME = "linode-cli-bash-completion-5.25.0-1.4.noarch.rpm"
-RPM_HASH = "7c5b9b9a60a2e40324f737a4abccabdebd1f6efecc56fb244b3585674319f03f8594bb6ab4e24f858c2d28319e7233c4aea9e853364ebad7e423962f3216fc98"
+RPM_NAME = "linode-cli-bash-completion-5.25.0-1.6.noarch.rpm"
+RPM_HASH = "edac07e163ee4c20f722f6f1f9062f93919a2e218cfeb784d49dbcd5d3363d9b2c15e1e872673938579581c1aeac6fddfd5323105d3a9d452c54211d3f0ef74c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "linode-cli-bash-completion"

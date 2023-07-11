@@ -7,10 +7,10 @@ removal. \
 This package contains headers for knot."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.2.6"
+PV = "3.2.8"
 
-RPM_NAME = "knot-devel-3.2.6-1.1.aarch64.rpm"
-RPM_HASH = "42d1e0e453832222a28f90c4904e12835c09377f6c09b402487810025daef78320298e0c2e1cb0637a0fd0495f67ae02992355e09a8c61884cd9c72869e0f205"
+RPM_NAME = "knot-devel-3.2.8-1.1.aarch64.rpm"
+RPM_HASH = "5f64809d43a41523d24516ea6219298c1bbaad0069e43ba81254b647aeb1ccfe063d826fe73d06580251715c11c6e65f0f29d36238a5906e11a49ad59e9ee0fb"
 
 RPROVIDES:${PN} += "knot-devel \
 pkgconfig-knotd \

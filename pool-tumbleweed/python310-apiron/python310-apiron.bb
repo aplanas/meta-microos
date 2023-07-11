@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "7.0.0"
 
-RPM_NAME = "python310-apiron-7.0.0-1.3.noarch.rpm"
-RPM_HASH = "1fb57267c59408e5f758ba93b5a2182f2b804453bb3bd01622cb42214d423d1a8a9c5c4108a0c580b20eb10b39762e6c42d4856201a34064a21a5681d9178fd0"
+RPM_NAME = "python310-apiron-7.0.0-1.5.noarch.rpm"
+RPM_HASH = "bf386857125f053283711b410a8af3a01e5f22e4a43308aea29330802b22d2deb8656fc7f913bdafbf75260785afc82a9099f2408a7f86332a4e75a0ec61b041"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-apiron \
-python3.10dist-apiron \
+RPROVIDES:${PN} += "python3.10dist-apiron \
 python310-apiron \
 python3dist-apiron"
 

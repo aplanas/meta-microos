@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.3.0"
 
-RPM_NAME = "python39-sat-search-0.3.0-1.4.noarch.rpm"
-RPM_HASH = "bfd9d46280245f8542d1e3901568f7a56eaecb7eb908124b65667c007225a8a5236bc9391f93b3a5ed18ae258b3ee073b91f96d018ea966a841c12d551d1e3b2"
+RPM_NAME = "python39-sat-search-0.3.0-1.6.noarch.rpm"
+RPM_HASH = "7ef000708356c867754bd0c751b2d792fed4f88737483e2404ce65c1a2c43b68bf0c186837e62c91e769bb08f842b71f57e3b5dd076921e3553d803d964bb16f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sat-search \

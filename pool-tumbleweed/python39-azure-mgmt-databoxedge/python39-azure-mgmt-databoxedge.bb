@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0.0"
 
-RPM_NAME = "python39-azure-mgmt-databoxedge-1.0.0.0-1.8.noarch.rpm"
-RPM_HASH = "05a58f97d221b53eeeaa1023ff080b58e523ac825def3981fc6b1291ff8e9691317ba73cf3f68c367996972ee1206f4df20a98dc341684e839d879dda7ff2984"
+RPM_NAME = "python39-azure-mgmt-databoxedge-1.0.0.0-1.9.noarch.rpm"
+RPM_HASH = "7a3b7e3d745998ca8a2b6583c6479296b738f47c68389b9ce9bebd213b68ed5b75737ba4f7fc0bd2eaee9cde49aff36fa8d6aba4f12c7664a75f6067ada5c207"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-databoxedge \

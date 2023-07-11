@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kgpg"
 DESCRIPTION = "Provides translations for the 'kgpg' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kgpg-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "fac879de4d72e9b21ccf0511786d6384b76c74d3f4136998c4ede4b1d352ee6b60c1bb58f37d8a3808f6c3f997e3e95ffa9285f88ceb37fda7ce1d5612f18503"
+RPM_NAME = "kgpg-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "28cb25f78c04550c2a311a4cd4f44e8a80d6ded0e101915f15d0dc9fadb0bebe46bc05485ec5053ee95a07db370d4511a5c72c17c9e4947d3c6bd0d12bc734e2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kgpg-lang \

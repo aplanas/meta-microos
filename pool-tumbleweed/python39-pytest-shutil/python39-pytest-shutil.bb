@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.7.0"
 
-RPM_NAME = "python39-pytest-shutil-1.7.0-6.3.noarch.rpm"
-RPM_HASH = "7cfafb03af59fdcb5ea2fa32f13c0ab4d93271cad63d6ffbacb4225c73bea325df6bd7b709c3653af07b3105249fd45411d1bfe14ffc0c0b47a3097881f35fe3"
+RPM_NAME = "python39-pytest-shutil-1.7.0-7.3.noarch.rpm"
+RPM_HASH = "0ff3efa7861c55e909c19a8834381ca0542df7668e9f1ef06de00765d0c44a380d28f480219f1b6e7b20291f102068b9fa61fd717c3a0ae9b60fe73021e7ed2a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytest-shutil \

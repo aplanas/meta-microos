@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.3.6"
 
-RPM_NAME = "xmpp-dns-0.3.6-1.2.aarch64.rpm"
-RPM_HASH = "bafddd3cddb8ed5b814aea4faab99a78c4421df2c54008f1bebf4398df00edd18598b1b6cfbf5117786d5543cdb8a5fc31ae76cc7a0949603934e722072b21df"
+RPM_NAME = "xmpp-dns-0.3.6-1.3.aarch64.rpm"
+RPM_HASH = "a394a041f3f713ad1d4f07bacb3f2199662c8e584960290191464eda8fcf1d62c5ac58e56b6046e3ff71282785b1c050f4c3a04050bad4254ea2191570d75e47"
 
 RPROVIDES:${PN} += "xmpp-dns"
 

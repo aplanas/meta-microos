@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.7.0"
 
-RPM_NAME = "python-logzero-doc-1.7.0-3.8.noarch.rpm"
-RPM_HASH = "144f569712bb4bd9fb005ac79f6fdb4608e187188f1dc057199cdc967f662fcc734ef3ba60adf82cc8b4dde2f6fb7ea943a254391f55bca56128b711b151e64d"
+RPM_NAME = "python-logzero-doc-1.7.0-3.10.noarch.rpm"
+RPM_HASH = "e34a20150200d4bd67fb5ac3a6756a381170560bf8d8cf6ad1e62dbe2edf6788d8da43b7cde4d9a1308b95579f5e3d97d7df116a970ea8838eb0aafc7588e381"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-logzero-doc"

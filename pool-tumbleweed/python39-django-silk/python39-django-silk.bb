@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "5.0.3"
 
-RPM_NAME = "python39-django-silk-5.0.3-1.4.noarch.rpm"
-RPM_HASH = "8c115ccab1bc54a8cb11314fbcf4d47d7f52b68479a25ca5da7ea8add019d7339145cb0e8c4a9ec43b15bd0ceb373e273e7139664d02a5bf72d17be7cdd78f19"
+RPM_NAME = "python39-django-silk-5.0.3-1.6.noarch.rpm"
+RPM_HASH = "aa8b24ebc0f7d91ee1eca39dae2109d5abd618e561adf7b00d98a05c6e27384ea695b1cea019e189f219c0b3a39c15c69d95d877f7544f2082b5953b4168718e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-django-silk \

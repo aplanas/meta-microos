@@ -17,8 +17,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.0.2"
 
-RPM_NAME = "ghc-sop-core-0.5.0.2-4.3.aarch64.rpm"
-RPM_HASH = "7392eb34babbe753fdd520df36a6b7820d82b3f58840e8ea191dd45fc695f1d34a7475fa58d448b6eced09340681a6cb531b649e4e3a538e518962f9d42c72a0"
+RPM_NAME = "ghc-sop-core-0.5.0.2-4.6.aarch64.rpm"
+RPM_HASH = "6222b3d109d211877d72c022e72fff1eb71906ec1ca3cc4eb04af7d72dcc0d3da1706c6961c6f8be008760c9c3faccc7982b09d5fcac2ea84eb51d1b71d4e2c6"
 
 RPROVIDES:${PN} += "ghc-sop-core \
 libHSsop-core-0.5.0.2-C2iIEVjE1N8Lg8Q4QDHkLe-ghc9.4.5.so"

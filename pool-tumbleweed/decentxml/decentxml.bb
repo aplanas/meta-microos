@@ -11,8 +11,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4"
 
-RPM_NAME = "decentxml-1.4-4.10.noarch.rpm"
-RPM_HASH = "e5028cc9d4e01c299f0f08deeff7400934b55dc4f45ed7e7a43ecdc738fb01a7c7a3fc7aea3de7cb3047e0ed4d9f19a3d611d002aefee424fd059edab4ff15be"
+RPM_NAME = "decentxml-1.4-4.11.noarch.rpm"
+RPM_HASH = "d5efa058802f53962aa11051e1e26a56db794a6e325f261e31b11599881e08171699dcfdc6a3cbfd2624cf2d60d78e7729bc87575bb3e5300f53d36477033048"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "decentxml \

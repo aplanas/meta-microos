@@ -4,12 +4,11 @@ LICENSE = "SUSE-GPL-2.0-with-FLOSS-exception"
 
 PV = "8.0.19"
 
-RPM_NAME = "python310-mysql-connector-python-8.0.19-2.16.noarch.rpm"
-RPM_HASH = "d6f70fbeeae2f283ca8d7efea9ae1cb9415b6d1b477366e68fbb50e7caf34c25516b48d072d48488c320158a42cfb8428bfd8141a6d69fdeba93a49bcbbe5942"
+RPM_NAME = "python310-mysql-connector-python-8.0.19-2.17.noarch.rpm"
+RPM_HASH = "dff839b5289d65d09faf0c8810c1bfd585dc3c1c0d065bacf0ce950d3d85ae00fa85e2499e2310a82ce7574dc099a855a8b37264c30696f792c1379df107588f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-mysql-connector-python \
-python3.10dist-mysql-connector-python \
+RPROVIDES:${PN} += "python3.10dist-mysql-connector-python \
 python310-mysql-connector-python \
 python3dist-mysql-connector-python"
 

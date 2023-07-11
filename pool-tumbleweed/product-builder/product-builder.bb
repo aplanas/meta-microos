@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.4.13"
 
-RPM_NAME = "product-builder-1.4.13-1.1.aarch64.rpm"
-RPM_HASH = "694383f6d6ce413fee06c13a7d85ed67609ab60d4c2ff6ad44c1f54139c9b6f1cd33f472fb864c12324b7a48dda95c3fdd3271e109efe791de37fcff43d86a03"
+RPM_NAME = "product-builder-1.4.13-1.2.aarch64.rpm"
+RPM_HASH = "87d2625d48b384c214d466864fb92ff44cd1050aac8b6015d2e8e682b6a728b33d87015fbb8bbf11729dda8d9e6f022034d762e975c67693a728dd05a1eaf0f8"
 
 RPROVIDES:${PN} += "kiwi-packagemanager-instsource \
 kiwi-schema \

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.7.1"
 
-RPM_NAME = "python39-urlextract-1.7.1-1.4.noarch.rpm"
-RPM_HASH = "8eb9b261bd74c2c9874b349c45e07785da013a5a61664f22f621a9d9e0530369f03834eda33c476f2a3f8f039d46993837e5afd162199eea272d909ef56512df"
+RPM_NAME = "python39-urlextract-1.7.1-1.6.noarch.rpm"
+RPM_HASH = "921ae5a038a2aac941fec0ac9c673225813864a27b92dbf57e04704dc837a585d831a2fb11779e311975f503a6a26df09c9a1e3bb3b14c0497030857084d6da0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-urlextract \

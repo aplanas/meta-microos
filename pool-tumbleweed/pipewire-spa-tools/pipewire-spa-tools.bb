@@ -4,10 +4,10 @@ DESCRIPTION = "SPA or Simple Plugin API is a plugin API. \
 This package provides spa-inspect and spa-monitor tools."
 LICENSE = "MIT"
 
-PV = "0.3.71"
+PV = "0.3.72"
 
-RPM_NAME = "pipewire-spa-tools-0.3.71-3.1.aarch64.rpm"
-RPM_HASH = "d191a88edf78963539a641f9feaa3693352ef75792c7cd01be8f1bc76e9e558edf09d85a3c0b7ffd7118a41b2e9d5d1dfe8677d05aeafcb1f59d26d111e72549"
+RPM_NAME = "pipewire-spa-tools-0.3.72-1.1.aarch64.rpm"
+RPM_HASH = "82c745ff3dbb42a7232ad98d91f2c6e8ab9731b6abf572d667cc12ecaeca9e4fbc2d1d93650a088d94bef556f1fc364bf641e696766a7bfe42abf9eb1ba9137d"
 
 RPROVIDES:${PN} += "pipewire-spa-tools"
 

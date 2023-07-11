@@ -7,11 +7,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.10.4"
 
-RPM_NAME = "python311-pybind11-2.10.4-2.1.noarch.rpm"
-RPM_HASH = "e3b85844783d41783e98a66df86f3e070b43a2214193342038b4b86261efe776f1f23d89358ab02c792c2d9c8aaf8c895660609da51a3eb298502a9001cdaedb"
+RPM_NAME = "python311-pybind11-2.10.4-2.2.noarch.rpm"
+RPM_HASH = "9f792783f4692d4ef3cf4e7cecedfb915820ba8cad071ce74683240064cb59d82f3d6d25a6a5d500961a30fbdd9cb6c49894eee1a043b46530eda188b8278a3b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pybind11 \
+RPROVIDES:${PN} += "python3-pybind11 \
+python3.11dist-pybind11 \
 python311-pybind11 \
 python3dist-pybind11"
 

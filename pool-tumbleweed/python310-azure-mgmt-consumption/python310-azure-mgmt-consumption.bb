@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "10.0.0"
 
-RPM_NAME = "python310-azure-mgmt-consumption-10.0.0-1.4.noarch.rpm"
-RPM_HASH = "70c9a8af11c5ded41659554dfaf9fb967533ac5301a146f42b814ddfa22d85d6000752300feb118e15f4ea4dd441d90d407ab8c91a84bdf9296b8c10fc035233"
+RPM_NAME = "python310-azure-mgmt-consumption-10.0.0-1.5.noarch.rpm"
+RPM_HASH = "cbbec0ce145dd2641d0ad4050d0adf4d8026d64d8bb7438c4f23b78762686494ee8093f2d7c0547ede8aad8d44c9530c16b2bab6e96189e0763c1cd0aa186daa"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-consumption \
-python3.10dist-azure-mgmt-consumption \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-consumption \
 python310-azure-mgmt-consumption \
 python3dist-azure-mgmt-consumption"
 

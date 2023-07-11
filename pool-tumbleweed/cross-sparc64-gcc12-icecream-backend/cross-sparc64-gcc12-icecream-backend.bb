@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "12.3.0+git1204"
 
-RPM_NAME = "cross-sparc64-gcc12-icecream-backend-12.3.0+git1204-1.1.aarch64.rpm"
-RPM_HASH = "a14ebfceb7060c1f56e684ff79fe34859e75adc6a33d1783a0781cafd4daa674675596faee6e1f0796ccfad82816545524a1b5f6567a8220bb87b551edd046a5"
+RPM_NAME = "cross-sparc64-gcc12-icecream-backend-12.3.0+git1204-1.2.aarch64.rpm"
+RPM_HASH = "6689c7e2ec9f68edafe49e394e8a802a0611edb94374953e8295681470171f2203250fc2a0cd21f47ed91c31bca762bdd00c28ff8cbf9d132b99770527961dfa"
 
 RPROVIDES:${PN} += "cross-sparc64-gcc12-icecream-backend"
 

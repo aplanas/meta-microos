@@ -11,12 +11,12 @@ LICENSE = "MIT"
 
 PV = "1.0.1"
 
-RPM_NAME = "python3-bump2version-1.0.1-2.3.noarch.rpm"
-RPM_HASH = "ae177865e97a6e69cf44b8514c269be28e2f53e6322c5660477fb34b7033bbbf9534ed9d96c84790036b2bbd33936d7fc6a562b3d9f1a3b35ff2e5919a3c2086"
+RPM_NAME = "python3-bump2version-1.0.1-2.4.noarch.rpm"
+RPM_HASH = "1be928d731d414ef0f22e0b03d54881cf1ec173d4034ef93484776d9327bfcd3356220284542915c88d29384d0132fe31bc2d68a223029df21a95830b8a9147d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-bump2version \
-python3.10dist-bump2version \
+python3.11dist-bump2version \
 python3dist-bump2version"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

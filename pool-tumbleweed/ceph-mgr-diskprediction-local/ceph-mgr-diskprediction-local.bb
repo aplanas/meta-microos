@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1 & LGPL-3.0 & CC-BY-SA-3.0 & GPL-2.0 & BSL-1.0 & BSD-3-Clause
 
 PV = "16.2.13.66+g54799ee0666"
 
-RPM_NAME = "ceph-mgr-diskprediction-local-16.2.13.66+g54799ee0666-2.1.noarch.rpm"
-RPM_HASH = "190196b111739b0b22f9357b840b0de6529203f7118cbbcfc57f2e2abb6416036c62d920ca692de3eb2415267b5ed7285df5be4a5af17fc3c8006c659dadeefe"
+RPM_NAME = "ceph-mgr-diskprediction-local-16.2.13.66+g54799ee0666-3.1.noarch.rpm"
+RPM_HASH = "a688f3f7086eb599c1869bb166ede31be60004e052d5c00474465fe04fe251156bacb5bb9e0a19ecbd6607eed1ce1c713ee48a6186b740f338ece1d2d4335114"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ceph-mgr-diskprediction-local"

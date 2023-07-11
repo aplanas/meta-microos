@@ -9,8 +9,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.0019"
 
-RPM_NAME = "perl-Config-Identity-0.0019-1.10.noarch.rpm"
-RPM_HASH = "8608b01bd5ed6d6f044eede1f6c8f082a9b67c352c2912cde0dc001e252ba889ea6cdf728f40b2574b54f7723b620c08aa6b14c19ba89a2fc4d2065ee70ab0cd"
+RPM_NAME = "perl-Config-Identity-0.0019-1.11.noarch.rpm"
+RPM_HASH = "cfa959fb2e8c2ebf33d17fef980cf74e799dd655510f180fcd2b32af9b0d9b303a4baf964ef0fcb6f6c9ffef71fe60a2e255dcb7236e4505aeba97002958a82f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Config--Identity \
@@ -18,7 +18,7 @@ perl-Config--Identity--GitHub \
 perl-Config--Identity--PAUSE \
 perl-Config-Identity"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-File--HomeDir \
 perl-File--Which \
 perl-IPC--Run"

@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "2.4.115"
 
-RPM_NAME = "libdrm_exynos1-2.4.115-2.3.aarch64.rpm"
-RPM_HASH = "075a095484e22bc76e2c4278d9ef9905339e46b649b3b2aacfdc969c44d25dd7d572f6cad916be3c3460677b6df4fe9532ffdf32fdf1e626aa87955e9210e5fb"
+RPM_NAME = "libdrm_exynos1-2.4.115-2.4.aarch64.rpm"
+RPM_HASH = "cec97926e208ac9cb9fa25f51d294e7ecb89877a18c3efe47b0631deed2fd5f57e669c851b9b40e635457a83044291d8decb19178ccf586434b3a4938660d064"
 
 RPROVIDES:${PN} += "libdrm-exynos.so.1 \
 libdrm-exynos1"

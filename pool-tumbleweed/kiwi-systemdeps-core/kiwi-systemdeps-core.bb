@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "9.24.61"
 
-RPM_NAME = "kiwi-systemdeps-core-9.24.61-1.1.aarch64.rpm"
-RPM_HASH = "95b73f27401c03f2d37014f6607b7dd1df6b543cb938e6a3b9b63252b1bc6857851abf07a7bd7bb9b49c3489681da515d95f89e46c51ea5db53b658b4b3918ab"
+RPM_NAME = "kiwi-systemdeps-core-9.24.61-1.2.aarch64.rpm"
+RPM_HASH = "47ed584e49ce9526cef91f05f334de89654b82844564944f4deffa978ec98f594cf4a3bae526e85abbbaaf796a859b7da8884a04ca440a82af3388062b384258"
 
 RPROVIDES:${PN} += "kiwi-image-tbz \
 kiwi-image-tbz-requires \

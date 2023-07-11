@@ -9,8 +9,8 @@ LICENSE = "Zlib"
 
 PV = "1.2.13"
 
-RPM_NAME = "mingw32-libz-1.2.13-3.1.noarch.rpm"
-RPM_HASH = "8126137a4b4d4ded821097cade63a151c49559e51db3710209cffbedc2c44e117feca73e933fca16e5d59720bf45c6ec3ad5d172882ed9d08d604865aa899fc1"
+RPM_NAME = "mingw32-libz-1.2.13-3.2.noarch.rpm"
+RPM_HASH = "7085f31308a67b5958f004cc5d2364ba58596639071e01c2e5e120c84e0e1ffc5da9e2b8392d76a22fdafe8763a8ac81c7c8d8985d8a3fc34082bf9edfb9faa4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw32-libz \

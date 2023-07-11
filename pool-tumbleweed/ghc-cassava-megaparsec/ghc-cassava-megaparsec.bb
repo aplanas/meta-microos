@@ -4,11 +4,11 @@ LICENSE = "MIT"
 
 PV = "2.0.4"
 
-RPM_NAME = "ghc-cassava-megaparsec-2.0.4-3.2.aarch64.rpm"
-RPM_HASH = "fc08cfe7bcd5c799e3aba0dba26e4ddb63a234338239cc2f25a1294bef61eaf582dd4736505884a4d2437aa7eb1d7ab8110089e80454707f897b14e3c7c98ba6"
+RPM_NAME = "ghc-cassava-megaparsec-2.0.4-3.3.aarch64.rpm"
+RPM_HASH = "4ddcdae9d6d3843017331b39d6f9d68b464b24ce10826258356a07933a34e98d0940cd28de3159fb43762b5639f021df3c603a6473e78080cc3b4b8f467651a1"
 
 RPROVIDES:${PN} += "ghc-cassava-megaparsec \
-libHScassava-megaparsec-2.0.4-2pnivL0ArW7GGP4dYCJwT3-ghc9.4.5.so"
+libHScassava-megaparsec-2.0.4-HU3QoIYvAPIHgP080eBDPM-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSOnly-0.1-ETd5YCT0TwGLbN8rgpgTS8-ghc9.4.5.so \
 libHSarray-0.5.4.0-ghc9.4.5.so \
@@ -27,7 +27,7 @@ libHSghc-boot-th-9.4.5-ghc9.4.5.so \
 libHSghc-prim-0.9.0-ghc9.4.5.so \
 libHShashable-1.4.2.0-FFBRhuY0w4YLmuLEs5uQAt-ghc9.4.5.so \
 libHSinteger-logarithms-1.0.3.1-Hm9v2fsfG1DA5soPSLssZu-ghc9.4.5.so \
-libHSmegaparsec-9.3.0-9LuWCOgzW7qD3PYWTEm9Pv-ghc9.4.5.so \
+libHSmegaparsec-9.3.1-Lptmv1Cc41nKt1ZYt8kXVr-ghc9.4.5.so \
 libHSmtl-2.2.2-ghc9.4.5.so \
 libHSparser-combinators-1.3.0-69OkkuibEVDB76y6u8xJBt-ghc9.4.5.so \
 libHSpretty-1.1.3.6-ghc9.4.5.so \

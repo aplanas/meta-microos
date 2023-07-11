@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "121"
 
-RPM_NAME = "typelib-1_0-Polkit-1_0-121-4.2.aarch64.rpm"
-RPM_HASH = "70ecac85c43479c4311a79d8e23a775187e7595ca1c278fb6a0291fb334b6e16ac83c2d584ebbc607ff46c07e472ee202e6706d55f5e5a957062a12ffba2d2d8"
+RPM_NAME = "typelib-1_0-Polkit-1_0-121-4.3.aarch64.rpm"
+RPM_HASH = "bea13da05ab35f61d13ab9c299df7b1632c5b8ce6f405fd8d00b13de04e3c163a58884c6fdb51e1a563b063147e94ea76fc01a7e0e1014f4ce822c55fa28bbd4"
 
 RPROVIDES:${PN} += "typelib-1-0-Polkit-1-0 \
 typelib-Polkit \

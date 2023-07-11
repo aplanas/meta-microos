@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "0.3.0"
 
-RPM_NAME = "python310-azure-cognitiveservices-knowledge-qnamaker-0.3.0-2.11.noarch.rpm"
-RPM_HASH = "892f9936155978edea5ae66cc9615413ba122c8213a5c6017add07a48846fcb100958a1ca5efb5bbebec799f754f951ec22ef67e4fc0bdf777166a2ba26c645a"
+RPM_NAME = "python310-azure-cognitiveservices-knowledge-qnamaker-0.3.0-2.12.noarch.rpm"
+RPM_HASH = "5c26dc53824ca344276c1bd034e447e4ac851ae08a66e0896a5701ebbb8b85b32efab3e17487e079ebbf0af8e2a1c078bf40471874941cf03ad39386b08cec30"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-cognitiveservices-knowledge-qnamaker \
-python3.10dist-azure-cognitiveservices-knowledge-qnamaker \
+RPROVIDES:${PN} += "python3.10dist-azure-cognitiveservices-knowledge-qnamaker \
 python310-azure-cognitiveservices-knowledge-qnamaker \
 python3dist-azure-cognitiveservices-knowledge-qnamaker"
 

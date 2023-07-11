@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.14.8"
 
-RPM_NAME = "ghc-tagsoup-doc-0.14.8-6.3.noarch.rpm"
-RPM_HASH = "aea97cb5c31deb42f479f304d4bcb697acc29d4c3b0189521c667ecc16aeeb8f07a94dcfd2921e8a5e2076cd009ddd6aec9f4a7023237b6716ba7ff8c99d7c7f"
+RPM_NAME = "ghc-tagsoup-doc-0.14.8-6.6.noarch.rpm"
+RPM_HASH = "4be152a9775e10f986e9096cc1826bea0b9386b7611963b2329b519d88e8b5ecec30c379ba48af5fc6c81292ccc50e96a378e6435d2d8d257201949a579ca31c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-tagsoup-doc"

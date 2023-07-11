@@ -14,11 +14,11 @@ LICENSE = "MIT"
 
 PV = "0.3.1"
 
-RPM_NAME = "trello-full-backup-0.3.1-1.12.noarch.rpm"
-RPM_HASH = "645214622f93d913f591c7637bd999039ccfb4c238a4269d3a995e3ea4b7341e7c497a78e9fd736e00d61abb3c5fcc3d414d389d5b20387f19d80db739815888"
+RPM_NAME = "trello-full-backup-0.3.1-1.13.noarch.rpm"
+RPM_HASH = "f86810cde5b781028660b3f4511b785170edbb90664df4889aadde948943d8b9f79df1178fb258b519b41cb0f595f4a0a1c77dfd6a6aed991d3d536742c9e713"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-trello-full-backup \
+RPROVIDES:${PN} += "python3.11dist-trello-full-backup \
 python3dist-trello-full-backup \
 trello-full-backup"
 

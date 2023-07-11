@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.2.13"
 
-RPM_NAME = "libdatrie-devel-0.2.13-1.10.aarch64.rpm"
-RPM_HASH = "37a589517f4735ce4ea90ea6492baba88813e1bf270db1b95a1dbb701b128c92815b2064181c5087c764446a8009bcfa2fd2673114ff1f8838d7a7862a153ae0"
+RPM_NAME = "libdatrie-devel-0.2.13-1.11.aarch64.rpm"
+RPM_HASH = "b0d78d8928f33a02cd2a5c9add94bc39298347edc97e0b8fb47e5b36b375046ead10f96babe3cb87b9e0e7b2d8f32e6bdefd589bdf24c4f393b4db33fc148dcd"
 
 RPROVIDES:${PN} += "libdatrie-devel \
 pkgconfig-datrie-0.2"

@@ -5,12 +5,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.5.4"
 
-RPM_NAME = "python310-DataShape-0.5.4-2.12.noarch.rpm"
-RPM_HASH = "77f61f1c87cda01f2bdc88e89f0d0cbe632a99b34f131d1469e601616c4442a55fc4ce5163efdba59035dc37978ad1f030361abbf23dc712e5521831deb4463e"
+RPM_NAME = "python310-DataShape-0.5.4-2.14.noarch.rpm"
+RPM_HASH = "a5697db252cf86f03544fb1ae20f85b8cb5346a760e167b46d03105f4d9e828d0c3ca790fa4827346220cfb8156c30558d73f240eef6c34a071c5d8a31c8e557"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-DataShape \
-python3.10dist-datashape \
+RPROVIDES:${PN} += "python3.10dist-datashape \
 python310-DataShape \
 python3dist-datashape"
 

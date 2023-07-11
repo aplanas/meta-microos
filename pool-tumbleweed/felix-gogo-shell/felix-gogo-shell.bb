@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.1.4"
 
-RPM_NAME = "felix-gogo-shell-1.1.4-1.3.noarch.rpm"
-RPM_HASH = "a2538bffd7b4507ae4bab75800e12cb53f6e5510595476743a1ff4c4da95108a7cf540f64ef68561d3862312ee5abd993e798d15e2ca3c79a56f8b2b9e319283"
+RPM_NAME = "felix-gogo-shell-1.1.4-1.4.noarch.rpm"
+RPM_HASH = "13a835737315b06f2a5703a02f92b422be7a0572a05f246900bb4f1ed95e86a8ebc1241127491a3354e3ae3879e226e5ab32382aeb1db88d7150b47a9e30e9f3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "felix-gogo-shell \

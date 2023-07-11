@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.1"
 
-RPM_NAME = "libtheoradec1-1.1.1-30.8.aarch64.rpm"
-RPM_HASH = "b04110ca1f038da1c593da4d9f584b80c7714d3fae0b4479c417806b64744d0aa47bb4aa66138a349108b9716ee6c1c3bf79caad1c1e057bfb94d7629519b85a"
+RPM_NAME = "libtheoradec1-1.1.1-30.9.aarch64.rpm"
+RPM_HASH = "8533a0e9ae6cac15f9c42f687b6d416d2b3d81adcfa34190bb1d58d620268512d445c1a24b8e6bd06ff87275db7cd0924d9ea0ac6187546559adfd14d8b3e2ac"
 
 RPROVIDES:${PN} += "libtheoradec.so.1 \
 libtheoradec1"

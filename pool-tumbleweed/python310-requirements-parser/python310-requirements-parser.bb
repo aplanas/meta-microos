@@ -4,12 +4,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.2.0"
 
-RPM_NAME = "python310-requirements-parser-0.2.0-6.1.noarch.rpm"
-RPM_HASH = "af69cf8716062ca4789fa0fbc4a224036b45a4452183c5e6bb0e9a45ef8a95d95a2ca86548f533c11ab6c73a4d9830ac3da3f87c4e3a8cda9377da72f4c5fdf9"
+RPM_NAME = "python310-requirements-parser-0.2.0-6.3.noarch.rpm"
+RPM_HASH = "6ddf09851b7fff5eeaccc9e38e56b53d7f63ff4e4749aafdb70018832f2be4cd7b7a8ceb66c5377f5704833952cb051e71d411ac55a75c0ac91ad2c06047adc4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-requirements-parser \
-python3.10dist-requirements-parser \
+RPROVIDES:${PN} += "python3.10dist-requirements-parser \
 python310-requirements-parser \
 python3dist-requirements-parser"
 

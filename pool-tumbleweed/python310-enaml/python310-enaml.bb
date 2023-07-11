@@ -10,11 +10,10 @@ LICENSE = "BSD-3-Clause & LGPL-2.1-only"
 
 PV = "0.16.1"
 
-RPM_NAME = "python310-enaml-0.16.1-1.1.aarch64.rpm"
-RPM_HASH = "36f753f93d6b0b9a0bca152bd38ef81f16f082045e6eee37a5b10f4be00128a81a92915a7118ac26922197a9d46dd970cef6a366a720e2ce4454abbec31c53f7"
+RPM_NAME = "python310-enaml-0.16.1-1.3.aarch64.rpm"
+RPM_HASH = "f64029ff3b434228a987a7fece2f87d469731a2482f5dca4c428b9b6005632448cb315cc9db4e6a62b42fcca8da455fcc1d8273df20418a11a9c6b89c94f6bab"
 
-RPROVIDES:${PN} += "python3-enaml \
-python3.10dist-enaml \
+RPROVIDES:${PN} += "python3.10dist-enaml \
 python310-enaml \
 python3dist-enaml"
 

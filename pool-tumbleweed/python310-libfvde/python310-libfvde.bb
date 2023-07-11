@@ -4,11 +4,10 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20220915"
 
-RPM_NAME = "python310-libfvde-20220915-3.11.aarch64.rpm"
-RPM_HASH = "42cf34bcaae19fbfee17044e51d969efbe997f2032305e09d81efaf81e3734d1963f8813fca11273f7470fd1bd4a33fa12392d39fe4f14c8acb050f5a8370827"
+RPM_NAME = "python310-libfvde-20220915-3.14.aarch64.rpm"
+RPM_HASH = "b575218764846f6862026a2ef9f1267179d7431f4d0372f566e097879132b4d01bd7e389ca4655ef9566f0d8f5674265401268178d2d69baaf0c709634ede2de"
 
-RPROVIDES:${PN} += "python3-libfvde \
-python310-libfvde"
+RPROVIDES:${PN} += "python310-libfvde"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libbfio.so.1 \

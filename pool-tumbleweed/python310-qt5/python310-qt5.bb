@@ -4,12 +4,10 @@ LICENSE = "SUSE-GPL-2.0-with-FLOSS-exception | GPL-3.0-only | NonFree"
 
 PV = "5.15.9"
 
-RPM_NAME = "python310-qt5-5.15.9-1.6.aarch64.rpm"
-RPM_HASH = "7cdf54c4ca3edb22c476bca152bac2f26630acef542e1070573e2dbe4dad6d593beb613194d767dcb296040d70eb4d648255fb5d8ff02c7bc32a41ca3713990d"
+RPM_NAME = "python310-qt5-5.15.9-3.1.aarch64.rpm"
+RPM_HASH = "d428a39efc4ffcda660face73c6dc09aa2526d2670b99222e217b50c2b0a908257b9f865c471ae51f40c84eb965c880def25709debaf54261ada03063f742337"
 
 RPROVIDES:${PN} += "libpy3.10qt5qmlplugin.so \
-python3-PyQt5 \
-python3-qt5 \
 python3.10dist-pyqt5 \
 python310-PyQt5 \
 python310-qt5 \

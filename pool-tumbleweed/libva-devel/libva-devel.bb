@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "2.18.0"
 
-RPM_NAME = "libva-devel-2.18.0-2.1.aarch64.rpm"
-RPM_HASH = "400773b651d4d0cb66139f10139968c889ba14f2d2028f483960d07f37df46ea20a9f47be97bf3151a4c89aea0e09beddac6c26aeefda15dbfd8c696abe5c157"
+RPM_NAME = "libva-devel-2.18.0-2.2.aarch64.rpm"
+RPM_HASH = "d711344100abcbc90d4bc9a10cd61e7717467e37e09e6e813c3a09b202a55856baf94cabe426340a451cec67f255261eb3543f513eaf279ceef6deb48b0a253d"
 
 RPROVIDES:${PN} += "libva-devel \
 pkgconfig-libva \

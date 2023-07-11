@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.38.2"
 
-RPM_NAME = "gnome-2048-lang-3.38.2-2.7.noarch.rpm"
-RPM_HASH = "342731fe4603fa32bf35c5eb96961098506da0fa719f1175a5bd4e43c2e5995eb6393dfc36ab1d04d351d075e1d650b2f5b1c4bf6ce2028652bce00f57c97cc0"
+RPM_NAME = "gnome-2048-lang-3.38.2-2.8.noarch.rpm"
+RPM_HASH = "0e01c3dd67043ac2617e238b1622a9abdb8d0fbe2d24c2a805b96ffa23905a3fca6f6b4af1cbe0c7199164ca23429d1342e013fe4f50659b83a739341141804e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-2048-lang \

@@ -6,11 +6,11 @@ LICENSE = "MIT"
 
 PV = "0.4.1650"
 
-RPM_NAME = "you-get-0.4.1650-1.3.noarch.rpm"
-RPM_HASH = "1a40e4eaa0f54b30722870cc8216e40e5cbb3aa9de142286210ec4bf2900b903a6bca2cef08b33e3bc3cd169a30a7e3cc842df00b884fe7e5278cb6b6cb9538d"
+RPM_NAME = "you-get-0.4.1650-1.4.noarch.rpm"
+RPM_HASH = "1ad497ac90575ad5091362ded25fac8e81ca8717725252ead643bac000848eaa45335da7274862d652ed6a3d69e9099a160c0c672bcff2e78adc91d28bb92b61"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-you-get \
+RPROVIDES:${PN} += "python3.11dist-you-get \
 python3dist-you-get \
 you-get"
 

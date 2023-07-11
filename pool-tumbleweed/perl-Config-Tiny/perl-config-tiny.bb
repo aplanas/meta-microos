@@ -23,14 +23,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.29"
 
-RPM_NAME = "perl-Config-Tiny-2.29-1.1.noarch.rpm"
-RPM_HASH = "86d4c27ab10ed3d2e891e714b15a1a2297eadc1ddeac3b217a1fac08c3a98dbc0c7894bd3a27c89eafdbc0643effeac20c15c4c977350f163def00edbe7be883"
+RPM_NAME = "perl-Config-Tiny-2.29-2.1.noarch.rpm"
+RPM_HASH = "1a58461ecfb2a0abba63df0392de2c0a8f2435560ea3fc1a4b8ff466d1e103cd70bde6794e0de54e088d8a7b6328095a7fdffbbbd620e59e0282c38b3720cbed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Config--Tiny \
 perl-Config-Tiny"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-File--Spec \
 perl-File--Temp"
 

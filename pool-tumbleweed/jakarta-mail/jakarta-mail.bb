@@ -7,8 +7,8 @@ LICENSE = "EPL-2.0 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "2.1.0"
 
-RPM_NAME = "jakarta-mail-2.1.0-1.6.noarch.rpm"
-RPM_HASH = "bc80153d7eb9edc29db18b32db32a4ecaab102a7aeaa6be7685b70d974159c14bbd4fb2ad404a7a11cfb3cdc09c782bd029ebef54bf7014b80c7f677ce1cbda2"
+RPM_NAME = "jakarta-mail-2.1.0-1.7.noarch.rpm"
+RPM_HASH = "fce2dc7455821b8681995410c63a8559534ee4c375a160bbdbf595d97b4d3d304918faa1c4d009c1b08f89769c713cb93af598290c7fcb106b855e60a992cc31"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jakarta-mail \

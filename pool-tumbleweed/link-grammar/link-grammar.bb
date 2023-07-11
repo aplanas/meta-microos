@@ -11,8 +11,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "5.10.5"
 
-RPM_NAME = "link-grammar-5.10.5-1.5.aarch64.rpm"
-RPM_HASH = "0f3da16e8e3e389f0b64284e5957f19ad89c23dbb5731a9ff113814610270ac6ce5590a739929010ce8c07d07b863e971876e4ba68ee37376b496ee10932fc67"
+RPM_NAME = "link-grammar-5.10.5-1.6.aarch64.rpm"
+RPM_HASH = "47dd194a0e893240fbfbd40fd91d218844b4154ffef4689ca5427fc7b8fccbfd784c8ff6e1970904332cb093de9e63dde1a42dfccb695dc2ca2c2eb68802a778"
 
 RPROVIDES:${PN} += "link-grammar"
 

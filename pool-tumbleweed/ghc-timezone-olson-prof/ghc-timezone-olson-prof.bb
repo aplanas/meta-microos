@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.1"
 
-RPM_NAME = "ghc-timezone-olson-prof-0.2.1-2.3.aarch64.rpm"
-RPM_HASH = "2c39d2c7d1a95adbf3c2c92b146792f220c037154f633e056c3924d0569942c6f7aa1e7aed0e15845b0eae040421022daa2d49db36ff95cbb9f23648afb67900"
+RPM_NAME = "ghc-timezone-olson-prof-0.2.1-2.6.aarch64.rpm"
+RPM_HASH = "065960c86f4b7770e77cb0716ff2e5ac7e04711b404414b976919fe6a3b77dc75bab253fe8e56ffec2c2f349a7e091c27c434e5d6d973336d6817e83ff677ea2"
 
 RPROVIDES:${PN} += "ghc-prof-timezone-olson-0.2.1-GQQU9hvoQrwIpL0LHxa8ME \
 ghc-timezone-olson-prof"

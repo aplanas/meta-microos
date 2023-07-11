@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.7.0"
 
-RPM_NAME = "python39-azure-synapse-spark-0.7.0-1.8.noarch.rpm"
-RPM_HASH = "a020b84e49e0dd232452982a37dca89c2884f3562bbac5e1bee6d6e78b11598c4c908207a96823c4ea8d37c7731b2d448689cff04942ddf8cd0e2a364d6ac618"
+RPM_NAME = "python39-azure-synapse-spark-0.7.0-1.10.noarch.rpm"
+RPM_HASH = "c75ce831ae532aa700213b06601a6d3e0a506a4f7783afd11ac9019acef37d6d6c181301a6861c468eaf24290d5ef1bb71ae35e4656ea5be3790721b867425cd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-synapse-spark \

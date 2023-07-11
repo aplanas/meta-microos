@@ -8,8 +8,8 @@ LICENSE = "ZPL-2.1"
 
 PV = "5.0"
 
-RPM_NAME = "python39-zope.deprecation-5.0-1.1.noarch.rpm"
-RPM_HASH = "8e6b5fc8ed396292f67f483ee747057d7001ca7d3a9718f2d0a53c9aa2b9e938b1d280b8413ce0c30da6d9a06b1478a514f664f014ba8964eac227930cff2ace"
+RPM_NAME = "python39-zope.deprecation-5.0-2.2.noarch.rpm"
+RPM_HASH = "cdf37b00dda969f169ee88475a65ae6badfe3ad46b95b600d75a73ed947826535948e5b57918e3cf3467b23a9767863a6bf539743b538ef2604da4fa2e057df8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-zope.deprecation \

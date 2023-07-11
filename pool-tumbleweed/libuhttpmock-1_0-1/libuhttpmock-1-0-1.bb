@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.9.0"
 
-RPM_NAME = "libuhttpmock-1_0-1-0.9.0-1.3.aarch64.rpm"
-RPM_HASH = "068d414f9a79e29aaf707b701edd3631ab589e48d21a7b977e4150247f71fff9fd39ee8b539078da3cd19d14641b4e793997ba74c02ff57371942ecc39e98b47"
+RPM_NAME = "libuhttpmock-1_0-1-0.9.0-1.4.aarch64.rpm"
+RPM_HASH = "97f630edb614ff0784104d6c7111c1d4852ba73f168763601193bdb73e219248888103f99e2c23b007d94e6cbd28d2915599679fb75c219aca1d97db4e5e4424"
 
 RPROVIDES:${PN} += "libuhttpmock-1-0-1 \
 libuhttpmock-1.0.so.1"

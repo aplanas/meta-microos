@@ -5,8 +5,8 @@ LICENSE = "SUSE-GPL-2.0+-with-openssl-exception"
 
 PV = "2.1.2"
 
-RPM_NAME = "ccrtp-devel-2.1.2-2.27.aarch64.rpm"
-RPM_HASH = "93f01470ce0f52a2582249c448e001e797be8385316001f69b8607e0d1825127d487d449e63748992811b199ff358eeecff42013d87ba200c27b0761be33cf66"
+RPM_NAME = "ccrtp-devel-2.1.2-2.28.aarch64.rpm"
+RPM_HASH = "4a4df43d3c7e383b77db65375cb57a75e88db54c565de867f0bdb15b9996dac61d82b872f90e57ca4b757ef166c1f51f039c346f58fcfb3a4ae056921801ce56"
 
 RPROVIDES:${PN} += "ccrtp-devel \
 libccrtp-devel \

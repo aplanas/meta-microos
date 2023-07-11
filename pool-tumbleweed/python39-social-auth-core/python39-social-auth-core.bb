@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.4.2"
 
-RPM_NAME = "python39-social-auth-core-4.4.2-1.1.noarch.rpm"
-RPM_HASH = "abbc533cc820da19bb673db6dfbf908b6c7c72858296b599382812e90de487669fa3ff501939722a9565091c97f2fd3980bed03256b8baae6e7e92c104fb870a"
+RPM_NAME = "python39-social-auth-core-4.4.2-1.3.noarch.rpm"
+RPM_HASH = "e1646d15d7967bc465eb8dddf8886683418b02ee9dbe3d265b7854defc23cc0c69c88bbfdf34a0fc67caab3c4f16f3ff7b9734175c0263de953bf692d8c602fd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-social-auth-core \

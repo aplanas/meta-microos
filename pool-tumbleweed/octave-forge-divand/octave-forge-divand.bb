@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "1.1.2"
 
-RPM_NAME = "octave-forge-divand-1.1.2-1.22.noarch.rpm"
-RPM_HASH = "6d21efd54e8ba49682527cef14c45c09ae42c485f115431b61fa693dbf8d3408ebdfebbc7899748ce484486f9d3de62d391088731f70bd8b738a11d4a52c2abc"
+RPM_NAME = "octave-forge-divand-1.1.2-1.23.noarch.rpm"
+RPM_HASH = "f58dc12ee55bd96aa08b7d399d20d908022451c6c4bf5ae2d3e49ca9c6d62ef18a1f61591caf7166c5a0b47b4074845d8068d8e0b4ac31cc1686022974fe2f85"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "octave-forge-divand"

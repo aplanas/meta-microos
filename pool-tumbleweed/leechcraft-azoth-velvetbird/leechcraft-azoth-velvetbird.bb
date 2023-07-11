@@ -6,8 +6,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-azoth-velvetbird-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "276fc65ce153e99ea14b753cd6385206d2d17bfcd3393a5b4575fa9a42df31fbb5cda55e0ac121265575ab55ffbb9c1c971e2d0ba154373d5b65204ec3c90b25"
+RPM_NAME = "leechcraft-azoth-velvetbird-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "1e21e4615c69b9ed80fae8ccf9b19c0cf320fa80084b7ed33d2c6fca15e535975f428c5cfe674aea22b121ba4ba6a2facfa84fe1ee7ed66f16d0ad1be9f3aafb"
 
 RPROVIDES:${PN} += "leechcraft-azoth-protocolplugin \
 leechcraft-azoth-velvetbird \

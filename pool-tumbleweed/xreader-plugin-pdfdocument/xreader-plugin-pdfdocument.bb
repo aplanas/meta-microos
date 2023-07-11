@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.0-only"
 
 PV = "3.4.5"
 
-RPM_NAME = "xreader-plugin-pdfdocument-3.4.5-1.4.aarch64.rpm"
-RPM_HASH = "2ad388fb95d3f43ea606e0614bdeff78f63d837379280606cd925a896f8cc4c956b9ef344d8eb0ddbbce7db739ead5466295007a634fff921376a23ceed9882b"
+RPM_NAME = "xreader-plugin-pdfdocument-3.4.5-1.5.aarch64.rpm"
+RPM_HASH = "1175084f66d06914057c3b603ef615051440155a9b77d1f3935e8c35946478ee91c0dac4a2fe8ad43a3f1bec44bef31bf45fd8a0195b71b5e7ce0ef0e42a81a8"
 
 RPROVIDES:${PN} += "libpdfdocument.so \
 xreader-plugin-pdfdocument"

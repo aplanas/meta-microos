@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python311-Delorean-1.0.0-4.6.noarch.rpm"
-RPM_HASH = "0248a86077f46ea8136050bee374cbca936358bd167d723986b40a0dd2465209f5a803aa1fc40574d9decfe1dcb4ddfc8af932a1f7f44320b306d4bf4d46ed04"
+RPM_NAME = "python311-Delorean-1.0.0-4.8.noarch.rpm"
+RPM_HASH = "8be8b8f36be7ae16f33b433fb0965c17ff9e843f60a11e555e3b49aec272db393ad33a8527d1e0cc640a1b206717e5f3595327433adda4845846c53dafed42a6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-delorean \
+RPROVIDES:${PN} += "python3-Delorean \
+python3.11dist-delorean \
 python311-Delorean \
 python3dist-delorean"
 

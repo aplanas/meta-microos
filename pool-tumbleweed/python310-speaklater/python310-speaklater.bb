@@ -6,12 +6,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3"
 
-RPM_NAME = "python310-speaklater-1.3-2.15.noarch.rpm"
-RPM_HASH = "49724c5903835d8922d3af76cd409eb9fcdcb35f7803ef777f83c3e4cf717bd53d75f9f6f12ef76531a9cfef9567317b880f124ef29ef38c5e4e25e97f290019"
+RPM_NAME = "python310-speaklater-1.3-2.16.noarch.rpm"
+RPM_HASH = "22f83d0cb8b9b696f7b0af3d98a0f1709affdd0cc53cbaa18ceb9e322f454127d9550b0f30abe1c1c9725d438be249e5a07f1be87069cbace19798660ca964e3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-speaklater \
-python3.10dist-speaklater \
+RPROVIDES:${PN} += "python3.10dist-speaklater \
 python310-speaklater \
 python3dist-speaklater"
 

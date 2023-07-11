@@ -15,8 +15,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "2.6.10"
 
-RPM_NAME = "jgroups-javadoc-2.6.10-33.9.noarch.rpm"
-RPM_HASH = "6be19bcfffa4fcb92df66c8140f6b188974d3b4dced7634b8efb2c6e263cfa99cb5e3af985fc02ef0550f05b0e5a8ec04c333f1c5a1baa01832395ce64e74067"
+RPM_NAME = "jgroups-javadoc-2.6.10-33.10.noarch.rpm"
+RPM_HASH = "94cfbecbb7a7de9eb4667917cbcdac1ef5f45ffb0de52088349c458a7c3d03c42520619d5bfbc69d6295287ebd25fecf83ff30b55390e75b8da1cd948d351288"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jgroups-javadoc"

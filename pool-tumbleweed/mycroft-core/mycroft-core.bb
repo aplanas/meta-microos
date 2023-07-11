@@ -4,13 +4,13 @@ LICENSE = "GPL-3.0-only"
 
 PV = "18.8.13"
 
-RPM_NAME = "mycroft-core-18.8.13-1.15.noarch.rpm"
-RPM_HASH = "bc209549da1cf73d177748d79fe450c3aead6a20ab5d3007bd773e05ec633a6e8f0876254ea82341d24ba71c989e4d0aa31a36d0d046af11f9072b8f91d9d15e"
+RPM_NAME = "mycroft-core-18.8.13-1.16.noarch.rpm"
+RPM_HASH = "95f8e8f76419d715729e73584db20ca9c5f43813e1569e63e29f657cc2f15c8f3b4265f8660dce62bad93927c24795d297c7cbc8f5c48d9d8af0578321fd71e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-mycroft-core \
 mycroft-core \
-python3.10dist-mycroft-core \
+python3.11dist-mycroft-core \
 python3dist-mycroft-core"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

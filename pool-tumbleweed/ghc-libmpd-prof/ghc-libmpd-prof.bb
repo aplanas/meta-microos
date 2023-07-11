@@ -4,11 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.10.0.0"
 
-RPM_NAME = "ghc-libmpd-prof-0.10.0.0-2.3.aarch64.rpm"
-RPM_HASH = "8debc2df70bfed5558d3ba7826155cd09db1ae8edfe87b72d82b4c6e5bee34fd5cb794af0770021cc0d8f1e8845f02c25e36920fac7174720ef8783dd65de2e1"
+RPM_NAME = "ghc-libmpd-prof-0.10.0.0-2.8.aarch64.rpm"
+RPM_HASH = "610bc6e2d3800202bf38c5e1f0e94ffb63df082601365da908f6cf5191b45a29beac6b52c3317c370e67a528f31ddf7cf132ba1c861dde3dd3ec4e6424f1d43f"
 
 RPROVIDES:${PN} += "ghc-libmpd-prof \
-ghc-prof-libmpd-0.10.0.0-LD6WRi8pb0r8mm5YrtyxA5"
+ghc-prof-libmpd-0.10.0.0-1mRX9TQl9aY4gH6teXbpki"
 
 RDEPENDS:${PN} += "ghc-libmpd-devel \
 ghc-prof-attoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3 \
@@ -18,8 +18,8 @@ ghc-prof-containers-0.6.7 \
 ghc-prof-data-default-class-0.1.2.0-2LD1I8dZmn7BW4dkzEwdGZ \
 ghc-prof-filepath-1.4.2.2 \
 ghc-prof-mtl-2.2.2 \
-ghc-prof-network-3.1.2.8-HNDBp0HF6t0D1fzE2MDtPd \
-ghc-prof-safe-exceptions-0.1.7.3-4ydW60ruqZ4IdMpKf3b6BD \
+ghc-prof-network-3.1.4.0-FvtFepOtuCUH79FCWyNxIc \
+ghc-prof-safe-exceptions-0.1.7.4-8XVKrMBchTjCLhdcvBwBNb \
 ghc-prof-text-2.0.2 \
 ghc-prof-time-1.12.2 \
 ghc-prof-utf8-string-1.0.2-3yyxPCwARUwDt9ZNWn320Q"

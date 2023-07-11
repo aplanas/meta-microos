@@ -12,8 +12,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.18.16"
 
-RPM_NAME = "libopts25-5.18.16-7.6.aarch64.rpm"
-RPM_HASH = "feff0813b9c1297a6e3d77c280d97f53c6da7159d6f8b76ccc3c2b0b92a305a5eddfd4fd7778db4af153723a6427c589d5f4330f5a56cb635fbbb99acbecea67"
+RPM_NAME = "libopts25-5.18.16-7.7.aarch64.rpm"
+RPM_HASH = "5bf2d0a4996d133b02af965f8a54766223608946ceb0ac65f702dee36ffd6baa5fecbe7b09dc58e45412f023ef9e1632294c6ae9932ba9796b9d7cebd7f2ea77"
 
 RPROVIDES:${PN} += "libopts.so.25 \
 libopts25"

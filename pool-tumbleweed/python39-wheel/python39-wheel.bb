@@ -12,8 +12,8 @@ LICENSE = "MIT"
 
 PV = "0.40.0"
 
-RPM_NAME = "python39-wheel-0.40.0-1.1.noarch.rpm"
-RPM_HASH = "f43d0e58c7dfb8675f5303fd27c5ec1259eb19dd981f1eaae788c3a0d6b935e23b72b881ec9009cdd25cd73620105ca71dea928e5898e4b5c2ce6a47291f662e"
+RPM_NAME = "python39-wheel-0.40.0-1.3.noarch.rpm"
+RPM_HASH = "2e7e915804e4df93f0083cae1e0c4bc42fb7ce88ae467e53ae031340de188532d719dcf51a0fa26245d267d79b684c39a19d7cf197a5f1f068ffb4cad0026000"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-wheel \

@@ -5,12 +5,11 @@ LICENSE = "Apache-2.0"
 
 PV = "0.4.5"
 
-RPM_NAME = "python310-aiostream-0.4.5-1.3.noarch.rpm"
-RPM_HASH = "b57ed809a9b721eecd5c9846166b8da3950496b722eb87e93433d2838e0f105eacc6eb6d37ac9da3cf452c8bf1aa7c20eaa658e590ab9d9785fc515cdc4c1280"
+RPM_NAME = "python310-aiostream-0.4.5-1.5.noarch.rpm"
+RPM_HASH = "ffe9d4839a9f2a37e3a22c99af49c6d8ece9f1c2e5cdae360e63433d4ba14d096f97439dc804f9a52ec640b63531c9a5729c8fd83f47674fc2151f5116379a9b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-aiostream \
-python3.10dist-aiostream \
+RPROVIDES:${PN} += "python3.10dist-aiostream \
 python310-aiostream \
 python3dist-aiostream"
 

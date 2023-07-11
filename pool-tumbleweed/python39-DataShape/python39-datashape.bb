@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.5.4"
 
-RPM_NAME = "python39-DataShape-0.5.4-2.12.noarch.rpm"
-RPM_HASH = "14aff555d460986ab4613b8267d23468f36b9779d0d96334372d5c3ebf9a03ce5f5533089827b17bb00e1ce2fc6248b3933f528eb85aeeba01da965d33dd6121"
+RPM_NAME = "python39-DataShape-0.5.4-2.14.noarch.rpm"
+RPM_HASH = "233d3670ce3e5310d2d6894add4203f706f5894a123651c6ffb58af1801fec2bd4cb8d354e1c3c87493735b4e85a618dc3e2947daa4d745da27e54eed7f6e08f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-datashape \

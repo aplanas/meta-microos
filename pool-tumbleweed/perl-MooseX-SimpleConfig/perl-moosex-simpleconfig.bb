@@ -22,14 +22,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.11"
 
-RPM_NAME = "perl-MooseX-SimpleConfig-0.11-1.24.noarch.rpm"
-RPM_HASH = "6193294333e4d60b8a8eb34e7c9a5087d9d1bb5fabe28d8a55f65212e0a78475bf2ccb4f182d6f7c2c3c0581eb0a2abf86715f26becac0e55e611fe0d4647614"
+RPM_NAME = "perl-MooseX-SimpleConfig-0.11-1.25.noarch.rpm"
+RPM_HASH = "8e883b4f8d4e25e0433ab72ca62ab11342c00c6684a3a40a3e0535dc1647e20484ed68c5fc46a82903ae0442c570670a8a49ba24ef4a24d15b61bce1d4d431b7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooseX--SimpleConfig \
 perl-MooseX-SimpleConfig"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Config--Any \
 perl-Moose--Role \
 perl-MooseX--ConfigFromFile"

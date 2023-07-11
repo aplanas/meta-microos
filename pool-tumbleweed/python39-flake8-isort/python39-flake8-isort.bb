@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "6.0.0"
 
-RPM_NAME = "python39-flake8-isort-6.0.0-1.4.noarch.rpm"
-RPM_HASH = "3bdc0f55ee8f7b47fe150bf775972479d1f113906977b08381b32355e4046231a9253f33284352a10eab6f28b0f532c20f3700836ae8d30bf2437881523a8d56"
+RPM_NAME = "python39-flake8-isort-6.0.0-1.6.noarch.rpm"
+RPM_HASH = "15cf5897df9b099a2a0406ca0387fc15dce083287bfad5e0e863dba86082db1f38a22527b72634749d3b6bb3db166876f1847490c50e2d331bf4e70592671d64"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-flake8-isort \

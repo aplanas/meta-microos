@@ -6,14 +6,16 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.2.1"
 
-RPM_NAME = "python311-usbsdmux-0.2.1-1.7.aarch64.rpm"
-RPM_HASH = "1c2fc8265c2c35958b94b96730c0cd02d4a304e81fabefaae1d10efaaa32b8376f4e35856b734b1f4d87b12d86abe98bf70c9d28b8deb0946bd876b6ccb928f4"
+RPM_NAME = "python311-usbsdmux-0.2.1-1.9.aarch64.rpm"
+RPM_HASH = "8e53c8f6d0e09c6eed9c762341f6cd9de7561b07e00f1de586a03192f146d03f7cd2dfa9170e844b37c70f4503d2c5e42796d4faa1f23ba4ffdbedf09af5c529"
 
-RPROVIDES:${PN} += "python3.11dist-usbsdmux \
+RPROVIDES:${PN} += "python3-usbsdmux \
+python3.11dist-usbsdmux \
 python311-usbsdmux \
 python3dist-usbsdmux"
 
-RDEPENDS:${PN} += "/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/python3.11 \
 /usr/bin/sh \
 python-abi \
 update-alternatives \

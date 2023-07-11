@@ -10,8 +10,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.2.7"
 
-RPM_NAME = "ladspa-lsp-plugins-1.2.7-1.1.aarch64.rpm"
-RPM_HASH = "31536698065ab4747948492ab6b8e09138d553dcf2fb74eeb9a32d1c5bfc1322761216c6fa1ffb9ab76432a707920a5877a3f853a6b16c3e2c1badb6273cc050"
+RPM_NAME = "ladspa-lsp-plugins-1.2.7-1.2.aarch64.rpm"
+RPM_HASH = "8164343ee700e85e87f09d57519c8bb93a94568ea17e1180a1e8d4a0ee9ae1f4b9e311f96cc5458df9acb2060ab13039fd2ae3d4815cf5ec2d4f3248d61f2115"
 
 RPROVIDES:${PN} += "ladspa-lsp-plugins"
 

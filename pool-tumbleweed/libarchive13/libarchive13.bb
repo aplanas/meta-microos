@@ -54,8 +54,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "3.6.2"
 
-RPM_NAME = "libarchive13-3.6.2-1.4.aarch64.rpm"
-RPM_HASH = "98e6b7ae8b2145e9b98e4af45c211aee0909fca51ce262531936725cc1e922c5aa1047f0f01c49e94a2725da888d246702f08d0f18a3083c5766bc22f327ce8f"
+RPM_NAME = "libarchive13-3.6.2-1.5.aarch64.rpm"
+RPM_HASH = "7e29a582d5bc1c046983ea076992bcf0c07791dc41db0a9bb91ed3508a7985c3bd0008a841d4e9f975ffd7e92276c1100dc1c87195dac91681f4c4aed2ba5fa0"
 
 RPROVIDES:${PN} += "libarchive.so.13 \
 libarchive13"

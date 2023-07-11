@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.95.1"
 
-RPM_NAME = "quakespasm-0.95.1-1.3.aarch64.rpm"
-RPM_HASH = "224a2f06c3a86132b07718ba005b15def6cb10df84ba3f4f8da07e3403a044a205847b7aafd28642e34a4ec129114cfc578e688382507ec6664bf54a189cc189"
+RPM_NAME = "quakespasm-0.95.1-1.4.aarch64.rpm"
+RPM_HASH = "775ba6a0629fb88945ef1477a053a2972d2fbe1f6d60b06fc4a1bd270c1c45a01c6003b8e5c73ff3e6e49de6287d6fa7264875b8dba83cd7252c42a6e0f51b4b"
 
 RPROVIDES:${PN} += "quakespasm"
 

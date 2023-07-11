@@ -12,17 +12,14 @@ LICENSE = "MIT"
 
 PV = "4.82"
 
-RPM_NAME = "python39-Pyro4-4.82-1.3.noarch.rpm"
-RPM_HASH = "e860689c6e5046b7529f9f34bd7a05f92597b4bd4ad943e845de0f9499e26d5cbef470164b54b3a15cb3cf2dc4af18efa8efd4d5e413eb5f8c308fbaded872aa"
+RPM_NAME = "python39-Pyro4-4.82-1.4.noarch.rpm"
+RPM_HASH = "d2471fecfe60399e2d1dfe8a87b47c0db75373c52299353f99a428227687bd73446b8652e33e382e28f114151d1edb97f5640243549974be87249aa3afd9891b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.9dist-pyro4 \
-python39-Pyro4 \
-python3dist-pyro4"
+RPROVIDES:${PN} += "python39-Pyro4"
 
 RDEPENDS:${PN} += "/usr/bin/python3.9 \
 /usr/bin/sh \
-python-abi \
 python39-serpent \
 update-alternatives"
 

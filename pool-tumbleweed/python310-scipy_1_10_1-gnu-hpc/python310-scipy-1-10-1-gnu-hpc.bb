@@ -8,11 +8,10 @@ LICENSE = "BSD-3-Clause & LGPL-2.0-or-later & BSL-1.0"
 
 PV = "1.10.1"
 
-RPM_NAME = "python310-scipy_1_10_1-gnu-hpc-1.10.1-2.4.aarch64.rpm"
-RPM_HASH = "815e39f975bc62a5d7757d8a7ec827e93c859eb32d5511e526b269de6b71dbc8617aebcc754f4bc7a0f98a6effde22db50f209e2c880d9f0e19472ee71b8e555"
+RPM_NAME = "python310-scipy_1_10_1-gnu-hpc-1.10.1-3.1.aarch64.rpm"
+RPM_HASH = "ae767a7f7f36dc3a55730b13fbfb9f00238f9f3d1060d537fb097906cc5c783be4161ec34dc689f6aa30b779800050ab14abb0a3c79a04ccd6e6b40c90a841aa"
 
-RPROVIDES:${PN} += "python3-scipy-1-10-1-gnu-hpc \
-python3.10dist-scipy \
+RPROVIDES:${PN} += "python3.10dist-scipy \
 python310-scipy-1-10-1-gnu-hpc \
 python3dist-scipy"
 

@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.2.14"
 
-RPM_NAME = "python39-Deprecated-1.2.14-1.1.noarch.rpm"
-RPM_HASH = "73f856403ccb8fd429f070bb38ccce17fceb024e1f66b90fc50c701781bc143604f566d078d9f90ce06e58d4b1063cac4442fdc7ab9c55e1d9ae7aeedf3dd2bf"
+RPM_NAME = "python39-Deprecated-1.2.14-1.3.noarch.rpm"
+RPM_HASH = "adc7859ca6c62fbca6af050a3e6e0a7335d3e681de1d2cbfbebe4e42d92c0061901a987ae3eb36a08023b673adf3273f17f90ae3e5bd6bc718f25a65f87a2739"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-deprecated \

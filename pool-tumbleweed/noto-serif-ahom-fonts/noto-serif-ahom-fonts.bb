@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-serif-ahom-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "cd0350eb818ddcbc79c521498fe219a71ba0d8afa5d3096986a21b92e23dd030a0e24459c2309b51b8ffd01b598a431c84f59bdbf578d50e53b2bed3c2c4cd63"
+RPM_NAME = "noto-serif-ahom-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "db1a8b72bb1126c42175b3b8485fb9ea890f58e117d3ba5a9f14d6e76efa86cbcbb459a4259da939f0cb69963462cfc85bee682996d6de64ac3ff249ede4797e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-serif-ahom \

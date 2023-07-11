@@ -5,12 +5,11 @@ LICENSE = "MPL-2.0"
 
 PV = "1.1.0"
 
-RPM_NAME = "python310-mohawk-1.1.0-5.4.noarch.rpm"
-RPM_HASH = "93ba70124f164028252a1ad57ba05713553a348c34583296221e1d3857ee71b1def2c2c79e6aa673075c781b02c78353d92ba24e52a9b789c9f4b859e8d1476c"
+RPM_NAME = "python310-mohawk-1.1.0-5.5.noarch.rpm"
+RPM_HASH = "562142dfe536b07174ef30eeaeba5e644c3c9cf2c38f30aa54923f324c519848403bf63d359161d085167918e185e1838d66854544ce2c5f7a8f853ff5d2f9ac"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-mohawk \
-python3.10dist-mohawk \
+RPROVIDES:${PN} += "python3.10dist-mohawk \
 python310-mohawk \
 python3dist-mohawk"
 

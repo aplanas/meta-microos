@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "4.1.2"
 
-RPM_NAME = "python310-flake8-debugger-4.1.2-1.3.noarch.rpm"
-RPM_HASH = "3447fb5521ecf27e597710b08f7b55bc3fc7e319f26f4a4d0b2943c43cd9368239dbcb06b660e07515b67367eb3453715c976dd84f3e8120c6027c45fa3aa852"
+RPM_NAME = "python310-flake8-debugger-4.1.2-1.5.noarch.rpm"
+RPM_HASH = "1da01d7444c03068b5cd7f21df29d429e169feef3bc62bdf7d28903a2d01194b78815a0e94f7c8ae80acdca8f1d2398ac763bc07c342433d5fcdcc4e139d8fbb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-flake8-debugger \
-python3.10dist-flake8-debugger \
+RPROVIDES:${PN} += "python3.10dist-flake8-debugger \
 python310-flake8-debugger \
 python3dist-flake8-debugger"
 

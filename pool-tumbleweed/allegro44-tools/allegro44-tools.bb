@@ -6,8 +6,8 @@ LICENSE = "SUSE-Permissive"
 
 PV = "4.4.3.1"
 
-RPM_NAME = "allegro44-tools-4.4.3.1-1.15.aarch64.rpm"
-RPM_HASH = "d5d00e7f2e887ebad06cb5b44faed1fcdb993a0a9520020737ba9019e0ae46971067fd91638351a7221f682175750bfc8b8c55a3d6822dd38d9d5ad33152fcb8"
+RPM_NAME = "allegro44-tools-4.4.3.1-1.16.aarch64.rpm"
+RPM_HASH = "6cdf2ba49f15404064f2f781c48f999a2b76c2cd90d30efd329158f1b6eed73cf8ce08f98b201651463e96c2ed56b268460a3a24be0a6b58a7a8bdc10063d379"
 
 RPROVIDES:${PN} += "allegro44-tools"
 

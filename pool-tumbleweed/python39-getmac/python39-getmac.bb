@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.8.3"
 
-RPM_NAME = "python39-getmac-0.8.3-1.4.noarch.rpm"
-RPM_HASH = "c52e18a1e0a331ab02283b721c55aceb1b024edfc24c15e05e95ae01f2be274aa3f44e6a1f6053d2332b76cc19e3fca6101e1642c7a2eb87b81c036c665b8f24"
+RPM_NAME = "python39-getmac-0.8.3-1.6.noarch.rpm"
+RPM_HASH = "321f4417a0213f1a3a06d1acc3d9ef30bffb5134be4e24ad4a89022a274461e59fd4d44768aaad63499dba395226496901829e79c6b08e2d46880c05a04391bd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-getmac \

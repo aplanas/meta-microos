@@ -5,12 +5,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.4.1"
 
-RPM_NAME = "python310-django-formtools-2.4.1-1.1.noarch.rpm"
-RPM_HASH = "c9dee3ab6b4c1b819ee24d6052a5c0f2eaf6f8669ff7e103a3bf494e7395581ecf5a0087ab9e5839454b7b1e42099bb98bdcefc33442687917093298a8db0c22"
+RPM_NAME = "python310-django-formtools-2.4.1-1.3.noarch.rpm"
+RPM_HASH = "3b5933ce5694385f785719023d79a712eb21a9e474eca6e2e08d3577453ddde507b4e3933647386121a8467ef074932c71e6898be438c119b07fc367561d51c7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-django-formtools \
-python3.10dist-django-formtools \
+RPROVIDES:${PN} += "python3.10dist-django-formtools \
 python310-django-formtools \
 python3dist-django-formtools"
 

@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.3.17"
 
-RPM_NAME = "procps-devel-3.3.17-12.3.aarch64.rpm"
-RPM_HASH = "fca67e853272c5b52f9d47d93c5f6e643dec75a3311303431c7ea4fa0d9faf462337d854c369d74f15c03ebb30891152fab8fdee1bef3c3f93aed8182c898794"
+RPM_NAME = "procps-devel-3.3.17-12.4.aarch64.rpm"
+RPM_HASH = "df0490a01da88a51594c02bb35ff22aa4b2b4cf216a21cca2c2d6e3f16e0e7003b1b1c32b02acbb88f902adaef8a42b82ee081fda05d779d2d9b5f50df21549e"
 
 RPROVIDES:${PN} += "pkgconfig-libprocps \
 procps-devel"

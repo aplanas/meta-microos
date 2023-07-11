@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2"
 
-RPM_NAME = "geronimo-corba-1_0-apis-1.2-36.11.noarch.rpm"
-RPM_HASH = "a04476403702b46233e04c1230f10ea2ab9f3eb111b9672b4a07c58d16cbcdcbe1f059b31d60914f0e929ba59a9543b67f2aaa4ed8aa62870cfa05e0251f5822"
+RPM_NAME = "geronimo-corba-1_0-apis-1.2-36.12.noarch.rpm"
+RPM_HASH = "bc931d782b39651efa83b6c60b82375f4b8fe0fcb02ffcba93e0964289b54ea824a4c0c18ab07f80b1d8fb1fe6e06d31057fa35094f9456342c8f9b5b7cb6f7d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "corba-1-0-apis \

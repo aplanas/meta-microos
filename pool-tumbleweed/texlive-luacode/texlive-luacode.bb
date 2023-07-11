@@ -6,10 +6,10 @@ the way you expect. The package provides the \\luaexec command \
 and the luacode(*) environments to help with these problems."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2asvn25193"
+PV = "2023.208.1.2asvn25193"
 
-RPM_NAME = "texlive-luacode-2023.201.1.2asvn25193-52.1.noarch.rpm"
-RPM_HASH = "4e04a4805c1fa994a91df98f736d9efac941ee4cab85f4fa46418273c6585f11f919a3c9edd5f655ae91cf3b6967f40cbe4ac1425a1fd67351f0d73464e16d8d"
+RPM_NAME = "texlive-luacode-2023.208.1.2asvn25193-53.1.noarch.rpm"
+RPM_HASH = "89c159c6780e4ab555d54ee02bea3c42f7d65f43f8e0a06bbd8f9590a8b3735fa1cff3e3e209d0ad897201773891d093a23a36bf20bb28703ff30f80ade2ea62"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-luacode.sty \

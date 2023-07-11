@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.0.1"
 
-RPM_NAME = "cups-rpm-helper-2.0.1-2.8.aarch64.rpm"
-RPM_HASH = "8512cc90e4b6e91149710c14658f9054a992ed72f4280decedd5ef676dac9da9cd5cf7863658d876fa9be195d8092e6265d7ed5cf96e3c62ef058a7a5b0ffb32"
+RPM_NAME = "cups-rpm-helper-2.0.1-2.10.aarch64.rpm"
+RPM_HASH = "1cc7a65cdab649cb6608afa7dd5b6904e71fc4c146a7604b4e78ede14028857405a9e088d984de68abd75c5358c2824f9379ba5b9272896114d5c134681e870b"
 
 RPROVIDES:${PN} += "cups-rpm-helper"
 

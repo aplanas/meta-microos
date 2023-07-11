@@ -12,11 +12,12 @@ LICENSE = "Apache-2.0"
 
 PV = "1.29.2"
 
-RPM_NAME = "python311-docker-compose-1.29.2-2.4.noarch.rpm"
-RPM_HASH = "a98e537c801718015ae723185b2c612d34a9603cbfd3dee2ac7c8ae1df08c056c008c0beb8aa1b59ac1ed982a9e1951159c8ec9c16f5a9a83ac34d7a2aec4471"
+RPM_NAME = "python311-docker-compose-1.29.2-2.6.noarch.rpm"
+RPM_HASH = "a1ff9c0c131223b92b8d596be90370373ec9554ee1a52ed741af906524514bc0bd08943b0a2512b6003df8dba068b1a0e55a1648f607d8519a5fdb3aba103b0d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "docker-compose \
+python3-docker-compose \
 python3.11dist-docker-compose \
 python311-docker-compose \
 python3dist-docker-compose"

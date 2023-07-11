@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
 PV = "2.1.0+2.0.22+git6"
 
-RPM_NAME = "libmisdn1-2.1.0+2.0.22+git6-2.6.aarch64.rpm"
-RPM_HASH = "9af569619c3c4f7a04189f975e31909fcdfe40b1f3396cfc565dcd88448133f357575e34f5dea8de7860b1e983a2c1266baa6999a11fa0afcfd52c5e939f76f9"
+RPM_NAME = "libmisdn1-2.1.0+2.0.22+git6-2.7.aarch64.rpm"
+RPM_HASH = "89816963749a5281ad760a84379882519bdcb3c669bfc95629c835c7df27b3dec7219b06d3bcda152c665165793c45ad7a165cfcbfb9f70d3fa50bcbe0d2625a"
 
 RPROVIDES:${PN} += "libmisdn.so.1 \
 libmisdn1"

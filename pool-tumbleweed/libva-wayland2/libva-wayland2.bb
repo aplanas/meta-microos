@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "2.18.0"
 
-RPM_NAME = "libva-wayland2-2.18.0-2.1.aarch64.rpm"
-RPM_HASH = "a0b41d46905fe6cffbd80437e45d555262a8046334f5f9ab526f2dc1f5c8c302df0e2e0c2895af69c546e7ec509abd673505c9e15b6472f775be0deee8e11272"
+RPM_NAME = "libva-wayland2-2.18.0-2.2.aarch64.rpm"
+RPM_HASH = "a69c975459cb057e149c9be0e9ce0d4a429696f08d12d39283c63cb607a282871343748cb15ee3f091bd057962129f34179695a03de78b14ad6d09052fa3d94f"
 
 RPROVIDES:${PN} += "libva-wayland.so.2 \
 libva-wayland2"

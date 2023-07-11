@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause & MIT & ISC"
 
 PV = "0.38.2"
 
-RPM_NAME = "mk-configure-0.38.2-1.2.noarch.rpm"
-RPM_HASH = "926a3610fd442651e31e417cff55e5ffc7b3678f40dba240e154022a695d83f2707550026698f1542d24d3a7e3bf8dc8e3e072a580439d021a77f88ce224ed44"
+RPM_NAME = "mk-configure-0.38.2-1.3.noarch.rpm"
+RPM_HASH = "29561a18f3e9c7d39aebdc21c0f2e36ee1397fd0de79a846f8e9e868a91a9b56cb87eb9f5df517e63331a29262bb9f8ebb5e2eb27e37589e96a74c9228c125b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mk-configure \

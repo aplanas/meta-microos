@@ -17,11 +17,12 @@ LICENSE = "ISC"
 
 PV = "20.11.0"
 
-RPM_NAME = "python311-isoduration-20.11.0-2.1.noarch.rpm"
-RPM_HASH = "b9a8a5b318737b18a3bc8a45dfc7041619a5aa802784fa3aa2895adcdf0dba6c7d78facd65b4f208ff2bfe56541054b2ffcbc282edc38c46ebdc8ef0f8b22e64"
+RPM_NAME = "python311-isoduration-20.11.0-2.3.noarch.rpm"
+RPM_HASH = "b7be6b1143419c4ae0e0a007dffeae177a56be26614a9e9f52f57a63d7ebae7da6844e56d099c2ade67f138c08d98abbe1bffd54ae5977971190363099b63c70"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-isoduration \
+RPROVIDES:${PN} += "python3-isoduration \
+python3.11dist-isoduration \
 python311-isoduration \
 python3dist-isoduration"
 

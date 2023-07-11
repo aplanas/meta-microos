@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.5.1"
 
-RPM_NAME = "python39-cairocffi-pixbuf-1.5.1-1.1.noarch.rpm"
-RPM_HASH = "19b673723c49458a42693240f27e0e0fc920b9ec167d0cdfafb10f543d0dc7c0389508e2d227ea9e9b54911ddf5d5d7ad9004db98050e1b7f4aab2a80f9087f1"
+RPM_NAME = "python39-cairocffi-pixbuf-1.5.1-1.3.noarch.rpm"
+RPM_HASH = "5b4e8293766f73a4788b8fe0d727b447ab37c8818ad0af28c34854c545483d62ef0bbbc492c77071615e9465d103b1c74f0a995f4b285b3c041ef935ada928ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-cairocffi-pixbuf"

@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "9.24.61"
 
-RPM_NAME = "kiwi-systemdeps-bootloaders-9.24.61-1.1.aarch64.rpm"
-RPM_HASH = "5ad512b2fb291783abd7c87f88051f0999d9280388c3d3ed740067ee92946816058c8d6f839b813d0a651345f839e2fe63d44aff7c345652b0c0fe7a16d4ad54"
+RPM_NAME = "kiwi-systemdeps-bootloaders-9.24.61-1.2.aarch64.rpm"
+RPM_HASH = "7044ee6387bbb8cfaca7d13e1f67ece372d3175d1d97accc62d84755e1b805830d0ad0cf0345664deed9fda5ba181e05c4c5e20cdacdf4681db200ade8f324f6"
 
 RPROVIDES:${PN} += "kiwi-systemdeps-bootloaders"
 

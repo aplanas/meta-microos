@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.8.0"
 
-RPM_NAME = "libosmosim2-1.8.0-1.1.aarch64.rpm"
-RPM_HASH = "bd8acffa01b99f435291c9832a480a7bcf498a4095ccb9f3327fb4d4b2bbe353de077c41c56654fe89fc1730e1b31e7a006c79e0915bfef6201213be086f5238"
+RPM_NAME = "libosmosim2-1.8.0-1.2.aarch64.rpm"
+RPM_HASH = "0ea455d646b0d8990bf9226509283f5f64f7ac44866e1b642e779cd349c5dbdc0b2e62dbc31f96098ac3fb41288d89522d3a85fd1e8ede000f0c212ce70db226"
 
 RPROVIDES:${PN} += "libosmosim.so.2 \
 libosmosim2"

@@ -5,11 +5,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.0.2"
 
-RPM_NAME = "python311-python-datamatrix-1.0.2-1.1.noarch.rpm"
-RPM_HASH = "efe082f3dff6d53d965ddb3f55ea99953fa01d6d991d48c72fdf0f2b909724a660664e70a6d7a30e8b5a9959b27348bb5912bacbdbbdbfbaeed6ac16348141a3"
+RPM_NAME = "python311-python-datamatrix-1.0.2-1.3.noarch.rpm"
+RPM_HASH = "14f09f8a7169cb97e54c3bc2d0d35dbcba40448ea1fcda445c279696d92dcfc327a3ea2798ae45040788a76923b101af417056aa97a400d95f7742215b0e8f91"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-datamatrix \
+RPROVIDES:${PN} += "python3-python-datamatrix \
+python3.11dist-datamatrix \
 python311-python-datamatrix \
 python3dist-datamatrix"
 

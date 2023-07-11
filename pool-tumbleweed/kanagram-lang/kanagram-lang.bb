@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kanagram"
 DESCRIPTION = "Provides translations for the 'kanagram' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kanagram-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "023600d7d85a973f6ec5f973ca7bc7aa6cbd9c90a0cd89809e4706bca99f6e6a11fb5e5c800ec4cc82cd0d30569e9b431909d2ae380c4605c77b7041df6618fd"
+RPM_NAME = "kanagram-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "abbf697e52f1ab38c8d17fd99066c35276942ab9f9ec367e3dacbd781c510d6bd5c419451f79abb7f89cc51059599ca8e9db35d297962ec55fe019be26855b8f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kanagram-lang \

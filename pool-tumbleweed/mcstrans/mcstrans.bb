@@ -15,8 +15,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.5"
 
-RPM_NAME = "mcstrans-3.5-1.3.aarch64.rpm"
-RPM_HASH = "83334e4c0c30062718e5940c62b30fd31df4be296ca9c10828e685b450c74597b8149ea9c69be9fab693d771c11beebce2b155a86d1f62d37d75428f885bb85d"
+RPM_NAME = "mcstrans-3.5-1.4.aarch64.rpm"
+RPM_HASH = "ab752ac473ac9988b63b4d1873cce77a4febd413bea9f8bbd7a4dce10f37a7d7b9e329a8e9285804efb9489d9a1011925522002e1ea00130e41c233d6906c55b"
 
 RPROVIDES:${PN} += "mcstrans \
 setransd"

@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.3.10"
 
-RPM_NAME = "libgusb-devel-0.3.10-2.4.aarch64.rpm"
-RPM_HASH = "8ad60275d1682c0a5101e03e0b5244639970bc2b58ee4b94152cf7c186e9ab5280a1e86260b75177efce121dd90e418c98c431ce12473965a1d14c811b969b35"
+RPM_NAME = "libgusb-devel-0.3.10-2.5.aarch64.rpm"
+RPM_HASH = "9d44ddbcefe28e705c225f1c1a846da488429b93f0102754b76380564a3f25c772769fab321dcce4d0e6b5fa0d6a7c4e4949cbebd6dd73d5c828896b8ecf0867"
 
 RPROVIDES:${PN} += "libgusb-devel \
 pkgconfig-gusb"

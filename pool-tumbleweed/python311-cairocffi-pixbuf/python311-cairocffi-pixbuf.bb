@@ -9,11 +9,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.5.1"
 
-RPM_NAME = "python311-cairocffi-pixbuf-1.5.1-1.1.noarch.rpm"
-RPM_HASH = "5e18c5eaebe259c9aa08497edb1bbcd2ee82f848a80234dc14eb659429d01b7fe43054e7cf86b25e2bab26b8cccfdfe2076e61dbc45b681f98c6ad5a0cde3c13"
+RPM_NAME = "python311-cairocffi-pixbuf-1.5.1-1.3.noarch.rpm"
+RPM_HASH = "ce06d278294c0910edd57e628fcbe2896e17d9dcdbb915aacd8b1faf6427682846134985fb1dc6122e6f9362e5815249a6f13b142688bf2519b7e7ca992d2986"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python311-cairocffi-pixbuf"
+RPROVIDES:${PN} += "python3-cairocffi-pixbuf \
+python311-cairocffi-pixbuf"
 
 RDEPENDS:${PN} += "gdk-pixbuf \
 python-abi \

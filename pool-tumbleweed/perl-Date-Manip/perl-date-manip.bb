@@ -80,10 +80,10 @@ Each of these tasks is trivial (one or two lines at most) with this \
 package."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "6.91"
+PV = "6.92"
 
-RPM_NAME = "perl-Date-Manip-6.91-1.1.noarch.rpm"
-RPM_HASH = "75062a5c5bfe07814430d339fe67ac6c8027d3ac2ecb0bdf9339946ec84d6bd13dd9cf6059c2cd8b2508277127456e347ec5348c7c1281e4ef519fba822b4aa1"
+RPM_NAME = "perl-Date-Manip-6.92-1.1.noarch.rpm"
+RPM_HASH = "3c02a4f6422a2608b639f7986b832778a15912ab94c57bcfffe1db399b80d2849351d1f1e0c2036f0ea3511ab5d6cb0cc5fd856d92bc1aa41d1980a852a4ce87"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Date--Manip \
@@ -119,6 +119,6 @@ perl-Date--Manip--Zones \
 perl-Date-Manip"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

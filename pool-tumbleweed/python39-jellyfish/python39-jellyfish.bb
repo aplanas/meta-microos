@@ -13,8 +13,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.8.2"
 
-RPM_NAME = "python39-jellyfish-0.8.2-1.16.aarch64.rpm"
-RPM_HASH = "4ac155bac9b119736b9c51ca7444cc448e4b253d1a3d32105cec3e1b991a63b939c6341c207dbf4b189893c373f4ee552ee5f12bdbba9321c0f1514a1c9b23c8"
+RPM_NAME = "python39-jellyfish-0.8.2-1.18.aarch64.rpm"
+RPM_HASH = "7e0beda89761038dc0f58c0aed7a6270a6c906cd4f3d521d1f44e0551caadf1c675f5539241203fc3680b7fbdc86622020bf2063cedf442dbe5ce79057f3641d"
 
 RPROVIDES:${PN} += "python3.9dist-jellyfish \
 python39-jellyfish \

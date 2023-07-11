@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "3.3.0"
 
-RPM_NAME = "ior-3.3.0-2.9.aarch64.rpm"
-RPM_HASH = "2f60698ef521945116b1c3190012f96e9d51c7df36ae5d17a26e6bce0f417e637b65f67f4a9740133ef28c5e9247881914e4eee1bce92ecf4895ffb5a7d4ad5f"
+RPM_NAME = "ior-3.3.0-3.1.aarch64.rpm"
+RPM_HASH = "ef12f5c818733327a3daeae74a1e4418fb12f22f098e05da6bfa354a64579d4a2a6c78304593d8a56f0db5aec60dd520d33d6cb4eb8f6b84f920609026382372"
 
 RPROVIDES:${PN} += "ior \
 mdtest"
@@ -14,8 +14,7 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libhdf5.so.200 \
 libm.so.6 \
-libmpi.so.20 \
-librados.so.2 \
-openmpi2"
+libmpi.so.40 \
+librados.so.2"
 
 inherit rpm

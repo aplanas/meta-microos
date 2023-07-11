@@ -8,8 +8,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.svn27036"
 
-RPM_NAME = "texlive-hobete-2023.201.svn27036-53.1.noarch.rpm"
-RPM_HASH = "abdfcef612e249a29c7be17737a746e52697253cb9076efdbcadadb8b9fb22e3a241cc76cb2b42204dd8461dd138bc70f1a00e1c2c10d58a712e2b0d2b055481"
+RPM_NAME = "texlive-hobete-2023.201.svn27036-53.2.noarch.rpm"
+RPM_HASH = "a052a0b2fd8cf2b3f4d15f608ab39f6b25d7c6ddce0277d2b024a92b9b9b9655379ca8604bf93fb86ab3e4e2a7949cb05d228ae6b70f9ff8715f72da5c4e181f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beamercolorthemehohenheim.sty \

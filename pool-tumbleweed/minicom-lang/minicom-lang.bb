@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.8"
 
-RPM_NAME = "minicom-lang-2.8-1.5.noarch.rpm"
-RPM_HASH = "14d6c20f4ec0f410a30ba0e4534152f99e9f81e2f2224c07cbff9bed91d22941a307af06b61a1d2a82d307fafc951485bbd9b8a3e4b10052873018ed858a0ee4"
+RPM_NAME = "minicom-lang-2.8-1.6.noarch.rpm"
+RPM_HASH = "d6dac7ba7a21f840ed598bd7b46b3cbdf6f8b5bf74b44570822ce0535324f0fa5714011077f974a0944b5d0524c850a8dfdb86ae324bfd5c66b9ae4cbf7fb507"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-minicom-cs \

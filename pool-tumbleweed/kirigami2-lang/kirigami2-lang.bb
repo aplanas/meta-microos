@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kirigami2"
 DESCRIPTION = "Provides translations for the 'kirigami2' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "kirigami2-lang-5.106.0-1.2.noarch.rpm"
-RPM_HASH = "cd7f72a945094134a4324657cb489c6a64513447a0b2e1a7749527f12729648b830e92a31a726cc8da7bf127670642f47ecbdb4e32105b7bd4c97d8d71b4a7d3"
+RPM_NAME = "kirigami2-lang-5.107.0-1.2.noarch.rpm"
+RPM_HASH = "be1405d5734a97d5c62f27516fca101ea998f586b4ea11535886c5205ea4eccf4ebe1317dfcecfafb1060a7ea1592d6ad7249e84b46d6f68c58b48f319e7414f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kirigami2-lang \

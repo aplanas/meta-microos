@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.0.0~rc7.1599393390.c451359"
 
-RPM_NAME = "pronterface-2.0.0~rc7.1599393390.c451359-3.12.noarch.rpm"
-RPM_HASH = "3b5ef20a2b7b32e0cbf91ebb0b5377f80ebe59fb7a1f35c6d07e0653949d7593af1a8387cf61a8f891426c10689c4606b7d9dcbc719d8bffdd9eefe265dacfdd"
+RPM_NAME = "pronterface-2.0.0~rc7.1599393390.c451359-3.13.noarch.rpm"
+RPM_HASH = "1cb6bb5d70cf181b9904cd54e5aa4b76aee7e1face493159df07d2247e4ee4a6af8156acf13b8b386743fccb5a0cd5755d3f36a1fa2c3f0028ac6deecb4d36c0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pronterface"

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "121"
 
-RPM_NAME = "pkexec-121-4.2.aarch64.rpm"
-RPM_HASH = "e94de66f87cd8be4b2e97a4769ede684e0bad4d16b4d0d507db8ecd21b7aec9d8a03d5c8a6e394ed65ea1889dafeb10399ba8b0bf8b7050284082d3a796099b8"
+RPM_NAME = "pkexec-121-4.3.aarch64.rpm"
+RPM_HASH = "4d7e309f9142e6f64a4ddb972581627b0df4d3098d90bcb6a09e7cf3aab5d6ca43dfc20008efec0d8c9f82575a28328f06216b2f1bc2dafd6597276864a6d501"
 
 RPROVIDES:${PN} += "pkexec \
 polkit-/usr/bin/pkexec"

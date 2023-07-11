@@ -4,11 +4,12 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.2.4"
 
-RPM_NAME = "python311-pytoolconfig-global-1.2.4-1.4.noarch.rpm"
-RPM_HASH = "bc4268491a6a58d8f2f3a0f0dbb9ddac675c6f5ad7139b899df211e1c857d5d4e07a366a4bf3efb0ffd2fdb59f1f3ff2647794f55c0e9504fd1243bfd403dbc3"
+RPM_NAME = "python311-pytoolconfig-global-1.2.4-1.6.noarch.rpm"
+RPM_HASH = "94246b32879622f98e33e6502ed1a2d1e3553fb43684b016c95f0870b9baede15f550c2a5b531e6531507957f7e208fc611a5736d1e23a63e4d6464d8f9bba79"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python311-pytoolconfig-global"
+RPROVIDES:${PN} += "python3-pytoolconfig-global \
+python311-pytoolconfig-global"
 
 RDEPENDS:${PN} += "python311-platformdirs \
 python311-pytoolconfig"

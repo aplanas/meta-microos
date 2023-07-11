@@ -6,12 +6,12 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.16.4"
 
-RPM_NAME = "catfish-4.16.4-1.3.noarch.rpm"
-RPM_HASH = "e1667255db0456ca3f8b2902499c1c3706677e38817d025bd745dd1fa428f6f1bacaf03774f50e0dd8a0f9f32d1949870792a00d73127be4172229c1203fa3cd"
+RPM_NAME = "catfish-4.16.4-1.4.noarch.rpm"
+RPM_HASH = "e62c82899649c2cc9956c14bbbf0b27f442050b97540e8ad21739d6d63468e9056c7acf2fbb377c4c6aa67c05296db84eb61bca07c6667bdaffb8450d9eac5b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "catfish \
-python3.10dist-catfish \
+python3.11dist-catfish \
 python3dist-catfish"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

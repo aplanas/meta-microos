@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "1.15"
 
-RPM_NAME = "libxcb-devel-doc-1.15-2.2.noarch.rpm"
-RPM_HASH = "6c94bc1a2aec50cf8023d004e24bab6ef7f57334a4c35fd7c0458bb98886e9b0b921c111a58c055874fb42744754dc78495e414efe4dcf610a69927a1e3c73a2"
+RPM_NAME = "libxcb-devel-doc-1.15-2.3.noarch.rpm"
+RPM_HASH = "fe15ceefac62b82510315e661c68d2ea8132ca97c8ccb18eb541ce36f955b50ab726fabdcda3bdc7c70a8f8131726a66f1b1a24a35deeca7612a99a1c24b0e32"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libxcb-devel-doc"

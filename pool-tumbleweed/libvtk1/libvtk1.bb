@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "9.2.6"
 
-RPM_NAME = "libvtk1-9.2.6-2.2.aarch64.rpm"
-RPM_HASH = "fc25514444a2d7a1208dd7d5a84ada70624f21e55494bffa6e6422d023669151b51bf35aadd69b08792a6ef1ac2c4cccc1ddf1f67ccb9e6699c8cc2c0ad023a2"
+RPM_NAME = "libvtk1-9.2.6-2.5.aarch64.rpm"
+RPM_HASH = "28be3749c2ada69fff483908a124bc389c677ff8763e012ad1f74ddf71f0dce06456975ac88ff3ba0df1d76d5303e91dabac21a28ec4c9c3abbe2435adb7949c"
 
 RPROVIDES:${PN} += "libvtk1 \
 libvtkChartsCore.so.1 \
@@ -146,7 +146,7 @@ libfontconfig.so.1 \
 libfreetype.so.6 \
 libgcc-s.so.1 \
 libhdf5.so.200 \
-libhpdf.so \
+libhpdf.so.2 \
 libjpeg.so.8 \
 libjsoncpp.so.25 \
 liblz4.so.1 \

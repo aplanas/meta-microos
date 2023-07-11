@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "2.28"
 
-RPM_NAME = "libbd_lvm-devel-2.28-1.4.aarch64.rpm"
-RPM_HASH = "ef40ce2d9b2847eacb73367edce47e8b05f373a3330961ba89fe756374c7e4b25f6c1b3efd38d423accb7b117bbba16466ae1f12d27df5aa6ba302cbe47c5c8d"
+RPM_NAME = "libbd_lvm-devel-2.28-1.6.aarch64.rpm"
+RPM_HASH = "6f1c59329894c7b10f179f7eea72f1160d0d50a9ef03e596c8aec3620113020e888b2edec017e1984ee620a975df73986e4f21193286ec06e1e0941090444fc7"
 
 RPROVIDES:${PN} += "libbd-lvm-devel \
 libblockdev-lvm-devel"

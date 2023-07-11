@@ -7,13 +7,16 @@ Type 1 fonts, and more. It contains two command line programs to \
 convert TrueType fonts to an XML based format (called TTX) and back."
 LICENSE = "MIT & OFL-1.1"
 
-PV = "4.39.3"
+PV = "4.39.4"
 
-RPM_NAME = "python311-FontTools-4.39.3-2.1.noarch.rpm"
-RPM_HASH = "aa0ae26c4afeefcc55d97be409abffc7e50fd4b03c47707d3229604a899a891dfcfd586b9bb301057961b3ca866c099a65c9d3f732c4cf383a24fb417a81b24c"
+RPM_NAME = "python311-FontTools-4.39.4-1.3.noarch.rpm"
+RPM_HASH = "393156f93f38254f488c10e57c1dffa12a9395f6846c55e73064dd29655af6752f0bafc50561be1a8aac293dd5607fcbaf5bd729f2a25e7c91619572d93fd347"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-fonttools \
+RPROVIDES:${PN} += "fonttools \
+python3-FontTools \
+python3-fonttools \
+python3.11dist-fonttools \
 python311-FontTools \
 python311-fonttools \
 python3dist-fonttools"

@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "0.6.0"
 
-RPM_NAME = "jupyter-ipywebrtc-0.6.0-1.17.noarch.rpm"
-RPM_HASH = "306000347f9dc3be5665d1d4d535d2031837b41c70095437b97bad5b08d32018e840e63f4a9572b252a2ebe3da20d0949597563e9d06f0337d1cf0d288dd70fc"
+RPM_NAME = "jupyter-ipywebrtc-0.6.0-2.1.noarch.rpm"
+RPM_HASH = "1a1cf4d56fe29094946aebfafb95d31392e317461c41c7f42b368713c73d00857e1a8275aca358b2b4dc773c3a84ed6161afabcd4393b5403d58202e6b8d4e32"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-jupyter-ipywebrtc \
@@ -17,6 +17,6 @@ jupyter-ipywebrtc"
 RDEPENDS:${PN} += "jupyter-ipywidgets \
 jupyter-jupyterlab \
 jupyter-notebook \
-python3-ipywebrtc"
+python3dist-ipywebrtc"
 
 inherit rpm

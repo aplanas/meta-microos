@@ -9,8 +9,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.svn64487"
 
-RPM_NAME = "texlive-graphics-def-2023.201.svn64487-53.1.noarch.rpm"
-RPM_HASH = "542998fcbb2f56df338ec7a0fcf358243a9f3f98dfaa1d6c7b50ce13b51462f2c96ec7db0dd96a644d3ee81c1866053f807b08b1a98edd082945b2fefdca60af"
+RPM_NAME = "texlive-graphics-def-2023.201.svn64487-53.2.noarch.rpm"
+RPM_HASH = "decb4b6a753b7d1473bfdc6eb77b70b6d91884fdf96ef82db48c2947048d751df4469205b076842546145c31fab0704ee90ca8237e82703e3ec0f444bd221b96"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dvipdfmx.def \

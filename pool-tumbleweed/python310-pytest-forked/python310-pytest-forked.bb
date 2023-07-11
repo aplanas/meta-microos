@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.6.0"
 
-RPM_NAME = "python310-pytest-forked-1.6.0-2.1.noarch.rpm"
-RPM_HASH = "51dfaea7f132adf152826c78fd619b43a7f17a016cb5ef9232df153658d16c5ba3769c8e9ddfd7ce39043fb0a20275ec1cde54950f71f9f3e17f5ca7fe076d56"
+RPM_NAME = "python310-pytest-forked-1.6.0-2.3.noarch.rpm"
+RPM_HASH = "f3b550327c71939a2938f9b11d0372f6c49ce89c843a63e2e5b876f8ae85f9872eb98b34f54209b4c466b2e0349cd252a5ecbbd41b9643b32c38dd3ec0ba196c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pytest-forked \
-python3.10dist-pytest-forked \
+RPROVIDES:${PN} += "python3.10dist-pytest-forked \
 python310-pytest-forked \
 python3dist-pytest-forked"
 

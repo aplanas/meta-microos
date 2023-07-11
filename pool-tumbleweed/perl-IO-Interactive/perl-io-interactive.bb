@@ -64,13 +64,13 @@ LICENSE = "Artistic-2.0"
 
 PV = "1.023"
 
-RPM_NAME = "perl-IO-Interactive-1.023-1.10.noarch.rpm"
-RPM_HASH = "063e3432e99a0ed641fab15c8193bbb27c55b27aad9d8c476c651ae68c65538abc32f32cb94170b40ecab5a0f1380ca5be7520d3f175f2b5fb752eda58da1d4b"
+RPM_NAME = "perl-IO-Interactive-1.023-1.11.noarch.rpm"
+RPM_HASH = "e945e17d66ed09d3a1d438fe0eb4d5a425a604999aa805f10c267100094de7b5aba05db82da369564b5903534bccb135be0251eed1704ab9dcf1b02bbe8791c5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-IO--Interactive \
 perl-IO-Interactive"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

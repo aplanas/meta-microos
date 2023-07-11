@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2023.01.1"
 
-RPM_NAME = "hackrf-firmware-2023.01.1-1.2.noarch.rpm"
-RPM_HASH = "35d6ad9b1e2c8a0478f636dc26441aa90d2839ad260c06d399d2e344408c92c26fce4406a3f7a6fed5a95c304ae545e1c8e0019c7a96200b9fb4e040f61a0096"
+RPM_NAME = "hackrf-firmware-2023.01.1-1.3.noarch.rpm"
+RPM_HASH = "54ccb147fa000aebf148a05c54bb7e7c0ce2cc98e24d2910fd9f07e4db1bdd49e91fe2111390032d09d11afd331d917a506f0580432eb669ab65aadbc50315a2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hackrf-firmware"

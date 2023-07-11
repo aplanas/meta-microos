@@ -2,13 +2,13 @@ SUMMARY = "Haskell githash profiling library"
 DESCRIPTION = "This package provides the Haskell githash profiling library."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.1.6.3"
+PV = "0.1.7.0"
 
-RPM_NAME = "ghc-githash-prof-0.1.6.3-2.3.aarch64.rpm"
-RPM_HASH = "3f3f9bd62210e9627ffc1c01f9d4ba3f3edd627269ff7058a44be2e7dae059d99696ce7a85f62db4fbcc14baab068326520d66edfa41a07f55420d63a773548a"
+RPM_NAME = "ghc-githash-prof-0.1.7.0-1.3.aarch64.rpm"
+RPM_HASH = "46cdeed952e24f1bf111cd24d8e78e58457925c8039fe8d709365ed7617f6b234075d843d7327c9373964a5af316b92ff6252301b68ee880ced7a3fc0a6cfa33"
 
 RPROVIDES:${PN} += "ghc-githash-prof \
-ghc-prof-githash-0.1.6.3-FrkvdbOWDB4772dnMETpxS"
+ghc-prof-githash-0.1.7.0-99BBKgCWJJUA6aWVuD3QRz"
 
 RDEPENDS:${PN} += "ghc-githash-devel \
 ghc-prof-base-4.17.1.0 \

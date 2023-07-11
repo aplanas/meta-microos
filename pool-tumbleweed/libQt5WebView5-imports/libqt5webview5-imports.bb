@@ -4,10 +4,10 @@ without necessarily including a full web browser stack by using \
 native APIs where it makes sense."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libQt5WebView5-imports-5.15.9+kde0-1.1.aarch64.rpm"
-RPM_HASH = "cae01f3a4866c3bae28d38e467cddff3cdc33858d0d09d350c1b67ecc6c67f784400be311b714c12ee76dfb78549ccd35f7b69fd48f931fc94be75f77758304a"
+RPM_NAME = "libQt5WebView5-imports-5.15.10+kde0-1.1.aarch64.rpm"
+RPM_HASH = "a0ab153e29f2e41b51fb60695335e1fce7b9124af6166d2581b979e98923ea813f77e2fb46f428fd2537d181e951967cc35df4e87947a7135138a2c99587a3dd"
 
 RPROVIDES:${PN} += "libQt5WebView5-imports \
 libdeclarative-webview.so \

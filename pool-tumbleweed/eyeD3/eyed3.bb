@@ -17,12 +17,12 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
 PV = "0.9.7"
 
-RPM_NAME = "eyeD3-0.9.7-1.2.noarch.rpm"
-RPM_HASH = "5f79f0743be9928291b1eba0cdf38e83e38e7a67120a82df2d2ca219ff74d9021d0dad6e3ba7a8d554a6e05f934af584b9015f35dad42ada79e82fc08272ae88"
+RPM_NAME = "eyeD3-0.9.7-1.3.noarch.rpm"
+RPM_HASH = "417f90a3acbcb31182d49cad86ccdaac9ae5acaf46aacd65e85192e94136c5008e8fede6096e68459e2ed544b80ea6759a20f137e826ea9a041afda9a6e94aa6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eyeD3 \
-python3.10dist-eyed3 \
+python3.11dist-eyed3 \
 python3dist-eyed3"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

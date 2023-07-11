@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "0.1.4"
 
-RPM_NAME = "python310-contexter-0.1.4-2.14.noarch.rpm"
-RPM_HASH = "7adf8ad5e40973188e5a3b84cebde1e5e45a0a3fcbe606a631701a8dafc4d81599570950a2a18ea5f0accafb97383f3df5e6b252a18ded067b390f997de00585"
+RPM_NAME = "python310-contexter-0.1.4-2.15.noarch.rpm"
+RPM_HASH = "39ca34ced195d2379043e074b5e991ee75c54d7ffbf2cbeaa4a4588278181b2b46c55af44750141fb4dde4c54db57eb5e9bef852d32eca20f8bb6a2165aaa5f3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-contexter \
-python3.10dist-contexter \
+RPROVIDES:${PN} += "python3.10dist-contexter \
 python310-contexter \
 python3dist-contexter"
 

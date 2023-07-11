@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-only-with-GCC-exception-2.0"
 
 PV = "2.0.21"
 
-RPM_NAME = "uwsgi-lua-2.0.21-2.1.aarch64.rpm"
-RPM_HASH = "b9c669fbbe0d38ba92b08c988aba7632ef233414108c40a7ef463a97849d1dbfa5a3dc38d11b7caa2323cddf697a52fc854affb66bd594ff5edd84670e213845"
+RPM_NAME = "uwsgi-lua-2.0.21-3.1.aarch64.rpm"
+RPM_HASH = "68bc9909912a1335521bad422eb102bd6ba6252e31dcd8034ffb111ea569a6d02bfb39ffe57ca902afc73874b70ba556e369af8af572ea9490968dbcfbfcb649"
 
 RPROVIDES:${PN} += "uwsgi-lua"
 

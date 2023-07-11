@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.3.8"
 
-RPM_NAME = "libfltk1_3-1.3.8-3.8.aarch64.rpm"
-RPM_HASH = "63d8eb24d69432286f1ea21c5dbb4e2d66cab9aca1f63f169162af427c572fd189279c44c52a720a65ae0d55197bc5fb1a4edfac9a98131c2d8707c437fcc317"
+RPM_NAME = "libfltk1_3-1.3.8-3.9.aarch64.rpm"
+RPM_HASH = "ffac23821d23be36c5044e4dc207fbbc6e28fcb62dea4054b4e3ce4dcbbfbbc955c47a8bb15d459b0cdacbaf7ef83840343cf87f75e3b055627a619ea1f7189d"
 
 RPROVIDES:${PN} += "libfltk-forms.so.1.3 \
 libfltk-gl.so.1.3 \

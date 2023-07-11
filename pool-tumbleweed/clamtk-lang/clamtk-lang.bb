@@ -2,10 +2,10 @@ SUMMARY = "Translations for package clamtk"
 DESCRIPTION = "Provides translations for the 'clamtk' package."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "6.14"
+PV = "6.16"
 
-RPM_NAME = "clamtk-lang-6.14-1.8.noarch.rpm"
-RPM_HASH = "d061bc19a3bf60eabd1ffcd70d5be20863bfb1101a74187df0f1edd6e0ebff8c8eaa06056b632ea5cc2862c051770d2e96fb11854730f7cf365c423b1e126421"
+RPM_NAME = "clamtk-lang-6.16-1.1.noarch.rpm"
+RPM_HASH = "f4d4c1e1f87e725f5d8c35f3a880d7435bdd2d95ec0722bf1ed8993c66ddad4beac8caf7dfb767989bed1ddc0c8f9d6db0eec34aa67892722bc39a098f235081"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "clamtk-lang \

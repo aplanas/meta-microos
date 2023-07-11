@@ -2,10 +2,10 @@ SUMMARY = "Data validation and settings management using python type hinting"
 DESCRIPTION = "Data validation and settings management using Python type hinting."
 LICENSE = "MIT"
 
-PV = "1.10.8"
+PV = "1.10.9"
 
-RPM_NAME = "python39-pydantic-1.10.8-1.1.noarch.rpm"
-RPM_HASH = "60feeb2358c51dabcf4af9dc4ad17057c67917939aa3a8dd628021fa53c8979923865e05591c8e1c9fbbb53e5f99c2045d305476137563479ff549bc2dbbe899"
+RPM_NAME = "python39-pydantic-1.10.9-1.1.noarch.rpm"
+RPM_HASH = "7202d1bd0176d5343a44d0cad9f4a39ef505782c46855f4f03d9f1c69864e118617286c623d63e95d284841255240ca8bf10416076cc62d465b4c924dc976b77"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pydantic \

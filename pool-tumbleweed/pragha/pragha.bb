@@ -26,8 +26,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.3.99.1"
 
-RPM_NAME = "pragha-1.3.99.1-3.3.aarch64.rpm"
-RPM_HASH = "de87d8fc2b740080edaf2730cd7148316d3fe8aaea9db33ef4a706d565edf7dcc99af9227d80dd0117eea08bcaf1255be6b25af6bbbc91eb580a54834a9d2273"
+RPM_NAME = "pragha-1.3.99.1-3.4.aarch64.rpm"
+RPM_HASH = "ea45ec96a74db40be95d3d66dfbcf8f580c68bc5618b9229b616364d0e383454c33997a3a6588d8cbb1f430fef9b90487dacdd6652d69ebe945b90dadeebcf24"
 
 RPROVIDES:${PN} += "libpragha.so \
 pragha"

@@ -7,12 +7,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.4"
 
-RPM_NAME = "python310-openapi-schema-validator-0.4.4-1.1.noarch.rpm"
-RPM_HASH = "330e13ff14012ad1456e4da1d53ee7543275417687162157aa89024d3dceb3625a90989abf1a9c947804839a3f6e4e2dfc00ada1055494d8ce8ba63fd1269d24"
+RPM_NAME = "python310-openapi-schema-validator-0.4.4-2.3.noarch.rpm"
+RPM_HASH = "226f34a1cb19c06b1c389010758445a3e40108d51cd3a50e5cf8f786e5aba38231728324cf25db01da47b8e568a52cdd2b0aa5135548675fb18879181edc2386"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-openapi-schema-validator \
-python3.10dist-openapi-schema-validator \
+RPROVIDES:${PN} += "python3.10dist-openapi-schema-validator \
 python310-openapi-schema-validator \
 python3dist-openapi-schema-validator"
 

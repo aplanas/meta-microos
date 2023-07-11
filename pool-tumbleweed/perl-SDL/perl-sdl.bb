@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.548"
 
-RPM_NAME = "perl-SDL-2.548-5.3.aarch64.rpm"
-RPM_HASH = "3f54c3282dfa8eb0e6b89b81c8b5db543f3ff98e4013c1642e6b7123d9e03c80eb52b1e1e933ee84e7319e81895c45c6e1f1e06a84806590620e784c917354c1"
+RPM_NAME = "perl-SDL-2.548-5.4.aarch64.rpm"
+RPM_HASH = "9b33e7ac1145f767b0ae7b69592b6ec98f3474dcc059589670dd3d4ce86debc06152510af0f5a9965d87248b57842cba933c6a7fc8e02ed52e240ccb1e254daf"
 
 RPROVIDES:${PN} += "perl-Module--Build--SDL \
 perl-SDL \
@@ -104,7 +104,7 @@ libSDL-image-1.2.so.0 \
 libSDL-mixer-1.2.so.0 \
 libSDL-ttf-2.0.so.0 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-CPAN \
 perl-File--ShareDir \
 perl-Tie--Simple"

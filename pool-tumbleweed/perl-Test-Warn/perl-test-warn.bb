@@ -11,15 +11,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.37"
 
-RPM_NAME = "perl-Test-Warn-0.37-1.2.noarch.rpm"
-RPM_HASH = "b5cf746bb7d0b9ef320f3d0c40a467b79cbf068220150c2b92d6afedb1cafed9f54f2da6798dcbc0257c53cd3241eb98d1b3aee012b8c3162b98ab560a8e43c5"
+RPM_NAME = "perl-Test-Warn-0.37-1.3.noarch.rpm"
+RPM_HASH = "55af4c3cab46619286323b98b85ebf97233542371e1f8aca2c59dd4b002ed10f0b5374723c505095859e1c3c758dcaa3e9cbe706e0e7373801b39a7342f353a7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Warn \
 perl-Test--Warn--Categorization \
 perl-Test-Warn"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Carp \
 perl-Sub--Uplevel"
 

@@ -4,10 +4,10 @@ Data Box Information System) SOAP services as defined in Czech ISDS Act \
 (300/2008 Coll.) and implied documents."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.21.1"
+PV = "4.22.1"
 
-RPM_NAME = "datovka-4.21.1-1.5.aarch64.rpm"
-RPM_HASH = "b49749b4611d68ed7728a86b0f3ac25504c85ab394f79614f193785d7f740e5c251bcac74657b60e0d0868407239b6c9e9ac2159864a32f39b9d79fc371f0803"
+RPM_NAME = "datovka-4.22.1-1.1.aarch64.rpm"
+RPM_HASH = "e4d8fb4597008981ad6527a8df3d794c0541743a86f01bdf7e1e4e878472477017d705a6aedb96f97645441545f68139648fad638d80aeb920c008553e76568d"
 
 RPROVIDES:${PN} += "datovka"
 

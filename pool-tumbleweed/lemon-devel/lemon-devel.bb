@@ -11,8 +11,8 @@ LICENSE = "BSL-1.0"
 
 PV = "1.3.1"
 
-RPM_NAME = "lemon-devel-1.3.1-1.3.aarch64.rpm"
-RPM_HASH = "e17b4c249036cbf42dbea243c21dd362eaca873534c897ac53f61d0f866fc9497a4a0d873465fcddc178c38d7f3266d11e6b35bb34921930fd0d1cfc5e456625"
+RPM_NAME = "lemon-devel-1.3.1-1.4.aarch64.rpm"
+RPM_HASH = "7c8a2283a52ce067355d40725e8c243405c3212722d38347ef4a777a908faad20a6fc8b2af88e819de1914a02523317a40b8a66c4e9bd2f53657df4d16b4a675"
 
 RPROVIDES:${PN} += "lemon-devel \
 pkgconfig-lemon"

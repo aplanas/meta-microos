@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & MIT"
 
 PV = "0.2.0"
 
-RPM_NAME = "python39-cssmin-0.2.0-1.5.noarch.rpm"
-RPM_HASH = "a5cc4b7c5730fd21f96efafcca771e64b8a5a4eb09520123b3afc57323c3fda31699c1cac7442f9e480365fc0d3c5acec0f2d8fe0d9ef09d063c52ff3de1544f"
+RPM_NAME = "python39-cssmin-0.2.0-1.6.noarch.rpm"
+RPM_HASH = "98f7f72dcc57b662612fda25f5148cb756ead1b76094fef8054b1b92f8c308ffe14ec121ac070357a72b732dc20cf02173e070e32c3deda51b1358f26d687b76"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-cssmin \

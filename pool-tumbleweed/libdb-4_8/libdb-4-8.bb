@@ -3,12 +3,12 @@ DESCRIPTION = "The Berkeley DB Database is a programmatic toolkit that provides 
 database support for applications. \
  \
 This package contains the necessary runtime libraries."
-LICENSE = "Sleepycat"
+LICENSE = "BSD-3-Clause & Sleepycat"
 
 PV = "4.8.30"
 
-RPM_NAME = "libdb-4_8-4.8.30-41.1.aarch64.rpm"
-RPM_HASH = "684b933cac9dca0c1ffd5c2845653835071e9818ebbe9334ab6515a992ba25cceb6e76e29a7cdfc411ca1e4701233d2ac4935696d3d9d607f688a29dffe1a3b6"
+RPM_NAME = "libdb-4_8-4.8.30-42.1.aarch64.rpm"
+RPM_HASH = "8b76ffb0744a9dc50d7495068a73368eef983a98f56324377d1aaf5928f7caa600fc1355036e161259cd2c9431f044fa2caa1522482b85e3795c1e9fdeac3fa4"
 
 RPROVIDES:${PN} += "db \
 libdb-4-8 \

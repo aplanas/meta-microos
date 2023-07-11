@@ -7,8 +7,8 @@ LICENSE = "Apache-1.1"
 
 PV = "0.1"
 
-RPM_NAME = "xmldb-api-0.1-27.6.noarch.rpm"
-RPM_HASH = "3a4b7f21b053d4dcd69d3c272e523e8fc5b5e3dbf6d8c6e9a759493f92fccad87f7c1a68f08f4f7b8c4b2478cb6359ac6871b0c81d8a1a58e8e66d2a39caed4e"
+RPM_NAME = "xmldb-api-0.1-27.7.noarch.rpm"
+RPM_HASH = "e7db72f1c5634ad8ba47740eb9fa813b73780691f80d13d485b2eafcc360c82201bbb5a3507dbe3fbebd1b235063829d1a91f134e837e6a2738a68e3ebbe149c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xmldb-api"

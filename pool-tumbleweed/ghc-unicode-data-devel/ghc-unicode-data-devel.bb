@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.4.0.1"
 
-RPM_NAME = "ghc-unicode-data-devel-0.4.0.1-3.3.aarch64.rpm"
-RPM_HASH = "8347e824b7a9c2e4e676f23d2168975f4f0345c1849353c38f36255b236e9eee28dd4fb43713c88bb4aa8570f6d6f48575c234a75484279bddfd474f0c764cad"
+RPM_NAME = "ghc-unicode-data-devel-0.4.0.1-3.6.aarch64.rpm"
+RPM_HASH = "99f49a4a3dbb54f5905970a1b327f08189b4cb257169d487ee2605180a789c283caaa533f200f32bd06669da06d8c6ae417d5ae2d2b2af15ee61af4c69ef173b"
 
 RPROVIDES:${PN} += "ghc-devel-unicode-data-0.4.0.1-IPznodd4J0BGoSZPR6u4lO \
 ghc-unicode-data-devel"

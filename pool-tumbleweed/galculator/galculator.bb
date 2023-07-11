@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.1.4"
 
-RPM_NAME = "galculator-2.1.4-3.14.aarch64.rpm"
-RPM_HASH = "620aba3477eeb503cfb8bb92817cdcc14c1554ea4e903ba2b28088dd060dc6b789641380dd3c37ccf9ee980e9fdfdd77148435b405b49ed0085482fc54258cdb"
+RPM_NAME = "galculator-2.1.4-3.15.aarch64.rpm"
+RPM_HASH = "645f68cdd7719fafef2d2b8a1ed8537af36f64bfa0979c188e761f0ae78b0ffb00f1dbe39c156fd4448b06990c197a607eec0f8cd780c527bdb3be36f1eaef59"
 
 RPROVIDES:${PN} += "galculator"
 

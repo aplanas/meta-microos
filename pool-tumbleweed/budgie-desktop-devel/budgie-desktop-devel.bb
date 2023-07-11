@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "10.7.2+0"
 
-RPM_NAME = "budgie-desktop-devel-10.7.2+0-1.1.aarch64.rpm"
-RPM_HASH = "f8677138281b4fe63a0923d5bc53269a01890980355ccda03f8cdd497ceba9b2b2d72db1617b55ecc1dec8c5c8f9e132b76fb350b174ab6a54ed8d2867a40349"
+RPM_NAME = "budgie-desktop-devel-10.7.2+0-1.2.aarch64.rpm"
+RPM_HASH = "36b140539000b7edd7043ed221ecd4f0873b3faa871cf6b62109b0235498855993fbfbb4a93f9761d0d5eba39b2ba3ec4231ffb0114ed7e0bc0af7eff03a9db3"
 
 RPROVIDES:${PN} += "budgie-desktop-devel \
 pkgconfig-budgie-1.0 \

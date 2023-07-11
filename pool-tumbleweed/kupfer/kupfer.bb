@@ -10,8 +10,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "322"
 
-RPM_NAME = "kupfer-322-1.1.noarch.rpm"
-RPM_HASH = "3dca1aeae796eb3d4a9b2e9fbc6c0aded55bc68f23be275b0cc7803a5debc7da24ccc79686e280fa34811287a1b8a17e82c488019d12c27bfde53dab5f4687bd"
+RPM_NAME = "kupfer-322-1.2.noarch.rpm"
+RPM_HASH = "d1f0e22b785bc4ab288f1a546ced32e54a23294d722dcf6080abb3f4e98ad421f84cb97439e9e78acb02e3cc63eb924012c00be937187ecc5d8d908a2fc7acc7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kupfer"

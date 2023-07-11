@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "20200713"
 
-RPM_NAME = "python39-diff-match-patch-20200713-1.11.noarch.rpm"
-RPM_HASH = "5c63a3872f650c80c3cbbd62302b459a58f1daae57049ec32b0619c1c8dd30c3e87d11376ea93e46d5f14ba1672110488cf736fa950cd0b705d90b782e9dd48b"
+RPM_NAME = "python39-diff-match-patch-20200713-1.12.noarch.rpm"
+RPM_HASH = "ce95b198ad3a376442fef2236b98e73c651e6c24e1b9a314d4dc19908f485bc0be11550b098fa671f6091bf4322752f1a591809def7a923ea96ad61f36c12c83"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-diff-match-patch \

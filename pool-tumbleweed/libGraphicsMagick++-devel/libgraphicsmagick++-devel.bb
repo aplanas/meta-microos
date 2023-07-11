@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "1.3.40"
 
-RPM_NAME = "libGraphicsMagick++-devel-1.3.40-2.3.aarch64.rpm"
-RPM_HASH = "ad0028f5f95c7fd3aa7ed7a2282f33f243aa893cc99a005ebed456efcd7b351dd1f6c3353b738971a76cb70a2608134ef8e00e1053394be569b9de1693e639a3"
+RPM_NAME = "libGraphicsMagick++-devel-1.3.40-2.4.aarch64.rpm"
+RPM_HASH = "4a8d9d2972a15ca60fa2295c311779d2b738b218d477c34f98e475313b583181ab0614bb75bb6abd310301704f3e6a419d79a3bc1268c79de6d4238cbf860ebb"
 
 RPROVIDES:${PN} += "GraphicsMagick-C++-devel \
 libGraphicsMagick++-devel \

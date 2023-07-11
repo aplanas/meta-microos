@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.12"
 
-RPM_NAME = "python39-htmlmin-0.1.12-3.13.noarch.rpm"
-RPM_HASH = "140327cf57d99cab865a7a0e3b2436a17dc00888ec1395f8befb4e2ee84c3b3dc0ea4233fb42adb7d2beb0146072864b1d76390ea8061287956fc75d95735c55"
+RPM_NAME = "python39-htmlmin-0.1.12-3.15.noarch.rpm"
+RPM_HASH = "6cb38e824dd46328e3b7e548243c526cde0589751341398d7ee0dae23fa29f13160c07249a69c9e291b76638bf04c8700db6622490193f65a4081573ccacdc57"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-htmlmin \

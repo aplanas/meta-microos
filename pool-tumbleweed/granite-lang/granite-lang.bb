@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later & LGPL-3.0-or-later"
 
 PV = "6.2.0"
 
-RPM_NAME = "granite-lang-6.2.0-1.7.noarch.rpm"
-RPM_HASH = "5023c173bb0ed15259a4cfa8be851700933e51f43cda4a1e414c6b969f8342f488d47606d1b90f2741350a86642093f123c723e3a893c49c5fc84815c6f266ae"
+RPM_NAME = "granite-lang-6.2.0-1.8.noarch.rpm"
+RPM_HASH = "df7fdca66e480da5439098d4bae1895890184ef64faa2d24c8348008fbc57ddb90bb3f4111d06208c455c02a463c05ba8a324d4343d4b8ddb9529c06c9a5666f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "granite-lang \

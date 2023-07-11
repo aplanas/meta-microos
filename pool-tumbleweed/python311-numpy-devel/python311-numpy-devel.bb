@@ -4,10 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.24.2"
 
-RPM_NAME = "python311-numpy-devel-1.24.2-3.1.aarch64.rpm"
-RPM_HASH = "e4f67c1a73b3264db186cb26299c9fe0a0ee6197913c8b4f8ceef5a1042de4274a51d86704b51e557e059ebedb193904db4d429638d6343d739992b97500d246"
+RPM_NAME = "python311-numpy-devel-1.24.2-4.1.aarch64.rpm"
+RPM_HASH = "1a17aa37cd7ea3bb9c9b42419d6db712b4383beb1c83aacb639497c782baf7b7537e0328458e4e08f72a8cd2053fdf1fa978030ee86bdc1edabc9c4eb478e906"
 
-RPROVIDES:${PN} += "python311-numpy-devel"
+RPROVIDES:${PN} += "python3-numpy-devel \
+python311-numpy-devel"
 
 RDEPENDS:${PN} += "blas-devel \
 cblas-devel \

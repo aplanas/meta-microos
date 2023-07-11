@@ -13,11 +13,10 @@ LICENSE = "MIT"
 
 PV = "1.4.9"
 
-RPM_NAME = "python310-python-rtmidi-1.4.9-2.4.aarch64.rpm"
-RPM_HASH = "d1994cf02f64f109dc477ac208697b79b5c7dc1a99bd62b76a3f676b857a32b493309ad8bc860a70b3754ee391ada32d7c94cae28f14f0c8019e9bd39b1bc5df"
+RPM_NAME = "python310-python-rtmidi-1.4.9-3.1.aarch64.rpm"
+RPM_HASH = "ab271df80cef637999d98b4ccd5dae6ef46bb9390ad67be9b9a34d9afe870cbce303e3fce55cac84ce60d2d31b9ddeefd2e7bce904084d6273523b1de2158e93"
 
-RPROVIDES:${PN} += "python3-python-rtmidi \
-python3.10dist-python-rtmidi \
+RPROVIDES:${PN} += "python3.10dist-python-rtmidi \
 python310-python-rtmidi \
 python3dist-python-rtmidi"
 

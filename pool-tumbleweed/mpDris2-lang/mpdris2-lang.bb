@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.9.1"
 
-RPM_NAME = "mpDris2-lang-0.9.1-1.1.noarch.rpm"
-RPM_HASH = "228407926a7f655bdb31f8a8bab21362a95f577ddd4dceddda8be2f7c2865e0c715b04c1997b7beeb4eb4de6e907e6415b55b889a6d39b4c56014c449d92df0b"
+RPM_NAME = "mpDris2-lang-0.9.1-1.2.noarch.rpm"
+RPM_HASH = "23d623bfa7b64df8ce170534dd9052395f919fba9018eb0c221824b3b95f414c84a2186aef0888ef2fdd6a794e1306cce88a3a86c20e8e912784b95c1d2dad83"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mpDris2-fr \

@@ -5,15 +5,13 @@ and Python APIs for working with notebooks. \
 This package provides the python interface."
 LICENSE = "BSD-3-Clause"
 
-PV = "5.8.0"
+PV = "5.9.0"
 
-RPM_NAME = "python310-nbformat-5.8.0-1.2.noarch.rpm"
-RPM_HASH = "29f95b3a83ff0579483965b3076849e3a2551d16c11c22a6cdf833b7b8e69fb1a7eb7310afb70017a0bd76fb0870e8ddb8a8f75d26591d43252bcd0dd5dcf8bf"
+RPM_NAME = "python310-nbformat-5.9.0-1.3.noarch.rpm"
+RPM_HASH = "043637de9a859230df8196560b29fa0c05ebcec8b7f9710d475a4a48e9a2e0d6357f1c80f47bcc3e96811d1d1563d9e1c4dcf30a99b67172d745275337724139"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-jupyter-nbformat \
-python3-nbformat \
-python3.10dist-nbformat \
+RPROVIDES:${PN} += "python3.10dist-nbformat \
 python310-jupyter-nbformat \
 python310-nbformat \
 python3dist-nbformat"

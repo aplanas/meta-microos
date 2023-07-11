@@ -4,8 +4,8 @@ LICENSE = "Artistic-2.0 & GPL-2.0-only"
 
 PV = "1.8.9"
 
-RPM_NAME = "xtables-plugins-1.8.9-1.3.aarch64.rpm"
-RPM_HASH = "2538c1faa4bf32da3d56e6b53a1dc712158e0ac41a1b1ea3f15b7ab3915e00d46ab1f8e1f6aa6efbd73d08524b578d05faa7d812bde01d416379b866ff4dc1a2"
+RPM_NAME = "xtables-plugins-1.8.9-1.4.aarch64.rpm"
+RPM_HASH = "0ad58a1a64b75713c69921cd4dc75a33b74be73c823c83c3290b6bb267c557b42dbce710ccc83f84157521b8269ee9f35d2e3a3a418c447cea3a732a534f4ebc"
 
 RPROVIDES:${PN} += "libarpt-mangle.so \
 libebt-802-3.so \

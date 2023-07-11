@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-or-later"
 
 PV = "1.5.1615+0"
 
-RPM_NAME = "psi+-data-1.5.1615+0-3.1.noarch.rpm"
-RPM_HASH = "ac09fa5312de2a95f9fdf7e1344ae2166c35b6e7f73a38d45f3d9bf8c83d7ca1f25c91441ed0b0036bbabef9f683d8932e2525dbb773cf6ac7c7114196b735f4"
+RPM_NAME = "psi+-data-1.5.1615+0-3.2.noarch.rpm"
+RPM_HASH = "0d4f17d64d832abca3bab456e12aa9237b29c77b5761e757f07409bb82cb588e1e2a11ebc35d03514f8e7c961f4360242737bad01942d181866826ee844c3640"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "psi+-data \

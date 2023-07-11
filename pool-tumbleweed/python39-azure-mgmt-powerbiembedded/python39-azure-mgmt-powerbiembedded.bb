@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "2.0.0"
 
-RPM_NAME = "python39-azure-mgmt-powerbiembedded-2.0.0-4.11.noarch.rpm"
-RPM_HASH = "62433422af361f27dcf0509a9c44e61b1b3059b599a48d3902e02f88ced24bc354dbb6c8491970981207556ab5f1d410d2d7dfbdd04e5c4bc9e20f60b01459a8"
+RPM_NAME = "python39-azure-mgmt-powerbiembedded-2.0.0-4.12.noarch.rpm"
+RPM_HASH = "48b4c53abfad9a342923b25e237bd9e57c0a52ee2ce1628b3fd5b1af4d316166667bdfc92556a7596a52047981fdfdfd43af504ffa8c3d736103c55fcb93be5e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-powerbiembedded \

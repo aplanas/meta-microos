@@ -2,10 +2,10 @@ SUMMARY = "Package provides all documentation of R base. PDFs, man pages, info p
 DESCRIPTION = "This packages provides all documentation of R base. PDFs, man pages, info pages"
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "4.3.0"
+PV = "4.3.1"
 
-RPM_NAME = "R-core-doc-4.3.0-45.2.aarch64.rpm"
-RPM_HASH = "a0f27a41570796a1ea9d02e0aa6367f0fb2bb5eb9efcf9ad4311082b5d6c7560f8565a1da179bc9be31d8bd6354d147659dd38a18863ee05fa91f74cd3bed96e"
+RPM_NAME = "R-core-doc-4.3.1-46.1.aarch64.rpm"
+RPM_HASH = "728ec4bc90a300b114a61be69dd8946c579d5c1918809e9f296f47fceffcfd6b2abf5c86f8a00cd4fb18db0d7f693eb3c6d53c141cd6ee6f2e2773ff5453166b"
 
 RPROVIDES:${PN} += "R-core-doc"
 

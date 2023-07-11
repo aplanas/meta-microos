@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-only-with-OCCT-exception-1.0"
 
 PV = "7.7.0"
 
-RPM_NAME = "libopencascade-visualization7_7-7.7.0-1.3.aarch64.rpm"
-RPM_HASH = "eb5d554e15d0859e7a573b81a14e02d55c802e43fa8ea4f4541fa5461c1181b5fcdbeed0fc89fa79cab0b9290932ad70524b943e663faaf13cb51db9ee00a343"
+RPM_NAME = "libopencascade-visualization7_7-7.7.0-1.4.aarch64.rpm"
+RPM_HASH = "1d075552d919a20822f4df6c67b6b1c4effb7e2cb89cc0e76e604daeb7027b1cafc036c07365b66dd76a4e8443f3e6fc014d5c57077ddc5c2fee63f47b0b4604"
 
 RPROVIDES:${PN} += "libTKMeshVS.so.7.7 \
 libTKOpenGl.so.7.7 \

@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-gurmukhi-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "ba513be5addb5a276a027d15778db735b49c4c63dbe1ab085725239875697411891da0cf6ecae2cbc869dc4404763730b18d007762d344da747fbe6975e50317"
+RPM_NAME = "noto-sans-gurmukhi-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "2691832e78f6a1bc35f349d929ecf37703fc7a101458390f6e33aa45e3f7484eabda6cecc37f3e2a957bba0d8e264e699df24b7970de96074af4be761bb2311e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-gurmukhi \

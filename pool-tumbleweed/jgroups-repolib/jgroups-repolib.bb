@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "2.6.10"
 
-RPM_NAME = "jgroups-repolib-2.6.10-33.9.noarch.rpm"
-RPM_HASH = "72b598b6ba105a12e32c9e72683e1ffeac6ac51f0ca4118765cfda01895635b16de89e29d362e95830c64ec1cf64942eafceb155bb75be17b7a1852afebba1db"
+RPM_NAME = "jgroups-repolib-2.6.10-33.10.noarch.rpm"
+RPM_HASH = "a3dd1291a35262cc7975700986a6d8b9a89b4cddcafc29b7b528799e9769de48eb0d95634d39576693ba68972593139b5686e22a48b56b9ac26dde8e37e2af63"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jgroups-repolib"

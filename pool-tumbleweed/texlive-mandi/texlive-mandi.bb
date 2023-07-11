@@ -6,10 +6,10 @@ are other features that should make LaTeX easy for introductory \
 physics students."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.1.0svn61764"
+PV = "2023.208.3.1.0svn61764"
 
-RPM_NAME = "texlive-mandi-2023.201.3.1.0svn61764-52.1.noarch.rpm"
-RPM_HASH = "1fbedf9bd75e7367dd2c7ec4cba4a352ec882e7b06a84d807c7fbc586ec4d1a622dc6d4103c1145dba525db7fc70f22b2c2c13ce716f841e7d146a4f1c8b5ef9"
+RPM_NAME = "texlive-mandi-2023.208.3.1.0svn61764-53.1.noarch.rpm"
+RPM_HASH = "90ae24f0d72b2c8586f4e7fb5be10fac7d58bc6230d7eea50bfe7239546ffb26b9bd5d444ebf6c06a56a7bcd9342b2677f34e0ac4c40e2cf8d617e26b91c817e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mandi.sty \

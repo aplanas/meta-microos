@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.0.6"
 
-RPM_NAME = "fslsfonts-1.0.6-1.2.aarch64.rpm"
-RPM_HASH = "4dcd60bdea330f529ae2477f85c0d4216e39b4cbfd41141f1def74823b072cb269a167bc2a06ba2387ab994ccfc26444806ebd0aa9b457ec3b4a09eb3fa42a39"
+RPM_NAME = "fslsfonts-1.0.6-1.3.aarch64.rpm"
+RPM_HASH = "92269f89a8e200da0e0d7e2932b5d639036e1719d4b47adea0c49a3f8a2440cd040108bad1c1dd7f5b8dfc8acefd6058ebe6c56d7f67e2a21102205b7c6f5e8e"
 
 RPROVIDES:${PN} += "fslsfonts"
 

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "20190621"
 
-RPM_NAME = "libhdhomerun-devel-20190621-1.18.aarch64.rpm"
-RPM_HASH = "2ad132cdaf8dcfc844514987ddc3f00c02c825f260956bd307d4ccc983cbdba7bc588e0aa0b66b8d15a707767712fc188e6db799e3ba8259935d1f3f0a3054c2"
+RPM_NAME = "libhdhomerun-devel-20190621-1.19.aarch64.rpm"
+RPM_HASH = "afd7dff0d24fa33cf4432ea0caa4d0bccc4cecfd7d2e0333c7ecb428c29f69dcbd1c5b91a00c980d49ae7368c4fbf605b2355f161c0843181b1200188c64def2"
 
 RPROVIDES:${PN} += "libhdhomerun-/usr/include/libhdhomerun/hdhomerun.h \
 libhdhomerun-devel"

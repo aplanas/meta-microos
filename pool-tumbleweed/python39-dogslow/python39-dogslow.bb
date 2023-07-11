@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.2"
 
-RPM_NAME = "python39-dogslow-1.2-1.14.noarch.rpm"
-RPM_HASH = "4225a1f6beeb7aecbc478292d8a58f7edf368b977ec32a8159a65eeb72d7c324fd6eda9d55900819fbede24550dc1a9ef2b9154a2e1533273c7379fcf7575848"
+RPM_NAME = "python39-dogslow-1.2-1.16.noarch.rpm"
+RPM_HASH = "4846d1af28f27ce8dac2cbda8d6350f26dd4779e87b5edd3fdb1ed91c34feb336cc1809a50a54dacf99b8d4f4d846e4115228ccbca8f8a8219612b4c82b2d9d2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-dogslow \

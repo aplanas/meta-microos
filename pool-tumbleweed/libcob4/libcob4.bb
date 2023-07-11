@@ -6,8 +6,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "3.1.2"
 
-RPM_NAME = "libcob4-3.1.2-1.13.aarch64.rpm"
-RPM_HASH = "49020a579073fd88354d167c60cc7ab02fea15c46af5042facb93fef2559e5e7e9af8dc819022c3ad845b6eb5ac4f19b2895d93467ee9ef31bbc64f9efb0b81c"
+RPM_NAME = "libcob4-3.1.2-1.14.aarch64.rpm"
+RPM_HASH = "ddb3fd8404f23b84b7fbdf324222af8818b2bf62e38c07266e82a75bddfaf0ff6518de0c850b6a2e95573677ce05da0ff8be5e11244e3664a632e6de3a69ce11"
 
 RPROVIDES:${PN} += "libcob.so.4 \
 libcob4"

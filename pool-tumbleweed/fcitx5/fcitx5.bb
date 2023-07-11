@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "5.0.23"
 
-RPM_NAME = "fcitx5-5.0.23-1.1.aarch64.rpm"
-RPM_HASH = "0eefef14b15fc090d0accec9dce686dcf7110c5df4ff7b420cffa94a6b1b2fa09ad5ce6f6d3c46f97b82e51265e1d4e53bf1b1cce319504489a05b1f89fe3588"
+RPM_NAME = "fcitx5-5.0.23-1.2.aarch64.rpm"
+RPM_HASH = "9c52c5e496492e6e9e8354ee4ab6103dbc7512aef5f67d4383df40d60cee8f9f55d7d278fe610ab32096fc9846783f52d30be06f0b9c40a2d4355764973847a1"
 
 RPROVIDES:${PN} += "fcitx \
 fcitx5 \

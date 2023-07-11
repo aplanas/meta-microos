@@ -4,8 +4,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.5.2"
 
-RPM_NAME = "soapysdr0.8-module-remote-0.5.2-3.8.aarch64.rpm"
-RPM_HASH = "bd1b0ebad9fe34e0e8dba45f3676f55b03511014583a37603f6a641fd22b6c5bee44b910d507a19350a0bb800a5e9a8a106e075a0e89c4f35fcc0b69f3f21d7a"
+RPM_NAME = "soapysdr0.8-module-remote-0.5.2-3.9.aarch64.rpm"
+RPM_HASH = "688fcb8c6c00f62f96cf4929593062ea5b5d688b8fbb100cd7cf5dfc02460d224f2ee8968f1f07468f4f7eb23615278f1ea6fb5be8253af72ddd7d6b89fc7621"
 
 RPROVIDES:${PN} += "libremoteSupport.so \
 soapy-remote-module \

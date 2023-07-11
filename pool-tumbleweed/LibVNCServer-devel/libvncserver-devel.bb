@@ -12,12 +12,13 @@ The LibVNCServer-devel package contains the static libraries and header \
 files for LibVNCServer."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.9.13"
+PV = "0.9.14"
 
-RPM_NAME = "LibVNCServer-devel-0.9.13-4.4.aarch64.rpm"
-RPM_HASH = "1231cd50eec54e09686738abcb3b3999b139c3b989ed9ba9b3b7fb4d24143b32f0094518e1652039792bc4a1ee188a098fa03ba431bc8f01968083a688a0bdbd"
+RPM_NAME = "LibVNCServer-devel-0.9.14-1.1.aarch64.rpm"
+RPM_HASH = "1afbf388bd6f347bcd607f181284162111e28b2593146a51b86beb83d2055f95882a7d0b11aedb4fedc6d6a4e24332a99901f2fd1ab6b30d80f3793754b497fa"
 
 RPROVIDES:${PN} += "LibVNCServer-devel \
+cmake-LibVNCServer \
 pkgconfig-libvncclient \
 pkgconfig-libvncserver"
 

@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "0.47.0"
 
-RPM_NAME = "python310-django-allauth-0.47.0-1.8.noarch.rpm"
-RPM_HASH = "3ae5d4fd127c26c2d9cf454692bd74b290450a196dd6c3863749772e6e81cf617deb5d5c23b9de0e00edbe3ab3b4560a495de13b78241822b54025ec1f0b660c"
+RPM_NAME = "python310-django-allauth-0.47.0-2.1.noarch.rpm"
+RPM_HASH = "af0c75732cceaae4d90708d21dce797f515f2162b6611161cabb40024893ce3f542f652d0be6ecf19ec157561489ec4d3f900e6b78b7f909055f2d4901ee4ea6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-django-allauth \
-python3.10dist-django-allauth \
+RPROVIDES:${PN} += "python3.10dist-django-allauth \
 python310-django-allauth \
 python3dist-django-allauth"
 

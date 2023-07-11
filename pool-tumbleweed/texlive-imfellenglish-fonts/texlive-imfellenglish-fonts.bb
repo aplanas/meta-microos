@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-imfellenglish"
 DESCRIPTION = "The  separated fonts package for texlive-imfellenglish"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn64568"
+PV = "2023.208.svn64568"
 
-RPM_NAME = "texlive-imfellenglish-fonts-2023.201.svn64568-52.1.noarch.rpm"
-RPM_HASH = "0a8be2e56b74a621b458dda95de74e6cb044488d4a7da545657d814a7a191cbd2f529dde3ba9e0645698ec8d77b4aefe0208375c36587f20a061e0309f23000d"
+RPM_NAME = "texlive-imfellenglish-fonts-2023.208.svn64568-53.1.noarch.rpm"
+RPM_HASH = "29cf9eadb5731d03a0a6aea0562f3f6ec7f2c065577fca0feeeda270451f78f3f29de271021a9792797106eb97c9040905fc8f8a82d6ff4b410d76222ec2b5a5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-imfellenglish-fonts \

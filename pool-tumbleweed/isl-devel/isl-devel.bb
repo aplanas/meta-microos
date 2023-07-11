@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.26"
 
-RPM_NAME = "isl-devel-0.26-1.1.aarch64.rpm"
-RPM_HASH = "4535aa60bbc6c62ba9de2ecf7482e4bc83b338f4b7b482f15abb905256b5dec7007990a07c1cc372f9ffe294deab4cbabbcecf925626753b6cf94943b9ace1dd"
+RPM_NAME = "isl-devel-0.26-1.3.aarch64.rpm"
+RPM_HASH = "90e643a51c320db6d54c52f761b4756c187a086ea0838ad39500c43db8849733c59d64ac7a1974e5fcc74f62fe231f0e5e4c235f620ddd2299f1ef0ae4be82cf"
 
 RPROVIDES:${PN} += "isl-devel \
 pkgconfig-isl"

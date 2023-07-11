@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.8.2"
 
-RPM_NAME = "glade-catalog-libhandy-1.8.2-1.3.aarch64.rpm"
-RPM_HASH = "b8fb3147ddd2442861b039ed0f5ac5cfc1c19f6195cc2a42700525387c470254a84d043c3e4371ad2a33612c7b5ab92f097ba177711a3e233088af1c1a4340ff"
+RPM_NAME = "glade-catalog-libhandy-1.8.2-1.4.aarch64.rpm"
+RPM_HASH = "6dd1fe1e2d2e34c8b5dc12e56507bfe018eb7e2ddc7576cb24a1f8a821f7ecee11dda7d0c7be60ad01400f02294922a2d28c3182afb2d87a275ea05e58424f6b"
 
 RPROVIDES:${PN} += "glade-catalog-libhandy \
 libglade-handy-1.so"

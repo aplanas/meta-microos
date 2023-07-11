@@ -9,8 +9,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.8.0"
 
-RPM_NAME = "libnfc6-1.8.0-1.12.aarch64.rpm"
-RPM_HASH = "b729272565f4157e12cab89d1cc52e0d5026f5909214c6b2421cecccd6f4efdd45f4c7ec8311a4c7844b781bf0f7dc8f4887edfbcfcf432b10509db4f745bf66"
+RPM_NAME = "libnfc6-1.8.0-1.13.aarch64.rpm"
+RPM_HASH = "9559979d40ca59fdc5660bf90efd739af3edf228dadd831b56f0f7c6941623da4b544a37f1e180fa0821218db5d0426ca803f82d685cab54f5ab1e2d5f527a94"
 
 RPROVIDES:${PN} += "libnfc.so.6 \
 libnfc6"

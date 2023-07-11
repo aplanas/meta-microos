@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.9.5"
 
-RPM_NAME = "metallb-controller-0.9.5-1.13.aarch64.rpm"
-RPM_HASH = "7729227c6589239ff6e034a51fd6bc3765dcc7128a01e22da35c3df3c4313b8e52a060a439d9f3855866554469aa7e645ea35fb9460c8e5810a9648fa7cec053"
+RPM_NAME = "metallb-controller-0.9.5-1.14.aarch64.rpm"
+RPM_HASH = "88f541d736adc0144dfda8ba7ee262c09272a30fd869aa2f9fa21facf89ef06bfed830340fa1b4bd51dbbbe2a46c15fe0746b825848846255d4fe434c10e3c57"
 
 RPROVIDES:${PN} += "metallb-controller"
 

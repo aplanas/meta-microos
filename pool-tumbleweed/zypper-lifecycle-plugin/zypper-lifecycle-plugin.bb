@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0"
 
 PV = "0.6.1601367426.843fe7a"
 
-RPM_NAME = "zypper-lifecycle-plugin-0.6.1601367426.843fe7a-3.4.noarch.rpm"
-RPM_HASH = "b6a9e22a64a80a7231bcae0b7e95cf9bc3d2f6f0a83fda2a72bab3aa8d67a16724b6327f1f7f7def6b8edf5aaf3816f18efca8f31a006dc220e2ac506e13a938"
+RPM_NAME = "zypper-lifecycle-plugin-0.6.1601367426.843fe7a-3.5.noarch.rpm"
+RPM_HASH = "543f642f243a76d551b73f8b1cf949bf4662cb15bac5fbd568aa9e724205285dfd00ce0e1b2165655bd3540975ae77fc00c24049728b6af6682c503222376667"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "zypper-lifecycle-plugin"

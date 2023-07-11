@@ -8,8 +8,8 @@ LICENSE = "NetCDF"
 
 PV = "4.3.1"
 
-RPM_NAME = "libnetcdf_c++4-1-4.3.1-6.3.aarch64.rpm"
-RPM_HASH = "c8e19a2280f50e21d785ebf397edecdbd043e89f9873b7389e8b4068afcd416279648c526862a380915ee5c1006eab1d7a7381971f0cb90a7987a3066b8792e9"
+RPM_NAME = "libnetcdf_c++4-1-4.3.1-6.4.aarch64.rpm"
+RPM_HASH = "37b400df6887a48712b24d8126203b54e827b920eff5906118a209600f95a9ec9dfbf4d3162e95a19238b6dc08aee8b4bb6e583fbb333fa4dcc7aaa9fcb1217f"
 
 RPROVIDES:${PN} += "libnetcdf-c++4-1 \
 libnetcdf-c++4.so.1 \

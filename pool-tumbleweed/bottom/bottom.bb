@@ -3,10 +3,10 @@ DESCRIPTION = "A cross-platform graphical process/system monitor with a \
 customizable interface and a multitude of features."
 LICENSE = "MIT"
 
-PV = "0.9.1~0"
+PV = "0.9.3~0"
 
-RPM_NAME = "bottom-0.9.1~0-1.1.aarch64.rpm"
-RPM_HASH = "cb70e689f41d339cb244c0a47973c751b30c7d351a22fe395006b77ec2e67ebb403f5089c37ae2f26322bbfcc4c96d31cc2a4116625b808c98c9fec7ffe59921"
+RPM_NAME = "bottom-0.9.3~0-1.1.aarch64.rpm"
+RPM_HASH = "c6861a44a49ca4000ac7db305ddc4d6590e54f8346452aa89713c76a55127b0002ddc01d6b7ae83160d02553dbb35797c16f8c35fe2c2f304f5fdbcc147811cb"
 
 RPROVIDES:${PN} += "bottom"
 

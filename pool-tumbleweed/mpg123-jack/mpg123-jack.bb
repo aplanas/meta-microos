@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.31.3"
 
-RPM_NAME = "mpg123-jack-1.31.3-1.2.aarch64.rpm"
-RPM_HASH = "691c38f308bced32e36d8bf0fb53127e4d1a266123709fc05377e3ba9a5c64877477d4cbd848da874127ddaa2756ca8400dac3c09c03e63b1f18952499fb7036"
+RPM_NAME = "mpg123-jack-1.31.3-1.3.aarch64.rpm"
+RPM_HASH = "bbb2d1b85efdb47c1aaf3ce7a8b583d494c3eb5212abe919f9ed51eaec22754ca8d52de113bfe7c86722c9e05c18b675d49f6d3e9b8e15089f6ff1cec7e5ab44"
 
 RPROVIDES:${PN} += "mpg123-jack"
 

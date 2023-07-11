@@ -4,8 +4,8 @@ LICENSE = "EPL-1.0"
 
 PV = "1.1.5"
 
-RPM_NAME = "cbi-plugins-1.1.5-4.8.noarch.rpm"
-RPM_HASH = "9649d84dedaf62c0b6a70cc0baa5457d44c031c20cb0f5322815bb0bc404f4ecb891e8a5bd1720de30051d6c77a45c7bc35e73d7d04e00b4a66ce41f7e9eeb2d"
+RPM_NAME = "cbi-plugins-1.1.5-4.9.noarch.rpm"
+RPM_HASH = "bd9e6f7e5ad1b49ea2d420c0639ff3a40eff95e13f7719926075ce3b5b3175a0d4166fa491319425a5c519c26c42a344930ed1c6765bb40e829f9b4096db3285"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cbi-plugins \

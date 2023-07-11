@@ -6,11 +6,13 @@ LICENSE = "MIT"
 
 PV = "5.1.1"
 
-RPM_NAME = "python311-Flask-Security-Too-5.1.1-2.1.noarch.rpm"
-RPM_HASH = "9cd5a14fae84e09f075eafb7c52ec7d53f8e88998c111fe13f8778856c774537f6dcc6d4859683da4033309c4c32ce6004485572a9e29774edc56a22a5a4040d"
+RPM_NAME = "python311-Flask-Security-Too-5.1.1-2.3.noarch.rpm"
+RPM_HASH = "4f82e231bd20d73fc5a23355326b4bbc595c0e2af12929710bf969810b5de1a189612364f51b15e6a5a2f449d334d7f032a17387399c3b40fc4a93143d7eb0b8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-flask-security-too \
+RPROVIDES:${PN} += "python3-Flask-Security \
+python3-Flask-Security-Too \
+python3.11dist-flask-security-too \
 python311-Flask-Security \
 python311-Flask-Security-Too \
 python3dist-flask-security-too"

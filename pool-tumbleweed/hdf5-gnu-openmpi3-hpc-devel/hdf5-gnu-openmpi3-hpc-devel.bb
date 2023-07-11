@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.12.2"
 
-RPM_NAME = "hdf5-gnu-openmpi3-hpc-devel-1.12.2-5.1.noarch.rpm"
-RPM_HASH = "e823a8c1177a0345682901ff838aa754966416081d5f64d826b2891b4bda1d3914924f45644102877ce3fd92e862ac9f9d9a30e045ad22299c7afa0d7454dc6b"
+RPM_NAME = "hdf5-gnu-openmpi3-hpc-devel-1.12.2-5.2.noarch.rpm"
+RPM_HASH = "7357419d57b4c508f9f058e6e3bbc352bd50a9883d9a4de75f6a032b6153c09a6d7cf30d5e0b36ef3e4c947e9e66d86c9f50f3a08e7c66a82f854194344ed909"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hdf5-gnu-openmpi3-hpc-devel"

@@ -6,14 +6,14 @@ LICENSE = "GPL-1.0-or-later | Artistic-1.0"
 
 PV = "0.12"
 
-RPM_NAME = "perl-Mojolicious-Plugin-RenderFile-0.12-3.17.noarch.rpm"
-RPM_HASH = "d6074d3eb28dc19e3be612c669d89a385a9ad4781a66ca811caff15c40fdadadd20da09315da7ae47681430e5fbd1ba7e2ca40c714e0640f5048ad500f360d16"
+RPM_NAME = "perl-Mojolicious-Plugin-RenderFile-0.12-3.18.noarch.rpm"
+RPM_HASH = "36d48ec3027aeac18b1ef3fba982829f7daaeca5e94669553f4000a5133f74d30e07febfb1cf656e80534bfcffdcb4aab0c08dd88b9f541a2d9419b6107a2807"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mojolicious--Plugin--RenderFile \
 perl-Mojolicious-Plugin-RenderFile"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Mojolicious"
 
 inherit rpm

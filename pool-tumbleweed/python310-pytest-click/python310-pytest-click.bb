@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "python310-pytest-click-1.1.0-1.6.noarch.rpm"
-RPM_HASH = "4e10075f690d1741aea3afb627f58c0e260047b254bc1a136c87e1c20c00f67a663dd3c382a952a92d12bd3395f95a31436144802905029a32f62e039abd326e"
+RPM_NAME = "python310-pytest-click-1.1.0-1.8.noarch.rpm"
+RPM_HASH = "08cf2c89ffed3cc5539b74d6a5b338e3829d13d3764163b475e36b8bc93aff158c8515d87bcdb40ba28515212f0d39b135644dab34325386dc9e09902aebdf66"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pytest-click \
-python3.10dist-pytest-click \
+RPROVIDES:${PN} += "python3.10dist-pytest-click \
 python310-pytest-click \
 python3dist-pytest-click"
 

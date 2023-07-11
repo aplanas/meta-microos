@@ -19,8 +19,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.2.0svn35723"
 
-RPM_NAME = "texlive-hepparticles-2023.201.2.0svn35723-53.1.noarch.rpm"
-RPM_HASH = "e5bff0973f6e07cbb5c467e90e85542a1780d1d7a3a38a820fa902193e59a738a5500144cb317ad02497dff6c10b5a40f881fb9815c75b3d819b7edfccd688a2"
+RPM_NAME = "texlive-hepparticles-2023.201.2.0svn35723-53.2.noarch.rpm"
+RPM_HASH = "9b1307d6d6d6ddb3d7232ee4486c4e40ca028706bdfb5fdd3ba724bdacbeb3c45e373acf09a99c8b6a11be7ed4d21ff98b2d18aa2c2e8e617f22349a0f36fad5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hepparticles.sty \

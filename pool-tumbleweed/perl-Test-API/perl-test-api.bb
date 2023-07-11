@@ -6,14 +6,14 @@ LICENSE = "Apache-2.0"
 
 PV = "0.010"
 
-RPM_NAME = "perl-Test-API-0.010-1.11.noarch.rpm"
-RPM_HASH = "f2366520d43cf472c5a15cee735f0f99ff25b461c806d918feef9d50eef8d047af5f40f91b230da93c58c30bfaa43fd395a10a7423121f68e45f95c53638940b"
+RPM_NAME = "perl-Test-API-0.010-1.12.noarch.rpm"
+RPM_HASH = "e112858f26200fda94de4ca14c32f849a576957228481c224321a6556726110771c881f453a8a93c9924efb0c3217f7d013f3a5f180f91c8e7baf2f8043e2426"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--API \
 perl-Test-API"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Test--Builder--Module"
 
 inherit rpm

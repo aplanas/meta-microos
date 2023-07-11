@@ -8,8 +8,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2.4.3"
 
-RPM_NAME = "python39-URLObject-2.4.3-4.12.noarch.rpm"
-RPM_HASH = "a2662b423bb928eb9887688d3398886bf4ebd9886ac58307717c27d97755b81fe1a8ed7dc4b4b3cb18fa4b2380cf2115cf7093e6746a6080fc290d6c0e34e6ae"
+RPM_NAME = "python39-URLObject-2.4.3-4.14.noarch.rpm"
+RPM_HASH = "c45f1ce93e31330da3bb81fa9ff87445cc67adba863c16202a577a076a241103c558a0d7b601b8bdd49b249ee6f1439b31b244482b0ad895f9be65fb2286726b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-urlobject \

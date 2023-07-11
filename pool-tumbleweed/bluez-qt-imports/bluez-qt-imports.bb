@@ -3,10 +3,10 @@ DESCRIPTION = "Async Bluez wrapper library. \
 QML imports."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "bluez-qt-imports-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "2d2e81a9d24ba3fdb9facb33dc4ab3629961e83223b63cd96a0d8a463da9e892c7d8ce22b2685822c260b7b3f8b9509ff550e9f76b270e0d04b4e06c9b324476"
+RPM_NAME = "bluez-qt-imports-5.107.0-1.1.aarch64.rpm"
+RPM_HASH = "35ebb630f3ad5ed6318b8dd9eb0bf3ae5825e108b763c47f7b7e14aa0ef5979c578c36e30791f1d394e28ee7f462b1eab0185a551a6bef148cd900f0ad0e7c26"
 
 RPROVIDES:${PN} += "bluez-qt-imports \
 libbluezqtextensionplugin.so \

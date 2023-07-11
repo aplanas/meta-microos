@@ -5,13 +5,13 @@ LICENSE = "GPL-2.0-only"
 
 PV = "69.0"
 
-RPM_NAME = "python3-avocado-69.0-6.10.noarch.rpm"
-RPM_HASH = "5b22f0b225b1408a002fa9fee72f14fa3da241d59afd53b9fe74861b9655d70a122069dd7f831e7c402ff048872fafc1b8030bfedd1655e0a701c0c8a9718900"
+RPM_NAME = "python3-avocado-69.0-6.11.noarch.rpm"
+RPM_HASH = "b39e1db7dbbd82cc59e2c56f1efe67b2760741e118cb05da012502664d3ac65e4a489134f92e196602989f13e0123c7c03a3ecd73e1d79fc9399a061fb9d39fc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "avocado \
 python3-avocado \
-python3.10dist-avocado-framework \
+python3.11dist-avocado-framework \
 python3dist-avocado-framework"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

@@ -6,10 +6,10 @@ provides types for 3D positional audio playback and content \
 management."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.9+kde3"
+PV = "5.15.10+kde3"
 
-RPM_NAME = "libQt5Multimedia5-5.15.9+kde3-1.1.aarch64.rpm"
-RPM_HASH = "0e8cbe88e18b2b47fd46059c825c03466ced369cfabb4087fdd7162fc865ff69a53ea922d96400ff13622f349e013c6a627ff2a30fb57b2a999a951567e828bc"
+RPM_NAME = "libQt5Multimedia5-5.15.10+kde3-1.1.aarch64.rpm"
+RPM_HASH = "80925a147639d35eedd39f996fea69ac16a13d44f392a9c60610945af5a72440a079e9dd799500ec97378eb2de579a81c6e6211c0a91740a8ee7b17f9c20c5ad"
 
 RPROVIDES:${PN} += "libQt5Multimedia.so.5 \
 libQt5Multimedia5 \

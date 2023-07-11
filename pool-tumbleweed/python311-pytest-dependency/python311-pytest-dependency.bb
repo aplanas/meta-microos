@@ -6,11 +6,12 @@ LICENSE = "Apache-2.0"
 
 PV = "0.5.1"
 
-RPM_NAME = "python311-pytest-dependency-0.5.1-2.10.noarch.rpm"
-RPM_HASH = "3492db74b9960ff5da5725583757dcbc9e8a41c14bc601736d61520af9ca1751ca62f70bb0d9869244f7ae57dbca712692806ff29babaca2cfb66a39818a4395"
+RPM_NAME = "python311-pytest-dependency-0.5.1-2.12.noarch.rpm"
+RPM_HASH = "f635d19584648994ea73aaec28abeb3e692a4788b8a717edf17f4b7fd8b81948e75b744ed430bc8fb2313f2ab4ca69c892430cad388a56ae91b982f24d43c0bf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pytest-dependency \
+RPROVIDES:${PN} += "python3-pytest-dependency \
+python3.11dist-pytest-dependency \
 python311-pytest-dependency \
 python3dist-pytest-dependency"
 

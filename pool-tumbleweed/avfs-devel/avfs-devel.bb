@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.1.5"
 
-RPM_NAME = "avfs-devel-1.1.5-1.2.aarch64.rpm"
-RPM_HASH = "82ac7309270dd16effafc1ecdc0cfb4bc605152a9f2772ee32406b0cb40f5c42381fa7cebee1c6d79932332bad3ce5ee7d698cce2d0cfe5e356250da8178cdf7"
+RPM_NAME = "avfs-devel-1.1.5-1.3.aarch64.rpm"
+RPM_HASH = "094eda44797e3c29cd6b0a88edd4bcb4c1cd01a8990d50e1f689c2a1e80a1afae683b1341306a10334d20da8423988232234b5007a5d4632b13df2e9de65d714"
 
 RPROVIDES:${PN} += "avfs-devel \
 pkgconfig-avfs"

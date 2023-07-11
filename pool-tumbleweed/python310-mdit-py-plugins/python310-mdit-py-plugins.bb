@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.3.0"
 
-RPM_NAME = "python310-mdit-py-plugins-0.3.0-2.3.noarch.rpm"
-RPM_HASH = "a7d472c74d221251ff700f17916c66477000edba04ea2ab525acda70aa9313dfae705c7109490d0f37b4c02627539f8217a4211c379e3ff75fa8c7557435bcdb"
+RPM_NAME = "python310-mdit-py-plugins-0.3.0-3.3.noarch.rpm"
+RPM_HASH = "3cc2427ee10fa5c722fd4484e20102dc2e8371d04752006e65d443aa48764c21cc96ef8f8c0a795ae40cf52536bcdc08d4dfa6e68d9425d1e90ca69df0e627ef"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-mdit-py-plugins \
-python3.10dist-mdit-py-plugins \
+RPROVIDES:${PN} += "python3.10dist-mdit-py-plugins \
 python310-mdit-py-plugins \
 python3dist-mdit-py-plugins"
 

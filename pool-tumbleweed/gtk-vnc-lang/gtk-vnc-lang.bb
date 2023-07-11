@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only & LGPL-2.1-or-later"
 
 PV = "1.3.1"
 
-RPM_NAME = "gtk-vnc-lang-1.3.1-1.5.noarch.rpm"
-RPM_HASH = "ef726a19f6a1276f62ef79fda05c360980779d8f4d8ec9f48525cff4960503efb977dbc61073cb527ed06bf8fe2f740310fefbbba4174560d44f2b5884fb82e5"
+RPM_NAME = "gtk-vnc-lang-1.3.1-1.6.noarch.rpm"
+RPM_HASH = "20893e48b43cf9343c82e1dc00f495baeb096bcc7391a87f42040c2ed5420b6f881ce0c2e2f5e16db1458aeeb58df7f1e92429ff73159ff0ba73f0881ad4c696"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk-vnc-lang \

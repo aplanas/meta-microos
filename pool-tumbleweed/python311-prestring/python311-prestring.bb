@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.9.0"
 
-RPM_NAME = "python311-prestring-0.9.0-2.10.noarch.rpm"
-RPM_HASH = "01e8d8718a445bdb6fc50008a585d14833106cd92ee98c539e037174503956216d905c93143f4162406aed4b3efac73aff1984a178f94be5aba20d2dce2cbee6"
+RPM_NAME = "python311-prestring-0.9.0-2.12.noarch.rpm"
+RPM_HASH = "ac6692f964f4b6cf44206c25f074df6247a884165607fed0f03350b6e7b2eedba05bb33fdcadfdbec67187c51572c1fb659edd113533b66c40dafcd20dd073c6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-prestring \
+RPROVIDES:${PN} += "python3-prestring \
+python3.11dist-prestring \
 python311-prestring \
 python3dist-prestring"
 

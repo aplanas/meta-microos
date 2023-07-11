@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "3.38.1"
 
-RPM_NAME = "gnome-usage-3.38.1-1.10.aarch64.rpm"
-RPM_HASH = "b2b707a5d1b60930812f2e473252b79a02b4a5e64aecc1faab1e6de94e3e34a04dee587eab9321a8a335394bd8a937771bdcdb542cf96045d645ae352392528e"
+RPM_NAME = "gnome-usage-3.38.1-1.11.aarch64.rpm"
+RPM_HASH = "b755fc5e6d9d49143ce78830ebbc0e26a752627b1927accc6ea380055c3fe1437c030a2b7995d8b6906fba5e12a8ec145fe29de78113a771f0c1de010db0c32b"
 
 RPROVIDES:${PN} += "gnome-usage"
 

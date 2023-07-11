@@ -10,11 +10,12 @@ LICENSE = "MIT"
 
 PV = "1.7.2"
 
-RPM_NAME = "python311-plumbum-1.7.2-1.6.noarch.rpm"
-RPM_HASH = "3cf3917f1a4241f880627853f61ed8a51db881c87831e408b6407f15aa18340dae07ed10425c4b0e7670534a5c2d8a17a97d6b39581588dec02d99cd4a97af1a"
+RPM_NAME = "python311-plumbum-1.7.2-1.8.noarch.rpm"
+RPM_HASH = "d2146784c17d7fe543f3c0255401fd81f0f446abcd0f1760148f79e83a046e6c06cab9edb7a404013ce7d9d413cddb7e4d122b19214b9b15a76201e177284722"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-plumbum \
+RPROVIDES:${PN} += "python3-plumbum \
+python3.11dist-plumbum \
 python311-plumbum \
 python3dist-plumbum"
 

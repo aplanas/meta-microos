@@ -30,8 +30,8 @@ LICENSE = "Apache-2.0 | BSD-3-Clause"
 
 PV = "2.8.2"
 
-RPM_NAME = "python39-python-dateutil-2.8.2-2.1.noarch.rpm"
-RPM_HASH = "ecdbc1902ff1deb7e06c866f598b3c0ccde0197091370bbc416258a9e60818e48a164fa900668702a90c7a2c30171a9fcbdc82d426e8d8136dd29cc07525ac89"
+RPM_NAME = "python39-python-dateutil-2.8.2-2.2.noarch.rpm"
+RPM_HASH = "bfe8fc1f7a960eb74fe5f78f133813b7c630ba39dccf47d5919e29201430f13a62a05fc2631dd7092bd06ce13d03b3b981c54b064a960cd073653f8675f99826"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-python-dateutil \

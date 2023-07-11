@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause & MIT"
 
 PV = "217.8"
 
-RPM_NAME = "trilead-ssh2-217.8-2.6.noarch.rpm"
-RPM_HASH = "a62d6a237487e9ce8b06f0f4ec2131d855150a52d4d33fb5b76a1cdcb5740d09ddc0fad1be09ba51fc37943f9c06f1930a9de4927e965703c79c8f309c3af6bb"
+RPM_NAME = "trilead-ssh2-217.8-2.7.noarch.rpm"
+RPM_HASH = "c07407965f92b5e6862fc6422101606944dd4e098346a95f7d37ac4a704f25ac88f7fd252da92b80544114427310b7cbb51a00aa52866c2899b5104e0f848d39"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-com.trilead-trilead-ssh2 \

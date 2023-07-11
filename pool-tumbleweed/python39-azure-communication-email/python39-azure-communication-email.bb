@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0.0"
 
-RPM_NAME = "python39-azure-communication-email-1.0.0.0-1.2.noarch.rpm"
-RPM_HASH = "d533f6eea750a45f9a6a58be92650ccdad1249061eaad5268926dd860e9f088d4f891f4c9aab57669d77a8a2ec9e18595cf3a95e2a4a9f0ce3969ad9997339eb"
+RPM_NAME = "python39-azure-communication-email-1.0.0.0-1.4.noarch.rpm"
+RPM_HASH = "b44059e167096311d95e7e1cac8cff482774c6692ecd83e34f1ef448e5432853888c7193b8f94f0dce843603445ea5b5c078d7a49134af6ed8bd7b10fd0fdea7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-communication-email \

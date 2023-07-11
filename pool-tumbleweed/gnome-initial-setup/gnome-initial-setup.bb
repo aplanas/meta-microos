@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "gnome-initial-setup-44.0-2.2.aarch64.rpm"
-RPM_HASH = "ebb139180611589b6ee2dba0aeffa2f2fcff32ad31a12262e3e9a6d098c70f7d8968dfe32291b732f1a2d6bf4de335cc5e37f21c9182d371c98db9476ba971eb"
+RPM_NAME = "gnome-initial-setup-44.0-2.3.aarch64.rpm"
+RPM_HASH = "086b7095f5ac772fb25e811dbbdc1fea321c491dc454b267abab8e074ee9733d568d18768ffab9677a694643c8ea438988514f17bb5ffbfead1d69a450d4927c"
 
 RPROVIDES:${PN} += "gnome-initial-setup \
 group-gnome-initial-setup \

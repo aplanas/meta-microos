@@ -7,11 +7,12 @@ LICENSE = "MIT"
 
 PV = "1.2.2"
 
-RPM_NAME = "python311-genson-1.2.2-2.13.noarch.rpm"
-RPM_HASH = "214ecbdb7f809406d415570906e372743067193a7582d0b9c6468dca9fe73ce209bea1e1a9c342e39573d09533f54f8c7785d8bb274c250f07be7f2f4fabb687"
+RPM_NAME = "python311-genson-1.2.2-2.15.noarch.rpm"
+RPM_HASH = "e536e5dc9b269356f28d95eeb1935cf29c68a9546bef8aa1e9e06d5eee2c04c2db9f55dc7279a97c49b75334db3823cf69444d37b3a76b1175839c351a29f0be"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-genson \
+RPROVIDES:${PN} += "python3-genson \
+python3.11dist-genson \
 python311-genson \
 python3dist-genson"
 

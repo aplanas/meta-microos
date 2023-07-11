@@ -4,8 +4,8 @@ LICENSE = "Apache-1.1 & Apache-2.0 & EPL-2.0 & GPL-1.0-or-later & GPL-2.0-only &
 
 PV = "11.0.18.0"
 
-RPM_NAME = "java-11-openj9-demo-11.0.18.0-2.1.aarch64.rpm"
-RPM_HASH = "ed28aea004be82b119663028abc859195a0f0174f5766826b13dd37519c6e852f54c578da4db26c0888e453ea64b2488a77d479d8d108958c91f9caf5a3b9c16"
+RPM_NAME = "java-11-openj9-demo-11.0.18.0-2.3.aarch64.rpm"
+RPM_HASH = "07b530a38e230ba20291cfa9809e52cc625145727aae8b8a1a422e08ac72f7f84a764b6536a4a13b55e0222881be9db7b9d7fc3127d74f849eb70e2bb2f885de"
 
 RPROVIDES:${PN} += "java-11-openj9-demo"
 

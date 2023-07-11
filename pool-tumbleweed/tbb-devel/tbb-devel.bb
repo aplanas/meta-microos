@@ -9,10 +9,10 @@ details and threading mechanism for performance and scalability. \
 This package contains the header files needed for development with tbb."
 LICENSE = "Apache-2.0"
 
-PV = "2021.8.0"
+PV = "2021.9.0"
 
-RPM_NAME = "tbb-devel-2021.8.0-1.5.aarch64.rpm"
-RPM_HASH = "bb40ae2051a5ffd63ae8c1396d00337aa8b858bf17b38eeff616833fd0fd5217e7ef6eef663b1f5f6a3e3e2b3aefd1155ff6ca43d3d85d41ed7c4f664f5b2c51"
+RPM_NAME = "tbb-devel-2021.9.0-1.1.aarch64.rpm"
+RPM_HASH = "993622ed70e989f88b59abb666bedefc7e2eec9f668026a0dc9ea3510d89a641bfd902f018f0f6511b0198ce84d06ee4f06b465c5ae901ecfaf8618b8280290b"
 
 RPROVIDES:${PN} += "cmake-TBB \
 pkgconfig-tbb \

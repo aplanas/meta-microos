@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0-with-LLVM-exception & (BSD-3-Clause | MIT)"
 
 PV = "0.2.0+llvm16.0.0"
 
-RPM_NAME = "libclc-0.2.0+llvm16.0.0-1.2.noarch.rpm"
-RPM_HASH = "138c83a2a491aea89eda7670129c80ac8801097fb24e3aaaca0d93bed604f19a0e7a3efe901e8440d6ff79cb14bfb4e5ca364cefec69a1f1bd4193ca4eda642d"
+RPM_NAME = "libclc-0.2.0+llvm16.0.0-1.3.noarch.rpm"
+RPM_HASH = "83758f68cc587f962679e82673614d09f0a6e611497b7209e5f9d8e410a1a032390a50138588f34f1ebf37afce03d952d4ee32b59b7846b4479b4c60814bb63a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libclc \

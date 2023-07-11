@@ -7,8 +7,8 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20221027"
 
-RPM_NAME = "libscca-devel-20221027-3.7.aarch64.rpm"
-RPM_HASH = "2ee26f59b11ec3dfbe2771a90718aad26cdf1fc0f52e675af4e8dc6adc2840d23770641253a50a492cf69a29c7758029854ae09a22be4b6a66dcad17a6da5d9e"
+RPM_NAME = "libscca-devel-20221027-3.10.aarch64.rpm"
+RPM_HASH = "a397c4ffd5319f4586a397a3996bfb645ed420acd268edfaa9e5787db162c0b279b74259fe654cb731d277b0000af485b8284d7946540fd3e3ba654f21881cf3"
 
 RPROVIDES:${PN} += "libscca-devel \
 pkgconfig-libscca"

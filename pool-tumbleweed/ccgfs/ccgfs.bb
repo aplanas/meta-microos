@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.81.g3"
 
-RPM_NAME = "ccgfs-0.81.g3-1.20.aarch64.rpm"
-RPM_HASH = "b0f0a904830ff6fd93ce82b0bc79a74fb07bb520d9f8ef27db92f493684252e8e0ca40cd8aa4fe90041b1300a482234b6b9a7a9ff5caa0778705c2e1543452e7"
+RPM_NAME = "ccgfs-0.81.g3-1.21.aarch64.rpm"
+RPM_HASH = "91adaf785e417a755e54aa2deb8395e1efa73558e8411dfb26a37f2ceb11271a58abf97ec457f66699728f36d01bae0a64e13afeb60bb65fe1ebd22c79b3e3b7"
 
 RPROVIDES:${PN} += "ccgfs"
 

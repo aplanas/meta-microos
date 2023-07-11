@@ -20,13 +20,12 @@ This project has a git repository https://github.com/pyproj4/pyproj \
 where you may access the most up-to-date source."
 LICENSE = "SUSE-Public-Domain & X11"
 
-PV = "3.5.0"
+PV = "3.6.0"
 
-RPM_NAME = "python310-pyproj-3.5.0-1.1.aarch64.rpm"
-RPM_HASH = "422a3f5ecb9c73e3a7b0a842de85d6440437ae72ce227aa3acbe4053eabfc01c5b63b2eb15df91486f9340962e6bedf868da79308b2a0ebff6190077f1b663bf"
+RPM_NAME = "python310-pyproj-3.6.0-1.3.aarch64.rpm"
+RPM_HASH = "63a13f1e4ef459f3cc5142d4128cd3ff4625fca0264ddcfb8364520bb1f6d435e8ccb49c35cb8fb4fb42b6377419c4401ff62a025905bbf2b0e1ca7a1028c280"
 
-RPROVIDES:${PN} += "python3-pyproj \
-python3.10dist-pyproj \
+RPROVIDES:${PN} += "python3.10dist-pyproj \
 python310-pyproj \
 python3dist-pyproj"
 

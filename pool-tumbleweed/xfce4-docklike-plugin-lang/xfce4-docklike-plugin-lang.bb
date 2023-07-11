@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.4.1"
 
-RPM_NAME = "xfce4-docklike-plugin-lang-0.4.1-1.1.noarch.rpm"
-RPM_HASH = "57d16f3f08ae292892bb02047f444bdef38d2cdb53d0e71718fb99d2ccad4209a80674ed185f510d2f36ad9d3dc946c8aa072dd5ff868d3dbd357325081e09ec"
+RPM_NAME = "xfce4-docklike-plugin-lang-0.4.1-1.2.noarch.rpm"
+RPM_HASH = "1644afa888491204808aeaad92e67fc67421983df537cd3ca74816a821438adbd9cf421ed6c05cc95ee56ff857def644dd677362c8b5e916e97c5ae5e15b57bf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-docklike-plugin-bg \

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "4.0.2"
 
-RPM_NAME = "thonny-lang-4.0.2-1.3.noarch.rpm"
-RPM_HASH = "5940ba6c48b60910d4567203440f86c37c86b7d988e5379814ff56714321ec9ea47fd1dd975ddee9de639de8785c050497b9de0979522672e8f1b5f71b7e56b5"
+RPM_NAME = "thonny-lang-4.0.2-1.4.noarch.rpm"
+RPM_HASH = "436b25e6256ceb41e0f6d6da673b0c0f606f4f74712f9391081d820ba4bd923c4ccdc2e64a47636e22e44cbb337b1753818fdb6e8c8ddf4163d1d2c5ed43d0f4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-thonny-ar-AR \

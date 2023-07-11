@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
 PV = "0.8.18"
 
-RPM_NAME = "compiz-branding-openSUSE-0.8.18-2.8.aarch64.rpm"
-RPM_HASH = "ca154e97f18fed49a56264b7c24d32b8029dc9cf8ad20c104edff4cb856f4ca16c0cccfb8c414d49a5b0a37d39f25f135127760572edfcc3a268a58b2f025599"
+RPM_NAME = "compiz-branding-openSUSE-0.8.18-2.9.aarch64.rpm"
+RPM_HASH = "3f20a82bedbf7c8f6eb7762ad05d2a7d9bbf3a0eac730818eb1745e15ad0843ab4bd23554872bce835db9b5307e72dd734293e255acb605e9bbb866408577150"
 
 RPROVIDES:${PN} += "compiz-branding \
 compiz-branding-openSUSE"

@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.9"
 
-RPM_NAME = "hwmixvolume-0.9-24.3.aarch64.rpm"
-RPM_HASH = "50858931d9fbd74abee59664545eb22ba1afde7b20341bf22f62a43389eb55bfd857d5feb01922b52b5c0ed73ccc85ae3ed537f0b1aafaf81b9d3c955bb4b38e"
+RPM_NAME = "hwmixvolume-0.9-24.4.aarch64.rpm"
+RPM_HASH = "9caf580c7040390aeca43b0d68a66c3d8c729c3f0c424db30e0c83b5ecb9830c78627fbf45e9ec6c2fc9cd30dea8f2949a9adf5d27d2920921e4206a43d3dbb5"
 
 RPROVIDES:${PN} += "alsa-tools-gui \
 hwmixvolume"

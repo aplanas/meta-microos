@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.3.3"
 
-RPM_NAME = "python39-pyleri-1.3.3-1.8.noarch.rpm"
-RPM_HASH = "4a145a4f66b6b3d95313a412abf49bb4a61b57e86701b14eab47027b4d6a40122e5d6bbcb85782d94cd9c8bf7ee5d63fb8f43fa47a5500d5493fabfc22331a6a"
+RPM_NAME = "python39-pyleri-1.3.3-1.10.noarch.rpm"
+RPM_HASH = "d68c946ead893465ca69b3f7a38c0a202c1fd4cbadaf1d081072e977beb57e0cf6cae0a0d5e66fb8aae57e6fa4d204ad82f58daec264112cfd1937e07d2a2f72"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyleri \

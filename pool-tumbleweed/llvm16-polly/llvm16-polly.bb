@@ -7,10 +7,10 @@ tiling and loop fusion to improve data-locality. It can also exploit OpenMP \
 level parallelism and expose SIMDization opportunities."
 LICENSE = "Apache-2.0-with-LLVM-exception & NCSA"
 
-PV = "16.0.4"
+PV = "16.0.6"
 
-RPM_NAME = "llvm16-polly-16.0.4-1.1.aarch64.rpm"
-RPM_HASH = "7edd63472363ebd6f7b1efe8cf72fb06e1c1740d1882ec15231d73ceed37f8d86951d7803833e95823da3d6aec4e3831025b43c79471b2019890e783ad40097e"
+RPM_NAME = "llvm16-polly-16.0.6-1.1.aarch64.rpm"
+RPM_HASH = "c4052b5e454c7c610f9a92ca8d75e286807ccc9cd679a8d1a8eaad018aab4902bec2dc3beedce83288821cfbe267169458b558a68a966f2354a458a48ac02c2f"
 
 RPROVIDES:${PN} += "llvm-polly-provider \
 llvm16-polly"

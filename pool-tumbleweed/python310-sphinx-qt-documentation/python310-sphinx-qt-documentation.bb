@@ -4,12 +4,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.4.1"
 
-RPM_NAME = "python310-sphinx-qt-documentation-0.4.1-1.2.noarch.rpm"
-RPM_HASH = "557f47b0bfc1dbb63b5c959be4ad97d8fb3a57d03d921cb6932bda46c079c0ed2be4fbee58fbd891bd446dc440e12cc731550fa2ebb5d38a92b78fd8341005e1"
+RPM_NAME = "python310-sphinx-qt-documentation-0.4.1-1.3.noarch.rpm"
+RPM_HASH = "c255ef525ba2b16fb81c7b98bca247b4b92496e7f96a8e8e5eaddb37b9766ad0d52e3953a87611cd3df3b5a81ff3033731dca5417bb9e148d60521f41414d204"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-sphinx-qt-documentation \
-python3.10dist-sphinx-qt-documentation \
+RPROVIDES:${PN} += "python3.10dist-sphinx-qt-documentation \
 python310-sphinx-qt-documentation \
 python3dist-sphinx-qt-documentation"
 

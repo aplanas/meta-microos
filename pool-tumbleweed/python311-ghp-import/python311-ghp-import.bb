@@ -8,11 +8,12 @@ LICENSE = "Apache-2.0"
 
 PV = "2.1.0"
 
-RPM_NAME = "python311-ghp-import-2.1.0-2.3.noarch.rpm"
-RPM_HASH = "66209fd45adb576e7ca5220727096e74eece30c79313db88ab54aac3a18cd11e58f54e41d8c51d9cd11080986933b20fc8744397ca36fb15e3e0a0c9f67cdd59"
+RPM_NAME = "python311-ghp-import-2.1.0-3.1.noarch.rpm"
+RPM_HASH = "62a123564fbf4fc6c9c282e59bf57578b12fff506ce4a2b40dcaca05e83ffc19bd9fa01e2c6c255df47aefceec3d4229f6337c3626b5791586b17d46e806daf8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-ghp-import \
+RPROVIDES:${PN} += "python3-ghp-import \
+python3.11dist-ghp-import \
 python311-ghp-import \
 python3dist-ghp-import"
 

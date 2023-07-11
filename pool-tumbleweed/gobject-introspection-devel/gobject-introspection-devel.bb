@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.76.1"
 
-RPM_NAME = "gobject-introspection-devel-1.76.1-2.1.aarch64.rpm"
-RPM_HASH = "ea2d708e3de0735f0777b1c18d427ebdc78e614057c3835d2cbab116000c18829fc9eae0757aa2095892c952f5e1f486f3930984c29aa6c286ca87bbdc80231b"
+RPM_NAME = "gobject-introspection-devel-1.76.1-2.2.aarch64.rpm"
+RPM_HASH = "037c9fcbb6df56652564ab40136a585321b11987a43b34deb2d288b4b946a1eb28cc7810753a6b96e47ac6a43db3c21db906616e914e4d7c53873446fd0ff0a4"
 
 RPROVIDES:${PN} += "gobject-introspection-devel \
 pkgconfig-gobject-introspection-1.0 \

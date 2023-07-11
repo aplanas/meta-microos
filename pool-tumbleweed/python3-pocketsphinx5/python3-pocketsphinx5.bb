@@ -7,8 +7,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "5~git20200227.e40da77"
 
-RPM_NAME = "python3-pocketsphinx5-5~git20200227.e40da77-2.3.aarch64.rpm"
-RPM_HASH = "2c47af5c1a703e324c5e7ec0d24504100935811ef3efac59437626699b7665006d973b8837dcba30fbf94295e05ced04f63a787963c17422d56ee1b3b0cc1803"
+RPM_NAME = "python3-pocketsphinx5-5~git20200227.e40da77-2.4.aarch64.rpm"
+RPM_HASH = "8ccc4232481dca4d7f6cdfad233c4093a2a8dd1f9b6e12081a89422e0be76821107b50270d63614dcce7ff348eb8e98a322de4325d5b66fe844080f0dd666815"
 
 RPROVIDES:${PN} += "python3-pocketsphinx-python \
 python3-pocketsphinx5"

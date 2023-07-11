@@ -5,13 +5,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.9.1"
 
-RPM_NAME = "python310-CommonMark-0.9.1-8.1.noarch.rpm"
-RPM_HASH = "e97cd91186387084cfe5499e950b77bacd312ac83412551309fd4c6139afbb3f7b29a749f3a0bae52d3e6c690403c721b957dc3621d66e68a999f1ef1428921f"
+RPM_NAME = "python310-CommonMark-0.9.1-8.2.noarch.rpm"
+RPM_HASH = "257d55f574414816f34ce9be452b84da4c87b6858a2d07fa7ea8e26402ae0c19402e8d44019f980dc42fd6bfca3094becaf0e108eb19b3902bc3f4b88d616a5b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cmark-python \
-python3-CommonMark \
-python3-commonmark \
 python3.10dist-commonmark \
 python310-CommonMark \
 python310-commonmark \

@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.10.1"
 
-RPM_NAME = "python39-relatorio-0.10.1-1.6.noarch.rpm"
-RPM_HASH = "be26c274d7936a8424ea20b8b3bdc1e8a8dacdc20d5d6469703999652208ee7a8668562537225d3b81c2efe1dc20fdb887fe7da710d226ace96bd61d530fe57b"
+RPM_NAME = "python39-relatorio-0.10.1-1.8.noarch.rpm"
+RPM_HASH = "89908b837a66c2ab438997feb80e8cf6aa4f098f6d808d619e34e1bcb5bd9f2d83c0d4475d9220e151c7e92e6a4c0fb31bd35b6f4eb1a171c99c8c639ce51a8c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-relatorio \

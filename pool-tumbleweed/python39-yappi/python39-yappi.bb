@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.4.0"
 
-RPM_NAME = "python39-yappi-1.4.0-2.5.aarch64.rpm"
-RPM_HASH = "17af702b125d2a028bdc5ec22bf463710eb5c289ceb09092e2f9f813855502e18f26ba4442deff5900f136c38a906dd80b0f575f4ca786ec6d7a628a3425ac1d"
+RPM_NAME = "python39-yappi-1.4.0-2.6.aarch64.rpm"
+RPM_HASH = "4ec77bf0fbd741734722f4826ad10c5dc1a2a70474eb89c3c05cd14ed82853a620fe76144b7d00b8ef9dbf47dfd431d621c3ef6b5f71d20439d45e2518243b97"
 
 RPROVIDES:${PN} += "python3.9dist-yappi \
 python39-yappi \

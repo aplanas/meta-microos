@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.2.6"
 
-RPM_NAME = "typelib-1_0-libmirage-3_2-3.2.6-1.8.aarch64.rpm"
-RPM_HASH = "68407d6c376101cb9e3e9dc38e37d5563a905d23776f8a22beaf9b1a24d41f3a3b8fb950cbfcf5f2a27aeaaec73659734a4333cdc5efe8b2398000689144ba17"
+RPM_NAME = "typelib-1_0-libmirage-3_2-3.2.6-1.9.aarch64.rpm"
+RPM_HASH = "ec99d29fcbaac36747c6aed2149458dbb6461ed655dc85e00dfaaa9e22fe1b56dda6f2669cdd424e27e34cb61689e78f236e5837c558bb53141de69b351a3761"
 
 RPROVIDES:${PN} += "typelib-1-0-libmirage-3-2 \
 typelib-Mirage"

@@ -2,10 +2,10 @@ SUMMARY = "Zsh Completion for river"
 DESCRIPTION = "Zsh command-line completion support for river."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.2.4+g109"
+PV = "0.2.4+g953"
 
-RPM_NAME = "river-zsh-completion-0.2.4+g109-3.1.noarch.rpm"
-RPM_HASH = "9b21896717c97d6dc0ddae20fe2c01039760e5e06dc85de3b1283e17d6a4760bfce88eb65f48f15ff5dbed7b96fa349711f3b241301db1f521c05476d29f46be"
+RPM_NAME = "river-zsh-completion-0.2.4+g953-1.1.noarch.rpm"
+RPM_HASH = "e9f7273b56e7c697a490f1917d33a78b72877ce01ca9e22496a653b5ca642fe871007cd433c9c90262d14c95a3f3a199d5821221a630fc6c7a006f477a190cbb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "river-zsh-completion"

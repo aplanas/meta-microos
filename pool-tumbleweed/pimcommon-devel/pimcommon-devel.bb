@@ -2,10 +2,10 @@ SUMMARY = "Development package for pimcommon"
 DESCRIPTION = "The development package for the pimcommon libraries"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "pimcommon-devel-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "b7dad16dde16c98551d248319d957d111e78bb2b015b1113fef8b9d1e6b33d68c96aa4019310544d0a71a968ed0cfaa8f71b7df19b92b5ea508c0d107fd63058"
+RPM_NAME = "pimcommon-devel-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "85ae7797f2c3e93b895529f7efb24116247ad4916b06b6f002d365652f9613677c0ce98f0d4e45784a6d278c93dcdec6fe6f7193d371d0040710c501be2d76b7"
 
 RPROVIDES:${PN} += "cmake-KF5PimCommon \
 cmake-KF5PimCommonAkonadi \

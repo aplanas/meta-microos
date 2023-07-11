@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "0.13.0"
 
-RPM_NAME = "libusbredirparser1-0.13.0-1.4.aarch64.rpm"
-RPM_HASH = "63b0ae875d6f69a71ffe47131b0495364840e0f3ac99bf5ed580010451d204e38e61451ae98fd1a764f140948201c3518480bdf80f9755a8496f2d0fa913e349"
+RPM_NAME = "libusbredirparser1-0.13.0-1.5.aarch64.rpm"
+RPM_HASH = "88335b52445aa2f3dbc7a39426c25c350d9b5224e005dea3edd2639d04963adc71f66fc076b126023e7374000cb7eb6d80a237b7c2373563e5adacac439f2e65"
 
 RPROVIDES:${PN} += "libusbredirparser.so.1 \
 libusbredirparser0 \

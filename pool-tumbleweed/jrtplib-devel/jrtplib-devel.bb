@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "3.11.1"
 
-RPM_NAME = "jrtplib-devel-3.11.1-1.20.aarch64.rpm"
-RPM_HASH = "9fcaaff7460ba009419d435fb89f0bfd86203cdd0f2f2c2fa1eeba4e412461e419ee3008ce03b0babc9e4c885de5a2f0f690284548eba3342196d8b35b3846f9"
+RPM_NAME = "jrtplib-devel-3.11.1-1.21.aarch64.rpm"
+RPM_HASH = "c84f3a14756d1c16f4856395d254285a07f9c0b8272bf6d7b796aec58cff6ac50b9ced510412b06c46edf623e34315b0a7a8b97ff76f6a54a4b80b6517d0a551"
 
 RPROVIDES:${PN} += "cmake-JRTPLIB \
 jrtplib-devel \

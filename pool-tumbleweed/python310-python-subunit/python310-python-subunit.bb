@@ -23,12 +23,11 @@ LICENSE = "Apache-2.0 | BSD-3-Clause"
 
 PV = "1.4.2"
 
-RPM_NAME = "python310-python-subunit-1.4.2-2.2.noarch.rpm"
-RPM_HASH = "cb514a49050cb45840129437f6bafc2082659e3c48f2627270674e5bc8bc3b781b49b9e7c9d066dd66981b5292b51aba40daf819ec648283fd87cd3b36fc3851"
+RPM_NAME = "python310-python-subunit-1.4.2-2.4.noarch.rpm"
+RPM_HASH = "e8faad7ee79048b888982522e888ba90d3372d480027b97592e4d4bb3f35697ca22623a6beaaf0bf74f5c6846e8aa05698f44d248ca51537f51ec36c0f8ca7bd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-python-subunit \
-python3.10dist-python-subunit \
+RPROVIDES:${PN} += "python3.10dist-python-subunit \
 python310-python-subunit \
 python3dist-python-subunit"
 

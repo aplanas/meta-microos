@@ -12,8 +12,8 @@ LICENSE = "MIT"
 
 PV = "2.1"
 
-RPM_NAME = "libobjc4_6-2.1-2.3.aarch64.rpm"
-RPM_HASH = "e4f2abecac50d2bb7c6b169415abdc72a54809b3ca269feea943b3bbb518b4bccbf3400ecefc5e33027ae41840e892b75380362e92e11a4345240a813cd272b6"
+RPM_NAME = "libobjc4_6-2.1-2.4.aarch64.rpm"
+RPM_HASH = "1a8e2dec1b8bf8ad04daf160cd91ca9687dbec3afa518750dcab828184162be6236342086eba41a446458fc52473da0f8773b547f7c227a7c0ec597ae5a152ff"
 
 RPROVIDES:${PN} += "libobjc.so.4.6 \
 libobjc4-6"

@@ -4,11 +4,12 @@ LICENSE = "Apache-2.0"
 
 PV = "20200713"
 
-RPM_NAME = "python311-diff-match-patch-20200713-1.11.noarch.rpm"
-RPM_HASH = "c67ee68213c394c8a3d0bfa59a8fa83ba9a50da3538ac2246de8ab4751a80b4f621f6c79845a6fd452bd5b049cd74e42e62c7588137cf3e1b904746023ac3c96"
+RPM_NAME = "python311-diff-match-patch-20200713-1.12.noarch.rpm"
+RPM_HASH = "762606ea0c0e242393d88a504a70afc4fe95616bb78389631dbfa30429fe9780449f4962c6aeca87d814ba25e11dbfed3474be83622194ff0f6ad0560b228588"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-diff-match-patch \
+RPROVIDES:${PN} += "python3-diff-match-patch \
+python3.11dist-diff-match-patch \
 python311-diff-match-patch \
 python3dist-diff-match-patch"
 

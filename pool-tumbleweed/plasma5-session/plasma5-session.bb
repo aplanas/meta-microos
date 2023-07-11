@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the startup scripts necessary to start a KD
 Plasma 5 session with X11 from a display manager."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "plasma5-session-5.27.5-2.4.noarch.rpm"
-RPM_HASH = "1f4b716510f4cef4f052f8671b0c69a826c36ebb38b2322e5f07fdff57d454b5f66aebde2aac4c1ef022c4cc20d23c2cf88cdf15f421821cb7cd10cd068b6274"
+RPM_NAME = "plasma5-session-5.27.6-2.1.noarch.rpm"
+RPM_HASH = "20071a674b3282b672a96017b698a8a23d27dce1aa386a8d77cc5558cc660efb97244c32a8d6647836356950c84ec1a7eb25b836cdd05afee16229d4590038b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kdebase4-session \

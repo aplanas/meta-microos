@@ -9,11 +9,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.0"
 
-RPM_NAME = "python311-backcall-0.2.0-2.1.noarch.rpm"
-RPM_HASH = "953d015593eddf82f33b5d0043e78266b124bfe6c2d14691a6bea4da235e3ded9602494e1e13559ff3ea705097da2ca2bb0d68d68af4598c658dcb367ffdf57e"
+RPM_NAME = "python311-backcall-0.2.0-2.3.noarch.rpm"
+RPM_HASH = "bc7090cf26767970f575c72bd165a21e271b2775fc9fa12056c9645710d45bb8edb9019e4e35a8289662d01f0c54729a93457ec35ddb5d837041a894a7d7b60c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-backcall \
+RPROVIDES:${PN} += "python3-backcall \
+python3.11dist-backcall \
 python311-backcall \
 python3dist-backcall"
 

@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
 PV = "3.16"
 
-RPM_NAME = "mailutils-mh-3.16-1.2.aarch64.rpm"
-RPM_HASH = "71e986ee19317d5b99fe783fa2245596799462dbbe2cdf2f1298dcc368e4ad1e4cac06692fb2d6ec0f467269ee20d20139b3c7ccc3bef117a817c2cdba415f4c"
+RPM_NAME = "mailutils-mh-3.16-1.3.aarch64.rpm"
+RPM_HASH = "c84b74bfe66437ba9ca735f8c7494868f2b064b6c14ac2bb41319f4c7bd9d309f84464d52ca65fa47d576aefbfcd5e548e41f8d40376b0c4aa8ae1fd98e9a81a"
 
 RPROVIDES:${PN} += "mailutils-mh"
 

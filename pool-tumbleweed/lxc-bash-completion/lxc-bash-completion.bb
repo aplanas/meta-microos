@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "5.0.2"
 
-RPM_NAME = "lxc-bash-completion-5.0.2-1.1.noarch.rpm"
-RPM_HASH = "01547568ef29f802bcc35951e799dee629d9cefd49b5b14863ed91adbbe9e7638409b57abb7cc08186fbb106f14ac3dc6bc1aa6fa2529ee74653829e2ac5136a"
+RPM_NAME = "lxc-bash-completion-5.0.2-1.2.noarch.rpm"
+RPM_HASH = "531621b908b2b13225e55652a0c2f7bcec63af9091fa5f9b2cc7eabbcc962e640bec23b10b87e7192f8ebfa155e7d50b4cf1534533462f90e475d7b199990064"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lxc-bash-completion"

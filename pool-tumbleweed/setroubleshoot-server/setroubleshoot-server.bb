@@ -7,12 +7,12 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.3.30"
 
-RPM_NAME = "setroubleshoot-server-3.3.30-2.2.aarch64.rpm"
-RPM_HASH = "e90dbddda84cbc86bf0be38ba185c6136d73e88cb5eff31ea76b8fd6f9eda7e366810ab6e20e806457b7955eac563667d1c7bcc1b0321cb76a716bde1343633a"
+RPM_NAME = "setroubleshoot-server-3.3.30-2.3.aarch64.rpm"
+RPM_HASH = "998801f085721dda560a701bcee04fa622e364f3ac70b918469947c70292ef0a31c3bf076a9539a43867f3b16cc921537da6f74c0515e3cbcdd28b64e7083e1e"
 
 RPROVIDES:${PN} += "config-setroubleshoot-server \
 group-setroubleshoot \
-python3.10dist-setroubleshoot \
+python3.11dist-setroubleshoot \
 python3dist-setroubleshoot \
 setroubleshoot-server \
 user-setroubleshoot"

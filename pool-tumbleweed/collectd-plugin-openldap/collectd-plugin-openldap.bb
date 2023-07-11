@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only & MIT"
 
 PV = "5.12.0.134.g4cebbfc"
 
-RPM_NAME = "collectd-plugin-openldap-5.12.0.134.g4cebbfc-1.4.aarch64.rpm"
-RPM_HASH = "6a021848236c32e76fa671eecaee708b9924662f47d8e80ab6197f55272170c4f1cd56657bfc4d810f17f385fc3d675dd4c7d9f5e06e14bb3fb751c5abf8b17f"
+RPM_NAME = "collectd-plugin-openldap-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
+RPM_HASH = "c684cd7eae772fb2108b8c7c9920718d6df1c327f1ce4e91420833355e7a4dc63f7141cc280b705fd2d97872948fd1f50cde55be43e8ef3e21da9af7e6dc6aca"
 
 RPROVIDES:${PN} += "collectd-plugin-openldap"
 

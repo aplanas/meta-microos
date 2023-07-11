@@ -32,14 +32,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.503"
 
-RPM_NAME = "perl-Session-Token-1.503-1.14.aarch64.rpm"
-RPM_HASH = "514b533026e790e68c59a8c49ec372685ddf62692b7610f749a583d49d6e0fe6af3f11b2315d3885be0d468a74e4d9a45a718a9e9100642af5b262ac3896b19b"
+RPM_NAME = "perl-Session-Token-1.503-1.15.aarch64.rpm"
+RPM_HASH = "b659f070a666965186a4b1ee432b28a979d56c381bcf3361b479f9725cd04e46aeb951945d54c5cc5aff65979e756b8df3da2b75a2ba79b98bef2e1ffbe3602f"
 
 RPROVIDES:${PN} += "perl-Session--Token \
 perl-Session-Token"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

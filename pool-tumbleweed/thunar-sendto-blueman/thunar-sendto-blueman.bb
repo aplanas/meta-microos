@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.3.5"
 
-RPM_NAME = "thunar-sendto-blueman-2.3.5-1.3.noarch.rpm"
-RPM_HASH = "a429a87ab93ca056dfef2a71a98d75f4c23b782f1f4882acca7ffd3c3fda13ea7a6e6f51cf3fc39a27e053c1c409021933776c3b6c4f34dcc0fab4f975c396ac"
+RPM_NAME = "thunar-sendto-blueman-2.3.5-1.4.noarch.rpm"
+RPM_HASH = "f1b8ab3a6e3e79c478e78c8666909e74a38ad09c390716b76e8edea2a7595694dcda7da8c0275760fc88fb5baa468f2fa5353941ef484609733f52abbcf3e5e2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "thunar-sendto-blueman"

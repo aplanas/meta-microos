@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "3"
 
-RPM_NAME = "systemd-ui-3-1.35.aarch64.rpm"
-RPM_HASH = "00879d8629ac035045091ce309774c19d560417b3b9b1fec28e5954ec4e0065ca589cbf52f363406102db73d5dc6628fb896b0cbdbef2f09da805827e1fae3ef"
+RPM_NAME = "systemd-ui-3-1.36.aarch64.rpm"
+RPM_HASH = "a7c5116b4faf12374de0eb7a12da99483866c9396df078afecebadd75c80b8b2a31dc675986c3c6a0235b26a5cfd667f44fa8abd3942f2c769bbe4ab3a19b779"
 
 RPROVIDES:${PN} += "systemd-gtk \
 systemd-ui"

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0+"
 
 PV = "5.1.16"
 
-RPM_NAME = "deepin-pw-check-lang-5.1.16-1.5.noarch.rpm"
-RPM_HASH = "a4bde229eb0f7067374c4e92369f05d815ab562477773ee303e2c90b383858dda8dc4dd4662899d6be1f68f13ea338db7b1bf9ce17d7fbf10f427b48554bfcbc"
+RPM_NAME = "deepin-pw-check-lang-5.1.16-1.6.noarch.rpm"
+RPM_HASH = "73cb477efc5d0cb559004e927d9169247c66dccf18ec241fd042a95c0c47c4f2ada0171e60c49ef21193043e977980645463f33a7e16f96bbb41a3304cac3fdf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-pw-check-lang \

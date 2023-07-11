@@ -6,8 +6,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.43"
 
-RPM_NAME = "perl-XML-Atom-0.43-1.9.noarch.rpm"
-RPM_HASH = "35432d0f388977bf5d8bec41e247d24718190a15ef1c30a4222eb1fff460891336d1e358c00da713a36e09539182b0e0795ec71d9bbc9f17108e293a46d148a5"
+RPM_NAME = "perl-XML-Atom-0.43-1.10.noarch.rpm"
+RPM_HASH = "d2f14a4c2a13e0f3cb85ed3fad1aedb4fa10d07cf145595892f351d5a7ad6addcc074f1b11f0a8f23b8d1670d3b24ca22b026e105e4b9e01ae31166a0f5eeae9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-LWP--UserAgent--AtomClient \
@@ -27,7 +27,7 @@ perl-XML--Atom--Thing \
 perl-XML--Atom--Util \
 perl-XML-Atom"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Class--Data--Inheritable \
 perl-DateTime \
 perl-DateTime--TimeZone \

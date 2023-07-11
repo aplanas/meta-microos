@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later & OpenSSL"
 
 PV = "5.10.8"
 
-RPM_NAME = "deepin-movie-lang-5.10.8-1.5.noarch.rpm"
-RPM_HASH = "db7fa725c0883cdb38904720cc9152aa260d0aef4a0e78eefb4ae42431686232a8280b2e030a1f3f3a44f3d9da79685bb49773690a937df424b5ea757ed3c59f"
+RPM_NAME = "deepin-movie-lang-5.10.8-1.6.noarch.rpm"
+RPM_HASH = "7ecfbd098526e49db3a303f8ab00eff9e3caf0fc195ac781649bf3c0fd35a50ac5a86b82de045d03f68b610976a43f2cd62fa2ddf111c24582bee51e35380bcd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-movie-lang \

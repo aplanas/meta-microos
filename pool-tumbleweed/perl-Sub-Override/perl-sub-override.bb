@@ -4,14 +4,14 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.09"
 
-RPM_NAME = "perl-Sub-Override-0.09-5.27.noarch.rpm"
-RPM_HASH = "76a65a1cf5fcc9177ce9b74ea2c152266a7df5286ed2a40fb5f4da3b49501a0453201b2270cf5718d4c219c56cc7004219377c0033fed3c2b8a2f1d003bd412d"
+RPM_NAME = "perl-Sub-Override-0.09-5.28.noarch.rpm"
+RPM_HASH = "6697e78654629c99673bc5aa143a40f103ecb02d0c92d55191213e5583b115da908830f17ce1210d2d55bcbe95a62c7e89f3ffa00761b11a5fbbe037dbb557c8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Sub--Override \
 perl-Sub-Override"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Test--Fatal"
 
 inherit rpm

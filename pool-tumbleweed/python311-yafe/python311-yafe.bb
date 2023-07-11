@@ -5,11 +5,12 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.0.3"
 
-RPM_NAME = "python311-yafe-1.0.3-2.8.noarch.rpm"
-RPM_HASH = "4b4b5a3b17a324bbd8da08176caa6ea16a65f4707a46fda8cf4d9fdb7414d460d8831960fb3c573950029eab4c3db8735ae48c0467f7b88d281da9820992059b"
+RPM_NAME = "python311-yafe-1.0.3-2.10.noarch.rpm"
+RPM_HASH = "6a4854ad39ab1d5d4f53f3e1cf6e917081c6d489c13b83d4cdb050eea214bca133e1e9060b897ffdc0c3f4821f35105efecf97e79c95983cf86adabf9dfff56e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-yafe \
+RPROVIDES:${PN} += "python3-yafe \
+python3.11dist-yafe \
 python311-yafe \
 python3dist-yafe"
 

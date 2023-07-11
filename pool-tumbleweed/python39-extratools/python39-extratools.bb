@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.8.2.1"
 
-RPM_NAME = "python39-extratools-0.8.2.1-2.12.noarch.rpm"
-RPM_HASH = "e4459762ad16edd166a3a9f0bd9198683b4d9748946baf295023255497e912ae2a6096c4c156036e69fb3438c95d01b0a700c77643424231ada44220cf61cecb"
+RPM_NAME = "python39-extratools-0.8.2.1-2.14.noarch.rpm"
+RPM_HASH = "403bb49cc87f1472f90ac5ff6104ed98d7d4196aa5a5b8e76149b67eae6951692a48952ec0cf4a497c8d63828a22f89373cb68bd7b29ecf7f246640cdb38d9e4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-extratools \

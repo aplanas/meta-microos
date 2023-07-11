@@ -4,15 +4,15 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.11"
 
-RPM_NAME = "ghc-doctemplates-devel-0.11-1.2.aarch64.rpm"
-RPM_HASH = "eb7e99c7882a28e89e14c6ef5ce821a7116c7a78b0740cf73a5b4158b7c80db3aa7c1d23ae39bccf05d1b5a14779879e2f5a254f5e6405a05d7de0671b3e4598"
+RPM_NAME = "ghc-doctemplates-devel-0.11-1.3.aarch64.rpm"
+RPM_HASH = "532f8023f0605b04680bd1f267079b44444d1c071745e87502b276f8f7a9bbaf5fb6413458031b33fbb6ebd4254b5f7fe076398b371a2388c2cc8442d5cff9fd"
 
-RPROVIDES:${PN} += "ghc-devel-doctemplates-0.11-BPgXv8g09ry9FVnSp2Q4Ny \
+RPROVIDES:${PN} += "ghc-devel-doctemplates-0.11-JIB0NPJebEE1gzCrfsk8Xp \
 ghc-doctemplates-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP \
+ghc-devel-aeson-2.1.2.1-HkN6OtqTngQ9De3CKBnfov \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-containers-0.6.7 \
 ghc-devel-doclayout-0.4.0.1-9Y8Rw4EdBjz2IhzjzOiBy0 \

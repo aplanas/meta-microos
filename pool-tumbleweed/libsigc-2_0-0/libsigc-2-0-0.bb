@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.12.0"
 
-RPM_NAME = "libsigc-2_0-0-2.12.0-1.1.aarch64.rpm"
-RPM_HASH = "7a0c090a6fd3fb8629f928cd6bded8bbe2d23759cd811d39091ae1db603fd935b8c2efdd8b2c0edff509502788cbff7e3264b0a0be37e23822514b4496c400e4"
+RPM_NAME = "libsigc-2_0-0-2.12.0-1.2.aarch64.rpm"
+RPM_HASH = "99523c317dd94534d21fe5902978a308fa1872ae2c070108d3ed2bdd050272bf0f3c08ab91150dae6c08f0762edf697d879847cf48db19af1dba2d4aef279c27"
 
 RPROVIDES:${PN} += "libsigc++2 \
 libsigc-2-0-0 \

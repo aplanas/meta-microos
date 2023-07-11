@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.5"
 
-RPM_NAME = "transmageddon-lang-1.5-5.6.noarch.rpm"
-RPM_HASH = "5df692219fd3476c9f71f64f4fe14ad23c905339bcfd1f1889b61d7c54cb91d0a471f3c5fd36fc0d55423be6fb172bd70a3b88d3c5db4ac3e4fb7784c9c54d2e"
+RPM_NAME = "transmageddon-lang-1.5-5.7.noarch.rpm"
+RPM_HASH = "cf593d663a3141328f9de5e9e86eab01e35542acc890827036a67f90c83a8ed32ac93991a1bf861579bf8091a1b2999fc397cfb498cd45b392b9c10c8c347183"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-transmageddon-ca \

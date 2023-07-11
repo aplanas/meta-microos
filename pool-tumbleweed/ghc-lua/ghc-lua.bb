@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "2.3.1"
 
-RPM_NAME = "ghc-lua-2.3.1-1.3.aarch64.rpm"
-RPM_HASH = "f958be13410de8d8e55c08df2f092e2a3481161dd6355430acb1746e3486853f0ff0414e4222d9d82b456d1f43dc64fdfcd26632310fd5f2a2ca92aa24ae83f5"
+RPM_NAME = "ghc-lua-2.3.1-1.6.aarch64.rpm"
+RPM_HASH = "fc2941a514061be125bd990a4a0c2dd3e5b7662879a5be463ae9b9a6c33c9bdf8b178d91b39a6e93841094c7ff962cd69f6deebfb9276fb570ef7a3c3f164424"
 
 RPROVIDES:${PN} += "ghc-lua \
 libHSlua-2.3.1-16mGxirchUh4T3oJJYdFzu-ghc9.4.5.so"

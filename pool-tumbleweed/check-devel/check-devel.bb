@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.15.2"
 
-RPM_NAME = "check-devel-0.15.2-2.10.aarch64.rpm"
-RPM_HASH = "f690a40c5baf562bc99c20e01a967e6a03f839c21821a8356f2a00da85e63b00e4044b339c233df86c96b49b4441781b14331367561b5b5984e60dc9a8499f53"
+RPM_NAME = "check-devel-0.15.2-2.11.aarch64.rpm"
+RPM_HASH = "26a011359fe4e1fa97ed36670fb09ce2d263a5b95eab919ea11c3c2127fec8dfc117c56896563ae83254d763c389a3cfc4197ca8693b52ef289de0b7a261dacb"
 
 RPROVIDES:${PN} += "check-devel \
 pkgconfig-check"

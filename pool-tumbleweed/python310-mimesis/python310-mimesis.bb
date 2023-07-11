@@ -7,12 +7,11 @@ LICENSE = "MIT"
 
 PV = "4.0.0"
 
-RPM_NAME = "python310-mimesis-4.0.0-1.12.noarch.rpm"
-RPM_HASH = "50398c05372fddfae47380d11a84b4a17ee94b37e5f7588d8b6c0ba79155e4c16369a90d27147ea8641e4e1aeac00ce29708565551c328106b52a92fcb154551"
+RPM_NAME = "python310-mimesis-4.0.0-1.14.noarch.rpm"
+RPM_HASH = "e07ce87996c37e1cb524038d724514a8ebce84cae3129aaad67f778841447fb641172e8e11436559e295f3c605b9e21ed37577aaa5efb1e02539448b192176d3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-mimesis \
-python3.10dist-mimesis \
+RPROVIDES:${PN} += "python3.10dist-mimesis \
 python310-mimesis \
 python3dist-mimesis"
 

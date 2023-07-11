@@ -6,10 +6,10 @@ The Qt SCXML module provides functionality to create state machines from SCXML f
 It also contains functionality to support data models and executable content."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libQt5Scxml5-imports-5.15.9+kde0-1.1.aarch64.rpm"
-RPM_HASH = "513706f636dcd8c370f98b29b6d17503ffb061dc155c86fdd9148df7e7abeb35ca867e66d582420b592912ad114a5a04c1fe8baf9cb136b236308be667d6cb7d"
+RPM_NAME = "libQt5Scxml5-imports-5.15.10+kde0-1.1.aarch64.rpm"
+RPM_HASH = "e01c07d6c3772604ba0e1c1a80de187e7fae5d128b34c13e368ccff4b90197e6d69b6c0ae3e71988920467eb3c5b99f65661e4e074dbb4d0b80f4c542e3b6d23"
 
 RPROVIDES:${PN} += "libQt5Scxml5-imports \
 libdeclarative-scxml.so \

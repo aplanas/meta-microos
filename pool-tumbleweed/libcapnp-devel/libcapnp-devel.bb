@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "0.10.4"
 
-RPM_NAME = "libcapnp-devel-0.10.4-1.1.aarch64.rpm"
-RPM_HASH = "dad26ac04cf3f06948f6b90b9cd957f9220ba9506972d412b87b98f99ca480f30a8d603e5720f3fd6ebb7163290cf845786ffa24433cf2dc9005c95e3895148c"
+RPM_NAME = "libcapnp-devel-0.10.4-1.2.aarch64.rpm"
+RPM_HASH = "370720a433da1e82e4fe076c8519ee61f881b326cb1c5eb1888884efe28fe5e47b3793991ec0e574c348ca4ef1ecdc69cb93d89e7bdb8a88820be39788933ace"
 
 RPROVIDES:${PN} += "cmake-CapnProto \
 libcapnp-devel \

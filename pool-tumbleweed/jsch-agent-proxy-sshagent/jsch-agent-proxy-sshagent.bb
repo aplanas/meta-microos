@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.0.7"
 
-RPM_NAME = "jsch-agent-proxy-sshagent-0.0.7-4.6.noarch.rpm"
-RPM_HASH = "36a7683906b99deddc626b0a136076bb2cb4314c0c0e5568f9a135c8c0eb200bdf0df472771ef675febff6ec39fadeb4d35855a276c846443f16a904d2dfedf5"
+RPM_NAME = "jsch-agent-proxy-sshagent-0.0.7-4.7.noarch.rpm"
+RPM_HASH = "74f5bf6aae41c8d6a18692cde04b7e39a77512a6a3b17942ace9a25e049c440b4e81e26a1ff042efa2d8c497723321de941d151ed485e1372514c08b0ba07e4b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jsch-agent-proxy-sshagent \

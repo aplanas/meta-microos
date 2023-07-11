@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "8.307"
 
-RPM_NAME = "libpythia8lhapdf6-8.307-1.14.aarch64.rpm"
-RPM_HASH = "85b48f7a12b867eec51ed32c36d0a751e5fa728d55a63c032c1eb0e529c3dd0778765ea98fab03276ec62216e2f103ebc7ebc5e6dd7a41c20d6381ef2dbe556f"
+RPM_NAME = "libpythia8lhapdf6-8.307-1.15.aarch64.rpm"
+RPM_HASH = "5cf5b44fbc48c9ac07a685e629e5d67453f92e214f2c2390693c35478223a5a8c41aa148c6bbe6995d264d094a8a1dacd18c299d1f6c3769f3895952966e8f20"
 
 RPROVIDES:${PN} += "libpythia8lhapdf6 \
 libpythia8lhapdf6.so"

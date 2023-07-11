@@ -22,8 +22,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.111"
 
-RPM_NAME = "perl-Mock-Quick-1.111-1.22.noarch.rpm"
-RPM_HASH = "d6488fec37f373d61b0c00ee9b184918d60b0d5e70baceeaea0fdce47a1d1d9ccffb853b388ea5ef64ecb0a58b733c310b1e66d366e49c29cb368507a6c64d58"
+RPM_NAME = "perl-Mock-Quick-1.111-1.23.noarch.rpm"
+RPM_HASH = "8de38158278357308ecc1a961126c7ee0d7b3225528866157b7ac3e65c03090936f691feedd188880e036530d6e1e9df2c805b81ab127450763ef7d5163bea18"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mock--Quick \
@@ -35,7 +35,7 @@ perl-Mock--Quick--Util \
 perl-Mock-Quick \
 perl-Object--Quick"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Exporter--Declare"
 
 inherit rpm

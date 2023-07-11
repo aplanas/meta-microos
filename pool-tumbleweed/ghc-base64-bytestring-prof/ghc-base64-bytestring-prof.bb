@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2.1.0"
 
-RPM_NAME = "ghc-base64-bytestring-prof-1.2.1.0-2.3.aarch64.rpm"
-RPM_HASH = "4cfd72408bf4c6575dfb3a8b321e54f68e62f6532b8e7d7db6c93411ec93eb75b18af7b13c254fbf04861102611df0e9f6e99b637a317e2edfbb5686fab69350"
+RPM_NAME = "ghc-base64-bytestring-prof-1.2.1.0-2.6.aarch64.rpm"
+RPM_HASH = "6b33fbfffc632bc30abf9bdcdb7d948836a2ba5fb9a36fab2d466b14706af28b85b789adb6149f271f750892ddb0047b5da7037300aef502a03b5ffa8ff39e63"
 
 RPROVIDES:${PN} += "ghc-base64-bytestring-prof \
 ghc-prof-base64-bytestring-1.2.1.0-8KbzJpmSQbYKTeew1rv0hh"

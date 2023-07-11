@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "2.7.2"
 
-RPM_NAME = "python311-u-msgpack-python-2.7.2-2.1.noarch.rpm"
-RPM_HASH = "85396fa0a3ca1a16dc12be7d49b34d97e610ce53525cd6355ae7b26fd398a59004888864e2c39a214f16a7c46b5833108d4bda136c8e4829c881d7d597adbc4b"
+RPM_NAME = "python311-u-msgpack-python-2.7.2-2.2.noarch.rpm"
+RPM_HASH = "7fd4429f988b9cae9116d0ce3938f1fa798cd8a54873fe03a7161abb47404dcb419a3e17aa3a2ba473fab335083524707b8ad04677d862f9b66f7242fb5bd812"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-u-msgpack-python \
+RPROVIDES:${PN} += "python3-u-msgpack-python \
+python3.11dist-u-msgpack-python \
 python311-u-msgpack-python \
 python3dist-u-msgpack-python"
 

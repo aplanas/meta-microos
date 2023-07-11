@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.52.0"
 
-RPM_NAME = "nestopia-1.52.0-1.3.aarch64.rpm"
-RPM_HASH = "c452fd3555577ba6ba7f5b90ceabab5a7cdaa5edfd63e676f9644a0067132a262b51f11c8e16b070b939304dfc2a690cd3cadff2e46a11d6d1d0d28d930d8d14"
+RPM_NAME = "nestopia-1.52.0-1.4.aarch64.rpm"
+RPM_HASH = "4e26a8daebdb248118e7c25fe16dc77506d095522de036fcdf72af2355f8fd16fec37d929bf5f3cde553ee1e978674b7d3be31ff189e7bb6c2b8435cdb0277b1"
 
 RPROVIDES:${PN} += "nestopia"
 

@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.9.75git.20230408T114133~7098c192a6"
 
-RPM_NAME = "amarok-2.9.75git.20230408T114133~7098c192a6-1.2.aarch64.rpm"
-RPM_HASH = "14787b6fd2b2991748976b4531592ad48557a9d5dff773ceaafb51bf932387ce3de8828710b1a75b7b2b75b795273288b4b65390ea0fb20478c4902d15195edd"
+RPM_NAME = "amarok-2.9.75git.20230408T114133~7098c192a6-1.4.aarch64.rpm"
+RPM_HASH = "714602ceac67113ac0e5d5048e29651c760a76837edb1bb8a4f3920bc396ea8af2976bc7968609c997af6e9090895087fd6bf5c8eebeaeb34bfaebf7257616c4"
 
 RPROVIDES:${PN} += "amarok \
 libamarok-context-applet-albums.so \
@@ -84,9 +84,9 @@ libQt5Sql.so.5 \
 libQt5Svg.so.5 \
 libQt5Widgets.so.5 \
 libQt5Xml.so.5 \
-libavcodec.so.59 \
-libavformat.so.59 \
-libavutil.so.57 \
+libavcodec.so.60 \
+libavformat.so.60 \
+libavutil.so.58 \
 libc.so.6 \
 libfftw3.so.3 \
 libgdk-pixbuf-2.0.so.0 \

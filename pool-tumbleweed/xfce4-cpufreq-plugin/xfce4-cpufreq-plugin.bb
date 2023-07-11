@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.8"
 
-RPM_NAME = "xfce4-cpufreq-plugin-1.2.8-1.3.aarch64.rpm"
-RPM_HASH = "1b469fc1e24651bd67c06bd1eded5e7c277a9c4cdbe14d2813ed523a6c398a29c60ece7858a9154bc557e0674c7c73a75669263156b91f6a3da9dc450ce4c257"
+RPM_NAME = "xfce4-cpufreq-plugin-1.2.8-1.4.aarch64.rpm"
+RPM_HASH = "8f4510ce5a0bffc6d88eaa18879a94f92dd26ef3bca5e62b338ef08e6c0d95741342b13ee631ca9d937f2a885f2f45363f72b3bc68ad187ad5af8df5efd35247"
 
 RPROVIDES:${PN} += "libcpufreq.so \
 xfce4-cpufreq-plugin \

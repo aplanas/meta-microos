@@ -4,13 +4,13 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.12.0"
 
-RPM_NAME = "protonvpn-gui-1.12.0-1.2.noarch.rpm"
-RPM_HASH = "2fc51ec5b6993423a458c1a4638fd0a51dd4900102d7ea8d8e75709abd2a56b9c19bc64abaa60436b8edb7f3c7991b917a2b8293ba6f8a709e8ebf741fe0437d"
+RPM_NAME = "protonvpn-gui-1.12.0-1.3.noarch.rpm"
+RPM_HASH = "300ad56018ffcb6c63bdad83098b2876b5588288955d4357128c53c98570a709d157e99df73b3baf7ddaa8703739cced7ea2807b11a4cf8b597b19d3eda9c3ca"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "protonvpn \
 protonvpn-gui \
-python3.10dist-protonvpn-gui \
+python3.11dist-protonvpn-gui \
 python3dist-protonvpn-gui"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

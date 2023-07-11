@@ -11,12 +11,11 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.6.0"
 
-RPM_NAME = "python310-dpcontracts-0.6.0-3.1.noarch.rpm"
-RPM_HASH = "d9b7b6220ac6fe175739b78f268056f6ce2258bebea1e99ee8362c174de97c1dc4657f492cab08c3f0a4d048a03c44f48962cd8430b91dc58940b140589dac01"
+RPM_NAME = "python310-dpcontracts-0.6.0-3.2.noarch.rpm"
+RPM_HASH = "6d09e9d7295974426c861b4833af4a92bb5ea03396b3322c08d3a7ac45fdaacb5f45fdadc3c8ab330745728963d67c9515ec6838257de55b2ae24269352d3643"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-dpcontracts \
-python3.10dist-dpcontracts \
+RPROVIDES:${PN} += "python3.10dist-dpcontracts \
 python310-dpcontracts \
 python3dist-dpcontracts"
 

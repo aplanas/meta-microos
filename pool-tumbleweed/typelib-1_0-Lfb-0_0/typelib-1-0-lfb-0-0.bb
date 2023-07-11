@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-only & LGPL-2.1-only"
 
 PV = "0.1.0"
 
-RPM_NAME = "typelib-1_0-Lfb-0_0-0.1.0-2.2.aarch64.rpm"
-RPM_HASH = "6d93ce9df0e56fd36405a183acb0b2bf58a741f0fc4e5564cc2a2a8302a4d2cf6c8ae2527248dd06a145cb7a5d088f6a040e25045caf038c336035a38d98b26f"
+RPM_NAME = "typelib-1_0-Lfb-0_0-0.1.0-2.3.aarch64.rpm"
+RPM_HASH = "b0a0090a73faee7b2e310c51abab4a918bf01118335b13ca6d7640a09427781c81c8ce2dce266a3f184af0894bb110a1e132be2aa6e0a4d6c871a03cd8fd372d"
 
 RPROVIDES:${PN} += "typelib-1-0-Lfb-0-0 \
 typelib-Lfb"

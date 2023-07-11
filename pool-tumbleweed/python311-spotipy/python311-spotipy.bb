@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "2.22.0"
 
-RPM_NAME = "python311-spotipy-2.22.0-1.3.noarch.rpm"
-RPM_HASH = "5a337b5a97fbb6ff4c809936a0344482adf952ccb320345e663b8300d0a8314a99beb05fcf9cf5b0e7d44f5895168114acbbe25380e424c6674f32d718f47c34"
+RPM_NAME = "python311-spotipy-2.22.0-1.5.noarch.rpm"
+RPM_HASH = "cd27c31151446a01a8eb46d24f233132781cf3f9e718191f0fe1ab984ce47d3e2adb0d50d94e1bf3ea4f3937d45dee91386ca23b24266c55a8db7b3d1517f515"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-spotipy \
+RPROVIDES:${PN} += "python3-spotipy \
+python3.11dist-spotipy \
 python311-spotipy \
 python3dist-spotipy"
 

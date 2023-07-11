@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-or-later"
 
 PV = "4.13"
 
-RPM_NAME = "login_defs-4.13-6.1.noarch.rpm"
-RPM_HASH = "23e68415e2fe0cee2971122e84b20465ae1d56ccdfba13892efabc2b9c87d2a493001f50b67f7b31abb8eb4fca5917fea874f84975068aaddd99d9718b50bd6a"
+RPM_NAME = "login_defs-4.13-6.3.noarch.rpm"
+RPM_HASH = "33f6686cb5d671d65a9f940d2e74ef12b8ad1ce10c9daebf67a06e39c933d1d31078ab7f1e77cb440408007c47c061ec32e468b98f296ac6a7bb5dde0e9ec924"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "login-defs \

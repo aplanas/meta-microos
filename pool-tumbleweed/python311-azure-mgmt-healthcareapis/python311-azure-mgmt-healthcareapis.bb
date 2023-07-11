@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "python311-azure-mgmt-healthcareapis-1.1.0-1.6.noarch.rpm"
-RPM_HASH = "3418015f4900de0dcf1286f5094137be281a43e054a1fedd254a8eacaca8bd0d40e82b3b0e23695e0553678fdd5de063a5ecbfabb3f0de36e56ca20915fdd220"
+RPM_NAME = "python311-azure-mgmt-healthcareapis-1.1.0-1.7.noarch.rpm"
+RPM_HASH = "e7d271d70f869db81ea863bf8940f99f58e0016fb8de28a060dc276b422022ba1f9731817311d246f77ebef2195cdad92535422e7fbb176074c8b61fd349ab2a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-healthcareapis \
+RPROVIDES:${PN} += "python3-azure-mgmt-healthcareapis \
+python3.11dist-azure-mgmt-healthcareapis \
 python311-azure-mgmt-healthcareapis \
 python3dist-azure-mgmt-healthcareapis"
 

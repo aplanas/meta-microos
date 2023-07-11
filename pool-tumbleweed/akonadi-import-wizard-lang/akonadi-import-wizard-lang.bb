@@ -2,10 +2,10 @@ SUMMARY = "Translations for package akonadi-import-wizard"
 DESCRIPTION = "Provides translations for the 'akonadi-import-wizard' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "akonadi-import-wizard-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "a068a7486e37105082ffac35b5db4eed2399cfebb1ceb9fbdcda0af24c75b5cac0247409b31a37a8c8b1ba8fcd6720463cf6a7ce6673468998e1519823b6399d"
+RPM_NAME = "akonadi-import-wizard-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "4951f120ff1e9a333f5528e9e7060d8c22c756085397452283368d4c7b53833b3f018c77ceec014e8bf92f24dda3d2f79dafedb7abf17d0f09c4f04a676069d0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "akonadi-import-wizard-lang \

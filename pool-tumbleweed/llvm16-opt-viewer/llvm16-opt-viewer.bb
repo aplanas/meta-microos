@@ -2,10 +2,10 @@ SUMMARY = "Tools for visualising the LLVM optimization records"
 DESCRIPTION = "Set of tools for visualising the LLVM optimization records generated with -fsave-optimization-record. Used for compiler-assisted performance analysis."
 LICENSE = "Apache-2.0-with-LLVM-exception & NCSA"
 
-PV = "16.0.4"
+PV = "16.0.6"
 
-RPM_NAME = "llvm16-opt-viewer-16.0.4-1.1.noarch.rpm"
-RPM_HASH = "e5231188af477d6f812f4403493ae46352f077eec0c9ed7df58f979d440ba42df87fc5bcccbe3fb2fbd39cc8e7a22f1ff1381c1f401fac26e9743d10fdde0698"
+RPM_NAME = "llvm16-opt-viewer-16.0.6-1.1.noarch.rpm"
+RPM_HASH = "07a5e6c4cd8b7218dd2f37ae7dda859947be81cfb1cda51379ae59c0600a9ab9504f1900a8f903c0ab4cd39d55248d595dac3303ce72621d9695ffc57f1edc60"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "llvm16-opt-viewer \

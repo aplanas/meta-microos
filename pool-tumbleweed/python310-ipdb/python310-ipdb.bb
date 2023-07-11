@@ -6,14 +6,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.13.13"
 
-RPM_NAME = "python310-ipdb-0.13.13-1.2.noarch.rpm"
-RPM_HASH = "2a4afc177841948c189e5125539ae652c6f210e37079009e02a7bf2acedc578dfe6705a84f47107ef042f8daaf14ab8f09c1bf03b3b2b21a7f0c11a6d0dbdde4"
+RPM_NAME = "python310-ipdb-0.13.13-1.4.noarch.rpm"
+RPM_HASH = "e7d3199093f2abe8b8036554aba81993eb3a93f08488402915d084ed803eb6b1832cdec7913eca7905c095ebaac0ff583d49a3b29d99277c7b2be55c8fa65943"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jupyter-ipdb \
-python3-ipdb \
-python3-jupyter-ipdb \
-python3.10dist-ipdb \
+RPROVIDES:${PN} += "python3.10dist-ipdb \
 python310-ipdb \
 python310-jupyter-ipdb \
 python3dist-ipdb"

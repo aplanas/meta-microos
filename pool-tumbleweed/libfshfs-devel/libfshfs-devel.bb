@@ -8,8 +8,8 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20220831"
 
-RPM_NAME = "libfshfs-devel-20220831-3.9.aarch64.rpm"
-RPM_HASH = "a55d67ce40b6a89b41cee62134f19fb03a2fc5e51ccd17b372d4b176612c1342f38636f0ab0aac4b7a7a418b363a47395bb1b01302450974bb00abcffa179623"
+RPM_NAME = "libfshfs-devel-20220831-3.13.aarch64.rpm"
+RPM_HASH = "bdc64d233831bae8041f0627e00d010bde45f038bed2c44a63aca723c235feef624af21c4bef12460a78760f860b6d43808ccd4b93ed52f5bb32dc1f7db4a28f"
 
 RPROVIDES:${PN} += "libfshfs-devel \
 pkgconfig-libfshfs"

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gwenview5"
 DESCRIPTION = "Provides translations for the 'gwenview5' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "gwenview5-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "ac7c12641d7b8ab11aae65d66b4e372683b7c3bd65394487e23541d8bd16b7b1c7eb9b1df74e9e5d014be41bc930dba17792b27733876fcb2f660c5afa016517"
+RPM_NAME = "gwenview5-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "67cfad927e73c1ad66c9d4aa7da354cd26789236bcaddf0af1842a3bfd35945627fd0e2b67d77b8630f55baa55245a66feb6407118f07620156ec460ca5540b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gwenview5-lang \

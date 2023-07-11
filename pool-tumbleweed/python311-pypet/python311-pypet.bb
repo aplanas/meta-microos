@@ -6,13 +6,14 @@ a data container which gives access to all parameters and results \
 from a single source."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.6.0"
+PV = "0.6.1"
 
-RPM_NAME = "python311-pypet-0.6.0-2.3.noarch.rpm"
-RPM_HASH = "ff59126b36c3405a5a790637fe9bedfa5fb3aa4141c4b65a5ba5069b4e3b7e3193655f4890d4c2fd9b642c6d6259045c0d451d03ba80c9259077dae4135fe071"
+RPM_NAME = "python311-pypet-0.6.1-1.1.noarch.rpm"
+RPM_HASH = "efac455a0a735573e29cca17de56a6d1a8bfb1b667bd8818c101006cbe111ea13d3a600ff9f42da36edd3d2b894109d724dd5dc19484da66c6df10da5beb5a38"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pypet \
+RPROVIDES:${PN} += "python3-pypet \
+python3.11dist-pypet \
 python311-pypet \
 python3dist-pypet"
 

@@ -11,11 +11,12 @@ LICENSE = "MIT"
 
 PV = "1.1.1"
 
-RPM_NAME = "python311-fudge-1.1.1-6.7.noarch.rpm"
-RPM_HASH = "a16f6efd2f8d0698621e7eb2d90e03dfc5d513f639488cd004f7eb75affcb03ebecc903ea545fdf4a07c94f23fbcba1456c15c5dfc5a99c03eab1c242eacb35c"
+RPM_NAME = "python311-fudge-1.1.1-6.9.noarch.rpm"
+RPM_HASH = "1c316440825b0467d5d0dae8c3e90980c33c611e812f53f6d0445c22d2cd3e2148863e49f06f8bc9737f68a60956555ec9577a728594f46d275215460a0a1756"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-fudge \
+RPROVIDES:${PN} += "python3-fudge \
+python3.11dist-fudge \
 python311-fudge \
 python3dist-fudge"
 

@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.8.0"
 
-RPM_NAME = "qore-xml-module-1.8.0-1.3.aarch64.rpm"
-RPM_HASH = "e278264fd6c511abaa3d069a60d7d2ddb83323300139adfa976460ee3632960aad7d6f42dc18ee043864a0b86b0402322b755ebac51b5b68abd1a15c3c5dba78"
+RPM_NAME = "qore-xml-module-1.8.0-1.4.aarch64.rpm"
+RPM_HASH = "c700cb4295f05f6aae61320e2d5de45c37acfb23cce4d89ce9cd620dc385be56d468ad10e731a6e955cc89734ad04822dcb3bbb8c59291cb91dd1dc181243a71"
 
 RPROVIDES:${PN} += "qore-xml-module"
 

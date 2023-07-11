@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.4.2"
 
-RPM_NAME = "eiskaltdcpp-common-lang-2.4.2-1.13.noarch.rpm"
-RPM_HASH = "a2318ab4cc2ac456bfb37d160a953273718371d0d125e5dbf1a17ef790543099682d8812d369da8c061e24145ca1a4c5d71a4dc27ea40f676f6075310e52759e"
+RPM_NAME = "eiskaltdcpp-common-lang-2.4.2-1.14.noarch.rpm"
+RPM_HASH = "441b13f35d702e3bb2bd38afe754a791026a35dfae3bf947348952abe87342790916c5c9af56f3182526675f4bdc9bf223dca934fb474ab4792275606ffdb0aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eiskaltdcpp-common-lang \

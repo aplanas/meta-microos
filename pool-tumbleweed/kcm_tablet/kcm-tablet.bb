@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.2.0"
 
-RPM_NAME = "kcm_tablet-3.2.0-5.7.aarch64.rpm"
-RPM_HASH = "671de70db9d08a5c706ca0c9c46aba4405d8403b997f9e6fcc3d8c63f7ba9503366f34f024596a31b36df600735c1300d749546f67b15c5039bcd4b7cba2ec62"
+RPM_NAME = "kcm_tablet-3.2.0-5.8.aarch64.rpm"
+RPM_HASH = "9c861f8c988ae4cc8e0b09f57a02ac538cc68d06b0b577b16e610e790506837cf244120131ff8c5a75403cefa7a418657474d3ae49a8ef9cc34d96494e22bd05"
 
 RPROVIDES:${PN} += "kcm-tablet"
 

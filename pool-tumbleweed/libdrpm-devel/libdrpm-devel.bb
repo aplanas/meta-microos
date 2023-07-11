@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.5.1"
 
-RPM_NAME = "libdrpm-devel-0.5.1-1.4.aarch64.rpm"
-RPM_HASH = "fe262b2ad44b4af336476cb86b17f8eecbeb03dcfb0cbf4379bd33975590bfc5f72ee1690cdd1fa6b7b4d4ca9a89067e6c2f4eb2dcddbbacffdb61fd02817dad"
+RPM_NAME = "libdrpm-devel-0.5.1-1.5.aarch64.rpm"
+RPM_HASH = "6c8465630d88f3a0011a3a26c3bbe2db306a6d28c25d239deb1f53b746039efcf7542c4754557564bbdfccda83c51c9e259c65b1fd589dbd34d047f2fecc01b6"
 
 RPROVIDES:${PN} += "drpm-devel \
 libdrpm-devel \

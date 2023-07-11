@@ -13,11 +13,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2023.3.16"
 
-RPM_NAME = "python310-imagecodecs-2023.3.16-1.2.aarch64.rpm"
-RPM_HASH = "0c82e81842f0cb565c450fc92e6fe0095754819236b799b018151cabbc9121900a63c2edbca8c1a385ff82535bd77212955a0bb3e6198f3b2ad8088a444f6a0c"
+RPM_NAME = "python310-imagecodecs-2023.3.16-1.4.aarch64.rpm"
+RPM_HASH = "25345c8397c37a376337366c32c297f8bb726ca706f7a27113b64b2e99f34de29cf53d92cabbd6fb5ef902d47d24a9ae74dd9ba367262a1952f17d77a3574954"
 
-RPROVIDES:${PN} += "python3-imagecodecs \
-python3.10dist-imagecodecs \
+RPROVIDES:${PN} += "python3.10dist-imagecodecs \
 python310-imagecodecs \
 python3dist-imagecodecs"
 

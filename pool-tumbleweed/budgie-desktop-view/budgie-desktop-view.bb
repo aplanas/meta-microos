@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2.1+0"
 
-RPM_NAME = "budgie-desktop-view-1.2.1+0-1.3.aarch64.rpm"
-RPM_HASH = "dbcec0ecce75b97db1bea402d96a1db6908ae5731b492aa306228c62850f1d3b982da469233ca6b5d9615f8ed3d80708b63621dcc7f9735769fc3c2d4952ff28"
+RPM_NAME = "budgie-desktop-view-1.2.1+0-1.4.aarch64.rpm"
+RPM_HASH = "0f8def41b6d7a6fbc92491a8d5aeb48d561619561eade8c5fb5bc0cb5b87582bbaa81292e58a160d2a49abd4e6fcc2cafe7bf5951919ef8805a911744a27da6c"
 
 RPROVIDES:${PN} += "budgie-desktop-view"
 

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.5.0"
 
-RPM_NAME = "liburfkill-glib0-0.5.0-3.6.aarch64.rpm"
-RPM_HASH = "7d7bf22109bc19d56c7da55eb1778d68f41ca7d52bde057326dc97a05aafcec4c7bb88a7d50b582c6cec9525cf4b1a7b5aa26b552c3051e15fd7bbd77c9fbf1d"
+RPM_NAME = "liburfkill-glib0-0.5.0-3.7.aarch64.rpm"
+RPM_HASH = "f6c78b0e93cc79051d1aef62c0e8536a10044812c9e386513f051911c862665daa9aea6369001916c95ac25a29b0e9212f5f25724166d08f5f4d07b934005039"
 
 RPROVIDES:${PN} += "liburfkill-glib.so.0 \
 liburfkill-glib0"

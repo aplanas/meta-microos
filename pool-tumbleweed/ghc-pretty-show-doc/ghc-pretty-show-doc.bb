@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.10"
 
-RPM_NAME = "ghc-pretty-show-doc-1.10-4.3.noarch.rpm"
-RPM_HASH = "24ea4bf6d2b5be62513c7468dda6464b8821bc05e8e56faf84b18211681a5c5a1d1179859a31e6de0e6a89a94b0ee4ffdf2216cc029aa3879edff47b161b427b"
+RPM_NAME = "ghc-pretty-show-doc-1.10-4.6.noarch.rpm"
+RPM_HASH = "1d9893271a258b02c1a5866927c2af1f7aee930a3586ef91c753f795b90b5eff6682b0aacb515c21fbb85c0a6d66ccd8c4c2441d085aafa5bf813413b3c73dfd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-pretty-show-doc"

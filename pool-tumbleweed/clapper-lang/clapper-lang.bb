@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.5.2"
 
-RPM_NAME = "clapper-lang-0.5.2-1.3.noarch.rpm"
-RPM_HASH = "a2f7d06fd5d8acfb334877c757b01065d2d0294590fe559e6404e430abb93da352f341e7ad3272471bdcfe26337a5d9fe430e51ae366cbf51df594b00f16f80d"
+RPM_NAME = "clapper-lang-0.5.2-1.4.noarch.rpm"
+RPM_HASH = "310119901f3af5a6dda38c204a6478cbcc95a13ef8cbb70d4731f30cf300ba10c24c2517d7b3020e322a87cef4d09be58041492fc03f704950517c9e5e635de1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "clapper-lang \

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.31.0"
 
-RPM_NAME = "libwnck2-lang-2.31.0-13.3.noarch.rpm"
-RPM_HASH = "24f9fb2713cc059a99d39bbc80be53a4f970d2ae84377b129fdd8e5994532f36dba84f2acc8c4ef05754574cafb09fddfa0039b85dfad3056971469e26894d36"
+RPM_NAME = "libwnck2-lang-2.31.0-13.4.noarch.rpm"
+RPM_HASH = "cb26fd9b31e99f67aeb409ba84b7a164ac46a849bbf4055574648438caf221fc15b89c779f62d33d402d1e4e9a468dd68a49222f5af29cf2595a0f9ae9653160"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libwnck2-lang \

@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "1.1.0b2"
 
-RPM_NAME = "python310-azure-mgmt-automation-1.1.0b2-1.3.noarch.rpm"
-RPM_HASH = "1c75f1cc8cff53d5a089dc2681a138bb11afca05f930546766c5ed23cecd352a460b5c6c89294bee486d9ff4e3deed7aaca55584bbebaaa9c83033dfad1e20da"
+RPM_NAME = "python310-azure-mgmt-automation-1.1.0b2-1.4.noarch.rpm"
+RPM_HASH = "c15fb01e2ec391a6af26956cb1a8d17981db7c231ffe31396265233fd228662b1f63467f7a183ff5eb0aaf8de04ceaf677385d49f5c772a9f7997fc03b20bba6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-automation \
-python3.10dist-azure-mgmt-automation \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-automation \
 python310-azure-mgmt-automation \
 python3dist-azure-mgmt-automation"
 

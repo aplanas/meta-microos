@@ -3,10 +3,10 @@ DESCRIPTION = "Package consists of low level tools for manipulating and fixing p
 PNG files."
 LICENSE = "libpng-2.0"
 
-PV = "1.6.39"
+PV = "1.6.40"
 
-RPM_NAME = "libpng16-tools-1.6.39-4.1.aarch64.rpm"
-RPM_HASH = "6a86c1ebe6f6e72d3db9c6aee7b3e49ce83bb30dccb43be959916b611d3786312f5f228bf0876a3a043a3735696174f2b5fe64d70ac6f7e219858125c86fddc1"
+RPM_NAME = "libpng16-tools-1.6.40-1.1.aarch64.rpm"
+RPM_HASH = "a006708ef40bb4e28ef84b404ad981f0ea3882540ff269a93263f2f1ac43da296e9c07feb5ec5f1715bbe5c528aab501661ef7f61e4207cae05569b29fee09d3"
 
 RPROVIDES:${PN} += "libpng-tools \
 libpng16-tools \

@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.8"
 
-RPM_NAME = "libavahi-qt5-devel-0.8-23.1.aarch64.rpm"
-RPM_HASH = "d21bfdcd52164e204f292bf6d5761c5842d212d2d9914bc53381f22fc7ec031edc3a8efc00ccda0369f8c1cbfd03d6659d9f53b8dd456395cd7e7220245a061d"
+RPM_NAME = "libavahi-qt5-devel-0.8-23.2.aarch64.rpm"
+RPM_HASH = "fc45bc856ef949bcdb43cc39f8aa48c4318d29fa6eae0e43f3a60f1a524042e1cfcb03535cf6f4f5bda340c12c33d94ecef138dac43687567bded0760f217eb1"
 
 RPROVIDES:${PN} += "libavahi-qt5-devel \
 pkgconfig-avahi-qt5"

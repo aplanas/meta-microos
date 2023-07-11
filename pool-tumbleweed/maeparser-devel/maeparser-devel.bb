@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.3.1"
 
-RPM_NAME = "maeparser-devel-1.3.1-1.4.aarch64.rpm"
-RPM_HASH = "0f4dc62c8b3879d90fd64d2d75e4a9d59ad6dabb1d5fc715cdd3b5a1c25066d993a734ecd9bf19c60ae37fed070d890444a0d18f35281094d4be974c4c8291d6"
+RPM_NAME = "maeparser-devel-1.3.1-1.5.aarch64.rpm"
+RPM_HASH = "e2727044e77a2788df5d65c61ecc212e9706fe237039e8258bf4bff007cae0cf485c125887856401c12994de24ee05b7b340946a8aa228a0092bf0ebe674b92c"
 
 RPROVIDES:${PN} += "maeparser-devel"
 

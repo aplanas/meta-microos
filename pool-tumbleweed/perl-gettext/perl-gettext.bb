@@ -69,13 +69,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.07"
 
-RPM_NAME = "perl-gettext-1.07-1.58.aarch64.rpm"
-RPM_HASH = "2a270cd932736f26c6dd361db12afc2ecd43592d3cb268adab445d8ba3a22d10237c2010ef1c099b65a6e959d32ab00ec7aafb491eaf1318003d5ff482e91d25"
+RPM_NAME = "perl-gettext-1.07-1.61.aarch64.rpm"
+RPM_HASH = "1bde35f7785b629357f80a03ffea1679ba9bc89b32e137269b4150240d51acb18bb63418f0024f8952b8a0683f3407ba88ed2070654a6018069b6fd5d54aba87"
 
 RPROVIDES:${PN} += "perl-Locale--gettext \
 perl-gettext"
 
 RDEPENDS:${PN} += "libc.so.6 \
-perl--MODULE-COMPAT-5.36.0"
+perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

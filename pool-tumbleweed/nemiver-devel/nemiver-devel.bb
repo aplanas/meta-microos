@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.9.6"
 
-RPM_NAME = "nemiver-devel-0.9.6-9.8.aarch64.rpm"
-RPM_HASH = "48dcc0b97c63485e0cb4ab3679609a5fe36be179673be3bc9bcd3bd3dd9a16e946461306a509e3cb632435e244a160ea7142fd257831ac38ed8593429bb9cf15"
+RPM_NAME = "nemiver-devel-0.9.6-9.9.aarch64.rpm"
+RPM_HASH = "dcc8dfe203e84afdc37ee788cb29b035a29797b7c1faecd5404e5e963390e3cc2fc2e8709a898b00c92293cc7f5e8a48afdc2595b223e557dabc48de8ccc7277"
 
 RPROVIDES:${PN} += "nemiver-devel"
 

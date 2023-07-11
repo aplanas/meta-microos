@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.2.0"
 
-RPM_NAME = "python311-TxSNI-0.2.0-3.4.noarch.rpm"
-RPM_HASH = "caffccd5187ac9c0b9b0e638564951d262fc349389e438dbbd7d04e229f16708015603ad768092c4581028967f72cae8f2354be8e026912d13a502ecacae046c"
+RPM_NAME = "python311-TxSNI-0.2.0-3.6.noarch.rpm"
+RPM_HASH = "ef0b8d7a12c9a4f21bb7ed3bd2f5c7a3edcdf3292fe026260caf58c4c7f0f8c40e86fb04247a8fd2b2a5c727e579a17a8a795fd18f3f4f9e250bcb88b0f11cb3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-txsni \
+RPROVIDES:${PN} += "python3-TxSNI \
+python3.11dist-txsni \
 python311-TxSNI \
 python3dist-txsni"
 

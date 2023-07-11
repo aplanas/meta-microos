@@ -3,10 +3,10 @@ DESCRIPTION = "Qt 5 Core Development Binaries. It contains Qt5's moc, qmake, \
 rcc, uic and syncqt.pl binaries."
 LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
-PV = "5.15.9+kde154"
+PV = "5.15.10+kde129"
 
-RPM_NAME = "libqt5-qtbase-common-devel-5.15.9+kde154-1.2.aarch64.rpm"
-RPM_HASH = "5dc850cc630544623d3b45c291e31841633c22dafead5f51869dd5a952b935733f8f26a678ce38c0028eb02ac54cd0c52f5e6dd82cdaec88066445fed5ffa34a"
+RPM_NAME = "libqt5-qtbase-common-devel-5.15.10+kde129-1.1.aarch64.rpm"
+RPM_HASH = "c575b612f225dd8dd9aa2671282d0cbad171d6d779096c7014be9f953b1c37ae0b05ee3eef1c5d0e1597151c84ded40862043ae04a50020ff91fa561b6781386"
 
 RPROVIDES:${PN} += "libqt5-qtbase-common-devel \
 rpm-macro--libqt5-archdatadir \

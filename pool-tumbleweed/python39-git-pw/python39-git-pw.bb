@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "2.4.0"
 
-RPM_NAME = "python39-git-pw-2.4.0-2.2.noarch.rpm"
-RPM_HASH = "92dff10cca86acb77dfb529156ec821f36d5e978dff0143d90d9226e64f2f9ccbf8fcf85728b88c8cfb1d3ef62c5eacb359fd6fc792bb2c993efbe42d7b54c19"
+RPM_NAME = "python39-git-pw-2.4.0-2.4.noarch.rpm"
+RPM_HASH = "09cde45fbd887862fa55fbbb9e2a6d14a348a4d1b4de935f245cd31b6db03a6134ac5f79132ab962411b993eba7d53fd0527f100e011dc72f49db6d31a5c3bdc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "git-pw \

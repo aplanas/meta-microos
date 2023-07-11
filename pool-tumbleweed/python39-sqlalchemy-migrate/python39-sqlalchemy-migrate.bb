@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "0.13.0"
 
-RPM_NAME = "python39-sqlalchemy-migrate-0.13.0-5.4.noarch.rpm"
-RPM_HASH = "aec4ac5b6d1a9a086364587688b826c52a58261f4842e5dc9e01db0d95bb924dd005640309e597ae3fb4c8be4289080a87aecc62e7f30e8c4ada9b5660593170"
+RPM_NAME = "python39-sqlalchemy-migrate-0.13.0-5.5.noarch.rpm"
+RPM_HASH = "a04ff3a8d14f4ca16352cf2fcbacf2b70514ab1d6c4e198b71446860f612fb49dbcc9e2a0c6488e092f6c999d3d31f965b626235843a387afcb9d75291b1eb88"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sqlalchemy-migrate \

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.17.0"
 
-RPM_NAME = "python3-libixion-0.17.0-3.4.aarch64.rpm"
-RPM_HASH = "d124ecffbb0943501a340080db2b623b21cd4b35402e8ddd0632a132f5acad7a55a01c0eaddd441d2447339efde4ffb625d20857917ad380db0a6c108bb5e7f4"
+RPM_NAME = "python3-libixion-0.17.0-3.5.aarch64.rpm"
+RPM_HASH = "f3268468b3b522f1f7bbee1e270b607282ccb5dda21d49825721c308d2511bcd7ecf25ca627edc032a6c2ef3e4dce15f41037f8e79fd93e9b793fb5e33565faa"
 
 RPROVIDES:${PN} += "libixion-python3 \
 python3-libixion"

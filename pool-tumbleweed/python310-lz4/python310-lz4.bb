@@ -4,11 +4,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.3.2"
 
-RPM_NAME = "python310-lz4-4.3.2-1.4.aarch64.rpm"
-RPM_HASH = "05b3492cfa884964d11c0a665dd8490b5d393caedf5323b38cea0a5ffa1f29422f59fcec873bc1f5311757558fc7d64aacc82ca87f1ca7d9e13b01a466edbb9d"
+RPM_NAME = "python310-lz4-4.3.2-2.3.aarch64.rpm"
+RPM_HASH = "e77d14134b3f9ab89310f555c3c00f63f732d1b26e6a446c15c6738a5c61bd27dd485ac39ea756a463d58b0472a9e85ba082b27087b4d5326a9ccdb6b59d0045"
 
-RPROVIDES:${PN} += "python3-lz4 \
-python3.10dist-lz4 \
+RPROVIDES:${PN} += "python3.10dist-lz4 \
 python310-lz4 \
 python3dist-lz4"
 

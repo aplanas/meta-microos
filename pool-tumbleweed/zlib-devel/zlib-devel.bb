@@ -17,8 +17,8 @@ LICENSE = "Zlib"
 
 PV = "1.2.13"
 
-RPM_NAME = "zlib-devel-1.2.13-4.1.aarch64.rpm"
-RPM_HASH = "508421172c7b98086e8088e02476b1dc081a82c09997698336ce633c78024e98d87a352d737e037410c71e0cbd432f97f4744bf70e86e2b37fe0413fc549a4a1"
+RPM_NAME = "zlib-devel-1.2.13-4.2.aarch64.rpm"
+RPM_HASH = "baa1c3acfd16896404321e2dc284569e890aa1188cafaa7719c98c0e721ee4d481594efa9fc68fd77b358a48c7c88ef9e465e5f6f870d62a4dea64dc153ea82d"
 
 RPROVIDES:${PN} += "pkgconfig-zlib \
 zlib-devel"

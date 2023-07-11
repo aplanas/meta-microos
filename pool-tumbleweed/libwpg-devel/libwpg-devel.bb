@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later & MPL-2.0"
 
 PV = "0.3.4"
 
-RPM_NAME = "libwpg-devel-0.3.4-2.1.aarch64.rpm"
-RPM_HASH = "20192077c1dddb981867d0f82f819bba5f700cc22bab98589f26e5ec751286bb6aadf4cb66c42f0896ac20ce6ff865b35e568279664eb75a61ec808efc6d5a22"
+RPM_NAME = "libwpg-devel-0.3.4-2.2.aarch64.rpm"
+RPM_HASH = "ee5b265ccb76d11359b3ede32ea30a256fb6c1c55b24eb5accfa46961577a3090e3c5abb8fb9d034abd59eeb95a495771d5e6b63bdea07c267d2c28c10dbd675"
 
 RPROVIDES:${PN} += "libwpg-devel \
 pkgconfig-libwpg-0.3"

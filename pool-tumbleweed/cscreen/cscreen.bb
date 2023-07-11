@@ -5,8 +5,8 @@ LICENSE = "BSD-4-Clause"
 
 PV = "1.4"
 
-RPM_NAME = "cscreen-1.4-1.5.noarch.rpm"
-RPM_HASH = "a06b6daba9406bd6013df8a2e4f009bf1a33af351fc11d02237e32888986a1f6c9813c695bc89e6bcf984c1720e53263131b5291c92536acbd5b99178700a9c0"
+RPM_NAME = "cscreen-1.4-1.6.noarch.rpm"
+RPM_HASH = "51bcade709e5e56727957ecfc7932663ee2543732f0703b316a4aaff4b55248485f543ae8dca11f8c56c4a12c7a166ebd33d89f4fb907512ee8a84ff75af2447"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-cscreen \

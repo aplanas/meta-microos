@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "3.4.4"
 
-RPM_NAME = "libffi8-3.4.4-1.3.aarch64.rpm"
-RPM_HASH = "e7e336484e56d3d8a13c832a2fe7fc60f18efb48cb2ed3406e86cb6cf60d37b40704ca611e5f3bcc27c31091254218b9b5dda0c189dcd26c272857872d352a77"
+RPM_NAME = "libffi8-3.4.4-1.4.aarch64.rpm"
+RPM_HASH = "b28dbe8fca7bc5cdbf9abe79b8c1c4db58398eeb6617c00d5e5e75a0b48a49a0f39c759ea701ff4b83bce37671187752fe53326e26cc4f06fbd6d30306eb3eac"
 
 RPROVIDES:${PN} += "libffi.so.8 \
 libffi8"

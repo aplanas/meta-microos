@@ -6,8 +6,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2.1.0"
 
-RPM_NAME = "libscalapack2-gnu-mvapich2-hpc-2.1.0-9.20.aarch64.rpm"
-RPM_HASH = "e8c00970f525812a1e4c2d3ff5b9b2969e3d6f50c7bc7bb79418ec60e38035af1676fa3bd11513369d46bbf94da93d1f1af5ee78c3f5a0fcc46ae693b2a9c907"
+RPM_NAME = "libscalapack2-gnu-mvapich2-hpc-2.1.0-9.21.aarch64.rpm"
+RPM_HASH = "43b2c8bf21d6cb475773ebb7aa842c3cdd03a646337c290dcb7a15fc29327fed5cc77b00693d95654de4a313d0ededeaeb90ba09f1c80a72a18d5225d9b5e91d"
 
 RPROVIDES:${PN} += "libscalapack2-gnu-mvapich2-hpc"
 

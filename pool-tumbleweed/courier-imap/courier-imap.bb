@@ -28,8 +28,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.2.4"
 
-RPM_NAME = "courier-imap-5.2.4-1.1.aarch64.rpm"
-RPM_HASH = "08117c2e3f50c5bc3ba70c33c9f2beb30b388c1c95b65bf599b1b7df5b64e106f6492a3b3c897cbaba4c9c98eecc5bb62cc58162cabb6eeb00f7b171537109c1"
+RPM_NAME = "courier-imap-5.2.4-1.2.aarch64.rpm"
+RPM_HASH = "3ddd152d666e21d432e6bbba797f02796d6e56a4f91887363c96b7392e8a117715456bcfed6c787d3cdaf255e3e90abb09ad285e7f122b3a8dc1f5148929fe24"
 
 RPROVIDES:${PN} += "config-courier-imap \
 courier-imap"

@@ -2,10 +2,10 @@ SUMMARY = "One API for multiple git forges"
 DESCRIPTION = "One API for multiple git forges."
 LICENSE = "MIT"
 
-PV = "0.41.0"
+PV = "0.45.0"
 
-RPM_NAME = "python39-ogr-0.41.0-1.3.noarch.rpm"
-RPM_HASH = "211d00fefeb9e49a2748a3e917fba94f9f84988d230faa124ead7ce32ffb151a3115dd32a1f5c8c3643d3227b12f4b371d7c900278db3030b60d55606b857bbb"
+RPM_NAME = "python39-ogr-0.45.0-1.1.noarch.rpm"
+RPM_HASH = "4a500ee293f2e3c8268344552f62262eb834b0b01daead43a3b77071576db24c1b7630abf5ca8a0c10a649e340bef1082360efb1109f2c812af550028d9dbcf2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-ogr \

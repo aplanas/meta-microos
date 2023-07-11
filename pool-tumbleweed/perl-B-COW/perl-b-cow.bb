@@ -5,12 +5,12 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.007"
 
-RPM_NAME = "perl-B-COW-0.007-1.2.aarch64.rpm"
-RPM_HASH = "0af3a1cc7f2fe97e4f25cabdf0b905341ae683d6b1fe3302ccbb0afff1c5dcdfb2e3711eff7697fdaf5b2f9ff4fb5996987d30b4ce5cf368f016e141c3a8593c"
+RPM_NAME = "perl-B-COW-0.007-1.3.aarch64.rpm"
+RPM_HASH = "ae75d7f4e9788e94a365d77c39a11d23d824457937441759a53954a30f5dd199900c9808a6062e30dcee32be3d8dbc3f3b55b76ab556ccdcfe4ff4521fd82337"
 
 RPROVIDES:${PN} += "perl-B--COW \
 perl-B-COW"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

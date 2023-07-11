@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.0.4svn64025"
 
-RPM_NAME = "texlive-hfutthesis-doc-2023.201.1.0.4svn64025-53.1.noarch.rpm"
-RPM_HASH = "d257f631e7a96ed3322400be993dabbdcc6e4f3badd727f8a2229da0c1248bbd39bd4bb36d313cf467360d22ebae1d415ffebd0162e75752a08f0c4a3002df51"
+RPM_NAME = "texlive-hfutthesis-doc-2023.201.1.0.4svn64025-53.2.noarch.rpm"
+RPM_HASH = "eef910f56d8ddfc0cf6ef66d1335993432dba6e6fea9452778267b1992c0d568d661761f8ae2b4d4ccbef996a77997cc0572abf0188939ca156f0915fef104f9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-hfutthesis-doc-zh \

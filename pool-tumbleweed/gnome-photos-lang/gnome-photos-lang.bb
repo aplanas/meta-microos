@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "gnome-photos-lang-44.0-1.1.noarch.rpm"
-RPM_HASH = "d9299bd774f97d32625c9ba12ccaec8d5ac95aa24049d4fdd395df625b244da3279c7ace7312c78f0c5a80eb84e60c59a174e9906cba018674742e1e6b11a96d"
+RPM_NAME = "gnome-photos-lang-44.0-1.2.noarch.rpm"
+RPM_HASH = "52496dc5f258a9eec0b6af7e35a4486c0d34e458c9968030ebfd3d8bbc58012165b3de2e841fd8eb6de07dfdf23633af08894b17a4925be31b59d5dc78ab9cd8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-photos-lang \

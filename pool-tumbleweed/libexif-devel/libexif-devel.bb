@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.6.24"
 
-RPM_NAME = "libexif-devel-0.6.24-1.9.aarch64.rpm"
-RPM_HASH = "b137e8b653161dfa8d88cd9cebc66f0c72f29ac7afbd0086bf3fdcde5f7aa201de768893ba45c1e5f0fba92b467a0c57d321fe2c57c2de43fc90f34004e5f69a"
+RPM_NAME = "libexif-devel-0.6.24-1.10.aarch64.rpm"
+RPM_HASH = "1d69b1f83533e3abb4cb1abc0c885e729056b84aa7b7ea5aca98886e301e6b23402abadb4a337814b779edf2452737d6d60d0edd1ba228d140426fb5bf62da31"
 
 RPROVIDES:${PN} += "libexif-devel \
 pkgconfig-libexif"

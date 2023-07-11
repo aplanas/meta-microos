@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.13"
 
-RPM_NAME = "cpio-lang-2.13-5.3.noarch.rpm"
-RPM_HASH = "a99b7ac990da321826260f4b53ec6223441e665e328f3834c0c9d068711f8f6cdedde116bcb5c7183a07c480d2da865f5c03956cbb02457857a16024d613647e"
+RPM_NAME = "cpio-lang-2.13-5.5.noarch.rpm"
+RPM_HASH = "450e62d884e279eff72e39f0f3c0332c4cd7eb825b55250ae5ef880dc76ae9af81f6c08319ffb7b1a38b9d13cec2b47e5b9ec5b77353c3f79a70828ebe2b1b60"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cpio-lang \

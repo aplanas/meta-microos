@@ -2,10 +2,10 @@ SUMMARY = "Translations for package krfb"
 DESCRIPTION = "Provides translations for the 'krfb' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "krfb-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "7c90ceab306ea884243f289924282724747e2653fb107d95f09017d16ac39a97cc425fde54bcb611a0bf8e6785f7774b06837a10d83a8e977c10aa24f9cf9279"
+RPM_NAME = "krfb-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "33957b2d8b4847159f6780ea79c7eef266420bde16d2c11127f7e1b6e8071047206b9f66d192dae18997097c984c0160e2d4b73d10f87c079d47a534a46a5bb3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "krfb-lang \

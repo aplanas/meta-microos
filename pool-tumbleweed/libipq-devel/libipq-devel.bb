@@ -10,8 +10,8 @@ LICENSE = "Artistic-2.0 & GPL-2.0-only"
 
 PV = "1.8.9"
 
-RPM_NAME = "libipq-devel-1.8.9-1.3.aarch64.rpm"
-RPM_HASH = "d34825c03f661cfce288f9f93e0b2898457fe02b2b8c75a46dd528fc86531a2ed054fe741e96d541ae56581d02a87739c2bbb9c448737fe540d091fa50f495bc"
+RPM_NAME = "libipq-devel-1.8.9-1.4.aarch64.rpm"
+RPM_HASH = "3e3f6ef20693240ffe20fbe2b9e91deac8f6144f39b457531e8b965c654857360413e1584870638e0862dfbc9ef7d32950cccef1b48b41a016c24e837e8f8994"
 
 RPROVIDES:${PN} += "libipq-devel \
 pkgconfig-libipq"

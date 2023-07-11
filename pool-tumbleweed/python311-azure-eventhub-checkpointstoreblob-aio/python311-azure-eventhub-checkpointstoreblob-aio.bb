@@ -10,11 +10,12 @@ LICENSE = "MIT"
 
 PV = "1.1.4"
 
-RPM_NAME = "python311-azure-eventhub-checkpointstoreblob-aio-1.1.4-1.8.noarch.rpm"
-RPM_HASH = "0bb06521f280eeb62de5e2999ce63f44632f7bbf98073bc475a67f94c4600c51aed5d45e9ef8f14b39f57cf099a6a3aa2afcf066cd80b341287dc6547929bc4f"
+RPM_NAME = "python311-azure-eventhub-checkpointstoreblob-aio-1.1.4-1.10.noarch.rpm"
+RPM_HASH = "b44943185e715a7733c8e9b4958704c13560463f8ed21a42ab226528c55696fea3813dbf33d3ad02af81a002da0fb1685334fcad8fadf2be247d39022c197741"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-eventhub-checkpointstoreblob-aio \
+RPROVIDES:${PN} += "python3-azure-eventhub-checkpointstoreblob-aio \
+python3.11dist-azure-eventhub-checkpointstoreblob-aio \
 python311-azure-eventhub-checkpointstoreblob-aio \
 python3dist-azure-eventhub-checkpointstoreblob-aio"
 

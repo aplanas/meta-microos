@@ -14,12 +14,12 @@ LICENSE = "Apache-2.0"
 
 PV = "2.5.0"
 
-RPM_NAME = "python3-debtcollector-2.5.0-1.4.noarch.rpm"
-RPM_HASH = "b1ea150479eaf38ac022c1065cbed1604856d44d3aa769d9a769ba26f4a9b71d333c96d010f29cd3654e24e5bc28e40519007129f7501007f313d4dce03569d0"
+RPM_NAME = "python3-debtcollector-2.5.0-1.5.noarch.rpm"
+RPM_HASH = "17c6d3ca267873d05824a2bfe8adb59754369fcb914ae679684e7ce30f166c288515900db53b5a9e881f09e996b48e019d8edb27d95e6e7568319b88524676cf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-debtcollector \
-python3.10dist-debtcollector \
+python3.11dist-debtcollector \
 python3dist-debtcollector"
 
 RDEPENDS:${PN} += "python-abi \

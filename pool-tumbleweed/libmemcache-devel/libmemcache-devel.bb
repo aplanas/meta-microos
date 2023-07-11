@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause & MIT"
 
 PV = "1.4.0.rc2"
 
-RPM_NAME = "libmemcache-devel-1.4.0.rc2-152.25.aarch64.rpm"
-RPM_HASH = "0df5e167aa816d5522c6456b954fe985ff6492fdf4962293a789ca5270251209b6561a11eb4296ff3911362d6eadf1e41ecb905822377fd2e0cdcb1e4936d3a8"
+RPM_NAME = "libmemcache-devel-1.4.0.rc2-152.26.aarch64.rpm"
+RPM_HASH = "29a81cb436ed4821dfbd81c8d9c7df9db1da78710c545903c73c66b363c8501752489510f05f85e7417bf22604e9267f0d3760a4bceaa84f31166e90fadd12a4"
 
 RPROVIDES:${PN} += "libmemcache-devel"
 

@@ -10,11 +10,10 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.2.4"
 
-RPM_NAME = "python310-tinyarray-1.2.4-2.5.aarch64.rpm"
-RPM_HASH = "8e48ee9b4f131ef5730af5dcf1fcab07ee117c248230f2f10468bc3fe219b8d74116e30891ada8fd21a3f4942890fbb675165650e6f4f7c1f0fa4f29b967d8e8"
+RPM_NAME = "python310-tinyarray-1.2.4-2.7.aarch64.rpm"
+RPM_HASH = "f5f1f48df489d5d07f29426b1178ab59c0a428b14697325eb645ae9fff798face7e9fc8b5da7e9e2049306bc8fe55e15a4829f6547dab560ba9528b57a6209c3"
 
-RPROVIDES:${PN} += "python3-tinyarray \
-python3.10dist-tinyarray \
+RPROVIDES:${PN} += "python3.10dist-tinyarray \
 python310-tinyarray \
 python3dist-tinyarray"
 

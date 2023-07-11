@@ -6,12 +6,10 @@ LICENSE = "GPL-3.0-only"
 
 PV = "5.15.6"
 
-RPM_NAME = "python310-qtwebengine-qt5-5.15.6-1.7.aarch64.rpm"
-RPM_HASH = "16a3c377d11939071c5377dbf03c023aa6549c71ba77d37a5c54e0fe1a37f4005ff13277dad2482b9c5f425ada20bf1dafc1e919f42bb3d70a7fb356d2cb7e1a"
+RPM_NAME = "python310-qtwebengine-qt5-5.15.6-1.8.aarch64.rpm"
+RPM_HASH = "b45604e78197e562a9211f4129894e0f288bc0bc34e189c5f074c75d264df7308b507014ae77d82f1d0494b121536b1d880a336c5eb7408f48ffa06b19150b4f"
 
-RPROVIDES:${PN} += "python3-PyQtWebEngine \
-python3-qtwebengine-qt5 \
-python3.10dist-pyqtwebengine \
+RPROVIDES:${PN} += "python3.10dist-pyqtwebengine \
 python310-PyQtWebEngine \
 python310-qtwebengine-qt5 \
 python3dist-pyqtwebengine"

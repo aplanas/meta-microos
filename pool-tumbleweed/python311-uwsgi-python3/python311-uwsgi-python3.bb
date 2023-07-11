@@ -6,10 +6,12 @@ LICENSE = "Apache-2.0 & GPL-2.0-only-with-GCC-exception-2.0"
 
 PV = "2.0.21"
 
-RPM_NAME = "python311-uwsgi-python3-2.0.21-2.1.aarch64.rpm"
-RPM_HASH = "2875fcea254eb86551e406827b56f65d876cebd0388a1880fde9754d8382c89930b1c7b998f79c797a64a2487b5055e7549f8a171a933ac671beb9ee9fa1fdbd"
+RPM_NAME = "python311-uwsgi-python3-2.0.21-3.1.aarch64.rpm"
+RPM_HASH = "a9d7580bfe86e7187df815c909832c17a0c90bbb416eafd96e1e2e877a85d540603fdcfe45c68fc911f6b126a07c1d49534a13583d1e06cef2816b0efab1f0bc"
 
-RPROVIDES:${PN} += "python311-uwsgi-python3"
+RPROVIDES:${PN} += "python3-uwsgi-python3 \
+python311-uwsgi-python3 \
+uwsgi-python3"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \

@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "1.11"
 
-RPM_NAME = "blobAndConquer-1.11-2.23.aarch64.rpm"
-RPM_HASH = "2b52c7cba87c4bdc5d4ecd35394d3be3eb17c47259e473a2ed4fdbc0acaf1dee90236994d772bd01174580b0fca0aeaa96d601ba12da5ca105d88bffdf5074f6"
+RPM_NAME = "blobAndConquer-1.11-2.24.aarch64.rpm"
+RPM_HASH = "f333df3f44b5f3aa19df41b139efdddf4c54286879772d4958b032b8cb7bcde504b7eae3224602495ba5a99e75580d38b13089627694135a9f488bf2f0ace77e"
 
 RPROVIDES:${PN} += "blobAndConquer"
 

@@ -4,8 +4,8 @@ LICENSE = "SUSE-GPL-2.0-with-openssl-exception"
 
 PV = "1.36.0"
 
-RPM_NAME = "aria2-lang-1.36.0-1.11.noarch.rpm"
-RPM_HASH = "583d1cf042e00cd509f70ee1c8f7a055fd8e222be5a89dbc13e31964930538e7022a3bfa90e47f630ae85edc7462b779ee67baef4247ae4a0801cc215064b1d1"
+RPM_NAME = "aria2-lang-1.36.0-1.12.noarch.rpm"
+RPM_HASH = "6be5eb1687e097b153b4aea69d41685c38178f390a18eb12f007bc9e4f6bd03c08c175605996fe935087dbfbb3d3be7f468901f49c5de4a1757063d01537abe3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aria2-lang \

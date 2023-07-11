@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.4.0"
 
-RPM_NAME = "warewulf4-overlay-4.4.0-6.4.aarch64.rpm"
-RPM_HASH = "26f02d0986204fb885b058c721972ca9baf244182ed7f3280e1a9ed1fd114cd786da865cd82fec4738cde0d5474241abbdee414f9c1fcab5dc2393c0cb906a98"
+RPM_NAME = "warewulf4-overlay-4.4.0-6.5.aarch64.rpm"
+RPM_HASH = "bff4d6d908d745abadbfdf24401ec9303113d311dfc6d2d9901c40598f2c816d9e412668818a7d275570e0392e82f79451fb71b8ec6c73a0632fb3a946a498ce"
 
 RPROVIDES:${PN} += "config-warewulf4-overlay \
 warewulf4-overlay"

@@ -4,21 +4,21 @@ LICENSE = "MIT"
 
 PV = "0.9.1.2"
 
-RPM_NAME = "ghc-clientsession-prof-0.9.1.2-4.3.aarch64.rpm"
-RPM_HASH = "cd791bb344759f47a8e35d71d9f6d2e449765f5062b61a6b3f274429fec4f9f451274277aa902c8f692e6250d64b6328c5e75bab4de5a4570ef62fd123fa7e28"
+RPM_NAME = "ghc-clientsession-prof-0.9.1.2-4.6.aarch64.rpm"
+RPM_HASH = "88a929611339900128087b054144419af5733b551f5833b982faac705f4e6b150387b92c35ee49d10f754f35417adec7d1efb89baca756e5098b87416fd70666"
 
 RPROVIDES:${PN} += "ghc-clientsession-prof \
-ghc-prof-clientsession-0.9.1.2-Jnvj5vMN6iR9xGMf6HxcGE"
+ghc-prof-clientsession-0.9.1.2-LlqL6bYAJ8NAeAYS4avg1k"
 
 RDEPENDS:${PN} += "ghc-clientsession-devel \
 ghc-prof-base-4.17.1.0 \
 ghc-prof-base64-bytestring-1.2.1.0-8KbzJpmSQbYKTeew1rv0hh \
 ghc-prof-bytestring-0.11.4.0 \
 ghc-prof-cereal-0.5.8.3-LNsxCTyOF85AKtb4iLTs8f \
-ghc-prof-cipher-aes-0.2.11-Izmj38K7uNp7rHcFTtfQFi \
-ghc-prof-cprng-aes-0.6.1-169qys47NiB5UR1VcEjGCA \
+ghc-prof-cipher-aes-0.2.11-AUtsAMArdsjvHtn454bNK \
+ghc-prof-cprng-aes-0.6.1-57mLrS8iLhhDpycOALP7vk \
 ghc-prof-crypto-api-0.13.3-9orTVpCmnZz79j7elcs5GE \
-ghc-prof-crypto-random-0.0.9-JRbP8k0BmeXEHkvOdlpIfk \
+ghc-prof-crypto-random-0.0.9-60vlsiR41hHGmZ9VjOCRvw \
 ghc-prof-directory-1.3.7.1 \
 ghc-prof-entropy-0.4.1.10-HkaMHQZP8nyRj15panvtP \
 ghc-prof-setenv-0.1.1.3-5NpDWBw9aN36gdxnY8UI9x \

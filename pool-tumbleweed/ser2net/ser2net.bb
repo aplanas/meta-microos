@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.3.11"
 
-RPM_NAME = "ser2net-4.3.11-1.2.aarch64.rpm"
-RPM_HASH = "2b95c0d7f03d75421b63db60000f6329f227b3bf0d75eb84065185894a597c52257fbe0431da49e54f4b4a8eaefe61f4d89eaa54a52867f4ce577cd2d02b3b1e"
+RPM_NAME = "ser2net-4.3.11-1.3.aarch64.rpm"
+RPM_HASH = "3fbb35d821b34a5d934fbcd4da06e7dcdf21f1e02bab5399a7f0955daaf785620972a4d1a73325e06b7c20f7ad716938a4900f1641ce8b78ead65ae1b200eb70"
 
 RPROVIDES:${PN} += "config-ser2net \
 ser2net"

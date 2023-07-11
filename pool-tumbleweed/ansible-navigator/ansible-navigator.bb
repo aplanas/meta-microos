@@ -8,15 +8,15 @@ LICENSE = "Apache-2.0"
 
 PV = "3.2.0"
 
-RPM_NAME = "ansible-navigator-3.2.0-1.1.noarch.rpm"
-RPM_HASH = "e5a5a0224362b18bf33ad7a772acd48de49cea204496b022e8c6649dcfea6abd4d13e753acfb8cf12e86f00a9c355f63b3b8b52452831326de26724f065b8f70"
+RPM_NAME = "ansible-navigator-3.2.0-1.2.noarch.rpm"
+RPM_HASH = "84a6fcfbdb6386d7c3856d79b7e6276c8260e451837e89f3c8e86cb36ed93b3f1e2598b6efb02c42f52d7fe25d01b31c612a2f9e49f3ae53275a02b5e85ff727"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ansible-navigator \
-python3.10dist-ansible-navigator \
+python3.11dist-ansible-navigator \
 python3dist-ansible-navigator"
 
-RDEPENDS:${PN} += "/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
 ansible-builder \
 ansible-core \
 ansible-runner \

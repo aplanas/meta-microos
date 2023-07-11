@@ -2,10 +2,10 @@ SUMMARY = "Library to allow communication between libnfsidmap and SSSD"
 DESCRIPTION = "A utility library to allow communication between libnfsidmap and SSSD."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.9.0"
+PV = "2.9.1"
 
-RPM_NAME = "libnfsidmap-sss-2.9.0-1.1.aarch64.rpm"
-RPM_HASH = "751371fc49e5b3139177bb90d5ea0cf2886b5c37defc454b41ebdef8347d40c1c27776f80ef22200ff2c19011cd75ab17bbbe6a72117abe6bf426a18583701b7"
+RPM_NAME = "libnfsidmap-sss-2.9.1-1.1.aarch64.rpm"
+RPM_HASH = "ae93bfeff77fb681edd6b5228c01f650a6eabf9a951546d8875a687f643819c9fd0a10de0bb445b656ef7a3efccace127b62e3146d6225ed51b4f872d5226bc2"
 
 RPROVIDES:${PN} += "libnfsidmap-sss"
 

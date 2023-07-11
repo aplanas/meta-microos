@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the a plugin for Remmina which allows to lo
 to browse a page."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.4.30"
+PV = "1.4.31"
 
-RPM_NAME = "remmina-plugin-www-1.4.30-1.1.aarch64.rpm"
-RPM_HASH = "228eeff17f6591a183760841bd4ff1182dddd327df19739cac4355e23951294eecbfd3d07cf3a56356dbf42ffa7df0bd8590578ab4a7ed4fb1d30381e3edc2c5"
+RPM_NAME = "remmina-plugin-www-1.4.31-1.1.aarch64.rpm"
+RPM_HASH = "8f6f17484ccd2dbf16fc6531f4c4bd77a404fbe1b36dcc6a7fc33d2cda593e43f0455da891fcf88869f2f712024cc5e3f07d20933a6182626370ba1ea3e6858b"
 
 RPROVIDES:${PN} += "remmina-plugin-www"
 

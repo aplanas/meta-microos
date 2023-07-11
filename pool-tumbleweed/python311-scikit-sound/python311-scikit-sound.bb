@@ -4,11 +4,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.2.3"
 
-RPM_NAME = "python311-scikit-sound-0.2.3-3.11.noarch.rpm"
-RPM_HASH = "0ad1e307712a65d53df55caa1ae96a082d335a3a5bc5deed8e3443e18574f8d4ab2f900305301ccc84fb5cae71d08a4d8c993fa6a8a1c2b4fedca5b7dee786c6"
+RPM_NAME = "python311-scikit-sound-0.2.3-3.13.noarch.rpm"
+RPM_HASH = "e0a3306ebac4b71d23cedbbdee1b4c5916ba69dcec4f59d928778a6402230e7172dbfb72a4d06aa7fb54da52c0ba62c3d4bbc8b8b5b4fd5c8825fa69a276bafc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-scikit-sound \
+RPROVIDES:${PN} += "python3-scikit-sound \
+python3.11dist-scikit-sound \
 python311-scikit-sound \
 python3dist-scikit-sound"
 

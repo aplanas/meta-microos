@@ -4,8 +4,8 @@ LICENSE = "CDDL-1.1 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "2.6"
 
-RPM_NAME = "codemodel-javadoc-2.6-4.4.noarch.rpm"
-RPM_HASH = "5af6a48cceb30b5d404991843273af85e93780cce356af4ad71a6a00a7dee4d28aa9703d73b3290519fd51e18368845970ad9f9961a478e447aade0c823318bf"
+RPM_NAME = "codemodel-javadoc-2.6-4.5.noarch.rpm"
+RPM_HASH = "d045e7a21cede09a9da83898b493f3e3939fedfc612fc76c26098ded61516b5acab7e8279b8a2d228afad0107bf0389b9408f8c9c1f67661f87857a0ccf8e6cb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "codemodel-javadoc"

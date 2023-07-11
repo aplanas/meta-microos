@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.10.0"
 
-RPM_NAME = "python39-pyliblo-0.10.0-2.11.aarch64.rpm"
-RPM_HASH = "a1ed9334a4675ba72a7e0b4f4950a51ca5697c03066639103c1f20db26869b46bab5189a38b5389c53e614cfe0f10f7bd8d9e23796630f486a54377832004779"
+RPM_NAME = "python39-pyliblo-0.10.0-2.12.aarch64.rpm"
+RPM_HASH = "9682ed65b868837fa805e929866aa01cb2487f97b661aa3f7d108972b575fc7ba9809a282c308ffa2443168264e02f3af1c9ea8530337e7f84212b52e683f65c"
 
 RPROVIDES:${PN} += "liblo.cpython-39-aarch64-linux-gnu.so \
 python3.9dist-pyliblo \

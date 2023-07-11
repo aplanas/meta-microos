@@ -5,10 +5,10 @@ wrappers for the corresponding LaTeX commands; under Plain TeX \
 they are available as complete implementations."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.5svn53023"
+PV = "2023.208.1.5svn53023"
 
-RPM_NAME = "texlive-infwarerr-2023.201.1.5svn53023-52.1.noarch.rpm"
-RPM_HASH = "fd41147e156caf0df4caab632f699cd79353052feba6995a160117bd579a90a32c85032953b8d210b1f71e596cb318abec3cab8099e29b7fb28fca1623866efd"
+RPM_NAME = "texlive-infwarerr-2023.208.1.5svn53023-53.1.noarch.rpm"
+RPM_HASH = "efd348337a6629858d071e024b0df96d3f55cf7b6be08ed2882d2e9dc369f39c7062ee30e9be5a3e248a3dd486aba862ae1e0a33d4d9404116d502f0c44c4b8f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-infwarerr.sty \

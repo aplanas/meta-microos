@@ -5,11 +5,11 @@ LICENSE = "MIT"
 
 PV = "0.7.13.1"
 
-RPM_NAME = "ghc-http-client-0.7.13.1-3.4.aarch64.rpm"
-RPM_HASH = "707e7303358daf01122950821e7e5abd0eb28ce28b272383417b6ff13c1ed42e7d76e8dce9273fe47f196eebdbac223e073ae822d309a6b6e71d31b5063323e8"
+RPM_NAME = "ghc-http-client-0.7.13.1-3.7.aarch64.rpm"
+RPM_HASH = "f3724124b3d2e883fe30faf61aed710f26cb5860242f44fb6a38defab7f0bc65ea609a61bde0544ef5fdde9d3fbb52a38732d00a0c203447a9407c97b164dd4c"
 
 RPROVIDES:${PN} += "ghc-http-client \
-libHShttp-client-0.7.13.1-zzcC5JvmJYD0Lc0D9h215-ghc9.4.5.so"
+libHShttp-client-0.7.13.1-LvoiBjsIce7LUIKGveF6IJ-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSappar-0.1.8-JYpyJYPkUOgKorqU8WSWRv-ghc9.4.5.so \
 libHSarray-0.5.4.0-ghc9.4.5.so \
@@ -33,10 +33,10 @@ libHSghc-boot-th-9.4.5-ghc9.4.5.so \
 libHSghc-prim-0.9.0-ghc9.4.5.so \
 libHShashable-1.4.2.0-FFBRhuY0w4YLmuLEs5uQAt-ghc9.4.5.so \
 libHShttp-types-0.12.3-4BrMFwRucoT4fBt8cCVFS6-ghc9.4.5.so \
-libHSiproute-1.7.12-2mj2MFOMRz35bHY4Q7Jvyd-ghc9.4.5.so \
+libHSiproute-1.7.12-IhoklPQYItb8qGu1G3vmcD-ghc9.4.5.so \
 libHSmime-types-0.1.1.0-IrWGRRDe33Y1D55h7nh7fm-ghc9.4.5.so \
 libHSmtl-2.2.2-ghc9.4.5.so \
-libHSnetwork-3.1.2.8-HNDBp0HF6t0D1fzE2MDtPd-ghc9.4.5.so \
+libHSnetwork-3.1.4.0-FvtFepOtuCUH79FCWyNxIc-ghc9.4.5.so \
 libHSnetwork-uri-2.6.4.2-4kNQnaE9heqEL1mH8FE5xH-ghc9.4.5.so \
 libHSparsec-3.1.16.1-ghc9.4.5.so \
 libHSpretty-1.1.3.6-ghc9.4.5.so \
@@ -44,7 +44,7 @@ libHSprocess-1.6.16.0-ghc9.4.5.so \
 libHSrandom-1.2.1.1-I0wUgAAbf0g3qHR3e8uT0o-ghc9.4.5.so \
 libHSsplitmix-0.1.0.4-7e8CibdlMRLAGh7KO5VlFe-ghc9.4.5.so \
 libHSstm-2.5.1.0-ghc9.4.5.so \
-libHSstreaming-commons-0.2.2.6-DrPeIbd2d2c3jQtctttO4G-ghc9.4.5.so \
+libHSstreaming-commons-0.2.2.6-EjKcoRCMdUH4DbzWvGfVlu-ghc9.4.5.so \
 libHStemplate-haskell-2.19.0.0-ghc9.4.5.so \
 libHStext-2.0.2-ghc9.4.5.so \
 libHSth-compat-0.1.4-Bzk38miPOyTJh1KMkOoOkv-ghc9.4.5.so \

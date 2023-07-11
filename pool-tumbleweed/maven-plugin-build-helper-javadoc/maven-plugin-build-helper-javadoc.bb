@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "3.2.0"
 
-RPM_NAME = "maven-plugin-build-helper-javadoc-3.2.0-2.8.noarch.rpm"
-RPM_HASH = "ed3ffc0076ac8d2e43df22c17332b0ca073d5e3af8a6de46a62cf87c2328afd3bfa3122654e11309d719541320eb3946abb68a97020eb0d1387ce125ab0ee8d2"
+RPM_NAME = "maven-plugin-build-helper-javadoc-3.2.0-2.9.noarch.rpm"
+RPM_HASH = "7adaa4fc3c884c533e7e0d83e7e305b78aa65c4ffde1db7d8704051493bb859b69c0d09611dfe14fae92c5d2c91ce246563fb44a0ecbe7b78bdd7b709ad378e6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-plugin-build-helper-javadoc"

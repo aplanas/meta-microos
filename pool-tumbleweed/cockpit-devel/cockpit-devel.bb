@@ -2,10 +2,10 @@ SUMMARY = "Development files for for Cockpit"
 DESCRIPTION = "This package contains files used to develop cockpit modules"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "276.1"
+PV = "293"
 
-RPM_NAME = "cockpit-devel-276.1-4.4.aarch64.rpm"
-RPM_HASH = "2fb3d5f13fe43ec6bd154e775830c28a327d0115a41231ae25114304ca9cd3f7286776a3ccf34fe06f5235140cea4e9237b27bd35ed8bea306315fc2b18587a5"
+RPM_NAME = "cockpit-devel-293-1.1.aarch64.rpm"
+RPM_HASH = "0c316d44a5048a7bdf5b84db6bd0a4b6558fa6f09de61c55063bc7659e6145d6dd2d9c2436062d2705075a71bd0dfbe7f2ab8af15019dc4781bc15a239d9f0e8"
 
 RPROVIDES:${PN} += "cockpit-devel"
 

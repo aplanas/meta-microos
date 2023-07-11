@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0+"
 
 PV = "0.6.1+git.1613099315.8fda304"
 
-RPM_NAME = "python39-usfm2osis-0.6.1+git.1613099315.8fda304-1.4.noarch.rpm"
-RPM_HASH = "f5df2454527fcb9de94bf212170c84bda132b88cb6114950385f4acae97466975fb58a998434fc1ee1eba2e1ec7b0a680eb44cfba3b7a85cc654e027d08666e7"
+RPM_NAME = "python39-usfm2osis-0.6.1+git.1613099315.8fda304-1.6.noarch.rpm"
+RPM_HASH = "80a1049d26f09820dc20b95ec6c9428bb664ccdfdf27c496f0c9922ce6321c8d14c565c949a38f7479e3fb8f1f25aa7ce5694b736a498e1596db89e284d88567"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-usfm2osis \

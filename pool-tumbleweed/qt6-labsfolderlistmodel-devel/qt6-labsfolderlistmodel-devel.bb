@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-labsfolderlistmodel-devel-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "15a408bdd29e83d0ac12a806f6d0e1565f78fdcb38b82f9feb1fbacb72fcb4a5845e789f1a05aa2589d699a2ac722bc614e3c97251364d2d8c91cf84ee99fd7b"
+RPM_NAME = "qt6-labsfolderlistmodel-devel-6.5.1-1.3.aarch64.rpm"
+RPM_HASH = "fd9262f2ba8f7d2fe905fdbffaaf8a94f8ef2455e1c93c7d0b4d7d0883fe8bc4e3fdfeb58ad82d832ed78f934d19ecbe3872e1d3675c5f4420dc81fa8d3330ab"
 
 RPROVIDES:${PN} += "cmake-Qt6LabsFolderListModel \
 pkgconfig-Qt6LabsFolderListModel \

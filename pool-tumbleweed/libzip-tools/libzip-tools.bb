@@ -3,10 +3,10 @@ DESCRIPTION = "This subpackage contains zipcmp and zipmerge, for comparison of t
 archives, and merging multiple archives together, respectively."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.9.2"
+PV = "1.10.0"
 
-RPM_NAME = "libzip-tools-1.9.2-1.5.aarch64.rpm"
-RPM_HASH = "e45b5d8eabbe3bc6b7dd66efc5592e736be3fcaaeca2af65f0a50397469c98b282558d448c9256c79ab760804258b2bb8254c8d14a6b98942cf9893ebd511b8f"
+RPM_NAME = "libzip-tools-1.10.0-1.1.aarch64.rpm"
+RPM_HASH = "b6d9bccfbbe4ce3229b4bb93ba247cfde5c89cf27e51aca0e31c4f55dc038a4ec18cc2a835fc10d8c0a72864a09bd968d7230ccb21cb08d37a935ee4b01f7643"
 
 RPROVIDES:${PN} += "libzip \
 libzip-tools"

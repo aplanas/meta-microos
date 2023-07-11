@@ -2,10 +2,10 @@ SUMMARY = "Jupyter widgets base for Vue libraries"
 DESCRIPTION = "Jupyter widgets base for Vue libraries"
 LICENSE = "MIT"
 
-PV = "1.9.1"
+PV = "1.9.2"
 
-RPM_NAME = "python39-ipyvue-1.9.1-1.1.noarch.rpm"
-RPM_HASH = "e85f7edfa498fc1a530cddd186900a6a773b6e55881fb3340b1909c9ab31677849c7d935cddcf371f9dbaf793a565ace00819dae40640cfd0ee4e671710e3eaf"
+RPM_NAME = "python39-ipyvue-1.9.2-1.1.noarch.rpm"
+RPM_HASH = "9940426ba38cb4bc6a1facbca9dfcc7e06aac4cc994660b7d634f371476f2cc7f22db32a7473fca1e9024b6cbc7e9867dcf6f8c4b6c232f9df2c2640d6ca366f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-ipyvue \

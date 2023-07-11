@@ -4,12 +4,12 @@ systems that plays over 90 mainstream and obscure module formats from \
 Amiga, Atari, Acorn, Apple IIgs, C64, and PC, including Protracker \
 (MOD), Scream Tracker 3 (S3M), Fast Tracker II (XM), and Impulse \
 Tracker (IT) files."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
-PV = "4.1.0"
+PV = "4.2.0"
 
-RPM_NAME = "xmp-4.1.0-1.25.aarch64.rpm"
-RPM_HASH = "a48a4d094ad0d94e003d575efb564bab44afa3909349976d3fb406c18c2be1a2c04b0017376f107fa6953396dfd6e0b53aed3826cfa4415d7daaf72389443782"
+RPM_NAME = "xmp-4.2.0-1.1.aarch64.rpm"
+RPM_HASH = "973403f267250b591b0e850a23f15cb7909dfb958c501c69072e5b6b7221175f0108666a515fd508914320038bd0986adf2c193959b9140eaaceee7abe3790aa"
 
 RPROVIDES:${PN} += "config-xmp \
 xmp"

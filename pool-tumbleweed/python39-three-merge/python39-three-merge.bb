@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.1.1"
 
-RPM_NAME = "python39-three-merge-0.1.1-1.11.noarch.rpm"
-RPM_HASH = "77f2c5516e20a24ff69c4194fc8a8388ad42664781250b6f15ab0d334b94f482b677022ce62c9ce31f58a5184660410ff92968fc58b992148c212c4f0cd91b0c"
+RPM_NAME = "python39-three-merge-0.1.1-1.13.noarch.rpm"
+RPM_HASH = "c7c3b7b3b7844a2dcf6c7dfb221540f31e0bf963407a3af64f542e743c0f5fb831362bb3e4a0c98e389f42f3222ccf86a48c6c30f067132cd2323d55eddb16ff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-three-merge \

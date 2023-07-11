@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.8.9"
 
-RPM_NAME = "cglm-devel-doc-0.8.9-1.3.noarch.rpm"
-RPM_HASH = "855b274ab93da5f080f9aa7f23cbbbb965fbdf55e70df9a0450ac0e1c25537a43b925c9ea7fc702a3a078717c70398a3de40d651ebf5170ff519ad739a8e9032"
+RPM_NAME = "cglm-devel-doc-0.8.9-1.4.noarch.rpm"
+RPM_HASH = "2230091c34617ca8a6ddf14b1ef1a3d19ad3777392db0945006bcae7e2693d2321fea9b9c8f8d33d6bd8f5050d6c0a8a40cf2a68c9631816cf1052058720d2e3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cglm-devel-doc"

@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.2.2"
 
-RPM_NAME = "jatl-javadoc-0.2.2-3.10.noarch.rpm"
-RPM_HASH = "e5911e195aa1138f3457470d0d81e4caa0541b34120bbadc0eefe493b5e8af6cd8f7da36b2a529ddb650d9e38361607782569afdeb2f6e569ad39abad9c8ba24"
+RPM_NAME = "jatl-javadoc-0.2.2-3.11.noarch.rpm"
+RPM_HASH = "74a6a5755f2e371e6fadd8ea300ae7ac16559716c715258c7512d0f68591420629ec305c351ce9c134a87665b4a4273589f85bde8b191f6da5d5481748db46b5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jatl-javadoc"

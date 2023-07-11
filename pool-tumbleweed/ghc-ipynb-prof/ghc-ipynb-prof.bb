@@ -4,14 +4,14 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2"
 
-RPM_NAME = "ghc-ipynb-prof-0.2-2.2.aarch64.rpm"
-RPM_HASH = "1206bb8ac69d58cd9fc6cf88a6f9963a304c24c490293d306b69e6ae6c33c32a462c57245de5c1bd0961f59facd326c4fe32504b68241f79df89dc077043ecf6"
+RPM_NAME = "ghc-ipynb-prof-0.2-2.3.aarch64.rpm"
+RPM_HASH = "43f2a4ca3decf59f87b36f62c7c198227361bfc73cbea2436019a94cc87e760eb0d08bf3122d8db0a9fc8bf117c91a276f2da0502d0b0bed0633787ed07f9809"
 
 RPROVIDES:${PN} += "ghc-ipynb-prof \
-ghc-prof-ipynb-0.2-5jt56R8prxRLKDISePbcpi"
+ghc-prof-ipynb-0.2-L0fucXiR4UEfjFQwta2fV"
 
 RDEPENDS:${PN} += "ghc-ipynb-devel \
-ghc-prof-aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP \
+ghc-prof-aeson-2.1.2.1-HkN6OtqTngQ9De3CKBnfov \
 ghc-prof-base-4.17.1.0 \
 ghc-prof-base64-bytestring-1.2.1.0-8KbzJpmSQbYKTeew1rv0hh \
 ghc-prof-bytestring-0.11.4.0 \

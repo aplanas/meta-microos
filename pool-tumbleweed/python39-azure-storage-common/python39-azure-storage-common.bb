@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "2.1.0"
 
-RPM_NAME = "python39-azure-storage-common-2.1.0-2.11.noarch.rpm"
-RPM_HASH = "789bdbd5600a2e078259637635f4b0655462dba7ffe0260396629de12d706299cacc28e0ede972513bdef1aa12523e24c71530a7cce6d590d0fff18887c67a82"
+RPM_NAME = "python39-azure-storage-common-2.1.0-2.13.noarch.rpm"
+RPM_HASH = "c6a781724148f034026b8ee2c13804f47d0db4921d8bf0cd84de1774c61a43a343724b8d9469eb919f2212b3d0577716c161f02ca4ea0853f32fc6cec4db3d37"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-storage-common \

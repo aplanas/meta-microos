@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "0.1.4"
 
-RPM_NAME = "libxcb-cursor0-0.1.4-1.3.aarch64.rpm"
-RPM_HASH = "3fb5dc032f9126e37e30fa400c649959fd5529fe0f70db5bbb9d1173663cf2abfcdc1c7094ad433865d425e27658319183e35773fdb072328c1d13db324dfa3d"
+RPM_NAME = "libxcb-cursor0-0.1.4-1.4.aarch64.rpm"
+RPM_HASH = "aa4f05b80e05dc1a9ac77c7f668140a73d19a8a45f894a29055edcfb67113c90255ee8035951867b32959c1b5685ca8bd4d3b3d760fda3d54b892439ece7530c"
 
 RPROVIDES:${PN} += "libxcb-cursor.so.0 \
 libxcb-cursor0"

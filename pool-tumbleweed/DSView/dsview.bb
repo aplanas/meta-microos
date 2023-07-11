@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.2.2"
 
-RPM_NAME = "DSView-1.2.2-1.3.aarch64.rpm"
-RPM_HASH = "ff94a8ee378cd79bb31573e0ce5fbd90c980463aeb183e1cb6a8bef8466920f858ca2db48754ee9daf70a5c731d370ec4e7fc230df77b1d791a734093eb0ca03"
+RPM_NAME = "DSView-1.2.2-1.4.aarch64.rpm"
+RPM_HASH = "aaa20ba23e6c639fe01f95594042fc103b8cc7635a32cc2dcd89260c7f26ec2ffd8a0b7cbb6f126d95463bcfd1130cd514917d937b35da9082852e13f558dd3e"
 
 RPROVIDES:${PN} += "DSView"
 
@@ -18,7 +18,7 @@ libfftw3.so.3 \
 libgcc-s.so.1 \
 libglib-2.0.so.0 \
 libm.so.6 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libstdc++.so.6 \
 libusb-1.0.so.0 \
 libz.so.1"

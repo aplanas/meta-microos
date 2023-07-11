@@ -4,10 +4,10 @@ command completion, to edit Sieve scripts ('server side filtering') \
 in KDE PIM applications."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "pim-sieve-editor-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "f38dcf87f7835760e54182e435ffb89fd4d20a8df864978bbb7d08e3cedc86e0850051361da8abe69edf2a4b2399f1ca9dafc34289a3d88ce2466a4304f806b8"
+RPM_NAME = "pim-sieve-editor-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "e1db5a902f59d3a74b2429d7a6a53d15284d5585778c14e727ec5d874ae6daf89307d872f681a838f179ad62b858669addc1687b88cb6b7ef28a71b7be8e9e03"
 
 RPROVIDES:${PN} += "libsieveeditor.so.5 \
 pim-sieve-editor"

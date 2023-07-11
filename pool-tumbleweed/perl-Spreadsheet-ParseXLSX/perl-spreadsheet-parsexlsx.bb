@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "0.27"
 
-RPM_NAME = "perl-Spreadsheet-ParseXLSX-0.27-1.15.noarch.rpm"
-RPM_HASH = "3b3250b1e8746296f6b68120a8a4d4fd94838e693c227b3eced5fcda939cf79adaaf4f0e47da348edd0a75d1b135caed9ad40b0b4bd7acb50c7a634511e1f45b"
+RPM_NAME = "perl-Spreadsheet-ParseXLSX-0.27-1.16.noarch.rpm"
+RPM_HASH = "6d7d73055e924724c89c2e32202eea840bab94b5e56c3b6b709c0a42f27965582198d210047cb099f6d7c4b989bbac25aa425cb96a8ef09fb3b59ee169436778"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Spreadsheet--ParseXLSX \
@@ -18,7 +18,7 @@ perl-Spreadsheet--ParseXLSX--Decryptor--Agile \
 perl-Spreadsheet--ParseXLSX--Decryptor--Standard \
 perl-Spreadsheet-ParseXLSX"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Archive--Zip \
 perl-Crypt--Mode--CBC \
 perl-Crypt--Mode--ECB \

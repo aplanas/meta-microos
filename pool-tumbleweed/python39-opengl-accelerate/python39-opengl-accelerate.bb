@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.1.6"
 
-RPM_NAME = "python39-opengl-accelerate-3.1.6-1.9.aarch64.rpm"
-RPM_HASH = "856bf990b2792107bd37bc99a8fb54bdb52eeeab83dfa8f9ff9b8fff81771f678e9a65dab09a11d3374e0bdc252aec553acb248a601c707e2e713d507d24d3ef"
+RPM_NAME = "python39-opengl-accelerate-3.1.6-1.11.aarch64.rpm"
+RPM_HASH = "06d8e6b893bf4c2918c67a15d843174c63070333607e393dea88b49402c460b47aab64b5249929848ff96d0e93b9af3a40c4252994033af497c12ca0c4349917"
 
 RPROVIDES:${PN} += "python3.9dist-pyopengl-accelerate \
 python39-PyOpenGL-accelerate \

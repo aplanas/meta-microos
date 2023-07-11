@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "1.15"
 
-RPM_NAME = "libxcb-record0-1.15-2.2.aarch64.rpm"
-RPM_HASH = "265fb241f19e0ee65b2b9a979c489d0aff4b36d674282d5eeda6dd678c76dddede44ef4b561316352a04d1e9a5eb52a0ffd533aad4f50aaac649931499952043"
+RPM_NAME = "libxcb-record0-1.15-2.3.aarch64.rpm"
+RPM_HASH = "2d0385d101a1a04802945c75e654550a7693b1e148f87f3844fd1faec7124e6d18ae71f37b72695082bb6fed95fc891573f3f9c59184002b1fafe3a86a120d5c"
 
 RPROVIDES:${PN} += "libxcb-record.so.0 \
 libxcb-record0"

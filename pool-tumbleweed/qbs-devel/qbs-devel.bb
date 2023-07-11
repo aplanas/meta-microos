@@ -1,11 +1,11 @@
 SUMMARY = "Development files for qbs"
 DESCRIPTION = "This package is required to develop applications using qbs as a library"
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later) & (LGPL-2.1-only | LGPL-3.0-only-with-Qt-LGPL-exception-1.1) & GPL-3.0-only-with-Qt-GPL-exception-1.0"
+LICENSE = "LGPL-3.0-only"
 
-PV = "1.24.0"
+PV = "2.0.2"
 
-RPM_NAME = "qbs-devel-1.24.0-1.3.aarch64.rpm"
-RPM_HASH = "047c48fc05f507f3233d0fe79365675736bc435d01894a994fd73f166131d1b7e51230c6cae8060d74908e80fdd5f4cea3c784c5ad64f6a445369cb97dc6759d"
+RPM_NAME = "qbs-devel-2.0.2-1.1.aarch64.rpm"
+RPM_HASH = "c8192cd785b6764365ebbdbbeb91f97069695270054c0d1a6351f6569f58c78b6b1c572982a0fd7639149fce0a3a07397d6ad4a938d0c9d12d5de513969b1536"
 
 RPROVIDES:${PN} += "qbs-devel"
 

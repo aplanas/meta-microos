@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.1.25"
 
-RPM_NAME = "python311-vsts-0.1.25-2.14.noarch.rpm"
-RPM_HASH = "908eea2d27516f159c430f1b7842abbc376e06767be20d5d90a2dcbecaae2957c278978d19dc6b33ee0ce8724e899999e5aa35ae46df1fd19e207d9f74021ae4"
+RPM_NAME = "python311-vsts-0.1.25-2.16.noarch.rpm"
+RPM_HASH = "0287d3c11f0b85135b1f953f38c7db4acedf153c1e1c57bcba3d3ede2ea46f117a29afd7dbfdba20d71760ae7d49a9f9ec857fd93b30853fb73daa7af84138d5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-vsts \
+RPROVIDES:${PN} += "python3-vsts \
+python3.11dist-vsts \
 python311-vsts \
 python3dist-vsts"
 

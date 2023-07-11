@@ -4,8 +4,8 @@ LICENSE = "ZPL-2.0"
 
 PV = "0.4.8"
 
-RPM_NAME = "python39-wstools-0.4.8-7.6.noarch.rpm"
-RPM_HASH = "dc2db34df35a85b4f07c2cbf2d2d178b9cfb80fcbb8466f4ae59b5b19603b54ee228711542c54d169406465a0ebdb44405e7887085f3f9ba0bcd82fdf4d87c35"
+RPM_NAME = "python39-wstools-0.4.8-7.8.noarch.rpm"
+RPM_HASH = "bf48f87f9c9d294af054e7e740710b74ca39c209c42a896e6c9b47130e6828f2235f8dbf2584e6a09ebc396f092f751da412d0eb8f806a1a483e8755fc5e6223"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-wstools \

@@ -12,11 +12,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.0"
 
-RPM_NAME = "python311-lml-0.1.0-1.6.noarch.rpm"
-RPM_HASH = "38e6669415e517ac019eb35029550f1e3d63966dbd2ca3acc90727d4a442fa333dcc8abc4b02639d6ab5d79c8bf3c2e2fe92677fad0118a5df0c47eadd797c19"
+RPM_NAME = "python311-lml-0.1.0-1.8.noarch.rpm"
+RPM_HASH = "5f2e1ab8d5b50bbb357b7ebb4a2f814fec37a3131313742024d1fc694aeeafab9574ce051914c5962b4eaca1778b29ada422d54b5c8fe3e98eeefa497c38b9ea"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-lml \
+RPROVIDES:${PN} += "python3-lml \
+python3.11dist-lml \
 python311-lml \
 python3dist-lml"
 

@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0b2"
 
-RPM_NAME = "python310-azure-mgmt-scvmm-1.0.0b2-1.3.noarch.rpm"
-RPM_HASH = "382d354b3af814cb5ddcc294f719c491e6493e1561669fc8a0de0dc566774eacabb7185d62a17645101d749cdaf30779531e7152a5b7e6d34bf1512f6ea99c41"
+RPM_NAME = "python310-azure-mgmt-scvmm-1.0.0b2-1.4.noarch.rpm"
+RPM_HASH = "c11b12260cc2be0e45add331b09f2aca609784baef55470aa2b635bef6346a280bab480fc7d28484412ca0121dea6b9b421a01d7dd0ef64db82ad1d28879ae37"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-scvmm \
-python3.10dist-azure-mgmt-scvmm \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-scvmm \
 python310-azure-mgmt-scvmm \
 python3dist-azure-mgmt-scvmm"
 

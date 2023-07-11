@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "7.2"
 
-RPM_NAME = "nano-7.2-1.3.aarch64.rpm"
-RPM_HASH = "c32c9494e151ba2d4fd9de594a88e5e1c2a34616087c4688c2293edc506cb4fba1c988f2724e1b1430a09bb74399ffa1269a1058ec8edf8ca7b9b8e789713cc3"
+RPM_NAME = "nano-7.2-1.4.aarch64.rpm"
+RPM_HASH = "5d2449f0007c06382ee54f312eacaa1f9c479eba8e746d3b93d528df636613b91c4fe1ce1bb690e25966278ffc9d64c66a120929536ca7ce37580b710e7b3d04"
 
 RPROVIDES:${PN} += "config-nano \
 nano"

@@ -18,13 +18,14 @@ dataframes may live on disk for larger-than-memory computing \
 on a single machine, or on many different machines in a cluster."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.3.2"
+PV = "2023.5.1"
 
-RPM_NAME = "python311-dask-dataframe-2023.3.2-3.1.noarch.rpm"
-RPM_HASH = "59eb6b3be78ad62c23c02a40878ed0903cb313fa40acc872acc4cc910b99ec7745a6698e279924d7e1e4bfca4a0fcef210e819e6881eb5adbe4a9beff4683a34"
+RPM_NAME = "python311-dask-dataframe-2023.5.1-2.3.noarch.rpm"
+RPM_HASH = "f694a3de879efbcfa3c619292ddf82a919e127a94199f9ecfc9b449baf2147fe0addbe9949371d2849ceb6c85dd76c117258fa79cc518835f6ec0759821425b8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python311-dask-dataframe"
+RPROVIDES:${PN} += "python3-dask-dataframe \
+python311-dask-dataframe"
 
 RDEPENDS:${PN} += "python-abi \
 python311-dask \

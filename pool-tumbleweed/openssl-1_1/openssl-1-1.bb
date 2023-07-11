@@ -7,11 +7,12 @@ LICENSE = "OpenSSL"
 
 PV = "1.1.1u"
 
-RPM_NAME = "openssl-1_1-1.1.1u-1.1.aarch64.rpm"
-RPM_HASH = "eae2b6db50c364286a93958e862dfd3000dc396e672dd9b97671b8e0064b124d80fc5181d5d588106c7b33f741622ade489d732f2cc4af2468dabca7341befeb"
+RPM_NAME = "openssl-1_1-1.1.1u-4.1.aarch64.rpm"
+RPM_HASH = "beaa2ce3abc0aa1dabcc709f180e6c7726542942c03800ee5bcd45479c1e90a71212bd08139c88e5045f3a16e7c5ce0dbd3d03fe2462f5820a673afc182c21cd"
 
 RPROVIDES:${PN} += "config-openssl-1-1 \
-openssl-1-1"
+openssl-1-1 \
+ssl"
 
 RDEPENDS:${PN} += "/usr/bin/env \
 crypto-policies \

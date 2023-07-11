@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.30"
 
-RPM_NAME = "svm-tools-3.30-1.4.aarch64.rpm"
-RPM_HASH = "290f57e2ec7fe4ba6dd6787f614cba87509a3d8877ec997a39a5f53ffab6944e0139440a5a797c4168ccc7cc23f11eea0459a6d13ad97ee652633b54c9f12eb8"
+RPM_NAME = "svm-tools-3.30-1.6.aarch64.rpm"
+RPM_HASH = "2e7237a53f43e6bd90b520d0358126d9984dfa0be8aeae3a934fd595f68714bc62ad39bb78896d7b4d9747fd2b01bed8f4eeb58a26716d159f82dfadeca3eef8"
 
 RPROVIDES:${PN} += "svm-tools"
 

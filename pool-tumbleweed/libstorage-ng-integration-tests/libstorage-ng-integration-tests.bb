@@ -2,10 +2,10 @@ SUMMARY = "Integration tests for libstorage-ng"
 DESCRIPTION = "This package contains integration tests for libstorage-ng."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.5.115"
+PV = "4.5.122"
 
-RPM_NAME = "libstorage-ng-integration-tests-4.5.115-1.1.noarch.rpm"
-RPM_HASH = "fc37c7b1f9bb416c85cbb0d449b269b84c159b7c191f4bc78260badb7e5b979d742f460c3924f64bb6179c1f9e061a0b5a99b0a013e674d439424adf9329c702"
+RPM_NAME = "libstorage-ng-integration-tests-4.5.122-1.1.noarch.rpm"
+RPM_HASH = "8152704807344831664193f48132f106e27cf95d57f7f2112ea7e5c70465e7f8340f99cd7f085fd7611c4aa56539b92e6460b0efcce771014640907cc345b1ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libstorage-ng-integration-tests"

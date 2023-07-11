@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.18.0"
 
-RPM_NAME = "patchelf-0.18.0-1.1.aarch64.rpm"
-RPM_HASH = "7c15b4395db6440f62efe0dc42aaecad5769f77d192bae92d28d94ab185bb36f2749ef6b3bb3cfed075d411cf1431f701b53eecc95ff8f96cd4e0edfc5a7ed2f"
+RPM_NAME = "patchelf-0.18.0-1.2.aarch64.rpm"
+RPM_HASH = "cf1df849f40790fd3e1dc34e949ad57334d578a62637fce80ff1f75cd7878bbe703a15ddd29c0d29ecab13b6cbb2a1dc53c097d9e8b7bc7648acb79e43b2c62c"
 
 RPROVIDES:${PN} += "patchelf"
 

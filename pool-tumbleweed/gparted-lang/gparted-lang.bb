@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.5.0"
 
-RPM_NAME = "gparted-lang-1.5.0-1.3.noarch.rpm"
-RPM_HASH = "21dc9c30f785301d9bc6002f155ad24dca0e7f19cd5a80dd885b67dc278ceb0655d8db784ed3ba16015e94c98fbdc34a2ef799525c1b910393303f387efb8ce0"
+RPM_NAME = "gparted-lang-1.5.0-1.4.noarch.rpm"
+RPM_HASH = "f8bea0405d8708292788f6eed601db061cd5a90d488d723b2834d5fa2a9fc12713cbfec74523fab23e21ac65a699a30da79d2c10fae378cca4476526a84a1cba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gparted-lang \

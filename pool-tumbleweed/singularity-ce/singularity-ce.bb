@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0 & BSD-3-Clause-LBNL"
 
 PV = "3.10.2"
 
-RPM_NAME = "singularity-ce-3.10.2-2.4.aarch64.rpm"
-RPM_HASH = "6a8802154c0582401548179136609bca8673814a2f06c945861483e168f4a5c149ecf80ff8ea94111027d415e85f869fa8e418a38cb3e306e73b9262be0711f8"
+RPM_NAME = "singularity-ce-3.10.2-2.5.aarch64.rpm"
+RPM_HASH = "980389b57a782de36d6e53098d860be35360600147a39935177e14b516372c2274199491eda5ee09dc97e47df974e7ec97b613a9a0ea4d120acd9a98ebaa84b1"
 
 RPROVIDES:${PN} += "config-singularity-ce \
 group-singularity \

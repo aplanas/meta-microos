@@ -2,10 +2,10 @@ SUMMARY = "Five-in-a-row Board Game"
 DESCRIPTION = "Bovo is a Gomoku (Connect Five, Five in a row, X and O, etc) game by KDE."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "bovo-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "618605a77873443f1b836c2e66e20bc1f6f4804ee6f875283476d6e0bb3f222ff7c89e4a6814dc1e2c01757e2d8f323c1d3afd33658f4c49c14ee2d37baea09a"
+RPM_NAME = "bovo-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "248141a130a87a2425ffdc8af54cd6408d26716e9481129d9e1424ba0cf1f05adad5faa49b3feb5c08d63e03645e23ffbb4527ec3fce669a5c9785622f3df051"
 
 RPROVIDES:${PN} += "bovo \
 bovo5"

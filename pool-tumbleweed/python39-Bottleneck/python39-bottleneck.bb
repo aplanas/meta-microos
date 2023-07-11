@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause & BSD-3-Clause"
 
 PV = "1.3.7"
 
-RPM_NAME = "python39-Bottleneck-1.3.7-1.4.aarch64.rpm"
-RPM_HASH = "d293fe1bc204d7ce44dbdb211c7f9636f3389069a87b9546a153adf5a5fbd56a69b8d61cd29a8b15ef59588f904fad0206b20fed34fab88cca11d7f02206737e"
+RPM_NAME = "python39-Bottleneck-1.3.7-1.6.aarch64.rpm"
+RPM_HASH = "83eef6229bd3d10a2130d0655774bf13d6ed84fe0c8304397c7eddd2572856a8e4bb44157f42d60188331c90e13c5d658b8cdc12d6c3d3b783def135a25b2564"
 
 RPROVIDES:${PN} += "python3.9dist-bottleneck \
 python39-Bottleneck \

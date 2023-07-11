@@ -4,11 +4,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6.1"
 
-RPM_NAME = "python310-python-snappy-0.6.1-1.3.aarch64.rpm"
-RPM_HASH = "890a4ab9fd8aaee28cb1b7e7907f842caa2936fd5a3948f01c0b1c5f4a899028690ca5a83e4aeb023f86d3691c03f4209c7e034dc31794adce03aa5822b4001b"
+RPM_NAME = "python310-python-snappy-0.6.1-1.5.aarch64.rpm"
+RPM_HASH = "4729c001adc146aad69aa26e0b2776551968dfd7443309396154bc2a3bc37a2b34411daba6d289d4e15c85b0f64690abcc2b962391c2b086b09a7cf0655f23fd"
 
-RPROVIDES:${PN} += "python3-python-snappy \
-python3.10dist-python-snappy \
+RPROVIDES:${PN} += "python3.10dist-python-snappy \
 python310-python-snappy \
 python3dist-python-snappy"
 

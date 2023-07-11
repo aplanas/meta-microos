@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.1.6"
 
-RPM_NAME = "opencc-1.1.6-1.3.aarch64.rpm"
-RPM_HASH = "536ca26a99b6336e8c431d49f8a9c5e4748b0d1034bf3eefc01374aca02ed1a328d3412a4d8d1e921ebed245b9b037d57477961dbd688460eb2150d384c32166"
+RPM_NAME = "opencc-1.1.6-1.4.aarch64.rpm"
+RPM_HASH = "d0be345af2efc6a572bc9401c9e77b12109a2e74027ee83d7dcd794e14bc2bda4816c298e801855a33d9cfb79cbfa34dbf991617ed00d7bc8d6483b5a1ddd106"
 
 RPROVIDES:${PN} += "opencc"
 

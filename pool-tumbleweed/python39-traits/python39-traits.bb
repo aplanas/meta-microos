@@ -18,8 +18,8 @@ LICENSE = "BSD-3-Clause & EPL-1.0 & LGPL-2.1-only"
 
 PV = "6.3.1"
 
-RPM_NAME = "python39-traits-6.3.1-1.10.aarch64.rpm"
-RPM_HASH = "fc67794a152962574d41a1f24bd7ef9091ab3b3f1044864cf30189d470bd7b5b04085d3a67be53d4f76ee55a216d68abff59195557376c9aad822b9b53fc30da"
+RPM_NAME = "python39-traits-6.3.1-1.12.aarch64.rpm"
+RPM_HASH = "48f3cc4f953dd6361f07ca8296fbc88d5b417df21183afbc9b71f9201a9955fb6d89e26c7fd31bc862f47b13d9ed27bce1dd8f7f140343103964a9d636909e6c"
 
 RPROVIDES:${PN} += "python3.9dist-traits \
 python39-traits \

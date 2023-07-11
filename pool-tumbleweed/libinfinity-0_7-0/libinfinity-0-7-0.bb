@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.7.2"
 
-RPM_NAME = "libinfinity-0_7-0-0.7.2-4.6.aarch64.rpm"
-RPM_HASH = "f4caaaa2afe5c4e18918f2016a68c6b9989fd085b7169854a528a2b273d4c03b6e964da16e9b1c043933894ef0e67d6f7fc38ab4a4813bb045af801aca0c0357"
+RPM_NAME = "libinfinity-0_7-0-0.7.2-4.7.aarch64.rpm"
+RPM_HASH = "a38a841b088bf86043ab380caf29cbfbf25b0a72ef5d4da06f70e05bef8aa21fdc228ea123600e3988afe51f93bae7dd8ba102897d7883c8a0d88b4f17e34c6d"
 
 RPROVIDES:${PN} += "libinfgtk-0.7.so.0 \
 libinfinity \

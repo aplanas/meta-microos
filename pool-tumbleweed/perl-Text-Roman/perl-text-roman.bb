@@ -15,13 +15,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "3.5"
 
-RPM_NAME = "perl-Text-Roman-3.5-1.24.noarch.rpm"
-RPM_HASH = "092ca31f7ba0f0ed67f8dcbf552c60a8cd345fa83774cf3641308cd4b4f7b364e8a6c9c6c1468742eff36698d22b00bac18aa751d71fe09e6264e3e93d302273"
+RPM_NAME = "perl-Text-Roman-3.5-1.25.noarch.rpm"
+RPM_HASH = "73a02b634b29d2e2ca359e8cd0e2df6b771dc692c5c0bae01243ae812e9553412baac8ccb50af6371632ea0ef8c25bfa6b2d4d2b342b8ebb00330d5550ee3482"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Text--Roman \
 perl-Text-Roman"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

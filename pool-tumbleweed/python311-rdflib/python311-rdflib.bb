@@ -7,11 +7,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "6.1.1"
 
-RPM_NAME = "python311-rdflib-6.1.1-1.12.noarch.rpm"
-RPM_HASH = "5df3bdb1dd1aab1272a6460b2342933e7a41058c6725baa6996754395016db2edbfc27da098967a5bc8f9ad78dcb328d2353f0467e92b02977a3f6be630d7c3a"
+RPM_NAME = "python311-rdflib-6.1.1-1.13.noarch.rpm"
+RPM_HASH = "725ecf9ac547ce97c037c57042137cc3c3b55f11a5fd4049ddeb5d98449810c4a0de3552a0f4ed7fde232a9d13caf2a683c642285f6de900f89293fe7f63bd4f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-rdflib \
+RPROVIDES:${PN} += "python3-rdflib \
+python3.11dist-rdflib \
 python311-rdflib \
 python3dist-rdflib"
 

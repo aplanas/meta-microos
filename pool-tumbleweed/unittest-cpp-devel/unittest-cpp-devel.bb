@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "2.0.0"
 
-RPM_NAME = "unittest-cpp-devel-2.0.0-2.3.aarch64.rpm"
-RPM_HASH = "a4ca60452b39cf3276c68f6e3f57e61d71f8a0bac123be5458511ead4a1c7ba1b81c6eb3b45dc32c06c9ec5ca58389bf3b343ed1730956e592d8811777212e2a"
+RPM_NAME = "unittest-cpp-devel-2.0.0-2.4.aarch64.rpm"
+RPM_HASH = "f3f49c7e78d512924d14d99a7f038309bcd95aab73201099c0edea2efd9298da7c126ab58bb0c8776cb942f49274e59314a50449fc8b644e78c867ff8f009d26"
 
 RPROVIDES:${PN} += "cmake-UnitTest++ \
 pkgconfig-UnitTest++ \

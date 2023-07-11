@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.4.21"
 
-RPM_NAME = "libcaribou0-0.4.21-8.7.aarch64.rpm"
-RPM_HASH = "2ff05dea6a5a54d3dcf8e7e1307d43b132c0733545a2b4a321dd639cb34c8971dc4fee7e36020f9c53122f2074e0dea5b9e2a292f0c950700f9a63fd0ed265a2"
+RPM_NAME = "libcaribou0-0.4.21-8.8.aarch64.rpm"
+RPM_HASH = "d032c819546e40017a81ee30435a85ee369fb9acd2f54b0b1917260c1299d876666724e14769cdb51b507b2716066dcaf87ccd892aa418a496eb36a5d5ee48bd"
 
 RPROVIDES:${PN} += "libcaribou.so.0 \
 libcaribou0"

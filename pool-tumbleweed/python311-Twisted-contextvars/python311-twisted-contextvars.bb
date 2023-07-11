@@ -7,11 +7,12 @@ LICENSE = "MIT"
 
 PV = "22.10.0"
 
-RPM_NAME = "python311-Twisted-contextvars-22.10.0-6.1.noarch.rpm"
-RPM_HASH = "8f616458f639ed037255c5259fd500c1cd16e3fc7710c7f6b7ae9c267a84e9027b1763cb9a86bce8ab9d79ff76f3b62c457c74fdc7a678dbea2fae7dcaf22299"
+RPM_NAME = "python311-Twisted-contextvars-22.10.0-7.1.noarch.rpm"
+RPM_HASH = "2ec71a8eb8f965babe61bb6db38139d4700fca3114564e58ff6700cd29507f9d3665f1733d193a5d21d5b7c95d5b3e94447fc6e58315a0c890c9134ea4e76958"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python311-Twisted-contextvars"
+RPROVIDES:${PN} += "python3-Twisted-contextvars \
+python311-Twisted-contextvars"
 
 RDEPENDS:${PN} += "python311-Twisted"
 

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "2.3.11"
 
-RPM_NAME = "libodbc2-2.3.11-2.4.aarch64.rpm"
-RPM_HASH = "60788eca0e435f65a5116c70095ea4ca42c9c6236071f93d950d887d63de12896620b7be86a973b29839c3f70c906ac877963396345bcc92b62a8bc93503ee51"
+RPM_NAME = "libodbc2-2.3.11-2.5.aarch64.rpm"
+RPM_HASH = "b1816b1f1bef74de70baec6d2b8effdb26f19c9717ba4ee2355c85bd8bb24c141d80b2cf90c5594521d254aca8f65ae6230713fdf3a15975296cf00b4a1689e2"
 
 RPROVIDES:${PN} += "libodbc.so.2 \
 libodbc2 \

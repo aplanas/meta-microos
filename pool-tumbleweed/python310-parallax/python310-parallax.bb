@@ -6,12 +6,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.8"
 
-RPM_NAME = "python310-parallax-1.0.8-2.2.noarch.rpm"
-RPM_HASH = "7c9137cf9b91132364c716b77171390e654196608b257dbcaf9d580deb81a060cb188e0a8760e594a577ed5d7f8cb858f283bd66826ce1c12ab03f26bb9b84ab"
+RPM_NAME = "python310-parallax-1.0.8-2.3.noarch.rpm"
+RPM_HASH = "1ffa487f96cf7a03bc8c8ff89175e8a21ab39ea5d7eef41acae8ac89c5ddac1cd12d69d7572d425226b3c0d2b3c50f73041c584488a6707ff551145e1673e73c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-parallax \
-python3.10dist-parallax \
+RPROVIDES:${PN} += "python3.10dist-parallax \
 python310-parallax \
 python3dist-parallax"
 

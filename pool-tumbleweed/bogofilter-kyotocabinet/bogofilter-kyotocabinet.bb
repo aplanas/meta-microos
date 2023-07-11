@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.4"
 
-RPM_NAME = "bogofilter-kyotocabinet-1.2.4-15.12.aarch64.rpm"
-RPM_HASH = "c63c1bbbd5b822b31720303cff163fde41b788ba338997dbf8db397664bfbaf775a050e03362839da249cffc3a94bba0a675dec7172a47d3b17f96d7c2dca685"
+RPM_NAME = "bogofilter-kyotocabinet-1.2.4-15.13.aarch64.rpm"
+RPM_HASH = "661cb27df5a7990ff9e83ffd57d597bcd6965671b0fa4a8c6ccfa4f3ab63c1f5cee51967fdbcf95f5f80609abe677e6734cbeef99b85a507d9dc33ce4d43d3ee"
 
 RPROVIDES:${PN} += "bogofilter-backend \
 bogofilter-kyotocabinet \

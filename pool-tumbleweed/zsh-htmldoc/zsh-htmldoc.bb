@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "5.9"
 
-RPM_NAME = "zsh-htmldoc-5.9-5.3.aarch64.rpm"
-RPM_HASH = "5a4b71fe5495dc652ec05156890a485e3a77a87ab2ac1b619102e5dd3ee510d42752fef858e83abb33bd1b4410ca89189a18e27bca684ece62ab2e60b1fd744d"
+RPM_NAME = "zsh-htmldoc-5.9-5.4.aarch64.rpm"
+RPM_HASH = "db6ec5d23e0fb22d3a7a44948ebfbffcf772832a53f39e0434c1bcc4865c0c6803ff7b6ead38e5a967508f51cbe09f559a195c641f8f7d9352a5ad36b2f0c9c7"
 
 RPROVIDES:${PN} += "zsh-html \
 zsh-htmldoc"

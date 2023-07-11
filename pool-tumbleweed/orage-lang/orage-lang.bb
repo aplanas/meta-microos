@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.18.0"
 
-RPM_NAME = "orage-lang-4.18.0-1.3.noarch.rpm"
-RPM_HASH = "1fa70a53f69f20de09c030f73e36aa9862b28b1b0ee5787e74a8add6c236533f881e9e05ed28b0b3850b375d53113155a2aac7d8c6d62ee0f482a0569d38d047"
+RPM_NAME = "orage-lang-4.18.0-1.4.noarch.rpm"
+RPM_HASH = "ac37bb619545227d9b4c5da4768248b5b27a5ba0db66ce88c5474452ce102bc041aacad60260e6a7c6dbae3afef17ff4c6f158cfa250fd0a28abc8818f0518a5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-orage-ar \

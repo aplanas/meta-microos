@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0 | MIT"
 
 PV = "2.20.0"
 
-RPM_NAME = "hypre-devel-2.20.0-1.9.aarch64.rpm"
-RPM_HASH = "d789159ce6c84e99a29bf3748c0642b43aecf8c86689ab0a02973e8ecd9c42e9297368bf7dd48fd1a572addfdb9c1792b4f8fcf8b42ebf607bf3189eaf4fdd6d"
+RPM_NAME = "hypre-devel-2.20.0-1.10.aarch64.rpm"
+RPM_HASH = "55bd2e34799ad326e60cefff3c7237d9e97b9894ae252064518fcd0b24cc7f448bf123e7b52447d1a751f68ef2e9a6ff4930056fd1f9028f010b0dfd350fbae8"
 
 RPROVIDES:${PN} += "cmake-HYPRE \
 hypre-devel"

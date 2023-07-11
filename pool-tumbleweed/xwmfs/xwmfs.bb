@@ -19,8 +19,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.91"
 
-RPM_NAME = "xwmfs-0.91-1.6.aarch64.rpm"
-RPM_HASH = "05ea03fa302cabea4e7803f0e97e5dee660a2edd2ab296b3f2d35ab2420cda10dfa33a056bec8a93e006c98b4fafda5a42c6869dbe784de1a6cd57136cef17fb"
+RPM_NAME = "xwmfs-0.91-1.7.aarch64.rpm"
+RPM_HASH = "b7c7d8de7dbf8e09d0a60c29226895aceab6aeea5b8ac6b3793bc719e7340fd36af434e49aa04df7fd6ea4bfacf500e7294c24e05a6bf25238e04a0d97f795df"
 
 RPROVIDES:${PN} += "xwmfs"
 

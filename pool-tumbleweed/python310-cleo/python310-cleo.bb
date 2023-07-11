@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "2.0.1"
 
-RPM_NAME = "python310-cleo-2.0.1-2.1.noarch.rpm"
-RPM_HASH = "f9aab6f5977904a6d809cac5f85fccccb932b58e64c4a1c1461c8bbff8c4a63fde8f155e2cfbabe83939aa4b4dd43fc6f6afca4b4ad1a760e95eb6248e542091"
+RPM_NAME = "python310-cleo-2.0.1-2.3.noarch.rpm"
+RPM_HASH = "d6500c4317952aac52f29deb4295f8d9abf3097bc268c48a3e3cfb2c10867a112b78f86d84dc0ec2afb054dc51c22586ed18695588907585b823c06794ba874c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-cleo \
-python3.10dist-cleo \
+RPROVIDES:${PN} += "python3.10dist-cleo \
 python310-cleo \
 python3dist-cleo"
 

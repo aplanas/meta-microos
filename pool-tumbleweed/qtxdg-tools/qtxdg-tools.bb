@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.11.0"
 
-RPM_NAME = "qtxdg-tools-3.11.0-1.1.aarch64.rpm"
-RPM_HASH = "00bef36738f7ce6e8cdacac675c9a3925416147da4523aff458d06f954fe627608b68fd2c4409038f442ded773be1a7a7fd2216248cdeec5f29d5c62fac0f6bf"
+RPM_NAME = "qtxdg-tools-3.11.0-1.2.aarch64.rpm"
+RPM_HASH = "5a415e0c17b1677e8c6110c22503051e4c84b6b102711257b76848a5fcc9f6adb60e62ccd503fefd507313e8dae80dfd9831747bfc972bdbe82301aac241b2b1"
 
 RPROVIDES:${PN} += "cmake-qtxdg-tools \
 qtxdg-tools"

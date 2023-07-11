@@ -11,8 +11,8 @@ LICENSE = "LGPL-2.1-or-later | BSD-2-Clause"
 
 PV = "0.2.6"
 
-RPM_NAME = "marisa-0.2.6-1.21.aarch64.rpm"
-RPM_HASH = "52c8b53ad12b72ea0cfe6317a954665b9a26905acea5e63e497b79428ab6d1e7e497533e0e54e4c06e5232abf42e13ccd1f0b7572cd74f41cdd648e91414ca8f"
+RPM_NAME = "marisa-0.2.6-1.23.aarch64.rpm"
+RPM_HASH = "532ad482912be2ab4e5bf70e0d0680ce95bdea385642fa4cc5f09bff396ef490be5dc8b899649e78985ce92520ad9570d08f1d5beec977d1b021bd8f49854ee2"
 
 RPROVIDES:${PN} += "marisa \
 marisa-trie"

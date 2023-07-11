@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.7svn56594"
 
-RPM_NAME = "texlive-xltxtra-doc-2023.201.0.0.7svn56594-52.1.noarch.rpm"
-RPM_HASH = "3545fa077c46628e011d40049d5c6ee7694a6718ef9cd097e6454ce4498730149918c2ac8b7e20e5b01326f8a64e0353b641f0fcfa674128c72fea9eb81df55c"
+RPM_NAME = "texlive-xltxtra-doc-2023.201.0.0.7svn56594-52.2.noarch.rpm"
+RPM_HASH = "13afce8bcc2b13add268ffa380f9766950b7f988b92d4956332d1f795237f2f014eba867f84a46c5f048b127160eed8c0c8124bac492fa8188eeb6674d8b5be3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xltxtra-doc"

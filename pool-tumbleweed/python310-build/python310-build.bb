@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "0.10.0"
 
-RPM_NAME = "python310-build-0.10.0-3.1.noarch.rpm"
-RPM_HASH = "bf6c3ff0d26742fc8eec61308e9cbceebcaf8dc631dea3287f293dcde08f8af9ba573f0de0e464a611ca30becff8fc5c6384b8a9d54b39d238fe87e4ddecf994"
+RPM_NAME = "python310-build-0.10.0-3.3.noarch.rpm"
+RPM_HASH = "cff89d3bd16f115370fc8dfa498d4e3d91063a065444353e8d92ff8556e1e32be588bbc2075edd81f77f0d054f41e9328db2c59d04e616936eae140978429d37"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-build \
-python3.10dist-build \
+RPROVIDES:${PN} += "python3.10dist-build \
 python310-build \
 python3dist-build"
 

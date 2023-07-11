@@ -3,10 +3,10 @@ DESCRIPTION = "Rmail interprets incoming mail received via uucp and passing the 
 processed mail on to the MTA (e.g. sendmail)."
 LICENSE = "Sendmail"
 
-PV = "8.17.1"
+PV = "8.17.2"
 
-RPM_NAME = "rmail-8.17.1-9.1.aarch64.rpm"
-RPM_HASH = "efdb14ff8f4f5072790b3f83ce08a50e87c7b2386f258b83d94dd624f2e3d40e9a1f5f64d17b298e10cad4550d240ad32b0c86d7605bad8633e1338d1812b471"
+RPM_NAME = "rmail-8.17.2-1.1.aarch64.rpm"
+RPM_HASH = "b4bf3fbb293d357cfc51bb55fef15faf1bf686d283581f6af27e6028a3f8f5139baa7160eb039d90535904218a8a07ec442719d6a4e553ec4ae76d2406924d58"
 
 RPROVIDES:${PN} += "rmail"
 

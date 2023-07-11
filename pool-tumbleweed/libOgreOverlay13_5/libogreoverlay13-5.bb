@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "13.5.3"
 
-RPM_NAME = "libOgreOverlay13_5-13.5.3-1.5.aarch64.rpm"
-RPM_HASH = "5df9f8dc94eb3d92006ed340de98893cd9d8c8023ed6935a7493f84bbd18a65984fcac9bcc5a9b557a05f507e56e3c2d88651a5fd0977fe14a493cbcd000b4ec"
+RPM_NAME = "libOgreOverlay13_5-13.5.3-2.2.aarch64.rpm"
+RPM_HASH = "198589c817b010ba8791eb92b3c3e8a7536b1b31f6498b6b38b31ec1e112295852f685c385fcba87ce9d0a39bb768e154adf23630394c1e287af76e5cac98abf"
 
 RPROVIDES:${PN} += "libOgreOverlay.so.13.5 \
 libOgreOverlay13-5"

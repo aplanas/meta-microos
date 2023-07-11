@@ -8,12 +8,11 @@ LICENSE = "Apache-2.0"
 
 PV = "0.7.16"
 
-RPM_NAME = "python310-pony-0.7.16-2.2.noarch.rpm"
-RPM_HASH = "44159f0b24c3a81ceea1a0ecacc8ef698d1034e9dc980c4f75ef5017e8bb235e67c876d780301df6fd37070c341f771e67c05d3eae2c016e706f520b9578078a"
+RPM_NAME = "python310-pony-0.7.16-2.4.noarch.rpm"
+RPM_HASH = "149ddb408145e0b61595b670e89a0627d2dd0fbe74e20d71d00eb7dfa1ed4503a7a176c1e59cd874aeb3277b18ebebfcafa7ad4477cc43745372bf07bcefd921"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pony \
-python3.10dist-pony \
+RPROVIDES:${PN} += "python3.10dist-pony \
 python310-pony \
 python3dist-pony"
 

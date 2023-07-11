@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.9.0"
 
-RPM_NAME = "lapacke-devel-static-3.9.0-9.1.aarch64.rpm"
-RPM_HASH = "2c8bf512c9ffd0fa86ab2cb02b9747eaa7d34bd976e12b12c63d1de3d36a12bb7da551cee83ac061de06a1617eb2f5ba80d8fe01101befd90fea35c6bdf61152"
+RPM_NAME = "lapacke-devel-static-3.9.0-9.2.aarch64.rpm"
+RPM_HASH = "1316d8d63e1cd4134e6f47c8a1bbff969cefe4c48746c94f2750892e507afa22215eab3f8079c400e1caaebd7c286000838b3591f16b3f23d6a2a0c708f0d05c"
 
 RPROVIDES:${PN} += "lapacke-devel-static"
 

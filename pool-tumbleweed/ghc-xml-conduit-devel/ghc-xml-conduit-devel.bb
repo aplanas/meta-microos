@@ -2,12 +2,12 @@ SUMMARY = "Haskell xml-conduit library development files"
 DESCRIPTION = "This package provides the Haskell xml-conduit library development files."
 LICENSE = "MIT"
 
-PV = "1.9.1.2"
+PV = "1.9.1.3"
 
-RPM_NAME = "ghc-xml-conduit-devel-1.9.1.2-1.4.aarch64.rpm"
-RPM_HASH = "f3f3785f5a1be8ccdb32982b525c637bc88ae02b3ef501026b67080503dc5a67019a29c54bc9d5f21b88fef17751fea1f4abad8160529c73527ad204e5b86615"
+RPM_NAME = "ghc-xml-conduit-devel-1.9.1.3-1.2.aarch64.rpm"
+RPM_HASH = "b87903d605a6e8070b2ecfd273b04b0e49fdccb302056096775b7d63afad5e036553b5e243f130d31244830270bdc5f54ac389bbf3f625a7ad227114e66e598c"
 
-RPROVIDES:${PN} += "ghc-devel-xml-conduit-1.9.1.2-EG4w0oWu477B6XYo8w0Zz4 \
+RPROVIDES:${PN} += "ghc-devel-xml-conduit-1.9.1.3-JDYavYDcwLN29rDQLTOOon \
 ghc-xml-conduit-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -17,8 +17,8 @@ ghc-devel-base-4.17.1.0 \
 ghc-devel-blaze-html-0.9.1.2-38lyFDueaN76YOL6QIMVAR \
 ghc-devel-blaze-markup-0.8.2.8-1rqnOPcdOmIw0iYwB3Kqc \
 ghc-devel-bytestring-0.11.4.0 \
-ghc-devel-conduit-1.3.4.3-dAZVHPSYjL2zQ4RzAuWi2 \
-ghc-devel-conduit-extra-1.3.6-F6u9UYzIZvy2L2764Izuhr \
+ghc-devel-conduit-1.3.5-EjJ71P6EbmSGTrvJLquwgr \
+ghc-devel-conduit-extra-1.3.6-1ns4btxv78gDsSQyRueTL2 \
 ghc-devel-containers-0.6.7 \
 ghc-devel-data-default-class-0.1.2.0-2LD1I8dZmn7BW4dkzEwdGZ \
 ghc-devel-deepseq-1.4.8.0 \

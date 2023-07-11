@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.0.0.2svn15878"
 
-RPM_NAME = "texlive-gmdoc-enhance-doc-2023.201.0.0.2svn15878-53.1.noarch.rpm"
-RPM_HASH = "38116b6cd8fcd269d99da508f36a683f01b2163d3214dd24858290fafed99a586af8d441ac51f6017fefd4b700faf61a497ce06482afd6bab115c6a1ed380376"
+RPM_NAME = "texlive-gmdoc-enhance-doc-2023.201.0.0.2svn15878-53.2.noarch.rpm"
+RPM_HASH = "48c6807d28637835a538626d3612e95f2989f85d1afac75a542df61f2ceaf8ee79f25e0d9677bbe76e681237c7bf67792c8decb294941d4d221354b46d7ca166"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gmdoc-enhance-doc"

@@ -34,8 +34,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "3.1.0"
 
-RPM_NAME = "python39-wfuzz-3.1.0-3.3.noarch.rpm"
-RPM_HASH = "10279e8b98cb88d58acbf9a84e577ec7ce9c0b03586a9d7ccbd5e15a286ef76049f7b1f2b2523ee8667162143673c6bd3b9b6637148b9a2e915d3b111df8d1ed"
+RPM_NAME = "python39-wfuzz-3.1.0-3.4.noarch.rpm"
+RPM_HASH = "f106140418e61bf51e4209f8cd1bd07a5995e131eb8690d769bae13072f1be902dae42ff4871aebb2f8d69750ccd4afc24dfe29d9017d02f634c334d53f11dc3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-wfuzz \

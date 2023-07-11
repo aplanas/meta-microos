@@ -2,10 +2,10 @@ SUMMARY = "QML imports for the Qt 5 Charts Library"
 DESCRIPTION = "This package contains QML import files."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libqt5-qtcharts-imports-5.15.9+kde0-1.1.aarch64.rpm"
-RPM_HASH = "b2ea311b71e2735ea08e828d44bc89cd3cf2e7c12cfec63bc8c6f19102f06ea6a74278eded05d71836349c77ea47b606cfadfe042e542e7ab21cf4113b2b0c21"
+RPM_NAME = "libqt5-qtcharts-imports-5.15.10+kde0-1.1.aarch64.rpm"
+RPM_HASH = "c5c9633f97d671b71e82d39ef870dcae45d72db9d4f8dbd81465b760e9199aeca6322c69a41e2e97697f8468a6fcc431d342710cf8132b09e47b3d1abcf7494d"
 
 RPROVIDES:${PN} += "libqt5-qtcharts-imports \
 libqtchartsqml2.so \

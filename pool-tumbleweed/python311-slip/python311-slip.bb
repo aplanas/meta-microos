@@ -7,11 +7,12 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.6.5"
 
-RPM_NAME = "python311-slip-0.6.5-6.15.noarch.rpm"
-RPM_HASH = "eabe4e518bdabfe16cbabeed32b785782c2154523ca6ddfc4419ac01fc4d2d677cb72f389006875a56777ab1ac69d392e11ddd7d380874de9cb808bd3bcb3c76"
+RPM_NAME = "python311-slip-0.6.5-6.16.noarch.rpm"
+RPM_HASH = "2b5cec0ba56bb7825f640350869ee77f1d5f3f63791e6be165cfbd8844d0bab243dd69f5d722ed3f5dab66ac5346a9dd8b9d1fe536c15eeadbad4265c70197a7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-slip \
+RPROVIDES:${PN} += "python3-slip \
+python3.11dist-slip \
 python311-slip \
 python3dist-slip"
 

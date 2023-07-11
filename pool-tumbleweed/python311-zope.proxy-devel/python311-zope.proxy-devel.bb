@@ -4,10 +4,12 @@ LICENSE = "ZPL-2.1"
 
 PV = "4.6.1"
 
-RPM_NAME = "python311-zope.proxy-devel-4.6.1-1.4.aarch64.rpm"
-RPM_HASH = "a97bb002b9d5205e63178573afeb96c6a53ed151b337c0a2e0993dc4321473184cd18fd8adea72bd98b27bd26f24bfc1b57efc669bbe19ab1c3838f89ccd3392"
+RPM_NAME = "python311-zope.proxy-devel-4.6.1-2.3.aarch64.rpm"
+RPM_HASH = "0dceb0cdaadc5a5f622b000c5c1bcc65eb617b53356f0a5ff5257692721e8c1de7bb06b99beaf04934e341644310d2f609b9c44e227e5cea5578492d089372b3"
 
-RPROVIDES:${PN} += "python311-zope-proxy \
+RPROVIDES:${PN} += "python3-zope-proxy \
+python3-zope.proxy-devel \
+python311-zope-proxy \
 python311-zope.proxy-devel"
 
 RDEPENDS:${PN} += "python311-zope.proxy"

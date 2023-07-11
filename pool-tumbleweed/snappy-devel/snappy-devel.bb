@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.9"
 
-RPM_NAME = "snappy-devel-1.1.9-2.8.aarch64.rpm"
-RPM_HASH = "30d75375614accc6eac2c5b6c455b050a1571070035857cc4c42c81f987d886ca74db4a627b917bb3670a7a9e9749ea628a1b2096b852ff58b481d5f6c354b2b"
+RPM_NAME = "snappy-devel-1.1.9-2.9.aarch64.rpm"
+RPM_HASH = "37c4c4ee823a3a465a1d113f5507e166424788164a84901a3c65eb8279f8d4cc2d192b3ebd9afb20933ad1c20de1daf4fcda24cb540b17019ad7ab55e8cca2a3"
 
 RPROVIDES:${PN} += "cmake-Snappy \
 pkgconfig-snappy \

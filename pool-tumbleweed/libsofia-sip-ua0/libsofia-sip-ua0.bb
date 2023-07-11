@@ -11,8 +11,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.12.11+20110422"
 
-RPM_NAME = "libsofia-sip-ua0-1.12.11+20110422-1.14.aarch64.rpm"
-RPM_HASH = "845bcd18ddab8847e419e5cb4a3de23afde71b9571be35a86f5c85aa1ff58ec156141f8f0448b32a9c45d71ee4e3b7447da49f58df8e99814a12e650dee8a3e4"
+RPM_NAME = "libsofia-sip-ua0-1.12.11+20110422-1.15.aarch64.rpm"
+RPM_HASH = "ad341eb0e7b1c1c1f95c64f04edef75d3d524c07f4b41c72a80033e651adcc2028e94f731fb5a1888e993520d3d399cd5487906e95525051b018172e5b0c581b"
 
 RPROVIDES:${PN} += "libsofia-sip-ua.so.0 \
 libsofia-sip-ua0"

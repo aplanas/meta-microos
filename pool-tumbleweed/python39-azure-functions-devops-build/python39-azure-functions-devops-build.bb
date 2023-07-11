@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.0.22"
 
-RPM_NAME = "python39-azure-functions-devops-build-0.0.22-2.11.noarch.rpm"
-RPM_HASH = "2357880d5e8fa45b33db9328a416f57089f4b638cee88474d9b11d45925948b9ec14862cca2e7f1e7549f43e24ab8c1d7d55fea20ed4574f10901117a4f6f4a2"
+RPM_NAME = "python39-azure-functions-devops-build-0.0.22-2.13.noarch.rpm"
+RPM_HASH = "bff6c1a7b1314bdd4753075aea1709170a99ca9c59a87e3946af3afb6f79c46ab446e2a8d1777f3426ce15853ab52060a101e039bd2149ad71d9de560a57260c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-functions-devops-build \

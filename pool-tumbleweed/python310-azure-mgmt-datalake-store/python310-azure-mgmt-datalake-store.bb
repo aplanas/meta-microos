@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python310-azure-mgmt-datalake-store-1.0.0-1.10.noarch.rpm"
-RPM_HASH = "44aef17ca496c89cdc680530c1c5acd52f7c2ad3587a5d5239d5b90c36eb5282aa419f6cfbb577cd38aec6247810c6f88c87ea860c4a5378fc5722af44697429"
+RPM_NAME = "python310-azure-mgmt-datalake-store-1.0.0-1.11.noarch.rpm"
+RPM_HASH = "4d9fc22b430ce5926f8b3fa6638ee728fdb6325060cc3848bda72300d15d138c5f2b6afe20ca93937697554ed1163e2805f56a9a2dadf9035f2c207da6bd7130"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-datalake-store \
-python3.10dist-azure-mgmt-datalake-store \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-datalake-store \
 python310-azure-mgmt-datalake-store \
 python3dist-azure-mgmt-datalake-store"
 

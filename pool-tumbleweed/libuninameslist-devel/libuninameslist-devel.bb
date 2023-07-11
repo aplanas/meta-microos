@@ -2,10 +2,10 @@ SUMMARY = "Header files for libuninameslist"
 DESCRIPTION = "This package contains header files for libuninameslist."
 LICENSE = "BSD-3-Clause"
 
-PV = "20221022"
+PV = "20230523"
 
-RPM_NAME = "libuninameslist-devel-20221022-1.2.aarch64.rpm"
-RPM_HASH = "d8d1abde8956fec15bde4beba7b76e6e3830f027146c95374fe92f4c96616144f9a0d91a0e0f6ed79845400547596d4861bb1d5ab978688eba80f304ddad793f"
+RPM_NAME = "libuninameslist-devel-20230523-1.1.aarch64.rpm"
+RPM_HASH = "87c1fa00bdca2ee1b94b279ad722b22e1eada86abbee7d2711a34da6bb36b2d43e206c4f273e97ff908717339abc7a83ab1f3d91603be683ee49e1bbb12dee3d"
 
 RPROVIDES:${PN} += "libuninameslist-devel \
 pkgconfig-libuninameslist"

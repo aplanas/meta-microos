@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.8.0"
 
-RPM_NAME = "kio_iso-2.8.0-1.3.aarch64.rpm"
-RPM_HASH = "b0bda4953d808a8dcfdf07d1c21d76230bdb4e7eaee302ec18697b1e125b75b5d3c59a3463d7f4c9db2e920ecc1b7d43625cdd1453129a8792d85ae680130808"
+RPM_NAME = "kio_iso-2.8.0-1.4.aarch64.rpm"
+RPM_HASH = "54383158eac4070f72b76cb5744f170ada824fb78bc29c95d4898be1c553ab15923a7708b102af776dd2d557c073972edcc11c12f4fbd056c6f663a7b0e3552f"
 
 RPROVIDES:${PN} += "config-kio-iso \
 kde4-kio-iso \

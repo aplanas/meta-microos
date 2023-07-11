@@ -2,10 +2,10 @@ SUMMARY = "Vocabulary Trainer"
 DESCRIPTION = "A flashcard and vocabulary learning program."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kwordquiz-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "5e2168cfae096d71e594e25c3417eadd503b127fb74d1ba60096470bd59d9025006fb5b67741c972bb7b5f4622f635cd72440cd4b40360c392fbbe3fb017427b"
+RPM_NAME = "kwordquiz-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "1215ce2488ce307482c80b788507a3fe371dbae5947696c93b76e627093a09e64f7c622b21e78513a29f1ef48c5b468fcc80436b09f547f6b0917e3707aef5a0"
 
 RPROVIDES:${PN} += "kwordquiz \
 kwordquiz5"

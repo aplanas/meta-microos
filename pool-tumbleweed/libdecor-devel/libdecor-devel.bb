@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.1.1"
 
-RPM_NAME = "libdecor-devel-0.1.1-1.2.aarch64.rpm"
-RPM_HASH = "e492e11519161e63d837b4bd23e37b8523c452febf3d5045254079de7321637c7a47438e53cbe779abc595b643111671e671ddc59a81223c98d1dccacf589efc"
+RPM_NAME = "libdecor-devel-0.1.1-1.3.aarch64.rpm"
+RPM_HASH = "24ce4709609f27be9d3118e55b0b2fda01478028817491b531803ac5044933effefa2d7d061865d996e88d1d85fc6b22641e5a439a1f2aa1292b7785d16befa9"
 
 RPROVIDES:${PN} += "libdecor-devel \
 pkgconfig-libdecor-0"

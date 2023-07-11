@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.5.5"
 
-RPM_NAME = "python310-VyattaConfParser-0.5.5-1.19.noarch.rpm"
-RPM_HASH = "3e1e596ecc811483e7d8014fa8058e8f39b1fd9417f9f843cb2ed26634f58745f26f319255ef4c0b1b376f4ad1225076b88c6f2c655440b012706342226c676a"
+RPM_NAME = "python310-VyattaConfParser-0.5.5-1.21.noarch.rpm"
+RPM_HASH = "dbcd78cecf53df840b1f6eb282215b89167166c7e71709a4efc34d298ce4650426a3ba171f5228180fd4493e26f33a269ef9a9aaa9ca55c07aed081994baf652"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-VyattaConfParser \
-python3.10dist-vyattaconfparser \
+RPROVIDES:${PN} += "python3.10dist-vyattaconfparser \
 python310-VyattaConfParser \
 python3dist-vyattaconfparser"
 

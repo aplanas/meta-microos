@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "7.2"
 
-RPM_NAME = "nano-lang-7.2-1.3.noarch.rpm"
-RPM_HASH = "c935479e0eaf4e20bdecf9520921fd7a6ad31a131907a04adb34df31f4dc20873cc46d996b06e13556d02845bd2f0b9d62946918621053163434c403a72ee102"
+RPM_NAME = "nano-lang-7.2-1.4.noarch.rpm"
+RPM_HASH = "559bf90cc12f722337e8abc6bde044cd2c195ec10f9f9f4131b9e914e9361c500391aab5fba328a63cafb40920749d96fdc3dcb813724fc3f6c4c449d885c1b6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-nano-bg \

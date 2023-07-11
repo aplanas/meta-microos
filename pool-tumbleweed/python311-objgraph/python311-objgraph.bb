@@ -7,11 +7,12 @@ LICENSE = "MIT"
 
 PV = "3.5.0"
 
-RPM_NAME = "python311-objgraph-3.5.0-2.1.noarch.rpm"
-RPM_HASH = "e36f4222632278372bb0df3cf9e04c36eaa2a4f6af0f7de58f2e29b3edbfe1086991ae93aaa4ecd5fec0a01fd941746338759e2c29051cd567d273e8b1a6ceb5"
+RPM_NAME = "python311-objgraph-3.5.0-2.2.noarch.rpm"
+RPM_HASH = "91c6ac01926a0013cea1ea905ec273b14e727519cfdbe0f07358d8d82fd6d50f35e94875f9e1509d95f4516078f741e5616e4f936582678d6f8a5a08669b1b52"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-objgraph \
+RPROVIDES:${PN} += "python3-objgraph \
+python3.11dist-objgraph \
 python311-objgraph \
 python3dist-objgraph"
 

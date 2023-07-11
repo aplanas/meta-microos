@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.9.0"
 
-RPM_NAME = "python39-py2pack-0.9.0-1.1.noarch.rpm"
-RPM_HASH = "1b56a92003a74b81481fb88becea042f7873d1b7ad2049c7c0de69d3b31bd30359897aaaefeba63f5c0925155d318d3606c78b07a380c450842091389cfc1552"
+RPM_NAME = "python39-py2pack-0.9.0-2.3.noarch.rpm"
+RPM_HASH = "531cfca260a706367529262d317cc32b75130a5fc60a1fabf950263a65af44be82c1eb958ea29bf9d92743c62b1ba22134f271eb70d04f027d392f1c06ea6032"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-py2pack \
@@ -24,6 +24,7 @@ python39-pbr \
 python39-pypi-search \
 python39-requests \
 python39-setuptools \
+python39-tomli \
 update-alternatives"
 
 inherit rpm

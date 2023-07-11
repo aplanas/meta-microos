@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.4.2"
 
-RPM_NAME = "apache-commons-pool2-2.4.2-5.15.noarch.rpm"
-RPM_HASH = "cc56494e25ab068bcbcdaeb9177c583af450c2b47c6aa5800198b523f8709baf22fe917615ef91fe85b06d8a0d520c74db829bb631020d20c713675817a10573"
+RPM_NAME = "apache-commons-pool2-2.4.2-5.16.noarch.rpm"
+RPM_HASH = "2c1f313c646f8d1c747f1b0d1be3d9ffd6cd807f0d47450256e2ab3f10a3161f8dcea68fc670648cd465617ba0dbf9b797cf26e3a859b836d8af42cd2aeb1b99"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-pool2 \

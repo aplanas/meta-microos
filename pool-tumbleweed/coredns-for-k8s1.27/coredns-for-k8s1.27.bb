@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.10.1"
 
-RPM_NAME = "coredns-for-k8s1.27-1.10.1-1.1.aarch64.rpm"
-RPM_HASH = "a0f7710477dd408145054e1495ab3faa13b5e21bff0fcbd2355e5e7fa9131a2da6927b249c5e9deb0d1b43299d5da226afd0a1e24f2ec8c706f847bbd44e7fd9"
+RPM_NAME = "coredns-for-k8s1.27-1.10.1-1.2.aarch64.rpm"
+RPM_HASH = "ef4599366d39cc73a50c6f3ae96a9c75ad4f7e872891b22e60ec32bbb938b25a8096aae1862f1b7bff7a5221bb14ade78b6ec544b6c68afd98c17814f9812a98"
 
 RPROVIDES:${PN} += "coredns-for-k8s \
 coredns-for-k8s1.27 \

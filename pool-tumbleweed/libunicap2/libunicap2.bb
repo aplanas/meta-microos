@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.9.12"
 
-RPM_NAME = "libunicap2-0.9.12-22.14.aarch64.rpm"
-RPM_HASH = "4d5e383d388f892a5497a50f51236d3a136bab20db9cf9580f5d194fef87f7b128ad899f54f9442c65b9db18c27c3a5d6cff5033b508253c6874ad144adb2e47"
+RPM_NAME = "libunicap2-0.9.12-22.15.aarch64.rpm"
+RPM_HASH = "87460c87ba8b4eb57a6ab51e0f8c3d6bc9e593f3ed28db329f5b96c0de789916ae994962bfde5457a871cbedd7ae63ff539fad00e4e04f9e521820d1f6374c2b"
 
 RPROVIDES:${PN} += "libeuvccam-cpi.so \
 libunicap.so.2 \

@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn23866"
 
-RPM_NAME = "texlive-ctanupload-bin-2023.20230311.svn23866-91.1.aarch64.rpm"
-RPM_HASH = "f8a1d502b9d2fb123a72138e53beecbd148d2b0c8a325bd427a4ab0d5c6ee5c09a42992b52eddcde32b00d3fe0e23b9f17c7719876d1a6cacb62478f079ccf1f"
+RPM_NAME = "texlive-ctanupload-bin-2023.20230311.svn23866-92.1.aarch64.rpm"
+RPM_HASH = "1730c712d211b1188d3c55414a5eefafc83a9811913402290cd2769f63e84114e4cd722ae263a0ce7c1002e3476e8c65f2837ca8e8352c423c12b466c2ce583c"
 
 RPROVIDES:${PN} += "texlive-ctanupload-bin"
 

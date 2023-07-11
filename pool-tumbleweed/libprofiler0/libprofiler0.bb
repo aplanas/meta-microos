@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.10"
 
-RPM_NAME = "libprofiler0-2.10-1.5.aarch64.rpm"
-RPM_HASH = "6e1526ace7aabbef1c9b45047c3fb8f37da92e2e77fe6f8606beb2f5f5e0ac96c10b6a406ae10559c840f53d5d0e6c465f87d2e36344880dc15dad5c3e9eb48b"
+RPM_NAME = "libprofiler0-2.10-1.6.aarch64.rpm"
+RPM_HASH = "6ae40577109ebd430bbe1c976b9b1cb4aeda88d848354e6bd504acb0055404ee7d54854727d609e4b422fd8795f8067f329e423cdd7e7c285e52f3cf576b5a5a"
 
 RPROVIDES:${PN} += "libprofiler.so.0 \
 libprofiler0"

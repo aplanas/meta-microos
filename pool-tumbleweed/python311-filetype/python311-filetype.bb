@@ -7,11 +7,12 @@ LICENSE = "MIT"
 
 PV = "1.2.0"
 
-RPM_NAME = "python311-filetype-1.2.0-1.4.noarch.rpm"
-RPM_HASH = "fde09404130faffc4c169f0c0209348a57e627798f765ef89401ed529d25945664dd41aba219f44a71f5f38fd42341798d53fe245cac462441b89071bfd12de0"
+RPM_NAME = "python311-filetype-1.2.0-1.5.noarch.rpm"
+RPM_HASH = "12deded8e163b056d41f8b5af0ec65ef71dc5ab863beed9ea3a6f1ad2c41d0bb430a17f8e9a98130e360504943a3fa0bda4b518f4add4422529807856aec786f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-filetype \
+RPROVIDES:${PN} += "python3-filetype \
+python3.11dist-filetype \
 python311-filetype \
 python3dist-filetype"
 

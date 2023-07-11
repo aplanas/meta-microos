@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.4.0"
 
-RPM_NAME = "python310-moreorless-0.4.0-1.3.noarch.rpm"
-RPM_HASH = "f8991c159bab31b381c03e3d4903e94744e6c5aba834b2eb3939828519d66190f1aee20a715bf85e2cb177ebbc40c4e7bfe6af884b7335cda9c8dcb580409ced"
+RPM_NAME = "python310-moreorless-0.4.0-1.5.noarch.rpm"
+RPM_HASH = "9f370f8fe69934c45549470241796198c96e35bd82c2edfeb34a9bbc17334a4b2d8226cfc1effae4a659fffd0ff8f1b60460edcd43feaa157a711d7f1bf6a2f5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-moreorless \
-python3.10dist-moreorless \
+RPROVIDES:${PN} += "python3.10dist-moreorless \
 python310-moreorless \
 python3dist-moreorless"
 

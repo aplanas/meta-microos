@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.4.1"
 
-RPM_NAME = "gnome-shell-extension-onboard-1.4.1-7.6.noarch.rpm"
-RPM_HASH = "9a0f8c8cfbf0a9d71892e451faab2f6792a6d23e3a3b4930712637e310c56f7cc29e526fd3c82cb8aa2e29323fb70a145934fc340662b54e9dd4c0735a73a2a0"
+RPM_NAME = "gnome-shell-extension-onboard-1.4.1-7.7.noarch.rpm"
+RPM_HASH = "8f126c988c1bc4490ff7a9fe764121118fbaacf3f75cf7adb1d4dd290b17c1b5fb26f7957bb46cf86adf8dddcda2966fab664f9c90dcfd5661b21cdbc0752a0b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-shell-extension-onboard"

@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "5.5.143"
 
-RPM_NAME = "deepin-control-center-5.5.143-1.7.aarch64.rpm"
-RPM_HASH = "50bf99bb91f72fe830009c57e9e74519a54751e7d92570d37245f1e7ba3510a05f5e081fad716e0a3377f7a93f2dbccae66033c9702837aa07c56927a698b944"
+RPM_NAME = "deepin-control-center-5.5.143-1.8.aarch64.rpm"
+RPM_HASH = "79e1c8b5f4a8c29691acb8154ae3b41f1f8316b9583bef2b5c88c740c35799f676ed1652c2dcec2c07267c62c19eeaeeb9be50f3f6a0591730709e7cb3379abb"
 
 RPROVIDES:${PN} += "deepin-control-center \
 libdccwidgets.so"

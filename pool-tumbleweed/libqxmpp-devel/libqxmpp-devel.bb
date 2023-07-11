@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.5.3"
 
-RPM_NAME = "libqxmpp-devel-1.5.3-1.3.aarch64.rpm"
-RPM_HASH = "6cf007ba04a2b609baafbdee46db0ca32d4d52e4e2f09b90706cebf45a745e804d7bc25fa175f49eeaa16659c4948b39bdcda0a7799ff0d07ffb0ea2ad798315"
+RPM_NAME = "libqxmpp-devel-1.5.3-1.4.aarch64.rpm"
+RPM_HASH = "665a80a0a6ddccb19f67d326e139f822a758f49c35b545eb19b2d6951bae9f560c53ea0d60ff3ad121c8bcc2d149fd9a8b7b90f3160b2fd2f134c19f2ccbaddc"
 
 RPROVIDES:${PN} += "cmake-QXmpp \
 cmake-QXmppOmemo \

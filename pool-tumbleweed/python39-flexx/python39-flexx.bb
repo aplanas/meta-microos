@@ -11,8 +11,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.8.4"
 
-RPM_NAME = "python39-flexx-0.8.4-1.5.noarch.rpm"
-RPM_HASH = "981cb43a16b246985cc2b2e6cdb5b56ef73cb11d3ab77100f4ed31219a2e5afae0815a4d631d7cbb1c94b6c3ff124ded1d22ba2513e110d526df768cae2e57a4"
+RPM_NAME = "python39-flexx-0.8.4-1.7.noarch.rpm"
+RPM_HASH = "348d45036899d99b1d2c6b4aaf4ebe0906a382d42323855de1fc795a66d053e1f663bdde11a08d4e49b70e6a7e4eda17e3f3f2616d0d12903607260c4133f845"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-flexx \

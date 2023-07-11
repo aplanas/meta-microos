@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "0.1.0"
 
-RPM_NAME = "python39-azure-mgmt-edgegateway-0.1.0-2.18.noarch.rpm"
-RPM_HASH = "2aeb5a7b393144bae86e5a9e3a2c877abf3a99a0d17feb23e0400b3b2785bf771b4de07747784a48524afacfba520dab1efd6e97ecdf4f65c26414377ccdc108"
+RPM_NAME = "python39-azure-mgmt-edgegateway-0.1.0-2.19.noarch.rpm"
+RPM_HASH = "5ad8ef1030e24845afaedcaa71761bc22f4b9c9ae9e637cee07deb85c4f49407812ea07f36c13e30dc9e2751edd6b5ad888fadcab232106ed4d26c7165b17e5c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-edgegateway \

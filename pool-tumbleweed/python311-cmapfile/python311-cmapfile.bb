@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2022.9.29"
 
-RPM_NAME = "python311-cmapfile-2022.9.29-1.4.noarch.rpm"
-RPM_HASH = "8a407d1c6e01b544a53e331d5286994ba29c79554d5464fad17b5b84191cf0334959e1709c1aa47b8b886b86ad16f5fb3fc472404bd18037f4aad0f09d559b4a"
+RPM_NAME = "python311-cmapfile-2022.9.29-1.6.noarch.rpm"
+RPM_HASH = "46361d1953e61bf701a86da320c0397c7956583e91338992b6ad5665ecfa06de5c85ca89bc8d247725ff5b925ecad0f5aeb3389f3679807a70adce1ef412f55b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-cmapfile \
+RPROVIDES:${PN} += "python3-cmapfile \
+python3.11dist-cmapfile \
 python311-cmapfile \
 python3dist-cmapfile"
 

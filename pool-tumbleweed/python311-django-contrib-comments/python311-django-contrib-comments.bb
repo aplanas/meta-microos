@@ -7,11 +7,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.2.0"
 
-RPM_NAME = "python311-django-contrib-comments-2.2.0-1.3.noarch.rpm"
-RPM_HASH = "07b7368c4c9a6c36b086ab0ec406a174326a0c6dea5992048504ab8b8dc28990e39169c6c4a0125da0878ec71eb97d51288b7abc4767f2cba1cc1c1ece4f8d4c"
+RPM_NAME = "python311-django-contrib-comments-2.2.0-1.5.noarch.rpm"
+RPM_HASH = "2418a04aff7a01b3a92ffd5ed4034d1451a5ec41b26d2052d80459456689c3e02877fa1139a8235d79250fe39e0d026e3e006de8c5fe52bdc9b7f32817bfb12c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-django-contrib-comments \
+RPROVIDES:${PN} += "python3-django-contrib-comments \
+python3.11dist-django-contrib-comments \
 python311-django-contrib-comments \
 python3dist-django-contrib-comments"
 

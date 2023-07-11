@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "2.0.0"
 
-RPM_NAME = "python3-upm-2.0.0-4.1.aarch64.rpm"
-RPM_HASH = "37ea9010b00e24725b9b5f7f91dba3a8f9efe4feaaf388aa52fd789a10142142fc32b5aa08ace796cf8a5e568e5f2feaa1cd3dbddd79c87af479d4738e538f42"
+RPM_NAME = "python3-upm-2.0.0-4.2.aarch64.rpm"
+RPM_HASH = "958a14c00db808601473b006e780beb48fdea9e0b9f437d23a32432d013e0bc8908ad8bebc9f51e91f326d85fa96770330d215a8a8a87f3e36ae95659379d75c"
 
 RPROVIDES:${PN} += "python3-upm"
 
@@ -18,7 +18,7 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
 libmraa.so.2 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libstdc++.so.6 \
 libupm-2jciebu01-usb.so.1 \
 libupm-a110x.so.1 \

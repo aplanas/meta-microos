@@ -7,8 +7,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.21"
 
-RPM_NAME = "pcapdump-0.21-1.3.aarch64.rpm"
-RPM_HASH = "afa5ddf8fb8ce02101f513f767e40f611c47c647d8338e94dca4e5810362d720ed28e30ff9d6edfd0ef3cdc958eb17c03cb77e69f05e7aa46ab9dd2a434fd045"
+RPM_NAME = "pcapdump-0.21-1.4.aarch64.rpm"
+RPM_HASH = "33ca8492d2758e30a3f1c406d769bdf23335ef5bf4da602e2d7a87adcfa9b6cb7aa431984675613195d1bba017f4aeb3e8d4b947a174aabb11e38ae72e6f06b4"
 
 RPROVIDES:${PN} += "pcapdump"
 

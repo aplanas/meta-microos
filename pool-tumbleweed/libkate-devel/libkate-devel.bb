@@ -15,8 +15,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.1"
 
-RPM_NAME = "libkate-devel-0.4.1-26.15.aarch64.rpm"
-RPM_HASH = "b6666c1b7c029cd3f08bc0ef5b017a7c25d45fb0b80e1646c56ddca64780d371d228e5165f09d8e7b79da6012219d6ac65957afa302adef4bae527cdf828dd02"
+RPM_NAME = "libkate-devel-0.4.1-26.16.aarch64.rpm"
+RPM_HASH = "aa14632bea342153af4671c2c285d752de6a67017f3d126b7d73efd3927eef1cd6a983b5bdc82d8c1c0d00c12a9f433a0fd5c99c2d002d21daff13607776404a"
 
 RPROVIDES:${PN} += "libkate-devel \
 pkgconfig-kate \

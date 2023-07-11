@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.1.6"
 
-RPM_NAME = "lib4store0-1.1.6-3.14.aarch64.rpm"
-RPM_HASH = "e1ee9c8dac89ca7782c97714b1a1831dae9dcb5a862ae533f1accce7516a0995cc3f6b919a4615c9de7a5b91a4a949f5893c885fae72458efa9b50429ac40d83"
+RPM_NAME = "lib4store0-1.1.6-3.15.aarch64.rpm"
+RPM_HASH = "3ca316dae9d3fad90c9709c6473c8ebc59d605d7b4da7fd97fdadea5b5a83da2e9fa5889258071b9f38c8c03c660735018b8063b36766120ab7cba907213741d"
 
 RPROVIDES:${PN} += "lib4store.so.0 \
 lib4store0"

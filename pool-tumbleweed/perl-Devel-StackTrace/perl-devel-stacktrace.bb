@@ -14,14 +14,14 @@ LICENSE = "Artistic-2.0"
 
 PV = "2.04"
 
-RPM_NAME = "perl-Devel-StackTrace-2.04-1.16.noarch.rpm"
-RPM_HASH = "f68b75a114367ac7c49170bcef8f61ccdd3a4c4e0fdaa9596408ea8d1223bce65fd789560c0feb030d0e7a125240af6df4d09490002aa6e07014f1f2462bb322"
+RPM_NAME = "perl-Devel-StackTrace-2.04-1.17.noarch.rpm"
+RPM_HASH = "8e173dee7cb7012b31f0c64bb53d3bfb231874f47fbe37cce668fa5460778537c2251aeb861bdf5cfb0f1c98cc9efce7e2487e4f11ef864aa8bf40d9b0a96ffb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Devel--StackTrace \
 perl-Devel--StackTrace--Frame \
 perl-Devel-StackTrace"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

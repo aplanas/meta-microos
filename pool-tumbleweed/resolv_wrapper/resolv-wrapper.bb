@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.8"
 
-RPM_NAME = "resolv_wrapper-1.1.8-2.2.aarch64.rpm"
-RPM_HASH = "5c9c613638fac7d6c3ba60dccfcc099f826dede6f59243cecc221f8c33f8ab6ed5247ed0c6e8242f9ff832f1491d6ebf57ee2d0f84bfbb60e71e173a6a5b510b"
+RPM_NAME = "resolv_wrapper-1.1.8-2.3.aarch64.rpm"
+RPM_HASH = "a2cb1ba55edbb626ff206d1a60f688380f16c58986bde653072032fae80eca417dd0b4700479c9da7375611f96e591cd03a5ffa30f00f4fb44a075d33c43e342"
 
 RPROVIDES:${PN} += "cmake-resolv-wrapper \
 libresolv-wrapper.so.0 \
@@ -23,6 +23,6 @@ RDEPENDS:${PN} += "/sbin/ldconfig \
 cmake \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-pkgconf-pkg-config"
+pkg-config"
 
 inherit rpm

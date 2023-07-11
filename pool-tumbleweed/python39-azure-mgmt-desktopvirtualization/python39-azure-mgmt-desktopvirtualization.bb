@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "python39-azure-mgmt-desktopvirtualization-1.0.0-1.2.noarch.rpm"
-RPM_HASH = "2653e8910af0a364d49f17a4e602fc2d60760b6c20c85a9d081f31f8cdd75cf0a6d2c895b35f4703e67198699011b2ba7fd35c0e975f3368bb9398a6b58a30d1"
+RPM_NAME = "python39-azure-mgmt-desktopvirtualization-1.0.0-1.3.noarch.rpm"
+RPM_HASH = "a8e236d2f3fd741b9a185d6121242a901bb2114de783e36e1c4d3dfb6074ea7afef3109d1a44ff8522ef4019755508e60818ed47bc88e501fb16bb6a76f3ae76"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-desktopvirtualization \

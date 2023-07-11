@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "1.13"
 
-RPM_NAME = "hashlink-1.13-1.3.aarch64.rpm"
-RPM_HASH = "477c94adf9defd0f751d4d48cecf17bc56423a1f48cf9b2331f253d584a8d643cc90706fca3d7c61127933c827c359186f57cc6da3fecbbd579b8fc09ff9cc7e"
+RPM_NAME = "hashlink-1.13-1.4.aarch64.rpm"
+RPM_HASH = "3fd1e9ff37c51853907cf34feecc5d889534e6bbc7cfa69db3cf6a268d491a19c31711c094dbe779acb7d6a072813f17d46622ea284eebedced4a4064192e2f1"
 
 RPROVIDES:${PN} += "hashlink"
 

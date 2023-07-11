@@ -16,8 +16,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2.6"
 
-RPM_NAME = "libmpcdec5-1.2.6-35.13.aarch64.rpm"
-RPM_HASH = "002d4f90aa8ccf0f497b312f7d3f777ef1cb5c3410ebaef1ff6e6b76d03e21c584cf3a1a4ff00ba13c4277ac57aa12c737a3de96977c6649c3f398ee086e67bc"
+RPM_NAME = "libmpcdec5-1.2.6-35.14.aarch64.rpm"
+RPM_HASH = "903a2b0a7cd80b619d1d844d400786de3e585595a268c581effcd5704da7121171051dfac6ce8682ec41ef2d3026a30ea9723be77489a33b6a51ddd8ba030146"
 
 RPROVIDES:${PN} += "libmpcdec \
 libmpcdec.so.5 \

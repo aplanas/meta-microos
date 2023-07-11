@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kdenetwork-filesharing"
 DESCRIPTION = "Provides translations for the 'kdenetwork-filesharing' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kdenetwork-filesharing-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "8062af4820e95df8cefa1a482955b0746c6ddab9500268e67ab2d3fef563f53baea88d7dbdece9f8ba44359bf0862196dbb7015336fe5521ce37d895c1dcf0e5"
+RPM_NAME = "kdenetwork-filesharing-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "364d4cc37b9f8150e367baf5e3e2e0382145f56dec631eb4274f558b98f17f0897dfa175125c5ca66449a4410ad80b5f9337b33fbf93b97cf08b354ee8d98b74"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kdenetwork-filesharing-lang \

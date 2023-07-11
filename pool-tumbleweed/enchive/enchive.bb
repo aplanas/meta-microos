@@ -8,8 +8,8 @@ LICENSE = "Unlicense"
 
 PV = "3.5"
 
-RPM_NAME = "enchive-3.5-1.12.aarch64.rpm"
-RPM_HASH = "ea0e4c2bb52f5afd9277dfcfcbfeb3aabed3387d04e7428d745bd93e50cf5f6395e6f13df9d46019d04885ac27c32095daa6e9afd519c902bd2c82ccfa0763cd"
+RPM_NAME = "enchive-3.5-1.13.aarch64.rpm"
+RPM_HASH = "1c32e773e3e9e0ece1bbfba8675f3739ae620d8b8ffde7e89de2d4a1f5cba0e839f00dd5176ab2ef7e2655bd254241d5639ecc4093532b168a8bb5d77aa5e624"
 
 RPROVIDES:${PN} += "enchive"
 

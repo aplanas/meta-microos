@@ -5,10 +5,10 @@ system. This project supports much of the same functionality, \
 including full RGB animations."
 LICENSE = "BSD-3-Clause & GPL-2.0-only"
 
-PV = "0.5.0"
+PV = "0.6.0"
 
-RPM_NAME = "ckb-next-0.5.0-2.1.aarch64.rpm"
-RPM_HASH = "684f96a48b3a40eab876720079f8c4fcc9c379c58a0034457489837fa15b0cf4decc18af4bf298acc60cf22865037d8f33660535790c1126300d696e0b9ee0df"
+RPM_NAME = "ckb-next-0.6.0-1.1.aarch64.rpm"
+RPM_HASH = "8aa2a9e856c9c13e3b32b28c6cf842b78e74b93e0e9ed60b4320f44944f465d268a31d2c5e62ad4a98345cfa899e2675553c36508f0f80be2c7d585712a26b11"
 
 RPROVIDES:${PN} += "ckb \
 ckb-next"
@@ -27,7 +27,6 @@ libc.so.6 \
 libdbusmenu-qt5.so.2 \
 libgcc-s.so.1 \
 libm.so.6 \
-libpulse-simple.so.0 \
 libpulse.so.0 \
 libquazip1-qt5.so.1.4.0 \
 libstdc++.so.6 \

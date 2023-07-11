@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.4.1"
 
-RPM_NAME = "libxapp-devel-2.4.1-1.3.aarch64.rpm"
-RPM_HASH = "0232bace7731eb846c6324027f6b05c1a761c891526d60d0b1a5d3a041b5f064e7fce82acd67e46110ebf5753dfe6d5800619c50f85008b82241a659ca897f0f"
+RPM_NAME = "libxapp-devel-2.4.1-1.4.aarch64.rpm"
+RPM_HASH = "ae0f10e4a464cb8788b098e8e914695f8cef032d4622c502f5b89f2bfb2e1a8e6be59cf82894aa376038041e8cb00e94878a701275484c93318f3fa46b105643"
 
 RPROVIDES:${PN} += "libxapp-devel \
 libxapp-gtk3-module.so \

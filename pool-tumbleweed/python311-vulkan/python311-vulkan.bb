@@ -6,11 +6,12 @@ LICENSE = "Apache-2.0"
 
 PV = "1.1.99.1"
 
-RPM_NAME = "python311-vulkan-1.1.99.1-1.15.noarch.rpm"
-RPM_HASH = "10ea95bb978dfa353eb673a100364c3f26243f4312e4d73c1fb942e8f00a4994b4ff84601a5bc953a8778b0814c9886eebfaacff9fb7b649187adfbb53a5b947"
+RPM_NAME = "python311-vulkan-1.1.99.1-1.17.noarch.rpm"
+RPM_HASH = "d6d4c64b1bcad55ad314d47893403017542db56b8ab9f9b61aeed598740c2fb562996a91b5a447e04a86ad68f2abe26e6fce2d898f5ffe98d5ef7a7c758d1a89"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-vulkan \
+RPROVIDES:${PN} += "python3-vulkan \
+python3.11dist-vulkan \
 python311-vulkan \
 python3dist-vulkan"
 

@@ -6,8 +6,8 @@ LICENSE = "NetCDF"
 
 PV = "1.12.3"
 
-RPM_NAME = "libpnetcdf-gnu-openmpi4-hpc-1.12.3-1.2.aarch64.rpm"
-RPM_HASH = "82ca2544b69d9940d926871db20434c7a26736dffbd10b22cdcfff952f2b4b5238ad9c3cd894e0829e593891859fe31947d7038d1839b3ddf43abd589652527a"
+RPM_NAME = "libpnetcdf-gnu-openmpi4-hpc-1.12.3-1.3.aarch64.rpm"
+RPM_HASH = "992fb18a7cac818232d9143baafac065a316a837983b6bdf588c94a6773f5f4f2198040eba15fcfca74585687496d34a797a73e96203cb6abfeb93a1393f9f5b"
 
 RPROVIDES:${PN} += "libpnetcdf-gnu-openmpi4-hpc"
 

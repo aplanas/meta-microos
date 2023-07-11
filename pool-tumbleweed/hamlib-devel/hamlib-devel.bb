@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "4.5.5"
 
-RPM_NAME = "hamlib-devel-4.5.5-2.1.aarch64.rpm"
-RPM_HASH = "f5f858bc07b0b65127679785d4690abccb871c1e8f4ae8fc067a1b014a7e41d16eb57b4a298bcb2d73c2f6c893bf6111bc6dc2c2700f2c30b032aa5b511b70fe"
+RPM_NAME = "hamlib-devel-4.5.5-2.2.aarch64.rpm"
+RPM_HASH = "db2093c3488e8042ae9384c1f56a288fb133e870d829888a918279a8e8b39553a84114fdebebb49aa4e2bcb95f0b76655e8ea0d380735ff704cddc447dafaf54"
 
 RPROVIDES:${PN} += "hamlib-devel \
 pkgconfig-hamlib"

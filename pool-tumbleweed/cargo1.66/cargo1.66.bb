@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 | MIT"
 
 PV = "1.66.0"
 
-RPM_NAME = "cargo1.66-1.66.0-2.4.aarch64.rpm"
-RPM_HASH = "326c450879ce233a4563a52ce776d4ef11c30edfe42bc44bd3648dc45a2c53552a70a90c4b9f387ec4085987f4c84c73bd91a7749144dedae96d7f516c0b2c5c"
+RPM_NAME = "cargo1.66-1.66.0-2.6.aarch64.rpm"
+RPM_HASH = "1335eb2c62884c5fca5655c9e7d67022f43c5ab0d20bba82bac0d87dfac0dd205f049bb80c5b37116555e7860b782f8ee0acda97c9a66d558035471f4aae6f1d"
 
 RPROVIDES:${PN} += "cargo-vendor \
 cargo1.66 \

@@ -8,16 +8,16 @@ information about their differences. \
 This subpackage contains the files needed to build programs with ABIGAIL."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "2.0"
+PV = "2.3"
 
-RPM_NAME = "libabigail-devel-2.0-1.7.aarch64.rpm"
-RPM_HASH = "f43f05fe22a37d7d646efe07727947e06236aadfcfc580e73efba0a68bc154a231f714ed7f98b89d05f8af9a6371c8ac4ec5528f828996197d240885836acfcf"
+RPM_NAME = "libabigail-devel-2.3-1.1.aarch64.rpm"
+RPM_HASH = "c041421f19e1ee5be70b2b6a4d4595f63afd7ecf311bb87d56f4b99c8b87bd465e66c1f1746b348c7da2c5c260bdbf4071f1702b34645dd9f67f4591343c5927"
 
 RPROVIDES:${PN} += "libabigail-devel \
 pkgconfig-libabigail"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libabigail0 \
+libabigail2 \
 pkgconfig-libxml-2.0"
 
 inherit rpm

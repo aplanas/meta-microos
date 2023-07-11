@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.8"
 
-RPM_NAME = "dlpack-devel-0.8-1.2.aarch64.rpm"
-RPM_HASH = "cad408cd8512fc3634cdf591fe955daa5319696a2786a396e9c5b0c03c467f82f2d0a9bfdf0ef5f2d5079d7a73a291a1e5e03cff0b876e64bac6500780ed23a4"
+RPM_NAME = "dlpack-devel-0.8-1.3.aarch64.rpm"
+RPM_HASH = "51dee02ce552a74b2d4db58373e62b450f02202941c28b6f4580a0df2de30a589967ee31add3af1bace27d013c2065b53506facb070a01d2774e8892b7dcac44"
 
 RPROVIDES:${PN} += "cmake-dlpack \
 dlpack-devel"

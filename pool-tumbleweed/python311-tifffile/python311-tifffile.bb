@@ -7,11 +7,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2023.4.12"
 
-RPM_NAME = "python311-tifffile-2023.4.12-1.1.noarch.rpm"
-RPM_HASH = "9acb261f07ee01c4b781ad588ed5bdcd2d35cb4e2d5100d5eb4d89aa81051e5899460bbef6e908c72e84f7448014fe6c85a7d20c0231fcfdcc78321952186318"
+RPM_NAME = "python311-tifffile-2023.4.12-1.3.noarch.rpm"
+RPM_HASH = "6ef046b0c2dbb462019b42d76c4668d2b2aa30063c6c317f54dbcd2e254f422d78a40604d8e1e978960f841f272a9871f9f13caccd7084c47c409627975d445f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-tifffile \
+RPROVIDES:${PN} += "python3-tifffile \
+python3.11dist-tifffile \
 python311-tifffile \
 python3dist-tifffile"
 

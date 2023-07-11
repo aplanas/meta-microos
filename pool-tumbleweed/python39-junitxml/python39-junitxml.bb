@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.7"
 
-RPM_NAME = "python39-junitxml-0.7-4.7.noarch.rpm"
-RPM_HASH = "2bf67e6722dcf4a911e257d3a62460f1f687807b5e46bcef890f598bb87c19bdf54f7afab41bcabe37152cae317f293290c962948e49a6dfaf5cd356c594b4a2"
+RPM_NAME = "python39-junitxml-0.7-4.9.noarch.rpm"
+RPM_HASH = "263e68ff7b3e3895e43e0141580d442902f9fffc0e29bf51cb3164d8df5101511080a896ec9902ca8bc764832e3b9b9d2236fd1e8991b7bdecb159cae1c1f407"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-junitxml \

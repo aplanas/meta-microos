@@ -19,15 +19,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.12"
 
-RPM_NAME = "perl-String-ToIdentifier-EN-0.12-1.17.noarch.rpm"
-RPM_HASH = "d5e1ab27af83527fb015077713998359caa367017e1e2f6cfae3a428656fcebe3e6ad34bf87b91541e38bce14b6fbd5270658fae9160d1ebbe93b556807f6e18"
+RPM_NAME = "perl-String-ToIdentifier-EN-0.12-1.18.noarch.rpm"
+RPM_HASH = "4fe17dc2cfc9046390212d17175c5040debf853cce3bae4221e869b84399f95dc43614c1f4c8edc5da4514bbc8e27aad26ba61654adf9f208e54fc0306e7c3a6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-String--ToIdentifier--EN \
 perl-String--ToIdentifier--EN--Unicode \
 perl-String-ToIdentifier-EN"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Lingua--EN--Inflect--Phrase \
 perl-Text--Unidecode \
 perl-namespace--clean"

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "2.03.16"
 
-RPM_NAME = "lvm2-2.03.16-6.3.aarch64.rpm"
-RPM_HASH = "eed9fcf846908cbd44cbd4214f56a09e36ef18a105349c17dc3473bd5c0a00ce844dfa9220f9940e144d7dfbc9e92236d04a9c37f86d6d40790dfde9a60197af"
+RPM_NAME = "lvm2-2.03.16-7.1.aarch64.rpm"
+RPM_HASH = "773557cc9bf186d8aeacfd00a2a74c50bfa5ff92b5d8e6fee29d7655fc1d797b5633f98440a3863a34fd811d6830c4ee30e1932a553b11f26fb403b4854bde0a"
 
 RPROVIDES:${PN} += "config-lvm2 \
 libdevmapper-event-lvm2.so.2.03 \

@@ -4,11 +4,10 @@ LICENSE = "ZPL-2.1"
 
 PV = "5.0"
 
-RPM_NAME = "python310-BTrees-devel-5.0-1.4.aarch64.rpm"
-RPM_HASH = "295160d1e2ada186dcbe28a9b305d9f96892833c9f54b2ebae1f6c5eb979c976975d14f5a0db19b94af8f6c562b64a10e4f61f7bf776facc72dc00d00eb0292f"
+RPM_NAME = "python310-BTrees-devel-5.0-2.3.aarch64.rpm"
+RPM_HASH = "73a2dd17afac9f2eb5b4dcf9a650d779961af54caf7bc0788fffab957bc67de9ca98c502de613a27d0308341fda94c5bb77d9ba7dc0e61085d7115bde6d86c3d"
 
-RPROVIDES:${PN} += "python3-BTrees-devel \
-python310-BTrees-devel"
+RPROVIDES:${PN} += "python310-BTrees-devel"
 
 RDEPENDS:${PN} += "python310-BTrees"
 

@@ -5,10 +5,10 @@ DESCRIPTION = "Development files for the Qt5 XML library. \
 QXmlStreamReader and QXmlStreamWriter classes in Qt Core instead.)"
 LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
-PV = "5.15.9+kde154"
+PV = "5.15.10+kde129"
 
-RPM_NAME = "libQt5Xml-devel-5.15.9+kde154-1.2.aarch64.rpm"
-RPM_HASH = "2aade13b5772b9e9152d87043faaabf148272b825281d7deb28ce4464f2c68b4e22421d378eb017915156368d5bcc73394f0b0b5666a3fc7921c41fb4ab84616"
+RPM_NAME = "libQt5Xml-devel-5.15.10+kde129-1.1.aarch64.rpm"
+RPM_HASH = "35b4e456b0f6c41f879376c57dd3c4100040a9f3fe8fb9a723681e3522b88ffe6d2817e4fd2d9e0d1504acc80e28302676f0e3945f7e228653ceda407add9ada"
 
 RPROVIDES:${PN} += "cmake-Qt5Xml \
 libQt5Xml-devel \

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later | LGPL-2.1-or-later"
 
 PV = "1.4"
 
-RPM_NAME = "quazip-qt5-devel-1.4-2.3.aarch64.rpm"
-RPM_HASH = "deee622378c8e4b77b5097ad5b31274e86a51abce11b8baade843f941dbc429816ff6932c6d452be93d0c92c4b048087bcfde4e1f004992ec2c9a74202acd17e"
+RPM_NAME = "quazip-qt5-devel-1.4-2.4.aarch64.rpm"
+RPM_HASH = "5447ef89b25ca8876ee960516201ccd83a7c575527bb28bf820630f9a4a721de8a65bf2ca7f34ed979c4215bcffa37c51efae48213eeea4fb63e3f30e4e66997"
 
 RPROVIDES:${PN} += "cmake-QuaZip-Qt5 \
 libquazip-qt5-devel \

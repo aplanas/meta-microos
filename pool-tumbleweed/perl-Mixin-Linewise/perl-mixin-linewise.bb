@@ -7,8 +7,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.111"
 
-RPM_NAME = "perl-Mixin-Linewise-0.111-1.2.noarch.rpm"
-RPM_HASH = "aa6f5e36667e0aaf8bc9cde80afc9104c8f13681c9e8f86d5ecbd69f26f642476753e6192f9d5e3ee73149195be6b078eeadfc72c3af18d920c0ece600bdc8b7"
+RPM_NAME = "perl-Mixin-Linewise-0.111-1.3.noarch.rpm"
+RPM_HASH = "7884e5bc9ca4029274820ebba5c259fe631a6de5590e32198b5efdb890485ec4f879f031d5d4c1a51e17e059f8bb83c192ad3b0dae9241795d4a90a4b607f93a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mixin--Linewise \
@@ -16,7 +16,7 @@ perl-Mixin--Linewise--Readers \
 perl-Mixin--Linewise--Writers \
 perl-Mixin-Linewise"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-PerlIO--utf8-strict \
 perl-Sub--Exporter"
 

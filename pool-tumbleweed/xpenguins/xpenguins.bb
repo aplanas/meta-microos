@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.2.1"
 
-RPM_NAME = "xpenguins-3.2.1-1.8.aarch64.rpm"
-RPM_HASH = "0f3c094e0902182ad024b36e9ab0957dbe60e3a0ff59397fcfa3d950fa256c00c5ed3ce0e97ff5d88b2ba26bd5da8578678c2b9f6350566e16e07f45c3ca1786"
+RPM_NAME = "xpenguins-3.2.1-1.9.aarch64.rpm"
+RPM_HASH = "699dc281bcd85dd6cc020e4bfd7cfe72a377e309c6dfda353df4b59401e516a6f8eaacae4ee8e45662f4e0125928352f747254a05ac500853b2453cd093bae2c"
 
 RPROVIDES:${PN} += "xpenguins"
 

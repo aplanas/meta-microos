@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "40.1"
 
-RPM_NAME = "gnome-mines-lang-40.1-1.7.noarch.rpm"
-RPM_HASH = "0933793bfbc72f292dc19ff4168cb6fd66f2f1d636dce76331921d624b122aa0844d0eb66043c8f3311da205dfc1ac1e6142b8cb8f6acf15fde5cc59c1713f25"
+RPM_NAME = "gnome-mines-lang-40.1-1.8.noarch.rpm"
+RPM_HASH = "b8cd61a9df6bbc85f9915ce61a6f5aa4a0a30df245ebe293bf571ca2feb92326787b120635d344c55376d8f5efa7ab9fe4278eddf47f6bf98723d696b99afe87"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-mines-lang \

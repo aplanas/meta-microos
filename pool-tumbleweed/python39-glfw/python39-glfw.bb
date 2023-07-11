@@ -17,8 +17,8 @@ LICENSE = "MIT"
 
 PV = "2.5.5"
 
-RPM_NAME = "python39-glfw-2.5.5-1.4.noarch.rpm"
-RPM_HASH = "31a544a239705243ac13dcb2b8b3e1517fd6020a539fdd5e66f327e1dcb0a7e7f172f6a81fc409974279707eb26145ca765a60457acdf3837f6b25418ebe832c"
+RPM_NAME = "python39-glfw-2.5.5-1.5.noarch.rpm"
+RPM_HASH = "ee0dfd47b888c2c62ccdc53a441a97c33f3456c368f53df1ecf27791d7389dd791deaf90a3918dfa9c4db31e8eea68049418e797ab06a5dcc8ee70e124bfa0fe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-glfw \

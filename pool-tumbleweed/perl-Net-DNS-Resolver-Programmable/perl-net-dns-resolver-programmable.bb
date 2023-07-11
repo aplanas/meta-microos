@@ -8,14 +8,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.009"
 
-RPM_NAME = "perl-Net-DNS-Resolver-Programmable-0.009-1.21.noarch.rpm"
-RPM_HASH = "c390304be463e25a19ff28433058902a84ee5754249ba5018cfd93e9d83ce953057a733b240d674d20fa8d8c674be7fcc504a9d4d64748633a231ac5f789c0cc"
+RPM_NAME = "perl-Net-DNS-Resolver-Programmable-0.009-1.22.noarch.rpm"
+RPM_HASH = "b1d882fe374473222aa8de2433d5b6f052a7a3dc6249e0027e9012b826f32ca782aa5e01263e6c3f241d149dd3157e3b36a06b1d55932a115516311f650fa393"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Net--DNS--Resolver--Programmable \
 perl-Net-DNS-Resolver-Programmable"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Net--DNS"
 
 inherit rpm

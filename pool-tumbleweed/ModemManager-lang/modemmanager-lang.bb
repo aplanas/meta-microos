@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
 PV = "1.20.6"
 
-RPM_NAME = "ModemManager-lang-1.20.6-1.1.noarch.rpm"
-RPM_HASH = "be5b2d82082d7d1603fc36425bcccf0f6e45223865730b93fa0c4e61c0a1d36a62ea64aac8a11560c0a969aede44caad6e09f06bdd2a6da1bb39db054188b95b"
+RPM_NAME = "ModemManager-lang-1.20.6-1.2.noarch.rpm"
+RPM_HASH = "7adfb403d17a594fba26822923ac17f393ceeeb72d8889596e43cd20e4694ab37ec0b2b9d5756f81096e5b3f38a2546a6b91b4bfdb86803457a8d5eb7b1b1917"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ModemManager-lang \

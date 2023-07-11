@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-iffont"
 DESCRIPTION = "This package includes the documentation for texlive-iffont"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0.0svn38823"
+PV = "2023.208.1.0.0svn38823"
 
-RPM_NAME = "texlive-iffont-doc-2023.201.1.0.0svn38823-52.1.noarch.rpm"
-RPM_HASH = "1ae1d07ce01fd8f1d71da5ed7e13fb6d3b47bdece4b14440dc3ffa20c0e85067e795a15ece789eb2e32f2bbca34766b8772a9ae654179c20a2ec2af8ba0ac4a2"
+RPM_NAME = "texlive-iffont-doc-2023.208.1.0.0svn38823-53.1.noarch.rpm"
+RPM_HASH = "d7eec80e54452ef6b0aaf84bc75cb6374fde23c282bd33d4ee51aab2d3618a8f9a62fcf71b4cf45df64a63141bf3d070863aa59944e332946aa5765f51c2c06d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-iffont-doc"

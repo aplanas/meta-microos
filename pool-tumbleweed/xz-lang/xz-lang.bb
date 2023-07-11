@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later & LGPL-2.1-or-later & SUSE-Public
 
 PV = "5.4.3"
 
-RPM_NAME = "xz-lang-5.4.3-1.1.noarch.rpm"
-RPM_HASH = "f02efc577e6d15fc18b4e0185b52468688c982965e32c9af1bb104150ad6935b216f250aab96ae1edba699d340a9d1b3de439e7fb369ffe4dac93676fed055f0"
+RPM_NAME = "xz-lang-5.4.3-1.3.noarch.rpm"
+RPM_HASH = "edfe25a1b1c85c31b73e27b8f4ae783da65db3f5d64bfa95a44605223fcb7c9c0bd0eb7f82a0d6734dede715fd7f1e7c84c25fcf5ee0b3b8f8d95ed2cb70510c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xz-ca \

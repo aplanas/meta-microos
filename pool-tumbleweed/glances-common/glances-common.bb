@@ -10,8 +10,8 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "3.3.1"
 
-RPM_NAME = "glances-common-3.3.1-1.1.noarch.rpm"
-RPM_HASH = "a0c792be99db6f2a263320984e0f5053cd989b93900910c696467bf663b32841b234568334d4e3e425058b461a058f3a208979b62be55cb9443259bd4c96a612"
+RPM_NAME = "glances-common-3.3.1-2.1.noarch.rpm"
+RPM_HASH = "25caccf7a1b1314632e406dc6e90abace4d982fd47770bb470e56d5d194c151a360bf15d33e9b4edbf6852de464977b17acb0159163d3ccee37e1a7c438a91c0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glances-common"

@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "3.02~a10"
 
-RPM_NAME = "libparanoia1_0-3.02~a10-47.3.aarch64.rpm"
-RPM_HASH = "89b5ee1de0b5235c3fb8f42e0febaedfc7e6e919bd08cfecf2d143fec01e38a427d6e4d43b5abbe259fca0c684abd3f1a00fbe64ff11499d5a1178b2a4f7b1ff"
+RPM_NAME = "libparanoia1_0-3.02~a10-47.4.aarch64.rpm"
+RPM_HASH = "7373f2d20db66eeedc34c347fb90485e826b035289004a1a26e2c955f9936f6e9344587645814212925a09ddd13903d80b60dd4629ef0367df4fe599777ac145"
 
 RPROVIDES:${PN} += "libparanoia.so.1.0 \
 libparanoia1-0"

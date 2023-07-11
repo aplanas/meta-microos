@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "9.0.4"
 
-RPM_NAME = "swipl-9.0.4-1.3.aarch64.rpm"
-RPM_HASH = "f0074d3d7d5961426f76d40240768777bb068318ca2c37ebe29ffad60d4a69bd6fd9acee835c799bd7b79226dfb9a8c5df2873cd9cb43f3b5bb41c7429a737b3"
+RPM_NAME = "swipl-9.0.4-2.1.aarch64.rpm"
+RPM_HASH = "a07d5cab55a5bf7d1079987bd5cec47f7b045cd15d74c8d39fcc874dc38e41125aa92fd5ac4c4476f7bfa597cd4bf183a5e84903b6036e74dc758659492a855e"
 
 RPROVIDES:${PN} += "cmake-SWIPL \
 libedit4pl.so \
@@ -18,8 +18,7 @@ swi-pl \
 swi-prolog \
 swipl"
 
-RDEPENDS:${PN} += "/usr/bin/env \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
 /usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \

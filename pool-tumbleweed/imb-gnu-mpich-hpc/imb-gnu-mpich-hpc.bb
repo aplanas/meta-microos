@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2021.3"
 
-RPM_NAME = "imb-gnu-mpich-hpc-2021.3-1.2.noarch.rpm"
-RPM_HASH = "38da280eba381977b257aaed8d18713ffa747e7a0995821a7bf513f4489e521f0f7ea14d69d6f36d2d7e83da102b2b3c08cf5aa9a4536960c20d229c0766712e"
+RPM_NAME = "imb-gnu-mpich-hpc-2021.3-1.3.noarch.rpm"
+RPM_HASH = "d40287bb1cf8c4226288f00d1157363f43e8dd6ca23f047f44aa97a5762883376b644505b44e81a99dd810068cba118775bf41dc3029b3b22d3d5bcae3653ae4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "imb-gnu-mpich-hpc"

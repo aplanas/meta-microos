@@ -7,11 +7,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0+git.20230301"
 
-RPM_NAME = "python311-gyp-0+git.20230301-1.1.noarch.rpm"
-RPM_HASH = "61daeefffa8d841d4187f0c07a71b3f355ee627e3eb70cc1d32ac45f68d6d84b6c99f69663494d2580319778872d2009e24331fc05ead0c90661f2c52e5cd756"
+RPM_NAME = "python311-gyp-0+git.20230301-1.2.noarch.rpm"
+RPM_HASH = "8d2ff5f0dca7265cc5d54e96994da7938c74705481bafa725e5bab0784e13cfd2ef26720c859e8af25481dee468efb52ab8bcf5c3cfbd13e9aae1c70acb30cdd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gyp \
+python3-gyp \
 python3.11dist-gyp \
 python311-gyp \
 python3dist-gyp"

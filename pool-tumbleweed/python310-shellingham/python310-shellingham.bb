@@ -4,12 +4,11 @@ LICENSE = "ISC"
 
 PV = "1.5.0"
 
-RPM_NAME = "python310-shellingham-1.5.0-2.1.noarch.rpm"
-RPM_HASH = "672c4a20a5f9aa00f7fd27df7969cf393102a67a14ad6be065499bb5fcbde6afee0170c81d511d8dc219b71ad73019a705853a4ce5bb71d9f02d34dcd100d12b"
+RPM_NAME = "python310-shellingham-1.5.0-2.3.noarch.rpm"
+RPM_HASH = "54cd3b3c4831c06f8ecbf8314307ac9d055c6d6f422632d903c57b53b8319a5b155d167def5f676b9959a6669115c672fbf0e6bc14aec5d70c99f61e7125c6ad"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-shellingham \
-python3.10dist-shellingham \
+RPROVIDES:${PN} += "python3.10dist-shellingham \
 python310-shellingham \
 python3dist-shellingham"
 

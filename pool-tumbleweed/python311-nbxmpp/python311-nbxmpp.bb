@@ -5,13 +5,14 @@ This library is initialy a fork of xmpppy one, but using \
 non-blocking sockets."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.2.2"
+PV = "4.3.1"
 
-RPM_NAME = "python311-nbxmpp-4.2.2-1.1.noarch.rpm"
-RPM_HASH = "80e604e639f6c8c16bca01489ec0d5452839f3a6e1b92b31e8a30c67719b250eb61e693d2ebac3008980d437bfcc0368ebf801dabe56017f06853adff9f39688"
+RPM_NAME = "python311-nbxmpp-4.3.1-1.2.noarch.rpm"
+RPM_HASH = "aa302cf11e3745b1f95aaa050a383ec9d9473a0024d070d2737ed4117163e19af11b1e86b48255ae3d6b9fdf8ac6bf3eef9191f90aac536edbda381a750cecfa"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-nbxmpp \
+RPROVIDES:${PN} += "python3-nbxmpp \
+python3.11dist-nbxmpp \
 python311-nbxmpp \
 python3dist-nbxmpp"
 

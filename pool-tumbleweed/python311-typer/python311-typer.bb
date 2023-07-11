@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "0.9.0"
 
-RPM_NAME = "python311-typer-0.9.0-1.1.noarch.rpm"
-RPM_HASH = "ee4e784ad38f48c9e25b91e552accfa40e1a1c37a081ec707d1dbb7d10b985b3e9570e0b05d2dbf4e0790e8b96455ec5c977af87b4ebf3188ce5bf7abcc31393"
+RPM_NAME = "python311-typer-0.9.0-1.3.noarch.rpm"
+RPM_HASH = "e0bcf053ccfa2ca1dc1a06d7af93ba4d245e2bc86850fca74a144f808e95dd71105b125de613176680c1184333dd20b6488076e9e2df48c451a5791327e03d83"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-typer \
+RPROVIDES:${PN} += "python3-typer \
+python3.11dist-typer \
 python311-typer \
 python3dist-typer"
 

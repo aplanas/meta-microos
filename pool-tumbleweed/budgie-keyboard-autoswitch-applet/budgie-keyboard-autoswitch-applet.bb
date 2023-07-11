@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.6.0"
 
-RPM_NAME = "budgie-keyboard-autoswitch-applet-1.6.0-1.1.aarch64.rpm"
-RPM_HASH = "6e0fff9f97497837a6748d58656dfe7cbc00767f49e39f4b5e223e136c7d2cdc9dbbcccf9823f8c61cd22639d649972b28f3283b0f8e101eb23644498d19c513"
+RPM_NAME = "budgie-keyboard-autoswitch-applet-1.6.0-1.2.aarch64.rpm"
+RPM_HASH = "21f8443a6d04af758dfe9b71075e8fd97403cc0da38885751ba124abd5f40d57f62a7b6ae5e90918166dd0f78449391b5d65b086380b3c4c3f1f0e48772c2702"
 
 RPROVIDES:${PN} += "budgie-keyboard-autoswitch-applet"
 

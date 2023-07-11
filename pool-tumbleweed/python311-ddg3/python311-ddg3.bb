@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6.6git~20170824T092521~0ef6b2f"
 
-RPM_NAME = "python311-ddg3-0.6.6git~20170824T092521~0ef6b2f-2.13.noarch.rpm"
-RPM_HASH = "27258dc647c2f7c1bd19e33ccc8418a35f2d43c402216b42948536b81bc22057912f1c37f77ef5fbe91e2d1a0883229a478741172eae8474ac3bd93fb93bfffa"
+RPM_NAME = "python311-ddg3-0.6.6git~20170824T092521~0ef6b2f-2.14.noarch.rpm"
+RPM_HASH = "a677f588f406d77c6f3e36e3814f0e89529d90540b1e03eb4f95f962f4be44eec1b5e835abbdd7fa2b9eb79a817795f53269d01a82b698e88243570d54ef7e5c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-ddg3 \
+RPROVIDES:${PN} += "python3-ddg3 \
+python3.11dist-ddg3 \
 python311-ddg3 \
 python3dist-ddg3"
 

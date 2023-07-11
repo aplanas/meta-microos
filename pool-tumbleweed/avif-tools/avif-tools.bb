@@ -9,8 +9,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.11.1"
 
-RPM_NAME = "avif-tools-0.11.1-2.1.aarch64.rpm"
-RPM_HASH = "e0b69dd4ca7dec5e4b389d90ad42268b96d26c78ddfe58b72f4dfe4c840a6a7a0b789f9d82aa010ac0298b7524ec05f98983eaa5d88acee708ae8b5eecd1ed38"
+RPM_NAME = "avif-tools-0.11.1-2.2.aarch64.rpm"
+RPM_HASH = "7a94af8e0b8239640ed3cff16288ab38bb189cd41ab364de30d0a8435aa98ca7eddf95aa19e514ee9fb8e0ed5d8d28381c25fd68df575471f47c3b5f7890801b"
 
 RPROVIDES:${PN} += "avif-tools \
 libavif-tools"

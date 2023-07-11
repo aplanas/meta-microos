@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & MIT"
 
 PV = "1.7.36"
 
-RPM_NAME = "jcl-over-slf4j-1.7.36-4.1.noarch.rpm"
-RPM_HASH = "91584284ee1e3a1b84da083e2ac9a0a1bd54e0c364d3c4f37906ef917cab41ce247af0818298d176ed350a839a8a0064ab34c4270f43cb44c95c10966fe8e8bb"
+RPM_NAME = "jcl-over-slf4j-1.7.36-4.2.noarch.rpm"
+RPM_HASH = "8dfd804f13784f2e843fa68dbb084487c18ea8121e03113fc35346f1b883b99c02f38f68b1fa3016c046650c9a380eceea21aa24862ecaf505b8b8609aa2e7d6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jcl-over-slf4j \

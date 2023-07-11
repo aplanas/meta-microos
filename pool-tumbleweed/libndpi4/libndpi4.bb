@@ -9,8 +9,8 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "4.0"
 
-RPM_NAME = "libndpi4-4.0-1.8.aarch64.rpm"
-RPM_HASH = "087aabd9fc0a8fea8f3dfda1c7398dec6fbd10a0e5eeaf58d756b517a4efaf50b115def4ab37c06082abbec1432b9082f4902df75e6f764f39f2a1eb1141ea57"
+RPM_NAME = "libndpi4-4.0-1.9.aarch64.rpm"
+RPM_HASH = "aa743c6ac03cc908a7a87c606f07fab71c4f21994c8019f12eb7298d4e063c2fa9d2184d0f895e23ea69c0aa93e1b5f9b58e562c1687233506419bd1298dfe85"
 
 RPROVIDES:${PN} += "libndpi.so.4 \
 libndpi4"

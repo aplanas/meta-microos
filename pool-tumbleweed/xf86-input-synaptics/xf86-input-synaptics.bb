@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "1.9.2"
 
-RPM_NAME = "xf86-input-synaptics-1.9.2-1.3.aarch64.rpm"
-RPM_HASH = "c8672483131124176898f82154465d8eecd36358519e8713ff839d39a340fbdc3ab706b81803c7838241af5089e172f797c68f99dc98132b373c0cead366a4c2"
+RPM_NAME = "xf86-input-synaptics-1.9.2-1.4.aarch64.rpm"
+RPM_HASH = "b44887fdda8744119bf74a45563cabe251a31153d83877887292b22f314e832135c21e570d2f24df30cafee8a1ea4616fef4d89df6dcb230cfa34d2cce1124ff"
 
 RPROVIDES:${PN} += "x11-input-synaptics \
 xf86-input-synaptics"

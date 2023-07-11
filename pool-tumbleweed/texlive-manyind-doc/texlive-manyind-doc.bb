@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-manyind"
 DESCRIPTION = "This package includes the documentation for texlive-manyind"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn49874"
+PV = "2023.208.svn49874"
 
-RPM_NAME = "texlive-manyind-doc-2023.201.svn49874-52.1.noarch.rpm"
-RPM_HASH = "19bb2daf5acad3eda697c06bd5ee31bfb09427fc0a7fa3301d9603031e8c09429e4077454054fb8a3b2cd901a9563ea929a6aee0df2af1f1140f07273b72b3b9"
+RPM_NAME = "texlive-manyind-doc-2023.208.svn49874-53.1.noarch.rpm"
+RPM_HASH = "d8aa790b833c492ba5dfbf94abcd57a71b7df3a24d3ae32cab8fc19137ebe5924aec171c221e903e6c9dbaf281a501b8d71721c9198de5ac7c725e42d4aa22e4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-manyind-doc"

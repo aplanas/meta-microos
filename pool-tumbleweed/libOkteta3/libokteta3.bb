@@ -2,10 +2,10 @@ SUMMARY = "Hex editor/viewer QWidgets libraries"
 DESCRIPTION = "Okteta libraries for QWidget-based hex editing widgets."
 LICENSE = "GFDL-1.2-only & GPL-2.0-only"
 
-PV = "0.26.10"
+PV = "0.26.11"
 
-RPM_NAME = "libOkteta3-0.26.10-1.3.aarch64.rpm"
-RPM_HASH = "05ec595ac800e78d56203d6990b7bb80cbb33cb5feb055c5c357fe4426e53a57ae579ffa32c510a6f3b9f9b0da24685cfb193549a6cba0e9e79b1bfb9c47ccfc"
+RPM_NAME = "libOkteta3-0.26.11-1.1.aarch64.rpm"
+RPM_HASH = "df3eaca624759d36ef05f021105482fceee88cf926d242ec205c2570a814df44673706a06d69d94be258fe649e418b572684dcd6736e54f4adc7d019a40397a6"
 
 RPROVIDES:${PN} += "libOkteta3 \
 libOkteta3Core.so.0 \

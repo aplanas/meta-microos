@@ -8,11 +8,13 @@ LICENSE = "ZPL-2.1"
 
 PV = "3.0.1"
 
-RPM_NAME = "python311-zc.buildout-3.0.1-1.4.noarch.rpm"
-RPM_HASH = "1612fcd4cd9cd5f6b236cd40549a5b033ef756b2d35708bb0177c7be6cf98a5cc8949aaafb5b08f831062ca50c2488e14c8f245a0f07d92923b466271b0a4bc7"
+RPM_NAME = "python311-zc.buildout-3.0.1-1.5.noarch.rpm"
+RPM_HASH = "0450bc144e3de02037dacbbca50104280e2446245320fa8b51abf0ef5d8a61d966b1e17ff8348ac67db95ab3f8d6d3010387fc3a45ecc2f601ff5314ed25b8e8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-zc.buildout \
+RPROVIDES:${PN} += "python3-zc-buildout \
+python3-zc.buildout \
+python3.11dist-zc.buildout \
 python311-zc-buildout \
 python311-zc.buildout \
 python3dist-zc.buildout"

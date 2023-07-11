@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause & GPL-3.0-or-later"
 
 PV = "2.6.4"
 
-RPM_NAME = "octave-forge-io-2.6.4-1.7.aarch64.rpm"
-RPM_HASH = "fe0ae2a63b7ef22f4081d6af070507eefc84a1fdee31dc95510f296ce6046156286bf225557f3d8f91428060a399bbea361036286212fca2901add441e72d04f"
+RPM_NAME = "octave-forge-io-2.6.4-1.8.aarch64.rpm"
+RPM_HASH = "b8a5866df8e24e9ab035cb894832936c9d806e3301828e71633e548c6dd8e9c7d654b106c599ab91e1ec80553f5a499307d854b61f21cd66aeda099415edeb98"
 
 RPROVIDES:${PN} += "octave-forge-io"
 

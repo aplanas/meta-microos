@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.14.1"
 
-RPM_NAME = "xdg-desktop-portal-gtk-1.14.1-3.1.aarch64.rpm"
-RPM_HASH = "3b6119c1777171cf7153a15a4e7f89a6d66defa55f7d0a42803e469d53639de0fde71ab706c2070b08d06fdde7e9b9847bad8b7043e473422300c23ee4a05feb"
+RPM_NAME = "xdg-desktop-portal-gtk-1.14.1-3.2.aarch64.rpm"
+RPM_HASH = "a4a9e4a58e0f98ba9739e8cecee63f963d0e38e8de6480e7a51b39be235e1053a73b70f5bdcbcc204623b9af5aa793a5aa917010615c47b9f4f397a401f66349"
 
 RPROVIDES:${PN} += "xdg-desktop-portal-gtk"
 

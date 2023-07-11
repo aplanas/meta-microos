@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.1.1"
 
-RPM_NAME = "python-oslo.service-doc-3.1.1-1.3.noarch.rpm"
-RPM_HASH = "c47a09702ff4a4277fafadb48948e92e2555dc280071343477ef21093c84b7c639373c7a4083782181e14434021c00f384a40305643a7b2825ea4f3aa08bb4de"
+RPM_NAME = "python-oslo.service-doc-3.1.1-1.4.noarch.rpm"
+RPM_HASH = "000878771536438942e436ec2352b9e86e9af83144d34106a23408b4272b040af8bdbbb03c76b90a08ef2ecab5c755b3f9a50dbb972a2363cb95b3d1a1f3a47b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-oslo.service-doc"

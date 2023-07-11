@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & Python-2.0"
 
 PV = "1.0.0"
 
-RPM_NAME = "python39-sgmllib3k-1.0.0-4.6.noarch.rpm"
-RPM_HASH = "f2c1417ce651136cd9daf07a070c1befd867aca601d6537e0dbe92f85740f99d39ba9a2b23ed7406f725d0f8813555f39d21ab85e40fc519ebc17a887fe92630"
+RPM_NAME = "python39-sgmllib3k-1.0.0-5.1.noarch.rpm"
+RPM_HASH = "0dc2a1651b45263e3afc3d2bf565d18a1432081373a6da6d52e3423e2c210ac666409a3730088113226cf577f67317f7a9149237c296a6a3a1ec9cbec7415c18"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sgmllib3k \

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.7.3"
 
-RPM_NAME = "swww-zsh-completion-0.7.3-1.1.noarch.rpm"
-RPM_HASH = "9305b351ff5302f894afa0a84144b11a255fa4f0e60588780132be2805c52feda42600dcff8be035ce5b3bcc76dfcfff11477353a9456a2c84eab84b18de63f2"
+RPM_NAME = "swww-zsh-completion-0.7.3-1.2.noarch.rpm"
+RPM_HASH = "cd5bec27896783be999c19490819373bf84559e5f89396edae78119d6fb39e81640fff5a32203999e36c99f0a1e8325809d3a9e222e984a3c83d47fae627d175"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "swww-zsh-completion"

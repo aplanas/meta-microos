@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0"
 
 PV = "0.7.0"
 
-RPM_NAME = "epour-lang-0.7.0-1.17.noarch.rpm"
-RPM_HASH = "e1c85d6e403527abaf669f21ad25760d6c0e7be4f10c80e21223d85205bd86c5f9b8a065798ecee36f71f6c077be35576197797a64c134d1d3e9b1a90a68cbc9"
+RPM_NAME = "epour-lang-0.7.0-1.18.noarch.rpm"
+RPM_HASH = "9e798102caa8c82cecd3aa59cc004b5aa5385c7d3398d8e10eecd3e956756f2027553bd978f35bc67b147a9c5f8344f4207b7fa369250fff9c82dffbd15e4681"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "epour-lang \

@@ -5,10 +5,13 @@ LICENSE = "GPL-3.0-only"
 
 PV = "5.15.6"
 
-RPM_NAME = "python311-qtwebengine-qt5-devel-5.15.6-1.7.aarch64.rpm"
-RPM_HASH = "5a968956fbb25325703d7da843543e4e203d791e74374f2895918b09be13aeae5bf9b05d64398e3477ffa4f65a9fc0eeaaba58e5be05b2e5a3dcfbb43a924716"
+RPM_NAME = "python311-qtwebengine-qt5-devel-5.15.6-1.8.aarch64.rpm"
+RPM_HASH = "50e68cc8409c971962f042988d0a35260abe42963f0ce33fba90aacea88c78876f7e871cc4d4e590d6a936c010b196022de384dd2c2f7f20b07c1c38cac8b7f5"
 
 RPROVIDES:${PN} += "python-qtwebengine-qt5-sip \
+python3-qtwebengine-qt5-api \
+python3-qtwebengine-qt5-devel \
+python3-qtwebengine-qt5-sip \
 python311-qtwebengine-qt5-api \
 python311-qtwebengine-qt5-devel \
 python311-qtwebengine-qt5-sip"

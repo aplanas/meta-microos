@@ -13,8 +13,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.11"
 
-RPM_NAME = "perl-MooseX-Aliases-0.11-5.25.noarch.rpm"
-RPM_HASH = "ffbddedc82366126c2ac8fa134a6c6a0d5a356b6cf54dc3a0685571dbda69003444429a029314e70e085d9c0ddeeca5c944e7bcc367a0f05054085185e409c82"
+RPM_NAME = "perl-MooseX-Aliases-0.11-5.26.noarch.rpm"
+RPM_HASH = "7cddfc19dd594a9ed7daefd065fb320a7d7d15c98a2e463d9d9f1b1e270ccebbc9ec8a0fc0d4e34160a5dc63157aa481908543a60cabeb516b96938af41f68f4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooseX--Aliases \
@@ -27,7 +27,7 @@ perl-MooseX--Aliases--Meta--Trait--Role--ApplicationToRole \
 perl-MooseX--Aliases--Meta--Trait--Role--Composite \
 perl-MooseX-Aliases"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Moose \
 perl-Moose--Exporter \
 perl-Moose--Role \

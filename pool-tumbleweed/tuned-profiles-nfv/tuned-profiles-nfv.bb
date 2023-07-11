@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.20.0.18+git.7b1a20b"
 
-RPM_NAME = "tuned-profiles-nfv-2.20.0.18+git.7b1a20b-1.1.noarch.rpm"
-RPM_HASH = "a2055e7ab771d1be76b94941e45a6ca0ea3fa8be6d488fb28890d5f4eea02128fb38175c2bdacdb2090bb14a6677db34cf0826e7486960e9e47d41121eedc04e"
+RPM_NAME = "tuned-profiles-nfv-2.20.0.18+git.7b1a20b-1.2.noarch.rpm"
+RPM_HASH = "2492a8084595f08c1ec2a8a7d1ae70acb65bd1ed6de074ac0e701fc9a8a55a4aaefeb4fcc7d6ad6288f8393c82daca35963e18d49ef5fcca7edd29ca68c7ac28"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-tuned-profiles-nfv \

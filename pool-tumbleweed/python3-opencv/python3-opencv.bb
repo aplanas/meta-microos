@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.7.0"
 
-RPM_NAME = "python3-opencv-4.7.0-1.6.aarch64.rpm"
-RPM_HASH = "b1d01f4616da652588cfb70be6664b4b44acf392fabc49a7d5751c6d51f41415566d13d34ee942aee82c0fbd004adcdb0ea1eff13718a2c69305965dd5b168c7"
+RPM_NAME = "python3-opencv-4.7.0-1.8.aarch64.rpm"
+RPM_HASH = "eb884d025f1acf2b5c24d16c89554147db5af62bc1b0b205402d61bcfb446e2b6f2bddd636b5a2c2f748142298d130eef83553214685ca86e7f5caccbe386647"
 
 RPROVIDES:${PN} += "python3-opencv \
 python3-opencv-qt5"

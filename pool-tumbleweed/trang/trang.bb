@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "20220510"
 
-RPM_NAME = "trang-20220510-3.1.noarch.rpm"
-RPM_HASH = "a56a8b8c47661614fb7b9bf2ea5b9d62db5ee606c09efba9710d7979c69a9a36aeb96d9aea6fcdd4b989e4c1e1f4ecf5fdaa64f356a9a72e84b86e8024ee4348"
+RPM_NAME = "trang-20220510-3.2.noarch.rpm"
+RPM_HASH = "bb194b625e5ef409e684e3de3233048483f48b470310f5a46968946e27a9a4a271d881568acb84c7899ec12fe8d6823cddddf0d48d167f072c37e429261d6776"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-com.thaiopensource-trang \

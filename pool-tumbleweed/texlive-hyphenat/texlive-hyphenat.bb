@@ -6,10 +6,10 @@ characters (e.g., that include underscores), and hyphenation of \
 text typeset in monospaced (e.g., cmtt) fonts."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.3csvn15878"
+PV = "2023.208.2.3csvn15878"
 
-RPM_NAME = "texlive-hyphenat-2023.201.2.3csvn15878-52.1.noarch.rpm"
-RPM_HASH = "1f79eba89ee43742d4d91f21ad6aaa3a21eb1c0c13415b98667058734d329cbc255fc40936bed53d2c164b7e19ffe1aeb585f7165c31f84306090893945c7115"
+RPM_NAME = "texlive-hyphenat-2023.208.2.3csvn15878-53.1.noarch.rpm"
+RPM_HASH = "74f39f94ae4ce47c03ba684e1a267e979ecdbba8b225a2ab3d9d82eb4587a2dde4bb451b54bf9c21a32f22a5d54a030b533f3c0289b79402c42aa007556a9170"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyphenat.sty \

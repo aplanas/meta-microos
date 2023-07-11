@@ -19,8 +19,8 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.903"
 
-RPM_NAME = "perl-Config-Std-0.903-1.19.noarch.rpm"
-RPM_HASH = "49e0a542ce37e8760ad93c2ff6643c9391a71e3fb3d4a1f1e36c9f334fee4e53bb5aa2c8e2a786ad6b859b39158e25ec65351c5f7a8f9908ef8e9dc44f0a5026"
+RPM_NAME = "perl-Config-Std-0.903-1.20.noarch.rpm"
+RPM_HASH = "5ac8aa950ac312bc086703ee85fdfb8dc053eb4177d31b406218e913f6897bef3d4fa7cc348be7ceb11202458f5cd39a3df40e530530a0838ced55badc8f37ba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Config--Std \
@@ -31,7 +31,7 @@ perl-Config--Std--Hash \
 perl-Config--Std--Keyval \
 perl-Config-Std"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Class--Std \
 perl-version"
 

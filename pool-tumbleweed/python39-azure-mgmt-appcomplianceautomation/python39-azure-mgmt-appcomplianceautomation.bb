@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0~b1"
 
-RPM_NAME = "python39-azure-mgmt-appcomplianceautomation-1.0.0~b1-1.3.noarch.rpm"
-RPM_HASH = "feb608411a408526479f3aa4bf6a667717d11e7f5226ff5f8a2cd3c6af2b82ac74ca6dc919d22aaa32818cc970e8ce97346ecc4266455483ab8380619da72478"
+RPM_NAME = "python39-azure-mgmt-appcomplianceautomation-1.0.0~b1-1.4.noarch.rpm"
+RPM_HASH = "ba0a8694d003535dd9087574f79654a80ec610c5e3a611096f12c92a74f4dadf0bce0c63fd16e90388a27ff8c79b28f184bce0345fc5dd9482d36b59272f7561"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-appcomplianceautomation \

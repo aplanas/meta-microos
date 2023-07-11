@@ -4,12 +4,11 @@ LICENSE = "Apache-2.0"
 
 PV = "0.9.2"
 
-RPM_NAME = "python310-retry-0.9.2-3.6.noarch.rpm"
-RPM_HASH = "7dd453df6590580a19b77fd1f5a2b9196fe25ea7eb1bcdd8171625a6d55d36e9729297f9447c5fb5cb4518f383a0481a4dc4dc34c915b47de05e43e5b9a67723"
+RPM_NAME = "python310-retry-0.9.2-3.8.noarch.rpm"
+RPM_HASH = "87cada950deedcd64ad38c1227ef422d3167381e1621849d3c0fb73038981832082172e3889b63d8968279938e3cf717f6004c418829c5e8f986e3bca973c11b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-retry \
-python3.10dist-retry \
+RPROVIDES:${PN} += "python3.10dist-retry \
 python310-retry \
 python3dist-retry"
 

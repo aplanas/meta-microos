@@ -5,10 +5,11 @@ LICENSE = "MIT"
 
 PV = "1.0.4"
 
-RPM_NAME = "python311-simpleaudio-1.0.4-1.19.aarch64.rpm"
-RPM_HASH = "fb21923d969d2246e19b5750a15ad647a922bb8e5edbd2be9aed223ecadf86f8d1ae5bf7597b0944cbcbe5706523dca77c604d32fdba43d670e8cbae08c45763"
+RPM_NAME = "python311-simpleaudio-1.0.4-1.21.aarch64.rpm"
+RPM_HASH = "5a3b1cb1acbab6645dbec6c4ea17f7e714697f2302b7ec32c32926ae8b065cd52da21ff54197b083f41b2cf8727249a61f9ee958226d026765615d86450505ae"
 
-RPROVIDES:${PN} += "python3.11dist-simpleaudio \
+RPROVIDES:${PN} += "python3-simpleaudio \
+python3.11dist-simpleaudio \
 python311-simpleaudio \
 python3dist-simpleaudio"
 

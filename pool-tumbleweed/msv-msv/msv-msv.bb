@@ -4,8 +4,8 @@ LICENSE = "Apache-1.1 & BSD-3-Clause & Apache-2.0 & SUSE-Public-Domain"
 
 PV = "2013.6.1"
 
-RPM_NAME = "msv-msv-2013.6.1-3.10.noarch.rpm"
-RPM_HASH = "d61ed2184a2a973bc58204f2201ca365af3683cdd09ace365e40d76d72eef091c79c2b7eb9f4b3fadfb163bdff6cc478b56721cb8a6e114e18490007b0ba017a"
+RPM_NAME = "msv-msv-2013.6.1-3.11.noarch.rpm"
+RPM_HASH = "aab36b4d0bf2049f52896256b4dab08e73809f54a55b7634723d95f9a4442850bdef1b8cc3c8d0329ea5fff36815c755bcb823d30b4a4fb750be7485525daa6d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "msv-msv \

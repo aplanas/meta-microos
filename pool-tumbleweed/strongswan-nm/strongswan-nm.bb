@@ -6,10 +6,10 @@ charon IKEv2 daemon through D-Bus, designed to work using the \
 NetworkManager-strongswan graphical user interface."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.9.10"
+PV = "5.9.11"
 
-RPM_NAME = "strongswan-nm-5.9.10-2.1.aarch64.rpm"
-RPM_HASH = "20f3f694746d48fb432fda39446e452720ac9f2fb640eff541926ee67f8970e62112c984de91d6094d8039be2c5ef82f8e20997d42ab3a07b7445b39bf3208a3"
+RPM_NAME = "strongswan-nm-5.9.11-2.1.aarch64.rpm"
+RPM_HASH = "d7e5cbd7a114ace884d19d6845f6c95a2c041d850f982da958fb13c5d12074e47f2e3afac6e7b51f0fb246a756d2040ff2cfe01ee5150e440d9921e6e38e448a"
 
 RPROVIDES:${PN} += "strongswan-nm"
 

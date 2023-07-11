@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.8.2"
 
-RPM_NAME = "libhandy-devel-1.8.2-1.3.aarch64.rpm"
-RPM_HASH = "8daec244f230022c8af373313c1a0f1c667a8e1c9178de0462d6ffb36442fdaa3cb4e6207a2c4a9e86564dcd73a2abd112612ba5b8d95dd76e1b67e4d7fc7946"
+RPM_NAME = "libhandy-devel-1.8.2-1.4.aarch64.rpm"
+RPM_HASH = "03c91a2719b2c647f0e0116c996d5410837c87e9400ad515f7704b7472696b8fe3f99ff404e4ef71ff752fdf83750f617b6831b1af4f44c14d8caf14aec9d202"
 
 RPROVIDES:${PN} += "libhandy-devel \
 pkgconfig-libhandy-1"

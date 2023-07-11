@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "5.1"
 
-RPM_NAME = "update-test-interactive-5.1-1.17.aarch64.rpm"
-RPM_HASH = "22175ccd636366f971fc678844815e9f358d90209e126b57826d16e19f4be35de5bf93c67e39c0fa3d8377404a9e169a14b4ad161bde26c53db4ed3e1380bb80"
+RPM_NAME = "update-test-interactive-5.1-1.18.aarch64.rpm"
+RPM_HASH = "4f5a0571342b990ab390610190511f90230b4adf24ada682f47cf8bc534cf89331287fe48871fa3d96ce48d4c1eded38733eccfde8c831a7bef764693495950f"
 
 RPROVIDES:${PN} += "update-test-interactive"
 

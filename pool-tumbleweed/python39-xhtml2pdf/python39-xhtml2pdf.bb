@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.2.6"
 
-RPM_NAME = "python39-xhtml2pdf-0.2.6-1.4.noarch.rpm"
-RPM_HASH = "aaae669b1c89d3ab9739e729d9950c597bab691e6b026d71ed3af8012c54abc665b6df90f70b3e8941b00537bd81bf3bee2e216f59d9d301cc86adb9d770f9c9"
+RPM_NAME = "python39-xhtml2pdf-0.2.6-1.6.noarch.rpm"
+RPM_HASH = "a828719da1a233c3def0168c7a2921afd5d59e11bf840e5380b0d475e1912473d5e274a25912ba2cc9652b400788f7ed7717bd65bcca4d3b9c30a5179ad831a3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-xhtml2pdf \

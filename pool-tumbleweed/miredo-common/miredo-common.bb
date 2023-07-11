@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.6"
 
-RPM_NAME = "miredo-common-1.2.6-5.7.aarch64.rpm"
-RPM_HASH = "f10d1de84bf9ccce69b95a9cbc662da92609e10059767c8a595bef9ac5d46dcc95e6c8248d8cf67dc30912bc85e835eb2049203c7abbee0e1f2334b15c27880c"
+RPM_NAME = "miredo-common-1.2.6-5.8.aarch64.rpm"
+RPM_HASH = "6338d5ff9e9cde46e76a130d2ac6ad25d7f283597234f7d0a03112f729e444a0a10800a1214c14c77009659922236005eb9ecd1eb505cc2e3d56fc52af3c5fec"
 
 RPROVIDES:${PN} += "miredo-common \
 miredo-libs"

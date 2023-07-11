@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "4.6.0"
 
-RPM_NAME = "python311-djangorestframework-simplejwt-4.6.0-1.10.noarch.rpm"
-RPM_HASH = "d38a1356381cb7a4128f5e6fb0691636287b8fc8c2694ba081653d5ce9356b95c60aad9608bcceb7800b820e0b454a3bb70c63fd03a6c9a88b2c626b0ea7e502"
+RPM_NAME = "python311-djangorestframework-simplejwt-4.6.0-1.12.noarch.rpm"
+RPM_HASH = "23242ff362aa1d61669c03840df344dff19d6d74a5a13f7674450366122f6c2c6ebe1f4389d9d561fcabd1e42c234002b0a145508516eee40b30ba91e5774747"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-djangorestframework-simplejwt \
+RPROVIDES:${PN} += "python3-djangorestframework-simplejwt \
+python3.11dist-djangorestframework-simplejwt \
 python311-djangorestframework-simplejwt \
 python3dist-djangorestframework-simplejwt"
 

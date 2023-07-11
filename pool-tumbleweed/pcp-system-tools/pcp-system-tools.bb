@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "5.2.5"
 
-RPM_NAME = "pcp-system-tools-5.2.5-3.4.aarch64.rpm"
-RPM_HASH = "1097f6fc37bf28c00c02e419e9a8d86e89377b17d445c9c3107afcb42128d4bc8e596deddb3be7976e414ac9b66d266d4c65fd70849b3fcbcf62aef03a53e129"
+RPM_NAME = "pcp-system-tools-5.2.5-3.7.aarch64.rpm"
+RPM_HASH = "c3d1bf0e522dfa378458b6fc40b5870870d3611fca0e4dc8ece13c5780492cb9e5637debd0936c6895405580087ab907a63978cc1541a66624ea0b48ac3a756c"
 
 RPROVIDES:${PN} += "config-pcp-system-tools \
 pcp-system-tools"

@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "1.2.0"
 
-RPM_NAME = "libiec61883-devel-1.2.0-8.26.aarch64.rpm"
-RPM_HASH = "4fe74cb7f34afe004d33239b31aa4301f0d9edf0f9d7bd9bcd76a967ca23dd37cdc12237d35c5921dee08ccacb5ebd86a667b94087f86cd7deb79f480ac4509b"
+RPM_NAME = "libiec61883-devel-1.2.0-8.27.aarch64.rpm"
+RPM_HASH = "cfb914c274e781f6fda87e4346adbc044518f6d8eeb055dab93c742c00b2495b34dc2e6b39b09ada6bab951a2e9014ee23a018b2e70b01f7e0c58b0f629beab8"
 
 RPROVIDES:${PN} += "libiec61883-devel \
 pkgconfig-libiec61883"

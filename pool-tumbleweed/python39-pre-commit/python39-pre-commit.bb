@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.21.0"
 
-RPM_NAME = "python39-pre-commit-2.21.0-1.5.noarch.rpm"
-RPM_HASH = "e4a23e2eb2eae3a63e116ab9e48e73c496846fb8da5b27d82292ef4702f068ce6315caf97984501a876649a65bbfdc943c994f1ecea995801d5b13180a950b5b"
+RPM_NAME = "python39-pre-commit-2.21.0-1.7.noarch.rpm"
+RPM_HASH = "29536c2070c12f38d8ab0a774cd35addc317f8cbb8e6cb8483a2da868d4a62d3678a4dc9e49157c5dec3e5aa2d79460190454cf713398d937343603aeaaca967"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pre-commit \

@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.38.3"
 
-RPM_NAME = "gnome-nibbles-3.38.3-1.1.aarch64.rpm"
-RPM_HASH = "9ac9fb85602e6030d1a8ceba678c031408ac68814c2edc40353e5ccbd6ffcf8a7e94c013adeae5c382c31e3e9ea1fe891f9cc7622e0e3b03d88eb575004d3685"
+RPM_NAME = "gnome-nibbles-3.38.3-1.2.aarch64.rpm"
+RPM_HASH = "795c58de3baff86216831e29c258acae0c6f78d3935ec8508b5ae26c07b6c13b20ded2a6c63d3b301213e8b30c513b0d1e19e265e53b7c5154690f195319e2d3"
 
 RPROVIDES:${PN} += "gnome-nibbles"
 

@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.13.1"
 
-RPM_NAME = "gmavenplus-plugin-1.13.1-1.14.noarch.rpm"
-RPM_HASH = "695ef04ba3011f0df5b44e57ecc1ea62c6f93811dd58f2bbcc69f3a78feb20385230849cf691024b6704f405b2a512f4dfba06b750a62f76f51d798a3c1d4a22"
+RPM_NAME = "gmavenplus-plugin-1.13.1-1.15.noarch.rpm"
+RPM_HASH = "39d4f39bfc1c2ce65926f3b15728aea1aa32b3f9f7fcc030af20876869d42ff479e7c67269446e7c8cfba5ab46794a8bec84b1c75600caa977f97dbc2d069d17"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gmavenplus-plugin \

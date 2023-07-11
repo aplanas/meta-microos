@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "1.03"
 
-RPM_NAME = "viruskiller-1.03-2.23.aarch64.rpm"
-RPM_HASH = "eed3ddd7ac263856e2bdbabe118c482c25951239c6cae55f553e215a7856ff741dcafb978b85cd75469b4d5af73e9967cefa1596485fc4e107c81961a48f9c22"
+RPM_NAME = "viruskiller-1.03-2.24.aarch64.rpm"
+RPM_HASH = "97cc1d86f556c41771ad50854cc4a73d303c1c1388a140b189f3a69bd137e61d0131445a76cc6492aba687998e2b7aba14c6cb48f74a10abc1c34ce3f42e295f"
 
 RPROVIDES:${PN} += "viruskiller"
 

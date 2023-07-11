@@ -22,11 +22,12 @@ LICENSE = "MIT"
 
 PV = "3.10.1"
 
-RPM_NAME = "python311-APScheduler-3.10.1-1.3.noarch.rpm"
-RPM_HASH = "93a18d914ab1ace7a8f0a49270347d098ddd3788bf1bc8dabeea38869d41ae8c4e56e1d60edb4f4f26c066dbe81a71d7718fb110ac1530ec127baf6010370f52"
+RPM_NAME = "python311-APScheduler-3.10.1-1.5.noarch.rpm"
+RPM_HASH = "202a9c438ed08fdc41f712b8606544c3c201d75e4d987aee56969c8d839138c425deee283c0c04894c237aa7f8438afcfa52952acc6d9042b188e6d11a2c98a8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-apscheduler \
+RPROVIDES:${PN} += "python3-APScheduler \
+python3.11dist-apscheduler \
 python311-APScheduler \
 python3dist-apscheduler"
 

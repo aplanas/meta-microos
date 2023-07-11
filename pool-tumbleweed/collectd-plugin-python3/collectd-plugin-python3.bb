@@ -5,14 +5,14 @@ LICENSE = "GPL-2.0-only & MIT"
 
 PV = "5.12.0.134.g4cebbfc"
 
-RPM_NAME = "collectd-plugin-python3-5.12.0.134.g4cebbfc-1.4.aarch64.rpm"
-RPM_HASH = "5c3b3cea37208fccf12f30410e16b34afc3baf0aec85396df7ba0847575d0539d3157c183b71b9e571e93c4fd250ddae473aa7965ff8a3092679f0b96b499e9a"
+RPM_NAME = "collectd-plugin-python3-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
+RPM_HASH = "3eb0f4f39c76408ef9837fc57548acf9429d2030af5cec460fdf2d6fa26c35c6ab339c0d000c976322ec9758b080e11c35c2f573b35a068466290e1b58144cbc"
 
 RPROVIDES:${PN} += "collectd-plugin-python3"
 
 RDEPENDS:${PN} += "collectd \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libpython3.10.so.1.0"
+libpython3.11.so.1.0"
 
 inherit rpm

@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.5.2"
 
-RPM_NAME = "tracker-miners-3.5.2-1.2.aarch64.rpm"
-RPM_HASH = "0cd399bf6157b1f53516966d5c0421e0ea32636abca498e24071df0c51d13cadb30c9b5041ee4d7cf703b5a343c65921e3162845862f665e05c4df2495c77939"
+RPM_NAME = "tracker-miners-3.5.2-1.3.aarch64.rpm"
+RPM_HASH = "38e8ca862466a5d4e2efed491de08a1676bbf56e131afce26edaa8ced7dc3923258c7c504c42d5de145f436e1ac6ae7bfaa9de95d346cd7da087845b26e83e96"
 
 RPROVIDES:${PN} += "libextract-abw.so \
 libextract-bmp.so \

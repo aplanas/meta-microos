@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.1"
 
-RPM_NAME = "ghc-gitrev-doc-1.3.1-9.2.noarch.rpm"
-RPM_HASH = "93fb2330ecf32e9302d330ae61ebe1cb3578319111b68ff9f62b69a441686d479f174369ee950229ac61b8d56ac8fb208889e42354ac7bf92bebb60acd3c66a9"
+RPM_NAME = "ghc-gitrev-doc-1.3.1-9.3.noarch.rpm"
+RPM_HASH = "e00f9217047175de701f94fb96fcbd81d0ef8c628e5b84afa994c849b45638fbe3a9caebe037e3e9c8cee3e3bd55e795fc1a1207d7467ac6a2297a051babba31"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-gitrev-doc"

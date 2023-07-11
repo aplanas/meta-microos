@@ -4,12 +4,11 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "0.4.2"
 
-RPM_NAME = "python310-python-bidi-0.4.2-3.11.noarch.rpm"
-RPM_HASH = "da5ad470d96b8ea3f57ffe7b6fc2935458ad405920883ebc2a76e735fe495d06674a687fd2ae1f19f5f82e5cd090c79edb3ae20144ee64f183ccc0e33eaaf004"
+RPM_NAME = "python310-python-bidi-0.4.2-3.12.noarch.rpm"
+RPM_HASH = "e22435927df56a7ec4c47aa7af1cc2ba50a7c8affea399092fee3876b124a82d8666acf827e4bfcdd82924df6baa0515e5f761e8c85b49f4328c776348c55e1b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-python-bidi \
-python3.10dist-python-bidi \
+RPROVIDES:${PN} += "python3.10dist-python-bidi \
 python310-python-bidi \
 python3dist-python-bidi"
 

@@ -4,10 +4,11 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.9.7"
 
-RPM_NAME = "python311-python-ptrace-0.9.7-1.14.aarch64.rpm"
-RPM_HASH = "8cea4977c02f19166b791a6b5a5a2f79145d4429b1756cd3ed245cfbd849802ea4ac267d5face319ff53ac8a6250b140ffa5a6a4d7a5cc9c38c3b08ca20f5082"
+RPM_NAME = "python311-python-ptrace-0.9.7-1.16.aarch64.rpm"
+RPM_HASH = "108022ddbba6642c5f39eeae2ac2aa68ef8ea42a159d89a00fb636fe09759ff1071eca28c5a4b98f2db621895b87ecf4209aae4f55414f444cf8125ca3f65098"
 
-RPROVIDES:${PN} += "python3.11dist-cptrace \
+RPROVIDES:${PN} += "python3-python-ptrace \
+python3.11dist-cptrace \
 python3.11dist-python-ptrace \
 python311-python-ptrace \
 python3dist-cptrace \

@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "8.0.0"
 
-RPM_NAME = "python39-azure-mgmt-notificationhubs-8.0.0-1.7.noarch.rpm"
-RPM_HASH = "bcc149df5091e86166a2973947dc16986a818be599c460ef79cd2d16f3446469f03a524b2d3349162df9110c78e26dcf36e161f3d65753a1e378a5f2cac39764"
+RPM_NAME = "python39-azure-mgmt-notificationhubs-8.0.0-1.8.noarch.rpm"
+RPM_HASH = "117b7f52049043a7f156acd79a6b19a2351c5456bf2d12b6be016109fcc005a1d458c4e9f19dd49e7c8c9651aa2c4fabc44ff1cbd31f5cc8537ff1f0a23ef2fb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-notificationhubs \

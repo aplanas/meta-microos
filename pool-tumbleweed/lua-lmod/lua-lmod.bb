@@ -13,14 +13,14 @@ LICENSE = "MIT"
 
 PV = "8.7.17"
 
-RPM_NAME = "lua-lmod-8.7.17-2.1.aarch64.rpm"
-RPM_HASH = "9149cd89e70bd39a9b570bb7114fe928815c70f20ef06ea09063bb989a1cbd42364c534accd94ccc6cafd8eb063903fa5b4591a81efafbbab40b258760df825c"
+RPM_NAME = "lua-lmod-8.7.17-3.1.aarch64.rpm"
+RPM_HASH = "f873498f38a0dc6756214bddf4944542e13030e57c1a0b156ae6790fdee82a01612e443301f033d49f23ea661bfaafec17385d91863bf6a06a61dc088a85e438"
 
 RPROVIDES:${PN} += "config-lua-lmod \
+environment-modules \
 lua-lmod \
 lua-lmod-man \
 ml \
-modules \
 rpm-macro-lua-lmod-admin-modulesdir \
 rpm-macro-lua-lmod-moduledeps \
 rpm-macro-lua-lmod-modulesdir"

@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.15"
 
-RPM_NAME = "libxcb-res0-1.15-2.2.aarch64.rpm"
-RPM_HASH = "2224f00935d9d1eec72228d730be54ca4427678603726893fdabe7a9e7b880ca4fda8ec3cd1dd0610ff99c7470f63ef725f53aecf0d71c9cf75e2960ba66f0a8"
+RPM_NAME = "libxcb-res0-1.15-2.3.aarch64.rpm"
+RPM_HASH = "50e1a2aaf0970e3754626f4656d7d1b798d5e518d2b99eda1fce9e1a852b5d2ee197e90e66de75341162e8dab074e2146ef806c950175ba0b78b96fd7fd732a1"
 
 RPROVIDES:${PN} += "libxcb-res.so.0 \
 libxcb-res0"

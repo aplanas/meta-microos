@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.5"
 
-RPM_NAME = "python311-infinity-1.5-2.3.noarch.rpm"
-RPM_HASH = "c82068793a54ef2507884ec02f1b31e91a123f77e2e5c223a46b7fa881271f00869b63a71d86a3b25b1fe5d43409578b72210bef38c0e040d7549f19c93f9208"
+RPM_NAME = "python311-infinity-1.5-2.5.noarch.rpm"
+RPM_HASH = "021898a9a5eefb1ce90542cd0c2fb939449de5aea88049a1466c567408a76df6508c508845588807526fe7f10f1dd68ddd63eda3644219ac4c4749d0771a172c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-infinity \
+RPROVIDES:${PN} += "python3-infinity \
+python3.11dist-infinity \
 python311-infinity \
 python3dist-infinity"
 

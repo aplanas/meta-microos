@@ -12,8 +12,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.0.5"
 
-RPM_NAME = "reveng-3.0.5-1.2.aarch64.rpm"
-RPM_HASH = "8b2107a08eb14307791c7a101b5cf7e3795f91552980540c8f9c672937cbc0b8cc23d4e4c4322a01bc0b582f91e25f63c4588b04456193e17ee3e3738db5a8f6"
+RPM_NAME = "reveng-3.0.5-1.3.aarch64.rpm"
+RPM_HASH = "f2c4740c69dd45732f0576a7ce3457cb11fd750654777e15a08383a5dbdccf30ddf16abfd5d4ec0c252eab4bf552ee62af3c7ad1ca5fc4bcd6ce8b13891d075f"
 
 RPROVIDES:${PN} += "reveng"
 

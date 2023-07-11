@@ -9,8 +9,8 @@ LICENSE = "SUSE-Repoze"
 
 PV = "1.0.13"
 
-RPM_NAME = "python39-pylons-sphinx-themes-1.0.13-1.3.noarch.rpm"
-RPM_HASH = "e8da4bc1946674352c1777033229daafeadab18f94058ac37d851fbff60132e9277babc4cb08482bd12725a59a7b00cbde8a85fd1612ee89cf08db635b58e053"
+RPM_NAME = "python39-pylons-sphinx-themes-1.0.13-2.2.noarch.rpm"
+RPM_HASH = "ec72f94b9c8bcb4990a9857db72860e2e3bef4c82c4dfec84c3fd2567f5673278651d7b1736f72c70e97d28d2b58c1e4e8bd94a4496ada9704b186b457409e9d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pylons-sphinx-themes \

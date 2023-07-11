@@ -6,10 +6,10 @@ scripts, as well as in response to LaTeX size changing \
 commands. The commands may also be used in plain TeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.9svn34301"
+PV = "2023.208.0.0.9svn34301"
 
-RPM_NAME = "texlive-mathdots-2023.201.0.0.9svn34301-52.1.noarch.rpm"
-RPM_HASH = "a899f1adff773bcd37074795aafaac05dc48ac93ca94c92fea7313d65574710c2b5a3d09c0aa38f1154e0720eb0a5387cc1676c536d1b65eb9f26115c9cfeffe"
+RPM_NAME = "texlive-mathdots-2023.208.0.0.9svn34301-53.1.noarch.rpm"
+RPM_HASH = "08427eda659bdace33252913037c80d823de6cad81f80fea280a54fc079b29c5543bfa12e279e2cce48fac78a0572f4cce36c096d57f8b171e729e03e152ce81"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mathdots.sty \

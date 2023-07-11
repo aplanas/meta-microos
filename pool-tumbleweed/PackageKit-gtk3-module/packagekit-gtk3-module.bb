@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.5"
 
-RPM_NAME = "PackageKit-gtk3-module-1.2.5-9.3.aarch64.rpm"
-RPM_HASH = "fca5c288c345e0688914c8684225ec99b88499c0de3a31ba383052284a48a81683b3a132673709ec3ff4e957ab00ca50be575aed5ba8704e87dfe2f4f2f014ce"
+RPM_NAME = "PackageKit-gtk3-module-1.2.5-9.4.aarch64.rpm"
+RPM_HASH = "076a0d889a67241f0d1f7f8b077db3741923e22f125e58973840915bd449633876ba733f0dfaac9a90b7dcce37e57da3d8f0f6d76470e5e95265b91705342410"
 
 RPROVIDES:${PN} += "PackageKit-gtk3-module \
 libpk-gtk-module.so"

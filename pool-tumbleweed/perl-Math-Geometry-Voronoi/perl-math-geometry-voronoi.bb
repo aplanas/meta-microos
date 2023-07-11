@@ -21,15 +21,15 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "1.3"
 
-RPM_NAME = "perl-Math-Geometry-Voronoi-1.3-3.35.aarch64.rpm"
-RPM_HASH = "63fc325cb8cbadb94aa293779c0f0c99edbdce2f5ee91aaa5a7e88ad3eb6eafca87d18d77560cd0c1cbfccb01d26631a8c23b1ee85b022a58204ae133aa77755"
+RPM_NAME = "perl-Math-Geometry-Voronoi-1.3-3.36.aarch64.rpm"
+RPM_HASH = "6e32b901366661517518b9f926ad5481c2e8887ffb89bb10b0efba1ba6f9816172576ebc28b3acb6e8203425c2f83d1ef24976d5ccef13a9a0a062e5b036c318"
 
 RPROVIDES:${PN} += "perl-Math--Geometry--Voronoi \
 perl-Math-Geometry-Voronoi"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-Class--Accessor \
 perl-Params--Validate"
 

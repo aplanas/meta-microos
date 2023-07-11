@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Lithuanian Translations"
 DESCRIPTION = "YaST2 - Translations for Lithuanian."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230516.e4ba802a"
+PV = "84.87.20230630.ccfa6add46"
 
-RPM_NAME = "yast2-trans-lt-84.87.20230516.e4ba802a-1.1.noarch.rpm"
-RPM_HASH = "9c0c9e4c7a901c1e9a41a1037cef41d2809a915f697f1b20d739cfa8c15071237994d271e1fdf72adfc4fc2dda71fa749f270ed3ba324ce6146dc070023a3c14"
+RPM_NAME = "yast2-trans-lt-84.87.20230630.ccfa6add46-1.1.noarch.rpm"
+RPM_HASH = "b198a2b2daf1677fe6d31b00605602fbcfe49b68c86ab04a8c3fd702619a79882681a119e6d439dd473d520bbc0fa999e9f78aa8ec69019404c3774f53dbb640"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-lt \

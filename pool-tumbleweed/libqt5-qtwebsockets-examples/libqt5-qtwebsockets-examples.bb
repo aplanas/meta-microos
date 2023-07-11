@@ -2,10 +2,10 @@ SUMMARY = "Qt5 websockets examples"
 DESCRIPTION = "Examples for the libqt5-qtwebsockets module."
 LICENSE = "BSD-3-Clause"
 
-PV = "5.15.9+kde2"
+PV = "5.15.10+kde2"
 
-RPM_NAME = "libqt5-qtwebsockets-examples-5.15.9+kde2-1.1.aarch64.rpm"
-RPM_HASH = "477e146e49211d06ae3b13e060e8daffaeda6caf148ff7583a842e908d8ea82590acf4855269cfbc0eb83f0e9391e7661a6e8c4a4ba0289acc5b018dfabe1eed"
+RPM_NAME = "libqt5-qtwebsockets-examples-5.15.10+kde2-1.1.aarch64.rpm"
+RPM_HASH = "4d9d03a1af210b247b8803409e497502c03bfdc90d64c90462fd39eff8c659c40d4edb56ecc0f52ad76152e849604f7e1d99420ea0a802dbf13b3da36141b826"
 
 RPROVIDES:${PN} += "libqt5-qtwebsockets-examples"
 

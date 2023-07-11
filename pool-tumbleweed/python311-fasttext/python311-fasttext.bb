@@ -5,10 +5,11 @@ LICENSE = "MIT"
 
 PV = "0.9.2"
 
-RPM_NAME = "python311-fasttext-0.9.2-4.1.aarch64.rpm"
-RPM_HASH = "cd8a8515e1742a6d54641022bd3839f844b9a12e0880c8f28847748ebf613e2c4b7b0653ab8a8770f0978aa469a11683311285a32b58ddb0c5333c927e787cdb"
+RPM_NAME = "python311-fasttext-0.9.2-4.3.aarch64.rpm"
+RPM_HASH = "26f29956caf4b3c10e19fcc59bcb367bb57f2158219753fd4ddcc86b96ee7c9412255a474e9518ffe02084c8a7d1c104a8b90b58b3d2854f76931cf332e3c3b7"
 
-RPROVIDES:${PN} += "python3.11dist-fasttext \
+RPROVIDES:${PN} += "python3-fasttext \
+python3.11dist-fasttext \
 python311-fasttext \
 python3dist-fasttext"
 

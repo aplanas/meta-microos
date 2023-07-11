@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.9.49"
 
-RPM_NAME = "deepin-start-lang-5.9.49-2.4.aarch64.rpm"
-RPM_HASH = "4fdfdbd21caab45571d2c11c1f2767f7aa0fe2305c3944a2fa9bd5524cc21cf0dd557dbe18ed6feeedc66dbcb352566d67a598a2f0e578171cee759f792e1b38"
+RPM_NAME = "deepin-start-lang-5.9.49-3.1.aarch64.rpm"
+RPM_HASH = "b06bbd45f4082d946b6a4bcbf7238ade96d1848403141611f9dce20f57aa4293c1c77a1b240c0f07baeb9c1590cc67d97c1eec4a6371e0e1e9b5c6277e10eac5"
 
 RPROVIDES:${PN} += "deepin-start-lang"
 

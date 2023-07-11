@@ -7,13 +7,13 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.8.1"
 
-RPM_NAME = "fuse-oscfs-0.8.1-1.5.noarch.rpm"
-RPM_HASH = "830a24bff8d66dc263f26fed8c0308e41db661c881d8780fd41afc0ae39333a65fab9b3e6481ffe7933229d8815e53eedd132c323f7de9f9bfd772e1d5d61b3f"
+RPM_NAME = "fuse-oscfs-0.8.1-1.6.noarch.rpm"
+RPM_HASH = "4eb95e74fde46358c17cf5d73fb3d17b22eee054d505c7f037d49ec654d936db6f98c64ca550484e85371a4af42c276e3a6f08ba600c05bb956598193e3c815f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fuse-oscfs \
 python2-oscfs \
-python3.10dist-oscfs \
+python3.11dist-oscfs \
 python3dist-oscfs"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

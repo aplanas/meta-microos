@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "2.2.0"
 
-RPM_NAME = "python310-readthedocs-sphinx-ext-2.2.0-2.1.noarch.rpm"
-RPM_HASH = "37408b4cbd3168f23fb3df4c843cb4b75c2115c3103858818f0527c7bb3314230b9bf85a5f9e48d7ffb9b60412c04d765255e5a37671637c39464743d7183cb3"
+RPM_NAME = "python310-readthedocs-sphinx-ext-2.2.0-2.3.noarch.rpm"
+RPM_HASH = "45c811ac0673d886c58e7f654498dd5bd215904b1461a822debb2cc6ab62e5f43d9e60a760c8e027012e04761cae6521f507524ef8c429f547fb882e91db82d1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-readthedocs-sphinx-ext \
-python3.10dist-readthedocs-sphinx-ext \
+RPROVIDES:${PN} += "python3.10dist-readthedocs-sphinx-ext \
 python310-readthedocs-sphinx-ext \
 python3dist-readthedocs-sphinx-ext"
 

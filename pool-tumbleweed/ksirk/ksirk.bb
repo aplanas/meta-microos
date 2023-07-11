@@ -2,10 +2,10 @@ SUMMARY = "Risk-like game by KDE"
 DESCRIPTION = "KsirK is a computerized version of a well known strategy game."
 LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "ksirk-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "99486ebd6b927859dc0bb89af3e945afb1a9de19af6d047913c8afc38dcfcff4a24b5e813d479d7a9739d6c975c42050dee27023fcdc72549a40509302c3bbe4"
+RPM_NAME = "ksirk-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "6effbeb397a77faf28bcaa16c99126717586773bac10ad04a41dc2bcb5a1bed19fc8602c35d3163955b4f50e54650f589599d440a8485ac503a7b8194b3aebad"
 
 RPROVIDES:${PN} += "ksirk \
 ksirk5 \

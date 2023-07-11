@@ -6,11 +6,12 @@ LICENSE = "Apache-2.0 & MIT & OFL-1.1"
 
 PV = "1.2.0"
 
-RPM_NAME = "python311-sphinx_rtd_theme-1.2.0-1.1.noarch.rpm"
-RPM_HASH = "cb66ab33a58b0a9af74a63fbf51766d3f1c19af26eaaa4a302e1cb2713daca0812149fe9cab497fa49185d9cd4bcdd5949d997fff1a93f0734eebdaa31e84790"
+RPM_NAME = "python311-sphinx_rtd_theme-1.2.0-1.2.noarch.rpm"
+RPM_HASH = "36962502c7da44cfbd9fd9c0b4c30faf2ebd177953241d8f35602807db54c99df4d0423c2e7b7494e4ae2bfbbd6a4c3a37859dd9509e07cd5d2188aea86ae984"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-sphinx-rtd-theme \
+RPROVIDES:${PN} += "python3-sphinx-rtd-theme \
+python3.11dist-sphinx-rtd-theme \
 python311-sphinx-rtd-theme \
 python3dist-sphinx-rtd-theme"
 

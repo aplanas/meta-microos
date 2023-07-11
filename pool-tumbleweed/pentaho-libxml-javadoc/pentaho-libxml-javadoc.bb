@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "1.1.3"
 
-RPM_NAME = "pentaho-libxml-javadoc-1.1.3-6.6.noarch.rpm"
-RPM_HASH = "f87824ca2855d6b7ea0e33f5dc321f11011bee23a4f41b4a41185bc7cf86bc703c0405879cf4e8a36bc523b4f7bc3d09b8bca915381760c178f13ba43c57b3b7"
+RPM_NAME = "pentaho-libxml-javadoc-1.1.3-6.7.noarch.rpm"
+RPM_HASH = "ddfe747f45b74271276150d79774cf7cb2fc431c2f082b794c71b4f2e4d27fc1ddab8a375ff85f620e10df160fe349f24f7784a8a6591097e91a600bc95ef68d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pentaho-libxml-javadoc"

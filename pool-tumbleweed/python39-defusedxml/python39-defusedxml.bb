@@ -10,8 +10,8 @@ LICENSE = "Python-2.0"
 
 PV = "0.7.1"
 
-RPM_NAME = "python39-defusedxml-0.7.1-3.1.noarch.rpm"
-RPM_HASH = "c9d62e82438a361f486133ce4ebefa55f7a86f845fa89d70504572535439e210a41b5a16cf523660b977abf4ace8bd134c804d3aaa707e285cdca9a96b0ef660"
+RPM_NAME = "python39-defusedxml-0.7.1-3.3.noarch.rpm"
+RPM_HASH = "ec072baa7bc24918a635b6d53d8176fefd9adc1cad52b46e925b91dee9cc44628222c422059bccdfcf8b6932ebb4dea32ed7135cd7c3f9ab1196399e7d2decfc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-defusedxml \

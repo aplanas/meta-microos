@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.1.1"
 
-RPM_NAME = "linuxptp-3.1.1-2.8.aarch64.rpm"
-RPM_HASH = "903482167312a724f2ed630d94aa77b56ec8c40def291335ff73394134e022150e070c9ad2ed6524c5aee07368c9d0aed1e32f5ae1b88a944f0fd148d9a6dbff"
+RPM_NAME = "linuxptp-3.1.1-2.9.aarch64.rpm"
+RPM_HASH = "671208ae2c2ddb8c8d7cd28bba074c0ee54b8981ab89621dfb2598d63559087b4464f1654f5788462fcd6880c7305f85d622399b0e426c8fc0715b5a3bc424fb"
 
 RPROVIDES:${PN} += "config-linuxptp \
 linuxptp \

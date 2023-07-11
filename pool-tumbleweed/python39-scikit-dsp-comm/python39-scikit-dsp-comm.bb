@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.2.0"
 
-RPM_NAME = "python39-scikit-dsp-comm-1.2.0-3.8.noarch.rpm"
-RPM_HASH = "d2d3645bdfa8b5284c8d439a577bb553f540720eb6020c0c2d835536d68018246da8258ccfe9cf81c4910aa20bef43a1f4b8f99198c2714b9dbc075bb84a1269"
+RPM_NAME = "python39-scikit-dsp-comm-1.2.0-3.10.noarch.rpm"
+RPM_HASH = "5fabb743217fb38f36da5036b09d786a81711619f5da5cb4898d389e2dff5016b5d2a03cd74eeda20f5933e8b2501eb406c6abe25dc0efe3acecade54fbb0123"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-scikit-dsp-comm \

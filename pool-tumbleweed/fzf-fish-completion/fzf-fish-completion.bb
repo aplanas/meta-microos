@@ -10,10 +10,10 @@ end \
 (or append fzf_key_bindings to the fish_user_key_bindings function if the file already exists)"
 LICENSE = "MIT"
 
-PV = "0.41.0"
+PV = "0.42.0"
 
-RPM_NAME = "fzf-fish-completion-0.41.0-1.1.noarch.rpm"
-RPM_HASH = "1f43cf477964b27542aa3116004e813ed7a567965ff300710e84ad87cd4fe65b89f93f482303c7d59af93c7e7457e62f26cef70a70159f75eeb7b38e3fcc5479"
+RPM_NAME = "fzf-fish-completion-0.42.0-1.1.noarch.rpm"
+RPM_HASH = "b83c39f554d54f1f2dbc39ca3331e7810bcb0e35b96506361293d0f8d534cb151621de902b023899c548109f118df778b94737bc7e24787a8d289e70b16e387b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fzf-fish-completion"

@@ -7,13 +7,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "6.5.4"
 
-RPM_NAME = "python310-notebook-6.5.4-1.1.noarch.rpm"
-RPM_HASH = "786662ad456a7c2ee65d865c3ad4773795b372ed4d2a9ade0ea3cea0793820a89997c5fa68c956ec43effe716beb7f52b8e619aedf1d194db4158142179ffc8b"
+RPM_NAME = "python310-notebook-6.5.4-1.2.noarch.rpm"
+RPM_HASH = "c5cc59179bedd9f1563ca7102bb9f834be5208b01d6737bf23bb418edfd42f70dedd1ac8d3c5a6350760dbd83751773d3a2ca1cf5c67d934f0ab257722072de4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-jupyter-notebook \
-python3-notebook \
-python3.10dist-notebook \
+RPROVIDES:${PN} += "python3.10dist-notebook \
 python310-jupyter-notebook \
 python310-notebook \
 python3dist-notebook"

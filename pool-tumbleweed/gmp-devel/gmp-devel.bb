@@ -5,8 +5,8 @@ LICENSE = "(GPL-2.0-or-later | LGPL-3.0-or-later) & GPL-3.0-or-later"
 
 PV = "6.2.1"
 
-RPM_NAME = "gmp-devel-6.2.1-4.14.aarch64.rpm"
-RPM_HASH = "8e5cec37dc93f4f095fd7d257c54d771494b00b25f34cdbe7071035046c2dad2821137e646b23e34df5a9a91b0e2f77e748c6bf61d9c7d412fa2d9f2ff8dcfcb"
+RPM_NAME = "gmp-devel-6.2.1-4.16.aarch64.rpm"
+RPM_HASH = "44d36395ce97dcb78beb8e22e02fdf10fce926d4056aaef55b4e931169ea77f4e32df23cdf4b71fed31debf3f9ee9ad2ebd7c8f328b871ebbeefad065d98817f"
 
 RPROVIDES:${PN} += "gmp-devel \
 pkgconfig-gmp \

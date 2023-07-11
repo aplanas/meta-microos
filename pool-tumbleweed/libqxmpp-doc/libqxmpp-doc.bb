@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.5.3"
 
-RPM_NAME = "libqxmpp-doc-1.5.3-1.3.noarch.rpm"
-RPM_HASH = "ffe76cdc43fe108a14ed2be7c92015864d6740382c3d66c59671d3050e35dffab1566da1aaa703e9806a1b9ef9cef80bedfb2a0a4673b37bb518835c5298e530"
+RPM_NAME = "libqxmpp-doc-1.5.3-1.4.noarch.rpm"
+RPM_HASH = "2b4ec0dbfbbc9a598d0b0942addec494ebd43b3e740ebc2b672eedd9be63bcef72b4a5b49c4b8ee13b77178ce0fd5230dea317b5c583c49fc08ff7c1dc059372"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libqxmpp-doc"

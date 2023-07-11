@@ -20,14 +20,13 @@ Ipyvolume currently can \
 This package provides the python interface."
 LICENSE = "MIT"
 
-PV = "0.6.1"
+PV = "0.6.3"
 
-RPM_NAME = "python310-ipyvolume-0.6.1-1.3.noarch.rpm"
-RPM_HASH = "95cbf9cd14c5f58f3a5bfe37e80edababf9403b90cd8a289b57a42078efabc79c71e68ed41c1d415c22f2d65dc83d4181343a7be017bde2c1e246fff31e6657c"
+RPM_NAME = "python310-ipyvolume-0.6.3-1.2.noarch.rpm"
+RPM_HASH = "5620300261906f8701fd858d2c2e39ca859fdbfba838e47e42d695b4fb6eb44bb9687106325b7a78ebcd21058c5d6b348b60ec45292fa87b99fc1f9b8f6eaa01"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-ipyvolume \
-python3.10dist-ipyvolume \
+RPROVIDES:${PN} += "python3.10dist-ipyvolume \
 python310-ipyvolume \
 python3dist-ipyvolume"
 

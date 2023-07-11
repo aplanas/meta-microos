@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "1.0.0b2"
 
-RPM_NAME = "python311-azure-mgmt-oep-1.0.0b2-1.3.noarch.rpm"
-RPM_HASH = "53aa00769603341e301bdc14204da944c31865f9115c2394e7674d98479cae7fbe2b7cdc745155fe2ec6c78bf4989dbddc778ab7f5dc63a76db5ee1b09d76782"
+RPM_NAME = "python311-azure-mgmt-oep-1.0.0b2-1.4.noarch.rpm"
+RPM_HASH = "a2abc1e7c89b9070c3e27a44da673c23cdd3f0d2b7d18991e27c5614d6c84adc42756c35b245343f796c25f5c01854542459898c56c429fe8fe34247aac15937"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-oep \
+RPROVIDES:${PN} += "python3-azure-mgmt-oep \
+python3.11dist-azure-mgmt-oep \
 python311-azure-mgmt-oep \
 python3dist-azure-mgmt-oep"
 

@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.2"
 
-RPM_NAME = "prometheus-saptune_exporter-0.2-1.9.aarch64.rpm"
-RPM_HASH = "bdd739e8ed52e8d9b9eb662370481ba062c7852681c7443b44fb5993cf29652808cd1f96de03f34602a2852334ffa8456b1a834901343cf18f98027b2e592a04"
+RPM_NAME = "prometheus-saptune_exporter-0.2-1.10.aarch64.rpm"
+RPM_HASH = "a60fd79d662dc0c4524de0096a7901f0b42b43305ae2d1f4fc25027ddeaaf25d6d84ad0176cd53c14016a6e25c42d846d20f2ffe7847656b5f054a80c603f791"
 
 RPROVIDES:${PN} += "prometheus-saptune-exporter \
 saptune-exporter"

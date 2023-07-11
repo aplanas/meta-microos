@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.16.0"
 
-RPM_NAME = "python39-gear-0.16.0-1.4.noarch.rpm"
-RPM_HASH = "132c7687c3db5cc86539af1aad6dfb06796cd214ac1dc3428cb072f3678e514f5e755e1c0b96507458042a538655db49fd4a5500f65fb5e4f52aa3bc03d4e01d"
+RPM_NAME = "python39-gear-0.16.0-1.6.noarch.rpm"
+RPM_HASH = "8e278da7bbaa576a1a3587bdc566b5c09b5e167fa61bf8bc1358a2371dc28e65ba77a70365a6456657b248ba3b93473f82c99b833daf3fbbafc929933c147aa6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-gear \

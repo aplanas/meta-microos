@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-lt3graph"
 DESCRIPTION = "This package includes the documentation for texlive-lt3graph"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1.9svn45913"
+PV = "2023.208.0.0.1.9svn45913"
 
-RPM_NAME = "texlive-lt3graph-doc-2023.201.0.0.1.9svn45913-52.1.noarch.rpm"
-RPM_HASH = "a3c26a9a113c6ebf0cc9252667eb1045c9a812ecb880b93a4e58622093ab42df4beefb1c5e65967241c4b0b6ac0178637eeda7e6d31a37a6321fe7cf92a84b49"
+RPM_NAME = "texlive-lt3graph-doc-2023.208.0.0.1.9svn45913-53.1.noarch.rpm"
+RPM_HASH = "602cf4da004d01a70010d2ef0809ae2811345d246bf8bcae41caee0e88cb2f8a5ceafd19b31d9d80cbb9c0fd5f48f48d39a0ac26b4613581f3965ea033f816cf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lt3graph-doc"

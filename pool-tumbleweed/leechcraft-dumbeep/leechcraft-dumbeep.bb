@@ -6,8 +6,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-dumbeep-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "2d68d3ae6b1f282152d2ccbf19f4439d8fb2b70f1cd311cc9024566dcd99e476a487c827d40f2be036f46a5557d6b780fd44ecf257fe1725c23957cdd23e4b29"
+RPM_NAME = "leechcraft-dumbeep-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "3cd6e4a2a840384f539f266e03e88a079e36a8900953f513fcd805cac04485b4c28d723a71375e093127f4757bde54d2bbe739fdd0aa136ad951d7803f8ea097"
 
 RPROVIDES:${PN} += "leechcraft-dumbeep \
 leechcraft-soundnotifications \

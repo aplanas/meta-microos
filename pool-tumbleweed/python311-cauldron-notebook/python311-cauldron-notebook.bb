@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "1.0.9"
 
-RPM_NAME = "python311-cauldron-notebook-1.0.9-1.3.noarch.rpm"
-RPM_HASH = "23753fe162c6f51678d75f80f5a74a23e3b1ab29f9689b84bffaa71dbb61e8e6a3eaaafa94bb2c68da0144768084eb304a4a5b68166d3a17c26e79b1ebb7ab7a"
+RPM_NAME = "python311-cauldron-notebook-1.0.9-1.5.noarch.rpm"
+RPM_HASH = "fc419e2e9bac1cd76b298c3d6352874356eca7f7a0421277ff558f98763b303e8b842d864275b833b95d493bc6f2e9fd647467888e3fa3ff338e95426ee60c32"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-cauldron-notebook \
+RPROVIDES:${PN} += "python3-cauldron-notebook \
+python3.11dist-cauldron-notebook \
 python311-cauldron-notebook \
 python3dist-cauldron-notebook"
 

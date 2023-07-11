@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "2.2.0"
 
-RPM_NAME = "python310-pick-2.2.0-2.1.noarch.rpm"
-RPM_HASH = "60ae06ac0a727864836d6630664495b9bb4d22efa1a8e6cf3f2e37ded3718fcb713078741d7709b2c0702f68a5f3d3d5e53b0d69f25e9752bac6b27c9b57bbd4"
+RPM_NAME = "python310-pick-2.2.0-2.3.noarch.rpm"
+RPM_HASH = "f4f34dc48b83b71ffe7c5ffdc6d8b55d0d8d47c26c11410cc3dbc5cdb0024f79001e019dbee58e588b3580a33a4294f3fc09afabd1072335fd7fd2e8ce203071"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pick \
-python3.10dist-pick \
+RPROVIDES:${PN} += "python3.10dist-pick \
 python310-pick \
 python3dist-pick"
 

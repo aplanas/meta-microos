@@ -4,8 +4,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-azoth-metacontacts-0.6.70+git.14794.g33744ae6ce-3.1.aarch64.rpm"
-RPM_HASH = "dca16208f8b175befde6ef08a4e3bcd284341c183bce2764e1ca354e69832721a37c6de8dba5b9c14b0840d710c50def92a80cb12720e997aa027a8acce6282f"
+RPM_NAME = "leechcraft-azoth-metacontacts-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
+RPM_HASH = "d460558189a4ea0d1fd05c4694ebf1f0d6aa5f490ab4a2eb530580bc9bfee0ccd7a54c7dff34a9e9e57a4ed6c31d2cb992c7b224160900e8c19dbd8127b24c45"
 
 RPROVIDES:${PN} += "leechcraft-azoth-metacontacts \
 libleechcraft-azoth-metacontacts.so"

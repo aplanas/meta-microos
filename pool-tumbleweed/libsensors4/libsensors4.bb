@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.6.0"
 
-RPM_NAME = "libsensors4-3.6.0-8.7.aarch64.rpm"
-RPM_HASH = "891b528ae07d740ecf0f9a7d817af9e073195a95ba997ca110331275f6dc1bc30f77163766a00c6e5e820d6fd14cd3067587047afe18ef4ee680460ff13f9eec"
+RPM_NAME = "libsensors4-3.6.0-8.8.aarch64.rpm"
+RPM_HASH = "2b2f673be5ce4bbd9783628cf0d707bec0059dbb8e345e368b821c2174540d86b2b4dc10b912914d75d0d4ff7a9ea42f6861e44c795bb8890094bda9c5b530a5"
 
 RPROVIDES:${PN} += "config-libsensors4 \
 libsensors.so.4 \

@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.9.2"
 
-RPM_NAME = "scheme48-devel-1.9.2-2.18.aarch64.rpm"
-RPM_HASH = "57c26ed1ed7e54548dc1021dd9c40e02f4d6b95e939562aa3d5d373e9ca5097bb04d8ad4f2f13e7c2d884807554cb447877cf0a72c806f9fd2ad21efa6ef736d"
+RPM_NAME = "scheme48-devel-1.9.2-2.20.aarch64.rpm"
+RPM_HASH = "6f9c8dd918b72287705aa7a788938ad174e826ff5f82fed19035f366ad74610f4e042472d578e2bc20e5cdc6d392cd6bdda9da556daa317a90896b15e8e1c79b"
 
 RPROVIDES:${PN} += "scheme48-devel"
 

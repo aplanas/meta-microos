@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.0.post25"
 
-RPM_NAME = "python39-threevis-0.1.0.post25-6.3.noarch.rpm"
-RPM_HASH = "ff29e21ff5510782dceddd577f241184a3c69f10cfb5629f5d11e7249b82dfc4438edfb8f8ca4297e52726030b24cb18ce7a5289dbce2279ec4d5bd58a90749a"
+RPM_NAME = "python39-threevis-0.1.0.post25-6.4.noarch.rpm"
+RPM_HASH = "ee7937d8057221fe521a621e3eb9edacbe2a335042435cb48a8ec2a0b04317db6d69ba8e35456974f25974b1006c8795cf03f0e4d5ba942c6ecc2d40d58dedd5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-threevis \

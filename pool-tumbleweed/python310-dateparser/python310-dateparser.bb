@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.8"
 
-RPM_NAME = "python310-dateparser-1.1.8-2.1.noarch.rpm"
-RPM_HASH = "2c796c051c4f3e5dab2b2d03411ec79104a549f14c0a81c9ae915a38a19a46320ecac5ca5cad5108ad3cfe2d13774b9e8dd89b91e3ec9d6a47bfba9ba454dea8"
+RPM_NAME = "python310-dateparser-1.1.8-2.3.noarch.rpm"
+RPM_HASH = "02d7552bed5ce3ceaad479354132ef784d1b423fc3f1ad7aea5e27ea644d89921d3bea8486b53b31115c21f7dc649ba629b5ec9fec840dd2381e597f88a7edd7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-dateparser \
-python3.10dist-dateparser \
+RPROVIDES:${PN} += "python3.10dist-dateparser \
 python310-dateparser \
 python3dist-dateparser"
 

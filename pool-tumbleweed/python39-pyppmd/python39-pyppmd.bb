@@ -12,8 +12,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.0.0"
 
-RPM_NAME = "python39-pyppmd-1.0.0-1.5.aarch64.rpm"
-RPM_HASH = "43cf7d3df94670d707879c30e652a59b5c6e70a0290eec92f7ddc5a4751c5f3b9fb6e574e54995cb2cc93c4e96a334ffac690b3221e30fd2dc597be752fbab6e"
+RPM_NAME = "python39-pyppmd-1.0.0-2.1.aarch64.rpm"
+RPM_HASH = "53b8acd3e85f8106b164f4ff0996254978a39f82d931ea6305ef4aa7ef31df8d6fe85ead1be230775a0cb0be6b04b863b0b53283c7230a655a187c1401140f83"
 
 RPROVIDES:${PN} += "python3.9dist-pyppmd \
 python39-pyppmd \

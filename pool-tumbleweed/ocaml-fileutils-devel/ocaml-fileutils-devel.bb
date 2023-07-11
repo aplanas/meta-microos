@@ -5,8 +5,8 @@ LICENSE = "SUSE-LGPL-2.0-with-linking-exception"
 
 PV = "0.6.4"
 
-RPM_NAME = "ocaml-fileutils-devel-0.6.4-1.3.aarch64.rpm"
-RPM_HASH = "1671f112680d4bfdae26ad1d3b4627069bdabff244faf3a02585dc64bb94a82d36aa4189a67ef0ecc090166f51a7f31d713010599cd5075bd56447d21a9412f1"
+RPM_NAME = "ocaml-fileutils-devel-0.6.4-1.4.aarch64.rpm"
+RPM_HASH = "822f981d6ed2c76393e8b5558f6d7dbbcff25d131683b6d41a5115cc946c05c871935501f53fdd657037d5c254b58aac82091bcf6967e309353736af121da9e9"
 
 RPROVIDES:${PN} += "ocaml-CommonPath \
 ocaml-ExtensionPath \

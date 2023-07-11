@@ -2,10 +2,10 @@ SUMMARY = "KDE Terminal"
 DESCRIPTION = "Konsole is a terminal emulator for the K Desktop Environment."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "konsole-23.04.1-1.2.aarch64.rpm"
-RPM_HASH = "0836e888023a80251aa55651dac933e89f7333eb7975bb9b69d4a42f9f55a5c191a46d6724e9675eaa23632421da335533595a8fd728f81d00086fdbc504077e"
+RPM_NAME = "konsole-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "72549fa2fadbf6d8157009a4ff0b9118d5002383b71cdb6770f5b27202931c2b2807b1a078d5c5586612cd00f826b168fb3ac71a61e3953f0b4b2ed35a299b6e"
 
 RPROVIDES:${PN} += "konsole \
 konsole5 \

@@ -2,10 +2,10 @@ SUMMARY = "Launcher component for kubevirt"
 DESCRIPTION = "The virt-launcher package provides a launcher for kubevirt"
 LICENSE = "Apache-2.0"
 
-PV = "0.59.0"
+PV = "0.59.2"
 
-RPM_NAME = "kubevirt-virt-launcher-0.59.0-3.2.aarch64.rpm"
-RPM_HASH = "4ba6c1e1707d6803d40b406a6445a81d20cea2300c11a3631ae31dc5276931b81d32261afbb74b04dc41d21197da214dda882f90b73b667fc70ef2a98c89f2dc"
+RPM_NAME = "kubevirt-virt-launcher-0.59.2-1.1.aarch64.rpm"
+RPM_HASH = "152feff705cae7034d9b2262724c0d60132aa121d3f01fcd4b0e6276a57a31772c09c312b241aec3e55264797750174be1b9734a2b55079e5a566d57dcc1cc25"
 
 RPROVIDES:${PN} += "kubevirt-virt-launcher"
 

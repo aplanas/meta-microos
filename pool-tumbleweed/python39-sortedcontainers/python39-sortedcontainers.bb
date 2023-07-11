@@ -16,8 +16,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.4.0"
 
-RPM_NAME = "python39-sortedcontainers-2.4.0-2.1.noarch.rpm"
-RPM_HASH = "99c39153fabd4ead4d2bb260cd1ac04100a7dba296a8cbd350a57caed37e6c19a301b83387cae3259f2df20321b179f9c8066a060d291e4ebcf7a897dd6c5457"
+RPM_NAME = "python39-sortedcontainers-2.4.0-2.3.noarch.rpm"
+RPM_HASH = "60bb39924ca45e1a6584102b10f20872945958ff5a5c4263b3ea142561e05f7e61e0e966d0a75b20a0b408cd8d346c5c016664a14d0bcaa6f4d2f336dd2b11a6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sortedcontainers \

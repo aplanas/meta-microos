@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "7.2.1"
 
-RPM_NAME = "python39-pysaml2-7.2.1-2.4.aarch64.rpm"
-RPM_HASH = "13ac131a383eef7f1960d7f90bc97490c5e9659ce7db3c6834809dec7e1eba80439e9e088e970e893beda5c54cab473529ced44ff7cfed5e6a72ff9c99fd1228"
+RPM_NAME = "python39-pysaml2-7.2.1-3.3.aarch64.rpm"
+RPM_HASH = "ff3f7d25c6c0a0fc4e6988adc51276575a7e4646fdce7a68e946bc1439217a5dcdbff0a2d9c5946270e81643accbed8b3cc72c81d21e781d6f0090fb5dd08ce8"
 
 RPROVIDES:${PN} += "python3.9dist-pysaml2 \
 python39-pysaml2 \

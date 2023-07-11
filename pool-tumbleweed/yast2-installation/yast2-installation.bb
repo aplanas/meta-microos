@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Installation Parts"
 DESCRIPTION = "System installation code as present on installation media."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.6.3"
+PV = "4.6.4"
 
-RPM_NAME = "yast2-installation-4.6.3-1.1.noarch.rpm"
-RPM_HASH = "dd97e48e21d18acadc6af7f1c2ebb8bd97eadfb55f822e96379cb89be1705fa59539d1c2268493c8675fc9a32b91f8833212de7976dd9ed6a809c82f12b785e4"
+RPM_NAME = "yast2-installation-4.6.4-1.1.noarch.rpm"
+RPM_HASH = "944bc2b16d3bb6b7d7182f4ed2658d21c4d18e8db15de944f947b8bc7d45eb555710ac348aa46e93d7f9a7b0927708d6a6bec5a75a98f21bab7009333667e1ba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-installation"

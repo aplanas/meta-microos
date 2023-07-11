@@ -9,11 +9,12 @@ LICENSE = "MIT"
 
 PV = "2.0.0"
 
-RPM_NAME = "python311-azure-mgmt-maintenance-2.0.0-1.8.noarch.rpm"
-RPM_HASH = "99f4073a7b73fb587342d4994551f6a2c3521596fe3aecf8b8a3c1c848fed593a9dbce9660c9cf897a3dc73bb71411cb24960438603ece8117fdfab9a9b5b698"
+RPM_NAME = "python311-azure-mgmt-maintenance-2.0.0-1.9.noarch.rpm"
+RPM_HASH = "9c18061941b03c9bedd720c9dd3b5e7aa890977b98750356abc34cd48f03effbdd73ecf0d96d7ad111cbdbe6de31b7ba55077cccb12efadb130c3d15f5b803e3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-mgmt-maintenance \
+RPROVIDES:${PN} += "python3-azure-mgmt-maintenance \
+python3.11dist-azure-mgmt-maintenance \
 python311-azure-mgmt-maintenance \
 python3dist-azure-mgmt-maintenance"
 

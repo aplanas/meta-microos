@@ -16,8 +16,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2.23"
 
-RPM_NAME = "libtcnative-1-0-1.2.23-2.14.aarch64.rpm"
-RPM_HASH = "e280328e306058c5e29e75a8001eccbbf7c145fdfc5ad37d3bbf03788f3f271e5984b978dcf55bf7e1f874e9779ece37d56a590340cb6b8344f9a3109f494ed0"
+RPM_NAME = "libtcnative-1-0-1.2.23-2.15.aarch64.rpm"
+RPM_HASH = "38bd0dc57598572eddc57cd24f7ca8fb31b56703358183b268e965a12c5dfbfe7397b4e4ea2523c95e94dfa09a0045c5e6228cd3b5ec0764ad71cd85a901db0b"
 
 RPROVIDES:${PN} += "libtcnative-1-0 \
 libtcnative-1.so.0 \

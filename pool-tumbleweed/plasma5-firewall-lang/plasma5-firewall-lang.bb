@@ -2,10 +2,10 @@ SUMMARY = "Translations for package plasma5-firewall"
 DESCRIPTION = "Provides translations for the 'plasma5-firewall' package."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "5.27.5"
+PV = "5.27.6"
 
-RPM_NAME = "plasma5-firewall-lang-5.27.5-1.1.noarch.rpm"
-RPM_HASH = "5f7d11f26c95a38b20ac7451db117fba2cda5dd6c59baf1fd5c9e63de0397c635517557c3766165dffedc2c48d4ce31e1457b5993420edc002b424f729680dc8"
+RPM_NAME = "plasma5-firewall-lang-5.27.6-1.1.noarch.rpm"
+RPM_HASH = "06f3a80123b84e41a5d6814cb5b8dbf2ee00eb18884d2995d465abece19e12587d5e69ee1da50a6627348ae793d41936432a441e3dbdcb1918cdd51ed5c6f812"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-plasma5-firewall-ar \

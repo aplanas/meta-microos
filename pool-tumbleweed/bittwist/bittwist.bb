@@ -7,12 +7,12 @@ contents of a trace file. \
 A packet generator is useful in simulating networking traffic or \
 testing firewall, IDS, and IPS, and troubleshooting various network \
 problems."
-LICENSE = "GPL-2.0"
+LICENSE = "GPL-2.0-only"
 
-PV = "2.0"
+PV = "3.7"
 
-RPM_NAME = "bittwist-2.0-2.24.aarch64.rpm"
-RPM_HASH = "3ba3510f44b3e1cba36c7c273f001e7b97978af740711a5034a1786d0e9130b99363be33ef144cb7c3aae5ce5beae8cdbacf2452bb1a0e82bda0b9bdc049dfe6"
+RPM_NAME = "bittwist-3.7-1.1.aarch64.rpm"
+RPM_HASH = "42d65b40012cf91c61b6aa5fbff8f94ec3c7082457555b397b45ad69814d7a63f3e6897eaec584847c4c9accc32c7ea7c979788d01a8730e233c6d359561ac4a"
 
 RPROVIDES:${PN} += "bittwist"
 

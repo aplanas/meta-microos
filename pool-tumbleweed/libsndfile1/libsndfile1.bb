@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.2.0"
 
-RPM_NAME = "libsndfile1-1.2.0-2.1.aarch64.rpm"
-RPM_HASH = "a863405fe9b5d6d3b28a8cf5fe810a38e47109869b54ecf8c2b6a53294e12f0be73694d2d4c7fab068e1a5fd1ab40e23cb3d10b84c55e0596d2d710d250b39ba"
+RPM_NAME = "libsndfile1-1.2.0-2.2.aarch64.rpm"
+RPM_HASH = "098de59021ce23fc8b86a8ce477ebc6a89509d88eef857c5fbbd93666155277f131d5bbaebad1b7220fe72c7c27d80488fe788d5422738659d98c7021082e707"
 
 RPROVIDES:${PN} += "libsndfile \
 libsndfile.so.1 \

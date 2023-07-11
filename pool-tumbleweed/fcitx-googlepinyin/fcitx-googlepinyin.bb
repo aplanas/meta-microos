@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0+"
 
 PV = "0.1.6"
 
-RPM_NAME = "fcitx-googlepinyin-0.1.6-7.26.aarch64.rpm"
-RPM_HASH = "92edb6c54a3c3e2c52a61e27b98f933bf2c94f61c63b85ce62bf0720ef44f8213ba5215c0a3eaa3fa97ff0a9f50680272121a7e95ba5d166cc3e545ff0ef3ed3"
+RPM_NAME = "fcitx-googlepinyin-0.1.6-7.27.aarch64.rpm"
+RPM_HASH = "e64f33440944a039357c8a215a9da6e8ed647587f206cc6b1a8a847c4800a66d7e9eb17f41f0e24dfff800e33ac07b87a37908aaed7e944a6e7e76e18e4c32bb"
 
 RPROVIDES:${PN} += "fcitx-googlepinyin \
 locale-fcitx-zh-CN;zh-SG"

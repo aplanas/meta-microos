@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.0.05"
 
-RPM_NAME = "javahelp2-2.0.05-32.5.noarch.rpm"
-RPM_HASH = "071533f6386f4510c1e5a65a56e1da20799f3a29736fbf44e9e6e8d777e23fa582b8c6efd2cf8fd36a866643a8ac4ad87295c9a9422d3c35fdbaab9b2452abac"
+RPM_NAME = "javahelp2-2.0.05-32.6.noarch.rpm"
+RPM_HASH = "475b9d1f1204374aa0d70215c60fd157a7ed9ef00b5e77a4e59e62cb821cd9acd8ef2e83667205d0ca331e082d266ce11aaf4e4ce76a0bc9bcd995b16ed9f9f4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "javahelp2 \

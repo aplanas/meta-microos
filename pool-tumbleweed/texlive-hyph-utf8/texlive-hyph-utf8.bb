@@ -12,10 +12,10 @@ UTF-8 patterns, with their converters, will completely supplant \
 the older patterns."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn61719"
+PV = "2023.208.svn61719"
 
-RPM_NAME = "texlive-hyph-utf8-2023.201.svn61719-52.1.noarch.rpm"
-RPM_HASH = "23e9d898014b4a648f08ba78296adc2c1ec70023b6d8da64fbc2df3bdc373e0abf2743d5d71b879e68583269e96d558fa8344e5fd752d949232522162d2d73b3"
+RPM_NAME = "texlive-hyph-utf8-2023.208.svn61719-53.1.noarch.rpm"
+RPM_HASH = "3c18f4a7153dcf38c9d3c1b8d326808651e55d120dd40df4e938e1b09b392fab1cb4dc1c121dbad5f6de756cf321bd458a6f510f8c1eecfbd114be121d8146e9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-conv-utf8-ec.tex \

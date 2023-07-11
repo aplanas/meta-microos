@@ -3,10 +3,10 @@ DESCRIPTION = "Metapackage for the jupyterlab_server[test] requirement specifier
 without code coverage."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.22.1"
+PV = "2.23.0"
 
-RPM_NAME = "python39-jupyterlab-server-test-2.22.1-1.2.noarch.rpm"
-RPM_HASH = "1fe33024e87a01e4488071e5c205f608608e08b65ccc5387ea700851309fde32f5c0d0c74798ed4a24fac59cd95b14ab43802d3ab8f4407aed59d04404605bde"
+RPM_NAME = "python39-jupyterlab-server-test-2.23.0-1.3.noarch.rpm"
+RPM_HASH = "0598f04584713b3488758e659b2efe75781653372a7ef8eceabd27b382517e8d84675e36c1a95f5f1b3d0fc404572345834a783ce8b18a58d657da1f2d7de21a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-jupyterlab-server-test"

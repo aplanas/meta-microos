@@ -26,8 +26,8 @@ LICENSE = "Apache-2.0 & EPL-1.0"
 
 PV = "1.6.0"
 
-RPM_NAME = "tycho-1.6.0-6.6.noarch.rpm"
-RPM_HASH = "7db709adb545f3e48a06d703c7e928225e52d08f54795f00fc9a51ed19cc8e84df42a7073eba1b97ad5758f34bd0790ce96ed2aaa3c4343ef419bd99eafcf3aa"
+RPM_NAME = "tycho-1.6.0-6.7.noarch.rpm"
+RPM_HASH = "c16aaa855461c6c74c8092733494b65faa08aa108c7245a85c3c63cfe8070871c5123e380e7bc72a9579884ecf35a0c7d653cfb843916e76c95be9603199a07a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.eclipse.tycho-org.eclipse.tycho.core.shared \

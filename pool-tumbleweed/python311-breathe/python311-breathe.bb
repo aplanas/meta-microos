@@ -5,11 +5,13 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.34.0"
 
-RPM_NAME = "python311-breathe-4.34.0-5.2.noarch.rpm"
-RPM_HASH = "ca06e2f39d23107ae6f55a548eb2200c6067900120d125a2f521d0e5f2a876bbb92417b6082a1fe172f1a8f1952ebff1c609242d4e406026c0872936809bd3ca"
+RPM_NAME = "python311-breathe-4.34.0-6.1.noarch.rpm"
+RPM_HASH = "7b6cdba8f490bb42ca6280575d0f2df3ce844366fbfd842a1bd660fa7a4eaf61a6c254da776594a373fe9553b9a9326dbc7d7516368eaf00a21a1a8ea1f06523"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-breathe \
+RPROVIDES:${PN} += "python3-breathe \
+python3-sphinxcontrib-breathe \
+python3.11dist-breathe \
 python311-breathe \
 python311-sphinxcontrib-breathe \
 python3dist-breathe"

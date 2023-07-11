@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-hvpygmentex"
 DESCRIPTION = "This package includes the documentation for texlive-hvpygmentex"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.01svn62405"
+PV = "2023.208.0.0.01svn62405"
 
-RPM_NAME = "texlive-hvpygmentex-doc-2023.201.0.0.01svn62405-52.1.noarch.rpm"
-RPM_HASH = "932c3f4df86253f7a53fbbf964350df7af283d3ec8d374d9ae24981ef1b4b2bcded01bb49a18912b812320e629b738fa5abce3875477017fb804e844a5081a7c"
+RPM_NAME = "texlive-hvpygmentex-doc-2023.208.0.0.01svn62405-53.1.noarch.rpm"
+RPM_HASH = "7ce930e9f16faea0d24afee179991ad38cdbc32a056cf89a28aa7c021007956a49e591aa6660aef7d4f76fc1f82ccda187a99598d59084377c575b7c11cd4813"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hvpygmentex-doc"

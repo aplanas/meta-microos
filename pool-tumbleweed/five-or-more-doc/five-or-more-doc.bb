@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.32.3"
 
-RPM_NAME = "five-or-more-doc-3.32.3-1.7.noarch.rpm"
-RPM_HASH = "53452c55355a4cf16d84ad5396f281e289b0625f69efcb9ed4fc707b68561f9c67dbbf7349868d6992fa495255e170fb444098f6261ff31aaaaad78892838f5d"
+RPM_NAME = "five-or-more-doc-3.32.3-1.8.noarch.rpm"
+RPM_HASH = "410f78ce7077345db98b0975c1f39f8e79ef826b076e75c7ae6450442cab0c9500a1995975a294a4c63a017161c125a5664abe20128dc70ac3025490db2a3707"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "five-or-more-doc"

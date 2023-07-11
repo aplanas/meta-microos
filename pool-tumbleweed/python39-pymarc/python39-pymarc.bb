@@ -8,8 +8,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "4.2.2"
 
-RPM_NAME = "python39-pymarc-4.2.2-1.1.noarch.rpm"
-RPM_HASH = "7779b72f348490b02039e60170ab91947fc16eb7654eacc6bd413278747100bd582666427a26e62363d6e36bfcf2b4c73e0a23ef90d7c97814a33a074d21306e"
+RPM_NAME = "python39-pymarc-4.2.2-1.3.noarch.rpm"
+RPM_HASH = "50e4b70f91eec81880063f8d5092582b16f4a64a1ac3993ca8c2ab0227f9b36c9f6fca3010a7ebc66552eda0791b26800bc22bc88df324c5f62c90f35f14c33c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pymarc \

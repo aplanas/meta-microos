@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.5.5"
 
-RPM_NAME = "xfce4-taskmanager-lang-1.5.5-1.3.noarch.rpm"
-RPM_HASH = "e34d6d48a69d0e6b259afb18be98248120913e5a336f14e6ab783eca30b7874151f374fd45bb0616a40dbcfd89fefa1abfc75519dd115e8739244324af920c8f"
+RPM_NAME = "xfce4-taskmanager-lang-1.5.5-1.4.noarch.rpm"
+RPM_HASH = "138a95242ff6def6c809f101d5acdf4c0d1804d3276e830503b256f7b47e0b6eb3581bc25c48c99c821f3d78cbc76d9a849c343e21d8caea9cbec4cabf4ce543"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-taskmanager-ar \

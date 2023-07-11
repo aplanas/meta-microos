@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-only & MPL-1.1"
 
 PV = "1.2.2"
 
-RPM_NAME = "lib2geom1_2_0-1.2.2-2.3.aarch64.rpm"
-RPM_HASH = "b810f509820fdd64c5b8dd49c1ca55de1a0616cd42995fed607be83fad6c48b374b298a3d46a58cbf0734d0f32f8d75da88dfd389f64ff44ea0f84eadf7ea993"
+RPM_NAME = "lib2geom1_2_0-1.2.2-2.4.aarch64.rpm"
+RPM_HASH = "4e83a4dbff1df7a5a695ce5e1296d694933a1033cedc013dd37be23ee80d3241a02e1fb6c5a1f4a63da988bb389d0c67478ab0f7d30c9719f07f771795e5e270"
 
 RPROVIDES:${PN} += "lib2geom.so.1.2.0 \
 lib2geom1-2-0"

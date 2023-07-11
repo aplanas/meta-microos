@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "3.2.3"
 
-RPM_NAME = "python311-graphql-core-3.2.3-1.3.noarch.rpm"
-RPM_HASH = "776d77c3c415feec3a5017848679014a58dbe81bb077b083f6c2aa4c81f5e4b17ff11cc0b86b463164ee1b68e1e40bedae6caea2fe8878fe97426f4b17feace3"
+RPM_NAME = "python311-graphql-core-3.2.3-2.2.noarch.rpm"
+RPM_HASH = "be5d4252235dcb8637195018a393c198a92a767e35fb10cc282420483f3ad2dfd7266b13bf0cc1f1d35f44277242620745fb42164c70b2098dadfb3d1b42bf30"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-graphql-core \
+RPROVIDES:${PN} += "python3-graphql-core \
+python3.11dist-graphql-core \
 python311-graphql-core \
 python3dist-graphql-core"
 

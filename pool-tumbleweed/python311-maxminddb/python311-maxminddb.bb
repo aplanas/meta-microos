@@ -8,10 +8,11 @@ LICENSE = "Apache-2.0"
 
 PV = "2.2.0"
 
-RPM_NAME = "python311-maxminddb-2.2.0-3.1.aarch64.rpm"
-RPM_HASH = "3d4e8727c2f38bd209d31b4a6ae26874c1a1ebaaa523132484d7159ec14af9776cd222788116c1c1c72662e429ad47b9ff8115df883f77820d5dcb58f0dea8b8"
+RPM_NAME = "python311-maxminddb-2.2.0-3.3.aarch64.rpm"
+RPM_HASH = "bfad7b096ab729b5d881ad950dcd23b783288ff935785df428fbb655708705c8cb01ddcdbe80e847995adf76761a6820d33756c7ca1c9d9249587eeb403b951b"
 
-RPROVIDES:${PN} += "python3.11dist-maxminddb \
+RPROVIDES:${PN} += "python3-maxminddb \
+python3.11dist-maxminddb \
 python311-maxminddb \
 python3dist-maxminddb"
 

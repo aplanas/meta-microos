@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "4.5.5"
 
-RPM_NAME = "hamlib-4.5.5-2.1.aarch64.rpm"
-RPM_HASH = "549622c8affabe43af9f0159ee5b73cd59f1f688b064065381f96adb19c29410d614a16de08622348a392ba8e6f5ab58d0857a823df65ee4d68c898c6a17199c"
+RPM_NAME = "hamlib-4.5.5-2.2.aarch64.rpm"
+RPM_HASH = "ecba0d8725b93545b5d6965002dcbef7c2eae07c6e19c370f97b3e67aba81f290b0e242f186c50ccff5bea79b4efc33bdce42139c74d275bd567c4447758c4be"
 
 RPROVIDES:${PN} += "hamlib"
 

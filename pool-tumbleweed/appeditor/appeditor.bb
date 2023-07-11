@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.1.3"
 
-RPM_NAME = "appeditor-1.1.3-2.4.aarch64.rpm"
-RPM_HASH = "30fa5e3b3a800ef596e30a42ba99034c49a22e9f15be380880712ca52f1fd364a3df23f60608d86a7a7f0bc758d861eae3b36ef96dcf04f4091998cccc1b96de"
+RPM_NAME = "appeditor-1.1.3-2.5.aarch64.rpm"
+RPM_HASH = "96fe1b087efdd5d47a5ac4ee67beb105496d75cba6f6a8f5334eaf3bc9e80d7c19cc883bb2111fe581ae6c1212b1bd886a4e5e910c7c8bd04018f417b21284f7"
 
 RPROVIDES:${PN} += "appeditor"
 

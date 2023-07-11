@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "42.2.25"
 
-RPM_NAME = "postgresql-jdbc-42.2.25-4.3.noarch.rpm"
-RPM_HASH = "3ad20810d184f9487ad21930a25470d1b0b05dcb1f4505cc6fe67e66220f75cfc25641e266c0e608705ea607419f15fd9f435959a2ce176a13bc13e192e14aa5"
+RPM_NAME = "postgresql-jdbc-42.2.25-4.4.noarch.rpm"
+RPM_HASH = "726c40e8f450fa85d8fa87f11fd23e087f6c203932ffaac7acd43e2d3f08a4098be51e7811a4e0d74aaa3f1e30530e454203bffeba53f071a58d70010c9cc2c4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.postgresql-postgresql \

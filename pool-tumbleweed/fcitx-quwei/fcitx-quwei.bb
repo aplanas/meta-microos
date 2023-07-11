@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.2.9.9"
 
-RPM_NAME = "fcitx-quwei-4.2.9.9-1.5.aarch64.rpm"
-RPM_HASH = "cdd38c8158392adc3e9e66cd0b7bb6f0cba12a63710cd14866dfa954f5557ce7502d184ac05cc62461215a0249f631f4d62113da4d9f8540f509733c611a89e1"
+RPM_NAME = "fcitx-quwei-4.2.9.9-1.6.aarch64.rpm"
+RPM_HASH = "a8205125983b93a6a0269116016d55ccedf6be710828439f1ccefdd5146cad6b58c0b1adb75810412bef2985a487ef4f769917e7ebf229da7cd59a9876f19e06"
 
 RPROVIDES:${PN} += "fcitx-quwei"
 

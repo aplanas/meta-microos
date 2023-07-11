@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.193.0"
 
-RPM_NAME = "libflux-devel-0.193.0-1.1.aarch64.rpm"
-RPM_HASH = "8e7b4657d9fe63bd57e6988dc537604ecd811a258bdd443eb420748f96f7d3b4d3023e130dba020b16a3933f800771595695bf5d150efb2825b6f6d45b3bcea8"
+RPM_NAME = "libflux-devel-0.193.0-1.2.aarch64.rpm"
+RPM_HASH = "cd5d41502018f3425304578d8680a199f29c1243ea5c97deaf16a02c35ac0831539d10e75dbf4e1c24c87fb4457de0605f8c02bf17b5dca47a31abe3621e458c"
 
 RPROVIDES:${PN} += "libflux-devel \
 pkgconfig-flux"

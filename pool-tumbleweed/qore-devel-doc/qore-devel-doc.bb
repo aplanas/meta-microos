@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later | LGPL-2.1-or-later | MIT"
 
 PV = "1.13.0"
 
-RPM_NAME = "qore-devel-doc-1.13.0-1.4.noarch.rpm"
-RPM_HASH = "66219d391151b3702cddff1e64d0d97746532ee85d5954f3b5e37fbcceaa2fcc523cea31c96f74448e570a02484300e55ef92081e1978913bd3a70badbad0000"
+RPM_NAME = "qore-devel-doc-1.13.0-1.6.noarch.rpm"
+RPM_HASH = "704386b7a05d8ac86813eceef013e036fc8ade1f77cbf56dc57c309552e6100d6034f9124b2df6da8bb53086684b56f16aa8a9266fa61f0a3d49f6b92b0125e7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qore-devel-doc"

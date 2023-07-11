@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "2.7.1"
 
-RPM_NAME = "python39-pyjsparser-2.7.1-2.1.noarch.rpm"
-RPM_HASH = "c5530fddab6b7322d055bd63fee8d115764c57d3f5efcbc7604a2112e2253f0bbed82b1ca36ee91a5f0e7768fd413125ede1677fb6d48cd618034398f2dd6773"
+RPM_NAME = "python39-pyjsparser-2.7.1-2.2.noarch.rpm"
+RPM_HASH = "d13548c83378dee31038b7a7ab216d8d1486fb09026e34927962288066ca9d639177a5b7819c647376ace6814bdeb1442a46217e8cdf11ced88cda14395012bf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyjsparser \

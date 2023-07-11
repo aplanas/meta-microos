@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2.1"
 
-RPM_NAME = "tagsoup-1.2.1-5.3.noarch.rpm"
-RPM_HASH = "ae444cc44c229125b16e90b3324cba63c9916b58a29938604a7d99453085c1e0ef476b6570f1704606fd99fd71333ed9ffb3d7400e9e36c02aadce891f515de5"
+RPM_NAME = "tagsoup-1.2.1-5.4.noarch.rpm"
+RPM_HASH = "ee94e02eaad2ab0ff8a3660e90d81bb0387a2af91c0a2323261375262d44ea39b4f7e7af2e72df782718232e65f60146af3d57e815765e584bad5e5eb39e07c1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.ccil.cowan.tagsoup-tagsoup \

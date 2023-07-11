@@ -21,8 +21,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "0.16"
 
-RPM_NAME = "perl-Text-Aligner-0.16-1.13.noarch.rpm"
-RPM_HASH = "3f4de5f7e75c6bee9f51b8b785bce291d3554d2a3925955aa6aadc74bb0858529905acde79a783b244f239f4527818ecdfd7cfe8e13d0fb91c7db04dc0fb1b7d"
+RPM_NAME = "perl-Text-Aligner-0.16-1.14.noarch.rpm"
+RPM_HASH = "51e0106c4cdc0698291f8be36cb6986f68192fc81702a44d651df034de1a825bde94b0e5de32fb71c5b32c88203c14d3574d1813b10758d0993ed14417a521aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Text--Aligner \
@@ -30,7 +30,7 @@ perl-Text--Aligner--Auto \
 perl-Text--Aligner--MaxKeeper \
 perl-Text-Aligner"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Term--ANSIColor"
 
 inherit rpm

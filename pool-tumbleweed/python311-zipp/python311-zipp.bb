@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "3.15.0"
 
-RPM_NAME = "python311-zipp-3.15.0-2.1.noarch.rpm"
-RPM_HASH = "e19e26f8d09a805b1970f27d5b9617327da9031ffc63495d22f4f4d1e0a524966289669bed0209a9435012ec1bf54a20d9cd54bb6ed8fd31b2a6e9f76724a8cf"
+RPM_NAME = "python311-zipp-3.15.0-2.3.noarch.rpm"
+RPM_HASH = "79f81aad0b49eff8723ff4d82197009ca856c4d9b02bffec596ea43dfd055b2406fc653ac0ef95fdb0d2d464d940b97d7f57cc187228e9e4bd618275653d8ed2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-zipp \
+RPROVIDES:${PN} += "python3-zipp \
+python3.11dist-zipp \
 python311-zipp \
 python3dist-zipp"
 

@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.0.1"
 
-RPM_NAME = "findbugs-tools-3.0.1-2.20.noarch.rpm"
-RPM_HASH = "59f0e20b0252378201e83c23a65d622baacab7644935937010c3c8110fbd8c57c7dcdd5f697b30801be23f6683a28d1f506becdec191aa890dfa02793b33ebe9"
+RPM_NAME = "findbugs-tools-3.0.1-2.21.noarch.rpm"
+RPM_HASH = "5c604b0b43445662a5c4993375533725aecf49031608bbc936aa6dea3f103150bbb483284630cf7a5cdb11a25f8cc87fbd88beab7822e2abc35ce86d57d62eaa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "findbugs-tools"

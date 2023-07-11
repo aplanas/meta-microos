@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "12.3.0+git1204"
 
-RPM_NAME = "gcc12-obj-c++-12.3.0+git1204-1.1.aarch64.rpm"
-RPM_HASH = "4728a8b02c27e57494d6023c3a650ccad002f67d6547811bef584d4d858bff5c8927e222b45419302cee00400910fcd71eddc28c919bb47c1e61b04ff321572f"
+RPM_NAME = "gcc12-obj-c++-12.3.0+git1204-1.33.aarch64.rpm"
+RPM_HASH = "da8176e18e2a7a6e82ebed7ecf43511e1b8f4d8fe4d312ad5a840e016a58627cf5daefe5e07b0c6813aa7334c87426b6965f09ce982fbe520abfdaa6bee96dd2"
 
 RPROVIDES:${PN} += "gcc12-obj-c++"
 

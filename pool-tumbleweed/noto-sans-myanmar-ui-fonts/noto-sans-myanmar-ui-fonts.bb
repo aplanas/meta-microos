@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-myanmar-ui-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "3790891f2a412fb5290277f0baa70fb50e567e31b3e5fb06a3f7662ceb7ffd2cad0a75d945535ce8d67203f61bcd9ea02cddbb1740ef610ba85f41c9d751d4ef"
+RPM_NAME = "noto-sans-myanmar-ui-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "a16fd9e47f24a4273910e1d2000e9e49fd5a0b7c4c7c8944c26eebc937fa1374bc16f42b5e8b9c709d2689f07abc50a0acb68316b05059d4ad44aec25d83dc59"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-myanmar-ui \

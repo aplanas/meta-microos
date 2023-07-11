@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0.0"
 
-RPM_NAME = "python39-azure-mgmt-deploymentmanager-1.0.0.0-1.8.noarch.rpm"
-RPM_HASH = "49355832d7717e851fb755dd8befdcc4e151e5796248f4a9fb89c7aa98b2e77b24cdcf1e8ee7e0dd4c8ed288cbe4a78d6609c9feae406cf20f48571d68897d3a"
+RPM_NAME = "python39-azure-mgmt-deploymentmanager-1.0.0.0-1.9.noarch.rpm"
+RPM_HASH = "979dfed68b9cb7966fc0270f574c8d1d3756959af3307acb84373f3da3a57ccd24036b91054da25dcce975247fa069cb364144113d4f92a5250c876457fc349b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-deploymentmanager \

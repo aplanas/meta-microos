@@ -4,10 +4,10 @@ for executing commands on a remote machine. This package contains a \
 GNOME-based passphrase dialog for OpenSSH."
 LICENSE = "BSD-2-Clause"
 
-PV = "8.9p1"
+PV = "9.3p1"
 
-RPM_NAME = "openssh-askpass-gnome-8.9p1-9.2.aarch64.rpm"
-RPM_HASH = "2a008a20bf6e3614cd6639a0d00f3f7a9f2cf55c2fc8e99a1a07d4aa466c46e684fd3e689c1b4aaa40068f2376f6daabe07c120b93d9170dc94073d85af29b11"
+RPM_NAME = "openssh-askpass-gnome-9.3p1-1.1.aarch64.rpm"
+RPM_HASH = "3400f7372810de7827b50c6ce231ec469708d0fdd1a64ddb2af08c886a68c8eaadde8b6a68b02c30b30ed37f1783f3776796c599a419c81149bf6e311a6f5efc"
 
 RPROVIDES:${PN} += "openssh-askpass-gnome"
 
@@ -17,6 +17,6 @@ libgdk-3.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgtk-3.so.0 \
-openssh"
+openssh-clients"
 
 inherit rpm

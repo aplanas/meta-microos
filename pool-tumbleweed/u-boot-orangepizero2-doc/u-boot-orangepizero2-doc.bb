@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2023.04"
 
-RPM_NAME = "u-boot-orangepizero2-doc-2023.04-2.1.aarch64.rpm"
-RPM_HASH = "128fbad04f182f9b3fea8f956d9076088ac1f13f301550fbe168bed28fda444c8588dfb514a0cf10ff61237a33ab289377b465be7d8304e2ae4409d2316529b1"
+RPM_NAME = "u-boot-orangepizero2-doc-2023.04-2.2.aarch64.rpm"
+RPM_HASH = "ad121833d8eeb9279aac9c9496c3668262fc0de2502ca1240aba6ed94dcf3cf0ab3485533149944c9f776117c8d4dfe8660254cda807a08494de87e2a4d97ee8"
 
 RPROVIDES:${PN} += "u-boot-orangepizero2-doc"
 

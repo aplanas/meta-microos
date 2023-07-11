@@ -4,10 +4,10 @@ from travel reservations. The model can then be reused in other applications. \
 This package contains the library itself."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libKPim5Itinerary5-23.04.1-1.2.aarch64.rpm"
-RPM_HASH = "cbf797404cff5cffb9f4ad1b5be006f284bdeca4c83c9d18be37d9b5f6637831d2c00d4510a017b0f5862de023349655f8d30be30666d2b279c9a9af7c25e480"
+RPM_NAME = "libKPim5Itinerary5-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "670e64488fc8b9baf27e09516f07bdbee5137a4be5f895f5a24fe51f9e36d73290d15762e4b4fab4c13338e109f9d7be9d003f348bf0a94e3eb512322afa9f3f"
 
 RPROVIDES:${PN} += "libKPim5Itinerary.so.5 \
 libKPim5Itinerary5"
@@ -31,7 +31,7 @@ libcrypto.so.3 \
 libgcc-s.so.1 \
 libm.so.6 \
 libphonenumber.so.8 \
-libpoppler.so.128 \
+libpoppler.so.129 \
 libstdc++.so.6 \
 libxml2.so.2 \
 libz.so.1"

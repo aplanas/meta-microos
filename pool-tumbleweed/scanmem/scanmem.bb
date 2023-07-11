@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.17"
 
-RPM_NAME = "scanmem-0.17-2.13.aarch64.rpm"
-RPM_HASH = "43250f13da11770741e78b3f253df278a75300d47a6b905f14ea2a218df6bb8188261c295a6ff5d34b738fcd5f43e6a0b26796306001ac03713fed5c093314a6"
+RPM_NAME = "scanmem-0.17-2.14.aarch64.rpm"
+RPM_HASH = "78f1e65dccc76fbceaa4eb93bfadcbb88b8e90031ff4ec9b8ae1f3c05ea6c50660d3fd659eacda08851500a4705e77024bfd365b8626c760aacbf0441df17c6b"
 
 RPROVIDES:${PN} += "libscanmem.so.1 \
 scanmem"

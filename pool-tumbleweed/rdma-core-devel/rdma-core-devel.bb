@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause | GPL-2.0-only"
 
 PV = "45.0"
 
-RPM_NAME = "rdma-core-devel-45.0-1.1.aarch64.rpm"
-RPM_HASH = "3d41b734c925a9a1e84ea490573f3f582ad27f7bec57eb6147bb3e7fe97a91e40002dca8e04ce3ad7f6366a8f3b39500747e384f8dfba02ee9c29c74129726b2"
+RPM_NAME = "rdma-core-devel-45.0-1.2.aarch64.rpm"
+RPM_HASH = "a0e837749a24fb457b4ffefe2bbdac7f11b10e7bb781148e1a2ff8aeccb96ab36b86aec9135d07733037469f512192aba762a0526a6cfec382ca3e9ee8a2f98f"
 
 RPROVIDES:${PN} += "ibacm-devel \
 infiniband-diags-devel \

@@ -13,8 +13,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "22.11"
 
-RPM_NAME = "pgn-extract-22.11-1.3.aarch64.rpm"
-RPM_HASH = "02449a2559e475a17c1f2b1f854774152a61b0c2bdaa2fabab5c6afb591ad6ad75a0d2f14ed42484e8c86f39253bf307299d37cdf3af3d08a9038bf0fb89322f"
+RPM_NAME = "pgn-extract-22.11-1.4.aarch64.rpm"
+RPM_HASH = "e1bfe5499ce946b64a76e8891dd7a20ddb21c8710796f319b0d8c4f6da4ea55280c6619937b22ad880fef6e03e02397ddb5c60cf93895de85eda31720e288cdc"
 
 RPROVIDES:${PN} += "pgn-extract"
 

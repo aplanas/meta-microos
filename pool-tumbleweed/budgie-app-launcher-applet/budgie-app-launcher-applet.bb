@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.6.0"
 
-RPM_NAME = "budgie-app-launcher-applet-1.6.0-1.1.aarch64.rpm"
-RPM_HASH = "3cf83efe9264a2358ed96cf63da6d88b412e59b31375fe698e198102f27976ff7bc965492e54ada0901992caeeb1a8dc6d47c59cd563679d59fe5c94e0ca5f7a"
+RPM_NAME = "budgie-app-launcher-applet-1.6.0-1.2.aarch64.rpm"
+RPM_HASH = "ab8d9ab8833ca91318c817fa65f7125854f189ab768e65c3e028c224ee4369063eaa77c097b7f2eb73bfe6e8d4353680a900e3892fed7ae9dc5a135c223abfef"
 
 RPROVIDES:${PN} += "budgie-app-launcher-applet"
 

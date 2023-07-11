@@ -11,8 +11,8 @@ LICENSE = "LGPL-2.1-or-later | MPL-2.0"
 
 PV = "1.3.14"
 
-RPM_NAME = "graphite2-devel-1.3.14-3.7.aarch64.rpm"
-RPM_HASH = "cd3dae229dc002687d69971782fd66f84f4d59088af2dd2a0d010cc843fa6b601389b0dfaf7c079d4086ad15685a173e54606f32ac73cfb4f9dd76b46d832147"
+RPM_NAME = "graphite2-devel-1.3.14-3.8.aarch64.rpm"
+RPM_HASH = "218eb36bcfd44b2cda94a83e3f1783a34369eefdb46151f45ce440d12ce585f7735fc63de6cdc1fc7ffc585addae4f17550fef0789cd18e4b6bd12803979849c"
 
 RPROVIDES:${PN} += "graphite2-devel \
 pkgconfig-graphite2"

@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.14.0"
 
-RPM_NAME = "libuct0-1.14.0-1.1.aarch64.rpm"
-RPM_HASH = "68c5e36b46d0d43111fc3db26a4669d3ae7cf3794dc60cba1f859e9fe8bbbf5e9fbd81d18ebebe25f2322d73e4e0da274440909cf9cc360d605223cf362732da"
+RPM_NAME = "libuct0-1.14.0-1.2.aarch64.rpm"
+RPM_HASH = "90906fdf316ca9f1ec70cdd666a61945c4b62a4f8a0b539edf68aab7ba5ccf4ac0b7076334380427313b23c2b04bf9675d47838f54c8a3fbbe3f3085fee5e480"
 
 RPROVIDES:${PN} += "libuct-cma.so.0 \
 libuct-ib.so.0 \

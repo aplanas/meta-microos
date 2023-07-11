@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.0"
 
-RPM_NAME = "python39-asdf-unit-schemas-0.1.0-1.1.noarch.rpm"
-RPM_HASH = "116afc00c2f87bf0e8ea68b2f41545d46609e0a39b937a8ca66d49ab8c71ceac66f0092ddd42c2ae8bcf427d32da182b430ed5e3fe7d1e605307a41c70f78532"
+RPM_NAME = "python39-asdf-unit-schemas-0.1.0-1.3.noarch.rpm"
+RPM_HASH = "7a4facc4377c5fe1ee7480ca50106f442c51bcf954fe988aadf7c105a4320062b69ec2d7a59773d213805bc5e11a6ecd1efa666c6747154500bf4c39a7b39e53"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-asdf-unit-schemas \

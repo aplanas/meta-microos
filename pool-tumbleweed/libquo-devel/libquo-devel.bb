@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.1"
 
-RPM_NAME = "libquo-devel-1.3.1-2.9.aarch64.rpm"
-RPM_HASH = "a0cb251579c8203fa3f7eba035f120686cc892514e5d0b77d27f1d1b899cdf30dec79b8c8226afae46db331fc3e051f70bb94a531f5565328c05f37c477a4f23"
+RPM_NAME = "libquo-devel-1.3.1-2.10.aarch64.rpm"
+RPM_HASH = "5bce1ff456e7d4aafba4e8157fe083a90922781bc53fd7c144076022a9bfbd712c6a83c7e7aaff1caf6aef9b036502fee0eaff4adfba92b918f4290fe3ef61ad"
 
 RPROVIDES:${PN} += "libquo-devel \
 pkgconfig-libquo"

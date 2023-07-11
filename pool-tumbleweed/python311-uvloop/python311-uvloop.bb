@@ -6,10 +6,11 @@ LICENSE = "Apache-2.0 & MIT"
 
 PV = "0.17.0"
 
-RPM_NAME = "python311-uvloop-0.17.0-1.5.aarch64.rpm"
-RPM_HASH = "0c1bd9d6f028cc58f982663229e729230c442cc6d61b751a9ae183d31635604b93f577cdf27358f81dd103ba7abae54b8f4794d95682712befb6e45654db9078"
+RPM_NAME = "python311-uvloop-0.17.0-2.1.aarch64.rpm"
+RPM_HASH = "bc29d93c5e8cb1e059de678f8c7eb7fdcb3b60851de36032ac98af7040ff5399d4341229bc54d38bd900dfdbdb0c0e52769c355f94cba9bd7af1ce05100fbaf2"
 
-RPROVIDES:${PN} += "python3.11dist-uvloop \
+RPROVIDES:${PN} += "python3-uvloop \
+python3.11dist-uvloop \
 python311-uvloop \
 python3dist-uvloop"
 

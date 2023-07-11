@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.6.0"
 
-RPM_NAME = "ibmtss-1.6.0-4.4.aarch64.rpm"
-RPM_HASH = "bf92fdde4ae0adfd78192a0e36c7c453c5a3cfa7ad2612cbc8f8bd0ec1c9a44bf38debe09c3e50433d29438cb81b40af7a810f7b7c4755387f39a2ddcabead48"
+RPM_NAME = "ibmtss-1.6.0-4.5.aarch64.rpm"
+RPM_HASH = "d033bc08ba03638512822bcbac812a403e0e07b617002313bd4e3437e141f26fced2533b02ffe3b264910524cb8dd1c966a5affd6eaf38978cb3a8336695cb3d"
 
 RPROVIDES:${PN} += "ibmtss"
 

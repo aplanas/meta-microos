@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "20200818.0"
 
-RPM_NAME = "udp2raw-tunnel-20200818.0-2.3.aarch64.rpm"
-RPM_HASH = "cb5e9c5115b384c1ec9e580fc0e50862a9e0072e7bc74fe7132043a1968a107d7d7bb49cd2a34414016e117cbd2a1349ef99000434778fa7c4d6e9ee14d33dbb"
+RPM_NAME = "udp2raw-tunnel-20200818.0-2.4.aarch64.rpm"
+RPM_HASH = "ebf3a55c79c8b2a132ef89e8e67295c300101a6d1c126237b48381a379b1422a0f6af5f53e535ada6dba16e358edded9e9665d89ceefd161517fb65d6c3f8d4b"
 
 RPROVIDES:${PN} += "config-udp2raw-tunnel \
 udp2raw-tunnel"

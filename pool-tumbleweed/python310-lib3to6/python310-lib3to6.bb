@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "202107.1047"
 
-RPM_NAME = "python310-lib3to6-202107.1047-2.4.noarch.rpm"
-RPM_HASH = "863350277f3a51c214cd8becfdc358841e9a11b23fc95eaacd0ad3c6bafb2a063320a158fef4f7ffb95f1bf99d0cf7a2e74a69f1beb53cbf27645963aa2dcf7a"
+RPM_NAME = "python310-lib3to6-202107.1047-2.6.noarch.rpm"
+RPM_HASH = "6a4f30b47e42e21aa134b8d35683302443fef1b3898ad05034a90d7de6804edff4e5f2abb7c637121b17455a66bedeb439695c6a89cfb70d40e3da59a56a28a5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-lib3to6 \
-python3.10dist-lib3to6 \
+RPROVIDES:${PN} += "python3.10dist-lib3to6 \
 python310-lib3to6 \
 python3dist-lib3to6"
 

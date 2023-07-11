@@ -6,10 +6,10 @@ API. \
 Digests supported: MD2/4/5, RIPEMD160, SHA1, SHA2-256/384/512."
 LICENSE = "BSD-2-Clause | BSD-3-Clause | ISC | SUSE-Public-Domain"
 
-PV = "1.0.4"
+PV = "1.1.0"
 
-RPM_NAME = "libmd0-1.0.4-1.7.aarch64.rpm"
-RPM_HASH = "76a60d7710751e4ebdbe96b0bf79036e25a563668dafe56342048c7503b13abadf9c381e78d8cd131a5d9aaf5766096a3038ff207c34aedadf6415a408a7de6c"
+RPM_NAME = "libmd0-1.1.0-1.1.aarch64.rpm"
+RPM_HASH = "8c2168e14c14d722cdf7a1b0b3aad9549562538e9acdc02137182e62ad859ebd65328e30922d116d755d30a7ee77b44c5de1219563d15aa0d9bfeee6f5e7ae17"
 
 RPROVIDES:${PN} += "libmd.so.0 \
 libmd0"

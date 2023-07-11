@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.5.1"
 
-RPM_NAME = "python39-jira-3.5.1-1.1.noarch.rpm"
-RPM_HASH = "3ab82e8e221c0d6ad5b76f322ab268c1a2eb7784c36e2398db8a382a4672e86345749484991e79e31e79d3f4dfa04f70271b8d458d3dbb1a10fc127701d73007"
+RPM_NAME = "python39-jira-3.5.1-1.3.noarch.rpm"
+RPM_HASH = "d57b51d018139dd1115ba09500d6636f08ff74e56c05c21aa7bfae7fec312f3ee55f785a667ff425871077c224f28f5dca8d2eea65dd0b9b103dc7d6bcce420c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-jira \

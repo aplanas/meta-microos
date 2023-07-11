@@ -13,8 +13,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "4.10.0"
 
-RPM_NAME = "gzdoom-4.10.0-3.1.aarch64.rpm"
-RPM_HASH = "0d3991712e599d106f6ee53c47ccd63103c1913abf640931474fe30f56dc7564ae79c6da532812c7fd14236b0f273d42396418deed98d4e87cae56257acdaea1"
+RPM_NAME = "gzdoom-4.10.0-3.2.aarch64.rpm"
+RPM_HASH = "9fb2b88fae23d62ed3d6da2d44838fbe4756ddda1db1565af07a06b23ac68f1039cd9799ebe2f38143c67a992ead42dd838a79cb651155a6d6d71ef5e695c5cd"
 
 RPROVIDES:${PN} += "bundled-gdtoa \
 bundled-re2c \

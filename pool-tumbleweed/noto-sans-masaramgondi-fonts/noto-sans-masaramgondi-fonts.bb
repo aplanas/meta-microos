@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-masaramgondi-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "23ab9522669941827e1f39f536ec6859ae685a36428083d2e0243bcaed1d62ebdc533192a625e35af031cf0e50e02375acdb34f6f4372a94bcce3f2dda55cbb0"
+RPM_NAME = "noto-sans-masaramgondi-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "f39a6602880e9481d0dde293c35a3c64f4d77ea3fdafef89994fa249fd5abdac8c4a1c327ce9fb563d42493432239930a45bdd4d1b1344ac657b985e34612dda"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-masaramgondi \

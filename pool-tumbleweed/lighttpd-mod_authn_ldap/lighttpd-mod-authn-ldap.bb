@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.71"
 
-RPM_NAME = "lighttpd-mod_authn_ldap-1.4.71-1.1.aarch64.rpm"
-RPM_HASH = "a5d6109ec621e8e5a031f7ed36ce2c7697eccf21e618519b49f878022352a36599a9a46f55d3cb15aea1fdda949aa758f7da099f1e7dd3135b8ced5981379d56"
+RPM_NAME = "lighttpd-mod_authn_ldap-1.4.71-1.2.aarch64.rpm"
+RPM_HASH = "f38e533384e5e155caabc76369cd4b9253afaab95cff4b52b028810535754952a6a617c9f9c8b57d26bc003267cd2de4f76e5beebffc0283cde5a47a3a90d896"
 
 RPROVIDES:${PN} += "lighttpd-mod-authn-ldap"
 

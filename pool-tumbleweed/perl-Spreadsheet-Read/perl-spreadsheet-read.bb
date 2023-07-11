@@ -16,8 +16,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.87"
 
-RPM_NAME = "perl-Spreadsheet-Read-0.87-1.1.noarch.rpm"
-RPM_HASH = "b9ccd4f58494a3e77077d71b588893da05401ffaadcd3919f62d8933142e4cbf5cf4a1f99a11c8434e490f3a37f2ebddbb5e4bab40103157bf28395a24238328"
+RPM_NAME = "perl-Spreadsheet-Read-0.87-1.2.noarch.rpm"
+RPM_HASH = "2f98e92d17a53b467427eaed6b0612399c19dcd0ea1232b5a4a4b99b47e18e94bff81c0a865aa85dbe10be0a36f9e720e8e3699551158ee7246d7941ed433a1d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Spreadsheet--Read \
@@ -27,7 +27,7 @@ perl-Spreadsheet-Read \
 perl-Z10--Just--For--Testing \
 perl-Z20--Just--For--Testing"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Data--Peek \
 perl-File--Temp \
 perl-IO--Scalar \

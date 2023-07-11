@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "0.19.3"
 
-RPM_NAME = "python39-pyrsistent-0.19.3-2.1.aarch64.rpm"
-RPM_HASH = "ba79b4bbd8a902883d65f310bbbbc8752baa417572a54c80efa473dacb963b95d1ee7b19bdfbf877fb78a087a3fc22f6a23d0ab6e96498dd996ec9df1aa7686c"
+RPM_NAME = "python39-pyrsistent-0.19.3-2.3.aarch64.rpm"
+RPM_HASH = "c00941855b78131a691121c2b3cfb15bf6f560ea4ff9b43d966b2a42d7769373a14915989513382df2685d1ea1f1df7d404cefd6677f3a4cc3728cf83d38a74a"
 
 RPROVIDES:${PN} += "python3.9dist-pyrsistent \
 python39-pyrsistent \

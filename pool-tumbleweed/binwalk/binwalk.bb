@@ -12,12 +12,12 @@ LICENSE = "MIT"
 
 PV = "2.3.4"
 
-RPM_NAME = "binwalk-2.3.4-1.1.noarch.rpm"
-RPM_HASH = "57e289aea2675f0bd8a8e00b23df4cf3e5550b64ff74f640ec234679349fb25fb078cc2de5309f18776c4d09d0624d3fce972101ad196059a6746ee3db78f882"
+RPM_NAME = "binwalk-2.3.4-1.2.noarch.rpm"
+RPM_HASH = "76d2fdefa8d2ef50d844be678235f6c19b40c8e046a30fc60d09e3c2f20cb24b061545aa17aa9828c71d99b83fadf38dfd87138ffabd7820783011f00b34eb30"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "binwalk \
-python3.10dist-binwalk \
+python3.11dist-binwalk \
 python3dist-binwalk"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

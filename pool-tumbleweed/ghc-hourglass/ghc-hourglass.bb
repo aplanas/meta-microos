@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.12"
 
-RPM_NAME = "ghc-hourglass-0.2.12-7.3.aarch64.rpm"
-RPM_HASH = "3f1cf20d8bcc2a2958b6fb71166ad2cc2366fb69af2567c6b34fd9786997685c6df9b26f5f0a925eb2f153875c224f8ca0485f8c7bd31ea6d153c915e6d5fffa"
+RPM_NAME = "ghc-hourglass-0.2.12-7.6.aarch64.rpm"
+RPM_HASH = "24264b4a4a76d313539fde569f2db7419bb4a0b82862774c7178ab8fbe0bac9f569e4ecc7c38a5af00d30d1408aa3d405c8f7d999f6a75f059a95330e4333fdf"
 
 RPROVIDES:${PN} += "ghc-hourglass \
 libHShourglass-0.2.12-3PFbUFQLMNb8Ad2s9SU5p3-ghc9.4.5.so"

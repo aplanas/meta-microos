@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0"
 
 PV = "1.0.4"
 
-RPM_NAME = "jrosetta-1.0.4-5.21.noarch.rpm"
-RPM_HASH = "e995c224bd980117f6b2ca06267968f6b420d84660501dc00ffc2e71cb0ec6f3291f3bba759e06aeae343a0bcf9b24738cc5663c066ee7d739afe285b6664550"
+RPM_NAME = "jrosetta-1.0.4-5.22.noarch.rpm"
+RPM_HASH = "410544cd130425cae0019b8b85845ed4b0fe39272af055f9b9bfc7682f88ce13cb3cdd5d7b0f68e2400ed5b60dde7ec9a5335ed2a939ca4cf18411dab07d3bc7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jrosetta"

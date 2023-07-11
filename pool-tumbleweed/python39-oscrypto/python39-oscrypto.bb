@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.3.0"
 
-RPM_NAME = "python39-oscrypto-1.3.0-1.3.noarch.rpm"
-RPM_HASH = "07b0acf017094212a79626cf1485c6d76020c0413092d5ec06d2396439d5d8ad66b1903fa124991c1f47c8d0010072bbe4f9ecbef0bcbecef85c8f9970fb8e52"
+RPM_NAME = "python39-oscrypto-1.3.0-1.4.noarch.rpm"
+RPM_HASH = "e2a53e26f91a36c5a2d2cb4bed187a0de2b6d5a518493925f9c51a34d323d00e088753760eab2da6d6cf526532639d1c587b12ab0326b4d84fb4ed02f5a32b88"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-oscrypto \

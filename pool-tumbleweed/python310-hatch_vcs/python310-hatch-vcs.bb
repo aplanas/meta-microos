@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.3.0"
 
-RPM_NAME = "python310-hatch_vcs-0.3.0-5.1.noarch.rpm"
-RPM_HASH = "8938e6c6de670d8b708cd61c23e6fff7863f025a0baaf743a3141061b2cf20b3063693fd70bcefed110c8794dad0fc3dd5f9083da1007b1d48913b8a481aed70"
+RPM_NAME = "python310-hatch_vcs-0.3.0-5.3.noarch.rpm"
+RPM_HASH = "b6ef428b3b5447909e7d719e973e89a30ea39bc47ff6e2c7790eeaf963241263325a2c4f82e4736bc8ab39b96309ccb0bd95ae9b75e7d41e6a0b29b66fd243d8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-hatch-vcs \
-python3.10dist-hatch-vcs \
+RPROVIDES:${PN} += "python3.10dist-hatch-vcs \
 python310-hatch-vcs \
 python3dist-hatch-vcs"
 

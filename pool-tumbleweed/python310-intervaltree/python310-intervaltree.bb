@@ -8,12 +8,11 @@ LICENSE = "Apache-2.0"
 
 PV = "3.1.0"
 
-RPM_NAME = "python310-intervaltree-3.1.0-1.4.noarch.rpm"
-RPM_HASH = "f8de16689fda5d42d357622794e18ac11fc665fb299db5458fba06dc6376259b79b04cf54f10b8347b91b72ee2773cccee7264b9619faa7fa6b4e23fdc2c9428"
+RPM_NAME = "python310-intervaltree-3.1.0-1.6.noarch.rpm"
+RPM_HASH = "7056744327d4af8a8fd4f55f083a67f87dc834e2739ea41d428d77819b7c43c34a2bd2f9074e9e7a2450f26db71d01e2fb05fdc1d6319e22fa2d118b8b9cd577"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-intervaltree \
-python3.10dist-intervaltree \
+RPROVIDES:${PN} += "python3.10dist-intervaltree \
 python310-intervaltree \
 python3dist-intervaltree"
 

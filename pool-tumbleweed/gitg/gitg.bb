@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "41"
 
-RPM_NAME = "gitg-41-2.8.aarch64.rpm"
-RPM_HASH = "f345d54cd78eb7b790685ca0e8659f892ce9246fe3b3c1aa18a612d9a534aca832c249209e632c7f9fdc6d26e9931acfb085cbbe745da3bfdb24752500db1990"
+RPM_NAME = "gitg-41-2.10.aarch64.rpm"
+RPM_HASH = "f416e38ed5ae5de530c3ad66847005f7a8723db899555f4d14cb27a4086ccb8e262e01dca3508bf1fc9ab6964428eda43b07591273eafc969f15178c1e5100c9"
 
 RPROVIDES:${PN} += "gitg \
 libdiff.so \

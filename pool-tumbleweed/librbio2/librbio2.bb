@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.2.6"
 
-RPM_NAME = "librbio2-2.2.6-49.1.aarch64.rpm"
-RPM_HASH = "b6a352f88ec121899efc0cf1173bf6ed496cc7e246ce8df09b075c859169ce3f77534e7db1e7aaecf3d0f3116bb9cc906ac0c7c08eaf0eb737e903ad0d9326d6"
+RPM_NAME = "librbio2-2.2.6-49.2.aarch64.rpm"
+RPM_HASH = "1ab5d416bb56f6e0d154d8a85590e4881883fcd4ba9fe906486487ea8434661e561e1f969146874a6806511035ff30bbb35d8784f31bbabc64ee376aadeabe4e"
 
 RPROVIDES:${PN} += "librbio-2-2-6 \
 librbio.so.2 \

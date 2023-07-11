@@ -12,8 +12,8 @@ LICENSE = "MIT"
 
 PV = "0.1.1"
 
-RPM_NAME = "python39-rfc3986-validator-0.1.1-2.1.noarch.rpm"
-RPM_HASH = "75d3a3282ea852c774134c64ae20c9812a680becb7c5cba487797f9f006ec64ba93d4176afb47a208cf082ebbdce22cd0c97a7bf3678b8be45580512361283cd"
+RPM_NAME = "python39-rfc3986-validator-0.1.1-2.3.noarch.rpm"
+RPM_HASH = "d751994c581e6f6574d43cbbe5d542e83e59300ff0f2ee981b7cd1d29719aab7c068386a58c301d8d64b6d3d75bc76015c27575159cadce3947c71196e85921a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-rfc3986-validator \

@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.8.0"
 
-RPM_NAME = "python39-h5py-openmpi1-3.8.0-2.5.aarch64.rpm"
-RPM_HASH = "c9137a2182e13bfc0594a4c24bef4e8c1b648193796941ccaad9ce93758df8eb26b2095bd4ab4e2880907e9442a761afb0200ff77ead362fe171f50c67083715"
+RPM_NAME = "python39-h5py-openmpi1-3.8.0-2.7.aarch64.rpm"
+RPM_HASH = "805f0a70d444e27ee96064dde65b3dce990a486e0fa983ab0b2b9e2cfd2cfe05566cc6c7c4b194a60f31336cd89497af508cdca1f1a623248493382140b0c6cc"
 
 RPROVIDES:${PN} += "python3.9dist-h5py \
 python39-h5py-openmpi1 \

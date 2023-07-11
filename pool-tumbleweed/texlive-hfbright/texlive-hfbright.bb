@@ -5,8 +5,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.svn29349"
 
-RPM_NAME = "texlive-hfbright-2023.201.svn29349-53.1.noarch.rpm"
-RPM_HASH = "5f42008562c9feba25360352d86ed419a0a96beadbbef3b3ca9be4fb5b0cb753ee64a8d41eb76b7b60fae74620ddbf32b187b66c6e31ab8344fea6dc85d5605d"
+RPM_NAME = "texlive-hfbright-2023.201.svn29349-53.2.noarch.rpm"
+RPM_HASH = "f23ec86c91a5f0718fbd7912f1bb9db163f5fc311e645701595ea57df9ba1c60e0a7fa6f8d1dda8e200ce5d2a10b37e0d69356c2887ad7abe36802a61dae80e4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hfbright.map \

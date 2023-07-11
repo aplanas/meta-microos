@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.9.2"
 
-RPM_NAME = "libkonkretcmpi0-0.9.2-14.3.aarch64.rpm"
-RPM_HASH = "ae363251314a7f56a06d06299379104e08e9573fe15704da250e3e4bec57ce27ea812e70b5258eb076672611e80328ad8cbaf99895f06062f1f7cfee4e7723b4"
+RPM_NAME = "libkonkretcmpi0-0.9.2-14.4.aarch64.rpm"
+RPM_HASH = "56c72f96005971def6d7af64592e72eae211544759c46b9fff965396eb08c98ce706efdd166352f2fc0a6ac4404baf0a953512ad4781b8400cba389a874361ad"
 
 RPROVIDES:${PN} += "konkretcmpi \
 libkonkret.so.0 \

@@ -8,12 +8,11 @@ LICENSE = "ISC"
 
 PV = "0.5.1"
 
-RPM_NAME = "python310-clint-0.5.1-5.3.noarch.rpm"
-RPM_HASH = "cc5461a6466aefbee3d64d245db1c99c9e0b6a544910b0434a97bd1c6e5ce37d92786f65d6c114d9d62d0c3662d7bdbda5a633444ad428f2c0337453945423fe"
+RPM_NAME = "python310-clint-0.5.1-5.5.noarch.rpm"
+RPM_HASH = "4f445ed3fce6f430d4fa7296804b0bf9f6b40a43cbd6970eef26bbc4d6ec6f20dd811735a221f1e974ffba477207ca00d0c7f8e2abf8346e7b6746528bfc2b0b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-clint \
-python3.10dist-clint \
+RPROVIDES:${PN} += "python3.10dist-clint \
 python310-clint \
 python3dist-clint"
 

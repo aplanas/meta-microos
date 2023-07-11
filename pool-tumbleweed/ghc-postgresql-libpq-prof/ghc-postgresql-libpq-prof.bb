@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.9.5.0"
 
-RPM_NAME = "ghc-postgresql-libpq-prof-0.9.5.0-2.3.aarch64.rpm"
-RPM_HASH = "3ada23f814279b76edb8be87a346bdd66cacebb51469bf7892cf63faa9825f4775f2ee415cebb17ec790f28f1041fdb5dfef77ed2aeea0fe5d35ab32c3e92512"
+RPM_NAME = "ghc-postgresql-libpq-prof-0.9.5.0-2.7.aarch64.rpm"
+RPM_HASH = "091869e5ace1577a05853ac32974e0f3dde2ed5336120d8778b037ce13112531f7b62e8419d73d5212a4d31bb3ce2832f4234600b8678b9108d95a3e08d7fc28"
 
 RPROVIDES:${PN} += "ghc-postgresql-libpq-prof \
 ghc-prof-postgresql-libpq-0.9.5.0-EniLDQI99PgI2VDyTYHGox"

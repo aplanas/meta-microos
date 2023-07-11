@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.2.0"
 
-RPM_NAME = "python310-ajsonrpc-1.2.0-2.4.noarch.rpm"
-RPM_HASH = "3931fe7dc8ee38d9ba6bfcd4917aeecc23ecd44fbcacad31662342c8cedd6bc559fe84ec09f2eab841e8440927d8808aae031ad52665de6528d33ba9eecfa131"
+RPM_NAME = "python310-ajsonrpc-1.2.0-2.6.noarch.rpm"
+RPM_HASH = "cd5f8f40e5b88b82d84b9ac08f569654e8a358842f511917b2c24fc7f51628c683c83909ee8618b50c457cabe5a72ffb52d18d915358479bba58b6e0b5c6e048"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-ajsonrpc \
-python3.10dist-ajsonrpc \
+RPROVIDES:${PN} += "python3.10dist-ajsonrpc \
 python310-ajsonrpc \
 python3dist-ajsonrpc"
 

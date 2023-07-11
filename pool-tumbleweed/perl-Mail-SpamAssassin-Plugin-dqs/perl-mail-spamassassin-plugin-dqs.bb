@@ -15,15 +15,15 @@ LICENSE = "Apache-2.0"
 
 PV = "1.4.0"
 
-RPM_NAME = "perl-Mail-SpamAssassin-Plugin-dqs-1.4.0-1.2.aarch64.rpm"
-RPM_HASH = "0d0a1bc6dba5832b48ec0d104163874d977e7fbd24a88af524a5f0b5d5a5d16575b89be91839d1072253a9eeeb3d5716b06d7823dae9273976eabf40c50e4bd7"
+RPM_NAME = "perl-Mail-SpamAssassin-Plugin-dqs-1.4.0-1.3.aarch64.rpm"
+RPM_HASH = "6e55c92e339c0d67ec8262b2e34f0a9689b762a70f0d595f480f5a06d2d39c0780324a605ddc998bcc960623bba07cf7373176f1318755e2c420b9b4b13f934c"
 
 RPROVIDES:${PN} += "config-perl-Mail-SpamAssassin-Plugin-dqs \
 perl-Mail--SpamAssassin--Plugin--SH \
 perl-Mail-SpamAssassin-Plugin-dqs"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 spamassassin"
 
 inherit rpm

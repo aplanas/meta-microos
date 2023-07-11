@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "4.5.1"
 
-RPM_NAME = "podman-cni-config-4.5.1-1.1.noarch.rpm"
-RPM_HASH = "ad4caaa08387f7ae26699dbc3dac431a4843a862ed84dddd1d267dac772991d46fee19d5448304fddb39be693ea25d911e52a627bde0ba3b311f3c71eaa77559"
+RPM_NAME = "podman-cni-config-4.5.1-1.2.noarch.rpm"
+RPM_HASH = "08a8a79bbb703e327f93b17f2adee257cabdc422d458536910077ba12d087e4fb4bf7798f9ac07d86f96a5a0668cb9752d119412a4a0ce3785b4aaec5b0316b9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "podman-cni-config"

@@ -6,13 +6,11 @@ LICENSE = "BSD-2-Clause & Python-2.0 & GPL-2.0-or-later & GPL-3.0-or-later & SUS
 
 PV = "0.19"
 
-RPM_NAME = "python310-docutils-0.19-4.1.noarch.rpm"
-RPM_HASH = "b8c4c4aa176d7f85baa47359345bbf6988338999c7f783ae48dba1c44df02798898ab12357676bd9851dd82f045e03b087ba1d00e9dfa5bf6be4e2d8a106c0bd"
+RPM_NAME = "python310-docutils-0.19-4.3.noarch.rpm"
+RPM_HASH = "33a0a80ac802cabf3c6744fdeb70d87f8400990679c62cac46c9c7d01dea5bba7186059614df577bb0c48b55e7e2d74cb1f4316d30f531cd57d742044748309a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "docutils \
-python3-docutils \
-python3.10dist-docutils \
+RPROVIDES:${PN} += "python3.10dist-docutils \
 python310-docutils \
 python3dist-docutils"
 

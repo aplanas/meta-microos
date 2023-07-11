@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "eog-plugin-exif-display-44.0-1.1.aarch64.rpm"
-RPM_HASH = "bb3e00e741b7d182e0df78988e3e23ff5ed34ab6d70d00f72c9910833c13bd062a330509b3883b7c5b00e6a0fc1946f28ee0db3677d78a43aab3c41902d96dde"
+RPM_NAME = "eog-plugin-exif-display-44.0-1.2.aarch64.rpm"
+RPM_HASH = "3c4cf3d123625c7502de97a029f57a79de9c45fa57f58224fea53e576cf1ac494e73f39a595fead6e8a84cdcc4ff109a4e8478e908efcdd10a5c98a1fa5017b7"
 
 RPROVIDES:${PN} += "eog-plugin-exif-display \
 eog-plugins-/usr/lib64/eog/plugins/exif-display.plugin \

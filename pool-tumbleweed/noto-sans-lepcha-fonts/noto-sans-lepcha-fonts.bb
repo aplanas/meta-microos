@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-lepcha-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "c3f59c0651c036a4b3391a194117187eb5a0f7653ee7343d7c2225616cb1ff6e3fb1666a38b0ae45018f162d157e8729b577d61c2fee751cded0a5e6bdf42c9f"
+RPM_NAME = "noto-sans-lepcha-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "288994b22b42c73e2f0597c13666915d7c6df7c9ca7699689ac47e8d2e3873f2a5e25e26228ee5078b4ed8ed9a7f836e2e3c21a58301522d31085cca9902c37f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-lepcha \

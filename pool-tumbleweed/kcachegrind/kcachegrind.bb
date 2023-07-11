@@ -2,10 +2,10 @@ SUMMARY = "Frontend for Cachegrind"
 DESCRIPTION = "KCachegrind is a frontend for cachegrind."
 LICENSE = "GPL-2.0-only & BSD-4-Clause & GFDL-1.2-only"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kcachegrind-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "cd2b0e1addcd3564545cfd33b7967a5a5fd6ba56aaa5269826a45f695604d86311f02ff3da42257b6b582ffb30045a0e8f67da3dd5c200d56af6f502801f96e9"
+RPM_NAME = "kcachegrind-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "e93da4398f80538b4e0cf4668cd53757eaf19bc26cf970bc64f7c6e7dd9d7b0a77abf6ca86311cf7cf970796df4660a9eb065849926a044d3ed091f527dc03df"
 
 RPROVIDES:${PN} += "kcachegrind"
 

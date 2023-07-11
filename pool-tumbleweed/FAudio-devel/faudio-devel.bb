@@ -4,8 +4,8 @@ LICENSE = "Zlib"
 
 PV = "23.03"
 
-RPM_NAME = "FAudio-devel-23.03-1.3.aarch64.rpm"
-RPM_HASH = "1ee70a147f475e32ef9cffbac62a7ea85981aa557577ed2daab5a10c1507cd80da48aa6a081a526c04376314247286639d3fc2d45f0b72029661b6e96dd1e32b"
+RPM_NAME = "FAudio-devel-23.03-1.4.aarch64.rpm"
+RPM_HASH = "596ba9d34ed5e23959fc5419e38f8bf30d15ed89d183a956c59568c2b8237a5398e15fbccedb3dc4be3251287a668ff8e036e0dcf3126c0549f4edfae486fb68"
 
 RPROVIDES:${PN} += "FAudio-devel \
 cmake-FAudio \

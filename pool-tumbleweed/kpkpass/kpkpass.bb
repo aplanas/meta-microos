@@ -3,10 +3,10 @@ DESCRIPTION = "kpkpass is a library to read and parse Apple Passbook files, such
 commonly used for hotel and flight reservations."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kpkpass-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "3cb241a7064fbd1aeb542373ec1403e5c0356ba3442584da3ce05c02f6c377efc6c1fabbb0912132aeaa9e602f05033044642824521a06c65c70b82d6dfa5130"
+RPM_NAME = "kpkpass-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "8d824ff7d275bc93a89902dc86781f8673ecc375cd14af0c6a23020bce2faaa8326d1803c135fa65c5f24e02b28754362e6ffab759efa85ae42fcbc49d82c311"
 
 RPROVIDES:${PN} += "kpkpass"
 

@@ -7,8 +7,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.0.2svn61193"
 
-RPM_NAME = "texlive-rbt-mathnotes-2023.201.1.0.2svn61193-53.1.noarch.rpm"
-RPM_HASH = "a9a4f8b82143725dfd160d1c704e09d5fce675cc45d7b98c013ffa3596b0123fa562d0e7af3e38d88179209a2c352ab5e5bb938e76f784698080b45993227475"
+RPM_NAME = "texlive-rbt-mathnotes-2023.201.1.0.2svn61193-53.2.noarch.rpm"
+RPM_HASH = "8049bb9ecf683deed953bbdab31eba7b91ec098eed719c13db8f64685e2174332194ef915730447e328ef4ff248e81eb6cd30f07abb9b0069899dcd10737936e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-rbt-mathnotes-formula-sheet.cls \

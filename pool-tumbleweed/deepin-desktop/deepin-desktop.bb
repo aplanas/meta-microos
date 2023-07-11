@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later & MIT"
 
 PV = "5.6.4"
 
-RPM_NAME = "deepin-desktop-5.6.4-3.7.aarch64.rpm"
-RPM_HASH = "157568611ad8917a9367affed325f0985c56d450cff902fe5cc7d4754812da796b3380a61b3ef190bacab60538b694f44be1e4c687f329b83e5d29d2855ed35d"
+RPM_NAME = "deepin-desktop-5.6.4-3.9.aarch64.rpm"
+RPM_HASH = "efff1117ce4ca117c2bfc32db7bd9a2e2119363fc5ccbe04d41a336bf12fcd28c8ed8149d841880bcfd947aba36e6f96de585fa3e57298837ecff8ca15c6750b"
 
 RPROVIDES:${PN} += "deepin-desktop"
 

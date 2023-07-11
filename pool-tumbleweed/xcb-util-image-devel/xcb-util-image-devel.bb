@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "0.4.1"
 
-RPM_NAME = "xcb-util-image-devel-0.4.1-1.2.aarch64.rpm"
-RPM_HASH = "5123bb23f2dd9bb958bd32ac64786ff0760959a0985a37183b0e48ed9ca5069c9606c91667767428b9580f51070f85025dc61571c785ebf84adea4d32e02d82a"
+RPM_NAME = "xcb-util-image-devel-0.4.1-1.3.aarch64.rpm"
+RPM_HASH = "92e522b1de7c87d72fe7ef6f35e789db9d7530fccf084d711c0a2d21f30a098041ed74781460d1d4330134954fb30dc6c1325bbe8a5ccb84bdc01e00cedf2897"
 
 RPROVIDES:${PN} += "pkgconfig-xcb-image \
 xcb-util-image-devel"

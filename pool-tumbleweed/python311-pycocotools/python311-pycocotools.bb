@@ -7,10 +7,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.0~post.1582219528.8c9bcc3"
 
-RPM_NAME = "python311-pycocotools-2.0~post.1582219528.8c9bcc3-2.12.aarch64.rpm"
-RPM_HASH = "982ff9d641830293bab58ab8fdcfe5c0be5582cfc2661f813b88fda775899c05bc950fa2177af48f003f6c3ddfcc63cbd2362fa42a561c117162e9aa6654230a"
+RPM_NAME = "python311-pycocotools-2.0~post.1582219528.8c9bcc3-2.13.aarch64.rpm"
+RPM_HASH = "b7b6c099f59965202bd8fca273de8db1d2c78b30e20f6341bed6b99fa9d083d731a9d22a2d1475230153f26f3dd24cbcef696ca0f358c2ab5eb56ba69ac3889e"
 
-RPROVIDES:${PN} += "python3.11dist-pycocotools \
+RPROVIDES:${PN} += "python3-cocotools \
+python3-pycocotools \
+python3.11dist-pycocotools \
 python311-cocotools \
 python311-pycocotools \
 python3dist-pycocotools"

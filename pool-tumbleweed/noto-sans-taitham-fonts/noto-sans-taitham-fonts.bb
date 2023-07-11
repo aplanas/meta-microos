@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220607"
 
-RPM_NAME = "noto-sans-taitham-fonts-20220607-2.6.noarch.rpm"
-RPM_HASH = "d8df8069079cdc46e1ec83ce676f747464f5f7d712355a652373c4ce5caaf2f664a7a5f2ffec3d0950c5474e5a943b081b37a9c3645d254a861a4c2fd13655a5"
+RPM_NAME = "noto-sans-taitham-fonts-20220607-2.7.noarch.rpm"
+RPM_HASH = "3b63565d79248a726fbd2f464d739c459f984f9f1fb21c377e871661f3742e56eca3209bde5f8cb99658c25bb547f5536a952a039cbcb617380a088feb86c2ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-sans-taitham \

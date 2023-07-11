@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.2.0"
 
-RPM_NAME = "prewikka-lang-5.2.0-2.7.noarch.rpm"
-RPM_HASH = "f0707ca59d96bc8b43ad25daeecc13f4e81c55337f191399a71c15cabf246b4569f441ad0f34710fce0eeb873adc0393fbaf9fabd8ed247ac6ab5011ff88f8dd"
+RPM_NAME = "prewikka-lang-5.2.0-2.8.noarch.rpm"
+RPM_HASH = "37460e1fda917331bb9fdcad4a2f3d598229782a379312bf6c6a99c9520f779292da6368af196fe1ec218ab4c5c541f1c0b1f39d5c7cd9ea0a08b6bbcf68a4d6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-prewikka-de \

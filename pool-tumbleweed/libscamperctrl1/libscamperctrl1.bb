@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "20230302"
 
-RPM_NAME = "libscamperctrl1-20230302-1.3.aarch64.rpm"
-RPM_HASH = "812106a1fe4af54693c323c1cb658acd025287804aeb3c0e9fdaba3a0ec7b03037c756933f9f455982e4f736ad4bf1cb23d90ab406b16d8cb250db2c0505a9e2"
+RPM_NAME = "libscamperctrl1-20230302-1.4.aarch64.rpm"
+RPM_HASH = "52f7a255bb1b047bf4a83a195ba686e9dc0e4b89abc21a7fc9ba243bae224751923f6e6cf32071fd41305d7247a5f82ef7cb2c655074a004134ca2922a5e7bf9"
 
 RPROVIDES:${PN} += "libscamperctrl.so.1 \
 libscamperctrl1"

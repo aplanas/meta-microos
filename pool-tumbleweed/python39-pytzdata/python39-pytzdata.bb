@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2020.1"
 
-RPM_NAME = "python39-pytzdata-2020.1-3.1.noarch.rpm"
-RPM_HASH = "aa5f0442d84d585200fe913a9d7a43589decb81beea500ea5b79eb3fe235b7e52d3e167a46ccf1917cc229bde6a8df827f5f2528fd29135a8e09d494ad34d85e"
+RPM_NAME = "python39-pytzdata-2020.1-3.3.noarch.rpm"
+RPM_HASH = "4e389196086f9480188a387d09e3748d051747581796783f4da8ca0916bfc5f5b9ba5f69e573b13eaa57c214a23f3ff9446caf9ddc284406038eeb2b0467b606"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytzdata \

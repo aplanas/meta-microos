@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "22.5.3"
 
-RPM_NAME = "autojump-22.5.3-2.4.noarch.rpm"
-RPM_HASH = "b6525edb913d79ca185fdf3046f7a7f4875cb6755cc14c21d341b85f9f38778d26a70344dcd5536bbf14f5a62d798c2c60f181cc40387207e91f4452f8712444"
+RPM_NAME = "autojump-22.5.3-2.5.noarch.rpm"
+RPM_HASH = "922e9b58f91dceb0eb92813d3fe9c8d19a642ff16ecf2dd0353c739f5ae49f49ce6fd0a4b9ae102783cd2e049f138a24e5e875d01c986fcda6704f45b8964899"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "autojump \

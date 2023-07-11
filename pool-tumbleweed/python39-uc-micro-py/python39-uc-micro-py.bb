@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.0.1"
 
-RPM_NAME = "python39-uc-micro-py-1.0.1-2.1.noarch.rpm"
-RPM_HASH = "c2f5ccb90a3b4292428699c19153d072e9da4da0dec3140b184654ce649f0ac66cc5bc14eb5ea574ffac23aba9beef5a39c32c159352b2abef1b1b239cd2d510"
+RPM_NAME = "python39-uc-micro-py-1.0.1-2.3.noarch.rpm"
+RPM_HASH = "989e967d3f7c5d71c0fb62a585b23ca25cdd368704690c13eab6356289eed83ab9dc3ba216b4baedaa691f1b1d9958ba37a2c5b87a4e9648f06793a3ad37e614"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-uc-micro-py \

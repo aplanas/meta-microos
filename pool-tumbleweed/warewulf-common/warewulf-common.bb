@@ -12,8 +12,8 @@ LICENSE = "BSD-3-Clause-LBNL"
 
 PV = "3.8.1"
 
-RPM_NAME = "warewulf-common-3.8.1-7.6.noarch.rpm"
-RPM_HASH = "66bb4fbe08ac9787e1e485801edebdff0a2383eaa8d9681ec655a1474d2cb25a68358b3934dc4bed432d3575338b3191a5ea36069e89bfbbc908dc7378962ffd"
+RPM_NAME = "warewulf-common-3.8.1-7.7.noarch.rpm"
+RPM_HASH = "cd433411a198565f348b87ac8499993b12459c298acaae968aa04749feae989a8533d311d0df31944e0f18cd294850f9154e2deee4eea1df8d8cc22ee19d5c1f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "warewulf-common"

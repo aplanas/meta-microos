@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.9.10"
 
-RPM_NAME = "qsynth-lang-0.9.10-1.1.noarch.rpm"
-RPM_HASH = "eb772ad77fff4d52576516a94d55660e273687a51e04e8fac195da19f894a57f0e5686fde6a011067fd59c84819464af17ebe448f5f199df65bc0f866a4642a3"
+RPM_NAME = "qsynth-lang-0.9.10-1.2.noarch.rpm"
+RPM_HASH = "3033f2951b9633f14623bdc394c43cd5b3fb5cd0fb3b59003d6800e71c2b31f18f4ae54a62d4d79e316650e8fbad4a987b36f08807b723ba687cb5dfdeaea795"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qsynth-lang \

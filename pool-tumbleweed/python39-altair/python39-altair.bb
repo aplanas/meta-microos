@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.2.2"
 
-RPM_NAME = "python39-altair-4.2.2-1.4.noarch.rpm"
-RPM_HASH = "6a813b2885f728d0bc046eca32c885ada222c275813ad530e51c1ea0107704cf743165375aae523931afe82e9b31898302da55fce84548372d71b647c592bd29"
+RPM_NAME = "python39-altair-4.2.2-1.6.noarch.rpm"
+RPM_HASH = "b78ea6cb0289b49e6d5817c664ae0895b737a2f1fae13c488b50dc96be9796287d065cf233f251f27c30ea4f5a5b95abb4c39fedcdeb8dd0ed7bb4b42efb3883"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-altair \

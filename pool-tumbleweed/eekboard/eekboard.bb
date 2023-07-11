@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.0.8"
 
-RPM_NAME = "eekboard-1.0.8-10.9.aarch64.rpm"
-RPM_HASH = "a52d9d443d2666d153a5e307dbdfb9f593dc6cf508b55a427a2ce3293c312defb81574a84612a8a7b21fe30297b7255654a8eefcd071031ebd5f629106b115ab"
+RPM_NAME = "eekboard-1.0.8-10.10.aarch64.rpm"
+RPM_HASH = "16911a6798f6f01fc099890b2156ef36e208c41bf0c283b1c3b846acd1d3e155a58a386768dbccc52ae13e85360561dc0d4fbfbed473c9c896ec5ac77a8877c8"
 
 RPROVIDES:${PN} += "config-eekboard \
 eekboard \

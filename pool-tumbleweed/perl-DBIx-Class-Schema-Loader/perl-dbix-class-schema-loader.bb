@@ -27,8 +27,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.07051"
 
-RPM_NAME = "perl-DBIx-Class-Schema-Loader-0.07051-1.2.noarch.rpm"
-RPM_HASH = "54ed6e9b18509d492ec34a0e4f2f5183e7118a73ddb529a9a41c46162f8e518dbda05c523c96c361bb07e03bb8b3be7c360e6f4affb98396a91a7cfecbec2826"
+RPM_NAME = "perl-DBIx-Class-Schema-Loader-0.07051-1.3.noarch.rpm"
+RPM_HASH = "0e2367b737d355a19d1c2ed9622492b0a9e0bacc8b9775bac1b5c763a25f40043eb2e70563406a1bacdea4d93053ad44b739648965bf4565b1cf23c43a73f030"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DBIx--Class--Schema--Loader \
@@ -73,7 +73,7 @@ perl-DBIx--Class--Schema--Loader--Table--Sybase \
 perl-DBIx-Class-Schema-Loader"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-Carp--Clan \
 perl-Class--Accessor--Grouped \
 perl-Class--C3--Componentised \

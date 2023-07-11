@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "2.12.45"
 
-RPM_NAME = "glade-sharp2-2.12.45-3.8.aarch64.rpm"
-RPM_HASH = "e05db66fe806224ddc473e85968ccd2ffd49e6f6f06c7714097c9dc67639e204292a6a4494ffb705fb11fd3fbebf1e361a45e6d93c618c4a09bf12c3118fd05d"
+RPM_NAME = "glade-sharp2-2.12.45-3.9.aarch64.rpm"
+RPM_HASH = "272385a135113a40329b6bfb13fff9e15e6b6dac5a97b1bda6d048145ed92083e23908408e169d638ab4d44d577cda9c550031ef757bf5c8a5b3750c056be551"
 
 RPROVIDES:${PN} += "glade-sharp2 \
 libgladesharpglue-2.so \

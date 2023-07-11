@@ -30,12 +30,12 @@ LICENSE = "MIT"
 
 PV = "1.6.0"
 
-RPM_NAME = "beets-1.6.0-2.5.noarch.rpm"
-RPM_HASH = "5db267afc214dc4513303dc4ea5d726c091ae90b284d455a643bdd75e110aa20cff793cf910ecca252f0a2cc3363e7f8d1d28c5db5cd242b0857d0524df0ad55"
+RPM_NAME = "beets-1.6.0-2.6.noarch.rpm"
+RPM_HASH = "42bff859ed3b435f8d29ea71ebb72e4be41d5816de647e1f7cd51e6d51a1b2d7b26e2791cc37c080210bda97f968b9f1b1d868fc231f988d2bbe78e468e74335"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "beets \
-python3.10dist-beets \
+python3.11dist-beets \
 python3dist-beets"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

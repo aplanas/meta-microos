@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "1.4.0"
 
-RPM_NAME = "spdylay-devel-1.4.0-3.26.aarch64.rpm"
-RPM_HASH = "674e7796b915fa3000ef71406094a565ec0869a329be4225bab22c7bd736c475e24d90fb143002efc0014743071becc997d1048b98d614396ca883500aab58ed"
+RPM_NAME = "spdylay-devel-1.4.0-3.27.aarch64.rpm"
+RPM_HASH = "51a478edb2929e1a8c7ee9336d8111fa7b94fefbaf2ab962c844c639dd685ab66a7c244eee758dff11c96b3d632dca11eda0d2abdbd9fa6c8e494ca3ad1034e5"
 
 RPROVIDES:${PN} += "pkgconfig-libspdylay \
 spdylay-devel"

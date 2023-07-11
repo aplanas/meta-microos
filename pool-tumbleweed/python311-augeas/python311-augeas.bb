@@ -3,13 +3,14 @@ DESCRIPTION = "Python bindings for Augeas, a library for programmatically editin
 configuration files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.5.0"
+PV = "1.1.0"
 
-RPM_NAME = "python311-augeas-0.5.0-3.17.noarch.rpm"
-RPM_HASH = "f6ba5df40dad7a3210d38214af73ec4a68eea1978a8759c757575e755046739a1c52db95685f7cf746338fb5db8da3258e3b92903b3c5ff18ecbc3945ce04bbf"
+RPM_NAME = "python311-augeas-1.1.0-1.1.noarch.rpm"
+RPM_HASH = "bb91889e13efb30a3855d43cf2fdbfc8d8c2363861efc01d769fd1dcf3629ff34acb1342e93617a463a7ca91b9b13c68e483927fc102752e6f023f036bfb40fa"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-python-augeas \
+RPROVIDES:${PN} += "python3-augeas \
+python3.11dist-python-augeas \
 python311-augeas \
 python3dist-python-augeas"
 

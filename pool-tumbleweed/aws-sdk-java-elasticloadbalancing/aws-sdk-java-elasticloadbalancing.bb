@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0 & SUSE-Public-Domain"
 
 PV = "1.11.3"
 
-RPM_NAME = "aws-sdk-java-elasticloadbalancing-1.11.3-7.8.noarch.rpm"
-RPM_HASH = "87a313c8b67571a7ff5acf0fde9104aae6e639de4d7e7aeac35145b0da2049b619cd9e26d9b11f8eb2c1737d372fe3bf680063dfbb6c4b5d99f3a4edab4eaec8"
+RPM_NAME = "aws-sdk-java-elasticloadbalancing-1.11.3-7.9.noarch.rpm"
+RPM_HASH = "349dda0512fbbbd33769ffa3cb4df590b1bfc7dc5f5c8773ed8d7f9dcf06f3036960fc1c5441ef18e3d2241711b285c94e6725c7d11960283292e0c1570c3301"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-elasticloadbalancing \

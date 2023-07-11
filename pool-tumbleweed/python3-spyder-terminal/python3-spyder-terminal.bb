@@ -9,12 +9,12 @@ LICENSE = "MIT"
 
 PV = "1.2.2"
 
-RPM_NAME = "python3-spyder-terminal-1.2.2-1.3.noarch.rpm"
-RPM_HASH = "bd69013724c5b97be3d94f3be523f2a344b6b4267a9d14bb4f7d2e5ee8cbfcae09f4286da79d00188718355d5a7fd8fd7782ec9312030c18a7e7ce12491575c1"
+RPM_NAME = "python3-spyder-terminal-1.2.2-1.4.noarch.rpm"
+RPM_HASH = "1c01cfd2a0d2eab40d50e2e456acf6c76116c6c1631653e6c84ed579af78c5e61f6d3ed2ce35291fd0444b7be03ecc9af2cd1309f39594e7c465b1a490d539e6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-spyder-terminal \
-python3.10dist-spyder-terminal \
+python3.11dist-spyder-terminal \
 python3dist-spyder-terminal \
 spyder-terminal \
 spyder3-terminal"

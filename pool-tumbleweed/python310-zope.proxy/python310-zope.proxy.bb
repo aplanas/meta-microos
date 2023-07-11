@@ -7,11 +7,10 @@ LICENSE = "ZPL-2.1"
 
 PV = "4.6.1"
 
-RPM_NAME = "python310-zope.proxy-4.6.1-1.4.aarch64.rpm"
-RPM_HASH = "d82e6377fe294ced80b92422eb74469c543805ec36fc49422a0406ccea935e545a1faae0365c2c3cb89f452e4d6408ce5485382920a34f5c22b60b4656263b04"
+RPM_NAME = "python310-zope.proxy-4.6.1-2.3.aarch64.rpm"
+RPM_HASH = "6d5613c3269d79181acbd48d39fbfb35812e5fbd61cfd662d39f6a0c4579db8adb208e7ddd79ee652fbd730dfd6312986d5c96494d7452b5480bee7417d5b4a2"
 
-RPROVIDES:${PN} += "python3-zope.proxy \
-python3.10dist-zope.proxy \
+RPROVIDES:${PN} += "python3.10dist-zope.proxy \
 python310-zope.proxy \
 python3dist-zope.proxy"
 

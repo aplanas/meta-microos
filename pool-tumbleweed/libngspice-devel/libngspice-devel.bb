@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "40"
 
-RPM_NAME = "libngspice-devel-40-1.1.aarch64.rpm"
-RPM_HASH = "d52c1dcf86196ce251ca07e2384468a64bedffff59b4da2fb2c9cf6cc46bd92dbc18c78eb2b6845c980ab8c943b319469eba2e38b0fe126ffc7770e29c23ebb6"
+RPM_NAME = "libngspice-devel-40-1.2.aarch64.rpm"
+RPM_HASH = "391adad755802616170f701559c7d1a9ce44c95ed5df43954d765877d7049bc69bdbd1f32d5e1439815202d214d55ff046a2206f82ccf4c57346d3cdfce59ebc"
 
 RPROVIDES:${PN} += "libngspice-devel \
 pkgconfig-ngspice"

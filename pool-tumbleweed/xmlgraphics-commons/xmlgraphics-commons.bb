@@ -10,8 +10,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.8"
 
-RPM_NAME = "xmlgraphics-commons-2.8-1.2.noarch.rpm"
-RPM_HASH = "a8da8082b42d0de0f8ee8cee08e7bf13295769f9e855645e2fb4ea2b5137bb5eff8399efb7e399c3ba5f6b0a72d316d0e52fb90be0645e322bde6e56ae1a8495"
+RPM_NAME = "xmlgraphics-commons-2.8-1.3.noarch.rpm"
+RPM_HASH = "546161d9e02ac6d6bbad0ce36fc7c7ae59cab52c5b86978cbace75f07c68ec577a53b6a59cbe29cfcfc434c6e02dbdd5653d7a84d7e25d509d2a563b424aecb5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.apache.xmlgraphics-xmlgraphics-commons \

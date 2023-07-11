@@ -13,8 +13,8 @@ LICENSE = "Ruby | GPL-2.0-only"
 
 PV = "1.2.7"
 
-RPM_NAME = "ruby3.2-rubygem-eventmachine-1.2.7-1.34.aarch64.rpm"
-RPM_HASH = "41264be164f4b79274410daff54d4c91c4ed701cc0a589b2571cc4eb497686d2977f91669abf1cd765e8e5eaec63e5c1d07e209e95690bde0c758cb8e4efb4bd"
+RPM_NAME = "ruby3.2-rubygem-eventmachine-1.2.7-1.35.aarch64.rpm"
+RPM_HASH = "555a337c7895ecc76b5909dc3b62ca58bb93a5d78b3a11e97ca274253db8433affb53f7864aa56e296ce4feec0ecba7036d76443059182357c902dec20566914"
 
 RPROVIDES:${PN} += "ruby3.2-rubygem-eventmachine \
 rubygem-eventmachine \

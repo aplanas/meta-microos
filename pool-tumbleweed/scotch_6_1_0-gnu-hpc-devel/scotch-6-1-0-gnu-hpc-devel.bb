@@ -4,8 +4,8 @@ LICENSE = "CECILL-C"
 
 PV = "6.1.0"
 
-RPM_NAME = "scotch_6_1_0-gnu-hpc-devel-6.1.0-2.9.aarch64.rpm"
-RPM_HASH = "1ec30a619b3761bc35d8b2f83d4ad1e378088d3eb384e06f99e02c4a1a756184f9ed8969d201467f48a3a521f3132909ac6e3176f5bb054b53f32e7fd9cdb79c"
+RPM_NAME = "scotch_6_1_0-gnu-hpc-devel-6.1.0-2.10.aarch64.rpm"
+RPM_HASH = "9a7fdbbc09867dd37a40216bb13be0c0684a9ddf112fc2b4b4514dba5dfcd6fe5d890871cd060e18822cb0e894788eba290c6d12c3ee57ad5b5f53f032d393d4"
 
 RPROVIDES:${PN} += "scotch-6-1-0-gnu-hpc-devel"
 

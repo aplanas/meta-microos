@@ -4,12 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.1"
 
-RPM_NAME = "python310-pytest-responsemock-1.1.1-1.5.noarch.rpm"
-RPM_HASH = "7531917fc23a15560a6fb4a88fc50c72a00f72d619ec3b83600e5666a783a78cc27aa04aa35217f8139dede3a85076d04fea7b6ac39dcce5c956c5d98988e445"
+RPM_NAME = "python310-pytest-responsemock-1.1.1-1.7.noarch.rpm"
+RPM_HASH = "6e7072e544ad2cbc73be0b7056857c4f1c66fcc78adaaac4e4c0200cd9d62e0e2db9de770c0f0c8d9878aaa5eb60109c2fc509b2899b0fe8f59c8927038325a2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pytest-responsemock \
-python3.10dist-pytest-responsemock \
+RPROVIDES:${PN} += "python3.10dist-pytest-responsemock \
 python310-pytest-responsemock \
 python3dist-pytest-responsemock"
 

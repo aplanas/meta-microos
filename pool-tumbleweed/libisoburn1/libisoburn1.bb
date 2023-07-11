@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.5.4"
 
-RPM_NAME = "libisoburn1-1.5.4-1.10.aarch64.rpm"
-RPM_HASH = "1cf0765e0b278b877987f4b88362b18eb732c7bca646b5fc63f66c7bbe25ccd68c9734645276360dade3ed671f0b68ab93f6694e0ebc4142fb611c1111b9ba6c"
+RPM_NAME = "libisoburn1-1.5.4-1.11.aarch64.rpm"
+RPM_HASH = "1c584ad24ae40c5a7e6cdc035032646418ce52b4648c18f8feaedf0d41189831ee43c344d8333ca44de60bb9b94a7e63f1e1814ae6233be4ba8bd28825be10e5"
 
 RPROVIDES:${PN} += "libisoburn.so.1 \
 libisoburn1"

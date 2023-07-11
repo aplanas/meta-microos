@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later & W3C"
 
 PV = "1.3.0"
 
-RPM_NAME = "flute-1.3.0-6.6.noarch.rpm"
-RPM_HASH = "1566d1ce6a8f9329d6cd5e4cb3a8aa4dddff64bfa82731be420dc273da9d5896941f9f82a5c454808d63a387a2b1b60907c557419fb237c9361d223f5678ae92"
+RPM_NAME = "flute-1.3.0-6.7.noarch.rpm"
+RPM_HASH = "7038cab9b6e7a001cb30912640da03010bb7ef2b7b4cfc142df2e8a6302b9ca7d877946741272cb617c7eb0f1bd3d03ba935abac3ae07e98c837d0e06aed1250"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "flute"

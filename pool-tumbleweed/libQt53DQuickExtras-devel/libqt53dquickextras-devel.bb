@@ -2,10 +2,10 @@ SUMMARY = "Development files for the Qt 5 3D QuickExtras library"
 DESCRIPTION = "Development files for the Qt 5 Logic 3D library."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libQt53DQuickExtras-devel-5.15.9+kde0-1.1.aarch64.rpm"
-RPM_HASH = "99a9dc011ca8bd37abdd6d07d82b642cb28544b8c8cb2b10df5f0ab70059b3af622685df5aeb7f4d24bfaf3408610ce5064ee35a573281f528a8b273ab94d972"
+RPM_NAME = "libQt53DQuickExtras-devel-5.15.10+kde0-1.1.aarch64.rpm"
+RPM_HASH = "fa1b82bc980b5b8052ccb45967226fb8dda227fb2d972fe4c801ead6fee1fee52e901be6b696366aee26072f0d7e6b4e1ac87d5d5ad8566aa8c10b06039284f2"
 
 RPROVIDES:${PN} += "cmake-Qt53DQuickExtras \
 libQt53DQuickExtras-devel \

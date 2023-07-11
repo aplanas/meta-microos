@@ -2,10 +2,10 @@ SUMMARY = "Integration of QML and KDE workspaces"
 DESCRIPTION = "KDeclarative provides integration of QML and KDE workspaces."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "libKF5CalendarEvents5-5.106.0-1.2.aarch64.rpm"
-RPM_HASH = "e00b32ed1666bf1cfedbd29b02b1115e8b730719482e9560215a4db7a304c8bee7d74420a8eadd40205e89a5cf3b0cb790e22db7723d5123543d5ca4c4dd08c5"
+RPM_NAME = "libKF5CalendarEvents5-5.107.0-1.2.aarch64.rpm"
+RPM_HASH = "b7090a346a34d7405de7766e697a16877dfb9c68dc5924ee9f371deaa104baf4918bd735660ba97947ec70acc33d6816730b3f5475c1b2914395227ea1c1da81"
 
 RPROVIDES:${PN} += "libKF5CalendarEvents.so.5 \
 libKF5CalendarEvents5"

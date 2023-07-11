@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "116"
 
-RPM_NAME = "pesign-116-1.2.aarch64.rpm"
-RPM_HASH = "997f83ca0d4793c5bc5d9dcca6a618cc25ce2e1222d415d1f88a08de2aa3ee0b7b443ea2594a12450666f6f3d9a4985f14625e593cc2a1834ce7921d7b965578"
+RPM_NAME = "pesign-116-1.3.aarch64.rpm"
+RPM_HASH = "40c67d682531015ce2e5e764d4e7ef2a4a2caa4b41f40484a996ca221d4637a91057bd5f56d3439b969cfca93b5aee8fda5c98be30199da9c62346034eb4d952"
 
 RPROVIDES:${PN} += "config-pesign \
 group-pesign \

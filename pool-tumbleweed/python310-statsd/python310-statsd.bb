@@ -5,12 +5,11 @@ LICENSE = "MIT"
 
 PV = "3.3.0"
 
-RPM_NAME = "python310-statsd-3.3.0-3.5.noarch.rpm"
-RPM_HASH = "0daa8fa40a7a1cd5560e3c0e5f5854e2cb1a5be797f1e1484c5c4aee9cc2b2e42c794cc86c40e61a42d048e9060202f8c7cbffa578f4aa9b45167337c07f27fa"
+RPM_NAME = "python310-statsd-3.3.0-3.7.noarch.rpm"
+RPM_HASH = "286092cc8028b401d15a3c21a85e1434680fc3e1404dd269ee7952abf5190febe57ddd74a41f390f15e00cacf3f9577951729c449b2ec290145e987102102a92"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-statsd \
-python3.10dist-statsd \
+RPROVIDES:${PN} += "python3.10dist-statsd \
 python310-statsd \
 python3dist-statsd"
 

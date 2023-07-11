@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.3.2"
 
-RPM_NAME = "liborcania2_3-2.3.2-1.3.aarch64.rpm"
-RPM_HASH = "0233c4b527b79ad5baf2385d74ea9edfe2727ea7d51f85056e2eb47df44a49fe8b5a43012441a925954a78cf6fd6ae98728633cd90fc6199489c59d95aa76e7d"
+RPM_NAME = "liborcania2_3-2.3.2-1.4.aarch64.rpm"
+RPM_HASH = "01d85836368f5d8f8daf0718f6fa9f74c2ba8ff4918619b713193437d9ed5231e2cd4b7f2e2f3db68a052733b89130a50944131938e90a93e7f96c669857f364"
 
 RPROVIDES:${PN} += "liborcania.so.2.3 \
 liborcania2-3"

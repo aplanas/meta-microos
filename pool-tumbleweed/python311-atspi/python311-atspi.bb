@@ -7,11 +7,13 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "2.46.0"
 
-RPM_NAME = "python311-atspi-2.46.0-1.3.noarch.rpm"
-RPM_HASH = "cd9e00c539d125af73849812ddcbef88ae46f57af645eb27a4fa82225134de3473d3d39f63e091b9d30b849b0ec83e5cce2e656b1877cb5c3929cde41c2083b9"
+RPM_NAME = "python311-atspi-2.46.0-1.4.noarch.rpm"
+RPM_HASH = "faf376750eba924382a8c75fd88bd201d759b4c86397f2f1d5b2ff34d92fe1d0371d816491f14844a601702d596b37370526ce2c0244551cd8e586c6cea32ef4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python311-atspi"
+RPROVIDES:${PN} += "py3atspi \
+python3-atspi \
+python311-atspi"
 
 RDEPENDS:${PN} += "python-abi \
 python311-dbus-python \

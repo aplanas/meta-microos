@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & GFDL-1.2-only"
 
 PV = "3.2.0"
 
-RPM_NAME = "kexi-lang-3.2.0-8.8.noarch.rpm"
-RPM_HASH = "53bbdb66ede790f36e8971d4238761a3302007c3cc08874edf3b8b64e1ed1a9838e7f1b01cf48a0ca413d4a05f0b80766e672b8ab4924c7dc459476f7a6032c1"
+RPM_NAME = "kexi-lang-3.2.0-8.9.noarch.rpm"
+RPM_HASH = "f834ef6cf2e64958e124237a05b53471ca673dcc423d5ac51fe8060c79078d9157b99a9bbbfc6f25caca98858ae9bb34083971b7403bfb2d468a148bec7e4aa3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kexi-lang \

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.103.8"
 
-RPM_NAME = "clamav-docs-html-0.103.8-1.3.noarch.rpm"
-RPM_HASH = "0486532f53fb4f8b73f241fdb38f79ece253c71d8fbcce366ee47d728132293f3bed29ab88b4a7ad01926c3d1ee7d4939bfe3673a604afce0716ac24d4b85dbe"
+RPM_NAME = "clamav-docs-html-0.103.8-1.4.noarch.rpm"
+RPM_HASH = "84aaae4e0c757fc51b5ca2700724c2dbeda0dcbc5834f10579e01beee7293d4c0ee4b58115c8f921ad077bd2a8b229893c10974089359bbcfe4d0f345e7bc40e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "clamav-docs-html"

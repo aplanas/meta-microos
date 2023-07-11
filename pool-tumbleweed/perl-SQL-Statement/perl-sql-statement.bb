@@ -20,8 +20,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.414"
 
-RPM_NAME = "perl-SQL-Statement-1.414-1.12.noarch.rpm"
-RPM_HASH = "89df20d609f92ba225c75c8ace7a4ef4373271480245753b4efea905f302211e6fe232f829276e89ade3788902a561b1df05f23e0c3ee89f61c1a4e7e8ca8063"
+RPM_NAME = "perl-SQL-Statement-1.414-1.13.noarch.rpm"
+RPM_HASH = "514aaaf511d2827c864c4390e5f7c6e89090308a047221196db257407d6cb275c87bc28c6f5c874b1574b639588d677021dbcb89fffa3eeec911ded1ce4bd089"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-SQL--Dialects--ANSI \
@@ -78,7 +78,7 @@ perl-SQL--Statement--Util--Column \
 perl-SQL--Statement--Util--Function \
 perl-SQL-Statement"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Clone \
 perl-Module--Runtime \
 perl-Params--Util"

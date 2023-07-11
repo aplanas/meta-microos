@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.8.5+svn.2173"
 
-RPM_NAME = "plib-devel-1.8.5+svn.2173-6.8.aarch64.rpm"
-RPM_HASH = "82f676a52dc083b23536c612e960a71cca617b35faa8db6c0a019909be7fa11c82a37776b8a392e06295d9c1ecc2504b84e65f3ee18d1cc291474fd4843707b4"
+RPM_NAME = "plib-devel-1.8.5+svn.2173-6.9.aarch64.rpm"
+RPM_HASH = "3c57238a96761fdc68054f386fd2be4e1ee052ee2c8aa3887ee64ee44410fbf4fb0c17861673db6aa0cf14d2300e8efabaf7cac2e323e5fa5dc5148d39415c65"
 
 RPROVIDES:${PN} += "plib-devel"
 

@@ -7,12 +7,11 @@ LICENSE = "MIT"
 
 PV = "0.3.1"
 
-RPM_NAME = "python310-korean-lunar-calendar-0.3.1-1.3.noarch.rpm"
-RPM_HASH = "f8333e34c0482dbd79787a7771f62d97b9010da699f516f68353ff616751b35a2a853f5661a5551f7bb78ef9d495484a2c35ca38104e68042f70448b4bfc5736"
+RPM_NAME = "python310-korean-lunar-calendar-0.3.1-1.4.noarch.rpm"
+RPM_HASH = "fcad6c011b4697c7ed476eebec59523dd7460f9907940fd0b7809a9eeca623a8cae3cf27aa0cdeb3b5034cbf811e5dcfc50920196ff5d815e054e2c0ea3f0976"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-korean-lunar-calendar \
-python3.10dist-korean-lunar-calendar \
+RPROVIDES:${PN} += "python3.10dist-korean-lunar-calendar \
 python310-korean-lunar-calendar \
 python3dist-korean-lunar-calendar"
 

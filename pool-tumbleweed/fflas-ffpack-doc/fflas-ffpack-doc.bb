@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.5.0"
 
-RPM_NAME = "fflas-ffpack-doc-2.5.0-1.5.noarch.rpm"
-RPM_HASH = "f3794c8c7b0942d2a1bde31d4e72388b6b68d5fd99c099097c219f94bbef89b9b55c5ff211852d6647f6e80d0639c5a3db951c33f5b70503be03a2a7bfc1de38"
+RPM_NAME = "fflas-ffpack-doc-2.5.0-1.6.noarch.rpm"
+RPM_HASH = "446d0280f470d7d3b73d50a21d03f92c8a10f6afc222fd281032d5e6121097ae7fa4cde769e591b9dc0cc9843672417cd6105a824bdfc3a74e1574f3d41e25e2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fflas-ffpack-doc"

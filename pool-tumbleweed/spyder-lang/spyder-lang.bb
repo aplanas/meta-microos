@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "5.4.3"
 
-RPM_NAME = "spyder-lang-5.4.3-1.1.noarch.rpm"
-RPM_HASH = "e49e91ba883bdb79b33dede85837efa9a9ab7c3df51b9a041ce34ff4c882fea4455b585fbf9e776f5a955be2b82198442eeffc02a07b2aa60511b73b26352307"
+RPM_NAME = "spyder-lang-5.4.3-1.2.noarch.rpm"
+RPM_HASH = "e1ef556043736a9cf1e94dfe542d1168bfd55073958a18f377b0bb1ab3f1153ded7f15bda6a5d7ae1f0ab1f1b875604e2e086b62cd89e1560ad82a405af358f6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-spyder-de \

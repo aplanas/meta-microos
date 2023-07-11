@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.22.0"
 
-RPM_NAME = "python39-libsass-0.22.0-1.3.aarch64.rpm"
-RPM_HASH = "bcf89e13d26097eeb6bf82ec0504b8590b31c166b9f35ab70a5f4682bc687c7372dc04777e59b76b098b041e28748820845977ea82695097ba5e1cbadd02db4c"
+RPM_NAME = "python39-libsass-0.22.0-2.1.aarch64.rpm"
+RPM_HASH = "ae0eff2ec0175b77e751473f01b96baba035dc8956ce1d4e2daa1d471c29139a817ab5cee36d9f88a4e4e7c1f8a4b89b3411a2a8e64a79f963e9fadb1358eac2"
 
 RPROVIDES:${PN} += "python3.9dist-libsass \
 python39-libsass \

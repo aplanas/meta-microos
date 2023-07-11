@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6.0"
 
-RPM_NAME = "python39-pyjokes-0.6.0-2.13.noarch.rpm"
-RPM_HASH = "1f0c3320c96feb927e77be0ea5c71fe1d522df3f17f5e2760639b2d067392026cd839cb4b5f70a5c6c843641a3ab59bfd508dda3476e3dd11744710640e94c9d"
+RPM_NAME = "python39-pyjokes-0.6.0-2.14.noarch.rpm"
+RPM_HASH = "83864f2381dd5d5087c0da90faf17f352a29ef51c682eeb20ef0c95904ac33d85ffd15fec4d5e37379c0ce486be82ee8f8616553b8cf34ac9a9a572caef59cd0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyjokes \

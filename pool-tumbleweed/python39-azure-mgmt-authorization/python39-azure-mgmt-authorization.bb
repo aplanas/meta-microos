@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "3.0.0"
 
-RPM_NAME = "python39-azure-mgmt-authorization-3.0.0-1.3.noarch.rpm"
-RPM_HASH = "e770ae77c07c028978dfc51e6a1c9e8fddc5bd6d033f01d80b59da927b39b9b3085fa7e5568010ed86976f9a8293b77521d36395cd5c9e086bd12a2b06efe557"
+RPM_NAME = "python39-azure-mgmt-authorization-3.0.0-1.4.noarch.rpm"
+RPM_HASH = "2d5067f70f9fdcb711eb796a70cc66f1cd1c2bfb915d6686cd3e6f7b10f09518204fe48b85e2debe6251708d7db91608e0b05170ccd1653d5901c0c09ea8955e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-authorization \

@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.0.3"
 
-RPM_NAME = "ghc-old-time-1.1.0.3-13.2.aarch64.rpm"
-RPM_HASH = "8ca87e226bf5ddbf2e1aa5edd2bf192dd98e80d69a14e3d1cc3fb8e60586fbaf91660f769d93a89e3991b70433bc96ee29ad1a1a0523c9c1f217c7d1b5595f44"
+RPM_NAME = "ghc-old-time-1.1.0.3-13.3.aarch64.rpm"
+RPM_HASH = "801ca86b979798cc745c9c4f125d664d5ac668b19666bf8595fffdd4afec6164f2069e083bb1647f5fe8f697ff4884346169360bfaa504c7f74d088b42df3224"
 
 RPROVIDES:${PN} += "ghc-old-time \
 libHSold-time-1.1.0.3-6MrxIvEBZcaI0p7TDiYNU1-ghc9.4.5.so"

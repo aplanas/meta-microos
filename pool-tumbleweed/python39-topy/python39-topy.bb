@@ -5,8 +5,8 @@ LICENSE = "MIT & CC-BY-SA-4.0"
 
 PV = "1.1.0"
 
-RPM_NAME = "python39-topy-1.1.0-1.11.noarch.rpm"
-RPM_HASH = "41041047dd6a256dcbbf1d296c5f52ff1ef025fa7d979a2884a34cd5bad0f31339f54c3730b9d0f8d4dffdb660b0cf87b67884d1f96d415c956ff74dae6453a4"
+RPM_NAME = "python39-topy-1.1.0-1.13.noarch.rpm"
+RPM_HASH = "b736cab6371062b5f2f1a972930aaa89a14c2cd23bec060305eaa6f81e4ff4c97ec87ec85c8db063b1cb0ba3bc919b643580054e5f556502e1cc789a99d92a0b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-topy \

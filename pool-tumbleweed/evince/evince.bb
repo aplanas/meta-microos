@@ -6,10 +6,10 @@ Separate plugin packages, e.g. evince-plugin-pdfdocument, need to be present \
 for certain formats to be recognized."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.1"
+PV = "44.3"
 
-RPM_NAME = "evince-44.1-1.1.aarch64.rpm"
-RPM_HASH = "f76943a41fb92ba61351b6091ef3f0d3d60b42d843025f71025577d6ff4d42658f21ce758d12ad81c7268f01b7de3c67e5598ab669b2d7a2a8b3e5e7a4ea4d31"
+RPM_NAME = "evince-44.3-1.1.aarch64.rpm"
+RPM_HASH = "4ca7f395651b6fe8bffb316629386f2a924481f6e150a2f5e5bf1be32f47e5dc04a7ee8271093e5cd47fdb0e19fb30bc7ffae276d08ad30babcc634fd793700a"
 
 RPROVIDES:${PN} += "evince \
 evince-browser-plugin"

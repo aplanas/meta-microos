@@ -4,8 +4,8 @@ LICENSE = "ISC"
 
 PV = "1.1.8"
 
-RPM_NAME = "python39-ansicolors-1.1.8-3.14.noarch.rpm"
-RPM_HASH = "e5123660e0913b3faad73591c09399c3806f714a722bfbea74d6b0a1b89c7c4454dc0032edfe6ebeed555f05545ae3f7df0f70e13862c8df5cc2f912060bbaae"
+RPM_NAME = "python39-ansicolors-1.1.8-3.16.noarch.rpm"
+RPM_HASH = "569a5272ef0a6da4e02623d43572c621183638c01804fc5811655d34ec1b5c6555d2e7e4579911059e4effc8254899fddeef2d9077581c31491fb38b46f221b6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-ansicolors \

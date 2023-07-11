@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.2.1"
 
-RPM_NAME = "python311-django-haystack-3.2.1-1.4.noarch.rpm"
-RPM_HASH = "75ca529dca06a407fa4b8d248651be76632e462270618aeda9692adeb59cdd451ce490733ce053ffc82f19a068f75f97d3b479a30bb66fc89cf53bb980f06180"
+RPM_NAME = "python311-django-haystack-3.2.1-2.1.noarch.rpm"
+RPM_HASH = "6bcc4bfbde2c80daf38be9eb0f17fb8beeecea1e120c8141af830365d299c328b25c09fff667496d1cc02129f7b9a4d76ce52ea280cde3d19f37dda981411db5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-django-haystack \
+RPROVIDES:${PN} += "python3-django-haystack \
+python3.11dist-django-haystack \
 python311-django-haystack \
 python3dist-django-haystack"
 

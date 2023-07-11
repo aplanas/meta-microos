@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "0.5.2+git.1630978236.a30af77"
 
-RPM_NAME = "python310-Tempita-0.5.2+git.1630978236.a30af77-1.12.noarch.rpm"
-RPM_HASH = "77d0330b29122e6df70b298bd1853bc61a52acd02ed1baf8baec837db4d35a1f76412e5ff025dde3b9a1117333873451b412ae1ad4717dd9eca9e3b6d3881fab"
+RPM_NAME = "python310-Tempita-0.5.2+git.1630978236.a30af77-1.14.noarch.rpm"
+RPM_HASH = "cb1eb6ce4d16e6e1c501428113bdf6518c9345e133f72d9c977b17018b14177a731bfc4d2150ec90329b7078523bc901244f3af20356451ad36ba3b574c19863"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-Tempita \
-python3.10dist-tempita \
+RPROVIDES:${PN} += "python3.10dist-tempita \
 python310-Tempita \
 python3dist-tempita"
 

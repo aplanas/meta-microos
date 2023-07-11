@@ -8,10 +8,11 @@ LICENSE = "BSD-3-Clause & LGPL-2.0-or-later & BSL-1.0"
 
 PV = "1.10.1"
 
-RPM_NAME = "python311-scipy-1.10.1-2.4.aarch64.rpm"
-RPM_HASH = "b1d5cb5f8dda36e2c2e5905f9a7845fff36e96f1ff0d19333c75b17ec17069829fe85a4c515ef71066115651e548754b3f9a579b72859b6bb45d6a127fd0c0d1"
+RPM_NAME = "python311-scipy-1.10.1-3.1.aarch64.rpm"
+RPM_HASH = "17831a82db84dda06e1082ce8dbfd24e9da95c15bec59354f474ab4feb801b94067251da8613fdf7bc6db6e6eab567b32baefc0c3ce17cc2bc3cbce11b87e851"
 
-RPROVIDES:${PN} += "python3.11dist-scipy \
+RPROVIDES:${PN} += "python3-scipy \
+python3.11dist-scipy \
 python311-scipy \
 python3dist-scipy"
 

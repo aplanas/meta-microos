@@ -4,11 +4,10 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.0"
 
-RPM_NAME = "python310-nautilus-devel-4.0-1.5.aarch64.rpm"
-RPM_HASH = "4a1af417aab920eeccb4416721a8c4abeb5d4618654dd52a4cfd91574525d8d3c509db7a000e393c9a6563320ebf8fcf01faea47e5e831dd50367e2f3f17f371"
+RPM_NAME = "python310-nautilus-devel-4.0-2.1.aarch64.rpm"
+RPM_HASH = "53f1b7e838d84a45c891e4e79676dc576365448f39e6b76bee537b172b0752d3c8c004ce0dd47fc769369c84e78ff08703b9138bab97ba178e2e8f457966a503"
 
-RPROVIDES:${PN} += "python3-nautilus-devel \
-python310-nautilus-devel"
+RPROVIDES:${PN} += "python310-nautilus-devel"
 
 RDEPENDS:${PN} += "python310-devel \
 python310-nautilus \

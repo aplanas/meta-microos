@@ -5,8 +5,8 @@ LICENSE = "BSL-1.0"
 
 PV = "4.0.0"
 
-RPM_NAME = "libmsgpackc2-4.0.0-1.3.aarch64.rpm"
-RPM_HASH = "edff85fd9e18d1d048635b66a9c5ce5189e8991072ea43bb78caba8558d89c4a0bf13b2a282326df23af75294b6d1450750a90f5371ff4fde7d3a8805e0b59d2"
+RPM_NAME = "libmsgpackc2-4.0.0-1.4.aarch64.rpm"
+RPM_HASH = "54ba4352e6285eb0bd89a455a9ca0516346a977c8485ac32466e52489f5b87c9ed1aa067260a3a56233359f186ab751c425a37d18434ebdcead338b63b99c882"
 
 RPROVIDES:${PN} += "libmsgpackc.so.2 \
 libmsgpackc2"

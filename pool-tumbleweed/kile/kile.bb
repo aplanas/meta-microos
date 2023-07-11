@@ -24,8 +24,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.9.93"
 
-RPM_NAME = "kile-2.9.93-2.21.aarch64.rpm"
-RPM_HASH = "0e8a002a31851b4912168e3c3f02668576c59d81115bf48fc86f6d75495022afccac0f51fd441fc8678e7e2c6b17f4d8af89e057b02d4e6b22c671f264ebeb15"
+RPM_NAME = "kile-2.9.93-2.22.aarch64.rpm"
+RPM_HASH = "63563c374cfa7e2b89f76fdbec6d8a39d5357fe4d6d7bbe32aa02a48054a8cb2a8ba4d682acae9b5ecdf3c870d810059786d60b3d1909b77d568fec925a8fe8d"
 
 RPROVIDES:${PN} += "kile \
 kile5 \

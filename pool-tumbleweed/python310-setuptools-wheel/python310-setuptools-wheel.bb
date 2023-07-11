@@ -4,14 +4,13 @@ allow you to build and distribute Python packages, \
 especially ones that have dependencies on other packages."
 LICENSE = "Apache-2.0 & MIT & BSD-2-Clause & Python-2.0"
 
-PV = "67.7.2"
+PV = "67.8.0"
 
-RPM_NAME = "python310-setuptools-wheel-67.7.2-1.1.noarch.rpm"
-RPM_HASH = "b7d7eb75d00333a133f185f30b6d15a6cb600791738ad20c63fca008744cd3071ba0c2aed6113885d8873fad966ea684ba283362b56fa24796ef74f2e173e635"
+RPM_NAME = "python310-setuptools-wheel-67.8.0-1.3.noarch.rpm"
+RPM_HASH = "649d04835325ca8c0046449319b151149abfda609ad40ff4a3a8707234ca8b3c8bdeaf1777f11eababc8733db8c34500d382780fa57451aca8767532a3576325"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-setuptools-wheel \
-python310-setuptools-wheel"
+RPROVIDES:${PN} += "python310-setuptools-wheel"
 
 RDEPENDS:${PN} += "python-abi \
 update-alternatives"

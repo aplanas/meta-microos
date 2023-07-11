@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "3.5.0"
 
-RPM_NAME = "libcasacore7-3.5.0-2.13.aarch64.rpm"
-RPM_HASH = "6a748f1c9de5c332d0b80a4a2598552a73870c4bf5d95bbb3845b078cbac5f9d45360ac2c63a81672323af316a232d264554f7cef0201efc349d176014878b65"
+RPM_NAME = "libcasacore7-3.5.0-2.14.aarch64.rpm"
+RPM_HASH = "76a9b5f2d08f2c6d449e72441d0a3f873cb2fc2c641aec7fe4c0146d05da07bc22e175c5a2077a237efeaf7506843952f39e2921501545dc42e668ced5b9b57c"
 
 RPROVIDES:${PN} += "libcasa-casa.so.7 \
 libcasa-coordinates.so.7 \
@@ -43,7 +43,7 @@ libgslcblas.so.0 \
 libhdf5.so.200 \
 liblapack.so.3 \
 libm.so.6 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libstdc++.so.6 \
 libwcs.so.7"
 

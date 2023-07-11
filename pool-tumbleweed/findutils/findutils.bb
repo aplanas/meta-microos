@@ -12,8 +12,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.9.0"
 
-RPM_NAME = "findutils-4.9.0-2.3.aarch64.rpm"
-RPM_HASH = "065252fe6db40a22d882ae04686e96d1ef2e06ce5b8972b1422bfb3107a66c0b07ed1ccd3310e228f4fd75f56e61c89dbd9a03aaff201887acdd039fd3155498"
+RPM_NAME = "findutils-4.9.0-2.5.aarch64.rpm"
+RPM_HASH = "71d53bc25a38098efe88d062fc6f1f4b79ba4fe061cebc02010dbae179a3acabec470c6a92ccb1443ecccc1f3895d2aef4669d1fa65ac02bc09d16403aba4520"
 
 RPROVIDES:${PN} += "find \
 findutils"

@@ -4,11 +4,12 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.1"
 
-RPM_NAME = "python311-pytest-curio-1.0.1-1.8.noarch.rpm"
-RPM_HASH = "8a342b8d82f441633240abc7f5287f45bb295a8677e3b992dc875e7e97403609c5b244cb0df13cf1d172af4e07365f72b4f2b21c760736854a6095cc3e699d94"
+RPM_NAME = "python311-pytest-curio-1.0.1-1.10.noarch.rpm"
+RPM_HASH = "24bad0f87d1363a6b93ea8b67982014356f492f06f1df5faace5cf8bc5fd2e525eab39b3f90769e53b93f06e3d8662706e8204bdf9465c0022d844d77f385238"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pytest-curio \
+RPROVIDES:${PN} += "python3-pytest-curio \
+python3.11dist-pytest-curio \
 python311-pytest-curio \
 python3dist-pytest-curio"
 

@@ -17,8 +17,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.200013"
 
-RPM_NAME = "perl-Config-MVP-2.200013-1.2.noarch.rpm"
-RPM_HASH = "fc4b100d8b763d706e8cfb57c0593693a9bce2b01608ddce1d51d37cf62dbda7c33b93cb7b5e9a18cd4836ae51f5bb70e0414abd47a2b070a55bd5b6a195cddc"
+RPM_NAME = "perl-Config-MVP-2.200013-1.3.noarch.rpm"
+RPM_HASH = "cd60a07dd222776ccab208fd270805fb2d5cbd52a45c4bbf08c524f0fbfcccc057a944ab1708b0d9c10c7784f3e0f369e82b9e6d95ec1c13b5c53b58ba431698"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Config--MVP \
@@ -34,7 +34,7 @@ perl-Config--MVP--Section \
 perl-Config--MVP--Sequence \
 perl-Config-MVP"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Class--Load \
 perl-Module--Pluggable--Object \
 perl-Moose \

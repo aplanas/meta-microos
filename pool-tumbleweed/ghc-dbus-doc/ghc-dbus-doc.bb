@@ -2,10 +2,10 @@ SUMMARY = "Haskell dbus library documentation"
 DESCRIPTION = "This package provides the Haskell dbus library documentation."
 LICENSE = "Apache-2.0"
 
-PV = "1.2.28"
+PV = "1.2.29"
 
-RPM_NAME = "ghc-dbus-doc-1.2.28-1.3.noarch.rpm"
-RPM_HASH = "713799b881e43dd8bc3f079bcfc5fb901662f96a3a8982c45f493f355b5ef3d42d303f981072bf15a66e6cee6f5960ad0f9d25f00510a9486252b75098e8fc68"
+RPM_NAME = "ghc-dbus-doc-1.2.29-1.2.noarch.rpm"
+RPM_HASH = "ad20cbf5c56b7ec2463d4dadfe3a5540493def5f3733833d3fc8c20d1d5d184333e2948b7c42b433bdef007de6abc43d97b2f7daa63bfa3b065adfcc8aae68ae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-dbus-doc"

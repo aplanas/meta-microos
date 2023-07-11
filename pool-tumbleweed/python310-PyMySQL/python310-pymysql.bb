@@ -11,12 +11,11 @@ LICENSE = "MIT"
 
 PV = "1.0.3"
 
-RPM_NAME = "python310-PyMySQL-1.0.3-1.1.noarch.rpm"
-RPM_HASH = "a3748da07bbf1c5a012b31c7da9c2ed82f042a464066767826d3b4c74eec7d99dc97cf4a20bc0c4f6a8fffaecd9aba18c17a8a8e8d1490b58f3164817ea351f0"
+RPM_NAME = "python310-PyMySQL-1.0.3-1.2.noarch.rpm"
+RPM_HASH = "d3fd10ac67ce927f8a975ac49dbed44847a40017a8022163a1053a03d9ed2c1994090aa4aee8493875032e649b02a68b644da6d076277dd6be110c0f483b86f4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-PyMySQL \
-python3.10dist-pymysql \
+RPROVIDES:${PN} += "python3.10dist-pymysql \
 python310-PyMySQL \
 python3dist-pymysql"
 

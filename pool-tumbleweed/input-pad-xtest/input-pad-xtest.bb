@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "1.0.99.20140916"
 
-RPM_NAME = "input-pad-xtest-1.0.99.20140916-5.9.aarch64.rpm"
-RPM_HASH = "38d6163cab3d2d23d2ddab72c80e50c516809c789142c09f6e045e4027ab9b625fedfae4377bd0b060ebc4aa931d53751a7d3f1e30b8623e072c6338a7163f2c"
+RPM_NAME = "input-pad-xtest-1.0.99.20140916-5.10.aarch64.rpm"
+RPM_HASH = "bd2293fd359270c09e58090fee71185733f5e3868e25699737330bc1e1efa4e8f08db712d5e61330b98a5dbd0200caec8f369a9a60f3c8246078093a298532bf"
 
 RPROVIDES:${PN} += "input-pad-xtest \
 libinput-pad-xtest-gdk.so"

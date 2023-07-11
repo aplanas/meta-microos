@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.1.2"
 
-RPM_NAME = "python39-docutils-ast-writer-0.1.2-3.7.noarch.rpm"
-RPM_HASH = "ddab3b9dd3d9881289eb702a8f831ac3afe292321938e7d54c5af6b77e3dd512ccdd86832d5e317cd47dc8fad50b37504c8dfa301877b5826bbb82c3c92cf00a"
+RPM_NAME = "python39-docutils-ast-writer-0.1.2-3.9.noarch.rpm"
+RPM_HASH = "d8855aa25971bcccdd8cf8bc5c7adbc158deadb0873828e891526e9126f48fb978112a7be610dcd7216d227f3eba8faf060735b1e17e1f358676481e53913330"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-docutils-ast-writer \

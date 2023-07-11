@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.17"
 
-RPM_NAME = "ladspa-1.17-1.8.aarch64.rpm"
-RPM_HASH = "d40a5afcb30a705d0ab709cec89a6c4b09c6a8e0dc930cb58ce0a4444eff85615abf1bef37f6c59f173fb88ec091155758c552db9fcc384ab9d1b64cc5b2c38b"
+RPM_NAME = "ladspa-1.17-1.9.aarch64.rpm"
+RPM_HASH = "a9819da6888cadf6fa4810806c62aa2f6275a4388671bc8ead2ffb067ea03188a9aeb489d6a7e06f1fbcc0900357b3259cced7ab9648162002e1dcab9d8f8f40"
 
 RPROVIDES:${PN} += "ladspa"
 

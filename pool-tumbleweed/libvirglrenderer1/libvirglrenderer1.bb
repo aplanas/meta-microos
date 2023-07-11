@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.9.1"
 
-RPM_NAME = "libvirglrenderer1-0.9.1-3.7.aarch64.rpm"
-RPM_HASH = "f08539ec714060d5a3e941c9ff30236a4f00104be1fd3a6fae8916cf505a36e4d67532bd975f12bd76eb3c52c3045b154ec2f4ad7c51fd674e82577330cfc305"
+RPM_NAME = "libvirglrenderer1-0.9.1-3.8.aarch64.rpm"
+RPM_HASH = "e13270bc045ad948cb9a0a6f6df8c0b2daa55c308e8f9098db3d4b16af5c93c0a5b72019040baf39d6e33a76a9cf4f26c544e54dc0f48bcf4fb6017e44ca89c8"
 
 RPROVIDES:${PN} += "libvirglrenderer.so.1 \
 libvirglrenderer1"

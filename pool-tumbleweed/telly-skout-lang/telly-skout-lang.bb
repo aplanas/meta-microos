@@ -2,10 +2,10 @@ SUMMARY = "Translations for package telly-skout"
 DESCRIPTION = "Provides translations for the 'telly-skout' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "telly-skout-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "17258023119dc8fc539099645cd38d446f6a4e2982c0b294dbd272d39d63105ed8a53eafae60fc8bafbe5cc6b6975bd733293b18b535e63aee281a64ea9dfdd4"
+RPM_NAME = "telly-skout-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "04ad1c7f7ca33f98e461144a45ae103796a9b45d38b8dc4e661a9fd81ea85f3471174a1cc1f631c50ef23c312a02c59f8266c664c4abcaff4af68587c31d6d02"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-telly-skout-ca \
@@ -16,6 +16,7 @@ locale-telly-skout-en-GB \
 locale-telly-skout-es \
 locale-telly-skout-fi \
 locale-telly-skout-fr \
+locale-telly-skout-gl \
 locale-telly-skout-it \
 locale-telly-skout-ja \
 locale-telly-skout-ka \

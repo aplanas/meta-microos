@@ -24,8 +24,8 @@ LICENSE = "LGPL-2.1-or-later & Apache-2.0"
 
 PV = "2.0.6"
 
-RPM_NAME = "liblognorm-devel-2.0.6-2.17.aarch64.rpm"
-RPM_HASH = "60bba3b994443b5d8e5768781aecdd4515ed3d2c70b37034caffdb8ed2616746f35b880d2796bcef6e2410054eb83398e4b8ffaa1ed1894ded4a58c03af7cd52"
+RPM_NAME = "liblognorm-devel-2.0.6-2.18.aarch64.rpm"
+RPM_HASH = "97514b9a3f8127011300e1549bcf535fb746aaa0f37667c00ed6b3a10421781c2833d15b6b2bfd1ad775b570b4fc486e63751834cf47c341d315fb4051a18c87"
 
 RPROVIDES:${PN} += "liblognorm-devel \
 pkgconfig-lognorm"

@@ -11,8 +11,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.3.12"
 
-RPM_NAME = "ghc-lifted-base-0.2.3.12-8.3.aarch64.rpm"
-RPM_HASH = "691f5975b51b3e6c18350286d1d49c611daedc9a86d811b3e0fe44e3f89720fb553cc4ed8fd4ad2f80594f714f6b0a115145f3675de5d88fe2f073a7de47d799"
+RPM_NAME = "ghc-lifted-base-0.2.3.12-8.6.aarch64.rpm"
+RPM_HASH = "11dd6c39ded4494ee17ee811d7e833d52791b9ee682d75fa77ea2187c48057889be93a04e0f15784cece9b54b12f3ca230e85c3390d311d23e33fafcaa100c14"
 
 RPROVIDES:${PN} += "ghc-lifted-base \
 libHSlifted-base-0.2.3.12-2PslaVNAATq3HzvkpdIGSo-ghc9.4.5.so"

@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.9.16"
 
-RPM_NAME = "htmldoc-1.9.16-1.5.aarch64.rpm"
-RPM_HASH = "ba7e311cf1e029cfae472cd29710e27de8945bb359c0149203070bc70dbb28f224f70c6461539c8a7755c3c960db82f71fa7ab55a1a6be60d3d2233c9f194907"
+RPM_NAME = "htmldoc-1.9.16-1.6.aarch64.rpm"
+RPM_HASH = "cbd3a9da444a15ed5fb928dd16450d325793185862172d4630cd4cfc3e386eb227352113dca099baae9d8ea84d45dda68b15c1d6afccd56ecec83e30aff3920b"
 
 RPROVIDES:${PN} += "htmldoc"
 

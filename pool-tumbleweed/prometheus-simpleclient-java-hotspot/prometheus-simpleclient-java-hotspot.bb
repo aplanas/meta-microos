@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & CC0-1.0"
 
 PV = "0.8.0"
 
-RPM_NAME = "prometheus-simpleclient-java-hotspot-0.8.0-6.10.noarch.rpm"
-RPM_HASH = "1bbbdaddaf53236407af213348e0d4a80296de664a6221625c490c2092dfee63bb24248fc3e336b4731055ec859f3af433c5e9010bd8a89737fd74ee67fb31fb"
+RPM_NAME = "prometheus-simpleclient-java-hotspot-0.8.0-6.11.noarch.rpm"
+RPM_HASH = "dc16d24fd1c9d2ebbf1eda7c201c995c970decbb0be52b2a01235679a6f9d22fcf3361439240bd296d789df256da4ccf4d73ea9a298a7dfdfea8c9b9bd3114a1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-io.prometheus-simpleclient-hotspot \

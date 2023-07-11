@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.10.0"
 
-RPM_NAME = "libosinfo-lang-1.10.0-3.3.noarch.rpm"
-RPM_HASH = "10ec181240f3cc89498df92c1d77c7b818c5814eb73d0b4114d54626057a879cc50b0d332f0bf374dbda487d17c1d1119a27cd29c8d18bccdd0d3223d701e8e8"
+RPM_NAME = "libosinfo-lang-1.10.0-3.4.noarch.rpm"
+RPM_HASH = "97144e7d027051503f2c8ebada7fc5dbffa2e4b5caf351c66c539a257714df77360a36cf180a77fc5dda26d37c5bba2b34d190a8bcfb90bc58cbde80c7c30e0c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libosinfo-lang \

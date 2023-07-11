@@ -52,15 +52,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.02"
 
-RPM_NAME = "perl-Parallel-ForkManager-2.02-1.9.noarch.rpm"
-RPM_HASH = "29e13560b7bdffc3f10df0e33533450c233bbea3443830f937d22ac32b31a632d6babae085e45e8bef70bd709f9dc770a74f4f2efa1a60f07831c16f760d4335"
+RPM_NAME = "perl-Parallel-ForkManager-2.02-1.10.noarch.rpm"
+RPM_HASH = "c4560ed772b5801d177319ba78bc8df9152633dd7c2009f488e9a11d74c33ad629b4d6aad5526f3e49aa8759d79afae743d55f9c5662272e3d6ad5820770cb4c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Parallel--ForkManager \
 perl-Parallel--ForkManager--Child \
 perl-Parallel-ForkManager"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Moo \
 perl-Moo--Role"
 

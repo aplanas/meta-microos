@@ -13,8 +13,8 @@ LICENSE = "MIT"
 
 PV = "0.1.1"
 
-RPM_NAME = "python39-keyring-keyutils-0.1.1-1.10.aarch64.rpm"
-RPM_HASH = "c50e661977b66c4883590a9986b705eea3179afa47a09d7b8544a51848b374f1666c4c6e29919eb609091b9df8176717d01874f3be63cc00856aa83480c431af"
+RPM_NAME = "python39-keyring-keyutils-0.1.1-1.12.aarch64.rpm"
+RPM_HASH = "a98e19f868885462b50f30f5793d6602627e7fc3cbee69da5e4136bf2d0feba61542aee50939f8fc194557fe27714d19bbbf424a48964d67fcd768df6b7f7924"
 
 RPROVIDES:${PN} += "python3.9dist-keyring-keyutils \
 python39-keyring-keyutils \

@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.10.1"
 
-RPM_NAME = "python-cliff-doc-3.10.1-1.6.noarch.rpm"
-RPM_HASH = "a8c0ec62bb637cea8510fcb945f8f830872017d0ebc581b1585716ba17618ea95f701167b3d866cc4595b0ce031a69697170429873d533c07bfbd5a516ae06d8"
+RPM_NAME = "python-cliff-doc-3.10.1-1.7.noarch.rpm"
+RPM_HASH = "e08ac22ca96780e99f63335e04f6c26e9113e7a40ac1f6471810701a12a420eee6a11cbe9195895b6ad9c8220e3aa09df9c10a2674de8e2f76dfcfe909d3d672"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-cliff-doc"

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.1.68"
 
-RPM_NAME = "fs-uae-launcher-3.1.68-1.3.noarch.rpm"
-RPM_HASH = "b7ceb5d0a715b40fe97c2940583ea2026ad1ffe59277cc95c907809629e248f254449860235edc51777f541b879614098cde2febba8c8414a349b36bc885bf3c"
+RPM_NAME = "fs-uae-launcher-3.1.68-1.4.noarch.rpm"
+RPM_HASH = "b46579c91338658fd2b5d726dfb6ca585d85fe60c4604b903c071356b84e05017a49c16e65fbcf3bc63ae13b57e60fccd333e82b1282f8a326c94816b17ffc6e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fs-uae-launcher"

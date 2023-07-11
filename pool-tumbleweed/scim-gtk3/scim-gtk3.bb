@@ -4,13 +4,12 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.4.18"
 
-RPM_NAME = "scim-gtk3-1.4.18-5.10.aarch64.rpm"
-RPM_HASH = "f3061de87c28a75ba592162dd015ee3deaaa32c43c70c22edcab7eff4c7c4669f9ee03819fbd55eca1284677f3113638d2bd21b447632438df8fed53d120fa3c"
+RPM_NAME = "scim-gtk3-1.4.18-5.11.aarch64.rpm"
+RPM_HASH = "f02b086e4ff1d7101ff08e6003460ec972b4795f76ef952d2674a69187b65107fbc034f83794eb58338fd0b152da882202c8a5a1bfb54f83f8cae086641a35ac"
 
 RPROVIDES:${PN} += "scim-gtk3"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
-gtk3-tools \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgdk-3.so.0 \

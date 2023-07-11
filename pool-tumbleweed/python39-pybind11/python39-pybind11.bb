@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.10.4"
 
-RPM_NAME = "python39-pybind11-2.10.4-2.1.noarch.rpm"
-RPM_HASH = "48457bcd1b083c76bf28fa51fd2bf763cd83f01be6964c028763deefffa7d6915c467e86caff9a0c1729a12e5fb663befaee7fbe0b55a94d70f301dc0b07f3d1"
+RPM_NAME = "python39-pybind11-2.10.4-2.2.noarch.rpm"
+RPM_HASH = "255b2e26be491a1ef75ca2e88854e042d075e3e166d58050016eef0935dd4957029fc9578088ac9efec6ca49fe0594658d9163137752cd4fc7fab0a60b4f5725"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pybind11 \

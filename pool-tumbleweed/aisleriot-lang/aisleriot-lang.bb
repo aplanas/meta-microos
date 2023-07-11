@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.22.29"
 
-RPM_NAME = "aisleriot-lang-3.22.29-1.1.noarch.rpm"
-RPM_HASH = "730884761c811ecb5e34b679bc87db4a32a0e852f9665baac93e7c7b6b3907eeef87f9f929f105cafffa067c971381d499c2a7affafa97e5e20b36d1267389ca"
+RPM_NAME = "aisleriot-lang-3.22.29-1.2.noarch.rpm"
+RPM_HASH = "86ed59d26312e8239224abf4c9258ae42fdfe981cf035d3015f6b983a4599eeae01ffb0f141b3ee8b0f1686315f72214f999026d500212ef13fc2340faae5bbb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aisleriot-lang \

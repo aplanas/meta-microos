@@ -10,8 +10,8 @@ LICENSE = "GPL-3.0+"
 
 PV = "2.53.2"
 
-RPM_NAME = "unison-text-2.53.2-1.1.aarch64.rpm"
-RPM_HASH = "6bb9d4d0770eb8aa983518250bc88964531d32598cc7c8b16a9a5cf7fd704077d51f0ffeb3fbbbc2ee8d711ef62a940584efe0ee06574aa364b5a7a92172c716"
+RPM_NAME = "unison-text-2.53.2-1.2.aarch64.rpm"
+RPM_HASH = "59e9a3a4b9a3a13c76ef0d2ab070d0338a6536a20af3818e15ac0d8e88ba19646221b96cd34d77666594f12acfcb2d0ac025b68943defde1034fbe6d3d79ae94"
 
 RPROVIDES:${PN} += "unison-text"
 

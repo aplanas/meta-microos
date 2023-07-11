@@ -5,8 +5,8 @@ LICENSE = "OpenSSL"
 
 PV = "0.0.20021209"
 
-RPM_NAME = "apache2-mod_encoding-0.0.20021209-1.27.aarch64.rpm"
-RPM_HASH = "4d13fe976ef16816be392a2d7b5ecf74a8dddac6513d7fd9fb3eef12c233deccd5e004923a579268d61901ef9541e9af6575cb0928352610194c7c57c81a4176"
+RPM_NAME = "apache2-mod_encoding-0.0.20021209-1.28.aarch64.rpm"
+RPM_HASH = "9df0255c909e68034b1af5bf4255deec045cfeb5f2666b9f15ecb2e536208bca4104d18ab447966b984489a2fe621734c7de89a1a1caa2f1d447356e59f0cf14"
 
 RPROVIDES:${PN} += "apache2-mod-encoding \
 config-apache2-mod-encoding"

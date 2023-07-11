@@ -36,8 +36,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.72"
 
-RPM_NAME = "perl-DBD-SQLite-1.72-1.3.aarch64.rpm"
-RPM_HASH = "bac09b5a033cbe0ce882970893641a38f9d748a9f126928e089999e56ed6245f741b7cd52828e47db7f629713093902ff14d5bb5ef3d8f66a1dfe11407641604"
+RPM_NAME = "perl-DBD-SQLite-1.72-1.4.aarch64.rpm"
+RPM_HASH = "e232eb7d7dd2f2158d41f91e862d7c27987ec4471814bd906d0580f912a185dc942d648cd8ecec7ff5d5045da906ed80ed614f41d47b4028c46536b3b9bd2381"
 
 RPROVIDES:${PN} += "perl-DBD--SQLite \
 perl-DBD--SQLite--Constants \
@@ -53,7 +53,7 @@ perl-DBD-SQLite"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libsqlite3.so.0 \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-DBI \
 perl-Test--More"
 

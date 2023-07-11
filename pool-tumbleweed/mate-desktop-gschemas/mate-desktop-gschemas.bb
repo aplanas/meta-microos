@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
 PV = "1.26.1"
 
-RPM_NAME = "mate-desktop-gschemas-1.26.1-1.1.aarch64.rpm"
-RPM_HASH = "938734c64559fc92fc4eae155f43351ba2d64a57416774bad860f1de6d912dbc5855a1b60335262f9107ddc2b3baec55f17ecf114a1f70b5bdf8b32658126883"
+RPM_NAME = "mate-desktop-gschemas-1.26.1-1.2.aarch64.rpm"
+RPM_HASH = "8787eb48351e301b1aa900e37697b709640d1272e954843f380d4852f7527cc52b45ec9eede32a86f0848696e62d8f710c98b4f6d8b0a364057490c59b637f0c"
 
 RPROVIDES:${PN} += "mate-desktop-gschemas \
 mate-desktop-gsettings-schemas"

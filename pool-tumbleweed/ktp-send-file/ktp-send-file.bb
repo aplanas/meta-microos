@@ -2,10 +2,10 @@ SUMMARY = "File manager plugin"
 DESCRIPTION = "A File manager plugin to launch a file transfer job with a specified contact"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "ktp-send-file-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "4b5872d247e4c68f95d38e91bc7762cee57f04ba1b5e6a945bc23c09c44f12a385282c55c0b747ebd1bb0be02dea75d5d73a0f199ac45b4cf1642b4e676284d0"
+RPM_NAME = "ktp-send-file-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "aa474513128e0c50d3a5497b61caaee4692f5a6f71c44fffac6ac2155dab692c24ee4d8a75c33a8afa6d45b91afa5ca25ca47c7c998799aa163e2918e37fbd1f"
 
 RPROVIDES:${PN} += "ktp-send-file \
 ktp-send-file5"

@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "1.4.1"
 
-RPM_NAME = "python39-imagesize-1.4.1-2.1.noarch.rpm"
-RPM_HASH = "c7b5eebdf3dea5883de4d66779d094eae6eb9e9c96b04cdaac4dd91c6e8f85d2cfe77fbe0eafdb5442f52ec0b05c5f0be9b431a4fc5d3c32c0397bbac9009af2"
+RPM_NAME = "python39-imagesize-1.4.1-2.3.noarch.rpm"
+RPM_HASH = "f86b0331a271cbfec4e7a722dc8d8dbdceca0a49c422716f722b0adab560d06d4ce01724686b8406eb947040fd15ae2b7e46c43a87c251f9c84fe97ecb8eee87"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-imagesize \

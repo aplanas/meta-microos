@@ -12,10 +12,11 @@ LICENSE = "MIT"
 
 PV = "0.7.4"
 
-RPM_NAME = "python311-imread-0.7.4-3.11.aarch64.rpm"
-RPM_HASH = "88e17b905711395a05fe9f8d6b1fc15005e22c381f9acf3ea0aadfca34981c6bf3bcac9a83d0a6dda41e5009572f14bdbb46a471d03e2b70291122b805f0d158"
+RPM_NAME = "python311-imread-0.7.4-3.13.aarch64.rpm"
+RPM_HASH = "88b5d8670732f94cd0b576dac042ab45f41e22cbf104c2801abf740729ac7bb103ae4dbb95ef68aa03c379dcdeacae9a3fdb86da64df0836e140e0145a07c820"
 
-RPROVIDES:${PN} += "python3.11dist-imread \
+RPROVIDES:${PN} += "python3-imread \
+python3.11dist-imread \
 python311-imread \
 python3dist-imread"
 

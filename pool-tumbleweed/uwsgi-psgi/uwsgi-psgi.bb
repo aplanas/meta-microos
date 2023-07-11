@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-only-with-GCC-exception-2.0"
 
 PV = "2.0.21"
 
-RPM_NAME = "uwsgi-psgi-2.0.21-2.1.aarch64.rpm"
-RPM_HASH = "318606c104d90c51f7a47d612545431f0d3cf3a8b547b4d21f50f699b94ee0b6af2d0689c46b8ef7a7fbe5645d78b1a88d7a6fd8c5e61a3686ccc9909630547f"
+RPM_NAME = "uwsgi-psgi-2.0.21-3.1.aarch64.rpm"
+RPM_HASH = "ef79909832077a0492b6d77406bfd858ae61e6473effb34658f89372e115e5fc88989dd1d25f457586aee2a7a0860f3c3062dd2019d3b16f91cc0dc5a82d7919"
 
 RPROVIDES:${PN} += "uwsgi-psgi"
 

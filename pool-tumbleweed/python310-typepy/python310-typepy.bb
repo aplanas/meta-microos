@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.3.0"
 
-RPM_NAME = "python310-typepy-1.3.0-2.8.noarch.rpm"
-RPM_HASH = "8582014fcd669672dd6eb769f5c4ffc91d090f3c249819c60d6183c3e192c856e8150f72685a65ea4b61c85842bcacedf3cb0349bb93e994cc03fe8eb0d4841c"
+RPM_NAME = "python310-typepy-1.3.0-2.10.noarch.rpm"
+RPM_HASH = "f58df0d1d16e2eb3273f10d63cdf19313d83a48afb2d646b890d361ce0ad98bfc0c68aad29f7952664fc1ef356913ca2b729956dfdffa171dce7d520948ae50e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-typepy \
-python3.10dist-typepy \
+RPROVIDES:${PN} += "python3.10dist-typepy \
 python310-typepy \
 python3dist-typepy"
 

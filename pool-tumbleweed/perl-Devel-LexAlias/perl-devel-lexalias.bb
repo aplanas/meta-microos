@@ -19,14 +19,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.05"
 
-RPM_NAME = "perl-Devel-LexAlias-0.05-5.37.aarch64.rpm"
-RPM_HASH = "b17c7ad6f8f5a0f42920e7c8b875c7e04cabe4d8660d1572a8fd704d652bd1b687957785407c9919b85a1aabb0279e8dae309b92d1d615b70da825d6b01c7708"
+RPM_NAME = "perl-Devel-LexAlias-0.05-5.38.aarch64.rpm"
+RPM_HASH = "b81bdd5fa199470a6efd0933220454c9eff60788515320fdaf12d6f3b7039349eca16b11841c899da48ea7c8840349d70739d73cb6b6a1102c12d6d215256474"
 
 RPROVIDES:${PN} += "perl-Devel--LexAlias \
 perl-Devel-LexAlias"
 
 RDEPENDS:${PN} += "libc.so.6 \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-Devel--Caller"
 
 inherit rpm

@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "20220905"
 
-RPM_NAME = "ocaml-pyml-devel-20220905-1.4.aarch64.rpm"
-RPM_HASH = "0f456bf82331eff24733d2b13488b01f6204e6f8661b3a0b178f829f72a2c26a0bd416f3bd132741a16e63f1d8b52b7b5fcbeab43a5a857f4f1657de40a194c1"
+RPM_NAME = "ocaml-pyml-devel-20220905-1.5.aarch64.rpm"
+RPM_HASH = "ebacebf588a7908d83583391d9518672ff1534bdb2cb6d81816fdaf17d4881d250b628937d9f821c9de73bd5eacb1678398ade843c7b6c1c6dab53d62fef8f03"
 
 RPROVIDES:${PN} += "ocaml-Numpy \
 ocaml-Py \

@@ -5,11 +5,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.2.7"
 
-RPM_NAME = "udica-0.2.7-1.1.noarch.rpm"
-RPM_HASH = "598209519baf599deb3350db3124f9f753cee9e8c64380b1990d74f2fc250f0801024aff3cc86a41577313eb06fdeb2bd8ee665a951e54051ca929bcf5b366ff"
+RPM_NAME = "udica-0.2.7-1.2.noarch.rpm"
+RPM_HASH = "73157d65548d6999ee644472474ac4b958d649e8db2e6434c1c5db5e2e7df9fc77cdf23f7e52d616781c62ab451651ff190f1214a97fc7a6e9951b07d4c26875"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-udica \
+RPROVIDES:${PN} += "python3.11dist-udica \
 python3dist-udica \
 udica"
 

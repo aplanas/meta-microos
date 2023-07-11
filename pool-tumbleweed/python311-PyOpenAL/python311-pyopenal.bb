@@ -8,11 +8,12 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "0.7.11a1"
 
-RPM_NAME = "python311-PyOpenAL-0.7.11a1-1.14.noarch.rpm"
-RPM_HASH = "98b720ee587e6edb9644792f53c5641cd8f29e001b0790209ecbad15e6fcdfa9f0a25b20e691634b17c5733e3c0fa6aee1fc622618f942eb5ab05dfa7d8b19bc"
+RPM_NAME = "python311-PyOpenAL-0.7.11a1-1.15.noarch.rpm"
+RPM_HASH = "e20476cdbb1963013ec7db646644ed474b48602197a78d4ca09d5ff31713cf72124b7f6a1e510fd22e272c719f09e588dd6f23ea5a696b3bc6abd58644ad557f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pyopenal \
+RPROVIDES:${PN} += "python3-PyOpenAL \
+python3.11dist-pyopenal \
 python311-PyOpenAL \
 python3dist-pyopenal"
 

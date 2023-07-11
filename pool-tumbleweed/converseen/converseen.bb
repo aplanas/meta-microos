@@ -13,8 +13,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.9.11.1"
 
-RPM_NAME = "converseen-0.9.11.1-1.1.aarch64.rpm"
-RPM_HASH = "bef3414c00695a57ae6d64ad0b7abf58b9d48c117c53fec1c687b267ea16bd7a6841c077a622fa0c64a24d0cbf77abffeb23c77b4ed1c18613a0d177fa1b5974"
+RPM_NAME = "converseen-0.9.11.1-1.2.aarch64.rpm"
+RPM_HASH = "2a91d1e554d20495d0c408a37eb2d9e5c427cca57a6a97c874f0a4e5d6f0be077603dc745ff4f013d69189292de87a46ff2b813f7b52866c9c73cd79bb854371"
 
 RPROVIDES:${PN} += "converseen"
 

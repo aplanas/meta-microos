@@ -8,8 +8,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.24svn63057"
 
-RPM_NAME = "texlive-xcharter-2023.201.1.24svn63057-52.1.noarch.rpm"
-RPM_HASH = "ee1637275cd14c72016cc34232c6f6ac3b99fd8976a24b5259fc66e7dc578db2b49a0e0aee54eac6789a5b296899fff321427c74d9739943def573b30a53d6cd"
+RPM_NAME = "texlive-xcharter-2023.201.1.24svn63057-52.2.noarch.rpm"
+RPM_HASH = "f24a381c18ccc45b2fa56124aba0ec29eb47ef5d7d98137bbe8674724135fe41412dab56aa3db7e8e57ca21ef378a64de0d2a5c14c9f5f6bb272aef0c6b95e19"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LY1XCharter-Dnom.fd \

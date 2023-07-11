@@ -4,11 +4,12 @@ LICENSE = "BSD-2-Clause & MIT"
 
 PV = "0.60"
 
-RPM_NAME = "python311-oletools-0.60-3.10.noarch.rpm"
-RPM_HASH = "c66d34f8e1aff21659444e15919db3f483a3283d4396b92656be112ef936ed076771226028b70003c1197049aea684710411fd5a75cc9f400acb97751c79f356"
+RPM_NAME = "python311-oletools-0.60-3.12.noarch.rpm"
+RPM_HASH = "190ee9df91d6897947b0efa2835a5c8c6f2edfcb5708758799e6ac7e971191ba084fb761a6bc1cd698925f7315f731ad66389d3a3aba47a2d839910e0cbefe90"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-oletools \
+RPROVIDES:${PN} += "python3-oletools \
+python3.11dist-oletools \
 python311-oletools \
 python3dist-oletools"
 

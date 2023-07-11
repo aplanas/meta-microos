@@ -4,8 +4,8 @@ LICENSE = "AML & GPL-3.0-or-later & SUSE-GPL-3.0+-with-openssl-exception & MIT &
 
 PV = "0.9.1"
 
-RPM_NAME = "kaidan-lang-0.9.1-1.1.noarch.rpm"
-RPM_HASH = "986554996451dfdd990507cd85fc4e96be69eec640dca6b0b208e450e6511ae8763a860eb3c6739df702647c1eddad447466fb2f0e956862bc39e671a416cad4"
+RPM_NAME = "kaidan-lang-0.9.1-1.2.noarch.rpm"
+RPM_HASH = "1396243cdcac7dbe2de407ca0d5177265be1e75f833bc93e3f441339d26d1ca9fecc9ea6937fc0093daf3ae2d4ea99f783d3dc13cc2c8206a8f769e897beb701"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kaidan-lang \

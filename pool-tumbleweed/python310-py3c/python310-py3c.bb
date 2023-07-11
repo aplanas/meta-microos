@@ -7,12 +7,11 @@ LICENSE = "MIT"
 
 PV = "1.4"
 
-RPM_NAME = "python310-py3c-1.4-1.2.noarch.rpm"
-RPM_HASH = "bd0167e480037a3355059d2a26a45481042e69c69059dbee482cd26a3e1487b891edeb8cb6b4655e637f5d41942b2130956ee88da3445d6bade34befefbf90be"
+RPM_NAME = "python310-py3c-1.4-1.4.noarch.rpm"
+RPM_HASH = "1a069f51ff04bc1a81d1eae11c6a2c932f36bbef8033d85a599a13ab20ca865801d24657c85fc1988a298c1a0c141f909f6598ae2ccc45fdd6faca1fd6de36b7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-py3c \
-python3.10dist-py3c \
+RPROVIDES:${PN} += "python3.10dist-py3c \
 python310-py3c \
 python3dist-py3c"
 

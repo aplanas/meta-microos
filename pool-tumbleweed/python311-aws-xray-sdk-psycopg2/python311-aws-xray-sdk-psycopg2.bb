@@ -7,11 +7,12 @@ LICENSE = "Apache-2.0"
 
 PV = "2.12.0"
 
-RPM_NAME = "python311-aws-xray-sdk-psycopg2-2.12.0-1.1.noarch.rpm"
-RPM_HASH = "ac14ae8ffcccccca3a97272e60ff716956cfcfee7cd973fe1b6f9fd275a41b712e32b3607c6598034b2b4ce0cbb2edf98a1be41a724301bd063c8dc8b83f89d2"
+RPM_NAME = "python311-aws-xray-sdk-psycopg2-2.12.0-2.3.noarch.rpm"
+RPM_HASH = "8bc8d16288e897dad82219f09b39a3e31b37bbd8faab98f13fee1314194d6c23d5264ec440de214298a9574899dcd6b0d47cc23684475d980959bf0608eb0da5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python311-aws-xray-sdk-psycopg2"
+RPROVIDES:${PN} += "python3-aws-xray-sdk-psycopg2 \
+python311-aws-xray-sdk-psycopg2"
 
 RDEPENDS:${PN} += "python-abi \
 python311-aws-xray-sdk \

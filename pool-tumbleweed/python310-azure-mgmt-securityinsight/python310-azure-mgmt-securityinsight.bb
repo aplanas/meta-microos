@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "1.0.0.0"
 
-RPM_NAME = "python310-azure-mgmt-securityinsight-1.0.0.0-1.4.noarch.rpm"
-RPM_HASH = "222ed13737fc18144b9f9640c6c0f204ce6dc1535dd776d2f9ba6ca959961ba9e4069cf7022b01436b7d88402b97066112706750f87509dfab443b56b780ac57"
+RPM_NAME = "python310-azure-mgmt-securityinsight-1.0.0.0-1.5.noarch.rpm"
+RPM_HASH = "af2038eeaca3ebe071af71c79a293a625f88e8ae519ce79dbddf9814000838df35ffe08439c658c04b21d3b79bb9edd861f9d857226ff8690c43cb18e3963451"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-mgmt-securityinsight \
-python3.10dist-azure-mgmt-securityinsight \
+RPROVIDES:${PN} += "python3.10dist-azure-mgmt-securityinsight \
 python310-azure-mgmt-securityinsight \
 python3dist-azure-mgmt-securityinsight"
 

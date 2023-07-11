@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "1.8.9"
 
-RPM_NAME = "python39-spark_parser-1.8.9-3.13.noarch.rpm"
-RPM_HASH = "732b912db2c3a27362f1527bb8f52631e6f58bd0ebb6eaa0075603e4e21a10d68525d7c84933faf33dae717fa39793a897bc5adacd107c05c4241aacc6e93f61"
+RPM_NAME = "python39-spark_parser-1.8.9-3.15.noarch.rpm"
+RPM_HASH = "1accb726c22cea2a9799bad54abc246db173a3fd2eae3f67d921cb6790112fa3b5ffff5e8b204a239869ea1a0bb77942f073f4fd396aca5bdd2fbc7245d81cc1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-spark-parser \

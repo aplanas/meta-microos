@@ -8,12 +8,11 @@ LICENSE = "MIT"
 
 PV = "1.7.1"
 
-RPM_NAME = "python310-agate-1.7.1-2.2.noarch.rpm"
-RPM_HASH = "f93beac56f236f4b82f48bae50d369898c7afc5e79520f27528ba1ebbbc88d644358cd5759a661e203be08ccdf53581bf8feface7ee3490aef7dd6c73714c7d4"
+RPM_NAME = "python310-agate-1.7.1-2.4.noarch.rpm"
+RPM_HASH = "550e7d177320376ed278ff81cd268f6b15f245c1194472e2a4865ce9fdeecee426db5fc2953a73ae95e7c03317f164fe254bfb8fd0a51994f61b60ef4050f21a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-agate \
-python3.10dist-agate \
+RPROVIDES:${PN} += "python3.10dist-agate \
 python310-agate \
 python3dist-agate"
 

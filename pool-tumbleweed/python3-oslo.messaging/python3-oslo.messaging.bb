@@ -5,14 +5,14 @@ of different messaging transports. \
 This package contains the Python 3.x module."
 LICENSE = "Apache-2.0"
 
-PV = "14.2.0"
+PV = "14.3.1"
 
-RPM_NAME = "python3-oslo.messaging-14.2.0-1.1.noarch.rpm"
-RPM_HASH = "d1b01b08dafca37c48c5b1fa7f21b9cf316fe1d4af7f6982de3acd96ac3ff3204a1a84f214b7c365561a5fc7eac256d276b3df4c64d4c104236087926095acf8"
+RPM_NAME = "python3-oslo.messaging-14.3.1-1.1.noarch.rpm"
+RPM_HASH = "bceb522977b5344e93d829e313e4c16404c70b0c36ceb18fd5e46cbe583348cd946cce8ec3c1a325f2d99a6d533af672a036b6b9934e08d65f4fc1b4fffbdd09"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-oslo.messaging \
-python3.10dist-oslo.messaging \
+python3.11dist-oslo.messaging \
 python3dist-oslo.messaging"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

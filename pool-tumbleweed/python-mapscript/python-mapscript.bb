@@ -5,19 +5,19 @@ LICENSE = "MIT"
 
 PV = "8.0.0"
 
-RPM_NAME = "python-mapscript-8.0.0-2.5.aarch64.rpm"
-RPM_HASH = "7508a69cf05bfa575bcf7a27b19d5928e66ad28a0770619693c8b19e0c9725edba08b37d49fa3e8fec79983fa6eee86c4136ef7b63f3b32af01d02cc459ca39e"
+RPM_NAME = "python-mapscript-8.0.0-2.7.aarch64.rpm"
+RPM_HASH = "f3eacab3feefa5d1b66ddeb54321570b79421d302ea7d60d093c045235e3a2282d23b7ce97007418ffe8df31d8a0611e5fbc1049f0b0d303e71af37245a41308"
 
 RPROVIDES:${PN} += "mapserver-python \
 python-mapscript \
-python3.10dist-mapscript \
+python3.11dist-mapscript \
 python3dist-mapscript"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libmapserver.so.2 \
 libmapserver2 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 python-abi \
 python3-base"
 

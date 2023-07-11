@@ -12,8 +12,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.0.01"
 
-RPM_NAME = "kokkos-devel-4.0.01-1.1.aarch64.rpm"
-RPM_HASH = "e5c9ccc26d6df1841c9bcc0b1faa2b5b4558cd6bb5764cc27a9fb2650b5d834aa7653100f25823fd321568d3e47c3a8e12b61fd97a81c977ab31b3045fbdc77a"
+RPM_NAME = "kokkos-devel-4.0.01-1.2.aarch64.rpm"
+RPM_HASH = "a5717b91a1f3a4ebcaa303edfbc306aacd198ed948f31af6b2195663b71aaa97201768c6cf75d5b19f58bcead0b3bf2565b7d94c7d23394e5e39da779ef72544"
 
 RPROVIDES:${PN} += "cmake-Kokkos \
 kokkos-devel"

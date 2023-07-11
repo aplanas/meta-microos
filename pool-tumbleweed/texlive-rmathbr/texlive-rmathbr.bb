@@ -10,8 +10,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.1.1svn57173"
 
-RPM_NAME = "texlive-rmathbr-2023.201.1.1.1svn57173-53.1.noarch.rpm"
-RPM_HASH = "8cd1bc6607c3d71d3a6f40b26da9299cb113123d601b4f7687c461fb27b75c1f1cad0470eb2835ac41c3feb2aee7d7b35cb16c3058e49ec202691456be3c10b7"
+RPM_NAME = "texlive-rmathbr-2023.201.1.1.1svn57173-53.2.noarch.rpm"
+RPM_HASH = "5d2e470e7bc8f2315437c12445486344a93ded56d0732c12e4ff6a0db402bc3cc25ebfa26c2e9c1b8ecf50a5ab57b7fd8b936913394b66bc674537f68a6e83b9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-rmathbr.sty \

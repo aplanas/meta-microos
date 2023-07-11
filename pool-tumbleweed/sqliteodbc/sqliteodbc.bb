@@ -8,8 +8,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.9998"
 
-RPM_NAME = "sqliteodbc-0.9998-1.15.aarch64.rpm"
-RPM_HASH = "b2516f1ad3011f494b13d4ca532ade7d46933661d4d9d4fd34e8842e791bf42d7ee70ff7d95d5c0318d523d1bb9347d55bc3c22ad45f95596f30bff2ccc52891"
+RPM_NAME = "sqliteodbc-0.9998-1.16.aarch64.rpm"
+RPM_HASH = "ad6a62eba2abf89edd25fb9d14d8c173b45c42015fc0cb607c84f5f47c36cc5c667e9c89ba75b76ed718716623b46841583231004464cae8a6c464b4f2c58660"
 
 RPROVIDES:${PN} += "libsqlite3-mod-blobtoxy-0.9998.so \
 libsqlite3-mod-csvtable-0.9998.so \

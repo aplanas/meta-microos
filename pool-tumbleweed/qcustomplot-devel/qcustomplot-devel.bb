@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.1.1"
 
-RPM_NAME = "qcustomplot-devel-2.1.1-2.3.aarch64.rpm"
-RPM_HASH = "28fc541d6d90be94fe0a1762a102824eaa96662da217fd5851fdefb331676a88ca132c194fd7f9fbdc27f3b3c41a8926397a278da2fb83a1156b77af84aa8d29"
+RPM_NAME = "qcustomplot-devel-2.1.1-2.4.aarch64.rpm"
+RPM_HASH = "a6cc7b040eb3ad1242728016cbea8242d41df576ff2412c6ae02fc36580027c65adc903fe9f941935fedc74e37a1a5e6590c2fff7096c5f8d3b025a2db529bb5"
 
 RPROVIDES:${PN} += "libqcustomplot.so.2 \
 pkgconfig-qcustomplot \

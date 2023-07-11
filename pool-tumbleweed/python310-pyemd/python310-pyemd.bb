@@ -5,11 +5,10 @@ LICENSE = "MIT"
 
 PV = "0.5.1"
 
-RPM_NAME = "python310-pyemd-0.5.1-4.4.aarch64.rpm"
-RPM_HASH = "ef62358ce1b32b33c02f863c6db9000ce05a8bc91de15cded0e00e261bbe3f8a77980d1cf90bac57d84ddaac76c00d89e70d9711fc75b1e4f19f87b8515ad19e"
+RPM_NAME = "python310-pyemd-0.5.1-4.6.aarch64.rpm"
+RPM_HASH = "0d68760e573e36933a8fbe50fd78f534c8ecf45531a309c65f90a8370ab285d6b0fcd52b356bb740478c0550ee0da9aa82b3a0cce5f44f3fa851da48f145f661"
 
-RPROVIDES:${PN} += "python3-pyemd \
-python3.10dist-pyemd \
+RPROVIDES:${PN} += "python3.10dist-pyemd \
 python310-pyemd \
 python3dist-pyemd"
 

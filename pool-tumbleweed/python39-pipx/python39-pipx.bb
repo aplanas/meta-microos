@@ -1,11 +1,11 @@
-SUMMARY = "Install and run Python applications in isolated environments"
-DESCRIPTION = "Install and run Python applications in isolated environments."
+SUMMARY = "Install and Run Python Applications in Isolated Environments"
+DESCRIPTION = "Install and Run Python Applications in Isolated Environments"
 LICENSE = "MIT"
 
-PV = "0.14.0.0"
+PV = "1.2.0"
 
-RPM_NAME = "python39-pipx-0.14.0.0-2.14.noarch.rpm"
-RPM_HASH = "c2b0e3f90c5fc26e18a600c7dba20018ce8d4845b2c9798abb2baed88eda39319cc60af7b492f3a22ea61d3c4ccc33c4f4df4e50fd9a90350c703c8a54bb73f0"
+RPM_NAME = "python39-pipx-1.2.0-1.3.noarch.rpm"
+RPM_HASH = "91fe120f3789bac7e4877bc2a76ca35881efcc5de7def8dda1191c834582caddee1ea052aecc153a43a7843f5900f6d95480c83a502a02238b94655261c1bf2a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pipx \
@@ -16,8 +16,7 @@ RDEPENDS:${PN} += "/usr/bin/python3.9 \
 /usr/bin/sh \
 python-abi \
 python39-argcomplete \
-python39-setuptools \
-python39-userpath \
-update-alternatives"
+python39-packaging \
+python39-userpath"
 
 inherit rpm

@@ -4,10 +4,10 @@ DESCRIPTION = "pyenv lets the user switch between multiple versions of Python. \
 This project was forked from rbenv and ruby-build, and modified for Python."
 LICENSE = "MIT"
 
-PV = "2.3.17"
+PV = "2.3.21"
 
-RPM_NAME = "pyenv-2.3.17-1.1.aarch64.rpm"
-RPM_HASH = "fbe85cfa7a21493f128e68403543760af086319c6cf4877e43959d13a981a12a0023620eec1f310bf59db5184a1a773000f0472434bf72b8565c7b4c675c0964"
+RPM_NAME = "pyenv-2.3.21-1.1.aarch64.rpm"
+RPM_HASH = "2d9ad6c3df0fe66d85e3922066c9e904b07bddf25b03bb3ce03e71d8297cc821af06c63160a5130209c9d90b7a8be8980a9882313608257252b57bc637e547d2"
 
 RPROVIDES:${PN} += "config-pyenv \
 pyenv"

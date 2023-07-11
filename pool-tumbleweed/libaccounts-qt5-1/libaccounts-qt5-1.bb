@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.16"
 
-RPM_NAME = "libaccounts-qt5-1-1.16-1.18.aarch64.rpm"
-RPM_HASH = "8b1c9a8c063f669975f1c57e6c6cceef6767a8fb427f84368d7cce542812607ef0b0e3c5ee47a8bdabf39d447b79b693f1d5febb4919084986ff1411190ffde2"
+RPM_NAME = "libaccounts-qt5-1-1.16-1.19.aarch64.rpm"
+RPM_HASH = "c52c25b920344a30b3d84bdff5dcf4278d7cd36fdae5c0113654f0d95f3c3e44b74da52b0e3cc2d959aab3ed9cfdf2377b9e8cebd459173cbf3cfc5a8c963162"
 
 RPROVIDES:${PN} += "libaccounts-qt5-1 \
 libaccounts-qt5.so.1"

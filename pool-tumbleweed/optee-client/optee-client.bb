@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "3.9.0"
 
-RPM_NAME = "optee-client-3.9.0-1.11.aarch64.rpm"
-RPM_HASH = "6bb83762512bf04725ae276dd60967d9ed9afc256fe428db52a4f3e74df78b89eacec9a6c7f3986e7ee2e5a1588b0580c46290896d348fe9fb576a99831ea417"
+RPM_NAME = "optee-client-3.9.0-1.12.aarch64.rpm"
+RPM_HASH = "a9f80d72fb9c7ede7f55df2c1d1290fc002d8e15036bc4b234e7cfdcb5e144fc31bd8c93efc803ee14eed9969030fc4dc5e34d2ce0489f5538c7c34321035265"
 
 RPROVIDES:${PN} += "optee-client"
 

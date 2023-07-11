@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
 PV = "1.0.6"
 
-RPM_NAME = "spacefm-lang-1.0.6-3.13.noarch.rpm"
-RPM_HASH = "8457c213d7a09fe9015693b089565ed16648e65502aecf26a0f9757b8d37ffe73975e2f7616be83c79e11a210021bbe2803bea1fd882ade0e26b8c52b09c5d9f"
+RPM_NAME = "spacefm-lang-1.0.6-3.14.noarch.rpm"
+RPM_HASH = "7b062b4b41e68e2158d4c2b339186c6247218d5bb5eea0c5129791eac7e9b194af348fafba1cd30c279e047e5058f95bec8d69b76750c6d3f4d21edd9c1b7aac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-spacefm-af \

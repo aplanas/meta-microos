@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.6.0"
 
-RPM_NAME = "python310-pytest-socket-0.6.0-1.1.noarch.rpm"
-RPM_HASH = "ce6785cc5d5dd260062d0250850969d333ace33f807cf8359470041976296c2f0e46829f6875e3354faa547e201d9b3c06b06c9bcbacabd2b60d21818896b0c6"
+RPM_NAME = "python310-pytest-socket-0.6.0-1.3.noarch.rpm"
+RPM_HASH = "f1b1117a258752136ed1d0277dc50a1dfd6ac5ae888a5d38519113573ced5119a02a799bb25572d04efbe2eece0146a17a58620e2b01aa7333dc3dd4db21a2ac"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pytest-socket \
-python3.10dist-pytest-socket \
+RPROVIDES:${PN} += "python3.10dist-pytest-socket \
 python310-pytest-socket \
 python3dist-pytest-socket"
 

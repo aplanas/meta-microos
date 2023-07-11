@@ -5,10 +5,12 @@ LICENSE = "SUSE-Matplotlib"
 
 PV = "3.6.3"
 
-RPM_NAME = "python311-matplotlib-qt5-3.6.3-2.1.aarch64.rpm"
-RPM_HASH = "e17e4a26addc01d714c8b835b7ac4153c461fd8e53ac477b3daab0b39cd8670c7768b66870fea3fa0acf063a2d4e5fe842c15180a48004ca8c78d0bbad4634a6"
+RPM_NAME = "python311-matplotlib-qt5-3.6.3-2.3.aarch64.rpm"
+RPM_HASH = "66fb72b9e923d2c8ae7327a454a893fba4530cd850c3ff98300502c9fbfc26a3d31a95982769b6aa3550add6c7c66f4bac539851ab0444a40f506194cadb0aac"
 
-RPROVIDES:${PN} += "python311-matplotlib-qt-shared \
+RPROVIDES:${PN} += "python3-matplotlib-qt-shared \
+python3-matplotlib-qt5 \
+python311-matplotlib-qt-shared \
 python311-matplotlib-qt5"
 
 RDEPENDS:${PN} += "python-abi \

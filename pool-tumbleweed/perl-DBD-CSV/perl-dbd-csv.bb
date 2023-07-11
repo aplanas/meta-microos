@@ -11,8 +11,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.60"
 
-RPM_NAME = "perl-DBD-CSV-0.60-1.1.noarch.rpm"
-RPM_HASH = "4d9dbf9e63ef0c896a6e2fdde000113196948307360ba0e549c3794f66e7f5e85d19068d82953190420cdd8e20fc2ee11b3e90fb3ba840937152e2d6ebd616ab"
+RPM_NAME = "perl-DBD-CSV-0.60-1.2.noarch.rpm"
+RPM_HASH = "146ee358646f8cdbd1af87643b339db88c16f8c9d49337c4c73f4fc778c547d628ea3d1e81b43624d51ed07a107ebc22b82b7f4bbe383aac0cc30979d4b72628"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Bundle--DBD--CSV \
@@ -26,7 +26,7 @@ perl-DBD--CSV--dr \
 perl-DBD--CSV--st \
 perl-DBD-CSV"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-DBD--File \
 perl-DBI \
 perl-SQL--Statement \

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.1.6"
 
-RPM_NAME = "libserializer-javadoc-1.1.6-1.4.noarch.rpm"
-RPM_HASH = "c8d311136978e5b1b61f9fdcc5b7915f032c75c663edcc7bd2ae2253e18e8cbd45991314d50f3a0588716dbcd109f8650f0d8d1995de2277c633553fefca3965"
+RPM_NAME = "libserializer-javadoc-1.1.6-1.5.noarch.rpm"
+RPM_HASH = "706c2d2daa07931a65d1a69f94f2ffa56f7d4b4a6ed218f13a6043e8b56f6505dd837f04c7966bf2d4e1961bd8f5b9a750d43a291a06a57c06f46a451674432d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libserializer-javadoc"

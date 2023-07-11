@@ -5,8 +5,8 @@ LICENSE = "( 0BSD | MIT | Apache-2.0 ) & ( Apache-2.0 | BSL-1.0 ) & ( Apache-2.0
 
 PV = "5.5.1"
 
-RPM_NAME = "texlab-5.5.1-1.1.aarch64.rpm"
-RPM_HASH = "65e9f043e802d27b7edcfd3dbe2eb92d9ae1433cc8b4355d734fe32e78a64142d2a2e72976574d4ebbaf62587fcbb37ee46836f51c19b0451cc4a8b4d02038f4"
+RPM_NAME = "texlab-5.5.1-1.2.aarch64.rpm"
+RPM_HASH = "7d7333ce2b2ff850c05a2e6b26b2acb54d8a450a53cb0d47f8b60da47cf6c58c8671d4576f4d07f3bfe95e71f5cca021f7250c04a29f19994505d10f0686de9e"
 
 RPROVIDES:${PN} += "bundled-rust-crate-adler \
 bundled-rust-crate-aho-corasick \

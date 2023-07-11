@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "5.44"
 
-RPM_NAME = "file-magic-5.44-2.1.noarch.rpm"
-RPM_HASH = "1e6e2de3f631e43ad4eded145e38a663b3b7f44cfaa1fd666a775b7c1b59ce57288d5e6e6705d6c7d6b05525fd10e68c1859ab4188ffbe62b5e09fe63315f98d"
+RPM_NAME = "file-magic-5.44-2.3.noarch.rpm"
+RPM_HASH = "3ec6fc8a33c23dbf4993869f6f496d33a44417a9a5fafe74c28dfb30cecbba335979b5e38b375880ac548a639e68f69b69b690a2123166fd809e2d290fcae2bb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-file-magic \

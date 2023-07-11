@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.1.7"
 
-RPM_NAME = "conmon-2.1.7-1.3.aarch64.rpm"
-RPM_HASH = "56a54f9b0658217160c1377150ee2621fcfa7b9508d0dfaebc777a0d6fac18da6fa8e37b798363a93998be6fb9ddefef26989e47f7f680916e79b43743289de0"
+RPM_NAME = "conmon-2.1.7-2.1.aarch64.rpm"
+RPM_HASH = "e636fefe2bfec8483c7c366a97021bf967f94579a8bc60de661c1085850e9cba1862e7e1f7c52f9de18aeff7133b9c1f9d9feb3efbf9789790d0c95bad5f5ac6"
 
 RPROVIDES:${PN} += "conmon"
 

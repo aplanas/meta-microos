@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.0-only"
 
 PV = "1.26.1"
 
-RPM_NAME = "typelib-1_0-AtrilDocument-1_5_0-1.26.1-1.1.aarch64.rpm"
-RPM_HASH = "bb924384a89eeaa86d1e63ae678a1d8e7658f9b57c3693498f684499eb9d9a367b28412612f9bd473f2a292a00e1d737f196cc80f69234408810618bbaf15dab"
+RPM_NAME = "typelib-1_0-AtrilDocument-1_5_0-1.26.1-1.2.aarch64.rpm"
+RPM_HASH = "84a182c240cb4b24ca63eb504b6c64c669ead0e6ba6bd746297b0eea96fda140ed3a2068f525e38309eef4ad043aa1a5b74cc2c45de390d9a260e981da4279fc"
 
 RPROVIDES:${PN} += "typelib-1-0-AtrilDocument-1-5-0 \
 typelib-AtrilDocument"

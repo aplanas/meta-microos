@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "6.8.0"
 
-RPM_NAME = "python39-devpi-server-6.8.0-2.1.noarch.rpm"
-RPM_HASH = "91cb9c9a93c0cd53b7c929843b940387415c557f45115e9061c96f0524ad5943fdb9851a0fe57f42cf726c982a4c255ec9d0526a96ae060a049925eea02b8b1c"
+RPM_NAME = "python39-devpi-server-6.8.0-3.3.noarch.rpm"
+RPM_HASH = "fb8975c9b3c7315d61f5ae3fe3461e10fc385ad240e9b3ad6db925d54cd2c179d4ca76028475135c342ce684242a82dcc285187dadf95619068c918e862e16b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-devpi-server \

@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.10"
 
-RPM_NAME = "epplet-base-0.10-78.12.aarch64.rpm"
-RPM_HASH = "eca9229ae18277ad48559bb49614d574fe0f86af2f16ee25e689bc25c50e3c38fb24cf04b51231a82b824bd77e6b2734d2e4811d2a90bed27e480936a8443953"
+RPM_NAME = "epplet-base-0.10-78.13.aarch64.rpm"
+RPM_HASH = "9ef57593afa4fb50ead21cf74a51f3a3d31535e91160cab6a3b4a3d5471fca1af450f6467a08d0462b8f2a0862f667d418ac5c87dde595c7e5558e02bcd5fcd8"
 
 RPROVIDES:${PN} += "epplet-base \
 libepplet.so.2"

@@ -4,12 +4,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.0.5"
 
-RPM_NAME = "python310-dkimpy-1.0.5-1.12.noarch.rpm"
-RPM_HASH = "9277b34e90a0ed3ff2e8e49557537b64ca4b2cbc6c359db91109101c124b10eccd2b92bec7a9d13b32e4b13dcf717273405ec860c8da9dc5846fe605819238ff"
+RPM_NAME = "python310-dkimpy-1.0.5-2.1.noarch.rpm"
+RPM_HASH = "224962e57d4dbd40e4ea7bd3aa1bdbd3197ebb0ae09541b346eddcc330b56dd233fd1930135f5898a11c65a80826fb39fc0283491f83df19eb685bb134e7afc2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-dkimpy \
-python3.10dist-dkimpy \
+RPROVIDES:${PN} += "python3.10dist-dkimpy \
 python310-dkimpy \
 python3dist-dkimpy"
 

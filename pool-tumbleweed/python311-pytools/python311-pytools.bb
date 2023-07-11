@@ -14,11 +14,12 @@ LICENSE = "MIT"
 
 PV = "2022.1.14"
 
-RPM_NAME = "python311-pytools-2022.1.14-1.2.noarch.rpm"
-RPM_HASH = "a08ef793a79a6b933fcd952583acc966e10c30df54806c4c90120ef77063e550b3257957d37331869fb9d5f3e0e90e21735d7603324f215b26bc3b5f8e7efba7"
+RPM_NAME = "python311-pytools-2022.1.14-1.4.noarch.rpm"
+RPM_HASH = "4cdc52edfff1bd87fff0a5c701e031e0205f4210eee08567b43e02b27df84f08f2f265feeaa4f4587bd6b043e4732144f8f667635b9801e8d735462cdef247ac"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pytools \
+RPROVIDES:${PN} += "python3-pytools \
+python3.11dist-pytools \
 python311-pytools \
 python3dist-pytools"
 

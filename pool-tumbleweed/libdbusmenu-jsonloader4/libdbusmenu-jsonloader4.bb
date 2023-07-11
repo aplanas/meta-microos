@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only & (LGPL-2.1-only | LGPL-3.0-only)"
 
 PV = "16.04.0"
 
-RPM_NAME = "libdbusmenu-jsonloader4-16.04.0-9.3.aarch64.rpm"
-RPM_HASH = "b71be967494bf16a819acffa5e50a0e0c2bb2548c79c9930c08173a6b7b5779a6740dd44ff523950d8675539ffec6d4186e88a2c197798fe1a994ee7a1709daa"
+RPM_NAME = "libdbusmenu-jsonloader4-16.04.0-9.4.aarch64.rpm"
+RPM_HASH = "7109daf8d165e1edc3be756f4470c097e7f2705c5966a2ef7c22f7d98fc61bba058ecd830965702eb1ea56053f47db8798ce9aafeb92ede5cb4504edcf4e89e2"
 
 RPROVIDES:${PN} += "libdbusmenu-jsonloader.so.4 \
 libdbusmenu-jsonloader4"

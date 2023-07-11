@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "2.4.115"
 
-RPM_NAME = "libdrm_freedreno1-2.4.115-2.3.aarch64.rpm"
-RPM_HASH = "a41062639da4094dd1696de5d221fa4976a84fad727346143e15a657753a943d2efd56ac126ddff53e880419a1ec95948a5f1de1e48cbdd570727649e0581782"
+RPM_NAME = "libdrm_freedreno1-2.4.115-2.4.aarch64.rpm"
+RPM_HASH = "62ce46285d0d470481de48564ed681b9c3a762733018ff16c2c7c07aa5ebb75d1285acfe382d1b0e3d09d4041708f7b2b566d2a22b61984315da2c6c15253173"
 
 RPROVIDES:${PN} += "libdrm-freedreno.so.1 \
 libdrm-freedreno1"

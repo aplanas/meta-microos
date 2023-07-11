@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-multimedia-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "beb9690a540f6da9405c0228da4b4377b073aff5b33008e9fe47845ddd330bc54a68da3b7c5822c5fa60b3035fd2bbb64f5264d1149d06f9996b564239e9459b"
+RPM_NAME = "qt6-multimedia-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "c67b24f36c3214d47a1bcefec2ab9caa817096eb9def9691922d35a07ca092e876d76205a2c0c390a929aa54dec4d216e5d46a136bf7936e7544d4d011ed3f5b"
 
 RPROVIDES:${PN} += "libffmpegmediaplugin.so \
 libgstreamermediaplugin.so \

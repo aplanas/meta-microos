@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "1.21.3"
 
-RPM_NAME = "jdupes-1.21.3-1.3.aarch64.rpm"
-RPM_HASH = "935025fe3f737cb4c499f7d5da1b391829fa1967ae4244f63c6b9c158fe1cbe73b82d6b3880226c1ff67aa5db1838ae709bd3588a8e3cda31e60cfe8163795fd"
+RPM_NAME = "jdupes-1.21.3-1.4.aarch64.rpm"
+RPM_HASH = "3a0272a2421b6600d7092aef2e1d669c9106f9240a342b5c1f6d471c6b25fb2e76cfb8be5c9d27e0104ee8f9caa03ed9883b1c11043f60e785c3810b150a750b"
 
 RPROVIDES:${PN} += "jdupes \
 rpm-macro-fdupes \

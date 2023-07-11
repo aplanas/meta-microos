@@ -5,12 +5,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.0"
 
-RPM_NAME = "python310-pytest-remotedata-0.4.0-1.1.noarch.rpm"
-RPM_HASH = "182ad86509081744f92b5dd8c6d49cb3f04cbcae31dee8075f7b956f90399cd98d036aacd536be94f02f0ea60047c8e59da717f06d80338df54a6fdeedfee2df"
+RPM_NAME = "python310-pytest-remotedata-0.4.0-1.3.noarch.rpm"
+RPM_HASH = "4e4ca86db67ff26a0557dbc9bb367ee30d42e0f631d671c494c91b840641fa32c1b996583db92e9bcbb5129bbac7d6d1d05e70aed3ef3c646ea9525fd9f589cc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pytest-remotedata \
-python3.10dist-pytest-remotedata \
+RPROVIDES:${PN} += "python3.10dist-pytest-remotedata \
 python310-pytest-remotedata \
 python3dist-pytest-remotedata"
 

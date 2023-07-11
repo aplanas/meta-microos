@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.14.0"
 
-RPM_NAME = "python39-django-extra-views-0.14.0-3.3.noarch.rpm"
-RPM_HASH = "318f2d725299a83e673f4e25a6c1560d77510ba10e60927e3da1434150ff1f09baf2f81f180e8c9ca884998129b2261a2d8f01246e145a3bbcf91277a7dcbd72"
+RPM_NAME = "python39-django-extra-views-0.14.0-3.5.noarch.rpm"
+RPM_HASH = "c31c43cfb0cda709a72011e59071b550bdfea81dd0fcb5abbb67998610b63f7cbb854ed0d5e6f9419c240f21b0df87c40574e28f9e278f308fc86f8ca99566f4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-django-extra-views \

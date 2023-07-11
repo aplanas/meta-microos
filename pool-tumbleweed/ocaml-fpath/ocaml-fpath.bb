@@ -4,8 +4,8 @@ LICENSE = "ISC"
 
 PV = "0.7.3"
 
-RPM_NAME = "ocaml-fpath-0.7.3-2.9.aarch64.rpm"
-RPM_HASH = "191cfc762ca5f35b1182fa1d1a7c515483a774b4be0970770975b60b1333f2676f3df021413a3b4a7da00a7a27d90bf25c98d48a5e996cc06a10276d3bead2c1"
+RPM_NAME = "ocaml-fpath-0.7.3-2.10.aarch64.rpm"
+RPM_HASH = "73545623701ac4f0f775f6f21e48cf0b32db41c88915fbddcd6266e4adfd625426401edcc70b995afc5ef83a1fa3e58154a44cc0475d2b96b71b3009c1afdac3"
 
 RPROVIDES:${PN} += "ocaml-fpath"
 

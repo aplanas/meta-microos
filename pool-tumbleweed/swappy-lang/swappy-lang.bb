@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.5.1"
 
-RPM_NAME = "swappy-lang-1.5.1-1.3.noarch.rpm"
-RPM_HASH = "274241cc08b6175aa48a57094c16f68151ecd8f2f15d52a050795724b24010d9d4a9ac4c26bc96a4d89b44a9c51135d674b7b59c8e47b9b58320ad20ef63b39a"
+RPM_NAME = "swappy-lang-1.5.1-1.4.noarch.rpm"
+RPM_HASH = "f2782145b888186836f9d5c22e63d21f111ff5e351d5fc837d45ce88c887b5e47fd401a9f1a52ffb1a821e6ad3b23ecc34f9e9cdec55ba92a601fba454453daf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-swappy-de \

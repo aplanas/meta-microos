@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.76.1"
 
-RPM_NAME = "gobject-introspection-1.76.1-2.1.aarch64.rpm"
-RPM_HASH = "7f355f85540e127f19eab60dea1c82840442244b8b16195aaa5dd4758836e39662887cb3b915a3ee7027500aef891ce4516306b67ca74c98ad39eba4ae7eae8a"
+RPM_NAME = "gobject-introspection-1.76.1-2.2.aarch64.rpm"
+RPM_HASH = "1aed6d4131f2fd7647c30e991eb34023cfcb9697b7660b00013afbecf16e49bfc504869151c81a18ccd94e022884fc7eb84123aff2391a58d54559fec6e3e9b0"
 
 RPROVIDES:${PN} += "gobject-introspection"
 

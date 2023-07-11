@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "0.2.41"
 
-RPM_NAME = "libzvbi0-0.2.41-2.1.aarch64.rpm"
-RPM_HASH = "612b033f90800e8d855992ae9e5781cc53dd289e10336d0f8154add1ba896bdb1ca067c9be15d0ffd191a9b93932aefcbe7117be103c99b6d0bf782afcc0f5e6"
+RPM_NAME = "libzvbi0-0.2.41-2.2.aarch64.rpm"
+RPM_HASH = "cceea7561b58b339a44793cbd26e2d240423d6c761cfb3ea33e710a8fe5121c23eb0b811feebc2dfa419fe9f7e0931f30f116d43891cfcf3986bffd9793b5c5e"
 
 RPROVIDES:${PN} += "libzvbi.so.0 \
 libzvbi0"

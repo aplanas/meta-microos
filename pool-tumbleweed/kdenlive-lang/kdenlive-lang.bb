@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kdenlive"
 DESCRIPTION = "Provides translations for the 'kdenlive' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kdenlive-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "1158124ed97dc5237dbafe3973c51be1e96ed810522b0f581b8bf116501132d938bb39558f188d203999de193c8ec24b046460d1f02775f00d3b42f655eb3c2e"
+RPM_NAME = "kdenlive-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "47bfbf00cb05e936e96c1b4a0213f8566038240f7c97e07d7756a3e1fb07fabe047e3c8f008bc39ca5c63e1740599e2cfb0ab4e222c43718bb18762ecfdc7882"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kdenlive-lang \

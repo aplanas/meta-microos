@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
 PV = "1.24.1"
 
-RPM_NAME = "libv4l-1.24.1-1.3.aarch64.rpm"
-RPM_HASH = "19b0d476621b9ce1a2a1ca652618fdbe7ed3e147d3c354a21667bdc5d9a9fabe9e348c32d26c3ffa675242a4f896067e2b1aa297db1e36e439cf6f67bd087714"
+RPM_NAME = "libv4l-1.24.1-1.4.aarch64.rpm"
+RPM_HASH = "b2e51c58943e2b95575bf80a31e0281fac6db52391a77da6b7212ff592b37ba25a43aea3fdfcda597d5490cca6515a00f7b0dda8ddb66d94172fbb0f3544435d"
 
 RPROVIDES:${PN} += "libv4l \
 libv4l-mplane.so"

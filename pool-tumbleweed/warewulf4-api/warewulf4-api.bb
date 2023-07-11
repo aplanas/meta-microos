@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.4.0"
 
-RPM_NAME = "warewulf4-api-4.4.0-6.4.aarch64.rpm"
-RPM_HASH = "40bb81371ffbe8a468fcd34c44a9c87222cdbc6d012ea81fdfb9f87f53f5ac582b705fecf50fe83515e0243c7871f1466415727d229916ab97eb03f352ff4ec2"
+RPM_NAME = "warewulf4-api-4.4.0-6.5.aarch64.rpm"
+RPM_HASH = "6197fd7030de24b5ca2ffadc9562ad9328b176a1e5016f655a0735b1fe4e07c9a302149a8d41c789b719f9e56768e4e966d27b06cd2028b78d93f4bce56ce2df"
 
 RPROVIDES:${PN} += "config-warewulf4-api \
 warewulf4-api"

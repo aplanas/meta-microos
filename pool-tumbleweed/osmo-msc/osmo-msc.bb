@@ -13,8 +13,8 @@ LICENSE = "AGPL-3.0-or-later & GPL-2.0-only"
 
 PV = "1.8.0"
 
-RPM_NAME = "osmo-msc-1.8.0-1.11.aarch64.rpm"
-RPM_HASH = "0b436b0cd2e4b86da005b3ebc42ab4c626015af80465fed9c04c9bf22d8910e471d02305c3b51bf97d5cb5a99cad759c2a2d9682f3a511003b86a0b5af797d55"
+RPM_NAME = "osmo-msc-1.8.0-1.12.aarch64.rpm"
+RPM_HASH = "e4b2b758e99974235c6b4f210e1a0f2dea59583b6fe72baa82f8292bf051c0ffb328ef4b23a5638518578c043492f095808291eb664c1dd5784cc431cfa014a1"
 
 RPROVIDES:${PN} += "config-osmo-msc \
 osmo-msc"

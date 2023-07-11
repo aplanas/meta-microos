@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.201.2.1svn59693"
 
-RPM_NAME = "texlive-zbmath-review-template-doc-2023.201.2.1svn59693-52.1.noarch.rpm"
-RPM_HASH = "4cc1b7c47ab30c9c917d0db25edd088a925e4b2bdb053d438b94da9f4680c8dd8f683ef998dd8165ca8a5ad03ef326cba384924bac1d95482a812d35fb3977d0"
+RPM_NAME = "texlive-zbmath-review-template-doc-2023.201.2.1svn59693-52.2.noarch.rpm"
+RPM_HASH = "ea70059fef266606f66886a8b49f7ec61124af4d922d467c9e736e78c273b8dc4884c7118473d4e34a10289bb6524311af9eaf6d43fcbba1eb69dc4e5402d454"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-zbmath-review-template-doc"

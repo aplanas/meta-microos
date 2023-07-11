@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.4.2"
 
-RPM_NAME = "cups-ddk-2.4.2-5.1.aarch64.rpm"
-RPM_HASH = "266e0351937e3714a88041d5a7d71845cb3ebe6dd07c074e3e19a265bbd37f130d015f1e0fd8ca12e8dcb0d8c7b2a0cc93a35a4f26eeaeba9b5006d48d8be3e2"
+RPM_NAME = "cups-ddk-2.4.2-6.1.aarch64.rpm"
+RPM_HASH = "ff3eeb40320b8286fe7342af5f988c07afd5e67385bc24c331fcb7e74a44e1ba3feaf8db2983ef98694126954d90772841bb6b1ae4857bdb118ec1ce69c0a6c5"
 
 RPROVIDES:${PN} += "cups-ddk \
 cupsddk"

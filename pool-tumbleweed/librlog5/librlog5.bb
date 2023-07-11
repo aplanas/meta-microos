@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.4"
 
-RPM_NAME = "librlog5-1.4-19.4.aarch64.rpm"
-RPM_HASH = "442d1d6443c6cb161e5c216c1f3cf080439245b41e14db03276ac178dffe27329f76bdfc8f963f925a01c270b997d772e90e03d0ea5617dd6349929544a9d77c"
+RPM_NAME = "librlog5-1.4-19.5.aarch64.rpm"
+RPM_HASH = "bbb19fc06b089fee40736250bca0babeaabeb6872bbe41a0635b261a3d82de991e27bb2f0270720f130d40ab1bba61962c32ce2774601a28ee1d006bf55297a4"
 
 RPROVIDES:${PN} += "librlog.so.5 \
 librlog5 \

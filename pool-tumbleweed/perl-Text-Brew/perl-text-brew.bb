@@ -33,13 +33,13 @@ LICENSE = "GPL-2.0+ | Artistic-1.0"
 
 PV = "0.02"
 
-RPM_NAME = "perl-Text-Brew-0.02-3.26.noarch.rpm"
-RPM_HASH = "002a583f05ae41071934471282e205bff0e3f33d3a8f10033a80728e4974ecd385b0443abcd5e49d44b9f63b3ba4eb1652fc0f16df0f312b694531e62ca6c493"
+RPM_NAME = "perl-Text-Brew-0.02-3.27.noarch.rpm"
+RPM_HASH = "9d4fe6a7e318c74aa37ce5606822d81ed735ec7a1a1f987e55f64cf0f80f5dd875e5392151846e29871eb0dfed39228d43ca69dbac3c1f077328c390dbe980f6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Text--Brew \
 perl-Text-Brew"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
 
 inherit rpm

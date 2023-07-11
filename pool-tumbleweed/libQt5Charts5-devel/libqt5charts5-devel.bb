@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides header files and shared libraries for devel
 Qt Charts."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libQt5Charts5-devel-5.15.9+kde0-1.1.aarch64.rpm"
-RPM_HASH = "da20c1fa7d70728995da1caccf21f4d30a2714d51dc234f05e22cbcc35e79b949ab4d374aa2cffa4d3bec4fc7b3672d3547219eff950605cd77387769c330579"
+RPM_NAME = "libQt5Charts5-devel-5.15.10+kde0-1.1.aarch64.rpm"
+RPM_HASH = "9f177c857a35c91d0d1c6670dad1367c1b31f66266dbb17eec4e9f8770fa149134f1c72694d9e689699f96ce77fe741c055fc8f06241766ecaa0cf7252b2d38c"
 
 RPROVIDES:${PN} += "cmake-Qt5Charts \
 libQt5Charts5-devel \

@@ -4,11 +4,12 @@ LICENSE = "MIT"
 
 PV = "0.1.1"
 
-RPM_NAME = "python311-flake8-imports-0.1.1-2.15.noarch.rpm"
-RPM_HASH = "c1385c0d4803c9e86dc53b94cac687dcbd79559ae13c3b66ecc4a36685986fae67cd0be7af2f57b78f6762c6fee9d3e3a6f2cc8fb0f48f414f365583941bc640"
+RPM_NAME = "python311-flake8-imports-0.1.1-2.17.noarch.rpm"
+RPM_HASH = "51d6187f6b16f4f55d6bdd32af60945a90dbb2050de1c13fa85f7be56802db7dae0b9881bfb9274e14cd858594b580e7984e4cdf2b892896e88f446c9f864604"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-flake8-imports \
+RPROVIDES:${PN} += "python3-flake8-imports \
+python3.11dist-flake8-imports \
 python311-flake8-imports \
 python3dist-flake8-imports"
 

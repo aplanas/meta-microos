@@ -2,10 +2,10 @@ SUMMARY = "Development files for the Qt 5 3D Extras libary"
 DESCRIPTION = "Development files for the Qt 5 3D Extras library."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.9+kde0"
+PV = "5.15.10+kde0"
 
-RPM_NAME = "libQt53DExtras-devel-5.15.9+kde0-1.1.aarch64.rpm"
-RPM_HASH = "c354a7c359c67ddd8dbb426a5c1b8c39b31341a985a47320fb98c0dd32fc034615efc78475435e2fb8e0726a504dfbf1789c9be98466746d8aa60dbcfe7baa1d"
+RPM_NAME = "libQt53DExtras-devel-5.15.10+kde0-1.1.aarch64.rpm"
+RPM_HASH = "6b0c97753def4d79ee44ff8a74a9907d9ef932b61e047b7a17b21481bf8f092287b715219215e51c4e40e35af2b97a0de8ab00d098845201b929f6d03bdeb78e"
 
 RPROVIDES:${PN} += "cmake-Qt53DExtras \
 libQt53DExtras-devel \

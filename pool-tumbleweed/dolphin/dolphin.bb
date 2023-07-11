@@ -2,10 +2,10 @@ SUMMARY = "KDE File Manager"
 DESCRIPTION = "This package contains the default file manager of KDE Workspaces."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "dolphin-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "39a52fb27fd2ae4ae32bccf0f8608d131ee3198dd463518b7e55eebda63cc9c2a44cf2d5cc40dfe1a8636875e70f19839e41b3696373ef1a7ff44726976ddfde"
+RPM_NAME = "dolphin-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "d3c228ba13969846bf50985f79f6b6e14d26eb241464a8198c2dd440a425f843c359d559f137c7d4b641e4fe4038a8225d1ffc0edf0c8fe7f6beb797ed9f9f0f"
 
 RPROVIDES:${PN} += "dolphin"
 

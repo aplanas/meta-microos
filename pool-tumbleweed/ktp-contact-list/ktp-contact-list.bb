@@ -2,10 +2,10 @@ SUMMARY = "Telepathy contact list"
 DESCRIPTION = "Telepathy contact list application"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "ktp-contact-list-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "ea4bd64c8a060eeac49d88a882d3893041b8e6f718862b915db00000b0ac6515e573ce227abea64c13a5127cc51f5a50b03c5c7906c54800ebaf5ea6b9aacf8a"
+RPM_NAME = "ktp-contact-list-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "7974d8f595a8462fe9ed7bf1c04d60eaebf3b1cc170bc832531eed1761fe44b78f768d4c50b3e5898361c457027770de50e369566ba362c1a4c11db10674e8f3"
 
 RPROVIDES:${PN} += "ktp-contact-list \
 ktp-contact-list5"

@@ -19,8 +19,8 @@ LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
 PV = "1.12.55"
 
-RPM_NAME = "gnumeric-devel-1.12.55-1.3.aarch64.rpm"
-RPM_HASH = "00436f09084887bee52606b6c326ea5e0f8f43d225b67eca61dd6b64409687e7d9d13daf87d8b1de1c51bb6a4d7fa0e01c74af2cd2b4c718a726a6fde241b892"
+RPM_NAME = "gnumeric-devel-1.12.55-1.4.aarch64.rpm"
+RPM_HASH = "79af5d5a7fda471723f2e339d9bcb2fddc14c9829409c2b840a360db3838cb34c4c5d1acade3337dab61f90aec2d193e2bd65388149e72d06573b8039387e0fb"
 
 RPROVIDES:${PN} += "gnumeric-devel \
 pkgconfig-libspreadsheet-1.12"

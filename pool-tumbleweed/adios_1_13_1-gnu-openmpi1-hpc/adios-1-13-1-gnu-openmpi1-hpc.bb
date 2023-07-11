@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause & LGPL-2.1-or-later & BSD-2-Clause"
 
 PV = "1.13.1"
 
-RPM_NAME = "adios_1_13_1-gnu-openmpi1-hpc-1.13.1-5.13.aarch64.rpm"
-RPM_HASH = "42ca2ce021c1939fe19bbaa6db68f3d035af187cbca618eabd8bee5544fb6ec8e8094a3298c0e182be688e0ba761824ed8dcd48dc13413122016cb8cb92acc7a"
+RPM_NAME = "adios_1_13_1-gnu-openmpi1-hpc-1.13.1-5.14.aarch64.rpm"
+RPM_HASH = "a7fee0b64413817e746e9a7e42fbcf1562f1b8a9705f8c8ed975475a90aa2295ccb14d990d54090fca0c63ba04f7bd206f8722be481874626c839f2ccc85b04e"
 
 RPROVIDES:${PN} += "adios-1-13-1-gnu-openmpi1-hpc"
 

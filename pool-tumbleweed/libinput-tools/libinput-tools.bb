@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.23.0"
 
-RPM_NAME = "libinput-tools-1.23.0-1.1.aarch64.rpm"
-RPM_HASH = "baa61d340a003f88b83a2795a68270374b5e56f3bd0dc3c393b95a2d17fbcb9247c7d95c9f675b80f9ba6a4149dff04cb69bbe94f2735738da1b8b4001ecafda"
+RPM_NAME = "libinput-tools-1.23.0-1.2.aarch64.rpm"
+RPM_HASH = "5bc282ebbecd4c2d1d01ee0c28e44990c3c9c0fad55412b8b3853bcd642345b2241114d92e1544966bfd0243ee4e071493a227ebe931b4e829b0f691c2df640a"
 
 RPROVIDES:${PN} += "libinput-tools"
 

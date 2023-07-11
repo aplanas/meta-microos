@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "21.1.8"
 
-RPM_NAME = "xorg-x11-server-sdk-21.1.8-1.1.aarch64.rpm"
-RPM_HASH = "3eb44822396d59afdc46284f27f04fd4a7c5ed87dba06553afb80fa4d5299ebd6d7812a90148682fdb13f71ffe9ea3124b570452b8d688fe8dda1b072960d3ba"
+RPM_NAME = "xorg-x11-server-sdk-21.1.8-1.3.aarch64.rpm"
+RPM_HASH = "2624b576049d4fc73ad5ccd4b195dbf823c18bcee68676d30540eaaf2ba61915d7f1efc1f34926693e608e19073aa0bd332a5b42dc0335fffd80f552fbef0e24"
 
 RPROVIDES:${PN} += "glamor-devel \
 pkgconfig-xorg-server \

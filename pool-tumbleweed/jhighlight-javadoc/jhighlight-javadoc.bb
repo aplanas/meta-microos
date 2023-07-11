@@ -4,8 +4,8 @@ LICENSE = "CDDL-1.0 | LGPL-2.1-or-later"
 
 PV = "1.0.1"
 
-RPM_NAME = "jhighlight-javadoc-1.0.1-2.10.noarch.rpm"
-RPM_HASH = "21ba32aab0629e9db86e3a5695418be5e75560bc5f0293e80450785536ad90da8ef8b1bbd2f41e43c20514ebbfef4948e9efdc44b59a0cd7ccde8766a4dde6b9"
+RPM_NAME = "jhighlight-javadoc-1.0.1-2.11.noarch.rpm"
+RPM_HASH = "9886d9a6025e156f5cb19bf1ff7cca52e015e63a0454b9ff3b700d6f6f31e2d19e2da18a4ce010a5a4e24ff23e2318374e65c108a970dbb01c313d6aee3ef79f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jhighlight-javadoc"

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.9.2"
 
-RPM_NAME = "xclass-devel-0.9.2-188.6.aarch64.rpm"
-RPM_HASH = "f23f4b7c108a009ac7e676826b0391cc12b17f8202716657f614dad47ddeb1329493c0ecaa46dad160cf5cb4fbbc0d0a76eeaa7bfc74f04404db7acdc2dbe9a6"
+RPM_NAME = "xclass-devel-0.9.2-188.7.aarch64.rpm"
+RPM_HASH = "8cf56d575098d487ee7e74f0453be427ba8cda6642b413be802261d389d4f18197c8bafce0a3f69e85f61a8f9d5b538c03a716c835a2b2cb395c41e1638f5928"
 
 RPROVIDES:${PN} += "xclass-devel"
 

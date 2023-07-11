@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "4.0.3"
 
-RPM_NAME = "python39-husl-4.0.3-3.17.noarch.rpm"
-RPM_HASH = "4b4fc30b4f4de7c3f6a5558c9c5f5f9d8be61acfa3d45d52fcda35f8a3a91912bcd26328295e435787aea2a63af07b22788f625dc6f9e77c221be592b94791e2"
+RPM_NAME = "python39-husl-4.0.3-3.18.noarch.rpm"
+RPM_HASH = "b153cb82b1970573022cbbac23ab5d9e62188276a786cb8d334ecdb2c68d5e0b13d1d688e2f8409163db68c6d30937add5a6713967fe1fccc2850ae12d42051f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-husl \

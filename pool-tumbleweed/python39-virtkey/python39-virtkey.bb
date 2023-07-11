@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0+"
 
 PV = "0.63.0"
 
-RPM_NAME = "python39-virtkey-0.63.0-9.31.aarch64.rpm"
-RPM_HASH = "990de97a775dfddc735731b6630ce6095488df6422b1668be945ecff59ce458da606557cfc554cd2ee80c3bc3cf886ea9e4940f9ec239b23e4c70a20c533f407"
+RPM_NAME = "python39-virtkey-0.63.0-9.32.aarch64.rpm"
+RPM_HASH = "ff03d7f8a91ae80e75647ed79b59ff5f7ac6bf351051728462009851b1886164a00ab078f2c3d9023c3681d8b194c090276d81c4cd13925960ee147053f088c9"
 
 RPROVIDES:${PN} += "python3.9dist-virtkey \
 python39-virtkey \

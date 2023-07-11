@@ -4,8 +4,8 @@ LICENSE = "MPL-2.0"
 
 PV = "2.6.4"
 
-RPM_NAME = "libminizinc-devel-2.6.4-1.4.aarch64.rpm"
-RPM_HASH = "177cab448bcd60579c77855de3474939b132525b5bca38a7520ac7617175eb8344d61e639c788d3aad4118cfca8174266871ae24782ff243c29d5b2472502017"
+RPM_NAME = "libminizinc-devel-2.6.4-1.5.aarch64.rpm"
+RPM_HASH = "ec2c1db63366a8388b95ee8e7c10a723fa43ac2dfe2a108b7db71d04c4fa74fb808edf9966b30cd741e6394ca60055414da414e8555c4f6164e3c137fa840b6c"
 
 RPROVIDES:${PN} += "cmake-libminizinc \
 libminizinc-devel"

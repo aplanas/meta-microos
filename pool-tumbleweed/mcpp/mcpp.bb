@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.7.2"
 
-RPM_NAME = "mcpp-2.7.2-24.14.aarch64.rpm"
-RPM_HASH = "0b1fca1bf83e35f2a0e9a1ea2bce8930d03ae8415ca85bb9efa5e3bf57d55baca9fc9103b3a831c7f2821fa3af6b4a36cebcdc1a762cc72809425bf2b40cd493"
+RPM_NAME = "mcpp-2.7.2-24.15.aarch64.rpm"
+RPM_HASH = "6832a92f5de41b9fe3925e1f1f55cf24214ecaa83956bf62fa4b2433e2044db238051e4dbbbfafb273ebe6027ab049578fa87158167bfdf8c9317727218cae0c"
 
 RPROVIDES:${PN} += "mcpp"
 

@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.6.0"
 
-RPM_NAME = "powercap-devel-0.6.0-1.3.aarch64.rpm"
-RPM_HASH = "7530bb4aa374b0b8baed92d8af7d5a44291400cdf0fcf17bc0105ba83e89aec85cac161a7a1b94fa866ba23f7e2ffc7a253af80f571b483d9616f43e01496c9b"
+RPM_NAME = "powercap-devel-0.6.0-1.4.aarch64.rpm"
+RPM_HASH = "330e5dbadbc6f817134c73c72b59ef57a66b9e1df24576a1756ef121e3c7f2ed118b67e8fa9717c28599809ed56bef41653589d91c8a7e1ed74f1e5362f3c642"
 
 RPROVIDES:${PN} += "cmake-Powercap \
 pkgconfig-powercap \

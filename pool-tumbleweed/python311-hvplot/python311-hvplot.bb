@@ -6,18 +6,19 @@ individual PyData libraries if an extension mechanism for the native \
 plot APIs is offered, or it can be used as a standalone component."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.8.3"
+PV = "0.8.4"
 
-RPM_NAME = "python311-hvplot-0.8.3-1.1.noarch.rpm"
-RPM_HASH = "a65c0a4c71e103e16ad7e6e15087e858c768e1791e2d860d6e1fcf853cb2dcdaeb0efaac1f98c2b7c01fbae829e26f5291dfa3e8ab918b5e66def52276bcdc78"
+RPM_NAME = "python311-hvplot-0.8.4-1.1.noarch.rpm"
+RPM_HASH = "6f58189df96919f9c4a80ca95d3f55a1561b67eff9b0741773c7e44b40ea61a23af6ea26efc9c3fef0eaa9030a0b1b898dabc60d07a2d3f042d517871c5bb17b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-hvplot \
+RPROVIDES:${PN} += "python3-hvplot \
+python3.11dist-hvplot \
 python311-hvplot \
 python3dist-hvplot"
 
-RDEPENDS:${PN} += "-python311-bokeh >= 1.0.0 with python311-bokeh < 2.5 \
-python-abi \
+RDEPENDS:${PN} += "python-abi \
+python311-bokeh \
 python311-colorcet \
 python311-holoviews \
 python311-numpy \

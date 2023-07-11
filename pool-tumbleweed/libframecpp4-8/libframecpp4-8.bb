@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.7.0"
 
-RPM_NAME = "libframecpp4-8-2.7.0-2.12.aarch64.rpm"
-RPM_HASH = "c0876cb8c3cf1253e05b882064a156343ae5d454996d51c99c6b437a3c59e7af636cb80732130db2697c75dacef707dbeb18a92d370e47863563de26a7bdd623"
+RPM_NAME = "libframecpp4-8-2.7.0-2.13.aarch64.rpm"
+RPM_HASH = "c73ba25f12d1854e4238264d684efa7aa24ac1cd1bc9ffe573732a360ea23a87d6ab90c7df12bfcb94a7fb2c0be70442187aad8cf9739e46a4dd2e7f836a747b"
 
 RPROVIDES:${PN} += "libframecpp4-8 \
 libframecpp4.so.8"

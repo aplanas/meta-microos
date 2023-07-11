@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.7.0"
 
-RPM_NAME = "libfipscheck1-1.7.0-1.4.aarch64.rpm"
-RPM_HASH = "c229bb536c18bbce68b82307fb12cd6e8256f294e9bad16c937e50f78a25c2df66047dea0888e2cc1e002f7c752ecff2380f3c10005d2a1bfc952903012c556c"
+RPM_NAME = "libfipscheck1-1.7.0-1.6.aarch64.rpm"
+RPM_HASH = "f95a40fc0cbbe42d27384fcdf8d26ef4755798faf584cad03a83bdfadebb971ee5604f8f78fa9ef3d204c06652762e4aa2d0908b602afdd093a2e21ce3d9f78d"
 
 RPROVIDES:${PN} += "libfipscheck.so.1 \
 libfipscheck1"

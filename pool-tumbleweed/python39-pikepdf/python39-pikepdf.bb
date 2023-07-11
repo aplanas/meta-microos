@@ -4,8 +4,8 @@ LICENSE = "MPL-2.0"
 
 PV = "6.2.8.post1"
 
-RPM_NAME = "python39-pikepdf-6.2.8.post1-1.1.aarch64.rpm"
-RPM_HASH = "58f8bef87b1e5be65f296a0870e6e34b09f15ddea9bc9eef2100d4f86f4b6a45ea0111cea4c37b64d1854b3be00f4e2fd1b1dc1523cef1158e6eabc0f5abb763"
+RPM_NAME = "python39-pikepdf-6.2.8.post1-1.3.aarch64.rpm"
+RPM_HASH = "25ee16765d50e99a773374126a242253447756c630ccd10584a83bcb8d5d771e8d95fc844fdb295ea39e30cbd35f9c858f3a9737038ea140e6593faed434afb0"
 
 RPROVIDES:${PN} += "python3.9dist-pikepdf \
 python39-pikepdf \

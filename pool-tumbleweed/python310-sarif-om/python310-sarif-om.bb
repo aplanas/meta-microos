@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.0.4"
 
-RPM_NAME = "python310-sarif-om-1.0.4-1.4.noarch.rpm"
-RPM_HASH = "9e1577aee11edd84d6bd169f53f367f64d6797be87613c8c717600f745713eeabcdda33c745bfaaed33930d32a7367f3cfb2c79f3fd5aa5c3a42eb9735fabf72"
+RPM_NAME = "python310-sarif-om-1.0.4-2.3.noarch.rpm"
+RPM_HASH = "5a1eea5780f5ec54f8041648ab23b5d52923a3a130f4b5eb9908a18afe58370a8855cf386480ac6d63ba7abc5f8eab8b5677c1f5c61b9ea862dec6cf644bc28f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-sarif-om \
-python3.10dist-sarif-om \
+RPROVIDES:${PN} += "python3.10dist-sarif-om \
 python310-sarif-om \
 python3dist-sarif-om"
 

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "3.1.2"
 
-RPM_NAME = "libdovi3-3.1.2-2.1.aarch64.rpm"
-RPM_HASH = "fd3ceb9c42e61d2bfafd138ea477d1b0fd3949d09c7d1f8965f15cc81071792d562b2114b42d9f81575eca1fd0eb8554951f2bbc2b5748497a1c9ae37bf48cc4"
+RPM_NAME = "libdovi3-3.1.2-2.2.aarch64.rpm"
+RPM_HASH = "6518ee37f16f94ef3bfffef57329aa8515c6becd54cdf42d29f6e6d8cd168f02aa6bec6cce587da11ec6ec7fbf57b0beca8c86f709535e36fb8e9f571b53ca3d"
 
 RPROVIDES:${PN} += "libdovi.so.3 \
 libdovi3"

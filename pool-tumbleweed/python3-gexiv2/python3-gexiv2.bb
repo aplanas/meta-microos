@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.14.1"
 
-RPM_NAME = "python3-gexiv2-0.14.1-1.1.aarch64.rpm"
-RPM_HASH = "e1f1275df87f0cd403efad27755c986e5491169af4c5e70519439d25d0e2f7dbf7bb47a4dbd2023db1d1df7f177cdd135ee576f725914ebc0d535ea290cc6412"
+RPM_NAME = "python3-gexiv2-0.14.1-2.1.aarch64.rpm"
+RPM_HASH = "4fed5b2979fc4c7a6c49219c4051dbdd6736e14d12628c33be9157048d39576722bbeca0934ad4ae5f0e23022a06f96226f8e037d0bcb6a311bcfc0a78e18fee"
 
 RPROVIDES:${PN} += "python3-gexiv2"
 

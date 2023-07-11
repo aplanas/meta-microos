@@ -5,10 +5,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6.2.3"
 
-RPM_NAME = "ghc-hackage-security-devel-0.6.2.3-1.3.aarch64.rpm"
-RPM_HASH = "b2a51fe87c21fe9700428c9fd635a3eb9d283d7a306554a9eb9e388e09a296d972aa414775ef13b9a84ec4f16ef831367eb89e67ba1022d635b92496f0d7a67b"
+RPM_NAME = "ghc-hackage-security-devel-0.6.2.3-1.7.aarch64.rpm"
+RPM_HASH = "38ec4a7a12bf7bb4aa6c605914e80bef04dbe66780630bb9b9b00219024c723ae6349fe3e6fd713a6d54ad3151cb9df933cd60f1bd61285fec69c6219a039516"
 
-RPROVIDES:${PN} += "ghc-devel-hackage-security-0.6.2.3-Km2R5J8alEh3bTkVIJr5Mq \
+RPROVIDES:${PN} += "ghc-devel-hackage-security-0.6.2.3-BVLL0begiUMDlGngVjOMXt \
 ghc-hackage-security-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -26,7 +26,7 @@ ghc-devel-filepath-1.4.2.2 \
 ghc-devel-ghc-prim-0.9.0 \
 ghc-devel-lukko-0.1.1.3-7Ko9x6wnjxCV3NuL9k89V \
 ghc-devel-mtl-2.2.2 \
-ghc-devel-network-3.1.2.8-HNDBp0HF6t0D1fzE2MDtPd \
+ghc-devel-network-3.1.4.0-FvtFepOtuCUH79FCWyNxIc \
 ghc-devel-network-uri-2.6.4.2-4kNQnaE9heqEL1mH8FE5xH \
 ghc-devel-parsec-3.1.16.1 \
 ghc-devel-pretty-1.1.3.6 \

@@ -12,8 +12,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.102"
 
-RPM_NAME = "open-isns-0.102-1.4.aarch64.rpm"
-RPM_HASH = "9ae295ac23e7ea4e362acff292ab72d35d5a84eedc1bf8063215131be203d0b3d8b7966683f63850c9bbe6234d46719a4e2b767be849bffb70fb7d9a45883041"
+RPM_NAME = "open-isns-0.102-1.5.aarch64.rpm"
+RPM_HASH = "39b328b93629e82413d1f84f5a5c56274f6edaab08692efb9c0b5388eb7851ff88c431df6bebd84b9ab49f351e0319086b0d05f7082039e190c98946abb920d2"
 
 RPROVIDES:${PN} += "config-open-isns \
 libisns.so.0 \

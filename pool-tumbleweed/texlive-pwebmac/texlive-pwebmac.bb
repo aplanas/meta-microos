@@ -22,8 +22,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2023.201.4.8.1svn63731"
 
-RPM_NAME = "texlive-pwebmac-2023.201.4.8.1svn63731-53.1.noarch.rpm"
-RPM_HASH = "ce6c5e50911834dc5d78774d663ffe09e2115d7ce930a7ecb9ff09cbba3c94045fa7b1bc0d9c0be19b1f1d1386402a7507bf82bd3c57bb210c4340b736b50015"
+RPM_NAME = "texlive-pwebmac-2023.201.4.8.1svn63731-53.2.noarch.rpm"
+RPM_HASH = "11f56bc85bdf8e5e51d008dd5cb814f3476c4c3349030a238b13c440a51156dc955e1485bb3a9f472b4addd9163fe377213cf755db9904cf7c31b9c4394c6cda"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pwebmac.tex \

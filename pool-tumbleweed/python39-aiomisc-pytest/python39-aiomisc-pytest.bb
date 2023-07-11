@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.1.1"
 
-RPM_NAME = "python39-aiomisc-pytest-1.1.1-1.1.noarch.rpm"
-RPM_HASH = "9eaaa833655ce32f800aa0a3bee4cf9fa04ad5e9d9dd196502b9035215cbe45cadbda974c5af3f7931ff0c1a4c15634ee08fa7d50e3c04a70cfb94ba857b165f"
+RPM_NAME = "python39-aiomisc-pytest-1.1.1-1.3.noarch.rpm"
+RPM_HASH = "3e1382388d77d6fc3c8d6ba840ec5e33fe3d3daec2be30f51a29979233341c580bc5c904aa09ce697c963ec49168bf7837181b7c2244ab54e68fb7274c906a72"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-aiomisc-pytest \

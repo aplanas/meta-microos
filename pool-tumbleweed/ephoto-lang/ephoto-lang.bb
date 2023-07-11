@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.5"
 
-RPM_NAME = "ephoto-lang-1.5-1.28.noarch.rpm"
-RPM_HASH = "3bff0d78056b8ce9c90fe92b7344ef63f873e54744af4212220a21b487f1bb12a778eb9454eaa448e8cfa2ee00c88595169fbe870d615c6017a6d5347dc35661"
+RPM_NAME = "ephoto-lang-1.5-1.29.noarch.rpm"
+RPM_HASH = "b257928d679239d4b85f60d2513aadbc64c37721a94afdcf0ee7f3b2751521eeed1f32b1134fafb7d619ef260e6d067f66976312165047d71479e63a354d9800"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ephoto-lang \

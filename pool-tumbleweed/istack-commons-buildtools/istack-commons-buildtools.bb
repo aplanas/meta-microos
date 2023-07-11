@@ -4,8 +4,8 @@ LICENSE = "CDDL-1.1 & GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "3.0.7"
 
-RPM_NAME = "istack-commons-buildtools-3.0.7-4.4.noarch.rpm"
-RPM_HASH = "c6af5afff1f0a51b7260db0023ffc68422b0ba740552663bb79e1d758a70ff1334dbf1754494ba06f9e2b9093ed3519b740b5a634baa9f5f6df9f8f3a3cdd093"
+RPM_NAME = "istack-commons-buildtools-3.0.7-4.5.noarch.rpm"
+RPM_HASH = "1a726ed934d8f55c9fc6e99f4291b4b3d2deec428a522a48103c513c6f89d562d12e236a049b5de2cb0bce3f0f81f1f50e722dc1d06fa90a9adb1cc6742af8a4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "istack-commons-buildtools \

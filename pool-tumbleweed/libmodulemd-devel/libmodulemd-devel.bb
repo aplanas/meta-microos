@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.14.0"
 
-RPM_NAME = "libmodulemd-devel-2.14.0-1.3.aarch64.rpm"
-RPM_HASH = "f7ccbbf34a30dc46fd40376c28140207cef7ca5d69ecefd95dfde462500dd1de4efbce4e70fc5307616b89ac6b0d599f9c0f7393d5867a82a3a2a05bb8cbe6bd"
+RPM_NAME = "libmodulemd-devel-2.14.0-1.4.aarch64.rpm"
+RPM_HASH = "d24c516025bf1b5079ad315806426eb76a582672fb9652cedfb62936476439926fac028ee29be3940108770e5c7a360145d46c505b63dc516bdbbe9de9b6f96b"
 
 RPROVIDES:${PN} += "libmodulemd-devel \
 pkgconfig-modulemd-2.0"

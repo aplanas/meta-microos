@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.4.6"
 
-RPM_NAME = "haguichi-lang-1.4.6-1.1.noarch.rpm"
-RPM_HASH = "dc7be47822309424f7d9b9f3925bc866bf9e4dceccce35098e4a4853f7162472ab3e55b2e8d8143e1ca2c71907d26076fb3da3f1d862f153819c587690f0dcec"
+RPM_NAME = "haguichi-lang-1.4.6-1.2.noarch.rpm"
+RPM_HASH = "6aeec478cac845d00fdcf816e8cb031e66bdce2aac874e0ff438ca1723fd40fc1896d62cc9d6ac9857351743f10ca4caf0ff02dfcc670d3d11ee1701ba0a79e6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "haguichi-lang \

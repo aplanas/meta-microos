@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "6.18.1"
 
-RPM_NAME = "csound-plugins-6.18.1-3.1.aarch64.rpm"
-RPM_HASH = "ef221b645520392f48aff690f16fe7d6cfd66cc7c66b7a0db4819598e50685874c62f51583b968f1c8dad5c6c847537eb2d64a4fa4738a1af8e3ff3770db6e70"
+RPM_NAME = "csound-plugins-6.18.1-3.2.aarch64.rpm"
+RPM_HASH = "78e86f1e4b535cc1218a381e43c9f675aa24d82510b3434aedb78ce98b72d8482cb8a47c29020b08b039910f6fddb603bd1cbf304142862bad1a7d837849c65e"
 
 RPROVIDES:${PN} += "csound-plugins \
 libampmidid.so \

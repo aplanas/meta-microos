@@ -19,8 +19,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.9.16"
 
-RPM_NAME = "x11vnc-0.9.16-2.13.aarch64.rpm"
-RPM_HASH = "96c876d5dfc6508d9caf71f7c66a5b04a4bb70cd761dd16c422f45dc78dea1b30e4b33fbb9755a2871f1db4d1f1ab68947afe1c2d6c4234a8701cbd5d6ee64bb"
+RPM_NAME = "x11vnc-0.9.16-2.14.aarch64.rpm"
+RPM_HASH = "9ddc484542be55d3b4fdb4fea29b018697778baae54787eaae862d9370a6a64e26b3d1a69730a2a1dfbc5773799da166ad8a6b56bc89ed1b73341368ff8b78c9"
 
 RPROVIDES:${PN} += "x11vnc"
 

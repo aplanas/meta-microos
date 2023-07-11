@@ -1,12 +1,12 @@
 SUMMARY = "Header files for libzypp, a library for package management"
 DESCRIPTION = "Development files for libzypp, a library for package, patch, pattern \
 and product management."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
-PV = "17.31.11"
+PV = "17.31.15"
 
-RPM_NAME = "libzypp-devel-17.31.11-1.1.aarch64.rpm"
-RPM_HASH = "66b42c88e8676bde6e0ae6bc4fc728706eb8b824222e29f434ecbf8e2a39cef1a39403a7f26fb4df5226a8ab5f8ca8e4df205801044782815d812da6f0e18980"
+RPM_NAME = "libzypp-devel-17.31.15-1.2.aarch64.rpm"
+RPM_HASH = "df49c1bfdccc478b71e8baf58da3ccd8778e3c545f21bd61adf89ebd0faacd960018d39a192eb045595804152a01f4124d7c22d9b30c3926ff980103cbd3a051"
 
 RPROVIDES:${PN} += "libzypp-devel \
 pkgconfig-libzypp \

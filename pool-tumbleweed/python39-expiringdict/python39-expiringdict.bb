@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2.2"
 
-RPM_NAME = "python39-expiringdict-1.2.2-1.3.noarch.rpm"
-RPM_HASH = "0ad46240109025321910e4bc391c9804eb8342770b03f081722bb9b19875cd5935800ce522589806f0e6bd27a3ad95a5dd26a8da210aea2c0e028cc4a6c5bc22"
+RPM_NAME = "python39-expiringdict-1.2.2-1.5.noarch.rpm"
+RPM_HASH = "153c0ab5298972dda07972b2904111f7bab83061bbab7aa6a8f98e44a4a78c10c57f7fdead716ec71064588fe24dd67a2d4a0955b93bb4ecd6172686c2a0db05"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-expiringdict \

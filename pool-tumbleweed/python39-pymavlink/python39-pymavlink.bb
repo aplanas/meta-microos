@@ -6,8 +6,8 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "2.4.35"
 
-RPM_NAME = "python39-pymavlink-2.4.35-1.4.aarch64.rpm"
-RPM_HASH = "2b70b9a934ee8a05e4d3b1206fa0169d085e92bef3cd7d69d7ed23f636b2de7964d2a7b98e1e96d90eefad3017f687e44e5316b5f4425facec36e05168ac97eb"
+RPM_NAME = "python39-pymavlink-2.4.35-1.6.aarch64.rpm"
+RPM_HASH = "fd7f48902d8451125622edc60c557d9d23e75fb3e46a29bd061e727f13738ad9768c8f47a543a8e204110c23e28bcfa0dd02cf33ad96c2a53e2526344e4969d9"
 
 RPROVIDES:${PN} += "python3.9dist-pymavlink \
 python39-pymavlink \

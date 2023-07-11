@@ -27,11 +27,12 @@ LICENSE = "Python-2.0"
 
 PV = "4.5.0"
 
-RPM_NAME = "python311-typing_extensions-4.5.0-2.1.noarch.rpm"
-RPM_HASH = "0f889cbe3ca6a324f7157f946ad09dac378be1f9b8a91ca5fc96eeaa59330122edd77cf3127ea7d9c18beb7b14b4c1cf18c281c4de0f9b4fdd0dc13294b5f00e"
+RPM_NAME = "python311-typing_extensions-4.5.0-2.3.noarch.rpm"
+RPM_HASH = "a1d59136bd2570eab2f1482d206a234861f8d1c9c42fef515df9b2359c2b87deef25fcf31fa4316f122b535df8fc953c267240d6570155da8d1a67361d5aba42"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-typing-extensions \
+RPROVIDES:${PN} += "python3-typing-extensions \
+python3.11dist-typing-extensions \
 python311-typing-extensions \
 python3dist-typing-extensions"
 

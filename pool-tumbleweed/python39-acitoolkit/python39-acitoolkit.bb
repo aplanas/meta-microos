@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.4"
 
-RPM_NAME = "python39-acitoolkit-0.4-5.5.noarch.rpm"
-RPM_HASH = "c47767c8e57157066334b6ca52bd30e9172229117c052428429698af9e490a291a60923fbd529806693604bad7ce5c2bf06416cc5db37c8ffcfc1c714df0bd26"
+RPM_NAME = "python39-acitoolkit-0.4-6.1.noarch.rpm"
+RPM_HASH = "066d9651efc9b383eab9d81e14bf5d1bf24bfbdbf789f8c3d26da0760d3142d51bdc8f261b404770887bc2bb2f3d6e95f3d66e38e9f5181c2666fe9da56b0d0f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-acitoolkit \

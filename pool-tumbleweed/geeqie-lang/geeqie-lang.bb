@@ -2,10 +2,10 @@ SUMMARY = "Translations for package geeqie"
 DESCRIPTION = "Provides translations for the 'geeqie' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.0.1"
+PV = "2.1"
 
-RPM_NAME = "geeqie-lang-2.0.1-2.1.noarch.rpm"
-RPM_HASH = "1ab82a894dcc24101c19b8aaf1652182aaddd51a0f2bf63f3d46e7c97b93667bf6dc35cc55f179ef145caf0d44594ebf43476bcaf0a4a35108403d7810747a14"
+RPM_NAME = "geeqie-lang-2.1-2.1.noarch.rpm"
+RPM_HASH = "17c83e9af851920f4611633dc9ae3c885679a7eea7f5cb7002cd5bb48d0174628e9bf5d545392196d1457df390680814277a643460937223e7dd08326b990718"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "geeqie-lang \

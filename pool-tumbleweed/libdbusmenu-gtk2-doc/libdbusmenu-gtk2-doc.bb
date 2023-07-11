@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only & (LGPL-2.1-only | LGPL-3.0-only)"
 
 PV = "16.04.0"
 
-RPM_NAME = "libdbusmenu-gtk2-doc-16.04.0-9.3.noarch.rpm"
-RPM_HASH = "2791c9487d25148cff3d51824102f93c41aa86c69fa020a39e144d1cea210512d1e3cba7335f5111bc350da05071d7f1ab4625984315513a79618e2be0656533"
+RPM_NAME = "libdbusmenu-gtk2-doc-16.04.0-9.4.noarch.rpm"
+RPM_HASH = "2fe87e2bcf7ac31cc8451f67d5380502d6602a01e09a096d7db7f21837e77118abcd8f03b239d6dcd3b64943371b6d6fa3a56bd33d7d3cfcf557cc25253d90ea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libdbusmenu-gtk2-doc"

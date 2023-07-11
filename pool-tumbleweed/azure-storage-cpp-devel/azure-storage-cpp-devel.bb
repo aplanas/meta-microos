@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "7.5.0"
 
-RPM_NAME = "azure-storage-cpp-devel-7.5.0-1.16.aarch64.rpm"
-RPM_HASH = "9a4759f690c6cdaabeeae22273ef9001f7ab0659515e0d71bbb33d8e0e9cf61c956db11396eb85668e32e8fb0b8fac8cd8a97cbe4d2956cead2ba3fa70afabc9"
+RPM_NAME = "azure-storage-cpp-devel-7.5.0-1.17.aarch64.rpm"
+RPM_HASH = "41c519e3d299e0676063d3188d1421bf49c50531fde4188bf1f58c9c80c80e2d15eaefb2d7ef171e209303df023b99b1a28bf08149df4c27c041dc786e0affe9"
 
 RPROVIDES:${PN} += "azure-storage-cpp-devel"
 

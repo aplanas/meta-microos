@@ -14,8 +14,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.3.5"
 
-RPM_NAME = "blueman-2.3.5-1.3.aarch64.rpm"
-RPM_HASH = "0cdf9ecca6d933cd4027bf09b38d158413dfffe55bb30b125bc7027e570a382cbb0b7e099c251e6f5d3c090be852f8df9c9a7b550b6310d4f7beab9bfb6ded3a"
+RPM_NAME = "blueman-2.3.5-1.4.aarch64.rpm"
+RPM_HASH = "682eb94d3991d60ae6646ac8cf3a88775097924ec5cbb4a45243d7aae89732d9c761d86a9ec1150ca5c74ca40d4849943452aa3dccc807341db85a815af604af"
 
 RPROVIDES:${PN} += "blueman"
 

@@ -8,12 +8,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.3.8"
 
-RPM_NAME = "python310-rfc3987-1.3.8-5.1.noarch.rpm"
-RPM_HASH = "ba871443ab08f9f9b3aefe039e9eafca869b5096679beb8912dd4e1ce2ec2b3405a2251a6d0ea514f841bb79e5dea0b32227e637a15505c5ea5b2b8419fb2e41"
+RPM_NAME = "python310-rfc3987-1.3.8-5.3.noarch.rpm"
+RPM_HASH = "b26be8a8c27608e447b4b0b22e9bb6b987f719d47e1944bf5557478200de346fef9e47ae3a6a83f7342090af81c274c49907221e7a210551473cbb769eaf19bd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-rfc3987 \
-python3.10dist-rfc3987 \
+RPROVIDES:${PN} += "python3.10dist-rfc3987 \
 python310-rfc3987 \
 python3dist-rfc3987"
 

@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3"
 
-RPM_NAME = "python311-pygments-style-railscasts-0.3-1.17.noarch.rpm"
-RPM_HASH = "f682a81ccdd763b1560649f43782601e2573da30e012e5bb285ec4d3b653dc9d3fbc15b46bfa1e2802cb4963e84129366628c651452db3b1726f01a6b3e2b1f6"
+RPM_NAME = "python311-pygments-style-railscasts-0.3-1.18.noarch.rpm"
+RPM_HASH = "7dc522fd09e9c08925e8e1f096190d6cbebebf2ee943efac6cfe7c3b2f11ebd12624311f9b09d28e557f6d3310a3659c0e2eacafb75ab46f4691811df20dcc9b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-pygments-style-railscasts \
+RPROVIDES:${PN} += "python3-pygments-style-railscasts \
+python3.11dist-pygments-style-railscasts \
 python311-pygments-style-railscasts \
 python3dist-pygments-style-railscasts"
 

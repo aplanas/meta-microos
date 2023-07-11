@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "2.0.0"
 
-RPM_NAME = "python39-azure-mgmt-appcontainers-2.0.0-1.2.noarch.rpm"
-RPM_HASH = "a111299ade06e9f5a76cda055ead6c527e84658674026db3352fe94a59ebaafd5aec9e99b0f4c6dc9c5f6f087dea6ca2176aff2447d57ac843eb246e0d1b44ee"
+RPM_NAME = "python39-azure-mgmt-appcontainers-2.0.0-1.3.noarch.rpm"
+RPM_HASH = "abddc94d06207f444f4ae2365effae3dd3d5eebaa5ed4b91b632cef523b5edeef575506beb76f996ba679ba5d3b11948be132391f3dde965d20b732d05a3b797"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-appcontainers \

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.8.2"
 
-RPM_NAME = "libhandy-lang-1.8.2-1.3.noarch.rpm"
-RPM_HASH = "cbab35f00bdd352be1ee3e7fd3cbefdedcb23080138c508d0893318227236826835e0ea6d0c6dbc479f1e4534cd96653cf13122c417c29b7973512b1db56068a"
+RPM_NAME = "libhandy-lang-1.8.2-1.4.noarch.rpm"
+RPM_HASH = "51fab9fef629f146706b51190230c8c709017c2331aefa7d6a3b2a8a1952fd4ab567d0cd8fbfea9c5c10a4cceb6e963d1214f584de9ffcba67a70d2a0099c2f0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libhandy-lang \

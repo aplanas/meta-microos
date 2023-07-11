@@ -5,12 +5,11 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.24.1"
 
-RPM_NAME = "python310-pyudev-0.24.1-1.1.noarch.rpm"
-RPM_HASH = "aacf34ff43aef571a669e6f55eb11d1f49bad8d8c4781a8c8562a3235ea745b04adc3de19c31f2bb7ba7f270af490aabe327bdc0cff30521a12c4c578379cfae"
+RPM_NAME = "python310-pyudev-0.24.1-1.3.noarch.rpm"
+RPM_HASH = "c7611fcde7bbd586802d3545ffe412f7b9362ed6ddc7c2c3593e291ffeeff0738e3c073d6969ea401ddf7aae1a562fd2347213631170e028d5acbd1a849ac44d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pyudev \
-python3.10dist-pyudev \
+RPROVIDES:${PN} += "python3.10dist-pyudev \
 python310-pyudev \
 python3dist-pyudev"
 

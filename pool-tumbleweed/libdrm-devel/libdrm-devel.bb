@@ -12,8 +12,8 @@ LICENSE = "MIT"
 
 PV = "2.4.115"
 
-RPM_NAME = "libdrm-devel-2.4.115-2.3.aarch64.rpm"
-RPM_HASH = "cb2dcefd5c22e03bfad2b383028bc55e7fef6e7570610781462e97189695903835be22e82c5d6921a940eca9b2532a4ba4b497499104b3de84e7f2b7e25e80f4"
+RPM_NAME = "libdrm-devel-2.4.115-2.4.aarch64.rpm"
+RPM_HASH = "0792b905086a4d49af96b8c1ab19f419eef36b560a3eae064c94d99a0d159b4fef655a25ef63a73981c032c77ff7dab61644c09e388d9ae61bfd615c77d9b68b"
 
 RPROVIDES:${PN} += "libdrm-devel \
 pkgconfig-libdrm \

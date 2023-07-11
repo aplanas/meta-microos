@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "4.6.2"
 
-RPM_NAME = "yast2-pkg-bindings-4.6.2-1.1.aarch64.rpm"
-RPM_HASH = "b83e5d945c8af4c4e4ebbb207e5e6740566cc64d75539e0b5ac25e4004b51fcf4a3658d59617c1c7fc8833dcf442f0fc546a7cbe0a24c59754b24f8969fd0259"
+RPM_NAME = "yast2-pkg-bindings-4.6.2-1.2.aarch64.rpm"
+RPM_HASH = "b43b253f0fedc75bbb43fedab9b23b4272075a915730e96e46092ba2cfc26c10c642d1a4035e96d8dff9507dba79ef5534ead00dde07c6654430a34d1c067a04"
 
 RPROVIDES:${PN} += "libpy2Pkg.so.2 \
 yast2-pkg-bindings"

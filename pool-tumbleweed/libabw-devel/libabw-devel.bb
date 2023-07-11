@@ -7,8 +7,8 @@ LICENSE = "MPL-2.0"
 
 PV = "0.1.3"
 
-RPM_NAME = "libabw-devel-0.1.3-1.18.aarch64.rpm"
-RPM_HASH = "102780f0bda6fb0f6fdeb8f5546a34f6ca48338b7ae2f3387861cb6aab5d5e84d46f549fe763d31b6f93938c28d7dbc84139ea27c43327044e2597811d3df232"
+RPM_NAME = "libabw-devel-0.1.3-1.19.aarch64.rpm"
+RPM_HASH = "d5310dc4d54f5261b988e6fd9ba89888cfef7b233d21b3de4afc3a7d23032aa8f650b573d30fc633a2b7dd25954795ebf7587b419f6f23ba52537d490fac9510"
 
 RPROVIDES:${PN} += "libabw-devel \
 pkgconfig-libabw-0.1"

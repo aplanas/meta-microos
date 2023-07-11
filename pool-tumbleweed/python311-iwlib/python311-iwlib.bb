@@ -8,10 +8,11 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.6.2"
 
-RPM_NAME = "python311-iwlib-1.6.2-1.20.aarch64.rpm"
-RPM_HASH = "5676830676574cb515ee855ffe43ac120e54c10e6aac4e6edb7fe2b18aea1f3df7c98c5316d97c02d37e2a151312dda619742e4041086a77aa2af6b66c20ae5a"
+RPM_NAME = "python311-iwlib-1.6.2-1.22.aarch64.rpm"
+RPM_HASH = "cf53e49cfe537d999e5c0030aa08fc604edfdd6c23dff943416f0b1706467d106cb65a292a0cbc24a004aeabf842ab862635d66b398b8a52c80f913f1efed59b"
 
-RPROVIDES:${PN} += "python3.11dist-iwlib \
+RPROVIDES:${PN} += "python3-iwlib \
+python3.11dist-iwlib \
 python311-iwlib \
 python3dist-iwlib"
 

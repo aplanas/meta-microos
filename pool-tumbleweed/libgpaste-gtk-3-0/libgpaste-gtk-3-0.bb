@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "43.2+6"
 
-RPM_NAME = "libgpaste-gtk-3-0-43.2+6-2.1.aarch64.rpm"
-RPM_HASH = "1291b8c0056bec5f2e9db547e6ee8bba0d08b9fc997e71f3a0e383f01b2e8ea5e6293cb8a3f748978d670bd86d5466e393b0c3729023d3fea9130d66c88f13df"
+RPM_NAME = "libgpaste-gtk-3-0-43.2+6-2.2.aarch64.rpm"
+RPM_HASH = "583f4f80048f6e26eb85b34cfb4bff299323044516efcedcf2535ffe4a1ca9015e7817bdb090e403d54f40916980e8e66f54f1d8c8980dee12f6733797ccdac3"
 
 RPROVIDES:${PN} += "libgpaste-gtk-3-0 \
 libgpaste-gtk-3.so.0"

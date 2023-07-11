@@ -4,12 +4,12 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.2.2"
 
-RPM_NAME = "minigalaxy-1.2.2-1.2.noarch.rpm"
-RPM_HASH = "851803693be21c27196f4a63897f573255b83fe8da5880434d74bdc8b9ca65c7eba7719a0ef9e6e4aa827c514877efa2664aa65bd1a9e843b31cc54a88ad13fb"
+RPM_NAME = "minigalaxy-1.2.2-1.3.noarch.rpm"
+RPM_HASH = "a55aeadb72c5cf1dfbcd66f5783dd1167c030d5dde7577f813b362b778505b6d04b94aa92e899fc9b24da41c1016cf8618f1bf7edb4185a8d5853eb4c530af90"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "minigalaxy \
-python3.10dist-minigalaxy \
+python3.11dist-minigalaxy \
 python3dist-minigalaxy"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

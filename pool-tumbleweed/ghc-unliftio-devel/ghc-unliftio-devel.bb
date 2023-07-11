@@ -2,12 +2,12 @@ SUMMARY = "Haskell unliftio library development files"
 DESCRIPTION = "This package provides the Haskell unliftio library development files."
 LICENSE = "MIT"
 
-PV = "0.2.24.0"
+PV = "0.2.25.0"
 
-RPM_NAME = "ghc-unliftio-devel-0.2.24.0-1.3.aarch64.rpm"
-RPM_HASH = "e03a7cdab218fc7d5f8ba02effd2a328705c846776516334b37eeab06c3694434c2d5d1608c5f59122be430ed382a38bfe93858344e5ecced14c4a680f20819e"
+RPM_NAME = "ghc-unliftio-devel-0.2.25.0-1.4.aarch64.rpm"
+RPM_HASH = "4b096b760f27eb66ef0c983293cbb6f0e6e483429db0044f754c2cd54aa2b3b9843e6571cffffc1450c0e407194a42bded19fa55b99818b8bf1d1d6f2e8fce6f"
 
-RPROVIDES:${PN} += "ghc-devel-unliftio-0.2.24.0-Dgc3Qshya29BgIaWsfBy4D \
+RPROVIDES:${PN} += "ghc-devel-unliftio-0.2.25.0-DN1mY49M6dHDqA19Vm4lY3 \
 ghc-unliftio-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -19,7 +19,7 @@ ghc-devel-deepseq-1.4.8.0 \
 ghc-devel-directory-1.3.7.1 \
 ghc-devel-filepath-1.4.2.2 \
 ghc-devel-process-1.6.16.0 \
-ghc-devel-safe-exceptions-0.1.7.3-4ydW60ruqZ4IdMpKf3b6BD \
+ghc-devel-safe-exceptions-0.1.7.4-8XVKrMBchTjCLhdcvBwBNb \
 ghc-devel-stm-2.5.1.0 \
 ghc-devel-time-1.12.2 \
 ghc-devel-transformers-0.5.6.2 \

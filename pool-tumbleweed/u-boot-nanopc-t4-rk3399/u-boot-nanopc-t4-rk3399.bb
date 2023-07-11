@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2023.04"
 
-RPM_NAME = "u-boot-nanopc-t4-rk3399-2023.04-2.1.aarch64.rpm"
-RPM_HASH = "0cb6e7b6a35c0ee015f6d3fef38022d9274882fff24e4b68e1d0f54614df3022b382aadbc6740be084b826bf14efea860b825c6e819c2fb7bb49bb86955c6bdc"
+RPM_NAME = "u-boot-nanopc-t4-rk3399-2023.04-2.2.aarch64.rpm"
+RPM_HASH = "02120c5af580bb8b8af6a4cdb4433c61c344dbe77edf9454f1d39e1ef0f0aa3a1635388b4f2375ce2938edeb4710680d17b4bd232a05afaeb44c2b05135bcdf1"
 
 RPROVIDES:${PN} += "u-boot-loader \
 u-boot-nanopc-t4-rk3399"

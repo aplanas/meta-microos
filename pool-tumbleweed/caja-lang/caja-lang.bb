@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.0-only"
 
 PV = "1.26.1"
 
-RPM_NAME = "caja-lang-1.26.1-1.4.noarch.rpm"
-RPM_HASH = "6cec576f8ccd9fc22c01f16579e21fae2a77e1fa66a3fe42f4c27c08c7b7e927c6baef162fe7d0f5856d33889e1378a21766a581ea5de3602ce8e7b9d49c478e"
+RPM_NAME = "caja-lang-1.26.1-1.5.noarch.rpm"
+RPM_HASH = "383debfffb471d7a70cb21558d3a72e4a8d4dfddd3dc9c605be10e0efebc9ca258f2b9e9aea60491936202e1169454c0076a3e85b25aa6a213d081c258106d13"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "caja-lang \

@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.5.1+git20200627.452f622"
 
-RPM_NAME = "libchewing3-0.5.1+git20200627.452f622-1.9.aarch64.rpm"
-RPM_HASH = "804efbff6465a286981655720d52aac607d677312de126fb637fee1c6eef7e0d3f558117750c23ee7ee29c3f78eacc27bee46f91cf785b03d4f6ea4258a453bc"
+RPM_NAME = "libchewing3-0.5.1+git20200627.452f622-1.10.aarch64.rpm"
+RPM_HASH = "bcc2b94915c6271fbb3c1f6fecf7688901cc581a9d0c76747bd8f598b8146214eaa4ca0d9d306276f1a451c92dac59f2abaf99c1f7afb760aa1ab8d79f9eedbc"
 
 RPROVIDES:${PN} += "libchewing.so.3 \
 libchewing3"

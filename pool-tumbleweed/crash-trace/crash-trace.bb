@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.0"
 
-RPM_NAME = "crash-trace-3.0-2.2.aarch64.rpm"
-RPM_HASH = "7fa85efcad1ba2cbc33942c74880c5732fcbd771b1bf487500e78907eb7133313887e8b481f54dbf33ef3a7e4eb1a1673e16b4de71cbb5599966f00fdde1680c"
+RPM_NAME = "crash-trace-3.0-2.3.aarch64.rpm"
+RPM_HASH = "ced6709fafdc7c8890c042136c43e4506d5433b0dda3ced8a39e05c235b94b397e7bc090c9bf3496d49f397ac1e53c6255dc1909558c293771d9c7fac811e00c"
 
 RPROVIDES:${PN} += "crash-trace"
 

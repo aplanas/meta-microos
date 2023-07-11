@@ -16,8 +16,8 @@ LICENSE = "GPL-2.0-only & GPL-3.0-or-later"
 
 PV = "20201029"
 
-RPM_NAME = "lammps-devel-20201029-5.1.aarch64.rpm"
-RPM_HASH = "f9943baccb1cdb1e04e128c9698031ea4fb49e043633d4d247121dcb3a220ebbf370f37e88ac260530af61f422b60b9be0f40228d229e9a48a39fcc9de46d84b"
+RPM_NAME = "lammps-devel-20201029-5.2.aarch64.rpm"
+RPM_HASH = "f1659484cdc3e1edfd910b0b6eb5bbfb9683c8415b082f57a6e4cdb9279ff339941ea487a6b103caa6aeb780da5f8a2b6c5c27f529d554caf1bf2b7079ce8af1"
 
 RPROVIDES:${PN} += "cmake-LAMMPS \
 lammps-devel \

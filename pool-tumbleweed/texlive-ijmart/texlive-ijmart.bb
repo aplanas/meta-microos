@@ -9,10 +9,10 @@ manuscripts for The Israel Journal of Mathematics or to put the \
 preprints in arXiv with minimal changes in the LaTeX source."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.7svn30958"
+PV = "2023.208.1.7svn30958"
 
-RPM_NAME = "texlive-ijmart-2023.201.1.7svn30958-52.1.noarch.rpm"
-RPM_HASH = "e8bfa80885cfbe3dc8a7739b193494df4b1bca4f06efda81074e293103ae5aabbab50107d1f14b5e77787b98e8f9bccac7e878a35b0cafdcd1d671c3ba292e7f"
+RPM_NAME = "texlive-ijmart-2023.208.1.7svn30958-53.1.noarch.rpm"
+RPM_HASH = "44df2a296980f06b571d13c2bc21f8147321fe8414531bfba995cddd9f74835ab7faf7b38aa1bed696e53c0a06c7a3bbb4db98af3760d87c49c9f30bfcf94564"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ijmart.cls \

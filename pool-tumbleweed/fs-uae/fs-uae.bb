@@ -22,8 +22,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.1.66"
 
-RPM_NAME = "fs-uae-3.1.66-1.8.aarch64.rpm"
-RPM_HASH = "8509feeea3e9b260dd9d44faebd4f3bf3fc2e954fb697c83fb59ede5d04e91fb327f377fd4bcfb9b26c7f89a9e9c49e920cb964eb42fbda03bf581ec3bcdebae"
+RPM_NAME = "fs-uae-3.1.66-1.9.aarch64.rpm"
+RPM_HASH = "c6317ce580814799aabf576729adf3562b0579b1120509ce63b3891edc4176496b591e3498dc6f50dd2c83740a6539320d749e3af4ee8ef00b4915668467ca3e"
 
 RPROVIDES:${PN} += "fs-uae"
 

@@ -4,10 +4,10 @@ DESCRIPTION = "A small program which is mostly configurable using resources via 
 and, if desired, netpacket statistics in a graphical manner."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.23"
+PV = "1.24"
 
-RPM_NAME = "xosview-1.23-1.3.aarch64.rpm"
-RPM_HASH = "a8b1c2e5741465ffe4383c1ee9215a5cdf6a366163d4a40324c210777da8551316b840b0d48f3486926c59ae739bbbf413f14748f79a5c7ebcbdf69ee6111b91"
+RPM_NAME = "xosview-1.24-1.1.aarch64.rpm"
+RPM_HASH = "4b37862322e31e7486f4e4278890e2d14e57ef1fccec91ac6f629290a4e8b0e8cc2d9546627a4ec828e0335ace7540de959d0e58908e2952f0f7c34b4e458d7e"
 
 RPROVIDES:${PN} += "config-xosview \
 xosview"

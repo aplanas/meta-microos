@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.1.5svn15878"
 
-RPM_NAME = "texlive-xytree-doc-2023.201.1.5svn15878-52.1.noarch.rpm"
-RPM_HASH = "e6f3f0ee9e553d96aba724f697634a60a5da196f46e7bb314b9febd7ad848fed8b9b09c0a5035921079a2ddd98800dba07949afaff24a5f90c102b99f38735d9"
+RPM_NAME = "texlive-xytree-doc-2023.201.1.5svn15878-52.2.noarch.rpm"
+RPM_HASH = "44cb8d36098ec82bf4d204f0454f3e9a0b54d29235746016b9aba03cf331f5a503fa9e84a3afb0cdee3832871c7c91ee841353160a98b3b2ca58e222ddc77c92"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-xytree-doc-en \

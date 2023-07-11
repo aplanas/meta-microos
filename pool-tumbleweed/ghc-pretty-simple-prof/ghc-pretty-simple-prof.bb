@@ -4,11 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.1.2.0"
 
-RPM_NAME = "ghc-pretty-simple-prof-4.1.2.0-1.3.aarch64.rpm"
-RPM_HASH = "d4662859bfea2cf83915ca6444e7b5da8bca094a230258b64e446fa426cf2b6febadb73ad2009892954385d5e6ab4bf8ca78e1f3236276f8625d6f01243f73aa"
+RPM_NAME = "ghc-pretty-simple-prof-4.1.2.0-1.6.aarch64.rpm"
+RPM_HASH = "c34d2e6c2189af391b2fd524800be908cc63c9888c0d111a84f03d03ec8d671b4a95555e2c534f79da2281100e18b11caac813648673548cce90a771ea54b404"
 
 RPROVIDES:${PN} += "ghc-pretty-simple-prof \
-ghc-prof-pretty-simple-4.1.2.0-LfjX2FlO3KCJ7V5IZrf6zY"
+ghc-prof-pretty-simple-4.1.2.0-AmUJ4bdBPRILOonshKqIvK"
 
 RDEPENDS:${PN} += "ghc-pretty-simple-devel \
 ghc-prof-base-4.17.1.0 \

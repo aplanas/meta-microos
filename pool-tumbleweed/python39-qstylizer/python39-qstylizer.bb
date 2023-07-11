@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.2.2"
 
-RPM_NAME = "python39-qstylizer-0.2.2-1.3.noarch.rpm"
-RPM_HASH = "458edf71feb5d4af305d7926ad524bfe44b463c8cc4be7eaf4202c870fafbfe5110ceb0353000da87811e1f235c53bd35d681dc27650dbe76d5b0e593321ab3d"
+RPM_NAME = "python39-qstylizer-0.2.2-1.5.noarch.rpm"
+RPM_HASH = "fb2a2f744d990d54b56421c097bfe56ecfc4773b81da77b7ea7a0b01cc846e7eb4c89cac214935e6df08f97c354e44bc6b597ccf967cd7d1cd3b86d32d8684a9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-qstylizer \

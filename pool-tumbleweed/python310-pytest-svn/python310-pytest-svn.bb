@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.7.0"
 
-RPM_NAME = "python310-pytest-svn-1.7.0-1.15.noarch.rpm"
-RPM_HASH = "efbbed4c724acd1c138945b751f16bd7e8c18956717db9e51abac9ba652508d0812446ab51fdbe297d5e9c30e00aef0892032c2e12f75bd5e7f921371cf2f76d"
+RPM_NAME = "python310-pytest-svn-1.7.0-1.17.noarch.rpm"
+RPM_HASH = "f68abfe1a9b8a5d45f427f4d99369de57fad81c10ad513b52766e52f1e6045eb37265aa68a7d2f0dae45d62161604c9d816d2e5eb77e635b08ba5e4549f37ef1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pytest-svn \
-python3.10dist-pytest-svn \
+RPROVIDES:${PN} += "python3.10dist-pytest-svn \
 python310-pytest-svn \
 python3dist-pytest-svn"
 

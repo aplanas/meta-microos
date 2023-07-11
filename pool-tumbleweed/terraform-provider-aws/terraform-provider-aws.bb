@@ -5,8 +5,8 @@ LICENSE = "MPL-2.0"
 
 PV = "3.51.0"
 
-RPM_NAME = "terraform-provider-aws-3.51.0-2.9.aarch64.rpm"
-RPM_HASH = "397ac1e8068b2b3fb621ba7ef15a370cd8d524320e74e5f4819c78add6a73a834668f55ae37ab27179391b31f8b8afd54b373e68bf422976ca286d3d4ab37b5d"
+RPM_NAME = "terraform-provider-aws-3.51.0-2.10.aarch64.rpm"
+RPM_HASH = "34ec1c455d747bf5353149c639eee1ed60b844745fa92b1582f57bd94e8c913c7ff8fbdff7e070942c7da2798bb704dfd465959c421091ca18daa6c5f1aadbea"
 
 RPROVIDES:${PN} += "terraform-provider-aws"
 

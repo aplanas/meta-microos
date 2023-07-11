@@ -3,10 +3,10 @@ DESCRIPTION = "Smatch is a static analysis tool for C. Most of the checks are fo
 kernel. Please write checks for your project. It's fun and easy!"
 LICENSE = "GPL-2.0-only"
 
-PV = "1.72+20220506"
+PV = "1.73+20230517"
 
-RPM_NAME = "smatch-1.72+20220506-1.8.aarch64.rpm"
-RPM_HASH = "a22a6744a57e53e308a479dbcb4f1bda8ce6e53e32ba8595169226c831d095a8e14f339cb204b76d4bf08acf0d6b13a20400bbf9014013aa6cba0067ffd4d468"
+RPM_NAME = "smatch-1.73+20230517-1.1.aarch64.rpm"
+RPM_HASH = "58c32d160f21dab7fb231c3ba674640a8f94300b1a0704e0de7841fd091cc88dc205c2ae6e5012c2a2352b0564f2899a1fc4039a7603097cafec6731a44b56cb"
 
 RPROVIDES:${PN} += "smatch"
 

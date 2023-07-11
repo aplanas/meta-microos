@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause & LGPL-2.1-only & LGPL-2.1-or-later & MIT"
 
 PV = "1.10"
 
-RPM_NAME = "plasma-wayland-protocols-1.10-1.3.aarch64.rpm"
-RPM_HASH = "4e0c75ae8727bb6d144d5cb19d434b50db794bf4694989737afda9e73bbee0ca38bf26fe450ad13fc08f6041ea5569e5f11b7e1d6c295043223dbf08a3bb5e0d"
+RPM_NAME = "plasma-wayland-protocols-1.10-1.4.aarch64.rpm"
+RPM_HASH = "a650b8aeac942e853d924cf89c296e13cf3ed0aa414d8a7223670f320589a3fff43a60bc44e9bcb62ca27c44fda442b1781875c6da3b7b604fe1e2ebe8a282f4"
 
 RPROVIDES:${PN} += "cmake-PlasmaWaylandProtocols \
 plasma-wayland-protocols"

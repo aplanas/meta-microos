@@ -4,8 +4,8 @@ LICENSE = "CC-BY-SA-3.0 & GPL-2.0-or-later"
 
 PV = "4.18.0+git0.9a2f754"
 
-RPM_NAME = "xfdesktop-branding-openSUSE-4.18.0+git0.9a2f754-1.5.noarch.rpm"
-RPM_HASH = "fd525c0c756f9b780bd86c5af7c69cb13384c498b205adb4fee7c64531f04ee932b034add0c738d0c90c596d5122ca6c88ae81c955f4767b50a2f0644db90991"
+RPM_NAME = "xfdesktop-branding-openSUSE-4.18.0+git0.9a2f754-1.6.noarch.rpm"
+RPM_HASH = "e703d5e7b436edbb8e37e7a2f551a6b06d4a86c3d8c83f7fd7ca8f19b82a43f5a1c2d31a5b322973c819f117d0edb2c750c6801928b90e55f41c6f80a3f5116d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-xfdesktop-branding-openSUSE \

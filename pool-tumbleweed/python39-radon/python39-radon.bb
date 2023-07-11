@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "5.1.0"
 
-RPM_NAME = "python39-radon-5.1.0-1.4.noarch.rpm"
-RPM_HASH = "3e93422ce6585fa066b320dbaec25ce2defd830c8c178c9c471455a327f2c625396c8c865d76bba03e20ece374119608ad9a669c7de9f831387a7f20c9bcda20"
+RPM_NAME = "python39-radon-5.1.0-2.3.noarch.rpm"
+RPM_HASH = "5972b041db0a2ffb0f7676a870bdc4afaed081c5b3ad4e7315cc8fe4462047e1a253f73e5ae1c352401b40cdf75308a91462757c9f81fc845e1e6dbfb65a2a41"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-radon \

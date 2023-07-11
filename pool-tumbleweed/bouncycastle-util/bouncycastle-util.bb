@@ -3,10 +3,10 @@ DESCRIPTION = "The Bouncy Castle Java APIs for ASN.1 extension and utility APIs 
 support bcpkix and bctls."
 LICENSE = "MIT"
 
-PV = "1.73"
+PV = "1.74"
 
-RPM_NAME = "bouncycastle-util-1.73-1.1.noarch.rpm"
-RPM_HASH = "5b3ace3e88b6a762ac0bdc0ddc746327d05816724853168ca5ff60bcffadb9caff24a431e478e976cf7117e67ca4c91ca97ab7eba0d612202685d725d7022e97"
+RPM_NAME = "bouncycastle-util-1.74-1.1.noarch.rpm"
+RPM_HASH = "945a07ecda35a410a79a6beb8dabea952b05d70ff83e6bf32c7bea26ac77390617369c27c3fa2815a9790a9eb4798381fd715943f50e933e98b9c8272b3a6b8e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bouncycastle-util \

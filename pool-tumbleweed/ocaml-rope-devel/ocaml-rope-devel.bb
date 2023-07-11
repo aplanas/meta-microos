@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later-with-OCaml-LGPL-linking-exception"
 
 PV = "0.6.2"
 
-RPM_NAME = "ocaml-rope-devel-0.6.2-3.24.aarch64.rpm"
-RPM_HASH = "ff2570bc1395786ae537c87863966053586544b9bf2247e63629b5b9b7ba6352a33d38a0ead3d7774cc1430d610b2d0f0e6b32fcac6a6b0a2d0b25b915fb5118"
+RPM_NAME = "ocaml-rope-devel-0.6.2-3.25.aarch64.rpm"
+RPM_HASH = "c2caa855e2ee6763f92c4cc6eee802a68828fc0098b737408d5f18266265eed4624b49b0273d19f57952f663188891f4ac66c0c8b3abad6e2e0810ca73f3028e"
 
 RPROVIDES:${PN} += "ocaml-Rope \
 ocaml-Rope-top \

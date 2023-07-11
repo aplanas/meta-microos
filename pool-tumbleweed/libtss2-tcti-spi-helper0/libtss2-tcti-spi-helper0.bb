@@ -7,8 +7,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "4.0.1"
 
-RPM_NAME = "libtss2-tcti-spi-helper0-4.0.1-1.3.aarch64.rpm"
-RPM_HASH = "a07bf9e576adef00b262e057dc4b5a6e71fed516b7d762852bf824e2503d8caa6732dd4d7b348abdaaa1273472446c63a470c3990a26c1a5cf8ca511e07e376d"
+RPM_NAME = "libtss2-tcti-spi-helper0-4.0.1-1.4.aarch64.rpm"
+RPM_HASH = "c34fe576d4bd8b3e4b6826689d40de4f0fe1e925b35a7f5dfe253934b0d694418e2d1cdf81eada9a4b3a17297beafaf6f35618d36f9eabb1c3bcdca178b996af"
 
 RPROVIDES:${PN} += "libtss2-tcti-spi-helper.so.0 \
 libtss2-tcti-spi-helper0"

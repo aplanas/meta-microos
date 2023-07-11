@@ -9,8 +9,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.2.0"
 
-RPM_NAME = "python39-itypes-1.2.0-1.8.noarch.rpm"
-RPM_HASH = "6c777fc21d3bb5964192a3e24ae8cde37b4a1f23fcfb1933dad1e1bdc71b1667094f837615e9f3a2fe6bb489b45eeba3ba9f7ef38968b0540ac4053eef6ccd27"
+RPM_NAME = "python39-itypes-1.2.0-2.1.noarch.rpm"
+RPM_HASH = "c0e23913469e1b0feb1e136a72faef79bb6b673f68a81daa947f89653613f87ef914807034e67bff2c0de1fb1ba55b6c27d96076b1f63207f379fd521923360a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-itypes \

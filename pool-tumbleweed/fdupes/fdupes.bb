@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "2.2.1"
 
-RPM_NAME = "fdupes-2.2.1-1.3.aarch64.rpm"
-RPM_HASH = "c496cbd738748afea86a658eb62b43590fdab57203ee5a97f2bddc0a00631827c65fe9d390fa4fa2b6a51321d5d02aca6c43bc47fd70d34cf2bfcccb82a8b98d"
+RPM_NAME = "fdupes-2.2.1-1.4.aarch64.rpm"
+RPM_HASH = "de8d61fecdfe89d1a4a446632f319c8315b9fb98ed398c26537e70533a491c7a28b13c212be4989f4a2e1af93059ac82edf607aae4dbf9668daa9a67323685a3"
 
 RPROVIDES:${PN} += "fdupes \
 rpm-macro-fdupes"

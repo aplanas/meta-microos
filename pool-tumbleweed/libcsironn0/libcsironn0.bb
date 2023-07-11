@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "5.15.0"
 
-RPM_NAME = "libcsironn0-5.15.0-16.2.aarch64.rpm"
-RPM_HASH = "38ee0daca12faf1670d7ca8c4e3fddec333cce0102644aa8f424332a9821e154f9f901c6bce094a21239c47050529585dadb2924ef2f413272293af7280921e0"
+RPM_NAME = "libcsironn0-5.15.0-17.1.aarch64.rpm"
+RPM_HASH = "d2366b04668d9bdb9ca7c6033850f56d201de96b56a6271ba05feb7ecbac38e280209b6314b67f191eb3d1000a9d4fd47c83830d0ed041c62e0348cccbc7475d"
 
 RPROVIDES:${PN} += "libcsironn.so.0 \
 libcsironn0"

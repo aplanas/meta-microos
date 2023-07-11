@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
 PV = "2.3.1"
 
-RPM_NAME = "monitoring-plugins-fping-2.3.1-9.4.aarch64.rpm"
-RPM_HASH = "1f4c09662a17056051305c69bb5c86527b836a9461638a2b2df6bea81610855ed70b4fc081a6a053768cb7d027ba76b14e2a0c726aea371d2ebac3a4c97b4066"
+RPM_NAME = "monitoring-plugins-fping-2.3.1-9.5.aarch64.rpm"
+RPM_HASH = "a93d7f5f9a1df7c6627f6313f576f8f054c6d40f993f9cf40ffe5ce3f56f1915acba194aaefee31152ba5bc3df345b8338fca7295535e472bfc1fa619ad18c9e"
 
 RPROVIDES:${PN} += "monitoring-plugins-fping \
 nagios-plugins-fping"

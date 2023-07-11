@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.94.2"
 
-RPM_NAME = "fprintd-lang-1.94.2-2.4.noarch.rpm"
-RPM_HASH = "0e935dac2234fa8c3cc545f77664de58193791a2e3ba9f47c8700d161ba85040e3c17bb7e694bbe44c2486c646af94c1cca231a0e97e5f4a83e71e676a450fa4"
+RPM_NAME = "fprintd-lang-1.94.2-2.5.noarch.rpm"
+RPM_HASH = "22bfc1e63e3a24cc84f7286c5338d8b4ae313eca4d3f5985db4fd129cd48fde349bcfe3419446e750ecdcdf18469837b461fdcd2ab0296d0c9060b67a481ac07"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fprintd-lang \

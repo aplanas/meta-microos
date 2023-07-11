@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.7.3"
 
-RPM_NAME = "molsketch-devel-0.7.3-1.3.aarch64.rpm"
-RPM_HASH = "a2a83ce0187d498b052680259fbfc21780b97dd98f140cceae4ecfe482e0ec0d163aba729b3f96b159abceee26c24679b6a8b1d406c64566ff428c1005022999"
+RPM_NAME = "molsketch-devel-0.7.3-1.4.aarch64.rpm"
+RPM_HASH = "fbba11cf0dd7e4367012a401d7bf49282026da477a54676eab69abc72667a6891dbe13d089a1d316f3d0a241eb07760058c2e48e7c7e38e3d42856be315681e2"
 
 RPROVIDES:${PN} += "libmolsketch1 \
 molsketch-devel"

@@ -2,10 +2,10 @@ SUMMARY = "QML components for ki18n Framework"
 DESCRIPTION = "This package contains QML imports for the ki18n framework."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "ki18n-imports-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "cd6e721f993374bf30726286bbc2a627e201afbab416ba7c625c15f0a1b9f04d5b89236b2daafc470c961ffb4cdfdf4c91652c426d837c760f0006a3e3938797"
+RPM_NAME = "ki18n-imports-5.107.0-1.3.aarch64.rpm"
+RPM_HASH = "380f05026888ffcb0737130e6e834a1ebf4300c54d2615d894fdfa25852780c931111897df05c919749e7d4f9e1c8bd582f48b3f785d0c252c4c8d257b8763c3"
 
 RPROVIDES:${PN} += "ki18n-imports \
 libki18nlocaledataqmlplugin.so \

@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "0.7.2"
 
-RPM_NAME = "dfu-programmer-0.7.2-1.27.aarch64.rpm"
-RPM_HASH = "22001874c730f3b8e18807579f626b7c8d0afab47edbac886bea1872a172996fe586dd09feed597c4a9f85eb07294e9b85c28ef1f2a8b8bb868b01e5359beb6c"
+RPM_NAME = "dfu-programmer-0.7.2-1.28.aarch64.rpm"
+RPM_HASH = "5d6034aceee8bd13c2820863d3a65477eb681b12da8ba914ab4fd769d54ca8f6c715bec75b3bbca31dd8d9b64eca83e41c330603759651ea85a97b94d24b7c3a"
 
 RPROVIDES:${PN} += "dfu-programmer"
 

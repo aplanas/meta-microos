@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0 & GPL-3.0-or-later"
 
 PV = "8.2212.0"
 
-RPM_NAME = "rsyslog-module-omhttpfs-8.2212.0-2.4.aarch64.rpm"
-RPM_HASH = "170bcdf04065442d3d52f49262a457953fafc093f93653c2cbb3fe1b51da65af7359f45b180fc482f7ad20525cdf477399da74a6e202a8c52e48db0c9042a469"
+RPM_NAME = "rsyslog-module-omhttpfs-8.2212.0-2.5.aarch64.rpm"
+RPM_HASH = "405bf820844348251ec6314488bc1cb962d6b2f3ad8281bcca1405bc29920fe92e868e14ace38df6008191cd80dc16a4e03cfa3a618ec611b2e128b2cbf9bf36"
 
 RPROVIDES:${PN} += "rsyslog-module-omhttpfs"
 

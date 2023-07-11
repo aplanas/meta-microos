@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.26.0"
 
-RPM_NAME = "python-caja-lang-1.26.0-1.10.noarch.rpm"
-RPM_HASH = "d6e5ab1fc354571546c1e28d46a6ce24949715369ac919042e6456562edb8fb8f8ac248b8312c8ff7819cbbf874a5390a6a9c81704e671d0a831bc19d31aa7d6"
+RPM_NAME = "python-caja-lang-1.26.0-1.11.noarch.rpm"
+RPM_HASH = "e1316ca5a318248a2b53007ee3fae3dfb11951536bbfe3489ddc1606325743da83410a7589fa2ae2f59f446de986dea0c6ea17cbd716655c83a3f494547f6698"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-python-caja-ar \

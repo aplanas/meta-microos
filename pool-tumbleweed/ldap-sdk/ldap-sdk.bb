@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later | MPL-1.1 | LGPL-2.0-or-later"
 
 PV = "4.21.0"
 
-RPM_NAME = "ldap-sdk-4.21.0-2.6.noarch.rpm"
-RPM_HASH = "c65d7a4fcebbed8049380e90656ef37b1d4e4509913e4f163635049ecb8175b2c8a197fd4e3b83f4ddde1e3fbc4ad79869ce2a3465c9685f57a712f1326ade02"
+RPM_NAME = "ldap-sdk-4.21.0-2.7.noarch.rpm"
+RPM_HASH = "431642a402bd06e0f4ab0f661aa37cde7e0bf119855145807a3d82e130fb67a83f70d835ed04b6b8f17caef9725deee2d1f8175986155996f73795e9ce9412fb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ldap-sdk \

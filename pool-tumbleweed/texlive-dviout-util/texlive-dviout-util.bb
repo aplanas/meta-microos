@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.201.svn66186"
 
-RPM_NAME = "texlive-dviout-util-2023.201.svn66186-53.1.noarch.rpm"
-RPM_HASH = "d3a34d026a018664e4a3de56140f02061957fdeba9e62d61a28ba88bf40122b117cf1ac89768a3514e5caf6df0d3732042412b2a99b155c3b4e5d67699182eeb"
+RPM_NAME = "texlive-dviout-util-2023.201.svn66186-53.2.noarch.rpm"
+RPM_HASH = "8ac1e0d5f6dcfdfe67e586802a58e5d3e613507edbdaf4b04a76d85f8ee80a0152c512d654cc032d1a62c3c6604f0393fa03a51adaed3ca8ba621801e68a6605"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-chkdvifont.1 \

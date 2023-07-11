@@ -9,12 +9,11 @@ LICENSE = "MIT"
 
 PV = "0.7"
 
-RPM_NAME = "python310-requirements-detector-0.7-2.11.noarch.rpm"
-RPM_HASH = "d901dbb3749e446471274e6d01895d38733c22b16587364bc40d2fe7b3d280c8401616703952680d1929f929643df87c6582f7db9d08f900eca8a6ac3de0b04c"
+RPM_NAME = "python310-requirements-detector-0.7-2.13.noarch.rpm"
+RPM_HASH = "9f09b0f261af9dec1648dce0dc007018f11ce10cb4d7765eaa9c799fc6eeada89a1e7abe8d3363c61b9cb6762d1ebd5b95c8f7ee9f6fc4900c36839404b678de"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-requirements-detector \
-python3.10dist-requirements-detector \
+RPROVIDES:${PN} += "python3.10dist-requirements-detector \
 python310-requirements-detector \
 python3dist-requirements-detector"
 

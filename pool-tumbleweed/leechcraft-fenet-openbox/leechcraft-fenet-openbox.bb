@@ -5,8 +5,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.6.70+git.14794.g33744ae6ce"
 
-RPM_NAME = "leechcraft-fenet-openbox-0.6.70+git.14794.g33744ae6ce-3.1.noarch.rpm"
-RPM_HASH = "6721ad433133837a46c84c5c601967bcb627a16118a9e7947607aa8047ad9faa460b99ffb6135242c8b1113cf058e82fe3d99c6d3e15e792d0b2dd63b84ee4d6"
+RPM_NAME = "leechcraft-fenet-openbox-0.6.70+git.14794.g33744ae6ce-3.2.noarch.rpm"
+RPM_HASH = "0eac91b9bdd574cb63362143b460739ce33c538aeac4ed9edf9db9855faf2ff8af3d3c3ad2978310d270a5442ccbc35d29aa6592d01a90b8ac87953aca7f1fba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "leechcraft-fenet-openbox \

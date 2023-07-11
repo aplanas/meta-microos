@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.2"
 
-RPM_NAME = "swing-worker-demo-1.2-26.6.noarch.rpm"
-RPM_HASH = "a8398cb5f94c05fe5c109280bec1c9ce4147d1cf3d9318bf6a36e2959f200bc9ea4b6e7553c5adf9818e34410998aa162de36d88b78efcf3d6b5d913dcbec135"
+RPM_NAME = "swing-worker-demo-1.2-26.7.noarch.rpm"
+RPM_HASH = "ab6ec95b3e0cd69ed3f8eb901cadba1d411d8079e12a42dae0059065c57f7e693b58ad1dc27f225718e417dad2b04886de5b9779f58be99778b95a1e7a8b961a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "swing-worker-demo"

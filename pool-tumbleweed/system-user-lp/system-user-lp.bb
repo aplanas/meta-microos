@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "20170617"
 
-RPM_NAME = "system-user-lp-20170617-24.14.noarch.rpm"
-RPM_HASH = "b70de04474150a7c77fc79a84a65de3228fbe348154cd3e5362c6bb2bc54f4c9d0a9cee6a2c84f94a5f7a501835a335dad7ab84a3e0531dee33d04542521df80"
+RPM_NAME = "system-user-lp-20170617-24.16.noarch.rpm"
+RPM_HASH = "2fc0dd186f76ef8dbf8dec9653243ba94ad44b3341a041a16f3982ac183f5a754fa9c80b0a0338ece4a7a46c1671f60601767b6a4d06dfcb38ce0550aeffe916"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "group-lp \

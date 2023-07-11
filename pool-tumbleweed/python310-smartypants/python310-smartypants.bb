@@ -6,12 +6,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0.1"
 
-RPM_NAME = "python310-smartypants-2.0.1-7.1.noarch.rpm"
-RPM_HASH = "556291f45fa4f92e27aab4d1b03067a2d37387508a3c12159a766139636dfa8ef8032e9177208a8e4626b2ebe8d162873b0337c31678cd8460313bdfc0e5b97b"
+RPM_NAME = "python310-smartypants-2.0.1-7.3.noarch.rpm"
+RPM_HASH = "defd98be3df3a0dd7572d0cc1cdf602f287a9c90d553400141903dfd115fe04762ba3a2bc5e48bfcf780ecbd163c3d10cce8baedac6b40b7aa27051c0d4a012b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-smartypants \
-python3.10dist-smartypants \
+RPROVIDES:${PN} += "python3.10dist-smartypants \
 python310-smartypants \
 python3dist-smartypants"
 

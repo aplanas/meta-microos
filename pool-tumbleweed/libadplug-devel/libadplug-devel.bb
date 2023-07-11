@@ -11,8 +11,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "2.3.3"
 
-RPM_NAME = "libadplug-devel-2.3.3-1.3.aarch64.rpm"
-RPM_HASH = "e2fb66ae3073dbb4f5d44c54f2e6aa46db92ef6088409bc53eb385248cfd3e5a27768cc7f744e63b3afa6e4409c3373beaba1c742111990d3cb49ed37c7f658a"
+RPM_NAME = "libadplug-devel-2.3.3-1.4.aarch64.rpm"
+RPM_HASH = "b37a7c6e4350963b161e6a7adba13f027a386f959a78384b0b600fddec726cc4c6415c65d0dcf8672317c7da45f40b01f31caeaaf1b1ae549eb38a91c5e3d6e1"
 
 RPROVIDES:${PN} += "libadplug-devel \
 pkgconfig-adplug"

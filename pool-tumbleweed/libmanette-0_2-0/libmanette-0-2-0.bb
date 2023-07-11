@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.2.6"
 
-RPM_NAME = "libmanette-0_2-0-0.2.6-2.10.aarch64.rpm"
-RPM_HASH = "4a8e79c23f513c16c31c41b487a1076c03dcbc2b92fe11a24bab6509434029223729808738c9d56795dc6af95b4edabd21d94736d84cbab122d50dad3377691d"
+RPM_NAME = "libmanette-0_2-0-0.2.6-2.11.aarch64.rpm"
+RPM_HASH = "0ab5d41097d0894593b31818479c472d888cc5600f11a16139feae97113e0a20f6a1abc40d9337b5a1f3a8902758c346ea1ea17795e7dbcc43945a40d08ddbb1"
 
 RPROVIDES:${PN} += "libmanette-0-2-0 \
 libmanette-0.2.so.0"

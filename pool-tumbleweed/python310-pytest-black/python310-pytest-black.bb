@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.3.12"
 
-RPM_NAME = "python310-pytest-black-0.3.12-2.10.noarch.rpm"
-RPM_HASH = "12a3484e10f893855db2694e18a48d960dfc9d6dcc7b1f0653f01181f5f055722467483644238be037c4cd4ed829f39808c27a463a63cb8be71ad09707cfe72a"
+RPM_NAME = "python310-pytest-black-0.3.12-2.12.noarch.rpm"
+RPM_HASH = "05f61e4761154788da1942eec89146a61d281d51af42034401b4cdf67f1fe3a6cffcf1a38f2ed4c6088ec88b886d67282451c75669f59518db843cb85ff19afe"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pytest-black \
-python3.10dist-pytest-black \
+RPROVIDES:${PN} += "python3.10dist-pytest-black \
 python310-pytest-black \
 python3dist-pytest-black"
 

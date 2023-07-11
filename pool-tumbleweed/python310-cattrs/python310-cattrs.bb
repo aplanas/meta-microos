@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "22.2.0"
 
-RPM_NAME = "python310-cattrs-22.2.0-2.1.noarch.rpm"
-RPM_HASH = "a97b381d677f95de1dc0fd29e6ff7d5fc306056e8f82dc9b5bbeaf903573d74f6e8264ddaa3ae94c8c0872418c026932b6d49e250f4fe6f67d28cd598633d0b2"
+RPM_NAME = "python310-cattrs-22.2.0-2.3.noarch.rpm"
+RPM_HASH = "8740cb3fa4389a002cf9cac3670b1a1e0d4e491e266d21d78680e701094e6bf8bbceeafd8fc9d4858bcedff14e2127587fe51c078ccb69a009dd167eed5b15ee"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-cattrs \
-python3.10dist-cattrs \
+RPROVIDES:${PN} += "python3.10dist-cattrs \
 python310-cattrs \
 python3dist-cattrs"
 

@@ -2,14 +2,13 @@ SUMMARY = "Django app providing database and form fields for pytz timezone objec
 DESCRIPTION = "A Django app providing database and form fields for pytz timezone objects."
 LICENSE = "BSD-2-Clause"
 
-PV = "5.0"
+PV = "5.1"
 
-RPM_NAME = "python310-django-timezone-field-5.0-1.4.noarch.rpm"
-RPM_HASH = "265ccbce626c03a41023a61456e8e482c0971c7debbfafa2f00bf88d3660d42fcdd75c01af01e1a302609aba6770ea041878ed835ac4a96c3839db1d6ca0b6b9"
+RPM_NAME = "python310-django-timezone-field-5.1-1.1.noarch.rpm"
+RPM_HASH = "6d48075c843f2b48711aa88666bd0aeeaf163bd069cfaa439278a24e14b8278c14487c2a34175c0014881d787f1c2e754f0725f148e142ae22d65c336e84f111"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-django-timezone-field \
-python3.10dist-django-timezone-field \
+RPROVIDES:${PN} += "python3.10dist-django-timezone-field \
 python310-django-timezone-field \
 python3dist-django-timezone-field"
 

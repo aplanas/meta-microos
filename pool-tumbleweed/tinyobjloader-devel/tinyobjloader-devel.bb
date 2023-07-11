@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "2.0.0rc9"
 
-RPM_NAME = "tinyobjloader-devel-2.0.0rc9-1.4.aarch64.rpm"
-RPM_HASH = "ca5be87c350a6b20be0307ebad881b72cf2ad49261fbfa57b94c37bdea287c2aac0fa58c4328393f14f1d09e33c40bf7a6b03a9d156689f886b27d4684015273"
+RPM_NAME = "tinyobjloader-devel-2.0.0rc9-1.5.aarch64.rpm"
+RPM_HASH = "2a82ebe40fed82dd16d2b22963f05d9218562fe90dd899df0e24eb6d26c2c65a0db011af94ba74909a8eaa89445b39648d475f3cde7ad4de414c77423d718cde"
 
 RPROVIDES:${PN} += "pkgconfig-tinyobjloader \
 tinyobjloader-devel"

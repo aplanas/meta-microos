@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.8.0"
 
-RPM_NAME = "ruby3.2-rubygem-http_parser.rb-0.8.0-1.12.aarch64.rpm"
-RPM_HASH = "e2dd45a89076e061349668d7e79b391225214287b092691c876323c05fa67ae8e796347469007e0a56488e13195311b6681f2ca950cc2ee99a53497250742531"
+RPM_NAME = "ruby3.2-rubygem-http_parser.rb-0.8.0-1.13.aarch64.rpm"
+RPM_HASH = "729ac8f8a877559b4dae5eb7de6bf373b8151a1b46b2411088c72f4417ceb00dc539a433862aca784402886cd0f0a79413de1ccf3dad57f58856b9d1dda62b78"
 
 RPROVIDES:${PN} += "ruby3.2-rubygem-http-parser.rb \
 rubygem-http-parser.rb \

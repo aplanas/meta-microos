@@ -4,11 +4,10 @@ LICENSE = "Apache-2.0"
 
 PV = "0.19"
 
-RPM_NAME = "python310-immutables-0.19-2.1.aarch64.rpm"
-RPM_HASH = "e4923b46978207d54473f6413088982a7f9a841627f83fb7c142d81138a726845ea2be78657d51371e503277be6376d78314aaeddfda2b70376faa7d72f09c72"
+RPM_NAME = "python310-immutables-0.19-3.1.aarch64.rpm"
+RPM_HASH = "1afb88fe49b69b41e5dd7babfe4704ffab8537206b9ff2216633024b3bfefa42f7ad17072dcfc2b8c37dccf53b3cc235140234542316ccc041da8f02d1d72708"
 
-RPROVIDES:${PN} += "python3-immutables \
-python3.10dist-immutables \
+RPROVIDES:${PN} += "python3.10dist-immutables \
 python310-immutables \
 python3dist-immutables"
 

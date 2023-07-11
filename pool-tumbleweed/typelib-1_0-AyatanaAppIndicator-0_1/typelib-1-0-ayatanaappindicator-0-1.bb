@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only & LGPL-2.0-only & LGPL-3.0-only"
 
 PV = "0.5.91"
 
-RPM_NAME = "typelib-1_0-AyatanaAppIndicator-0_1-0.5.91-1.4.aarch64.rpm"
-RPM_HASH = "817ade71285b51f373eb0fc75d33127099afae160c8f32ccfe27bffceca07fb5b8bf345f5413ded6c94b7bb49fb9357ebc5349ea2dc05730f66dee5a41c78f46"
+RPM_NAME = "typelib-1_0-AyatanaAppIndicator-0_1-0.5.91-1.5.aarch64.rpm"
+RPM_HASH = "85140596b9784663ecb9928115375e0da999e33d6f6ebd3a784abe6694e63e6ec45d2b2b59809ba680d1b8c156b3accd8aea9d0d1dfce120b28401800287e3e2"
 
 RPROVIDES:${PN} += "typelib-1-0-AyatanaAppIndicator-0-1 \
 typelib-AyatanaAppIndicator"

@@ -17,12 +17,11 @@ LICENSE = "MIT"
 
 PV = "0.3.4"
 
-RPM_NAME = "python310-fvs-0.3.4-1.3.noarch.rpm"
-RPM_HASH = "62db48c8cbaf71c267de98288ed83e3f916679d1e99c351bc5b0f7fd5df3d1b13898b347e06bfe7ae12422c33cf9b3d42115602e45e176df5ff524a31d383049"
+RPM_NAME = "python310-fvs-0.3.4-1.5.noarch.rpm"
+RPM_HASH = "0fa7f5a010f62c6e023589d6d5d7a008714a3ed975623175fa527fb63e190fbdc55a5e802aef2bf220e21ffa7f2358760581246823f93ae8c15c3208638a95ec"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-fvs \
-python3.10dist-fvs \
+RPROVIDES:${PN} += "python3.10dist-fvs \
 python310-fvs \
 python3dist-fvs"
 

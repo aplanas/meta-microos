@@ -37,8 +37,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.11"
 
-RPM_NAME = "signing-party-2.11-1.8.aarch64.rpm"
-RPM_HASH = "e31743e6b86ca0ce485cb04ce772e95c9530be2f41549af01593322945c8f899e4b8322dac967bebb3657f4ec4d4856307ebf74ed2c4fd4bfb40d65b0c4ad8f2"
+RPM_NAME = "signing-party-2.11-1.9.aarch64.rpm"
+RPM_HASH = "bb1aaa45130f8c9981837bc2304eb7836f5c4b8e976137d4343afbb62dccc5a6ed32002e4a7287dd7d1507fff3c5163fd6345417be7419e77f4268c4048b9b24"
 
 RPROVIDES:${PN} += "signing-party"
 

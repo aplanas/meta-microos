@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0_FCS"
 
-RPM_NAME = "saxpath-1.0_FCS-39.6.noarch.rpm"
-RPM_HASH = "0b2ec080ad392aaee26941c4afe3085973edb828e35b09c9dc7a228584157a6b30c44409296d2421521baa5562b397e217a0f2e7b56640f2dd19e3e4674b0843"
+RPM_NAME = "saxpath-1.0_FCS-39.7.noarch.rpm"
+RPM_HASH = "d440dc7a959e4b206ceed061f56ec481106ff484fd48e1374d92a8aa0e2b980d7d6cbc8061f4ae5affe195b91251cb3dfcdc0b70a51125f23a4c9ce5df14c898"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-saxpath-saxpath \

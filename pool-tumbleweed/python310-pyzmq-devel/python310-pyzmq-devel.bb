@@ -4,11 +4,10 @@ LICENSE = "BSD-3-Clause & LGPL-3.0-or-later"
 
 PV = "25.0.2"
 
-RPM_NAME = "python310-pyzmq-devel-25.0.2-1.1.aarch64.rpm"
-RPM_HASH = "b468de0e3d4b050724f6a9593e665829bf8b95e92208eadc0c102012d36c170d444f29d0063835b90259b69cf6e0f45b8659fd6f0d83ddb9670bd9c04c84233d"
+RPM_NAME = "python310-pyzmq-devel-25.0.2-1.3.aarch64.rpm"
+RPM_HASH = "247be41dcdadfb3b686bdb0030c3b71f2d71ca4310fbb6064499f2aac96e1a57bce81887b7338fc1189ad2c18c7d568695a81f1f49b6f6714201023d96363fc7"
 
-RPROVIDES:${PN} += "python3-pyzmq-devel \
-python310-pyzmq-devel"
+RPROVIDES:${PN} += "python310-pyzmq-devel"
 
 RDEPENDS:${PN} += "python-abi \
 python310-devel \

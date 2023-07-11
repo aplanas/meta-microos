@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.14.12"
 
-RPM_NAME = "pidgin-devel-2.14.12-1.3.aarch64.rpm"
-RPM_HASH = "3ca4f1482bfc2c08683d22f40c8b6322583ea65966a450504d7e06b6b4293fadacc637f3d870494bb1b1ec655a065898f127f7841e1daa64d1d1f96008043e52"
+RPM_NAME = "pidgin-devel-2.14.12-1.4.aarch64.rpm"
+RPM_HASH = "eb9a6c2be20b625d1aef992967dad3daa81b3a47667b417c5484c2c80f4bcce119972a8dcfa6e73f26a50490365cbce5d9f5c1e7942a7686a61505e2b5e4fcb9"
 
 RPROVIDES:${PN} += "pidgin-devel \
 pkgconfig-pidgin"

@@ -8,12 +8,11 @@ LICENSE = "MIT"
 
 PV = "3.3.0"
 
-RPM_NAME = "python310-python-jose-cryptography-3.3.0-1.5.noarch.rpm"
-RPM_HASH = "cffd3d14d13240ea7e70dcd6d611f9a1fa1385a49ea019620f7d4c57d4d5cff93ae998f6a06b7fb62735fd2b57306788bdccceea11fb61a414334d26ce6ed0d3"
+RPM_NAME = "python310-python-jose-cryptography-3.3.0-2.2.noarch.rpm"
+RPM_HASH = "fa753ba72102c955155dd91df8cab406a2b3c745659b44ddee513572c710af8ebecaa1969a8220df963d163302577f991ca518cb10bfcb77774bffa9f3f61341"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-python-jose-cryptography \
-python310-python-jose-cryptography"
+RPROVIDES:${PN} += "python310-python-jose-cryptography"
 
 RDEPENDS:${PN} += "python310-cryptography \
 python310-python-jose"

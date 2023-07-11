@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.12.0"
 
-RPM_NAME = "python39-aws-xray-sdk-Flask-2.12.0-1.1.noarch.rpm"
-RPM_HASH = "8e05991ed9040d92a33023d18caeab528c424cc8a04b9b03401d95bb41d72175b43bdb0f69d0f185b5c904ed48f4220ea70f827b733c66025683c1407a3eac55"
+RPM_NAME = "python39-aws-xray-sdk-Flask-2.12.0-2.3.noarch.rpm"
+RPM_HASH = "cf8be2f0a3c90d341368281df2f372adbb32fbcf0f14067b2b2427e85e5c6b4a143d779c54d18c49473bd1bcd7b38d7b6894c831eaa73555a1a175f747beba0b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-aws-xray-sdk-Flask"

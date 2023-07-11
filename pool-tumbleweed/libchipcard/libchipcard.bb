@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.1.6"
 
-RPM_NAME = "libchipcard-5.1.6-1.11.aarch64.rpm"
-RPM_HASH = "5216224ea90891c960fddfe4c3daf91c3e6b992eb30081547b9583d7d3fed736fe769415bef038b24c50a8077ab5920f6d1aa2a60b64e4c651a822be74c8e451"
+RPM_NAME = "libchipcard-5.1.6-1.12.aarch64.rpm"
+RPM_HASH = "c7b8c3a59519c5734cc257be56060911c8c2be101124208e3064088b10a6bcb81242786b0fda8e7d9c69cce70364858ac17d43a35d1a2f1c02924b4bb48be203"
 
 RPROVIDES:${PN} += "config-libchipcard \
 libchipcard"

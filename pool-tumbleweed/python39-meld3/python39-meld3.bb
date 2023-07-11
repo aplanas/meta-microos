@@ -6,8 +6,8 @@ LICENSE = "SUSE-Repoze"
 
 PV = "2.0.1"
 
-RPM_NAME = "python39-meld3-2.0.1-1.18.noarch.rpm"
-RPM_HASH = "583bc670702199d065249ebc6bbbb8a58084afa042f42e31258f887a28cef14e7fdc5ef64335932c2d9c4cb3af6b7b147ddfa48840a2078ffc648d0a135957f7"
+RPM_NAME = "python39-meld3-2.0.1-1.20.noarch.rpm"
+RPM_HASH = "5b1f151917f264514b797ae5a043dd238884e2e4687d653e24a181762a0f207c4b91a4ecb6bc48f16566bbeb95a0f3938df88b1c26bb542658f528a8677ef3cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-meld3 \

@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 | MIT"
 
 PV = "0.23.0"
 
-RPM_NAME = "bat-fish-completion-0.23.0-1.1.noarch.rpm"
-RPM_HASH = "ee99af536fd2b2e75d88cdd840a6e99b3665726c140781d1e353906091dca09410305678f12ace311a81913fdb793d879d687ba62faf25c56a410e10ad223a53"
+RPM_NAME = "bat-fish-completion-0.23.0-1.2.noarch.rpm"
+RPM_HASH = "b407b107bbe4ac167fb7062cbc1a699d3c89e38f69d590d66a3a34faedc69eb8687a08b28b55d22c4fd8dcbe35ab1542f4c7f83858325397a0a5e57ff177cc3e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bat-fish-completion"

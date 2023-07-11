@@ -6,8 +6,8 @@ LICENSE = "X11"
 
 PV = "7.6_1.15.2"
 
-RPM_NAME = "xcb-proto-devel-7.6_1.15.2-2.1.aarch64.rpm"
-RPM_HASH = "f7e38c330f6208d1d1ccc8530d08a0bc6dc0875c94e6f7b4c9b3b8ab83a6e41072f8ffac39753c5ba16a2872f03652647f3523c37673b5d1846ddaf9bbc64d34"
+RPM_NAME = "xcb-proto-devel-7.6_1.15.2-2.2.aarch64.rpm"
+RPM_HASH = "8c8b0df7f39d8c7d90513d3b9e42371ee018c67be0f6b314c5b8d516c68328037756b9c96da80357bbad96d1cf5b86d4ebb72aacbff518a237d701a42c8b37d8"
 
 RPROVIDES:${PN} += "pkgconfig-xcb-proto \
 xcb-proto-devel"

@@ -4,10 +4,10 @@ LICENSE = "MIT"
 
 PV = "3.3.25"
 
-RPM_NAME = "ghc-warp-prof-3.3.25-1.4.aarch64.rpm"
-RPM_HASH = "a84ad3f9b4956a0e4a69d3627606ff8b21f950ca1197099591bf31c3b1dd97cf7692264010d61f0ae6856c8d734e69104142380a85f8498317d240f3857c2b33"
+RPM_NAME = "ghc-warp-prof-3.3.25-1.7.aarch64.rpm"
+RPM_HASH = "c75d557d76eb71b6f08f07bc27849fa51df3b505b006b96b935a1e6e8ccf40f264b2c577a9a2157fb84d693b38fdc8f3bab383edcd631eb0dad1ecb59114e7da"
 
-RPROVIDES:${PN} += "ghc-prof-warp-3.3.25-E7dqXF5eh0k5u5fIPKRjLZ \
+RPROVIDES:${PN} += "ghc-prof-warp-3.3.25-7qOcByHeVpuMAFF4vrupa \
 ghc-warp-prof"
 
 RDEPENDS:${PN} += "ghc-prof-array-0.5.4.0 \
@@ -21,22 +21,22 @@ ghc-prof-ghc-prim-0.9.0 \
 ghc-prof-hashable-1.4.2.0-FFBRhuY0w4YLmuLEs5uQAt \
 ghc-prof-http-date-0.0.11-IfCBGXPFiMuIKzFtOTNgnD \
 ghc-prof-http-types-0.12.3-4BrMFwRucoT4fBt8cCVFS6 \
-ghc-prof-http2-3.0.3-g8K2coD7lK8bFd8vR2MQJ \
-ghc-prof-iproute-1.7.12-2mj2MFOMRz35bHY4Q7Jvyd \
-ghc-prof-network-3.1.2.8-HNDBp0HF6t0D1fzE2MDtPd \
-ghc-prof-recv-0.1.0-4koyrU2GJ4L4fpyKcXLbZR \
-ghc-prof-simple-sendfile-0.2.31-701wssQD34oFyvrTLOblUT \
+ghc-prof-http2-3.0.3-COVYRU9DHikEztQPG0mdmy \
+ghc-prof-iproute-1.7.12-IhoklPQYItb8qGu1G3vmcD \
+ghc-prof-network-3.1.4.0-FvtFepOtuCUH79FCWyNxIc \
+ghc-prof-recv-0.1.0-5l0GOJwksOA59K6H5tIdgO \
+ghc-prof-simple-sendfile-0.2.32-4x5oTHfDDcT2QYoR9wedVb \
 ghc-prof-stm-2.5.1.0 \
-ghc-prof-streaming-commons-0.2.2.6-DrPeIbd2d2c3jQtctttO4G \
+ghc-prof-streaming-commons-0.2.2.6-EjKcoRCMdUH4DbzWvGfVlu \
 ghc-prof-text-2.0.2 \
 ghc-prof-time-manager-0.0.0-49hD2RcPrUEG8anOiBePCj \
 ghc-prof-unix-2.7.3 \
 ghc-prof-unix-compat-0.6-79KxxZMmklx25hsmeEnenN \
-ghc-prof-unliftio-0.2.24.0-Dgc3Qshya29BgIaWsfBy4D \
+ghc-prof-unliftio-0.2.25.0-DN1mY49M6dHDqA19Vm4lY3 \
 ghc-prof-vault-0.3.1.5-1nJxIV9kR8e5L3ZIpYZHc \
-ghc-prof-wai-3.2.3-LsLg4DRwusRI7b3SRdjDzn \
+ghc-prof-wai-3.2.3-B6oJGZed88IFIvDpwN5I7x \
 ghc-prof-word8-0.1.3-9uGjviso2af8K0EP8UmxRD \
-ghc-prof-x509-1.7.7-6vFRDfbnKcXIbE0ZlEHitw \
+ghc-prof-x509-1.7.7-LWFKTxQvdZ8EaEcgjVF4la \
 ghc-warp-devel"
 
 inherit rpm

@@ -11,8 +11,8 @@ LICENSE = "BSD-3-Clause & LGPL-2.1-or-later & GPL-2.0-or-later"
 
 PV = "2.4.9"
 
-RPM_NAME = "ppp-modem-2.4.9-3.3.noarch.rpm"
-RPM_HASH = "cd2839623498f1bb669c4e2e03d3bf09f2408e88fa1bec9bb575e4e69af5850ebf2255bfddf5aa04f93c0f3e69168d1f4a9b13d6c4f8f7fa8009afe08558daf8"
+RPM_NAME = "ppp-modem-2.4.9-3.4.noarch.rpm"
+RPM_HASH = "8240bed7239b1ddd719763e302be86725cef673f3e0711352d3c41f3d9680ffaae8b8d581a6bc8b3a17fe5dcba2fad8aee689be43df39756e02da945794df770"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-ppp-modem \

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "5.2.5"
 
-RPM_NAME = "libpcp_mmv1-5.2.5-3.4.aarch64.rpm"
-RPM_HASH = "26f89e27b9cb7f61035d7bbeb92d466657a13b0211458617d9721eceaa7c7a9add27958cad7e2d327282c9c87210dfc15373789475bace31e67fc00ea19fcdfd"
+RPM_NAME = "libpcp_mmv1-5.2.5-3.7.aarch64.rpm"
+RPM_HASH = "0845d154aaa610269a96a75da3d1bf27a6082527fa97c8066d7fa847100917de721ee4ecf9562088724b421905807b4ef1b9c0ac91aed3bb6927e29607b8af37"
 
 RPROVIDES:${PN} += "libpcp-mmv.so.1 \
 libpcp-mmv1"

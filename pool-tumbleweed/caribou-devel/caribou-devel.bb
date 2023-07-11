@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.4.21"
 
-RPM_NAME = "caribou-devel-0.4.21-8.7.aarch64.rpm"
-RPM_HASH = "88ccd066fd64caa2e6d35410b13b24c5ee5289cdc8aab12f36fb2d4960703404485cdd89db1f4a8a30ab7d5d65e43ed132b764bec39eb421025756cf8b7f68d2"
+RPM_NAME = "caribou-devel-0.4.21-8.8.aarch64.rpm"
+RPM_HASH = "66f9b3d42ed3abe031f0beb17929b7c356ca1812d076e2bb604d0628314087e747fb86dd83be8fb86bfa9d5a04f23700dab29c545227dfc3a6c63d58e3321102"
 
 RPROVIDES:${PN} += "caribou-devel \
 pkgconfig-caribou-1.0"

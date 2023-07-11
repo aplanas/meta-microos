@@ -6,13 +6,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "8.6.1"
 
-RPM_NAME = "python310-ipyparallel-8.6.1-1.2.noarch.rpm"
-RPM_HASH = "8e62c30bf76de1daf8501b9e34d1790d5f888d8771955084905a0db84b7737c1bc4c6c6440edcd72d43a4bacb6b68cce56fb2640ae5eb82575848716595dd8f3"
+RPM_NAME = "python310-ipyparallel-8.6.1-1.3.noarch.rpm"
+RPM_HASH = "b664bb5997f8a8f4d1e1d94e9d6172428c36d010b64e10c1d21c4b7a30425e92fcf9b6d125dddbde2cee45306653d2451b2c8d868a7e54a31e9d70f9e0cf51f6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-ipyparallel \
-python3-jupyter-ipyparallel \
-python3.10dist-ipyparallel \
+RPROVIDES:${PN} += "python3.10dist-ipyparallel \
 python310-ipyparallel \
 python310-jupyter-ipyparallel \
 python3dist-ipyparallel"

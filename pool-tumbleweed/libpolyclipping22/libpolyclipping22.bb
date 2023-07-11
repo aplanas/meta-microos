@@ -10,8 +10,8 @@ LICENSE = "BSL-1.0"
 
 PV = "6.4.2"
 
-RPM_NAME = "libpolyclipping22-6.4.2-2.8.aarch64.rpm"
-RPM_HASH = "7f6c3dc65a91d0d1fe5495d6942e4119d112da3243b435cfc33873c46fa4d73cda22b91d95acbebdf52e33d5c47a8d6a53d30f12a47dcf41c7563ff9fa56a80c"
+RPM_NAME = "libpolyclipping22-6.4.2-2.9.aarch64.rpm"
+RPM_HASH = "cc7c353e8bc01809fe788714d56b7a134445b50946a0bdb958f8e35e7f93b96807c298d03b68263fd945f9cc2bccedd83cbd8fe557495ce1ef17cfc29ba4f71a"
 
 RPROVIDES:${PN} += "libpolyclipping.so.22 \
 libpolyclipping22"

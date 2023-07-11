@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.9.4"
 
-RPM_NAME = "python310-ldapdomaindump-0.9.4-1.4.noarch.rpm"
-RPM_HASH = "27a0e8c4659ddf45264aa6c3b0e9ee546cdf8cfe78adfcdf08e682807d55b34b5d04b9da330216e2bca4da5412a23d764ed146f8defd0ed682c36b5ac12dba17"
+RPM_NAME = "python310-ldapdomaindump-0.9.4-1.6.noarch.rpm"
+RPM_HASH = "dff43edbe96b682b3c93e0ccdc5cb79f6a0c17844bc686dd277837bcc223f8b3ee8a0f6f95acfb233fc69b7a49809fbdb4485a036a81c536d01fc3d38bf6bc1b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-ldapdomaindump \
-python3.10dist-ldapdomaindump \
+RPROVIDES:${PN} += "python3.10dist-ldapdomaindump \
 python310-ldapdomaindump \
 python3dist-ldapdomaindump"
 

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package dolphin-plugins"
 DESCRIPTION = "Provides translations for the 'dolphin-plugins' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "dolphin-plugins-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "4a44bb0589a48e7cbccf305e3e2f4fa5e40bd5ecd0f69e2284392ad5e0d05e35444bd6a499eff488a3ea3499f291a03a6d64ed2ca8db99c61c2b80251ce89439"
+RPM_NAME = "dolphin-plugins-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "6f36cd344e4f430bb7229522e9018aace60249aadd926fe15f3db0f3d64389f048863082ef261885df696bbc1154495cf5f3afad9c6de7d3e1c03e60e030dfee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dolphin-plugins-lang \

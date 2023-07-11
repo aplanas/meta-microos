@@ -5,11 +5,12 @@ LICENSE = "Apache-2.0"
 
 PV = "0.3.0"
 
-RPM_NAME = "python311-requests-unixsocket-0.3.0-2.1.noarch.rpm"
-RPM_HASH = "18cba8a8eec835777188054c1405768036b8cfed2f9d9c372581bc1107a69e00646d8dd5c2520462aa6410234194bf8596063680063e60a07a5d0f803aa5c6c5"
+RPM_NAME = "python311-requests-unixsocket-0.3.0-3.3.noarch.rpm"
+RPM_HASH = "648bed6dc8428be123c0481860dc084674b8ed11179ffee6245fe33ed7c1ce41614bd0adb0d491745e7763d46658ce871c8f95c2e05cdff82af470c765c88cae"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-requests-unixsocket \
+RPROVIDES:${PN} += "python3-requests-unixsocket \
+python3.11dist-requests-unixsocket \
 python311-requests-unixsocket \
 python3dist-requests-unixsocket"
 

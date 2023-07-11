@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.8.0"
 
-RPM_NAME = "tuigreet-0.8.0-1.2.aarch64.rpm"
-RPM_HASH = "26fdcc1d3605b8b753971e42db0941204cafd887d2bf3f136ff75e3f7d1ed1b8b2f68ae23f9a9e0b318cb4710937506e555873590d796e2427e03c6c00d9c817"
+RPM_NAME = "tuigreet-0.8.0-1.3.aarch64.rpm"
+RPM_HASH = "e53d627b1bd1effc81642a492810aa86df818ff503c5ea65e1a181132374dc4753d2a04ee5b31fcef30eba9290cef0295b56d091e4e862861f5ec84afe3c70fe"
 
 RPROVIDES:${PN} += "bundled-rust-crate-ahash \
 bundled-rust-crate-aho-corasick \

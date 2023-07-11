@@ -9,16 +9,16 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.4.0.0"
 
-RPM_NAME = "python3-uhd-4.4.0.0-1.4.aarch64.rpm"
-RPM_HASH = "a4a058d1e9937dbebf5c9909b463cf98369ecd3b88f7c305e86717b44102a6dc8de4af6eac5d78ee9a4b46412c84fb1aab18383ca78dac99503d1f0c40845b26"
+RPM_NAME = "python3-uhd-4.4.0.0-1.5.aarch64.rpm"
+RPM_HASH = "814c1427f10a0369f78f9875ff77b64e6f09bb84ce2353712231961667512a308f18aea1f313e1e02a96c348aa9c78d90ba9127ba46d3a0c21af34f65e90e4fc"
 
-RPROVIDES:${PN} += "libpyuhd.cpython-310-aarch64-linux-gnu.so \
+RPROVIDES:${PN} += "libpyuhd.cpython-311-aarch64-linux-gnu.so \
 python3-uhd"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libstdc++.so.6 \
 libuhd.so.4.4.0 \
 python-abi"

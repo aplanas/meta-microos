@@ -2,10 +2,10 @@ SUMMARY = "The PimCommon Library"
 DESCRIPTION = "The PimCommon library"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "libKF5PimCommon5-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "2fffe9d1de7e6e15082422dae0750f282b7507bbd709adeb2da901cd01aecc30396359f386af6c8ba55a34f740bc39e27c9d3ad3220608395bbe4b108b0e6696"
+RPM_NAME = "libKF5PimCommon5-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "04d234620419f13bfda392b82d69e01ae2293d9a3a00dc752a6f1bc8746cc3e53d3173d25157608acef439cb422696216f67369d023573c595fc17efcd0adf0c"
 
 RPROVIDES:${PN} += "libKF5PimCommon.so.5 \
 libKF5PimCommon5"

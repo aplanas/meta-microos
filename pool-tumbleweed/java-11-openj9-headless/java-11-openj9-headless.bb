@@ -6,8 +6,8 @@ LICENSE = "Apache-1.1 & Apache-2.0 & EPL-2.0 & GPL-1.0-or-later & GPL-2.0-only &
 
 PV = "11.0.18.0"
 
-RPM_NAME = "java-11-openj9-headless-11.0.18.0-2.1.aarch64.rpm"
-RPM_HASH = "20a626f365efafd1b7fc3e1efd9ffcbc206bba45a60cc6e6c6ab39ba91373c24beb42000d52a8169c15467167d558d31db2be58f7192518a54c9d5ce8ed3dbf0"
+RPM_NAME = "java-11-openj9-headless-11.0.18.0-2.3.aarch64.rpm"
+RPM_HASH = "70bb1e147a6a7082240a2614a258bfbdf48a5f03bba3454861dbe5b398aaa81fadee3676cfd6b5000d0f18207a3de5e701522b82cd7986d84e0d37eeb5a121c2"
 
 RPROVIDES:${PN} += "config-java-11-openj9-headless \
 jaas \

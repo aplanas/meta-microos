@@ -11,8 +11,8 @@ LICENSE = "Apache-1.1 & Apache-2.0 & EPL-2.0 & GPL-1.0-or-later & GPL-2.0-only &
 
 PV = "1.8.0.362"
 
-RPM_NAME = "java-1_8_0-openj9-accessibility-1.8.0.362-2.1.aarch64.rpm"
-RPM_HASH = "b3f847ab7aef66b2a35716c333c3279c506e4f7a4104dab37e05411cfe0c4b5adbbf779626ca0e177d2d218c8c5b5cf62e9b94749084cd5f7f4db4b5079aa61f"
+RPM_NAME = "java-1_8_0-openj9-accessibility-1.8.0.362-2.3.aarch64.rpm"
+RPM_HASH = "ea221cd146c720ca37d3352d85aec6fc13a26800e5c6ab225e8edb72e38f83837702ac9ecbd6ec2251da0f0c577d65136c51e88c9410b9f29afcdcca2e79762c"
 
 RPROVIDES:${PN} += "config-java-1-8-0-openj9-accessibility \
 java-1-8-0-openj9-accessibility"

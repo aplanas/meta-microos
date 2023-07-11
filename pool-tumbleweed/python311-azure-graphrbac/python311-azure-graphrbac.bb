@@ -6,11 +6,12 @@ LICENSE = "MIT"
 
 PV = "0.61.1"
 
-RPM_NAME = "python311-azure-graphrbac-0.61.1-2.11.noarch.rpm"
-RPM_HASH = "4b7b4230033a58d7532ebb521fee7d724e8e31af1ed63a949ada5fe1162cdd1108feb17742108ce812b9691cf02174a8c9d1904f8f5c53cc2ccdbd8c795c1d28"
+RPM_NAME = "python311-azure-graphrbac-0.61.1-2.12.noarch.rpm"
+RPM_HASH = "df67e3b4d17e326af129b3722794608db5baf90deeb1b5297e52ff16e0fcd543e8fd1a1b7c4cb109a5ee5441bf7daf3c835dcd82951c72f4f12624a27d23daa2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-azure-graphrbac \
+RPROVIDES:${PN} += "python3-azure-graphrbac \
+python3.11dist-azure-graphrbac \
 python311-azure-graphrbac \
 python3dist-azure-graphrbac"
 

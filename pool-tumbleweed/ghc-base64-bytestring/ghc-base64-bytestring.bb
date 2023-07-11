@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2.1.0"
 
-RPM_NAME = "ghc-base64-bytestring-1.2.1.0-2.3.aarch64.rpm"
-RPM_HASH = "516b135bac2b77a2fb75480d35681f9a59ea51e948d83883af4997d7fe8ee05ab6def5e536f63fe46b09b426c08e1eabe5c1b1fb7198438cd9a087b2543f1fbb"
+RPM_NAME = "ghc-base64-bytestring-1.2.1.0-2.6.aarch64.rpm"
+RPM_HASH = "166edd5824e05a96f408fc9fb9a73087899a769b3ac80026b57b8907819566d25f7e9cea7d21e46d6dc68a2838cc804ef5f36a71fdc169122fb10eb5c036bbbe"
 
 RPROVIDES:${PN} += "ghc-base64-bytestring \
 libHSbase64-bytestring-1.2.1.0-8KbzJpmSQbYKTeew1rv0hh-ghc9.4.5.so"

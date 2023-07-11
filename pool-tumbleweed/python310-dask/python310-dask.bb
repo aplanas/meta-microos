@@ -11,16 +11,17 @@ Dask is composed of two parts: \
   run on top of dynamic task schedulers."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.3.2"
+PV = "2023.5.1"
 
-RPM_NAME = "python310-dask-2023.3.2-3.1.noarch.rpm"
-RPM_HASH = "57bc71c4bce88ef6eef5229c0a81530e2359c292e6ac705c01fe5134cec7f34904d8f744abfc344282343194ade33c613e6768290a5dccb9f7deccee8c4f1d8d"
+RPM_NAME = "python310-dask-2023.5.1-2.3.noarch.rpm"
+RPM_HASH = "6070f3a4fce547ad2bea0ad6cc297e11dfbe00fb68c16a462ef40dfdf652a694781d1c9952c1b8ead4bce60f72db7b6b0169dcaef5a75e5dcc40f4d61a4aa632"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-dask \
-python3-dask-multiprocessing \
-python3.10dist-dask \
+RPROVIDES:${PN} += "python3.10dist-dask \
 python310-dask \
+python310-dask-bag \
+python310-dask-delayed \
+python310-dask-dot \
 python310-dask-multiprocessing \
 python3dist-dask"
 

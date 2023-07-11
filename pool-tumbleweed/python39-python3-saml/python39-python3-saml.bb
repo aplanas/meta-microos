@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "1.15.0"
 
-RPM_NAME = "python39-python3-saml-1.15.0-1.1.noarch.rpm"
-RPM_HASH = "e5fc7966105f402c8aec07370c8e1a97164e095c7c14bbd17b5f409dc529c429a0c922af05f813ed249447aaa91cf8f20e1c8b7766a4efe5a08ed22f6d5e0ed1"
+RPM_NAME = "python39-python3-saml-1.15.0-1.3.noarch.rpm"
+RPM_HASH = "62ab6eec78e6b502544e492569074aa2f1ff90c94a5dc8c7f21693325cbb281020295f2a53d62a564ddda6b6c77c00ee1202ae751ac69a9c135dac1927fb5368"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-python3-saml \

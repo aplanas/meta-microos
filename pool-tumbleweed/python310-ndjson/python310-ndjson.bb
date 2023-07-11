@@ -4,12 +4,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.3.1"
 
-RPM_NAME = "python310-ndjson-0.3.1-1.3.noarch.rpm"
-RPM_HASH = "9da39d97049bd5227b795d02bd7f34358704c08d2b4cad97287e6b788a0773584a486b0b9cb6a1dd5fe4697838d0b71e33fe22af72ff70c34fd5fb2e09849b04"
+RPM_NAME = "python310-ndjson-0.3.1-1.5.noarch.rpm"
+RPM_HASH = "b41cc0188355dcd3aa41c656b590aae235e66abb1e0c8e953f4267b5bdc8998ff6e8596d8b71a6863d69921ddf325e7ef60153705f31dd05617a8f16b1eab3ad"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-ndjson \
-python3.10dist-ndjson \
+RPROVIDES:${PN} += "python3.10dist-ndjson \
 python310-ndjson \
 python3dist-ndjson"
 

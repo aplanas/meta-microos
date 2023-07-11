@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.6.3.0"
 
-RPM_NAME = "ghc-zlib-devel-0.6.3.0-2.3.aarch64.rpm"
-RPM_HASH = "fc28a493449cfa552eda85e912ce1007a3e499f0ec5e61c561c4964016204d66b49c89e8906a71dc33bf756993e5528ba43c668d88d12d45cf7428a9a46e15a9"
+RPM_NAME = "ghc-zlib-devel-0.6.3.0-2.6.aarch64.rpm"
+RPM_HASH = "65f2ed51670feac0472e544be2679cc00445641af8afd263a2a73f20a4b3e2197eb859c2ac5cdfe58fd64b2242e1e8f19ad3bf160c1018906853819890ba1731"
 
 RPROVIDES:${PN} += "ghc-devel-zlib-0.6.3.0-GaFaUl6t8QzEoHIQXsottk \
 ghc-zlib-devel"

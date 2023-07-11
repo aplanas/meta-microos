@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.2.2"
 
-RPM_NAME = "supermin-5.2.2-4.3.aarch64.rpm"
-RPM_HASH = "52f08b42e602ecc7ba5bccff9133695e12a0cc260197800d812a1d00591811ab6ca29587743fb97228955369e759f68d049c42963a9448ffd3a7cb6ddb23e300"
+RPM_NAME = "supermin-5.2.2-4.4.aarch64.rpm"
+RPM_HASH = "008e96a4def0452d1a4627a7992a458a6efbb7ae1c29ab7a65e3c8c76302f7bfde96eeaf77868988deefb912299a711eb4e8cdd2c6fd21183a31918b200102d6"
 
 RPROVIDES:${PN} += "febootstrap \
 supermin"

@@ -14,8 +14,8 @@ LICENSE = "Apache-2.0 & W3C"
 
 PV = "2.12.2"
 
-RPM_NAME = "xerces-j2-2.12.2-2.6.noarch.rpm"
-RPM_HASH = "03482fe4d24ee8e446038faae351342f4d8b8dac226893be8c4e3385b8f59a349dcf0a46792f4f64f973b7219a2ede384237e37290299354f2f30179a28411fa"
+RPM_NAME = "xerces-j2-2.12.2-2.7.noarch.rpm"
+RPM_HASH = "f70b791b6ba742ae8e227c8e7fb61eff5c8968d3a2ae6b2f98cf4728fff11487f66d18cf06456e566b2d251bfce8eb10c14df5d8a36b665a83bdcc8a062971ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jaxp-parser-impl \

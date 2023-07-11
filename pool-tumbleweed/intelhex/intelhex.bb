@@ -19,12 +19,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.3.0"
 
-RPM_NAME = "intelhex-2.3.0-1.3.noarch.rpm"
-RPM_HASH = "746b7b3aace52300532e0c93504b5dad8a118f17492fcea447fce3d2614cca2bc7746f7d0d25cbd1254eec0b94a6cd5475b075a6b7062b71a7fa9c20b70f6af2"
+RPM_NAME = "intelhex-2.3.0-1.4.noarch.rpm"
+RPM_HASH = "2ac7e4a9cd7cae9b9232952cd6ba89a18af76c16be970179ad0c52745c6bdf0dcecd451fd5e9d86035d231da8cfeb592e99460a0f78a45353af0f193afc158cf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "intelhex \
-python3.10dist-intelhex \
+python3.11dist-intelhex \
 python3dist-intelhex"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

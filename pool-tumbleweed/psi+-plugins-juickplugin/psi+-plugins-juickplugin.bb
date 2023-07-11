@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-or-later"
 
 PV = "1.5.1615+0"
 
-RPM_NAME = "psi+-plugins-juickplugin-1.5.1615+0-3.1.aarch64.rpm"
-RPM_HASH = "ca2177f477a41a7b1cb11532e4abbc7b39a9c005f402bae523347f885d44718c5c57f5394cf6f16be3f579b6f21fa9df7151ef48de9fa907c8009200e2b87a1b"
+RPM_NAME = "psi+-plugins-juickplugin-1.5.1615+0-3.2.aarch64.rpm"
+RPM_HASH = "c89b1d9067b932d81130ea3ba4a5cc7f8b863296a1ba3f788564178c59f6fd450fd932998cd2354dd4dbbc6d25cd86bb3a2b282ea2438ecf3eb3398ce8acbc42"
 
 RPROVIDES:${PN} += "libjuickplugin.so \
 psi+-plugins-juickplugin"

@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.4.57"
 
-RPM_NAME = "apache2-prefork-2.4.57-1.1.aarch64.rpm"
-RPM_HASH = "66892664e73093d89588264a5fd9e06b7c1fddc24a4ff6149c705ee4ff810fef27d26a6e6fc907b6ac4364238660c8cacb62027131fd3af18ec0a8efecf389df"
+RPM_NAME = "apache2-prefork-2.4.57-1.2.aarch64.rpm"
+RPM_HASH = "cd189b20e68644d3eeddc66949109709545866fd6073d0288fa746409e7e77448b430edebd6e28e84fb9919cbe18a311096daff6c74d8be739fcac48b06b7dc4"
 
 RPROVIDES:${PN} += "apache2-MPM \
 apache2-prefork"

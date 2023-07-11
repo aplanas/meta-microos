@@ -5,11 +5,12 @@ LICENSE = "MIT"
 
 PV = "6.8.0"
 
-RPM_NAME = "python311-devpi-server-6.8.0-2.1.noarch.rpm"
-RPM_HASH = "c2fe5c836ac4efab0341243a9a3c116bc3750a2c10d788d6a703e6a507f664753b261c553853162a89277e766ecf3d186288cf95b41b630ed665a7b795f709ca"
+RPM_NAME = "python311-devpi-server-6.8.0-3.3.noarch.rpm"
+RPM_HASH = "e87650746c36a1a53de053e6ed026c45c397eee523e1f2cdc4f40b20d62b14dc7f01e58781ad63cb791b03e96fe19738f43cb18e9b422b6a60dac5b12c83be38"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-devpi-server \
+RPROVIDES:${PN} += "python3-devpi-server \
+python3.11dist-devpi-server \
 python311-devpi-server \
 python3dist-devpi-server"
 

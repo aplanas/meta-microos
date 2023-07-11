@@ -7,10 +7,11 @@ LICENSE = "GPL-3.0-only"
 
 PV = "8.0.1"
 
-RPM_NAME = "python311-mathgl-8.0.1-3.3.aarch64.rpm"
-RPM_HASH = "a0c08a7d3666f65de953d043796975dfca8ed6e77b61886367f5b3f6afbdc9a7f4bb83ae094594d3498773644f341e1947d5fbb8b0e3c24f36e787d387a91c26"
+RPM_NAME = "python311-mathgl-8.0.1-4.2.aarch64.rpm"
+RPM_HASH = "8a253fabdede4e75c2c046153853f6fd5d12ad63c3f6ce0bfd57d53ed0d57072a82cbb63f7d55b70523e8c174a615917577a33e00cff568880ec5c54f5725b90"
 
-RPROVIDES:${PN} += "python311-mathgl"
+RPROVIDES:${PN} += "python3-mathgl \
+python311-mathgl"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \

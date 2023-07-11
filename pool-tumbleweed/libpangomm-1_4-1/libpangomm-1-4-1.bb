@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
 PV = "2.46.3"
 
-RPM_NAME = "libpangomm-1_4-1-2.46.3-2.3.aarch64.rpm"
-RPM_HASH = "2c34ad1c0c88788797d914dedc34c3a34f48c1b415579be862dbdcd87e0adfa0b6fe4c10dba3aecd557bbbfd8e90a64621263f6655faabd3866c0e67aea652f8"
+RPM_NAME = "libpangomm-1_4-1-2.46.3-2.4.aarch64.rpm"
+RPM_HASH = "b1c588025a54a3cdce50e009a722947edc3a308759bb9451541f3818e9e72c347db6d99490127a1f5ccc55bc133d6bc5edbcb6cecb4ebabc674232e4ceee4b64"
 
 RPROVIDES:${PN} += "libpangomm-1-4-1 \
 libpangomm-1.4.so.1"

@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.20.0"
 
-RPM_NAME = "gedit-plugin-latex-3.20.0-4.16.aarch64.rpm"
-RPM_HASH = "61e9bbe57b8b40df3a963b59a0b17fbfef9db862f664e75ec884fc9784077dee03623b02c08669853f16d799836f26fc437811b11f10197932cb8f73d3ac5084"
+RPM_NAME = "gedit-plugin-latex-3.20.0-4.17.aarch64.rpm"
+RPM_HASH = "f0dce3993414b61d5a1d1d1428bbd2976761a639bf226ce281734095278a6dd9cdd2af6dfad101ee7ab190b1d85611ab61af87ca7abea33cd2163852f1ed547e"
 
 RPROVIDES:${PN} += "gedit-latex \
 gedit-plugin-latex"

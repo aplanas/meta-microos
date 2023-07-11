@@ -5,11 +5,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.5.1"
 
-RPM_NAME = "python311-tasklib-2.5.1-1.3.noarch.rpm"
-RPM_HASH = "461e3a50866c6839ff3da4c7fe4ab142bb436291189e5eb1f112c1f28bf06830fab712724a65cb5c225931a75b80ebf5a0c9ff78e68d69a3a7d7ad5b721eca18"
+RPM_NAME = "python311-tasklib-2.5.1-1.5.noarch.rpm"
+RPM_HASH = "abc50624ba1cb466a667db04c97bb53e22aa757e4842042b2c6fab3a38c555b64a7c620b811074ecaed42b65aa761f1d7aaad8806d60ac12b25bbf8127636a50"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-tasklib \
+RPROVIDES:${PN} += "python3-tasklib \
+python3.11dist-tasklib \
 python311-tasklib \
 python3dist-tasklib"
 

@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.3.12"
 
-RPM_NAME = "dblatex-doc-0.3.12-1.9.noarch.rpm"
-RPM_HASH = "bed3cab9459454b600664aa523ef57339e702eaf75f6b969f0239e8c11ef5f90e961176bf64ee2f477372837cc6210b2ef6d2b4e66d2d48fb8b8b546b749597f"
+RPM_NAME = "dblatex-doc-0.3.12-1.10.noarch.rpm"
+RPM_HASH = "de0530e4a55421fba80fcdbd9cd73435a1ac4e0c25af70a2e6d1b8b2c1375499db9114969c6e71cf6934121a5bd27dabf84c4d4b41fefcd0aac8e77b1fd7759b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dblatex-doc"

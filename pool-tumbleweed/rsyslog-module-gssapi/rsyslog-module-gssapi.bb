@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0 & GPL-3.0-or-later"
 
 PV = "8.2212.0"
 
-RPM_NAME = "rsyslog-module-gssapi-8.2212.0-2.4.aarch64.rpm"
-RPM_HASH = "008cf313faf119af44a8ac101f3e0bcdf691b695d0d337763b9646ea68a8939a89e079840e7d076b90f5e6ec2ab5521b2cbbe04036f4daf46373157ee333d864"
+RPM_NAME = "rsyslog-module-gssapi-8.2212.0-2.5.aarch64.rpm"
+RPM_HASH = "b3ad94d2fca1a9b9f19b0d8bb2343d48faee76aefd6654ada21218b58172c5e0e0b8043653ab52fc47b6427d4ac0c391114487a212eb00f1c63fb65726317de3"
 
 RPROVIDES:${PN} += "rsyslog-module-gssapi"
 

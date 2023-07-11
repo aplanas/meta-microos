@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2"
 
-RPM_NAME = "libnet-doc-1.2-3.8.aarch64.rpm"
-RPM_HASH = "636e73e34ddc56ce42af5e2b15a09b97b67f9cf1adf8eda1ddecf94fd2c298ee6d867e8a251265d8e598ca4b9a2bc186e884ecea5778dc60b3ba30a053a9b22c"
+RPM_NAME = "libnet-doc-1.2-3.9.aarch64.rpm"
+RPM_HASH = "71814a8f70840b7f87e953004c30fb06c99d60a54d23912ad7c8be93eaddd768ffd6baae09ce13d715d34e4d92854eef5a5e149662618552f26d26631dbb537d"
 
 RPROVIDES:${PN} += "libnet-doc"
 

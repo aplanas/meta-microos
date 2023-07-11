@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.20.5"
 
-RPM_NAME = "libsecret-lang-0.20.5-1.7.noarch.rpm"
-RPM_HASH = "2287a2196d5982186e78765a77e9723ded520ab4a4758069fec36bea7fb4179341d45f2fddaa54db5fdfaf2c20b34302a796d4d1d4fdb710e943dc4cac7674c4"
+RPM_NAME = "libsecret-lang-0.20.5-1.8.noarch.rpm"
+RPM_HASH = "d5f7be4595306912f7aebb3b90a1aee8ba13d4c286e2c477c971425f67f2876a08ca7c17784240bafd119542bee2e4455ce7702df7f3ab18f0e8b7ca6d4f51e6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libsecret-lang \

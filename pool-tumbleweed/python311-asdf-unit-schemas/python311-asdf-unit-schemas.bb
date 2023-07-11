@@ -4,11 +4,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.0"
 
-RPM_NAME = "python311-asdf-unit-schemas-0.1.0-1.1.noarch.rpm"
-RPM_HASH = "42b0847392f16fff7cf9b29bf24e70d63a11666089b6d73f38d6dd7b60f8bff537c3aedd649bc235dca6bb2dbc7a9a35c35b11a0aa55a36fdb2c3a6cf06d0199"
+RPM_NAME = "python311-asdf-unit-schemas-0.1.0-1.3.noarch.rpm"
+RPM_HASH = "e8ef08c35f034a9b9d6c58caba785085bbda7fe0fb82915396b9dce3f4192a10ed252fac57a89323e70382a7fb6281db2ecb581b06744a8a92e54068cd2a5287"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-asdf-unit-schemas \
+RPROVIDES:${PN} += "python3-asdf-unit-schemas \
+python3.11dist-asdf-unit-schemas \
 python311-asdf-unit-schemas \
 python3dist-asdf-unit-schemas"
 

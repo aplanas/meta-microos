@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.50.14"
 
-RPM_NAME = "typelib-1_0-Pango-1_0-1.50.14-1.3.aarch64.rpm"
-RPM_HASH = "0bfd0f087e60a3fc49f032779e1b402fbf354b15c06c7dacabefbf125942df129699ab9ad4a8be0d4c66f9ac65571caaeb4d5421c399f73ee0496c99a34daee5"
+RPM_NAME = "typelib-1_0-Pango-1_0-1.50.14-1.4.aarch64.rpm"
+RPM_HASH = "4a72bc27f7c8b12ac90b1005f51fd8fbdbbd68d4d7d409ce4d60ab785087dc771f542ed20cdfb4cbf334d4cf3ddd488941125334fcc3a14939910d27db5565d5"
 
 RPROVIDES:${PN} += "typelib-1-0-Pango-1-0 \
 typelib-Pango \

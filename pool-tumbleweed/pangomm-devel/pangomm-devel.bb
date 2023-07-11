@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.50.1"
 
-RPM_NAME = "pangomm-devel-2.50.1-1.3.aarch64.rpm"
-RPM_HASH = "f4787eb86b1db95c204cf00d40f178c546fa475ece0d72e21c2651b1de6cefe0b48d976affcc6fd4781685c07ffb69f32e2da7cd590fb5affa0a14691c189951"
+RPM_NAME = "pangomm-devel-2.50.1-1.4.aarch64.rpm"
+RPM_HASH = "897ce9f8c348e1813f7d47829bfa2e059dc0e0016ab1b4b4a8d6bd9477faa51b17003e8f7a966fb115243cb0530b8d6224cff91dcaf8929a5c6a407bf8caab2b"
 
 RPROVIDES:${PN} += "pangomm-devel \
 pkgconfig-pangomm-2.48"

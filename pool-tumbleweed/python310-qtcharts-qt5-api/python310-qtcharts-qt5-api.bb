@@ -4,11 +4,10 @@ LICENSE = "GPL-3.0-only"
 
 PV = "5.15.6"
 
-RPM_NAME = "python310-qtcharts-qt5-api-5.15.6-1.12.aarch64.rpm"
-RPM_HASH = "ea8a24e6e6c5ca3175d1c9fbb3d29ec811d53e529b09815428402bbc58c414de539becf4b7fea5ca811ded4fce1f4e7483dcdeead8d9e59cf464af0447fac6b7"
+RPM_NAME = "python310-qtcharts-qt5-api-5.15.6-1.14.aarch64.rpm"
+RPM_HASH = "d26dbe4bd74d11c045404419de1d8cf72601d14c5c3415abb42399501a6db2a95a17469b03f3d2135f865b811bcedf9fe4ef8a91363e2ad99046024c9ff9c169"
 
-RPROVIDES:${PN} += "python3-qtcharts-qt5-api \
-python310-qtcharts-qt5-api"
+RPROVIDES:${PN} += "python310-qtcharts-qt5-api"
 
 RDEPENDS:${PN} += ""
 

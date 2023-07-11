@@ -5,10 +5,10 @@ within bold text as well as capital Greek letters. It also adds \
 some related macros."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.01svn49547"
+PV = "2023.208.1.01svn49547"
 
-RPM_NAME = "texlive-mathfixs-2023.201.1.01svn49547-52.1.noarch.rpm"
-RPM_HASH = "87eed07a8d91992d1c379ca7a56cd6ec33e376d71e1d22c55c140aa72362ac21d3af2e25c000dc7d11c5d7c03e75da9f4dc746886cf04d8baca6866b747f9ddd"
+RPM_NAME = "texlive-mathfixs-2023.208.1.01svn49547-53.1.noarch.rpm"
+RPM_HASH = "7b4eb49bba7a336a7444092e49d8a4b3e1126b23d25809c3c62ade31473b129906db4df80b7c23e8bb8e40f7847dd06f158baee9d6410e541d160cbd4541a20b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mathfixs.sty \

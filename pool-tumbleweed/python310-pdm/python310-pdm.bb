@@ -4,14 +4,13 @@ installs and manages packages in a similar way to npm that \
 doesn't need to create a virtualenv at all!"
 LICENSE = "MIT"
 
-PV = "2.4.9"
+PV = "2.7.4"
 
-RPM_NAME = "python310-pdm-2.4.9-2.1.noarch.rpm"
-RPM_HASH = "61b2e1de9a003e2e46aff22287d0db1a75f2793e2fda8f44c60546e05c7da6e6dbf4e096b82cef3988566dcc65bbbf86b6c242d156147b22f30967f063384417"
+RPM_NAME = "python310-pdm-2.7.4-1.1.noarch.rpm"
+RPM_HASH = "73c3a9d130224d11fc54633b9dc0ceea4c8c929edfc29dca84038e41da8423f982c0787f46a7832d6c8b851524f48594e43d684e26290385f6f44030e67626be"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pdm \
-python3.10dist-pdm \
+RPROVIDES:${PN} += "python3.10dist-pdm \
 python310-pdm \
 python3dist-pdm"
 
@@ -27,6 +26,7 @@ python310-findpython \
 python310-installer \
 python310-lockfile \
 python310-packaging \
+python310-pdm-backend \
 python310-platformdirs \
 python310-pyproject-hooks \
 python310-python-dotenv \

@@ -10,11 +10,12 @@ LICENSE = "MIT"
 
 PV = "21.2.0"
 
-RPM_NAME = "python311-ldaptor-21.2.0-2.8.noarch.rpm"
-RPM_HASH = "834a696dafac144e30a7e9428b03b2cf486e078f1778d8ca1a937e91f4944919ccc41c56fe025d5d0e02818b4b2a4423286d4cda225824ed79e3134b0b3aaf26"
+RPM_NAME = "python311-ldaptor-21.2.0-3.3.noarch.rpm"
+RPM_HASH = "e39ad069585346d3c120768098fe6feb3f3361140983cb14332129b982dce2bc2ce6b71967ba107d3ec7d8fc1e8e0b4b0eef06faf95d8db8f24bede706e30160"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-ldaptor \
+RPROVIDES:${PN} += "python3-ldaptor \
+python3.11dist-ldaptor \
 python311-ldaptor \
 python3dist-ldaptor"
 

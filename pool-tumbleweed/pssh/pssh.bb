@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.3.4+git10.d4909c9"
 
-RPM_NAME = "pssh-2.3.4+git10.d4909c9-3.5.noarch.rpm"
-RPM_HASH = "e844e08cf0eb2a5a3a5f901d9dce5de1390eca680c7e02c3ceb53d113451bb8f2cbf59512a9f222f121be37848eb4d66ca8a818e9977256cdd2cd4f55a4ead81"
+RPM_NAME = "pssh-2.3.4+git10.d4909c9-3.6.noarch.rpm"
+RPM_HASH = "9840752e87594979b2e2cbe9c70f0ff892d1dc8a32b90f4d6cbbfecb8d8a5a9363d45b16629359122900c4c89fbe61aaf1902b7dcf857243f6a2c680533d3bce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pssh"

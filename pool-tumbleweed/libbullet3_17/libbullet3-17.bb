@@ -4,8 +4,8 @@ LICENSE = "Zlib"
 
 PV = "3.17"
 
-RPM_NAME = "libbullet3_17-3.17-1.9.aarch64.rpm"
-RPM_HASH = "049bee5f7222f6f1b818c5d2c2056e394b1ba7e54cb795184d80c5b8a838ad15ff69d110e9978ae0d97efd2a43908ed500141a49166ffef36a7481d8e850a349"
+RPM_NAME = "libbullet3_17-3.17-1.10.aarch64.rpm"
+RPM_HASH = "d7e3d4173ec95cc2a9a8d9a966efa58983cca9c3bc893a56df9910edd187852ec61cca5e026c1e15fdb35f1fa64214a0449cc7e8cca50d8b9d4aef688bd7f45c"
 
 RPROVIDES:${PN} += "libBullet2FileLoader.so.3.17 \
 libBullet3Collision.so.3.17 \

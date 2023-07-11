@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.14.6"
 
-RPM_NAME = "jline-javadoc-2.14.6-5.4.noarch.rpm"
-RPM_HASH = "b841365aa8c9a119d9ae16041be6d56fad55f009b9265e2dac34a08c24762d65c4ec3c8d929171ccbab8cdb1100eced577a8a648ac844656884a6721daf7cafe"
+RPM_NAME = "jline-javadoc-2.14.6-5.5.noarch.rpm"
+RPM_HASH = "488f623bc5b018179544f648414a17a76493b60b58c4d1cf94edf770c5a12b301c4ed6e29db0bcbd987427f85c7ac6606553c2a8311d2feb6e550e2fdd42c199"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jline-javadoc"

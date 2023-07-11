@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-or-later"
 
 PV = "1.5.1615+0"
 
-RPM_NAME = "psi+-plugins-conferenceloggerplugin-1.5.1615+0-3.1.aarch64.rpm"
-RPM_HASH = "b2bf7d932dad672f31ded4bab189e70fa95bf3ee8750d860f25f849e9f6b8d417ab2fe81e6cd7c22458cab38aab9fc28c226403098602e308d002c933a2da794"
+RPM_NAME = "psi+-plugins-conferenceloggerplugin-1.5.1615+0-3.2.aarch64.rpm"
+RPM_HASH = "5800fc54f61276320564eb585acb0401e821fbf635b16574d28b9b65d490f7026272f05d946b545c89ee9feb624f781fc5ad53aa7a04a2fb2c4381d17eb164c5"
 
 RPROVIDES:${PN} += "libconferenceloggerplugin.so \
 psi+-plugins-conferenceloggerplugin"

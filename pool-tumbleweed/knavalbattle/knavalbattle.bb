@@ -4,10 +4,10 @@ you have to try to sink the opponents ships. The game can also be \
 played with friends online via the internet."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "knavalbattle-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "2f100a9b5155405243102abb0b29c1333e8af79bb248a80b0b209659c50a4f1a8cd2f4229370c679be2828b27b5ba552ffcbff6cbbbd2e9ea3cb1e1c1ef84428"
+RPM_NAME = "knavalbattle-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "828b7665c3e62f7faf9b1db864ba00df9b6ca14117b079f715a4164155fe0a99da09adf692eba03e4342b56c9a4e9af4a502be4af296eab94c12c50cf19a6b01"
 
 RPROVIDES:${PN} += "knavalbattle \
 knavalbattle5"

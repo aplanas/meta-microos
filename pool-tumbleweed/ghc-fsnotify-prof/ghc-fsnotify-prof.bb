@@ -4,11 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.1.0"
 
-RPM_NAME = "ghc-fsnotify-prof-0.4.1.0-2.3.aarch64.rpm"
-RPM_HASH = "768f5120803ca4909993a02710fb3049d2b5348c54e3e8f8631edfc82f8cd6a067b16de11b4682434672b3001ca9ad1782bb4549910cd72c96c3e04261694b15"
+RPM_NAME = "ghc-fsnotify-prof-0.4.1.0-2.7.aarch64.rpm"
+RPM_HASH = "7ffa49f2afe2a83d064751a289eefd91e8918324393e966007a4594872a1c4c7ee48c499ca46f351f2686cabd8d841dd4c1797229d9e45c7fa8212c90cf99720"
 
 RPROVIDES:${PN} += "ghc-fsnotify-prof \
-ghc-prof-fsnotify-0.4.1.0-2wEvt7wcuNwGNHTpTKKSuK"
+ghc-prof-fsnotify-0.4.1.0-J4WSFHZY5VQ2Gkw2wp8qhw"
 
 RDEPENDS:${PN} += "ghc-fsnotify-devel \
 ghc-prof-async-2.2.4-Is3H7ZPNMkM5reIoCaqYrF \
@@ -19,7 +19,7 @@ ghc-prof-directory-1.3.7.1 \
 ghc-prof-filepath-1.4.2.2 \
 ghc-prof-hinotify-0.4.1-8EvWCUqnZLR2V2Cj5bSrk3 \
 ghc-prof-monad-control-1.0.3.1-YXA6op7GEFFtfFxLr4pzX \
-ghc-prof-safe-exceptions-0.1.7.3-4ydW60ruqZ4IdMpKf3b6BD \
+ghc-prof-safe-exceptions-0.1.7.4-8XVKrMBchTjCLhdcvBwBNb \
 ghc-prof-text-2.0.2 \
 ghc-prof-time-1.12.2 \
 ghc-prof-unix-2.7.3 \

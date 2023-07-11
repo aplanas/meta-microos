@@ -2,10 +2,10 @@ SUMMARY = "XPS document support for Evince"
 DESCRIPTION = "A plugin for Evince to read XPS documents."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.1"
+PV = "44.3"
 
-RPM_NAME = "evince-plugin-xpsdocument-44.1-1.1.aarch64.rpm"
-RPM_HASH = "8c8a5ed5c10b273bbc9ba3de81042b719416286b7e89965c6214b90c05768647448be3f004fbaee9422d996b8fea1c16dfc10d4cd45ca27f44221053bac657a0"
+RPM_NAME = "evince-plugin-xpsdocument-44.3-1.1.aarch64.rpm"
+RPM_HASH = "06c89ae1a704fe8cde93293d332114d3e11d8e8a85496b9babcba31575d9fc15827cac7077e09dd200d722482c3f6c74fd621465aeade3bdea1664da59f85469"
 
 RPROVIDES:${PN} += "evince-plugin-xpsdocument \
 libxpsdocument.so"

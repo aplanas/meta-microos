@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "1.0.99.20140916"
 
-RPM_NAME = "input-pad-eek-1.0.99.20140916-5.9.aarch64.rpm"
-RPM_HASH = "10b36350bbe863a73b09493da462d734e1b68ea5a191e6e02a18fe8e186ddb2e2a70bd52ce87431f176cf13283622bd2cf6102370231369bb98331b9e80e5b20"
+RPM_NAME = "input-pad-eek-1.0.99.20140916-5.10.aarch64.rpm"
+RPM_HASH = "9cba19add40a9caa91be716aed6afd69e730c95861ba166a8eeddd93f30979b24e9de3486de7cc1b54b00c0dbc706f704b27f2e35192d5aa69ea563f1a0fc4e2"
 
 RPROVIDES:${PN} += "input-pad-eek \
 libinput-pad-eek-gtk.so"

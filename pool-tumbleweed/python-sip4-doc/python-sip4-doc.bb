@@ -10,12 +10,13 @@ LICENSE = "GPL-2.0-only | GPL-3.0-only | SUSE-SIP"
 
 PV = "4.19.25"
 
-RPM_NAME = "python-sip4-doc-4.19.25-6.5.noarch.rpm"
-RPM_HASH = "44c21a1f8f6d0256f8609f586ac7580bbf599857ebb7446dd3e2392f5813737a60f6350cdcc4b1f0549d3efcb3959b23f537a02202010dd655d8cb41e82bdab3"
+RPM_NAME = "python-sip4-doc-4.19.25-7.1.noarch.rpm"
+RPM_HASH = "2937a66ba6a894fb6493b4da985d43ca2769471bb92bbba140c95e0e528052e7b4ec0758b65b7ef4310fefd8bf854f06ea96b92e0f6e35e889c2a7c61208cafd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-sip4-doc \
 python310-sip4-doc \
+python311-sip4-doc \
 python39-sip4-doc"
 
 RDEPENDS:${PN} += ""

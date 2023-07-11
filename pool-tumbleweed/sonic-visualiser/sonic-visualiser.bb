@@ -29,10 +29,10 @@ With Sonic Visualiser you can: \
   Control (OSC) protocol"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.5"
+PV = "4.5.2"
 
-RPM_NAME = "sonic-visualiser-4.5-2.6.aarch64.rpm"
-RPM_HASH = "421ed9d01a6c3f86cdc0a1f64848be7a03a7ee1c08eaa8cce69ba2ccf447a372c699c57f2e6ce2c4df3fbff8a64d2cad6b9c1e8948dbf911ee48a7b508be64af"
+RPM_NAME = "sonic-visualiser-4.5.2-1.1.aarch64.rpm"
+RPM_HASH = "bc73fa8e1908b86146f8f5109dcad396fac7b2b941b9de4c2de973e3e602a7f06e59eac1d0bb5f35107088000ecda734a1a883f7b42840397dc6d2c69643ad6a"
 
 RPROVIDES:${PN} += "sonic-visualiser"
 
@@ -68,6 +68,7 @@ libsamplerate.so.0 \
 libserd-0.so.0 \
 libsndfile.so.1 \
 libsord-0.so.0 \
-libstdc++.so.6"
+libstdc++.so.6 \
+libvamp-hostsdk.so.3"
 
 inherit rpm

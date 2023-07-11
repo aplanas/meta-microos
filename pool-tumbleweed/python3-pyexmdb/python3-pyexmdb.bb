@@ -7,8 +7,8 @@ LICENSE = "AGPL-3.0-or-later"
 
 PV = "1.10.4.b7a36f2"
 
-RPM_NAME = "python3-pyexmdb-1.10.4.b7a36f2-1.1.aarch64.rpm"
-RPM_HASH = "766d2de6a21fd3e2691da58731d16dc4770f5be968bf0a35cf27ae504fddac2c27a74806486de4e130cacec6fcb17c5acc44fc419b1ba50a29e67118c66d70f7"
+RPM_NAME = "python3-pyexmdb-1.10.4.b7a36f2-1.2.aarch64.rpm"
+RPM_HASH = "ee0ff0d428bd2190f8f32082ac3799408535407e47d8ba79e45dda666c61c7107ad714cb8ea62c47001d0f8d0403d412c8b18d2a6683acdcfedda9fecd0a9ccb"
 
 RPROVIDES:${PN} += "python3-pyexmdb"
 

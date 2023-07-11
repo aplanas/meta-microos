@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-only & LGPL-2.1-or-later"
 
 PV = "1.3.1"
 
-RPM_NAME = "libgtk-vnc-2_0-0-1.3.1-1.5.aarch64.rpm"
-RPM_HASH = "ec2be93be2bfd34fdce2b492da019e187a310d7e6cb97d8db5b9de720b8f0d6648e782fc3c07e188c06289eea5c43eb9ffcf1fced3b9bb4855f920e882d92682"
+RPM_NAME = "libgtk-vnc-2_0-0-1.3.1-1.6.aarch64.rpm"
+RPM_HASH = "6b2cc51e696233643e9d826ea16c51eb73c55690f8148f6941ab2cc5fb93519e0ce2cbd2a563c83445427a0e664dacd7ed5611957e5f9649f0a50dca5911e731"
 
 RPROVIDES:${PN} += "gtk-vnc \
 libgtk-vnc-2-0-0 \

@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "9.24.61"
 
-RPM_NAME = "dracut-kiwi-overlay-9.24.61-1.1.aarch64.rpm"
-RPM_HASH = "b7b956bed048d5919119059e42598554ea86391d87377b3d978e6c15be8a6a82b909b583fdd750e243595d5012980a4f19640182f0a12fa21f2da9b7b2c472c0"
+RPM_NAME = "dracut-kiwi-overlay-9.24.61-1.2.aarch64.rpm"
+RPM_HASH = "cbc4971a673618842c234d1bb155211afbb5953bf3a7a62b460b0c30a12b10aa2b1074f0ca896283d7acee49e384b44ddfbfac90f9bb31a074183efed6a3ffd1"
 
 RPROVIDES:${PN} += "dracut-kiwi-overlay"
 

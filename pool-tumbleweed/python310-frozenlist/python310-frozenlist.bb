@@ -4,11 +4,10 @@ LICENSE = "Apache-2.0"
 
 PV = "1.3.3"
 
-RPM_NAME = "python310-frozenlist-1.3.3-2.1.aarch64.rpm"
-RPM_HASH = "7ac08a545af43acd17d9af5b9b7f6adb8842d219d6f340c4ffd3eae00b3337e05269b603589d048ac93fe16f0cfc5f1d1ba7d286e17eec6d2982dd21955c8747"
+RPM_NAME = "python310-frozenlist-1.3.3-2.3.aarch64.rpm"
+RPM_HASH = "1207a5928b8f1da5b3f2b4ed031db5fa21aa356c69bff1b4201395eae21a592e943d85e4295179d5a5b7d461780b8bbd71f6cfd9743d382e696c6e9eda42555b"
 
-RPROVIDES:${PN} += "python3-frozenlist \
-python3.10dist-frozenlist \
+RPROVIDES:${PN} += "python3.10dist-frozenlist \
 python310-frozenlist \
 python3dist-frozenlist"
 

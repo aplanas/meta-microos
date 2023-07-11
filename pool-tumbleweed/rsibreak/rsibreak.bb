@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.12.15"
 
-RPM_NAME = "rsibreak-0.12.15-1.4.aarch64.rpm"
-RPM_HASH = "42b32da48dc04ca82fc659a275e73c5e1a4962558118f8a9280011e50852c5769303b01d96c7e33adfc828aeb778927ceb26d5de7f4fb34400acf30b18c598ee"
+RPM_NAME = "rsibreak-0.12.15-1.5.aarch64.rpm"
+RPM_HASH = "1b8a3c06fd4d5cbd1fbffa3f6919a98a07187199f3ef036751b0d1eaced7cf6be63287256067ba47b5cc4bdc35f0c023c46f71db3ea6b84add5d13bba4d2de75"
 
 RPROVIDES:${PN} += "kde4-rsibreak \
 rsibreak"

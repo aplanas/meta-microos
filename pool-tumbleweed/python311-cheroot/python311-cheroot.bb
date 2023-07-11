@@ -4,11 +4,13 @@ LICENSE = "BSD-3-Clause"
 
 PV = "9.0.0"
 
-RPM_NAME = "python311-cheroot-9.0.0-3.1.noarch.rpm"
-RPM_HASH = "d097a56df76275204acb1c45b9b7cc9404df8ca4a1a2bc07864cf7a8b42f7add68d3d06a98243c9e9ee51fda7096cb93132f91c26560ae482dbfb7b7fa0bae6d"
+RPM_NAME = "python311-cheroot-9.0.0-4.3.noarch.rpm"
+RPM_HASH = "c030d6105f1a86d04227ed3fc0ade5efc61f2dbff0c1b00d6aa78ea6262391c3b1afe05ba23b75ff3aaacff541065c3a08de3f6b9b7fbd160aa27a0aec6f6189"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-cheroot \
+RPROVIDES:${PN} += "python3-Cheroot \
+python3-cheroot \
+python3.11dist-cheroot \
 python311-Cheroot \
 python311-cheroot \
 python3dist-cheroot"

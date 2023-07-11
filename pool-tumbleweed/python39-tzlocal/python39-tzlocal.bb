@@ -17,8 +17,8 @@ LICENSE = "MIT"
 
 PV = "4.3"
 
-RPM_NAME = "python39-tzlocal-4.3-1.1.noarch.rpm"
-RPM_HASH = "f2adb2a1ebeb1571e9dd07d1ec1384a80b2538c4ed65b6a70a301bd4f2f456cc4ce06e07e9cf496f78db1a87a3b9d50f0bc1da0e72b70f8208f6abe7c1714bf4"
+RPM_NAME = "python39-tzlocal-4.3-1.3.noarch.rpm"
+RPM_HASH = "e4c900ef5831769c44acdb73528d3f22c7d444581b91426886e0d221b6bb46a0cb36c11cf6c3420e33e7a1e3145f025d7e97f636d9297abd18b3c3820ead6272"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-tzlocal \

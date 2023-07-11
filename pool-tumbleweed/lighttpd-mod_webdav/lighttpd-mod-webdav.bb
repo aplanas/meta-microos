@@ -16,8 +16,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.71"
 
-RPM_NAME = "lighttpd-mod_webdav-1.4.71-1.1.aarch64.rpm"
-RPM_HASH = "52d664b01f58c4764ff6b7a99a7c5dfbb9e8f14b48ee51e381fd7c29692e79220fd467aa0608487b249df404cc9046b705841a10e526c8e5d70cfa1005b85b4f"
+RPM_NAME = "lighttpd-mod_webdav-1.4.71-1.2.aarch64.rpm"
+RPM_HASH = "c30291862da0101fcd42e30f159ca868887022e0135a600fca24969d1afc9f195abee69fccc6b17a2d1cd2311c8c8f1b0442dd8e8594e8fe4cadb3b07ea19569"
 
 RPROVIDES:${PN} += "config-lighttpd-mod-webdav \
 lighttpd-mod-webdav"

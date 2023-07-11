@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.15.1b"
 
-RPM_NAME = "libmad-devel-0.15.1b-6.2.aarch64.rpm"
-RPM_HASH = "3cbb19db41591f09532d07c51ee8c5bb8a71d8a90565241effb51887543ae1cffc66a793e9f2014319037a3680d503a6be2ac5433c7544c546063fdcf5a0e0c4"
+RPM_NAME = "libmad-devel-0.15.1b-6.3.aarch64.rpm"
+RPM_HASH = "e953ecfc91ae351b11d7c4e10c9dfb3a36ab288db026d3a967d9212668fb91a304cbae9176a4866d4014683225fd30b00a186aacbf9e3a39ee847747c5777872"
 
 RPROVIDES:${PN} += "libmad-devel \
 mad-devel \

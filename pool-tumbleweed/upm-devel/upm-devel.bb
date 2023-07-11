@@ -15,8 +15,8 @@ LICENSE = "MIT"
 
 PV = "2.0.0"
 
-RPM_NAME = "upm-devel-2.0.0-4.1.aarch64.rpm"
-RPM_HASH = "0f082fc14c68cc332a1e842f86f81376a0042b2a8f9f47cf89e9329318b480506e98a323090ca9f06de98644319b1bed4431c757d77346be915fa26b73e5e44a"
+RPM_NAME = "upm-devel-2.0.0-4.2.aarch64.rpm"
+RPM_HASH = "19299e2dbe44d4658ddaa65d7f2b311fa29e603c739329e5766802d2e3bac195fb4f003ac9d3aa543fa37de4b9d2f5b61452ac20071cc6b44332ab2a73dabed5"
 
 RPROVIDES:${PN} += "pkgconfig-upm-2jciebu01-usb \
 pkgconfig-upm-a110x \

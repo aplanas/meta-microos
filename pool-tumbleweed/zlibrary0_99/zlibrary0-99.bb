@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "0.99.4"
 
-RPM_NAME = "zlibrary0_99-0.99.4-3.27.aarch64.rpm"
-RPM_HASH = "b99690b8268bfa7c121fed63e93b826812748ffabfabf15fd8620660f7773eaaea04645bbd74b0b68acbc7ef323f0742f586c4f3c5b84d198be20ad5dfd33b79"
+RPM_NAME = "zlibrary0_99-0.99.4-3.28.aarch64.rpm"
+RPM_HASH = "df58e4acc40ecc4c84a1f64eac918102ef00a3e04380023b0f6380480e864b9e3d38c284b58762161ad948c84b41cad40cf04eb2c010ac1510e162dc4f11254c"
 
 RPROVIDES:${PN} += "libzlcore.so.0.99 \
 libzltext.so.0.99 \

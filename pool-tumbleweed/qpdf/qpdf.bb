@@ -13,10 +13,10 @@ from other PDF files or to inspect or extract information from \
 existing PDF files."
 LICENSE = "Apache-2.0"
 
-PV = "11.3.0"
+PV = "11.4.0"
 
-RPM_NAME = "qpdf-11.3.0-1.3.aarch64.rpm"
-RPM_HASH = "8756f8f21a4fe3764977c8b97c70a0eb08bbbed2382fa5c8042e88ac89de883665d8c1cbd80638c69678f04af02feae692bb867e2c5e615826d1e6d84f50d058"
+RPM_NAME = "qpdf-11.4.0-1.1.aarch64.rpm"
+RPM_HASH = "76bc6725b0376ae1667459fece98768645e36ab2c1e2569da82e5471394a6fb87533145a4dc29e59d3b5b0a1babc71e05e776725dc23c5fa446ab1a88c08452c"
 
 RPROVIDES:${PN} += "qpdf"
 

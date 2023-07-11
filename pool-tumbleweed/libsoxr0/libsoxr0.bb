@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.1.3"
 
-RPM_NAME = "libsoxr0-0.1.3-2.15.aarch64.rpm"
-RPM_HASH = "ed6feddfc874fdc18afdb046d3dbe4357edf69318a1cd7b89c610db68907543ce2b9a10e91ada3d8b2d0c75ec60b0081ae629f7d8041496be601afb8e636ea6f"
+RPM_NAME = "libsoxr0-0.1.3-2.16.aarch64.rpm"
+RPM_HASH = "e3977bc02ac47655d01c225493f591f2eefd97a9d5316e979df819c2447d565c40a9ddda35624ae6d852041b4d3df8b2daa33e19a28f46c7b3e25d25e1b6786e"
 
 RPROVIDES:${PN} += "libsoxr.so.0 \
 libsoxr0"

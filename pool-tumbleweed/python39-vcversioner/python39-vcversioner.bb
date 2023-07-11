@@ -6,8 +6,8 @@ LICENSE = "ISC"
 
 PV = "2.16.0.0"
 
-RPM_NAME = "python39-vcversioner-2.16.0.0-4.8.noarch.rpm"
-RPM_HASH = "20c05dc3f6272eb54bf38c0e0fcde11403de28b986a6bfb8e76a97996b16dad244751672bf4fabb5aca166db21b88cbcec1e03f0dceb4a98796a357af283def5"
+RPM_NAME = "python39-vcversioner-2.16.0.0-4.10.noarch.rpm"
+RPM_HASH = "9f26f64d02e79d7d53a03481c12c40d778293d686536ce292739668060ecd1b5f0b9264baf2fdb54a0bc342a705355791045b8d76631f54dccb35cb7cb1f8ea9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-vcversioner \

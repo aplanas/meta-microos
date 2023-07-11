@@ -5,8 +5,8 @@ LICENSE = "CECILL-C"
 
 PV = "6.1.0"
 
-RPM_NAME = "libptscotch0-openmpi2-6.1.0-2.9.aarch64.rpm"
-RPM_HASH = "e18c5aa59f4063eb4a3fe5329ba0e7570dd1012899b6278279b0632fee6ccd0228126a024c634be65f92b05ab1764f731e2819272f129fe072cc275866ddb4a5"
+RPM_NAME = "libptscotch0-openmpi2-6.1.0-2.10.aarch64.rpm"
+RPM_HASH = "ac3b074e0a1f7d9b21ab46629a566e4439d518efe7e4775aea9bbeb7c3c6b5b3cc357461332cfa3205d018ece683e72d67217c31065ce193c551427142da2765"
 
 RPROVIDES:${PN} += "libptesmumps.so.0 \
 libptscotch.so.0 \

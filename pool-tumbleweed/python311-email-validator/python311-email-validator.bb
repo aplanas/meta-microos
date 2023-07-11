@@ -16,11 +16,12 @@ LICENSE = "CC0-1.0"
 
 PV = "2.0.0"
 
-RPM_NAME = "python311-email-validator-2.0.0-1.1.noarch.rpm"
-RPM_HASH = "18228cbe8d86cf4316b2b1be9f3e5b418fa1167175d6657c2e76b99d280a331eb70eecd033f8e7907dde93bbd07e038679984fdb6b6abc6254b0e8114d4ede87"
+RPM_NAME = "python311-email-validator-2.0.0-1.3.noarch.rpm"
+RPM_HASH = "37b74969f77138a13e1e465b487fca56887b5a7d8de05d42ab9f37690359e7bd6756c10837212d3122cce19078f6781ec28df7db7b3819d9b08bf91bb61b643f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-email-validator \
+RPROVIDES:${PN} += "python3-email-validator \
+python3.11dist-email-validator \
 python311-email-validator \
 python3dist-email-validator"
 

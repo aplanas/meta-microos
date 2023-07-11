@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "5.0.4"
 
-RPM_NAME = "jopt-simple-javadoc-5.0.4-1.20.noarch.rpm"
-RPM_HASH = "2f6f6c0724d402c80fe45da8d9b011f9cb72227a5416bb273fbe691e38f2f9304d67e97345edbf53b3653f37fd5b8daa574166f40226ea6845f20e9c5a6c2f4e"
+RPM_NAME = "jopt-simple-javadoc-5.0.4-1.21.noarch.rpm"
+RPM_HASH = "1a38dd010fe1850031c528e021c137bb3ac3f1c0ee6d89137766eeae161750ef3292c3842a0e289cec30db397c8fffd6bb0f4435247e514ceb8644ea4d639f97"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jopt-simple-javadoc"

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package ktrip"
 DESCRIPTION = "Provides translations for the 'ktrip' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "ktrip-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "67338b5dd0ec82466970b7f755fb048a434d2ee368c18f62445377fc5bb28fca9ce51a1f46e21182c0db9ae03536e3b50434c240510b5f1e17acbc6e9df9f5d1"
+RPM_NAME = "ktrip-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "373dcaa7afc8293d7804b981d6e2b843159cf97fadb07f4c5004b8a26e00ccaf0aff72d9c3b558c061211b23265ae7431438bf40a5c91d4c5c1ad910b4be61fb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ktrip-lang \
@@ -19,6 +19,7 @@ locale-ktrip-es \
 locale-ktrip-et \
 locale-ktrip-fi \
 locale-ktrip-fr \
+locale-ktrip-gl \
 locale-ktrip-ia \
 locale-ktrip-it \
 locale-ktrip-ja \

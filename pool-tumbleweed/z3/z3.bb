@@ -5,10 +5,10 @@ fixed-size bit vectors, uninterpreted functions, extensional arrays, \
 quantifiers and model generation."
 LICENSE = "MIT"
 
-PV = "4.12.1"
+PV = "4.12.2"
 
-RPM_NAME = "z3-4.12.1-1.3.aarch64.rpm"
-RPM_HASH = "5719389a32333cd481f214ac861cb7c51a6ca032ae9894c0b7316362ee8037f290843c909184f58a891ab44fa099b0cea3548b5d6e1e704a711367f6dfbdf025"
+RPM_NAME = "z3-4.12.2-1.1.aarch64.rpm"
+RPM_HASH = "e05044d2969e112c659a7daad84069cd7a0187e99b3939c6ef70f2d3d99057e2d3e9aabef4c3b483138fea475499009e551360cd753325666a9a02b6d2f890ce"
 
 RPROVIDES:${PN} += "z3"
 

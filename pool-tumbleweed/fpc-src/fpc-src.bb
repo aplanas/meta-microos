@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.2.2"
 
-RPM_NAME = "fpc-src-3.2.2-3.9.aarch64.rpm"
-RPM_HASH = "fef54f860d3cf659cb6a2ffa450b5d9b45f23a4dd4fcd97f3dc1a1f2578afd53bf639f831f4416a9bf8a8694dca7b251440be68a3b0fe3770e866403fad8319b"
+RPM_NAME = "fpc-src-3.2.2-3.10.aarch64.rpm"
+RPM_HASH = "eccee3b7c6d6bf0a34032d7bfcbd024917b545a00d7c54e8cc553cdf9ebf36d294e61ad830d8ce993f991823cf57008c9be28d5f5e794d89572253611837fa12"
 
 RPROVIDES:${PN} += "fpc-src"
 

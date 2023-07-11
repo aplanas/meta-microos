@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.6.13"
 
-RPM_NAME = "ghc-uniplate-prof-1.6.13-4.3.aarch64.rpm"
-RPM_HASH = "de5fbeb371198005849dc552ea3022e7ee0a7365d93d185284e417b74a561fc32b039eed1ed1abb74b144c5a8a911940f8c439c624dd609baed8d2d6debe826c"
+RPM_NAME = "ghc-uniplate-prof-1.6.13-4.6.aarch64.rpm"
+RPM_HASH = "183a78ee97b313618d21ae735cf92afa2691f58b88e6c7d69de222bc9db205672230c139ec9f7085adf5516fadd9c0f84d69559c96854744911114f293cc33cb"
 
 RPROVIDES:${PN} += "ghc-prof-uniplate-1.6.13-3GboCmnxCZ4BmbYwVaL4sN \
 ghc-uniplate-prof"

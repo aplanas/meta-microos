@@ -10,8 +10,8 @@ LICENSE = "CC0-1.0"
 
 PV = "3.0.1"
 
-RPM_NAME = "python39-railroad-diagrams-3.0.1-1.1.noarch.rpm"
-RPM_HASH = "b68ffbc5bf5f38e76f2ea69d894e4c6f53ba6ed4b06f3bd4d649fb624a99aafa013cc410bd2baeda044690d18ee239178f72bef15ed67e8d96ca09d6446816f3"
+RPM_NAME = "python39-railroad-diagrams-3.0.1-1.3.noarch.rpm"
+RPM_HASH = "f9da558dee52a9ae8d8d4b1ed794d2cc45ebd11b91b6284663394a7189caaa8dc1aebccfe478dc51f3e334e2281568d8f5afbb142d7a11e6a2cac8b1696716aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-railroad-diagrams \

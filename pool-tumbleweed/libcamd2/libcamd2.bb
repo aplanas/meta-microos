@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.4.6"
 
-RPM_NAME = "libcamd2-2.4.6-49.1.aarch64.rpm"
-RPM_HASH = "ad2c7b9393c220998257343c97b7471a118d42f5a6e748d22a7b148b68c0d358ed351e066de19b44c9174f6d47e67dcd42eedcef5fe9af37b4edfaa67701a875"
+RPM_NAME = "libcamd2-2.4.6-49.2.aarch64.rpm"
+RPM_HASH = "f9a437d212379da4f6e63621070aca74d719f1d96c00060d06b873b64d3467bddeffe72bc4526642ccfd83913a2f38aa5d27c66f9825d9c0cf6d2ee68ca11ae0"
 
 RPROVIDES:${PN} += "libcamd-2-4-6 \
 libcamd.so.2 \

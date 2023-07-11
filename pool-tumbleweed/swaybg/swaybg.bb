@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.2.0"
 
-RPM_NAME = "swaybg-1.2.0-1.3.aarch64.rpm"
-RPM_HASH = "75378a66ee270c553e31bc6de2d03bba90f51e59d526aaecd6b29b75edf5f0e61d137b2e0daa4dddb8062631e10b78b236648a6ec0125a040b242b0a504b7c4a"
+RPM_NAME = "swaybg-1.2.0-1.4.aarch64.rpm"
+RPM_HASH = "b11a1f9a980ce0c2f39a40d57b81d302b0e23c6c34b45e7ff1b70d55a71380ea64719ddcedb4456a433e58d5435ebcf428172f77f02232bcdad4aba3b5abc675"
 
 RPROVIDES:${PN} += "swaybg"
 

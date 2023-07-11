@@ -3,10 +3,10 @@ DESCRIPTION = "D-Bus is a message bus system, these are some of the tools that g
 with it."
 LICENSE = "AFL-2.1 | GPL-2.0-or-later"
 
-PV = "1.14.6"
+PV = "1.14.8"
 
-RPM_NAME = "dbus-1-tools-1.14.6-2.3.aarch64.rpm"
-RPM_HASH = "32203fa4c9504443dc2ef174b59e059f16d978e13143a40f84b026022d99f71f0ec25ef9b5e133d5ccde93a5f37ab10ef6adf8a65fd8af33850d590c7ae335c9"
+RPM_NAME = "dbus-1-tools-1.14.8-1.1.aarch64.rpm"
+RPM_HASH = "f0a50bb741f13f65323d0f54455e384341032c3ebe9e34af8dae877679aaaed609b335cb0400627cb801ee06fd23ba510a2b27ab9d68f9f8dbc07d3e278e89bf"
 
 RPROVIDES:${PN} += "dbus-1-/usr/bin/dbus-monitor \
 dbus-1-tools"

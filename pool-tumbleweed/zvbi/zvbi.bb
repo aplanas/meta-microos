@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "0.2.41"
 
-RPM_NAME = "zvbi-0.2.41-2.1.aarch64.rpm"
-RPM_HASH = "77899c069d5396791b46b8e713bdf2dbfa020334c5cbc30e8751aa8ee55a4e78a87b175c9e8c1b1aff9080aa0ee2173b63e6c4fabfe228441c79906236ec9ed4"
+RPM_NAME = "zvbi-0.2.41-2.2.aarch64.rpm"
+RPM_HASH = "aec71a187e098c8e32b3efa5a4cd401c76d55b0f0858c9f3a885b412ef5b1edb1608e4fc528ff3bc7478f852cf8a34284b4bf3c6456e26723f241cc049d319d3"
 
 RPROVIDES:${PN} += "zvbi"
 

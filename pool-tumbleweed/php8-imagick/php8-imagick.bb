@@ -5,8 +5,8 @@ LICENSE = "PHP-3.01"
 
 PV = "3.7.0"
 
-RPM_NAME = "php8-imagick-3.7.0-2.5.aarch64.rpm"
-RPM_HASH = "59ba5c7086eb35bb60c23e224bf7a982454fc77746a9095ffd7abdbbea28ddbf15f0e1293827e2c1c80509e78c690da723593ee88173bfaaeaa0c4ccdb12227e"
+RPM_NAME = "php8-imagick-3.7.0-2.6.aarch64.rpm"
+RPM_HASH = "af727df7fa59f6f41b6c8265231d4b2e81e105a7503ad7f341c0b5ef5a668ef0c3f4ebb15843618b99c690fba82cc32e3484155893574b721f0085da5974e6d0"
 
 RPROVIDES:${PN} += "config-php8-imagick \
 php-imagick \

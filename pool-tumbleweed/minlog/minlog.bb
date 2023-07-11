@@ -15,8 +15,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.1"
 
-RPM_NAME = "minlog-1.3.1-1.3.noarch.rpm"
-RPM_HASH = "674ad3247a58ace8c4756d7c69ef265f56ba77556b6bfb007e6e1b0c87fdf359d21df8ff0dca732d77115c9f207f983c277cfa2a21d75258bec4a77e140d219d"
+RPM_NAME = "minlog-1.3.1-1.4.noarch.rpm"
+RPM_HASH = "a699ef3a197313ff68d53aec5ddf6a1a238a5a9ae1edcfa4ff580d58a6e127919132e36dc5d8889407699468de662fad0d1a2076d59048d30173ab0c270f3fce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "minlog \

@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
 PV = "44.2"
 
-RPM_NAME = "libnautilus-extension4-44.2-1.1.aarch64.rpm"
-RPM_HASH = "264bdd7b6409739314d0332fe1b8a2e3c46b86758b658314e9d3fd2556439c5523f525085eae86426062bf4c6a5c84a2176b34db59db7851541fe63b8c1de4ae"
+RPM_NAME = "libnautilus-extension4-44.2-2.1.aarch64.rpm"
+RPM_HASH = "60a11491d3eaa897f4df7d46469bb6132f9467e055f94b7e40c7e2447d504497680c772844b051902d78740b1be507d659971320de7e333b90e4847e33ce7dd0"
 
 RPROVIDES:${PN} += "libnautilus-extension.so.4 \
 libnautilus-extension4 \

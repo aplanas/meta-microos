@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-only"
 
 PV = "3.1.0"
 
-RPM_NAME = "xdelta3-3.1.0-5.7.aarch64.rpm"
-RPM_HASH = "3e981b20038526a76b71062450ee5eb0baf9dee2ea3a8a92f05e77f1d25c5da6a153da2aabf6342c532261fb0378b59e2f21567642e604fc3b9191e383ae0cfa"
+RPM_NAME = "xdelta3-3.1.0-5.8.aarch64.rpm"
+RPM_HASH = "51bb5df7cb85852d073d4e9790fbfce02e329a429583f986d1034d2e9bb9e72ed5ff50f24850f46648fa9c8f16d9b8cf018cc0f335b6b9a27195fe6baaaf9983"
 
 RPROVIDES:${PN} += "xdelta \
 xdelta3"

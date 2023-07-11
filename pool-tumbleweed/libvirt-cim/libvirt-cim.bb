@@ -13,8 +13,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "0.6.3"
 
-RPM_NAME = "libvirt-cim-0.6.3-15.3.aarch64.rpm"
-RPM_HASH = "4d13f3966ca29025d03b1e890411d64a3b20bb3fb0f04635c79c834a962d9ce8421a57f1f60233aeea420cec321d04d445aaabacc3148422474bd986122017bb"
+RPM_NAME = "libvirt-cim-0.6.3-15.4.aarch64.rpm"
+RPM_HASH = "07ad571ed53756782f1660a412e51ebf331ec096c2a598dee91c092dd4493c994156b8525e32621305c4058e07a61de68d7bcd3a159578f7f78b16f672a0a10b"
 
 RPROVIDES:${PN} += "config-libvirt-cim \
 libVirt-AllocationCapabilities.so.0 \

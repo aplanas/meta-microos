@@ -15,8 +15,8 @@ LICENSE = "Artistic-2.0"
 
 PV = "2.71"
 
-RPM_NAME = "perl-Log-Dispatch-2.71-1.1.noarch.rpm"
-RPM_HASH = "2e123dc54a91368fd9bef0cf35d09a3d36b08c2471e07f1935e250562e7a41e660cd2f6251ba9944f771a0316546f71ee7282cbde3c3b523770f0455e0d4f969"
+RPM_NAME = "perl-Log-Dispatch-2.71-1.2.noarch.rpm"
+RPM_HASH = "133d331b2a9d55129bfdc97a17b4f2ee58c204b72b678d0aa752154ca9d8cc36f4d5e67192f1d873078ecce17cf9dbe4409f57642f33ddaf23dd81d8cc734208"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Log--Dispatch \
@@ -39,7 +39,7 @@ perl-Log--Dispatch--Types \
 perl-Log--Dispatch--Vars \
 perl-Log-Dispatch"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Devel--GlobalDestruction \
 perl-Dist--CheckConflicts \
 perl-Module--Runtime \

@@ -2,13 +2,14 @@ SUMMARY = "A redis cache backend for Django"
 DESCRIPTION = "A redis cache backend for Django."
 LICENSE = "BSD-3-Clause"
 
-PV = "5.2.0"
+PV = "5.3.0"
 
-RPM_NAME = "python311-django-redis-5.2.0-1.4.noarch.rpm"
-RPM_HASH = "bc9e03ab5f455aa4f9c6c0c56abc65d2aaf4adb3117d15934e309474caef0d572cbfdce44e6c409c62487aaddc88039fa5de0502ed911c0e5834b1379f65dfd5"
+RPM_NAME = "python311-django-redis-5.3.0-1.1.noarch.rpm"
+RPM_HASH = "89a478b9450611222740f1826e75a72ae96782dbda0290f78b84946bdb8d201aeef301696d7a169583aa6cbdb4e019a4f79e2ba9db458e95e4e077e4b7c42d3b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-django-redis \
+RPROVIDES:${PN} += "python3-django-redis \
+python3.11dist-django-redis \
 python311-django-redis \
 python3dist-django-redis"
 

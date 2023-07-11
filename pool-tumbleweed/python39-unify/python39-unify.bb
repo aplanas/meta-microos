@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "0.5"
 
-RPM_NAME = "python39-unify-0.5-2.13.noarch.rpm"
-RPM_HASH = "dae7796b0b7f7a08acb550c42b67e0acda963d68ad434f41df1721e3a0e94a08f1f7babe65991f84f28fa19f15109997bfd04fdb71983149148abea691c821ff"
+RPM_NAME = "python39-unify-0.5-2.15.noarch.rpm"
+RPM_HASH = "b9c7037f2c0489f510d1f7f69f12326faaa21393b7199ca857057732b20ae936a5f4fd019afd556bfb03c641be92b4dcd71348b985ecb89876fc44daceedab0f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-unify \

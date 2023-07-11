@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.3.0"
 
-RPM_NAME = "lxqt-panel-lang-1.3.0-1.1.noarch.rpm"
-RPM_HASH = "3a684f41604fde06545600ffee855971fde5e0ebe9dfcda4483dd9fe0531f2c6cc29b05b4706ac5cc8d364c3121e5e3b39b489923f6c144e70e4113536c9e713"
+RPM_NAME = "lxqt-panel-lang-1.3.0-1.2.noarch.rpm"
+RPM_HASH = "5168f26c0dd5d9fd09a97d6d4451564cfe73b317e2f2a6e1a18c11ef6b50f84ddc320e7388aaff1715f9864a38bc014fed08df419a17bdf26e5da82b07b9ffe3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lxqt-panel-lang \

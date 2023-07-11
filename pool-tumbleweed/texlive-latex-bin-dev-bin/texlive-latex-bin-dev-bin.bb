@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn53999"
 
-RPM_NAME = "texlive-latex-bin-dev-bin-2023.20230311.svn53999-91.1.aarch64.rpm"
-RPM_HASH = "f6e4f87d6d27f1a0c9ce01ebea05ac6cb68869a3d7421fc86f00955107a1c0e367e73dcbcae5d564ad5b07832342550a674cef70b4d8ce1f23dac33c06c3fe97"
+RPM_NAME = "texlive-latex-bin-dev-bin-2023.20230311.svn53999-92.1.aarch64.rpm"
+RPM_HASH = "5325eef6b0379baa3d51343d26ccb4eb74c01b6482b4accad182abfb367f3c169935dfc73356d0841131a898b4b2b25d66d9e09122ed896c3ed4c8b0397235dd"
 
 RPROVIDES:${PN} += "texlive-latex-bin-dev-bin"
 

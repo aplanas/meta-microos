@@ -5,10 +5,10 @@ and calendar in the GNOME Desktop. \
 This package contains a shared system library to access address books."
 LICENSE = "LGPL-2.0-only"
 
-PV = "3.48.2"
+PV = "3.48.4"
 
-RPM_NAME = "libebook-1_2-21-3.48.2-1.1.aarch64.rpm"
-RPM_HASH = "f2f746d93b35372253d917140e66ac3c9c95b85d27dc302c6d87b48699f75ed740ef48b86d905e92c7bbccf1a8f9d6e9d5e00d2b7b66cd7e264ee71f21ec7b1b"
+RPM_NAME = "libebook-1_2-21-3.48.4-1.1.aarch64.rpm"
+RPM_HASH = "0b963acad9538f3491124a345742204b6d7b4a6540ce2c8cd18a915292f630945a66ceea8ae8937155818157ea67f97516b9139a8ade9bb5c91a8a2a7b74d642"
 
 RPROVIDES:${PN} += "libebook-1-2-21 \
 libebook-1.2.so.21"

@@ -4,11 +4,12 @@ LICENSE = "Apache-2.0"
 
 PV = "0.9.1"
 
-RPM_NAME = "python311-phabricator-0.9.1-1.3.noarch.rpm"
-RPM_HASH = "f57bafa6af3022a1b0d5f44522bc9abd6c2322110f2876918c69340496d7301aa3d77813129103e4655db9d97eefb6b70d200e27cb6cb3ac115769a07350d5f3"
+RPM_NAME = "python311-phabricator-0.9.1-1.5.noarch.rpm"
+RPM_HASH = "a2ce355f85027d0c4353c02e5be3c1bda4e2919ea1df0762fc7321af9fd6208ceb92927454092f419b4f25196ac23f9c540b19cd2e7bdc9cd23767fe89359337"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-phabricator \
+RPROVIDES:${PN} += "python3-phabricator \
+python3.11dist-phabricator \
 python311-phabricator \
 python3dist-phabricator"
 

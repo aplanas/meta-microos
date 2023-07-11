@@ -30,13 +30,11 @@ LICENSE = "Apache-2.0 | BSD-3-Clause"
 
 PV = "2.8.2"
 
-RPM_NAME = "python310-python-dateutil-2.8.2-2.1.noarch.rpm"
-RPM_HASH = "e74a1ba313d8d9569538ba6e61316c7903652999056001a4b59237aaa97b973282bc10a33e293fbe61b40e451f95a6671acef10d8aa64cb6834f5467176c4083"
+RPM_NAME = "python310-python-dateutil-2.8.2-2.2.noarch.rpm"
+RPM_HASH = "1586481846e38cc8ab1898565b80ff7a84f5cf6d4da4a04c91c44de026efe1e0cd02caee908f6192f83826998c52833744bbe462304aa84d322b2aa8cfd13c95"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-dateutil \
-python3-python-dateutil \
-python3.10dist-python-dateutil \
+RPROVIDES:${PN} += "python3.10dist-python-dateutil \
 python310-dateutil \
 python310-python-dateutil \
 python3dist-python-dateutil"

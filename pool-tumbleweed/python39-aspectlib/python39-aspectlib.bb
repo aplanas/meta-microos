@@ -8,8 +8,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.0.0"
 
-RPM_NAME = "python39-aspectlib-2.0.0-1.1.noarch.rpm"
-RPM_HASH = "5ba73c0a6d2dc47f3a00a9ba432d3ca76c552a0506cc6fa33741146ac67c2cdac02c25eb05e7f1225ecd54ec025214141dfedb4e99a83ba15b6bef65f347929f"
+RPM_NAME = "python39-aspectlib-2.0.0-1.3.noarch.rpm"
+RPM_HASH = "e2fce20c2e3a649addd36af574221a6f97743f5d8672e048a6d0fc16b28f97d9a62de0df54ba38e1573a873d3f6443464a0036fe6834cb9d7675c80e4b641cb6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-aspectlib \

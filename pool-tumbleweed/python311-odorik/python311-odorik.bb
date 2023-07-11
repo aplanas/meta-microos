@@ -4,11 +4,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.5"
 
-RPM_NAME = "python311-odorik-0.5-6.4.noarch.rpm"
-RPM_HASH = "8102ed54a389fe7e8a3582515ee161bf5a44756ecd9fa608c6b19502489dbc6e6667a3cd856e073e4e4903da4b4856257d452b58b5b4b2c1453be7de2c7cd6db"
+RPM_NAME = "python311-odorik-0.5-6.6.noarch.rpm"
+RPM_HASH = "7d501ac1546971d74bac01d8a68eb2fc51c404fbee42109d59bccf75232837de596b88eb3977fa79484059fcc60244be097d9b2825a7fc2b3f359bb18a59b711"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-odorik \
+RPROVIDES:${PN} += "python3-odorik \
+python3.11dist-odorik \
 python311-odorik \
 python3dist-odorik"
 

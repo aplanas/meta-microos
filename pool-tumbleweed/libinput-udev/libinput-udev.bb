@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "1.23.0"
 
-RPM_NAME = "libinput-udev-1.23.0-1.1.aarch64.rpm"
-RPM_HASH = "f5bf42f98a89915ad34e04347cc5df6dc821371108182b3451788778b7beb1cfe35764dc97406dba337b65dcd90c82b72c0f9e7e1251ab7853ccaa93a62dd34b"
+RPM_NAME = "libinput-udev-1.23.0-1.2.aarch64.rpm"
+RPM_HASH = "ad98bff3d8795da70e7c005323cb1fbe00709b5c4d75ba510fe0d7686c5e01ff8ff78bd8ae316ea61a4238424478b0275b4c6e22328696e11079c0dedfc5fb60"
 
 RPROVIDES:${PN} += "libinput-udev"
 

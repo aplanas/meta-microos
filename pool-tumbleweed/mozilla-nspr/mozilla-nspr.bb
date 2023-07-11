@@ -7,8 +7,8 @@ LICENSE = "MPL-2.0"
 
 PV = "4.35"
 
-RPM_NAME = "mozilla-nspr-4.35-1.3.aarch64.rpm"
-RPM_HASH = "5dc38ccefd0e80dd22ea42ff84515fbef02699b35413ae996c7285aa7b9eb50bfd9d5a173e52b748c2624417ee58ccf9b018023363b7b7efa34a6f59652e1f35"
+RPM_NAME = "mozilla-nspr-4.35-1.4.aarch64.rpm"
+RPM_HASH = "33c94f8eab6cf426ba8c74c9fd850153848bf27cebeac947cb84c874a6f38df6b56607ad873d640414f309d45aa50850545d384a4b4cb77e0696f56186e8deaa"
 
 RPROVIDES:${PN} += "libnspr4.so \
 libplc4.so \

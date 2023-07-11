@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.4.0.0"
 
-RPM_NAME = "uhd-utils-4.4.0.0-1.4.aarch64.rpm"
-RPM_HASH = "e582ac639988db0d17b1855b0ec5767e943cbbcefbf497af4323642e55ee59d53e9313e1812db9496d00acc598e2958af6415af36675087ab38ecf8248c1c01f"
+RPM_NAME = "uhd-utils-4.4.0.0-1.5.aarch64.rpm"
+RPM_HASH = "7d6ebc5bceafac2964e9b0d2f1ad9b7c85bf397b99c7cbab78d557ca577afc1b05e58e91df59a6a7f902559ea16479b447375d9441e7587b1040f367e151a0c5"
 
 RPROVIDES:${PN} += "uhd-utils"
 

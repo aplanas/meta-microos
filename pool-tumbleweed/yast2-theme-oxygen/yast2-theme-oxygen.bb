@@ -4,8 +4,8 @@ LICENSE = "CC-BY-SA-4.0 & GPL-2.0-only & GPL-3.0-only"
 
 PV = "4.6.0"
 
-RPM_NAME = "yast2-theme-oxygen-4.6.0-1.1.noarch.rpm"
-RPM_HASH = "36fbf6437b8af4da20255e480e4d2da3d4dde9293e285b697eeba9a3ebb108755cb0aea5f96b9828410a6a0138b8015da2f8a97b2b78f2771324025f280f92e8"
+RPM_NAME = "yast2-theme-oxygen-4.6.0-1.2.noarch.rpm"
+RPM_HASH = "6269d980d4b4255f3babe2a8fa0a869811e525a09676d002cf03a40a8ce1c7c22e801854968cc8cd2f4748b8af5fb7e1061b114b31b6156756e23e24b3996779"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-theme-oxygen"

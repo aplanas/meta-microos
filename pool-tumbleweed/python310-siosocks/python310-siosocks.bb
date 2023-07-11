@@ -19,12 +19,11 @@ LICENSE = "MIT"
 
 PV = "0.3.0"
 
-RPM_NAME = "python310-siosocks-0.3.0-1.3.noarch.rpm"
-RPM_HASH = "c46a84092b658a8b822154e155c0d7591eb23fcee73d72eebf04d1f68b912ffa0142d85093af8dfe70c1b43b5b2043f53007e99cc29c895773794d2e9abba4e6"
+RPM_NAME = "python310-siosocks-0.3.0-1.5.noarch.rpm"
+RPM_HASH = "1ef3d7f4e1136186ff887b6603269e448fc4a7dedabd32ab92aab4c91831d1179d4fc1120dc967861dd716207c95210f5fff566ec0b2b1a07c03bd3befd1c2a6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-siosocks \
-python3.10dist-siosocks \
+RPROVIDES:${PN} += "python3.10dist-siosocks \
 python310-siosocks \
 python3dist-siosocks"
 

@@ -4,8 +4,8 @@ LICENSE = "Zlib"
 
 PV = "1.5.1+git20210305.c5cbd53"
 
-RPM_NAME = "libDetourTileCache1-1.5.1+git20210305.c5cbd53-1.7.aarch64.rpm"
-RPM_HASH = "ee9f381b8535137591dda3a0e4492282c5de1956eb0ee03c79a50668bc7ffbe93bd596d76d97c86588bda878c661159d5c3f3c238f69514a97fd7170bb493280"
+RPM_NAME = "libDetourTileCache1-1.5.1+git20210305.c5cbd53-1.8.aarch64.rpm"
+RPM_HASH = "7afaed99e65174c6566825d3d645052dcb8244271f32fbad2f41afa99471fd5c202757ce01343a227c9cb03850cd614d27e11f1c4e998eadf66fc99a578cd83a"
 
 RPROVIDES:${PN} += "libDetourTileCache.so.1 \
 libDetourTileCache1"

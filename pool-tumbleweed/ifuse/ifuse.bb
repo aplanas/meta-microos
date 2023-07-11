@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "1.1.4"
 
-RPM_NAME = "ifuse-1.1.4-1.10.aarch64.rpm"
-RPM_HASH = "29edd2bfc68bc1dc0ae4ee573a6d15971883726d8d3d849e8ca804d5ff79f3d0735b2752dc3681596b13a50b918240d47a0b0e0d725827b28c81b23413c75018"
+RPM_NAME = "ifuse-1.1.4-1.11.aarch64.rpm"
+RPM_HASH = "0ee6c47e9709b03a84f65ee672efebc4bd7446e2814b67a108135f1e6500e5beae6014d2090237129e703aac4d05bd48ba3f846f4dbd3aad72edbf90f571fa57"
 
 RPROVIDES:${PN} += "ifuse"
 
@@ -17,6 +17,6 @@ ld-linux-aarch64.so.1 \
 libc.so.6 \
 libfuse.so.2 \
 libimobiledevice-1.0.so.6 \
-libplist-2.0.so.3"
+libplist-2.0.so.4"
 
 inherit rpm

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.03.09"
 
-RPM_NAME = "health-check-bash-completion-0.03.09-1.11.noarch.rpm"
-RPM_HASH = "953e3446186f19319f276a639381ba0e31ff337e5d5c6bec75d677c1da790625749e19df5e424f612022a351c3b79bf177fe099ec49ac86592151d2baaadbfda"
+RPM_NAME = "health-check-bash-completion-0.03.09-1.12.noarch.rpm"
+RPM_HASH = "64d730e06f15f24a352c23681a2bb52869cd2543b548e24be3ce37f98422d002e490dd93a9acc02f8214aa7a418377ca8a349dbdb43e175a3c46b953caed925c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "health-check-bash-completion"

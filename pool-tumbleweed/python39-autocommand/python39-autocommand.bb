@@ -6,8 +6,8 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "2.2.2"
 
-RPM_NAME = "python39-autocommand-2.2.2-2.1.noarch.rpm"
-RPM_HASH = "a5da1d9649cd4ab436537bbfc0a6c7d42529b39a2df9fe276345f8b81e1fcc39b3b9cddae0d230f94d8e9b49f8a55ed9d9a0f7bf2b07bc137af84f3a17a4c114"
+RPM_NAME = "python39-autocommand-2.2.2-2.3.noarch.rpm"
+RPM_HASH = "b611b0f7ab1c9e4f6af578c56fe33bad1e2b66ff0004dd7209621bb49392b5d22f4bbb055196710d047970e055c093d26851cc98a6d69f3835455ab5e2acce88"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-autocommand \

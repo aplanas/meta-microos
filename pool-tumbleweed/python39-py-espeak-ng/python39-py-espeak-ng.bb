@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.1.8"
 
-RPM_NAME = "python39-py-espeak-ng-0.1.8-1.14.noarch.rpm"
-RPM_HASH = "e49bd801ad9c39375bd95cb9dcd58b5d4573045bfe2aaffc8a3147302c0c9153840e31b51b06f7189f4e86691ea9aa335f7c3351594318c4489d26db788022f3"
+RPM_NAME = "python39-py-espeak-ng-0.1.8-1.16.noarch.rpm"
+RPM_HASH = "1af6fca77954ab9970257d2f5197206911575f40be0f23c92f4d92e52569e31c88b2c67b8f77e0040069db9a321cc929d24a850d8a855602f4099e027331296c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-py-espeak-ng \

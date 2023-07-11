@@ -25,8 +25,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.036"
 
-RPM_NAME = "perl-YAML-PP-0.036-1.1.noarch.rpm"
-RPM_HASH = "86e08a9d6a45bc338f8203298ee0eb9043465c47f90ce949be689661c156f655bb8811bcd7c2240e8e50f6ea11644b3d2af087504e8239adb8b8b4bce0433363"
+RPM_NAME = "perl-YAML-PP-0.036-1.2.noarch.rpm"
+RPM_HASH = "7c06694684f9c9bda53cb3be6c09d712dcbbd241f25f5871891ee82262733920fcc8da027e3ac10db883af5dc185876135c8ef9bd0ab5173752a3b9f233c0e93"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-YAML--PP \
@@ -64,7 +64,7 @@ perl-YAML--PP--Writer--File \
 perl-YAML-PP"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.0 \
+perl--MODULE-COMPAT-5.36.1 \
 perl-Module--Load"
 
 inherit rpm

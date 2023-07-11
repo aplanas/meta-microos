@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.7.0"
 
-RPM_NAME = "libopencv_videostab407-4.7.0-1.6.aarch64.rpm"
-RPM_HASH = "3c29a388ba0d2c32135cb4b86b550e32cd9b69cb07f61e0aecd23b6c1e6eb60d421d0653aee40e07a15783ece50cb63ebca65553e8681481d0cc1c4adf239d72"
+RPM_NAME = "libopencv_videostab407-4.7.0-1.8.aarch64.rpm"
+RPM_HASH = "ca14e8414d5b3a42c7d44db65013284eda7906dba674728634468e481b50b5f2d7814c2f491b1cbe02d2ab043301a5715170869d1e537ad65ee8248023adcdf3"
 
 RPROVIDES:${PN} += "libopencv-videostab.so.407 \
 libopencv-videostab407"

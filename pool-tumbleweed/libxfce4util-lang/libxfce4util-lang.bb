@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "4.18.1"
 
-RPM_NAME = "libxfce4util-lang-4.18.1-1.3.noarch.rpm"
-RPM_HASH = "7d096dbe1a03deae1c6a8a76987fc0ab42923d4a6d52f87150fee1c12164c2971ebf088508ea3a89dcb56d62585ff4e9420e2cc34acfb8f6e3fd3ed2814ce567"
+RPM_NAME = "libxfce4util-lang-4.18.1-1.4.noarch.rpm"
+RPM_HASH = "b4eeec66a8e76c9205bc7b97988305334e57a93120f7fceba24955e5863ffe25cea9274561c4d2e19bdda217acd404cd057b2ded620b931f6ce8346c70ae2676"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libxfce4util-lang \

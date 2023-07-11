@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.3.21"
 
-RPM_NAME = "libart_lgpl-devel-2.3.21-25.3.aarch64.rpm"
-RPM_HASH = "3a78233ee2979a0fa59601bfd6b7f9bdf040bce9e9e88cad03e7348008e81664d0ed177f9f86a06c7726a7e4aabc221ee01bfeaabcbd6c9bab4c82eef4cc1c73"
+RPM_NAME = "libart_lgpl-devel-2.3.21-25.4.aarch64.rpm"
+RPM_HASH = "bfae4e711c4e6a991d5082040955271d52fc8d36dcbe1d18013ef44b13f7aba8369796a58fffde623dbb575655da8e8645d306b94a7d8be7285419ae0332aa7b"
 
 RPROVIDES:${PN} += "libart-lgpl-devel \
 pkgconfig-libart-2.0"

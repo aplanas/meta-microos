@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.7.0"
 
-RPM_NAME = "jupyter-ipyscales-0.7.0-5.4.noarch.rpm"
-RPM_HASH = "c4106d0c0567c2cb221eed6779d1218f21a9b9ef8c0a326f40f5a003e883db2d62a7cbcdf649893e0e06bcafb340cc765d08357c5183face30d61cc3b3319243"
+RPM_NAME = "jupyter-ipyscales-0.7.0-5.5.noarch.rpm"
+RPM_HASH = "95cb4efdabaa2ea7821f58792fb42c3a7200a0ea225c9cc412a88ad60316d93f3f67318fc254360d968b90c1189d2798fc3db294068b406a063d69762753b2a9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-ipyscales"

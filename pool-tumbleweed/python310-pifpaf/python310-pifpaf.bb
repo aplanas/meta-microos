@@ -7,12 +7,11 @@ LICENSE = "Apache-2.0"
 
 PV = "3.1.5"
 
-RPM_NAME = "python310-pifpaf-3.1.5-2.4.noarch.rpm"
-RPM_HASH = "b8ee4ad950f27d801e0265512e487e0a4aa8eadfd837e27cf5f0f6fa66b3ae8193fbd9b27be3d34db9eef18089ce50907233c937600403cd0dffb59e14f2c912"
+RPM_NAME = "python310-pifpaf-3.1.5-2.6.noarch.rpm"
+RPM_HASH = "7b318fe2ec02626e7c8715a3560440ce88dc73aa8f003fcd5b05a8e2bc64950bf0e07b02b669ffe8f63d5b2af49a886721abc48a5839e83d5a56ceea49afb1ff"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pifpaf \
-python3.10dist-pifpaf \
+RPROVIDES:${PN} += "python3.10dist-pifpaf \
 python310-pifpaf \
 python3dist-pifpaf"
 

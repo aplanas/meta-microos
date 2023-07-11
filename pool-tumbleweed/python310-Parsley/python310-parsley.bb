@@ -12,13 +12,11 @@ LICENSE = "MIT"
 
 PV = "1.3"
 
-RPM_NAME = "python310-Parsley-1.3-5.1.noarch.rpm"
-RPM_HASH = "83d15d6c46f00ab58dd5a4c019fb0fe44e9471eacf9418b4625beadbbaf26876befc6580a6fe87668b0c9cf4d8b9542d2dc3fdc26aa70f0d691c3b33c4bbaf55"
+RPM_NAME = "python310-Parsley-1.3-5.3.noarch.rpm"
+RPM_HASH = "34522f7eb32dea1dc660d4f41ad340322fae115974d451f1ef23c999c470442dadead5a3a97bf469996bf6bb8010a8f288779c7f83908dd03e2b6cf415870a34"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-Parsley \
-python3-parsley \
-python3.10dist-parsley \
+RPROVIDES:${PN} += "python3.10dist-parsley \
 python310-Parsley \
 python310-parsley \
 python3dist-parsley"

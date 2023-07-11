@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "2.0.0"
 
-RPM_NAME = "python39-dash-html-components-2.0.0-1.5.noarch.rpm"
-RPM_HASH = "f54852bbaafca5f73afd67000ea696f26494c49fb01636da991d68cb5af17e8830d4608bfd664ffacbae476ad702415ab61a89e9c5177f514c1d1668f2404099"
+RPM_NAME = "python39-dash-html-components-2.0.0-1.6.noarch.rpm"
+RPM_HASH = "b6ab16943152157c6493973f6e8855fb4683e7ba1f75be0a9797ccd109cae07d17862d4377ff27c0017e3f75652d12613ed5cd64984caa14fb0815217a4618ae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-dash-html-components \

@@ -4,11 +4,12 @@ LICENSE = "Apache-2.0"
 
 PV = "0.4.3.2"
 
-RPM_NAME = "python311-jsonrpclib-pelix-0.4.3.2-1.3.noarch.rpm"
-RPM_HASH = "c00d5039091e3a54c0373433729145a3a68d544e6ca79c9ea2af4c0cdfa61cd5ab42e180a743874012e278e0c0b13f22fd10a7c8bb1bca98c8a576efe3f6feeb"
+RPM_NAME = "python311-jsonrpclib-pelix-0.4.3.2-1.4.noarch.rpm"
+RPM_HASH = "35bddd0602f7d455d1dda6ec8867473eaa9b264069a39872cf1ee2d1dd34b478142b7938d6049f1f807119aa392e77be97d5e783ab0ce4ae7a0cc4e4dcf55575"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-jsonrpclib-pelix \
+RPROVIDES:${PN} += "python3-jsonrpclib-pelix \
+python3.11dist-jsonrpclib-pelix \
 python311-jsonrpclib-pelix \
 python3dist-jsonrpclib-pelix"
 

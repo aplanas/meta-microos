@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.5.0"
 
-RPM_NAME = "python39-gpxpy-1.5.0-1.4.noarch.rpm"
-RPM_HASH = "c0439d27f385d59d9671e9c79f4e96730bc994b081781f1c9521a5258935faebfae4d74b18cbeaee94e9ec0b904ef8a685f2646c11088533150697e867398b4c"
+RPM_NAME = "python39-gpxpy-1.5.0-1.5.noarch.rpm"
+RPM_HASH = "b55f8ec18d1172b843ee2f82ce5a86b70b64c58e8db6dae5f98ad8a47fd46b84e6c2f241d56e946a3444e27f742df127fad2e97e675c67cf8e1175796776dc11"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-gpxpy \

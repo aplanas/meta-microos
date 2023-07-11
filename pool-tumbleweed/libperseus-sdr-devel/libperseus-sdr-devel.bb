@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.8.1"
 
-RPM_NAME = "libperseus-sdr-devel-0.8.1-1.22.aarch64.rpm"
-RPM_HASH = "80bba7b78019e0290c51657bf3c4d75217c2f057822a5cb9c1f96eaa30e2b9f2925d9217f59b29775810c582b30b7a6ccf5e1e3cc1f6ecf2c5a23610c66eca37"
+RPM_NAME = "libperseus-sdr-devel-0.8.1-1.23.aarch64.rpm"
+RPM_HASH = "854e52d511176de9a2d4b0449c257208d5791a208bb670cd31787e1982d05cdffdb3be75459b4fcaddadcfc6ad12a52462fe3c972271f1f6176166a093cc7dc2"
 
 RPROVIDES:${PN} += "libperseus-sdr-devel"
 

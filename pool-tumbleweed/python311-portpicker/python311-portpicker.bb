@@ -6,11 +6,12 @@ LICENSE = "Apache-2.0"
 
 PV = "1.5.2"
 
-RPM_NAME = "python311-portpicker-1.5.2-1.5.noarch.rpm"
-RPM_HASH = "291fe751191e5131c21f67277e4309ab8543afe5edd342a6ce83c49b111c04c793432df300c1ba1eeed41a5ab5dde4f17dc94610d3d50c1f50d7c2899cf8613b"
+RPM_NAME = "python311-portpicker-1.5.2-1.6.noarch.rpm"
+RPM_HASH = "dee18147ceb2338cce964895944ccb02b30e6f94e24e282410aa9de1d0e459be6c6d7f2e72067a968d0c801e45aa9f7b1625a8c41b98fd5c2a1dc57487368176"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-portpicker \
+RPROVIDES:${PN} += "python3-portpicker \
+python3.11dist-portpicker \
 python311-portpicker \
 python3dist-portpicker"
 

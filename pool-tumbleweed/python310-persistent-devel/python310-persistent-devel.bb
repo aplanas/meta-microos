@@ -4,11 +4,10 @@ LICENSE = "ZPL-2.1"
 
 PV = "5.0"
 
-RPM_NAME = "python310-persistent-devel-5.0-1.4.aarch64.rpm"
-RPM_HASH = "8357790295dc6e9a7457fbd90e21522860dd09f04be0b5905fb855379b56151ce4a1f2bda1e36cc972b798ea75fbf3db2d56417ae6431d8ab935af40bb0b6f05"
+RPM_NAME = "python310-persistent-devel-5.0-2.3.aarch64.rpm"
+RPM_HASH = "5d13968f60cb893b5a74e5411b0fd5ca77bdd0f96380691246751d104adbae9664f5e66fa346f3bc5ecb64ad31441379330749f722fe50b4cb719764faf73518"
 
-RPROVIDES:${PN} += "python3-persistent-devel \
-python310-persistent-devel"
+RPROVIDES:${PN} += "python310-persistent-devel"
 
 RDEPENDS:${PN} += "python310-devel \
 python310-persistent"

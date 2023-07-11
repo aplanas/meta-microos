@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.5.5"
 
-RPM_NAME = "python39-colorful-0.5.5-1.3.noarch.rpm"
-RPM_HASH = "fc6bb630dca5c682d5ed0b256c5a57331b9627df1fae496a1a9d0711a4cbb21c24ac9b7b50d31f2bd88afabefba02e38f53099f6475c36ca757a43208ba5f1bf"
+RPM_NAME = "python39-colorful-0.5.5-1.5.noarch.rpm"
+RPM_HASH = "960622749dc0a5ed7308a7ed52e49dd9e573a93260b54d1bca12e34a0ed589ddc071e3b39e33bf8e3f317d4c35fd64b0764d0db927518bc74e25a316abb07a75"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-colorful \

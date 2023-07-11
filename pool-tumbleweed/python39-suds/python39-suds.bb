@@ -11,8 +11,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.1.2"
 
-RPM_NAME = "python39-suds-1.1.2-1.3.noarch.rpm"
-RPM_HASH = "0b39fe0360bb8cfc335206164cd8e82325093b1bedfc45fdcbde06556522bad457601dfb8e23961be6bfe892417fb721cc4816d33cd084e246b51a1e751ea2d7"
+RPM_NAME = "python39-suds-1.1.2-1.5.noarch.rpm"
+RPM_HASH = "ef26225499f3a9fac3e85dec89c0a4d144440d92063d28692ab0ca3a335eff56f6e4abbe7fece9190e31c5cbcf8707fe9e3be64300915fe298e90424c84d0ab9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-suds-community \

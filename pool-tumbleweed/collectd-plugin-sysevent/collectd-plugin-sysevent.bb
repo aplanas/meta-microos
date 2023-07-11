@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only & MIT"
 
 PV = "5.12.0.134.g4cebbfc"
 
-RPM_NAME = "collectd-plugin-sysevent-5.12.0.134.g4cebbfc-1.4.aarch64.rpm"
-RPM_HASH = "3e7f5cfe78cc4b6678a1436eed9c92ab88630d51f85732b851ba7f96d051af0275919eaccedc3f1bb3d3a9c2d53a246995d11c2269f1535a8c190b21fc2baa87"
+RPM_NAME = "collectd-plugin-sysevent-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
+RPM_HASH = "e676c787394e1f07bcde82061beb4635f0859bbd3afdf52ca6e71fc17dbef0acb65512c8ab58800fa36c408e2e450d0aed4d92de59c844674c5494559a309f7d"
 
 RPROVIDES:${PN} += "collectd-plugin-sysevent"
 

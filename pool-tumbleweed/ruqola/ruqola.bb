@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.9.1"
 
-RPM_NAME = "ruqola-1.9.1-2.1.aarch64.rpm"
-RPM_HASH = "2cd815858f3bad681f0b4bb3864b49a7dc973c4cfd91a5b1ff3eec43053df7b0d8e4184f74aa27edff6ce289687d6ab7f1a95add7cced6bcb9100cce02781b0c"
+RPM_NAME = "ruqola-1.9.1-2.2.aarch64.rpm"
+RPM_HASH = "91e5b24829d16eccd99aeb2076981b9c6c9b8f301654010990b7b674ce2f43e95d7345805e1f4831549b5e476832959ae554fc1bdbfab74e0f6a31b8ded6dcd2"
 
 RPROVIDES:${PN} += "librocketchatrestapi-qt5.so.0 \
 libruqola-autocorrection.so.0 \

@@ -3,10 +3,10 @@ DESCRIPTION = "The firewall configuration application provides an configuration 
 firewalld."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.3.2"
+PV = "2.0.0"
 
-RPM_NAME = "firewall-config-1.3.2-2.1.noarch.rpm"
-RPM_HASH = "487a36b4690c343e39816122c334faa6acfd5ed5588e5bb1632d051c26cc8da2105ded72a01a23b84860eabcb0944e8ecdafbd5bce334a74c7f2414b336f9fef"
+RPM_NAME = "firewall-config-2.0.0-1.1.noarch.rpm"
+RPM_HASH = "cb805ff89f4d4f4f968c0804315911896dbd6ade83e960c49015b0e0795d1a50a4cc0d53d42bf845709c79b2160d12c4dd1a060fbb1bbff9816c4d7a99bfa46c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firewall-config"

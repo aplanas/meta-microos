@@ -3,10 +3,10 @@ DESCRIPTION = "Kontrast allows choosing background and text color that are easy 
 used together."
 LICENSE = "GPL-3.0-or-later & CC0-1.0"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "kontrast-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "63d17cecd660a2c8cbe1881f6a00fdaea681c466e59034de8ceb0fdc12032e09230326d19875ba05be79416da7f2503829ff994c22729f85bc8a52537838af73"
+RPM_NAME = "kontrast-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "375fae6729a8d1a82062933e572baaa67371fd471e5923abbde58c899de0f0ff6a30bc29b155f9a3e72161c167aa781a8badf9f216a603d625845b5d62a241bf"
 
 RPROVIDES:${PN} += "kontrast"
 

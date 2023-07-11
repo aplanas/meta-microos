@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "28.2"
 
-RPM_NAME = "emacs-28.2-4.2.aarch64.rpm"
-RPM_HASH = "f0b35b2c4f2329caf106865303562cdb7ceed69abdc0b2091018dfcc17224530797cdabf92da71272ba1f4777aa5d0c2baacf97a06b47d94c4ccebff97538629"
+RPM_NAME = "emacs-28.2-4.3.aarch64.rpm"
+RPM_HASH = "dd6c09a29932446395331b86abf8d3fe142ef96458fc701ca15fedf4b20eae8e4258b936d541858426d0ecd85982e1d87735b1f28284844cc0aa3d4ffabab5ac"
 
 RPROVIDES:${PN} += "config-emacs \
 emacs \

@@ -8,8 +8,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2023.201.2014svn35575"
 
-RPM_NAME = "texlive-epsf-dvipdfmx-2023.201.2014svn35575-53.1.noarch.rpm"
-RPM_HASH = "3e91bcac56ef00b2886daf36ba203f47b92ad0eab1ffa5591222da6b6f443ed0f4a08319ff8a84019486d7282e92f2e858cefb29260579dc5534912380074db0"
+RPM_NAME = "texlive-epsf-dvipdfmx-2023.201.2014svn35575-53.2.noarch.rpm"
+RPM_HASH = "5555f6361c53eb05578f02e493a10f34fd806df717eb7e554592f9709f42d3c7d75a2e3ea63f354bbf938ff1362e76cecae3d920f2230286e9429a370a9ea5ae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-epsf-dvipdfmx.tex \

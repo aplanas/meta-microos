@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.5.0"
 
-RPM_NAME = "python39-pylzma-0.5.0-2.11.aarch64.rpm"
-RPM_HASH = "b93f4e878d01740e3c5daccece1dbd16cd0200c288da06953f8a822c1f1d026ca65a0f5fc3427780e4d9da2de9a8641424f81f509041f3357f8116dc29509f91"
+RPM_NAME = "python39-pylzma-0.5.0-2.13.aarch64.rpm"
+RPM_HASH = "072071f71c4dfd4e1348aba63c165f25b2eb7bd58dd4e47e03bad1a4f484d5717f1b8f30092a196493712ddba9de792942682437f454d544857724c3f8ac2ebb"
 
 RPROVIDES:${PN} += "python3.9dist-pylzma \
 python39-pylzma \

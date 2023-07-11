@@ -7,10 +7,10 @@ commercial fonts; the README file contains instructions on how \
 to compile the document without these fonts."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn48664"
+PV = "2023.208.svn48664"
 
-RPM_NAME = "texlive-memdesign-2023.201.svn48664-52.1.noarch.rpm"
-RPM_HASH = "be016b97da4f0580ce40a50252ee16f2d601d29616c3ae2d69360289f2e50ed0b54e8d3c0848deb0f59d52b54a297733ddb998ebb43eff4b5a3661098e933c63"
+RPM_NAME = "texlive-memdesign-2023.208.svn48664-53.1.noarch.rpm"
+RPM_HASH = "9bb7e465ebc1cba58b1f64c560b51235d4344c9f55b1ec80c96306443e65169d1fcb27dbd4245de6f367122ae4942d3b4eb85810da1546e7eeeee2e9125865d5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-memdesign"

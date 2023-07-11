@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.0.4"
 
-RPM_NAME = "libxml-security-c20-2.0.4-1.9.aarch64.rpm"
-RPM_HASH = "caacb4764c6c0801fdca0b44f1fecd1a986fd2e06696ae74deae5392c37619eb63bf9759af84c414194d6daa95710f59c9f8788f885dac59f32dd632122a096c"
+RPM_NAME = "libxml-security-c20-2.0.4-1.10.aarch64.rpm"
+RPM_HASH = "ba564509209df701f7119677b99b2b86b7af112f2115352009edf9eb903ff2262348daed8833855e9aaa2b6bf85c78ab83ce1d89a4e9a4de77703cc6b4df633c"
 
 RPROVIDES:${PN} += "libxml-security-c.so.20 \
 libxml-security-c20 \

@@ -5,8 +5,8 @@ LICENSE = "MPL-1.1 | GPL-2.0-or-later | LGPL-2.1-or-later"
 
 PV = "6.0.7"
 
-RPM_NAME = "mozldap-libs-6.0.7-4.15.aarch64.rpm"
-RPM_HASH = "1394909a706165fca2f0fe84b0290f87aa9d76b422d2d4ecc9590c0f21402d5acfb48a4c21605fc8d7963361db41ffdc420409955132a45875b61e1392419a8c"
+RPM_NAME = "mozldap-libs-6.0.7-4.17.aarch64.rpm"
+RPM_HASH = "ba381dd6584b9160e63b11aef3b9e31a53ab8af09146819941d169af94044f1c2e66faf01febe61abea32e83ec117e6aca085147d4ada3846f1ba55b62d546b1"
 
 RPROVIDES:${PN} += "libldap60.so \
 libldif60.so \

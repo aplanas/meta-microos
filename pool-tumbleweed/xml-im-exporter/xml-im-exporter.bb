@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "1.1"
 
-RPM_NAME = "xml-im-exporter-1.1-29.6.noarch.rpm"
-RPM_HASH = "d8434b1ba4c3253e9b0dd86f78d5845b899fcf4e656b3f38c0308df346b180ac0d3f9ef42122eded4efd9c01dc076f3b125108b1c601b2e7f8aa0e0d268eb94e"
+RPM_NAME = "xml-im-exporter-1.1-29.7.noarch.rpm"
+RPM_HASH = "023e35058cfd5991e194be5ced261cf940b734c2e822fea00d95f9fe5d4679524d93417d71970d9121c561c70c38328fe3fc93d90035aefe96e9b15e6926c7e6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-de.zeigermann.xml-xml-im-exporter \

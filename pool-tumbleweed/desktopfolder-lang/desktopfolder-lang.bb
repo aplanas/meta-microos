@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.1.3"
 
-RPM_NAME = "desktopfolder-lang-1.1.3-3.7.noarch.rpm"
-RPM_HASH = "fe2ae1ccc142011f62727b1c830bc50403edc993c1e3a57759442178832b27f7380e993ca1389c5f943aea2ecb98113c4caf9abc9a7dc7f3ad2d27bb9251f784"
+RPM_NAME = "desktopfolder-lang-1.1.3-3.8.noarch.rpm"
+RPM_HASH = "72182465cc38e6ae1059a369e230f52b0444ec76f1b960e8871259b96b3d28146fc408a259e4509679f756e60d69de6dd082edbc9f42a905dd80519bbe5e5041"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "desktopfolder-lang \

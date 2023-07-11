@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.6"
 
-RPM_NAME = "python39-mrcz-0.5.6-2.7.noarch.rpm"
-RPM_HASH = "46557d4d39f6eebcebda8d5683beb960f636e0493f70f049791a5de9a5556d1128466b41690bca568b6929aba96df8cdd91d2dbaa266c946e8bffb8703f90c58"
+RPM_NAME = "python39-mrcz-0.5.6-2.9.noarch.rpm"
+RPM_HASH = "9d15ffe03f624f677cf8a56a09b57205ae2b71c9fe16e6ff575d55d0c42d6afba46b771f37e16977543633d50e30f86e62cb63f00d3a05991e8a3458212323b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-mrcz \

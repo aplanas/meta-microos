@@ -15,8 +15,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.4.4.post2"
 
-RPM_NAME = "python39-aiosmtpd-1.4.4.post2-1.4.noarch.rpm"
-RPM_HASH = "e57636cf8553b337644425fa95402b9b4739811768e69f13a1390c72ecea5a3e8aa257a636f7d3726b2a60c07ef5f86d838d260fbacd092309486cf8bf7b3b47"
+RPM_NAME = "python39-aiosmtpd-1.4.4.post2-2.1.noarch.rpm"
+RPM_HASH = "f5d99514c1ad9e0698392527cd9b671416e7d3b8dfdf5f4ac9aa2f835187343ca58583209457ec508924125258ec1f581c2826e0eab924fe8d25d297359ea85f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-aiosmtpd \

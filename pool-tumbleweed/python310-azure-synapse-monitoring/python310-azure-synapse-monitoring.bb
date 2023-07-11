@@ -6,13 +6,11 @@ LICENSE = "MIT"
 
 PV = "0.2.0"
 
-RPM_NAME = "python310-azure-synapse-monitoring-0.2.0-1.10.noarch.rpm"
-RPM_HASH = "d8cf2a62abb18fdb140dbbd4e1141f975638d8dcdcf553d986f6a8deed1b44bf68f757faaa2d617594f81792e9751c66ba110e00f9be79ba3b90f0fe45895322"
+RPM_NAME = "python310-azure-synapse-monitoring-0.2.0-1.12.noarch.rpm"
+RPM_HASH = "473d7df69139cf017b587019ba322f4233007bf64a311ff69cf2a1969fd67b7c96ab563af677a7c00c76d9400c3159121057f87160784245a56d8d8d856f6906"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-azure-synapse \
-python3-azure-synapse-monitoring \
-python3.10dist-azure-synapse-monitoring \
+RPROVIDES:${PN} += "python3.10dist-azure-synapse-monitoring \
 python310-azure-synapse \
 python310-azure-synapse-monitoring \
 python3dist-azure-synapse-monitoring"

@@ -4,10 +4,10 @@ devices. This means the creation, modification or deletion of files \
 on one machine will automatically be replicated to other devices."
 LICENSE = "MPL-2.0"
 
-PV = "1.23.4"
+PV = "1.23.6"
 
-RPM_NAME = "syncthing-1.23.4-1.2.aarch64.rpm"
-RPM_HASH = "ff2d5e65b06f5151eb1e8018e522853201d3e89b25185ca61c864529f6f3db02ec199780c2bf02f4a0ceb2d3fc18cc0e1cac0b18ec141438b253d27d00e25fa9"
+RPM_NAME = "syncthing-1.23.6-1.1.aarch64.rpm"
+RPM_HASH = "3777eb50bc8769923804d7b783740fcd15bbdca2553c621651ae72b7ad32485becb8321cf191bb11b8668f0df7281a0e06a963476eb06a48467593ba2b1d238d"
 
 RPROVIDES:${PN} += "syncthing"
 

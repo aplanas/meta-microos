@@ -4,10 +4,10 @@ elaborate widgets with a user-interface defined in terms of actions \
 (menu items, toolbar icons). Development files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.106.0"
+PV = "5.107.0"
 
-RPM_NAME = "kparts-devel-5.106.0-1.1.aarch64.rpm"
-RPM_HASH = "bd732c914b6e71d83400fe11568891b3497af1240aa226405b30829ac60361e837a93161953644b4e7170d738dd1316f4dda8c66b2976dcabdb0a97f41771679"
+RPM_NAME = "kparts-devel-5.107.0-1.1.aarch64.rpm"
+RPM_HASH = "70b37e7ac4036498f51269498231d955329e1d5fc02224fc0b029d2bd9dc4cfd92294de2074d4d6a19986c5ff6efa75fd66a4871be7b796e9ae41a4d020c2f4d"
 
 RPROVIDES:${PN} += "cmake-KF5Parts \
 kparts-devel"

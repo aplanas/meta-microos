@@ -4,10 +4,10 @@ out of atoms. This is done with a nice graphical interface where you \
 can move each atom in a labyrinth."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "katomic-23.04.1-1.1.aarch64.rpm"
-RPM_HASH = "ee396e0d59f4c1f87c468bc31e436682c49f9980b9447625e273ef8ec819438a713fc44969537374cb03bb4114d8da066571bb537f3a1e7f8b384e4be85b7996"
+RPM_NAME = "katomic-23.04.3-1.1.aarch64.rpm"
+RPM_HASH = "e8502cb9c41521b994bb321ba27c2edaaa294e20e59314177d29cf428f3c5c0191121d302085591948d479296a5f0f7e68e9bcbba25cc0210d81efd60791fdf3"
 
 RPROVIDES:${PN} += "katomic \
 katomic5"

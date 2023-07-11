@@ -2,10 +2,10 @@ SUMMARY = "Development files for libgepub"
 DESCRIPTION = "A GObject-based library for handling and rendering EPUB documents."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.7.0"
+PV = "0.7.1"
 
-RPM_NAME = "libgepub-devel-0.7.0-1.3.aarch64.rpm"
-RPM_HASH = "3ced4e5ab128c24fb01fffa23b8c770043cfe28e22a66c00eb9333f35aa37678f963dfc1b3af50b2ebe7b00499dc1f7571d4bce062bb808815f9aae6106279ab"
+RPM_NAME = "libgepub-devel-0.7.1-1.1.aarch64.rpm"
+RPM_HASH = "3c11321ca1120d7c8af7ae41defec193d192ce2d73ac6456c0eda0cfb7dd75c1f0edbc562450d9a6a3d42451213beb5e8f849625653afcb62aa5b8b844e40f0c"
 
 RPROVIDES:${PN} += "libgepub-devel \
 pkgconfig-libgepub-0.7"

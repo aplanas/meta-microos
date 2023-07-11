@@ -3,10 +3,10 @@ DESCRIPTION = "Poppler is a PDF rendering library, forked from the xpdf PDF view
 developed by Derek Noonburg of Glyph and Cog, LLC."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "23.05.0"
+PV = "23.06.0"
 
-RPM_NAME = "libpoppler-qt6-3-23.05.0-1.1.aarch64.rpm"
-RPM_HASH = "bf6abae0687aed65d1924911823d20304af26444018fcf865c7fa500e7fd2068516854db7570e50dcabe60b325ceec49d6ec383c1d50071ec078b05f928dfa2d"
+RPM_NAME = "libpoppler-qt6-3-23.06.0-1.1.aarch64.rpm"
+RPM_HASH = "b3c67da6b3f624d29334276734b7b2475ff1674c04f8dd1a4b5c7047f225c86cf021d0da17d278b59a7b6432a3e77911d543d26929a0e7a8ef1a995a6d86f14b"
 
 RPROVIDES:${PN} += "libpoppler-qt6-3 \
 libpoppler-qt6.so.3"
@@ -18,8 +18,8 @@ libQt6Gui.so.6 \
 libc.so.6 \
 libfreetype.so.6 \
 liblcms2.so.2 \
-libpoppler.so.128 \
-libpoppler128 \
+libpoppler.so.129 \
+libpoppler129 \
 libstdc++.so.6"
 
 inherit rpm

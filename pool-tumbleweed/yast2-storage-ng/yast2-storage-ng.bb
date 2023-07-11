@@ -4,10 +4,10 @@ devices during installation and on an installed system. \
 This YaST2 module uses libstorage-ng."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "4.6.10"
+PV = "4.6.11"
 
-RPM_NAME = "yast2-storage-ng-4.6.10-1.1.aarch64.rpm"
-RPM_HASH = "5675884786d06c04dc3baad9011e6cc509da24c919985c04a154ef91d79549855440f4f22943080bceb79e309d8745d80690a92a60362492b7b32fcc9716a717"
+RPM_NAME = "yast2-storage-ng-4.6.11-1.1.aarch64.rpm"
+RPM_HASH = "e8e83b292e3ecf8a82814e474a2b4463252c00bc4a2666b82b9f75443413bb3e6275645e0b5670d6355e6395557277e42c3b5e3e04f3820029b7e86767ef9de9"
 
 RPROVIDES:${PN} += "yast2-storage-ng"
 

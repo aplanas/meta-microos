@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & CC0-1.0"
 
 PV = "0.8.0"
 
-RPM_NAME = "prometheus-simpleclient-java-graphite_bridge-0.8.0-6.10.noarch.rpm"
-RPM_HASH = "cd19ed35e54763b83f9afc80cbe39327d9b0ea52157580488e64910556b240d94dcdc18c7a39537c8e8ce5f9d965bb81ef5f5185625a99a92a671a98aaef5a4f"
+RPM_NAME = "prometheus-simpleclient-java-graphite_bridge-0.8.0-6.11.noarch.rpm"
+RPM_HASH = "6d868415f72966d66c0f982eab1aa7f2d3431b756b4bfc1606ccece3ca3b1a3f9b0ab1d38072f09d4fe155a1eb4b5ba4da300026860f5b0423c0da0d58a4062e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-io.prometheus-simpleclient-graphite-bridge \

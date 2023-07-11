@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.4"
 
-RPM_NAME = "stellarbatchsolver-2.4-2.3.aarch64.rpm"
-RPM_HASH = "c28c15826d66d6bc5b56c4986d8f6f6d7738e8377facba13b620d4618b87b0a2cc6dfa233c6c7d6a72bc1f20d0b627a0685821ccef11c8740ecd84393bd76de1"
+RPM_NAME = "stellarbatchsolver-2.4-2.4.aarch64.rpm"
+RPM_HASH = "7b421b6e49bfe9f8dfef14153d5c24bd1f8e20e398a43372aa87d230dddf90f0d18bd3e9bb8a811dbad6c2d840175691b8ae98ce33fbf905609b1650501f7495"
 
 RPROVIDES:${PN} += "stellarbatchsolver"
 

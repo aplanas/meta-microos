@@ -11,12 +11,11 @@ LICENSE = "ISC"
 
 PV = "0.7.0"
 
-RPM_NAME = "python310-ptyprocess-0.7.0-2.1.noarch.rpm"
-RPM_HASH = "073e8d808c9bd7da48046b6fa6d46a62073975bdd36bf081c97442f17fe53200fb09d4cf6186d39b83681e93026da3e9f280a1b957f5ca6c5e20edb151719635"
+RPM_NAME = "python310-ptyprocess-0.7.0-2.2.noarch.rpm"
+RPM_HASH = "5e8b0ab1fd601fc178a72643192b24b72977036e1fcffcc351d8b608796aff98c1abe255c58af35d190659cb9968c6f5232e4f9c9640d57a8400a0819280462b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-ptyprocess \
-python3.10dist-ptyprocess \
+RPROVIDES:${PN} += "python3.10dist-ptyprocess \
 python310-ptyprocess \
 python3dist-ptyprocess"
 

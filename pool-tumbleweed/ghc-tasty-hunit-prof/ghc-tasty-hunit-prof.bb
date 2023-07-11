@@ -4,15 +4,15 @@ LICENSE = "MIT"
 
 PV = "0.10.0.3"
 
-RPM_NAME = "ghc-tasty-hunit-prof-0.10.0.3-2.2.aarch64.rpm"
-RPM_HASH = "1f0a2153d5975b779c864b5e59f7ea2779b71537aaac096fc92a5cc15196736f90f3d9b676fd9bb55a32792d2100daf476e47dceb419fd3a219fe599d308fb59"
+RPM_NAME = "ghc-tasty-hunit-prof-0.10.0.3-2.3.aarch64.rpm"
+RPM_HASH = "ff55d3490c66bb7f2be956cefd5592050cff3c2cbc069a26b83dec6fd29d4412980ad4d5d9606609b5f6077f35b75effb694d80ea8480c87833c95e05e5a224d"
 
-RPROVIDES:${PN} += "ghc-prof-tasty-hunit-0.10.0.3-CV9N1Lkn3CAEveU82YsKyL \
+RPROVIDES:${PN} += "ghc-prof-tasty-hunit-0.10.0.3-6X5qFyvC3YwCq8i9tfXsji \
 ghc-tasty-hunit-prof"
 
 RDEPENDS:${PN} += "ghc-prof-base-4.17.1.0 \
 ghc-prof-call-stack-0.4.0-K9VxYWjBEvtITBfD6bL7Dk \
-ghc-prof-tasty-1.4.3-FhQLnMluiBU5Fwwb1Rsznz \
+ghc-prof-tasty-1.4.3-18zApXOtbThAhmaMCCQRWB \
 ghc-tasty-hunit-devel"
 
 inherit rpm

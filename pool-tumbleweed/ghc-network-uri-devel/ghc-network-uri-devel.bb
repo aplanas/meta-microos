@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.6.4.2"
 
-RPM_NAME = "ghc-network-uri-devel-2.6.4.2-2.3.aarch64.rpm"
-RPM_HASH = "e84c00e47e0b2e50c1deeacdd47b3116e5f1eb7aab10f89788d474d771ded1db0b67e95fd7761641bc915cec790efe59ee625cea24fd6ba025019afc5fb38bd3"
+RPM_NAME = "ghc-network-uri-devel-2.6.4.2-2.6.aarch64.rpm"
+RPM_HASH = "87f9c6a2a079d4b3eabf55a008d44f2315e6dea975df6a29087d54ee0fd016020f0db231a94090cf1f4ae5c98d8331d9f1967afc3aadc6f125f65e95656f8bd2"
 
 RPROVIDES:${PN} += "ghc-devel-network-uri-2.6.4.2-4kNQnaE9heqEL1mH8FE5xH \
 ghc-network-uri-devel"

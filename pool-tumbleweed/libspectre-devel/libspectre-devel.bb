@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.2.12"
 
-RPM_NAME = "libspectre-devel-0.2.12-1.3.aarch64.rpm"
-RPM_HASH = "3969064633a3fb7dcab449d8c7a752428474cd8b065c2c63bfa1ad467ad8f7f5c0d0b7e9cfddb039c2689b769ea967e964c2d34d288dbb53bcd6eb424dcff63b"
+RPM_NAME = "libspectre-devel-0.2.12-1.4.aarch64.rpm"
+RPM_HASH = "789cb768468badb191f21d73331f58da9036183ad186caf646cad34b1f7126dbb97d0b5bddfd8d2d68235946972b34c5788a119b06955ce563454455c10bcb4a"
 
 RPROVIDES:${PN} += "libspectre-devel \
 pkgconfig-libspectre"

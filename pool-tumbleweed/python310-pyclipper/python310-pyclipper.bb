@@ -10,11 +10,10 @@ LICENSE = "MIT"
 
 PV = "1.3.0.post4"
 
-RPM_NAME = "python310-pyclipper-1.3.0.post4-2.1.aarch64.rpm"
-RPM_HASH = "9506f36ae8cbf71e6abc53aaa16f1ca03d601afc7f6ee0c11bedbc46771a85fd818c5910de69c870df9a28439c6d4f4e21445fbe98eb8e8e0643c003806c21a6"
+RPM_NAME = "python310-pyclipper-1.3.0.post4-2.3.aarch64.rpm"
+RPM_HASH = "b755f4703582d0c9e54f710bd972bd18d1ee1c0009d19ff378def7382b81809bf8bc4a73bf05d1a766d05f6ea4dd1440348b0ddbe25b8dc8df72dc58c212d0eb"
 
-RPROVIDES:${PN} += "python3-pyclipper \
-python3.10dist-pyclipper \
+RPROVIDES:${PN} += "python3.10dist-pyclipper \
 python310-pyclipper \
 python3dist-pyclipper"
 

@@ -25,8 +25,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.02006"
 
-RPM_NAME = "perl-DBIx-Class-UUIDColumns-0.02006-2.17.noarch.rpm"
-RPM_HASH = "eca5d6369357bb8add00143209944a0bb26a71172d111c4baed9b673300dfd699e0c63faef5b60fb7de1d3d833a147a969590526028cd25220159eee90e72635"
+RPM_NAME = "perl-DBIx-Class-UUIDColumns-0.02006-2.18.noarch.rpm"
+RPM_HASH = "9d071b382f4c720102b3cfba1a03f5655ce3427a9d4e7de98d9c62d5b7c4bd40ad5498e97bacbc052fd4669cd0ec5ced56b51261abc6e2170e12e9ca9c8d5347"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DBIx--Class--UUIDColumns \
@@ -41,7 +41,7 @@ perl-DBIx--Class--UUIDColumns--UUIDMaker--Win32--Guidgen \
 perl-DBIx--Class--UUIDColumns--UUIDMaker--Win32API--GUID \
 perl-DBIx-Class-UUIDColumns"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Class--Accessor--Grouped \
 perl-DBIx--Class \
 perl-Data--UUID"

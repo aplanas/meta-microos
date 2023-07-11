@@ -14,8 +14,8 @@ LICENSE = "PostgreSQL"
 
 PV = "12.15"
 
-RPM_NAME = "postgresql12-pltcl-12.15-1.2.aarch64.rpm"
-RPM_HASH = "86ad8eb056966274241f6ada186b981782e106130ad5897e62844d58451198a7d60123afeed01b9f1de583b353b38b32737717fcb33cfe4b2e5b6a6329e4f1ad"
+RPM_NAME = "postgresql12-pltcl-12.15-1.5.aarch64.rpm"
+RPM_HASH = "fe8a6b1daf37792ad4d918ed2fcd8b8967dfab5d87b258734792852757184965533522928bb100de9637fdda763762501bef6389977ce70458772f7c1fe2ef7c"
 
 RPROVIDES:${PN} += "postgresql-pltcl-implementation \
 postgresql12-pltcl"

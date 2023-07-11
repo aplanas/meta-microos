@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "0.4.2"
 
-RPM_NAME = "python39-python-bidi-0.4.2-3.11.noarch.rpm"
-RPM_HASH = "a0f31d45c00c76811158dd9840e13a5b6f08a9a59b6f100e7601e9c18ce912c94ca891621481d74ab97ae1b0d3052f488dfcd83b1419d499a772105f7ecaaa66"
+RPM_NAME = "python39-python-bidi-0.4.2-3.12.noarch.rpm"
+RPM_HASH = "0de4bd1603663c541a59228b48bb724f2f863e3377cf046e1a34ff0b443b66becd4954b515c37a2f9320b9055635a4bb700d56e49e565e53e5aafb46b066173f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-python-bidi \

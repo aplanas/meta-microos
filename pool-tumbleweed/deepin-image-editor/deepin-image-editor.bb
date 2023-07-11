@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.0.24"
 
-RPM_NAME = "deepin-image-editor-1.0.24-1.1.aarch64.rpm"
-RPM_HASH = "b724bed08d615618e52a05be895924fb030dedc3b4c8880d4a140d20c1af01d77653ea357f866cb372c91134aaf3e32378b50a457fa2afaf4352ce58d69c0dda"
+RPM_NAME = "deepin-image-editor-1.0.24-1.2.aarch64.rpm"
+RPM_HASH = "cfe521a472ea24a2c5ed2fe6694a2fb9e1186176cc11eb6e3b7a622d0e15ad63c5fa7f4716e7e66c85e445e39ee190a5681f3e3f3a9eb7e06b9f159c0048a2f5"
 
 RPROVIDES:${PN} += "deepin-image-editor"
 

@@ -6,11 +6,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.3"
 
-RPM_NAME = "python311-django-registration-3.3-1.3.noarch.rpm"
-RPM_HASH = "d6c7cf001cf73afb0735e6635b0346bafde2f74420e7de9cad7270df27e63eef12ec15aa8219587bd6e28cdaa4871748ac65717d5a75d0591b21889b5349d1c4"
+RPM_NAME = "python311-django-registration-3.3-1.5.noarch.rpm"
+RPM_HASH = "b079f5c3bd6c83a581bc17c9ce9f18be52db0941ddc0a2df239b829e7c208eac47d2c5c7804a29567e1df503c5eac881447b2c3b25e8c678a8c1923b02cb80da"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-django-registration \
+RPROVIDES:${PN} += "python3-django-registration \
+python3.11dist-django-registration \
 python311-django-registration \
 python3dist-django-registration"
 

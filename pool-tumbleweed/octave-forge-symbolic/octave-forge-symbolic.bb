@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.0.1"
 
-RPM_NAME = "octave-forge-symbolic-3.0.1-1.2.noarch.rpm"
-RPM_HASH = "5046a35fe42c64da9fef1ea1bf5a39847d6d813cc7e4ecf5b0a741bb5d59c638e4df96fc7ef65757436ed4e7a4a8e02f62c02a557e59a706479d8ba69e8ad3c3"
+RPM_NAME = "octave-forge-symbolic-3.0.1-1.3.noarch.rpm"
+RPM_HASH = "d5755f5224cb5ec9be98d61b9e258cd836df13d77dacc45220953ec0a6a8805e5e30804a766da84d80add19a33441f0cad5abce448c64afdf8f4d61cc032dd60"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "octave-forge-symbolic"

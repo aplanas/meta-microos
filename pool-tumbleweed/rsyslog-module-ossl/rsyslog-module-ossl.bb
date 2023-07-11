@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0 & GPL-3.0-or-later"
 
 PV = "8.2212.0"
 
-RPM_NAME = "rsyslog-module-ossl-8.2212.0-2.4.aarch64.rpm"
-RPM_HASH = "757edd2b802e3fc2e30c1a2704f0e487d909a6fc3bb3e7d377282b850bd2e598f8e3866e1ce8306c6a8874bb4c2c7f75bcf7a211b11a930305f014686ceed432"
+RPM_NAME = "rsyslog-module-ossl-8.2212.0-2.5.aarch64.rpm"
+RPM_HASH = "c7b96b717d859fe697104616e3b389e0f24477c2c098e114151ea1efe2a0379a6883b69ca2f15b954b5bf5b7156733741028286309613b81ac7111af87e9c8c2"
 
 RPROVIDES:${PN} += "rsyslog-module-ossl"
 

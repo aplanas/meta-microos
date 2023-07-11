@@ -8,8 +8,8 @@ LICENSE = "SUSE-Public-Domain & GPL-2.0-or-later"
 
 PV = "4.4"
 
-RPM_NAME = "hashdeep-4.4-5.9.aarch64.rpm"
-RPM_HASH = "08eabb4babe0a17e5070137adbd55133e0753710fc9f0a88aab3e4a4dd68f73b921240047d5bd4c4033f048cc1926921bc30ed75e2105feae53bc1a7a9eae5b8"
+RPM_NAME = "hashdeep-4.4-5.10.aarch64.rpm"
+RPM_HASH = "c0baa90f593540f45d24a456cc5e524ba46159453a71184debc3065d3f9b58bdb083becec7641b05f9cccc545d1424d2e2c4eceba161f01035d0bbe325348d92"
 
 RPROVIDES:${PN} += "hashdeep \
 md5deep"

@@ -5,11 +5,12 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.0.1"
 
-RPM_NAME = "python311-flake8-deprecated-2.0.1-1.3.noarch.rpm"
-RPM_HASH = "207b97501b552768750b0bff4f6757735eae056f3de7ec71acdecc7e21836aa21a5406d6e09b64c69d05eb4a949e2024415b0b99241d5645ac12a8e63f1258b3"
+RPM_NAME = "python311-flake8-deprecated-2.0.1-1.5.noarch.rpm"
+RPM_HASH = "368f9271044a66a7c06e7983b4af85439c8a56bc8c1dd99ef69d500314db8320eedf64b93e7e32e6ba57e34e85216b490ec2c4807f3c7d7ee631f065b5ce788f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-flake8-deprecated \
+RPROVIDES:${PN} += "python3-flake8-deprecated \
+python3.11dist-flake8-deprecated \
 python311-flake8-deprecated \
 python3dist-flake8-deprecated"
 

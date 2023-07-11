@@ -3,10 +3,10 @@ DESCRIPTION = "It includes a Chinese Pinyin input method and a Chinese ZhuYin (B
 method based on libpinyin for IBus."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.15.2"
+PV = "1.15.3"
 
-RPM_NAME = "ibus-libpinyin-1.15.2-1.2.aarch64.rpm"
-RPM_HASH = "14b705884c7b9e36e3092c931668fffa230dde6beaaa5d87d51ca46c5bd1619f4d266f4c25715d058588f7bac34208f0b6c7859b45fb6b89ce86c9ecb75cd7d9"
+RPM_NAME = "ibus-libpinyin-1.15.3-1.2.aarch64.rpm"
+RPM_HASH = "dca0bfc6792cd4535be6aad5eb7e89ea6d1977cbbe41316188be67eeecd1d580e5d29207a39a9f72a9ff9faac290ed9a43047f18a70421967b2e329300c85b3e"
 
 RPROVIDES:${PN} += "ibus-libpinyin \
 locale-ibus-zh-CN;zh-SG"

@@ -9,8 +9,8 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "2.1.4"
 
-RPM_NAME = "ip2unix-2.1.4-4.1.aarch64.rpm"
-RPM_HASH = "c08f01030a9c8a20c5356f7bbf42fd56070357ac66c34052e05e9bd2f2a0b622df425f234a5abc3bb3f13d3cbb7a49ac2c2ce7c684dee6c7105835ee93235b87"
+RPM_NAME = "ip2unix-2.1.4-4.2.aarch64.rpm"
+RPM_HASH = "070ed1ada1df6de19545d88aca09badfc9c4c00b5e2e96a1f5dae4b7f2370e8adc4b3d60673db2812b82f23a52ab53a887578fb7aeb81028324418d5d162ce35"
 
 RPROVIDES:${PN} += "ip2unix \
 libip2unix.so"

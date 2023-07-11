@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "3.1.2"
 
-RPM_NAME = "libdovi-devel-3.1.2-2.1.aarch64.rpm"
-RPM_HASH = "27f769cd36707c75bda4a65ba07383cdfbfb4f8255da5120b837f168c52dd19324008c4f110206ebbffe24122831119b894630ac44fb76a5cb4dbd60b0466901"
+RPM_NAME = "libdovi-devel-3.1.2-2.2.aarch64.rpm"
+RPM_HASH = "1cbbc7b2f343abd7038ddd5d46fcd505180068157d7e517b1aa6e553ee5e35a59e8576947b77b8a9b62d63c7ee4692566da1a838cadacbf89f20e491138dec44"
 
 RPROVIDES:${PN} += "libdovi-devel \
 pkgconfig-dovi"

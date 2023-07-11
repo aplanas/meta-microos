@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.3.1"
 
-RPM_NAME = "dnf-plugins-core-lang-4.3.1-2.1.noarch.rpm"
-RPM_HASH = "bc1506194854dc488f9c8e556b8fffc83acaa0194543fa30c217044136860601c91a37d24ed3f08933fd3fd8bf0a6ba8c16fa6360e1a3e1f01170b785f8722c4"
+RPM_NAME = "dnf-plugins-core-lang-4.3.1-2.2.noarch.rpm"
+RPM_HASH = "d590e7a029736a28ae68381c42942c4a4b32c98dddc9ec2a53cc6421ff5f014bfdcecb64eca781e0f92600d69798e4650c88edefc554f825ad29c25b0c895a07"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dnf-plugins-core-lang \

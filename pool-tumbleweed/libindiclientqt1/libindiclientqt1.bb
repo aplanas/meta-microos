@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & GPL-3.0-or-later"
 
 PV = "1.9.9"
 
-RPM_NAME = "libindiclientqt1-1.9.9-2.2.aarch64.rpm"
-RPM_HASH = "697d990b52bb5531c1a9b4383cad9f8e9a44465b5043985dd6dd244c17fc6857ebcd7f839ae7a5fd9e57fde3708db0654c4cd848861d83540330ba0f1daa1003"
+RPM_NAME = "libindiclientqt1-1.9.9-2.3.aarch64.rpm"
+RPM_HASH = "f38400b8d0b78a0869f74054ff49fb0f6f65ab328e26c7b643ac598dddd6d8a161cf8169ee81da9f1df9183e2768458b2da91455983d7ae3f0d800afd74b7a73"
 
 RPROVIDES:${PN} += "libindiclientqt.so.1 \
 libindiclientqt1"

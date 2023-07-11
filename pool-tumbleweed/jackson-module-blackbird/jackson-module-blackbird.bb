@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.13.3"
 
-RPM_NAME = "jackson-module-blackbird-2.13.3-1.7.noarch.rpm"
-RPM_HASH = "9d71aa5e21fa19c5caed6da745c6fc125365da09fb968ea8bfa077ce8e67e63278b924e586cd17626867abb5a9b4d175cad0023fb64d2cd6eea9839bc7418f2c"
+RPM_NAME = "jackson-module-blackbird-2.13.3-1.8.noarch.rpm"
+RPM_HASH = "9b7cdc5ef7c9c7ed41952a69dfa2dc84b9796fdcf3bae3e542561aa995f66c471d2965656af485d3b72dfbd36fa7d0ed4285367b5fd6c65f25a4fe0ebcf95724"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-module-blackbird \

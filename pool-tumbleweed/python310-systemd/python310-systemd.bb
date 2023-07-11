@@ -8,11 +8,10 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "235"
 
-RPM_NAME = "python310-systemd-235-2.10.aarch64.rpm"
-RPM_HASH = "270b4fe5142eebc83d7b0dd3d189a16f5a33bda749f1cfe48c71919b8c29cc9c6923a84340a1c7c3da13185ed0a453bb31ed0e56a00c30ea498877ca93f65e17"
+RPM_NAME = "python310-systemd-235-3.3.aarch64.rpm"
+RPM_HASH = "188870b316c8f747aee1b7514525119173f8c167cace8825c8b284fe92c59ac6f7082c6fe731bf458cb4a7c27e21c874454d89e63675f0408aef77801f34ef82"
 
-RPROVIDES:${PN} += "python3-systemd \
-python3.10dist-systemd-python \
+RPROVIDES:${PN} += "python3.10dist-systemd-python \
 python310-systemd \
 python3dist-systemd-python"
 

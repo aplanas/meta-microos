@@ -12,12 +12,11 @@ LICENSE = "MIT"
 
 PV = "0.26.2"
 
-RPM_NAME = "python310-openai-0.26.2-1.5.noarch.rpm"
-RPM_HASH = "14e525834e1b462443cecb9530445cb7d67b61d8cfe2480741798a33c4b9ee124c5ab12acddcb8e433183b7ce1c14d17d269443de439dd6f1795a9883b73e56b"
+RPM_NAME = "python310-openai-0.26.2-1.7.noarch.rpm"
+RPM_HASH = "3547c9a730edaaa9bb5db8c2d2e7e6f61cd4c0a8be7a94c2d19903514f8d738d4e99a570be486a2ad5fbba605be582857ac685d34664e42fbdf87c01b4413a9c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-openai \
-python3.10dist-openai \
+RPROVIDES:${PN} += "python3.10dist-openai \
 python310-openai \
 python3dist-openai"
 

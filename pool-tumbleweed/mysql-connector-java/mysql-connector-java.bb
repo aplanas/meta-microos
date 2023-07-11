@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "8.0.33"
 
-RPM_NAME = "mysql-connector-java-8.0.33-2.1.noarch.rpm"
-RPM_HASH = "038c27e99e7392463e3bb44d20f766bcea06f1ac00ef5149889e2b3b4d450eb47eed5368003066190169e27e34057b554d6eb149eb21320426065f932ed5a53a"
+RPM_NAME = "mysql-connector-java-8.0.33-3.2.noarch.rpm"
+RPM_HASH = "581d256072facf8a5dffea2ac7d77500703518f81e2d713dcba22cb1bb5efeca39110b114b9b8491ea71071e9a6484d3ea1bc616d7d825e38b8bd65075635c21"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mm.mysql \

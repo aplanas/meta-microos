@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.16.2"
 
-RPM_NAME = "gdk-pixbuf-loader-libheif-1.16.2-1.1.aarch64.rpm"
-RPM_HASH = "ec28219418c43995b134f61041584a7e0a5b0ad520cbcd0ad49ae4678d3181af1e3a83d441dde6cfbaced626588356c4fc3416a84e5e2df85f03e5a2c0f06972"
+RPM_NAME = "gdk-pixbuf-loader-libheif-1.16.2-1.2.aarch64.rpm"
+RPM_HASH = "cf7fd81c0b2d7ab49ffcd3ef1e7893456b32f074eda7f8c7117e48e7b77d3b2075f18fda3bc61fbee5421ee4f57c2c4fea48daee22f5b85b9efff38101bb06e0"
 
 RPROVIDES:${PN} += "gdk-pixbuf-loader-libheif \
 libpixbufloader-heif.so"

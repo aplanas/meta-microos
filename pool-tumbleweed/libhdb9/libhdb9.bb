@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "7.8.0"
 
-RPM_NAME = "libhdb9-7.8.0-3.1.aarch64.rpm"
-RPM_HASH = "23936668919492021f19a04d165e25399c439353ec8fdc4ca156ef258e321a5ac09c8d8aeb1efd7a844d67704da6590e3fef313123a5ff938cb363fcd6446910"
+RPM_NAME = "libhdb9-7.8.0-3.2.aarch64.rpm"
+RPM_HASH = "1fb00f1cdecb01acefea40e1828b57e0a610e179c8be5e9cc3ff0349bc2ee0905603661061da7339508fbfd27f1ccb7ad6b2f2787be14e120ca3c3feafaeac21"
 
 RPROVIDES:${PN} += "libhdb.so.9 \
 libhdb9"

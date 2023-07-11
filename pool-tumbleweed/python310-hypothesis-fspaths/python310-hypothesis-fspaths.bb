@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.1"
 
-RPM_NAME = "python310-hypothesis-fspaths-0.1-2.8.noarch.rpm"
-RPM_HASH = "8f8a03455ae334d54f536079280cd4c4957b75b27a81ea8ef6fe0feaf7406c709d56bef9c8f57a0d63ef1cfbb7026587a0770de2b39f88c4556b2e5057a5eb19"
+RPM_NAME = "python310-hypothesis-fspaths-0.1-2.10.noarch.rpm"
+RPM_HASH = "cb850afe357d8a49e127a20f9090d30d9b6afae49845c6ee58a0d789c86082f51a73f63ba15916dbaabda40cfb4ef04706a222a3c145c981167b29667bae6625"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-hypothesis-fspaths \
-python3.10dist-hypothesis-fspaths \
+RPROVIDES:${PN} += "python3.10dist-hypothesis-fspaths \
 python310-hypothesis-fspaths \
 python3dist-hypothesis-fspaths"
 

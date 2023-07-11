@@ -4,10 +4,10 @@ LICENSE = "MIT"
 
 PV = "0.2.2.6"
 
-RPM_NAME = "ghc-streaming-commons-prof-0.2.2.6-1.3.aarch64.rpm"
-RPM_HASH = "6874848e122ca9136a6d21e689ad4a8ee39865ac3dae6c368050a2a32de250f096656063f8d0891a90a83ba23196cc267b290e35e01660ebe074861b4741d691"
+RPM_NAME = "ghc-streaming-commons-prof-0.2.2.6-1.7.aarch64.rpm"
+RPM_HASH = "a6ced36250c305a224d71b957f33b6c2c12b711d0844a2997dd78aa8679cf636405aa4ca1bd9b5f4a3b69d14bc9eb58de35bf32b035b9ff369f816992a6ca1ee"
 
-RPROVIDES:${PN} += "ghc-prof-streaming-commons-0.2.2.6-DrPeIbd2d2c3jQtctttO4G \
+RPROVIDES:${PN} += "ghc-prof-streaming-commons-0.2.2.6-EjKcoRCMdUH4DbzWvGfVlu \
 ghc-streaming-commons-prof"
 
 RDEPENDS:${PN} += "ghc-prof-array-0.5.4.0 \
@@ -15,7 +15,7 @@ ghc-prof-async-2.2.4-Is3H7ZPNMkM5reIoCaqYrF \
 ghc-prof-base-4.17.1.0 \
 ghc-prof-bytestring-0.11.4.0 \
 ghc-prof-directory-1.3.7.1 \
-ghc-prof-network-3.1.2.8-HNDBp0HF6t0D1fzE2MDtPd \
+ghc-prof-network-3.1.4.0-FvtFepOtuCUH79FCWyNxIc \
 ghc-prof-process-1.6.16.0 \
 ghc-prof-random-1.2.1.1-I0wUgAAbf0g3qHR3e8uT0o \
 ghc-prof-stm-2.5.1.0 \

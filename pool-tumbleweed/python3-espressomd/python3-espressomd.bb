@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.2.1"
 
-RPM_NAME = "python3-espressomd-4.2.1-2.1.aarch64.rpm"
-RPM_HASH = "9df9a757c67d7b75d85ab11d4a72f836fd9c854f954d7cc8e11f0882325b7ad82b475fcaec5e1a8dee08b07f230f73c6f13185c5c5a0f0178b06c4cf42bdab64"
+RPM_NAME = "python3-espressomd-4.2.1-2.2.aarch64.rpm"
+RPM_HASH = "8641fb11529fb480d883b2f45be903619f6d8de26319bf45bf071a1f7b3d706132f439115a7d24aa1811627ba658c3fadc26f02f05675a3bc7a4ebab0dc11a08"
 
 RPROVIDES:${PN} += "libEspresso4 \
 python3-espressomd"

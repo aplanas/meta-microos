@@ -4,13 +4,14 @@ DESCRIPTION = "A Jupyter / Leaflet bridge enabling interactive maps in the Jupyt
 This package provides the python interface."
 LICENSE = "MIT"
 
-PV = "0.17.2"
+PV = "0.17.3"
 
-RPM_NAME = "python311-ipyleaflet-0.17.2-1.5.noarch.rpm"
-RPM_HASH = "3952eaa78f2d5b79cf341f49cad5b808bc41863e665d0604e057b58e6931c4898e047908f247c29e0c886fd54fe5a415188c0b48bf40f5f377eaa3d45f3fdc09"
+RPM_NAME = "python311-ipyleaflet-0.17.3-1.2.noarch.rpm"
+RPM_HASH = "fd15050960735a9ab90255dfbd529bc822746b9d5067a6844f862df3c1778b571ea7e2a3b080038e06085180321441f81e36045b8dc223f8b3496206fdc9aab8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-ipyleaflet \
+RPROVIDES:${PN} += "python3-ipyleaflet \
+python3.11dist-ipyleaflet \
 python311-ipyleaflet \
 python3dist-ipyleaflet"
 

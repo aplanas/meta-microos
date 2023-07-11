@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.4.0"
 
-RPM_NAME = "QTalarm-2.4.0-1.2.aarch64.rpm"
-RPM_HASH = "a134a6fe2aea9ebb627b06bf7afabd6710d1d0b8b5f1f077bea5db9333dd66ceebe3e0a019d02fd199d654f2646904ca595ef2f26b1bb3f8c87b5ec98fd27b8b"
+RPM_NAME = "QTalarm-2.4.0-1.3.aarch64.rpm"
+RPM_HASH = "3467a9d7fda3257b0efba550cda709e023dd43f71d5d27ea748c8fe64aced4a4feb8550f4205a0d8d9552e9e218b837a6aa42a79ba065fbd10fcd3ca115e08fa"
 
 RPROVIDES:${PN} += "QTalarm"
 

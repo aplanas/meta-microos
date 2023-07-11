@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.2.9a"
 
-RPM_NAME = "pdnsd-doc-1.2.9a-10.8.noarch.rpm"
-RPM_HASH = "dc66fb23821aa26e6608fdb0021df1dd049f524d1cc450fcc8c69f533e20986e87aa8c51f91bf44e760fbe87ba0628ec60daf446067177de2f64826d83a18d1d"
+RPM_NAME = "pdnsd-doc-1.2.9a-10.9.noarch.rpm"
+RPM_HASH = "2fb687af328fb179557d44ac8f45f5a3b06d3a4299e6314e768ebdd3d1162025849b01814d4b8b3e4856f9541e7971202daeb784c05289c4c4b0c8e4f6055b73"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pdnsd-doc"

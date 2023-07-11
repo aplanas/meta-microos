@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.8.5"
 
-RPM_NAME = "sanlk-reset-3.8.5-1.3.aarch64.rpm"
-RPM_HASH = "300373bae0aa2aac027a9050d7d8048ff290245d8148d9311241dba264c6ba165a8460457d32430fd8227e3c7688e977463ce1e7800d99127e26591bd1956d95"
+RPM_NAME = "sanlk-reset-3.8.5-1.4.aarch64.rpm"
+RPM_HASH = "41e40fb674cc8b605c2fe9c142bd16d27206d1bfbe654c94354dd673462b10495e95648d94fe9f6ce7806e20bac6e134e7ebf43b2732e17182edb5f7c09476f9"
 
 RPROVIDES:${PN} += "sanlk-reset"
 

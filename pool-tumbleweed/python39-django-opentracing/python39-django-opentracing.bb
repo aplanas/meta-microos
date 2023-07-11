@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.0"
 
-RPM_NAME = "python39-django-opentracing-1.1.0-2.4.noarch.rpm"
-RPM_HASH = "93f2bf09692230405f5a5f2512767a0a28cc79d621ffd4a9359b0646715d53eba7e65afe69ed310357109b091b89d8c68ca8c07b92149969aba96ea8f3daf1fb"
+RPM_NAME = "python39-django-opentracing-1.1.0-2.6.noarch.rpm"
+RPM_HASH = "cd2c7d77d4d4568551f62d064a6dc15b95e0de807e427147459a81d2dd5635c28ba7dc560553cf05ea0a45a60d25829309634dbbd5841b379a73ce1db923d8fd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-django-opentracing \

@@ -7,8 +7,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.13.4"
 
-RPM_NAME = "ghc-constraints-0.13.4-2.3.aarch64.rpm"
-RPM_HASH = "efc34dfe9d9cf5ccf330031dcb02ff4c0728fa4b0ae71ee6c1366921a55ed43c5575f5a5917c46cf1ff4889c99a9706323505f51405111afabab35c57f0055bf"
+RPM_NAME = "ghc-constraints-0.13.4-2.6.aarch64.rpm"
+RPM_HASH = "8e5cbb3e8da190ce94d94d96889b8f837fe632cf16840534585b2af914169aca1d80e44fc4b49e9e719c43ab7226e4dfc50cd566287c79b19e07313350e07fcc"
 
 RPROVIDES:${PN} += "ghc-constraints \
 libHSconstraints-0.13.4-8c0InBhz3htJzug27IqVE7-ghc9.4.5.so"

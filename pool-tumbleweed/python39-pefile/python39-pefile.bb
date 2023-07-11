@@ -15,8 +15,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2023.2.7"
 
-RPM_NAME = "python39-pefile-2023.2.7-1.2.noarch.rpm"
-RPM_HASH = "ded19c8ee2ef5ca455b91abfbdb66e00a84778978a9d6163a9ac8a26cf33dff94744af2a9ee76146b4ed9909fb84bc2db43028eae4dff211d3d6d39c5660ed16"
+RPM_NAME = "python39-pefile-2023.2.7-2.2.noarch.rpm"
+RPM_HASH = "6855ff16787186bdb7335df00b7832b2eb61e8a59f11852644a5e46841d93dc43deb4b5575f04ffa42dd0fc4d19f5a2a23eaf90ff53a3dc988a74dd4d0ca51c2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pefile \

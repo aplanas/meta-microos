@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.14.50"
 
-RPM_NAME = "libgsf-lang-1.14.50-1.5.noarch.rpm"
-RPM_HASH = "fe75dfb6b02606acdff0036e25b4acdefd304bd962b44d5383d409a94d476a3f853f8fcb8984033ae988ee46b4100cdc4e99b678c424042a62c4a5668a0b9ce4"
+RPM_NAME = "libgsf-lang-1.14.50-1.6.noarch.rpm"
+RPM_HASH = "1bb4212fc03af9c7e7369e8be17ad302cab736145d9ffed50367cab85269e94fb9703ea6bb82e60a2afae36f4a674ca8fd176a60bbf632d0fed762087c82d8a9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libgsf-lang \

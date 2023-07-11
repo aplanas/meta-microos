@@ -5,11 +5,10 @@ LICENSE = "Apache-2.0"
 
 PV = "1.4.2"
 
-RPM_NAME = "python310-quimb-1.4.2-3.2.aarch64.rpm"
-RPM_HASH = "6931ebdd5cf70a7f6eff478336d05e6cc8ad35d5fc0aa1c4c5c7cc53e9b38be1594016d37987dc4c28e37c5cd5a192eceef5706a2a0d03569a8c46245ddafcc5"
+RPM_NAME = "python310-quimb-1.4.2-4.1.aarch64.rpm"
+RPM_HASH = "7768fd70c9380d5585ab06a355052963c3ead829ec12703bbb62cc729ed85bcb5bf19a3502002360072f00c01ef4e3485b92830b62fa3b2e81ba0edb3e56a929"
 
-RPROVIDES:${PN} += "python3-quimb \
-python3.10dist-quimb \
+RPROVIDES:${PN} += "python3.10dist-quimb \
 python310-quimb \
 python3dist-quimb"
 

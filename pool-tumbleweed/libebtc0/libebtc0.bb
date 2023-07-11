@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.0.11"
 
-RPM_NAME = "libebtc0-2.0.11-5.7.aarch64.rpm"
-RPM_HASH = "6c52fee11ad5a1a4108606be82437fb0f7018c434d19a7785adca2aa1eded02835852dcfa71c25f376df45c900e20600bc3cc86b6405cc126750ea1daeafe9e7"
+RPM_NAME = "libebtc0-2.0.11-5.8.aarch64.rpm"
+RPM_HASH = "657ed0d2397a32cf767515dbe5cfd794709a3e46cc0630628a87800d59e25edba1cd935cb5568ff69a9c24d4fafef4a5ddf820d814f8185638cfc8c74316e7aa"
 
 RPROVIDES:${PN} += "libebtc.so.0 \
 libebtc0"

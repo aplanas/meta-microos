@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.8.2"
 
-RPM_NAME = "libappstream-glib8-0.8.2-1.3.aarch64.rpm"
-RPM_HASH = "2d1335016f427abfc798518c379a3d2bf550683d797a63052c182aafb2abd46cb1f98a5040b1388b65a944733e0e7e9a0480eb9397383518d07d84adb47f5e74"
+RPM_NAME = "libappstream-glib8-0.8.2-1.4.aarch64.rpm"
+RPM_HASH = "85a58d079958a92a68022d70f452093bf85676a9654c7e7a7b4e68a95d22a3fc7bf324bba08791caefb77d23e30d45c59e7cee56db541d78901e31be41dee858"
 
 RPROVIDES:${PN} += "libappstream-glib.so.8 \
 libappstream-glib8"

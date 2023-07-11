@@ -8,11 +8,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.4"
 
-RPM_NAME = "python311-colormap-1.0.4-1.3.noarch.rpm"
-RPM_HASH = "d70e4c05ecb3fdce06e9c079a3b4021029004153e8c477360fc71d0ecdc6be172a1f3b95b857352b3e0bbc0197dc45413ce1ce929927565150ae0a6d68c82c87"
+RPM_NAME = "python311-colormap-1.0.4-1.5.noarch.rpm"
+RPM_HASH = "2db980ba3a7bdea92f55ef1cb714abfffeaffe615efa1277c0ddeabd993c99dc5ebe4ac3f17f742eff8f4f3b117245a5d5a32222002571fc75eeae8022fd5640"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-colormap \
+RPROVIDES:${PN} += "python3-colormap \
+python3.11dist-colormap \
 python311-colormap \
 python3dist-colormap"
 

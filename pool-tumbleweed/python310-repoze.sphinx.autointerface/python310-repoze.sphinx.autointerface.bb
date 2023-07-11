@@ -6,12 +6,11 @@ LICENSE = "SUSE-Repoze"
 
 PV = "1.0.0"
 
-RPM_NAME = "python310-repoze.sphinx.autointerface-1.0.0-1.3.noarch.rpm"
-RPM_HASH = "01864f5547554416018e3e5b80daffa23c1226150325cec5aadcc8be37756f6d4b223d3507b3ddb10685742e68e30c978b3c3ca79f0af45eeb8913dad35c3cd5"
+RPM_NAME = "python310-repoze.sphinx.autointerface-1.0.0-2.3.noarch.rpm"
+RPM_HASH = "7002f427baac4c1b45273a158732b4de6ac81293c4a83b7f64d94500b54aeed805807cf8f5b37fc7e175eefd8e09ce1ca89b1dffc803bc6e68c3e4318536b0b4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-repoze.sphinx.autointerface \
-python3.10dist-repoze.sphinx.autointerface \
+RPROVIDES:${PN} += "python3.10dist-repoze.sphinx.autointerface \
 python310-repoze.sphinx.autointerface \
 python3dist-repoze.sphinx.autointerface"
 

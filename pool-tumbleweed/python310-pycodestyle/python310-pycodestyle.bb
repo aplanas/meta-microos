@@ -8,13 +8,11 @@ LICENSE = "MIT"
 
 PV = "2.10.0"
 
-RPM_NAME = "python310-pycodestyle-2.10.0-5.1.noarch.rpm"
-RPM_HASH = "fadd6a057681dc6dc98f0d5f4f1b35af23e2bcbe69ff5a76e38884adf4dd24a0054923de0813335a500eb40affe0edbe2cb15b2cf47af7461598a6d645064458"
+RPM_NAME = "python310-pycodestyle-2.10.0-5.3.noarch.rpm"
+RPM_HASH = "566927bcb8672908dbaee6b542e239a7eb78d8c8a9b410f5b700ca6a46c609c4eebf51622e20b569d8c12478ce6f67b9966be4c89e431bd84ca54ff90e47b40a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pep8 \
-python3-pycodestyle \
-python3.10dist-pycodestyle \
+RPROVIDES:${PN} += "python3.10dist-pycodestyle \
 python310-pep8 \
 python310-pycodestyle \
 python3dist-pycodestyle"

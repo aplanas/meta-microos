@@ -8,8 +8,8 @@ LICENSE = "NetCDF"
 
 PV = "4.9.2"
 
-RPM_NAME = "netcdf-devel-4.9.2-1.1.aarch64.rpm"
-RPM_HASH = "e300d80f3d7c25adc73f89cefa6f9fd8685dab31d528b1c55ebc8558052df56ec371331d01e4e54b82729b0e1d2ecc00efc49ff19a3083cc2004be547e4a7ead"
+RPM_NAME = "netcdf-devel-4.9.2-1.2.aarch64.rpm"
+RPM_HASH = "182f1ba30d7680a239740fbf7bb6f59e19325c53adba826270fdfd1547949bee2de21e953ec197ca5aa549fbf4f7d0819a52a5e82f07b64ec611acdbd263b55c"
 
 RPROVIDES:${PN} += "netcdf-devel \
 pkgconfig-netcdf"

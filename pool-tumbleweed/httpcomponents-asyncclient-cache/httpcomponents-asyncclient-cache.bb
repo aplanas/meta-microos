@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "4.1.4"
 
-RPM_NAME = "httpcomponents-asyncclient-cache-4.1.4-3.9.noarch.rpm"
-RPM_HASH = "676f89c181bf7b444af9ce228cf5706c3cff35073e46a03e183d16dcbe75d0c5e280a33154da4e45794aaebbcf37382d97547eaac7ba94a2b60d95ce8a09154b"
+RPM_NAME = "httpcomponents-asyncclient-cache-4.1.4-3.10.noarch.rpm"
+RPM_HASH = "e4f935ca34e8cb10053a91e32847654ae9ca895b3d7cf6c4d9f27ddbfd7c358f6c69a3c4c42e111c56807c8f72f8a6e69938c3a461b0692f37f3315f2ece49ca"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "httpcomponents-asyncclient-cache \

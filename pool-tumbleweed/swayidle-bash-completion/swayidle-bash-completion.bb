@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.8.0"
 
-RPM_NAME = "swayidle-bash-completion-1.8.0-1.2.noarch.rpm"
-RPM_HASH = "36a56dbd0e8be93ac5573dbe194c73a574dd338e311d8d601cfe90713f36598beddf57988092d0090a5a371b643d04d1f3d74c46911c433dbaa898ad681e71a5"
+RPM_NAME = "swayidle-bash-completion-1.8.0-1.3.noarch.rpm"
+RPM_HASH = "70372a1556c69442812804cc13b7b43713fd9f22680a26cd900c58d1d49a1a925f0b6ed8d547ff26bb3260f446754f89479e3fb1be4e4254f85a70640872b288"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "swayidle-bash-completion"

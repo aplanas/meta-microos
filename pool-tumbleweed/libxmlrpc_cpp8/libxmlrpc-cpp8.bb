@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause & MIT"
 
 PV = "1.54.06"
 
-RPM_NAME = "libxmlrpc_cpp8-1.54.06-1.3.aarch64.rpm"
-RPM_HASH = "26e335167fe9e3e5113b126e7820a40cbe90b14c1bcab88fa8afb4b584a0beede4c9ed9e17ad2b80b9b93504c4687cee5093201ca268318fa63890ac5d30121a"
+RPM_NAME = "libxmlrpc_cpp8-1.54.06-1.4.aarch64.rpm"
+RPM_HASH = "e6546818427844720ab51d590ca5c138edbe0f665d21cd66ccdb78df1646b36de0e20580b68bfb17975461578ab5c6f3f15e85b17e8430670743beb9f739b38e"
 
 RPROVIDES:${PN} += "libxmlrpc-cpp.so.8 \
 libxmlrpc-cpp8"

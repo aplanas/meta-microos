@@ -2,10 +2,10 @@ SUMMARY = "Translations for package ksudoku"
 DESCRIPTION = "Provides translations for the 'ksudoku' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.1"
+PV = "23.04.3"
 
-RPM_NAME = "ksudoku-lang-23.04.1-1.1.noarch.rpm"
-RPM_HASH = "569a499025dd7ca45b5042b1adbecc7bbee9c41575c64ef0c0cd88f683a68ff1c26ce2c2b4e07b95aa6ce4ad3edac701005fffc35f9d78a17cf2bc28438f62a1"
+RPM_NAME = "ksudoku-lang-23.04.3-1.1.noarch.rpm"
+RPM_HASH = "4984dbf44e31e1efa87a26767b6222590e09c04aad5b66beea12648eb479f326dec09da6b7441435f4063c38e88954c4ec1cbbbc8e825327a2249a945a1ec735"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ksudoku-lang \

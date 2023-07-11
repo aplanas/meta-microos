@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-lxfonts"
 DESCRIPTION = "The  separated fonts package for texlive-lxfonts"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0bsvn32354"
+PV = "2023.208.2.0bsvn32354"
 
-RPM_NAME = "texlive-lxfonts-fonts-2023.201.2.0bsvn32354-52.1.noarch.rpm"
-RPM_HASH = "5a061bae453c1338f6c98e3902a27c2169bcb9b7c47edfef943de658e7fd5dbbf161365a1e1db62a0caeb355d9e0d4fafd6c18273209da5f3f77dfeeee91303a"
+RPM_NAME = "texlive-lxfonts-fonts-2023.208.2.0bsvn32354-53.1.noarch.rpm"
+RPM_HASH = "3c6439dba3757025a63302c9ddb797d8003be42bbc7a2b2536ce4e74e7df1d0cb1d0ac0a13578eac6bd4362002fd0fbe73c78ca923be456d99253496b78ad6b1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

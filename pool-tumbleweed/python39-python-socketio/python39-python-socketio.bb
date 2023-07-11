@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "5.7.2"
 
-RPM_NAME = "python39-python-socketio-5.7.2-1.3.noarch.rpm"
-RPM_HASH = "58dcbac9bcbec63975daa46f3639be88c7c3f8f354af0338ba2da57767d0560079b9c1026cc33dc2785315c93a19cd1482612c47b027511e653d04da27ede71a"
+RPM_NAME = "python39-python-socketio-5.7.2-1.5.noarch.rpm"
+RPM_HASH = "9f4fa0d5d3f7dafb7ce4c4c26f41149fc72d462322d958e30ad283385e578042a050ec41a2aeb145b88017848a6c30cdbc946b9eaca0cea9bcc5022292bc379b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-python-socketio \
